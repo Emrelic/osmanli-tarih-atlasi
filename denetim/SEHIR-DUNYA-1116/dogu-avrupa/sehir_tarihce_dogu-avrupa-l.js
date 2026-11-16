@@ -19,7 +19,7 @@ window.SEHIR_TARIHCE_DOGU_AVRUPA_L = [
    "nicelik": "ilk_anilis",
    "kesinlik": "yil",
    "kaynak": "Encyclopedia of Ukraine (CIUS/IEU), 'Chernihiv' (encyclopediaofukraine.com; 16 Kas 2026'da okundu): 'The chronicles first mention Chernihiv in 907' (EIU özeti)",
-   "tanik": "The chronicles first mention Chernihiv in 907"
+   "tanik": "The first mention of Chernihiv in the chronicles occurred in 907."
   },
   "kur": null,
   "ark": null,
@@ -78,7 +78,7 @@ window.SEHIR_TARIHCE_DOGU_AVRUPA_L = [
     "kaynak": "Encyclopedia of Ukraine (CIUS/IEU), 'Chernihiv' (encyclopediaofukraine.com; 16 Kas 2026'da okundu)"
    }
   ],
-  "ic_not": "KOORD: GeoNames 710735 (51°30′19.48″ N, 31°17′11.62″ E; geonames.org arama sayfasından okundu, 16 Kas 2026), atlas tahmininden 0.82 km; sapma yok (<3 km).  ZİNCİR: 907-1000 'kiev-rusu' beyanlı yaklaşıklık; atlas 1000-01-01 'kiev-rusu' ile aynı sahip (dikişte olay gerekmez). ATLAS: Çernigov var(8) kronolojisi var; atlas başlangıcı 1000 — ilk anılış (907) onu önceler. 'Çernigov Prensliği' (künye 1024-1239) 11. yy'da bu şehrin merkezi olduğu prenslik; zincir 1000'de bittiği için yazılmadı. TDV İslâm Ansiklopedisi araması: bu turda yalnız Kursk, Lviv, Minsk, Petersburg, Hopa, Soçi, Sâşe arandı; hiçbirinde 'Madde Başlıkları'nda madde yok (yalnız 'Madde İçerikleri' geçişleri); diğer yerler için TDV araması yapılmadı. İSAM/TTK/DergiPark/YÖK basamakları bu yer için yeterli akademik veriye ulaşmadı; yerel ulusal ansiklopedi basamağı kullanıldı."
+  "ic_not": "KOORD: GeoNames 710735 (51°30′19.48″ N, 31°17′11.62″ E; geonames.org arama sayfasından okundu, 16 Kas 2026), atlas tahmininden 0.82 km; sapma yok (<3 km).  ZİNCİR: 907-1000 'kiev-rusu' beyanlı yaklaşıklık; atlas 1000-01-01 'kiev-rusu' ile aynı sahip (dikişte olay gerekmez). ATLAS: Çernigov var(8) kronolojisi var; atlas başlangıcı 1000 — ilk anılış (907) onu önceler. 'Çernigov Prensliği' (künye 1024-1239) 11. yy'da bu şehrin merkezi olduğu prenslik; zincir 1000'de bittiği için yazılmadı. TDV İslâm Ansiklopedisi araması: bu turda yalnız Kursk, Lviv, Minsk, Petersburg, Hopa, Soçi, Sâşe arandı; hiçbirinde 'Madde Başlıkları'nda madde yok (yalnız 'Madde İçerikleri' geçişleri); diğer yerler için TDV araması yapılmadı. İSAM/TTK/DergiPark/YÖK basamakları bu yer için yeterli akademik veriye ulaşmadı; yerel ulusal ansiklopedi basamağı kullanıldı. | TANIK: Encyclopedia of Ukraine (CIUS) sayfasından birebir cümle (16 Kas 2026, tarayıcı; yıl + şehir aynı cümlede ya da maddenin konusu şehre açık atıf)."
  },
  {
   "id": "chuhuiv-ua",
@@ -97,7 +97,7 @@ window.SEHIR_TARIHCE_DOGU_AVRUPA_L = [
    "nicelik": "kurulus",
    "kesinlik": "yil",
    "kaynak": "Encyclopedia of Ukraine (CIUS/IEU), 'Chuhuiv' (encyclopediaofukraine.com; 16 Kas 2026'da okundu): 'Chuhuiv was founded in 1638 as a frontier settlement by Yakiv Ostrianyn and his Cossacks'",
-   "tanik": "founded in 1638 as a frontier settlement by Yakiv Ostrianyn"
+   "tanik": "Chuhuiv was founded in 1638 as a frontier settlement by Yakiv Ostrianyn and his Cossacks."
   },
   "kur": {
    "t": "1638-01-01",
@@ -146,7 +146,7 @@ window.SEHIR_TARIHCE_DOGU_AVRUPA_L = [
     "kaynak": "Encyclopedia of Ukraine (CIUS/IEU), 'Chuhuiv' (encyclopediaofukraine.com; 16 Kas 2026'da okundu)"
    }
   ],
-  "ic_not": "KOORD: GeoNames 710374 (49°50′07.37″ N, 36°41′11.40″ E; geonames.org arama sayfasından okundu, 16 Kas 2026), atlas tahmininden 0.76 km; sapma yok (<3 km).  ZİNCİR YAZILMADI: kuruluş 1638 = atlas başlangıcı 1638-01-01 'rusya'; çelişki yok. EIU Moskova hâkimiyetini açık yazmaz ('mid-17th century to 1765 Kharkiv regiment company town' — Sloboda Kazak alayları Rus çarına bağlıydı; ayrı beyan edilmedi). TDV İslâm Ansiklopedisi araması: bu turda yalnız Kursk, Lviv, Minsk, Petersburg, Hopa, Soçi, Sâşe arandı; hiçbirinde 'Madde Başlıkları'nda madde yok (yalnız 'Madde İçerikleri' geçişleri); diğer yerler için TDV araması yapılmadı. İSAM/TTK/DergiPark/YÖK basamakları bu yer için yeterli akademik veriye ulaşmadı; yerel ulusal ansiklopedi basamağı kullanıldı."
+  "ic_not": "KOORD: GeoNames 710374 (49°50′07.37″ N, 36°41′11.40″ E; geonames.org arama sayfasından okundu, 16 Kas 2026), atlas tahmininden 0.76 km; sapma yok (<3 km).  ZİNCİR YAZILMADI: kuruluş 1638 = atlas başlangıcı 1638-01-01 'rusya'; çelişki yok. EIU Moskova hâkimiyetini açık yazmaz ('mid-17th century to 1765 Kharkiv regiment company town' — Sloboda Kazak alayları Rus çarına bağlıydı; ayrı beyan edilmedi). TDV İslâm Ansiklopedisi araması: bu turda yalnız Kursk, Lviv, Minsk, Petersburg, Hopa, Soçi, Sâşe arandı; hiçbirinde 'Madde Başlıkları'nda madde yok (yalnız 'Madde İçerikleri' geçişleri); diğer yerler için TDV araması yapılmadı. İSAM/TTK/DergiPark/YÖK basamakları bu yer için yeterli akademik veriye ulaşmadı; yerel ulusal ansiklopedi basamağı kullanıldı. | TANIK: Encyclopedia of Ukraine (CIUS) sayfasından birebir cümle (16 Kas 2026, tarayıcı; yıl + şehir aynı cümlede ya da maddenin konusu şehre açık atıf)."
  },
  {
   "id": "kursk-ru",
@@ -268,7 +268,7 @@ window.SEHIR_TARIHCE_DOGU_AVRUPA_L = [
    "nicelik": "ilk_anilis",
    "kesinlik": "yil",
    "kaynak": "Encyclopedia of Ukraine (CIUS/IEU), 'Lviv' (encyclopediaofukraine.com; 16 Kas 2026'da okundu): 'first mentioned in the Galician-Volhynian Chronicle under 1256'",
-   "tanik": "first mentioned in the Galician-Volhynian Chronicle under 1256"
+   "tanik": "The city is first mentioned in the Galician-Volhynian Chronicle under the year 1256."
   },
   "kur": null,
   "ark": null,
@@ -346,7 +346,7 @@ window.SEHIR_TARIHCE_DOGU_AVRUPA_L = [
     "kaynak": "Encyclopedia of Ukraine (CIUS/IEU), 'Lviv' (encyclopediaofukraine.com; 16 Kas 2026'da okundu)"
    }
   ],
-  "ic_not": "KOORD: GeoNames 702550 (49°50′17.74″ N, 24°01′23.66″ E; geonames.org arama sayfasından okundu, 16 Kas 2026), atlas tahmininden 0.52 km; sapma yok (<3 km).  ZİNCİR YAZILMADI: ilk anılış (1256) atlas başlangıcıyla (1256-01-01 'galicya-volhinya') aynı; atlas zinciri esastır. Kuruluş: EIU 13. yy ortası, Prens Danylo Romanovych, oğlu Lev'in adına — kesin tarih yok, kur yazılmadı; EIU kazılarda 10. yy yerleşimi 'öne sürüldüğünü' söyler (ark yazılmadı, kesin dayanak okunmadı). EIU 1991'de el değişimi anlatmaz (yalnız Ukrayna Katolik Kilisesi'nin dönüşü). TDV İslâm Ansiklopedisi araması: bu turda yalnız Kursk, Lviv, Minsk, Petersburg, Hopa, Soçi, Sâşe arandı; hiçbirinde 'Madde Başlıkları'nda madde yok (yalnız 'Madde İçerikleri' geçişleri); diğer yerler için TDV araması yapılmadı. İSAM/TTK/DergiPark/YÖK basamakları bu yer için yeterli akademik veriye ulaşmadı; yerel ulusal ansiklopedi basamağı kullanıldı. Dikişte atlas ile çelişki yok."
+  "ic_not": "KOORD: GeoNames 702550 (49°50′17.74″ N, 24°01′23.66″ E; geonames.org arama sayfasından okundu, 16 Kas 2026), atlas tahmininden 0.52 km; sapma yok (<3 km).  ZİNCİR YAZILMADI: ilk anılış (1256) atlas başlangıcıyla (1256-01-01 'galicya-volhinya') aynı; atlas zinciri esastır. Kuruluş: EIU 13. yy ortası, Prens Danylo Romanovych, oğlu Lev'in adına — kesin tarih yok, kur yazılmadı; EIU kazılarda 10. yy yerleşimi 'öne sürüldüğünü' söyler (ark yazılmadı, kesin dayanak okunmadı). EIU 1991'de el değişimi anlatmaz (yalnız Ukrayna Katolik Kilisesi'nin dönüşü). TDV İslâm Ansiklopedisi araması: bu turda yalnız Kursk, Lviv, Minsk, Petersburg, Hopa, Soçi, Sâşe arandı; hiçbirinde 'Madde Başlıkları'nda madde yok (yalnız 'Madde İçerikleri' geçişleri); diğer yerler için TDV araması yapılmadı. İSAM/TTK/DergiPark/YÖK basamakları bu yer için yeterli akademik veriye ulaşmadı; yerel ulusal ansiklopedi basamağı kullanıldı. Dikişte atlas ile çelişki yok. | TANIK: Encyclopedia of Ukraine (CIUS) sayfasından birebir cümle (16 Kas 2026, tarayıcı; yıl + şehir aynı cümlede ya da maddenin konusu şehre açık atıf)."
  },
  {
   "id": "mariupol-ua",
@@ -368,7 +368,7 @@ window.SEHIR_TARIHCE_DOGU_AVRUPA_L = [
    "nicelik": "ilk_anilis",
    "kesinlik": "yil",
    "kaynak": "Encyclopedia of Ukraine (CIUS/IEU), 'Mariupol' (encyclopediaofukraine.com; 16 Kas 2026'da okundu): 'By 1611 Domakha had become the center of the Zaporozhian Cossack Kalmiius Palanka' (EIU, özet)",
-   "tanik": "By 1611 Domakha had become the center of the Zaporozhian Cossack Kalmiius Palanka"
+   "tanik": "By 1611 Domakha was the center of the Zaporozhian Cossack Kalmiius Palanka."
   },
   "kur": null,
   "ark": null,
@@ -441,7 +441,7 @@ window.SEHIR_TARIHCE_DOGU_AVRUPA_L = [
     "kaynak": "Encyclopedia of Ukraine (CIUS/IEU), 'Mariupol' (encyclopediaofukraine.com; 16 Kas 2026'da okundu)"
    }
   ],
-  "ic_not": "KOORD: GeoNames 701822 (47°05′42.50″ N, 37°32′28.72″ E; geonames.org arama sayfasından okundu, 16 Kas 2026), atlas tahmininden 0.27 km; sapma yok (<3 km).  ÇELİŞKİ: atlas Mariupol'u 1779-01-01'de 'rusya' ile başlatıyor; EIU adın 1780'de verildiğini, 1778'de Pavlovsk kurulduğunu söyler (1779 değil). Atlas başlangıcı kaynaksız; EIU'ya göre 1775 ilhak / 1778 Pavlovsk / 1780 Mariupol. Zincir: 1611-1775 'zaporojye' (künye 1552-1775-06-16; dönem 1775-01-01'de kapatıldı, yalnız yıl var), 1775-1779 'rusya' (atlasla aynı sahip, dikiş olay gerektirmez). Domakha kalesinin tam yeri Mariupol noktasıyla aynı mı: EIU 'fortress ... on the site' diye bağlar; bağımsız arkeolojik teyit okunmadı. TDV İslâm Ansiklopedisi araması: bu turda yalnız Kursk, Lviv, Minsk, Petersburg, Hopa, Soçi, Sâşe arandı; hiçbirinde 'Madde Başlıkları'nda madde yok (yalnız 'Madde İçerikleri' geçişleri); diğer yerler için TDV araması yapılmadı. İSAM/TTK/DergiPark/YÖK basamakları bu yer için yeterli akademik veriye ulaşmadı; yerel ulusal ansiklopedi basamağı kullanıldı."
+  "ic_not": "KOORD: GeoNames 701822 (47°05′42.50″ N, 37°32′28.72″ E; geonames.org arama sayfasından okundu, 16 Kas 2026), atlas tahmininden 0.27 km; sapma yok (<3 km).  ÇELİŞKİ: atlas Mariupol'u 1779-01-01'de 'rusya' ile başlatıyor; EIU adın 1780'de verildiğini, 1778'de Pavlovsk kurulduğunu söyler (1779 değil). Atlas başlangıcı kaynaksız; EIU'ya göre 1775 ilhak / 1778 Pavlovsk / 1780 Mariupol. Zincir: 1611-1775 'zaporojye' (künye 1552-1775-06-16; dönem 1775-01-01'de kapatıldı, yalnız yıl var), 1775-1779 'rusya' (atlasla aynı sahip, dikiş olay gerektirmez). Domakha kalesinin tam yeri Mariupol noktasıyla aynı mı: EIU 'fortress ... on the site' diye bağlar; bağımsız arkeolojik teyit okunmadı. TDV İslâm Ansiklopedisi araması: bu turda yalnız Kursk, Lviv, Minsk, Petersburg, Hopa, Soçi, Sâşe arandı; hiçbirinde 'Madde Başlıkları'nda madde yok (yalnız 'Madde İçerikleri' geçişleri); diğer yerler için TDV araması yapılmadı. İSAM/TTK/DergiPark/YÖK basamakları bu yer için yeterli akademik veriye ulaşmadı; yerel ulusal ansiklopedi basamağı kullanıldı. | TANIK: Encyclopedia of Ukraine (CIUS) sayfasından birebir cümle (16 Kas 2026, tarayıcı; yıl + şehir aynı cümlede ya da maddenin konusu şehre açık atıf)."
  },
  {
   "id": "medzhybizh-ua",
@@ -461,7 +461,7 @@ window.SEHIR_TARIHCE_DOGU_AVRUPA_L = [
    "nicelik": "ilk_anilis",
    "kesinlik": "yil",
    "kaynak": "Encyclopedia of Ukraine (CIUS/IEU), 'Medzhybizh' (encyclopediaofukraine.com; 16 Kas 2026'da okundu): 'first mentioned in the Hypatian Chronicle under the year 1146'",
-   "tanik": "first mentioned in the Hypatian Chronicle under the year 1146"
+   "tanik": "It was first mentioned in the Hypatian Chronicle under the year 1146."
   },
   "kur": null,
   "ark": null,
@@ -549,7 +549,7 @@ window.SEHIR_TARIHCE_DOGU_AVRUPA_L = [
     "kaynak": "Encyclopedia of Ukraine (CIUS/IEU), 'Medzhybizh' (encyclopediaofukraine.com; 16 Kas 2026'da okundu)"
    }
   ],
-  "ic_not": "KOORD: GeoNames 701425 (49°26′11.69″ N, 27°24′32.65″ E; geonames.org arama sayfasından okundu, 16 Kas 2026), atlas tahmininden 0.75 km; sapma yok (<3 km).  ATLAS: Meciboj 1281'de 'altinorda' ile başlıyor; EIU'ya göre 1255'te Danylo (galicya-volhinya) şehri geri almış ve 1258'de Tatarlar yenilmiş; 1281 için tanık yok — dikiş beyanlı. Sahiplik 1146-1241 sahibi bulunamadı (__BOSLUK__ olarak 1255'e kadar). Osmanlı dönemi (EIU 1666-1693) TDV'de ayrıca doğrulanmadı. TDV İslâm Ansiklopedisi araması: bu turda yalnız Kursk, Lviv, Minsk, Petersburg, Hopa, Soçi, Sâşe arandı; hiçbirinde 'Madde Başlıkları'nda madde yok (yalnız 'Madde İçerikleri' geçişleri); diğer yerler için TDV araması yapılmadı. İSAM/TTK/DergiPark/YÖK basamakları bu yer için yeterli akademik veriye ulaşmadı; yerel ulusal ansiklopedi basamağı kullanıldı.",
+  "ic_not": "KOORD: GeoNames 701425 (49°26′11.69″ N, 27°24′32.65″ E; geonames.org arama sayfasından okundu, 16 Kas 2026), atlas tahmininden 0.75 km; sapma yok (<3 km).  ATLAS: Meciboj 1281'de 'altinorda' ile başlıyor; EIU'ya göre 1255'te Danylo (galicya-volhinya) şehri geri almış ve 1258'de Tatarlar yenilmiş; 1281 için tanık yok — dikiş beyanlı. Sahiplik 1146-1241 sahibi bulunamadı (__BOSLUK__ olarak 1255'e kadar). Osmanlı dönemi (EIU 1666-1693) TDV'de ayrıca doğrulanmadı. TDV İslâm Ansiklopedisi araması: bu turda yalnız Kursk, Lviv, Minsk, Petersburg, Hopa, Soçi, Sâşe arandı; hiçbirinde 'Madde Başlıkları'nda madde yok (yalnız 'Madde İçerikleri' geçişleri); diğer yerler için TDV araması yapılmadı. İSAM/TTK/DergiPark/YÖK basamakları bu yer için yeterli akademik veriye ulaşmadı; yerel ulusal ansiklopedi basamağı kullanıldı. | TANIK: Encyclopedia of Ukraine (CIUS) sayfasından birebir cümle (16 Kas 2026, tarayıcı; yıl + şehir aynı cümlede ya da maddenin konusu şehre açık atıf).",
   "dikis_beyan": "Atlas 1281-01-01'de 'altinorda' yazıyor; EIU 1255 galicya-volhinya ve 1258 Tatar yenilgisini verir, 1281 için tanık yok; arandı: EIU Medzhybizh — bulunamadı."
  },
  {
@@ -569,7 +569,7 @@ window.SEHIR_TARIHCE_DOGU_AVRUPA_L = [
    "nicelik": "kurulus",
    "kesinlik": "yil",
    "kaynak": "Encyclopedia of Ukraine (CIUS/IEU), 'Melitopol' (encyclopediaofukraine.com; 16 Kas 2026'da okundu): 'A frontier settlement was established at the site in 1784'",
-   "tanik": "A frontier settlement was established at the site in 1784"
+   "tanik": "A frontier settlement was established at the site in 1784."
   },
   "kur": {
    "t": "1784-01-01",
@@ -611,7 +611,7 @@ window.SEHIR_TARIHCE_DOGU_AVRUPA_L = [
     "kaynak": "Encyclopedia of Ukraine (CIUS/IEU), 'Melitopol' (encyclopediaofukraine.com; 16 Kas 2026'da okundu)"
    }
   ],
-  "ic_not": "KOORD: GeoNames 701404 (46°50′50.46″ N, 35°22′55.06″ E; geonames.org arama sayfasından okundu, 16 Kas 2026), atlas tahmininden 1.11 km; sapma yok (<3 km).  ZİNCİR YAZILMADI: kuruluş 1784, atlas başlangıcı 1784-01-01 'rusya' ile aynı. EIU Osmanlı/Nogay/Kırım bağını ve ilhak tarihini bu madde için vermez; 1784 öncesi bölge 'Kırım Hanlığı/Nogay ovası' idi (künye 'kirim' 1441-1783-04-19) ama kaynak yok. Melitopol kurganı (İskit, MÖ 4.-3. yy) yerleşimin kendisi değil, ayrı kayıt. TDV İslâm Ansiklopedisi araması: bu turda yalnız Kursk, Lviv, Minsk, Petersburg, Hopa, Soçi, Sâşe arandı; hiçbirinde 'Madde Başlıkları'nda madde yok (yalnız 'Madde İçerikleri' geçişleri); diğer yerler için TDV araması yapılmadı. İSAM/TTK/DergiPark/YÖK basamakları bu yer için yeterli akademik veriye ulaşmadı; yerel ulusal ansiklopedi basamağı kullanıldı."
+  "ic_not": "KOORD: GeoNames 701404 (46°50′50.46″ N, 35°22′55.06″ E; geonames.org arama sayfasından okundu, 16 Kas 2026), atlas tahmininden 1.11 km; sapma yok (<3 km).  ZİNCİR YAZILMADI: kuruluş 1784, atlas başlangıcı 1784-01-01 'rusya' ile aynı. EIU Osmanlı/Nogay/Kırım bağını ve ilhak tarihini bu madde için vermez; 1784 öncesi bölge 'Kırım Hanlığı/Nogay ovası' idi (künye 'kirim' 1441-1783-04-19) ama kaynak yok. Melitopol kurganı (İskit, MÖ 4.-3. yy) yerleşimin kendisi değil, ayrı kayıt. TDV İslâm Ansiklopedisi araması: bu turda yalnız Kursk, Lviv, Minsk, Petersburg, Hopa, Soçi, Sâşe arandı; hiçbirinde 'Madde Başlıkları'nda madde yok (yalnız 'Madde İçerikleri' geçişleri); diğer yerler için TDV araması yapılmadı. İSAM/TTK/DergiPark/YÖK basamakları bu yer için yeterli akademik veriye ulaşmadı; yerel ulusal ansiklopedi basamağı kullanıldı. | TANIK: Encyclopedia of Ukraine (CIUS) sayfasından birebir cümle (16 Kas 2026, tarayıcı; yıl + şehir aynı cümlede ya da maddenin konusu şehre açık atıf)."
  },
  {
   "id": "oryol-ru",

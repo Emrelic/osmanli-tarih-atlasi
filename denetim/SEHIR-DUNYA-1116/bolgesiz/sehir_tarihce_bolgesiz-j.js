@@ -100,7 +100,7 @@ window.SEHIR_TARIHCE_BOLGESIZ_J = [
    "nicelik": "ilk_anilis",
    "kesinlik": "yil",
    "kaynak": "Hrvatska enciklopedija (LZMK), 'Ljubljana' (https://www.enciklopedija.hr/clanak/ljubljana; 16 Kas 2026'da okundu): kentin adı kaynaklarda ilk kez 1144'te Almanca biçimiyle (Laibach), 1146'da Slovence biçimiyle (Luwigana) geçer",
-   "tanik": "Ime grada javlja se u izvorima prvi put 1144 (u njemačkom obliku Laibach)"
+   "tanik": "Ime grada javlja se u izvorima prvi put 1144 (u njemačkom obliku Laibach), odnosno 1146 (u slovenskom obliku Luwigana)."
   },
   "kur": null,
   "ark": null,
@@ -139,7 +139,7 @@ window.SEHIR_TARIHCE_BOLGESIZ_J = [
    }
   ],
   "dikis_beyan": "Atlas 1281-01-01 'almanya' der; HE 1144-1335 arası sahibi tarihli vermez, 1281 günü ve 'almanya' etiketi bu turda şehre özgü tarihli tanıkla doğrulanamadı.",
-  "ic_not": "KOORD: GeoNames 3196359 (46°03′03.89″ N, 14°30′18.47″ E), atlas tahmininden 0.55 km; sapma yok. KAYNAK BASAMAKLARI: ① TDV: Ljubljana için arama yapılmadı bu turda. ② Hrvatska enciklopedija (LZMK) OKUNDU, ana dayanak. Britannica 403 verdi (okunamadı). Üst basamaklar (Slovenski biografski leksikon, Kronika, ZDJP) BU PARTİDE YAPILMADI. ANTİK YERLEŞİM: HE'ye göre Colonia Iulia Emona yaklaşık MÖ 34'te kuruldu ve 452'de Hun istilasında yıkıldı ('U Hunskom osvajanju 452. grad je propao'); sonrası Slav iskânıyla kırsal yerleşim; Emona'nın bugünkü Ljubljana ile kesintisiz süreklilik iddiası kaynakta yok — bu yüzden Emona kuruluşu (kur) YAZILMADI, süreklilik varsayılmadı; ayrı 'Emona' antik kaydı önerilir (aynı nokta, ≤3 km ise ayrı tutulması VERI-YAPISI kuralıyla karar bekler). ÖNEMLİ: 1144 yalnız ADIN (Laibach) kaynakta ilk geçtiği yıldır; hangi yerleşimin (kale/şehir) olduğu HE'de belirtilmez. Atlasla çelişki yok (1335'e kadar atlas almanya; 1809-13 fransa-cumhuriyet HE ile uyumlu)."
+  "ic_not": "KOORD: GeoNames 3196359 (46°03′03.89″ N, 14°30′18.47″ E), atlas tahmininden 0.55 km; sapma yok. KAYNAK BASAMAKLARI: ① TDV: Ljubljana için arama yapılmadı bu turda. ② Hrvatska enciklopedija (LZMK) OKUNDU, ana dayanak. Britannica 403 verdi (okunamadı). Üst basamaklar (Slovenski biografski leksikon, Kronika, ZDJP) BU PARTİDE YAPILMADI. ANTİK YERLEŞİM: HE'ye göre Colonia Iulia Emona yaklaşık MÖ 34'te kuruldu ve 452'de Hun istilasında yıkıldı ('U Hunskom osvajanju 452. grad je propao'); sonrası Slav iskânıyla kırsal yerleşim; Emona'nın bugünkü Ljubljana ile kesintisiz süreklilik iddiası kaynakta yok — bu yüzden Emona kuruluşu (kur) YAZILMADI, süreklilik varsayılmadı; ayrı 'Emona' antik kaydı önerilir (aynı nokta, ≤3 km ise ayrı tutulması VERI-YAPISI kuralıyla karar bekler). ÖNEMLİ: 1144 yalnız ADIN (Laibach) kaynakta ilk geçtiği yıldır; hangi yerleşimin (kale/şehir) olduğu HE'de belirtilmez. Atlasla çelişki yok (1335'e kadar atlas almanya; 1809-13 fransa-cumhuriyet HE ile uyumlu). | TANIK: kaynak sayfasından birebir cümle (16 Kas 2026, tarayıcı; yıl + şehir aynı cümlede ya da maddenin konusu şehre açık atıf)."
  },
  {
   "id": "nigbolu-bg",
@@ -220,7 +220,7 @@ window.SEHIR_TARIHCE_BOLGESIZ_J = [
    "t": "1200-01-01",
    "gun": "12. yüzyıl (güvenli uç 1200)",
    "nicelik": "ilk_anilis",
-   "kesinlik": "yuzyil",
+   "kesinlik": "belirsiz",
    "kaynak": "Treccani, Enciclopedia on line 'Radom' (https://www.treccani.it/enciclopedia/radom/; 16 Kas 2026'da okundu): 12. yüzyıldan beri surlu kale olarak anılır; Enciclopedia Italiana (1929-37) 'Radom': 'È conosciuta fino dal sec. XII.'",
    "tanik": "Ricordata sin dal 12° sec. come castello fortificato"
   },
@@ -251,7 +251,7 @@ window.SEHIR_TARIHCE_BOLGESIZ_J = [
     "kaynak": "Treccani, Enciclopedia Italiana 'Radom' (16 Kas 2026'da okundu): 'dal 1815 al regno di Polonia'"
    }
   ],
-  "ic_not": "KOORD: GeoNames 760778 (51°24′09.11″ N, 21°08′49.70″ E), atlas tahmininden 0.05 km; sapma yok. KAYNAK BASAMAKLARI: ① TDV: 'radom' aramasında Madde Başlıkları 0 (içerik sonuçları Radomir'e aittir). ② Treccani Enciclopedia on line + Enciclopedia Italiana OKUNDU. Britannica 403 verdi (okunamadı). Üst basamaklar (Polski Słownik, Słownik geograficzny) BU PARTİDE YAPILMADI; Polonya içi sahiplik cümlesi okunmadı. ZİNCİR BOŞ: atlas noktası 1101-01-01'de (12. yy alt sınırı, 'yuzyil' hassasiyetli beyanlı boşluk) başlıyor; ilk anılış güvenli ucu (1200) atlas başlangıcından sonradır. NOT: atlas kaydı 'Radom (Polonya)' Darfur'daki Radom'dan ayrı bir kayıttır (atlas ad çakışması)."
+  "ic_not": "KOORD: GeoNames 760778 (51°24′09.11″ N, 21°08′49.70″ E), atlas tahmininden 0.05 km; sapma yok. KAYNAK BASAMAKLARI: ① TDV: 'radom' aramasında Madde Başlıkları 0 (içerik sonuçları Radomir'e aittir). ② Treccani Enciclopedia on line + Enciclopedia Italiana OKUNDU. Britannica 403 verdi (okunamadı). Üst basamaklar (Polski Słownik, Słownik geograficzny) BU PARTİDE YAPILMADI; Polonya içi sahiplik cümlesi okunmadı. ZİNCİR BOŞ: atlas noktası 1101-01-01'de (12. yy alt sınırı, 'yuzyil' hassasiyetli beyanlı boşluk) başlıyor; ilk anılış güvenli ucu (1200) atlas başlangıcından sonradır. NOT: atlas kaydı 'Radom (Polonya)' Darfur'daki Radom'dan ayrı bir kayıttır (atlas ad çakışması). | TANIK KURALI (16 Kas 2026, EMRELİC): kaynak sayfasında yıl + şehir adı AYNI cümlede birebir bir cümle bulunamadı; `ilk` kesinlik belirsiz sayılır."
  },
  {
   "id": "trieste-it",
@@ -272,7 +272,7 @@ window.SEHIR_TARIHCE_BOLGESIZ_J = [
    "nicelik": "ilk_anilis",
    "kesinlik": "yil",
    "kaynak": "Treccani, Enciclopedia on line, 'Trieste' (https://www.treccani.it/enciclopedia/trieste/; 16 Kas 2026'da okundu): MÖ 52'de Iapodlar tarafından yağmalandı, Caesar'ın yardımına geldiği belirtilir (Treccani birincil antik kaynağı maddede vermez)",
-   "tanik": "Saccheggiata dai Giapidi (52 a.C.), fu soccorsa da Giulio Cesare"
+   "tanik": "Saccheggiata dai Giapidi (52 a.C.), fu soccorsa da Giulio Cesare, che vi dedusse probabilmente una colonia."
   },
   "kur": null,
   "ark": null,
@@ -342,7 +342,7 @@ window.SEHIR_TARIHCE_BOLGESIZ_J = [
    }
   ],
   "dikis_beyan": "Atlas 1281-01-01 'almanya' der ve bu iddia atlasın kendi notunda ÇELİŞKİ olarak beyanlıdır; Treccani 1202 Venedik egemenliği ve 1275-91 Aquileia ittifakını verir, 1281'in sahibini vermez. 1281 günü ve 'almanya' etiketi şehre özgü tarihli tanıkla doğrulanamadı.",
-  "ic_not": "KOORD: GeoNames 3165185 (45°38′58.31″ N, 13°46′36.41″ E), atlas tahmininden 0.53 km; sapma yok. KAYNAK BASAMAKLARI: ① TDV: Trieste için arama yapılmadı bu turda. ② Treccani Enciclopedia on line 'Trieste' OKUNDU (tek dayanak; Enciclopedia Italiana maddesi ayrıca okunmadı; aynı kuruluş, bağımsız sayılmaz). ÜST BASAMAKLAR (Slovence/İtalyan akademik: Kronika, Cammarosano) BU PARTİDE YAPILMADI. İLK ANILIŞ BEYANI: MÖ 52 Iapod yağması Treccani'de tarihli olarak geçen en erken olgudur; antik birincil kaynak (Strabon, Plinius vb.) okunmadı, bu nedenle 'ilk anılış' bu turdaki en erken okunan tanıktır ve daha erken anılış olabilir. Aquileia dönemi künye devletler.js'te aquileia-patrikligi olarak var (kısa süreli hayalet uyarısı çıkabilir). Atlasla ÇELİŞKİ: atlas 1281-1382 'almanya' der; Treccani 1202'den beri Venedik egemenliği, 1275-91 Venedik karşıtı ittifak ve 1369 Venedik/1379 Friuli/1382 Habsburg verir — atlasın kendi notu bunu beyan eder (BORÇ). Habsburg 1382 atlasın 1382-09-30 günü ile yıl düzeyinde uyumlu."
+  "ic_not": "KOORD: GeoNames 3165185 (45°38′58.31″ N, 13°46′36.41″ E), atlas tahmininden 0.53 km; sapma yok. KAYNAK BASAMAKLARI: ① TDV: Trieste için arama yapılmadı bu turda. ② Treccani Enciclopedia on line 'Trieste' OKUNDU (tek dayanak; Enciclopedia Italiana maddesi ayrıca okunmadı; aynı kuruluş, bağımsız sayılmaz). ÜST BASAMAKLAR (Slovence/İtalyan akademik: Kronika, Cammarosano) BU PARTİDE YAPILMADI. İLK ANILIŞ BEYANI: MÖ 52 Iapod yağması Treccani'de tarihli olarak geçen en erken olgudur; antik birincil kaynak (Strabon, Plinius vb.) okunmadı, bu nedenle 'ilk anılış' bu turdaki en erken okunan tanıktır ve daha erken anılış olabilir. Aquileia dönemi künye devletler.js'te aquileia-patrikligi olarak var (kısa süreli hayalet uyarısı çıkabilir). Atlasla ÇELİŞKİ: atlas 1281-1382 'almanya' der; Treccani 1202'den beri Venedik egemenliği, 1275-91 Venedik karşıtı ittifak ve 1369 Venedik/1379 Friuli/1382 Habsburg verir — atlasın kendi notu bunu beyan eder (BORÇ). Habsburg 1382 atlasın 1382-09-30 günü ile yıl düzeyinde uyumlu. | TANIK: kaynak sayfasından birebir cümle (16 Kas 2026, tarayıcı; yıl + şehir aynı cümlede ya da maddenin konusu şehre açık atıf)."
  },
  {
   "id": "visoko-ba",
@@ -360,7 +360,7 @@ window.SEHIR_TARIHCE_BOLGESIZ_J = [
    "nicelik": "ilk_anilis",
    "kesinlik": "yil",
    "kaynak": "Hrvatska enciklopedija (LZMK), 'Visoko' (https://www.enciklopedija.hr/clanak/visoko; 16 Kas 2026'da okundu): belgelerde ilk kez 1363'te anılır",
-   "tanik": "U dokumentima se prvi put spominje 1363."
+   "tanik": "U dokumentima se prvi put spominje 1363., a nastalo je pod imenom Podvisoki kao podgrađe utvrde Visoki ili Visoko, ostatci koje se nalaze na brdu iznad grada."
   },
   "kur": null,
   "ark": null,
@@ -389,7 +389,7 @@ window.SEHIR_TARIHCE_BOLGESIZ_J = [
     "kaynak": "Hrvatska enciklopedija (LZMK), 'Visoko' (16 Kas 2026'da okundu): 'God. 1878. došlo je pod austrougarsku vlast'"
    }
   ],
-  "ic_not": "KOORD: GeoNames 3187609 (43°59′20.00″ N, 18°10′41.02″ E), atlas tahmininden 0.08 km; sapma yok. KAYNAK BASAMAKLARI: ① TDV: 'visoko' araması Madde Başlıkları'nda 0 sonuç (bk. yok). ② Hrvatska enciklopedija OKUNDU, ana dayanak. Üst basamaklar BU PARTİDE YAPILMADI. ZİNCİR BOŞ: ilk anılış (1363) atlas başlangıcından (1281) sonradır. 🔴 ATLASLA ÇELİŞKİ: atlas bosna'yı 1448-01-01'de bitirip Osmanlı'ya (d:) geçirir; HE'ye göre Visoko 1463'te barışla Osmanlı'ya geçti (15 yıl fark). Atlasın 1448 günü bu turda kaynakla desteklenemedi; HE 1463 yıl düzeyidir."
+  "ic_not": "KOORD: GeoNames 3187609 (43°59′20.00″ N, 18°10′41.02″ E), atlas tahmininden 0.08 km; sapma yok. KAYNAK BASAMAKLARI: ① TDV: 'visoko' araması Madde Başlıkları'nda 0 sonuç (bk. yok). ② Hrvatska enciklopedija OKUNDU, ana dayanak. Üst basamaklar BU PARTİDE YAPILMADI. ZİNCİR BOŞ: ilk anılış (1363) atlas başlangıcından (1281) sonradır. 🔴 ATLASLA ÇELİŞKİ: atlas bosna'yı 1448-01-01'de bitirip Osmanlı'ya (d:) geçirir; HE'ye göre Visoko 1463'te barışla Osmanlı'ya geçti (15 yıl fark). Atlasın 1448 günü bu turda kaynakla desteklenemedi; HE 1463 yıl düzeyidir. | TANIK: kaynak sayfasından birebir cümle (16 Kas 2026, tarayıcı; yıl + şehir aynı cümlede ya da maddenin konusu şehre açık atıf)."
  },
  {
   "id": "yayca-ba",
@@ -408,7 +408,7 @@ window.SEHIR_TARIHCE_BOLGESIZ_J = [
    "nicelik": "ilk_anilis",
    "kesinlik": "yil",
    "kaynak": "Hrvatska enciklopedija (LZMK), 'Jajce' (https://www.enciklopedija.hr/clanak/jajce; 16 Kas 2026'da okundu): Jajce ilk kez 1396'da Hrvoje Vukčić Hrvatinić'in unvanında anılır",
-   "tanik": "Prvi se put Jajce spominje 1396. u naslovu Hrvoja Vukčića Hrvatinića"
+   "tanik": "Prvi se put Jajce spominje 1396. u naslovu Hrvoja Vukčića Hrvatinića (conte de Jajce)."
   },
   "kur": null,
   "ark": null,
@@ -430,7 +430,7 @@ window.SEHIR_TARIHCE_BOLGESIZ_J = [
     "kaynak": "Hrvatska enciklopedija (LZMK), 'Jajce' (16 Kas 2026'da okundu): 'Pod osmanskom vlašću bio je sjedište kadiluka (1527–1878).'"
    }
   ],
-  "ic_not": "KOORD: GeoNames 3198934 (44°20′31.31″ N, 17°16′14.12″ E), atlas tahmininden 0.03 km; sapma yok. KAYNAK BASAMAKLARI: ① TDV: 'yayce', 'jajce' aramaları Madde Başlıkları'nda 0 sonuç (bk. yönlendirmesi yok) — TDV'de bağımsız madde bulunamadı. ② Hrvatska enciklopedija (LZMK) 'Jajce' OKUNDU, ana dayanak. Üst basamaklar (İSAM/TTK/DergiPark/YÖK, Šabanović Bosanski pašaluk) BU PARTİDE YAPILMADI. ZİNCİR BOŞ: ilk anılış (1396) atlas başlangıcından (1281-01-01) sonradır; atlas 1281-1463 'bosna' dönemini kaynaksız taşır (atlas başlangıcı düzeltilmeli uyarısı beklenir). HE ayrıca 13.-14. yy'da yerleşim çevresine sur ve saray yapıldığını, ~15. yy ortasında Bosna Krallığı'nın başkenti olduğunu söyler (tarihsiz; olay yazılmadı). ATLASLA FARK: atlas 1463-06-01'de bosna → macaristan der; HE'ye göre 1463'te önce Osmanlı aldı, Korvin aynı yıl geri aldı (gün yok); atlasın Osmanlı dönemi 1528-01-01'de başlar, HE kadılık 1527 der (1 yıl). Yıl düzeyinde ölçüldü; hangi günün doğru olduğu bu turda kaynakla çözülemedi."
+  "ic_not": "KOORD: GeoNames 3198934 (44°20′31.31″ N, 17°16′14.12″ E), atlas tahmininden 0.03 km; sapma yok. KAYNAK BASAMAKLARI: ① TDV: 'yayce', 'jajce' aramaları Madde Başlıkları'nda 0 sonuç (bk. yönlendirmesi yok) — TDV'de bağımsız madde bulunamadı. ② Hrvatska enciklopedija (LZMK) 'Jajce' OKUNDU, ana dayanak. Üst basamaklar (İSAM/TTK/DergiPark/YÖK, Šabanović Bosanski pašaluk) BU PARTİDE YAPILMADI. ZİNCİR BOŞ: ilk anılış (1396) atlas başlangıcından (1281-01-01) sonradır; atlas 1281-1463 'bosna' dönemini kaynaksız taşır (atlas başlangıcı düzeltilmeli uyarısı beklenir). HE ayrıca 13.-14. yy'da yerleşim çevresine sur ve saray yapıldığını, ~15. yy ortasında Bosna Krallığı'nın başkenti olduğunu söyler (tarihsiz; olay yazılmadı). ATLASLA FARK: atlas 1463-06-01'de bosna → macaristan der; HE'ye göre 1463'te önce Osmanlı aldı, Korvin aynı yıl geri aldı (gün yok); atlasın Osmanlı dönemi 1528-01-01'de başlar, HE kadılık 1527 der (1 yıl). Yıl düzeyinde ölçüldü; hangi günün doğru olduğu bu turda kaynakla çözülemedi. | TANIK: kaynak sayfasından birebir cümle (16 Kas 2026, tarayıcı; yıl + şehir aynı cümlede ya da maddenin konusu şehre açık atıf)."
  },
  {
   "id": "yenice-i-vardar-gr",

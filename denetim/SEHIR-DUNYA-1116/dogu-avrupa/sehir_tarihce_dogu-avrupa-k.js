@@ -245,7 +245,7 @@ window.SEHIR_TARIHCE_DOGU_AVRUPA_K = [
    "nicelik": "ilk_anilis",
    "kesinlik": "yil",
    "kaynak": "Encyclopedia of Ukraine (CIUS), Bar maddesi (encyclopediaofukraine.com/display.asp?linkpath=pages%5CB%5CA%5CBar.htm)",
-   "tanik": "is first mentioned as Rov in 1425"
+   "tanik": "Bar is first mentioned as Rov in 1425; in 1537 it was renamed Bar by the Polish queen Bona, and a fortress was constructed there."
   },
   "kur": null,
   "ark": null,
@@ -274,7 +274,7 @@ window.SEHIR_TARIHCE_DOGU_AVRUPA_K = [
     "kaynak": "Encyclopedia of Ukraine (CIUS), Bar maddesi"
    }
   ],
-  "ic_not": "İLK ANILIŞ 1425 (EoU, 'Rov'). Zincir YAZILMADI: ilk.t atlas başlangıcından (1281-01-01) sonra; ATLAS BAŞLANGICI DÜZELTİLMELİ (atlas 1281 'altinorda' yazıyor; 1425 öncesi şehre tanık yok). EoU, Bar'ın 'Polonya-Türkiye sınırında' sık savaş gördüğünü söyler ama Osmanlı idaresi (1672-99) için TARİH vermedi; bu dönem Osmanlı atlası için ayrıca araştırılmalı (TDV 'Bar' / Kamaniçe-Podolya eyaleti, TTK/Belleten, Podolya eyaleti makaleleri) — kapsam dışı kaldı. Aynı yer Bar-Antivari (Karadağ) DEĞİLDİR. Denenen: EoU. koord: GeoNames 712861 (49°04′25.03″N 27°40′26.54″E), atlas tahmininden 0,0 km."
+  "ic_not": "İLK ANILIŞ 1425 (EoU, 'Rov'). Zincir YAZILMADI: ilk.t atlas başlangıcından (1281-01-01) sonra; ATLAS BAŞLANGICI DÜZELTİLMELİ (atlas 1281 'altinorda' yazıyor; 1425 öncesi şehre tanık yok). EoU, Bar'ın 'Polonya-Türkiye sınırında' sık savaş gördüğünü söyler ama Osmanlı idaresi (1672-99) için TARİH vermedi; bu dönem Osmanlı atlası için ayrıca araştırılmalı (TDV 'Bar' / Kamaniçe-Podolya eyaleti, TTK/Belleten, Podolya eyaleti makaleleri) — kapsam dışı kaldı. Aynı yer Bar-Antivari (Karadağ) DEĞİLDİR. Denenen: EoU. koord: GeoNames 712861 (49°04′25.03″N 27°40′26.54″E), atlas tahmininden 0,0 km. | TANIK: Encyclopedia of Ukraine (CIUS) sayfasından birebir cümle (16 Kas 2026, tarayıcı; yıl + şehir aynı cümlede ya da maddenin konusu şehre açık atıf)."
  },
  {
   "id": "berdyansk-ua",
@@ -293,7 +293,7 @@ window.SEHIR_TARIHCE_DOGU_AVRUPA_K = [
    "nicelik": "kurulus",
    "kesinlik": "yil",
    "kaynak": "Encyclopedia of Ukraine (CIUS), Berdiansk maddesi (encyclopediaofukraine.com/display.asp?linkpath=pages%5CB%5CE%5CBerdiansk.htm)",
-   "tanik": "founded in 1827 on the site of the Nogay-Tatar"
+   "tanik": "Berdiansk was founded in 1827 on the site of the Nogay-Tatar (see Nogay Tatars) village of Kutur-Ohla near the Berda River."
   },
   "kur": null,
   "ark": null,
@@ -329,7 +329,7 @@ window.SEHIR_TARIHCE_DOGU_AVRUPA_K = [
     "kaynak": "Encyclopedia of Ukraine (CIUS), Berdiansk maddesi"
    }
   ],
-  "ic_not": "KURULUŞ 1827 (EoU, 'founded in 1827'). Zincir YAZILMADI: ilk.t atlas başlangıcıyla (1827-01-01) aynı. Kutur-Ohla Nogay-Tatar köyü aynı nokta olabilir (EoU 'on the site'), aynı noktalık doğrulanmadı; köy kaydı ayrı yazılmadı. Ad Osipenko: EoU '1939-1958'; 1959'daki geri dönüş EoU özetinden çıkarım — kullanılmadı. Tek kaynak. koord: GeoNames 712451 (46°45′20.81″N 36°47′17.34″E), atlas tahmininden 0,0 km. Denenen: TDV (aranmadı), EoU."
+  "ic_not": "KURULUŞ 1827 (EoU, 'founded in 1827'). Zincir YAZILMADI: ilk.t atlas başlangıcıyla (1827-01-01) aynı. Kutur-Ohla Nogay-Tatar köyü aynı nokta olabilir (EoU 'on the site'), aynı noktalık doğrulanmadı; köy kaydı ayrı yazılmadı. Ad Osipenko: EoU '1939-1958'; 1959'daki geri dönüş EoU özetinden çıkarım — kullanılmadı. Tek kaynak. koord: GeoNames 712451 (46°45′20.81″N 36°47′17.34″E), atlas tahmininden 0,0 km. Denenen: TDV (aranmadı), EoU. | TANIK: Encyclopedia of Ukraine (CIUS) sayfasından birebir cümle (16 Kas 2026, tarayıcı; yıl + şehir aynı cümlede ya da maddenin konusu şehre açık atıf)."
  },
  {
   "id": "bila-tserkva-ua",
@@ -349,7 +349,7 @@ window.SEHIR_TARIHCE_DOGU_AVRUPA_K = [
    "nicelik": "kurulus",
    "kesinlik": "yil",
    "kaynak": "Encyclopedia of Ukraine (CIUS), Bila Tserkva maddesi (encyclopediaofukraine.com/display.asp?linkpath=pages%5CB%5CI%5CBilaTserkva.htm)",
-   "tanik": "[özet] Yaroslav the Wise founded the fortified town of Yuriiev in 1032"
+   "tanik": "It was built on the site of Yuriiev, a fortified town founded by Yaroslav the Wise in 1032 that served as part of the southern line of fortifications defending Kyivan Rus’ from the attacks of nomadic tribes."
   },
   "kur": null,
   "ark": null,
@@ -416,7 +416,7 @@ window.SEHIR_TARIHCE_DOGU_AVRUPA_K = [
    }
   ],
   "dikis_beyan": "Atlas 1281-01-01 'altinorda' (1362'ye kadar), 1362 Litvanya; EoU 1360'lardaki Litvanya egemenliğini verir ama Altın Orda egemenliğini tarihlemez, Moğol yıkımı 'mid-13th century' (yıl yok). 1281 için tarihli tanık bulunamadı; yer tutucu olay yazılmadı.",
-  "ic_not": "KURULUŞ 1032: EoU 'Yaroslav the Wise ... 1032' der (geleneksel; yıl hassasiyeti). Ad: EoU Yuriyev'in 'Bila Tserkva' adını 1050 ak taş kiliseye bağlar, adın ilk belgeli anılışı 1331. Tanık alıntısı okuyucu özetidir. Denenen: TDV (aranmadı), EoU. İkinci kaynak yok. koord: GeoNames 712165 (49°47′57.84″N 30°06′59.40″E), atlas tahmininden 1,2 km."
+  "ic_not": "KURULUŞ 1032: EoU 'Yaroslav the Wise ... 1032' der (geleneksel; yıl hassasiyeti). Ad: EoU Yuriyev'in 'Bila Tserkva' adını 1050 ak taş kiliseye bağlar, adın ilk belgeli anılışı 1331. Tanık alıntısı okuyucu özetidir. Denenen: TDV (aranmadı), EoU. İkinci kaynak yok. koord: GeoNames 712165 (49°47′57.84″N 30°06′59.40″E), atlas tahmininden 1,2 km. | TANIK: Encyclopedia of Ukraine (CIUS) sayfasından birebir cümle (16 Kas 2026, tarayıcı; yıl + şehir aynı cümlede ya da maddenin konusu şehre açık atıf)."
  },
  {
   "id": "cerkasi-ua",
@@ -436,7 +436,7 @@ window.SEHIR_TARIHCE_DOGU_AVRUPA_K = [
    "nicelik": "ilk_anilis",
    "kesinlik": "yil",
    "kaynak": "Encyclopedia of Ukraine (CIUS), Cherkasy maddesi (encyclopediaofukraine.com/display.asp?linkpath=pages%5CC%5CH%5CCherkasy.htm)",
-   "tanik": "[özet] 1394'te Kiev knezliği içinde tahkimli şehir olarak belgelerde geçer"
+   "tanik": "Founded, most probably, in the 13th century, Cherkasy was first mentioned in documents in 1394 as a fortified city in the appanage Kyiv principality of the Lithuanian-Ruthenian state."
   },
   "kur": null,
   "ark": null,
@@ -479,7 +479,7 @@ window.SEHIR_TARIHCE_DOGU_AVRUPA_K = [
     "kaynak": "Encyclopedia of Ukraine (CIUS), Cherkasy maddesi"
    }
   ],
-  "ic_not": "İLK ANILIŞ 1394 (EoU; makale 13. yüzyılda kurulmuş olabileceğini söyler, tanık yok). Zincir YAZILMADI: ilk.t atlas başlangıcından (1281-01-01) sonra; ATLAS BAŞLANGICI DÜZELTİLMELİ — atlas 1281'den 'altinorda' yazıyor, 1362 Litvanya geçişini de yazıyor; EoU 1394'ten önce şehir adına tanık vermiyor. Tanık alıntısı okuyucu aracın özetidir (kelimesi kelimesine değil). Denenen: TDV (aranmadı), EoU. İkinci kaynak yok. koord: GeoNames 710791 (49°26′40.27″N 32°03′26.57″E), atlas tahmininden 0,2 km."
+  "ic_not": "İLK ANILIŞ 1394 (EoU; makale 13. yüzyılda kurulmuş olabileceğini söyler, tanık yok). Zincir YAZILMADI: ilk.t atlas başlangıcından (1281-01-01) sonra; ATLAS BAŞLANGICI DÜZELTİLMELİ — atlas 1281'den 'altinorda' yazıyor, 1362 Litvanya geçişini de yazıyor; EoU 1394'ten önce şehir adına tanık vermiyor. Tanık alıntısı okuyucu aracın özetidir (kelimesi kelimesine değil). Denenen: TDV (aranmadı), EoU. İkinci kaynak yok. koord: GeoNames 710791 (49°26′40.27″N 32°03′26.57″E), atlas tahmininden 0,2 km. | TANIK: Encyclopedia of Ukraine (CIUS) sayfasından birebir cümle (16 Kas 2026, tarayıcı; yıl + şehir aynı cümlede ya da maddenin konusu şehre açık atıf)."
  },
  {
   "id": "czestochowa-pl",
@@ -497,7 +497,7 @@ window.SEHIR_TARIHCE_DOGU_AVRUPA_K = [
    "nicelik": "ilk_anilis",
    "kesinlik": "yil",
    "kaynak": "Treccani, Częstochowa maddesi (treccani.it/enciclopedia/czestochowa/)",
-   "tanik": "La prima notizia su C. risale al 1377"
+   "tanik": "La prima notizia su C. risale al 1377, quando Ladislao di Opole vi recò l’immagine della Madonna Nera (icona di scuola italiana del 14° sec.), conservata nel celebre convento fondato dai paolini ungheresi nel 1382."
   },
   "kur": null,
   "ark": null,
@@ -533,7 +533,7 @@ window.SEHIR_TARIHCE_DOGU_AVRUPA_K = [
     "kaynak": "Columbia Encyclopedia, Czestochowa maddesi (encyclopedia.com)"
    }
   ],
-  "ic_not": "İLK ANILIŞ 1377 (Treccani). ÇELİŞKİ: Columbia ikonun 1382'de getirildiğini söyler, Treccani 1377 (ikon) ve 1382 (manastır) — iki kaynak 1377/1382 arasında; en erken tarihli yazılı tanık Treccani 1377. Zincir YAZILMADI: ilk.t atlas başlangıcından (1281-01-01) sonra; ATLAS BAŞLANGICI DÜZELTİLMELİ (1377 öncesi şehre tanık yok). Kuruluş yılı Treccani'de yok. Prusya (1793) ve Rusya (1815) dönemleri bu sayfalarda yok (atlas zinciri esastır). Denenen: TDV (aranmadı), Treccani, Columbia (kısmî). koord: GeoNames 3100946 (50°47′47.26″N 19°07′26.72″E), atlas tahmininden 1,6 km."
+  "ic_not": "İLK ANILIŞ 1377 (Treccani). ÇELİŞKİ: Columbia ikonun 1382'de getirildiğini söyler, Treccani 1377 (ikon) ve 1382 (manastır) — iki kaynak 1377/1382 arasında; en erken tarihli yazılı tanık Treccani 1377. Zincir YAZILMADI: ilk.t atlas başlangıcından (1281-01-01) sonra; ATLAS BAŞLANGICI DÜZELTİLMELİ (1377 öncesi şehre tanık yok). Kuruluş yılı Treccani'de yok. Prusya (1793) ve Rusya (1815) dönemleri bu sayfalarda yok (atlas zinciri esastır). Denenen: TDV (aranmadı), Treccani, Columbia (kısmî). koord: GeoNames 3100946 (50°47′47.26″N 19°07′26.72″E), atlas tahmininden 1,6 km. | TANIK: kaynak sayfasından birebir cümle (16 Kas 2026, tarayıcı; yıl + şehir aynı cümlede ya da maddenin konusu şehre açık atıf)."
  },
  {
   "id": "gdansk-pl",
@@ -633,7 +633,7 @@ window.SEHIR_TARIHCE_DOGU_AVRUPA_K = [
    "nicelik": "kurulus",
    "kesinlik": "belirsiz",
    "kaynak": "Encyclopedia of Ukraine (CIUS), Kharkiv maddesi (encyclopediaofukraine.com/display.asp?linkpath=pages%5CK%5CH%5CKharkiv.htm)",
-   "tanik": "[özet] genel kabul gören kuruluş tarihi 1654/5; I. Karkach başkanlığında Kazaklar kaleyi kurdu"
+   "tanik": "The generally accepted date of Kharkiv's founding is 1654/5, when Ukrainian Cossacks led by I."
   },
   "kur": null,
   "ark": null,
@@ -669,7 +669,7 @@ window.SEHIR_TARIHCE_DOGU_AVRUPA_K = [
     "kaynak": "Encyclopedia of Ukraine (CIUS), Kharkiv maddesi"
    }
   ],
-  "ic_not": "KURULUŞ 1654/5 (EoU: 'generally accepted'); aralıkta güvenli uç 1655 alındı. Zincir YAZILMADI: ilk.t 1655 atlas başlangıcından (1654-01-01) sonra; ATLAS BAŞLANGICI DÜZELTİLMELİ (1654-01-01 → en az 1655). EoU 1600'lerin başında bölgenin Moskova'ya ait olduğunu, sınır garnizonları bulunduğunu söyler (şehir yokken). Tek kaynak. Atlasın 1917-1991 dilimleri EoU ile (Aralık 1917 Bolşevikler; 25 Ekim 1941 Almanlar; Şubat/Ağustos 1943) uyumlu görünüyor, ayrıca doğrulanmadı. koord: GeoNames 706483 (49°58′54.37″N 36°15′17.10″E), atlas tahmininden 2,2 km (<3 km, atlas noktası makul). Denenen: TDV (aranmadı), EoU."
+  "ic_not": "KURULUŞ 1654/5 (EoU: 'generally accepted'); aralıkta güvenli uç 1655 alındı. Zincir YAZILMADI: ilk.t 1655 atlas başlangıcından (1654-01-01) sonra; ATLAS BAŞLANGICI DÜZELTİLMELİ (1654-01-01 → en az 1655). EoU 1600'lerin başında bölgenin Moskova'ya ait olduğunu, sınır garnizonları bulunduğunu söyler (şehir yokken). Tek kaynak. Atlasın 1917-1991 dilimleri EoU ile (Aralık 1917 Bolşevikler; 25 Ekim 1941 Almanlar; Şubat/Ağustos 1943) uyumlu görünüyor, ayrıca doğrulanmadı. koord: GeoNames 706483 (49°58′54.37″N 36°15′17.10″E), atlas tahmininden 2,2 km (<3 km, atlas noktası makul). Denenen: TDV (aranmadı), EoU. | TANIK: Encyclopedia of Ukraine (CIUS) sayfasından birebir cümle (16 Kas 2026, tarayıcı; yıl + şehir aynı cümlede ya da maddenin konusu şehre açık atıf)."
  },
  {
   "id": "herson-ua",
@@ -688,7 +688,7 @@ window.SEHIR_TARIHCE_DOGU_AVRUPA_K = [
    "nicelik": "kurulus",
    "kesinlik": "yil",
    "kaynak": "Encyclopedia of Ukraine (CIUS), Kherson maddesi (encyclopediaofukraine.com/display.asp?linkpath=pages%5CK%5CH%5CKherson.htm)",
-   "tanik": "Founded in 1778 (decreed by Catherine on 18 June)"
+   "tanik": "Founded in 1778 (decreed by Catherine on 18 June), the city was named after the ancient city of Chersonese Taurica."
   },
   "kur": null,
   "ark": null,
@@ -724,7 +724,7 @@ window.SEHIR_TARIHCE_DOGU_AVRUPA_K = [
     "kaynak": "Encyclopedia of Ukraine (CIUS), Kherson maddesi"
    }
   ],
-  "ic_not": "KURULUŞ 1778 (EoU). Zincir YAZILMADI: ilk.t atlas başlangıcıyla (1778-01-01) aynı. Fermanın günü: EoU '18 June' yazıyor; Rusya'da Jülyen takvim geçerliydi — 1582 sonrası Gregoryen çevirisi 29 Haziran 1778 olurdu, ancak EoU'nun gününün Jülyen mi Gregoryen mi olduğu belli değil; gün kullanılmadı, yıl hassasiyeti yazıldı. 6 Nisan 1918 olayı (EoU) Gregoryen kabul edildi (1918 Şubat'ında Rusya takvimi değişmişti; Ukrayna Halk Cumhuriyeti 1918'de Gregoryen). ÖNCEKİ YERLEŞİMLER: EoU Oleşya (Kiev Rus limanı, 11. yy sonu-13. yy başı, 1223'te Moğollar), Ceneviz Illiche (ca 1440-75) ve 17. yy Bilikovychi'yi 'aynı sahada' sayar; EoU'nun 'site' ifadesi okuyucu özetinde net değil, aynı noktalık/mesafe ölçülmediğinden adlar'a ALINMADI (antik/ortaçağ yer > 3 km olabilir; ayrı kayıt önerilir). EoU'ya göre bölge 1526'da Osmanlı denetimine girdi, 1739 Belgrad ile Rusya'ya; bunlar kuruluş öncesidir. Denenen: TDV (aranmadı), EoU. koord: GeoNames 706448 (46°38′13.02″N 32°36′52.49″E), atlas tahmininden 0,2 km."
+  "ic_not": "KURULUŞ 1778 (EoU). Zincir YAZILMADI: ilk.t atlas başlangıcıyla (1778-01-01) aynı. Fermanın günü: EoU '18 June' yazıyor; Rusya'da Jülyen takvim geçerliydi — 1582 sonrası Gregoryen çevirisi 29 Haziran 1778 olurdu, ancak EoU'nun gününün Jülyen mi Gregoryen mi olduğu belli değil; gün kullanılmadı, yıl hassasiyeti yazıldı. 6 Nisan 1918 olayı (EoU) Gregoryen kabul edildi (1918 Şubat'ında Rusya takvimi değişmişti; Ukrayna Halk Cumhuriyeti 1918'de Gregoryen). ÖNCEKİ YERLEŞİMLER: EoU Oleşya (Kiev Rus limanı, 11. yy sonu-13. yy başı, 1223'te Moğollar), Ceneviz Illiche (ca 1440-75) ve 17. yy Bilikovychi'yi 'aynı sahada' sayar; EoU'nun 'site' ifadesi okuyucu özetinde net değil, aynı noktalık/mesafe ölçülmediğinden adlar'a ALINMADI (antik/ortaçağ yer > 3 km olabilir; ayrı kayıt önerilir). EoU'ya göre bölge 1526'da Osmanlı denetimine girdi, 1739 Belgrad ile Rusya'ya; bunlar kuruluş öncesidir. Denenen: TDV (aranmadı), EoU. koord: GeoNames 706448 (46°38′13.02″N 32°36′52.49″E), atlas tahmininden 0,2 km. | TANIK: Encyclopedia of Ukraine (CIUS) sayfasından birebir cümle (16 Kas 2026, tarayıcı; yıl + şehir aynı cümlede ya da maddenin konusu şehre açık atıf)."
  },
  {
   "id": "jitomir-ua",
@@ -744,7 +744,7 @@ window.SEHIR_TARIHCE_DOGU_AVRUPA_K = [
    "nicelik": "ilk_anilis",
    "kesinlik": "yil",
    "kaynak": "Encyclopedia of Ukraine (CIUS), Zhytomyr maddesi (encyclopediaofukraine.com/display.asp?linkpath=pages%5CZ%5CH%5CZhytomyr.htm)",
-   "tanik": "first mentioned in the chronicles under the year 1240"
+   "tanik": "It is first mentioned in the chronicles under the year 1240, when the town was destroyed by the Mongols."
   },
   "kur": null,
   "ark": null,
@@ -797,7 +797,7 @@ window.SEHIR_TARIHCE_DOGU_AVRUPA_K = [
    }
   ],
   "dikis_beyan": "Atlas 1281-01-01 'altinorda' yazıyor (1320'ye kadar); EoU 1240 Moğol yıkımından sonra Altın Orda egemenliğini tarihlemez, yalnız 1320 Gediminas ilhakını verir. 1281 için tarihli tanık bulunamadı, yer tutucu olay yazılmadı.",
-  "ic_not": "İLK ANILIŞ 1240 (EoU; efsanevi kuruluş 884 EoU'ya göre efsanedir, kullanılmadı). 1240'ın ilk anılış yılı ile Moğol yıkımı aynı yıldır. Çelişki yok. Denenen: TDV (aranmadı), EoU. İkinci kaynak yok. koord: GeoNames 686967 (50°15′44.46″N 28°40′44.87″E), atlas tahmininden 0,0 km."
+  "ic_not": "İLK ANILIŞ 1240 (EoU; efsanevi kuruluş 884 EoU'ya göre efsanedir, kullanılmadı). 1240'ın ilk anılış yılı ile Moğol yıkımı aynı yıldır. Çelişki yok. Denenen: TDV (aranmadı), EoU. İkinci kaynak yok. koord: GeoNames 686967 (50°15′44.46″N 28°40′44.87″E), atlas tahmininden 0,0 km. | TANIK: Encyclopedia of Ukraine (CIUS) sayfasından birebir cümle (16 Kas 2026, tarayıcı; yıl + şehir aynı cümlede ya da maddenin konusu şehre açık atıf)."
  },
  {
   "id": "kirov-ru",
@@ -958,7 +958,7 @@ window.SEHIR_TARIHCE_DOGU_AVRUPA_K = [
    "nicelik": "kurulus",
    "kesinlik": "yil",
    "kaynak": "Treccani, Petrozavodsk maddesi (treccani.it/enciclopedia/petrozavodsk/): 1703 Büyük Petro merkezi sanayi merkezi yaptı; Columbia Encyclopedia, Petrozavodsk maddesi (encyclopedia.com): 1703'te I. Petro metal fabrikası kurdu",
-   "tanik": "significa «officina di Pietro»"
+   "tanik": "Il suo nome significa «officina di Pietro», perché Pietro il Grande ne aveva fatto (1703) un centro industriale con fonderie e officine."
   },
   "kur": null,
   "ark": null,
@@ -989,7 +989,7 @@ window.SEHIR_TARIHCE_DOGU_AVRUPA_K = [
     "kaynak": "Treccani, Petrozavodsk maddesi"
    }
   ],
-  "ic_not": "Treccani kuruluş yılı vermez ('nel 1703 Pietro il Grande ne fece un centro industriale'); Columbia 'founder: Peter I, 1703, metal factory' der. Kuruluş günü bulunamadı; atlas 1703-09-11 yazıyor — kaynaksız gün, doğrulanamadı. Ad: 'Petro'nun fabrikası' Treccani'ye göre. Denenen: TDV (aranmadı), Columbia, Treccani; GSE (thefreedictionary) 403. koord: GeoNames 509820 (61°47′05.68″N 34°20′48.88″E), atlas tahmininden 0,5 km."
+  "ic_not": "Treccani kuruluş yılı vermez ('nel 1703 Pietro il Grande ne fece un centro industriale'); Columbia 'founder: Peter I, 1703, metal factory' der. Kuruluş günü bulunamadı; atlas 1703-09-11 yazıyor — kaynaksız gün, doğrulanamadı. Ad: 'Petro'nun fabrikası' Treccani'ye göre. Denenen: TDV (aranmadı), Columbia, Treccani; GSE (thefreedictionary) 403. koord: GeoNames 509820 (61°47′05.68″N 34°20′48.88″E), atlas tahmininden 0,5 km. | TANIK: kaynak sayfasından birebir cümle (16 Kas 2026, tarayıcı; yıl + şehir aynı cümlede ya da maddenin konusu şehre açık atıf)."
  },
  {
   "id": "sivastopol-ua",
@@ -1009,7 +1009,7 @@ window.SEHIR_TARIHCE_DOGU_AVRUPA_K = [
    "nicelik": "kurulus",
    "kesinlik": "yil",
    "kaynak": "Encyclopedia of Ukraine (CIUS), Sevastopol maddesi (encyclopediaofukraine.com/display.asp?linkpath=pages%5CS%5CE%5CSevastopol.htm)",
-   "tanik": "[özet] 1784'te II. Yekaterina kalenin genişletilip Sivastopol adını almasını emretti"
+   "tanik": "Catherine II, however, preferred a classical Greek name, but since Kherson was already taken for the city on the Dnipro River, she ordered (in 1784) the fortress be enlarged and re-named Sevastopol—the ‘City of Glory’ from the Greek sebastos ‘noble’ and polis ‘city’."
   },
   "kur": null,
   "ark": null,
@@ -1052,7 +1052,7 @@ window.SEHIR_TARIHCE_DOGU_AVRUPA_K = [
     "kaynak": "Encyclopedia of Ukraine (CIUS), Sevastopol maddesi"
    }
   ],
-  "ic_not": "KURULUŞ: EoU 1783'te yer seçildi, 1784'te Sivastopol adı verildi; 'kuruluş' 1784 alındı (atlas başlangıcı 1784-01-01 ile aynı → zincir YAZILMADI). TDV Kırım maddesi (arama sonucu snippet'i): 'Akyar ... Kırım Tatar köyü iken' askerî üs kurulduğunu söyler — köy tarihsiz, KÖY YAŞI YAZILMADI. EoU 1475-1781'i 'Osmanlı' yazıyor (köyün Kırım Hanlığı'na tâbi olduğu bu özette yok): 1475-1783 arası Kırım Hanlığı (Osmanlı tâbi) dönemine ait kısım için TDV KIRIM/ KIRIM HANLIĞI maddeleriyle çalışılmalı, yapılmadı. Not: TDV'de 'AKYAR' maddesi yok (arama: Kırım, Nûman Çelebi Cihan, İstanköy sonuçları). Tanık özetidir. Denenen: TDV (arama sonuçları), EoU. koord: GeoNames 694423 (44°36′28.62″N 33°31′16.82″E), atlas tahmininden 0,7 km."
+  "ic_not": "KURULUŞ: EoU 1783'te yer seçildi, 1784'te Sivastopol adı verildi; 'kuruluş' 1784 alındı (atlas başlangıcı 1784-01-01 ile aynı → zincir YAZILMADI). TDV Kırım maddesi (arama sonucu snippet'i): 'Akyar ... Kırım Tatar köyü iken' askerî üs kurulduğunu söyler — köy tarihsiz, KÖY YAŞI YAZILMADI. EoU 1475-1781'i 'Osmanlı' yazıyor (köyün Kırım Hanlığı'na tâbi olduğu bu özette yok): 1475-1783 arası Kırım Hanlığı (Osmanlı tâbi) dönemine ait kısım için TDV KIRIM/ KIRIM HANLIĞI maddeleriyle çalışılmalı, yapılmadı. Not: TDV'de 'AKYAR' maddesi yok (arama: Kırım, Nûman Çelebi Cihan, İstanköy sonuçları). Tanık özetidir. Denenen: TDV (arama sonuçları), EoU. koord: GeoNames 694423 (44°36′28.62″N 33°31′16.82″E), atlas tahmininden 0,7 km. | TANIK: Encyclopedia of Ukraine (CIUS) sayfasından birebir cümle (16 Kas 2026, tarayıcı; yıl + şehir aynı cümlede ya da maddenin konusu şehre açık atıf)."
  },
  {
   "id": "tula-ru",
@@ -1070,7 +1070,7 @@ window.SEHIR_TARIHCE_DOGU_AVRUPA_K = [
    "nicelik": "ilk_anilis",
    "kesinlik": "yil",
    "kaynak": "Treccani, Tula maddesi (treccani.it/enciclopedia/tula/)",
-   "tanik": "Segnalata la prima volta nel 1146"
+   "tanik": "Segnalata la prima volta nel 1146, appartenne prima ai principi di Černigov; dopo la conquista mongola passò ai Tatari, quindi ai principi di Rjazan´, entrando a far parte della Moscovia nel 1503."
   },
   "kur": null,
   "ark": null,
@@ -1106,7 +1106,7 @@ window.SEHIR_TARIHCE_DOGU_AVRUPA_K = [
     "kaynak": "Treccani, Tula maddesi"
    }
   ],
-  "ic_not": "İLK ANILIŞ 1146 (Treccani); zincir YAZILMADI: ilk.t atlas başlangıcıyla (1146-01-01) aynı gün, zincir atlasa aittir. ÇELİŞKİ: Treccani Moskova'ya katılışı 1503'e koyar ('principi di Rjazan'' sonrası), atlas 1521-01-01'e kadar 'ryazan' yazıyor (Tula 1503'te Moskova, 1521'de Ryazan'ın ilhakı) — atlas gözden geçirilmeli; Treccani 'Tatari, poi principi di Rjazan'' sırasını da verir (Moğol sonrası Tatar, sonra Ryazan) — atlasın 'altinorda' 1242-1281 diliminle uyumlu. İkinci kaynak okunamadı (Columbia Tula sayfası yok/yönlendirme, Britannica 403). Denenen: TDV (aranmadı), Treccani. koord: GeoNames 480562 (54°11′45.92″N 37°37′05.59″E), atlas tahmininden 0,4 km."
+  "ic_not": "İLK ANILIŞ 1146 (Treccani); zincir YAZILMADI: ilk.t atlas başlangıcıyla (1146-01-01) aynı gün, zincir atlasa aittir. ÇELİŞKİ: Treccani Moskova'ya katılışı 1503'e koyar ('principi di Rjazan'' sonrası), atlas 1521-01-01'e kadar 'ryazan' yazıyor (Tula 1503'te Moskova, 1521'de Ryazan'ın ilhakı) — atlas gözden geçirilmeli; Treccani 'Tatari, poi principi di Rjazan'' sırasını da verir (Moğol sonrası Tatar, sonra Ryazan) — atlasın 'altinorda' 1242-1281 diliminle uyumlu. İkinci kaynak okunamadı (Columbia Tula sayfası yok/yönlendirme, Britannica 403). Denenen: TDV (aranmadı), Treccani. koord: GeoNames 480562 (54°11′45.92″N 37°37′05.59″E), atlas tahmininden 0,4 km. | TANIK: kaynak sayfasından birebir cümle (16 Kas 2026, tarayıcı; yıl + şehir aynı cümlede ya da maddenin konusu şehre açık atıf)."
  },
  {
   "id": "ventspils-lv",
@@ -1123,7 +1123,7 @@ window.SEHIR_TARIHCE_DOGU_AVRUPA_K = [
    "t": "1300-01-01",
    "gun": "13. yüzyıl sonu (güvenli uç 1300)",
    "nicelik": "ilk_anilis",
-   "kesinlik": "yuzyil",
+   "kesinlik": "belirsiz",
    "kaynak": "Treccani, Ventspils maddesi (treccani.it/enciclopedia/ventspils/)",
    "tanik": "già attivo alla fine del 13° sec."
   },
@@ -1147,7 +1147,7 @@ window.SEHIR_TARIHCE_DOGU_AVRUPA_K = [
     "kaynak": "Encyclopaedia Judaica, Ventspils maddesi (encyclopedia.com): Yahudi yerleşimi Kuronya Rusya'ya katılınca 1795'te izin verildi"
    }
   ],
-  "ic_not": "SADECE tek akademik özet kaynak (Treccani) okundu: ticaret üssü 'Töton Tarikatı'na ait' deniyor; atlas Livonya Tarikatı yazıyor (Livonya Tarikatı Töton Tarikatı'nın kolu); 1290 kale tarihi Letonya kaynaklarından iddia edilir ama kaynak OKUNAMADI, yazılmadı. Zincir YAZILMADI: ilk.t (1300 güvenli uç) atlas başlangıcından (1281-01-01) sonra; ATLAS BAŞLANGICI DÜZELTİLMELİ. 1795 olayı Encyclopaedia Judaica'dan (dolaylı; Kuronya ilhakı yılı). Atlasın 1561-11-28 Kuronya Dükalığı geçişi bu kaynaklarda doğrulanmadı. Denenen: TDV (aranmadı), Treccani, Encyclopaedia Judaica (Yahudi cemaati maddesi, genel tarih değil). koord: GeoNames 454310 (57°23′41.46″N 21°33′40.36″E), atlas tahmininden 0,6 km."
+  "ic_not": "SADECE tek akademik özet kaynak (Treccani) okundu: ticaret üssü 'Töton Tarikatı'na ait' deniyor; atlas Livonya Tarikatı yazıyor (Livonya Tarikatı Töton Tarikatı'nın kolu); 1290 kale tarihi Letonya kaynaklarından iddia edilir ama kaynak OKUNAMADI, yazılmadı. Zincir YAZILMADI: ilk.t (1300 güvenli uç) atlas başlangıcından (1281-01-01) sonra; ATLAS BAŞLANGICI DÜZELTİLMELİ. 1795 olayı Encyclopaedia Judaica'dan (dolaylı; Kuronya ilhakı yılı). Atlasın 1561-11-28 Kuronya Dükalığı geçişi bu kaynaklarda doğrulanmadı. Denenen: TDV (aranmadı), Treccani, Encyclopaedia Judaica (Yahudi cemaati maddesi, genel tarih değil). koord: GeoNames 454310 (57°23′41.46″N 21°33′40.36″E), atlas tahmininden 0,6 km. | TANIK KURALI (16 Kas 2026, EMRELİC): kaynak sayfasında yıl + şehir adı AYNI cümlede birebir bir cümle bulunamadı; `ilk` kesinlik belirsiz sayılır."
  },
  {
   "id": "vologda-ru",
