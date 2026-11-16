@@ -28,7 +28,6 @@ SEHIR.forEach(function (p) { var c = osmL.filter(function (x) { return x.id === 
 // ---- B) devlet kronolojisi: hicrî yıl kuralı / gün ekleme yamaları (madde t yaması)
 var KRON = [
   ['kronoloji_cok_once1281_ortadogu.js', '1110-01-01', 'Aden Zürey', '1110-07-20', 'TDV «Zürey‘îler» md.: «504 (1110) yılında»; 504 H = 1110-07-20…1111-07-08 (hicrî ∩ milâdî ilk gün kuralı)'],
-  ['olaylar_ortacag_ortadogu.js', '1080-06-18', 'Ukaylî Müslim', '1080-06-08', 'TDV «Mirdâsîler» md. (tam gövde): «Halep önüne geldi (8 Haziran 1080)»; iç kale ayrı kayıt (Ekim 1080)'],
   ['olaylar_ortacag_ortadogu.js', '1146-01-01', 'İmâdüddin Zengî Ca', '1146-09-14', 'TDV «Nûreddin Zengî, Mahmud» md. (tam gövde): «(5 Rebîülâhir 541 / 14 Eylül 1146)»'],
   ['olaylar_ortacag_ortadogu.js', '1186-01-01', 'el-Melikü', '1186-03-24', 'TDV «Halep» md. 582; 582 H = 1186-03-24…1187-03-12 (hicrî kuralı)'],
   ['kronoloji_cok_once1281_afrika.js', '1184-01-01', 'Benî', '1184-04-14', 'TDV «Muvahhidler» md.: «(580/1184)»; 580 H = 1184-04-14…1185-04-02'],
