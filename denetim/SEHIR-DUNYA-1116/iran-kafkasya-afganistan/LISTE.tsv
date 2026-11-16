@@ -45,9 +45,9 @@ kronolojiden-ek		Sabzevar		İran	36.21260	57.68191	GeoNames sayfa okuması (sear
 kronolojiden-ek		Persepolis		İran	29.93509	52.89065	GeoNames sayfa okuması (search.html, SANS): 29°56′06.32″ N, 52°53′26.34″ E	Persepolis	9	yok
 kronolojiden-ek		Pasargad		İran	30.20340	53.18090	GeoNames sayfa okuması (search.html, SANS): 30°12′12.24″ N, 53°10′51.24″ E	Pasargad	7	yok
 kronolojiden-ek		Susa		İran	32.19420	48.24360	GeoNames sayfa okuması (search.html, PPLA2): 32°11′39.12″ N, 48°14′36.96″ E	Susa	29	arkeoloji_d2-iran-orta-asya
-kronolojiden-ek		Istakhr		İran			TAHMİN/OKUNAMADI: aranan Estakhr-e Soflá sonucu Fars'ta değil (28.49 N 55.43 E); antik İstahr olarak kullanılamaz		1	yok
+kronolojiden-ek		Istakhr		İran	29.98083	52.90944	OKUNDU: https://pleiades.stoa.org/places/922662/json		1	yok
 kronolojiden-ek		Firuzabad		İran	28.84459	52.57151	GeoNames sayfa okuması (search.html, PPLA2): 28°50′40.52″ N, 52°34′17.44″ E — Fīrūzābād (Fars)	Firûzâbâd	2	yok
-kronolojiden-ek		Bishapur		İran			TAHMİN/OKUNAMADI: GeoNames'te Bishapur adıyla yalnız Tall Kūhak (PPLX) çıktı; Bişapur antik yeri okunamadı		1	yok
+kronolojiden-ek		Bishapur		İran	29.77778	51.57083	OKUNDU: https://pleiades.stoa.org/places/922740/json		1	yok
 kronolojiden-ek		Nahavand		İran	34.19088	48.37446	GeoNames sayfa okuması (search.html, PPLA2): 34°11′27.17″ N, 48°22′28.06″ E	Nihâvend	11	yok
 kronolojiden-ek		Borujerd		İran	33.89730	48.75160	GeoNames sayfa okuması (search.html, PPLA2): 33°53′50.28″ N, 48°45′05.76″ E	Burûcird	2	yok
 kronolojiden-ek		Arak		İran	34.09493	49.69809	GeoNames sayfa okuması (search.html, PPLA): 34°05′41.75″ N, 49°41′53.12″ E	Erâk (Sultânâbâd)	6	yok
@@ -79,7 +79,7 @@ kronolojiden-ek		Bamyan		Afganistan	34.82156	67.82734	GeoNames sayfa okuması (s
 kronolojiden-ek		Kunduz		Afganistan	36.72895	68.85700	GeoNames sayfa okuması (search.html, PPLA): 36°43′44.22″ N, 68°51′25.20″ E	Kunduz	4	yok
 kronolojiden-ek		Bust		Afganistan	31.59382	64.37161	GeoNames sayfa okuması (search.html, PPLA): 31°35′37.75″ N, 64°22′17.80″ E — Lashkar Gāh (GeoNames 'Bost' sorgusu bunu verdi; Qal'a-yi Bust bitişiği)	Büst (~9.6 km)	7	yok
 kronolojiden-ek		Zaranj		Afganistan	30.95962	61.86037	GeoNames sayfa okuması (search.html, PPLA): 30°57′34.63″ N, 61°51′37.33″ E	Zerenc (Sîstan)	17	k12
-kronolojiden-ek		Chaghcharan		Afganistan			TAHMİN/OKUNAMADI: GeoNames'te 'Chaghcharan' adı çıkmadı; Fayrōz Kōh (Ghowr merkezi) çıktı ama Gurlu başkenti Fîrûzkûh'un (Cam) yeri tartışmalı -> okunamadı		2	yok
+kronolojiden-ek		Chaghcharan		Afganistan	34.39637	64.51592	OKUNDU: https://www.geonames.org/search.html?q=Jam+minaret&country=AF | KOORDİNAT: tartışmalı eşleme (Iranica temkinli, Jam arkeoloji projesi 'Jam = Fîrûzkûh'); Jam Minaresi koordinatı; modern Çagçarân (Fayrōz Kōh PPLA 34.51952/65.25093) AYRI KAYIT		2	yok
 kronolojiden-ek		Sheberghan		Afganistan	36.66757	65.75290	GeoNames sayfa okuması (search.html, PPLA): 36°40′03.25″ N, 65°45′10.44″ E		4	yok
 kronolojiden-ek		Taloqan		Afganistan	36.73605	69.53451	GeoNames sayfa okuması (search.html, PPLA): 36°44′09.78″ N, 69°32′04.24″ E		3	yok
 kronolojiden-ek		Gardez		Afganistan	33.59744	69.22592	GeoNames sayfa okuması (search.html, PPLA): 33°35′50.78″ N, 69°13′33.31″ E		3	yok
@@ -99,7 +99,7 @@ kronolojiden-ek		Dvin		Ermenistan	40.00384	44.57625	GeoNames sayfa okuması (sea
 kronolojiden-ek		Kapan		Ermenistan	39.20762	46.40678	GeoNames sayfa okuması (search.html, PPLA): 39°12′27.43″ N, 46°24′24.41″ E	Kapan	1	yok
 kronolojiden-ek		Artashat		Ermenistan	39.95484	44.54874	GeoNames sayfa okuması (search.html, PPLA): 39°57′17.42″ N, 44°32′55.46″ E	Artaksata (Artashat) (~8.4 km)	2	yok
 kronolojiden-ek		Gavar		Ermenistan	40.35398	45.12386	GeoNames sayfa okuması (search.html, PPLA): 40°21′14.33″ N, 45°07′25.90″ E		1	yok
-kronolojiden-ek		Norapat		Ermenistan			TAHMİN/OKUNAMADI: GeoNames'te iki Norapat var (Armavir PPL 40.14N 44.03E; Shirak LFLD); kronolojideki 'Norapat' (Revan çevresi) hangisi belirsiz -> okunamadı		3	yok
+kronolojiden-ek		Norapat		Ermenistan	40.14172	44.03332	OKUNDU: https://www.geonames.org/search.html?q=Norapat&country=AM		3	yok
 kronolojiden-ek		Shamakhi		Azerbaycan	40.63141	48.64137	GeoNames sayfa okuması (search.html, PPLA): 40°37′53.08″ N, 48°38′28.93″ E	Şamahı	40	k12
 kronolojiden-ek		Sheki		Azerbaycan	41.19194	47.17056	GeoNames sayfa okuması (search.html, PPLA): 41°11′30.98″ N, 47°10′14.02″ E	Şeki (Nuha)	12	k12
 kronolojiden-ek		Barda		Azerbaycan	40.37577	47.12619	GeoNames sayfa okuması (search.html, PPLA): 40°22′32.77″ N, 47°07′34.28″ E	Berde (Karabağ)	18	k12
