@@ -25,7 +25,7 @@
   // bozuk çeviri üretir. Bu yüzden: `p` = bütün cümleli paragraflar, `m` =
   // [kalın terim, tam cümle açıklama] maddeleri. Metne etiket YAZMA.
   var ADIMLAR = [
-    { baslik: "Tarih Atlası'na hoş geldiniz",
+    { baslik: "KRONOATLAS'a hoş geldiniz",
       p: ["Bu atlas, zaman ilerledikçe devlet sınırlarının nasıl değiştiğini gösterir. Haritanın yanında o günün kronolojisi ve hükümdarı akar: bir madde okuduğunuzda haritada tam o değişimi görürsünüz.",
           "Kısa bir turla ekrandaki her parçayı tanıtalım. İleri düğmesiyle (ya da sağ ok tuşuyla) ilerleyin; istediğiniz an Geç diyebilirsiniz."] },
     { baslik: "Sayfanın düzeni",

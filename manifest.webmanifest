@@ -1,0 +1,14 @@
+{
+  "name": "KRONOATLAS",
+  "short_name": "KRONOATLAS",
+  "description": "Etkileşimli tarih atlası — zaman ilerledikçe devlet sınırları değişir (Beta).",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#2a0a10",
+  "theme_color": "#5c1020",
+  "lang": "tr",
+  "icons": [
+    { "src": "assets/ikon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

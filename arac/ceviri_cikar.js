@@ -63,7 +63,7 @@ const govde = yorumsuz.replace(/<script[\s\S]*?<\/script>/g, "").replace(/<style
 for (const m of govde.matchAll(/>([^<]+)</g)) ekle(m[1]);
 for (const m of govde.matchAll(/\s(?:title|placeholder|aria-label|data-ipucu)="([^"]*)"/g)) ekle(m[1]);
 const t = /<title>([^<]*)<\/title>/.exec(html); if (t) ekle(t[1]);
-const jsler = fs.readdirSync(path.join(kok, "js")).filter(f => f.endsWith(".js") && f !== "ceviri.js");
+const jsler = fs.readdirSync(path.join(kok, "js")).filter(f => f.endsWith(".js") && f !== "ceviri.js" && f !== "marka.js");  // marka.js: kendi 8 dilli sözlüğü var (KRONOATLAS P3/P4, 16 Kasım 2026)
 for (const f of jsler) {
   const satirlar = oku("js/" + f).replace(/\/\*[\s\S]*?\*\//g, "").split("\n");
   for (const sat of satirlar) {

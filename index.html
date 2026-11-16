@@ -3,12 +3,51 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Tarih Atlası</title>
+<title>KRONOATLAS — Etkileşimli Tarih Atlası</title>
+<!-- KRONOATLAS (Emre onayı, 16 Kasım 2026): marka adı çevrilmez; alt başlık/açıklama dile göre
+     js/marka.js'te çevrilir (ham HTML Türkçe — tarayıcı olmayan okuyucu bunu görür).
+     ALAN-ADI: og:url ve canonical şimdilik github.io; kronoatlas.com / kronoatlas.com.tr
+     bağlanınca (Emre DNS yapacak) İKİSİ DE yeni adrese çevrilecek. -->
+<meta name="description" content="Zaman ilerledikçe devlet sınırlarının değiştiği, yanında kronoloji ve dönemin hükümdarının aktığı etkileşimli tarih atlası. Osmanlı 1281–1923 gün hassasiyetinde; dünya kapsamı kademeli genişliyor. Beta sürümü.">
+<meta name="theme-color" content="#5c1020">
+<link rel="canonical" href="https://emrelic.github.io/osmanli-tarih-atlasi/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="KRONOATLAS">
+<meta property="og:title" content="KRONOATLAS — Etkileşimli Tarih Atlası">
+<meta property="og:description" content="Zaman ilerledikçe devlet sınırlarının değiştiği, yanında kronoloji ve dönemin hükümdarının aktığı etkileşimli tarih atlası. Osmanlı 1281–1923 gün hassasiyetinde; dünya kapsamı kademeli genişliyor. Beta sürümü.">
+<meta property="og:url" content="https://emrelic.github.io/osmanli-tarih-atlasi/">
+<meta property="og:locale" content="tr_TR">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="KRONOATLAS — Etkileşimli Tarih Atlası">
+<meta name="twitter:description" content="Zaman ilerledikçe devlet sınırlarının değiştiği, yanında kronoloji ve dönemin hükümdarının aktığı etkileşimli tarih atlası. Osmanlı 1281–1923 gün hassasiyetinde; dünya kapsamı kademeli genişliyor. Beta sürümü.">
+<link rel="icon" type="image/svg+xml" href="assets/ikon.svg">
+<link rel="manifest" href="manifest.webmanifest">
+<script src="js/marka.js?v=r25236959"></script>
+<style>
+/* KRONOATLAS P3/P4 (16 Kasım 2026) — küçük, tek yerde; style.css'e dokunmaz. */
+.yalniz-okuyucu { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+.atla-baglanti { position: absolute; left: 8px; top: -60px; z-index: 100000; background: #f3e6c8; color: #2a0a10; padding: 8px 14px; border-radius: 6px; font: 600 14px "Segoe UI", sans-serif; text-decoration: none; }
+.atla-baglanti:focus { top: 8px; }
+.beta-ibare { font: 700 10px/1 "Segoe UI", sans-serif; letter-spacing: .08em; padding: 3px 6px; border-radius: 9px; border: 1px solid #f3e6c8; background: transparent; color: #f3e6c8; cursor: pointer; opacity: .85; }
+.beta-ibare:hover, .beta-ibare:focus-visible { opacity: 1; background: rgba(243, 230, 200, .15); }
+#hakkinda-pencere { position: fixed; inset: 0; z-index: 100001; display: flex; align-items: center; justify-content: center; background: rgba(0, 0, 0, .55); padding: 16px; }
+#hakkinda-pencere.gizli { display: none; }
+#hakkinda-pencere .hakkinda-kart { max-width: 460px; background: #2a0a10; color: #f3e6c8; border: 1px solid #f3e6c8; border-radius: 10px; padding: 18px 22px; font: 14px/1.5 "Segoe UI", sans-serif; box-shadow: 0 8px 30px rgba(0, 0, 0, .5); }
+#hakkinda-pencere h2 { margin: 0 0 10px; font-size: 17px; }
+#hakkinda-pencere p { margin: 0 0 10px; }
+#hakkinda-pencere a { color: #ffd98a; }
+#hakkinda-pencere button { margin-top: 4px; padding: 6px 16px; border-radius: 6px; border: 1px solid #f3e6c8; background: #5c1020; color: #f3e6c8; cursor: pointer; font: 14px "Segoe UI", sans-serif; }
+</style>
 <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.24.0/dist/maplibre-gl.css">
 <script>window.SURUM="r15757";</script>
 <link rel="stylesheet" href="css/style.css?v=r139453370">
 </head>
 <body>
+<!-- ERİŞİLEBİLİRLİK (LAB P5): görünmez <h1> + "haritaya geç" bağlantısı (yalnız odaklanınca görünür).
+     Emre'nin 21 Ağustos'ta kaldırdığı GÖRÜNÜR başlık geri gelmedi; bu yalnız ekran okuyucu içindir.
+     Metinler js/marka.js'te dile göre doldurulur. -->
+<a id="atla-baglanti" class="atla-baglanti" href="#harita">Haritaya geç</a>
+<h1 id="marka-h1" class="yalniz-okuyucu">KRONOATLAS — Etkileşimli Tarih Atlası</h1>
 <!-- ACILIS-ANIM-0929 — serpilen haritalar perdesi. <body>'nin HEMEN ardından,
      SENKRON: perde öğeleri ilk boyamadan önce kurulmalı (denetim/ACILIS-ANIM-0929.md §3:
      yüklemeyi uzatmıyor, perde ~1,2 sn erken görünüyor). Bağlayan: UFUK-DUGME-0930
@@ -2344,9 +2383,9 @@
      app.js'ten HEMEN ÖNCE ve bütün data/*.js'ten SONRA: seçili dil Türkçe değilse
      data/ceviri_<dil>_*.js'i document.write ile araya ekler ve OLAYLAR*/DEVLETLER
      metnini app.js `olaylar`ı kurmadan çevirir. Türkçede hiçbir çeviri dosyası inmez. -->
-<script src="data/ceviri_dizin.js?v=r119842208"></script>
+<script src="data/ceviri_dizin.js?v=r2168401"></script>
 <script src="js/ceviri.js?v=r224473008"></script>
-<script src="js/app.js?v=r203606972"></script>
+<script src="js/app.js?v=r66459253"></script>
 <!-- A-F ALTI KADEME · D/E/F KATMANI + ANTLAŞMA HARİTASI (GORUNUM-ABCD-0916, D-KATMAN).
      Kosu 12 bitince baglandi (17 Eylul). d_katman.js app.js'ten SONRA — guncelle()'yi sarar. -->
 <!-- ▼ data/paket_28.js — aşağıdaki 10 dosya buraya PAKETLENDİ (arac/paketle.py).
@@ -2520,7 +2559,7 @@
 <script src="data/tur_siniflari.js?v=r197039638"></script>
   <!-- TUR SINIFLARI: tur -> ana tur (KRON-ALAN-1108) -->
 <script src="js/album.js?v=r82959085"></script>  <!-- ALBÜM düğmesi (DALGA-0059 H-0001) — obGoster sarmalar, app.js SONRASI -->
-<script src="js/tanitim.js?v=r124987837"></script>  <!-- TANITIM TURU — açılışta + ☰ Butonlar → ℹ Siteyi tanı; app.js SONRASI -->
+<script src="js/tanitim.js?v=r263320864"></script>  <!-- TANITIM TURU — açılışta + ☰ Butonlar → ℹ Siteyi tanı; app.js SONRASI -->
 <script src="data/acilis_tablosu.js?v=r262169018"></script>
   <!-- AÇILIŞ TABLOSU — ülke → devlet + gün + gerekçe (js/acilis.js okur) -->
 <script src="js/acilis.js?v=r148878349"></script>  <!-- AÇILIŞ MADDESİ (ACILIS-MADDESI-1110) — ülkeye göre odak + gün; ?acilis=XX dener, ?acilis=yok kapatır; app.js SONRASI -->

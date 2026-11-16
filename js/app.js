@@ -12084,6 +12084,12 @@ function damgaMadde() {
 }
 
 function baslikDamgala() {
+  // KRONOATLAS P3 (16 Kasım 2026): halka açık sitede başlık TEMİZ kalır (js/marka.js yazar);
+  // durum damgası yalnız geliştirici kipinde (?gelistirici=1 / ?tani= ya da Ctrl+Alt+G).
+  if (!window.GELISTIRICI_KIPI && !(document.body && document.body.classList.contains("gelistirici"))) {
+    if (window.MARKA_BASLIK && document.title !== window.MARKA_BASLIK) document.title = window.MARKA_BASLIK;
+    return;
+  }
   // ⚠️ `haritaHazir` ŞART DEĞİL. Şart koşulmuştu ve şu kusuru üretti: bayrak
   // yalnız MapLibre'in "load" olayında true oluyor, o da altlık stili inene
   // kadar beklyor; yavaş bir açılışta sayfa görünür haldeyken başlık hâlâ
@@ -12098,7 +12104,7 @@ function baslikDamgala() {
     try { s = harita.getBounds(); } catch (e2) { s = null; }
     // Sitenin adı (Emre, 9 Ekim 2026: "tarih atlası daha doğru") — yalnız AD
     // değişti; "Osmanlı" çekirdek katmanı anlatan metinlerde (lejant vb.) kalır.
-    var parcalar = ["Tarih Atlası", iso,
+    var parcalar = ["KRONOATLAS", iso,
       Math.abs(c.lat).toFixed(2) + (c.lat < 0 ? "S" : "N") + " " +
       Math.abs(c.lng).toFixed(2) + (c.lng < 0 ? "W" : "E"),
       "z" + (Math.round(z * 10) / 10)];
