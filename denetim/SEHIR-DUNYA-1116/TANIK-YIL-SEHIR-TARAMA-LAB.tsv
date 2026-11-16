@@ -1,12 +1,9 @@
 dosya	id	yol	yil_eksik	yer_eksik	ozet_isaretli	tanik
-sehir_tarihce_afrika_gb.js	agadez-ne	.ilk		yer		Once the seat of a Tuareg sultanate (dating from the 15th century)
-sehir_tarihce_afrika_gb.js	bloemfontein-za	.ilk	yil			Warden's troops, known as the Cape Riflemen, arrive in Bloemfontein
 sehir_tarihce_afrika_gb.js	bloemfontein-za	.olay[0]				(tanık yok)
 sehir_tarihce_afrika_gb.js	bloemfontein-za	.olay[1]				(tanık yok)
 sehir_tarihce_afrika_gb.js	bloemfontein-za	.olay[2]				(tanık yok)
 sehir_tarihce_afrika_gb.js	bloemfontein-za	.olay[3]				(tanık yok)
-sehir_tarihce_afrika_gb.js	cape-town-za	.ilk		yer		arriving at the Cape on 6 April 1652
-sehir_tarihce_afrika_gb.js	cape-town-za	.kur	yil	yer		On 7 April he establishes a refreshment station
+sehir_tarihce_afrika_gb.js	cape-town-za	.kur		yer		1652 7 April, Van Riebeeck ... establishes a refreshment station at the Cape
 sehir_tarihce_afrika_gb.js	cape-town-za	.olay[0]				(tanık yok)
 sehir_tarihce_afrika_gb.js	cape-town-za	.olay[1]				(tanık yok)
 sehir_tarihce_afrika_gb.js	cape-town-za	.olay[2]				(tanık yok)
@@ -30,14 +27,12 @@ sehir_tarihce_afrika_gb.js	monrovia-lr	.kur				(tanık yok)
 sehir_tarihce_afrika_gb.js	monrovia-lr	.olay[0]				(tanık yok)
 sehir_tarihce_afrika_gb.js	monrovia-lr	.olay[1]				(tanık yok)
 sehir_tarihce_afrika_gb.js	monrovia-lr	.sahip[0]				(tanık yok)
-sehir_tarihce_afrika_gb.js	pretoria-za	.ilk	yil	yer		officially declared as a town
 sehir_tarihce_afrika_gb.js	pretoria-za	.olay[0]				(tanık yok)
 sehir_tarihce_afrika_gb.js	pretoria-za	.olay[1]				(tanık yok)
 sehir_tarihce_afrika_gb.js	pretoria-za	.olay[2]				(tanık yok)
 sehir_tarihce_afrika_gb.js	pretoria-za	.olay[3]				(tanık yok)
 sehir_tarihce_afrika_gb.js	pretoria-za	.olay[4]				(tanık yok)
 sehir_tarihce_afrika_gb.js	pretoria-za	.olay[5]				(tanık yok)
-sehir_tarihce_afrika_gb.js	sokoto-ng	.ilk		yer		1804’te oğlu Muhammed Bello’ya kasabanın civarında askerî bir karargâh kurmasını emretmesiyle
 sehir_tarihce_afrika_gb.js	sokoto-ng	.olay[0]				(tanık yok)
 sehir_tarihce_afrika_gb.js	sokoto-ng	.olay[1]				(tanık yok)
 sehir_tarihce_afrika_gb.js	sokoto-ng	.olay[2]				(tanık yok)
@@ -52,7 +47,7 @@ sehir_tarihce_afrika_gb.js	tombouctou-ml	.olay[3]				(tanık yok)
 sehir_tarihce_afrika_gb.js	tombouctou-ml	.olay[4]				(tanık yok)
 sehir_tarihce_afrika_gb.js	tombouctou-ml	.sahip[0]				(tanık yok)
 sehir_tarihce_afrika_gb.js	windhoek-na	.ilk	yil	yer		Queen Adelaide's Bath
-sehir_tarihce_afrika_gb.js	windhoek-na	.kur	yil	yer		chosen by the Orlam Afrikaners ... as their permanent settlement
+sehir_tarihce_afrika_gb.js	windhoek-na	.kur		yer		1838 |Ai-||Gams is chosen by the Orlam Afrikaners ... as their permanent settlement
 sehir_tarihce_afrika_gb.js	windhoek-na	.olay[0]				(tanık yok)
 sehir_tarihce_afrika_gb.js	windhoek-na	.olay[1]				(tanık yok)
 sehir_tarihce_afrika_gb.js	windhoek-na	.sahip[0]	yil			Von Francois uses Windhoek as his headquarters
@@ -507,7 +502,6 @@ sehir_tarihce_arkeoloji_misir-nil-sahra.js	meroe-donemi-kush	.ilk				(tanık yok
 sehir_tarihce_arkeoloji_misir-nil-sahra.js	meroe-donemi-kush	.ark				(tanık yok)
 sehir_tarihce_arkeoloji_misir-nil-sahra.js	meroe-donemi-kush	.sahip[0]				(tanık yok)
 sehir_tarihce_arkeoloji_misir-nil-sahra.js	meroe-donemi-kush	.sahip[1]				(tanık yok)
-sehir_tarihce_hint.js	agra-in	.ilk		yer		oğlu Seyfüddevle Mahmud tarafından 1081’de Çavhanlar’dan alındı
 sehir_tarihce_hint.js	agra-in	.olay[0]				(tanık yok)
 sehir_tarihce_hint.js	agra-in	.olay[1]				(tanık yok)
 sehir_tarihce_hint.js	agra-in	.olay[2]				(tanık yok)
@@ -532,7 +526,7 @@ sehir_tarihce_hint.js	bahavelpur-pk	.olay[3]				(tanık yok)
 sehir_tarihce_hint.js	bahavelpur-pk	.olay[4]				(tanık yok)
 sehir_tarihce_hint.js	caul-in-a3	.sahip[0]				(tanık yok)
 sehir_tarihce_hint.js	citagong-bd-a3	.ilk		yer		İlk defa 1338 veya 1340’ta Bengal Sultanlığı’nın kurucusu Fahreddin Mübârek Şah tarafından
-sehir_tarihce_hint.js	dakka-bd	.ilk		yer		the earliest one is dated from 1456 AD (Mughal öncesi camiler)
+sehir_tarihce_hint.js	dakka-bd	.ilk		yer		Dhaka proper and one at Mirpur; the earliest one is dated from 1456 AD
 sehir_tarihce_hint.js	dakka-bd	.olay[0]				(tanık yok)
 sehir_tarihce_hint.js	dakka-bd	.olay[1]				(tanık yok)
 sehir_tarihce_hint.js	dakka-bd	.olay[2]				(tanık yok)
@@ -542,15 +536,13 @@ sehir_tarihce_hint.js	delhi-in	.olay[1]				(tanık yok)
 sehir_tarihce_hint.js	delhi-in	.olay[2]				(tanık yok)
 sehir_tarihce_hint.js	delhi-in	.olay[3]				(tanık yok)
 sehir_tarihce_hint.js	delhi-in	.olay[4]				(tanık yok)
-sehir_tarihce_hint.js	ecmir-in	.ilk		yer	ozet	(özet) yönetici prensin 682 yılında Lahor racasıyla akrabalık tesis ettiği
+sehir_tarihce_hint.js	ecmir-in	.ilk		yer		adına Ajayameru şeklinde rastlanan şehir hakkındaki ilk tarihî bilgiyi, yönetici prensin 682 yılında Lahor racasıyla
 sehir_tarihce_hint.js	ecmir-in	.olay[0]				(tanık yok)
 sehir_tarihce_hint.js	ecmir-in	.olay[1]				(tanık yok)
 sehir_tarihce_hint.js	ecmir-in	.olay[2]				(tanık yok)
 sehir_tarihce_hint.js	ecmir-in	.olay[3]				(tanık yok)
 sehir_tarihce_hint.js	goa-in-a3	.ilk		yer		Âdilşâhîler 20 Mayıs 1510’da burayı geri aldılarsa da kasım ayında Portekizliler limanı yeniden ele geçirdiler
 sehir_tarihce_hint.js	goa-in-a3	.olay[1]	yil			kasım ayında Portekizliler limanı yeniden ele geçirdiler
-sehir_tarihce_hint.js	golkonda-in	.ilk		yer		1363 yılında Behmenî Sultanı I. Muhammed Şah’ın önünden kaçan raca Kanhayya tarafından müslümanlara bırakıldı
-sehir_tarihce_hint.js	gvalyar-in	.ilk		yer		1022 yılında Gazneli Mahmud XV. Hint Seferi’ne çıkıp
 sehir_tarihce_hint.js	haydarabad-dekken-in	.ilk		yer		Yeni başşehrin kuruluş hazırlıkları 1590 yılında tamamlandı
 sehir_tarihce_hint.js	haydarabad-dekken-in	.olay[0]				(tanık yok)
 sehir_tarihce_hint.js	haydarabad-dekken-in	.olay[1]				(tanık yok)
@@ -564,7 +556,6 @@ sehir_tarihce_hint.js	kalkuta-in	.olay[3]				(tanık yok)
 sehir_tarihce_hint.js	kalyani-in-a3	.ilk		yer		Evrengzîb, 1657 yılı başlarında Âdilşâhîler ülkesine girdi, önce Bîder, sonra da Kalyan şehirlerini ele geçirdi
 sehir_tarihce_hint.js	kanbayet-in	.ilk		yer		The town was mentioned in 1293 by the Venetian traveler Marco Polo
 sehir_tarihce_hint.js	kannauc-in-a3	.ilk		yer		Sultanın asıl hedefi olan Kannevc ise 8 Şâban 409’da (20 Aralık 1018) fethedildi
-sehir_tarihce_hint.js	karaci-pk-a3	.ilk		yer		Tâlpûr Emîri Feth Ali Han’ın 1795’te limanın ağzındaki Manora Burnu’na bir kale yaptırmasıyla
 sehir_tarihce_hint.js	lahor-pk	.olay[0]				(tanık yok)
 sehir_tarihce_hint.js	lahor-pk	.olay[1]				(tanık yok)
 sehir_tarihce_hint.js	lahor-pk	.olay[2]				(tanık yok)
@@ -585,7 +576,6 @@ sehir_tarihce_hint.js	mursidabad-in	.olay[0]				(tanık yok)
 sehir_tarihce_hint.js	mursidabad-in	.olay[1]				(tanık yok)
 sehir_tarihce_hint.js	mursidabad-in	.olay[2]				(tanık yok)
 sehir_tarihce_hint.js	mursidabad-in	.sahip[0]				(tanık yok)
-sehir_tarihce_hint.js	patna-in	.ilk		yer		şehrin tarihi milâttan önce V. yüzyıla kadar gitmektedir
 sehir_tarihce_hint.js	patna-in	.sahip[0]				(tanık yok)
 sehir_tarihce_hint.js	racmahal-in	.ilk		yer		chose the site for his capital in 1595–96
 sehir_tarihce_k12.js	abomey	.ilk	yil	yer		cité fondée par le roi Hwegbadja vers le milieu du
@@ -5662,13 +5652,10 @@ sehir_tarihce_k3_g2.js	viyana	.sahip[1]	yil			Succeeded by: Arcadius (east) and 
 sehir_tarihce_k3_g2.js	viyana	.sahip[3]	yil			Aus der Epoche vom 5./6. bis zum 9. Jahrhundert sind keine schriftlichen Nachrichten
 sehir_tarihce_k3_g2.js	viyana	.sahip[4]	yil			Im 10. Jahrhundert dürfte der Ort einen mehrmaligen Besitzwechsel erlebt haben
 sehir_tarihce_k3_g2.js	viyana	.sahip[7]	yil			jedoch Österreich und die Steiermark im Namen des Reichs einzog
-sehir_tarihce_orta_asya.js	almalik-cn	.ilk	yil			Almalığ ikinci oğlu Çağatay’a ve sülâlesine verilmiştir
 sehir_tarihce_orta_asya.js	almalik-cn	.olay[0]				(tanık yok)
 sehir_tarihce_orta_asya.js	anapa-ru	.ilk		yer		XIII ve XIV. yüzyıllarda önce Gorkipaya adlı Bizans kolonisi iken
 sehir_tarihce_orta_asya.js	askabat-tm	.ilk		yer		bölgenin 1881’de Ruslar tarafından ele geçirilmesinden sonra şehir haline getirilmiştir
 sehir_tarihce_orta_asya.js	askabat-tm	.sahip[0]				(tanık yok)
-sehir_tarihce_orta_asya.js	babadagi-ro	.ilk		yer		Osmanlı hâkimiyetine girdi (819/1416)
-sehir_tarihce_orta_asya.js	belh-af	.ilk	yil	yer		bu tarihte İskender’in eline geçti
 sehir_tarihce_orta_asya.js	belh-af	.olay[0]				(tanık yok)
 sehir_tarihce_orta_asya.js	belh-af	.olay[1]				(tanık yok)
 sehir_tarihce_orta_asya.js	belh-af	.olay[2]				(tanık yok)
@@ -5682,7 +5669,6 @@ sehir_tarihce_orta_asya.js	belh-af	.olay[10]				(tanık yok)
 sehir_tarihce_orta_asya.js	belh-af	.olay[11]				(tanık yok)
 sehir_tarihce_orta_asya.js	belh-af	.olay[12]				(tanık yok)
 sehir_tarihce_orta_asya.js	belh-af	.sahip[0]				(tanık yok)
-sehir_tarihce_orta_asya.js	buhara-uz	.ilk		yer	ozet	Pu-ha şeklinde 630 yılı civarında Çinli seyyah Hüang-Tsang tarafından kullanılır
 sehir_tarihce_orta_asya.js	buhara-uz	.olay[0]	yil		ozet	Ubeydullah b. Ziyâd tarafından fethedilmiştir
 sehir_tarihce_orta_asya.js	buhara-uz	.olay[3]	yil			Katvân savaşından sonra şehir putperest Karahıtaylar’ın idaresine geçti
 sehir_tarihce_orta_asya.js	buhara-uz	.olay[7]	yil			Buhara Hanlığı Canoğulları hânedanının eline geçti
@@ -5697,7 +5683,6 @@ sehir_tarihce_orta_asya.js	gazne-af	.olay[7]				(tanık yok)
 sehir_tarihce_orta_asya.js	gazne-af	.olay[8]				(tanık yok)
 sehir_tarihce_orta_asya.js	gazne-af	.olay[9]				(tanık yok)
 sehir_tarihce_orta_asya.js	hami-kumul-cn	.olay[1]	yil			Kumul ve Urumçi’yi işgal edip Kâşgar’a doğru ilerlemeye başlayınca
-sehir_tarihce_orta_asya.js	herat-af	.ilk		yer		41’de (661) yeniden fethedildi
 sehir_tarihce_orta_asya.js	herat-af	.olay[0]				(tanık yok)
 sehir_tarihce_orta_asya.js	herat-af	.olay[1]				(tanık yok)
 sehir_tarihce_orta_asya.js	herat-af	.olay[2]				(tanık yok)
@@ -5713,8 +5698,8 @@ sehir_tarihce_orta_asya.js	herat-af	.olay[11]				(tanık yok)
 sehir_tarihce_orta_asya.js	herat-af	.olay[12]				(tanık yok)
 sehir_tarihce_orta_asya.js	hive-uz	.ilk			ozet	Arap coğrafyacılarının eserlerinde X. yüzyılda adına rastlanan Hîve
 sehir_tarihce_orta_asya.js	hive-uz	.sahip[0]				(tanık yok)
-sehir_tarihce_orta_asya.js	hokand-uz	.ilk		yer	ozet	X. yüzyıl Arap coğrafyacılarının eserlerinde
-sehir_tarihce_orta_asya.js	hotan-cn	.ilk	yil			Gerdîzî ise Hoten’in Çin sınırında büyük bir şehir olan Kücâ’ya on beş günlük mesafede olduğunu
+sehir_tarihce_orta_asya.js	hokand-uz	.ilk		yer		X. yüzyıl Arap coğrafyacılarının eserlerinde
+sehir_tarihce_orta_asya.js	hotan-cn	.ilk	yil			V. (XI.) yüzyıl müelliflerinden Gerdîzî ise Hoten’in Çin sınırında büyük bir şehir olan Kücâ’ya
 sehir_tarihce_orta_asya.js	hucend-tj	.olay[0]	yil			Selm b. Ziyâd buraya bir ordu gönderdiyse de bu ordu kalenin önünde yapılan savaşta yenildi
 sehir_tarihce_orta_asya.js	hucend-tj	.olay[1]	yil			Hucend’in kesin fethi ise Horasan Valisi Saîd b. Amr el-Haraşî tarafından muhasara sonucu gerçekleştirildi
 sehir_tarihce_orta_asya.js	hucend-tj	.sahip[0]				(tanık yok)
@@ -5725,8 +5710,8 @@ sehir_tarihce_orta_asya.js	kabil-af	.olay[2]				(tanık yok)
 sehir_tarihce_orta_asya.js	kabil-af	.olay[3]				(tanık yok)
 sehir_tarihce_orta_asya.js	kabil-af	.olay[4]				(tanık yok)
 sehir_tarihce_orta_asya.js	kabil-af	.olay[5]				(tanık yok)
-sehir_tarihce_orta_asya.js	karakurum-mn	.ilk		yer		1220’de Orhon nehrinin sağ kıyısında ilk şehrin güneyinde kurulmuştur
-sehir_tarihce_orta_asya.js	karakurum-mn	.kur		yer		1220’de Orhon nehrinin sağ kıyısında ilk şehrin güneyinde kurulmuştur
+sehir_tarihce_orta_asya.js	karakurum-mn	.ilk		yer		Karakorum adını taşıyan ikinci şehir ise Cengiz Han tarafından 1220’de ... kurulmuştur
+sehir_tarihce_orta_asya.js	karakurum-mn	.kur		yer		Karakorum adını taşıyan ikinci şehir ise Cengiz Han tarafından 1220’de ... kurulmuştur
 sehir_tarihce_orta_asya.js	karakurum-mn	.olay[0]				(tanık yok)
 sehir_tarihce_orta_asya.js	karakurum-mn	.olay[1]				(tanık yok)
 sehir_tarihce_orta_asya.js	karakurum-mn	.olay[2]				(tanık yok)
@@ -5746,13 +5731,11 @@ sehir_tarihce_orta_asya.js	kasgar-cn	.olay[9]				(tanık yok)
 sehir_tarihce_orta_asya.js	kasgar-cn	.olay[10]				(tanık yok)
 sehir_tarihce_orta_asya.js	kasgar-cn	.olay[11]				(tanık yok)
 sehir_tarihce_orta_asya.js	kasgar-cn	.olay[12]				(tanık yok)
-sehir_tarihce_orta_asya.js	kuca-cn	.ilk	yil			Gerdîzî ise Hoten’in Çin sınırında büyük bir şehir olan Kücâ’ya on beş günlük mesafede olduğunu
+sehir_tarihce_orta_asya.js	kuca-cn	.ilk	yil			V. (XI.) yüzyıl müelliflerinden Gerdîzî ise Hoten’in Çin sınırında büyük bir şehir olan Kücâ’ya
 sehir_tarihce_orta_asya.js	sehrisebz-kes-uz	.ilk		yer		Yapılan binaların en dikkat çekicisi 1380 tarihli Ak Saray’dır
 sehir_tarihce_orta_asya.js	semerkant-uz	.ilk			ozet	Milâttan önce 329 yılında Semerkant’ı Persler’den alan Büyük İskender
 sehir_tarihce_orta_asya.js	semerkant-uz	.olay[5]	yil			Timur’un Semerkant’ı kendisine başşehir yapması
 sehir_tarihce_orta_asya.js	semerkant-uz	.sahip[0]				(tanık yok)
-sehir_tarihce_orta_asya.js	serahs-tm	.ilk		yer	ozet	tarafından fethedildi (31/651-52)
-sehir_tarihce_orta_asya.js	taskent-uz	.ilk		yer	ozet	Kuteybe b. Müslim tarafından ele geçirilip (94/713) tahrip edildi
 sehir_tarihce_orta_asya.js	termez-uz	.ilk		yer		Rus askerleri 1894 yılında eski Tirmiz harabelerinden 8 km. uzaklıkta bir sınır kalesi (Toprakkorgan) kurdular
 sehir_tarihce_orta_asya.js	termez-uz	.kur		yer		Rus askerleri 1894 yılında eski Tirmiz harabelerinden 8 km. uzaklıkta bir sınır kalesi (Toprakkorgan) kurdular
 sehir_tarihce_orta_asya.js	turkistan-yesi-kz	.ilk		yer		Ubeydullah (bazı kaynaklarda ise Abdullah) Sadr tarafından 1396 yılında çalışmalara başlanmış
