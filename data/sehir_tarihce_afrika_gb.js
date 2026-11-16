@@ -2,6 +2,41 @@
 // Motor/denetle/site OKUMAZ — araştırma birikimi. Elle düzenleme: JSON'u düzelt, yeniden üret.
 window.SEHIR_TARIHCE_AFRIKA_GB = [
  {
+  "id": "agadez-ne",
+  "ad": "Agadez",
+  "atlas_ad": "Agadez",
+  "lat": 16.973,
+  "lon": 7.991,
+  "kat1900": null,
+  "adlar": [
+   "Agadez (Agades)"
+  ],
+  "ilk": {
+   "t": "1500-01-01",
+   "gun": "15. yüzyıl",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yuzyil",
+   "kaynak": "Encyclopaedia Britannica, «Agadez» (Britannica editörleri), https://www.britannica.com/place/Agadez (tarayıcı sayfa okuma, 16 Kasım 2026)",
+   "tanik": "Once the seat of a Tuareg sultanate (dating from the 15th century)"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1500-01-01",
+    "gun": "15. yüzyıl",
+    "k": "diger",
+    "b": "Agadez Aïr (Tuareg) sultanlığının merkezi olarak anılır (15. yüzyıldan itibaren); UNESCO: Aïr Sultanlığı 15.-16. yüzyıllarda burada yerleşti",
+    "kesinlik": "yuzyil",
+    "kaynak": "Encyclopaedia Britannica, «Agadez» (Britannica editörleri), https://www.britannica.com/place/Agadez (tarayıcı sayfa okuma, 16 Kasım 2026)",
+    "tanik": "Once the seat of a Tuareg sultanate (dating from the 15th century)"
+   }
+  ],
+  "ic_not": "ÇİFT TEYİT: UNESCO WHC 1268 'Brief synthesis' aynı yüzyılı verir — «The historic centre of Agadez dates back to the 15th and 16th centuries, when the Sultanate of Aïr established itself there» (tarayıcı sayfa okuma, 16 Kasım 2026). İki kaynak da yalnız yüzyıl verir, gün/yıl yok; ilk anılış için aralığın SON ucu (15. yüzyıl sonu = 1500-01-01) alındı. Nicelik 'ilk_anilis': kaynaklar kuruluş günü vermez, 'sultanlık merkezi olduğu' 15. yüzyıldan itibaren tarihlenir. ATLAS: atlas Agadez'i 1405-01-01'de 'agadez-sultanligi' ile başlatır; bu kaynaklarla 1405 DOĞRULANAMAZ (yalnız '15. yüzyıl'); TDV Nijer md. (önceki parti) 1515'te Songay'a bağlanmayı verir — atlas başlangıcı için kaynaklı yıl bulunamadı, 1405 kaynaksız iddia olarak KASA'ya bildirilir. Zincir (sahip) YAZILMADI: bu kaynaklarda sahip değişimi tarihi yok."
+ },
+ {
   "id": "bloemfontein-za",
   "ad": "Bloemfontein",
   "atlas_ad": "Oranj (Bur cumhuriyeti)",
@@ -291,6 +326,41 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
    }
   ],
   "ic_not": "Yalnız TDV Kano maddesi (Davut Dursun, c. 24); TDV İngiliz fethi için kesin yıl vermez (Emir Aliyu 1894-1903 dönemi), olay yazılmadı. Atlas başlangıcı (1000) için kaynak aranmalı. TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Uyuşmayanlar: ALINTI DÜZELTİLDİ (ilk.tanik): olgu doğru, önceki alıntı WebFetch özetinden/paraphrase idi; TDV gövdesindeki gerçek cümle yazıldı. Önceki notlardaki \"WebFetch özeti / özet okuma / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir."
+ },
+ {
+  "id": "maseru-ls",
+  "ad": "Maseru",
+  "atlas_ad": "Maseru",
+  "lat": -29.31,
+  "lon": 27.48,
+  "kat1900": null,
+  "adlar": [
+   "Maseru"
+  ],
+  "ilk": {
+   "t": "1869-01-01",
+   "gun": "1869",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, «Maseru» (Britannica editörleri), https://www.britannica.com/place/Maseru (tarayıcı sayfa okuma, 16 Kasım 2026)",
+   "tanik": "In 1869 the chief of the Sotho (Basotho) nation, Moshoeshoe, founded the town"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1869-01-01",
+    "gun": "1869",
+    "k": "diger",
+    "b": "Sotho (Basotho) önderi Moşoeşoe şehri dağ kalesi Thaba Bosiu yakınında kurdu",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, «Maseru» (Britannica editörleri), https://www.britannica.com/place/Maseru (tarayıcı sayfa okuma, 16 Kasım 2026)",
+    "tanik": "In 1869 the chief of the Sotho (Basotho) nation, Moshoeshoe, founded the town"
+   }
+  ],
+  "ic_not": "TEK KAYNAK (Britannica). Gün yok, yıl hassasiyeti. ATLAS: atlas Maseru'yu 1822-01-01'de 'basuto' ile başlatır — şehir kaynağa göre 1869'da kurulduğundan 1822 başlangıcı ŞEHİR için yanlış/kaynaksız görünüyor (belki bölge iddiası): KASA'ya 'başlangıç 1869 olmalı' önerisi. 1868-03-12 atlas 'basuto' bitişi (İngiliz himayesi) ile 1869 kuruluş sırası da kontrol edilmeli."
  },
  {
   "id": "monrovia-lr",
