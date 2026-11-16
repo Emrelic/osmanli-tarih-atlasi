@@ -1399,6 +1399,17 @@ def main():
         "data/yerlesimler_4ff22b.js":    "Arap-Iran nokta partisi; girdi.py'ye "
                                          "hic baglanmadi ⇒ 6. kosunun ILK isi",
     }
+    # 17 KASIM 2026 (KASA 16 KASIM, DUNYA SEHIR KRONOLOJISI): data/sehir_tarihce_*.js
+    # TOPLU muafiyet. Her dosya 'sehir_tarihce semasi' arastirma birikimidir: motor,
+    # denetle.py ve site OKUMAZ (VERI-YAPISI.md son bolum; denetci arac/sehir_tarihce.py);
+    # onkosul AKTARIM + Emre. 5 makinede dalga dalga yeni dosya geliyor (11 dosya tek
+    # birlesimde) — her biri icin satir yazmak yerine kural: bu desende olan HER dosya
+    # kasitli yuklenmez. Zaten yazilmis satirlar (k3, k12, arkeoloji...) kendi metinlerini korur.
+    for _f in sorted(os.listdir(os.path.join(KOK, "data"))):
+        if _f.startswith("sehir_tarihce_") and _f.endswith(".js"):
+            BEKLEYEN.setdefault("data/" + _f,
+                "sehir tarihcesi (DUNYA SEHIR KRONOLOJISI, 17 Kasim 2026); kasitli YUKLENMEZ: "
+                "sehir_tarihce semasi, motor/site okumaz; onkosul AKTARIM + Emre")
 
     # 🔴 EMEKLİ ≠ BEKLEYEN. Bekleyen "önkoşul kapanınca BAĞLANACAK" vaadi
     # taşır; emekli "HİÇ bağlanmayacak" hükmü. kimlikler.js bir dönem
