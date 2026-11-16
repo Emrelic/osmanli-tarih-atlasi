@@ -1,0 +1,481 @@
+// ŞEHİR TARİHÇESİ — BOLGESIZ_J · üretici: arac/sehir_tarihce.py · şema: VERI-YAPISI.md
+// Motor/denetle/site OKUMAZ — araştırma birikimi. Elle düzenleme: JSON'u düzelt, yeniden üret.
+window.SEHIR_TARIHCE_BOLGESIZ_J = [
+ {
+  "id": "hysiai-gr",
+  "ad": "Hysiai (Argolis)",
+  "atlas_ad": "Hysiai (Argolis)",
+  "lat": 37.52,
+  "lon": 22.586,
+  "kat1900": 3,
+  "adlar": [
+   "Hysiae (İngilizce çeviri adı; Thucydides 5.83, Hobbes çevirisi, Perseus)",
+   "Hysiai (atlas yazımı; Grekçe aslı bu turda kaynakta doğrulanmadı)"
+  ],
+  "ilk": {
+   "t": "-0416-01-01",
+   "gun": "MÖ 417 (417/416 kışı)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Thucydides, Peloponnesos Savaşı 5.83 (Hobbes çevirisi, Perseus; https://www.perseus.tufts.edu/hopper/text?doc=Thuc.+5.83.2; 16 Kas 2026'da okundu): Spartalılar Argos topraklarındaki Hysiae'yi aldı; aynı kışın bitişi 'savaşın on beşinci yılı' ile işaretlenir",
+   "tanik": "they had taken Hysiae, a town in the Argive territory"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "-0416-01-01",
+    "gun": "MÖ 417 (417/416 kışı)",
+    "k": "fetih",
+    "b": "Agis komutasındaki Lakedaimonlular Argos topraklarındaki Hysiae'yi aldı ve içindeki bütün özgür erkekleri öldürdü",
+    "kaynak": "Thucydides 5.83 (Hobbes çevirisi, Perseus; 16 Kas 2026'da okundu): 'they had taken Hysiae, a town in the Argive territory' … 'slain all the freemen in it'; yıl: 'the fifteenth year of this war' (kış 417/416)"
+   }
+  ],
+  "ic_not": "KOORD TAHMİN — bağımsız teyit yok: GeoNames'te 'Hysiai' ve 'Ysies' için kayıt yok ('No places found'); Pleiades sayfası bot koruması nedeniyle okunamadı. lat/lon atlas tahminidir (yuvarlanmış), teyitsiz. KAYNAK BASAMAKLARI: ① TDV: konu dışı (antik Yunan yeri; arama yapılmadı). Birincil belge neşri: Thucydides 5.83 OKUNDU (Perseus). Pausanias 2.24.7 (Hysiai'de Argoslular'ın Lakedaimonlular'ı yendiği, MÖ ~669) Perseus'ta gösterilen bölümde 'Hysiae' kelimesi bulunamadı (kısmen okundu); bu yüzden daha erken olan Pausanias tanığı alınmadı — ilk anılış bu turdaki EN ERKEN OKUNAN tanıktır ve MÖ 669 olabilir. Üst basamaklar (Kelly, AJP 1970 'Did the Argives Defeat the Spartans at Hysiae in 669 B.C.?' — yalnız başlık görüldü, okunmadı) YAPILMADI. ZİNCİR BOŞ: atlas noktası -0668'de başlıyor (Pausanias 669/8 geleneği, kaynaksız) ve -0417'de bitiyor ('bit' atlas iddiası); Thucydides şehrin yıkıldığını değil ele geçirildiğini ve özgür erkeklerin öldürüldüğünü söyler — atlasın bit:-0417 iddiası bu tanıkla DOĞRULANAMADI, yer terk edildi diye bir cümle okunmadı. Atlas dönemi 'bosluk' (__BOSLUK__) kalır."
+ },
+ {
+  "id": "karlovac-hr",
+  "ad": "Karlovac",
+  "atlas_ad": "Karlovac",
+  "lat": 45.492,
+  "lon": 15.55,
+  "kat1900": 3,
+  "adlar": [
+   "Karlovac (Hırvatça; Hrvatska enciklopedija: ad Arşidük Karl'dan)",
+   "Carlstatt (Almanca; HE: 'po kojem je Karlovac dobio ime (Carlstatt)')"
+  ],
+  "ilk": {
+   "t": "1579-07-13",
+   "gun": "13 Temmuz 1579",
+   "nicelik": "kurulus",
+   "kesinlik": "gun",
+   "kaynak": "Hrvatska enciklopedija (LZMK), 'Karlovac' (https://www.enciklopedija.hr/clanak/karlovac; 16 Kas 2026'da okundu): 'Osnovan je 13. VII. 1579. kao tvrđava za obranu Hrvatske'",
+   "tanik": "Osnovan je 13. VII. 1579. kao tvrđava za obranu Hrvatske"
+  },
+  "kur": {
+   "t": "1579-07-13",
+   "gun": "13 Temmuz 1579",
+   "kesinlik": "gun",
+   "kaynak": "Hrvatska enciklopedija (LZMK), 'Karlovac' (16 Kas 2026'da okundu); kurucu: Styria Arşidükü II. Karl ('Tvrđavu je dao izgraditi nadvojvoda Karlo II. Štajerski')"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1579-07-13",
+    "gun": "13 Temmuz 1579",
+    "k": "kurulus",
+    "b": "Arşidük II. Karl Hırvatistan'ı Osmanlılara karşı savunmak için Karlovac kalesini kurdurdu",
+    "kaynak": "Hrvatska enciklopedija (LZMK), 'Karlovac' (16 Kas 2026'da okundu)"
+   },
+   {
+    "t": "1813-01-01",
+    "gun": "1813 (yıl düzeyi; gün yok)",
+    "k": "diger",
+    "b": "Fransızların ayrılmasından sonra Karlovac Avusturya İlirya Krallığı'nın parçası oldu",
+    "kaynak": "Hrvatska enciklopedija (LZMK), 'Karlovac' (16 Kas 2026'da okundu): 'Nakon odlaska Francuza, od 1813., bio je u sastavu austrijskoga Kraljevstva Ilirije.'"
+   }
+  ],
+  "ic_not": "KOORD: GeoNames 3345300 (45°29′30.01″ N, 15°33′00.00″ E), atlas tahmininden 0.55 km; sapma yok. KAYNAK BASAMAKLARI: ① TDV: Karlovac için arama yapılmadı bu turda (Osmanlı sınır kalesi olarak TDV 'Hırvatistan'da geçebilir; bağımsız madde doğrulanmadı). ② Hrvatska enciklopedija OKUNDU. ZİNCİR BOŞ: kuruluş günü (1579-07-13) atlasın başlangıç gününe eşit; atlas s: 1579-07-13'te 'avusturya' ile başlıyor (kuruluş günü HE ile aynı gün, çelişki yok). HE 1813'ü 'od 1813.' yıl düzeyinde verir; atlas 1813-01-01'de macaristan-habsburg der (gün kaynaksız, yıl ile uyumlu)."
+ },
+ {
+  "id": "ljubljana-si",
+  "ad": "Ljubljana",
+  "atlas_ad": "Ljubljana",
+  "lat": 46.051,
+  "lon": 14.505,
+  "kat1900": 2,
+  "adlar": [
+   "Emona / Colonia Iulia Emona (Latince, antik Roma kolonisi; HE: yaklaşık MÖ 34; antik yerleşimin bugünkü şehirle sürekliliği HE'de açık değil)",
+   "Laibach (Almanca; Hrvatska enciklopedija: kaynaklarda ilk kez 1144)",
+   "Luwigana (Slovence biçim; HE: kaynaklarda 1146)",
+   "Ljubljana (Slovence/Hırvatça; HE madde başlığı)"
+  ],
+  "ilk": {
+   "t": "1144-01-01",
+   "gun": "1144",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Hrvatska enciklopedija (LZMK), 'Ljubljana' (https://www.enciklopedija.hr/clanak/ljubljana; 16 Kas 2026'da okundu): kentin adı kaynaklarda ilk kez 1144'te Almanca biçimiyle (Laibach), 1146'da Slovence biçimiyle (Luwigana) geçer",
+   "tanik": "Ime grada javlja se u izvorima prvi put 1144 (u njemačkom obliku Laibach)"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1144-01-01",
+    "t": "1281-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija (LZMK), 'Ljubljana' (16 Kas 2026'da okundu): 'U drugoj polovici X. st. ušla je u sastav Kranjske marke' ve 'Oko 1100. došla je u posjed feudalne obitelji Spanheim' — 1144-1281 arası sahip için tarihli cümle verilmez",
+    "ic_not": "HE ~1100'de Spanheim ailesinin mülkü olduğunu söyler ama bu ailenin hâkimiyetinin 1144'te sürüp sürmediğini, 1144-1281 arasında kimin elinde olduğunu (Spanheim/Andechs/Karintiya dükleri/Bohemya) tarihli vermez; Spanheim ve Kranjska markı için künye yok. Beyansız yaklaşıklık yazılmadı."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1146-01-01",
+    "gun": "1146 (yıl düzeyi)",
+    "k": "diger",
+    "b": "Kentin adı Slovence biçimiyle (Luwigana) kaynaklarda ilk kez geçti",
+    "kaynak": "Hrvatska enciklopedija (LZMK), 'Ljubljana' (16 Kas 2026'da okundu)"
+   },
+   {
+    "t": "1335-01-01",
+    "gun": "1335 (yıl düzeyi; HE gün vermez)",
+    "k": "diger",
+    "b": "Habsburglar Kranjska/Ljubljana'ya sahip oldu",
+    "kaynak": "Hrvatska enciklopedija (LZMK), 'Ljubljana' (16 Kas 2026'da okundu): Görz Kontları'ndan sonra Habsburglar egemenliği; gün yok (atlas 1335-05-02)"
+   },
+   {
+    "t": "1809-01-01",
+    "gun": "1809-13 (yıl düzeyi)",
+    "k": "diger",
+    "b": "Ljubljana Napolyon'un İlirya Eyaletleri'nin siyasî-idarî merkezi oldu (1809-13)",
+    "kaynak": "Hrvatska enciklopedija (LZMK), 'Ljubljana' (16 Kas 2026'da okundu): 'u kratkome razdoblju 1809–13. kao političko-upravno središte Napoleonovih Ilirskih pokrajina'"
+   }
+  ],
+  "dikis_beyan": "Atlas 1281-01-01 'almanya' der; HE 1144-1335 arası sahibi tarihli vermez, 1281 günü ve 'almanya' etiketi bu turda şehre özgü tarihli tanıkla doğrulanamadı.",
+  "ic_not": "KOORD: GeoNames 3196359 (46°03′03.89″ N, 14°30′18.47″ E), atlas tahmininden 0.55 km; sapma yok. KAYNAK BASAMAKLARI: ① TDV: Ljubljana için arama yapılmadı bu turda. ② Hrvatska enciklopedija (LZMK) OKUNDU, ana dayanak. Britannica 403 verdi (okunamadı). Üst basamaklar (Slovenski biografski leksikon, Kronika, ZDJP) BU PARTİDE YAPILMADI. ANTİK YERLEŞİM: HE'ye göre Colonia Iulia Emona yaklaşık MÖ 34'te kuruldu ve 452'de Hun istilasında yıkıldı ('U Hunskom osvajanju 452. grad je propao'); sonrası Slav iskânıyla kırsal yerleşim; Emona'nın bugünkü Ljubljana ile kesintisiz süreklilik iddiası kaynakta yok — bu yüzden Emona kuruluşu (kur) YAZILMADI, süreklilik varsayılmadı; ayrı 'Emona' antik kaydı önerilir (aynı nokta, ≤3 km ise ayrı tutulması VERI-YAPISI kuralıyla karar bekler). ÖNEMLİ: 1144 yalnız ADIN (Laibach) kaynakta ilk geçtiği yıldır; hangi yerleşimin (kale/şehir) olduğu HE'de belirtilmez. Atlasla çelişki yok (1335'e kadar atlas almanya; 1809-13 fransa-cumhuriyet HE ile uyumlu)."
+ },
+ {
+  "id": "nigbolu-bg",
+  "ad": "Niğbolu (Nikopol)",
+  "atlas_ad": "Niğbolu",
+  "lat": 43.705,
+  "lon": 24.895,
+  "kat1900": 3,
+  "adlar": [
+   "Nikopol (Bulgarca; TDV: ad 'zafer şehri' anlamında, 11. yüzyıl Bulgar kroniklerinde geçer)",
+   "Niğbolu (Osmanlı Türkçesi; TDV madde başlığı)"
+  ],
+  "ilk": {
+   "t": "1100-01-01",
+   "gun": "11. yüzyıl (güvenli uç 1100)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yuzyil",
+   "kaynak": "TDV İslâm Ansiklopedisi, NİĞBOLU maddesi (Machiel Kiel, c. 33, 2007, s. 87-89; https://islamansiklopedisi.org.tr/nigbolu; 16 Kas 2026'da okundu): ad ilk kez 11. yüzyıl Bulgar kroniklerinde geçer",
+   "tanik": "ad 11. yüzyıl Bulgar kroniklerinde geçer (TDV özeti)"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1100-01-01",
+    "t": "1281-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yuzyil",
+    "kaynak": "TDV NİĞBOLU (Kiel, c. 33): şehrin Orta Çağ'da önemli bir Bulgar şehri ve son Bulgar kralı İvan Şişman'ın başkenti olduğunu söyler; 11.-13. yüzyıl sahibi için tarihli cümle verilmez",
+    "ic_not": "12. ve 13. yüzyıl sahibi (Bizans/Birinci-İkinci Bulgar Çarlığı) için tarihli tanık okunmadı; beyansız yaklaşıklık yazılmadı. Kronoloji: ilk anılış yüzyıl düzeyindedir (güvenli uç 1100)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1395-06-03",
+    "gun": "3 Haziran 1395 (TDV: 'bazı Bulgar kroniklerine göre'; makale yıl olarak 1395 verir)",
+    "k": "fetih",
+    "b": "Yıldırım Bayezid Niğbolu'yu aldı, İvan Şişman'ı tahttan indirdi",
+    "kaynak": "TDV NİĞBOLU (Kiel, c. 33, s. 87-89; 16 Kas 2026'da okundu): Bayezid I 1395 Rovine savaşından sonra şehri aldı; bazı Bulgar kroniklerinde fetih tarihi 3 Haziran 1395"
+   },
+   {
+    "t": "1396-09-25",
+    "gun": "25 Eylül 1396",
+    "k": "savas",
+    "b": "Niğbolu yakınında Haçlı ordusu (Kral Sigismund) yenildi",
+    "kaynak": "TDV NİĞBOLU (Kiel, c. 33; 16 Kas 2026'da okundu): 25 Eylül 1396'da Sigismund komutasındaki Haçlı ordusu Niğbolu yakınında yenildi"
+   },
+   {
+    "t": "1810-10-01",
+    "gun": "Ekim 1810 (ay düzeyi; gün yok)",
+    "k": "fetih",
+    "b": "Kutuzov komutasındaki Rus kuvvetleri Niğbolu'yu ele geçirdi; 1811'de kalenin büyük kısmını havaya uçurup çekildiler",
+    "kaynak": "TDV NİĞBOLU (Kiel, c. 33; 16 Kas 2026'da okundu): Kutuzov Ekim 1810'da aldı, 1811'de Ruslar kaleyi havaya uçurdu"
+   },
+   {
+    "t": "1877-07-04",
+    "gun": "4 Temmuz 1877",
+    "k": "fetih",
+    "b": "Ruslar ağır bombardımandan sonra Niğbolu'yu aldı",
+    "kaynak": "TDV NİĞBOLU (Kiel, c. 33; 16 Kas 2026'da okundu): Ruslar 4 Temmuz 1877'de şehri ele geçirdi"
+   }
+  ],
+  "dikis_beyan": "Atlas 1281-01-01 'bulgar-carligi' der; 11.-13. yy sahibi ve 1281 günü için şehre özgü tarihli tanık bulunamadı (TDV yalnız 'Orta Çağ'da Bulgar şehri' der). Atlas iddiası TDV ile çelişmez ama 1281 günü kaynaksızdır.",
+  "ic_not": "KOORD: GeoNames 728782 (43°42′19.01″ N, 24°53′42.76″ E), atlas tahmininden 0.27 km; sapma yok. KAYNAK BASAMAKLARI: ① TDV NİĞBOLU OKUNDU (Kiel, c. 33). TDV adın hangi Bulgar kroniğinde/yılında ilk geçtiğini vermez; yalnız '11. yüzyıl' der — ilk anılış bu yüzden yüzyıl düzeyinde güvenli uç (1100) yazıldı, TDV'nin 'Nikephoros II Phokas döneminde (963-969) kurulmuş olması muhtemel' yorumu kuruluş sayılmadı (muhtemel). TDV'nin Heraklios'a 629 kuruluşu 'zayıf dayanaklı' diye geçen iddiası alınmadı. Üst basamaklar (İSAM/TTK/DergiPark/YÖK, Bulgar akademik yayınları) BU PARTİDE YAPILMADI. 1396 Nikopol savaşı şehrin kendi el değişimi değil, yakınındaki savaştır. Atlasla çelişki yok: atlas 1395-06-03'te Osmanlı'ya geçiş (TDV: 'bazı Bulgar kroniklerine göre 3 Haziran 1395') ve 1810-10/1811-04 Rus işgali, 1877-07-16 Rus (atlas) ile TDV 4 Temmuz 1877 fethi: atlas günü 12 gün farklı (4 Temmuz fetih, atlas isg/s: 16 Temmuz) — hangisinin ne işaretlediği bu turda ölçülmedi."
+ },
+ {
+  "id": "radom-pl",
+  "ad": "Radom (Polonya)",
+  "atlas_ad": "Radom (Polonya)",
+  "lat": 51.403,
+  "lon": 21.147,
+  "kat1900": 3,
+  "adlar": [
+   "Radom (Lehçe/İtalyanca yazım; Treccani madde başlığı)"
+  ],
+  "ilk": {
+   "t": "1200-01-01",
+   "gun": "12. yüzyıl (güvenli uç 1200)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yuzyil",
+   "kaynak": "Treccani, Enciclopedia on line 'Radom' (https://www.treccani.it/enciclopedia/radom/; 16 Kas 2026'da okundu): 12. yüzyıldan beri surlu kale olarak anılır; Enciclopedia Italiana (1929-37) 'Radom': 'È conosciuta fino dal sec. XII.'",
+   "tanik": "Ricordata sin dal 12° sec. come castello fortificato"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1795-01-01",
+    "gun": "1795 (yıl düzeyi; gün yok)",
+    "k": "diger",
+    "b": "III. Polonya Taksimi'nde Radom el değiştirdi (alıcı devlet Treccani alıntısında yok)",
+    "kaynak": "Treccani, Enciclopedia Italiana 'Radom' (16 Kas 2026'da okundu): 'Nella terza spartizione della Polonia del 1795'"
+   },
+   {
+    "t": "1809-01-01",
+    "gun": "1809 (yıl düzeyi; gün yok)",
+    "k": "diger",
+    "b": "Radom Varşova Dükalığı'na katıldı (1809-1815)",
+    "kaynak": "Treccani, Enciclopedia Italiana 'Radom' (16 Kas 2026'da okundu): 'negli anni 1809-1815 appartenne al principato di Varsavia'"
+   },
+   {
+    "t": "1815-01-01",
+    "gun": "1815 (yıl düzeyi; gün yok)",
+    "k": "diger",
+    "b": "Radom Rusya ile birleşik Polonya Krallığı (Kongre Polonyası) içine alındı",
+    "kaynak": "Treccani, Enciclopedia Italiana 'Radom' (16 Kas 2026'da okundu): 'dal 1815 al regno di Polonia'"
+   }
+  ],
+  "ic_not": "KOORD: GeoNames 760778 (51°24′09.11″ N, 21°08′49.70″ E), atlas tahmininden 0.05 km; sapma yok. KAYNAK BASAMAKLARI: ① TDV: 'radom' aramasında Madde Başlıkları 0 (içerik sonuçları Radomir'e aittir). ② Treccani Enciclopedia on line + Enciclopedia Italiana OKUNDU. Britannica 403 verdi (okunamadı). Üst basamaklar (Polski Słownik, Słownik geograficzny) BU PARTİDE YAPILMADI; Polonya içi sahiplik cümlesi okunmadı. ZİNCİR BOŞ: atlas noktası 1101-01-01'de (12. yy alt sınırı, 'yuzyil' hassasiyetli beyanlı boşluk) başlıyor; ilk anılış güvenli ucu (1200) atlas başlangıcından sonradır. NOT: atlas kaydı 'Radom (Polonya)' Darfur'daki Radom'dan ayrı bir kayıttır (atlas ad çakışması)."
+ },
+ {
+  "id": "trieste-it",
+  "ad": "Trieste (Tergeste)",
+  "atlas_ad": "Trieste",
+  "lat": 45.65,
+  "lon": 13.777,
+  "kat1900": 2,
+  "adlar": [
+   "Tergeste (Latince; Τέργεστον/Τέργεστρον Grekçe; Treccani: Galli Carni'nin gelişkin merkezi)",
+   "Trieste (İtalyanca)",
+   "Trst (Slovence; bu turda kaynakta okunmadı)",
+   "Triest (Almanca; bu turda kaynakta okunmadı)"
+  ],
+  "ilk": {
+   "t": "-0051-01-01",
+   "gun": "MÖ 52",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Treccani, Enciclopedia on line, 'Trieste' (https://www.treccani.it/enciclopedia/trieste/; 16 Kas 2026'da okundu): MÖ 52'de Iapodlar tarafından yağmalandı, Caesar'ın yardımına geldiği belirtilir (Treccani birincil antik kaynağı maddede vermez)",
+   "tanik": "Saccheggiata dai Giapidi (52 a.C.), fu soccorsa da Giulio Cesare"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "-0051-01-01",
+    "t": "1081-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Treccani Enciclopedia on line 'Trieste' (16 Kas 2026'da okundu): Caesar muhtemelen koloni kurdu ('vi dedusse probabilmente una colonia'); 52 BC-1081 arası sahip zinciri (Roma, Bizans, Longobard, Frank, İmparatorluk) maddede tarihli verilmez",
+    "ic_not": "Roma Cumhuriyeti/İmparatorluğu ve ardıl yapılar bu aralıkta şehri tutmuş olabilir; tarihli şehre özgü tanık bu turda okunmadı. Roma kolonisi 'muhtemelen' (probabilmente) olduğundan sahip yazılmadı."
+   },
+   {
+    "f": "1081-01-01",
+    "t": "1202-01-01",
+    "d": "aquileia-patrikligi",
+    "kesinlik": "yil",
+    "kaynak": "Treccani Enciclopedia on line 'Trieste' (16 Kas 2026'da okundu): 'Nel 1081 l'imperatore Enrico IV la sottopose al patriarca d'Aquileia.'",
+    "ic_not": "Yıl düzeyi (gün yok). Bu dönem sonu 1202 de yıl düzeyidir."
+   },
+   {
+    "f": "1202-01-01",
+    "t": "1275-01-01",
+    "d": "venedik",
+    "kesinlik": "yil",
+    "kaynak": "Treccani Enciclopedia on line 'Trieste' (16 Kas 2026'da okundu): 'Nel 1202 il comune dovette accettare il dominio di Venezia.'",
+    "ic_not": "1202 Venedik egemenliğinin kabulü komünün tâbiyetidir (tam mülkiyet değil). Dönem sonu 1275: Treccani şehrin 1275'ten 1291'e Venedik'e karşı Aquileia patriğiyle ittifak ettiğini söyler; 1275 öncesi Venedik egemenliğinin son bulduğu gün/yıl okunmadı, 1275 'en geç' uç olarak alındı."
+   },
+   {
+    "f": "1275-01-01",
+    "t": "1281-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Treccani Enciclopedia on line 'Trieste' (16 Kas 2026'da okundu): 'T. si alleò al patriarca d'Aquileia nelle guerre contro Venezia dal 1275 al 1291, ma fu conquistata dai Veneziani'",
+    "ic_not": "1275-1291 savaşlarında şehir Aquileia patriğinin müttefiki (sahibi değil); 1281'de şehrin sahibi (komün/patrik/Venedik) bu turda tarihli okunamadı. Fethin yılı Treccani'de yok."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1081-01-01",
+    "gun": "1081 (yıl düzeyi; gün yok)",
+    "k": "diger",
+    "b": "İmparator IV. Heinrich Trieste'yi Aquileia patriğinin egemenliğine bağladı",
+    "kaynak": "Treccani Enciclopedia on line 'Trieste' (16 Kas 2026'da okundu): 'Nel 1081 l'imperatore Enrico IV la sottopose al patriarca d'Aquileia.'"
+   },
+   {
+    "t": "1202-01-01",
+    "gun": "1202 (yıl düzeyi; gün yok)",
+    "k": "antlasma",
+    "b": "Trieste komünü Venedik egemenliğini kabul etmek zorunda kaldı",
+    "kaynak": "Treccani Enciclopedia on line 'Trieste' (16 Kas 2026'da okundu): 'Nel 1202 il comune dovette accettare il dominio di Venezia.'"
+   },
+   {
+    "t": "1275-01-01",
+    "gun": "1275 (yıl düzeyi; gün yok)",
+    "k": "savas",
+    "b": "Trieste Venedik'e karşı savaşlarda Aquileia patriğiyle ittifak etti (1275-1291)",
+    "kaynak": "Treccani Enciclopedia on line 'Trieste' (16 Kas 2026'da okundu): 'T. si alleò al patriarca d'Aquileia nelle guerre contro Venezia dal 1275 al 1291'"
+   },
+   {
+    "t": "1382-01-01",
+    "gun": "1382 (yıl düzeyi; Treccani gün vermez)",
+    "k": "diger",
+    "b": "Trieste Habsburg egemenliğine girdi (1369 Venedik, 1379 Friuli, 1382 Habsburg)",
+    "kaynak": "Treccani Enciclopedia on line 'Trieste' (16 Kas 2026'da okundu): 'passò sotto il dominio della prima (1369), poi del secondo (1379), e nel 1382 degli Asburgo'"
+   }
+  ],
+  "dikis_beyan": "Atlas 1281-01-01 'almanya' der ve bu iddia atlasın kendi notunda ÇELİŞKİ olarak beyanlıdır; Treccani 1202 Venedik egemenliği ve 1275-91 Aquileia ittifakını verir, 1281'in sahibini vermez. 1281 günü ve 'almanya' etiketi şehre özgü tarihli tanıkla doğrulanamadı.",
+  "ic_not": "KOORD: GeoNames 3165185 (45°38′58.31″ N, 13°46′36.41″ E), atlas tahmininden 0.53 km; sapma yok. KAYNAK BASAMAKLARI: ① TDV: Trieste için arama yapılmadı bu turda. ② Treccani Enciclopedia on line 'Trieste' OKUNDU (tek dayanak; Enciclopedia Italiana maddesi ayrıca okunmadı; aynı kuruluş, bağımsız sayılmaz). ÜST BASAMAKLAR (Slovence/İtalyan akademik: Kronika, Cammarosano) BU PARTİDE YAPILMADI. İLK ANILIŞ BEYANI: MÖ 52 Iapod yağması Treccani'de tarihli olarak geçen en erken olgudur; antik birincil kaynak (Strabon, Plinius vb.) okunmadı, bu nedenle 'ilk anılış' bu turdaki en erken okunan tanıktır ve daha erken anılış olabilir. Aquileia dönemi künye devletler.js'te aquileia-patrikligi olarak var (kısa süreli hayalet uyarısı çıkabilir). Atlasla ÇELİŞKİ: atlas 1281-1382 'almanya' der; Treccani 1202'den beri Venedik egemenliği, 1275-91 Venedik karşıtı ittifak ve 1369 Venedik/1379 Friuli/1382 Habsburg verir — atlasın kendi notu bunu beyan eder (BORÇ). Habsburg 1382 atlasın 1382-09-30 günü ile yıl düzeyinde uyumlu."
+ },
+ {
+  "id": "visoko-ba",
+  "ad": "Visoko",
+  "atlas_ad": "Visoko",
+  "lat": 43.989,
+  "lon": 18.178,
+  "kat1900": 3,
+  "adlar": [
+   "Visoko (Hırvatça/Boşnakça; Hrvatska enciklopedija madde başlığı)"
+  ],
+  "ilk": {
+   "t": "1363-01-01",
+   "gun": "1363",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Hrvatska enciklopedija (LZMK), 'Visoko' (https://www.enciklopedija.hr/clanak/visoko; 16 Kas 2026'da okundu): belgelerde ilk kez 1363'te anılır",
+   "tanik": "U dokumentima se prvi put spominje 1363."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1404-01-01",
+    "gun": "1404 (yıl düzeyi; gün yok)",
+    "k": "diger",
+    "b": "Visoko'da toplanan sabor Stjepan Ostoja'yı tahttan indirip Tvrtko II. Tvrtković'i seçti",
+    "kaynak": "Hrvatska enciklopedija (LZMK), 'Visoko' (16 Kas 2026'da okundu; olgu özetten alındı, cümle aynen kaydedilmedi)"
+   },
+   {
+    "t": "1463-01-01",
+    "gun": "1463 (yıl düzeyi; gün yok)",
+    "k": "fetih",
+    "b": "Visoko barışçıl yoldan Osmanlı yönetimine geçti",
+    "kaynak": "Hrvatska enciklopedija (LZMK), 'Visoko' (16 Kas 2026'da okundu): 'Pod osmansku vlast mirnim putem došlo je 1463.'"
+   },
+   {
+    "t": "1878-01-01",
+    "gun": "1878 (yıl düzeyi; gün yok)",
+    "k": "fetih",
+    "b": "Visoko Avusturya-Macaristan yönetimine geçti",
+    "kaynak": "Hrvatska enciklopedija (LZMK), 'Visoko' (16 Kas 2026'da okundu): 'God. 1878. došlo je pod austrougarsku vlast'"
+   }
+  ],
+  "ic_not": "KOORD: GeoNames 3187609 (43°59′20.00″ N, 18°10′41.02″ E), atlas tahmininden 0.08 km; sapma yok. KAYNAK BASAMAKLARI: ① TDV: 'visoko' araması Madde Başlıkları'nda 0 sonuç (bk. yok). ② Hrvatska enciklopedija OKUNDU, ana dayanak. Üst basamaklar BU PARTİDE YAPILMADI. ZİNCİR BOŞ: ilk anılış (1363) atlas başlangıcından (1281) sonradır. 🔴 ATLASLA ÇELİŞKİ: atlas bosna'yı 1448-01-01'de bitirip Osmanlı'ya (d:) geçirir; HE'ye göre Visoko 1463'te barışla Osmanlı'ya geçti (15 yıl fark). Atlasın 1448 günü bu turda kaynakla desteklenemedi; HE 1463 yıl düzeyidir."
+ },
+ {
+  "id": "yayca-ba",
+  "ad": "Yayça (Jajce)",
+  "atlas_ad": "Yayça (Jajce)",
+  "lat": 44.342,
+  "lon": 17.271,
+  "kat1900": 3,
+  "adlar": [
+   "Jajce (Hırvatça/Boşnakça; Hrvatska enciklopedija madde başlığı, ilk anılış biçimi)",
+   "Yayça (Osmanlı Türkçesi; atlas adı — TDV'de madde yok, bu biçim TDV'de doğrulanmadı)"
+  ],
+  "ilk": {
+   "t": "1396-01-01",
+   "gun": "1396",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Hrvatska enciklopedija (LZMK), 'Jajce' (https://www.enciklopedija.hr/clanak/jajce; 16 Kas 2026'da okundu): Jajce ilk kez 1396'da Hrvoje Vukčić Hrvatinić'in unvanında anılır",
+   "tanik": "Prvi se put Jajce spominje 1396. u naslovu Hrvoja Vukčića Hrvatinića"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1463-01-01",
+    "gun": "1463 (yıl düzeyi; gün yok)",
+    "k": "fetih",
+    "b": "Osmanlılar Jajce'yi aldı; aynı yıl Kral Matija Korvin geri alıp Jajce Banlığı'nın merkezi yaptı",
+    "kaynak": "Hrvatska enciklopedija (LZMK), 'Jajce' (16 Kas 2026'da okundu): 'God. 1463. osvojili su ga Osmanlije'; Korvin 'preoteo im ga je … i učinio središtem Jajačke banovine' (aynı yıl; gün/ay kaynakta yok)"
+   },
+   {
+    "t": "1527-01-01",
+    "gun": "1527 (yıl düzeyi; gün yok)",
+    "k": "fetih",
+    "b": "Osmanlı idaresinde Jajce kadılık merkezi olarak başladı (kadılık 1527-1878)",
+    "kaynak": "Hrvatska enciklopedija (LZMK), 'Jajce' (16 Kas 2026'da okundu): 'Pod osmanskom vlašću bio je sjedište kadiluka (1527–1878).'"
+   }
+  ],
+  "ic_not": "KOORD: GeoNames 3198934 (44°20′31.31″ N, 17°16′14.12″ E), atlas tahmininden 0.03 km; sapma yok. KAYNAK BASAMAKLARI: ① TDV: 'yayce', 'jajce' aramaları Madde Başlıkları'nda 0 sonuç (bk. yönlendirmesi yok) — TDV'de bağımsız madde bulunamadı. ② Hrvatska enciklopedija (LZMK) 'Jajce' OKUNDU, ana dayanak. Üst basamaklar (İSAM/TTK/DergiPark/YÖK, Šabanović Bosanski pašaluk) BU PARTİDE YAPILMADI. ZİNCİR BOŞ: ilk anılış (1396) atlas başlangıcından (1281-01-01) sonradır; atlas 1281-1463 'bosna' dönemini kaynaksız taşır (atlas başlangıcı düzeltilmeli uyarısı beklenir). HE ayrıca 13.-14. yy'da yerleşim çevresine sur ve saray yapıldığını, ~15. yy ortasında Bosna Krallığı'nın başkenti olduğunu söyler (tarihsiz; olay yazılmadı). ATLASLA FARK: atlas 1463-06-01'de bosna → macaristan der; HE'ye göre 1463'te önce Osmanlı aldı, Korvin aynı yıl geri aldı (gün yok); atlasın Osmanlı dönemi 1528-01-01'de başlar, HE kadılık 1527 der (1 yıl). Yıl düzeyinde ölçüldü; hangi günün doğru olduğu bu turda kaynakla çözülemedi."
+ },
+ {
+  "id": "yenice-i-vardar-gr",
+  "ad": "Yenice-i Vardar (Giannitsa)",
+  "atlas_ad": "Yenice-i Vardar",
+  "lat": 40.792,
+  "lon": 22.407,
+  "kat1900": 3,
+  "adlar": [
+   "Yenice-i Vardar (Osmanlı Türkçesi; TDV madde başlığı)",
+   "Giannitsa / Giannitsá (Yunanca; TDV: 'Günümüzde Giannitsa adıyla anılır')"
+  ],
+  "ilk": {
+   "t": "1400-01-01",
+   "gun": "14. yüzyıl sonları (güvenli uç 1400)",
+   "nicelik": "kurulus",
+   "kesinlik": "yuzyil",
+   "kaynak": "TDV İslâm Ansiklopedisi, YENİCE-i VARDAR maddesi (Machiel Kiel, c. 43, 2013, s. 445-448; https://islamansiklopedisi.org.tr/yenice-i-vardar; 16 Kas 2026'da okundu): Gazi Evrenos Bey tarafından XIV. yüzyılın sonlarında kurulmuştur",
+   "tanik": "Gazi Evrenos Bey tarafından XIV. yüzyılın sonlarında kurulmuştur (TDV)"
+  },
+  "kur": {
+   "t": "1400-01-01",
+   "gun": "14. yüzyıl sonları (güvenli uç 1400)",
+   "kesinlik": "yuzyil",
+   "kaynak": "TDV YENİCE-i VARDAR (Kiel, c. 43; 16 Kas 2026'da okundu): XIV. yüzyılın sonlarında Gazi Evrenos Bey"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1400-01-01",
+    "gun": "14. yüzyıl sonları (güvenli uç 1400)",
+    "k": "kurulus",
+    "b": "Gazi Evrenos Bey Yenice-i Vardar'ı kurdu",
+    "kaynak": "TDV YENİCE-i VARDAR (Kiel, c. 43; 16 Kas 2026'da okundu)"
+   },
+   {
+    "t": "1912-11-11",
+    "gun": "11 Kasım 1912",
+    "k": "savas",
+    "b": "Yannitsa savaşı sırasında kasaba büyük ölçüde yakıldı (I. Balkan Savaşı)",
+    "kaynak": "TDV YENİCE-i VARDAR (Kiel, c. 43; 16 Kas 2026'da okundu): 'Yannitsa savaşı esnasında (11 Kasım 1912)'; Yunanistan'a geçiş günü TDV metninde YOK"
+   }
+  ],
+  "ic_not": "KOORD: GeoNames 733776 (40°47′30.98″ N, 22°24′27.00″ E), atlas tahmininden 0.22 km; sapma yok. KAYNAK BASAMAKLARI: ① TDV YENİCE-i VARDAR OKUNDU: yalnız 'XIV. yüzyıl sonları' verir, kuruluş yılı/günü yok; 'XIV. yüzyılın sonlarında' = güvenli uç 1400-01-01 (yüzyıl hassasiyeti). Fetih (Selânik 833/1430) başka şehrin olayıdır, bu şehre atfedilmedi. TDV EVRENOS BEY (Gazi Evrenos Bey) arama listesinde yalnız özet okunabildi; Evrenos'un Osmanlı uç beyi olduğu doğrulandı ('Rumeli'nin fethinde önemli rol oynayan akıncı beyi') ama Yenice'ye dair tarih verilmedi. Üst basamaklar (İSAM/TTK/DergiPark/YÖK, Kiel dışı akademik monografi) BU PARTİDE YAPILMADI. ZİNCİR BOŞ: atlas noktası 1390-01-01'de başlıyor (atlas kur 1390 yıl düzeyi; TDV 'sonlarında' aralığı 1390'ı dışlamaz, 'güvenli uç' kuralı 1400 yazdırır) — atlas başlangıcı 1390 ile TDV güvenli ucu (1400) arasında 10 yıl fark kalır; kaynak yıl vermediği için çözülemedi. Yunanistan'a geçiş (atlas 1913-11-14, atlas isg 1912-11-02) bu kayıtta yazılmadı: atlas zinciri esastır."
+ }
+];

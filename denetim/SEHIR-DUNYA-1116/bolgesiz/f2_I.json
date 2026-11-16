@@ -1,0 +1,343 @@
+[
+ {
+  "id": "provadi-bg",
+  "ad": "Provadi (Provadia)",
+  "atlas_ad": "Prevadi (Provadia)",
+  "lat": 43.183,
+  "lon": 27.433,
+  "kat1900": 3,
+  "adlar": [
+   "Pravadi (Osmanlıca; TDV madde başlığı, Bizans-Bulgar-Osmanlı dönemi kullanımı)",
+   "Provadiya / Провадия (modern Bulgarca; GeoNames 727921)"
+  ],
+  "ilk": {
+   "t": "1000-01-01",
+   "gun": "10. yüzyıl (TDV: Bizans kalesi olarak X. yüzyılda ortaya çıktı; güvenli uç 1000)",
+   "nicelik": "kurulus",
+   "kesinlik": "yuzyil",
+   "kaynak": "TDV İslâm Ansiklopedisi, PRAVADİ maddesi (Machiel Kiel, c.34, s.339-340; islamansiklopedisi.org.tr/pravadi; 16 Kas 2026'da okundu)",
+   "tanik": "bir Bizans kalesi olarak X. yüzyılda ortaya çıktı"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1000-01-01",
+    "t": "1188-01-01",
+    "d": "bizans",
+    "kesinlik": "yuzyil",
+    "kaynak": "TDV PRAVADİ (Kiel, c.34, s.339-340): 'Bizans (960-1188) ve II. Bulgar İmparatorluğu (1188-1393) döneminde kale idarî ve bir piskoposun oturduğu dinî bir merkezdi.'",
+    "ic_not": "TDV Bizans dönemini 960'tan başlatır; kuruluş tanığı 'X. yüzyıl' olduğundan zincir güvenli uç 1000'de açıldı (960-1000 arası Bizans hâkimiyeti TDV'ye göre vardı ama kale kuruluşu yüzyıl hassasiyetinde)."
+   },
+   {
+    "f": "1188-01-01",
+    "t": "1281-01-01",
+    "d": "bulgar-carligi",
+    "kesinlik": "yil",
+    "kaynak": "TDV PRAVADİ (Kiel, c.34, s.339-340): II. Bulgar İmparatorluğu dönemi 1188-1393",
+    "ic_not": "TDV başlangıç yılı 1188 verir (yaygın literatür 1185-86 isyanı; künye f 1185). 1281 = atlasın bu noktadaki başlangıç günü (dikiş; atlas ilk sahibi de bulgar-carligi, sahip aynı)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1188-01-01",
+    "gun": "1188 (yıl; gün yok)",
+    "k": "diger",
+    "b": "Bizans hâkimiyetinin sonu, II. Bulgar İmparatorluğu hâkimiyetinin başı (TDV'nin verdiği sınır yılı)",
+    "kaynak": "TDV PRAVADİ (Kiel, c.34, s.339-340; islamansiklopedisi.org.tr/pravadi; 16 Kas 2026'da okundu)"
+   },
+   {
+    "t": "1388-01-01",
+    "gun": "790 (1388) kışı (yıl; gün yok)",
+    "k": "fetih",
+    "b": "Timurtaş Paşa'nın oğlu Yahşi Bey, Çandarlı Ali Paşa'nın kış seferinde kaleyi ele geçirdi (Neşrî)",
+    "kaynak": "TDV PRAVADİ (Kiel, c.34, s.339-340): Neşrî, Cihannümâ (Unat), I, s.244-245'e dayanır; hicrî 790/1388, ay verilmemiş"
+   },
+   {
+    "t": "1444-01-01",
+    "gun": "848 (1444) (yıl; gün yok)",
+    "k": "kayip",
+    "b": "Varna seferindeki Macar kuvvetleri kaleyi kuşatıp ele geçirdi ve yıktı; çevre ovaların iskânı bozuldu, II. Murad Anadolu Türklerini iskân ettirdi, kalenin altında yeni kasaba kuruldu",
+    "kaynak": "TDV PRAVADİ (Kiel, c.34, s.339-340); Hans Megäst tanıklığına dayanır (TDV'nin aktardığı)"
+   },
+   {
+    "t": "1878-01-01",
+    "gun": "1878 (yıl; gün yok)",
+    "k": "diger",
+    "b": "Osmanlı idaresinin sonu: TDV 'Bulgaristan'ın bağımsızlığını kazanmasından sonra' ifadesiyle 1878'i verir",
+    "kaynak": "TDV PRAVADİ (Kiel, c.34, s.339-340)"
+   }
+  ],
+  "ic_not": "Kaynak basamakları: ① TDV PRAVADİ maddesi (Kiel) tam okundu — kuruluş yüzyıl hassasiyetinde (X. yy), gün yok. ② İSAM/TTK/DergiPark/YÖK aranmadı (TDV kuruluş + Osmanlı fethi + 1444 + 1878 için yeterli bulundu; gün hassasiyeti için daha aşağı basamak denenmedi — BORÇ). Sahip zinciri yalnız atlasın başlangıcı 1281'e kadardır (atlas zinciri 1281 sonrası esastır). TDV 1878'i 'bağımsızlık' diye yazar; de jure 1878 Berlin Antlaşması özerk Bulgaristan Prensliği (atlas v: 'vassal') — TDV ifadesi olarak taşındı, çelişki beyan. Mûsâ Çelebi'nin kuşatıp zaptetmesi TDV'de yılsız geçer (Fetret dönemi); tarih uydurulmadığı için olay olarak YAZILMADI. koord: GeoNames 727921 (43°10′59.99″N 27°25′59.99″E), atlas tahmininden 0,5 km; sapma < 3 km."
+ },
+ {
+  "id": "trebinye-ba",
+  "ad": "Trebinye (Trebinje)",
+  "atlas_ad": "Trebinye",
+  "lat": 42.712,
+  "lon": 18.344,
+  "kat1900": 3,
+  "adlar": [
+   "Terebun (Bizans kaynağı, X. yüzyıl; TDV TREBİNYE)",
+   "Trebinje (Sırpça/Hırvatça/Boşnakça yerel ad; Hrvatska enciklopedija)",
+   "Trebinye (Osmanlıca-Türkçe; TDV madde başlığı)"
+  ],
+  "ilk": {
+   "t": "0960-01-01",
+   "gun": "10. yüzyıl ortası (Hrvatska enciklopedija: polovicom X. st.; güvenli uç 960)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "belirsiz",
+   "kaynak": "Hrvatska enciklopedija, «Trebinje» (Leksikografski zavod Miroslav Krleža; enciklopedija.hr/clanak/trebinje; 16 Kas 2026'da okundu); TDV TREBİNYE (Machiel Kiel, c.41, 2012, s.311-312; X. yüzyılda 'Terebun' anılışı)",
+   "tanik": "Prvi se put spominje polovicom X. st. kao grad u sastavu Travunije."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0960-01-01",
+    "t": "1281-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "Hrvatska enciklopedija, «Trebinje»: önce Travunija'nın parçası; sonra 'dukljanskih kraljeva i srpskih Nemanjića' hâkimiyeti — yıl verilmemiş",
+    "ic_not": "Sahip biliniyor ama tarihlenmiyor: Travunija → Duklja (Zeta) kralları → Nemanjić Sırbistan'ı sıralaması HE'de sayılır, geçiş yılları YOK; TDV de 1353-1391 Bosna'dan önceki geçişleri tarihlemez. Beyansız yaklaşıklık yazılmadı: __BOSLUK__ (şehir var, dönemlerin sahibi tarihlenemedi). Bu turda Duklja/Nemanjić geçişini tarihleyen ek kaynak (Sırp akademik yayınları, Konstantin Porfirogenet DAI) okunmadı."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1371-01-01",
+    "gun": "1371 (yıl; gün yok)",
+    "k": "diger",
+    "b": "Marica Savaşı'ndan sonra Trebinje'ye Hum'lu Vojinović ailesi hâkim oldu",
+    "kaynak": "Hrvatska enciklopedija, «Trebinje» (enciklopedija.hr/clanak/trebinje)"
+   },
+   {
+    "t": "1378-01-01",
+    "gun": "1378 (yıl; gün yok)",
+    "k": "diger",
+    "b": "Bosna kralı I. Tvrtko Kotromanić Trebinje'yi (Hum-Travunija) elinde tuttu/aldı",
+    "kaynak": "Hrvatska enciklopedija, «Trebinje»: '1378. bosanski kralj Tvrtko I. Kotromanić'; TDV TREBİNYE: 1353-1391 Bosna Kralı I. Tvrtko dönemi"
+   },
+   {
+    "t": "1438-01-01",
+    "gun": "1438-1466 (yıl; gün yok)",
+    "k": "diger",
+    "b": "Pavlovićlerden sonra Kosače (Hersek) hâkimiyeti başladı (1438-1466)",
+    "kaynak": "Hrvatska enciklopedija, «Trebinje»: 'potom Kosače (1438-66)'"
+   },
+   {
+    "t": "1466-01-01",
+    "gun": "1466 (yıl; gün yok)",
+    "k": "fetih",
+    "b": "Hersek'in Osmanlı tarafından fethi; Trebinje en geç 1467'den itibaren nahiye merkezi (Bosna, sonra Hersek sancağı)",
+    "kaynak": "TDV TREBİNYE (Kiel, c.41, s.311-312): 1466 Osmanlı fethi; Hrvatska enciklopedija: 'najkasnije od 1467. bilo sjedište nahije'"
+   },
+   {
+    "t": "1664-01-01",
+    "gun": "1664 (yıl; gün yok)",
+    "k": "diger",
+    "b": "Girit Savaşı sırasında Trebinye kapetanlık merkezi oldu",
+    "kaynak": "TDV TREBİNYE (Kiel, c.41, s.311-312); Hrvatska enciklopedija: 'Od 1664. bilo je sjedište kapetanije'"
+   },
+   {
+    "t": "1687-01-01",
+    "gun": "1687 (yıl; gün yok)",
+    "k": "kayip",
+    "b": "Venedik istilası ve yıkım (TDV tarihi); Hrvatska enciklopedija geçici Venedik işgalini 1694-99 verir",
+    "kaynak": "TDV TREBİNYE (Kiel, c.41, s.311-312): 1687 Venedik saldırısı/yıkımı; Hrvatska enciklopedija: '(1694-99)' — iki kaynak aynı olayı farklı yıllara koyuyor, çelişki ic_not'ta"
+   },
+   {
+    "t": "1699-01-01",
+    "gun": "1699 (yıl; gün yok)",
+    "k": "antlasma",
+    "b": "Karlofça Antlaşması: Osmanlı'nın bugünkü Trebinye şehrini kurması (TDV), Venedik işgalinin sonu",
+    "kaynak": "TDV TREBİNYE (Kiel, c.41, s.311-312): 1699 Karlofça'dan sonra Osmanlı şehir kuruşu; Hrvatska enciklopedija: 1694-99 Venedik işgali"
+   },
+   {
+    "t": "1878-01-01",
+    "gun": "1878 (yıl; gün yok)",
+    "k": "diger",
+    "b": "Avusturya-Macaristan hâkimiyeti başladı (1878-1918, Trebinje okrug merkezi)",
+    "kaynak": "TDV TREBİNYE (Kiel, c.41, s.311-312): 1878-1918; Hrvatska enciklopedija: 'Za austrougarske vladavine ... sjedište okruga (1878-1918)'"
+   }
+  ],
+  "dikis_beyan": "Atlas 1281-01-01'de d:'bosna' der (1281-1448 bosna, 1448-1466 hersek). Okunan kaynaklarda 1281'de Bosna hâkimiyeti YOK: HE 'dukljanskih kraljeva i srpskih Nemanjića' der, Bosna'nın Trebinje'de ilk tanığı 1378 (Tvrtko I; Hum'u Bosna'ya bağlama 1326'dan beri literatürde geçer ama bu turda okunamadı). Yer tutucu olay yazılmadı; atlasın 1281 'bosna' iddiası ile HE/TDV çelişir (1281-1378 arası atlas 'bosna' muhtemelen yanlış ya da sınır bölgesi yaklaşıklığı).",
+  "ic_not": "Kaynak basamakları: ① TDV TREBİNYE tam okundu (Kiel; Terebun X. yy; olay yılları); ② Hrvatska enciklopedija «Trebinje» (ulusal ansiklopedi, basamak ⑦) tam okundu: ilk anılış 'polovicom X. st.' (güvenli uç 960; ilk_anilis, gün yok). İSAM/TTK/DergiPark/YÖK ve Konstantin Porfirogenet (DAI) birincil metni okunmadı — BORÇ. Konstantin metni ilk anılışı 'polovicom X. st.' için TDV'nin 'Terebun' ifadesinin kaynağı olabilir; okunmadığı için sayılmadı. TDV 1687 / HE 1694-99 Venedik işgali çelişkisi: iki kaynak da beyan edildi, tek yıl seçilmedi. koord: GeoNames 3188893 (42°42′43.09″N 18°20′37.03″E), atlas tahmininden 0,1 km; sapma < 3 km."
+ },
+ {
+  "id": "askalan-il",
+  "ad": "Askalân (Aşkelon)",
+  "atlas_ad": null,
+  "lat": 31.66,
+  "lon": 34.549,
+  "kat1900": 3,
+  "adlar": [
+   "Aşkelon (Tevrat'ta; TDV ASKALÂN madde girişi)",
+   "Askalân / عسقلان (Arapça; İslâm dönemi, TDV madde başlığı)",
+   "Ashkelon / Tel Ashqelon (modern İbranice-İngilizce; GeoNames 293400 arkeolojik höyük adı)"
+  ],
+  "ilk": {
+   "t": "0640-01-01",
+   "gun": "19 (640)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, ASKALÂN maddesi (Mustafa Fayda, c.3, 1991, s.487-488; islamansiklopedisi.org.tr/askalan; 16 Kas 2026'da okundu)",
+   "tanik": "Muʿâviye, Hz. Ömer'in emriyle Askalân'ı fethetti (özet, TDV; 19/640)"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": {
+   "t": "1270-01-01",
+   "gun": "1270 (yıl; gün yok)",
+   "kesinlik": "yil",
+   "kaynak": "TDV ASKALÂN (Fayda, c.3, s.487-488): Baybars 1270'te bina ve surları yıktırdı; şehir bir daha iskân edilmedi"
+  },
+  "sahip": [
+   {
+    "f": "0640-01-01",
+    "t": "1099-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV ASKALÂN (Fayda, c.3, s.487-488): 19 (640) Muʿâviye fethi; 772 Abbâsî halifesi Mehdî'nin mescit-minare kitabesi; 1099'a kadar hanedan geçişleri TDV'de tarihli sıralanmaz",
+    "ic_not": "Raşidîn → Emevî → Abbâsî → (Tolunoğulları/İhşîdîler/Fâtımîler) hanedan geçişlerinin Askalân'a özgü günü TDV ASKALÂN'da yok; hanedan maddeleri (TDV) bu turda okunmadı. Sahip biliniyor ama sıralı/tarihli değil → __BOSLUK__ (beyanlı). 772 kitabesi yerinde yazılı tanıktır: Abbâsî hâkimiyeti 772'de kesin."
+   },
+   {
+    "f": "1099-01-01",
+    "t": "1153-01-01",
+    "d": "fatimi",
+    "kesinlik": "yil",
+    "kaynak": "TDV ASKALÂN (Fayda, c.3, s.487-488): 1099'da Haçlılar Kudüs'ü alınca Fâtımî kuvvetleri Askalân'a çekildi; şehir Müslümanlarda kaldı",
+    "ic_not": "f = 'en geç tanıktan' (1099): Fâtımî hâkimiyeti 1099'dan önce de olabilir (TDV tarihlemez); önceki dönem __BOSLUK__ olarak beyan edildi. Gün yok: Kudüs 15 Temmuz 1099 (künye ic_not_f, TDV kudus) ama Askalân'a çekilme günü TDV'de yok → 01-01."
+   },
+   {
+    "f": "1153-01-01",
+    "t": "1187-01-01",
+    "d": "kudus-kralligi",
+    "kesinlik": "yil",
+    "kaynak": "TDV ASKALÂN (Fayda, c.3, s.487-488): III. Baudouin yedi aylık kuşatmadan sonra 1153'te aldı",
+    "ic_not": "TDV yıl verir; kuşatma yedi ay sürdü, teslim günü TDV'de yok."
+   },
+   {
+    "f": "1187-01-01",
+    "t": "1191-01-01",
+    "d": "eyyubi",
+    "kesinlik": "yil",
+    "kaynak": "TDV ASKALÂN (Fayda, c.3, s.487-488): Selâhaddîn-i Eyyûbî Hattîn Savaşı'ndan sonra 1187'de geri aldı",
+    "ic_not": "Hattîn 4 Temmuz 1187'dir ama Askalân'ın teslim günü TDV'de yok."
+   },
+   {
+    "f": "1191-01-01",
+    "t": "1270-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV ASKALÂN (Fayda, c.3, s.487-488): 1191'de Arsûf yenilgisinden sonra Selâhaddîn I. Richard ele geçirmesin diye şehri yıktırdı; 1247'de Müslümanlar şehri geri aldı; 1270'te Baybars yıktırdı",
+    "ic_not": "1191-1247 arasında şehrin elinde kimin olduğu (Richard'ın 1192 yeniden inşası vb.) ve 1247-1270 Müslüman sahibin hanedanı (Eyyûbî/Memlûk) TDV ASKALÂN'da hanedan adıyla yok; bu turda ek kaynak okunmadı. Yıkılan şehir 1191-1270 arasında yarı harap yaşadı mı belirsiz → __BOSLUK__ (beyanlı), __YOK__ yazılmadı çünkü TDV 1247'de 'Müslümanlar geri aldı' der."
+   },
+   {
+    "f": "1270-01-01",
+    "t": "1900-01-01",
+    "d": "__YOK__",
+    "kesinlik": "yil",
+    "kaynak": "TDV ASKALÂN (Fayda, c.3, s.487-488): 1270'te Baybars yıktırdı; yeniden iskân edilmedi, harabe olarak kaldı",
+    "ic_not": "Şehir yok (TDV: harabe, bir daha iskân edilmedi). Bu kayıt yalnız höyük/ortaçağ şehri (GeoNames 293400) içindir; bugünkü Aşkelon şehri (GeoNames 295620) ayrı bir modern yerleşimdir, kuruluşu bu turda araştırılmadı. Zincir atlassız olduğundan 1900-01-01'de bitirildi."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0640-01-01",
+    "gun": "19 (640); bir rivayet 644 (yıl; gün yok)",
+    "k": "fetih",
+    "b": "Muʿâviye, Halife Ömer'in emriyle Askalân'ı fethetti; başka rivayet fethi 644'e (Ömer'in ölüm yılı) koyar",
+    "kaynak": "TDV ASKALÂN (Fayda, c.3, s.487-488)"
+   },
+   {
+    "t": "0772-01-01",
+    "gun": "772 (yıl; gün yok)",
+    "k": "diger",
+    "b": "Abbâsî halifesi Mehdî mescit ve minare yaptırdı (kazılarda bulunan kitabeye göre)",
+    "kaynak": "TDV ASKALÂN (Fayda, c.3, s.487-488)"
+   },
+   {
+    "t": "1099-01-01",
+    "gun": "1099 (yıl; gün yok)",
+    "k": "diger",
+    "b": "Haçlılar Kudüs'ü aldı; Fâtımî kuvvetleri Askalân'a çekildi, şehir Müslümanlarda kaldı",
+    "kaynak": "TDV ASKALÂN (Fayda, c.3, s.487-488)"
+   },
+   {
+    "t": "1153-01-01",
+    "gun": "1153 (yıl; gün yok)",
+    "k": "fetih",
+    "b": "Kudüs Kralı III. Baudouin yedi aylık kuşatmadan sonra Askalân'ı aldı",
+    "kaynak": "TDV ASKALÂN (Fayda, c.3, s.487-488)"
+   },
+   {
+    "t": "1187-01-01",
+    "gun": "1187 (yıl; gün yok)",
+    "k": "fetih",
+    "b": "Selâhaddîn-i Eyyûbî Hattîn Savaşı'ndan sonra Askalân'ı geri aldı",
+    "kaynak": "TDV ASKALÂN (Fayda, c.3, s.487-488)"
+   },
+   {
+    "t": "1191-01-01",
+    "gun": "1191 (yıl; gün yok)",
+    "k": "kayip",
+    "b": "Selâhaddîn, Arsûf yenilgisinden sonra Richard ele geçirmesin diye Askalân'ı yıktırdı",
+    "kaynak": "TDV ASKALÂN (Fayda, c.3, s.487-488)"
+   },
+   {
+    "t": "1247-01-01",
+    "gun": "1247 (yıl; gün yok)",
+    "k": "fetih",
+    "b": "Müslümanlar Askalân'ı yeniden ele geçirdi",
+    "kaynak": "TDV ASKALÂN (Fayda, c.3, s.487-488)"
+   },
+   {
+    "t": "1270-01-01",
+    "gun": "1270 (yıl; gün yok)",
+    "k": "kayip",
+    "b": "Sultan Baybars, Haçlıların yeniden tutmasını önlemek için bina ve surları yıktırdı; şehir bir daha iskân edilmedi",
+    "kaynak": "TDV ASKALÂN (Fayda, c.3, s.487-488)"
+   }
+  ],
+  "ic_not": "Kaynak basamakları: ① TDV ASKALÂN (Fayda) okundu; TDV maddesi Tevrat'ta Aşkelon'dan söz eder ama tarihsiz. İlk anılış 640 olarak yazıldı çünkü TDV'nin verdiği ilk TARİHLİ tanık budur; Eski Mısır (Execration metinleri, Amarna, Merneptah), Filistî dönemi, Asur/Pers/Helenistik/Roma/Bizans dönemleri bu turda okunamadı (Britannica 403; İSAM/TTK/DergiPark/YÖK denenmedi) — BORÇ: ilk anılış gerçekte çok daha eskidir, 640 'bulunabilen tarihli tanık'tır; sahip zinciri bu yüzden 640'tan başlar. Zincir 1900'e kadar (atlas_ad: null) — girdideki atlas kaydında s:/d:/v: yok, yalnız bit:1270 var, bu yüzden denetim 'atlas noktası' ile eşleştiremez; atlas bit 1270 ile TDV 1270 ÖRTÜŞÜR. TDV ile atlas açıklamasında Yafa mesafesi: TDV 60 km, ölçülen 47,4 km (atlas notu) — TDV yuvarlak sayısı. koord: GeoNames 293400 Tel Ashqelon (31°39′35.86″N 34°32′56.65″E), atlas tahmininden 0,6 km; sapma < 3 km."
+ },
+ {
+  "id": "ife-ng",
+  "ad": "İfe (Ile-Ife)",
+  "atlas_ad": null,
+  "lat": 7.482,
+  "lon": 4.56,
+  "kat1900": 3,
+  "adlar": [
+   "Ife (Yoruba; yazılı kaynaklarda kısa ad)",
+   "Ilé-Ifẹ̀ (Yoruba; 'Ife evi'; Oduduwa geleneğinde Yoruba'nın beşiği)",
+   "Ile-Ife (modern İngilizce; GeoNames 2338900)"
+  ],
+  "ilk": {
+   "t": "1000-01-01",
+   "gun": "yaklaşık 1000-1400 (Ife klasik dönemi; başlangıç ucu 1000)",
+   "nicelik": "arkeolojik",
+   "kesinlik": "belirsiz",
+   "kaynak": "Aribidesi Usman & Toyin Falola, The Yoruba from Prehistory to the Present (Cambridge University Press, 2019), Bölüm 1 'Geography and Society', s.1-28 (cambridge.org/core/product/CC682B3D24A7A9648C018BABC1E2EDEA; 16 Kas 2026'da okundu)",
+   "tanik": "Ife art classical period about AD 1000–1400 (özet; arkeolojik tarihleme)"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1000-01-01",
+    "t": "1900-01-01",
+    "d": "ife-krallik",
+    "kunye_yok": true,
+    "kesinlik": "belirsiz",
+    "kaynak": "Usman & Falola 2019, Bölüm 1: Ile-Ife Yoruba'nın 'beşiği' (Oduduwa geleneği); klasik Ife dönemi yaklaşık 1000-1400",
+    "ic_not": "Önerilen künye: ife-krallik (Ile-Ife Krallığı), ömür yaklaşık 1000-1900+ (ömür kaynaksız aralık; sonrası sömürge). Bu turda okunan kaynak yalnız 'Ooni' unvanını ve krallık yapısını doğrulamıyor; ayrıca Oyo hâkimiyeti, Ife-Modakeke savaşları ve 1893-1900 İngiliz protektorası geçişleri okunmadı (zincir tek sahipli yazıldı, geçişler BORÇ). Atlasın 'bos: veri-yok / kunye-yok: Ife 1281'de mevcuttu' beyanı ile uyumlu."
+   }
+  ],
+  "olay": [],
+  "ic_not": "Kaynak basamakları: TDV'de İfe maddesi YOK (arama 'ife' → yalnız İBADAN maddesinde geçiş). Yazılı ilk anılış (Portekiz/15. yy 'Ifé' tanıkları) bu turda akademik kaynaktan okunamadı; arkeolojik ilk (klasik dönem sanatı AD 1000-1400) esas alındı — kural gereği yazılı tanık bulunursa ilk anılış onunla değiştirilir (BORÇ). 'Radiocarbon dates under potsherd pavements 10th-12th c.' bilgisi arama özetinden alındı, kaynak makalesi okunmadığı için ilk'e yazılmadı. Ife'nin atlas 1281 iddiası: atlasta zincir yok (bos: veri-yok); bu kayıt 1000'de başlar, 1281 dahildir. koord: GeoNames 2338900 (7°28′56.64″N 4°33′37.15″E), atlas tahmininden 1,9 km; sapma < 3 km."
+ }
+]
