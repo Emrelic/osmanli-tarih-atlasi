@@ -1,0 +1,117 @@
+kaynak_liste	kat	ad_modern	ad_1900	ulke	lat	lon	koord_kaynak	atlas_aday	kron_anma	tarihce_var
+1900-liste	1	Kabul	Kâbil	Afganistan	34.52813	69.17233	GeoNames sayfa okuması (search.html, PPLC): 34°31′41.27″ N, 69°10′20.39″ E	Kâbil	44	osm
+1900-liste	1	Tehran	Tahran	İran	35.69439	51.42151	GeoNames sayfa okuması (search.html, PPLC): 35°41′39.80″ N, 51°25′17.44″ E	Tahran	28	osm
+1900-liste	2	Faizabad	Feyzâbâd	Afganistan	37.11664	70.58002	GeoNames sayfa okuması (search.html, PPLA): 37°06′59.90″ N, 70°34′48.07″ E — Fayzabad (Badakhshan)	Feyzâbâd (Bedahşan)	6	osm
+1900-liste	2	Herat	Herat	Afganistan	34.34817	62.19967	GeoNames sayfa okuması (search.html, PPLA): 34°20′53.41″ N, 62°11′58.81″ E	Herat	86	osm
+1900-liste	2	Kandahar	Kandahar	Afganistan	31.61332	65.71013	GeoNames sayfa okuması (search.html, PPLA): 31°36′47.95″ N, 65°42′36.47″ E	Kandehar	25	k12,osm
+1900-liste	2	Mazar-i Sharif	Mezâr-ı Şerîf	Afganistan	36.70904	67.11087	GeoNames sayfa okuması (search.html, PPLA): 36°42′32.54″ N, 67°06′39.13″ E		0	osm
+1900-liste	2	Kerman	Kirman	İran	30.28321	57.07879	GeoNames sayfa okuması (search.html, PPLA): 30°16′59.56″ N, 57°04′43.64″ E	Kirman	87	osm
+1900-liste	2	Khorramabad	Hürremabad	İran	33.48778	48.35583	GeoNames sayfa okuması (search.html, PPL): 33°29′16.01″ N, 48°21′20.99″ E	Luristan	5	osm
+1900-liste	2	Lar	Lar	İran	27.68336	54.34172	GeoNames sayfa okuması (search.html, PPLA2): 27°41′00.10″ N, 54°20′30.19″ E	Lâr	3	osm
+1900-liste	2	Mashhad	Meşhed	İran	36.29807	59.60567	GeoNames sayfa okuması (search.html, PPLA): 36°17′53.05″ N, 59°36′20.41″ E	Meşhed	11	osm
+1900-liste	2	Rasht	Reşt	İran	37.27611	49.58862	GeoNames sayfa okuması (search.html, PPLA): 37°16′34.00″ N, 49°35′19.03″ E	Reşt	12	osm
+1900-liste	2	Sanandaj	Senendec (Sine)	İran	35.31495	46.99883	GeoNames sayfa okuması (search.html, PPLA): 35°18′53.82″ N, 46°59′55.79″ E	Senendec (Sine)	19	osm
+1900-liste	2	Sari	Sârî	İran	36.56332	53.06009	GeoNames sayfa okuması (search.html, PPL): 36°33′47.95″ N, 53°03′36.32″ E	Sârî	15	osm
+1900-liste	2	Shiraz	Şiraz	İran	29.61031	52.53113	GeoNames sayfa okuması (search.html, PPLA): 29°36′37.12″ N, 52°31′52.07″ E	Fars | Şiraz (~5.5 km)	54	osm
+1900-liste	2	Shushtar	Şuşter	İran	32.04972	48.84843	GeoNames sayfa okuması (search.html, PPLA2): 32°02′58.99″ N, 48°50′54.35″ E	Şüşter	5	osm
+1900-liste	2	Tabriz	Tebriz	İran	38.08000	46.29190	GeoNames sayfa okuması (search.html, PPLA): 38°04′48.00″ N, 46°17′30.84″ E	Tebriz	226	osm
+1900-liste	2	Baku	Baku	Azerbaycan	40.37767	49.89201	GeoNames sayfa okuması (search.html, PPLC): 40°22′39.61″ N, 49°53′31.24″ E	Bakü	40	yok
+1900-liste	2	Ganja	Elisavetpol	Azerbaycan	40.68157	46.36134	GeoNames sayfa okuması (search.html, PPLA): 40°40′53.65″ N, 46°21′40.82″ E	Gence	59	yok
+1900-liste	2	Yerevan	Erivan	Ermenistan	40.17765	44.51260	GeoNames sayfa okuması (search.html, PPLC): 40°10′39.54″ N, 44°30′45.36″ E	Revan	48	k12
+1900-liste	2	Kutaisi	Kutais	Gürcistan	42.26791	42.69459	GeoNames sayfa okuması (search.html, PPLA): 42°16′04.48″ N, 42°41′40.52″ E	Kutaisi	17	k12
+1900-liste	2	Tbilisi	Tiflis	Gürcistan	41.69143	44.83412	GeoNames sayfa okuması (search.html, PPLC): 41°41′29.15″ N, 44°50′02.83″ E	Tiflis (~5.0 km)	137	k12
+kronolojiden-ek		Isfahan		İran	32.65246	51.67462	GeoNames sayfa okuması (search.html, PPLA): 32°39′08.86″ N, 51°40′28.63″ E	Isfahan	111	k12
+kronolojiden-ek		Hamadan		İran	34.79922	48.51456	GeoNames sayfa okuması (search.html, PPLA): 34°47′57.19″ N, 48°30′52.42″ E	Hemedan | Cibâl	80	arkeoloji_afrika-iran,k12
+kronolojiden-ek		Ray		İran	35.59354	51.43997	GeoNames sayfa okuması (search.html, PPLA2): 35°35′36.74″ N, 51°26′23.89″ E	Rey	49	yok
+kronolojiden-ek		Qazvin		İran	36.26877	50.00410	GeoNames sayfa okuması (search.html, PPLA): 36°16′07.57″ N, 50°00′14.76″ E	Kazvin	46	k12
+kronolojiden-ek		Qom		İran	34.64010	50.87640	GeoNames sayfa okuması (search.html, PPLA): 34°38′24.36″ N, 50°52′35.04″ E	Kum	7	yok
+kronolojiden-ek		Kashan		İran	33.98237	51.42769	GeoNames sayfa okuması (search.html, PPL): 33°58′56.53″ N, 51°25′39.68″ E	Kâşân	20	yok
+kronolojiden-ek		Yazd		İran	31.89722	54.36750	GeoNames sayfa okuması (search.html, PPLA): 31°53′49.99″ N, 54°22′03.00″ E	Yezd	19	k12
+kronolojiden-ek		Ahvaz		İran	31.31901	48.68420	GeoNames sayfa okuması (search.html, PPLA): 31°19′08.44″ N, 48°41′03.12″ E	Ahvaz	5	yok
+kronolojiden-ek		Gorgan		İran	36.84270	54.44391	GeoNames sayfa okuması (search.html, PPLA): 36°50′33.72″ N, 54°26′38.08″ E	Esterâbâd (Gürgân)	41	k3
+kronolojiden-ek		Nishapur		İran	36.21329	58.79575	GeoNames sayfa okuması (search.html, PPLA2): 36°12′47.84″ N, 58°47′44.70″ E	Nîşâbur	51	k12
+kronolojiden-ek		Tus		İran	36.48372	59.51882	GeoNames sayfa okuması (search.html, PPL): 36°29′01.39″ N, 59°31′07.75″ E	Tûs	10	k3
+kronolojiden-ek		Zanjan		İran	36.67642	48.49628	GeoNames sayfa okuması (search.html, PPLA): 36°40′35.11″ N, 48°29′46.61″ E	Zencan	14	k12
+kronolojiden-ek		Ardabil		İran	38.24980	48.29330	GeoNames sayfa okuması (search.html, PPLA): 38°14′59.28″ N, 48°17′35.88″ E	Erdebil	31	k12
+kronolojiden-ek		Urmia		İran	37.55274	45.07605	GeoNames sayfa okuması (search.html, PPLA): 37°33′09.86″ N, 45°04′33.78″ E	Urmiye	21	k12
+kronolojiden-ek		Khoy		İran	38.55030	44.95210	GeoNames sayfa okuması (search.html, PPLA2): 38°33′01.08″ N, 44°57′07.56″ E	Hoy	15	yok
+kronolojiden-ek		Maragheh		İran	37.39206	46.23909	GeoNames sayfa okuması (search.html, PPLA2): 37°23′31.42″ N, 46°14′20.72″ E	Merâga	29	k12
+kronolojiden-ek		Soltaniyeh		İran	36.43318	48.79471	GeoNames sayfa okuması (search.html, PPLA2): 36°25′59.45″ N, 48°47′40.96″ E	Sultâniye	18	k12
+kronolojiden-ek		Bandar Abbas		İran	27.18650	56.28080	GeoNames sayfa okuması (search.html, PPLA): 27°11′11.40″ N, 56°16′50.88″ E	Bender Abbas (Gamrûn)	4	k12
+kronolojiden-ek		Bushehr		İran	28.96887	50.83657	GeoNames sayfa okuması (search.html, PPLA): 28°58′07.93″ N, 50°50′11.65″ E	Buşehr	2	yok
+kronolojiden-ek		Kermanshah		İran	34.31417	47.06500	GeoNames sayfa okuması (search.html, PPLA): 34°18′51.01″ N, 47°03′54.00″ E	Kirmanşah	24	yok
+kronolojiden-ek		Damghan		İran	36.16790	54.34292	GeoNames sayfa okuması (search.html, PPLA2): 36°10′04.44″ N, 54°20′34.51″ E	Dâmgan	10	k3
+kronolojiden-ek		Sabzevar		İran	36.21260	57.68191	GeoNames sayfa okuması (search.html, PPL): 36°12′45.36″ N, 57°40′54.88″ E	Sebzevâr	20	k3
+kronolojiden-ek		Persepolis		İran	29.93509	52.89065	GeoNames sayfa okuması (search.html, SANS): 29°56′06.32″ N, 52°53′26.34″ E	Persepolis	9	yok
+kronolojiden-ek		Pasargad		İran	30.20340	53.18090	GeoNames sayfa okuması (search.html, SANS): 30°12′12.24″ N, 53°10′51.24″ E	Pasargad	7	yok
+kronolojiden-ek		Susa		İran	32.19420	48.24360	GeoNames sayfa okuması (search.html, PPLA2): 32°11′39.12″ N, 48°14′36.96″ E	Susa	29	arkeoloji_d2-iran-orta-asya
+kronolojiden-ek		Istakhr		İran	29.98083	52.90944	OKUNDU: https://pleiades.stoa.org/places/922662/json		1	yok
+kronolojiden-ek		Firuzabad		İran	28.84459	52.57151	GeoNames sayfa okuması (search.html, PPLA2): 28°50′40.52″ N, 52°34′17.44″ E — Fīrūzābād (Fars)	Firûzâbâd	2	yok
+kronolojiden-ek		Bishapur		İran	29.77778	51.57083	OKUNDU: https://pleiades.stoa.org/places/922740/json		1	yok
+kronolojiden-ek		Nahavand		İran	34.19088	48.37446	GeoNames sayfa okuması (search.html, PPLA2): 34°11′27.17″ N, 48°22′28.06″ E	Nihâvend	11	yok
+kronolojiden-ek		Borujerd		İran	33.89730	48.75160	GeoNames sayfa okuması (search.html, PPLA2): 33°53′50.28″ N, 48°45′05.76″ E	Burûcird	2	yok
+kronolojiden-ek		Arak		İran	34.09493	49.69809	GeoNames sayfa okuması (search.html, PPLA): 34°05′41.75″ N, 49°41′53.12″ E	Erâk (Sultânâbâd)	6	yok
+kronolojiden-ek		Maku		İran	39.28992	44.46035	GeoNames sayfa okuması (search.html, PPLA2): 39°17′23.71″ N, 44°27′37.26″ E	Mâku (~4.7 km)	9	yok
+kronolojiden-ek		Marand		İran	38.43290	45.77490	GeoNames sayfa okuması (search.html, PPLA2): 38°25′58.44″ N, 45°46′29.64″ E	Merend	10	yok
+kronolojiden-ek		Ahar		İran	38.47740	47.06990	GeoNames sayfa okuması (search.html, PPLA2): 38°28′38.64″ N, 47°04′11.64″ E	Ahar (Karadağ)	11	yok
+kronolojiden-ek		Sarab		İran	37.94080	47.53670	GeoNames sayfa okuması (search.html, PPLA2): 37°56′26.88″ N, 47°32′12.12″ E	Sarâb	5	yok
+kronolojiden-ek		Khalkhal		İran	37.61837	48.52928	GeoNames sayfa okuması (search.html, PPLA2): 37°37′06.13″ N, 48°31′45.41″ E	Halhâl	5	yok
+kronolojiden-ek		Salmas		İran	38.19730	44.76530	GeoNames sayfa okuması (search.html, PPLA2): 38°11′50.28″ N, 44°45′55.08″ E	Selmâs (Dilman)	10	yok
+kronolojiden-ek		Alamut		İran	36.45000	50.58333	GeoNames sayfa okuması (search.html, SRUIN): 36°27′00.00″ N, 50°34′59.99″ E — Qal‘eh-ye Alamūt (kale harabesi; Alamūt bölge adı LAREA)	Alamut (Alamut Kalesi, Kazvin vilayeti)	30	yok
+kronolojiden-ek		Lahijan		İran	37.20416	50.00919	GeoNames sayfa okuması (search.html, PPLA2): 37°12′14.98″ N, 50°00′33.08″ E	Lâhîcan	5	k12
+kronolojiden-ek		Astara		İran	38.43084	48.86994	GeoNames sayfa okuması (search.html, PPLA2): 38°25′51.02″ N, 48°52′11.78″ E	Astara	3	yok
+kronolojiden-ek		Bandar-e Anzali		İran	37.47318	49.45785	GeoNames sayfa okuması (search.html, PPLA2): 37°28′23.45″ N, 49°27′28.26″ E	Bender Enzeli	6	yok
+kronolojiden-ek		Julfa		İran	38.93788	45.63329	GeoNames sayfa okuması (search.html, PPL): 38°56′16.37″ N, 45°37′59.84″ E	Culfa	8	yok
+kronolojiden-ek		Qeshm		İran	26.94920	56.26910	GeoNames sayfa okuması (search.html, PPLA2): 26°56′57.12″ N, 56°16′08.76″ E		2	yok
+kronolojiden-ek		Hormuz		İran	27.09500	56.45290	GeoNames sayfa okuması (search.html, PPL): 27°05′42.00″ N, 56°27′10.44″ E — Hormoz (ada)		31	yok
+kronolojiden-ek		Jiroft		İran	28.67806	57.74056	GeoNames sayfa okuması (search.html, PPLA2): 28°40′41.02″ N, 57°44′26.02″ E	Cîruft	4	yok
+kronolojiden-ek		Zabol		İran	31.03060	61.49490	GeoNames sayfa okuması (search.html, PPLA2): 31°01′50.16″ N, 61°29′41.64″ E		3	yok
+kronolojiden-ek		Birjand		İran	32.86628	59.22114	GeoNames sayfa okuması (search.html, PPLA): 32°51′58.61″ N, 59°13′16.10″ E	Bîrcend	1	yok
+kronolojiden-ek		Abadan		İran	30.33920	48.30430	GeoNames sayfa okuması (search.html, PPL): 30°20′21.12″ N, 48°18′15.48″ E	Abâdân	2	yok
+kronolojiden-ek		Khorramshahr		İran	30.44079	48.18428	GeoNames sayfa okuması (search.html, PPLA2): 30°26′26.84″ N, 48°11′03.41″ E	Muhammere	3	k12
+kronolojiden-ek		Saveh		İran	35.02130	50.35660	GeoNames sayfa okuması (search.html, PPLA2): 35°01′16.68″ N, 50°21′23.76″ E	Sâve	6	yok
+kronolojiden-ek		Amol		İran	36.46961	52.35072	GeoNames sayfa okuması (search.html, PPLA2): 36°28′10.60″ N, 52°21′02.59″ E	Âmül	20	k3
+kronolojiden-ek		Babol		İran	36.55102	52.67860	GeoNames sayfa okuması (search.html, PPLA2): 36°33′03.67″ N, 52°40′42.96″ E	Bârfurûş (Bâbil)	3	k3
+kronolojiden-ek		Kazerun		İran	29.61919	51.65350	GeoNames sayfa okuması (search.html, PPLA2): 29°37′09.08″ N, 51°39′12.60″ E	Kâzerûn	3	yok
+kronolojiden-ek		Balkh		Afganistan	36.75635	66.89720	GeoNames sayfa okuması (search.html, PPLA2): 36°45′22.86″ N, 66°53′49.92″ E	Belh	53	k12
+kronolojiden-ek		Ghazni		Afganistan	33.55391	68.42096	GeoNames sayfa okuması (search.html, PPLA): 33°33′14.08″ N, 68°25′15.46″ E	Gazne	77	k12
+kronolojiden-ek		Bamyan		Afganistan	34.82156	67.82734	GeoNames sayfa okuması (search.html, PPLA): 34°49′17.62″ N, 67°49′38.42″ E	Bâmiyan	9	yok
+kronolojiden-ek		Kunduz		Afganistan	36.72895	68.85700	GeoNames sayfa okuması (search.html, PPLA): 36°43′44.22″ N, 68°51′25.20″ E	Kunduz	4	yok
+kronolojiden-ek		Bust		Afganistan	31.59382	64.37161	GeoNames sayfa okuması (search.html, PPLA): 31°35′37.75″ N, 64°22′17.80″ E — Lashkar Gāh (GeoNames 'Bost' sorgusu bunu verdi; Qal'a-yi Bust bitişiği)	Büst (~9.6 km)	7	yok
+kronolojiden-ek		Zaranj		Afganistan	30.95962	61.86037	GeoNames sayfa okuması (search.html, PPLA): 30°57′34.63″ N, 61°51′37.33″ E	Zerenc (Sîstan)	17	k12
+kronolojiden-ek		Chaghcharan		Afganistan	34.39637	64.51592	OKUNDU: https://www.geonames.org/search.html?q=Jam+minaret&country=AF | KOORDİNAT: tartışmalı eşleme (Iranica temkinli, Jam arkeoloji projesi 'Jam = Fîrûzkûh'); Jam Minaresi koordinatı; modern Çagçarân (Fayrōz Kōh PPLA 34.51952/65.25093) AYRI KAYIT		2	yok
+kronolojiden-ek		Sheberghan		Afganistan	36.66757	65.75290	GeoNames sayfa okuması (search.html, PPLA): 36°40′03.25″ N, 65°45′10.44″ E		4	yok
+kronolojiden-ek		Taloqan		Afganistan	36.73605	69.53451	GeoNames sayfa okuması (search.html, PPLA): 36°44′09.78″ N, 69°32′04.24″ E		3	yok
+kronolojiden-ek		Gardez		Afganistan	33.59744	69.22592	GeoNames sayfa okuması (search.html, PPLA): 33°35′50.78″ N, 69°13′33.31″ E		3	yok
+kronolojiden-ek		Farah		Afganistan	32.37451	62.11638	GeoNames sayfa okuması (search.html, PPLA): 32°22′28.24″ N, 62°06′58.97″ E		1	yok
+kronolojiden-ek		Batumi		Gürcistan	41.64077	41.63060	GeoNames sayfa okuması (search.html, PPLA): 41°38′26.77″ N, 41°37′50.16″ E	Batum	32	yok
+kronolojiden-ek		Poti		Gürcistan	42.14272	41.67384	GeoNames sayfa okuması (search.html, PPLA2): 42°08′33.79″ N, 41°40′25.82″ E	Poti (Faş Kalesi)	10	yok
+kronolojiden-ek		Sukhumi		Gürcistan	43.00697	40.98930	GeoNames sayfa okuması (search.html, PPLA): 43°00′25.09″ N, 40°59′21.48″ E	Sohum	11	yok
+kronolojiden-ek		Tskhinvali		Gürcistan	42.22764	43.96861	GeoNames sayfa okuması (search.html, PPL): 42°13′39.50″ N, 43°58′07.00″ E	Tskhinvali (Çinvali)	1	yok
+kronolojiden-ek		Gori		Gürcistan	41.98532	44.11290	GeoNames sayfa okuması (search.html, PPLA): 41°59′07.15″ N, 44°06′46.44″ E	Gori	9	yok
+kronolojiden-ek		Telavi		Gürcistan	41.91957	45.47002	GeoNames sayfa okuması (search.html, PPLA): 41°55′10.45″ N, 45°28′12.07″ E	Telavi	6	yok
+kronolojiden-ek		Akhaltsikhe		Gürcistan	41.63952	42.98604	GeoNames sayfa okuması (search.html, PPLA): 41°38′22.27″ N, 42°59′09.74″ E	Ahıska	18	yok
+kronolojiden-ek		Akhalkalaki		Gürcistan	41.40514	43.48629	GeoNames sayfa okuması (search.html, PPLA2): 41°24′18.50″ N, 43°29′10.64″ E	Ahılkelek (Akhalkalaki)	8	yok
+kronolojiden-ek		Zugdidi		Gürcistan	42.50840	41.86796	GeoNames sayfa okuması (search.html, PPLA): 42°30′30.24″ N, 41°52′04.66″ E	Zugdidi (Megrelya/Odişi merkezi)	8	yok
+kronolojiden-ek		Gyumri		Ermenistan	40.79305	43.84635	GeoNames sayfa okuması (search.html, PPLA): 40°47′34.98″ N, 43°50′46.86″ E	Gümrü (Aleksandropol)	7	yok
+kronolojiden-ek		Vagharshapat		Ermenistan	40.16557	44.29462	GeoNames sayfa okuması (search.html, PPLA2): 40°09′56.05″ N, 44°17′40.63″ E	Eçmiyadzin	10	yok
+kronolojiden-ek		Dvin		Ermenistan	40.00384	44.57625	GeoNames sayfa okuması (search.html, SANS): 40°00′13.82″ N, 44°34′34.50″ E — Dvin (arkeolojik alan; PPL Dvin/Verin Dvin ayrıca var)	Dvin	23	yok
+kronolojiden-ek		Kapan		Ermenistan	39.20762	46.40678	GeoNames sayfa okuması (search.html, PPLA): 39°12′27.43″ N, 46°24′24.41″ E	Kapan	1	yok
+kronolojiden-ek		Artashat		Ermenistan	39.95484	44.54874	GeoNames sayfa okuması (search.html, PPLA): 39°57′17.42″ N, 44°32′55.46″ E	Artaksata (Artashat) (~8.4 km)	2	yok
+kronolojiden-ek		Gavar		Ermenistan	40.35398	45.12386	GeoNames sayfa okuması (search.html, PPLA): 40°21′14.33″ N, 45°07′25.90″ E		1	yok
+kronolojiden-ek		Norapat		Ermenistan	40.14172	44.03332	OKUNDU: https://www.geonames.org/search.html?q=Norapat&country=AM		3	yok
+kronolojiden-ek		Shamakhi		Azerbaycan	40.63141	48.64137	GeoNames sayfa okuması (search.html, PPLA): 40°37′53.08″ N, 48°38′28.93″ E	Şamahı	40	k12
+kronolojiden-ek		Sheki		Azerbaycan	41.19194	47.17056	GeoNames sayfa okuması (search.html, PPLA): 41°11′30.98″ N, 47°10′14.02″ E	Şeki (Nuha)	12	k12
+kronolojiden-ek		Barda		Azerbaycan	40.37577	47.12619	GeoNames sayfa okuması (search.html, PPLA): 40°22′32.77″ N, 47°07′34.28″ E	Berde (Karabağ)	18	k12
+kronolojiden-ek		Nakhchivan		Azerbaycan	39.20889	45.41222	GeoNames sayfa okuması (search.html, PPLA): 39°12′32.00″ N, 45°24′43.99″ E	Nahçıvan	39	yok
+kronolojiden-ek		Shusha		Azerbaycan	39.76006	46.74989	GeoNames sayfa okuması (search.html, PPLA): 39°45′36.22″ N, 46°44′59.60″ E	Şuşa	33	k12
+kronolojiden-ek		Quba		Azerbaycan	41.36108	48.51341	GeoNames sayfa okuması (search.html, PPLA): 41°21′39.89″ N, 48°30′48.28″ E	Kuba	15	yok
+kronolojiden-ek		Lankaran		Azerbaycan	38.75428	48.85062	GeoNames sayfa okuması (search.html, PPLA): 38°45′15.41″ N, 48°51′02.23″ E	Lenkeran	7	yok
+kronolojiden-ek		Gabala		Azerbaycan	40.98139	47.84583	GeoNames sayfa okuması (search.html, PPLA): 40°58′53.00″ N, 47°50′44.99″ E	Kabala	5	yok
+kronolojiden-ek		Khankendi		Azerbaycan	39.81770	46.75280	GeoNames sayfa okuması (search.html, PPL): 39°49′03.72″ N, 46°45′10.08″ E	Hankendi (Stepanakert)	1	yok
+kronolojiden-ek		Ordubad		Azerbaycan	38.90961	46.02274	GeoNames sayfa okuması (search.html, PPLA2): 38°54′34.60″ N, 46°01′21.86″ E	Ordubad	6	yok
+kronolojiden-ek		Salyan		Azerbaycan	39.59621	48.98479	GeoNames sayfa okuması (search.html, PPLA): 39°35′46.36″ N, 48°59′05.24″ E	Salyan	13	yok
+kronolojiden-ek		Lahij		Azerbaycan	40.84618	48.38227	GeoNames sayfa okuması (search.html, PPL): 40°50′46.25″ N, 48°22′56.17″ E — Lahij (İsmayıllı; Zaqatala'daki Lahıc ayrı)		4	yok
+kronolojiden-ek		Lachin		Azerbaycan	39.63742	46.54977	GeoNames sayfa okuması (search.html, PPLA): 39°38′14.71″ N, 46°32′59.17″ E		3	yok
+kronolojiden-ek		Shabran		Azerbaycan	41.20117	48.98712	GeoNames sayfa okuması (search.html, PPLA): 41°12′04.21″ N, 48°59′13.63″ E — Divichibazar (GeoNames Shabran rayonu merkezi; Şâbürân tarihî yeri okunamadı)	Şâbüran	8	yok
+kronolojiden-ek		Beylagan		Azerbaycan	39.77556	47.61861	GeoNames sayfa okuması (search.html, PPLA): 39°46′32.02″ N, 47°37′07.00″ E		5	yok
