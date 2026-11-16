@@ -1,0 +1,15 @@
+ad_1900	birim	ulke	neden
+Hamilton	Bermuda (sömürge başkenti)	Britanya (Bermuda)	1900-listede kat 2; Bermuda Karayip değil, Kuzey Atlantik — görev emri "Bermuda değil"; bu blokta alınmadı
+bulunamadı	-	-	Bu bloğun ülkelerinde (Guatemala, Belize, Honduras, El Salvador, Nikaragua, Kosta Rika, Panama, Küba, Haiti, Dominik Cum., Jamaika, Porto Riko, T&T, Bahamalar, Barbados, Küçük Antiller) 1900-listede ad_1900 boş/'bulunamadı' satır YOK (0 satır; 'bulunamadı' satırları Etiyopya/Kongo/Kenya-Uganda vb. başka bloklara ait)
+Yaxchilán	-	Meksika	kronolojide 8 anma ama modern ülke Meksika (Chiapas, 16.90,-90.97) — Meksika bloğu dışı alındı
+Aguada Fénix	-	Meksika	atlas noktası (17.80,-91.15) Tabasco/Meksika — Meksika bloğuna bırakıldı
+Chichén Itzá / Mayapán / Sotuta / Campeche	-	Meksika	kronolojide Orta Amerika bağlamında geçer ama Meksika (Yucatán) — blok dışı
+Cartagena de Indias	-	Kolombiya	görev emri: Kolombiya bloğuna ait; alınmadı
+Caracas / Valencia / Maracaibo / Santa Marta / Valledupar vb. (atlas noktaları Karayip kıyısı)	-	Venezuela/Kolombiya	Güney Amerika bloğu; alınmadı
+Providencia / San Andrés	-	Kolombiya	Karayip'te ama Kolombiya egemenliği; Kolombiya bloğuna bırakıldı
+Santa María la Antigua del Darién	-	Panama/Kolombiya	kronolojide şehir adıyla anılmıyor: 'Darién' yalnız 1519 'Darién valisi Pedrarias' (Panama kuruluşu) ve 1698 İskoç Darien projesi; GeoNames "Santa Maria la Antigua del Darien" sonuç vermedi — koordinat okunamadı, kron_anma 0 → alınmadı
+Basse-Terre (Guadeloupe)	-	Fransa (Guadeloupe)	atlasta nokta var; kronolojide tek anma 1627 St Kitts'in Fransız sektörü 'Basse-Terre' (başka yer) — Guadeloupe'ya ait anma 0 → ek olarak alınmadı
+Oranjestad (Sint Eustatius)	-	Sint Eustatius (Hollanda)	atlasta nokta var; kronolojideki tek anma 1954 'oranjestad-aruba' (Aruba satırına yazıldı) — Sint Eustatius'a ait anma 0 → alınmadı
+Portobelo / Panamá Viejo / Nombre de Dios / Natá / Acla / Chagres	-	Panama	kronolojide kron_anma 0 (Portobelo atlasta nokta olarak var); anma şartı ('kronolojiden-ek' ≥1) sağlanmadı → LISTE'ye alınmadı (F2'de önerilebilir)
+Trinidad (Küba) / Bayamo / Cienfuegos / Sancti Spíritus / Remedios / Caparra / San Germán (PR) / Jaragua	-	Küba/Porto Riko/Haiti	atlasta nokta var; kronolojide 0 anma → ek olarak alınmadı
+Saint-Pierre / Fort-de-France (Martinik) · Pointe-à-Pitre / Gustavia / Frederiksted / Léogâne / Jérémie / Saint-Marc / Petit-Goâve	-	Fransa (Antiller)/Haiti	kronolojide 0 anma; Fransız Antilleri görevde 'Karayip dışı değil ama anma yok' → alınmadı
