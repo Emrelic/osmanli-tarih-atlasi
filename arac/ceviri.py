@@ -106,14 +106,18 @@ DILLER = [("tr", "Türkçe"), ("en", "English"), ("ar", "العربية"), ("es"
 # maddeleri, EMRELİC Kolhapûr 1675 yeni maddesi), bayat olay +1 (Kütahya Uzlaşması yeniden adlandırma, Yergöğü/Yûsuf düzeltmesi,
 # 1547 gün). Çeviri işi site bitince (Emre, 13 Kasım). Eski: eksik arayuz 48, olay en/ar/es/de 325, pt 1439, ru 3532, fr 4432;
 # bayat olay en/ar/es/de 72, pt 57, ru 31, fr 7.
+# 16 Kasım 2026 (KASA 16 KASIM, koşu 39 inişi + UMIT 1115c birleşimi): tavan AÇILDI (Emre 1 Kasım kararı: önce ölç, aç, raporla)
+# — kaynak: main'e göre eklenen yeni künyeler (Delhi hanedanları, Qing Halha, Lan Xang ardılları, İngiliz Guyanası vb.) ve 3 yeni olay
+# metni (UMIT 1115c 7 dalı + kasa-1115-umit-birlesim). ÖLÇÜM: devlet eksik 21->24, olay eksik +3 her dilde. Eski değerler: devlet 21;
+# olay en/ar/es/de 426, pt 1539, ru 3631, fr 4531. Çeviri işi site bitince (Emre, 13 Kasım).
 BEKLENEN_CEVIRI_EKSIK = {
-    "en": {"arayuz": 72, "devlet": 21, "olay": 426},
-    "ar": {"arayuz": 72, "devlet": 21, "olay": 426},
-    "es": {"arayuz": 72, "devlet": 21, "olay": 426},
-    "de": {"arayuz": 72, "devlet": 21, "olay": 426},
-    "pt": {"arayuz": 72, "devlet": 21, "olay": 1539},
-    "ru": {"arayuz": 72, "devlet": 21, "olay": 3631},
-    "fr": {"arayuz": 72, "devlet": 21, "olay": 4531},
+    "en": {"arayuz": 72, "devlet": 24, "olay": 429},
+    "ar": {"arayuz": 72, "devlet": 24, "olay": 429},
+    "es": {"arayuz": 72, "devlet": 24, "olay": 429},
+    "de": {"arayuz": 72, "devlet": 24, "olay": 429},
+    "pt": {"arayuz": 72, "devlet": 24, "olay": 1542},
+    "ru": {"arayuz": 72, "devlet": 24, "olay": 3634},
+    "fr": {"arayuz": 72, "devlet": 24, "olay": 4534},
 }
 # 13 Kasım 2026 (KASA batch 15): bayat olay en/ar/es/de 71→72 (ÖLÇÜM) — UMIT p08 / EMRELİC ant17 ana maddelere `antlasma_id` yazdı
 # (Zitvatorok/Buçaş/Vasvar/İstanbul 1700, Yergöğü, İngiliz 1799). Kaynak ölçüldü; çeviri işi site bitince (Emre, 13 Kasım).
