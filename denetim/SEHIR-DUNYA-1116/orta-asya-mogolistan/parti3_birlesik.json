@@ -33,13 +33,13 @@
     "tanik": "Ubeydullah b. Ziyâd tarafından fethedilmiştir"
    },
    {
-    "t": "0992-03-09",
-    "gun": "992",
+    "t": "0992-05-07",
+    "gun": "Rebîülevvel 382 / Mayıs 992 (ayın ilk günü: aritmetik tablo)",
     "k": "fetih",
     "b": "Karahanlı Hârun Buğra Han Buhara'yı geçici olarak işgal etti",
-    "kesinlik": "yil",
-    "kaynak": "TDV 'Buhara'",
-    "tanik": "Buğra Han 382’de (992) Buhara’yı geçici olarak işgal etti"
+    "kesinlik": "ay",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Sâmânîler» md. (tam metin, tarayıcı, 16 Kasım 2026); yıl: TDV «Buhara» md. (382/992)",
+    "tanik": "Hârun Buğra Han harekete geçip Buhara’yı ele geçirdi (Rebîülevvel 382 / Mayıs 992)."
    },
    {
     "t": "0999-01-01",
@@ -96,7 +96,7 @@
     "tanik": "Buhara Hanlığı Canoğulları hânedanının eline geçti"
    }
   ],
-  "ic_not": "Tek kaynak: TDV 'Buhara' (WebFetch özet aracı; tanik alanlarındaki parçalar aracın sayfadan verdiği alıntılardır, tam metinle karşılaştırılmadı). Çift teyit (Barthold/Bosworth/Iranica) ARANDI: iranicaonline.org HTTP 403; teyit edilemedi, TDV tek kaynak. İlk anılış '630 civarı' onyil kesinliği; TDV V. yy Çin kaynaklarında 'Nûmickes' adını da anar (fetch özetinde, alıntı doğrulanamadı → yazılmadı). Atlas Buhara'yı 0500-01-01'de başlatır (ilk.t'den önce) → sahip:[] (atlas zinciri esas). ÇELİŞKİ (atlas düzeltme önerisi): TDV Emevî fethini 674 (Ubeydullah b. Ziyâd) verir, atlas buhara-hudat→emevi dikişini 709'da taşır; atlas referans değildir, bu kaynaklı bir tespit değil, ölçülmesi gereken bir farktır (Kuteybe 706-709 sefer yılları bu oturumda okunamadı). Karahıtay geçişi günü TDV'de yok (yalnız Katvân savaş günü). TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Uyuşmayanlar: TARİH UYUŞMUYOR (olay1.t): eski → 0992-03-09. Buhara Buğra Han 382 (992): 382 h. 992-03-09 başlar; Hicrî ∩ milâdî kesişim ilk günü (aritmetik sivil takvim ±2 gün); eski 0992-01-01 hicrî yılın dışında kalıyordu. TARİH UYUŞMUYOR (olay3.t): eski → 1141-09-09. Buhara Karahıtay: TDV \"5 Safer 536 (9 Eylül 1141) tarihinde meydana gelen Katvân savaşından sonra şehir ... geçti\"; geçiş savaştan sonradır, eski 1141-01-01 savaştan ÖNCEydi; gün TDV'de var (savaş günü, güvenli uç). TARİH UYUŞMUYOR (olay4.t): eski → 1207-07-28. Buhara Hârizmşah: TDV \"Aynı yıl\" = 604 (1207) yılı (alıntı da buna göre genişletildi); 604 h. 1207-07-28 başlar; Hicrî ∩ milâdî kesişim ilk günü (aritmetik sivil takvim ±2 gün); eski 1207-01-01 hicrî yılın dışında kalıyordu. Önceki notlardaki \"WebFetch özeti / özet okuma / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir."
+  "ic_not": "Tek kaynak: TDV 'Buhara' (WebFetch özet aracı; tanik alanlarındaki parçalar aracın sayfadan verdiği alıntılardır, tam metinle karşılaştırılmadı). Çift teyit (Barthold/Bosworth/Iranica) ARANDI: iranicaonline.org HTTP 403; teyit edilemedi, TDV tek kaynak. İlk anılış '630 civarı' onyil kesinliği; TDV V. yy Çin kaynaklarında 'Nûmickes' adını da anar (fetch özetinde, alıntı doğrulanamadı → yazılmadı). Atlas Buhara'yı 0500-01-01'de başlatır (ilk.t'den önce) → sahip:[] (atlas zinciri esas). ÇELİŞKİ (atlas düzeltme önerisi): TDV Emevî fethini 674 (Ubeydullah b. Ziyâd) verir, atlas buhara-hudat→emevi dikişini 709'da taşır; atlas referans değildir, bu kaynaklı bir tespit değil, ölçülmesi gereken bir farktır (Kuteybe 706-709 sefer yılları bu oturumda okunamadı). Karahıtay geçişi günü TDV'de yok (yalnız Katvân savaş günü). TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Uyuşmayanlar: TARİH UYUŞMUYOR (olay1.t): eski → 0992-03-09. Buhara Buğra Han 382 (992): 382 h. 992-03-09 başlar; Hicrî ∩ milâdî kesişim ilk günü (aritmetik sivil takvim ±2 gün); eski 0992-01-01 hicrî yılın dışında kalıyordu. TARİH UYUŞMUYOR (olay3.t): eski → 1141-09-09. Buhara Karahıtay: TDV \"5 Safer 536 (9 Eylül 1141) tarihinde meydana gelen Katvân savaşından sonra şehir ... geçti\"; geçiş savaştan sonradır, eski 1141-01-01 savaştan ÖNCEydi; gün TDV'de var (savaş günü, güvenli uç). TARİH UYUŞMUYOR (olay4.t): eski → 1207-07-28. Buhara Hârizmşah: TDV \"Aynı yıl\" = 604 (1207) yılı (alıntı da buna göre genişletildi); 604 h. 1207-07-28 başlar; Hicrî ∩ milâdî kesişim ilk günü (aritmetik sivil takvim ±2 gün); eski 1207-01-01 hicrî yılın dışında kalıyordu. Önceki notlardaki \"WebFetch özeti / özet okuma / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir. F3 çözüm (16 Kasım 2026): 992 işgali yıl (0992-03-09 = 382 ilk günü) → ay (Rebîülevvel 382 / Mayıs 992, TDV Sâmânîler md.) ile düzeltildi; TDV Karahanlılar md. 'Semerkant’ı aldıktan sonra... 992 başlarında Buhara’yı ele geçirdi' diyerek TDV içinde ay bakımından çelişir; TDV Sâmânîler md. ay verdiği için esas alındı, Karahanlılar ifadesi mîlâdî yıl başı demektir ve beyan edilir."
  },
  {
   "id": "semerkant-uz",
@@ -626,12 +626,13 @@
     "kaynak": "TDV İslâm Ansiklopedisi, «Belh» md., https://islamansiklopedisi.org.tr/belh (16 Kasım 2026'da okundu; WebFetch özet okuma, parça özetleyicinin sayfadan verdiği alıntıdır): «870’te (veya 871) Ya‘kūb b. Leys tarafından»"
    },
    {
-    "t": "0900-01-01",
-    "gun": "900",
+    "t": "0900-04-19",
+    "gun": "15 Rebîülâhir 287 / 19 Nisan 900",
     "k": "fetih",
-    "b": "Amr b. Leys'in Sâmânîler'e esir düşmesiyle Belh onların eline geçti",
-    "kesinlik": "yil",
-    "kaynak": "TDV İslâm Ansiklopedisi, «Belh» md., https://islamansiklopedisi.org.tr/belh (16 Kasım 2026'da okundu; WebFetch özet okuma, parça özetleyicinin sayfadan verdiği alıntıdır): «Sâmânîler’e esir düşmesi üzerine burası da onların eline geçti (900)»"
+    "b": "Sâmânî İsmâil b. Ahmed Belh yakınında Saffârî Amr b. Leys'i yenip esir aldı; Belh Sâmânîler'in eline geçti",
+    "kesinlik": "gun",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Belh» md., https://islamansiklopedisi.org.tr/belh (16 Kasım 2026'da okundu; WebFetch özet okuma, parça özetleyicinin sayfadan verdiği alıntıdır): «Sâmânîler’e esir düşmesi üzerine burası da onların eline geçti (900)» ; gün: TDV İslâm Ansiklopedisi, «Saffârîler» md. (tam metin, tarayıcı, 16 Kasım 2026)",
+    "tanik": "Amr’ı Belh yakınında mağlûp ve esir etti (15 Rebîülâhir 287 / 19 Nisan 900)."
    },
    {
     "t": "1152-01-01",
@@ -707,7 +708,7 @@
    }
   ],
   "dikis_beyan": "Atlas Belh'i -0249-01-01'de greko-baktria ile başlatır; TDV 'Belh' Selevkos→Baktria Krallığı geçişini tarihsiz verir, MÖ 250 için tanık bulunamadı; yer tutucu olay yazılmadı.",
-  "ic_not": "Kaynak: yalnız TDV 'Belh' (özet okuma). Çift teyit YOK (Iranica 403). TDV İskender fethini 'MÖ 329' verir → astronomik -0328. ilk = TDV'de tarihli en eski olgu; Avesta (Bāḫdi), Eski Farsça (Bāḫtriš) adları TARİHSİZ (Aḫamenî dönemi Baktria satraplığı merkezi), bu yüzden ilk olarak yazılmadı. Kuruluş TDV'de efsanevi (Keyûmers/Tahmûras/Menûçihr), tarihsiz — kur yazılmadı. Zincir: -0328 → atlas başlangıcı (-0249): __BOSLUK__ (İskender, Selevkos, Baktria — künye/gün yok). Atlas Belh'i -0124'ten 500'e __BOSLUK__ taşır; TDV Kuşan ve Eftalit'i tarihsiz anar. Sasani 226-651 ('Sâsânîler döneminde (226-651)') aralık, olay yazılmadı. Hicrî: Hicrî→mîlâdî: TDV'nin verdiği mîlâdî yıl ile hicrî yılın kesişiminin ilk günü, tablo takvimiyle (Jülyen, ±1-2 gün); kesinlik yıl. 709 (Tarhan Nîzek), 1040/1043/1072 Selçuklu, 1509 Safevî, 'Çağatay/Timurlu' tarihsiz ya da bağlamı belirsiz olduğundan yazılmadı. 870 için TDV '870 (veya 871)'; güvenli uç ilk uç alındı, kesinlik belirsiz. TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Önceki notlardaki \"WebFetch özeti / özet okuma / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir."
+  "ic_not": "Kaynak: yalnız TDV 'Belh' (özet okuma). Çift teyit YOK (Iranica 403). TDV İskender fethini 'MÖ 329' verir → astronomik -0328. ilk = TDV'de tarihli en eski olgu; Avesta (Bāḫdi), Eski Farsça (Bāḫtriš) adları TARİHSİZ (Aḫamenî dönemi Baktria satraplığı merkezi), bu yüzden ilk olarak yazılmadı. Kuruluş TDV'de efsanevi (Keyûmers/Tahmûras/Menûçihr), tarihsiz — kur yazılmadı. Zincir: -0328 → atlas başlangıcı (-0249): __BOSLUK__ (İskender, Selevkos, Baktria — künye/gün yok). Atlas Belh'i -0124'ten 500'e __BOSLUK__ taşır; TDV Kuşan ve Eftalit'i tarihsiz anar. Sasani 226-651 ('Sâsânîler döneminde (226-651)') aralık, olay yazılmadı. Hicrî: Hicrî→mîlâdî: TDV'nin verdiği mîlâdî yıl ile hicrî yılın kesişiminin ilk günü, tablo takvimiyle (Jülyen, ±1-2 gün); kesinlik yıl. 709 (Tarhan Nîzek), 1040/1043/1072 Selçuklu, 1509 Safevî, 'Çağatay/Timurlu' tarihsiz ya da bağlamı belirsiz olduğundan yazılmadı. 870 için TDV '870 (veya 871)'; güvenli uç ilk uç alındı, kesinlik belirsiz. TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Önceki notlardaki \"WebFetch özeti / özet okuma / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir. F3 çözüm (16 Kasım 2026): Belh devri TDV Belh md.'nde yıl (900) olarak verilir; esir alma günü TDV Saffârîler md.'nde (15 Rebîülâhir 287 / 19 Nisan 900) verilir. Belh'in devri esirin günüyle aynı olay kabul edildi (çıkarım; Belh md. ayrı gün vermez)."
  },
  {
   "id": "gazne-af",
@@ -936,11 +937,12 @@
    },
    {
     "t": "1130-01-01",
-    "gun": "1130 (1128 + iki yıl, türetme)",
+    "gun": "1130",
     "k": "fetih",
-    "b": "Karahıtaylar Kâşgar'ı Balasagun ve Hoten ile birlikte zaptetti (TDV: 1128'deki ilk saldırı başarısız; 'iki yıl sonra')",
-    "kesinlik": "belirsiz",
-    "kaynak": "TDV İslâm Ansiklopedisi, «Kâşgar» md., https://islamansiklopedisi.org.tr/kasgar (16 Kasım 2026'da okundu; WebFetch özet okuma, parça özetleyicinin sayfadan verdiği alıntıdır): «iki yıl sonra Balasagun ve Hoten ile birlikte burayı da zaptettiler»"
+    "b": "Karahıtaylar Kâşgar'ı Balasagun ve Hoten ile birlikte zaptetti (TDV Karahıtaylar md.: 1130; Kâşgar md.: 1128'deki ilk saldırı başarısız, iki yıl sonra)",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Kâşgar» md., https://islamansiklopedisi.org.tr/kasgar (16 Kasım 2026'da okundu; WebFetch özet okuma, parça özetleyicinin sayfadan verdiği alıntıdır): «iki yıl sonra Balasagun ve Hoten ile birlikte burayı da zaptettiler» ; yıl: TDV İslâm Ansiklopedisi, «Karahıtaylar» md. (tam metin, tarayıcı, 16 Kasım 2026): doğrudan 1130",
+    "tanik": "Kâşgar, Beşbalık ve Hoten’i de kendine tâbi kılıp başşehri Balasagun olan Karahıtay Devleti’ni kurdu (1130"
    },
    {
     "t": "1218-01-01",
@@ -1023,7 +1025,7 @@
     "kaynak": "TDV İslâm Ansiklopedisi, «Kâşgar» md., https://islamansiklopedisi.org.tr/kasgar (16 Kasım 2026'da okundu; WebFetch özet okuma, parça özetleyicinin sayfadan verdiği alıntıdır): «1884'te Çin yönetimi bölgede Doğu Türkistan (Sinkiang) vilâyetini kurdu»"
    }
   ],
-  "ic_not": "Kaynak: TDV 'Kâşgar' (özet okuma; parçalar ayrı bir ikinci okumada özetleyicinin sayfadan verdiği alıntılardır). Çift teyit YOK (Millward/Iranica/Hotan-Kâşgar akademik kaynakları bu oturumda erişilemedi/aranmadı). ilk=715: TDV'de en eski TARİHLİ olgu. TDV 'şehrin tarihi Han hânedanına (MÖ 206-MS 220) kadar gider' ve Çin kaynaklarında Han'dan Tang'a (618-907) 'Şule' adıyla anıldığını söyler — tarihsiz (aralık) olduğundan ilk olarak yazılmadı; gerçek en eski anılış bu olabilir (Han shu, okunamadı). Atlas Kaşgar'ı 0500-01-01'de kasgar-shule ile başlatır (715 > 500 → sahip:[], atlas zinciri esas); 500-715 dilimi bu kayıtta doğrulanmadı. TDV 629'dan beri Çin hâkimiyeti der (715'te Kuteybe 'Çinlilerden aldı') — atlas 'tang' 649-692 ile uyum ayrıca ölçülmeli. Hicrî olaylar: Hicrî→mîlâdî: TDV'nin verdiği mîlâdî yıl ile hicrî yılın kesişiminin ilk günü, tablo takvimiyle (Jülyen, ±1-2 gün); kesinlik yıl. 1130 olayı türetmedir (1128 + 'iki yıl sonra'); TDV '1130' yazmaz → kesinlik belirsiz. 1499/1514 için TDV iki yıl verir, güvenli uç 1514. Satuk Buğra (955) yönetici ölümüdür, devir değil. Karahanlı dönemi (Kâşgar siyasî-kültürel merkez; Togan Han; 405/1014 sikke) TDV'de var ama sahip zinciri açılmadığından olay yazılmadı. Atlas ek: kat1900=3 (LISTE.tsv 'Shuleh (Kashgar)'). TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Önceki notlardaki \"WebFetch özeti / özet okuma / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir."
+  "ic_not": "Kaynak: TDV 'Kâşgar' (özet okuma; parçalar ayrı bir ikinci okumada özetleyicinin sayfadan verdiği alıntılardır). Çift teyit YOK (Millward/Iranica/Hotan-Kâşgar akademik kaynakları bu oturumda erişilemedi/aranmadı). ilk=715: TDV'de en eski TARİHLİ olgu. TDV 'şehrin tarihi Han hânedanına (MÖ 206-MS 220) kadar gider' ve Çin kaynaklarında Han'dan Tang'a (618-907) 'Şule' adıyla anıldığını söyler — tarihsiz (aralık) olduğundan ilk olarak yazılmadı; gerçek en eski anılış bu olabilir (Han shu, okunamadı). Atlas Kaşgar'ı 0500-01-01'de kasgar-shule ile başlatır (715 > 500 → sahip:[], atlas zinciri esas); 500-715 dilimi bu kayıtta doğrulanmadı. TDV 629'dan beri Çin hâkimiyeti der (715'te Kuteybe 'Çinlilerden aldı') — atlas 'tang' 649-692 ile uyum ayrıca ölçülmeli. Hicrî olaylar: Hicrî→mîlâdî: TDV'nin verdiği mîlâdî yıl ile hicrî yılın kesişiminin ilk günü, tablo takvimiyle (Jülyen, ±1-2 gün); kesinlik yıl. 1130 olayı türetmedir (1128 + 'iki yıl sonra'); TDV '1130' yazmaz → kesinlik belirsiz. 1499/1514 için TDV iki yıl verir, güvenli uç 1514. Satuk Buğra (955) yönetici ölümüdür, devir değil. Karahanlı dönemi (Kâşgar siyasî-kültürel merkez; Togan Han; 405/1014 sikke) TDV'de var ama sahip zinciri açılmadığından olay yazılmadı. Atlas ek: kat1900=3 (LISTE.tsv 'Shuleh (Kashgar)'). TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Önceki notlardaki \"WebFetch özeti / özet okuma / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir. F3 çözüm (16 Kasım 2026): 1130 türetme (1128+2) değil, TDV Karahıtaylar md.'nin doğrudan verdiği yıldır; kesinlik belirsiz→yil. Devlet kronolojisindeki 1128 maddesi başarısız ilk saldırıdır (farklı olay)."
  },
  {
   "id": "karakurum-mn",
@@ -1638,16 +1640,16 @@
     "tanik": "Osman Paşa 24 Haziran 1828’de Ruslar’a teslim oldu"
    },
    {
-    "t": "1829-01-01",
-    "gun": "1829",
+    "t": "1829-09-14",
+    "gun": "14 Eylül 1829",
     "k": "kayip",
     "b": "Edirne Antlaşması ile Anapa ve Kafkasya Osmanlı hâkimiyetinden çıktı",
-    "kesinlik": "yil",
-    "kaynak": "TDV İslâm Ansiklopedisi, «ANAPA» md. (Cengiz Fedakar), Baskı Tarihi 2020 (cilt/sayfa tam metinde yok), https://islamansiklopedisi.org.tr/anapa (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "kesinlik": "gun",
+    "kaynak": "TDV İslâm Ansiklopedisi, «ANAPA» md. (Cengiz Fedakar), Baskı Tarihi 2020 (cilt/sayfa tam metinde yok), https://islamansiklopedisi.org.tr/anapa (TDV tam metin (tarayıcı), 16 Kasım 2026); gün: TDV İslâm Ansiklopedisi, «Edirne Antlaşması» md.: «14 Eylül 1829) Pazartesi günü imza edildi» (TDV tam metin, tarayıcı, 16 Kasım 2026)",
     "tanik": "1829 Edirne Antlaşması ile de Anapa ve Kafkasya Osmanlı hâkimiyetinden çıktı"
    }
   ],
-  "ic_not": "Kaynak: TDV tam gövde (tarayıcı), çift teyit YOK (ikinci akademik kaynak açılmadı). Tüm tanık alıntıları gövdede includes() ile birebir doğrulandı. ilk.t: TDV'nin tek erken dayanağı yüzyıl düzeyindedir ('XIII ve XIV. yüzyıllarda ... Gorkipaya adlı Bizans kolonisi, sonra Ceneviz ticaret iskelesi ve kalesi'); güvenli uç (XIV. yy sonu) 1400-01-01 alındı. Anapa'nın yerinde antik Gorgippia vardır; TDV'nin 'Bizans kolonisi' ifadesi olduğu gibi aktarıldı, antik/ortaçağ ayrımı ve 3 km sınaması yapılmadı. TDV: Fâtih dönemi Gedik Ahmed Paşa seferiyle Osmanlı ilgisi başladı (yıl yok → yazılmadı); Anapa Kalesi Ferah Ali Paşa eliyle Soğucak'a benzer inşa edildi (1783-1786'da tamamlandı, aralık → yazılmadı); 1809 sonbaharında Rus saldırısı ve Bükreş Antlaşması (16 Mayıs 1812) ile Kuban hududu → şehre özgü teslim günü verilmediğinden olay yazılmadı. TDV 1853-56 Kırım Savaşı'nda kalenin müttefikler tarafından yıkıldığını söyler (gün yok). Atlas Anapa'yı 1281'de altinorda ile başlatır; TDV bunu desteklemez, çürütmez. Atlas bu noktayı 1281-01-01'de başlatır; ilk.t sonra olduğundan sahip:[] (atlas zinciri esas), 'atlas başlangıcı düzeltilmeli' uyarısı beklenen davranıştır — TDV'de daha erken TARİHLİ tanık bulunamadı."
+  "ic_not": "Kaynak: TDV tam gövde (tarayıcı), çift teyit YOK (ikinci akademik kaynak açılmadı). Tüm tanık alıntıları gövdede includes() ile birebir doğrulandı. ilk.t: TDV'nin tek erken dayanağı yüzyıl düzeyindedir ('XIII ve XIV. yüzyıllarda ... Gorkipaya adlı Bizans kolonisi, sonra Ceneviz ticaret iskelesi ve kalesi'); güvenli uç (XIV. yy sonu) 1400-01-01 alındı. Anapa'nın yerinde antik Gorgippia vardır; TDV'nin 'Bizans kolonisi' ifadesi olduğu gibi aktarıldı, antik/ortaçağ ayrımı ve 3 km sınaması yapılmadı. TDV: Fâtih dönemi Gedik Ahmed Paşa seferiyle Osmanlı ilgisi başladı (yıl yok → yazılmadı); Anapa Kalesi Ferah Ali Paşa eliyle Soğucak'a benzer inşa edildi (1783-1786'da tamamlandı, aralık → yazılmadı); 1809 sonbaharında Rus saldırısı ve Bükreş Antlaşması (16 Mayıs 1812) ile Kuban hududu → şehre özgü teslim günü verilmediğinden olay yazılmadı. TDV 1853-56 Kırım Savaşı'nda kalenin müttefikler tarafından yıkıldığını söyler (gün yok). Atlas Anapa'yı 1281'de altinorda ile başlatır; TDV bunu desteklemez, çürütmez. Atlas bu noktayı 1281-01-01'de başlatır; ilk.t sonra olduğundan sahip:[] (atlas zinciri esas), 'atlas başlangıcı düzeltilmeli' uyarısı beklenen davranıştır — TDV'de daha erken TARİHLİ tanık bulunamadı. F3 çözüm (16 Kasım 2026): 1829 olayı yıl→gün (14 Eylül 1829, TDV Edirne Antlaşması md. gövdesi) ile düzeltildi; devlet kronolojisindeki 1829-09-14 maddesiyle örtüşür."
  },
  {
   "id": "akmescid-ua",
@@ -1828,13 +1830,13 @@
   "sahip": [],
   "olay": [
    {
-    "t": "1237-12-31",
-    "gun": "1220-1237",
+    "t": "1224-01-01",
+    "gun": "1224",
     "k": "fetih",
-    "b": "Anadolu Selçuklu Sultanı Alâeddin Keykubad zamanında (1220-1237) Hüsâmeddin Çoban komutasındaki kuvvetler Suğdak'ı ele geçirdi (güvenli uç: saltanat sonu)",
+    "b": "Anadolu Selçuklu Sultanı Alâeddin Keykubad zamanında Hüsâmeddin Çoban komutasındaki kuvvetler Suğdak'ı fethetti (TDV Selçuklular md.: 1224; Kırım md.: saltanat aralığı 1220-1237)",
     "kesinlik": "yil",
-    "kaynak": "TDV İslâm Ansiklopedisi, «KIRIM» md. (DİA), Baskı Tarihi 2022 (cilt/sayfa tam metinde yok), https://islamansiklopedisi.org.tr/kirim (TDV tam metin (tarayıcı), 16 Kasım 2026)",
-    "tanik": "Alâeddin Keykubad zamanında (1220-1237) Hüsâmeddin Çoban idaresindeki kuvvetler Kırım’ın en önemli ticaret şehri olan Suğdak’ı ele geçirdi"
+    "kaynak": "TDV İslâm Ansiklopedisi, «Selçuklular» md. (tam metin, tarayıcı, 16 Kasım 2026); aralık: «Kırım» md. (1220-1237)",
+    "tanik": "Karadeniz’in kuzeyindeki Suğdak şehri Hüsâmeddin Çoban tarafından fethedildi (1224)"
    },
    {
     "t": "1365-01-01",
@@ -1846,7 +1848,7 @@
     "tanik": "Suğdak 1365’te Ceneviz kontrolüne girmişti"
    }
   ],
-  "ic_not": "Kaynak: TDV tam gövde (tarayıcı), çift teyit YOK (ikinci akademik kaynak açılmadı). Tüm tanık alıntıları gövdede includes() ile birebir doğrulandı. ilk.t: Selçuklu ele geçirmesi Keykubad'ın saltanat aralığına (1220-1237) bağlıdır, güne değil; güvenli uç 1237-12-31. TDV Suğdak'ı Kıpçak limanı olarak (1253 Rubruk gezisi: Suğdak pazar yeri) da anar (tarihli ama sahiplik/varlık dışı, yazılmadı). 1380 Ceneviz-Altın Orda anlaşmasında Balıklava-Suğdak aralığının Ceneviz'e bağlı sayılması TDV'de vardır (tek tanık, şehre özgü değil; yazılmadı). Atlas Sudak'ı 1000-01-01'de __BOSLUK__ ile başlatır; Selçuklu (1237 öncesi, aralık) ve Ceneviz (1365) tanıkları atlas zincirine öneridir: 'Sudak 1220-1237 selcuklu, 1365 ceneviz' ve zincir 1281 sonrası kaynakla gözden geçirilmeli. Atlas bu noktayı 1000-01-01'de başlatır; ilk.t sonra olduğundan sahip:[] (atlas zinciri esas), 'atlas başlangıcı düzeltilmeli' uyarısı beklenen davranıştır — TDV'de daha erken TARİHLİ tanık bulunamadı."
+  "ic_not": "Kaynak: TDV tam gövde (tarayıcı), çift teyit YOK (ikinci akademik kaynak açılmadı). Tüm tanık alıntıları gövdede includes() ile birebir doğrulandı. ilk.t: Selçuklu ele geçirmesi Keykubad'ın saltanat aralığına (1220-1237) bağlıdır, güne değil; güvenli uç 1237-12-31. TDV Suğdak'ı Kıpçak limanı olarak (1253 Rubruk gezisi: Suğdak pazar yeri) da anar (tarihli ama sahiplik/varlık dışı, yazılmadı). 1380 Ceneviz-Altın Orda anlaşmasında Balıklava-Suğdak aralığının Ceneviz'e bağlı sayılması TDV'de vardır (tek tanık, şehre özgü değil; yazılmadı). Atlas Sudak'ı 1000-01-01'de __BOSLUK__ ile başlatır; Selçuklu (1237 öncesi, aralık) ve Ceneviz (1365) tanıkları atlas zincirine öneridir: 'Sudak 1220-1237 selcuklu, 1365 ceneviz' ve zincir 1281 sonrası kaynakla gözden geçirilmeli. Atlas bu noktayı 1000-01-01'de başlatır; ilk.t sonra olduğundan sahip:[] (atlas zinciri esas), 'atlas başlangıcı düzeltilmeli' uyarısı beklenen davranıştır — TDV'de daha erken TARİHLİ tanık bulunamadı. F3 çözüm (16 Kasım 2026): olay yılı 'saltanat sonu güvenli ucu' (1237-12-31) yerine TDV Selçuklular md.'nin doğrudan verdiği fetih yılı 1224'e çekildi; 1224, Kırım md.'nin 1220-1237 aralığı içindedir (çelişki değil)."
  },
  {
   "id": "mankup-ua",
