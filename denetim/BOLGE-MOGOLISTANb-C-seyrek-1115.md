@@ -1,0 +1,8 @@
+# BOLGE-MOGOLISTANb — C: 1000-1199 Moğol/Kerait/Naiman dilimi (UMIT, 15 Kasım 2026, 2. dalga)
+
+Taban ölçüm (KAPSAM-OLCUM-1114): Moğolistan kutusunda 1000s ve 1100s'te 2 yerleşim, 0 kutu-içi madde; kamag-mogol (1130-1206), kerait, naiman, merkit, tatar, ongut künyeleri var ve yerleşimsizdir.
+
+Okunan: TDV `cengiz-han` (WebFetch) yalnız yıl düzeyinde şunları verir: Timuçin 1202 Tatar seferi · 1203 Kerayit yurdunun yağması, Ong Han'ın kaçışı · 1204 Nayman-Merkit ittifakına karşı sefer · 1206 kurultay (Karakurum kaydının `kaynak:`ında zaten TDV'den alıntılıdır). Qing Shi gao / Ming shi bu dilimi KAPSAMAZ.
+
+**Yazılan: 0 madde.** Sebep: (1) TDV maddesi olayların yerini (Onon, Tola, Buyur Gölü, Altay) vermez, bu yüzden bir yerleşime veya kamera odağına bağlanamaz (çıkarım yasak); (2) gün yok, yalnız yıl; yıl düzeyinde madde yazmak mümkündür ama `kerait`, `naiman`, `tatar` künyelerinin içinde zaten 2'şer künye-içi madde var (KAPSAM-OLCUM-1114; içerikleri bu oturumda tek tek karşılaştırılmadı), yıl düzeyinde ikinci bir yazım çiftleme riski taşır; (3) Moğol Gizli Tarihi akademik neşri (Rachewiltz 2004 vd.), Rusça akademik kaynak (ör. Kızlasov, Kychanov) ve Cambridge History of Inner Asia bu oturumda okunamadı.
+Öneri: Rachewiltz *The Secret History of the Mongols* (Brill 2004) ya da Atwood *Encyclopedia of Mongolia and the Mongol Empire* (2004) okunabilen bir oturumda 1130 Kabul Han, 1160'lar Kiyat-Borjigin, 1189/1196 Temujin'in han ilanı, 1196 Kerait-Jin ittifakı gibi 8-10 madde; Burkhan Khaldun (Hentey, vekil), Orhun Vadisi, Buir Gölü noktalarına 1130-1206 sahiplik penceresi birlikte yazılmalı.
