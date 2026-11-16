@@ -1,0 +1,470 @@
+dosya	id	sehir	olay_t	olay_b	kronoloji_t	kronoloji_b	fark_gun	ortak_sozcuk
+sehir_tarihce_hint.js	ahmedabad-in	Ahmedâbâd	1573-01-01	Ekber Şah iki seferin sonunda Gucerât Devleti'yle birlikte Ahmedâbâd'ı	1573-08-20	Ekber Şah Gucerât'ı fethetti	232	2
+sehir_tarihce_hint.js	ahmedabad-in	Ahmedâbâd	1573-01-01	Ekber Şah iki seferin sonunda Gucerât Devleti'yle birlikte Ahmedâbâd'ı	1573-08-20	Gucerât Sultanlığı, Ekber Şah tarafından ilhak edildi	232	2
+sehir_tarihce_hint.js	delhi-in	Delhi	1858-01-01	İngilizler son Babürlü hükümdar Bahâdır Şah'tan Delhi'nin yönetimini d	1857-09-21	Delhi'nin İngilizlerce geri alınması: Bahadır Şah II teslim oldu, Bâbü	-102	2
+sehir_tarihce_hint.js	delhi-in	Delhi	1947-01-01	Delhi bağımsız Hindistan'ın başkenti oldu	1947-08-15	Ingiliz Hindistani bolundu: Hindistan Dominyonu (Delhi, Agra, Benares,	227	2
+sehir_tarihce_hint.js	gaur-bd	Gaur	1198-01-01	Gurlu kumandanı Muhammed Bahtiyâr Halacî Bengal bölgesini fethetti; Le	1203-01-01	Muhammed Bahtiyâr Halacî Bengal'i fethetti (Gaur/Lakhnautî)	1826	5
+sehir_tarihce_hint.js	gaur-bd	Gaur	1198-01-01	Gurlu kumandanı Muhammed Bahtiyâr Halacî Bengal bölgesini fethetti; Le	1203-01-01	Gaur (Lakhnautî) Sena'dan Gurlu komutanı Bahtiyâr Halacî'ye geçti	1826	3
+sehir_tarihce_hint.js	gaur-bd	Gaur	1202-01-01	Muhammed Bahtiyâr Halacî, Senâ hânedanının başşehri ve o dönemde küçük	1205-01-01	Muhammed Bahtiyar Cacnagar (Orissa) üzerine ordu gönderdi	1096	2
+sehir_tarihce_hint.js	gaur-bd	Gaur	1202-01-01	Muhammed Bahtiyâr Halacî, Senâ hânedanının başşehri ve o dönemde küçük	1203-01-01	Muhammed Bahtiyâr Halacî Bengal'i fethetti (Gaur/Lakhnautî)	365	3
+sehir_tarihce_hint.js	gaur-bd	Gaur	1202-01-01	Muhammed Bahtiyâr Halacî, Senâ hânedanının başşehri ve o dönemde küçük	1203-01-01	Gaur (Lakhnautî) Sena'dan Gurlu komutanı Bahtiyâr Halacî'ye geçti	365	2
+sehir_tarihce_hint.js	gaur-bd	Gaur	1202-01-01	Muhammed Bahtiyâr Halacî, Senâ hânedanının başşehri ve o dönemde küçük	1206-01-01	Muhammed Bahtiyâr Halacî öldü; yerine İzzeddin Muhammed geçti	1461	3
+sehir_tarihce_hint.js	gvalyar-in	Gvalyar	1022-01-01	Gazneli Mahmud Kālincâr Racası Ganda'ya bağlı Gevâliyâr (Gwalior) Kale	1021-01-01	Gazneli Mahmud Gwalior kalesine saldırdı; Kachchhapaghata Kirttiraja f	-365	2
+sehir_tarihce_hint.js	kannauc-in-a3	Kannauc	1018-12-20	Gazneli Mahmud'un 12. Hint seferinin asıl hedefi Kannevc (Kannauc) fet	1018-01-01	Gazneli Mahmud son önemli Pratihara kralı Racyapala'yı Kannauj'dan çık	-354	2
+sehir_tarihce_hint.js	multan-pk	Multan	0712-10-07	Muhammed b. Kâsım Mültan'ı Hindu Rai hânedanından aldı	0712-06-20	Muhammed b. Kâsım'ın karşısında Sind Racası Dâhir öldü; Rûr (Arûr, Aro	-109	2
+sehir_tarihce_hint.js	multan-pk	Multan	1006-01-01	Gazneli Mahmud Mültan'ı yedi günlük muhasaradan sonra zaptetti (Karmat	1010-01-01	Gazneli Mahmud Mültan'ı yeniden aldı ve Sind'i tamamen ele geçirdi	1461	3
+sehir_tarihce_hint.js	multan-pk	Multan	1175-07-22	Gurlu Muizzüddin Muhammed b. Sâm Mültan'da kesin Sünnî hâkimiyeti kurd	1175-01-01	Gurlu Muizzüddin Muhammed Mültan’da kesin hâkimiyet kurdu	-204	5
+sehir_tarihce_hint.js	multan-pk	Multan	1228-11-30	İltutmuş Mültan'ı Delhi Sultanlığı'nın eyalet merkezi yaptı	1228-01-01	İltutmış Mültan'ı Delhi Sultanlığı'nın eyalet merkezi yaptı	-333	4
+sehir_tarihce_hint.js	multan-pk	Multan	1228-11-30	İltutmuş Mültan'ı Delhi Sultanlığı'nın eyalet merkezi yaptı	1228-01-01	İltutmış Mültan’ı Delhi Sultanlığı’nın eyalet merkezi yaptı — Kabâce d	-333	4
+sehir_tarihce_k12.js	astrahan	Astrahan	1557-01-01	Astarhan Hanlığı Rusya'ya geçer (1554 ilk, 1556-57 nihai); şehir şimdi	1556-01-01	Ruslar Astarhan Hanlığı'nı işgal etti	-365	2
+sehir_tarihce_k12.js	balasagun	Balasagun (Ak-Beşim)	0943-01-01	İlk anış: kâfir Türkler Balasagun'u basar, Müslüman halk Buhara'dan ya	0942-01-01	Müslüman olmayan Türkler Balasagun'u ele geçirdi; Satuk Buğra Han sonr	-365	2
+sehir_tarihce_k12.js	barselona	Barselona	0801-12-25	Franklar (Louis) Barselona'yı alır; şehir Marca Hispanica'nın başkenti	0801-01-01	Louis kumandasındaki Franklar Barselona yöresini istilâ etti; Marca Hi	-359	3
+sehir_tarihce_k12.js	belgrad	Belgrad	1281-01-01	Mačva (Belgrad dahil) 1280-1284 Kraliçe-anne Elizabeth (Kuman) yönetim	1284-01-01	Belgrad ve Mačva, Macar kralınca Dragutin'e verildi	1096	2
+sehir_tarihce_k12.js	belgrad	Belgrad	1284-06-11	Ladislaus IV Mačva'yı ve Belgrad'ı Dragutin'e (eski Sırp kralı, Ladisl	1284-01-01	Belgrad ve Mačva, Macar kralınca Dragutin'e verildi	-162	3
+sehir_tarihce_k12.js	belh	Belh	0709-01-01	Eftalit prensi Tarhan Nîzek Belh'i alır, sonra Kuteybe'nin kuvvetlerin	0710-01-01	Eftalit Prensi Tarhan Nîzek yabgunun desteğiyle Belh’i aldı; Kuteybe o	365	5
+sehir_tarihce_k12.js	belh	Belh	0709-01-01	Eftalit prensi Tarhan Nîzek Belh'i alır, sonra Kuteybe'nin kuvvetlerin	0710-01-01	Eftalit prensi Tarhan Nîzek Belh'te isyanda yenilip Kuteybe'nin emriyl	365	5
+sehir_tarihce_k12.js	belh	Belh	0900-03-18	Belh yakınında Sâmânî İsmâil b. Ahmed Amr b. Leys'i yener ve esir alır	0900-04-19	Belh Savaşı: Sâmânî İsmâil, Saffârî Amr b. Leys'i yenip esir aldı	31	2
+sehir_tarihce_k12.js	belh	Belh	0900-03-18	Belh yakınında Sâmânî İsmâil b. Ahmed Amr b. Leys'i yener ve esir alır	0900-04-19	İsmâil b. Ahmed Belh yakınında Saffârî emîri Amr b. Leys'i yenip esir 	31	3
+sehir_tarihce_k12.js	belh	Belh	1153-01-01	Oğuzlar Belh'e girip yağmalar; Sencer'in yeğeni Karahanlı Mahmud Han'a	1153-04-01	Sencer kendi kavmi Oğuzlar'a yenilip yaklaşık üç yıl esir kaldı	91	2
+sehir_tarihce_k12.js	bergen	Bergen	1276-01-01	Magnus Lagabøte'nin şehir yasası (bylov) kabul edilir.	1280-05-09	Magnus Lagabøte Bergen'de öldü	1591	2
+sehir_tarihce_k12.js	bolonya	Bolonya	0476-01-01	künye geçişi: Batı Roma otoritesi sona erdi (Odoacer'in Romulus August	0476-09-04	Cisalpina ve Venetia: Odoakar İtalya Krallığı'nı kurdu (476)	247	2
+sehir_tarihce_k12.js	buhara	Buhara	0709-01-01	Kuteybe b. Müslim seferleri sonunda yerel direnişi kırar ve şehre Arap	0708-11-20	Kuteybe b. Müslim Buhara'yı teslim aldı	-42	2
+sehir_tarihce_k12.js	buhara	Buhara	0728-01-01	Türkler Tuğşâde zamanında bir ara Buhara'yı işgal eder (kısa; dönem aç	0728-04-16	Türkler Buhara'yı geçici olarak işgal etti (110 H / 728-29)	106	2
+sehir_tarihce_k12.js	buhara	Buhara	0750-01-01	Şerîk b. Şeyh'in Abbâsîler'e karşı Buhara isyanı bastırılır (Ziyâd b. 	0750-08-09	Buhara'da Şerîk b. Şeyh'in Alevî-taraftarı isyanı kanlı bastırıldı	221	2
+sehir_tarihce_k12.js	buhara	Buhara	0999-10-23	İlig Han Nasr Buhara'yı hiçbir mukavemetle karşılaşmadan işgal eder; S	0999-01-01	Karahanlılar Buhara'yı işgal etti; Sâmânî hânedan mensupları Özkent'e 	-296	3
+sehir_tarihce_k12.js	buhara	Buhara	0999-10-23	İlig Han Nasr Buhara'yı hiçbir mukavemetle karşılaşmadan işgal eder; S	0999-10-14	Karahanlı İlig Han Nasr Buhara'ya girdi; Sâmânî ailesi Özkent'e sürüld	-9	2
+sehir_tarihce_k12.js	buhara	Buhara	0999-10-23	TDV Karahanlılar: İlig Han Nasr Sâmânî başşehri Buhara'yı zaptetti (çi	0999-01-01	Karahanlılar Buhara'yı işgal etti; Sâmânî hânedan mensupları Özkent'e 	-296	2
+sehir_tarihce_k12.js	dali	Dali	1253-01-07	Moğollar Ta-li'yi ele geçirir; künye geçişi Dali Krallığı → Moğol İmpa	1254-01-02	Moğollar Dali şehrini aldı; Duan hanedanı Moğol hâkimiyetine girdi	360	2
+sehir_tarihce_k12.js	dali	Dali	1253-01-07	Moğollar Ta-li'yi ele geçirir; künye geçişi Dali Krallığı → Moğol İmpa	1254-01-02	Moğollar Dali'yi aldı; Dali Moğol İmparatorluğu'na geçti	360	3
+sehir_tarihce_k12.js	erdebil	Erdebil	0941-09-26	Müsâfirî Merzübân b. Muhammed Erdebil ve Tebriz'i ele geçirir; 346'ya 	0942-01-01	Vehsûdân ve Merzübân babaları Muhammed b. Müsâfir'i indirip Şemîrân Ka	97	2
+sehir_tarihce_k12.js	erdebil	Erdebil	0980-01-01	Revvâdîler Azerbaycan'da bağımsızlığını kazanır ve Müsâfirîler'den kal	0979-01-01	Azerbaycan Revvâdîlerin eline geçti; Müsâfirîler Târum'a çekildi (979 	-365	2
+sehir_tarihce_k12.js	eski-kandehar	Eski Kandehar (Şehr-i Köhne)	-0302-01-01	Seleukos I Nikator kenti Çandragupta Maurya'ya bırakır (500 fil karşıl	-0304-01-01	Selevkos I Hindistan'da Çandragupta Maurya ile antlaşma yaptı; Arakosy	-730	2
+sehir_tarihce_k12.js	fuzhou	Fuzhou	0892-01-01	Wang Chao/Shenzhi Fan Hui'yi yenip Fuzhou'ya girer; Tang onu Fujian gö	0897-01-01	Wang Shenzhi Fuzhou’da Weiwu Jun valisi oldu	1826	2
+sehir_tarihce_k12.js	gaur-lakhnauti	Gaur (Lakhnautî)	1202-01-01	Muhammed Bahtiyâr Halacî, Sena'nın başşehri Leknevtî'yi ele geçirir ve	1205-01-01	Muhammed Bahtiyar Cacnagar (Orissa) üzerine ordu gönderdi	1096	2
+sehir_tarihce_k12.js	gaur-lakhnauti	Gaur (Lakhnautî)	1202-01-01	Muhammed Bahtiyâr Halacî, Sena'nın başşehri Leknevtî'yi ele geçirir ve	1203-01-01	Muhammed Bahtiyâr Halacî Bengal'i fethetti (Gaur/Lakhnautî)	365	3
+sehir_tarihce_k12.js	gaur-lakhnauti	Gaur (Lakhnautî)	1202-01-01	Muhammed Bahtiyâr Halacî, Sena'nın başşehri Leknevtî'yi ele geçirir ve	1203-01-01	Gaur (Lakhnautî) Sena'dan Gurlu komutanı Bahtiyâr Halacî'ye geçti	365	2
+sehir_tarihce_k12.js	gaur-lakhnauti	Gaur (Lakhnautî)	1202-01-01	Muhammed Bahtiyâr Halacî, Sena'nın başşehri Leknevtî'yi ele geçirir ve	1206-01-01	Muhammed Bahtiyâr Halacî öldü; yerine İzzeddin Muhammed geçti	1461	3
+sehir_tarihce_k12.js	gaur-lakhnauti	Gaur (Lakhnautî)	1227-01-01	Delhi Sultanı İltutmış'ın Şemsî kuvvetleri Leknevtî'yi alır; Halacîler	1225-01-13	İltutmış Bengal'e sefer yapıp bağımsızlığını ilân eden Gıyâseddin Hala	-718	2
+sehir_tarihce_k12.js	gazne	Gazne	0965-10-26	Alp Tegin'in oğlu Ebû İshak İbrâhim, Levik hânedanından Ebû Ali'yi yen	0963-01-30	Alp Tegin öldü; oğlu Ebû İshak İbrâhim Gazne'de geçti	-1000	3
+sehir_tarihce_k12.js	gazne	Gazne	1117-01-01	Selçuklu Sultanı Sencer Gazne'yi istilâ eder (ilk).	1117-05-05	Behram Şah, Selçuklu Sencer'in desteğiyle Gazne tahtına çıktı	126	2
+sehir_tarihce_k12.js	gazne	Gazne	1151-01-01	Gurlu Alâeddin Hüseyin Gazne'yi yakıp yıkar ('Cihansûz'). ÇİFT TEYİT: 	1148-01-01	Gurlu Melik İzzeddin Hüseyin ve Seyfeddin Sûrî Gazneli sultanı Behram 	-1096	2
+sehir_tarihce_k12.js	granada	Granada	1156-02-25	Meymûn b. Yiddâr şehri Muvahhidler'e teslim eder.	1156-01-01	Gırnata Muvahhidler’e teslim oldu (551/1156)	-54	2
+sehir_tarihce_k12.js	gyulafehervar	Erdel Belgradı (Gyulafehérvár)	0275-01-01	Aurelianus Dakya'yı boşalttı: ordu ve Roma idaresi eyaletten çekildi; 	0271-01-01	Aurelianus Dacia'yı boşalttı: Tuna'nın kuzeyi bırakıldı	-1461	2
+sehir_tarihce_k12.js	hanoi	Hanoi (Thăng Long)	0938-01-01	Ngô Quyền (吳權) Kiều Công Tiễn'i öldürür, Giao Châu'yu tutar; Güney Han	0939-01-01	Hanoi (Thăng Long): Ngô Quyền Kiều Công Tiễn'i ve Güney Han donanmasın	365	3
+sehir_tarihce_k12.js	hemedan	Hemedan	0931-01-24	Ziyârî Merdâvîc Hemedan'ı alır ve dört gün katliam yapar.	0931-01-01	Hemedan Ziyârî Emîri Merdâvîc b. Ziyâr'ın elinde; Hemedanlıların isyan	-23	2
+sehir_tarihce_k12.js	hemedan	Hemedan	1023-03-26	Alâüddevle Muhammed (Kâkûyî) Hemedan'a yürüyüp Büveyhî Semâüddevle'nin	1023-01-01	Kâkûyî Alâüddevle Muhammed Hemedan'a yürüyüp Büveyhî Semâüddevle'nin h	-86	6
+sehir_tarihce_k12.js	hemedan	Hemedan	1047-06-28	Hemedan Selçuklular'a kesin olarak bağlanır; Kinkever Kalesi teslim ol	1047-01-01	Kinkever Kalesi Selçuklulara teslim oldu; Gerşâsb bütün topraklarını k	-179	3
+sehir_tarihce_k12.js	hemedan	Hemedan	1047-06-28	Hemedan Selçuklular'a kesin olarak bağlanır; Kinkever Kalesi teslim ol	1043-01-01	Tuğrul Bey Hemedan'ı doğrudan kendi yönetimine aldı; Selçuklular Hemed	-1640	2
+sehir_tarihce_k12.js	hemedan	Hemedan	1047-06-28	Hemedan Selçuklular'a kesin olarak bağlanır; Kinkever Kalesi teslim ol	1047-01-01	Kinkever Kalesi teslim olur; Hemedan doğrudan Selçuklu denetimine geçe	-179	3
+sehir_tarihce_k12.js	hokand	Hokand	1211-01-01	Karahıtay Devleti Küçlüğ Han tarafından sona erdirilir; Fergana 1212-1	1210-01-01	Hârizmşah Alâeddin Muhammed İlâmış'ta Karahıtaylar'ı yenip Fergana'ya 	-365	2
+sehir_tarihce_k12.js	isfahan	Isfahan	0934-12-11	Büveyhî Rüknüddevle Hasan Isfahan'ı merkez yapar; Büveyhî sikkelerinde	0935-01-01	Büveyhî Rüknüddevle Hasan İsfahan'ı üs edindi; İsfahan Büveyhî hâkimiy	20	3
+sehir_tarihce_k12.js	isfahan	Isfahan	1007-09-17	Büveyhî Mecdüddevle'nin annesi Seyyide, Alâüddevle Muhammed'i (Kâkûyî)	1007-01-01	Alâüddevle Muhammed İsfahan'a vali tayin edildi; Kâkûyî hânedanının te	-260	2
+sehir_tarihce_k12.js	isfahan	Isfahan	1034-01-01	Gazneli ordusu, isyan eden Alâüddevle'yi yenerek Isfahan'a hâkim olur 	1033-01-01	Gazneli Mesud Alâüddevle'yi vergili İsfahan emîri olarak tanıdı	-365	2
+sehir_tarihce_k12.js	isfahan	Isfahan	1034-01-01	Gazneli ordusu, isyan eden Alâüddevle'yi yenerek Isfahan'a hâkim olur 	1036-01-01	Alâüddevle Gazneli Mesud'la barıştı, İsfahan'a döndü	730	2
+sehir_tarihce_k12.js	kamakura	Kamakura	1180-01-01	Minamoto no Yoritomo Kamakura'ya girer; şehir bakufunun merkezi olur.	1180-11-04	Minamoto no Yoritomo Kamakura'ya girdi	307	2
+sehir_tarihce_k12.js	kamakura	Kamakura	1180-01-01	Minamoto no Yoritomo Kamakura'ya girer; şehir bakufunun merkezi olur.	1180-11-04	Minamoto no Yoritomo Kamakura'daki konutuna girdi	307	2
+sehir_tarihce_k12.js	kyoto	Kyoto	0794-11-19	Kanmu Tennō başkenti Nagaoka-kyō'dan Yamashiro'ya taşır; şehir Heian-k	0794-12-04	Yamashiro eyaletinin adı değişti, yeni başkent «Heian-kyō» adını aldı	15	2
+sehir_tarihce_k12.js	lizbon	Lizbon	1147-10-24	Alfonso Henriques, haçlı donanmasının yardımıyla dört aylık kuşatmadan	1147-10-25	Portekiz Kralı Afonso Henriques Lizbon'u haçlıların yardımıyla Murâbıt	1	2
+sehir_tarihce_k12.js	mantova	Mantova	0476-01-01	künye geçişi: Batı Roma otoritesi sona erdi (Odoacer'in Romulus August	0476-09-04	Cisalpina ve Venetia: Odoakar İtalya Krallığı'nı kurdu (476)	247	2
+sehir_tarihce_k12.js	merakes	Merakeş	1077-01-01	Yûsuf b. Tâşfîn zamanında kuruluş tamamlanır; şehir Murâbıtlar'ın başş	1073-01-01	Ebû Bekir b. Ömer, Merakeş yakınlarında tahtını Yûsuf b. Tâşfîn'e devr	-1461	2
+sehir_tarihce_k12.js	merv	Merv (Mari)	0747-01-01	Ebû Müslim Merv'e girer; Emevî Horasan valisi Nasr b. Seyyâr kaçar (Ab	0745-10-03	Ebû Müslim, İmam İbrâhim tarafından ihtilâli yönetmek üzere Horasan'a 	-455	2
+sehir_tarihce_k12.js	merv	Merv (Mari)	0747-01-01	Ebû Müslim Merv'e girer; Emevî Horasan valisi Nasr b. Seyyâr kaçar (Ab	0748-01-15	Nasr b. Seyyâr Merv'i terk etti; Horasan Abbâsî ihtilâlcilerinin eline	379	2
+sehir_tarihce_k12.js	merv	Merv (Mari)	0747-01-01	Ebû Müslim Merv'e girer; Emevî Horasan valisi Nasr b. Seyyâr kaçar (Ab	0748-01-15	Ebû Müslim Horasan'ın merkezi Merv'i aldı; son Emevî valisi Nasr b. Se	379	5
+sehir_tarihce_k12.js	merv	Merv (Mari)	0747-01-01	Ebû Müslim Merv'e girer; Emevî Horasan valisi Nasr b. Seyyâr kaçar (Ab	0748-01-15	Nasr b. Seyyâr Horasan'ın merkezi Merv'i Abbâsî isyancılara bıraktı	379	2
+sehir_tarihce_k12.js	merv	Merv (Mari)	0821-01-01	Tâhir b. Hüseyin Horasan valisi; Merv Tâhirî idare merkezi.	0821-05-06	Tâhir b. Hüseyin kendini Horasan valiliğine tayin ettirdi: Tâhirî hâne	127	4
+sehir_tarihce_k12.js	merv	Merv (Mari)	0821-01-01	Tâhir b. Hüseyin Horasan valisi; Merv Tâhirî idare merkezi.	0822-11-15	Tâhir b. Hüseyin Merv'de öldü; oğlu Talha Horasan valisi oldu	684	4
+sehir_tarihce_k12.js	merv	Merv (Mari)	0821-01-01	Tâhir b. Hüseyin Horasan valisi; Merv Tâhirî idare merkezi.	0821-05-06	Merv: Merv Tâhir b. Hüseyin’in idare merkezi oldu	127	4
+sehir_tarihce_k12.js	merv	Merv (Mari)	1153-07-25	Oğuzlar Merv'i yağmalar, ardından Sencer'i esir alır.	1153-04-01	Sencer kendi kavmi Oğuzlar'a yenilip yaklaşık üç yıl esir kaldı	-115	2
+sehir_tarihce_k12.js	merv	Merv (Mari)	1193-01-01	Sultan Şah ölür; Tekiş'in oğlu Melikşah Merv'de.	1193-01-07	Merv: Sultan Şah öldü, Merv Tekiş’e kaldı	6	2
+sehir_tarihce_k12.js	merv	Merv (Mari)	1202-01-01	Muhammed b. Tekiş Merv ve Nîşâbur'u Gurlu Gıyâseddin ve Şihâbeddin'den	1200-01-01	Gurlular Tekiş'in ölümü üzerine Hârizmşahlara savaş açıp Nîşâbur, erte	-730	2
+sehir_tarihce_k12.js	merv	Merv (Mari)	1202-01-01	Muhammed b. Tekiş Merv ve Nîşâbur'u Gurlu Gıyâseddin ve Şihâbeddin'den	1204-01-01	Alâeddin Muhammed Nîşâbur, Merv ve Serahs'ı Gurlular'dan aldı	730	2
+sehir_tarihce_k12.js	merv	Merv (Mari)	1202-01-01	Muhammed b. Tekiş Merv ve Nîşâbur'u Gurlu Gıyâseddin ve Şihâbeddin'den	1204-01-01	Alâeddin Muhammed Gurlular'dan Nîşâbur, Merv ve Serahs'ı aldı	730	2
+sehir_tarihce_k12.js	multan	Multan	0712-10-07	Muhammed b. Kāsım Multan'ı fetheder, halkla anlaşır, cami yaptırır, Nâ	0712-06-20	Muhammed b. Kâsım'ın karşısında Sind Racası Dâhir öldü; Rûr (Arûr, Aro	-109	2
+sehir_tarihce_k12.js	multan	Multan	0983-06-14	Hudud: Multan hutbesi Fâtımî halifesi adına okunuyor (İsmâilî/Fâtımî h	0985-05-24	Makdisî Multan'da İsmâilî hâkimiyeti ve Fâtımî hutbesi gördü (375/985)	710	2
+sehir_tarihce_k12.js	multan	Multan	1006-01-01	Gazneli Mahmud Multan'ı yedi günlük kuşatmayla alır; Karmatî hâkim Ebü	1010-01-01	Gazneli Mahmud Mültan'ı yeniden aldı ve Sind'i tamamen ele geçirdi	1461	2
+sehir_tarihce_k12.js	nanking	Nanking (Nanjing)	0502-04-30	künye geçişi: Güney Qi → Liang; Xiao Yan güney kapıda tahta çıkar, Qi 	0501-04-14	Xiao Baorong (He Di) Jiangling'de Güney Qi imparatoru ilan edildi	-381	2
+sehir_tarihce_k12.js	nanking	Nanking (Nanjing)	0502-04-30	künye geçişi: Güney Qi → Liang; Xiao Yan güney kapıda tahta çıkar, Qi 	0502-04-20	Güney Qi son imparatoru He Di tahtı Xiao Yan'a devretti	-10	2
+sehir_tarihce_k12.js	nisabur	Nîşâbur	0900-03-18	Amr b. Leys İsmâil b. Ahmed'e esir düşer; Nîşâbur Sâmânîlere geçer (89	0898-02-19	Halife Mu'tazıd, Mâverâünnehir valiliğini İsmâil b. Ahmed'den alıp Amr	-760	2
+sehir_tarihce_k12.js	nisabur	Nîşâbur	1202-01-01	Alâeddin Muhammed b. Tekiş Nîşâbur'u kesin olarak Harezmşah toprakları	1204-01-01	Alâeddin Muhammed Nîşâbur, Merv ve Serahs'ı Gurlular'dan aldı	730	2
+sehir_tarihce_k12.js	nisabur	Nîşâbur	1202-01-01	Alâeddin Muhammed b. Tekiş Nîşâbur'u kesin olarak Harezmşah toprakları	1204-01-01	Alâeddin Muhammed Gurlular'dan Nîşâbur, Merv ve Serahs'ı aldı	730	2
+sehir_tarihce_k12.js	nizva	Nizva	0893-03-23	Abbâsîlerin Bahreyn valisi Muhammed b. Nûr Nizvâ'yı itaat altına alır.	0893-01-01	Abbâsî valisi Muhammed b. Nûr Nizvâ'yı ele geçirdi; Uman imamlığı sona	-83	2
+sehir_tarihce_k12.js	novgorod	Novgorod	1169-01-01	Andrey Bogolyubski'nin Novgorod kuşatması başarısız kalır.	1170-02-25	Novgorod, Andrey Bogolyubski'nin Suzdal önderliğindeki koalisyonunu şe	420	2
+sehir_tarihce_k12.js	osaka	Osaka	0645-01-01	Kōtoku, başkenti Naniwa'ya taşır; Naniwa-Nagara-Toyosaki sarayı yapılı	0646-01-01	Kōtoku sarayı Naniwa Nagara Toyosaki'ye taşıdı	365	4
+sehir_tarihce_k12.js	osaka	Osaka	0645-01-01	Kōtoku, başkenti Naniwa'ya taşır; Naniwa-Nagara-Toyosaki sarayı yapılı	0646-01-01	Naniwa Nagara Toyosaki başkenti: Yamato sarayı: Osaka sahibi yamato ol	365	4
+sehir_tarihce_k12.js	patna	Patna (Azîmâbâd)	-0183-01-01	Pushyamitra, son Maurya kralı Brihadratha'yı öldürür ve Pataliputra'da	-0186-01-01	Pushyamitra Sunga son Maurya kralı Brihadratha'yı devirdi: Pataliputra	-1096	4
+sehir_tarihce_k12.js	pskov	Pskov	1241-01-01	Livonya Tarikatı (Kılıç Kardeşleri/Töton) Pskov'u işgal eder (ESBE 124	1242-04-05	Peipus Gölü Savaşı (Buz Savaşı) — İskender Nevski Livonya Tarikatı'nı 	461	2
+sehir_tarihce_k12.js	semerkant	Semerkant	0711-10-19	Kuteybe b. Müslim Semerkant'ı kesin olarak fetheder, vergiye bağlar, c	0711-01-01	Kuteybe b. Müslim Semerkant’ı kesin biçimde fethetti (93/711)	-292	3
+sehir_tarihce_k12.js	semerkant	Semerkant	0735-01-31	Semerkant, Hâris b. Süreyc ayaklanmasında Türgişler'in yardımıyla Gûre	0735-01-01	Gûrek Türgişlerin yardımıyla Semerkant’ı geri aldı (117/735)	-30	2
+sehir_tarihce_k12.js	srinagar	Srinagar (Keşmir)	0631-01-01	Hiuen Tsiang Keşmir başkentini ziyaret eder: 'yeni şehir' bugünkü Srin	0627-01-01	Durlabha-vardhana Karkota Hanedanı'nı kurdu: Keşmir (Srinagar) Karkota	-1461	2
+sehir_tarihce_k12.js	stavropol-kafkas	Stavropol (Kafkas)	1777-11-02	Azov-Mozdok hattında 8 numaralı kale (sonra Stavropolskaya) atılır.	1777-01-01	Azak-Mozdok hattında Stavropol kalesi kuruldu	-305	2
+sehir_tarihce_k12.js	sultaniye	Sultâniye	1316-12-13	İlhanlı hükümdarı Olcaytu Sultâniye'de ölür; yaptırdığı türbeye defned	1314-05-11	Özbek Han İlhanlı hükümdarı Olcaytu'ya elçi gönderdi	-946	3
+sehir_tarihce_k12.js	tallinn	Tallinn (Reval)	1219-01-01	Danimarka Kralı II. Valdemar Lyndanise'de çıkarma yapar, eski Estonya 	1219-06-15	Lyndanise (Tallinn) Savaşı: II. Valdemar Kuzey Estonya'yı fethetti	166	2
+sehir_tarihce_k12.js	tallinn	Tallinn (Reval)	1238-01-01	Stensby anlaşması: Danimarka yerleşimi, kaleyi ve piskoposluğu geri al	1238-06-01	Stensby anlaşması: Töton Tarikatı Kuzey Estonya'yı (Reval) Danimarka K	152	3
+sehir_tarihce_k12.js	taskent	Taşkent	1059-02-17	Batı Karahanlı Tamgaç Han İbrâhim Şâş'ı zaptedip sikke basar (kısa; dö	1059-01-01	Batı Karahanlı Tamgaç Han İbrâhim Şâş'ı Doğu Karahanlılardan aldı	-46	3
+sehir_tarihce_k12.js	taskent	Taşkent	1059-02-17	Batı Karahanlı Tamgaç Han İbrâhim Şâş'ı zaptedip sikke basar (kısa; dö	1059-01-01	Tamgaç Han İbrâhim Şâş'ı Doğu Karahanlılardan aldı	-46	2
+sehir_tarihce_k12.js	taskent	Taşkent	1141-09-09	Katvân Savaşı: Karahıtaylar Sencer'i yener, Mâverâünnehir'i alır.	1141-01-01	Karahıtaylar Katvan'da Sencer'i yenip Mâverâünnehir'e (Şâş dahil) hâki	-252	4
+sehir_tarihce_k12.js	taskent	Taşkent	1141-09-09	Katvân Savaşı: Karahıtaylar Sencer'i yener, Mâverâünnehir'i alır.	1141-01-01	Katvan sonrası Karahıtaylar Taşkent'e (Mâverâünnehir) hâkim oldu	-252	2
+sehir_tarihce_k12.js	tiflis	Tiflis	1121-01-01	II. David Kıpçak yardımıyla Tiflis'teki Selçuklu hâkimiyetine son veri	1121-08-12	Didgori Savaşı — IV. David (Kurucu) büyük Selçuklu-Türkmen ordusunu ye	224	2
+sehir_tarihce_k12.js	tiflis	Tiflis	1121-01-01	II. David Kıpçak yardımıyla Tiflis'teki Selçuklu hâkimiyetine son veri	1118-01-01	IV. David 45.000 Kıpçak ailesini Gürcistan'a yerleştirmeye başladı	-1096	2
+sehir_tarihce_k12.js	tiflis	Tiflis	1227-04-01	Celâleddin Hârizmşah Tiflis'i ele geçirir; hâkimiyeti "kısa sürer" (bi	1227-01-01	Celâleddin Hârizmşah Tiflis'i fethetti	-91	2
+sehir_tarihce_k12.js	tiflis	Tiflis	1227-04-01	Celâleddin Hârizmşah Tiflis'i ele geçirir; hâkimiyeti "kısa sürer" (bi	1229-01-01	Celâleddin Hârizmşah Gürcü-Ermeni-Kıpçak müttefiklerini yenip yeniden 	639	2
+sehir_tarihce_k12.js	tiflis	Tiflis	1227-04-01	Celâleddin Hârizmşah Tiflis'i ele geçirir; hâkimiyeti "kısa sürer" (bi	1229-11-20	Celâleddin Hârizmşah Betak gölü yakınında Gürcü-Ermeni-Kıpçak ittifakı	963	2
+sehir_tarihce_k12.js	tiflis	Tiflis	1230-01-01	Celâleddin Hârizmşah Tiflis'i ikinci kez zapteder.	1227-01-01	Celâleddin Hârizmşah Tiflis'i fethetti	-1096	2
+sehir_tarihce_k12.js	tiflis	Tiflis	1230-01-01	Celâleddin Hârizmşah Tiflis'i ikinci kez zapteder.	1229-01-01	Celâleddin Hârizmşah Gürcü-Ermeni-Kıpçak müttefiklerini yenip yeniden 	-365	2
+sehir_tarihce_k12.js	tiflis	Tiflis	1230-01-01	Celâleddin Hârizmşah Tiflis'i ikinci kez zapteder.	1227-04-01	Celâleddin Hârizmşah Tiflis'i fethetti	-1004	2
+sehir_tarihce_k12.js	tiflis	Tiflis	1230-01-01	Celâleddin Hârizmşah Tiflis'i ikinci kez zapteder.	1229-11-20	Celâleddin Hârizmşah Betak gölü yakınında Gürcü-Ermeni-Kıpçak ittifakı	-42	2
+sehir_tarihce_k12.js	toledo	Toledo	1085-01-01	Yahyâ el-Kādir şehri teslim için VI. Alfonso ile gizli antlaşma yapar 	1085-05-08	Toledo Kastilya'ya teslim edildi; Zünnûnî Yahyâ el-Kādir Belensiye'ye 	129	3
+sehir_tarihce_k12.js	urmiye	Urmiye	1205-08-18	Atabeg Ebû Bekir Merâga'ya karşılık Uşnu ve Urmiye'yi Atabeg Alâeddin'	1205-01-01	Ahmedîlî Alâeddin Merâga'yı İldenizli Ebû Bekir'e bıraktı	-230	3
+sehir_tarihce_k12.js	urmiye	Urmiye	1207-07-28	Ahmedîlî Alâeddin Körpearslan ölür; Atabeg Ebû Bekir Merâga'nın kalan 	1205-01-01	Ahmedîlî Alâeddin Merâga'yı İldenizli Ebû Bekir'e bıraktı	-940	4
+sehir_tarihce_k12.js	xian	Xi'an (Chang'an)	0024-02-29	Gengshi imparatoru Liu Xuan Luoyang'dan Chang'an'a gelir, Changle Sara	0023-01-01	Luoyang, Xi'an (Chang'an): sahipsiz aralık → Gengshi Rejimi (Xuan Han 	-424	2
+sehir_tarihce_k12.js	xian	Xi'an (Chang'an)	0534-08-21	Kuzey Wei imparatoru Xiaowu Di Yuwen Tai'nin yanına Guanzhong'a kaçar;	0535-02-03	Xiaowu, Yuwen Tai tarafından öldürüldü (Batı Wei'nin zemini)	165	2
+sehir_tarihce_k12.js	xian	Xi'an (Chang'an)	0756-07-14	Xuanzong An Lushan isyanı sırasında Yanqiu kapısından Chang'an'dan kaç	0756-01-01	Chang’an An Lushan’ın eline geçti; Xuanzong Sichuan’a kaçtı	-196	2
+sehir_tarihce_k12.js	xian	Xi'an (Chang'an)	1260-05-05	künye geçişi: Moğol İmparatorluğu → Yuan (Kubilai Kaiping'de imparator	1260-01-01	Datong, Hamhung, Karakurum, Lin'an (Jianshui), Luoyang, Pekin (Hanbalı	-126	2
+sehir_tarihce_k12.js	yezd	Yezd	1030-01-09	Kâkûyî Alâüddevle Muhammed b. Rüstem Düşmenziyâr Yezd'i ele geçirip ke	1030-01-01	Kâkûyî Alâüddevle Yezd'i ele geçirip adına para bastırdı	-8	4
+sehir_tarihce_k12.js	yezd	Yezd	1141-08-06	Kâkûyî Gerşâsb Katvân savaşında ölür, erkek vâris bırakmaz; iki kızı Y	1141-01-01	Son Kâkûyî Katvân savaşında öldü; Yezd'de yerlerini Yezd Atabegleri al	-218	3
+sehir_tarihce_k12.js	zadar	Zadar (Zara)	1202-01-01	IV. Haçlı Seferi ordusuyla Doje Enrico Dandolo Zadar'ı alıp yıkar; Ven	1202-11-15	Zadar (Zara): venedik cumhuriyeti hâkimiyeti başladı (öncesi kaynakta 	318	2
+sehir_tarihce_k12.js	zadar	Zadar (Zara)	1202-01-01	IV. Haçlı Seferi ordusuyla Doje Enrico Dandolo Zadar'ı alıp yıkar; Ven	1202-11-15	Dördüncü Haçlı Seferi Zadar’ı (Zara) aldı ve yağmaladı	318	2
+sehir_tarihce_k12.js	zaporojye-seci	Zaporojye Seçi	1556-01-01	Prens Dmitri Vişnevetski Hortitsa adasında tahkimat kurar ve Kırım han	1558-01-01	Kırım Tatarları Hortitsa'daki ilk Seç'i kuşatıp yıktı	730	2
+sehir_tarihce_k12.js	zaragoza	Zaragoza	1039-09-23	Süleyman b. Hûd Sarakusta'yı zaptedip Hûdîler hânedanını kurar.	1039-01-01	Süleyman b. Hûd Sarakusta'yı (Zaragoza) Tücîbîler'den aldı: Hûdîler Ta	-266	2
+sehir_tarihce_k12.js	zaragoza	Zaragoza	1110-01-24	Hûdî emîri Ahmed el-Müstaîn ölür; hemen ardından Murâbıt ordusu Saraku	1110-01-01	Sarakusta halkı Murâbıtları davet etti: Hûdîlerin istiklâli sona erdi 	-23	2
+sehir_tarihce_k12.js	zaragoza	Zaragoza	1110-01-24	Hûdî emîri Ahmed el-Müstaîn ölür; hemen ardından Murâbıt ordusu Saraku	1110-01-01	Sarakusta (Zaragoza) Murâbıtlar'a geçti; Hûdî istiklâli sona erdi	-23	2
+sehir_tarihce_k3.js	bordeaux-fr	Bordeaux	0507-01-01	Vouillé zaferinden sonra Frank egemenliği (Clovis).	0508-01-01	Aquitania (Aquitania II): Vouillé sonrası Frank hâkimiyeti	365	2
+sehir_tarihce_k3.js	bordeaux-fr	Bordeaux	0843-01-01	künye geçişi: Verdun Antlaşması — Frank imparatorluğu bölünür, bölge B	0843-08-10	Aquitania: Verdun Antlaşması, Frank bütünlüğü bitti, şehirler beyanlı 	222	3
+sehir_tarihce_k3.js	bordeaux-fr	Bordeaux	1152-05-18	Aquitaine Düşesi Eleonore, Henry Plantagenet ile evlenir; dükalık ve P	1152-01-01	Henry (II) Aliénor'la evlenerek Poitou, Guyenne ve Gascogne'u kazanır	-139	2
+sehir_tarihce_k3.js	chengdu-cin	Çengdu (Chengdu)	0934-02-17	künye geçişi: Sonraki Tang → Sonraki Shu: Meng Zhixiang imparator olur	0934-03-16	Meng Zhixiang Chengdu'da imparator ilan etti: Sonraki Shu	29	3
+sehir_tarihce_k3.js	chengdu-cin	Çengdu (Chengdu)	0934-02-17	künye geçişi: Sonraki Tang → Sonraki Shu: Meng Zhixiang imparator olur	0934-03-16	Meng Zhixiang Chengdu'da imparator oldu; şehir Sonraki Shu'ya geçti	29	3
+sehir_tarihce_k3.js	esterabad-ir	Esterâbâd (Gürgân)	0981-07-07	Büveyhî Adudüddevle'nin kuvvetleri Cürcân'ı ve Esterâbâd'ı ele geçirir	0978-01-01	Bihistûn Esterâbâd'da öldü; Kâbûs b. Veşmgîr Ziyârî hükümdarı oldu	-1284	2
+sehir_tarihce_k3.js	gongju-kr	Kongcu (Gongju)	0475-11-14	Baekje başkentini Hanseong'dan Ungjin'e taşır.	0475-01-01	Baekje başkenti Hanseong'dan Ungjin'e (Gongju) taşıdı	-317	2
+sehir_tarihce_k3.js	gongju-kr	Kongcu (Gongju)	0934-10-30	Taejo Un-ju'da Gyeonhwon'u yener; Ungjin'in kuzeyindeki 30'dan fazla ş	0936-09-26	Ilicheon'da Goryeo, Hubaekje ordusunu yendi; Sin-geom teslim oldu, Tae	696	2
+sehir_tarihce_k3.js	graz-at	Graz	1282-01-01	Rudolf, Stiriya'yı diğer Avusturya ülkeleriyle birlikte oğullarına imp	1282-12-27	Augsburg'da Kral Rudolf oğulları Albrecht ve Rudolf'u Avusturya ve Sti	361	2
+sehir_tarihce_k3.js	gyeongju-kr	Kyongcu (Gyeongju)	0935-10-30	Kral Gyeongsun, Goryeo'ya teslim mektubu gönderir (resmî devir 12. ayd	0936-01-08	Silla Kralı Gyeongsun Goryeo'ya teslim oldu; Silla sona erdi	69	3
+sehir_tarihce_k3.js	hakata-jp	Hakata (Fukuoka)	0794-11-19	künye geçişi: Nara dönemi → Heian (Heian-kyō'ya taşınma).	0794-11-18	Heian-kyō'ya taşınma: Heian dönemi: Hakata (Fukuoka) sahibi heian-japo	-1	2
+sehir_tarihce_k3.js	hangzhou-cin	Hangzhou	0978-06-11	Wuyue kralı Qian Chu Liang-Zhe'yi (13 eyalet; başkent Hangzhou dahil) 	0978-06-09	Wuyue kralı Qian Chu Zhejiang vilayetlerini Song'a bıraktı	-2	2
+sehir_tarihce_k3.js	hartberg-at	Hartberg	1282-01-01	Rudolf, Stiriya'yı diğer Avusturya ülkeleriyle birlikte oğullarına imp	1282-12-27	Augsburg'da Kral Rudolf oğulları Albrecht ve Rudolf'u Avusturya ve Sti	361	2
+sehir_tarihce_k3.js	incheon-kr	İnçon (Incheon)	0553-07-26	Silla Baekje'nin kuzeydoğu sınırını alıp Sinju kurar (bölgesel).	0553-01-01	İnçon (Incheon): Baekje → Silla	-208	2
+sehir_tarihce_k3.js	jeonju-kr	Concu (Jeonju)	0936-09-19	künye geçişi: Hu-Baekje → Goryeo (Taejo Baekje başkentine girer).	0936-09-26	Iljecheon Savaşı: Goryeo Sonraki Baekje'yi yendi, Kore'yi birleştirdi	7	2
+sehir_tarihce_k3.js	jeonju-kr	Concu (Jeonju)	0936-09-19	künye geçişi: Hu-Baekje → Goryeo (Taejo Baekje başkentine girer).	0936-09-26	Concu (Jeonju): Sonraki Baekje (Hubaekje) → Goryeo	7	2
+sehir_tarihce_k3.js	kaifeng-cin	Kaifeng	0923-11-19	Sonraki Tang Kaifeng'e girer; komutan Wang Zan kapıyı açıp teslim olur	0923-11-18	Son Liang imparatoru Zhu Zhen öldü; Sonraki Liang sona erdi	-1	3
+sehir_tarihce_k3.js	luoyang-cin	Luoyang	0604-12-17	Yangdi fermanı: "成周墟塉，弗堪葺宇" — Luoyang yöresinde (İ-Luo) Doğu Başkent k	0605-04-10	Yangdi Luoyang'da Doğu Başkent'in (Dongjing) inşasını emretti	115	2
+sehir_tarihce_k3.js	luoyang-cin	Luoyang	0619-05-25	künye geçişi: Sui (Yue Wang Yang Tong) → Zheng. Wang Shichong Yang Ton	0621-06-04	Wang Shichong Luoyang'ı teslim etti; Zheng sona erdi	740	2
+sehir_tarihce_k3.js	luoyang-cin	Luoyang	0620-08-04	Tang Qin Wang Li Shimin'in Wang Shichong'a karşı seferi başlar (Dongdu	0621-01-01	Li Shimin Dou Jiande’yi yenip yakaladı; Wang Shichong teslim oldu	149	2
+sehir_tarihce_k3.js	luoyang-cin	Luoyang	0621-06-04	Wang Shichong Dongdu'yu teslim eder; Henan Tang'a geçer. [Çin takvimin	0621-01-01	Li Shimin Dou Jiande’yi yenip yakaladı; Wang Shichong teslim oldu	-155	2
+sehir_tarihce_k3.js	luoyang-cin	Luoyang	0923-11-19	Sonraki Tang Kaifeng'i alır (Liang biter); Luoyang valisi Zhang Quanyi	0925-12-08	Sonraki Tang Sichuan’ı fethetti; Wang Yan Chengdu’da teslim oldu, Önce	750	2
+sehir_tarihce_k3.js	luoyang-cin	Luoyang	0923-11-19	Zhang Quanyi (Liang'ın Henan Yin'i) Luoyang'dan gelip Sonraki Tang imp	0925-12-08	Sonraki Tang Sichuan’ı fethetti; Wang Yan Chengdu’da teslim oldu, Önce	750	2
+sehir_tarihce_k3.js	luoyang-cin	Luoyang	0924-01-09	Zhang Quanyi'nin önerisiyle Sonraki Tang başkenti Luoyang'a taşınır; Z	0924-01-03	Zhuangzong Luoyang’a girdi; Tang başkenti Luoyang oldu	-6	2
+sehir_tarihce_k3.js	luoyang-cin	Luoyang	1260-05-05	künye geçişi: Moğol İmparatorluğu → Yuan (Kubilai Kaiping'de imparator	1260-01-01	Datong, Hamhung, Karakurum, Lin'an (Jianshui), Luoyang, Pekin (Hanbalı	-126	2
+sehir_tarihce_k3.js	metz-fr	Metz	0843-01-01	Verdun Antlaşması (843): Frank mirasının üç oğul arasında bölünmesi; k	0843-08-10	Gallia Belgica: Verdun Antlaşması, Frank bütünlüğü bitti, şehirler bey	222	3
+sehir_tarihce_k3.js	perigueux-fr	Périgueux	0507-01-01	Vouillé: Aquitania Frank'a geçer.	0508-01-01	Aquitania (Aquitania II): Vouillé sonrası Frank hâkimiyeti	365	3
+sehir_tarihce_k3.js	perigueux-fr	Périgueux	0843-01-01	künye geçişi: Verdun Antlaşması — Frank imparatorluğu bölünür, bölge B	0843-08-10	Aquitania: Verdun Antlaşması, Frank bütünlüğü bitti, şehirler beyanlı 	222	3
+sehir_tarihce_k3.js	poitiers-fr	Poitiers	0507-01-01	Vouillé Muharebesi: Clovis Vizigot II. Alaric'i yener; Aquitania Frank	0508-01-01	Aquitania (Aquitania II): Vouillé sonrası Frank hâkimiyeti	365	3
+sehir_tarihce_k3.js	poitiers-fr	Poitiers	0843-01-01	künye geçişi: Verdun Antlaşması — Frank imparatorluğu bölünür, bölge B	0843-08-10	Aquitania: Verdun Antlaşması, Frank bütünlüğü bitti, şehirler beyanlı 	222	3
+sehir_tarihce_k3.js	poitiers-fr	Poitiers	1152-05-18	Aquitaine Düşesi Eleonore, Henry Plantagenet ile evlenir; dükalık ve P	1152-01-01	Henry Plantagenet, Akitanya düşesi Aliénor ile evlenir; Akitanya Angev	-139	4
+sehir_tarihce_k3.js	rouen-fr	Rouen	1204-01-01	Philippe Auguste Rouen'i ve Normandiya'yı alır: Anglo-Norman dönem bit	1204-06-24	Rouen kırk günlük direnişten sonra Philippe Auguste'e teslim olur	175	2
+sehir_tarihce_k3.js	serahs-ir	Serahs	1040-01-01	Dandanakan Savaşı: Horasan bütünüyle Selçuklu toprağı olur	1040-05-23	Dandanakan Savaşı: Selçuklular Gazneli ordusunu bozguna uğrattı; Horas	144	3
+sehir_tarihce_k3.js	sicilmase-ma	Sicilmâse (Tâfilelt)	0909-08-26	Ebû Abdullah eş-Şiî Sicilmâse'yi işgal edip Ubeydullah el-Mehdî'yi hap	0905-08-01	Ubeydullah el-Mehdî tâcir kılığında Sicilmâse'ye ulaştı; II. Elyesa' o	-1486	2
+sehir_tarihce_k3.js	sicilmase-ma	Sicilmâse (Tâfilelt)	0909-08-26	Ebû Abdullah eş-Şiî Sicilmâse'yi işgal edip Ubeydullah el-Mehdî'yi hap	0910-08-01	Midrârîler Fâtımî valisini ve muhafızlarını öldürüp Sicilmâse'ye yenid	340	4
+sehir_tarihce_k3.js	sicilmase-ma	Sicilmâse (Tâfilelt)	0976-08-30	Mağrâve emiri Hazrûn b. Fülfûl Sicilmâse'yi alıp Midrârî hânedanına so	0979-07-29	Hazrûn b. Fülfûl Bulukkîn tarafından öldürüldü; oğlu Vânüdîn Sicilmâse	1064	2
+sehir_tarihce_k3.js	sicilmase-ma	Sicilmâse (Tâfilelt)	1274-08-06	TDV: Merînîler Abdülvâdîler'in eline geçen Sicilmâse'yi geri alır (673	1274-01-01	Merînîler Sicilmâse'yi Abdülvâdîler'den geri alıp Mağrib-i Aksâ'nın ta	-218	2
+sehir_tarihce_k3.js	taiyuan-cin	Taiyuan	1260-05-05	künye geçişi: Moğol İmparatorluğu → Yuan (Kubilai Kaiping'de imparator	1260-01-01	Datong, Hamhung, Karakurum, Lin'an (Jianshui), Luoyang, Pekin (Hanbalı	-126	2
+sehir_tarihce_k3.js	tanca-ma	Tanca	1077-07-25	Murâbıt hükümdarı Yûsuf b. Tâşfîn Tanca'yı ele geçirir (limanı Zellâka	1077-01-01	Yûsuf b. Tâşfîn, Mağrib-i Aksâ'nın sahil şehri Tanca'yı ele geçirdi	-207	2
+sehir_tarihce_k3.js	tournai-be	Tournai	0482-01-01	Frank kralı I. Childeric Tournai'de ölür (mezarı bulundu).	0481-01-01	Clovis Salian Franklarının kralı oldu: Maastricht, Nijmegen, Utrecht v	-365	2
+sehir_tarihce_k3.js	tournai-be	Tournai	0482-01-01	Frank kralı I. Childeric Tournai'de ölür (mezarı bulundu).	0481-01-01	Clovis, babası Childeric'in yerine Salian Franklarının kralı oldu; ikt	-365	2
+sehir_tarihce_k3.js	tus-ir	Tûs	1157-02-13	Sencer'in ölümü; Büyük Selçuklu Devleti'nin Horasan'daki hâkimiyeti so	1157-01-01	Artvin, Tûs, Zerenc (Sîstan): büyük selçuklu devleti hâkimiyeti sona e	-42	4
+sehir_tarihce_k3.js	utrecht-nl	Utrecht	0695-01-01	Willibrord Frizya başpiskoposu atanır ve Utrecht'i merkez yapar.	0695-11-22	Willibrord Frizyalıların başpiskoposu oldu — Utrecht piskoposluğunun t	325	2
+sehir_tarihce_k3.js	utrecht-nl	Utrecht	1122-01-01	Piskopos Godebald yurttaşlara ilk ayrıcalıkları verir; İmparator V. He	1125-05-23	İmparator V. Heinrich Utrecht'te öldü	1239	2
+sehir_tarihce_k3.js	vodina-edessa-gr	Vodina (Edessa)	-0145-01-01	Makedonya Roma eyaleti olur.	-0147-01-01	Makedonya eyaleti: Serez, Kavala, Manastır, Ohri, Karaferye (Veria), V	-730	2
+sehir_tarihce_k3.js	zhengding-cin	Zhengding	0921-10-04	Zhang Wenli'nin oğlu Chuqiu Dongyuan geçidinde Jin ordusuna saldırır; 	0921-02-11	Zhang Wenli Zhao Prensi Wang Rong’u öldürüp Zhenzhou’yu ele geçirdi	-237	2
+sehir_tarihce_k3.js	zhengding-cin	Zhengding	0921-10-04	Zhang Wenli'nin oğlu Chuqiu Dongyuan geçidinde Jin ordusuna saldırır; 	0921-02-11	Zhengding: Zhang Wenli Wang Rong’u öldürüp Zhenzhou’yu ele geçirdi; Zh	-237	2
+sehir_tarihce_k3_g1.js	aleppo	Aleppo	0962-02-09	Nikephoros Phokas Halep'i ele geçirip bir hafta yağmaladı (kısa işgal;	0962-12-01	Nikephoros Phokas Halep'i istilâ edip tahrip etti (Zilkade 351 / Aralı	296	2
+sehir_tarihce_k3_g1.js	aleppo	Aleppo	1004-01-01	Hâcib Lü’lü’ Hamdânî Halep koluna son verip idareyi tek başına aldı	1002-01-01	Hâcib Lü'lü' Hamdânî emîri Saîdüddevle'yi zehirleyerek yönetimi ele ge	-730	2
+sehir_tarihce_k3_g1.js	aleppo	Aleppo	1038-01-01	Fâtımî kumandanı Anuş Tegin ed-Dizberî Halep'e girdi	1038-05-09	Nasr b. Sâlih öldürüldü; Fâtımî ordusu Halep'e girdi	130	2
+sehir_tarihce_k3_g1.js	aleppo	Aleppo	1080-01-01	Ukaylî Şerefüddevle Müslim b. Kureyş Halep'e girip Mirdâsî hânedanına 	1079-05-05	Tutuş ve Ukaylî Müslim Halep'i kuşattı	-239	2
+sehir_tarihce_k3_g1.js	aleppo	Aleppo	1080-01-01	Ukaylî Şerefüddevle Müslim b. Kureyş Halep'e girip Mirdâsî hânedanına 	1080-06-18	Ukaylî Müslim b. Kureyş Halep'e girdi; Mirdâsî hâkimiyeti sona erdi (i	169	4
+sehir_tarihce_k3_g1.js	aleppo	Aleppo	1080-01-01	Ukaylî Şerefüddevle Müslim b. Kureyş Halep'e girip Mirdâsî hânedanına 	1080-10-01	Müslim b. Kureyş Halep iç kalesini alıp Mirdâsîler'in hâkimiyetine son	274	3
+sehir_tarihce_k3_g1.js	aleppo	Aleppo	1085-06-20	Şerefüddevle Müslim Süleyman Şah'a yenilip öldü; şehir Şerif el-Huteyt	1086-06-04	Süleyman Şah Halep yakınında Aynüseylem'de Tutuş'a yenilip öldü	349	2
+sehir_tarihce_k3_g1.js	aleppo	Aleppo	1085-06-20	Şerefüddevle Müslim Süleyman Şah'a yenilip öldü; şehir Şerif el-Huteyt	1086-06-04	Süleyman b. Kutalmış Aynüseylem'de yenilip öldü; Antakya Anadolu Selçu	349	2
+sehir_tarihce_k3_g1.js	aleppo	Aleppo	1085-06-20	Şerefüddevle Müslim Süleyman Şah'a yenilip öldü; şehir Şerif el-Huteyt	1086-06-04	Aynüseylem Savaşı: Süleyman Şah Suriye Selçuklu hükümdarı Tutuş'a yeni	349	2
+sehir_tarihce_k3_g1.js	aleppo	Aleppo	1146-06-13	Zengî'nin ölümü; Halep oğlu Nûreddin Mahmud'a, Musul Seyfeddin Gazi'ye	1146-01-01	İmâdüddin Zengî Ca‘ber kuşatmasında öldürüldü; ülke bölündü, Nûreddin 	-164	5
+sehir_tarihce_k3_g1.js	aleppo	Aleppo	1183-06-12	Selâhaddin Halep'i II. İmâdüddin Zengî'den Sincar vb. karşılığında ald	1183-06-11	İmâdüddin Zengî Halep'i başka şehirler karşılığında Selâhaddin'e tesli	-1	4
+sehir_tarihce_k3_g1.js	aleppo	Aleppo	1186-03-24	el-Melikü'z-Zâhir Gāzî Halep'e yeniden tayin edildi; Halep Eyyûbî kolu	1186-01-01	el-Melikü'z-Zâhir Gāzî Halep'e tayin edildi; Halep Eyyûbî kolu başladı	-84	4
+sehir_tarihce_k3_g1.js	alexandria	Alexandria	0628-01-01	Bizans Mısır'ı Sâsânîler'den geri aldı	0629-01-01	Şehrbaraz İskenderiye'yi boşaltıp Kapadokya'ya çekildi; Mısır yeniden 	365	2
+sehir_tarihce_k3_g1.js	antioch	Antioch	-0063-01-01	Pompeius şehre girdi, Selevkos Devleti sona erdi; doğrudan Roma hâkimi	-0064-01-01	Pompeius Armenia kralı Tigranes’i yendikten sonra Suriye’ye geldi (MÖ 	-365	2
+sehir_tarihce_k3_g1.js	antioch	Antioch	0395-01-01	Künye geçişi: Theodosius I'in ölümüyle imparatorluk bölündü; Antiokhia	0395-01-17	Antakya Theodosius’un ölümüyle Doğu Roma (Arcadius) payına düştü	16	2
+sehir_tarihce_k3_g1.js	cairo	Cairo	0969-07-03	Cevher es-Sıkıllî Fustat'a girdi, Kahire'nin temellerini attı	0969-02-05	Muiz ordu teftişi yapıp Cevher es-Sıkıllî'yi Mısır seferinin başına at	-150	2
+sehir_tarihce_k3_g1.js	cairo	Cairo	0969-07-03	Cevher es-Sıkıllî Fustat'a girdi, Kahire'nin temellerini attı	0969-07-06	Cevher es-Sıkıllî Fustat'a girdi: Fâtımîler Mısır'ı İhşîdîler'den aldı	3	4
+sehir_tarihce_k3_g1.js	cairo	Cairo	0969-07-03	Cevher es-Sıkıllî Fustat'a girdi, Kahire'nin temellerini attı	0969-07-06	Cevher es-Sıkıllî Kâhire şehrinin temelini attı	3	2
+sehir_tarihce_k3_g1.js	cairo	Cairo	0969-07-03	Cevher es-Sıkıllî Fustat'a girdi, Kahire'nin temellerini attı	0969-07-01	Fâtımîler Mısır'ı aldı: Cevher es-Sıkıllî Fustat'a girdi, Kahire'nin t	-2	4
+sehir_tarihce_k3_g1.js	cairo	Cairo	0969-07-03	Cevher es-Sıkıllî Fustat'a girdi, Kahire'nin temellerini attı	0969-07-06	Kumandan Cevher es-Sıkıllî Fustat'a girerek Mısır'ı fethetti; İhşîdîle	3	3
+sehir_tarihce_k3_g1.js	damascus	Damascus	0750-04-01	Dımaşk Abbâsîler'in eline geçti	0750-04-26	Dımaşk Abbâsî kuvvetlerinin eline geçti	25	2
+sehir_tarihce_k3_g1.js	istanbul	İstanbul	-0511-01-01	Dareios Boğaz'a köprü kurdu; Byzantion tiranı Ariston İskit seferinde 	-0512-01-01	Dareios İstros'u (Tuna) aşıp İskit seferine çıktı; Trakya Pers satrapl	-365	2
+sehir_tarihce_k3_g1.js	jerusalem	Jerusalem	0638-01-23	Hz. Ömer Kudüs'ü Patrik Sophronios'tan antlaşmayla teslim aldı	0638-01-01	Hz. Ömer Kudüs’ü Patrik Sophronios’tan teslim aldı	-22	3
+sehir_tarihce_k3_g1.js	jerusalem	Jerusalem	1229-03-17	II. Friedrich el-Melikü'l-Kâmil ile antlaşma sonrası Kudüs'e girdi	1229-02-24	Sultan el-Kâmil, İmparator II. Friedrich ile yaptığı antlaşmayla Kudüs	-23	2
+sehir_tarihce_k3_g1.js	rome	Rome	-0389-01-01	Galyalılar Roma'yı Allia yenilgisinden sonra ele geçirip yaktı (Capito	-0388-01-01	Allia: Galyalılar Roma ordusunu yenip kenti yağmaladı	365	2
+sehir_tarihce_k3_g1.js	rome	Rome	-0026-01-01	Künye geçişi: Octavianus 'Augustus' adını aldı — Cumhuriyet'ten İmpara	-0026-01-16	Octavianus "Augustus" unvanını aldı: Principatus (imparatorluk) dönemi	15	2
+sehir_tarihce_k3_g1.js	rome	Rome	1083-07-01	IV. Heinrich'in Roma kuşatması VII. Gregorius'u Castel Sant'Angelo'ya 	1084-01-01	IV. Heinrich Roma'yı alıp taç giyer; Robert Guiscard papayı kurtarır	183	3
+sehir_tarihce_k3_g1.js	rome	Rome	1144-01-01	Roma Komünü kuruldu (Brescialı Arnaldo'nun vaazıyla; papalık egemenliğ	1143-01-01	Roma Komünü kuruldu: senato yenilendi (renovatio senatus), Papa'nın dü	-365	2
+sehir_tarihce_k3_g1.js	thessaloniki	Thessaloniki	-0315-01-01	Kassandros şehri karısı Thessalonike adına kurdu; çevredeki 26 kasaban	-0314-01-01	Kassandros Selanik'i kurdu	365	2
+sehir_tarihce_k3_g1.js	thessaloniki	Thessaloniki	-0147-01-01	Andriskos yenildi; Makedonya Roma eyaleti oldu	-0145-01-01	Makedonya Roma eyaleti oldu	730	2
+sehir_tarihce_k3_g1.js	thessaloniki	Thessaloniki	0904-01-01	Girit'ten gelen Arap donanması şehri aldı, on gün yağmalayıp çekildi (	0904-07-31	Girit donanması Selanik’i ele geçirip yağmaladı	213	2
+sehir_tarihce_k3_g2.js	cenova	Cenova	1098-01-01	Compagna communis kurulur: 18 aylık çekişmeden sonra 3 yıllık, 6 konsü	1099-01-01	Cenova'da Compagna Communis kuruldu: şehir komün yönetimine geçti	365	3
+sehir_tarihce_k3_g2.js	cenova	Cenova	1162-06-09	Barbarossa ile antlaşma: Cenova komününün özerkliğinin imparatorca tan	1162-01-01	Barbarossa ile antlaşma: Cenova'ya Riviera feodü tanındı	-160	2
+sehir_tarihce_k3_g2.js	paris	Paris	0843-01-01	Verdun: Karolenj İmparatorluğu üçe bölündü; künye geçişi Frank -> Batı	0843-08-10	Gallia Lugdunensis: Verdun Antlaşması, Frank bütünlüğü bitti, şehirler	222	2
+sehir_tarihce_k3_g2.js	prag	Praha	1257-01-01	Přemysl Ottokar II Malá Strana'yı (Küçük Şehir) Alman kolonistler için	1253-01-01	II. Přemysl Ottokar Bohemya tahtına çıktı	-1461	2
+sehir_tarihce_k3_g2.js	venedik	Venedik	0810-01-01	Kral Pipin'in Langobard ordusu Veneticorum eyaletini almak için lagüne	0814-01-01	Frank-Bizans antlaşması Venedik'in bağımsızlığını güvenceye aldı	1461	2
+sehir_tarihce_k3_g2.js	viyana	Wien	1156-09-18	Privilegium minus: Avusturya Markı Dukalığa yükseltildi, Bavyera'dan a	1156-09-17	Privilegium minus (Regensburg): Avusturya Markı dükalığa yükseltildi —	-1	6
+sehir_tarihce_k3_g2.js	viyana	Wien	1276-11-25	Rudolf I kuşatmasının sonu: Ottokar teslim oldu, Viyana ve Avusturya R	1276-11-21	Viyana Barışı: Bohemya kralı II. Ottokar Avusturya, Steiermark, Kärnte	-4	2
+sehir_tarihce_orta_asya.js	anapa-ru	Anapa	1792-01-10	Yaş Antlaşması ile Kafkasya'da eski sınırlar kabul edildiğinden Anapa 	1792-01-01	Yaş Antlaşması sonrası Osmanlı, Kırım Hanlığı'nı yeniden canlandırma f	-9	2
+sehir_tarihce_orta_asya.js	anapa-ru	Anapa	1829-01-01	Edirne Antlaşması ile Anapa ve Kafkasya Osmanlı hâkimiyetinden çıktı	1829-09-14	Edirne Antlaşması: Anapa ve Poti Rusya'ya bırakılır, Çerkez kıyısında 	257	3
+sehir_tarihce_orta_asya.js	andican-uz	Andican	1503-01-01	Bâbür'ün Şeybânî Han'a yenilip Taşkent'e çekilmesinden sonra Özbekler 	1504-01-01	Bâbür Fergana'yı Özbekler'e bırakıp Kâbil'e gitti	365	2
+sehir_tarihce_orta_asya.js	belh-af	Belh	0900-01-01	Amr b. Leys'in Sâmânîler'e esir düşmesiyle Belh onların eline geçti	0900-04-19	İsmâil b. Ahmed Belh yakınında Saffârî emîri Amr b. Leys'i yenip esir 	109	2
+sehir_tarihce_orta_asya.js	buhara-uz	Buhara	0992-03-09	Karahanlı Hârun Buğra Han Buhara'yı geçici olarak işgal etti	0992-01-01	Karahanlı Hârun Buğra Han Buhara'yı ele geçirdi	-69	3
+sehir_tarihce_orta_asya.js	buhara-uz	Buhara	0992-03-09	Karahanlı Hârun Buğra Han Buhara'yı geçici olarak işgal etti	0992-05-07	Hârun Buğra Han Sâmânî başşehri Buhara'ya girdi; emîr Nûh b. Mansûr şe	59	2
+sehir_tarihce_orta_asya.js	buhara-uz	Buhara	0992-03-09	Karahanlı Hârun Buğra Han Buhara'yı geçici olarak işgal etti	0992-05-07	Hârun Buğra Han Sâmânî başşehri Buhara'yı aldı; emîr şehri terk etti	59	2
+sehir_tarihce_orta_asya.js	buhara-uz	Buhara	0992-03-09	Karahanlı Hârun Buğra Han Buhara'yı geçici olarak işgal etti	0992-05-07	Karahanlı Hârun Buğra Han Buhara'yı ele geçirdi	59	3
+sehir_tarihce_orta_asya.js	buhara-uz	Buhara	0999-01-01	Karahanlı İlig Han Nasr b. Ali Buhara'yı alıp Sâmânî Devleti'ne son ve	0999-10-01	İlig Han Nasr Buhara'yı aldı, Sâmânî devleti fiilen sona erdi	274	2
+sehir_tarihce_orta_asya.js	buhara-uz	Buhara	0999-01-01	Karahanlı İlig Han Nasr b. Ali Buhara'yı alıp Sâmânî Devleti'ne son ve	0999-10-14	Karahanlı İlig Han Nasr Buhara'ya girdi; Sâmânî ailesi Özkent'e sürüld	287	2
+sehir_tarihce_orta_asya.js	buhara-uz	Buhara	1207-07-28	Hârizmşah Muhammed b. Tekiş Buhara'yı idaresine aldı	1207-01-01	Buhara Karahıtaylardan Hârizmşah Muhammed b. Tekiş’in idaresine girdi	-210	4
+sehir_tarihce_orta_asya.js	gazne-af	Gazne	0965-10-26	Ebû İshak İbrâhim Gazne'yi geri aldı (27 Şevval 354)	0963-01-30	Alp Tegin öldü; oğlu Ebû İshak İbrâhim Gazne'de geçti	-1000	2
+sehir_tarihce_orta_asya.js	gazne-af	Gazne	1117-01-01	Selçuklu Sencer Gazne'yi istilâ etti (1117 ve 1135'te iki defa)	1117-05-05	Behram Şah, Selçuklu Sencer'in desteğiyle Gazne tahtına çıktı	126	2
+sehir_tarihce_orta_asya.js	gazne-af	Gazne	1150-04-30	Gurlu Alâeddin Hüseyin Gazne'yi yaktı ve yıktı	1148-01-01	Gurlu Melik İzzeddin Hüseyin ve Seyfeddin Sûrî Gazneli sultanı Behram 	-851	2
+sehir_tarihce_orta_asya.js	hive-uz	Hîve	1920-04-26	Hârizm Halk Cumhuriyeti ilân edildi (Hîve Hanlığı'nın sonu)	1924-01-01	Hârizm Halk Cumhuriyeti'ne son verildi; topraklar Özbekistan, Türkmeni	1345	2
+sehir_tarihce_orta_asya.js	hive-uz	Hîve	1920-04-26	Hârizm Halk Cumhuriyeti ilân edildi (Hîve Hanlığı'nın sonu)	1921-09-05	Hârizm Sovyet Sosyalist Cumhuriyeti'ne dönüşüm	496	2
+sehir_tarihce_orta_asya.js	hive-uz	Hîve	1920-04-26	Hârizm Halk Cumhuriyeti ilân edildi (Hîve Hanlığı'nın sonu)	1924-01-01	Hârizm SSC ve Buhara Halk Sovyet Cumhuriyeti'nin millî sınırlandırmayl	1345	2
+sehir_tarihce_orta_asya.js	kasgar-cn	Kâşgar	1130-01-01	Karahıtaylar Kâşgar'ı Balasagun ve Hoten ile birlikte zaptetti (TDV: 1	1128-01-01	Arslan Han Ahmed b. Hasan Balasagun–Hoten–Kâşgar bölgesine giren Karah	-730	2
+sehir_tarihce_orta_asya.js	semerkant-uz	Semerkant	0711-10-19	Müslüman Araplar (Kuteybe b. Müslim) Semerkant'ı kesin biçimde fethett	0711-01-01	Kuteybe b. Müslim Semerkant’ı kesin biçimde fethetti (93/711)	-292	3
+sehir_tarihce_orta_asya.js	semerkant-uz	Semerkant	0992-03-09	Karahanlı Hârun Buğra Han Semerkant'ı kısa süre ele geçirdi	0992-01-01	Hârun Buğra Han Semerkant'ı aldı; Karahanlılar Mâverâünnehir'e ilk kez	-69	2
+sehir_tarihce_orta_asya.js	sudak-ua	Sudak (Suğdak)	1237-12-31	Anadolu Selçuklu Sultanı Alâeddin Keykubad zamanında (1220-1237) Hüsâm	1239-01-01	Sudak (Suğdak): anadolu (türkiye) selçuklu devleti hâkimiyeti sona erd	366	2
+sehir_tarihce_orta_asya.js	taskent-uz	Taşkent	1503-01-01	Özbek Şeybânî Han Taşkent'i aldı	1503-06-01	Şeybânî Muhammed Han Aksı'da Moğul Mahmud Han'ı yendi — Fergana ve Taş	152	2
+sehir_tarihce_osm.js	acre-akko	Acre ('Akko)	1191-01-01	III. Haçlı Seferi kuşatması sonunda müdafiler teslim oldu; şehir Henri	1191-07-11	III. Haçlı Seferi: Akkâ garnizonu şehri Haçlılara teslim etti	193	3
+sehir_tarihce_osm.js	acre-akko	Acre ('Akko)	1191-01-01	III. Haçlı Seferi kuşatması sonunda müdafiler teslim oldu; şehir Henri	1191-07-12	Akka, Üçüncü Haçlı Seferi kuvvetlerinin eline geçti (17 Cemâziyelâhir 	194	2
+sehir_tarihce_osm.js	aden	Aden	1110-07-20	Zürey‘îler Suleyhîler'e karşı bağımsızlıklarını ilân etti	1110-01-01	Aden Zürey‘îleri Suleyhîler'den bağımsızlıklarını ilân etti	-202	3
+sehir_tarihce_osm.js	al-karak	Al-Karak	1249-04-16	Dâvûd'un oğulları Kerek'i iktâlar karşılığında sultan es-Sâlih Eyyûb'a	1246-05-19	es-Sâlih Eyyûb Salt yakınında en-Nâsır'ı yendi; yalnız Kerek elinde ka	-1062	2
+sehir_tarihce_osm.js	aleppo	Aleppo	0962-02-09	Nikephoros Phokas Halep'i ele geçirip bir hafta yağmaladı (kısa işgal;	0962-12-01	Nikephoros Phokas Halep'i istilâ edip tahrip etti (Zilkade 351 / Aralı	296	2
+sehir_tarihce_osm.js	aleppo	Aleppo	1004-01-01	Hâcib Lü’lü’ Hamdânî Halep koluna son verip idareyi tek başına aldı	1002-01-01	Hâcib Lü'lü' Hamdânî emîri Saîdüddevle'yi zehirleyerek yönetimi ele ge	-730	2
+sehir_tarihce_osm.js	aleppo	Aleppo	1038-01-01	Fâtımî kumandanı Anuş Tegin ed-Dizberî Halep'e girdi	1038-05-09	Nasr b. Sâlih öldürüldü; Fâtımî ordusu Halep'e girdi	130	2
+sehir_tarihce_osm.js	aleppo	Aleppo	1080-01-01	Ukaylî Şerefüddevle Müslim b. Kureyş Halep'e girip Mirdâsî hânedanına 	1079-05-05	Tutuş ve Ukaylî Müslim Halep'i kuşattı	-239	2
+sehir_tarihce_osm.js	aleppo	Aleppo	1080-01-01	Ukaylî Şerefüddevle Müslim b. Kureyş Halep'e girip Mirdâsî hânedanına 	1080-06-18	Ukaylî Müslim b. Kureyş Halep'e girdi; Mirdâsî hâkimiyeti sona erdi (i	169	4
+sehir_tarihce_osm.js	aleppo	Aleppo	1080-01-01	Ukaylî Şerefüddevle Müslim b. Kureyş Halep'e girip Mirdâsî hânedanına 	1080-10-01	Müslim b. Kureyş Halep iç kalesini alıp Mirdâsîler'in hâkimiyetine son	274	3
+sehir_tarihce_osm.js	aleppo	Aleppo	1085-06-20	Şerefüddevle Müslim Süleyman Şah'a yenilip öldü; şehir Şerif el-Huteyt	1086-06-04	Süleyman Şah Halep yakınında Aynüseylem'de Tutuş'a yenilip öldü	349	2
+sehir_tarihce_osm.js	aleppo	Aleppo	1085-06-20	Şerefüddevle Müslim Süleyman Şah'a yenilip öldü; şehir Şerif el-Huteyt	1086-06-04	Süleyman b. Kutalmış Aynüseylem'de yenilip öldü; Antakya Anadolu Selçu	349	2
+sehir_tarihce_osm.js	aleppo	Aleppo	1085-06-20	Şerefüddevle Müslim Süleyman Şah'a yenilip öldü; şehir Şerif el-Huteyt	1086-06-04	Aynüseylem Savaşı: Süleyman Şah Suriye Selçuklu hükümdarı Tutuş'a yeni	349	2
+sehir_tarihce_osm.js	aleppo	Aleppo	1146-06-13	Zengî'nin ölümü; Halep oğlu Nûreddin Mahmud'a, Musul Seyfeddin Gazi'ye	1146-01-01	İmâdüddin Zengî Ca‘ber kuşatmasında öldürüldü; ülke bölündü, Nûreddin 	-164	5
+sehir_tarihce_osm.js	aleppo	Aleppo	1183-06-12	Selâhaddin Halep'i II. İmâdüddin Zengî'den Sincar vb. karşılığında ald	1183-06-11	İmâdüddin Zengî Halep'i başka şehirler karşılığında Selâhaddin'e tesli	-1	4
+sehir_tarihce_osm.js	aleppo	Aleppo	1186-03-24	el-Melikü'z-Zâhir Gāzî Halep'e yeniden tayin edildi; Halep Eyyûbî kolu	1186-01-01	el-Melikü'z-Zâhir Gāzî Halep'e tayin edildi; Halep Eyyûbî kolu başladı	-84	4
+sehir_tarihce_osm.js	alexandria	Alexandria	0628-01-01	Bizans Mısır'ı Sâsânîler'den geri aldı	0629-01-01	Şehrbaraz İskenderiye'yi boşaltıp Kapadokya'ya çekildi; Mısır yeniden 	365	2
+sehir_tarihce_osm.js	alexandria	Alexandria	1250-05-04	Turan Şah öldürüldü, Şecerüddür sultan; Mısır'da Memlûk dönemi başladı	1250-04-30	Mısır'da Memlük Devleti kuruldu — İskenderiye, Mansûre ve Feyyûm Memlü	-4	2
+sehir_tarihce_osm.js	algiers	Algiers	1184-04-14	Benî Gāniye Bicâye, Cezayir, Milyâne ve Tunus'u istilâ etti (kısa; dön	1184-01-01	Benî Gāniye Mağrib'e geçip Bicâye, Cezayir, Milyâne ve Tunus'u istilâ 	-104	5
+sehir_tarihce_osm.js	amasya	Amasya	-0062-01-01	Pompeius'un Pontus düzenlemesi: Amaseia Roma sınırlarına katıldı (önce	-0065-01-01	Pompeius Mithridates'i yendi; Pontus Roma'ya bağlandı	-1096	2
+sehir_tarihce_osm.js	amasya	Amasya	1243-07-01	Kösedağ yenilgisi; vezir Mühezzebüddin Ali Amasya'ya kaçtı, Moğollar'l	1243-01-01	Kösedağ'ın ardından Anadolu'yu işgal eden Moğollar Amasya'yı zaptedip 	-183	4
+sehir_tarihce_osm.js	antalya	Antalya	1207-03-05	I. Gıyâseddin Keyhusrev Antalya'yı fethetti; Mübârizüddin Ertokuş vali	1207-01-01	I. Keyhusrev Denizli ve Antalya yörelerini fethetti	-65	2
+sehir_tarihce_osm.js	asyut	Asyut	0868-01-01	Ahmed b. Tolun Mısır'a vali vekili olarak girdi; Tolunoğulları dönemi 	0868-09-15	Ahmed b. Tolun Mısır'a girdi: Mısır Abbâsî valiliğinden Tolunoğulları 	258	5
+sehir_tarihce_osm.js	asyut	Asyut	1250-05-04	Turan Şah öldürüldü, Şecerüddür sultan; Mısır'da Memlûk dönemi başladı	1250-04-30	Turan Şah öldürüldü: Mısır şehirleri Eyyûbîlerden Bahrî Memlûklere geç	-4	3
+sehir_tarihce_osm.js	baghdad	Baghdad	0945-12-19	Büveyhî Ahmed (Muizzüddevle) Bağdat'a girdi, emîrü'l-ümerâ oldu	0942-04-21	Hamdânî Nâsırüddevle Hasan emîrü'l-ümerâ oldu	-1337	2
+sehir_tarihce_osm.js	baghdad	Baghdad	1055-12-01	Tuğrul Bey Bağdat'a girdi; Büveyhî hâkimiyeti sona erdi	1055-12-21	Tuğrul Bey Bağdat'a girdi ve Irak'taki Büveyhî hâkimiyetine son verdi	20	3
+sehir_tarihce_osm.js	baghdad	Baghdad	1055-12-01	Tuğrul Bey Bağdat'a girdi; Büveyhî hâkimiyeti sona erdi	1055-12-18	Tuğrul Bey Bağdat'a girdi	17	2
+sehir_tarihce_osm.js	baghdad	Baghdad	1059-01-01	Besâsîrî Bağdat'a girip Fâtımî halifesi adına hutbe okuttu	1058-12-27	Besâsîrî Bağdat'ı işgal etti, halifeyi esir aldı ve hutbeyi Fâtımî hal	-4	5
+sehir_tarihce_osm.js	baghdad	Baghdad	1059-01-01	Besâsîrî Bağdat'a girip Fâtımî halifesi adına hutbe okuttu	1060-01-08	Tuğrul Bey halifeyi Bağdat'a geri getirdi; Fâtımî hutbesi okutan Besâs	372	2
+sehir_tarihce_osm.js	baghdad	Baghdad	1059-12-14	Besâsîrî Bağdat'ı terk etti; Selçuklu hâkimiyeti döndü	1060-01-08	Tuğrul Bey Besâsîrî işgalini sona erdirdi; Halife Kāim-Biemrillâh maka	24	2
+sehir_tarihce_osm.js	baghdad	Baghdad	1152-04-08	Sultan Mesud'un ölümü; Halife Muktefî Selçuklu nüfuzundan kurtuldu, Ba	1157-01-15	Irak Selçuklu Sultanı Muhammed b. Mahmûd Bağdat'ı kuşattı, halife dire	1742	2
+sehir_tarihce_osm.js	baghdad	Baghdad	1152-04-08	Sultan Mesud'un ölümü; Halife Muktefî Selçuklu nüfuzundan kurtuldu, Ba	1152-01-01	Sultan Mesud öldü; Halife Muktefî Irak'ta tek başına hâkim oldu, Hille	-98	4
+sehir_tarihce_osm.js	banha	Banha	0868-01-01	Ahmed b. Tolun Mısır'a vali vekili olarak girdi; Tolunoğulları dönemi 	0868-09-15	Ahmed b. Tolun Mısır'a girdi: Mısır Abbâsî valiliğinden Tolunoğulları 	258	5
+sehir_tarihce_osm.js	banha	Banha	1250-05-04	Turan Şah öldürüldü, Şecerüddür sultan; Mısır'da Memlûk dönemi başladı	1250-04-30	Turan Şah öldürüldü: Mısır şehirleri Eyyûbîlerden Bahrî Memlûklere geç	-4	3
+sehir_tarihce_osm.js	bejaia	Béjaïa	1184-04-14	Benî Gāniye Bicâye'yi istilâ etti (kısa; dönem açılmadı)	1184-01-01	Benî Gāniye Mağrib'e geçip Bicâye, Cezayir, Milyâne ve Tunus'u istilâ 	-104	2
+sehir_tarihce_osm.js	bejaia	Béjaïa	1230-11-09	Hafsî Ebû Zekeriyyâ Kosantîne ve Bicâye'yi zaptetti	1230-01-01	Ebû Zekeriyyâ Kosantîne ve Bicâye'yi zaptetti	-312	3
+sehir_tarihce_osm.js	berat	Berat	1280-01-01	Anjou (Sicilya) ordusu Hugues de Sully komutasında Bizans elindeki Ber	1281-01-01	Berat önünde Bizans ordusu Anjou kuşatmasını bozdu	365	3
+sehir_tarihce_osm.js	bitlis	Bitlis	1085-04-29	Selçuklu ordusu Bitlis'i Mervânîlerden aldı; Melikşah Dilmaçoğlu Mehme	1085-01-01	Bitlis Dilmaçoğlu Mehmed Bey'e iktâ edildi: Dilmaçoğulları Beyliği kur	-119	2
+sehir_tarihce_osm.js	cairo	Cairo	0969-07-03	Cevher es-Sıkıllî Fustat'a girdi, Kahire'nin temellerini attı	0969-02-05	Muiz ordu teftişi yapıp Cevher es-Sıkıllî'yi Mısır seferinin başına at	-150	2
+sehir_tarihce_osm.js	cairo	Cairo	0969-07-03	Cevher es-Sıkıllî Fustat'a girdi, Kahire'nin temellerini attı	0969-07-06	Cevher es-Sıkıllî Fustat'a girdi: Fâtımîler Mısır'ı İhşîdîler'den aldı	3	4
+sehir_tarihce_osm.js	cairo	Cairo	0969-07-03	Cevher es-Sıkıllî Fustat'a girdi, Kahire'nin temellerini attı	0969-07-06	Cevher es-Sıkıllî Kâhire şehrinin temelini attı	3	2
+sehir_tarihce_osm.js	cairo	Cairo	0969-07-03	Cevher es-Sıkıllî Fustat'a girdi, Kahire'nin temellerini attı	0969-07-01	Fâtımîler Mısır'ı aldı: Cevher es-Sıkıllî Fustat'a girdi, Kahire'nin t	-2	4
+sehir_tarihce_osm.js	cairo	Cairo	0969-07-03	Cevher es-Sıkıllî Fustat'a girdi, Kahire'nin temellerini attı	0969-07-06	Kumandan Cevher es-Sıkıllî Fustat'a girerek Mısır'ı fethetti; İhşîdîle	3	3
+sehir_tarihce_osm.js	cairo	Cairo	0972-06-23	Ezher Camii ibadete açıldı	0970-04-04	Ezher Camii'nin temeli atıldı	-810	2
+sehir_tarihce_osm.js	cairo	Cairo	1168-01-01	Kudüs Kralı I. Amaury'nin saldırısı; Fustat Vezir Şâver'in emriyle yak	1169-01-18	Nûreddin Zengî'nin gönderdiği Şîrkûh Kahire'ye girdi, Şâver idam edild	382	2
+sehir_tarihce_osm.js	cairo	Cairo	1171-09-13	Selâhaddin Fâtımî hilâfetine son verip Abbâsî adına hutbe okuttu	1169-03-26	Şîrkûh'un ölümünden sonra Âdıd, Selâhaddin'i vezir atadı; Fâtımî yönet	-900	2
+sehir_tarihce_osm.js	constantine	Constantine	-0202-01-01	Syphax esir düştü; Masinissa Syphax'ın başşehri Cirta'ya girdi	-0200-01-01	Roma Masinissa'yı Syphax'ın krallığıyla ödüllendirdi	730	2
+sehir_tarihce_osm.js	constantine	Constantine	1230-11-09	Hafsî Ebû Zekeriyyâ Kostantîne ve Bicâye'yi zaptetti	1230-01-01	Ebû Zekeriyyâ Kosantîne ve Bicâye'yi zaptetti	-312	3
+sehir_tarihce_osm.js	damanhur	Damanhur	0868-01-01	Ahmed b. Tolun Mısır'a geldi; Tolunoğulları dönemi	0868-09-15	Ahmed b. Tolun Mısır'a girdi: Mısır Abbâsî valiliğinden Tolunoğulları 	258	4
+sehir_tarihce_osm.js	damanhur	Damanhur	0905-01-01	Abbâsî ordusu Fustat'a girdi; Tolunoğulları sona erdi	0905-01-11	Abbâsî ordusu Fustat'a girdi: Tolunoğulları sona erdi, Mısır yeniden A	10	5
+sehir_tarihce_osm.js	damanhur	Damanhur	0935-08-01	Muhammed b. Tuğç Mısır valisi; İhşîdîler dönemi	0935-08-04	Muhammed b. Tuğç Mısır'da İhşîdî yönetimini kurdu (Ramazan 323) — Asyu	3	2
+sehir_tarihce_osm.js	damanhur	Damanhur	1171-09-04	Selâhaddîn-i Eyyûbî Fâtımî Devleti'ni kaldırdı	1171-09-13	Selâhaddîn Fâtımî hilâfetini kaldırdı: Mısır şehirleri Eyyûbî hâkimiye	9	4
+sehir_tarihce_osm.js	damascus	Damascus	0750-04-01	Dımaşk Abbâsîler'in eline geçti	0750-04-26	Dımaşk Abbâsî kuvvetlerinin eline geçti	25	2
+sehir_tarihce_osm.js	damascus	Damascus	1148-07-24	II. Haçlı Seferi Dımaşk kuşatması başarısız	1148-05-22	II. Haçlı Seferi ordusu Dımaşk'ı kuşattı ve çekildi	-63	2
+sehir_tarihce_osm.js	damascus	Damascus	1245-01-01	el-Melikü's-Sâlih Eyyûb'un kuvvetleri Dımaşk'ı zaptetti	1240-06-17	es-Sâlih Eyyûb Mısır sultanı oldu	-1658	2
+sehir_tarihce_osm.js	damascus	Damascus	1250-04-30	Turan Şah öldürüldü; Halep Eyyûbîsi en-Nâsır Yûsuf Dımaşk'a hâkim oldu	1250-04-05	Halep'in el-Melikü'n-Nâsır Yûsuf'u Dımaşk'a hâkim oldu	-25	4
+sehir_tarihce_osm.js	damascus	Damascus	1250-04-30	Turan Şah öldürüldü; Halep Eyyûbîsi en-Nâsır Yûsuf Dımaşk'a hâkim oldu	1250-01-01	Memlüklerin Turan Şah'ı öldürmesinin ardından Şam emirlerinin daveti ü	-120	4
+sehir_tarihce_osm.js	damietta	Damietta	1219-11-05	V. Haçlı Seferi Dimyat'ı aldı	1221-08-29	Haçlılar Dimyat'ı boşalttı; V. Haçlı Seferi sona erdi	663	2
+sehir_tarihce_osm.js	debar	Debar	1283-01-01	Sırp Kralı Milutin Debre'yi ele geçirdi	1284-01-01	Sırp Kralı Milutin Debre, Kırçova ve Porečie bölgelerini ele geçirdi	365	3
+sehir_tarihce_osm.js	diyarbakir	Diyarbakır	1183-04-26	Selâhaddîn-i Eyyûbî Âmid'i aldı, Hısnıkeyfâ Artuklu Nûreddin Muhammed'	1183-04-29	Selâhaddin Âmid'i alıp Artuklu Nûreddin Muhammed'e verdi	3	5
+sehir_tarihce_osm.js	diyarbakir	Diyarbakır	1232-10-18	Eyyûbî el-Melikü'l-Kâmil Âmid'i kuşatıp aldı	1232-10-01	Eyyûbî el-Melikü'l-Kâmil Âmid'i aldı	-17	3
+sehir_tarihce_osm.js	diyarbakir	Diyarbakır	1240-07-23	II. Gıyâseddin Keyhusrev Âmid'i zaptetti	1240-01-01	II. Gıyâseddin Keyhusrev Âmid'i zaptetti	-205	3
+sehir_tarihce_osm.js	durres	Durrës	1082-01-01	Dyrrachion Norman Robert Guiscard'a kapılarını açtı	1081-01-01	Robert Guiscard Bizans'a karşı Arnavutluk kıyısına çıkar	-365	2
+sehir_tarihce_osm.js	durres	Durrës	1085-01-01	Robert Guiscard'ın ölümüyle Norman istilâsı sona erdi, Dyrrachion Biza	1081-01-01	Robert Guiscard Bizans'a karşı Arnavutluk kıyısına çıkar	-1461	3
+sehir_tarihce_osm.js	edirne	Edirne	0378-08-09	Edirne Savaşı: Valens Gotlar'a yenildi	0378-01-01	Adrianopolis Muharebesi: Gotlar Valens'i yendi, imparator öldü	-221	2
+sehir_tarihce_osm.js	edirne	Edirne	1204-05-16	Latin İmparatoru Baudouin'in kardeşi Henri Edirne'de bağlılık aldı; ga	1205-04-15	Edirne Savaşı: Kaloyan Latin İmparatoru Baudouin’i yendi ve esir aldı	334	3
+sehir_tarihce_osm.js	faiyum	Faiyum	0868-01-01	Ahmed b. Tolun Mısır'da; Tolunoğulları dönemi	0868-09-15	Ahmed b. Tolun Mısır'a girdi: Mısır Abbâsî valiliğinden Tolunoğulları 	258	4
+sehir_tarihce_osm.js	fes	Fès	0925-03-29	Haccâm'ın vekili şehri Fâtımîler'e teslim etti; Fas Fâtımî valisi Mûsâ	0922-05-01	Haccâm Hasan b. Muhammed Fâtımî valisini kovup tahtı geri aldı (310, 9	-1063	2
+sehir_tarihce_osm.js	fes	Fès	0985-01-01	Zîrî b. Atıyye, Fas yakınında Mansûr b. Bulukkîn'in ordusunu ağır yeni	0985-05-24	Zîrî b. Atıyye Fas yakınında Mansûr b. Bulukkîn'in ordusunu bozguna uğ	145	6
+sehir_tarihce_osm.js	fes	Fès	0985-01-01	Zîrî b. Atıyye, Fas yakınında Mansûr b. Bulukkîn'in ordusunu ağır yeni	0987-05-03	Zîrî b. Atıyye el-Mansûr tarafından Fas valiliğine atandı	854	2
+sehir_tarihce_osm.js	fes	Fès	0987-01-01	Hâcib el-Mansûr, Zîrî b. Atıyye'yi Fas valiliğine tayin etti	0985-05-24	Zîrî b. Atıyye Fas yakınında Mansûr b. Bulukkîn'in ordusunu bozguna uğ	-586	2
+sehir_tarihce_osm.js	fes	Fès	0987-01-01	Hâcib el-Mansûr, Zîrî b. Atıyye'yi Fas valiliğine tayin etti	0987-05-03	Zîrî b. Atıyye el-Mansûr tarafından Fas valiliğine atandı	124	3
+sehir_tarihce_osm.js	fes	Fès	0992-01-01	Zîrî Kurtuba'dayken Fâtımî valisi Yeddû b. Ya‘lâ (Benî İfren) Fas'ı iş	0993-01-01	Zîrî b. Atıyye Fâtımî valisi Yeddû b. Ya'lâ'yı yenip Fas'ı geri alır; 	365	3
+sehir_tarihce_osm.js	fes	Fès	0993-02-26	Zîrî b. Atıyye Fas'ı geri aldı, Vecde'yi kurup bağımsızlığını ilân ett	0993-01-01	Zîrî b. Atıyye Fâtımî valisi Yeddû b. Ya'lâ'yı yenip Fas'ı geri alır; 	-55	2
+sehir_tarihce_osm.js	fes	Fès	1037-01-01	Hamâme b. Muiz Benî İfren'den Temîm'i Fas'tan çıkardı ('dört yıl sonra	1033-01-01	Benî İfren, Fas şehrini Hamâme b. Muiz'den alır.	-1461	2
+sehir_tarihce_osm.js	fes	Fès	1146-06-13	Fas Muvahhidler'in hâkimiyetine geçti	1146-06-12	Fas şehri Murâbıtlar'dan Muvahhidler'in hâkimiyetine geçti	-1	3
+sehir_tarihce_osm.js	fes	Fès	1248-01-01	Merînî Ebû Yahyâ Fas'ı Muvahhidler'den aldı (atlas dikişi)	1250-04-05	Merînîler Fas şehrini Muvahhidler’den aldı — Fas Merînî idaresine geçt	826	2
+sehir_tarihce_osm.js	gelibolu	Gelibolu	1204-04-13	IV. Haçlı Seferi İstanbul'u aldı; Gelibolu Latinlerin idaresine girdi	1204-01-01	Gelibolu Latinler’in idaresine girdi	-103	2
+sehir_tarihce_osm.js	hama	Hama	-0608-01-01	Yeni Asur'un çöküşü (Harran); Suriye'de Mısır egemenliği	-0604-01-01	Karkamış Savaşı: Nabukadnezar Mısır ordusunu yendi; Mısır Suriye'yi ka	1461	2
+sehir_tarihce_osm.js	hama	Hama	1174-10-12	Selâhaddîn-i Eyyûbî Suriye'ye geçti ve Hama'yı kolaylıkla ele geçirdi	1174-08-02	Selâhaddin Eyyûbî Hama'yı Zengîler'den aldı	-71	2
+sehir_tarihce_osm.js	hama	Hama	1174-10-12	Selâhaddîn-i Eyyûbî Suriye'ye geçti ve Hama'yı kolaylıkla ele geçirdi	1178-01-01	Selâhaddin Hama'yı yeğeni el-Melikü'l-Muzaffer Ömer'e bıraktı; Hama Ey	1176	2
+sehir_tarihce_osm.js	hama	Hama	1178-01-01	Selâhaddin Hama'yı yeğeni el-Melikü'l-Muzaffer Takıyyüddin Ömer'e bıra	1174-08-02	Selâhaddin Eyyûbî Hama'yı Zengîler'den aldı	-1247	2
+sehir_tarihce_osm.js	hillah	Hillah	1147-06-02	Sultan Mesud'a bağlı birlikler Ali'yi Hille'den çıkardı; Ali aynı yıl 	1150-01-01	Sultan Mesud Hille'yi Sâlârkerd'e verdi	943	2
+sehir_tarihce_osm.js	hillah	Hillah	1147-06-02	Sultan Mesud'a bağlı birlikler Ali'yi Hille'den çıkardı; Ali aynı yıl 	1152-01-01	Sultan Mesud öldü; Halife Muktefî Irak'ta tek başına hâkim oldu, Hille	1673	2
+sehir_tarihce_osm.js	hillah	Hillah	1149-05-11	II. Ali Sultan Mesud'a itaat arzetti	1150-01-01	Sultan Mesud Hille'yi Sâlârkerd'e verdi	233	2
+sehir_tarihce_osm.js	hillah	Hillah	1149-05-11	II. Ali Sultan Mesud'a itaat arzetti	1152-01-01	Sultan Mesud öldü; Halife Muktefî Irak'ta tek başına hâkim oldu, Hille	964	2
+sehir_tarihce_osm.js	hillah	Hillah	1150-04-30	II. Ali'nin ölümü; Sultan Mesud Hille'yi kumandanı Sâlârkerd'e verdi	1150-01-01	Sultan Mesud Hille'yi Sâlârkerd'e verdi	-120	4
+sehir_tarihce_osm.js	hillah	Hillah	1150-04-30	II. Ali'nin ölümü; Sultan Mesud Hille'yi kumandanı Sâlârkerd'e verdi	1152-01-01	Sultan Mesud öldü; Halife Muktefî Irak'ta tek başına hâkim oldu, Hille	610	2
+sehir_tarihce_osm.js	hillah	Hillah	1152-04-08	Sultan Mesud'un ölümü; Bağdat şahnesi Mesud Bilâl'i halife Muktefî'nin	1150-01-01	Sultan Mesud Hille'yi Sâlârkerd'e verdi	-829	2
+sehir_tarihce_osm.js	hillah	Hillah	1152-04-08	Sultan Mesud'un ölümü; Bağdat şahnesi Mesud Bilâl'i halife Muktefî'nin	1152-01-01	Sultan Mesud öldü; Halife Muktefî Irak'ta tek başına hâkim oldu, Hille	-98	4
+sehir_tarihce_osm.js	hofuf	Hofuf	1069-10-20	Abdullah b. Ali el-Uyûnî Karmatîleri Lahsâ şehrinde sıkıştırdı; yedi y	1069-01-01	Abdullah b. Ali el-Uyûnî Karmatîler'i yenip Lahsâ'yı kuşatmaya başladı	-293	2
+sehir_tarihce_osm.js	hofuf	Hofuf	1076-08-05	Uyûnîler Lahsâ şehrini aldı; Karmatî hâkimiyeti kesin olarak sona erdi	1076-01-01	Lahsâ Uyûnîler'e düştü, Bahreyn Karmatî devleti sona erdi	-217	2
+sehir_tarihce_osm.js	ioannina	Ioannina	1204-04-13	künye geçişi: IV. Haçlı Seferi sonrası Epir Despotluğu kuruldu, merkez	1204-01-01	Mikael Angelos Epiros Despotluğu’nu kurdu; Yanya merkez oldu	-103	2
+sehir_tarihce_osm.js	istanbul	İstanbul	-0511-01-01	Dareios Boğaz'a köprü kurdu; Byzantion tiranı Ariston İskit seferinde 	-0512-01-01	Dareios İstros'u (Tuna) aşıp İskit seferine çıktı; Trakya Pers satrapl	-365	2
+sehir_tarihce_osm.js	izmit	İzmit	-0261-01-01	Bitinya kralı I. Nikomedes Nikomedeia'yı kurdu, başşehir yaptı (Astako	-0263-01-01	I. Nikomedes Nikomedeia'yı (İzmit) kurdu	-730	2
+sehir_tarihce_osm.js	jerusalem	Jerusalem	0638-01-23	Hz. Ömer Kudüs'ü Patrik Sophronios'tan antlaşmayla teslim aldı	0638-01-01	Hz. Ömer Kudüs’ü Patrik Sophronios’tan teslim aldı	-22	3
+sehir_tarihce_osm.js	jerusalem	Jerusalem	1229-03-17	II. Friedrich el-Melikü'l-Kâmil ile antlaşma sonrası Kudüs'e girdi	1229-02-24	Sultan el-Kâmil, İmparator II. Friedrich ile yaptığı antlaşmayla Kudüs	-23	2
+sehir_tarihce_osm.js	kabul	Kabul	0697-01-01	Haccâc'ın gönderdiği İbn Ebû Bekre'nin Kâbil seferi ağır kayıpla başar	0697-03-30	Haccâc'ın gönderdiği İbn Ebû Bekre başarısız oldu (78/697); Kâbil ve Z	90	4
+sehir_tarihce_osm.js	kahramanmaras	Kahramanmaraş	1208-07-16	I. Gıyâseddin Keyhusrev Maraş'ı tekrar Selçuklu topraklarına kattı; Hü	1208-01-01	I. Gıyâseddin Keyhusrev Maraş'ı tekrar Selçuklu'ya kattı	-198	5
+sehir_tarihce_osm.js	kastamonu	Kastamonu	1135-01-01	II. Ioannes Komnenos Kastamonu ve Çankırı'yı işgal etti; Bizans çekili	1132-01-01	Emîr Gazi, Bizans İmparatoru Ioannes Komnenos'un işgal ettiği Kastamon	-1096	4
+sehir_tarihce_osm.js	kerman	Kerman	1048-06-16	Büveyhî nâibi Behrâm, Berdesîr'i eman dileyerek Kavurd'a teslim etti; 	1048-01-01	Kavurd Kirman'daki Büveyhî hâkimiyetine son verdi	-167	2
+sehir_tarihce_osm.js	kerman	Kerman	1048-06-16	Büveyhî nâibi Behrâm, Berdesîr'i eman dileyerek Kavurd'a teslim etti; 	1048-01-01	Selçuklu Kavurd Kirman'ı aldı; Büveyhî Kirman kolu sona erdi	-167	2
+sehir_tarihce_osm.js	kerman	Kerman	1185-12-16	Oğuz beyi Melik Dînâr Oğuzlar'ın davetiyle Kirman'a geldi	1187-01-01	Kirman Selçuklu hânedanı sona erdi — Oğuz Beyi Melik Dinar Kirman’ı el	381	2
+sehir_tarihce_osm.js	kerman	Kerman	1187-09-01	Melik Dînâr başşehir Berdesîr'e girdi; Kirman Selçukluları sona erdi	1187-01-01	Kirman Selçuklu hânedanı sona erdi — Oğuz Beyi Melik Dinar Kirman’ı el	-244	2
+sehir_tarihce_osm.js	kerman	Kerman	1187-09-01	Melik Dînâr başşehir Berdesîr'e girdi; Kirman Selçukluları sona erdi	1185-12-16	Oğuzlar'ın daveti üzerine Melik Dînâr Kirman'a geldi	-624	2
+sehir_tarihce_osm.js	kerman	Kerman	1222-02-15	Barak Hâcib Kirman'a hâkim oldu, Kutluğhanlı hânedanını kurdu	1222-01-01	Barak Hâcib Kirman’a hâkim oldu — Kutluğhanlılar kuruldu	-44	3
+sehir_tarihce_osm.js	kerman	Kerman	1222-02-15	Barak Hâcib Kirman'a hâkim oldu, Kutluğhanlı hânedanını kurdu	1224-01-01	Celâleddin Hindistan'dan Kirman'a geldi; Kirman hâkimi Barak Hâcib ona	686	2
+sehir_tarihce_osm.js	mansoura	Mansoura	1249-06-01	IX. Louis'nin Haçlı ordusu karşısında müslümanlar Dimyat'ı boşaltıp Ma	1249-11-23	Sultan es-Sâlih Necmeddin Eyyûb Mansûre cephesi sırasında öldü.	174	2
+sehir_tarihce_osm.js	mansoura	Mansoura	1249-06-01	IX. Louis'nin Haçlı ordusu karşısında müslümanlar Dimyat'ı boşaltıp Ma	1250-04-07	Mansûre: Müslümanlar IX. Louis'in Haçlı ordusunu kesin yenilgiye uğrat	310	3
+sehir_tarihce_osm.js	mansoura	Mansoura	1250-05-04	Bahrî Memlük emîrleri Turan Şah'ı öldürüp Şecerüddür'ü sultan seçti; M	1250-02-01	Turan Şah Mansûre ordugâhında sultan ilan edildi.	-94	2
+sehir_tarihce_osm.js	mansoura	Mansoura	1250-05-04	Bahrî Memlük emîrleri Turan Şah'ı öldürüp Şecerüddür'ü sultan seçti; M	1250-04-30	Mısır'da Memlük Devleti kuruldu — İskenderiye, Mansûre ve Feyyûm Memlü	-4	2
+sehir_tarihce_osm.js	mascara	Mascara	1832-01-01	Emîr Abdülkādir el-Cezâirî Muasker'i kurmakta olduğu devletin merkezi 	1835-01-01	Fransızlar Abdülkādir'in merkezi Muasker'e girdi	1096	2
+sehir_tarihce_osm.js	mecca	Mecca	0692-10-01	Haccâc b. Yûsuf'un yedi aylık kuşatması sonunda İbnü'z-Zübeyr öldürüld	0692-01-01	Haccâc b. Yûsuf Mekke'yi kuşattı	-274	2
+sehir_tarihce_osm.js	mecca	Mecca	0930-01-01	Karmatîler hac mevsiminde Mekke'ye baskın yapıp hacıları katletti, Hac	0930-01-12	Ebû Tâhir el-Cennâbî önderliğindeki Karmatîler Kâbe'ye baskın yaptı; H	11	3
+sehir_tarihce_osm.js	mecca	Mecca	0930-01-01	Karmatîler hac mevsiminde Mekke'ye baskın yapıp hacıları katletti, Hac	0929-02-14	Karmatîler Mekke'yi işgal edip Hacerülesved'i Ahsâ'ya (Lahsâ) götürdü;	-322	3
+sehir_tarihce_osm.js	mecca	Mecca	1069-10-20	Mekke Emîri Ebû Hâşim hutbeyi Fâtımîler'den Abbâsî halifesi ve Alparsl	1069-01-01	Mekke hutbeyi Fâtımîlerden Abbâsî halifesi ve Sultan Alparslan adına ç	-293	6
+sehir_tarihce_osm.js	mecca	Mecca	1069-10-20	Mekke Emîri Ebû Hâşim hutbeyi Fâtımîler'den Abbâsî halifesi ve Alparsl	1070-01-01	Mekke hutbesi Fâtımîlerden Abbâsî halifesi ve Sultan Alparslan adına ç	72	4
+sehir_tarihce_osm.js	mecca	Mecca	1266-01-01	I. Baybars Kâbe'ye ilk mahmil ve örtüyü gönderdi; Mekke Emirliği Memlü	1269-01-01	Baybars hacca gitti, Haremeyn'de Memlük nüfuzunu pekiştirdi	1096	2
+sehir_tarihce_osm.js	medina	Medina	0632-06-08	künye geçişi: Hz. Peygamber'in vefatı; Hz. Ebû Bekir halife (Hulefâ-yi	0634-08-23	Halife Ebû Bekir vefat etti; Ömer halife oldu	806	2
+sehir_tarihce_osm.js	medina	Medina	0969-01-01	Hüseynîler Medine'ye yeniden hâkim oldu, hutbeyi Fâtımîler adına okutt	0969-01-02	Hüseynîler Medine'ye yeniden hâkim oldu; Fâtımîler adına hutbe okuttu	1	6
+sehir_tarihce_osm.js	medina	Medina	1092-11-25	Melikşah'ın ölümü üzerine Medine'de hutbe oğlu Mahmud adına okundu	1089-01-01	Medine'de hutbe Abbâsî halifesi ve Sultan Melikşah adına okundu	-1424	4
+sehir_tarihce_osm.js	mostar	Mostar	1440-01-01	M. Orbini ve P. Luccari rivayetine göre yeni Mostar'ı Herceg Stjepan V	1435-01-01	Stjepan Vukčić Kosača'nın fiilî özerkliği — krallığın parçalanması hız	-1826	3
+sehir_tarihce_osm.js	mostar	Mostar	1878-08-05	Avusturya-Macaristan kuvvetleri direnişsiz Mostar'a girdi	1878-07-29	Bosna-Hersek ve Yenipazar'ın Avusturya-Macaristan tarafından işgali	-6	2
+sehir_tarihce_osm.js	mosul	Mosul	0750-01-25	Zap Suyu Savaşı: II. Mervân yenildi, Musul yöresi Abbâsîlere geçti	0750-01-16	Zâb Savaşı başladı; Abdullah b. Ali, II. Mervân'ı yenerek Emevî ordusu	-9	2
+sehir_tarihce_osm.js	mosul	Mosul	0958-03-25	Büveyhî Muizzüddevle Musul'u ele geçirdi; Nâsırüddevle Halep'e sığındı	0956-04-15	Büveyhî Muizzüddevle Musul ve Nusaybin'i ele geçirdi (345/956-57).	-710	3
+sehir_tarihce_osm.js	mosul	Mosul	0979-01-01	Adudüddevle el-Cezîre ve Diyârırebîa'yı hâkimiyeti altına aldı; Hamdân	0979-07-29	Ebû Tağlib Gazanfer Remle'de yenilip öldü: Hamdânîler'in Cezîre ve Mus	211	3
+sehir_tarihce_osm.js	mosul	Mosul	0979-01-01	Adudüddevle el-Cezîre ve Diyârırebîa'yı hâkimiyeti altına aldı; Hamdân	0979-07-29	Ebû Tağlib Gazanfer Remle'de öldürüldü; Hamdânîler'in Musul ve el-Cezî	211	3
+sehir_tarihce_osm.js	mosul	Mosul	1056-03-21	Musul Irak'la beraber Selçukluların eline geçti	1056-01-01	Musul Selçuklular'ın eline geçti	-81	2
+sehir_tarihce_osm.js	mosul	Mosul	1057-01-01	Besâsîrî ile Ukaylî Kureyş Musul'da Fâtımî halifesi adına hutbe okuttu	1052-11-01	Ukaylî emîri Karvâş tutukluyken öldü; Kureyş b. Bedrân başa geçti	-1522	2
+sehir_tarihce_osm.js	mosul	Mosul	1057-01-01	Besâsîrî ile Ukaylî Kureyş Musul'da Fâtımî halifesi adına hutbe okuttu	1054-11-05	Ukaylî Kureyş Tuğrul Bey adına hutbe okuttu	-787	5
+sehir_tarihce_osm.js	mosul	Mosul	1089-03-16	Melikşah Ukaylî İbrâhim'i azledip Fahrüddevle b. Cehîr'i Musul'a tayin	1084-05-10	Melikşah Musul'a sefer düzenleyip Ukaylî topraklarını başkasına iktâ e	-1771	2
+sehir_tarihce_osm.js	mosul	Mosul	1107-01-01	I. Kılıcarslan Musul'a girdi, hutbeyi kesti; Habur'da boğuldu (kısa)	1107-07-13	I. Kılıcarslan'ın Habur Nehri'nde ölümü	195	2
+sehir_tarihce_osm.js	mosul	Mosul	1127-01-17	Sultan Mahmûd Musul'u İmâdüddin Zengî'ye iktâ etti; Musul Atabegliği k	1127-01-01	İmâdüddin Zengî Musul'a atabeg (Zengîler)	-16	2
+sehir_tarihce_osm.js	murzuk	Murzuk	1711-01-01	Karamanlı Ahmed Bey Trablusgarp yönetimini aldı; Evlâd-ı Muhammed'in F	1716-01-01	Karamanlıların ilk Fizan seferi — vergisini vermeyen Evlâd-ı Muhammed 	1826	3
+sehir_tarihce_osm.js	mus	Muş	1387-01-22	Muş Karakoyunlu topraklarına sahip olan Timur'un idaresine girdi	1387-01-30	Muş Karakoyunlu yönetiminden Timur'un idaresine geçti (789/1387)	8	3
+sehir_tarihce_osm.js	nablus	Nablus	1516-01-01	Nablus Osmanlı yönetimine girdi (atlas dönemi; bilgi için)	1516-10-01	Kudüs ve Filistin şehirlerinin Osmanlı yönetimine girişi	274	2
+sehir_tarihce_osm.js	nablus	Nablus	1834-01-01	İbrâhim Paşa yönetimine karşı Nablus isyanı; şehir tahrip oldu (atlas 	1834-05-19	Filistin-Nablus isyanı Mısır idaresine karşı	140	2
+sehir_tarihce_osm.js	nablus	Nablus	1834-01-01	İbrâhim Paşa yönetimine karşı Nablus isyanı; şehir tahrip oldu (atlas 	1834-05-19	Filistin-Nablus isyanı Mısır idaresine karşı	140	2
+sehir_tarihce_osm.js	nicosia	Nicosia	1192-01-01	Guy de Lusignan Kıbrıs'ı Templierlerden satın aldı; Lefkoşe krallığın 	1197-01-01	Amaury de Lusignan Kıbrıs Kralı unvanını aldı; aynı yıl Akkâ'daki Haçl	1826	2
+sehir_tarihce_osm.js	plovdiv	Plovdiv	0836-01-01	Bulgar Hanı Malamir Filibe'yi topraklarına kattı	0831-01-01	Malamir döneminde Filibe Bulgar devletine katıldı	-1826	2
+sehir_tarihce_osm.js	port-said	Port Said	1866-01-01	Port Said, Süveyş Kanalı muhafazasının merkezi yapıldı	1869-11-17	Süveyş Kanalı'nın açılışı: Mısır üzerinden Hint yolunun kısalması	1416	2
+sehir_tarihce_osm.js	port-said	Port Said	1869-01-01	Süveyş Kanalı açıldı; şehrin nüfusu 10.000'e ulaştı	1869-11-17	Süveyş Kanalı'nın açılışı: Mısır üzerinden Hint yolunun kısalması	320	2
+sehir_tarihce_osm.js	qena	Qena	0868-01-01	Ahmed b. Tolun Mısır'a vali vekili olarak girdi; Tolunoğulları dönemi 	0868-09-15	Ahmed b. Tolun Mısır'a girdi: Mısır Abbâsî valiliğinden Tolunoğulları 	258	5
+sehir_tarihce_osm.js	qena	Qena	1250-05-04	Turan Şah öldürüldü, Şecerüddür sultan; Mısır'da Memlûk dönemi başladı	1250-04-30	Turan Şah öldürüldü: Mısır şehirleri Eyyûbîlerden Bahrî Memlûklere geç	-4	3
+sehir_tarihce_osm.js	rodos-rhodes	Rodos (Rhodes)	-0406-01-01	Lindos, Ialysos ve Kamiros birleşerek adanın kuzey ucunda Rodos şehrin	-0407-01-01	Rodos kenti kuruldu: Lindos, Ialysos ve Kameiros birleşti	-365	2
+sehir_tarihce_osm.js	rodos-rhodes	Rodos (Rhodes)	-0304-01-01	Demetrios Poliorketes'in kuşatması püskürtüldü; zafer anısına Rodos He	-0303-01-01	Demetrios Poliorketes'in Rodos kuşatması başarısızlıkla bitti	365	3
+sehir_tarihce_osm.js	sanaa	Sanaa	0525-01-01	Himyerî Zûnüvâs'ın yenilgisi; Habeş ordusu San‘a'yı ele geçirdi	0522-01-01	Zûnüvâs Himyer tahtına geçti; Yemen'deki Habeş hâkimiyetine karşı Yahu	-1096	2
+sehir_tarihce_osm.js	sanaa	Sanaa	0570-01-01	Seyf b. Zûyezen Sâsânî ordusuyla Habeş hâkimiyetine son verdi	0573-01-01	Seyf b. Zûyezen Sâsânî desteğiyle Habeş hâkimiyetine son verdi; Yemen'	1096	5
+sehir_tarihce_osm.js	sanaa	Sanaa	0628-01-01	Sâsânî valisi Bâzân İslâm'ı kabul etti; Yemen Medine'ye bağlandı	0628-01-03	Yemen'deki Sâsânî valisi Bâzân ve Ebnâ topluluğu Müslüman oldu	2	3
+sehir_tarihce_osm.js	sanaa	Sanaa	0632-03-29	Esved el-Ansî San‘a'yı ele geçirdi; Fîrûz ed-Deylemî eliyle öldürüldü 	0632-06-03	Yemen'deki peygamberlik iddiacısı Esved el-Ansî öldürüldü	65	2
+sehir_tarihce_osm.js	sanaa	Sanaa	0997-01-14	Son Ya‘furî emîri Abdullah b. Kahtân'ın dönemi ve Ya‘furî hâkimiyeti s	0997-01-01	Yu‘firî hükümdarı Abdullah b. Kahtân öldü; hânedan dört yıl sonra sona	-13	2
+sehir_tarihce_osm.js	sanaa	Sanaa	1198-11-03	Zeydî imamı Abdullah b. Hamza San‘a'yı bir süre ele geçirdi	1198-01-01	Zeydî imam Abdullah b. Hamza San'a ve Dhamar'ı Eyyûbîler'den aldı.	-306	3
+sehir_tarihce_osm.js	sanliurfa	Şanlıurfa	1036-01-01	Nümeyrî İbn Vessâb şehri yağmaladı, patriği esir aldı; kale Bizans'ta 	1031-01-01	Bizans Urfa'ya yerleşti, Mervânî kuşatması sonuçsuz kaldı	-1826	2
+sehir_tarihce_osm.js	sanliurfa	Şanlıurfa	1098-03-10	Toros öldürüldü; Baudouin de Boulogne şehre hâkim olup Urfa Haçlı Kont	1100-01-01	Baudouin de Boulogne Kudüs'e gitti; Urfa kontluğu kuzeni Baudouin du B	661	3
+sehir_tarihce_osm.js	sanliurfa	Şanlıurfa	1146-10-01	II. Josselin şehre girdi (iç kale hariç); Nûreddin Mahmud yetişip geri	1144-12-24	Türk kuvvetleri Urfa'ya girdi; iç kale iki gün sonra teslim oldu ve şe	-647	2
+sehir_tarihce_osm.js	sanliurfa	Şanlıurfa	1146-10-01	II. Josselin şehre girdi (iç kale hariç); Nûreddin Mahmud yetişip geri	1146-01-01	II. Joscelin Urfa'yı kısa süre ele geçirdi; Nûreddin Mahmûd şehri geri	-274	2
+sehir_tarihce_osm.js	sanliurfa	Şanlıurfa	1174-05-15	Nûreddin'in ölümü üzerine II. Seyfeddin Gazi Urfa'yı Musul'a bağladı	1174-01-01	II. Seyfeddin Gazi el-Cezîre'deki eski Musul topraklarını geri aldı; H	-136	2
+sehir_tarihce_osm.js	sarajevo	Sarajevo	1462-02-01	İshak Bey vakfiyesi: Hünkâr Camii, saray, hamam, köprü, han ve bedeste	1458-01-01	Saraybosna'da Hünkâr Camii — yerleşimin en erken tarihli tanığı	-1491	2
+sehir_tarihce_osm.js	sarajevo	Sarajevo	1878-08-19	Avusturya-Macaristan kuvvetleri Saraybosna'yı işgal etti	1878-07-29	Bosna-Hersek ve Yenipazar'ın Avusturya-Macaristan tarafından işgali	-20	2
+sehir_tarihce_osm.js	sharjah	Sharjah	1820-02-04	Şârika şeyhi Sultan b. Sakr İngiltere ile Genel Barış Antlaşması'nı im	1820-01-08	Genel Deniz Antlaşması — Kavâsım ve öteki Körfez şeyhlikleri İngiltere	-26	3
+sehir_tarihce_osm.js	shiraz	Shiraz	1056-03-21	Şebânkâre emîri Fazlûye Büveyhî Fülâd Sütûn'u öldürüp Şîraz'ı aldı	1056-01-01	Şebânkâre emîri Fazlûye Fars'taki Büveyhî hâkimiyetine son verdi	-81	4
+sehir_tarihce_osm.js	shiraz	Shiraz	1056-03-21	Şebânkâre emîri Fazlûye Büveyhî Fülâd Sütûn'u öldürüp Şîraz'ı aldı	1054-01-01	Şîraz'a hâkim olan Fülâd Sütûn Tuğrul Bey adına hutbe okuttu	-811	2
+sehir_tarihce_osm.js	shiraz	Shiraz	1056-03-21	Şebânkâre emîri Fazlûye Büveyhî Fülâd Sütûn'u öldürüp Şîraz'ı aldı	1056-01-01	Şebânkâre emîri Fazlûye Fülâd Sütûn'u öldürdü; Fars'taki Büveyhî hâkim	-81	6
+sehir_tarihce_osm.js	sinop	Sinop	1214-11-02	I. İzzeddin Keykâvus Sinop'u fethetti; Tekfur Kir Aleksi vergi şartıyl	1214-01-01	I. Keykâvus Sinop'u fethetti	-305	2
+sehir_tarihce_osm.js	sivas	Sivas	1071-09-29	Malazgirt sonrası Dânişmend Gazi Sivas'ı fethetti; Dânişmendli hanedan	1071-01-01	Dânişmend Gazi Sivas'ı fethetti	-272	2
+sehir_tarihce_osm.js	tabriz	Tabriz	1054-04-12	Revvâdî Vehsûdân Azerbaycan'a gelen Tuğrul Bey'e itaatini bildirdi (Se	1054-01-01	Revvâdî Vehsûdân Tuğrul Bey'e itaat etti	-102	3
+sehir_tarihce_osm.js	tabriz	Tabriz	1054-04-12	Revvâdî Vehsûdân Azerbaycan'a gelen Tuğrul Bey'e itaatini bildirdi (Se	1054-01-01	Tuğrul Bey’e itaat eden Tebriz, Azerbaycan’da Revvâdî yönetimini bırak	-102	3
+sehir_tarihce_osm.js	tabriz	Tabriz	1060-01-01	Ebû Nasr Memlân'ın 451 (1059) isyanı üzerine Tuğrul Bey Tebriz'i kuşat	1059-01-01	Tebriz’de Revvâdî Memlân’ın isyanı — Selçuklu hâkimiyeti sona erdi	-365	2
+sehir_tarihce_osm.js	tabriz	Tabriz	1062-01-15	Tuğrul Bey Revvâdîler'i yeniden itaat altına aldı	1062-01-01	Tuğrul Bey Tebriz’i yeniden Selçuklu topraklarına kattı	-14	2
+sehir_tarihce_osm.js	tabriz	Tabriz	1174-08-02	İldenizli Pehlivan Tebriz'i Ahmedîlîler'den barış yoluyla aldı ve Kızı	1174-01-01	İldenizli Pehlivan Tebriz'i aldı	-214	2
+sehir_tarihce_osm.js	thessaloniki	Thessaloniki	-0315-01-01	Kassandros şehri karısı Thessalonike adına kurdu; çevredeki 26 kasaban	-0314-01-01	Kassandros Selanik'i kurdu	365	2
+sehir_tarihce_osm.js	thessaloniki	Thessaloniki	-0147-01-01	Andriskos yenildi; Makedonya Roma eyaleti oldu	-0145-01-01	Makedonya Roma eyaleti oldu	730	2
+sehir_tarihce_osm.js	thessaloniki	Thessaloniki	0904-01-01	Girit'ten gelen Arap donanması şehri aldı, on gün yağmalayıp çekildi (	0904-07-31	Girit donanması Selanik’i ele geçirip yağmaladı	213	2
+sehir_tarihce_osm.js	tripoli	Tripoli	0972-10-02	Fâtımî Muiz Mısır'a geçti; Trablus da Bulukkîn b. Zîrî'ye verildi	0972-01-01	Trablus: Fâtımîler Mısır’a çekildi; şehir Zîrî hâkimiyetine geçti	-275	2
+sehir_tarihce_osm.js	tripoli	Tripoli	1229-12-01	Ebû Zekeriyyâ Muvahhidler'den bağımsızlığını ilân etti; Hafsî devleti	1229-01-01	Cerbe (Djerba), Trablus: muvahhidler devleti → hafsîler (tunus)	-335	2
+sehir_tarihce_osm.js	tripoli-2	Tripoli	1102-01-01	Raymond de Saint-Gilles Trablus'u kuşattı, şehre hâkim tepeye büyük bi	1099-05-16	Raymond de Saint-Gilles, Fahrülmülk'ten 15.000 dinar ve hediyeler alar	-959	3
+sehir_tarihce_osm.js	tripoli-2	Tripoli	1102-01-01	Raymond de Saint-Gilles Trablus'u kuşattı, şehre hâkim tepeye büyük bi	1104-01-01	Raymond, Aralık 1103'te şehir varoşlarında karargâh kurduktan sonra Bi	730	4
+sehir_tarihce_osm.js	tripoli-2	Tripoli	1102-01-01	Raymond de Saint-Gilles Trablus'u kuşattı, şehre hâkim tepeye büyük bi	1105-02-28	Raymond de Saint-Gilles kuşatma sürerken öldü; yerine kuzeni Guillaume	1153	3
+sehir_tarihce_osm.js	tripoli-2	Tripoli	1105-01-01	Raymond de Saint-Gilles uzun kuşatma sırasında öldü	1102-01-01	Raymond de Saint-Gilles Trablusşam'ı kuşatmaya başladı	-1096	3
+sehir_tarihce_osm.js	tripoli-2	Tripoli	1105-01-01	Raymond de Saint-Gilles uzun kuşatma sırasında öldü	1104-01-01	Raymond, Aralık 1103'te şehir varoşlarında karargâh kurduktan sonra Bi	-365	2
+sehir_tarihce_osm.js	tripoli-2	Tripoli	1105-01-01	Raymond de Saint-Gilles uzun kuşatma sırasında öldü	1105-02-28	Raymond de Saint-Gilles kuşatma sürerken öldü; yerine kuzeni Guillaume	57	4
+sehir_tarihce_osm.js	tunis	Tunis	1058-02-28	Tunus halkı Hammâdîlere sığındı; Abdülhak b. Horasan vali atandı	1062-01-15	Abdülhak b. Abdülazîz Hammâdîler'den bağımsızlığını ilân edip Benî Hor	1418	2
+sehir_tarihce_osm.js	tunis	Tunis	1184-04-14	Benî Gâniye Tunus'u istilâ etti	1184-01-01	Benî Gāniye Mağrib'e geçip Bicâye, Cezayir, Milyâne ve Tunus'u istilâ 	-104	2
+sehir_tarihce_osm.js	tunis	Tunis	1187-03-13	Muvahhid Ebû Yûsuf el-Mansûr Tunus'u geri aldı	1187-01-01	Ebû Yûsuf el-Mansûr Tunus'u Benî Gāniye'den geri aldı	-73	2
+sehir_tarihce_osm.js	tunis	Tunis	1228-06-29	Ebû Zekeriyyâ el-Hafsî Tunus'a (Muvahhid valisi olarak) girdi	1229-01-01	Ebû Zekeriyyâ Tunus'u fethetti, Hafsî hanedanı kuruldu	185	2
+sehir_tarihce_osm.js	tunis	Tunis	1228-06-29	Ebû Zekeriyyâ el-Hafsî Tunus'a (Muvahhid valisi olarak) girdi	1229-11-20	Hafsî Ebû Zekeriyyâ Muvahhidler'den bağımsızlığını ilân etti	508	2
+sehir_tarihce_osm.js	tunis	Tunis	1229-12-01	Ebû Zekeriyyâ Muvahhidlerle bağını koparıp bağımsızlık ilân etti; Hafs	1228-06-29	Ebû Zekeriyyâ Yahyâ el-Hafsî Muvahhidler adına Tunus'a girip İfrîkıye'	-520	2
+sehir_tarihce_osm.js	tunis	Tunis	1229-12-01	Ebû Zekeriyyâ Muvahhidlerle bağını koparıp bağımsızlık ilân etti; Hafs	1229-01-01	Ebû Zekeriyyâ Tunus'u fethetti, Hafsî hanedanı kuruldu	-335	2
+sehir_tarihce_osm.js	tunis	Tunis	1229-12-01	Ebû Zekeriyyâ Muvahhidlerle bağını koparıp bağımsızlık ilân etti; Hafs	1228-06-29	Ebû Zekeriyyâ Yahyâ el-Hafsî Tunus'a girdi	-520	2
+sehir_tarihce_osm.js	tunis	Tunis	1229-12-01	Ebû Zekeriyyâ Muvahhidlerle bağını koparıp bağımsızlık ilân etti; Hafs	1229-11-20	Hafsî Ebû Zekeriyyâ Muvahhidler'den bağımsızlığını ilân etti	-11	2
+sehir_tarihce_osm.js	veliko-tarnovo	Veliko Tarnovo	1185-01-01	Petar ve Asen ayaklanması; II. Bulgar Devleti Tırnova'da Aziz Dimitrio	1187-01-01	Bizans barışla İkinci Bulgar Devleti'ni tanıdı; I. Asen başa geçti	730	2
+sehir_tarihce_osm.js	veliko-tarnovo	Veliko Tarnovo	1187-01-01	Bizans barış yapıp II. Bulgar Devleti'ni tanıdı	1185-01-01	Asen kardeşler Bizans'a isyan etti — İkinci Bulgar İmparatorluğu kurul	-730	2
+sehir_tarihce_osm.js	veliko-tarnovo	Veliko Tarnovo	1187-01-01	Bizans barış yapıp II. Bulgar Devleti'ni tanıdı	1185-01-01	Petar ve Asen ayaklanması: Tırnova çevresinde II. Bulgar Devleti’nin t	-730	2
+sehir_tarihce_afrika_magrip.js	annaba-dz	Annaba	1540-01-01	Yaklaşık beş yıl kuşatılan İspanyol garnizonu şehri terk etti; Osmanlı	1535-01-01	V. Karl Bûne'yi Hafsîlerden alıp İspanyol garnizonu yerleştirdi	-1826	2
+sehir_tarihce_afrika_magrip.js	fes-ma	Fès	1146-01-01	Fas, Muvahhidler'in hâkimiyetine geçti.	1146-06-12	Fas şehri Murâbıtlar'dan Muvahhidler'in hâkimiyetine geçti	163	3
+sehir_tarihce_afrika_magrip.js	fes-ma	Fès	1667-01-01	Alevî hânedanından Mevlây Reşîd şehri aldı ve çalkantıya son verdi.	1666-06-06	Mevlây Reşîd Fas şehrine girdi	-208	2
+sehir_tarihce_afrika_magrip.js	fes-ma	Fès	1667-01-01	Alevî hânedanından Mevlây Reşîd şehri aldı ve çalkantıya son verdi.	1668-06-18	Mevlây Reşîd Dilâ Zâviyesi'ni dağıttı	534	2
+sehir_tarihce_afrika_magrip.js	kayravan-tn	Kayravan (Kairouan)	0757-01-01	Sufrî Hâricîler Kayrevan'ı aldı; ertesi yıl İbâzî lideri Ebü'l-Hattâb 	0761-04-11	İbâzî imamı Ebü'l-Hattâb Abbâsîler'e yenilip öldürüldü; Abdurrahman b.	1562	2
+sehir_tarihce_afrika_magrip.js	kayravan-tn	Kayravan (Kairouan)	0757-01-01	Sufrî Hâricîler Kayrevan'ı aldı; ertesi yıl İbâzî lideri Ebü'l-Hattâb 	0757-05-25	Sufrî Hâricîler Kayrevan'ı ele geçirdi	146	2
+sehir_tarihce_afrika_magrip.js	kayravan-tn	Kayravan (Kairouan)	0761-08-01	Abbâsî valisi Muhammed b. Eş‘as şehri zaptetti ve surlarla çevirdi.	0761-01-01	Abbâsî tayinli Muhammed b. Eş‘as Kayrevan’ı aldı	-213	2
+sehir_tarihce_afrika_magrip.js	kayravan-tn	Kayravan (Kairouan)	0761-08-01	Abbâsî valisi Muhammed b. Eş‘as şehri zaptetti ve surlarla çevirdi.	0761-08-07	Abbâsî komutanı Muhammed b. Eş'as Kayrevan'ı zaptetti	6	3
+sehir_tarihce_afrika_magrip.js	kayravan-tn	Kayravan (Kairouan)	1057-01-01	Zîrî emîri Muiz b. Bâdîs Mehdiye'ye taşındı; savunmasız şehri bedevîle	1057-03-10	Zîrî emîri Muiz Kayrevan'dan ayrılıp Mehdiye'ye gitti; Kayrevan Hilâlî	70	2
+sehir_tarihce_afrika_magrip.js	mehdiye-tn	Mehdiye (Mahdia)	1160-01-01	Muvahhid halifesi Abdülmü'min yedi aylık kuşatmadan sonra şehri geri a	1160-01-12	Mehdiye: Abdülmü’min yedi aylık kuşatmadan sonra şehri Normanlar’dan a	11	4
+sehir_tarihce_afrika_magrip.js	mehdiye-tn	Mehdiye (Mahdia)	1188-01-01	Benî Gāniye şehri aldı; Ocak 1206'ya kadar elinde tuttu.	1188-03-02	Mehdiye: Yahyâ b. Gāniye şehri zaptetti	62	2
+sehir_tarihce_afrika_magrip.js	sfax-tn	Sfax	1062-01-01	Vali Hammû b. Mellîl bağımsızlığını ilân etti.	1063-01-04	Hammû b. Mellîl Mehdiye önünde Temîm’e yenildi	368	2
+sehir_tarihce_afrika_magrip.js	tanca-ma	Tanca	1077-01-01	Murâbıt hükümdarı Yûsuf b. Tâşfîn şehri aldı.	1077-07-25	Yûsuf b. Tâşfîn Tanca'yı ele geçirdi	207	2
+sehir_tarihce_afrika_magrip.js	tlemcen-dz	Tlemcen	1145-01-01	Abdülmü'min el-Kûmî şehrin surlarını yıktı ve halkın büyük kısmını öld	1145-06-24	Abdülmü'min Tilimsân'ın surlarını yıktı	175	3
+sehir_tarihce_afrika_magrip.js	tlemcen-dz	Tlemcen	1553-01-01	Salih Reis komutasındaki Osmanlı kuvvetleri şehri aldı; üç asırdan uzu	1550-01-01	Sâdîler Tilimsân'ı alıp Türkleri çıkardı, Cezayir kuvvetleri şehri ger	-1096	2
+sehir_tarihce_afrika_magrip.js	tlemcen-dz	Tlemcen	1837-05-01	Tafna Antlaşması bölgeyi Emîr Abdülkādir'e iade etti.	1837-05-30	Tâfnâ Antlaşması: Fransa Abdülkādir'in batı ve güneydeki hâkimiyetini 	29	3
+sehir_tarihce_afrika_magrip.js	tripoli-ly	Tripoli	1912-01-01	Uşi (Ouchy) antlaşması ile Osmanlı'nın eyaletten çekilmesi tanındı.	1912-10-18	Uşi Antlaşması — Osmanlı hâkimiyeti resmen sona erdi	291	2
+sehir_tarihce_afrika_magrip.js	tunus-tn	Tunis	1184-01-01	Benî Gāniye şehri istila etti.	1184-04-14	Benî Gāniye Bicâye, Cezayir, Milyâne ve Tunus'u istilâ etti	104	2
+sehir_tarihce_afrika_magrip.js	tunus-tn	Tunis	1187-01-01	Ebû Yûsuf el-Mansûr şehri Benî Gāniye'den üç yıl sonra geri aldı.	1187-03-13	Ebû Yûsuf el-Mansûr Tunus'u Benî Gāniye'den geri aldı	73	3
+sehir_tarihce_afrika_magrip.js	tunus-tn	Tunis	1228-01-01	Ebû Zekeriyyâ Tunus'a girerek Hafsî hânedanını kurdu; şehir başşehir o	1228-06-29	Ebû Zekeriyyâ Yahyâ el-Hafsî Muvahhidler adına Tunus'a girip İfrîkıye'	180	2
+sehir_tarihce_afrika_magrip.js	tunus-tn	Tunis	1228-01-01	Ebû Zekeriyyâ Tunus'a girerek Hafsî hânedanını kurdu; şehir başşehir o	1229-01-01	Ebû Zekeriyyâ Tunus'u fethetti, Hafsî hanedanı kuruldu	365	2
+sehir_tarihce_afrika_magrip.js	tunus-tn	Tunis	1228-01-01	Ebû Zekeriyyâ Tunus'a girerek Hafsî hânedanını kurdu; şehir başşehir o	1228-06-29	Ebû Zekeriyyâ Yahyâ el-Hafsî Tunus'a girdi	180	2
+sehir_tarihce_afrika_magrip.js	tunus-tn	Tunis	1228-01-01	Ebû Zekeriyyâ Tunus'a girerek Hafsî hânedanını kurdu; şehir başşehir o	1229-11-20	Hafsî Ebû Zekeriyyâ Muvahhidler'den bağımsızlığını ilân etti	689	2
+sehir_tarihce_afrika_magrip.js	tunus-tn	Tunis	1574-09-12	Koca Sinan Paşa ve Kılıç Ali Paşa şehri geri aldı; Tunus Osmanlı eyale	1574-08-24	Sinan Paşa ve Kılıç Ali Paşa Tunus'u kesin olarak fethetti	-18	2
+sehir_tarihce_afrika_magrip2.js	constantine-dz	Constantine	1152-01-01	Muvahhidler şehri aldı.	1152-04-08	Kostantîne (Konstantin) şehri Muvahhidler'in hâkimiyetinde	98	2
+sehir_tarihce_afrika_magrip2.js	constantine-dz	Constantine	1229-12-01	Vezir Ebû Zekeriyyâ Yahyâ el-Hafsî Muvahhidler'e karşı bağımsızlığını 	1230-11-09	Hafsîler Kostantîne ve Bicâye'yi Muvahhidler'den aldı	343	2
+sehir_tarihce_afrika_magrip2.js	constantine-dz	Constantine	1520-01-01	E. Mercier'ye göre şehir Barbaros Hayreddin Paşa'nın adamlarından Hasa	1519-01-01	Kostantîne Hasan Ağa tarafından zaptedildi	-365	3
+sehir_tarihce_afrika_magrip2.js	murzuk-ly	Murzuk	1711-01-01	Karamanlı Ahmed Bey Trablusgarp yönetimini ele geçirdi; Merzûk'te otur	1716-01-01	Karamanlıların ilk Fizan seferi — vergisini vermeyen Evlâd-ı Muhammed 	1826	3
+sehir_tarihce_afrika_magrip2.js	murzuk-ly	Murzuk	1842-05-01	Abdülcelîl Sirte taraflarında yakalanıp kardeşiyle idam edildi; Fizan 	1842-01-01	Abdülcelîl idam edildi — Fizan Trablusgarp'a bağlı kaza oldu	-122	4
+sehir_tarihce_afrika_misir.js	aswan	Aswan	0640-01-01	Müslümanlar Mısır'ı fethetti; Asvan Nûbe devletine karşı sınır kalesi 	0642-09-22	Müslümanlar Mısır’ı aldı (İskenderiye teslimi): Bizans hâkimiyeti sona	995	2
+sehir_tarihce_afrika_misir.js	aswan	Aswan	0868-01-01	Ahmed b. Tolun Mısır'a vali vekili olarak girdi; Tolunoğulları dönemi	0868-09-15	Ahmed b. Tolun Mısır'a girdi: Mısır Abbâsî valiliğinden Tolunoğulları 	258	5
+sehir_tarihce_afrika_misir.js	fustat	Fustat	0935-08-04	Muhammed b. Tuğç Mısır valiliğine getirildi; İhşîdîler dönemi	0935-01-01	Muhammed b. Tuğç Mısır valisi oldu: İhşîdîler döneminin temeli atıldı	-216	3
+sehir_tarihce_kuzey_avrupa_2.js	karlstad-se	Karlstad	1905-01-01	Karlstad müzakereleriyle İsveç-Norveç birliği sona erer.	1905-10-26	Karlstad sözleşmeleri — İsveç-Norveç birliğinin sonu, Norveç–İsveç sın	299	2
+sehir_tarihce_kuzey_avrupa_2.js	moss-no	Moss	1814-01-14	Kiel Antlaşması: Danimarka Norveç'i İsveç'e bırakır; Danimarka egemenl	1814-08-14	Moss Sözleşmesi: İsveç-Norveç savaşı bitti, Norveç anayasasını koruyar	213	2
+sehir_tarihce_kuzey_avrupa_2.js	orebro-se	Örebro	1810-01-01	Örebro Riksdag'ı Bernadotte'u veliaht seçer.	1810-08-21	Jean Baptiste Bernadotte veliaht prens seçildi	233	2
+sehir_tarihce_kuzey_avrupa_2.js	turku-fi	Turku	1809-01-01	Finlandiya Rusya'ya devredilir (Hamina Antlaşması).	1809-09-17	Fredrikshamn (Hamina) Antlaşması — İsveç'in Finlandiya'yı Rusya'ya bır	260	2
+sehir_tarihce_kuzey_avrupa_2.js	visby-se	Visby	1645-01-01	İsveç Gotland'ı devralır.	1645-08-23	Brömsebro Barışı — Jämtland, Härjedalen, Gotland ve Ösel İsveç'e geçti	235	2
+sehir_tarihce_guney_amerika.js	belem-br	Belém	1835-01-01	Cabanagem ayaklanması Belém'de patlak verir ve bütün eyalete yayılır (	1835-01-07	Cabanagem ayaklanması — Pará'da yoksulların isyanı başladı	6	2
+sehir_tarihce_guney_amerika.js	rio-de-janeiro-br	Rio de Janeiro	1763-01-01	Sömürge Brezilya'nın başkenti Bahia'dan Rio'ya taşınır (yalnız yıl).	1763-01-27	Brezilya'nın başkenti Salvador'dan Rio de Janeiro'ya taşındı	26	2
+sehir_tarihce_guney_amerika.js	salvador-br	Salvador (Bahia)	1549-03-29	Tomé de Sousa'nın Genel Valilik heyetiyle varışı; şehrin resmî kuruluş	1549-01-01	Tomé de Sousa, Salvador'ı kurdu — Brezilya Genel Valiliği	-89	2
