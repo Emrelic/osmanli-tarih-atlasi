@@ -1,0 +1,14 @@
+id	kat	ulke	ad_1900	ad_modern	lat_atlas_tahmin	lon_atlas_tahmin	kaynak_1900	not
+ajman	2	BAE	Acmân	Ajman			statoids uom (genel)	1900 şeyhlik sayısı (5) doğrulanmadı; Re'sülhayme Şârika'ya bağlı
+dubai	2	BAE	Dubai	Dubai			statoids uom (genel)	1900 şeyhlik sayısı (5) doğrulanmadı; Re'sülhayme Şârika'ya bağlı
+abu-dhabi	2	BAE	Ebûzabi	Abu Dhabi			statoids uom (genel)	1900 şeyhlik sayısı (5) doğrulanmadı; Re'sülhayme Şârika'ya bağlı
+umm-al-quwain	2	BAE	Ümmülkayveyn	Umm al-Quwain			statoids uom (genel)	1900 şeyhlik sayısı (5) doğrulanmadı; Re'sülhayme Şârika'ya bağlı
+sharjah	2	BAE	Şârika	Sharjah	25.3573	55.3911	statoids uom (genel)	1900 şeyhlik sayısı (5) doğrulanmadı; Re'sülhayme Şârika'ya bağlı
+muharraq	2	Bahreyn	Muharrak	Muharraq			SYB1896 Bahrein ('seat of government is Moharek')	
+baghdad	2	Irak	Bağdat	Baghdad	33.34	44.361	Cuinet TdA c.3 (3 sancak) + TDV BAĞDAT	
+amarah	3	Irak	Amâre	Amarah			Cuinet TdA c.3 + TDV BASRA	
+sulaymaniyah	3	Irak	Süleymaniye	Sulaymaniyah			Cuinet TdA c.2 (1891)	Cuinet 1891-96 durumu; 1900'e kadar değişiklik bilinmiyor
+baabda	2	Lübnan	Bâbdâ	Baabda			Cuinet Syrie (1896) s.229 (palais de Ba'abda, résidence d'hiver)	kış merkezi Bâbdâ, yaz Beytüddin (Beiteddine); mutasarrıf kışın Beyrut'ta da oturur
+latakia	3	Suriye	Lazkiye	Latakia			Cuinet Syrie (1896)	
+sheikh-saad	3	Suriye	Şeyh Saad	Sheikh Saad			Cuinet Syrie (1896) ('Chéïkh-Sa'ad, chef-lieu du sandjaq du Haourân')	1896'da merkez Şeyh Saad (Mzerib); önceden Dera; iskelette Dera yazılmıştı; 1900'de Dera'ya dönüş doğrulanmadı
+jeddah	3	Suudi Arabistan	Cidde	Jeddah	21.543	39.173	TDV HİCAZ	vali kaymakamlığı
