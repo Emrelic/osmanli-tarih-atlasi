@@ -718,12 +718,12 @@ window.SEHIR_TARIHCE_AFRIKA_MAGRIP = [
     "kaynak": "TDV İslâm Ansiklopedisi, 'MEHDİYE (Tunus)', https://islamansiklopedisi.org.tr/mehdiye--tunus"
    },
    {
-    "t": "1550-09-01",
-    "gun": "Eylül 1550",
+    "t": "1550-09-10",
+    "gun": "10 Eylül 1550",
     "k": "fetih",
     "b": "Habsburg kuvvetleri güney surundaki gedikle zayıflayan şehri aldı.",
-    "kaynak": "TDV İslâm Ansiklopedisi, 'MEHDİYE (Tunus)', https://islamansiklopedisi.org.tr/mehdiye--tunus",
-    "ic_not": "Gün verilmez."
+    "kaynak": "TDV İslâm Ansiklopedisi, 'MEHDİYE (Tunus)', https://islamansiklopedisi.org.tr/mehdiye--tunus (10 Eylül)",
+    "ic_not": "Gün düzeltmesi: TDV tam gövde 10 Eylül veriyor (denetim/SEHIR-DUNYA-1116/afrika-kuzey-dogu/DOGRULAMA-TDV-1116.md); önceki kayıtta 'gün verilmez' yazıyordu, yanlıştı."
    },
    {
     "t": "1555-01-01",

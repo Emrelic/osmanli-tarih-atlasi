@@ -368,27 +368,27 @@ window.SEHIR_TARIHCE_AFRIKA_MISIR = [
    },
    {
     "f": "0969-07-06",
-    "t": "1171-09-04",
+    "t": "1171-09-13",
     "d": "fatimi",
     "kesinlik": {
      "f": "gun",
-     "t": "yil"
+     "t": "gun"
     },
-    "kaynak": "TDV MISIR (C. Avcı): Selâhaddîn-i Eyyûbî '567 (1171) yılında yönetime el koyarak Fâtımî Devleti’ni ortadan kaldırdı'; hicrî 567 ∩ 1171, çeviri: tablo takvimi, Jülyen"
+    "kaynak": "TDV EYYÛBÎLER: 13 Eylül 1171 (Fâtımî hutbesi kesildi); yıl teyidi TDV MISIR (C. Avcı) 567 (1171). Gün düzeltmesi: DOGRULAMA-TDV-1116 (önceki 09-04 hicrî-yıl ilk günüydü)"
    },
    {
-    "f": "1171-09-04",
-    "t": "1250-04-05",
+    "f": "1171-09-13",
+    "t": "1250-05-04",
     "d": "eyyubi",
-    "kesinlik": "yil",
-    "kaynak": "TDV MISIR (C. Avcı): Turan Şah'ın öldürülmesiyle 'Eyyûbî dönemi sona erdi (648/1250)'; hicrî 648 ∩ 1250, çeviri: tablo takvimi, Jülyen"
+    "kesinlik": "gun",
+    "kaynak": "TDV EYYÛBÎLER (13 Eylül 1171) ve TDV ŞECERÜDDÜR (4 Mayıs 1250, Turan Şah'ın öldürülmesi); yıl: TDV MISIR (C. Avcı) 648 (1250). Gün düzeltmesi: DOGRULAMA-TDV-1116 (önceki 04-05 hicrî-yıl ilk günüydü)"
    },
    {
-    "f": "1250-04-05",
+    "f": "1250-05-04",
     "t": "1517-01-23",
     "d": "memluk",
     "kesinlik": {
-     "f": "yil",
+     "f": "gun",
      "t": "gun"
     },
     "kaynak": "TDV MEMLÜKLER (A. F. Eruz – İ. Yiğit): Ridâniye Savaşı (29 Zilhicce 922 / 23 Ocak 1517)"
@@ -489,18 +489,18 @@ window.SEHIR_TARIHCE_AFRIKA_MISIR = [
     "kaynak": "TDV İHŞÎDÎLER (A. Ağırakça)"
    },
    {
-    "t": "1171-09-04",
-    "gun": "567 (1171)",
+    "t": "1171-09-13",
+    "gun": "13 Eylül 1171",
     "k": "siyaset",
     "b": "Selâhaddîn-i Eyyûbî Fâtımî Devleti'ni kaldırdı",
-    "kaynak": "TDV MISIR (C. Avcı); hicrî 567 ∩ 1171, çeviri: tablo takvimi, Jülyen"
+    "kaynak": "TDV EYYÛBÎLER: 13 Eylül 1171 (Fâtımî hutbesi kesildi; DOGRULAMA-TDV-1116: önceki 09-04 hicrî-yıl ilk günüydü, TDV günü veriyor); yıl: TDV MISIR (C. Avcı) 567 (1171)"
    },
    {
-    "t": "1250-04-05",
-    "gun": "648 (1250)",
+    "t": "1250-05-04",
+    "gun": "4 Mayıs 1250",
     "k": "darbe",
     "b": "Turan Şah öldürüldü; Eyyûbî dönemi bitti, Bahrî Memlükleri",
-    "kaynak": "TDV MISIR (C. Avcı); hicrî 648 ∩ 1250, çeviri: tablo takvimi, Jülyen"
+    "kaynak": "TDV ŞECERÜDDÜR: 4 Mayıs 1250 (DOGRULAMA-TDV-1116: önceki 04-05 hicrî-yıl ilk günüydü, TDV günü veriyor); yıl: TDV MISIR (C. Avcı) 648 (1250)"
    },
    {
     "t": "1517-01-23",
