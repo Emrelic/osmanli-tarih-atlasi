@@ -443,7 +443,7 @@
     };
     s.onerror = function () {
       if (s.parentNode) s.parentNode.removeChild(s);
-      kok.__PARCA_HATA = ad + ".js İNDİRİLEMEDİ";
+      kok.__PARCA_HATA = (ad + ".js") + " İNDİRİLEMEDİ";   // tam havuzdaki dizgiyle AYNI (yeni çeviri metni doğmasın)
       kok.__PARCA_HATA_DENEME = deneme + 1;
       if (kok.console) console.error("🔴 " + kok.__PARCA_HATA);
       // Tam havuzdaki YENİDEN DENEME düzeni (DENEME_ARA_MS) parça başına aynen.
