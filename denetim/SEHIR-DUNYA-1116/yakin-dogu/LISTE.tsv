@@ -57,7 +57,7 @@ sulaymaniyah	3	Irak	Süleymaniye	Sulaymaniyah	35.565	45.433	tarihce-kaydi (bagim
 tripoli	3	Lübnan	Trablusşam	Tripoli	34.436	35.844	atlas-yerlesim-ad-eslesmesi	Trablusşam		tripoli-2		Cuinet Syrie (1896)		E			mevcut
 hama	3	Suriye	Hama	Hama	35.132	36.75	atlas-yerlesim-ad-eslesmesi	Hama		hama		Cuinet Syrie (1896)	Cuinet 1891-96 durumu; 1900'e kadar değişiklik bilinmiyor	E			mevcut
 latakia	3	Suriye	Lazkiye	Latakia	35.531	35.791	tarihce-kaydi (bagimsiz teyit YOK)			latakia		Cuinet Syrie (1896)		E			mevcut
-sheikh-saad	3	Suriye	Şeyh Saad	Sheikh Saad						sheikh-saad		Cuinet Syrie (1896) ('Chéïkh-Sa'ad, chef-lieu du sandjaq du Haourân')	1896'da merkez Şeyh Saad (Mzerib); önceden Dera; iskelette Dera yazılmıştı; 1900'de Dera'ya dönüş doğrulanmadı	E		Şeyh Saad Dera yöresinde küçük yerleşim olarak mevcut (genel bilgi); LISTE'de koordinat yok	mevcut
+sheikh-saad	3	Suriye	Şeyh Saad	Sheikh Saad	32.8355	36.0372	"GeoNames 172591 (f2_A.json tarihçe kaydı; yalnız AD eşleşmesi — Burckhardt ""near Tel Sheikh Saad"" tarifi ek haritacılık kaynağıyla doğrulanmadı)"			sheikh-saad		Cuinet Syrie (1896) ('Chéïkh-Sa'ad, chef-lieu du sandjaq du Haourân')	1896'da merkez Şeyh Saad (Mzerib); önceden Dera; iskelette Dera yazılmıştı; 1900'de Dera'ya dönüş doğrulanmadı	E		Şeyh Saad Dera yöresinde küçük yerleşim olarak mevcut (genel bilgi); LISTE'de koordinat yok | KOORD EKLENDİ 17 Kas 2026: 32.8355,36.0372 (GeoNames 172591)	mevcut
 abha	3	Suudi Arabistan	Ebhâ	Abha	18.216	42.505	atlas-yerlesim-ad-eslesmesi	Ebha (Asir)		abha		TDV YEMEN (sancak); merkez adı genel bilgi	sancak kaynaklı, merkez adı (Ebhâ) kaynakta sancak merkezi olarak okunmadı	E			mevcut
 hofuf	3	Suudi Arabistan	Hufuf	Hofuf	25.365	49.588	tarihce-kaydi (bagimsiz teyit YOK)			hofuf		Cuinet TdA c.3 (chef-lieu Houfouf) + TDV BASRA		E			mevcut
 jeddah	3	Suudi Arabistan	Cidde	Jeddah	21.543	39.173	atlas-yerlesim-ad-eslesmesi	Cidde		jeddah		TDV HİCAZ	vali kaymakamlığı	E			mevcut
@@ -185,9 +185,9 @@ tubas-ps	3	Filistin		Tubas	32.3209	35.3699	GeoNames 281581 (DMS 32°19′15.28�
 ramallah-ps	3	Filistin		Ramallah	31.8996	35.2042	GeoNames 282239 (DMS 31°53′58.70″ N, 35°12′15.19″ E)					GeoNames 282239	vilayet merkezi	E			ek-modern-merkez
 jenin-ps	3	Filistin		Jenin	32.4594	35.3009	GeoNames 283506 (DMS 32°27′33.95″ N, 35°18′03.10″ E)					GeoNames 283506	vilayet merkezi (GeoNames Janīn)	E			ek-modern-merkez
 tulkarm-ps	3	Filistin		Tulkarm	32.3116	35.0269	GeoNames 281577 (DMS 32°18′41.62″ N, 35°01′36.84″ E)					GeoNames 281577	vilayet merkezi (GeoNames Ţūlkarm)	E			ek-modern-merkez
-qalqilya-ps	3	Filistin		Qalqilya								GeoNames (okunamadı)	vilayet merkezi; koordinat okunamadı (sorgulanmadı)	E			ek-modern-merkez
-salfit-ps	3	Filistin		Salfit								GeoNames (okunamadı)	vilayet merkezi; koordinat okunamadı (sorgulanmadı)	E			ek-modern-merkez
-jabalia-ps	3	Filistin		Jabalia								GeoNames (okunamadı)	Kuzey Gazze vilayet merkezi; koordinat okunamadı (sorgulanmadı)	E			ek-modern-merkez
+qalqilya-ps	3	Filistin		Qalqilya	32.1897	34.9706	GeoNames 282457 (32°11′22.78″ N, 34°58′14.27″ E)					GeoNames (okunamadı)	vilayet merkezi; koordinat okunamadı (sorgulanmadı)	E		KOORD DÜZELTİLDİ 17 Kas 2026: eski (—,—) → yeni (32.1897,34.9706); kaynak GeoNames 282457 sayfası DMS 32°11′22.78″ N, 34°58′14.27″ E	ek-modern-merkez
+salfit-ps	3	Filistin		Salfit	32.0837	35.1808	GeoNames 282039 (32°05′01.36″ N, 35°10′50.84″ E)					GeoNames (okunamadı)	vilayet merkezi; koordinat okunamadı (sorgulanmadı)	E		KOORD DÜZELTİLDİ 17 Kas 2026: eski (—,—) → yeni (32.0837,35.1808); kaynak GeoNames 282039 sayfası DMS 32°05′01.36″ N, 35°10′50.84″ E	ek-modern-merkez
+jabalia-ps	3	Filistin		Jabalia	31.5272	34.4835	GeoNames 281129 (31°31′37.92″ N, 34°29′00.49″ E)					GeoNames (okunamadı)	Kuzey Gazze vilayet merkezi; koordinat okunamadı (sorgulanmadı)	E		KOORD DÜZELTİLDİ 17 Kas 2026: eski (—,—) → yeni (31.5272,34.4835); kaynak GeoNames 281129 sayfası DMS 31°31′37.92″ N, 34°29′00.49″ E	ek-modern-merkez
 riyadh-sa	3	Suudi Arabistan		Riyadh	24.6877	46.7219	GeoNames 108410 (DMS 24°41′15.83″ N, 46°43′18.66″ E)					GeoNames 108410	bölge merkezi/başkent	E			ek-modern-merkez
 dammam-sa	3	Suudi Arabistan		Dammam	26.4344	50.1033	GeoNames 110336 (DMS 26°26′03.91″ N, 50°06′11.74″ E)					GeoNames 110336	Doğu bölgesi merkezi	E			ek-modern-merkez
 buraydah-sa	3	Suudi Arabistan		Buraydah	26.3260	43.9750	GeoNames 107304 (DMS 26°19′33.56″ N, 43°58′29.89″ E)					GeoNames 107304	Kasım bölgesi merkezi	E			ek-modern-merkez
@@ -231,5 +231,5 @@ baalbek-lb	3	Lübnan		Baalbek	34.0058	36.2181	GeoNames 277130 (DMS 34°00′20.9
 halba-lb	3	Lübnan		Halba	34.5428	36.0797	GeoNames 274723 (DMS 34°32′34.01″ N, 36°04′46.99″ E)					GeoNames 274723	Akkar vilayet merkezi	E			ek-modern-merkez
 jounieh-lb	3	Lübnan		Jounieh	33.9808	35.6178	GeoNames 273140 (DMS 33°58′50.99″ N, 35°37′04.01″ E)					GeoNames 273140	Kesrevan-Cübeyl kaza merkezi	E			ek-modern-merkez
 byblos-lb	3	Lübnan		Byblos	34.1211	35.6481	GeoNames 273203 (DMS 34°07′16.00″ N, 35°38′53.02″ E)					GeoNames 273203	Cübeyl (Jbeil) kaza merkezi	E			ek-modern-merkez
-hermel-lb	3	Lübnan		Hermel								GeoNames (okunamadı)	Baalbek-Hermel vilayetinin ikinci merkezi; koordinat okunamadı (GeoNames sorgusu boş döndü)	E			ek-modern-merkez
+hermel-lb	3	Lübnan		Hermel	34.3942	36.3847	GeoNames 279997 (34°23′39.01″ N, 36°23′04.99″ E)					GeoNames (okunamadı)	Baalbek-Hermel vilayetinin ikinci merkezi; koordinat okunamadı (GeoNames sorgusu boş döndü)	E		KOORD DÜZELTİLDİ 17 Kas 2026: eski (—,—) → yeni (34.3942,36.3847); kaynak GeoNames 279997 sayfası DMS 34°23′39.01″ N, 36°23′04.99″ E	ek-modern-merkez
 morphou-cy	3	Kıbrıs		Morphou	35.1987	32.9934	GeoNames 146286 (DMS 35°11′55.28″ N, 32°59′36.17″ E)					GeoNames 146286	Güzelyurt; ilçe merkezi (GeoNames Mórfou)	E			ek-modern-merkez
