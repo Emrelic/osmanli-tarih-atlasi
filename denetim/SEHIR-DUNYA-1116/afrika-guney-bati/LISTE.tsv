@@ -373,7 +373,7 @@ bati-afrika						15.7657	-7.9687	atlas-yerlesim	Kumbî Sâlih (Gāne)	0	atlasta	
 bati-afrika						8.983	4.383	atlas-yerlesim	Oyo-İle (Eski Oyo)	0	atlasta			1		kronolojide yer_id: Oyo-İle (Eski Oyo) (1400-1400)	kronoloji	H		BORC.md (antik/yıkık yer; modern nokta ≥3 km)
 orta-afrika						-4.6546	11.805	atlas-yerlesim	Loango (Buali)	0	atlasta			1		kronolojide yer_id: Loango (Buali) (1550-1550)	kronoloji			
 guney-afrika						-15.387	28.323	atlas-yerlesim	Lusaka	0	atlasta			2		kronolojide yer_id: Lusaka (1953-1963)	kronoloji			
-bati-afrika						36.7408	43.8919	atlas-yerlesim	Akra	0	atlasta			1		kronolojide yer_id: Akra (Accra) (1957-1957)	kronoloji			
+bati-afrika						5.55	-0.2	atlas-yerlesim	Akra (Accra)	0	atlasta			1		kronolojide yer_id: Akra (Accra) (1957-1957) [17 Kasım: yer_id çözümü site adKonumBul kuralıyla düzeltildi (önceki: parantezsiz ad → yanlış yerleşim)]	kronoloji			
 bati-afrika						9.5111	-13.7109	atlas-yerlesim	Konakri (Conakry)	0	atlasta			1		kronolojide yer_id: Konakri (Conakry) (1958-1958)	kronoloji			
 orta-afrika						3.87	11.52	atlas-yerlesim	Yaunde	0	atlasta			1		kronolojide yer_id: Yaunde (1960-1960)	kronoloji			
 bati-afrika						6.95	1.17	atlas-yerlesim	Notse	0	atlasta			1		kronolojide yer_id: Notse (1960-1960)	kronoloji			
@@ -385,7 +385,7 @@ orta-afrika						12.107	15.045	atlas-yerlesim	Ndjamena	0	atlasta			1		kronolojid
 orta-afrika						4.37	18.56	atlas-yerlesim	Bangi (Bangui)	0	atlasta			1		kronolojide yer_id: Bangi (Bangui) (1960-1960)	kronoloji			
 orta-afrika						-4.79	11.86	atlas-yerlesim	Puent-Nuar	0	atlasta			1		kronolojide yer_id: Puent-Nuar (1960-1960)	kronoloji			
 bati-afrika						14.69	-17.45	atlas-yerlesim	Dakar	0	atlasta			1		kronolojide yer_id: Dakar (1960-1960)	kronoloji			
-bati-afrika						37.102	-8.674	atlas-yerlesim	Lagos (Algarve)	0	atlasta			1		kronolojide yer_id: Lagos (Eko) (1960-1960)	kronoloji			
+bati-afrika						6.45	3.4	atlas-yerlesim	Lagos (Eko)	0	atlasta			1		kronolojide yer_id: Lagos (Eko) (1960-1960) [17 Kasım: yer_id çözümü site adKonumBul kuralıyla düzeltildi (önceki: parantezsiz ad → yanlış yerleşim)]	kronoloji			
 bati-afrika						20.518	-13.054	atlas-yerlesim	Atâr (Adrar)	0	atlasta			1		kronolojide yer_id: Atâr (Adrar) (1960-1960)	kronoloji			
 orta-afrika						6.75	11.82	atlas-yerlesim	Banyo	0	atlasta			1		kronolojide yer_id: Banyo (1961-1961)	kronoloji			
 guney-afrika						-9.85	28.75	atlas-yerlesim	Mvansabombve (Kazembe)	0	atlasta			1		kronolojide yer_id: Mvansabombve (Kazembe) (1964-1964)	kronoloji			

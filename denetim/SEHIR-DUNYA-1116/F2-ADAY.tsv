@@ -332,10 +332,11 @@ afrika-guney-bati	P1	Garua (Garoua) (atlas)			9.3	13.4	kronoloji		1	kronolojide 
 afrika-guney-bati	P1	Yendi (Dagbon) (atlas)			9.44	-0.01	kronoloji		1	kronolojide yer_id: Yendi (1899-1899)
 afrika-guney-bati	P1	Danangombe (Rozvi) (atlas)			-19.6	29.3	kronoloji		1	kronolojide yer_id: Danangombe (Rozvi) (1840-1840)
 afrika-guney-bati	P1	Lusaka (atlas)			-15.387	28.323	kronoloji		2	kronolojide yer_id: Lusaka (1953-1963)
-afrika-guney-bati	P1	Akra (atlas)			36.7408	43.8919	kronoloji		1	ETİKET: Irak Akre noktası (36.74,43.89); Accra DEĞİL. Kronoloji yer_id "Akra (Accra)" bu noktaya bağlı görünüyor → atlas bağlantı hatası olabilir; Accra için ayrı satır (Accra, P3). kronolojide yer_id: Akra (Accra) (1957-1957)
+afrika-guney-bati	P1	Akra (Accra) (atlas)			5.55	-0.2	kronoloji		1	kronolojide yer_id: Akra (Accra) (1957-1957) [17 Kasım: yer_id çözümü site adKonumBul kuralıyla düze
 afrika-guney-bati	P1	Notse (atlas)			6.95	1.17	kronoloji		1	kronolojide yer_id: Notse (1960-1960)
 afrika-guney-bati	P1	Elisabethville (Lubumbashi) (atlas)			-11.664	27.479	kronoloji		2	kronolojide yer_id: Elisabethville (Lubumbashi) (1960-1963)
 afrika-guney-bati	P1	Puent-Nuar (atlas)			-4.79	11.86	kronoloji		1	kronolojide yer_id: Puent-Nuar (1960-1960)
+afrika-guney-bati	P1	Lagos (Eko) (atlas)			6.45	3.4	kronoloji		1	kronolojide yer_id: Lagos (Eko) (1960-1960) [17 Kasım: yer_id çözümü site adKonumBul kuralıyla düzel
 afrika-guney-bati	P1	Atâr (Adrar) (atlas)			20.518	-13.054	kronoloji		1	kronolojide yer_id: Atâr (Adrar) (1960-1960)
 afrika-guney-bati	P1	Banyo (atlas)			6.75	11.82	kronoloji		1	kronolojide yer_id: Banyo (1961-1961)
 afrika-guney-bati	P1	Mvansabombve (Kazembe) (atlas)			-9.85	28.75	kronoloji		1	kronolojide yer_id: Mvansabombve (Kazembe) (1964-1964)
