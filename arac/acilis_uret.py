@@ -10,6 +10,8 @@
 #     altına İNDİRİLİR (depoda taşınmaz, .gitignore). Atlasın KENDİ gövdeleri kullanılmaz:
 #     29 Eyl perdesinde atlastan alınan imparatorluklar kırık/eksik çıktı (Emre, 17 Kas).
 #   · portreler: Wikimedia Commons (kamu malı + CC BY-SA), veri-kaynak/acilis-portre/ önbelleği.
+#   · amblemler: Wikimedia Commons (bayrak/arma/tuğra), veri-kaynak/acilis-amblem/ önbelleği
+#     → img/acilis/amblemler.webp (saydam tabaka).
 # Silüetler SÜS'tür, ölçü değildir: etiketteki yıl = kullanılan veri diliminin yılı.
 import sys, os, json, math, re, time, urllib.request, html
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
@@ -68,6 +70,54 @@ PORTRE = [
     ("kubilay",   "Kubilay Han",        "YuanEmperorAlbumKhubilaiPortrait.jpg", "Kamu malı", "", (4.8, 4.3, .45)),
 ]
 HUCRE, SUTUN = 112, 8
+
+# ── AMBLEMLER (Emre, 17 Kas: "amblemler, çeşitli tarihî semboller") ─────────────
+# Haritayla birlikte fırlar, haritanın köşesine rozet olur. Bugünkü devlet = bayrak;
+# tarihî devlet = devrine ait arma/tuğra/sancak. Sonradan uydurulmuş "tarihî bayraklar"
+# (Göktürk kurt başı, Moğol, Emevî, Timurlu, Selçuklu, Babür alem) ALINMADI: Commons'taki
+# bu çizimler kaynaksız Vikipedi temsilleri (17 Kas taraması). Sade siyah/beyaz sancak
+# (Abbâsî, Emevî) tanıtıcı değil, o da yok.
+# (öğe anahtarı, ekranda ad, Commons dosyası, lisans, eser sahibi (CC için))
+AMBLEM = [
+    ("TUR", "Türk bayrağı", "Flag of Turkey.svg", "Kamu malı", ""),
+    ("GBR", "Union Jack", "Flag of the United Kingdom.svg", "Kamu malı", ""),
+    ("FRA", "Fransa bayrağı", "Flag of France.svg", "Kamu malı", ""),
+    ("ESP", "İspanya bayrağı", "Flag of Spain.svg", "Kamu malı", ""),
+    ("DEU", "Almanya bayrağı", "Flag of Germany.svg", "Kamu malı", ""),
+    ("ITA", "İtalya bayrağı", "Flag of Italy.svg", "Kamu malı", ""),
+    ("RUS", "Rusya bayrağı", "Flag of Russia.svg", "Kamu malı", ""),
+    ("CHN", "Çin bayrağı", "Flag of the People's Republic of China.svg", "Kamu malı", ""),
+    ("IND", "Hindistan bayrağı", "Flag of India.svg", "Kamu malı", ""),
+    ("EGY", "Mısır bayrağı", "Flag of Egypt.svg", "Kamu malı", ""),
+    ("USA", "ABD bayrağı", "Flag of the United States.svg", "Kamu malı", ""),
+    ("MEX", "Meksika bayrağı", "Flag of Mexico.svg", "Kamu malı", ""),
+    ("JPN", "Japonya bayrağı", "Flag of Japan.svg", "Kamu malı", ""),
+    ("BRA", "Brezilya bayrağı", "Flag of Brazil.svg", "Kamu malı", ""),
+    ("osm", "Kanunî'nin tuğrası", "Tughra of Suleiman I the Magnificent.svg", "?", ""),
+    ("rom", "SPQR", "SPQR.svg", "Kamu malı", ""),
+    ("isk", "Vergina güneşi", "Vergina sun.svg", "Kamu malı", ""),
+    ("biz", "Palaiologos çift başlı kartalı", "Palaiologos-Dynasty-Eagle.svg", "Kamu malı", ""),
+    ("ing", "Britanya kraliyet arması", "Royal Coat of Arms of the United Kingdom.svg", "CC BY-SA 3.0", "Sodacan"),
+    ("per", "Kiros'un sancağı", "Standard of Cyrus the Great (Achaemenid Empire).svg", "Kamu malı", ""),
+    ("rus", "Rus İmparatorluğu arması", "Lesser Coat of Arms of Russian Empire.svg", "Kamu malı", ""),
+    ("isp", "Burgonya haçı", "Flag of Cross of Burgundy.svg", "Kamu malı", ""),
+    ("fra", "Fransa zambakları", "Blason pays fr FranceAncien.svg", "Kamu malı", ""),
+    ("qng", "Qing ejder bayrağı", "Flag of China (1889–1912).svg", "?", ""),
+    ("alm", "Reichsadler", "Wappen Deutsches Reich - Reichsadler 1889.svg", "Kamu malı", ""),
+    ("avm", "Avusturya-Macaristan arması", "Coat of arms of Austria-Hungary (1914).svg", "?", ""),
+    ("mis", "Ankh", "Ankh.svg", "Kamu malı", ""),
+    ("kar", "Tanit işareti", "Tanit-Symbol.svg", "Kamu malı", ""),
+    ("leh", "Lehistan-Litvanya arması", "Coat of Arms of the Polish-Lithuanian Commonwealth.svg", "CC BY-SA 3.0", "Avalokitesvara"),
+    ("isv", "İsveç büyük arması", "Great coat of arms of Sweden.svg", "Kamu malı", ""),
+    ("por", "Portekiz bayrağı (1707)", "Flag of Portugal (1707).svg", "Kamu malı", ""),
+    ("hol", "VOC damgası", "VOC.svg", "Kamu malı", ""),
+    ("mau", "Aşoka aslan başlığı", "Emblem of India.svg", "Kamu malı", ""),
+]
+AM = os.path.join(KOK, "veri-kaynak", "acilis-amblem")
+ASPRITE = os.path.join(KOK, "img", "acilis", "amblemler.webp")
+AHUCRE = 96
+ALTIN = {"osm", "mis", "hol", "mau"}   # siyah tek renk çizim → altın
+PARSOMEN = {"alm", "rus"}                     # koyu ama renkli → parşömen yuvarlak üstünde
 
 # ── HARİTALAR ────────────────────────────────────────────────────────────────
 # Dalga 1: bugünkü devletler (Natural Earth ADM0_A3). Dalga 2: her milletin en bilinen /
@@ -281,6 +331,70 @@ def portreler():
     print("portre tabakası: %d yüz, %d B" % (n, os.path.getsize(SPRITE)))
 
 
+def amblemler():
+    """Commons'un PNG çizimini indirir (önbellek), kareye ortalar, tek saydam WebP tabakası yazar.
+    Lisansı Commons'tan okur ve listedekiyle karşılaştırır ('?' = henüz okunmadı)."""
+    from PIL import Image
+    import urllib.parse
+    os.makedirs(AM, exist_ok=True)
+    n = len(AMBLEM)
+    tab = Image.new("RGBA", (SUTUN * AHUCRE, ((n + SUTUN - 1) // SUTUN) * AHUCRE), (0, 0, 0, 0))
+    for i, (k, ad, dosya, lis, eser) in enumerate(AMBLEM):
+        # Windows dosya adında büyük/küçük harf ayırmaz: "rus" ile "RUS" aynı dosyaya düşüyordu
+        p = os.path.join(AM, k + ("-tarih" if k.islower() else "") + ".png")
+        if not os.path.exists(p):
+            q = urllib.parse.urlencode({"action": "query", "format": "json", "prop": "imageinfo",
+                                        "iiprop": "url|extmetadata", "iiurlwidth": 240, "titles": "File:" + dosya})
+            for den in range(5):
+                try:
+                    r = json.load(urllib.request.urlopen(urllib.request.Request(
+                        "https://commons.wikimedia.org/w/api.php?" + q, headers=UA), timeout=60))
+                    ii = list(r["query"]["pages"].values())[0]["imageinfo"][0]
+                    veri = urllib.request.urlopen(urllib.request.Request(ii["thumburl"], headers=UA), timeout=60).read()
+                    break
+                except urllib.error.HTTPError as e:
+                    if e.code != 429:
+                        raise
+                    time.sleep(15 * (den + 1))
+            open(p, "wb").write(veri)
+            print("amblem %-4s %s · Commons lisansı: %s" % (k, dosya, ii.get("extmetadata", {}).get("LicenseShortName", {}).get("value")))
+            time.sleep(3)
+        im = Image.open(p).convert("RGBA")
+        bb = im.getbbox()
+        if bb:
+            im = im.crop(bb)
+        # Koyu çizim perdenin koyu zemininde kaybolur (tuğra, ankh, VOC, Reichsadler — 17 Kas
+        # önizlemesi): tek renkliyse ALTINA boyanır, renkliyse parşömen yuvarlak üstüne oturur.
+        # Liste ELLE: parlaklık eşiği kırmızı bayrakları (Türk, Alman) da yakalıyordu.
+        if k in ALTIN or k in PARSOMEN:
+            if k in ALTIN:
+                altin = Image.new("RGBA", im.size, (232, 197, 106, 255))
+                altin.putalpha(im.getchannel("A"))
+                im = altin
+            else:
+                from PIL import ImageDraw
+                s = int(max(im.size) * 1.12)
+                zem = Image.new("RGBA", (s, s), (0, 0, 0, 0))
+                ImageDraw.Draw(zem).ellipse((0, 0, s - 1, s - 1), fill=(236, 224, 196, 255), outline=(201, 162, 39, 255), width=max(2, s // 40))
+                zem.alpha_composite(im, ((s - im.width) // 2, (s - im.height) // 2))
+                im = zem
+        a = AHUCRE - 6
+        olc = min(a / im.width, a / im.height)
+        im = im.resize((max(1, round(im.width * olc)), max(1, round(im.height * olc))), Image.LANCZOS)
+        x0, y0 = (i % SUTUN) * AHUCRE + (AHUCRE - im.width) // 2, (i // SUTUN) * AHUCRE + (AHUCRE - im.height) // 2
+        # Gölge tabakaya GÖMÜLÜR: uçan öğede CSS filter her kare yeniden hesaplanıyor (0929 ölçümü)
+        from PIL import ImageFilter
+        g = Image.new("RGBA", im.size, (0, 0, 0, 0))
+        g.putalpha(im.getchannel("A").point(lambda v: v * 0.55))
+        gt = Image.new("RGBA", (im.width + 8, im.height + 8), (0, 0, 0, 0))
+        gt.alpha_composite(g, (4, 4))
+        gt = gt.filter(ImageFilter.GaussianBlur(1.6))
+        tab.alpha_composite(gt, (x0 - 3, y0 - 2))
+        tab.alpha_composite(im, (x0, y0))
+    tab.save(ASPRITE, "WEBP", quality=82, method=6)
+    print("amblem tabakası: %d amblem, %d B" % (n, os.path.getsize(ASPRITE)))
+
+
 def js(x):
     return json.dumps(x, ensure_ascii=False, separators=(",", ":"))
 
@@ -340,7 +454,12 @@ def main():
         print("galeri:", galeri)
         return
 
+    AI = {a[0]: i for i, a in enumerate(AMBLEM)}
+    for o in ogeler:
+        if o["k"] in AI:
+            o["amb"] = AI[o["k"]]
     portreler()
+    amblemler()
     kisiler = [{"ad": p[1]} for p in PORTRE]
     blok = ("/* >>> VERI (uretildi: arac/acilis_uret.py) — ELLE DUZENLEME */\n"
             "window.ACILIS_SILUET = {\n"
@@ -348,6 +467,7 @@ def main():
             "  kara: " + js(kara_duz) + ",\n"
             "  portre: " + js({"url": "img/acilis/portreler.jpg", "hucre": HUCRE, "sutun": SUTUN}) + ",\n"
             "  kisiler: " + js(kisiler) + ",\n"
+            "  amblem: " + js({"url": "img/acilis/amblemler.webp", "hucre": AHUCRE, "sutun": SUTUN}) + ",\n"
             "  final: " + js(final) + ",\n"
             "  ogeler: [\n" + ",\n".join("    " + js(o) for o in ogeler) + "\n  ]\n};\n"
             "/* <<< VERI */")

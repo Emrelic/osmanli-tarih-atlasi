@@ -40,5 +40,11 @@ Fatih + Kanunî, Roma'dan en az 5 imparator, her milletten 1-2 kişi).
 - Sınama: yerel `py -m http.server`, ayrı sınama sayfası (perde tek başına), 1400×860 ve
   375×812. Konsol hatası yok; 13,8. sn'de 110 canlandırma akıyor, ilk harita yerinde
   (opaklık 0,42); `?bitir=` ile toplanma + Türkiye, perde DOM'dan kalkıyor.
+- **Amblem eki (aynı gün, Emre "Evet, ekle"):** 33 amblem (14 bayrak + 19 tarihî arma/tuğra/
+  sancak) tek saydam WebP tabakası `img/acilis/amblemler.webp` 93 KB; her biri haritasıyla
+  60 ms sonra fırlar, haritanın sol üst köşesine 42 px (dar 30 px) rozet olur. Sınama
+  800×600: 33 rozet, 201 canlandırma, konsol hatası yok. Künye ve elenenler `img/acilis/KAYNAK.md`.
+  Tuzak: Windows dosya adında büyük/küçük harf ayırmıyor — `rus`/`RUS` önbellekte çakıştı
+  (tarihî önbellek dosyası artık `-tarih` ekli).
 - **Ölçülmedi:** tam sitede yükleme süresine etkisi (worktree'de üretilmiş veri yok);
   push kapısının `denetle_yayin` sınavı sitenin açılışını koşturur.

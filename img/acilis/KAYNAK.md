@@ -58,6 +58,39 @@ eserlerden uyarlamadır ve aynı lisansla paylaşılır.
 
 Dosya sayfası: `https://commons.wikimedia.org/wiki/File:<dosya adı>`.
 
+## Amblemler (`amblemler.webp`, 33 amblem, 8 sütunlu saydam tabaka)
+Kaynak: Wikimedia Commons; lisans, üretim sırasında Commons'tan okundu (17 Kasım 2026).
+Bugünün devletleri için bayrak, tarihî devletler için devrine ait arma/tuğra/sancak.
+Siyah tek renk çizimler (tuğra, ankh, VOC, Aşoka) altın renge boyandı; Reichsadler ve Rus
+arması parşömen yuvarlak üstüne kondu — bu uyarlamalar aynı lisansla paylaşılır.
+
+| Öğe | Amblem | Commons dosyası | Lisans |
+|---|---|---|---|
+| Bugünün 14 devleti | bayrak | Flag of Turkey.svg, Flag of the United Kingdom.svg, Flag of France.svg, Flag of Spain.svg, Flag of Germany.svg, Flag of Italy.svg, Flag of Russia.svg, Flag of the People's Republic of China.svg, Flag of India.svg, Flag of Egypt.svg, Flag of the United States.svg, Flag of Mexico.svg, Flag of Japan.svg, Flag of Brazil.svg | Kamu malı |
+| Osmanlı | Kanunî'nin tuğrası | Tughra of Suleiman I the Magnificent.svg | Kamu malı |
+| Roma | SPQR | SPQR.svg | Kamu malı |
+| İskender | Vergina güneşi | Vergina sun.svg | Kamu malı |
+| Bizans | Palaiologos çift başlı kartalı | Palaiologos-Dynasty-Eagle.svg | Kamu malı |
+| Britanya | kraliyet arması | Royal Coat of Arms of the United Kingdom.svg | CC BY-SA 3.0 (Sodacan) |
+| Ahameniş | Kiros'un sancağı | Standard of Cyrus the Great (Achaemenid Empire).svg | Kamu malı |
+| Rus İmp. | küçük arma | Lesser Coat of Arms of Russian Empire.svg | Kamu malı |
+| İspanyol | Burgonya haçı | Flag of Cross of Burgundy.svg | Kamu malı |
+| Fransız | zambaklar (France Ancien) | Blason pays fr FranceAncien.svg | Kamu malı |
+| Qing | ejder bayrağı | Flag of China (1889–1912).svg | Kamu malı |
+| Alman İmp. | Reichsadler | Wappen Deutsches Reich - Reichsadler 1889.svg | Kamu malı |
+| Avusturya-Macaristan | arma | Coat of arms of Austria-Hungary (1914).svg | Kamu malı |
+| Eski Mısır | ankh | Ankh.svg | Kamu malı |
+| Kartaca | Tanit işareti | Tanit-Symbol.svg | Kamu malı |
+| Lehistan-Litvanya | arma | Coat of Arms of the Polish-Lithuanian Commonwealth.svg | CC BY-SA 3.0 (Avalokitesvara) |
+| İsveç | büyük arma | Great coat of arms of Sweden.svg | Kamu malı |
+| Portekiz | bayrak (1707) | Flag of Portugal (1707).svg | Kamu malı |
+| Hollanda | VOC damgası | VOC.svg | Kamu malı |
+| Maurya | Aşoka aslan başlığı (Hindistan arması çizimi) | Emblem of India.svg | Kamu malı |
+
+**Alınmayanlar:** Göktürk, Moğol, Emevî, Abbâsî, Selçuklu, Timurlu, Babür, Safevî
+"bayrakları" — Commons'taki çizimler kaynaksız sonradan temsiller; Kiev Rus, Aztek, İnka için
+uygun dosya bulunamadı.
+
 **Elenenler:** Kiros (madde görseli modern kabartma, CC BY-SA, portre değil) ·
 Hârûnürreşîd (yalnız sikke) · Konfüçyüs (Han fresko, 112 px'te okunmuyor) ·
 I. Dârâ (kabartma, okunmuyor) · Mao (siyasî; Emre'ye sorulmadan eklenmedi).

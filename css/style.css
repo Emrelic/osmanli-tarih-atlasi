@@ -3526,6 +3526,11 @@ html.acilis-js::after, html.acilis-js body::before { display: none; }
 /* Ülkesinin ÜSTÜNDEN fırlar (küre z 2'nin önünde); hedefler küre dışında olduğu
    için yere inen öğe küreyi örtmez. */
 #acilis .acilis-sil, #acilis .acilis-kisi { z-index: 4; }
+/* Amblem rozeti: haritanın köşesinde, haritanın üstünde (gölge tabakaya gömülü) */
+#acilis .acilis-amb {
+  position: absolute; z-index: 5; opacity: 0; will-change: transform, opacity;
+  background-repeat: no-repeat;
+}
 #acilis .acilis-kisi { text-align: center; }
 #acilis .acilis-yuz {
   border-radius: 50%; border: 2px solid #d9b45a; box-sizing: border-box;
