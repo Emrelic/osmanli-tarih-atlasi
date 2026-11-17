@@ -1,0 +1,18 @@
+bolge	ulke	dil	kaynak_adi	tur	url	tam_govde_okunur	sehir_bazli_sorgu	ornek_sorgu	olcum
+Karayip-OrtaAmerika	Guatemala/Honduras/El Salvador/Nikaragua/Kosta Rika/Panama/Belize	en/çok	Britannica	ansiklopedi	https://www.britannica.com/place/<Sehir>	E	E (place maddesi)	britannica.com/place/Havana	OLCULDU
+Karayip-OrtaAmerika	Guatemala/Honduras/El Salvador/Nikaragua/Kosta Rika/Panama/Belize	en/çok	UNESCO World Heritage Centre	kurumsal	https://whc.unesco.org/en/list/<no>/	E	E (alan kaydı)	whc.unesco.org/en/list/65	OLCULDU
+Karayip-OrtaAmerika	Guatemala/Honduras/El Salvador/Nikaragua/Kosta Rika/Panama/Belize	en/çok	Pleiades	gazetteer	https://pleiades.stoa.org/places/<no>	E (Anubis ara sayfası ~3 sn)	E (antik yer)	pleiades.stoa.org/places/922662	OLCULDU
+Karayip-OrtaAmerika	Guatemala/Honduras/El Salvador/Nikaragua/Kosta Rika/Panama/Belize	en/çok	Getty TGN	gazetteer	https://vocab.getty.edu/page/tgn/<no>	E	E (yer adı, koordinat)	vocab.getty.edu/page/tgn/7009852	OLCULDU
+Karayip-OrtaAmerika	Guatemala/Honduras/El Salvador/Nikaragua/Kosta Rika/Panama/Belize	en/çok	GeoNames	gazetteer	https://www.geonames.org/search.html?q=<ad>	E (arama sayfası)	E	geonames.org/search.html?q=Sigtuna	OLCULDU
+Karayip-OrtaAmerika	Guatemala/Honduras/El Salvador/Nikaragua/Kosta Rika/Panama/Belize	es/en	Cambridge History of Latin America (CUP)	monografi	https://www.cambridge.org/core/	E (özet sayfası; HAVVA bildirdi)	kısmen	—	BILDIRILDI
+Karayip-OrtaAmerika	Guatemala/Honduras/El Salvador/Nikaragua/Kosta Rika/Panama/Belize	es	UNESCO WHC (Antigua Guatemala, Copán, Tikal, Panamá Viejo…)	kurumsal	https://whc.unesco.org/en/list/	E	E	whc.unesco.org/en/list/65	OLCULDU
+Karayip-OrtaAmerika	Guatemala/Honduras/El Salvador/Nikaragua/Kosta Rika/Panama/Belize	en	Handbook of Latin American Studies (LoC)	bibliyografya	https://www.loc.gov/hlas/	H (Cloudflare 403)	H	—	OLCULDU
+Karayip-OrtaAmerika	Guatemala/Honduras/El Salvador/Nikaragua/Kosta Rika/Panama/Belize	es	Ulusal arşivler/ansiklopediler (AGCA Guatemala vb.)	arşiv	—	DENENMEDI	?	—	DENENMEDI
+Karayip-OrtaAmerika	Küba/Haiti/Dominik C./Jamaika/Porto Riko/Küçük Antiller	en/çok	Britannica	ansiklopedi	https://www.britannica.com/place/<Sehir>	E	E (place maddesi)	britannica.com/place/Havana	OLCULDU
+Karayip-OrtaAmerika	Küba/Haiti/Dominik C./Jamaika/Porto Riko/Küçük Antiller	en/çok	UNESCO World Heritage Centre	kurumsal	https://whc.unesco.org/en/list/<no>/	E	E (alan kaydı)	whc.unesco.org/en/list/65	OLCULDU
+Karayip-OrtaAmerika	Küba/Haiti/Dominik C./Jamaika/Porto Riko/Küçük Antiller	en/çok	Pleiades	gazetteer	https://pleiades.stoa.org/places/<no>	E (Anubis ara sayfası ~3 sn)	E (antik yer)	pleiades.stoa.org/places/922662	OLCULDU
+Karayip-OrtaAmerika	Küba/Haiti/Dominik C./Jamaika/Porto Riko/Küçük Antiller	en/çok	Getty TGN	gazetteer	https://vocab.getty.edu/page/tgn/<no>	E	E (yer adı, koordinat)	vocab.getty.edu/page/tgn/7009852	OLCULDU
+Karayip-OrtaAmerika	Küba/Haiti/Dominik C./Jamaika/Porto Riko/Küçük Antiller	en/çok	GeoNames	gazetteer	https://www.geonames.org/search.html?q=<ad>	E (arama sayfası)	E	geonames.org/search.html?q=Sigtuna	OLCULDU
+Karayip-OrtaAmerika	Küba/Haiti/Dominik C./Jamaika/Porto Riko/Küçük Antiller	es/en/fr	Britannica (Havana, Santo Domingo, Kingston…)	ansiklopedi	https://www.britannica.com/place/<Sehir>	E (Havana okundu; Santo Domingo slug'ı 404, doğru slug aranmalı)	E	britannica.com/place/Havana	OLCULDU
+Karayip-OrtaAmerika	Küba/Haiti/Dominik C./Jamaika/Porto Riko/Küçük Antiller	es	Moya Pons, Pérez (1995), Higman (monografiler)	monografi	—	H (önceki oturum: gövde okunamadı)	H	—	BILDIRILDI (repo başlığı)
+Karayip-OrtaAmerika	Küba/Haiti/Dominik C./Jamaika/Porto Riko/Küçük Antiller	en	Oxford/Cambridge History of the Caribbean	monografi	https://www.cambridge.org/core/	kısmen (özet)	kısmen	—	DENENMEDI

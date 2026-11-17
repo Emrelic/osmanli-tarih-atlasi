@@ -1,0 +1,40 @@
+bolge	ulke	dil	kaynak_adi	tur	url	tam_govde_okunur	sehir_bazli_sorgu	ornek_sorgu	olcum
+Magrip-Misir	Mısır	en/çok	Britannica	ansiklopedi	https://www.britannica.com/place/<Sehir>	E	E (place maddesi)	britannica.com/place/Havana	OLCULDU
+Magrip-Misir	Mısır	en/çok	UNESCO World Heritage Centre	kurumsal	https://whc.unesco.org/en/list/<no>/	E	E (alan kaydı)	whc.unesco.org/en/list/65	OLCULDU
+Magrip-Misir	Mısır	en/çok	Pleiades	gazetteer	https://pleiades.stoa.org/places/<no>	E (Anubis ara sayfası ~3 sn)	E (antik yer)	pleiades.stoa.org/places/922662	OLCULDU
+Magrip-Misir	Mısır	en/çok	Getty TGN	gazetteer	https://vocab.getty.edu/page/tgn/<no>	E	E (yer adı, koordinat)	vocab.getty.edu/page/tgn/7009852	OLCULDU
+Magrip-Misir	Mısır	en/çok	GeoNames	gazetteer	https://www.geonames.org/search.html?q=<ad>	E (arama sayfası)	E	geonames.org/search.html?q=Sigtuna	OLCULDU
+Magrip-Misir	Mısır	tr	TDV İslâm Ansiklopedisi	ansiklopedi	https://islamansiklopedisi.org.tr/<slug>	E (tarayıcı; WebFetch özeti yanlış 'yok' verir; ≥5 sn)	E (madde başlığı)	islamansiklopedisi.org.tr/asvan	OLCULDU
+Magrip-Misir	Mısır	fr/ar	Encyclopédie de l'Islam (Brill)	ansiklopedi	https://referenceworks.brillonline.com/	H (403)	H	—	OLCULDU
+Magrip-Misir	Mısır	ar	Makrîzî, el-Hıtat; İbn İyâs, Bedâi'u'z-zühûr (neşirler)	birincil neşir	—	belirsiz	kısmen	—	DENENMEDI
+Magrip-Misir	Mısır	en	Cambridge History of Egypt (CUP)	monografi	https://www.cambridge.org/core/	E (HAVVA bildirdi: Cambridge Core 13.223 kr)	kısmen (özet sayfası)	cambridge.org/core ... Egypt	BILDIRILDI
+Magrip-Misir	Libya	en/çok	Britannica	ansiklopedi	https://www.britannica.com/place/<Sehir>	E	E (place maddesi)	britannica.com/place/Havana	OLCULDU
+Magrip-Misir	Libya	en/çok	UNESCO World Heritage Centre	kurumsal	https://whc.unesco.org/en/list/<no>/	E	E (alan kaydı)	whc.unesco.org/en/list/65	OLCULDU
+Magrip-Misir	Libya	en/çok	Pleiades	gazetteer	https://pleiades.stoa.org/places/<no>	E (Anubis ara sayfası ~3 sn)	E (antik yer)	pleiades.stoa.org/places/922662	OLCULDU
+Magrip-Misir	Libya	en/çok	Getty TGN	gazetteer	https://vocab.getty.edu/page/tgn/<no>	E	E (yer adı, koordinat)	vocab.getty.edu/page/tgn/7009852	OLCULDU
+Magrip-Misir	Libya	en/çok	GeoNames	gazetteer	https://www.geonames.org/search.html?q=<ad>	E (arama sayfası)	E	geonames.org/search.html?q=Sigtuna	OLCULDU
+Magrip-Misir	Libya	tr	TDV İslâm Ansiklopedisi	ansiklopedi	https://islamansiklopedisi.org.tr/<slug>	E	E (Trablusgarp, Bingazi, Fizan okundu)	trablusgarp	OLCULDU
+Magrip-Misir	Libya	it	Treccani (Enciclopedia Italiana)	ansiklopedi	https://www.treccani.it/enciclopedia/	E (HAVVA bildirdi)	E	treccani.it/enciclopedia/tripoli	BILDIRILDI
+Magrip-Misir	Tunus	en/çok	Britannica	ansiklopedi	https://www.britannica.com/place/<Sehir>	E	E (place maddesi)	britannica.com/place/Havana	OLCULDU
+Magrip-Misir	Tunus	en/çok	UNESCO World Heritage Centre	kurumsal	https://whc.unesco.org/en/list/<no>/	E	E (alan kaydı)	whc.unesco.org/en/list/65	OLCULDU
+Magrip-Misir	Tunus	en/çok	Pleiades	gazetteer	https://pleiades.stoa.org/places/<no>	E (Anubis ara sayfası ~3 sn)	E (antik yer)	pleiades.stoa.org/places/922662	OLCULDU
+Magrip-Misir	Tunus	en/çok	Getty TGN	gazetteer	https://vocab.getty.edu/page/tgn/<no>	E	E (yer adı, koordinat)	vocab.getty.edu/page/tgn/7009852	OLCULDU
+Magrip-Misir	Tunus	en/çok	GeoNames	gazetteer	https://www.geonames.org/search.html?q=<ad>	E (arama sayfası)	E	geonames.org/search.html?q=Sigtuna	OLCULDU
+Magrip-Misir	Tunus	tr	TDV İslâm Ansiklopedisi	ansiklopedi	https://islamansiklopedisi.org.tr/<slug>	E (Tunus, Kayrevan, Mehdiye, Sefâkus, Sûse okundu)	E	kayrevan	OLCULDU
+Magrip-Misir	Tunus	fr	Persée (Revue africaine, Cahiers de Tunisie, REMMM)	dergi	https://www.persee.fr/search?q=<sehir>	E (arama sonucu)	E (arama)	persee.fr/search?ta=article&q=Kairouan	OLCULDU
+Magrip-Misir	Tunus	fr	OpenEdition Journals (Encyclopédie berbère)	ansiklopedi/dergi	https://journals.openedition.org/encyclopedieberbere/	arama kapısı denendi (Magrip3 ajanı: arama sonuç vermedi)	kısmen	—	OLCULDU (kısmen)
+Magrip-Misir	Cezayir	en/çok	Britannica	ansiklopedi	https://www.britannica.com/place/<Sehir>	E	E (place maddesi)	britannica.com/place/Havana	OLCULDU
+Magrip-Misir	Cezayir	en/çok	UNESCO World Heritage Centre	kurumsal	https://whc.unesco.org/en/list/<no>/	E	E (alan kaydı)	whc.unesco.org/en/list/65	OLCULDU
+Magrip-Misir	Cezayir	en/çok	Pleiades	gazetteer	https://pleiades.stoa.org/places/<no>	E (Anubis ara sayfası ~3 sn)	E (antik yer)	pleiades.stoa.org/places/922662	OLCULDU
+Magrip-Misir	Cezayir	en/çok	Getty TGN	gazetteer	https://vocab.getty.edu/page/tgn/<no>	E	E (yer adı, koordinat)	vocab.getty.edu/page/tgn/7009852	OLCULDU
+Magrip-Misir	Cezayir	en/çok	GeoNames	gazetteer	https://www.geonames.org/search.html?q=<ad>	E (arama sayfası)	E	geonames.org/search.html?q=Sigtuna	OLCULDU
+Magrip-Misir	Cezayir	tr	TDV İslâm Ansiklopedisi	ansiklopedi	https://islamansiklopedisi.org.tr/<slug>	E (Cezayir, Bûne, Bicâye, Vehrân, Tilimsân okundu); Batna/Sétif/Mascara/Tizi Ouzou başlık maddesi yok	E	vehran	OLCULDU
+Magrip-Misir	Cezayir	fr	Persée (Revue africaine vb.)	dergi	https://www.persee.fr/	E	E (arama)	persee.fr/search?q=Sétif	OLCULDU
+Magrip-Misir	Cezayir	fr	Gallica (BnF) / Revue africaine tam metin	arşiv	https://gallica.bnf.fr/	H (Magrip3 ajanı: arama sonuç vermedi)	H	—	OLCULDU (kısmen)
+Magrip-Misir	Fas	en/çok	Britannica	ansiklopedi	https://www.britannica.com/place/<Sehir>	E	E (place maddesi)	britannica.com/place/Havana	OLCULDU
+Magrip-Misir	Fas	en/çok	UNESCO World Heritage Centre	kurumsal	https://whc.unesco.org/en/list/<no>/	E	E (alan kaydı)	whc.unesco.org/en/list/65	OLCULDU
+Magrip-Misir	Fas	en/çok	Pleiades	gazetteer	https://pleiades.stoa.org/places/<no>	E (Anubis ara sayfası ~3 sn)	E (antik yer)	pleiades.stoa.org/places/922662	OLCULDU
+Magrip-Misir	Fas	en/çok	Getty TGN	gazetteer	https://vocab.getty.edu/page/tgn/<no>	E	E (yer adı, koordinat)	vocab.getty.edu/page/tgn/7009852	OLCULDU
+Magrip-Misir	Fas	en/çok	GeoNames	gazetteer	https://www.geonames.org/search.html?q=<ad>	E (arama sayfası)	E	geonames.org/search.html?q=Sigtuna	OLCULDU
+Magrip-Misir	Fas	tr	TDV İslâm Ansiklopedisi	ansiklopedi	https://islamansiklopedisi.org.tr/<slug>	E (Fas, Rabat, Tanca, Sebte okundu)	E	tanca	OLCULDU
+Magrip-Misir	Fas	fr/ar	Hespéris-Tamuda / Encyclopédie berbère	dergi	https://journals.openedition.org/encyclopedieberbere/	belirsiz	kısmen	—	DENENMEDI

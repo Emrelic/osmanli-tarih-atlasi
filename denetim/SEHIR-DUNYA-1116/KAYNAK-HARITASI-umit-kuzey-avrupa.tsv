@@ -1,0 +1,47 @@
+bolge	ulke	dil	kaynak_adi	tur	url	tam_govde_okunur	sehir_bazli_sorgu	ornek_sorgu	olcum
+Kuzey-Avrupa	İsveç	en/çok	Britannica	ansiklopedi	https://www.britannica.com/place/<Sehir>	E	E (place maddesi)	britannica.com/place/Havana	OLCULDU
+Kuzey-Avrupa	İsveç	en/çok	UNESCO World Heritage Centre	kurumsal	https://whc.unesco.org/en/list/<no>/	E	E (alan kaydı)	whc.unesco.org/en/list/65	OLCULDU
+Kuzey-Avrupa	İsveç	en/çok	Pleiades	gazetteer	https://pleiades.stoa.org/places/<no>	E (Anubis ara sayfası ~3 sn)	E (antik yer)	pleiades.stoa.org/places/922662	OLCULDU
+Kuzey-Avrupa	İsveç	en/çok	Getty TGN	gazetteer	https://vocab.getty.edu/page/tgn/<no>	E	E (yer adı, koordinat)	vocab.getty.edu/page/tgn/7009852	OLCULDU
+Kuzey-Avrupa	İsveç	en/çok	GeoNames	gazetteer	https://www.geonames.org/search.html?q=<ad>	E (arama sayfası)	E	geonames.org/search.html?q=Sigtuna	OLCULDU
+Kuzey-Avrupa	İsveç	sv	Svenskt biografiskt lexikon	biyografi	https://sok.riksarkivet.se/sbl/	denenmedi (arama şehir sonucu vermedi)	kısmen	—	OLCULDU (kısmen)
+Kuzey-Avrupa	İsveç	sv	Nationalencyklopedin (ne.se)	ansiklopedi	https://www.ne.se/	H (abonelik duvarı)	H	—	OLCULDU
+Kuzey-Avrupa	İsveç	da/sv	lex.dk (Den Store Danske)	ansiklopedi	https://lex.dk/<madde>	E	E	lex.dk/Uppsala	OLCULDU
+Kuzey-Avrupa	İsveç	sv	Riksarkivet (Diplomatarium Suecanum)	arşiv neşri	https://sok.riksarkivet.se/dipl	DENENMEDI	?	—	DENENMEDI
+Kuzey-Avrupa	İsveç	sv	runeberg.org (Nordisk familjebok)	ansiklopedi (1904-26)	https://runeberg.org/nfbg/	H (bu panelde navigate reddedildi/başarısız, 2 deneme)	?	—	OLCULDU
+Kuzey-Avrupa	Norveç	en/çok	Britannica	ansiklopedi	https://www.britannica.com/place/<Sehir>	E	E (place maddesi)	britannica.com/place/Havana	OLCULDU
+Kuzey-Avrupa	Norveç	en/çok	UNESCO World Heritage Centre	kurumsal	https://whc.unesco.org/en/list/<no>/	E	E (alan kaydı)	whc.unesco.org/en/list/65	OLCULDU
+Kuzey-Avrupa	Norveç	en/çok	Pleiades	gazetteer	https://pleiades.stoa.org/places/<no>	E (Anubis ara sayfası ~3 sn)	E (antik yer)	pleiades.stoa.org/places/922662	OLCULDU
+Kuzey-Avrupa	Norveç	en/çok	Getty TGN	gazetteer	https://vocab.getty.edu/page/tgn/<no>	E	E (yer adı, koordinat)	vocab.getty.edu/page/tgn/7009852	OLCULDU
+Kuzey-Avrupa	Norveç	en/çok	GeoNames	gazetteer	https://www.geonames.org/search.html?q=<ad>	E (arama sayfası)	E	geonames.org/search.html?q=Sigtuna	OLCULDU
+Kuzey-Avrupa	Norveç	no	Store norske leksikon (snl.no)	ansiklopedi	https://snl.no/<madde>	E	E	snl.no/Trondheim	OLCULDU
+Kuzey-Avrupa	Norveç	no	Norsk biografisk leksikon	biyografi	https://nbl.snl.no/	DENENMEDI (arama sonuç vermedi)	?	—	DENENMEDI
+Kuzey-Avrupa	Norveç	no	Arkivverket (Diplomatarium Norvegicum)	arşiv neşri	https://www.arkivverket.no/	DENENMEDI	?	—	DENENMEDI
+Kuzey-Avrupa	Danimarka	en/çok	Britannica	ansiklopedi	https://www.britannica.com/place/<Sehir>	E	E (place maddesi)	britannica.com/place/Havana	OLCULDU
+Kuzey-Avrupa	Danimarka	en/çok	UNESCO World Heritage Centre	kurumsal	https://whc.unesco.org/en/list/<no>/	E	E (alan kaydı)	whc.unesco.org/en/list/65	OLCULDU
+Kuzey-Avrupa	Danimarka	en/çok	Pleiades	gazetteer	https://pleiades.stoa.org/places/<no>	E (Anubis ara sayfası ~3 sn)	E (antik yer)	pleiades.stoa.org/places/922662	OLCULDU
+Kuzey-Avrupa	Danimarka	en/çok	Getty TGN	gazetteer	https://vocab.getty.edu/page/tgn/<no>	E	E (yer adı, koordinat)	vocab.getty.edu/page/tgn/7009852	OLCULDU
+Kuzey-Avrupa	Danimarka	en/çok	GeoNames	gazetteer	https://www.geonames.org/search.html?q=<ad>	E (arama sayfası)	E	geonames.org/search.html?q=Sigtuna	OLCULDU
+Kuzey-Avrupa	Danimarka	da	lex.dk	ansiklopedi	https://lex.dk/<madde>	E	E	lex.dk/Maribo	OLCULDU
+Kuzey-Avrupa	Danimarka	da	Dansk Biografisk Leksikon	biyografi	https://biografiskleksikon.lex.dk/	DENENMEDI (arama sonuç vermedi)	?	—	DENENMEDI
+Kuzey-Avrupa	Danimarka	da	Trap Danmark / Rigsarkivet / Diplomatarium Danicum	topografya/arşiv	https://diplomatarium.dk/	DENENMEDI	?	—	DENENMEDI
+Kuzey-Avrupa	Finlandiya/Åland	en/çok	Britannica	ansiklopedi	https://www.britannica.com/place/<Sehir>	E	E (place maddesi)	britannica.com/place/Havana	OLCULDU
+Kuzey-Avrupa	Finlandiya/Åland	en/çok	UNESCO World Heritage Centre	kurumsal	https://whc.unesco.org/en/list/<no>/	E	E (alan kaydı)	whc.unesco.org/en/list/65	OLCULDU
+Kuzey-Avrupa	Finlandiya/Åland	en/çok	Pleiades	gazetteer	https://pleiades.stoa.org/places/<no>	E (Anubis ara sayfası ~3 sn)	E (antik yer)	pleiades.stoa.org/places/922662	OLCULDU
+Kuzey-Avrupa	Finlandiya/Åland	en/çok	Getty TGN	gazetteer	https://vocab.getty.edu/page/tgn/<no>	E	E (yer adı, koordinat)	vocab.getty.edu/page/tgn/7009852	OLCULDU
+Kuzey-Avrupa	Finlandiya/Åland	en/çok	GeoNames	gazetteer	https://www.geonames.org/search.html?q=<ad>	E (arama sayfası)	E	geonames.org/search.html?q=Sigtuna	OLCULDU
+Kuzey-Avrupa	Finlandiya/Åland	sv/fi	Uppslagsverket Finland	ansiklopedi	https://www.uppslagsverket.fi/	H (doğrudan URL 404; içerik vermedi)	H	—	OLCULDU
+Kuzey-Avrupa	Finlandiya/Åland	sv/fi	Svenska litteratursällskapet (SLS)	kurumsal	https://www.sls.fi/	E (Åland kayıtlarında okundu)	kısmen	—	OLCULDU
+Kuzey-Avrupa	Finlandiya/Åland	fi	Kansallisbiografia	biyografi	https://kansallisbiografia.fi/	DENENMEDI	?	—	DENENMEDI
+Kuzey-Avrupa	İzlanda/Faroe/Grönland	en/çok	Britannica	ansiklopedi	https://www.britannica.com/place/<Sehir>	E	E (place maddesi)	britannica.com/place/Havana	OLCULDU
+Kuzey-Avrupa	İzlanda/Faroe/Grönland	en/çok	UNESCO World Heritage Centre	kurumsal	https://whc.unesco.org/en/list/<no>/	E	E (alan kaydı)	whc.unesco.org/en/list/65	OLCULDU
+Kuzey-Avrupa	İzlanda/Faroe/Grönland	en/çok	Pleiades	gazetteer	https://pleiades.stoa.org/places/<no>	E (Anubis ara sayfası ~3 sn)	E (antik yer)	pleiades.stoa.org/places/922662	OLCULDU
+Kuzey-Avrupa	İzlanda/Faroe/Grönland	en/çok	Getty TGN	gazetteer	https://vocab.getty.edu/page/tgn/<no>	E	E (yer adı, koordinat)	vocab.getty.edu/page/tgn/7009852	OLCULDU
+Kuzey-Avrupa	İzlanda/Faroe/Grönland	en/çok	GeoNames	gazetteer	https://www.geonames.org/search.html?q=<ad>	E (arama sayfası)	E	geonames.org/search.html?q=Sigtuna	OLCULDU
+Kuzey-Avrupa	İzlanda/Faroe/Grönland	is/da	lex.dk; snl.no; Arşiv kataloğu (herak.is)	ansiklopedi/arşiv	https://lex.dk/	E (lex.dk/snl); herak.is yalnız arama özeti	kısmen	lex.dk/Akureyri	OLCULDU
+Kuzey-Avrupa	Birleşik Krallık/İrlanda	en/çok	Britannica	ansiklopedi	https://www.britannica.com/place/<Sehir>	E	E (place maddesi)	britannica.com/place/Havana	OLCULDU
+Kuzey-Avrupa	Birleşik Krallık/İrlanda	en/çok	UNESCO World Heritage Centre	kurumsal	https://whc.unesco.org/en/list/<no>/	E	E (alan kaydı)	whc.unesco.org/en/list/65	OLCULDU
+Kuzey-Avrupa	Birleşik Krallık/İrlanda	en/çok	Pleiades	gazetteer	https://pleiades.stoa.org/places/<no>	E (Anubis ara sayfası ~3 sn)	E (antik yer)	pleiades.stoa.org/places/922662	OLCULDU
+Kuzey-Avrupa	Birleşik Krallık/İrlanda	en/çok	Getty TGN	gazetteer	https://vocab.getty.edu/page/tgn/<no>	E	E (yer adı, koordinat)	vocab.getty.edu/page/tgn/7009852	OLCULDU
+Kuzey-Avrupa	Birleşik Krallık/İrlanda	en/çok	GeoNames	gazetteer	https://www.geonames.org/search.html?q=<ad>	E (arama sayfası)	E	geonames.org/search.html?q=Sigtuna	OLCULDU
+Kuzey-Avrupa	Birleşik Krallık/İrlanda	en	Britannica; Oxford DNB; Cambridge Histories	ansiklopedi/biyografi	https://www.britannica.com/	E (Britannica); Cambridge E (HAVVA bildirdi)	E	britannica.com/place/Dublin	OLCULDU/BILDIRILDI
