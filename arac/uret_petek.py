@@ -6193,9 +6193,11 @@ def petek_epok(g, bant=None):
         _taban = [(b if b is not None else PETEK_D[_i])
                   for _i, b in enumerate(_BANT_HAM[MO_SAAT])]
         _butce = MO_SAAT * NEHIR_KM_SAAT
-    # MÖ gününde taban zaten MO_SAAT bütçesiyle kurulur; ondan KÜÇÜK/EŞİT bant tabandır
-    # (yoksa 56 saatlik bant 80 saatlik MÖ tabanından küçük çıkar — sınavda Roma Cumhuriyeti).
-    if bant is not None and _mo_t and bant <= MO_SAAT + 1e-9:
+    # Tabanın kendi bütçesi: MÖ/1281-öncesi günlerde MO_SAAT (10 gün), sonra YURUYUS_SAAT (5 gün).
+    # Banta o bütçe verilirse İKİSİ AYNI hesaptır ⇒ taban (None) sayılır. MÖ günlerinde
+    # 40/56 saatlik bantlar AYRICA hesaplanır (taban 80 saatlik olduğu için ≤5 < ≤7 < ≤10 ancak
+    # böyle sağlanır; yoksa 1281 öncesi "5 gün" ekranı 10 günlük tabanı gösterir — Emre, MS 1).
+    if bant is not None and abs(bant - (MO_SAAT if _mo_t else YURUYUS_SAAT)) < 1e-9:
         bant = None
     if bant is not None:
         if bant not in _BANT_HAM:
@@ -10010,7 +10012,7 @@ if _BANT_HAM and len(_BANT_HAM) > 1:
         #    çıkar. Taban bant (`bant=None`) taban gövdeyle bit bit aynı yoldan çıkar.
         #    Osmanlı: doğrudan+tâbi `_osm_govde_hesap` ile. Himaye gövdeleri bantta YOK
         #    (taban gövde de himayeyi ayrı katmanda çiziyor; belirtilmiş sınır).
-        _bkey = None if abs(_bs - YURUYUS_SAAT) < 1e-9 else _bs
+        _bkey = _bs      # petek_epok bütçe == günün tabanı ise bant=None'a normalize eder
         _bant_hata, _bant_hata_ilk = 0, []
         _bant_alan_dnm = {}
         # ── DEVLET BANDI: dönem dönem birleştir ─────────────────────────

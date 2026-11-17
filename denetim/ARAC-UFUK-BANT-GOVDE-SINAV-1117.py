@@ -31,10 +31,20 @@ p = argparse.ArgumentParser()
 p.add_argument("--kutu", default="-5,42,8,51")
 p.add_argument("--aralik", default="1680-01-01,1690-01-01")
 p.add_argument("--esik", type=float, default=1000.0, help="tabloya girecek en küçük km²")
+p.add_argument("--devlet", default="", help="yalnız bu devlet(ler) (virgüllü); boş = hepsi")
+p.add_argument("--gunler", default="", help="virgüllü günler: o günü kapsayan dönemlerin taban/<=5/<=7/<=10 tablosu")
+p.add_argument("--tani", default="", help="TANI: bu devletin gövdesini aşama aşama ayrıştır")
 a = p.parse_args()
 lo, hi = a.aralik.split(",")
 
 src, _sha = U._motor_kesiti(a.kutu, "bant-sonrasi")
+if a.devlet:
+    # BOYALAR'a DOKUNULMAZ (eski taban kıyası onu okuyor); yalnız FAZ 1 girişinde süzülür.
+    _ic = "    _i, (did, (dad, renk)) = _arg\n"
+    if src.count(_ic) != 1:
+        raise SystemExit("FAZ1 çapası %d kez geçti" % src.count(_ic))
+    _liste = tuple(x for x in a.devlet.split(",") if x)
+    src = src.replace(_ic, _ic + "    if did not in %r: return did, dad, renk, [], []\n" % (_liste,), 1)
 capa = 'print(f"Kırılma tarihi: {len(tarihler)}")\n'
 if src.count(capa) != 1:
     raise SystemExit("tarihler çapası %d kez geçti — alet güncellenmeli" % src.count(capa))
@@ -104,3 +114,32 @@ if TUM:
               " / ".join("%.0f" % x if x is not None else "YOK" for x in vs),
               "" if mono else "MONOTON-İHLAL"))
     print("  monotonluk ihlali: %d" % ih)
+
+# ④ GÜN TABLOSU: --gunler 0001-01-01,-0100-06-15 → o günü kapsayan her dönem için taban/<=5/<=7/<=10
+if a.gunler:
+    print("\n④ GÜN TABLOSU (km²): taban(yayın) | <=5 | <=7 | <=10")
+    gn_ = NS["gn"]
+    for gun in a.gunler.split(","):
+        for kay in NS["_BANT_AKTIF"]:
+            did, f, t = kay[0], kay[1], kay[2]
+            if not (gn_(f) <= gn_(gun) < gn_(t)):
+                continue
+            vs = [TUM[b].get((did, f)) for b in sorted(TUM)]
+            print("  %s  %-18s dönem %s..%s  taban %9.0f | %s" % (
+                gun, did, f, t, tab.get((did, f), -1),
+                " | ".join("%9.0f" % x if x is not None else "     YOK" for x in vs)))
+
+# ③ TANI: bir devletin her dönemi için gövdeyi aşama aşama ayrıştır
+if a.tani:
+    print("\n③ TANI %s (km²): hesap(None) → komşu çıkar → yayın taban | bant işlevi" % a.tani)
+    for kay in NS["_BANT_AKTIF"]:
+        did, f, t, ak = kay[:4]
+        if did != a.tani:
+            continue
+        aktif = frozenset(ak)
+        g0, _k, _t = NS["_yabanci_govde_hesap"](did, aktif, f, sorted(aktif), None)
+        g1 = NS["_komsu_toprak_cikar"](did, aktif, f, g0, None)
+        gb = NS["_bant_yabanci_govde"](did, f, ak, None)
+        km = NS["_ham_km2"]
+        print("  %s  hesap %9.0f  komşu-çıkar %9.0f  yayın %9.0f  bant-işlevi %9.0f  (|aktif|=%d)" % (
+            f, km(g0), km(g1), tab.get((did, f), -1), km(gb) if gb is not None else -1, len(ak)))
