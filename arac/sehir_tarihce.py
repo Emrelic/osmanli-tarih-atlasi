@@ -12,7 +12,7 @@ import json, os, re, sys
 KOK = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
 sys.path.insert(0, os.path.join(KOK, "arac"))
 TARIH = re.compile(r"^(-?)(\d{4,6})-(\d{2})-(\d{2})$")   # MÖ 10000+ = 5 haneli astronomik yıl (gun.py 1-6 hane kabul eder)
-NICELIK = {"kurulus", "ilk_anilis", "arkeolojik"}
+NICELIK = {"kurulus", "ilk_anilis", "arkeolojik", "tarihsiz_tanik"}
 KESINLIK = {"gun", "ay", "yil", "onyil", "yuzyil", "belirsiz"}
 ZINCIR_SONU_ATLASSIZ = "1900-01-01"
 OLAY_PENCERE_GUN = 30
@@ -117,6 +117,18 @@ def denetle_kayitlar(K, sessiz=False):
         for ad_ in ("ilk", "kur", "ark", "bit"):
             o = k.get(ad_)
             if not o:
+                continue
+            if ad_ == "ilk" and o.get("nicelik") == "tarihsiz_tanik":
+                # Emre 17 Kasım 2026: kaynak yıl vermiyorsa tarih BOŞ, yıl uydurulmaz; yalnız tarihçe metni,
+                # sınır/boyama kanıtı sayılmaz. t boş olmalı, kaynak + ic_not "tarihsiz tanık:" zorunlu.
+                if o.get("t"):
+                    ihlal.append(f"{i}.ilk: tarihsiz_tanik ama t dolu '{o.get('t')}'")
+                if not (o.get("kaynak") or "").strip():
+                    ihlal.append(f"{i}.ilk: kaynak boş")
+                if "tarihsiz tanık:" not in (o.get("ic_not") or ""):
+                    ihlal.append(f"{i}.ilk: ic_not'ta 'tarihsiz tanık: <kaynak>' beyanı yok")
+                if k.get("sahip"):
+                    ihlal.append(f"{i}: tarihsiz_tanik kaydında sahip zinciri yazılmaz")
                 continue
             tarih_ok(f"{i}.{ad_}", o.get("t"), o.get("gun") or "")
             if not kesinlik_gecerli(o.get("kesinlik")):
