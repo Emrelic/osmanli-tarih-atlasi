@@ -995,10 +995,10 @@ window.SEHIR_TARIHCE_DOGU_BORC_1 = [
    "t": "1606-01-01",
    "gun": "1606",
    "nicelik": "kurulus",
-   "kesinlik": "yil",
+   "kesinlik": "belirsiz",
    "kaynak": "TDV İslâm Ansiklopedisi, 'GENCE' (Oktay Efendizade), https://islamansiklopedisi.org.tr/gence (17 Kas 2026 okundu)",
    "tanik": "Yeni Gence eski yerinden 1 fersah (yaklaşık 6 km.) mesafede kuruldu.",
-   "ic_not": "ZAYIF TANIK: şehrin adı tanık cümlesinde, yıl ise bir önceki cümlede ('XVII. yüzyıl başlarında yeniden başlayan Osmanlı-Safevî savaşları sırasında 1606'da I. Abbas tarafından altı aylık bir kuşatmadan sonra ele geçirildi. Mukavemet gösterdiği için şahın emriyle yağma ve tahrip edildi...'). Bitişik cümle; ayrıca 'Kırk yıl sonra (1647) burayı gören Evliya Çelebi' ifadesi kuruluşu 1606 dolayına bağlar. KAYIT YERİ: LISTE/GeoNames koordinatı bugünkü (Yeni) Gence'dir; TDV'ye göre eski Gence ~6 km uzakta → 3 km kuralı gereği eski Gence (VI-VIII. yy kuruluşu, 859 imarı, Şeddâdî/Selçuklu/İldenizli merkezi, 1139 depremi, 1235 Moğol tahribi, 1588 Osmanlı fethi) AYRI KAYITTIR, burada yalnız ic_not'ta anılır. Eski Gence'nin GeoNames/akademik koordinatı bu oturumda okunmadı."
+   "ic_not": "ZAYIF TANIK: şehrin adı tanık cümlesinde, yıl ise bir önceki cümlede ('XVII. yüzyıl başlarında yeniden başlayan Osmanlı-Safevî savaşları sırasında 1606'da I. Abbas tarafından altı aylık bir kuşatmadan sonra ele geçirildi. Mukavemet gösterdiği için şahın emriyle yağma ve tahrip edildi...'). Bitişik cümle; ayrıca 'Kırk yıl sonra (1647) burayı gören Evliya Çelebi' ifadesi kuruluşu 1606 dolayına bağlar. KAYIT YERİ: LISTE/GeoNames koordinatı bugünkü (Yeni) Gence'dir; TDV'ye göre eski Gence ~6 km uzakta → 3 km kuralı gereği eski Gence (VI-VIII. yy kuruluşu, 859 imarı, Şeddâdî/Selçuklu/İldenizli merkezi, 1139 depremi, 1235 Moğol tahribi, 1588 Osmanlı fethi) AYRI KAYITTIR, burada yalnız ic_not'ta anılır. Eski Gence'nin GeoNames/akademik koordinatı bu oturumda okunmadı. | KALITE KONTROL 4'TE-1 ORNEK (UMIT 17 Kasim 1116, EMRELIC kurali): tanik cumlesinde yil yok (1606 onceki cumle, o cumle fetih/tahrip; yeni sehrin kurulus yili dolayli cikarim): kesinlik 'belirsiz'e dusuruldu, deger korundu."
   },
   "kur": null,
   "ark": null,
