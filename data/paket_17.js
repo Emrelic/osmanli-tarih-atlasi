@@ -292,8 +292,8 @@ window.YERLESIMLER_E9353F = [
 //   sokoto künyesi t:1903-07-27 (sultanın ölümü); ikisi çelişmiyor, biri
 //   askerî yenilgi öteki hânedanın sonu. Toprak el değiştirme günü DÜZELTİLDİ: 15 Mart 1903 (TDV sokoto; 15 Ocak alıntısı gövdede yok).
 { ad:"Sokoto", tur:"sehir", lat:13.062, lon:5.234, g:1, k:1,
-  kur:"1812-01-01",
-  s:[{f:"1812-01-01", t:"1903-03-15", d:"sokoto", kaynak:"sokoto"},
+  kur:"1804-01-01", neden:"kur: KURULUŞ DEĞİL, İLK YAZILI TANIK — görünme için ALT SINIR (ATLAS-GEC-1117): TDV «Sokoto» (Ahmet Kavas, c. 37, 2009, s. 351-352): Osman b. Fûdî 1804'te oğlu Muhammed Bello'ya kasabanın civarında askerî bir karargâh kurmasını emretti",
+  s:[{f:"1804-01-01", t:"1903-03-15", d:"sokoto", kesinlik:"yil", kaynak:"f 1812→1804 (ATLAS-GEC-1117): TDV «Sokoto» (Ahmet Kavas, c. 37, İstanbul 2009, s. 351-352; islamansiklopedisi.org.tr/sokoto): \"1804'te oğlu Muhammed Bello'ya kasabanın civarında askerî bir karargâh kurmasını emretmesiyle\"; sahip sokoto künyesi f=1804 kapsar; 1804-1812 'üs' statüsü (TDV) · sokoto"},
      {f:"1903-03-15", t:"1960-10-01", d:"ingiltere", kaynak:"TDV sokoto: «İngilizler Sokoto ordusunu ağır bir yenilgiye uğratarak şehri işgal ettiler (15 Mart 1903)» — GÜN · atlas kronoloji maddesi 1903-03-15 (olaylar_2s_1019)", ic_not:"SOKOTO-DUZELTME (1114): eski gün 1903-01-15 (yanlış: yerlesimler_e9353f yorumundaki 'On January 15, 1903' alıntısı TDV sokoto gövdesinde bulunmadı; TDV şehrin işgalini 15 Mart 1903 verir) → yeni gün 1903-03-15. Öteki olaylar ayrıdır: Kano 1903-02-03 (kronoloji_cok_senkron_0930), Burmi 1903-07-27 (halifeliğin siyasî sonu, künye t; Bauci vb. kayıtlar o güne bağlı). Başka akademik teyit aranmadı (TDV tek kaynak, çelişen kaynak bulunmadı)."},{f:"1960-10-01",t:"2000-12-31",d:"nijerya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   d:[], v:[] },
 

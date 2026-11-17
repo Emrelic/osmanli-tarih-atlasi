@@ -1,0 +1,30 @@
+satir_no	atlas_ad	eski_yeni	durum	sebep
+2	Agra	1504→1504	ATLANDI	sahip zinciri kaynaksiz: tarihce 1081-1504 __BOSLUK__ (Gazneli ele gecirme tarihsiz sure); delhi-sultanligi kunyesi f=1206 1081'i kapsamiyor
+3	Banavasi	0500→0500	ATLANDI	sahip zinciri kaynaksiz: Ptolemaios tanigi sahip vermiyor, 200-500 __BOSLUK__ (Kadamba kunyesi ile baglanti kaynaksiz)
+4	Broaç (Bharuch)	1281→1281	ATLANDI	sahip zinciri kaynaksiz: Bhartrivaddha=Cahamana kolu 'cahamana' kunyesine baglanmadi; 756-1281 __BOSLUK__
+5	Câlandhar (Jalandhar)	1281→1281	ATLANDI	sahip zinciri kaynaksiz: 1088 'dusus' tanigi sahip vermiyor; 1088-1281 __BOSLUK__
+6	Çaul (Chaul)	1281→1281	ATLANDI	sahip zinciri kaynaksiz: Mes'udi 915 tanigi siyasi sahip vermiyor; 915-1281 __BOSLUK__
+7	Chamba	0950→0920	UYGULANDI	Imperial Gazetteer X 'built by Sahil Varma about 920' (yil, yaklasik beyanli); sahip chamba kunyesi (0550-1948) kapsar
+8	Charaideo	1281→1281	ATLANDI	kunye: ahom f=1281, 1268'i kapsamiyor; genisletme icin kaynak yok (kunye ic_not_f: gelenek 1228 tartismali, Britannica 1268 tanigi bir MEZAR; devletin baslangicini tarihlemiyor) - karar KASA/Emre
+9	Daman	1559-02-02→1559-02-02	ATLANDI	sahip zinciri kaynaksiz: 1531 Portekiz yagma/yakma tanigi sahiplik kanitlamaz; 1531-1559 __BOSLUK__
+10	Gaur (Lakhnauti)	1150→1119	UYGULANDI	TDV Leknevti: Ballal Sen (1108-1119) tarafindan kuruldu (onyil, aralik sonu 1119); sahip sena (kunye f=1095 kapsar)
+11	Karaikal (Karikal)	1817-01-14→1817-01-14	ATLANDI	sahip zinciri kaynaksiz: 1739-1817 arasi Fransiz/Ingiliz el degistirmeleri tarihli okunmadi; __BOSLUK__
+12	Leknev (Lucknow)	1281→1281	ATLANDI	sahip zinciri kaynaksiz + tanik yalniz 'XIII. yy basi' (yuzyil hassasiyeti, 1233 temsili); 1233-1281 __BOSLUK__
+13	Mahé	1817-02-22→1817-02-22	ATLANDI	sahip zinciri kaynaksiz: 1726 Fransiz ele gecirmesi sonrasi Madras'a katilmalar tarihli okunmadi; __BOSLUK__
+14	Mathura	1281→1281	ATLANDI	sahip zinciri kaynaksiz: 1017-18 Gazneli yagmasi sahip vermiyor; 1018-1281 __BOSLUK__
+15	Mîrat (Meerut)	1281→1203	UYGULANDI	TDV Aybeg: 1192-1203 iktalar (Meerut dahil), aralik sonu 1203; sahip gurlu 1203-1206-06-25 (CIKARIM, beyanli) sonra delhi-sultanligi (1206-06-25 TDV gun)
+16	Multan	0903→0903	ATLANDI	sahip zinciri kaynaksiz: 712-903 __BOSLUK__ (Multan'a ozgu zincir okunamadi)
+17	Murşidâbâd	1704→1621	UYGULANDI	Banglapedia Murshidabad: 1621 Ingiliz acenteleri tanigi (Maksudabad); kur=ilk yazili tanik (Sirnak kalibi, neden yazildi); sahip Babur subesi (Banglapedia Dhaka 1610), beyanli yaklasik
+18	Patan (Anhilvâda)	0942→0942	ATLANDI	sahip zinciri kaynaksiz: 765 kurulus (Vanaraja) sonrasi 765-942 __BOSLUK__
+19	Patna (Azîmâbâd)	-0363→-0363	ATLANDI	sahip zinciri kaynaksiz: TDV MO 5. yy tanigi hanedan vermiyor; -400/-363 __BOSLUK__ (yuzyil hassasiyeti)
+20	Yanam	1817-04-12→1817-04-12	ATLANDI	sahip zinciri kaynaksiz: 1765 'Fransiz enklavi kaldi' sahiplik zincirini vermiyor; __BOSLUK__
+21	Belh	-0249→-0249	ATLANDI	sahip zinciri kaynaksiz: Iskender fethi (MO 329) sonrasi Selevkos/Baktria tarihsiz; __BOSLUK__
+22	Hîve	1281→1281	ATLANDI	sahip zinciri kaynaksiz: X. yy anilis tanigi sahip vermiyor; 999-1281 __BOSLUK__
+23	Hucend	1219→1219	ATLANDI	KISMI: kaynakli sahip yalniz karahanli 1024-1137 (en gec) var; 683-1024 ve 1137-1219 __BOSLUK__; ilk tanik 683 hic sahipli kapatilamaz, kismi cekme yeni beyanli bosluk+2 kirilma (D2 maddesi) acar - karar KASA
+24	Semerkant	0500→0500	ATLANDI	sahip zinciri kaynaksiz: MO 329 - MS 500 __BOSLUK__
+25	Enugu	1967-05-30→1967-05-30	ATLANDI	sahip zinciri kaynaksiz: 1909-1967 somurge Nijerya devleti kaynakta sehir olgusu olarak verilmiyor; beyanli bosluk
+26	Gao	0801→0801	ATLANDI	sahip zinciri kaynaksiz: 700-801 __BOSLUK__ (atlasta 801 oncesi sahip yok)
+27	Hamdullahi	1820→1820	ATLANDI	kunye cakismasi: massina f=1818 (Cambridge/JAH) vs TDV kurulus 1815; iki kaynak celisiyor, kunye genisletme hakem karari gerek (tarihce ic_not da ayni uyariyi veriyor)
+28	Sokoto	1812→1804	UYGULANDI	TDV Sokoto: 1804'te kasaba civarinda askeri karargah; sahip sokoto kunyesi f=1804 kapsar; kur=ilk yazili tanik (Sirnak kalibi, neden yazildi)
+29	Timbuktu	1281→1281	ATLANDI	sahip zinciri kaynaksiz: XI. yy sonu tanigi sahip vermiyor; 1100-1281 __BOSLUK__
+30	Vindhuk (Windhoek)	1890-10-18→1890-10-18	ATLANDI	sahip zinciri kaynaksiz: 1838 Orlam yerlesimi (Dierks) devlet sahibi vermiyor; beyanli bosluk
