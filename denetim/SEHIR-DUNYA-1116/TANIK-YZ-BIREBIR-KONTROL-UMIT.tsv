@@ -1,0 +1,45 @@
+dosya	id	kaynak_host	birebir	innerText	textContent	bolum	ad_yil_cumlede	karar	not
+kuzey_avrupa_1	hillerod-dk	lex.dk	E	E	E	govde (faktaboks Stednavn)	E	kabul	tanik faktaboks cumlesinin basi; YZ blogu yok
+kuzey_avrupa_1	karlskrona-se	lex.dk	E	E	E	govde	E	kabul
+kuzey_avrupa_1	randers-dk	lex.dk	E	E	E	govde (faktaboks Stednavn)	E	kabul	kesinlik belirsiz zaten (1080-86 araligi)
+kuzey_avrupa_1	svendborg-dk	lex.dk	E	E	E	govde (faktaboks Stednavn)	E	kabul
+kuzey_avrupa_2	akureyri-is	lex.dk	E	E	E	govde	E	kabul	kaynaktaki '1500-tallet., og' yazimi aynen; yuzyil tanigi, kesinlik belirsiz zaten
+kuzey_avrupa_2	hamar-no	lex.dk	E	E	E	govde	E	kabul
+kuzey_avrupa_2	karlstad-se	lex.dk	E	E	E	govde	H	kabul	uc cumlelik tanik birebir; yil 1. cumlede ('bebyggelsen'), ad 3. cumlede; onceki EMRELIC/UMIT karari (madde konusu sehir) gecerli
+kuzey_avrupa_2	linkoping-se	lex.dk	E	E	E	govde	H	kabul	iki cumlelik tanik birebir; ad 1., yuzyil 2. cumlede ('Stedet'); kesinlik yuzyil
+kuzey_avrupa_2	moss-no	snl.no	E	E	E	govde	E	kabul
+kuzey_avrupa_2	oulu-fi	uppslagsverket.fi	H	H	H	govde	H	degisti	eski tanik cumleyi 'Ulahamn.' ile kesip nokta eklemisti (kaynakta cumle virgulle surer) -> tam govde cumlesiyle degistirildi; ad Ulahamn (oncul ad), kesinlik belirsiz kaldi
+kuzey_avrupa_2	torshavn-fo	lex.dk	E	E	E	govde (faktaboks Stednavn)	E	kabul
+kuzey_avrupa_2	umea-se	snl.no	E	E	E	govde	E	kabul
+kuzey_avrupa_2	vaxjo-se	lex.dk	E	E	E	govde	E	kabul
+kuzey_avrupa_ayri	vanha-vaasa-fi	uppslagsverket.fi	E	E	E	govde	H	kabul	ozne 'Platsen', onceki cumle 'Gamla Vasa'; kesinlik belirsiz zaten
+karayip_1	la-habana-cu	britannica.com	E	E	E	govde (p.topic-paragraph)	E	kabul	sahip[0] ayni sayfa govde
+karayip_1	san-salvador-sv	encyclopedia.com (ELAHC)	E	E	E	govde	H	kabul	ozne 'The city' = madde konusu; kesinlik onyil zaten. Britannica San-Salvador sahip alintilari ('since 1839', 1834, 1821) govdede; 1821 ayrica gizli YZ-SSS'te de var (govde guvenli)
+karayip_2	panama-city-casco-pa	encyclopedia.com (ELAHC)	E	E	E	govde	E	kabul	ic_not Britannica alintilari (Panama-City 1674, 1751; Panama/Sports 1673, 1821, 1538) hepsi govde
+karayip_3	camaguey-cu	britannica.com	E	E	E	govde (p.topic-paragraph)	E	kabul	ayni cumlede 'Camaguey' (yerli koy adi) + 1528
+karayip_3	leon-ni	britannica.com	E	E	E	govde (p.topic-paragraph)	E	kabul	cumle 'The city of Leon was founded ... but after an earthquake it was moved in 1610' -> ad ayni cumlede (ornek TSV 'yok' demisti)
+karayip_3	santa-ana-sv	britannica.com	E	E	E	govde (p.topic-paragraph)	E	degisti	kaynak notu 'YALNIZ ONIZLEME' -> madde bugun tam okunuyor; tanik govdede; yalniz kaynak/ic_not beyani guncellendi, kesinlik yil kaldi
+dogu_borc_1	addis-ababa-et	britannica.com	E	E	E	govde (p.topic-paragraph)	E	kabul
+dogu_borc_1	berbera-so	islamansiklopedisi.org.tr	E	E	E	govde	E	kabul	1229 olum yili, kesinlik belirsiz zaten
+dogu_borc_1	gence-az	islamansiklopedisi.org.tr	E	E	E	govde	H	kabul	yil onceki cumlede; kesinlik belirsiz zaten
+dogu_borc_1	kum-ir	islamansiklopedisi.org.tr	E	E	E	govde	E	kabul
+karayip_1	antigua-guatemala-gt	whc.unesco.org	E	E	E	govde	H	kabul	ozne 'The third location'; kesinlik yil (onceki karar). Britannica 'the following year' govde
+karayip_1	ciudad-de-guatemala-gt	encyclopedia.com (ELAHC)	E	E	E	govde	E	kabul	ic_not Britannica alintisi govdede (ayrica YZ-SSS'te benzeri var; govde guvenli)
+karayip_1	kingston-jm	britannica.com	E	E	E	govde (p.topic-paragraph)	E	kabul
+karayip_1	port-au-prince-ht	britannica.com	E	E	E	govde (p.topic-paragraph)	H	kabul	'The city'; kesinlik onyil zaten
+karayip_1	san-jose-cr	britannica.com	E	E	E	govde (p.topic-paragraph)	E	kabul	sahip Costa-Rica/Independence alintisi govde
+karayip_1	san-juan-pr	britannica.com	E	E	E	govde (p.topic-paragraph)	H	kabul	'the settlement'; kesinlik onyil zaten
+karayip_1	santo-domingo-do	encyclopedia.com (ELAHC)	E	E	E	govde	E	kabul	Britannica 1496/1795/1809/1844/1861/1865 (sehir) ve DR History alintilari govdede; bir kismi gizli YZ-SSS'te de tekrar ediliyor (govde guvenli)
+karayip_1	tegucigalpa-hn	encyclopedia.com (ELAHC)	E	E	E	govde	E	kabul	ic_not Britannica alintisi govde
+karayip_2	panama-viejo-pa	encyclopedia.com (ELAHC)	E	E	E	govde	E	kabul	Britannica 'The old city (Panama Viejo) was founded in 1519' govde
+karayip_3	basseterre-kn	britannica.com	E	E	E	govde (p.topic-paragraph)	H	kabul	'it' = Basseterre (onceki cumle)
+karayip_3	bridgetown-bb	britannica.com	E	E	E	govde (p.topic-paragraph)	H	kabul	'The town' + eski ad Indian Bridge
+karayip_3	cap-haitien-ht	britannica.com	E	E	E	govde (p.topic-paragraph)	E	kabul	eski ad Cap-Francais ayni cumlede
+karayip_3	cartago-cr	britannica.com	E	E	E	govde (p.topic-paragraph)	E	kabul
+karayip_3	granada-ni	encyclopedia.com (ELAHC)	E	E	E	govde	E	degisti	tanik ELAHC govdede. AMA hakemli karari destekleyen Britannica 'History of Nicaragua' alintisi 'by 1524 with the founding of Granada and Leon' innerText H / textContent E: yalniz gizli YZ-SSS (ai-qna-answer) blogunda. Govde cumlesi 'founded the cities of Granada and Leon; by 1524 he had established permanent colonization' (ust sinir). Britannica sehir govdesi 1523 -> karar esigi yok; kesinlik yil->belirsiz, ic_not
+karayip_3	matanzas-cu	britannica.com	E	E	E	govde (p.topic-paragraph)	H	degisti	kaynak notu 'YALNIZ ONIZLEME' -> bugun tam govde; tanik govdede; 'It' = Matanzas; yalniz beyan guncellendi
+karayip_3	quetzaltenango-gt	britannica.com	E	E	E	govde (p.topic-paragraph)	H	kabul	kesinlik belirsiz zaten; sahip 1838/1840 govdede (1838 ayrica gizli SSS akordeonunda)
+karayip_3	san-pedro-sula-hn	britannica.com	E	E	E	govde (p.topic-paragraph)	H	kabul	'The city'
+karayip_3	santiago-de-cuba-cu	britannica.com	E	E	E	govde (p.topic-paragraph)	E	kabul	ayni cumle (noktali virgul) 'Santiago de Cuba was founded in 1514...; it was moved ... in 1522'
+karayip_3	santiago-de-los-caballeros-do	britannica.com	E	E	E	govde (p.topic-paragraph)	H	kabul	'the city'; kesinlik belirsiz zaten
+karayip_3	willemstad-cw	whc.unesco.org	E	E	E	govde	H	kabul	'the town'; Britannica Curacao 1634/1815 alintilari govde
