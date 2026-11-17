@@ -76,6 +76,11 @@ veri-kaynak/viabundus/*.geojson
 veri-kaynak/viabundus/*.zip
 veri-kaynak/viabundus/*.pdf
 veri-kaynak/viabundus/*.gml
+# Açılış perdesi kaynakları (ACILIS-PERDESI-1117): `py arac/acilis_uret.py` indirir.
+# historical-basemaps GPL-3.0 yıl dilimleri (~25 MB) ve Commons portre asılları;
+# depoda yalnız üretilmiş silüetler (data/acilis_siluet.js) ve img/acilis/portreler.jpg.
+veri-kaynak/historical-basemaps/
+veri-kaynak/acilis-portre/
 
 # ── denetim/ ÖNBELLEKLERİ — üretilmiş, yeniden üretilebilir ──────────
 # 🔴 Ve buraya YAZILMALARININ sebebi boyut değil GÖRÜNÜRLÜK:
