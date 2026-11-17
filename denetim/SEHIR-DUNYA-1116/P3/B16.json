@@ -1,0 +1,68 @@
+[
+ {
+  "id": "chegutu-zw-p3",
+  "ad": "Chegutu",
+  "atlas_ad": null,
+  "lat": -18.1302,
+  "lon": 30.1407,
+  "kat1900": 3,
+  "adlar": ["Chegutu", "Hartley"],
+  "ilk": {
+   "t": "1891-01-01",
+   "gun": "1891",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Chegutu', https://www.britannica.com/place/Chegutu (tarayıcıda okundu)",
+   "tanik": "it was founded in 1891 on the Umfuli River",
+   "ic_not": "TEK KAYNAK. Britannica gövdesinden (YZ özeti bloğu dışı; sayfada 'Summary created' bloğu yok). Özne zamir = madde konusu; başlık şehir (cümle: 'Named originally for Henry Hartley, ... it was founded in 1891 on the Umfuli River but about 1900 was moved 18 miles (29 km) west'). Gün yok: YYYY-01-01 + kesinlik 'yil'. DİKKAT: kuruluş yeri Umfuli kıyısındaki ilk Hartley yerleşimidir; ~1900'de 29 km batıya taşınmıştır, verilen koordinat taşınan yerdir; süreklilik kaynağın 'it' öznesine dayanır."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1891-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, 'Chegutu', https://www.britannica.com/place/Chegutu",
+    "ic_not": "BOŞLUK (atlas noktası yok): okunan Britannica gövdesinde 1891-1900 için tarihli devlet sahibi cümlesi yok; beyansız yaklaşıklık yazılmadı."
+   }
+  ],
+  "olay": [],
+  "ic_not": "P3-B16. Atlas noktası yok (3 km tarandı)."
+ },
+ {
+  "id": "middelburg-za-p3",
+  "ad": "Middelburg (Transvaal)",
+  "atlas_ad": null,
+  "lat": -25.7751,
+  "lon": 29.4648,
+  "kat1900": 2,
+  "adlar": ["Middelburg", "Nazareth"],
+  "ilk": {
+   "t": "1866-01-01",
+   "gun": "1866",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "South African History Online, 'Middleburg, Mpumalanga', https://sahistory.org.za/place/middleburg-mpumalanga (tarayıcıda okundu)",
+   "tanik": "in 1866 the town of Nazareth was developed on it",
+   "ic_not": "TEK KAYNAK. Cümle: 'In 1864, The Dutch Reformed Church bought the farm of Sterkfontein and in 1866 the town of Nazareth was developed on it.' Hemen sonraki cümle: 'In 1872, Nazareth was then renamed Middelburg.' Madde konusu şehir Middelburg; cümlede Nazareth adı (aynı yer) + 1866 var. Gün yok: YYYY-01-01 + kesinlik 'yil'. İkinci bağımsız kaynak okunamadı (Britannica'da Middelburg sayfası yok)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1866-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "South African History Online, 'Middleburg, Mpumalanga', https://sahistory.org.za/place/middleburg-mpumalanga",
+    "ic_not": "BOŞLUK (atlas noktası yok; Middelburg kaydı Hollanda'dadır): okunan SAHO metni 1866-1900 için tarihli devlet sahibi cümlesi vermiyor; Güney Afrika Cumhuriyeti (transvaal) olması muhtemel ama kaynakla bağlanmadı, beyansız yaklaşıklık yazılmadı."
+   }
+  ],
+  "olay": [],
+  "ic_not": "P3-B16. Atlas noktası yok (3 km tarandı; Hollanda Middelburg'u ayrı yer)."
+ }
+]

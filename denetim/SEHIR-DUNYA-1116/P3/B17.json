@@ -1,0 +1,130 @@
+[
+ {
+  "id": "gweru-zw-p3",
+  "ad": "Gweru",
+  "atlas_ad": "Gveru",
+  "lat": -19.45,
+  "lon": 29.8167,
+  "kat1900": 3,
+  "adlar": ["iKwelo", "Gwelo", "Gweru"],
+  "ilk": {
+   "t": "1894-01-01",
+   "gun": "1894",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, «Gweru» (Britannica editörleri), https://www.britannica.com/place/Gweru (tarayıcı sayfa okuma, 17 Kasım 2026; Britannica gövdesinden, YZ özeti bloğu dışı)",
+   "tanik": "The modern town, founded in 1894 as a military outpost"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1894-01-01",
+    "gun": "1894",
+    "k": "diger",
+    "b": "Modern Gweru (Gwelo) kasabası askerî karakol olarak kuruldu",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, «Gweru» (Britannica editörleri), https://www.britannica.com/place/Gweru (tarayıcı sayfa okuma, 17 Kasım 2026; Britannica gövdesinden, YZ özeti bloğu dışı)",
+    "tanik": "The modern town, founded in 1894 as a military outpost"
+   }
+  ],
+  "ic_not": "ÇİFT TEYİT: The Columbia Encyclopedia 6th ed., «Gweru», https://www.encyclopedia.com/reference/encyclopedias-almanacs-transcripts-and-maps/gweru (tarayıcı sayfa okuma, includes() 17 Kasım 2026) — tanık 2: \"Founded in 1894, it is an industrial, mining, and commercial center.\" Özne zamir = madde konusu; başlık şehir (iki kaynakta da). Bağımsızlık ölçümü: ayrı yayıncı (Encyclopaedia Britannica Inc. / Columbia University Press-Gale); cümleler farklı (Britannica 'military outpost' der, Columbia yalnız 'Founded in 1894'); ortak soy/kopya kanıtı bulunmadı; ikisi de kaynakçasız ansiklopedi maddesi, ortak birincil dayanak görünmüyor — ancak ikisi de aynı kolonyal anlatıdan (kuruluş 1894) beslenmiş olabilir, bu yüzden bağımsızlık 'makul', mutlak değil. Britannica: 'Gwelo/iKwelo' adı için 'The original Matabele settlement was named iKwelo'. Nicelik 'kurulus': 'modern town' 1894; eski Matabele yerleşimi ayrıdır. Gün yok, yıl hassasiyeti. ATLAS: atlas Gweru'yu 1894-01-01'de 'ingiliz-guney-rodezya' ile başlatır; kaynak yılı atlas başlangıcıyla aynı (kaynak gün vermez; devlet kaynak cümlelerinde yok, bu yüzden sahip[] boş, atlas zinciri esastır). | Britannica gövdesinden (YZ özeti bloğu dışı)",
+  "ad_kaynak": [
+   {"ad": "Gweru", "dil": "en", "donem": null, "kaynak": "Encyclopaedia Britannica 'Gweru' https://www.britannica.com/place/Gweru", "kanit": "Gweru, town, central Zimbabwe, on the Gweru River."},
+   {"ad": "Gwelo", "dil": "en", "donem": null, "kaynak": "The Columbia Encyclopedia 6th ed. 'Gweru' (encyclopedia.com)", "kanit": "Gweru (gwā´rōō), formerly Gwelo (gwā´lō), city"}
+  ]
+ },
+ {
+  "id": "gwanda-zw-p3",
+  "ad": "Gwanda",
+  "atlas_ad": "Gvanda",
+  "lat": -20.9362,
+  "lon": 29.007,
+  "kat1900": 3,
+  "adlar": ["Gwanda"],
+  "ilk": {
+   "t": "1900-01-01",
+   "gun": "1900",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, «Gwanda» (Britannica editörleri), https://www.britannica.com/place/Gwanda (tarayıcı sayfa okuma, 17 Kasım 2026; Britannica gövdesinden, YZ özeti bloğu dışı)",
+   "tanik": "Gwanda was founded in 1900, and its name derives from that of a nearby hill"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1900-01-01",
+    "gun": "1900",
+    "k": "diger",
+    "b": "Gwanda kasabası kuruldu (adı yakındaki Jahunda tepesinden)",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, «Gwanda» (Britannica editörleri), https://www.britannica.com/place/Gwanda (tarayıcı sayfa okuma, 17 Kasım 2026; Britannica gövdesinden, YZ özeti bloğu dışı)",
+    "tanik": "Gwanda was founded in 1900, and its name derives from that of a nearby hill"
+   }
+  ],
+  "ic_not": "TEK KAYNAK: Britannica 'Gwanda' (ad+yıl aynı cümlede). İkinci akademik kaynak bulunamadı (encyclopedia.com'da madde yok; WebSearch özetleri ve yerel gazete/blog sayfaları doğrulama sayılmadı). Gün yok, yıl hassasiyeti. ATLAS: atlas Gwanda'yı 1900-01-01'de 'ingiliz-guney-rodezya' ile başlatır = kaynak yılı; devlet kaynak cümlesinde yok, sahip[] boş (atlas zinciri esastır). Not: B17.tsv notu '1896-97 durum' der; kuruluş yılı Britannica'ya göre 1900. | Britannica gövdesinden (YZ özeti bloğu dışı)",
+  "ad_kaynak": [
+   {"ad": "Gwanda", "dil": "en", "donem": null, "kaynak": "Encyclopaedia Britannica 'Gwanda' https://www.britannica.com/place/Gwanda", "kanit": "Gwanda, town, southern Zimbabwe."}
+  ]
+ },
+ {
+  "id": "marondera-zw-p3",
+  "ad": "Marondera",
+  "atlas_ad": null,
+  "lat": -18.1853,
+  "lon": 31.5519,
+  "kat1900": 3,
+  "adlar": ["Marondera"],
+  "ilk": {
+   "t": "1890-01-01",
+   "gun": "1890",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, «Marondera» (Britannica editörleri), https://www.britannica.com/place/Marondera (tarayıcı sayfa okuma, 17 Kasım 2026; Britannica gövdesinden, YZ özeti bloğu dışı)",
+   "tanik": "It originated in 1890 as a rest house on the road from Harare"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1890-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "ic_not": "BEYANLI BOŞLUK: Britannica 1890-1900 arasında şehrin hangi devletin toprağında olduğunu söylemez (yalnız yerel Barozwi şefi anılır); sahip uydurulmadı, yaklaşıklık yazılmadı.",
+    "kesinlik": "belirsiz",
+    "kaynak": "Encyclopaedia Britannica, «Marondera» — kaynakta 'şu devletin' beyanı yok",
+    "tanik": "It originated in 1890 as a rest house on the road from Harare"
+   }
+  ],
+  "olay": [
+   {
+    "t": "1890-01-01",
+    "gun": "1890",
+    "k": "diger",
+    "b": "Marondera, Harare-Mutare yolunda bir dinlenme evi olarak ortaya çıktı (adı yerel Barozwi şefi Marondera'dan)",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, «Marondera» (Britannica editörleri), https://www.britannica.com/place/Marondera (tarayıcı sayfa okuma, 17 Kasım 2026; Britannica gövdesinden, YZ özeti bloğu dışı)",
+    "tanik": "It originated in 1890 as a rest house on the road from Harare"
+   },
+   {
+    "t": "1896-01-01",
+    "gun": "1896",
+    "k": "diger",
+    "b": "Şona direnişinde yıkıldı; 6 km kuzeye, Harare-Beira demiryolu hattına taşındı",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, «Marondera» (Britannica editörleri), https://www.britannica.com/place/Marondera (tarayıcı sayfa okuma, 17 Kasım 2026; Britannica gövdesinden, YZ özeti bloğu dışı)",
+    "tanik": "Destroyed in the Shona resistance of 1896, it was moved 4 miles (6 km) north"
+   }
+  ],
+  "ic_not": "TEK KAYNAK: Britannica 'Marondera'. Tanıklar: özne zamir 'It' = madde konusu; başlık şehir (özne zamir = madde konusu; başlık şehir). Gün yok, yıl hassasiyeti. Atlas noktası YOK: zincir 1890-01-01'den 1900-01-01'e '__BOSLUK__' — Britannica yalnız 'Barozwi şefi' ve Britanya'nın Boer Savaşı'nda 'staging point' kullandığını söyler (1899-1902, dönem yarım), şehrin 1890-1900 arasında hangi devlete ait olduğuna dair 'şu yıl şu devletin' beyanı yok; BEYANLI BOŞLUK, yaklaşıklık yazılmadı (Britanya Güney Afrika Şirketi/Rodezya idaresi olasılığı kaynaksız, sahip olarak yazılmadı). 1896'da yer 6 km kuzeye taşındı (Britannica 4 mi); modern nokta (koordinat) taşınmış yeridir. Bölge Mashonaland (B17.tsv 'NC 1896-97' notu bu kaydın dayanağı değildir). | Britannica gövdesinden (YZ özeti bloğu dışı)",
+  "ad_kaynak": [
+   {"ad": "Marondera", "dil": "en", "donem": null, "kaynak": "Encyclopaedia Britannica 'Marondera' https://www.britannica.com/place/Marondera", "kanit": "Marondera, town, northeastern Zimbabwe."}
+  ]
+ }
+]

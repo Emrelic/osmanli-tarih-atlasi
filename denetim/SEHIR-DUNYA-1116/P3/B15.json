@@ -1,0 +1,145 @@
+[
+ {
+  "id": "franceville-ga-p3",
+  "ad": "Franceville",
+  "atlas_ad": "Fransvil (Franceville)",
+  "lat": -1.63333,
+  "lon": 13.58357,
+  "kat1900": 2,
+  "adlar": ["Franceville"],
+  "ilk": {
+   "t": "1880-01-01",
+   "gun": "1880",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, «Franceville» (Britannica Editors), https://www.britannica.com/place/Franceville (tarayıcı sayfa okuma, 17 Kasım 2026; gövde, YZ özeti bloğu dışı)",
+   "tanik": "The French explorer Pierre Savorgnan de Brazza founded it in 1880"
+  },
+  "kur": {
+   "t": "1880-01-01",
+   "gun": "1880",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, «Franceville», https://www.britannica.com/place/Franceville",
+   "tanik": "The French explorer Pierre Savorgnan de Brazza founded it in 1880"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1880-01-01",
+    "t": "1880-06-13",
+    "d": "fransa-cumhuriyet",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, «Franceville»: Fransız kâşif Brazza kurdu (devlet adı verilmez); dikiş: atlas ilk sahibiyle aynı künye",
+    "ic_not": "Beyanlı dikiş: gün kaynakta yok (yıl); atlas başlangıcına (1880-06-13) <=1 yıl uzatıldı. Kaynak 'Fransız kâşif' der, devlet adı vermez; künye atlasın ilk sahibinden alındı (atlas dayanak değildir, yalnız dikiş)."
+   }
+  ],
+  "olay": [],
+  "ic_not": "TEK KAYNAK. Britannica gövdesinden (YZ özeti bloğu dışı; innerText'te görünür makale metninde doğrulandı). Tanık özne zamir 'it' = madde konusu; başlık şehir. Gün kaynakta yok: YYYY-01-01 + yil. Atlas noktası VAR; atlas başlangıcı 1880-06-13 (atlas ayrı kaynak: Pourtier 1980 BAGF), kaynak yılı 1880 ile uyumlu, <=1 yıl dikiş. Atlas başlangıç adayı yok."
+ },
+ {
+  "id": "francistown-bw-p3",
+  "ad": "Francistown",
+  "atlas_ad": null,
+  "lat": -21.17,
+  "lon": 27.50778,
+  "kat1900": 2,
+  "adlar": ["Francistown"],
+  "ilk": {
+   "t": "1897-01-01",
+   "gun": "1897",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, «Botswana» (Settlement patterns), https://www.britannica.com/place/Botswana/Religion (tarayıcı sayfa okuma, 17 Kasım 2026; gövde, YZ özeti bloğu dışı)",
+   "tanik": "Francistown (1897) and Lobatse (1902), originated as small urban centers on the railway"
+  },
+  "kur": {
+   "t": "1897-01-01",
+   "gun": "1897",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, «Botswana» (Settlement patterns)",
+   "tanik": "Francistown (1897) and Lobatse (1902), originated as small urban centers on the railway"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1897-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "BOŞLUK BEYANI: Encyclopaedia Britannica, «Botswana» (Settlement patterns) kuruluş yılını verir, egemen devleti vermez; VERI-YAPISI: sahibi bilinmiyorsa __BOSLUK__ + ic_not",
+    "ic_not": "Şehir kaynak yılından itibaren VAR, kaynak 1900'e kadar sahip vermiyor; beyansız yaklaşıklık yazılmadı."
+   }
+  ],
+  "olay": [],
+  "ic_not": "TEK KAYNAK. Britannica gövdesinden (YZ özeti bloğu dışı). Tanık cümlesinde şehir adı + yıl birlikte ('Francistown (1897)'); yıl 'originated' (demiryolu kasabası olarak doğuş) olarak okundu. Çelişki: Tati Concessions arazi satışı 1897 (Botswana Society; ikincil), Greenwood yayını altın kampını 1870'lere çeker — ikisi kuruluşa değil madencilik öncesine ait; seçilmedi. Gün yok; YYYY-01-01 + yil. Atlas noktası yok. Zincir: __BOSLUK__ beyanlı."
+ },
+ {
+  "id": "gaborone-bw-p3",
+  "ad": "Gaborone",
+  "atlas_ad": null,
+  "lat": -24.65451,
+  "lon": 25.90859,
+  "kat1900": 2,
+  "adlar": ["Gaberones", "Gaborone"],
+  "ilk": {
+   "t": "1964-01-01",
+   "gun": "1964",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, «Botswana» (Settlement patterns), https://www.britannica.com/place/Botswana/Religion (tarayıcı sayfa okuma, 17 Kasım 2026; gövde, YZ özeti bloğu dışı)",
+   "tanik": "Gaborone, the capital city, was founded in 1964"
+  },
+  "kur": {
+   "t": "1964-01-01",
+   "gun": "1964",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, «Botswana» (Settlement patterns)",
+   "tanik": "Gaborone, the capital city, was founded in 1964"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [],
+  "ic_not": "TEK KAYNAK. Britannica gövdesinden (YZ özeti bloğu dışı). Atlas noktası yok. 1964 > 1900: 1900'e kadar zincir gerekmez (kuruluş sonrası). Not: encyclopedia.com (World Encyclopedia) 'First settled in the 1890s' der (yalnız on yıl; yıl yok, tanık değil); Gaberones köyü 1964 öncesi vardı — 1964 modern başkent şehrinin kuruluşudur. Sahip zinciri 1900 sonrası için yazılmadı (ülke dönemi atlas/devletler zincirinde)."
+ },
+ {
+  "id": "georgetown-gm-p3",
+  "ad": "Georgetown (Janjanbureh)",
+  "atlas_ad": null,
+  "lat": 13.54039,
+  "lon": -14.76374,
+  "kat1900": 3,
+  "adlar": ["Georgetown", "Janjanbureh"],
+  "ilk": {
+   "t": "1823-01-01",
+   "gun": "1823",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, «Georgetown» (The Gambia), https://www.britannica.com/place/Georgetown-The-Gambia (tarayıcı sayfa okuma, 17 Kasım 2026; gövde, YZ özeti bloğu dışı)",
+   "tanik": "It was founded in 1823 by Captain Alexander Grant as a settlement for freed slaves"
+  },
+  "kur": {
+   "t": "1823-01-01",
+   "gun": "1823",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, «Georgetown» (The Gambia)",
+   "tanik": "It was founded in 1823 by Captain Alexander Grant as a settlement for freed slaves"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1823-01-01",
+    "t": "1900-01-01",
+    "d": "gambiya-kolonisi",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, «MacCarthy Island», https://www.britannica.com/place/MacCarthy-Island — 'It was ceded in 1823 to Captain Alexander Grant of the African Corps, who was acting for the British crown'",
+    "ic_not": "Britannica adayı Britanya Tacı adına devralınan adada kurulmuş gösterir; künye gambiya-kolonisi (devletler.js f 1816-08-23, t 1965-02-18). 1900'e kadar sahip değişimi kaynakta yok; kesintisiz süreklilik kaynaklı değil, künye ömrüne dayanır (beyan)."
+   }
+  ],
+  "olay": [],
+  "ic_not": "TEK KAYNAK (iki Britannica maddesi aynı yayıncı; çift teyit değil). Britannica gövdesinden (YZ özeti bloğu dışı). Tanık özne zamir 'It' = madde konusu; başlık şehir. Gün yok; YYYY-01-01 + yil. Atlas noktası yok (atlastaki 'Georgetown (Stabroek)' Guyana'dır, farklı yer; koordinatla ayrıldı). Kat1900 3 varsayım: lütfen LAB doğrulasın."
+ }
+]
