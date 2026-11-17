@@ -305,7 +305,8 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_1 = [
    "nicelik": "ilk_anilis",
    "kesinlik": "yil",
    "kaynak": "Den Store Danske / lex.dk, 'Hillerød', https://lex.dk/Hillerød",
-   "tanik": "Navnet Hillerød nævnes 1552 som Hylderødz by"
+   "tanik": "Navnet Hillerød nævnes 1552 som Hylderødz by",
+   "ic_not": "2. KAYNAK (akademik topografik eser, bağımsızlık SINIRLI): Trap Danmark 6. udg., 'Hillerød', https://trap.lex.dk/Hillerød (17 Kasım 2026 okundu): 'Stednavnet Hillerød er tidligst belagt som forled i det ældre navn på Frederiksborg Slot, Hillerødsholm. I den ældste kilde, dateret *1275 (afskrift ca. 1497), er formen Hilderuthholm. Den ældste originalform er 1552 Hylderødz by.' — 1552 (kasaba adı, ilk orijinal belge) TEYİT. *1275 geç kopya ve Hillerødsholm (malikâne/şato) adıdır, kasaba tanığı değil: ilk.t değişmedi. Bağımsızlık notu: Trap DSD'den ayrı eserdir ama ad bölümleri iki eserde de KU Navneforskning (Danmarks Stednavne) verisine dayanır. (UMIT 1116)"
   },
   "kur": null,
   "ark": null,
@@ -383,7 +384,7 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_1 = [
    "kesinlik": "belirsiz",
    "kaynak": "Den Store Danske / lex.dk, 'Hjørring', https://lex.dk/Hjørring",
    "tanik": "Navnet Hjørring nævnes 1146-54 som Heringa",
-   "ic_not": "Aralığın SON ucu (güvenli uç) alındı. lex: oldtidin sonunda muhtemelen ticaret yeri."
+   "ic_not": "Aralığın SON ucu (güvenli uç) alındı. lex: oldtidin sonunda muhtemelen ticaret yeri. | 2. KAYNAK (akademik topografik eser, bağımsızlık SINIRLI): Trap Danmark 6. udg., 'Hjørring', https://trap.lex.dk/Hjørring (17 Kasım 2026 okundu): 'Navnet kendes fra 1146-54, hvor det skrives Heringa.' — 1146-54 aralığı TEYİT (güvenli uç 1154 korunur). Bağımsızlık notu: Trap ve DSD ad bölümleri aynı KU Navneforskning (Danmarks Stednavne) verisine dayanır. (UMIT 1116)"
   },
   "kur": null,
   "ark": null,
@@ -460,7 +461,8 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_1 = [
    "nicelik": "ilk_anilis",
    "kesinlik": "yil",
    "kaynak": "Den Store Danske / lex.dk, 'Holbæk', https://lex.dk/Holbæk",
-   "tanik": "Navnet Holbæk kendes fra 1199 som Holbek"
+   "tanik": "Navnet Holbæk kendes fra 1199 som Holbek",
+   "ic_not": "2. KAYNAK (akademik topografik eser, bağımsızlık SINIRLI): Trap Danmark 6. udg., 'Holbæk', https://trap.lex.dk/Holbæk (17 Kasım 2026 okundu): 'Stednavnet Holbæk er nævnt første gang i *1199 (afskrift ca. 1440) i formen Holbek. Den ældste originalform Hulæbæck er nedskrevet engang mellem 1253 og 1274.' — 1199 TEYİT; ancak 1199 belgesi ca. 1440 kopyasıdır, en eski orijinal yazım 1253-1274 arası (Absalon'un Sorø'ya bağış mektubu). ilk.t değişmedi. Bağımsızlık notu: Trap DSD'den ayrı eserdir ama ad bölümleri iki eserde de KU Navneforskning (Danmarks Stednavne) verisine dayanır. (UMIT 1116)"
   },
   "kur": null,
   "ark": null,
@@ -612,7 +614,8 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_1 = [
    "nicelik": "kurulus",
    "kesinlik": "yil",
    "kaynak": "Den Store Danske / lex.dk, 'Karlskrona', https://lex.dk/Karlskrona",
-   "tanik": "Karlskrona blev anlagt af Karl 11. i 1680 som flådestation, efter at Blekinge var blevet svensk ved Roskildefreden i 1658."
+   "tanik": "Karlskrona blev anlagt af Karl 11. i 1680 som flådestation, efter at Blekinge var blevet svensk ved Roskildefreden i 1658.",
+   "ic_not": "2. KAYNAK (kurumsal, UNESCO Dünya Mirası OUV metni): UNESCO WHC, 'Naval Port of Karlskrona' (871), https://whc.unesco.org/en/list/871/ (17 Kasım 2026 okundu): 'Founded in 1680 by King Karl XI and planned from the outset as a naval city, Karlskrona was built as a new base for the fleet of Sweden'. — 1680 ÇİFT TEYİT (lex + UNESCO). Gün yok. (UMIT 1116)"
   },
   "kur": null,
   "ark": null,
@@ -664,7 +667,8 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_1 = [
    "nicelik": "kurulus",
    "kesinlik": "yil",
    "kaynak": "Den Store Danske / lex.dk, 'Maribo', https://lex.dk/Maribo",
-   "tanik": "Maribo opstod ved grundlæggelsen af Maribo Kloster i landsbyen Skimminge i 1416."
+   "tanik": "Maribo opstod ved grundlæggelsen af Maribo Kloster i landsbyen Skimminge i 1416.",
+   "ic_not": "2. KAYNAK ARANDI, 1416 BULUNAMADI: Trap Danmark 6. udg., 'Maribo', https://trap.lex.dk/Maribo (17 Kasım 2026 okundu) 1416'yı vermez; ad bölümü: 'Stednavnet Maribo forekommer tidligst i formen Mariebo i et delvis ødelagt brev dateret efter registratur over Maribo Klosters breve (afskrift 1624) til året *1425.' — ad tanığı *1425 (geç kopya), kuruluş 1416 tek kaynak (lex) kalır. ilk.t değişmedi. (UMIT 1116)"
   },
   "kur": null,
   "ark": null,
@@ -731,7 +735,8 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_1 = [
    "nicelik": "kurulus",
    "kesinlik": "yil",
    "kaynak": "Den Store Danske / lex.dk, 'Mariestad', https://lex.dk/Mariestad",
-   "tanik": "Byen blev grundlagt i 1583 som afløser for indlandsbyen Ullervad."
+   "tanik": "Byen blev grundlagt i 1583 som afløser for indlandsbyen Ullervad.",
+   "ic_not": "2. KAYNAK (akademik, Riksarkivet SBL): Lars-Olof Skoglund, 'Maria' (Karl IX'un eşi), Svenskt biografiskt lexikon bd 25 (1985-1987) s. 150, https://sok.riksarkivet.se/sbl/Presentation.aspx?id=9105 (17 Kasım 2026 okundu): 'Det 1583 grundade Mariestad är uppkallat efter M och i samband därmed ändrades den därintill belägna kungsgården Tunaholms namn till Marieholm (Lokalf).' — 1583 TEYİT. (UMIT 1116 II. tur)"
   },
   "kur": null,
   "ark": null,
@@ -791,7 +796,8 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_1 = [
    "nicelik": "ilk_anilis",
    "kesinlik": "yil",
    "kaynak": "Den Store Danske / lex.dk, 'Præstø', https://lex.dk/Præstø",
-   "tanik": "Efter Præstø, 1321 Præstøe, af præst"
+   "tanik": "Efter Præstø, 1321 Præstøe, af præst",
+   "ic_not": "2. KAYNAK (akademik topografik eser, bağımsızlık SINIRLI): Trap Danmark 6. udg., 'Præstø', https://trap.lex.dk/Præstø (17 Kasım 2026 okundu): 'Stednavnet Præstø forekommer første gang i et dokument dateret *1321 (afskrift fra midten af 1700-tallet) i formen Præstøe.' — 1321 TEYİT; belge 1700'ler ortası kopyasıdır. Bağımsızlık notu: Trap DSD'den ayrı eserdir ama ad bölümleri iki eserde de KU Navneforskning (Danmarks Stednavne) verisine dayanır. (UMIT 1116)"
   },
   "kur": null,
   "ark": null,
@@ -869,7 +875,7 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_1 = [
    "kesinlik": "belirsiz",
    "kaynak": "Den Store Danske / lex.dk, 'Randers', https://lex.dk/Randers",
    "tanik": "Navnet Randers nævnes 1080-86 som Randeros, Randros, af rand 'kant, rand' og gammeldansk *rusæ måske med betydningen 'stendynge'.",
-   "ic_not": "lex: ad 1080-86 arasında Randeros/Randros biçiminde anılır; aralığın SON ucu (güvenli uç) alındı. Aynı sayfa ~1080'de sikke darphanesi olduğunu da yazar (tarihsiz-yaklaşık)."
+   "ic_not": "lex: ad 1080-86 arasında Randeros/Randros biçiminde anılır; aralığın SON ucu (güvenli uç) alındı. Aynı sayfa ~1080'de sikke darphanesi olduğunu da yazar (tarihsiz-yaklaşık). | 2. KAYNAK (akademik topografik eser, bağımsızlık SINIRLI): Trap Danmark 6. udg., 'Randers', https://trap.lex.dk/Randers (17 Kasım 2026 okundu): 'Den ældst kendte kilde til navnet Randers er mønter fra 1080‑86, hvor formerne Randeros og Randros optræder.' — 1080-86 (sikke) TEYİT; güvenli uç 1086 korunur. Bağımsızlık notu: Trap ve DSD ad bölümleri aynı KU Navneforskning verisine dayanır. (UMIT 1116)"
   },
   "kur": null,
   "ark": null,
@@ -935,7 +941,7 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_1 = [
    "kesinlik": "yil",
    "kaynak": "Den Store Danske / lex.dk, 'Ringkøbing', https://lex.dk/Ringkøbing",
    "tanik": "Navnet Ringkøbing nævnes ca. 1325 som Rennumkøpingh",
-   "ic_not": "lex 'ca.' der (yaklaşık yıl)."
+   "ic_not": "lex 'ca.' der (yaklaşık yıl). | 2. KAYNAK (akademik topografik eser, bağımsızlık SINIRLI): Trap Danmark 6. udg., 'Ringkøbing', https://trap.lex.dk/Ringkøbing (17 Kasım 2026 okundu): 'Den ældst kendte kilde til navnet Ringkøbing er fra *ca. 1325, hvor formen Rennumkøpingh optræder.' — ca. 1325 TEYİT (yıldız = kopya/tarihlemesi çıkarım). Bağımsızlık notu: Trap ve DSD ad bölümleri aynı KU Navneforskning verisine dayanır. (UMIT 1116)"
   },
   "kur": null,
   "ark": null,
@@ -1003,7 +1009,7 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_1 = [
    "kesinlik": "yil",
    "kaynak": "Den Store Danske / lex.dk, 'Sorø', https://lex.dk/Sorø",
    "tanik": "Byens historie er nært forbundet med Sorø Klosters og Sorø Akademis historie. Bortset fra disse har der næppe været bebyggelse i området, før Christian 4. i 1622 gav befaling om opførelse af otte store bygninger udenfor Klosterporten.",
-   "ic_not": "lex: 1161-71'de 'Soræ' adı yalnız Sorø Sø'nün (göl) adı olarak anılır, yerleşim değil; yeri kesin olmayan ad eşitlemesi başlangıç sayılmadı. Sorø Kloster'in kuruluş yılı lex sayfasında YOK (ikinci kaynak okunamadı). İlk yerleşim tanığı: 1622 kral emri (Klosterport dışında binalar). | TANIK DÜZELTME (UMIT 1116): iki cümlelik tanık (ad 1. cümlede, yıl 2. cümlede)"
+   "ic_not": "lex: 1161-71'de 'Soræ' adı yalnız Sorø Sø'nün (göl) adı olarak anılır, yerleşim değil; yeri kesin olmayan ad eşitlemesi başlangıç sayılmadı. Sorø Kloster'in kuruluş yılı lex sayfasında YOK (ikinci kaynak okunamadı). İlk yerleşim tanığı: 1622 kral emri (Klosterport dışında binalar). | TANIK DÜZELTME (UMIT 1116): iki cümlelik tanık (ad 1. cümlede, yıl 2. cümlede) | 2. KAYNAK ARANDI — KAPSAM FARKI (karar gerekir): Trap Danmark 6. udg., 'Sorø', https://trap.lex.dk/Sorø (17 Kasım 2026 okundu): 'Stednavnet Sorø er tidligst nævnt i *1160 (afskrift) i formen Sora.' ve 'Det ældste originaldokument fra 1227 har formen Sora.' — Trap yer adını 1160 (kopya) / 1227 (orijinal) verir; bu ad Sorø Manastırı'nın yeridir. lex ise manastır/akademi dışında 1622'den önce yerleşim olmadığını söyler. ilk.t 1622 kasaba başlangıcı olarak bırakıldı; manastır yerinin 1160/1227 anılışı ayrı karar (ilk_anilis tanımı) — tek akademik kaynak, Hakemli karar eşiği (≥2) yok. (UMIT 1116)"
   },
   "kur": null,
   "ark": null,
@@ -1117,7 +1123,7 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_1 = [
    "kesinlik": "yil",
    "kaynak": "Den Store Danske / lex.dk, 'Svendborg', https://lex.dk/Svendborg",
    "tanik": "Navnet Svendborg nævnes 1229 som Swineburgh, af svin og -borg.",
-   "ic_not": "lex: ca. 1000'e tarihli arkeolojik buluntular var (arkeolojik; yazılı tanık varken başlangıç değil)."
+   "ic_not": "lex: ca. 1000'e tarihli arkeolojik buluntular var (arkeolojik; yazılı tanık varken başlangıç değil). | 2. KAYNAK (akademik topografik eser, bağımsızlık SINIRLI): Trap Danmark 6. udg., 'Svendborg', https://trap.lex.dk/Svendborg (17 Kasım 2026 okundu): 'Den ældst kendte kilde til navnet Svendborg er en runeindskrift fra 1200-tallet, hvor formen Sinnebuuhr optræder. I senere belæg findes former som Swineburgh (1229), ...' — 1229 Swineburgh TEYİT; ancak Trap 1229'dan ÖNCE sayılan tarihsiz bir 1200'ler runik yazıtı (Sinnebuuhr) verir. Yıl kesin değil (yüzyıl), tek akademik kaynak: ilk.t 1229 korundu, not düşüldü. (UMIT 1116)"
   },
   "kur": null,
   "ark": null,
@@ -1195,7 +1201,7 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_1 = [
    "kesinlik": "yil",
    "kaynak": "Den Store Danske / lex.dk, 'Thisted', https://lex.dk/Thisted",
    "tanik": "Navnet Thisted kendes fra 1367 som Tystath",
-   "ic_not": "lex: yerleşim 1300'lerde Thisted Bredning kıyısında köy olarak doğar (yüzyıl hassasiyeti)."
+   "ic_not": "lex: yerleşim 1300'lerde Thisted Bredning kıyısında köy olarak doğar (yüzyıl hassasiyeti). | 2. KAYNAK (akademik topografik eser, bağımsızlık SINIRLI): Trap Danmark 6. udg., 'Thisted', https://trap.lex.dk/Thisted (17 Kasım 2026 okundu): 'Den ældste kendte kilde til navnet Thisted er fra 1367, hvor formen Tystath optræder.' — 1367 TEYİT. Bağımsızlık notu: Trap ve DSD ad bölümleri aynı KU Navneforskning verisine dayanır. (UMIT 1116)"
   },
   "kur": null,
   "ark": null,
@@ -1367,7 +1373,7 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_1 = [
    "kesinlik": "yil",
    "kaynak": "Den Store Danske / lex.dk, 'Vejle', https://lex.dk/Vejle",
    "tanik": "1200-t. Wæthlæ, 1293 Wæthæl, identisk med subst. vejle 'vadested'.",
-   "ic_not": "Ad 1200'lerde 'Wæthlæ' (yüzyıl), 1293 yıl-kesin yazım alındı."
+   "ic_not": "Ad 1200'lerde 'Wæthlæ' (yüzyıl), 1293 yıl-kesin yazım alındı. | 2. KAYNAK (akademik topografik eser, bağımsızlık SINIRLI): Trap Danmark 6. udg., 'Vejle', https://trap.lex.dk/Vejle (17 Kasım 2026 okundu): 'Den ældst kendte kilde til navnet Vejle er fra *1200-tallet, hvor formen Wæthlæ optræder. I senere belæg findes former som Wæthæl (1293), ...' — 1293 yıl-kesin TEYİT; daha eski *1200'ler (kopya, yıl yok) iki kaynakta da aynı. (UMIT 1116)"
   },
   "kur": null,
   "ark": null,
