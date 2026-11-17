@@ -1876,6 +1876,50 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
   "ic_not": "Kaynak: TDV tam gövde (tarayıcı), çift teyit YOK (ikinci akademik kaynak açılmadı). Tüm tanık alıntıları gövdede includes() ile birebir doğrulandı. Ad eşitlemesi: TDV «Kırım» md.'nin 'Mangub' kaydı atlasın Mankup (Mangup) noktasıyla aynı yer sayıldı (TDV 'Mangub'u Kırım güney kıyı/dağ yerleşmesi olarak anar; ayrı koordinat TDV'de yok) — kesin olmayan eşitleme olarak beyan edilir. ilk.t TDV'nin bu maddedeki ilk TARİHLİ tanığıdır (Evliya Çelebi'nin XVII. yy açıklamaları ve 'kıyı boyunca Mangub ... Osmanlı bölgesinde kaldı' tarihsiz, yazılmadı). Mankup'un Hristiyan/Gotia dönemi TDV'de yok. Atlas 1281'de altinorda ile başlatır. Atlas bu noktayı 1281-01-01'de başlatır; ilk.t sonra olduğundan sahip:[] (atlas zinciri esas), 'atlas başlangıcı düzeltilmeli' uyarısı beklenen davranıştır — TDV'de daha erken TARİHLİ tanık bulunamadı."
  },
  {
+  "id": "mezarisserif-p10",
+  "ad": "Mezârışerif (Mazar-ı Şerif)",
+  "atlas_ad": null,
+  "lat": 36.70904,
+  "lon": 67.11087,
+  "kat1900": null,
+  "adlar": [
+   "Mazar-e Sharif",
+   "Mezârışerif"
+  ],
+  "ilk": {
+   "t": "1852-01-01",
+   "gun": "1852",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, «Mazār-e Sharīf» (Britannica editörleri), https://www.britannica.com/place/Mazar-e-Sharif (tarayıcı sayfa okuma, 17 Kasım 2026) + TDV İslâm Ansiklopedisi, «Mezârışerif», https://islamansiklopedisi.org.tr/mezariserif (tarayıcı sayfa okuma, 17 Kasım 2026)",
+   "tanik": "Mazār-e Sharīf came under Afghan rule in 1852"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1852-01-01",
+    "t": "1900-01-01",
+    "d": "afganistan",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, «Mazār-e Sharīf» (Britannica editörleri), https://www.britannica.com/place/Mazar-e-Sharif (tarayıcı sayfa okuma, 17 Kasım 2026) + TDV İslâm Ansiklopedisi, «Mezârışerif», https://islamansiklopedisi.org.tr/mezariserif (tarayıcı sayfa okuma, 17 Kasım 2026)"
+   }
+  ],
+  "olay": [
+   {
+    "t": "1852-01-01",
+    "gun": "1852",
+    "k": "fetih",
+    "b": "Mezârışerif Afgan hâkimiyetine girdi",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, «Mazār-e Sharīf» (Britannica editörleri), https://www.britannica.com/place/Mazar-e-Sharif (tarayıcı sayfa okuma, 17 Kasım 2026) + TDV İslâm Ansiklopedisi, «Mezârışerif», https://islamansiklopedisi.org.tr/mezariserif (tarayıcı sayfa okuma, 17 Kasım 2026)",
+    "tanik": "Mazār-e Sharīf came under Afghan rule in 1852"
+   }
+  ],
+  "ic_not": "ÇİFT TEYİT: Britannica (cümle tanığı, 'Mazār-e Sharīf came under Afghan rule in 1852') + TDV Mezârışerif ('1852 yılında Afgan hâkimiyetine giren şehir 1869’da Afgan Türkistanı’nın siyasî merkezi haline getirildi'; TDV cümlesinde özne adı yok, madde konusudur). 1852 şehrin ilk anılışı DEĞİL: TDV iki Hz. Ali türbesi keşfini 530 (1136, Sencer) ve 885 (1480, Hüseyin Baykara) olarak verir; ancak TDV cümlesi şehir adını taşımaz, Britannica 1480 cümlesinde 'settlement' Belh'tir (belirsiz) ⇒ bu erken yıllar tanık olarak alınmadı, ayrı borç. 1869 olayı Britannica'da şehir adlı cümlede 15 kelimeyi aşar; TDV'de adsızdır: yazılmadı. Sahip zinciri 1852→1900 (Afganistan Bârekzâyî Emirliği, 'afganistan'): 1900 yalnız bu dosyanın atlas yokluğu dikişidir (kaynak değil); 1852'den sonra Afgan idaresi TDV'ye göre sürer (1869 siyasî merkez, 1873/1889 Afgan valileri). Atlas noktası yok."
+ },
+ {
   "id": "sehrisebz-kes-uz",
   "ad": "Şehrisebz (Keş)",
   "atlas_ad": "Şehrisebz (Kiş)",
