@@ -168,7 +168,7 @@ window.SEHIR_TARIHCE_DOGU_ASYA_DOGU = [
    "kesinlik": "yil",
    "kaynak": "Encyclopaedia Britannica, 'Hakodate', britannica.com/place/Hakodate (erişim 2026-11-17)",
    "tanik": "In 1789 it was made a base for Japanese deep-sea fishing, which led to its prosperity.",
-   "ic_not": "Önceki cümle 'Hakodate' adını verir (18. yy ortasına dek Ainu elinde, tarihsiz); 'it' Hakodate'dir. Bulunan en erken YILLI tanık budur. Atlas 1550 (muromachi) ile başlıyor; 1550 iddiasının tanığı bu kaynakta yok: atlas başlangıcı kaynakla doğrulanmadı."
+   "ic_not": "Önceki cümle 'Hakodate' adını verir (18. yy ortasına dek Ainu elinde, tarihsiz); 'it' Hakodate'dir. Bulunan en erken YILLI tanık budur. Atlas 1550 (muromachi) ile başlıyor; 1550 iddiasının tanığı bu kaynakta yok: atlas başlangıcı kaynakla doğrulanmadı. Madde konusu zamir: tanık cümlesi 'it/the city/there' ile şehri anar (madde başlığı şehirdir, önceki cümle şehri özne yapar); sayfa kontrolü 17 Kasım 2026 (post-ölçüm düzeltmesi)."
   },
   "kur": null,
   "ark": null,
