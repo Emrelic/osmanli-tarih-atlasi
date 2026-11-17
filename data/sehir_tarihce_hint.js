@@ -328,7 +328,7 @@ window.SEHIR_TARIHCE_HINT = [
     "kaynak": "Britannica 'Bengaluru': From 1831 to 1881, it was the headquarters of the British administration (tarayıcıda okundu)"
    }
   ],
-  "ic_not": "TEK KAYNAK (Britannica). 1537 yılı kaleyi yapanı (Kempe Gowda) ve o günkü bağlı olduğu devleti söylemez; atlas 1537'de Bangalor'u Vijayanagara ile başlatır (atlas = ilk tanıkla aynı gün, sahip:[]), ama Vijayanagara'ya bağlayan kaynak bu oturumda bulunamadı (Sewell'de Bangalor/Bengalur geçmez; TDV 'Meysûr' maddesi yalnız Karnataka'nın merkezi olarak anar). Britannica ayrıca 'capital of Karnataka state since 1830' der; Mysore Krallığı ile ilişkisi açık olmadığı için olay yazılmadı. Atlas zinciri Vijayanagara→Bicapur→Meysûr kaynaksız: kaynak arayışı borç."
+  "ic_not": "ÇİFT TEYİT (LAB, 17 Kasım 2026; Britannica/ilk kaynaktan bağımsız ikinci kaynak): Oxford World Encyclopedia, «Bangalore», encyclopedia.com/environment/…/bangalore; includes() 17 Kas 2026 | tanık 2: \"Established in 1537 by the Mysore dynasty\" | 1537 aynı (Britannica: mud fort built in 1537); 'Mysore dynasty' ifadesi Oxford'a özgü, tarihsel Kempe Gowda/Yelahanka notuna bakılmalı || İLK KAYNAK (Britannica). 1537 yılı kaleyi yapanı (Kempe Gowda) ve o günkü bağlı olduğu devleti söylemez; atlas 1537'de Bangalor'u Vijayanagara ile başlatır (atlas = ilk tanıkla aynı gün, sahip:[]), ama Vijayanagara'ya bağlayan kaynak bu oturumda bulunamadı (Sewell'de Bangalor/Bengalur geçmez; TDV 'Meysûr' maddesi yalnız Karnataka'nın merkezi olarak anar). Britannica ayrıca 'capital of Karnataka state since 1830' der; Mysore Krallığı ile ilişkisi açık olmadığı için olay yazılmadı. Atlas zinciri Vijayanagara→Bicapur→Meysûr kaynaksız: kaynak arayışı borç."
  },
  {
   "id": "bhagalpur-in-p7",
@@ -576,7 +576,7 @@ window.SEHIR_TARIHCE_HINT = [
   "bit": null,
   "sahip": [],
   "olay": [],
-  "ic_not": "Tek kaynak (Britannica); çift teyit aranmadı/bulunamadı: Britannica 'Bikaner' maddesi şehir inşasına 1488'de başlandığını söyler ('he' = Rao Bika, madde 'the settlement of Bika' diye adlandırır); TDV'de Bikaner maddesi yok (arama: 'bikaner' yalnız PENCAP maddesini döndürdü, şehri anlatmaz), Majumdar VI ve Sewell metinlerinde yıllı cümle bulunamadı. 'Inşasına başladı' = kuruluş başlangıcı; tamamlanma günü verilmez. Atlas noktası 1488-01-01'de racput ile başlar: kaynaklı kuruluş yılı atlas başlangıcıyla ÖRTÜŞÜR (sahip zinciri yok, uyarı beklenen); sahip (Rathore Racput) künye eşleşmesi Britannica'nın 'chieftain of Bikaner' anlatımıyla uyumlu ama sahip tanığı alınmadı."
+  "ic_not": "ÇİFT TEYİT (LAB, 17 Kasım 2026; Britannica/ilk kaynaktan bağımsız ikinci kaynak): The Columbia Encyclopedia 6th ed., «Bikaner», encyclopedia.com/reference/…/bikaner; includes() 17 Kas 2026 | tanık 2: \"Bikaner (1991 pop. 416,289), the capital of the former state, was founded in 1488\" | 1488 aynı || İLK KAYNAK (Britannica); çift teyit aranmadı/bulunamadı: Britannica 'Bikaner' maddesi şehir inşasına 1488'de başlandığını söyler ('he' = Rao Bika, madde 'the settlement of Bika' diye adlandırır); TDV'de Bikaner maddesi yok (arama: 'bikaner' yalnız PENCAP maddesini döndürdü, şehri anlatmaz), Majumdar VI ve Sewell metinlerinde yıllı cümle bulunamadı. 'Inşasına başladı' = kuruluş başlangıcı; tamamlanma günü verilmez. Atlas noktası 1488-01-01'de racput ile başlar: kaynaklı kuruluş yılı atlas başlangıcıyla ÖRTÜŞÜR (sahip zinciri yok, uyarı beklenen); sahip (Rathore Racput) künye eşleşmesi Britannica'nın 'chieftain of Bikaner' anlatımıyla uyumlu ama sahip tanığı alınmadı."
  },
  {
   "id": "broac-p6",
