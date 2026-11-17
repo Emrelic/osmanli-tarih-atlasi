@@ -1,0 +1,159 @@
+// ŞEHİR TARİHÇESİ — YAKIN_DOGU_R2B · üretici: arac/sehir_tarihce.py · şema: VERI-YAPISI.md
+// Motor/denetle/site OKUMAZ — araştırma birikimi. Elle düzenleme: JSON'u düzelt, yeniden üret.
+window.SEHIR_TARIHCE_YAKIN_DOGU_R2B = [
+ {
+  "id": "irbid-jo",
+  "ad": "Irbid",
+  "atlas_ad": null,
+  "lat": 32.5556,
+  "lon": 35.85,
+  "kat1900": 3,
+  "adlar": [
+   "Irbid",
+   "İrbid",
+   "Arbila (olası, kesin degil)",
+   "Beth Arbel (olası, kesin degil)"
+  ],
+  "ilk": {
+   "t": "1900-01-01",
+   "gun": "19. yüzyıl sonları",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yuzyil",
+   "kaynak": "TDV Islam Ansiklopedisi, https://islamansiklopedisi.org.tr/urdun (ÜRDÜN, II. Tarih, Cengiz Tomar, TDV IA) ; Encyclopaedia Britannica, Irbid, https://www.britannica.com/place/Irbid (gorunen makale govdesi)",
+   "tanik": "XIX. yüzyıl sonlarında Ürdün’de İrbid, Kerek, Maan ve Salt şehirlerinde dört rüşdiye mevcuttu"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1888-01-01",
+    "gun": "1888",
+    "k": "diger",
+    "b": "İrbid'de bir okul açıldı",
+    "kaynak": "TDV Islam Ansiklopedisi, https://islamansiklopedisi.org.tr/urdun (ÜRDÜN, II. Tarih, Cengiz Tomar, TDV IA) ; Encyclopaedia Britannica, Irbid, https://www.britannica.com/place/Irbid (gorunen makale govdesi)"
+   },
+   {
+    "t": "1964-01-01",
+    "gun": "1964",
+    "k": "diger",
+    "b": "İrbid merkez oldu, Aclûn İrbid'e bağlandı",
+    "kaynak": "TDV Islam Ansiklopedisi, https://islamansiklopedisi.org.tr/aclun (ACLÛN, İdris Bostan, TDV IA)"
+   }
+  ],
+  "ic_not": "ILK ANILIS: TDV Urdun (XIX. yy sonlari rusdiye sehirleri; 1888 okul) ve Britannica Irbid ('population swelled in the late 19th century', gorunen govdede dogrulandi) iki bagimsiz akademik ansiklopedi: 'XIX. yuzyil sonlari' icin CIFT TEYIT; yil hassasiyeti yuzyil, guvenli uc 1900. ANTIK DONEM YAZILMADI: Britannica 'successive Early Bronze Age settlements ... POSSIBLY biblical Beth Arbel and Arbila of the Decapolis' — yer esitlemesi kesin degil (CLAUDE.md/VERI-YAPISI kurali: kesin olmayan ad esitlemesi baslangic sayilmaz). TDV Aclun: XIX. yy sonu kaza merkezi (ayni yer). ilk.t 1900 oldugu icin sahip[] bos (atlas noktasi yok). Antik/ortacag kaynagi borc. | TANIK: tam govdeden birebir cumle (17 Kas 2026, gomulu tarayici; yil+sehir ayni cumlede ya da maddenin konusu sehre acik atif).",
+  "ad_kaynak": "TDV ACLÛN/ÜRDÜN (İrbid); Britannica (Arbila olası)"
+ },
+ {
+  "id": "salt-jo",
+  "ad": "Salt",
+  "atlas_ad": null,
+  "lat": 32.0392,
+  "lon": 35.7272,
+  "kat1900": 3,
+  "adlar": [
+   "Salt",
+   "es-Salt",
+   "Salt"
+  ],
+  "ilk": {
+   "t": "1527-01-01",
+   "gun": "1527",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV Islam Ansiklopedisi, https://islamansiklopedisi.org.tr/urdun (ÜRDÜN, II. Tarih, Cengiz Tomar, TDV IA) ; TDV Islam Ansiklopedisi, https://islamansiklopedisi.org.tr/belka (BELKĀ, Muhammed Abdülkādir Hureysât, TDV IA 1992)",
+   "tanik": "1527’de Salt ve Aclûn, İskender Bey’e sancak olarak verildi"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1527-01-01",
+    "t": "1900-01-01",
+    "d": "osmanli",
+    "kesinlik": "yil",
+    "kaynak": "TDV Islam Ansiklopedisi, https://islamansiklopedisi.org.tr/urdun (ÜRDÜN, II. Tarih, Cengiz Tomar, TDV IA) ; TDV Islam Ansiklopedisi, https://islamansiklopedisi.org.tr/belka (BELKĀ, Muhammed Abdülkādir Hureysât, TDV IA 1992)",
+    "ic_not": "TDV Urdun: Yavuz Sultan Selim'in Misir seferi sirasinda (1516) Urdun Osmanlilara gecti; Salt Sam beylerbeyiligine bagli, 1527'de Aclun ile Iskender Bey'e sancak. Zincir ilk.t'den (1527) itibaren yazildi; 1516-1527 arasi Salt'in Osmanli oldugu TDV'de acik ama Salt'a ozgu yil yok."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1527-01-01",
+    "gun": "1527",
+    "k": "diger",
+    "b": "Salt ve Aclûn İskender Bey'e sancak olarak verildi (Şam beylerbeyiliği)",
+    "kaynak": "TDV Islam Ansiklopedisi, https://islamansiklopedisi.org.tr/urdun (ÜRDÜN, II. Tarih, Cengiz Tomar, TDV IA) ; TDV Islam Ansiklopedisi, https://islamansiklopedisi.org.tr/belka (BELKĀ, Muhammed Abdülkādir Hureysât, TDV IA 1992)"
+   },
+   {
+    "t": "1874-01-01",
+    "gun": "1874",
+    "k": "diger",
+    "b": "Salt şehrinde altı sıbyan mektebi vardı",
+    "kaynak": "TDV Islam Ansiklopedisi, https://islamansiklopedisi.org.tr/urdun (ÜRDÜN, II. Tarih, Cengiz Tomar, TDV IA) ; TDV Islam Ansiklopedisi, https://islamansiklopedisi.org.tr/belka (BELKĀ, Muhammed Abdülkādir Hureysât, TDV IA 1992)"
+   },
+   {
+    "t": "1879-01-01",
+    "gun": "1879",
+    "k": "diger",
+    "b": "Salt'ta ilk resmî ilkokul (enmûzec) açıldı; Salt Ürdün'de ilkokulların ilk açıldığı idarî merkezdi",
+    "kaynak": "TDV Islam Ansiklopedisi, https://islamansiklopedisi.org.tr/urdun (ÜRDÜN, II. Tarih, Cengiz Tomar, TDV IA) ; TDV Islam Ansiklopedisi, https://islamansiklopedisi.org.tr/belka (BELKĀ, Muhammed Abdülkādir Hureysât, TDV IA 1992)"
+   },
+   {
+    "t": "1892-01-01",
+    "gun": "1892",
+    "k": "diger",
+    "b": "Ürdün'deki ilk kız okulu Salt'ta eğitime başladı",
+    "kaynak": "TDV Islam Ansiklopedisi, https://islamansiklopedisi.org.tr/urdun (ÜRDÜN, II. Tarih, Cengiz Tomar, TDV IA) ; TDV Islam Ansiklopedisi, https://islamansiklopedisi.org.tr/belka (BELKĀ, Muhammed Abdülkādir Hureysât, TDV IA 1992)"
+   },
+   {
+    "t": "1918-09-23",
+    "gun": "23 Eylül 1918",
+    "k": "fetih",
+    "b": "Faysal'a bağlı kuvvetler Salt'ı ele geçirdi (Amman 25 Eylül)",
+    "kaynak": "TDV Islam Ansiklopedisi, https://islamansiklopedisi.org.tr/urdun (ÜRDÜN, II. Tarih, Cengiz Tomar, TDV IA) ; TDV Islam Ansiklopedisi, https://islamansiklopedisi.org.tr/belka (BELKĀ, Muhammed Abdülkādir Hureysât, TDV IA 1992)"
+   }
+  ],
+  "ic_not": "ILK ANILIS: TDV Urdun maddesi (II. Tarih, Cemalettin Sahin / Cengiz Tomar bolumu), Salt adinin YILLI ilk gectigi cumle 1527 (sancak atamasi); daha erken Islam/Eyyubi-Memluk donemi Salt TDV'de yilsiz, TDV 'Salt' maddesi yok (arama 'salt' kisi/kavram maddeleri verdi). 'Osmanli' sahibi Belka maddesi degil Urdun maddesine dayali (1516 Yavuz Misir seferi). Tek kaynak (TDV; Belka maddesi yalniz 'Salt sehri = Belka merkezi' teyidi). Atlas noktasi yok. Koord LISTE. | TANIK: tam govdeden birebir cumle (17 Kas 2026, gomulu tarayici; yil+sehir ayni cumlede ya da maddenin konusu sehre acik atif).",
+  "ad_kaynak": "TDV ÜRDÜN/BELKĀ (Salt)"
+ },
+ {
+  "id": "sohar-om",
+  "ad": "Sohar",
+  "atlas_ad": null,
+  "lat": 24.3474,
+  "lon": 56.7094,
+  "kat1900": 3,
+  "adlar": [
+   "Ṣuḥār",
+   "Suhar",
+   "Sohār",
+   "Sohar"
+  ],
+  "ilk": {
+   "t": "1000-01-01",
+   "gun": "10. yüzyıl",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yuzyil",
+   "kaynak": "Encyclopaedia Britannica, Ṣuḥār (Sohār), https://www.britannica.com/place/Suhar (gorunen makale govdesi)",
+   "tanik": "It developed into a prosperous and well-known port and during the 10th century was said to be the largest and most important city in the Arab world"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1000-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "Encyclopaedia Britannica, Ṣuḥār (Sohār), https://www.britannica.com/place/Suhar (gorunen makale govdesi)",
+    "ic_not": "Sehir var; Britannica: erken Islam karakolu (olasi Peygamber doneminde), 10. yy buyuk liman, sonra Pers ve Portekiz istilalari — gecis tarihleri kaynakta yok: zincir kurulmadi."
+   }
+  ],
+  "olay": [],
+  "ic_not": "ILK ANILIS: Britannica Suhar maddesi (gorunen govde, YZ blogu degil) 10. yy tanigi (yuzyil hassasiyeti, guvenli uc 1000). 'Origins prehistoric ... copper mines possibly 2500 BC' yazilmadi: maden alanlari sehirle ayni yer degil, 'possibly'. 'Possibly during the lifetime of the Prophet' yilsiz. TDV 'Suhar' maddesi bulunamadi (arama sahabi SUHAR b. ABBAS verdi). Ozne 'It' = Suhar (maddenin konusu). Tek kaynak. Atlas noktasi yok. Koord LISTE (24.3474, 56.7094). | TANIK: tam govdeden birebir cumle (17 Kas 2026, gomulu tarayici; yil+sehir ayni cumlede ya da maddenin konusu sehre acik atif).",
+  "ad_kaynak": "Britannica Ṣuḥār (Also known as Sohār)"
+ }
+];

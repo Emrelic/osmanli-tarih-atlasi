@@ -1,0 +1,338 @@
+[
+ {
+  "id": "poltava",
+  "ad": "Poltava",
+  "atlas_ad": "Poltava",
+  "lat": 49.589,
+  "lon": 34.551,
+  "kat1900": 2,
+  "adlar": [
+   "Ltava",
+   "Poltava"
+  ],
+  "ilk": {
+   "t": "1174-01-01",
+   "gun": "1174",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Poltava' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)",
+   "tanik": "The city is first mentioned, as Ltava, in the Hypatian Chronicle under the year 1174."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1174-01-01",
+    "t": "1281-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Poltava' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)",
+    "ic_not": "Şehir VAR (1174 Hypatian Chronicle) ama EoU 1240 Moğol ele geçirmesine kadar sahibi bildirmez; 1240'ta Moğollar aldı, 14. yy ikinci yarısından Litvanya Büyük Dükalığı'na ait (tarihsiz). 1174-1281 için tek künyeli sahip kaynakta yok."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1174-01-01",
+    "gun": "1174",
+    "k": "diger",
+    "b": "Poltava (Ltava) Hypatian Chronicle'da ilk kez anıldı",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Poltava' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   },
+   {
+    "t": "1240-01-01",
+    "gun": "1240",
+    "k": "fetih",
+    "b": "Moğollar Poltava'yı ele geçirdi",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Poltava' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   },
+   {
+    "t": "1430-01-01",
+    "gun": "1430",
+    "k": "diger",
+    "b": "Vytautas'ın bir fermanında Poltava adı yeniden geçti (uzun sessizlikten sonra)",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Poltava' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   },
+   {
+    "t": "1569-01-01",
+    "gun": "1569",
+    "k": "diger",
+    "b": "Poltava Lehistan-Litvanya Ortak Cumhuriyeti'ne bağlandı",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Poltava' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   },
+   {
+    "t": "1709-07-08",
+    "gun": "8 Temmuz 1709",
+    "k": "savas",
+    "b": "Poltava Muharebesi: Petro I İsveç-Ukrayna müttefik ordusunu yendi",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Poltava' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   }
+  ],
+  "ic_not": "TEK KAYNAK (EoU); ikinci bağımsız akademik kaynak bu turda okunmadı. 1240 Moğol fethi (EoU) atlas 'altinorda' 1281 iddiasına yakın ama sahip değişim günü kaynakta yok. Jülyen/Gregoryen: 8 Temmuz 1709 EoU'nun verdiği gündür (Gregoryen 1709 için kaynak çevirmesi yapılmadı; Jülyen olabilir).",
+  "dikis_beyan": "Atlas 1281-01-01 'altinorda' başlangıcı: EoU yalnız 1240 Moğol ele geçirmesini yıl hassasiyetiyle verir; 1281 iddiası için günlü/yıllı kaynak bulunmadı. Yer tutucu olay yazılmadı."
+ },
+ {
+  "id": "lutsk",
+  "ad": "Lutsk",
+  "atlas_ad": "Lutsk (Łuck)",
+  "lat": 50.7472,
+  "lon": 25.3254,
+  "kat1900": 2,
+  "adlar": [
+   "Lutsk",
+   "Łuck",
+   "Luck"
+  ],
+  "ilk": {
+   "t": "1085-01-01",
+   "gun": "1085",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Lutsk' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)",
+   "tanik": "It is first mentioned in the Hypatian Chronicle under the year 1085"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1085-01-01",
+    "gun": "1085",
+    "k": "diger",
+    "b": "Lutsk Hypatian Chronicle'da ilk kez anıldı",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Lutsk' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   },
+   {
+    "t": "1340-01-01",
+    "gun": "1340",
+    "k": "fetih",
+    "b": "Liubartas Lutsk'u ilhak etti, büyük kale yaptırdı ve apanaj prensliğinin başkenti yaptı (1340-84, 1440-53)",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Lutsk' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   }
+  ],
+  "ic_not": "TEK KAYNAK (EoU); ikinci bağımsız akademik kaynak bu turda okunmadı. ilk.t = atlas başlangıcı (1085-01-01 kiev-rusu). EoU Luçanlıların 10. yy'dan beri kabile merkezi olduğunu 'muhtemelen' diye ekler (arkeolojik değil, çıkarım; başlangıç sayılmadı)."
+ },
+ {
+  "id": "uman",
+  "ad": "Uman",
+  "atlas_ad": "Uman",
+  "lat": 48.7484,
+  "lon": 30.2219,
+  "kat1900": 3,
+  "adlar": [
+   "Uman"
+  ],
+  "ilk": {
+   "t": "1616-01-01",
+   "gun": "1616",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Uman' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)",
+   "tanik": "It was first mentioned in historical documents in 1616, when it was under Polish rule."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1616-01-01",
+    "gun": "1616",
+    "k": "diger",
+    "b": "Uman tarihî belgelerde ilk kez anıldı (Polonya egemenliğinde)",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Uman' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   },
+   {
+    "t": "1764-01-01",
+    "gun": "1764",
+    "k": "diger",
+    "b": "Bazilyen manastırı yapıldı (EoU manastır tarihini verir)",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Uman' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   }
+  ],
+  "ic_not": "TEK KAYNAK (EoU); ikinci bağımsız akademik kaynak bu turda okunmadı. ilk.t = atlas başlangıcı (1616-01-01 lehistan)."
+ },
+ {
+  "id": "vinnytsia",
+  "ad": "Vinnytsia",
+  "atlas_ad": "Vinnitsa (Vinnytsia)",
+  "lat": 49.232,
+  "lon": 28.469,
+  "kat1900": 2,
+  "adlar": [
+   "Vinnitsa",
+   "Vinnytsia"
+  ],
+  "ilk": {
+   "t": "1363-01-01",
+   "gun": "1363",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Vinnytsia' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)",
+   "tanik": "It is first mentioned in historical documents in 1363, as a Lithuanian fortress."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1363-01-01",
+    "gun": "1363",
+    "k": "diger",
+    "b": "Vinnytsia Litvanya kalesi olarak ilk kez anıldı",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Vinnytsia' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   },
+   {
+    "t": "1558-01-01",
+    "gun": "1558",
+    "k": "diger",
+    "b": "Nehir adasında yeni kale yapıldı",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Vinnytsia' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   }
+  ],
+  "ic_not": "TEK KAYNAK (EoU); ikinci bağımsız akademik kaynak bu turda okunmadı. ilk.t = atlas başlangıcı (1363-01-01 litvanya-buyuk-dukalik)."
+ },
+ {
+  "id": "kovel",
+  "ad": "Kovel",
+  "atlas_ad": "Kovel",
+  "lat": 51.2153,
+  "lon": 24.7086,
+  "kat1900": 3,
+  "adlar": [
+   "Kovel",
+   "Kowel"
+  ],
+  "ilk": {
+   "t": "1310-01-01",
+   "gun": "1310",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Kovel' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)",
+   "tanik": "First mentioned in 1310, in 1518 it was granted the rights of Magdeburg law."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1310-01-01",
+    "gun": "1310",
+    "k": "diger",
+    "b": "Kovel ilk kez anıldı",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Kovel' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   },
+   {
+    "t": "1518-01-01",
+    "gun": "1518",
+    "k": "idari",
+    "b": "Kovel'e Magdeburg hukuku hakları verildi",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Kovel' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   }
+  ],
+  "ic_not": "TEK KAYNAK (EoU); ikinci bağımsız akademik kaynak bu turda okunmadı. ilk.t 1310 atlas başlangıcından (1281-01-01 galicya-volhinya) sonra: ATLAS ÖNERİSİ: 1281'de Kovel noktasının kaynağı yok, ilk anılış 1310. Zincir yazılmadı."
+ },
+ {
+  "id": "izium",
+  "ad": "Izium",
+  "atlas_ad": "İzyum",
+  "lat": 49.21,
+  "lon": 37.29,
+  "kat1900": 3,
+  "adlar": [
+   "Izyum",
+   "Izium"
+  ],
+  "ilk": {
+   "t": "1650-01-01",
+   "gun": "17. yüzyılın ikinci çeyreği",
+   "nicelik": "kurulus",
+   "kesinlik": "belirsiz",
+   "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Izium' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)",
+   "tanik": "A settlement was established there in the second quarter of the 17th century"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1650-01-01",
+    "t": "1681-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Izium' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)",
+    "ic_not": "Yerleşim 17. yy ikinci çeyrekte kuruldu; 1681 kalelenmesinden önce sahibi EoU'da bildirilmez (Slobidska Ukrayna'daki Kharkiv alayına bağlı bölge). Beyansız yaklaşıklık yazılmadı."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1681-01-01",
+    "gun": "1681",
+    "k": "diger",
+    "b": "Kharkiv alayı albayı kasabayı kalelendirdi; kale Tatar akınlarına karşı savunma karakolu oldu",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Izium' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   }
+  ],
+  "ic_not": "TEK KAYNAK (EoU); ikinci bağımsız akademik kaynak bu turda okunmadı. Aralık veren kaynakta güvenli uç (1650) alındı. Atlas başlangıcı 1681-01-01 rusya. 1681 olay cümlesi EoU'da ('in 1681 it was fortified by Kharkiv regiment's Col H.') kısaltma noktasından bölünmüştür; yıl ve olgu okundu."
+ },
+ {
+  "id": "kropyvnytskyi",
+  "ad": "Kropyvnytskyi",
+  "atlas_ad": null,
+  "lat": 48.5083,
+  "lon": 32.2662,
+  "kat1900": 3,
+  "adlar": [
+   "Saint Elizabeth Fortress",
+   "Yelysavethrad (Elisavetgrad)",
+   "Kropyvnytskyi"
+  ],
+  "ilk": {
+   "t": "1754-01-01",
+   "gun": "1754",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Kropyvnytskyi' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)",
+   "tanik": "The city was founded in 1754 on Zaporozhian Cossack territory as the Saint Elizabeth Fortress"
+  },
+  "kur": {
+   "t": "1754-01-01",
+   "gun": "1754",
+   "kesinlik": "yil",
+   "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Kropyvnytskyi' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)",
+   "tanik": "The city was founded in 1754 on Zaporozhian Cossack territory as the Saint Elizabeth Fortress"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1754-01-01",
+    "t": "1900-01-01",
+    "d": "rusya",
+    "kesinlik": "yil",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Kropyvnytskyi' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)",
+    "ic_not": "BEYANLI YAKLAŞIKLIK: EoU kaleyi 'Rus İmparatorluğu'nun güney sınırını korumak' için kurulduğunu söyler, arazi Zaporog Kazak toprağıdır; Zaporog künyesi (1552-1775) ayrı verilmedi, yer tutucu olay yazılmadı."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1754-01-01",
+    "gun": "1754",
+    "k": "kurulus",
+    "b": "Aziz Elizabeth Kalesi kuruldu",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Kropyvnytskyi' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   },
+   {
+    "t": "1775-01-01",
+    "gun": "1775",
+    "k": "diger",
+    "b": "Kale çevresinde büyüyen kasaba Yelysavethrad adını aldı",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Kropyvnytskyi' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   }
+  ],
+  "ic_not": "TEK KAYNAK (EoU); ikinci bağımsız akademik kaynak bu turda okunmadı. Gün yok (yıl). Atlas noktası yok."
+ }
+]

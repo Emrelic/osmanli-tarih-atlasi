@@ -1,0 +1,288 @@
+// ŞEHİR TARİHÇESİ — BALKANLAR_R2C · üretici: arac/sehir_tarihce.py · şema: VERI-YAPISI.md
+// Motor/denetle/site OKUMAZ — araştırma birikimi. Elle düzenleme: JSON'u düzelt, yeniden üret.
+window.SEHIR_TARIHCE_BALKANLAR_R2C = [
+ {
+  "id": "baia-mare-ro",
+  "ad": "Baia Mare",
+  "atlas_ad": null,
+  "lat": 47.6573,
+  "lon": 23.5681,
+  "kat1900": 3,
+  "adlar": [
+   "Nagybánya (Macarca)",
+   "Baia Mare"
+  ],
+  "ad_kaynak": "Hrvatska enciklopedija, 'Baia Mare' (enciklopedija.hr/clanak/baia-mare; gömülü tarayıcıda gövde, 17 Kas 2026)",
+  "ilk": {
+   "t": "1329-01-01",
+   "gun": "1329",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Hrvatska enciklopedija, 'Baia Mare' (enciklopedija.hr/clanak/baia-mare; gömülü tarayıcıda gövde, 17 Kas 2026)",
+   "tanik": "Prvi se put spominje 1329."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1329-01-01",
+    "t": "1900-01-01",
+    "d": "macaristan",
+    "kesinlik": "belirsiz",
+    "kaynak": "Hrvatska enciklopedija, 'Baia Mare' (enciklopedija.hr/clanak/baia-mare; gömülü tarayıcıda gövde, 17 Kas 2026)",
+    "ic_not": "HE egemenlik vermiyor (Nagybánya Macarca adı; Macar Nagybánya ressam okulu 1896-1930'lar); Macar Krallığı içinde çıkarım. künye 'macaristan' 1527'de biter; 1526 sonrası (macaristan-habsburg/erdel) ayrımı bu kaynakta okunmadı (beyanlı uyarı)"
+   }
+  ],
+  "olay": [
+   {
+    "t": "1329-01-01",
+    "gun": "1329",
+    "k": "diger",
+    "b": "Baia Mare ilk kez anılır",
+    "kaynak": "Hrvatska enciklopedija, 'Baia Mare' (enciklopedija.hr/clanak/baia-mare; gömülü tarayıcıda gövde, 17 Kas 2026)"
+   }
+  ],
+  "ic_not": "HE: XIV. yy'dan maden (kurşun, bakır, altın, gümüş) merkezi; Iancu de Hunedoara sarayı XV. yy. Sahip: yalnız çıkarım, TDV/Macar kaynakları okunmadı. koord: LISTE koordinatı ya da GeoNames arama sayfasından (geonames.org, 17 Kas 2026); LISTE'de boş olanlar GeoNames'ten"
+ },
+ {
+  "id": "berane-me",
+  "ad": "Berane",
+  "atlas_ad": null,
+  "lat": 42.8433,
+  "lon": 19.8728,
+  "kat1900": 3,
+  "adlar": [
+   "Akova (Osmanlıca; TDV okunmadı)",
+   "Ivangrad (1949-92)",
+   "Berane"
+  ],
+  "ad_kaynak": "Hrvatska enciklopedija, 'Berane' (enciklopedija.hr/clanak/berane; gömülü tarayıcıda gövde, 17 Kas 2026)",
+  "ilk": {
+   "t": "1862-01-01",
+   "gun": "1862",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Hrvatska enciklopedija, 'Berane' (enciklopedija.hr/clanak/berane; gömülü tarayıcıda gövde, 17 Kas 2026)",
+   "tanik": "Osnovan 1862."
+  },
+  "kur": {
+   "t": "1862-01-01",
+   "gun": "1862",
+   "kesinlik": "yil",
+   "kaynak": "Hrvatska enciklopedija, 'Berane' (enciklopedija.hr/clanak/berane; gömülü tarayıcıda gövde, 17 Kas 2026)",
+   "tanik": "Osnovan 1862."
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1862-01-01",
+    "t": "1900-01-01",
+    "d": "osmanli",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija, 'Berane' (enciklopedija.hr/clanak/berane; gömülü tarayıcıda gövde, 17 Kas 2026)",
+    "ic_not": "HE: Sancak'ın Karadağ kesiminde; 1862'de kuruluşu Osmanlı yönetiminde (çıkarım, HE egemenlik vermez)"
+   }
+  ],
+  "olay": [
+   {
+    "t": "1862-01-01",
+    "gun": "1862",
+    "k": "kurulus",
+    "b": "Berane kurulur",
+    "kaynak": "Hrvatska enciklopedija, 'Berane' (enciklopedija.hr/clanak/berane; gömülü tarayıcıda gövde, 17 Kas 2026)"
+   }
+  ],
+  "ic_not": "HE: yakınında XII. yy Đurđevi stupovi kilisesi ve Jerina'nın (Đurađ Branković'in eşi) XV. yy kalesi kalıntıları — yerleşim eski olabilir ama HE ilk anılış vermiyor; kuruluş 1862 (HE). koord: LISTE koordinatı ya da GeoNames arama sayfasından (geonames.org, 17 Kas 2026); LISTE'de boş olanlar GeoNames'ten"
+ },
+ {
+  "id": "gabrovo-bg",
+  "ad": "Gabrovo",
+  "atlas_ad": null,
+  "lat": 42.8742,
+  "lon": 25.3182,
+  "kat1900": 3,
+  "adlar": [
+   "Gabrovo"
+  ],
+  "ad_kaynak": "Hrvatska enciklopedija, 'Gabrovo' (enciklopedija.hr/clanak/gabrovo; gömülü tarayıcıda gövde, 17 Kas 2026)",
+  "ilk": {
+   "t": "1400-01-01",
+   "gun": "14. yüzyıl",
+   "nicelik": "kurulus",
+   "kesinlik": "yuzyil",
+   "kaynak": "Hrvatska enciklopedija, 'Gabrovo' (enciklopedija.hr/clanak/gabrovo; gömülü tarayıcıda gövde, 17 Kas 2026)",
+   "tanik": "Nastao je u XIV. stoljeću na mjestu tračkoga naselja, poslije rimske i srednjovjekovne utvrde."
+  },
+  "kur": {
+   "t": "1400-01-01",
+   "gun": "14. yüzyıl",
+   "kesinlik": "yuzyil",
+   "kaynak": "Hrvatska enciklopedija, 'Gabrovo' (enciklopedija.hr/clanak/gabrovo; gömülü tarayıcıda gövde, 17 Kas 2026)",
+   "tanik": "Nastao je u XIV. stoljeću na mjestu tračkoga naselja"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1400-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yuzyil",
+    "kaynak": "Hrvatska enciklopedija, 'Gabrovo' (enciklopedija.hr/clanak/gabrovo; gömülü tarayıcıda gövde, 17 Kas 2026)",
+    "ic_not": "HE egemenlik vermiyor; Bulgar Çarlığı/Osmanlı/Bulgaristan Prensliği geçişleri bu partide kurulmadı (beyanlı boşluk)"
+   }
+  ],
+  "olay": [
+   {
+    "t": "1400-01-01",
+    "gun": "14. yüzyıl",
+    "k": "kurulus",
+    "b": "Gabrovo XIV. yy'da Trak yerleşimi ve Roma/ortaçağ kalesinin yerinde kurulur",
+    "kaynak": "Hrvatska enciklopedija, 'Gabrovo' (enciklopedija.hr/clanak/gabrovo; gömülü tarayıcıda gövde, 17 Kas 2026)"
+   }
+  ],
+  "ic_not": "HE tek cümle kuruluş; yazılı ilk anılış okunmadı (TDV'de 'Gabrova' maddesi yok - arama sonuçsuz, 17 Kas 2026). Şipka Geçidi yolu. koord: LISTE koordinatı ya da GeoNames arama sayfasından (geonames.org, 17 Kas 2026); LISTE'de boş olanlar GeoNames'ten"
+ },
+ {
+  "id": "gjakova-xk",
+  "ad": "Gjakova",
+  "atlas_ad": null,
+  "lat": 42.3803,
+  "lon": 20.4308,
+  "kat1900": 3,
+  "adlar": [
+   "Đakovica (Sırpça)",
+   "Gjakova / Gjakovë (Arnavutça)",
+   "Yakova (Osmanlıca; TDV 'Yakova' maddesi Đakovo'ya yönlendirir, Kosova şehri değil)"
+  ],
+  "ad_kaynak": "Hrvatska enciklopedija, 'Đakovica' (enciklopedija.hr/clanak/djakovica; gömülü tarayıcıda gövde, 17 Kas 2026)",
+  "ilk": {
+   "t": "1594-01-01",
+   "gun": "1594",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Hrvatska enciklopedija, 'Đakovica' (enciklopedija.hr/clanak/djakovica; gömülü tarayıcıda gövde, 17 Kas 2026)",
+   "tanik": "Grad se razvio oko Hadum-agine džamije (1591–94)."
+  },
+  "kur": {
+   "t": "1594-01-01",
+   "gun": "1594",
+   "kesinlik": "yil",
+   "kaynak": "Hrvatska enciklopedija, 'Đakovica' (enciklopedija.hr/clanak/djakovica; gömülü tarayıcıda gövde, 17 Kas 2026)",
+   "tanik": "Grad se razvio oko Hadum-agine džamije (1591–94)."
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1594-01-01",
+    "t": "1900-01-01",
+    "d": "osmanli",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija, 'Đakovica' (enciklopedija.hr/clanak/djakovica; gömülü tarayıcıda gövde, 17 Kas 2026)",
+    "ic_not": "HE: 'za turske vladavine' Arnavut nüfus yerleşti (özellikle XVII. yy sonu); 1912'ye kadar Osmanlı (HE vermez, çıkarım)"
+   }
+  ],
+  "olay": [
+   {
+    "t": "1594-01-01",
+    "gun": "1594",
+    "k": "kurulus",
+    "b": "Hadım Ağa Camii (1591-94) çevresinde şehir gelişir (aralığın son ucu)",
+    "kaynak": "Hrvatska enciklopedija, 'Đakovica' (enciklopedija.hr/clanak/djakovica; gömülü tarayıcıda gövde, 17 Kas 2026)"
+   }
+  ],
+  "ic_not": "kuruluş: HE 'cami çevresinde gelişti (1591-94)'; aralığın son ucu 1594 alındı (güvenli uç). Daha eski yerleşim/anılış okunmadı. koord: LISTE koordinatı ya da GeoNames arama sayfasından (geonames.org, 17 Kas 2026); LISTE'de boş olanlar GeoNames'ten"
+ },
+ {
+  "id": "mitrovica-xk",
+  "ad": "Mitrovica",
+  "atlas_ad": null,
+  "lat": 42.8833,
+  "lon": 20.8667,
+  "kat1900": 3,
+  "adlar": [
+   "Mitrovica / Mitrovicë (Arnavutça)",
+   "Kosovska Mitrovica (Sırpça)",
+   "Titova Mitrovica (1982-91)"
+  ],
+  "ad_kaynak": "Hrvatska enciklopedija, 'Kosovska Mitrovica' (enciklopedija.hr/clanak/kosovska-mitrovica; gömülü tarayıcıda gövde, 17 Kas 2026)",
+  "ilk": {
+   "t": "1500-01-01",
+   "gun": "15. yüzyıl sonu",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yuzyil",
+   "kaynak": "Hrvatska enciklopedija, 'Kosovska Mitrovica' (enciklopedija.hr/clanak/kosovska-mitrovica; gömülü tarayıcıda gövde, 17 Kas 2026)",
+   "tanik": "Prvi se put spominje potkraj XV. st."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1500-01-01",
+    "t": "1900-01-01",
+    "d": "osmanli",
+    "kesinlik": "yuzyil",
+    "kaynak": "Hrvatska enciklopedija, 'Kosovska Mitrovica' (enciklopedija.hr/clanak/kosovska-mitrovica; gömülü tarayıcıda gövde, 17 Kas 2026)",
+    "ic_not": "HE egemenlik vermiyor; Kosova 1455'ten 1912'ye Osmanlı — çıkarım (beyan)"
+   }
+  ],
+  "olay": [
+   {
+    "t": "1500-01-01",
+    "gun": "15. yüzyıl sonu",
+    "k": "diger",
+    "b": "Mitrovica ilk kez anılır",
+    "kaynak": "Hrvatska enciklopedija, 'Kosovska Mitrovica' (enciklopedija.hr/clanak/kosovska-mitrovica; gömülü tarayıcıda gövde, 17 Kas 2026)"
+   }
+  ],
+  "ic_not": "HE: Aziz Dimitri kilisesi çevresinde gelişti (adın kökeni); Trepça madeni 9 km; 2013'te iki bölüme ayrıldı. koord: LISTE koordinatı ya da GeoNames arama sayfasından (geonames.org, 17 Kas 2026); LISTE'de boş olanlar GeoNames'ten"
+ },
+ {
+  "id": "resita-ro",
+  "ad": "Reșița",
+  "atlas_ad": null,
+  "lat": 45.3008,
+  "lon": 21.8892,
+  "kat1900": 3,
+  "adlar": [
+   "Ričica (eski Hırvatça)",
+   "Reșița"
+  ],
+  "ad_kaynak": "Hrvatska enciklopedija, 'Reşiţa' (enciklopedija.hr/clanak/resita; gömülü tarayıcıda gövde, 17 Kas 2026)",
+  "ilk": {
+   "t": "1771-01-01",
+   "gun": "1771",
+   "nicelik": "kurulus",
+   "kesinlik": "belirsiz",
+   "kaynak": "Hrvatska enciklopedija, 'Reşiţa' (enciklopedija.hr/clanak/resita; gömülü tarayıcıda gövde, 17 Kas 2026)",
+   "tanik": "Od druge polovice XVIII. st. razvija se kao jako rudarsko i metalurgijsko središte (prva visoka peć podignuta 1771)"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1771-01-01",
+    "t": "1900-01-01",
+    "d": "habsburg",
+    "kesinlik": "belirsiz",
+    "kaynak": "Hrvatska enciklopedija, 'Reşiţa' (enciklopedija.hr/clanak/resita; gömülü tarayıcıda gövde, 17 Kas 2026)",
+    "ic_not": "HE: 1872'de Avusturya-Macaristan demiryolları için lokomotif üretimi; Banat Habsburg egemenliği çıkarımı (beyan)"
+   }
+  ],
+  "olay": [
+   {
+    "t": "1771-01-01",
+    "gun": "1771",
+    "k": "kurulus",
+    "b": "İlk yüksek fırın kurulur; maden-metalurji merkezi olarak gelişmeye başlar",
+    "kaynak": "Hrvatska enciklopedija, 'Reşiţa' (enciklopedija.hr/clanak/resita; gömülü tarayıcıda gövde, 17 Kas 2026)"
+   }
+  ],
+  "ic_not": "TANIK KURALI: 1771 şehrin kuruluşu/ilk anılışı değil, sanayi başlangıcıdır; HE yazılı ilk anılış vermiyor — kesinlik 'belirsiz'. 1872 lokomotif üretimi. koord: LISTE koordinatı ya da GeoNames arama sayfasından (geonames.org, 17 Kas 2026); LISTE'de boş olanlar GeoNames'ten"
+ }
+];

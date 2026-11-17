@@ -1,0 +1,146 @@
+[
+ {
+  "id": "putyvl",
+  "ad": "Putyvl",
+  "atlas_ad": "Putivl",
+  "lat": 51.3364,
+  "lon": 33.8703,
+  "kat1900": 3,
+  "adlar": [
+   "Putivl",
+   "Putyvl"
+  ],
+  "ilk": {
+   "t": "1146-01-01",
+   "gun": "1146",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Putyvl' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)",
+   "tanik": "It was first mentioned, as a fortress, in the Hypatian Chronicle under the year 1146."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1146-01-01",
+    "t": "1281-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Putyvl' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)",
+    "ic_not": "Kale VAR (1146 Hypatian Chronicle) ama EoU bu maddede 1281'e kadar sahibi/günlü el değişimini vermez."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1146-01-01",
+    "gun": "1146",
+    "k": "diger",
+    "b": "Putyvl kale olarak Hypatian Chronicle'da ilk kez anıldı",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Putyvl' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   },
+   {
+    "t": "1618-01-01",
+    "gun": "1618",
+    "k": "fetih",
+    "b": "Hetman Petro Konashevych-Sahaidachny Putyvl'i ele geçirdi",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Putyvl' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   }
+  ],
+  "ic_not": "TEK KAYNAK (EoU). Koordinat LISTE'den.",
+  "dikis_beyan": "Atlas 1281-01-01 'altinorda' başlangıcı: EoU 1146 sonrası 1281'e kadar sahip/olay vermez; yer tutucu olay yazılmadı."
+ },
+ {
+  "id": "starokostiantyniv",
+  "ad": "Starokostiantyniv",
+  "atlas_ad": "Kostantinov (Starokostiantyniv)",
+  "lat": 49.755,
+  "lon": 27.212,
+  "kat1900": 3,
+  "adlar": [
+   "Kolyshchentsi (köy)",
+   "Starokonstantinov",
+   "Starokostiantyniv"
+  ],
+  "ilk": {
+   "t": "1569-01-01",
+   "gun": "1560-1569",
+   "nicelik": "kurulus",
+   "kesinlik": "onyil",
+   "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Starokostiantyniv' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)",
+   "tanik": "It was founded in the 1560s by Prince Kostiantyn Vasyl Ostrozky"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1569-01-01",
+    "t": "1571-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Starokostiantyniv' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)",
+    "ic_not": "Kurucu Prens Ostrozky (Litvanya/Polonya soylusu); 1560'lar kuruluş, Lublin Birliği 1569: kaynak devlet adı vermez."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1793-01-01",
+    "gun": "1793",
+    "k": "fetih",
+    "b": "Polonya'nın taksiminden sonra şehir Rusya'ya ilhak edildi",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Starokostiantyniv' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   }
+  ],
+  "ic_not": "TEK KAYNAK (EoU). Güvenli uç 1569 (1560'lar aralığının son yılı). Kolyshchentsi köyü kalelendirilip Magdeburg hukuklu şehir yapıldı (köyün önceki yaşı yok). Atlas 1571-01-01 lehistan başlangıcı; aradaki 2 yıllık dilim BOSLUK. Koordinat LISTE'den.",
+  "dikis_beyan": "Atlas 1571-01-01 'lehistan' başlangıcı: EoU kuruluşu 1560'lar verir, 1571 günü/olayı yok; yer tutucu olay yazılmadı."
+ },
+ {
+  "id": "lubny",
+  "ad": "Lubny",
+  "atlas_ad": null,
+  "lat": 50.0141,
+  "lon": 32.9997,
+  "kat1900": 3,
+  "adlar": [
+   "Lubny"
+  ],
+  "ilk": {
+   "t": "0988-01-01",
+   "gun": "988",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Lubny' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)",
+   "tanik": "It was founded as a fortified frontier town in 988 by Grand Prince Volodymyr the Great of Kyiv."
+  },
+  "kur": {
+   "t": "0988-01-01",
+   "gun": "988",
+   "kesinlik": "yil",
+   "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Lubny' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)",
+   "tanik": "It was founded as a fortified frontier town in 988 by Grand Prince Volodymyr the Great of Kyiv."
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0988-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Lubny' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)",
+    "ic_not": "Kuruluşta Kiev Büyük Prensi (kiev-rusu) ama 988-1900 arası günlü el değişimleri EoU'da yok; 16. yy ikinci yarısında Wiśniowiecki ailesi yeniden kurdu, Magdeburg hukuku aldı. Beyanlı boşluk."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0988-01-01",
+    "gun": "988",
+    "k": "kurulus",
+    "b": "Lubny, Kiev Büyük Prensi Vladimir tarafından sınır kalesi olarak kuruldu",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Lubny' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   }
+  ],
+  "ic_not": "TEK KAYNAK (EoU). Koordinat GeoNames (17 Kas 2026). Atlas noktası yok."
+ }
+]
