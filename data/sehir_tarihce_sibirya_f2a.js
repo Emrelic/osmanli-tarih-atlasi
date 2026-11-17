@@ -597,14 +597,14 @@ window.SEHIR_TARIHCE_SIBIRYA_F2A = [
    "nicelik": "kurulus",
    "kesinlik": "yil",
    "kaynak": "Britannica, 'Vladivostok' maddesi (britannica.com/place/Vladivostok); Treccani Enciclopedia on line, 'Vladivostok' maddesi (treccani.it/enciclopedia/vladivostok); Hrvatska enciklopedija, 'Vladivostok' maddesi (enciklopedija.hr/clanak/vladivostok)",
-   "tanik": "Founded in 1860 as a Russian military outpost, Vladivostok's location has made it a crucial port and naval base."
+   "tanik": "The town was founded in 1860 as a Russian military outpost and was named Vladivostok"
   },
   "kur": {
    "t": "1860-01-01",
    "gun": "1860",
    "kesinlik": "yil",
    "kaynak": "Britannica, 'Vladivostok' maddesi (britannica.com/place/Vladivostok); Treccani Enciclopedia on line, 'Vladivostok' maddesi (treccani.it/enciclopedia/vladivostok); Hrvatska enciklopedija, 'Vladivostok' maddesi (enciklopedija.hr/clanak/vladivostok)",
-   "tanik": "Founded in 1860 as a Russian military outpost, Vladivostok's location has made it a crucial port and naval base."
+   "tanik": "The town was founded in 1860 as a Russian military outpost and was named Vladivostok"
   },
   "ark": null,
   "bit": null,
