@@ -1,0 +1,45 @@
+sira	guven	sehir_ya_da_kunye	alan	atlas_degeri	onerilen	kaynak	kaynak_kanit_dali	not
+1	yuksek	port-louis (ingiliz-mauritius)	kunye/s f	1810-12-03	1810-12-02	TDV Moritus (2 Aralik 1810)	sehir_tarihce_adalar_ek.js	1 gun fark
+2	yuksek	zebid	baslangic	0820-01-01	0820-02-01	TDV: sehir Subat 820'de kuruldu	sehir_tarihce (yakin-dogu)	ay hassasiyeti, gun yok: 0820-02-01
+3	yuksek	moroni	baslangic	1281	1886	TDV Komor Adalari (sehrin taniklı ilk varligi 1886)	sehir_tarihce_adalar_ek.js	Degismez 1 etkisi OLC
+4	yuksek	girga	baslangic	1281-01-01	>=1380-04-07 (Circe 782/1380)	TDV HEVVARE	sehir_tarihce_osm.js	eski yerlesim Girga'nin onceki yeri: Degismez 1 OLC
+5	yuksek	cape-town	baslangic	1652-01-01	1652-04-06	SAHO (VOC varisi)	sehir_tarihce_afrika_gb.js	tek kaynak SAHO
+6	yuksek	kano	baslangic	1000-01-01	1200	TDV Kano c.24	sehir_tarihce_afrika_gb.js	kaynakli ilk; atlas 1000 kaynaksiz
+7	orta	bloemfontein	baslangic	1830-01-01	1846-03-26	SAHO + Pretorius/The Conversation 2019	sehir_tarihce_afrika_gb.js	tur:bolge 1830-1846 dilimi ayri
+8	orta	pretoria	baslangic	1830-01-01	1855	SAHO iki metin 1853/1855 celisir; ortak 1855	sehir_tarihce_afrika_gb.js	celiski ic_not'ta
+9	orta	sebte (ceuta)	baslangic	1273-01-01	hicri 672 ve 1273 kesisimi (UMIT/ic_not'ta gun)	TDV SEBTE/MERINILER	sehir_tarihce_afrika_magrip2.js	~6 ay erken
+10	orta	bingazi	baslangic	1551-08-15	1578 (Osmanli alisi; TDV 'kesin')	TDV	sehir_tarihce_afrika_magrip2.js	atlas kaynaksiz; Degismez 1 OLC
+11	orta	almati	baslangic	1281	1854	LAB parti listesi A	sehir_tarihce_orta_asya.js	modern sehir
+12	orta	termez	baslangic	1000	1894	LAB (antik Tirmiz ayri kayit)	sehir_tarihce_orta_asya.js	modern sehir
+13	orta	bhopal	baslangic	1707	1728	LAB	sehir_tarihce_hint.js
+14	orta	bicapur	baslangic	1281	1489	LAB/TDV (yadava iddiasi dayanaksiz)	sehir_tarihce_hint.js
+15	orta	bidar	baslangic	1281	1322	LAB (kakatiya iddiasi dayanaksiz)	sehir_tarihce_hint.js
+16	orta	golkonda	baslangic	1281	1363	LAB	sehir_tarihce_hint.js
+17	orta	gvalyar	baslangic	0500	1022	LAB	sehir_tarihce_hint.js
+18	orta	gaur	baslangic	1150	1119 (ayni sahip sena)	LAB; TDV ic celiski borcu	sehir_tarihce_hint.js	bekle: TDV 1202 celiskisi
+19	orta	kolam	olay/sahip	1661-12-08 Hollanda	1662	Britannica	sehir_tarihce_hint.js	LAB parti 4
+20	orta	mathura	olay/sahip	1803-10-17 Marata sonu	1804 Ingiliz	Britannica	sehir_tarihce_hint.js	LAB parti 4
+21	orta	pune	olay/sahip	1818-06-03	1817	Britannica	sehir_tarihce_hint.js	LAB parti 4
+22	orta	maseru	baslangic	1822 basuto	1869 (Mosesh kurdu)	Britannica	afrika-guney-bati	LAB parti 4
+23	orta	agadez	baslangic	1405	15. yy (Britannica + UNESCO WHC cift teyit)	Britannica+UNESCO	afrika-guney-bati	kaynaksiz atlas
+24	orta	taolagnaro (fort-dauphin)	sahip	fransa 1643	TDV Madagaskar: 1643-86 resmi iliski yok	TDV	sehir_tarihce_adalar_ek.js	sahiplik yeniden bak
+25	bekle	karakurum	baslangic	0500	1220 (on bulgu)	TDV karakorum (ozet; ham metin teyidi yok)	orta_asya	HAM METIN TEYIDI SART
+26	bekle	sehrisebz	-	-	1380 ilk kesin tanik; 1220 Mogol teslimi cikarim	TDV	orta_asya	cikarim, YAZMA
+27	bekle	kahire 969, turan sah 1250, besasiri bagdat 1058/1059	-	-	-	TDV ic celiski	-	3. kaynak aranacak, YAZMA
+28	bekle	dali, osaka	sahip siniri	-	-	uygula_yamalar atladi	F3	elle birlikte tasinmali
+29	kunye	edo-bakufu	kunye t	1868-01-03	1868-05-03	UYGULANDI (ea3485fed)	-	-
+30	kunye	norvec-1814	kunye f	1814-02-19	Kiel 1814-01-14 (36 gun) kunye mi kronoloji mi: OLC	snl.no Kielfreden	kuzey-avrupa	Degismez 2 +-30 disi
+31	kunye	norvec-isvec-birligi	kunye f	1814-11-04	Moss 1814-08-14 (82 gun)	snl.no	kuzey-avrupa
+32	kunye	isvec	kunye f	1523-06-06	1523 (yalniz yil; gun teyitsiz)	lex.dk	kuzey-avrupa
+33	kunye	norvec-kralligi	kunye t	1537-01-01	1536-10 (Norgesparagrafi ~3 ay)	snl.no	kuzey-avrupa
+34	kunye	massina (hamdullahi)	kunye f	1818-01-01	1815 (kunye f genislet; ilk.t 1815 TDV Fulaniler)	TDV	afrika_gb
+35	kunye	karahanli	kunye	1041 sonrasi	Bati Karahanli olarak surmeli (Hucend 1137 tanik)	LAB	orta_asya
+36	kunye	chuzan-krallik	kunye	yok	kunye ac (naha-jp.sahip[0])	sehir_tarihce_dogu_asya.js	-	kaynakli kunye araştır
+37	kunye	ife-krallik	kunye	yok	kunye ac	HAVVA	-	-
+38	kunye	sanudo-naksa	kunye	yok	Nakşa 1205-07 Sanudo	HAVVA	-	-
+39	kunye	karak/silifke/iskenderun/latakia	kunye omru	-	eyyubi 1250/ kilikya-ermeni 1199/ antakya-prinkipsligi 1098, 1268	HAVVA yakin dogu	-	kunye-donem uyusmazliklari
+40	koordinat	suveymiye	nokta	17.946K 55.969D	17.885K 55.605D (~38 km)	GeoNames	yakin-dogu	nokta duzeltme
+41	koordinat	tiflis, siraz	nokta	~5.5 km kayik	GeoNames sehir merkezi	GeoNames	iran-kafkasya-afganistan	nokta duzeltme
+42	koordinat	silifke, cidde, hasik, sarika, bagdat	nokta	3-8 km	GeoNames	HAVVA	yakin-dogu	nokta duzeltme
+43	koordinat	lapwai	nokta	atlas 59 km yanlis gorunuyor	46.40,-116.80	F1 kuzeyamerika	-	nokta duzeltme
+44	bekle	kosova ovasi, yenipazar, orel, sochi, tuapse, tula, trebinye ...	baslangic	-	-	HAVVA Doğu Avrupa/Balkan listesi (mesaj)	dogu-avrupa-k/l	ayrintilar o dosyalarin ic_not alanlarinda
