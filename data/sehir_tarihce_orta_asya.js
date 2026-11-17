@@ -367,6 +367,53 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
   "ic_not": "Kaynak: TDV 'Aşkābâd' TAM METİN (Sargon Erdem). Çift teyit YOK. ilk.t: TDV obanın daha eski varlığını belirtir ama tarih vermez; ilk TARİHLİ olgu 1881 (Rus ele geçirmesi ve şehirleştirme). Atlas Aşkabad'ı 1881-01-30 rusya ile başlatır; TDV yalnız yıl der → dilim BOŞLUK ve 1881 olayı ±30 gün içinde. Atlas Nesâ (17 km batı) ile ayrı kayıttır. TDV: Aralık 1917 Bolşevik yönetim, Temmuz 1918 karşı-devrimcilerin eline geçiş (Beyaz Rus-Türkmen), Kızıl Ordu'nun geri alışı (tarihsiz), 1919 Poltoratsk adı (TDV 'Poltoratsk'ın adıyla değiştirildi', yıl yazılmaz; 1927'de ad geri döndü) zincire bağlanmadı. | Parti5 tanık kuralı (17 Kasım 2026): kesinlik belirsiz'e indirildi (ad+yıl aynı cümlede birebir bulunamadı) [ilk]: madde konusu cümlesi: kaynak cümlesinde şehir adı yok (özne 'şehir/kasaba/burası' ya da madde başlığı), aynı cümlede ad+yıl bulunamadı ('bölgenin 1881’de Ruslar tarafından ele geçirilmesinden sonra şehir haline getirilmiştir') Parti5 geri alma (koordinatör kararı): tanık cümlesi madde konusu şehre atıflı (madde: Aşkābâd); ilk.kesinlik 'belirsiz' → 'yil' geri alındı."
  },
  {
+  "id": "astana-p9",
+  "ad": "Astana",
+  "atlas_ad": "Akmola (Akmolinsk)",
+  "lat": 51.1801,
+  "lon": 71.446,
+  "kat1900": 3,
+  "adlar": [
+   "Akmolinsk",
+   "Tselinograd",
+   "Aqmola",
+   "Astana"
+  ],
+  "ilk": {
+   "t": "1824-01-01",
+   "gun": "1824",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, «Astana», https://www.britannica.com/place/Astana-Kazakhstan (tarayıcı sayfa okuma, 17 Kasım 2026)",
+   "tanik": "The city was founded in 1824 as a Russian military outpost"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1868-01-01",
+    "gun": "1868",
+    "k": "diger",
+    "b": "Şehir idarî merkez oldu",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, «Astana», https://www.britannica.com/place/Astana-Kazakhstan (tarayıcı sayfa okuma, 17 Kasım 2026)",
+    "tanik": "became an administrative center in 1868"
+   },
+   {
+    "t": "1994-01-01",
+    "gun": "1994",
+    "k": "diger",
+    "b": "Kazak hükümeti başkenti Almatı'dan Akmola'ya taşımaya karar verdi (1997'de tamamlandı)",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, «Astana» (tarayıcı sayfa okuma, 17 Kasım 2026)",
+    "tanik": "In 1994 the Kazakh government resolved to transfer the national capital from Almaty to Aqmola"
+   }
+  ],
+  "ic_not": "TEK KAYNAK (Britannica; TDV/İSAM okunmadı). Atlas Akmola'yı 1281-01-01'de altinorda ile başlatır; 1824 ≥ atlas başlangıcı olduğundan zincir yazılmadı (sahip[] boş). Sahiplik: Britannica 'Russian military outpost' der, devlet künyesi bu cümleyle yazılmadı. Adlar: Akmolinsk (Britannica 'Tselinograd' ve 1992 'Aqmola' adı verir; 1998 Astana)."
+ },
+ {
   "id": "babadagi-ro",
   "ad": "Babadağı (Babadag)",
   "atlas_ad": "Babadağı (Babadag)",

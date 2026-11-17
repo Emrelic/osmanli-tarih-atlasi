@@ -1,0 +1,288 @@
+[
+ {
+  "id": "kumbi-salih-af-p9",
+  "ad": "Kumbî Sâlih",
+  "atlas_ad": "Kumbî Sâlih (Gāne)",
+  "lat": 15.7657,
+  "lon": -7.9687,
+  "kat1900": null,
+  "adlar": [
+   "Kumbi",
+   "Koumbi Saleh",
+   "Kumbî Sâlih"
+  ],
+  "ilk": {
+   "t": "1076-01-01",
+   "gun": "1076",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, «Ghana (tarihî Batı Afrika imparatorluğu)» (Britannica editörleri), https://www.britannica.com/place/Ghana-historical-West-African-empire (tarayıcı sayfa okuma, 17 Kasım 2026)",
+   "tanik": "after many battles, seized Kumbi in 1076"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1076-01-01",
+    "gun": "1076",
+    "k": "fetih",
+    "b": "Murâbıt lideri Ebû Bekir uzun savaşlardan sonra Kumbi'yi (Kumbî Sâlih) ele geçirdi",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, «Ghana (tarihî Batı Afrika imparatorluğu)» (Britannica editörleri), https://www.britannica.com/place/Ghana-historical-West-African-empire (tarayıcı sayfa okuma, 17 Kasım 2026)",
+    "tanik": "after many battles, seized Kumbi in 1076"
+   }
+  ],
+  "ic_not": "TEK KAYNAK (Britannica); çift teyit yok (TDV sitesi 17 Kasım 2026'da 503 verdi, okunamadı). Gün yok, yıl hassasiyeti. Cümlenin öznesi bir önceki cümle parçasında Abū Bakr'dır (Ghana md.: 'Abū Bakr ... took Audaghost in 1054 and, after many battles, seized Kumbi in 1076'). Britannica 'Kumbi' maddesi 'Ghana'nın son başkenti, 1240 öncesi 15.000+ nüfus' der (yıl=1240 yalnız zirve sınırı, olay değil). Ghana md.: 11. yy başkenti Kumbi ile 'geçici olarak özdeşleştirilmiştir' (arkeologlarca). TDV Gâne özdeşliği 'kesin değil' (önceki parti). Zincir yazılmadı. ATLAS: atlas noktası 701'de başlıyor; bu kaynaklarla 701 doğrulanamaz."
+ },
+ {
+  "id": "valata-af-p9",
+  "ad": "Valata",
+  "atlas_ad": "Valata (Oualata)",
+  "lat": 17.3,
+  "lon": -7.033,
+  "kat1900": null,
+  "adlar": [
+   "Walata",
+   "Oualata",
+   "Valata"
+  ],
+  "ilk": {
+   "t": "1433-01-01",
+   "gun": "1433",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, «Mali (tarihî imparatorluk)» (Britannica editörleri), https://www.britannica.com/place/Mali-historical-empire-Africa (tarayıcı sayfa okuma, 17 Kasım 2026)",
+   "tanik": "the Tuareg seized Walata and Timbuktu (1433)"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1433-01-01",
+    "gun": "1433",
+    "k": "fetih",
+    "b": "Tuaregler Valata'yı (Walata) ve Timbuktu'yu ele geçirdi",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, «Mali (tarihî imparatorluk)» (Britannica editörleri), https://www.britannica.com/place/Mali-historical-empire-Africa (tarayıcı sayfa okuma, 17 Kasım 2026)",
+    "tanik": "the Tuareg seized Walata and Timbuktu (1433)"
+   }
+  ],
+  "ic_not": "TEK KAYNAK (Britannica); çift teyit yok (TDV sitesi 17 Kasım 2026'da 503 verdi, okunamadı). Gün yok, yıl hassasiyeti. Aynı maddede Sundiata'nın Walata'yı Mali'ye kattığı ve Mansa Mûsâ'nın Walata'ya uğradığı cümleler yıl taşımıyor (yazılmadı); 1433 yıllı en erken tanıktır, şehrin ilk anılışı değildir. UNESCO WHC 750: 11.-12. yy'da kuruldu (yüzyıl, ayrıca borç)."
+ },
+ {
+  "id": "konakri-af-p9",
+  "ad": "Konakri",
+  "atlas_ad": "Konakri (Conakry)",
+  "lat": 9.5111,
+  "lon": -13.7109,
+  "kat1900": null,
+  "adlar": [
+   "Conakry",
+   "Konakri"
+  ],
+  "ilk": {
+   "t": "1884-01-01",
+   "gun": "1884",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, «Conakry» (Britannica editörleri), https://www.britannica.com/place/Conakry (tarayıcı sayfa okuma, 17 Kasım 2026)",
+   "tanik": "Founded by the French in 1884, it derived its name from a local village"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1884-01-01",
+    "t": "1885-01-01",
+    "d": "fransa-cumhuriyet",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, «Conakry» (Britannica editörleri), https://www.britannica.com/place/Conakry (tarayıcı sayfa okuma, 17 Kasım 2026)"
+   }
+  ],
+  "olay": [
+   {
+    "t": "1884-01-01",
+    "gun": "1884",
+    "k": "diger",
+    "b": "Konakri Fransızlarca kuruldu; adını yerel Susu köyünden aldı",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, «Conakry» (Britannica editörleri), https://www.britannica.com/place/Conakry (tarayıcı sayfa okuma, 17 Kasım 2026)",
+    "tanik": "Founded by the French in 1884, it derived its name from a local village"
+   },
+   {
+    "t": "1891-01-01",
+    "gun": "1891",
+    "k": "diger",
+    "b": "Konakri Rivières du Sud himayesinin başkenti oldu",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, «Conakry» (Britannica editörleri), https://www.britannica.com/place/Conakry (tarayıcı sayfa okuma, 17 Kasım 2026)",
+    "tanik": "Subsequently it became capital of the protectorate of Rivières du Sud (1891)"
+   }
+  ],
+  "ic_not": "TEK KAYNAK (Britannica); çift teyit yok (TDV sitesi 17 Kasım 2026'da 503 verdi, okunamadı). Gün yok, yıl hassasiyeti. Sahip: 'Founded by the French' ⇒ fransa-cumhuriyet 1884-01-01 → 1885-01-01 (atlas noktasının başlangıcı; dikiş — atlas aynı sahiple sürer, sahip değişimi yok). Kuruluş yılı 1884 kaynaklı; 1885 bitişi yalnız atlas başlangıcıdır (kaynak değil)."
+ },
+ {
+  "id": "dakar-af-p9",
+  "ad": "Dakar",
+  "atlas_ad": "Dakar",
+  "lat": 14.69,
+  "lon": -17.45,
+  "kat1900": null,
+  "adlar": [
+   "Dakar"
+  ],
+  "ilk": {
+   "t": "1857-01-01",
+   "gun": "1857",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, «Dakar» (Britannica editörleri), https://www.britannica.com/place/Dakar (tarayıcı sayfa okuma, 17 Kasım 2026)",
+   "tanik": "Dakar was founded in 1857 when the French built a fort"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1857-01-01",
+    "t": "1857-05-25",
+    "d": "fransa-cumhuriyet",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, «Dakar» (Britannica editörleri), https://www.britannica.com/place/Dakar (tarayıcı sayfa okuma, 17 Kasım 2026)"
+   }
+  ],
+  "olay": [
+   {
+    "t": "1857-01-01",
+    "gun": "1857",
+    "k": "diger",
+    "b": "Dakar, Fransızların bir kale inşa etmesiyle kuruldu",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, «Dakar» (Britannica editörleri), https://www.britannica.com/place/Dakar (tarayıcı sayfa okuma, 17 Kasım 2026)",
+    "tanik": "Dakar was founded in 1857 when the French built a fort"
+   }
+  ],
+  "ic_not": "TEK KAYNAK (Britannica); çift teyit yok (TDV sitesi 17 Kasım 2026'da 503 verdi, okunamadı). Gün yok, yıl hassasiyeti. Adın dakhar (Wolof, demirhindi) köyünden geldiği ve Lebu köyü anılır; yıllı tanık yok. Sahip: yalnız yıl (1857/1888) kaynaklıdır; atlas noktası aynı yılın ayrıntılı gününden (1857-05-25) başlar, zincir bu güne kadar uzatıldı (dikiş, atlas aynı sahiple sürer); gün kaynakta yok."
+ },
+ {
+  "id": "yaunde-af-p9",
+  "ad": "Yaunde",
+  "atlas_ad": "Yaunde",
+  "lat": 3.87,
+  "lon": 11.52,
+  "kat1900": null,
+  "adlar": [
+   "Yaoundé",
+   "Yaunde"
+  ],
+  "ilk": {
+   "t": "1888-01-01",
+   "gun": "1888",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, «Yaoundé» (Britannica editörleri), https://www.britannica.com/place/Yaounde (tarayıcı sayfa okuma, 17 Kasım 2026)",
+   "tanik": "Founded in 1888 during the period of the German protectorate, Yaoundé"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1888-01-01",
+    "t": "1888-11-30",
+    "d": "alman-kamerun",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, «Yaoundé» (Britannica editörleri), https://www.britannica.com/place/Yaounde (tarayıcı sayfa okuma, 17 Kasım 2026)"
+   }
+  ],
+  "olay": [
+   {
+    "t": "1888-01-01",
+    "gun": "1888",
+    "k": "diger",
+    "b": "Yaoundé Alman himayesi döneminde kuruldu",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, «Yaoundé» (Britannica editörleri), https://www.britannica.com/place/Yaounde (tarayıcı sayfa okuma, 17 Kasım 2026)",
+    "tanik": "Founded in 1888 during the period of the German protectorate, Yaoundé"
+   }
+  ],
+  "ic_not": "TEK KAYNAK (Britannica); çift teyit yok (TDV sitesi 17 Kasım 2026'da 503 verdi, okunamadı). Gün yok, yıl hassasiyeti. Britannica ayrıca 1915 Belçika işgali, 1922 Fransız Kamerun başkenti, 1960 hükümet merkezi der; atlas noktası bu sonrası kendi zincirinde taşır, bu dosya karışmaz. Sahip: yalnız yıl (1857/1888) kaynaklıdır; atlas noktası aynı yılın ayrıntılı gününden (1888-11-30) başlar, zincir bu güne kadar uzatıldı (dikiş, atlas aynı sahiple sürer); gün kaynakta yok."
+ },
+ {
+  "id": "buake-af-p9",
+  "ad": "Buake",
+  "atlas_ad": "Buake (Bouaké)",
+  "lat": 7.69,
+  "lon": -5.03,
+  "kat1900": null,
+  "adlar": [
+   "Bouaké",
+   "Buake"
+  ],
+  "ilk": {
+   "t": "1899-01-01",
+   "gun": "1899",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, «Bouaké» (Britannica editörleri), https://www.britannica.com/place/Bouake (tarayıcı sayfa okuma, 17 Kasım 2026)",
+   "tanik": "Bouaké was established as a French military post in 1899"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1899-01-01",
+    "gun": "1899",
+    "k": "diger",
+    "b": "Bouaké Fransız askerî karakolu olarak kuruldu",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, «Bouaké» (Britannica editörleri), https://www.britannica.com/place/Bouake (tarayıcı sayfa okuma, 17 Kasım 2026)",
+    "tanik": "Bouaké was established as a French military post in 1899"
+   }
+  ],
+  "ic_not": "TEK KAYNAK (Britannica); çift teyit yok (TDV sitesi 17 Kasım 2026'da 503 verdi, okunamadı). Gün yok, yıl hassasiyeti. Atlas noktası 1281'de başlar; 1899 şehrin yıllı kuruluşudur (atlas 1898'de fransa-cumhuriyet'e geçirir, bu kaynakla ±1 yıl uyuşmazlık: atlas başlangıcı düzeltilmeli/1898 doğrulanamaz)."
+ },
+ {
+  "id": "ndjamena-af-p9",
+  "ad": "Ndjamena",
+  "atlas_ad": "Ndjamena",
+  "lat": 12.107,
+  "lon": 15.045,
+  "kat1900": null,
+  "adlar": [
+   "Fort-Lamy",
+   "N’Djamena"
+  ],
+  "ilk": {
+   "t": "1900-01-01",
+   "gun": "1900",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, «N’Djamena» (Britannica editörleri), https://www.britannica.com/place/NDjamena (tarayıcı sayfa okuma, 17 Kasım 2026)",
+   "tanik": "The city was founded in 1900 across the Chari River from Fort-Fureau"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1900-01-01",
+    "gun": "1900",
+    "k": "diger",
+    "b": "Şehir (Fort-Lamy) Fransız sömürge birliklerinin Rābiḥ'i yendiği yerin karşısında kuruldu",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, «N’Djamena» (Britannica editörleri), https://www.britannica.com/place/NDjamena (tarayıcı sayfa okuma, 17 Kasım 2026)",
+    "tanik": "The city was founded in 1900 across the Chari River from Fort-Fureau"
+   }
+  ],
+  "ic_not": "TEK KAYNAK (Britannica); çift teyit yok (TDV sitesi 17 Kasım 2026'da 503 verdi, okunamadı). Gün yok, yıl hassasiyeti. Sahip: Fransız sömürge birlikleri adına Fort-Lamy adıyla kuruldu; Fransız egemenliğinin sonu Britannica'da 'Chad'in 1960 bağımsızlığı' (aynı maddede 'it remained a small Kotoko settlement until after Chad’s independence in 1960'). Atlas başlangıç günü zincir sonu (dikiş); olay.t atlas gününe eşitlendi."
+ }
+]
