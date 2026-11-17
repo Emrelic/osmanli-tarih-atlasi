@@ -29480,4 +29480,39 @@ window.DEVLETLER = [
     { odak_yer:["Köln"], t:"1794-01-01", tur:"isgal", b:"Fransızlar Köln'ü işgal eder (yalnız yıl teyitli; gün teyitsiz).", kaynak:"EB1911 'Cologne': «When in 1794 Cologne was occupied by the French»" },
     { odak_yer:["Köln"], t:"1801-01-01", tur:"son", b:"Son başpiskopos-elektör Maximilian öldü; Lunéville'le Köln Fransa'ya katılır (yalnız yıl teyitli; gün teyitsiz).", kaynak:"EB1911 'Cologne': «The last archbishop-elector, Maximilian of Austria, died in 1801»; «in 1801, by the treaty of Lunéville, it was incorporated in France»" }
   ] },
+{ id:"chuzan-krallik", ad:"Chūzan Krallığı (Okinawa)", tur:"krallik", bolge:"dogu-asya",
+  f:"1372-01-01", t:"1429-01-01", baskent:"Şuri (Okinawa)",
+  ozet:"Okinawa'nın üç güç (Hokuzan, Chūzan, Nanzan) döneminde orta gücü; 1406'da Shō Shishō/Shō Hashi Bunei'yi devirdi (Birinci Shō hanedanı), 1429'da üç güç birleşip Ryukyu Krallığı doğdu.",
+  kaynak:"Naha City Historical Archive, Okinawa/Ryukyu history chronology, https://rekishi-archive.city.naha.okinawa.jp/en/history (okundu, 18 Kasım 2026): «Satto, the king of Chuzan power accepted the suggestion» (1372); «Sho Hashi ruined Bunei, the king of Chuzan power» (1406); «three powers (Hokuzan power, Chuzan power, Nanzan power) were integrated» (1429)",
+  ic_not:"TEK KAYNAK (Naha City Historical Archive; TDV'de madde yok, ikinci bağımsız akademik kaynak okunmadı). f=1372 kuruluş DEĞİL, kaynakta Chūzan kralının ilk belgeli anılışıdır (Ming ilişkilerinin başı) — alt sınır; geleneksel 1314 kuruluşu kaynakla teyit edilmediği için yazılmadı. Yalnız yıl teyitli; gün teyitsiz. t=1429 birleşme yılı; ardıl künye ryukyu (f 1429-01-01). Atlas kullanımı: sehir_tarihce_dogu_asya.js 1422-1429 (Shō Hashi).",
+  halef:["ryukyu"], kronoloji:[
+    { odak_yer:["Şuri"], t:"1406-01-01", tur:"hukumdar", b:"Shō Hashi, Chūzan kralı Bunei'yi devirip babası Shō Shishō'yu kral yaptı (Birinci Shō hanedanı başlar; yalnız yıl teyitli; gün teyitsiz).", kaynak:"Naha City Historical Archive, https://rekishi-archive.city.naha.okinawa.jp/en/history" },
+    { odak_yer:["Şuri"], t:"1429-01-01", tur:"son", b:"Üç güç birleşti; Chūzan, Ryukyu Krallığı içinde sona erdi (yalnız yıl teyitli; gün teyitsiz).", kaynak:"Naha City Historical Archive, https://rekishi-archive.city.naha.okinawa.jp/en/history" }
+  ] },
+{ id:"los-altos", ad:"Los Altos Devleti (Guatemala)", tur:"cumhuriyet", bolge:"orta-amerika",
+  f:"1838-01-01", t:"1840-01-01", baskent:"Quetzaltenango",
+  ozet:"Orta Amerika Federasyonu içinde Quetzaltenango merkezli altıncı devlet; 1840'ta Carrera tarafından zorla Guatemala'ya katıldı.",
+  kaynak:"Jorge H. González, «Quetzaltenango», Encyclopedia of Latin American History and Culture (Gale/Scribner), https://encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/quetzaltenango (okundu, 18 Kasım 2026): «for a brief period (1838–1840) when Quetzaltenango became the capital of the state of Los Altos»; «forcefully reincorporated into Guatemala by the Conservative dictator Rafael Carrera in 1840»",
+  ic_not:"TEK KAYNAK, yalnız yıl (ELAHC); gün teyitsiz, f/t = YYYY-01-01 yıl temsilidir. Gün adayları (2 Şubat 1838 ilan; Ocak/Mart-Nisan 1840 son) yalnız Vikipedi/Archontology'de (yasak/yardımcı kaynak) — kullanılmadı, 1840 sonu için kaynaklar da çelişiyor. Akademik gün kaynağı bulununca daraltılmalı.",
+  halef:[], kronoloji:[
+    { odak_yer:["Quetzaltenango"], t:"1838-01-01", tur:"kurulus", b:"Quetzaltenango merkezli Los Altos devleti kuruldu (yalnız yıl teyitli; gün teyitsiz).", kaynak:"ELAHC, «Quetzaltenango» (1838–1840)" },
+    { odak_yer:["Quetzaltenango"], t:"1840-01-01", tur:"son", b:"Carrera Los Altos'u zorla Guatemala'ya kattı (yalnız yıl teyitli; gün teyitsiz).", kaynak:"ELAHC, «Quetzaltenango»: «forcefully reincorporated into Guatemala ... in 1840»" }
+  ] },
+{ id:"texas-cumhuriyeti", ad:"Teksas Cumhuriyeti", tur:"cumhuriyet", bolge:"kuzey-amerika",
+  f:"1836-03-02", t:"1846-02-19", baskent:"Austin",
+  ozet:"Meksika'dan 2 Mart 1836 bağımsızlık bildirgesiyle doğan cumhuriyet; 19 Şubat 1846'da ilk eyalet meclisinin toplanmasıyla ABD eyaleti oldu.",
+  kaynak:"Handbook of Texas Online (TSHA), «Republic of Texas», https://www.tshaonline.org/handbook/entries/republic-of-texas (okundu, 18 Kasım 2026): «March 2, the delegates unanimously adopted Childress's suggestion for independence. Thus was born the Republic of Texas»; «existence had spanned nine years, eleven months, and seventeen days»; «The First Legislature convened in Austin on February 19, 1846»",
+  ic_not:"f=2 Mart 1836 (HoT). t=19 Şubat 1846: HoT'un belirttiği süre (9 yıl 11 ay 17 gün) 2 Mart 1836'dan 19 Şubat 1846'ya denk gelir; o gün cumhuriyet bayrağı indirildi. Polk'un eyalet kabul yasasını imzası 29 Aralık 1845 AYRI bir olgudur, künye ömrü olarak alınmadı. Tek kaynak okundu; TSL kronolojisiyle bağımsız çift teyit yapılmadı. DİKKAT: atlas yerleşim dönemleri f=1836-03-01 (ay hassasiyeti) taşıyor — künye f'i 1 gün sonra; denetle uyarırsa o dönemler 03-02'ye çekilmeli.",
+  halef:[], kronoloji:[
+    { odak_yer:["Washington-on-the-Brazos"], t:"1836-03-02", tur:"kurulus", b:"Washington-on-the-Brazos'ta delegeler bağımsızlık bildirgesini oybirliğiyle kabul etti; Teksas Cumhuriyeti doğdu.", kaynak:"Handbook of Texas Online, «Republic of Texas»" },
+    { odak_yer:["Austin"], t:"1846-02-19", tur:"son", b:"Austin'de ilk eyalet yasama meclisi toplandı, cumhuriyet bayrağı indirildi; Teksas ABD eyaleti oldu.", kaynak:"Handbook of Texas Online, «Republic of Texas»" }
+  ] },
+{ id:"deseret", ad:"Deseret Devleti (Mormon geçici hükûmeti)", tur:"devlet", bolge:"kuzey-amerika",
+  f:"1849-01-01", t:"1851-04-04", baskent:"Great Salt Lake City",
+  ozet:"Mormon yerleşimcilerin 1849'da kurduğu, ABD tarafından tanınmayan geçici hükûmet; Kongre Eylül 1850'de Utah Bölgesi'ni kurdu, genel meclis 4 Nisan 1851'de devleti feshetti.",
+  kaynak:"Utah History to Go (Utah Division of State History), «Deseret», Utah History Encyclopedia (1994), https://historytogo.utah.gov/post/deseret/ (arama özetinden okundu, 18 Kasım 2026): «the General Assembly dissolved the State of Deseret on 4 April 1851»; «name given to the region for which the Mormon pioneers sought territorial status in 1849 and to the quasi government that they carried on for the next two years»",
+  ic_not:"TEK KAYNAK (Utah Devlet Tarih Dairesi, Utah History Encyclopedia); sayfa gövdesi doğrudan çekilemedi (HTTP 403), metin arama özetinden — gövde okunmadı. f yalnız yıl (1849; ay/gün teyitsiz) → 1849-01-01 yıl temsili. t=4 Nisan 1851 fesih günü; Kongre'nin Utah Bölgesi'ni kurması Eylül 1850 ve atanmış yöneticilerin göreve başlaması ilkbahar 1851 AYRI olgulardır. KCET 28 Mart 1851 der (akademik değil) — çelişki beyanlı, TDV dışı basamakta kaldı. Atlas kullanımı: şimdilik hiçbir dönemde yok (künye önden açıldı).",
+  halef:[], kronoloji:[
+    { odak_yer:["Great Salt Lake City"], t:"1851-04-04", tur:"son", b:"Genel Meclis Brigham Young'ın önerisiyle Deseret Devleti'ni feshetti; yasaları 4 Ekim 1851'de Utah Bölgesi meclisince yeniden kabul edildi.", kaynak:"Utah History to Go, «Deseret»" }
+  ] },
 ];
