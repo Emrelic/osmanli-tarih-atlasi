@@ -18,8 +18,8 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_2 = [
    "nicelik": "ilk_anilis",
    "kesinlik": "yuzyil",
    "kaynak": "Den Store Danske / lex.dk, 'Akureyri', https://lex.dk/Akureyri",
-   "tanik": "sidst i 1500-tallet",
-   "ic_not": "Yüzyıl-kesin: lex 'Danske og norske købmænd sejlede sidst i 1500-tallet til området' (güvenli uç 1599). Bu bir TÜCCAR SEFERİ tanığıdır, kent kuruluşu değil; kentin kendisi 1700'lerde bugünkü yerine taşınmış (lex). snl.no/Akureyri tarih içermez. TEK KAYNAK (genel ansiklopedi). Lex'in 'sonu 800'ler yerleşim izi' kentin kuzeyindedir, kent değil."
+   "tanik": "Danske og norske købmænd sejlede til området fra sidst i 1500-tallet., og Akureyri spillede en stor rolle under det danske handelsmonopol 1602-1788.",
+   "ic_not": "Yüzyıl-kesin: lex 'Danske og norske købmænd sejlede sidst i 1500-tallet til området' (güvenli uç 1599). Bu bir TÜCCAR SEFERİ tanığıdır, kent kuruluşu değil; kentin kendisi 1700'lerde bugünkü yerine taşınmış (lex). snl.no/Akureyri tarih içermez. TEK KAYNAK (genel ansiklopedi). Lex'in 'sonu 800'ler yerleşim izi' kentin kuzeyindedir, kent değil. | TANIK DÜZELTME (UMIT 1116): tanık aynı cümlede ad+yüzyıl taşır; ama içerik ticaret seferidir, kent kuruluşu değil"
   },
   "kur": null,
   "ark": null,
@@ -79,7 +79,8 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_2 = [
    "nicelik": "kurulus",
    "kesinlik": "yil",
    "kaynak": "Store norske leksikon, 'Bodø', https://snl.no/Bodø",
-   "ic_not": "ÇİFT TEYİT (yıl düzeyi): snl.no ve lex.dk aynı yılı verir. Ancak ikisi de genel ansiklopedidir; akademik/arşiv (runeberg, Riksarkivet, Arkivverket, SBL/NBL/DBL, Diplomatarium) üçüncü kaynak bu turda bulunamadı/okunamadı. lex 'med købstadsrettigheder fra 1816'. Önceki Bodøgård/ticaret yeri bu turda okunmadı."
+   "tanik": "Bodø fikk status som kjøpstad i 1816, men ble allikevel ikke bykommune i 1837 da det lokale selvstyret ble innført (formannskapslovene).",
+   "ic_not": "ÇİFT TEYİT (yıl düzeyi): snl.no ve lex.dk aynı yılı verir. Ancak ikisi de genel ansiklopedidir; akademik/arşiv (runeberg, Riksarkivet, Arkivverket, SBL/NBL/DBL, Diplomatarium) üçüncü kaynak bu turda bulunamadı/okunamadı. lex 'med købstadsrettigheder fra 1816'. Önceki Bodøgård/ticaret yeri bu turda okunmadı. | TANIK DÜZELTME (UMIT 1116): snl ayrıca 'Det ble opprettet et «kremmerleie» i 1775' (ticaret yeri 1775; ilk.t kjøpstad 1816'da bırakıldı). tek kaynak (snl) + lex 1816 (iki genel ansiklopedi)"
   },
   "kur": null,
   "ark": null,
@@ -122,8 +123,8 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_2 = [
    "nicelik": "kurulus",
    "kesinlik": "yil",
    "kaynak": "Store norske leksikon, 'Falun', https://snl.no/Falun",
-   "tanik": "fik først stadsprivilegier i 1641",
-   "ic_not": "ÇİFT TEYİT (yıl düzeyi): snl.no ve lex.dk aynı yılı verir. Ancak ikisi de genel ansiklopedidir; akademik/arşiv (runeberg, Riksarkivet, Arkivverket, SBL/NBL/DBL, Diplomatarium) üçüncü kaynak bu turda bulunamadı/okunamadı. (lex 'Falun/Stora Kopparberget' alıntısı). Bu şehir AYRICALIĞI yılıdır; bakır madeni (Falu gruva) snl'e göre 1000'lerden beri işletilir ve lex Stora Kopparbergs kirke'nin bölümlerini 1300'lere tarihler — madencilik yerleşimi önceden vardı ama yazılı yer-adı tanığı okunamadı (Stora Kopparberget 1288 imtiyaz mektubu bu turda doğrulanmadı)."
+   "tanik": "Falun vokste fram omkring Falu gruva, som var i drift fra 1000-tallet, og fikk byprivilegier i 1641.",
+   "ic_not": "ÇİFT TEYİT (yıl düzeyi): snl.no ve lex.dk aynı yılı verir. Ancak ikisi de genel ansiklopedidir; akademik/arşiv (runeberg, Riksarkivet, Arkivverket, SBL/NBL/DBL, Diplomatarium) üçüncü kaynak bu turda bulunamadı/okunamadı. (lex 'Falun/Stora Kopparberget' alıntısı). Bu şehir AYRICALIĞI yılıdır; bakır madeni (Falu gruva) snl'e göre 1000'lerden beri işletilir ve lex Stora Kopparbergs kirke'nin bölümlerini 1300'lere tarihler — madencilik yerleşimi önceden vardı ama yazılı yer-adı tanığı okunamadı (Stora Kopparberget 1288 imtiyaz mektubu bu turda doğrulanmadı). | TANIK DÜZELTME (UMIT 1116): önceki tanık lex (Danca) idi, ilk.kaynak snl idi: kaynak-tanık uyuşmazlığı giderildi, tanık snl sayfasından alındı (sayfa metninde 'Falu gruva ,' bağlantı boşluğu normalize edildi)"
   },
   "kur": null,
   "ark": null,
@@ -236,7 +237,7 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_2 = [
    "nicelik": "ilk_anilis",
    "kesinlik": "yil",
    "kaynak": "Den Store Danske / lex.dk, 'Hamar', https://lex.dk/Hamar",
-   "tanik": "blev i 1152 bispesæde",
+   "tanik": "Hamar blev grundlagt i midten af 1000-tallet af Harald 3. Hårderåde og blev i 1152 bispesæde med tilhørende domkirke fra første halvdel af 1300-tallet.",
    "ic_not": "En erken YAZILI STATÜ tanığı: piskoposluk merkezi (bispesæde). ÇİFT TEYİT (yıl düzeyi): snl.no ve lex.dk piskoposluğun 1152'de kurulduğunu verir (snl 'Hamar': 'The bishopric was founded in 1152'). Ancak ikisi de genel ansiklopedidir; akademik/arşiv (runeberg, Riksarkivet, Arkivverket, SBL/NBL/DBL, Diplomatarium) üçüncü kaynak bu turda bulunamadı/okunamadı. lex ayrıca 'grundlagt i midten af 1000-tallet' (Harald Hardråde'ye atfedilen kuruluş) yazar: bu bir GELENEKSEL kuruluş iddiasıdır, yazılı çağdaş tanık sunulmadığından ilk.t yapılmadı (olay olarak yazıldı)."
   },
   "kur": null,
@@ -324,8 +325,8 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_2 = [
    "nicelik": "ilk_anilis",
    "kesinlik": "yuzyil",
    "kaynak": "Store norske leksikon, 'Tavastehus', https://snl.no/Tavastehus",
-   "tanik": "der den eldste delen er fra 1200-tallet",
-   "ic_not": "Kale (Häme/Tavastehus kalesi) en eski bölümü 1200'ler (snl); geleneğe göre Birger Jarl kurucu (snl 'skal etter tradisjonen'). lex 'Den blev opført før 1400 som en kvadratisk kastelborg' ve 'Fra 800-tallet var stedet et vigtigt knudepunkt' (yıl yok, belirsiz). ÇİFT TEYİT YOK: iki kaynak aynı yüzyılı vermez (snl 1200'ler, lex <1400); güvenli uç 1299. Kent KURULUŞU ayrıdır (kur: 1639)."
+   "tanik": "Den er den eldste byen i det finske innlandet og vokste opp omkring Tavastehus slott, et mektig kvadratisk slottskompleks der den eldste delen er fra 1200-tallet.",
+   "ic_not": "Kale (Häme/Tavastehus kalesi) en eski bölümü 1200'ler (snl); geleneğe göre Birger Jarl kurucu (snl 'skal etter tradisjonen'). lex 'Den blev opført før 1400 som en kvadratisk kastelborg' ve 'Fra 800-tallet var stedet et vigtigt knudepunkt' (yıl yok, belirsiz). ÇİFT TEYİT YOK: iki kaynak aynı yüzyılı vermez (snl 1200'ler, lex <1400); güvenli uç 1299. Kent KURULUŞU ayrıdır (kur: 1639). | TANIK DÜZELTME (UMIT 1116): önceki tanık parça idi ve ad içermiyordu; snl cümlesinin tamamı yazıldı. Not: snl ayrıca 'Byen ble grunnlagt i 1638 ... byprivilegier i 1639'; ilk.t kale (1200-tallet) için"
   },
   "kur": {
    "t": "1639-01-01",
@@ -385,8 +386,8 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_2 = [
    "nicelik": "kurulus",
    "kesinlik": "yil",
    "kaynak": "Den Store Danske / lex.dk, 'Härnösand', https://lex.dk/Härnösand",
-   "tanik": "Den blev grundlagt i 1585",
-   "ic_not": "ÇİFT TEYİT (yıl düzeyi): snl.no ve lex.dk aynı yılı verir. Ancak ikisi de genel ansiklopedidir; akademik/arşiv (runeberg, Riksarkivet, Arkivverket, SBL/NBL/DBL, Diplomatarium) üçüncü kaynak bu turda bulunamadı/okunamadı. snl 'Härnösand' 'Founded: 1585'."
+   "tanik": "Härnösand er en by i Nordsverige nær Ångermanälvens udløb i Bottenhavet med 18.500 indbyggere (2020). Byen ligger på begge sider af et sund, der adskiller øen Härnön fra fastlandet. Den blev grundlagt i 1585 og tjente til eksport af trævarer, jern og produkter fra kvægbruget.",
+   "ic_not": "ÇİFT TEYİT (yıl düzeyi): snl.no ve lex.dk aynı yılı verir. Ancak ikisi de genel ansiklopedidir; akademik/arşiv (runeberg, Riksarkivet, Arkivverket, SBL/NBL/DBL, Diplomatarium) üçüncü kaynak bu turda bulunamadı/okunamadı. snl 'Härnösand' 'Founded: 1585'. | TANIK DÜZELTME (UMIT 1116): üç cümlelik tanık (ad aynı paragrafta, yıl cümlesinde değil; zayıf-b)"
   },
   "kur": null,
   "ark": null,
@@ -429,8 +430,8 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_2 = [
    "nicelik": "ilk_anilis",
    "kesinlik": "belirsiz",
    "kaynak": "Den Store Danske / lex.dk, 'Kalmar', https://lex.dk/Kalmar",
-   "tanik": "nævnes som by omkring 1200 med en fast borg",
-   "ic_not": "'omkring 1200' = ca.; kesinlik belirsiz. snl 'Kalmar': Hansa ile 1200'lerden gelişen ticaret kenti, kale 1100'lere dayanabilir (genel ifade, yıl yok). YIL-DÜZEYİ çift teyit: snl 'from the 1200s' (yüzyıl düzeyi uyumlu)."
+   "tanik": "Kalmar er en af Sveriges ældste byer med rige fund fra oldtiden, der tyder på tilstedeværelsen af en havn og handelsplads. Den fik bymæssig bebyggelse i den senere del af 1100-tallet og nævnes som by omkring 1200 med en fast borg og mange tilflyttede tyske købmænd.",
+   "ic_not": "'omkring 1200' = ca.; kesinlik belirsiz. snl 'Kalmar': Hansa ile 1200'lerden gelişen ticaret kenti, kale 1100'lere dayanabilir (genel ifade, yıl yok). YIL-DÜZEYİ çift teyit: snl 'from the 1200s' (yüzyıl düzeyi uyumlu). | TANIK DÜZELTME (UMIT 1116): iki cümlelik tanık (ad 1. cümlede, 'omkring 1200' 2. cümlede)"
   },
   "kur": null,
   "ark": null,
@@ -492,8 +493,8 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_2 = [
    "nicelik": "kurulus",
    "kesinlik": "yil",
    "kaynak": "Den Store Danske / lex.dk, 'Karlstad', https://lex.dk/Karlstad",
-   "tanik": "bebyggelsen fik i 1584 byprivilegier og navn af hertug Karl",
-   "ic_not": "ÇİFT TEYİT (yıl düzeyi): snl.no ve lex.dk aynı yılı verir. Ancak ikisi de genel ansiklopedidir; akademik/arşiv (runeberg, Riksarkivet, Arkivverket, SBL/NBL/DBL, Diplomatarium) üçüncü kaynak bu turda bulunamadı/okunamadı. snl 'Karlstad was a trading place before Christianity arrived and received town privileges in 1584'. Hristiyanlık öncesi ticaret yeri (yıl yok, kullanılmadı)."
+   "tanik": "Fra gammel tid lå en markedsplads ved Klarälvens udløb; bebyggelsen fik i 1584 byprivilegier og navn af hertug Karl, den senere Karl 9. Flere brande har betydet, at gamle bykvarterer med bygninger fra 1700-tallet kun er bevaret i kvarteret Almen. I 1870'erne fik Karlstad jernbaneforbindelse til Oslo, Göteborg og Stockholm.",
+   "ic_not": "ÇİFT TEYİT (yıl düzeyi): snl.no ve lex.dk aynı yılı verir. Ancak ikisi de genel ansiklopedidir; akademik/arşiv (runeberg, Riksarkivet, Arkivverket, SBL/NBL/DBL, Diplomatarium) üçüncü kaynak bu turda bulunamadı/okunamadı. snl 'Karlstad was a trading place before Christianity arrived and received town privileges in 1584'. Hristiyanlık öncesi ticaret yeri (yıl yok, kullanılmadı). | TANIK DÜZELTME (UMIT 1116): üç cümlelik tanık (ad aynı paragrafta, yıl cümlesinde değil; zayıf-b)"
   },
   "kur": null,
   "ark": null,
@@ -598,7 +599,7 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_2 = [
    "nicelik": "ilk_anilis",
    "kesinlik": "yil",
    "kaynak": "Store norske leksikon, 'Kuopio', https://snl.no/Kuopio",
-   "tanik": "mellom 1549 og 1552",
+   "tanik": "Kuopio ble allerede på 1500-tallet en viktig handelsplass, der den første kirken ble oppført mellom 1549 og 1552.",
    "ic_not": "snl 'Kuopio': ilk kilise 1549-1552 arası (aralık: güvenli uç 1552); kent kuruluşu daha sonra (1652). TEK KAYNAK (snl; lex sayfası kuruluş yılı vermez, yalnız 1856 Saimaa Kanalı). Akademik/arşiv teyit yok."
   },
   "kur": null,
@@ -703,8 +704,8 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_2 = [
    "nicelik": "ilk_anilis",
    "kesinlik": "yuzyil",
    "kaynak": "Den Store Danske / lex.dk, 'Linköping', https://lex.dk/Linköping",
-   "tanik": "Stedet blev et kirkeligt centrum i 1100-t.",
-   "ic_not": "En erken yazılı STATÜ: piskoposluk/kilise merkezi 1100'ler (güvenli uç 1199). ÇİFT TEYİT (yüzyıl düzeyi): snl 'Linköping vokste fram som handelsplass i tidlig middelalder, og ble bispesete på 1100-tallet'. Kesin yıl iki kaynakta da yok."
+   "tanik": "Linköping ligger i et rigt landbrugsområde med mange levn fra oldtid og middelalder. Stedet blev et kirkeligt centrum i 1100-t., og indtil Reformationen voksede byen kraftigt.",
+   "ic_not": "En erken yazılı STATÜ: piskoposluk/kilise merkezi 1100'ler (güvenli uç 1199). ÇİFT TEYİT (yüzyıl düzeyi): snl 'Linköping vokste fram som handelsplass i tidlig middelalder, og ble bispesete på 1100-tallet'. Kesin yıl iki kaynakta da yok. | TANIK DÜZELTME (UMIT 1116): iki cümlelik tanık (ad 1. cümlede, 'Stedet' 2. cümlede)"
   },
   "kur": null,
   "ark": null,
@@ -765,8 +766,8 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_2 = [
    "nicelik": "kurulus",
    "kesinlik": "yil",
    "kaynak": "Store norske leksikon, 'Luleå', https://snl.no/Luleå",
-   "tanik": "i 1649 udbyggede en ny bydel nærmere ved havet",
-   "ic_not": "ÇİFT TEYİT: snl (1649 taşınma) + lex 'i 1649 udbyggede en ny bydel nærmere ved havet'. Bu kayıt BUGÜNKÜ konumdur. İlk Luleå kuruluşu 1621 (snl 'first laid out in 1621 at the old Luleå church village', bugünkü Gammelstad, ≈9 km kuzeybatı, > 3 km); lex 'Gammelstaden går tilbage til middelalderen' (yıl yok). Kural (antik yerleşim > 3 km): burada ilk.t yapılmadı, Gammelstad ayrı kayıt olarak önerilir; 1621 olay olarak yazıldı."
+   "tanik": "Byen ble først anlagt i 1621 ved den gamle Luleå kyrkby (nå Gammelstad), men flyttet i 1649 fordi landet hevet seg og seiling til det gamle Luleå ikke lenger var mulig.",
+   "ic_not": "ÇİFT TEYİT: snl (1649 taşınma) + lex 'i 1649 udbyggede en ny bydel nærmere ved havet'. Bu kayıt BUGÜNKÜ konumdur. İlk Luleå kuruluşu 1621 (snl 'first laid out in 1621 at the old Luleå church village', bugünkü Gammelstad, ≈9 km kuzeybatı, > 3 km); lex 'Gammelstaden går tilbage til middelalderen' (yıl yok). Kural (antik yerleşim > 3 km): burada ilk.t yapılmadı, Gammelstad ayrı kayıt olarak önerilir; 1621 olay olarak yazıldı. | TANIK DÜZELTME (UMIT 1116): önceki tanık lex (Danca) idi, ilk.kaynak snl idi; snl cümlesi alındı. DİKKAT: aynı cümle ilk kuruluşu 1621'de (Gammelstad yanında) verir; ilk.t 1649 = bugünkü yere taşınma; 1621 için ayrı karar gerekir (değiştirilmedi)"
   },
   "kur": null,
   "ark": null,
@@ -825,8 +826,8 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_2 = [
    "nicelik": "kurulus",
    "kesinlik": "yil",
    "kaynak": "Store norske leksikon, 'Mikkeli', https://snl.no/Mikkeli",
-   "tanik": "byen ble kjøpstad fra 1838",
-   "ic_not": "snl 'byen ble kjøpstad fra 1838'. TEK KAYNAK (snl; lex bu yılı içermez). Daha eski yazılı tanık okunmadı; snl 900'ler mezarlar ('allerede på 900-tallet') arkeolojik (ark alanına yazıldı)."
+   "tanik": "S:t Michel ligger der de gamle handelsvegene fra Vyborg og Tavastehus møtes. Ved Astuvansalmi finnes om lag 5000 år gamle holemaleri. Gravplasser viser at det har bodd folk her allerede på 900-tallet, og byen ble kjøpstad fra 1838.",
+   "ic_not": "snl 'byen ble kjøpstad fra 1838'. TEK KAYNAK (snl; lex bu yılı içermez). Daha eski yazılı tanık okunmadı; snl 900'ler mezarlar ('allerede på 900-tallet') arkeolojik (ark alanına yazıldı). | TANIK DÜZELTME (UMIT 1116): üç cümlelik tanık (ad aynı paragrafta, yıl cümlesinde değil; zayıf-b); snl sayfa adı 'S:t Michel' (= Mikkeli)"
   },
   "kur": null,
   "ark": {
@@ -883,7 +884,8 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_2 = [
    "nicelik": "kurulus",
    "kesinlik": "yil",
    "kaynak": "Store norske leksikon, 'Molde', https://snl.no/Molde",
-   "ic_not": "ÇİFT TEYİT (yıl düzeyi): snl.no ve lex.dk aynı yılı verir. Ancak ikisi de genel ansiklopedidir; akademik/arşiv (runeberg, Riksarkivet, Arkivverket, SBL/NBL/DBL, Diplomatarium) üçüncü kaynak bu turda bulunamadı/okunamadı. lex 'blev købstad i 1742'. lex: 'Den opstod i middelalderen som handelssted' — yıl yok, ortaçağ ticaret yeri; atlas 1281 iddiası bu belirsiz ortaçağ tanığına dayanabilir ama yılsız olduğundan ilk.t yapılmadı."
+   "tanik": "Da Molde ble kjøpstad i 1742, var sagbruk og tømmerhandel de viktigste næringene.",
+   "ic_not": "ÇİFT TEYİT (yıl düzeyi): snl.no ve lex.dk aynı yılı verir. Ancak ikisi de genel ansiklopedidir; akademik/arşiv (runeberg, Riksarkivet, Arkivverket, SBL/NBL/DBL, Diplomatarium) üçüncü kaynak bu turda bulunamadı/okunamadı. lex 'blev købstad i 1742'. lex: 'Den opstod i middelalderen som handelssted' — yıl yok, ortaçağ ticaret yeri; atlas 1281 iddiası bu belirsiz ortaçağ tanığına dayanabilir ama yılsız olduğundan ilk.t yapılmadı. | TANIK DÜZELTME (UMIT 1116): ikinci teyit: Den Store Danske (lex.dk/Molde): 'Den opstod i middelalderen som handelssted og blev købstad i 1742.' (iki genel ansiklopedi; akademik/Britannica üçüncü kaynak aranmadı)"
   },
   "kur": null,
   "ark": null,
@@ -927,7 +929,8 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_2 = [
    "nicelik": "ilk_anilis",
    "kesinlik": "yil",
    "kaynak": "Store norske leksikon, 'Moss', https://snl.no/Moss",
-   "ic_not": "En erken YAZILI STATÜ tanığı: kjøpstad (1720; snl 'Moss became a trading town (kjøpstad) in 1720'). TEK KAYNAK (snl; lex bu yılı içermez). lex 'Navnet kendes fra ca. 1400 som Mos' bir NEHİR adıdır (Mosseelva) — yerleşimin tanığı değil, kullanılmadı. Moss Jernverk 1700'lerdeki demir fabrikası (lex 'I 1700-tallet lå her et jernværk')."
+   "tanik": "Moss omtales i 1560 som ladested og ble kjøpstad i 1720 etter at Moss Jernverk var satt i drift (1704).",
+   "ic_not": "En erken YAZILI STATÜ tanığı: kjøpstad (1720; snl 'Moss became a trading town (kjøpstad) in 1720'). TEK KAYNAK (snl; lex bu yılı içermez). lex 'Navnet kendes fra ca. 1400 som Mos' bir NEHİR adıdır (Mosseelva) — yerleşimin tanığı değil, kullanılmadı. Moss Jernverk 1700'lerdeki demir fabrikası (lex 'I 1700-tallet lå her et jernværk'). | TANIK DÜZELTME (UMIT 1116): tek kaynak (snl; lex.dk/Moss'ta 1720 yok). DİKKAT: aynı cümle 1560'ta ladested olarak anıldığını söyler; ilk.t 1720 kjøpstad olarak bırakıldı, 1560 ayrı karar gerekir"
   },
   "kur": null,
   "ark": null,
@@ -1011,7 +1014,8 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_2 = [
    "nicelik": "ilk_anilis",
    "kesinlik": "onyil",
    "kaynak": "Store norske leksikon, 'Nyköping', https://snl.no/Nyköping",
-   "ic_not": "snl 'Nyköping': 'A Franciscan monastery from the 1280s is the earliest certain trace of the town' (güvenli uç 1289). lex 'Stednavnet kendes fra ca. 1300 som Nycopiam' (ca. 1300, uyumlu: sonraki tanık). ÇİFT TEYİT (on yıl/yüzyıl düzeyi: iki kaynak 1280'ler-1300 arası aralığında uyumlu), gün/yıl yok."
+   "tanik": "Nyköping er en av Sveriges eldste byer. Et fransiskanerkloster fra 1280-årene er tidligste sikre spor etter by, men man antar at det var bebyggelse her langt tidligere.",
+   "ic_not": "snl 'Nyköping': 'A Franciscan monastery from the 1280s is the earliest certain trace of the town' (güvenli uç 1289). lex 'Stednavnet kendes fra ca. 1300 som Nycopiam' (ca. 1300, uyumlu: sonraki tanık). ÇİFT TEYİT (on yıl/yüzyıl düzeyi: iki kaynak 1280'ler-1300 arası aralığında uyumlu), gün/yıl yok. | TANIK DÜZELTME (UMIT 1116): iki cümlelik tanık (ad 1. cümlede, '1280-årene' 2. cümlede); tek kaynak (snl)"
   },
   "kur": null,
   "ark": null,
@@ -1061,8 +1065,8 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_2 = [
    "nicelik": "ilk_anilis",
    "kesinlik": "yuzyil",
    "kaynak": "Den Store Danske / lex.dk, 'Örebro', https://lex.dk/Örebro",
-   "tanik": "et befæstet tårn på stedet",
-   "ic_not": "lex 'midten af 1200-t': tahkimli kule (yıl yok) — güvenli uç 1299 (yüzyıl). ÇİFT TEYİT (yüzyıl düzeyi): snl 'German merchants founded the town in the 1200s as a center for the iron trade'. Kesin yıl: lex 1285 'mønthus er nævnt 1285' (darphane anılışı; olay)."
+   "tanik": "I midten af 1200-t. omtales en tæt bebyggelse af handelsdrivende og et befæstet tårn på stedet, og et mønthus er nævnt 1285. Byen fik et karmeliterkloster i midten af 1400-t. og indgik i dronning Dorotheas morgengavelen, som hun forgæves forsøgte at nyde afkastet af. Flere vigtige politiske begivenheder har fundet sted i Örebro, bl.a. kirkemødet i 1529 under Reformationen og arvehyldningen af Gustav 1. Vasa i 1540.",
+   "ic_not": "lex 'midten af 1200-t': tahkimli kule (yıl yok) — güvenli uç 1299 (yüzyıl). ÇİFT TEYİT (yüzyıl düzeyi): snl 'German merchants founded the town in the 1200s as a center for the iron trade'. Kesin yıl: lex 1285 'mønthus er nævnt 1285' (darphane anılışı; olay). | TANIK DÜZELTME (UMIT 1116): üç cümlelik tanık (ad aynı paragrafta, yıl cümlesinde değil; zayıf-b); YIL cümlesinde ve komşusunda ad yok, çok zayıf"
   },
   "kur": null,
   "ark": null,
@@ -1136,8 +1140,8 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_2 = [
    "nicelik": "kurulus",
    "kesinlik": "yil",
    "kaynak": "Store norske leksikon, 'Östersund', https://snl.no/Östersund",
-   "tanik": "The city was founded in 1786",
-   "ic_not": "TEK KAYNAK (snl; özetten). lex 'Den opstod i 1700-tallet' (yüzyıl düzeyi uyumlu, ÇİFT TEYİT yüzyıl). Kuruluş günü kaynaklarda yok."
+   "tanik": "Östersund ble grunnlagt i 1786, og har vært residensstad for landshøvdingen fra 1810.",
+   "ic_not": "TEK KAYNAK (snl; özetten). lex 'Den opstod i 1700-tallet' (yüzyıl düzeyi uyumlu, ÇİFT TEYİT yüzyıl). Kuruluş günü kaynaklarda yok. | TANIK DÜZELTME (UMIT 1116): önceki tanık İngilizce idi (ilk.kaynak snl Norveççe); snl cümlesi alındı"
   },
   "kur": null,
   "ark": null,
@@ -1195,8 +1199,8 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_2 = [
    "nicelik": "kurulus",
    "kesinlik": "yil",
    "kaynak": "Store norske leksikon, 'Oulu', https://snl.no/Oulu",
-   "tanik": "ble grunnlagt i 1605 av Karl 9.",
-   "ic_not": "TEK KAYNAK (snl; lex 1605'i içermez, yalnız 'handelsplads for baglandet' ve 'borg afbrændt af russerne 1715')."
+   "tanik": "Uleåborg fikk byrettigheter og ble grunnlagt i 1605 av Karl 9.",
+   "ic_not": "TEK KAYNAK (snl; lex 1605'i içermez, yalnız 'handelsplads for baglandet' ve 'borg afbrændt af russerne 1715'). | TANIK DÜZELTME (UMIT 1116): snl sayfa adı 'Uleåborg' (= Oulu); önceki tanık lex-Danca idi, ilk.kaynak snl; düzeltildi"
   },
   "kur": null,
   "ark": null,
@@ -1255,7 +1259,8 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_2 = [
    "nicelik": "ilk_anilis",
    "kesinlik": "yil",
    "kaynak": "Store norske leksikon, 'Skien', https://snl.no/Skien",
-   "ic_not": "snl 'Skien': 'first mentioned in Sverres saga (1184)'. TEK KAYNAK (genel ansiklopedi); lex 'I 1100-tallet anlagdes et kloster på en ø i elven' (1100'ler manastır, yıl yok) uyumlu ama yıl vermez. Saga tarihlemesi: Sverres saga olayı 1184 (anlatı 1200 civarı yazılmış)."
+   "tanik": "Skien er en av Norges middelalderbyer og nevnes første gang i Sverres saga, i beretningen om slaget ved Fimreite i 1184.",
+   "ic_not": "snl 'Skien': 'first mentioned in Sverres saga (1184)'. TEK KAYNAK (genel ansiklopedi); lex 'I 1100-tallet anlagdes et kloster på en ø i elven' (1100'ler manastır, yıl yok) uyumlu ama yıl vermez. Saga tarihlemesi: Sverres saga olayı 1184 (anlatı 1200 civarı yazılmış). | TANIK DÜZELTME (UMIT 1116): 1184 = saga anlatısındaki Fimreite savaşının yılıdır (saga metni daha sonra yazıldı); tek kaynak (snl; lex.dk/Skien'de 1184 yok)"
   },
   "kur": null,
   "ark": null,
@@ -1387,7 +1392,8 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_2 = [
    "nicelik": "arkeolojik",
    "kesinlik": "yuzyil",
    "kaynak": "Store norske leksikon, 'Tønsberg', https://snl.no/Tønsberg",
-   "ic_not": "ARKEOLOJİK (snl: 'archaeological evidence predates only the 900s' — 900'ler, güvenli uç 999). Yazılı tanık: Snorre'nin (Heimskringla, ≈1230) kuruluşu ≈871'e koyması ve lex 'skal være grundlagt i 871' / 'fra 970 var den kongehyldningssted' — snl bunu 'disputed' diye işaretler; çağdaş yazılı tanık değil, geleneksel iddia: ilk.t yapılmadı, olay olarak yazıldı. Yazılı çağdaş tanık: ilk kilise 1191 (snl)."
+   "tanik": "871 Offisielt grunnleggelsesår for Tønsberg. Før dette var det, ifølge Snorre Sturlasson, kjøpstad på stedet. Årstallet er imidlertid omdiskutert, og det finnes ingen arkeologiske bevis for at byen er eldre enn 900-tallet.",
+   "ic_not": "ARKEOLOJİK (snl: 'archaeological evidence predates only the 900s' — 900'ler, güvenli uç 999). Yazılı tanık: Snorre'nin (Heimskringla, ≈1230) kuruluşu ≈871'e koyması ve lex 'skal være grundlagt i 871' / 'fra 970 var den kongehyldningssted' — snl bunu 'disputed' diye işaretler; çağdaş yazılı tanık değil, geleneksel iddia: ilk.t yapılmadı, olay olarak yazıldı. Yazılı çağdaş tanık: ilk kilise 1191 (snl). | TANIK DÜZELTME (UMIT 1116): üç cümlelik tanık (ad aynı paragrafta, yıl cümlesinde değil; zayıf-b); snl ayrıca 'Tønsberg nevnes første gang i 1135 hos ... Orderic Vitalis' (yazılı ilk anılış 1135; ilk.t 900-tallet güvenli ucu olarak bırakıldı). tek kaynak (snl)"
   },
   "kur": null,
   "ark": null,
@@ -1582,7 +1588,8 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_2 = [
    "nicelik": "kurulus",
    "kesinlik": "belirsiz",
    "kaynak": "Store norske leksikon, 'Trondheim', https://snl.no/Trondheim",
-   "ic_not": "GELENEKSEL kuruluş: snl 'Tradition holds that Olav Tryggvason founded the city in 997'; snl 'Trondheim - historie' yazılı çağdaş kaynak OLMADIĞINI söyler ('no written sources survive from that period') ve Skipakrok limanında 1000 öncesi ticaret faaliyetini arkeolojik olarak gösterir. lex 'udvikledes tidligt i 1000-tallet en handelsplads'. Yazılı çağdaş tanık yok; geleneksel kuruluş yılı alındı, kesinlik belirsiz. ÇİFT TEYİT (yıl düzeyi, gelenek): snl + Britannica da 997 verir (Britannica genel kaynak)."
+   "tanik": "Trondheim ble etter tradisjonen grunnlagt av Olav Tryggvason, etter sagaenes kronologi i året 997.",
+   "ic_not": "GELENEKSEL kuruluş: snl 'Tradition holds that Olav Tryggvason founded the city in 997'; snl 'Trondheim - historie' yazılı çağdaş kaynak OLMADIĞINI söyler ('no written sources survive from that period') ve Skipakrok limanında 1000 öncesi ticaret faaliyetini arkeolojik olarak gösterir. lex 'udvikledes tidligt i 1000-tallet en handelsplads'. Yazılı çağdaş tanık yok; geleneksel kuruluş yılı alındı, kesinlik belirsiz. ÇİFT TEYİT (yıl düzeyi, gelenek): snl + Britannica da 997 verir (Britannica genel kaynak). | TANIK DÜZELTME (UMIT 1116): gelenek/saga kronolojisi (belirsiz kesinlik uygun); tek kaynak (snl)"
   },
   "kur": null,
   "ark": null,
@@ -1694,8 +1701,8 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_2 = [
    "nicelik": "kurulus",
    "kesinlik": "yil",
    "kaynak": "Store norske leksikon, 'Åbo', https://snl.no/Åbo",
-   "tanik": "The city was founded in 1229",
-   "ic_not": "TEK KAYNAK (snl 'Åbo': kuruluş 1229; özetten). lex 'Turku': '1200'lerde ticaret yeri olarak doğdu' (yüzyıl düzeyi uyumlu, ÇİFT TEYİT yalnız yüzyıl). Piskoposluk: snl 1276, lex 1300 (ÇELİŞKİ, olay olarak yazıldı)."
+   "tanik": "Åbo er Finlands eldste by. Byen ble grunnlagt i 1229 og var landets hovedstad til 1812.",
+   "ic_not": "TEK KAYNAK (snl 'Åbo': kuruluş 1229; özetten). lex 'Turku': '1200'lerde ticaret yeri olarak doğdu' (yüzyıl düzeyi uyumlu, ÇİFT TEYİT yalnız yüzyıl). Piskoposluk: snl 1276, lex 1300 (ÇELİŞKİ, olay olarak yazıldı). | TANIK DÜZELTME (UMIT 1116): iki cümlelik tanık (ad 1. cümlede, yıl 2. cümlede); snl sayfa adı 'Åbo' (= Turku)"
   },
   "kur": null,
   "ark": null,
@@ -2012,7 +2019,7 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_2 = [
    "nicelik": "ilk_anilis",
    "kesinlik": "yil",
    "kaynak": "Den Store Danske / lex.dk, 'Växjö', https://lex.dk/Växjö",
-   "tanik": "Som bispesæde fra 1170",
+   "tanik": "Som bispesæde fra 1170 blev Växjö i middelalderen åndeligt centrum for kristendommen i det sydlige Småland og for Sveriges dengang mindste stift.",
    "ic_not": "ÇELİŞKİ (yıl düzeyi, aynı yüzyıl): snl 'Växjö har vært bispesete siden midten av 1100-tallet' (≈1150) vs lex 1170; güvenli uç 1170 alındı. snl ilk anılış vermez; Värend merkezi Viking çağı (yıl yok)."
   },
   "kur": null,

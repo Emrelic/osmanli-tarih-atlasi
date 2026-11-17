@@ -18,8 +18,8 @@ window.SEHIR_TARIHCE_AFRIKA_MAGRIP2 = [
    "nicelik": "kurulus",
    "kesinlik": "onyil",
    "kaynak": "TDV İslâm Ansiklopedisi, 'BİNGAZİ' (Sırrı Erinç), https://islamansiklopedisi.org.tr/bingazi",
-   "tanik": "Şehrin tekrar bir yerleşim merkezi olarak ortaya çıkmasının 1470 yıllarına rastladığı tahmin edilmektedir",
-   "ic_not": "TDV: Şehir MÖ V. yüzyılda Yunanlılarca Euhesperides adıyla kuruldu (adı III. Ptolemaios'ça Berenike'ye çevrildi); MS III. yüzyıldan itibaren bölgenin en büyük merkeziydi; Ortaçağ'da Ceneviz ticaretiyle 'Bernik' adıyla bir ara canlandı; Bizanslıların son zamanlarında 'tamamen terkedildi' ve İslâm fetih kaynakları şehri anmaz. TDV süreksizliği açıkça söylediği için (ve hiçbir antik/Ortaçağ olaya yıl vermediği için) antik Euhesperides/Berenike BURADA yazılmadı: modern Bingazi 'yeniden ortaya çıkış' tahmini olan 1470 yıllarından başlar. Antik Euhesperides/Berenike ayrı bir kayıt olarak önerilir (aynı koordinat, TDV kesintisi), Plinius/Strabon vb. ile. 1470 TDV'nin 'tahmin' sözüdür (nicelik kurulus, kesinlik onyil)."
+   "tanik": "Şehrin tekrar bir yerleşim merkezi olarak ortaya çıkmasının 1470 yıllarına rastladığı tahmin edilmektedir.",
+   "ic_not": "TDV: Şehir MÖ V. yüzyılda Yunanlılarca Euhesperides adıyla kuruldu (adı III. Ptolemaios'ça Berenike'ye çevrildi); MS III. yüzyıldan itibaren bölgenin en büyük merkeziydi; Ortaçağ'da Ceneviz ticaretiyle 'Bernik' adıyla bir ara canlandı; Bizanslıların son zamanlarında 'tamamen terkedildi' ve İslâm fetih kaynakları şehri anmaz. TDV süreksizliği açıkça söylediği için (ve hiçbir antik/Ortaçağ olaya yıl vermediği için) antik Euhesperides/Berenike BURADA yazılmadı: modern Bingazi 'yeniden ortaya çıkış' tahmini olan 1470 yıllarından başlar. Antik Euhesperides/Berenike ayrı bir kayıt olarak önerilir (aynı koordinat, TDV kesintisi), Plinius/Strabon vb. ile. 1470 TDV'nin 'tahmin' sözüdür (nicelik kurulus, kesinlik onyil). Tanık kontrolü: birebir TDV BİNGAZİ cümlesi; yıl cümlede, ama Bingazi adı aynı cümlede yok ('Şehrin'). Madde tek şehri konu alır ve bu paragrafta Bernik/Berka adlarıyla anılır; adlı cümle ('Bingazi de kesin olarak Osmanlı yönetimine katıldı (1578)') aynı paragrafta ama sonradır. İki cümlelik tanıkla kapatılamadı."
   },
   "kur": null,
   "ark": null,
@@ -126,8 +126,8 @@ window.SEHIR_TARIHCE_AFRIKA_MAGRIP2 = [
    "nicelik": "ilk_anilis",
    "kesinlik": "yil",
    "kaynak": "TDV İslâm Ansiklopedisi, 'KOSTANTÎNE' (Muhammed Rezûk), https://islamansiklopedisi.org.tr/kostantine",
-   "tanik": "311 yılında geçirdiği büyük yıkımdan sonra burayı tekrar imar eden Roma İmparatoru",
-   "ic_not": "TDV Cirta'nın Kartacalılar tarafından kurulduğunu söyler ama yıl vermez; TDV'de tarihli en eski tanık 311 yıkımıdır ve 'ilk anılış' bu yüzden ihtiyatlı üst sınırdır. Cirta'nın çok daha eski yazılı anılışları (ör. Sallustius, Bellum Iugurthinum) bu oturumda okunmadı; bu nedenle ilk.t sonraki turda erken tanıkla geriye çekilebilir. Atlas noktası 'Konstantin' -0045'te başlıyor (UYARI): zincir bu yüzden boş, atlas başlangıcı ile şehrin tarihli ilk tanığı arasındaki 356 yıl bu dosyada kapatılamadı."
+   "tanik": "Başşehir Cezayir’in doğusunda yer alan Kostantîne (Kosantîne; Constantine, Konstantin), Kartacalılar tarafından Rummel vadisinde ve savunmaya elverişli bir mevkide Cirta adıyla kurulmuştur; bugünkü adı, 311 yılında geçirdiği büyük yıkımdan sonra burayı tekrar imar eden Roma İmparatoru Büyük Konstantinos’tan gelmektedir.",
+   "ic_not": "TDV Cirta'nın Kartacalılar tarafından kurulduğunu söyler ama yıl vermez; TDV'de tarihli en eski tanık 311 yıkımıdır ve 'ilk anılış' bu yüzden ihtiyatlı üst sınırdır. Cirta'nın çok daha eski yazılı anılışları (ör. Sallustius, Bellum Iugurthinum) bu oturumda okunmadı; bu nedenle ilk.t sonraki turda erken tanıkla geriye çekilebilir. Atlas noktası 'Konstantin' -0045'te başlıyor (UYARI): zincir bu yüzden boş, atlas başlangıcı ile şehrin tarihli ilk tanığı arasındaki 356 yıl bu dosyada kapatılamadı. Tanık TDV KOSTANTÎNE tam gövdesinden tam cümle olarak alındı (önceki tanık cümle parçasıydı); cümle şehir adı (Kostantîne) ve yılı (311) taşır."
   },
   "kur": null,
   "ark": null,
@@ -469,8 +469,8 @@ window.SEHIR_TARIHCE_AFRIKA_MAGRIP2 = [
    "nicelik": "kurulus",
    "kesinlik": "yuzyil",
    "kaynak": "TDV İslâm Ansiklopedisi, 'FİZAN' (Kemal Kahraman), https://islamansiklopedisi.org.tr/fizan",
-   "tanik": "Bugünkü Merzûk'u kurarak merkez yapan evlâd-ı Muhammed",
-   "ic_not": "TDV FİZAN: XVI. yüzyıl başlarındaki Bornu-Kânim savaşlarının ardından hâkimiyet Fas asıllı Evlâd-ı Muhammed sülâlesine geçti; 'bugünkü Merzûk'u kurarak merkez yapan' bu sülâledir. Kuruluşun yılı verilmez; savaşların ve geçişin XVI. yüzyılın başında olması, kuruluşun XVI. yüzyıl içinde (en geç yüzyıl sonunda) olduğunu gösterir: güvenli uç 1600-01-01 (yüzyıl hassasiyeti). Hasan el-Vezzân XVI. yüzyıl başında Fizan'ı tarif eder ama Merzûk'ten söz etmez. Atlas 'Murzuk (Fizan)' 1281'de kanem-bornu ile başlıyor (UYARI): zincir kuruluşu önceleyen 319 yıllık atlas iddiası bu dosyada doğrulanamadı."
+   "tanik": "XVI. yüzyıl başlarındaki Bornu-Kânim savaşlarının ardından hâkimiyet Fas asıllı Evlâd-ı Muhammed sülâlesine geçti. Bugünkü Merzûk’u kurarak merkez yapan evlâd-ı Muhammed döneminde Fizan’ın İslâmlaşması ve Araplaşmasında önemli ilerlemeler kaydedildi.",
+   "ic_not": "TDV FİZAN: XVI. yüzyıl başlarındaki Bornu-Kânim savaşlarının ardından hâkimiyet Fas asıllı Evlâd-ı Muhammed sülâlesine geçti; 'bugünkü Merzûk'u kurarak merkez yapan' bu sülâledir. Kuruluşun yılı verilmez; savaşların ve geçişin XVI. yüzyılın başında olması, kuruluşun XVI. yüzyıl içinde (en geç yüzyıl sonunda) olduğunu gösterir: güvenli uç 1600-01-01 (yüzyıl hassasiyeti). Hasan el-Vezzân XVI. yüzyıl başında Fizan'ı tarif eder ama Merzûk'ten söz etmez. Atlas 'Murzuk (Fizan)' 1281'de kanem-bornu ile başlıyor (UYARI): zincir kuruluşu önceleyen 319 yıllık atlas iddiası bu dosyada doğrulanamadı. İki cümlelik tanık: yüzyıl (XVI. yüzyıl başları) birinci cümlede, şehir adı (Merzûk) ikinci cümlede; bağ 'Evlâd-ı Muhammed sülâlesi'dir. Kaynak Merzûk'un kuruluş yılını vermez; yüzyıl hassasiyeti bu yüzden korunur."
   },
   "kur": null,
   "ark": null,

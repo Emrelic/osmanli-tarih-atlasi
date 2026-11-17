@@ -143,7 +143,8 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_1 = [
    "nicelik": "ilk_anilis",
    "kesinlik": "yil",
    "kaynak": "Store norske leksikon, 'Drammen', https://snl.no/Drammen",
-   "ic_not": "İLK ANILIŞ DEĞİL, en erken yazılı tanıklı STATÜ: snl 1715'te Bragernes ve Strømsø'ya kjøpstad hakkı verildiğini yazar; aynı madde yerleşimin 1500'lerde kereste yüzdürme/kerestehaneyle önemli olduğunu, Bragernes'in ~1600'de ladested sayıldığını söyler (yıl/yüzyıl tanığı, alıntı yok). Daha eski yazılı ilk anılış BULUNAMADI (sonraki tur: Trap Norge / Norsk lokalhistorisk)."
+   "tanik": "Omkring 1600 omtales Bragernes som ladested, og i 1715 fikk ladestedene Bragernes og Strømsø hver for seg kjøpstadsrettigheter. I 1811 ble Bragernes og Strømsø slått sammen til kjøpstaden Drammen.",
+   "ic_not": "İLK ANILIŞ DEĞİL, en erken yazılı tanıklı STATÜ: snl 1715'te Bragernes ve Strømsø'ya kjøpstad hakkı verildiğini yazar; aynı madde yerleşimin 1500'lerde kereste yüzdürme/kerestehaneyle önemli olduğunu, Bragernes'in ~1600'de ladested sayıldığını söyler (yıl/yüzyıl tanığı, alıntı yok). Daha eski yazılı ilk anılış BULUNAMADI (sonraki tur: Trap Norge / Norsk lokalhistorisk). | TANIK DÜZELTME (UMIT 1116): iki cümlelik tanık: 1715 cümlesinde 'Drammen' adı yok (Bragernes/Strømsø ayrı kjøpstad), ad 2. cümlede (1811 birleşme); tek kaynak (snl; lex.dk/Drammen'de 1715 yok)"
   },
   "kur": null,
   "ark": null,
@@ -611,7 +612,7 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_1 = [
    "nicelik": "kurulus",
    "kesinlik": "yil",
    "kaynak": "Den Store Danske / lex.dk, 'Karlskrona', https://lex.dk/Karlskrona",
-   "tanik": "Karlskrona blev anlagt af Karl 11. i 1680 som flådestation"
+   "tanik": "Karlskrona blev anlagt af Karl 11. i 1680 som flådestation, efter at Blekinge var blevet svensk ved Roskildefreden i 1658."
   },
   "kur": null,
   "ark": null,
@@ -867,6 +868,7 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_1 = [
    "nicelik": "ilk_anilis",
    "kesinlik": "belirsiz",
    "kaynak": "Den Store Danske / lex.dk, 'Randers', https://lex.dk/Randers",
+   "tanik": "Navnet Randers nævnes 1080-86 som Randeros, Randros, af rand 'kant, rand' og gammeldansk *rusæ måske med betydningen 'stendynge'.",
    "ic_not": "lex: ad 1080-86 arasında Randeros/Randros biçiminde anılır; aralığın SON ucu (güvenli uç) alındı. Aynı sayfa ~1080'de sikke darphanesi olduğunu da yazar (tarihsiz-yaklaşık)."
   },
   "kur": null,
@@ -1000,8 +1002,8 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_1 = [
    "nicelik": "ilk_anilis",
    "kesinlik": "yil",
    "kaynak": "Den Store Danske / lex.dk, 'Sorø', https://lex.dk/Sorø",
-   "tanik": "Christian 4. i 1622 gav befaling om opførelse af otte store bygninger udenfor Klosterporten.",
-   "ic_not": "lex: 1161-71'de 'Soræ' adı yalnız Sorø Sø'nün (göl) adı olarak anılır, yerleşim değil; yeri kesin olmayan ad eşitlemesi başlangıç sayılmadı. Sorø Kloster'in kuruluş yılı lex sayfasında YOK (ikinci kaynak okunamadı). İlk yerleşim tanığı: 1622 kral emri (Klosterport dışında binalar)."
+   "tanik": "Byens historie er nært forbundet med Sorø Klosters og Sorø Akademis historie. Bortset fra disse har der næppe været bebyggelse i området, før Christian 4. i 1622 gav befaling om opførelse af otte store bygninger udenfor Klosterporten.",
+   "ic_not": "lex: 1161-71'de 'Soræ' adı yalnız Sorø Sø'nün (göl) adı olarak anılır, yerleşim değil; yeri kesin olmayan ad eşitlemesi başlangıç sayılmadı. Sorø Kloster'in kuruluş yılı lex sayfasında YOK (ikinci kaynak okunamadı). İlk yerleşim tanığı: 1622 kral emri (Klosterport dışında binalar). | TANIK DÜZELTME (UMIT 1116): iki cümlelik tanık (ad 1. cümlede, yıl 2. cümlede)"
   },
   "kur": null,
   "ark": null,
@@ -1114,7 +1116,7 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_1 = [
    "nicelik": "ilk_anilis",
    "kesinlik": "yil",
    "kaynak": "Den Store Danske / lex.dk, 'Svendborg', https://lex.dk/Svendborg",
-   "tanik": "Byen nævnes første gang i 1229 i \"morgengavebrevet\"",
+   "tanik": "Navnet Svendborg nævnes 1229 som Swineburgh, af svin og -borg.",
    "ic_not": "lex: ca. 1000'e tarihli arkeolojik buluntular var (arkeolojik; yazılı tanık varken başlangıç değil)."
   },
   "kur": null,
@@ -1262,8 +1264,8 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_1 = [
    "nicelik": "ilk_anilis",
    "kesinlik": "yuzyil",
    "kaynak": "Store norske leksikon, 'Vadsø', https://snl.no/Vads%C3%B8",
-   "tanik": "Allerede på 1500-tallet var det her et stort fiskevær med egen kirke.",
-   "ic_not": "Yüzyıl-kesin: 1500'lerin SON ucu alındı; yazılı belge anılışı değil kaynağın yerleşim tespiti (ilk anılış BULUNAMADI)."
+   "tanik": "Den eldste bebyggelsen lå på den egentlige Vadsøya (tidligere også kalt Kirkøya), som er skilt fra fastlandet av et 750 meter bredt sund. Allerede på 1500-tallet var det her et stort fiskevær med egen kirke.",
+   "ic_not": "Yüzyıl-kesin: 1500'lerin SON ucu alındı; yazılı belge anılışı değil kaynağın yerleşim tespiti (ilk anılış BULUNAMADI). | TANIK DÜZELTME (UMIT 1116): iki cümlelik tanık (ad 'Vadsøya' = Vadsø'nun en eski yerleşim adası, 1. cümlede)"
   },
   "kur": null,
   "ark": null,

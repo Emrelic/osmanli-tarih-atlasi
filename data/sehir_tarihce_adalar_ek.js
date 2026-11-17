@@ -61,8 +61,8 @@ window.SEHIR_TARIHCE_ADALAR_EK = [
    "nicelik": "kurulus",
    "kesinlik": "yil",
    "kaynak": "Svenska litteratursällskapet (SLS) blogu, «Kriget lockade turister till Bomarsund», https://www.sls.fi/sv/blogg/kriget-lockade-turister-till-bomarsund/",
-   "tanik": "själva byggandet kom i gång 1830",
-   "ic_not": "Rus kalesinin fiilî inşasının başlangıcı (1830). Uppslagsverket 'Bomarsund': iş 'redan på Alexander I:s tid' (1801-25) başladı, 1830'larda hızlandı (planlama 1809'dan sonra). 1830 'güvenli uç' (inşaat başlangıcı); köy/yerleşimin daha eski olup olmadığı kaynakta yok (SLS blogu köy/kilise kuruluşunu söylemez). SLS blogu kaynak olarak ikincil/popüler; birincil akademik kuruluş yılı bulunamadı."
+   "tanik": "Jag som är uppvuxen i Sverige blev överraskad över hur stora ambitioner Ryssland hade med Bomarsund och hur mycket fästningsarbetet påverkade den åländska befolkningen. Planeringen av fästningen inleddes kort efter att Finland blev en del av Ryssland och själva byggandet kom i gång 1830.",
+   "ic_not": "Rus kalesinin fiilî inşasının başlangıcı (1830). Uppslagsverket 'Bomarsund': iş 'redan på Alexander I:s tid' (1801-25) başladı, 1830'larda hızlandı (planlama 1809'dan sonra). 1830 'güvenli uç' (inşaat başlangıcı); köy/yerleşimin daha eski olup olmadığı kaynakta yok (SLS blogu köy/kilise kuruluşunu söylemez). SLS blogu kaynak olarak ikincil/popüler; birincil akademik kuruluş yılı bulunamadı. İki cümlelik tanık: Bomarsund adı birinci cümlede, yıl (1830) ikinci cümlede ('fästningen' ile bağlı); SLS blogu, Malin Stengård alıntısı içeren paragraf."
   },
   "kur": null,
   "ark": null,
@@ -122,8 +122,8 @@ window.SEHIR_TARIHCE_ADALAR_EK = [
    "nicelik": "ilk_anilis",
    "kesinlik": "yil",
    "kaynak": "Uppslagsverket Finland (Svenska litteratursällskapet), 'Kastelholm', https://uppslagsverket.fi/sv/view-170045-Kastelholm",
-   "tanik": "omnämns första gången 1388",
-   "ic_not": "Aynı madde: kale 'troligen grundlades redan på 1200-talet' (muhtemelen 13. yy; kuruluş KAYNAKSIZ tahmin) — yazılı tanık 1388 alındı. Uppslagsverket 'Åland' maddesinde Bo Jonsson (Grip) 1384-1388 arasında inşasına başlar; 1388 kaynak içi tutarlı: inşa başlangıcı ile ilk anılış aralığı örtüşür."
+   "tanik": "Kastelholm, välbevarad slottsruin i Sunds kommun på Åland. Borgen, som troligen grundlades redan på 1200-talet, omnämns första gången 1388.",
+   "ic_not": "Aynı madde: kale 'troligen grundlades redan på 1200-talet' (muhtemelen 13. yy; kuruluş KAYNAKSIZ tahmin) — yazılı tanık 1388 alındı. Uppslagsverket 'Åland' maddesinde Bo Jonsson (Grip) 1384-1388 arasında inşasına başlar; 1388 kaynak içi tutarlı: inşa başlangıcı ile ilk anılış aralığı örtüşür. İki cümlelik tanık: Kastelholm adı madde girişi cümlesinde, yıl (1388) ikinci cümlede ('Borgen')."
   },
   "kur": null,
   "ark": null,
@@ -231,8 +231,8 @@ window.SEHIR_TARIHCE_ADALAR_EK = [
    "nicelik": "kurulus",
    "kesinlik": "yil",
    "kaynak": "Uppslagsverket Finland (Svenska litteratursällskapet), 'Mariehamn', https://uppslagsverket.fi/sv/sok/view-170045-Mariehamn",
-   "tanik": "blev stad 1861",
-   "ic_not": "Uppslagsverket: kıyı köyünden 1861'de stad (kasaba) oldu; adı çarın eşi Maria'dan. GÜN YOK (Vikipedi 21 Şubat 1861 diyor — tek dayanak olamaz, alınmadı). Köyün (Övernäs, Jomala) daha eski varlığı ayrı kayıt/yer meselesidir; burada yalnız kasaba kuruluşu. 'Maarianhamina' Fince biçim, tarih/kaynak okunmadı."
+   "tanik": "Mariehamn, ursprungligen en liten kustby, blev stad 1861 och fick namn efter ryske tsarens gemål Maria.",
+   "ic_not": "Uppslagsverket: kıyı köyünden 1861'de stad (kasaba) oldu; adı çarın eşi Maria'dan. GÜN YOK (Vikipedi 21 Şubat 1861 diyor — tek dayanak olamaz, alınmadı). Köyün (Övernäs, Jomala) daha eski varlığı ayrı kayıt/yer meselesidir; burada yalnız kasaba kuruluşu. 'Maarianhamina' Fince biçim, tarih/kaynak okunmadı. Tanık Uppslagsverket tam gövdesinden birebir alındı (önceki tanık cümle parçasıydı); cümle şehir adı (Mariehamn) ve yılı (1861) taşır."
   },
   "kur": null,
   "ark": null,
@@ -369,8 +369,8 @@ window.SEHIR_TARIHCE_ADALAR_EK = [
    "nicelik": "ilk_anilis",
    "kesinlik": "yil",
    "kaynak": "Uppslagsverket Finland (Svenska litteratursällskapet), 'Saltvik', https://www.uppslagsverket.fi/sv/view-170045-Saltvik",
-   "tanik": "Socken omtalas första gången 1322.",
-   "ic_not": "Yazılı tanık socken (bucak) ilk anılışıdır; yerleşim kuruluşu değildir. Aynı maddede Långbergsöda yerleşimi ~MÖ 4000-3300 (arkeolojik) geçer ama bu 'Saltvik bucağı merkezi' (GeoNames PPLA2, kilise çevresi) ile doğrudan eşleştirilmedi; ayrı kayıt önerilir. Kilise (S:ta Maria, gri taş) '1300-t.' yani 14. yy. Koordinat GeoNames'ten (LISTE.tsv)."
+   "tanik": "Socknen omtalas första gången 1322.",
+   "ic_not": "Yazılı tanık socken (bucak) ilk anılışıdır; yerleşim kuruluşu değildir. Aynı maddede Långbergsöda yerleşimi ~MÖ 4000-3300 (arkeolojik) geçer ama bu 'Saltvik bucağı merkezi' (GeoNames PPLA2, kilise çevresi) ile doğrudan eşleştirilmedi; ayrı kayıt önerilir. Kilise (S:ta Maria, gri taş) '1300-t.' yani 14. yy. Koordinat GeoNames'ten (LISTE.tsv). Tanık kontrolü: birebir Uppslagsverket cümlesi; yıl cümlede, ama 'Saltvik' adı aynı cümlede yok ('Socknen'). Madde yalnız Saltvik'i anlatır; adlı cümle ('Saltvik kan uppvisa Ålands äldsta ... stenåldersboplatser') 3 cümle öncedir, aradaki cümleler adsızdır; iki cümlelik tanıkla kapatılamadı."
   },
   "kur": null,
   "ark": null,

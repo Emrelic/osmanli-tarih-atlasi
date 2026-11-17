@@ -189,8 +189,8 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_AYRI = [
    "nicelik": "kurulus",
    "kesinlik": "yil",
    "kaynak": "Den Store Danske / lex.dk, 'Vaasa', https://lex.dk/Vaasa",
-   "tanik": "Byen blev grundlagt i 1606 af Karl 9.",
-   "ic_not": "ÇİFT TEYİT (iki genel ansiklopedi, akademik çift teyit DEĞİL): snl 'Vasa ble grunnlagt i 1606 av Karl 9 av Sverige'; snl: 'Den gamle byen Vasa lå opprinnelig ved kysten, i den nåværende Korsholm kommune' (landhevning kıyıdan kopardı). Gün kaynakta yok. Kuruluş eski yere aittir; lex/snl kuruluşun tam noktasını vermez, konum GeoNames 'Vanha Vaasa' (PPPLX) ile yaklaşıktır: BEYANLI YAKLAŞIKLIK."
+   "tanik": "Byen blev grundlagt i 1606 af Karl 9. Det gamle Vaasa nedbrændte totalt i 1852; ved genopbygningen flyttedes byen 7 km længere mod vest pga. stadig dårligere besejlingsforhold, forårsaget af landhævningen.",
+   "ic_not": "ÇİFT TEYİT (iki genel ansiklopedi, akademik çift teyit DEĞİL): snl 'Vasa ble grunnlagt i 1606 av Karl 9 av Sverige'; snl: 'Den gamle byen Vasa lå opprinnelig ved kysten, i den nåværende Korsholm kommune' (landhevning kıyıdan kopardı). Gün kaynakta yok. Kuruluş eski yere aittir; lex/snl kuruluşun tam noktasını vermez, konum GeoNames 'Vanha Vaasa' (PPPLX) ile yaklaşıktır: BEYANLI YAKLAŞIKLIK. | TANIK DÜZELTME (UMIT 1116): iki cümlelik tanık (ad 2. cümlede, aynı paragraf)"
   },
   "kur": {
    "t": "1606-01-01",
