@@ -36,6 +36,7 @@ EL = [  # (blok, ad, atlas_ad, kaynakli_yil, tanik, kaynak, teyit, not)
  ('afrika', 'Opobo (Opobo Town)', '(atlasta yok)', "1869/1870", "Columbia 'Opobo'/'Jaja' 1869; Britannica 'Jubo Jubogha' 1870", "Columbia 6th ed.; Britannica", 'çelişkili', "iki yayıncı iki yıl; hakem yok; 1869/70-1900 Oil Rivers/İngiliz zinciri kaynaksız"),
  ('afrika', 'Lüderitz', 'Lüderitz', "1883", "Britannica 'Lüderitz' (yıl 1883)", "Britannica «Lüderitz»", 'tek', "atlas 1883-05-01; aynı yıl; sahip tanığı şehir cümlesinde yok"),
  ('afrika', 'Elisabethville (Lubumbashi)', 'Elisabethville (Lubumbashi)', "1910", "Britannica 'Lubumbashi' (1910 kuruluş)", "Britannica «Lubumbashi»", 'tek', "atlas dikişi 1960-07-11; ±30 gün olay günü kaynakta yok (yalnız '1960')"),
+ ('orta-asya', 'Şehrisebz (Keş)', 'Şehrisebz', "642", "La seizième année tcheng-koan (642) (Chavannes 1903); His successor in 642, Shashebi (Iranica 'Keš')", "Chavannes, Documents sur les Tou-kiue occidentaux (1903) s.146-147; Encyclopaedia Iranica 'Keš' (aynı Çin zinciri: TEK SOY)", 'tek (tek soy)', "HAKEM13/EMRELİC onayı: ilk_anilis 1380 Ak Saray=bina tarihi; 642 aday; atlas 1281 → 639 yıl zincir (dikiş beyanı); LAB kaydı ilk.t DEĞİŞTİRİLMEDİ"),
  ('afrika', 'Awdaghust (Aoudaghost)', '(atlasta ayrı nokta yok: harabe)', "1054", "Britannica «Ghana»: Abū Bakr took Audaghost in 1054", "Britannica «Ghana»", 'tek', "1054→1900 zincir; atlasta ayrı nokta yok"),
 ]
 for b, ad, a, y, t, k, te, n in EL:

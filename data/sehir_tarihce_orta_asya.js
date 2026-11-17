@@ -12,7 +12,13 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
    "Neapolis (antik, TDV)",
    "Kirmencik",
    "Akmescid",
-   "Simferopol"
+   "Simferopol",
+   "Neapolis",
+   "Akmeçet",
+   "Symferopil",
+   "Ak-Mechet",
+   "Ак-Мечеть",
+   "Симферополь"
   ],
   "ilk": {
    "t": "1500-01-01",
@@ -46,7 +52,72 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
     "tanik": "1784’te Kırım’ın Tavrida bölgesinin başşehri oldu"
    }
   ],
-  "ic_not": "Kaynak: TDV tam gövde (tarayıcı), çift teyit YOK (ikinci akademik kaynak açılmadı). Tüm tanık alıntıları gövdede includes() ile birebir doğrulandı. ilk.t: TDV 'XV. yüzyılda Kırım Türkleri Kirmencik kalesini inşa etti ve bölge iskâna açıldı; şehir muhtemelen bu sıralarda kuruldu' der — 'muhtemelen' olduğundan kur yazılmadı, ilk_anilis (güvenli uç 1500-01-01). TDV Strabon'a dayanarak İskit Kralı Skiluros'un burada Neapolis kalesini kurduğunu söyler (MÖ, tarihsiz, antik; yazılmadı). Mengli Giray (ö. 1514) adına cami ve oğlu Mehmed Giray'ın kalgay sultan/merkez yapılması (hanlığının son yılları, gün yok) yazılmadı. Atlas Akmescid'i 1281'de altinorda ile başlatır; TDV ilk iskânı XV. yy'a koyar — atlas başlangıcı düzeltme adayı. Atlas bu noktayı 1281-01-01'de başlatır; ilk.t sonra olduğundan sahip:[] (atlas zinciri esas), 'atlas başlangıcı düzeltilmeli' uyarısı beklenen davranıştır — TDV'de daha erken TARİHLİ tanık bulunamadı."
+  "ic_not": "Kaynak: TDV tam gövde (tarayıcı), çift teyit YOK (ikinci akademik kaynak açılmadı). Tüm tanık alıntıları gövdede includes() ile birebir doğrulandı. ilk.t: TDV 'XV. yüzyılda Kırım Türkleri Kirmencik kalesini inşa etti ve bölge iskâna açıldı; şehir muhtemelen bu sıralarda kuruldu' der — 'muhtemelen' olduğundan kur yazılmadı, ilk_anilis (güvenli uç 1500-01-01). TDV Strabon'a dayanarak İskit Kralı Skiluros'un burada Neapolis kalesini kurduğunu söyler (MÖ, tarihsiz, antik; yazılmadı). Mengli Giray (ö. 1514) adına cami ve oğlu Mehmed Giray'ın kalgay sultan/merkez yapılması (hanlığının son yılları, gün yok) yazılmadı. Atlas Akmescid'i 1281'de altinorda ile başlatır; TDV ilk iskânı XV. yy'a koyar — atlas başlangıcı düzeltme adayı. Atlas bu noktayı 1281-01-01'de başlatır; ilk.t sonra olduğundan sahip:[] (atlas zinciri esas), 'atlas başlangıcı düzeltilmeli' uyarısı beklenen davranıştır — TDV'de daha erken TARİHLİ tanık bulunamadı.",
+  "ad_kaynak": [
+   {
+    "ad": "Neapolis",
+    "dil": "grc",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'AKMESCİD' https://islamansiklopedisi.org.tr/akmescid",
+    "kanit": "Yunanlılar’ın Neapolis (yeni şehir) adını verdikleri bir kale kurduğu"
+   },
+   {
+    "ad": "Kirmencik",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'AKMESCİD' https://islamansiklopedisi.org.tr/akmescid",
+    "kanit": "Kırım Türkleri tarafından da Kirmencik (küçük kale) adlı bir kale"
+   },
+   {
+    "ad": "Akmescid",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'AKMESCİD' https://islamansiklopedisi.org.tr/akmescid",
+    "kanit": "kurulmuş bulunan şehre Akmescid (Akmeçet) adı, Mengli Giray Han"
+   },
+   {
+    "ad": "Akmeçet",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'AKMESCİD' https://islamansiklopedisi.org.tr/akmescid",
+    "kanit": "kurulmuş bulunan şehre Akmescid (Akmeçet) adı, Mengli Giray Han"
+   },
+   {
+    "ad": "Simferopol",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'AKMESCİD' https://islamansiklopedisi.org.tr/akmescid",
+    "kanit": "Kırım bölgesinde bulunan bugünkü Simferopol şehrinin eski adı."
+   },
+   {
+    "ad": "Symferopil",
+    "dil": "uk",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Simferopol' https://www.britannica.com/place/Simferopol",
+    "kanit": "Also known as: Symferopil"
+   },
+   {
+    "ad": "Ak-Mechet",
+    "dil": "crh",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Simferopol' https://www.britannica.com/place/Simferopol",
+    "kanit": "adjacent to the Tatar settlement of Ak-Mechet"
+   },
+   {
+    "ad": "Ак-Мечеть",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Симферополь' https://ru.wikisource.org/wiki/ЭСБЕ/Симферополь",
+    "kanit": "татарское поселение под назв. Ак-Мечеть (белая мечеть)"
+   },
+   {
+    "ad": "Симферополь",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Симферополь' https://ru.wikisource.org/wiki/ЭСБЕ/Симферополь",
+    "kanit": "Симферополь — губернский город Таврической губернии, при реке Салгир"
+   }
+  ]
  },
  {
   "id": "almalik-cn",
@@ -81,7 +152,23 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
     "kaynak": "TDV İslâm Ansiklopedisi, «Almalığ» md., https://islamansiklopedisi.org.tr/almalig (16 Kasım 2026'da okundu; tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026)): «1227’de Cengiz’in ölümü üzerine»"
    }
   ],
-  "ic_not": "Kaynak: TDV 'Almalığ' (tam metne karşı doğrulandı (tarayıcı)). Çift teyit YOK. TDV şehrin 'XIII. yüzyıl başlarından itibaren bilindiğini' ve XIII. yy başında Karahanlı soyundan Muhammed Arslan Han'a bağlı olduğunu söyler (yıl yok) — yıl bilinmediğinden yıl yazılmadı; ilk.t=1227 şehre özgü ilk TARİHLİ olgu (Çağatay'a verilme). Atlas Almalık'ı 1227-01-01'de cagatay ile başlatır; ilk.t aynı gün → sahip:[] (atlas zinciri esas), 'atlas başlangıcı düzeltilmeli' uyarısı beklenen davranıştır (şehir XIII. yy başında vardı). TDV: yeri 'bugünkü Kulca'nın kuzeybatısında', harabeler Mezâr'da (Cungar Aladağı güney eteği, Korguz deresi-İla ırmağı birleşimi); atlas koordinatı (44.05, 80.85) TDV tarifiyle doğrulanamadı (km verilmez). 'Bozar adlı Karluk beyi', 'Moğol devletine dahil' (tarihsiz) ve Timur savaşlarında yıkılış (tarihsiz) yazılmadı. TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Önceki notlardaki \"WebFetch özeti / tam metne karşı doğrulandı (tarayıcı) / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir. | Parti5 tanık kuralı (17 Kasım 2026): tanik cümleden birebir yenilendi [ilk]: TDV cümlesi ad+1227"
+  "ic_not": "Kaynak: TDV 'Almalığ' (tam metne karşı doğrulandı (tarayıcı)). Çift teyit YOK. TDV şehrin 'XIII. yüzyıl başlarından itibaren bilindiğini' ve XIII. yy başında Karahanlı soyundan Muhammed Arslan Han'a bağlı olduğunu söyler (yıl yok) — yıl bilinmediğinden yıl yazılmadı; ilk.t=1227 şehre özgü ilk TARİHLİ olgu (Çağatay'a verilme). Atlas Almalık'ı 1227-01-01'de cagatay ile başlatır; ilk.t aynı gün → sahip:[] (atlas zinciri esas), 'atlas başlangıcı düzeltilmeli' uyarısı beklenen davranıştır (şehir XIII. yy başında vardı). TDV: yeri 'bugünkü Kulca'nın kuzeybatısında', harabeler Mezâr'da (Cungar Aladağı güney eteği, Korguz deresi-İla ırmağı birleşimi); atlas koordinatı (44.05, 80.85) TDV tarifiyle doğrulanamadı (km verilmez). 'Bozar adlı Karluk beyi', 'Moğol devletine dahil' (tarihsiz) ve Timur savaşlarında yıkılış (tarihsiz) yazılmadı. TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Önceki notlardaki \"WebFetch özeti / tam metne karşı doğrulandı (tarayıcı) / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir. | Parti5 tanık kuralı (17 Kasım 2026): tanik cümleden birebir yenilendi [ilk]: TDV cümlesi ad+1227",
+  "ad_kaynak": [
+   {
+    "ad": "Almalık",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'ALMALIĞ' https://islamansiklopedisi.org.tr/almalig",
+    "kanit": "Tarihî kaynaklarda Almalık olarak da geçen şehir"
+   },
+   {
+    "ad": "Almalığ",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'ALMALIĞ' https://islamansiklopedisi.org.tr/almalig",
+    "kanit": "müstahkem bir şehir olan Almalığ, XIII. yüzyıl başlarında"
+   }
+  ]
  },
  {
   "id": "almati-kz",
@@ -468,7 +555,14 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
    "Aşkābâd",
    "Poltoratsk (1919-1927)",
    "Aşkābâd",
-   "Aşkabat"
+   "Aşkabat",
+   "Poltoratsk",
+   "Ashgabat",
+   "Ašchabad",
+   "Ashkabad",
+   "Ashkhabad",
+   "Askhabad",
+   "Асхабад"
   ],
   "ilk": {
    "t": "1881-01-01",
@@ -520,7 +614,72 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
     "tanik": "Aşkābâd, 1948’de geçirdiği çok büyük bir deprem sonucu tamamen yıkılmış"
    }
   ],
-  "ic_not": "Kaynak: TDV 'Aşkābâd' TAM METİN (Sargon Erdem). Çift teyit YOK. ilk.t: TDV obanın daha eski varlığını belirtir ama tarih vermez; ilk TARİHLİ olgu 1881 (Rus ele geçirmesi ve şehirleştirme). Atlas Aşkabad'ı 1881-01-30 rusya ile başlatır; TDV yalnız yıl der → dilim BOŞLUK ve 1881 olayı ±30 gün içinde. Atlas Nesâ (17 km batı) ile ayrı kayıttır. TDV: Aralık 1917 Bolşevik yönetim, Temmuz 1918 karşı-devrimcilerin eline geçiş (Beyaz Rus-Türkmen), Kızıl Ordu'nun geri alışı (tarihsiz), 1919 Poltoratsk adı (TDV 'Poltoratsk'ın adıyla değiştirildi', yıl yazılmaz; 1927'de ad geri döndü) zincire bağlanmadı. | Parti5 tanık kuralı (17 Kasım 2026): kesinlik belirsiz'e indirildi (ad+yıl aynı cümlede birebir bulunamadı) [ilk]: madde konusu cümlesi: kaynak cümlesinde şehir adı yok (özne 'şehir/kasaba/burası' ya da madde başlığı), aynı cümlede ad+yıl bulunamadı ('bölgenin 1881’de Ruslar tarafından ele geçirilmesinden sonra şehir haline getirilmiştir') Parti5 geri alma (koordinatör kararı): tanık cümlesi madde konusu şehre atıflı (madde: Aşkābâd); ilk.kesinlik 'belirsiz' → 'yil' geri alındı."
+  "ic_not": "Kaynak: TDV 'Aşkābâd' TAM METİN (Sargon Erdem). Çift teyit YOK. ilk.t: TDV obanın daha eski varlığını belirtir ama tarih vermez; ilk TARİHLİ olgu 1881 (Rus ele geçirmesi ve şehirleştirme). Atlas Aşkabad'ı 1881-01-30 rusya ile başlatır; TDV yalnız yıl der → dilim BOŞLUK ve 1881 olayı ±30 gün içinde. Atlas Nesâ (17 km batı) ile ayrı kayıttır. TDV: Aralık 1917 Bolşevik yönetim, Temmuz 1918 karşı-devrimcilerin eline geçiş (Beyaz Rus-Türkmen), Kızıl Ordu'nun geri alışı (tarihsiz), 1919 Poltoratsk adı (TDV 'Poltoratsk'ın adıyla değiştirildi', yıl yazılmaz; 1927'de ad geri döndü) zincire bağlanmadı. | Parti5 tanık kuralı (17 Kasım 2026): kesinlik belirsiz'e indirildi (ad+yıl aynı cümlede birebir bulunamadı) [ilk]: madde konusu cümlesi: kaynak cümlesinde şehir adı yok (özne 'şehir/kasaba/burası' ya da madde başlığı), aynı cümlede ad+yıl bulunamadı ('bölgenin 1881’de Ruslar tarafından ele geçirilmesinden sonra şehir haline getirilmiştir') Parti5 geri alma (koordinatör kararı): tanık cümlesi madde konusu şehre atıflı (madde: Aşkābâd); ilk.kesinlik 'belirsiz' → 'yil' geri alındı.",
+  "ad_kaynak": [
+   {
+    "ad": "Poltoratsk",
+    "dil": "ru",
+    "donem": "1919-1927",
+    "kaynak": "TDV İslâm Ansiklopedisi 'AŞKĀBÂD' https://islamansiklopedisi.org.tr/askabad",
+    "kanit": "ihtilâlci Poltoratsk’ın adıyla değiştirildi. Şehir 1924 yılında,"
+   },
+   {
+    "ad": "Aşkābâd",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'AŞKĀBÂD' https://islamansiklopedisi.org.tr/askabad",
+    "kanit": "şehri geri aldı ve Aşkābâd adı, ilk Bolşevik yönetimin"
+   },
+   {
+    "ad": "Ashgabat",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Ashgabat' https://www.britannica.com/place/Ashgabat",
+    "kanit": "Ashgabat, city and capital of Turkmenistan."
+   },
+   {
+    "ad": "Ašchabad",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Ashgabat' https://www.britannica.com/place/Ashgabat",
+    "kanit": "Also known as: Ašchabad, Ashkabad, Ashkhabad, Askhabad, Poltoratsk"
+   },
+   {
+    "ad": "Ashkabad",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Ashgabat' https://www.britannica.com/place/Ashgabat",
+    "kanit": "Also known as: Ašchabad, Ashkabad, Ashkhabad, Askhabad, Poltoratsk"
+   },
+   {
+    "ad": "Ashkhabad",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Ashgabat' https://www.britannica.com/place/Ashgabat",
+    "kanit": "Also known as: Ašchabad, Ashkabad, Ashkhabad, Askhabad, Poltoratsk"
+   },
+   {
+    "ad": "Askhabad",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Ashgabat' https://www.britannica.com/place/Ashgabat",
+    "kanit": "took the name of the nearby Turkmen settlement of Askhabad."
+   },
+   {
+    "ad": "Poltoratsk",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Ashgabat' https://www.britannica.com/place/Ashgabat",
+    "kanit": "the city soon was renamed Poltoratsk, after a local revolutionary."
+   },
+   {
+    "ad": "Асхабад",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Асхабад' https://ru.wikisource.org/wiki/ЭСБЕ/Асхабад",
+    "kanit": "Асхабад — г. Закаспийской обл. Ахалтекинского у."
+   }
+  ]
  },
  {
   "id": "astana-p9",
@@ -1055,7 +1214,11 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
   "kat1900": null,
   "adlar": [
    "Çîkend (Şâmî)",
-   "Çimkent"
+   "Çimkent",
+   "Çîkend",
+   "Shymkent",
+   "Chimkent",
+   "Чимкент"
   ],
   "ilk": {
    "t": "1699-01-01",
@@ -1080,7 +1243,51 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
     "tanik": "7 Temmuz 1864’te Ruslar buraya karşı hücuma geçtilerse de bir hafta süren mücadeleden"
    }
   ],
-  "ic_not": "Kaynak: TDV 'Çimkent' TAM METİN (Mehmet Saray). Çift teyit YOK. ilk.t: TDV 'ne zaman kurulduğu bilinmemektedir' der; Nizâmüddin Şâmî'nin Zafernâme'sinde adı Çîkend, Sayram yakınında küçük köy (s. 57) — Zafernâme'nin yılı TDV'de verilmediğinden YAZILMADI. 'XVI ve XVII. yüzyıllarda büyük köy ve kale' → yüzyıl aralığının SON ucu (17. yy sonu, t=1699). TDV: 1700'lerde Hokand Hanlığı'nın kurulmasıyla gelişti (yüzyıl düzeyi), sonra Buhara emîrinin Hokand'a saldırısı üzerine 'şehri teslim etmek zorunda kaldılar' — Rus işgal yılı/günü TDV metninde YAZILMIYOR (7 Temmuz 1864 hücum günüdür; teslim günü uydurulmadı). Atlas 1281 cagatay ile başlar → sahip:[], 'atlas başlangıcı düzeltilmeli' uyarısı beklenir."
+  "ic_not": "Kaynak: TDV 'Çimkent' TAM METİN (Mehmet Saray). Çift teyit YOK. ilk.t: TDV 'ne zaman kurulduğu bilinmemektedir' der; Nizâmüddin Şâmî'nin Zafernâme'sinde adı Çîkend, Sayram yakınında küçük köy (s. 57) — Zafernâme'nin yılı TDV'de verilmediğinden YAZILMADI. 'XVI ve XVII. yüzyıllarda büyük köy ve kale' → yüzyıl aralığının SON ucu (17. yy sonu, t=1699). TDV: 1700'lerde Hokand Hanlığı'nın kurulmasıyla gelişti (yüzyıl düzeyi), sonra Buhara emîrinin Hokand'a saldırısı üzerine 'şehri teslim etmek zorunda kaldılar' — Rus işgal yılı/günü TDV metninde YAZILMIYOR (7 Temmuz 1864 hücum günüdür; teslim günü uydurulmadı). Atlas 1281 cagatay ile başlar → sahip:[], 'atlas başlangıcı düzeltilmeli' uyarısı beklenir.",
+  "ad_kaynak": [
+   {
+    "ad": "Çîkend",
+    "dil": "fa",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'ÇİMKENT' https://islamansiklopedisi.org.tr/cimkent",
+    "kanit": "Zafernâme’sinde adı Çîkend şeklinde kaydedilir ve Sayram yakınlarında"
+   },
+   {
+    "ad": "Çimkent",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'ÇİMKENT' https://islamansiklopedisi.org.tr/cimkent",
+    "kanit": "ve kale olarak geçen Çimkent, 1700’lerde Hokand Hanlığı’nın"
+   },
+   {
+    "ad": "Shymkent",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Shymkent' https://www.britannica.com/place/Shymkent",
+    "kanit": "Shymkent, city, south-central Kazakhstan."
+   },
+   {
+    "ad": "Čimkent",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Shymkent' https://www.britannica.com/place/Shymkent",
+    "kanit": "Also known as: Čimkent, Chimkent"
+   },
+   {
+    "ad": "Chimkent",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Shymkent' https://www.britannica.com/place/Shymkent",
+    "kanit": "Also known as: Čimkent, Chimkent"
+   },
+   {
+    "ad": "Чимкент",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Чимкент' https://ru.wikisource.org/wiki/ЭСБЕ/Чимкент",
+    "kanit": "Чимкент — уездный город Сыр-Дарьинской области, в 114 верстах к северу"
+   }
+  ]
  },
  {
   "id": "eski-kirim-solhat-ua",
@@ -1276,7 +1483,9 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
    "Igu (TDV: ipek yolu ilk adı)",
    "Hami",
    "Komul",
-   "Kumul"
+   "Kumul",
+   "Igu",
+   "Хами"
   ],
   "ilk": {
    "t": "1868-01-01",
@@ -1319,7 +1528,44 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
     "tanik": "1931’de Kumul’da (Hami) bir direniş başlattılar"
    }
   ],
-  "ic_not": "Kaynak: TDV tam gövde (tarayıcı), çift teyit YOK (ikinci akademik kaynak açılmadı). Tüm tanık alıntıları gövdede includes() ile birebir doğrulandı. ilk.t: TDV'de Hami'ye özgü en erken TARİHLİ tanık 1868'dir (Turfan md.); 'Timur'un elçilerinin Hami taraflarında Budist manastır yanında cami' ve 'Çin'den ilk meskûn nokta Igu/Hami (Komul)' (İpek Yolu md.) tarihsizdir ve yazılmadı. 1877 olayında 'baharında' gün vermediğinden yıl düzeyi (1877-01-01) alındı; tanık cümlesi 1877 baharını önceki cümleden (Çin'in Mançu hükümetinin 1877 baharında ... yolladığı ordu) devralır. Atlas Hâmi'yi 1281-01-01'de yuan-hanedani ile başlatır; TDV'nin Hami'ye özgü Yuan/Çağatay tanığı yok. Atlas bu noktayı 1281-01-01'de başlatır; ilk.t sonra olduğundan sahip:[] (atlas zinciri esas), 'atlas başlangıcı düzeltilmeli' uyarısı beklenen davranıştır — TDV'de daha erken TARİHLİ tanık bulunamadı."
+  "ic_not": "Kaynak: TDV tam gövde (tarayıcı), çift teyit YOK (ikinci akademik kaynak açılmadı). Tüm tanık alıntıları gövdede includes() ile birebir doğrulandı. ilk.t: TDV'de Hami'ye özgü en erken TARİHLİ tanık 1868'dir (Turfan md.); 'Timur'un elçilerinin Hami taraflarında Budist manastır yanında cami' ve 'Çin'den ilk meskûn nokta Igu/Hami (Komul)' (İpek Yolu md.) tarihsizdir ve yazılmadı. 1877 olayında 'baharında' gün vermediğinden yıl düzeyi (1877-01-01) alındı; tanık cümlesi 1877 baharını önceki cümleden (Çin'in Mançu hükümetinin 1877 baharında ... yolladığı ordu) devralır. Atlas Hâmi'yi 1281-01-01'de yuan-hanedani ile başlatır; TDV'nin Hami'ye özgü Yuan/Çağatay tanığı yok. Atlas bu noktayı 1281-01-01'de başlatır; ilk.t sonra olduğundan sahip:[] (atlas zinciri esas), 'atlas başlangıcı düzeltilmeli' uyarısı beklenen davranıştır — TDV'de daha erken TARİHLİ tanık bulunamadı.",
+  "ad_kaynak": [
+   {
+    "ad": "Hami",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'TURFAN' https://islamansiklopedisi.org.tr/turfan",
+    "kanit": "Tirmizli hocaların Hami taraflarında bir Budist manastır külliyesinin yanında"
+   },
+   {
+    "ad": "Kumul",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'TURFAN' https://islamansiklopedisi.org.tr/turfan",
+    "kanit": "1868’de Turfan ve Kumul’u kendine bağladı. 1877’de Turfan’ı"
+   },
+   {
+    "ad": "Igu",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'İPEK YOLU' https://islamansiklopedisi.org.tr/ipek-yolu",
+    "kanit": "ilk meskûn nokta o zamanki adı Igu olan Hami (Komul) idi."
+   },
+   {
+    "ad": "Komul",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'İPEK YOLU' https://islamansiklopedisi.org.tr/ipek-yolu",
+    "kanit": "ilk meskûn nokta o zamanki adı Igu olan Hami (Komul) idi."
+   },
+   {
+    "ad": "Хами",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Хамийский оазис' https://ru.wikisource.org/wiki/ЭСБЕ/Хамийский оазис",
+    "kanit": "сяньбийцы, властвовавшие в Хами до 133 г."
+   }
+  ]
  },
  {
   "id": "herat-af",
@@ -1829,7 +2075,17 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
    "Hu-ch’an / Hu-jan (Çin kaynakları)",
    "Hucend",
    "Leninâbâd (1936-1991)",
-   "Hucend"
+   "Hucend",
+   "Hu-ch’an",
+   "Hu-jan",
+   "Alexandria Eschate",
+   "Chucand",
+   "Khodzhent",
+   "Khojent",
+   "Khudzhand",
+   "Leninabad",
+   "Khujand",
+   "Ходжент"
   ],
   "ilk": {
    "t": "0683-01-01",
@@ -1952,7 +2208,93 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
     "tanik": "1866’da da kanlı çarpışmalar sonucunda Ruslar tarafından ele geçirildi"
    }
   ],
-  "ic_not": "Kaynak: TDV 'Hucend' TAM METİN (maddenin gövdesi okundu; 4.800 karakter). Çift teyit YOK: bibliyografyadaki Bosworth EI² 'Khudjand' ve Belâzürî/İbn Hurdâzbih/İstahrî açılamadı. ilk.t: 680-683 aralığı Yezîd b. Muâviye'nin halifelik yılları (TDV parantezi); ilk anılış için aralığın SON ucu 683 alındı. Hâkim zincirinin 1024 öncesi, 1137-1219 arası dilimleri kaynaksız → __BOSLUK__ (beyanlı). Atlas Hucend'i 1219-01-01'de mogol-imparatorlugu ile başlatır; 1219 olayı dikişi karşılar. TDV: 'Mühelleb b. Ebû Sufre ... (99/717-18)' ve 1875 Hokand direnişçilerinin kuşatması, 1886 Semerkant oblastı, 1929 Tacik SSC, 1936 Leninâbâd, 1991 adın geri alınması tarihli olgulardır, zincire bağlanmadı (1866 sonrası Rusya sahipliği atlasın zinciridir)."
+  "ic_not": "Kaynak: TDV 'Hucend' TAM METİN (maddenin gövdesi okundu; 4.800 karakter). Çift teyit YOK: bibliyografyadaki Bosworth EI² 'Khudjand' ve Belâzürî/İbn Hurdâzbih/İstahrî açılamadı. ilk.t: 680-683 aralığı Yezîd b. Muâviye'nin halifelik yılları (TDV parantezi); ilk anılış için aralığın SON ucu 683 alındı. Hâkim zincirinin 1024 öncesi, 1137-1219 arası dilimleri kaynaksız → __BOSLUK__ (beyanlı). Atlas Hucend'i 1219-01-01'de mogol-imparatorlugu ile başlatır; 1219 olayı dikişi karşılar. TDV: 'Mühelleb b. Ebû Sufre ... (99/717-18)' ve 1875 Hokand direnişçilerinin kuşatması, 1886 Semerkant oblastı, 1929 Tacik SSC, 1936 Leninâbâd, 1991 adın geri alınması tarihli olgulardır, zincire bağlanmadı (1866 sonrası Rusya sahipliği atlasın zinciridir).",
+  "ad_kaynak": [
+   {
+    "ad": "Hucend",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'HUCEND' https://islamansiklopedisi.org.tr/hucend",
+    "kanit": "emirlik olarak adı geçen Hucend üzerine müslümanların ilk seferi"
+   },
+   {
+    "ad": "Hucende",
+    "dil": "fa",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'HUCEND' https://islamansiklopedisi.org.tr/hucend",
+    "kanit": "İslâmî kaynaklarda Hucende, Çin kaynaklarında Hu-ch’an ve Hu-jan şeklinde"
+   },
+   {
+    "ad": "Hu-ch’an",
+    "dil": "zh",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'HUCEND' https://islamansiklopedisi.org.tr/hucend",
+    "kanit": "Çin kaynaklarında Hu-ch’an ve Hu-jan şeklinde geçen şehir"
+   },
+   {
+    "ad": "Hu-jan",
+    "dil": "zh",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'HUCEND' https://islamansiklopedisi.org.tr/hucend",
+    "kanit": "Çin kaynaklarında Hu-ch’an ve Hu-jan şeklinde geçen şehir"
+   },
+   {
+    "ad": "Alexandria Eschate",
+    "dil": "grc",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Khujand' https://www.britannica.com/place/Khujand",
+    "kanit": "Also known as: Alexandria Eschate, Chucand, Khodzhent, Khohand, Khojent, Khudzhand, Leninabad"
+   },
+   {
+    "ad": "Chucand",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Khujand' https://www.britannica.com/place/Khujand",
+    "kanit": "Also known as: Alexandria Eschate, Chucand, Khodzhent, Khohand, Khojent, Khudzhand, Leninabad"
+   },
+   {
+    "ad": "Khodzhent",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Khujand' https://www.britannica.com/place/Khujand",
+    "kanit": "Also known as: Alexandria Eschate, Chucand, Khodzhent, Khohand, Khojent, Khudzhand, Leninabad"
+   },
+   {
+    "ad": "Khojent",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Khujand' https://www.britannica.com/place/Khujand",
+    "kanit": "Also known as: Alexandria Eschate, Chucand, Khodzhent, Khohand, Khojent, Khudzhand, Leninabad"
+   },
+   {
+    "ad": "Khudzhand",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Khujand' https://www.britannica.com/place/Khujand",
+    "kanit": "Also known as: Alexandria Eschate, Chucand, Khodzhent, Khohand, Khojent, Khudzhand, Leninabad"
+   },
+   {
+    "ad": "Leninabad",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Khujand' https://www.britannica.com/place/Khujand",
+    "kanit": "Also known as: Alexandria Eschate, Chucand, Khodzhent, Khohand, Khojent, Khudzhand, Leninabad"
+   },
+   {
+    "ad": "Khujand",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Khujand' https://www.britannica.com/place/Khujand",
+    "kanit": "Khujand, city, northwestern Tajikistan."
+   },
+   {
+    "ad": "Ходжент",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Ходжент' https://ru.wikisource.org/wiki/ЭСБЕ/Ходжент",
+    "kanit": "Ходжент — уездный город Самаркандской области, под 40°18′ сев. шир."
+   }
+  ]
  },
  {
   "id": "kabil-af",
@@ -2098,7 +2440,13 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
   "adlar": [
    "Harhorim (Moğolca 'kara kaya, kara taş yığını')",
    "Karakurum / Karakorum",
-   "Ordubalık (kaynaklarda Moğol şehri için resmî ad olarak da geçer)"
+   "Ordubalık (kaynaklarda Moğol şehri için resmî ad olarak da geçer)",
+   "H̱araẖorim",
+   "Karakorum",
+   "Ordubalık",
+   "Mubalık",
+   "Каракорум",
+   "Дахолин"
   ],
   "ilk": {
    "t": "1220-01-01",
@@ -2168,7 +2516,51 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
     "kaynak": "TDV İslâm Ansiklopedisi, «Karakorum» md., https://islamansiklopedisi.org.tr/karakorum (16 Kasım 2026'da okundu; tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026)): «1388’de Ksuda kumandasındaki Ming ordusu tarafından yağmalanan»"
    }
   ],
-  "ic_not": "Kaynak: TDV 'Karakorum' (tam metne karşı doğrulandı (tarayıcı)). Çift teyit YOK (Atwood/Rossabi erişilmedi). KONUM: bu kayıt MOĞOL şehri içindir (1220); atlas noktası (47.198, 102.833) Erdene Zuu/Harhorin Moğol şehri alanındadır (<3 km). TDV'nin Uygur dönemi şehri (Bögü Kağan 759-779; X. yy'da harabe; 'Ordubalık/Mubalık') ayrı bir yerdir (atlas 'Ordu-Balık', ~47.41, 102.63, ~25 km KB) → ayrı kayıt olarak ÖNERİLİR (Ordu-Balık yazılmadı; 759-779 kuruluş TDV'de 'tarafından', gün yok). Atlas Karakurum'u 0500-01-01'de başlatır (__BOSLUK__→göktürk…) ve 1380'de bitirir: 1220 öncesi bu noktada Moğol Karakurum'u yoktur — atlas başlangıcı 1220'ye çekilmeli (öneri, atlas referans değildir). Atlas bit=1380; TDV 1388'de Ming yağması verir, terk günü TDV'de yok. Zincir yazılmadı (1220 > 500, sahip:[]); Karakurum'un sahipleri Moğol İmparatorluğu → Yuan → Kuzey Yuan künyeleri ile örtüşür ama TDV 'XVI. yy'da Dayan Han başkent yaptı; sonra Börçigin/Oyrat el değiştirdi' tarihsiz olduğundan yazılmadı. 1235 sur/saray ('ertesi yıl'), 1260 'aynı yıl Arıkboğa' çıkarım/türetme; yazılmadı. TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Önceki notlardaki \"WebFetch özeti / tam metne karşı doğrulandı (tarayıcı) / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir. | Parti5 tanık kuralı (17 Kasım 2026): tanik cümleden birebir yenilendi [ilk]: TDV cümlesi ad+1220 | Parti5 tanık kuralı (17 Kasım 2026): tanik cümleden birebir yenilendi [kur]: TDV cümlesi ad+1220"
+  "ic_not": "HAKEMLİ KARAR (LAB, 17 Kasım 2026; EMRELİC onayı): ilk.t 1220-01-01 KALIR; ilk olgusu 'Cengiz Han'ın karargâh yeri seçildi/belirlendi' (kuruldu değil); şehrin inşası Ögedey (yılsız, Cüveynî); sur/saray 1235 AYRI olay (Britannica, Bonn kazı projesi, Boyle/Reşîdüddîn n.269); çift teyit yazılmaz (Cüveynî-Reşîdüddîn ortak soy; Britannica kaynakçasız): tek soy beyan. || Karakurum 1220: TDV (Karakorum md.) 'Cengiz Han tarafindan 1220'de kurulmustur' der; Boyle (Rasidüddin cev., 1971, n.269: 'capital seems to have been fixed there as early as 1220; not walled till 1235'), Bonn Univ. kazi projesi ('1220 Orhun vadisini ikametgah yeri olarak belirledi; somut insaat Ogedey'e ait, 1235 sur+saray') ve Britannica (1220 karargah; 1235 surlar+saray) bu yilin karargah yeri secimi oldugunu dogrular; Cuveyni (Boyle 1958) sehri Ogedey'in 'kurdurdugunu' yilsiz yazar. Cift teyit YOK (bagimsizlik kanitlanamadi): 1220 TDV degeri olarak kalir, ilk.t 'karargah yeri belirlendi (gelenek)'; sehrin insasi/surlari 1235 (Ogedey) beyan edilir. || Kaynak: TDV 'Karakorum' (tam metne karşı doğrulandı (tarayıcı)). Çift teyit YOK (Atwood/Rossabi erişilmedi). KONUM: bu kayıt MOĞOL şehri içindir (1220); atlas noktası (47.198, 102.833) Erdene Zuu/Harhorin Moğol şehri alanındadır (<3 km). TDV'nin Uygur dönemi şehri (Bögü Kağan 759-779; X. yy'da harabe; 'Ordubalık/Mubalık') ayrı bir yerdir (atlas 'Ordu-Balık', ~47.41, 102.63, ~25 km KB) → ayrı kayıt olarak ÖNERİLİR (Ordu-Balık yazılmadı; 759-779 kuruluş TDV'de 'tarafından', gün yok). Atlas Karakurum'u 0500-01-01'de başlatır (__BOSLUK__→göktürk…) ve 1380'de bitirir: 1220 öncesi bu noktada Moğol Karakurum'u yoktur — atlas başlangıcı 1220'ye çekilmeli (öneri, atlas referans değildir). Atlas bit=1380; TDV 1388'de Ming yağması verir, terk günü TDV'de yok. Zincir yazılmadı (1220 > 500, sahip:[]); Karakurum'un sahipleri Moğol İmparatorluğu → Yuan → Kuzey Yuan künyeleri ile örtüşür ama TDV 'XVI. yy'da Dayan Han başkent yaptı; sonra Börçigin/Oyrat el değiştirdi' tarihsiz olduğundan yazılmadı. 1235 sur/saray ('ertesi yıl'), 1260 'aynı yıl Arıkboğa' çıkarım/türetme; yazılmadı. TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Önceki notlardaki \"WebFetch özeti / tam metne karşı doğrulandı (tarayıcı) / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir. | Parti5 tanık kuralı (17 Kasım 2026): tanik cümleden birebir yenilendi [ilk]: TDV cümlesi ad+1220 | Parti5 tanık kuralı (17 Kasım 2026): tanik cümleden birebir yenilendi [kur]: TDV cümlesi ad+1220",
+  "ad_kaynak": [
+   {
+    "ad": "H̱araẖorim",
+    "dil": "mn",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'KARAKORUM' https://islamansiklopedisi.org.tr/karakorum",
+    "kanit": "Karakorum (Moğolca H̱araẖorim) adını taşıyan şehirlerden biri"
+   },
+   {
+    "ad": "Karakorum",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'KARAKORUM' https://islamansiklopedisi.org.tr/karakorum",
+    "kanit": "Karakorum (Moğolca H̱araẖorim) adını taşıyan şehirlerden biri"
+   },
+   {
+    "ad": "Ordubalık",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'KARAKORUM' https://islamansiklopedisi.org.tr/karakorum",
+    "kanit": "Kaynaklarda umumiyetle Ordubalık, bazan da Mubalık adıyla anılan şehir"
+   },
+   {
+    "ad": "Mubalık",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'KARAKORUM' https://islamansiklopedisi.org.tr/karakorum",
+    "kanit": "umumiyetle Ordubalık, bazan da Mubalık adıyla anılan şehir"
+   },
+   {
+    "ad": "Каракорум",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Каракорум, города' https://ru.wikisource.org/wiki/ЭСБЕ/Каракорум, города",
+    "kanit": "Каракорум — имя, которым назывались два города, существовавшие в разное время"
+   },
+   {
+    "ad": "Дахолин",
+    "dil": "zh",
+    "donem": null,
+    "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Каракорум, города' https://ru.wikisource.org/wiki/ЭСБЕ/Каракорум, города",
+    "kanit": "в лапидарных надписях, найденных близ монастыря Эрдени-цзу — Дахолин"
+   }
+  ]
  },
  {
   "id": "karasubazar-ua",
@@ -2528,7 +2920,8 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
   "kat1900": null,
   "adlar": [
    "Mazar-e Sharif",
-   "Mezârışerif"
+   "Mezârışerif",
+   "Мазар-и-шериф"
   ],
   "ilk": {
    "t": "1852-01-01",
@@ -2561,7 +2954,23 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
     "tanik": "Mazār-e Sharīf came under Afghan rule in 1852"
    }
   ],
-  "ic_not": "ÇİFT TEYİT: Britannica (cümle tanığı, 'Mazār-e Sharīf came under Afghan rule in 1852') + TDV Mezârışerif ('1852 yılında Afgan hâkimiyetine giren şehir 1869’da Afgan Türkistanı’nın siyasî merkezi haline getirildi'; TDV cümlesinde özne adı yok, madde konusudur). 1852 şehrin ilk anılışı DEĞİL: TDV iki Hz. Ali türbesi keşfini 530 (1136, Sencer) ve 885 (1480, Hüseyin Baykara) olarak verir; ancak TDV cümlesi şehir adını taşımaz, Britannica 1480 cümlesinde 'settlement' Belh'tir (belirsiz) ⇒ bu erken yıllar tanık olarak alınmadı, ayrı borç. 1869 olayı Britannica'da şehir adlı cümlede 15 kelimeyi aşar; TDV'de adsızdır: yazılmadı. Sahip zinciri 1852→1900 (Afganistan Bârekzâyî Emirliği, 'afganistan'): 1900 yalnız bu dosyanın atlas yokluğu dikişidir (kaynak değil); 1852'den sonra Afgan idaresi TDV'ye göre sürer (1869 siyasî merkez, 1873/1889 Afgan valileri). Atlas noktası yok."
+  "ic_not": "ÇİFT TEYİT: Britannica (cümle tanığı, 'Mazār-e Sharīf came under Afghan rule in 1852') + TDV Mezârışerif ('1852 yılında Afgan hâkimiyetine giren şehir 1869’da Afgan Türkistanı’nın siyasî merkezi haline getirildi'; TDV cümlesinde özne adı yok, madde konusudur). 1852 şehrin ilk anılışı DEĞİL: TDV iki Hz. Ali türbesi keşfini 530 (1136, Sencer) ve 885 (1480, Hüseyin Baykara) olarak verir; ancak TDV cümlesi şehir adını taşımaz, Britannica 1480 cümlesinde 'settlement' Belh'tir (belirsiz) ⇒ bu erken yıllar tanık olarak alınmadı, ayrı borç. 1869 olayı Britannica'da şehir adlı cümlede 15 kelimeyi aşar; TDV'de adsızdır: yazılmadı. Sahip zinciri 1852→1900 (Afganistan Bârekzâyî Emirliği, 'afganistan'): 1900 yalnız bu dosyanın atlas yokluğu dikişidir (kaynak değil); 1852'den sonra Afgan idaresi TDV'ye göre sürer (1869 siyasî merkez, 1873/1889 Afgan valileri). Atlas noktası yok.",
+  "ad_kaynak": [
+   {
+    "ad": "Mazār-e Sharīf",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Mazār-e Sharīf' https://www.britannica.com/place/Mazar-e-Sharif",
+    "kanit": "lent Mazār-e Sharīf (“tomb of the saint”) its name."
+   },
+   {
+    "ad": "Мазар-и-шериф",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Мазар-и-шериф' https://ru.wikisource.org/wiki/ЭСБЕ/Мазар-и-шериф",
+    "kanit": "Мазар-и-шериф — главный административный центр сев. части Афганистана"
+   }
+  ]
  },
  {
   "id": "sehrisebz-kes-uz",
@@ -2573,7 +2982,9 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
   "adlar": [
    "Keş",
    "Kiş",
-   "Şehrisebz"
+   "Şehrisebz",
+   "Kia-Sha",
+   "Şaar-sâbiz"
   ],
   "ilk": {
    "t": "1380-01-01",
@@ -2616,7 +3027,44 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
     "tanik": "1437’de Uluğ Bey’in yaptırdığı Kök-Gumbaz Camii"
    }
   ],
-  "ic_not": "Kaynak: TDV tam gövde (tarayıcı), çift teyit YOK (ikinci akademik kaynak açılmadı). Tüm tanık alıntıları gövdede includes() ile birebir doğrulandı. ilk.t: TDV Keş'in Orta Çağ başı tarihi (Mühelleb b. Ebû Sufre karargâhı, 780'li yıllarda Türgiş/Karluk gelişi, 617/1220 Moğol teslimi) tarihsiz-onyıl-çıkarımdır ('herhalde teslim olmasıdır' — tanık sayılmadı); TDV 1220'yi bir sebep olarak çıkarımla verir, olgu değildir. 1865 Rus ele geçirmesi ve 1860 Buhara Hanı Nasrullah Han ifadeleri TDV'de vardır ancak literatürde Rus ele geçirmesi 1870 olarak anıldığından (ikinci TDV/akademik kaynak sınanmadı) YAZILMADI. 1404 'tekrar buraya gelerek' cümlesinin öznesi (Timur) cümlede açık olmadığından yazılmadı. Atlas Şehrisebz'i 1281-01-01'de cagatay ile başlatır; TDV'nin 1281-1380 arası Çağatay hanlarına kışlak vazi... ifadesi tarihsizdir. Atlas bu noktayı 1281-01-01'de başlatır; ilk.t sonra olduğundan sahip:[] (atlas zinciri esas), 'atlas başlangıcı düzeltilmeli' uyarısı beklenen davranıştır — TDV'de daha erken TARİHLİ tanık bulunamadı. | Parti5 tanık kuralı (17 Kasım 2026): kesinlik belirsiz'e indirildi (ad+yıl aynı cümlede birebir bulunamadı) [ilk]: madde konusu cümlesi: kaynak cümlesinde şehir adı yok (özne 'şehir/kasaba/burası' ya da madde başlığı), aynı cümlede ad+yıl bulunamadı ('Yapılan binaların en dikkat çekicisi 1380 tarihli Ak Saray’dır'); 1380 yapı tarihidir, şehrin ilk anılışı değil"
+  "ic_not": "HAKEMLİ KARAR (LAB, 17 Kasım 2026; EMRELİC onayı) — ADAY ilk_anilis 0642: ilk_anilis 0642-01-01 (yıl; Chavannes 1903 s.146-147 'La seizième année tcheng-koan (642)' + Iranica 'Keš' 'His successor in 642, Shashebi' = aynı Çin zinciri, TEK SOY, tek kaynak beyanlı); 1380 Ak Saray BİNA olayı olarak ayrı. ilk.t geri çekilince zincir 642→atlas başlangıcı (1281) gerekir: ATLAS-BASLANGIC-ADAYLARI-LAB.tsv'ye eklendi (dikiş beyanı; 639 yıl fark KASA ölçer). LAB kaydında ilk.t DEĞİŞTİRİLMEDİ (zincir olmadan 'zincir boş' ihlali). || Keş ilk anılış: Atlasın ilk_anilis'i (1380 Ak Saray) bina tarihidir (Iranica 'Keš': 'Āq-sarāy palace, 1380'). En erken açık yıllı kayıt: Tang kaydı, Keş prensi Shashebi'nin 642 elçisi (Chavannes 1903 s.146-147: 'La seizième année tcheng-koan (642)'; Iranica 'Keš': 'His successor in 642, Shashebi'; Iranica ve Chavannes aynı Çin kaynak zincirine dayanır: tek soy). Sui ta-ye dönemi (605-616) Ti-tcho'nun şehri 'inşa ettiği' (yıl verilmez), Xuanzang'ın Ki-shwang-na'sı (Beal 1884; yıl yok) ve 544 Nesturi piskopos David (Iranica 'Kish', Chabot 1902 s.680; kimlik tartışmalı, Sachau/Streck Basra Körfezi Kîş adı okur, birincil okunmadı) beyanlı adaylardır. Seçim: 0642-01-01 (yıl). || Kaynak: TDV tam gövde (tarayıcı), çift teyit YOK (ikinci akademik kaynak açılmadı). Tüm tanık alıntıları gövdede includes() ile birebir doğrulandı. ilk.t: TDV Keş'in Orta Çağ başı tarihi (Mühelleb b. Ebû Sufre karargâhı, 780'li yıllarda Türgiş/Karluk gelişi, 617/1220 Moğol teslimi) tarihsiz-onyıl-çıkarımdır ('herhalde teslim olmasıdır' — tanık sayılmadı); TDV 1220'yi bir sebep olarak çıkarımla verir, olgu değildir. 1865 Rus ele geçirmesi ve 1860 Buhara Hanı Nasrullah Han ifadeleri TDV'de vardır ancak literatürde Rus ele geçirmesi 1870 olarak anıldığından (ikinci TDV/akademik kaynak sınanmadı) YAZILMADI. 1404 'tekrar buraya gelerek' cümlesinin öznesi (Timur) cümlede açık olmadığından yazılmadı. Atlas Şehrisebz'i 1281-01-01'de cagatay ile başlatır; TDV'nin 1281-1380 arası Çağatay hanlarına kışlak vazi... ifadesi tarihsizdir. Atlas bu noktayı 1281-01-01'de başlatır; ilk.t sonra olduğundan sahip:[] (atlas zinciri esas), 'atlas başlangıcı düzeltilmeli' uyarısı beklenen davranıştır — TDV'de daha erken TARİHLİ tanık bulunamadı. | Parti5 tanık kuralı (17 Kasım 2026): kesinlik belirsiz'e indirildi (ad+yıl aynı cümlede birebir bulunamadı) [ilk]: madde konusu cümlesi: kaynak cümlesinde şehir adı yok (özne 'şehir/kasaba/burası' ya da madde başlığı), aynı cümlede ad+yıl bulunamadı ('Yapılan binaların en dikkat çekicisi 1380 tarihli Ak Saray’dır'); 1380 yapı tarihidir, şehrin ilk anılışı değil",
+  "ad_kaynak": [
+   {
+    "ad": "Keş",
+    "dil": "fa",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'KEŞ' https://islamansiklopedisi.org.tr/kes",
+    "kanit": "adlarla anılan Keş (Kiş, Kis), Semerkant ile Belh arasındaki"
+   },
+   {
+    "ad": "Kiş",
+    "dil": "fa",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'KEŞ' https://islamansiklopedisi.org.tr/kes",
+    "kanit": "adlarla anılan Keş (Kiş, Kis), Semerkant ile Belh arasındaki"
+   },
+   {
+    "ad": "Kia-Sha",
+    "dil": "zh",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'KEŞ' https://islamansiklopedisi.org.tr/kes",
+    "kanit": "Çin kaynaklarında Kia-Sha, Khie-Shu-ang-na, Khu-sha, Khie-She gibi adlarla anılan"
+   },
+   {
+    "ad": "Şehrisebz",
+    "dil": "fa",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'KEŞ' https://islamansiklopedisi.org.tr/kes",
+    "kanit": "anlamına gelen Şehrisebz (halk arasında Şaar-sâbiz) adıyla bilinir."
+   },
+   {
+    "ad": "Şaar-sâbiz",
+    "dil": "uz",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'KEŞ' https://islamansiklopedisi.org.tr/kes",
+    "kanit": "Şehrisebz (halk arasında Şaar-sâbiz) adıyla bilinir. Nüfusu 71.600’dür"
+   }
+  ]
  },
  {
   "id": "semerkant-uz",
@@ -2778,7 +3226,10 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
   "lon": 61.1611,
   "kat1900": 3,
   "adlar": [
-   "Serahs"
+   "Serahs",
+   "سرخس",
+   "Sarakhs",
+   "Серахс"
   ],
   "ilk": {
    "t": "0652-01-01",
@@ -2821,7 +3272,37 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
     "tanik": "618’de (1221) Moğol istilâsına mâruz kaldı"
    }
   ],
-  "ic_not": "Tek kaynak TDV 'Serahs' (WebFetch özet aracı). Çift teyit yok. TDV kuruluşu 'milâttan önce VI-IV. yüzyıllarda Persler devrinde kurulduğu tahmin edilmektedir' diye verir: tahmin, yazılı tanık/kuruluş tarihi değil → kur/ark yazılmadı; ilk anılış olarak fetih tarihi (651-52, aralığın son ucu) alındı, daha eski tanık bulunamadı. Atlas Serahs'ı 0500'den başlatır → sahip:[]. 'Serahs' adının kökeni TDV'de Serahs b. Hûzrez iktâsı olarak anlatılır (tarihsiz). Atlas'ta TDV Serahs'tan alıntı zaten vardır; 1157/1193 olayları Serahs'a özgü sahip değişimi değil bölge olaylarıdır (Sencer ölümü sonrası Oğuz hâkimiyeti dilimi TDV'de yıl vermiyor). TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Uyuşmayanlar: TARİH UYUŞMUYOR (olay0.t): eski → 1157-02-13. Serahs 552 (1157): 552 h. 1157-02-13 başlar; Hicrî ∩ milâdî kesişim ilk günü (aritmetik sivil takvim ±2 gün); eski 1157-01-01 hicrî yılın dışında kalıyordu; Herat olay4 ile aynı kesişim. TARİH UYUŞMUYOR (olay2.t): eski → 1221-02-25. Serahs 618 (1221): 618 h. 1221-02-25 başlar; Hicrî ∩ milâdî kesişim ilk günü (aritmetik sivil takvim ±2 gün); eski 1221-01-01 hicrî yılın dışında kalıyordu; Herat olay7 ile aynı kesişim. Önceki notlardaki \"WebFetch özeti / tam metne karşı doğrulandı (tarayıcı) / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir. | Parti5 tanık kuralı (17 Kasım 2026): tanik cümleden birebir yenilendi [ilk]: TDV cümlesi ad+31/651-52; kaynak ifadesi güncellendi"
+  "ic_not": "Tek kaynak TDV 'Serahs' (WebFetch özet aracı). Çift teyit yok. TDV kuruluşu 'milâttan önce VI-IV. yüzyıllarda Persler devrinde kurulduğu tahmin edilmektedir' diye verir: tahmin, yazılı tanık/kuruluş tarihi değil → kur/ark yazılmadı; ilk anılış olarak fetih tarihi (651-52, aralığın son ucu) alındı, daha eski tanık bulunamadı. Atlas Serahs'ı 0500'den başlatır → sahip:[]. 'Serahs' adının kökeni TDV'de Serahs b. Hûzrez iktâsı olarak anlatılır (tarihsiz). Atlas'ta TDV Serahs'tan alıntı zaten vardır; 1157/1193 olayları Serahs'a özgü sahip değişimi değil bölge olaylarıdır (Sencer ölümü sonrası Oğuz hâkimiyeti dilimi TDV'de yıl vermiyor). TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Uyuşmayanlar: TARİH UYUŞMUYOR (olay0.t): eski → 1157-02-13. Serahs 552 (1157): 552 h. 1157-02-13 başlar; Hicrî ∩ milâdî kesişim ilk günü (aritmetik sivil takvim ±2 gün); eski 1157-01-01 hicrî yılın dışında kalıyordu; Herat olay4 ile aynı kesişim. TARİH UYUŞMUYOR (olay2.t): eski → 1221-02-25. Serahs 618 (1221): 618 h. 1221-02-25 başlar; Hicrî ∩ milâdî kesişim ilk günü (aritmetik sivil takvim ±2 gün); eski 1221-01-01 hicrî yılın dışında kalıyordu; Herat olay7 ile aynı kesişim. Önceki notlardaki \"WebFetch özeti / tam metne karşı doğrulandı (tarayıcı) / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir. | Parti5 tanık kuralı (17 Kasım 2026): tanik cümleden birebir yenilendi [ilk]: TDV cümlesi ad+31/651-52; kaynak ifadesi güncellendi",
+  "ad_kaynak": [
+   {
+    "ad": "سرخس",
+    "dil": "ar",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'SERAHS' https://islamansiklopedisi.org.tr/serahs",
+    "kanit": "SERAHS سرخس Türkmenistan’da tarihî bir şehir."
+   },
+   {
+    "ad": "Sarakhs",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'SERAHS (kaynakça)' https://islamansiklopedisi.org.tr/serahs",
+    "kanit": "C. E. Bosworth, “Sarakhs”, EI2 (İng.), IX, 34."
+   },
+   {
+    "ad": "Serahs",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'SERAHS' https://islamansiklopedisi.org.tr/serahs",
+    "kanit": "Serahs’ın ilk defa ne zaman kimler tarafından kurulduğu"
+   },
+   {
+    "ad": "Серахс",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Серахс' https://ru.wikisource.org/wiki/ЭСБЕ/Серахс",
+    "kanit": "Серахс — поселение и стоянка войск Тедженского уезда Закаспийской области"
+   }
+  ]
  },
  {
   "id": "sucava-ro",
@@ -2902,7 +3383,23 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
     "tanik": "Suğdak 1365’te Ceneviz kontrolüne girmişti"
    }
   ],
-  "ic_not": "Kaynak: TDV tam gövde (tarayıcı), çift teyit YOK (ikinci akademik kaynak açılmadı). Tüm tanık alıntıları gövdede includes() ile birebir doğrulandı. ilk.t: Selçuklu ele geçirmesi Keykubad'ın saltanat aralığına (1220-1237) bağlıdır, güne değil; güvenli uç 1237-12-31. TDV Suğdak'ı Kıpçak limanı olarak (1253 Rubruk gezisi: Suğdak pazar yeri) da anar (tarihli ama sahiplik/varlık dışı, yazılmadı). 1380 Ceneviz-Altın Orda anlaşmasında Balıklava-Suğdak aralığının Ceneviz'e bağlı sayılması TDV'de vardır (tek tanık, şehre özgü değil; yazılmadı). Atlas Sudak'ı 1000-01-01'de __BOSLUK__ ile başlatır; Selçuklu (1237 öncesi, aralık) ve Ceneviz (1365) tanıkları atlas zincirine öneridir: 'Sudak 1220-1237 selcuklu, 1365 ceneviz' ve zincir 1281 sonrası kaynakla gözden geçirilmeli. Atlas bu noktayı 1000-01-01'de başlatır; ilk.t sonra olduğundan sahip:[] (atlas zinciri esas), 'atlas başlangıcı düzeltilmeli' uyarısı beklenen davranıştır — TDV'de daha erken TARİHLİ tanık bulunamadı. F3 çözüm (16 Kasım 2026): olay yılı 'saltanat sonu güvenli ucu' (1237-12-31) yerine TDV Selçuklular md.'nin doğrudan verdiği fetih yılı 1224'e çekildi; 1224, Kırım md.'nin 1220-1237 aralığı içindedir (çelişki değil)."
+  "ic_not": "Kaynak: TDV tam gövde (tarayıcı), çift teyit YOK (ikinci akademik kaynak açılmadı). Tüm tanık alıntıları gövdede includes() ile birebir doğrulandı. ilk.t: Selçuklu ele geçirmesi Keykubad'ın saltanat aralığına (1220-1237) bağlıdır, güne değil; güvenli uç 1237-12-31. TDV Suğdak'ı Kıpçak limanı olarak (1253 Rubruk gezisi: Suğdak pazar yeri) da anar (tarihli ama sahiplik/varlık dışı, yazılmadı). 1380 Ceneviz-Altın Orda anlaşmasında Balıklava-Suğdak aralığının Ceneviz'e bağlı sayılması TDV'de vardır (tek tanık, şehre özgü değil; yazılmadı). Atlas Sudak'ı 1000-01-01'de __BOSLUK__ ile başlatır; Selçuklu (1237 öncesi, aralık) ve Ceneviz (1365) tanıkları atlas zincirine öneridir: 'Sudak 1220-1237 selcuklu, 1365 ceneviz' ve zincir 1281 sonrası kaynakla gözden geçirilmeli. Atlas bu noktayı 1000-01-01'de başlatır; ilk.t sonra olduğundan sahip:[] (atlas zinciri esas), 'atlas başlangıcı düzeltilmeli' uyarısı beklenen davranıştır — TDV'de daha erken TARİHLİ tanık bulunamadı. F3 çözüm (16 Kasım 2026): olay yılı 'saltanat sonu güvenli ucu' (1237-12-31) yerine TDV Selçuklular md.'nin doğrudan verdiği fetih yılı 1224'e çekildi; 1224, Kırım md.'nin 1220-1237 aralığı içindedir (çelişki değil).",
+  "ad_kaynak": [
+   {
+    "ad": "Suğdak",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'KIRIM' https://islamansiklopedisi.org.tr/kirim",
+    "kanit": "III. yüzyılda kurulan Suğdak (Sudak), Kefe gibi şehirleri ele geçirmişlerdi."
+   },
+   {
+    "ad": "Sudak",
+    "dil": "tr",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'KIRIM' https://islamansiklopedisi.org.tr/kirim",
+    "kanit": "III. yüzyılda kurulan Suğdak (Sudak), Kefe gibi şehirleri ele geçirmişlerdi."
+   }
+  ]
  },
  {
   "id": "taskent-uz",
@@ -3237,7 +3734,9 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
   "kat1900": null,
   "adlar": [
    "Uc (TDV)",
-   "Uç Turfan"
+   "Uç Turfan",
+   "Uc",
+   "Köhne Turfan"
   ],
   "ilk": {
    "t": "1756-01-01",
@@ -3262,7 +3761,30 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
     "tanik": "1756’da Aksu’nun batısındaki Uc şehrinin halkı isyan ettiği gerekçesiyle Çinliler tarafından öldürüldü"
    }
   ],
-  "ic_not": "Kaynak: TDV tam gövde (tarayıcı), çift teyit YOK (ikinci akademik kaynak açılmadı). Tüm tanık alıntıları gövdede includes() ile birebir doğrulandı. Ad eşitlemesi (kabul edilir, kesin değil): TDV «Turfan» md. 'Aksu'nun batısındaki Uc şehri' der; atlasın Uç Turfan (41.21, 79.05) noktası Aksu'nun yaklaşık 60-70 km batısındadır — TDV'de ek koordinat/ad yok, eşitleme beyan edilir. Atlas Uç Turfan'ı 1281-01-01'de cagatay ile başlatır; sahip_devlet sütununda qing-hanedani göründü (atlasın ilk sahip ölçümü ayrı); ilk.t sonradır → sahip:[]. Atlas bu noktayı 1281-01-01'de başlatır; ilk.t sonra olduğundan sahip:[] (atlas zinciri esas), 'atlas başlangıcı düzeltilmeli' uyarısı beklenen davranıştır — TDV'de daha erken TARİHLİ tanık bulunamadı."
+  "ic_not": "Kaynak: TDV tam gövde (tarayıcı), çift teyit YOK (ikinci akademik kaynak açılmadı). Tüm tanık alıntıları gövdede includes() ile birebir doğrulandı. Ad eşitlemesi (kabul edilir, kesin değil): TDV «Turfan» md. 'Aksu'nun batısındaki Uc şehri' der; atlasın Uç Turfan (41.21, 79.05) noktası Aksu'nun yaklaşık 60-70 km batısındadır — TDV'de ek koordinat/ad yok, eşitleme beyan edilir. Atlas Uç Turfan'ı 1281-01-01'de cagatay ile başlatır; sahip_devlet sütununda qing-hanedani göründü (atlasın ilk sahip ölçümü ayrı); ilk.t sonradır → sahip:[]. Atlas bu noktayı 1281-01-01'de başlatır; ilk.t sonra olduğundan sahip:[] (atlas zinciri esas), 'atlas başlangıcı düzeltilmeli' uyarısı beklenen davranıştır — TDV'de daha erken TARİHLİ tanık bulunamadı.",
+  "ad_kaynak": [
+   {
+    "ad": "Uc Turfan",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'TURFAN' https://islamansiklopedisi.org.tr/turfan",
+    "kanit": "Kurulan şehrin adına Uc Turfan denildi. Asıl Turfan’a ise"
+   },
+   {
+    "ad": "Uc",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'TURFAN' https://islamansiklopedisi.org.tr/turfan",
+    "kanit": "1756’da Aksu’nun batısındaki Uc şehrinin halkı isyan ettiği gerekçesiyle"
+   },
+   {
+    "ad": "Köhne Turfan",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'TURFAN' https://islamansiklopedisi.org.tr/turfan",
+    "kanit": "Asıl Turfan’a ise Köhne Turfan adı verildi."
+   }
+  ]
  },
  {
   "id": "urumci-cn",

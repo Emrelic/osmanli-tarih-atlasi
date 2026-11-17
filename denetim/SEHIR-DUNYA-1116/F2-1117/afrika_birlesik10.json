@@ -451,7 +451,9 @@
   "kat1900": null,
   "adlar": [
    "Hamdullahi (TDV)",
-   "Hamdallay (TDV Fûlânîler: parantez içi)"
+   "Hamdallay (TDV Fûlânîler: parantez içi)",
+   "Hamdullahi",
+   "Hamdallay"
   ],
   "ilk": {
    "t": "1815-01-01",
@@ -496,7 +498,23 @@
     "kaynak": "TDV İslâm Ansiklopedisi, 'Mali' (Ahmet Kavas), c. 27, İstanbul 2003, s. 493-504, https://islamansiklopedisi.org.tr/mali"
    }
   ],
-  "ic_not": "TDV'nin iki ayrı maddesi (Fûlânîler 1815; Ahmedü Lobbo 1862'de el-Hâc Ömer'in zaptı) okundu. TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Önceki notlardaki \"WebFetch özeti / tam metne karşı doğrulandı (tarayıcı) / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir."
+  "ic_not": "TDV'nin iki ayrı maddesi (Fûlânîler 1815; Ahmedü Lobbo 1862'de el-Hâc Ömer'in zaptı) okundu. TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Önceki notlardaki \"WebFetch özeti / tam metne karşı doğrulandı (tarayıcı) / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir.",
+  "ad_kaynak": [
+   {
+    "ad": "Hamdullahi",
+    "dil": "tr-osm",
+    "donem": "1815-",
+    "kaynak": "TDV İslâm Ansiklopedisi 'FÛLÂNÎLER' https://islamansiklopedisi.org.tr/fulaniler",
+    "kanit": "1815’te Bani nehri kıyısında Hamdullahi (Hamdallay) şehrini kurarak burasını başşehir yaptı"
+   },
+   {
+    "ad": "Hamdallay",
+    "dil": "ff",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'FÛLÂNÎLER' https://islamansiklopedisi.org.tr/fulaniler",
+    "kanit": "Bani nehri kıyısında Hamdullahi (Hamdallay) şehrini kurarak burasını başşehir yaptı"
+   }
+  ]
  },
  {
   "id": "monrovia-lr",
@@ -690,7 +708,9 @@
   "lon": 26.214,
   "kat1900": 1,
   "adlar": [
-   "Bloemfontein"
+   "Bloemfontein",
+   "Mangaung",
+   "Блумфонтен"
   ],
   "ilk": {
    "t": "1846-03-26",
@@ -735,7 +755,30 @@
     "kaynak": "SAHO, 'Pretoria Timeline 1800-2009', https://sahistory.org.za/article/pretoria-timeline-1800-2009"
    }
   ],
-  "ic_not": "Yalnız SAHO ve akademisyen (Pretorius) kaynaklarıyla yazıldı. 1848 (Sir Harry Smith ilhakı, 3 Şubat 1848) ve 1854 Nisan (Orange Free State kuruluşu) için bu oturumda doğrulanabilir kaynak çekilemedi; olay olarak yazılmadı. 1854-02-23 olayı SAHO'ya göre 'özyönetim' veren sözleşmedir; Britannica 403 verdi. | Parti5 tanık kuralı (17 Kasım 2026): tanik cümleden birebir yenilendi [ilk]: SAHO zaman çizelgesi satırı (yıl satır başında)"
+  "ic_not": "Yalnız SAHO ve akademisyen (Pretorius) kaynaklarıyla yazıldı. 1848 (Sir Harry Smith ilhakı, 3 Şubat 1848) ve 1854 Nisan (Orange Free State kuruluşu) için bu oturumda doğrulanabilir kaynak çekilemedi; olay olarak yazılmadı. 1854-02-23 olayı SAHO'ya göre 'özyönetim' veren sözleşmedir; Britannica 403 verdi. | Parti5 tanık kuralı (17 Kasım 2026): tanik cümleden birebir yenilendi [ilk]: SAHO zaman çizelgesi satırı (yıl satır başında)",
+  "ad_kaynak": [
+   {
+    "ad": "Bloemfontein",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Bloemfontein' https://www.britannica.com/place/Bloemfontein",
+    "kanit": "Bloemfontein, city, capital of Free State province (formerly Orange Free State)"
+   },
+   {
+    "ad": "Mangaung",
+    "dil": "st",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Bloemfontein' https://www.britannica.com/place/Bloemfontein",
+    "kanit": "Also known as: Mangaung"
+   },
+   {
+    "ad": "Блумфонтен",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Блумфонтен' https://ru.wikisource.org/wiki/ЭСБЕ/Блумфонтен",
+    "kanit": "Блумфонтен (Bloemfontein) — столица"
+   }
+  ]
  },
  {
   "id": "pretoria-za",
@@ -842,7 +885,8 @@
    "Queen Adelaide's Bath (1836/37 anılışı)",
    "ǀAi-ǁGams (Nama)",
    "Otjomuise (Herero)",
-   "Windhoek"
+   "Windhoek",
+   "Aigams"
   ],
   "ilk": {
    "t": "1837-01-01",
@@ -889,7 +933,23 @@
     "kaynak": "Klaus Dierks, Chronology of Namibian History, 1890, https://www.klausdierks.com/Chronology/45.htm"
    }
   ],
-  "ic_not": "ZAYIF KAYNAK ZİNCİRİ: yalnız Dierks kronolojisi (hakemli değil, ikincil derleme) okunabildi; Britannica 403 verdi, SAHO Windhoek sayfası okunmadı. Öneri: çift teyit için Lau (1987), 'Jan Jonker Afrikaner' / Dierks'in kaynakçası. Windhoek 'kuruluş' tarihi 18 Ekim 1890 (von François, yaygın anlatı) Dierks'e göre 'permanent settlement ~50 yıl önce' olduğundan kuruluş değil, Alman karargâh/kale tarihi alındı. Ad kaynakları: Dierks (1838: Otjomuise 'place of smoke'; Windhoek adı 12.08.1844'te ilk doğrulanır; Winterhoek (Tulbagh) kökeni tartışmalı). | Parti5 tanık kuralı (17 Kasım 2026): kesinlik belirsiz'e indirildi (ad+yıl aynı cümlede birebir bulunamadı) [ilk]: Dierks: '1836/37' giriş başlığı, 'Queen Adelaide’s Bath (present-day Windhoek)' sonraki cümle; yıl+ad aynı cümlede değil | Parti5 tanık kuralı (17 Kasım 2026): tanik cümleden birebir yenilendi [kur]: Dierks satırı: yıl satır başında, ad |Ai-||Gams (adlar)"
+  "ic_not": "ZAYIF KAYNAK ZİNCİRİ: yalnız Dierks kronolojisi (hakemli değil, ikincil derleme) okunabildi; Britannica 403 verdi, SAHO Windhoek sayfası okunmadı. Öneri: çift teyit için Lau (1987), 'Jan Jonker Afrikaner' / Dierks'in kaynakçası. Windhoek 'kuruluş' tarihi 18 Ekim 1890 (von François, yaygın anlatı) Dierks'e göre 'permanent settlement ~50 yıl önce' olduğundan kuruluş değil, Alman karargâh/kale tarihi alındı. Ad kaynakları: Dierks (1838: Otjomuise 'place of smoke'; Windhoek adı 12.08.1844'te ilk doğrulanır; Winterhoek (Tulbagh) kökeni tartışmalı). | Parti5 tanık kuralı (17 Kasım 2026): kesinlik belirsiz'e indirildi (ad+yıl aynı cümlede birebir bulunamadı) [ilk]: Dierks: '1836/37' giriş başlığı, 'Queen Adelaide’s Bath (present-day Windhoek)' sonraki cümle; yıl+ad aynı cümlede değil | Parti5 tanık kuralı (17 Kasım 2026): tanik cümleden birebir yenilendi [kur]: Dierks satırı: yıl satır başında, ad |Ai-||Gams (adlar)",
+  "ad_kaynak": [
+   {
+    "ad": "Windhoek",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Windhoek' https://www.britannica.com/place/Windhoek",
+    "kanit": "Windhoek national capital, Namibia Also known as: Aigams"
+   },
+   {
+    "ad": "Aigams",
+    "dil": "naq",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Windhoek' https://www.britannica.com/place/Windhoek",
+    "kanit": "the town was known as Aigams, meaning “hot water,”"
+   }
+  ]
  },
  {
   "id": "yola-ng",
@@ -937,7 +997,16 @@
     "kaynak": "TDV İslâm Ansiklopedisi, 'Adamava', https://islamansiklopedisi.org.tr/adamava (yalnız yıl)"
    }
   ],
-  "ic_not": "Yalnız TDV 'Adamava' maddesi okundu; akademik ikinci kaynak (örn. Cambridge History of Africa c.5 / Burnham-Kirk-Smith Adamawa çalışmaları) ile çift teyit yapılmadı. Not: atlasın Yola için 'sokoto → ingiltere 1901' zinciri TDV'nin 1901 paylaşımıyla uyumlu; ancak Alman sınırı ötesinde kalan Adamawa kısmı Yola'yı etkilemedi (TDV: Yola emiri İngiliz bölgesinde). TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Önceki notlardaki \"WebFetch özeti / tam metne karşı doğrulandı (tarayıcı) / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir."
+  "ic_not": "Yalnız TDV 'Adamava' maddesi okundu; akademik ikinci kaynak (örn. Cambridge History of Africa c.5 / Burnham-Kirk-Smith Adamawa çalışmaları) ile çift teyit yapılmadı. Not: atlasın Yola için 'sokoto → ingiltere 1901' zinciri TDV'nin 1901 paylaşımıyla uyumlu; ancak Alman sınırı ötesinde kalan Adamawa kısmı Yola'yı etkilemedi (TDV: Yola emiri İngiliz bölgesinde). TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Önceki notlardaki \"WebFetch özeti / tam metne karşı doğrulandı (tarayıcı) / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir.",
+  "ad_kaynak": [
+   {
+    "ad": "Yola",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'ADAMAVA' https://islamansiklopedisi.org.tr/adamava",
+    "kanit": "1841’de Yola şehrini merkez yaparak Garoua ve Ngaoundere gibi yeni şehirler kurmuştur."
+   }
+  ]
  },
  {
   "id": "agadez-ne",
@@ -947,7 +1016,10 @@
   "lon": 7.991,
   "kat1900": null,
   "adlar": [
-   "Agadez (Agades)"
+   "Agadez (Agades)",
+   "Agadez",
+   "Agades",
+   "Агадес"
   ],
   "ilk": {
    "t": "1500-01-01",
@@ -972,7 +1044,30 @@
     "tanik": "Once the seat of a Tuareg sultanate (dating from the 15th century)"
    }
   ],
-  "ic_not": "ÇİFT TEYİT: UNESCO WHC 1268 'Brief synthesis' aynı yüzyılı verir — «The historic centre of Agadez dates back to the 15th and 16th centuries, when the Sultanate of Aïr established itself there» (tarayıcı sayfa okuma, 16 Kasım 2026). İki kaynak da yalnız yüzyıl verir, gün/yıl yok; ilk anılış için aralığın SON ucu (15. yüzyıl sonu = 1500-01-01) alındı. Nicelik 'ilk_anilis': kaynaklar kuruluş günü vermez, 'sultanlık merkezi olduğu' 15. yüzyıldan itibaren tarihlenir. ATLAS: atlas Agadez'i 1405-01-01'de 'agadez-sultanligi' ile başlatır; bu kaynaklarla 1405 DOĞRULANAMAZ (yalnız '15. yüzyıl'); TDV Nijer md. (önceki parti) 1515'te Songay'a bağlanmayı verir — atlas başlangıcı için kaynaklı yıl bulunamadı, 1405 kaynaksız iddia olarak KASA'ya bildirilir. Zincir (sahip) YAZILMADI: bu kaynaklarda sahip değişimi tarihi yok. | Parti5 tanık kuralı (17 Kasım 2026): tanik cümleden birebir yenilendi [ilk]: Britannica cümlesi ad+15. yy içerir; yy sultanlığın tarihidir, şehrin ilk anılışı değil (dolaylı)"
+  "ic_not": "ÇİFT TEYİT: UNESCO WHC 1268 'Brief synthesis' aynı yüzyılı verir — «The historic centre of Agadez dates back to the 15th and 16th centuries, when the Sultanate of Aïr established itself there» (tarayıcı sayfa okuma, 16 Kasım 2026). İki kaynak da yalnız yüzyıl verir, gün/yıl yok; ilk anılış için aralığın SON ucu (15. yüzyıl sonu = 1500-01-01) alındı. Nicelik 'ilk_anilis': kaynaklar kuruluş günü vermez, 'sultanlık merkezi olduğu' 15. yüzyıldan itibaren tarihlenir. ATLAS: atlas Agadez'i 1405-01-01'de 'agadez-sultanligi' ile başlatır; bu kaynaklarla 1405 DOĞRULANAMAZ (yalnız '15. yüzyıl'); TDV Nijer md. (önceki parti) 1515'te Songay'a bağlanmayı verir — atlas başlangıcı için kaynaklı yıl bulunamadı, 1405 kaynaksız iddia olarak KASA'ya bildirilir. Zincir (sahip) YAZILMADI: bu kaynaklarda sahip değişimi tarihi yok. | Parti5 tanık kuralı (17 Kasım 2026): tanik cümleden birebir yenilendi [ilk]: Britannica cümlesi ad+15. yy içerir; yy sultanlığın tarihidir, şehrin ilk anılışı değil (dolaylı)",
+  "ad_kaynak": [
+   {
+    "ad": "Agadez",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Agadez' https://www.britannica.com/place/Agadez",
+    "kanit": "Agadez, town, central Niger, at the southern edge of the Aïr massif."
+   },
+   {
+    "ad": "Agades",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Agadez' https://www.britannica.com/place/Agadez",
+    "kanit": "Also known as: Agades"
+   },
+   {
+    "ad": "Агадес",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Агадес' https://ru.wikisource.org/wiki/ЭСБЕ/Агадес",
+    "kanit": "Агадес — главный город оазиса Аир в Сахаре"
+   }
+  ]
  },
  {
   "id": "maseru-ls",
@@ -1007,7 +1102,16 @@
     "tanik": "In 1869 the chief of the Sotho (Basotho) nation, Moshoeshoe, founded the town"
    }
   ],
-  "ic_not": "ÇİFT TEYİT (LAB, 17 Kasım 2026; Britannica/ilk kaynaktan bağımsız ikinci kaynak): The Columbia Encyclopedia 6th ed., «Maseru», encyclopedia.com/reference/…/maseru; includes() 17 Kas 2026 | tanık 2: \"made the capital of the Basuto people by Moshoeshoe I, their paramount chief, in 1869\" | 1869 aynı; Columbia 'başkent yapıldı 1869' der, Britannica 'kurdu 1869' der — olgu farkı: kuruluş yerine başkent ilanı; yıl aynı || İLK KAYNAK (Britannica). Gün yok, yıl hassasiyeti. ATLAS: atlas Maseru'yu 1822-01-01'de 'basuto' ile başlatır — şehir kaynağa göre 1869'da kurulduğundan 1822 başlangıcı ŞEHİR için yanlış/kaynaksız görünüyor (belki bölge iddiası): KASA'ya 'başlangıç 1869 olmalı' önerisi. 1868-03-12 atlas 'basuto' bitişi (İngiliz himayesi) ile 1869 kuruluş sırası da kontrol edilmeli. | Parti5 tanık kuralı (17 Kasım 2026): kesinlik belirsiz'e indirildi (ad+yıl aynı cümlede birebir bulunamadı) [ilk]: madde konusu cümlesi: kaynak cümlesinde şehir adı yok (özne 'şehir/kasaba/burası' ya da madde başlığı), aynı cümlede ad+yıl bulunamadı (Britannica 'In 1869 the chief of the Sotho ... founded the town') Parti5 geri alma (koordinatör kararı): tanık cümlesi madde konusu şehre atıflı (madde: Maseru); ilk.kesinlik 'belirsiz' → 'yil' geri alındı."
+  "ic_not": "ÇİFT TEYİT (LAB, 17 Kasım 2026; Britannica/ilk kaynaktan bağımsız ikinci kaynak): The Columbia Encyclopedia 6th ed., «Maseru», encyclopedia.com/reference/…/maseru; includes() 17 Kas 2026 | tanık 2: \"made the capital of the Basuto people by Moshoeshoe I, their paramount chief, in 1869\" | 1869 aynı; Columbia 'başkent yapıldı 1869' der, Britannica 'kurdu 1869' der — olgu farkı: kuruluş yerine başkent ilanı; yıl aynı || İLK KAYNAK (Britannica). Gün yok, yıl hassasiyeti. ATLAS: atlas Maseru'yu 1822-01-01'de 'basuto' ile başlatır — şehir kaynağa göre 1869'da kurulduğundan 1822 başlangıcı ŞEHİR için yanlış/kaynaksız görünüyor (belki bölge iddiası): KASA'ya 'başlangıç 1869 olmalı' önerisi. 1868-03-12 atlas 'basuto' bitişi (İngiliz himayesi) ile 1869 kuruluş sırası da kontrol edilmeli. | Parti5 tanık kuralı (17 Kasım 2026): kesinlik belirsiz'e indirildi (ad+yıl aynı cümlede birebir bulunamadı) [ilk]: madde konusu cümlesi: kaynak cümlesinde şehir adı yok (özne 'şehir/kasaba/burası' ya da madde başlığı), aynı cümlede ad+yıl bulunamadı (Britannica 'In 1869 the chief of the Sotho ... founded the town') Parti5 geri alma (koordinatör kararı): tanık cümlesi madde konusu şehre atıflı (madde: Maseru); ilk.kesinlik 'belirsiz' → 'yil' geri alındı.",
+  "ad_kaynak": [
+   {
+    "ad": "Maseru",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Maseru' https://www.britannica.com/place/Maseru",
+    "kanit": "Maseru, capital and largest urban centre of Lesotho."
+   }
+  ]
  },
  {
   "id": "zinder-af-p9",
@@ -1017,7 +1121,9 @@
   "lon": 8.988,
   "kat1900": null,
   "adlar": [
-   "Zinder (Damagaram)"
+   "Zinder (Damagaram)",
+   "Zinder",
+   "Damagaram"
   ],
   "ilk": {
    "t": "1899-01-01",
@@ -1042,7 +1148,23 @@
     "tanik": "The city was occupied by French troops in 1899"
    }
   ],
-  "ic_not": "ÇİFT TEYİT (LAB, 17 Kasım 2026; Britannica/ilk kaynaktan bağımsız ikinci kaynak): The Columbia Encyclopedia 6th ed., «Zinder», https://www.encyclopedia.com/reference/encyclopedias-almanacs-transcripts-and-maps/zinder; includes() 17 Kas 2026 | tanık 2: \"Zinder was conquered by the French in 1899\" | 1899 aynı (ilk: Britannica 'occupied by French troops in 1899') || İLK KAYNAK (Britannica); çift teyit yok. Gün yok, yıl hassasiyeti. Zincir (sahip) YAZILMADI: kaynak 'şu yer şu devletin' biçiminde sahip/dönem günü vermiyor. Britannica 'XVIII. yüzyılda kurulan Müslüman hanedanın başkenti' der (yüzyıl; kayıt açılmadı); yıllı ilk tanık 1899 işgalidir, bu yüzden nicelik ilk_anilis ve 1899 YALNIZ yıllı en erken tanıktır, şehrin gerçek ilk anılışı daha eskidir. ATLAS: kronoloji maddesi 1960 — başlangıç iddiası bu kaynakta doğrulanamadı."
+  "ic_not": "ÇİFT TEYİT (LAB, 17 Kasım 2026; Britannica/ilk kaynaktan bağımsız ikinci kaynak): The Columbia Encyclopedia 6th ed., «Zinder», https://www.encyclopedia.com/reference/encyclopedias-almanacs-transcripts-and-maps/zinder; includes() 17 Kas 2026 | tanık 2: \"Zinder was conquered by the French in 1899\" | 1899 aynı (ilk: Britannica 'occupied by French troops in 1899') || İLK KAYNAK (Britannica); çift teyit yok. Gün yok, yıl hassasiyeti. Zincir (sahip) YAZILMADI: kaynak 'şu yer şu devletin' biçiminde sahip/dönem günü vermiyor. Britannica 'XVIII. yüzyılda kurulan Müslüman hanedanın başkenti' der (yüzyıl; kayıt açılmadı); yıllı ilk tanık 1899 işgalidir, bu yüzden nicelik ilk_anilis ve 1899 YALNIZ yıllı en erken tanıktır, şehrin gerçek ilk anılışı daha eskidir. ATLAS: kronoloji maddesi 1960 — başlangıç iddiası bu kaynakta doğrulanamadı.",
+  "ad_kaynak": [
+   {
+    "ad": "Zinder",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Zinder' https://www.britannica.com/place/Zinder",
+    "kanit": "Zinder, city, south-central Niger."
+   },
+   {
+    "ad": "Damagaram",
+    "dil": "ha",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Zinder' https://www.britannica.com/place/Zinder",
+    "kanit": "Zinder Niger Also known as: Damagaram"
+   }
+  ]
  },
  {
   "id": "bamako-af-p9",
@@ -1086,7 +1208,16 @@
     "tanik": "It became the capital of the former colony of French Sudan in 1908"
    }
   ],
-  "ic_not": "HAKEMLİ KARAR (LAB, 17 Kasım 2026): Hakemli karar: Britannica 1880 (Gallieni, 'occupied'); Columbia 1883 işgal; Universalis (F. Bost) 'arrivée des Français en 1883'. Gallieni'nin kendi anlatısı (Voyage au Soudan français, Hachette 1885): heyet Mayıs 1880'de Bamako'ya vardı, soğuk karşılandı, ~24 saat kaldı; işgal yok. Seçim: 1880 = ilk Fransız teması (Gallieni heyeti); 1883 = askerî işgal (Columbia + Universalis). İki ayrı olgu, çelişki yok; Britannica'nın 'occupied' ifadesi 1880 için gevşek. 1 Şubat 1883 işgal günü bu turda akademik kaynakla doğrulanmadı. || TEK KAYNAK (Britannica); çift teyit yok. Gün yok, yıl hassasiyeti. Zincir (sahip) YAZILMADI: kaynak 'şu yer şu devletin' biçiminde sahip/dönem günü vermiyor. Nicelik ilk_anilis: 1880 yıllı en erken tanıktır, şehrin kuruluşu değildir (Britannica 'a settlement of a few hundred inhabitants' der)."
+  "ic_not": "HAKEMLİ KARAR (LAB, 17 Kasım 2026): Hakemli karar: Britannica 1880 (Gallieni, 'occupied'); Columbia 1883 işgal; Universalis (F. Bost) 'arrivée des Français en 1883'. Gallieni'nin kendi anlatısı (Voyage au Soudan français, Hachette 1885): heyet Mayıs 1880'de Bamako'ya vardı, soğuk karşılandı, ~24 saat kaldı; işgal yok. Seçim: 1880 = ilk Fransız teması (Gallieni heyeti); 1883 = askerî işgal (Columbia + Universalis). İki ayrı olgu, çelişki yok; Britannica'nın 'occupied' ifadesi 1880 için gevşek. 1 Şubat 1883 işgal günü bu turda akademik kaynakla doğrulanmadı. || TEK KAYNAK (Britannica); çift teyit yok. Gün yok, yıl hassasiyeti. Zincir (sahip) YAZILMADI: kaynak 'şu yer şu devletin' biçiminde sahip/dönem günü vermiyor. Nicelik ilk_anilis: 1880 yıllı en erken tanıktır, şehrin kuruluşu değildir (Britannica 'a settlement of a few hundred inhabitants' der).",
+  "ad_kaynak": [
+   {
+    "ad": "Bamako",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Bamako' https://www.britannica.com/place/Bamako",
+    "kanit": "Bamako, Mali."
+   }
+  ]
  },
  {
   "id": "dikwa-af-p9",

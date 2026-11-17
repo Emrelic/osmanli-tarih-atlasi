@@ -1,0 +1,82 @@
+[
+ {
+  "konu": "Karakurum 1220",
+  "karar": "KABUL",
+  "hedef": [
+   {
+    "dosya": "sehir_tarihce_orta_asya.js",
+    "id": "karakurum-mn"
+   },
+   {
+    "dosya": "sehir_tarihce_k12.js",
+    "id": "karakurum"
+   }
+  ],
+  "degisiklik": "ilk.t 1220-01-01 KALIR; ilk olgusu 'Cengiz Han'ın karargâh yeri seçildi/belirlendi' (kuruldu değil); şehrin inşası Ögedey (yılsız, Cüveynî); sur/saray 1235 AYRI olay (Britannica, Bonn kazı projesi, Boyle/Reşîdüddîn n.269); çift teyit yazılmaz (Cüveynî-Reşîdüddîn ortak soy; Britannica kaynakçasız): tek soy beyan.",
+  "ic_not": "Karakurum 1220: TDV (Karakorum md.) 'Cengiz Han tarafindan 1220'de kurulmustur' der; Boyle (Rasidüddin cev., 1971, n.269: 'capital seems to have been fixed there as early as 1220; not walled till 1235'), Bonn Univ. kazi projesi ('1220 Orhun vadisini ikametgah yeri olarak belirledi; somut insaat Ogedey'e ait, 1235 sur+saray') ve Britannica (1220 karargah; 1235 surlar+saray) bu yilin karargah yeri secimi oldugunu dogrular; Cuveyni (Boyle 1958) sehri Ogedey'in 'kurdurdugunu' yilsiz yazar. Cift teyit YOK (bagimsizlik kanitlanamadi): 1220 TDV degeri olarak kalir, ilk.t 'karargah yeri belirlendi (gelenek)'; sehrin insasi/surlari 1235 (Ogedey) beyan edilir."
+ },
+ {
+  "konu": "Şehrisebz/Keş ilk anılış",
+  "karar": "KABUL",
+  "hedef": [
+   {
+    "dosya": "sehir_tarihce_orta_asya.js",
+    "id": "sehrisebz-kes-uz"
+   },
+   {
+    "dosya": "sehir_tarihce_k12.js",
+    "id": "sehrisebz"
+   }
+  ],
+  "degisiklik": "ilk_anilis 0642-01-01 (yıl; Chavannes 1903 s.146-147 'La seizième année tcheng-koan (642)' + Iranica 'Keš' 'His successor in 642, Shashebi' = aynı Çin zinciri, TEK SOY, tek kaynak beyanlı); 1380 Ak Saray BİNA olayı olarak ayrı. ilk.t geri çekilince zincir 642→atlas başlangıcı (1281) gerekir: ATLAS-BASLANGIC-ADAYLARI-LAB.tsv'ye eklendi (dikiş beyanı; 639 yıl fark KASA ölçer). LAB kaydında ilk.t DEĞİŞTİRİLMEDİ (zincir olmadan 'zincir boş' ihlali).",
+  "ic_not": "Keş ilk anılış: Atlasın ilk_anilis'i (1380 Ak Saray) bina tarihidir (Iranica 'Keš': 'Āq-sarāy palace, 1380'). En erken açık yıllı kayıt: Tang kaydı, Keş prensi Shashebi'nin 642 elçisi (Chavannes 1903 s.146-147: 'La seizième année tcheng-koan (642)'; Iranica 'Keš': 'His successor in 642, Shashebi'; Iranica ve Chavannes aynı Çin kaynak zincirine dayanır: tek soy). Sui ta-ye dönemi (605-616) Ti-tcho'nun şehri 'inşa ettiği' (yıl verilmez), Xuanzang'ın Ki-shwang-na'sı (Beal 1884; yıl yok) ve 544 Nesturi piskopos David (Iranica 'Kish', Chabot 1902 s.680; kimlik tartışmalı, Sachau/Streck Basra Körfezi Kîş adı okur, birincil okunmadı) beyanlı adaylardır. Seçim: 0642-01-01 (yıl)."
+ },
+ {
+  "konu": "Kahire 969",
+  "karar": "KABUL",
+  "hedef": [
+   {
+    "dosya": "sehir_tarihce_k3_g1.js/osm.js",
+    "id": "cairo"
+   },
+   {
+    "dosya": "atlas",
+    "id": "Kahire (0969-07-01 başlangıç)"
+   }
+  ],
+  "degisiklik": "gün 0969-07-06 (Jülyen; 17 Şâban 358, Salı; Fustat'a giriş + aynı gece Kahire'nin temel atılışı); 0969-07-01 ve 0969-07-03 hiçbir kaynakta yok; 9 Temmuz ilk Fâtımî hutbesi AYRI olgu. ic_not: de Slane OCR rakam riski (hafta günü uyumu destekliyor), Makrîzî/EI2/Raymond okunmadı, çift teyit yazılmaz.",
+  "ic_not": "Kahire 969: TDV Misir (17 Saban 358/6 Temmuz 969) ile Ibn Hallikan (de Slane 1843, 'Kaid Jawhar': Cevher Misr'i Sali gunu Saban 358'de ele gecirdi, ayni gun/gece yeni sehrin sinirlarini cizdi, ertesi sabah temeller kazilmis bulundu) uyumludur; Cambridge History of Egypt I (Petry 1998) yalnizca 'Temmuz' ve Cuma 9 Temmuz'daki ilk Fatimi hutbesini verir (farkli olgu); Lane-Poole (1902) kendi icinde celisik (5 Agustos / Temmuz). Karar: 0969-07-06 (Julyen; 17 Saban 358, Sali) fetih=Fustat'a giris, temel atilis ayni gece; 1 ve 3 Temmuz kaynaksiz. Makrizi/EI2/Raymond okunmadi; cift teyit yazilmaz; Ibn Hallikan OCR rakami goruntuyle dogrulanmadi."
+ },
+ {
+  "konu": "Turan Şah ölümü 1250",
+  "karar": "EMRELİC: TDV DEĞERİ KALIR",
+  "hedef": [
+   {
+    "dosya": "kronoloji (Turan Şah öldürüldü)",
+    "id": "1250"
+   },
+   {
+    "dosya": "şehir olayları (asyut/banha/qena/alexandria/cairo)",
+    "id": "Turan Şah"
+   }
+  ],
+  "degisiklik": "Runciman 1954 s.272 ('on 2 May') + Setton II 1969 ch.XX ('Monday, May 2') ortak Makrîzî dayanağı → BAĞIMSIZ SAYILMAZ; mevcut değer (TDV Eyyûbîler: 30 Nisan 1250) KALIR; 2 Mayıs 1250 İKİNCİ ADAY olarak ic_not'ta iki kaynağıyla; TDV iç çelişkisi (Eyyûbîler 30 Nisan ↔ Şecerüddür 30 Muharrem 648/4 Mayıs) ayrıca beyan edilir; Cambridge Hist. Egypt 27 Muharrem/1 Mayıs; Britannica 30 Nisan.",
+  "ic_not": "Turan Şah'ın öldürülmesi: TDV Eyyûbîler 30 Nisan 1250, TDV Şecerüddür 30 Muharrem 648/4 Mayıs 1250 (iç çelişki), Britannica 30 Nisan, Cambridge History of Egypt I (1998) 27 Muharrem 648/1 Mayıs; Runciman (A History of the Crusades III, 1954, s.272: '2 May') ve Setton (ed.), A History of the Crusades II (1969, ch. XX: 'Monday, May 2'; dipnot Makrîzî Sulûk I,345, İbn Vâsıl, Ebü'l-Mehâsin Nücûm VI) bağımsız iki akademik kaynak olarak 2 Mayıs 1250 (Jülyen Pazartesi, ~28 Muharrem 648) verir; hicrî→mîlâdî tablo çevirisi (sivil epoch: 1 Muharrem 648 = 5 Nisan 1250 Jülyen) ve Joinville zinciri (Dimyat teslimi 6 Mayıs) uyumlu. Karar: 1250-05-02. TDV'nin iki değeri ve Britannica'nın 30 Nisan'ı reddedilir; Makrîzî Sulûk, Humphreys, Irwin okunmadı."
+ },
+ {
+  "konu": "Besâsîrî Bağdat girişi",
+  "karar": "KABUL",
+  "hedef": [
+   {
+    "dosya": "kronoloji_cok_once1281_ortadogu.js",
+    "id": "t=1058-12-27 Besâsîrî Bağdat işgal"
+   },
+   {
+    "dosya": "şehir olayları (baghdad osm-12)",
+    "id": "baghdad"
+   }
+  ],
+  "degisiklik": "27 Aralık 1058 KALIR (Pazar, 8 Zilkâde 450). Kayıt metnindeki 'halifeyi esir aldı' ve 'hutbeyi Fâtımî halifesi adına okuttu (Cuma)' bu güne ait DEĞİL: AYRIŞTIR → doğu yakasına geçiş 16 Zilkâde/4 Ocak 1059, Rusâfa hutbesi ~8 Ocak 1059, halife esiri ~17-18 Ocak 1059 (ayrı olaylar; TDV 'Ocak 1059' bunlara uyar); ic_not'ta İbnü'l-Cevzî 6 Zilkâde/25 Aralık farkı (Richards dipnotu).",
+  "ic_not": "Besâsîrî'nin Bağdat'a girişi: TDV Besâsîrî '(Ocak 1059)' ile atlas kronoloji kaydı 27 Aralık 1058 çelişir. İbnü'l-Esîr (Richards 2002, Annals of the Saljuq Turks, yıl 450): Pazar 8 Zilkâde 450/27 Aralık 1058 giriş ve Mansûr Camii'nde Fâtımî hutbesi; Richards dipnotu: İbnü'l-Cevzî (Mir'at) 6 Zilkâde/25 Aralık; doğu yakasına geçiş 16 Zilkâde/4 Ocak 1059, Rusâfa hutbesi ~8 Ocak 1059; Kâim'in esir alınması 29-30 Zilkâde sırası (~17-18 Ocak 1059); Cambridge History of Iran V (Bosworth) 'sonu 450/1058 sonu'. Bağımsız ikinci gün teyidi çıkmadı (İbnü'l-Cevzî doğrudan, Iranica, Britannica okunmadı). Seçim: giriş 1058-12-27 (Jülyen); 'Cuma hutbesi' ve 'halifeyi esir aldı' ifadeleri bu güne ait değildir: halife esiri Ocak 1059 (TDV 'Ocak 1059' bu olguya uyar)."
+ }
+]
