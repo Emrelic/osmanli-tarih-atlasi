@@ -137,6 +137,7 @@ denetim/_kaynak_denetim_*.json
 # ⚠️ Kök ALTINDAKİ `_` dosyaları TAKİPLİ kalır (`arac/_*` 420 dosya):
 # orada `_` bir artık işareti değil, "iç kullanım" geleneğidir.
 /*.txt
+!/robots.txt
 /*.json
 /*.js
 !/sw.js
