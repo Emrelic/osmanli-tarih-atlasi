@@ -1577,10 +1577,11 @@ function ufukGuncelle(t) {
       if (!aktifAralik(r.fi, r.ti, t)) continue;
       if (!r.ft) {
         r.ft = { type: "Feature",
-                 // 🎨 Devletin rengi BİR TIK AÇIK (`acikTon` — tek otorite).
-                 //    Eski hâl: DOLGU_RENK'in kendisi + opaklık 1 ⇒ bant A'dan
-                 //    AYIRT EDİLEMİYORDU, Emre'nin "koyu renk opak görünüm"ü.
-                 properties: { renk: acikTon(DOLGU_RENK[r.d] || "#8e0b22"), kim: r.d },
+                 // 🎨 UFUK-BANT-1117 (Emre): "renklendirme bant yüzünden DEĞİŞMEMELİ".
+                 //    Bant tabanın YERİNE geçer ve gövdesi taban hattından geçer ⇒ renk
+                 //    tabanın rengidir (`DOLGU_RENK`); `acikTon` (%20 açma) KALDIRILDI.
+                 //    Opaklık `SIYASI_KIP.*["ufuk-bant-alan"]` ifadesiyle tabanla aynı.
+                 properties: { renk: DOLGU_RENK[r.d] || "#8e0b22", kim: r.d },
                  geometry: parcaCoz(r.g, ufukHavuz, ufukParca) };
       }
       if (!r.ft.geometry || !r.ft.geometry.coordinates.length) continue;
@@ -1635,6 +1636,7 @@ function ufukSeciciKur() {
         ufukRozet(istenen > 5 && ufukHata ? ufukHata : "");
       }
       ufukSecimEsitle();               // düğme katmanın GERÇEK hâlini göstersin
+      try { dolguImza = null; dolguGuncelle(suanki); } catch (e) { /* stil hazır değil */ }
     }
     if (istenen <= 5) { uygula(true); return; }
     if (!ufukVeri && !ufukHata) ufukRozet("yükleniyor…");
@@ -1729,6 +1731,18 @@ function dolguGuncelle(t) {
            harita.getLayoutProperty("dolgu-b-alan", "visibility") !== "none";
   } catch (e) { acik = false; }
   if (!acik) { dolguImza = null; return; }
+  // 🔴 UFUK-BANT-1117: ufuk bandı (7/10) tabanın YERİNE geçer ve gövdesi zaten B dolgu
+  //    hattından (kapat/B1/B2/B3) geçmiş hâlde gelir ⇒ Ⓑ dolgu katmanı bandın ÜSTÜNE
+  //    binmesin (çift boyama). Bant kapanınca imza sıfırlanıp dolgu yeniden yazılır.
+  var bantta = false;
+  try { bantta = ufukAcik() && ufukGun > 5; } catch (e) { bantta = false; }
+  if (bantta) {
+    if (dolguImza !== "BANT") {
+      dolguImza = "BANT";
+      try { harita.getSource("dolgu").setData(bosVeri()); } catch (e) { /* kaynak yok */ }
+    }
+    return;
+  }
   var fs = [], imza = "";
   for (var i = 0; i < dolgular.length; i++) {
     var r = dolgular[i];
@@ -2894,7 +2908,7 @@ harita.on("load", function () {
   harita.addSource("ufuk-bant", agirKaynak());
   harita.addLayer({ id: "ufuk-bant-alan", type: "fill", source: "ufuk-bant",
     layout: { visibility: "none" },
-    paint: { "fill-color": ["coalesce", ["get", "renk"], acikTon("#8e0b22")],
+    paint: { "fill-color": ["coalesce", ["get", "renk"], "#8e0b22"],
              "fill-opacity": 1 } }, "devlet-dolgu");
   harita.addLayer({ id: "devlet-cizgi", type: "line", source: "devlet",
     paint: { "line-color": ["get", "renk"], "line-width": 1.5, "line-opacity": 0.85 } });

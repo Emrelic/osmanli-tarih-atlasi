@@ -43,6 +43,14 @@ import time
 
 import shapely
 from shapely import STRtree
+
+# UFUK-BANT-1117 (madde 3): bu modülün `except Exception` kollarının SESSİZ yutması
+# sayılır ve koşu sonunda raporlanır (`uret_petek.py` basar). Anahtar = yutma yeri.
+YUTMA = {}
+
+
+def _yut(yer):
+    YUTMA[yer] = YUTMA.get(yer, 0) + 1
 from shapely.geometry import (MultiPoint, MultiPolygon, Polygon, box, mapping,
                               shape)
 from shapely.ops import unary_union, voronoi_diagram
@@ -276,6 +284,7 @@ class KaraIndeks(object):
         try:
             ix = self.agac.query(g)
         except Exception:
+            _yut("kes:sorgu (g aynen döndü)")
             return g
         if len(ix) == 0:
             return Polygon()
@@ -283,6 +292,7 @@ class KaraIndeks(object):
             yerel = unary_union([self.parcalar[int(q)] for q in ix])
             return _temiz(g.intersection(yerel))
         except Exception:
+            _yut("kes:kesişim (boş döndü)")
             return Polygon()
 
 
@@ -296,6 +306,7 @@ def _deniz_kapanisi(g, kaba, kara_hazir, r):
     try:
         ix = kara_hazir.agac.query(kutu)
     except Exception:
+        _yut("deniz_kapanisi:sorgu (boş döndü)")
         return Polygon()
     yerel = (unary_union([kara_hazir.parcalar[int(q)] for q in ix])
              if len(ix) else Polygon())
@@ -349,11 +360,13 @@ def _talep(g, kara_hazir, kara, r_km):
             if kaba.is_empty:
                 kaba = g
         except Exception:
+            _yut("kapanis:sadelestirme (sadeleştirmesiz devam)")
             kaba = g
     try:
         kap = kaba.buffer(r, quad_segs=2, join_style=1).buffer(
             -r, quad_segs=2, join_style=1)
     except Exception:
+        _yut("kapanis:buffer (boş döndü)")
         return Polygon()
     kap = _temiz(kap)
     if kap.is_empty:
@@ -365,7 +378,7 @@ def _talep(g, kara_hazir, kara, r_km):
             kap = _temiz(unary_union([kap, _deniz_kapanisi(
                 g, kaba, kara_hazir, r)]))
         except Exception:
-            pass
+            _yut("kapanis:deniz_kapanisi (eklenmedi)")
     if kap.is_empty:
         return Polygon()
     t = _temiz(kap.difference(g))
@@ -416,6 +429,7 @@ def _paylas(alan, adaylar):
         try:
             hat = g.boundary.intersection(cevre)
         except Exception:
+            _yut("kopru:sinir_kesisimi (aday atlandı)")
             continue
         if hat.is_empty:
             continue
