@@ -1,0 +1,13 @@
+id	ad	neden
+murmansk-ru	Murmansk	kaynaklar çelişkili: Britannica 'founded in 1915', Treccani 'Piccolo villaggio fino al 1916', LISTE notu 1916; üçüncü kaynak okunmadı
+grozny-ru	Grozny	Britannica 1818 okundu ama atlas 'Grozni (Groznıy)' noktası 1991-11-01 ickerya'da başlıyor: 1818→1991 zincir (1917 Sovyet Rusya + 1991 günü) için ek kaynak gerekir
+makhachkala-ru	Makhachkala	atlas 'Tarki (Tarku)' noktası 0,2 km'de (1281 altinorda): aynı koordinat mükerrer/yer eşlemesi şüphesi; Britannica Petrovskoye 1844 okundu, çözülmeden yazılmadı
+khanty-mansiysk-ru	Khanty-Mansiysk	atlas 'Samarovo' (1637 rusya) 1,5 km'de; Britannica 1931/1950 var, Samarovo köyünün yaşı yok: eşleme çözülmeden yazılmadı
+cherkessk-ru	Cherkessk	Britannica sayfası yok (404); Treccani/EoU okunmadı
+magas-ru	Magas	kaynak bulunamadı (Britannica'da yok)
+simferopol	Simferopol	atlas 'Akmescid' (1281 altinorda) aynı noktada; Britannica 1784 kuruluşu Ak-Mechet'e bitişik diyor: şehrin kendi başlangıcı/Ak-Mechet ilişkisi ikinci kaynakla çözülmedi
+kostroma	Kostroma	LISTE koordinatı (58.383,42.35) Galich'e ait, Kostroma şehri değil (57.77,40.93); satır düzeltilmeden yazılmadı
+poltava, zhytomyr, chernihiv, kamianets-podilskyi, uzhhorod, lviv-olmayanlar	Ukrayna kat 2 geri kalanı	bu turda okunmadı (EoU/Britannica sayfaları çekildi ama kuruluş-ilk anılış tarihi sınırı ve 1281 öncesi zincir kurulamadı); koordinat LISTE'de boş
+vitebsk, grodno, mogilev, chisinau-olmayan Belarus	Belarus kat 2	Britannica 404; Treccani/VLE bu turda sınanmadı
+klaipeda-lt, alytus-lt, marijampole-lt, narva-ee, liepaja-lv, cahul-md ve öteki Baltık ek-merkezler	Baltık	1900'e kadar çok sahipli zincir (Töton/Prusya/İsveç/Polonya/Rusya) günlü tanık gerektirir; bu turda kurulamadı
+sankt-peterburg yok	-	yazıldı (sankt-peterburg-ru)

@@ -1,0 +1,158 @@
+[
+ {
+  "id": "karabuk-tr",
+  "ad": "Karabük",
+  "atlas_ad": null,
+  "lat": 41.2049,
+  "lon": 32.6277,
+  "kat1900": 3,
+  "adlar": [
+   "Karabük"
+  ],
+  "ilk": {
+   "t": "1897-01-01",
+   "gun": "1314 (1897)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/karabuk (KARABÜK)",
+   "tanik": "1314 (1897) tarihli Kastamonu Vilâyeti Salnâmesi’ne göre (s. 289) Safranbolu’ya bağlı köyler arasında yer alan Karabük on dokuz hânede seksen bir kişinin yaşadığı küçük bir yer durumundaydı"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1897-01-01",
+    "t": "1900-01-01",
+    "d": "osmanli",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/karabuk (KARABÜK)",
+    "ic_not": "Osmanlı sahipliği ilk anılıştan itibaren: kaynak kaydı Osmanlı idarî kaydıdır; ilk.t en geç tanıktır (f en geç tanıktan)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1897-01-01",
+    "gun": "1314 (1897)",
+    "k": "diger",
+    "b": "Kastamonu Vilâyeti Salnâmesi: Karabük, Safranbolu’ya bağlı köylerden, 19 hâne / 81 kişi",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/karabuk (KARABÜK)"
+   },
+   {
+    "t": "1937-04-03",
+    "gun": "3 Nisan 1937",
+    "k": "kurulus",
+    "b": "Karabük demir-çelik fabrikasının temeli atıldı",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/karabuk (KARABÜK)"
+   },
+   {
+    "t": "1939-06-06",
+    "gun": "6 Haziran 1939",
+    "k": "kurulus",
+    "b": "fabrika işletmeye açıldı",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/karabuk (KARABÜK)"
+   }
+  ],
+  "ic_not": "TDV: 'Bu küçük yerleşmenin ne zaman kurulduğu hakkında bilgi yoktur. 937 (1530) tarihli tahrir kayıtlarında Taraklıborlu (Safranbolu) kazasına bağlı köyler arasında Karabük adı geçmez.' => kuruluş yazılmadı. 'Karabük mevkiinde Devleşe divanı’nda Ârif Şeyh’in vakıflarından' bahseden tahrir kaydı TARİHSİZ (438 No'lu Muhâsebe-i Vilâyet-i Anadolu Defteri; yıl TDV'de yok): daha erken olabilir, borç. Osmanlı sahipliği Kastamonu Vilâyeti idarî kaydıyla en geç tanıktan (1897). | TANIK: TDV tam gövdesinden birebir cümle (17 Kas 2026, gömülü tarayıcı). Tek kaynak (TDV)."
+ },
+ {
+  "id": "kirikkale-tr",
+  "ad": "Kırıkkale",
+  "atlas_ad": null,
+  "lat": 39.8453,
+  "lon": 33.5064,
+  "kat1900": 3,
+  "adlar": [
+   "Kırıklu / Kırıkkale"
+  ],
+  "ilk": {
+   "t": "1700-01-01",
+   "gun": "17. yüzyıl başları (XVII. yüzyıl)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yuzyil",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/kirikkale (KIRIKKALE)",
+   "tanik": "XVII. yüzyıl başlarına ait bir mühimme kaydında Kırıklu adlı köy halkının eşkıya saldırılarına karşı civardaki kaleyi tamir edip savunma yeri olarak kullanmasına izin verildiğinin belirtilmesi Kırıkkale adının nasıl ortaya çıktığına da işaret eder"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1700-01-01",
+    "t": "1900-01-01",
+    "d": "osmanli",
+    "kesinlik": "yuzyil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/kirikkale (KIRIKKALE)",
+    "ic_not": "Osmanlı sahipliği ilk anılıştan itibaren: kaynak kaydı Osmanlı idarî kaydıdır; ilk.t en geç tanıktır (f en geç tanıktan)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1925-01-01",
+    "gun": "1925",
+    "k": "kurulus",
+    "b": "savunma sanayii kuruldu; Kırıkkale bunun sonucu şehir özelliği kazandı",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/kirikkale (KIRIKKALE)"
+   }
+  ],
+  "ic_not": "TANIK KURALI: kayıt 'Kırıklu adlı köy' ve 'civardaki kale' ile ilgilidir; 'Kırıkkale' adının doğuşuna işaret eder (özne belirsiz) => kesinlik yuzyil; yüzyıl hassasiyeti: XVII. yüzyıl BAŞLARI için güvenli uç 1700 (yaklaşık, beyan). Tarihli en erken kayıt TDV'de 937/1530 defteri (Kırıklu Türkmen topluluğu, Kırşehir civarı, Kırıkkale'nin kendisi değil) — kullanılmadı. Osmanlı: TDV 'XV. yüzyılda kesin olarak Osmanlı topraklarına katıldı' (yüzyıl); zincir ilk anılıştan itibaren osmanli (f en geç tanıktan). | TANIK: TDV tam gövdesinden birebir cümle (17 Kas 2026, gömülü tarayıcı). Tek kaynak (TDV)."
+ },
+ {
+  "id": "igdir-tr",
+  "ad": "Iğdır",
+  "atlas_ad": null,
+  "lat": 39.9237,
+  "lon": 44.045,
+  "kat1900": 3,
+  "adlar": [
+   "Şatık Kalesi/Hisarı",
+   "Iğdır Korganı",
+   "Iğdır"
+  ],
+  "ilk": {
+   "t": "1064-01-01",
+   "gun": "1064",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "belirsiz",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/igdir--sehir (IĞDIR)",
+   "tanik": "Dede Korkut Oğuznâmeleri’nde Şatık Kalesi olarak geçen ve 1064 yılında Melikşah tarafından Bizanslılar’dan alınan kalenin burası olduğu sanılmaktadır"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1064-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/igdir--sehir (IĞDIR)",
+    "ic_not": "Şehir var, sahiplik zinciri kaynaklı kurulmadı (bu partide yalnız ilk anılış + olay yazıldı); zincir sonraki iş."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1064-01-01",
+    "gun": "1064",
+    "k": "fetih",
+    "b": "Melikşah Şatık Hisarı’nı Bizanslılar’dan aldı (Kars’ın fethiyle (1064) sonuçlanan Selçuklu akınları sırasında); sonra Iğdır Korganı/Kalesi denmeye başlandı",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/igdir--sehir (IĞDIR)"
+   },
+   {
+    "t": "1232-01-01",
+    "gun": "1232",
+    "k": "fetih",
+    "b": "Kemâleddin Sürmeli Çukur’u (Iğdır bir kenarında) Anadolu Selçuklu topraklarına kattı",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/igdir--sehir (IĞDIR)"
+   },
+   {
+    "t": "1404-05-30",
+    "gun": "30 Mayıs 1404",
+    "k": "diger",
+    "b": "İspanya elçisi Clavijo Iğdır adlı kayalık üzerindeki kaleyi anlatır (1404'te kale Timur tarafından zaptedilmişti)",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/igdir--sehir (IĞDIR)"
+   }
+  ],
+  "ic_not": "TANIK KURALI: 'olduğu sanılmaktadır' (Kırzıoğlu, Anı Şehri Tarihi s.31) — Şatık=Iğdır kalesi eşitlemesi kaynakta KESİN DEĞİL => kesinlik belirsiz; yeri kesin olmayan ad eşitlemesi başlangıç sayılmamalıydı (VERI-YAPISI): yerinde kesin tanık: 30 Mayıs 1404 (Clavijo 'Iğdır' adını yazar) ama o daha geç tarih. Karar: 1064 belirsiz olarak yazıldı, beyan edildi; kesin ilk anılış günü olarak 1404-05-30 olay[]de. TDV: Osman devrinde (644-656) Aras havzasına akınlar, bölge cümlesi, yazılmadı. Sahip zinciri kurulmadı (BOSLUK). | TANIK: TDV tam gövdesinden birebir cümle (17 Kas 2026, gömülü tarayıcı). Tek kaynak (TDV)."
+ }
+]

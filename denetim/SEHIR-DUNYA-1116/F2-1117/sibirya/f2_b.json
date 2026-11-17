@@ -1,0 +1,511 @@
+[
+ {
+  "id": "achinsk",
+  "ad": "Achinsk",
+  "atlas_ad": null,
+  "lat": 56.2679,
+  "lon": 90.5015,
+  "kat1900": 3,
+  "adlar": [
+   "Achinsk"
+  ],
+  "ad_kaynak": "Britannica Achinsk",
+  "ilk": {
+   "t": "1621-01-01",
+   "gun": "1621",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Britannica, 'Achinsk' maddesi (britannica.com/place/Achinsk)",
+   "tanik": "It was founded in 1621 and chartered in 1782."
+  },
+  "kur": {
+   "t": "1621-01-01",
+   "gun": "1621",
+   "kesinlik": "yil",
+   "kaynak": "Britannica, 'Achinsk' maddesi (britannica.com/place/Achinsk)",
+   "tanik": "It was founded in 1621 and chartered in 1782."
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1621-01-01",
+    "t": "1900-01-01",
+    "d": "rusya",
+    "kesinlik": "yil",
+    "kaynak": "Britannica, 'Achinsk' maddesi (britannica.com/place/Achinsk) (Rus Sibirya kolonizasyonu; dolaylı)"
+   }
+  ],
+  "olay": [
+   {
+    "t": "1621-01-01",
+    "gun": "1621",
+    "k": "kurulus",
+    "b": "Achinsk kuruldu",
+    "kaynak": "Britannica, 'Achinsk' maddesi (britannica.com/place/Achinsk)"
+   },
+   {
+    "t": "1782-01-01",
+    "gun": "1782",
+    "k": "diger",
+    "b": "Achinsk kent statüsü (chartered) aldı",
+    "kaynak": "Britannica, 'Achinsk' maddesi (britannica.com/place/Achinsk)"
+   }
+  ],
+  "ic_not": "TEK KAYNAK (Britannica Achinsk); Treccani ve Hrvatska enciklopedija'da madde yok. Zincir 1900'e (atlas noktası yok). Sahiplik (rusya): kuruluşun Rus Sibirya kolonizasyonuna ait olmasından; kaynaklar 'Rusya sahibidir' cümlesini doğrudan yazmaz, dolaylı (kaynak sütunundaki ifade). Takvim: Rusya 1918'e kadar Jülyen kullandı; kaynaklar yalnız yıl (ya da onyıl) verir, yıl hassasiyetinde Jülyen/Gregoryen farkı sonucu değiştirmez, çevrim gerekmedi. koord: GeoNames arama sayfası, 17 Kas 2026 (56°16′04.51″ N, 90°30′05.22″ E). TANIK: tırnak içi cümleler gömülü tarayıcıyla 17 Kasım 2026'da okunan sayfa gövdesinden birebir alındı (sayfa gövdesi okundu, arama özeti değil). "
+ },
+ {
+  "id": "barnaul",
+  "ad": "Barnaul",
+  "atlas_ad": "Barnaul",
+  "lat": 53.348,
+  "lon": 83.778,
+  "kat1900": 3,
+  "adlar": [
+   "Barnaul"
+  ],
+  "ad_kaynak": "Hrvatska enciklopedija; Britannica; Treccani",
+  "ilk": {
+   "t": "1730-01-01",
+   "gun": "1730'lar",
+   "nicelik": "kurulus",
+   "kesinlik": "onyil",
+   "kaynak": "Hrvatska enciklopedija, 'Barnaul' maddesi (enciklopedija.hr/clanak/barnaul)",
+   "tanik": "Osnovan 1730-ih u blizini rudnika i talionice srebra."
+  },
+  "kur": {
+   "t": "1730-01-01",
+   "gun": "1730'lar",
+   "kesinlik": "onyil",
+   "kaynak": "Hrvatska enciklopedija, 'Barnaul' maddesi (enciklopedija.hr/clanak/barnaul)",
+   "tanik": "Osnovan 1730-ih u blizini rudnika i talionice srebra."
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1738-01-01",
+    "gun": "1738",
+    "k": "diger",
+    "b": "Gümüş arıtma işletmesi kuruldu, yerleşim Altay madencilik bölgesinin merkezi oldu",
+    "kaynak": "Britannica, 'Barnaul' maddesi (britannica.com/place/Barnaul) ('In 1738 a silver-refining works was established and the settlement became the hub of the Altay mining region.')"
+   }
+  ],
+  "ic_not": "KURULUŞ 1730'lar (onyıl): yalnız Hrvatska enciklopedija; Britannica 1738'i gümüş arıtma tesisi/merkez diye verir (kuruluş cümlesi değil) — uyumlu ama çift teyit sayılmaz; Treccani yıl vermez. Zincir atlas gereği yazılmadı. Takvim: Rusya 1918'e kadar Jülyen kullandı; kaynaklar yalnız yıl (ya da onyıl) verir, yıl hassasiyetinde Jülyen/Gregoryen farkı sonucu değiştirmez, çevrim gerekmedi. koord: LISTE. TANIK: tırnak içi cümleler gömülü tarayıcıyla 17 Kasım 2026'da okunan sayfa gövdesinden birebir alındı (sayfa gövdesi okundu, arama özeti değil). "
+ },
+ {
+  "id": "beryozovo",
+  "ad": "Berezovo",
+  "atlas_ad": null,
+  "lat": 63.9381,
+  "lon": 65.0419,
+  "kat1900": 3,
+  "adlar": [
+   "Berezovo (Beryozovo)"
+  ],
+  "ad_kaynak": "Hrvatska enciklopedija Berezovo",
+  "ilk": {
+   "t": "1593-01-01",
+   "gun": "1593",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Hrvatska enciklopedija, 'Berezovo' maddesi (enciklopedija.hr/clanak/berezovo)",
+   "tanik": "Ubraja se među najstarija ruska naselja u Sibiru; osnovan 1593."
+  },
+  "kur": {
+   "t": "1593-01-01",
+   "gun": "1593",
+   "kesinlik": "yil",
+   "kaynak": "Hrvatska enciklopedija, 'Berezovo' maddesi (enciklopedija.hr/clanak/berezovo)",
+   "tanik": "Ubraja se među najstarija ruska naselja u Sibiru; osnovan 1593."
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1593-01-01",
+    "t": "1900-01-01",
+    "d": "rusya",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija, 'Berezovo' maddesi (enciklopedija.hr/clanak/berezovo) ('najstarija ruska naselja u Sibiru')"
+   }
+  ],
+  "olay": [
+   {
+    "t": "1593-01-01",
+    "gun": "1593",
+    "k": "kurulus",
+    "b": "Berezovo, Sibirya'nın en eski Rus yerleşimlerinden biri olarak kuruldu",
+    "kaynak": "Hrvatska enciklopedija, 'Berezovo' maddesi (enciklopedija.hr/clanak/berezovo)"
+   }
+  ],
+  "ic_not": "TEK KAYNAK (Hrvatska enciklopedija); Britannica/Treccani'de Berezovo (Hanty-Mansi) maddesi bulunamadı. Zincir 1900'e. HE: XVIII.-XIX. yy politik sürgün yeri (Menshikov). Takvim: Rusya 1918'e kadar Jülyen kullandı; kaynaklar yalnız yıl (ya da onyıl) verir, yıl hassasiyetinde Jülyen/Gregoryen farkı sonucu değiştirmez, çevrim gerekmedi. koord: GeoNames arama sayfası, 17 Kas 2026 (63°56′17.02″ N, 65°02′30.98″ E). TANIK: tırnak içi cümleler gömülü tarayıcıyla 17 Kasım 2026'da okunan sayfa gövdesinden birebir alındı (sayfa gövdesi okundu, arama özeti değil). "
+ },
+ {
+  "id": "biysk",
+  "ad": "Biysk",
+  "atlas_ad": "Biysk",
+  "lat": 52.539,
+  "lon": 85.214,
+  "kat1900": 3,
+  "adlar": [
+   "Biysk"
+  ],
+  "ad_kaynak": "Britannica; Hrvatska enciklopedija",
+  "ilk": {
+   "t": "1709-01-01",
+   "gun": "1709",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Britannica, 'Biysk' maddesi (britannica.com/place/Biysk); Hrvatska enciklopedija, 'Bijsk' maddesi (enciklopedija.hr/clanak/bijsk)",
+   "tanik": "It was founded in 1709 as a fortress and incorporated as a town in 1782."
+  },
+  "kur": {
+   "t": "1709-01-01",
+   "gun": "1709",
+   "kesinlik": "yil",
+   "kaynak": "Britannica, 'Biysk' maddesi (britannica.com/place/Biysk); Hrvatska enciklopedija, 'Bijsk' maddesi (enciklopedija.hr/clanak/bijsk)",
+   "tanik": "It was founded in 1709 as a fortress and incorporated as a town in 1782."
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1709-01-01",
+    "gun": "1709",
+    "k": "kurulus",
+    "b": "Biysk kale olarak kuruldu",
+    "kaynak": "Britannica, 'Biysk' maddesi (britannica.com/place/Biysk); Hrvatska enciklopedija, 'Bijsk' maddesi (enciklopedija.hr/clanak/bijsk) ('Osnovan 1709.')"
+   },
+   {
+    "t": "1782-01-01",
+    "gun": "1782",
+    "k": "diger",
+    "b": "Biysk kasaba statüsü aldı",
+    "kaynak": "Britannica, 'Biysk' maddesi (britannica.com/place/Biysk)"
+   }
+  ],
+  "ic_not": "KURULUŞ 1709: Britannica + Hrvatska enciklopedija — çift teyit. Zincir atlas gereği yazılmadı. Takvim: Rusya 1918'e kadar Jülyen kullandı; kaynaklar yalnız yıl (ya da onyıl) verir, yıl hassasiyetinde Jülyen/Gregoryen farkı sonucu değiştirmez, çevrim gerekmedi. koord: LISTE. TANIK: tırnak içi cümleler gömülü tarayıcıyla 17 Kasım 2026'da okunan sayfa gövdesinden birebir alındı (sayfa gövdesi okundu, arama özeti değil). "
+ },
+ {
+  "id": "eniseysk",
+  "ad": "Yeniseysk",
+  "atlas_ad": null,
+  "lat": 58.4507,
+  "lon": 92.1724,
+  "kat1900": 3,
+  "adlar": [
+   "Yeniseysk (Eniseysk, Jenisejsk)"
+  ],
+  "ad_kaynak": "Hrvatska enciklopedija Jenisejsk",
+  "ilk": {
+   "t": "1619-01-01",
+   "gun": "1619",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Hrvatska enciklopedija, 'Jenisejsk' maddesi (enciklopedija.hr/clanak/jenisejsk)",
+   "tanik": "Osnovan je 1619. kao kažnjenička kolonija."
+  },
+  "kur": {
+   "t": "1619-01-01",
+   "gun": "1619",
+   "kesinlik": "yil",
+   "kaynak": "Hrvatska enciklopedija, 'Jenisejsk' maddesi (enciklopedija.hr/clanak/jenisejsk)",
+   "tanik": "Osnovan je 1619. kao kažnjenička kolonija."
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1619-01-01",
+    "t": "1900-01-01",
+    "d": "rusya",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija, 'Jenisejsk' maddesi (enciklopedija.hr/clanak/jenisejsk) ('značajno uporište u ruskom osvajanju istočnog Sibira')"
+   }
+  ],
+  "olay": [
+   {
+    "t": "1619-01-01",
+    "gun": "1619",
+    "k": "kurulus",
+    "b": "Yeniseysk, cezaevi kolonisi (kažnjenička kolonija) olarak kuruldu",
+    "kaynak": "Hrvatska enciklopedija, 'Jenisejsk' maddesi (enciklopedija.hr/clanak/jenisejsk)"
+   }
+  ],
+  "ic_not": "TEK KAYNAK (Hrvatska enciklopedija); Britannica/Treccani'de madde bulunamadı. Zincir 1900'e. Sahiplik (rusya): kuruluşun Rus Sibirya kolonizasyonuna ait olmasından; kaynaklar 'Rusya sahibidir' cümlesini doğrudan yazmaz, dolaylı (kaynak sütunundaki ifade). Takvim: Rusya 1918'e kadar Jülyen kullandı; kaynaklar yalnız yıl (ya da onyıl) verir, yıl hassasiyetinde Jülyen/Gregoryen farkı sonucu değiştirmez, çevrim gerekmedi. koord: GeoNames arama sayfası, 17 Kas 2026 (58°27′02.63″ N, 92°10′20.75″ E). TANIK: tırnak içi cümleler gömülü tarayıcıyla 17 Kasım 2026'da okunan sayfa gövdesinden birebir alındı (sayfa gövdesi okundu, arama özeti değil). "
+ },
+ {
+  "id": "kansk",
+  "ad": "Kansk",
+  "atlas_ad": "Kansk",
+  "lat": 56.2,
+  "lon": 95.71,
+  "kat1900": 3,
+  "adlar": [
+   "Kansk"
+  ],
+  "ad_kaynak": "Britannica Kansk",
+  "ilk": {
+   "t": "1640-01-01",
+   "gun": "1640",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Britannica, 'Kansk' maddesi (britannica.com/place/Kansk)",
+   "tanik": "Founded in 1640 as a Russian fort, it is a centre of the Kansk-Achinsk lignite basin"
+  },
+  "kur": {
+   "t": "1640-01-01",
+   "gun": "1640",
+   "kesinlik": "yil",
+   "kaynak": "Britannica, 'Kansk' maddesi (britannica.com/place/Kansk)",
+   "tanik": "Founded in 1640 as a Russian fort, it is a centre of the Kansk-Achinsk lignite basin"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1640-01-01",
+    "gun": "1640",
+    "k": "kurulus",
+    "b": "Kansk Rus kalesi olarak kuruldu",
+    "kaynak": "Britannica, 'Kansk' maddesi (britannica.com/place/Kansk)"
+   }
+  ],
+  "ic_not": "KURULUŞ 1640: Britannica; Hrvatska enciklopedija 'Osnovan je početkom XVII. st.' (yüzyıl hassasiyeti, 1640 ile uyumlu; yıl vermez) — bağımsız çift teyit değil, tutarlı. Zincir atlas gereği yazılmadı. Takvim: Rusya 1918'e kadar Jülyen kullandı; kaynaklar yalnız yıl (ya da onyıl) verir, yıl hassasiyetinde Jülyen/Gregoryen farkı sonucu değiştirmez, çevrim gerekmedi. koord: LISTE. TANIK: tırnak içi cümleler gömülü tarayıcıyla 17 Kasım 2026'da okunan sayfa gövdesinden birebir alındı (sayfa gövdesi okundu, arama özeti değil). "
+ },
+ {
+  "id": "khabarovsk",
+  "ad": "Khabarovsk",
+  "atlas_ad": null,
+  "lat": 48.462,
+  "lon": 135.0971,
+  "kat1900": 3,
+  "adlar": [
+   "Khabarovka (karakol; Khabarovsk'un ilk adı)",
+   "Khabarovsk"
+  ],
+  "ad_kaynak": "Britannica; Hrvatska enciklopedija ('Habarovsk, 1858–93.' ad kesiti)",
+  "ilk": {
+   "t": "1858-01-01",
+   "gun": "1858",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Britannica, 'Khabarovsk' maddesi (britannica.com/place/Khabarovsk-Russia); Hrvatska enciklopedija, 'Habarovsk' maddesi (enciklopedija.hr/clanak/habarovsk)",
+   "tanik": "The modern city was founded in 1858 as a military outpost."
+  },
+  "kur": {
+   "t": "1858-01-01",
+   "gun": "1858",
+   "kesinlik": "yil",
+   "kaynak": "Britannica, 'Khabarovsk' maddesi (britannica.com/place/Khabarovsk-Russia); Hrvatska enciklopedija, 'Habarovsk' maddesi (enciklopedija.hr/clanak/habarovsk)",
+   "tanik": "The modern city was founded in 1858 as a military outpost."
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1858-01-01",
+    "t": "1900-01-01",
+    "d": "rusya",
+    "kesinlik": "yil",
+    "kaynak": "Britannica, 'Khabarovsk' maddesi (britannica.com/place/Khabarovsk-Russia) (Rus askerî karakolu, Amur bölgesi; dolaylı)"
+   }
+  ],
+  "olay": [
+   {
+    "t": "1858-01-01",
+    "gun": "1858",
+    "k": "kurulus",
+    "b": "Khabarovsk askerî karakol olarak kuruldu",
+    "kaynak": "Britannica, 'Khabarovsk' maddesi (britannica.com/place/Khabarovsk-Russia); Hrvatska enciklopedija, 'Habarovsk' maddesi (enciklopedija.hr/clanak/habarovsk) ('Osnovan je 1858.')"
+   },
+   {
+    "t": "1893-01-01",
+    "gun": "1893",
+    "k": "diger",
+    "b": "Habarovsk kent statüsü aldı",
+    "kaynak": "Hrvatska enciklopedija, 'Habarovsk' maddesi (enciklopedija.hr/clanak/habarovsk) ('a gradom proglašen 1893.')"
+   }
+  ],
+  "ic_not": "KURULUŞ 1858: Britannica + Hrvatska enciklopedija — çift teyit (Treccani'de Khabarovsk maddesi bulunamadı). Zincir 1900'e; atlasta 'Khabarovsk' noktası bulunamadı (LISTE atlas_ad boş). Sahiplik (rusya): kuruluşun Rus Sibirya kolonizasyonuna ait olmasından; kaynaklar 'Rusya sahibidir' cümlesini doğrudan yazmaz, dolaylı (kaynak sütunundaki ifade). Takvim: Rusya 1918'e kadar Jülyen kullandı; kaynaklar yalnız yıl (ya da onyıl) verir, yıl hassasiyetinde Jülyen/Gregoryen farkı sonucu değiştirmez, çevrim gerekmedi. koord: GeoNames arama sayfası, 17 Kas 2026 (48°27′43.34″ N, 135°05′49.56″ E). TANIK: tırnak içi cümleler gömülü tarayıcıyla 17 Kasım 2026'da okunan sayfa gövdesinden birebir alındı (sayfa gövdesi okundu, arama özeti değil). "
+ },
+ {
+  "id": "korsakov",
+  "ad": "Korsakov",
+  "atlas_ad": "Korsakov (Güney Sahalin)",
+  "lat": 46.633,
+  "lon": 142.786,
+  "kat1900": 3,
+  "adlar": [
+   "Korsakovskiy post (Rus karakolu)",
+   "Ōtomari (Japon; 1905-1945; Britannica)",
+   "Korsakov (1946'dan)"
+  ],
+  "ad_kaynak": "Britannica Korsakov",
+  "ilk": {
+   "t": "1853-01-01",
+   "gun": "1853",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Britannica, 'Korsakov' maddesi (britannica.com/place/Korsakov)",
+   "tanik": "Founded in 1853 as a fortified post, it was the first Russian military post on the island."
+  },
+  "kur": {
+   "t": "1853-01-01",
+   "gun": "1853",
+   "kesinlik": "yil",
+   "kaynak": "Britannica, 'Korsakov' maddesi (britannica.com/place/Korsakov)",
+   "tanik": "Founded in 1853 as a fortified post, it was the first Russian military post on the island."
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1853-01-01",
+    "t": "1875-05-07",
+    "d": "rusya",
+    "kesinlik": "yil",
+    "kaynak": "Britannica, 'Korsakov' maddesi (britannica.com/place/Korsakov) ('the first Russian military post on the island'); zincir atlas başlangıcına (1875-05-07, rusya) kadar"
+   }
+  ],
+  "olay": [
+   {
+    "t": "1853-01-01",
+    "gun": "1853",
+    "k": "kurulus",
+    "b": "Adada ilk Rus askerî karakolu olarak kuruldu",
+    "kaynak": "Britannica, 'Korsakov' maddesi (britannica.com/place/Korsakov)"
+   },
+   {
+    "t": "1905-01-01",
+    "gun": "1905",
+    "k": "kayip",
+    "b": "Güney Sahalin ile birlikte Japonya egemenliğine girdi (Ōtomari)",
+    "kaynak": "Britannica, 'Korsakov' maddesi (britannica.com/place/Korsakov) ('ruled by Japan from 1905 to 1945 and was called Ōtomari')"
+   },
+   {
+    "t": "1946-01-01",
+    "gun": "1946",
+    "k": "diger",
+    "b": "Kent oldu ve Korsakov adını aldı",
+    "kaynak": "Britannica, 'Korsakov' maddesi (britannica.com/place/Korsakov) ('In 1946 it became a city and was given its present name.')"
+   }
+  ],
+  "ic_not": "TEK KAYNAK (Britannica Korsakov). Atlas noktası 'Korsakov (Güney Sahalin)' 1875-05-07'de rusya ile başlıyor; zincir 1853→1875-05-07 (rusya) yazıldı; 1905/1945 geçişi atlasa bırakıldı (1900'den sonra). Sahiplik: Britannica 'first Russian military post' (1853-1875 arası Sahalin ortak/sorunlu idare, dolaylı). Takvim: Rusya 1918'e kadar Jülyen kullandı; kaynaklar yalnız yıl (ya da onyıl) verir, yıl hassasiyetinde Jülyen/Gregoryen farkı sonucu değiştirmez, çevrim gerekmedi. koord: LISTE. TANIK: tırnak içi cümleler gömülü tarayıcıyla 17 Kasım 2026'da okunan sayfa gövdesinden birebir alındı (sayfa gövdesi okundu, arama özeti değil). "
+ },
+ {
+  "id": "kyakhta",
+  "ad": "Kyakhta (Troitskosavsk)",
+  "atlas_ad": null,
+  "lat": 50.3496,
+  "lon": 106.451,
+  "kat1900": 3,
+  "adlar": [
+   "Troitskosavsk (Rus kalesi; 1935'e kadar)",
+   "Kyakhta (komşu köy / 1935'ten kent)"
+  ],
+  "ad_kaynak": "Britannica Kyakhta; LISTE adlar_tarih_sirali ('Troitskosavsk→Kyakhta 1935', Wikipedia'dan, doğrulanmadı)",
+  "ilk": {
+   "t": "1728-01-01",
+   "gun": "1728",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Britannica, 'Kyakhta' maddesi (britannica.com/place/Kyakhta)",
+   "tanik": "The Russian fortress of Troitskosavsk, founded in 1728 adjacent to Kyakhta village"
+  },
+  "kur": {
+   "t": "1728-01-01",
+   "gun": "1728",
+   "kesinlik": "yil",
+   "kaynak": "Britannica, 'Kyakhta' maddesi (britannica.com/place/Kyakhta)",
+   "tanik": "The Russian fortress of Troitskosavsk, founded in 1728 adjacent to Kyakhta village"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1728-01-01",
+    "t": "1900-01-01",
+    "d": "rusya",
+    "kesinlik": "yil",
+    "kaynak": "Britannica, 'Kyakhta' maddesi (britannica.com/place/Kyakhta) ('The Russian fortress of Troitskosavsk')"
+   }
+  ],
+  "olay": [
+   {
+    "t": "1727-01-01",
+    "gun": "1727",
+    "k": "antlasma",
+    "b": "Kyakhta Antlaşması ile Kyakhta Rus-Çin ticaretinin merkezi oldu",
+    "kaynak": "Hrvatska enciklopedija, 'Kjahta' maddesi (enciklopedija.hr/clanak/kjahta) ('ugovorom iz 1727 (Kjahtinski dogovor)')"
+   },
+   {
+    "t": "1728-01-01",
+    "gun": "1728",
+    "k": "kurulus",
+    "b": "Troitskosavsk kalesi Kyakhta köyünün yanında kuruldu",
+    "kaynak": "Britannica, 'Kyakhta' maddesi (britannica.com/place/Kyakhta)"
+   }
+  ],
+  "ic_not": "KURULUŞ: Britannica 'Troitskosavsk 1728' (Kyakhta köyü bitişiğinde; ad_1900 Troitskosavsk); Hrvatska enciklopedija 1727 antlaşmasını verir (kuruluş değil). Yıl farkı yok çelişki değil. Kyakhta köyü Troitskosavsk'tan önce vardı (Britannica: 'adjacent') ama tarihi kaynakta yok. 1935 ad değişikliği doğrulanmadı. Zincir 1900'e. Takvim: Rusya 1918'e kadar Jülyen kullandı; kaynaklar yalnız yıl (ya da onyıl) verir, yıl hassasiyetinde Jülyen/Gregoryen farkı sonucu değiştirmez, çevrim gerekmedi. koord: GeoNames arama sayfası, 17 Kas 2026 (50°20′58.42″ N, 106°27′03.60″ E). TANIK: tırnak içi cümleler gömülü tarayıcıyla 17 Kasım 2026'da okunan sayfa gövdesinden birebir alındı (sayfa gövdesi okundu, arama özeti değil). "
+ },
+ {
+  "id": "nerchinsk",
+  "ad": "Nerchinsk",
+  "atlas_ad": null,
+  "lat": 51.9798,
+  "lon": 116.5869,
+  "kat1900": 3,
+  "adlar": [
+   "Nerchinsk"
+  ],
+  "ad_kaynak": "Britannica; Hrvatska enciklopedija",
+  "ilk": {
+   "t": "1654-01-01",
+   "gun": "1654",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Britannica, 'Nerchinsk' maddesi (britannica.com/place/Nerchinsk); Hrvatska enciklopedija, 'Nerčinsk' maddesi (enciklopedija.hr/clanak/nercinsk)",
+   "tanik": "Nerchinsk was founded as a fort in 1654."
+  },
+  "kur": {
+   "t": "1654-01-01",
+   "gun": "1654",
+   "kesinlik": "yil",
+   "kaynak": "Britannica, 'Nerchinsk' maddesi (britannica.com/place/Nerchinsk); Hrvatska enciklopedija, 'Nerčinsk' maddesi (enciklopedija.hr/clanak/nercinsk)",
+   "tanik": "Nerchinsk was founded as a fort in 1654."
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1654-01-01",
+    "t": "1900-01-01",
+    "d": "rusya",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija, 'Nerčinsk' maddesi (enciklopedija.hr/clanak/nercinsk) ('rusko-kineski ugovor' 1689 — Rus kalesi; dolaylı)"
+   }
+  ],
+  "olay": [
+   {
+    "t": "1654-01-01",
+    "gun": "1654",
+    "k": "kurulus",
+    "b": "Nerchinsk kale olarak kuruldu (Çin ticaret yollarını denetlemek için)",
+    "kaynak": "Britannica, 'Nerchinsk' maddesi (britannica.com/place/Nerchinsk); Hrvatska enciklopedija, 'Nerčinsk' maddesi (enciklopedija.hr/clanak/nercinsk) ('Osnovan je 1654. kao utvrda za nadzor trgovačkih putova prema Kini')"
+   },
+   {
+    "t": "1689-01-01",
+    "gun": "1689",
+    "k": "antlasma",
+    "b": "Nerchinsk'te Rus-Çin antlaşması (Çin'in bir Avrupa devletiyle ilk antlaşması) imzalandı",
+    "kaynak": "Hrvatska enciklopedija, 'Nerčinsk' maddesi (enciklopedija.hr/clanak/nercinsk) ('U njem je 1689. sklopljen rusko-kineski ugovor')"
+   }
+  ],
+  "ic_not": "KURULUŞ 1654: Britannica + Hrvatska enciklopedija — çift teyit. Zincir 1900'e (atlas noktası yok; LISTE atlas_ad boş). 1689 olay günü yok (yıl). Sahiplik (rusya): kuruluşun Rus Sibirya kolonizasyonuna ait olmasından; kaynaklar 'Rusya sahibidir' cümlesini doğrudan yazmaz, dolaylı (kaynak sütunundaki ifade). Takvim: Rusya 1918'e kadar Jülyen kullandı; kaynaklar yalnız yıl (ya da onyıl) verir, yıl hassasiyetinde Jülyen/Gregoryen farkı sonucu değiştirmez, çevrim gerekmedi. koord: GeoNames arama sayfası, 17 Kas 2026 (51°58′47.32″ N, 116°35′12.95″ E). TANIK: tırnak içi cümleler gömülü tarayıcıyla 17 Kasım 2026'da okunan sayfa gövdesinden birebir alındı (sayfa gövdesi okundu, arama özeti değil). "
+ }
+]

@@ -1,0 +1,347 @@
+[
+ {
+  "id": "giresun-tr",
+  "ad": "Giresun",
+  "atlas_ad": null,
+  "lat": 40.917,
+  "lon": 38.3874,
+  "kat1900": 3,
+  "adlar": [
+   "Kerasus (Kerasous)",
+   "Farnakia (Pharnakeia)",
+   "Giresun"
+  ],
+  "ilk": {
+   "t": "-0399-01-01",
+   "gun": "MÖ 400’lerin başı",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "onyil",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/giresun (GİRESUN); Ksenofon, Anabasis (TDV aktarımı)",
+   "tanik": "başında bulunduğu Yunanlı askerlerle (Onbinler) milâttan önce 400’lerin başında ulaşıp bir ay kadar kaldıkları Trabzon’dan üç günde Kerasus’a varmışlardı"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "-0399-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/giresun (GİRESUN); Ksenofon, Anabasis (TDV aktarımı)",
+    "ic_not": "Şehir var, sahiplik zinciri kaynaklı kurulmadı (bu partide yalnız ilk anılış + olay yazıldı); zincir sonraki iş."
+   }
+  ],
+  "olay": [
+   {
+    "t": "-0168-01-01",
+    "gun": "MÖ 190-169",
+    "k": "kurulus",
+    "b": "Farnakis (m.ö. 190-169) Giresun yarımadasında Farnakia’yı kurdu (Kerasus Romalılar döneminde bu şehrin adı oldu; TDV, Arrianos aktarımı)",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/giresun (GİRESUN); Ksenofon, Anabasis (TDV aktarımı)"
+   },
+   {
+    "t": "1341-01-01",
+    "gun": "1341",
+    "k": "kayip",
+    "b": "Livadenos’un raporuna göre 1341’den kısa bir süre önce Kerasus Türkmenler’in eline geçti",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/giresun (GİRESUN); Ksenofon, Anabasis (TDV aktarımı)"
+   },
+   {
+    "t": "1348-01-01",
+    "gun": "1348",
+    "k": "diger",
+    "b": "Kerasus Cenevizliler’ce yağmalanıp kale dışındaki yerleşme yeri yakıldı",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/giresun (GİRESUN); Ksenofon, Anabasis (TDV aktarımı)"
+   }
+  ],
+  "ic_not": "Ksenofon tanığı: TDV 'm.ö. 400'lerin başı' der (yıl yok; Anabasis ~MÖ 400 => -0399 onyıl hassasiyeti, gün/yıl uydurulmadı). Kerasus=Giresun kimliği TDV'de tartışmalıdır: TDV 'eski coğrafyacıların karışık bilgileri ... üç ayrı Kerasus' ve 'Kerasus için Giresun’dan daha uzakta herhangi bir yer aramaya da ihtiyaç bulunmamaktadır' (The Byzantine Monuments s.126) — TDV kimliği kabul ediyor, ama 'Ksenofon’un (m.ö. 350) ifadeleri kesin bilgi vermiyor' dediği için ilk.kesinlik onyil/ yer belirsizliği beyanlı. TDV: Kerasus kuruluşu 'MÖ 670'lerde Miletoslar tarafından ... ileri sürülür' (iddia, yazılı tanık değil) ve Arrianos (ö.176) 'Sinoplular tarafından' der — iki TDV içi çelişki; kuruluş yazılmadı. Sahiplik zinciri bu partide kurulmadı (BOSLUK). | TANIK: TDV tam gövdesinden birebir cümle (17 Kas 2026, gömülü tarayıcı). Tek kaynak (TDV)."
+ },
+ {
+  "id": "ordu-tr",
+  "ad": "Ordu",
+  "atlas_ad": null,
+  "lat": 40.9778,
+  "lon": 37.8905,
+  "kat1900": 3,
+  "adlar": [
+   "Kotyora (Kotyôra)",
+   "Bayramlu / Nefs-i Ordu",
+   "Ordu"
+  ],
+  "ilk": {
+   "t": "-0399-01-01",
+   "gun": "MÖ 400’lerin başı",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "onyil",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/ordu--sehir (ORDU); Ksenofon, Anabasis (TDV aktarımı)",
+   "tanik": "Ksenofon’un (Ksenophon) ifadesine göre Kotyora’nın milâttan önce 400’lerin başında hâlâ korunaklı bir site olduğu anlaşılmaktadır"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "-0399-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/ordu--sehir (ORDU); Ksenofon, Anabasis (TDV aktarımı)",
+    "ic_not": "Şehir var, sahiplik zinciri kaynaklı kurulmadı (bu partide yalnız ilk anılış + olay yazıldı); zincir sonraki iş."
+   }
+  ],
+  "olay": [
+   {
+    "t": "-0168-01-01",
+    "gun": "MÖ 190-169",
+    "k": "diger",
+    "b": "Farnakis Giresun yarımadasında Farnakia’yı kurunca Kotyora halkını oraya nakletti",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/ordu--sehir (ORDU); Ksenofon, Anabasis (TDV aktarımı)"
+   },
+   {
+    "t": "0395-01-01",
+    "gun": "395",
+    "k": "diger",
+    "b": "Ordu yöresi Roma İmparatorluğu’ndan sonra Bizans’ın denetimine girdi (TDV 395)",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/ordu--sehir (ORDU); Ksenofon, Anabasis (TDV aktarımı)"
+   },
+   {
+    "t": "1386-01-01",
+    "gun": "788/1386",
+    "k": "diger",
+    "b": "Canik Emîri Tâceddin Bey, Hacı Emîr’in oğlu Süleyman’ın Ordu bölgesindeki topraklarına saldırdı, mağlûp oldu ve öldürüldü",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/ordu--sehir (ORDU); Ksenofon, Anabasis (TDV aktarımı)"
+   },
+   {
+    "t": "1398-01-01",
+    "gun": "800 (1398)",
+    "k": "diger",
+    "b": "Yıldırım Bayezid Canik bölgesine girince Ordu yöresi emîri Süleyman ona tâbi oldu",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/ordu--sehir (ORDU); Ksenofon, Anabasis (TDV aktarımı)"
+   },
+   {
+    "t": "1455-01-01",
+    "gun": "859 (1455)",
+    "k": "diger",
+    "b": "Tahrir Defteri’nde Ordu yöresi 'vilâyet-i Canik-i Bayramlu maa İskefsir ve Milas' kaydedilir",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/ordu--sehir (ORDU); Ksenofon, Anabasis (TDV aktarımı)"
+   },
+   {
+    "t": "1613-01-01",
+    "gun": "1022/1613",
+    "k": "diger",
+    "b": "'nâhiye-i Bayramlu nâm-ı dîger Ordu' adı kaydedilir",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/ordu--sehir (ORDU); Ksenofon, Anabasis (TDV aktarımı)"
+   }
+  ],
+  "ic_not": "Kotyora=Ordu özdeşliği TDV ORDU maddesinde kabul edilir (konum: Ordu yöresi); 'milâttan önce 400’lerin başı' yıl vermez => -0399 onyıl. TANIK KURALI: Ksenofon 'Kotyora'dan söz eder, 'Ordu' adı o dönemde yok; ad eşitlemesi TDV'ye aittir, yeri kesin olmayan başlangıç (bugünkü Ordu merkezi ≠ Kotyora) olabilir (bu yüzden başka noktalarla çakışma ölçülmedi). 395 olayı TDV'de 'yöre' için yıldır (gün yok). Sahiplik zinciri kurulmadı (BOSLUK). | TANIK: TDV tam gövdesinden birebir cümle (17 Kas 2026, gömülü tarayıcı). Tek kaynak (TDV)."
+ },
+ {
+  "id": "gaziantep-tr",
+  "ad": "Gaziantep",
+  "atlas_ad": null,
+  "lat": 37.0594,
+  "lon": 37.3825,
+  "kat1900": 3,
+  "adlar": [
+   "Ayıntâb (Aynütâb)",
+   "Antep",
+   "Gaziantep"
+  ],
+  "ilk": {
+   "t": "1067-01-01",
+   "gun": "1067",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/gaziantep (GAZİANTEP)",
+   "tanik": "1067’de kuvvetleriyle önce Antep ve Ra‘bân’ı (günümüzdeki Araban) aldı"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1067-01-01",
+    "t": "1516-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/gaziantep (GAZİANTEP)",
+    "ic_not": "Şehir var, sahip zinciri bu dönem için kaynaklı kurulmadı (araştırılmadı); TDV olayları olay[]de. "
+   },
+   {
+    "f": "1516-01-01",
+    "t": "1900-01-01",
+    "d": "osmanli",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/gaziantep (GAZİANTEP)",
+    "ic_not": "TDV: 'Gaziantep 1516 yılında Osmanlı topraklarına katılınca' (yıl; gün yok)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1067-01-01",
+    "gun": "1067",
+    "k": "fetih",
+    "b": "Türkmen kumandanı Afşin Antep ve Ra‘bân’ı aldı, sonra Antakya Dukalığı arazisine girdi",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/gaziantep (GAZİANTEP)"
+   },
+   {
+    "t": "1516-01-01",
+    "gun": "1516",
+    "k": "fetih",
+    "b": "Gaziantep Osmanlı topraklarına katıldı (imar faaliyeti hızlandı)",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/gaziantep (GAZİANTEP)"
+   },
+   {
+    "t": "1921-12-25",
+    "gun": "25 Aralık 1921",
+    "k": "kayip",
+    "b": "Fransızlar Ankara Antlaşması’nın ardından şehri boşalttılar, iki yıl süren işgal bitti",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/gaziantep (GAZİANTEP)"
+   }
+  ],
+  "ic_not": "TDV GAZİANTEP iki bölümlü; Antep Kalesi 'Iustinianos devrinde (527-565) ... inşa edilmiş olmalıdır' (varsayım; yazılı tanık değil, kullanılmadı). Dülük (Doliche, antik, Hitit/İskender/Roma) bugünkü Gaziantep merkezinden ~10 km uzakta olduğundan ayrı kayıt önerisi (TDV: 'MÖ 334 İskender ... Dülük'). 1067 Afşin cümlesi yıl+şehir (Antep) aynı cümlede. İlk anılış 782/785 (Hârûnürreşîd/Belâzürî) Dülük için, Antep adı yok. Hitit kronolojisi vb. yazılmadı. | TANIK: TDV tam gövdesinden birebir cümle (17 Kas 2026, gömülü tarayıcı). Tek kaynak (TDV)."
+ },
+ {
+  "id": "karaman-tr",
+  "ad": "Karaman",
+  "atlas_ad": null,
+  "lat": 37.1811,
+  "lon": 33.215,
+  "kat1900": 3,
+  "adlar": [
+   "Laranda (Lârende)",
+   "Karaman"
+  ],
+  "ilk": {
+   "t": "1256-01-01",
+   "gun": "654/1256",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/karaman (KARAMAN)",
+   "tanik": "Eskiçağ’larda Laranda (Lârende) adıyla bilinen şehir ... Selçuklular’ın çöküş dönemi sırasında kurulan Karamanoğulları Beyliği’nin eline geçti (654/1256)"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1256-01-01",
+    "t": "1471-01-01",
+    "d": "karaman",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/karaman (KARAMAN)",
+    "ic_not": "Karamanoğulları Beyliği: 1397 (Bayezid), 1419 (Memlük) kısa ele geçirmeler olay[]de; süreleri TDV'de kısa ('804/1402'de yeniden', '824/1421'de geri aldı) — dönem AÇILMADI, zincir kesintisiz."
+   },
+   {
+    "f": "1471-01-01",
+    "t": "1900-01-01",
+    "d": "osmanli",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/karaman (KARAMAN)",
+    "ic_not": "TDV: 'şehirde kesin Osmanlı hâkimiyeti kuruldu (İA VII, 524-525)'; 875 (1471) yılı baharı, gün yok."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1256-01-01",
+    "gun": "654/1256",
+    "k": "diger",
+    "b": "Lârende Karamanoğulları Beyliği’nin eline geçti ve daha sonra beyliğin merkezi oldu",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/karaman (KARAMAN)"
+   },
+   {
+    "t": "1397-01-01",
+    "gun": "799 (1397)",
+    "k": "fetih",
+    "b": "Yıldırım Bayezid Lârende’yi aldı (804/1402'de yeniden Karamanoğulları'na geçti)",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/karaman (KARAMAN)"
+   },
+   {
+    "t": "1419-01-01",
+    "gun": "822 (1419)",
+    "k": "fetih",
+    "b": "Memlük kuvvetleri Lârende’yi zaptetti (1421'de Karamanlı İbrâhim Bey Osmanlılar’ın yardımıyla geri aldı)",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/karaman (KARAMAN)"
+   },
+   {
+    "t": "1471-01-01",
+    "gun": "875 (1471)",
+    "k": "fetih",
+    "b": "Vezîriâzam İshak Paşa Lârende üzerine yürüyüp burayı aldı; şehirde kesin Osmanlı hâkimiyeti kuruldu",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/karaman (KARAMAN)"
+   }
+  ],
+  "ic_not": "TANIK KURALI: iki cümle arasında '...' elision: ilk cümle Laranda adını verir, ikincisi yıl 654/1256'yı. Eskiçağ (Hitit, Frig MÖ VII. yy, Lidya VI. yy, Pers V. yy sonu) TDV'de yüzyıl hassasiyeti 'hâkimiyeti altına girdi' — yazılı anılış tanığı değil, yazılmadı. Laranda'nın modern Karaman ile aynı yer olduğu TDV'de açık (şehrin eskiçağ adı). Karaman künyesi devletler.js 'karaman' 1256-1483. | TANIK: TDV tam gövdesinden birebir cümle (17 Kas 2026, gömülü tarayıcı). Tek kaynak (TDV)."
+ },
+ {
+  "id": "adapazari-tr",
+  "ad": "Adapazarı",
+  "atlas_ad": null,
+  "lat": 40.7806,
+  "lon": 30.4033,
+  "kat1900": 3,
+  "adlar": [
+   "Adapazarı"
+  ],
+  "ilk": {
+   "t": "1600-01-01",
+   "gun": "16. yüzyıl (XVI. yüzyıl)",
+   "nicelik": "kurulus",
+   "kesinlik": "yuzyil",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/adapazari (ADAPAZARI)",
+   "tanik": "Bu arada Adapazarı da XVI. yüzyılda bir köy olarak kurulmuştur"
+  },
+  "kur": {
+   "t": "1600-01-01",
+   "gun": "16. yüzyıl (XVI. yüzyıl)",
+   "kesinlik": "yuzyil",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/adapazari (ADAPAZARI)",
+   "tanik": "Adapazarı da XVI. yüzyılda bir köy olarak kurulmuştur"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1600-01-01",
+    "t": "1852-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/adapazari (ADAPAZARI)",
+    "ic_not": "Şehir var, sahip zinciri bu dönem için kaynaklı kurulmadı (araştırılmadı); TDV olayları olay[]de. "
+   },
+   {
+    "f": "1852-01-01",
+    "t": "1900-01-01",
+    "d": "osmanli",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/adapazari (ADAPAZARI)",
+    "ic_not": "f en geç tanıktan: TDV 'İzmit sancağına bağlı kaza merkezi (1852)' Osmanlı idarî kaydı; önceki Osmanlı dönemi için gün/yıl yok."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1852-01-01",
+    "gun": "1852",
+    "k": "diger",
+    "b": "Adapazarı İzmit sancağına bağlı bir kaza merkezi durumuna getirildi",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/adapazari (ADAPAZARI)"
+   },
+   {
+    "t": "1869-01-01",
+    "gun": "1869",
+    "k": "diger",
+    "b": "belediye teşkilâtı kuruldu",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/adapazari (ADAPAZARI)"
+   },
+   {
+    "t": "1899-01-01",
+    "gun": "1899",
+    "k": "diger",
+    "b": "Arifiye’den ayrılan 9 km’lik demiryolu hattı Adapazarı’na ulaştı",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/adapazari (ADAPAZARI)"
+   }
+  ],
+  "ic_not": "Yüzyıl hassasiyetinde kuruluş: aralığın SON ucu 1600 güvenli uç. TDV 'Bu arada' ifadesi: bir önceki cümlede bölge anlatısı (Sakarya ovası); kuruluş cümlesi Adapazarı'yı özne alır. Önceki dönemin sahipliği (1600-1852) yazılmadı (BOSLUK). | TANIK: TDV tam gövdesinden birebir cümle (17 Kas 2026, gömülü tarayıcı). Tek kaynak (TDV)."
+ }
+]

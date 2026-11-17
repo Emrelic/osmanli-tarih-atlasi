@@ -1,0 +1,114 @@
+[
+ {
+  "id": "baalbek-lb",
+  "ad": "Baalbek",
+  "atlas_ad": null,
+  "lat": 34.0058,
+  "lon": 36.2181,
+  "kat1900": 3,
+  "adlar": [
+   "Heliopolis",
+   "Ba‘lebek",
+   "Baalbek"
+  ],
+  "ilk": {
+   "t": "0637-01-01",
+   "gun": "637",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/balebek (BA‘LEBEK)",
+   "tanik": "Ömer devrinde Ebû Ubeyde b. Cerrâh tarafından Dımaşk’ın fethinden sonra barış yoluyla alınarak İslâm topraklarına katıldı (637)"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0637-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/balebek (BA‘LEBEK)",
+    "ic_not": "Şehir var, sahiplik zinciri kaynaklı kurulmadı (bu partide yalnız ilk anılış + olay yazıldı); zincir sonraki iş."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0637-01-01",
+    "gun": "637",
+    "k": "fetih",
+    "b": "Ba‘lebek Ebû Ubeyde b. Cerrâh tarafından Dımaşk’ın fethinden sonra barış yoluyla alındı",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/balebek (BA‘LEBEK)"
+   },
+   {
+    "t": "0661-01-01",
+    "gun": "661",
+    "k": "diger",
+    "b": "Muâviye halifeliğini ilân edince Ba‘lebek darphânesinde 'Ba‘lebek' ibareli Emevî dirhemi bastırdı",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/balebek (BA‘LEBEK)"
+   },
+   {
+    "t": "0974-01-01",
+    "gun": "974",
+    "k": "fetih",
+    "b": "Bizans İmparatoru I. Ioannis Tzimiskes’in hâkimiyetine girdi (878-974 Tolunoğulları, İhşîdîler, Hamdânîler, Karmatîler, Fâtımîler)",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/balebek (BA‘LEBEK)"
+   },
+   {
+    "t": "1075-01-01",
+    "gun": "1075",
+    "k": "fetih",
+    "b": "Suriye Selçuklu Meliki Tutuş ve oğullarının hâkimiyetine girdi",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/balebek (BA‘LEBEK)"
+   },
+   {
+    "t": "1136-01-01",
+    "gun": "1136",
+    "k": "fetih",
+    "b": "Halep Valisi Zengî şehri alıp valiliğine Eyyûb’u getirdi",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/balebek (BA‘LEBEK)"
+   },
+   {
+    "t": "1155-01-01",
+    "gun": "1155",
+    "k": "diger",
+    "b": "Nûreddin Zengî Dımaşk’ı alıp Börîler’in hâkimiyetine son verdikten sonra Ba‘lebek’e yöneldi",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/balebek (BA‘LEBEK)"
+   }
+  ],
+  "ic_not": "TANIK KURALI: TDV'de Heliopolis dönemi yalnız hükümdar saltanat aralıklarıyla verilir (Büyük Konstantin 306-337, I. Theodosios 379-395): yıl tanığı değil, yazılmadı; antik Heliopolis (Roma çağı) ilk anılışı ayrı kaynakla borç. 637 TDV açık yıl (fetih). Osmanlı'ya katılış TDV'den okunan cümlelerde yok (BOSLUK). Zincir kurulmadı. | TANIK: TDV tam gövdesinden birebir cümle (17 Kas 2026, gömülü tarayıcı). Tek kaynak (TDV)."
+ },
+ {
+  "id": "sirnak-tr",
+  "ad": "Şırnak",
+  "atlas_ad": null,
+  "lat": 37.5139,
+  "lon": 42.4543,
+  "kat1900": 3,
+  "adlar": [
+   "Şırnak"
+  ],
+  "ilk": {
+   "t": "1900-01-01",
+   "gun": "19. yüzyıl (XIX. yüzyılın sonlarına doğru)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yuzyil",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/sirnak (ŞIRNAK)",
+   "tanik": "Şırnak ismi XIX. yüzyılın sonlarına doğru bir köy adı olarak geçmektedir (Cuinet, II, 612)"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1990-01-01",
+    "gun": "1990",
+    "k": "diger",
+    "b": "Şırnak’ın 1990 yılına kadar bağlı olduğu Siirt (TDV); 1990 = Siirt'e bağlılığın sonu",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/sirnak (ŞIRNAK)"
+   }
+  ],
+  "ic_not": "TANIK KURALI: yüzyıl hassasiyeti 'XIX. yüzyılın sonlarına doğru' => güvenli uç 1900 (ilk.t = zincir sonu 1900-01-01, bu yüzden zincir yok, atlas noktası yok). TDV: 'Önemli bir yol kavşağı olmasına rağmen tarihî kayıtlarda burada herhangi bir yerleşme olduğuna dair bilgilere rastlanmamakta' => kuruluş yazılmadı. 1990 olayı TDV'de 'bağlı olduğu' ifadesiyle (il olma tarihi/maddesi okunmadı): olay gün/yıl 1990 olarak YAKLAŞIK; il kuruluş 1990'a ait olduğu TDV cümlesinde dolaylı. Siirt tarihi (639 İyâz b. Ganm vb.) Şırnak'ın değil Siirt'in tarihidir. | TANIK: TDV tam gövdesinden birebir cümle (17 Kas 2026, gömülü tarayıcı). Tek kaynak (TDV)."
+ }
+]

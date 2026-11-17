@@ -1,0 +1,547 @@
+// ŞEHİR TARİHÇESİ — BALKANLAR_F2D · üretici: arac/sehir_tarihce.py · şema: VERI-YAPISI.md
+// Motor/denetle/site OKUMAZ — araştırma birikimi. Elle düzenleme: JSON'u düzelt, yeniden üret.
+window.SEHIR_TARIHCE_BALKANLAR_F2D = [
+ {
+  "id": "bijeljina-ba",
+  "ad": "Bijeljina",
+  "atlas_ad": null,
+  "lat": 44.7587,
+  "lon": 19.2144,
+  "kat1900": 3,
+  "adlar": [
+   "Biblina",
+   "Belina",
+   "Biljena",
+   "Četvrtkovište",
+   "Bijeljina"
+  ],
+  "ad_kaynak": "Hrvatska enciklopedija, 'Bijeljina' (enciklopedija.hr/clanak/bijeljina; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+  "ilk": {
+   "t": "1378-01-01",
+   "gun": "14. yüzyıl ikinci yarısı (1378 öncesi)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yuzyil",
+   "kaynak": "Hrvatska enciklopedija, 'Bijeljina' (enciklopedija.hr/clanak/bijeljina; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+   "tanik": "U drugoj polovici XIV. st. (prije 1378) spominje se franjevački samostan Biblina"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1378-01-01",
+    "t": "1533-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yuzyil",
+    "kaynak": "Hrvatska enciklopedija, 'Bijeljina' (enciklopedija.hr/clanak/bijeljina; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+    "ic_not": "HE bu aralığın sahibini vermez (Macar/Bosna/Sırp sınır bölgesi); beyanlı boşluk"
+   },
+   {
+    "f": "1533-01-01",
+    "t": "1716-01-01",
+    "d": "osmanli",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija, 'Bijeljina' (enciklopedija.hr/clanak/bijeljina; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+    "ic_not": "f en geç tanıktan: HE 'Četvrtkovište, nahiye merkezi, 1533' (Osmanlı nahiyesi); fetih günü okunmadı; kadılık 1572, kasaba 1580"
+   },
+   {
+    "f": "1716-01-01",
+    "t": "1739-01-01",
+    "d": "habsburg",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija, 'Bijeljina' (enciklopedija.hr/clanak/bijeljina; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   },
+   {
+    "f": "1739-01-01",
+    "t": "1878-01-01",
+    "d": "osmanli",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija, 'Bijeljina' (enciklopedija.hr/clanak/bijeljina; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+    "ic_not": "HE: 'Pod austrijskom upravom 1716-39, te opet nakon 1878' — aradaki dönem Osmanlı çıkarımı"
+   },
+   {
+    "f": "1878-01-01",
+    "t": "1900-01-01",
+    "d": "habsburg",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija, 'Bijeljina' (enciklopedija.hr/clanak/bijeljina; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   }
+  ],
+  "olay": [
+   {
+    "t": "1533-01-01",
+    "gun": "1533",
+    "k": "diger",
+    "b": "Četvrtkovište (Bijeljina'nın adlarından) nahiye merkezi olarak anılır (Osmanlı)",
+    "kaynak": "Hrvatska enciklopedija, 'Bijeljina' (enciklopedija.hr/clanak/bijeljina; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   },
+   {
+    "t": "1572-01-01",
+    "gun": "1572",
+    "k": "diger",
+    "b": "Kadılık kurulur; 1580'de kasaba statüsü",
+    "kaynak": "Hrvatska enciklopedija, 'Bijeljina' (enciklopedija.hr/clanak/bijeljina; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   },
+   {
+    "t": "1716-01-01",
+    "gun": "1716",
+    "k": "fetih",
+    "b": "Avusturya yönetimi başlar (1716-39)",
+    "kaynak": "Hrvatska enciklopedija, 'Bijeljina' (enciklopedija.hr/clanak/bijeljina; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   },
+   {
+    "t": "1739-01-01",
+    "gun": "1739",
+    "k": "antlasma",
+    "b": "Avusturya yönetiminin sonu (1739)",
+    "kaynak": "Hrvatska enciklopedija, 'Bijeljina' (enciklopedija.hr/clanak/bijeljina; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   },
+   {
+    "t": "1878-01-01",
+    "gun": "1878",
+    "k": "fetih",
+    "b": "Avusturya-Macaristan yönetimi (1878'den)",
+    "kaynak": "Hrvatska enciklopedija, 'Bijeljina' (enciklopedija.hr/clanak/bijeljina; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   }
+  ],
+  "ic_not": "ilk: HE manastır (samostan Biblina) tanığıdır, ilk anılış 1378 öncesi — güvenli uç 1378. Adlar HE'den: 'U vrelima se spominje kao Biblina, Belina, Biljena i Četvrtkovište' (dil/dönem ayrımı HE'de yok). Mükerrer: yok. TANIK KURALI: HE tam gövde birebir; Biblina = Bijeljina adı; yıl 1378 'prije'."
+ },
+ {
+  "id": "brcko-ba",
+  "ad": "Brčko",
+  "atlas_ad": null,
+  "lat": 44.8716,
+  "lon": 18.8163,
+  "kat1900": 3,
+  "adlar": [
+   "Brčko"
+  ],
+  "ad_kaynak": "Hrvatska enciklopedija, 'Brčko' (enciklopedija.hr/clanak/brcko; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+  "ilk": {
+   "t": "1512-01-01",
+   "gun": "1512",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "belirsiz",
+   "kaynak": "Hrvatska enciklopedija, 'Brčko' (enciklopedija.hr/clanak/brcko; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+   "tanik": "Konačnom uspostavom osmanske vlasti, nakon pada Srebreničke banovine 1512., brčanska tvrđava i podgrađe počinju se širiti i postupno dobivaju gradsko obilježje."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1512-01-01",
+    "t": "1716-01-01",
+    "d": "osmanli",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija, 'Brčko' (enciklopedija.hr/clanak/brcko; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+    "ic_not": "HE: 1683-99 Viyana savaşında kısa süre kurtarıldı, Karlofça 1699 ile Osmanlı'ya geri verildi"
+   },
+   {
+    "f": "1716-01-01",
+    "t": "1739-01-01",
+    "d": "habsburg",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija, 'Brčko' (enciklopedija.hr/clanak/brcko; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+    "ic_not": "HE: 1716-18 Avusturya-Osmanlı savaşı sonrası Avusturya yönetimi 1739'a kadar"
+   },
+   {
+    "f": "1739-01-01",
+    "t": "1878-01-01",
+    "d": "osmanli",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija, 'Brčko' (enciklopedija.hr/clanak/brcko; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   },
+   {
+    "f": "1878-01-01",
+    "t": "1900-01-01",
+    "d": "habsburg",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija, 'Brčko' (enciklopedija.hr/clanak/brcko; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+    "ic_not": "HE: 1878 Avusturya-Macaristan işgali; 1879 sonuna kadar askerî, 1 Ocak 1880'de sivil yönetim"
+   }
+  ],
+  "olay": [
+   {
+    "t": "1512-01-01",
+    "gun": "1512",
+    "k": "fetih",
+    "b": "Srebrenik Banlığı'nın düşmesinden sonra Osmanlı egemenliği kesinleşir",
+    "kaynak": "Hrvatska enciklopedija, 'Brčko' (enciklopedija.hr/clanak/brcko; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   },
+   {
+    "t": "1716-01-01",
+    "gun": "1716",
+    "k": "fetih",
+    "b": "1716-18 savaşında Avusturya yönetimine geçer",
+    "kaynak": "Hrvatska enciklopedija, 'Brčko' (enciklopedija.hr/clanak/brcko; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   },
+   {
+    "t": "1739-01-01",
+    "gun": "1739",
+    "k": "antlasma",
+    "b": "Osmanlı yönetimine geri döner (1739)",
+    "kaynak": "Hrvatska enciklopedija, 'Brčko' (enciklopedija.hr/clanak/brcko; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   },
+   {
+    "t": "1878-01-01",
+    "gun": "1878",
+    "k": "fetih",
+    "b": "Avusturya-Macaristan ordusu Brčko'yu işgal eder",
+    "kaynak": "Hrvatska enciklopedija, 'Brčko' (enciklopedija.hr/clanak/brcko; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   }
+  ],
+  "ic_not": "ilk: HE 'Brčko je kao naselje postojalo prije osmanskog osvajanja' diyor ama TARİHLİ ilk anılış vermiyor; 1512 Osmanlı egemenliğinin kesinleşmesidir — kale ve podgrađe o tarihte var (belirsiz: ilk tarihli tanık). Daha erken anılış için TDV/Hrvatski leksikon bu parti kapsamında yok. Mükerrer: yok. TANIK KURALI: HE tam gövde birebir; şehir adı yok (brčanska = Brčko'ya ait sıfat)."
+ },
+ {
+  "id": "doboj-ba",
+  "ad": "Doboj",
+  "atlas_ad": null,
+  "lat": 44.7318,
+  "lon": 18.087,
+  "kat1900": 3,
+  "adlar": [
+   "Doboj"
+  ],
+  "ad_kaynak": "Hrvatska enciklopedija, 'Doboj' (enciklopedija.hr/clanak/doboj; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+  "ilk": {
+   "t": "1415-01-01",
+   "gun": "1415",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Hrvatska enciklopedija, 'Doboj' (enciklopedija.hr/clanak/doboj; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+   "tanik": "Srednjovjekovna utvrda prvi se put spominje 1415. u vezi s bitkom u kojoj su osmanske čete"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1415-01-01",
+    "t": "1503-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija, 'Doboj' (enciklopedija.hr/clanak/doboj; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+    "ic_not": "HE: 'Pod osmansku vlast došao je prije 1503.' — Osmanlı fetih günü okunmadı; Bosna Krallığı/Hrvoje Vukčić dönemi şehre özgü okunmadı"
+   },
+   {
+    "f": "1503-01-01",
+    "t": "1878-01-01",
+    "d": "osmanli",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija, 'Doboj' (enciklopedija.hr/clanak/doboj; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+    "ic_not": "f en geç tanıktan (Osmanlı garnizonu 1503'ten önce); 1697 ve 1716-18'de kısa Avusturya işgali zincire yazılmadı"
+   },
+   {
+    "f": "1878-01-01",
+    "t": "1900-01-01",
+    "d": "habsburg",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija, 'Doboj' (enciklopedija.hr/clanak/doboj; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+    "ic_not": "HE: 1878'de Avusturya işgal ordusuyla şiddetli çatışma"
+   }
+  ],
+  "olay": [
+   {
+    "t": "1503-01-01",
+    "gun": "1503",
+    "k": "fetih",
+    "b": "Osmanlı yönetimi: en geç 1503'te garnizon (HE 'prije 1503')",
+    "kaynak": "Hrvatska enciklopedija, 'Doboj' (enciklopedija.hr/clanak/doboj; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   },
+   {
+    "t": "1697-01-01",
+    "gun": "1697",
+    "k": "savas",
+    "b": "Avusturyalılar şehre girer (1683-99 savaşı); 1716-18 savaşında tekrar işgal, varoş ve kale yakılır",
+    "kaynak": "Hrvatska enciklopedija, 'Doboj' (enciklopedija.hr/clanak/doboj; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   },
+   {
+    "t": "1878-01-01",
+    "gun": "1878",
+    "k": "savas",
+    "b": "Avusturya-Macaristan işgal ordusuyla şiddetli çatışmalar",
+    "kaynak": "Hrvatska enciklopedija, 'Doboj' (enciklopedija.hr/clanak/doboj; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   }
+  ],
+  "ic_not": "ilk: HE '1415 ortaçağ kalesinin ilk anılışı — Hrvoje Vukčić'e yardıma gelen Osmanlı birliklerinin Macar ordusunu yendiği savaş'; özne kale (şehirden önce). Mükerrer: yok. TANIK KURALI: HE tam gövde birebir; yıl 1415, şehir adı yok ('utvrda')."
+ },
+ {
+  "id": "gorazde-ba",
+  "ad": "Goražde",
+  "atlas_ad": null,
+  "lat": 43.6679,
+  "lon": 18.9756,
+  "kat1900": 3,
+  "adlar": [
+   "Goražde"
+  ],
+  "ad_kaynak": "Hrvatska enciklopedija, 'Goražde' (enciklopedija.hr/clanak/gorazde; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+  "ilk": {
+   "t": "1379-01-01",
+   "gun": "1379",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Hrvatska enciklopedija, 'Goražde' (enciklopedija.hr/clanak/gorazde; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+   "tanik": "Prvi se put spominje 1379. kao postaja na putu dubrovačke karavanske trgovine, zatim 1404. u svezi s pripadnicima Crkve bosanske i 1415. kao trg."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1379-01-01",
+    "t": "1463-01-01",
+    "d": "bosna-kralligi",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija, 'Goražde' (enciklopedija.hr/clanak/gorazde; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+    "ic_not": "Bosna Krallığı 1463 öncesi: HE açıkça yazmaz, 1463 Osmanlı fethinden geriye çıkarım (beyan); 1444'te Aragon Kralı Alfonso V fermanıyla Hersek Stjepan Vukčić Kosača'ya ait 'župa' (HE) — hersek künyesi 1435-1482 ayrı"
+   },
+   {
+    "f": "1463-01-01",
+    "t": "1878-01-01",
+    "d": "osmanli",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija, 'Goražde' (enciklopedija.hr/clanak/gorazde; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+    "ic_not": "HE: Hersek (1463-1851) ve Saraybosna sancağı (1851-78)"
+   },
+   {
+    "f": "1878-01-01",
+    "t": "1900-01-01",
+    "d": "habsburg",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija, 'Goražde' (enciklopedija.hr/clanak/gorazde; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+    "ic_not": "1878 sonrası Avusturya-Macaristan: HE bu parti için doğrudan okunmadı, Bosna'nın genel işgali (beyan)"
+   }
+  ],
+  "olay": [
+   {
+    "t": "1463-01-01",
+    "gun": "1463",
+    "k": "fetih",
+    "b": "Osmanlılar Goražde'yi fethederler; XVI. yy'da Drina üzerinde ahşap köprü",
+    "kaynak": "Hrvatska enciklopedija, 'Goražde' (enciklopedija.hr/clanak/gorazde; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   },
+   {
+    "t": "1878-01-01",
+    "gun": "1878",
+    "k": "diger",
+    "b": "Saraybosna sancağı dönemi sona erer (HE: 1851-78); Avusturya-Macaristan işgali dönemi (HE bu cümlede söylemez)",
+    "kaynak": "Hrvatska enciklopedija, 'Goražde' (enciklopedija.hr/clanak/gorazde; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   },
+   {
+    "t": "1851-01-01",
+    "gun": "1851",
+    "k": "diger",
+    "b": "Hersek sancağından Saraybosna sancağına geçer (1851-78); 1870-80 bağımsız kadılık",
+    "kaynak": "Hrvatska enciklopedija, 'Goražde' (enciklopedija.hr/clanak/gorazde; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   }
+  ],
+  "ic_not": "ilk: HE '1379 ... karavan istasyonu'. 1878 Habsburg çıkarım (genel Bosna işgali) — şehre özgü okunmadı. Mükerrer: yok. TANIK KURALI: HE tam gövde birebir; şehir adı yok (madde başlığı), yıl 1379."
+ },
+ {
+  "id": "livno-ba",
+  "ad": "Livno",
+  "atlas_ad": null,
+  "lat": 43.827,
+  "lon": 17.0075,
+  "kat1900": 3,
+  "adlar": [
+   "Hlevne / Hlijevno (Konstantinos Porphyrogennetos, X. yy ortası)",
+   "Livno"
+  ],
+  "ad_kaynak": "Hrvatska enciklopedija, 'Livno' (enciklopedija.hr/clanak/livno; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+  "ilk": {
+   "t": "0950-01-01",
+   "gun": "950 civarı",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "onyil",
+   "kaynak": "Hrvatska enciklopedija, 'Livno' (enciklopedija.hr/clanak/livno; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+   "tanik": "Livno prvi put spominje bizantski car Konstantin Porfirogenet polovicom X. st. kao sjedište istoimene starohrvatske županije"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0950-01-01",
+    "t": "1326-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "onyil",
+    "kaynak": "Hrvatska enciklopedija, 'Livno' (enciklopedija.hr/clanak/livno; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+    "ic_not": "HE: 'srednjovjekovna Hrvatska' içinde 1326'ya kadar (Hırvat Krallığı künyesi 925-1102; sonrası Macar tacı) — şehre özgü sıra bu partide kurulmadı"
+   },
+   {
+    "f": "1326-01-01",
+    "t": "1463-01-01",
+    "d": "bosna-kralligi",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija, 'Livno' (enciklopedija.hr/clanak/livno; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+    "ic_not": "HE: 1326'da ilk kez Bosna'ya girer, 1387'de kalıcı; 1485'e kadar bir dizi soylu ailenin hâkimiyeti"
+   },
+   {
+    "f": "1463-01-01",
+    "t": "1878-01-01",
+    "d": "osmanli",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija, 'Livno' (enciklopedija.hr/clanak/livno; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+    "ic_not": "HE: 1463'te Osmanlılar fetheder, 'geçici olarak geri püskürtülür', 1485'te yeniden hâkim olur; Klis Sancağı merkezi, 1699'dan sonra kaptanlık"
+   },
+   {
+    "f": "1878-01-01",
+    "t": "1900-01-01",
+    "d": "habsburg",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija, 'Livno' (enciklopedija.hr/clanak/livno; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   }
+  ],
+  "olay": [
+   {
+    "t": "1326-01-01",
+    "gun": "1326",
+    "k": "diger",
+    "b": "Livno ilk kez Bosna'nın bünyesine girer (kalıcı 1387)",
+    "kaynak": "Hrvatska enciklopedija, 'Livno' (enciklopedija.hr/clanak/livno; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   },
+   {
+    "t": "1463-01-01",
+    "gun": "1463",
+    "k": "fetih",
+    "b": "Osmanlılar Livno'yu fethederler; geçici olarak püskürtülür, 1485'te yeniden",
+    "kaynak": "Hrvatska enciklopedija, 'Livno' (enciklopedija.hr/clanak/livno; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   },
+   {
+    "t": "1878-01-01",
+    "gun": "1878",
+    "k": "fetih",
+    "b": "Avusturya-Macaristan birlikleri Livno'yu işgal eder",
+    "kaynak": "Hrvatska enciklopedija, 'Livno' (enciklopedija.hr/clanak/livno; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   }
+  ],
+  "ic_not": "ilk: HE ilk anılışı X. yy ortası (Porfirogennetos) verir; 892 yılı 'župa'nın (ilçe) doğrudan anılışıdır (yer adı Livno değil). 1463-85 arası Osmanlı kesintisi zincire yazılmadı. Mükerrer: yok. TANIK KURALI: HE tam gövde birebir; şehir adı ve 'X. st.' aynı cümlede."
+ },
+ {
+  "id": "prijedor-ba",
+  "ad": "Prijedor",
+  "atlas_ad": null,
+  "lat": 44.9799,
+  "lon": 16.714,
+  "kat1900": 3,
+  "adlar": [
+   "Prijedor"
+  ],
+  "ad_kaynak": "Hrvatska enciklopedija, 'Prijedor' (enciklopedija.hr/clanak/prijedor; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+  "ilk": {
+   "t": "1699-01-01",
+   "gun": "1683-1699",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Hrvatska enciklopedija, 'Prijedor' (enciklopedija.hr/clanak/prijedor; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+   "tanik": "Za osmanske vladavine bio je u sklopu Bosanskog ejaleta, a prvi se put kao utvrda spominje za Velikoga (Bečkoga) rata 1683–99."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1699-01-01",
+    "t": "1878-01-01",
+    "d": "osmanli",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija, 'Prijedor' (enciklopedija.hr/clanak/prijedor; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+    "ic_not": "HE: Bosna Eyaleti, 1757 kaptanlık merkezi; kale 1851'de terk"
+   },
+   {
+    "f": "1878-01-01",
+    "t": "1900-01-01",
+    "d": "habsburg",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija, 'Prijedor' (enciklopedija.hr/clanak/prijedor; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+    "ic_not": "HE: 1878'den Avusturya-Macaristan işgali"
+   }
+  ],
+  "olay": [
+   {
+    "t": "1757-01-01",
+    "gun": "1757",
+    "k": "diger",
+    "b": "Prijedor kaptanlık merkezi olarak anılır",
+    "kaynak": "Hrvatska enciklopedija, 'Prijedor' (enciklopedija.hr/clanak/prijedor; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   },
+   {
+    "t": "1878-01-01",
+    "gun": "1878",
+    "k": "fetih",
+    "b": "Avusturya-Macaristan işgali",
+    "kaynak": "Hrvatska enciklopedija, 'Prijedor' (enciklopedija.hr/clanak/prijedor; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   }
+  ],
+  "ic_not": "ilk: HE yalnız 'Bečki rat 1683-99' aralığı verir; güvenli uç 1699; özne kale (utvrda). 'U sklopu Bosanskog ejaleta' 1699'da Osmanlı (Karlofça). Mükerrer: yok. TANIK KURALI: HE tam gövde birebir; şehir adı yok, 'utvrda' = Prijedor kalesi."
+ },
+ {
+  "id": "zenica-ba",
+  "ad": "Zenica",
+  "atlas_ad": null,
+  "lat": 44.2017,
+  "lon": 17.904,
+  "kat1900": 3,
+  "adlar": [
+   "Zenica"
+  ],
+  "ad_kaynak": "Hrvatska enciklopedija, 'Zenica' (enciklopedija.hr/clanak/zenica; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+  "ilk": {
+   "t": "1436-01-01",
+   "gun": "1436",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Hrvatska enciklopedija, 'Zenica' (enciklopedija.hr/clanak/zenica; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+   "tanik": "Ime Zenica prvi se put spominje u dubrovačkim spisima 1436."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1436-01-01",
+    "t": "1463-01-01",
+    "d": "bosna-kralligi",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija, 'Zenica' (enciklopedija.hr/clanak/zenica; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+    "ic_not": "Bosna Krallığı 1463 öncesi: HE açıkça yazmaz, 1463 Osmanlı fethinden geriye çıkarım (beyan)"
+   },
+   {
+    "f": "1463-01-01",
+    "t": "1878-01-01",
+    "d": "osmanli",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija, 'Zenica' (enciklopedija.hr/clanak/zenica; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+    "ic_not": "HE: 1463'te Osmanlı egemenliğine girer, nahiye merkezi; 1485/1489 sayımlarında 'trg' (pazar yeri)"
+   },
+   {
+    "f": "1878-01-01",
+    "t": "1900-01-01",
+    "d": "habsburg",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija, 'Zenica' (enciklopedija.hr/clanak/zenica; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+    "ic_not": "Avusturya-Macaristan işgali (1878); Bosna işgal künyesi yerine habsburg haritası anahtarı kullanıldı"
+   }
+  ],
+  "olay": [
+   {
+    "t": "1463-01-01",
+    "gun": "1463",
+    "k": "fetih",
+    "b": "Zenica Osmanlı egemenliğine girer ve nahiye merkezi olur",
+    "kaynak": "Hrvatska enciklopedija, 'Zenica' (enciklopedija.hr/clanak/zenica; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   },
+   {
+    "t": "1878-01-01",
+    "gun": "1878",
+    "k": "fetih",
+    "b": "Avusturya-Macaristan Bosna'yı işgal eder; 1879-82 Brod-Saraybosna dar hat demiryolu",
+    "kaynak": "Hrvatska enciklopedija, 'Zenica' (enciklopedija.hr/clanak/zenica; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   }
+  ],
+  "ic_not": "ilk: HE 'ad ilk kez Dubrovnik belgelerinde 1436' (kesin). 1463 öncesi sahip: Bosna Krallığı çıkarım. Mükerrer: yok. TANIK KURALI: HE tam gövde birebir; şehir adı ve 1436 aynı cümlede."
+ }
+];

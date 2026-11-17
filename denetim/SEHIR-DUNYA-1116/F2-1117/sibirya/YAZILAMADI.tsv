@@ -1,0 +1,36 @@
+id	ad	neden
+tobolsk	Tobolsk	LISTE tarihce_id dolu (zaten yazılmış); dokunulmadı
+bulunamadi	(yer tutucu x2)	şehir değil, LISTE yer tutucu satırları (Usinskiy / Ussuriyskaya birim adları); sınıflanamaz
+polyarny	Polyarny/Aleksandrovsk	LISTE satırı çelişkili (atlas Aleksandrovsk-Sakhalinsky, ad_modern Polyarny Murmansk); sınıflanamadı
+tyumen	Tyumen	MÜKERRER: data/sehir_tarihce_k12.js id 'tumen' (Tümen/Çimgi-Tura, 0,4 km, ilk 1586 TDV). Ek teyit: Britannica Tyumen, Treccani Tjumen, Hrvatska enciklopedija Tjumenj hepsi 1586; Britannica 'Chingi-Tura 14. yy Tatar kenti aynı yerde' — çift/üçlü teyit olarak mevcut kayda eklenebilir
+gorno-altaysk-ru	Gorno-Altaysk	kuruluş/ilk anılış kaynağı bulunamadı: Britannica yalnız 'became a city in 1928', Treccani yalnız Ulala→Oirot Tura→1948 adları; Hrvatska enciklopedija'da şehir maddesi yok (arama yalnız 'Altaj' cumhuriyeti maddesine gitti)
+yuzhno-sakhalinsk-ru	Yuzhno-Sakhalinsk	kuruluş yılı yalnız Hrvatska enciklopedija ('Osnovan 1882.'); Rusya sahipliği 1882-1900 için okunabilir kaynak cümlesi yok (Britannica yalnız Toyohara/1945-46); sahiplik zinciri kurulamadı
+nikolskoe	Nikolskoe (Ussuriysk)	LISTE eşleşmesi 'ÇIKARIM, doğrulanmadı' + koordinat boş; Britannica Ussuriysk 'founded as the village of Nikolskoye in 1866' var ama birim-merkez eşleşmesi kanıtsız
+kurgan	(YAZILDI belirsiz)	bkz. f2_c: kuruluş üç kaynak üç yıl (1553/1616/1662); belirsiz yazıldı
+aksha	Aksha	okunabilir kaynakta madde yok (Britannica/Treccani/Hrvatska enciklopedija'da bulunamadı)
+balagansk	Balagansk	okunabilir kaynakta madde yok
+barguzin	Barguzin	okunabilir kaynakta madde yok
+gizhiga-(terk-edilmis)	Gizhiga	okunabilir kaynakta madde yok
+irbit	Irbit	okunabilir kaynakta madde yok (Britannica 404, Treccani/HE yok)
+ishim	Ishim	okunabilir kaynakta madde yok
+kirensk	Kirensk	okunabilir kaynakta madde yok (HE araması yalnız 'Lena' maddesine gitti)
+kuybyshev	Kainsk/Kuybyshev (Novosibirsk Obl.)	okunabilir kaynakta madde yok
+mariinsk	Mariinsk	okunabilir kaynakta madde yok
+markovo	Markovo	okunabilir kaynakta madde yok
+minusinsk	Minusinsk	okunabilir kaynakta madde yok
+nerchinsky-zavod	Nerchinsky Zavod	okunabilir kaynakta madde yok (GeoNames aramasında ayrı PPLA2 olarak var, tarih yok)
+nizhneudinsk	Nizhneudinsk	okunabilir kaynakta madde yok
+novoselenginsk	Novoselenginsk	okunabilir kaynakta madde yok
+okhotsk	Okhotsk	okunabilir kaynakta madde yok (Britannica 404, HE yalnız Okhotsk Denizi)
+olekminsk	Olekminsk	okunabilir kaynakta madde yok
+srednekolymsk	Srednekolymsk	okunabilir kaynakta madde yok
+staroturukhansk	Staroturukhansk/Turukhansk	okunabilir kaynakta madde yok
+tara	Tara	okunabilir kaynakta madde yok (HE 'tara' ambalaj maddesi)
+turinsk	Turinsk	okunabilir kaynakta madde yok
+tyukalinsk	Tyukalinsk	okunabilir kaynakta madde yok
+verkholensk	Verkholensk	okunabilir kaynakta madde yok
+vilyuysk	Vilyuysk	okunabilir kaynakta madde yok
+yalutorovsk	Yalutorovsk	okunabilir kaynakta madde yok
+zmeinogorsk	Zmeinogorsk	okunabilir kaynakta madde yok
+kirovskoye-(sahalin)	Rykovskoye/Kirovskoye (Sahalin)	kaynak aranmadı (köy; okunabilir üç ansiklopedide madde beklenmez)
+bigenc.ru	(erişim)	Büyük Rus Ansiklopedisi 403 (yetkili kaynak, okunamadı); encyclopedia2.thefreedictionary.com Cloudflare 'Just a moment' (403) — aşılmadı; encyclopedia.com URL tahminleri 404
