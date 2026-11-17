@@ -1,22 +1,22 @@
 id	kat	ulke	ad_1900	ad_modern	lat	lon	koord_kaynak	atlas_ad	atlas_km	tarihce_id	adlar_tarih_sirali	kaynak_1900	not	bugun_var	bugun_ad	bugun_not	satir_turu
-kaliningrad	2	Rusya	Königsberg	Kaliningrad	54.71	20.512	atlas-yerlesim-ad-eslesmesi	Königsberg				statoids ude (Prusya Provinz tablosu)	ayrıca Regierungsbezirk Königsberg merkezi	D	Kaliningrad	Königsberg→Kaliningrad 1946	mevcut
+kaliningrad	2	Rusya	Königsberg	Kaliningrad	54.71	20.512	atlas-yerlesim-ad-eslesmesi	Königsberg		kaliningrad-ru		statoids ude (Prusya Provinz tablosu)	ayrıca Regierungsbezirk Königsberg merkezi	D	Kaliningrad	Königsberg→Kaliningrad 1946	mevcut
 berehove	2	Ukrayna	Beregszász	Berehove								statoids uhu (64 comitate: County|Capital tablosu)		E		ad farkı dil/ekzonim (Almanca/Macarca/Lehçe/Rusça) farkı, yer aynı	mevcut
-chernivtsi	2	Ukrayna	Czernowitz	Chernivtsi								statoids uat (A-M dönemi başkentleri)		E		ad farkı dil/ekzonim (Almanca/Macarca/Lehçe/Rusça) farkı, yer aynı	mevcut
-lviv	2	Ukrayna	Lemberg	Lviv								statoids uat (A-M dönemi başkentleri)		E		ad farkı dil/ekzonim (Almanca/Macarca/Lehçe/Rusça) farkı, yer aynı	mevcut
+chernivtsi	2	Ukrayna	Czernowitz	Chernivtsi						chernivtsi-ua		statoids uat (A-M dönemi başkentleri)		E		ad farkı dil/ekzonim (Almanca/Macarca/Lehçe/Rusça) farkı, yer aynı	mevcut
+lviv	2	Ukrayna	Lemberg	Lviv						lviv-ua		statoids uat (A-M dönemi başkentleri)		E		ad farkı dil/ekzonim (Almanca/Macarca/Lehçe/Rusça) farkı, yer aynı	mevcut
 uzhhorod	2	Ukrayna	Ungvár	Uzhhorod	48.6224	22.3023	atlas-yerlesim-ad-eslesmesi	Ungvár (Uzhhorod)				statoids uhu (64 comitate: County|Capital tablosu)		E		ad farkı dil/ekzonim (Almanca/Macarca/Lehçe/Rusça) farkı, yer aynı	mevcut
 vynohradiv	2	Ukrayna	Nagyszőllős	Vynohradiv								statoids uhu (64 comitate: County|Capital tablosu)		E		ad farkı dil/ekzonim (Almanca/Macarca/Lehçe/Rusça) farkı, yer aynı	mevcut
 gusev	3	Rusya	Gumbinnen	Gusev								territorial.de (Jehke) ostp.htm	merkez adı birim adından	D	Gusev	Gumbinnen→Gusev 1946	mevcut
-sankt-peterburg	1	Rusya	Sankt-Peterburg	Sankt-Peterburg								Statoids uru (Rus İmp. il tablosu); Demoscope 1897	aynı zamanda Sankt-Peterburg guberniyası ve uyezdi merkezi; kiril: Санкт-Петербург	E		1900 adı = güncel ad (arada Petrograd 1914/Leningrad 1924)	mevcut
+sankt-peterburg	1	Rusya	Sankt-Peterburg	Sankt-Peterburg						sankt-peterburg-ru		Statoids uru (Rus İmp. il tablosu); Demoscope 1897	aynı zamanda Sankt-Peterburg guberniyası ve uyezdi merkezi; kiril: Санкт-Петербург	E		1900 adı = güncel ad (arada Petrograd 1914/Leningrad 1924)	mevcut
 grodno	2	Belarus	Grodno	Grodno	53.6778	23.8297	atlas-yerlesim-ad-eslesmesi	Grodno				Statoids uru (Rus İmp. il tablosu)	kiril: Гродно	E			mevcut
-minsk	2	Belarus	Minsk	Minsk	53.904	27.561	atlas-yerlesim-ad-eslesmesi	Minsk				Statoids uru (Rus İmp. il tablosu)	kiril: Минск	E			mevcut
+minsk	2	Belarus	Minsk	Minsk	53.904	27.561	atlas-yerlesim-ad-eslesmesi	Minsk		minsk-by		Statoids uru (Rus İmp. il tablosu)	kiril: Минск	E			mevcut
 mogilev	2	Belarus	Mogilev	Mogilev								Statoids uru (Rus İmp. il tablosu)	kiril: Могилев	E		Mahilyow (Belarusça); Rusça Mogilev	mevcut
-vitebsk	2	Belarus	Vitebsk	Vitebsk	55.191	30.206	atlas-yerlesim-ad-eslesmesi	Vitebsk				Statoids uru (Rus İmp. il tablosu)	kiril: Витебск	E			mevcut
+vitebsk	2	Belarus	Vitebsk	Vitebsk	55.191	30.206	atlas-yerlesim-ad-eslesmesi	Vitebsk		vitebsk-by		Statoids uru (Rus İmp. il tablosu)	kiril: Витебск	E			mevcut
 tallinn	2	Estonya	Revel	Tallinn	59.437	24.754	atlas-yerlesim-ad-eslesmesi	Tallinn (Reval)		tallinn		Statoids uru (Rus İmp. il tablosu)	Estland; kiril: Ревель	E		ad farkı dil/ekzonim (Almanca/Macarca/Lehçe/Rusça) farkı, yer aynı	mevcut
-jelgava	2	Letonya	Mitava	Jelgava								Statoids uru (Rus İmp. il tablosu)	Kurland; aynı zamanda Doblen uyezdi merkezi (Demoscope: Добленский уезд - г. Митава); kiril: Митава	E		ad farkı dil/ekzonim (Almanca/Macarca/Lehçe/Rusça) farkı, yer aynı	mevcut
+jelgava	2	Letonya	Mitava	Jelgava						jelgava-lv		Statoids uru (Rus İmp. il tablosu)	Kurland; aynı zamanda Doblen uyezdi merkezi (Demoscope: Добленский уезд - г. Митава); kiril: Митава	E		ad farkı dil/ekzonim (Almanca/Macarca/Lehçe/Rusça) farkı, yer aynı	mevcut
 riga	2	Letonya	Riga	Riga	56.949	24.105	atlas-yerlesim-ad-eslesmesi	Riga		riga		Statoids uru (Rus İmp. il tablosu)	Livland; kiril: Рига	E			mevcut
 kaunas	2	Litvanya	Kovno	Kaunas	54.897	23.886	atlas-yerlesim-ad-eslesmesi	Kaunas		kaunas		Statoids uru (Rus İmp. il tablosu)	kiril: Ковно	E		ad farkı dil/ekzonim (Almanca/Macarca/Lehçe/Rusça) farkı, yer aynı	mevcut
 vilnius	2	Litvanya	Vilna	Vilnius	54.687	25.28	atlas-yerlesim-ad-eslesmesi	Vilnius		vilnius		Statoids uru (Rus İmp. il tablosu)	kiril: Вильна	E		ad farkı dil/ekzonim (Almanca/Macarca/Lehçe/Rusça) farkı, yer aynı	mevcut
-chisinau	2	Moldova	Kishinev	Chișinău	47.0105	28.8638	atlas-yerlesim-ad-eslesmesi	Kişinev (Chișinău)				Statoids uru (Rus İmp. il tablosu)	Besarabya; kiril: Кишинев	E		ad farkı dil/ekzonim (Almanca/Macarca/Lehçe/Rusça) farkı, yer aynı	mevcut
+chisinau	2	Moldova	Kishinev	Chișinău	47.0105	28.8638	atlas-yerlesim-ad-eslesmesi	Kişinev (Chișinău)		chisinau-md		Statoids uru (Rus İmp. il tablosu)	Besarabya; kiril: Кишинев	E		ad farkı dil/ekzonim (Almanca/Macarca/Lehçe/Rusça) farkı, yer aynı	mevcut
 aleksandrovsk-sakhalinsky	2	Rusya	Aleksandrovskiy post	Aleksandrovsk-Sakhalinsky								ESBE Сахалин; Demoscope 1897	"Sahalin adası (oblast değil, ada idaresi); ESBE: ""Админ. центром служит Александровский пост""; aynı zamanda Aleksandrovsk okrugu merkezi; kiril: Александровский пост"	E			mevcut
 arkhangelsk	2	Rusya	Arkhangelsk	Arkhangelsk								Statoids uru (Rus İmp. il tablosu)	kiril: Архангельск	E			mevcut
 astrakhan	2	Rusya	Astrakhan	Astrakhan								Statoids uru (Rus İmp. il tablosu)	kiril: Астрахань	E			mevcut
@@ -25,45 +25,45 @@ buynaksk	2	Rusya	Temir-Khan-Shura	Buynaksk								Statoids uru (Rus İmp. il tab
 chita	2	Rusya	Chita	Chita								Statoids uru (Rus İmp. il tablosu)	Zabaykal; kiril: Чита	E			mevcut
 kaluga	2	Rusya	Kaluga	Kaluga	54.513	36.261	atlas-yerlesim-ad-eslesmesi	Kaluga				Statoids uru (Rus İmp. il tablosu)	kiril: Калуга	E			mevcut
 kazan	2	Rusya	Kazan	Kazan	55.796	49.106	atlas-yerlesim-ad-eslesmesi	Kazan		kazan		Statoids uru (Rus İmp. il tablosu)	kiril: Казань	E			mevcut
-kirov	2	Rusya	Vyatka	Kirov	58.604	49.668	atlas-yerlesim-ad-eslesmesi	Hlınov (Vyatka)				Statoids uru (Rus İmp. il tablosu)	kiril: Вятка	D	Kirov	Vyatka→Kirov 1934	mevcut
+kirov	2	Rusya	Vyatka	Kirov	58.604	49.668	atlas-yerlesim-ad-eslesmesi	Hlınov (Vyatka)		kirov-ru		Statoids uru (Rus İmp. il tablosu)	kiril: Вятка	D	Kirov	Vyatka→Kirov 1934	mevcut
 kostroma	2	Rusya	Kostroma	Kostroma	58.383	42.35	atlas-yerlesim-ad-eslesmesi	Galiç (Kostroma)				Statoids uru (Rus İmp. il tablosu)	kiril: Кострома	E			mevcut
-krasnodar	2	Rusya	Ekaterinodar	Krasnodar								Statoids uru (Rus İmp. il tablosu)	Kuban obl.; kiril: Екатеринодар	D	Krasnodar	Yekaterinodar→Krasnodar 1920	mevcut
-kursk	2	Rusya	Kursk	Kursk	51.7304	36.1926	atlas-yerlesim-ad-eslesmesi	Kursk				Statoids uru (Rus İmp. il tablosu)	kiril: Курск	E			mevcut
+krasnodar	2	Rusya	Ekaterinodar	Krasnodar						krasnodar-ru		Statoids uru (Rus İmp. il tablosu)	Kuban obl.; kiril: Екатеринодар	D	Krasnodar	Yekaterinodar→Krasnodar 1920	mevcut
+kursk	2	Rusya	Kursk	Kursk	51.7304	36.1926	atlas-yerlesim-ad-eslesmesi	Kursk		kursk-ru		Statoids uru (Rus İmp. il tablosu)	kiril: Курск	E			mevcut
 moskova	2	Rusya	Moskva	Moskova	55.756	37.617	atlas-yerlesim-ad-eslesmesi	Moskova		moskova		Statoids uru (Rus İmp. il tablosu)	kiril: Москва	E			mevcut
 nizhny-novgorod	2	Rusya	Nizhniy Novgorod	Nizhny Novgorod								Statoids uru (Rus İmp. il tablosu)	kiril: Нижний Новгород	E		Gorkiy 1932-1990 arası; bugün Nizhny Novgorod	mevcut
-novocherkassk	2	Rusya	Novocherkassk	Novocherkassk								Statoids uru (Rus İmp. il tablosu)	Don Kazak Oblastı; aynı zamanda Çerkassk okrugu merkezi; kiril: Новочеркасск	E			mevcut
-novorossiysk	2	Rusya	Novorossiysk	Novorossiysk	44.7319	37.7618	GeoNames 518255 (44°43′54.77″ N, 37°45′42.34″ E)	Yakutat (Novorossiysk)				Demoscope 1897 (Новороссийский уезд)	Karadeniz gub. (1896); il merkezi statoids tablosunda yok, ESBE maddesi merkez adı vermiyor — doğrulanmadı; kiril: Новороссийск	E		düzeltildi (eski KOORD UYARISI): lat/lon (59.547,-139.727) Alaska; Novorossiysk ~44.72,37.77 | KOORD DÜZELTİLDİ 17 Kas 2026: eski (59.547,-139.727) → yeni (44.7319,37.7618); kaynak GeoNames 518255 sayfası DMS 44°43′54.77″ N, 37°45′42.34″ E	mevcut
+novocherkassk	2	Rusya	Novocherkassk	Novocherkassk						novocherkassk-ru		Statoids uru (Rus İmp. il tablosu)	Don Kazak Oblastı; aynı zamanda Çerkassk okrugu merkezi; kiril: Новочеркасск	E			mevcut
+novorossiysk	2	Rusya	Novorossiysk	Novorossiysk	44.7319	37.7618	GeoNames 518255 (44°43′54.77″ N, 37°45′42.34″ E)	Yakutat (Novorossiysk)		novorossiysk-ru		Demoscope 1897 (Новороссийский уезд)	Karadeniz gub. (1896); il merkezi statoids tablosunda yok, ESBE maddesi merkez adı vermiyor — doğrulanmadı; kiril: Новороссийск	E		düzeltildi (eski KOORD UYARISI): lat/lon (59.547,-139.727) Alaska; Novorossiysk ~44.72,37.77 | KOORD DÜZELTİLDİ 17 Kas 2026: eski (59.547,-139.727) → yeni (44.7319,37.7618); kaynak GeoNames 518255 sayfası DMS 44°43′54.77″ N, 37°45′42.34″ E	mevcut
 orenburg	2	Rusya	Orenburg	Orenburg	51.768	55.097	atlas-yerlesim-ad-eslesmesi	Orenburg				Statoids uru (Rus İmp. il tablosu); ESBE Тургайская область	"ayrıca Turgay Oblastı idaresi Orenburg'da (ESBE: ""Областное правление ... помещается в Оренбурге""); Turgay ayrı satır yazılmadı; kiril: Оренбург"	E			mevcut
-oryol	2	Rusya	Orel	Oryol	52.97	36.07	atlas-yerlesim-ad-eslesmesi	Orel				Statoids uru (Rus İmp. il tablosu)	kiril: Орел	E			mevcut
-penza	2	Rusya	Penza	Penza	53.2	45.0	atlas-yerlesim-ad-eslesmesi	Penza				Statoids uru (Rus İmp. il tablosu)	kiril: Пенза	E			mevcut
-perm	2	Rusya	Perm	Perm	58.01	56.229	atlas-yerlesim-ad-eslesmesi	Perm				Statoids uru (Rus İmp. il tablosu)	kiril: Пермь	E			mevcut
-petrozavodsk	2	Rusya	Petrozavodsk	Petrozavodsk	61.789	34.351	atlas-yerlesim-ad-eslesmesi	Petrozavodsk				Statoids uru (Rus İmp. il tablosu)	Olonets; kiril: Петрозаводск	E			mevcut
+oryol	2	Rusya	Orel	Oryol	52.97	36.07	atlas-yerlesim-ad-eslesmesi	Orel		oryol-ru		Statoids uru (Rus İmp. il tablosu)	kiril: Орел	E			mevcut
+penza	2	Rusya	Penza	Penza	53.2	45.0	atlas-yerlesim-ad-eslesmesi	Penza		penza-ru		Statoids uru (Rus İmp. il tablosu)	kiril: Пенза	E			mevcut
+perm	2	Rusya	Perm	Perm	58.01	56.229	atlas-yerlesim-ad-eslesmesi	Perm		perm-ru		Statoids uru (Rus İmp. il tablosu)	kiril: Пермь	E			mevcut
+petrozavodsk	2	Rusya	Petrozavodsk	Petrozavodsk	61.789	34.351	atlas-yerlesim-ad-eslesmesi	Petrozavodsk		petrozavodsk-ru		Statoids uru (Rus İmp. il tablosu)	Olonets; kiril: Петрозаводск	E			mevcut
 pskov	2	Rusya	Pskov	Pskov	57.813	28.335	atlas-yerlesim-ad-eslesmesi	Pskov		pskov		Statoids uru (Rus İmp. il tablosu)	kiril: Псков	E			mevcut
 ryazan	2	Rusya	Ryazan	Ryazan	54.625	39.736	atlas-yerlesim-ad-eslesmesi	Ryazan		ryazan		Statoids uru (Rus İmp. il tablosu)	kiril: Рязань	E			mevcut
-samara	2	Rusya	Samara	Samara	53.2	50.15	atlas-yerlesim-ad-eslesmesi	Samara				Statoids uru (Rus İmp. il tablosu)	kiril: Самара	E		Kuybyshev 1935-1991 arası; bugün Samara	mevcut
-saratov	2	Rusya	Saratov	Saratov	51.5405	45.9901	GeoNames 498677 (51°32′25.73″ N, 45°59′24.36″ E)	atlasta yok				Statoids uru (Rus İmp. il tablosu)	kiril: Саратов	E		düzeltildi (eski KOORD UYARISI): lat/lon (52.3167,45.3833) Petrovsk'a ait; Saratov ~51.53,46.03 | KOORD DÜZELTİLDİ 17 Kas 2026: eski (52.3167,45.3833) → yeni (51.5405,45.9901); kaynak GeoNames 498677 sayfası DMS 51°32′25.73″ N, 45°59′24.36″ E | atlas eşlemesi DÜZELTİLDİ 17 Kas 2026: eski atlas_ad 'Petrovsk (Saratov)' başka şehirdi (KASA ölçümü: hata atlasta değil LISTE eşlemesinde); şimdi 'atlasta yok'	mevcut
+samara	2	Rusya	Samara	Samara	53.2	50.15	atlas-yerlesim-ad-eslesmesi	Samara		samara-ru		Statoids uru (Rus İmp. il tablosu)	kiril: Самара	E		Kuybyshev 1935-1991 arası; bugün Samara	mevcut
+saratov	2	Rusya	Saratov	Saratov	51.5405	45.9901	GeoNames 498677 (51°32′25.73″ N, 45°59′24.36″ E)	atlasta yok		saratov-ru		Statoids uru (Rus İmp. il tablosu)	kiril: Саратов	E		düzeltildi (eski KOORD UYARISI): lat/lon (52.3167,45.3833) Petrovsk'a ait; Saratov ~51.53,46.03 | KOORD DÜZELTİLDİ 17 Kas 2026: eski (52.3167,45.3833) → yeni (51.5405,45.9901); kaynak GeoNames 498677 sayfası DMS 51°32′25.73″ N, 45°59′24.36″ E | atlas eşlemesi DÜZELTİLDİ 17 Kas 2026: eski atlas_ad 'Petrovsk (Saratov)' başka şehirdi (KASA ölçümü: hata atlasta değil LISTE eşlemesinde); şimdi 'atlasta yok'	mevcut
 smolensk	2	Rusya	Smolensk	Smolensk	54.783	32.045	atlas-yerlesim-ad-eslesmesi	Smolensk				Statoids uru (Rus İmp. il tablosu)	kiril: Смоленск	E			mevcut
-stavropol	2	Rusya	Stavropol	Stavropol	45.0344	41.9642	GeoNames 487846 (45°02′03.91″ N, 41°57′51.12″ E)	atlasta yok				Statoids uru (Rus İmp. il tablosu)	kiril: Ставрополь	E		düzeltildi (eski KOORD UYARISI): lat/lon (53.507,49.42) Togliatti/Stavropol-Volzhsky'ye ait; Stavropol (Kafkasya) ~45.04,41.97 | KOORD DÜZELTİLDİ 17 Kas 2026: eski (53.507,49.42) → yeni (45.0344,41.9642); kaynak GeoNames 487846 sayfası DMS 45°02′03.91″ N, 41°57′51.12″ E | atlas eşlemesi DÜZELTİLDİ 17 Kas 2026: eski atlas_ad 'Stavropol (Volga)' başka şehirdi (KASA ölçümü: hata atlasta değil LISTE eşlemesinde); şimdi 'atlasta yok'	mevcut
-tambov	2	Rusya	Tambov	Tambov	52.721	41.452	atlas-yerlesim-ad-eslesmesi	Tambov				Statoids uru (Rus İmp. il tablosu)	kiril: Тамбов	E			mevcut
-tula	2	Rusya	Tula	Tula	54.193	37.617	atlas-yerlesim-ad-eslesmesi	Tula				Statoids uru (Rus İmp. il tablosu)	kiril: Тула	E			mevcut
+stavropol	2	Rusya	Stavropol	Stavropol	45.0344	41.9642	GeoNames 487846 (45°02′03.91″ N, 41°57′51.12″ E)	atlasta yok		stavropol-kafkas		Statoids uru (Rus İmp. il tablosu)	kiril: Ставрополь	E		düzeltildi (eski KOORD UYARISI): lat/lon (53.507,49.42) Togliatti/Stavropol-Volzhsky'ye ait; Stavropol (Kafkasya) ~45.04,41.97 | KOORD DÜZELTİLDİ 17 Kas 2026: eski (53.507,49.42) → yeni (45.0344,41.9642); kaynak GeoNames 487846 sayfası DMS 45°02′03.91″ N, 41°57′51.12″ E | atlas eşlemesi DÜZELTİLDİ 17 Kas 2026: eski atlas_ad 'Stavropol (Volga)' başka şehirdi (KASA ölçümü: hata atlasta değil LISTE eşlemesinde); şimdi 'atlasta yok'	mevcut
+tambov	2	Rusya	Tambov	Tambov	52.721	41.452	atlas-yerlesim-ad-eslesmesi	Tambov		tambov-ru		Statoids uru (Rus İmp. il tablosu)	kiril: Тамбов	E			mevcut
+tula	2	Rusya	Tula	Tula	54.193	37.617	atlas-yerlesim-ad-eslesmesi	Tula		tula-ru		Statoids uru (Rus İmp. il tablosu)	kiril: Тула	E			mevcut
 tver	2	Rusya	Tver	Tver	56.859	35.912	atlas-yerlesim-ad-eslesmesi	Tver		tver		Statoids uru (Rus İmp. il tablosu)	kiril: Тверь	E		Kalinin 1931-1990 arası; bugün Tver	mevcut
 ufa	2	Rusya	Ufa	Ufa	54.738	55.972	atlas-yerlesim-ad-eslesmesi	Ufa		ufa		Statoids uru (Rus İmp. il tablosu)	kiril: Уфа	E			mevcut
-ulyanovsk	2	Rusya	Simbirsk	Ulyanovsk	54.318	48.4	atlas-yerlesim-ad-eslesmesi	Simbirsk				Statoids uru (Rus İmp. il tablosu)	kiril: Симбирск	D	Ulyanovsk	Simbirsk→Ulyanovsk 1924	mevcut
+ulyanovsk	2	Rusya	Simbirsk	Ulyanovsk	54.318	48.4	atlas-yerlesim-ad-eslesmesi	Simbirsk		ulyanovsk-ru		Statoids uru (Rus İmp. il tablosu)	kiril: Симбирск	D	Ulyanovsk	Simbirsk→Ulyanovsk 1924	mevcut
 veliky-novgorod	2	Rusya	Novgorod	Veliky Novgorod	58.521	31.271	atlas-yerlesim-ad-eslesmesi	Novgorod		novgorod		Statoids uru (Rus İmp. il tablosu)	kiril: Новгород	D	Veliky Novgorod	Novgorod→Veliky Novgorod 1999	mevcut
-vladikavkaz	2	Rusya	Vladikavkaz	Vladikavkaz	43.024	44.682	atlas-yerlesim-ad-eslesmesi	Vladikavkaz				Statoids uru (Rus İmp. il tablosu)	Terek obl.; kiril: Владикавказ	E			mevcut
+vladikavkaz	2	Rusya	Vladikavkaz	Vladikavkaz	43.024	44.682	atlas-yerlesim-ad-eslesmesi	Vladikavkaz		vladikavkaz-ru		Statoids uru (Rus İmp. il tablosu)	Terek obl.; kiril: Владикавказ	E			mevcut
 vladimir	2	Rusya	Vladimir	Vladimir	56.129	40.407	atlas-yerlesim-ad-eslesmesi	Vladimir				Statoids uru (Rus İmp. il tablosu)	kiril: Владимир	E			mevcut
-vologda	2	Rusya	Vologda	Vologda	59.22	39.891	atlas-yerlesim-ad-eslesmesi	Vologda				Statoids uru (Rus İmp. il tablosu)	kiril: Вологда	E			mevcut
-voronezh	2	Rusya	Voronezh	Voronezh								Statoids uru (Rus İmp. il tablosu)	kiril: Воронеж	E			mevcut
+vologda	2	Rusya	Vologda	Vologda	59.22	39.891	atlas-yerlesim-ad-eslesmesi	Vologda		vologda-ru		Statoids uru (Rus İmp. il tablosu)	kiril: Вологда	E			mevcut
+voronezh	2	Rusya	Voronezh	Voronezh						voronezh-ru		Statoids uru (Rus İmp. il tablosu)	kiril: Воронеж	E			mevcut
 vyborg	2	Rusya	Viborg	Vyborg	60.7076	28.7528	GeoNames 470546 (60°42′27.47″ N, 28°45′10.19″ E)	Viborg (Jutland)		viborg-dk		Statoids uru (Rus İmp. il tablosu); SYB1896 Finland	modern ülke Rusya	E		düzeltildi (eski KOORD UYARISI): lat/lon (56.451,9.402) Danimarka Viborg; Vyborg ~60.71,28.75. Viborg→Vyborg yalnız yazım; 1944'te SSCB'ye geçti | KOORD DÜZELTİLDİ 17 Kas 2026: eski (56.451,9.402) → yeni (60.7076,28.7528); kaynak GeoNames 470546 sayfası DMS 60°42′27.47″ N, 28°45′10.19″ E	mevcut
 yaroslavl	2	Rusya	Yaroslavl	Yaroslavl	57.626	39.894	atlas-yerlesim-ad-eslesmesi	Yaroslavl				Statoids uru (Rus İmp. il tablosu)	kiril: Ярославль	E			mevcut
 chernihiv	2	Ukrayna	Chernigov	Chernihiv								Statoids uru (Rus İmp. il tablosu)	kiril: Чернигов	E			mevcut
-dnipro	2	Ukrayna	Ekaterinoslav	Dnipro								Statoids uru (Rus İmp. il tablosu)	kiril: Екатеринослав	D	Dnipro	Yekaterinoslav→Dnipropetrovsk 1926→Dnipro 2016	mevcut
+dnipro	2	Ukrayna	Ekaterinoslav	Dnipro						dnipro-ua		Statoids uru (Rus İmp. il tablosu)	kiril: Екатеринослав	D	Dnipro	Yekaterinoslav→Dnipropetrovsk 1926→Dnipro 2016	mevcut
 kamianets-podilskyi	2	Ukrayna	Kamenets-Podolskiy	Kamianets-Podilskyi								Statoids uru (Rus İmp. il tablosu)	Podolya; kiril: Каменец-Подольский	E			mevcut
-kharkiv	2	Ukrayna	Kharkov	Kharkiv								Statoids uru (Rus İmp. il tablosu)	kiril: Харьков	E			mevcut
-kherson	2	Ukrayna	Kherson	Kherson								Statoids uru (Rus İmp. il tablosu)	kiril: Херсон	E			mevcut
+kharkiv	2	Ukrayna	Kharkov	Kharkiv						harkov-ua		Statoids uru (Rus İmp. il tablosu)	kiril: Харьков	E			mevcut
+kherson	2	Ukrayna	Kherson	Kherson						herson-ua		Statoids uru (Rus İmp. il tablosu)	kiril: Херсон	E			mevcut
 kyiv	2	Ukrayna	Kiev	Kyiv	50.451	30.524	atlas-yerlesim-ad-eslesmesi	Kiev		kiev		Statoids uru (Rus İmp. il tablosu)	kiril: Киев	E		Rusça Kiev, Ukraynaca Kyiv	mevcut
 poltava	2	Ukrayna	Poltava	Poltava	49.589	34.551	atlas-yerlesim-ad-eslesmesi	Poltava				Statoids uru (Rus İmp. il tablosu)	kiril: Полтава	E			mevcut
-zhytomyr	2	Ukrayna	Zhitomir	Zhytomyr	50.262	28.679	atlas-yerlesim-ad-eslesmesi	Jitomir (Zhytomyr)				Statoids uru (Rus İmp. il tablosu)	Volın; kiril: Житомир	E			mevcut
+zhytomyr	2	Ukrayna	Zhitomir	Zhytomyr	50.262	28.679	atlas-yerlesim-ad-eslesmesi	Jitomir (Zhytomyr)		jitomir-ua		Statoids uru (Rus İmp. il tablosu)	Volın; kiril: Житомир	E			mevcut
 simferopol	2	Ukrayna (Kırım)	Simferopol	Simferopol								Statoids uru (Rus İmp. il tablosu)	Tavrida; kiril: Симферополь	E			mevcut
 ashmyany	3	Belarus	Oshmyany	Ashmyany								Demoscope 1897 (rus_gub_97 reg=4)	kiril: Ошмяны	E			mevcut
 babruysk	3	Belarus	Bobruysk	Babruysk								Demoscope 1897 (rus_gub_97 reg=22)	kiril: Бобруйск	E			mevcut
@@ -118,7 +118,7 @@ rezekne	3	Letonya	Rezhitsa	Rēzekne	56.51	27.333	atlas-yerlesim-ad-eslesmesi	Rē
 talsi	3	Letonya	Talsen	Talsi								Demoscope 1897 (rus_gub_97 reg=19)	Demoscope yerleşim türü: мест.; kiril: Тальсен	E		ad farkı dil/ekzonim (Almanca/Macarca/Lehçe/Rusça) farkı, yer aynı	mevcut
 tukums	3	Letonya	Tukkum	Tukums								Demoscope 1897 (rus_gub_97 reg=19)	kiril: Туккум	E		ad farkı dil/ekzonim (Almanca/Macarca/Lehçe/Rusça) farkı, yer aynı	mevcut
 valmiera	3	Letonya	Volmar	Valmiera								Demoscope 1897 (rus_gub_97 reg=21)	birimdeki öteki şehirler: Лемзаль; kiril: Вольмар	E		ad farkı dil/ekzonim (Almanca/Macarca/Lehçe/Rusça) farkı, yer aynı	mevcut
-ventspils	3	Letonya	Vindava	Ventspils								Demoscope 1897 (rus_gub_97 reg=19)	birimdeki öteki şehirler: Пильтен; kiril: Виндава	E		ad farkı dil/ekzonim (Almanca/Macarca/Lehçe/Rusça) farkı, yer aynı	mevcut
+ventspils	3	Letonya	Vindava	Ventspils						ventspils-lv		Demoscope 1897 (rus_gub_97 reg=19)	birimdeki öteki şehirler: Пильтен; kiril: Виндава	E		ad farkı dil/ekzonim (Almanca/Macarca/Lehçe/Rusça) farkı, yer aynı	mevcut
 panevezys	3	Litvanya	Ponevezh	Panevėžys								Demoscope 1897 (rus_gub_97 reg=17)	kiril: Поневеж	E		ad farkı dil/ekzonim (Almanca/Macarca/Lehçe/Rusça) farkı, yer aynı	mevcut
 raseiniai	3	Litvanya	Rossieny	Raseiniai								Demoscope 1897 (rus_gub_97 reg=17)	kiril: Россиены	E		ad farkı dil/ekzonim (Almanca/Macarca/Lehçe/Rusça) farkı, yer aynı	mevcut
 telsiai	3	Litvanya	Telshi	Telšiai								Demoscope 1897 (rus_gub_97 reg=17)	kiril: Тельши	E		ad farkı dil/ekzonim (Almanca/Macarca/Lehçe/Rusça) farkı, yer aynı	mevcut
@@ -317,7 +317,7 @@ pugachyov	3	Rusya	Nikolaevsk	Pugachyov								Demoscope 1897 (rus_gub_97 reg=36)
 pushkin	3	Rusya	Tsarskoe Selo	Pushkin								Demoscope 1897 (rus_gub_97 reg=37)	birimdeki öteki şehirler: Гатчина, Павловск; kiril: Царское Село	D	Pushkin	Tsarskoe Selo→Detskoe Selo→Pushkin 1937	mevcut
 romanovo-borisoglebsk	3	Rusya	Romanovo-Borisoglebsk	Romanovo-Borisoglebsk								Demoscope 1897 (rus_gub_97 reg=50)	kiril: Романово-Борисоглебск	D	Tutayev	Romanov-Borisoglebsk→Tutayev 1918 (ad_modern sütunu eski ad)	mevcut
 roslavl	3	Rusya	Roslavl	Roslavl								Demoscope 1897 (rus_gub_97 reg=40)	kiril: Рославль	E			mevcut
-rostov	3	Rusya	Rostov	Rostov	57.1908	39.4131	GeoNames 501183 (57°11′26.92″ N, 39°24′47.05″ E)	atlasta yok				Demoscope 1897 (rus_gub_97 reg=50)	birimdeki öteki şehirler: Петровск; kiril: Ростов	E		düzeltildi (eski KOORD UYARISI): lat/lon Rostov-na-Donu'ya ait; Rostov (Veliky) Yaroslavl ~57.2,39.4 | KOORD DÜZELTİLDİ 17 Kas 2026: eski (47.236,39.712) → yeni (57.1908,39.4131); kaynak GeoNames 501183 sayfası DMS 57°11′26.92″ N, 39°24′47.05″ E | atlas eşlemesi DÜZELTİLDİ 17 Kas 2026: eski atlas_ad 'Rostov (Don)' başka şehirdi (KASA ölçümü: hata atlasta değil LISTE eşlemesinde); şimdi 'atlasta yok'	mevcut
+rostov	3	Rusya	Rostov	Rostov	57.1908	39.4131	GeoNames 501183 (57°11′26.92″ N, 39°24′47.05″ E)	atlasta yok		rostov-veliky-ru		Demoscope 1897 (rus_gub_97 reg=50)	birimdeki öteki şehirler: Петровск; kiril: Ростов	E		düzeltildi (eski KOORD UYARISI): lat/lon Rostov-na-Donu'ya ait; Rostov (Veliky) Yaroslavl ~57.2,39.4 | KOORD DÜZELTİLDİ 17 Kas 2026: eski (47.236,39.712) → yeni (57.1908,39.4131); kaynak GeoNames 501183 sayfası DMS 57°11′26.92″ N, 39°24′47.05″ E | atlas eşlemesi DÜZELTİLDİ 17 Kas 2026: eski atlas_ad 'Rostov (Don)' başka şehirdi (KASA ölçümü: hata atlasta değil LISTE eşlemesinde); şimdi 'atlasta yok'	mevcut
 rostov-on-don	3	Rusya	Rostov-na-Donu	Rostov-on-Don								Demoscope 1897 (rus_gub_97 reg=12)	birimdeki öteki şehirler: Нахичевань; kiril: Ростов-на-Дону	E			mevcut
 ruza	3	Rusya	Ruza	Ruza								Demoscope 1897 (rus_gub_97 reg=24)	kiril: Руза	E			mevcut
 ryazhsk	3	Rusya	Ryazhsk	Ryazhsk								Demoscope 1897 (rus_gub_97 reg=35)	kiril: Ряжск	E			mevcut
@@ -427,7 +427,7 @@ bilhorod-dnistrovskyi	3	Ukrayna	Akkerman	Bilhorod-Dnistrovskyi								Demoscope 
 bohodukhiv	3	Ukrayna	Bogodukhov	Bohodukhiv								Demoscope 1897 (rus_gub_97 reg=46)	birimdeki öteki şehirler: Краснокутск; kiril: Богодухов	E			mevcut
 borzna	3	Ukrayna	Borzna	Borzna								Demoscope 1897 (rus_gub_97 reg=48)	kiril: Борзна	E			mevcut
 bratslav	3	Ukrayna	Bratslav	Bratslav	48.823	28.938	atlas-yerlesim-ad-eslesmesi	Braslav (Bratslav)				Demoscope 1897 (rus_gub_97 reg=32)	kiril: Брацлав	E			mevcut
-cherkasy	3	Ukrayna	Cherkassy	Cherkasy								Demoscope 1897 (rus_gub_97 reg=16)	kiril: Черкассы	E			mevcut
+cherkasy	3	Ukrayna	Cherkassy	Cherkasy						cerkasi-ua		Demoscope 1897 (rus_gub_97 reg=16)	kiril: Черкассы	E			mevcut
 chyhyryn	3	Ukrayna	Chigirin	Chyhyryn								Demoscope 1897 (rus_gub_97 reg=16)	kiril: Чигирин	E			mevcut
 dubno	3	Ukrayna	Dubno	Dubno								Demoscope 1897 (rus_gub_97 reg=8)	kiril: Дубно	E			mevcut
 hadiach	3	Ukrayna	Gadyach	Hadiach								Demoscope 1897 (rus_gub_97 reg=33)	kiril: Гадяч	E			mevcut
@@ -458,7 +458,7 @@ lokhvytsia	3	Ukrayna	Lokhvitsa	Lokhvytsia								Demoscope 1897 (rus_gub_97 reg=
 lubny	3	Ukrayna	Lubny	Lubny								Demoscope 1897 (rus_gub_97 reg=33)	kiril: Лубны	E			mevcut
 lutsk	3	Ukrayna	Lutsk	Lutsk	50.7472	25.3254	atlas-yerlesim-ad-eslesmesi	Lutsk (Łuck)				Demoscope 1897 (rus_gub_97 reg=8)	kiril: Луцк	E			mevcut
 lypovets	3	Ukrayna	Lipovets	Lypovets								Demoscope 1897 (rus_gub_97 reg=16)	kiril: Липовец	E			mevcut
-mariupol	3	Ukrayna	Mariupol	Mariupol	47.0971	37.5434	atlas-yerlesim-ad-eslesmesi	Mariupol				Demoscope 1897 (rus_gub_97 reg=13)	kiril: Мариуполь	E		Zhdanov 1948-1989 arası; bugün Mariupol	mevcut
+mariupol	3	Ukrayna	Mariupol	Mariupol	47.0971	37.5434	atlas-yerlesim-ad-eslesmesi	Mariupol		mariupol-ua		Demoscope 1897 (rus_gub_97 reg=13)	kiril: Мариуполь	E		Zhdanov 1948-1989 arası; bugün Mariupol	mevcut
 mohyliv-podilskyi	3	Ukrayna	Mogilev na Dnestre	Mohyliv-Podilskyi								Demoscope 1897 (rus_gub_97 reg=32)	birimdeki öteki şehirler: Бар; kiril: Могилев на Днестре	E			mevcut
 myrhorod	3	Ukrayna	Mirgorod	Myrhorod								Demoscope 1897 (rus_gub_97 reg=33)	kiril: Миргород	E			mevcut
 nizhyn	3	Ukrayna	Nezhin	Nizhyn								Demoscope 1897 (rus_gub_97 reg=48)	kiril: Нежин	E			mevcut
@@ -501,23 +501,23 @@ zmiiv	3	Ukrayna	Zmiev	Zmiiv								Demoscope 1897 (rus_gub_97 reg=46)	birimdeki 
 zolotonosha	3	Ukrayna	Zolotonosha	Zolotonosha								Demoscope 1897 (rus_gub_97 reg=33)	kiril: Золотоноша	E			mevcut
 zvenyhorodka	3	Ukrayna	Zvenigorodka	Zvenyhorodka								Demoscope 1897 (rus_gub_97 reg=16)	kiril: Звенигородка	E			mevcut
 zviahel	3	Ukrayna	Novograd-Volynskiy	Zviahel								Demoscope 1897 (rus_gub_97 reg=8)	kiril: Новоград-Волынский	D	Zviahel	Novograd-Volynskiy→Zviahel 2021	mevcut
-berdiansk	3	Ukrayna (Kırım)	Berdyansk	Berdiansk	46.7558	36.7885	atlas-yerlesim-ad-eslesmesi	Berdyansk				Demoscope 1897 (rus_gub_97 reg=41)	birimdeki öteki şehirler: Ногайск, Орехов; kiril: Бердянск	E			mevcut
+berdiansk	3	Ukrayna (Kırım)	Berdyansk	Berdiansk	46.7558	36.7885	atlas-yerlesim-ad-eslesmesi	Berdyansk		berdyansk-ua		Demoscope 1897 (rus_gub_97 reg=41)	birimdeki öteki şehirler: Ногайск, Орехов; kiril: Бердянск	E			mevcut
 feodosiia	3	Ukrayna (Kırım)	Feodosiya	Feodosiia								Demoscope 1897 (rus_gub_97 reg=41)	birimdeki öteki şehirler: Старый Крым; kiril: Феодосия	E			mevcut
 kerch	3	Ukrayna (Kırım)	Kerch	Kerch								Demoscope 1897 (rus_gub_97 reg=41)	birimdeki öteki şehirler: Еникале; kiril: Керчь	E			mevcut
-melitopol	3	Ukrayna (Kırım)	Melitopol	Melitopol	46.8489	35.3675	atlas-yerlesim-ad-eslesmesi	Melitopol				Demoscope 1897 (rus_gub_97 reg=41)	kiril: Мелитополь	E			mevcut
+melitopol	3	Ukrayna (Kırım)	Melitopol	Melitopol	46.8489	35.3675	atlas-yerlesim-ad-eslesmesi	Melitopol		melitopol-ua		Demoscope 1897 (rus_gub_97 reg=41)	kiril: Мелитополь	E			mevcut
 oleshky	3	Ukrayna (Kırım)	Aleshki	Oleshky								Demoscope 1897 (rus_gub_97 reg=41)	merkez adı birim adından farklı; kiril: Алешки	E		Tsyurupinsk 1928-2016 arası; bugün Oleshky	mevcut
 perekop-(harabe;-armiansk-yakini)	3	Ukrayna (Kırım)	Perekop	Perekop (harabe; Armiansk yakını)								Demoscope 1897 (rus_gub_97 reg=41)	kiril: Перекоп	H		Liste notunda harabe; şehir olarak mevcut değil (ayrıca doğrulanmadı)	mevcut
 sevastopol	3	Ukrayna (Kırım)	Sevastopol	Sevastopol								Demoscope 1897 (rus_gub_97 reg=41)	birimdeki öteki şehirler: Балаклава; kiril: Севастополь	E			mevcut
 yalta	3	Ukrayna (Kırım)	Yalta	Yalta	44.4952	34.1663	atlas-yerlesim-ad-eslesmesi	Yalta				Demoscope 1897 (rus_gub_97 reg=41)	kiril: Ялта	E			mevcut
 yevpatoriia	3	Ukrayna (Kırım)	Evpatoriya	Yevpatoriia								Demoscope 1897 (rus_gub_97 reg=41)	kiril: Евпатория	E			mevcut
-donetsk-ua	3	Ukrayna	Yuzovka	Donetsk	48.0230	37.8022	GeoNames 709717					GeoNames 709717; Donetsk oblast merkezi	Yuzovka→Stalino 1924→Donetsk 1961 (genel bilgi, doğrulanmadı); 1900'de Yuzovka; koord GeoNames sayfasından DMS: 48°01′22.80″ N, 37°48′08.06″ E	E			ek-modern-merkez
-ivano-frankivsk-ua	3	Ukrayna	Stanislav	Ivano-Frankivsk	48.9231	24.7125	GeoNames 707471					GeoNames 707471; Ivano-Frankivsk oblast merkezi	Stanislau/Stanisławów→Stanislav 1939→Ivano-Frankivsk 1962 (genel bilgi, doğrulanmadı); koord GeoNames sayfasından DMS: 48°55′23.23″ N, 24°42′44.93″ E	E			ek-modern-merkez
-luhansk-ua	3	Ukrayna	Lugansk	Luhansk	48.5681	39.3055	GeoNames 702658					GeoNames 702658; Luhansk oblast merkezi	Voroshilovgrad dönemleri 1935-58, 1970-90 (genel bilgi); koord GeoNames sayfasından DMS: 48°34′05.30″ N, 39°18′19.91″ E	E			ek-modern-merkez
-mykolaiv-ua	3	Ukrayna	Nikolaev	Mykolaiv	46.9763	31.9930	GeoNames 700569					GeoNames 700569; Mykolaiv oblast merkezi	GeoNames adı Mykolayiv; koord GeoNames sayfasından DMS: 46°58′34.50″ N, 31°59′34.66″ E	E			ek-modern-merkez
-ternopil-ua	3	Ukrayna	Tarnopol	Ternopil	49.5540	25.5907	GeoNames 691650					GeoNames 691650; Ternopil oblast merkezi	koord GeoNames sayfasından DMS: 49°33′14.54″ N, 25°35′26.41″ E	E			ek-modern-merkez
+donetsk-ua	3	Ukrayna	Yuzovka	Donetsk	48.0230	37.8022	GeoNames 709717			donetsk-ua		GeoNames 709717; Donetsk oblast merkezi	Yuzovka→Stalino 1924→Donetsk 1961 (genel bilgi, doğrulanmadı); 1900'de Yuzovka; koord GeoNames sayfasından DMS: 48°01′22.80″ N, 37°48′08.06″ E	E			ek-modern-merkez
+ivano-frankivsk-ua	3	Ukrayna	Stanislav	Ivano-Frankivsk	48.9231	24.7125	GeoNames 707471			ivano-frankivsk-ua		GeoNames 707471; Ivano-Frankivsk oblast merkezi	Stanislau/Stanisławów→Stanislav 1939→Ivano-Frankivsk 1962 (genel bilgi, doğrulanmadı); koord GeoNames sayfasından DMS: 48°55′23.23″ N, 24°42′44.93″ E	E			ek-modern-merkez
+luhansk-ua	3	Ukrayna	Lugansk	Luhansk	48.5681	39.3055	GeoNames 702658			luhansk-ua		GeoNames 702658; Luhansk oblast merkezi	Voroshilovgrad dönemleri 1935-58, 1970-90 (genel bilgi); koord GeoNames sayfasından DMS: 48°34′05.30″ N, 39°18′19.91″ E	E			ek-modern-merkez
+mykolaiv-ua	3	Ukrayna	Nikolaev	Mykolaiv	46.9763	31.9930	GeoNames 700569			mykolaiv-ua		GeoNames 700569; Mykolaiv oblast merkezi	GeoNames adı Mykolayiv; koord GeoNames sayfasından DMS: 46°58′34.50″ N, 31°59′34.66″ E	E			ek-modern-merkez
+ternopil-ua	3	Ukrayna	Tarnopol	Ternopil	49.5540	25.5907	GeoNames 691650			ternopil-ua		GeoNames 691650; Ternopil oblast merkezi	koord GeoNames sayfasından DMS: 49°33′14.54″ N, 25°35′26.41″ E	E			ek-modern-merkez
 cahul-md	3	Moldova	Kagul	Cahul	45.9046	28.1952	GeoNames 618456					GeoNames 618456; Cahul raion/il merkezi (güney)	1900 adı Rusça Kagul (genel bilgi); koord GeoNames sayfasından DMS: 45°54′16.42″ N, 28°11′42.58″ E	E			ek-modern-merkez
 comrat-md	3	Moldova	Komrat	Comrat	46.2949	28.6571	GeoNames 618405					GeoNames 618405; Gagauzya özerk bölge merkezi	1900 adı Rusça Komrat (genel bilgi); koord GeoNames sayfasından DMS: 46°17′41.57″ N, 28°39′25.67″ E	E			ek-modern-merkez
-klaipeda-lt	3	Litvanya	Memel	Klaipėda	55.7068	21.1391	GeoNames 598098					GeoNames 598098; Klaipėda apskritis merkezi	1900'de Prusya/Almanya'da (Memel); Litvanya'ya 1923; koord GeoNames sayfasından DMS: 55°42′24.48″ N, 21°08′20.83″ E	E			ek-modern-merkez
+klaipeda-lt	3	Litvanya	Memel	Klaipėda	55.7068	21.1391	GeoNames 598098			klaipeda-lt		GeoNames 598098; Klaipėda apskritis merkezi	1900'de Prusya/Almanya'da (Memel); Litvanya'ya 1923; koord GeoNames sayfasından DMS: 55°42′24.48″ N, 21°08′20.83″ E	E			ek-modern-merkez
 alytus-lt	3	Litvanya	Olita	Alytus	54.3957	24.0389	GeoNames 601084					GeoNames 601084; Alytus apskritis merkezi	koord GeoNames sayfasından DMS: 54°23′44.66″ N, 24°02′19.86″ E	E			ek-modern-merkez
 marijampole-lt	3	Litvanya	Mariampol	Marijampolė	54.5579	23.3500	GeoNames 597231					GeoNames 597231; Marijampolė apskritis merkezi	Kapsukas 1955-1989 (genel bilgi); koord GeoNames sayfasından DMS: 54°33′28.33″ N, 23°21′00.14″ E	E			ek-modern-merkez
 taurage-lt	3	Litvanya	Tavrogi	Tauragė	55.2522	22.2897	GeoNames 593959					GeoNames 593959; Tauragė apskritis merkezi	1900 Rusça adı Tavrogi (genel bilgi, doğrulanmadı); koord GeoNames sayfasından DMS: 55°15′07.99″ N, 22°17′22.99″ E	E			ek-modern-merkez
@@ -530,17 +530,17 @@ polva-ee	3	Estonya		Põlva	58.0603	27.0694	GeoNames 589375					GeoNames 589375; 
 kardla-ee	3	Estonya		Kärdla	58.9978	22.7492	GeoNames 591632					GeoNames 591632; Hiiu maakond merkezi	koord GeoNames sayfasından DMS: 58°59′52.01″ N, 22°44′57.01″ E	E			ek-modern-merkez
 liepaja-lv	3	Letonya	Libava	Liepāja	56.5047	21.0109	GeoNames 457954					GeoNames 457954; Kurzeme bölgesi büyük şehri (Liepāja şehir)	koord GeoNames sayfasından DMS: 56°30′17.06″ N, 21°00′39.06″ E	E			ek-modern-merkez
 jurmala-lv	3	Letonya		Jūrmala	56.9680	23.7704	GeoNames 459201					GeoNames 459201; Jūrmala şehir (Riga bölgesi)	Bugünkü kent 1959'da birleştirilmiş sahil yerleşimlerinden; 1900'de tek yerleşim değil; koord GeoNames sayfasından DMS: 56°58′04.80″ N, 23°46′13.37″ E	E			ek-modern-merkez
-maykop-ru	3	Rusya	Maykop	Maykop	44.6079	40.1024	GeoNames 528293					GeoNames 528293; Adigey Cumhuriyeti merkezi	koord GeoNames sayfasından DMS: 44°36′28.40″ N, 40°06′08.71″ E	E			ek-modern-merkez
+maykop-ru	3	Rusya	Maykop	Maykop	44.6079	40.1024	GeoNames 528293			maykop-ru		GeoNames 528293; Adigey Cumhuriyeti merkezi	koord GeoNames sayfasından DMS: 44°36′28.40″ N, 40°06′08.71″ E	E			ek-modern-merkez
 grozny-ru	3	Rusya	Grozny	Grozny	43.3119	45.6889	GeoNames 558418					GeoNames 558418; Çeçenistan merkezi	koord GeoNames sayfasından DMS: 43°18′43.02″ N, 45°41′20.22″ E	E			ek-modern-merkez
 makhachkala-ru	3	Rusya	Petrovsk-Port	Makhachkala	42.9778	47.5003	GeoNames 532096					GeoNames 532096; Dağıstan merkezi	Petrovsk-Port→Makhachkala 1921 (genel bilgi, doğrulanmadı); koord GeoNames sayfasından DMS: 42°58′40.15″ N, 47°30′00.97″ E	E			ek-modern-merkez
 magas-ru	3	Rusya		Magas	43.2226	44.7726	GeoNames 6313621					GeoNames 6313621; İnguşetya merkezi	Yeni kent (1990'lar); 1900'de yok; eski merkez Nazran. 'O devirde var mıydı' sorgusu: yok; koord GeoNames sayfasından DMS: 43°13′21.25″ N, 44°46′21.40″ E	E			ek-modern-merkez
-nalchik-ru	3	Rusya	Nalchik	Nalchik	43.4981	43.6189	GeoNames 523523					GeoNames 523523; Kabardey-Balkar Cumhuriyeti merkezi	koord GeoNames sayfasından DMS: 43°29′53.02″ N, 43°37′08.00″ E	E			ek-modern-merkez
-elista-ru	3	Rusya	Elista	Elista	46.3079	44.2554	GeoNames 563514					GeoNames 563514; Kalmukya merkezi	1900'de küçük yerleşim (Elistinsky); doğrulanmadı; koord GeoNames sayfasından DMS: 46°18′28.58″ N, 44°15′19.33″ E	E			ek-modern-merkez
+nalchik-ru	3	Rusya	Nalchik	Nalchik	43.4981	43.6189	GeoNames 523523			nalchik-ru		GeoNames 523523; Kabardey-Balkar Cumhuriyeti merkezi	koord GeoNames sayfasından DMS: 43°29′53.02″ N, 43°37′08.00″ E	E			ek-modern-merkez
+elista-ru	3	Rusya	Elista	Elista	46.3079	44.2554	GeoNames 563514			elista-ru		GeoNames 563514; Kalmukya merkezi	1900'de küçük yerleşim (Elistinsky); doğrulanmadı; koord GeoNames sayfasından DMS: 46°18′28.58″ N, 44°15′19.33″ E	E			ek-modern-merkez
 cherkessk-ru	3	Rusya	Batalpashinskaya	Cherkessk	44.2238	42.0462	GeoNames 569154					GeoNames 569154; Karaçay-Çerkes Cumhuriyeti merkezi	Batalpashinskaya (stanitsa)→Cherkessk 1931 (genel bilgi, doğrulanmadı); koord GeoNames sayfasından DMS: 44°13′25.50″ N, 42°02′46.46″ E	E			ek-modern-merkez
-ivanovo-ru	3	Rusya	Ivanovo-Voznesensk	Ivanovo	56.9999	40.9726	GeoNames 555312					GeoNames 555312; Ivanovo oblast merkezi	Ivanovo-Voznesensk→Ivanovo 1932 (genel bilgi); koord GeoNames sayfasından DMS: 56°59′59.57″ N, 40°58′21.25″ E	E			ek-modern-merkez
+ivanovo-ru	3	Rusya	Ivanovo-Voznesensk	Ivanovo	56.9999	40.9726	GeoNames 555312			ivanovo-ru		GeoNames 555312; Ivanovo oblast merkezi	Ivanovo-Voznesensk→Ivanovo 1932 (genel bilgi); koord GeoNames sayfasından DMS: 56°59′59.57″ N, 40°58′21.25″ E	E			ek-modern-merkez
 murmansk-ru	3	Rusya		Murmansk	68.9678	33.0992	GeoNames 524305					GeoNames 524305; Murmansk oblast merkezi	Kuruluş 1916; 1900'de yok; koord GeoNames sayfasından DMS: 68°58′04.01″ N, 33°05′57.19″ E	E			ek-modern-merkez
-naryan-mar-ru	3	Rusya		Naryan-Mar	67.6387	53.0037	GeoNames 523392					GeoNames 523392; Nenets Özerk Okrugu merkezi	1900'de yok/küçük (Beloshchelye; doğrulanmadı); koord GeoNames sayfasından DMS: 67°38′19.28″ N, 53°00′13.36″ E	E			ek-modern-merkez
-izhevsk-ru	3	Rusya	Izhevsk	Izhevsk	56.8522	53.1986	GeoNames 554840					GeoNames 554840; Udmurtya merkezi	Ustinov 1984-1987 (genel bilgi); koord GeoNames sayfasından DMS: 56°51′08.10″ N, 53°11′55.03″ E	E			ek-modern-merkez
+naryan-mar-ru	3	Rusya		Naryan-Mar	67.6387	53.0037	GeoNames 523392			naryan-mar-ru		GeoNames 523392; Nenets Özerk Okrugu merkezi	1900'de yok/küçük (Beloshchelye; doğrulanmadı); koord GeoNames sayfasından DMS: 67°38′19.28″ N, 53°00′13.36″ E	E			ek-modern-merkez
+izhevsk-ru	3	Rusya	Izhevsk	Izhevsk	56.8522	53.1986	GeoNames 554840			izhevsk-ru		GeoNames 554840; Udmurtya merkezi	Ustinov 1984-1987 (genel bilgi); koord GeoNames sayfasından DMS: 56°51′08.10″ N, 53°11′55.03″ E	E			ek-modern-merkez
 khanty-mansiysk-ru	3	Rusya	Samarovo	Khanty-Mansiysk	61.0019	69.0273	GeoNames 1503772					GeoNames 1503772; Hanti-Mansi Özerk Okrugu merkezi (Ural federal bölgesi)	Samarovo→Ostyako-Vogulsk 1930→Khanty-Mansiysk 1940 (genel bilgi, doğrulanmadı); koord GeoNames sayfasından DMS: 61°00′06.73″ N, 69°01′38.21″ E	E			ek-modern-merkez
-salekhard-ru	3	Rusya	Obdorsk	Salekhard	66.5337	66.6095	GeoNames 1493197					GeoNames 1493197; Yamal-Nenets Özerk Okrugu merkezi (Ural federal bölgesi)	Obdorsk→Salekhard 1933 (genel bilgi, doğrulanmadı); koord GeoNames sayfasından DMS: 66°32′01.43″ N, 66°36′34.38″ E	E			ek-modern-merkez
+salekhard-ru	3	Rusya	Obdorsk	Salekhard	66.5337	66.6095	GeoNames 1493197			salekhard-ru		GeoNames 1493197; Yamal-Nenets Özerk Okrugu merkezi (Ural federal bölgesi)	Obdorsk→Salekhard 1933 (genel bilgi, doğrulanmadı); koord GeoNames sayfasından DMS: 66°32′01.43″ N, 66°36′34.38″ E	E			ek-modern-merkez
 kuznetsk	3	Rusya	Kuznetsk	Kuznetsk	53.1168	46.6004	GeoNames 537737 (53°07′00.30″ N, 46°36′01.33″ E)	Kuznetsk				Demoscope 1897 (rus_gub_97 reg=38)	kiril: Кузнецк	E		düzeltildi (eski KOORD UYARISI): lat/lon Novokuznetsk'e ait; satır reg=38 (Saratov il) Kuznetsk = Kuznetsk (Penza Obl.) olabilir; yer eşlemesi doğrulanmadı | KOORD DÜZELTİLDİ 17 Kas 2026: eski (53.757,87.136)=Novokuznetsk → yeni (53.1168,46.6004)=Kuznetsk (Penza Obl.), Saratov valiliği (reg=38); Sibirya listesinden Doğu Avrupa listesine TAŞINDI; kaynak GeoNames 537737 DMS 53°07′00.30″ N, 46°36′01.33″ E	mevcut
