@@ -370,7 +370,7 @@ window.SEHIR_TARIHCE_ADALAR_EK = [
    "kesinlik": "yil",
    "kaynak": "Uppslagsverket Finland (Svenska litteratursällskapet), 'Saltvik', https://www.uppslagsverket.fi/sv/view-170045-Saltvik",
    "tanik": "Socknen omtalas första gången 1322.",
-   "ic_not": "Yazılı tanık socken (bucak) ilk anılışıdır; yerleşim kuruluşu değildir. Aynı maddede Långbergsöda yerleşimi ~MÖ 4000-3300 (arkeolojik) geçer ama bu 'Saltvik bucağı merkezi' (GeoNames PPLA2, kilise çevresi) ile doğrudan eşleştirilmedi; ayrı kayıt önerilir. Kilise (S:ta Maria, gri taş) '1300-t.' yani 14. yy. Koordinat GeoNames'ten (LISTE.tsv). Tanık kontrolü: birebir Uppslagsverket cümlesi; yıl cümlede, ama 'Saltvik' adı aynı cümlede yok ('Socknen'). Madde yalnız Saltvik'i anlatır; adlı cümle ('Saltvik kan uppvisa Ålands äldsta ... stenåldersboplatser') 3 cümle öncedir, aradaki cümleler adsızdır; iki cümlelik tanıkla kapatılamadı."
+   "ic_not": "Yazılı tanık socken (bucak) ilk anılışıdır; yerleşim kuruluşu değildir. Aynı maddede Långbergsöda yerleşimi ~MÖ 4000-3300 (arkeolojik) geçer ama bu 'Saltvik bucağı merkezi' (GeoNames PPLA2, kilise çevresi) ile doğrudan eşleştirilmedi; ayrı kayıt önerilir. Kilise (S:ta Maria, gri taş) '1300-t.' yani 14. yy. Koordinat GeoNames'ten (LISTE.tsv). Tanık kontrolü: birebir Uppslagsverket cümlesi; yıl cümlede, ama 'Saltvik' adı aynı cümlede yok ('Socknen'). Madde yalnız Saltvik'i anlatır; adlı cümle ('Saltvik kan uppvisa Ålands äldsta ... stenåldersboplatser') 3 cümle öncedir, aradaki cümleler adsızdır; iki cümlelik tanıkla kapatılamadı. | KARAR (EMRELIC/UMIT 17 Kasim 1116): madde konusu sehir, ozne zamir/anlati; tanik kabul, kesinlik kalir (LAB Hwange ortak kurali)."
   },
   "kur": null,
   "ark": null,

@@ -173,7 +173,7 @@ window.SEHIR_TARIHCE_AFRIKA_MAGRIP = [
    "kesinlik": "yil",
    "kaynak": "TDV İslâm Ansiklopedisi, 'BÛNE', https://islamansiklopedisi.org.tr/bune",
    "tanik": "Iustinianos’un 533’te tekrar Bizans hâkimiyetine soktuğu şehir 697 yılında Hassân b. Nu‘mân kumandasındaki İslâm ordusu tarafından fethedildi.",
-   "ic_not": "UYARI: bu 'ilk anılış' değil, bu oturumda doğrulanan EN ERKEN tarihli olgudur. TDV Bûne antik Hippo Regius'u (Fenike IX. yy., Kartaca, Numidya, Roma, Vandal 431) anar ama modern Bûne ile aynı yer olduğunu açıkça kurmaz; Plinius 5.22 'Hippo Regius' tanığı mevcuttur ancak Hippo harabesinin Annaba merkezine uzaklığı (≈3-4 km, ölçülmedi) kural gereği ayrı kayıt gerektirir. Antik Hippo ayrı kayıt olarak önerilir; modern Annaba için kuruluş tanığı bulunamadı. Tanık kontrolü: birebir TDV BÛNE cümlesi; yıl (697) cümlededir ama şehir adı aynı cümlede yoktur, 'şehir' diye geçer. Ad paragrafın başında (Bugünkü adı Annâbe olan şehir ... Bûne adı) açıkça verilir ve 431/533/697 cümlelerinde özne kesintisiz 'şehir'dir; ada en yakın cümle 4 cümle öncedir, iki cümlelik tanıkla kapatılamaz."
+   "ic_not": "UYARI: bu 'ilk anılış' değil, bu oturumda doğrulanan EN ERKEN tarihli olgudur. TDV Bûne antik Hippo Regius'u (Fenike IX. yy., Kartaca, Numidya, Roma, Vandal 431) anar ama modern Bûne ile aynı yer olduğunu açıkça kurmaz; Plinius 5.22 'Hippo Regius' tanığı mevcuttur ancak Hippo harabesinin Annaba merkezine uzaklığı (≈3-4 km, ölçülmedi) kural gereği ayrı kayıt gerektirir. Antik Hippo ayrı kayıt olarak önerilir; modern Annaba için kuruluş tanığı bulunamadı. Tanık kontrolü: birebir TDV BÛNE cümlesi; yıl (697) cümlededir ama şehir adı aynı cümlede yoktur, 'şehir' diye geçer. Ad paragrafın başında (Bugünkü adı Annâbe olan şehir ... Bûne adı) açıkça verilir ve 431/533/697 cümlelerinde özne kesintisiz 'şehir'dir; ada en yakın cümle 4 cümle öncedir, iki cümlelik tanıkla kapatılamaz. | KARAR (EMRELIC/UMIT 17 Kasim 1116): madde konusu sehir, ozne zamir/anlati; tanik kabul, kesinlik kalir (LAB Hwange ortak kurali)."
   },
   "kur": null,
   "ark": null,
@@ -246,7 +246,7 @@ window.SEHIR_TARIHCE_AFRIKA_MAGRIP = [
    "kesinlik": "yil",
    "kaynak": "TDV İslâm Ansiklopedisi, 'BİCÂYE', https://islamansiklopedisi.org.tr/bicaye",
    "tanik": "Hammâdî emîrlerinin beşincisi Nâsır b. Alennâs (1062-1089) Saldae’nin güneyine yeni bir şehir kurdu (457/1065) ve burasını kendine başkent yaptı (461/1068-69).",
-   "ic_not": "TDV: önce 'Nâsıriye' adı verildi, halk Bicâye adını sürdürdü; 461/1068-69'da başkent oldu. Antik Saldae (Vandal 439, Müslüman 708) yakın ama ayrı yerleşimdir (modern Béjaïa'dan ≈2-3 km, ölçülmedi). Tanık kontrolü: birebir TDV BİCÂYE cümlesi; yıl cümlede, ama Bicâye adı aynı cümlede değil ('yeni bir şehir'). Ad aynı paragrafta 4 cümle sonra ('halk ... Bicâye’yi kullanagelmiştir') gelir ve yeni şehir = Bicâye bağı kesintisizdir; iki cümlelik tanıkla kapatılamadı."
+   "ic_not": "TDV: önce 'Nâsıriye' adı verildi, halk Bicâye adını sürdürdü; 461/1068-69'da başkent oldu. Antik Saldae (Vandal 439, Müslüman 708) yakın ama ayrı yerleşimdir (modern Béjaïa'dan ≈2-3 km, ölçülmedi). Tanık kontrolü: birebir TDV BİCÂYE cümlesi; yıl cümlede, ama Bicâye adı aynı cümlede değil ('yeni bir şehir'). Ad aynı paragrafta 4 cümle sonra ('halk ... Bicâye’yi kullanagelmiştir') gelir ve yeni şehir = Bicâye bağı kesintisizdir; iki cümlelik tanıkla kapatılamadı. | KARAR (EMRELIC/UMIT 17 Kasim 1116): madde konusu sehir, ozne zamir/anlati; tanik kabul, kesinlik kalir (LAB Hwange ortak kurali)."
   },
   "kur": null,
   "ark": null,
@@ -610,7 +610,7 @@ window.SEHIR_TARIHCE_AFRIKA_MAGRIP = [
    "kesinlik": "gun",
    "kaynak": "TDV İslâm Ansiklopedisi, 'MEHDİYE (Tunus)', https://islamansiklopedisi.org.tr/mehdiye--tunus",
    "tanik": "İnşası 8 Şevval 308 (20 Şubat 921) tarihinde tamamlanan şehir Şiîler için güvenli bir sığınak olmuştu.",
-   "ic_not": "TDV şehrin 20 Şubat 921'de Fâtımî halifesi Ubeydullah el-Mehdî tarafından 'tamamlandığını' (inşasının bittiğini) söyler; 'kuruluş' günü olarak alındı, inşaatın başlangıcı farklı olabilir. Jülyen (1582 öncesi). Antik/Fenike kökenli (Pliny'deki Gightis vb.) yerleşim bu oturumda ilişkilendirilmedi. Tanık kontrolü: birebir TDV MEHDİYE cümlesi (gün 20 Şubat 921 cümlede); şehir adı aynı cümlede yok ('şehir'). Ad aynı paragrafta 4 cümle önce ('Mehdiye’nin temellerini attı', yılsız) geçer; aradaki cümleler adsız olduğundan iki cümlelik tanıkla kapatılamadı. Maddenin başka hiçbir cümlesi Mehdiye adı ile 308/921'i birlikte taşımaz."
+   "ic_not": "TDV şehrin 20 Şubat 921'de Fâtımî halifesi Ubeydullah el-Mehdî tarafından 'tamamlandığını' (inşasının bittiğini) söyler; 'kuruluş' günü olarak alındı, inşaatın başlangıcı farklı olabilir. Jülyen (1582 öncesi). Antik/Fenike kökenli (Pliny'deki Gightis vb.) yerleşim bu oturumda ilişkilendirilmedi. Tanık kontrolü: birebir TDV MEHDİYE cümlesi (gün 20 Şubat 921 cümlede); şehir adı aynı cümlede yok ('şehir'). Ad aynı paragrafta 4 cümle önce ('Mehdiye’nin temellerini attı', yılsız) geçer; aradaki cümleler adsız olduğundan iki cümlelik tanıkla kapatılamadı. Maddenin başka hiçbir cümlesi Mehdiye adı ile 308/921'i birlikte taşımaz. | KARAR (EMRELIC/UMIT 17 Kasim 1116): madde konusu sehir, ozne zamir/anlati; tanik kabul, kesinlik kalir (LAB Hwange ortak kurali)."
   },
   "kur": null,
   "ark": null,
@@ -1474,14 +1474,22 @@ window.SEHIR_TARIHCE_AFRIKA_MAGRIP = [
   ],
   "ilk": {
    "t": "0643-01-01",
-   "gun": "643 (22 h.)",
+   "gun": "22 h. (643)",
    "nicelik": "ilk_anilis",
-   "kesinlik": "yil",
+   "kesinlik": "belirsiz",
    "kaynak": "TDV İslâm Ansiklopedisi, 'TRABLUSGARP', https://islamansiklopedisi.org.tr/trablusgarp",
    "tanik": "İslâm fetihleri sırasında Bizans hâkimiyetinde önemli bir liman şehri durumundaki Trablusgarp, Hz. Ömer döneminde Mısır fâtihi Amr b. Âs tarafından 22 (643) yılında bir aylık kuşatmanın ardından fethedildi.",
-   "ic_not": "UYARI: bu 'ilk anılış' değil, bu oturumda doğrulanan EN ERKEN tarihli olgudur. Antik Oea (Fenike/Yunan/Roma) tanığı bulunamadı/doğrulanamadı (Plinius 5.25'in Wikisource metninde Oea geçmiyor; Tripolis adı kontrol edilemedi). İlk anılış ARANACAK. Atlasın -0045 roma-cumhuriyeti başlangıcı kaynaksızdır. Tanık TDV TRABLUSGARP tam gövdesinden birebir cümle olarak alındı (önceki tanık kısaltmaydı; şehir adı eksikti). Not: aynı maddede daha erken tarihli bir cümle vardır: 'Trablusgarp şehri milâttan önce VII. yüzyılda burayı Oea diye isimlendiren Fenikeliler tarafından tesis edildi.' Bu kayıt bu görevde değiştirilmedi; ilk.t yeniden değerlendirilebilir."
+   "ic_not": "UYARI: bu 'ilk anılış' değil, bu oturumda doğrulanan EN ERKEN tarihli olgudur. Antik Oea (Fenike/Yunan/Roma) tanığı bulunamadı/doğrulanamadı (Plinius 5.25'in Wikisource metninde Oea geçmiyor; Tripolis adı kontrol edilemedi). İlk anılış ARANACAK. Atlasın -0045 roma-cumhuriyeti başlangıcı kaynaksızdır. Tanık TDV TRABLUSGARP tam gövdesinden birebir cümle olarak alındı (önceki tanık kısaltmaydı; şehir adı eksikti). Not: aynı maddede daha erken tarihli bir cümle vardır: 'Trablusgarp şehri milâttan önce VII. yüzyılda burayı Oea diye isimlendiren Fenikeliler tarafından tesis edildi.' Bu kayıt bu görevde değiştirilmedi; ilk.t yeniden değerlendirilebilir. | KARAR (EMRELIC/UMIT 17 Kasim 1116): TDV kurulusu MO VII. yy. (Oea) verir, kur alanina yazildi. ilk.t 643 'ilk Arap fethi' = bilinen en erken YAZILI olgu, gercek ilk anilis degil; kesinlik 'belirsiz'. Gercek ilk anilis (antik Oea/Tripolis tanigi) aranacak."
   },
-  "kur": null,
+  "kur": {
+   "t": "-0600-01-01",
+   "gun": "MÖ 601",
+   "nicelik": "kurulus",
+   "kesinlik": "yuzyil",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'TRABLUSGARP', https://islamansiklopedisi.org.tr/trablusgarp",
+   "tanik": "Trablusgarp şehri milâttan önce VII. yüzyılda burayı Oea diye isimlendiren Fenikeliler tarafından tesis edildi.",
+   "ic_not": "TDV: MÖ VII. yy. (yüzyıl hassasiyeti; güvenli uç MÖ 601 = -0600). Fenike Oea. Sahip zinciri bu dönem için yazılmadı (kaynaklı devlet zinciri yok)."
+  },
   "ark": null,
   "bit": null,
   "sahip": [],

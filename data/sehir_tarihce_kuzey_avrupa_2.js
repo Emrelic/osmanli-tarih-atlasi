@@ -387,7 +387,7 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_2 = [
    "kesinlik": "yil",
    "kaynak": "Den Store Danske / lex.dk, 'Härnösand', https://lex.dk/Härnösand",
    "tanik": "Härnösand er en by i Nordsverige nær Ångermanälvens udløb i Bottenhavet med 18.500 indbyggere (2020). Byen ligger på begge sider af et sund, der adskiller øen Härnön fra fastlandet. Den blev grundlagt i 1585 og tjente til eksport af trævarer, jern og produkter fra kvægbruget.",
-   "ic_not": "ÇİFT TEYİT (yıl düzeyi): snl.no ve lex.dk aynı yılı verir. Ancak ikisi de genel ansiklopedidir; akademik/arşiv (runeberg, Riksarkivet, Arkivverket, SBL/NBL/DBL, Diplomatarium) üçüncü kaynak bu turda bulunamadı/okunamadı. snl 'Härnösand' 'Founded: 1585'. | TANIK DÜZELTME (UMIT 1116): üç cümlelik tanık (ad aynı paragrafta, yıl cümlesinde değil; zayıf-b)"
+   "ic_not": "ÇİFT TEYİT (yıl düzeyi): snl.no ve lex.dk aynı yılı verir. Ancak ikisi de genel ansiklopedidir; akademik/arşiv (runeberg, Riksarkivet, Arkivverket, SBL/NBL/DBL, Diplomatarium) üçüncü kaynak bu turda bulunamadı/okunamadı. snl 'Härnösand' 'Founded: 1585'. | TANIK DÜZELTME (UMIT 1116): üç cümlelik tanık (ad aynı paragrafta, yıl cümlesinde değil; zayıf-b) | KARAR (EMRELIC/UMIT 17 Kasim 1116): madde konusu sehir, ozne zamir/anlati; tanik kabul, kesinlik kalir (LAB Hwange ortak kurali)."
   },
   "kur": null,
   "ark": null,
@@ -494,7 +494,7 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_2 = [
    "kesinlik": "yil",
    "kaynak": "Den Store Danske / lex.dk, 'Karlstad', https://lex.dk/Karlstad",
    "tanik": "Fra gammel tid lå en markedsplads ved Klarälvens udløb; bebyggelsen fik i 1584 byprivilegier og navn af hertug Karl, den senere Karl 9. Flere brande har betydet, at gamle bykvarterer med bygninger fra 1700-tallet kun er bevaret i kvarteret Almen. I 1870'erne fik Karlstad jernbaneforbindelse til Oslo, Göteborg og Stockholm.",
-   "ic_not": "ÇİFT TEYİT (yıl düzeyi): snl.no ve lex.dk aynı yılı verir. Ancak ikisi de genel ansiklopedidir; akademik/arşiv (runeberg, Riksarkivet, Arkivverket, SBL/NBL/DBL, Diplomatarium) üçüncü kaynak bu turda bulunamadı/okunamadı. snl 'Karlstad was a trading place before Christianity arrived and received town privileges in 1584'. Hristiyanlık öncesi ticaret yeri (yıl yok, kullanılmadı). | TANIK DÜZELTME (UMIT 1116): üç cümlelik tanık (ad aynı paragrafta, yıl cümlesinde değil; zayıf-b)"
+   "ic_not": "ÇİFT TEYİT (yıl düzeyi): snl.no ve lex.dk aynı yılı verir. Ancak ikisi de genel ansiklopedidir; akademik/arşiv (runeberg, Riksarkivet, Arkivverket, SBL/NBL/DBL, Diplomatarium) üçüncü kaynak bu turda bulunamadı/okunamadı. snl 'Karlstad was a trading place before Christianity arrived and received town privileges in 1584'. Hristiyanlık öncesi ticaret yeri (yıl yok, kullanılmadı). | TANIK DÜZELTME (UMIT 1116): üç cümlelik tanık (ad aynı paragrafta, yıl cümlesinde değil; zayıf-b) | KARAR (EMRELIC/UMIT 17 Kasim 1116): madde konusu sehir, ozne zamir/anlati; tanik kabul, kesinlik kalir (LAB Hwange ortak kurali)."
   },
   "kur": null,
   "ark": null,
@@ -767,7 +767,7 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_2 = [
    "kesinlik": "yil",
    "kaynak": "Store norske leksikon, 'Luleå', https://snl.no/Luleå",
    "tanik": "Byen ble først anlagt i 1621 ved den gamle Luleå kyrkby (nå Gammelstad), men flyttet i 1649 fordi landet hevet seg og seiling til det gamle Luleå ikke lenger var mulig.",
-   "ic_not": "ÇİFT TEYİT: snl (1649 taşınma) + lex 'i 1649 udbyggede en ny bydel nærmere ved havet'. Bu kayıt BUGÜNKÜ konumdur. İlk Luleå kuruluşu 1621 (snl 'first laid out in 1621 at the old Luleå church village', bugünkü Gammelstad, ≈9 km kuzeybatı, > 3 km); lex 'Gammelstaden går tilbage til middelalderen' (yıl yok). Kural (antik yerleşim > 3 km): burada ilk.t yapılmadı, Gammelstad ayrı kayıt olarak önerilir; 1621 olay olarak yazıldı. | TANIK DÜZELTME (UMIT 1116): önceki tanık lex (Danca) idi, ilk.kaynak snl idi; snl cümlesi alındı. DİKKAT: aynı cümle ilk kuruluşu 1621'de (Gammelstad yanında) verir; ilk.t 1649 = bugünkü yere taşınma; 1621 için ayrı karar gerekir (değiştirilmedi)"
+   "ic_not": "ÇİFT TEYİT: snl (1649 taşınma) + lex 'i 1649 udbyggede en ny bydel nærmere ved havet'. Bu kayıt BUGÜNKÜ konumdur. İlk Luleå kuruluşu 1621 (snl 'first laid out in 1621 at the old Luleå church village', bugünkü Gammelstad, ≈9 km kuzeybatı, > 3 km); lex 'Gammelstaden går tilbage til middelalderen' (yıl yok). Kural (antik yerleşim > 3 km): burada ilk.t yapılmadı, Gammelstad ayrı kayıt olarak önerilir; 1621 olay olarak yazıldı. | TANIK DÜZELTME (UMIT 1116): önceki tanık lex (Danca) idi, ilk.kaynak snl idi; snl cümlesi alındı. DİKKAT: aynı cümle ilk kuruluşu 1621'de (Gammelstad yanında) verir; ilk.t 1649 = bugünkü yere taşınma; 1621 için ayrı karar gerekir (değiştirilmedi) | KARAR (EMRELIC/UMIT 17 Kasim 1116): ilk.t 1649 = bugunku yere tasinma; 1621 ilk kurulus Gammelstad kaydinda (kuzey_avrupa_ayri) yazildi; degisiklik yok."
   },
   "kur": null,
   "ark": null,
@@ -827,7 +827,7 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_2 = [
    "kesinlik": "yil",
    "kaynak": "Store norske leksikon, 'Mikkeli', https://snl.no/Mikkeli",
    "tanik": "S:t Michel ligger der de gamle handelsvegene fra Vyborg og Tavastehus møtes. Ved Astuvansalmi finnes om lag 5000 år gamle holemaleri. Gravplasser viser at det har bodd folk her allerede på 900-tallet, og byen ble kjøpstad fra 1838.",
-   "ic_not": "snl 'byen ble kjøpstad fra 1838'. TEK KAYNAK (snl; lex bu yılı içermez). Daha eski yazılı tanık okunmadı; snl 900'ler mezarlar ('allerede på 900-tallet') arkeolojik (ark alanına yazıldı). | TANIK DÜZELTME (UMIT 1116): üç cümlelik tanık (ad aynı paragrafta, yıl cümlesinde değil; zayıf-b); snl sayfa adı 'S:t Michel' (= Mikkeli)"
+   "ic_not": "snl 'byen ble kjøpstad fra 1838'. TEK KAYNAK (snl; lex bu yılı içermez). Daha eski yazılı tanık okunmadı; snl 900'ler mezarlar ('allerede på 900-tallet') arkeolojik (ark alanına yazıldı). | TANIK DÜZELTME (UMIT 1116): üç cümlelik tanık (ad aynı paragrafta, yıl cümlesinde değil; zayıf-b); snl sayfa adı 'S:t Michel' (= Mikkeli) | KARAR (EMRELIC/UMIT 17 Kasim 1116): madde konusu sehir, ozne zamir/anlati; tanik kabul, kesinlik kalir (LAB Hwange ortak kurali)."
   },
   "kur": null,
   "ark": {
@@ -924,25 +924,25 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_2 = [
    "Moss"
   ],
   "ilk": {
-   "t": "1720-01-01",
-   "gun": "1720",
+   "t": "1560-01-01",
+   "gun": "1560",
    "nicelik": "ilk_anilis",
    "kesinlik": "yil",
    "kaynak": "Store norske leksikon, 'Moss', https://snl.no/Moss",
    "tanik": "Moss omtales i 1560 som ladested og ble kjøpstad i 1720 etter at Moss Jernverk var satt i drift (1704).",
-   "ic_not": "En erken YAZILI STATÜ tanığı: kjøpstad (1720; snl 'Moss became a trading town (kjøpstad) in 1720'). TEK KAYNAK (snl; lex bu yılı içermez). lex 'Navnet kendes fra ca. 1400 som Mos' bir NEHİR adıdır (Mosseelva) — yerleşimin tanığı değil, kullanılmadı. Moss Jernverk 1700'lerdeki demir fabrikası (lex 'I 1700-tallet lå her et jernværk'). | TANIK DÜZELTME (UMIT 1116): tek kaynak (snl; lex.dk/Moss'ta 1720 yok). DİKKAT: aynı cümle 1560'ta ladested olarak anıldığını söyler; ilk.t 1720 kjøpstad olarak bırakıldı, 1560 ayrı karar gerekir"
+   "ic_not": "En erken YAZILI STATÜ tanığı: kjøpstad (1720; snl 'Moss became a trading town (kjøpstad) in 1720'). TEK KAYNAK (snl; lex bu yılı içermez). lex 'Navnet kendes fra ca. 1400 som Mos' bir NEHİR adıdır (Mosseelva) — yerleşimin tanığı değil, kullanılmadı. Moss Jernverk 1700'lerdeki demir fabrikası (lex 'I 1700-tallet lå her et jernværk'). | TANIK DÜZELTME (UMIT 1116): tek kaynak (snl; lex.dk/Moss'ta 1720 yok). DİKKAT: aynı cümle 1560'ta ladested olarak anıldığını söyler; ilk.t 1720 kjøpstad olarak bırakıldı, 1560 ayrı karar gerekir | KARAR (EMRELIC/UMIT 17 Kasim 1116): ayni snl cumlesi 'Moss omtales i 1560 som ladested' diyor; ilk anilis 1560, kjopstad statusu 1720 olay olarak yazildi (eski ilk.t 1720). Tek kaynak (snl)."
   },
   "kur": null,
   "ark": null,
   "bit": null,
   "sahip": [
    {
-    "f": "1720-01-01",
+    "f": "1560-01-01",
     "t": "1814-01-14",
     "d": "danimarka",
     "kesinlik": "yil",
     "kaynak": "Store norske leksikon, 'Moss', https://snl.no/Moss",
-    "ic_not": "BEYANLI YAKLAŞIKLIK: kaynak şehrin bağlı olduğu krallığı ayrıca söylemez; Danimarka-Norveç (danimarka künyesi) toprağıdır; 1720 kjøpstad'ı Danimarka-Norveç kralı çağıdır."
+    "ic_not": "BEYANLI YAKLAŞIKLIK: kaynak şehrin bağlı olduğu krallığı ayrıca söylemez; Danimarka-Norveç (danimarka künyesi) toprağıdır; 1720 kjøpstad'ı Danimarka-Norveç kralı çağıdır. | f ilk.t'ye (1560) cekildi; 1560 icin ayri tanik yok, ayni Danimarka-Norvec varsayimi."
    },
    {
     "f": "1814-01-14",
@@ -1063,10 +1063,10 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_2 = [
    "t": "1299-01-01",
    "gun": "1200'ler (1299)",
    "nicelik": "ilk_anilis",
-   "kesinlik": "yuzyil",
+   "kesinlik": "belirsiz",
    "kaynak": "Den Store Danske / lex.dk, 'Örebro', https://lex.dk/Örebro",
    "tanik": "I midten af 1200-t. omtales en tæt bebyggelse af handelsdrivende og et befæstet tårn på stedet, og et mønthus er nævnt 1285. Byen fik et karmeliterkloster i midten af 1400-t. og indgik i dronning Dorotheas morgengavelen, som hun forgæves forsøgte at nyde afkastet af. Flere vigtige politiske begivenheder har fundet sted i Örebro, bl.a. kirkemødet i 1529 under Reformationen og arvehyldningen af Gustav 1. Vasa i 1540.",
-   "ic_not": "lex 'midten af 1200-t': tahkimli kule (yıl yok) — güvenli uç 1299 (yüzyıl). ÇİFT TEYİT (yüzyıl düzeyi): snl 'German merchants founded the town in the 1200s as a center for the iron trade'. Kesin yıl: lex 1285 'mønthus er nævnt 1285' (darphane anılışı; olay). | TANIK DÜZELTME (UMIT 1116): üç cümlelik tanık (ad aynı paragrafta, yıl cümlesinde değil; zayıf-b); YIL cümlesinde ve komşusunda ad yok, çok zayıf"
+   "ic_not": "lex 'midten af 1200-t': tahkimli kule (yıl yok) — güvenli uç 1299 (yüzyıl). ÇİFT TEYİT (yüzyıl düzeyi): snl 'German merchants founded the town in the 1200s as a center for the iron trade'. Kesin yıl: lex 1285 'mønthus er nævnt 1285' (darphane anılışı; olay). | TANIK DÜZELTME (UMIT 1116): üç cümlelik tanık (ad aynı paragrafta, yıl cümlesinde değil; zayıf-b); YIL cümlesinde ve komşusunda ad yok, çok zayıf | KARAR (EMRELIC/UMIT 17 Kasim 1116): yil cumlesinde ve komsusunda sehir adi yok, ozne belirsiz; kesinlik 'belirsiz'e dusuruldu, deger korundu."
   },
   "kur": null,
   "ark": null,
@@ -1257,10 +1257,10 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_2 = [
    "t": "1184-01-01",
    "gun": "1184",
    "nicelik": "ilk_anilis",
-   "kesinlik": "yil",
+   "kesinlik": "belirsiz",
    "kaynak": "Store norske leksikon, 'Skien', https://snl.no/Skien",
    "tanik": "Skien er en av Norges middelalderbyer og nevnes første gang i Sverres saga, i beretningen om slaget ved Fimreite i 1184.",
-   "ic_not": "snl 'Skien': 'first mentioned in Sverres saga (1184)'. TEK KAYNAK (genel ansiklopedi); lex 'I 1100-tallet anlagdes et kloster på en ø i elven' (1100'ler manastır, yıl yok) uyumlu ama yıl vermez. Saga tarihlemesi: Sverres saga olayı 1184 (anlatı 1200 civarı yazılmış). | TANIK DÜZELTME (UMIT 1116): 1184 = saga anlatısındaki Fimreite savaşının yılıdır (saga metni daha sonra yazıldı); tek kaynak (snl; lex.dk/Skien'de 1184 yok)"
+   "ic_not": "snl 'Skien': 'first mentioned in Sverres saga (1184)'. TEK KAYNAK (genel ansiklopedi); lex 'I 1100-tallet anlagdes et kloster på en ø i elven' (1100'ler manastır, yıl yok) uyumlu ama yıl vermez. Saga tarihlemesi: Sverres saga olayı 1184 (anlatı 1200 civarı yazılmış). | TANIK DÜZELTME (UMIT 1116): 1184 = saga anlatısındaki Fimreite savaşının yılıdır (saga metni daha sonra yazıldı); tek kaynak (snl; lex.dk/Skien'de 1184 yok) | KARAR (EMRELIC/UMIT 17 Kasim 1116): 1184 yalniz Fimreite savasi yilidir (sagada Skien'in anildigi anlatinin tarihi), yerlesim ilk anilis tarihi degil; kesinlik 'belirsiz'e dusuruldu, deger korundu."
   },
   "kur": null,
   "ark": null,
@@ -1387,25 +1387,25 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_2 = [
    "Tønsberg"
   ],
   "ilk": {
-   "t": "0999-01-01",
-   "gun": "10. yüzyıl",
-   "nicelik": "arkeolojik",
-   "kesinlik": "yuzyil",
+   "t": "1135-01-01",
+   "gun": "1135",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
    "kaynak": "Store norske leksikon, 'Tønsberg', https://snl.no/Tønsberg",
-   "tanik": "871 Offisielt grunnleggelsesår for Tønsberg. Før dette var det, ifølge Snorre Sturlasson, kjøpstad på stedet. Årstallet er imidlertid omdiskutert, og det finnes ingen arkeologiske bevis for at byen er eldre enn 900-tallet.",
-   "ic_not": "ARKEOLOJİK (snl: 'archaeological evidence predates only the 900s' — 900'ler, güvenli uç 999). Yazılı tanık: Snorre'nin (Heimskringla, ≈1230) kuruluşu ≈871'e koyması ve lex 'skal være grundlagt i 871' / 'fra 970 var den kongehyldningssted' — snl bunu 'disputed' diye işaretler; çağdaş yazılı tanık değil, geleneksel iddia: ilk.t yapılmadı, olay olarak yazıldı. Yazılı çağdaş tanık: ilk kilise 1191 (snl). | TANIK DÜZELTME (UMIT 1116): üç cümlelik tanık (ad aynı paragrafta, yıl cümlesinde değil; zayıf-b); snl ayrıca 'Tønsberg nevnes første gang i 1135 hos ... Orderic Vitalis' (yazılı ilk anılış 1135; ilk.t 900-tallet güvenli ucu olarak bırakıldı). tek kaynak (snl)"
+   "tanik": "I andre skriftlige kilder nevnes Tønsberg første gang i 1135 hos den engelske historieskriveren Orderic Vitalis.",
+   "ic_not": "ARKEOLOJİK (snl: 'archaeological evidence predates only the 900s' — 900'ler, güvenli uç 999). Yazılı tanık: Snorre'nin (Heimskringla, ≈1230) kuruluşu ≈871'e koyması ve lex 'skal være grundlagt i 871' / 'fra 970 var den kongehyldningssted' — snl bunu 'disputed' diye işaretler; çağdaş yazılı tanık değil, geleneksel iddia: ilk.t yapılmadı, olay olarak yazıldı. Yazılı çağdaş tanık: ilk kilise 1191 (snl). | TANIK DÜZELTME (UMIT 1116): üç cümlelik tanık (ad aynı paragrafta, yıl cümlesinde değil; zayıf-b); snl ayrıca 'Tønsberg nevnes første gang i 1135 hos ... Orderic Vitalis' (yazılı ilk anılış 1135; ilk.t 900-tallet güvenli ucu olarak bırakıldı). tek kaynak (snl) | KARAR (EMRELIC/UMIT 17 Kasim 1116): ilk yazili anilis 1135 (snl, Orderic Vitalis; sayfa tam govdesinden birebir, 17 Kasim). Onceki deger 900'ler arkeolojik uc idi (999-01-01, yuzyil). 871 'resmi kurulus yili' gelenektir (Snorre), snl 'omdiskutert' der; yazili cagdas tanik degil. Tek kaynak (snl)."
   },
   "kur": null,
   "ark": null,
   "bit": null,
   "sahip": [
    {
-    "f": "0999-01-01",
+    "f": "1135-01-01",
     "t": "1281-01-01",
     "d": "norvec-kralligi",
     "kesinlik": "yuzyil",
     "kaynak": "Store norske leksikon, 'Tønsberg', https://snl.no/Tønsberg",
-    "ic_not": "BEYANLI YAKLAŞIKLIK: kaynak şehrin bağlı olduğu krallığı ayrıca söylemez; Norveç Krallığı (norvec-kralligi künyesi) toprağıdır. Atlas Tønsberg 1281'de norvec-kralligi ile başlıyor."
+    "ic_not": "BEYANLI YAKLAŞIKLIK: kaynak şehrin bağlı olduğu krallığı ayrıca söylemez; Norveç Krallığı (norvec-kralligi künyesi) toprağıdır. Atlas Tønsberg 1281'de norvec-kralligi ile başlıyor. | f ilk.t'ye (1135) cekildi; 1135 icin ayri tanik yok, ayni Norvec Krallıgi varsayimi (kesinlik yuzyil)."
    }
   ],
   "olay": [
