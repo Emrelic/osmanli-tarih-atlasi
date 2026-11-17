@@ -1,0 +1,170 @@
+sinif	dal	hukum	eksik_dosyalar	son_commit
+EKSIK-IS	origin/havva-1101-boya-paketi-k3	EKSIK-IS	denetim/RENK-PAKETI-K3-1021.md	2026-10-22|Emrelic|KOSU 29 ciktisindan tek-gun onizleme (MO 3000, MS 1-1000): arac + PNG/GeoJSON ozet (DAL, ITILMEZ)
+EKSIK-IS	origin/havva-1101-capraz-sorgu	EKSIK-IS	arac/capraz_cikar.js,capraz/DEFTER-alman.tsv,capraz/DEFTER-arnavut.tsv,capraz/DEFTER-avusturya.tsv,capraz/DEFTER-bizans.tsv,capraz/DEFTER-bulgar.tsv,capraz/DEFTER-ceneviz.tsv,capraz/DEFTER-ermeni.tsv,capraz/DEFTER-fas.tsv,capraz/DEFTER-fransiz.tsv,capraz/DEFTER-gurcu.tsv,capraz/DEFTER-habes.tsv,capr	2026-10-19|Emrelic|CAPRAZ-1018: ODAK-TAVAN.json sekme_okunmayan_kimlik - 12 anahtar yeniden adlandirma (net 0, Emre onay
+EKSIK-IS	origin/lab-1101-krono-arama-stash	EKSIK-IS	denetim/LAB-EMRE-6-MADDE-1024.md,denetim/LAB-KRONO-ARAMA-1024.diff	2026-11-01|emregokmen|LAB stash pull-oncesi-0001 (28 Eki): KRONO-ARAMA devlet secici arama kutusu, js/app.js + css/style
+EKSIK-IS	origin/makine/tahta-web	EKSIK-IS	denetim/ARAC-TAHTA-KESME-SINAV-1004.py,denetim/ARAC-TAHTA-MAKINELER-SINAV-1004.py,denetim/ARAC-TAHTA-SUNUCU-COKLU-SINAV-1004.py,denetim/ARAC-TAHTA-SUNUCU-SINAV-1004.py	2026-10-04|Emrelic|TAHTA-WEB: makine defteri (/tahta/makineler) + cikis kodu sozlugu
+EKSIK-IS	origin/motor-hiz	EKSIK-IS	denetim/ARAC-MOTOR-YURUYUS-HIZ-0918-z_onb_soguk.json	2026-10-18|Emrelic|YEDEK: bekleyen calisma kaydi (atlas-hiz)
+ENVANTERDE	origin/emrelic-1104-ceviri-zh	ENVANTERDE YOK		
+ENVANTERDE	origin/emrelic-1105-rapor	ENVANTERDE YOK		
+ENVANTERDE	origin/emrelic-yedek-1105/kapi-fikstur-1010	ENVANTERDE YOK		
+ENVANTERDE	origin/emrelic-yedek-1105/kaynaksiz-1281-kontrol-1010	ENVANTERDE YOK		
+ENVANTERDE	origin/emrelic-yedek-1105/kaynaksiz-orneklem-1010	ENVANTERDE YOK		
+ENVANTERDE	origin/emrelic-yedek-1105/kaynaksiz-orneklem-1281-1010	ENVANTERDE YOK		
+ENVANTERDE	origin/emrelic-yedek-1105/makine/emrelic-statu-v	ENVANTERDE YOK		
+ENVANTERDE	origin/emrelic-yedek-1105/mo-data-hold	ENVANTERDE YOK		
+ENVANTERDE	origin/emrelic-yedek-1105/worktree-agent-aea098fbaa678caf3	ENVANTERDE YOK		
+ENVANTERDE	origin/emrelic-yedek-1105/worktree-postit-19	ENVANTERDE YOK		
+ENVANTERDE	origin/emrelic-yedek-1105/worktree-postit-9	ENVANTERDE YOK		
+ENVANTERDE	origin/emrelic-yedek-1105/worktree-tarihi-yollar	ENVANTERDE YOK		
+ENVANTERDE	origin/emrelic-yedek-1105/yedek-dalga-1014	ENVANTERDE YOK		
+ENVANTERDE	origin/umit-yedek-1105/claude/hungry-hypatia-1123a9	ENVANTERDE YOK		
+ENVANTERDE	origin/umit-yedek-1105/tahliye/confident-almeida-f705bc	ENVANTERDE YOK		
+ENVANTERDE	origin/umit-yedek-1105/tahliye/postit-170	ENVANTERDE YOK		
+ENVANTERDE	origin/umit-yedek-1105/tahliye/postit-172	ENVANTERDE YOK		
+GOZ-GEREK	origin/ant-harita-1013	GOZ-GEREK (cakisik)		2026-10-13|Emrelic|paketle yenile + surum damgasi r12237 (rebase sonrasi, ANT-HARITA)
+GOZ-GEREK	origin/devir-1030/postit-100-kirli	GOZ-GEREK (cakisik)		2026-10-30|Emrelic|DEVIR-1030 kirli agac yedegi: postit-100 (commit'lenmemis duzenlemeler)
+GOZ-GEREK	origin/devir-1030/postit-133	GOZ-GEREK (cakisik)		2026-10-30|Emrelic|damga: dosya-basi + genel sürüm damgası (push kapısı)
+GOZ-GEREK	origin/devir-1030/postit-134-kirli	GOZ-GEREK (cakisik)		2026-10-30|Emrelic|DEVIR-1030 kirli agac yedegi: postit-134 (commit'lenmemis duzenlemeler)
+GOZ-GEREK	origin/devir-1030/postit-136-kirli	GOZ-GEREK (cakisik)		2026-10-30|Emrelic|DEVIR-1030 kirli agac yedegi: postit-136 (commit'lenmemis duzenlemeler)
+GOZ-GEREK	origin/devir-1030/postit-137-kirli	GOZ-GEREK (cakisik)		2026-10-30|Emrelic|DEVIR-1030 kirli agac yedegi: postit-137 (commit'lenmemis duzenlemeler)
+GOZ-GEREK	origin/devir-1030/postit-145	GOZ-GEREK (cakisik)		2026-10-30|Emrelic|damga: dosya-basi + genel sürüm damgası (push kapısı)
+GOZ-GEREK	origin/devir-1030/postit-146b-kirli	GOZ-GEREK (cakisik)		2026-10-30|Emrelic|DEVIR-1030 kirli agac yedegi: postit-146b (commit'lenmemis duzenlemeler)
+GOZ-GEREK	origin/devir-1030/postit-148	GOZ-GEREK (cakisik)		2026-10-30|Emrelic|POSTIT-148: Basra 1696-1701 çevresi — Fâv ve Abâdân Osmanlı dönemi kesildi
+GOZ-GEREK	origin/devir-1030/postit-158	GOZ-GEREK (cakisik)		2026-10-30|Emrelic|damga: dosya-basi + genel sürüm damgası (push kapısı)
+GOZ-GEREK	origin/devir-1030/postit-170	GOZ-GEREK (cakisik)		2026-10-30|Emrelic|damga: dosya-basi + genel sürüm damgası (push kapısı)
+GOZ-GEREK	origin/devir-1030/postit-172	GOZ-GEREK (cakisik)		2026-10-30|Emrelic|damga: dosya-basi + genel sürüm damgası (push kapısı)
+GOZ-GEREK	origin/devir-1030/postit-172-kirli	GOZ-GEREK (cakisik)		2026-10-30|Emrelic|DEVIR-1030 kirli agac yedegi: postit-172 (commit'lenmemis duzenlemeler)
+GOZ-GEREK	origin/devir-1030/youthful-blackburn-6cc72b	GOZ-GEREK (cakisik)		2026-10-29|Emrelic|GDA-OKYANUSYA: campa ic_not \' kacisi kaldirildi (girdi.py Invalid escape)
+GOZ-GEREK	origin/emrelic-1101-drac-1018	GOZ-GEREK (cakisik)		2026-10-18|Emrelic|damga: dosya-basi + genel sürüm damgası (push kapısı)
+GOZ-GEREK	origin/emrelic-1101-ekokuma-makam	GOZ-GEREK (cakisik)		2026-10-18|Emrelic|damga: dosya-basi + genel sürüm damgası (push kapısı)
+GOZ-GEREK	origin/emrelic-1101-negatif-yil-b-v3	GOZ-GEREK (cakisik)		2026-10-14|Emrelic|NEGATIF-YIL-1010-B-v3: motor MÖ tarih sırası gün sayacıyla — B yaması bugünkü main'e oturtuldu (TUZ)
+GOZ-GEREK	origin/emrelic-1101-not-kaydet-takilma	GOZ-GEREK (cakisik)		2026-10-15|Emrelic|NOT-KAYDET-TAKILMA: sürüm damgası r12368
+GOZ-GEREK	origin/emrelic-1101-postit-model-sayac	GOZ-GEREK (cakisik)		2026-10-17|Emrelic|POSTIT: sahipsiz not sayaci, mesaj penceresi arac cubugunu orter, model kapisi
+GOZ-GEREK	origin/emrelic-1101-push-tren	GOZ-GEREK (cakisik)		2026-10-17|Emrelic|KAPI: tren kipi — kuyruktaki commit'ler tek ölçüm + tek push ile geçer
+GOZ-GEREK	origin/emrelic-1101-rotus-dugme-tasi	GOZ-GEREK (cakisik)		2026-10-16|Emrelic|damga: dosya-basi + genel sürüm damgası (push kapısı)
+GOZ-GEREK	origin/emrelic-1101-teyit-dalga-1014	GOZ-GEREK (cakisik)		2026-10-15|Emrelic|TEYIT-DALGA-1014 — teyit kampanyası 1.+2. dalga: 612 gün + 121 yıla inen + 21 bağlı-notlu madde; güve
+GOZ-GEREK	origin/emrelic-1101-vassal-rengi-geri	GOZ-GEREK (cakisik)		2026-10-17|Emrelic|Vassal dolgusu Osmanli kirmizisinin bir ton aciga geri alindi (TABI_RENK)
+GOZ-GEREK	origin/emrelic-1101-yuk-bolme-0925	GOZ-GEREK (cakisik)		2026-09-25|Emrelic|YUK-BOLME-0925: geo_dilimle.py --sina — catal kapisi (M-5180 ④)
+GOZ-GEREK	origin/enklav-kirp-1104	GOZ-GEREK (cakisik)		2026-11-04|Emrelic|motor: MOTOR-ENKLAV-KIRP-1104 — enklav:true presidio devirden pay almaz, hucresi R km ile sinirli (ba
+GOZ-GEREK	origin/havva-1101-agent-a012e2b28a71ffb62	GOZ-GEREK (cakisik)		2026-10-24|Emrelic|DERIN-ASYA-AFRIKA: 20 ince kunyeye kaynakli kronoloji maddeleri (yeni dosya, index.html baglandi)
+GOZ-GEREK	origin/havva-1101-agent-a1dd4b6d7d979a6d1	GOZ-GEREK (cakisik)		2026-10-24|Emrelic|ZINCIR-1281SONRA-1024: kunyesi olup s: zinciri olmayan 12 devlete kaynakli s: zinciri (+25 sinir madd
+GOZ-GEREK	origin/havva-1101-agent-a27bc2c6bad3eda25	GOZ-GEREK (cakisik)		2026-10-24|Emrelic|ZINCIR-BK-1024 parti 2: 9 kunye daha (Kuba/Nahcivan/Talis hanliklari, Vidin, Dilmacogullari, Knin-Hir
+GOZ-GEREK	origin/havva-1101-agent-a51f535c2d27271c3	GOZ-GEREK (cakisik)		2026-10-24|Emrelic|AKDENIZ3-3: Pliska ve Preslav (Birinci Bulgar) zincirleri + paket yenile + surum damgasi
+GOZ-GEREK	origin/havva-1101-agent-a5cbe491172c2b362	GOZ-GEREK (cakisik)		2026-10-24|Emrelic|KAYNAK-DOGRULA: avar/hun-avrupa, Cin Sanguo-Jin, Orta Avrupa2 kunyeleri akademik kaynakla capraz kont
+GOZ-GEREK	origin/havva-1101-agent-a7d0838e1ddfbd993	GOZ-GEREK (cakisik)		2026-10-24|Emrelic|ZINCIR-AVRUPA-H: kunyesi olup s: zinciri olmayan 21 devlete kaynakli s: penceresi + 39 sinir maddesi
+GOZ-GEREK	origin/havva-1101-agent-a890c12140e1c63c7	GOZ-GEREK (cakisik)		2026-10-24|Emrelic|BOSLUK-ZAMAN: bos_alanlar isaretleri 1281 oncesinde ve sahipsiz kayitlar icin her tarihte gorunmuyor
+GOZ-GEREK	origin/havva-1101-agent-a949569fafc640c98	GOZ-GEREK (cakisik)		2026-10-24|Emrelic|ZINCIR-AFRIKA-ORTADOGU: 12 kunye icin TDV kaynakli s: zinciri (Halep, Musul, Zebid, Isfahan, Bicaye, 
+GOZ-GEREK	origin/havva-1101-agent-aa21e85d858a7596a	GOZ-GEREK (cakisik)		2026-10-24|Emrelic|KUNYE-AVRUPA2: 4 kunye (avusturya-marki, hirvat-dukalik, bohemya-dukaligi, orta-francia) + Melk zinci
+GOZ-GEREK	origin/havva-1101-agent-aa6ce7814b2a5dd5c	GOZ-GEREK (cakisik)		2026-10-24|Emrelic|damga: dosya-basi + genel sürüm damgası (push kapısı)
+GOZ-GEREK	origin/havva-1101-agent-af3db820576047450	GOZ-GEREK (cakisik)		2026-10-24|Emrelic|ZINCIR-AVRUPA3: Tedmur, Toulouse, Lyon, Cenevre, Sana, Regensburg ARASTIRILMADI dilimleri kaynakla do
+GOZ-GEREK	origin/havva-1101-agent-af78f3a8ebe507054	GOZ-GEREK (cakisik)		2026-10-24|Emrelic|damga: dosya-basi + genel sürüm damgası (push kapısı)
+GOZ-GEREK	origin/havva-1101-agent-afa174a27d83b2c83	GOZ-GEREK (cakisik)		2026-10-24|Emrelic|AMAF3: wagadu-gane-erken 990 maddesi (UNESCO GHA III) + Murabit fethi tartismasi ic_not
+GOZ-GEREK	origin/havva-1101-agent-afa7403996983da7d	GOZ-GEREK (cakisik)		2026-10-24|Emrelic|CIN-SANGUO: Üç Krallık + Batı Jin (MS 25-316) 8 yerleşimde kaynaklı s: zinciriyle haritaya
+GOZ-GEREK	origin/havva-1101-b-gorunum-bekliyor	GOZ-GEREK (cakisik)		2026-10-19|Emrelic|B gorunumu kodu (BEKLEMEDE, push edilmedi): tembel yukleme + dolgu paralel uretim + birlestirme
+GOZ-GEREK	origin/havva-1101-blissful-jackson-5eb584	GOZ-GEREK (cakisik)		2026-10-23|Emrelic|B-GORUNUM: dolgu ad alani ayrimi (MOTOR_DOLGU_AD=_SONRA) + app.js dolguPaketiEkle (1281 oncesi + sonr
+GOZ-GEREK	origin/havva-1101-degismez2-tarama	GOZ-GEREK (cakisik)		2026-10-19|Emrelic|DEGISMEZ2-TARAMA-1019: kronolojisiz toprak değişimleri baştan sona tarandı
+GOZ-GEREK	origin/havva-1101-kosu	GOZ-GEREK (cakisik)		2026-10-06|Emrelic|KOŞU 20 (HAVVA) — düzeltme sonrası denetim logu + 8k ve D7 üyelik ölçümleri
+GOZ-GEREK	origin/havva-1101-kosu25-olc	GOZ-GEREK (cakisik)		2026-10-15|Emrelic|KOSU 25 (HAVVA) — tam insa, temel b0b48774, ufuk 1000-2000, r12365
+GOZ-GEREK	origin/havva-1101-mo-ayni-prensip	GOZ-GEREK (cakisik)		2026-10-21|Emrelic|MO-MOTOR (DAL, ITILMEZ): ayni prensip yamasi - MO tavan=taban, bantlar epok-duyarli, puan kapisi acik
+GOZ-GEREK	origin/havva-1101-postit-101	GOZ-GEREK (cakisik)		2026-10-18|Emrelic|damga: dosya-basi + genel sürüm damgası (push kapısı)
+GOZ-GEREK	origin/havva-1101-postit-104	GOZ-GEREK (cakisik)		2026-10-27|Emrelic|damga: dosya-basi + genel sürüm damgası (push kapısı)
+GOZ-GEREK	origin/havva-1101-postit-109	GOZ-GEREK (cakisik)		2026-10-18|Emrelic|damga: dosya-basi + genel sürüm damgası (push kapısı)
+GOZ-GEREK	origin/havva-1101-postit-135-ayna	GOZ-GEREK (cakisik)		2026-11-01|Emrelic|POSTIT-135: tâbi iç sınırda sahipsiz petek hayalet halkası kaldırıldı — sahipsiz petek, kenarlarının 
+GOZ-GEREK	origin/havva-1101-postit-62	GOZ-GEREK (cakisik)		2026-10-18|Emrelic|damga: dosya-basi + genel sürüm damgası (push kapısı)
+GOZ-GEREK	origin/havva-1101-postit-99b	GOZ-GEREK (cakisik)		2026-10-19|Emrelic|POSTIT-99: Bazavluk Seçi maddesine Seç/hatman/Hetmanlık terim notu (CIUS + TDV hatman)
+GOZ-GEREK	origin/havva-1101-reverent-visvesvaraya-6b5a52	GOZ-GEREK (cakisik)		2026-10-24|Emrelic|damga: dosya-basi + genel sürüm damgası (push kapısı)
+GOZ-GEREK	origin/havva-1101-w-gece	GOZ-GEREK (cakisik)		2026-10-16|Emrelic|GECE-1016: Haram (Banatska Palanka) noktasi — Guney Banat bosluk (Emre notu #8)
+GOZ-GEREK	origin/havva-1101-w-not2	GOZ-GEREK (cakisik)		2026-10-16|Emrelic|NOT2-1016: #34 Divriği, Besni, Darende 1398 → 1399 (Berkuk'tan sonra, Sivas'tan sonra)
+GOZ-GEREK	origin/havva-1101-w-renk2	GOZ-GEREK (cakisik)		2026-10-16|Emrelic|RENK-PAKET-1016: 19 kimlik — T5-1000-A Anadolu/Kafkas/Irak hanedanları + Salzburg + Ebülhayr
+GOZ-GEREK	origin/havva-1101-w-t5a	GOZ-GEREK (cakisik)		2026-10-16|Emrelic|T5-1000-A-1016: 3 yeni künye (boya_gerekli) + renk bekleyen zincir yaması
+GOZ-GEREK	origin/havva-1101-w-uyg1	GOZ-GEREK (cakisik)		2026-10-15|Emrelic|KARAR-UYG-1015: Riga yeni künyelere bağlandı (riga-baspiskoposlugu 1281-1330, riga-hur-sehri 1561-158
+GOZ-GEREK	origin/havva-1101-w-uyg2	GOZ-GEREK (cakisik)		2026-10-15|Emrelic|KARAR-UYG-1015: Eski Kandehar babur 1522-1556, safevi 1556-1595 (EIr KANDAHAR iv; G3 0033/H-0010)
+GOZ-GEREK	origin/havva-1101-w-veri	GOZ-GEREK (cakisik)		2026-10-15|Emrelic|KUTU-VERI-1015: A#7 Kandehar 1281 sahibi Kert (Emre kararı), Timur 1383
+GOZ-GEREK	origin/havva-1101-yedek-ms1-1281	GOZ-GEREK (cakisik)		2026-10-22|Emrelic|VERI-MS1-1281: paket yenile + surum damgasi (rebase sonrasi)
+GOZ-GEREK	origin/havva-1101-yedek-ms1-1281-v2	GOZ-GEREK (cakisik)		2026-10-22|Emrelic|damga: dosya-basi + genel sürüm damgası (push kapısı)
+GOZ-GEREK	origin/havva-1101-yedek-postit-117-eski	GOZ-GEREK (cakisik)		2026-10-19|Emrelic|POSTIT-117: Değişmez 7e tavanı 1944 -> 2035 (Emre onayı, 19 Ekim 2026)
+GOZ-GEREK	origin/havva-1101-yedek-postit-117-eski2	GOZ-GEREK (cakisik)		2026-10-23|Emrelic|POSTIT-117: Kutsal İttifak Savaşı (1683-1699) şehir el değiştirme günleri kaynakla düzeltildi
+GOZ-GEREK	origin/havva-1101-yedek-postit-117-eski3	GOZ-GEREK (cakisik)		2026-10-27|Emrelic|POSTIT-117: Kutsal İttifak Savaşı (1683-1699) şehir el değiştirme günleri kaynakla düzeltildi
+GOZ-GEREK	origin/kasa-1101-postit-132	GOZ-GEREK (cakisik)		2026-10-27|Emrelic|POSTIT #132: Macar cephesi — Gyula 1695-01-12, Yanova 1693-05-27, Mohaç 1686 sonbaharı
+GOZ-GEREK	origin/kasa-1101-postit-136	GOZ-GEREK (cakisik)		2026-10-27|Emrelic|damga: dosya-basi + genel sürüm damgası (push kapısı)
+GOZ-GEREK	origin/kasa-1101-postit-146c	GOZ-GEREK (cakisik)		2026-11-01|Emrelic|KASA 1101: postit-146c worktree'sindeki commit edilmemis degisiklikler (sahip oturum bosta; koordinat
+GOZ-GEREK	origin/kasa-1101-postit-148	GOZ-GEREK (cakisik)		2026-11-01|Emrelic|KASA 1101: postit-148 worktree'sindeki commit edilmemis degisiklikler (sahip oturum bosta; koordinato
+GOZ-GEREK	origin/kasa-1101-postit-151	GOZ-GEREK (cakisik)		2026-11-01|Emrelic|KASA 1101: postit-151 worktree'sindeki commit edilmemis degisiklikler (sahip oturum bosta; koordinato
+GOZ-GEREK	origin/kasa-1101-postit-152	GOZ-GEREK (cakisik)		2026-11-01|Emrelic|damga: dosya-basi + genel sürüm damgası (push kapısı)
+GOZ-GEREK	origin/kasa-1101-postit-duzenle-ekran	GOZ-GEREK (cakisik)		2026-10-27|Emrelic|damga: dosya-basi + genel sürüm damgası (push kapısı)
+GOZ-GEREK	origin/kasa-pazar-yerlesim-1105	GOZ-GEREK (cakisik)		2026-11-05|Emrelic|YERLESIM-1105: yerlesim index'i mekanik denetimi (yalniz okur; veri degismedi)
+GOZ-GEREK	origin/kasa-pazar-yigin-1104	GOZ-GEREK (cakisik)		2026-11-04|Emrelic|Kazan 1552-10-02 kalir (Julyen); TDV 15 Ekim celiskisi ic_not (HAVVA 2s A-59, EMRELIC karari)
+GOZ-GEREK	origin/kosu14	GOZ-GEREK (cakisik)		2026-10-18|Emrelic|YEDEK: bekleyen calisma kaydi (atlas-kosu14)
+GOZ-GEREK	origin/kosu16	GOZ-GEREK (cakisik)		2026-10-18|Emrelic|YEDEK: bekleyen calisma kaydi (atlas-kosu16)
+GOZ-GEREK	origin/makine/havva	GOZ-GEREK (cakisik)		2026-10-06|Emrelic|HAVVA-UFUK-BANT-HATA-1006: KOŞU 20 ölçümleri (①②③④ + renk), öngörü karşılaştırması
+GOZ-GEREK	origin/makine/havva-h0008	GOZ-GEREK (cakisik)		2026-10-11|Emrelic|TAHTA M-5882 — HAVVA -> YILDIRIM BAYEZIT
+GOZ-GEREK	origin/postit-151-su-gecis	GOZ-GEREK (cakisik)		2026-11-02|Emrelic|MOTOR (TUZ) POSTIT-151: su geçişi bedeli — MOTOR_SU_GECIS=1 bayrağıyla, varsayılan KAPALI
+GOZ-GEREK	origin/postit-163	GOZ-GEREK (cakisik)		2026-10-31|Emrelic|POSTIT-163: Kabala/Ereş/Şeki Şirvan zincirine (1722 tâbi, 1724-1733 Osmanlı), Berde Gence zincirine (
+GOZ-GEREK	origin/postit-164	GOZ-GEREK (cakisik)		2026-11-02|Emrelic|POSTIT-164: Kuba 1724-06-24→1733-08-17 Osmanlı (Şirvan zinciri, abi merkez Şamahı)
+GOZ-GEREK	origin/postit-173-zend	GOZ-GEREK (cakisik)		2026-11-01|Emrelic|post-it #173: İran 1747-1751 — Zend başlangıcı 1751-01-01, arası Afşar; Horasan Şâhruh'la Afşar
+GOZ-GEREK	origin/projeksiyon	GOZ-GEREK (cakisik)		2026-08-09|Emrelic|PROJEKSIYON: MapLibre v5.24.0 + hibrit kure/Mercator (DAL — henuz gorsel sinav YOK)
+GOZ-GEREK	origin/umit-1101-postit-146	GOZ-GEREK (cakisik)		2026-10-30|Emrelic|damga: dosya-basi + genel sürüm damgası (push kapısı)
+GOZ-GEREK	origin/umit-1101-postit-152	GOZ-GEREK (cakisik)		2026-10-30|Emrelic|damga: dosya-basi + genel sürüm damgası (push kapısı)
+GOZ-GEREK	origin/umit-1102-atlas-push-oezbixtv	GOZ-GEREK (cakisik)		2026-10-30|Emrelic|damga: dosya-basi + genel sürüm damgası (push kapısı)
+GOZ-GEREK	origin/umit-1102-backup-halef-1013	GOZ-GEREK (cakisik)		2026-10-13|Emrelic|HALEF ZINCIRLERI: 3966 yerlesim noktasinin sahipligi 1923-10-29 -> 2000-12-31, +262 devir maddesi, 30
+GOZ-GEREK	origin/umit-1102-backup-halef-1013b	GOZ-GEREK (cakisik)		2026-10-13|Emrelic|HALEF ZINCIRLERI TAMAMLANDI: yama dizileri ve yorum/JSON-anahtar bicimli kayitlar da 2000-12-31'e uza
+GOZ-GEREK	origin/umit-1102-backup-kunye-1946-2000	GOZ-GEREK (cakisik)		2026-10-13|Emrelic|DEVLETLER DIZINI: dalga 5 — kalan 49 devlete kronoloji (1755/1761 dolu)
+GOZ-GEREK	origin/umit-1102-postit-156	GOZ-GEREK (cakisik)		2026-11-02|Emrelic|POSTIT-156: Lugos 1716 kalesi Temeşvar'dan sonra düşsün (Emre, a seçeneği)
+GOZ-GEREK	origin/umit-1102-t2-kapi-olc	GOZ-GEREK (cakisik)		2026-10-31|Emrelic|damga: dosya-basi + genel sürüm damgası (push kapısı)
+GOZ-GEREK	origin/umit-1102-tahliye-admiring-chaum-3b91c8	GOZ-GEREK (cakisik)		2026-10-30|Emrelic|damga: dosya-basi + genel sürüm damgası (push kapısı)
+GOZ-GEREK	origin/umit-1102-tahliye-elastic-bhaskara-799828	GOZ-GEREK (cakisik)		2026-10-30|Emrelic|damga: dosya-basi + genel sürüm damgası (push kapısı)
+GOZ-GEREK	origin/umit-1102-tahliye-intelligent-newton-56b28c	GOZ-GEREK (cakisik)		2026-10-30|Emrelic|damga: dosya-basi + genel sürüm damgası (push kapısı)
+GOZ-GEREK	origin/umit-1102-tahliye-nervous-proskuriakova-c27f6d	GOZ-GEREK (cakisik)		2026-10-30|Emrelic|damga: dosya-basi + genel sürüm damgası (push kapısı)
+GOZ-GEREK	origin/umit-1102-tahliye-postit-133	GOZ-GEREK (cakisik)		2026-10-30|Emrelic|damga: dosya-basi + genel sürüm damgası (push kapısı)
+GOZ-GEREK	origin/umit-1102-tahliye-postit-145	GOZ-GEREK (cakisik)		2026-10-30|Emrelic|damga: dosya-basi + genel sürüm damgası (push kapısı)
+GOZ-GEREK	origin/umit-1102-tahliye-postit-148	GOZ-GEREK (cakisik)		2026-10-30|Emrelic|damga: dosya-basi + genel sürüm damgası (push kapısı)
+GOZ-GEREK	origin/umit-1102-tahliye-postit-158	GOZ-GEREK (cakisik)		2026-10-30|Emrelic|damga: dosya-basi + genel sürüm damgası (push kapısı)
+GOZ-GEREK	origin/umit-1102-tahliye2-postit-148	GOZ-GEREK (cakisik)		2026-10-31|Emrelic|damga: dosya-basi + genel sürüm damgası (push kapısı)
+GOZ-GEREK	origin/umit-1102-yedek-damga-oncesi	GOZ-GEREK (cakisik)		2026-10-13|Emrelic|PROTOTIP: damga artisi denetimi tembel data/*.js'i kapsar, yayinda olmayan commit'leri atlar
+GOZ-GEREK	origin/worktree-postit-170	GOZ-GEREK (cakisik)		2026-10-30|Emrelic|damga: dosya-basi + genel sürüm damgası (push kapısı)
+GOZ-GEREK	origin/yedek/atlas-sinav	GOZ-GEREK (cakisik)		2026-10-18|Emrelic|YEDEK: bekleyen calisma kaydi (atlas-sinav)
+GOZ-GEREK	origin/yedek/atlas-yamasinav	GOZ-GEREK (cakisik)		2026-10-18|Emrelic|YEDEK: bekleyen calisma kaydi (atlas-yamasinav)
+ICERIK-ICINDE	origin/devir-1030/kisaltma-yyy	ICERIK-ICINDE (patch-id)		2026-10-28|Emrelic|CLAUDE.md: *yyy kisaltmasi (yapilanlar / yapilmakta olanlar / yapilacaklar brifingi)
+ICERIK-ICINDE	origin/devir-1030/postit-135	ICERIK-ICINDE (patch-id)		2026-10-30|Emrelic|postit #135: tabi ic sinir hattinda sahipsiz petek hayaletlerini kaldir
+ICERIK-ICINDE	origin/emrelic-1101-motor-yuruyus	ICERIK-ICINDE (patch-id)		2026-09-17|Emrelic|MOTOR-YURUYUS: kara-kara sinirini yuruyus suresi ciziyor (MOTOR_YURUYUS=1, varsayilan KAPALI)
+ICERIK-ICINDE	origin/emrelic-1101-yollar-pers-afrika	ICERIK-ICINDE (patch-id)		2026-10-31|Emrelic|damga: dosya-basi + genel sürüm damgası (push kapısı)
+ICERIK-ICINDE	origin/havva-1101-kosu31	ICERIK-ICINDE (patch-id)		2026-10-30|Emrelic|KOSU 31 motor yamalari: KUR-DEVIR + KUSATMA-BILESEN + TOHUM-YAKA (+ altlik)
+ICERIK-ICINDE	origin/kasa-eksik-sehir-b2-1010	ICERIK-ICINDE (dosya ayni)		2026-10-10|Emrelic|KASA-EKSIK-SEHIR-B2-1010 — B listesi 20 sehir kaynaklandirmasi (TDV + Treccani + GeoNames)
+ICERIK-ICINDE	origin/kasa-harran-ters-1010	ICERIK-ICINDE (dosya ayni)		2026-10-10|Emrelic|KASA-HARRAN-TERS-1010: Harran ters yon iki uc + bit uclusu yili (yalniz olcum)
+ICERIK-ICINDE	origin/kasa-kaynak-eksik-sehir-1010	ICERIK-ICINDE (dosya ayni)		2026-10-10|Emrelic|KAYNAK-EKSIK-SEHIR-1010 — atlasta noktasi olmayan 20 sehrin TDV kaynaklandirmasi
+ICERIK-ICINDE	origin/kasa-sessiz-kunye-1010	ICERIK-ICINDE (dosya ayni)		2026-10-10|Emrelic|KASA-SESSIZ-KUNYE-1010 — uc sessiz kunye: aleut · arua · norvec-isvec-birligi
+ICERIK-ICINDE	origin/kasa-sumer-kunye-1010	ICERIK-ICINDE (dosya ayni)		2026-10-10|Emrelic|KASA-SUMER-KUNYE-1010: Sumer 10 sehir + Akad/Ur III/Isin/Larsa kunye ADAYLARI (orta kronoloji)
+ICERIK-ICINDE	origin/kasa-urfa-celiski-1010	ICERIK-ICINDE (dosya ayni)		2026-10-10|Emrelic|KASA-URFA-CELISKI-1010 — Urfa zinciri TDV ile celisiyor; kaynak YANLIS ANILMIS + zincir BOLGEDEN SEHR
+ICERIK-ICINDE	origin/kibris-1191-1010	ICERIK-ICINDE (dosya ayni)		2026-10-10|Emrelic|KIBRIS-1191-1010 — Kibris 1185-1192: SINIF veri eksik (pre-1281 kapsam deligi)
+ICERIK-ICINDE	origin/kosu17	ICERIK-ICINDE (patch-id)		2026-10-18|Emrelic|YEDEK: bekleyen calisma kaydi (atlas-kosu17)
+ICERIK-ICINDE	origin/kunye-isbitariyye-daviyye-1010	ICERIK-ICINDE (dosya ayni)		2026-10-10|Emrelic|KUNYE-ISBITARIYYE-DAVIYYE-1010 — iki tarikat kunyesi onerisi
+ICERIK-ICINDE	origin/kunye-sinif-antakya-1010	ICERIK-ICINDE (dosya ayni)		2026-10-10|Emrelic|KUNYE-SINIF-ANTAKYA-1010 — antakya-prinkipsligi t:1268 asimi: SINIF B-KOL
+ICERIK-ICINDE	origin/makine/emrelic-nokta	ICERIK-ICINDE (dosya ayni)		2026-10-10|Emrelic|NOKTA-SUMER-1010 v2 — EK UYARI işlendi: TAVO hükmü, Ur -0316, Nina -0329, Tutub çıktı
+ICERIK-ICINDE	origin/nokta-levant-kiyi-1010	ICERIK-ICINDE (dosya ayni)		2026-10-10|Emrelic|NOKTA-LEVANT-KIYI-1010 — Lazkiye/Cebele/Merkab/Tartus nokta onerisi (Baniyas onerilmez)
+ICINDE	origin/havva-1101-agent-aa4c675d930034285	ICINDE (yama)		2026-10-24|Emrelic|damga: dosya-basi + genel sürüm damgası (push kapısı)
+ICINDE	origin/umit-1102-entegrasyon-1029-asya-gec	ICINDE (yama)		2026-10-29|Emrelic|index.html: karayip ek yerlesim + 2 kronoloji_sinir adalar dosyasi script satiri (yayin kapisi: motor
+yalniz	origin/d8-once-olcum-1009	yalniz denetim/belge farki		2026-10-18|Emrelic|YEDEK: bekleyen calisma kaydi (atlas-d8once)
+yalniz	origin/emrelic-1101-d8-once-olcum	yalniz denetim/belge farki		2026-10-18|Emrelic|YEDEK: bekleyen calisma kaydi (atlas-d8once)
+yalniz	origin/emrelic-1101-enklav-harita-1028	yalniz denetim/belge farki		2026-10-29|Emrelic|denetim: ENKLAV-HARITA-1028 EK — ilk 40 karasal aday sayfa okunarak sinandi
+yalniz	origin/havva-1101-tablo-1016	yalniz denetim/belge farki		2026-10-16|Emrelic|OLAY-TABLOSU-1016 §8: beş karar (K1-K3 Emre, K4 bölge dosyası, K5 geçiş)
+yalniz	origin/havva-1101-tahta-yerel-1017	yalniz denetim/belge farki		2026-10-13|Emrelic|TAHTA M-5854 — HAVVA -> YILDIRIM BAYEZIT
+yalniz	origin/kamp-ortacag-1010	yalniz denetim/belge farki		2026-10-11|Emrelic|KAMP-ORTACAG ikinci tur — 2 sehir duzeltmesi, dikis olcumu (K4/K5/1281), cift oturum beyani
+yalniz	origin/lab-1004	yalniz denetim/belge farki		2026-10-24|emregokmen|TAHTA M-5785 — LAB-EMRE-6-MADDE-1024 -> YILDIRIM BAYEZIT
+yalniz	origin/lab-1101-lab1004	yalniz denetim/belge farki		2026-10-28|emregokmen|merge origin/main into lab-1004 (tahta: main tarafi)
+yalniz	origin/makine/emrelic	yalniz denetim/belge farki		2026-10-10|Emrelic|HARITA-DIL-OLCUM-1009 §8 — C3 kodu okundu: Y'ye yapisal olarak DOKUNAMAZ, kiyi seridi buyuk olcude ko
+yalniz	origin/makine/emrelic-budama	yalniz denetim/belge farki		2026-10-10|Emrelic|BUDAMA-1010 — CLAUDE.md 96.053 -> 42.669 B (~27.444 -> ~12.191 token), kural kaybi 0
+yalniz	origin/makine/emrelic-inis	yalniz denetim/belge farki		2026-10-10|Emrelic|INIS-A-PARTI-1010 — A+UYGULANABİLİR 39 kalemden 22'si tek birleşik diff (taban 197455c8)
+yalniz	origin/makine/emrelic-kucuk-birimler	yalniz denetim/belge farki		2026-10-11|Emrelic|KAMP-KUCUK-BIRIMLER: ikinci tur — GD Asya + Bati Afrika + Kuzey/Dogu Afrika (72 polity, 166 madde) + 
+yalniz	origin/makine/emrelic-kunye	yalniz denetim/belge farki		2026-10-10|Emrelic|KUNYE-SUMER-7-1010: 6 kunye diff'i (ahameni makedon selefki part elymais + sasani f 0224) - karakene 
+yalniz	origin/makine/emrelic-kunye-2	yalniz denetim/belge farki		2026-10-10|Emrelic|NEGATIF-YIL-OLCUM-1010: HUKUM EVET SARTLI — Sumer noktalari s:/d:'siz FAZ 2'de inebilir; tek negatif 
+yalniz	origin/makine/emrelic-nokta-k2	yalniz denetim/belge farki		2026-10-10|Emrelic|NOKTA-SUMER-1010-K2 — Sumer noktalari (IKINCI KITA, ayri dal): 22+2 diff ve FAZ 2'de INEMEZ: sahipsiz
+yalniz	origin/makine/glm-epok-1016	yalniz denetim/belge farki		2026-10-17|Emrelic|GLM1-EPOK-SAHIP-1016: AŞAMA 1 tamam — 1240/1240 nokta hükümlü
+yalniz	origin/makine/kasa	yalniz denetim/belge farki		2026-10-10|Emrelic|TAHTA M-5894 — KASA -> KOORDINATOR
+yalniz	origin/makine/lab	yalniz denetim/belge farki		2026-10-10|emregokmen|LAB TAHTA-ISTEMCI-1010 + TAHTA-BEKCI-1010 — tahta.py istemci kolu (25/25) + bekci sunucu okumasi (
+yalniz	origin/nokta-once1281-delik-1010	yalniz denetim/belge farki		2026-10-10|Emrelic|NOKTA-ONCE1281-DELIK-1010 — 1000-1280 sahipsiz noktalardan en karli 20
+yalniz	origin/nokta-once1281-ucuz-1010	yalniz denetim/belge farki		2026-10-10|Emrelic|NOKTA-ONCE1281-UCUZ-1010 — Bicapur kaynagina "bolge cumlesi, sehir tanigi DEGIL" (koordinator istegi)
+yalniz	origin/nokta-once1281-zincir-1010	yalniz denetim/belge farki		2026-10-10|Emrelic|NOKTA-ONCE1281-ZINCIR-1010 — sekiz zincirli nokta + 14 kronoloji maddesi (inmeye hazir diff)
+yalniz	origin/umit-1102-umit-tahta-yerel-1006	yalniz denetim/belge farki		2026-10-06|Emrelic|TAHTA M-5883 — HAZIR KITA 0510 2217 -> YILDIRIM BAYEZIT
+yalniz	origin/umit-1102-yedek-atlas-main-oncesi-1006	yalniz denetim/belge farki		2026-10-05|Emrelic|TAHTA M-5754 — HAZIR KITA 0510 2247 -> YILDIRIM BAYEZIT
+yalniz	origin/umit-1102-yedek-m5755	yalniz denetim/belge farki		2026-10-06|Emrelic|TAHTA M-5755 — HAZIR KITA 0610 0100 -> YILDIRIM BAYEZIT
+yalniz	origin/yedek/havva-m5771-yerel	yalniz denetim/belge farki		2026-10-04|Emrelic|TAHTA M-5771 — HAVVA rc -> KOORDINATOR

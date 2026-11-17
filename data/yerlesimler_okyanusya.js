@@ -294,7 +294,7 @@ window.YERLESIMLER_OKYANUSYA = [
 { ad:"Wyndham", tur:"sehir", lat:-15.48, lon:128.12, g:1, k:1,
   kur:"1885-01-01",
   kaynak:"Encyclopaedia Britannica, 'Wyndham': \"Founded in 1885 as a port for the Kimberley goldfield, it was named for the son of Sir Napier Broome.\" ⚠️ Tahminim 1886'ydı.",
-  s:[{f:"1885-01-01",t:"1901-01-01",d:"bati-avustralya"},{f:"1901-01-01",t:"2000-12-31",d:"avustralya"}] },
+  s:[{f:"1886-09-01",t:"1901-01-01",d:"bati-avustralya",kaynak:"LAB v2 dalga 10 (KASA PAZAR 6 Kasım 2026) [ONERI]: Landgate (Western Australian Land Information Authority — WA hükûmet kurumu), «History of country town names», https://www.landgate.wa.gov.au/maps-and-imagery/wa-geographic-names/name-history/historical-town-names (web.a"},{f:"1901-01-01",t:"2000-12-31",d:"avustralya"}] },
 
 { ad:"Burketown", tur:"sehir", lat:-17.74, lon:139.55, g:1, k:1,
   kur:"1865-01-01",
