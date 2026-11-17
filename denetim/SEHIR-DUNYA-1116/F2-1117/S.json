@@ -1,0 +1,82 @@
+[
+ {
+  "id": "luanda-p9", "ad": "Luanda", "atlas_ad": "Luanda", "lat": -8.8368, "lon": 13.2343, "kat1900": 2,
+  "adlar": ["Loanda", "Luanda"],
+  "ilk": {"t": "1576-01-01", "gun": "1576", "nicelik": "kurulus", "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, «Luanda» (Britannica editörleri), https://www.britannica.com/place/Luanda (tarayıcı sayfa okuma, 17 Kasım 2026)",
+   "tanik": "Founded in 1576 by Paulo Dias de Novais and initially settled by the Portuguese, Luanda"},
+  "kur": null, "ark": null, "bit": null, "sahip": [],
+  "olay": [
+   {"t": "1627-01-01", "gun": "1627", "k": "diger", "b": "Luanda Portekiz Angola sömürgesinin idarî merkezi oldu", "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, «Luanda», https://www.britannica.com/place/Luanda (tarayıcı sayfa okuma, 17 Kasım 2026)",
+    "tanik": "Luanda became the administrative centre of the Portuguese colony of Angola in 1627"}
+  ],
+  "ic_not": "TEK KAYNAK (Britannica). Atlas Luanda'yı 1575-01-01'de portekiz-angola ile başlatır; Britannica kuruluşu 1576 verir (atlas başlangıcı 1 yıl erken; 1576 ≥ atlas başlangıcı olduğundan zincir yazılmadı, sahip[] boş). İkinci bağımsız kaynak okunmadı."
+ },
+ {
+  "id": "mapungubwe-p9", "ad": "Mapungubwe", "atlas_ad": "Mapungubwe", "lat": -22.194, "lon": 29.389, "kat1900": null,
+  "adlar": ["Mapungubwe"],
+  "ilk": {"t": "0900-01-01", "gun": "900", "nicelik": "arkeolojik", "kesinlik": "belirsiz",
+   "kaynak": "UNESCO World Heritage Centre, «Mapungubwe Cultural Landscape» (no. 1099), https://whc.unesco.org/en/list/1099 (tarayıcı sayfa okuma, 17 Kasım 2026)",
+   "tanik": "first indigenous kingdom in Southern Africa between 900 and 1,300 AD"},
+  "kur": null, "ark": null, "bit": null, "sahip": [], "olay": [],
+  "ic_not": "TEK KAYNAK (UNESCO). Kaynak yıl değil yuvarlak ARALIK verir (900–1300 AD); aralığın başı alındı, kesinlik 'belirsiz'. Terk: UNESCO '14. yüzyılda terk' / '13. yüzyıl sonu' der (yalnız yüzyıl) — bit/olay YAZILMADI. 0900-01-01 atlas başlangıcıyla (0900-01-01, mapungubwe) aynı gün olduğundan zincir yazılmadı; atlasın 0900 tarihinin kendisi de aynı yuvarlak aralıktan gelir, bağımsız gün tanığı değildir."
+ },
+ {
+  "id": "khami-p9", "ad": "Khami", "atlas_ad": "Khami", "lat": -20.15, "lon": 28.38, "kat1900": null,
+  "adlar": ["Khami"],
+  "ilk": {"t": "1650-01-01", "gun": "1450-1650", "nicelik": "arkeolojik", "kesinlik": "belirsiz",
+   "kaynak": "UNESCO World Heritage Centre, «Khami Ruins National Monument» (no. 365), https://whc.unesco.org/en/list/365 (tarayıcı sayfa okuma, 17 Kasım 2026)",
+   "tanik": "Torwa dynasty, which arose from the collapse of the Great Zimbabwe Kingdom between 1450 -1650"},
+  "kur": null, "ark": null, "bit": null, "sahip": [], "olay": [],
+  "ic_not": "TEK KAYNAK (UNESCO). Kaynak Torwa hanedanının doğuşunu 1450-1650 ARALIĞINDA verir; güvenli uç (aralığın SON ucu, 1650) alındı. Aynı UNESCO sayfası 'Büyük Zimbabve başkenti 16. yy ortasında terk edildikten sonra gelişti' de der (iç tutarsızlık, yüzyıl). Atlas Khami'yi 1450-01-01'de 'torva' ile başlatır: bu kaynakla 1450 YALNIZ aralığın başı olarak desteklenir, gün/yıl tanığı değildir. Zincir yazılmadı (1650 ≥ atlas başlangıcı). Terk: '19. yüzyıl Ndebele akınları' yalnız yüzyıl — yazılmadı."
+ },
+ {
+  "id": "serowe-p9", "ad": "Serowe", "atlas_ad": "Serove (Serowe)", "lat": -22.39, "lon": 26.71, "kat1900": null,
+  "adlar": ["Serowe"],
+  "ilk": {"t": "1902-01-01", "gun": "1902", "nicelik": "kurulus", "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Africana, «Khama III», https://encyclopaediaafricana.com/khama-iii/ (tarayıcı sayfa okuma, 17 Kasım 2026)",
+   "tanik": "finally to its present location in Serowe in 1902"},
+  "kur": null, "ark": null, "bit": null, "sahip": [], "olay": [],
+  "ic_not": "TEK KAYNAK + ÇELİŞKİ. Encyclopaedia Africana: Ngwato başkenti Palapye'den Serowe'ye 1902'de taşındı (Serowe ilk yerleşimi değil, başkent olarak kuruluş). Britannica «Serowe» maddesi 'first occupied by the Bamangwato in 1920' der: çelişki; Britannica'nın kendi Khama III bölümü (1923'te Serowe'de öldü) 1920'yi tutarsız kılar, muhtemel yazım hatası — ancak üçüncü kaynak OKUNAMADI (Botswana Notes and Records 34, journals.co.za: Cloudflare 403). Hakemli karar verilemedi; 1902 iki yönde belirsiz olduğu için kesinlik 'yil' ve bu not kalır. ATLAS: atlas Serowe'yi 1700-01-01'de 'tsvana' ile başlatır; bu kaynakla 1700 DOĞRULANAMAZ (1902 ≥ 1700, zincir yazılmadı)."
+ },
+ {
+  "id": "enugu-p9", "ad": "Enugu", "atlas_ad": "Enugu", "lat": 6.441, "lon": 7.499, "kat1900": null,
+  "adlar": ["Enugu"],
+  "ilk": {"t": "1909-01-01", "gun": "1909", "nicelik": "kurulus", "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, «Enugu», https://www.britannica.com/place/Enugu-Nigeria (tarayıcı sayfa okuma, 17 Kasım 2026)",
+   "tanik": "The town owes its existence to the discovery of coal on the plateau in 1909"},
+  "kur": null, "ark": null, "bit": null,
+  "sahip": [
+   {"f": "1909-01-01", "t": "1967-05-30", "d": "__BOSLUK__", "kesinlik": "belirsiz",
+    "kaynak": "Encyclopaedia Britannica, «Enugu» (tarayıcı sayfa okuma, 17 Kasım 2026)",
+    "ic_not": "BEYANLI BOŞLUK: Britannica 1909-1967 arası sahip devleti (sömürge Nijerya / Doğu Nijerya) şehir olgusu olarak adlandırmaz; yalnız '1951–67 Doğu Nijerya bölgesel başkenti' der. Sahip kaynakta okunmadığından yazılmadı."}
+  ],
+  "olay": [
+   {"t": "1916-01-01", "gun": "1916", "k": "diger", "b": "Liman şehrinden demiryolu tamamlandı, Enugu hızla gelişti", "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, «Enugu», https://www.britannica.com/place/Enugu-Nigeria (tarayıcı sayfa okuma, 17 Kasım 2026)",
+    "tanik": "With the completion of the railway from the port in 1916, Enugu developed rapidly"},
+   {"t": "1967-05-01", "gun": "Mayıs 1967", "k": "diger", "b": "Enugu, ayrılıkçı Biafra Cumhuriyeti'nin geçici başkenti oldu (Mayıs-Ekim 1967)", "kesinlik": "ay",
+    "kaynak": "Encyclopaedia Britannica, «Enugu», https://www.britannica.com/place/Enugu-Nigeria (tarayıcı sayfa okuma, 17 Kasım 2026)",
+    "tanik": "Enugu served briefly (May–October 1967) as the provisional capital of the secessionist Republic of Biafra"}
+  ],
+  "ic_not": "TEK KAYNAK (Britannica). 1967-05-01 ayın ilk gününe genişletilmiş AY hassasiyetidir (kaynak ay verir); Biafra'nın bağımsızlık ilanı 1967-05-30 aynı sayfada (Biafra bölümü) okunmuştur, atlas dikişi 1967-05-30 ile ±30 gün içindedir. 'Kuruluş' niceliği: 'owes its existence to the discovery of coal' (kömür keşfi 1909) — kuruluş günü kaynakta yok."
+ },
+ {
+  "id": "astana-p9", "ad": "Astana", "atlas_ad": "Akmola (Akmolinsk)", "lat": 51.1801, "lon": 71.446, "kat1900": 3,
+  "adlar": ["Akmolinsk", "Tselinograd", "Aqmola", "Astana"],
+  "ilk": {"t": "1824-01-01", "gun": "1824", "nicelik": "kurulus", "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, «Astana», https://www.britannica.com/place/Astana-Kazakhstan (tarayıcı sayfa okuma, 17 Kasım 2026)",
+   "tanik": "The city was founded in 1824 as a Russian military outpost"},
+  "kur": null, "ark": null, "bit": null, "sahip": [],
+  "olay": [
+   {"t": "1868-01-01", "gun": "1868", "k": "diger", "b": "Şehir idarî merkez oldu", "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, «Astana», https://www.britannica.com/place/Astana-Kazakhstan (tarayıcı sayfa okuma, 17 Kasım 2026)",
+    "tanik": "became an administrative center in 1868"},
+   {"t": "1994-01-01", "gun": "1994", "k": "diger", "b": "Kazak hükümeti başkenti Almatı'dan Akmola'ya taşımaya karar verdi (1997'de tamamlandı)", "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, «Astana» (tarayıcı sayfa okuma, 17 Kasım 2026)",
+    "tanik": "In 1994 the Kazakh government resolved to transfer the national capital from Almaty to Aqmola"}
+  ],
+  "ic_not": "TEK KAYNAK (Britannica; TDV/İSAM okunmadı). Atlas Akmola'yı 1281-01-01'de altinorda ile başlatır; 1824 ≥ atlas başlangıcı olduğundan zincir yazılmadı (sahip[] boş). Sahiplik: Britannica 'Russian military outpost' der, devlet künyesi bu cümleyle yazılmadı. Adlar: Akmolinsk (Britannica 'Tselinograd' ve 1992 'Aqmola' adı verir; 1998 Astana)."
+ }
+]

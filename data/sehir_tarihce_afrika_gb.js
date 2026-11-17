@@ -37,6 +37,50 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
   "ic_not": "ÇİFT TEYİT: UNESCO WHC 1268 'Brief synthesis' aynı yüzyılı verir — «The historic centre of Agadez dates back to the 15th and 16th centuries, when the Sultanate of Aïr established itself there» (tarayıcı sayfa okuma, 16 Kasım 2026). İki kaynak da yalnız yüzyıl verir, gün/yıl yok; ilk anılış için aralığın SON ucu (15. yüzyıl sonu = 1500-01-01) alındı. Nicelik 'ilk_anilis': kaynaklar kuruluş günü vermez, 'sultanlık merkezi olduğu' 15. yüzyıldan itibaren tarihlenir. ATLAS: atlas Agadez'i 1405-01-01'de 'agadez-sultanligi' ile başlatır; bu kaynaklarla 1405 DOĞRULANAMAZ (yalnız '15. yüzyıl'); TDV Nijer md. (önceki parti) 1515'te Songay'a bağlanmayı verir — atlas başlangıcı için kaynaklı yıl bulunamadı, 1405 kaynaksız iddia olarak KASA'ya bildirilir. Zincir (sahip) YAZILMADI: bu kaynaklarda sahip değişimi tarihi yok. | Parti5 tanık kuralı (17 Kasım 2026): tanik cümleden birebir yenilendi [ilk]: Britannica cümlesi ad+15. yy içerir; yy sultanlığın tarihidir, şehrin ilk anılışı değil (dolaylı)"
  },
  {
+  "id": "bamako-af-p9",
+  "ad": "Bamako",
+  "atlas_ad": "Bamako",
+  "lat": 12.65,
+  "lon": -8.0,
+  "kat1900": null,
+  "adlar": [
+   "Bamako"
+  ],
+  "ilk": {
+   "t": "1880-01-01",
+   "gun": "1880",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, «Bamako» (Britannica editörleri), https://www.britannica.com/place/Bamako (tarayıcı sayfa okuma, 17 Kasım 2026)",
+   "tanik": "When occupied for the French in 1880 by Captain Joseph-Simon Gallieni, Bamako was a settlement"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1880-01-01",
+    "gun": "1880",
+    "k": "fetih",
+    "b": "Yüzbaşı Gallieni Bamako'yu Fransa adına işgal etti; o gün birkaç yüz kişilik köyler topluluğuydu",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, «Bamako» (Britannica editörleri), https://www.britannica.com/place/Bamako (tarayıcı sayfa okuma, 17 Kasım 2026)",
+    "tanik": "When occupied for the French in 1880 by Captain Joseph-Simon Gallieni, Bamako was a settlement"
+   },
+   {
+    "t": "1908-01-01",
+    "gun": "1908",
+    "k": "diger",
+    "b": "Bamako Fransız Sudan kolonisinin başkenti oldu",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, «Bamako» (Britannica editörleri), https://www.britannica.com/place/Bamako (tarayıcı sayfa okuma, 17 Kasım 2026)",
+    "tanik": "It became the capital of the former colony of French Sudan in 1908"
+   }
+  ],
+  "ic_not": "TEK KAYNAK (Britannica); çift teyit yok. Gün yok, yıl hassasiyeti. Zincir (sahip) YAZILMADI: kaynak 'şu yer şu devletin' biçiminde sahip/dönem günü vermiyor. Nicelik ilk_anilis: 1880 yıllı en erken tanıktır, şehrin kuruluşu değildir (Britannica 'a settlement of a few hundred inhabitants' der)."
+ },
+ {
   "id": "bloemfontein-za",
   "ad": "Bloemfontein",
   "atlas_ad": "Oranj (Bur cumhuriyeti)",
@@ -90,6 +134,42 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
    }
   ],
   "ic_not": "Yalnız SAHO ve akademisyen (Pretorius) kaynaklarıyla yazıldı. 1848 (Sir Harry Smith ilhakı, 3 Şubat 1848) ve 1854 Nisan (Orange Free State kuruluşu) için bu oturumda doğrulanabilir kaynak çekilemedi; olay olarak yazılmadı. 1854-02-23 olayı SAHO'ya göre 'özyönetim' veren sözleşmedir; Britannica 403 verdi. | Parti5 tanık kuralı (17 Kasım 2026): tanik cümleden birebir yenilendi [ilk]: SAHO zaman çizelgesi satırı (yıl satır başında)"
+ },
+ {
+  "id": "buake-af-p9",
+  "ad": "Buake",
+  "atlas_ad": "Buake (Bouaké)",
+  "lat": 7.69,
+  "lon": -5.03,
+  "kat1900": null,
+  "adlar": [
+   "Bouaké",
+   "Buake"
+  ],
+  "ilk": {
+   "t": "1899-01-01",
+   "gun": "1899",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, «Bouaké» (Britannica editörleri), https://www.britannica.com/place/Bouake (tarayıcı sayfa okuma, 17 Kasım 2026)",
+   "tanik": "Bouaké was established as a French military post in 1899"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1899-01-01",
+    "gun": "1899",
+    "k": "diger",
+    "b": "Bouaké Fransız askerî karakolu olarak kuruldu",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, «Bouaké» (Britannica editörleri), https://www.britannica.com/place/Bouake (tarayıcı sayfa okuma, 17 Kasım 2026)",
+    "tanik": "Bouaké was established as a French military post in 1899"
+   }
+  ],
+  "ic_not": "TEK KAYNAK (Britannica); çift teyit yok (TDV sitesi 17 Kasım 2026'da 503 verdi, okunamadı). Gün yok, yıl hassasiyeti. Atlas noktası 1281'de başlar; 1899 şehrin yıllı kuruluşudur (atlas 1898'de fransa-cumhuriyet'e geçirir, bu kaynakla ±1 yıl uyuşmazlık: atlas başlangıcı düzeltilmeli/1898 doğrulanamaz)."
  },
  {
   "id": "cape-town-za",
@@ -159,6 +239,156 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
    }
   ],
   "ic_not": "20 şehir listesinden kaynaklı yazılabilenler: bu kayıt yalnız SAHO'ya dayanır (Britannica 403 verdi; TDV'de Cape Town maddesi sorgulanmadı). Zincir (cape-hollanda 1652 → cape-ingiliz 1795/1806 ...) atlasta zaten var; atlas başlangıcı düzeltilince bu dosyada zincir açılabilir. 1795/1803/1806 günleri teyitsiz (yalnız yıl). | Parti5 tanık kuralı (17 Kasım 2026): tanik cümleden birebir yenilendi [ilk]: ad+yıl SAHO 'The Dutch Settlement' cümlesi; 6 Nisan gün tanığı ('1652 6 April, Jan van Riebeeck, on board of the Drommedaris, arrives in Table Bay') Cape Town Timeline satırıdır, adı 'Table Bay' (Cape Town adı yok) -> ic_not'ta beyan; kesinlik gun korundu | Parti5 tanık kuralı (17 Kasım 2026): tanik cümleden birebir yenilendi [kur]: Cape Town Timeline (madde konusu); satır başında yıl+gün"
+ },
+ {
+  "id": "dakar-af-p9",
+  "ad": "Dakar",
+  "atlas_ad": "Dakar",
+  "lat": 14.69,
+  "lon": -17.45,
+  "kat1900": null,
+  "adlar": [
+   "Dakar"
+  ],
+  "ilk": {
+   "t": "1857-01-01",
+   "gun": "1857",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, «Dakar» (Britannica editörleri), https://www.britannica.com/place/Dakar (tarayıcı sayfa okuma, 17 Kasım 2026)",
+   "tanik": "Dakar was founded in 1857 when the French built a fort"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1857-01-01",
+    "t": "1857-05-25",
+    "d": "fransa-cumhuriyet",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, «Dakar» (Britannica editörleri), https://www.britannica.com/place/Dakar (tarayıcı sayfa okuma, 17 Kasım 2026)"
+   }
+  ],
+  "olay": [
+   {
+    "t": "1857-01-01",
+    "gun": "1857",
+    "k": "diger",
+    "b": "Dakar, Fransızların bir kale inşa etmesiyle kuruldu",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, «Dakar» (Britannica editörleri), https://www.britannica.com/place/Dakar (tarayıcı sayfa okuma, 17 Kasım 2026)",
+    "tanik": "Dakar was founded in 1857 when the French built a fort"
+   }
+  ],
+  "ic_not": "TEK KAYNAK (Britannica); çift teyit yok (TDV sitesi 17 Kasım 2026'da 503 verdi, okunamadı). Gün yok, yıl hassasiyeti. Adın dakhar (Wolof, demirhindi) köyünden geldiği ve Lebu köyü anılır; yıllı tanık yok. Sahip: yalnız yıl (1857/1888) kaynaklıdır; atlas noktası aynı yılın ayrıntılı gününden (1857-05-25) başlar, zincir bu güne kadar uzatıldı (dikiş, atlas aynı sahiple sürer); gün kaynakta yok."
+ },
+ {
+  "id": "dikwa-af-p9",
+  "ad": "Dikva",
+  "atlas_ad": "Dikva (Dikeo)",
+  "lat": 12.04,
+  "lon": 13.917,
+  "kat1900": null,
+  "adlar": [
+   "Dikwa",
+   "Dikoa"
+  ],
+  "ilk": {
+   "t": "1902-01-01",
+   "gun": "1902",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, «Dikwa» (Britannica editörleri), https://www.britannica.com/place/Dikwa (tarayıcı sayfa okuma, 17 Kasım 2026)",
+   "tanik": "Dikwa remained the shehu’s seat until 1902"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1902-01-01",
+    "gun": "1902",
+    "k": "diger",
+    "b": "Dikwa 1902'ye kadar Bornu şehusunun makamı olarak kaldı",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, «Dikwa» (Britannica editörleri), https://www.britannica.com/place/Dikwa (tarayıcı sayfa okuma, 17 Kasım 2026)",
+    "tanik": "Dikwa remained the shehu’s seat until 1902"
+   },
+   {
+    "t": "1922-01-01",
+    "gun": "1922",
+    "k": "diger",
+    "b": "Dikwa emirliği Milletler Cemiyeti Britanya Kamerunu mandasına katıldı",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, «Dikwa» (Britannica editörleri), https://www.britannica.com/place/Dikwa (tarayıcı sayfa okuma, 17 Kasım 2026)",
+    "tanik": "and in 1922 Dikwa emirate became part of the League of Nations mandate"
+   },
+   {
+    "t": "1942-01-01",
+    "gun": "1942",
+    "k": "diger",
+    "b": "Emirlik merkezi Dikwa'dan Bama'ya taşındı",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, «Dikwa» (Britannica editörleri), https://www.britannica.com/place/Dikwa (tarayıcı sayfa okuma, 17 Kasım 2026)",
+    "tanik": "In 1942 the emirate headquarters was moved from Dikwa town to Bama"
+   }
+  ],
+  "ic_not": "TEK KAYNAK (Britannica); çift teyit yok. Gün yok, yıl hassasiyeti. Zincir (sahip) YAZILMADI: kaynak 'şu yer şu devletin' biçiminde sahip/dönem günü vermiyor. Britannica: kuruluş ve surların tarihi 'bilinmiyor'; şehir 1850'lerde 'Bornu krallığının önemli merkezi' (onyıl; yıl değil, yazılmadı). 1893'te Rābiḥ Dikwa'yı yeni Bornu başkenti seçti (cümle tek yıl+şehir tanığı 15 kelimeyi aşıyor, o yüzden olay yazılmadı); 1900'de Rābiḥ'in öldürülmesi, 1902'de şehrin şehu makamı olmaktan çıkması aşağıda. ATLAS: Dikva kat 3 'kanem-bornu'; sahip zincirinde tarih yok."
+ },
+ {
+  "id": "enugu-p9",
+  "ad": "Enugu",
+  "atlas_ad": "Enugu",
+  "lat": 6.441,
+  "lon": 7.499,
+  "kat1900": null,
+  "adlar": [
+   "Enugu"
+  ],
+  "ilk": {
+   "t": "1909-01-01",
+   "gun": "1909",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, «Enugu», https://www.britannica.com/place/Enugu-Nigeria (tarayıcı sayfa okuma, 17 Kasım 2026)",
+   "tanik": "The town owes its existence to the discovery of coal on the plateau in 1909"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1909-01-01",
+    "t": "1967-05-30",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "Encyclopaedia Britannica, «Enugu» (tarayıcı sayfa okuma, 17 Kasım 2026)",
+    "ic_not": "BEYANLI BOŞLUK: Britannica 1909-1967 arası sahip devleti (sömürge Nijerya / Doğu Nijerya) şehir olgusu olarak adlandırmaz; yalnız '1951–67 Doğu Nijerya bölgesel başkenti' der. Sahip kaynakta okunmadığından yazılmadı."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1916-01-01",
+    "gun": "1916",
+    "k": "diger",
+    "b": "Liman şehrinden demiryolu tamamlandı, Enugu hızla gelişti",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, «Enugu», https://www.britannica.com/place/Enugu-Nigeria (tarayıcı sayfa okuma, 17 Kasım 2026)",
+    "tanik": "With the completion of the railway from the port in 1916, Enugu developed rapidly"
+   },
+   {
+    "t": "1967-05-01",
+    "gun": "Mayıs 1967",
+    "k": "diger",
+    "b": "Enugu, ayrılıkçı Biafra Cumhuriyeti'nin geçici başkenti oldu (Mayıs-Ekim 1967)",
+    "kesinlik": "ay",
+    "kaynak": "Encyclopaedia Britannica, «Enugu», https://www.britannica.com/place/Enugu-Nigeria (tarayıcı sayfa okuma, 17 Kasım 2026)",
+    "tanik": "Enugu served briefly (May–October 1967) as the provisional capital of the secessionist Republic of Biafra"
+   }
+  ],
+  "ic_not": "TEK KAYNAK (Britannica). 1967-05-01 ayın ilk gününe genişletilmiş AY hassasiyetidir (kaynak ay verir); Biafra'nın bağımsızlık ilanı 1967-05-30 aynı sayfada (Biafra bölümü) okunmuştur, atlas dikişi 1967-05-30 ile ±30 gün içindedir. 'Kuruluş' niceliği: 'owes its existence to the discovery of coal' (kömür keşfi 1909) — kuruluş günü kaynakta yok."
  },
  {
   "id": "gao-ml",
@@ -328,6 +558,182 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
   "ic_not": "Yalnız TDV Kano maddesi (Davut Dursun, c. 24); TDV İngiliz fethi için kesin yıl vermez (Emir Aliyu 1894-1903 dönemi), olay yazılmadı. Atlas başlangıcı (1000) için kaynak aranmalı. TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Uyuşmayanlar: ALINTI DÜZELTİLDİ (ilk.tanik): olgu doğru, önceki alıntı WebFetch özetinden/paraphrase idi; TDV gövdesindeki gerçek cümle yazıldı. Önceki notlardaki \"WebFetch özeti / tam metne karşı doğrulandı (tarayıcı) / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir."
  },
  {
+  "id": "khami-p9",
+  "ad": "Khami",
+  "atlas_ad": "Khami",
+  "lat": -20.15,
+  "lon": 28.38,
+  "kat1900": null,
+  "adlar": [
+   "Khami"
+  ],
+  "ilk": {
+   "t": "1650-01-01",
+   "gun": "1450-1650",
+   "nicelik": "arkeolojik",
+   "kesinlik": "belirsiz",
+   "kaynak": "UNESCO World Heritage Centre, «Khami Ruins National Monument» (no. 365), https://whc.unesco.org/en/list/365 (tarayıcı sayfa okuma, 17 Kasım 2026)",
+   "tanik": "Torwa dynasty, which arose from the collapse of the Great Zimbabwe Kingdom between 1450 -1650"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [],
+  "ic_not": "TEK KAYNAK (UNESCO). Kaynak Torwa hanedanının doğuşunu 1450-1650 ARALIĞINDA verir; güvenli uç (aralığın SON ucu, 1650) alındı. Aynı UNESCO sayfası 'Büyük Zimbabve başkenti 16. yy ortasında terk edildikten sonra gelişti' de der (iç tutarsızlık, yüzyıl). Atlas Khami'yi 1450-01-01'de 'torva' ile başlatır: bu kaynakla 1450 YALNIZ aralığın başı olarak desteklenir, gün/yıl tanığı değildir. Zincir yazılmadı (1650 ≥ atlas başlangıcı). Terk: '19. yüzyıl Ndebele akınları' yalnız yüzyıl — yazılmadı."
+ },
+ {
+  "id": "konakri-af-p9",
+  "ad": "Konakri",
+  "atlas_ad": "Konakri (Conakry)",
+  "lat": 9.5111,
+  "lon": -13.7109,
+  "kat1900": null,
+  "adlar": [
+   "Conakry",
+   "Konakri"
+  ],
+  "ilk": {
+   "t": "1884-01-01",
+   "gun": "1884",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, «Conakry» (Britannica editörleri), https://www.britannica.com/place/Conakry (tarayıcı sayfa okuma, 17 Kasım 2026)",
+   "tanik": "Founded by the French in 1884, it derived its name from a local village"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1884-01-01",
+    "t": "1885-01-01",
+    "d": "fransa-cumhuriyet",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, «Conakry» (Britannica editörleri), https://www.britannica.com/place/Conakry (tarayıcı sayfa okuma, 17 Kasım 2026)"
+   }
+  ],
+  "olay": [
+   {
+    "t": "1884-01-01",
+    "gun": "1884",
+    "k": "diger",
+    "b": "Konakri Fransızlarca kuruldu; adını yerel Susu köyünden aldı",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, «Conakry» (Britannica editörleri), https://www.britannica.com/place/Conakry (tarayıcı sayfa okuma, 17 Kasım 2026)",
+    "tanik": "Founded by the French in 1884, it derived its name from a local village"
+   },
+   {
+    "t": "1891-01-01",
+    "gun": "1891",
+    "k": "diger",
+    "b": "Konakri Rivières du Sud himayesinin başkenti oldu",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, «Conakry» (Britannica editörleri), https://www.britannica.com/place/Conakry (tarayıcı sayfa okuma, 17 Kasım 2026)",
+    "tanik": "Subsequently it became capital of the protectorate of Rivières du Sud (1891)"
+   }
+  ],
+  "ic_not": "TEK KAYNAK (Britannica); çift teyit yok (TDV sitesi 17 Kasım 2026'da 503 verdi, okunamadı). Gün yok, yıl hassasiyeti. Sahip: 'Founded by the French' ⇒ fransa-cumhuriyet 1884-01-01 → 1885-01-01 (atlas noktasının başlangıcı; dikiş — atlas aynı sahiple sürer, sahip değişimi yok). Kuruluş yılı 1884 kaynaklı; 1885 bitişi yalnız atlas başlangıcıdır (kaynak değil)."
+ },
+ {
+  "id": "kumbi-salih-af-p9",
+  "ad": "Kumbî Sâlih",
+  "atlas_ad": "Kumbî Sâlih (Gāne)",
+  "lat": 15.7657,
+  "lon": -7.9687,
+  "kat1900": null,
+  "adlar": [
+   "Kumbi",
+   "Koumbi Saleh",
+   "Kumbî Sâlih"
+  ],
+  "ilk": {
+   "t": "1076-01-01",
+   "gun": "1076",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, «Ghana (tarihî Batı Afrika imparatorluğu)» (Britannica editörleri), https://www.britannica.com/place/Ghana-historical-West-African-empire (tarayıcı sayfa okuma, 17 Kasım 2026)",
+   "tanik": "after many battles, seized Kumbi in 1076"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1076-01-01",
+    "gun": "1076",
+    "k": "fetih",
+    "b": "Murâbıt lideri Ebû Bekir uzun savaşlardan sonra Kumbi'yi (Kumbî Sâlih) ele geçirdi",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, «Ghana (tarihî Batı Afrika imparatorluğu)» (Britannica editörleri), https://www.britannica.com/place/Ghana-historical-West-African-empire (tarayıcı sayfa okuma, 17 Kasım 2026)",
+    "tanik": "after many battles, seized Kumbi in 1076"
+   }
+  ],
+  "ic_not": "TEK KAYNAK (Britannica); çift teyit yok (TDV sitesi 17 Kasım 2026'da 503 verdi, okunamadı). Gün yok, yıl hassasiyeti. Cümlenin öznesi bir önceki cümle parçasında Abū Bakr'dır (Ghana md.: 'Abū Bakr ... took Audaghost in 1054 and, after many battles, seized Kumbi in 1076'). Britannica 'Kumbi' maddesi 'Ghana'nın son başkenti, 1240 öncesi 15.000+ nüfus' der (yıl=1240 yalnız zirve sınırı, olay değil). Ghana md.: 11. yy başkenti Kumbi ile 'geçici olarak özdeşleştirilmiştir' (arkeologlarca). TDV Gâne özdeşliği 'kesin değil' (önceki parti). Zincir yazılmadı. ATLAS: atlas noktası 701'de başlıyor; bu kaynaklarla 701 doğrulanamaz."
+ },
+ {
+  "id": "luanda-p9",
+  "ad": "Luanda",
+  "atlas_ad": "Luanda",
+  "lat": -8.8368,
+  "lon": 13.2343,
+  "kat1900": 2,
+  "adlar": [
+   "Loanda",
+   "Luanda"
+  ],
+  "ilk": {
+   "t": "1576-01-01",
+   "gun": "1576",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, «Luanda» (Britannica editörleri), https://www.britannica.com/place/Luanda (tarayıcı sayfa okuma, 17 Kasım 2026)",
+   "tanik": "Founded in 1576 by Paulo Dias de Novais and initially settled by the Portuguese, Luanda"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1627-01-01",
+    "gun": "1627",
+    "k": "diger",
+    "b": "Luanda Portekiz Angola sömürgesinin idarî merkezi oldu",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, «Luanda», https://www.britannica.com/place/Luanda (tarayıcı sayfa okuma, 17 Kasım 2026)",
+    "tanik": "Luanda became the administrative centre of the Portuguese colony of Angola in 1627"
+   }
+  ],
+  "ic_not": "TEK KAYNAK (Britannica). Atlas Luanda'yı 1575-01-01'de portekiz-angola ile başlatır; Britannica kuruluşu 1576 verir (atlas başlangıcı 1 yıl erken; 1576 ≥ atlas başlangıcı olduğundan zincir yazılmadı, sahip[] boş). İkinci bağımsız kaynak okunmadı."
+ },
+ {
+  "id": "mapungubwe-p9",
+  "ad": "Mapungubwe",
+  "atlas_ad": "Mapungubwe",
+  "lat": -22.194,
+  "lon": 29.389,
+  "kat1900": null,
+  "adlar": [
+   "Mapungubwe"
+  ],
+  "ilk": {
+   "t": "0900-01-01",
+   "gun": "900",
+   "nicelik": "arkeolojik",
+   "kesinlik": "belirsiz",
+   "kaynak": "UNESCO World Heritage Centre, «Mapungubwe Cultural Landscape» (no. 1099), https://whc.unesco.org/en/list/1099 (tarayıcı sayfa okuma, 17 Kasım 2026)",
+   "tanik": "first indigenous kingdom in Southern Africa between 900 and 1,300 AD"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [],
+  "ic_not": "TEK KAYNAK (UNESCO). Kaynak yıl değil yuvarlak ARALIK verir (900–1300 AD); aralığın başı alındı, kesinlik 'belirsiz'. Terk: UNESCO '14. yüzyılda terk' / '13. yüzyıl sonu' der (yalnız yüzyıl) — bit/olay YAZILMADI. 0900-01-01 atlas başlangıcıyla (0900-01-01, mapungubwe) aynı gün olduğundan zincir yazılmadı; atlasın 0900 tarihinin kendisi de aynı yuvarlak aralıktan gelir, bağımsız gün tanığı değildir."
+ },
+ {
   "id": "maseru-ls",
   "ad": "Maseru",
   "atlas_ad": "Maseru",
@@ -419,6 +825,42 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
   "ic_not": "Yalnız TDV Liberya maddesi; Monrovia'ya özel bir TDV maddesi yok. Cape Montserado satın alma (1821) ve 'Christopolis' adı kaynakla bağlanamadığı için yazılmadı. TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Uyuşmayanlar: ALINTI DÜZELTİLDİ (ilk.tanik): olgu doğru, önceki alıntı WebFetch özetinden/paraphrase idi; TDV gövdesindeki gerçek cümle yazıldı. Önceki notlardaki \"WebFetch özeti / tam metne karşı doğrulandı (tarayıcı) / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir."
  },
  {
+  "id": "ndjamena-af-p9",
+  "ad": "Ndjamena",
+  "atlas_ad": "Ndjamena",
+  "lat": 12.107,
+  "lon": 15.045,
+  "kat1900": null,
+  "adlar": [
+   "Fort-Lamy",
+   "N’Djamena"
+  ],
+  "ilk": {
+   "t": "1900-01-01",
+   "gun": "1900",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, «N’Djamena» (Britannica editörleri), https://www.britannica.com/place/NDjamena (tarayıcı sayfa okuma, 17 Kasım 2026)",
+   "tanik": "The city was founded in 1900 across the Chari River from Fort-Fureau"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1900-01-01",
+    "gun": "1900",
+    "k": "diger",
+    "b": "Şehir (Fort-Lamy) Fransız sömürge birliklerinin Rābiḥ'i yendiği yerin karşısında kuruldu",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, «N’Djamena» (Britannica editörleri), https://www.britannica.com/place/NDjamena (tarayıcı sayfa okuma, 17 Kasım 2026)",
+    "tanik": "The city was founded in 1900 across the Chari River from Fort-Fureau"
+   }
+  ],
+  "ic_not": "TEK KAYNAK (Britannica); çift teyit yok (TDV sitesi 17 Kasım 2026'da 503 verdi, okunamadı). Gün yok, yıl hassasiyeti. Sahip: Fransız sömürge birlikleri adına Fort-Lamy adıyla kuruldu; Fransız egemenliğinin sonu Britannica'da 'Chad'in 1960 bağımsızlığı' (aynı maddede 'it remained a small Kotoko settlement until after Chad’s independence in 1960'). Atlas başlangıç günü zincir sonu (dikiş); olay.t atlas gününe eşitlendi."
+ },
+ {
   "id": "pretoria-za",
   "ad": "Pretoria",
   "atlas_ad": "Transvaal (Bur cumhuriyeti)",
@@ -486,6 +928,31 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
    }
   ],
   "ic_not": "Yalnız SAHO ve akademisyen (Pretorius) kaynaklarıyla yazıldı. 1900 Eylül'ünde bazı kaynaklar 'Pretoria ve Johannesburg işgali' der (muhtemelen resmî ilhak); 5 Haziran işgal günü Pretorius'a göredir, Eylül tarihi doğrulanmadı. Britannica 403 verdi. | Parti5 tanık kuralı (17 Kasım 2026): tanik cümleden birebir yenilendi [ilk]: SAHO Timeline 1800-2009 satırı; eski tanik ad/yıl içermiyordu"
+ },
+ {
+  "id": "serowe-p9",
+  "ad": "Serowe",
+  "atlas_ad": "Serove (Serowe)",
+  "lat": -22.39,
+  "lon": 26.71,
+  "kat1900": null,
+  "adlar": [
+   "Serowe"
+  ],
+  "ilk": {
+   "t": "1902-01-01",
+   "gun": "1902",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Africana, «Khama III», https://encyclopaediaafricana.com/khama-iii/ (tarayıcı sayfa okuma, 17 Kasım 2026)",
+   "tanik": "finally to its present location in Serowe in 1902"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [],
+  "ic_not": "TEK KAYNAK + ÇELİŞKİ. Encyclopaedia Africana: Ngwato başkenti Palapye'den Serowe'ye 1902'de taşındı (Serowe ilk yerleşimi değil, başkent olarak kuruluş). Britannica «Serowe» maddesi 'first occupied by the Bamangwato in 1920' der: çelişki; Britannica'nın kendi Khama III bölümü (1923'te Serowe'de öldü) 1920'yi tutarsız kılar, muhtemel yazım hatası — ancak üçüncü kaynak OKUNAMADI (Botswana Notes and Records 34, journals.co.za: Cloudflare 403). Hakemli karar verilemedi; 1902 iki yönde belirsiz olduğu için kesinlik 'yil' ve bu not kalır. ATLAS: atlas Serowe'yi 1700-01-01'de 'tsvana' ile başlatır; bu kaynakla 1700 DOĞRULANAMAZ (1902 ≥ 1700, zincir yazılmadı)."
  },
  {
   "id": "sokoto-ng",
@@ -634,6 +1101,43 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
   "ic_not": "Kaynak: yalnız TDV (Tinbüktü, Mali, Gâne maddeleri okundu). Başka akademik kaynakla (ör. Hunwick, Timbuktu and the Songhay Empire, 1999) çift teyit YAPILMADI. 1430 sonrası zincir atlas esasıdır (burada yazılmadı); TDV'de 1430, 1468, 1591, 1750 (Arma), 1760 (Tevârik), ~1770 (Segu Bambara), 1792 (Tevârik), 1894 (Fransız) günleri yalnız yıl hassasiyetindedir. TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Önceki notlardaki \"WebFetch özeti / tam metne karşı doğrulandı (tarayıcı) / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir. | Parti5 tanık kuralı (17 Kasım 2026): kesinlik belirsiz'e indirildi (ad+yıl aynı cümlede birebir bulunamadı) [ilk]: madde konusu cümlesi: kaynak cümlesinde şehir adı yok (özne 'şehir/kasaba/burası' ya da madde başlığı), aynı cümlede ad+yıl bulunamadı ('Şehrin tarihi XI. yüzyılın sonlarına kadar iner'); TDV'de ad+yıl: Mense Mûsâ 729/1329 ve İbn Battûta 754/1353 (daha geç) Parti5 geri alma (koordinatör kararı): tanık cümlesi madde konusu şehre atıflı (madde: TDV İslâm Ansiklopedisi); ilk.kesinlik 'belirsiz' → 'yuzyil' geri alındı."
  },
  {
+  "id": "valata-af-p9",
+  "ad": "Valata",
+  "atlas_ad": "Valata (Oualata)",
+  "lat": 17.3,
+  "lon": -7.033,
+  "kat1900": null,
+  "adlar": [
+   "Walata",
+   "Oualata",
+   "Valata"
+  ],
+  "ilk": {
+   "t": "1433-01-01",
+   "gun": "1433",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, «Mali (tarihî imparatorluk)» (Britannica editörleri), https://www.britannica.com/place/Mali-historical-empire-Africa (tarayıcı sayfa okuma, 17 Kasım 2026)",
+   "tanik": "the Tuareg seized Walata and Timbuktu (1433)"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1433-01-01",
+    "gun": "1433",
+    "k": "fetih",
+    "b": "Tuaregler Valata'yı (Walata) ve Timbuktu'yu ele geçirdi",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, «Mali (tarihî imparatorluk)» (Britannica editörleri), https://www.britannica.com/place/Mali-historical-empire-Africa (tarayıcı sayfa okuma, 17 Kasım 2026)",
+    "tanik": "the Tuareg seized Walata and Timbuktu (1433)"
+   }
+  ],
+  "ic_not": "TEK KAYNAK (Britannica); çift teyit yok (TDV sitesi 17 Kasım 2026'da 503 verdi, okunamadı). Gün yok, yıl hassasiyeti. Aynı maddede Sundiata'nın Walata'yı Mali'ye kattığı ve Mansa Mûsâ'nın Walata'ya uğradığı cümleler yıl taşımıyor (yazılmadı); 1433 yıllı en erken tanıktır, şehrin ilk anılışı değildir. UNESCO WHC 750: 11.-12. yy'da kuruldu (yüzyıl, ayrıca borç)."
+ },
+ {
   "id": "windhoek-na",
   "ad": "Windhoek",
   "atlas_ad": "Vindhuk (Windhoek)",
@@ -694,6 +1198,50 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
   "ic_not": "ZAYIF KAYNAK ZİNCİRİ: yalnız Dierks kronolojisi (hakemli değil, ikincil derleme) okunabildi; Britannica 403 verdi, SAHO Windhoek sayfası okunmadı. Öneri: çift teyit için Lau (1987), 'Jan Jonker Afrikaner' / Dierks'in kaynakçası. Windhoek 'kuruluş' tarihi 18 Ekim 1890 (von François, yaygın anlatı) Dierks'e göre 'permanent settlement ~50 yıl önce' olduğundan kuruluş değil, Alman karargâh/kale tarihi alındı. Ad kaynakları: Dierks (1838: Otjomuise 'place of smoke'; Windhoek adı 12.08.1844'te ilk doğrulanır; Winterhoek (Tulbagh) kökeni tartışmalı). | Parti5 tanık kuralı (17 Kasım 2026): kesinlik belirsiz'e indirildi (ad+yıl aynı cümlede birebir bulunamadı) [ilk]: Dierks: '1836/37' giriş başlığı, 'Queen Adelaide’s Bath (present-day Windhoek)' sonraki cümle; yıl+ad aynı cümlede değil | Parti5 tanık kuralı (17 Kasım 2026): tanik cümleden birebir yenilendi [kur]: Dierks satırı: yıl satır başında, ad |Ai-||Gams (adlar)"
  },
  {
+  "id": "yaunde-af-p9",
+  "ad": "Yaunde",
+  "atlas_ad": "Yaunde",
+  "lat": 3.87,
+  "lon": 11.52,
+  "kat1900": null,
+  "adlar": [
+   "Yaoundé",
+   "Yaunde"
+  ],
+  "ilk": {
+   "t": "1888-01-01",
+   "gun": "1888",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, «Yaoundé» (Britannica editörleri), https://www.britannica.com/place/Yaounde (tarayıcı sayfa okuma, 17 Kasım 2026)",
+   "tanik": "Founded in 1888 during the period of the German protectorate, Yaoundé"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1888-01-01",
+    "t": "1888-11-30",
+    "d": "alman-kamerun",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, «Yaoundé» (Britannica editörleri), https://www.britannica.com/place/Yaounde (tarayıcı sayfa okuma, 17 Kasım 2026)"
+   }
+  ],
+  "olay": [
+   {
+    "t": "1888-01-01",
+    "gun": "1888",
+    "k": "diger",
+    "b": "Yaoundé Alman himayesi döneminde kuruldu",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, «Yaoundé» (Britannica editörleri), https://www.britannica.com/place/Yaounde (tarayıcı sayfa okuma, 17 Kasım 2026)",
+    "tanik": "Founded in 1888 during the period of the German protectorate, Yaoundé"
+   }
+  ],
+  "ic_not": "TEK KAYNAK (Britannica); çift teyit yok (TDV sitesi 17 Kasım 2026'da 503 verdi, okunamadı). Gün yok, yıl hassasiyeti. Britannica ayrıca 1915 Belçika işgali, 1922 Fransız Kamerun başkenti, 1960 hükümet merkezi der; atlas noktası bu sonrası kendi zincirinde taşır, bu dosya karışmaz. Sahip: yalnız yıl (1857/1888) kaynaklıdır; atlas noktası aynı yılın ayrıntılı gününden (1888-11-30) başlar, zincir bu güne kadar uzatıldı (dikiş, atlas aynı sahiple sürer); gün kaynakta yok."
+ },
+ {
   "id": "yola-ng",
   "ad": "Yola",
   "atlas_ad": "Yola",
@@ -740,5 +1288,40 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
    }
   ],
   "ic_not": "Yalnız TDV 'Adamava' maddesi okundu; akademik ikinci kaynak (örn. Cambridge History of Africa c.5 / Burnham-Kirk-Smith Adamawa çalışmaları) ile çift teyit yapılmadı. Not: atlasın Yola için 'sokoto → ingiltere 1901' zinciri TDV'nin 1901 paylaşımıyla uyumlu; ancak Alman sınırı ötesinde kalan Adamawa kısmı Yola'yı etkilemedi (TDV: Yola emiri İngiliz bölgesinde). TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Önceki notlardaki \"WebFetch özeti / tam metne karşı doğrulandı (tarayıcı) / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir."
+ },
+ {
+  "id": "zinder-af-p9",
+  "ad": "Zinder",
+  "atlas_ad": "Zinder",
+  "lat": 13.803,
+  "lon": 8.988,
+  "kat1900": null,
+  "adlar": [
+   "Zinder (Damagaram)"
+  ],
+  "ilk": {
+   "t": "1899-01-01",
+   "gun": "1899",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, «Zinder» (Britannica editörleri), https://www.britannica.com/place/Zinder (tarayıcı sayfa okuma, 17 Kasım 2026)",
+   "tanik": "The city was occupied by French troops in 1899"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1899-01-01",
+    "gun": "1899",
+    "k": "fetih",
+    "b": "Fransız birlikleri Zinder'i işgal etti (Damagaram hanedanlığının başkentiydi)",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, «Zinder» (Britannica editörleri), https://www.britannica.com/place/Zinder (tarayıcı sayfa okuma, 17 Kasım 2026)",
+    "tanik": "The city was occupied by French troops in 1899"
+   }
+  ],
+  "ic_not": "TEK KAYNAK (Britannica); çift teyit yok. Gün yok, yıl hassasiyeti. Zincir (sahip) YAZILMADI: kaynak 'şu yer şu devletin' biçiminde sahip/dönem günü vermiyor. Britannica 'XVIII. yüzyılda kurulan Müslüman hanedanın başkenti' der (yüzyıl; kayıt açılmadı); yıllı ilk tanık 1899 işgalidir, bu yüzden nicelik ilk_anilis ve 1899 YALNIZ yıllı en erken tanıktır, şehrin gerçek ilk anılışı daha eskidir. ATLAS: kronoloji maddesi 1960 — başlangıç iddiası bu kaynakta doğrulanamadı."
  }
 ];
