@@ -235,19 +235,19 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_1 = [
   "sahip": [
    {
     "f": "1446-01-01",
-    "t": "1523-01-01",
+    "t": "1523-06-06",
     "d": "isvec-birlik-oncesi",
     "kesinlik": "yil",
     "kaynak": "Den Store Danske / lex.dk, 'Gävle', https://lex.dk/Gävle",
-    "ic_not": "BEYANLI YAKLAŞIKLIK: kaynak devleti söylemez; Svealand/Götaland kentidir, İsveç Krallığı (isvec-birlik-oncesi künyesi)."
+    "ic_not": "BEYANLI YAKLAŞIKLIK: kaynak devleti söylemez; Svealand/Götaland kentidir, İsveç Krallığı (isvec-birlik-oncesi künyesi). | Bitis 1523-06-06 (SBL Gustav I, Strangnas riksdagi)."
    },
    {
-    "f": "1523-01-01",
+    "f": "1523-06-06",
     "t": "1900-01-01",
     "d": "isvec",
-    "kesinlik": "yil",
+    "kesinlik": "gun",
     "kaynak": "Den Store Danske / lex.dk, 'Kalmarunionen', https://lex.dk/Kalmarunionen",
-    "ic_not": "Sınır 1523: lex 'Kalmarunionen' Gustav Vasa'nın 1523'te kral ilan edildiğini yazar; GÜN KAYNAKTA YOK (künye f 1523-06-06 atlas verisidir) — dönem yıl başına çekildi, BEYANLI."
+    "ic_not": "Sınır 1523: lex 'Kalmarunionen' Gustav Vasa'nın 1523'te kral ilan edildiğini yazar; GÜN KAYNAKTA YOK (künye f 1523-06-06 atlas verisidir) — dönem yıl başına çekildi, BEYANLI. | SINIR GUNU (UMIT 17 Kasim 1116): 1523-01-01 yil-basi yaklasimi yerine 6 Haziran 1523 (SBL 'Gustav I': 'på riksdagen i Strängnäs 6 juni 1523 valdes till sv konung'); kunye f 1523-06-06 ile ayni gun."
    }
   ],
   "olay": [
@@ -260,13 +260,13 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_1 = [
     "tanik": "Gävle fik i 1446 byprivilegier som den første by i Norrland."
    },
    {
-    "t": "1523-01-01",
-    "gun": "1523",
+    "t": "1523-06-06",
+    "gun": "6 Haziran 1523",
     "k": "taht",
     "b": "Gustav Vasa İsveç kralı ilan edilir; Kalmar Birliği'nden ayrılış (künye geçişi).",
-    "kaynak": "Den Store Danske / lex.dk, 'Kalmarunionen', https://lex.dk/Kalmarunionen",
+    "kaynak": "Ivan Svalenius, 'Gustav I', Svenskt biografiskt lexikon bd 17 (1967-1969) s. 433, https://sok.riksarkivet.se/sbl/artikel/13315 | onceki: Den Store Danske / lex.dk, 'Kalmarunionen', https://lex.dk/Kalmarunionen",
     "tanik": "Gustav Vasa, der i 1523 lod sig udråbe som Sveriges konge.",
-    "ic_not": "Gün yok (yıl); künye geçişi isvec-birlik-oncesi → isvec."
+    "ic_not": "Gün yok (yıl); künye geçişi isvec-birlik-oncesi → isvec. Gun: SBL 'valdes till sv konung 6 juni 1523' (Strangnas riksdagi); onceki yil-basi yaklasimi duzeltildi."
    },
    {
     "t": "1869-01-01",
@@ -538,19 +538,19 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_1 = [
   "sahip": [
    {
     "f": "1278-01-01",
-    "t": "1523-01-01",
+    "t": "1523-06-06",
     "d": "isvec-birlik-oncesi",
     "kesinlik": "yil",
     "kaynak": "Den Store Danske / lex.dk, 'Jönköping', https://lex.dk/Jönköping",
-    "ic_not": "BEYANLI YAKLAŞIKLIK: kaynak devleti söylemez; Svealand/Götaland kentidir, İsveç Krallığı (isvec-birlik-oncesi künyesi)."
+    "ic_not": "BEYANLI YAKLAŞIKLIK: kaynak devleti söylemez; Svealand/Götaland kentidir, İsveç Krallığı (isvec-birlik-oncesi künyesi). | Bitis 1523-06-06 (SBL Gustav I, Strangnas riksdagi)."
    },
    {
-    "f": "1523-01-01",
+    "f": "1523-06-06",
     "t": "1900-01-01",
     "d": "isvec",
-    "kesinlik": "yil",
+    "kesinlik": "gun",
     "kaynak": "Den Store Danske / lex.dk, 'Kalmarunionen', https://lex.dk/Kalmarunionen",
-    "ic_not": "Sınır 1523: lex 'Kalmarunionen' Gustav Vasa'nın 1523'te kral ilan edildiğini yazar; GÜN KAYNAKTA YOK (künye f 1523-06-06 atlas verisidir) — dönem yıl başına çekildi, BEYANLI."
+    "ic_not": "Sınır 1523: lex 'Kalmarunionen' Gustav Vasa'nın 1523'te kral ilan edildiğini yazar; GÜN KAYNAKTA YOK (künye f 1523-06-06 atlas verisidir) — dönem yıl başına çekildi, BEYANLI. | SINIR GUNU (UMIT 17 Kasim 1116): 1523-01-01 yil-basi yaklasimi yerine 6 Haziran 1523 (SBL 'Gustav I': 'på riksdagen i Strängnäs 6 juni 1523 valdes till sv konung'); kunye f 1523-06-06 ile ayni gun."
    }
   ],
   "olay": [
@@ -571,13 +571,13 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_1 = [
     "tanik": "Jönköping har privilegier fra 1284"
    },
    {
-    "t": "1523-01-01",
-    "gun": "1523",
+    "t": "1523-06-06",
+    "gun": "6 Haziran 1523",
     "k": "taht",
     "b": "Gustav Vasa İsveç kralı ilan edilir; Kalmar Birliği'nden ayrılış (künye geçişi).",
-    "kaynak": "Den Store Danske / lex.dk, 'Kalmarunionen', https://lex.dk/Kalmarunionen",
+    "kaynak": "Ivan Svalenius, 'Gustav I', Svenskt biografiskt lexikon bd 17 (1967-1969) s. 433, https://sok.riksarkivet.se/sbl/artikel/13315 | onceki: Den Store Danske / lex.dk, 'Kalmarunionen', https://lex.dk/Kalmarunionen",
     "tanik": "Gustav Vasa, der i 1523 lod sig udråbe som Sveriges konge.",
-    "ic_not": "Gün yok (yıl); künye geçişi isvec-birlik-oncesi → isvec."
+    "ic_not": "Gün yok (yıl); künye geçişi isvec-birlik-oncesi → isvec. Gun: SBL 'valdes till sv konung 6 juni 1523' (Strangnas riksdagi); onceki yil-basi yaklasimi duzeltildi."
    },
    {
     "t": "1612-01-01",
