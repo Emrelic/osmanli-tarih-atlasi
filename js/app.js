@@ -4164,6 +4164,7 @@ harita.on("load", function () {
   try { performance.mark("atlas-hazir"); } catch (e) { /* eski tarayıcı */ }
   try { if (window.acilisBitir) window.acilisBitir(); } catch (e) { console.error("açılış perdesi kapatılamadı:", e); }
   try { tamEkranSor(); } catch (e) { console.error("tam ekran sorusu kurulamadı:", e); }  // ARAYUZ-0082 / H-0080
+  try { derinBaglantiUygula(); } catch (e) { console.error("[derin bağlantı]", e); }      // SEO-STATIK-1117
   aktifDonem = -1;
 
   // GÜVEN KUŞAKLARI (KITA 12 prototipi) — ekran görüntüsü almayı kolaylaştırmak
@@ -9478,6 +9479,37 @@ function baslikUrlOku() {
   var gecerli = window.SUZGEC.baslikEtiketleri();
   var secili = s.split(",").filter(function (g) { return gecerli.indexOf(g) >= 0; });
   return secili.length ? secili : null;
+}
+// SEO-STATIK-1117 (Emre, 17 Kasım 2026) — DERİN BAĞLANTI. Statik madde sayfalarının
+// (arac/statik_sayfa.js → m/*.html) "Haritada aç" düğmesi buraya gelir:
+//   ?madde=<DİZİ:t:n>&gun=<t>   madde kimliği js/ceviri.js ile aynı (dizi adı:t:aynı t'nin sırası)
+//   ?gun=YYYY-MM-DD             yalnız tarihe git (devlet/kişi sayfaları, ya da madde bulunamazsa)
+// Madde Osmanlı listesindeyse (`olaylar`) olayaGit ile açılır; değilse (KRONOLOJI_* dizileri
+// listede yok) o güne gidilir. `olaylar` kopyadır (Object.assign) → eşleşme t + Türkçe başlıkla.
+// Bir kez uygulanır; parametreler adres çubuğundan SİLİNMEZ (paylaşılan bağlantı aynı yere açılsın).
+function derinBaglantiUygula() {
+  var q = new URL(window.location.href).searchParams;
+  var mid = q.get("madde"), gun = q.get("gun");
+  if (!mid && !gun) return;
+  if (mid) {
+    var p = /^([A-Za-z0-9_]+):([+-]?\d+(?:-\d{2}){0,2}):(\d+)$/.exec(mid);
+    var dizi = p && Array.isArray(window[p[1]]) ? window[p[1]] : null;
+    if (dizi) {
+      var n = +p[3], kaynak = null;
+      for (var i = 0; i < dizi.length; i++) {
+        if (dizi[i] && dizi[i].t === p[2] && n-- === 0) { kaynak = dizi[i]; break; }
+      }
+      if (kaynak) {
+        var bas = kaynak.b_tr || kaynak.b;
+        for (var j = 0; j < olaylar.length; j++) {
+          var o = olaylar[j];
+          if (o.t === kaynak.t && (o.b_tr || o.b) === bas) { olayaGit(o, true, true); return; }
+        }
+        if (!gun) gun = kaynak.t;
+      }
+    }
+  }
+  if (gun && /^[+-]?\d+(-\d{2}){0,2}$/.test(gun)) tarihAyarla(gunIdx(gun));
 }
 function suzgecUrlOku() {
   var s = new URL(window.location.href).searchParams.get("konu");

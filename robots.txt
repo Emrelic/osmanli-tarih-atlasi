@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://emrelic.github.io/osmanli-tarih-atlasi/sitemap.xml
+Sitemap: https://kronoatlas.com/sitemap.xml
