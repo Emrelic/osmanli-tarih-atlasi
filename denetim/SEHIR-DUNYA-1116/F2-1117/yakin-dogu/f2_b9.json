@@ -1,0 +1,230 @@
+[
+ {
+  "id": "antakya-tr",
+  "ad": "Antakya",
+  "atlas_ad": null,
+  "lat": 36.2066,
+  "lon": 36.1572,
+  "kat1900": 3,
+  "adlar": [
+   "Antiokhia (Antiochia, Antiocheia)",
+   "Antâkiye",
+   "Antakya"
+  ],
+  "ilk": {
+   "t": "-0235-01-01",
+   "gun": "MÖ 236",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/antakya (ANTAKYA)",
+   "tanik": "Nehir yatağı içindeki ada II. Seleukos tarafından milâttan önce 236’da imar edilerek üçüncü bir iskân mahalli daha oluşturuldu"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "-0235-01-01",
+    "t": "1268-05-18",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/antakya (ANTAKYA)",
+    "ic_not": "Şehir var; Selevkos/Roma/Bizans/Sâsânî/Râşidîn/Hamdânî/Selçuklu/Antakya Prinkipsliği (1098-1268) dönemleri için geçiş günleri bu partide kaynaklı kurulmadı; TDV tarihleri olay[]de."
+   },
+   {
+    "f": "1268-05-18",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/antakya (ANTAKYA)",
+    "ic_not": "Memlük 1268; Osmanlı'ya katılış (1516/17) TDV gövdesinden okunan cümlelerde yok; zincir kurulmadı."
+   }
+  ],
+  "olay": [
+   {
+    "t": "-0235-01-01",
+    "gun": "MÖ 236",
+    "k": "diger",
+    "b": "II. Seleukos Âsi nehri içindeki adayı imar etti, Antiokhia’nın üçüncü iskân mahallini oluşturdu",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/antakya (ANTAKYA)"
+   },
+   {
+    "t": "0636-01-01",
+    "gun": "636",
+    "k": "fetih",
+    "b": "Bizans kuvvetlerinin Yermük Savaşı’nda İslâm orduları karşısında yenilgisinin ardından Antakya Müslümanlar’ın eline geçti (Ebû Ubeyde b. Cerrâh)",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/antakya (ANTAKYA)"
+   },
+   {
+    "t": "0944-01-01",
+    "gun": "944",
+    "k": "fetih",
+    "b": "Hamdânoğulları’ndan Ebü’l-Ali Hasan (Seyfüddevle) Antakya’yı aldı",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/antakya (ANTAKYA)"
+   },
+   {
+    "t": "1083-01-01",
+    "gun": "1083",
+    "k": "diger",
+    "b": "Alparslan’ın oğlu Tutuş Antakya üzerine yürüdü, şehri alamadı",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/antakya (ANTAKYA)"
+   },
+   {
+    "t": "1097-10-21",
+    "gun": "21 Ekim 1097",
+    "k": "diger",
+    "b": "Haçlı orduları şehir önlerine geldi (Yağısıyan Antakya emîri)",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/antakya (ANTAKYA)"
+   },
+   {
+    "t": "1268-05-18",
+    "gun": "18 Mayıs 1268",
+    "k": "fetih",
+    "b": "Memlük Sultanı Baybars genel hücumla Antakya’yı aldı; Haçlı prensliği (1268’e kadar) sona erdi",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/antakya (ANTAKYA)"
+   },
+   {
+    "t": "1938-07-05",
+    "gun": "5 Temmuz 1938",
+    "k": "diger",
+    "b": "Türkiye garantör sıfatıyla Hatay’a askerî birlik soktu",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/antakya (ANTAKYA)"
+   },
+   {
+    "t": "1939-06-23",
+    "gun": "23 Haziran 1939",
+    "k": "antlasma",
+    "b": "antlaşma ile Hatay’ın Türkiye’ye katılması kesinleşti",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/antakya (ANTAKYA)"
+   }
+  ],
+  "ic_not": "TANIK KURALI: kuruluş (Seleukos I) TDV'de yıl verilmez ('Şehrin kuruluşu İskender zamanına kadar gider ve efsaneler içine karışır. Ancak şehri asıl kuran ve ismini veren kişi ... Seleukos'tur'); en erken yıl-tanığı II. Seleukos'un MÖ 236 imarıdır => ilk.nicelik ilk_anilis, kuruluş (~MÖ 300) yazılmadı, ayrı kaynak (Strabon/Malalas) borç. Yerleşim: TDV 'antik Antakya’nın sellerin sürüklediği döküntülerin altında 11 m. gömülü' => antik Antiokhia = bugünkü Antakya altı (aynı nokta). Aynı iki dilimli BOSLUK 1268'de olay var (zincir kesintisiz). | TANIK: TDV tam gövdesinden birebir cümle (17 Kas 2026, gömülü tarayıcı). Tek kaynak (TDV)."
+ },
+ {
+  "id": "al-buraimi-om",
+  "ad": "Al Buraimi",
+  "atlas_ad": null,
+  "lat": 24.2509,
+  "lon": 55.7931,
+  "kat1900": 3,
+  "adlar": [
+   "Büreymî",
+   "Al Buraimi (Buraimi)"
+  ],
+  "ilk": {
+   "t": "0840-01-01",
+   "gun": "840",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/bureymi (BÜREYMÎ)",
+   "tanik": "İmam Mühennâ b. Ca‘fer devrinde Büreymî’yi ele geçiren Benî Cülendâ ile imamın valisi arasındaki mücadelede vali öldürülmüştü (840)"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0840-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/bureymi (BÜREYMÎ)",
+    "ic_not": "Şehir var, sahiplik zinciri kaynaklı kurulmadı (bu partide yalnız ilk anılış + olay yazıldı); zincir sonraki iş."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0893-01-01",
+    "gun": "893",
+    "k": "fetih",
+    "b": "Yerel tarihçilere göre Büreymî bölgesi Abbâsî Halifesi Mu‘tazıd-Billâh’ın Bahreyn’den gönderdiği ordu tarafından işgal edildi",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/bureymi (BÜREYMÎ)"
+   },
+   {
+    "t": "1625-01-01",
+    "gun": "1625",
+    "k": "diger",
+    "b": "Büreymî’de vali olarak Uman Ya‘rubî hânedanından İmam Mürşid b. Nâsır’ın valisi Ahmed b. Half görülür",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/bureymi (BÜREYMÎ)"
+   },
+   {
+    "t": "1800-01-01",
+    "gun": "1800 yıllarında",
+    "k": "fetih",
+    "b": "Dir‘iye merkezli Vehhâbîler Ahsâ ve Katîf’i ele geçirip Büreymî’ye ulaştılar",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/bureymi (BÜREYMÎ)"
+   }
+  ],
+  "ic_not": "Büreymî TDV'de vaha/bölge adıdır (3 devlet: Umman, BAE, Suudi Arabistan iddiası); Al Ain (BAE) komşu. Koordinat LISTE 24.2509,55.7931. Sahip zinciri TDV'de kesintili ve değişken: XVII. yüzyıl başlarına kadar 'bilgi yok' (TDV: 'Bundan sonra XVII. yüzyıl başlarına kadar bölge hakkında kaynaklarda herhangi bir bilgiye rastlanmamaktadır') => 893-1625 boşluğu beyanlı; zincir BOSLUK. | TANIK: TDV tam gövdesinden birebir cümle (17 Kas 2026, gömülü tarayıcı). Tek kaynak (TDV)."
+ },
+ {
+  "id": "ardahan-tr",
+  "ad": "Ardahan",
+  "atlas_ad": null,
+  "lat": 41.1087,
+  "lon": 42.7022,
+  "kat1900": 3,
+  "adlar": [
+   "Ardahan"
+  ],
+  "ilk": {
+   "t": "0642-01-01",
+   "gun": "642",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/ardahan (ARDAHAN)",
+   "tanik": "Kars ve yöresiyle birlikte Ardahan’ın İslâm akınlarına hedef olması ise 642 tarihlerine rastlar"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0642-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/ardahan (ARDAHAN)",
+    "ic_not": "Şehir var; 642 (İslâm akını) - 1878 sahiplik zinciri (Selçuklu 1067 Alparslan, Gürcü, Osmanlı 1578 Çıldır eyaleti, Rus 1828/1855 geçici, 1878 kalıcı) kaynaklı kurulmadı; 1900'de Rus idaresi (TDV)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1053-01-01",
+    "gun": "1053",
+    "k": "diger",
+    "b": "yöreye ilk Türk akınları Kutalmış idaresinde başladı",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/ardahan (ARDAHAN)"
+   },
+   {
+    "t": "1549-01-01",
+    "gun": "1549",
+    "k": "diger",
+    "b": "Osmanlı idaresinde Çıldır/Erzurum eyaletine bağlı Ardahan Kalesi tamir edildi",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/ardahan (ARDAHAN)"
+   },
+   {
+    "t": "1578-01-01",
+    "gun": "1578",
+    "k": "fetih",
+    "b": "Çıldır’ın fethiyle kurulan Çıldır eyaletine dahil edilen Ardahan 1578-1588 arasında Erzurum eyaleti sancaklarından biri olarak kaydedilir",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/ardahan (ARDAHAN)"
+   },
+   {
+    "t": "1828-01-01",
+    "gun": "1828",
+    "k": "fetih",
+    "b": "Ardahan (Kars ve Batum ile elviye-i selâse) Rus idaresine girdi (1828, 1855, nihayet 1877-78 sonrası)",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/ardahan (ARDAHAN)"
+   },
+   {
+    "t": "1878-01-01",
+    "gun": "1877-1878",
+    "k": "fetih",
+    "b": "1877-1878 Osmanlı-Rus Savaşı sonrasında Rus idaresine girdi",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/ardahan (ARDAHAN)"
+   }
+  ],
+  "ic_not": "TANIK KURALI: '642 tarihlerine rastlar' yaklaşık; 'Kars ve yöresiyle birlikte' bölge cümlesi: Ardahan adı + yıl aynı cümlede, ancak yer şehir noktası mı yöre mi belirsiz => kesinlik yil ama güven orta. Osmanlı/Çıldır/Rus dönemleri iç içe (1828, 1855 geçici Rus işgali; 1878 kalıcı) — süreleri TDV'de yıl hassasiyetinde, zincir BOSLUK. Zincir 1900 itibarıyla Rus idaresi (1878-1921; TDV 'son olarak 1877-1878 ... sonrasında'); künye (Rus İmparatorluğu) kontrol edilmedi. | TANIK: TDV tam gövdesinden birebir cümle (17 Kas 2026, gömülü tarayıcı). Tek kaynak (TDV)."
+ }
+]

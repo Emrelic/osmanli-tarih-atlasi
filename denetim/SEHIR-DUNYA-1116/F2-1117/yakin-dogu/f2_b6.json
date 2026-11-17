@@ -1,0 +1,184 @@
+[
+ {
+  "id": "gaza-ps",
+  "ad": "Gaza",
+  "atlas_ad": null,
+  "lat": 31.5016,
+  "lon": 34.4667,
+  "kat1900": 3,
+  "adlar": [
+   "Gazze",
+   "Gaza"
+  ],
+  "ilk": {
+   "t": "0624-01-01",
+   "gun": "2 (624)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/gazze (GAZZE)",
+   "tanik": "Hicretin 2. yılında (624) Bedir Gazvesi’ne yol açan zengin ticaret kervanı da Ebû Süfyân idaresinde Gazze’den dönmekteydi"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0624-01-01",
+    "t": "1517-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/gazze (GAZZE)",
+    "ic_not": "Şehir var, sahip zinciri bu dönem için kaynaklı kurulmadı (araştırılmadı); TDV olayları olay[]de. "
+   },
+   {
+    "f": "1517-01-01",
+    "t": "1900-01-01",
+    "d": "osmanli",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/gazze (GAZZE)",
+    "ic_not": "TDV: 'Mısır’ın Osmanlılar tarafından fethine kadar (1517) onların (Memlükler) idaresinde kalmıştır. Osmanlı döneminde Gazze ... Şam’a bağlı kaldı'. 1773 Zâhir el-Ömer isyanı kısa; dönem açılmadı."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0634-01-01",
+    "gun": "13/634",
+    "k": "fetih",
+    "b": "Gazze Ebû Bekir’in hilâfeti zamanında fethedildi",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/gazze (GAZZE)"
+   },
+   {
+    "t": "1149-01-01",
+    "gun": "1149",
+    "k": "fetih",
+    "b": "Gazze Haçlı Kralı Baldwin’in eline geçti",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/gazze (GAZZE)"
+   },
+   {
+    "t": "1187-01-01",
+    "gun": "1187",
+    "k": "fetih",
+    "b": "Hittîn Savaşı’ndan sonra Selâhaddîn-i Eyyûbî Gazze’yi geri aldı",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/gazze (GAZZE)"
+   },
+   {
+    "t": "1260-09-03",
+    "gun": "3 Eylül 1260",
+    "k": "diger",
+    "b": "Aynicâlût Savaşı’nda Moğollar hezimete uğratıldı; Gazze (Moğolların batıdaki en uç noktası) Memlükler tarafından geri alındı",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/gazze (GAZZE)"
+   },
+   {
+    "t": "1517-01-01",
+    "gun": "1517",
+    "k": "fetih",
+    "b": "Mısır’ın Osmanlılar tarafından fethine kadar (1517) Memlükler’in idaresinde kaldı",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/gazze (GAZZE)"
+   },
+   {
+    "t": "1773-01-01",
+    "gun": "1773",
+    "k": "isyan",
+    "b": "Şeyh Zâhir el-Ömer isyan ederek Kudüs, Yafa, Nablus ve Gazze’yi ele geçirdi; 1775'te bastırıldı",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/gazze (GAZZE)"
+   }
+  ],
+  "ic_not": "TDV GAZZE gövdesinde 624'ten önce yıl taşıyan cümle yok (3-4 haneli sayı taraması): ilk anılış TDV'deki en erken yıldır (antik Gaza/Mısır-Fenike yazılı tanıkları TDV'de yok; ayrı kaynak aranmadı — Britannica 'Gaza' slug'ları 404). Kuruluş günü yok. İmam Şâfiî 767'de Gazze'de doğdu (olay yazılmadı). | TANIK: TDV tam gövdesinden birebir cümle (17 Kas 2026, gömülü tarayıcı). Tek kaynak (TDV)."
+ },
+ {
+  "id": "hebron-ps",
+  "ad": "Hebron",
+  "atlas_ad": null,
+  "lat": 31.5293,
+  "lon": 35.0938,
+  "kat1900": 3,
+  "adlar": [
+   "Habrûn / Kiryât-Arba (Kiryat Arba)",
+   "Meşhed-i Halîlürrahman",
+   "Halîl",
+   "Hebron"
+  ],
+  "ilk": {
+   "t": "1047-01-01",
+   "gun": "1047",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/halil (HALÎL)",
+   "tanik": "Haçlı seferlerinin başlamasından yarım yüzyıl önce bölgeyi gezen (1047) seyyah Nâsır-ı Hüsrev Sefernâme adlı eserinde, kendi deyimiyle Meşhed-i Halîlürrahman’ın bulunduğu Halîl’in Kudüs’ten 6 fersah mesafede olduğundan bahseder"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1047-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/halil (HALÎL)",
+    "ic_not": "Şehir var, sahiplik zinciri kaynaklı kurulmadı (bu partide yalnız ilk anılış + olay yazıldı); zincir sonraki iş."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1099-01-01",
+    "gun": "1099",
+    "k": "fetih",
+    "b": "Haçlılar Hebron Saint Abraham dedikleri şehri ele geçirdiler; meşhed-camiyi yıkıp yerine kilise inşa ettiler",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/halil (HALÎL)"
+   }
+  ],
+  "ic_not": "TANIK KURALI: TDV HALÎL 3-4 haneli yıl taşıyan en erken cümle 1047 (Nâsır-ı Hüsrev); Peygamber'in Temîm ed-Dârî'ye iktâ rivayeti (Habrûn, Mertûm, Beyt Aynûn, Beyt İbrâhim; 'o dönemdeki adları olduğu sanılmaktadır') yıl vermez, Kiryât-Arba Tevrat anılışı TDV gövdesinde yılsız => yazılmadı; gerçek ilk anılış 1047'den çok eski (Tevrat, Amarna/Mısır) olabilir: borç. Britannica 'Hebron' slug'ları (404) okunamadı. Sahip zinciri kurulmadı (BOSLUK). | TANIK: TDV tam gövdesinden birebir cümle (17 Kas 2026, gömülü tarayıcı). Tek kaynak (TDV)."
+ },
+ {
+  "id": "jenin-ps",
+  "ad": "Jenin",
+  "atlas_ad": null,
+  "lat": 32.4594,
+  "lon": 35.3009,
+  "kat1900": 3,
+  "adlar": [
+   "Ginaea / Ginea (Amarna'da anılan yerleşme, Britannica 'original ancient settlement')",
+   "Cenîn",
+   "Jenin"
+  ],
+  "ilk": {
+   "t": "-1300-01-01",
+   "gun": "MÖ 14. yüzyıl",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "belirsiz",
+   "kaynak": "Encyclopaedia Britannica (britannica.com/place/Jenin)",
+   "tanik": "The original ancient settlement is mentioned in the Amarna Letters, a series of 14th-century-bce diplomatic documents found at Tell el-Amarna in Egypt"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "-1300-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "Encyclopaedia Britannica (britannica.com/place/Jenin)",
+    "ic_not": "Şehir var, sahiplik zinciri kaynaklı kurulmadı (bu partide yalnız ilk anılış + olay yazıldı); zincir sonraki iş."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1950-01-01",
+    "gun": "1950",
+    "k": "diger",
+    "b": "Jenin Birinci Arap-İsrail Savaşı sonrası Ürdün’ün ilhak ettiği bölgede (Britannica)",
+    "kaynak": "Encyclopaedia Britannica (britannica.com/place/Jenin)"
+   },
+   {
+    "t": "2002-04-01",
+    "gun": "Nisan 2002",
+    "k": "diger",
+    "b": "İsrail'in 'Savunma Kalkanı' operasyonunun odak noktası oldu (Britannica)",
+    "kaynak": "Encyclopaedia Britannica (britannica.com/place/Jenin)"
+   }
+  ],
+  "ic_not": "Britannica: 'original ancient settlement' modern Jenin'den ayrı bir tepe (tell) olabilir; yeri kesin olmayan ad eşitlemesi (Amarna 'Ginti/Gina') başlangıç sayılmamalıydı => kesinlik belirsiz, ilk.t güvenli uç (MÖ 14. yy sonu: -1300), YAZILI TANIK YER BELİRSİZLİĞİ BEYANLI; TDV 'Cenîn' araması embriyo maddesine gitti (şehir maddesi yok). Zincir BOSLUK. | TANIK: Britannica sayfa gövdesinden birebir cümle (17 Kas 2026, gömülü tarayıcı); tek kaynak."
+ }
+]

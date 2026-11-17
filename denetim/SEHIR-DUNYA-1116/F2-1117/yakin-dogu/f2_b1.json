@@ -1,0 +1,501 @@
+[
+ {
+  "id": "adiyaman-tr",
+  "ad": "Adıyaman",
+  "atlas_ad": null,
+  "lat": 37.7644,
+  "lon": 38.2763,
+  "kat1900": 3,
+  "adlar": [
+   "Hısnımansûr (Hısn-ı Mansûr)",
+   "Adıyaman"
+  ],
+  "ilk": {
+   "t": "0758-01-01",
+   "gun": "758",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/adiyaman (ADIYAMAN)",
+   "tanik": "758’de Abbâsî hâkimiyetine giren Hısnımansûr, X. yüzyılda yeniden Bizanslılar’a geçti"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0758-01-01",
+    "t": "1519-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/adiyaman (ADIYAMAN)",
+    "ic_not": "Şehir var, sahip zinciri bu dönem için kaynaklı kurulmadı (araştırılmadı); TDV olayları olay[]de. "
+   },
+   {
+    "f": "1519-01-01",
+    "t": "1900-01-01",
+    "d": "osmanli",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/adiyaman (ADIYAMAN)",
+    "ic_not": "f en geç tanıktan: TDV 'Osmanlı idarî teşkilâtında Besni’nin bir nahiyesi iken 1519’dan itibaren ... Maraş eyaletine bağlı sancaklar arasında yer aldı'; Osmanlı'ya katılış günü TDV'de yok. Önceki dönem (1066 Selçuklu ... 1519) uzun: sahip BOSLUK."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0758-01-01",
+    "gun": "758",
+    "k": "diger",
+    "b": "Hısnımansûr Abbâsî hâkimiyetine girdi",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/adiyaman (ADIYAMAN)"
+   },
+   {
+    "t": "1066-01-01",
+    "gun": "1066",
+    "k": "fetih",
+    "b": "Hısnımansûr Türkler’ce ilk defa Selçuklu kumandanı Gümüştegin tarafından alındı",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/adiyaman (ADIYAMAN)"
+   },
+   {
+    "t": "1519-01-01",
+    "gun": "1519",
+    "k": "diger",
+    "b": "Osmanlı idarî teşkilâtında Gerger, Kâhta, Besni ile Maraş eyaletine bağlı sancaklar arasına girdi",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/adiyaman (ADIYAMAN)"
+   },
+   {
+    "t": "1954-06-22",
+    "gun": "22 Haziran 1954",
+    "k": "diger",
+    "b": "Besni, Gerger ve Kâhta ilçeleriyle on altı nahiyeden oluşan il (Adıyaman) oldu",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/adiyaman (ADIYAMAN)"
+   }
+  ],
+  "ic_not": "Ad: TDV madde başlığı ADIYAMAN, eski ad Hısnımansûr (Hısn-ı Mansûr). TANIK KURALI: 758 cümlesi şehrin eski adıyla yıl aynı cümlede (ilk anılış en erken yıl değil olabilir: TDV 'Ömer zamanında başlanarak ... 670’e doğru ... Adıyaman, Samsat, Besni ve çevresi ele geçirildi' bölge anlamında, yeri kesin olmadığı için başlangıç sayılmadı). | TANIK: TDV tam gövdesinden birebir cümle (17 Kas 2026, gömülü tarayıcı). Tek kaynak (TDV)."
+ },
+ {
+  "id": "aksaray-tr",
+  "ad": "Aksaray",
+  "atlas_ad": null,
+  "lat": 38.3726,
+  "lon": 34.0254,
+  "kat1900": 3,
+  "adlar": [
+   "Táxara (Bizans kaynakları)",
+   "Aksaray"
+  ],
+  "ilk": {
+   "t": "1331-01-01",
+   "gun": "1331",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/aksaray (AKSARAY)",
+   "tanik": "1331’de Aksaray’a gelen ünlü seyyah İbn Battûta"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1331-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/aksaray (AKSARAY)",
+    "ic_not": "Şehir var, sahiplik zinciri kaynaklı kurulmadı (bu partide yalnız ilk anılış + olay yazıldı); zincir sonraki iş."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1501-01-01",
+    "gun": "1501",
+    "k": "diger",
+    "b": "tahrire göre otuz altı mahalle",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/aksaray (AKSARAY)"
+   },
+   {
+    "t": "1525-01-01",
+    "gun": "1525",
+    "k": "diger",
+    "b": "Aksaray Karaman eyaletine bağlı sancak; kazası Aksaray, Bekir, Eyübili, Hasandağı nahiyeleri",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/aksaray (AKSARAY)"
+   }
+  ],
+  "ic_not": "Ad: TDV 'İzzeddin Kılıcarslan’ın (1155-1192) yaptırdığı saraya nisbetle Aksaray adını aldı; Bizans kaynaklarında Táxara (Tò ’Ak Sará)'. Adın verilişi aralıklı (1155-1192) ve yer-yıl tanığı olmadığı için başlangıç sayılmadı (belirsiz). Antik Archelais (TDV bibliyografyada 'Hirschfeld, Archelais, RE II/1') bu partide kaynak gövdesi okunmadığından yazılmadı; antik yer >3 km olabilir. Osmanlı'ya katılış günü TDV'de yok (1501 tahrir: Osmanlı kaydı ama katılış tarihi verilmiyor); zincir BOSLUK. | TANIK: TDV tam gövdesinden birebir cümle (17 Kas 2026, gömülü tarayıcı). Tek kaynak (TDV)."
+ },
+ {
+  "id": "artvin-tr",
+  "ad": "Artvin",
+  "atlas_ad": null,
+  "lat": 41.1816,
+  "lon": 41.8217,
+  "kat1900": 3,
+  "adlar": [
+   "Livâne (Livâne Kalesi, Livâne kazası/sancağı)",
+   "Artvin"
+  ],
+  "ilk": {
+   "t": "0939-01-01",
+   "gun": "939",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/artvin (ARTVİN)",
+   "tanik": "bugünkü Artvin şehrinin nüvesini teşkil eden, müslüman ordularının akınlarını gözetlemek için Livâne Kalesi yapıldı (m.s. 939)"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0939-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/artvin (ARTVİN)",
+    "ic_not": "Şehir var, sahiplik zinciri kaynaklı kurulmadı (bu partide yalnız ilk anılış + olay yazıldı); zincir sonraki iş."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1536-01-01",
+    "gun": "1536-1537",
+    "k": "fetih",
+    "b": "Erzurum Beylerbeyi Dulkadırlı Mehmed Han’ın 1536-1537 harekâtında Artvin’in de içinde bulunduğu bölge ele geçirildi; Livâne sancağı kuruldu",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/artvin (ARTVİN)"
+   },
+   {
+    "t": "1549-01-01",
+    "gun": "1549",
+    "k": "fetih",
+    "b": "bölge ikinci vezir Ahmed Paşa’nın gayretiyle yeniden zaptedildi (arada elden çıkmıştı)",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/artvin (ARTVİN)"
+   },
+   {
+    "t": "1579-01-01",
+    "gun": "1579",
+    "k": "diger",
+    "b": "Çıldır eyaletinin teşkilinden sonra Artvin, Livâne sancağının merkezi oldu",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/artvin (ARTVİN)"
+   },
+   {
+    "t": "1828-06-01",
+    "gun": "Haziran 1828",
+    "k": "fetih",
+    "b": "Rus işgali; Edirne Muahedesi ile Ahıska Ruslar’a terkedildi, Çıldır eyaleti bozuldu",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/artvin (ARTVİN)"
+   },
+   {
+    "t": "1914-11-01",
+    "gun": "Kasım 1914",
+    "k": "kayip",
+    "b": "Melo Sınır Taburu Rus birliklerini bozguna uğrattı, Ruslar Artvin’i terketti",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/artvin (ARTVİN)"
+   }
+  ],
+  "ic_not": "TDV: 'Osman döneminde 646’da İslâm topraklarına katılan Artvin çevresi' (bölge, şehir noktası değil) — başlangıç olarak Livâne Kalesi'nin yapımı (939) alındı; kale 'bugünkü Artvin şehrinin nüvesi' (TDV). Sahiplik zinciri bu partide kurulmadı (BOSLUK): 1878 sonrası Rus yönetimi vb. TDV'de gün verilmiyor. | TANIK: TDV tam gövdesinden birebir cümle (17 Kas 2026, gömülü tarayıcı). Tek kaynak (TDV)."
+ },
+ {
+  "id": "bartin-tr",
+  "ad": "Bartın",
+  "atlas_ad": null,
+  "lat": 41.6358,
+  "lon": 32.3375,
+  "kat1900": 3,
+  "adlar": [
+   "Bartın"
+  ],
+  "ilk": {
+   "t": "1703-01-01",
+   "gun": "1703",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/bartin (BARTIN)",
+   "tanik": "1115 (1703) tarihli bahriye defterlerinde gemi inşası emredilen yerler arasında Bartın’ın da adı geçiyordu"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1703-01-01",
+    "t": "1900-01-01",
+    "d": "osmanli",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/bartin (BARTIN)",
+    "ic_not": "Osmanlı sahipliği ilk anılıştan itibaren: kaynak kaydı Osmanlı idarî kaydıdır; ilk.t en geç tanıktır (f en geç tanıktan)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1392-01-01",
+    "gun": "1392",
+    "k": "fetih",
+    "b": "muhtemelen Yıldırım Bayezid Candaroğulları’na ait kısım toprakları Osmanlı mülküne kattı (Bartın çevresi; TDV 'muhtemelen')",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/bartin (BARTIN)"
+   },
+   {
+    "t": "1867-01-01",
+    "gun": "1867",
+    "k": "diger",
+    "b": "Bartın kaza merkezi haline getirildi",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/bartin (BARTIN)"
+   },
+   {
+    "t": "1876-01-01",
+    "gun": "1876",
+    "k": "diger",
+    "b": "şehirde belediye teşkilâtı kuruldu",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/bartin (BARTIN)"
+   }
+  ],
+  "ic_not": "TANIK KURALI: TDV'nin XI. yüzyıl Türkmen akını ve 1204/1214/1261 cümleleri 'Bartın çevresi' bölgesi içindir, şehir tanığı değildir; yeri kesin olmayan başlangıç sayılmadı. Osmanlı: TDV 'muhtemelen 1392'de katıldığını söyler, günü/ kesinliği yok; zincir en geç tanık 1703'ten osmanli. | TANIK: TDV tam gövdesinden birebir cümle (17 Kas 2026, gömülü tarayıcı). Tek kaynak (TDV)."
+ },
+ {
+  "id": "bayburt-tr",
+  "ad": "Bayburt",
+  "atlas_ad": null,
+  "lat": 40.2563,
+  "lon": 40.2229,
+  "kat1900": 3,
+  "adlar": [
+   "Bayburt"
+  ],
+  "ilk": {
+   "t": "1054-01-01",
+   "gun": "1054",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/bayburt (BAYBURT)",
+   "tanik": "Tuğrul Bey’in Anadolu seferi (1054) sırasında Bayburt ... Selçuklu kuvvetlerinin hücumlarına mâruz kaldı"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1054-01-01",
+    "t": "1514-10-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/bayburt (BAYBURT)",
+    "ic_not": "Şehir var, sahip zinciri bu dönem için kaynaklı kurulmadı (araştırılmadı); TDV olayları olay[]de. "
+   },
+   {
+    "f": "1514-10-01",
+    "t": "1900-01-01",
+    "d": "osmanli",
+    "kesinlik": "ay",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/bayburt (BAYBURT)",
+    "ic_not": "TDV: 'Ekim 1514' (ay hassasiyeti); gün yok, ayın 1'i alındı."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1202-01-01",
+    "gun": "1202",
+    "k": "fetih",
+    "b": "Selçuklular Saltuklu Devleti’ne son verince Bayburt’u da ele geçirdiler",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/bayburt (BAYBURT)"
+   },
+   {
+    "t": "1335-01-01",
+    "gun": "1335",
+    "k": "diger",
+    "b": "Ebû Said Bahadır Han’ın ölümünden sonra Bayburt Eretnaoğulları’nın eline geçti",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/bayburt (BAYBURT)"
+   },
+   {
+    "t": "1514-10-01",
+    "gun": "Ekim 1514",
+    "k": "fetih",
+    "b": "Osmanlı kuvvetleri Şah İsmâil’in emîri Kara Maksûd’un müdafaa ettiği Bayburt’u aldılar",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/bayburt (BAYBURT)"
+   },
+   {
+    "t": "1828-01-01",
+    "gun": "1828-1829",
+    "k": "fetih",
+    "b": "1828-1829 Osmanlı-Rus savaşında Rus birliklerinin işgaline uğradı",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/bayburt (BAYBURT)"
+   }
+  ],
+  "ic_not": "1054 cümlesi: Bayburt Selçuklu akınlarına maruz kaldı ama fethedilemedi (sahiplik değişimi yok). Önceki dönem sahipliği (Saltuklu 1071-1202, Selçuklu, İlhanlı, Eretnaoğulları...) zincirde kaynaklı kurulmadı: BOSLUK. | TANIK: TDV tam gövdesinden birebir cümle (17 Kas 2026, gömülü tarayıcı). Tek kaynak (TDV)."
+ },
+ {
+  "id": "eskisehir-tr",
+  "ad": "Eskişehir",
+  "atlas_ad": null,
+  "lat": 39.7767,
+  "lon": 30.5206,
+  "kat1900": 3,
+  "adlar": [
+   "Dorylaion",
+   "Karacahisar / Eskişehir",
+   "Eskişehir"
+  ],
+  "ilk": {
+   "t": "1097-06-30",
+   "gun": "30 Haziran 1097",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "gun",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/eskisehir (ESKİŞEHİR)",
+   "tanik": "30 Haziran 1097 tarihinde Eskişehir’de bir savunma hattı kuran I"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1097-06-30",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/eskisehir (ESKİŞEHİR)",
+    "ic_not": "Şehir var, sahiplik zinciri kaynaklı kurulmadı (bu partide yalnız ilk anılış + olay yazıldı); zincir sonraki iş."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1097-06-30",
+    "gun": "30 Haziran 1097",
+    "k": "diger",
+    "b": "Haçlı tehlikesi üzerine Eskişehir’de savunma hattı kuruldu (Selçuklu, Haçlı ordusu Dorylaion çevresi)",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/eskisehir (ESKİŞEHİR)"
+   },
+   {
+    "t": "1291-01-01",
+    "gun": "1291",
+    "k": "fetih",
+    "b": "Osmanlı rivayetleri: Osman Gazi’nin Karacahisar’ı fethettiği (rivayet, TDV 'rivayetlerle örülüdür')",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/eskisehir (ESKİŞEHİR)"
+   },
+   {
+    "t": "1922-09-02",
+    "gun": "2 Eylül 1922",
+    "k": "kayip",
+    "b": "Eskişehir Yunan işgalinden kurtuldu (13 ay süren işgal)",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/eskisehir (ESKİŞEHİR)"
+   }
+  ],
+  "ic_not": "TANIK KURALI: alıntı cümlesi 'I.' ile kesilir (cümlenin devamı 'Kılıç Arslan' vb., kısaltma noktası); yıl ve şehir aynı cümlede. Antik Dorylaion/Şarhöyük ve Demircihöyük (MÖ 4000-1500, kuzeybatıya uzak) bu kayıtta yazılmadı: >3 km antik yer ayrı kayıt önerisi. TDV 1291'i rivayet saydığı için sahiplik zincirine alınmadı; BOSLUK. | TANIK: TDV tam gövdesinden birebir cümle (17 Kas 2026, gömülü tarayıcı). Tek kaynak (TDV)."
+ },
+ {
+  "id": "kilis-tr",
+  "ad": "Kilis",
+  "atlas_ad": null,
+  "lat": 36.7161,
+  "lon": 37.115,
+  "kat1900": 3,
+  "adlar": [
+   "Kilis"
+  ],
+  "ilk": {
+   "t": "0985-07-01",
+   "gun": "Temmuz 985",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "ay",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/kilis (KİLİS)",
+   "tanik": "375 Saferinde (Temmuz 985) Bardas Phokas Kilis’i alıp Bizans topraklarına kattı"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0985-07-01",
+    "t": "1590-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/kilis (KİLİS)",
+    "ic_not": "Şehir var, sahip zinciri bu dönem için kaynaklı kurulmadı (araştırılmadı); TDV olayları olay[]de. "
+   },
+   {
+    "f": "1590-01-01",
+    "t": "1900-01-01",
+    "d": "osmanli",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/kilis (KİLİS)",
+    "ic_not": "f en geç tanıktan: TDV 1590 defterinde Halep'e bağlı sancak merkezi (Osmanlı); Osmanlı'ya katılış günü TDV'de yok. 1831 İbrâhim Paşa işgali süresi verilmediği için dönem AÇILMADI, olay[]de."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0985-07-01",
+    "gun": "Temmuz 985",
+    "k": "fetih",
+    "b": "Bardas Phokas Kilis’i alıp Bizans topraklarına kattı (hicrî 375 Safer)",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/kilis (KİLİS)"
+   },
+   {
+    "t": "1124-01-01",
+    "gun": "1124",
+    "k": "fetih",
+    "b": "Artukoğulları’ndan Belek Gazi Azaz ve çevresini, Kilis’i de Franklar’ın elinden alarak İslâm topraklarına kattı",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/kilis (KİLİS)"
+   },
+   {
+    "t": "1590-01-01",
+    "gun": "1590",
+    "k": "diger",
+    "b": "1590 tarihli defterde Halep’e bağlı, aynı adlı sancağın merkezi (576 hâne, beş mahalle)",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/kilis (KİLİS)"
+   },
+   {
+    "t": "1831-01-01",
+    "gun": "1831",
+    "k": "fetih",
+    "b": "Mısır Valisi Mehmed Ali Paşa’nın oğlu İbrâhim Paşa tarafından işgal edildi (süresi TDV'de verilmiyor)",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/kilis (KİLİS)"
+   }
+  ],
+  "ic_not": "Hicrî 375 Safer = Temmuz 985 TDV'nin kendi çevirisidir (ay hassasiyeti, ayın 1'i). TDV: eski Kilis'in Tarzimehan mevkiinde olabileceği (Martin Hartman) — yer belirsizliği: kayıt bugünkü Kilis için TDV maddesinin konusu şehre atıf varsayımıyla yazıldı (belirsiz yer). | TANIK: TDV tam gövdesinden birebir cümle (17 Kas 2026, gömülü tarayıcı). Tek kaynak (TDV)."
+ },
+ {
+  "id": "nevsehir-tr",
+  "ad": "Nevşehir",
+  "atlas_ad": null,
+  "lat": 38.625,
+  "lon": 34.7122,
+  "kat1900": 3,
+  "adlar": [
+   "Muşkara",
+   "Nevşehir"
+  ],
+  "ilk": {
+   "t": "1518-01-01",
+   "gun": "1518",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/nevsehir (NEVŞEHİR)",
+   "tanik": "Muşkara köyü Niğde sancağının Ürgüp kazasına bağlıydı. 924’te (1518) idarî bakımdan Ürgüp kazasının Uçhisar nahiyesinin köyleri arasında yer almaktaydı"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1518-01-01",
+    "t": "1900-01-01",
+    "d": "osmanli",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/nevsehir (NEVŞEHİR)",
+    "ic_not": "Osmanlı sahipliği ilk anılıştan itibaren: kaynak kaydı Osmanlı idarî kaydıdır; ilk.t en geç tanıktır (f en geç tanıktan)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1530-01-01",
+    "gun": "1530",
+    "k": "diger",
+    "b": "Muşkara köyünün erkek nüfusu 150 nefer (yetmiş hâne, seksen mücerret)",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/nevsehir (NEVŞEHİR)"
+   },
+   {
+    "t": "1718-01-01",
+    "gun": "1718-1730",
+    "k": "diger",
+    "b": "Damad İbrâhim Paşa’nın sadrazamlığı döneminde Muşkara köyü kasaba durumuna geldi",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/nevsehir (NEVŞEHİR)"
+   }
+  ],
+  "ic_not": "Şehrin eski adı Muşkara (TDV NEVŞEHİR). Hicrî 924 = 1518 TDV'nin kendi çevirisi. TDV Hitit/Pers/Roma dönemlerini 'yöre' için sayar (belirtilir ifadesi), şehir noktası tanığı değildir; yazılmadı. | TANIK: TDV tam gövdesinden birebir cümle (17 Kas 2026, gömülü tarayıcı). Tek kaynak (TDV)."
+ }
+]

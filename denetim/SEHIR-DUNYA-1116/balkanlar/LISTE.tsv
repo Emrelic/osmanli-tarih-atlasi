@@ -13,7 +13,7 @@ rijeka	2	Hırvatistan	Fiume	Rijeka								statoids uhu (Kingdom of Hungary = Hun
 varazdin	2	Hırvatistan	Varaždin	Varaždin	46.3057	16.3366	atlas-yerlesim-ad-eslesmesi	Varasd (Varaždin)		varazdin-hr		en.wikipedia Varaždin County (infobox capital)	8 županija listesi: en.wikipedia Kingdom of Croatia-Slavonia (1886 düzeni)	E			mevcut
 vukovar	2	Hırvatistan	Vukovar	Vukovar	45.351	19.002	atlas-yerlesim-ad-eslesmesi	Vukovar				en.wikipedia Srijem County (infobox capital)	8 županija listesi: en.wikipedia Kingdom of Croatia-Slavonia (1886 düzeni)	E		1991'de yıkılan kent aynı yerde yeniden inşa edildi	mevcut
 zadar	2	Hırvatistan	Zara	Zadar	44.124	15.232	atlas-yerlesim-ad-eslesmesi	Zadar (Zara)		zadar		statoids uat (A-M dönemi başkentleri)		E		Zara = Zadar	mevcut
-zagreb	2	Hırvatistan	Agram / Zagreb	Zagreb	45.815	15.982	atlas-yerlesim-ad-eslesmesi	Zagreb				en.wikipedia Kingdom of Croatia-Slavonia (Zemaljska vlada Zagreb'de)	ayrıca Zagreb županijası merkezi; Macar tacına bağlı özerk	E		Agram = Zagreb	mevcut
+zagreb	2	Hırvatistan	Agram / Zagreb	Zagreb	45.815	15.982	atlas-yerlesim-ad-eslesmesi	Zagreb		zagreb-hr		en.wikipedia Kingdom of Croatia-Slavonia (Zemaljska vlada Zagreb'de)	ayrıca Zagreb županijası merkezi; Macar tacına bağlı özerk	E		Agram = Zagreb	mevcut
 bulunamadi	2	Karadağ	bulunamadı									SYB1896 Montenegro ('80 districts and eight military commands', 1879)	birim adları ve merkezleri bulunamadı; en.wikipedia 10 nahiye sayar (çelişki)	?		LISTE satır 149: birim merkezi 'bulunamadı' yazılmış; hangi şehir olduğu bilinmiyor, uydurma yapılmadı	mevcut
 bulunamadi	2	Karadağ	bulunamadı									SYB1896 Montenegro ('80 districts and eight military commands', 1879)	birim adları ve merkezleri bulunamadı; en.wikipedia 10 nahiye sayar (çelişki)	?		LISTE satır 149: birim merkezi 'bulunamadı' yazılmış; hangi şehir olduğu bilinmiyor, uydurma yapılmadı	mevcut
 bulunamadi	2	Karadağ	bulunamadı									SYB1896 Montenegro ('80 districts and eight military commands', 1879)	birim adları ve merkezleri bulunamadı; en.wikipedia 10 nahiye sayar (çelişki)	?		LISTE satır 149: birim merkezi 'bulunamadı' yazılmış; hangi şehir olduğu bilinmiyor, uydurma yapılmadı	mevcut
@@ -75,7 +75,7 @@ targu-jiu	2	Romanya	Târgu Jiu	Târgu Jiu								statoids uro ('1900: … Distri
 targu-mures	2	Romanya	Marosvásárhely	Târgu Mureș								statoids uhu (64 comitate: County|Capital tablosu)		D	Târgu Mureș	Marosvásárhely (Macarca) → Târgu Mureș (1920)	mevcut
 vaslui	2	Romanya	Vaslui	Vaslui								statoids uro ('1900: … District|Capital' tablosu); SYB1896 Roumania (32)		E			mevcut
 zalau	2	Romanya	Zilah	Zalău								statoids uhu (64 comitate: County|Capital tablosu)		E		Zilah = Zalău	mevcut
-ljubljana	2	Slovenya	Laibach	Ljubljana	46.056	14.506	atlas-yerlesim-ad-eslesmesi	Ljubljana				statoids uat (değişiklik tarihçesi: A-M dönemi başkentleri)		E		Laibach = Ljubljana	mevcut
+ljubljana	2	Slovenya	Laibach	Ljubljana	46.056	14.506	atlas-yerlesim-ad-eslesmesi	Ljubljana		ljubljana-si		statoids uat (değişiklik tarihçesi: A-M dönemi başkentleri)		E		Laibach = Ljubljana	mevcut
 bulunamadi	2	Sırbistan	bulunamadı									en.wikipedia Okrug (1890: 15 okrug listesi); statoids urs (1910 merkezleri); SYB1896 Servia (15)	merkez bulunamadı	?		LISTE satır 149: birim merkezi 'bulunamadı' yazılmış; hangi şehir olduğu bilinmiyor, uydurma yapılmadı	mevcut
 gornji-milanovac	2	Sırbistan	Gornji Milanovac	Gornji Milanovac								en.wikipedia Okrug (1890: 15 okrug listesi); statoids urs (1910 merkezleri); SYB1896 Servia (15)	Čačak 1902'de ayrıldı; 1900 merkezi Čačak da olabilir	E			mevcut
 kragujevac	2	Sırbistan	Kragujevac	Kragujevac	44.013	20.911	atlas-yerlesim-ad-eslesmesi	Kragujevac				en.wikipedia Okrug (1890: 15 okrug listesi); statoids urs (1910 merkezleri); SYB1896 Servia (15)		E			mevcut
@@ -178,93 +178,93 @@ mytilene	3	Yunanistan	Midilli	Mytilene	39.106	26.554	atlas-yerlesim-ad-eslesmesi
 preveza	3	Yunanistan	Preveze	Preveza	38.9607	20.7469	atlas-yerlesim-ad-eslesmesi	Preveze		preveza		WP (en Janina Vilayet)	TDV'de madde bulunamadı	E			mevcut
 serres	3	Yunanistan	Serez	Serres	41.089	23.545	atlas-yerlesim-ad-eslesmesi	Serez		serres		TDV SEREZ		E			mevcut
 servia	3	Yunanistan	Serfiçe	Servia	40.18	21.994	tarihce-kaydi (bagimsiz teyit YOK)			servia		Erken 2021 PAÜSBED 44 (müstakil 1881-1888); Karpat 1906/07 sayımı (tr WP aktarımı); SYB1896 'Servia (Mutessarifat)'	SERFİÇE SORUSU: 1881-1888 müstakil sancak (Erken), 1906/07 sayımında ve 1907 atlasında Manastır'ın 5 sancağından biri; 1900'de Manastır'a bağlı sancak kabul edildi. SYB1896'nın ayrı mutasarrıflık sayması eski veri. Karpat yalnız WP üzerinden görüldü	E			mevcut
-alba-iulia-ro	3	Romanya		Alba Iulia	46.0667	23.5833	GeoNames 686578 (DMS 46°04′00.01″ N, 23°34′59.99″ E)					GeoNames 686578	județ merkezi; GeoNames koordinatı dakikaya yuvarlanmış	E			ek-modern-merkez
+alba-iulia-ro	3	Romanya		Alba Iulia	46.0667	23.5833	GeoNames 686578 (DMS 46°04′00.01″ N, 23°34′59.99″ E)			gyulafehervar		GeoNames 686578	județ merkezi; GeoNames koordinatı dakikaya yuvarlanmış	E			ek-modern-merkez
 baia-mare-ro	3	Romanya		Baia Mare	47.6573	23.5681	GeoNames 685826 (DMS 47°39′26.24″ N, 23°34′05.09″ E)					GeoNames 685826	județ merkezi (Maramureș)	E			ek-modern-merkez
-satu-mare-ro	3	Romanya		Satu Mare	47.7993	22.8626	GeoNames 667873 (DMS 47°47′57.34″ N, 22°51′45.18″ E)					GeoNames 667873	județ merkezi	E			ek-modern-merkez
-suceava-ro	3	Romanya		Suceava	47.6333	26.2500	GeoNames 665850 (DMS 47°37′59.99″ N, 26°15′00.00″ E)					GeoNames 665850	județ merkezi; GeoNames koordinatı dakikaya yuvarlanmış	E			ek-modern-merkez
+satu-mare-ro	3	Romanya		Satu Mare	47.7993	22.8626	GeoNames 667873 (DMS 47°47′57.34″ N, 22°51′45.18″ E)			szatmar-hu		GeoNames 667873	județ merkezi	E			ek-modern-merkez
+suceava-ro	3	Romanya		Suceava	47.6333	26.2500	GeoNames 665850 (DMS 47°37′59.99″ N, 26°15′00.00″ E)			sucava-ro		GeoNames 665850	județ merkezi; GeoNames koordinatı dakikaya yuvarlanmış	E			ek-modern-merkez
 resita-ro	3	Romanya		Reșița	45.3008	21.8892	GeoNames 668954 (DMS 45°18′02.99″ N, 21°53′21.01″ E)					GeoNames 668954	județ merkezi (Caraș-Severin)	E			ek-modern-merkez
 slobozia-ro	3	Romanya		Slobozia	44.5647	27.3633	GeoNames 8581467 (DMS 44°33′52.92″ N, 27°21′47.88″ E)					GeoNames 8581467	județ merkezi (Ialomița)	E			ek-modern-merkez
 alexandria-ro	3	Romanya		Alexandria	43.9833	25.3333	GeoNames 686502 (DMS 43°58′59.99″ N, 25°19′59.99″ E)					GeoNames 686502	județ merkezi (Teleorman); GeoNames koordinatı yuvarlanmış	E			ek-modern-merkez
 pernik-bg	3	Bulgaristan		Pernik	42.5967	23.0332	GeoNames 728330 (DMS 42°35′48.16″ N, 23°01′59.45″ E)					GeoNames 728330	oblast merkezi	E			ek-modern-merkez
-lovech-bg	3	Bulgaristan		Lovech	43.1323	24.7176	GeoNames 729559 (DMS 43°07′56.17″ N, 24°43′03.47″ E)					GeoNames 729559	oblast merkezi (Lofça)	E			ek-modern-merkez
-dobrich-bg	3	Bulgaristan		Dobrich	43.5649	27.8314	GeoNames 726418 (DMS 43°33′53.68″ N, 27°49′52.97″ E)					GeoNames 726418	oblast merkezi (Hacıoğlupazarcığı)	E			ek-modern-merkez
-kardzhali-bg	3	Bulgaristan		Kardzhali	41.6450	25.3658	GeoNames 729794 (DMS 41°38′42.07″ N, 25°21′56.81″ E)					GeoNames 729794	oblast merkezi (Kırcaali)	E			ek-modern-merkez
+lovech-bg	3	Bulgaristan		Lovech	43.1323	24.7176	GeoNames 729559 (DMS 43°07′56.17″ N, 24°43′03.47″ E)			lovech-bg		GeoNames 729559	oblast merkezi (Lofça)	E			ek-modern-merkez
+dobrich-bg	3	Bulgaristan		Dobrich	43.5649	27.8314	GeoNames 726418 (DMS 43°33′53.68″ N, 27°49′52.97″ E)			dobrich-bg		GeoNames 726418	oblast merkezi (Hacıoğlupazarcığı)	E			ek-modern-merkez
+kardzhali-bg	3	Bulgaristan		Kardzhali	41.6450	25.3658	GeoNames 729794 (DMS 41°38′42.07″ N, 25°21′56.81″ E)			kardzhali-bg		GeoNames 729794	oblast merkezi (Kırcaali)	E			ek-modern-merkez
 gabrovo-bg	3	Bulgaristan		Gabrovo	42.8742	25.3182	GeoNames 731549 (DMS 42°52′27.08″ N, 25°19′05.63″ E)					GeoNames 731549	oblast merkezi	E			ek-modern-merkez
-targovishte-bg	3	Bulgaristan		Targovishte	43.2512	26.5722	GeoNames 726174 (DMS 43°15′04.32″ N, 26°34′19.74″ E)					GeoNames 726174	oblast merkezi (Eski Cuma)	E			ek-modern-merkez
+targovishte-bg	3	Bulgaristan		Targovishte	43.2512	26.5722	GeoNames 726174 (DMS 43°15′04.32″ N, 26°34′19.74″ E)			targovishte-bg		GeoNames 726174	oblast merkezi (Eski Cuma)	E			ek-modern-merkez
 blagoevgrad-bg	3	Bulgaristan		Blagoevgrad	42.0146	23.0980	GeoNames 733191 (DMS 42°00′52.45″ N, 23°05′52.94″ E)					GeoNames 733191	oblast merkezi (Yukarı Cuma)	E			ek-modern-merkez
-yambol-bg	3	Bulgaristan		Yambol	42.4824	26.5001	GeoNames 725578 (DMS 42°28′56.75″ N, 26°30′00.22″ E)					GeoNames 725578	oblast merkezi (Yanbolu)	E			ek-modern-merkez
+yambol-bg	3	Bulgaristan		Yambol	42.4824	26.5001	GeoNames 725578 (DMS 42°28′56.75″ N, 26°30′00.22″ E)			yambol-bg		GeoNames 725578	oblast merkezi (Yanbolu)	E			ek-modern-merkez
 smolyan-bg	3	Bulgaristan		Smolyan	41.5744	24.7120	GeoNames 727030 (DMS 41°34′27.80″ N, 24°42′43.34″ E)					GeoNames 727030	oblast merkezi (Paşmaklı)	E			ek-modern-merkez
 montana-bg	3	Bulgaristan		Montana	43.4128	23.2217	GeoNames 729114 (DMS 43°24′46.26″ N, 23°13′18.26″ E)					GeoNames 729114	oblast merkezi (eski Mihaylovgrad; Ferdinand)	E			ek-modern-merkez
 kozani-gr	3	Yunanistan		Kozani	40.2993	21.7898	GeoNames 735563 (DMS 40°17′57.52″ N, 21°47′23.42″ E)					GeoNames 735563	Batı Makedonya periferi merkezi (Kozana)	E			ek-modern-merkez
-kavala-gr	3	Yunanistan		Kavala	40.9396	24.4069	GeoNames 735861 (DMS 40°56′22.52″ N, 24°24′24.73″ E)					GeoNames 735861	nomos merkezi (Kavala)	E			ek-modern-merkez
+kavala-gr	3	Yunanistan		Kavala	40.9396	24.4069	GeoNames 735861 (DMS 40°56′22.52″ N, 24°24′24.73″ E)			kavala-gr		GeoNames 735861	nomos merkezi (Kavala)	E			ek-modern-merkez
 piraeus-gr	3	Yunanistan		Piraeus	37.9420	23.6462	GeoNames 255274 (DMS 37°56′31.31″ N, 23°38′46.28″ E)					GeoNames 255274	Pire; Attika ilçe merkezi	E			ek-modern-merkez
-split-hr	3	Hırvatistan		Split	43.5089	16.4392	GeoNames 3190261 (DMS 43°30′32.08″ N, 16°26′20.94″ E)					GeoNames 3190261	županija merkezi (İspalato)	E			ek-modern-merkez
-pula-hr	3	Hırvatistan		Pula	44.8683	13.8481	GeoNames 3192224 (DMS 44°52′05.99″ N, 13°50′53.02″ E)					GeoNames 3192224	Istria'nın en büyük şehri (merkez Pazin)	E			ek-modern-merkez
-karlovac-hr	3	Hırvatistan		Karlovac	45.4917	15.5500	GeoNames 3345300 (DMS 45°29′30.01″ N, 15°33′00.00″ E)					GeoNames 3345300	županija merkezi	E			ek-modern-merkez
-slavonski-brod-hr	3	Hırvatistan		Slavonski Brod	45.1616	18.0163	GeoNames 3190586 (DMS 45°09′41.69″ N, 18°00′58.68″ E)					GeoNames 3190586	županija merkezi (Brod)	E			ek-modern-merkez
-koprivnica-hr	3	Hırvatistan		Koprivnica	46.1636	16.8297	GeoNames 3197728 (DMS 46°09′49.10″ N, 16°49′46.92″ E)					GeoNames 3197728	županija merkezi	E			ek-modern-merkez
-sisak-hr	3	Hırvatistan		Sisak	45.4661	16.3775	GeoNames 3190813 (DMS 45°27′57.89″ N, 16°22′38.93″ E)					GeoNames 3190813	županija merkezi (Sisek)	E			ek-modern-merkez
-sibenik-hr	3	Hırvatistan		Šibenik	43.7343	15.8942	GeoNames 3190941 (DMS 43°44′03.44″ N, 15°53′39.12″ E)					GeoNames 3190941	županija merkezi	E			ek-modern-merkez
-dubrovnik-hr	3	Hırvatistan		Dubrovnik	42.6412	18.1091	GeoNames 3201047 (DMS 42°38′28.50″ N, 18°06′32.72″ E)					GeoNames 3201047	županija merkezi (Raguza)	E			ek-modern-merkez
-cakovec-hr	3	Hırvatistan		Čakovec	46.3844	16.4339	GeoNames 3202888 (DMS 46°23′03.98″ N, 16°26′02.00″ E)					GeoNames 3202888	Međimurje županija merkezi	E			ek-modern-merkez
-pazin-hr	3	Hırvatistan		Pazin	45.2392	13.9395	GeoNames 3193561 (DMS 45°14′21.01″ N, 13°56′22.02″ E)					GeoNames 3193561	Istria županija merkezi	E			ek-modern-merkez
-virovitica-hr	3	Hırvatistan		Virovitica	45.8345	17.3855	GeoNames 3187694 (DMS 45°50′04.13″ N, 17°23′07.98″ E)					GeoNames 3187694	županija merkezi	E			ek-modern-merkez
-krapina-hr	3	Hırvatistan		Krapina	46.1608	15.8737	GeoNames 3197369 (DMS 46°09′38.74″ N, 15°52′25.32″ E)					GeoNames 3197369	Krapina-Zagorje županija merkezi	E			ek-modern-merkez
-novi-sad-rs	3	Sırbistan		Novi Sad	45.2517	19.8369	GeoNames 3194360 (DMS 45°15′06.01″ N, 19°50′12.98″ E)					GeoNames 3194360	Güney Bačka okrug merkezi; Voyvodina özerk bölge merkezi	E			ek-modern-merkez
+split-hr	3	Hırvatistan		Split	43.5089	16.4392	GeoNames 3190261 (DMS 43°30′32.08″ N, 16°26′20.94″ E)			split-hr		GeoNames 3190261	županija merkezi (İspalato)	E			ek-modern-merkez
+pula-hr	3	Hırvatistan		Pula	44.8683	13.8481	GeoNames 3192224 (DMS 44°52′05.99″ N, 13°50′53.02″ E)			pula-hr		GeoNames 3192224	Istria'nın en büyük şehri (merkez Pazin)	E			ek-modern-merkez
+karlovac-hr	3	Hırvatistan		Karlovac	45.4917	15.5500	GeoNames 3345300 (DMS 45°29′30.01″ N, 15°33′00.00″ E)			karlovac-hr		GeoNames 3345300	županija merkezi	E			ek-modern-merkez
+slavonski-brod-hr	3	Hırvatistan		Slavonski Brod	45.1616	18.0163	GeoNames 3190586 (DMS 45°09′41.69″ N, 18°00′58.68″ E)			slavonski-brod-hr		GeoNames 3190586	županija merkezi (Brod)	E			ek-modern-merkez
+koprivnica-hr	3	Hırvatistan		Koprivnica	46.1636	16.8297	GeoNames 3197728 (DMS 46°09′49.10″ N, 16°49′46.92″ E)			koprivnica-hr		GeoNames 3197728	županija merkezi	E			ek-modern-merkez
+sisak-hr	3	Hırvatistan		Sisak	45.4661	16.3775	GeoNames 3190813 (DMS 45°27′57.89″ N, 16°22′38.93″ E)			sisak-hr		GeoNames 3190813	županija merkezi (Sisek)	E			ek-modern-merkez
+sibenik-hr	3	Hırvatistan		Šibenik	43.7343	15.8942	GeoNames 3190941 (DMS 43°44′03.44″ N, 15°53′39.12″ E)			sibenik-hr		GeoNames 3190941	županija merkezi	E			ek-modern-merkez
+dubrovnik-hr	3	Hırvatistan		Dubrovnik	42.6412	18.1091	GeoNames 3201047 (DMS 42°38′28.50″ N, 18°06′32.72″ E)			dubrovnik-hr		GeoNames 3201047	županija merkezi (Raguza)	E			ek-modern-merkez
+cakovec-hr	3	Hırvatistan		Čakovec	46.3844	16.4339	GeoNames 3202888 (DMS 46°23′03.98″ N, 16°26′02.00″ E)			cakovec-hr		GeoNames 3202888	Međimurje županija merkezi	E			ek-modern-merkez
+pazin-hr	3	Hırvatistan		Pazin	45.2392	13.9395	GeoNames 3193561 (DMS 45°14′21.01″ N, 13°56′22.02″ E)			pazin-hr		GeoNames 3193561	Istria županija merkezi	E			ek-modern-merkez
+virovitica-hr	3	Hırvatistan		Virovitica	45.8345	17.3855	GeoNames 3187694 (DMS 45°50′04.13″ N, 17°23′07.98″ E)			virovitica-hr		GeoNames 3187694	županija merkezi	E			ek-modern-merkez
+krapina-hr	3	Hırvatistan		Krapina	46.1608	15.8737	GeoNames 3197369 (DMS 46°09′38.74″ N, 15°52′25.32″ E)			krapina-hr		GeoNames 3197369	Krapina-Zagorje županija merkezi	E			ek-modern-merkez
+novi-sad-rs	3	Sırbistan		Novi Sad	45.2517	19.8369	GeoNames 3194360 (DMS 45°15′06.01″ N, 19°50′12.98″ E)			petrovaradin-hu		GeoNames 3194360	Güney Bačka okrug merkezi; Voyvodina özerk bölge merkezi	E			ek-modern-merkez
 cacak-rs	3	Sırbistan		Čačak	43.8914	20.3497	GeoNames 792078 (DMS 43°53′29.00″ N, 20°20′58.99″ E)					GeoNames 792078	Moravica okrug merkezi	E			ek-modern-merkez
-leskovac-rs	3	Sırbistan		Leskovac	42.9981	21.9461	GeoNames 788709 (DMS 42°59′53.02″ N, 21°56′46.00″ E)					GeoNames 788709	Jablanica okrug merkezi	E			ek-modern-merkez
-subotica-rs	3	Sırbistan		Subotica	46.1000	19.6667	GeoNames 3189595 (DMS 46°06′00.00″ N, 19°40′00.01″ E)					GeoNames 3189595	Kuzey Bačka okrug merkezi; GeoNames koordinatı dakikaya yuvarlanmış	E			ek-modern-merkez
-kraljevo-rs	3	Sırbistan		Kraljevo	43.7258	20.6894	GeoNames 789107 (DMS 43°43′32.99″ N, 20°41′21.98″ E)					GeoNames 789107	Raška okrug merkezi	E			ek-modern-merkez
-novi-pazar-rs	3	Sırbistan		Novi Pazar	43.1367	20.5122	GeoNames 787595 (DMS 43°08′12.01″ N, 20°30′43.99″ E)					GeoNames 787595	Yenipazar; Raška bölgesi büyük şehri (okrug merkezi Kraljevo)	E			ek-modern-merkez
-pancevo-rs	3	Sırbistan		Pančevo	44.8718	20.6417	GeoNames 787237 (DMS 44°52′18.37″ N, 20°38′30.01″ E)					GeoNames 787237	Güney Banat okrug merkezi	E			ek-modern-merkez
-jagodina-rs	3	Sırbistan		Jagodina	43.9771	21.2612	GeoNames 789923 (DMS 43°58′37.67″ N, 21°15′40.36″ E)					GeoNames 789923	Pomoravlje okrug merkezi	E			ek-modern-merkez
+leskovac-rs	3	Sırbistan		Leskovac	42.9981	21.9461	GeoNames 788709 (DMS 42°59′53.02″ N, 21°56′46.00″ E)			leskovac-rs		GeoNames 788709	Jablanica okrug merkezi	E			ek-modern-merkez
+subotica-rs	3	Sırbistan		Subotica	46.1000	19.6667	GeoNames 3189595 (DMS 46°06′00.00″ N, 19°40′00.01″ E)			subotica-rs		GeoNames 3189595	Kuzey Bačka okrug merkezi; GeoNames koordinatı dakikaya yuvarlanmış	E			ek-modern-merkez
+kraljevo-rs	3	Sırbistan		Kraljevo	43.7258	20.6894	GeoNames 789107 (DMS 43°43′32.99″ N, 20°41′21.98″ E)			kraljevo-rs		GeoNames 789107	Raška okrug merkezi	E			ek-modern-merkez
+novi-pazar-rs	3	Sırbistan		Novi Pazar	43.1367	20.5122	GeoNames 787595 (DMS 43°08′12.01″ N, 20°30′43.99″ E)			yenipazar-rs		GeoNames 787595	Yenipazar; Raška bölgesi büyük şehri (okrug merkezi Kraljevo)	E			ek-modern-merkez
+pancevo-rs	3	Sırbistan		Pančevo	44.8718	20.6417	GeoNames 787237 (DMS 44°52′18.37″ N, 20°38′30.01″ E)			pancevo-rs		GeoNames 787237	Güney Banat okrug merkezi	E			ek-modern-merkez
+jagodina-rs	3	Sırbistan		Jagodina	43.9771	21.2612	GeoNames 789923 (DMS 43°58′37.67″ N, 21°15′40.36″ E)			jagodina-rs		GeoNames 789923	Pomoravlje okrug merkezi	E			ek-modern-merkez
 bor-rs	3	Sırbistan		Bor	44.0749	22.0959	GeoNames 792456 (DMS 44°04′29.57″ N, 22°05′45.28″ E)					GeoNames 792456	Bor okrug merkezi	E			ek-modern-merkez
-kikinda-rs	3	Sırbistan		Kikinda	45.8297	20.4653	GeoNames 789518 (DMS 45°49′46.99″ N, 20°27′55.01″ E)					GeoNames 789518	Kuzey Banat okrug merkezi	E			ek-modern-merkez
+kikinda-rs	3	Sırbistan		Kikinda	45.8297	20.4653	GeoNames 789518 (DMS 45°49′46.99″ N, 20°27′55.01″ E)			kikinda-rs		GeoNames 789518	Kuzey Banat okrug merkezi	E			ek-modern-merkez
 sremska-mitrovica-rs	3	Sırbistan		Sremska Mitrovica	44.9764	19.6122	GeoNames 3190103 (DMS 44°58′35.00″ N, 19°36′43.99″ E)					GeoNames 3190103	Srem okrug merkezi	E			ek-modern-merkez
-zenica-ba	3	Bosna-Hersek		Zenica	44.2017	17.9040	GeoNames 3186573 (DMS 44°12′06.08″ N, 17°54′14.29″ E)					GeoNames 3186573	Zenica-Doboj kanton merkezi	E			ek-modern-merkez
-brcko-ba	3	Bosna-Hersek		Brčko	44.8716	18.8163	GeoNames 3203521 (DMS 44°52′17.83″ N, 18°48′58.68″ E)					GeoNames 3203521	Brčko Bölgesi merkezi	E			ek-modern-merkez
-bijeljina-ba	3	Bosna-Hersek		Bijeljina	44.7587	19.2144	GeoNames 3204186 (DMS 44°45′31.46″ N, 19°12′51.73″ E)					GeoNames 3204186	Sırp Cumhuriyeti'nin büyük şehri	E			ek-modern-merkez
-prijedor-ba	3	Bosna-Hersek		Prijedor	44.9799	16.7140	GeoNames 3192409 (DMS 44°58′47.68″ N, 16°42′50.44″ E)					GeoNames 3192409	Sırp Cumhuriyeti'nin büyük şehri	E			ek-modern-merkez
-trebinje-ba	3	Bosna-Hersek		Trebinje	42.7120	18.3436	GeoNames 3188893 (DMS 42°42′43.09″ N, 18°20′37.03″ E)					GeoNames 3188893	Sırp Cumhuriyeti bölge merkezi	E			ek-modern-merkez
-livno-ba	3	Bosna-Hersek		Livno	43.8270	17.0075	GeoNames 3196410 (DMS 43°49′37.02″ N, 17°00′26.86″ E)					GeoNames 3196410	Kanton 10 merkezi	E			ek-modern-merkez
-gorazde-ba	3	Bosna-Hersek		Goražde	43.6679	18.9756	GeoNames 3200396 (DMS 43°40′04.62″ N, 18°58′32.30″ E)					GeoNames 3200396	Bosna Podrinje kanton merkezi	E			ek-modern-merkez
-doboj-ba	3	Bosna-Hersek		Doboj	44.7318	18.0870	GeoNames 3201984 (DMS 44°43′54.44″ N, 18°05′13.13″ E)					GeoNames 3201984	Sırp Cumhuriyeti bölge merkezi	E			ek-modern-merkez
+zenica-ba	3	Bosna-Hersek		Zenica	44.2017	17.9040	GeoNames 3186573 (DMS 44°12′06.08″ N, 17°54′14.29″ E)			zenica-ba		GeoNames 3186573	Zenica-Doboj kanton merkezi	E			ek-modern-merkez
+brcko-ba	3	Bosna-Hersek		Brčko	44.8716	18.8163	GeoNames 3203521 (DMS 44°52′17.83″ N, 18°48′58.68″ E)			brcko-ba		GeoNames 3203521	Brčko Bölgesi merkezi	E			ek-modern-merkez
+bijeljina-ba	3	Bosna-Hersek		Bijeljina	44.7587	19.2144	GeoNames 3204186 (DMS 44°45′31.46″ N, 19°12′51.73″ E)			bijeljina-ba		GeoNames 3204186	Sırp Cumhuriyeti'nin büyük şehri	E			ek-modern-merkez
+prijedor-ba	3	Bosna-Hersek		Prijedor	44.9799	16.7140	GeoNames 3192409 (DMS 44°58′47.68″ N, 16°42′50.44″ E)			prijedor-ba		GeoNames 3192409	Sırp Cumhuriyeti'nin büyük şehri	E			ek-modern-merkez
+trebinje-ba	3	Bosna-Hersek		Trebinje	42.7120	18.3436	GeoNames 3188893 (DMS 42°42′43.09″ N, 18°20′37.03″ E)			trebinye-ba		GeoNames 3188893	Sırp Cumhuriyeti bölge merkezi	E			ek-modern-merkez
+livno-ba	3	Bosna-Hersek		Livno	43.8270	17.0075	GeoNames 3196410 (DMS 43°49′37.02″ N, 17°00′26.86″ E)			livno-ba		GeoNames 3196410	Kanton 10 merkezi	E			ek-modern-merkez
+gorazde-ba	3	Bosna-Hersek		Goražde	43.6679	18.9756	GeoNames 3200396 (DMS 43°40′04.62″ N, 18°58′32.30″ E)			gorazde-ba		GeoNames 3200396	Bosna Podrinje kanton merkezi	E			ek-modern-merkez
+doboj-ba	3	Bosna-Hersek		Doboj	44.7318	18.0870	GeoNames 3201984 (DMS 44°43′54.44″ N, 18°05′13.13″ E)			doboj-ba		GeoNames 3201984	Sırp Cumhuriyeti bölge merkezi	E			ek-modern-merkez
 orasje-ba	3	Bosna-Hersek		Orašje	45.0337	18.6933	GeoNames 3194035 (DMS 45°02′01.18″ N, 18°41′36.02″ E)					GeoNames 3194035	Posavina kanton merkezi	E			ek-modern-merkez
 siroki-brijeg-ba	3	Bosna-Hersek		Široki Brijeg	43.3829	17.5942	GeoNames 3196428 (DMS 43°22′58.44″ N, 17°35′38.98″ E)					GeoNames 3196428	Batı Hersek kanton merkezi	E			ek-modern-merkez
 istocno-sarajevo-ba	3	Bosna-Hersek		Istočno Sarajevo								GeoNames (okunamadı)	Sırp Cumhuriyeti bölge merkezi; koordinat okunamadı (sorgulanmadı)	E			ek-modern-merkez
-tirana-al	3	Arnavutluk		Tirana	41.3274	19.8187	GeoNames 3183875 (DMS 41°19′38.78″ N, 19°49′07.18″ E)					GeoNames 3183875	başkent; qark merkezi (Tiran)	E			ek-modern-merkez
+tirana-al	3	Arnavutluk		Tirana	41.3274	19.8187	GeoNames 3183875 (DMS 41°19′38.78″ N, 19°49′07.18″ E)			tirana-al		GeoNames 3183875	başkent; qark merkezi (Tiran)	E			ek-modern-merkez
 fier-al	3	Arnavutluk		Fier	40.7251	19.5582	GeoNames 3185672 (DMS 40°43′30.36″ N, 19°33′29.63″ E)					GeoNames 3185672	qark merkezi	E			ek-modern-merkez
-vlore-al	3	Arnavutluk		Vlorë	40.4696	19.4838	GeoNames 3183719 (DMS 40°28′10.56″ N, 19°29′01.64″ E)					GeoNames 3183719	qark merkezi (Avlonya)	E			ek-modern-merkez
+vlore-al	3	Arnavutluk		Vlorë	40.4696	19.4838	GeoNames 3183719 (DMS 40°28′10.56″ N, 19°29′01.64″ E)			avlonya-arnavutluk		GeoNames 3183719	qark merkezi (Avlonya)	E			ek-modern-merkez
 peshkopi-al	3	Arnavutluk		Peshkopi	41.6850	20.4286	GeoNames 782061 (DMS 41°41′06.00″ N, 20°25′42.89″ E)					GeoNames 782061	Dibër qark merkezi	E			ek-modern-merkez
 kukes-al	3	Arnavutluk		Kukës	42.0769	20.4219	GeoNames 782661 (DMS 42°04′36.98″ N, 20°25′18.98″ E)					GeoNames 782661	qark merkezi	E			ek-modern-merkez
-lezhe-al	3	Arnavutluk		Lezhë	41.7836	19.6436	GeoNames 3184935 (DMS 41°47′01.00″ N, 19°38′37.00″ E)					GeoNames 3184935	qark merkezi (Leş)	E			ek-modern-merkez
-kumanovo-mk	3	Kuzey Makedonya		Kumanovo	42.1328	21.7158	GeoNames 788886 (DMS 42°07′58.04″ N, 21°42′57.06″ E)					GeoNames 788886	Kuzeydoğu bölge merkezi (Komanova)	E			ek-modern-merkez
-tetovo-mk	3	Kuzey Makedonya		Tetovo	42.0099	20.9714	GeoNames 785082 (DMS 42°00′35.60″ N, 20°58′16.97″ E)					GeoNames 785082	Polog bölge merkezi (Kalkandelen)	E			ek-modern-merkez
-prilep-mk	3	Kuzey Makedonya		Prilep	41.3456	21.5537	GeoNames 786735 (DMS 41°20′44.09″ N, 21°33′13.32″ E)					GeoNames 786735	Pelagonya'nın 2. büyük şehri (Pirlepe)	E			ek-modern-merkez
-veles-mk	3	Kuzey Makedonya		Veles	41.7172	21.7720	GeoNames 785058 (DMS 41°43′01.88″ N, 21°46′19.06″ E)					GeoNames 785058	Vardar bölge merkezi (Köprülü)	E			ek-modern-merkez
-shtip-mk	3	Kuzey Makedonya		Shtip	41.7458	22.1958	GeoNames 785482 (DMS 41°44′44.99″ N, 22°11′44.99″ E)					GeoNames 785482	Doğu bölge merkezi (İştip)	E			ek-modern-merkez
-ohrid-mk	3	Kuzey Makedonya		Ohrid	41.1170	20.8018	GeoNames 787487 (DMS 41°07′01.24″ N, 20°48′06.30″ E)					GeoNames 787487	Güneybatı bölge merkezi (Ohri)	E			ek-modern-merkez
-strumica-mk	3	Kuzey Makedonya		Strumica	41.4376	22.6429	GeoNames 785380 (DMS 41°26′15.47″ N, 22°38′34.37″ E)					GeoNames 785380	Güneydoğu bölge (Ustrumca)	E			ek-modern-merkez
-podgorica-me	3	Karadağ		Podgorica	42.4412	19.2631	GeoNames 3193044 (DMS 42°26′28.46″ N, 19°15′47.12″ E)					GeoNames 3193044	başkent	E			ek-modern-merkez
-niksic-me	3	Karadağ		Nikšić	42.7731	18.9445	GeoNames 3194494 (DMS 42°46′23.16″ N, 18°56′40.06″ E)					GeoNames 3194494	belediye/bölge merkezi (Nikşiç)	E			ek-modern-merkez
+lezhe-al	3	Arnavutluk		Lezhë	41.7836	19.6436	GeoNames 3184935 (DMS 41°47′01.00″ N, 19°38′37.00″ E)			les-lissos-al		GeoNames 3184935	qark merkezi (Leş)	E			ek-modern-merkez
+kumanovo-mk	3	Kuzey Makedonya		Kumanovo	42.1328	21.7158	GeoNames 788886 (DMS 42°07′58.04″ N, 21°42′57.06″ E)			kumanovo-mk		GeoNames 788886	Kuzeydoğu bölge merkezi (Komanova)	E			ek-modern-merkez
+tetovo-mk	3	Kuzey Makedonya		Tetovo	42.0099	20.9714	GeoNames 785082 (DMS 42°00′35.60″ N, 20°58′16.97″ E)			tetovo-mk		GeoNames 785082	Polog bölge merkezi (Kalkandelen)	E			ek-modern-merkez
+prilep-mk	3	Kuzey Makedonya		Prilep	41.3456	21.5537	GeoNames 786735 (DMS 41°20′44.09″ N, 21°33′13.32″ E)			prilep-mk		GeoNames 786735	Pelagonya'nın 2. büyük şehri (Pirlepe)	E			ek-modern-merkez
+veles-mk	3	Kuzey Makedonya		Veles	41.7172	21.7720	GeoNames 785058 (DMS 41°43′01.88″ N, 21°46′19.06″ E)			koprulu-veles-mk		GeoNames 785058	Vardar bölge merkezi (Köprülü)	E			ek-modern-merkez
+shtip-mk	3	Kuzey Makedonya		Shtip	41.7458	22.1958	GeoNames 785482 (DMS 41°44′44.99″ N, 22°11′44.99″ E)			istip-astibos-mk		GeoNames 785482	Doğu bölge merkezi (İştip)	E			ek-modern-merkez
+ohrid-mk	3	Kuzey Makedonya		Ohrid	41.1170	20.8018	GeoNames 787487 (DMS 41°07′01.24″ N, 20°48′06.30″ E)			ohrid-mk		GeoNames 787487	Güneybatı bölge merkezi (Ohri)	E			ek-modern-merkez
+strumica-mk	3	Kuzey Makedonya		Strumica	41.4376	22.6429	GeoNames 785380 (DMS 41°26′15.47″ N, 22°38′34.37″ E)			ustrumca-strumica-mk		GeoNames 785380	Güneydoğu bölge (Ustrumca)	E			ek-modern-merkez
+podgorica-me	3	Karadağ		Podgorica	42.4412	19.2631	GeoNames 3193044 (DMS 42°26′28.46″ N, 19°15′47.12″ E)			podgorica-me		GeoNames 3193044	başkent	E			ek-modern-merkez
+niksic-me	3	Karadağ		Nikšić	42.7731	18.9445	GeoNames 3194494 (DMS 42°46′23.16″ N, 18°56′40.06″ E)			niksic-me		GeoNames 3194494	belediye/bölge merkezi (Nikşiç)	E			ek-modern-merkez
 bijelo-polje-me	3	Karadağ		Bijelo Polje	43.0383	19.7476	GeoNames 3204176 (DMS 43°02′18.02″ N, 19°44′51.29″ E)					GeoNames 3204176	belediye merkezi (Akova)	E			ek-modern-merkez
 berane-me	3	Karadağ		Berane	42.8433	19.8728	GeoNames 3199071 (DMS 42°50′35.99″ N, 19°52′22.12″ E)					GeoNames 3199071	belediye merkezi (İpek/Akova yakını)	E			ek-modern-merkez
-bar-me	3	Karadağ		Bar	42.0937	19.0984	GeoNames 3204509 (DMS 42°05′37.32″ N, 19°05′54.28″ E)					GeoNames 3204509	belediye merkezi (Antivari)	E			ek-modern-merkez
-herceg-novi-me	3	Karadağ		Herceg Novi	42.4531	18.5375	GeoNames 3199394 (DMS 42°27′11.02″ N, 18°32′15.00″ E)					GeoNames 3199394	belediye merkezi (Hersek Novi)	E			ek-modern-merkez
-ulcinj-me	3	Karadağ		Ulcinj	41.9294	19.2244	GeoNames 3188516 (DMS 41°55′45.70″ N, 19°13′27.70″ E)					GeoNames 3188516	belediye merkezi (Ülgün)	E			ek-modern-merkez
-kotor-me	3	Karadağ		Kotor	42.4207	18.7682	GeoNames 3197538 (DMS 42°25′14.41″ N, 18°46′05.70″ E)					GeoNames 3197538	belediye merkezi (Kotor)	E			ek-modern-merkez
-budva-me	3	Karadağ		Budva	42.2872	18.8392	GeoNames 3203106 (DMS 42°17′13.96″ N, 18°50′21.19″ E)					GeoNames 3203106	belediye merkezi	E			ek-modern-merkez
-maribor-si	3	Slovenya		Maribor	46.5558	15.6459	GeoNames 3195506 (DMS 46°33′20.99″ N, 15°38′45.35″ E)					GeoNames 3195506	Podravska istatistik bölge merkezi	E			ek-modern-merkez
-celje-si	3	Slovenya		Celje	46.2309	15.2604	GeoNames 3202781 (DMS 46°13′51.31″ N, 15°15′37.58″ E)					GeoNames 3202781	Savinjska bölge merkezi	E			ek-modern-merkez
-kranj-si	3	Slovenya		Kranj	46.2389	14.3556	GeoNames 3197378 (DMS 46°14′19.93″ N, 14°21′20.20″ E)					GeoNames 3197378	Gorenjska bölge merkezi	E			ek-modern-merkez
-nova-gorica-si	3	Slovenya		Nova Gorica	45.9560	13.6484	GeoNames 3194452 (DMS 45°57′21.74″ N, 13°38′54.13″ E)					GeoNames 3194452	Goriška bölge merkezi	E			ek-modern-merkez
-koper-si	3	Slovenya		Koper	45.5482	13.7296	GeoNames 3197753 (DMS 45°32′53.52″ N, 13°43′46.67″ E)					GeoNames 3197753	Obalno-kraška bölge merkezi	E			ek-modern-merkez
-novo-mesto-si	3	Slovenya		Novo Mesto	45.8040	15.1689	GeoNames 3194351 (DMS 45°48′14.29″ N, 15°10′07.90″ E)					GeoNames 3194351	Jugovzhodna Slovenija bölge merkezi	E			ek-modern-merkez
+bar-me	3	Karadağ		Bar	42.0937	19.0984	GeoNames 3204509 (DMS 42°05′37.32″ N, 19°05′54.28″ E)			bar-me		GeoNames 3204509	belediye merkezi (Antivari)	E			ek-modern-merkez
+herceg-novi-me	3	Karadağ		Herceg Novi	42.4531	18.5375	GeoNames 3199394 (DMS 42°27′11.02″ N, 18°32′15.00″ E)			herceg-novi-me		GeoNames 3199394	belediye merkezi (Hersek Novi)	E			ek-modern-merkez
+ulcinj-me	3	Karadağ		Ulcinj	41.9294	19.2244	GeoNames 3188516 (DMS 41°55′45.70″ N, 19°13′27.70″ E)			ulcinj-me		GeoNames 3188516	belediye merkezi (Ülgün)	E			ek-modern-merkez
+kotor-me	3	Karadağ		Kotor	42.4207	18.7682	GeoNames 3197538 (DMS 42°25′14.41″ N, 18°46′05.70″ E)			kotor-me		GeoNames 3197538	belediye merkezi (Kotor)	E			ek-modern-merkez
+budva-me	3	Karadağ		Budva	42.2872	18.8392	GeoNames 3203106 (DMS 42°17′13.96″ N, 18°50′21.19″ E)			budva-me		GeoNames 3203106	belediye merkezi	E			ek-modern-merkez
+maribor-si	3	Slovenya		Maribor	46.5558	15.6459	GeoNames 3195506 (DMS 46°33′20.99″ N, 15°38′45.35″ E)			maribor-si		GeoNames 3195506	Podravska istatistik bölge merkezi	E			ek-modern-merkez
+celje-si	3	Slovenya		Celje	46.2309	15.2604	GeoNames 3202781 (DMS 46°13′51.31″ N, 15°15′37.58″ E)			celje-si		GeoNames 3202781	Savinjska bölge merkezi	E			ek-modern-merkez
+kranj-si	3	Slovenya		Kranj	46.2389	14.3556	GeoNames 3197378 (DMS 46°14′19.93″ N, 14°21′20.20″ E)			kranj-si		GeoNames 3197378	Gorenjska bölge merkezi	E			ek-modern-merkez
+nova-gorica-si	3	Slovenya		Nova Gorica	45.9560	13.6484	GeoNames 3194452 (DMS 45°57′21.74″ N, 13°38′54.13″ E)			nova-gorica-si		GeoNames 3194452	Goriška bölge merkezi	E			ek-modern-merkez
+koper-si	3	Slovenya		Koper	45.5482	13.7296	GeoNames 3197753 (DMS 45°32′53.52″ N, 13°43′46.67″ E)			koper-si		GeoNames 3197753	Obalno-kraška bölge merkezi	E			ek-modern-merkez
+novo-mesto-si	3	Slovenya		Novo Mesto	45.8040	15.1689	GeoNames 3194351 (DMS 45°48′14.29″ N, 15°10′07.90″ E)			novo-mesto-si		GeoNames 3194351	Jugovzhodna Slovenija bölge merkezi	E			ek-modern-merkez
 murska-sobota-si	3	Slovenya		Murska Sobota	46.6626	16.1664	GeoNames 3194648 (DMS 46°39′45.50″ N, 16°09′59.15″ E)					GeoNames 3194648	Pomurska bölge merkezi	E			ek-modern-merkez
 trbovlje-si	3	Slovenya		Trbovlje	46.1541	15.0518	GeoNames 3188915 (DMS 46°09′14.76″ N, 15°03′06.41″ E)					GeoNames 3188915	Zasavska bölge büyük şehri	E			ek-modern-merkez
-slovenj-gradec-si	3	Slovenya		Slovenj Gradec	46.5109	15.0838	GeoNames 3190536 (DMS 46°30′39.17″ N, 15°05′01.57″ E)					GeoNames 3190536	Koroška bölge merkezi	E			ek-modern-merkez
-postojna-si	3	Slovenya		Postojna	45.7743	14.2153	GeoNames 3192673 (DMS 45°46′27.66″ N, 14°12′55.01″ E)					GeoNames 3192673	Primorsko-notranjska bölge merkezi	E			ek-modern-merkez
-krsko-si	3	Slovenya		Krško	45.9592	15.4917	GeoNames 3197147 (45°57′32.94″ N, 15°29′30.01″ E)					GeoNames (okunamadı)	Posavska bölge merkezi; koordinat okunamadı (sorgulanmadı)	E		KOORD DÜZELTİLDİ 17 Kas 2026: eski (—,—) → yeni (45.9592,15.4917); kaynak GeoNames 3197147 sayfası DMS 45°57′32.94″ N, 15°29′30.01″ E	ek-modern-merkez
+slovenj-gradec-si	3	Slovenya		Slovenj Gradec	46.5109	15.0838	GeoNames 3190536 (DMS 46°30′39.17″ N, 15°05′01.57″ E)			slovenj-gradec-si		GeoNames 3190536	Koroška bölge merkezi	E			ek-modern-merkez
+postojna-si	3	Slovenya		Postojna	45.7743	14.2153	GeoNames 3192673 (DMS 45°46′27.66″ N, 14°12′55.01″ E)			postojna-si		GeoNames 3192673	Primorsko-notranjska bölge merkezi	E			ek-modern-merkez
+krsko-si	3	Slovenya		Krško	45.9592	15.4917	GeoNames 3197147 (45°57′32.94″ N, 15°29′30.01″ E)			krsko-si		GeoNames (okunamadı)	Posavska bölge merkezi; koordinat okunamadı (sorgulanmadı)	E		KOORD DÜZELTİLDİ 17 Kas 2026: eski (—,—) → yeni (45.9592,15.4917); kaynak GeoNames 3197147 sayfası DMS 45°57′32.94″ N, 15°29′30.01″ E	ek-modern-merkez
 mitrovica-xk	3	Kosova		Mitrovica	42.8833	20.8667	GeoNames 789225 (DMS 42°52′59.99″ N, 20°52′00.01″ E)					GeoNames 789225	bölge merkezi (Mitroviça; GeoNames Mitrovicë)	E			ek-modern-merkez
 gjakova-xk	3	Kosova		Gjakova	42.3803	20.4308	GeoNames 791646 (DMS 42°22′49.01″ N, 20°25′50.99″ E)					GeoNames 791646	bölge merkezi (Yakova; GeoNames Gjakovë)	E			ek-modern-merkez
 gjilan-xk	3	Kosova		Gjilan	42.4605	21.4699	GeoNames 790674 (DMS 42°27′37.62″ N, 21°28′11.50″ E)					GeoNames 790674	bölge merkezi (Gilan)	E			ek-modern-merkez

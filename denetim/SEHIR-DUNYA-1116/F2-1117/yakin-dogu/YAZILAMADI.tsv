@@ -1,0 +1,90 @@
+id	ad	neden
+maden-(elazig)	Maden (Elazığ)	bu partide okunmadı (atlas_ad Harput(Elazığ) dolu: dikiş gerektirir)
+bulunamadi-(genc/bingol-yoresi)	bulunamadı (Genç/Bingöl yöresi)	koordinatsız ve adı 'bulunamadı' olan satır (Gernik); yazılamaz
+kars	Kars	atlas_ad 'Kars' dolu (atlas noktası var): zincir atlas başlangıcına dikişli olmalı; TDV KARS okundu (962 merkez Kars [Aşot], 1064, 1153 kitâbe, 1239 Moğol, 1467, 1501) — atlas ilk günü ölçülmedi, bu yüzden yazılmadı
+agri-tr	Ağrı	TDV AĞRI okundu: il/yöre tarihi (Urartu, 1054, 1548 Osmanlı); şehir merkezi Karaköse/Karakilise — tarihli şehir cümlesi yok (1288/1871 salname kaza kaydı)
+aksaray-tr	Aksaray	MÜKERRER: aynı id data/sehir_tarihce_yakin-dogu-c.js'te zaten var (LISTE tarihce_id boş = bayat); yazılmadı (araştırma notu: TDV AKSARAY, İbn Battûta 1331 aday ilk anılış)
+batman-tr	Batman	TDV 'batman--olcu' ölçü birimi maddesidir (şehir değil); TDV'de Batman şehri maddesi bulunamadı (arama); 2. kaynak aranmadı
+bayburt-tr	Bayburt	MÜKERRER: aynı id data/sehir_tarihce_balkanlar-g.js'te var (ajan karışıklığı: Balkanlar dosyasında Yakın Doğu id'si); yazılmadı (TDV BAYBURT: 1054 Tuğrul, Ekim 1514 Osmanlı)
+bingol-tr	Bingöl	TDV BİNGÖL okundu: Çapakçur/Cebelü Cûr adı yılsız ('Ortaçağ İslâm kaynakları, Yâkūt'); kuruluş yılı yok, il kanunu (1935) vilâyet tarihi; 3. kaynak (İSAM/TTK) aranmadı
+duzce-tr	Düzce	TDV DÜZCE okundu: Düzce XIX. yüzyıl şehri (yıl yok), Prusias/Üskübü (Konuralp) 9 km kuzeyde — modern nokta başlangıç yazılamaz, antik/Konuralp ayrı kayıt önerisi
+eskisehir-tr	Eskişehir	MÜKERRER: ≤3 km 'eskisehir-dorylaion-tr' data/sehir_tarihce_k3.js'te var; yazılmadı (TDV ESKİŞEHİR: 30 Haziran 1097)
+antakya-tr	Antakya	MÜKERRER: ≤3 km 'antioch' data/sehir_tarihce_k3_g1.js'te var; yazılmadı (TDV ANTAKYA: MÖ 236 II. Seleukos adası; 18 Mayıs 1268 Baybars)
+karaman-tr	Karaman	MÜKERRER: aynı id data/sehir_tarihce_yakin-dogu-d.js'te zaten var; yazılmadı (TDV KARAMAN: Lârende 654/1256 Karamanoğulları, 1471 Osmanlı)
+kilis-tr	Kilis	MÜKERRER: aynı id data/sehir_tarihce_yakin-dogu-d.js'te zaten var; yazılmadı (TDV KİLİS: Temmuz 985 Bardas Phokas)
+osmaniye-tr	Osmaniye	TDV OSMANİYE okundu: bölge cümleleri (MÖ 612, 1082-83, 1353, 1516); 'burası 905-906 (1500-1501)'de ortaya çıktı' özne belirsiz (Kınık kasabası?) — yer eşitlemesi kesin değil
+hasakah-sy	Hasakah	bu oturumda okunmadı: önce-öncelikli kaynak (TDV/Britannica) araması yapılmadı ya da madde bulunamadı; süre/istek sınırı (TDV ≥15 sn aralık)
+idlib-sy	Idlib	TDV 'idlib' araması alakasız sonuç döndürdü (madde yok)
+daraa-sy	Daraa	TDV 'dera' araması DERALİYYE (alakasız) döndürdü
+suwayda-sy	Suwayda	bu oturumda okunmadı: önce-öncelikli kaynak (TDV/Britannica) araması yapılmadı ya da madde bulunamadı; süre/istek sınırı (TDV ≥15 sn aralık)
+quneitra-sy	Quneitra	bu oturumda okunmadı: önce-öncelikli kaynak (TDV/Britannica) araması yapılmadı ya da madde bulunamadı; süre/istek sınırı (TDV ≥15 sn aralık)
+qamishli-sy	Qamishli	bu oturumda okunmadı: önce-öncelikli kaynak (TDV/Britannica) araması yapılmadı ya da madde bulunamadı; süre/istek sınırı (TDV ≥15 sn aralık)
+douma-sy	Douma	bu oturumda okunmadı: önce-öncelikli kaynak (TDV/Britannica) araması yapılmadı ya da madde bulunamadı; süre/istek sınırı (TDV ≥15 sn aralık)
+diwaniyah-iq	Diwaniyah	bu oturumda okunmadı: önce-öncelikli kaynak (TDV/Britannica) araması yapılmadı ya da madde bulunamadı; süre/istek sınırı (TDV ≥15 sn aralık)
+kut-iq	Kut	bu oturumda okunmadı: önce-öncelikli kaynak (TDV/Britannica) araması yapılmadı ya da madde bulunamadı; süre/istek sınırı (TDV ≥15 sn aralık)
+dohuk-iq	Dohuk	bu oturumda okunmadı: önce-öncelikli kaynak (TDV/Britannica) araması yapılmadı ya da madde bulunamadı; süre/istek sınırı (TDV ≥15 sn aralık)
+baqubah-iq	Baqubah	TDV 'bakûbe' araması boş
+ramadi-iq	Ramadi	TDV 'ramâdî' araması REMÂDÎ (kişi); şehir maddesi yok
+samawah-iq	Samawah	TDV 'semâve' araması alakasız
+zarqa-jo	Zarqa	TDV 'zerkā' araması kişi maddesi (Zerkā, Ahmed Muhammed) döndü; şehir yok
+irbid-jo	Irbid	TDV 'irbid' araması: yalnız ACLÛN; Britannica slug 404
+ajloun-jo	Ajloun	TDV ACLÛN maddesi aday bulundu (/aclun) ama bu partide gövde okunmadı
+aqaba-jo	Aqaba	Britannica 'Aqaba' slug 404; TDV 'akabe' araması sonuç vermedi (arama cevap boş)
+salt-jo	Salt	TDV 'salt' araması sonuç vermedi
+mafraq-jo	Mafraq	bu oturumda okunmadı: önce-öncelikli kaynak (TDV/Britannica) araması yapılmadı ya da madde bulunamadı; süre/istek sınırı (TDV ≥15 sn aralık)
+jerash-jo	Jerash	bu oturumda okunmadı: önce-öncelikli kaynak (TDV/Britannica) araması yapılmadı ya da madde bulunamadı; süre/istek sınırı (TDV ≥15 sn aralık)
+maan-jo	Ma'an	bu oturumda okunmadı: önce-öncelikli kaynak (TDV/Britannica) araması yapılmadı ya da madde bulunamadı; süre/istek sınırı (TDV ≥15 sn aralık)
+tafilah-jo	Tafilah	bu oturumda okunmadı: önce-öncelikli kaynak (TDV/Britannica) araması yapılmadı ya da madde bulunamadı; süre/istek sınırı (TDV ≥15 sn aralık)
+tel-aviv-il	Tel Aviv	Britannica Tel Aviv–Yafo sayfası: yalnız 'Top Questions' başlıkları döndü (içerik filtresi/okunamadı); kuruluş (1909) ikinci kaynakla teyit edilmedi
+beersheba-il	Beersheba	Britannica Beersheba okundu: ilk anılış yıl taşımıyor (Hakimler/Bizans 4-7. yy aralığı, 7. yy Arap, 16. yy Türk); TDV 'Birüssebi' aranmadı
+nazareth-il	Nazareth	bu oturumda okunmadı: önce-öncelikli kaynak (TDV/Britannica) araması yapılmadı ya da madde bulunamadı; süre/istek sınırı (TDV ≥15 sn aralık)
+khan-yunis-ps	Khan Yunis	Britannica 'Khan-Yunus' 404; TDV aranmadı
+rafah-ps	Rafah	Britannica Rafah (Raphia): 1906 sınır; ilk anılış yok
+deir-al-balah-ps	Deir al-Balah	bu oturumda okunmadı: önce-öncelikli kaynak (TDV/Britannica) araması yapılmadı ya da madde bulunamadı; süre/istek sınırı (TDV ≥15 sn aralık)
+jericho-ps	Jericho	Britannica 'Jericho' (≈MÖ 9000 Tell es-Sultan): tell modern Eriha merkezinden ayrı (≈2 km sınırında), Tevrat anılışı yılsız; TDV 'Eriha' araması sonuç vermedi
+bethlehem-ps	Bethlehem	Britannica Bethlehem okundu: Doğuş Kilisesi (4. yy yapım) — şehrin kendi yıl-tanığı bu satırlarda yok; TDV 'Beytüllahm' araması sonuç vermedi
+tubas-ps	Tubas	bu oturumda okunmadı: önce-öncelikli kaynak (TDV/Britannica) araması yapılmadı ya da madde bulunamadı; süre/istek sınırı (TDV ≥15 sn aralık)
+ramallah-ps	Ramallah	bu oturumda okunmadı: önce-öncelikli kaynak (TDV/Britannica) araması yapılmadı ya da madde bulunamadı; süre/istek sınırı (TDV ≥15 sn aralık)
+tulkarm-ps	Tulkarm	Britannica Tulkarm: 'late 19th century' idarî merkez; yıl yok
+qalqilya-ps	Qalqilya	Britannica 'Qalqilyah' 404; TDV aranmadı
+salfit-ps	Salfit	bu oturumda okunmadı: önce-öncelikli kaynak (TDV/Britannica) araması yapılmadı ya da madde bulunamadı; süre/istek sınırı (TDV ≥15 sn aralık)
+jabalia-ps	Jabalia	bu oturumda okunmadı: önce-öncelikli kaynak (TDV/Britannica) araması yapılmadı ya da madde bulunamadı; süre/istek sınırı (TDV ≥15 sn aralık)
+dammam-sa	Dammam	Britannica Dammam: yalnız 1938 petrol keşfi; ilk anılış/kuruluş yok
+buraydah-sa	Buraydah	Britannica Buraydah: yalnız nüfus; TDV 'büreyde' araması sahâbî maddesi
+sakaka-sa	Sakaka	bu oturumda okunmadı: önce-öncelikli kaynak (TDV/Britannica) araması yapılmadı ya da madde bulunamadı; süre/istek sınırı (TDV ≥15 sn aralık)
+arar-sa	Arar	bu oturumda okunmadı: önce-öncelikli kaynak (TDV/Britannica) araması yapılmadı ya da madde bulunamadı; süre/istek sınırı (TDV ≥15 sn aralık)
+najran-sa	Najran	TDV NECRAN okundu (523 Zûnüvâs, Himyerî): antik Necran harabeleri (Uhdûd) modern Najran noktasından ayrı olabilir (>3 km doğrulanamadı) — yazılmadı
+al-bahah-sa	Al Bahah	bu oturumda okunmadı: önce-öncelikli kaynak (TDV/Britannica) araması yapılmadı ya da madde bulunamadı; süre/istek sınırı (TDV ≥15 sn aralık)
+doha-qa	Doha	MÜKERRER: aynı id data/sehir_tarihce_balkanlar-g.js'te var; yazılmadı (TDV DEVHA: 1867 saldırı, 1871 Osmanlı kazası; Britannica 1867 çift teyit)
+manama-bh	Manama	MÜKERRER: ≤3 km 'manama' data/sehir_tarihce_k12.js'te var; yazılmadı (Britannica: ≈1345 ilk anılış)
+al-ain-ae	Al Ain	Britannica Al-Ain okundu: MÖ 2700 mezar höyükleri (Hili ≥3 km uzak olabilir), Doğu Kalesi 1910 — şehir tanığı değil; yazılmadı
+ras-al-khaimah-ae	Ras Al Khaimah	Britannica Ras al-Khaimah okundu: ilk dilimde yıl taşıyan ilk cümle 1809 (İngiliz tahribi) + 'Qasimi by the early 18th century'; Trucial States künyesi var ama kayıt yazılmadı (zaman)
+fujairah-ae	Fujairah	Britannica 'Fujairah' slug 404; TDV aranmadı
+salalah-om	Salalah	TDV ZAFÂR (Salalah/Zafâr): TDV okundu — atlas başlangıcı ile çelişki (BORC.md); Zafâr (Al-Balid ~4,7 km) ayrı kayıt önerisi; Salalah kendi ilk anılışı bulunamadı
+sohar-om	Sohar	TDV 'suhâr' araması sahâbî maddesi (SUHÂR b. ABBAS) döndürdü; şehir yok
+sur-om	Sur	bu oturumda okunmadı: önce-öncelikli kaynak (TDV/Britannica) araması yapılmadı ya da madde bulunamadı; süre/istek sınırı (TDV ≥15 sn aralık)
+nizwa-om	Nizwa	TDV 'nizve' araması alakasız (BÜREYMÎ, EBÛZABÎ)
+khasab-om	Khasab	bu oturumda okunmadı: önce-öncelikli kaynak (TDV/Britannica) araması yapılmadı ya da madde bulunamadı; süre/istek sınırı (TDV ≥15 sn aralık)
+al-buraimi-om	Al Buraimi	MÜKERRER: ≤3 km 'buraymi' data/sehir_tarihce_k12.js'te var; yazılmadı (TDV BÜREYMÎ: 840 Benî Cülendâ)
+amran-ye	Amran	bu oturumda okunmadı: önce-öncelikli kaynak (TDV/Britannica) araması yapılmadı ya da madde bulunamadı; süre/istek sınırı (TDV ≥15 sn aralık)
+dhamar-ye	Dhamar	bu oturumda okunmadı: önce-öncelikli kaynak (TDV/Britannica) araması yapılmadı ya da madde bulunamadı; süre/istek sınırı (TDV ≥15 sn aralık)
+ibb-ye	Ibb	bu oturumda okunmadı: önce-öncelikli kaynak (TDV/Britannica) araması yapılmadı ya da madde bulunamadı; süre/istek sınırı (TDV ≥15 sn aralık)
+saada-ye	Saada	TDV 'saada' araması alakasız; Britannica 'Saada' 404
+hajjah-ye	Hajjah	TDV 'hacce' araması HACCETÜ'l-VEDÂ (alakasız)
+al-bayda-ye	Al Bayda	bu oturumda okunmadı: önce-öncelikli kaynak (TDV/Britannica) araması yapılmadı ya da madde bulunamadı; süre/istek sınırı (TDV ≥15 sn aralık)
+zinjibar-ye	Zinjibar	TDV araması boş; Britannica 'Zinjibar' 404
+ataq-ye	Ataq	bu oturumda okunmadı: önce-öncelikli kaynak (TDV/Britannica) araması yapılmadı ya da madde bulunamadı; süre/istek sınırı (TDV ≥15 sn aralık)
+marib-ye	Marib	TDV ME’RİB + Britannica Maʾrib okundu (III. yy Himyerî, 525, Saba 950-115): antik Marib ile modern nokta mesafesi doğrulanamadı — yazılmadı
+al-mahwit-ye	Al Mahwit	bu oturumda okunmadı: önce-öncelikli kaynak (TDV/Britannica) araması yapılmadı ya da madde bulunamadı; süre/istek sınırı (TDV ≥15 sn aralık)
+al-hazm-ye	Al Hazm	bu oturumda okunmadı: önce-öncelikli kaynak (TDV/Britannica) araması yapılmadı ya da madde bulunamadı; süre/istek sınırı (TDV ≥15 sn aralık)
+ad-dali-ye	Ad Dali'	bu oturumda okunmadı: önce-öncelikli kaynak (TDV/Britannica) araması yapılmadı ya da madde bulunamadı; süre/istek sınırı (TDV ≥15 sn aralık)
+hadibu-ye	Hadibu	bu oturumda okunmadı: önce-öncelikli kaynak (TDV/Britannica) araması yapılmadı ya da madde bulunamadı; süre/istek sınırı (TDV ≥15 sn aralık)
+al-ghaydah-ye	Al Ghaydah	bu oturumda okunmadı: önce-öncelikli kaynak (TDV/Britannica) araması yapılmadı ya da madde bulunamadı; süre/istek sınırı (TDV ≥15 sn aralık)
+al-jabin-ye	Al Jabin	bu oturumda okunmadı: önce-öncelikli kaynak (TDV/Britannica) araması yapılmadı ya da madde bulunamadı; süre/istek sınırı (TDV ≥15 sn aralık)
+tyre-lb	Tyre	Britannica Tyre sayfası kısaltılmış (paywall 'Mentioned in Egyptian records of the 14th century bce as being...' devam okunamadı): okunamadı
+zahle-lb	Zahle	Britannica Zahlah: yalnız yükseklik/nüfus; TDV araması sonuç vermedi
+nabatieh-lb	Nabatieh	bu oturumda okunmadı: önce-öncelikli kaynak (TDV/Britannica) araması yapılmadı ya da madde bulunamadı; süre/istek sınırı (TDV ≥15 sn aralık)
+halba-lb	Halba	bu oturumda okunmadı: önce-öncelikli kaynak (TDV/Britannica) araması yapılmadı ya da madde bulunamadı; süre/istek sınırı (TDV ≥15 sn aralık)
+jounieh-lb	Jounieh	Britannica 'Jounieh' 404; TDV aranmadı
+hermel-lb	Hermel	bu oturumda okunmadı: önce-öncelikli kaynak (TDV/Britannica) araması yapılmadı ya da madde bulunamadı; süre/istek sınırı (TDV ≥15 sn aralık)
+morphou-cy	Morphou	Britannica 'Morphou' 404; TDV aranmadı (Güzelyurt)

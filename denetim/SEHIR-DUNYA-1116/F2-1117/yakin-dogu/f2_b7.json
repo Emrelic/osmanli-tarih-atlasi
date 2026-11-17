@@ -1,0 +1,134 @@
+[
+ {
+  "id": "erbil-iq",
+  "ad": "Erbil",
+  "atlas_ad": null,
+  "lat": 36.1912,
+  "lon": 44.0094,
+  "kat1900": 3,
+  "adlar": [
+   "Arbela (antik, TDV'de ad geçmiyor)",
+   "Erbîl",
+   "Erbil",
+   "Hewlêr"
+  ],
+  "ilk": {
+   "t": "0500-01-01",
+   "gun": "500",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/erbil (ERBİL)",
+   "tanik": "halkının hemen tamamı hıristiyan olan Erbil, 500 yılında Keldânî Metropolitliği’nin kurulması üzerine Musul’dan sonra bölgenin ikinci önemli din ve kültür merkezi haline gelmiştir"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0500-01-01",
+    "t": "1535-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/erbil (ERBİL)",
+    "ic_not": "Şehir var, sahip zinciri bu dönem için kaynaklı kurulmadı (araştırılmadı); TDV olayları olay[]de. "
+   },
+   {
+    "f": "1535-01-01",
+    "t": "1900-01-01",
+    "d": "osmanli",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/erbil (ERBİL)",
+    "ic_not": "TDV: 'Erbil, Kanûnî Sultan Süleyman’ın Irakeyn Seferi sırasında (1535) Bağdat’la birlikte Osmanlı topraklarına katıldı'; gün yok."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0750-01-16",
+    "gun": "16 Ocak 750",
+    "k": "diger",
+    "b": "İslâmî kaynaklarda Erbil adına ilk defa Büyük Zap Suyu Savaşı (Emevî hâkimiyetini bitiren, Abbâsî dönemini başlatan) münasebetiyle rastlanır",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/erbil (ERBİL)"
+   },
+   {
+    "t": "1132-01-01",
+    "gun": "1132",
+    "k": "fetih",
+    "b": "Musul Atabeği İmâdüddin Zengî Erbil’i ele geçirdi",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/erbil (ERBİL)"
+   },
+   {
+    "t": "1232-01-01",
+    "gun": "1232",
+    "k": "diger",
+    "b": "Kökböri’nin ölümü üzerine Erbil bölgesi vasiyet yoluyla Abbâsî Halifesi Müstansır-Billâh’ın eline geçti",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/erbil (ERBİL)"
+   },
+   {
+    "t": "1236-01-01",
+    "gun": "1236",
+    "k": "diger",
+    "b": "Moğollar Erbil’e saldırıp aşağı şehri işgal etti, kaleyi kuşattılarsa da geri çekildiler",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/erbil (ERBİL)"
+   },
+   {
+    "t": "1258-01-01",
+    "gun": "1258",
+    "k": "fetih",
+    "b": "Bağdat’ın Hülâgû’nun eline geçmesinden sonra Erbil de zaptedildi",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/erbil (ERBİL)"
+   },
+   {
+    "t": "1535-01-01",
+    "gun": "1535",
+    "k": "fetih",
+    "b": "Kanûnî’nin Irakeyn Seferi sırasında Bağdat’la birlikte Osmanlı topraklarına katıldı",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/erbil (ERBİL)"
+   }
+  ],
+  "ic_not": "TANIK KURALI: 500 cümlesi şehrin 'din ve kültür merkezi haline gelişi' (Keldânî Metropolitliği); kuruluş/ilk anılış değildir. Erbil antik Arbela'dır (Asur/Ahamenîş/Selevkos/Part çağı yazılı tanıkları, Ur III 'Urbilum' ~MÖ 2000) — bu partide TDV dışı kaynak okunmadı: başlangıç tarihi çok daha eski olabilir (BORÇ: Perseus/Britannica/Iraq akademik kaynakları). 750 İslâmî kaynakların ilk anışı. 1535 sonrası zincir osmanli. Aynı noktada citadel (Erbil Kalesi) ~ modern merkez, mesafe <3 km. | TANIK: TDV tam gövdesinden birebir cümle (17 Kas 2026, gömülü tarayıcı). Tek kaynak (TDV)."
+ },
+ {
+  "id": "tartus-sy",
+  "ad": "Tartus",
+  "atlas_ad": null,
+  "lat": 34.889,
+  "lon": 35.8866,
+  "kat1900": 3,
+  "adlar": [
+   "Antaradus / Tortosa (Haçlı)",
+   "Tartûs",
+   "Tartus"
+  ],
+  "ilk": {
+   "t": "0968-01-01",
+   "gun": "357 (968)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/tartus (TARTÛS)",
+   "tanik": "Saîd el-Antâkî, 10 Zilhicce 357 (5 Kasım 968) tarihinde Trablus önlerine gelen imparatorun ... Hısnıcebele ve Merakıye ile birlikte Tartûs’u da zaptettiğini söyler"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0968-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/tartus (TARTÛS)",
+    "ic_not": "Şehir var, sahiplik zinciri kaynaklı kurulmadı (bu partide yalnız ilk anılış + olay yazıldı); zincir sonraki iş."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0968-01-01",
+    "gun": "357-358 (968-969)",
+    "k": "diger",
+    "b": "İbn Havkal: Bizans İmparatoru Nikephoros Phokas’ın Suriye seferi sırasında Tartûs’u kuşattı, başarısız oldu; Yahyâ b. Saîd el-Antâkî ise Tartûs’u zaptettiğini söyler (kaynak çelişkisi)",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/tartus (TARTÛS)"
+   }
+  ],
+  "ic_not": "TANIK KURALI: Yahyâ b. Saîd el-Antâkî cümlesindeki '5 Kasım 968' imparatorun Trablus önlerine GELİŞ günüdür (Tartûs'un zaptı değil); yalnız yıl 968 alındı. KAYNAK ÇELİŞKİSİ (TDV içi): İbn Havkal 'kuşatma başarısızlıkla sonuçlandı', Yahyâ el-Antâkî 'Tartûs'u da zaptetti'; zincir açılmadı (968 Bizans fethi/ihlali belirsiz). Ya'kūbî ve Ca'fer (ö. 337/948 [?]) Tartûs'u yılsız anar (daha eski ama yıl yok). Osmanlı'ya katılış yılı TDV gövdesinden okunan cümlelerde yok => BOSLUK. Zincir BOSLUK. | TANIK: TDV tam gövdesinden birebir cümle (17 Kas 2026, gömülü tarayıcı). Tek kaynak (TDV)."
+ }
+]

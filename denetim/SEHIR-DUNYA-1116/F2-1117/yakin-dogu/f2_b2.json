@@ -1,0 +1,232 @@
+[
+ {
+  "id": "usak-tr",
+  "ad": "Uşak",
+  "atlas_ad": null,
+  "lat": 38.6735,
+  "lon": 29.4058,
+  "kat1900": 3,
+  "adlar": [
+   "Uşak"
+  ],
+  "ilk": {
+   "t": "1076-01-01",
+   "gun": "1076 (1075’in ertesi yılı)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "belirsiz",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/usak (UŞAK)",
+   "tanik": "Malazgirt zaferinin ardından 1075’te İznik’in alınışının ertesi yılı Uşak ve çevresi Selçuklular’ın hâkimiyetine girdi"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1076-01-01",
+    "t": "1390-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/usak (UŞAK)",
+    "ic_not": "Şehir var, sahip zinciri bu dönem için kaynaklı kurulmadı (araştırılmadı); TDV olayları olay[]de. "
+   },
+   {
+    "f": "1390-01-01",
+    "t": "1900-01-01",
+    "d": "osmanli",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/usak (UŞAK)",
+    "ic_not": "TDV: 'Uşak da Osmanlı topraklarına katıldı (792/1390)'; gün yok."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1076-01-01",
+    "gun": "1076 (1075’in ertesi yılı)",
+    "k": "fetih",
+    "b": "Uşak ve çevresi Selçuklular’ın hâkimiyetine girdi (TDV: İznik'in alınışının ertesi yılı)",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/usak (UŞAK)"
+   },
+   {
+    "t": "1097-01-01",
+    "gun": "1097",
+    "k": "kayip",
+    "b": "Eskişehir (Dorylaion) Muharebesi’ndeki yenilgi üzerine Bizanslılar Uşak ve çevresini tekrar ele geçirdi",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/usak (UŞAK)"
+   },
+   {
+    "t": "1182-01-01",
+    "gun": "1182",
+    "k": "fetih",
+    "b": "Manuel Komnenos’un ölümünden (1180) iki yıl sonra Uşak tekrar Selçuklular’ın egemenliğine geçti",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/usak (UŞAK)"
+   },
+   {
+    "t": "1390-01-01",
+    "gun": "1390",
+    "k": "fetih",
+    "b": "Yıldırım Bayezid Germiyanoğulları Beyliği’ni Osmanlı sınırları içine aldı; Uşak Osmanlı topraklarına katıldı (792/1390)",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/usak (UŞAK)"
+   }
+  ],
+  "ic_not": "TANIK KURALI: yıl 1075 + 'ertesi yılı' = 1076 türetildi; 'Uşak ve çevresi' bölge ifadesi => kesinlik belirsiz. Önceki dönem (Selçuklu / Bizans / Germiyan) zinciri kaynaklı kurulmadı: BOSLUK. TDV'nin antik/MÖ anılışları (varsa) bu partide filtre dışı kaldı (3 haneli MÖ yıllar taranmadı). | TANIK: TDV tam gövdesinden birebir cümle (17 Kas 2026, gömülü tarayıcı). Tek kaynak (TDV)."
+ },
+ {
+  "id": "yalova-tr",
+  "ad": "Yalova",
+  "atlas_ad": null,
+  "lat": 40.655,
+  "lon": 29.2769,
+  "kat1900": 3,
+  "adlar": [
+   "Yalova"
+  ],
+  "ilk": {
+   "t": "1326-01-01",
+   "gun": "726 (1326)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "belirsiz",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/yalova (YALOVA)",
+   "tanik": "Yalova ve çevresi tam olarak 726’da (1326) Türkler’in eline geçti"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1326-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/yalova (YALOVA)",
+    "ic_not": "Şehir var, sahiplik zinciri kaynaklı kurulmadı (bu partide yalnız ilk anılış + olay yazıldı); zincir sonraki iş."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1302-01-01",
+    "gun": "1302",
+    "k": "diger",
+    "b": "Osman Bey’in bir Bizans birliğini yendiği savaş (Bafeus) Yalova civarında yapıldı (TDV: civar)",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/yalova (YALOVA)"
+   },
+   {
+    "t": "1326-01-01",
+    "gun": "726 (1326)",
+    "k": "fetih",
+    "b": "Yalova ve çevresi Türkler’in eline geçti",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/yalova (YALOVA)"
+   },
+   {
+    "t": "1894-07-10",
+    "gun": "10 Temmuz 1894",
+    "k": "diger",
+    "b": "büyük deprem: Yalova’nın yarıdan fazlası (bazı yayınlara göre tamamı) harap oldu",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/yalova (YALOVA)"
+   },
+   {
+    "t": "1920-08-07",
+    "gun": "7 Ağustos 1920",
+    "k": "fetih",
+    "b": "Yalova ve kaplıcaları Yunan kuvvetleri tarafından işgal edildi",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/yalova (YALOVA)"
+   }
+  ],
+  "ic_not": "TANIK KURALI: 'Yalova ve çevresi' ifadesi; 1302 Bafeus savaşı yalnız 'civarında'. TDV'de 'Türkler'in eline geçti' için sahip adı verilmiyor (çıkarım yazılmaz): sahip BOSLUK. | TANIK: TDV tam gövdesinden birebir cümle (17 Kas 2026, gömülü tarayıcı). Tek kaynak (TDV)."
+ },
+ {
+  "id": "zonguldak-tr",
+  "ad": "Zonguldak",
+  "atlas_ad": null,
+  "lat": 41.4514,
+  "lon": 31.7931,
+  "kat1900": 3,
+  "adlar": [
+   "Zonguldak"
+  ],
+  "ilk": {
+   "t": "1880-01-01",
+   "gun": "1880’lerden itibaren",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "onyil",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/zonguldak (ZONGULDAK)",
+   "tanik": "1880’lerden itibaren, maden havzası içinde yer alan Zonguldak veya Kozlu köylerinden birinin müstakil nahiye merkezine dönüştürülmesine çalışıldı"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1880-01-01",
+    "t": "1900-01-01",
+    "d": "osmanli",
+    "kesinlik": "onyil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/zonguldak (ZONGULDAK)",
+    "ic_not": "f en geç tanıktan: TDV 1899 cümlelerinde Kastamonu valiliği/Dahiliye Nezâreti ve Ereğli kazasına bağlı köy; 1880'lerde Osmanlı kaydı dolaylı (köy=Osmanlı idarî birim). Sahiplik değişimi yok."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1896-01-01",
+    "gun": "1896",
+    "k": "diger",
+    "b": "Fransız sermayeli Ereğli Şirketi kuruldu (Zonguldak liman ve rıhtımı için)",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/zonguldak (ZONGULDAK)"
+   },
+   {
+    "t": "1899-01-01",
+    "gun": "1899",
+    "k": "diger",
+    "b": "Zonguldak kaza merkezi haline getirildi (Fransa'nın 1899'da konsolos tayini mülkî idareyi gündeme getirdi)",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/zonguldak (ZONGULDAK)"
+   }
+  ],
+  "ic_not": "TANIK KURALI: ilk cümle iki köyden ('Zonguldak veya Kozlu') birini nahiye yapma çabası; ilk anılış yılı onyıl hassasiyetli. Köy kökeni (Zonguldak ve Kozlu 'madencilerin yerleştiği köyler') yıl vermiyor. TDV iç çelişki: 'Hamidiye kazasının kurulduğu 1887' ve '1899'da kaza merkezi' aynı cümlede; 1899 kaza merkezi yılı olarak alındı, çelişki beyan. | TANIK: TDV tam gövdesinden birebir cümle (17 Kas 2026, gömülü tarayıcı). Tek kaynak (TDV)."
+ },
+ {
+  "id": "tunceli-tr",
+  "ad": "Tunceli",
+  "atlas_ad": null,
+  "lat": 39.0992,
+  "lon": 39.5435,
+  "kat1900": 3,
+  "adlar": [
+   "Kalan (eski yerleşme)",
+   "Tunceli"
+  ],
+  "ilk": {
+   "t": "1935-12-25",
+   "gun": "25 Aralık 1935",
+   "nicelik": "kurulus",
+   "kesinlik": "belirsiz",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/tunceli (TUNCELİ)",
+   "tanik": "Tunceli, tarihî geçmişi olmayan, temeli Cumhuriyet döneminde atılan bir şehirdir. 25 Aralık 1935 tarihinde kabul edilen 2885 sayılı yasa ile ... Tunceli adlı yeni bir vilâyet kurulması kararlaştırılıp"
+  },
+  "kur": {
+   "t": "1935-12-25",
+   "gun": "25 Aralık 1935",
+   "kesinlik": "belirsiz",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/tunceli (TUNCELİ)",
+   "tanik": "temeli Cumhuriyet döneminde atılan bir şehirdir"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1935-12-25",
+    "gun": "25 Aralık 1935",
+    "k": "kurulus",
+    "b": "Tunceli vilâyeti kuruluş kanunu kabul edildi (merkez olarak boş alan seçildi)",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/tunceli (TUNCELİ)"
+   },
+   {
+    "t": "1847-01-01",
+    "gun": "1847",
+    "k": "diger",
+    "b": "Osmanlı idaresinde Dersim (merkezi Hozat) sancağı kuruldu (şehir yok; bölge)",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/tunceli (TUNCELİ)"
+   }
+  ],
+  "ic_not": "TANIK KURALI: kuruluş günü TDV'de yok; 25 Aralık 1935 vilâyet kuruluş kanununun (2885 sayılı) kabul günüdür, şehir temeli bunun sonrasıdır => kesinlik belirsiz. TDV içi çelişki: aynı kanun Bingöl maddesinde '7 Aralık 1935 (RG 4.1.1936)', Tunceli maddesinde '25 Aralık 1935' diye veriliyor; çelişki kayıtlı, 3. kaynak aranmadı. Kalan yerleşmesi: TDV 'merkezi olan Kalan yerleşmesine daha sonra Tunceli denmeye başlandı' ile 'hemen hemen boş kalan alan' çelişir (ikincisi şehrin yerleştiği alan). ilk.t 1900 sonrası, zincir yok. | TANIK: TDV tam gövdesinden birebir cümle (17 Kas 2026, gömülü tarayıcı). Tek kaynak (TDV)."
+ }
+]

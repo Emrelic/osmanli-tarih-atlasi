@@ -1,0 +1,297 @@
+[
+ {
+  "id": "podgorica-me",
+  "ad": "Podgorica",
+  "atlas_ad": null,
+  "lat": 42.4412,
+  "lon": 19.2631,
+  "kat1900": 3,
+  "adlar": [
+   "Ribnica (1216)",
+   "Podgorica (1326'dan)",
+   "Titograd (1948-1992)"
+  ],
+  "ad_kaynak": "TDV İslâm Ansiklopedisi, PODGORİCA (islamansiklopedisi.org.tr/podgorica; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+  "ilk": {
+   "t": "1216-01-01",
+   "gun": "1216",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, PODGORİCA (islamansiklopedisi.org.tr/podgorica; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+   "tanik": "Burası Ribnica ve Morača nehirlerinin birbirine karıştığı yerde, küçük ve açık bir yerleşme yeri olarak ilk defa Ribnica adıyla 1216’da zikredilir."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1216-01-01",
+    "t": "1457-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, PODGORİCA (islamansiklopedisi.org.tr/podgorica; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+    "ic_not": "TDV bu aralığın (Sırp/Zeta/Balšić/Venedik) sahip sırasını vermez; beyanlı boşluk"
+   },
+   {
+    "f": "1457-01-01",
+    "t": "1878-07-13",
+    "d": "osmanli",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, PODGORİCA (islamansiklopedisi.org.tr/podgorica; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+    "ic_not": "TDV: 861'de (1457) Osmanlı topraklarına katıldı; 1474-78 Fâtih kale ve cami; 1582 İşkodra tahriri"
+   },
+   {
+    "f": "1878-07-13",
+    "t": "1900-01-01",
+    "d": "karadag",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, PODGORİCA (islamansiklopedisi.org.tr/podgorica; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+    "ic_not": "TDV: 'Berlin Antlaşması neticesinde Podgorica hıristiyan Karadağ Devleti'ne verildi'"
+   }
+  ],
+  "olay": [
+   {
+    "t": "1326-01-01",
+    "gun": "1326",
+    "k": "diger",
+    "b": "Podgorica adına ilk defa rastlanır",
+    "kaynak": "TDV İslâm Ansiklopedisi, PODGORİCA (islamansiklopedisi.org.tr/podgorica; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   },
+   {
+    "t": "1457-01-01",
+    "gun": "1457",
+    "k": "fetih",
+    "b": "Şehir Osmanlı topraklarına katılır (861/1457)",
+    "kaynak": "TDV İslâm Ansiklopedisi, PODGORİCA (islamansiklopedisi.org.tr/podgorica; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   },
+   {
+    "t": "1878-07-13",
+    "gun": "13 Temmuz 1878",
+    "k": "antlasma",
+    "b": "Berlin Antlaşması neticesinde Podgorica Karadağ'a verilir (gün: TDV Berlin Antlaşması; Podgorica maddesi yalnız 1878)",
+    "kaynak": "TDV İslâm Ansiklopedisi, BERLİN ANTLAŞMASI (islamansiklopedisi.org.tr/berlin-antlasmasi; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   }
+  ],
+  "ic_not": "ilk: TDV ad Ribnica ile ilk kayıt 1216; 'Podgorica' adı 1326. Bölgenin tarihi 600'de Slav/Avar işgaline gider, 617'de eski şehir deprem yıkımı (TDV) — antik yerleşim farklı yerde olabilir, ilk sayılmadı. Mükerrer: yok. TANIK KURALI: TDV tam gövde birebir; ad Ribnica, 1216."
+ },
+ {
+  "id": "leskovac-rs",
+  "ad": "Leskovac",
+  "atlas_ad": null,
+  "lat": 42.9981,
+  "lon": 21.9461,
+  "kat1900": 3,
+  "adlar": [
+   "Leskofça (Osmanlı)",
+   "Leskovac",
+   "Dubočica (bölge adı, TDV)"
+  ],
+  "ad_kaynak": "TDV İslâm Ansiklopedisi, LESKOFÇA (islamansiklopedisi.org.tr/leskofca; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+  "ilk": {
+   "t": "1304-01-01",
+   "gun": "1303-1304",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, LESKOFÇA (islamansiklopedisi.org.tr/leskofca; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+   "tanik": "Leskovac’a doğrudan yapıldığı bilinen ilk atıf, Athos (Aynaroz) dağında yer alan büyük Sırp Hilendar Manastırı’na mülk şeklinde bağışlandığı 1303-1304 yıllarına aittir."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1304-01-01",
+    "t": "1454-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, LESKOFÇA (islamansiklopedisi.org.tr/leskofca; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+    "ic_not": "TDV: Sırp krallığı/despotluğu; Kruševac-Dubočica 1433'te Osmanlı hâkimiyeti, 1444 Segedin Antlaşması'yla Osmanlı tarafında kaldı, 1445-47 tahrirlerinde Osmanlı elinde; bu parçanın şehre özgü sıra bu partide kurulmadı (beyanlı boşluk)"
+   },
+   {
+    "f": "1454-01-01",
+    "t": "1878-07-13",
+    "d": "osmanli",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, LESKOFÇA (islamansiklopedisi.org.tr/leskofca; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+    "ic_not": "TDV: '1454'ten 1878'e kadar Dubočica/Leskofça bir Osmanlı idarî birimi, önce nahiye, daha sonra Alacahisar sancağına bağlı bir kaza'"
+   },
+   {
+    "f": "1878-07-13",
+    "t": "1900-01-01",
+    "d": "sirbistan-prensligi",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, LESKOFÇA (islamansiklopedisi.org.tr/leskofca; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+    "ic_not": "TDV: 1878 Berlin Antlaşması Leskofça müslüman halkının sürülmesini 'teyit eder' (Sırbistan'a geçiş çıkarımı); künye 1804-1882, sonrası Sırbistan Krallığı (sirbistan-kralligi, 1882-03-06) — aynı polity, künye uyarısı beyan"
+   }
+  ],
+  "olay": [
+   {
+    "t": "1454-01-01",
+    "gun": "1454",
+    "k": "fetih",
+    "b": "Dubočica/Leskofça Osmanlı idarî birimi olur (nahiye, sonra Alacahisar sancağı kazası)",
+    "kaynak": "TDV İslâm Ansiklopedisi, LESKOFÇA (islamansiklopedisi.org.tr/leskofca; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   },
+   {
+    "t": "1878-07-13",
+    "gun": "13 Temmuz 1878",
+    "k": "antlasma",
+    "b": "Berlin Antlaşması: Sırbistan'a geçiş (gün: TDV Berlin Antlaşması; Leskofça maddesi yalnız 1878)",
+    "kaynak": "TDV İslâm Ansiklopedisi, BERLİN ANTLAŞMASI (islamansiklopedisi.org.tr/berlin-antlasmasi; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   }
+  ],
+  "ic_not": "ilk: TDV 'doğrudan ilk atıf 1303-1304 (Hilandar vakfı)'; güvenli uç 1304. Sırp-Osmanlı kesin geçiş yılı kaynaklara göre 1433/1445/1454 (TDV üç tarih verir); 1454 yalnız 'idari birim' olarak açık yazılı olandır. Mükerrer: yok. TANIK KURALI: TDV tam gövde birebir; Leskovac adı ve 1303-1304 aynı cümlede."
+ },
+ {
+  "id": "yambol-bg",
+  "ad": "Yambol",
+  "atlas_ad": null,
+  "lat": 42.4824,
+  "lon": 26.5001,
+  "kat1900": 3,
+  "adlar": [
+   "Kabyle (antik, TDV 'devamıdır')",
+   "Danbuli (1049)",
+   "Dampolis (1094)",
+   "Yanbolu",
+   "Yambol"
+  ],
+  "ad_kaynak": "TDV İslâm Ansiklopedisi, YANBOLU (islamansiklopedisi.org.tr/yanbolu; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+  "ilk": {
+   "t": "1049-01-01",
+   "gun": "1049",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, YANBOLU (islamansiklopedisi.org.tr/yanbolu; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+   "tanik": "Yanbolu adına kayıtlarda ilk defa 1049’da Konstantinos Arianitis’in Peçenekler tarafından yenilgiye uğratıldığı yer olarak Danbuli şeklinde rastlanır."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1049-01-01",
+    "t": "1331-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, YANBOLU (islamansiklopedisi.org.tr/yanbolu; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+    "ic_not": "TDV: 1094 Dampolis Kumanlara teslim; Bizans/Bulgar el değiştirmeleri (1185-87 Bulgar isyanı bağlamı); sürekli sahip sırası bu partide kurulmadı (beyanlı boşluk)"
+   },
+   {
+    "f": "1331-01-01",
+    "t": "1373-01-01",
+    "d": "bulgar-carligi",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, YANBOLU (islamansiklopedisi.org.tr/yanbolu; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+    "ic_not": "TDV: 1331-1332'de Bizanslılar Ankiyalos takasıyla şehri Bulgarlar'a verdi"
+   },
+   {
+    "f": "1373-01-01",
+    "t": "1878-07-13",
+    "d": "osmanli",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, YANBOLU (islamansiklopedisi.org.tr/yanbolu; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+    "ic_not": "TDV: Timurtaş Paşa'nın 766'da (1365) fethettiği söylenirken sonradan 1373 ileri sürüldü — güvenli uç 1373"
+   },
+   {
+    "f": "1878-07-13",
+    "t": "1885-01-01",
+    "d": "sarki-rumeli",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, YANBOLU (islamansiklopedisi.org.tr/yanbolu; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+    "ic_not": "TDV: 'Doksanüç Harbi'nden sonra Yanbolu ve civarı Şarkîrumeli bölgesine dahil edildi'"
+   },
+   {
+    "f": "1885-01-01",
+    "t": "1900-01-01",
+    "d": "bulgaristan-prensligi",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, YANBOLU (islamansiklopedisi.org.tr/yanbolu; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+    "ic_not": "TDV: '1885'te yeni Bulgar Devleti'ne katıldı' (gün kaynakta yok; yıl başı alındı)"
+   }
+  ],
+  "olay": [
+   {
+    "t": "1331-01-01",
+    "gun": "1331-1332",
+    "k": "antlasma",
+    "b": "Bizanslılar, Karadeniz limanı Ankiyalos ile takas sonucu Yanbolu'yu Bulgarlar'a verir",
+    "kaynak": "TDV İslâm Ansiklopedisi, YANBOLU (islamansiklopedisi.org.tr/yanbolu; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   },
+   {
+    "t": "1373-01-01",
+    "gun": "1373",
+    "k": "fetih",
+    "b": "Osmanlılar Yanbolu'yu fetheder (1365 tarihi de söylenir)",
+    "kaynak": "TDV İslâm Ansiklopedisi, YANBOLU (islamansiklopedisi.org.tr/yanbolu; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   },
+   {
+    "t": "1878-07-13",
+    "gun": "13 Temmuz 1878",
+    "k": "antlasma",
+    "b": "Berlin Antlaşması: Doğu Rumeli (Şarkîrumeli) kurulur; Yanbolu buna dahil (gün: TDV Berlin Antlaşması)",
+    "kaynak": "TDV İslâm Ansiklopedisi, BERLİN ANTLAŞMASI (islamansiklopedisi.org.tr/berlin-antlasmasi; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   },
+   {
+    "t": "1885-01-01",
+    "gun": "1885",
+    "k": "diger",
+    "b": "Doğu Rumeli Bulgar Devleti'ne katılır (Birleşme)",
+    "kaynak": "TDV İslâm Ansiklopedisi, YANBOLU (islamansiklopedisi.org.tr/yanbolu; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   }
+  ],
+  "ic_not": "ilk: TDV Yanbolu'yu 'antik Kabyle'nin devamı' sayar (Kabyle 587 Avar yıkımı); HE ise 'III. yy Diospolis' der — iki ansiklopedi çelişir (Diospolis'in Yambol ile ilgisi okunmadı); TDV esas, ilk anılış ad olarak Danbuli 1049. Mükerrer: yok. TANIK KURALI: TDV tam gövde birebir; Yanbolu adı ve 1049 aynı cümlede."
+ },
+ {
+  "id": "kardzhali-bg",
+  "ad": "Kardzhali",
+  "atlas_ad": null,
+  "lat": 41.645,
+  "lon": 25.3658,
+  "kat1900": 3,
+  "adlar": [
+   "Kırca (1482)",
+   "Kırcaali",
+   "Kǎrdžali / Kardzhali"
+  ],
+  "ad_kaynak": "TDV İslâm Ansiklopedisi, KIRCAALİ (islamansiklopedisi.org.tr/kircaali; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+  "ilk": {
+   "t": "1482-01-01",
+   "gun": "1482",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, KIRCAALİ (islamansiklopedisi.org.tr/kircaali; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+   "tanik": "Kırcaali adı ilk defa 1482 tarihli Osmanlı vergi kayıtlarında Kırca şeklinde görülür (BA, MAD, nr. 324, vr. 121a-b)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1482-01-01",
+    "t": "1900-01-01",
+    "d": "osmanli",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, KIRCAALİ (islamansiklopedisi.org.tr/kircaali; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+    "ic_not": "TDV: Hasköy kazası (Çirmen sancağı); 1516'da Kırca Ali'nin oğullarının yönetiminde; 1878 Berlin sonrası TDV cümlesi ('Doğu Rumeli'nin bir parçası olarak kaldı, 1885'te bölgenin büyük kısmı Hasköy kazası dahil Bulgaristan'a katıldı') Kırcaali'nin 1912'ye kadar Osmanlı'da kaldığını açıkça söylemiyor — 1878-1900 aralığı Osmanlı varsayımı beyan"
+   }
+  ],
+  "olay": [
+   {
+    "t": "1516-01-01",
+    "gun": "1516",
+    "k": "diger",
+    "b": "Kasaba Kırca Ali'nin oğulları Umur, Süleyman, Hamza, Lutfi ve Hasan'ın yönetiminde",
+    "kaynak": "TDV İslâm Ansiklopedisi, KIRCAALİ (islamansiklopedisi.org.tr/kircaali; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   },
+   {
+    "t": "1530-01-01",
+    "gun": "1530",
+    "k": "diger",
+    "b": "Köyün adı ilk defa Kırcaali olarak geçer (937/1530)",
+    "kaynak": "TDV İslâm Ansiklopedisi, KIRCAALİ (islamansiklopedisi.org.tr/kircaali; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   }
+  ],
+  "ic_not": "ilk: TDV 'Kırca' adı ilk kez 1482 vergi kaydı; Ahridos (Bizans, 1083/1084) bölge adıdır, şehir değil. 1878-1900 sahipliği şehre özgü okunmadı (TDV belirsiz) — zincir Osmanlı olarak yazıldı, doğrulanmadı. Mükerrer: yok. TANIK KURALI: TDV tam gövde birebir; ad Kırca/Kırcaali ve 1482 aynı cümlede."
+ }
+]

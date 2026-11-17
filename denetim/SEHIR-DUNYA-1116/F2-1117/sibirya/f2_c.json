@@ -1,0 +1,471 @@
+[
+ {
+  "id": "nikolayevsk-on-amur",
+  "ad": "Nikolayevsk-on-Amur",
+  "atlas_ad": null,
+  "lat": 53.1466,
+  "lon": 140.7229,
+  "kat1900": 3,
+  "adlar": [
+   "Nikolayevsk (Nikolaevsk-na-Amure)"
+  ],
+  "ad_kaynak": "Britannica Nikolayevsk-na-Amure",
+  "ilk": {
+   "t": "1850-01-01",
+   "gun": "1850",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Britannica, 'Nikolayevsk-na-Amure' maddesi (britannica.com/place/Nikolayevsk-na-Amure)",
+   "tanik": "It was founded in 1850, but its importance as a Pacific port and naval base was overshadowed"
+  },
+  "kur": {
+   "t": "1850-01-01",
+   "gun": "1850",
+   "kesinlik": "yil",
+   "kaynak": "Britannica, 'Nikolayevsk-na-Amure' maddesi (britannica.com/place/Nikolayevsk-na-Amure)",
+   "tanik": "It was founded in 1850, but its importance as a Pacific port and naval base was overshadowed"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1850-01-01",
+    "t": "1900-01-01",
+    "d": "rusya",
+    "kesinlik": "yil",
+    "kaynak": "Britannica, 'Nikolayevsk-na-Amure' maddesi (britannica.com/place/Nikolayevsk-na-Amure) (Rus Pasifik limanı/deniz üssü; dolaylı, Çar I. Nikolay adı)"
+   }
+  ],
+  "olay": [
+   {
+    "t": "1850-01-01",
+    "gun": "1850",
+    "k": "kurulus",
+    "b": "Nikolayevsk Amur ağzında kuruldu",
+    "kaynak": "Britannica, 'Nikolayevsk-na-Amure' maddesi (britannica.com/place/Nikolayevsk-na-Amure)"
+   }
+  ],
+  "ic_not": "TEK KAYNAK (Britannica). Zincir 1900'e: 1850'de Amur ağzı hukuken Çin sınırındaydı (Aygun 1858 sonrası Rusya); sahiplik kaynakta yok, dolaylı — dikkat: 1850-1858 dilimi bu zincirde sorunlu olabilir, ic_not beyanıdır. Takvim: Rusya 1918'e kadar Jülyen kullandı; kaynaklar yalnız yıl (ya da onyıl) verir, yıl hassasiyetinde Jülyen/Gregoryen farkı sonucu değiştirmez, çevrim gerekmedi. koord: GeoNames arama sayfası, 17 Kas 2026 (53°08′47.65″ N, 140°43′22.33″ E). TANIK: tırnak içi cümleler gömülü tarayıcıyla 17 Kasım 2026'da okunan sayfa gövdesinden birebir alındı (sayfa gövdesi okundu, arama özeti değil). "
+ },
+ {
+  "id": "novokuznetsk",
+  "ad": "Novokuznetsk",
+  "atlas_ad": "Kuznetsk",
+  "lat": 53.757,
+  "lon": 87.136,
+  "kat1900": 3,
+  "adlar": [
+   "Kuznetsk (1931'e kadar; Hrvatska enciklopedija)",
+   "Novokuznetsk (1931-32)",
+   "Stalinsk (1932-1961)",
+   "Novokuznetsk (1961'den)"
+  ],
+  "ad_kaynak": "Hrvatska enciklopedija Novokuznjeck ('do 1931. Kuzneck, 1931–32. Novokuznjeck, 1932–61. Stalinsk'); Britannica Novokuznetsk",
+  "ilk": {
+   "t": "1618-01-01",
+   "gun": "1618",
+   "nicelik": "kurulus",
+   "kesinlik": "belirsiz",
+   "kaynak": "Hrvatska enciklopedija, 'Novokuznjeck' maddesi (enciklopedija.hr/clanak/novokuznjeck)",
+   "tanik": "Osnovan 1618."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1929-01-01",
+    "gun": "1929",
+    "k": "diger",
+    "b": "Demir-çelik kombinasının kuruluşu (yeni kent büyümesi)",
+    "kaynak": "Britannica, 'Novokuznetsk' maddesi (britannica.com/place/Novokuznetsk)"
+   },
+   {
+    "t": "1932-01-01",
+    "gun": "1932",
+    "k": "diger",
+    "b": "Kent Stalinsk adını aldı",
+    "kaynak": "Britannica, 'Novokuznetsk' maddesi (britannica.com/place/Novokuznetsk) ('renamed Stalinsk in 1932')"
+   },
+   {
+    "t": "1961-01-01",
+    "gun": "1961",
+    "k": "diger",
+    "b": "Kent Novokuznetsk adını aldı",
+    "kaynak": "Britannica, 'Novokuznetsk' maddesi (britannica.com/place/Novokuznetsk) ('In 1961 the city was renamed Novokuznetsk.')"
+   }
+  ],
+  "ic_not": "ÇELİŞKİ: Britannica 'Kuznetsk köyü 1617'de kuruldu' · Hrvatska enciklopedija 'Osnovan 1618.' — bir yıl fark, üçüncü kaynak aranmadı. Güvenli uç (geç) 1618 alındı, kesinlik 'belirsiz'. Zincir atlas gereği yazılmadı (atlas 'Kuznetsk'). Takvim: Rusya 1918'e kadar Jülyen kullandı; kaynaklar yalnız yıl (ya da onyıl) verir, yıl hassasiyetinde Jülyen/Gregoryen farkı sonucu değiştirmez, çevrim gerekmedi. koord: LISTE. TANIK: tırnak içi cümleler gömülü tarayıcıyla 17 Kasım 2026'da okunan sayfa gövdesinden birebir alındı (sayfa gövdesi okundu, arama özeti değil). "
+ },
+ {
+  "id": "petropavlovsk-kamchatsky",
+  "ad": "Petropavlovsk-Kamchatsky",
+  "atlas_ad": null,
+  "lat": 53.0639,
+  "lon": 158.6275,
+  "kat1900": 3,
+  "adlar": [
+   "Petropavlovskaya Gavan’ (1849'a kadar; HE)",
+   "Petropavlovsky Port (1849-1924; HE)",
+   "Petropavlovsk (1924'e kadar)",
+   "Petropavlovsk-Kamchatsky (1924'ten)"
+  ],
+  "ad_kaynak": "Hrvatska enciklopedija ('do 1849. Petropavlovskaja Gavan’, potom do 1924. Petropavlovskij Port')",
+  "ilk": {
+   "t": "1740-01-01",
+   "gun": "1740",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Britannica, 'Petropavlovsk-Kamchatsky' maddesi (britannica.com/place/Petropavlovsk-Kamchatsky); Hrvatska enciklopedija, 'Petropavlovsk-Kamčatski' maddesi (enciklopedija.hr/clanak/petropavlovsk-kamcatski)",
+   "tanik": "The city was founded in 1740 during Vitus Bering’s second Kamchatka expedition."
+  },
+  "kur": {
+   "t": "1740-01-01",
+   "gun": "1740",
+   "kesinlik": "yil",
+   "kaynak": "Britannica, 'Petropavlovsk-Kamchatsky' maddesi (britannica.com/place/Petropavlovsk-Kamchatsky); Hrvatska enciklopedija, 'Petropavlovsk-Kamčatski' maddesi (enciklopedija.hr/clanak/petropavlovsk-kamcatski)",
+   "tanik": "The city was founded in 1740 during Vitus Bering’s second Kamchatka expedition."
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1740-01-01",
+    "t": "1900-01-01",
+    "d": "rusya",
+    "kesinlik": "yil",
+    "kaynak": "Britannica, 'Petropavlovsk-Kamchatsky' maddesi (britannica.com/place/Petropavlovsk-Kamchatsky) (Bering'in Rus keşif seferi; dolaylı)"
+   }
+  ],
+  "olay": [
+   {
+    "t": "1740-01-01",
+    "gun": "1740",
+    "k": "kurulus",
+    "b": "Bering'in ikinci Kamçatka seferi sırasında kuruldu (Sv. Petr ve Sv. Pavel gemilerinden)",
+    "kaynak": "Britannica, 'Petropavlovsk-Kamchatsky' maddesi (britannica.com/place/Petropavlovsk-Kamchatsky); Hrvatska enciklopedija, 'Petropavlovsk-Kamčatski' maddesi (enciklopedija.hr/clanak/petropavlovsk-kamcatski)"
+   },
+   {
+    "t": "1812-01-01",
+    "gun": "1812",
+    "k": "diger",
+    "b": "Kent statüsü aldı",
+    "kaynak": "Hrvatska enciklopedija, 'Petropavlovsk-Kamčatski' maddesi (enciklopedija.hr/clanak/petropavlovsk-kamcatski) ('status grada dobio 1812.')"
+   },
+   {
+    "t": "1854-01-01",
+    "gun": "1854",
+    "k": "savas",
+    "b": "Kırım Savaşı'nda Anglo-Fransız saldırısı püskürtüldü",
+    "kaynak": "Britannica, 'Petropavlovsk-Kamchatsky' maddesi (britannica.com/place/Petropavlovsk-Kamchatsky)"
+   }
+  ],
+  "ic_not": "KURULUŞ 1740: Britannica + Hrvatska enciklopedija (Treccani parçası '…Bering (1740)…' kuruluş cümlesi olarak tam okunmadı). Çift teyit. ATLAS EŞLEŞMESİ HATASI: LISTE atlas_ad 'Petropavlovsk (Kızılcar)' Kazakistan'daki Petropavl noktasıdır, Kamçatka kenti değil; atlas_ad null yazıldı (atlasta Kamçatka noktası yok), zincir 1900'e. Takvim: Rusya 1918'e kadar Jülyen kullandı; kaynaklar yalnız yıl (ya da onyıl) verir, yıl hassasiyetinde Jülyen/Gregoryen farkı sonucu değiştirmez, çevrim gerekmedi. koord: LISTE (GeoNames 2122104). TANIK: tırnak içi cümleler gömülü tarayıcıyla 17 Kasım 2026'da okunan sayfa gövdesinden birebir alındı (sayfa gövdesi okundu, arama özeti değil). "
+ },
+ {
+  "id": "surgut",
+  "ad": "Surgut",
+  "atlas_ad": "Surgut",
+  "lat": 61.254,
+  "lon": 73.3962,
+  "kat1900": 3,
+  "adlar": [
+   "Surgut"
+  ],
+  "ad_kaynak": "Hrvatska enciklopedija; Britannica",
+  "ilk": {
+   "t": "1594-01-01",
+   "gun": "1594",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Hrvatska enciklopedija, 'Surgut' maddesi (enciklopedija.hr/clanak/surgut)",
+   "tanik": "Osnovan je 1594."
+  },
+  "kur": {
+   "t": "1594-01-01",
+   "gun": "1594",
+   "kesinlik": "yil",
+   "kaynak": "Hrvatska enciklopedija, 'Surgut' maddesi (enciklopedija.hr/clanak/surgut)",
+   "tanik": "Osnovan je 1594."
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1594-01-01",
+    "gun": "1594",
+    "k": "kurulus",
+    "b": "Surgut kuruldu (Ob kıyısı)",
+    "kaynak": "Hrvatska enciklopedija, 'Surgut' maddesi (enciklopedija.hr/clanak/surgut) ('Osnovan je 1594.')"
+   },
+   {
+    "t": "1965-01-01",
+    "gun": "1965",
+    "k": "diger",
+    "b": "Surgut kent statüsü aldı",
+    "kaynak": "Britannica, 'Surgut' maddesi (britannica.com/place/Surgut) ('Incorporated in 1965')"
+   }
+  ],
+  "ic_not": "TEK KAYNAK kuruluş (Hrvatska enciklopedija); Britannica yalnız 1965 kent statüsünü verir; Treccani'de madde bulunamadı. Zincir atlas gereği yazılmadı. Takvim: Rusya 1918'e kadar Jülyen kullandı; kaynaklar yalnız yıl (ya da onyıl) verir, yıl hassasiyetinde Jülyen/Gregoryen farkı sonucu değiştirmez, çevrim gerekmedi. koord: LISTE. TANIK: tırnak içi cümleler gömülü tarayıcıyla 17 Kasım 2026'da okunan sayfa gövdesinden birebir alındı (sayfa gövdesi okundu, arama özeti değil). "
+ },
+ {
+  "id": "troitsk",
+  "ad": "Troitsk",
+  "atlas_ad": "Troitsk",
+  "lat": 54.09,
+  "lon": 61.56,
+  "kat1900": 3,
+  "adlar": [
+   "Troitsk"
+  ],
+  "ad_kaynak": "Britannica Troitsk",
+  "ilk": {
+   "t": "1743-01-01",
+   "gun": "1743",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Britannica, 'Troitsk' maddesi (britannica.com/place/Troitsk)",
+   "tanik": "Founded in 1743 as a fortress, it was chartered in 1784."
+  },
+  "kur": {
+   "t": "1743-01-01",
+   "gun": "1743",
+   "kesinlik": "yil",
+   "kaynak": "Britannica, 'Troitsk' maddesi (britannica.com/place/Troitsk)",
+   "tanik": "Founded in 1743 as a fortress, it was chartered in 1784."
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1743-01-01",
+    "gun": "1743",
+    "k": "kurulus",
+    "b": "Troitsk kale olarak kuruldu",
+    "kaynak": "Britannica, 'Troitsk' maddesi (britannica.com/place/Troitsk)"
+   },
+   {
+    "t": "1784-01-01",
+    "gun": "1784",
+    "k": "diger",
+    "b": "Troitsk kent statüsü (chartered) aldı",
+    "kaynak": "Britannica, 'Troitsk' maddesi (britannica.com/place/Troitsk)"
+   }
+  ],
+  "ic_not": "TEK KAYNAK (Britannica). Not: LISTE koordinatı Chelyabinsk Oblast'taki Troitsk'tur; Britannica maddesinin aynı Troitsk olduğu sayfa gövdesinden (kale 1743) açıkça doğrulanmadı — dikkat. Zincir atlas gereği yazılmadı. Takvim: Rusya 1918'e kadar Jülyen kullandı; kaynaklar yalnız yıl (ya da onyıl) verir, yıl hassasiyetinde Jülyen/Gregoryen farkı sonucu değiştirmez, çevrim gerekmedi. koord: LISTE. TANIK: tırnak içi cümleler gömülü tarayıcıyla 17 Kasım 2026'da okunan sayfa gövdesinden birebir alındı (sayfa gövdesi okundu, arama özeti değil). "
+ },
+ {
+  "id": "ulan-ude",
+  "ad": "Ulan-Ude (Verkhneudinsk)",
+  "atlas_ad": null,
+  "lat": 51.8265,
+  "lon": 107.5998,
+  "kat1900": 3,
+  "adlar": [
+   "Udinskoye (kışlık kamp, 1666; Britannica)",
+   "Udinsk (1783'e kadar; HE)",
+   "Verkhne-Udinsk / Verkhneudinsk (1783-1934)",
+   "Ulan-Ude (1934'ten)"
+  ],
+  "ad_kaynak": "Hrvatska enciklopedija Ulan-Ude ('do 1783. Udinsk, do 1934.'); Britannica; Treccani ('fino al 1934 Verchneudinsk')",
+  "ilk": {
+   "t": "1689-01-01",
+   "gun": "1689",
+   "nicelik": "kurulus",
+   "kesinlik": "belirsiz",
+   "kaynak": "Hrvatska enciklopedija, 'Ulan-Ude' maddesi (enciklopedija.hr/clanak/ulan-ude)",
+   "tanik": "Osnovan je 1689., gradom postao 1775."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1689-01-01",
+    "t": "1900-01-01",
+    "d": "rusya",
+    "kesinlik": "belirsiz",
+    "kaynak": "Hrvatska enciklopedija, 'Ulan-Ude' maddesi (enciklopedija.hr/clanak/ulan-ude) (Rus Udinsk; dolaylı)"
+   }
+  ],
+  "olay": [
+   {
+    "t": "1666-01-01",
+    "gun": "1666",
+    "k": "diger",
+    "b": "Udinskoye kışlık kampı kuruldu",
+    "kaynak": "Britannica, 'Ulan-Ude' maddesi (britannica.com/place/Ulan-Ude) ('The wintering camp of Udinskoye, established there in 1666')"
+   },
+   {
+    "t": "1775-01-01",
+    "gun": "1775",
+    "k": "diger",
+    "b": "Kent statüsü aldı (Hrvatska enciklopedija)",
+    "kaynak": "Hrvatska enciklopedija, 'Ulan-Ude' maddesi (enciklopedija.hr/clanak/ulan-ude) ('gradom postao 1775.')"
+   },
+   {
+    "t": "1783-01-01",
+    "gun": "1783",
+    "k": "diger",
+    "b": "Udinskoye, Verkhne-Udinsk kenti oldu (Britannica; Hrvatska enciklopedija'da 1783 ad değişikliği)",
+    "kaynak": "Britannica, 'Ulan-Ude' maddesi (britannica.com/place/Ulan-Ude)"
+   },
+   {
+    "t": "1934-01-01",
+    "gun": "1934",
+    "k": "diger",
+    "b": "Verkhneudinsk adı Ulan-Ude oldu",
+    "kaynak": "Britannica, 'Ulan-Ude' maddesi (britannica.com/place/Ulan-Ude) ('it was renamed Ulan-Ude in 1934')"
+   }
+  ],
+  "ic_not": "ÇELİŞKİ: Britannica kışlık kamp 1666 (kent 1783) · Hrvatska enciklopedija 'Osnovan 1689., gradom 1775' — kamp ile kent kuruluşu farklı şeyler olabilir; güvenli uç (geç) 1689, kesinlik 'belirsiz', kur yazılmadı. Kent statüsü 1775 (HE) / 1783 (Britannica) çelişir, ikisi de olay olarak yazıldı. Zincir 1900'e (kesinlik belirsiz). Sahiplik (rusya): kuruluşun Rus Sibirya kolonizasyonuna ait olmasından; kaynaklar 'Rusya sahibidir' cümlesini doğrudan yazmaz, dolaylı (kaynak sütunundaki ifade). Takvim: Rusya 1918'e kadar Jülyen kullandı; kaynaklar yalnız yıl (ya da onyıl) verir, yıl hassasiyetinde Jülyen/Gregoryen farkı sonucu değiştirmez, çevrim gerekmedi. koord: GeoNames arama sayfası, 17 Kas 2026 (51°49′35.33″ N, 107°35′59.24″ E). TANIK: tırnak içi cümleler gömülü tarayıcıyla 17 Kasım 2026'da okunan sayfa gövdesinden birebir alındı (sayfa gövdesi okundu, arama özeti değil). "
+ },
+ {
+  "id": "verkhoyansk",
+  "ad": "Verkhoyansk",
+  "atlas_ad": null,
+  "lat": 67.5539,
+  "lon": 133.3898,
+  "kat1900": 3,
+  "adlar": [
+   "Verkhoyansk"
+  ],
+  "ad_kaynak": "Britannica; Hrvatska enciklopedija",
+  "ilk": {
+   "t": "1638-01-01",
+   "gun": "1638",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Britannica, 'Verkhoyansk' maddesi (britannica.com/place/Verkhoyansk); Hrvatska enciklopedija, 'Verhojansk' maddesi (enciklopedija.hr/clanak/verhojansk)",
+   "tanik": "Founded as a fort in 1638 and today a minor centre of tin and gold mining, Verkhoyansk is noted chiefly"
+  },
+  "kur": {
+   "t": "1638-01-01",
+   "gun": "1638",
+   "kesinlik": "yil",
+   "kaynak": "Britannica, 'Verkhoyansk' maddesi (britannica.com/place/Verkhoyansk); Hrvatska enciklopedija, 'Verhojansk' maddesi (enciklopedija.hr/clanak/verhojansk)",
+   "tanik": "Founded as a fort in 1638 and today a minor centre of tin and gold mining, Verkhoyansk is noted chiefly"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1638-01-01",
+    "t": "1900-01-01",
+    "d": "rusya",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija, 'Verhojansk' maddesi (enciklopedija.hr/clanak/verhojansk) ('Osnovali su ga Kozaci 1638.')"
+   }
+  ],
+  "olay": [
+   {
+    "t": "1638-01-01",
+    "gun": "1638",
+    "k": "kurulus",
+    "b": "Verkhoyansk Kazaklarca kale olarak kuruldu",
+    "kaynak": "Britannica, 'Verkhoyansk' maddesi (britannica.com/place/Verkhoyansk); Hrvatska enciklopedija, 'Verhojansk' maddesi (enciklopedija.hr/clanak/verhojansk) ('Osnovali su ga Kozaci 1638.')"
+   }
+  ],
+  "ic_not": "KURULUŞ 1638: Britannica + Hrvatska enciklopedija — çift teyit. Zincir 1900'e. Takvim: Rusya 1918'e kadar Jülyen kullandı; kaynaklar yalnız yıl (ya da onyıl) verir, yıl hassasiyetinde Jülyen/Gregoryen farkı sonucu değiştirmez, çevrim gerekmedi. koord: GeoNames arama sayfası, 17 Kas 2026 (67°33′13.93″ N, 133°23′23.14″ E). TANIK: tırnak içi cümleler gömülü tarayıcıyla 17 Kasım 2026'da okunan sayfa gövdesinden birebir alındı (sayfa gövdesi okundu, arama özeti değil). "
+ },
+ {
+  "id": "yekaterinburg",
+  "ad": "Yekaterinburg",
+  "atlas_ad": "Yekaterinburg",
+  "lat": 56.84,
+  "lon": 60.61,
+  "kat1900": 3,
+  "adlar": [
+   "Yekaterinburg (1723'ten; Çariçe I. Yekaterina adına)",
+   "Sverdlovsk (1924-1991)"
+  ],
+  "ad_kaynak": "Britannica Yekaterinburg ('In 1723 the new settlement was named Yekaterinburg'); Hrvatska enciklopedija ('od 1924. do 1991.' Sverdlovsk); Treccani ('Tra il 1924 e il 1991 ... Sverdlovsk')",
+  "ilk": {
+   "t": "1723-01-01",
+   "gun": "1723",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Hrvatska enciklopedija, 'Jekaterinburg' maddesi (enciklopedija.hr/clanak/jekaterinburg)",
+   "tanik": "Osnutak grada 1723. povezan je s otvaranjem željezare uz rijeku Iset."
+  },
+  "kur": {
+   "t": "1723-01-01",
+   "gun": "1723",
+   "kesinlik": "yil",
+   "kaynak": "Hrvatska enciklopedija, 'Jekaterinburg' maddesi (enciklopedija.hr/clanak/jekaterinburg)",
+   "tanik": "Osnutak grada 1723. povezan je s otvaranjem željezare uz rijeku Iset."
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1723-01-01",
+    "t": "1723-11-18",
+    "d": "rusya",
+    "kesinlik": "yil",
+    "kaynak": "Britannica, 'Yekaterinburg' maddesi (britannica.com/place/Yekaterinburg) (Rus imparatoriçesi I. Yekaterina adına; Urallar demir işletmesi; dolaylı); zincir atlas başlangıcına (1723-11-18, rusya) kadar"
+   }
+  ],
+  "olay": [
+   {
+    "t": "1721-01-01",
+    "gun": "1721",
+    "k": "diger",
+    "b": "Demir işletmesi kuruldu",
+    "kaynak": "Britannica, 'Yekaterinburg' maddesi (britannica.com/place/Yekaterinburg) ('an ironworks was established in 1721')"
+   },
+   {
+    "t": "1722-01-01",
+    "gun": "1722",
+    "k": "diger",
+    "b": "Kale kuruldu",
+    "kaynak": "Britannica, 'Yekaterinburg' maddesi (britannica.com/place/Yekaterinburg) ('a fortress in 1722')"
+   },
+   {
+    "t": "1723-01-01",
+    "gun": "1723",
+    "k": "kurulus",
+    "b": "Yerleşim Yekaterinburg adını aldı (Çariçe I. Yekaterina onuruna)",
+    "kaynak": "Britannica, 'Yekaterinburg' maddesi (britannica.com/place/Yekaterinburg) ('In 1723 the new settlement was named Yekaterinburg in honor of Catherine I'); Hrvatska enciklopedija, 'Jekaterinburg' maddesi (enciklopedija.hr/clanak/jekaterinburg)"
+   },
+   {
+    "t": "1924-01-01",
+    "gun": "1924",
+    "k": "diger",
+    "b": "Şehir Sverdlovsk adını aldı (1991'e kadar)",
+    "kaynak": "Treccani Enciclopedia on line, 'Ekaterinburg' maddesi (treccani.it/enciclopedia/ekaterinburg); Hrvatska enciklopedija, 'Jekaterinburg' maddesi (enciklopedija.hr/clanak/jekaterinburg)"
+   }
+  ],
+  "ic_not": "KURULUŞ 1723: Hrvatska enciklopedija 'Osnutak grada 1723.'; Britannica demir işletmesi 1721, kale 1722, adlandırma 1723 verir (kuruluş silsilesi, çelişmez). İlk.t kent-kuruluşu 1723 alındı. Zincir 1723-01-01→1723-11-18 (atlas noktası 1723-11-18'de rusya ile başlıyor). Takvim: Rusya 1918'e kadar Jülyen kullandı; kaynaklar yalnız yıl (ya da onyıl) verir, yıl hassasiyetinde Jülyen/Gregoryen farkı sonucu değiştirmez, çevrim gerekmedi. koord: LISTE. TANIK: tırnak içi cümleler gömülü tarayıcıyla 17 Kasım 2026'da okunan sayfa gövdesinden birebir alındı (sayfa gövdesi okundu, arama özeti değil). "
+ },
+ {
+  "id": "kurgan",
+  "ad": "Kurgan",
+  "atlas_ad": "Kurgan",
+  "lat": 55.45,
+  "lon": 65.34,
+  "kat1900": 3,
+  "adlar": [
+   "Tsaryovo Gorodishche (Carevo Gorodišče; 1738'e kadar; HE)",
+   "Kurgan (1738'den)"
+  ],
+  "ad_kaynak": "Hrvatska enciklopedija Kurgan ('do 1738. Carevo Gorodišče'); Britannica",
+  "ilk": {
+   "t": "1662-01-01",
+   "gun": "1662",
+   "nicelik": "kurulus",
+   "kesinlik": "belirsiz",
+   "kaynak": "Hrvatska enciklopedija, 'Kurgan' maddesi (enciklopedija.hr/clanak/kurgan)",
+   "tanik": "Na mjestu suvremenoga Kurgana nalazilo se utvrđeno naselje osnovano 1662."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [],
+  "ic_not": "ÇELİŞKİ ÜÇ KAYNAK ÜÇ YIL: Britannica 1553 (Tsaryovo Gorodishche tahkim yerleşimi, kent 1782) · Treccani 'Fu fondata nel 1616' · Hrvatska enciklopedija 'utvrđeno naselje osnovano 1662' — hiçbir ikisi aynı yılı vermez; hakemli karar çıkmadı. Güvenli uç (en geç) 1662, kesinlik 'belirsiz', kur yok; 1553 ve 1616 ic_not'ta. Zincir atlas gereği yazılmadı. Takvim: Rusya 1918'e kadar Jülyen kullandı; kaynaklar yalnız yıl (ya da onyıl) verir, yıl hassasiyetinde Jülyen/Gregoryen farkı sonucu değiştirmez, çevrim gerekmedi. koord: LISTE. TANIK: tırnak içi cümleler gömülü tarayıcıyla 17 Kasım 2026'da okunan sayfa gövdesinden birebir alındı (sayfa gövdesi okundu, arama özeti değil). "
+ }
+]

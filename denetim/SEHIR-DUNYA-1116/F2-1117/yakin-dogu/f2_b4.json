@@ -1,0 +1,991 @@
+[
+ {
+  "id": "raqqa-sy",
+  "ad": "Raqqa",
+  "atlas_ad": null,
+  "lat": 35.9528,
+  "lon": 39.0079,
+  "kat1900": 3,
+  "adlar": [
+   "Kallinikon",
+   "Leontopolis",
+   "Râfika",
+   "Rakka"
+  ],
+  "ilk": {
+   "t": "-0225-01-01",
+   "gun": "MÖ 246-226",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "belirsiz",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/rakka (RAKKA)",
+   "tanik": "Seleucus Kallinikos’un (m.ö. 246-226) genişletmesi dolayısıyla Kallinikon, Bizans İmparatoru I. Leon’un yeniden inşa ettirmesi sebebiyle Leontopolis adını almıştır"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "-0225-01-01",
+    "t": "1517-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/rakka (RAKKA)",
+    "ic_not": "Şehir var, sahip zinciri bu dönem için kaynaklı kurulmadı (araştırılmadı); TDV olayları olay[]de. "
+   },
+   {
+    "f": "1517-01-01",
+    "t": "1900-01-01",
+    "d": "osmanli",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/rakka (RAKKA)",
+    "ic_not": "TDV: 'Rakka 923’te (1517) Osmanlı topraklarına katılarak Diyarbekir eyaletine bağlı bir sancak merkezi haline getirildi'. 1832 Mısır idaresi süresi verilmediği için dönem açılmadı (olay[])."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0639-01-01",
+    "gun": "18 (639)",
+    "k": "fetih",
+    "b": "Rakka İyâz b. Ganm kumandasındaki İslâm ordusu tarafından barış yoluyla fethedildi",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/rakka (RAKKA)"
+   },
+   {
+    "t": "0772-01-01",
+    "gun": "155/772",
+    "k": "kurulus",
+    "b": "Abbâsî Halifesi Mansûr Rakka’nın 200 m. kuzeybatısında yuvarlak planlı yeni şehir (Râfika) inşa ettirdi",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/rakka (RAKKA)"
+   },
+   {
+    "t": "0928-01-01",
+    "gun": "316 (928)",
+    "k": "fetih",
+    "b": "Rakka Karmâtîler’in eline geçti",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/rakka (RAKKA)"
+   },
+   {
+    "t": "1234-01-01",
+    "gun": "632 (1234-35)",
+    "k": "fetih",
+    "b": "Rakka Anadolu Selçukluları’nın yönetimine girdi",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/rakka (RAKKA)"
+   },
+   {
+    "t": "1260-01-01",
+    "gun": "658/1260",
+    "k": "fetih",
+    "b": "Aynicâlût Savaşı’nın ardından Memlükler’in hâkimiyetine geçti",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/rakka (RAKKA)"
+   },
+   {
+    "t": "1371-01-01",
+    "gun": "773 (1371)",
+    "k": "diger",
+    "b": "Timur’un saldırısına uğradı, halkının tamamını kaybetti",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/rakka (RAKKA)"
+   },
+   {
+    "t": "1517-01-01",
+    "gun": "923 (1517)",
+    "k": "fetih",
+    "b": "Rakka Osmanlı topraklarına katıldı, Diyarbekir eyaletine bağlı sancak merkezi yapıldı",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/rakka (RAKKA)"
+   },
+   {
+    "t": "1832-01-01",
+    "gun": "1832",
+    "k": "fetih",
+    "b": "İbrâhim Paşa’nın Suriye işgali yıllarında Mısır idaresine geçti (süresi TDV'de yıl olarak verilmiyor: dönem AÇILMADI)",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/rakka (RAKKA)"
+   }
+  ],
+  "ic_not": "Seleukos II Kallinikos (MÖ 246-226) saltanat aralığı: güvenli uç 226 (=-0225). TANIK KURALI: cümle 'genişletmesi' der (kuruluş değil, ad kaynağı); ilk.nicelik ilk_anilis, kesinlik belirsiz. Cümle TDV'de önceki cümleden devam eder (alıntı cümle ortasından başlar). Antik Kallinikon-Rakka aynı yer sayıldı (TDV: Mansûr yeni şehri 200 m uzakta). Çelişki yok. Zincirde 1517 öncesi BOSLUK (Selevkos...Memlük arası kaynaklı zincir kurulmadı). | TANIK: TDV tam gövdesinden birebir cümle (17 Kas 2026, gömülü tarayıcı). Tek kaynak (TDV)."
+ },
+ {
+  "id": "homs-sy",
+  "ad": "Homs",
+  "atlas_ad": null,
+  "lat": 34.7241,
+  "lon": 36.7256,
+  "kat1900": 3,
+  "adlar": [
+   "Emesa",
+   "Hıms (Humus)",
+   "Homs"
+  ],
+  "ilk": {
+   "t": "-0279-01-01",
+   "gun": "MÖ 305-280",
+   "nicelik": "kurulus",
+   "kesinlik": "belirsiz",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/humus--suriye (HUMUS)",
+   "tanik": "şehir Seleucus Nicator (m.ö. 305-280) tarafından kurulmuş, milâttan önce 64’te Pompeius döneminde Roma İmparatorluğu’na katılmıştır"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "-0279-01-01",
+    "t": "-0063-01-01",
+    "d": "selevkos",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/humus--suriye (HUMUS)",
+    "ic_not": "Seleucus Nicator (305-280) kurucu; dönem sonu MÖ 64 Pompeius (TDV). Selevkos künye ömrü -0311..-0062."
+   },
+   {
+    "f": "-0063-01-01",
+    "t": "1516-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/humus--suriye (HUMUS)",
+    "ic_not": "Şehir var; MÖ 64 - 1516 arası (Roma/Bizans/Rashidun/Emevî/Abbâsî/.../Memlük) sahiplik zinciri kaynaklı kurulmadı; TDV tarihleri olay[]de (217, 272, 636, 637)."
+   },
+   {
+    "f": "1516-01-01",
+    "t": "1900-01-01",
+    "d": "osmanli",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica (britannica.com/place/Homs)",
+    "ic_not": "Britannica: 'Homs later (1516) passed into Ottoman hands, where it remained, except for a brief period of Egyptian control in the 1830s, until the creation of Syria after World War I'. Mısır idaresi süresi Britannica'da verilmediği için dönem AÇILMADI."
+   }
+  ],
+  "olay": [
+   {
+    "t": "-0063-01-01",
+    "gun": "MÖ 64",
+    "k": "fetih",
+    "b": "şehir Pompeius döneminde Roma İmparatorluğu’na katıldı",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/humus--suriye (HUMUS)"
+   },
+   {
+    "t": "0217-01-01",
+    "gun": "217",
+    "k": "diger",
+    "b": "Emesa doğumlu güneş tanrısı Elagabal Mâbedi başrahibi bölgedeki askerî birlikler tarafından imparator ilân edildi (Elagabalus)",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/humus--suriye (HUMUS)"
+   },
+   {
+    "t": "0272-01-01",
+    "gun": "272",
+    "k": "diger",
+    "b": "Palmira Kraliçesi Zenobi’nin Romalılar tarafından yenilgiye uğratılması Emesa yakınında oldu",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/humus--suriye (HUMUS)"
+   },
+   {
+    "t": "0636-01-01",
+    "gun": "15/636",
+    "k": "kayip",
+    "b": "Yermük Savaşı’ndan sonra Herakleios Humus’u terketti",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/humus--suriye (HUMUS)"
+   },
+   {
+    "t": "0637-01-01",
+    "gun": "16/637",
+    "k": "fetih",
+    "b": "Ebû Ubeyde b. Cerrâh ve Hâlid b. Velîd kumandasındaki İslâm ordusu şehri kan dökülmeden aldı (Belâzürî'ye göre ilk fetih 14/635, ikincisi 15/636)",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/humus--suriye (HUMUS)"
+   },
+   {
+    "t": "1516-01-01",
+    "gun": "1516",
+    "k": "fetih",
+    "b": "Homs Osmanlı eline geçti (Britannica; TDV Humus gövdesinde Osmanlı katılış yılı okunmadı)",
+    "kaynak": "Encyclopaedia Britannica (britannica.com/place/Homs)"
+   }
+  ],
+  "ic_not": "TDV: 'Bölge milâttan önce 3000’den beri meskûn bir yerdir' (arkeolojik/bölge cümlesi, şehir kuruluşu değil, yazılmadı). Kurucu Seleucus Nicator saltanat aralığı MÖ 305-280: güvenli uç 280 (-0279), kesinlik belirsiz. TDV 647'de (26) Muâviye'nin Humus'u vilâyet yapması olay olarak yazılmadı. Zincir: MÖ 64 sonrası BOSLUK (beyanlı). | TANIK: TDV tam gövdesinden birebir cümle (17 Kas 2026, gömülü tarayıcı). Tek kaynak (TDV)."
+ },
+ {
+  "id": "tikrit-iq",
+  "ad": "Tikrit",
+  "atlas_ad": null,
+  "lat": 34.6158,
+  "lon": 43.6786,
+  "kat1900": 3,
+  "adlar": [
+   "Tikrît (Tekrît)",
+   "Tikrit"
+  ],
+  "ilk": {
+   "t": "0197-01-01",
+   "gun": "197",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/tikrit (TİKRÎT)",
+   "tanik": "Uzun yıllar Persler’in elinde kalan Tikrît 197’de kısa süreliğine Romalılar’ın, VI. yüzyılda da Bizans İmparatorluğu’nun hâkimiyetine geçti"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0197-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/tikrit (TİKRÎT)",
+    "ic_not": "Şehir var, sahiplik zinciri kaynaklı kurulmadı (bu partide yalnız ilk anılış + olay yazıldı); zincir sonraki iş."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0637-01-01",
+    "gun": "16 (637)",
+    "k": "fetih",
+    "b": "müslümanlar tarafından ilk defa Kādisiye Savaşı’nın ardından Abdullah b. Mu‘tem kumandasındaki birliklerce kırk günlük kuşatma sonrası barış yoluyla fethedildi",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/tikrit (TİKRÎT)"
+   },
+   {
+    "t": "0641-01-01",
+    "gun": "20 (641)",
+    "k": "fetih",
+    "b": "şehir halkıyla tekrar muahede yapıldı; Nüseyr b. Deysem tarafından ikinci defa barış yoluyla alındı",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/tikrit (TİKRÎT)"
+   },
+   {
+    "t": "0943-01-01",
+    "gun": "332 (943)",
+    "k": "fetih",
+    "b": "Emîrülümerâ Tüzün’ün yardımıyla Abbâsîler tarafından Hamdânîler’den ele geçirildi",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/tikrit (TİKRÎT)"
+   }
+  ],
+  "ic_not": "TANIK KURALI: Şâpûr tarafından kuruldu (kuruluş rivayeti, TDV: 'şeklinde'; tarihsiz) yazılmadı; Hâlid b. Velîd 12/633-34 çatışması Tikrît'e geçişi 'Tikrît’e geçip davar ve develeri ganimet aldılar' — hâkimiyet değil, ilk anılış aralığı olarak 633-34 de olabilir ama aralık biçimi (12/633-34) ve fetih olmaması nedeniyle 197 seçildi. Zincir: 197 sonrası Pers/Roma/Bizans/Emevî/Abbâsî... BOSLUK (kaynaklı zincir kurulmadı). | TANIK: TDV tam gövdesinden birebir cümle (17 Kas 2026, gömülü tarayıcı). Tek kaynak (TDV)."
+ },
+ {
+  "id": "najaf-iq",
+  "ad": "Najaf",
+  "atlas_ad": null,
+  "lat": 32.0259,
+  "lon": 44.3463,
+  "kat1900": 3,
+  "adlar": [
+   "Necef",
+   "Meşhed-i Ali",
+   "Najaf"
+  ],
+  "ilk": {
+   "t": "0809-01-01",
+   "gun": "786-809",
+   "nicelik": "kurulus",
+   "kesinlik": "belirsiz",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/necef (NECEF)",
+   "tanik": "Hârûnürreşîd devrine (786-809) rastlamaktadır. Buna göre Necef’in bir yerleşim birimi olarak ortaya çıkışının bu tarihte gerçekleştiği söylenebilir"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0809-01-01",
+    "t": "1534-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/necef (NECEF)",
+    "ic_not": "Şehir var, sahip zinciri bu dönem için kaynaklı kurulmadı (araştırılmadı); TDV olayları olay[]de. "
+   },
+   {
+    "f": "1534-01-01",
+    "t": "1900-01-01",
+    "d": "osmanli",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/necef (NECEF)",
+    "ic_not": "f en geç tanıktan: TDV 'Osmanlılar’ın Irak’a hâkim olmasının ardından 941 (1534-35) yılında Necef’e gelen Kanûnî ... imarı için gereken emirleri verdi'; önceki sahip (Abbâsî ... Safevî) zinciri kurulmadı."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0750-01-01",
+    "gun": "133/750",
+    "k": "diger",
+    "b": "Abbâsî hânedanından Dâvûd b. Ali’nin (ö. 133/750) Hz. Ali’nin mezarı üzerine bir sanduka koydurduğu bilinir (yerleşim değil, kabir)",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/necef (NECEF)"
+   },
+   {
+    "t": "0978-01-01",
+    "gun": "978-983",
+    "k": "diger",
+    "b": "Büveyhî Hükümdarı Adudüddevle kabir üzerine türbe yaptırdı (Necef çevresi rivayete göre 2500 adımlık yerleşim)",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/necef (NECEF)"
+   },
+   {
+    "t": "1051-01-01",
+    "gun": "443 (1051)",
+    "k": "diger",
+    "b": "Hz. Ali’nin türbesi Bağdatlı Şiî muhalifleri tarafından yakıldı, çok geçmeden onarıldı",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/necef (NECEF)"
+   },
+   {
+    "t": "1087-01-01",
+    "gun": "479 (1087)",
+    "k": "diger",
+    "b": "Selçuklu Sultanı Melikşah ve veziri Nizâmülmülk kabri ziyaret etti",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/necef (NECEF)"
+   },
+   {
+    "t": "1534-01-01",
+    "gun": "941 (1534-35)",
+    "k": "diger",
+    "b": "Osmanlılar’ın Irak’a hâkim olmasının ardından Kanûnî Sultan Süleyman Necef’e gelip şehrin imarı için emirler verdi",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/necef (NECEF)"
+   }
+  ],
+  "ic_not": "Yerleşim, Hz. Ali'nin ölümünden (661) yaklaşık bir buçuk asır sonra 'yerleşim merkezine dönüşmeye başladı' (TDV); 786-809 aralığının SON ucu (809) güvenli uç, kesinlik belirsiz (kuruluş tahmini: 'söylenebilir'). Hz. Ali'nin kabri (661) yazılmadı: yerleşim değil, kabir. 1917 İngiliz işgali (7 Mart 1917) atlas zinciri 1900'den sonra. Britannica NAJAF (okundu): 'The caliph Hārūn al-Rashīd is reputed to have founded Najaf in 791 ce; its growth occurred mostly after the 10th century' — 791, TDV'nin 786-809 aralığı İÇİNDE; ikinci bağımsız kaynak aralıkla çelişmez, yıl rivayet ('reputed') => ilk.t TDV güvenli uç (809) kaldı, 791 gün/yıl olarak yazılmadı. | TANIK: TDV tam gövdesinden birebir cümle (17 Kas 2026, gömülü tarayıcı). TDV esas; Britannica uyumlu (aralık içinde)."
+ },
+ {
+  "id": "amman-jo",
+  "ad": "Amman",
+  "atlas_ad": null,
+  "lat": 31.9552,
+  "lon": 35.945,
+  "kat1900": 3,
+  "adlar": [
+   "Rabbat Ammon (ad TDV'de yok)",
+   "Philadelphia",
+   "Amman"
+  ],
+  "ilk": {
+   "t": "-2199-01-01",
+   "gun": "MÖ 2200 yıllarında",
+   "nicelik": "kurulus",
+   "kesinlik": "belirsiz",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/amman (AMMAN)",
+   "tanik": "Milâttan önce 2200 yıllarında kurulduğu anlaşılan şehir, Helenistik devirde ... Ptolemaios Philadelphos (m.ö. 308-246) tarafından ele geçirildiğinde yeniden iskân edilmiş ve Philadelphia adını almıştır"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "-2199-01-01",
+    "t": "1516-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/amman (AMMAN)",
+    "ic_not": "Şehir var, sahip zinciri bu dönem için kaynaklı kurulmadı (araştırılmadı); TDV olayları olay[]de. "
+   },
+   {
+    "f": "1516-01-01",
+    "t": "1900-01-01",
+    "d": "osmanli",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/amman (AMMAN)",
+    "ic_not": "TDV: 'Emevîler’den sonra Abbâsî, Eyyûbî, Selçuklu ve Memlük idarelerinde kalan şehir, 1516’da Osmanlı sınırlarına dahil edildi'."
+   }
+  ],
+  "olay": [
+   {
+    "t": "-0245-01-01",
+    "gun": "MÖ 308-246",
+    "k": "fetih",
+    "b": "Mısır Kralı Ptolemaios Philadelphos tarafından ele geçirildi, yeniden iskân edilip Philadelphia adını aldı",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/amman (AMMAN)"
+   },
+   {
+    "t": "0635-01-01",
+    "gun": "14 (635)",
+    "k": "fetih",
+    "b": "Yezîd b. Ebû Süfyân tarafından Bizanslılar’dan barış yoluyla alındı; Amman adı bu tarihten itibaren kullanılmaya başlandı",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/amman (AMMAN)"
+   },
+   {
+    "t": "0693-01-01",
+    "gun": "74/693",
+    "k": "diger",
+    "b": "Halîfe Abdülmelik b. Mervân devrinde Amman’da darphâne bulunup para bastırıldı",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/amman (AMMAN)"
+   },
+   {
+    "t": "1516-01-01",
+    "gun": "1516",
+    "k": "fetih",
+    "b": "şehir Osmanlı sınırlarına dahil edildi",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/amman (AMMAN)"
+   },
+   {
+    "t": "1920-01-01",
+    "gun": "1920",
+    "k": "antlasma",
+    "b": "San Remo Konferansı ile kurulan Trans Jordan mandası içinde İngilizler’e terkedildi",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/amman (AMMAN)"
+   }
+  ],
+  "ic_not": "TDV: 'kurulduğu anlaşılan' (kesin değil) => kesinlik belirsiz, MÖ 2200 yıllarında. Rabbat Ammon adı TDV'de geçmediği için adlar'a alınmadı (adlar listesindeki parantez TDV beyanıdır). Amman adı 635'ten itibaren TDV'ye göre. | TANIK: TDV tam gövdesinden birebir cümle (17 Kas 2026, gömülü tarayıcı). Tek kaynak (TDV)."
+ },
+ {
+  "id": "doha-qa",
+  "ad": "Doha",
+  "atlas_ad": null,
+  "lat": 25.2855,
+  "lon": 51.531,
+  "kat1900": 3,
+  "adlar": [
+   "Bid‘a (TDV: 'Bid‘a köyü', bk. BORC)",
+   "Devha",
+   "Doha"
+  ],
+  "ilk": {
+   "t": "1867-01-01",
+   "gun": "1867",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/devha (DEVHA); Encyclopaedia Britannica (britannica.com/place/Doha)",
+   "tanik": "1867’de de Bahreyn ve Ebûzabî emîrlerinin Devha üzerine başlattıkları saldırıda bölge halkını zor durumda bıraktılar"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1867-01-01",
+    "t": "1871-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/devha (DEVHA); Encyclopaedia Britannica (britannica.com/place/Doha)",
+    "ic_not": "Şehir var, sahip zinciri bu dönem için kaynaklı kurulmadı (araştırılmadı); TDV olayları olay[]de. "
+   },
+   {
+    "f": "1871-01-01",
+    "t": "1900-01-01",
+    "d": "osmanli",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/devha (DEVHA)",
+    "ic_not": "TDV: 'Midhat Paşa’nın 1871’de ... Katar yeniden Osmanlı yönetimi altına alındı ... Devha da kaza merkezi oldu'."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1867-01-01",
+    "gun": "1867",
+    "k": "diger",
+    "b": "Bahreyn ve Ebûzabî emîrlerinin Devha üzerine saldırısı (Britannica: Doha 1867'de Bahreyn–Katar savaşında yıkıldı)",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/devha (DEVHA); Encyclopaedia Britannica (britannica.com/place/Doha)"
+   },
+   {
+    "t": "1871-01-01",
+    "gun": "1871",
+    "k": "fetih",
+    "b": "Midhat Paşa’nın reformları sırasında Katar Osmanlı yönetimi altına alındı; Devha Basra vilâyeti Necid sancağının kazası merkezi oldu",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/devha (DEVHA); Encyclopaedia Britannica (britannica.com/place/Doha)"
+   },
+   {
+    "t": "1872-01-01",
+    "gun": "1872",
+    "k": "diger",
+    "b": "Osmanlılar Devha’ya 100 asker gönderip karargâh kurdular",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/devha (DEVHA); Encyclopaedia Britannica (britannica.com/place/Doha)"
+   },
+   {
+    "t": "1893-01-01",
+    "gun": "1893",
+    "k": "isyan",
+    "b": "Katar kaymakamı Câsim Âl-i Sânî isyan etti; Osmanlı gemilerinin şehri topa tutmasıyla bastırıldı",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/devha (DEVHA); Encyclopaedia Britannica (britannica.com/place/Doha)"
+   },
+   {
+    "t": "1916-01-01",
+    "gun": "1916",
+    "k": "antlasma",
+    "b": "Katar Şeyhi Abdullah Âl-i Sânî ile İngiltere arasında himaye anlaşması imzalandı (atlas 1900 sonrası)",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/devha (DEVHA); Encyclopaedia Britannica (britannica.com/place/Doha)"
+   },
+   {
+    "t": "1971-01-01",
+    "gun": "1971",
+    "k": "kurulus",
+    "b": "Devha bağımsız Katar'ın başşehri oldu",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/devha (DEVHA); Encyclopaedia Britannica (britannica.com/place/Doha)"
+   }
+  ],
+  "ic_not": "DÜZELTME (BORC.md): TDV DEVHA maddesi var (DOHA aramasında 'bk. DEVHA' yönlendirmesi). TDV: 'XIX. yüzyılın başlarında Bahreyn’e bağlı olan Devha’nın (Doha) bu yüzyıldan önceye ait tarihiyle ilgili bilgiler yok denecek kadar azdır.' (kuruluş TDV'de yok). 1867 TDV + Britannica (bağımsız ansiklopedi: Doha 1867'de Bahreyn+Ebûzabî–Katar savaşında yıkıldı) = çift teyit (TANIK Britannica: 'Doha, then a small village, was destroyed in 1867 in the war between Bahrain (which was aided by Abu Dhabi) and Qatar'). Sahip: 1867-1871 BOSLUK (TDV 'Bahreyn’e bağlı' yalnız XIX. yy başı için). TDV 'XVI. yüzyılda ... Osmanlı topraklarına katıldı' bölge cümlesi, yer kesin değil. | TANIK: TDV tam gövdesinden birebir cümle (17 Kas 2026, gömülü tarayıcı). Çift teyit (TDV + Britannica, 1867)."
+ },
+ {
+  "id": "haifa-il",
+  "ad": "Haifa",
+  "atlas_ad": null,
+  "lat": 32.813,
+  "lon": 34.9993,
+  "kat1900": 3,
+  "adlar": [
+   "Caiphas",
+   "Hayfa",
+   "Haifa"
+  ],
+  "ilk": {
+   "t": "0400-01-01",
+   "gun": "MS 1.-4. yüzyıl",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yuzyil",
+   "kaynak": "Encyclopaedia Britannica (britannica.com/place/Haifa)",
+   "tanik": "Haifa is first mentioned in the Talmud (c. 1st–4th century ce)"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0400-01-01",
+    "t": "1516-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "Encyclopaedia Britannica (britannica.com/place/Haifa)",
+    "ic_not": "Şehir var, sahip zinciri bu dönem için kaynaklı kurulmadı (araştırılmadı); TDV olayları olay[]de. "
+   },
+   {
+    "f": "1516-01-01",
+    "t": "1900-01-01",
+    "d": "osmanli",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/hayfa (HAYFA)",
+    "ic_not": "TDV: 'Osmanlılar Mısır seferi sırasında Filistin’i aldıklarında (1516) şehir harabe halinde idi'; Haifa kaydında Osmanlı katılış günü yok. 1799 Napolyon ve 1839-40 Mısır idaresi kısa: dönem AÇILMADI."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1100-07-25",
+    "gun": "25 Temmuz 1100",
+    "k": "fetih",
+    "b": "Haçlılar Fâtımî idaresindeki Hayfa’yı bir aylık kuşatma sonucunda zaptetti, halkı kılıçtan geçirdi (Caiphas)",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/hayfa (HAYFA)"
+   },
+   {
+    "t": "1187-01-01",
+    "gun": "1187",
+    "k": "fetih",
+    "b": "Hittîn Savaşı’ndan sonra Akkâ Kalesi’yle birlikte Hayfa da ele geçirildi (Eyyûbîler)",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/hayfa (HAYFA)"
+   },
+   {
+    "t": "1291-01-01",
+    "gun": "1291",
+    "k": "fetih",
+    "b": "Yeniden Haçlılar tarafından zaptedilen şehri Sultan el-Melikü’l-Eşref Halîl geri aldı",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/hayfa (HAYFA)"
+   },
+   {
+    "t": "1516-01-01",
+    "gun": "1516",
+    "k": "fetih",
+    "b": "Osmanlılar Mısır seferi sırasında Filistin’i aldıklarında Hayfa harabe halindeydi",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/hayfa (HAYFA)"
+   },
+   {
+    "t": "1799-01-01",
+    "gun": "1799",
+    "k": "fetih",
+    "b": "Napolyon şehri aldı",
+    "kaynak": "Encyclopaedia Britannica (britannica.com/place/Haifa)"
+   },
+   {
+    "t": "1839-01-01",
+    "gun": "1839",
+    "k": "fetih",
+    "b": "Mısır Valisi İbrâhim Paşa şehri ele geçirdi (1840'ta Avrupa filolarının baskısıyla Osmanlı'ya geri verdi)",
+    "kaynak": "Encyclopaedia Britannica (britannica.com/place/Haifa)"
+   },
+   {
+    "t": "1918-01-01",
+    "gun": "1918",
+    "k": "fetih",
+    "b": "İngiliz kuvvetleri şehri işgal etti",
+    "kaynak": "Encyclopaedia Britannica (britannica.com/place/Haifa)"
+   },
+   {
+    "t": "1948-04-22",
+    "gun": "22 Nisan 1948",
+    "k": "kayip",
+    "b": "Araplar Haganah karşısında teslim oldu (Filistin Savaşı)",
+    "kaynak": "Encyclopaedia Britannica (britannica.com/place/Haifa)"
+   }
+  ],
+  "ic_not": "Talmud tanığı 'c. 1st–4th century ce' aralığı (Britannica): güvenli uç = son (400); TDV HAYFA da okundu: 'Nâsır-ı Hüsrev 1046’da gördüğü Hayfa' (daha geç yıl), 'ilk yerleşim MÖ XIV. yy Ebûhavam höyüğünde (Hayfa çevresi)' — höyük bugünkü Hayfa merkezinden >3 km olabileceğinden yazılmadı. 1100 Haçlı fethi: TDV gün veriyor (25 Temmuz 1100); Britannica yalnız '1100' => TDV günü alındı (çelişki yok). Zincir 1516 öncesi BOSLUK. | TANIK: Britannica sayfa gövdesinden birebir cümle (17 Kas 2026, gömülü tarayıcı); Britannica yazar-hakemli ulusal olmayan genel ansiklopedi: TDV'de madde bulunamadı/yetersiz, tek kaynak. TDV ile uyumlu 1100/1187/1516 (iki bağımsız ansiklopedi: çift teyit 1100)."
+ },
+ {
+  "id": "ramla-il",
+  "ad": "Ramla",
+  "atlas_ad": null,
+  "lat": 31.9262,
+  "lon": 34.8635,
+  "kat1900": 3,
+  "adlar": [
+   "Rames (Haçlı)",
+   "Remle",
+   "Ramla"
+  ],
+  "ilk": {
+   "t": "0716-01-01",
+   "gun": "716",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica (britannica.com/place/Ramla)",
+   "tanik": "It was established in 716 by the caliph Sulaymān ibn ʿAbd al-Malik (reigned 715–717), who made it the administrative capital of Palestine"
+  },
+  "kur": {
+   "t": "0716-01-01",
+   "gun": "716",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica (britannica.com/place/Ramla)",
+   "tanik": "It was established in 716 by the caliph Sulaymān ibn ʿAbd al-Malik (reigned 715–717)"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0716-01-01",
+    "t": "0750-01-01",
+    "d": "emevi",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica (britannica.com/place/Ramla)",
+    "ic_not": "Kuruluş 716 (Britannica); Emevî dönemi sonu 750 TDV (132/750 Mervân yenilgisi)."
+   },
+   {
+    "f": "0750-01-01",
+    "t": "0877-01-01",
+    "d": "abbasi",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/remle (REMLE)",
+    "ic_not": "TDV: 'Abbâsîler’in ilk dönemlerinde Filistin ve Suriye eyaletinin merkezi olarak önemini koruyan ... Remle 877’de Tolunoğulları’nın ... eline geçti'. Künye abbasi 749-1258."
+   },
+   {
+    "f": "0877-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/remle (REMLE)",
+    "ic_not": "Şehir var; 877 sonrası (Tolunoğulları 877, İhşîdîler 935, Fâtımîler 969, Selçuklu/Haçlı 1099, Eyyûbî 1187, Memlük 1266, Osmanlı) künyeleri devletler.js'te Tolunoğulları/İhşîdî/Fâtımî için bu partide doğrulanmadı: zincir kurulmadı; olay[]de."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0750-01-01",
+    "gun": "132/750",
+    "k": "diger",
+    "b": "Remle Emevî Halifesi Mervân’ın Abbâsî ordusu karşısında yenildiği son savaşlardan birine sahne oldu (Emevî -> Abbâsî geçişi)",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/remle (REMLE)"
+   },
+   {
+    "t": "0877-01-01",
+    "gun": "877",
+    "k": "fetih",
+    "b": "Remle Tolunoğulları’nın eline geçti",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/remle (REMLE)"
+   },
+   {
+    "t": "0935-01-01",
+    "gun": "935",
+    "k": "fetih",
+    "b": "Remle İhşîdîler’in eline geçti",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/remle (REMLE)"
+   },
+   {
+    "t": "0969-01-01",
+    "gun": "969",
+    "k": "fetih",
+    "b": "Remle Fâtımîler’in eline geçti",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/remle (REMLE)"
+   },
+   {
+    "t": "1099-01-01",
+    "gun": "1099",
+    "k": "fetih",
+    "b": "Remle Haçlılar tarafından zaptedildi, ortasına büyük kilise yapılıp başpiskoposluk haline getirildi",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/remle (REMLE)"
+   },
+   {
+    "t": "1187-01-01",
+    "gun": "1187",
+    "k": "fetih",
+    "b": "Selâhaddin şehri Haçlılar’dan aldı (dört yıl sonra yeniden Haçlılar eline geçmesinden endişe duyularak tahrip ettirildi)",
+    "kaynak": "Encyclopaedia Britannica (britannica.com/place/Ramla)"
+   },
+   {
+    "t": "1266-07-01",
+    "gun": "Şevval 664 (Temmuz 1266)",
+    "k": "fetih",
+    "b": "Memlük Sultanı I. Baybars Remle’yi tekrar fethetti, Filistin’in idare merkezi yaptı",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/remle (REMLE)"
+   },
+   {
+    "t": "1936-01-01",
+    "gun": "1936-1939",
+    "k": "isyan",
+    "b": "Arap-Yahudi karışıklıkları (Britannica: Yahudi cemaati 1936-39 karışıklıklarına dek vardı)",
+    "kaynak": "Encyclopaedia Britannica (britannica.com/place/Ramla)"
+   }
+  ],
+  "ic_not": "Britannica 'It' zamiri: madde başlığı şehirdir (atıflı cümle). Kuruluş 716 (kaynak yıl verir; Britannica ayrıca 'reigned 715–717' halife). TDV REMLE okundu: Mervân yenilgisi 132/750 (kuruluştan sonra) uyumlu; kuruluş cümlesi TDV'de okunan 10 cümlede çıkmadı (ikinci kaynak kuruluşu yıl olarak doğrulamadı => tek kaynak kuruluş). Zincir 750-877 Abbâsî TDV ifadesiyle. | TANIK: Britannica sayfa gövdesinden birebir cümle (17 Kas 2026, gömülü tarayıcı); Britannica yazar-hakemli ulusal olmayan genel ansiklopedi: TDV'de madde bulunamadı/yetersiz, tek kaynak."
+ },
+ {
+  "id": "manama-bh",
+  "ad": "Manama",
+  "atlas_ad": null,
+  "lat": 26.2279,
+  "lon": 50.5857,
+  "kat1900": 3,
+  "adlar": [
+   "Menâme",
+   "Manama"
+  ],
+  "ilk": {
+   "t": "1345-01-01",
+   "gun": "yaklaşık 1345",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "belirsiz",
+   "kaynak": "Encyclopaedia Britannica (britannica.com/place/Manama)",
+   "tanik": "First mentioned in Islamic chronicles about 1345 ce, it was taken by the Portuguese (1521) and by the Persians (1602)"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1345-01-01",
+    "t": "1783-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "Encyclopaedia Britannica (britannica.com/place/Manama)",
+    "ic_not": "Şehir var; 1521 Portekiz ve 1602 Pers ele geçirişlerinin süreleri Britannica'da verilmiyor (dönem AÇILMADI); 1783 öncesi sahiplik zinciri kaynaklı kurulmadı."
+   },
+   {
+    "f": "1783-01-01",
+    "t": "1900-01-01",
+    "d": "bahreyn",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica (britannica.com/place/Manama)",
+    "ic_not": "Britannica: 'held, with brief interruptions, by the ruling Āl Khalīfah dynasty since 1783'. 1861-1914 İngiliz himaye antlaşmaları (künye 'bahreyn' sürüyor)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1521-01-01",
+    "gun": "1521",
+    "k": "fetih",
+    "b": "Portekizliler Manama’yı aldı",
+    "kaynak": "Encyclopaedia Britannica (britannica.com/place/Manama)"
+   },
+   {
+    "t": "1602-01-01",
+    "gun": "1602",
+    "k": "fetih",
+    "b": "Persler Manama’yı aldı",
+    "kaynak": "Encyclopaedia Britannica (britannica.com/place/Manama)"
+   },
+   {
+    "t": "1783-01-01",
+    "gun": "1783",
+    "k": "fetih",
+    "b": "Manama o tarihten beri (kısa kesintilerle) Âl Halîfe hânedanının elinde (Britannica 'since 1783')",
+    "kaynak": "Encyclopaedia Britannica (britannica.com/place/Manama)"
+   }
+  ],
+  "ic_not": "'about 1345' yaklaşık => kesinlik belirsiz. TDV MENÂME maddesi okundu: tarihsel kısım yalnız 1932 petrol ve 1971 başşehir; 1345 anılışı yok => tek kaynak (Britannica). TDV 'Menâme' tarihi 'ilk anılış' vermiyor. TANIK KURALI: alıntı 'It' zamirli cümle içinde yıl 'about 1345'. | TANIK: Britannica sayfa gövdesinden birebir cümle (17 Kas 2026, gömülü tarayıcı); Britannica yazar-hakemli ulusal olmayan genel ansiklopedi: TDV'de madde bulunamadı/yetersiz, tek kaynak."
+ },
+ {
+  "id": "sidon-lb",
+  "ad": "Sidon",
+  "atlas_ad": null,
+  "lat": 33.5575,
+  "lon": 35.3715,
+  "kat1900": 3,
+  "adlar": [
+   "Sidon (Sayda)",
+   "Sayda"
+  ],
+  "ilk": {
+   "t": "-2000-01-01",
+   "gun": "MÖ 3. binyıl",
+   "nicelik": "kurulus",
+   "kesinlik": "belirsiz",
+   "kaynak": "Encyclopaedia Britannica (britannica.com/place/Sidon)",
+   "tanik": "Sidon, one of the oldest Phoenician cities, was founded in the 3rd millennium bce and became prosperous in the 2nd"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "-2000-01-01",
+    "t": "1516-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "Encyclopaedia Britannica (britannica.com/place/Sidon)",
+    "ic_not": "Şehir var, sahip zinciri bu dönem için kaynaklı kurulmadı (araştırılmadı); TDV olayları olay[]de. "
+   },
+   {
+    "f": "1516-01-01",
+    "t": "1900-01-01",
+    "d": "osmanli",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/sayda (SAYDA)",
+    "ic_not": "TDV: 'Sayda, Yavuz Sultan Selim’in 922 (1516) Mercidâbık zaferinden sonra Osmanlı ülkesine katıldı'. Britannica '1517' der (çelişki, ic_not); TDV esas."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0637-01-01",
+    "gun": "16 (637) civarı",
+    "k": "fetih",
+    "b": "Sayda Yezîd b. Ebû Süfyân tarafından 16 (637) yılı civarında fethedildi ve Dımaşk cündüne bağlandı",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/sayda (SAYDA)"
+   },
+   {
+    "t": "0750-01-01",
+    "gun": "132 (750)",
+    "k": "diger",
+    "b": "Mervân limanını tamir ettirdi (Abbâsî dönemi önemsiz)",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/sayda (SAYDA)"
+   },
+   {
+    "t": "1087-01-01",
+    "gun": "480 (1087)",
+    "k": "fetih",
+    "b": "Tutuş Sayda’yı ele geçirdi",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/sayda (SAYDA)"
+   },
+   {
+    "t": "1089-01-01",
+    "gun": "482/1089",
+    "k": "fetih",
+    "b": "Vezir Bedr el-Cemâlî’nin Fâtımî ordusu şehri tekrar zaptetti",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/sayda (SAYDA)"
+   },
+   {
+    "t": "1107-01-01",
+    "gun": "501 (1107)",
+    "k": "diger",
+    "b": "Kudüs Haçlı Kralı I. Baudouin’in kuşatmasından yüklü para ödenerek kurtarıldı",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/sayda (SAYDA)"
+   },
+   {
+    "t": "1516-01-01",
+    "gun": "922 (1516)",
+    "k": "fetih",
+    "b": "Sayda Yavuz Sultan Selim’in Mercidâbık zaferinden sonra Osmanlı ülkesine katıldı",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/sayda (SAYDA)"
+   },
+   {
+    "t": "1791-01-01",
+    "gun": "1791",
+    "k": "diger",
+    "b": "Osmanlı Lübnan valisi Ahmed el-Cezzâr Fransız tüccarları kapılarından kovdu (ticaret çöktü)",
+    "kaynak": "Encyclopaedia Britannica (britannica.com/place/Sidon)"
+   },
+   {
+    "t": "1837-01-01",
+    "gun": "1837",
+    "k": "diger",
+    "b": "şehir depremle harap oldu, yeniden inşa edildi",
+    "kaynak": "Encyclopaedia Britannica (britannica.com/place/Sidon)"
+   }
+  ],
+  "ic_not": "3. binyıl: güvenli uç MÖ 2001 (-2000), kesinlik belirsiz. Kuruluş yazılı tanık değil, Britannica özetinin kronolojik ifadesi. TDV SAYDA okundu: en erken yıl 637 civarı fetih (yazılı tanık ama kuruluş değil). ÇELİŞKİ: Osmanlı katılışı TDV 1516 (922), Britannica 'from the year 1517' — TDV esas (Mısır'ın fethi 1517 Ocak sonrası olabilir; hakemli üçüncü kaynak aranmadı). TDV'de Haçlı/Eyyûbî dönemleri yok sayıldı. Britannica 'Sidon' okundu (kuruluş) + TDV. | TANIK: Britannica sayfa gövdesinden birebir cümle (17 Kas 2026, gömülü tarayıcı); Britannica yazar-hakemli ulusal olmayan genel ansiklopedi: TDV'de madde bulunamadı/yetersiz, tek kaynak. TDV 'SAYDA' gövdesi ayrıca okundu (olaylar)."
+ },
+ {
+  "id": "byblos-lb",
+  "ad": "Byblos",
+  "atlas_ad": null,
+  "lat": 34.1211,
+  "lon": 35.6481,
+  "kat1900": 3,
+  "adlar": [
+   "Byblos (Gubla)",
+   "Cübeyl (Jubayl)",
+   "Gibelet (Haçlı)"
+  ],
+  "ilk": {
+   "t": "-1755-01-01",
+   "gun": "MÖ 1938-1756 (12. hanedan)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "belirsiz",
+   "kaynak": "Encyclopaedia Britannica (britannica.com/place/Byblos)",
+   "tanik": "During Egypt’s 12th dynasty (1938–1756 bce), Byblos again became an Egyptian dependency"
+  },
+  "kur": null,
+  "ark": {
+   "t": "-3999-01-01",
+   "gun": "MÖ 4. binyıl",
+   "kesinlik": "belirsiz",
+   "kaynak": "Encyclopaedia Britannica (britannica.com/place/Byblos)",
+   "tanik": "during the 4th millennium bce an extensive settlement developed there"
+  },
+  "bit": null,
+  "sahip": [
+   {
+    "f": "-1755-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "Encyclopaedia Britannica (britannica.com/place/Byblos)",
+    "ic_not": "Şehir var, sahiplik zinciri kaynaklı kurulmadı (bu partide yalnız ilk anılış + olay yazıldı); zincir sonraki iş."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1103-01-01",
+    "gun": "1103",
+    "k": "fetih",
+    "b": "Haçlılar şehri aldı ve Gibelet adını verdi",
+    "kaynak": "Encyclopaedia Britannica (britannica.com/place/Byblos)"
+   },
+   {
+    "t": "1189-01-01",
+    "gun": "1189",
+    "k": "fetih",
+    "b": "Eyyûbî Sultanı Selâhaddin Haçlıları şehirden çıkardı",
+    "kaynak": "Encyclopaedia Britannica (britannica.com/place/Byblos)"
+   }
+  ],
+  "ic_not": "Britannica: 'again became an Egyptian dependency' ifadesi daha eski Mısır bağını işaret eder (yıl verilmez) => 12. hanedan aralığı (Mısır kronolojisi Britannica'nın; CLAUDE.md konvansiyonu Shaw 2000: 12. hanedan farklı olabilir, beyan). Aralığın SON ucu 1756 => -1755. Arkeolojik: Neolitik (c. 8000–4000) ve MÖ 4. binyıl yerleşme (ark). Zincir BOSLUK. Modern Cübeyl ~ antik Byblos aynı nokta. | TANIK: Britannica sayfa gövdesinden birebir cümle (17 Kas 2026, gömülü tarayıcı); Britannica yazar-hakemli ulusal olmayan genel ansiklopedi: TDV'de madde bulunamadı/yetersiz, tek kaynak."
+ },
+ {
+  "id": "madaba-jo",
+  "ad": "Madaba",
+  "atlas_ad": null,
+  "lat": 31.716,
+  "lon": 35.7939,
+  "kat1900": 3,
+  "adlar": [
+   "Medebâ",
+   "Madaba"
+  ],
+  "ilk": {
+   "t": "-0800-01-01",
+   "gun": "MÖ 9. yüzyıl",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yuzyil",
+   "kaynak": "Encyclopaedia Britannica (britannica.com/place/Madaba)",
+   "tanik": "It later served as a Moabite stronghold, having been taken by Mesha, king of Moab, after the division of the Jewish kingdom (9th century bce)"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "-0800-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "Encyclopaedia Britannica (britannica.com/place/Madaba)",
+    "ic_not": "Şehir var, sahiplik zinciri kaynaklı kurulmadı (bu partide yalnız ilk anılış + olay yazıldı); zincir sonraki iş."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1880-01-01",
+    "gun": "1880",
+    "k": "kayip",
+    "b": "kasaba yıkıldı; Al-Karak ve çevresinden gelen Hıristiyan Araplarla yeniden iskân edildi",
+    "kaynak": "Encyclopaedia Britannica (britannica.com/place/Madaba)"
+   },
+   {
+    "t": "1884-01-01",
+    "gun": "1884",
+    "k": "diger",
+    "b": "6. yüzyıla tarihlenen mozaik harita keşfedildi",
+    "kaynak": "Encyclopaedia Britannica (britannica.com/place/Madaba)"
+   }
+  ],
+  "ic_not": "Britannica: 'later served as a Moabite stronghold' (9th century bce: güvenli uç MÖ 801 → -0800). Kuruluş değil, ilk yazılı ('Mesha' / Moab) anılış; TDV 'Medebâ' araması sonuç vermedi (arama 15 sn aralıkla; TDV'de madde bulunamadı). Tek kaynak (Britannica). Zincir BOSLUK. | TANIK: Britannica sayfa gövdesinden birebir cümle (17 Kas 2026, gömülü tarayıcı); Britannica yazar-hakemli ulusal olmayan genel ansiklopedi: TDV'de madde bulunamadı/yetersiz, tek kaynak."
+ }
+]

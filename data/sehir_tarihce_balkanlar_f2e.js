@@ -1,0 +1,657 @@
+// ŞEHİR TARİHÇESİ — BALKANLAR_F2E · üretici: arac/sehir_tarihce.py · şema: VERI-YAPISI.md
+// Motor/denetle/site OKUMAZ — araştırma birikimi. Elle düzenleme: JSON'u düzelt, yeniden üret.
+window.SEHIR_TARIHCE_BALKANLAR_F2E = [
+ {
+  "id": "bar-me",
+  "ad": "Bar",
+  "atlas_ad": null,
+  "lat": 42.0937,
+  "lon": 19.0984,
+  "kat1900": 3,
+  "adlar": [
+   "Antibaris (IX. yy sonu)",
+   "Bar (XII. yy'dan)"
+  ],
+  "ad_kaynak": "Hrvatska enciklopedija, 'Bar' (enciklopedija.hr/clanak/bar; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+  "ilk": {
+   "t": "0900-01-01",
+   "gun": "9. yüzyıl sonu",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yuzyil",
+   "kaynak": "Hrvatska enciklopedija, 'Bar' (enciklopedija.hr/clanak/bar; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+   "tanik": "Pod imenom Antibaris spominje se potkraj IX. st., a pod imenom Bar od XII. st."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0900-01-01",
+    "t": "1443-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yuzyil",
+    "kaynak": "Hrvatska enciklopedija, 'Bar' (enciklopedija.hr/clanak/bar; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+    "ic_not": "HE: 989'a kadar Dyrrachion teması, sonra Dalmaçya teması, 1042'den Zeta, 1183 Nemanja, 1360-1405 Balšićler, XV. yy ilk yarı Balšić/Venedik/Lazarević çekişmesi; sürekli sıra bu partide kurulmadı (beyanlı boşluk)"
+   },
+   {
+    "f": "1443-01-01",
+    "t": "1571-01-01",
+    "d": "venedik",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija, 'Bar' (enciklopedija.hr/clanak/bar; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+    "ic_not": "HE: 1443'te kesin olarak Venedik'e geçer, Venedik tahkim eder"
+   },
+   {
+    "f": "1571-01-01",
+    "t": "1878-01-01",
+    "d": "osmanli",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija, 'Bar' (enciklopedija.hr/clanak/bar; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+    "ic_not": "HE: 1877 bombardımanıyla Eski Bar yıkıldı"
+   },
+   {
+    "f": "1878-01-01",
+    "t": "1900-01-01",
+    "d": "karadag",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija, 'Bar' (enciklopedija.hr/clanak/bar; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+    "ic_not": "HE: Berlin Antlaşması ile 1878'de Karadağ'a geçer"
+   }
+  ],
+  "olay": [
+   {
+    "t": "1443-01-01",
+    "gun": "1443",
+    "k": "fetih",
+    "b": "Bar kesin olarak Venedik hâkimiyetine geçer",
+    "kaynak": "Hrvatska enciklopedija, 'Bar' (enciklopedija.hr/clanak/bar; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   },
+   {
+    "t": "1571-01-01",
+    "gun": "1571",
+    "k": "fetih",
+    "b": "Osmanlılar Bar'ı fetheder",
+    "kaynak": "Hrvatska enciklopedija, 'Bar' (enciklopedija.hr/clanak/bar; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   },
+   {
+    "t": "1877-01-01",
+    "gun": "1877",
+    "k": "savas",
+    "b": "Eski Bar surlu şehir bombardımanla yıkılır",
+    "kaynak": "Hrvatska enciklopedija, 'Bar' (enciklopedija.hr/clanak/bar; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   },
+   {
+    "t": "1878-01-01",
+    "gun": "1878",
+    "k": "antlasma",
+    "b": "Berlin Antlaşması ile Karadağ'a geçer",
+    "kaynak": "Hrvatska enciklopedija, 'Bar' (enciklopedija.hr/clanak/bar; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   }
+  ],
+  "ic_not": "ilk: HE adın ilk anılışı (Antibaris, IX. yy sonu); 'Rimsko ili možda još predrimsko naselje' yılsız. Mükerrer: yok. TANIK KURALI: HE tam gövde birebir; ad (Antibaris/Bar) ve 'potkraj IX. st.' aynı cümlede."
+ },
+ {
+  "id": "budva-me",
+  "ad": "Budva",
+  "atlas_ad": null,
+  "lat": 42.2872,
+  "lon": 18.8392,
+  "kat1900": 3,
+  "adlar": [
+   "Βουθόη / Βουθοίη (Bouthóē, Bouthoíē; Yunan kolonisi)",
+   "Butua (Roma)",
+   "Budva"
+  ],
+  "ad_kaynak": "Hrvatska enciklopedija, 'Budva' (enciklopedija.hr/clanak/budva; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+  "ilk": {
+   "t": "-0400-01-01",
+   "gun": "MÖ 5. yüzyıl",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yuzyil",
+   "kaynak": "Hrvatska enciklopedija, 'Budva' (enciklopedija.hr/clanak/budva; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+   "tanik": "Prvotno ilirsko naselje, u V. st. pr. Kr. spominje ga Sofoklo."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "-0400-01-01",
+    "t": "1442-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yuzyil",
+    "kaynak": "Hrvatska enciklopedija, 'Budva' (enciklopedija.hr/clanak/budva; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+    "ic_not": "HE: IV. yy ortası Yunan kolonisi, MÖ 168 Roma (oppidum civium Romanorum, Butua), Bizans, 841/867 Saraseler; sürekli sahip sırası bu partide kurulmadı (beyanlı boşluk)"
+   },
+   {
+    "f": "1442-01-01",
+    "t": "1797-01-01",
+    "d": "venedik",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija, 'Budva' (enciklopedija.hr/clanak/budva; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+    "ic_not": "HE: 'Pod vlašću Mletačke Republike bila je od 1442. do 1797.'"
+   },
+   {
+    "f": "1797-01-01",
+    "t": "1806-01-01",
+    "d": "habsburg",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija, 'Budva' (enciklopedija.hr/clanak/budva; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   },
+   {
+    "f": "1806-01-01",
+    "t": "1807-01-01",
+    "d": "rusya",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija, 'Budva' (enciklopedija.hr/clanak/budva; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   },
+   {
+    "f": "1807-01-01",
+    "t": "1814-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija, 'Budva' (enciklopedija.hr/clanak/budva; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+    "ic_not": "HE: Fransa (1807-14); devletler.js'te uygun Fransız künyesi bulunmadı — beyanlı boşluk"
+   },
+   {
+    "f": "1814-01-01",
+    "t": "1900-01-01",
+    "d": "habsburg",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija, 'Budva' (enciklopedija.hr/clanak/budva; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+    "ic_not": "HE: 'a zatim je pripadala Austriji' — dönüş yılı verilmedi, Fransız dönemi sonu 1814 alındı"
+   }
+  ],
+  "olay": [
+   {
+    "t": "1442-01-01",
+    "gun": "1442",
+    "k": "fetih",
+    "b": "Venedik Cumhuriyeti egemenliği başlar (1442-1797)",
+    "kaynak": "Hrvatska enciklopedija, 'Budva' (enciklopedija.hr/clanak/budva; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   },
+   {
+    "t": "1797-01-01",
+    "gun": "1797",
+    "k": "kayip",
+    "b": "Venedik'in sonu; Avusturya (1797-1806)",
+    "kaynak": "Hrvatska enciklopedija, 'Budva' (enciklopedija.hr/clanak/budva; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   },
+   {
+    "t": "1806-01-01",
+    "gun": "1806",
+    "k": "diger",
+    "b": "Rus işgali (1806-07)",
+    "kaynak": "Hrvatska enciklopedija, 'Budva' (enciklopedija.hr/clanak/budva; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   },
+   {
+    "t": "1807-01-01",
+    "gun": "1807",
+    "k": "diger",
+    "b": "Fransız işgali (1807-14)",
+    "kaynak": "Hrvatska enciklopedija, 'Budva' (enciklopedija.hr/clanak/budva; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   },
+   {
+    "t": "1814-01-01",
+    "gun": "1814",
+    "k": "diger",
+    "b": "Fransız dönemi biter; yeniden Avusturya",
+    "kaynak": "Hrvatska enciklopedija, 'Budva' (enciklopedija.hr/clanak/budva; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   },
+   {
+    "t": "-0167-01-01",
+    "gun": "MÖ 168",
+    "k": "fetih",
+    "b": "Budva Roma egemenliğine girer (oppidum civium Romanorum; Butua) — HE yalnız 'Godine 168.' yazıyor, 'pr. Kr.' bağlamdan (MÖ 168, İlirya'nın Roma'ya geçişi)",
+    "kaynak": "Hrvatska enciklopedija, 'Budva' (enciklopedija.hr/clanak/budva; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   }
+  ],
+  "ic_not": "ilk: HE 'MÖ 5. yy'da Sofokles anar' (güvenli uç -0400); Yunan kolonisi IV. yy ortası. Mükerrer: yok. TANIK KURALI: HE tam gövde birebir; özne ilirsko naselje = Budva (madde konusu); 'V. st. pr. Kr.'."
+ },
+ {
+  "id": "herceg-novi-me",
+  "ad": "Herceg Novi",
+  "atlas_ad": null,
+  "lat": 42.4531,
+  "lon": 18.5375,
+  "kat1900": 3,
+  "adlar": [
+   "Sveti Stefan (ilk ad, kalıcı olmadı)",
+   "Novi / Castelnuovo / Castrum novum",
+   "Hercegov novi grad (Stjepan Vukčić Kosača dönemi)",
+   "Herceg Novi"
+  ],
+  "ad_kaynak": "Hrvatska enciklopedija, 'Herceg Novi' (enciklopedija.hr/clanak/herceg-novi; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+  "ilk": {
+   "t": "1382-01-01",
+   "gun": "1382",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Hrvatska enciklopedija, 'Herceg Novi' (enciklopedija.hr/clanak/herceg-novi; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+   "tanik": "Grad je 1382. osnovao kralj Tvrtko I. da bi mu poslužio kao luka i trgovačko središte."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1382-01-01",
+    "t": "1483-01-01",
+    "d": "bosna-kralligi",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija, 'Herceg Novi' (enciklopedija.hr/clanak/herceg-novi; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+    "ic_not": "Kral Tvrtko I (Bosna) kurar; HE 'Stjepan Vukčić Kosača döneminde' (Hersek, 1435-82) yılsız — Hersek künyesi bu dönem için ayrı yazılmadı; tek sahip Bosna Krallığı çizgisi (çıkarım)"
+   },
+   {
+    "f": "1483-01-01",
+    "t": "1538-01-01",
+    "d": "osmanli",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija, 'Herceg Novi' (enciklopedija.hr/clanak/herceg-novi; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   },
+   {
+    "f": "1538-01-01",
+    "t": "1539-01-01",
+    "d": "venedik",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija, 'Herceg Novi' (enciklopedija.hr/clanak/herceg-novi; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   },
+   {
+    "f": "1539-01-01",
+    "t": "1687-01-01",
+    "d": "osmanli",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija, 'Herceg Novi' (enciklopedija.hr/clanak/herceg-novi; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   },
+   {
+    "f": "1687-01-01",
+    "t": "1797-01-01",
+    "d": "venedik",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija, 'Herceg Novi' (enciklopedija.hr/clanak/herceg-novi; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   },
+   {
+    "f": "1797-01-01",
+    "t": "1806-01-01",
+    "d": "habsburg",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija, 'Herceg Novi' (enciklopedija.hr/clanak/herceg-novi; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+    "ic_not": "HE: 1797'den Avusturya (1805'e kadar); 1805-06 aralığı HE'de yok"
+   },
+   {
+    "f": "1806-01-01",
+    "t": "1807-01-01",
+    "d": "rusya",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija, 'Herceg Novi' (enciklopedija.hr/clanak/herceg-novi; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   },
+   {
+    "f": "1807-01-01",
+    "t": "1813-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija, 'Herceg Novi' (enciklopedija.hr/clanak/herceg-novi; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+    "ic_not": "HE: Ruslardan sonra 'Francuzi 1813.' — 1807-13 arası sahip HE'de belirsiz; beyanlı boşluk"
+   },
+   {
+    "f": "1813-01-01",
+    "t": "1900-01-01",
+    "d": "habsburg",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija, 'Herceg Novi' (enciklopedija.hr/clanak/herceg-novi; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+    "ic_not": "HE: Fransızlardan sonra 1918'e kadar Avusturya; dönüş yılı kaynakta yok, 1813 Fransız yılı alındı"
+   }
+  ],
+  "olay": [
+   {
+    "t": "1483-01-01",
+    "gun": "1483",
+    "k": "fetih",
+    "b": "Osmanlılar Herceg Novi'yi zaptedip tahkim eder",
+    "kaynak": "Hrvatska enciklopedija, 'Herceg Novi' (enciklopedija.hr/clanak/herceg-novi; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   },
+   {
+    "t": "1538-01-01",
+    "gun": "1538",
+    "k": "fetih",
+    "b": "Venedikliler şehri ele geçirir",
+    "kaynak": "Hrvatska enciklopedija, 'Herceg Novi' (enciklopedija.hr/clanak/herceg-novi; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   },
+   {
+    "t": "1539-01-01",
+    "gun": "1539",
+    "k": "fetih",
+    "b": "Şehir yeniden Osmanlı egemenliğinde",
+    "kaynak": "Hrvatska enciklopedija, 'Herceg Novi' (enciklopedija.hr/clanak/herceg-novi; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   },
+   {
+    "t": "1687-01-01",
+    "gun": "1687",
+    "k": "fetih",
+    "b": "Venedik mülküne geçer; denizcilik gelişir",
+    "kaynak": "Hrvatska enciklopedija, 'Herceg Novi' (enciklopedija.hr/clanak/herceg-novi; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   },
+   {
+    "t": "1797-01-01",
+    "gun": "1797",
+    "k": "kayip",
+    "b": "Venedik Cumhuriyeti çöker; Avusturya yönetimi (1805'e kadar)",
+    "kaynak": "Hrvatska enciklopedija, 'Herceg Novi' (enciklopedija.hr/clanak/herceg-novi; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   },
+   {
+    "t": "1806-01-01",
+    "gun": "1806",
+    "k": "diger",
+    "b": "Ruslar şehri tutar (1806-07)",
+    "kaynak": "Hrvatska enciklopedija, 'Herceg Novi' (enciklopedija.hr/clanak/herceg-novi; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   },
+   {
+    "t": "1807-01-01",
+    "gun": "1807",
+    "k": "diger",
+    "b": "Rus yönetiminin sonu (1806-07)",
+    "kaynak": "Hrvatska enciklopedija, 'Herceg Novi' (enciklopedija.hr/clanak/herceg-novi; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   },
+   {
+    "t": "1813-01-01",
+    "gun": "1813",
+    "k": "diger",
+    "b": "Fransızlar sonrasında 1918'e kadar Avusturya egemenliği",
+    "kaynak": "Hrvatska enciklopedija, 'Herceg Novi' (enciklopedija.hr/clanak/herceg-novi; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   }
+  ],
+  "ic_not": "ilk: kuruluş kesin (Tvrtko I, 1382). Hersek Dükü Stjepan Vukčić Kosača adı ('hercegov novi grad') HE'de yılsız. Mükerrer: yok. TANIK KURALI: HE tam gövde birebir; 'Grad' = Herceg Novi (maddenin konusu), 1382 aynı cümlede."
+ },
+ {
+  "id": "kumanovo-mk",
+  "ad": "Kumanovo",
+  "atlas_ad": null,
+  "lat": 42.1328,
+  "lon": 21.7158,
+  "kat1900": 3,
+  "adlar": [
+   "Kumanovo"
+  ],
+  "ad_kaynak": "Hrvatska enciklopedija, 'Kumanovo' (enciklopedija.hr/clanak/kumanovo; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+  "ilk": {
+   "t": "1660-01-01",
+   "gun": "1660",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Hrvatska enciklopedija, 'Kumanovo' (enciklopedija.hr/clanak/kumanovo; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+   "tanik": "Prvi ga put spominje kao naselje Evlija Čelebi 1660."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1660-01-01",
+    "t": "1900-01-01",
+    "d": "osmanli",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija, 'Kumanovo' (enciklopedija.hr/clanak/kumanovo; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+    "ic_not": "HE bu cümlede sahibi vermez; Evliya Çelebi Osmanlı Rumeli'sini gezerken anmıştır (HE: Üsküp-Vranje vadisi 1888 demiryolu); 1912'ye kadar Osmanlı toprağı — Tetovo HE maddesindeki Üsküp sancağı bağlamından çıkarım, şehre özgü okunmadı"
+   }
+  ],
+  "olay": [
+   {
+    "t": "1888-01-01",
+    "gun": "1888",
+    "k": "diger",
+    "b": "Üsküp ve Vranje kotlukları arası demiryolu: Kumanovo kentsel yerleşim olarak gelişir",
+    "kaynak": "Hrvatska enciklopedija, 'Kumanovo' (enciklopedija.hr/clanak/kumanovo; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   }
+  ],
+  "ic_not": "ilk: HE 'Evliya Çelebi 1660'ta anar'. Sahip çıkarım (beyanlı). Mükerrer: yok. TANIK KURALI: HE tam gövde birebir; şehir adı cümlede yok ('ga' zamir, madde konusu)."
+ },
+ {
+  "id": "niksic-me",
+  "ad": "Nikšić",
+  "atlas_ad": null,
+  "lat": 42.7731,
+  "lon": 18.9445,
+  "kat1900": 3,
+  "adlar": [
+   "Onogošt / Anagastum (ortaçağ)",
+   "Nikšić (XVII. yy sonundan, Nikšići kabilesi)"
+  ],
+  "ad_kaynak": "Hrvatska enciklopedija, 'Nikšić' (enciklopedija.hr/clanak/niksic; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+  "ilk": {
+   "t": "1465-01-01",
+   "gun": "1465",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "belirsiz",
+   "kaynak": "Hrvatska enciklopedija, 'Nikšić' (enciklopedija.hr/clanak/niksic; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+   "tanik": "U srednjem vijeku poznat kao grad Onogošt (Anagastum); 1465. zauzeli su ga Osmanlije i uključili u Bosanski, a 1470. u Hercegovački sandžak."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1465-01-01",
+    "t": "1878-01-01",
+    "d": "osmanli",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija, 'Nikšić' (enciklopedija.hr/clanak/niksic; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+    "ic_not": "HE: Bosna sancağı (1465), Hersek sancağı (1470); 'razoren potkraj XV. st., obnovljen potkraj XVII. st.' — yıkım ve yeniden kuruluş dönemi (kısmen yerleşim yoktu) zincire __YOK__ olarak yazılmadı: kesin yıllar HE'de yok"
+   },
+   {
+    "f": "1878-01-01",
+    "t": "1900-01-01",
+    "d": "karadag",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija, 'Nikšić' (enciklopedija.hr/clanak/niksic; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+    "ic_not": "HE: 'Odlukom Berlinskoga kongresa 1878. pripao je Crnoj Gori'"
+   }
+  ],
+  "olay": [
+   {
+    "t": "1465-01-01",
+    "gun": "1465",
+    "k": "fetih",
+    "b": "Osmanlılar Onogošt'u (Nikšić) alır, Bosna sancağına, 1470'te Hersek sancağına bağlar",
+    "kaynak": "Hrvatska enciklopedija, 'Nikšić' (enciklopedija.hr/clanak/niksic; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   },
+   {
+    "t": "1878-01-01",
+    "gun": "1878",
+    "k": "antlasma",
+    "b": "Berlin Kongresi kararıyla Nikšić Karadağ'a geçer",
+    "kaynak": "Hrvatska enciklopedija, 'Nikšić' (enciklopedija.hr/clanak/niksic; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   }
+  ],
+  "ic_not": "ilk: HE'nin ilk tarihli olgusu 1465 Osmanlı fethi (ortaçağda Onogošt adı yılsız) — belirsiz. Antik Anderba Moštanica'da (şehir dışı) ve başka yer. Mükerrer: yok. TANIK KURALI: HE tam gövde birebir; ad Onogošt (Nikšić'in ortaçağ adı), 1465 aynı cümlede."
+ },
+ {
+  "id": "ohrid-mk",
+  "ad": "Ohrid",
+  "atlas_ad": null,
+  "lat": 41.117,
+  "lon": 20.8018,
+  "kat1900": 3,
+  "adlar": [
+   "Ohrid"
+  ],
+  "ad_kaynak": "Hrvatska enciklopedija, 'Ohrid' (enciklopedija.hr/clanak/ohrid; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+  "ilk": {
+   "t": "-0200-01-01",
+   "gun": "MÖ 3. yüzyıl",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yuzyil",
+   "kaynak": "Hrvatska enciklopedija, 'Ohrid' (enciklopedija.hr/clanak/ohrid; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+   "tanik": "Prvi se put spominje kao naselje ilirskih Dasareta već u III. st. pr. Kr."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "-0200-01-01",
+    "t": "1398-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yuzyil",
+    "kaynak": "Hrvatska enciklopedija, 'Ohrid' (enciklopedija.hr/clanak/ohrid; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+    "ic_not": "HE: 861 Bulgar fethi (adı Ohrid), ortaçağ kültür merkezi, XII. yy ticaret merkezi; sürekli sahip sırası bu partide kurulmadı (beyanlı boşluk)"
+   },
+   {
+    "f": "1398-01-01",
+    "t": "1900-01-01",
+    "d": "osmanli",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija, 'Ohrid' (enciklopedija.hr/clanak/ohrid; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+    "ic_not": "HE: 'Za vladavine Osmanskoga Carstva (1398–1912) Ohrid je bio sjedište istoimenoga sandžaka, a od XVII. st. i kadiluka'"
+   }
+  ],
+  "olay": [
+   {
+    "t": "0861-01-01",
+    "gun": "861",
+    "k": "fetih",
+    "b": "Bulgar fethinden sonra şehir bugünkü adını alır; XII. yy ticaret, Kliment ve Metodije",
+    "kaynak": "Hrvatska enciklopedija, 'Ohrid' (enciklopedija.hr/clanak/ohrid; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   },
+   {
+    "t": "1398-01-01",
+    "gun": "1398",
+    "k": "fetih",
+    "b": "Osmanlı yönetimi başlar (1398-1912), Ohrid sancağı merkezi",
+    "kaynak": "Hrvatska enciklopedija, 'Ohrid' (enciklopedija.hr/clanak/ohrid; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   }
+  ],
+  "ic_not": "ilk: HE 'ilk anılış MÖ 3. yy'da İlirya Dasaret kabilesinin yerleşimi' (güvenli uç -0200). Adın 861'deki bugünkü biçimi olay. Mükerrer: yok. TANIK KURALI: HE tam gövde birebir; cümle 'pr.' bölünmesinde 'Kr.' ile devam eder; özne Ohrid."
+ },
+ {
+  "id": "tetovo-mk",
+  "ad": "Tetovo",
+  "atlas_ad": null,
+  "lat": 42.0099,
+  "lon": 20.9714,
+  "kat1900": 3,
+  "adlar": [
+   "Htetovo (Stefan Dušan fermanları, XIV. yy)",
+   "Kalkandelen (Osmanlı, 1392'den)",
+   "Tetovo"
+  ],
+  "ad_kaynak": "Hrvatska enciklopedija, 'Tetovo' (enciklopedija.hr/clanak/tetovo; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+  "ilk": {
+   "t": "1400-01-01",
+   "gun": "14. yüzyıl",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yuzyil",
+   "kaynak": "Hrvatska enciklopedija, 'Tetovo' (enciklopedija.hr/clanak/tetovo; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+   "tanik": "Pod imenom Htetovo prvi se put spominje u ispravama srpskoga cara Stefana Dušana iz XIV. st."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1400-01-01",
+    "t": "1900-01-01",
+    "d": "osmanli",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija, 'Tetovo' (enciklopedija.hr/clanak/tetovo; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+    "ic_not": "HE: 1392'de Osmanlılar fetheder, adı Kalkandelen olur, Üsküp sancağına bağlanır; 1400 güvenli uç (XIV. yy) — 1392-1400 arası zaten Osmanlı. 1912 Sırp, 1915 Bulgar, 1918 Fransız işgali 1900 sonrası (bu dosya karışmaz)"
+   }
+  ],
+  "olay": [
+   {
+    "t": "1392-01-01",
+    "gun": "1392",
+    "k": "fetih",
+    "b": "Osmanlılar Tetovo'yu alır, adını Kalkandelen yapar ve Üsküp sancağına bağlar",
+    "kaynak": "Hrvatska enciklopedija, 'Tetovo' (enciklopedija.hr/clanak/tetovo; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   },
+   {
+    "t": "1689-01-01",
+    "gun": "1689",
+    "k": "savas",
+    "b": "Büyük (Viyana) kurtuluş savaşında Piccolomini komutasındaki Avusturya ilerleyişinde şehir ağır hasar görür",
+    "kaynak": "Hrvatska enciklopedija, 'Tetovo' (enciklopedija.hr/clanak/tetovo; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   }
+  ],
+  "ic_not": "ilk: ad Htetovo, Dušan fermanları (XIV. yy; Dušan 1331-55) — güvenli uç 1400 ama Osmanlı fethi 1392 olduğundan Dušan dönemi (≤1355) daha erken olabilir; HE yalnız 'XIV. st.'. Sahiplik zinciri başı 1400'ün öncesi (Sırp) okunmadı. Mükerrer: yok. TANIK KURALI: HE tam gövde birebir; ad Htetovo, XIV. yy."
+ },
+ {
+  "id": "ulcinj-me",
+  "ad": "Ulcinj",
+  "atlas_ad": null,
+  "lat": 41.9294,
+  "lon": 19.2244,
+  "kat1900": 3,
+  "adlar": [
+   "Ulcinj"
+  ],
+  "ad_kaynak": "Hrvatska enciklopedija, 'Ulcinj' (enciklopedija.hr/clanak/ulcinj; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+  "ilk": {
+   "t": "-0167-01-01",
+   "gun": "MÖ 168",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "belirsiz",
+   "kaynak": "Hrvatska enciklopedija, 'Ulcinj' (enciklopedija.hr/clanak/ulcinj; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+   "tanik": "Naseljen Ilirima, 168. pr. Kr. došao pod rimsku, a 395. pod bizantsku vlast."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "-0167-01-01",
+    "t": "1421-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "Hrvatska enciklopedija, 'Ulcinj' (enciklopedija.hr/clanak/ulcinj; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+    "ic_not": "HE: 395 Bizans, XI. yy Zeta, 1183'ten Nemanjićler, XIV. yy 2. yarı Balšićler (1396'dan kalıcı konut); sürekli sahip sırası bu partide kurulmadı (beyanlı boşluk)"
+   },
+   {
+    "f": "1421-01-01",
+    "t": "1571-01-01",
+    "d": "venedik",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija, 'Ulcinj' (enciklopedija.hr/clanak/ulcinj; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   },
+   {
+    "f": "1571-01-01",
+    "t": "1880-01-01",
+    "d": "osmanli",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija, 'Ulcinj' (enciklopedija.hr/clanak/ulcinj; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+    "ic_not": "HE: Cezayirli Uluç Ali 400 korsanı yerleştirir; Ulcinj ticaret ve korsan merkezi olur"
+   },
+   {
+    "f": "1880-01-01",
+    "t": "1900-01-01",
+    "d": "karadag",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija, 'Ulcinj' (enciklopedija.hr/clanak/ulcinj; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+    "ic_not": "HE: 'Od 1880. do 1916. u sastavu Kneževine, a potom Kraljevine Crne Gore'"
+   }
+  ],
+  "olay": [
+   {
+    "t": "1421-01-01",
+    "gun": "1421",
+    "k": "fetih",
+    "b": "Venedikliler Ulcinj'i alır",
+    "kaynak": "Hrvatska enciklopedija, 'Ulcinj' (enciklopedija.hr/clanak/ulcinj; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   },
+   {
+    "t": "1571-01-01",
+    "gun": "1571",
+    "k": "fetih",
+    "b": "Osmanlılar Ulcinj'i alır; Cezayirli korsanlar yerleştirilir",
+    "kaynak": "Hrvatska enciklopedija, 'Ulcinj' (enciklopedija.hr/clanak/ulcinj; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   },
+   {
+    "t": "1880-01-01",
+    "gun": "1880",
+    "k": "diger",
+    "b": "Karadağ Prensliği'ne geçer (1880-1916)",
+    "kaynak": "Hrvatska enciklopedija, 'Ulcinj' (enciklopedija.hr/clanak/ulcinj; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   }
+  ],
+  "ic_not": "ilk: HE tarihli ilk olgu 'MÖ 168 Roma egemenliği' (belirsiz — fetih tarihi, ilk anılış değil); Illyrian iskân yılsız. Mükerrer: yok. TANIK KURALI: HE tam gövde birebir; özne maddenin şehri; şehir adı cümlede yok."
+ }
+];
