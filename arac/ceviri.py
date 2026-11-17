@@ -120,14 +120,16 @@ DILLER = [("tr", "Türkçe"), ("en", "English"), ("ar", "العربية"), ("es"
 # — ÖLÇÜM: LAB F3 yamaları (64 yama; hicrî yıl kuralı + gün kesinleştirme) kronoloji maddelerinin t değerini değiştirdi;
 # çeviri olay kimliği <dizi>:<t>:<sıra> olduğundan çevrilmiş dillerde eski kimlik yetim, yeni kimlik eksik: olay eksik en/ar/es/de 430->442,
 # pt 1543->1553; bayat en/ar/es/de 113->116, pt 92->95 (fr/ru aynı). Çeviri işi site bitince (Emre, 13 Kasım).
+# 17 Kasım 2026 (KASA 17, tavan AÇILDI: önce ölç, aç, raporla): arayüz eksik 79 -> 80 her dilde = +1 yeni gün kalıbı;
+# kaynak: kapı 5 birleşimi (lab-yama-1117 ve/veya umit-17-kasim kronoloji metni); tek kalıp ayrıca izole edilmedi. Eski: arayüz 79.
 BEKLENEN_CEVIRI_EKSIK = {
-    "en": {"arayuz": 79, "devlet": 24, "olay": 442},
-    "ar": {"arayuz": 79, "devlet": 24, "olay": 442},
-    "es": {"arayuz": 79, "devlet": 24, "olay": 442},
-    "de": {"arayuz": 79, "devlet": 24, "olay": 442},
-    "pt": {"arayuz": 79, "devlet": 24, "olay": 1553},
-    "ru": {"arayuz": 79, "devlet": 24, "olay": 3635},
-    "fr": {"arayuz": 79, "devlet": 24, "olay": 4535},
+    "en": {"arayuz": 80, "devlet": 24, "olay": 442},
+    "ar": {"arayuz": 80, "devlet": 24, "olay": 442},
+    "es": {"arayuz": 80, "devlet": 24, "olay": 442},
+    "de": {"arayuz": 80, "devlet": 24, "olay": 442},
+    "pt": {"arayuz": 80, "devlet": 24, "olay": 1553},
+    "ru": {"arayuz": 80, "devlet": 24, "olay": 3635},
+    "fr": {"arayuz": 80, "devlet": 24, "olay": 4535},
 }
 # 13 Kasım 2026 (KASA batch 15): bayat olay en/ar/es/de 71→72 (ÖLÇÜM) — UMIT p08 / EMRELİC ant17 ana maddelere `antlasma_id` yazdı
 # (Zitvatorok/Buçaş/Vasvar/İstanbul 1700, Yergöğü, İngiliz 1799). Kaynak ölçüldü; çeviri işi site bitince (Emre, 13 Kasım).
