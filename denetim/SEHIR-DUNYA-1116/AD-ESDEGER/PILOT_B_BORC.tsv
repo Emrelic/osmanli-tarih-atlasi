@@ -1,0 +1,32 @@
+id	ad	neden
+herat-af	Herat	TDV/Britannica madde başlığı; adı bir cümlede özdeş ad olarak geçen birebir kanıt alınmadı
+herat-af	Alexandria in Aria / Aria’daki İskenderiye	TDV bölge adı diyor, Britannica site eşitliği belirsiz (Artacoana/Alexandria) — yazılmadı
+semerkant-uz	Semerkant	TDV madde başlığı; Semerḳand/Samarkand yazımları bibliyografyada (alıntı kitap adı) — ana ad cümle kanıtsız
+semerkant-uz	Efrâsiyâb	TDV: yerleşimin harabelerine verilen ad (3 km eşitliği doğrulanmadı) — yazılmadı
+buhara-uz	Buchara	Britannica yalnız "Also known as" verir, dil belirtmez — yazılmadı
+buhara-uz	Pwy’r ywB	TDV sikke yazısı; ad/okunuş belirsiz — yazılmadı
+belh-af	Belh	TDV başlığı; birebir cümle yok
+belh-af	Ümmü’l-bilâd / Kubbetü’l-İslâm / Dârü’l-fıkh	TDV: lakap/unvan, ad değil — yazılmadı
+belh-af	Bactra (Zariaspa)	Britannica "Bactra-Zariaspa" der; TDV’de Zariaspa yok
+hive-uz	Chiva / Jiva	Britannica listeler; dil/okunuş belirsiz, yalnız Khiwa/Khiva yazıldı
+hive-uz	Ürgenç / Hârizm	TDV hanlığı/bölgeyi kastediyor — şehir adı değil, yazılmadı
+urumci-cn	Tihua (TDV)	TDV Yâkub Beg maddesinde yok; kaynak bulunamadı
+urumci-cn	Ürümçi	Türkçe yazım kaynaksız; kaynakta Urumçi (TDV), Ürümqi/Ürümchi (Britannica)
+urumci-cn	Wu-lu-mu-ch’i	Britannica listesi kesik görüldü ("Show More"); okunamadı
+urumci-cn	Luntai (640)	Britannica: aynı yerde kurulan ilçe adı; şehir adı mı belirsiz — yazılmadı
+kasgar-cn	Shule (Han’dan Tang’a)	Dönem aralığı kaynaklı değil: TDV yalnız "Tang" sınırlı ifade; donem=null
+kasgar-cn	Kaxgar	Uygurca yazım; dil kaynakta belirtilmiyor — yazılmadı
+kasgar-cn	Hançeng/Huiçeng (Şule/Şufu)	TDV: mahalle adları — şehir adı değil
+almati-kz	Verniy kuruluş/ad tarihi	ÇELİŞKİ: TDV "1854’te Verniy adıyla kale" vs Britannica 1854 Zailiyskoye, 1855 Verny — hakem için 3. kaynak gerek
+almati-kz	Alma Ata	ÇELİŞKİ: TDV 1927 vs Britannica 1921 — iki kayıt da yazıldı, hakemli karar yok
+astana-p9	Tselinograd dönemi	Britannica kesin yıl vermiyor (1960-65 kray tarihi); donem=null
+astana-p9	Akmolinsk dönemi	Britannica dönem vermiyor; donem=null
+tombouctou-ml	تنبكتو (Tinbuktu)	Mevcut Arapça yazım kaynaksız; TDV yazımı تنبوكتو
+tombouctou-ml	Tomboutou/Buctoo	Britannica: efsanevi kadının adı, şehir adı değil — yazılmadı
+cape-town-za	Kaap / Kaapstad (VOC dönemi Felemenkçe)	Britannica "Also known as" dönem vermez; "VOC dönemi" iddiası kaynaksız
+kano-ng	Medînetü Kano	TDV bibliyografyada yalnız eser başlığı; şehir adı sayılmadı
+kano-ng	Kano (başka ad)	TDV/Britannica başka yerel ad (Dala, Birnin Kano) vermiyor; Iranica/Pleiades erişilemedi
+luanda-p9	Loanda dili	Britannica dil vermiyor; pt varsayıldı
+tum	Pleiades antik adlar	Anubis bot koruması (proof-of-work) — atlanmadı, geçilmedi
+tum	Iranica/ru.wikisource ESBE/UNESCO/Universalis	Zaman nedeniyle bu pilotta taranmadı
+kasgar-cn	Kaşi (Çince)	ad_esanlam sadeleştirmesi Kâşî (Kasi=Benares) ile çakışır; ad_kaynak’ta kaynaklı ama adlar_sira’ya yazılmadı

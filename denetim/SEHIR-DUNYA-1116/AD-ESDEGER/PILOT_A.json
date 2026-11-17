@@ -1,0 +1,629 @@
+[
+ {
+  "id": "delhi-in",
+  "ad_kaynak": [
+   {
+    "ad": "Indraprastha",
+    "dil": "sa",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'DELHİ' https://islamansiklopedisi.org.tr/delhi",
+    "kanit": "Indraprastha adında bir yerleşim merkezinden söz etmektedir"
+   },
+   {
+    "ad": "Dehlü",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'DELHİ' https://islamansiklopedisi.org.tr/delhi",
+    "kanit": "İslâm kaynaklarında şehrin ilk isminin Dehlü olduğu bildirilmekte"
+   },
+   {
+    "ad": "Şahcihanâbâd",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'DELHİ' https://islamansiklopedisi.org.tr/delhi",
+    "kanit": "orada Şahcihanâbâd adıyla yeni bir yerleşme merkezi"
+   },
+   {
+    "ad": "Dilli",
+    "dil": "hi",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Delhi' (arama özeti; sayfa 403) https://www.britannica.com/place/Delhi",
+    "kanit": "names by which the city has been known, including Delhi, Dehli, Dilli, and Dhilli"
+   },
+   {
+    "ad": "Dehli",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Delhi' (arama özeti; sayfa 403) https://www.britannica.com/place/Delhi",
+    "kanit": "including Delhi, Dehli, Dilli, and Dhilli"
+   },
+   {
+    "ad": "Delhi",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Delhi' (arama özeti; sayfa 403) https://www.britannica.com/place/Delhi",
+    "kanit": "including Delhi, Dehli, Dilli, and Dhilli"
+   }
+  ],
+  "adlar_sira": [
+   "Indraprastha",
+   "Dehlü",
+   "Dilli",
+   "Şahcihanâbâd",
+   "Delhi"
+  ],
+  "kaynaksiz": []
+ },
+ {
+  "id": "kalkuta-in",
+  "ad_kaynak": [
+   {
+    "ad": "Kalküta",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'KALKÜTA' https://islamansiklopedisi.org.tr/kalkuta",
+    "kanit": "KALKÜTA (TDV İslâm Ansiklopedisi) [madde başlığı]"
+   },
+   {
+    "ad": "Kalikâtâ",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'KALKÜTA' https://islamansiklopedisi.org.tr/kalkuta",
+    "kanit": "yerli halk buraya Kalikâtâ demeye devam etmiş"
+   },
+   {
+    "ad": "Kalikata",
+    "dil": "bn",
+    "donem": "-1690",
+    "kaynak": "Banglapedia 'Calcutta' https://en.banglapedia.org/index.php/Calcutta",
+    "kanit": "in and around the villages of Kalikata, Sutanuti and Govindapur"
+   },
+   {
+    "ad": "Sutanuti",
+    "dil": "bn",
+    "donem": null,
+    "kaynak": "Encyclopedia.com (Gale/Oxford) 'Calcutta' https://www.encyclopedia.com/places/asia/indian-political-geography/calcutta",
+    "kanit": "establish an English factory at Sutanuti"
+   },
+   {
+    "ad": "Calcutta",
+    "dil": "en",
+    "donem": "1690-2001",
+    "kaynak": "TDV İslâm Ansiklopedisi 'KALKÜTA' https://islamansiklopedisi.org.tr/kalkuta",
+    "kanit": "bu ad İngilizce’ye Calcutta imlâsıyla girmiştir"
+   },
+   {
+    "ad": "Fort William",
+    "dil": "en",
+    "donem": "1699-",
+    "kaynak": "TDV İslâm Ansiklopedisi 'KALKÜTA' https://islamansiklopedisi.org.tr/kalkuta",
+    "kanit": "resmen Fort William adını almışsa"
+   },
+   {
+    "ad": "Alinagar",
+    "dil": "fa",
+    "donem": "1756",
+    "kaynak": "TDV İslâm Ansiklopedisi 'KALKÜTA' https://islamansiklopedisi.org.tr/kalkuta",
+    "kanit": "adını Alinagar’a çevirdi"
+   },
+   {
+    "ad": "Kolkata",
+    "dil": "bn",
+    "donem": "2001-",
+    "kaynak": "Banglapedia 'Calcutta' https://en.banglapedia.org/index.php/Calcutta",
+    "kanit": "Recently the name of the city has been changed to Kolkata."
+   }
+  ],
+  "adlar_sira": [
+   "Sutanuti",
+   "Kalikâtâ (Kalikata)",
+   "Calcutta",
+   "Fort William",
+   "Alinagar (1756'da Sirâcüddevle'nin verdiği ad)",
+   "Kalküta",
+   "Kolkata"
+  ],
+  "kaynaksiz": []
+ },
+ {
+  "id": "haydarabad-dekken-in",
+  "ad_kaynak": [
+   {
+    "ad": "Bhâgînagar",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'HAYDARÂBÂD' https://islamansiklopedisi.org.tr/haydarabad--hindistan",
+    "kanit": "Bhâgînagar adını verdiği, fakat daha sonra Haydarâbâd’a çevirdiği"
+   },
+   {
+    "ad": "Bhagnagar",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopedia.com 'Hyderabad' https://www.encyclopedia.com/places/asia/indian-political-geography/hyderabad (arama özeti)",
+    "kanit": "the city was first known as Bhagnagar"
+   },
+   {
+    "ad": "Haydarâbâd",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'HAYDARÂBÂD' https://islamansiklopedisi.org.tr/haydarabad--hindistan",
+    "kanit": "Haydarâbâd şehri ismini Hz. Ali’nin lakabından almıştır."
+   }
+  ],
+  "adlar_sira": [
+   "Bhâgînagar (rivayet; TDV 'başlangıçta bu adın verildiği rivayet edilir')",
+   "Haydarâbâd"
+  ],
+  "kaynaksiz": []
+ },
+ {
+  "id": "lahor-pk",
+  "ad_kaynak": [
+   {
+    "ad": "Lahor",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'LAHOR' https://islamansiklopedisi.org.tr/lahor",
+    "kanit": "Bennah ve el-Ahvar’a (Lahor’un Arapça şekli)"
+   },
+   {
+    "ad": "el-Ahvar",
+    "dil": "ar",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'LAHOR' https://islamansiklopedisi.org.tr/lahor",
+    "kanit": "Bennah ve el-Ahvar’a (Lahor’un Arapça şekli)"
+   },
+   {
+    "ad": "Lōhāwar",
+    "dil": "ur",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Lahore' (arama özeti; sayfa 403) https://www.britannica.com/place/Lahore",
+    "kanit": "Also known as: Lāhawr, Lōhāwar"
+   },
+   {
+    "ad": "Lāhawr",
+    "dil": "ur",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Lahore' (arama özeti; sayfa 403) https://www.britannica.com/place/Lahore",
+    "kanit": "Also known as: Lāhawr, Lōhāwar"
+   }
+  ],
+  "adlar_sira": [
+   "Lōhāwar",
+   "Lahor",
+   "el-Ahvar",
+   "Lāhawr"
+  ],
+  "kaynaksiz": []
+ },
+ {
+  "id": "karaci-pk-a3",
+  "ad_kaynak": [
+   {
+    "ad": "Kalachi-jo-Goth",
+    "dil": "sd",
+    "donem": "18. yy",
+    "kaynak": "Encyclopaedia Britannica 'Karachi' (arama özeti; sayfa 403) https://www.britannica.com/place/Karachi",
+    "kanit": "in the 18th century it was known as Kalachi-jo-Goth"
+   },
+   {
+    "ad": "Kulaçi",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'KARAÇİ' https://islamansiklopedisi.org.tr/karaci",
+    "kanit": "Bilinen ilk ahalisi Belûçlar'ın Dodâî koluna mensup Kulaçiler'dir."
+   },
+   {
+    "ad": "Caranjee",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'KARAÇİ' https://islamansiklopedisi.org.tr/karaci",
+    "kanit": "Caranjee, Crochey, Krotchey, Currachee ve Kurrache yazılışlarıyla geçen"
+   },
+   {
+    "ad": "Crochey",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'KARAÇİ' https://islamansiklopedisi.org.tr/karaci",
+    "kanit": "Caranjee, Crochey, Krotchey, Currachee ve Kurrache yazılışlarıyla geçen"
+   },
+   {
+    "ad": "Krotchey",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'KARAÇİ' https://islamansiklopedisi.org.tr/karaci",
+    "kanit": "Caranjee, Crochey, Krotchey, Currachee ve Kurrache yazılışlarıyla geçen"
+   },
+   {
+    "ad": "Currachee",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'KARAÇİ' https://islamansiklopedisi.org.tr/karaci",
+    "kanit": "Caranjee, Crochey, Krotchey, Currachee ve Kurrache yazılışlarıyla geçen"
+   },
+   {
+    "ad": "Kurrache",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'KARAÇİ' https://islamansiklopedisi.org.tr/karaci",
+    "kanit": "Caranjee, Crochey, Krotchey, Currachee ve Kurrache yazılışlarıyla geçen"
+   },
+   {
+    "ad": "Kurrachee",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Karachi' (arama özeti; sayfa 403) https://www.britannica.com/place/Karachi",
+    "kanit": "variously called Caranjee, Crochey, Krotchey, Currachee, and Kurrachee"
+   },
+   {
+    "ad": "Karaçi",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'KARAÇİ' https://islamansiklopedisi.org.tr/karaci",
+    "kanit": "KARAÇİ (TDV İslâm Ansiklopedisi) [madde başlığı]"
+   }
+  ],
+  "adlar_sira": [
+   "Kalachi-jo-Goth",
+   "Kulaçi (TDV: Dodâî Kulaçiler'den)",
+   "Caranjee",
+   "Crochey/Currachee (İngilizce yazımlar)",
+   "Krotchey",
+   "Kurrache",
+   "Kurrachee",
+   "Karaçi"
+  ],
+  "kaynaksiz": []
+ },
+ {
+  "id": "ahmedabad-in",
+  "ad_kaynak": [
+   {
+    "ad": "Ahmedâbâd",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'AHMEDÂBÂD' https://islamansiklopedisi.org.tr/ahmedabad",
+    "kanit": "Ahmedâbâd’da Bâbür İmparatorluğu döneminde basılmış"
+   },
+   {
+    "ad": "Ahmadabad",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'AHMEDÂBÂD (kaynakça)' https://islamansiklopedisi.org.tr/ahmedabad",
+    "kanit": "Muhammedan Architecture of Ahmedabad"
+   }
+  ],
+  "adlar_sira": [
+   "Ahmedâbâd",
+   "Ahmadabad"
+  ],
+  "kaynaksiz": []
+ },
+ {
+  "id": "bangalor-in-p6",
+  "ad_kaynak": [
+   {
+    "ad": "Bangalur",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Oxford/Gale 'Bangalore' https://www.encyclopedia.com/places/asia/indian-political-geography/bangalore",
+    "kanit": "Bangalore (Bangalur)"
+   },
+   {
+    "ad": "Bangalore",
+    "dil": "en",
+    "donem": "-2006",
+    "kaynak": "Encyclopedia.com 'Bangalore' https://www.encyclopedia.com/places/asia/indian-political-geography/bangalore",
+    "kanit": "Established in 1537 by the Mysore dynasty"
+   },
+   {
+    "ad": "Bengaluru",
+    "dil": "kn",
+    "donem": "2006-",
+    "kaynak": "Encyclopaedia Britannica Students 'Bengaluru' https://kids.britannica.com/students/article/Bengaluru/273090 (arama özeti)",
+    "kanit": "officially changed in 2006 from Bangalore to Bengaluru"
+   }
+  ],
+  "adlar_sira": [
+   "Bangalur",
+   "Bangalore",
+   "Bengaluru"
+  ],
+  "kaynaksiz": []
+ },
+ {
+  "id": "patna-in",
+  "ad_kaynak": [
+   {
+    "ad": "Pataliputra",
+    "dil": "sa",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'PATNA' https://islamansiklopedisi.org.tr/patna",
+    "kanit": "İlk adı Pataliputra olan ve zaman içerisinde"
+   },
+   {
+    "ad": "Palibothra",
+    "dil": "grc",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'PATNA' https://islamansiklopedisi.org.tr/patna",
+    "kanit": "Palibothra, Kusumpur, Pushpapura, Azîmâbâd adlarıyla da anılan"
+   },
+   {
+    "ad": "Kusumpur",
+    "dil": "sa",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'PATNA' https://islamansiklopedisi.org.tr/patna",
+    "kanit": "Palibothra, Kusumpur, Pushpapura, Azîmâbâd adlarıyla da anılan"
+   },
+   {
+    "ad": "Pushpapura",
+    "dil": "sa",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'PATNA' https://islamansiklopedisi.org.tr/patna",
+    "kanit": "Palibothra, Kusumpur, Pushpapura, Azîmâbâd adlarıyla da anılan"
+   },
+   {
+    "ad": "Azîmâbâd",
+    "dil": "tr-osm",
+    "donem": "1704-1921",
+    "kaynak": "TDV İslâm Ansiklopedisi 'PATNA' https://islamansiklopedisi.org.tr/patna",
+    "kanit": "Azîmüşşân şehrin adını 1704 yılında Azîmâbâd olarak değiştirdi"
+   },
+   {
+    "ad": "Patna",
+    "dil": "en",
+    "donem": "1921-",
+    "kaynak": "TDV İslâm Ansiklopedisi 'PATNA' https://islamansiklopedisi.org.tr/patna",
+    "kanit": "1921’de İngilizler tarafından şehrin adı tekrar Patna’ya çevrildi."
+   }
+  ],
+  "adlar_sira": [
+   "Pataliputra",
+   "Palibothra",
+   "Kusumpur",
+   "Pushpapura",
+   "Azîmâbâd",
+   "Patna"
+  ],
+  "kaynaksiz": []
+ },
+ {
+  "id": "agra-in",
+  "ad_kaynak": [
+   {
+    "ad": "Âgra",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'AGRA' https://islamansiklopedisi.org.tr/agra",
+    "kanit": "Gazneli Hükümdarı İbrâhim b. Mes‘ûd zamanında"
+   }
+  ],
+  "adlar_sira": [
+   "Âgra"
+  ],
+  "kaynaksiz": []
+ },
+ {
+  "id": "leknev-in",
+  "ad_kaynak": [
+   {
+    "ad": "Leknev",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'LEKNEV' https://islamansiklopedisi.org.tr/leknev",
+    "kanit": "Leknev’in (Lucknow, Lakhnau) bilinen tarihi XIII. yüzyılın başlarına kadar gider."
+   },
+   {
+    "ad": "Lucknow",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'LEKNEV' https://islamansiklopedisi.org.tr/leknev",
+    "kanit": "Leknev’in (Lucknow, Lakhnau) bilinen tarihi XIII. yüzyılın başlarına kadar gider."
+   },
+   {
+    "ad": "Lakhnau",
+    "dil": "ur",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'LEKNEV' https://islamansiklopedisi.org.tr/leknev",
+    "kanit": "Leknev’in (Lucknow, Lakhnau) bilinen tarihi XIII. yüzyılın başlarına kadar gider."
+   },
+   {
+    "ad": "Laknav",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'LEKNEV (kaynakça)' https://islamansiklopedisi.org.tr/leknev",
+    "kanit": "R. B. Whitehead, “Laknav”, İA, VII, 8-9."
+   }
+  ],
+  "adlar_sira": [
+   "Lakhnau",
+   "Lucknow",
+   "Leknev",
+   "Laknav"
+  ],
+  "kaynaksiz": []
+ },
+ {
+  "id": "dakka-bd",
+  "ad_kaynak": [
+   {
+    "ad": "Dakka",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'DAKKA' https://islamansiklopedisi.org.tr/dakka",
+    "kanit": "adını bölgede yetişen ve “ḍhāk” denilen bir ağaçtan almıştır."
+   },
+   {
+    "ad": "Dhaka",
+    "dil": "bn",
+    "donem": null,
+    "kaynak": "Banglapedia 'Dhaka' https://en.banglapedia.org/index.php/Dhaka",
+    "kanit": "to the general people old name Dhaka was more popular"
+   },
+   {
+    "ad": "Cihangirnagar",
+    "dil": "tr-osm",
+    "donem": "1608-",
+    "kaynak": "TDV İslâm Ansiklopedisi 'DAKKA' https://islamansiklopedisi.org.tr/dakka",
+    "kanit": "şehre Cihangirnagar adını verdi."
+   },
+   {
+    "ad": "Jahangirnagar",
+    "dil": "en",
+    "donem": "1610-",
+    "kaynak": "Banglapedia 'Dhaka' https://en.banglapedia.org/index.php/Dhaka",
+    "kanit": "renamed it Jahangirnagar after the name of the emperor"
+   },
+   {
+    "ad": "Dacca",
+    "dil": "en",
+    "donem": "-1982",
+    "kaynak": "Banglapedia 'Bangladesh' https://en.banglapedia.org/index.php/Bangladesh (arama özeti)",
+    "kanit": "Dhaka (previously spelt Dacca)"
+   }
+  ],
+  "adlar_sira": [
+   "Dakka (Dhaka)",
+   "Cihangirnagar (1608/1610'dan başlayarak resmî ad; halk Dakka demeyi sürdürdü)",
+   "Jahangirnagar",
+   "Dacca"
+  ],
+  "kaynaksiz": []
+ },
+ {
+  "id": "citagong-bd-a3",
+  "ad_kaynak": [
+   {
+    "ad": "Çitagong",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'ÇİTAGONG' https://islamansiklopedisi.org.tr/citagong",
+    "kanit": "ÇİTAGONG (TDV İslâm Ansiklopedisi) [madde başlığı]"
+   },
+   {
+    "ad": "Chatigram",
+    "dil": "bn",
+    "donem": null,
+    "kaynak": "Banglapedia 'Chittagong City' https://en.banglapedia.org/index.php/Chittagong_City",
+    "kanit": "from which the place took the name of Chatigram."
+   },
+   {
+    "ad": "Chittagong",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Banglapedia 'Chittagong City' https://en.banglapedia.org/index.php/Chittagong_City",
+    "kanit": "the name Chittagong came from the Arabic word Shat"
+   },
+   {
+    "ad": "Fethâbâd",
+    "dil": "tr-osm",
+    "donem": "1512-",
+    "kaynak": "TDV İslâm Ansiklopedisi 'ÇİTAGONG' https://islamansiklopedisi.org.tr/citagong",
+    "kanit": "buraya Fethâbâd adını verdi."
+   },
+   {
+    "ad": "İslâmâbâd",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'ÇİTAGONG' https://islamansiklopedisi.org.tr/citagong",
+    "kanit": "Fetihten sonra İslâmâbâd adını alan"
+   },
+   {
+    "ad": "Porto Grando",
+    "dil": "pt",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'ÇİTAGONG' https://islamansiklopedisi.org.tr/citagong",
+    "kanit": "“Porto Grando” (büyük liman) adıyla anılmıştır"
+   }
+  ],
+  "adlar_sira": [
+   "Chatigram",
+   "Çitagong",
+   "Chittagong",
+   "Fethâbâd (1512)",
+   "İslâmâbâd (1666)",
+   "Porto Grando (Portekiz)"
+  ],
+  "kaynaksiz": []
+ },
+ {
+  "id": "multan-pk",
+  "ad_kaynak": [
+   {
+    "ad": "Mulasthân",
+    "dil": "sa",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'MÜLTAN' https://islamansiklopedisi.org.tr/multan",
+    "kanit": "Mültan adı daha önce kullanılan Mulasthân’ın değişmiş şeklidir."
+   },
+   {
+    "ad": "Mültan",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'MÜLTAN' https://islamansiklopedisi.org.tr/multan",
+    "kanit": "Mültan adı daha önce kullanılan Mulasthân’ın değişmiş şeklidir."
+   }
+  ],
+  "adlar_sira": [
+   "Mulasthân",
+   "Mültan"
+  ],
+  "kaynaksiz": []
+ },
+ {
+  "id": "goa-in-a3",
+  "ad_kaynak": [
+   {
+    "ad": "Goa",
+    "dil": "pt",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'ÂDİLŞÂHÎLER' https://islamansiklopedisi.org.tr/adilsahiler",
+    "kanit": "Bu sırada Portekizliler Goa Limanı’nı işgal ettiler."
+   },
+   {
+    "ad": "Old Goa",
+    "dil": "en",
+    "donem": "1759-",
+    "kaynak": "Encyclopedia.com 'Goa' (Gale, Encyclopedia of India) https://www.encyclopedia.com/places/asia/indian-political-geography/goa",
+    "kanit": "compelled by persistent outbreak of plague in Old Goa,"
+   }
+  ],
+  "adlar_sira": [
+   "Goa",
+   "Old Goa"
+  ],
+  "kaynaksiz": []
+ },
+ {
+  "id": "ecmir-in",
+  "ad_kaynak": [
+   {
+    "ad": "Ajayameru",
+    "dil": "sa",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'ECMÎR' https://islamansiklopedisi.org.tr/ecmir",
+    "kanit": "adına Ajayameru şeklinde rastlanan"
+   },
+   {
+    "ad": "Ecmîr",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'ECMÎR' https://islamansiklopedisi.org.tr/ecmir",
+    "kanit": "Hindistan’da Racastan eyaletinin ikinci büyük şehri"
+   },
+   {
+    "ad": "Ajmer",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Ajmer' (arama özeti; sayfa 403) https://www.britannica.com/place/Ajmer",
+    "kanit": "founded the city of Ajayameru (Ajmer)"
+   }
+  ],
+  "adlar_sira": [
+   "Ajayameru",
+   "Ecmîr",
+   "Ajmer"
+  ],
+  "kaynaksiz": []
+ }
+]

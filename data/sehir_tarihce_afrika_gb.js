@@ -322,7 +322,9 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
   "kat1900": 2,
   "adlar": [
    "Kaap / Kaapstad (VOC dönemi Felemenkçe)",
-   "Cape Town"
+   "Cape Town",
+   "De Kaap",
+   "Kaapstad"
   ],
   "ilk": {
    "t": "1652-04-06",
@@ -380,7 +382,30 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
     "kaynak": "SAHO, 'Pretoria Timeline 1800-2009', https://sahistory.org.za/article/pretoria-timeline-1800-2009 ; SAHO, Cape Town Timeline 1300-1997"
    }
   ],
-  "ic_not": "20 şehir listesinden kaynaklı yazılabilenler: bu kayıt yalnız SAHO'ya dayanır (Britannica 403 verdi; TDV'de Cape Town maddesi sorgulanmadı). Zincir (cape-hollanda 1652 → cape-ingiliz 1795/1806 ...) atlasta zaten var; atlas başlangıcı düzeltilince bu dosyada zincir açılabilir. 1795/1803/1806 günleri teyitsiz (yalnız yıl). | Parti5 tanık kuralı (17 Kasım 2026): tanik cümleden birebir yenilendi [ilk]: ad+yıl SAHO 'The Dutch Settlement' cümlesi; 6 Nisan gün tanığı ('1652 6 April, Jan van Riebeeck, on board of the Drommedaris, arrives in Table Bay') Cape Town Timeline satırıdır, adı 'Table Bay' (Cape Town adı yok) -> ic_not'ta beyan; kesinlik gun korundu | Parti5 tanık kuralı (17 Kasım 2026): tanik cümleden birebir yenilendi [kur]: Cape Town Timeline (madde konusu); satır başında yıl+gün"
+  "ic_not": "20 şehir listesinden kaynaklı yazılabilenler: bu kayıt yalnız SAHO'ya dayanır (Britannica 403 verdi; TDV'de Cape Town maddesi sorgulanmadı). Zincir (cape-hollanda 1652 → cape-ingiliz 1795/1806 ...) atlasta zaten var; atlas başlangıcı düzeltilince bu dosyada zincir açılabilir. 1795/1803/1806 günleri teyitsiz (yalnız yıl). | Parti5 tanık kuralı (17 Kasım 2026): tanik cümleden birebir yenilendi [ilk]: ad+yıl SAHO 'The Dutch Settlement' cümlesi; 6 Nisan gün tanığı ('1652 6 April, Jan van Riebeeck, on board of the Drommedaris, arrives in Table Bay') Cape Town Timeline satırıdır, adı 'Table Bay' (Cape Town adı yok) -> ic_not'ta beyan; kesinlik gun korundu | Parti5 tanık kuralı (17 Kasım 2026): tanik cümleden birebir yenilendi [kur]: Cape Town Timeline (madde konusu); satır başında yıl+gün",
+  "ad_kaynak": [
+   {
+    "ad": "De Kaap",
+    "dil": "nl",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Cape Town' https://www.britannica.com/place/Cape-Town",
+    "kanit": "Also known as: De Kaap, Kaapstad"
+   },
+   {
+    "ad": "Kaapstad",
+    "dil": "nl",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Cape Town' https://www.britannica.com/place/Cape-Town",
+    "kanit": "Also known as: De Kaap, Kaapstad"
+   },
+   {
+    "ad": "Cape Town",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Cape Town' https://www.britannica.com/place/Cape-Town",
+    "kanit": "The city of Cape Town had its origin in 1652"
+   }
+  ]
  },
  {
   "id": "dakar-af-p9",
@@ -585,7 +610,13 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
   "kat1900": null,
   "adlar": [
    "Kevkev / Kukia (TDV: Kevkev Krallığı idarî merkezi; Kukia ayrı yer olarak anılır)",
-   "Gao"
+   "Gao",
+   "Kevkev",
+   "Kawkaw",
+   "Gogo",
+   "Kaukau",
+   "Kookou",
+   "Kankou"
   ],
   "ilk": {
    "t": "0700-01-01",
@@ -644,7 +675,65 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
     "kaynak": "TDV İslâm Ansiklopedisi, 'Gao' (Rıza Kurtuluş), c. 13, İstanbul 1996, s. 357, https://islamansiklopedisi.org.tr/gao"
    }
   ],
-  "ic_not": "Kaynak yalnız TDV Gao maddesi (Rıza Kurtuluş, c. 13) ve TDV Mali maddesi; çift teyit YOK. TDV Mali: 1430'da Tevârikler Gao'yu aldı; TDV Gao: 1324 Mali hâkimiyeti — ikisi de yıl hassasiyetinde. Atlas 0801'de __BOSLUK__ ile başlıyor ve künyeli sahip yazmıyor; 1324 sonrası zincir atlasın. TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Uyuşmayanlar: ALINTI DÜZELTİLDİ (kur.tanik): olgu doğru, önceki alıntı WebFetch özetinden/paraphrase idi; TDV gövdesindeki gerçek cümle yazıldı. Önceki notlardaki \"WebFetch özeti / tam metne karşı doğrulandı (tarayıcı) / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir."
+  "ic_not": "Kaynak yalnız TDV Gao maddesi (Rıza Kurtuluş, c. 13) ve TDV Mali maddesi; çift teyit YOK. TDV Mali: 1430'da Tevârikler Gao'yu aldı; TDV Gao: 1324 Mali hâkimiyeti — ikisi de yıl hassasiyetinde. Atlas 0801'de __BOSLUK__ ile başlıyor ve künyeli sahip yazmıyor; 1324 sonrası zincir atlasın. TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Uyuşmayanlar: ALINTI DÜZELTİLDİ (kur.tanik): olgu doğru, önceki alıntı WebFetch özetinden/paraphrase idi; TDV gövdesindeki gerçek cümle yazıldı. Önceki notlardaki \"WebFetch özeti / tam metne karşı doğrulandı (tarayıcı) / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir.",
+  "ad_kaynak": [
+   {
+    "ad": "Kevkev",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'GAO' https://islamansiklopedisi.org.tr/gao",
+    "kanit": "İslâm kaynaklarında adı Kevkev, Batı kaynaklarında Kawkaw, Gogo, Kaukau, Kookou, Kankou"
+   },
+   {
+    "ad": "Kawkaw",
+    "dil": "und",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'GAO' https://islamansiklopedisi.org.tr/gao",
+    "kanit": "İslâm kaynaklarında adı Kevkev, Batı kaynaklarında Kawkaw, Gogo, Kaukau, Kookou, Kankou"
+   },
+   {
+    "ad": "Gogo",
+    "dil": "und",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'GAO' https://islamansiklopedisi.org.tr/gao",
+    "kanit": "İslâm kaynaklarında adı Kevkev, Batı kaynaklarında Kawkaw, Gogo, Kaukau, Kookou, Kankou"
+   },
+   {
+    "ad": "Kaukau",
+    "dil": "und",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'GAO' https://islamansiklopedisi.org.tr/gao",
+    "kanit": "İslâm kaynaklarında adı Kevkev, Batı kaynaklarında Kawkaw, Gogo, Kaukau, Kookou, Kankou"
+   },
+   {
+    "ad": "Kookou",
+    "dil": "und",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'GAO' https://islamansiklopedisi.org.tr/gao",
+    "kanit": "İslâm kaynaklarında adı Kevkev, Batı kaynaklarında Kawkaw, Gogo, Kaukau, Kookou, Kankou"
+   },
+   {
+    "ad": "Kankou",
+    "dil": "und",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'GAO' https://islamansiklopedisi.org.tr/gao",
+    "kanit": "İslâm kaynaklarında adı Kevkev, Batı kaynaklarında Kawkaw, Gogo, Kaukau, Kookou, Kankou"
+   },
+   {
+    "ad": "Kawkaw",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Gao' https://www.britannica.com/place/Gao-Mali",
+    "kanit": "Gao Mali Ask Anything Homework Help Also known as: Kawkaw"
+   },
+   {
+    "ad": "Gao",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Gao' https://www.britannica.com/place/Gao-Mali",
+    "kanit": "Gao Mali Ask Anything Homework Help Also known as: Kawkaw"
+   }
+  ]
  },
  {
   "id": "gcuwa-p10",
@@ -912,7 +1001,8 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
   "lon": 8.517,
   "kat1900": null,
   "adlar": [
-   "Kano"
+   "Kano",
+   "Kano City"
   ],
   "ilk": {
    "t": "1200-01-01",
@@ -943,7 +1033,23 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
     "kaynak": "TDV İslâm Ansiklopedisi, 'Kano' (Davut Dursun), c. 24, İstanbul 2001, s. 312-313, https://islamansiklopedisi.org.tr/kano"
    }
   ],
-  "ic_not": "Yalnız TDV Kano maddesi (Davut Dursun, c. 24); TDV İngiliz fethi için kesin yıl vermez (Emir Aliyu 1894-1903 dönemi), olay yazılmadı. Atlas başlangıcı (1000) için kaynak aranmalı. TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Uyuşmayanlar: ALINTI DÜZELTİLDİ (ilk.tanik): olgu doğru, önceki alıntı WebFetch özetinden/paraphrase idi; TDV gövdesindeki gerçek cümle yazıldı. Önceki notlardaki \"WebFetch özeti / tam metne karşı doğrulandı (tarayıcı) / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir."
+  "ic_not": "Yalnız TDV Kano maddesi (Davut Dursun, c. 24); TDV İngiliz fethi için kesin yıl vermez (Emir Aliyu 1894-1903 dönemi), olay yazılmadı. Atlas başlangıcı (1000) için kaynak aranmalı. TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Uyuşmayanlar: ALINTI DÜZELTİLDİ (ilk.tanik): olgu doğru, önceki alıntı WebFetch özetinden/paraphrase idi; TDV gövdesindeki gerçek cümle yazıldı. Önceki notlardaki \"WebFetch özeti / tam metne karşı doğrulandı (tarayıcı) / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir.",
+  "ad_kaynak": [
+   {
+    "ad": "Kano",
+    "dil": "ha",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Kano' https://www.britannica.com/place/Kano-Nigeria",
+    "kanit": "Kano, city, capital of Kano state, northern Nigeria"
+   },
+   {
+    "ad": "Kano City",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Kano' https://www.britannica.com/place/Kano-Nigeria",
+    "kanit": "Also known as: Kano City"
+   }
+  ]
  },
  {
   "id": "khami-p9",
@@ -1317,7 +1423,8 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
   "kat1900": 2,
   "adlar": [
    "Loanda",
-   "Luanda"
+   "Luanda",
+   "São Paulo de Luanda"
   ],
   "ilk": {
    "t": "1575-01-01",
@@ -1342,7 +1449,30 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
     "tanik": "Luanda became the administrative centre of the Portuguese colony of Angola in 1627"
    }
   ],
-  "ic_not": "HAKEMLİ KARAR (LAB, 17 Kasım 2026): Hakemli karar: Britannica 1576 (Novais'in kuruluşu); Columbia 'founded in 1575', Oxford 'first settled in 1575', Universalis (P. Vennetier) 'fondée en 1575', A. M. Caldeira (Rev. Tempo, Espaço e Linguagem, 2014) 'povoação fundada em 1575 ... ilha de Luanda'. Dört bağımsız kaynak 1575; seçim 1575 (yerleşme, Luanda Adası). 25 Ocak 1576 (anakara kuruluşu, geleneksel) beyan edilir, kuruluş yılı olarak yazılmaz. || TEK KAYNAK (Britannica). Atlas Luanda'yı 1575-01-01'de portekiz-angola ile başlatır; Britannica kuruluşu 1576 verir (atlas başlangıcı 1 yıl erken; 1576 ≥ atlas başlangıcı olduğundan zincir yazılmadı, sahip[] boş). İkinci bağımsız kaynak okunmadı."
+  "ic_not": "HAKEMLİ KARAR (LAB, 17 Kasım 2026): Hakemli karar: Britannica 1576 (Novais'in kuruluşu); Columbia 'founded in 1575', Oxford 'first settled in 1575', Universalis (P. Vennetier) 'fondée en 1575', A. M. Caldeira (Rev. Tempo, Espaço e Linguagem, 2014) 'povoação fundada em 1575 ... ilha de Luanda'. Dört bağımsız kaynak 1575; seçim 1575 (yerleşme, Luanda Adası). 25 Ocak 1576 (anakara kuruluşu, geleneksel) beyan edilir, kuruluş yılı olarak yazılmaz. || TEK KAYNAK (Britannica). Atlas Luanda'yı 1575-01-01'de portekiz-angola ile başlatır; Britannica kuruluşu 1576 verir (atlas başlangıcı 1 yıl erken; 1576 ≥ atlas başlangıcı olduğundan zincir yazılmadı, sahip[] boş). İkinci bağımsız kaynak okunmadı.",
+  "ad_kaynak": [
+   {
+    "ad": "São Paulo de Luanda",
+    "dil": "pt",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Luanda' https://www.britannica.com/place/Luanda",
+    "kanit": "Also known as: Loanda, São Paulo de Luanda"
+   },
+   {
+    "ad": "Loanda",
+    "dil": "pt",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Luanda' https://www.britannica.com/place/Luanda",
+    "kanit": "Also known as: Loanda, São Paulo de Luanda"
+   },
+   {
+    "ad": "Luanda",
+    "dil": "pt",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Luanda' https://www.britannica.com/place/Luanda",
+    "kanit": "Luanda, city, capital of Angola."
+   }
+  ]
  },
  {
   "id": "mapungubwe-p9",
@@ -1413,7 +1543,11 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
   "kat1900": 1,
   "adlar": [
    "Cape Mesurado (burun adı, TDV)",
-   "Monrovia (ABD Başkanı James Monroe adına, TDV)"
+   "Monrovia (ABD Başkanı James Monroe adına, TDV)",
+   "Cape Mesurado",
+   "Monrovia",
+   "Монровия",
+   "Мезурадо"
   ],
   "ilk": {
    "t": "1822-01-01",
@@ -1458,7 +1592,37 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
     "kaynak": "TDV İslâm Ansiklopedisi, 'Liberya' (Davut Dursun), c. 27, Ankara 2003, s. 173-174, https://islamansiklopedisi.org.tr/liberya"
    }
   ],
-  "ic_not": "Yalnız TDV Liberya maddesi; Monrovia'ya özel bir TDV maddesi yok. Cape Montserado satın alma (1821) ve 'Christopolis' adı kaynakla bağlanamadığı için yazılmadı. TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Uyuşmayanlar: ALINTI DÜZELTİLDİ (ilk.tanik): olgu doğru, önceki alıntı WebFetch özetinden/paraphrase idi; TDV gövdesindeki gerçek cümle yazıldı. Önceki notlardaki \"WebFetch özeti / tam metne karşı doğrulandı (tarayıcı) / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir."
+  "ic_not": "Yalnız TDV Liberya maddesi; Monrovia'ya özel bir TDV maddesi yok. Cape Montserado satın alma (1821) ve 'Christopolis' adı kaynakla bağlanamadığı için yazılmadı. TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Uyuşmayanlar: ALINTI DÜZELTİLDİ (ilk.tanik): olgu doğru, önceki alıntı WebFetch özetinden/paraphrase idi; TDV gövdesindeki gerçek cümle yazıldı. Önceki notlardaki \"WebFetch özeti / tam metne karşı doğrulandı (tarayıcı) / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir.",
+  "ad_kaynak": [
+   {
+    "ad": "Cape Mesurado",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'LİBERYA' https://islamansiklopedisi.org.tr/liberya",
+    "kanit": "ilk Amerikalı zenciler grubunu Cape Mesurado sahil kesimine yerleştirmeyi"
+   },
+   {
+    "ad": "Monrovia",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'LİBERYA' https://islamansiklopedisi.org.tr/liberya",
+    "kanit": "James Monroe’ya izâfeten Monrovia adı verildi"
+   },
+   {
+    "ad": "Монровия",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Монровия' https://ru.wikisource.org/wiki/ЭСБЕ/Монровия",
+    "kanit": "Монровия (Monrovia) — столица африк. негрит. республики Либерии"
+   },
+   {
+    "ad": "Мезурадо",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Монровия' https://ru.wikisource.org/wiki/ЭСБЕ/Монровия",
+    "kanit": "с гаванью на мысе Мезурадо"
+   }
+  ]
  },
  {
   "id": "mutare-p10",
@@ -1585,7 +1749,9 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
   "lon": 28.1878,
   "kat1900": 1,
   "adlar": [
-   "Pretoria"
+   "Pretoria",
+   "Tshwane",
+   "Претория"
   ],
   "ilk": {
    "t": "1855-01-01",
@@ -1644,7 +1810,30 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
     "kaynak": "SAHO, Pretoria Timeline 1800-2009"
    }
   ],
-  "ic_not": "Yalnız SAHO ve akademisyen (Pretorius) kaynaklarıyla yazıldı. 1900 Eylül'ünde bazı kaynaklar 'Pretoria ve Johannesburg işgali' der (muhtemelen resmî ilhak); 5 Haziran işgal günü Pretorius'a göredir, Eylül tarihi doğrulanmadı. Britannica 403 verdi. | Parti5 tanık kuralı (17 Kasım 2026): tanik cümleden birebir yenilendi [ilk]: SAHO Timeline 1800-2009 satırı; eski tanik ad/yıl içermiyordu"
+  "ic_not": "Yalnız SAHO ve akademisyen (Pretorius) kaynaklarıyla yazıldı. 1900 Eylül'ünde bazı kaynaklar 'Pretoria ve Johannesburg işgali' der (muhtemelen resmî ilhak); 5 Haziran işgal günü Pretorius'a göredir, Eylül tarihi doğrulanmadı. Britannica 403 verdi. | Parti5 tanık kuralı (17 Kasım 2026): tanik cümleden birebir yenilendi [ilk]: SAHO Timeline 1800-2009 satırı; eski tanik ad/yıl içermiyordu",
+  "ad_kaynak": [
+   {
+    "ad": "Pretoria",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Pretoria' https://www.britannica.com/place/Pretoria",
+    "kanit": "In 2000 Pretoria became part of the Tshwane Metropolitan Municipality"
+   },
+   {
+    "ad": "Tshwane",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Pretoria' https://www.britannica.com/place/Pretoria",
+    "kanit": "Also known as: Tshwane"
+   },
+   {
+    "ad": "Претория",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Претория' https://ru.wikisource.org/wiki/ЭСБЕ/Претория",
+    "kanit": "Претория — стол. бывш."
+   }
+  ]
  },
  {
   "id": "serowe-p9",
@@ -1679,7 +1868,11 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
   "lon": 5.234,
   "kat1900": null,
   "adlar": [
-   "Sokoto"
+   "Sokoto",
+   "Sakvato",
+   "Sakkwato",
+   "Sakata",
+   "Birnin Şeyhu da Bello"
   ],
   "ilk": {
    "t": "1804-01-01",
@@ -1740,7 +1933,44 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
     "kaynak": "TDV İslâm Ansiklopedisi, 'Sokoto' (Ahmet Kavas), c. 37, İstanbul 2009, s. 351-352, https://islamansiklopedisi.org.tr/sokoto"
    }
   ],
-  "ic_not": "Yalnız TDV; çift teyit yok. TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Uyuşmayanlar: ALINTI DÜZELTİLDİ (ilk.tanik): olgu doğru, önceki alıntı WebFetch özetinden/paraphrase idi; TDV gövdesindeki gerçek cümle yazıldı. Önceki notlardaki \"WebFetch özeti / tam metne karşı doğrulandı (tarayıcı) / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir. | Parti5 tanık kuralı (17 Kasım 2026): tanik cümleden birebir yenilendi [ilk]: TDV cümlesi başına ad eklendi"
+  "ic_not": "Yalnız TDV; çift teyit yok. TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Uyuşmayanlar: ALINTI DÜZELTİLDİ (ilk.tanik): olgu doğru, önceki alıntı WebFetch özetinden/paraphrase idi; TDV gövdesindeki gerçek cümle yazıldı. Önceki notlardaki \"WebFetch özeti / tam metne karşı doğrulandı (tarayıcı) / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir. | Parti5 tanık kuralı (17 Kasım 2026): tanik cümleden birebir yenilendi [ilk]: TDV cümlesi başına ad eklendi",
+  "ad_kaynak": [
+   {
+    "ad": "Sakvato",
+    "dil": "ha",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'SOKOTO' https://islamansiklopedisi.org.tr/sokoto",
+    "kanit": "adı Hevsâ dilinde Sakvato, Sakkwato ve Sakata olarak geçer"
+   },
+   {
+    "ad": "Sakkwato",
+    "dil": "ha",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'SOKOTO' https://islamansiklopedisi.org.tr/sokoto",
+    "kanit": "adı Hevsâ dilinde Sakvato, Sakkwato ve Sakata olarak geçer"
+   },
+   {
+    "ad": "Sakata",
+    "dil": "ha",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'SOKOTO' https://islamansiklopedisi.org.tr/sokoto",
+    "kanit": "adı Hevsâ dilinde Sakvato, Sakkwato ve Sakata olarak geçer"
+   },
+   {
+    "ad": "Birnin Şeyhu da Bello",
+    "dil": "und",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'SOKOTO' https://islamansiklopedisi.org.tr/sokoto",
+    "kanit": "Kurucularına nisbetle şehre Birnin Şeyhu da Bello da"
+   },
+   {
+    "ad": "Sokoto",
+    "dil": "tr",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'SOKOTO' https://islamansiklopedisi.org.tr/sokoto",
+    "kanit": "Nijerya’nın kuzeybatısında Nijer sınırına çok yakın bir yerde bulunan Sokoto’nun adı"
+   }
+  ]
  },
  {
   "id": "timbo-p10",
@@ -1788,7 +2018,13 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
    "Tinbüktü (TDV İA yazımı)",
    "تنبكتو (Tinbuktu)",
    "Timbuktu",
-   "Tombouctou (Fransızca)"
+   "Tombouctou (Fransızca)",
+   "Tinbüktü",
+   "تنبوكتو",
+   "Timbükt",
+   "Tenbuch",
+   "Timbaktu",
+   "Tombouctou"
   ],
   "ilk": {
    "t": "1100-01-01",
@@ -1850,7 +2086,65 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
    }
   ],
   "dikis_beyan": "Atlas Timbuktu'yu 1281-01-01'den Mali'ye bağlıyor; TDV Tinbüktü'nün Mali'ye geçişini Mansa Mûsâ dönemine (1329) bağlar ve 1281 için tanık vermez. 1281'e ±30 gün olay bulunamadı; yer tutucu olay yazılmadı.",
-  "ic_not": "Kaynak: yalnız TDV (Tinbüktü, Mali, Gâne maddeleri okundu). Başka akademik kaynakla (ör. Hunwick, Timbuktu and the Songhay Empire, 1999) çift teyit YAPILMADI. 1430 sonrası zincir atlas esasıdır (burada yazılmadı); TDV'de 1430, 1468, 1591, 1750 (Arma), 1760 (Tevârik), ~1770 (Segu Bambara), 1792 (Tevârik), 1894 (Fransız) günleri yalnız yıl hassasiyetindedir. TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Önceki notlardaki \"WebFetch özeti / tam metne karşı doğrulandı (tarayıcı) / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir. | Parti5 tanık kuralı (17 Kasım 2026): kesinlik belirsiz'e indirildi (ad+yıl aynı cümlede birebir bulunamadı) [ilk]: madde konusu cümlesi: kaynak cümlesinde şehir adı yok (özne 'şehir/kasaba/burası' ya da madde başlığı), aynı cümlede ad+yıl bulunamadı ('Şehrin tarihi XI. yüzyılın sonlarına kadar iner'); TDV'de ad+yıl: Mense Mûsâ 729/1329 ve İbn Battûta 754/1353 (daha geç) Parti5 geri alma (koordinatör kararı): tanık cümlesi madde konusu şehre atıflı (madde: TDV İslâm Ansiklopedisi); ilk.kesinlik 'belirsiz' → 'yuzyil' geri alındı."
+  "ic_not": "Kaynak: yalnız TDV (Tinbüktü, Mali, Gâne maddeleri okundu). Başka akademik kaynakla (ör. Hunwick, Timbuktu and the Songhay Empire, 1999) çift teyit YAPILMADI. 1430 sonrası zincir atlas esasıdır (burada yazılmadı); TDV'de 1430, 1468, 1591, 1750 (Arma), 1760 (Tevârik), ~1770 (Segu Bambara), 1792 (Tevârik), 1894 (Fransız) günleri yalnız yıl hassasiyetindedir. TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Önceki notlardaki \"WebFetch özeti / tam metne karşı doğrulandı (tarayıcı) / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir. | Parti5 tanık kuralı (17 Kasım 2026): kesinlik belirsiz'e indirildi (ad+yıl aynı cümlede birebir bulunamadı) [ilk]: madde konusu cümlesi: kaynak cümlesinde şehir adı yok (özne 'şehir/kasaba/burası' ya da madde başlığı), aynı cümlede ad+yıl bulunamadı ('Şehrin tarihi XI. yüzyılın sonlarına kadar iner'); TDV'de ad+yıl: Mense Mûsâ 729/1329 ve İbn Battûta 754/1353 (daha geç) Parti5 geri alma (koordinatör kararı): tanık cümlesi madde konusu şehre atıflı (madde: TDV İslâm Ansiklopedisi); ilk.kesinlik 'belirsiz' → 'yuzyil' geri alındı.",
+  "ad_kaynak": [
+   {
+    "ad": "Tinbüktü",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Tinbüktü' https://islamansiklopedisi.org.tr/tinbuktu",
+    "kanit": "Tinbüktü (Timbüktü) şehri"
+   },
+   {
+    "ad": "Timbüktü",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Tinbüktü' https://islamansiklopedisi.org.tr/tinbuktu",
+    "kanit": "Tinbüktü (Timbüktü) şehri"
+   },
+   {
+    "ad": "تنبوكتو",
+    "dil": "ar",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Tinbüktü' https://islamansiklopedisi.org.tr/tinbuktu",
+    "kanit": "şehrin adını Tinbûktû (تنبوكتو) şeklinde yazmaktadır"
+   },
+   {
+    "ad": "Timbükt",
+    "dil": "ar",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Tinbüktü' https://islamansiklopedisi.org.tr/tinbuktu",
+    "kanit": "Bazı Arapça kaynaklarda Timbükt olarak geçen isim"
+   },
+   {
+    "ad": "Tenbuch",
+    "dil": "ar",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Tinbüktü' https://islamansiklopedisi.org.tr/tinbuktu",
+    "kanit": "Tenbuch biçiminde kaydedilmiş"
+   },
+   {
+    "ad": "Timbaktu",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Tinbüktü' https://islamansiklopedisi.org.tr/tinbuktu",
+    "kanit": "İngilizce’ye Timbaktu"
+   },
+   {
+    "ad": "Tombouctou",
+    "dil": "fr",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Tinbüktü' https://islamansiklopedisi.org.tr/tinbuktu",
+    "kanit": "Fransızca’ya Tombouctou diye geçmiştir"
+   },
+   {
+    "ad": "Timbuktu",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Timbuktu' https://www.britannica.com/place/Timbuktu-Mali",
+    "kanit": "Timbuktu was named for an old woman left to oversee the camp"
+   }
+  ]
  },
  {
   "id": "valata-af-p9",
