@@ -5847,7 +5847,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"edo-bakufu", ad:"Edo (Tokugawa) Şogunluğu", tur:"devlet", bolge:"dogu-asya",
-  f:"1603-03-24", t:"1868-01-03", baskent:"Edo (Tokyo)", harita:"edo-bakufu",
+  f:"1603-03-24", t:"1868-05-03", ic_not_t:"17 Kasım 2026 (Emre: 'edo-bakufu ömrü uzatılsın'; CLAUDE.md: aynı polity sürüyorsa künyeyi GENİŞLET): 1868-01-03 = Meiji Restorasyonu ilanı (Ōsei fukko, Keiō 3/12/9), ama Edo Kalesi'nin Katsu Kaishū eliyle devri Keiō 4/4/11 (AY-GÜNEŞ) = 1868-05-03 Gregoryen (NAOJ takvim çevirisi; Toba-Fushimi Keiō 4/1/3 = 27 Ocak 1868 ankrajıyla 4. ay ≈ 23 Nisan başı). ⚠️ 'Nisan 11' ay-güneş ay gününün Gregoryen sanılması hatasıdır. Ay-güneş çevirisi + teslim günü kaynakları: Samurai Archives 'Boshin War' ('4/11' Edo'ya kansız giriş), MIT 21H.154 lec19 ('May 3, 1868 Edo castle handed over') — İKİSİ DE AKADEMİK İKİNCİ KAYNAK DEĞİL; Jansen / Cambridge History of Japan c.5 sayfası OKUNMADI (tek akademik kaynak: okunmadı). Meiji (f 1868-01-03) ile 4 ay iki devlet birlikte var: tarihsel olarak doğru. Yokohama 'Kanagawa bugyō sonu' bu günle KARIŞTIRILMAZ (ayrı tarih, kaynaklanacak).", baskent:"Edo (Tokyo)", harita:"edo-bakufu",
   ozet:"Nobunaga ve Hideyoshi'nin başlattığı birleşme sürecini Sekigahara zaferiyle tamamlayan Tokugawa Ieyasu'nun kurduğu, 250 yıl süren \"sakoku\" (dışa kapalılık) politikasıyla tanınan şogunluk; Meiji Restorasyonu'yla yıkıldı.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[

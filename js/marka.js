@@ -162,4 +162,15 @@
   }
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", kur);
   else kur();
+
+  // ④ SERVİS İŞÇİSİ (P1): sürümlü dosyaları ömür boyu önbellekler — sw.js başlığı.
+  //    İlk boyamayı geciktirmesin diye `load`dan sonra kaydolur. `?sw=0` kapatır.
+  try {
+    if ("serviceWorker" in navigator && !/[?&]sw=0/.test(ARAMA) &&
+        (location.protocol === "https:" || location.hostname === "localhost")) {
+      window.addEventListener("load", function () {
+        navigator.serviceWorker.register("sw.js").catch(function () { /* kayıt başarısız: site yine çalışır */ });
+      });
+    }
+  } catch (e) { /* eski tarayıcı */ }
 })();

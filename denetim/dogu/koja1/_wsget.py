@@ -7,7 +7,7 @@ os.makedirs(D, exist_ok=True)
 lang = sys.argv[1]
 for t in sys.argv[2:]:
     u = 'https://%s.wikisource.org/w/api.php?action=query&prop=revisions&rvprop=content&rvslots=main&format=json&formatversion=2&redirects=1&titles=%s' % (lang, urllib.parse.quote(t))
-    r = urllib.request.Request(u, headers={'User-Agent': 'AtlasResearch/1.0 (emremre07@gmail.com)'})
+    r = urllib.request.Request(u, headers={'User-Agent': 'AtlasResearch/1.0 (+https://kronoatlas.com)'})
     for k in range(3):
         try:
             j = json.load(urllib.request.urlopen(r, timeout=60)); break

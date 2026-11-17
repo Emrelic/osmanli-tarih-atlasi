@@ -1,0 +1,97 @@
+[
+ {
+  "id": "ibadan-p10",
+  "ad": "Ibadan",
+  "atlas_ad": null,
+  "lat": 7.37756,
+  "lon": 3.90591,
+  "kat1900": null,
+  "adlar": [
+   "Ibadan"
+  ],
+  "ilk": {
+   "t": "1829-01-01",
+   "gun": "1829",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, «Ibadan» (Britannica editörleri), https://www.britannica.com/place/Ibadan (tarayıcı sayfa okuma, 17 Kasım 2026)",
+   "tanik": "Recorded history begins in 1829"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1829-01-01",
+    "t": "1893-01-01",
+    "d": "ibadan",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, «Ibadan» (Britannica editörleri), https://www.britannica.com/place/Ibadan (tarayıcı sayfa okuma, 17 Kasım 2026)"
+   },
+   {
+    "f": "1893-01-01",
+    "t": "1900-01-01",
+    "d": "ingiliz-nijerya",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, «Ibadan» (Britannica editörleri), https://www.britannica.com/place/Ibadan (tarayıcı sayfa okuma, 17 Kasım 2026)"
+   }
+  ],
+  "olay": [
+   {
+    "t": "1829-01-01",
+    "gun": "1829",
+    "k": "diger",
+    "b": "Ibadan'ın kayıtlı tarihi başlar (savaşlarla sarsılan bölgede)",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, «Ibadan» (Britannica editörleri), https://www.britannica.com/place/Ibadan (tarayıcı sayfa okuma, 17 Kasım 2026)",
+    "tanik": "Recorded history begins in 1829"
+   },
+   {
+    "t": "1893-01-01",
+    "gun": "1893",
+    "k": "diger",
+    "b": "İngiliz sömürge hükümeti Ibadan'ın denetimini üstlendi",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, «Ibadan» (Britannica editörleri), https://www.britannica.com/place/Ibadan (tarayıcı sayfa okuma, 17 Kasım 2026)",
+    "tanik": "The British colonial government assumed control of the city in 1893"
+   }
+  ],
+  "ic_not": "TEK KAYNAK (Britannica); çift teyit yok (Encyclopedia.com Ibadan sayfasında yıllı cümle okunamadı; UNESCO/Persée/Cambridge bu şehir için bulunmadı). Gün yok, yıl hassasiyeti. Tanık cümlesinde özne zamir/ad-gösterme = madde konusu; başlık şehir (koordinatör kararı, parti 9 ile aynı). Tanık 1: 'Recorded history begins in 1829' (şehir adı cümlede yok; madde başlığı Ibadan). 1829 'kayıtlı tarihin başlangıcı'dır, kuruluş günü değil: nicelik ilk_anilis. Tanık 2 (1893): 'The British colonial government assumed control of the city in 1893' (özne 'the city'). SAHİP ZİNCİRİ BEYANLI: 1829→1893 'ibadan' ve 1893→1900 'ingiliz-nijerya' kaynak cümlesinde devlet adı yoktur; yalnız iki YIL kaynaklıdır (1829 başlangıç, 1893 İngiliz denetimi); 'ibadan' id'si atlas künyesidir (devletler.js: f 1829-01-01, t 1893-08-15), dayanak sayılmaz. 1900-01-01 yalnız atlas yokluğu bağıdır (kaynak değil). Britannica ayrıca 1901 Lagos demiryolu, 1912 Kano hattı, 1948 üniversite der (zincirde değil)."
+ },
+ {
+  "id": "laayoune-p10",
+  "ad": "Laayoune",
+  "atlas_ad": null,
+  "lat": 27.1418,
+  "lon": -13.18797,
+  "kat1900": null,
+  "adlar": [
+   "Laayoune",
+   "El-Ayûn"
+  ],
+  "ilk": {
+   "t": "1938-01-01",
+   "gun": "1938",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, «Laayoune» (Britannica editörleri), https://www.britannica.com/place/Laayoune (tarayıcı sayfa okuma, 17 Kasım 2026)",
+   "tanik": "was developed by the Spaniards in 1938 as the administrative, military, and European population centre"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1938-01-01",
+    "gun": "1938",
+    "k": "kurulus",
+    "b": "Kasaba İspanyollarca eski eyaletin idarî, askerî ve Avrupalı nüfus merkezi olarak geliştirildi",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, «Laayoune» (Britannica editörleri), https://www.britannica.com/place/Laayoune (tarayıcı sayfa okuma, 17 Kasım 2026)",
+    "tanik": "was developed by the Spaniards in 1938 as the administrative, military, and European population centre"
+   }
+  ],
+  "ic_not": "TEK KAYNAK (Britannica); çift teyit yok (Encyclopedia.com Ibadan sayfasında yıllı cümle okunamadı; UNESCO/Persée/Cambridge bu şehir için bulunmadı). Gün yok, yıl hassasiyeti. Tanık cümlesinde özne zamir/ad-gösterme = madde konusu; başlık şehir (koordinatör kararı, parti 9 ile aynı). Tam cümle: 'The town, whose Arabic name means “water sources,” was developed by the Spaniards in 1938 as the administrative, military, and European population centre of the former province.' 'Developed' kuruluş/geliştirme (kuruluş sözcüğü yok): nicelik kurulus kaynağın 'developed' ifadesine dayanır, kesin kuruluş günü bilinmiyor. Britannica ayrıca 1976 (İspanya çekilişi, Fas-Sahravi savaşı) anar (şehir olgusu değil). Sahip zinciri yazılmadı (kaynak 'İspanyollar' der, devlet/dönem vermez; 1938 > 1900)."
+ }
+]

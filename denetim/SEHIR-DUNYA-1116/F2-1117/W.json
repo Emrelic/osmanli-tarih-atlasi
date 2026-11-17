@@ -1,0 +1,135 @@
+[
+ {
+  "id": "zinder-af-p9",
+  "ad": "Zinder",
+  "atlas_ad": "Zinder",
+  "lat": 13.803,
+  "lon": 8.988,
+  "kat1900": null,
+  "adlar": [
+   "Zinder (Damagaram)"
+  ],
+  "ilk": {
+   "t": "1899-01-01",
+   "gun": "1899",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, «Zinder» (Britannica editörleri), https://www.britannica.com/place/Zinder (tarayıcı sayfa okuma, 17 Kasım 2026)",
+   "tanik": "The city was occupied by French troops in 1899"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1899-01-01",
+    "gun": "1899",
+    "k": "fetih",
+    "b": "Fransız birlikleri Zinder'i işgal etti (Damagaram hanedanlığının başkentiydi)",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, «Zinder» (Britannica editörleri), https://www.britannica.com/place/Zinder (tarayıcı sayfa okuma, 17 Kasım 2026)",
+    "tanik": "The city was occupied by French troops in 1899"
+   }
+  ],
+  "ic_not": "TEK KAYNAK (Britannica); çift teyit yok. Gün yok, yıl hassasiyeti. Zincir (sahip) YAZILMADI: kaynak 'şu yer şu devletin' biçiminde sahip/dönem günü vermiyor. Britannica 'XVIII. yüzyılda kurulan Müslüman hanedanın başkenti' der (yüzyıl; kayıt açılmadı); yıllı ilk tanık 1899 işgalidir, bu yüzden nicelik ilk_anilis ve 1899 YALNIZ yıllı en erken tanıktır, şehrin gerçek ilk anılışı daha eskidir. ATLAS: kronoloji maddesi 1960 — başlangıç iddiası bu kaynakta doğrulanamadı."
+ },
+ {
+  "id": "bamako-af-p9",
+  "ad": "Bamako",
+  "atlas_ad": "Bamako",
+  "lat": 12.65,
+  "lon": -8.0,
+  "kat1900": null,
+  "adlar": [
+   "Bamako"
+  ],
+  "ilk": {
+   "t": "1880-01-01",
+   "gun": "1880",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, «Bamako» (Britannica editörleri), https://www.britannica.com/place/Bamako (tarayıcı sayfa okuma, 17 Kasım 2026)",
+   "tanik": "When occupied for the French in 1880 by Captain Joseph-Simon Gallieni, Bamako was a settlement"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1880-01-01",
+    "gun": "1880",
+    "k": "fetih",
+    "b": "Yüzbaşı Gallieni Bamako'yu Fransa adına işgal etti; o gün birkaç yüz kişilik köyler topluluğuydu",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, «Bamako» (Britannica editörleri), https://www.britannica.com/place/Bamako (tarayıcı sayfa okuma, 17 Kasım 2026)",
+    "tanik": "When occupied for the French in 1880 by Captain Joseph-Simon Gallieni, Bamako was a settlement"
+   },
+   {
+    "t": "1908-01-01",
+    "gun": "1908",
+    "k": "diger",
+    "b": "Bamako Fransız Sudan kolonisinin başkenti oldu",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, «Bamako» (Britannica editörleri), https://www.britannica.com/place/Bamako (tarayıcı sayfa okuma, 17 Kasım 2026)",
+    "tanik": "It became the capital of the former colony of French Sudan in 1908"
+   }
+  ],
+  "ic_not": "TEK KAYNAK (Britannica); çift teyit yok. Gün yok, yıl hassasiyeti. Zincir (sahip) YAZILMADI: kaynak 'şu yer şu devletin' biçiminde sahip/dönem günü vermiyor. Nicelik ilk_anilis: 1880 yıllı en erken tanıktır, şehrin kuruluşu değildir (Britannica 'a settlement of a few hundred inhabitants' der)."
+ },
+ {
+  "id": "dikwa-af-p9",
+  "ad": "Dikva",
+  "atlas_ad": "Dikva (Dikeo)",
+  "lat": 12.04,
+  "lon": 13.917,
+  "kat1900": null,
+  "adlar": [
+   "Dikwa",
+   "Dikoa"
+  ],
+  "ilk": {
+   "t": "1902-01-01",
+   "gun": "1902",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, «Dikwa» (Britannica editörleri), https://www.britannica.com/place/Dikwa (tarayıcı sayfa okuma, 17 Kasım 2026)",
+   "tanik": "Dikwa remained the shehu’s seat until 1902"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1902-01-01",
+    "gun": "1902",
+    "k": "diger",
+    "b": "Dikwa 1902'ye kadar Bornu şehusunun makamı olarak kaldı",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, «Dikwa» (Britannica editörleri), https://www.britannica.com/place/Dikwa (tarayıcı sayfa okuma, 17 Kasım 2026)",
+    "tanik": "Dikwa remained the shehu’s seat until 1902"
+   },
+   {
+    "t": "1922-01-01",
+    "gun": "1922",
+    "k": "diger",
+    "b": "Dikwa emirliği Milletler Cemiyeti Britanya Kamerunu mandasına katıldı",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, «Dikwa» (Britannica editörleri), https://www.britannica.com/place/Dikwa (tarayıcı sayfa okuma, 17 Kasım 2026)",
+    "tanik": "and in 1922 Dikwa emirate became part of the League of Nations mandate"
+   },
+   {
+    "t": "1942-01-01",
+    "gun": "1942",
+    "k": "diger",
+    "b": "Emirlik merkezi Dikwa'dan Bama'ya taşındı",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, «Dikwa» (Britannica editörleri), https://www.britannica.com/place/Dikwa (tarayıcı sayfa okuma, 17 Kasım 2026)",
+    "tanik": "In 1942 the emirate headquarters was moved from Dikwa town to Bama"
+   }
+  ],
+  "ic_not": "TEK KAYNAK (Britannica); çift teyit yok. Gün yok, yıl hassasiyeti. Zincir (sahip) YAZILMADI: kaynak 'şu yer şu devletin' biçiminde sahip/dönem günü vermiyor. Britannica: kuruluş ve surların tarihi 'bilinmiyor'; şehir 1850'lerde 'Bornu krallığının önemli merkezi' (onyıl; yıl değil, yazılmadı). 1893'te Rābiḥ Dikwa'yı yeni Bornu başkenti seçti (cümle tek yıl+şehir tanığı 15 kelimeyi aşıyor, o yüzden olay yazılmadı); 1900'de Rābiḥ'in öldürülmesi, 1902'de şehrin şehu makamı olmaktan çıkması aşağıda. ATLAS: Dikva kat 3 'kanem-bornu'; sahip zincirinde tarih yok."
+ }
+]

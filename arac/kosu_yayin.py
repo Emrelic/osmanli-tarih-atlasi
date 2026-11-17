@@ -314,6 +314,7 @@ def main():
             + "\n"
             "Gunluk: kosu_otomatik.log\n")
         var = L["liste"]              # ⑦a'da ölçüldü; diskte yoksa orada DURDU
+        var = var + L.get("sil", [])  # P1 ②: diskten silinen eski dilim parçaları (git add silmeyi işler)
         r = subprocess.run(["git", "-C", KOK, "add", "--"] + var,
                            capture_output=True, text=True,
                            encoding="utf-8", errors="replace")

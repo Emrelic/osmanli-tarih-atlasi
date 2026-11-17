@@ -1,0 +1,67 @@
+id	kat	ulke	ad_1900	ad_modern	lat	lon	koord_kaynak	atlas_ad	atlas_km	tarihce_id	adlar_tarih_sirali	kaynak_1900	not	bugun_var	bugun_ad	bugun_not	satir_turu
+irkutsk	2	Rusya	Irkutsk	Irkutsk	52.287	104.281	atlas-yerlesim-ad-eslesmesi	İrkutsk				Statoids uru (Rus İmp. il tablosu)	kiril: Иркутск	E			mevcut
+krasnoyarsk	2	Rusya	Krasnoyarsk	Krasnoyarsk	56.0106	92.8526	atlas-yerlesim-ad-eslesmesi	Krasnoyarsk				Statoids uru (Rus İmp. il tablosu)	Yenisey; kiril: Красноярск	E			mevcut
+omsk	2	Rusya	Omsk	Omsk	54.9885	73.3242	atlas-yerlesim-ad-eslesmesi	Omsk				Statoids uru (Rus İmp. il tablosu)	Akmola obl.; aynı zamanda Omsk uyezdi merkezi; kiril: Омск	E			mevcut
+tobolsk	2	Rusya	Tobolsk	Tobolsk	58.199	68.256	atlas-yerlesim-ad-eslesmesi	Tobolsk (İsker)		tobolsk		Statoids uru (Rus İmp. il tablosu)	kiril: Тобольск	E			mevcut
+tomsk	2	Rusya	Tomsk	Tomsk	56.4884	84.948	atlas-yerlesim-ad-eslesmesi	Tomsk				Statoids uru (Rus İmp. il tablosu)	kiril: Томск	E			mevcut
+vladivostok	2	Rusya	Vladivostok	Vladivostok	43.115	131.885	atlas-yerlesim-ad-eslesmesi	Vladivostok				ESBE Приморская область	Primorskaya; ESBE: oblast idaresi 1888'de Habarovka'dan Vladivostok'a taşındı. Statoids tablosu Khabarovsk yazar (çelişki — ESBE esas). Aynı zamanda Güney-Ussuri okrugu merkezi; kiril: Владивосток	E			mevcut
+yakutsk	2	Rusya	Yakutsk	Yakutsk	62.0281	129.7325	atlas-yerlesim-ad-eslesmesi	Yakutsk				Statoids uru (Rus İmp. il tablosu)	kiril: Якутск	E			mevcut
+bulunamadi	3	Rusya	bulunamadı									Demoscope 1897 (rus_gub_97 reg=73)	Demoscope: городов нет; kiril birim: Усинский округ	?		Yer tutucu satır (şehir değil: 'bulunamadı'); sınıflanamaz	mevcut
+bulunamadi	3	Rusya	bulunamadı									Demoscope 1897 (rus_gub_97 reg=76)	Demoscope: города нет; kiril birim: Уссурийская округа	?		Yer tutucu satır (şehir değil: 'bulunamadı'); sınıflanamaz	mevcut
+achinsk	3	Rusya	Achinsk	Achinsk								Demoscope 1897 (rus_gub_97 reg=73)	kiril: Ачинск	E			mevcut
+aksha	3	Rusya	Aksha	Aksha								Demoscope 1897 (rus_gub_97 reg=74)	kiril: Акша	E			mevcut
+balagansk	3	Rusya	Balagansk	Balagansk	54.0	103.05	atlas-yerlesim-ad-eslesmesi	Balagansk				Demoscope 1897 (rus_gub_97 reg=75)	kiril: Балаганск	D	Balagansk	Eski Balagansk Bratsk Barajı (1960'lar) sularında kaldı, kent yeniden kuruldu (genel bilgi; doğrulanmadı)	mevcut
+barguzin	3	Rusya	Barguzin	Barguzin	53.62	109.65	atlas-yerlesim-ad-eslesmesi	Barguzin				Demoscope 1897 (rus_gub_97 reg=74)	kiril: Баргузин	E			mevcut
+barnaul	3	Rusya	Barnaul	Barnaul	53.348	83.778	atlas-yerlesim-ad-eslesmesi	Barnaul				Demoscope 1897 (rus_gub_97 reg=79)	kiril: Барнаул	E			mevcut
+beryozovo	3	Rusya	Berezovo	Beryozovo								Demoscope 1897 (rus_gub_97 reg=78)	kiril: Березово	E			mevcut
+biysk	3	Rusya	Biysk	Biysk	52.539	85.214	atlas-yerlesim-ad-eslesmesi	Biysk				Demoscope 1897 (rus_gub_97 reg=79)	kiril: Бийск	E			mevcut
+eniseysk	3	Rusya	Eniseysk	Eniseysk								Demoscope 1897 (rus_gub_97 reg=73)	kiril: Енисейск	E			mevcut
+gizhiga-(terk-edilmis)	3	Rusya	Gizhiga	Gizhiga (terk edilmiş)								Demoscope 1897 (rus_gub_97 reg=76)	kiril: Гижига	E		Gizhiga bugün küçük köy (~238 nüfus 2019, Wikidata); terk edilmiş değil, liste notu yanlış	mevcut
+irbit	3	Rusya	Irbit	Irbit	57.68	63.06	atlas-yerlesim-ad-eslesmesi	Irbit				Demoscope 1897 (rus_gub_97 reg=31)	kiril: Ирбит	E			mevcut
+ishim	3	Rusya	Ishim	Ishim								Demoscope 1897 (rus_gub_97 reg=78)	kiril: Ишим	E			mevcut
+kansk	3	Rusya	Kansk	Kansk	56.2	95.71	atlas-yerlesim-ad-eslesmesi	Kansk				Demoscope 1897 (rus_gub_97 reg=73)	kiril: Канск	E			mevcut
+khabarovsk	3	Rusya	Khabarovsk	Khabarovsk								Demoscope 1897 (rus_gub_97 reg=76)	kiril: Хабаровск	E			mevcut
+kirensk	3	Rusya	Kirensk	Kirensk	57.78	108.11	atlas-yerlesim-ad-eslesmesi	Kirensk				Demoscope 1897 (rus_gub_97 reg=75)	birimdeki öteki şehirler: Илимск; kiril: Киренск	E			mevcut
+kirovskoye-(sahalin)	3	Rusya	Rykovskoe	Kirovskoye (Sahalin)	50.707	142.727	atlas-yerlesim-ad-eslesmesi	Rykovskoye (Kirovskoye)				Demoscope 1897 (rus_gub_97 reg=77)	merkez adı birim adından farklı; Demoscope yerleşim türü: с.; kiril: Рыковское	D	Kirovskoye	Rykovskoe→Kirovskoye 1937 (genel bilgi; doğrulanmadı)	mevcut
+korsakov	3	Rusya	Korsakovskiy post	Korsakov	46.633	142.786	atlas-yerlesim-ad-eslesmesi	Korsakov (Güney Sahalin)				Demoscope 1897 (rus_gub_97 reg=77)	kiril: Корсаковский пост	E		1905-1945 Japon Otomari; bugün Korsakov	mevcut
+kurgan	3	Rusya	Kurgan	Kurgan	55.45	65.34	atlas-yerlesim-ad-eslesmesi	Kurgan				Demoscope 1897 (rus_gub_97 reg=78)	kiril: Курган	E			mevcut
+kuybyshev	3	Rusya	Kainsk	Kuybyshev	55.36	78.36	atlas-yerlesim-ad-eslesmesi	Kainsk (Baraba)				Demoscope 1897 (rus_gub_97 reg=79)	kiril: Каинск	D	Kuybyshev	Kainsk→Kuybyshev 1935 (Novosibirsk Obl.)	mevcut
+kyakhta	3	Rusya	Troitskosavsk	Kyakhta								Demoscope 1897 (rus_gub_97 reg=74)	kiril: Троицкосавск	D	Kyakhta	Troitskosavsk→Kyakhta 1935	mevcut
+mariinsk	3	Rusya	Mariinsk	Mariinsk								Demoscope 1897 (rus_gub_97 reg=79)	kiril: Мариинск	E			mevcut
+markovo	3	Rusya	Markovo	Markovo	64.68	170.42	atlas-yerlesim-ad-eslesmesi	Markovo				Demoscope 1897 (rus_gub_97 reg=76)	merkez adı birim adından farklı; Demoscope yerleşim türü: с.; kiril: Марково	E			mevcut
+minusinsk	3	Rusya	Minusinsk	Minusinsk	53.71	91.69	atlas-yerlesim-ad-eslesmesi	Minusinsk				Demoscope 1897 (rus_gub_97 reg=73)	kiril: Минусинск	E			mevcut
+nerchinsk	3	Rusya	Nerchinsk	Nerchinsk								Demoscope 1897 (rus_gub_97 reg=74)	kiril: Нерчинск	E			mevcut
+nerchinsky-zavod	3	Rusya	Nerchinsko-Zavodskoe	Nerchinsky Zavod								Demoscope 1897 (rus_gub_97 reg=74)	Demoscope yerleşim türü: с; kiril: Нерчинско-Заводское	E			mevcut
+nikolayevsk-on-amur	3	Rusya	Nikolaevsk	Nikolayevsk-on-Amur								Demoscope 1897 (rus_gub_97 reg=76)	"merkez adı birim adından farklı; Demoscope yazımı ""Николевск"" = Николаевск; kiril: Николевск"	E			mevcut
+nikolskoe	3	Rusya	Nikolskoe	Nikolskoe								Demoscope 1897 (rus_gub_97 reg=76)	merkez adı birim adından farklı; Demoscope yerleşim türü: с.; kiril: Никольское	D	Ussuriysk	Nikolskoe→Nikolsk-Ussuriysky 1898→Voroshilov 1935→Ussuriysk 1957. ÇIKARIM: birim Ussuri okrugu; kesin doğrulanmadı	mevcut
+nizhneudinsk	3	Rusya	Nizhneudinsk	Nizhneudinsk								Demoscope 1897 (rus_gub_97 reg=75)	kiril: Нижнеудинск	E			mevcut
+novokuznetsk	3	Rusya	Kuznetsk	Novokuznetsk	53.757	87.136	atlas-yerlesim-ad-eslesmesi	Kuznetsk				Demoscope 1897 (rus_gub_97 reg=79)	kiril: Кузнецк	D	Novokuznetsk	Kuznetsk→Stalinsk 1932→Novokuznetsk 1961	mevcut
+novoselenginsk	3	Rusya	Selenginsk	Novoselenginsk	51.1	106.6	atlas-yerlesim-ad-eslesmesi	Selenginsk				Demoscope 1897 (rus_gub_97 reg=74)	kiril: Селенгинск	D	Novoselenginsk	Selenginsk→Novoselenginsk (bugünkü 'Selenginsk' başka kent; Wikipedia/Wiktionary)	mevcut
+okhotsk	3	Rusya	Okhotsk	Okhotsk								Demoscope 1897 (rus_gub_97 reg=76)	kiril: Охотск	E			mevcut
+olekminsk	3	Rusya	Olekminsk	Olekminsk								Demoscope 1897 (rus_gub_97 reg=80)	kiril: Олекминск	E			mevcut
+petropavlovsk-kamchatsky	3	Rusya	Petropavlovsk	Petropavlovsk-Kamchatsky	53.0639	158.6275	GeoNames 2122104 (53°03′50.15″ N, 158°37′39.04″ E)	Petropavlovsk (Kızılcar)				Demoscope 1897 (rus_gub_97 reg=76)	kiril: Петропавловск	E		düzeltildi (eski KOORD UYARISI): lat/lon (54.87,69.15) Kazakistan Petropavl'a ait; Petropavlovsk-Kamchatsky ~53.04,158.65. Petropavlovsk→Petropavlovsk-Kamchatsky 1924 (ek) | KOORD DÜZELTİLDİ 17 Kas 2026: eski (54.87,69.15) → yeni (53.0639,158.6275); kaynak GeoNames 2122104 sayfası DMS 53°03′50.15″ N, 158°37′39.04″ E	mevcut
+polyarny	3	Rusya	Aleksandrovsk	Polyarny	50.9	142.16	atlas-yerlesim-ad-eslesmesi	Aleksandrovsk (Kuzey Sahalin)				Demoscope 1897 (rus_gub_97 reg=1)	1897 sayımında merkez Kola; 1899'da uyezd Aleksandrovsk adını aldı, merkez yeni kurulan Aleksandrovsk'a (bugün Polyarny) geçti — iskelet notu, doğrulanmadı; kiril: Кола	?		Satır çelişkili: atlas_ad Aleksandrovsk (Kuzey Sahalin), koord Aleksandrovsk-Sakhalinsky'ye ait, ad_modern 'Polyarny' (Murmansk Obl.) ile uyuşmaz; ad_1900 Aleksandrovsk; sınıflanamadı	mevcut
+srednekolymsk	3	Rusya	Sredne-Kolymsk	Srednekolymsk								Demoscope 1897 (rus_gub_97 reg=80)	merkez adı birim adından farklı; kiril: Средне-Колымск	E			mevcut
+staroturukhansk	3	Rusya	Turukhansk	Staroturukhansk								Demoscope 1897 (rus_gub_97 reg=73)	1897 Turuhansk = bugünkü Staroturukhansk köyü (doğrulanmadı); kiril: Туруханск	D	Staroturukhansk	Turukhansk (1920'ye kadar)→Staroturukhansk; bugünkü Turukhansk başka (eski Monastyrskoye) yerleşim; Wikipedia	mevcut
+surgut	3	Rusya	Surgut	Surgut	61.254	73.3962	atlas-yerlesim-ad-eslesmesi	Surgut				Demoscope 1897 (rus_gub_97 reg=78)	kiril: Сургут	E			mevcut
+tara	3	Rusya	Tara	Tara	56.9021	74.3714	atlas-yerlesim-ad-eslesmesi	Tara				Demoscope 1897 (rus_gub_97 reg=78)	kiril: Тара	E			mevcut
+troitsk	3	Rusya	Troitsk	Troitsk	54.09	61.56	atlas-yerlesim-ad-eslesmesi	Troitsk				Demoscope 1897 (rus_gub_97 reg=28)	kiril: Троицк	E			mevcut
+turinsk	3	Rusya	Turinsk	Turinsk	58.05	63.7	atlas-yerlesim-ad-eslesmesi	Turinsk				Demoscope 1897 (rus_gub_97 reg=78)	kiril: Туринск	E			mevcut
+tyukalinsk	3	Rusya	Tyukalinsk	Tyukalinsk								Demoscope 1897 (rus_gub_97 reg=78)	kiril: Тюкалинск	E			mevcut
+tyumen	3	Rusya	Tyumen	Tyumen								Demoscope 1897 (rus_gub_97 reg=78)	kiril: Тюмень	E			mevcut
+ulan-ude	3	Rusya	Verkhneudinsk	Ulan-Ude								Demoscope 1897 (rus_gub_97 reg=74)	kiril: Верхнеудинск	D	Ulan-Ude	Verkhneudinsk→Ulan-Ude 1934	mevcut
+verkholensk	3	Rusya	Verkholensk	Verkholensk								Demoscope 1897 (rus_gub_97 reg=75)	kiril: Верхоленск	E			mevcut
+verkhoyansk	3	Rusya	Verkhoyansk	Verkhoyansk								Demoscope 1897 (rus_gub_97 reg=80)	kiril: Верхоянск	E			mevcut
+vilyuysk	3	Rusya	Vilyuysk	Vilyuysk	63.75	121.63	atlas-yerlesim-ad-eslesmesi	Vilyuysk				Demoscope 1897 (rus_gub_97 reg=80)	kiril: Вилюйск	E			mevcut
+yalutorovsk	3	Rusya	Yalutorovsk	Yalutorovsk	56.66	66.31	atlas-yerlesim-ad-eslesmesi	Yalutorovsk				Demoscope 1897 (rus_gub_97 reg=78)	kiril: Ялуторовск	E			mevcut
+yekaterinburg	3	Rusya	Ekaterinburg	Yekaterinburg	56.84	60.61	atlas-yerlesim-ad-eslesmesi	Yekaterinburg				Demoscope 1897 (rus_gub_97 reg=31)	kiril: Екатеринбург	E		Sverdlovsk 1924-1991 arası; bugün Yekaterinburg	mevcut
+zmeinogorsk	3	Rusya	Zmeinogorsk	Zmeinogorsk	51.158	82.188	atlas-yerlesim-ad-eslesmesi	Zmeinogorsk				Demoscope 1897 (rus_gub_97 reg=79)	kiril: Змеиногорск	E			mevcut
+novosibirsk-ru	3	Rusya	Novonikolaevsk	Novosibirsk	55.0226	82.9318	GeoNames 1496747					GeoNames 1496747; Novosibirsk oblast merkezi	Novonikolaevsk→Novosibirsk 1925; 1900'de kuruluşu yeni (1893), doğrulanmadı; koord GeoNames sayfasından DMS: 55°01′21.32″ N, 82°55′54.30″ E	E			ek-modern-merkez
+kemerovo-ru	3	Rusya	Shcheglovo	Kemerovo	55.3542	86.1043	GeoNames 1503901					GeoNames 1503901; Kemerovo oblast (Kuzbass) merkezi	Shcheglovsk 1918-1932; ad_1900 doğrulanmadı; koord GeoNames sayfasından DMS: 55°21′15.01″ N, 86°06′15.66″ E	E			ek-modern-merkez
+abakan-ru	3	Rusya		Abakan	53.7154	91.4259	GeoNames 1512236					GeoNames 1512236; Hakasya merkezi	1900'de yerleşim durumu doğrulanmadı (Ust-Abakanskoye); koord GeoNames sayfasından DMS: 53°42′55.44″ N, 91°25′33.35″ E	E			ek-modern-merkez
+gorno-altaysk-ru	3	Rusya	Ulala	Gorno-Altaysk	51.9606	85.9189	GeoNames 1506271					GeoNames 1506271; Altay Cumhuriyeti merkezi	Ulala→Oyrot-Tura 1932→Gorno-Altaysk 1948 (genel bilgi, doğrulanmadı); koord GeoNames sayfasından DMS: 51°57′38.02″ N, 85°55′08.11″ E	E			ek-modern-merkez
+kyzyl-ru	3	Rusya		Kyzyl	51.7111	94.4378	GeoNames 1500973					GeoNames 1500973; Tuva merkezi	Kuruluş 1914 (Belotsarsk); 1900'de yok (doğrulanmadı); koord GeoNames sayfasından DMS: 51°42′39.89″ N, 94°26′15.94″ E	E			ek-modern-merkez
+magadan-ru	3	Rusya		Magadan	59.5627	150.8021	GeoNames 2123628					GeoNames 2123628; Magadan oblast merkezi	Kuruluş 1929-1930; 1900'de yok (doğrulanmadı); koord GeoNames sayfasından DMS: 59°33′45.86″ N, 150°48′07.60″ E	E			ek-modern-merkez
+yuzhno-sakhalinsk-ru	3	Rusya	Vladimirovka	Yuzhno-Sakhalinsk	46.9543	142.7356	GeoNames 2119441					GeoNames 2119441; Sahalin oblast merkezi	1905-1945 Japon Toyohara; 1900 Rus köyü Vladimirovka (doğrulanmadı); koord GeoNames sayfasından DMS: 46°57′15.48″ N, 142°44′08.12″ E	E			ek-modern-merkez
+anadyr-ru	3	Rusya	Novo-Mariinsk	Anadyr	64.7342	177.5103	GeoNames 2127202					GeoNames 2127202; Çukotka merkezi	Novo-Mariinsk→Anadyr 1923 (genel bilgi, doğrulanmadı); koord GeoNames sayfasından DMS: 64°44′03.26″ N, 177°30′37.08″ E	E			ek-modern-merkez
+birobidzhan-ru	3	Rusya		Birobidzhan	48.7930	132.9203	GeoNames 2026643					GeoNames 2026643; Yahudi Özerk Oblastı merkezi	Kuruluş 1930'lar; 1900'de yok (Tikhonkaya istasyonu; doğrulanmadı); koord GeoNames sayfasından DMS: 48°47′34.80″ N, 132°55′13.19″ E	E			ek-modern-merkez

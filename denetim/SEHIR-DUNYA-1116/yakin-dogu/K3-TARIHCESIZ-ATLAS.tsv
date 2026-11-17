@@ -1,0 +1,44 @@
+id	ad	lat	lon	bolge	sahip_devlet	tarihce_tanik	kronoloji_yer_id	kat	kanit
+yerlesimler.js:25	Bodrum	37.034	27.43	anadolu	karya-hekatomnid	yok	var(3)	3	
+yerlesimler.js:54	Karaman	37.181	33.215	anadolu	selcuklu	yok	var(11)	3	
+yerlesimler.js:57	Alanya	36.5502	31.9997	anadolu	selcuklu	yok	var(6)	3	
+yerlesimler.js:272	Yenbu	24.089	38.063	arabistan	mekke-serifligi	yok	var(5)	3	
+yerlesimler.js:276	Zebîd	14.195	43.317	arabistan	resuli	yok	var(26)	3	
+yerlesimler.js:288	Asvan	24.089	32.899	mezopotamya	abbasi	yok	var(11)	3	
+yerlesimler.js:310	Sayda	33.563	35.369	suriye-filistin	kudus-kralligi	yok	var(10)	3	
+yerlesimler.js:429	Doha (Katar)	25.285	51.531	arabistan	katar	yok	var(6)	3	
+yerlesimler.js:432	Salala	17.02	54.09	arabistan	nebhani	yok	yok	3	
+yerlesimler.js:773	Katîf	26.557	49.9873	arabistan	benihalid	yok	var(7)	3	
+yerlesimler.js:779	Suhâr	24.3472	56.7092	arabistan	nebhani	yok	var(1)	3	
+yerlesimler.js:780	Sûr	22.555	59.52	arabistan	nebhani	yok	var(2)	3	
+yerlesimler.js:826	Aksaray	38.3687	34.037	anadolu	selcuklu	yok	var(10)	3	
+yerlesimler_afrika.js:11	Bilbîs (Şarkiye)	30.417	31.567	mezopotamya	abbasi	yok	var(1)	3	
+yerlesimler_ek24.js:0	Uzunköprü	41.267	26.688	anadolu	tbmm-turkiye	yok	yok	3	
+yerlesimler_ek25.js:0	Kilis	36.716	37.115	mezopotamya	urfa-kontlugu	yok	var(3)	3	
+yerlesimler_ek25.js:1	Suruç	36.976	38.427	mezopotamya	urfa-kontlugu	yok	var(2)	3	
+yerlesimler_ek25.js:4	Nusaybin	37.077	41.215	anadolu	artuklu	yok	var(7)	3	
+yerlesimler_ek25.js:5	Silopi	37.246	42.47	anadolu	cizre-botan	yok	yok	3	
+yerlesimler_ek25.js:8	Cerablus	36.825	38.014	anadolu	yeni-hitit	yok	var(1)	3	
+yerlesimler_ek25.js:10	Malikiye (Derik)	37.176	42.145	anadolu	artuklu	yok	yok	3	
+yerlesimler_ek26.js:10	Diyadin	39.5406	43.6717	anadolu	tbmm-turkiye	yok	yok	kd3	
+yerlesimler_ek26.js:11	Karakilise (Karaköse, Ağrı)	39.7191	43.0503	anadolu	tbmm-turkiye	yok	yok	3	
+yerlesimler_ek26.js:12	Eleşkirt	39.7996	42.6741	anadolu	tbmm-turkiye	yok	yok	kd3	
+yerlesimler_ek27.js:4	İskenderun	36.587	36.173	suriye-filistin	antakya-prinkipsligi	yok	yok	3	
+yerlesimler_ek29.js:40	Sûr (Tyre) — Lübnan	33.2704	35.2038	suriye-filistin	kudus-kralligi	yok	var(4)	3	
+yerlesimler_h2_afrika.js:93	Mirbât	16.993	54.7	arabistan	nebhani	yok	yok	3	
+yerlesimler_h2_afrika.js:94	Tâka (Zufâr)	17.057	54.404	arabistan	nebhani	yok	yok	3	
+yerlesimler_h2_afrika.js:95	Hâsik	17.383	55.283	arabistan	nebhani	yok	yok	3	
+yerlesimler_h2_afrika.js:96	Şüveymiye	17.946	55.969	arabistan	nebhani	yok	yok	3	
+yerlesimler_h2_afrika.js:97	Dukm	19.66	57.707	arabistan	nebhani	yok	yok	3	
+yerlesimler_h2_afrika.js:98	Muhût	20.7	58.1	arabistan	nebhani	yok	yok	3	
+yerlesimler_h2_afrika.js:99	Tumreyt	17.667	54.024	arabistan	nebhani	yok	yok	3	
+yerlesimler_h2_afrika.js:100	Şisr	18.257	53.647	arabistan	nebhani	yok	yok	3	
+yerlesimler_h2_afrika.js:171	Cezîr (Sevkıra)	18.161	56.537	arabistan	nebhani	yok	yok	3	
+yerlesimler_h2_afrika.js:172	Râs Medreke	19.002	57.792	arabistan	nebhani	yok	yok	3	
+yerlesimler_h2_afrika.js:173	Rahbût	16.762	53.418	arabistan	nebhani	yok	yok	3	
+yerlesimler_ok104.js:3	Sa'de	16.94	43.764	arabistan	yemen-zeydi	yok	var(9)	3	
+yerlesimler_ok107.js:0	Cizre	37.33	42.19	anadolu	cizre-botan	yok	var(3)	3	
+yerlesimler_nokta_ortadogu_0917.js:0	Dilem (Harc)	23.991	47.162	arabistan	suud-ikinci	yok	var(1)	3	
+yerlesimler_nokta_ortadogu_0917.js:1	Havta (Havtat Benî Temîm)	23.496	46.878	arabistan	suud-ikinci	yok	yok	3	
+yerlesimler_nokta_ortadogu_0917.js:2	Leylâ (Eflâc)	22.292	46.724	arabistan	suud-ikinci	yok	yok	3	
+yerlesimler_nokta_ortadogu_0917.js:5	Seyûn (Sayvan)	15.9433	48.7933	arabistan	kesiri-sultanligi	yok	var(4)	3	

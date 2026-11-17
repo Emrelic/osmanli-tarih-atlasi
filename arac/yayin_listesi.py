@@ -194,6 +194,39 @@ def kodla_turevleri(kok):
     return sonuc
 
 
+def dilim_turevleri(kok):
+    """ZAMAN DİLİMLİ PARÇA (P1 ②): data/parca_manifest.js → (yollar, silinenler).
+
+    Parçalar index.html'de ADIYLA geçmez (js/geo_coz.js manifestten kurar) ve
+    data/dilim/ alt klasöründedir ⇒ Y/Ü türetmesi onları görmez. Manifestteki her
+    parça + hedefin `<onek>_onek.json`u (dilim-coz girdisi) listeye girer; git'te
+    izlenip diskten silinmiş eski parçalar `silinenler`dir (silinmeleri commitlenir)."""
+    import json
+    yol = os.path.join(kok, "data", "parca_manifest.js")
+    if not os.path.exists(yol):
+        return [], []
+    try:
+        s = _oku(yol)
+        b = s.index("window.PARCA_MANIFEST=") + len("window.PARCA_MANIFEST=")
+        m = json.JSONDecoder().raw_decode(s, b)[0]
+        kd = m["kok"]
+        yollar = []
+        for hedef in ("devlet", "donem"):
+            h = m.get(hedef)
+            if not h:
+                continue
+            yollar += sorted(kd + ad + ".js" for ad in h["p"])
+            yollar.append(kd + h["onek"] + "_onek.json")
+    except Exception as e:                                   # noqa: BLE001
+        raise Olculemedi("parca_manifest.js okunamadı: %s" % e)
+    r = subprocess.run(["git", "-C", kok, "ls-files", "--deleted", "--", kd.rstrip("/")],
+                       capture_output=True, text=True, encoding="utf-8", errors="replace")
+    if r.returncode != 0:
+        raise Olculemedi("git ls-files --deleted çıkış %d" % r.returncode)
+    silinen = sorted(l.strip() for l in (r.stdout or "").splitlines() if l.strip())
+    return yollar, silinen
+
+
 def _paket_duzle(b):
     """paketle.py `_duzle` ile aynı: satır sonu düzlenir (CRLF/LF anlamsız)."""
     return b.replace(b"\r\n", b"\n").replace(b"\r", b"\n")
@@ -238,7 +271,7 @@ def _gitignore_da(kok, yollar):
 
 def turet(kok=KOK):
     """→ dict: liste, satirlar (basılacak rapor), dur [(ad, sebep)], olculemedi [..]."""
-    R = {"liste": [], "satirlar": [], "dur": [], "olculemedi": []}
+    R = {"liste": [], "satirlar": [], "dur": [], "olculemedi": [], "sil": []}
     yaz = R["satirlar"].append
     try:
         Y, cozulemeyen = yayin_kumesi(kok)
@@ -248,6 +281,7 @@ def turet(kok=KOK):
                 U.setdefault("data/" + ad, []).extend(yer)
         turev = kodla_turevleri(kok)
         paket = paket_turevleri(kok)
+        dilim, dilim_silinen = dilim_turevleri(kok)
     except Olculemedi as e:
         R["olculemedi"].append(("türetme", str(e)))
         yaz("🔴 YAYIN LİSTESİ ÖLÇÜLEMEDİ — %s" % e)
@@ -259,6 +293,17 @@ def turet(kok=KOK):
     for kaynak in sorted(k for k in paket if k in U):
         for pk, _sh in paket[kaynak]:
             U.setdefault(pk, []).append("paketle.py türevi ← %s" % os.path.basename(kaynak))
+    # ZAMAN DİLİMLİ PARÇA (P1 ②): `kodla.py yay` devlet/donem havuzu yazınca parçaları
+    # ve manifesti de yeniler ⇒ havuzun kaynağı Ü'deyse parçalar da Ü'dedir; manifest
+    # yükler ⇒ Y'dedir.
+    if dilim and ("data/devletler_harita.js" in U or "data/donemler.js" in U):
+        U.setdefault("data/parca_manifest.js", []).append("kodla.py dilim türevi")
+        for d in dilim:
+            U.setdefault(d, []).append("kodla.py dilim türevi")
+            Y.setdefault(d, []).append("data/parca_manifest.js (dinamik)")
+    R["sil"] = dilim_silinen
+    for d in dilim_silinen:
+        yaz("   - %-30s ← eski dilim parçası, diskten silindi (silinmesi commitlenir)" % d)
     kesisim = sorted(set(Y) & set(U))
     try:
         izli = sorted(_izlenen(kok, sorted(set(U) - set(Y))))

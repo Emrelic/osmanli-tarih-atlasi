@@ -10,7 +10,7 @@ for line in open(GN, encoding='utf8'):
 for r in rows: print('GN', r)
 for n in names:
     u = 'https://nominatim.openstreetmap.org/search?format=json&limit=3&q=' + urllib.parse.quote(n)
-    req = urllib.request.Request(u, headers={'User-Agent': 'atlas-tarih-research/1.0 (emremre07@gmail.com)'})
+    req = urllib.request.Request(u, headers={'User-Agent': 'atlas-tarih-research/1.0 (+https://kronoatlas.com)'})
     try:
         for x in json.load(urllib.request.urlopen(req, timeout=40)):
             print('OSM', n, x['lat'], x['lon'], x['display_name'][:90])

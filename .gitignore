@@ -133,6 +133,7 @@ denetim/_kaynak_denetim_*.json
 /*.txt
 /*.json
 /*.js
+!/sw.js
 /*.py
 /*.log
 /*.err
@@ -326,3 +327,21 @@ ClaudEmre-kutu/
 /oturumlar/MOD.json
 /oturumlar/kilit_adlar.json
 /oturumlar/tahta_bayrak.log
+
+# DEPO BOYUTU (16 Kasım 2026, Emre kararı "güvenli temizlik"): site/motor dışı ~176 MB depodan
+# ÇIKARILDI (Pages sınırı 1 GB, depo %91'di). Yedek: D:\atlas-yedek-1116\ (KASA). Geçmişte durur
+# (git log / git show <eski-commit>:<yol>). Yeniden girmesin:
+/oturumlar/tahta.json
+/oturumlar/TAHTA.md
+/glm/
+/gemini/
+/denetim/GLM1-TDV-ONBELLEK/
+/denetim/KOORD-STASH-2-1006.diff
+/denetim/KOORD-STASH-3-1006.diff
+/denetim/PAKET-0084-gorsel/
+/denetim/DADIM-1104/
+/rio.pdf
+/list.html
+
+# Kişisel ayar (depo herkese açık) — arac/_wa_uyar.py numarası
+arac/.wa_numara

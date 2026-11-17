@@ -1,0 +1,130 @@
+#0 barselona | fark -359 gün | ortak 3
+  ŞEHİR  t=0801-12-25 gun=25 Aralık 801 kes= b=Franklar (Louis) Barselona'yı alır; şehir Marca Hispanica'nın başkenti
+         kaynak=Treccani, Enciclopedia Italiana, https://www.treccani.it/enciclopedia/barcellona_(Enciclopedia-Italiana)/; TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/bers | tanik=La conquista da parte dei Franchi (25 dicembre 801)
+  KRON   t=0801-01-01 gun=801 (TDV yalnız yıl) kes= dosya=kronoloji_cok_ms1_1000_iber_balkan.js b=Louis kumandasındaki Franklar Barselona yöresini istilâ etti; Marca Hi
+         kaynak=TDV 'BERŞELÛNE' (islamansiklopedisi.org.tr/berselune) — alıntı: 'Şarlman’ın oğlu Louis kumandasındaki Franklar 801’de Berşelûne yöresini istilâ ettiler ve merkezi Berşelû | ic_not_gun=
+#1 belgrad | fark -162 gün | ortak 3
+  ŞEHİR  t=1284-06-11 gun=1284 (11 Haziran sonrası, güz öncesi; alt sınır) kes= b=Ladislaus IV Mačva'yı ve Belgrad'ı Dragutin'e (eski Sırp kralı, Ladisl
+         kaynak=Uzelac 2025, Crkvene studije 22 (dipnot 6: 'The transfer of power took place after June 11, 1284'); Danilo II: güz 1284'ten önce | tanik=bestowed Mačva and Belgrade, along with the regions of Usora and Soli
+  KRON   t=1284-01-01 gun= kes="yil" dosya=olaylar_2s_0918.js b=Belgrad ve Mačva, Macar kralınca Dragutin'e verildi
+         kaynak=Jovanka Kalić, «A millennium of Belgrade (Sixth-Sixteenth centuries)», Balcanica XLV (2014), s. 71-: «in 1284, the Hungarian ruler made him governor of Mačva and Belgrade | ic_not_gun=
+#2 belh | fark 365 gün | ortak 5
+  ŞEHİR  t=0709-01-01 gun=709 kes= b=Eftalit prensi Tarhan Nîzek Belh'i alır, sonra Kuteybe'nin kuvvetlerin
+         kaynak=TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/belh | tanik=Eftalit Prensi Tarhan Nîzek Belh’i aldıysa da daha sonra Kuteybe’nin gönderdiği kuvvetlere yenildi
+  KRON   t=0710-01-01 gun=709/710 kes="yil" dosya=kronoloji_cok_dogu_500_1281.js b=Eftalit Prensi Tarhan Nîzek yabgunun desteğiyle Belh’i aldı; Kuteybe o
+         kaynak=TDV İslâm Ansiklopedisi, «Tohâristan» md., https://islamansiklopedisi.org.tr/toharistan (bu oturumda okundu): «Eftalit Prensi Tarhan Nîzek Belh’i aldıysa da Kuteybe b. Mü | ic_not_gun=
+#3 belh | fark 365 gün | ortak 5
+  ŞEHİR  t=0709-01-01 gun=709 kes= b=Eftalit prensi Tarhan Nîzek Belh'i alır, sonra Kuteybe'nin kuvvetlerin
+         kaynak=TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/belh | tanik=Eftalit Prensi Tarhan Nîzek Belh’i aldıysa da daha sonra Kuteybe’nin gönderdiği kuvvetlere yenildi
+  KRON   t=0710-01-01 gun=91 H. / 709-10, 710 (TDV); H. 91 ∩ 710 ilk günü 1 Ocak 710 (yalnız yıl hassasiyeti) kes= dosya=kronoloji_cok_ms1_1000_ortadogu.js b=Eftalit prensi Tarhan Nîzek Belh'te isyanda yenilip Kuteybe'nin emriyl
+         kaynak=TDV: kuteybe-b-muslim — "kendisine teslim olan Nîzek’i Haccâc’ın emriyle ortadan kaldırdı (91/709-10)"; TDV: toharistan — "Eftalit Prensi Tarhan Nîzek Belh’i aldıysa da K | ic_not_gun=
+#4 belh | fark 31 gün | ortak 3
+  ŞEHİR  t=0900-03-18 gun=18 Mart 900 (Sallâmî; çelişkili) kes= b=Belh yakınında Sâmânî İsmâil b. Ahmed Amr b. Leys'i yener ve esir alır
+         kaynak=W. Barthold, Turkestan down to the Mongol Invasion, 2. bs., Londra 1928 (E. J. W. Gibb Memorial; archive.org/details/Barthold1928Turkestan), Bölüm IV, s. ~226 (dipnot 3) | tanik=‘Amr was taken prisoner and after some time sent to Baghdad
+  KRON   t=0900-04-19 gun= kes="gun" dosya=olaylar_ortacag_iran_turan.js b=İsmâil b. Ahmed Belh yakınında Saffârî emîri Amr b. Leys'i yenip esir 
+         kaynak=TDV İslâm Ansiklopedisi, SAFFÂRÎLER maddesi, https://islamansiklopedisi.org.tr/saffariler ; TDV İslâm Ansiklopedisi, SÂMÂNÎLER maddesi, https://islamansiklopedisi.org.tr/ | ic_not_gun=
+#5 buhara | fark -296 gün | ortak 3
+  ŞEHİR  t=0999-10-23 gun=23 Ekim 999 kes= b=İlig Han Nasr Buhara'yı hiçbir mukavemetle karşılaşmadan işgal eder; S
+         kaynak=W. Barthold, Turkestan down to the Mongol Invasion, 2. bs., Londra 1928 (E. J. W. Gibb Memorial; archive.org/details/Barthold1928Turkestan), s. 268-269 (Bölüm IV) | tanik=the Ilak occupied Bukhara without opposition and seized the Samanid treasury
+  KRON   t=0999-01-01 gun=Zilkade 389 / Ekim 999 (yalnız yıl+ay teyitli; gün bilinmiyor) kes= dosya=kronoloji_cok_ms1_1000_ortadogu.js b=Karahanlılar Buhara'yı işgal etti; Sâmânî hânedan mensupları Özkent'e 
+         kaynak=TDV: samaniler — "II. Abdülmelik’in Fâik el-Hâssa ve Begtüzün’ün denetimindeki kısa saltanatı Karahanlılar’ın Buhara’yı işgaliyle son buldu (Zilkade 389 / Ekim 999)." | ic_not_gun=
+#6 dali | fark 360 gün | ortak 3
+  ŞEHİR  t=1253-01-07 gun=7 Ocak 1253 kes= b=Moğollar Ta-li'yi ele geçirir; künye geçişi Dali Krallığı → Moğol İmpa
+         kaynak=G. Cœdès, The Indianized States of Southeast Asia (ed. W.F. Vella, çev. S.B. Cowing; East-West Center Press 1968; archive.org: theindianizedstatesofsoutheastasia) s.190 | tanik=after their seizure of Ta-li on January 7, 1253
+  KRON   t=1254-01-02 gun=12. ay 丙辰 günü (癸丑 yılı) kes="gun" dosya=kronoloji_sinir_dogu_500_1281.js b=Moğollar Dali'yi aldı; Dali Moğol İmparatorluğu'na geçti
+         kaynak=Song Lian vd., Yuan shi, juan 4 «Shizu ben ji 1» (zh.wikisource.org/wiki/元史/卷004, okundu): 「九月壬寅，師次忒剌，……冬十月丙午，過大渡河，……十二月丙辰，軍薄大理城。初，大理主段氏微弱，國事皆決於高祥、高和兄弟。是夜，祥率眾遁去，……帝既入大理，… | ic_not_gun=
+#7 gaur-lakhnauti | fark 365 gün | ortak 3
+  ŞEHİR  t=1202-01-01 gun=1202 (598 H) kes= b=Muhammed Bahtiyâr Halacî, Sena'nın başşehri Leknevtî'yi ele geçirir ve
+         kaynak=TDV İslâm Ansiklopedisi, 'Halacîler' (Enver Konukçu), https://islamansiklopedisi.org.tr/halaciler | tanik=Hindu Sena hânedanının tarihî başşehri Leknevtî’yi ele geçirdi
+  KRON   t=1203-01-01 gun=1203-1204 (TDV) kes="yil" dosya=kronoloji_cok_dogu_500_1281.js b=Muhammed Bahtiyâr Halacî Bengal'i fethetti (Gaur/Lakhnautî)
+         kaynak=Azmi Özcan, «Bengal», TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/bengal (22.10.2026'da okundu), «Bengal»: "Bengal’in müslümanlar tarafından fethi, 1203-12 | ic_not_gun=
+#8 hanoi | fark 365 gün | ortak 3
+  ŞEHİR  t=0938-01-01 gun=938 kes= b=Ngô Quyền (吳權) Kiều Công Tiễn'i öldürür, Giao Châu'yu tutar; Güney Han
+         kaynak=Sima Guang, Zizhi Tongjian (資治通鑑) j.281 (後晉紀二, 天福二-三年 = 937-938), https://zh.wikisource.org/wiki/資治通鑑/卷281; Đại Việt sử ký toàn thư (大越史記全書), https://zh.wikisource.org/wi | tanik=權已殺公羨，據交州，引兵逆戰
+  KRON   t=0939-01-01 gun=0939 (yıl) kes="yil" dosya=kronoloji_sinir_dogu_500_1281.js b=Hanoi (Thăng Long): Ngô Quyền Kiều Công Tiễn'i ve Güney Han donanmasın
+         kaynak=Taylor, K. W., A History of the Vietnamese (Cambridge University Press, 2013); archive.org/details/cambridge-concise-histories-k.-w.-taylor-a-history-of-the-vietnamese-ca | ic_not_gun=
+#9 hemedan | fark -86 gün | ortak 6
+  ŞEHİR  t=1023-03-26 gun=414 H / 1023-24 kes= b=Alâüddevle Muhammed (Kâkûyî) Hemedan'a yürüyüp Büveyhî Semâüddevle'nin
+         kaynak=TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/kakuyiler | tanik=Alâüddevle Muhammed, Büveyhîler’den Semâüddevle’nin buradaki hâkimiyetine son verdi
+  KRON   t=1023-01-01 gun=414 H / 1023-24 (TDV Kâkûyîler) kes="yil" dosya=kronoloji_sinir_antik_bizans_komsu.js b=Kâkûyî Alâüddevle Muhammed Hemedan'a yürüyüp Büveyhî Semâüddevle'nin h
+         kaynak=TDV İslâm Ansiklopedisi, «Kâkûyîler» (islamansiklopedisi.org.tr/kakuyiler): «414 (1023-24) … Alâüddevle … Hemedan'a yürüdü ve Büveyhî Semâüddevle'nin hâkimiyetine son ver | ic_not_gun=
+#10 hemedan | fark -179 gün | ortak 3
+  ŞEHİR  t=1047-06-28 gun=439 H / 1047 kes= b=Hemedan Selçuklular'a kesin olarak bağlanır; Kinkever Kalesi teslim ol
+         kaynak=TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/kakuyiler | tanik=Kinkever Kalesi de teslim oldu (439/1047)
+  KRON   t=1047-01-01 gun=439/1047 (gün bilinmiyor) kes= dosya=kronoloji_cok_once1281_iran.js b=Kinkever Kalesi Selçuklulara teslim oldu; Gerşâsb bütün topraklarını k
+         kaynak=TDV: kakuyiler (KÂKÛYÎLER) | ic_not_gun=
+#11 hemedan | fark -179 gün | ortak 3
+  ŞEHİR  t=1047-06-28 gun=439 H / 1047 kes= b=Hemedan Selçuklular'a kesin olarak bağlanır; Kinkever Kalesi teslim ol
+         kaynak=TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/kakuyiler | tanik=Kinkever Kalesi de teslim oldu (439/1047)
+  KRON   t=1047-01-01 gun= kes="yil" dosya=olaylar_ortacag_bekleyen_acik.js b=Kinkever Kalesi teslim olur; Hemedan doğrudan Selçuklu denetimine geçe
+         kaynak=TDV İslâm Ansiklopedisi, kakuyiler, https://islamansiklopedisi.org.tr/kakuyiler | ic_not_gun=
+#12 isfahan | fark 20 gün | ortak 3
+  ŞEHİR  t=0934-12-11 gun=323 H / 934-35 kes= b=Büveyhî Rüknüddevle Hasan Isfahan'ı merkez yapar; Büveyhî sikkelerinde
+         kaynak=Encyclopaedia Iranica, ISFAHAN vi. Medieval Period (H. Kamaly, XIII/6, 2006), https://www.iranicaonline.org/articles/isfahan-vi-medieval-period/ (curl, tam Chrome UA); TD | tanik=Rüknüddevle Hasan b. Büveyh 323’ten (935) itibaren uzun bir süre burada yaşadı
+  KRON   t=0935-01-01 gun=323 H / 935 (TDV İsfahan) kes="yil" dosya=kronoloji_sinir_antik_bizans_komsu.js b=Büveyhî Rüknüddevle Hasan İsfahan'ı üs edindi; İsfahan Büveyhî hâkimiy
+         kaynak=TDV İslâm Ansiklopedisi, «İsfahan»: Büveyhî Rüknüddevle Hasan 323 (935)'ten itibaren İsfahan'ı üs yaptı, büyük imar. | ic_not_gun=
+#13 merv | fark 379 gün | ortak 5
+  ŞEHİR  t=0747-01-01 gun=129 H / 747 kes= b=Ebû Müslim Merv'e girer; Emevî Horasan valisi Nasr b. Seyyâr kaçar (Ab
+         kaynak=TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/merv | tanik=Emevîler’in son Horasan valisi Nasr b. Seyyâr ailesiyle birlikte kaçmayı tercih etti
+  KRON   t=0748-01-15 gun=9 Cemâziyelevvel 130 / 15 Ocak 748 (TDV) kes= dosya=kronoloji_cok_ms1_1000_ortadogu.js b=Ebû Müslim Horasan'ın merkezi Merv'i aldı; son Emevî valisi Nasr b. Se
+         kaynak=TDV: ebu-muslim-i-horasani — "Yemânî kabilelerin lideri Ali b. Kirmânî ile anlaştıktan sonra 9 Cemâziyelevvel 130 (15 Ocak 748) tarihinde Horasan eyaletinin merkezi Merv’ | ic_not_gun=
+#14 merv | fark 127 gün | ortak 4
+  ŞEHİR  t=0821-01-01 gun=821 kes= b=Tâhir b. Hüseyin Horasan valisi; Merv Tâhirî idare merkezi.
+         kaynak=W. Barthold, Turkestan down to the Mongol Invasion, 2. bs., Londra 1928 (E. J. W. Gibb Memorial; archive.org/details/Barthold1928Turkestan), Bölüm IV, s. ~208-209 | tanik=in 821 Tahir was sent to Khurasan as governor
+  KRON   t=0821-05-06 gun=29 Zilkade 205 / 6 Mayıs 821 (TDV) kes= dosya=kronoloji_cok_ms1_1000_ortadogu.js b=Tâhir b. Hüseyin kendini Horasan valiliğine tayin ettirdi: Tâhirî hâne
+         kaynak=TDV: tahir-b-huseyin — "Tâhir b. Hüseyin, çok geçmeden Halife Me’mûn tarafından ortadan kaldırılacağı endişesine kapılarak 29 Zilkade 205’te (6 Mayıs 821) kendini Horasan | ic_not_gun=
+#15 merv | fark 127 gün | ortak 4
+  ŞEHİR  t=0821-01-01 gun=821 kes= b=Tâhir b. Hüseyin Horasan valisi; Merv Tâhirî idare merkezi.
+         kaynak=W. Barthold, Turkestan down to the Mongol Invasion, 2. bs., Londra 1928 (E. J. W. Gibb Memorial; archive.org/details/Barthold1928Turkestan), Bölüm IV, s. ~208-209 | tanik=in 821 Tahir was sent to Khurasan as governor
+  KRON   t=0821-05-06 gun=0821-05-06 (kaynak ifadesine göre yıl düzeyi) kes="yil" dosya=kronoloji_sinir_dogu_500_1281.js b=Merv: Merv Tâhir b. Hüseyin’in idare merkezi oldu
+         kaynak=TDV İslâm Ansiklopedisi, «Merv» md., https://islamansiklopedisi.org.tr/merv (22.10.2026'da okundu): «Me’mûn’un iç karışıklıkların artması üzerine Bağdat’a dönmesinin ardı | ic_not_gun=
+#16 osaka | fark 365 gün | ortak 4
+  ŞEHİR  t=0645-01-01 gun=645 (Taika 1/12) kes= b=Kōtoku, başkenti Naniwa'ya taşır; Naniwa-Nagara-Toyosaki sarayı yapılı
+         kaynak=Kotobank «難波京» (日本大百科全書), https://kotobank.jp/word/難波京 | tanik=645年（大化1）12月の難波遷都に伴って難波長柄豊碕宮が造営されて
+  KRON   t=0646-01-01 gun=Taika 1/12/9 (癸卯) kes="gun" dosya=kronoloji_cok_dogu_500_1281.js b=Kōtoku sarayı Naniwa Nagara Toyosaki'ye taşıdı
+         kaynak=Nihon Shoki j.25, Taika 1 (645) (zh.wikisource.org/wiki/日本書紀/卷第廿五, okundu): 「冬十二月乙未朔癸卯，天皇遷都難波長柄豐碕。」 | ic_not_gun=
+#17 osaka | fark 365 gün | ortak 4
+  ŞEHİR  t=0645-01-01 gun=645 (Taika 1/12) kes= b=Kōtoku, başkenti Naniwa'ya taşır; Naniwa-Nagara-Toyosaki sarayı yapılı
+         kaynak=Kotobank «難波京» (日本大百科全書), https://kotobank.jp/word/難波京 | tanik=645年（大化1）12月の難波遷都に伴って難波長柄豊碕宮が造営されて
+  KRON   t=0646-01-01 gun=Taika 1/12/9 (645) kes="gun" dosya=kronoloji_sinir_dogu_500_1281.js b=Naniwa Nagara Toyosaki başkenti: Yamato sarayı: Osaka sahibi yamato ol
+         kaynak=Nihon Shoki j.25, Taika 1 (645) (zh.wikisource.org/wiki/日本書紀/卷第廿五, okundu): 「冬十二月乙未朔癸卯，天皇遷都難波長柄豐碕。」 | ic_not_gun=
+#18 semerkant | fark -292 gün | ortak 3
+  ŞEHİR  t=0711-10-19 gun=93 H / 711 kes= b=Kuteybe b. Müslim Semerkant'ı kesin olarak fetheder, vergiye bağlar, c
+         kaynak=TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/semerkant | tanik=Kuteybe b. Müslim tarafından altı yıl süren şiddetli ve kanlı savaşların ardından kesin biçimde feth
+  KRON   t=0711-01-01 gun= kes="yil" dosya=kronoloji_sinir_dogu_500_1281.js b=Kuteybe b. Müslim Semerkant’ı kesin biçimde fethetti (93/711)
+         kaynak=TDV İslâm Ansiklopedisi, «Semerkant» md., https://islamansiklopedisi.org.tr/semerkant (bu oturumda okundu): «Semerkant Emevîler’in Horasan valisi Kuteybe b. Müslim tarafı | ic_not_gun=
+#19 tallinn | fark 152 gün | ortak 3
+  ŞEHİR  t=1238-01-01 gun=1238 kes= b=Stensby anlaşması: Danimarka yerleşimi, kaleyi ve piskoposluğu geri al
+         kaynak=Den Store Danske / lex.dk, 'Tallinn' (Jürgen Beyer), https://lex.dk/Tallinn | tanik=Først i 1238 kunne danskerne atter overtage bosættelsen
+  KRON   t=1238-06-01 gun= kes="ay" dosya=olaylar_once1281_geriye.js b=Stensby anlaşması: Töton Tarikatı Kuzey Estonya'yı (Reval) Danimarka K
+         kaynak=Den Store Danske 'Danmark og Estland, ca. 1200-1645' (lex.dk): 'I juni 1238 blev der indgået en aftale ... i Stensby på Sjælland' · ONCE1281-GERIYE | ic_not_gun=
+#20 taskent | fark -46 gün | ortak 3
+  ŞEHİR  t=1059-02-17 gun=451 H / 1059 kes= b=Batı Karahanlı Tamgaç Han İbrâhim Şâş'ı zaptedip sikke basar (kısa; dö
+         kaynak=TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/karahanlilar | tanik=Doğu Karahanlılar’ın hâkimiyetindeki Şâş ve diğer bazı yerleri de ele geçirdi
+  KRON   t=1059-01-01 gun=451 (1059) kes="yil" dosya=kronoloji_cok_dogu_500_1281.js b=Batı Karahanlı Tamgaç Han İbrâhim Şâş'ı Doğu Karahanlılardan aldı
+         kaynak=TDV İslâm Ansiklopedisi, «Karahanlılar» md., https://islamansiklopedisi.org.tr/karahanlilar (bu oturumda okundu): «Bu fırsattan istifade eden Batı Karahanlılar’ın büyük k | ic_not_gun=
+#21 taskent | fark -252 gün | ortak 4
+  ŞEHİR  t=1141-09-09 gun=5 Safer 536 / 9 Eylül 1141 kes= b=Katvân Savaşı: Karahıtaylar Sencer'i yener, Mâverâünnehir'i alır.
+         kaynak=TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/karahitaylar | tanik=Katvân savaşında ağır bir bozguna uğrattı (5 Safer 536 / 9 Eylül 1141)
+  KRON   t=1141-01-01 gun=1141 (9 Eylül savaş günü; Şâş'ın geçişi için yıl) kes="yil" dosya=kronoloji_cok_dogu_500_1281.js b=Karahıtaylar Katvan'da Sencer'i yenip Mâverâünnehir'e (Şâş dahil) hâki
+         kaynak=TDV İslâm Ansiklopedisi, «Karahıtaylar» md., https://islamansiklopedisi.org.tr/karahitaylar (bu oturumda okundu): «Yeh-lü Ta-şi daha sonra da Sultan Sencer’i Katvân savaş | ic_not_gun=
+#22 toledo | fark 129 gün | ortak 3
+  ŞEHİR  t=1085-01-01 gun=478 H / 1085 kes= b=Yahyâ el-Kādir şehri teslim için VI. Alfonso ile gizli antlaşma yapar 
+         kaynak=TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/tuleytula | tanik=Yahyâ el-Kādir şehri teslim etmek için VI. Alfonso ile gizli bir antlaşma yaptı (478/1085)
+  KRON   t=1085-05-08 gun=1085 [yalnız yıl teyitli; gün teyitsiz] kes="yil" dosya=olaylar_ortacag_iberya_magrib.js b=Toledo Kastilya'ya teslim edildi; Zünnûnî Yahyâ el-Kādir Belensiye'ye 
+         kaynak=TDV İslâm Ansiklopedisi, «Zünnûnîler» md. (https://islamansiklopedisi.org.tr/zunnuniler, 14.11.2026 okundu): «şehir barış yoluyla Kastilya Krallığı’na teslim edildi.»; «Y | ic_not_gun=
+#23 urmiye | fark -230 gün | ortak 3
+  ŞEHİR  t=1205-08-18 gun=602 H / 1205-06 kes= b=Atabeg Ebû Bekir Merâga'ya karşılık Uşnu ve Urmiye'yi Atabeg Alâeddin'
+         kaynak=TDV İslâm Ansiklopedisi (O. G. Özgüdenli, Urmiye), https://islamansiklopedisi.org.tr/urmiye | tanik=Atabeg Ebû Bekir’in 602 (1205-1206) yılında Merâga’ya karşılık Uşnu ve Urmiye’yi Atabeg Alâeddin’e v
+  KRON   t=1205-01-01 gun=602/1205-1206 (gün bilinmiyor) kes= dosya=kronoloji_cok_once1281_iran.js b=Ahmedîlî Alâeddin Merâga'yı İldenizli Ebû Bekir'e bıraktı
+         kaynak=TDV: ahmedililer (AHMEDÎLÎLER) | ic_not_gun=
+#24 yezd | fark -8 gün | ortak 4
+  ŞEHİR  t=1030-01-09 gun=421 H / 1030 kes= b=Kâkûyî Alâüddevle Muhammed b. Rüstem Düşmenziyâr Yezd'i ele geçirip ke
+         kaynak=TDV İslâm Ansiklopedisi, 'Yezd', https://islamansiklopedisi.org.tr/yezd | tanik=Yezd’i ele geçirerek kendi adına para bastırdı (421/1030)
+  KRON   t=1030-01-01 gun=421/1030 (gün bilinmiyor) kes= dosya=kronoloji_cok_once1281_iran.js b=Kâkûyî Alâüddevle Yezd'i ele geçirip adına para bastırdı
+         kaynak=TDV: yezd (YEZD) | ic_not_gun=
+#25 yezd | fark -218 gün | ortak 3
+  ŞEHİR  t=1141-08-06 gun=536 H / 1141 kes= b=Kâkûyî Gerşâsb Katvân savaşında ölür, erkek vâris bırakmaz; iki kızı Y
+         kaynak=TDV İslâm Ansiklopedisi, 'Yezd', https://islamansiklopedisi.org.tr/yezd; S. C. Fairbanks, 'ATĀBAKĀN-E YAZD', Encyclopaedia Iranica II/8 (1987), https://www.iranicaonline. | tanik=Katvân savaşında öldü (536/1141)
+  KRON   t=1141-01-01 gun= kes="yil" dosya=olaylar_ortacag_iran_hint_magrib.js b=Son Kâkûyî Katvân savaşında öldü; Yezd'de yerlerini Yezd Atabegleri al
+         kaynak=TDV İslâm Ansiklopedisi, kakuyiler, https://islamansiklopedisi.org.tr/kakuyiler | ic_not_gun=

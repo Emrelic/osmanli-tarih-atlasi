@@ -779,6 +779,10 @@ window.__govdeYenile = function () {
                geometry: parcaCoz(p.g, DEVLET_PARCALAR, DEVLET_PARCA_HALKA) };
     });
   });
+  // 🔴 İmza yalnız "hangi dönem etkin"i özetler, geometriyi DEĞİL: aynı günde
+  // eksik halkalar sonradan gelirse `devletGuncelle` "değişmedi" sayıp ÇİZMEZDİ
+  // (zaman dilimli parça kipinde her yeni tarihte olur). Sıfırla ⇒ yeniden çiz.
+  devletImza = null;
   try { guncelle(); } catch (e) {
     if (window.console) console.error("🔴 __govdeYenile: guncelle() attı:", e);
     return false;
@@ -11722,6 +11726,12 @@ function kapsamSeridiGuncelle(t) {
 }
 
 function guncelle() {
+  // ZAMAN DİLİMLİ PARÇA (P1 ②) — o yılın gövde parçalarını iste (js/geo_coz.js).
+  // İnmiş parça yeniden istenmez; aynı yılda çağrı bedavadır. Eksik halka
+  // `parcaCoz`ta ATLANIR; parça gelince kanca (__govdeYenile/__donemYenile) çizer.
+  if (typeof window.parcaGerek === "function") {
+    try { window.parcaGerek(idxTarih(suanki).y); } catch (eP) { /* çizimi durdurmaz */ }
+  }
   kapsamSeridiGuncelle(suanki);
   if (ustbarTarih) ustbarTarih.textContent = zamanTarihYazi(suanki);
   if (ustbarYil) ustbarYil.textContent = idxTarih(suanki).y;

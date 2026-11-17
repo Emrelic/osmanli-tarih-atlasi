@@ -206,7 +206,7 @@ window.KRONOLOJI_SINIR_KOMSU = [
   kaynak:"TIB Balkan (ÖAW Bizans Araştırmaları) 'Belogradum/Berat' tib.oeaw.ac.at/balkan/explore/entity/123830: 'In 1280-81 the region and Berat became again part of the Byzantine Empire and lost in 1345 to Stefan IV Dušan.' · TIB Kanina 'In 1345 the Serbian king Stefan Uroš IV Dušan conquered the region' · TDV berat--arnavutluk (sıra: Bizans, Epir, Anjou, yine Bizans, Sırplar, küçük bir Arnavut prensliği; yılsız)" },
 
 
-{ t:"1284-01-01", kesinlik:"yil", devlet:"sirbistan-nemanjic", devletler:["sirbistan-nemanjic","bizans"], sinir_id:null,
+{ t:"1283-01-01", kesinlik:"yil", devlet:"sirbistan-nemanjic", devletler:["sirbistan-nemanjic","bizans"], sinir_id:null,
   b:"Sırp Kralı Milutin Debre, Kırçova ve Porečie bölgelerini ele geçirdi", tur:"fetih", onem:2, dunya:2, kapsam:"dis", yer_id:"Debre (Dibra)",
   etiket:["sinir","toprak-kazanc","konu-askeri","sirbistan-nemanjic","bizans"],
   gun:"1284 (yıl; gün yok; kaynaklar 1282-1284 arasında ayrışır)",

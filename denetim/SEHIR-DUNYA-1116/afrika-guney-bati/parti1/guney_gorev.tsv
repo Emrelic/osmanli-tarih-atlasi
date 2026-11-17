@@ -1,0 +1,21 @@
+sira	aranan	ad_1900	ad_modern	ulke	kat	lat	lon	atlas_en_yakin	atlas_km	kronoloji_madde	not_
+1	Bloemfontein	Bloemfontein	Bloemfontein	Güney Afrika	1	-29.1211	26.2140	Oranj (Bur cumhuriyeti)	0.1		Bloemfontein district merkezi de; 1900-03-13 İngiliz işgali
+2	Pretoria	Pretoria	Pretoria	Güney Afrika	1	-25.7449	28.1878	Transvaal (Bur cumhuriyeti)	0.1	1	Pretoria district merkezi de; 1900-06-05 düştü
+3	Umgungundlovu					-28.42	31.28	Umgungundlovu	0	1	kronolojide yer_id: Umgungundlovu (1829-1829)
+4	Mapungubwe					-22.194	29.389	Mapungubwe	0	1	kronolojide yer_id: Mapungubwe (0900-0900)
+5	Büyük Zimbabve					-20.267	30.933	Büyük Zimbabve	0	3	kronolojide yer_id: Büyük Zimbabve (1100-1450)
+6	Khami					-20.15	28.38	Khami	0	2	kronolojide yer_id: Khami (1450-1684)
+7	Danangombe					-19.6	29.3	Danangombe (Rozvi)	0	1	kronolojide yer_id: Danangombe (Rozvi) (1840-1840)
+8	Cape Town	Cape Town	Cape Town	Güney Afrika	2	-33.9258	18.4232	Kap (Cape Town)	0.1	2	Cape Division merkezi de
+9	Windhoek	Windhoek	Windhoek	Namibya	2	-22.5594	17.0832	Vindhuk (Windhoek)	1.2	3	
+10	Lüderitz					-26.65	15.16	Lüderitz	0	1	kronolojide yer_id: Lüderitz (1884-1884)
+11	Maseru	Maseru	Maseru	Lesotho	2	-29.3167	27.4833	Maseru	0.8	1	Maseru district merkezi de
+12	Salisbury	Salisbury	Harare	Zimbabve	2	-17.8277	31.0534	Salisbury (Harare)	0.4	4	
+13	Boma	Boma	Boma	Kongo DC	1	-5.8510	13.0536	Boma	0.4	2	KAT GEREKÇESİ: Leopold'un şahsî mülkü olsa da Berlin Senedi (1885) ile ayrı egem
+14	Loango					-4.6546	11.805	Loango (Buali)	0	1	kronolojide yer_id: Loango (Buali) (1550-1550)
+15	Soyo					-6.135	12.369	Soyo	0	1	kronolojide yer_id: Soyo (1885-1885)
+16	Birni N'gazargamu					13.047	12.227	Birni N'gazargamu	0	1	kronolojide yer_id: Birni N'gazargamu (1465-1465)
+17	Mao (Kanem)					13.996	15.313	Mao (Kanem)	0	3	kronolojide yer_id: Mao (Kanem) (1068-1086)
+18	Yola					9.2	12.48	Yola	0	1	kronolojide yer_id: Yola (1841-1841)
+19	Abeşe					13.83	20.83	Abeşe (Abéché)	0	1	kronolojide yer_id: Abeşe (Abéché) (1850-1850)
+20	Kamerun (Duala)	Kamerun (Duala)	Douala	Kamerun	2	4.0483	9.7043	Duala	0.5	1	1901'den Buea; katman1 bulunamadı

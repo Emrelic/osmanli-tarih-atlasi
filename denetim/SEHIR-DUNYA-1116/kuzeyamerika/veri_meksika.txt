@@ -1,0 +1,151 @@
+Ciudad de México|Mexico-Tenochtitlan;Tlatelolco (ikiz şehir, 1473'te katıldı);Ciudad de México;Ciudad de México (CDMX)|Meksika|Ciudad de México|1|19.433|-99.133|L
+Texcoco|Tetzcoco;Texcoco|Meksika|México|1|19.512|-98.882|K
+Tlacopan|Tlacopan;Tacuba|Meksika|Ciudad de México|1|19.458|-99.188|K
+Culhuacán|Colhuacan;Culhuacán|Meksika|Ciudad de México|3|19.330|-99.100|T
+Azcapotzalco|Azcapotzalco|Meksika|Ciudad de México|3|19.487|-99.185|T
+Chapultepec|Chapultepec|Meksika|Ciudad de México|3|19.413|-99.190|K
+Xochimilco|Xochimilco|Meksika|Ciudad de México|3|19.262|-99.103|K
+Chalco|Chalco|Meksika|México|3|19.265|-98.897|K
+Tlaxcala|Tlaxcallan;Tlaxcala|Meksika|Tlaxcala|1|19.318|-98.238|L
+Cholula|Cholollan;Cholula|Meksika|Puebla|3|19.063|-98.306|K
+Huejotzingo|Huexotzinco;Huejotzingo|Meksika|Puebla|3|19.160|-98.400|K
+Tepeaca|Tepeyacac;Tepeaca|Meksika|Puebla|3|18.963|-97.900|K
+Cacaxtla|Cacaxtla|Meksika|Tlaxcala|3|19.244|-98.346|K
+Cantona|Cantona|Meksika|Puebla|3|19.540|-97.500|T
+Puebla|Cuetlaxcoapan;Puebla de los Ángeles;Puebla|Meksika|Puebla|2|19.041|-98.206|L
+Toluca|Nepopualco;Toluca|Meksika|México|2|19.293|-99.653|L
+Cuernavaca|Cuauhnáhuac;Cuernavaca|Meksika|Morelos|2|18.919|-99.234|L
+Pachuca|Pachuca|Meksika|Hidalgo|2|20.101|-98.759|L
+Tula|Tollan;Tula|Meksika|Hidalgo|1|20.060|-99.340|K
+Teotihuacan|Teotihuacan|Meksika|México|1|19.692|-98.844|K
+Xochicalco|Xochicalco|Meksika|Morelos|1|18.804|-99.298|K
+Taxco|Tlachco;Taxco|Meksika|Guerrero|3|18.556|-99.606|T
+Chilpancingo|Chilpancingo|Meksika|Guerrero|2|17.551|-99.500|L
+Acapulco|Acapulco|Meksika|Guerrero|3|16.853|-99.823|K
+Veracruz|Villa Rica de la Vera Cruz;Veracruz|Meksika|Veracruz|3|19.173|-96.134|K
+Xalapa|Xalapa|Meksika|Veracruz|2|19.543|-96.911|L
+Cempoala|Cempoala;Zempoala|Meksika|Veracruz|1|19.445|-96.405|K
+El Tajín|El Tajín|Meksika|Veracruz|1|20.447|-97.378|T
+Córdoba|Córdoba|Meksika|Veracruz|3|18.894|-96.934|T
+Orizaba|Ahuaializapan;Orizaba|Meksika|Veracruz|3|18.850|-97.100|T
+San Lorenzo Tenochtitlán|San Lorenzo|Meksika|Veracruz|1|17.730|-94.760|K
+La Venta|La Venta|Meksika|Tabasco|1|18.100|-94.040|K
+Tres Zapotes|Tres Zapotes|Meksika|Veracruz|3|18.460|-95.440|T
+Comalcalco|Comalcalco|Meksika|Tabasco|3|18.270|-93.200|T
+Potonchán|Potonchán;Santa María de la Victoria|Meksika|Tabasco|3|18.540|-92.650|K
+Villahermosa|San Juan Bautista;Villahermosa|Meksika|Tabasco|2|17.989|-92.930|L
+Tampico|Tampico|Meksika|Tamaulipas|3|22.233|-97.861|T
+Pánuco|Pánuco|Meksika|Veracruz|3|22.050|-98.180|K
+Tamtoc|Tamtoc|Meksika|San Luis Potosí|3|21.990|-98.770|T
+Ciudad Victoria|Santa María de Aguayo;Ciudad Victoria|Meksika|Tamaulipas|2|23.735|-99.145|L
+Matamoros|Refugio;Matamoros|Meksika|Tamaulipas|3|25.870|-97.500|K
+Reynosa|Reynosa|Meksika|Tamaulipas|3|26.080|-98.280|T
+Camargo|Camargo|Meksika|Tamaulipas|3|26.310|-98.830|K
+Nuevo Laredo|Nuevo Laredo|Meksika|Tamaulipas|3|27.480|-99.520|T
+Monterrey|Ciudad Metropolitana de Nuestra Señora de Monterrey;Monterrey|Meksika|Nuevo León|2|25.687|-100.316|L
+Linares|Linares|Meksika|Nuevo León|3|24.860|-99.570|T
+Saltillo|Villa de Santiago del Saltillo;Saltillo|Meksika|Coahuila|2|25.422|-101.003|L
+Monclova|Santiago de la Monclova;Monclova|Meksika|Coahuila|2|26.907|-101.420|K
+Parras|Santa María de las Parras;Parras|Meksika|Coahuila|3|25.440|-102.180|K
+Múzquiz|Santa Rosa;Múzquiz|Meksika|Coahuila|3|27.880|-101.520|K
+Torreón|Torreón|Meksika|Coahuila|3|25.540|-103.410|T
+Mapimí|Mapimí|Meksika|Durango|3|25.830|-103.850|K
+Durango|Guadiana;Victoria de Durango;Durango|Meksika|Durango|2|24.022|-104.658|L
+Santa Catarina de Tepehuanes|Tepehuanes;Santa Catarina de Tepehuanes|Meksika|Durango|3|25.340|-105.720|K
+Zacatecas|Zacatecas|Meksika|Zacatecas|2|22.771|-102.583|L
+Fresnillo|Fresnillo|Meksika|Zacatecas|3|23.170|-102.870|T
+Sombrerete|Sombrerete|Meksika|Zacatecas|3|23.630|-103.640|T
+Mazapil|Mazapil|Meksika|Zacatecas|3|24.640|-101.550|K
+La Quemada|Chicomoztoc;La Quemada|Meksika|Zacatecas|3|22.470|-102.770|T
+San Luis Potosí|San Luis Potosí|Meksika|San Luis Potosí|2|22.151|-100.976|L
+Guanajuato|Quanax-Huato;Guanajuato|Meksika|Guanajuato|2|21.019|-101.257|L
+León|León;León de los Aldama|Meksika|Guanajuato|3|21.122|-101.682|T
+Celaya|Zelaya;Celaya|Meksika|Guanajuato|3|20.523|-100.812|T
+San Miguel de Allende|San Miguel el Grande;San Miguel de Allende|Meksika|Guanajuato|3|20.915|-100.743|T
+San Luis de la Paz|San Luis de la Paz|Meksika|Guanajuato|3|21.300|-100.520|K
+Querétaro|Querétaro;Santiago de Querétaro|Meksika|Querétaro|2|20.589|-100.390|L
+Aguascalientes|Aguascalientes|Meksika|Aguascalientes|2|21.883|-102.296|L
+Morelia|Guayangareo;Valladolid;Morelia|Meksika|Michoacán|2|19.706|-101.195|L
+Pátzcuaro|Pátzcuaro|Meksika|Michoacán|1|19.517|-101.609|K
+Tzintzuntzan|Tzintzuntzan|Meksika|Michoacán|1|19.629|-101.577|K
+Ihuatzio|Ihuatzio|Meksika|Michoacán|1|19.590|-101.600|K
+Zamora|Zamora|Meksika|Michoacán|3|19.986|-102.284|T
+Guadalajara|Nueva Galicia (Guadalajara);Guadalajara|Meksika|Jalisco|2|20.659|-103.349|L
+Teuchitlán|Guachimontones;Teuchitlán|Meksika|Jalisco|3|20.690|-103.840|T
+Colima|San Sebastián de Colima;Colima|Meksika|Colima|2|19.243|-103.725|L
+Tepic|Tepic|Meksika|Nayarit|2|21.505|-104.895|L
+Compostela|Compostela|Meksika|Nayarit|2|21.230|-104.900|K
+San Blas|San Blas|Meksika|Nayarit|3|21.543|-105.287|T
+Acaponeta|Acaponeta|Meksika|Nayarit|3|22.490|-105.360|K
+Tomatlán|Tomatlán|Meksika|Jalisco|3|19.940|-105.250|K
+Bolaños|Bolaños|Meksika|Jalisco|3|21.830|-103.780|K
+Mazatlán|Mazatlán|Meksika|Sinaloa|3|23.236|-106.421|T
+Culiacán|San Miguel de Culiacán;Culiacán|Meksika|Sinaloa|2|24.809|-107.394|L
+Hermosillo|Pitic;Hermosillo|Meksika|Sonora|2|29.073|-110.956|L
+Ures|San Miguel de Ures;Ures|Meksika|Sonora|2|29.430|-110.390|T
+Arizpe|Arizpe|Meksika|Sonora|2|30.340|-110.160|K
+Álamos|Álamos|Meksika|Sonora|3|27.030|-108.940|K
+Guaymas|Guaymas|Meksika|Sonora|3|27.918|-110.899|T
+Sonoyta|Sonoita;Sonoyta|Meksika|Sonora|3|31.860|-112.850|K
+Nogales|Nogales|Meksika|Sonora|3|31.300|-110.940|T
+Chihuahua|San Felipe el Real de Chihuahua;Chihuahua|Meksika|Chihuahua|2|28.633|-106.069|L
+San José del Parral|Hidalgo del Parral;San José del Parral|Meksika|Chihuahua|3|26.930|-105.670|K
+Santa Bárbara|Santa Bárbara;San Bartolomé|Meksika|Chihuahua|3|26.800|-105.820|T
+Madera|Madera|Meksika|Chihuahua|3|29.190|-108.140|K
+Batopilas|Batopilas|Meksika|Chihuahua|3|27.030|-107.740|K
+Villa Ahumada|Villa Ahumada|Meksika|Chihuahua|3|30.620|-106.510|K
+Paquimé|Paquimé;Casas Grandes|Meksika|Chihuahua|1|30.370|-107.950|K
+Ciudad Juárez|El Paso del Norte;Paso del Norte;Ciudad Juárez|Meksika|Chihuahua|3|31.690|-106.425|K
+Sierra Mojada|Sierra Mojada|Meksika|Coahuila|3|27.290|-103.700|K
+Ciudad Acuña|Las Vacas;Ciudad Acuña|Meksika|Coahuila|3|29.320|-100.960|K
+La Paz|La Paz;Santa Cruz de Vigé|Meksika|Baja California Sur|2|24.142|-110.313|L
+Loreto|Nuestra Señora de Loreto;Loreto|Meksika|Baja California Sur|2|26.010|-111.340|K
+San José del Cabo|San José del Cabo|Meksika|Baja California Sur|3|23.060|-109.700|T
+San Ignacio|Kadakaamán;San Ignacio|Meksika|Baja California Sur|3|27.280|-112.900|T
+Ensenada|Ensenada|Meksika|Baja California|2|31.867|-116.596|L
+Tijuana|Tijuana|Meksika|Baja California|3|32.515|-117.038|T
+Mexicali|Mexicali|Meksika|Baja California|2|32.665|-115.468|T
+El Rosario|El Rosario|Meksika|Baja California|3|30.060|-115.720|K
+Misión San Vicente Ferrer|San Vicente Ferrer|Meksika|Baja California|3|31.330|-116.250|K
+Misión Santa Gertrudis|Santa Gertrudis|Meksika|Baja California|3|28.050|-113.090|K
+Misión San Francisco de Borja|San Francisco de Borja|Meksika|Baja California|3|28.750|-113.750|K
+Oaxaca|Huaxyacac;Antequera;Oaxaca|Meksika|Oaxaca|2|17.073|-96.727|L
+Monte Albán|Dani Baan;Monte Albán|Meksika|Oaxaca|1|17.044|-96.768|K
+Mitla|Lyobaa;Mitla|Meksika|Oaxaca|3|16.923|-96.360|K
+Zaachila|Zaachila|Meksika|Oaxaca|1|16.950|-96.760|K
+San José Mogote|San José Mogote|Meksika|Oaxaca|3|17.190|-96.850|K
+Tututepec|Yucu Dzaa;Tututepec|Meksika|Oaxaca|1|16.150|-97.620|K
+Tehuantepec|Guiengola yakını;Tehuantepec|Meksika|Oaxaca|3|16.320|-95.240|K
+Tlaxiaco|Tlaxiaco|Meksika|Oaxaca|3|17.270|-97.680|T
+Tuxtla Gutiérrez|Coyatoc;Tuxtla Gutiérrez|Meksika|Chiapas|2|16.753|-93.116|L
+San Cristóbal de las Casas|Jovel;Ciudad Real;San Cristóbal de las Casas|Meksika|Chiapas|2|16.737|-92.638|K
+Comitán|Balún Canán;Comitán|Meksika|Chiapas|3|16.250|-92.140|T
+Tapachula|Tapachula|Meksika|Chiapas|3|14.905|-92.263|T
+Tonalá|Tonalá|Meksika|Chiapas|3|16.090|-93.750|K
+Palenque|Lakamha';Palenque|Meksika|Chiapas|1|17.484|-92.046|T
+Toniná|Toniná|Meksika|Chiapas|3|16.900|-92.010|T
+Bonampak|Bonampak|Meksika|Chiapas|3|16.703|-91.065|T
+Mérida|Tihó;Mérida|Meksika|Yucatán|2|20.967|-89.592|L
+Chichén Itzá|Chichén Itzá|Meksika|Yucatán|1|20.684|-88.568|K
+Mayapán|Mayapán|Meksika|Yucatán|1|20.629|-89.461|K
+Uxmal|Uxmal|Meksika|Yucatán|1|20.360|-89.771|K
+Ek' Balam|Ek' Balam|Meksika|Yucatán|3|20.890|-88.138|K
+Maní|Maní|Meksika|Yucatán|3|20.390|-89.390|K
+Sotuta|Sotuta|Meksika|Yucatán|3|20.590|-89.020|K
+Valladolid|Zací;Valladolid|Meksika|Yucatán|3|20.690|-88.200|T
+Izamal|Itzmal;Izamal|Meksika|Yucatán|3|20.930|-89.020|T
+Dzibilchaltún|Dzibilchaltún|Meksika|Yucatán|3|21.090|-89.600|T
+Kabah|Kabah|Meksika|Yucatán|3|20.248|-89.649|T
+Cobá|Cobá|Meksika|Quintana Roo|1|20.494|-87.736|K
+Tulum|Zamá;Tulum|Meksika|Quintana Roo|3|20.215|-87.429|T
+Dzibanché|Dzibanché|Meksika|Quintana Roo|1|18.640|-88.760|K
+Kohunlich|Kohunlich|Meksika|Quintana Roo|3|18.430|-88.800|T
+Chetumal|Payo Obispo;Chetumal|Meksika|Quintana Roo|3|18.502|-88.296|T
+Campeche|Can Pech;San Francisco de Campeche;Campeche|Meksika|Campeche|2|19.845|-90.523|L
+Calakmul|Ox Té Tuun;Calakmul|Meksika|Campeche|1|18.105|-89.810|K
+Becán|Becán|Meksika|Campeche|3|18.510|-89.470|T
+Edzná|Edzná|Meksika|Campeche|3|19.600|-90.230|T
+Champotón|Chakán Putum;Champotón|Meksika|Campeche|3|19.350|-90.720|T
+Ciudad del Carmen|Isla del Carmen;Ciudad del Carmen|Meksika|Campeche|3|18.650|-91.820|T
+Acalán|Itzamkanac;Acalán|Meksika|Campeche|3|18.200|-90.970|K
+San Javier Biaundó|Misión San Javier Biaundó|Meksika|Baja California Sur|3|25.860|-111.540|T

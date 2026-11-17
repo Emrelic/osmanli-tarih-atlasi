@@ -438,14 +438,14 @@ window.SEHIR_TARIHCE_K3_G1 = [
    },
    {
     "f": "1129-01-01",
-    "t": "1146-06-13",
+    "t": "1146-09-14",
     "d": "zengi-musul",
     "kesinlik": "yil",
     "kaynak": "TDV HALEP (Zengî 1129); TDV ZENGÎLER: Zengî Ca‘ber kuşatmasında öldürüldü (541/1146); hicrî 541 ∩ 1146 ilk gün",
     "ic_not": "t hicrî kuralla 541'in ilk gününe düşüyor; Zengî'nin ölümü 541 Rebîülâhirindedir (Eylül 1146) — kural gereği erken uç."
    },
    {
-    "f": "1146-06-13",
+    "f": "1146-09-14",
     "t": "1183-06-12",
     "d": "zengi-halep",
     "kesinlik": {
@@ -844,8 +844,8 @@ window.SEHIR_TARIHCE_K3_G1 = [
     "tanik": "karşısındaki kahramanlıklarıyla tanınan İmâdüddin Zengî’ye verdi (1129)."
    },
    {
-    "t": "1146-06-13",
-    "gun": "541 (1146)",
+    "t": "1146-09-14",
+    "gun": "5 Rebîülâhir 541 / 14 Eylül 1146",
     "k": "diger",
     "b": "Zengî'nin ölümü; Halep oğlu Nûreddin Mahmud'a, Musul Seyfeddin Gazi'ye (künye geçişi)",
     "kaynak": "TDV ZENGÎLER"

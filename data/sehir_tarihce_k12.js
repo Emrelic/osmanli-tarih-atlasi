@@ -10922,14 +10922,14 @@ window.SEHIR_TARIHCE_K12 = [
    },
    {
     "f": "0913-08-07",
-    "t": "0934-12-11",
+    "t": "0935-01-01",
     "d": "__BOSLUK__",
     "kesinlik": "yil",
     "kaynak": "Encyclopaedia Iranica, ISFAHAN vi. Medieval Period (H. Kamaly, XIII/6, 2006), https://www.iranicaonline.org/articles/isfahan-vi-medieval-period/ (curl, tam Chrome UA); TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/ziyariler",
     "ic_not": "Sâmânîler kısa süre (913), sonra 'yaklaşık yirmi yıl Deylemli savaş beyleri' (Aliyy b. Vehsûdân, Ahmed Sa'luk, Merdâvîc [935'te Isfahan'da öldürüldü], Veşmgîr, Laşkerî, Rüknüddevle) — Iranica; TDV Ziyârîler: Büveyhîler 323/935'te İsfahan'ı aldı, Veşmgîr geri aldı, sonra tekrar Büveyhîler. Tek sahip yok → __BOSLUK__ (beyanlı)."
    },
    {
-    "f": "0934-12-11",
+    "f": "0935-01-01",
     "t": "1007-09-17",
     "d": "buveyhi",
     "kesinlik": "yil",
@@ -11019,8 +11019,8 @@ window.SEHIR_TARIHCE_K12 = [
     "tanik": "In 301/913, the Samanids of Khorasan briefly extended their control over Isfahan"
    },
    {
-    "t": "0934-12-11",
-    "gun": "323 H / 934-35",
+    "t": "0935-01-01",
+    "gun": "323 H (935)",
     "k": "fetih",
     "b": "Büveyhî Rüknüddevle Hasan Isfahan'ı merkez yapar; Büveyhî sikkelerinde şehir adı görülür.",
     "kaynak": "Encyclopaedia Iranica, ISFAHAN vi. Medieval Period (H. Kamaly, XIII/6, 2006), https://www.iranicaonline.org/articles/isfahan-vi-medieval-period/ (curl, tam Chrome UA); TDV İslâm Ansiklopedisi (O. G. Özgüdenli, İsfahan), https://islamansiklopedisi.org.tr/isfahan",
@@ -27658,7 +27658,7 @@ window.SEHIR_TARIHCE_K12 = [
     "tanik": "Yezd ve Eberkûh şehirleri Ferâmurz’a iktâ edildi"
    },
    {
-    "t": "1141-08-06",
+    "t": "1141-09-09",
     "gun": "536 H / 1141",
     "k": "diger",
     "b": "Kâkûyî Gerşâsb Katvân savaşında ölür, erkek vâris bırakmaz; iki kızı Yezd'i idare eder.",

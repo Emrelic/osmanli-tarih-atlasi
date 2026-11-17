@@ -1,0 +1,192 @@
+Ottawa|Bytown;Ottawa|Kanada|Ontario|1|45.421|-75.697|L
+Toronto|Tkaronto;York;Toronto|Kanada|Ontario|2|43.653|-79.383|L
+Québec|Stadacona;Québec;Quebec City|Kanada|Québec|2|46.813|-71.208|L
+Montréal|Hochelaga;Ville-Marie;Montréal|Kanada|Québec|3|45.502|-73.567|K
+Winnipeg|Fort Garry (Kızıl Irmak Kolonisi);Upper Fort Garry;Winnipeg|Kanada|Manitoba|2|49.895|-97.138|L
+Regina|Pile o' Bones;Regina|Kanada|Saskatchewan|2|50.445|-104.619|L
+Edmonton|Amiskwaciy-wâskahikan;Fort Edmonton;Edmonton|Kanada|Alberta|2|53.546|-113.494|K
+Calgary|Fort Calgary;Calgary|Kanada|Alberta|3|51.045|-114.057|K
+Victoria|Fort Camosun;Fort Victoria;Victoria|Kanada|British Columbia|2|48.428|-123.365|L
+Vancouver|Granville;Vancouver|Kanada|British Columbia|3|49.283|-123.121|T
+Halifax|Chebucto;Halifax|Kanada|Nova Scotia|2|44.649|-63.575|L
+Fredericton|Pointe-Sainte-Anne;Fredericton|Kanada|New Brunswick|2|45.964|-66.643|L
+Charlottetown|Port-la-Joye (yakın);Charlottetown|Kanada|Prince Edward Island|2|46.238|-63.131|L
+St. John's|Sant Joan;St. John's|Kanada|Newfoundland and Labrador|2|47.561|-52.713|L
+Dawson City|Tr'ondëk;Dawson City|Kanada|Yukon|2|64.060|-139.432|L
+Whitehorse|Whitehorse|Kanada|Yukon|3|60.721|-135.055|K
+Yellowknife|Yellowknife|Kanada|Northwest Territories|3|62.454|-114.372|T
+Iqaluit|Frobisher Bay;Iqaluit|Kanada|Nunavut|3|63.747|-68.517|K
+Hamilton|Hamilton|Kanada|Ontario|3|43.256|-79.869|T
+London|London|Kanada|Ontario|3|42.984|-81.246|T
+Kingston|Cataraqui;Fort Frontenac;Kingston|Kanada|Ontario|3|44.231|-76.486|K
+Windsor|Windsor|Kanada|Ontario|3|42.317|-83.036|T
+Niagara-on-the-Lake|Newark;Niagara-on-the-Lake|Kanada|Ontario|2|43.255|-79.071|T
+Sault Ste. Marie|Bawating;Sault Ste. Marie|Kanada|Ontario|3|46.520|-84.350|K
+Sudbury|Sudbury|Kanada|Ontario|3|46.490|-81.010|T
+Thunder Bay (Fort William)|Fort Kaministiquia;Fort William;Thunder Bay|Kanada|Ontario|3|48.382|-89.246|K
+Fort Frances|Fort St. Pierre;Fort Frances|Kanada|Ontario|3|48.610|-93.400|K
+Lac Seul|Lac Seul|Kanada|Ontario|3|50.340|-92.210|K
+Sainte-Marie-among-the-Hurons|Sainte-Marie-au-pays-des-Hurons;Wendake|Kanada|Ontario|3|44.725|-79.835|K
+Michipicoten|Michipicoten|Kanada|Ontario|3|47.950|-84.900|K
+Moose Factory|Moose Fort;Moose Factory|Kanada|Ontario|3|51.260|-80.610|K
+Fort Albany|Fort Albany|Kanada|Ontario|3|52.200|-81.690|K
+Attawapiskat|Attawapiskat|Kanada|Ontario|3|52.930|-82.420|K
+Fort Severn|Fort Severn|Kanada|Ontario|3|56.020|-87.630|K
+Big Trout Lake|Kitchenuhmaykoosib;Big Trout Lake|Kanada|Ontario|3|53.840|-89.860|K
+Oxford House|Oxford House|Kanada|Manitoba|3|54.930|-95.280|K
+Marten Falls|Ogoki;Marten Falls|Kanada|Ontario|3|51.650|-85.900|K
+Fort Témiscamingue|Fort Témiscamingue|Kanada|Québec|3|47.300|-79.430|K
+Trois-Rivières|Trois-Rivières|Kanada|Québec|3|46.343|-72.543|K
+Sherbrooke|Sherbrooke|Kanada|Québec|3|45.404|-71.893|T
+Chicoutimi|Chicoutimi|Kanada|Québec|3|48.428|-71.069|K
+Tadoussac|Tadoussac|Kanada|Québec|3|48.145|-69.719|K
+Rimouski|Rimouski|Kanada|Québec|3|48.449|-68.524|T
+Gaspé|Gaspé|Kanada|Québec|3|48.831|-64.488|K
+Listuguj|Restigouche;Listuguj|Kanada|Québec|3|48.050|-66.700|K
+Sept-Îles|Sept-Îles|Kanada|Québec|3|50.210|-66.380|K
+Mingan|Mingan|Kanada|Québec|3|50.300|-64.030|K
+Natashquan|Natashquan|Kanada|Québec|3|50.190|-61.820|K
+Kahnawake|Kahnawà:ke|Kanada|Québec|3|45.410|-73.680|K
+Odanak|Odanak|Kanada|Québec|3|46.080|-72.820|K
+Mistassini|Mistissini;Lac Mistassini|Kanada|Québec|3|50.420|-73.860|K
+Waswanipi|Waswanipi|Kanada|Québec|3|49.680|-76.000|K
+Waskaganish|Rupert House;Waskaganish|Kanada|Québec|3|51.485|-78.760|K
+Nemaska|Nemiscau;Nemaska|Kanada|Québec|3|51.690|-76.230|K
+Chisasibi|Fort George;Chisasibi|Kanada|Québec|3|53.810|-79.010|K
+Kuujjuarapik|Great Whale River;Kuujjuarapik|Kanada|Québec|3|55.280|-77.770|K
+Inukjuak|Port Harrison;Inukjuak|Kanada|Québec|3|58.460|-78.080|K
+Puvirnituq|Povungnituk;Puvirnituq|Kanada|Québec|3|60.040|-77.280|K
+Salluit|Sugluk;Salluit|Kanada|Québec|3|62.200|-75.640|K
+Kangiqsujuaq|Wakeham Bay;Kangiqsujuaq|Kanada|Québec|3|61.600|-71.950|K
+Kangirsuk|Payne Bay;Kangirsuk|Kanada|Québec|3|60.020|-70.010|K
+Kuujjuaq|Fort Chimo;Kuujjuaq|Kanada|Québec|3|58.100|-68.400|K
+Obedjiwan|Obedjiwan|Kanada|Québec|3|48.680|-74.930|K
+Fort Caniapiscau|Fort Caniapiscau|Kanada|Québec|3|54.850|-69.900|K
+Fort McKenzie|Fort McKenzie|Kanada|Québec|3|56.900|-69.100|K
+Saint John|Saint-Jean;Menagoueche;Saint John|Kanada|New Brunswick|3|45.273|-66.063|T
+Moncton|Le Coude;Moncton|Kanada|New Brunswick|3|46.088|-64.778|T
+Madawaska|Madawaska|Kanada|New Brunswick|3|47.370|-68.330|K
+Fort Beauséjour|Fort Beauséjour;Fort Cumberland|Kanada|New Brunswick|3|45.850|-64.290|T
+Saint Croix Island|Île Sainte-Croix|Kanada|New Brunswick|3|45.130|-67.130|T
+Annapolis Royal|Port-Royal;Annapolis Royal|Kanada|Nova Scotia|2|44.743|-65.517|K
+Grand-Pré|Grand-Pré|Kanada|Nova Scotia|3|45.110|-64.300|T
+Louisbourg|Louisbourg;Fortress of Louisbourg|Kanada|Nova Scotia|2|45.920|-59.975|K
+Sydney|Sydney|Kanada|Nova Scotia|3|46.138|-60.194|T
+Lunenburg|Lunenburg|Kanada|Nova Scotia|3|44.376|-64.318|T
+Shelburne|Port Roseway;Shelburne|Kanada|Nova Scotia|3|43.760|-65.320|T
+Port-la-Joye|Port-la-Joye|Kanada|Prince Edward Island|2|46.185|-63.130|K
+Placentia|Plaisance;Placentia|Kanada|Newfoundland and Labrador|2|47.243|-53.962|K
+Ferryland|Ferryland;Avalon Kolonisi|Kanada|Newfoundland and Labrador|3|47.030|-52.880|T
+Cupids|Cuper's Cove;Cupids|Kanada|Newfoundland and Labrador|3|47.550|-53.230|T
+Bonavista|Bonavista|Kanada|Newfoundland and Labrador|3|48.650|-53.110|T
+L'Anse aux Meadows|Vinland (?);L'Anse aux Meadows|Kanada|Newfoundland and Labrador|3|51.596|-55.532|T
+Red Bay|Butus;Red Bay|Kanada|Newfoundland and Labrador|3|51.730|-56.420|T
+Blanc-Sablon|Blanc-Sablon|Kanada|Québec|3|51.430|-57.130|K
+Cartwright|Cartwright;Sandwich Bay|Kanada|Newfoundland and Labrador|3|53.700|-57.020|K
+Rigolet|Rigolet|Kanada|Newfoundland and Labrador|3|54.180|-58.430|K
+Hopedale|Agvituk;Hopedale|Kanada|Newfoundland and Labrador|3|55.455|-60.220|K
+Nain|Nain|Kanada|Newfoundland and Labrador|3|56.540|-61.690|K
+Hebron|Hebron|Kanada|Newfoundland and Labrador|3|58.200|-62.630|K
+North West River|North West River|Kanada|Newfoundland and Labrador|3|53.520|-60.150|K
+Goose Bay|Happy Valley-Goose Bay|Kanada|Newfoundland and Labrador|3|53.300|-60.330|T
+Killiniq|Port Burwell;Killiniq|Kanada|Nunavut|3|60.420|-64.820|K
+York Factory|York Fort;York Factory|Kanada|Manitoba|2|57.000|-92.300|K
+Churchill (Prince of Wales Fort)|Fort Prince of Wales;Churchill|Kanada|Manitoba|3|58.790|-94.215|K
+Norway House|Norway House|Kanada|Manitoba|3|53.980|-97.830|K
+Cumberland House|Cumberland House|Kanada|Saskatchewan|3|53.958|-102.268|K
+Brandon|Brandon House;Brandon|Kanada|Manitoba|3|49.848|-99.953|K
+Fort Dauphin|Fort Dauphin;Dauphin|Kanada|Manitoba|3|51.150|-100.050|K
+Fort Alexander|Fort Alexander;Sagkeeng|Kanada|Manitoba|3|50.600|-96.300|K
+Berens River|Berens River|Kanada|Manitoba|3|52.350|-97.020|K
+Nelson House|Nelson House|Kanada|Manitoba|3|55.790|-98.830|K
+Pukatawagan|Pukatawagan|Kanada|Manitoba|3|55.750|-101.300|K
+Brochet|Brochet|Kanada|Manitoba|3|57.890|-101.660|K
+Grand Rapids|Grand Rapids|Kanada|Manitoba|3|53.170|-99.270|K
+Arviat|Eskimo Point;Arviat|Kanada|Nunavut|3|61.110|-94.060|K
+Prince Albert|Fort Albert;Prince Albert|Kanada|Saskatchewan|3|53.203|-105.753|K
+Saskatoon|Saskatoon|Kanada|Saskatchewan|3|52.133|-106.670|T
+Battleford|Battleford|Kanada|Saskatchewan|2|52.743|-108.320|K
+Batoche|Batoche|Kanada|Saskatchewan|3|52.740|-106.120|K
+Fort Carlton|Fort Carlton|Kanada|Saskatchewan|3|52.860|-106.530|K
+Fort Qu'Appelle|Fort Qu'Appelle|Kanada|Saskatchewan|3|50.768|-103.801|K
+Fort Pitt|Fort Pitt|Kanada|Saskatchewan|3|53.580|-109.800|K
+Ile-à-la-Crosse|Île-à-la-Crosse|Kanada|Saskatchewan|3|55.450|-107.880|K
+Lac La Ronge|Lac La Ronge|Kanada|Saskatchewan|3|55.100|-105.280|K
+Fond du Lac|Fond du Lac|Kanada|Saskatchewan|3|59.330|-107.180|K
+Fort Walsh|Fort Walsh|Kanada|Saskatchewan|3|49.580|-109.880|K
+Fort Macleod|Fort Macleod|Kanada|Alberta|3|49.720|-113.400|K
+Lethbridge|Coalbanks;Lethbridge|Kanada|Alberta|3|49.694|-112.833|T
+Medicine Hat|Medicine Hat|Kanada|Alberta|3|50.040|-110.677|T
+Rocky Mountain House|Rocky Mountain House|Kanada|Alberta|3|52.370|-114.920|K
+Jasper House|Jasper House|Kanada|Alberta|3|53.180|-117.950|K
+Lac La Biche|Lac La Biche|Kanada|Alberta|3|54.770|-111.970|K
+Fort Chipewyan|Fort Chipewyan|Kanada|Alberta|3|58.717|-111.150|K
+Fort Vermilion|Fort Vermilion|Kanada|Alberta|3|58.390|-116.030|K
+Dunvegan|Fort Dunvegan;Dunvegan|Kanada|Alberta|3|55.920|-118.600|K
+Lesser Slave Lake House|Lesser Slave Lake House|Kanada|Alberta|3|55.420|-114.770|K
+Fort Assiniboine|Fort Assiniboine|Kanada|Alberta|3|54.330|-114.750|K
+Fort McMurray|Fort McMurray|Kanada|Alberta|3|56.730|-111.380|T
+Kamloops|Fort Kamloops;Tk'emlúps;Kamloops|Kanada|British Columbia|3|50.675|-120.340|K
+New Westminster|Queensborough;New Westminster|Kanada|British Columbia|2|49.207|-122.911|T
+Nanaimo|Colvile Town;Nanaimo|Kanada|British Columbia|3|49.166|-123.940|T
+Fort Langley|Fort Langley|Kanada|British Columbia|2|49.169|-122.576|K
+Fort St. James|Stuart Lake Post;Fort St. James|Kanada|British Columbia|3|54.436|-124.250|K
+Fort George|Fort George;Prince George|Kanada|British Columbia|3|53.920|-122.750|K
+Fort McLeod|Fort McLeod|Kanada|British Columbia|3|54.990|-123.030|K
+Fort Nelson|Fort Nelson|Kanada|British Columbia|3|58.800|-122.700|K
+Fort Ware|Fort Ware;Kwadacha|Kanada|British Columbia|3|57.430|-125.650|K
+Dease Lake|Dease Lake|Kanada|British Columbia|3|58.440|-130.000|K
+Telegraph Creek|Telegraph Creek;Tlegohin|Kanada|British Columbia|3|57.900|-131.160|K
+Atlin|Atlin|Kanada|British Columbia|3|59.580|-133.700|K
+Bella Coola|Q'umk'uts;Bella Coola|Kanada|British Columbia|3|52.370|-126.750|K
+Bella Bella|Fort McLoughlin;Bella Bella|Kanada|British Columbia|3|52.160|-128.150|K
+Lax Kw'alaams|Fort Simpson;Port Simpson;Lax Kw'alaams|Kanada|British Columbia|3|54.560|-130.430|K
+Skidegate|Hlgaagilda;Skidegate|Kanada|British Columbia|3|53.260|-132.000|K
+SG̱ang Gwaay|Nan Sdins;Ninstints;SG̱ang Gwaay|Kanada|British Columbia|3|52.140|-131.240|K
+Yuquot|Yuquot;Friendly Cove;Nootka|Kanada|British Columbia|3|49.600|-126.630|K
+Fort Babine|Fort Kilmaurs;Babine|Kanada|British Columbia|3|55.350|-126.700|K
+Fort Selkirk|Fort Selkirk|Kanada|Yukon|3|62.770|-137.370|K
+Old Crow|Vuntut;Old Crow|Kanada|Yukon|3|67.570|-139.840|K
+Ross River|Pelly Banks;Ross River|Kanada|Yukon|3|61.990|-132.450|K
+Fort McPherson|Fort McPherson;Teetł'it Zheh|Kanada|Northwest Territories|3|67.440|-134.880|K
+Aklavik|Aklavik|Kanada|Northwest Territories|3|68.220|-135.010|T
+Tuktoyaktuk|Kittigazuit yakını;Tuktoyaktuk|Kanada|Northwest Territories|3|69.450|-133.040|T
+Fort Good Hope|Rádeyı̨lı̨kóé;Fort Good Hope|Kanada|Northwest Territories|3|66.260|-128.630|K
+Tulita|Fort Norman;Tulita|Kanada|Northwest Territories|3|64.900|-125.580|K
+Déline|Fort Franklin;Déline|Kanada|Northwest Territories|3|65.190|-123.420|K
+Behchokǫ̀|Fort Rae;Behchokǫ̀|Kanada|Northwest Territories|3|62.800|-116.050|K
+Fort Simpson|Łı́ı́dlı̨ı̨ Kų́ę́;Fort Simpson|Kanada|Northwest Territories|3|61.860|-121.350|K
+Fort Providence|Fort Providence|Kanada|Northwest Territories|3|61.350|-117.650|K
+Fort Resolution|Deninu Kų́ę́;Fort Resolution|Kanada|Northwest Territories|3|61.170|-113.680|K
+Fort Smith|Fort Smith|Kanada|Northwest Territories|3|60.000|-111.880|T
+Fort Liard|Fort Liard|Kanada|Northwest Territories|3|60.240|-123.470|K
+Fort Halkett|Fort Halkett|Kanada|British Columbia|3|59.880|-126.300|K
+Fort Confidence|Fort Confidence|Kanada|Northwest Territories|3|66.500|-118.900|K
+Fort Reliance|Fort Reliance|Kanada|Northwest Territories|3|62.730|-109.160|K
+Łutselk'e|Snowdrift;Łutselk'e|Kanada|Northwest Territories|3|62.390|-110.740|K
+Colville Lake|K'áhbamı̨túé;Colville Lake|Kanada|Northwest Territories|3|67.030|-126.100|K
+Paulatuk|Paulatuk|Kanada|Northwest Territories|3|69.350|-124.070|K
+Kugluktuk|Coppermine;Kugluktuk|Kanada|Nunavut|3|67.825|-115.090|K
+Cambridge Bay|Iqaluktuuttiaq;Cambridge Bay|Kanada|Nunavut|3|69.120|-105.060|K
+Gjoa Haven|Uqsuqtuuq;Gjoa Haven|Kanada|Nunavut|3|68.630|-95.880|K
+Taloyoak|Spence Bay;Taloyoak|Kanada|Nunavut|3|69.540|-93.520|T
+Kugaaruk|Pelly Bay;Kugaaruk|Kanada|Nunavut|3|68.530|-89.830|K
+Naujaat|Repulse Bay;Naujaat|Kanada|Nunavut|3|66.520|-86.250|K
+Igloolik|Iglulik;Igloolik|Kanada|Nunavut|3|69.380|-81.800|K
+Hall Beach|Sanirajak;Hall Beach|Kanada|Nunavut|3|68.770|-81.220|K
+Clyde River|Kanngiqtugaapik;Clyde River|Kanada|Nunavut|3|70.470|-68.590|K
+Pond Inlet|Mittimatalik;Pond Inlet|Kanada|Nunavut|3|72.700|-77.960|T
+Pangnirtung|Panniqtuuq;Pangnirtung|Kanada|Nunavut|3|66.150|-65.710|K
+Cape Dorset|Kinngait;Cape Dorset|Kanada|Nunavut|3|64.230|-76.540|K
+Kimmirut|Lake Harbour;Kimmirut|Kanada|Nunavut|3|62.850|-69.870|K
+Baker Lake|Qamanittuaq;Baker Lake|Kanada|Nunavut|3|64.320|-96.020|K
+Chesterfield Inlet|Igluligaarjuk;Chesterfield Inlet|Kanada|Nunavut|3|63.340|-90.710|K
+Rankin Inlet|Kangiqliniq;Rankin Inlet|Kanada|Nunavut|3|62.810|-92.090|T
+Coral Harbour|Salliq;Coral Harbour|Kanada|Nunavut|3|64.140|-83.170|T
+Qikiqtarjuaq|Broughton Island;Qikiqtarjuaq|Kanada|Nunavut|3|67.550|-64.030|K
+Resolute|Qausuittuq;Resolute|Kanada|Nunavut|3|74.700|-94.830|T
+Arctic Bay|Ikpiarjuk;Arctic Bay|Kanada|Nunavut|3|73.040|-85.150|T
+Sachs Harbour|Ikahuak;Sachs Harbour|Kanada|Northwest Territories|3|71.990|-125.250|T
+Ulukhaktok|Holman;Ulukhaktok|Kanada|Northwest Territories|3|70.740|-117.770|T
+Herschel Island|Qikiqtaruk;Herschel Island|Kanada|Yukon|3|69.580|-138.910|K
+Kittigazuit|Kittigazuit|Kanada|Northwest Territories|3|69.350|-133.750|K
