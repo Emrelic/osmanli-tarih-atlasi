@@ -299,7 +299,10 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
   "adlar": [
    "Gorkipaya (TDV)",
    "Napa",
-   "Anapa"
+   "Anapa",
+   "Gorkipaya",
+   "Ana-pa",
+   "Анапа"
   ],
   "ilk": {
    "t": "1400-01-01",
@@ -351,7 +354,44 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
     "tanik": "1829 Edirne Antlaşması ile de Anapa ve Kafkasya Osmanlı hâkimiyetinden çıktı"
    }
   ],
-  "ic_not": "Kaynak: TDV tam gövde (tarayıcı), çift teyit YOK (ikinci akademik kaynak açılmadı). Tüm tanık alıntıları gövdede includes() ile birebir doğrulandı. ilk.t: TDV'nin tek erken dayanağı yüzyıl düzeyindedir ('XIII ve XIV. yüzyıllarda ... Gorkipaya adlı Bizans kolonisi, sonra Ceneviz ticaret iskelesi ve kalesi'); güvenli uç (XIV. yy sonu) 1400-01-01 alındı. Anapa'nın yerinde antik Gorgippia vardır; TDV'nin 'Bizans kolonisi' ifadesi olduğu gibi aktarıldı, antik/ortaçağ ayrımı ve 3 km sınaması yapılmadı. TDV: Fâtih dönemi Gedik Ahmed Paşa seferiyle Osmanlı ilgisi başladı (yıl yok → yazılmadı); Anapa Kalesi Ferah Ali Paşa eliyle Soğucak'a benzer inşa edildi (1783-1786'da tamamlandı, aralık → yazılmadı); 1809 sonbaharında Rus saldırısı ve Bükreş Antlaşması (16 Mayıs 1812) ile Kuban hududu → şehre özgü teslim günü verilmediğinden olay yazılmadı. TDV 1853-56 Kırım Savaşı'nda kalenin müttefikler tarafından yıkıldığını söyler (gün yok). Atlas Anapa'yı 1281'de altinorda ile başlatır; TDV bunu desteklemez, çürütmez. Atlas bu noktayı 1281-01-01'de başlatır; ilk.t sonra olduğundan sahip:[] (atlas zinciri esas), 'atlas başlangıcı düzeltilmeli' uyarısı beklenen davranıştır — TDV'de daha erken TARİHLİ tanık bulunamadı. F3 çözüm (16 Kasım 2026): 1829 olayı yıl→gün (14 Eylül 1829, TDV Edirne Antlaşması md. gövdesi) ile düzeltildi; devlet kronolojisindeki 1829-09-14 maddesiyle örtüşür."
+  "ic_not": "Kaynak: TDV tam gövde (tarayıcı), çift teyit YOK (ikinci akademik kaynak açılmadı). Tüm tanık alıntıları gövdede includes() ile birebir doğrulandı. ilk.t: TDV'nin tek erken dayanağı yüzyıl düzeyindedir ('XIII ve XIV. yüzyıllarda ... Gorkipaya adlı Bizans kolonisi, sonra Ceneviz ticaret iskelesi ve kalesi'); güvenli uç (XIV. yy sonu) 1400-01-01 alındı. Anapa'nın yerinde antik Gorgippia vardır; TDV'nin 'Bizans kolonisi' ifadesi olduğu gibi aktarıldı, antik/ortaçağ ayrımı ve 3 km sınaması yapılmadı. TDV: Fâtih dönemi Gedik Ahmed Paşa seferiyle Osmanlı ilgisi başladı (yıl yok → yazılmadı); Anapa Kalesi Ferah Ali Paşa eliyle Soğucak'a benzer inşa edildi (1783-1786'da tamamlandı, aralık → yazılmadı); 1809 sonbaharında Rus saldırısı ve Bükreş Antlaşması (16 Mayıs 1812) ile Kuban hududu → şehre özgü teslim günü verilmediğinden olay yazılmadı. TDV 1853-56 Kırım Savaşı'nda kalenin müttefikler tarafından yıkıldığını söyler (gün yok). Atlas Anapa'yı 1281'de altinorda ile başlatır; TDV bunu desteklemez, çürütmez. Atlas bu noktayı 1281-01-01'de başlatır; ilk.t sonra olduğundan sahip:[] (atlas zinciri esas), 'atlas başlangıcı düzeltilmeli' uyarısı beklenen davranıştır — TDV'de daha erken TARİHLİ tanık bulunamadı. F3 çözüm (16 Kasım 2026): 1829 olayı yıl→gün (14 Eylül 1829, TDV Edirne Antlaşması md. gövdesi) ile düzeltildi; devlet kronolojisindeki 1829-09-14 maddesiyle örtüşür.",
+  "ad_kaynak": [
+   {
+    "ad": "Gorkipaya",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'ANAPA' https://islamansiklopedisi.org.tr/anapa",
+    "kanit": "önce Gorkipaya adlı Bizans kolonisi iken"
+   },
+   {
+    "ad": "Napa",
+    "dil": "it",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'ANAPA' https://islamansiklopedisi.org.tr/anapa",
+    "kanit": "Ceneviz ve Venedikliler’in Napa olarak adlandırdıkları bu şehre"
+   },
+   {
+    "ad": "Ana-pa",
+    "dil": "grc",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'ANAPA' https://islamansiklopedisi.org.tr/anapa",
+    "kanit": "Eski Grekçe’de “burun” mânasına gelen “Ana-pa”dan gelir"
+   },
+   {
+    "ad": "Anapa",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'ANAPA' https://islamansiklopedisi.org.tr/anapa",
+    "kanit": "Anapa burnuna giden Ferah Ali Paşa"
+   },
+   {
+    "ad": "Анапа",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Анапа' https://ru.wikisource.org/wiki/ЭСБЕ/Анапа",
+    "kanit": "Анапа — город Темрюкского отдела Кубанской области"
+   }
+  ]
  },
  {
   "id": "andican-uz",
@@ -542,7 +582,10 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
     "tanik": "it was created in 1946 from mining settlements that had grown up"
    }
   ],
-  "ic_not": "TEK KAYNAK (Britannica); ÇİFT TEYİT YOK. Özne zamiri 'it' = madde konusu Angren (cümlede şehir adı yok, beyan). İKİNCİ KAYNAK BAKILDI: Columbia 6th ed. 'Angren' (encyclopedia.com/reference/encyclopedias-almanacs-transcripts-and-maps/angren): 'The largest lignite-mining center in Central Asia, it was developed during and after World War II' — YIL VERMEZ, 1946'yı ne doğrular ne yalanlar (savaş sonrası dönemle uyumlu). BAĞIMSIZLIK ÖLÇÜMÜ: Britannica Inc. ve Columbia Univ. Press ayrı yayıncı, farklı cümle; yıl çifti oluşmadığından teyit sayılmadı. Savaş öncesi/sırasındaki 'maden yerleşimleri' ayrı olgudur, tarih verilmedi. SAHİP: kaynakta açık yok (SSCB/Özbek SSC kaynakta anılmaz), yazılmadı."
+  "ic_not": "TEK KAYNAK (Britannica); ÇİFT TEYİT YOK. Özne zamiri 'it' = madde konusu Angren (cümlede şehir adı yok, beyan). İKİNCİ KAYNAK BAKILDI: Columbia 6th ed. 'Angren' (encyclopedia.com/reference/encyclopedias-almanacs-transcripts-and-maps/angren): 'The largest lignite-mining center in Central Asia, it was developed during and after World War II' — YIL VERMEZ, 1946'yı ne doğrular ne yalanlar (savaş sonrası dönemle uyumlu). BAĞIMSIZLIK ÖLÇÜMÜ: Britannica Inc. ve Columbia Univ. Press ayrı yayıncı, farklı cümle; yıl çifti oluşmadığından teyit sayılmadı. Savaş öncesi/sırasındaki 'maden yerleşimleri' ayrı olgudur, tarih verilmedi. SAHİP: kaynakta açık yok (SSCB/Özbek SSC kaynakta anılmaz), yazılmadı.",
+  "adlar_kaynaksiz": [
+   "Angren"
+  ]
  },
  {
   "id": "askabat-tm",
@@ -679,6 +722,9 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
     "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Асхабад' https://ru.wikisource.org/wiki/ЭСБЕ/Асхабад",
     "kanit": "Асхабад — г. Закаспийской обл. Ахалтекинского у."
    }
+  ],
+  "adlar_kaynaksiz": [
+   "Aşkabat"
   ]
  },
  {
@@ -774,7 +820,8 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
   "lon": 28.7169,
   "kat1900": null,
   "adlar": [
-   "Babadağı"
+   "Babadağı",
+   "Бабадаг"
   ],
   "ilk": {
    "t": "1416-01-01",
@@ -853,7 +900,19 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
     "tanik": "1878 Berlin Antlaşması ile Dobruca bölgesinin Romanya’ya terkedilmesi üzerine Osmanlı Devleti’nden ayrıldı"
    }
   ],
-  "ic_not": "Kaynak: TDV tam gövde (tarayıcı), çift teyit YOK (ikinci akademik kaynak açılmadı). Tüm tanık alıntıları gövdede includes() ile birebir doğrulandı. ilk.t: TDV Babadağı'nın XIV. yy başlarında Sarı Saltuk Türkmenleri'nin göçü bağlamında Türkmenlerce yurt edinildiğini 'anlaşılır' diye çıkarım olarak verir (tanık sayılmadı); ilk TARİHLİ tanık 819/1416 Osmanlı hâkimiyeti (TDV mîlâdî karşılığı 1416 verir; hicrî 819'un kesişim ilk günü gerekmedi, yıl düzeyi 1416-01-01). Atlas Babadağı'nı 1281'de altinorda ile başlatır; TDV'nin 1416 öncesi sahip tanığı yok, zincir atlasa bırakıldı (öneri: 1416 Osmanlı geçişi atlas dönemine kaynaklı eklenebilir: Çelebi Mehmed). 1594-1596 Mihai Viteazul yağması, 1773 yazı yakıp yıkma ve IV. Murad/Evliya Çelebi bilgileri aralık/tarihsiz olduğundan yazılmadı. Atlas bu noktayı 1281-01-01'de başlatır; ilk.t sonra olduğundan sahip:[] (atlas zinciri esas), 'atlas başlangıcı düzeltilmeli' uyarısı beklenen davranıştır — TDV'de daha erken TARİHLİ tanık bulunamadı. | Parti5 tanık kuralı (17 Kasım 2026): tanik cümleden birebir yenilendi [ilk]: TDV cümlesi ad+1416; aynı maddede 'XIV. yüzyılın başlarında ... o tarihlerde Babadağı ve yöresinin Türkmenler tarafından yurt edinildiği anlaşılır' (çıkarım, daha eski; ilk.t değiştirilmedi)"
+  "ic_not": "Kaynak: TDV tam gövde (tarayıcı), çift teyit YOK (ikinci akademik kaynak açılmadı). Tüm tanık alıntıları gövdede includes() ile birebir doğrulandı. ilk.t: TDV Babadağı'nın XIV. yy başlarında Sarı Saltuk Türkmenleri'nin göçü bağlamında Türkmenlerce yurt edinildiğini 'anlaşılır' diye çıkarım olarak verir (tanık sayılmadı); ilk TARİHLİ tanık 819/1416 Osmanlı hâkimiyeti (TDV mîlâdî karşılığı 1416 verir; hicrî 819'un kesişim ilk günü gerekmedi, yıl düzeyi 1416-01-01). Atlas Babadağı'nı 1281'de altinorda ile başlatır; TDV'nin 1416 öncesi sahip tanığı yok, zincir atlasa bırakıldı (öneri: 1416 Osmanlı geçişi atlas dönemine kaynaklı eklenebilir: Çelebi Mehmed). 1594-1596 Mihai Viteazul yağması, 1773 yazı yakıp yıkma ve IV. Murad/Evliya Çelebi bilgileri aralık/tarihsiz olduğundan yazılmadı. Atlas bu noktayı 1281-01-01'de başlatır; ilk.t sonra olduğundan sahip:[] (atlas zinciri esas), 'atlas başlangıcı düzeltilmeli' uyarısı beklenen davranıştır — TDV'de daha erken TARİHLİ tanık bulunamadı. | Parti5 tanık kuralı (17 Kasım 2026): tanik cümleden birebir yenilendi [ilk]: TDV cümlesi ad+1416; aynı maddede 'XIV. yüzyılın başlarında ... o tarihlerde Babadağı ve yöresinin Türkmenler tarafından yurt edinildiği anlaşılır' (çıkarım, daha eski; ilk.t değiştirilmedi)",
+  "ad_kaynak": [
+   {
+    "ad": "Бабадаг",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Бабадаг' https://ru.wikisource.org/wiki/ЭСБЕ/Бабадаг",
+    "kanit": "Бабадаг — румынский город в Добрудже"
+   }
+  ],
+  "adlar_kaynaksiz": [
+   "Babadağı"
+  ]
  },
  {
   "id": "belh-af",
@@ -1055,6 +1114,9 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
     "kaynak": "Encyclopaedia Britannica 'Balkh' https://www.britannica.com/place/Balkh",
     "kanit": "Also known as: Bactra, Bactra-Zariaspa, Vazīrābād"
    }
+  ],
+  "adlar_kaynaksiz": [
+   "Belh"
   ]
  },
  {
@@ -1298,7 +1360,11 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
   "kat1900": null,
   "adlar": [
    "Solhat",
-   "Eski Kırım"
+   "Eski Kırım",
+   "Эски-Крым",
+   "Солкат",
+   "Солгат",
+   "Крым Старый"
   ],
   "ilk": {
    "t": "1340-12-31",
@@ -1323,7 +1389,51 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
     "tanik": "Eski Kırım (Solhat) şehrinde Altın Orda hükümdarı Özbek Han döneminde (1313-1340) inşa edilmiştir"
    }
   ],
-  "ic_not": "Kaynak: TDV tam gövde (tarayıcı), çift teyit YOK (ikinci akademik kaynak açılmadı). Tüm tanık alıntıları gövdede includes() ile birebir doğrulandı. ilk.t: 'Özbek Han döneminde (1313-1340)' aralığıdır; güvenli uç (dönemin son yılı) 1340-12-31 alındı (inşa gününün daha erken olabileceği beyan edilir). TDV «Kırım» md.: Memlük tüccarlarının Solhat'ta Sultan Baybars Camii yaptırdığı (tarihsiz), İbn Battûta'nın Solhat'ı anması (yıl yok) ve Evliya Çelebi'nin açıklamaları yazılmadı. Atlas Eski Kırım'ı 1281'de altinorda ile başlatır (ilk.t sonra). Atlas bu noktayı 1281-01-01'de başlatır; ilk.t sonra olduğundan sahip:[] (atlas zinciri esas), 'atlas başlangıcı düzeltilmeli' uyarısı beklenen davranıştır — TDV'de daha erken TARİHLİ tanık bulunamadı."
+  "ic_not": "Kaynak: TDV tam gövde (tarayıcı), çift teyit YOK (ikinci akademik kaynak açılmadı). Tüm tanık alıntıları gövdede includes() ile birebir doğrulandı. ilk.t: 'Özbek Han döneminde (1313-1340)' aralığıdır; güvenli uç (dönemin son yılı) 1340-12-31 alındı (inşa gününün daha erken olabileceği beyan edilir). TDV «Kırım» md.: Memlük tüccarlarının Solhat'ta Sultan Baybars Camii yaptırdığı (tarihsiz), İbn Battûta'nın Solhat'ı anması (yıl yok) ve Evliya Çelebi'nin açıklamaları yazılmadı. Atlas Eski Kırım'ı 1281'de altinorda ile başlatır (ilk.t sonra). Atlas bu noktayı 1281-01-01'de başlatır; ilk.t sonra olduğundan sahip:[] (atlas zinciri esas), 'atlas başlangıcı düzeltilmeli' uyarısı beklenen davranıştır — TDV'de daha erken TARİHLİ tanık bulunamadı.",
+  "ad_kaynak": [
+   {
+    "ad": "Solhat",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'KIRIM' https://islamansiklopedisi.org.tr/kirim",
+    "kanit": "Memlük tüccarları eski Kırım’da (Solhat) bir cami"
+   },
+   {
+    "ad": "Eski Kırım",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'KIRIM' https://islamansiklopedisi.org.tr/kirim",
+    "kanit": "Memlük tüccarları eski Kırım’da (Solhat) bir cami"
+   },
+   {
+    "ad": "Эски-Крым",
+    "dil": "crh",
+    "donem": null,
+    "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Крым Старый' https://ru.wikisource.org/wiki/ЭСБЕ/Крым_Старый",
+    "kanit": "Крым Старый (по-татарски Эски-Крым, в древности Солкат или Солгат)"
+   },
+   {
+    "ad": "Солкат",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Крым Старый' https://ru.wikisource.org/wiki/ЭСБЕ/Крым_Старый",
+    "kanit": "Крым Старый (по-татарски Эски-Крым, в древности Солкат или Солгат)"
+   },
+   {
+    "ad": "Солгат",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Крым Старый' https://ru.wikisource.org/wiki/ЭСБЕ/Крым_Старый",
+    "kanit": "Крым Старый (по-татарски Эски-Крым, в древности Солкат или Солгат)"
+   },
+   {
+    "ad": "Крым Старый",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Крым Старый' https://ru.wikisource.org/wiki/ЭСБЕ/Крым_Старый",
+    "kanit": "Крым Старый (по-татарски Эски-Крым, в древности Солкат или Солгат)"
+   }
+  ]
  },
  {
   "id": "gazne-af",
@@ -1739,6 +1849,9 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
     "kaynak": "Encyclopaedia Britannica 'Herat' https://www.britannica.com/place/Herat-Afghanistan",
     "kanit": "Also known as: Harāt"
    }
+  ],
+  "adlar_kaynaksiz": [
+   "Herat"
   ]
  },
  {
@@ -2560,6 +2673,9 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
     "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Каракорум, города' https://ru.wikisource.org/wiki/ЭСБЕ/Каракорум, города",
     "kanit": "в лапидарных надписях, найденных близ монастыря Эрдени-цзу — Дахолин"
    }
+  ],
+  "adlar_kaynaksiz": [
+   "Harhorim (Moğolca 'kara kaya, kara taş yığını')"
   ]
  },
  {
@@ -2570,7 +2686,9 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
   "lon": 34.6,
   "kat1900": null,
   "adlar": [
-   "Karasubazar"
+   "Karasubazar",
+   "Belogorsk",
+   "Карасубазар"
   ],
   "ilk": {
    "t": "1300-01-01",
@@ -2631,7 +2749,30 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
     "tanik": "1783 tarihli fermanının (Karasubazar Beyannâmesi) General Potemkin tarafından ilân edildiği yer"
    }
   ],
-  "ic_not": "Kaynak: TDV tam gövde (tarayıcı), çift teyit YOK (ikinci akademik kaynak açılmadı). Tüm tanık alıntıları gövdede includes() ile birebir doğrulandı. ilk.t: TDV 'en geç XIII. yüzyıldan itibaren' der (yüzyıl düzeyi; güvenli uç 1300-01-01). 1736 olayının yılı TDV cümlesinin başındadır ('1736’da Bahçesaray’ın ... istilâ ... üzerine Feth Giray Han ...'), tanık 15 kelimeyi aşmamak için cümlenin ikinci yarısıyla sınırlandı. 1783 ferman günü TDV'de yok (yıl). Atlas Karasubazar'ı 1281'de kirim değil altinorda ile başlatır olarak ölçüldü; TDV Kırım Hanlığı devrini şehrin asıl yükselişi sayar. 1624-1675 Zaporog baskınları (aralık) ve 1944 sürgün (bölgesel) yazılmadı. Atlas bu noktayı 1281-01-01'de başlatır; ilk.t sonra olduğundan sahip:[] (atlas zinciri esas), 'atlas başlangıcı düzeltilmeli' uyarısı beklenen davranıştır — TDV'de daha erken TARİHLİ tanık bulunamadı."
+  "ic_not": "Kaynak: TDV tam gövde (tarayıcı), çift teyit YOK (ikinci akademik kaynak açılmadı). Tüm tanık alıntıları gövdede includes() ile birebir doğrulandı. ilk.t: TDV 'en geç XIII. yüzyıldan itibaren' der (yüzyıl düzeyi; güvenli uç 1300-01-01). 1736 olayının yılı TDV cümlesinin başındadır ('1736’da Bahçesaray’ın ... istilâ ... üzerine Feth Giray Han ...'), tanık 15 kelimeyi aşmamak için cümlenin ikinci yarısıyla sınırlandı. 1783 ferman günü TDV'de yok (yıl). Atlas Karasubazar'ı 1281'de kirim değil altinorda ile başlatır olarak ölçüldü; TDV Kırım Hanlığı devrini şehrin asıl yükselişi sayar. 1624-1675 Zaporog baskınları (aralık) ve 1944 sürgün (bölgesel) yazılmadı. Atlas bu noktayı 1281-01-01'de başlatır; ilk.t sonra olduğundan sahip:[] (atlas zinciri esas), 'atlas başlangıcı düzeltilmeli' uyarısı beklenen davranıştır — TDV'de daha erken TARİHLİ tanık bulunamadı.",
+  "ad_kaynak": [
+   {
+    "ad": "Karasubazar",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'KARASUBAZAR' https://islamansiklopedisi.org.tr/karasubazar",
+    "kanit": "Karasubazar adıyla en geç XIII. yüzyıldan itibaren bir yerleşim yeri olarak"
+   },
+   {
+    "ad": "Belogorsk",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'KARASUBAZAR' https://islamansiklopedisi.org.tr/karasubazar",
+    "kanit": "Karasubazar’ın da ismi değiştirilerek Belogorsk’a çevrildi"
+   },
+   {
+    "ad": "Карасубазар",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Карасубазар' https://ru.wikisource.org/wiki/ЭСБЕ/Карасубазар",
+    "kanit": "Карасубазар — заштатный город Таврической губ., Симферопольского у."
+   }
+  ]
  },
  {
   "id": "kasgar-cn",
@@ -2884,7 +3025,12 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
   "kat1900": null,
   "adlar": [
    "Mangub",
-   "Mankup"
+   "Mankup",
+   "Мангуп",
+   "Мангуп-Кале",
+   "Манкоп",
+   "Мангут",
+   "Ман-Кермен"
   ],
   "ilk": {
    "t": "1629-01-01",
@@ -2909,7 +3055,54 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
     "tanik": "1629’da Karasubazar, Mangub yağmalandı ve yakıldı"
    }
   ],
-  "ic_not": "Kaynak: TDV tam gövde (tarayıcı), çift teyit YOK (ikinci akademik kaynak açılmadı). Tüm tanık alıntıları gövdede includes() ile birebir doğrulandı. Ad eşitlemesi: TDV «Kırım» md.'nin 'Mangub' kaydı atlasın Mankup (Mangup) noktasıyla aynı yer sayıldı (TDV 'Mangub'u Kırım güney kıyı/dağ yerleşmesi olarak anar; ayrı koordinat TDV'de yok) — kesin olmayan eşitleme olarak beyan edilir. ilk.t TDV'nin bu maddedeki ilk TARİHLİ tanığıdır (Evliya Çelebi'nin XVII. yy açıklamaları ve 'kıyı boyunca Mangub ... Osmanlı bölgesinde kaldı' tarihsiz, yazılmadı). Mankup'un Hristiyan/Gotia dönemi TDV'de yok. Atlas 1281'de altinorda ile başlatır. Atlas bu noktayı 1281-01-01'de başlatır; ilk.t sonra olduğundan sahip:[] (atlas zinciri esas), 'atlas başlangıcı düzeltilmeli' uyarısı beklenen davranıştır — TDV'de daha erken TARİHLİ tanık bulunamadı."
+  "ic_not": "Kaynak: TDV tam gövde (tarayıcı), çift teyit YOK (ikinci akademik kaynak açılmadı). Tüm tanık alıntıları gövdede includes() ile birebir doğrulandı. Ad eşitlemesi: TDV «Kırım» md.'nin 'Mangub' kaydı atlasın Mankup (Mangup) noktasıyla aynı yer sayıldı (TDV 'Mangub'u Kırım güney kıyı/dağ yerleşmesi olarak anar; ayrı koordinat TDV'de yok) — kesin olmayan eşitleme olarak beyan edilir. ilk.t TDV'nin bu maddedeki ilk TARİHLİ tanığıdır (Evliya Çelebi'nin XVII. yy açıklamaları ve 'kıyı boyunca Mangub ... Osmanlı bölgesinde kaldı' tarihsiz, yazılmadı). Mankup'un Hristiyan/Gotia dönemi TDV'de yok. Atlas 1281'de altinorda ile başlatır. Atlas bu noktayı 1281-01-01'de başlatır; ilk.t sonra olduğundan sahip:[] (atlas zinciri esas), 'atlas başlangıcı düzeltilmeli' uyarısı beklenen davranıştır — TDV'de daha erken TARİHLİ tanık bulunamadı.",
+  "ad_kaynak": [
+   {
+    "ad": "Mangub",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'KIRIM' https://islamansiklopedisi.org.tr/kirim",
+    "kanit": "1629’da Karasubazar, Mangub yağmalandı ve yakıldı"
+   },
+   {
+    "ad": "Мангуп",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Мангуп' https://ru.wikisource.org/wiki/ЭСБЕ/Мангуп",
+    "kanit": "Мангуп (иначе Мангуп-Кале, Манкоп, Мангут, Ман-Кермен)"
+   },
+   {
+    "ad": "Мангуп-Кале",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Мангуп' https://ru.wikisource.org/wiki/ЭСБЕ/Мангуп",
+    "kanit": "Мангуп (иначе Мангуп-Кале, Манкоп, Мангут, Ман-Кермен)"
+   },
+   {
+    "ad": "Манкоп",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Мангуп' https://ru.wikisource.org/wiki/ЭСБЕ/Мангуп",
+    "kanit": "Мангуп (иначе Мангуп-Кале, Манкоп, Мангут, Ман-Кермен)"
+   },
+   {
+    "ad": "Мангут",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Мангуп' https://ru.wikisource.org/wiki/ЭСБЕ/Мангуп",
+    "kanit": "Мангуп (иначе Мангуп-Кале, Манкоп, Мангут, Ман-Кермен)"
+   },
+   {
+    "ad": "Ман-Кермен",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Мангуп' https://ru.wikisource.org/wiki/ЭСБЕ/Мангуп",
+    "kanit": "Мангуп (иначе Мангуп-Кале, Манкоп, Мангут, Ман-Кермен)"
+   }
+  ],
+  "adlar_kaynaksiz": [
+   "Mankup"
+  ]
  },
  {
   "id": "mezarisserif-p10",
@@ -2970,6 +3163,9 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
     "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Мазар-и-шериф' https://ru.wikisource.org/wiki/ЭСБЕ/Мазар-и-шериф",
     "kanit": "Мазар-и-шериф — главный административный центр сев. части Афганистана"
    }
+  ],
+  "adlar_kaynaksiz": [
+   "Mezârışerif"
   ]
  },
  {
@@ -3216,6 +3412,9 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
     "kaynak": "Encyclopaedia Britannica 'Samarkand' https://www.britannica.com/place/Samarkand-Uzbekistan",
     "kanit": "Also known as: Maracanda, Samarqand"
    }
+  ],
+  "adlar_kaynaksiz": [
+   "Semerkant"
   ]
  },
  {
@@ -3338,7 +3537,26 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
     "tanik": "padişah Boğdan seferine çıkmak zorunda kalmış (1538) ve bu sefer sırasında Suceava zaptedilerek"
    }
   ],
-  "ic_not": "Kaynak: TDV tam gövde (tarayıcı), çift teyit YOK (ikinci akademik kaynak açılmadı). Tüm tanık alıntıları gövdede includes() ile birebir doğrulandı. ilk.t: TDV «Boğdan» md. Fâtih'in Boğdan seferinde (Vaslui'den 'ertesi yıl') Suceava'ya girdiğini ama kalesini alamadığını anlatır; yıl cümlede yoktur (yalnız 'ertesi yıl') → yazılmadı, 1538 en erken TARİHLİ tanık. Beyliğin merkezi olduğu TDV'de geçer. Atlas Suçava'yı 1281'de altinorda ile başlatır; Boğdan beyliği künyesi (bogdan 1359-1859) ile atlas zinciri karşılaştırılmalıdır. Atlas bu noktayı 1281-01-01'de başlatır; ilk.t sonra olduğundan sahip:[] (atlas zinciri esas), 'atlas başlangıcı düzeltilmeli' uyarısı beklenen davranıştır — TDV'de daha erken TARİHLİ tanık bulunamadı."
+  "ic_not": "Kaynak: TDV tam gövde (tarayıcı), çift teyit YOK (ikinci akademik kaynak açılmadı). Tüm tanık alıntıları gövdede includes() ile birebir doğrulandı. ilk.t: TDV «Boğdan» md. Fâtih'in Boğdan seferinde (Vaslui'den 'ertesi yıl') Suceava'ya girdiğini ama kalesini alamadığını anlatır; yıl cümlede yoktur (yalnız 'ertesi yıl') → yazılmadı, 1538 en erken TARİHLİ tanık. Beyliğin merkezi olduğu TDV'de geçer. Atlas Suçava'yı 1281'de altinorda ile başlatır; Boğdan beyliği künyesi (bogdan 1359-1859) ile atlas zinciri karşılaştırılmalıdır. Atlas bu noktayı 1281-01-01'de başlatır; ilk.t sonra olduğundan sahip:[] (atlas zinciri esas), 'atlas başlangıcı düzeltilmeli' uyarısı beklenen davranıştır — TDV'de daha erken TARİHLİ tanık bulunamadı.",
+  "ad_kaynak": [
+   {
+    "ad": "Suceava",
+    "dil": "ro",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'BOĞDAN' https://islamansiklopedisi.org.tr/bogdan",
+    "kanit": "beyliğin merkezi Suceava’ya girdi"
+   },
+   {
+    "ad": "Suceava",
+    "dil": "en",
+    "donem": "1388-1564",
+    "kaynak": "Encyclopaedia Britannica 'Suceava' https://www.britannica.com/place/Suceava-Romania",
+    "kanit": "Suceava, city, capital of Suceava judeƫ (county), northeastern Romania."
+   }
+  ],
+  "adlar_kaynaksiz": [
+   "Suçava"
+  ]
  },
  {
   "id": "sudak-ua",
@@ -3661,6 +3879,9 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
     "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Термез' https://ru.wikisource.org/wiki/ЭСБЕ/Термез",
     "kanit": "Термез — древний город Средней Азии"
    }
+  ],
+  "adlar_kaynaksiz": [
+   "Toprakkorgan (Rus sınır kalesi)"
   ]
  },
  {
@@ -3723,6 +3944,9 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
     "kaynak": "TDV İslâm Ansiklopedisi 'TÜRKİSTAN' https://islamansiklopedisi.org.tr/turkistan",
     "kanit": "Ahmed Yesevî “Hazret-i Türkistan” adıyla anıldığı"
    }
+  ],
+  "adlar_kaynaksiz": [
+   "Yassı"
   ]
  },
  {
@@ -3872,6 +4096,9 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
     "kaynak": "Encyclopaedia Britannica 'Ürümqi' https://www.britannica.com/place/Urumqi",
     "kanit": "Also known as: Ürümchi, Dihua, Urumchi, Urumqi"
    }
+  ],
+  "adlar_kaynaksiz": [
+   "Tihua (TDV)"
   ]
  }
 ];

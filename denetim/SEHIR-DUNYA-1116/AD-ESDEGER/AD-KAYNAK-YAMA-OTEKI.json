@@ -1,6 +1,93 @@
 [
  {
   "dosya": "sehir_tarihce_k12.js",
+  "id": "bhopal",
+  "lab_id": "bhopal-in",
+  "ad_kaynak": [
+   {
+    "ad": "Bopal",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'BOPAL' https://islamansiklopedisi.org.tr/bopal--sehir",
+    "kanit": "Önceleri Bopal İslâm Devleti’nin başşehri olan Bopal"
+   }
+  ],
+  "adlar_eklenecek": [
+   "Bopal"
+  ]
+ },
+ {
+  "dosya": "sehir_tarihce_k12.js",
+  "id": "bicapur",
+  "lab_id": "bicapur-in",
+  "ad_kaynak": [
+   {
+    "ad": "Vicayapura",
+    "dil": "sa",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'BÎCÂPÛR' https://islamansiklopedisi.org.tr/bicapur",
+    "kanit": "eski Vicayapura’dan gelmektedir"
+   },
+   {
+    "ad": "Bîcâpûr",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'BÎCÂPÛR' https://islamansiklopedisi.org.tr/bicapur",
+    "kanit": "Güney Hindistan’da Haydarâbâd’ın batısında bulunan Bîcâpûr’un adı"
+   },
+   {
+    "ad": "Bijapur",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Vijayapura (Bijapur)' https://www.britannica.com/place/Vijayapura",
+    "kanit": "Also called: Bijapur"
+   },
+   {
+    "ad": "Vijayapura",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Vijayapura (Bijapur)' https://www.britannica.com/place/Vijayapura",
+    "kanit": "Tomb of Gol Gumbaz, Vijayapura, Karnataka, India."
+   },
+   {
+    "ad": "Биджапур",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Биджапур' https://ru.wikisource.org/wiki/ЭСБЕ/Биджапур",
+    "kanit": "Биджапур — город в Британской Индии, в президентстве Бомбей"
+   }
+  ],
+  "adlar_eklenecek": [
+   "Vicayapura",
+   "Биджапур"
+  ]
+ },
+ {
+  "dosya": "sehir_tarihce_k12.js",
+  "id": "bidar",
+  "lab_id": "bidar-in",
+  "ad_kaynak": [
+   {
+    "ad": "Bîder",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'MUHAMMEDÂBÂD' https://islamansiklopedisi.org.tr/muhammedabad",
+    "kanit": "günümüzde Bîder adıyla bilinmektedir"
+   },
+   {
+    "ad": "Muhammedâbâd",
+    "dil": "tr-osm",
+    "donem": "1424-",
+    "kaynak": "TDV İslâm Ansiklopedisi 'MUHAMMEDÂBÂD' https://islamansiklopedisi.org.tr/muhammedabad",
+    "kanit": "adını Muhammedâbâd olarak değiştirdi"
+   }
+  ],
+  "adlar_eklenecek": [
+   "Muhammedâbâd"
+  ]
+ },
+ {
+  "dosya": "sehir_tarihce_k12.js",
   "id": "dakka",
   "lab_id": "dakka-bd",
   "ad_kaynak": [
@@ -31,13 +118,21 @@
     "donem": "-1982",
     "kaynak": "Banglapedia 'Bangladesh' https://en.banglapedia.org/index.php/Bangladesh (arama özeti)",
     "kanit": "Dhaka (previously spelt Dacca)"
+   },
+   {
+    "ad": "Dakka",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'DAKKA' https://islamansiklopedisi.org.tr/dakka",
+    "kanit": "Bâbürlü yerleşim merkezi olarak görülen Dakka’nın tarihî kayıtları"
    }
   ],
   "adlar_eklenecek": [
    "Dhaka",
    "Cihangirnagar",
    "Jahangirnagar",
-   "Dacca"
+   "Dacca",
+   "Dakka"
   ]
  },
  {
@@ -65,12 +160,35 @@
     "donem": null,
     "kaynak": "TDV İslâm Ansiklopedisi 'DELHİ' https://islamansiklopedisi.org.tr/delhi",
     "kanit": "orada Şahcihanâbâd adıyla yeni bir yerleşme merkezi"
+   },
+   {
+    "ad": "Dilli",
+    "dil": "hi",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Delhi' (arama özeti; sayfa 403) https://www.britannica.com/place/Delhi",
+    "kanit": "names by which the city has been known, including Delhi, Dehli, Dilli, and Dhilli"
+   },
+   {
+    "ad": "Dehli",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Delhi' (arama özeti; sayfa 403) https://www.britannica.com/place/Delhi",
+    "kanit": "including Delhi, Dehli, Dilli, and Dhilli"
+   },
+   {
+    "ad": "Delhi",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Delhi' (arama özeti; sayfa 403) https://www.britannica.com/place/Delhi",
+    "kanit": "including Delhi, Dehli, Dilli, and Dhilli"
    }
   ],
   "adlar_eklenecek": [
    "Indraprastha",
    "Dehlü",
-   "Şahcihanâbâd"
+   "Şahcihanâbâd",
+   "Dilli",
+   "Dehli"
   ]
  },
  {
@@ -126,6 +244,13 @@
     "donem": "2001-",
     "kaynak": "Banglapedia 'Calcutta' https://en.banglapedia.org/index.php/Calcutta",
     "kanit": "Recently the name of the city has been changed to Kolkata."
+   },
+   {
+    "ad": "Kalküta",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'KALKÜTA' https://islamansiklopedisi.org.tr/kalkuta",
+    "kanit": "KALKÜTA Hindistan’da Batı Bengal eyaletinin merkezi"
    }
   ],
   "adlar_eklenecek": [
@@ -155,10 +280,26 @@
     "donem": null,
     "kaynak": "TDV İslâm Ansiklopedisi 'LAHOR' https://islamansiklopedisi.org.tr/lahor",
     "kanit": "Bennah ve el-Ahvar’a (Lahor’un Arapça şekli)"
+   },
+   {
+    "ad": "Lōhāwar",
+    "dil": "ur",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Lahore' (arama özeti; sayfa 403) https://www.britannica.com/place/Lahore",
+    "kanit": "Also known as: Lāhawr, Lōhāwar"
+   },
+   {
+    "ad": "Lāhawr",
+    "dil": "ur",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Lahore' (arama özeti; sayfa 403) https://www.britannica.com/place/Lahore",
+    "kanit": "Also known as: Lāhawr, Lōhāwar"
    }
   ],
   "adlar_eklenecek": [
-   "el-Ahvar"
+   "el-Ahvar",
+   "Lōhāwar",
+   "Lāhawr"
   ]
  },
  {
@@ -184,6 +325,62 @@
   "adlar_eklenecek": [
    "Mulasthân",
    "Mültan"
+  ]
+ },
+ {
+  "dosya": "sehir_tarihce_k12.js",
+  "id": "mursidabad",
+  "lab_id": "mursidabad-in",
+  "ad_kaynak": [
+   {
+    "ad": "Maksûdâbâd",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'MÜRŞİDÂBÂD' https://islamansiklopedisi.org.tr/mursidabad",
+    "kanit": "şehrin önceki adı Maksûdâbâd’dır (Mahsûsâbâd)"
+   },
+   {
+    "ad": "Mahsûsâbâd",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'MÜRŞİDÂBÂD' https://islamansiklopedisi.org.tr/mursidabad",
+    "kanit": "şehrin önceki adı Maksûdâbâd’dır (Mahsûsâbâd)"
+   },
+   {
+    "ad": "Mürşidâbâd",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'MÜRŞİDÂBÂD' https://islamansiklopedisi.org.tr/mursidabad",
+    "kanit": "isminin Mürşidâbâd’a çevrilmesi bu döneme rastlar"
+   },
+   {
+    "ad": "Makhsudabad",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Murshidabad' https://www.britannica.com/place/Murshidabad",
+    "kanit": "Also known as: Makhsudabad"
+   },
+   {
+    "ad": "Morasudabad",
+    "dil": "sa",
+    "donem": null,
+    "kaynak": "Banglapedia 'Murshidabad' https://en.banglapedia.org/index.php/Murshidabad",
+    "kanit": "There is also mention of this place as 'Morasudabad' founded by a Yavana"
+   },
+   {
+    "ad": "Moxudabath",
+    "dil": "nl",
+    "donem": "1658-1664",
+    "kaynak": "Banglapedia 'Murshidabad' https://en.banglapedia.org/index.php/Murshidabad",
+    "kanit": "In Valentyn's map (1658-64) 'Moxudabath' is shown on an island"
+   }
+  ],
+  "adlar_eklenecek": [
+   "Maksûdâbâd",
+   "Mahsûsâbâd",
+   "Makhsudabad",
+   "Morasudabad",
+   "Moxudabath"
   ]
  },
  {
@@ -243,6 +440,28 @@
  },
  {
   "dosya": "sehir_tarihce_k12.js",
+  "id": "almalik",
+  "lab_id": "almalik-cn",
+  "ad_kaynak": [
+   {
+    "ad": "Almalık",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'ALMALIĞ' https://islamansiklopedisi.org.tr/almalig",
+    "kanit": "Tarihî kaynaklarda Almalık olarak da geçen şehir"
+   },
+   {
+    "ad": "Almalığ",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'ALMALIĞ' https://islamansiklopedisi.org.tr/almalig",
+    "kanit": "müstahkem bir şehir olan Almalığ, XIII. yüzyıl başlarında"
+   }
+  ],
+  "adlar_eklenecek": []
+ },
+ {
+  "dosya": "sehir_tarihce_k12.js",
   "id": "belh",
   "lab_id": "belh-af",
   "ad_kaynak": [
@@ -273,13 +492,37 @@
     "donem": null,
     "kaynak": "TDV İslâm Ansiklopedisi 'Belh' https://islamansiklopedisi.org.tr/belh",
     "kanit": "Bāḥtriş, Avesta’da Bāḥdi (Bahdrî) ve Grekçe’de Baktra"
+   },
+   {
+    "ad": "Bactra",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Balkh' https://www.britannica.com/place/Balkh",
+    "kanit": "city in Balkh province, in northern Afghanistan, that was formerly Bactra"
+   },
+   {
+    "ad": "Bactra-Zariaspa",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Balkh' https://www.britannica.com/place/Balkh",
+    "kanit": "Also known as: Bactra, Bactra-Zariaspa, Vazīrābād"
+   },
+   {
+    "ad": "Vazīrābād",
+    "dil": "fa",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Balkh' https://www.britannica.com/place/Balkh",
+    "kanit": "Also known as: Bactra, Bactra-Zariaspa, Vazīrābād"
    }
   ],
   "adlar_eklenecek": [
    "Bāḥdi",
    "Bahdrî",
    "Bāḥtriş",
-   "Baktra"
+   "Baktra",
+   "Bactra",
+   "Bactra-Zariaspa",
+   "Vazīrābād"
   ]
  },
  {
@@ -307,12 +550,83 @@
     "donem": null,
     "kaynak": "TDV İslâm Ansiklopedisi 'Buhara' https://islamansiklopedisi.org.tr/buhara",
     "kanit": "Târîḫ-i Buḫârâ"
+   },
+   {
+    "ad": "Bukhoro",
+    "dil": "uz",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Bukhara' https://www.britannica.com/place/Bukhara",
+    "kanit": "Also known as: Bokhara, Buchara, Bukhoro, Buxoro"
+   },
+   {
+    "ad": "Buxoro",
+    "dil": "uz",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Bukhara' https://www.britannica.com/place/Bukhara",
+    "kanit": "Also known as: Bokhara, Buchara, Bukhoro, Buxoro"
+   },
+   {
+    "ad": "Bokhara",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Bukhara' https://www.britannica.com/place/Bukhara",
+    "kanit": "Also known as: Bokhara, Buchara, Bukhoro, Buxoro"
    }
   ],
   "adlar_eklenecek": [
    "Nûmickes",
    "Pu-ha",
-   "Buhârâ"
+   "Buhârâ",
+   "Bukhoro",
+   "Buxoro",
+   "Bokhara"
+  ]
+ },
+ {
+  "dosya": "sehir_tarihce_k12.js",
+  "id": "gazne",
+  "lab_id": "gazne-af",
+  "ad_kaynak": [
+   {
+    "ad": "Genzek",
+    "dil": "und",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'GAZNE' https://islamansiklopedisi.org.tr/gazne",
+    "kanit": "Asıl adı Genzek olan şehir İslâm kaynaklarında Gazne ve Gaznîn"
+   },
+   {
+    "ad": "Gazne",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'GAZNE' https://islamansiklopedisi.org.tr/gazne",
+    "kanit": "Asıl adı Genzek olan şehir İslâm kaynaklarında Gazne ve Gaznîn"
+   },
+   {
+    "ad": "Gaznîn",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'GAZNE' https://islamansiklopedisi.org.tr/gazne",
+    "kanit": "Asıl adı Genzek olan şehir İslâm kaynaklarında Gazne ve Gaznîn"
+   },
+   {
+    "ad": "Ghazna",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Ghaznī' https://www.britannica.com/place/Ghazni",
+    "kanit": "Formerly: Ghazna"
+   },
+   {
+    "ad": "Ghaznī",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Ghaznī' https://www.britannica.com/place/Ghazni",
+    "kanit": "Ghaznī Introduction"
+   }
+  ],
+  "adlar_eklenecek": [
+   "Gazne",
+   "Ghazna",
+   "Ghaznī"
   ]
  },
  {
@@ -340,12 +654,28 @@
     "donem": null,
     "kaynak": "TDV İslâm Ansiklopedisi 'Herat' https://islamansiklopedisi.org.tr/herat",
     "kanit": "Avesta’da ve Grekçe metinlerde Aria, Areia şeklinde rastlanır"
+   },
+   {
+    "ad": "Ariea",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Herat' https://www.britannica.com/place/Herat-Afghanistan",
+    "kanit": "known in ancient times as Ariea (Old Persian: Haraiva)"
+   },
+   {
+    "ad": "Harāt",
+    "dil": "fa",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Herat' https://www.britannica.com/place/Herat-Afghanistan",
+    "kanit": "Also known as: Harāt"
    }
   ],
   "adlar_eklenecek": [
    "Haraiva",
    "Aria",
-   "Areia"
+   "Areia",
+   "Ariea",
+   "Harāt"
   ]
  },
  {
@@ -359,10 +689,89 @@
     "donem": null,
     "kaynak": "TDV İslâm Ansiklopedisi 'Hîve Hanlığı' https://islamansiklopedisi.org.tr/hive-hanligi",
     "kanit": "Hîve Hanlığı şeklinde geçer"
+   },
+   {
+    "ad": "Khiva",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Khiva' https://www.britannica.com/place/Khiva",
+    "kanit": "Khiva, city, south-central Uzbekistan."
+   },
+   {
+    "ad": "Khiwa",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Khiva' https://www.britannica.com/place/Khiva",
+    "kanit": "Also known as: Chiva, Jiva, Khiwa"
    }
   ],
   "adlar_eklenecek": [
-   "Hîve"
+   "Hîve",
+   "Khiva",
+   "Khiwa"
+  ]
+ },
+ {
+  "dosya": "sehir_tarihce_k12.js",
+  "id": "hokand",
+  "lab_id": "hokand-uz",
+  "ad_kaynak": [
+   {
+    "ad": "Huvâkand",
+    "dil": "ar",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'HOKAND' https://islamansiklopedisi.org.tr/hokand",
+    "kanit": "İslâm coğrafyacılarının Huvâkand (Yâkūt, II, 456) ve Huvâkend"
+   },
+   {
+    "ad": "Huvâkend",
+    "dil": "ar",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'HOKAND' https://islamansiklopedisi.org.tr/hokand",
+    "kanit": "İslâm coğrafyacılarının Huvâkand (Yâkūt, II, 456) ve Huvâkend"
+   },
+   {
+    "ad": "Hokand",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'HOKAND' https://islamansiklopedisi.org.tr/hokand",
+    "kanit": "isim daha sonra Hokand (Hukand) biçimini almıştır"
+   },
+   {
+    "ad": "Hukand",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'HOKAND' https://islamansiklopedisi.org.tr/hokand",
+    "kanit": "isim daha sonra Hokand (Hukand) biçimini almıştır"
+   },
+   {
+    "ad": "Khavakend",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Kokand' https://www.britannica.com/place/Kokand",
+    "kanit": "Also known as: Khavakend, Qŭqon"
+   },
+   {
+    "ad": "Qŭqon",
+    "dil": "uz",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Kokand' https://www.britannica.com/place/Kokand",
+    "kanit": "Also known as: Khavakend, Qŭqon"
+   },
+   {
+    "ad": "Коканд",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Коканд' https://ru.wikisource.org/wiki/ЭСБЕ/Коканд",
+    "kanit": "Коканд — уездный город Ферганской области"
+   }
+  ],
+  "adlar_eklenecek": [
+   "Huvâkand",
+   "Huvâkend",
+   "Khavakend",
+   "Qŭqon",
+   "Коканд"
   ]
  },
  {
@@ -411,12 +820,77 @@
     "donem": null,
     "kaynak": "TDV İslâm Ansiklopedisi 'Kâbil (Afganistan)' https://islamansiklopedisi.org.tr/kabil--afganistan",
     "kanit": "(Türk ve Kâbul)"
+   },
+   {
+    "ad": "Kābol",
+    "dil": "fa",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Kabul' https://www.britannica.com/place/Kabul",
+    "kanit": "Also known as: Kābol"
    }
   ],
   "adlar_eklenecek": [
    "Kubha",
    "Kaboura",
-   "Kao-fu"
+   "Kao-fu",
+   "Kābol"
+  ]
+ },
+ {
+  "dosya": "sehir_tarihce_k12.js",
+  "id": "karakurum",
+  "lab_id": "karakurum-mn",
+  "ad_kaynak": [
+   {
+    "ad": "H̱araẖorim",
+    "dil": "mn",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'KARAKORUM' https://islamansiklopedisi.org.tr/karakorum",
+    "kanit": "Karakorum (Moğolca H̱araẖorim) adını taşıyan şehirlerden biri"
+   },
+   {
+    "ad": "Karakorum",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'KARAKORUM' https://islamansiklopedisi.org.tr/karakorum",
+    "kanit": "Karakorum (Moğolca H̱araẖorim) adını taşıyan şehirlerden biri"
+   },
+   {
+    "ad": "Ordubalık",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'KARAKORUM' https://islamansiklopedisi.org.tr/karakorum",
+    "kanit": "Kaynaklarda umumiyetle Ordubalık, bazan da Mubalık adıyla anılan şehir"
+   },
+   {
+    "ad": "Mubalık",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'KARAKORUM' https://islamansiklopedisi.org.tr/karakorum",
+    "kanit": "umumiyetle Ordubalık, bazan da Mubalık adıyla anılan şehir"
+   },
+   {
+    "ad": "Каракорум",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Каракорум, города' https://ru.wikisource.org/wiki/ЭСБЕ/Каракорум, города",
+    "kanit": "Каракорум — имя, которым назывались два города, существовавшие в разное время"
+   },
+   {
+    "ad": "Дахолин",
+    "dil": "zh",
+    "donem": null,
+    "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Каракорум, города' https://ru.wikisource.org/wiki/ЭСБЕ/Каракорум, города",
+    "kanit": "в лапидарных надписях, найденных близ монастыря Эрдени-цзу — Дахолин"
+   }
+  ],
+  "adlar_eklenecek": [
+   "H̱araẖorim",
+   "Karakorum",
+   "Ordubalık",
+   "Mubalık",
+   "Каракорум",
+   "Дахолин"
   ]
  },
  {
@@ -458,13 +932,46 @@
     "donem": null,
     "kaynak": "TDV İslâm Ansiklopedisi 'Kâşgar' https://islamansiklopedisi.org.tr/kasgar",
     "kanit": "Çince Kaşi; İslâm kaynaklarında Kâşgar, Kâcgar, Kâşhar"
+   },
+   {
+    "ad": "K’a-shih",
+    "dil": "zh",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Kashgar' https://www.britannica.com/place/Kashgar",
+    "kanit": "Also known as: K’a-shih, Kashi, Kaxgar"
    }
   ],
   "adlar_eklenecek": [
    "Şule",
    "Kâcgar",
    "Kâşhar",
-   "Kaşi"
+   "Kaşi",
+   "K’a-shih"
+  ]
+ },
+ {
+  "dosya": "sehir_tarihce_osm.js",
+  "id": "mazar-i-sharif",
+  "lab_id": "mezarisserif-p10",
+  "ad_kaynak": [
+   {
+    "ad": "Mazār-e Sharīf",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Mazār-e Sharīf' https://www.britannica.com/place/Mazar-e-Sharif",
+    "kanit": "lent Mazār-e Sharīf (“tomb of the saint”) its name."
+   },
+   {
+    "ad": "Мазар-и-шериф",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Мазар-и-шериф' https://ru.wikisource.org/wiki/ЭСБЕ/Мазар-и-шериф",
+    "kanit": "Мазар-и-шериф — главный административный центр сев. части Афганистана"
+   }
+  ],
+  "adlar_eklenecek": [
+   "Mazār-e Sharīf",
+   "Мазар-и-шериф"
   ]
  },
  {
@@ -499,13 +1006,61 @@
     "donem": null,
     "kaynak": "TDV İslâm Ansiklopedisi 'Semerkant' https://islamansiklopedisi.org.tr/semerkant",
     "kanit": "Târîḫu Semerḳand yazarı Abdurrahman b. Muhammed el-İdrîsî"
+   },
+   {
+    "ad": "Samarqand",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Samarkand' https://www.britannica.com/place/Samarkand-Uzbekistan",
+    "kanit": "Also known as: Maracanda, Samarqand"
    }
   ],
   "adlar_eklenecek": [
    "Maracanda",
    "K’ang",
    "Hsi-wan-chin",
-   "Semerḳand"
+   "Semerḳand",
+   "Samarqand"
+  ]
+ },
+ {
+  "dosya": "sehir_tarihce_k3.js",
+  "id": "serahs-ir",
+  "lab_id": "serahs-tm",
+  "ad_kaynak": [
+   {
+    "ad": "سرخس",
+    "dil": "ar",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'SERAHS' https://islamansiklopedisi.org.tr/serahs",
+    "kanit": "SERAHS سرخس Türkmenistan’da tarihî bir şehir."
+   },
+   {
+    "ad": "Sarakhs",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'SERAHS (kaynakça)' https://islamansiklopedisi.org.tr/serahs",
+    "kanit": "C. E. Bosworth, “Sarakhs”, EI2 (İng.), IX, 34."
+   },
+   {
+    "ad": "Serahs",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'SERAHS' https://islamansiklopedisi.org.tr/serahs",
+    "kanit": "Serahs’ın ilk defa ne zaman kimler tarafından kurulduğu"
+   },
+   {
+    "ad": "Серахс",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Серахс' https://ru.wikisource.org/wiki/ЭСБЕ/Серахс",
+    "kanit": "Серахс — поселение и стоянка войск Тедженского уезда Закаспийской области"
+   }
+  ],
+  "adlar_eklenecek": [
+   "سرخس",
+   "Serahs",
+   "Серахс"
   ]
  },
  {
@@ -554,6 +1109,41 @@
     "donem": null,
     "kaynak": "TDV İslâm Ansiklopedisi 'Taşkent' https://islamansiklopedisi.org.tr/taskent",
     "kanit": "buraya Türkçe Taşkent denildiğini"
+   },
+   {
+    "ad": "Dzhadzh",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Tashkent' https://www.britannica.com/place/Tashkent",
+    "kanit": "variously known as Dzhadzh, Chachkent, Shashkent, and Binkent"
+   },
+   {
+    "ad": "Chachkent",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Tashkent' https://www.britannica.com/place/Tashkent",
+    "kanit": "variously known as Dzhadzh, Chachkent, Shashkent, and Binkent"
+   },
+   {
+    "ad": "Shashkent",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Tashkent' https://www.britannica.com/place/Tashkent",
+    "kanit": "variously known as Dzhadzh, Chachkent, Shashkent, and Binkent"
+   },
+   {
+    "ad": "Binkent",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Tashkent' https://www.britannica.com/place/Tashkent",
+    "kanit": "variously known as Dzhadzh, Chachkent, Shashkent, and Binkent"
+   },
+   {
+    "ad": "Tashkent",
+    "dil": "en",
+    "donem": "XI. yy",
+    "kaynak": "Encyclopaedia Britannica 'Tashkent' https://www.britannica.com/place/Tashkent",
+    "kanit": "the name Tashkent, which means “Stone Village” in Uzbek"
    }
   ],
   "adlar_eklenecek": [
@@ -561,7 +1151,140 @@
    "Çâç",
    "Şâş",
    "Binkes",
-   "Terken"
+   "Terken",
+   "Dzhadzh",
+   "Chachkent",
+   "Shashkent",
+   "Binkent",
+   "Tashkent"
+  ]
+ },
+ {
+  "dosya": "sehir_tarihce_k12.js",
+  "id": "kap-cape-town",
+  "lab_id": "cape-town-za",
+  "ad_kaynak": [
+   {
+    "ad": "De Kaap",
+    "dil": "nl",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Cape Town' https://www.britannica.com/place/Cape-Town",
+    "kanit": "Also known as: De Kaap, Kaapstad"
+   },
+   {
+    "ad": "Kaapstad",
+    "dil": "nl",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Cape Town' https://www.britannica.com/place/Cape-Town",
+    "kanit": "Also known as: De Kaap, Kaapstad"
+   },
+   {
+    "ad": "Cape Town",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Cape Town' https://www.britannica.com/place/Cape-Town",
+    "kanit": "The city of Cape Town had its origin in 1652"
+   }
+  ],
+  "adlar_eklenecek": [
+   "De Kaap",
+   "Kaapstad",
+   "Cape Town"
+  ]
+ },
+ {
+  "dosya": "sehir_tarihce_k12.js",
+  "id": "gao",
+  "lab_id": "gao-ml",
+  "ad_kaynak": [
+   {
+    "ad": "Kevkev",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'GAO' https://islamansiklopedisi.org.tr/gao",
+    "kanit": "İslâm kaynaklarında adı Kevkev, Batı kaynaklarında Kawkaw, Gogo, Kaukau, Kookou, Kankou"
+   },
+   {
+    "ad": "Kawkaw",
+    "dil": "und",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'GAO' https://islamansiklopedisi.org.tr/gao",
+    "kanit": "İslâm kaynaklarında adı Kevkev, Batı kaynaklarında Kawkaw, Gogo, Kaukau, Kookou, Kankou"
+   },
+   {
+    "ad": "Gogo",
+    "dil": "und",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'GAO' https://islamansiklopedisi.org.tr/gao",
+    "kanit": "İslâm kaynaklarında adı Kevkev, Batı kaynaklarında Kawkaw, Gogo, Kaukau, Kookou, Kankou"
+   },
+   {
+    "ad": "Kaukau",
+    "dil": "und",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'GAO' https://islamansiklopedisi.org.tr/gao",
+    "kanit": "İslâm kaynaklarında adı Kevkev, Batı kaynaklarında Kawkaw, Gogo, Kaukau, Kookou, Kankou"
+   },
+   {
+    "ad": "Kookou",
+    "dil": "und",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'GAO' https://islamansiklopedisi.org.tr/gao",
+    "kanit": "İslâm kaynaklarında adı Kevkev, Batı kaynaklarında Kawkaw, Gogo, Kaukau, Kookou, Kankou"
+   },
+   {
+    "ad": "Kankou",
+    "dil": "und",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'GAO' https://islamansiklopedisi.org.tr/gao",
+    "kanit": "İslâm kaynaklarında adı Kevkev, Batı kaynaklarında Kawkaw, Gogo, Kaukau, Kookou, Kankou"
+   },
+   {
+    "ad": "Kawkaw",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Gao' https://www.britannica.com/place/Gao-Mali",
+    "kanit": "Gao Mali Ask Anything Homework Help Also known as: Kawkaw"
+   },
+   {
+    "ad": "Gao",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Gao' https://www.britannica.com/place/Gao-Mali",
+    "kanit": "Gao Mali Ask Anything Homework Help Also known as: Kawkaw"
+   }
+  ],
+  "adlar_eklenecek": [
+   "Kevkev",
+   "Kawkaw",
+   "Gogo",
+   "Kaukau",
+   "Kookou",
+   "Kankou"
+  ]
+ },
+ {
+  "dosya": "sehir_tarihce_k12.js",
+  "id": "kano",
+  "lab_id": "kano-ng",
+  "ad_kaynak": [
+   {
+    "ad": "Kano",
+    "dil": "ha",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Kano' https://www.britannica.com/place/Kano-Nigeria",
+    "kanit": "Kano, city, capital of Kano state, northern Nigeria"
+   },
+   {
+    "ad": "Kano City",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Kano' https://www.britannica.com/place/Kano-Nigeria",
+    "kanit": "Also known as: Kano City"
+   }
+  ],
+  "adlar_eklenecek": [
+   "Kano City"
   ]
  }
 ]
