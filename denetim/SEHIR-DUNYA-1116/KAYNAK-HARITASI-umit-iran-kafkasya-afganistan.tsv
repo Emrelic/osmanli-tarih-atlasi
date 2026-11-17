@@ -1,0 +1,35 @@
+bolge	ulke	dil	kaynak_adi	tur	url	tam_govde_okunur	sehir_bazli_sorgu	ornek_sorgu	olcum
+Iran-Kafkasya-Afganistan	İran	en/çok	Britannica	ansiklopedi	https://www.britannica.com/place/<Sehir>	E	E (place maddesi)	britannica.com/place/Havana	OLCULDU
+Iran-Kafkasya-Afganistan	İran	en/çok	UNESCO World Heritage Centre	kurumsal	https://whc.unesco.org/en/list/<no>/	E	E (alan kaydı)	whc.unesco.org/en/list/65	OLCULDU
+Iran-Kafkasya-Afganistan	İran	en/çok	Pleiades	gazetteer	https://pleiades.stoa.org/places/<no>	E (Anubis ara sayfası ~3 sn)	E (antik yer)	pleiades.stoa.org/places/922662	OLCULDU
+Iran-Kafkasya-Afganistan	İran	en/çok	Getty TGN	gazetteer	https://vocab.getty.edu/page/tgn/<no>	E	E (yer adı, koordinat)	vocab.getty.edu/page/tgn/7009852	OLCULDU
+Iran-Kafkasya-Afganistan	İran	en/çok	GeoNames	gazetteer	https://www.geonames.org/search.html?q=<ad>	E (arama sayfası)	E	geonames.org/search.html?q=Sigtuna	OLCULDU
+Iran-Kafkasya-Afganistan	İran	en	Encyclopaedia Iranica	ansiklopedi	https://iranicaonline.org/articles/<madde>	E (Persepolis 80.902 kr)	E	iranicaonline.org/articles/persepolis	OLCULDU
+Iran-Kafkasya-Afganistan	İran	tr	TDV İslâm Ansiklopedisi	ansiklopedi	https://islamansiklopedisi.org.tr/<slug>	E	E	islamansiklopedisi.org.tr/isfahan	OLCULDU (genel)
+Iran-Kafkasya-Afganistan	İran	fa	Dehkhoda/Ansiklopedi-yi Buzurg-i İslami	ansiklopedi	https://dehkhoda.ut.ac.ir/	DENENMEDI	?	—	DENENMEDI
+Iran-Kafkasya-Afganistan	Gürcistan	en/çok	Britannica	ansiklopedi	https://www.britannica.com/place/<Sehir>	E	E (place maddesi)	britannica.com/place/Havana	OLCULDU
+Iran-Kafkasya-Afganistan	Gürcistan	en/çok	UNESCO World Heritage Centre	kurumsal	https://whc.unesco.org/en/list/<no>/	E	E (alan kaydı)	whc.unesco.org/en/list/65	OLCULDU
+Iran-Kafkasya-Afganistan	Gürcistan	en/çok	Pleiades	gazetteer	https://pleiades.stoa.org/places/<no>	E (Anubis ara sayfası ~3 sn)	E (antik yer)	pleiades.stoa.org/places/922662	OLCULDU
+Iran-Kafkasya-Afganistan	Gürcistan	en/çok	Getty TGN	gazetteer	https://vocab.getty.edu/page/tgn/<no>	E	E (yer adı, koordinat)	vocab.getty.edu/page/tgn/7009852	OLCULDU
+Iran-Kafkasya-Afganistan	Gürcistan	en/çok	GeoNames	gazetteer	https://www.geonames.org/search.html?q=<ad>	E (arama sayfası)	E	geonames.org/search.html?q=Sigtuna	OLCULDU
+Iran-Kafkasya-Afganistan	Gürcistan	ka/en	UNESCO WHC (Mtsheta, Gelati, Upper Svaneti)	kurumsal	https://whc.unesco.org/en/list/	E (WHC genel)	E	—	OLCULDU (genel)
+Iran-Kafkasya-Afganistan	Gürcistan	en	Cambridge History / Rapp (monografi)	monografi	https://www.cambridge.org/core/	kısmen	kısmen	—	DENENMEDI
+Iran-Kafkasya-Afganistan	Gürcistan	—	georgia.travel	turizm kurumu	https://georgia.travel/	E ama AKADEMİK DEĞİL (F2'ye ALINMAZ kararı)	—	—	OLCULDU
+Iran-Kafkasya-Afganistan	Ermenistan	en/çok	Britannica	ansiklopedi	https://www.britannica.com/place/<Sehir>	E	E (place maddesi)	britannica.com/place/Havana	OLCULDU
+Iran-Kafkasya-Afganistan	Ermenistan	en/çok	UNESCO World Heritage Centre	kurumsal	https://whc.unesco.org/en/list/<no>/	E	E (alan kaydı)	whc.unesco.org/en/list/65	OLCULDU
+Iran-Kafkasya-Afganistan	Ermenistan	en/çok	Pleiades	gazetteer	https://pleiades.stoa.org/places/<no>	E (Anubis ara sayfası ~3 sn)	E (antik yer)	pleiades.stoa.org/places/922662	OLCULDU
+Iran-Kafkasya-Afganistan	Ermenistan	en/çok	Getty TGN	gazetteer	https://vocab.getty.edu/page/tgn/<no>	E	E (yer adı, koordinat)	vocab.getty.edu/page/tgn/7009852	OLCULDU
+Iran-Kafkasya-Afganistan	Ermenistan	en/çok	GeoNames	gazetteer	https://www.geonames.org/search.html?q=<ad>	E (arama sayfası)	E	geonames.org/search.html?q=Sigtuna	OLCULDU
+Iran-Kafkasya-Afganistan	Ermenistan	hy/en	Armenian Studies (Hrčak benzeri)	dergi	—	DENENMEDI	?	—	DENENMEDI
+Iran-Kafkasya-Afganistan	Azerbaycan	en/çok	Britannica	ansiklopedi	https://www.britannica.com/place/<Sehir>	E	E (place maddesi)	britannica.com/place/Havana	OLCULDU
+Iran-Kafkasya-Afganistan	Azerbaycan	en/çok	UNESCO World Heritage Centre	kurumsal	https://whc.unesco.org/en/list/<no>/	E	E (alan kaydı)	whc.unesco.org/en/list/65	OLCULDU
+Iran-Kafkasya-Afganistan	Azerbaycan	en/çok	Pleiades	gazetteer	https://pleiades.stoa.org/places/<no>	E (Anubis ara sayfası ~3 sn)	E (antik yer)	pleiades.stoa.org/places/922662	OLCULDU
+Iran-Kafkasya-Afganistan	Azerbaycan	en/çok	Getty TGN	gazetteer	https://vocab.getty.edu/page/tgn/<no>	E	E (yer adı, koordinat)	vocab.getty.edu/page/tgn/7009852	OLCULDU
+Iran-Kafkasya-Afganistan	Azerbaycan	en/çok	GeoNames	gazetteer	https://www.geonames.org/search.html?q=<ad>	E (arama sayfası)	E	geonames.org/search.html?q=Sigtuna	OLCULDU
+Iran-Kafkasya-Afganistan	Azerbaycan	tr/az	TDV (Karabağ, Şirvan, Bakü…)	ansiklopedi	https://islamansiklopedisi.org.tr/<slug>	E	E	karabag	OLCULDU (genel)
+Iran-Kafkasya-Afganistan	Afganistan	en/çok	Britannica	ansiklopedi	https://www.britannica.com/place/<Sehir>	E	E (place maddesi)	britannica.com/place/Havana	OLCULDU
+Iran-Kafkasya-Afganistan	Afganistan	en/çok	UNESCO World Heritage Centre	kurumsal	https://whc.unesco.org/en/list/<no>/	E	E (alan kaydı)	whc.unesco.org/en/list/65	OLCULDU
+Iran-Kafkasya-Afganistan	Afganistan	en/çok	Pleiades	gazetteer	https://pleiades.stoa.org/places/<no>	E (Anubis ara sayfası ~3 sn)	E (antik yer)	pleiades.stoa.org/places/922662	OLCULDU
+Iran-Kafkasya-Afganistan	Afganistan	en/çok	Getty TGN	gazetteer	https://vocab.getty.edu/page/tgn/<no>	E	E (yer adı, koordinat)	vocab.getty.edu/page/tgn/7009852	OLCULDU
+Iran-Kafkasya-Afganistan	Afganistan	en/çok	GeoNames	gazetteer	https://www.geonames.org/search.html?q=<ad>	E (arama sayfası)	E	geonames.org/search.html?q=Sigtuna	OLCULDU
+Iran-Kafkasya-Afganistan	Afganistan	en	Encyclopaedia Iranica; Pleiades (Begram/Alexandria)	ansiklopedi/gazetteer	https://iranicaonline.org/	E	E	—	OLCULDU
