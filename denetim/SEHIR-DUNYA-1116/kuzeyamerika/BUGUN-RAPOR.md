@@ -40,3 +40,7 @@ Brifteki ilk cümle indirme iznini veriyordu; görev sürerken koordinatör "ind
 - E kararı "bugün aynı yerde yerleşim var" demektir; yerleşimin 1900-öncesi sahasıyla bugünkü yerinin birebir aynı olması (ör. Fort Wayne, Kaskaskia, Oraibi) GeoNames ≤15 km eşleşmesiyle ölçüldü, mikro-ölçekte teyit edilmedi.
 - Koordinatı ±0,02° elle girilmiş eski satırlarda 3 km üstü kayma olabilir; E kararı koordinattan değil ad+yakınlıktan verildi.
 - Churchill (Prince of Wales Fort) E: kasaba var, fort kalıntısı karşı kıyıda (kale H sayılırdı).
+
+## Silinen indirmeler (17 Kasım 2026, Emre kararı: ham dosyalar silinsin, türev sütunlar kalsın)
+- Oturum scratchpad'lerindeki GeoNames indirmeleri SİLİNDİ (kaynak download.geonames.org/export/dump/): cities5000.zip (5,7 MB; ayrıca F2 ajanının kopyası 5,7 MB), cities500.zip (13,9 MB), US.zip (71,1 MB), CA.zip (8,1 MB), MX.zip (15,1 MB), PM.zip (20,8 KB), BM.zip (24,8 KB), admin1CodesASCII.txt (151,6 KB) ve zip'lerden açılan .txt'ler (US 307 MB, CA 35 MB, MX 70,5 MB, cities500 41,8 MB, cities5000 15,3 MB, BM 84 KB, PM 70 KB); toplam yaklaşık 570 MB. Hiçbiri depoya girmedi, çalıştırılmadı. Bundan sonra yeni indirme yok (KASA oturumunda indirme izni yok). Türev sütunlar (bugun_var E kararları, 292 yeni satırın GeoNames koordinatları) KALIYOR.
+- ⚠️ H ve D sütunları ÖN DEĞERLENDİRMEDİR: gerekçelerinde 'sayfa okunmadı, F2'de resmî kaynakla teyit' yazılıdır; kesin sayılmaz.
