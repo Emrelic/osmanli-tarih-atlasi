@@ -1,0 +1,22 @@
+# P3 PARTİ GÖREVİ — şehir tarihçesi F2 (LAB, 17 Kasım 2026)
+
+Her ajan: kendi parti dosyasındaki (denetim/SEHIR-DUNYA-1116/P3/Bxx.tsv; ~22 şehir; kolonlar blok, ad_modern, ad_1900, modern_ulke, lat, lon, giris, kat, not_) şehirler için KAYNAKLI tarihçe kaydı üretir. Bu şehirlerin tarihçe kaydı YOK (3 km içinde ad+koordinat eşleşmesi taranmıştır).
+
+## Önce oku
+CLAUDE.md 'Kaynak kuralı' (Hakemli karar dahil) · VERI-YAPISI.md satır ~953-1013 (şehir tarihçe şeması) · örnek kayıtlar: denetim/SEHIR-DUNYA-1116/F2-1117/afrika_birlesik10.json, orta_asya_birlesik10.json, hint_birlesik11.json (özellikle ic_not'u 'ÇİFT TEYİT' ya da 'TEK KAYNAK' ile başlayan kayıtlar: biçim) · HAKEM12A.tsv (bağımsızlık ölçümü üslubu).
+
+## Kayıt kuralları (ihlal = kayıt yazılmaz)
+- Kaynaksız yazma yok, tarih UYDURMA yok. Kaynak 'yıl' diyorsa yıl; gün yoksa YYYY-01-01 + kesinlik 'yil'. Yalnız yüzyıl/'late 17th cent.' → kayıt yazma (borç).
+- Vikipedi TEK dayanak olamaz (kullanma). Kaynaklar: Britannica (TARAYICIDA oku; betik 403 verir), TDV (islamansiklopedisi.org.tr; tarayıcı içi fetch; ≥10 sn aralık; 429/503'te 60-180 sn bekle), encyclopedia.com Columbia/Oxford/Gale/Encyclopedia of Africa (URL'yi arama sonucundan al), DACB, SAHO, UNESCO WHC, Banglapedia, Encyclopaedia Iranica, Universalis, ru.wikisource ЭСБЕ (MediaWiki API; ≥8 sn), DSAL Imperial Gazetteer, açık erişimli archive.org *_djvu.txt (Emre'nin yazılı izni: yeni boş klasöre, çalıştırma yok, depoya girmez; araç py -I denetim/SEHIR-DUNYA-1116/F2-1117/indir_metin.py <hedef> <id>; ödünç kitaplara dokunma). Pleiades/Cloudflare/Anubis AŞMA. WebSearch özeti alıntı doğrulama SAYILMAZ.
+- TANIK KURALI (SIKI): tanık = kaynaktan BİREBİR ≤15 kelime; AYNI cümlede şehir adı + yıl olmalı. Madde başlığı şehirse ve cümlenin öznesi o maddenin konusu şehir ise (zamir 'It/The town/The city') tanık KABUL: ic_not'a 'özne zamir = madde konusu; başlık şehir' yaz. Cümlede ad ya da yıl yoksa ve madde-konusu zamir de değilse → kayıt YAZMA ya da kesinlik 'belirsiz'. Alıntıyı çıktıdan ÖNCE sayfa metninde includes() ile doğrula (araya '[...]' koyma).
+- Yalnız bölge/hanedan/savaş cümlesi şehir olgusu değildir (yazma). Kuruluşa değil bina/demiryolu/madene ait yıl ilk anılış değildir.
+- Çift teyit: iki BAĞIMSIZ yayıncı/yazar aynı yıl+şehri veriyorsa 'ÇİFT TEYİT'; bağımsızlık ölçümünü ic_not'a yaz (ayrı yayıncı; cümleler farklı; ortak soy/kopya kanıtı; ikisi de kaynakçasız mı; ortak birincil dayanak = tek sayılır). Değilse 'TEK KAYNAK'. Çelişki varsa CLAUDE.md Hakemli karar; ic_not'a yaz.
+- sahip[]: yalnız kaynakta 'şu yer, şu yılda, şu devletin' denmişse; devlet id = data/devletler.js gerçek id (yoksa boş). DİKİŞ: atlas noktası varsa ve ilk.t atlas başlangıcından ÖNCE ise zincir kaynak yılından atlas başlangıcına kadar gerekir: ≤1 yıl ise beyanlı dikiş (`ic_not`: 'gün kaynakta yok, atlas başlangıcına ≤1 yıl uzatıldı'); >1 yıl ise kayıt YAZMA, borç (atlas başlangıç adayı olarak 'BORC' gerekçesine yaz). Atlas noktası YOKSA zincir 1900-01-01'e kadar kurulmalı (kaynaklı sahip, yoksa borç). Sıfır uzunluk/ters dönem yok; sahip[0].f == ilk.t; her sahip değişimine ±30 gün içinde olay[].
+- Şehir adı çakışması (Kudüs/Kudus; Haydarâbâd Sind/Dekken; Lagos Algarve/Eko) riski olan yerleri koordinatla ayır (lat/lon verilen koordinat esastır).
+- id: <ad-slug>-<ülke kodu>-p3 (ASCII, küçük harf, tire). Alanlar: id, ad, atlas_ad (varsa atlas_en_yakın, yoksa null), lat, lon, kat1900 (kat sütunu), adlar, ilk{t,gun,nicelik,kesinlik,kaynak,tanik}, kur, ark, bit, sahip[], olay[], ic_not.
+
+## Araç kısıtı
+Tarayıcıda YALNIZ sana verilen tabId'yi kullan (mcp__Claude_Browser__*; gerekirse ToolSearch ile yükle). data/ ve motor dosyalarına YAZMA. cwd'yi repo kökünde tut (alt klasöre cd ETME); Bash'te backtick/heredoc yok; dosyaları Write ile yaz. Her kaynak sorgusunda şehir başına en çok 3-4 sayfa; yıllı tanık yoksa vakit kaybetme: borç yaz, sıradaki şehre geç (bütçe ~45 dk).
+
+## Çıktı
+denetim/SEHIR-DUNYA-1116/P3/Bxx.json (kayıt dizisi), Bxx_BORC.tsv (ad, neden, hangi_kaynak_cozer), doğrulama: `py arac/sehir_tarihce.py yaz denetim/SEHIR-DUNYA-1116/P3/Bxx.json <scratchpad>\sehir_bxx.js BXX_TEST` ve `py arac/sehir_tarihce.py denetle <o js>` (data/ içine DEĞİL; scratchpad C:\Users\ikizler1\AppData\Local\Temp\claude\61bcdfa88cf2fd72\ec51bc50-0e99-41b2-b909-56f51fe98905\scratchpad). 'İHLAL' çıkarsa o kaydı düzelt ya da borca yaz. Bitince 8 satırı geçmeyen rapor: yazılan (şehir→yıl→kaynak), çift teyit sayısı + bağımsızlık bulguları, borç sayısı+başlıca neden, denetle çıktısı.
