@@ -119,8 +119,8 @@ artvin-tr	3	Türkiye		Artvin	41.1816	41.8217	GeoNames 751817 (DMS 41°10′53.80
 bartin-tr	3	Türkiye		Bartın	41.6358	32.3375	GeoNames 751057 (DMS 41°38′08.99″ N, 32°20′15.00″ E)			bartin-tr		GeoNames 751057	il merkezi	E			ek-modern-merkez
 batman-tr	3	Türkiye		Batman	37.8874	41.1322	GeoNames 321836 (DMS 37°53′14.57″ N, 41°07′55.96″ E)					GeoNames 321836	il merkezi	E			ek-modern-merkez
 bayburt-tr	3	Türkiye		Bayburt	40.2563	40.2229	GeoNames 750938 (DMS 40°15′22.72″ N, 40°13′22.40″ E)			bayburt-tr		GeoNames 750938	il merkezi	E			ek-modern-merkez
-bingol-tr	3	Türkiye		Bingöl	38.8847	40.4939	GeoNames 321082 (DMS 38°53′04.99″ N, 40°29′38.00″ E)					GeoNames 321082	il merkezi	E			ek-modern-merkez
-duzce-tr	3	Türkiye		Düzce	40.8389	31.1639	GeoNames 747764 (DMS 40°50′20.00″ N, 31°09′50.00″ E)					GeoNames 747764	il merkezi	E			ek-modern-merkez
+bingol-tr	3	Türkiye		Bingöl	38.8847	40.4939	GeoNames 321082 (DMS 38°53′04.99″ N, 40°29′38.00″ E)			bingol-tr		GeoNames 321082	il merkezi	E			ek-modern-merkez
+duzce-tr	3	Türkiye		Düzce	40.8389	31.1639	GeoNames 747764 (DMS 40°50′20.00″ N, 31°09′50.00″ E)			duzce-tr		GeoNames 747764	il merkezi	E			ek-modern-merkez
 eskisehir-tr	3	Türkiye		Eskişehir	39.7767	30.5206	GeoNames 315202 (DMS 39°46′36.01″ N, 30°31′14.02″ E)			eskisehir-dorylaion-tr		GeoNames 315202	il merkezi	E			ek-modern-merkez
 gaziantep-tr	3	Türkiye		Gaziantep	37.0594	37.3825	GeoNames 314830 (DMS 37°03′33.98″ N, 37°22′57.00″ E)			gaziantep-tr		GeoNames 314830	il merkezi (Ayıntab)	E			ek-modern-merkez
 giresun-tr	3	Türkiye		Giresun	40.9170	38.3874	GeoNames 746881 (DMS 40°55′01.13″ N, 38°23′14.68″ E)			giresun-tr		GeoNames 746881	il merkezi	E			ek-modern-merkez
@@ -132,7 +132,7 @@ kilis-tr	3	Türkiye		Kilis	36.7161	37.1150	GeoNames 307864 (DMS 36°42′58.00�
 kirikkale-tr	3	Türkiye		Kırıkkale	39.8453	33.5064	GeoNames 307654 (DMS 39°50′43.01″ N, 33°30′23.00″ E)			kirikkale-tr		GeoNames 307654	il merkezi	E			ek-modern-merkez
 nevsehir-tr	3	Türkiye		Nevşehir	38.6250	34.7122	GeoNames 303831 (DMS 38°37′30.00″ N, 34°42′43.99″ E)			nevsehir-tr		GeoNames 303831	il merkezi	E			ek-modern-merkez
 ordu-tr	3	Türkiye		Ordu	40.9778	37.8905	GeoNames 741100 (DMS 40°58′40.15″ N, 37°53′25.69″ E)			ordu-tr		GeoNames 741100	il merkezi	E			ek-modern-merkez
-osmaniye-tr	3	Türkiye		Osmaniye	37.0742	36.2478	GeoNames 303195 (DMS 37°04′27.01″ N, 36°14′52.01″ E)					GeoNames 303195	il merkezi; LISTE'deki Yarpuz'un yerine kurulan merkez	E			ek-modern-merkez
+osmaniye-tr	3	Türkiye		Osmaniye	37.0742	36.2478	GeoNames 303195 (DMS 37°04′27.01″ N, 36°14′52.01″ E)			osmaniye-tr		GeoNames 303195	il merkezi; LISTE'deki Yarpuz'un yerine kurulan merkez	E			ek-modern-merkez
 adapazari-tr	3	Türkiye		Adapazarı	40.7806	30.4033	GeoNames 752850 (DMS 40°46′50.02″ N, 30°24′11.99″ E)			adapazari-tr		GeoNames 752850	Sakarya il merkezi	E			ek-modern-merkez
 sirnak-tr	3	Türkiye		Şırnak	37.5139	42.4543	GeoNames 300640 (DMS 37°30′50.15″ N, 42°27′15.55″ E)			sirnak-tr		GeoNames 300640	il merkezi	E			ek-modern-merkez
 tunceli-tr	3	Türkiye		Tunceli	39.0992	39.5435	GeoNames 298846 (DMS 39°05′57.16″ N, 39°32′36.64″ E)			tunceli-tr		GeoNames 298846	il merkezi (eski Kalan/Dersim; LISTE'de Hozat var)	E			ek-modern-merkez
@@ -144,7 +144,7 @@ raqqa-sy	3	Suriye		Raqqa	35.9528	39.0079	GeoNames 172955 (DMS 35°57′10.19″ 
 tartus-sy	3	Suriye		Tartus	34.8890	35.8866	GeoNames 163345 (DMS 34°53′20.47″ N, 35°53′11.72″ E)			tartus-sy		GeoNames 163345	muhafaza merkezi	E			ek-modern-merkez
 hasakah-sy	3	Suriye		Hasakah	36.5024	40.7477	GeoNames 173811 (DMS 36°30′08.53″ N, 40°44′51.79″ E)					GeoNames 173811	muhafaza merkezi	E			ek-modern-merkez
 idlib-sy	3	Suriye		Idlib	35.9306	36.6339	GeoNames 169389 (DMS 35°55′50.23″ N, 36°38′02.15″ E)					GeoNames 169389	muhafaza merkezi	E			ek-modern-merkez
-daraa-sy	3	Suriye		Daraa	32.6189	36.1021	GeoNames 170905 (DMS 32°37′08.00″ N, 36°06′07.67″ E)					GeoNames 170905	muhafaza merkezi	E			ek-modern-merkez
+daraa-sy	3	Suriye		Daraa	32.6189	36.1021	GeoNames 170905 (DMS 32°37′08.00″ N, 36°06′07.67″ E)			daraa-sy		GeoNames 170905	muhafaza merkezi	E			ek-modern-merkez
 suwayda-sy	3	Suriye		Suwayda	32.7090	36.5695	GeoNames 172408 (DMS 32°42′32.26″ N, 36°34′10.24″ E)					GeoNames 172408	muhafaza merkezi (GeoNames As-Suwayda)	E			ek-modern-merkez
 quneitra-sy	3	Suriye		Quneitra	33.1260	35.8246	GeoNames 173334 (DMS 33°07′33.42″ N, 35°49′28.60″ E)					GeoNames 173334	muhafaza merkezi; eski şehir 1974'te yıkılıp boşaltıldı, bugünkü yerleşim durumu doğrulanmadı (bugun_var=E işaretli ama ? sayılmalı)	?			ek-modern-merkez
 qamishli-sy	3	Suriye		Qamishli	37.0521	41.2314	GeoNames 173377 (DMS 37°03′07.74″ N, 41°13′53.11″ E)			nusaybin-tr		GeoNames 173377	büyük şehir, 2. derece merkez (GeoNames Al Qāmishlī)	E			ek-modern-merkez
@@ -180,7 +180,7 @@ khan-yunis-ps	3	Filistin		Khan Yunis	31.3402	34.3063	GeoNames 281124 (DMS 31°20
 rafah-ps	3	Filistin		Rafah	31.2972	34.2436	GeoNames 281102 (DMS 31°17′49.99″ N, 34°14′36.85″ E)			rafah-ps		GeoNames 281102	vilayet merkezi (GeoNames Rafaḩ)	E			ek-modern-merkez
 deir-al-balah-ps	3	Filistin		Deir al-Balah	31.4183	34.3493	GeoNames 281141 (DMS 31°25′06.02″ N, 34°20′57.59″ E)					GeoNames 281141	vilayet merkezi (GeoNames Dayr al Balaḩ)	E			ek-modern-merkez
 jericho-ps	3	Filistin		Jericho	31.8667	35.4500	GeoNames 284899 (DMS 31°52′00.01″ N, 35°27′00.00″ E)			eriha		GeoNames 284899	vilayet merkezi (Eriha)	E			ek-modern-merkez
-bethlehem-ps	3	Filistin		Bethlehem	31.7049	35.2038	GeoNames 284315 (DMS 31°42′17.53″ N, 35°12′13.54″ E)					GeoNames 284315	vilayet merkezi (Beytlahm)	E			ek-modern-merkez
+bethlehem-ps	3	Filistin		Bethlehem	31.7049	35.2038	GeoNames 284315 (DMS 31°42′17.53″ N, 35°12′13.54″ E)			bethlehem-ps		GeoNames 284315	vilayet merkezi (Beytlahm)	E			ek-modern-merkez
 tubas-ps	3	Filistin		Tubas	32.3209	35.3699	GeoNames 281581 (DMS 32°19′15.28″ N, 35°22′11.60″ E)					GeoNames 281581	vilayet merkezi (GeoNames Ţūbās)	E			ek-modern-merkez
 ramallah-ps	3	Filistin		Ramallah	31.8996	35.2042	GeoNames 282239 (DMS 31°53′58.70″ N, 35°12′15.19″ E)					GeoNames 282239	vilayet merkezi	E			ek-modern-merkez
 jenin-ps	3	Filistin		Jenin	32.4594	35.3009	GeoNames 283506 (DMS 32°27′33.95″ N, 35°18′03.10″ E)			jenin-ps		GeoNames 283506	vilayet merkezi (GeoNames Janīn)	E			ek-modern-merkez
@@ -195,13 +195,13 @@ tabuk-sa	3	Suudi Arabistan		Tabuk	28.3998	36.5715	GeoNames 101628 (DMS 28°23′
 sakaka-sa	3	Suudi Arabistan		Sakaka	29.9697	40.2064	GeoNames 102527 (DMS 29°58′11.06″ N, 40°12′23.08″ E)					GeoNames 102527	Cevf bölgesi merkezi (GeoNames Sakakah)	E			ek-modern-merkez
 jazan-sa	3	Suudi Arabistan		Jazan	16.8892	42.5511	GeoNames 105299 (DMS 16°53′21.01″ N, 42°33′04.00″ E)			jazan-sa		GeoNames 105299	bölge merkezi (GeoNames Jizan)	E			ek-modern-merkez
 arar-sa	3	Suudi Arabistan		Arar	30.9753	41.0381	GeoNames 108512 (DMS 30°58′31.12″ N, 41°02′17.09″ E)					GeoNames 108512	Kuzey Hudud bölgesi merkezi	E			ek-modern-merkez
-najran-sa	3	Suudi Arabistan		Najran	17.4933	44.1277	GeoNames 103630 (DMS 17°29′35.74″ N, 44°07′39.58″ E)					GeoNames 103630	bölge merkezi (GeoNames Najrān)	E			ek-modern-merkez
+najran-sa	3	Suudi Arabistan		Najran	17.4933	44.1277	GeoNames 103630 (DMS 17°29′35.74″ N, 44°07′39.58″ E)			najran-sa		GeoNames 103630	bölge merkezi (GeoNames Najrān)	E			ek-modern-merkez
 al-bahah-sa	3	Suudi Arabistan		Al Bahah	20.0129	41.4677	GeoNames 109953 (DMS 20°00′46.37″ N, 41°28′03.61″ E)					GeoNames 109953	bölge merkezi	E			ek-modern-merkez
 doha-qa	3	Katar		Doha	25.2855	51.5310	GeoNames 290030 (DMS 25°17′07.62″ N, 51°31′51.46″ E)			doha-qa		GeoNames 290030	başkent; Katar'ın merkezi	E			ek-modern-merkez
 manama-bh	3	Bahreyn		Manama	26.2279	50.5857	GeoNames 290340 (DMS 26°13′40.33″ N, 50°35′08.34″ E)			manama		GeoNames 290340	başkent	E			ek-modern-merkez
 al-ain-ae	3	BAE		Al Ain	24.1917	55.7606	GeoNames 292913 (DMS 24°11′30.01″ N, 55°45′38.02″ E)					GeoNames 292913	Abu Dabi emirliğinin 2. büyük şehri (GeoNames Al Ain City)	E			ek-modern-merkez
 ras-al-khaimah-ae	3	BAE		Ras Al Khaimah	25.7895	55.9432	GeoNames 291074 (DMS 25°47′22.31″ N, 55°56′35.52″ E)			ras-el-hayme		GeoNames 291074	emirlik merkezi (LISTE'de Şârika/Re'sülhayme yok)	E			ek-modern-merkez
-fujairah-ae	3	BAE		Fujairah	25.1164	56.3414	GeoNames 292878 (DMS 25°06′59.08″ N, 56°20′29.08″ E)					GeoNames 292878	emirlik merkezi	E			ek-modern-merkez
+fujairah-ae	3	BAE		Fujairah	25.1164	56.3414	GeoNames 292878 (DMS 25°06′59.08″ N, 56°20′29.08″ E)			fujairah-ae		GeoNames 292878	emirlik merkezi	E			ek-modern-merkez
 salalah-om	3	Umman		Salalah	17.0150	54.0924	GeoNames 286621 (DMS 17°00′54.18″ N, 54°05′32.53″ E)					GeoNames 286621	Zufâr vilayet merkezi (GeoNames Şalālah)	E			ek-modern-merkez
 sohar-om	3	Umman		Sohar	24.3474	56.7094	GeoNames 286282 (DMS 24°20′50.82″ N, 56°42′33.73″ E)			sohar-om		GeoNames 286282	Bâtına bölge merkezi	E			ek-modern-merkez
 sur-om	3	Umman		Sur	22.5667	59.5289	GeoNames 286245 (DMS 22°34′00.01″ N, 59°31′44.00″ E)					GeoNames 286245	Güney Şarkiye bölge merkezi	E			ek-modern-merkez
@@ -216,7 +216,7 @@ hajjah-ye	3	Yemen		Hajjah	15.6943	43.6058	GeoNames 75337 (DMS 15°41′39.30″ 
 al-bayda-ye	3	Yemen		Al Bayda	13.9852	45.5727	GeoNames 79836 (DMS 13°59′06.83″ N, 45°34′21.79″ E)					GeoNames 79836	muhafaza merkezi	E			ek-modern-merkez
 zinjibar-ye	3	Yemen		Zinjibar	13.1287	45.3807	GeoNames 69426 (DMS 13°07′43.36″ N, 45°22′50.63″ E)					GeoNames 69426	Abyan muhafaza merkezi	E			ek-modern-merkez
 ataq-ye	3	Yemen		Ataq	14.5377	46.8319	GeoNames 77726 (DMS 14°32′15.61″ N, 46°49′54.73″ E)					GeoNames 77726	Şabva muhafaza merkezi	E			ek-modern-merkez
-marib-ye	3	Yemen		Marib	15.4625	45.3258	GeoNames 72968 (DMS 15°27′45.11″ N, 45°19′32.92″ E)					GeoNames 72968	muhafaza merkezi (GeoNames Ma'rib)	E			ek-modern-merkez
+marib-ye	3	Yemen		Marib	15.4625	45.3258	GeoNames 72968 (DMS 15°27′45.11″ N, 45°19′32.92″ E)			marib-ye		GeoNames 72968	muhafaza merkezi (GeoNames Ma'rib)	E			ek-modern-merkez
 al-mahwit-ye	3	Yemen		Al Mahwit	15.4701	43.5448	GeoNames 78977 (DMS 15°28′12.25″ N, 43°32′41.32″ E)					GeoNames 78977	muhafaza merkezi	E			ek-modern-merkez
 al-hazm-ye	3	Yemen		Al Hazm	16.1641	44.7769	GeoNames 79455 (DMS 16°09′50.62″ N, 44°46′36.91″ E)					GeoNames 79455	Cevf muhafaza merkezi	E			ek-modern-merkez
 ad-dali-ye	3	Yemen		Ad Dali'	13.6957	44.7314	GeoNames 80384 (DMS 13°41′44.59″ N, 44°43′52.93″ E)					GeoNames 80384	Dâli' muhafaza merkezi	E			ek-modern-merkez

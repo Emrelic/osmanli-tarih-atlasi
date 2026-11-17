@@ -184,49 +184,6 @@ window.SEHIR_TARIHCE_ONPR_R3A = [
   "ic_not": "TEK KAYNAK: Britannica (ÖN TARAMA yöntemi LAB, 17 Kas 2026: görünür makale gövdesi, FAQ/YZ bloğu dışı p öğeleri; cümle elle seçildi). Sahiplik zinciri kaynakta yazılı değil: kuruluştan 1900-01-01'e __BOSLUK__ beyanlı (uydurma zincir yok). Koordinat LISTE. Takvim: kaynak yalnız yıl; Jülyen/Gregoryen çevrimi gerekmedi. Tanık: sayfa gövdesinden birebir. ILK ANILIŞ: yerleşimin varlığı bu tarihten önce olabilir."
  },
  {
-  "id": "chernihiv",
-  "ad": "Chernihiv",
-  "atlas_ad": null,
-  "lat": 51.5,
-  "lon": 31.29,
-  "kat1900": 2,
-  "adlar": [
-   "Chernihiv"
-  ],
-  "ad_kaynak": "Britannica Chernihiv",
-  "ilk": {
-   "t": "0907-01-01",
-   "gun": "907",
-   "nicelik": "ilk_anilis",
-   "kesinlik": "yil",
-   "kaynak": "Britannica, 'Chernihiv' maddesi (britannica.com/place/Chernihiv-Ukraine)",
-   "tanik": "Chernihiv was first mentioned in 907"
-  },
-  "kur": null,
-  "ark": null,
-  "bit": null,
-  "sahip": [
-   {
-    "f": "0907-01-01",
-    "t": "1900-01-01",
-    "d": "__BOSLUK__",
-    "kesinlik": "yil",
-    "kaynak": "Britannica, 'Chernihiv' maddesi (britannica.com/place/Chernihiv-Ukraine) (sahiplik cümlesi yok; beyanlı boşluk)",
-    "ic_not": "Kaynak sahiplik cümlesi vermiyor; atlas başlangıcına/1900e kadar sahibi bilinmiyor (BEYANLI BOŞLUK, uydurma zincir yok)."
-   }
-  ],
-  "olay": [
-   {
-    "t": "0907-01-01",
-    "gun": "907",
-    "k": "diger",
-    "b": "İlk kez anıldı",
-    "kaynak": "Britannica, 'Chernihiv' maddesi (britannica.com/place/Chernihiv-Ukraine)"
-   }
-  ],
-  "ic_not": "TEK KAYNAK: Britannica (ÖN TARAMA yöntemi LAB, 17 Kas 2026: görünür makale gövdesi, FAQ/YZ bloğu dışı p öğeleri; cümle elle seçildi). Sahiplik zinciri kaynakta yazılı değil: kuruluştan 1900-01-01'e __BOSLUK__ beyanlı (uydurma zincir yok). Koordinat LISTE'de boştu: bilinen değer, GeoNames sayfasından doğrulanmadı. Takvim: kaynak yalnız yıl; Jülyen/Gregoryen çevrimi gerekmedi. Tanık: sayfa gövdesinden birebir. ILK ANILIŞ: yerleşimin varlığı bu tarihten önce olabilir."
- },
- {
   "id": "chita",
   "ad": "Chita",
   "atlas_ad": null,
