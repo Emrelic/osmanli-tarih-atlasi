@@ -95,7 +95,6 @@ window.ACILIS_SILUET = {
   var ARALIK = 210;      // ms — iki fırlayış arası
   var BASLA = 380;       // ms — ilk fırlayış (küre önce bir an dönsün)
   var UCUS = 1000;       // ms — küreden hedefe uçuş
-  var KAL = 3200;        // ms — yere indikten sonra parlak kalış, sonra sönükleşir
   var DONUS = 12000;     // ms — kürenin bir tam turu
   var L0 = 32;           // derece — açılışta öne bakan boylam (Türkiye-Akdeniz)
   var FINAL = 950;       // ms — perde kalkarken toplanma + Türkiye
@@ -110,8 +109,8 @@ window.ACILIS_SILUET = {
   function yer(el, x, y) { el.style.left = (x - OX).toFixed(1) + "px"; el.style.top = (y - OY).toFixed(1) + "px"; }
   var R = dar ? 78 : 118;                      // küre yarıçapı
   var cx = vw / 2, cy = vh / 2 - 60;           // css yazısı: vh/2+135'ten aşağı
-  var W = dar ? 72 : 106;                      // harita genişliği (dünya öğesi 1,8 kat)
-  var KISI = dar ? 40 : 54;                    // portre çapı
+  var W = dar ? 66 : 106;                      // harita genişliği (dünya öğesi bölme genişliği)
+  var KISI = dar ? 42 : 62;                   // portre genişliği (yüksekliği 4/3)
 
   function uri(svg) { return "data:image/svg+xml;charset=utf-8," + encodeURIComponent(svg); }
   function kacis(s) { return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;"); }
@@ -197,35 +196,66 @@ window.ACILIS_SILUET = {
   yer(baslik, cx - 200, cy + R + 14);
   sahne.appendChild(baslik);
 
-  // ── HEDEFLER ──────────────────────────────────────────────────────────────
-  // Ekran aday ızgarasına bölünür; küre, başlık ve alttaki "Atlas yükleniyor…" yazısı
-  // dışlanır. Her öğe SON yerleşen ~14 öğeden en uzak adaya konur: yeniler eskilerin
-  // (sönükleşmiş) üstüne binebilir, ama hep o an boş görünen yere düşer.
-  var HX = dar ? 82 : 122, HY = dar ? 92 : 132;
-  var yazi = dar ? [0, vw, cy + R, vh] : [vw / 2 - 330, vw / 2 + 330, cy + R + 4, vh / 2 + 215];
-  var adaylar = [];
-  for (var ay = HY / 2 + 4; ay <= vh - HY / 2 - 4; ay += HY) {
-    for (var ax = HX / 2 + 4; ax <= vw - HX / 2 - 4; ax += HX) {
-      var kx = ax + ((Math.round(ay / HY) % 2) ? HX / 4 : -HX / 4);
-      if (Math.hypot(kx - cx, ay - cy) < R + Math.max(HX, HY) * 0.55) continue;
-      if (kx + HX / 2 > yazi[0] && kx - HX / 2 < yazi[1] && ay + HY / 2 > yazi[2] && ay - HY / 2 < yazi[3]) continue;
-      adaylar.push([kx, ay]);
+  // ── BÖLMELER (Emre, 17 Kas: "birbirinin üzerine gelmeden, kürenin etrafındaki boşlukta
+  // tanımlanmış kare kare bölgelere rastgele saçılsın") ─────────────────────────────
+  // Ekran CW×CH bölmelere ayrılır; küreye ya da yazı alanına değen bölme kullanılmaz.
+  // Her harita (bayrağı ÜSTÜNDE) ve her kişi kartı TEK bir bölmeye düşer, bölmeden taşmaz.
+  // Boş bölme yoksa en az GOSTER ms görünmüş en eski öğe söner, yenisi onun yerine iner
+  // ⇒ hiçbir an iki öğe üst üste binmez. Hepsi kurulumda peşinen hesaplanır.
+  var CW = dar ? 80 : 128, CH = dar ? 96 : 140;
+  // ms — inen öğenin bölmesini bırakmadan önce en az görünme süresi (dar ekranda bölme az:
+  // 375×812'de 2600 ms ile kuyruk 30 sn uzuyordu, sınama 17 Kas)
+  var GOSTER = dar ? 1800 : 2600;
+  // yazı şeridi: başlık (küre altı) + "Atlas yükleniyor…" (css: alt kenarı vh/2+190)
+  var yazi = dar ? [0, vw, cy + R, vh / 2 + 200] : [vw / 2 - 330, vw / 2 + 330, cy + R + 4, vh / 2 + 215];
+  var sut = Math.max(1, Math.floor((vw - 8) / CW)), sat = Math.max(1, Math.floor((vh - 8) / CH));
+  var gx0 = (vw - sut * CW) / 2, gy0 = (vh - sat * CH) / 2;
+  var bolme = [];
+  for (var br = 0; br < sat; br++) {
+    for (var bc = 0; bc < sut; bc++) {
+      var bx0 = gx0 + bc * CW, by0 = gy0 + br * CH, bx1 = bx0 + CW, by1 = by0 + CH;
+      var nx = Math.max(bx0, Math.min(cx, bx1)), ny = Math.max(by0, Math.min(cy, by1));
+      if (Math.hypot(nx - cx, ny - cy) < R + 12) continue;                       // küre + parıltı
+      if (bx1 > yazi[0] && bx0 < yazi[1] && by1 > yazi[2] && by0 < yazi[3]) continue;  // yazılar
+      bolme.push({ x: bx0 + CW / 2, y: by0 + CH / 2, son: null, kul: 0 });
     }
   }
-  if (!adaylar.length) adaylar.push([cx + R * 1.6, cy]);
-  var son = [[cx, cy]];
-  function hedef(w, h) {
-    var en = -1, sec = adaylar[0];
-    var yakin = son.slice(-14);
-    for (var k = 0; k < adaylar.length; k++) {
-      var a = adaylar[k], m = Infinity;
-      for (var q = 0; q < yakin.length; q++) m = Math.min(m, Math.hypot(a[0] - yakin[q][0], (a[1] - yakin[q][1]) * 1.15));
-      m += ((k * 7919) % 13) * 0.5;            // eşitlikte hep aynı köşeye yığılmasın
-      if (m > en) { en = m; sec = a; }
+  if (!bolme.length) bolme.push({ x: cx + R * 1.6, y: cy, son: null, kul: 0 });
+  var bekleme = 0;
+  // t anında fırlayacak öğeye bölme verir; gerekirse fırlayışı bölme boşalana dek erteler.
+  function hucreAl(t, yakin) {
+    var bos = [], k, b;
+    for (k = 0; k < bolme.length; k++) {
+      b = bolme[k];
+      if (!b.son || b.son.inis + GOSTER <= t) bos.push(b);
     }
-    son.push(sec);
-    return [Math.min(Math.max(sec[0], w / 2 + 4), vw - w / 2 - 4) - cx,
-            Math.min(Math.max(sec[1], h / 2 + 4), vh - h / 2 - 4) - cy];
+    var sec;
+    if (bos.length) {
+      if (yakin) {         // kişi: haritasına yakın boş bölmelerden rastgele biri
+        bos.sort(function (a, c) { return Math.hypot(a.x - yakin.x, a.y - yakin.y) - Math.hypot(c.x - yakin.x, c.y - yakin.y); });
+        sec = bos[Math.floor(Math.random() * Math.min(3, bos.length))];
+      } else {             // önce hiç kullanılmamış, sonra en az kullanılmış bölmeler
+        var en = Infinity;
+        for (k = 0; k < bos.length; k++) en = Math.min(en, bos[k].kul);
+        var aday = bos.filter(function (a) { return a.kul === en; });
+        sec = aday[Math.floor(Math.random() * aday.length)];
+      }
+    } else {               // hepsi dolu: en erken boşalacak bölmeyi bekle
+      sec = bolme[0];
+      for (k = 1; k < bolme.length; k++) if (bolme[k].son.inis < sec.son.inis) sec = bolme[k];
+      var t2 = sec.son.inis + GOSTER;
+      bekleme = Math.max(bekleme, t2 - t);
+      t = t2;
+    }
+    if (sec.son) sec.son.cikis = t;   // eski sahibi, yenisi fırlarken söner
+    sec.son = { inis: t + UCUS, cikis: 0 };
+    sec.kul++;
+    return { b: sec, t: t, kay: sec.son };
+  }
+  // bölme içinde küçük rastgele kayma (bölmeden taşmadan)
+  function konum(b, w, h) {
+    var px = Math.max(0, CW - w - 8) * 0.8, py = Math.max(0, CH - h - 8) * 0.8;
+    return [b.x + (Math.random() - 0.5) * px - cx, b.y + (Math.random() - 0.5) * py - cy];
   }
 
   // ── SIRALAMA: öne dönen ülke fırlar ───────────────────────────────────────
@@ -295,11 +325,11 @@ window.ACILIS_SILUET = {
   }
 
   // ── AMBLEM (bayrak · arma · tuğra) ────────────────────────────────────────
-  // Haritayla birlikte fırlar, haritanın sol üst köşesine rozet olur. Tek saydam WebP
+  // Haritayla birlikte fırlar, haritanın ÜSTÜNE oturur (Emre, 17 Kas). Tek saydam WebP
   // tabakası; gölgesi tabakaya gömülü (uçan öğede CSS filter yok).
   var A = V.amblem || {}, aimg = null;
   if (A.url) { aimg = new Image(); aimg.src = A.url; }
-  var AS = A.hucre || 96, AC = A.sutun || 8, AMB = dar ? 30 : 42;
+  var AS = A.hucre || 96, AC = A.sutun || 8, AMB = dar ? 26 : 36;
   function amblemKart(i) {
     var d = document.createElement("div");
     d.className = "acilis-amb";
@@ -312,88 +342,86 @@ window.ACILIS_SILUET = {
   }
 
   // ── ÖĞELERİ KUR ──────────────────────────────────────────────────────────
+  // İki geçiş: ① bütün öğelere bölme + fırlayış anı verilir (bir bölmenin eski sahibinin
+  // sönme anı ancak yenisi gelince belli olur) ② canlandırmalar kurulur.
   var kayit = [];   // {el, an, bas} — bitişte toplanma için
   var kok = performance.now();
-  function ucur(el, p, hd, gec, w) {
-    var don = ((p.t / ARALIK * 37) % 17) - 8;
+  var isler = [];
+  function kivilcim(renk, p, t) {
+    if (AZ) return;
+    var kv = document.createElement("div");
+    kv.className = "acilis-kivilcim";
+    kv.style.borderColor = renk;
+    yer(kv, cx + p.lx - 14, cy + p.ly - 14);
+    sahne.appendChild(kv);
+    kv.animate([{ transform: "scale(.2)", opacity: 1 }, { transform: "scale(2.4)", opacity: 0 }],
+               { duration: 560, delay: t, easing: "ease-out", fill: "both" });
+  }
+  function ucur(is) {
+    var el = is.el, p = is.p, hd = is.hd, bas = is.t, cik = is.kay.cikis;
+    var don = ((bas / ARALIK * 37) % 11) - 5;         // ±5°: döndükçe bölmeden taşmasın
     var lx = p.lx, ly = p.ly;
     var mx = (lx + hd[0]) / 2 - (hd[1] - ly) * 0.18, my = (ly + hd[1]) / 2 + (hd[0] - lx) * 0.18;  // yay
-    var top = UCUS + KAL + 700;
+    var top = cik ? Math.max(cik + 500 - bas, UCUS + 200) : UCUS;
+    var yerde = "translate(" + hd[0].toFixed(0) + "px," + hd[1].toFixed(0) + "px) scale(1) rotate(" + don + "deg)";
     var k = [
       { transform: "translate(" + lx.toFixed(0) + "px," + ly.toFixed(0) + "px) scale(.06) rotate(" + (don * 4) + "deg)", opacity: 0 },
-      { opacity: 1, offset: 0.05 * UCUS / top * 4 },
+      { opacity: 1, offset: 0.2 * UCUS / top },
       { transform: "translate(" + mx.toFixed(0) + "px," + my.toFixed(0) + "px) scale(.75) rotate(" + (don * 2) + "deg)", offset: 0.45 * UCUS / top },
-      { transform: "translate(" + hd[0].toFixed(0) + "px," + hd[1].toFixed(0) + "px) scale(1) rotate(" + don + "deg)", opacity: 1, offset: UCUS / top },
-      { transform: "translate(" + hd[0].toFixed(0) + "px," + hd[1].toFixed(0) + "px) scale(1) rotate(" + don + "deg)", opacity: 1, offset: (UCUS + KAL) / top },
-      { transform: "translate(" + hd[0].toFixed(0) + "px," + hd[1].toFixed(0) + "px) scale(.94) rotate(" + don + "deg)", opacity: 0.42 }
+      { transform: yerde, opacity: 1, offset: UCUS / top }
     ];
+    if (cik) {
+      k.push({ transform: yerde, opacity: 1, offset: Math.min(0.999, Math.max(UCUS / top, (cik - bas) / top)) });
+      k.push({ transform: "translate(" + hd[0].toFixed(0) + "px," + hd[1].toFixed(0) + "px) scale(.9) rotate(" + don + "deg)", opacity: 0 });
+    }
     var an;
     if (AZ) {
-      el.style.transform = "translate(" + hd[0].toFixed(0) + "px," + hd[1].toFixed(0) + "px) rotate(" + don + "deg)";
-      an = el.animate([{ opacity: 0 }, { opacity: 0.9 }], { duration: 450, delay: p.t + gec, fill: "both" });
+      el.style.transform = yerde;
+      an = el.animate([{ opacity: 0 }, { opacity: 0.9 }], { duration: 450, delay: bas, fill: "both" });
     } else {
-      an = el.animate(k, { duration: top, delay: p.t + gec, easing: "cubic-bezier(.25,.7,.35,1)", fill: "both" });
+      an = el.animate(k, { duration: top, delay: bas, easing: "cubic-bezier(.25,.7,.35,1)", fill: "both" });
     }
-    kayit.push({ el: el, an: an, bas: kok + p.t + gec });
+    kayit.push({ el: el, an: an, bas: kok + bas });
   }
+  // ① yerleştirme
   plan.forEach(function (p) {
-    var o = p.o;
+    var o = p.o, i;
     if (o.yalniz) {   // haritasız kişi kartı (dinî şahsiyetler): kendi yerinden fırlar
       if (!P.url) return;
       var yk = portreKart(o.kisi[0]);
-      sahne.appendChild(yk);
-      var yh = hedef(KISI + 40, KISI_Y + 24);
-      ucur(yk, p, yh, 0, KISI);
-      if (!AZ) {
-        var yv = document.createElement("div");
-        yv.className = "acilis-kivilcim";
-        yv.style.borderColor = "#e8c56a";
-        yer(yv, cx + p.lx - 14, cy + p.ly - 14);
-        sahne.appendChild(yv);
-        yv.animate([{ transform: "scale(.2)", opacity: 1 }, { transform: "scale(2.4)", opacity: 0 }],
-                   { duration: 560, delay: p.t, easing: "ease-out", fill: "both" });
-      }
+      var yh = hucreAl(p.t, null);
+      isler.push({ el: yk, p: p, t: yh.t, kay: yh.kay, hd: konum(yh.b, KISI + 30, KISI_Y + 16) });
+      isler[isler.length - 1].hd[1] -= 7;            // ad yazısı kartın altında
+      kivilcim("#e8c56a", p, yh.t);
       return;
     }
-    var w = o.dunya ? W * 1.8 : W, h = o.dunya ? w * 204 / 360 : w * 1.16;
+    var w = o.dunya ? Math.min(W * 1.8, CW - 8) : W, h = o.dunya ? w * 204 / 360 : w * 1.16;
     var im = document.createElement("img");
     im.className = "acilis-sil"; im.alt = ""; im.decoding = "async";
     im.src = harita(o);
     im.style.cssText = "width:" + w + "px;height:" + h + "px";
     yer(im, cx - w / 2, cy - h / 2);
-    sahne.appendChild(im);
-    var hd = hedef(w, h);
-    ucur(im, p, hd, 0, w);
-    if (!AZ) {  // fırladığı yerde kıvılcım halkası
-      var kv = document.createElement("div");
-      kv.className = "acilis-kivilcim";
-      kv.style.borderColor = o.renk;
-      yer(kv, cx + p.lx - 14, cy + p.ly - 14);
-      sahne.appendChild(kv);
-      kv.animate([{ transform: "scale(.2)", opacity: 1 }, { transform: "scale(2.4)", opacity: 0 }],
-                 { duration: 560, delay: p.t, easing: "ease-out", fill: "both" });
-    }
-    if (A.url && o.amb != null) {   // amblem: haritanın sol üst köşesi, biraz dışarı taşar
+    var hh = hucreAl(p.t, null);
+    var hd = konum(hh.b, w, h);
+    isler.push({ el: im, p: p, t: hh.t, kay: hh.kay, hd: hd });
+    kivilcim(o.renk, p, hh.t);
+    if (A.url && o.amb != null) {   // bayrak/amblem: haritanın ÜSTÜNE oturur (aynı bölme, aynı ömür)
       var ak = amblemKart(o.amb);
-      sahne.appendChild(ak);
-      var ah = [hd[0] - w / 2 + AMB * 0.18, hd[1] - h / 2 + AMB * 0.12];
-      ah[0] = Math.min(Math.max(ah[0] + cx, AMB / 2 + 2), vw - AMB / 2 - 2) - cx;
-      ah[1] = Math.min(Math.max(ah[1] + cy, AMB / 2 + 2), vh - AMB / 2 - 2) - cy;
-      ucur(ak, p, ah, 60, AMB);
+      isler.push({ el: ak, p: p, t: hh.t + 60, kay: hh.kay, hd: [hd[0], hd[1] - h * 0.12] });
     }
-    // Portreler haritanın çevresine halka olur (Roma: 6 imparator)
     var ks = (P.url && o.kisi) || [];
-    for (var i = 0; i < ks.length; i++) {
+    for (i = 0; i < ks.length; i++) {   // kişiler: haritaya yakın boş bölmelere
       var kart = portreKart(ks[i]);
-      sahne.appendChild(kart);
-      var aci = (-Math.PI / 2) + (ks.length === 1 ? Math.PI * 0.75 : (2 * Math.PI * i / ks.length) + 0.4);
-      var mes = (Math.max(w, h) / 2) + KISI_Y * 0.42;
-      var kh = [hd[0] + Math.cos(aci) * mes, hd[1] + Math.sin(aci) * mes];
-      kh[0] = Math.min(Math.max(kh[0] + cx, KISI / 2 + 2), vw - KISI / 2 - 2) - cx;
-      kh[1] = Math.min(Math.max(kh[1] + cy, KISI_Y / 2 + 2), vh - KISI_Y - 14) - cy;
-      ucur(kart, p, kh, 110 + i * 90, KISI);
+      var kb = hucreAl(hh.t + 110 + i * 90, hh.b);
+      var kh = konum(kb.b, KISI + 30, KISI_Y + 16);
+      kh[1] -= 7;
+      isler.push({ el: kart, p: p, t: kb.t, kay: kb.kay, hd: kh });
     }
   });
+  // ② canlandırma (DOM'a ekleme sırası = fırlayış sırası; geç gelen üstte)
+  isler.sort(function (a, c) { return a.t - c.t; });
+  isler.forEach(function (is) { sahne.appendChild(is.el); ucur(is); });
+  window.ACILIS_YER = { bolme: bolme.length, oge: isler.length, bekleme: Math.round(bekleme) };  // sınav için
 
   // Türkiye finali (perde kalkarken) + Atatürk
   var fin = null;

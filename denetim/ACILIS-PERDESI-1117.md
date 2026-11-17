@@ -53,5 +53,13 @@ Fatih + Kanunî, Roma'dan en az 5 imparator, her milletten 1-2 kişi).
   (adı, hat), Hz. İsa (Ayasofya Deesis), Hz. Musa (Sina ikonu), Buda, Konfüçyüs, Luther.
   Toplam 59 öğe, 51 kişi. Betik 180 → 118 KB (kullanılmayan zeminler yazılmıyor); portre
   tabakası 148 KB. Sınama 1400×860: konsol hatası yok, 220 canlandırma, 51 kart.
+- **Bölmeli yerleşim (aynı gün, Emre: "birbirinin üzerine gelmesin, kare kare bölgelere
+  rastgele saçılsın"; "bayrakları haritanın üstüne oturt"):** ekran 128×140 (dar 80×96)
+  bölmelere ayrılır, küre/yazı şeridine değen bölme yok; her harita (bayrağı üstünde) ve her
+  kişi kartı tek bölmeye rastgele düşer, kişiler haritasına yakın bölmeyi seçer. Bölme
+  dolunca en az 2,6 sn (dar 1,8 sn) görünmüş en eski öğe söner, yenisi yerine iner.
+  Ölçüm (yere inmiş öğe kutuları, 0,5 sn arayla): 1400×860 — 42 bölme, 38 anda çakışma 0,
+  en çok erteleme 30 ms; 375×812 — 12 bölme, 58 anda çakışma 0, kuyruk 11 sn uzuyor
+  (dar ekranda bölme az; perde erken kalkarsa kuyruğun sonu görünmez — önem sırası korunur).
 - **Ölçülmedi:** tam sitede yükleme süresine etkisi (worktree'de üretilmiş veri yok);
   push kapısının `denetle_yayin` sınavı sitenin açılışını koşturur.
