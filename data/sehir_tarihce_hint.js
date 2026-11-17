@@ -5413,8 +5413,8 @@ window.SEHIR_TARIHCE_HINT = [
   "id": "sagar-in-p3o",
   "ad": "Sagar",
   "atlas_ad": null,
-  "lat": 14.165,
-  "lon": 75.029,
+  "lat": 23.839,
+  "lon": 78.739,
   "kat1900": 3,
   "adlar": [
    "Sagar"
@@ -5441,7 +5441,7 @@ window.SEHIR_TARIHCE_HINT = [
    }
   ],
   "olay": [],
-  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi.  Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01."
+  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi.  Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01. | KOORD düzeltildi (17 Kasım): önceki koordinat aynı adlı başka yer; GeoNames 'Sagar' PPL pop 274556, Madhya Pradesh (1900 Saugor)"
  },
  {
   "id": "saharanpur-in-p3o",
@@ -5690,8 +5690,8 @@ window.SEHIR_TARIHCE_HINT = [
   "id": "shahjahanpur-in-p3o",
   "ad": "Shahjahanpur",
   "atlas_ad": null,
-  "lat": 27.9974,
-  "lon": 76.4491,
+  "lat": 27.882,
+  "lon": 79.909,
   "kat1900": 3,
   "adlar": [
    "Shahjahanpur"
@@ -5718,7 +5718,7 @@ window.SEHIR_TARIHCE_HINT = [
    }
   ],
   "olay": [],
-  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi. özne The city = madde konusu. Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01."
+  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi. özne The city = madde konusu. Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01. | KOORD düzeltildi (17 Kasım): önceki koordinat aynı adlı başka yer; GeoNames 'Shahjahanpur' PPL pop 320434, Uttar Pradesh"
  },
  {
   "id": "sikarpur-p6",

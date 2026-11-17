@@ -1,0 +1,9 @@
+dosya	id/ad	eski	onerilen	kaynak/not
+hint/LISTE.tsv	Chandrapur	22.6035,70.9590	19.951,79.295	GeoNames 'Chānda (Chandrapur)' PPL pop 328351, Maharashtra (17 Kasım 2026; ad çakışması: ilk eşleşme başka yer)
+hint/LISTE.tsv	Chhapra	20.9253,72.9289	25.78,84.747	GeoNames 'Chāpra' PPL pop 202352, Bihar (17 Kasım 2026; ad çakışması: ilk eşleşme başka yer)
+hint/LISTE.tsv	Sagar	14.1650,75.0290	23.839,78.739	GeoNames 'Sagar' PPL pop 274556, Madhya Pradesh (1900 Saugor) (17 Kasım 2026; ad çakışması: ilk eşleşme başka yer)
+hint/LISTE.tsv	Shahjahanpur	27.9974,76.4491	27.882,79.909	GeoNames 'Shahjahanpur' PPL pop 320434, Uttar Pradesh (17 Kasım 2026; ad çakışması: ilk eşleşme başka yer)
+F2-1117/hint_birlesik11.json (kayıt)	sagar-in-p3o	14.165,75.029	23.839,78.739	GeoNames 'Sagar' PPL pop 274556, Madhya Pradesh (1900 Saugor)
+F2-1117/hint_birlesik11.json (kayıt)	shahjahanpur-in-p3o	27.9974,76.4491	27.882,79.909	GeoNames 'Shahjahanpur' PPL pop 320434, Uttar Pradesh
+hint/LISTE.tsv	Pratapgarh	24.032,74.782	25.921,81.996 (GeoNames en kalabalık)	AD ÇAKIŞMASI: Rajasthan Pratapgarh (eski devlet merkezi) ↔ UP Pratapgarh (Oudh); 1900 listesinde hangisi? DÜZELTİLMEDİ
+hint/LISTE.tsv	Shahpur	32.268,72.469	26.154,68.650	AD ÇAKIŞMASI: Pencap Shahpur (Sargodha) ↔ Sind; DÜZELTİLMEDİ (Pencap doğru görünüyor)
