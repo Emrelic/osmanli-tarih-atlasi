@@ -13,3 +13,5 @@ hint 91 · orta_asya 44 · afrika_gb 104 şehir kaydı; `ad_kaynak` (çok dilli 
 3. Aşama 2 (ad eşdeğer): 8 şehir ad_kaynak'sız; 62 mevcut ad `adlar_kaynaksiz`.
 ## Kurallar
 Yalnız Sonnet; rapor = sayı + dal + engel; yeniden tarama/tekrar doğrulama yok; indirme izni: yalnız archive.org açık erişimli *_djvu.txt (Emre sohbetinde verdi).
+
+## Koordinat taraması sonucu (17 Kasım, GeoNames toplu): Afrika + Orta Asya LISTE ~680 satır tarandı (>8 km farkın hepsi elle incelendi): kesin hata YOK; yalnız Hanover (ZA) şüpheli (KOORD-HATA-1117.tsv). Hint: 4 hata düzeltildi. DSAL anahtar-kelime araması kuruluş cümlesi vermiyor (denendi: kullanma).
