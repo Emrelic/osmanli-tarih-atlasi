@@ -22,7 +22,7 @@ KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CIKTI = os.path.join(KOK, "data", "acilis_siluet.js")
 HB = os.path.join(KOK, "veri-kaynak", "historical-basemaps")
 PR = os.path.join(KOK, "veri-kaynak", "acilis-portre")
-SPRITE = os.path.join(KOK, "img", "acilis", "portreler.jpg")
+SPRITE = os.path.join(KOK, "img", "acilis", "portreler.webp")
 HB_URL = "https://raw.githubusercontent.com/aourednik/historical-basemaps/master/geojson/world_%s.geojson"
 UA = {"User-Agent": "tarih-atlasi-acilis/1.0 (egitim amacli statik site)"}
 
@@ -83,19 +83,99 @@ PORTRE = [
     ("buda",      "Buda",               "Gandhara Buddha (tnm).jpeg", "Kamu malı", "Gandhara heykeli (Tokyo Ulusal Müzesi)", (4.9, 1.3, .2)),
     ("konfucyus", "Konfüçyüs",          "Confucius Tang Dynasty.jpg", "Kamu malı", "Wu Daozi ardılı taş baskı", (4.5, 1.5, .36)),
     ("luther",    "Martin Luther",      "Lucas Cranach d.Ä. - Martin Luther, 1528 (Veste Coburg).jpg", "Kamu malı", "Lucas Cranach (Yaşlı)", (5.6, 3.4, .55)),
+    # Tarih duvarı (Emre, 17 Kas): milletlerin önemli kişileri — Hart, *The 100* yardımcı referans
+    ("mariaterezya", "Maria Theresia",  "Kaiserin Maria Theresia (HRR).jpg", "Kamu malı", "Martin van Meytens", (5.7, 2.6, .25)),
+    ("aristoteles", "Aristoteles",      "Aristotle Altemps Inv8575.jpg", "Kamu malı", "Lysippos ardılı", (5.0, 4.0, .55)),
+    ("kopernik",  "Kopernik",           "Nikolaus Kopernikus.jpg", "Kamu malı", "Toruń portresi", (4.6, 4.0, .5)),
+    ("abdulhamid2", "II. Abdülhamid",   "Sultan Abdul Hamid II of the Ottoman Empire.jpg", "Kamu malı", "", (5.0, 1.6, .25)),
+    ("osmangazi", "Osman Gazi",         "Osman Gazi2.jpg", "Kamu malı", "Kapıdağlı Konstantin", (5.1, 2.4, .28)),
+    ("yavuz",     "Yavuz Sultan Selim", "Yavuz Sultan Selim Han.jpg", "Kamu malı", "Kapıdağlı Konstantin", (4.8, 2.6, .3)),
+    ("selahaddin", "Selahaddin Eyyûbî", "Cristofano dell'Altissimo Saladin, Sultan von Aegypten.jpg", "Kamu malı", "Cristofano dell'Altissimo", (5.4, 4.6, .45)),
+    ("tutankamon", "Tutankamon maskesi", "CairoEgMuseumTaaMaskMostlyPhotographed.jpg", "Kamu malı", "", (4.9, 2.6, .5)),
+    ("nefertiti", "Nefertiti",          "Nofretete Neues Museum.jpg", "CC BY-SA 3.0", "Philip Pikart", (4.7, 3.5, .5)),
+    ("platon",    "Platon",             "Plato Silanion Musei Capitolini MC1377 (cropped).jpg", "Kamu malı", "", (4.6, 4.2, .7)),
+    ("homeros",   "Homeros",            "Homer British Museum.jpg", "Kamu malı", "", (4.9, 4.1, .7)),
+    ("michelangelo", "Michelangelo",    "Michelangelo Daniele da Volterra (dettaglio).jpg", "Kamu malı", "Daniele da Volterra", (5.0, 4.3, .55)),
+    ("galileo",   "Galileo",            "Justus Sustermans - Portrait of Galileo Galilei (Uffizi).jpg", "Kamu malı", "Justus Sustermans", (4.5, 3.4, .4)),
+    ("kolomb",    "Kristof Kolomb",     "Portrait of a Man, Said to be Christopher Columbus.jpg", "Kamu malı", "Sebastiano del Piombo", (5.0, 2.3, .35)),
+    ("newton",    "Isaac Newton",       "Portrait of Sir Isaac Newton, 1689 (brightened).jpg", "Kamu malı", "Godfrey Kneller", (5.0, 2.2, .42)),
+    ("darwin",    "Charles Darwin",     "Charles Darwin by Julia Margaret Cameron, c. 1868.jpg", "Kamu malı", "Julia Margaret Cameron", (4.0, 2.0, .4)),
+    ("sarlman",   "Şarlman",            "Albrecht Dürer - Emperor Charlemagne.jpg", "Kamu malı", "Albrecht Dürer", (5.0, 2.2, .35)),
+    ("pasteur",   "Louis Pasteur",      "Louis Pasteur, foto av Paul Nadar, Crisco edit.jpg", "Kamu malı", "Paul Nadar", (4.9, 2.0, .35)),
+    ("voltaire",  "Voltaire",           "Atelier de Nicolas de Largillière, portrait de Voltaire, détail (musée Carnavalet) -002.jpg", "Kamu malı", "Largillière atölyesi", (4.7, 3.6, .5)),
+    ("descartes", "Descartes",          "Frans Hals, Portrait of René Descartes.jpg", "Kamu malı", "Frans Hals", (4.6, 3.4, .5)),
+    ("gutenberg", "Gutenberg",          "Johannes Gutenberg.jpg", "Kamu malı", "", (5.4, 2.4, .45)),
+    ("beethoven", "Beethoven",          "Beethoven.jpg", "Kamu malı", "Joseph Karl Stieler", (4.5, 2.8, .45)),
+    ("bach",      "Bach",               "Johann Sebastian Bach.jpg", "Kamu malı", "Elias Gottlob Haussmann", (4.4, 2.4, .42)),
+    ("mozart",    "Mozart",             "Barbara Krafft - Porträt Wolfgang Amadeus Mozart (1819).jpg", "Kamu malı", "Barbara Krafft", (5.2, 3.4, .45)),
+    ("tolstoy",   "Tolstoy",            "L.N.Tolstoy Prokudin-Gorsky.jpg", "Kamu malı", "Prokudin-Gorski", (5.6, 2.8, .2)),
+    ("rembrandt", "Rembrandt",          "Rembrandt van Rijn - Self-Portrait - Google Art Project.jpg", "Kamu malı", "Rembrandt (otoportre)", (4.5, 2.9, .4)),
+    ("jefferson", "Jefferson",          "Official Presidential portrait of Thomas Jefferson (by Rembrandt Peale, 1800).jpg", "Kamu malı", "Rembrandt Peale", (5.2, 3.0, .4)),
+    ("edison",    "Edison",             "Thomas Edison2.jpg", "Kamu malı", "", (5.0, 1.6, .3)),
+    ("meiji",     "İmparator Meiji",    "Mutsuhito-Emperor-Meiji-1873.png", "Kamu malı", "Uchida Kuichi", (5.8, 2.2, .15)),
+    ("gustavadolf", "Gustav Adolf",     "Attributed to Jacob Hoefnagel - Gustavus Adolphus, King of Sweden 1611-1632 - Google Art Project.jpg", "Kamu malı", "Jacob Hoefnagel (atf.)", (4.6, 2.8, .45)),
+    ("hannibal",  "Hannibal",           "Hannibal Barca bust from Capua photo.jpg", "Kamu malı", "", (5.0, 2.2, .45)),
+    ("mansamusa", "Mansa Musa",         "Catalan Atlas BNF Sheet 6 Mansa Musa (cropped).jpg", "Kamu malı", "Katalan Atlası (1375)", (5.8, 2.2, .5)),
+    ("kossuth",   "Kossuth Lajos",      "Kossuth Lajos Barabás.jpg", "Kamu malı", "Barabás Miklós", (4.9, 2.8, .45)),
+    ("sanmartin", "San Martín",         "José de San Martín (retrato, c.1828).jpg", "Kamu malı", "", (5.6, 2.8, .45)),
+    ("bolivar",   "Simón Bolívar",      "José Gil de Castro - Simón Bolívar - Google Art Project.jpg", "Kamu malı", "José Gil de Castro", (5.4, 2.6, .45)),
+    ("abdulkadir", "Emir Abdülkadir",   "Abd al-Qadir.jpg", "Kamu malı", "Étienne Carjat", (5.2, 3.0, .45)),
 ]
-# Haritaya bağlı olmayan kişiler: kendi yerinden (boylam, enlem) fırlar. Önem sırasında
-# tarihî dalganın ilk beş haritasından sonra gelir.
-YALNIZ = [  # (anahtar, ad, boylam, enlem, kişiler)
-    ("din-muh", "Hz. Muhammed", 39.6, 24.5, ["muhammed"]),
-    ("din-isa", "Hz. İsa", 35.2, 31.8, ["isa"]),
-    ("din-musa", "Hz. Musa", 33.97, 28.54, ["musa"]),
-    ("din-buda", "Buda", 85.0, 24.7, ["buda"]),
-    ("din-konf", "Konfüçyüs", 117.0, 35.6, ["konfucyus"]),
-    ("din-luth", "Martin Luther", 12.65, 51.87, ["luther"]),
+# ── MİLLETLER (Emre, 17 Kas 2026: "dünya tarihinde en önemli milletler, devletler; her
+# birinin en önemli simge, bayrak, harita, kişileri — bugünkü dünyada en çok ülkeye ve
+# nüfusa hitap edecek pragmatik bir liste"). SIRA = ÖNEM. Karo anahtarı:
+#   h:<harita>  (BUGUN/TARIH anahtarı; bayrağı/simgesi üstünde)   k:<portre>   s:<amblem>
+# Her milletin ilk 3 karosu her açılışta aynı sırada; kalanı açılışta karışır (kurucu).
+# Kişi seçiminde yardımcı referans: M. H. Hart, *The 100* (1992) — popüler kitap, yalnız
+# "kimler etkili" sorusuna yön verir; atlas verisi değildir.
+MILLETLER = [  # (ad, boylam, enlem, karolar)
+    ("Türk", 35.0, 39.0, ["h:TUR", "h:osm", "k:ataturk", "k:fatih", "k:kanuni", "s:osmarma", "k:abdulhamid2",
+                          "h:sel", "k:osmangazi", "k:yavuz", "h:gok", "h:hun"]),
+    ("Roma · İtalya", 12.5, 41.9, ["h:rom", "h:ITA", "k:sezar", "k:augustus", "k:leonardo", "k:michelangelo",
+                                   "k:galileo", "k:traianus", "k:hadrianus", "k:marcus", "k:konstantin", "k:garibaldi", "k:kolomb"]),
+    ("Arap · İslâm", 39.6, 24.5, ["k:muhammed", "h:SAU", "h:eme", "h:abb", "k:selahaddin"]),
+    ("İngiliz", -1.5, 52.5, ["h:GBR", "h:ing", "k:elizabeth", "k:shakespeare", "k:newton", "k:victoria", "k:darwin"]),
+    ("Fransız", 2.3, 47.0, ["h:FRA", "k:napolyon", "h:fra", "k:louis14", "k:jeanne", "h:krl", "k:sarlman",
+                            "k:pasteur", "k:voltaire", "k:descartes"]),
+    ("Çin", 116.0, 35.0, ["h:CHN", "k:qin", "k:konfucyus", "h:qng", "h:han", "h:tng", "k:kangxi", "k:laotzu"]),
+    ("İran", 53.0, 32.5, ["h:IRN", "h:per", "k:ismail", "h:saf", "k:abbas", "s:faravahar", "h:sas"]),
+    ("Alman", 10.4, 51.2, ["h:DEU", "h:alm", "k:friedrich", "k:luther", "k:bismarck", "k:gutenberg",
+                           "k:beethoven", "k:bach"]),
+    ("Rus", 37.6, 55.7, ["h:RUS", "h:rus", "k:petro", "k:katerina", "h:kie", "k:tolstoy"]),
+    ("Hint", 78.0, 22.0, ["h:IND", "k:gandi", "h:mau", "k:buda", "h:bab", "k:ekber"]),
+    ("Mısır", 31.2, 27.0, ["h:EGY", "h:mis", "k:ramses", "k:kleopatra", "k:tutankamon", "k:nefertiti"]),
+    ("Yunan", 22.0, 39.0, ["h:GRC", "h:isk", "k:iskender", "k:aristoteles", "k:platon", "k:homeros"]),
+    ("Moğol", 105.0, 47.0, ["h:mog", "k:cengiz", "s:MNG", "k:kubilay", "h:alt", "h:tim"]),
+    ("Bizans", 29.0, 41.0, ["h:biz", "k:justinianus", "k:isa", "k:theodora"]),
+    ("İspanyol", -3.7, 40.4, ["h:ESP", "h:isp", "k:isabel", "k:felipe2"]),
+    ("Amerikan", -98.0, 39.0, ["h:USA", "k:washington", "k:lincoln", "k:jefferson", "k:edison"]),
+    ("Japon", 138.0, 36.0, ["h:JPN", "k:ieyasu", "s:krizantem", "k:nobunaga", "k:meiji"]),
+    ("İbrânî", 33.97, 28.54, ["k:musa"]),
+    ("Portekiz", -8.0, 39.6, ["h:por", "k:henrique", "k:vasco"]),
+    ("Hollanda", 5.3, 52.1, ["h:hol", "s:NLD", "k:rembrandt"]),
+    ("Avusturya", 16.4, 48.2, ["h:avm", "k:mariaterezya", "k:mozart"]),
+    ("Leh", 21.0, 52.2, ["h:leh", "k:kopernik", "s:POL"]),
+    ("Macar", 19.0, 47.5, ["s:HUN", "k:kossuth"]),
+    ("İsveç", 18.0, 59.3, ["h:isv", "k:gustavadolf"]),
+    ("Meksika", -99.1, 19.4, ["h:MEX", "h:azt", "k:juarez", "k:zapata"]),
+    ("Brezilya", -47.9, -15.8, ["h:BRA", "k:pedro2"]),
+    ("Arjantin", -58.4, -34.6, ["s:ARG", "k:sanmartin"]),
+    ("Venezuela · Kolombiya", -66.9, 10.5, ["k:bolivar", "s:VEN", "s:COL"]),
+    ("Peru", -72.0, -13.5, ["h:ink", "s:PER"]),
+    ("Kanada", -75.7, 45.4, ["s:CAN"]),
+    ("Kore", 127.0, 37.5, ["s:KOR"]),
+    ("Cezayir", 3.0, 36.7, ["s:DZA", "k:abdulkadir"]),
+    ("Habeş", 38.7, 9.0, ["s:ETH", "k:menelik"]),
+    ("Güney Afrika", 28.0, -26.0, ["s:ZAF"]),
+    ("Kartaca", 10.3, 36.85, ["h:kar", "k:hannibal"]),
+    ("Batı Afrika", -8.0, 13.0, ["k:mansamusa", "h:mal", "h:son"]),
+    ("Türk dünyası", 69.0, 41.0, ["s:AZE", "s:KAZ", "s:UZB", "s:TKM", "s:KGZ"]),
+    ("Güneydoğu Asya", 106.0, 0.0, ["s:IDN", "h:khm", "s:VNM", "s:PHL"]),
+    ("Güney Asya", 75.0, 28.0, ["s:PAK", "s:BGD"]),
+    ("Nijerya", 7.5, 9.1, ["s:NGA"]),
 ]
-HUCRE, SUTUN = 96, 8
-HUCRE_Y = 128          # dikey 3:4 portre (Emre, 17 Kas: dört köşe resim, tam sığsın)
+HUCRE, SUTUN = 120, 8
+HUCRE_Y = 160          # dikey 3:4 portre (Emre, 17 Kas: dört köşe resim, tam sığsın)
 GENIS = 1.9            # yüz karesinden baş+omuz penceresine büyütme
 
 # ── AMBLEMLER (Emre, 17 Kas: "amblemler, çeşitli tarihî semboller") ─────────────
@@ -139,10 +219,44 @@ AMBLEM = [
     ("por", "Portekiz bayrağı (1707)", "Flag of Portugal (1707).svg", "Kamu malı", ""),
     ("hol", "VOC damgası", "VOC.svg", "Kamu malı", ""),
     ("mau", "Aşoka aslan başlığı", "Emblem of India.svg", "Kamu malı", ""),
+    # Tarih duvarı (Emre, 17 Kas): bugünkü harita bayrakları + tek başına simge karoları
+    ("GRC", "Yunanistan bayrağı", "Flag of Greece.svg", "Kamu malı", ""),
+    ("IRN", "İran bayrağı", "Flag of Iran.svg", "Kamu malı", ""),
+    ("SAU", "Suudi Arabistan bayrağı", "Flag of Saudi Arabia.svg", "Kamu malı", ""),
+    ("osmarma", "Osmanlı arması", "Coat of arms of the Ottoman Empire (1882–1922).svg", "Kamu malı", ""),
+    ("faravahar", "Faravahar", "Faravahar-Gold.svg", "Kamu malı", ""),
+    ("krizantem", "Krizantem mührü", "Imperial Seal of Japan.svg", "Kamu malı", ""),
+    ("MNG", "Moğolistan", "Flag of Mongolia.svg", "Kamu malı", ""),
+    ("NLD", "Hollanda", "Flag of the Netherlands.svg", "Kamu malı", ""),
+    ("POL", "Polonya", "Flag of Poland.svg", "Kamu malı", ""),
+    ("HUN", "Macaristan", "Flag of Hungary.svg", "Kamu malı", ""),
+    ("ARG", "Arjantin", "Flag of Argentina.svg", "Kamu malı", ""),
+    ("VEN", "Venezuela", "Flag of Venezuela.svg", "Kamu malı", ""),
+    ("COL", "Kolombiya", "Flag of Colombia.svg", "Kamu malı", ""),
+    ("PER", "Peru", "Flag of Peru.svg", "Kamu malı", ""),
+    ("CAN", "Kanada", "Flag of Canada (Pantone).svg", "Kamu malı", ""),
+    ("KOR", "Kore", "Flag of South Korea.svg", "Kamu malı", ""),
+    ("DZA", "Cezayir", "Flag of Algeria.svg", "Kamu malı", ""),
+    ("ETH", "Habeşistan", "Flag of Ethiopia.svg", "Kamu malı", ""),
+    ("ZAF", "Güney Afrika", "Flag of South Africa.svg", "Kamu malı", ""),
+    ("AZE", "Azerbaycan", "Flag of Azerbaijan.svg", "Kamu malı", ""),
+    ("KAZ", "Kazakistan", "Flag of Kazakhstan.svg", "Kamu malı", ""),
+    ("UZB", "Özbekistan", "Flag of Uzbekistan.svg", "Kamu malı", ""),
+    ("TKM", "Türkmenistan", "Flag of Turkmenistan.svg", "Kamu malı", ""),
+    ("KGZ", "Kırgızistan", "Flag of Kyrgyzstan.svg", "Kamu malı", ""),
+    ("IDN", "Endonezya", "Flag of Indonesia.svg", "Kamu malı", ""),
+    ("PAK", "Pakistan", "Flag of Pakistan.svg", "Kamu malı", ""),
+    ("BGD", "Bangladeş", "Flag of Bangladesh.svg", "Kamu malı", ""),
+    ("NGA", "Nijerya", "Flag of Nigeria.svg", "Kamu malı", ""),
+    ("VNM", "Vietnam", "Flag of Vietnam.svg", "Kamu malı", ""),
+    ("PHL", "Filipinler", "Flag of the Philippines.svg", "Kamu malı", ""),
 ]
 AM = os.path.join(KOK, "veri-kaynak", "acilis-amblem")
 ASPRITE = os.path.join(KOK, "img", "acilis", "amblemler.webp")
-AHUCRE = 96
+AHUCRE = 128          # duvarda vitrin büyütmesi (2,3×) bulanık olmasın
+# --indirme-yok: önbellekte olmayan amblem indirilmez, karosu atlanır (Commons 429 verirken
+# sınama için; yayın üretiminde KULLANILMAZ — eksikler uyarıyla yazılır)
+INDIRME_YOK = "--indirme-yok" in sys.argv
 ALTIN = {"osm", "mis", "hol", "mau"}   # siyah tek renk çizim → altın
 PARSOMEN = {"alm", "rus"}                     # koyu ama renkli → parşömen yuvarlak üstünde
 
@@ -166,6 +280,9 @@ BUGUN = [  # (anahtar, ADM0_A3, ad, renk, kişiler)
     ("MEX", "MEX", "Meksika",          "#1f8a70", ["juarez", "zapata"]),
     ("JPN", "JPN", "Japonya",          "#b03a48", ["ieyasu", "nobunaga"]),
     ("BRA", "BRA", "Brezilya",         "#2e8b57", ["pedro2"]),
+    ("GRC", "GRC", "Yunanistan",       "#2e6fb5", []),
+    ("IRN", "IRN", "İran",             "#1f8a70", []),
+    ("SAU", "SAU", "Suudi Arabistan",  "#2f6b3a", []),
 ]
 # (anahtar, ad, dilimler, eşleşme deseni (NAME/SUBJECTO/PARTOF tam eşleşme regex'i),
 #  renk, kişiler, dünya zemini mi, fırlama noktası (boylam, enlem) — dünya öğesinde ana yurt)
@@ -378,7 +495,7 @@ def portreler():
         y0 = min(max(y - gh * 0.40, 0), H - gh)
         c = im.crop((int(x0), int(y0), int(x0 + gw), int(y0 + gh))).resize((HUCRE, HUCRE_Y), Image.LANCZOS)
         tab.paste(c, ((i % SUTUN) * HUCRE, (i // SUTUN) * HUCRE_Y))
-    tab.save(SPRITE, quality=80, optimize=True, progressive=True)
+    tab.save(SPRITE, "WEBP", quality=74, method=6)   # 3:4 · 120×160 (vitrinde 2,3× büyür)
     print("portre tabakası: %d yüz, %d B" % (n, os.path.getsize(SPRITE)))
 
 
@@ -389,10 +506,14 @@ def amblemler():
     import urllib.parse
     os.makedirs(AM, exist_ok=True)
     n = len(AMBLEM)
+    eksik = set()
     tab = Image.new("RGBA", (SUTUN * AHUCRE, ((n + SUTUN - 1) // SUTUN) * AHUCRE), (0, 0, 0, 0))
     for i, (k, ad, dosya, lis, eser) in enumerate(AMBLEM):
         # Windows dosya adında büyük/küçük harf ayırmaz: "rus" ile "RUS" aynı dosyaya düşüyordu
         p = os.path.join(AM, k + ("-tarih" if k.islower() else "") + ".png")
+        if not os.path.exists(p) and INDIRME_YOK:   # Commons 429 verirken: hücre boş, karo atlanır
+            eksik.add(k)
+            continue
         if not os.path.exists(p):
             q = urllib.parse.urlencode({"action": "query", "format": "json", "prop": "imageinfo",
                                         "iiprop": "url|extmetadata", "iiurlwidth": 240, "titles": "File:" + dosya})
@@ -443,7 +564,9 @@ def amblemler():
         tab.alpha_composite(gt, (x0 - 3, y0 - 2))
         tab.alpha_composite(im, (x0, y0))
     tab.save(ASPRITE, "WEBP", quality=82, method=6)
-    print("amblem tabakası: %d amblem, %d B" % (n, os.path.getsize(ASPRITE)))
+    print("amblem tabakası: %d amblem, %d B%s" % (n - len(eksik), os.path.getsize(ASPRITE),
+                                                  (" · EKSİK (atlandı): " + " ".join(sorted(eksik))) if eksik else ""))
+    return eksik
 
 
 def ozet(yol):
@@ -490,10 +613,6 @@ def main():
             if galeri:
                 o["zemin"] = zm
         ogeler.append(o)
-        if k == "biz":   # dinî şahsiyetler: tarihî dalganın ilk beş haritasından sonra
-            for yk, yad, ylon, ylat, ykis in YALNIZ:
-                ogeler.append({"k": yk, "ad": yad, "yil": "", "lon": ylon, "lat": ylat, "dalga": 2,
-                               "yalniz": 1, "kisi": [PI[x] for x in ykis], "kaynak": "kişi kartı"})
         print("%-4s %-28s %-7s %6d B zemin %5d B %s" % (k, ad, o["yil"], len(o["yol"]), len(o.get("zemin", "")), "DÜNYA" if dunya else ""))
 
     kara_duz = dunya_yolu(kara, 4)       # dünya öğelerinin zemini (eşdikdörtgen)
@@ -504,8 +623,6 @@ def main():
     if galeri:
         hucre = []
         for o in ogeler:
-            if o.get("yalniz"):
-                continue
             if o.get("dunya"):
                 svg = "<svg viewBox='0 0 360 180' width='300'><path d='%s' fill='#3d5163'/><path d='%s' fill='%s' stroke='#fff' stroke-width='.6'/></svg>" % (kara_duz, o["yol"], o["renk"])
             elif o.get("zemin"):
@@ -521,22 +638,55 @@ def main():
         print("galeri:", galeri)
         return
 
-    AI = {a[0]: i for i, a in enumerate(AMBLEM)}
+    eksik_amb = amblemler()
+    portreler()
+    AI = {a[0]: i for i, a in enumerate(AMBLEM) if a[0] not in eksik_amb}
     for o in ogeler:
         if o["k"] in AI:
             o["amb"] = AI[o["k"]]
-    portreler()
-    amblemler()
+    # Tarih duvarı: millet → karolar (h: harita · k: kişi · s: simge)
+    H = {o["k"]: o for o in ogeler}
+    milletler, kullanilan = [], set()
+    for mad, mlon, mlat, karolar in MILLETLER:
+        m = {"ad": mad, "lon": mlon, "lat": mlat, "o": []}
+        for kr in karolar:
+            tur, ak = kr.split(":")
+            if tur == "h":
+                o = H[ak]
+                x = {"t": "h", "ad": o["ad"], "yil": o["yil"], "renk": o["renk"], "yol": o["yol"],
+                     "lon": round(o["lon"], 2), "lat": round(o["lat"], 2)}
+                if o.get("dunya"):
+                    x["dunya"] = 1
+                if "amb" in o:
+                    x["amb"] = o["amb"]
+            elif tur == "k":
+                if ak not in PI:
+                    print("UYARI portresi yok, karo atlandı:", ak)
+                    continue
+                x = {"t": "k", "i": PI[ak]}
+            else:
+                if ak not in AI:
+                    print("UYARI amblemi yok, karo atlandı:", ak)
+                    continue
+                x = {"t": "s", "i": AI[ak], "ad": AMBLEM[AI[ak]][1]}
+            if kr in kullanilan:
+                raise SystemExit("aynı karo iki kez: " + kr)
+            kullanilan.add(kr)
+            m["o"].append(x)
+        milletler.append(m)
+    bos_k = [p[0] for p in PORTRE if "k:" + p[0] not in kullanilan]
+    if bos_k:
+        print("UYARI duvarda olmayan portre:", bos_k)
     kisiler = [{"ad": p[1]} for p in PORTRE]
     blok = ("/* >>> VERI (uretildi: arac/acilis_uret.py) — ELLE DUZENLEME */\n"
             "window.ACILIS_SILUET = {\n"
             "  kure: " + js(kara_kure) + ",\n"
             "  kara: " + js(kara_duz) + ",\n"
-            "  portre: " + js({"url": "img/acilis/portreler.jpg?v=" + ozet(SPRITE),"hucre": HUCRE, "yuk": HUCRE_Y, "sutun": SUTUN}) + ",\n"
+            "  portre: " + js({"url": "img/acilis/portreler.webp?v=" + ozet(SPRITE), "hucre": HUCRE, "yuk": HUCRE_Y, "sutun": SUTUN}) + ",\n"
             "  kisiler: " + js(kisiler) + ",\n"
-            "  amblem: " + js({"url": "img/acilis/amblemler.webp?v=" + ozet(ASPRITE),"hucre": AHUCRE, "sutun": SUTUN}) + ",\n"
-            "  final: " + js(final) + ",\n"
-            "  ogeler: [\n" + ",\n".join("    " + js(o) for o in ogeler) + "\n  ]\n};\n"
+            "  amblem: " + js({"url": "img/acilis/amblemler.webp?v=" + ozet(ASPRITE), "hucre": AHUCRE, "sutun": SUTUN}) + ",\n"
+            "  final: " + js({k: final[k] for k in ("ad", "yil", "renk", "yol")}) + ",\n"
+            "  milletler: [\n" + ",\n".join("    " + js(m) for m in milletler) + "\n  ]\n};\n"
             "/* <<< VERI */")
     s = open(CIKTI, encoding="utf-8").read()
     desen = re.compile(r"/\* >>> VERI .*?/\* <<< VERI \*/", re.S)
@@ -544,7 +694,8 @@ def main():
         raise SystemExit("data/acilis_siluet.js'te VERI işaretleri yok")
     s = desen.sub(lambda m: blok, s)
     open(CIKTI, "w", encoding="utf-8", newline="\n").write(s)
-    print("%s yazıldı · %d öğe · %d kişi · %d B" % (CIKTI, len(ogeler), len(kisiler), len(s.encode("utf-8"))))
+    print("%s yazıldı · %d millet · %d karo · %d kişi · %d B" % (CIKTI, len(milletler), sum(len(m["o"]) for m in milletler),
+                                                               len(kisiler), len(s.encode("utf-8"))))
 
 
 main()

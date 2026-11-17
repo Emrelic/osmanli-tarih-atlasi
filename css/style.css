@@ -3523,24 +3523,25 @@ html.acilis-js::after, html.acilis-js body::before { display: none; }
   /* filter: drop-shadow YOK — uçan katmanda her kare yeniden hesaplanıyor,
      ölçüldü: atlas-hazir'ı ~2 sn geciktirdi. Gölge SVG'nin içine gömülü. */
 }
-/* Ülkesinin ÜSTÜNDEN fırlar (küre z 2'nin önünde); hedefler küre dışında olduğu
-   için yere inen öğe küreyi örtmez. */
-#acilis .acilis-sil, #acilis .acilis-kisi { z-index: 4; }
-/* Amblem rozeti: haritanın köşesinde, haritanın üstünde (gölge tabakaya gömülü) */
-#acilis .acilis-amb {
-  position: absolute; z-index: 5; opacity: 0; will-change: transform, opacity;
-  background-repeat: no-repeat;
+/* TARİH DUVARI karosu: harita (+ üstünde bayrak/simge) · portre · simge. Karo VİTRİN
+   boyutunda kurulur, bölmede 1/ZOOM ölçekte durur: katman büyük çizilip küçültülür,
+   vitrinde (büyükken) bulanık olmaz. Ülkesinin ÜSTÜNDEN fırlar (küre z 2'nin önünde). */
+#acilis .acilis-karo {
+  position: absolute; z-index: 4; opacity: 0; will-change: transform, opacity;
+  text-align: center;
 }
-#acilis .acilis-kisi { text-align: center; }
+#acilis .acilis-karo img { display: block; }
+#acilis .acilis-karo i { display: block; margin: 0 auto; background-repeat: no-repeat; }
+#acilis .acilis-karo .acilis-ust { position: absolute; margin: 0; }
 #acilis .acilis-yuz {
   /* Emre, 17 Kas: kişiler yuvarlak değil DÖRT KÖŞE resim (fotoğraf baskısı gibi) */
-  /* çerçeve box-shadow: border resmi kenardan kırpıp 2 px kaydırıyordu */
-  border-radius: 2px; background-color: #2a2a2a; background-repeat: no-repeat;
-  box-shadow: 0 0 0 2px #efe6d2, 0 3px 7px 2px rgba(0,0,0,.55);
+  border-radius: .2em; background-color: #2a2a2a;
+  box-shadow: 0 0 0 .2em #efe6d2, 0 .3em .7em .2em rgba(0,0,0,.55);
 }
-#acilis .acilis-kisi span {
-  display: block; margin: 2px -30px 0; color: #f3ead7; white-space: nowrap;
-  font: 600 10.5px/1.2 Georgia, "Times New Roman", serif; text-shadow: 0 1px 2px #000, 0 0 4px #000;
+#acilis .acilis-karo span {
+  display: block; margin: .25em -2em 0; color: #f3ead7; white-space: nowrap;
+  font-weight: 600; font-family: Georgia, "Times New Roman", serif; line-height: 1.15;
+  text-shadow: 0 .1em .2em #000, 0 0 .4em #000;
 }
 #acilis .acilis-kivilcim {
   position: absolute; z-index: 3; width: 28px; height: 28px; border-radius: 50%;
