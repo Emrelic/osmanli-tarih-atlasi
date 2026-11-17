@@ -78,7 +78,7 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
     "tanik": "It became the capital of the former colony of French Sudan in 1908"
    }
   ],
-  "ic_not": "TEK KAYNAK (Britannica); çift teyit yok. Gün yok, yıl hassasiyeti. Zincir (sahip) YAZILMADI: kaynak 'şu yer şu devletin' biçiminde sahip/dönem günü vermiyor. Nicelik ilk_anilis: 1880 yıllı en erken tanıktır, şehrin kuruluşu değildir (Britannica 'a settlement of a few hundred inhabitants' der)."
+  "ic_not": "HAKEMLİ KARAR (LAB, 17 Kasım 2026): Hakemli karar: Britannica 1880 (Gallieni, 'occupied'); Columbia 1883 işgal; Universalis (F. Bost) 'arrivée des Français en 1883'. Gallieni'nin kendi anlatısı (Voyage au Soudan français, Hachette 1885): heyet Mayıs 1880'de Bamako'ya vardı, soğuk karşılandı, ~24 saat kaldı; işgal yok. Seçim: 1880 = ilk Fransız teması (Gallieni heyeti); 1883 = askerî işgal (Columbia + Universalis). İki ayrı olgu, çelişki yok; Britannica'nın 'occupied' ifadesi 1880 için gevşek. 1 Şubat 1883 işgal günü bu turda akademik kaynakla doğrulanmadı. || TEK KAYNAK (Britannica); çift teyit yok. Gün yok, yıl hassasiyeti. Zincir (sahip) YAZILMADI: kaynak 'şu yer şu devletin' biçiminde sahip/dönem günü vermiyor. Nicelik ilk_anilis: 1880 yıllı en erken tanıktır, şehrin kuruluşu değildir (Britannica 'a settlement of a few hundred inhabitants' der)."
  },
  {
   "id": "bangui-p10",
@@ -521,7 +521,7 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
     "tanik": "It again served as the capital of Cameroon in 1940–46"
    }
   ],
-  "ic_not": "TEK KAYNAK (Britannica); çift teyit yok. Gün yok, yıl hassasiyeti. 1884 = başkentlik başlangıcı (en erken yıllı tanık), kuruluş yılı değil."
+  "ic_not": "HAKEMLİ KARAR (LAB, 17 Kasım 2026): Hakemli karar: 1884 = Alman–Duala antlaşmaları/Kamerun koruyuculuğu (Britannica, Columbia, Universalis R. Pourtier). Başkentlik: Britannica 1884-1902; Oxford 1885-1901; Universalis Kamerunstadt başkent, 1901'de Douala adı, Buea 1901-1909. Seçim: ilk_anılış 1884 kalır (protektora yılı); başkentlik başlangıcı 1884/1885 teyitsiz (beyan); başkentlik bitişi kullanılacaksa 1901 (Oxford + Universalis; Britannica 1902 tek yayıncı). || TEK KAYNAK (Britannica); çift teyit yok. Gün yok, yıl hassasiyeti. 1884 = başkentlik başlangıcı (en erken yıllı tanık), kuruluş yılı değil."
  },
  {
   "id": "enugu-p9",
@@ -810,6 +810,42 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
   "ic_not": "ÇİFT TEYİT (LAB, 17 Kasım 2026; Britannica/ilk kaynaktan bağımsız ikinci kaynak): Oxford World Encyclopedia, «Harare», https://www.encyclopedia.com/places/africa/zimbabwe-political-geography/harare; includes() 17 Kas 2026 | tanık 2: \"Settled by Europeans in 1890 as Fort Salisbury\" | 1890 aynı (Britannica 'founded in 1890 ... Pioneer Column') || İLK KAYNAK (Britannica); çift teyit yok. Gün yok, yıl hassasiyeti. Tanık 'The city was founded in 1890 ... halted' (ilk 18 kelime; kısaltıldı). SAHİP/DİKİŞ: ingiliz-guney-rodezya 1890-01-01 → 1890-09-12 (atlas başlangıcı): gün kaynakta yok, atlas başlangıcına ≤1 yıl uzatıldı; kaynak yılı esas, 'f'/'t' kaynağın yıl ucudur, atlas başlangıcı kaynak değildir."
  },
  {
+  "id": "hwange-p13",
+  "ad": "Hwange",
+  "atlas_ad": null,
+  "lat": -18.36446,
+  "lon": 26.49877,
+  "kat1900": null,
+  "adlar": [
+   "Wankie",
+   "Hwange"
+  ],
+  "ilk": {
+   "t": "1903-01-01",
+   "gun": "1903",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "The Columbia Encyclopedia, 6th ed., 'Hwange' (Columbia University Press), encyclopedia.com/reference/encyclopedias-almanacs-transcripts-and-maps/hwange (tarayici fetch + includes(), 17 Kasim 2026)",
+   "tanik": "The city was founded in 1903 and named for a local chief."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1903-01-01",
+    "gun": "1903",
+    "k": "diger",
+    "b": "Hwange (eski adi Wankie) kuruldu; yerel bir sefin adini tasir",
+    "kesinlik": "yil",
+    "kaynak": "The Columbia Encyclopedia, 6th ed., 'Hwange' (Columbia University Press), encyclopedia.com/reference/encyclopedias-almanacs-transcripts-and-maps/hwange (tarayici fetch + includes(), 17 Kasim 2026)",
+    "tanik": "The city was founded in 1903 and named for a local chief."
+   }
+  ],
+  "ic_not": "IKI KAYNAK, DEGER UYUSMUYOR (cift teyit DEGIL). (1) Columbia 6th ed. 'Hwange': 'The city was founded in 1903 and named for a local chief.' (ozne 'the city' = madde basligi Hwange; ad ayni cumlede yok, madde basligi zamir gibi kabul edildi). (2) Encyclopaedia Britannica 'Hwange' (britannica.com/place/Hwange; includes() 17 Kasim 2026): 'It was founded about 1900 after the discovery of coal in the vicinity and was named for a local chief, Whanga' (ozne zamiri 'It'). Fark 1903 / 'about 1900': Britannica yaklasik ('about'), Columbia kesin yil verir; bagimsiz iki kaynak AYNI yili vermedigi icin hakemli karar kurali geregi kesin yil (Columbia 1903) secildi, Britannica'nin 'about 1900'u celiski degil yaklasiklik sayildi ve beyan edildi; en erken muhtemel tarih 1900 (zincir/atlas siniri 1900-01-01'e ters dusmez). BAGIMSIZLIK OLCUMU: ayri yayincilar (Columbia Univ. Press / Encyclopaedia Britannica Inc.); cumleler farkli (Columbia 'city...1903...named', Britannica 'about 1900 ... coal ... Whanga'); ikisi de kaynakcasiz madde, ortak dayanak gosterilmemis, kopya kanitina rastlanmadi; ancak kaynakcasizlik nedeniyle ortak soy kesin elenemez (bagimsizlik 'kopya kaniti yok' duzeyindedir). Gun yok, yil hassasiyeti. Atlas noktasi yok; ilk.t >= 1900 oldugu icin sahip zinciri yazilmadi (1903 sonrasi sahip kaynakta yok)."
+ },
+ {
   "id": "ibadan-p10",
   "ad": "Ibadan",
   "atlas_ad": null,
@@ -866,7 +902,7 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
     "tanik": "The British colonial government assumed control of the city in 1893"
    }
   ],
-  "ic_not": "TEK KAYNAK (Britannica); çift teyit yok (Encyclopedia.com Ibadan sayfasında yıllı cümle okunamadı; UNESCO/Persée/Cambridge bu şehir için bulunmadı). Gün yok, yıl hassasiyeti. Tanık cümlesinde özne zamir/ad-gösterme = madde konusu; başlık şehir (koordinatör kararı, parti 9 ile aynı). Tanık 1: 'Recorded history begins in 1829' (şehir adı cümlede yok; madde başlığı Ibadan). 1829 'kayıtlı tarihin başlangıcı'dır, kuruluş günü değil: nicelik ilk_anilis. Tanık 2 (1893): 'The British colonial government assumed control of the city in 1893' (özne 'the city'). SAHİP ZİNCİRİ BEYANLI: 1829→1893 'ibadan' ve 1893→1900 'ingiliz-nijerya' kaynak cümlesinde devlet adı yoktur; yalnız iki YIL kaynaklıdır (1829 başlangıç, 1893 İngiliz denetimi); 'ibadan' id'si atlas künyesidir (devletler.js: f 1829-01-01, t 1893-08-15), dayanak sayılmaz. 1900-01-01 yalnız atlas yokluğu bağıdır (kaynak değil). Britannica ayrıca 1901 Lagos demiryolu, 1912 Kano hattı, 1948 üniversite der (zincirde değil)."
+  "ic_not": "HAKEMLİ KARAR (LAB, 17 Kasım 2026): Hakem notu (17 Kas 2026): Columbia/Oxford 'established in the 1830s' (ortak soy, tek sayıldı) ≠ Britannica 'recorded history begins in 1829'. Fark yuvarlama ve olgu (kuruluş vs kayıtlı tarih) farkıdır; Johnson (History of the Yorubas, 1921) Egbaların Ibadan'dan Abeokuta'ya çıkışını 'about 1830' verir, yani yerleşim 1830'dan öncedir: 1829 ile uyumlu, 1830'larla çelişmez. Yıl için ikinci bağımsız yıl tanığı bulunamadı; 1829 kalır (kesinlik yıl, nicelik ilk_anilis). || TEK KAYNAK (Britannica); çift teyit yok (Encyclopedia.com Ibadan sayfasında yıllı cümle okunamadı; UNESCO/Persée/Cambridge bu şehir için bulunmadı). Gün yok, yıl hassasiyeti. Tanık cümlesinde özne zamir/ad-gösterme = madde konusu; başlık şehir (koordinatör kararı, parti 9 ile aynı). Tanık 1: 'Recorded history begins in 1829' (şehir adı cümlede yok; madde başlığı Ibadan). 1829 'kayıtlı tarihin başlangıcı'dır, kuruluş günü değil: nicelik ilk_anilis. Tanık 2 (1893): 'The British colonial government assumed control of the city in 1893' (özne 'the city'). SAHİP ZİNCİRİ BEYANLI: 1829→1893 'ibadan' ve 1893→1900 'ingiliz-nijerya' kaynak cümlesinde devlet adı yoktur; yalnız iki YIL kaynaklıdır (1829 başlangıç, 1893 İngiliz denetimi); 'ibadan' id'si atlas künyesidir (devletler.js: f 1829-01-01, t 1893-08-15), dayanak sayılmaz. 1900-01-01 yalnız atlas yokluğu bağıdır (kaynak değil). Britannica ayrıca 1901 Lagos demiryolu, 1912 Kano hattı, 1948 üniversite der (zincirde değil)."
  },
  {
   "id": "kano-ng",
@@ -933,6 +969,41 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
   "sahip": [],
   "olay": [],
   "ic_not": "TEK KAYNAK (UNESCO). Kaynak Torwa hanedanının doğuşunu 1450-1650 ARALIĞINDA verir; güvenli uç (aralığın SON ucu, 1650) alındı. Aynı UNESCO sayfası 'Büyük Zimbabve başkenti 16. yy ortasında terk edildikten sonra gelişti' de der (iç tutarsızlık, yüzyıl). Atlas Khami'yi 1450-01-01'de 'torva' ile başlatır: bu kaynakla 1450 YALNIZ aralığın başı olarak desteklenir, gün/yıl tanığı değildir. Zincir yazılmadı (1650 ≥ atlas başlangıcı). Terk: '19. yüzyıl Ndebele akınları' yalnız yüzyıl — yazılmadı."
+ },
+ {
+  "id": "kikwit-p13",
+  "ad": "Kikwit",
+  "atlas_ad": "Kikwit",
+  "lat": -5.04098,
+  "lon": 18.81619,
+  "kat1900": null,
+  "adlar": [
+   "Kikwit"
+  ],
+  "ilk": {
+   "t": "1901-01-01",
+   "gun": "1901",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Kikwit' (Britannica editorleri), https://www.britannica.com/place/Kikwit (tarayici fetch + includes(), 17 Kasim 2026)",
+   "tanik": "European settlement of the site began in 1901"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1901-01-01",
+    "gun": "1901",
+    "k": "diger",
+    "b": "Kikwit yerinde Avrupali yerlesim basladi",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, 'Kikwit' (Britannica editorleri), https://www.britannica.com/place/Kikwit (tarayici fetch + includes(), 17 Kasim 2026)",
+    "tanik": "European settlement of the site began in 1901"
+   }
+  ],
+  "ic_not": "TEK KAYNAK (Britannica); cift teyit YOK: Columbia/Oxford/Universalis/encyclopedia.com'da Kikwit maddesi bulunamadi (slug taramasi bos). Tanik cumlesinde sehir adi yok, 'the site' madde basligi Kikwit'in yeridir (madde basligi ozne kabulu, beyan). Yil, Avrupali yerlesimin baslangicidir; sehrin kurulus gunu degil, nicelik ilk_anilis. Ayni maddede 'colonial administrative centre about 1910' yaklasik oldugu icin yazilmadi. ATLAS: atlas Kikwit'i 1896-01-01'de kongo-serbest-devleti ile baslatiyor; bu kaynak 1901 verir, 1896 DOGRULANAMADI (atlas baslangici kaynaksiz, KASA'ya bildirilir). Sahip zinciri yazilmadi: kaynakta sahip bilgisi yok."
  },
  {
   "id": "konakri-af-p9",
@@ -1110,7 +1181,7 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
     "tanik": "which from 1888 to 1904 was the capital of French Equatorial Africa"
    }
   ],
-  "ic_not": "TEK KAYNAK (Britannica); çift teyit yok. Gün yok, yıl hassasiyeti. Tanık cümlesi 15 kelimeye kısaltıldı; devamı: '... and a group of Pongoue villages were given the name Libreville (meaning “free town”)'. Aynı maddede Fort-d'Aumale 1843 (kale; şehir adı verilmiyor, yazılmadı). 1888-1904 Fransız Ekvator Afrikası başkenti. SAHİP/DİKİŞ: fransa-cumhuriyet 1849-01-01 → 1849-08-17 (atlas başlangıcı): gün kaynakta yok, atlas başlangıcına ≤1 yıl uzatıldı; kaynak yılı esas, 'f'/'t' kaynağın yıl ucudur, atlas başlangıcı kaynak değildir."
+  "ic_not": "HAKEMLİ KARAR (LAB, 17 Kasım 2026): Hakemli karar: 'Libreville'in 1849 tarihi şehrin kuruluşunu değil adlandırma/özgür köle iskânını tarihler. Kaynaklar: Britannica Libreville 1849 (Elizia gemisinden kurtarılanların yerleşimi); Columbia Encyclopedia 6th ed. 'founded in 1843 as a French trading station'; Oxford World Encyclopedia 'Founded by the French in 1843, named Libreville in 1849'; Universalis (R. Pourtier) Fort-d'Aumale antlaşması 1842, 'Libreville' adı 1850; Britannica Gabon tarihi: fort 1842 sonrası. Seçim: kuruluş (Fort d'Aumale/ticaret istasyonu) 1843; ad+iskân 1849 (Britannica+Oxford; Universalis 1850 beyanı). Gün bilinmiyor (yıl hassasiyeti). Bağımsızlık: Oxford/Columbia/Britannica ayrı yayıncı, kopya kanıtı yok, kaynakçasız; Universalis dördüncü bağımsız ses. || TEK KAYNAK (Britannica); çift teyit yok. Gün yok, yıl hassasiyeti. Tanık cümlesi 15 kelimeye kısaltıldı; devamı: '... and a group of Pongoue villages were given the name Libreville (meaning “free town”)'. Aynı maddede Fort-d'Aumale 1843 (kale; şehir adı verilmiyor, yazılmadı). 1888-1904 Fransız Ekvator Afrikası başkenti. SAHİP/DİKİŞ: fransa-cumhuriyet 1849-01-01 → 1849-08-17 (atlas başlangıcı): gün kaynakta yok, atlas başlangıcına ≤1 yıl uzatıldı; kaynak yılı esas, 'f'/'t' kaynağın yıl ucudur, atlas başlangıcı kaynak değildir."
  },
  {
   "id": "likasi-p10",
@@ -1249,12 +1320,12 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
    "Luanda"
   ],
   "ilk": {
-   "t": "1576-01-01",
-   "gun": "1576",
+   "t": "1575-01-01",
+   "gun": "1575",
    "nicelik": "kurulus",
    "kesinlik": "yil",
-   "kaynak": "Encyclopaedia Britannica, «Luanda» (Britannica editörleri), https://www.britannica.com/place/Luanda (tarayıcı sayfa okuma, 17 Kasım 2026)",
-   "tanik": "Founded in 1576 by Paulo Dias de Novais and initially settled by the Portuguese, Luanda"
+   "kaynak": "The Columbia Encyclopedia 6th ed., «Luanda», https://www.encyclopedia.com (tarayıcı okuma 17 Kasım 2026); teyit: Oxford World Encyclopedia «Luanda»; P. Vennetier, Encyclopaedia Universalis «Luanda»; A. M. Caldeira, Rev. Tempo, Espaço e Linguagem 5(3), 2014",
+   "tanik": "Founded in 1575 by the Portuguese"
   },
   "kur": null,
   "ark": null,
@@ -1271,7 +1342,7 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
     "tanik": "Luanda became the administrative centre of the Portuguese colony of Angola in 1627"
    }
   ],
-  "ic_not": "TEK KAYNAK (Britannica). Atlas Luanda'yı 1575-01-01'de portekiz-angola ile başlatır; Britannica kuruluşu 1576 verir (atlas başlangıcı 1 yıl erken; 1576 ≥ atlas başlangıcı olduğundan zincir yazılmadı, sahip[] boş). İkinci bağımsız kaynak okunmadı."
+  "ic_not": "HAKEMLİ KARAR (LAB, 17 Kasım 2026): Hakemli karar: Britannica 1576 (Novais'in kuruluşu); Columbia 'founded in 1575', Oxford 'first settled in 1575', Universalis (P. Vennetier) 'fondée en 1575', A. M. Caldeira (Rev. Tempo, Espaço e Linguagem, 2014) 'povoação fundada em 1575 ... ilha de Luanda'. Dört bağımsız kaynak 1575; seçim 1575 (yerleşme, Luanda Adası). 25 Ocak 1576 (anakara kuruluşu, geleneksel) beyan edilir, kuruluş yılı olarak yazılmaz. || TEK KAYNAK (Britannica). Atlas Luanda'yı 1575-01-01'de portekiz-angola ile başlatır; Britannica kuruluşu 1576 verir (atlas başlangıcı 1 yıl erken; 1576 ≥ atlas başlangıcı olduğundan zincir yazılmadı, sahip[] boş). İkinci bağımsız kaynak okunmadı."
  },
  {
   "id": "mapungubwe-p9",
@@ -1296,7 +1367,7 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
   "bit": null,
   "sahip": [],
   "olay": [],
-  "ic_not": "TEK KAYNAK (UNESCO). Kaynak yıl değil yuvarlak ARALIK verir (900–1300 AD); aralığın başı alındı, kesinlik 'belirsiz'. Terk: UNESCO '14. yüzyılda terk' / '13. yüzyıl sonu' der (yalnız yüzyıl) — bit/olay YAZILMADI. 0900-01-01 atlas başlangıcıyla (0900-01-01, mapungubwe) aynı gün olduğundan zincir yazılmadı; atlasın 0900 tarihinin kendisi de aynı yuvarlak aralıktan gelir, bağımsız gün tanığı değildir."
+  "ic_not": "HAKEMLİ KARAR (LAB, 17 Kasım 2026): Hakem notu (17 Kas 2026): UNESCO 'between 900 and 1,300 AD' bütün Orta Demir Çağı peyzaj dizisini (Zhizo AD 900'dan; K2 1000-1220; Mapungubwe 1220-1300) kapsar (Kuhlase & Forssman 2024, SAFA 19:3061; Van der Walt 2012, Wits MA: MIA 900-1300, TK2 1200-1250). SAHO 'trading center around 1200 to 1300' Mapungubwe tepesi evresidir ve çelişmez. Karar: 900 'kültürel peyzaj yerleşim dizisi başlangıcı' (arkeolojik, belirsiz) olarak kalır; Mapungubwe Tepesi'nin başkent evresi 1220 (kesinlik yıl; kaynaklar 1200-1250 TK2 geçişi), terk/çöküş ~1300 (yıl yuvarlak, 13. yy sonu-14. yy: bit yazılmaz). Not: SAHO ilk yapıları 11. yy başı, merkez kayışını ~1045 verir (Bambandyanalo/K2 ile Mapungubwe adlandırma tartışması; Huffman kronolojisi K2 1000-1220, SAHO ile çelişki ayrıca hakeme muhtaç: bu tur kapsamı dışı). || TEK KAYNAK (UNESCO). Kaynak yıl değil yuvarlak ARALIK verir (900–1300 AD); aralığın başı alındı, kesinlik 'belirsiz'. Terk: UNESCO '14. yüzyılda terk' / '13. yüzyıl sonu' der (yalnız yüzyıl) — bit/olay YAZILMADI. 0900-01-01 atlas başlangıcıyla (0900-01-01, mapungubwe) aynı gün olduğundan zincir yazılmadı; atlasın 0900 tarihinin kendisi de aynı yuvarlak aralıktan gelir, bağımsız gün tanığı değildir."
  },
  {
   "id": "maseru-ls",
@@ -1598,7 +1669,7 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
   "bit": null,
   "sahip": [],
   "olay": [],
-  "ic_not": "TEK KAYNAK + ÇELİŞKİ. Encyclopaedia Africana: Ngwato başkenti Palapye'den Serowe'ye 1902'de taşındı (Serowe ilk yerleşimi değil, başkent olarak kuruluş). Britannica «Serowe» maddesi 'first occupied by the Bamangwato in 1920' der: çelişki; Britannica'nın kendi Khama III bölümü (1923'te Serowe'de öldü) 1920'yi tutarsız kılar, muhtemel yazım hatası — ancak üçüncü kaynak OKUNAMADI (Botswana Notes and Records 34, journals.co.za: Cloudflare 403). Hakemli karar verilemedi; 1902 iki yönde belirsiz olduğu için kesinlik 'yil' ve bu not kalır. ATLAS: atlas Serowe'yi 1700-01-01'de 'tsvana' ile başlatır; bu kaynakla 1700 DOĞRULANAMAZ (1902 ≥ 1700, zincir yazılmadı)."
+  "ic_not": "HAKEMLİ KARAR (LAB, 17 Kasım 2026): Hakemli karar: Britannica 1920 (Bamangwato'nun Serowe'yi ilk iskânı); Encyclopaedia Africana/DACB (Scott) 1902; N. Parsons (Univ. Botswana, 'The Abandonment of Phalatswe, 1901-1916', 1998/99): Sömürge Ofisi onayı Ocak 1902, taşınma Haziran 1902'de fiilen başladı. İki bağımsız kaynak 1902; Britannica 1920 tek ve olası basım hatası. Seçim: 1902 (yıl hassasiyeti). || TEK KAYNAK + ÇELİŞKİ. Encyclopaedia Africana: Ngwato başkenti Palapye'den Serowe'ye 1902'de taşındı (Serowe ilk yerleşimi değil, başkent olarak kuruluş). Britannica «Serowe» maddesi 'first occupied by the Bamangwato in 1920' der: çelişki; Britannica'nın kendi Khama III bölümü (1923'te Serowe'de öldü) 1920'yi tutarsız kılar, muhtemel yazım hatası — ancak üçüncü kaynak OKUNAMADI (Botswana Notes and Records 34, journals.co.za: Cloudflare 403). Hakemli karar verilemedi; 1902 iki yönde belirsiz olduğu için kesinlik 'yil' ve bu not kalır. ATLAS: atlas Serowe'yi 1700-01-01'de 'tsvana' ile başlatır; bu kaynakla 1700 DOĞRULANAMAZ (1902 ≥ 1700, zincir yazılmadı)."
  },
  {
   "id": "sokoto-ng",
