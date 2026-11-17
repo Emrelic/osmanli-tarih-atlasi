@@ -1227,17 +1227,19 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
   "ad_kaynak": [
    {
     "ad": "Frunze",
-    "dil": "ru",
+    "dil": null,
     "donem": null,
     "kaynak": "Encyclopaedia Britannica 'Bishkek' https://www.britannica.com/place/Bishkek",
-    "kanit": "Also known as: Frunze, Pishpek"
+    "kanit": "Also known as: Frunze, Pishpek",
+    "dil_belirsiz": true
    },
    {
     "ad": "Pishpek",
-    "dil": "ru",
+    "dil": null,
     "donem": null,
     "kaynak": "Encyclopaedia Britannica 'Bishkek' https://www.britannica.com/place/Bishkek",
-    "kanit": "Also known as: Frunze, Pishpek"
+    "kanit": "Also known as: Frunze, Pishpek",
+    "dil_belirsiz": true
    }
   ]
  },
@@ -2736,10 +2738,11 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
   "ad_kaynak": [
    {
     "ad": "Przhevalsk",
-    "dil": "ru",
+    "dil": null,
     "donem": null,
     "kaynak": "Encyclopaedia Britannica 'Karakol' https://www.britannica.com/place/Karakol",
-    "kanit": "Also known as: Przhevalsk"
+    "kanit": "Also known as: Przhevalsk",
+    "dil_belirsiz": true
    }
   ]
  },
@@ -2878,24 +2881,27 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
    },
    {
     "ad": "Har Horin",
-    "dil": "mn",
+    "dil": null,
     "donem": null,
     "kaynak": "Encyclopaedia Britannica 'Karakorum' https://www.britannica.com/place/Karakorum",
-    "kanit": "Also known as: Har Horin, K’a-la-k’un-lun, Khara-khorin"
+    "kanit": "Also known as: Har Horin, K’a-la-k’un-lun, Khara-khorin",
+    "dil_belirsiz": true
    },
    {
     "ad": "K’a-la-k’un-lun",
-    "dil": "zh",
+    "dil": null,
     "donem": null,
     "kaynak": "Encyclopaedia Britannica 'Karakorum' https://www.britannica.com/place/Karakorum",
-    "kanit": "Also known as: Har Horin, K’a-la-k’un-lun, Khara-khorin"
+    "kanit": "Also known as: Har Horin, K’a-la-k’un-lun, Khara-khorin",
+    "dil_belirsiz": true
    },
    {
     "ad": "Khara-khorin",
-    "dil": "mn",
+    "dil": null,
     "donem": null,
     "kaynak": "Encyclopaedia Britannica 'Karakorum' https://www.britannica.com/place/Karakorum",
-    "kanit": "Also known as: Har Horin, K’a-la-k’un-lun, Khara-khorin"
+    "kanit": "Also known as: Har Horin, K’a-la-k’un-lun, Khara-khorin",
+    "dil_belirsiz": true
    }
   ],
   "adlar_kaynaksiz": [
@@ -3208,17 +3214,19 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
   "ad_kaynak": [
    {
     "ad": "Kokčetav",
-    "dil": "ru",
+    "dil": null,
     "donem": null,
     "kaynak": "Encyclopaedia Britannica 'Kokshetau' https://www.britannica.com/place/Kokshetau",
-    "kanit": "Also known as: Kokčetav, Kokchetav"
+    "kanit": "Also known as: Kokčetav, Kokchetav",
+    "dil_belirsiz": true
    },
    {
     "ad": "Kokchetav",
-    "dil": "ru",
+    "dil": null,
     "donem": null,
     "kaynak": "Encyclopaedia Britannica 'Kokshetau' https://www.britannica.com/place/Kokshetau",
-    "kanit": "Also known as: Kokčetav, Kokchetav"
+    "kanit": "Also known as: Kokčetav, Kokchetav",
+    "dil_belirsiz": true
    }
   ]
  },
@@ -4214,10 +4222,11 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
    },
    {
     "ad": "Turkestan",
-    "dil": "en",
+    "dil": null,
     "donem": null,
     "kaynak": "Encyclopaedia Britannica 'Turkistan' https://www.britannica.com/place/Turkistan",
-    "kanit": "Also known as: Turkestan"
+    "kanit": "Also known as: Turkestan",
+    "dil_belirsiz": true
    }
   ],
   "adlar_kaynaksiz": [
@@ -4376,24 +4385,27 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
    },
    {
     "ad": "Urumchi",
-    "dil": "en",
+    "dil": null,
     "donem": null,
     "kaynak": "Encyclopaedia Britannica 'Urumqi' https://www.britannica.com/place/Urumqi",
-    "kanit": "Also known as: Ürümchi, Dihua, Urumchi, Urumqi, Wu-lu-mu-ch’i, Wulumuqi"
+    "kanit": "Also known as: Ürümchi, Dihua, Urumchi, Urumqi, Wu-lu-mu-ch’i, Wulumuqi",
+    "dil_belirsiz": true
    },
    {
     "ad": "Wu-lu-mu-ch’i",
-    "dil": "zh",
+    "dil": null,
     "donem": null,
     "kaynak": "Encyclopaedia Britannica 'Urumqi' https://www.britannica.com/place/Urumqi",
-    "kanit": "Also known as: Ürümchi, Dihua, Urumchi, Urumqi, Wu-lu-mu-ch’i, Wulumuqi"
+    "kanit": "Also known as: Ürümchi, Dihua, Urumchi, Urumqi, Wu-lu-mu-ch’i, Wulumuqi",
+    "dil_belirsiz": true
    },
    {
     "ad": "Wulumuqi",
-    "dil": "zh",
+    "dil": null,
     "donem": null,
     "kaynak": "Encyclopaedia Britannica 'Urumqi' https://www.britannica.com/place/Urumqi",
-    "kanit": "Also known as: Ürümchi, Dihua, Urumchi, Urumqi, Wu-lu-mu-ch’i, Wulumuqi"
+    "kanit": "Also known as: Ürümchi, Dihua, Urumchi, Urumqi, Wu-lu-mu-ch’i, Wulumuqi",
+    "dil_belirsiz": true
    }
   ],
   "adlar_kaynaksiz": [
@@ -4428,10 +4440,11 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
   "ad_kaynak": [
    {
     "ad": "Dzhezkazgan",
-    "dil": "ru",
+    "dil": null,
     "donem": null,
     "kaynak": "Encyclopaedia Britannica 'Zhezqazghan' https://www.britannica.com/place/Zhezqazghan",
-    "kanit": "Also known as: Dzhezkazgan, Zhezkazgan"
+    "kanit": "Also known as: Dzhezkazgan, Zhezkazgan",
+    "dil_belirsiz": true
    }
   ]
  }

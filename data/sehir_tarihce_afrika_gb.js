@@ -402,24 +402,27 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
   "ad_kaynak": [
    {
     "ad": "Benguella",
-    "dil": "pt",
+    "dil": null,
     "donem": null,
     "kaynak": "Encyclopaedia Britannica 'Benguela' https://www.britannica.com/place/Benguela",
-    "kanit": "Also known as: Benguella, São Félipe de Benguela, São Filipe de Benguela"
+    "kanit": "Also known as: Benguella, São Félipe de Benguela, São Filipe de Benguela",
+    "dil_belirsiz": true
    },
    {
     "ad": "São Félipe de Benguela",
-    "dil": "pt",
+    "dil": null,
     "donem": null,
     "kaynak": "Encyclopaedia Britannica 'Benguela' https://www.britannica.com/place/Benguela",
-    "kanit": "Also known as: Benguella, São Félipe de Benguela, São Filipe de Benguela"
+    "kanit": "Also known as: Benguella, São Félipe de Benguela, São Filipe de Benguela",
+    "dil_belirsiz": true
    },
    {
     "ad": "São Filipe de Benguela",
-    "dil": "pt",
+    "dil": null,
     "donem": null,
     "kaynak": "Encyclopaedia Britannica 'Benguela' https://www.britannica.com/place/Benguela",
-    "kanit": "Also known as: Benguella, São Félipe de Benguela, São Filipe de Benguela"
+    "kanit": "Also known as: Benguella, São Félipe de Benguela, São Filipe de Benguela",
+    "dil_belirsiz": true
    }
   ]
  },
@@ -836,10 +839,11 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
   "ad_kaynak": [
    {
     "ad": "Hartley",
-    "dil": "en",
+    "dil": null,
     "donem": null,
     "kaynak": "Encyclopaedia Britannica 'Chegutu' https://www.britannica.com/place/Chegutu",
-    "kanit": "Also known as: Hartley"
+    "kanit": "Also known as: Hartley",
+    "dil_belirsiz": true
    }
   ]
  },
@@ -974,10 +978,11 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
    },
    {
     "ad": "Dikoa",
-    "dil": "fr",
+    "dil": null,
     "donem": null,
     "kaynak": "Encyclopaedia Britannica 'Dikwa' https://www.britannica.com/place/Dikwa",
-    "kanit": "Also known as: Dikoa"
+    "kanit": "Also known as: Dikoa",
+    "dil_belirsiz": true
    }
   ],
   "adlar_kaynaksiz": [
@@ -1220,10 +1225,11 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
   "ad_kaynak": [
    {
     "ad": "Gaberones",
-    "dil": "en",
+    "dil": null,
     "donem": null,
     "kaynak": "Encyclopaedia Britannica 'Gaborone' https://www.britannica.com/place/Gaborone",
-    "kanit": "Also known as: Gaberones"
+    "kanit": "Also known as: Gaberones",
+    "dil_belirsiz": true
    }
   ]
  },
@@ -1772,17 +1778,19 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
   "ad_kaynak": [
    {
     "ad": "New Lisbon",
-    "dil": "en",
+    "dil": null,
     "donem": null,
     "kaynak": "Encyclopaedia Britannica 'Huambo' https://www.britannica.com/place/Huambo",
-    "kanit": "Also known as: New Lisbon, Nova Lisboa"
+    "kanit": "Also known as: New Lisbon, Nova Lisboa",
+    "dil_belirsiz": true
    },
    {
     "ad": "Nova Lisboa",
-    "dil": "pt",
+    "dil": null,
     "donem": null,
     "kaynak": "Encyclopaedia Britannica 'Huambo' https://www.britannica.com/place/Huambo",
-    "kanit": "Also known as: New Lisbon, Nova Lisboa"
+    "kanit": "Also known as: New Lisbon, Nova Lisboa",
+    "dil_belirsiz": true
    }
   ]
  },
@@ -2016,10 +2024,11 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
   "ad_kaynak": [
    {
     "ad": "Luluabourg",
-    "dil": "fr",
+    "dil": null,
     "donem": null,
     "kaynak": "Encyclopaedia Britannica 'Kananga' https://www.britannica.com/place/Kananga",
-    "kanit": "Also known as: Luluabourg"
+    "kanit": "Also known as: Luluabourg",
+    "dil_belirsiz": true
    }
   ]
  },
@@ -2124,10 +2133,11 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
   "ad_kaynak": [
    {
     "ad": "Uitenhage",
-    "dil": "en",
+    "dil": null,
     "donem": null,
     "kaynak": "Encyclopaedia Britannica 'Kariega' https://www.britannica.com/place/Kariega",
-    "kanit": "Also known as: Uitenhage"
+    "kanit": "Also known as: Uitenhage",
+    "dil_belirsiz": true
    }
   ]
  },
@@ -2325,17 +2335,19 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
   "ad_kaynak": [
    {
     "ad": "Falls Station",
-    "dil": "en",
+    "dil": null,
     "donem": null,
     "kaynak": "Encyclopaedia Britannica 'Kisangani' https://www.britannica.com/place/Kisangani",
-    "kanit": "Also known as: Falls Station, Stanleyville"
+    "kanit": "Also known as: Falls Station, Stanleyville",
+    "dil_belirsiz": true
    },
    {
     "ad": "Stanleyville",
-    "dil": "fr",
+    "dil": null,
     "donem": null,
     "kaynak": "Encyclopaedia Britannica 'Kisangani' https://www.britannica.com/place/Kisangani",
-    "kanit": "Also known as: Falls Station, Stanleyville"
+    "kanit": "Also known as: Falls Station, Stanleyville",
+    "dil_belirsiz": true
    }
   ]
  },
@@ -2490,38 +2502,43 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
   "ad_kaynak": [
    {
     "ad": "Bié",
-    "dil": "en",
+    "dil": null,
     "donem": null,
     "kaynak": "Encyclopaedia Britannica 'Kuito' https://www.britannica.com/place/Kuito",
-    "kanit": "Also known as: Bié, Bihé, Cuito, Silva Porto, Vila Salva Porto"
+    "kanit": "Also known as: Bié, Bihé, Cuito, Silva Porto, Vila Salva Porto",
+    "dil_belirsiz": true
    },
    {
     "ad": "Bihé",
-    "dil": "en",
+    "dil": null,
     "donem": null,
     "kaynak": "Encyclopaedia Britannica 'Kuito' https://www.britannica.com/place/Kuito",
-    "kanit": "Also known as: Bié, Bihé, Cuito, Silva Porto, Vila Salva Porto"
+    "kanit": "Also known as: Bié, Bihé, Cuito, Silva Porto, Vila Salva Porto",
+    "dil_belirsiz": true
    },
    {
     "ad": "Cuito",
-    "dil": "en",
+    "dil": null,
     "donem": null,
     "kaynak": "Encyclopaedia Britannica 'Kuito' https://www.britannica.com/place/Kuito",
-    "kanit": "Also known as: Bié, Bihé, Cuito, Silva Porto, Vila Salva Porto"
+    "kanit": "Also known as: Bié, Bihé, Cuito, Silva Porto, Vila Salva Porto",
+    "dil_belirsiz": true
    },
    {
     "ad": "Silva Porto",
-    "dil": "pt",
+    "dil": null,
     "donem": null,
     "kaynak": "Encyclopaedia Britannica 'Kuito' https://www.britannica.com/place/Kuito",
-    "kanit": "Also known as: Bié, Bihé, Cuito, Silva Porto, Vila Salva Porto"
+    "kanit": "Also known as: Bié, Bihé, Cuito, Silva Porto, Vila Salva Porto",
+    "dil_belirsiz": true
    },
    {
     "ad": "Vila Salva Porto",
-    "dil": "pt",
+    "dil": null,
     "donem": null,
     "kaynak": "Encyclopaedia Britannica 'Kuito' https://www.britannica.com/place/Kuito",
-    "kanit": "Also known as: Bié, Bihé, Cuito, Silva Porto, Vila Salva Porto"
+    "kanit": "Also known as: Bié, Bihé, Cuito, Silva Porto, Vila Salva Porto",
+    "dil_belirsiz": true
    }
   ]
  },
@@ -3021,10 +3038,11 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
   "ad_kaynak": [
    {
     "ad": "Sá da Bandeira",
-    "dil": "pt",
+    "dil": null,
     "donem": null,
     "kaynak": "Encyclopaedia Britannica 'Lubango' https://www.britannica.com/place/Lubango",
-    "kanit": "Also known as: Sá da Bandeira"
+    "kanit": "Also known as: Sá da Bandeira",
+    "dil_belirsiz": true
    }
   ]
  },
@@ -3478,10 +3496,11 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
   "ad_kaynak": [
    {
     "ad": "Mosselbaai",
-    "dil": "af",
+    "dil": null,
     "donem": null,
     "kaynak": "Encyclopaedia Britannica 'Mossel-Bay' https://www.britannica.com/place/Mossel-Bay",
-    "kanit": "Also known as: Mosselbaai"
+    "kanit": "Also known as: Mosselbaai",
+    "dil_belirsiz": true
    }
   ]
  },
@@ -3871,10 +3890,11 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
   "ad_kaynak": [
    {
     "ad": "Pietersburg",
-    "dil": "af",
+    "dil": null,
     "donem": null,
     "kaynak": "Encyclopaedia Britannica 'Polokwane' https://www.britannica.com/place/Polokwane",
-    "kanit": "Also known as: Pietersburg"
+    "kanit": "Also known as: Pietersburg",
+    "dil_belirsiz": true
    }
   ]
  },
@@ -4107,10 +4127,11 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
   "ad_kaynak": [
    {
     "ad": "King William’s Town",
-    "dil": "en",
+    "dil": null,
     "donem": null,
     "kaynak": "Encyclopaedia Britannica 'Qonce' https://www.britannica.com/place/Qonce",
-    "kanit": "Also known as: King William’s Town"
+    "kanit": "Also known as: King William’s Town",
+    "dil_belirsiz": true
    }
   ]
  },
@@ -4336,17 +4357,19 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
   "ad_kaynak": [
    {
     "ad": "Sebanga Poort",
-    "dil": "en",
+    "dil": null,
     "donem": null,
     "kaynak": "Encyclopaedia Britannica 'Shurugwi' https://www.britannica.com/place/Shurugwi",
-    "kanit": "Also known as: Sebanga Poort, Selukwe"
+    "kanit": "Also known as: Sebanga Poort, Selukwe",
+    "dil_belirsiz": true
    },
    {
     "ad": "Selukwe",
-    "dil": "en",
+    "dil": null,
     "donem": null,
     "kaynak": "Encyclopaedia Britannica 'Shurugwi' https://www.britannica.com/place/Shurugwi",
-    "kanit": "Also known as: Sebanga Poort, Selukwe"
+    "kanit": "Also known as: Sebanga Poort, Selukwe",
+    "dil_belirsiz": true
    }
   ]
  },

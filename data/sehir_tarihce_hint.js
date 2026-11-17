@@ -531,17 +531,19 @@ window.SEHIR_TARIHCE_HINT = [
   "ad_kaynak": [
    {
     "ad": "Dalīpnagar",
-    "dil": "en",
+    "dil": null,
     "donem": null,
     "kaynak": "Encyclopaedia Britannica 'Bannu' https://www.britannica.com/place/Bannu",
-    "kanit": "Also known as: Dalīpnagar, Edwardesābād"
+    "kanit": "Also known as: Dalīpnagar, Edwardesābād",
+    "dil_belirsiz": true
    },
    {
     "ad": "Edwardesābād",
-    "dil": "en",
+    "dil": null,
     "donem": null,
     "kaynak": "Encyclopaedia Britannica 'Bannu' https://www.britannica.com/place/Bannu",
-    "kanit": "Also known as: Dalīpnagar, Edwardesābād"
+    "kanit": "Also known as: Dalīpnagar, Edwardesābād",
+    "dil_belirsiz": true
    }
   ]
  },
@@ -647,10 +649,11 @@ window.SEHIR_TARIHCE_HINT = [
   "ad_kaynak": [
    {
     "ad": "Nayanagar",
-    "dil": "en",
+    "dil": null,
     "donem": null,
     "kaynak": "Encyclopaedia Britannica 'Beawar' https://www.britannica.com/place/Beawar",
-    "kanit": "Also known as: Nayanagar"
+    "kanit": "Also known as: Nayanagar",
+    "dil_belirsiz": true
    }
   ]
  },
@@ -1748,10 +1751,11 @@ window.SEHIR_TARIHCE_HINT = [
   "ad_kaynak": [
    {
     "ad": "Dārjiling",
-    "dil": "en",
+    "dil": null,
     "donem": null,
     "kaynak": "Encyclopaedia Britannica 'Darjeeling' https://www.britannica.com/place/Darjeeling",
-    "kanit": "Also known as: Dārjiling"
+    "kanit": "Also known as: Dārjiling",
+    "dil_belirsiz": true
    }
   ]
  },
@@ -2009,17 +2013,19 @@ window.SEHIR_TARIHCE_HINT = [
    },
    {
     "ad": "Ajmere",
-    "dil": "en",
+    "dil": null,
     "donem": null,
     "kaynak": "Encyclopaedia Britannica 'Ajmer' https://www.britannica.com/place/Ajmer",
-    "kanit": "Also known as: Ajmere, Ajmir"
+    "kanit": "Also known as: Ajmere, Ajmir",
+    "dil_belirsiz": true
    },
    {
     "ad": "Ajmir",
-    "dil": "en",
+    "dil": null,
     "donem": null,
     "kaynak": "Encyclopaedia Britannica 'Ajmer' https://www.britannica.com/place/Ajmer",
-    "kanit": "Also known as: Ajmere, Ajmir"
+    "kanit": "Also known as: Ajmere, Ajmir",
+    "dil_belirsiz": true
    }
   ],
   "adlar_kaynaksiz": [
@@ -2824,10 +2830,11 @@ window.SEHIR_TARIHCE_HINT = [
   "ad_kaynak": [
    {
     "ad": "Hissar",
-    "dil": "en",
+    "dil": null,
     "donem": null,
     "kaynak": "Encyclopaedia Britannica 'Hisar' https://www.britannica.com/place/Hisar",
-    "kanit": "Also known as: Hissar"
+    "kanit": "Also known as: Hissar",
+    "dil_belirsiz": true
    }
   ]
  },
@@ -4929,10 +4936,11 @@ window.SEHIR_TARIHCE_HINT = [
   "ad_kaynak": [
    {
     "ad": "Naini Tal",
-    "dil": "en",
+    "dil": null,
     "donem": null,
     "kaynak": "Encyclopaedia Britannica 'Nainital' https://www.britannica.com/place/Nainital",
-    "kanit": "Also known as: Naini Tal"
+    "kanit": "Also known as: Naini Tal",
+    "dil_belirsiz": true
    }
   ]
  },
@@ -5519,10 +5527,11 @@ window.SEHIR_TARIHCE_HINT = [
   "ad_kaynak": [
    {
     "ad": "Saugor",
-    "dil": "en",
+    "dil": null,
     "donem": null,
     "kaynak": "Encyclopaedia Britannica 'Sagar' https://www.britannica.com/place/Sagar",
-    "kanit": "Also known as: Saugor"
+    "kanit": "Also known as: Saugor",
+    "dil_belirsiz": true
    }
   ]
  },
@@ -5597,10 +5606,11 @@ window.SEHIR_TARIHCE_HINT = [
   "ad_kaynak": [
    {
     "ad": "Montgomery",
-    "dil": "en",
+    "dil": null,
     "donem": null,
     "kaynak": "Encyclopaedia Britannica 'Sahiwal' https://www.britannica.com/place/Sahiwal",
-    "kanit": "Also known as: Montgomery"
+    "kanit": "Also known as: Montgomery",
+    "dil_belirsiz": true
    }
   ]
  },
@@ -6270,24 +6280,27 @@ window.SEHIR_TARIHCE_HINT = [
   "ad_kaynak": [
    {
     "ad": "Ootacamund",
-    "dil": "en",
+    "dil": null,
     "donem": null,
     "kaynak": "Encyclopaedia Britannica 'Udhagamandalam' https://www.britannica.com/place/Udhagamandalam",
-    "kanit": "Also known as: Ootacamund, Ooty, Uthagamandalam"
+    "kanit": "Also known as: Ootacamund, Ooty, Uthagamandalam",
+    "dil_belirsiz": true
    },
    {
     "ad": "Ooty",
-    "dil": "en",
+    "dil": null,
     "donem": null,
     "kaynak": "Encyclopaedia Britannica 'Udhagamandalam' https://www.britannica.com/place/Udhagamandalam",
-    "kanit": "Also known as: Ootacamund, Ooty, Uthagamandalam"
+    "kanit": "Also known as: Ootacamund, Ooty, Uthagamandalam",
+    "dil_belirsiz": true
    },
    {
     "ad": "Uthagamandalam",
-    "dil": "en",
+    "dil": null,
     "donem": null,
     "kaynak": "Encyclopaedia Britannica 'Udhagamandalam' https://www.britannica.com/place/Udhagamandalam",
-    "kanit": "Also known as: Ootacamund, Ooty, Uthagamandalam"
+    "kanit": "Also known as: Ootacamund, Ooty, Uthagamandalam",
+    "dil_belirsiz": true
    }
   ]
  },
