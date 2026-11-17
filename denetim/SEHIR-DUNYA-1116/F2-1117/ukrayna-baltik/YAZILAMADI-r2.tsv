@@ -1,0 +1,11 @@
+id	ad	neden
+berdychiv, chernihiv, rivne, sumy	-	MÜKERRER: data/sehir_tarihce_onpr_r3a.js'te başka oturum yazmış; benim kayıtlarım çıkarıldı
+brest	Brest	LISTE atlas_ad 'Brest' atlasta -0049 roma-cumhuriyeti (Fransa Brest'i): LISTE eşleşme hatası; Brest-Litovsk için kaynak okunmadı
+zaporizhzhia	Zaporizhzhia	LISTE atlas_ad 'Aleksandrovsk (Kuzey Sahalin)' yanlış eşleşme (Sahalin); EoU 1770 Oleksandrivske kalesi okundu ama atlas eşleşmesi çözülmeden yazılmadı
+ostroh, pryluky, ovruch, pereiaslav, hlukhiv, kaniv, vasylkiv, okhtyrka	-	EoU ilk anılış okundu ama GeoNames koordinatı alınamadı (arama sayfası boş döndü); LISTE koordinatı boş
+bratslav, balta, kamianets-podilskyi, berehove, haisyn, valky	-	EoU maddesi yok/ilk anılış cümlesi yok
+bender, soroca, orhei, balti, tiraspol, cahul, comrat	Moldova	EoU maddesi yok; Treccani yalnız Tighina/Balti kısa; TDV/Britannica bu turda sınanmadı
+polotsk, pinsk, gomel, bobruisk, mozyr, orsha, slonim, lida, kobryn, grodno, ve öteki Belarus	Belarus	Treccani'de madde yok ya da yalnız çağdaş bilgi (Gomel, Grodno 1432 birlik); ilk anılış tanığı okunmadı
+Letonya (Cesis, Daugavpils, Rezekne, Liepaja, Kuldiga vb.) ve Estonya (Parnu, Tartu, Haapsalu...)	Baltık	Treccani Tartu/Liepaja/Daugavpils'te ilk anılış yok; Britannica/Eesti/Latvijas bu turda okunmadı
+Litvanya (Panevezys, Telsiai, Trakai, Ukmerge, Raseiniai, Alytus, Marijampole, Taurage)	Litvanya	VLE gövde tarih bölümü okunan metinde yok/boş
+Sibirya LISTE (33 satır)	Sibirya	Önceki turda da okunabilir kaynak yok (Britannica 404, Treccani/HE yok); bu turda sınanmadı
