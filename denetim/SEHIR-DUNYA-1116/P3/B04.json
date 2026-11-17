@@ -1,0 +1,144 @@
+[
+ {
+  "id": "jamestown-sh-p3",
+  "ad": "Jamestown",
+  "atlas_ad": "Jamestown (Saint Helena)",
+  "lat": -15.9249,
+  "lon": -5.7182,
+  "kat1900": 2,
+  "adlar": [
+   "Jamestown"
+  ],
+  "ilk": {
+   "t": "1659-01-01",
+   "gun": "1659",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, «Jamestown, St. Helena» (Britannica Editors), https://www.britannica.com/place/Jamestown-Saint-Helena (tarayıcı sayfa okuma, 17 Kasım 2026)",
+   "tanik": "The town was founded in 1659, when the British East India Company built a fort"
+  },
+  "kur": {
+   "t": "1659-01-01",
+   "gun": "1659",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, «Jamestown, St. Helena» (Britannica Editors), https://www.britannica.com/place/Jamestown-Saint-Helena (tarayıcı sayfa okuma, 17 Kasım 2026)",
+   "tanik": "The town was founded in 1659, when the British East India Company built a fort"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [],
+  "ic_not": "TEK KAYNAK: Britannica. Özne 'The town' = madde konusu; başlık şehir. Gün yok; YYYY-01-01 + yil. ATLAS: Jamestown noktası 1000-01-01'de __BOSLUK__ (ıssız ada) ile başlar, ilk sahip dönemi (ingiltere) 1659-01-01'dedir; kaynaklı kuruluş yılı 1659 ile uyumlu, atlas başlangıcı 1659'a çekilmeli (denetle UYARI; KASA'ya bildirilir). Sahip zinciri atlasta esastır, bu kayıtta yazılmadı. Encyclopedia.com 'Jamestown (port)' sayfası okunmadı, çift teyit sayılmadı."
+ },
+ {
+  "id": "kariega-za-p3",
+  "ad": "Kariega",
+  "atlas_ad": null,
+  "lat": -33.7556,
+  "lon": 25.4007,
+  "kat1900": 2,
+  "adlar": [
+   "Uitenhage",
+   "Kariega"
+  ],
+  "ilk": {
+   "t": "1804-01-01",
+   "gun": "1804",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, «Kariega» (Britannica Editors), https://www.britannica.com/place/Kariega (tarayıcı sayfa okuma, 17 Kasım 2026)",
+   "tanik": "It was founded in 1804 by J.A. Uitenhage de Mist, a Dutch governmental official"
+  },
+  "kur": {
+   "t": "1804-01-01",
+   "gun": "1804",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, «Kariega» (Britannica Editors), https://www.britannica.com/place/Kariega (tarayıcı sayfa okuma, 17 Kasım 2026)",
+   "tanik": "It was founded in 1804 by J.A. Uitenhage de Mist, a Dutch governmental official"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1804-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "BOŞLUK BEYANI: Encyclopaedia Britannica, «Kariega» (Britannica Editors), https://www.britannica.com/place/Kariega kuruluş/ilk anılış yılını verir, sahip değişimi vermez; VERI-YAPISI: sahibi bilinmiyorsa __BOSLUK__ + ic_not",
+    "ic_not": "Şehir kaynak yılından itibaren VAR (ilk.t), ama kaynak 1900'e kadar egemen devlet/sahip değişimi vermiyor; beyansız yaklaşıklık yazılmadı, boşluk beyan edildi. Sahip tanığı bulunursa dilimlere bölünür."
+   }
+  ],
+  "olay": [],
+  "ic_not": "TEK KAYNAK: Britannica. Özne zamir 'It' = madde konusu; başlık şehir. Gün yok; YYYY-01-01 + yil. Atlas noktası yok. Zincir: kaynakta şehrin 1804-1900 sahip değişimi yok → __BOSLUK__ (şehir var, sahibi bu kaynakta bilinmiyor; beyanlı, yaklaşıklık yok). Britannica kuruluşu Batavya Cumhuriyeti görevlisine bağlar ama şehrin egemenliğini belirtmez."
+ },
+ {
+  "id": "kananga-cd-p3",
+  "ad": "Kananga",
+  "atlas_ad": null,
+  "lat": -5.8962,
+  "lon": 22.4166,
+  "kat1900": 2,
+  "adlar": [
+   "Luluabourg",
+   "Kananga"
+  ],
+  "ilk": {
+   "t": "1884-01-01",
+   "gun": "1884",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, «Kananga» (Britannica Editors), https://www.britannica.com/place/Kananga (tarayıcı sayfa okuma, 17 Kasım 2026)",
+   "tanik": "It was named Luluabourg in 1884 by a German explorer"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1884-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "BOŞLUK BEYANI: Encyclopaedia Britannica, «Kananga» (Britannica Editors), https://www.britannica.com/place/Kananga kuruluş/ilk anılış yılını verir, sahip değişimi vermez; VERI-YAPISI: sahibi bilinmiyorsa __BOSLUK__ + ic_not",
+    "ic_not": "Şehir kaynak yılından itibaren VAR (ilk.t), ama kaynak 1900'e kadar egemen devlet/sahip değişimi vermiyor; beyansız yaklaşıklık yazılmadı, boşluk beyan edildi. Sahip tanığı bulunursa dilimlere bölünür."
+   }
+  ],
+  "olay": [],
+  "ic_not": "TEK KAYNAK: Britannica. Özne zamir 'It' = madde konusu; başlık şehir. Kaynak kuruluş değil ADLANDIRMA yılını verir ('bir Alman kâşif'; adı kaynakta yok); nicelik ilk_anilis. Gün yok; YYYY-01-01 + yil. Atlas noktası yok. Zincir: kaynak sahip değişimi tarihi vermez (1895'te 'Belçikalılara' karşı isyan anılır, devlet geçişi yok) → __BOSLUK__ beyanlı."
+ },
+ {
+  "id": "ilha-de-mocambique-mz-p3",
+  "ad": "Ilha de Moçambique",
+  "atlas_ad": null,
+  "lat": -15.0347,
+  "lon": 40.7345,
+  "kat1900": 2,
+  "adlar": [
+   "Moçambique",
+   "Ilha de Moçambique"
+  ],
+  "ilk": {
+   "t": "1507-01-01",
+   "gun": "1507",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, «Moçambique» (Britannica Editors), https://www.britannica.com/place/Mocambique (tarayıcı sayfa okuma, 17 Kasım 2026)",
+   "tanik": "Moçambique was originally an Arab settlement; the Portuguese settled there by 1507"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1507-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "BOŞLUK BEYANI: Encyclopaedia Britannica, «Moçambique» (Britannica Editors), https://www.britannica.com/place/Mocambique kuruluş/ilk anılış yılını verir, sahip değişimi vermez; VERI-YAPISI: sahibi bilinmiyorsa __BOSLUK__ + ic_not",
+    "ic_not": "Şehir kaynak yılından itibaren VAR (ilk.t), ama kaynak 1900'e kadar egemen devlet/sahip değişimi vermiyor; beyansız yaklaşıklık yazılmadı, boşluk beyan edildi. Sahip tanığı bulunursa dilimlere bölünür."
+   }
+  ],
+  "olay": [],
+  "ic_not": "TEK KAYNAK: Britannica. Cümlede ad + yıl var. 'by 1507' = en geç 1507 (Portekiz yerleşimi); Arap yerleşimi yılsız. Kuruluş türetilmedi. Atlas noktası yok. Zincir: kaynak devlet-düzeyi egemenlik tarihi vermez (yalnız 'Portuguese settled'; 1897'ye dek Portekiz Doğu Afrikası başkenti) → __BOSLUK__ beyanlı; Portekiz yerleşimi egemenlik tanığı sayılmadı."
+ }
+]

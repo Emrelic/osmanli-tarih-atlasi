@@ -1,0 +1,68 @@
+[
+ {
+  "id": "abeokuta-ng-p3",
+  "ad": "Abeokuta",
+  "atlas_ad": null,
+  "lat": 7.15571,
+  "lon": 3.34509,
+  "kat1900": 2,
+  "adlar": ["Abeokuta"],
+  "ilk": {
+   "t": "1830-01-01",
+   "gun": "1830",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Abeokuta', https://www.britannica.com/place/Abeokuta (tarayıcıda okundu)",
+   "tanik": "Abeokuta (“Refuge Among Rocks”) was founded about 1830 by Sodeke",
+   "ic_not": "TEK KAYNAK. Britannica gövdesinden (YZ özeti bloğu dışı; sayfada 'Summary created' bloğu yok). Cümlede şehir adı + yıl var. Kaynak 'about 1830' diyor (yaklaşık): YYYY-01-01 + kesinlik 'yil'. İkinci bağımsız kaynak bu oturumda okunamadı."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1830-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, 'Abeokuta', https://www.britannica.com/place/Abeokuta",
+    "ic_not": "BOŞLUK (atlas noktası yok): Britannica Egba United Government (1893-1914) bağımsızlığını verir ama data/devletler.js'te karşılık id'si doğrulanmadı ve 1830-1893 arası devlet sahibi tarihli cümleyle verilmiyor; beyansız yaklaşıklık yazılmadı."
+   }
+  ],
+  "olay": [],
+  "ic_not": "P3-B12. Atlas noktası yok (3 km tarandı)."
+ },
+ {
+  "id": "abidjan-ci-p3",
+  "ad": "Abidjan",
+  "atlas_ad": null,
+  "lat": 5.35444,
+  "lon": -4.00167,
+  "kat1900": 2,
+  "adlar": ["Abidjan"],
+  "ilk": {
+   "t": "1898-01-01",
+   "gun": "1898",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Abidjan', https://www.britannica.com/place/Abidjan (tarayıcıda okundu)",
+   "tanik": "A village in 1898, it became a town in 1903.",
+   "ic_not": "TEK KAYNAK. Britannica gövdesinden (YZ özeti bloğu dışı; sayfada 'Summary created' bloğu yok). Özne zamir = madde konusu; başlık şehir. 'Köy olarak 1898' ilk anılış/yerleşim yılı; gün yok: YYYY-01-01 + kesinlik 'yil'. İkinci bağımsız kaynak okunamadı."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1898-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, 'Abidjan', https://www.britannica.com/place/Abidjan",
+    "ic_not": "BOŞLUK (atlas noktası yok): okunan Britannica gövdesinde 1898-1900 için tarihli devlet sahibi cümlesi yok; beyansız yaklaşıklık yazılmadı."
+   }
+  ],
+  "olay": [],
+  "ic_not": "P3-B12. Atlas noktası yok (3 km tarandı)."
+ }
+]

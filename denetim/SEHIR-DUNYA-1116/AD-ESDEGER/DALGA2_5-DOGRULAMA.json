@@ -1,0 +1,604 @@
+[
+ {
+  "id": "anapa-ru",
+  "ad_kaynak": [
+   {
+    "ad": "Gorkipaya",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'ANAPA' https://islamansiklopedisi.org.tr/anapa",
+    "kanit": "önce Gorkipaya adlı Bizans kolonisi iken",
+    "durum": "OK"
+   },
+   {
+    "ad": "Napa",
+    "dil": "it",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'ANAPA' https://islamansiklopedisi.org.tr/anapa",
+    "kanit": "Ceneviz ve Venedikliler’in Napa olarak adlandırdıkları bu şehre",
+    "durum": "OK"
+   },
+   {
+    "ad": "Ana-pa",
+    "dil": "grc",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'ANAPA' https://islamansiklopedisi.org.tr/anapa",
+    "kanit": "Eski Grekçe’de “burun” mânasına gelen “Ana-pa”dan gelir",
+    "durum": "OK"
+   },
+   {
+    "ad": "Anapa",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'ANAPA' https://islamansiklopedisi.org.tr/anapa",
+    "kanit": "Anapa burnuna giden Ferah Ali Paşa",
+    "durum": "OK"
+   },
+   {
+    "ad": "Анапа",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Анапа' https://ru.wikisource.org/wiki/ЭСБЕ/Анапа",
+    "kanit": "Анапа — город Темрюкского отдела Кубанской области",
+    "durum": "OK"
+   }
+  ],
+  "adlar_sira": [
+   "Gorkipaya",
+   "Napa",
+   "Ana-pa",
+   "Anapa"
+  ],
+  "kaynaksiz": []
+ },
+ {
+  "id": "karasubazar-ua",
+  "ad_kaynak": [
+   {
+    "ad": "Karasubazar",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'KARASUBAZAR' https://islamansiklopedisi.org.tr/karasubazar",
+    "kanit": "Karasubazar adıyla en geç XIII. yüzyıldan itibaren bir yerleşim yeri olarak",
+    "durum": "OK"
+   },
+   {
+    "ad": "Belogorsk",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'KARASUBAZAR' https://islamansiklopedisi.org.tr/karasubazar",
+    "kanit": "Karasubazar’ın da ismi değiştirilerek Belogorsk’a çevrildi",
+    "durum": "OK"
+   },
+   {
+    "ad": "Карасубазар",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Карасубазар' https://ru.wikisource.org/wiki/ЭСБЕ/Карасубазар",
+    "kanit": "Карасубазар — заштатный город Таврической губ., Симферопольского у.",
+    "durum": "OK"
+   }
+  ],
+  "adlar_sira": [
+   "Karasubazar",
+   "Belogorsk"
+  ],
+  "kaynaksiz": []
+ },
+ {
+  "id": "eski-kirim-solhat-ua",
+  "ad_kaynak": [
+   {
+    "ad": "Solhat",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'KIRIM' https://islamansiklopedisi.org.tr/kirim",
+    "kanit": "Memlük tüccarları eski Kırım’da (Solhat) bir cami",
+    "durum": "OK"
+   },
+   {
+    "ad": "Eski Kırım",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'KIRIM' https://islamansiklopedisi.org.tr/kirim",
+    "kanit": "Memlük tüccarları eski Kırım’da (Solhat) bir cami",
+    "durum": "OK"
+   },
+   {
+    "ad": "Эски-Крым",
+    "dil": "crh",
+    "donem": null,
+    "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Крым Старый' https://ru.wikisource.org/wiki/ЭСБЕ/Крым_Старый",
+    "kanit": "Крым Старый (по-татарски Эски-Крым, в древности Солкат или Солгат)",
+    "durum": "OK"
+   },
+   {
+    "ad": "Солкат",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Крым Старый' https://ru.wikisource.org/wiki/ЭСБЕ/Крым_Старый",
+    "kanit": "Крым Старый (по-татарски Эски-Крым, в древности Солкат или Солгат)",
+    "durum": "OK"
+   },
+   {
+    "ad": "Солгат",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Крым Старый' https://ru.wikisource.org/wiki/ЭСБЕ/Крым_Старый",
+    "kanit": "Крым Старый (по-татарски Эски-Крым, в древности Солкат или Солгат)",
+    "durum": "OK"
+   },
+   {
+    "ad": "Крым Старый",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Крым Старый' https://ru.wikisource.org/wiki/ЭСБЕ/Крым_Старый",
+    "kanit": "Крым Старый (по-татарски Эски-Крым, в древности Солкат или Солгат)",
+    "durum": "OK"
+   }
+  ],
+  "adlar_sira": [
+   "Solhat",
+   "Eski Kırım"
+  ],
+  "kaynaksiz": []
+ },
+ {
+  "id": "mankup-ua",
+  "ad_kaynak": [
+   {
+    "ad": "Mangub",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'KIRIM' https://islamansiklopedisi.org.tr/kirim",
+    "kanit": "1629’da Karasubazar, Mangub yağmalandı ve yakıldı",
+    "durum": "OK"
+   },
+   {
+    "ad": "Мангуп",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Мангуп' https://ru.wikisource.org/wiki/ЭСБЕ/Мангуп",
+    "kanit": "Мангуп (иначе Мангуп-Кале, Манкоп, Мангут, Ман-Кермен)",
+    "durum": "OK"
+   },
+   {
+    "ad": "Мангуп-Кале",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Мангуп' https://ru.wikisource.org/wiki/ЭСБЕ/Мангуп",
+    "kanit": "Мангуп (иначе Мангуп-Кале, Манкоп, Мангут, Ман-Кермен)",
+    "durum": "OK"
+   },
+   {
+    "ad": "Манкоп",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Мангуп' https://ru.wikisource.org/wiki/ЭСБЕ/Мангуп",
+    "kanit": "Мангуп (иначе Мангуп-Кале, Манкоп, Мангут, Ман-Кермен)",
+    "durum": "OK"
+   },
+   {
+    "ad": "Мангут",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Мангуп' https://ru.wikisource.org/wiki/ЭСБЕ/Мангуп",
+    "kanit": "Мангуп (иначе Мангуп-Кале, Манкоп, Мангут, Ман-Кермен)",
+    "durum": "OK"
+   },
+   {
+    "ad": "Ман-Кермен",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Мангуп' https://ru.wikisource.org/wiki/ЭСБЕ/Мангуп",
+    "kanit": "Мангуп (иначе Мангуп-Кале, Манкоп, Мангут, Ман-Кермен)",
+    "durum": "OK"
+   }
+  ],
+  "adlar_sira": [
+   "Mangub",
+   "Mankup"
+  ],
+  "kaynaksiz": [
+   "Mankup"
+  ]
+ },
+ {
+  "id": "babadagi-ro",
+  "ad_kaynak": [
+   {
+    "ad": "Babadağı",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'BABADAĞI' https://islamansiklopedisi.org.tr/babadagi",
+    "kanit": "BABADAĞI Romanya’da Dobruca bölgesinin kuzeyinde eski bir",
+    "durum": "OK"
+   },
+   {
+    "ad": "Бабадаг",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Бабадаг' https://ru.wikisource.org/wiki/ЭСБЕ/Бабадаг",
+    "kanit": "Бабадаг — румынский город в Добрудже",
+    "durum": "OK"
+   }
+  ],
+  "adlar_sira": [
+   "Babadağı"
+  ],
+  "kaynaksiz": []
+ },
+ {
+  "id": "sucava-ro",
+  "ad_kaynak": [
+   {
+    "ad": "Suceava",
+    "dil": "ro",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'BOĞDAN' https://islamansiklopedisi.org.tr/bogdan",
+    "kanit": "beyliğin merkezi Suceava’ya girdi",
+    "durum": "OK"
+   },
+   {
+    "ad": "Suceava",
+    "dil": "en",
+    "donem": "1388-1564",
+    "kaynak": "Encyclopaedia Britannica 'Suceava' https://www.britannica.com/place/Suceava-Romania",
+    "kanit": "Suceava, city, capital of Suceava judeƫ (county), northeastern Romania.",
+    "durum": "OK"
+   }
+  ],
+  "adlar_sira": [
+   "Suceava",
+   "Suçava"
+  ],
+  "kaynaksiz": [
+   "Suçava"
+  ]
+ },
+ {
+  "id": "angren-uz-p13",
+  "ad_kaynak": [],
+  "adlar_sira": [
+   "Angren"
+  ],
+  "kaynaksiz": [
+   "Angren"
+  ]
+ },
+ {
+  "id": "kumbi-salih-af-p9",
+  "ad_kaynak": [
+   {
+    "ad": "Kumbi",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Kumbi' https://www.britannica.com/place/Kumbi",
+    "kanit": "Kumbi, last of the capitals of ancient Ghana",
+    "durum": "OK"
+   },
+   {
+    "ad": "Koumbi Saleh",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Kumbi' https://www.britannica.com/place/Kumbi",
+    "kanit": "Also known as: Koumbi Saleh",
+    "durum": "OK"
+   },
+   {
+    "ad": "Kumbîsâlih",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'GĀNE' https://islamansiklopedisi.org.tr/gane",
+    "kanit": "Kumbîsâlih harabelerinin bu şehre ait olduğu sanılmaktadır",
+    "durum": "OK"
+   }
+  ],
+  "adlar_sira": [
+   "Kumbi",
+   "Koumbi Saleh",
+   "Kumbîsâlih",
+   "Kumbî Sâlih"
+  ],
+  "kaynaksiz": [
+   "Kumbî Sâlih"
+  ]
+ },
+ {
+  "id": "valata-af-p9",
+  "ad_kaynak": [],
+  "adlar_sira": [
+   "Walata",
+   "Oualata",
+   "Valata"
+  ],
+  "kaynaksiz": [
+   "Walata",
+   "Oualata",
+   "Valata"
+  ]
+ },
+ {
+  "id": "dikwa-af-p9",
+  "ad_kaynak": [
+   {
+    "ad": "Дикоа",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Дикоа' https://ru.wikisource.org/wiki/ЭСБЕ/Дикоа",
+    "kanit": "Дикоа или Дигоа — г. в Борну",
+    "durum": "OK"
+   },
+   {
+    "ad": "Дигоа",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Дикоа' https://ru.wikisource.org/wiki/ЭСБЕ/Дикоа",
+    "kanit": "Дикоа или Дигоа — г. в Борну",
+    "durum": "OK"
+   }
+  ],
+  "adlar_sira": [
+   "Dikwa",
+   "Dikoa"
+  ],
+  "kaynaksiz": [
+   "Dikwa",
+   "Dikoa"
+  ]
+ },
+ {
+  "id": "mapungubwe-p9",
+  "ad_kaynak": [
+   {
+    "ad": "Mapungubwe",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Mapungubwe' https://www.britannica.com/place/Mapungubwe",
+    "kanit": "Mapungubwe was a significant Iron Age city in southeastern Africa",
+    "durum": "OK"
+   },
+   {
+    "ad": "Mapungubwe Cultural Landscape",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "UNESCO WHC 'Mapungubwe Cultural Landscape' https://whc.unesco.org/en/list/1099/",
+    "kanit": "Mapungubwe Cultural Landscape Mapungubwe is set hard against the northern",
+    "durum": "OK"
+   },
+   {
+    "ad": "Paysage culturel de Mapungubwe",
+    "dil": "fr",
+    "donem": null,
+    "kaynak": "UNESCO WHC 'Mapungubwe Cultural Landscape' https://whc.unesco.org/fr/list/1099/",
+    "kanit": "Paysage culturel de Mapungubwe Mapungubwe est adossé à la frontière",
+    "durum": "OK"
+   }
+  ],
+  "adlar_sira": [
+   "Mapungubwe"
+  ],
+  "kaynaksiz": []
+ },
+ {
+  "id": "khami-p9",
+  "ad_kaynak": [
+   {
+    "ad": "Khami",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "UNESCO WHC 'Khami Ruins National Monument' https://whc.unesco.org/en/list/365/",
+    "kanit": "Khami, which developed after the capital of Great Zimbabwe had been abandoned",
+    "durum": "OK"
+   },
+   {
+    "ad": "Khami Ruins National Monument",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "UNESCO WHC 'Khami Ruins National Monument' https://whc.unesco.org/en/list/365/",
+    "kanit": "Khami Ruins National Monument Khami, which developed after the capital",
+    "durum": "OK"
+   },
+   {
+    "ad": "Ruines de Khami",
+    "dil": "fr",
+    "donem": null,
+    "kaynak": "UNESCO WHC 'Khami Ruins National Monument' https://whc.unesco.org/fr/list/365/",
+    "kanit": "Ruines de Khami Khami, qui se développa après l'abandon",
+    "durum": "OK"
+   }
+  ],
+  "adlar_sira": [
+   "Khami"
+  ],
+  "kaynaksiz": []
+ },
+ {
+  "id": "serowe-p9",
+  "ad_kaynak": [
+   {
+    "ad": "Serowe",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Serowe' https://www.britannica.com/place/Serowe",
+    "kanit": "Serowe, village, east-central Botswana.",
+    "durum": "OK"
+   }
+  ],
+  "adlar_sira": [
+   "Serowe"
+  ],
+  "kaynaksiz": []
+ },
+ {
+  "id": "enugu-p9",
+  "ad_kaynak": [
+   {
+    "ad": "Enugu",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Enugu' https://www.britannica.com/place/Enugu-Nigeria",
+    "kanit": "Enugu, town, capital of Enugu state, southeastern Nigeria",
+    "durum": "OK"
+   }
+  ],
+  "adlar_sira": [
+   "Enugu"
+  ],
+  "kaynaksiz": []
+ },
+ {
+  "id": "libreville-p10",
+  "ad_kaynak": [
+   {
+    "ad": "Libreville",
+    "dil": "fr",
+    "donem": "1849-",
+    "kaynak": "Encyclopaedia Britannica 'Libreville' https://www.britannica.com/place/Libreville",
+    "kanit": "were given the name Libreville (meaning “free town”)",
+    "durum": "OK"
+   }
+  ],
+  "adlar_sira": [
+   "Libreville"
+  ],
+  "kaynaksiz": []
+ },
+ {
+  "id": "banjul-p10",
+  "ad_kaynak": [
+   {
+    "ad": "Bathurst",
+    "dil": "en",
+    "donem": "-1973",
+    "kaynak": "Encyclopaedia Britannica 'Banjul' https://www.britannica.com/place/Banjul",
+    "kanit": "Formerly (until 1973): Bathurst",
+    "durum": "OK"
+   },
+   {
+    "ad": "Banjul",
+    "dil": "en",
+    "donem": "1973-",
+    "kaynak": "Encyclopaedia Britannica 'Banjul' https://www.britannica.com/place/Banjul",
+    "kanit": "Formerly (until 1973): Bathurst",
+    "durum": "AD_YOK"
+   },
+   {
+    "ad": "Banjul Island",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Banjul' https://www.britannica.com/place/Banjul",
+    "kanit": "Grant chose Banjul Island (ceded by the chief of Kombo)",
+    "durum": "OK"
+   },
+   {
+    "ad": "St. Mary’s Island",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Banjul' https://www.britannica.com/place/Banjul",
+    "kanit": "on St. Mary’s Island, near the mouth of the Gambia River",
+    "durum": "OK"
+   }
+  ],
+  "adlar_sira": [
+   "Banjul Island",
+   "St. Mary’s Island",
+   "Bathurst",
+   "Banjul"
+  ],
+  "kaynaksiz": []
+ },
+ {
+  "id": "bissau-p10",
+  "ad_kaynak": [],
+  "adlar_sira": [
+   "Bissau",
+   "Bissav"
+  ],
+  "kaynaksiz": [
+   "Bissau",
+   "Bissav"
+  ]
+ },
+ {
+  "id": "harare-p10",
+  "ad_kaynak": [
+   {
+    "ad": "Salisbury",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Harare' https://www.britannica.com/place/Harare",
+    "kanit": "Formerly: Salisbury",
+    "durum": "OK"
+   },
+   {
+    "ad": "Harare",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Harare' https://www.britannica.com/place/Harare",
+    "kanit": "The name Harare is derived from that of the outcast Chief Neharawe",
+    "durum": "OK"
+   }
+  ],
+  "adlar_sira": [
+   "Salisbury",
+   "Harare"
+  ],
+  "kaynaksiz": []
+ },
+ {
+  "id": "mutare-p10",
+  "ad_kaynak": [
+   {
+    "ad": "Fort Umtali",
+    "dil": "en",
+    "donem": "1890-",
+    "kaynak": "Encyclopaedia Britannica 'Mutare' https://www.britannica.com/place/Mutare",
+    "kanit": "It originated as Fort Umtali and was built by prospectors",
+    "durum": "OK"
+   },
+   {
+    "ad": "Umtali",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Mutare' https://www.britannica.com/place/Mutare",
+    "kanit": "Formerly: Umtali",
+    "durum": "OK"
+   },
+   {
+    "ad": "Mutare",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Mutare' https://www.britannica.com/place/Mutare",
+    "kanit": "Mutare, city, eastern Zimbabwe.",
+    "durum": "OK"
+   }
+  ],
+  "adlar_sira": [
+   "Fort Umtali",
+   "Umtali",
+   "Mutare"
+  ],
+  "kaynaksiz": []
+ },
+ {
+  "id": "gcuwa-p10",
+  "ad_kaynak": [
+   {
+    "ad": "Butterworth",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Butterworth' https://www.britannica.com/place/Butterworth-South-Africa",
+    "kanit": "Butterworth, town, Eastern Cape province, South Africa.",
+    "durum": "OK"
+   }
+  ],
+  "adlar_sira": [
+   "Butterworth",
+   "Gcuwa"
+  ],
+  "kaynaksiz": [
+   "Gcuwa"
+  ]
+ }
+]

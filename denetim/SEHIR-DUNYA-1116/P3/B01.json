@@ -1,0 +1,18 @@
+[
+{"id":"benguela-ao-p3","ad":"Benguela","atlas_ad":"Benguela","lat":-12.5767,"lon":13.4027,"kat1900":2,"adlar":["Benguela","Benguella"],
+ "ilk":{"t":"1617-01-01","gun":"1617","nicelik":"kurulus","kesinlik":"yil","kaynak":"Britannica, 'Benguela' (britannica.com/place/Benguela), tarayicida okundu 17 Kasim 2026","tanik":"The city was founded in 1617 around São Filipe fortress"},
+ "kur":{"t":"1617-01-01","gun":"1617","kesinlik":"yil","kaynak":"Britannica, 'Benguela'","tanik":"The city was founded in 1617 around São Filipe fortress"},
+ "ark":null,"bit":null,
+ "sahip":[{"f":"1617-01-01","t":"1617-05-17","d":"portekiz-angola","kesinlik":"yil","kaynak":"Britannica, 'Benguela': Portekiz kalesi etrafinda kurulus, 'one of the bases for Portuguese expansion in Africa'"}],
+ "olay":[],
+ "ic_not":"TEK KAYNAK. Tanik ozne zamir = madde konusu; baslik sehir. Gun kaynakta yok (yil), atlas baslangicina (1617-05-17) <=1 yil uzatildi (beyanli dikis); sahip dönemi atlasin ilk sahibi portekiz-angola ile ayni kunye olarak yazildi (kunye 1617'de acilmamis olabilir; hayalet uyarisi beklenir)."}
+,
+{"id":"blantyre-mw-p3","ad":"Blantyre","atlas_ad":"Blantyre","lat":-15.7850,"lon":35.0085,"kat1900":2,"adlar":["Blantyre"],
+ "ilk":{"t":"1876-01-01","gun":"1876","nicelik":"kurulus","kesinlik":"yil","kaynak":"Britannica, 'Blantyre' (britannica.com/place/Blantyre-Malawi), tarayicida okundu 17 Kasim 2026","tanik":"Blantyre was founded in 1876 as a Church of Scotland mission station"},
+ "kur":{"t":"1876-01-01","gun":"1876","kesinlik":"yil","kaynak":"Britannica, 'Blantyre'","tanik":"Blantyre was founded in 1876 as a Church of Scotland mission station"},
+ "ark":null,"bit":null,
+ "sahip":[],
+ "olay":[{"t":"1883-01-01","gun":"1883","k":"diger","b":"Britanya konsolosluk merkezi oldu (gun kaynakta yok)","kaynak":"Britannica, 'Blantyre': 'It became a British consular post in 1883' (ozne zamir = madde konusu)"},
+         {"t":"1895-01-01","gun":"1895","k":"diger","b":"belediye statusu kazandi (gun kaynakta yok)","kaynak":"Britannica, 'Blantyre': 'attained municipal status in 1895' (ozne zamir = madde konusu)"}],
+ "ic_not":"TEK KAYNAK. Atlas noktasi 1876-01-01'de basliyor = ilk.t; zincir gerekmez. Gun kaynakta yok; yil hassasiyeti."}
+]

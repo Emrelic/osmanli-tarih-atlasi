@@ -1,0 +1,101 @@
+[
+ {
+  "id": "kimberley-za-p3",
+  "ad": "Kimberley",
+  "atlas_ad": null,
+  "lat": -28.7323,
+  "lon": 24.7623,
+  "kat1900": 2,
+  "adlar": ["Kimberley", "New Rush (ilk kamp adı)"],
+  "ilk": {
+    "t": "1871-01-01",
+    "gun": "1871",
+    "nicelik": "kurulus",
+    "kesinlik": "yil",
+    "kaynak": "encyclopedia.com, 'Kimberley (South Africa)' maddesi (ilk blok; alt yayın adı sayfada okunmadı), güncelleme 14 Mayıs 2018, https://www.encyclopedia.com/places/africa/south-african-political-geography/kimberley-south-africa",
+    "tanik": "It was founded in 1871 after the discovery of diamonds nearby.",
+    "ic_not": "TEK KAYNAK. Özne zamir = madde konusu; başlık şehir. Kaynakta ilk kayıt tek yıl (1871). Not: Britannica 1911 'Kimberley' 1870 verir (okunmadı, çelişki hakemli karara bırakıldı); kesin kuruluş 1870/1871 ayrımı çözülmedi, encyclopedia.com yılı alındı. Sahip: kaynakta devlet ifadesi yok; 1871-1900 BOŞLUK beyanlı."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1871-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "encyclopedia.com 'Kimberley (South Africa)' maddesi: devlet adı verilmemiş",
+    "ic_not": "BOŞLUK: kaynakta 'şu yer, şu yılda, şu devletin' ifadesi bulunamadı; sahip tanığı borç."
+   }
+  ],
+  "olay": [],
+  "ic_not": "Tarihçe yalnız kuruluş yılı içerir; TEK KAYNAK."
+ },
+ {
+  "id": "kroonstad-za-p3",
+  "ad": "Kroonstad",
+  "atlas_ad": null,
+  "lat": -27.6504,
+  "lon": 27.2349,
+  "kat1900": 2,
+  "adlar": ["Kroonstad"],
+  "ilk": {
+    "t": "1855-01-01",
+    "gun": "1855",
+    "nicelik": "kurulus",
+    "kesinlik": "yil",
+    "kaynak": "The Columbia Encyclopedia, 6th ed., 'Kroonstad' maddesi (encyclopedia.com), https://encyclopedia.com/reference/encyclopedias-almanacs-transcripts-and-maps/kroonstad ; Encyclopaedia Britannica, 'Kroonstad' (Britannica Editors), https://www.britannica.com/place/Kroonstad",
+    "tanik": "Kroonstad was founded in 1855.",
+    "ic_not": "ÇİFT TEYİT. Birinci tanık Columbia 6th ed. (Kroonstad was founded in 1855.); ikinci tanık Britannica: 'Founded in 1855, it served briefly as the Boer capital of the Orange Free State' (özne zamir = madde konusu; başlık şehir). Bağımsızlık: ayrı yayıncı (Columbia Univ. Press/Gale-encyclopedia.com vs Britannica); cümleler farklı; ikisi de kısa ansiklopedi maddesi, kaynakçasız; ortak birincil dayanak kanıtı bulunamadı (kopya kanıtı yok, ancak aynı tipte ikincil derleme olduğundan bağımsızlık zayıf-orta). Sahip: kaynakta devlet adı yok; BOŞLUK beyanlı."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1855-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Columbia Encyclopedia 6th ed. 'Kroonstad': 1900'de Orange Free State başkenti anılır ama 1855-1900 sahip yılı/ devlet tanığı yok",
+    "ic_not": "BOŞLUK: sahip tanığı borç (Orange Free State ifadesi yalnız 1900 olayında)."
+   }
+  ],
+  "olay": [],
+  "ic_not": "Tarihçe yalnız kuruluş yılı içerir; ÇİFT TEYİT."
+ },
+ {
+  "id": "kisangani-cd-p3",
+  "ad": "Kisangani",
+  "atlas_ad": null,
+  "lat": 0.5153,
+  "lon": 25.191,
+  "kat1900": 2,
+  "adlar": ["Kisangani", "Stanleyville"],
+  "ilk": {
+    "t": "1883-01-01",
+    "gun": "1883",
+    "nicelik": "kurulus",
+    "kesinlik": "yil",
+    "kaynak": "encyclopedia.com, 'Kisangani' maddesi (World Encyclopedia), https://www.encyclopedia.com/environment/encyclopedias-almanacs-transcripts-and-maps/kisangani",
+    "tanik": "English explorer Henry M. Stanley founded Kisangani in 1883.",
+    "ic_not": "TEK KAYNAK. Cümlede şehir adı ve yıl var. Kisangani ad olarak 1966 sonrası; kuruluş Stanley Falls Station/ Stanleyville. Sahip: kaynakta devlet ifadesi yok; BOŞLUK beyanlı."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1883-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "encyclopedia.com 'Kisangani' maddesi: devlet adı verilmemiş",
+    "ic_not": "BOŞLUK: sahip tanığı borç."
+   }
+  ],
+  "olay": [],
+  "ic_not": "Tarihçe yalnız kuruluş yılı içerir; TEK KAYNAK."
+ }
+]

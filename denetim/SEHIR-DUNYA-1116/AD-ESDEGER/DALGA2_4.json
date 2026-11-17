@@ -1,0 +1,933 @@
+[
+ {
+  "id": "etave-in-a3",
+  "ad_kaynak": [
+   {
+    "ad": "Etâve",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'DELHİ SULTANLIĞI' https://islamansiklopedisi.org.tr/delhi-sultanligi",
+    "kanit": "Etâve’deki isyanı sert bir şekilde bastırdığı bilinmektedir"
+   },
+   {
+    "ad": "Etawah",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Etawah' https://www.britannica.com/place/Etawah",
+    "kanit": "Etawah contains the 16th-century"
+   }
+  ],
+  "adlar_sira": [
+   "Etâve",
+   "Etawah"
+  ],
+  "kaynaksiz": []
+ },
+ {
+  "id": "evrengabad-in-a3",
+  "ad_kaynak": [
+   {
+    "ad": "Evrengâbâd",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'EVRENGZÎB' https://islamansiklopedisi.org.tr/evrengzib",
+    "kanit": "Evrengâbâd yakınlarındaki Huldâbâd’da defnedildi"
+   },
+   {
+    "ad": "Aurangabad",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Chhatrapati Sambhajinagar (Aurangabad)' https://www.britannica.com/place/Aurangabad",
+    "kanit": "Also known as: Aurangabad, Fatehnagar, Khadki"
+   },
+   {
+    "ad": "Fatehnagar",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Chhatrapati Sambhajinagar (Aurangabad)' https://www.britannica.com/place/Aurangabad",
+    "kanit": "Also known as: Aurangabad, Fatehnagar, Khadki"
+   },
+   {
+    "ad": "Khadki",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Chhatrapati Sambhajinagar (Aurangabad)' https://www.britannica.com/place/Aurangabad",
+    "kanit": "originally known as Khadki, was founded by Malik Ambar"
+   },
+   {
+    "ad": "Chhatrapati Sambhajinagar",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Chhatrapati Sambhajinagar (Aurangabad)' https://www.britannica.com/place/Aurangabad",
+    "kanit": "Chhatrapati Sambhajinagar, city, west-central Maharashtra state, western India"
+   }
+  ],
+  "adlar_sira": [
+   "Khirki (TDV: Khirki'yi (Evrengâbâd))",
+   "Evrengâbâd",
+   "Aurangabad",
+   "Fatehnagar",
+   "Khadki",
+   "Chhatrapati Sambhajinagar"
+  ],
+  "kaynaksiz": [
+   "Khirki (TDV: Khirki'yi (Evrengâbâd))"
+  ]
+ },
+ {
+  "id": "sikarpur-p6",
+  "ad_kaynak": [
+   {
+    "ad": "Shikarpur",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Shikārpur' https://www.britannica.com/place/Shikarpur",
+    "kanit": "Shikārpur, city, northern Sindh province, southern Pakistan"
+   }
+  ],
+  "adlar_sira": [
+   "Shikarpur"
+  ],
+  "kaynaksiz": []
+ },
+ {
+  "id": "gorakhpur-p6",
+  "ad_kaynak": [
+   {
+    "ad": "Gorakhpur",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Gorakhpur' https://www.britannica.com/place/Gorakhpur",
+    "kanit": "Gorakhpur subsequently served as the British army recruitment center"
+   }
+  ],
+  "adlar_sira": [
+   "Gorakhpur"
+  ],
+  "kaynaksiz": []
+ },
+ {
+  "id": "rajahmundry-in-p6",
+  "ad_kaynak": [
+   {
+    "ad": "Rajahmundry",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Rajamahendravaram (Rajahmundry)' https://www.britannica.com/place/Rajahmundry",
+    "kanit": "The city was renamed from Rajahmundry to Rajamahendravaram"
+   },
+   {
+    "ad": "Rajamahendravaram",
+    "dil": "te",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Rajamahendravaram (Rajahmundry)' https://www.britannica.com/place/Rajahmundry",
+    "kanit": "The city was renamed from Rajahmundry to Rajamahendravaram"
+   }
+  ],
+  "adlar_sira": [
+   "Rajahmundry",
+   "Rajamahendravaram"
+  ],
+  "kaynaksiz": []
+ },
+ {
+  "id": "daman-in-p6",
+  "ad_kaynak": [
+   {
+    "ad": "Damão",
+    "dil": "pt",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Daman' https://www.britannica.com/place/Daman",
+    "kanit": "Known as Damão, the town was part of Portuguese India"
+   },
+   {
+    "ad": "Daman",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Hobson-Jobson 'DAMAN' https://dsal.uchicago.edu/cgi-bin/app/hobsonjobson_query.py?qs=daman&searchhws=yes",
+    "kanit": "DAMAN, n.p. Damān, one of the old settlements of the Portuguese"
+   }
+  ],
+  "adlar_sira": [
+   "Daman",
+   "Damão"
+  ],
+  "kaynaksiz": []
+ },
+ {
+  "id": "mahe-in-p6",
+  "ad_kaynak": [
+   {
+    "ad": "Mahé",
+    "dil": "fr",
+    "donem": null,
+    "kaynak": "Hobson-Jobson 'MAHE' https://dsal.uchicago.edu/cgi-bin/app/hobsonjobson_query.py?qs=mahe&searchhws=yes",
+    "kanit": "the title is from the French Mahé"
+   },
+   {
+    "ad": "Mahe",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Hobson-Jobson 'MAHE' https://dsal.uchicago.edu/cgi-bin/app/hobsonjobson_query.py?qs=mahe&searchhws=yes",
+    "kanit": "MAHE, n.p. Properly"
+   },
+   {
+    "ad": "Mayyazhi",
+    "dil": "ml",
+    "donem": null,
+    "kaynak": "Hobson-Jobson 'MAHE' https://dsal.uchicago.edu/cgi-bin/app/hobsonjobson_query.py?qs=mahe&searchhws=yes",
+    "kanit": "the Mal. name is Mayyazhi"
+   },
+   {
+    "ad": "Māyēl̤i",
+    "dil": "ml",
+    "donem": null,
+    "kaynak": "Hobson-Jobson 'MAHE' https://dsal.uchicago.edu/cgi-bin/app/hobsonjobson_query.py?qs=mahe&searchhws=yes",
+    "kanit": "Properly Māyēl̤i"
+   },
+   {
+    "ad": "Mahe",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Imperial Gazetteer of India (DSAL) cilt 4 s.123 https://dsal.uchicago.edu/cgi-bin/reference/gazetteer/query.py?keyword=Karikal",
+    "kanit": "Chandernagore, Pondicherry, Karikal, Mahe, and Yanam"
+   }
+  ],
+  "adlar_sira": [
+   "Mahé",
+   "Mahe",
+   "Mayyazhi",
+   "Māyēl̤i"
+  ],
+  "kaynaksiz": []
+ },
+ {
+  "id": "yanam-in-p6",
+  "ad_kaynak": [
+   {
+    "ad": "Yanaon",
+    "dil": "fr",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Yanam' https://www.britannica.com/place/Yanam-India",
+    "kanit": "Also known as: Yanaon"
+   },
+   {
+    "ad": "Yanam",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Yanam' https://www.britannica.com/place/Yanam-India",
+    "kanit": "Yanam, town, Puducherry union territory, eastern India"
+   },
+   {
+    "ad": "Yanam",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Imperial Gazetteer of India (DSAL) cilt 4 s.123 https://dsal.uchicago.edu/cgi-bin/reference/gazetteer/query.py?keyword=Yanam",
+    "kanit": "Chandernagore, Pondicherry, Karikal, Mahe, and Yanam"
+   }
+  ],
+  "adlar_sira": [
+   "Yanam",
+   "Yanaon"
+  ],
+  "kaynaksiz": []
+ },
+ {
+  "id": "serampore-in-p6",
+  "ad_kaynak": [
+   {
+    "ad": "Serampore",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Banglapedia 'Serampore' https://en.banglapedia.org/index.php/Serampore",
+    "kanit": "Serampore is a pre-colonial town on the right bank of the Hughli river"
+   },
+   {
+    "ad": "Frederiksnagar",
+    "dil": "da",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Serampore' https://www.britannica.com/place/Serampore",
+    "kanit": "Originally a Danish settlement founded in the 18th century and called Frederiksnagar"
+   },
+   {
+    "ad": "Frederiknagar",
+    "dil": "da",
+    "donem": null,
+    "kaynak": "Banglapedia 'Serampore' https://en.banglapedia.org/index.php/Serampore",
+    "kanit": "The newly occupied land was named Frederiknagar after King Frederick V"
+   },
+   {
+    "ad": "Serampur",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Serampore' https://www.britannica.com/place/Serampore",
+    "kanit": "Also known as: Frederiksnagar, Serampur, Srirampur"
+   },
+   {
+    "ad": "Srirampur",
+    "dil": "bn",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Serampore' https://www.britannica.com/place/Serampore",
+    "kanit": "Also known as: Frederiksnagar, Serampur, Srirampur"
+   }
+  ],
+  "adlar_sira": [
+   "Frederiksnagar",
+   "Serampore",
+   "Frederiknagar",
+   "Serampur",
+   "Srirampur"
+  ],
+  "kaynaksiz": []
+ },
+ {
+  "id": "charaideo-in-p6",
+  "ad_kaynak": [
+   {
+    "ad": "Charaideo",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Charaideo' https://www.britannica.com/place/Charaideo",
+    "kanit": "was buried in Charaideo (pronounced locally as sorai-deo)"
+   },
+   {
+    "ad": "Sorai-deo",
+    "dil": "as",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Charaideo' https://www.britannica.com/place/Charaideo",
+    "kanit": "was buried in Charaideo (pronounced locally as sorai-deo)"
+   }
+  ],
+  "adlar_sira": [
+   "Charaideo",
+   "Sorai-deo"
+  ],
+  "kaynaksiz": []
+ },
+ {
+  "id": "siyalkot-in-p7",
+  "ad_kaynak": [
+   {
+    "ad": "Siyâlkût",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'PENCAP' https://islamansiklopedisi.org.tr/pencap",
+    "kanit": "Mâchî: Lahor, Siyâlkût, Gucranvâlâ, Gurdâspûr, Amritsar"
+   },
+   {
+    "ad": "Sialkot",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Sialkot' https://www.britannica.com/place/Sialkot-Pakistan",
+    "kanit": "Siālkot, city and district, Lahore division, Punjab province, Pakistan"
+   },
+   {
+    "ad": "Śākala",
+    "dil": "sa",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Sialkot' (özdeşleştirme 'may be') https://www.britannica.com/place/Sialkot-Pakistan",
+    "kanit": "it may be the site of ancient Śākala (Sagul), capital"
+   },
+   {
+    "ad": "Sagul",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Sialkot' (özdeşleştirme 'may be') https://www.britannica.com/place/Sialkot-Pakistan",
+    "kanit": "it may be the site of ancient Śākala (Sagul), capital"
+   },
+   {
+    "ad": "Sagala",
+    "dil": "sa",
+    "donem": null,
+    "kaynak": "Imperial Gazetteer of India (DSAL) cilt 2 s.81 (özdeşleştirme) https://dsal.uchicago.edu/cgi-bin/reference/gazetteer/query.py?keyword=Sialkot",
+    "kanit": "Sagala, She-ka-lo, is Sialkot, the chief town of the Sialkot District"
+   }
+  ],
+  "adlar_sira": [
+   "Sialkot",
+   "Sakala (Sagal) — özdeşleştirme tartışmalı",
+   "Siyâlkût",
+   "Śākala",
+   "Sagul",
+   "Sagala"
+  ],
+  "kaynaksiz": [
+   "Sakala (Sagal) — özdeşleştirme tartışmalı"
+  ]
+ },
+ {
+  "id": "panipat-in-p7",
+  "ad_kaynak": [
+   {
+    "ad": "Pânîpet",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'İBRÂHİM-i LÛDÎ' https://islamansiklopedisi.org.tr/ibrahim-i-ludi",
+    "kanit": "iki ordu 1526’da Pânîpet’te karşılaştı"
+   },
+   {
+    "ad": "Panipat",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Panipat' https://www.britannica.com/place/Panipat",
+    "kanit": "Panipat, city, east-central Haryana state, northwestern India"
+   }
+  ],
+  "adlar_sira": [
+   "Pânipat",
+   "Pânîpet"
+  ],
+  "kaynaksiz": []
+ },
+ {
+  "id": "ravalpindi-in-p7",
+  "ad_kaynak": [
+   {
+    "ad": "Ravalpindi",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'PENCAP' https://islamansiklopedisi.org.tr/pencap",
+    "kanit": "Pencap kimliği büyük oranda Ravalpindi, Mültan ve Ambâla"
+   },
+   {
+    "ad": "Rawalpindi",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Rawalpindi' https://www.britannica.com/place/Rawalpindi",
+    "kanit": "Rawalpindi (“Village of Rawals”) occupies the site of an old village"
+   },
+   {
+    "ad": "Gajipur",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Rawalpindi' (özdeşleştirme) https://www.britannica.com/place/Rawalpindi",
+    "kanit": "identified with the ancient city Gajipur, or Gajnipur"
+   },
+   {
+    "ad": "Gajnipur",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Rawalpindi' (özdeşleştirme) https://www.britannica.com/place/Rawalpindi",
+    "kanit": "identified with the ancient city Gajipur, or Gajnipur"
+   }
+  ],
+  "adlar_sira": [
+   "Fatehpur Baori",
+   "Rawalpindi",
+   "Ravalpindi",
+   "Gajipur",
+   "Gajnipur"
+  ],
+  "kaynaksiz": [
+   "Fatehpur Baori"
+  ]
+ },
+ {
+  "id": "bhagalpur-in-p7",
+  "ad_kaynak": [
+   {
+    "ad": "Bhagalpur",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Bhagalpur' https://www.britannica.com/place/Bhagalpur",
+    "kanit": "Formerly called Sujanganj, Bhagalpur was constituted a municipality in 1864"
+   },
+   {
+    "ad": "Sujanganj",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Bhagalpur' https://www.britannica.com/place/Bhagalpur",
+    "kanit": "Formerly called Sujanganj, Bhagalpur was constituted a municipality in 1864"
+   }
+  ],
+  "adlar_sira": [
+   "Bhagalpur",
+   "Bhâgalpûr",
+   "Sujanganj"
+  ],
+  "kaynaksiz": []
+ },
+ {
+  "id": "gauhati-in-p7",
+  "ad_kaynak": [
+   {
+    "ad": "Gauhati",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Guwahati' https://www.britannica.com/place/Guwahati",
+    "kanit": "Also known as: Gauhati, Pragjyotisa"
+   },
+   {
+    "ad": "Guwahati",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Guwahati' https://www.britannica.com/place/Guwahati",
+    "kanit": "The Myanmar (Burmese) held Guwahati from 1816 until 1826"
+   },
+   {
+    "ad": "Pragjyotisa",
+    "dil": "sa",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Guwahati' https://www.britannica.com/place/Guwahati",
+    "kanit": "Kamarupa (under the name of Pragjyotisa) about 400 ce"
+   }
+  ],
+  "adlar_sira": [
+   "Pragjyotishapura (özdeşleştirme)",
+   "Gauhati",
+   "Guwahati",
+   "Pragjyotisa"
+  ],
+  "kaynaksiz": [
+   "Pragjyotishapura (özdeşleştirme)"
+  ]
+ },
+ {
+  "id": "satara-in-p7",
+  "ad_kaynak": [
+   {
+    "ad": "Satara",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Satara' https://www.britannica.com/place/Satara",
+    "kanit": "Satara, city, southwestern Maharashtra state, western India"
+   },
+   {
+    "ad": "Satara",
+    "dil": "tr",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'HİNDİSTAN' https://islamansiklopedisi.org.tr/hindistan",
+    "kanit": "Sind, Keşmir, Asam, Peşâver, Satara, Cihansi ve Magpûr"
+   }
+  ],
+  "adlar_sira": [
+   "Satara"
+  ],
+  "kaynaksiz": []
+ },
+ {
+  "id": "patan-anhilvada-in-p7",
+  "ad_kaynak": [
+   {
+    "ad": "Anhilvada",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Imperial Gazetteer of India (DSAL) cilt 20 s.24 https://dsal.uchicago.edu/cgi-bin/reference/gazetteer/query.py?keyword=Anhilpur",
+    "kanit": "In former times it was known as ANHILVADA or Anhilpur"
+   },
+   {
+    "ad": "Anhilpur",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Imperial Gazetteer of India (DSAL) cilt 20 s.24 https://dsal.uchicago.edu/cgi-bin/reference/gazetteer/query.py?keyword=Anhilpur",
+    "kanit": "In former times it was known as ANHILVADA or Anhilpur"
+   },
+   {
+    "ad": "Patan",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Patan' (Gujarat) https://www.britannica.com/place/Patan",
+    "kanit": "Patan, city, northern Gujarat state, west-central India"
+   }
+  ],
+  "adlar_sira": [
+   "Anhilvada",
+   "Anhilpur",
+   "Anahilapataka",
+   "Patan"
+  ],
+  "kaynaksiz": [
+   "Anahilapataka"
+  ]
+ },
+ {
+  "id": "tranquebar-in-p7",
+  "ad_kaynak": [
+   {
+    "ad": "Tranquebar",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Hobson-Jobson 'TRANQUEBAR' https://dsal.uchicago.edu/cgi-bin/app/hobsonjobson_query.py?qs=tranquebar&searchhws=yes",
+    "kanit": "TRANQUEBAR, n.p. A seaport of S. India"
+   },
+   {
+    "ad": "Tarangambāḍi",
+    "dil": "ta",
+    "donem": null,
+    "kaynak": "Hobson-Jobson 'TRANQUEBAR' https://dsal.uchicago.edu/cgi-bin/app/hobsonjobson_query.py?qs=tranquebar&searchhws=yes",
+    "kanit": "The true name is said to be Tarangambāḍi"
+   }
+  ],
+  "adlar_sira": [
+   "Tarangambadi",
+   "Tranquebar",
+   "Trankebar"
+  ],
+  "kaynaksiz": [
+   "Trankebar"
+  ]
+ },
+ {
+  "id": "karaikal-in-p7",
+  "ad_kaynak": [
+   {
+    "ad": "Karaikal",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Karaikal' https://www.britannica.com/place/Karaikal",
+    "kanit": "Karaikal, the chief town of the Karaikal territory and a former French colony"
+   },
+   {
+    "ad": "Karikal",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Imperial Gazetteer of India (DSAL) cilt 4 s.123 (ve cilt 2 s.470) https://dsal.uchicago.edu/cgi-bin/reference/gazetteer/query.py?keyword=Karikal",
+    "kanit": "Chandernagore, Pondicherry, Karikal, Mahe, and Yanam"
+   }
+  ],
+  "adlar_sira": [
+   "Karikal",
+   "Karaikal"
+  ],
+  "kaynaksiz": []
+ },
+ {
+  "id": "banavasi-in-p7",
+  "ad_kaynak": [
+   {
+    "ad": "Banavasi",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Imperial Gazetteer of India (DSAL) cilt 6 s.346-347 https://dsal.uchicago.edu/cgi-bin/reference/gazetteer/query.py?keyword=Banavasi",
+    "kanit": "BANAVASI, from which the province took its name, was an ancient city"
+   },
+   {
+    "ad": "Vanavasi",
+    "dil": "sa",
+    "donem": null,
+    "kaynak": "Imperial Gazetteer of India (DSAL) cilt 6 s.346 https://dsal.uchicago.edu/cgi-bin/reference/gazetteer/query.py?keyword=Vanavasi",
+    "kanit": "Vanavasi (Banavâsi) in Kanara"
+   }
+  ],
+  "adlar_sira": [
+   "Vanavasi",
+   "Banavasi",
+   "Banaousi (Ptolemaios)"
+  ],
+  "kaynaksiz": [
+   "Banaousi (Ptolemaios)"
+  ]
+ },
+ {
+  "id": "chamba-in-p7",
+  "ad_kaynak": [
+   {
+    "ad": "Chamba",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Imperial Gazetteer of India (DSAL) cilt 10 s.130 https://dsal.uchicago.edu/cgi-bin/reference/gazetteer/query.py?keyword=Brahmapura",
+    "kanit": "the town of Chamba built by Sahil Varma about 920"
+   },
+   {
+    "ad": "Brahmapura",
+    "dil": "sa",
+    "donem": null,
+    "kaynak": "Imperial Gazetteer of India (DSAL) cilt 10 s.130 https://dsal.uchicago.edu/cgi-bin/reference/gazetteer/query.py?keyword=Brahmapura",
+    "kanit": "built Brahmapura, the modern Brahmaur"
+   }
+  ],
+  "adlar_sira": [
+   "Chamba",
+   "Brahmapura (eski merkez, bugünkü Brahmaur)",
+   "Brahmapura"
+  ],
+  "kaynaksiz": []
+ },
+ {
+  "id": "dholka-in-p7",
+  "ad_kaynak": [
+   {
+    "ad": "Dholka",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Imperial Gazetteer of India (DSAL) cilt 5 s.96 https://dsal.uchicago.edu/cgi-bin/reference/gazetteer/query.py?keyword=Dholka",
+    "kanit": "Dholka was handed over to the British for the support"
+   }
+  ],
+  "adlar_sira": [
+   "Dholka",
+   "Dhavalakka"
+  ],
+  "kaynaksiz": [
+   "Dhavalakka"
+  ]
+ },
+ {
+  "id": "dambadeniya-in-p8",
+  "ad_kaynak": [],
+  "adlar_sira": [
+   "Dambadeniya",
+   "Dambadeṇiya"
+  ],
+  "kaynaksiz": [
+   "Dambadeniya",
+   "Dambadeṇiya"
+  ]
+ },
+ {
+  "id": "sonargaon-in-p8b",
+  "ad_kaynak": [
+   {
+    "ad": "Svarnagrama",
+    "dil": "sa",
+    "donem": null,
+    "kaynak": "Banglapedia 'Sonargaon' https://en.banglapedia.org/index.php/Sonargaon",
+    "kanit": "Sonargaon originally Svarnagrama or Suvarnagrama, denotes an ancient janapada"
+   },
+   {
+    "ad": "Suvarnagrama",
+    "dil": "sa",
+    "donem": null,
+    "kaynak": "Banglapedia 'Sonargaon' https://en.banglapedia.org/index.php/Sonargaon",
+    "kanit": "Sonargaon originally Svarnagrama or Suvarnagrama, denotes an ancient janapada"
+   },
+   {
+    "ad": "Sonargaon",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Banglapedia 'Sonargaon' https://en.banglapedia.org/index.php/Sonargaon",
+    "kanit": "Sonargaon originally Svarnagrama or Suvarnagrama, denotes an ancient janapada"
+   },
+   {
+    "ad": "Sonârgâon",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'BENGAL SULTANLIĞI' https://islamansiklopedisi.org.tr/bengal-sultanligi",
+    "kanit": "doğuda merkezi Sonârgâon olmak üzere iki valiliğe ayırdı"
+   }
+  ],
+  "adlar_sira": [
+   "Sonargaon",
+   "Svarnagrama",
+   "Suvarnagrama"
+  ],
+  "kaynaksiz": []
+ },
+ {
+  "id": "hugli-in-p8b",
+  "ad_kaynak": [
+   {
+    "ad": "Hooghly",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Hooghly' https://www.britannica.com/place/Hooghly",
+    "kanit": "Also known as: Hooghly-Chinsurah, Hugli, Hugli-Chinsurah"
+   },
+   {
+    "ad": "Hugli",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Hooghly' https://www.britannica.com/place/Hooghly",
+    "kanit": "Also known as: Hooghly-Chinsurah, Hugli, Hugli-Chinsurah"
+   },
+   {
+    "ad": "Hooghly-Chinsurah",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Hooghly' https://www.britannica.com/place/Hooghly",
+    "kanit": "Also known as: Hooghly-Chinsurah, Hugli, Hugli-Chinsurah"
+   },
+   {
+    "ad": "Hugli-Chinsurah",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Hooghly' https://www.britannica.com/place/Hooghly",
+    "kanit": "Also known as: Hooghly-Chinsurah, Hugli, Hugli-Chinsurah"
+   },
+   {
+    "ad": "Hoogly",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Hobson-Jobson 'HOOGLY, HOOGHLEY' https://dsal.uchicago.edu/cgi-bin/app/hobsonjobson_query.py?qs=hoogly&searchhws=yes",
+    "kanit": "HOOGLY, HOOGHLEY, n.p. Properly Hūglī"
+   },
+   {
+    "ad": "Hooghley",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Hobson-Jobson 'HOOGLY, HOOGHLEY' https://dsal.uchicago.edu/cgi-bin/app/hobsonjobson_query.py?qs=hoogly&searchhws=yes",
+    "kanit": "HOOGLY, HOOGHLEY, n.p. Properly Hūglī"
+   },
+   {
+    "ad": "Hūglī",
+    "dil": "bn",
+    "donem": null,
+    "kaynak": "Hobson-Jobson 'HOOGLY, HOOGHLEY' https://dsal.uchicago.edu/cgi-bin/app/hobsonjobson_query.py?qs=hoogly&searchhws=yes",
+    "kanit": "HOOGLY, HOOGHLEY, n.p. Properly Hūglī"
+   },
+   {
+    "ad": "Hugli",
+    "dil": "tr",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'BÂBÜRLÜLER' https://islamansiklopedisi.org.tr/baburluler",
+    "kanit": "Portekizliler’le Hugli’deki mücadele Şah Cihan lehinde sonuçlandı"
+   }
+  ],
+  "adlar_sira": [
+   "Hugli",
+   "Hooghly",
+   "Hughli",
+   "Hooghly-Chinsurah",
+   "Hugli-Chinsurah",
+   "Hoogly",
+   "Hooghley"
+  ],
+  "kaynaksiz": [
+   "Hughli"
+  ]
+ },
+ {
+  "id": "calandhar-in-p8b",
+  "ad_kaynak": [
+   {
+    "ad": "Jalandhar",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Jalandhar' https://www.britannica.com/place/Jalandhar",
+    "kanit": "Jalandhar is an ancient city"
+   },
+   {
+    "ad": "Jullundur",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Jalandhar' https://www.britannica.com/place/Jalandhar",
+    "kanit": "Also known as: Jullundur"
+   },
+   {
+    "ad": "Jalandhara",
+    "dil": "sa",
+    "donem": null,
+    "kaynak": "Imperial Gazetteer of India (DSAL) cilt 6 s.216 https://dsal.uchicago.edu/cgi-bin/reference/gazetteer/query.py?keyword=Jalandhara",
+    "kanit": "feudatories of the kings of Jalandhara or Trigartta"
+   },
+   {
+    "ad": "Jalandhar",
+    "dil": "tr",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'PENCAP' https://islamansiklopedisi.org.tr/pencap",
+    "kanit": "Amritsar (1.154.900) ve Jalandhar’dır (830.100)"
+   }
+  ],
+  "adlar_sira": [
+   "Jalandhara",
+   "Jullundur",
+   "Jalandhar"
+  ],
+  "kaynaksiz": []
+ },
+ {
+  "id": "ludhiyana-in-p8b",
+  "ad_kaynak": [
+   {
+    "ad": "Lodiana",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Imperial Gazetteer of India (DSAL) cilt 16 s.208 https://dsal.uchicago.edu/cgi-bin/reference/gazetteer/query.py?keyword=Lodiana",
+    "kanit": "from whom it took its name of Lodiana, corrupted into Ludhiana"
+   },
+   {
+    "ad": "Ludhiana",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Ludhiana' https://www.britannica.com/place/Ludhiana",
+    "kanit": "Ludhiana, city, central Punjab state, northwestern India"
+   },
+   {
+    "ad": "Ludhiana",
+    "dil": "tr",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'PENCAP' https://islamansiklopedisi.org.tr/pencap",
+    "kanit": "diğer önemli şehirleri Ludhiana (1.624.700), Amritsar (1.154.900)"
+   }
+  ],
+  "adlar_sira": [
+   "Lodiana",
+   "Ludhiana"
+  ],
+  "kaynaksiz": []
+ },
+ {
+  "id": "thane-in-p11",
+  "ad_kaynak": [
+   {
+    "ad": "Thana",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Thane' https://www.britannica.com/place/Thane-India",
+    "kanit": "Thane India Also known as: Thana"
+   },
+   {
+    "ad": "Tâna",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'HİNDİSTAN' https://islamansiklopedisi.org.tr/hindistan",
+    "kanit": "Berûc/Berûs (Broach), Tâna (Thana), Saymûr (Chaul)"
+   },
+   {
+    "ad": "Thana",
+    "dil": "tr",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'HİNDİSTAN' https://islamansiklopedisi.org.tr/hindistan",
+    "kanit": "Berûc/Berûs (Broach), Tâna (Thana), Saymûr (Chaul)"
+   },
+   {
+    "ad": "Thane",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Thane' https://www.britannica.com/place/Thane-India",
+    "kanit": "Thane, Maharashtra, India"
+   }
+  ],
+  "adlar_sira": [
+   "Sthanaka",
+   "Thana",
+   "Thane",
+   "Tâna"
+  ],
+  "kaynaksiz": [
+   "Sthanaka"
+  ]
+ },
+ {
+  "id": "puri-in-p11",
+  "ad_kaynak": [
+   {
+    "ad": "Puri",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Puri' https://www.britannica.com/place/Puri-India",
+    "kanit": "Puri is also a famous Hindu pilgrimage centre"
+   }
+  ],
+  "adlar_sira": [
+   "Puri"
+  ],
+  "kaynaksiz": []
+ },
+ {
+  "id": "sadiya-in-p11",
+  "ad_kaynak": [
+   {
+    "ad": "Sadiya",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Imperial Gazetteer of India (DSAL) cilt 1 s.19 https://dsal.uchicago.edu/cgi-bin/reference/gazetteer/query.py?keyword=Sadiya",
+    "kanit": "station of Sadiya in Upper Assam three important streams unite"
+   }
+  ],
+  "adlar_sira": [
+   "Sadiya"
+  ],
+  "kaynaksiz": []
+ }
+]

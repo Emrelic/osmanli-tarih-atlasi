@@ -1,0 +1,12 @@
+id	ad	neden
+buake-af-p9	Buake	Turkce yazim; Britannica/TDV'de yok (Britannica 'Bouaké')
+lome-p10	Lome	aksansiz yazim kaynakta yok (Britannica/Columbia/TDV 'Lomé')
+bangui-p10	Bangi	Turkce yazim; TDV 'Bangui' yazar, 'Bangi' kaynakta yok
+laayoune-p10	El-Ayn	Britannica 'El-Ayoun/El-Aaiún' yazar; 'El-Ayn' yazimi kaynakta yok
+dakar-af-p9	(Wolof yerel ad)	Britannica yalniz 'dakhar' agac adini verir, sehrin Wolofca adi yok
+ibadan-p10	(Yoruba Ìbàdàn)	Britannica/Columbia/TDV'de Yoruba yazimi yok
+douala-p10	(Duala yerel ad)	kaynakta yok
+timbo-p10	(Fula yerel ad)	kaynakta yok
+hwange-p13	(Ndebele/Nambya ad)	kaynakta yok
+*	(Arapca yazi / Osmanli yazimi)	Afrika sehirleri icin Britannica/TDV/Columbia'da Arapca yazi yok (Laayoune Al-ʿUyūn translit. haric)
+hwange-p13	Wankie donemi	kaynak yil vermiyor; donem null

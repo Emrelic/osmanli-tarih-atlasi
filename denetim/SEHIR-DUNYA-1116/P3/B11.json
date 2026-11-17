@@ -1,0 +1,98 @@
+[
+ {
+  "id": "fergana-uz-p3",
+  "ad": "Fergana",
+  "atlas_ad": null,
+  "lat": 40.3842,
+  "lon": 71.7843,
+  "kat1900": 2,
+  "adlar": ["Fergana"],
+  "ilk": {
+   "t": "1877-01-01",
+   "gun": "1877",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Fergana' (Uzbekistan), https://www.britannica.com/place/Fergana-Uzbekistan (tarayıcıda okundu, 17 Kasım 2026)",
+   "tanik": "It was founded by the Russians in 1877"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1877-01-01",
+    "t": "1900-01-01",
+    "d": "rusya",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, 'Fergana' (Uzbekistan): «founded by the Russians in 1877 as the military and administrative centre of the province of Fergana, formed from the newly conquered khanate of Kokand»",
+    "ic_not": "Kurucu devlet Rusya (Çarlık); 1877'den 1900'e kaynakta el değiştirme yok."
+   }
+  ],
+  "olay": [],
+  "ic_not": "P3-B11. TEK KAYNAK. Britannica gövdesinden (YZ özeti bloğu dışı; sayfada 'Summary created' bloğu yok). Özne zamir 'It' = madde konusu; başlık şehir. Aynı cümlede şehir adı ('province of Fergana') + yıl var; tanık ≤15 kelime sınırı için cümlenin başı alındı. Atlas noktası yok: 'Fergana' (bolge, 40.644,71.643) ~30 km uzakta ve eski vadi bölgesi, 3 km eşleşmesi yok. Gün kaynakta yok: YYYY-01-01 + 'yil'."
+ },
+ {
+  "id": "aktobe-kz-p3",
+  "ad": "Aktobe",
+  "atlas_ad": null,
+  "lat": 50.2797,
+  "lon": 57.2072,
+  "kat1900": 3,
+  "adlar": ["Aktyube", "Aktyubinsk", "Aktobe"],
+  "ilk": {
+   "t": "1869-01-01",
+   "gun": "1869",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Aqtöbe' (Kazakhstan), https://www.britannica.com/place/Aqtobe-Kazakhstan (tarayıcıda okundu, 17 Kasım 2026)",
+   "tanik": "It was founded in 1869 as Aktyube (“White Hill”), a small Russian fort"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1869-01-01",
+    "t": "1900-01-01",
+    "d": "rusya",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, 'Aqtöbe' (Kazakhstan): «a small Russian fort»; 1891'de uyezd merkezi",
+    "ic_not": "Kaynak kuruluşu 'Russian fort' olarak verir; Rusya Çarlığı sahibi olarak yazıldı, 1900'e kadar el değiştirme yok."
+   }
+  ],
+  "olay": [],
+  "ic_not": "P3-B11. TEK KAYNAK. Britannica gövdesinden (YZ özeti bloğu dışı; 'Summary created' bloğu yok). Özne zamir 'It' = madde konusu; başlık şehir. Ad Britannica'da 'Aqtöbe', eski ad Aktyubinsk. Atlas noktası yok (Aktobe/Aktyubinsk adıyla tarandı). WebSearch özeti e-history.kz'de 28 Mayıs 1869 gününü anar ama sayfa bu oturumda okunmadı; gün yazılmadı."
+ },
+ {
+  "id": "atbasar-kz-p3",
+  "ad": "Atbasar",
+  "atlas_ad": null,
+  "lat": 51.8085,
+  "lon": 68.3582,
+  "kat1900": 3,
+  "adlar": ["Atbasar"],
+  "ilk": {
+   "t": "1846-01-01",
+   "gun": "1846",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Atbasar', https://www.britannica.com/place/Atbasar (tarayıcıda okundu, 17 Kasım 2026)",
+   "tanik": "Founded as a Cossack settlement in 1846, it became known for its annual fair"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1846-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, 'Atbasar'",
+    "ic_not": "BOŞLUK (atlas noktası yok): Britannica 'Cossack settlement' der, devlet adı vermez; beyansız yaklaşıklık yazılmadı."
+   }
+  ],
+  "olay": [],
+  "ic_not": "P3-B11. TEK KAYNAK. Britannica gövdesinden (YZ özeti bloğu dışı; 'Summary created' bloğu yok). Özne zamir 'it' = madde konusu; başlık şehir. Şehir adı alıntıdan önceki cümlede (madde girişi) geçer. Atlas noktası yok."
+ }
+]

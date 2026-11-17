@@ -1,0 +1,49 @@
+id	ad	dil	kaynak_url	durum
+anapa-ru	Gorkipaya	tr-osm	https://islamansiklopedisi.org.tr/anapa	OK
+anapa-ru	Napa	it	https://islamansiklopedisi.org.tr/anapa	OK
+anapa-ru	Ana-pa	grc	https://islamansiklopedisi.org.tr/anapa	OK
+anapa-ru	Anapa	tr-osm	https://islamansiklopedisi.org.tr/anapa	OK
+anapa-ru	Анапа	ru	https://ru.wikisource.org/wiki/ЭСБЕ/Анапа	DOGRULANMADI_(kaynak_türü)
+karasubazar-ua	Karasubazar	tr-osm	https://islamansiklopedisi.org.tr/karasubazar	OK
+karasubazar-ua	Belogorsk	ru	https://islamansiklopedisi.org.tr/karasubazar	OK
+karasubazar-ua	Карасубазар	ru	https://ru.wikisource.org/wiki/ЭСБЕ/Карасубазар	DOGRULANMADI_(kaynak_türü)
+eski-kirim-solhat-ua	Solhat	tr-osm	https://islamansiklopedisi.org.tr/kirim	OK
+eski-kirim-solhat-ua	Eski Kırım	tr-osm	https://islamansiklopedisi.org.tr/kirim	OK
+eski-kirim-solhat-ua	Эски-Крым	crh	https://ru.wikisource.org/wiki/ЭСБЕ/Крым_Старый	DOGRULANMADI_(kaynak_türü)
+eski-kirim-solhat-ua	Солкат	ru	https://ru.wikisource.org/wiki/ЭСБЕ/Крым_Старый	DOGRULANMADI_(kaynak_türü)
+eski-kirim-solhat-ua	Солгат	ru	https://ru.wikisource.org/wiki/ЭСБЕ/Крым_Старый	DOGRULANMADI_(kaynak_türü)
+eski-kirim-solhat-ua	Крым Старый	ru	https://ru.wikisource.org/wiki/ЭСБЕ/Крым_Старый	DOGRULANMADI_(kaynak_türü)
+mankup-ua	Mangub	tr-osm	https://islamansiklopedisi.org.tr/kirim	OK
+mankup-ua	Мангуп	ru	https://ru.wikisource.org/wiki/ЭСБЕ/Мангуп	DOGRULANMADI_(kaynak_türü)
+mankup-ua	Мангуп-Кале	ru	https://ru.wikisource.org/wiki/ЭСБЕ/Мангуп	DOGRULANMADI_(kaynak_türü)
+mankup-ua	Манкоп	ru	https://ru.wikisource.org/wiki/ЭСБЕ/Мангуп	DOGRULANMADI_(kaynak_türü)
+mankup-ua	Мангут	ru	https://ru.wikisource.org/wiki/ЭСБЕ/Мангуп	DOGRULANMADI_(kaynak_türü)
+mankup-ua	Ман-Кермен	ru	https://ru.wikisource.org/wiki/ЭСБЕ/Мангуп	DOGRULANMADI_(kaynak_türü)
+babadagi-ro	Babadağı	tr-osm	https://islamansiklopedisi.org.tr/babadagi	OK
+babadagi-ro	Бабадаг	ru	https://ru.wikisource.org/wiki/ЭСБЕ/Бабадаг	DOGRULANMADI_(kaynak_türü)
+sucava-ro	Suceava	ro	https://islamansiklopedisi.org.tr/bogdan	OK
+sucava-ro	Suceava	en	https://www.britannica.com/place/Suceava-Romania	DOGRULANMADI_(kaynak_türü)
+kumbi-salih-af-p9	Kumbi	en	https://www.britannica.com/place/Kumbi	DOGRULANMADI_(kaynak_türü)
+kumbi-salih-af-p9	Koumbi Saleh	en	https://www.britannica.com/place/Kumbi	DOGRULANMADI_(kaynak_türü)
+kumbi-salih-af-p9	Kumbîsâlih	tr-osm	https://islamansiklopedisi.org.tr/gane	OK
+dikwa-af-p9	Дикоа	ru	https://ru.wikisource.org/wiki/ЭСБЕ/Дикоа	DOGRULANMADI_(kaynak_türü)
+dikwa-af-p9	Дигоа	ru	https://ru.wikisource.org/wiki/ЭСБЕ/Дикоа	DOGRULANMADI_(kaynak_türü)
+mapungubwe-p9	Mapungubwe	en	https://www.britannica.com/place/Mapungubwe	DOGRULANMADI_(kaynak_türü)
+mapungubwe-p9	Mapungubwe Cultural Landscape	en	https://whc.unesco.org/en/list/1099/	DOGRULANMADI_(kaynak_türü)
+mapungubwe-p9	Paysage culturel de Mapungubwe	fr	https://whc.unesco.org/fr/list/1099/	DOGRULANMADI_(kaynak_türü)
+khami-p9	Khami	en	https://whc.unesco.org/en/list/365/	DOGRULANMADI_(kaynak_türü)
+khami-p9	Khami Ruins National Monument	en	https://whc.unesco.org/en/list/365/	DOGRULANMADI_(kaynak_türü)
+khami-p9	Ruines de Khami	fr	https://whc.unesco.org/fr/list/365/	DOGRULANMADI_(kaynak_türü)
+serowe-p9	Serowe	en	https://www.britannica.com/place/Serowe	DOGRULANMADI_(kaynak_türü)
+enugu-p9	Enugu	en	https://www.britannica.com/place/Enugu-Nigeria	DOGRULANMADI_(kaynak_türü)
+libreville-p10	Libreville	fr	https://www.britannica.com/place/Libreville	DOGRULANMADI_(kaynak_türü)
+banjul-p10	Bathurst	en	https://www.britannica.com/place/Banjul	DOGRULANMADI_(kaynak_türü)
+banjul-p10	Banjul	en	https://www.britannica.com/place/Banjul	DOGRULANMADI_(kaynak_türü)
+banjul-p10	Banjul Island	en	https://www.britannica.com/place/Banjul	DOGRULANMADI_(kaynak_türü)
+banjul-p10	St. Mary’s Island	en	https://www.britannica.com/place/Banjul	DOGRULANMADI_(kaynak_türü)
+harare-p10	Salisbury	en	https://www.britannica.com/place/Harare	DOGRULANMADI_(kaynak_türü)
+harare-p10	Harare	en	https://www.britannica.com/place/Harare	DOGRULANMADI_(kaynak_türü)
+mutare-p10	Fort Umtali	en	https://www.britannica.com/place/Mutare	DOGRULANMADI_(kaynak_türü)
+mutare-p10	Umtali	en	https://www.britannica.com/place/Mutare	DOGRULANMADI_(kaynak_türü)
+mutare-p10	Mutare	en	https://www.britannica.com/place/Mutare	DOGRULANMADI_(kaynak_türü)
+gcuwa-p10	Butterworth	en	https://www.britannica.com/place/Butterworth-South-Africa	DOGRULANMADI_(kaynak_türü)
