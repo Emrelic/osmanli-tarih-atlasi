@@ -165,7 +165,8 @@ window.SEHIR_TARIHCE_GUNEY_AMERIKA_GUNEY = [
    "nicelik": "kurulus",
    "kesinlik": "ay",
    "kaynak": "Encyclopaedia Britannica, «Brasília», https://www.britannica.com/place/Brasilia (tarayıcı sayfa okuma, 17 Kasım 2026)",
-   "tanik": "Brasília became the capital of Brazil in April 1960, when the federal government started its move from Rio de Janeiro."
+   "tanik": "In April 1960 the Square of Three Powers was dedicated, and the federal government began its move from Rio de Janeiro",
+   "ic_not": "Tanık Britannica sayfasından birebir (önceki paraphrase değiştirildi); cümle şehir adını taşımaz, madde konusu Brasília (zamir/başlık kuralı); 'dedicated' = Üç Güç Meydanı'nın açılışı, hükûmetin taşınmasının başlangıcıyla aynı cümlede."
   },
   "kur": null,
   "ark": null,
@@ -378,7 +379,8 @@ window.SEHIR_TARIHCE_GUNEY_AMERIKA_GUNEY = [
    "nicelik": "kurulus",
    "kesinlik": "yil",
    "kaynak": "Encyclopaedia Britannica, «Concepción», https://www.britannica.com/place/Concepcion-Paraguay (tarayıcı sayfa okuma, 17 Kasım 2026)",
-   "tanik": "Founded in 1773, it was the base of operations for the entire Chaco Boreal region of Paraguay."
+   "tanik": "Founded in 1773, it was the base of operations for the entire Chaco Boreal region of Paraguay.",
+   "ic_not": "Madde konusu zamir: tanık cümlesi 'it/the city/there' ile şehri anar (madde başlığı şehirdir, önceki cümle şehri özne yapar); sayfa kontrolü 17 Kasım 2026 (post-ölçüm düzeltmesi)."
   },
   "kur": null,
   "ark": null,
@@ -853,7 +855,8 @@ window.SEHIR_TARIHCE_GUNEY_AMERIKA_GUNEY = [
    "nicelik": "kurulus",
    "kesinlik": "yil",
    "kaynak": "Encyclopaedia Britannica, «Maceió», https://www.britannica.com/place/Maceio (tarayıcı sayfa okuma, 17 Kasım 2026)",
-   "tanik": "Formerly called Macayo, the city dates from 1815, when a small settlement there was made a villa."
+   "tanik": "Formerly called Macayo, the city dates from 1815, when a small settlement there was made a villa.",
+   "ic_not": "Madde konusu zamir: tanık cümlesi 'it/the city/there' ile şehri anar (madde başlığı şehirdir, önceki cümle şehri özne yapar); sayfa kontrolü 17 Kasım 2026 (post-ölçüm düzeltmesi)."
   },
   "kur": null,
   "ark": null,
@@ -1391,7 +1394,8 @@ window.SEHIR_TARIHCE_GUNEY_AMERIKA_GUNEY = [
    "nicelik": "kurulus",
    "kesinlik": "yil",
    "kaynak": "Encyclopaedia Britannica, «Salta», https://www.britannica.com/place/Salta-Argentina (tarayıcı sayfa okuma, 17 Kasım 2026)",
-   "tanik": "It was founded in 1582 as San Felipe de Lerma by Hernando de Lerma, governor of Tucumán."
+   "tanik": "It was founded in 1582 as San Felipe de Lerma by Hernando de Lerma, governor of Tucumán.",
+   "ic_not": "Madde konusu zamir: tanık cümlesi 'it/the city/there' ile şehri anar (madde başlığı şehirdir, önceki cümle şehri özne yapar); sayfa kontrolü 17 Kasım 2026 (post-ölçüm düzeltmesi)."
   },
   "kur": null,
   "ark": null,

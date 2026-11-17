@@ -195,7 +195,7 @@ window.SEHIR_TARIHCE_DOGU_ASYA_CIN2 = [
    "kesinlik": "yil",
    "kaynak": "Encyclopaedia Britannica, 'Datong' (britannica.com/place/Datong, okundu 17 Kasım 2026)",
    "tanik": "In 398 CE the Tuoba founders of the Bei (Northern) Wei dynasty established and maintained their capital there",
-   "ic_not": "'There' = Datong şehri (madde başlığı). Britannica öncesinde 'MÖ 2.-1. yy'da bölge Han doğu sınır karargâhıydı' der (bölge, şehir değil; yüzyıl); başlangıç sayılmadı. LISTE adlar_tarihli 'Pingcheng 平城 398-494' bu kayıtta kaynaklı OKUNMADI, yazılmadı. Tek kaynak."
+   "ic_not": "'There' = Datong şehri (madde başlığı). Britannica öncesinde 'MÖ 2.-1. yy'da bölge Han doğu sınır karargâhıydı' der (bölge, şehir değil; yüzyıl); başlangıç sayılmadı. LISTE adlar_tarihli 'Pingcheng 平城 398-494' bu kayıtta kaynaklı OKUNMADI, yazılmadı. Tek kaynak. Madde konusu zamir: tanık cümlesi 'it/the city/there' ile şehri anar (madde başlığı şehirdir, önceki cümle şehri özne yapar); sayfa kontrolü 17 Kasım 2026 (post-ölçüm düzeltmesi)."
   },
   "kur": null,
   "ark": null,
@@ -834,7 +834,7 @@ window.SEHIR_TARIHCE_DOGU_ASYA_CIN2 = [
    "kesinlik": "yuzyil",
    "kaynak": "Encyclopaedia Britannica, 'Xining' (britannica.com/place/Xining, okundu 17 Kasım 2026)",
    "tanik": "Under the Han dynasty (206 BCE–220 CE) a county there called Linqiang controlled the local Qiang tribesmen",
-   "ic_not": "Kaynak yalnız Han hanedanı aralığını (MÖ 206-MS 220) verir; aralığın son ucu 220 güvenli uç alındı (gerçek tarih daha eski olabilir). Tek kaynak."
+   "ic_not": "Kaynak yalnız Han hanedanı aralığını (MÖ 206-MS 220) verir; aralığın son ucu 220 güvenli uç alındı (gerçek tarih daha eski olabilir). Tek kaynak. Madde konusu zamir: tanık cümlesi 'it/the city/there' ile şehri anar (madde başlığı şehirdir, önceki cümle şehri özne yapar); sayfa kontrolü 17 Kasım 2026 (post-ölçüm düzeltmesi)."
   },
   "kur": null,
   "ark": null,

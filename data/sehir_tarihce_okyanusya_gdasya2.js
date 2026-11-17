@@ -426,7 +426,7 @@ window.SEHIR_TARIHCE_OKYANUSYA_GDASYA2 = [
    "kesinlik": "yil",
    "kaynak": "Encyclopaedia Britannica, «Kuching», https://www.britannica.com/place/Kuching (tarayıcı sayfa okuma, 17 Kasım 2026)",
    "tanik": "The city was founded in 1839 by James (later Sir James) Brooke, who also founded the Brooke Raj and became ruler of Sarawak.",
-   "ic_not": "Yalnız yıl; YYYY-01-01. ÇELİŞKİ/ATLAS ÖNERİSİ: atlas Kuching'i 1827-01-01'de brunei-sultanligi ile başlatır (kur 1827, kaynak okunmadı); Britannica kuruluşu 1839'a koyar. Brooke'un 1839'dan önce var olan bir yerleşime geldiği olasılığı kaynakla sınanmadı; 3. kaynak aranmalı. ilk.t atlas başlangıcından sonra → zincir yazılmadı."
+   "ic_not": "Yalnız yıl; YYYY-01-01. ÇELİŞKİ/ATLAS ÖNERİSİ: atlas Kuching'i 1827-01-01'de brunei-sultanligi ile başlatır (kur 1827, kaynak okunmadı); Britannica kuruluşu 1839'a koyar. Brooke'un 1839'dan önce var olan bir yerleşime geldiği olasılığı kaynakla sınanmadı; 3. kaynak aranmalı. ilk.t atlas başlangıcından sonra → zincir yazılmadı. Madde konusu zamir: tanık cümlesi 'it/the city/there' ile şehri anar (madde başlığı şehirdir, önceki cümle şehri özne yapar); sayfa kontrolü 17 Kasım 2026 (post-ölçüm düzeltmesi)."
   },
   "kur": null,
   "ark": null,
@@ -614,7 +614,7 @@ window.SEHIR_TARIHCE_OKYANUSYA_GDASYA2 = [
    "kesinlik": "yil",
    "kaynak": "Encyclopaedia Britannica, «Nouméa», https://www.britannica.com/place/Noumea (tarayıcı sayfa okuma, 17 Kasım 2026)",
    "tanik": "It was founded in 1854 as Port-de-France.",
-   "ic_not": "Yalnız yıl; YYYY-01-01. Cümle şehir adını taşımaz ('It' = Nouméa, madde başlığı). Atlas 1854-06-25 gününü Laroque, Revue historique des Armées 21/3 (1965, Persée) kaynağından taşır — bu turda okunmadı."
+   "ic_not": "Yalnız yıl; YYYY-01-01. Cümle şehir adını taşımaz ('It' = Nouméa, madde başlığı). Atlas 1854-06-25 gününü Laroque, Revue historique des Armées 21/3 (1965, Persée) kaynağından taşır — bu turda okunmadı. Madde konusu zamir: tanık cümlesi 'it/the city/there' ile şehri anar (madde başlığı şehirdir, önceki cümle şehri özne yapar); sayfa kontrolü 17 Kasım 2026 (post-ölçüm düzeltmesi)."
   },
   "kur": null,
   "ark": null,
@@ -817,7 +817,7 @@ window.SEHIR_TARIHCE_OKYANUSYA_GDASYA2 = [
    "kesinlik": "belirsiz",
    "kaynak": "Encyclopaedia Britannica, «Ternate Island», https://www.britannica.com/place/Ternate-Island (tarayıcı sayfa okuma, 17 Kasım 2026)",
    "tanik": "The initial Western visitor was Portuguese and came in 1512",
-   "ic_not": "Madde Ternate ADASI maddesidir; cümle şehri değil adayı konu alır ve 'Ternate' adını taşımaz → kesinlik 'belirsiz'. 1512 = adaya ilk Batılı ziyaretçi; şehrin ilk anılışı değil. Atlas 0500'den başlar (BOŞLUK/kediri/singhasari, Hall 1981); bu kaynaktan önceki tanık okunmadı. ilk.t atlas başlangıcından sonra → zincir yazılmadı."
+   "ic_not": "Madde Ternate ADASI maddesidir; cümle şehri değil adayı konu alır ve 'Ternate' adını taşımaz → kesinlik 'belirsiz'. 1512 = adaya ilk Batılı ziyaretçi; şehrin ilk anılışı değil. Atlas 0500'den başlar (BOŞLUK/kediri/singhasari, Hall 1981); bu kaynaktan önceki tanık okunmadı. ilk.t atlas başlangıcından sonra → zincir yazılmadı. Kaynak sayfası Ternate ADASI maddesidir; 1512 adaya ilk Batılı ziyaret, şehrin ilk anılışı değil → kesinlik 'belirsiz' (post-ölçüm düzeltmesi)."
   },
   "kur": null,
   "ark": null,

@@ -392,7 +392,7 @@ window.SEHIR_TARIHCE_OKYANUSYA_GDASYA = [
    "kesinlik": "belirsiz",
    "kaynak": "Dictionary of Sydney (arşivlenmiş 2021), 'First Fleet', dictionaryofsydney.org/entry/first_fleet (okundu 17 Kasım 2026)",
    "tanik": "Phillip went ashore on the morning of 26 January, to begin clearing a campsite at the head of the cove",
-   "ic_not": "Cümle şehir adı ve yılı taşımaz (cove = Sydney Cove; yıl 1788 sayfanın bağlamı) — özne belirsiz, kesinlik 'belirsiz'. Aynı sayfa 25–26 Ocak'ta filonun Botany Bay'den Port Jackson'a taşındığını söyler. Atlas noktası 1788-01-26'da yeni-guney-galler ile başlıyor = ilk.t; zincir yazılmadı."
+   "ic_not": "Cümle şehir adı ve yılı taşımaz (cove = Sydney Cove; yıl 1788 sayfanın bağlamı) — özne belirsiz, kesinlik 'belirsiz'. Aynı sayfa 25–26 Ocak'ta filonun Botany Bay'den Port Jackson'a taşındığını söyler. Atlas noktası 1788-01-26'da yeni-guney-galler ile başlıyor = ilk.t; zincir yazılmadı. Tanık cümlesi yıl/şehir adını taşımıyor (26 Ocak; yıl sayfa bağlamı); sayfada Sydney adı + yıl taşıyan daha iyi cümle bulunamadı; kesinlik 'belirsiz' (post-ölçüm düzeltmesi, 17 Kasım 2026)."
   },
   "kur": null,
   "ark": null,

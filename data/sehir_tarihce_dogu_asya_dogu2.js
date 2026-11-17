@@ -214,10 +214,10 @@ window.SEHIR_TARIHCE_DOGU_ASYA_DOGU2 = [
    "t": "1189-01-01",
    "gun": "1189",
    "nicelik": "ilk_anilis",
-   "kesinlik": "yil",
+   "kesinlik": "belirsiz",
    "kaynak": "UNESCO World Heritage Centre, 'Hiraizumi – Temples, Gardens and Archaeological Sites' (Liste 1277), https://whc.unesco.org/en/list/1277 (tarayıcı sayfa okuma, 17 Kasım 2026)",
    "tanik": "Much of the area was destroyed in 1189 when the city lost its political and administrative status.",
-   "ic_not": "En erken YILLI tanık (önceki cümle Hiraizumi'yi özne yapar; 'the city'). Daha erken: 'political and administrative centre of the northern realm of Japan in the 11th and 12th century' (28 kelime, yıl yok). Atlas noktası 1087 oshu-fujiwara ile başlıyor: 1087 tanığı bu kaynakta yok."
+   "ic_not": "En erken YILLI tanık (önceki cümle Hiraizumi'yi özne yapar; 'the city'). Daha erken: 'political and administrative centre of the northern realm of Japan in the 11th and 12th century' (28 kelime, yıl yok). Atlas noktası 1087 oshu-fujiwara ile başlıyor: 1087 tanığı bu kaynakta yok. Tanık 1189 YIKIM tarihini verir (şehrin siyasi statüsünü yitirmesi), ilk anılış/kuruluş değil; cümlede şehir adı yok (the city) → kesinlik 'belirsiz' (post-ölçüm düzeltmesi, 17 Kasım 2026)."
   },
   "kur": null,
   "ark": null,
@@ -668,10 +668,10 @@ window.SEHIR_TARIHCE_DOGU_ASYA_DOGU2 = [
    "t": "1600-01-01",
    "gun": "16. yüzyıl",
    "nicelik": "ilk_anilis",
-   "kesinlik": "yuzyil",
+   "kesinlik": "belirsiz",
    "kaynak": "Encyclopaedia Britannica, 'Sendai (Miyagi prefecture)', https://www.britannica.com/place/Sendai-Miyagi-prefecture-Japan (tarayıcı sayfa okuma, 17 Kasım 2026)",
    "tanik": "Ruins of its 16th-century castle stand on Aoba Hill in the western part of the contemporary city.",
-   "ic_not": "Yalnız yüzyıl (kale): güvenli uç 1600. Atlas noktası 1600 azuchi-momoyama ile başlıyor = ilk.t; zincir yazılmadı. Kuruluş günü/yılı Britannica'da yok (Date hanedanı karargâhı tarihsiz)."
+   "ic_not": "Yalnız yüzyıl (kale): güvenli uç 1600. Atlas noktası 1600 azuchi-momoyama ile başlıyor = ilk.t; zincir yazılmadı. Kuruluş günü/yılı Britannica'da yok (Date hanedanı karargâhı tarihsiz). Tanık cümlesi şehir adını ve yılı taşımıyor (16. yüzyıl kalesi, yıl yok); sayfada daha iyi yıllı tanık yok; kesinlik 'belirsiz' (post-ölçüm düzeltmesi, 17 Kasım 2026)."
   },
   "kur": null,
   "ark": null,
@@ -853,7 +853,7 @@ window.SEHIR_TARIHCE_DOGU_ASYA_DOGU2 = [
    "kesinlik": "belirsiz",
    "kaynak": "Encyclopaedia Britannica, 'T’ai-tung', https://www.britannica.com/place/Tai-tung-Taiwan (tarayıcı sayfa okuma, 17 Kasım 2026)",
    "tanik": "The city was founded and developed during the reigns of Chia-ch’ing (1796–1820) and Hsien-feng (1851–61), both emperors of the Ch’ing dynasty.",
-   "ic_not": "Aralık veren kaynak: kuruluş Jiaqing (1796-1820) ve Xianfeng (1851-61) saltanatları arasında; güvenli uç 1861. Atlas noktası 1000 (__BOSLUK__) ile başlıyor, kaynaksız."
+   "ic_not": "Aralık veren kaynak: kuruluş Jiaqing (1796-1820) ve Xianfeng (1851-61) saltanatları arasında; güvenli uç 1861. Atlas noktası 1000 (__BOSLUK__) ile başlıyor, kaynaksız. Madde konusu zamir: tanık cümlesi 'it/the city/there' ile şehri anar (madde başlığı şehirdir, önceki cümle şehri özne yapar); sayfa kontrolü 17 Kasım 2026 (post-ölçüm düzeltmesi)."
   },
   "kur": {
    "t": "1861-01-01",

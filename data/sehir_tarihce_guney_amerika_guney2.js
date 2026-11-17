@@ -360,7 +360,8 @@ window.SEHIR_TARIHCE_GUNEY_AMERIKA_GUNEY2 = [
    "nicelik": "kurulus",
    "kesinlik": "yil",
    "kaynak": "Encyclopaedia Britannica, «João Pessoa», https://www.britannica.com/place/Joao-Pessoa-Brazil (tarayıcı sayfa okuma, 17 Kasım 2026)",
-   "tanik": "Founded in 1585, the city for many years was known successively as Filipea de Nossa Senhora das Neves, Frederikstad, and Paraíba."
+   "tanik": "Founded in 1585, the city for many years was known successively as Filipea de Nossa Senhora das Neves, Frederikstad, and Paraíba.",
+   "ic_not": "Madde konusu zamir: tanık cümlesi 'it/the city/there' ile şehri anar (madde başlığı şehirdir, önceki cümle şehri özne yapar); sayfa kontrolü 17 Kasım 2026 (post-ölçüm düzeltmesi)."
   },
   "kur": null,
   "ark": null,
@@ -684,7 +685,7 @@ window.SEHIR_TARIHCE_GUNEY_AMERIKA_GUNEY2 = [
    "kesinlik": "onyil",
    "kaynak": "Encyclopaedia Britannica, «Mendoza», https://www.britannica.com/place/Mendoza-Argentina (tarayıcı sayfa okuma, 17 Kasım 2026)",
    "tanik": "The city was founded and relocated several times in the 1560s by Spaniards arriving from Chile.",
-   "ic_not": "Kaynak yalnız '1560s' der; onyıl başı 1560-01-01 alındı (ay-gün kaynakta yok)."
+   "ic_not": "Kaynak yalnız '1560s' der; onyıl başı 1560-01-01 alındı (ay-gün kaynakta yok). Madde konusu zamir: tanık cümlesi 'it/the city/there' ile şehri anar (madde başlığı şehirdir, önceki cümle şehri özne yapar); sayfa kontrolü 17 Kasım 2026 (post-ölçüm düzeltmesi)."
   },
   "kur": null,
   "ark": null,
@@ -1177,7 +1178,8 @@ window.SEHIR_TARIHCE_GUNEY_AMERIKA_GUNEY2 = [
    "nicelik": "kurulus",
    "kesinlik": "yil",
    "kaynak": "Encyclopaedia Britannica, «San Luis», https://www.britannica.com/place/San-Luis-Argentina (tarayıcı sayfa okuma, 17 Kasım 2026)",
-   "tanik": "Founded in 1594 by order of the governor of Chile, it was abandoned during wars with the Araucanian Indians."
+   "tanik": "Founded in 1594 by order of the governor of Chile, it was abandoned during wars with the Araucanian Indians.",
+   "ic_not": "Madde konusu zamir: tanık cümlesi 'it/the city/there' ile şehri anar (madde başlığı şehirdir, önceki cümle şehri özne yapar); sayfa kontrolü 17 Kasım 2026 (post-ölçüm düzeltmesi)."
   },
   "kur": null,
   "ark": null,
@@ -1359,7 +1361,8 @@ window.SEHIR_TARIHCE_GUNEY_AMERIKA_GUNEY2 = [
    "nicelik": "kurulus",
    "kesinlik": "yil",
    "kaynak": "Encyclopaedia Britannica, «Tacuarembó», https://www.britannica.com/place/Tacuarembo-Uruguay (tarayıcı sayfa okuma, 17 Kasım 2026)",
-   "tanik": "Founded in 1831 by Bernabé Rivera, it was first called Villa de San Fructuoso"
+   "tanik": "Founded in 1831 by Bernabé Rivera, it was first called Villa de San Fructuoso",
+   "ic_not": "Madde konusu zamir: tanık cümlesi 'it/the city/there' ile şehri anar (madde başlığı şehirdir, önceki cümle şehri özne yapar); sayfa kontrolü 17 Kasım 2026 (post-ölçüm düzeltmesi)."
   },
   "kur": null,
   "ark": null,

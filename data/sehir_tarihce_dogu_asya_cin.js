@@ -225,8 +225,8 @@ window.SEHIR_TARIHCE_DOGU_ASYA_CIN = [
    "nicelik": "ilk_anilis",
    "kesinlik": "onyil",
    "kaynak": "Encyclopaedia Britannica, 'Qingdao' (britannica.com/place/Qingdao, okundu 17 Kasım 2026)",
-   "tanik": "the Chinese government realized the strategic importance of Qingdao (at the time known as Jiao’ao) and set up a minor naval station",
-   "ic_not": "Kaynak '1880'ler' der (Beiyang filosunun kuruluşu); aralığın son ucu 1889 güvenli uç olarak alındı. Britannica ayrıca 'Qing döneminde (1644-1911/12) gümrük istasyonu kuruldu' ve 'küçük balıkçı köyü' der; ikisi de tarihsiz, daha eski olabilir. Tek kaynak."
+   "tanik": "With the establishment of the Beiyang (“North Ocean”) fleet in the 1880s, the Chinese government realized the strategic importance of Qingdao",
+   "ic_not": "Kaynak '1880'ler' der (Beiyang filosunun kuruluşu); aralığın son ucu 1889 güvenli uç olarak alındı. Britannica ayrıca 'Qing döneminde (1644-1911/12) gümrük istasyonu kuruldu' ve 'küçük balıkçı köyü' der; ikisi de tarihsiz, daha eski olabilir. Tek kaynak. Tanık değiştirildi: önceki alıntı yıl taşımıyordu; yeni cümle (Britannica, aynı cümlenin başı) Qingdao adı + '1880s' taşır (post-ölçüm düzeltmesi)."
   },
   "kur": null,
   "ark": null,
@@ -523,7 +523,7 @@ window.SEHIR_TARIHCE_DOGU_ASYA_CIN = [
    "kesinlik": "yil",
    "kaynak": "Encyclopaedia Britannica, 'Zhanjiang' (britannica.com/place/Zhanjiang, okundu 17 Kasım 2026)",
    "tanik": "It first came to prominence when it was occupied by the French in 1898.",
-   "ic_not": "Britannica 'önceden Leizhou'nun egemen olduğu bölgede küçük balıkçı limanı' der, tarih yok. Gerçek ilk anılış 1898'den eski olabilir (Çince kaynaklar okunmadı). Tek kaynak."
+   "ic_not": "Britannica 'önceden Leizhou'nun egemen olduğu bölgede küçük balıkçı limanı' der, tarih yok. Gerçek ilk anılış 1898'den eski olabilir (Çince kaynaklar okunmadı). Tek kaynak. Madde konusu zamir: tanık cümlesi 'it/the city/there' ile şehri anar (madde başlığı şehirdir, önceki cümle şehri özne yapar); sayfa kontrolü 17 Kasım 2026 (post-ölçüm düzeltmesi)."
   },
   "kur": null,
   "ark": null,

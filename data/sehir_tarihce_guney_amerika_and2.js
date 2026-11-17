@@ -823,7 +823,8 @@ window.SEHIR_TARIHCE_GUNEY_AMERIKA_AND2 = [
    "nicelik": "kurulus",
    "kesinlik": "yil",
    "kaynak": "Encyclopaedia Britannica, «Oruro», https://www.britannica.com/place/Oruro (makale metni tarayıcıda okundu, 17 Kasım 2026)",
-   "tanik": "Founded in 1606 as Real Villa de San Felipe de Austria"
+   "tanik": "Founded in 1606 as Real Villa de San Felipe de Austria",
+   "ic_not": "Madde konusu zamir: tanık cümlesi 'it/the city/there' ile şehri anar (madde başlığı şehirdir, önceki cümle şehri özne yapar); sayfa kontrolü 17 Kasım 2026 (post-ölçüm düzeltmesi)."
   },
   "kur": null,
   "ark": null,
