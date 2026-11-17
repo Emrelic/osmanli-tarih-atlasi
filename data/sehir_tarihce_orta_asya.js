@@ -94,7 +94,8 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
    "Almatı (eski Kazak yerleşimi)",
    "Verniy",
    "Alma Ata (1927)",
-   "Almatı"
+   "Almatı",
+   "Alma Ata"
   ],
   "ilk": {
    "t": "1854-01-01",
@@ -152,7 +153,30 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
     "tanik": "Mayıs 1929’da Kazakistan’ın başşehri oldu"
    }
   ],
-  "ic_not": "Kaynak: TDV 'Alma Ata' TAM METİN (Mustafa L. Bilge). Çift teyit YOK. TDV: 'Şimdiki yerleşim merkezi, Almatı denilen eski Kazak yerleşim yeri üzerinde bulunmaktadır' — bu eski yerleşimin tarihi TDV'de YOK; ilk.t kuruluş (Verniy kalesi 1854). Atlas 'Almatı (Vernıy)'ı 1281 cagatay ile başlatır; şehir 1854 → sahip:[], 'atlas başlangıcı düzeltilmeli'. TDV: 1887 ve 1911 depremleri (günsüz), 1930 Türkistan-Sibirya demiryolu istasyonu, 1934/1945 kurumlar zincire bağlanmadı."
+  "ic_not": "Kaynak: TDV 'Alma Ata' TAM METİN (Mustafa L. Bilge). Çift teyit YOK. TDV: 'Şimdiki yerleşim merkezi, Almatı denilen eski Kazak yerleşim yeri üzerinde bulunmaktadır' — bu eski yerleşimin tarihi TDV'de YOK; ilk.t kuruluş (Verniy kalesi 1854). Atlas 'Almatı (Vernıy)'ı 1281 cagatay ile başlatır; şehir 1854 → sahip:[], 'atlas başlangıcı düzeltilmeli'. TDV: 1887 ve 1911 depremleri (günsüz), 1930 Türkistan-Sibirya demiryolu istasyonu, 1934/1945 kurumlar zincire bağlanmadı.",
+  "ad_kaynak": [
+   {
+    "ad": "Almatı",
+    "dil": "kk",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Alma Ata' https://islamansiklopedisi.org.tr/alma-ata",
+    "kanit": "Almatı denilen eski Kazak yerleşim yeri"
+   },
+   {
+    "ad": "Verniy",
+    "dil": "ru",
+    "donem": "1854-",
+    "kaynak": "TDV İslâm Ansiklopedisi 'Alma Ata' https://islamansiklopedisi.org.tr/alma-ata",
+    "kanit": "1854’te Verniy adıyla bir Rus askerî kalesi"
+   },
+   {
+    "ad": "Alma Ata",
+    "dil": "ru",
+    "donem": "1927-",
+    "kaynak": "TDV İslâm Ansiklopedisi 'Alma Ata' https://islamansiklopedisi.org.tr/alma-ata",
+    "kanit": "1927’de resmen Alma Ata adını alan şehir"
+   }
+  ]
  },
  {
   "id": "anapa-ru",
@@ -446,7 +470,8 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
     "tanik": "In 1994 the Kazakh government resolved to transfer the national capital from Almaty to Aqmola"
    }
   ],
-  "ic_not": "ÇİFT TEYİT (LAB, 17 Kasım 2026; Britannica/ilk kaynaktan bağımsız ikinci kaynak): The Columbia Encyclopedia 6th ed., «Astana», encyclopedia.com/reference/…/astana; includes() 17 Kas 2026 | tanık 2: \"The city was founded as a fortress in 1824\" | 1824 aynı (Britannica: Russian military outpost 1824) || İLK KAYNAK (Britannica; TDV/İSAM okunmadı). Atlas Akmola'yı 1281-01-01'de altinorda ile başlatır; 1824 ≥ atlas başlangıcı olduğundan zincir yazılmadı (sahip[] boş). Sahiplik: Britannica 'Russian military outpost' der, devlet künyesi bu cümleyle yazılmadı. Adlar: Akmolinsk (Britannica 'Tselinograd' ve 1992 'Aqmola' adı verir; 1998 Astana)."
+  "ic_not": "ÇİFT TEYİT (LAB, 17 Kasım 2026; Britannica/ilk kaynaktan bağımsız ikinci kaynak): The Columbia Encyclopedia 6th ed., «Astana», encyclopedia.com/reference/…/astana; includes() 17 Kas 2026 | tanık 2: \"The city was founded as a fortress in 1824\" | 1824 aynı (Britannica: Russian military outpost 1824) || İLK KAYNAK (Britannica; TDV/İSAM okunmadı). Atlas Akmola'yı 1281-01-01'de altinorda ile başlatır; 1824 ≥ atlas başlangıcı olduğundan zincir yazılmadı (sahip[] boş). Sahiplik: Britannica 'Russian military outpost' der, devlet künyesi bu cümleyle yazılmadı. Adlar: Akmolinsk (Britannica 'Tselinograd' ve 1992 'Aqmola' adı verir; 1998 Astana).",
+  "ad_kaynak": []
  },
  {
   "id": "babadagi-ro",
@@ -548,7 +573,11 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
    "Bāḫdi / Bahdrî (Avesta)",
    "Bāḫtriš (Eski Farsça)",
    "Baktra (Grekçe)",
-   "Belh"
+   "Belh",
+   "Bāḥdi",
+   "Bahdrî",
+   "Bāḥtriş",
+   "Baktra"
   ],
   "ilk": {
    "t": "-0328-01-01",
@@ -679,7 +708,37 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
    }
   ],
   "dikis_beyan": "Atlas Belh'i -0249-01-01'de greko-baktria ile başlatır; TDV 'Belh' Selevkos→Baktria Krallığı geçişini tarihsiz verir, MÖ 250 için tanık bulunamadı; yer tutucu olay yazılmadı.",
-  "ic_not": "Kaynak: yalnız TDV 'Belh' (tam metne karşı doğrulandı (tarayıcı)). Çift teyit YOK (Iranica 403). TDV İskender fethini 'MÖ 329' verir → astronomik -0328. ilk = TDV'de tarihli en eski olgu; Avesta (Bāḫdi), Eski Farsça (Bāḫtriš) adları TARİHSİZ (Aḫamenî dönemi Baktria satraplığı merkezi), bu yüzden ilk olarak yazılmadı. Kuruluş TDV'de efsanevi (Keyûmers/Tahmûras/Menûçihr), tarihsiz — kur yazılmadı. Zincir: -0328 → atlas başlangıcı (-0249): __BOSLUK__ (İskender, Selevkos, Baktria — künye/gün yok). Atlas Belh'i -0124'ten 500'e __BOSLUK__ taşır; TDV Kuşan ve Eftalit'i tarihsiz anar. Sasani 226-651 ('Sâsânîler döneminde (226-651)') aralık, olay yazılmadı. Hicrî: Hicrî→mîlâdî: TDV'nin verdiği mîlâdî yıl ile hicrî yılın kesişiminin ilk günü, tablo takvimiyle (Jülyen, ±1-2 gün); kesinlik yıl. 709 (Tarhan Nîzek), 1040/1043/1072 Selçuklu, 1509 Safevî, 'Çağatay/Timurlu' tarihsiz ya da bağlamı belirsiz olduğundan yazılmadı. 870 için TDV '870 (veya 871)'; güvenli uç ilk uç alındı, kesinlik belirsiz. TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Önceki notlardaki \"WebFetch özeti / tam metne karşı doğrulandı (tarayıcı) / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir. F3 çözüm (16 Kasım 2026): Belh devri TDV Belh md.'nde yıl (900) olarak verilir; esir alma günü TDV Saffârîler md.'nde (15 Rebîülâhir 287 / 19 Nisan 900) verilir. Belh'in devri esirin günüyle aynı olay kabul edildi (çıkarım; Belh md. ayrı gün vermez). | Parti5 tanık kuralı (17 Kasım 2026): tanik cümleden birebir yenilendi [ilk]: TDV cümlesi ad+MÖ 329"
+  "ic_not": "Kaynak: yalnız TDV 'Belh' (tam metne karşı doğrulandı (tarayıcı)). Çift teyit YOK (Iranica 403). TDV İskender fethini 'MÖ 329' verir → astronomik -0328. ilk = TDV'de tarihli en eski olgu; Avesta (Bāḫdi), Eski Farsça (Bāḫtriš) adları TARİHSİZ (Aḫamenî dönemi Baktria satraplığı merkezi), bu yüzden ilk olarak yazılmadı. Kuruluş TDV'de efsanevi (Keyûmers/Tahmûras/Menûçihr), tarihsiz — kur yazılmadı. Zincir: -0328 → atlas başlangıcı (-0249): __BOSLUK__ (İskender, Selevkos, Baktria — künye/gün yok). Atlas Belh'i -0124'ten 500'e __BOSLUK__ taşır; TDV Kuşan ve Eftalit'i tarihsiz anar. Sasani 226-651 ('Sâsânîler döneminde (226-651)') aralık, olay yazılmadı. Hicrî: Hicrî→mîlâdî: TDV'nin verdiği mîlâdî yıl ile hicrî yılın kesişiminin ilk günü, tablo takvimiyle (Jülyen, ±1-2 gün); kesinlik yıl. 709 (Tarhan Nîzek), 1040/1043/1072 Selçuklu, 1509 Safevî, 'Çağatay/Timurlu' tarihsiz ya da bağlamı belirsiz olduğundan yazılmadı. 870 için TDV '870 (veya 871)'; güvenli uç ilk uç alındı, kesinlik belirsiz. TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Önceki notlardaki \"WebFetch özeti / tam metne karşı doğrulandı (tarayıcı) / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir. F3 çözüm (16 Kasım 2026): Belh devri TDV Belh md.'nde yıl (900) olarak verilir; esir alma günü TDV Saffârîler md.'nde (15 Rebîülâhir 287 / 19 Nisan 900) verilir. Belh'in devri esirin günüyle aynı olay kabul edildi (çıkarım; Belh md. ayrı gün vermez). | Parti5 tanık kuralı (17 Kasım 2026): tanik cümleden birebir yenilendi [ilk]: TDV cümlesi ad+MÖ 329",
+  "ad_kaynak": [
+   {
+    "ad": "Bāḥdi",
+    "dil": "ae",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Belh' https://islamansiklopedisi.org.tr/belh",
+    "kanit": "Bāḥtriş, Avesta’da Bāḥdi (Bahdrî) ve Grekçe’de Baktra"
+   },
+   {
+    "ad": "Bahdrî",
+    "dil": "ae",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Belh' https://islamansiklopedisi.org.tr/belh",
+    "kanit": "Bāḥtriş, Avesta’da Bāḥdi (Bahdrî) ve Grekçe’de Baktra"
+   },
+   {
+    "ad": "Bāḥtriş",
+    "dil": "peo",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Belh' https://islamansiklopedisi.org.tr/belh",
+    "kanit": "Bāḥtriş, Avesta’da Bāḥdi (Bahdrî) ve Grekçe’de Baktra"
+   },
+   {
+    "ad": "Baktra",
+    "dil": "grc",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Belh' https://islamansiklopedisi.org.tr/belh",
+    "kanit": "Bāḥtriş, Avesta’da Bāḥdi (Bahdrî) ve Grekçe’de Baktra"
+   }
+  ]
  },
  {
   "id": "buhara-uz",
@@ -690,7 +749,9 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
   "kat1900": 1,
   "adlar": [
    "Pu-ha (Çin kaynakları, VII. yy)",
-   "Buhara"
+   "Buhara",
+   "Nûmickes",
+   "Pu-ha"
   ],
   "ilk": {
    "t": "0630-01-01",
@@ -778,7 +839,30 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
     "tanik": "Buhara Hanlığı Canoğulları hânedanının eline geçti"
    }
   ],
-  "ic_not": "Tek kaynak: TDV 'Buhara' (WebFetch özet aracı; tanik alanlarındaki parçalar aracın sayfadan verdiği alıntılardır, tam metinle karşılaştırılmadı). Çift teyit (Barthold/Bosworth/Iranica) ARANDI: iranicaonline.org HTTP 403; teyit edilemedi, TDV tek kaynak. İlk anılış '630 civarı' onyil kesinliği; TDV V. yy Çin kaynaklarında 'Nûmickes' adını da anar (fetch özetinde, alıntı doğrulanamadı → yazılmadı). Atlas Buhara'yı 0500-01-01'de başlatır (ilk.t'den önce) → sahip:[] (atlas zinciri esas). ÇELİŞKİ (atlas düzeltme önerisi): TDV Emevî fethini 674 (Ubeydullah b. Ziyâd) verir, atlas buhara-hudat→emevi dikişini 709'da taşır; atlas referans değildir, bu kaynaklı bir tespit değil, ölçülmesi gereken bir farktır (Kuteybe 706-709 sefer yılları bu oturumda okunamadı). Karahıtay geçişi günü TDV'de yok (yalnız Katvân savaş günü). TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Uyuşmayanlar: TARİH UYUŞMUYOR (olay1.t): eski → 0992-03-09. Buhara Buğra Han 382 (992): 382 h. 992-03-09 başlar; Hicrî ∩ milâdî kesişim ilk günü (aritmetik sivil takvim ±2 gün); eski 0992-01-01 hicrî yılın dışında kalıyordu. TARİH UYUŞMUYOR (olay3.t): eski → 1141-09-09. Buhara Karahıtay: TDV \"5 Safer 536 (9 Eylül 1141) tarihinde meydana gelen Katvân savaşından sonra şehir ... geçti\"; geçiş savaştan sonradır, eski 1141-01-01 savaştan ÖNCEydi; gün TDV'de var (savaş günü, güvenli uç). TARİH UYUŞMUYOR (olay4.t): eski → 1207-07-28. Buhara Hârizmşah: TDV \"Aynı yıl\" = 604 (1207) yılı (alıntı da buna göre genişletildi); 604 h. 1207-07-28 başlar; Hicrî ∩ milâdî kesişim ilk günü (aritmetik sivil takvim ±2 gün); eski 1207-01-01 hicrî yılın dışında kalıyordu. Önceki notlardaki \"WebFetch özeti / tam metne karşı doğrulandı (tarayıcı) / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir. F3 çözüm (16 Kasım 2026): 992 işgali yıl (0992-03-09 = 382 ilk günü) → ay (Rebîülevvel 382 / Mayıs 992, TDV Sâmânîler md.) ile düzeltildi; TDV Karahanlılar md. 'Semerkant’ı aldıktan sonra... 992 başlarında Buhara’yı ele geçirdi' diyerek TDV içinde ay bakımından çelişir; TDV Sâmânîler md. ay verdiği için esas alındı, Karahanlılar ifadesi mîlâdî yıl başı demektir ve beyan edilir. | Parti5 tanık kuralı (17 Kasım 2026): tanik cümleden birebir yenilendi [ilk]: TDV cümlesi başı eklendi; kaynak alanı WebFetch ifadesi tam metin doğrulandıya çevrildi"
+  "ic_not": "Tek kaynak: TDV 'Buhara' (WebFetch özet aracı; tanik alanlarındaki parçalar aracın sayfadan verdiği alıntılardır, tam metinle karşılaştırılmadı). Çift teyit (Barthold/Bosworth/Iranica) ARANDI: iranicaonline.org HTTP 403; teyit edilemedi, TDV tek kaynak. İlk anılış '630 civarı' onyil kesinliği; TDV V. yy Çin kaynaklarında 'Nûmickes' adını da anar (fetch özetinde, alıntı doğrulanamadı → yazılmadı). Atlas Buhara'yı 0500-01-01'de başlatır (ilk.t'den önce) → sahip:[] (atlas zinciri esas). ÇELİŞKİ (atlas düzeltme önerisi): TDV Emevî fethini 674 (Ubeydullah b. Ziyâd) verir, atlas buhara-hudat→emevi dikişini 709'da taşır; atlas referans değildir, bu kaynaklı bir tespit değil, ölçülmesi gereken bir farktır (Kuteybe 706-709 sefer yılları bu oturumda okunamadı). Karahıtay geçişi günü TDV'de yok (yalnız Katvân savaş günü). TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Uyuşmayanlar: TARİH UYUŞMUYOR (olay1.t): eski → 0992-03-09. Buhara Buğra Han 382 (992): 382 h. 992-03-09 başlar; Hicrî ∩ milâdî kesişim ilk günü (aritmetik sivil takvim ±2 gün); eski 0992-01-01 hicrî yılın dışında kalıyordu. TARİH UYUŞMUYOR (olay3.t): eski → 1141-09-09. Buhara Karahıtay: TDV \"5 Safer 536 (9 Eylül 1141) tarihinde meydana gelen Katvân savaşından sonra şehir ... geçti\"; geçiş savaştan sonradır, eski 1141-01-01 savaştan ÖNCEydi; gün TDV'de var (savaş günü, güvenli uç). TARİH UYUŞMUYOR (olay4.t): eski → 1207-07-28. Buhara Hârizmşah: TDV \"Aynı yıl\" = 604 (1207) yılı (alıntı da buna göre genişletildi); 604 h. 1207-07-28 başlar; Hicrî ∩ milâdî kesişim ilk günü (aritmetik sivil takvim ±2 gün); eski 1207-01-01 hicrî yılın dışında kalıyordu. Önceki notlardaki \"WebFetch özeti / tam metne karşı doğrulandı (tarayıcı) / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir. F3 çözüm (16 Kasım 2026): 992 işgali yıl (0992-03-09 = 382 ilk günü) → ay (Rebîülevvel 382 / Mayıs 992, TDV Sâmânîler md.) ile düzeltildi; TDV Karahanlılar md. 'Semerkant’ı aldıktan sonra... 992 başlarında Buhara’yı ele geçirdi' diyerek TDV içinde ay bakımından çelişir; TDV Sâmânîler md. ay verdiği için esas alındı, Karahanlılar ifadesi mîlâdî yıl başı demektir ve beyan edilir. | Parti5 tanık kuralı (17 Kasım 2026): tanik cümleden birebir yenilendi [ilk]: TDV cümlesi başı eklendi; kaynak alanı WebFetch ifadesi tam metin doğrulandıya çevrildi",
+  "ad_kaynak": [
+   {
+    "ad": "Nûmickes",
+    "dil": "zh",
+    "donem": "V. yy (kaynak yalnız yüzyıl verir)",
+    "kaynak": "TDV İslâm Ansiklopedisi 'Buhara' https://islamansiklopedisi.org.tr/buhara",
+    "kanit": "Buhara’nın merkezi Nûmickes’ten (Bûmickes) Numi şeklinde söz edilir"
+   },
+   {
+    "ad": "Pu-ha",
+    "dil": "zh",
+    "donem": "~630",
+    "kaynak": "TDV İslâm Ansiklopedisi 'Buhara' https://islamansiklopedisi.org.tr/buhara",
+    "kanit": "Pu-ha şeklinde 630 yılı civarında"
+   },
+   {
+    "ad": "Buhârâ",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Buhara' https://islamansiklopedisi.org.tr/buhara",
+    "kanit": "Târîḫ-i Buḫârâ"
+   }
+  ]
  },
  {
   "id": "cimkent-kz",
@@ -1026,7 +1110,10 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
   "adlar": [
    "Haraiva (Eski Farsça kitâbeler)",
    "Aria / Areia (Avesta, Grekçe metinler)",
-   "Herat"
+   "Herat",
+   "Haraiva",
+   "Aria",
+   "Areia"
   ],
   "ilk": {
    "t": "0661-05-07",
@@ -1146,7 +1233,30 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
     "kaynak": "TDV İslâm Ansiklopedisi, «Herat» md., https://islamansiklopedisi.org.tr/herat (16 Kasım 2026'da okundu; tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026)): «Ahmed Şah Dürrânî (1747-1772) tarafından Afganistan topraklarına katıldı»"
    }
   ],
-  "ic_not": "Kaynak: yalnız TDV 'Herat' (tam metne karşı doğrulandı (tarayıcı): WebFetch özetleyicisi; alıntılar onun sayfadan verdiği parçalardır). Çift teyit YOK (Encyclopaedia Iranica 403 verdi, okunamadı). ilk=661: TDV'nin Herat'a özgü en eski tarihli ifadesi 'yeniden fethedildi'dir ('yeniden' önceki bir fethi ima eder); TDV ayrıca Horasan'ın 31 (652) fethini verir ama Herat adının o cümlede geçip geçmediği tam metne karşı doğrulandı (tarayıcı)da teyit edilmedi, alınmadı. Daha eski anılışlar (Haraiva — Eski Farsça kitâbeler; Aria; 'Aria’daki İskenderiye') TDV'de TARİHSİZ; Behistun/Iranica tarihi okunamadığı için ilk olarak yazılmadı — ilk.t gerçek en eski anılış DEĞİL, 'TDV'de Herat'a özgü en eski tarihli tanık'tır. Atlas Herat'ı 0500-01-01'de eftalit ile başlatıyor (661 > 500 → sahip:[], atlas zinciri esastır); 500-661 arası (Eftalit, Sasani) bu kayıtla doğrulanmadı. Hicrî olaylar: Hicrî→mîlâdî: TDV'nin verdiği mîlâdî yıl ile hicrî yılın kesişiminin ilk günü, tablo takvimiyle (Jülyen, ±1-2 gün); kesinlik yıl. Safevî 1510'dan sonra Özbek/Safevî/Bâbürlü (1526) el değiştirmeleri TDV'de var ama atlas zinciri esas olduğundan olay yazılmadı. 1747 olayı: TDV '1747-1772' aralığı verir (belirsiz). Tarihsiz TDV ifadeleri (Alparslan, Abdalî XVIII. yy) yazılmadı. TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Uyuşmayanlar: TARİH UYUŞMUYOR (olay10.t): eski → 1507-05-13. Herat Özbek 913 (1507): 913 h. 1507-05-13 başlar; Hicrî ∩ milâdî kesişim ilk günü (aritmetik sivil takvim ±2 gün); eski 1507-01-01 hicrî yılın dışında kalıyordu. TARİH UYUŞMUYOR (olay11.t): eski → 1510-04-10. Herat Şah İsmâil 916 (1510): 916 h. 1510-04-10 başlar; Hicrî ∩ milâdî kesişim ilk günü (aritmetik sivil takvim ±2 gün); eski 1510-01-01 hicrî yılın dışında kalıyordu. Önceki notlardaki \"WebFetch özeti / tam metne karşı doğrulandı (tarayıcı) / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir. | Parti5 tanık kuralı (17 Kasım 2026): tanik cümleden birebir yenilendi [ilk]: TDV cümlesi ad+661 (aynı cümlede 31 (652) sulh fethi de var; ilk.t=661 korundu, ic_not'a eklendi)"
+  "ic_not": "Kaynak: yalnız TDV 'Herat' (tam metne karşı doğrulandı (tarayıcı): WebFetch özetleyicisi; alıntılar onun sayfadan verdiği parçalardır). Çift teyit YOK (Encyclopaedia Iranica 403 verdi, okunamadı). ilk=661: TDV'nin Herat'a özgü en eski tarihli ifadesi 'yeniden fethedildi'dir ('yeniden' önceki bir fethi ima eder); TDV ayrıca Horasan'ın 31 (652) fethini verir ama Herat adının o cümlede geçip geçmediği tam metne karşı doğrulandı (tarayıcı)da teyit edilmedi, alınmadı. Daha eski anılışlar (Haraiva — Eski Farsça kitâbeler; Aria; 'Aria’daki İskenderiye') TDV'de TARİHSİZ; Behistun/Iranica tarihi okunamadığı için ilk olarak yazılmadı — ilk.t gerçek en eski anılış DEĞİL, 'TDV'de Herat'a özgü en eski tarihli tanık'tır. Atlas Herat'ı 0500-01-01'de eftalit ile başlatıyor (661 > 500 → sahip:[], atlas zinciri esastır); 500-661 arası (Eftalit, Sasani) bu kayıtla doğrulanmadı. Hicrî olaylar: Hicrî→mîlâdî: TDV'nin verdiği mîlâdî yıl ile hicrî yılın kesişiminin ilk günü, tablo takvimiyle (Jülyen, ±1-2 gün); kesinlik yıl. Safevî 1510'dan sonra Özbek/Safevî/Bâbürlü (1526) el değiştirmeleri TDV'de var ama atlas zinciri esas olduğundan olay yazılmadı. 1747 olayı: TDV '1747-1772' aralığı verir (belirsiz). Tarihsiz TDV ifadeleri (Alparslan, Abdalî XVIII. yy) yazılmadı. TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Uyuşmayanlar: TARİH UYUŞMUYOR (olay10.t): eski → 1507-05-13. Herat Özbek 913 (1507): 913 h. 1507-05-13 başlar; Hicrî ∩ milâdî kesişim ilk günü (aritmetik sivil takvim ±2 gün); eski 1507-01-01 hicrî yılın dışında kalıyordu. TARİH UYUŞMUYOR (olay11.t): eski → 1510-04-10. Herat Şah İsmâil 916 (1510): 916 h. 1510-04-10 başlar; Hicrî ∩ milâdî kesişim ilk günü (aritmetik sivil takvim ±2 gün); eski 1510-01-01 hicrî yılın dışında kalıyordu. Önceki notlardaki \"WebFetch özeti / tam metne karşı doğrulandı (tarayıcı) / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir. | Parti5 tanık kuralı (17 Kasım 2026): tanik cümleden birebir yenilendi [ilk]: TDV cümlesi ad+661 (aynı cümlede 31 (652) sulh fethi de var; ilk.t=661 korundu, ic_not'a eklendi)",
+  "ad_kaynak": [
+   {
+    "ad": "Haraiva",
+    "dil": "peo",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Herat' https://islamansiklopedisi.org.tr/herat",
+    "kanit": "çivi yazılı Eski Farsça kitâbelerde Haraiva"
+   },
+   {
+    "ad": "Aria",
+    "dil": "grc",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Herat' https://islamansiklopedisi.org.tr/herat",
+    "kanit": "Avesta’da ve Grekçe metinlerde Aria, Areia şeklinde rastlanır"
+   },
+   {
+    "ad": "Areia",
+    "dil": "grc",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Herat' https://islamansiklopedisi.org.tr/herat",
+    "kanit": "Avesta’da ve Grekçe metinlerde Aria, Areia şeklinde rastlanır"
+   }
+  ]
  },
  {
   "id": "hive-uz",
@@ -1200,7 +1310,16 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
    }
   ],
   "dikis_beyan": "Atlas Hîve'yi 1281-01-01'de cagatay ile başlatır; 1281 için kaynaklı el değiştirme tanığı yok (X. yy-1281 beyanlı boşluk), yer tutucu olay yazılmadı.",
-  "ic_not": "Tek kaynak TDV (WebFetch özet aracı). Çift teyit yok. TDV 'hive' arama sayfası yalnız 'Hîve Hanlığı' ve 'İlbars Han' maddelerini listeler; 1512 hanlık kuruluşu (İlbars Han 1512-1525) devlet kuruluşudur, şehrin başkent oluş yılı TDV'den alıntılanamadı (yalnız 'Bu dönemde merkezin Hîve’ye taşınması'), bu yüzden olay yazılmadı. TDV 'Gürgenç': Hîve Hanlığı'nın başşehri 1645'e dek Ürgenç idi (alıntı aracın verdiği). TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Önceki notlardaki \"WebFetch özeti / tam metne karşı doğrulandı (tarayıcı) / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir."
+  "ic_not": "Tek kaynak TDV (WebFetch özet aracı). Çift teyit yok. TDV 'hive' arama sayfası yalnız 'Hîve Hanlığı' ve 'İlbars Han' maddelerini listeler; 1512 hanlık kuruluşu (İlbars Han 1512-1525) devlet kuruluşudur, şehrin başkent oluş yılı TDV'den alıntılanamadı (yalnız 'Bu dönemde merkezin Hîve’ye taşınması'), bu yüzden olay yazılmadı. TDV 'Gürgenç': Hîve Hanlığı'nın başşehri 1645'e dek Ürgenç idi (alıntı aracın verdiği). TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Önceki notlardaki \"WebFetch özeti / tam metne karşı doğrulandı (tarayıcı) / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir.",
+  "ad_kaynak": [
+   {
+    "ad": "Hîve",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Hîve Hanlığı' https://islamansiklopedisi.org.tr/hive-hanligi",
+    "kanit": "Hîve Hanlığı şeklinde geçer"
+   }
+  ]
  },
  {
   "id": "hokand-uz",
@@ -1487,7 +1606,12 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
    "Kubha (Rig Veda)",
    "Kaboura (Ptolemaios)",
    "Kao-fu (Çin seyyah kayıtları)",
-   "Kâbil / Kâbul"
+   "Kâbil / Kâbul",
+   "Kubha",
+   "Kaboura",
+   "Kao-fu",
+   "Kâbül",
+   "Kâbil"
   ],
   "ilk": {
    "t": "0795-03-27",
@@ -1551,7 +1675,51 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
     "kaynak": "TDV İslâm Ansiklopedisi, «Kâbil (Afganistan)» md., https://islamansiklopedisi.org.tr/kabil--afganistan (16 Kasım 2026'da okundu; tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026)): «şehri yakıp yıkarak 70.000 kişiyi katletti (1842)»"
    }
   ],
-  "ic_not": "Kaynak: TDV 'Kâbil' (maddenin URL'si /kabil--afganistan; tam metne karşı doğrulandı (tarayıcı)). Çift teyit YOK. ilk=795: Kâbil'e GİRİŞ ('Kâbil’e girdi') şehre özgü en eski tarihli tanık. 664 (Muâviye valileri, 44/664) ve 697 (78) TDV'de 'bölge' için verilir (şehir adı bağlamı özetle teyitsiz) — yazılmadı. TDV 'milâttan önce 1500’lü yıllardan itibaren varlığı bilinmektedir' der ama KAYNAK göstermez; dayanaksız olduğu için ilk/kur olarak yazılmadı (adlar: Kubha/Kaboura/Kao-fu tarihsiz). Atlas Kâbil'i 0500'de __BOSLUK__ ile başlatır; 795 > 500 → sahip:[] (atlas zinciri esas). Kâbilşâhîler/Türkşâhîler TDV'de tarihsiz ('Türkşâhîler dönemi'); atlas 'turk-sahi' 665-850 ile TDV 795 fethi arasında, TDV 'Türkşâhî hükümdarı vergiye bağlandı' anlatımıyla uyumlu (fetih ≠ künye değişimi). Hicrî: Hicrî→mîlâdî: TDV'nin verdiği mîlâdî yıl ile hicrî yılın kesişiminin ilk günü, tablo takvimiyle (Jülyen, ±1-2 gün); kesinlik yıl. 1773/1775 (Timur Şah başşehir yaptı), 1793, 1819 (Dost Muhammed tarihi belirsiz), 1841, 1879, 1880 TDV'de var ama ya tarihi çıkarım ya tam metne karşı doğrulandı (tarayıcı)da bağlamı belirsiz — yazılmadı. TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Uyuşmayanlar: TARİH UYUŞMUYOR (olay1.t): eski → 1504-06-14. Kâbil Bâbür 910 (1504): 910 h. 1504-06-14 başlar; Hicrî ∩ milâdî kesişim ilk günü (aritmetik sivil takvim ±2 gün); eski 1504-01-01 hicrî yılın dışında kalıyordu. TARİH UYUŞMUYOR (olay2.t): eski → 1738-04-21. Kâbil Nâdir Şah 1151 (1738): 1151 h. 1738-04-21 başlar; Hicrî ∩ milâdî kesişim ilk günü (aritmetik sivil takvim ±2 gün); eski 1738-01-01 hicrî yılın dışında kalıyordu. TARİH UYUŞMUYOR (olay3.t): eski → 1747-01-13. Kâbil Dürrânî 1160 (1747): 1160 h. 1747-01-13 başlar; Hicrî ∩ milâdî kesişim ilk günü (aritmetik sivil takvim ±2 gün); eski 1747-01-01 hicrî yılın dışında kalıyordu. Önceki notlardaki \"WebFetch özeti / tam metne karşı doğrulandı (tarayıcı) / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir."
+  "ic_not": "Kaynak: TDV 'Kâbil' (maddenin URL'si /kabil--afganistan; tam metne karşı doğrulandı (tarayıcı)). Çift teyit YOK. ilk=795: Kâbil'e GİRİŞ ('Kâbil’e girdi') şehre özgü en eski tarihli tanık. 664 (Muâviye valileri, 44/664) ve 697 (78) TDV'de 'bölge' için verilir (şehir adı bağlamı özetle teyitsiz) — yazılmadı. TDV 'milâttan önce 1500’lü yıllardan itibaren varlığı bilinmektedir' der ama KAYNAK göstermez; dayanaksız olduğu için ilk/kur olarak yazılmadı (adlar: Kubha/Kaboura/Kao-fu tarihsiz). Atlas Kâbil'i 0500'de __BOSLUK__ ile başlatır; 795 > 500 → sahip:[] (atlas zinciri esas). Kâbilşâhîler/Türkşâhîler TDV'de tarihsiz ('Türkşâhîler dönemi'); atlas 'turk-sahi' 665-850 ile TDV 795 fethi arasında, TDV 'Türkşâhî hükümdarı vergiye bağlandı' anlatımıyla uyumlu (fetih ≠ künye değişimi). Hicrî: Hicrî→mîlâdî: TDV'nin verdiği mîlâdî yıl ile hicrî yılın kesişiminin ilk günü, tablo takvimiyle (Jülyen, ±1-2 gün); kesinlik yıl. 1773/1775 (Timur Şah başşehir yaptı), 1793, 1819 (Dost Muhammed tarihi belirsiz), 1841, 1879, 1880 TDV'de var ama ya tarihi çıkarım ya tam metne karşı doğrulandı (tarayıcı)da bağlamı belirsiz — yazılmadı. TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Uyuşmayanlar: TARİH UYUŞMUYOR (olay1.t): eski → 1504-06-14. Kâbil Bâbür 910 (1504): 910 h. 1504-06-14 başlar; Hicrî ∩ milâdî kesişim ilk günü (aritmetik sivil takvim ±2 gün); eski 1504-01-01 hicrî yılın dışında kalıyordu. TARİH UYUŞMUYOR (olay2.t): eski → 1738-04-21. Kâbil Nâdir Şah 1151 (1738): 1151 h. 1738-04-21 başlar; Hicrî ∩ milâdî kesişim ilk günü (aritmetik sivil takvim ±2 gün); eski 1738-01-01 hicrî yılın dışında kalıyordu. TARİH UYUŞMUYOR (olay3.t): eski → 1747-01-13. Kâbil Dürrânî 1160 (1747): 1160 h. 1747-01-13 başlar; Hicrî ∩ milâdî kesişim ilk günü (aritmetik sivil takvim ±2 gün); eski 1747-01-01 hicrî yılın dışında kalıyordu. Önceki notlardaki \"WebFetch özeti / tam metne karşı doğrulandı (tarayıcı) / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir.",
+  "ad_kaynak": [
+   {
+    "ad": "Kubha",
+    "dil": "sa",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Kâbil (Afganistan)' https://islamansiklopedisi.org.tr/kabil--afganistan",
+    "kanit": "Rig Veda’da “Kubha”"
+   },
+   {
+    "ad": "Kaboura",
+    "dil": "grc",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Kâbil (Afganistan)' https://islamansiklopedisi.org.tr/kabil--afganistan",
+    "kanit": "Kabolitler’in Kaboura şehri"
+   },
+   {
+    "ad": "Kao-fu",
+    "dil": "zh",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Kâbil (Afganistan)' https://islamansiklopedisi.org.tr/kabil--afganistan",
+    "kanit": "Çin seyahatnâmelerinde “Kao-fu” şekillerinde geçer"
+   },
+   {
+    "ad": "Kâbül",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Kâbil (Afganistan)' https://islamansiklopedisi.org.tr/kabil--afganistan",
+    "kanit": "ismin aslı “Kâbül” olup"
+   },
+   {
+    "ad": "Kâbil",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Kâbil (Afganistan)' https://islamansiklopedisi.org.tr/kabil--afganistan",
+    "kanit": "Zâbülistan’ı aldı ve Kâbil’e girdi"
+   },
+   {
+    "ad": "Kâbul",
+    "dil": "ar",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Kâbil (Afganistan)' https://islamansiklopedisi.org.tr/kabil--afganistan",
+    "kanit": "(Türk ve Kâbul)"
+   }
+  ]
  },
  {
   "id": "karakurum-mn",
@@ -1715,7 +1883,11 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
   "kat1900": 3,
   "adlar": [
    "Şule (Çin kaynaklarında, Han'dan Tang'a)",
-   "Kâşgar"
+   "Kâşgar",
+   "Şule",
+   "Kâcgar",
+   "Kâşhar",
+   "Kaşi"
   ],
   "ilk": {
    "t": "0715-01-01",
@@ -1836,7 +2008,44 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
     "kaynak": "TDV İslâm Ansiklopedisi, «Kâşgar» md., https://islamansiklopedisi.org.tr/kasgar (16 Kasım 2026'da okundu; tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026)): «1884'te Çin yönetimi bölgede Doğu Türkistan (Sinkiang) vilâyetini kurdu»"
    }
   ],
-  "ic_not": "Kaynak: TDV 'Kâşgar' (tam metne karşı doğrulandı (tarayıcı); parçalar ayrı bir ikinci okumada özetleyicinin sayfadan verdiği alıntılardır). Çift teyit YOK (Millward/Iranica/Hotan-Kâşgar akademik kaynakları bu oturumda erişilemedi/aranmadı). ilk=715: TDV'de en eski TARİHLİ olgu. TDV 'şehrin tarihi Han hânedanına (MÖ 206-MS 220) kadar gider' ve Çin kaynaklarında Han'dan Tang'a (618-907) 'Şule' adıyla anıldığını söyler — tarihsiz (aralık) olduğundan ilk olarak yazılmadı; gerçek en eski anılış bu olabilir (Han shu, okunamadı). Atlas Kaşgar'ı 0500-01-01'de kasgar-shule ile başlatır (715 > 500 → sahip:[], atlas zinciri esas); 500-715 dilimi bu kayıtta doğrulanmadı. TDV 629'dan beri Çin hâkimiyeti der (715'te Kuteybe 'Çinlilerden aldı') — atlas 'tang' 649-692 ile uyum ayrıca ölçülmeli. Hicrî olaylar: Hicrî→mîlâdî: TDV'nin verdiği mîlâdî yıl ile hicrî yılın kesişiminin ilk günü, tablo takvimiyle (Jülyen, ±1-2 gün); kesinlik yıl. 1130 olayı türetmedir (1128 + 'iki yıl sonra'); TDV '1130' yazmaz → kesinlik belirsiz. 1499/1514 için TDV iki yıl verir, güvenli uç 1514. Satuk Buğra (955) yönetici ölümüdür, devir değil. Karahanlı dönemi (Kâşgar siyasî-kültürel merkez; Togan Han; 405/1014 sikke) TDV'de var ama sahip zinciri açılmadığından olay yazılmadı. Atlas ek: kat1900=3 (LISTE.tsv 'Shuleh (Kashgar)'). TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Önceki notlardaki \"WebFetch özeti / tam metne karşı doğrulandı (tarayıcı) / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir. F3 çözüm (16 Kasım 2026): 1130 türetme (1128+2) değil, TDV Karahıtaylar md.'nin doğrudan verdiği yıldır; kesinlik belirsiz→yil. Devlet kronolojisindeki 1128 maddesi başarısız ilk saldırıdır (farklı olay)."
+  "ic_not": "Kaynak: TDV 'Kâşgar' (tam metne karşı doğrulandı (tarayıcı); parçalar ayrı bir ikinci okumada özetleyicinin sayfadan verdiği alıntılardır). Çift teyit YOK (Millward/Iranica/Hotan-Kâşgar akademik kaynakları bu oturumda erişilemedi/aranmadı). ilk=715: TDV'de en eski TARİHLİ olgu. TDV 'şehrin tarihi Han hânedanına (MÖ 206-MS 220) kadar gider' ve Çin kaynaklarında Han'dan Tang'a (618-907) 'Şule' adıyla anıldığını söyler — tarihsiz (aralık) olduğundan ilk olarak yazılmadı; gerçek en eski anılış bu olabilir (Han shu, okunamadı). Atlas Kaşgar'ı 0500-01-01'de kasgar-shule ile başlatır (715 > 500 → sahip:[], atlas zinciri esas); 500-715 dilimi bu kayıtta doğrulanmadı. TDV 629'dan beri Çin hâkimiyeti der (715'te Kuteybe 'Çinlilerden aldı') — atlas 'tang' 649-692 ile uyum ayrıca ölçülmeli. Hicrî olaylar: Hicrî→mîlâdî: TDV'nin verdiği mîlâdî yıl ile hicrî yılın kesişiminin ilk günü, tablo takvimiyle (Jülyen, ±1-2 gün); kesinlik yıl. 1130 olayı türetmedir (1128 + 'iki yıl sonra'); TDV '1130' yazmaz → kesinlik belirsiz. 1499/1514 için TDV iki yıl verir, güvenli uç 1514. Satuk Buğra (955) yönetici ölümüdür, devir değil. Karahanlı dönemi (Kâşgar siyasî-kültürel merkez; Togan Han; 405/1014 sikke) TDV'de var ama sahip zinciri açılmadığından olay yazılmadı. Atlas ek: kat1900=3 (LISTE.tsv 'Shuleh (Kashgar)'). TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Önceki notlardaki \"WebFetch özeti / tam metne karşı doğrulandı (tarayıcı) / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir. F3 çözüm (16 Kasım 2026): 1130 türetme (1128+2) değil, TDV Karahıtaylar md.'nin doğrudan verdiği yıldır; kesinlik belirsiz→yil. Devlet kronolojisindeki 1128 maddesi başarısız ilk saldırıdır (farklı olay).",
+  "ad_kaynak": [
+   {
+    "ad": "Şule",
+    "dil": "zh",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Kâşgar' https://islamansiklopedisi.org.tr/kasgar",
+    "kanit": "Çin kaynaklarında Şule adıyla zikredilen Kâşgar"
+   },
+   {
+    "ad": "Kâşgar",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Kâşgar' https://islamansiklopedisi.org.tr/kasgar",
+    "kanit": "Kâşgar’ı"
+   },
+   {
+    "ad": "Kâcgar",
+    "dil": "ar",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Kâşgar' https://islamansiklopedisi.org.tr/kasgar",
+    "kanit": "Çince Kaşi; İslâm kaynaklarında Kâşgar, Kâcgar, Kâşhar"
+   },
+   {
+    "ad": "Kâşhar",
+    "dil": "ar",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Kâşgar' https://islamansiklopedisi.org.tr/kasgar",
+    "kanit": "Çince Kaşi; İslâm kaynaklarında Kâşgar, Kâcgar, Kâşhar"
+   },
+   {
+    "ad": "Kaşi",
+    "dil": "zh",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Kâşgar' https://islamansiklopedisi.org.tr/kasgar",
+    "kanit": "Çince Kaşi; İslâm kaynaklarında Kâşgar, Kâcgar, Kâşhar"
+   }
+  ]
  },
  {
   "id": "kuca-cn",
@@ -2019,7 +2228,11 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
   "adlar": [
    "Maracanda (Grekçe)",
    "K'ang / Hsi-wan-chin (Çin vekāyi‘nâmeleri)",
-   "Semerkant"
+   "Semerkant",
+   "Maracanda",
+   "K’ang",
+   "Hsi-wan-chin",
+   "Semerḳand"
   ],
   "ilk": {
    "t": "-0328-01-01",
@@ -2117,7 +2330,37 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
    }
   ],
   "dikis_beyan": "Atlas Semerkant'ı 0500-01-01'de eftalit ile başlatır; MÖ 329-MS 500 arası sahip kaynaklı olarak doldurulamadı (beyanlı boşluk), 0500-01-01 için el değiştirme tanığı yok, yer tutucu olay yazılmadı.",
-  "ic_not": "Tek kaynak TDV 'Semerkant' (WebFetch özet aracı; tanik parçaları aracın verdiği alıntılar). Çift teyit aranadı: iranicaonline.org HTTP 403. TDV Timur'un başşehir yapışını 771/1369 verir (yaygın 1370; TDV esas, fark beyanı). Maracanda MÖ 329 İskender'in alınışıdır; şehir ondan eskidir (Efrâsiyâb höyüğü, TDV: 'günümüze ulaşan harabelerine Efrâsiyâb adı verilmektedir'). ÖNERİ: Efrâsiyâb (Afrasiyab) antik yerleşimi ~1-2 km'de ise ayrı kayıt; modern noktaya uzaklığı bu oturumda ölçülmedi. Kuteybe fethi: TDV 93/711 (başka kaynaklar 712 verir; TDV esas). TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Uyuşmayanlar: TARİH UYUŞMUYOR (olay1.t): eski → 0711-10-19. Semerkant 93/711: 93 h. 711-10-19 başlar; Hicrî ∩ milâdî kesişim ilk günü (aritmetik sivil takvim ±2 gün); eski 0711-01-01 hicrî yılın dışında kalıyordu. TARİH UYUŞMUYOR (olay2.t): eski → 0992-03-09. Semerkant 382 (992): 382 h. 992-03-09 başlar; Hicrî ∩ milâdî kesişim ilk günü (aritmetik sivil takvim ±2 gün); eski 0992-01-01 hicrî yılın dışında kalıyordu. TARİH UYUŞMUYOR (olay4.t): eski → 1220-03-08. Semerkant Cengiz 617 (1220): 617 h. 1220-03-08 başlar; Hicrî ∩ milâdî kesişim ilk günü (aritmetik sivil takvim ±2 gün); eski 1220-01-01 hicrî yılın dışında kalıyordu. TARİH UYUŞMUYOR (olay5.t): eski → 1369-08-05. Semerkant Timur 771/1369: 771 h. 1369-08-05 başlar; Hicrî ∩ milâdî kesişim ilk günü (aritmetik sivil takvim ±2 gün); eski 1369-01-01 hicrî yılın dışında kalıyordu. Önceki notlardaki \"WebFetch özeti / tam metne karşı doğrulandı (tarayıcı) / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir."
+  "ic_not": "Tek kaynak TDV 'Semerkant' (WebFetch özet aracı; tanik parçaları aracın verdiği alıntılar). Çift teyit aranadı: iranicaonline.org HTTP 403. TDV Timur'un başşehir yapışını 771/1369 verir (yaygın 1370; TDV esas, fark beyanı). Maracanda MÖ 329 İskender'in alınışıdır; şehir ondan eskidir (Efrâsiyâb höyüğü, TDV: 'günümüze ulaşan harabelerine Efrâsiyâb adı verilmektedir'). ÖNERİ: Efrâsiyâb (Afrasiyab) antik yerleşimi ~1-2 km'de ise ayrı kayıt; modern noktaya uzaklığı bu oturumda ölçülmedi. Kuteybe fethi: TDV 93/711 (başka kaynaklar 712 verir; TDV esas). TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Uyuşmayanlar: TARİH UYUŞMUYOR (olay1.t): eski → 0711-10-19. Semerkant 93/711: 93 h. 711-10-19 başlar; Hicrî ∩ milâdî kesişim ilk günü (aritmetik sivil takvim ±2 gün); eski 0711-01-01 hicrî yılın dışında kalıyordu. TARİH UYUŞMUYOR (olay2.t): eski → 0992-03-09. Semerkant 382 (992): 382 h. 992-03-09 başlar; Hicrî ∩ milâdî kesişim ilk günü (aritmetik sivil takvim ±2 gün); eski 0992-01-01 hicrî yılın dışında kalıyordu. TARİH UYUŞMUYOR (olay4.t): eski → 1220-03-08. Semerkant Cengiz 617 (1220): 617 h. 1220-03-08 başlar; Hicrî ∩ milâdî kesişim ilk günü (aritmetik sivil takvim ±2 gün); eski 1220-01-01 hicrî yılın dışında kalıyordu. TARİH UYUŞMUYOR (olay5.t): eski → 1369-08-05. Semerkant Timur 771/1369: 771 h. 1369-08-05 başlar; Hicrî ∩ milâdî kesişim ilk günü (aritmetik sivil takvim ±2 gün); eski 1369-01-01 hicrî yılın dışında kalıyordu. Önceki notlardaki \"WebFetch özeti / tam metne karşı doğrulandı (tarayıcı) / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir.",
+  "ad_kaynak": [
+   {
+    "ad": "Maracanda",
+    "dil": "grc",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Semerkant' https://islamansiklopedisi.org.tr/semerkant",
+    "kanit": "Grek tarihlerinde Maracanda, Çin vekāyi‘nâmelerinde K’ang"
+   },
+   {
+    "ad": "K’ang",
+    "dil": "zh",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Semerkant' https://islamansiklopedisi.org.tr/semerkant",
+    "kanit": "Çin vekāyi‘nâmelerinde K’ang ve Hsi-wan-chin adlarıyla geçer"
+   },
+   {
+    "ad": "Hsi-wan-chin",
+    "dil": "zh",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Semerkant' https://islamansiklopedisi.org.tr/semerkant",
+    "kanit": "Çin vekāyi‘nâmelerinde K’ang ve Hsi-wan-chin adlarıyla geçer"
+   },
+   {
+    "ad": "Semerḳand",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Semerkant' https://islamansiklopedisi.org.tr/semerkant",
+    "kanit": "Târîḫu Semerḳand yazarı Abdurrahman b. Muhammed el-İdrîsî"
+   }
+  ]
  },
  {
   "id": "serahs-tm",
@@ -2263,7 +2506,12 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
   "adlar": [
    "Çâç / Şâş (bölge adı)",
    "Binkes (merkez)",
-   "Taşkent"
+   "Taşkent",
+   "Çö-çi",
+   "Çâç",
+   "Şâş",
+   "Binkes",
+   "Terken"
   ],
   "ilk": {
    "t": "0713-01-01",
@@ -2324,7 +2572,51 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
     "tanik": "Haziran 1865’te Çarlık Rusyası orduları tarafından işgal edilen"
    }
   ],
-  "ic_not": "Tek kaynak TDV 'Taşkent' (WebFetch özet aracı; tanik parçaları aracın verdiği alıntılar, tam metinle karşılaştırılmadı). Çift teyit aranmadı/edilemedi (Iranica 403). İLK ANILIŞ UYARISI: 713 TDV'nin verdiği en eski tarihtir (fetih/tahrip); Çaç/Şâş adının Çin ve Soğd kaynaklarındaki daha eski anılışları (TDV: '6.-8. yy Türk hâkimiyetinde ticaret merkezi') alıntıyla doğrulanamadı, bu yüzden daha eski ilk anılış bulunabilir. TDV'nin 'Şâş adının Türkçe Taşkent'ten geldiği' ve 'Taşkent adı XI. yy'da Bîrûnî'de' ifadeleri alıntı olarak doğrulanamadı; ad sırası bu yüzden yalnız TDV'nin bölge/merkez ayrımına dayanır. Atlas 0500'de başlar → sahip:[]. TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Önceki notlardaki \"WebFetch özeti / tam metne karşı doğrulandı (tarayıcı) / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir. | Parti5 tanık kuralı (17 Kasım 2026): tanik cümleden birebir yenilendi [ilk]: TDV cümlesi ad+94/713; kaynak ifadesi güncellendi"
+  "ic_not": "Tek kaynak TDV 'Taşkent' (WebFetch özet aracı; tanik parçaları aracın verdiği alıntılar, tam metinle karşılaştırılmadı). Çift teyit aranmadı/edilemedi (Iranica 403). İLK ANILIŞ UYARISI: 713 TDV'nin verdiği en eski tarihtir (fetih/tahrip); Çaç/Şâş adının Çin ve Soğd kaynaklarındaki daha eski anılışları (TDV: '6.-8. yy Türk hâkimiyetinde ticaret merkezi') alıntıyla doğrulanamadı, bu yüzden daha eski ilk anılış bulunabilir. TDV'nin 'Şâş adının Türkçe Taşkent'ten geldiği' ve 'Taşkent adı XI. yy'da Bîrûnî'de' ifadeleri alıntı olarak doğrulanamadı; ad sırası bu yüzden yalnız TDV'nin bölge/merkez ayrımına dayanır. Atlas 0500'de başlar → sahip:[]. TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Önceki notlardaki \"WebFetch özeti / tam metne karşı doğrulandı (tarayıcı) / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir. | Parti5 tanık kuralı (17 Kasım 2026): tanik cümleden birebir yenilendi [ilk]: TDV cümlesi ad+94/713; kaynak ifadesi güncellendi",
+  "ad_kaynak": [
+   {
+    "ad": "Çö-çi",
+    "dil": "zh",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Taşkent' https://islamansiklopedisi.org.tr/taskent",
+    "kanit": "Çin kaynaklarında Çö-çi, Çö-şi veya Şi olarak geçer"
+   },
+   {
+    "ad": "Çâç",
+    "dil": "ar",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Taşkent' https://islamansiklopedisi.org.tr/taskent",
+    "kanit": "şehir Çâç, Şâş ve Taşkent adları ile geçerken"
+   },
+   {
+    "ad": "Şâş",
+    "dil": "ar",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Taşkent' https://islamansiklopedisi.org.tr/taskent",
+    "kanit": "Arap kaynaklarına Şâş biçiminde bölgenin ve şehrin adı"
+   },
+   {
+    "ad": "Binkes",
+    "dil": "ar",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Taşkent' https://islamansiklopedisi.org.tr/taskent",
+    "kanit": "bölgenin adını Şâş, merkezininkini Binkes diye belirtir"
+   },
+   {
+    "ad": "Terken",
+    "dil": "tr",
+    "donem": "XI. yy (Kâşgarlı Mahmud)",
+    "kaynak": "TDV İslâm Ansiklopedisi 'Taşkent' https://islamansiklopedisi.org.tr/taskent",
+    "kanit": "Taşkent isminin yanında şehre Terken denildiğini"
+   },
+   {
+    "ad": "Taşkent",
+    "dil": "tr",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Taşkent' https://islamansiklopedisi.org.tr/taskent",
+    "kanit": "buraya Türkçe Taşkent denildiğini"
+   }
+  ]
  },
  {
   "id": "termez-uz",
@@ -2504,6 +2796,15 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
     "tanik": "1882 yılından başlayarak Sinkiang (Sincan: “yeni dominyon”) adı altında merkezi Urumçi"
    }
   ],
-  "ic_not": "Kaynak: TDV tam gövde (tarayıcı), çift teyit YOK (ikinci akademik kaynak açılmadı). Tüm tanık alıntıları gövdede includes() ile birebir doğrulandı. ilk.t: Urumçi'ye özgü en erken TARİHLİ tanık TDV «Yâkub Beg» md.'dir (1870); Cungarya Devleti'nin Urumçi'yi kapsaması (XVII. yy sonu, 'ikinci yarısında') yıl düzeyi yüzyıl-yarı olup şehre özgü olmadığından yazılmadı. Atlas Ürümçi'yi 1763-01-01'de qing-hanedani ile başlatır; ilk.t sonra olduğu için sahip:[] ve uyarı beklenir (TDV'de 1763 öncesi tanık yok). Atlas bu noktayı 1763-01-01'de başlatır; ilk.t sonra olduğundan sahip:[] (atlas zinciri esas), 'atlas başlangıcı düzeltilmeli' uyarısı beklenen davranıştır — TDV'de daha erken TARİHLİ tanık bulunamadı."
+  "ic_not": "Kaynak: TDV tam gövde (tarayıcı), çift teyit YOK (ikinci akademik kaynak açılmadı). Tüm tanık alıntıları gövdede includes() ile birebir doğrulandı. ilk.t: Urumçi'ye özgü en erken TARİHLİ tanık TDV «Yâkub Beg» md.'dir (1870); Cungarya Devleti'nin Urumçi'yi kapsaması (XVII. yy sonu, 'ikinci yarısında') yıl düzeyi yüzyıl-yarı olup şehre özgü olmadığından yazılmadı. Atlas Ürümçi'yi 1763-01-01'de qing-hanedani ile başlatır; ilk.t sonra olduğu için sahip:[] ve uyarı beklenir (TDV'de 1763 öncesi tanık yok). Atlas bu noktayı 1763-01-01'de başlatır; ilk.t sonra olduğundan sahip:[] (atlas zinciri esas), 'atlas başlangıcı düzeltilmeli' uyarısı beklenen davranıştır — TDV'de daha erken TARİHLİ tanık bulunamadı.",
+  "ad_kaynak": [
+   {
+    "ad": "Urumçi",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Yâkub Beg' https://islamansiklopedisi.org.tr/yakub-beg",
+    "kanit": "onları Urumçi’den uzaklaştırdı (1870)"
+   }
+  ]
  }
 ];

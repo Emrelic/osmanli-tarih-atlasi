@@ -380,7 +380,8 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
     "kaynak": "SAHO, 'Pretoria Timeline 1800-2009', https://sahistory.org.za/article/pretoria-timeline-1800-2009 ; SAHO, Cape Town Timeline 1300-1997"
    }
   ],
-  "ic_not": "20 şehir listesinden kaynaklı yazılabilenler: bu kayıt yalnız SAHO'ya dayanır (Britannica 403 verdi; TDV'de Cape Town maddesi sorgulanmadı). Zincir (cape-hollanda 1652 → cape-ingiliz 1795/1806 ...) atlasta zaten var; atlas başlangıcı düzeltilince bu dosyada zincir açılabilir. 1795/1803/1806 günleri teyitsiz (yalnız yıl). | Parti5 tanık kuralı (17 Kasım 2026): tanik cümleden birebir yenilendi [ilk]: ad+yıl SAHO 'The Dutch Settlement' cümlesi; 6 Nisan gün tanığı ('1652 6 April, Jan van Riebeeck, on board of the Drommedaris, arrives in Table Bay') Cape Town Timeline satırıdır, adı 'Table Bay' (Cape Town adı yok) -> ic_not'ta beyan; kesinlik gun korundu | Parti5 tanık kuralı (17 Kasım 2026): tanik cümleden birebir yenilendi [kur]: Cape Town Timeline (madde konusu); satır başında yıl+gün"
+  "ic_not": "20 şehir listesinden kaynaklı yazılabilenler: bu kayıt yalnız SAHO'ya dayanır (Britannica 403 verdi; TDV'de Cape Town maddesi sorgulanmadı). Zincir (cape-hollanda 1652 → cape-ingiliz 1795/1806 ...) atlasta zaten var; atlas başlangıcı düzeltilince bu dosyada zincir açılabilir. 1795/1803/1806 günleri teyitsiz (yalnız yıl). | Parti5 tanık kuralı (17 Kasım 2026): tanik cümleden birebir yenilendi [ilk]: ad+yıl SAHO 'The Dutch Settlement' cümlesi; 6 Nisan gün tanığı ('1652 6 April, Jan van Riebeeck, on board of the Drommedaris, arrives in Table Bay') Cape Town Timeline satırıdır, adı 'Table Bay' (Cape Town adı yok) -> ic_not'ta beyan; kesinlik gun korundu | Parti5 tanık kuralı (17 Kasım 2026): tanik cümleden birebir yenilendi [kur]: Cape Town Timeline (madde konusu); satır başında yıl+gün",
+  "ad_kaynak": []
  },
  {
   "id": "dakar-af-p9",
@@ -943,7 +944,8 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
     "kaynak": "TDV İslâm Ansiklopedisi, 'Kano' (Davut Dursun), c. 24, İstanbul 2001, s. 312-313, https://islamansiklopedisi.org.tr/kano"
    }
   ],
-  "ic_not": "Yalnız TDV Kano maddesi (Davut Dursun, c. 24); TDV İngiliz fethi için kesin yıl vermez (Emir Aliyu 1894-1903 dönemi), olay yazılmadı. Atlas başlangıcı (1000) için kaynak aranmalı. TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Uyuşmayanlar: ALINTI DÜZELTİLDİ (ilk.tanik): olgu doğru, önceki alıntı WebFetch özetinden/paraphrase idi; TDV gövdesindeki gerçek cümle yazıldı. Önceki notlardaki \"WebFetch özeti / tam metne karşı doğrulandı (tarayıcı) / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir."
+  "ic_not": "Yalnız TDV Kano maddesi (Davut Dursun, c. 24); TDV İngiliz fethi için kesin yıl vermez (Emir Aliyu 1894-1903 dönemi), olay yazılmadı. Atlas başlangıcı (1000) için kaynak aranmalı. TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Uyuşmayanlar: ALINTI DÜZELTİLDİ (ilk.tanik): olgu doğru, önceki alıntı WebFetch özetinden/paraphrase idi; TDV gövdesindeki gerçek cümle yazıldı. Önceki notlardaki \"WebFetch özeti / tam metne karşı doğrulandı (tarayıcı) / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir.",
+  "ad_kaynak": []
  },
  {
   "id": "khami-p9",
@@ -1342,7 +1344,8 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
     "tanik": "Luanda became the administrative centre of the Portuguese colony of Angola in 1627"
    }
   ],
-  "ic_not": "HAKEMLİ KARAR (LAB, 17 Kasım 2026): Hakemli karar: Britannica 1576 (Novais'in kuruluşu); Columbia 'founded in 1575', Oxford 'first settled in 1575', Universalis (P. Vennetier) 'fondée en 1575', A. M. Caldeira (Rev. Tempo, Espaço e Linguagem, 2014) 'povoação fundada em 1575 ... ilha de Luanda'. Dört bağımsız kaynak 1575; seçim 1575 (yerleşme, Luanda Adası). 25 Ocak 1576 (anakara kuruluşu, geleneksel) beyan edilir, kuruluş yılı olarak yazılmaz. || TEK KAYNAK (Britannica). Atlas Luanda'yı 1575-01-01'de portekiz-angola ile başlatır; Britannica kuruluşu 1576 verir (atlas başlangıcı 1 yıl erken; 1576 ≥ atlas başlangıcı olduğundan zincir yazılmadı, sahip[] boş). İkinci bağımsız kaynak okunmadı."
+  "ic_not": "HAKEMLİ KARAR (LAB, 17 Kasım 2026): Hakemli karar: Britannica 1576 (Novais'in kuruluşu); Columbia 'founded in 1575', Oxford 'first settled in 1575', Universalis (P. Vennetier) 'fondée en 1575', A. M. Caldeira (Rev. Tempo, Espaço e Linguagem, 2014) 'povoação fundada em 1575 ... ilha de Luanda'. Dört bağımsız kaynak 1575; seçim 1575 (yerleşme, Luanda Adası). 25 Ocak 1576 (anakara kuruluşu, geleneksel) beyan edilir, kuruluş yılı olarak yazılmaz. || TEK KAYNAK (Britannica). Atlas Luanda'yı 1575-01-01'de portekiz-angola ile başlatır; Britannica kuruluşu 1576 verir (atlas başlangıcı 1 yıl erken; 1576 ≥ atlas başlangıcı olduğundan zincir yazılmadı, sahip[] boş). İkinci bağımsız kaynak okunmadı.",
+  "ad_kaynak": []
  },
  {
   "id": "mapungubwe-p9",
@@ -1788,7 +1791,13 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
    "Tinbüktü (TDV İA yazımı)",
    "تنبكتو (Tinbuktu)",
    "Timbuktu",
-   "Tombouctou (Fransızca)"
+   "Tombouctou (Fransızca)",
+   "Tinbüktü",
+   "تنبوكتو",
+   "Timbükt",
+   "Tenbuch",
+   "Timbaktu",
+   "Tombouctou"
   ],
   "ilk": {
    "t": "1100-01-01",
@@ -1850,7 +1859,58 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
    }
   ],
   "dikis_beyan": "Atlas Timbuktu'yu 1281-01-01'den Mali'ye bağlıyor; TDV Tinbüktü'nün Mali'ye geçişini Mansa Mûsâ dönemine (1329) bağlar ve 1281 için tanık vermez. 1281'e ±30 gün olay bulunamadı; yer tutucu olay yazılmadı.",
-  "ic_not": "Kaynak: yalnız TDV (Tinbüktü, Mali, Gâne maddeleri okundu). Başka akademik kaynakla (ör. Hunwick, Timbuktu and the Songhay Empire, 1999) çift teyit YAPILMADI. 1430 sonrası zincir atlas esasıdır (burada yazılmadı); TDV'de 1430, 1468, 1591, 1750 (Arma), 1760 (Tevârik), ~1770 (Segu Bambara), 1792 (Tevârik), 1894 (Fransız) günleri yalnız yıl hassasiyetindedir. TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Önceki notlardaki \"WebFetch özeti / tam metne karşı doğrulandı (tarayıcı) / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir. | Parti5 tanık kuralı (17 Kasım 2026): kesinlik belirsiz'e indirildi (ad+yıl aynı cümlede birebir bulunamadı) [ilk]: madde konusu cümlesi: kaynak cümlesinde şehir adı yok (özne 'şehir/kasaba/burası' ya da madde başlığı), aynı cümlede ad+yıl bulunamadı ('Şehrin tarihi XI. yüzyılın sonlarına kadar iner'); TDV'de ad+yıl: Mense Mûsâ 729/1329 ve İbn Battûta 754/1353 (daha geç) Parti5 geri alma (koordinatör kararı): tanık cümlesi madde konusu şehre atıflı (madde: TDV İslâm Ansiklopedisi); ilk.kesinlik 'belirsiz' → 'yuzyil' geri alındı."
+  "ic_not": "Kaynak: yalnız TDV (Tinbüktü, Mali, Gâne maddeleri okundu). Başka akademik kaynakla (ör. Hunwick, Timbuktu and the Songhay Empire, 1999) çift teyit YAPILMADI. 1430 sonrası zincir atlas esasıdır (burada yazılmadı); TDV'de 1430, 1468, 1591, 1750 (Arma), 1760 (Tevârik), ~1770 (Segu Bambara), 1792 (Tevârik), 1894 (Fransız) günleri yalnız yıl hassasiyetindedir. TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Önceki notlardaki \"WebFetch özeti / tam metne karşı doğrulandı (tarayıcı) / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir. | Parti5 tanık kuralı (17 Kasım 2026): kesinlik belirsiz'e indirildi (ad+yıl aynı cümlede birebir bulunamadı) [ilk]: madde konusu cümlesi: kaynak cümlesinde şehir adı yok (özne 'şehir/kasaba/burası' ya da madde başlığı), aynı cümlede ad+yıl bulunamadı ('Şehrin tarihi XI. yüzyılın sonlarına kadar iner'); TDV'de ad+yıl: Mense Mûsâ 729/1329 ve İbn Battûta 754/1353 (daha geç) Parti5 geri alma (koordinatör kararı): tanık cümlesi madde konusu şehre atıflı (madde: TDV İslâm Ansiklopedisi); ilk.kesinlik 'belirsiz' → 'yuzyil' geri alındı.",
+  "ad_kaynak": [
+   {
+    "ad": "Tinbüktü",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Tinbüktü' https://islamansiklopedisi.org.tr/tinbuktu",
+    "kanit": "Tinbüktü (Timbüktü) şehri"
+   },
+   {
+    "ad": "Timbüktü",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Tinbüktü' https://islamansiklopedisi.org.tr/tinbuktu",
+    "kanit": "Tinbüktü (Timbüktü) şehri"
+   },
+   {
+    "ad": "تنبوكتو",
+    "dil": "ar",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Tinbüktü' https://islamansiklopedisi.org.tr/tinbuktu",
+    "kanit": "şehrin adını Tinbûktû (تنبوكتو) şeklinde yazmaktadır"
+   },
+   {
+    "ad": "Timbükt",
+    "dil": "ar",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Tinbüktü' https://islamansiklopedisi.org.tr/tinbuktu",
+    "kanit": "Bazı Arapça kaynaklarda Timbükt olarak geçen isim"
+   },
+   {
+    "ad": "Tenbuch",
+    "dil": "ar",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Tinbüktü' https://islamansiklopedisi.org.tr/tinbuktu",
+    "kanit": "Tenbuch biçiminde kaydedilmiş"
+   },
+   {
+    "ad": "Timbaktu",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Tinbüktü' https://islamansiklopedisi.org.tr/tinbuktu",
+    "kanit": "İngilizce’ye Timbaktu"
+   },
+   {
+    "ad": "Tombouctou",
+    "dil": "fr",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Tinbüktü' https://islamansiklopedisi.org.tr/tinbuktu",
+    "kanit": "Fransızca’ya Tombouctou diye geçmiştir"
+   }
+  ]
  },
  {
   "id": "valata-af-p9",

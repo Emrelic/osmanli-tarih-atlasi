@@ -1,0 +1,567 @@
+[
+ {
+  "dosya": "sehir_tarihce_k12.js",
+  "id": "dakka",
+  "lab_id": "dakka-bd",
+  "ad_kaynak": [
+   {
+    "ad": "Dhaka",
+    "dil": "bn",
+    "donem": null,
+    "kaynak": "Banglapedia 'Dhaka' https://en.banglapedia.org/index.php/Dhaka",
+    "kanit": "to the general people old name Dhaka was more popular"
+   },
+   {
+    "ad": "Cihangirnagar",
+    "dil": "tr-osm",
+    "donem": "1608-",
+    "kaynak": "TDV İslâm Ansiklopedisi 'DAKKA' https://islamansiklopedisi.org.tr/dakka",
+    "kanit": "şehre Cihangirnagar adını verdi."
+   },
+   {
+    "ad": "Jahangirnagar",
+    "dil": "en",
+    "donem": "1610-",
+    "kaynak": "Banglapedia 'Dhaka' https://en.banglapedia.org/index.php/Dhaka",
+    "kanit": "renamed it Jahangirnagar after the name of the emperor"
+   },
+   {
+    "ad": "Dacca",
+    "dil": "en",
+    "donem": "-1982",
+    "kaynak": "Banglapedia 'Bangladesh' https://en.banglapedia.org/index.php/Bangladesh (arama özeti)",
+    "kanit": "Dhaka (previously spelt Dacca)"
+   }
+  ],
+  "adlar_eklenecek": [
+   "Dhaka",
+   "Cihangirnagar",
+   "Jahangirnagar",
+   "Dacca"
+  ]
+ },
+ {
+  "dosya": "sehir_tarihce_k12.js",
+  "id": "delhi",
+  "lab_id": "delhi-in",
+  "ad_kaynak": [
+   {
+    "ad": "Indraprastha",
+    "dil": "sa",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'DELHİ' https://islamansiklopedisi.org.tr/delhi",
+    "kanit": "Indraprastha adında bir yerleşim merkezinden söz etmektedir"
+   },
+   {
+    "ad": "Dehlü",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'DELHİ' https://islamansiklopedisi.org.tr/delhi",
+    "kanit": "İslâm kaynaklarında şehrin ilk isminin Dehlü olduğu bildirilmekte"
+   },
+   {
+    "ad": "Şahcihanâbâd",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'DELHİ' https://islamansiklopedisi.org.tr/delhi",
+    "kanit": "orada Şahcihanâbâd adıyla yeni bir yerleşme merkezi"
+   }
+  ],
+  "adlar_eklenecek": [
+   "Indraprastha",
+   "Dehlü",
+   "Şahcihanâbâd"
+  ]
+ },
+ {
+  "dosya": "sehir_tarihce_k12.js",
+  "id": "kalkuta",
+  "lab_id": "kalkuta-in",
+  "ad_kaynak": [
+   {
+    "ad": "Kalikâtâ",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'KALKÜTA' https://islamansiklopedisi.org.tr/kalkuta",
+    "kanit": "yerli halk buraya Kalikâtâ demeye devam etmiş"
+   },
+   {
+    "ad": "Kalikata",
+    "dil": "bn",
+    "donem": "-1690",
+    "kaynak": "Banglapedia 'Calcutta' https://en.banglapedia.org/index.php/Calcutta",
+    "kanit": "in and around the villages of Kalikata, Sutanuti and Govindapur"
+   },
+   {
+    "ad": "Sutanuti",
+    "dil": "bn",
+    "donem": null,
+    "kaynak": "Encyclopedia.com (Gale/Oxford) 'Calcutta' https://www.encyclopedia.com/places/asia/indian-political-geography/calcutta",
+    "kanit": "establish an English factory at Sutanuti"
+   },
+   {
+    "ad": "Calcutta",
+    "dil": "en",
+    "donem": "1690-2001",
+    "kaynak": "TDV İslâm Ansiklopedisi 'KALKÜTA' https://islamansiklopedisi.org.tr/kalkuta",
+    "kanit": "bu ad İngilizce’ye Calcutta imlâsıyla girmiştir"
+   },
+   {
+    "ad": "Fort William",
+    "dil": "en",
+    "donem": "1699-",
+    "kaynak": "TDV İslâm Ansiklopedisi 'KALKÜTA' https://islamansiklopedisi.org.tr/kalkuta",
+    "kanit": "resmen Fort William adını almışsa"
+   },
+   {
+    "ad": "Alinagar",
+    "dil": "fa",
+    "donem": "1756",
+    "kaynak": "TDV İslâm Ansiklopedisi 'KALKÜTA' https://islamansiklopedisi.org.tr/kalkuta",
+    "kanit": "adını Alinagar’a çevirdi"
+   },
+   {
+    "ad": "Kolkata",
+    "dil": "bn",
+    "donem": "2001-",
+    "kaynak": "Banglapedia 'Calcutta' https://en.banglapedia.org/index.php/Calcutta",
+    "kanit": "Recently the name of the city has been changed to Kolkata."
+   }
+  ],
+  "adlar_eklenecek": [
+   "Kalikâtâ",
+   "Kalikata",
+   "Sutanuti",
+   "Fort William",
+   "Alinagar",
+   "Kolkata"
+  ]
+ },
+ {
+  "dosya": "sehir_tarihce_k12.js",
+  "id": "lahore",
+  "lab_id": "lahor-pk",
+  "ad_kaynak": [
+   {
+    "ad": "Lahor",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'LAHOR' https://islamansiklopedisi.org.tr/lahor",
+    "kanit": "Bennah ve el-Ahvar’a (Lahor’un Arapça şekli)"
+   },
+   {
+    "ad": "el-Ahvar",
+    "dil": "ar",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'LAHOR' https://islamansiklopedisi.org.tr/lahor",
+    "kanit": "Bennah ve el-Ahvar’a (Lahor’un Arapça şekli)"
+   }
+  ],
+  "adlar_eklenecek": [
+   "el-Ahvar"
+  ]
+ },
+ {
+  "dosya": "sehir_tarihce_k12.js",
+  "id": "multan",
+  "lab_id": "multan-pk",
+  "ad_kaynak": [
+   {
+    "ad": "Mulasthân",
+    "dil": "sa",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'MÜLTAN' https://islamansiklopedisi.org.tr/multan",
+    "kanit": "Mültan adı daha önce kullanılan Mulasthân’ın değişmiş şeklidir."
+   },
+   {
+    "ad": "Mültan",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'MÜLTAN' https://islamansiklopedisi.org.tr/multan",
+    "kanit": "Mültan adı daha önce kullanılan Mulasthân’ın değişmiş şeklidir."
+   }
+  ],
+  "adlar_eklenecek": [
+   "Mulasthân",
+   "Mültan"
+  ]
+ },
+ {
+  "dosya": "sehir_tarihce_k12.js",
+  "id": "patna",
+  "lab_id": "patna-in",
+  "ad_kaynak": [
+   {
+    "ad": "Pataliputra",
+    "dil": "sa",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'PATNA' https://islamansiklopedisi.org.tr/patna",
+    "kanit": "İlk adı Pataliputra olan ve zaman içerisinde"
+   },
+   {
+    "ad": "Palibothra",
+    "dil": "grc",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'PATNA' https://islamansiklopedisi.org.tr/patna",
+    "kanit": "Palibothra, Kusumpur, Pushpapura, Azîmâbâd adlarıyla da anılan"
+   },
+   {
+    "ad": "Kusumpur",
+    "dil": "sa",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'PATNA' https://islamansiklopedisi.org.tr/patna",
+    "kanit": "Palibothra, Kusumpur, Pushpapura, Azîmâbâd adlarıyla da anılan"
+   },
+   {
+    "ad": "Pushpapura",
+    "dil": "sa",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'PATNA' https://islamansiklopedisi.org.tr/patna",
+    "kanit": "Palibothra, Kusumpur, Pushpapura, Azîmâbâd adlarıyla da anılan"
+   },
+   {
+    "ad": "Azîmâbâd",
+    "dil": "tr-osm",
+    "donem": "1704-1921",
+    "kaynak": "TDV İslâm Ansiklopedisi 'PATNA' https://islamansiklopedisi.org.tr/patna",
+    "kanit": "Azîmüşşân şehrin adını 1704 yılında Azîmâbâd olarak değiştirdi"
+   },
+   {
+    "ad": "Patna",
+    "dil": "en",
+    "donem": "1921-",
+    "kaynak": "TDV İslâm Ansiklopedisi 'PATNA' https://islamansiklopedisi.org.tr/patna",
+    "kanit": "1921’de İngilizler tarafından şehrin adı tekrar Patna’ya çevrildi."
+   }
+  ],
+  "adlar_eklenecek": [
+   "Pataliputra",
+   "Palibothra",
+   "Kusumpur",
+   "Pushpapura"
+  ]
+ },
+ {
+  "dosya": "sehir_tarihce_k12.js",
+  "id": "belh",
+  "lab_id": "belh-af",
+  "ad_kaynak": [
+   {
+    "ad": "Bāḥdi",
+    "dil": "ae",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Belh' https://islamansiklopedisi.org.tr/belh",
+    "kanit": "Bāḥtriş, Avesta’da Bāḥdi (Bahdrî) ve Grekçe’de Baktra"
+   },
+   {
+    "ad": "Bahdrî",
+    "dil": "ae",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Belh' https://islamansiklopedisi.org.tr/belh",
+    "kanit": "Bāḥtriş, Avesta’da Bāḥdi (Bahdrî) ve Grekçe’de Baktra"
+   },
+   {
+    "ad": "Bāḥtriş",
+    "dil": "peo",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Belh' https://islamansiklopedisi.org.tr/belh",
+    "kanit": "Bāḥtriş, Avesta’da Bāḥdi (Bahdrî) ve Grekçe’de Baktra"
+   },
+   {
+    "ad": "Baktra",
+    "dil": "grc",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Belh' https://islamansiklopedisi.org.tr/belh",
+    "kanit": "Bāḥtriş, Avesta’da Bāḥdi (Bahdrî) ve Grekçe’de Baktra"
+   }
+  ],
+  "adlar_eklenecek": [
+   "Bāḥdi",
+   "Bahdrî",
+   "Bāḥtriş",
+   "Baktra"
+  ]
+ },
+ {
+  "dosya": "sehir_tarihce_k12.js",
+  "id": "buhara",
+  "lab_id": "buhara-uz",
+  "ad_kaynak": [
+   {
+    "ad": "Nûmickes",
+    "dil": "zh",
+    "donem": "V. yy (kaynak yalnız yüzyıl verir)",
+    "kaynak": "TDV İslâm Ansiklopedisi 'Buhara' https://islamansiklopedisi.org.tr/buhara",
+    "kanit": "Buhara’nın merkezi Nûmickes’ten (Bûmickes) Numi şeklinde söz edilir"
+   },
+   {
+    "ad": "Pu-ha",
+    "dil": "zh",
+    "donem": "~630",
+    "kaynak": "TDV İslâm Ansiklopedisi 'Buhara' https://islamansiklopedisi.org.tr/buhara",
+    "kanit": "Pu-ha şeklinde 630 yılı civarında"
+   },
+   {
+    "ad": "Buhârâ",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Buhara' https://islamansiklopedisi.org.tr/buhara",
+    "kanit": "Târîḫ-i Buḫârâ"
+   }
+  ],
+  "adlar_eklenecek": [
+   "Nûmickes",
+   "Pu-ha",
+   "Buhârâ"
+  ]
+ },
+ {
+  "dosya": "sehir_tarihce_osm.js",
+  "id": "herat",
+  "lab_id": "herat-af",
+  "ad_kaynak": [
+   {
+    "ad": "Haraiva",
+    "dil": "peo",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Herat' https://islamansiklopedisi.org.tr/herat",
+    "kanit": "çivi yazılı Eski Farsça kitâbelerde Haraiva"
+   },
+   {
+    "ad": "Aria",
+    "dil": "grc",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Herat' https://islamansiklopedisi.org.tr/herat",
+    "kanit": "Avesta’da ve Grekçe metinlerde Aria, Areia şeklinde rastlanır"
+   },
+   {
+    "ad": "Areia",
+    "dil": "grc",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Herat' https://islamansiklopedisi.org.tr/herat",
+    "kanit": "Avesta’da ve Grekçe metinlerde Aria, Areia şeklinde rastlanır"
+   }
+  ],
+  "adlar_eklenecek": [
+   "Haraiva",
+   "Aria",
+   "Areia"
+  ]
+ },
+ {
+  "dosya": "sehir_tarihce_k12.js",
+  "id": "hive",
+  "lab_id": "hive-uz",
+  "ad_kaynak": [
+   {
+    "ad": "Hîve",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Hîve Hanlığı' https://islamansiklopedisi.org.tr/hive-hanligi",
+    "kanit": "Hîve Hanlığı şeklinde geçer"
+   }
+  ],
+  "adlar_eklenecek": [
+   "Hîve"
+  ]
+ },
+ {
+  "dosya": "sehir_tarihce_osm.js",
+  "id": "kabul",
+  "lab_id": "kabil-af",
+  "ad_kaynak": [
+   {
+    "ad": "Kubha",
+    "dil": "sa",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Kâbil (Afganistan)' https://islamansiklopedisi.org.tr/kabil--afganistan",
+    "kanit": "Rig Veda’da “Kubha”"
+   },
+   {
+    "ad": "Kaboura",
+    "dil": "grc",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Kâbil (Afganistan)' https://islamansiklopedisi.org.tr/kabil--afganistan",
+    "kanit": "Kabolitler’in Kaboura şehri"
+   },
+   {
+    "ad": "Kao-fu",
+    "dil": "zh",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Kâbil (Afganistan)' https://islamansiklopedisi.org.tr/kabil--afganistan",
+    "kanit": "Çin seyahatnâmelerinde “Kao-fu” şekillerinde geçer"
+   },
+   {
+    "ad": "Kâbül",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Kâbil (Afganistan)' https://islamansiklopedisi.org.tr/kabil--afganistan",
+    "kanit": "ismin aslı “Kâbül” olup"
+   },
+   {
+    "ad": "Kâbil",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Kâbil (Afganistan)' https://islamansiklopedisi.org.tr/kabil--afganistan",
+    "kanit": "Zâbülistan’ı aldı ve Kâbil’e girdi"
+   },
+   {
+    "ad": "Kâbul",
+    "dil": "ar",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Kâbil (Afganistan)' https://islamansiklopedisi.org.tr/kabil--afganistan",
+    "kanit": "(Türk ve Kâbul)"
+   }
+  ],
+  "adlar_eklenecek": [
+   "Kubha",
+   "Kaboura",
+   "Kao-fu"
+  ]
+ },
+ {
+  "dosya": "sehir_tarihce_k12.js",
+  "id": "kasgar",
+  "lab_id": "kasgar-cn",
+  "ad_kaynak": [
+   {
+    "ad": "Şule",
+    "dil": "zh",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Kâşgar' https://islamansiklopedisi.org.tr/kasgar",
+    "kanit": "Çin kaynaklarında Şule adıyla zikredilen Kâşgar"
+   },
+   {
+    "ad": "Kâşgar",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Kâşgar' https://islamansiklopedisi.org.tr/kasgar",
+    "kanit": "Kâşgar’ı"
+   },
+   {
+    "ad": "Kâcgar",
+    "dil": "ar",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Kâşgar' https://islamansiklopedisi.org.tr/kasgar",
+    "kanit": "Çince Kaşi; İslâm kaynaklarında Kâşgar, Kâcgar, Kâşhar"
+   },
+   {
+    "ad": "Kâşhar",
+    "dil": "ar",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Kâşgar' https://islamansiklopedisi.org.tr/kasgar",
+    "kanit": "Çince Kaşi; İslâm kaynaklarında Kâşgar, Kâcgar, Kâşhar"
+   },
+   {
+    "ad": "Kaşi",
+    "dil": "zh",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Kâşgar' https://islamansiklopedisi.org.tr/kasgar",
+    "kanit": "Çince Kaşi; İslâm kaynaklarında Kâşgar, Kâcgar, Kâşhar"
+   }
+  ],
+  "adlar_eklenecek": [
+   "Şule",
+   "Kâcgar",
+   "Kâşhar",
+   "Kaşi"
+  ]
+ },
+ {
+  "dosya": "sehir_tarihce_k12.js",
+  "id": "semerkant",
+  "lab_id": "semerkant-uz",
+  "ad_kaynak": [
+   {
+    "ad": "Maracanda",
+    "dil": "grc",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Semerkant' https://islamansiklopedisi.org.tr/semerkant",
+    "kanit": "Grek tarihlerinde Maracanda, Çin vekāyi‘nâmelerinde K’ang"
+   },
+   {
+    "ad": "K’ang",
+    "dil": "zh",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Semerkant' https://islamansiklopedisi.org.tr/semerkant",
+    "kanit": "Çin vekāyi‘nâmelerinde K’ang ve Hsi-wan-chin adlarıyla geçer"
+   },
+   {
+    "ad": "Hsi-wan-chin",
+    "dil": "zh",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Semerkant' https://islamansiklopedisi.org.tr/semerkant",
+    "kanit": "Çin vekāyi‘nâmelerinde K’ang ve Hsi-wan-chin adlarıyla geçer"
+   },
+   {
+    "ad": "Semerḳand",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Semerkant' https://islamansiklopedisi.org.tr/semerkant",
+    "kanit": "Târîḫu Semerḳand yazarı Abdurrahman b. Muhammed el-İdrîsî"
+   }
+  ],
+  "adlar_eklenecek": [
+   "Maracanda",
+   "K’ang",
+   "Hsi-wan-chin",
+   "Semerḳand"
+  ]
+ },
+ {
+  "dosya": "sehir_tarihce_k12.js",
+  "id": "taskent",
+  "lab_id": "taskent-uz",
+  "ad_kaynak": [
+   {
+    "ad": "Çö-çi",
+    "dil": "zh",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Taşkent' https://islamansiklopedisi.org.tr/taskent",
+    "kanit": "Çin kaynaklarında Çö-çi, Çö-şi veya Şi olarak geçer"
+   },
+   {
+    "ad": "Çâç",
+    "dil": "ar",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Taşkent' https://islamansiklopedisi.org.tr/taskent",
+    "kanit": "şehir Çâç, Şâş ve Taşkent adları ile geçerken"
+   },
+   {
+    "ad": "Şâş",
+    "dil": "ar",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Taşkent' https://islamansiklopedisi.org.tr/taskent",
+    "kanit": "Arap kaynaklarına Şâş biçiminde bölgenin ve şehrin adı"
+   },
+   {
+    "ad": "Binkes",
+    "dil": "ar",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Taşkent' https://islamansiklopedisi.org.tr/taskent",
+    "kanit": "bölgenin adını Şâş, merkezininkini Binkes diye belirtir"
+   },
+   {
+    "ad": "Terken",
+    "dil": "tr",
+    "donem": "XI. yy (Kâşgarlı Mahmud)",
+    "kaynak": "TDV İslâm Ansiklopedisi 'Taşkent' https://islamansiklopedisi.org.tr/taskent",
+    "kanit": "Taşkent isminin yanında şehre Terken denildiğini"
+   },
+   {
+    "ad": "Taşkent",
+    "dil": "tr",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Taşkent' https://islamansiklopedisi.org.tr/taskent",
+    "kanit": "buraya Türkçe Taşkent denildiğini"
+   }
+  ],
+  "adlar_eklenecek": [
+   "Çö-çi",
+   "Çâç",
+   "Şâş",
+   "Binkes",
+   "Terken"
+  ]
+ }
+]
