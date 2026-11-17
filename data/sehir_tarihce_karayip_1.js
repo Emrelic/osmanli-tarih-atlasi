@@ -20,7 +20,7 @@ window.SEHIR_TARIHCE_KARAYIP_1 = [
    "kesinlik": "yil",
    "kaynak": "UNESCO World Heritage Centre, «Antigua Guatemala» (list no. 65), https://whc.unesco.org/en/list/65/ (tam gövde okundu, 17 Kasım 2026) · Encyclopaedia Britannica, «Antigua Guatemala» (Britannica editörleri), https://www.britannica.com/place/Antigua-Guatemala (tam gövde okundu, 17 Kasım 2026)",
    "tanik": "The third location, in the Valley of Panchoy or Pacán, was inaugurated in March 1543 and served for 230 years.",
-   "ic_not": "TANIK KURALI KARŞILANMADI: UNESCO cümlesinde şehir adı yok (paragraf öznesi 'Antigua Guatemala … founded in 1524 as Santiago de Guatemala') → kesinlik ay'dan (Mart 1543) yil'e DÜŞÜRÜLDÜ. ÇELİŞKİ: Britannica üçüncü yeri 1541 lahar'ının 'the following year' = 1542 yazar; UNESCO Mart 1543 der. Teyit yok → daha belirli kurumsal kaynak (UNESCO) yılı alındı, BEYAN. 1524 (Iximché) ve 1527 (Almolonga/Ciudad Vieja) yerleri bugünkü noktadan uzak (mesafe ÖLÇÜLMEDİ; Britannica'ya göre ayrı vadiler) → başlangıç sayılmadı, olay."
+   "ic_not": "TANIK KURALI KARŞILANMADI: UNESCO cümlesinde şehir adı yok (paragraf öznesi 'Antigua Guatemala … founded in 1524 as Santiago de Guatemala') → kesinlik ay'dan (Mart 1543) yil'e DÜŞÜRÜLDÜ. ÇELİŞKİ: Britannica üçüncü yeri 1541 lahar'ının 'the following year' = 1542 yazar; UNESCO Mart 1543 der. Teyit yok → daha belirli kurumsal kaynak (UNESCO) yılı alındı, BEYAN. 2. KAYNAK (17 Kasım 2026): Christopher H. Lutz, «Antigua (La Antigua Guatemala)», ELAHC (Gale/Scribner), https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/antigua-la-antigua-guatemala: 'By late 1541, the city's cabildo (city council) had begun to supervise laying out the new city.' — üçüncü bir yıl (1541 sonu: Panchoy'da planlamanın başlaması); Lutz'un monografisi de «Santiago de Guatemala, 1541–1773» adını taşır. Üç kaynak üç ayrı ânı tarihler (Lutz 1541 sonu planlama · Britannica 1542 · UNESCO Mart 1543 açılış); iki bağımsız kaynak aynı yılda birleşmiyor → HAKEMLİ KARAR ÇIKMADI, 1543 (UNESCO) kaldı. Annis, «The Architecture of Antigua Guatemala, 1543–1773» (1968) başlığı 1543'ü destekler (kitap OKUNMADI, sayılmadı). 1524 (Iximché) ve 1527 (Almolonga/Ciudad Vieja) yerleri bugünkü noktadan uzak (mesafe ÖLÇÜLMEDİ; Britannica'ya göre ayrı vadiler) → başlangıç sayılmadı, olay."
   },
   "kur": null,
   "ark": null,
@@ -116,20 +116,20 @@ window.SEHIR_TARIHCE_KARAYIP_1 = [
    "Guatemala / Ciudad de Guatemala"
   ],
   "ilk": {
-   "t": "1776-01-01",
-   "gun": "1776",
+   "t": "1776-01-02",
+   "gun": "2 Ocak 1776",
    "nicelik": "kurulus",
-   "kesinlik": "yil",
-   "kaynak": "Encyclopaedia Britannica, «Guatemala City» (Britannica editörleri), https://www.britannica.com/place/Guatemala-City (tam gövde okundu, 17 Kasım 2026)",
-   "tanik": "Guatemala City was founded in 1776 to replace Antigua Guatemala, which had been virtually destroyed by an earthquake in 1773, as the capital of the captaincy general of Guatemala.",
-   "ic_not": "TEK KAYNAK (Britannica; ikinci bağımsız akademik kaynak bu turda okunmadı). UNESCO (list 65) taşınmayı doğrular ama yıl vermez ('relocation of the capital to a safer location region, which became Guatemala City'). Kaminaljuyú arkeolojik alanı ayrı kayıttır (arkeoloji dosyası)."
+   "kesinlik": "gun",
+   "kaynak": "ELAHC «Guatemala City» (Encyclopedia of Latin American History and Culture, Gale/Scribner), https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/guatemala-city (tam gövde okundu, 17 Kasım 2026) · Encyclopaedia Britannica, «Guatemala City» (Britannica editörleri), https://www.britannica.com/place/Guatemala-City (tam gövde okundu, 17 Kasım 2026)",
+   "tanik": "The New Guatemala of the Assumption, better known as Guatemala City, was founded officially in Ermita Valley on 2 January 1776 as the seat of the Realm of Guatemala.",
+   "ic_not": "ÇİFT KAYNAK (yıl): Britannica 'Guatemala City was founded in 1776 to replace Antigua Guatemala' + 2. KAYNAK: ELAHC «Guatemala City» (Gale/Scribner), https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/guatemala-city: 'The New Guatemala of the Assumption, better known as Guatemala City, was founded officially in Ermita Valley on 2 January 1776 as the seat of the Realm of Guatemala.' GÜN TEK KAYNAK (ELAHC). ESKİ DEĞER 1776-01-01 (yil). ELAHC ayrıca 1834'te federasyon merkezinin San Salvador'a taşındığını ve Carrera'yla (1838–1840) Guatemala eyaleti başkenti olduğunu yazar (Britannica 1823–33 federasyon başkentliğiyle uyumlu). ELAHC madde yazarı sayfada okunmadı. UNESCO (list 65) taşınmayı doğrular ama yıl vermez ('relocation of the capital to a safer location region, which became Guatemala City'). Kaminaljuyú arkeolojik alanı ayrı kayıttır (arkeoloji dosyası)."
   },
   "kur": {
-   "t": "1776-01-01",
-   "gun": "1776",
-   "kesinlik": "yil",
-   "kaynak": "Encyclopaedia Britannica, «Guatemala City» (Britannica editörleri), https://www.britannica.com/place/Guatemala-City (tam gövde okundu, 17 Kasım 2026)",
-   "tanik": "Guatemala City was founded in 1776"
+   "t": "1776-01-02",
+   "gun": "2 Ocak 1776",
+   "kesinlik": "gun",
+   "kaynak": "ELAHC «Guatemala City» (Encyclopedia of Latin American History and Culture, Gale/Scribner), https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/guatemala-city (tam gövde okundu, 17 Kasım 2026) · Encyclopaedia Britannica, «Guatemala City» (Britannica editörleri), https://www.britannica.com/place/Guatemala-City (tam gövde okundu, 17 Kasım 2026)",
+   "tanik": "was founded officially in Ermita Valley on 2 January 1776"
   },
   "ark": null,
   "bit": null,
@@ -145,13 +145,14 @@ window.SEHIR_TARIHCE_KARAYIP_1 = [
     "tanik": "which had been virtually destroyed by an earthquake in 1773"
    },
    {
-    "t": "1776-01-01",
-    "gun": "1776",
+    "t": "1776-01-02",
+    "gun": "2 Ocak 1776",
     "k": "kurulus",
-    "b": "Yeni başkent Guatemala Kaptanlığı merkezi olarak kurulur.",
-    "kesinlik": "yil",
-    "kaynak": "Encyclopaedia Britannica, «Guatemala City» (Britannica editörleri), https://www.britannica.com/place/Guatemala-City (tam gövde okundu, 17 Kasım 2026)",
-    "tanik": "Guatemala City was founded in 1776"
+    "b": "Yeni başkent Nueva Guatemala de la Asunción, Ermita vadisinde Guatemala Kaptanlığı merkezi olarak resmen kurulur.",
+    "kesinlik": "gun",
+    "kaynak": "ELAHC «Guatemala City» (Encyclopedia of Latin American History and Culture, Gale/Scribner), https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/guatemala-city (tam gövde okundu, 17 Kasım 2026) · Encyclopaedia Britannica, «Guatemala City» (Britannica editörleri), https://www.britannica.com/place/Guatemala-City (tam gövde okundu, 17 Kasım 2026)",
+    "tanik": "was founded officially in Ermita Valley on 2 January 1776",
+    "ic_not": "Yıl iki kaynakta; gün yalnız ELAHC."
    },
    {
     "t": "1821-01-01",
@@ -228,7 +229,7 @@ window.SEHIR_TARIHCE_KARAYIP_1 = [
    "kesinlik": "yil",
    "kaynak": "Encyclopaedia Britannica, «Kingston» (Britannica editörleri), https://www.britannica.com/place/Kingston-Jamaica (tam gövde okundu, 17 Kasım 2026)",
    "tanik": "Kingston was founded in 1692 after Port Royal, at the mouth of the harbour, was destroyed by an earthquake.",
-   "ic_not": "TEK KAYNAK (Britannica; ikinci bağımsız akademik kaynak bu turda okunmadı). Port Royal depreminin günü (7 Haziran 1692) bu sayfada yok."
+   "ic_not": "TEK KAYNAK (Britannica; ikinci bağımsız akademik kaynak bu turda okunmadı). Port Royal depreminin günü (7 Haziran 1692) bu sayfada yok. 2. KAYNAK ARANDI (17 Kasım 2026), AKADEMİK BULUNAMADI: Philip's «World Encyclopedia» (encyclopedia.com, https://www.encyclopedia.com/places/latin-america-and-caribbean/caribbean-political-geography/kingston-jamaica) 'It was founded in 1693.' der — genel başvuru eseri, akademik değil, 1692 ile ÇELİŞİR (1692 Goffe planı / 1693 arsa satışı ayrımı olabilir; teyit yok, değer değişmedi). National Library of Jamaica «History of Kingston & St. Andrew» PDF → OKUNMADI (dosya indirme yok)."
   },
   "kur": {
    "t": "1692-01-01",
@@ -453,7 +454,7 @@ window.SEHIR_TARIHCE_KARAYIP_1 = [
    "kesinlik": "onyil",
    "kaynak": "Encyclopaedia Britannica, «Port-au-Prince» (Britannica editörleri), https://www.britannica.com/place/Port-au-Prince (tam gövde okundu, 17 Kasım 2026)",
    "tanik": "The city was laid out in a grid pattern in 1749 by the French and called L’Hôpital.",
-   "ic_not": "TANIK KURALI KARŞILANMADI: yıl ile şehir adı aynı cümlede değil (cümle 'The city' der; Port-au-Prince adı önceki cümlede) → kesinlik yil'den onyil'e DÜŞÜRÜLDÜ; yıl 1749 kaynakta açıktır. TEK KAYNAK (Britannica; ikinci bağımsız akademik kaynak bu turda okunmadı). Britannica 1749 bicentennial'ını 1949'da anar (dolaylı teyit, aynı kaynak)."
+   "ic_not": "TANIK KURALI KARŞILANMADI: yıl ile şehir adı aynı cümlede değil (cümle 'The city' der; Port-au-Prince adı önceki cümlede) → kesinlik yil'den onyil'e DÜŞÜRÜLDÜ; yıl 1749 kaynakta açıktır. TEK KAYNAK (Britannica; ikinci bağımsız akademik kaynak bu turda okunmadı). Britannica 1749 bicentennial'ını 1949'da anar (dolaylı teyit, aynı kaynak). 2. KAYNAK (17 Kasım 2026): Larman C. Wilson, «Port-au-Prince», ELAHC (Gale/Scribner), https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/port-au-prince: 'Established as the new colonial capital of Saint Domingue in 1749 (the first had been Cap Haitien), it was the leading port of the western region' — YIL ÇİFT TEYİTLİ (1749), çelişki yok; ELAHC da 1949 bicentennial'ını anar. Bu cümlede de şehir adı yok (özne madde başlığı 'Port-au-Prince, capital of Haiti.') → tanık kuralı yine karşılanmadı, kesinlik onyil BIRAKILDI (zamir/madde-konusu kabulü EMRELIC kararına bırakıldı)."
   },
   "kur": null,
   "ark": null,
@@ -571,7 +572,7 @@ window.SEHIR_TARIHCE_KARAYIP_1 = [
    "kesinlik": "yil",
    "kaynak": "Encyclopaedia Britannica, «San José» (Britannica editörleri), https://www.britannica.com/place/San-Jose-Costa-Rica (tam gövde okundu, 17 Kasım 2026)",
    "tanik": "Situated in the broad, fertile Valle Central at 3,800 feet (1,160 meters) above sea level, San José was called Villa Nueva when it was settled in 1736.",
-   "ic_not": "TEK KAYNAK (Britannica; ikinci bağımsız akademik kaynak bu turda okunmadı). "
+   "ic_not": "TEK KAYNAK (yıl için). 2. KAYNAK KISMİ (17 Kasım 2026): ELAHC «San José, Costa Rica» (Gale/Scribner), https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/san-jose-costa-rica: 'San José was first settled during the second quarter of the eighteenth century, principally by immigrants from Cartago.' — yıl vermez, 1725–1750 aralığı 1736 ile UYUMLU (çelişki yok), Villa Nueva adını da doğrular; yıl yine tek kaynaklı. ELAHC 1823 Cartago–San José çatışmasını (Meksika İmparatorluğu'na katılım mı federasyon mu) ve 1835 Liga Savaşı'nı da anlatır."
   },
   "kur": {
    "t": "1736-01-01",
@@ -711,7 +712,7 @@ window.SEHIR_TARIHCE_KARAYIP_1 = [
    "kesinlik": "onyil",
    "kaynak": "Encyclopaedia Britannica, «San Juan» (Britannica editörleri), https://www.britannica.com/place/San-Juan-Puerto-Rico (tam gövde okundu, 17 Kasım 2026)",
    "tanik": "In 1521 the settlement was moved to a rocky islet at the harbour entrance.",
-   "ic_not": "TANIK KURALI KARŞILANMADI: cümlede şehir adı yok ('the settlement' = önceki cümledeki Caparra yerleşimi; San Juan adı paragraf öznesi) → kesinlik yil'den onyil'e DÜŞÜRÜLDÜ; yıl 1521 kaynakta açıktır. TEK KAYNAK (Britannica; ikinci bağımsız akademik kaynak bu turda okunmadı). NPS sayfası 1508 Ponce de León yerleşimini doğrular, 1521'i vermez. Caparra (1508) bugünkü noktanın batısındadır ('just to the west of the present metropolitan area'); mesafe ÖLÇÜLMEDİ, ayrı kayıt adayı."
+   "ic_not": "TANIK KURALI KARŞILANMADI: cümlede şehir adı yok ('the settlement' = önceki cümledeki Caparra yerleşimi; San Juan adı paragraf öznesi) → kesinlik yil'den onyil'e DÜŞÜRÜLDÜ; yıl 1521 kaynakta açıktır. TEK KAYNAK (Britannica; ikinci bağımsız akademik kaynak bu turda okunmadı). NPS sayfası 1508 Ponce de León yerleşimini doğrular, 1521'i vermez. Caparra (1508) bugünkü noktanın batısındadır ('just to the west of the present metropolitan area'); mesafe ÖLÇÜLMEDİ, ayrı kayıt adayı. 2. KAYNAK (17 Kasım 2026): Allan S. R. Sumnall & Luis A. González, «San Juan, Puerto Rico», ELAHC (Gale/Scribner), https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/san-juan-puerto-rico: 'In 1521 colonists resettled on the islet on the bay, the city's present site, naming the town Puerto Rico.' — YIL ÇİFT TEYİTLİ (1521) ve 'the city's present site' bugünkü noktayı açıkça bağlar; Caparra 1509 der (NPS/Britannica 1508 — bir yıllık fark Caparra olayına aittir, beyan). Cümlede 'San Juan' adı yok (kasaba o zaman 'Puerto Rico' adını taşır) → tanık kuralı harfiyen karşılanmadı, kesinlik onyil BIRAKILDI (karar EMRELIC'e)."
   },
   "kur": null,
   "ark": null,
@@ -816,25 +817,25 @@ window.SEHIR_TARIHCE_KARAYIP_1 = [
    "San Salvador"
   ],
   "ilk": {
-   "t": "1528-01-01",
-   "gun": "1528",
+   "t": "1545-01-01",
+   "gun": "≈1545",
    "nicelik": "kurulus",
    "kesinlik": "onyil",
-   "kaynak": "Encyclopaedia Britannica, «San Salvador» (Britannica editörleri), https://www.britannica.com/place/San-Salvador (tam gövde okundu, 17 Kasım 2026)",
-   "tanik": "Founded near Suchitoto in 1525 by the Spanish conquistador Pedro de Alvarado, it was moved 20 miles (32 km) southwest to its present site in 1528 and was declared a city in 1546.",
-   "ic_not": "TANIK KURALI KARŞILANMADI: cümlenin öznesi 'it' (San Salvador adı önceki cümlede) → kesinlik yil'den onyil'e DÜŞÜRÜLDÜ; yıl 1528 kaynakta açıktır. TEK KAYNAK (Britannica; ikinci bağımsız akademik kaynak bu turda okunmadı). 1525 ilk yer Suchitoto yakınında, bugünkü noktadan ~32 km → başlangıç sayılmadı."
+   "kaynak": "UNESCO World Heritage Centre, Tentative List «Ciudad Vieja / La Bermuda» (ref. 209, El Salvador CONCULTURA, 1992), https://whc.unesco.org/en/tentativelists/209 (tam gövde okundu, 17 Kasım 2026) · Héctor Lindo-Fuentes, «San Salvador», Encyclopedia of Latin American History and Culture (Gale/Scribner), https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/san-salvador (tam gövde okundu, 17 Kasım 2026) · William R. Fowler, «La arquitectura cívica y religiosa de una pequeña ciudad hispanoamericana del siglo XVI en Centroamérica: La cruz y la espada en Ciudad Vieja de San Salvador», Anales de Arqueología y Etnología 78/1 (2023), https://doi.org/10.48162/rev.46.027 (özet okundu, 17 Kasım 2026)",
+   "tanik": "The city (2001 est. pop. 485,847), now capital of El Salvador, was founded in 1525, probably by Diego de Alvarado. Twenty years later it moved to its present location",
+   "ic_not": "HAKEMLİ KARAR (17 Kasım 2026): ESKİ DEĞER 1528-01-01 onyil — Britannica «San Salvador» 'Founded near Suchitoto in 1525 … it was moved 20 miles (32 km) southwest to its present site in 1528 and was declared a city in 1546.' Karşısında bağımsız üç kaynak 1528 yerinin BUGÜNKÜ NOKTA DEĞİL Ciudad Vieja (La Bermuda, Suchitoto yakını) olduğunu, bugünkü yere taşınmanın ≈1545 olduğunu yazar: ① 2. KAYNAK: UNESCO Tentative List 209 (El Salvador CONCULTURA): 'Ciudad Vieja is a historic archaeological site, representing first location of the Salvadoran capital of San Salvador. San Salvador was established here in 1528, while the Conquest was still in progress. It was abandoned only 17 years later and never reoccupied.' (1528+17 = 1545) ② 3. KAYNAK: Lindo-Fuentes, ELAHC: 'was founded in 1525, probably by Diego de Alvarado. Twenty years later it moved to its present location, a valley 2,200 feet above sea level' (1525+20 ≈ 1545) ③ Fowler 2023 (hakemli dergi, özet): 'La primera fundación permanente de la villa de San Salvador data a 1528. … La villa ahora se conoce como el sitio arqueológico Ciudad Vieja.' → 1528 Ciudad Vieja'ya aittir; bugünkü noktanın başlangıcı ≈1545 SEÇİLDİ. Kaynakların hiçbiri '1545' rakamını açık cümleyle vermez (UNESCO +17 yıl, ELAHC +20 yıl hesabı) ve tanık cümlesinde şehir adı yok ('The city' = madde konusu) → kesinlik onyil. '1545' rakamı + Nisan/Mayıs ayı yalnız Erquicia 2006 (XIX Simposio de Investigaciones Arqueológicas en Guatemala, mesoweb PDF) ve Fowler'ın tam metninde görünüyor: PDF, OKUNMADI, sayılmadı. 1525 ilk yer ve 1528 Ciudad Vieja bugünkü noktadan uzak (Britannica 32 km; mesafe ÖLÇÜLMEDİ) → başlangıç sayılmadı, olay. ELAHC federasyonu 1824–1839 verir (Britannica 1823), künye meselesi, burada değiştirilmedi. | KALITE KONTROL 4'TE-1 ORNEK (UMIT 17 Kasim 1116, EMRELIC kurali): cumlede sehir adi yok, ozne zamir 'it' (madde konusu sehir, Britannica maddesi sehir hakkinda): KABUL, kesinlik kalir."
   },
   "kur": null,
   "ark": null,
   "bit": null,
   "sahip": [
    {
-    "f": "1528-01-01",
+    "f": "1545-01-01",
     "t": "1821-01-01",
     "d": "ispanya",
-    "kesinlik": "yil",
-    "kaynak": "Encyclopaedia Britannica, «San Salvador» (Britannica editörleri), https://www.britannica.com/place/San-Salvador (tam gövde okundu, 17 Kasım 2026)",
-    "ic_not": "TEK KAYNAK (Britannica; ikinci bağımsız akademik kaynak bu turda okunmadı). BEYANLI YAKLAŞIKLIK: İspanyol sömürge dönemi (Cuscatlán eyaleti başkenti). Ara künye (yeni-ispanya / guatemala-kaptanligi) sınırı bu kaynakta yok → üst künye 'ispanya' yazıldı. Bitiş 1821 yalnız yıl (Britannica Guatemala City: 'independence from Spain was declared in 1821')."
+    "kesinlik": "onyil",
+    "kaynak": "UNESCO World Heritage Centre, Tentative List «Ciudad Vieja / La Bermuda» (ref. 209), https://whc.unesco.org/en/tentativelists/209 (tam gövde okundu, 17 Kasım 2026) · Héctor Lindo-Fuentes, «San Salvador», ELAHC, https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/san-salvador (tam gövde okundu, 17 Kasım 2026) · Encyclopaedia Britannica, «San Salvador» (Britannica editörleri), https://www.britannica.com/place/San-Salvador (tam gövde okundu, 17 Kasım 2026)",
+    "ic_not": "f = ilk.t (≈1545, hakemli karar; ESKİ f 1528-01-01). Bitiş 1821 TEK KAYNAK (Britannica). BEYANLI YAKLAŞIKLIK: İspanyol sömürge dönemi (Cuscatlán eyaleti başkenti). Ara künye (yeni-ispanya / guatemala-kaptanligi) sınırı bu kaynakta yok → üst künye 'ispanya' yazıldı. Bitiş 1821 yalnız yıl (Britannica Guatemala City: 'independence from Spain was declared in 1821')."
    },
    {
     "f": "1821-01-01",
@@ -875,10 +876,21 @@ window.SEHIR_TARIHCE_KARAYIP_1 = [
     "t": "1528-01-01",
     "gun": "1528",
     "k": "kurulus",
-    "b": "Şehir 32 km güneybatıya, bugünkü yerine taşınır.",
+    "b": "Villa de San Salvador ilk kalıcı yerinde, Ciudad Vieja'da (La Bermuda vadisi, Suchitoto yakını) kurulur.",
     "kesinlik": "yil",
-    "kaynak": "Encyclopaedia Britannica, «San Salvador» (Britannica editörleri), https://www.britannica.com/place/San-Salvador (tam gövde okundu, 17 Kasım 2026)",
-    "tanik": "it was moved 20 miles (32 km) southwest to its present site in 1528"
+    "kaynak": "UNESCO World Heritage Centre, Tentative List «Ciudad Vieja / La Bermuda» (ref. 209), https://whc.unesco.org/en/tentativelists/209 (tam gövde okundu, 17 Kasım 2026) · William R. Fowler, Anales de Arqueología y Etnología 78/1 (2023), https://doi.org/10.48162/rev.46.027 (özet okundu, 17 Kasım 2026) · Encyclopaedia Britannica, «San Salvador» (Britannica editörleri), https://www.britannica.com/place/San-Salvador (tam gövde okundu, 17 Kasım 2026)",
+    "tanik": "San Salvador was established here in 1528, while the Conquest was still in progress.",
+    "ic_not": "ESKİ b: 'Şehir 32 km güneybatıya, bugünkü yerine taşınır.' (Britannica 'moved … to its present site in 1528'). UNESCO TL 209 ve Fowler 2023'e göre 1528 yeri Ciudad Vieja'dır, bugünkü yer değil (hakemli karar ilk.ic_not'ta)."
+   },
+   {
+    "t": "1545-01-01",
+    "gun": "≈1545",
+    "k": "kurulus",
+    "b": "Ciudad Vieja terk edilir; villa bugünkü yerine (Valle de las Hamacas) taşınır.",
+    "kesinlik": "onyil",
+    "kaynak": "UNESCO World Heritage Centre, Tentative List «Ciudad Vieja / La Bermuda» (ref. 209), https://whc.unesco.org/en/tentativelists/209 (tam gövde okundu, 17 Kasım 2026) · Héctor Lindo-Fuentes, «San Salvador», ELAHC, https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/san-salvador (tam gövde okundu, 17 Kasım 2026)",
+    "tanik": "Twenty years later it moved to its present location, a valley 2,200 feet above sea level",
+    "ic_not": "Yıl hesapla: UNESCO 'abandoned only 17 years later' (1528+17) · ELAHC 'Twenty years later' (1525+20). Açık '1545' yalnız okunmayan PDF'lerde (Erquicia 2006, Fowler 2023 tam metin)."
    },
    {
     "t": "1546-01-01",
@@ -996,31 +1008,31 @@ window.SEHIR_TARIHCE_KARAYIP_1 = [
    "Santo Domingo (1961'den)"
   ],
   "ilk": {
-   "t": "1496-01-01",
-   "gun": "1496",
+   "t": "1496-08-04",
+   "gun": "4 Ağustos 1496",
    "nicelik": "kurulus",
-   "kesinlik": "yil",
-   "kaynak": "Encyclopaedia Britannica, «Santo Domingo» (Britannica editörleri), https://www.britannica.com/place/Santo-Domingo (tam gövde okundu, 17 Kasım 2026) · UNESCO World Heritage Centre, «Colonial City of Santo Domingo» (list no. 526), https://whc.unesco.org/en/list/526/ (tam gövde okundu, 17 Kasım 2026)",
-   "tanik": "Santo Domingo was founded in 1496 by Bartholomew Columbus, brother of Christopher Columbus, as the capital of the first Spanish colony in the New World.",
-   "ic_not": "ÇİFT KAYNAK, KISMİ ÇELİŞKİ: Britannica kuruluşu 1496 verir; UNESCO 'Originally established on the east side of the Ozama in 1496, it was founded by Bartholomew Columbus in 1498' der (1496 ilk yerleşim, 1498 resmî kuruluş). İlk yerleşim günü olarak iki kaynağın ortak yılı 1496 alındı; 1498 olay olarak yazıldı. İlk yer Ozama'nın doğu (sol) yakasıdır; bugünkü nokta batı yakadaki koloni şehridir — iki yaka arası mesafe ÖLÇÜLMEDİ (nehir ağzının karşı kıyısı; ≤3 km varsayımı beyanlı)."
+   "kesinlik": "gun",
+   "kaynak": "Kai P. Schoenhals, «Santo Domingo», Encyclopedia of Latin American History and Culture (Gale/Scribner), https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/santo-domingo (tam gövde okundu, 17 Kasım 2026) · Encyclopaedia Britannica, «Santo Domingo» (Britannica editörleri), https://www.britannica.com/place/Santo-Domingo (tam gövde okundu, 17 Kasım 2026) · UNESCO World Heritage Centre, «Colonial City of Santo Domingo» (list no. 526), https://whc.unesco.org/en/list/526/ (tam gövde okundu, 17 Kasım 2026)",
+   "tanik": "The city of Santo Domingo was founded on 4 August 1496 by Bartolomé Colón, brother of Christopher Columbus.",
+   "ic_not": "3. KAYNAK + GÜN (17 Kasım 2026): Kai P. Schoenhals, ELAHC «Santo Domingo» (Gale/Scribner), https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/santo-domingo: 'The city of Santo Domingo was founded on 4 August 1496 by Bartolomé Colón, brother of Christopher Columbus.' → yıl üç kaynakta (Britannica, UNESCO, ELAHC) 1496; GÜN TEK KAYNAK (ELAHC). ESKİ DEĞER 1496-01-01 (yil). Künye 'ispanyol-santo-domingo' f 1496-01-01 (gün farkı künye meselesi). ESKİ NOT: ÇİFT KAYNAK, KISMİ ÇELİŞKİ: Britannica kuruluşu 1496 verir; UNESCO 'Originally established on the east side of the Ozama in 1496, it was founded by Bartholomew Columbus in 1498' der (1496 ilk yerleşim, 1498 resmî kuruluş). İlk yerleşim günü olarak iki kaynağın ortak yılı 1496 alındı; 1498 olay olarak yazıldı. İlk yer Ozama'nın doğu (sol) yakasıdır; bugünkü nokta batı yakadaki koloni şehridir — iki yaka arası mesafe ÖLÇÜLMEDİ (nehir ağzının karşı kıyısı; ≤3 km varsayımı beyanlı)."
   },
   "kur": {
-   "t": "1496-01-01",
-   "gun": "1496",
-   "kesinlik": "yil",
-   "kaynak": "Encyclopaedia Britannica, «Santo Domingo» (Britannica editörleri), https://www.britannica.com/place/Santo-Domingo (tam gövde okundu, 17 Kasım 2026)",
-   "tanik": "Santo Domingo was founded in 1496 by Bartholomew Columbus"
+   "t": "1496-08-04",
+   "gun": "4 Ağustos 1496",
+   "kesinlik": "gun",
+   "kaynak": "Kai P. Schoenhals, «Santo Domingo», ELAHC (Gale/Scribner), https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/santo-domingo (tam gövde okundu, 17 Kasım 2026) · Encyclopaedia Britannica, «Santo Domingo» (Britannica editörleri), https://www.britannica.com/place/Santo-Domingo (tam gövde okundu, 17 Kasım 2026)",
+   "tanik": "The city of Santo Domingo was founded on 4 August 1496 by Bartolomé Colón"
   },
   "ark": null,
   "bit": null,
   "sahip": [
    {
-    "f": "1496-01-01",
+    "f": "1496-08-04",
     "t": "1795-01-01",
     "d": "ispanyol-santo-domingo",
-    "kesinlik": "yil",
+    "kesinlik": "gun",
     "kaynak": "Encyclopaedia Britannica, «Santo Domingo» (Britannica editörleri), https://www.britannica.com/place/Santo-Domingo (tam gövde okundu, 17 Kasım 2026) · Encyclopaedia Britannica, «Dominican Republic» — History (Nancie L. González, Howard J. Wiarda), https://www.britannica.com/place/Dominican-Republic/Press-and-broadcasting (tam gövde okundu, 17 Kasım 2026)",
-    "ic_not": "TEK KAYNAK (Britannica; ikinci bağımsız akademik kaynak bu turda okunmadı). Bitiş yalnız yıl: Britannica 'From 1795 to 1809 Santo Domingo was under French domination' ve 'In 1795 Spain ceded the eastern two-thirds of Hispaniola to France'. Gün (Basel Antlaşması) ve fiilî Fransız teslim alışı bu kaynakta yok → 1795-01-01 yıl hassasiyeti."
+    "ic_not": "TEK KAYNAK (Britannica; ikinci bağımsız akademik kaynak bu turda okunmadı). Bitiş yalnız yıl: Britannica 'From 1795 to 1809 Santo Domingo was under French domination' ve 'In 1795 Spain ceded the eastern two-thirds of Hispaniola to France'. Gün (Basel Antlaşması) ve fiilî Fransız teslim alışı bu kaynakta yok → 1795-01-01 yıl hassasiyeti. f = ilk.t 1496-08-04 (ELAHC günü; ESKİ f 1496-01-01). 2. KAYNAK (bitiş, 17 Kasım 2026): Suzanne Hiles Burkholder, «Basel, Treaty of (1795)», ELAHC, https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/basel-treaty-1795: 'Treaty of Basel (1795), an agreement between France and Spain that restored to Spain peninsular territory lost during the Franco-Spanish War (1793–1795) and gave France Santo Domingo.' → 1795 ÇİFT TEYİTLİ (yıl; gün kaynakta yok)."
    },
    {
     "f": "1795-01-01",
@@ -1028,7 +1040,7 @@ window.SEHIR_TARIHCE_KARAYIP_1 = [
     "d": "fransa-cumhuriyet",
     "kesinlik": "yil",
     "kaynak": "Encyclopaedia Britannica, «Santo Domingo» (Britannica editörleri), https://www.britannica.com/place/Santo-Domingo (tam gövde okundu, 17 Kasım 2026) · Encyclopaedia Britannica, «Dominican Republic» — History (Nancie L. González, Howard J. Wiarda), https://www.britannica.com/place/Dominican-Republic/Press-and-broadcasting (tam gövde okundu, 17 Kasım 2026)",
-    "ic_not": "TEK KAYNAK (Britannica; ikinci bağımsız akademik kaynak bu turda okunmadı). Fransız egemenliği 1795–1809 (Britannica, yalnız yıl). Fiilî teslim alış tarihi (Toussaint/Fransız birlikleri) bu kaynaklarda gün olarak yok; yıl sınırı hukukî devir yılıdır, BEYANLI YAKLAŞIKLIK."
+    "ic_not": "TEK KAYNAK (Britannica; ikinci bağımsız akademik kaynak bu turda okunmadı). Fransız egemenliği 1795–1809 (Britannica, yalnız yıl). Fiilî teslim alış tarihi (Toussaint/Fransız birlikleri) bu kaynaklarda gün olarak yok; yıl sınırı hukukî devir yılıdır, BEYANLI YAKLAŞIKLIK. 2. KAYNAK (17 Kasım 2026): başlangıç 1795 ELAHC Basel maddesiyle teyitli (sahip[0].ic_not). Bitiş 1809 için akademik ikinci kaynak BULUNAMADI; yalnız Gale «Worldmark Encyclopedia of the Nations» (genel başvuru eseri, akademik değil, SAYILMADI), https://www.encyclopedia.com/places/latin-america-and-caribbean/caribbean-political-geography/dominican-republic: 'After Haiti received independence in 1804, the French retained the rest of the island until 1809.' (Britannica ile uyumlu)."
    },
    {
     "f": "1809-01-01",
@@ -1040,19 +1052,19 @@ window.SEHIR_TARIHCE_KARAYIP_1 = [
    },
    {
     "f": "1822-01-01",
-    "t": "1844-01-01",
+    "t": "1844-02-27",
     "d": "haiti",
     "kesinlik": "yil",
     "kaynak": "Encyclopaedia Britannica, «Dominican Republic» — History (Nancie L. González, Howard J. Wiarda), https://www.britannica.com/place/Dominican-Republic/Press-and-broadcasting (tam gövde okundu, 17 Kasım 2026)",
-    "ic_not": "TEK KAYNAK (Britannica; ikinci bağımsız akademik kaynak bu turda okunmadı). Haiti işgali 1822–1844 (Britannica DR: 'a 22-year occupation (1822–42)' metninde parantez 1842 der, aynı paragraf bağımsızlığı 1844 verir; şehir maddesi de bağımsızlığı 1844 verir → 1844 alındı, iç çelişki beyan)."
+    "ic_not": "TEK KAYNAK (Britannica; ikinci bağımsız akademik kaynak bu turda okunmadı). Haiti işgali 1822–1844 (Britannica DR: 'a 22-year occupation (1822–42)' metninde parantez 1842 der, aynı paragraf bağımsızlığı 1844 verir; şehir maddesi de bağımsızlığı 1844 verir → 1844 alındı, iç çelişki beyan). 2. KAYNAK (17 Kasım 2026): Pamela Murray, «Boyer, Jean-Pierre (1776–1850)», ELAHC, https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/boyer-jean-pierre-1776-1850: 'In 1822, out of fear of French plans for reprisal, Boyer sent his troops to the vulnerable eastern half of Hispaniola' → başlangıç 1822 ÇİFT TEYİTLİ (yıl). Bitiş: Kai P. Schoenhals, «Santana, Pedro (1801–1864)», ELAHC, https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/santana-pedro-1801-1864: 'the Dominican Republic's declaration of independence from Haiti on 27 February 1844' → 1844 ÇİFT TEYİTLİ ve GÜN 27 Şubat 1844 (künye f ile aynı); t 1844-02-27'ye çekildi (ESKİ t 1844-01-01). Gün bağımsızlık bildirisinin günüdür; şehirdeki Haiti garnizonunun fiilî teslimi bu kaynakta yok (beyan)."
    },
    {
-    "f": "1844-01-01",
+    "f": "1844-02-27",
     "t": "1861-01-01",
     "d": "dominik-cumhuriyeti",
-    "kesinlik": "yil",
-    "kaynak": "Encyclopaedia Britannica, «Santo Domingo» (Britannica editörleri), https://www.britannica.com/place/Santo-Domingo (tam gövde okundu, 17 Kasım 2026)",
-    "ic_not": "TEK KAYNAK (Britannica; ikinci bağımsız akademik kaynak bu turda okunmadı). Bağımsızlık 1844 (yalnız yıl); künye f 1844-02-27 — yıl hassasiyeti yüzünden hayalet uyarısı beklenir, gün ikinci kaynakla teyit edilmeli."
+    "kesinlik": "gun",
+    "kaynak": "Kai P. Schoenhals, «Santana, Pedro (1801–1864)», ELAHC (Gale/Scribner), https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/santana-pedro-1801-1864 (tam gövde okundu, 17 Kasım 2026) · Encyclopaedia Britannica, «Santo Domingo» (Britannica editörleri), https://www.britannica.com/place/Santo-Domingo (tam gövde okundu, 17 Kasım 2026)",
+    "ic_not": "ÇİFT KAYNAK (17 Kasım 2026). ESKİ f 1844-01-01 (yil). 2. KAYNAK: Schoenhals, ELAHC: 'the Dominican Republic's declaration of independence from Haiti on 27 February 1844' → f 1844-02-27 (künye f ile aynı; hayalet uyarısı kalkar). Gün tek kaynak (ELAHC), bildiri günüdür; cümlede şehir adı yok (beyan). Bitiş 1861: ELAHC 'In 1861, Santana made arrangements with the government of Queen Isabel II for the reannexation of the Dominican Republic by Spain' → 1861 ÇİFT TEYİTLİ (yıl)."
    },
    {
     "f": "1861-01-01",
@@ -1060,7 +1072,7 @@ window.SEHIR_TARIHCE_KARAYIP_1 = [
     "d": "ispanya",
     "kesinlik": "yil",
     "kaynak": "Encyclopaedia Britannica, «Santo Domingo» (Britannica editörleri), https://www.britannica.com/place/Santo-Domingo (tam gövde okundu, 17 Kasım 2026) · Encyclopaedia Britannica, «Dominican Republic» — History (Nancie L. González, Howard J. Wiarda), https://www.britannica.com/place/Dominican-Republic/Press-and-broadcasting (tam gövde okundu, 17 Kasım 2026)",
-    "ic_not": "TEK KAYNAK (Britannica; ikinci bağımsız akademik kaynak bu turda okunmadı). İspanya'ya ilhak 1861–65 (yalnız yıl)."
+    "ic_not": "İspanya'ya ilhak 1861–65 (yalnız yıl). 2. KAYNAK (17 Kasım 2026): Kai P. Schoenhals, «Santana, Pedro (1801–1864)», ELAHC, https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/santana-pedro-1801-1864: 'In 1861, Santana made arrangements with the government of Queen Isabel II for the reannexation of the Dominican Republic by Spain' + 'fought the successful War of Restoration (1863–1865) against Spain' → 1861 ve 1865 ÇİFT TEYİTLİ (yıl; gün yok)."
    },
    {
     "f": "1865-01-01",
@@ -1068,16 +1080,17 @@ window.SEHIR_TARIHCE_KARAYIP_1 = [
     "d": "dominik-cumhuriyeti",
     "kesinlik": "yil",
     "kaynak": "Encyclopaedia Britannica, «Santo Domingo» (Britannica editörleri), https://www.britannica.com/place/Santo-Domingo (tam gövde okundu, 17 Kasım 2026)",
-    "ic_not": "TEK KAYNAK (Britannica; ikinci bağımsız akademik kaynak bu turda okunmadı). 1865 bağımsızlığın yeniden kurulması (yalnız yıl). Atlasta 3 km içinde nokta yok → zincir 1900-01-01'e kadar."
+    "ic_not": "1865 bağımsızlığın yeniden kurulması (yalnız yıl). 2. KAYNAK (17 Kasım 2026): ELAHC «Santana, Pedro» 'War of Restoration (1863–1865) against Spain' → 1865 ÇİFT TEYİTLİ (yıl). Atlasta 3 km içinde nokta yok → zincir 1900-01-01'e kadar."
    }
   ],
   "olay": [
    {
-    "t": "1496-01-01",
-    "gun": "1496",
+    "t": "1496-08-04",
+    "gun": "4 Ağustos 1496",
     "k": "kurulus",
     "b": "Bartolomé Colón, Ozama'nın doğu yakasında Nueva Isabela adıyla şehri kurar; ilk İspanyol kolonisinin merkezi.",
-    "kesinlik": "yil",
+    "kesinlik": "gun",
+    "ic_not": "Gün yalnız ELAHC (Schoenhals): 'founded on 4 August 1496'; yıl üç kaynakta.",
     "kaynak": "Encyclopaedia Britannica, «Santo Domingo» (Britannica editörleri), https://www.britannica.com/place/Santo-Domingo (tam gövde okundu, 17 Kasım 2026) · UNESCO World Heritage Centre, «Colonial City of Santo Domingo» (list no. 526), https://whc.unesco.org/en/list/526/ (tam gövde okundu, 17 Kasım 2026)",
     "tanik": "Santo Domingo was founded in 1496 by Bartholomew Columbus"
    },
@@ -1166,13 +1179,14 @@ window.SEHIR_TARIHCE_KARAYIP_1 = [
     "tanik": "Within weeks Haitian troops under Jean-Pierre Boyer (president of Haiti, 1818–43) again overran the eastern part of the island, initiating a 22-year occupation (1822–42)."
    },
    {
-    "t": "1844-01-01",
-    "gun": "1844",
+    "t": "1844-02-27",
+    "gun": "27 Şubat 1844",
     "k": "isyan",
     "b": "Bağımsızlık ilan edilir; Santo Domingo yeni Dominik Cumhuriyeti'nin başkenti olur.",
-    "kesinlik": "yil",
-    "kaynak": "Encyclopaedia Britannica, «Santo Domingo» (Britannica editörleri), https://www.britannica.com/place/Santo-Domingo (tam gövde okundu, 17 Kasım 2026) · Encyclopaedia Britannica, «Dominican Republic» — History (Nancie L. González, Howard J. Wiarda), https://www.britannica.com/place/Dominican-Republic/Press-and-broadcasting (tam gövde okundu, 17 Kasım 2026)",
-    "tanik": "Independence was proclaimed in 1844, and Santo Domingo became the capital of the new Dominican Republic until the republic’s annexation to Spain in 1861–65."
+    "kesinlik": "gun",
+    "kaynak": "Kai P. Schoenhals, «Santana, Pedro (1801–1864)», ELAHC (Gale/Scribner), https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/santana-pedro-1801-1864 (tam gövde okundu, 17 Kasım 2026) · Encyclopaedia Britannica, «Santo Domingo» (Britannica editörleri), https://www.britannica.com/place/Santo-Domingo (tam gövde okundu, 17 Kasım 2026) · Encyclopaedia Britannica, «Dominican Republic» — History (Nancie L. González, Howard J. Wiarda), https://www.britannica.com/place/Dominican-Republic/Press-and-broadcasting (tam gövde okundu, 17 Kasım 2026)",
+    "tanik": "Independence was proclaimed in 1844, and Santo Domingo became the capital of the new Dominican Republic until the republic’s annexation to Spain in 1861–65.",
+    "ic_not": "ESKİ t 1844-01-01 (yil). Gün ELAHC (Schoenhals): 'the Dominican Republic's declaration of independence from Haiti on 27 February 1844' — gün tek kaynak, yıl iki kaynak."
    },
    {
     "t": "1861-01-01",
@@ -1224,42 +1238,34 @@ window.SEHIR_TARIHCE_KARAYIP_1 = [
    "Tegucigalpa"
   ],
   "ilk": {
-   "t": "1578-01-01",
-   "gun": "1578",
+   "t": "1578-09-29",
+   "gun": "29 Eylül 1578",
    "nicelik": "kurulus",
-   "kesinlik": "yil",
-   "kaynak": "Encyclopaedia Britannica, «Tegucigalpa» (Britannica editörleri), https://www.britannica.com/place/Tegucigalpa (tam gövde okundu, 17 Kasım 2026)",
-   "tanik": "Tegucigalpa, founded in 1578 on the slopes of Mount Picacho as a gold- and silver-mining centre, alternated with Comayagua, 35 miles (56 km) to the northwest, as capital from 1824 to 1880, when Tegucigalpa was made the permanent capital of the republic.",
-   "ic_not": "TEK KAYNAK (Britannica; ikinci bağımsız akademik kaynak bu turda okunmadı). "
+   "kesinlik": "gun",
+   "kaynak": "ELAHC «Tegucigalpa» (Encyclopedia of Latin American History and Culture, Gale/Scribner), https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/tegucigalpa (tam gövde okundu, 17 Kasım 2026) · Encyclopaedia Britannica, «Tegucigalpa» (Britannica editörleri), https://www.britannica.com/place/Tegucigalpa (tam gövde okundu, 17 Kasım 2026)",
+   "tanik": "The Real de Minas de San Miguel de Tegucigalpa was probably formally established on 29 September 1578.",
+   "ic_not": "ÇİFT KAYNAK (yıl): Britannica 'Tegucigalpa, founded in 1578 on the slopes of Mount Picacho as a gold- and silver-mining centre' + 2. KAYNAK: ELAHC «Tegucigalpa» (Gale/Scribner), https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/tegucigalpa: 'The Real de Minas de San Miguel de Tegucigalpa was probably formally established on 29 September 1578.' GÜN TEK KAYNAK (ELAHC) ve kaynağın kendisi 'probably' der → BEYAN. ESKİ DEĞER 1578-01-01 (yil). Gün atlas başlangıcıyla (1578-09-29, yeni-ispanya) aynı → sahip zinciri boşaldı (eski dönem 1578-01-01→1578-09-29 yeni-ispanya kaldırıldı). ELAHC madde yazarı sayfada okunmadı (imza kısmı alınmadı)."
   },
   "kur": {
-   "t": "1578-01-01",
-   "gun": "1578",
-   "kesinlik": "yil",
-   "kaynak": "Encyclopaedia Britannica, «Tegucigalpa» (Britannica editörleri), https://www.britannica.com/place/Tegucigalpa (tam gövde okundu, 17 Kasım 2026)",
-   "tanik": "Tegucigalpa, founded in 1578 on the slopes of Mount Picacho"
+   "t": "1578-09-29",
+   "gun": "29 Eylül 1578",
+   "kesinlik": "gun",
+   "kaynak": "ELAHC «Tegucigalpa» (Encyclopedia of Latin American History and Culture, Gale/Scribner), https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/tegucigalpa (tam gövde okundu, 17 Kasım 2026)",
+   "tanik": "The Real de Minas de San Miguel de Tegucigalpa was probably formally established on 29 September 1578."
   },
   "ark": null,
   "bit": null,
-  "sahip": [
-   {
-    "f": "1578-01-01",
-    "t": "1578-09-29",
-    "d": "yeni-ispanya",
-    "kesinlik": "yil",
-    "kaynak": "Encyclopaedia Britannica, «Tegucigalpa» (Britannica editörleri), https://www.britannica.com/place/Tegucigalpa (tam gövde okundu, 17 Kasım 2026)",
-    "ic_not": "Yıl tanığından atlas başlangıcına (1578-09-29, yeni-ispanya) kadar; atlasla aynı künye. 29 Eylül günü Britannica'da yok."
-   }
-  ],
+  "sahip": [],
   "olay": [
    {
-    "t": "1578-01-01",
-    "gun": "1578",
+    "t": "1578-09-29",
+    "gun": "29 Eylül 1578",
     "k": "kurulus",
-    "b": "Picacho dağı yamacında altın-gümüş madeni merkezi olarak kurulur.",
-    "kesinlik": "yil",
-    "kaynak": "Encyclopaedia Britannica, «Tegucigalpa» (Britannica editörleri), https://www.britannica.com/place/Tegucigalpa (tam gövde okundu, 17 Kasım 2026)",
-    "tanik": "Tegucigalpa, founded in 1578 on the slopes of Mount Picacho as a gold- and silver-mining centre"
+    "b": "Picacho dağı yamacında gümüş madeni merkezi Real de Minas de San Miguel de Tegucigalpa olarak (muhtemelen) resmen kurulur; Comayagua'dan bağımsız alcaldía mayor olur.",
+    "kesinlik": "gun",
+    "kaynak": "ELAHC «Tegucigalpa» (Encyclopedia of Latin American History and Culture, Gale/Scribner), https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/tegucigalpa (tam gövde okundu, 17 Kasım 2026) · Encyclopaedia Britannica, «Tegucigalpa» (Britannica editörleri), https://www.britannica.com/place/Tegucigalpa (tam gövde okundu, 17 Kasım 2026)",
+    "tanik": "The Real de Minas de San Miguel de Tegucigalpa was probably formally established on 29 September 1578.",
+    "ic_not": "Yıl iki kaynakta (Britannica 1578); gün yalnız ELAHC ('probably')."
    },
    {
     "t": "1824-01-01",

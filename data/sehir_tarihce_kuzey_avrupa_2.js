@@ -16,10 +16,10 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_2 = [
    "t": "1599-01-01",
    "gun": "1500'ler (1599)",
    "nicelik": "ilk_anilis",
-   "kesinlik": "yuzyil",
+   "kesinlik": "belirsiz",
    "kaynak": "Den Store Danske / lex.dk, 'Akureyri', https://lex.dk/Akureyri",
    "tanik": "Danske og norske købmænd sejlede til området fra sidst i 1500-tallet., og Akureyri spillede en stor rolle under det danske handelsmonopol 1602-1788.",
-   "ic_not": "Yüzyıl-kesin: lex 'Danske og norske købmænd sejlede sidst i 1500-tallet til området' (güvenli uç 1599). Bu bir TÜCCAR SEFERİ tanığıdır, kent kuruluşu değil; kentin kendisi 1700'lerde bugünkü yerine taşınmış (lex). snl.no/Akureyri tarih içermez. TEK KAYNAK (genel ansiklopedi). Lex'in 'sonu 800'ler yerleşim izi' kentin kuzeyindedir, kent değil. | TANIK DÜZELTME (UMIT 1116): tanık aynı cümlede ad+yüzyıl taşır; ama içerik ticaret seferidir, kent kuruluşu değil"
+   "ic_not": "Yüzyıl-kesin: lex 'Danske og norske købmænd sejlede sidst i 1500-tallet til området' (güvenli uç 1599). Bu bir TÜCCAR SEFERİ tanığıdır, kent kuruluşu değil; kentin kendisi 1700'lerde bugünkü yerine taşınmış (lex). snl.no/Akureyri tarih içermez. TEK KAYNAK (genel ansiklopedi). Lex'in 'sonu 800'ler yerleşim izi' kentin kuzeyindedir, kent değil. | TANIK DÜZELTME (UMIT 1116): tanık aynı cümlede ad+yüzyıl taşır; ama içerik ticaret seferidir, kent kuruluşu değil | EMRELIC kural/karar 17 Kasim 1116: ilk = kaynakli en erken yazili anilis; imtiyaz/sehir hakki/kale yeniden insasi kur ya da olay. 1562 ilk anılış iddiası yalnız Vikipedi'de görüldü (tek dayanak olamaz, kullanılmadı); 1599 ticaret seferi tanığı kent anılışı değildir: DAYANAK ZAYIF, kesinlik 'belirsiz'. Akademik kaynak aranacak."
   },
   "kur": null,
   "ark": null,
@@ -185,7 +185,7 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_2 = [
    "kesinlik": "yil",
    "kaynak": "Den Store Danske / lex.dk, 'Göteborg', https://lex.dk/Göteborg",
    "tanik": "Det nuværende Göteborg blev grundlagt i 1619 af Gustav 2. Adolf",
-   "ic_not": "ÇİFT TEYİT (yıl düzeyi): snl.no ve lex.dk aynı yılı verir. Ancak ikisi de genel ansiklopedidir; akademik/arşiv (runeberg, Riksarkivet, Arkivverket, SBL/NBL/DBL, Diplomatarium) üçüncü kaynak bu turda bulunamadı/okunamadı. snl 'Det nåværende Göteborg ble anlagt i 1619 av Gustav 2. Adolf'. ÇELİŞKİ/NOT (akademik/arşiv): şehir AYRICALIĞI 4 Haziran 1621 (Teknisk Tidskrift 1928, runeberg.org/tektid/1928a/0182.html; Riksarkivet 'Grattis Göteborg': orijinal ayrıcalık mektubu kayıp, çağdaş kopya Riksarkivet'te); 1621 olay olarak yazıldı. Karl IX'un Hisingen'deki ilk Göteborg'u (1607) 3 km dışındaki başka yer; ilk.t'ye alınmadı."
+   "ic_not": "ÇİFT TEYİT (yıl düzeyi): snl.no ve lex.dk aynı yılı verir. Ancak ikisi de genel ansiklopedidir; akademik/arşiv (runeberg, Riksarkivet, Arkivverket, SBL/NBL/DBL, Diplomatarium) üçüncü kaynak bu turda bulunamadı/okunamadı. snl 'Det nåværende Göteborg ble anlagt i 1619 av Gustav 2. Adolf'. ÇELİŞKİ/NOT (akademik/arşiv): şehir AYRICALIĞI 4 Haziran 1621 (Teknisk Tidskrift 1928, runeberg.org/tektid/1928a/0182.html; Riksarkivet 'Grattis Göteborg': orijinal ayrıcalık mektubu kayıp, çağdaş kopya Riksarkivet'te); 1621 olay olarak yazıldı. Karl IX'un Hisingen'deki ilk Göteborg'u (1607) 3 km dışındaki başka yer; ilk.t'ye alınmadı. | 2. KAYNAK (akademik, Riksarkivet) — KISMİ: Beata Losman, Förvaltningshistorik kap. 4, Riksarkivet, https://forvaltningshistorik.riksarkivet.se/04_Stadens_Forvaltning.htm (17 Kasım 2026 okundu): 'Göteborg fick genom privilegierna 1621 också en säregen förvaltning' — 1621 imtiyaz; 1619 kuruluşu doğrudan teyit ETMEZ ama çelişmez (kuruluş 1619, imtiyaz 1621). 1619 yılı için akademik 2. kaynak bulunamadı. (UMIT 1116)"
   },
   "kur": null,
   "ark": null,
@@ -238,7 +238,7 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_2 = [
    "kesinlik": "yil",
    "kaynak": "Den Store Danske / lex.dk, 'Hamar', https://lex.dk/Hamar",
    "tanik": "Hamar blev grundlagt i midten af 1000-tallet af Harald 3. Hårderåde og blev i 1152 bispesæde med tilhørende domkirke fra første halvdel af 1300-tallet.",
-   "ic_not": "En erken YAZILI STATÜ tanığı: piskoposluk merkezi (bispesæde). ÇİFT TEYİT (yıl düzeyi): snl.no ve lex.dk piskoposluğun 1152'de kurulduğunu verir (snl 'Hamar': 'The bishopric was founded in 1152'). Ancak ikisi de genel ansiklopedidir; akademik/arşiv (runeberg, Riksarkivet, Arkivverket, SBL/NBL/DBL, Diplomatarium) üçüncü kaynak bu turda bulunamadı/okunamadı. lex ayrıca 'grundlagt i midten af 1000-tallet' (Harald Hardråde'ye atfedilen kuruluş) yazar: bu bir GELENEKSEL kuruluş iddiasıdır, yazılı çağdaş tanık sunulmadığından ilk.t yapılmadı (olay olarak yazıldı)."
+   "ic_not": "En erken YAZILI STATÜ tanığı: piskoposluk merkezi (bispesæde). ÇİFT TEYİT (yıl düzeyi): snl.no ve lex.dk piskoposluğun 1152'de kurulduğunu verir (snl 'Hamar': 'The bishopric was founded in 1152'). Ancak ikisi de genel ansiklopedidir; akademik/arşiv (runeberg, Riksarkivet, Arkivverket, SBL/NBL/DBL, Diplomatarium) üçüncü kaynak bu turda bulunamadı/okunamadı. lex ayrıca 'grundlagt i midten af 1000-tallet' (Harald Hardråde'ye atfedilen kuruluş) yazar: bu bir GELENEKSEL kuruluş iddiasıdır, yazılı çağdaş tanık sunulmadığından ilk.t yapılmadı (olay olarak yazıldı). | 2. KAYNAK (akademik, UiO): norgeshistorie.no (Universitetet i Oslo), 'Hamarkrøniken: Hamar by' (kaynak sayfası, 2019), https://www.norgeshistorie.no/kilder/kirkestat/K1112-Hamarkr%C3%B8niken-Hamar-by.html (17 Kasım 2026 okundu): 'Bispesetet i Hamar ble grunnlagt i 1152/3 og i katolsk tid var Hamar en levende by.' — 1152 TEYİT (1152/3 aralığının ilk yılı; güvenli uç tartışılabilir: aralık 1153'te biter). ilk.t 1152 korundu. (UMIT 1116)"
   },
   "kur": null,
   "ark": null,
@@ -326,7 +326,7 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_2 = [
    "kesinlik": "yuzyil",
    "kaynak": "Store norske leksikon, 'Tavastehus', https://snl.no/Tavastehus",
    "tanik": "Den er den eldste byen i det finske innlandet og vokste opp omkring Tavastehus slott, et mektig kvadratisk slottskompleks der den eldste delen er fra 1200-tallet.",
-   "ic_not": "Kale (Häme/Tavastehus kalesi) en eski bölümü 1200'ler (snl); geleneğe göre Birger Jarl kurucu (snl 'skal etter tradisjonen'). lex 'Den blev opført før 1400 som en kvadratisk kastelborg' ve 'Fra 800-tallet var stedet et vigtigt knudepunkt' (yıl yok, belirsiz). ÇİFT TEYİT YOK: iki kaynak aynı yüzyılı vermez (snl 1200'ler, lex <1400); güvenli uç 1299. Kent KURULUŞU ayrıdır (kur: 1639). | TANIK DÜZELTME (UMIT 1116): önceki tanık parça idi ve ad içermiyordu; snl cümlesinin tamamı yazıldı. Not: snl ayrıca 'Byen ble grunnlagt i 1638 ... byprivilegier i 1639'; ilk.t kale (1200-tallet) için"
+   "ic_not": "Kale (Häme/Tavastehus kalesi) en eski bölümü 1200'ler (snl); geleneğe göre Birger Jarl kurucu (snl 'skal etter tradisjonen'). lex 'Den blev opført før 1400 som en kvadratisk kastelborg' ve 'Fra 800-tallet var stedet et vigtigt knudepunkt' (yıl yok, belirsiz). ÇİFT TEYİT YOK: iki kaynak aynı yüzyılı vermez (snl 1200'ler, lex <1400); güvenli uç 1299. Kent KURULUŞU ayrıdır (kur: 1639). | TANIK DÜZELTME (UMIT 1116): önceki tanık parça idi ve ad içermiyordu; snl cümlesinin tamamı yazıldı. Not: snl ayrıca 'Byen ble grunnlagt i 1638 ... byprivilegier i 1639'; ilk.t kale (1200-tallet) için | 2. KAYNAK (bilimsel dernek ansiklopedisi): Uppslagsverket Finland, 'Tavastehus', https://uppslagsverket.fi/sv/sok/view-170045-Tavastehus (17 Kasım 2026 okundu): 'Grundandet av en svensk borg vid Vanajavesi i slutet av 1200-t. gav upphov till en bebyggelse, för vilken Per Brahe utfärdade stadsprivilegier 1639.' — 1200'lerin sonu kale-kökenli yerleşim TEYİT (güvenli uç 1299 korunur), şehir imtiyazı 1639 da teyit. (UMIT 1116)"
   },
   "kur": {
    "t": "1639-01-01",
@@ -387,7 +387,7 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_2 = [
    "kesinlik": "yil",
    "kaynak": "Den Store Danske / lex.dk, 'Härnösand', https://lex.dk/Härnösand",
    "tanik": "Härnösand er en by i Nordsverige nær Ångermanälvens udløb i Bottenhavet med 18.500 indbyggere (2020). Byen ligger på begge sider af et sund, der adskiller øen Härnön fra fastlandet. Den blev grundlagt i 1585 og tjente til eksport af trævarer, jern og produkter fra kvægbruget.",
-   "ic_not": "ÇİFT TEYİT (yıl düzeyi): snl.no ve lex.dk aynı yılı verir. Ancak ikisi de genel ansiklopedidir; akademik/arşiv (runeberg, Riksarkivet, Arkivverket, SBL/NBL/DBL, Diplomatarium) üçüncü kaynak bu turda bulunamadı/okunamadı. snl 'Härnösand' 'Founded: 1585'. | TANIK DÜZELTME (UMIT 1116): üç cümlelik tanık (ad aynı paragrafta, yıl cümlesinde değil; zayıf-b) | KARAR (EMRELIC/UMIT 17 Kasim 1116): madde konusu sehir, ozne zamir/anlati; tanik kabul, kesinlik kalir (LAB Hwange ortak kurali)."
+   "ic_not": "ÇİFT TEYİT (yıl düzeyi): snl.no ve lex.dk aynı yılı verir. Ancak ikisi de genel ansiklopedidir; akademik/arşiv (runeberg, Riksarkivet, Arkivverket, SBL/NBL/DBL, Diplomatarium) üçüncü kaynak bu turda bulunamadı/okunamadı. snl 'Härnösand' 'Founded: 1585'. | TANIK DÜZELTME (UMIT 1116): üç cümlelik tanık (ad aynı paragrafta, yıl cümlesinde değil; zayıf-b) | KARAR (EMRELIC/UMIT 17 Kasim 1116): madde konusu sehir, ozne zamir/anlati; tanik kabul, kesinlik kalir (LAB Hwange ortak kurali). | 2. KAYNAK (kurumsal + akademik, iki ayrı): (1) Riksantikvarieämbetet, Bebyggelseregistret (BeBR), Härnösand yapı kaydı tarihçesi, https://bebyggelseregistret.raa.se/bbr2/byggnad/visaHistorik.raa?page=historik&visaHistorik=true&byggnadId=21400000444154 (17 Kasım 2026 okundu): 'Staden Härnösand grundades 1585.' (2) Birgitta Lager, 'Evert Hindersson', Svenskt biografiskt lexikon bd 14 (1953) s. 719, https://sok.riksarkivet.se/sbl/Presentation.aspx?id=15573: 'Dels erhöll han 1585 (10 juni) och 1589 (1 maj) i uppdrag tillse, att bönderna på Härnön fingo ersättning för den jord de mist vid stadens anläggning, ...' — 1585 TEYİT (kuruluş 10 Haziran 1585'ten önce; imtiyaz mektubu 1586 olduğu arama özetinde geçti, okunmadı). (UMIT 1116 II. tur)"
   },
   "kur": null,
   "ark": null,
@@ -494,7 +494,7 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_2 = [
    "kesinlik": "yil",
    "kaynak": "Den Store Danske / lex.dk, 'Karlstad', https://lex.dk/Karlstad",
    "tanik": "Fra gammel tid lå en markedsplads ved Klarälvens udløb; bebyggelsen fik i 1584 byprivilegier og navn af hertug Karl, den senere Karl 9. Flere brande har betydet, at gamle bykvarterer med bygninger fra 1700-tallet kun er bevaret i kvarteret Almen. I 1870'erne fik Karlstad jernbaneforbindelse til Oslo, Göteborg og Stockholm.",
-   "ic_not": "ÇİFT TEYİT (yıl düzeyi): snl.no ve lex.dk aynı yılı verir. Ancak ikisi de genel ansiklopedidir; akademik/arşiv (runeberg, Riksarkivet, Arkivverket, SBL/NBL/DBL, Diplomatarium) üçüncü kaynak bu turda bulunamadı/okunamadı. snl 'Karlstad was a trading place before Christianity arrived and received town privileges in 1584'. Hristiyanlık öncesi ticaret yeri (yıl yok, kullanılmadı). | TANIK DÜZELTME (UMIT 1116): üç cümlelik tanık (ad aynı paragrafta, yıl cümlesinde değil; zayıf-b) | KARAR (EMRELIC/UMIT 17 Kasim 1116): madde konusu sehir, ozne zamir/anlati; tanik kabul, kesinlik kalir (LAB Hwange ortak kurali)."
+   "ic_not": "ÇİFT TEYİT (yıl düzeyi): snl.no ve lex.dk aynı yılı verir. Ancak ikisi de genel ansiklopedidir; akademik/arşiv (runeberg, Riksarkivet, Arkivverket, SBL/NBL/DBL, Diplomatarium) üçüncü kaynak bu turda bulunamadı/okunamadı. snl 'Karlstad was a trading place before Christianity arrived and received town privileges in 1584'. Hristiyanlık öncesi ticaret yeri (yıl yok, kullanılmadı). | TANIK DÜZELTME (UMIT 1116): üç cümlelik tanık (ad aynı paragrafta, yıl cümlesinde değil; zayıf-b) | KARAR (EMRELIC/UMIT 17 Kasim 1116): madde konusu sehir, ozne zamir/anlati; tanik kabul, kesinlik kalir (LAB Hwange ortak kurali). | 2. KAYNAK (kurumsal): Riksantikvarieämbetet, Bebyggelseregistret (BeBR), 'Karlstads kyrkor' miljö tanımı, https://bebyggelseregistret.raa.se/bbr2/miljo/visaHelaBeskrivningen.raa?miljoId=21200000002130 (17 Kasım 2026 okundu): 'Karlstad är Värmlands största och äldsta stad, grundad 1584 av hertig Karl.' — 1584 TEYİT. Ek (akademik): Sven Ulric Palme, 'Karl IX', SBL bd 20 (1973-1975) s. 630, https://sok.riksarkivet.se/sbl/Presentation.aspx?id=12354: 'K anlade städer (Karlstad, Mariestad, Mariefred o Bro, senare Kristinehamn), ...' (kurucu teyidi, yıl yok). (UMIT 1116 II. tur)"
   },
   "kur": null,
   "ark": null,
@@ -548,7 +548,7 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_2 = [
    "kesinlik": "yil",
    "kaynak": "Store norske leksikon, 'Kristiansand', https://snl.no/Kristiansand",
    "tanik": "Byen Kristiansand ble grunnlagt i 1641 av Christian 4.",
-   "ic_not": "ÇİFT TEYİT (yıl düzeyi): snl.no ve lex.dk aynı yılı verir. Ancak ikisi de genel ansiklopedidir; akademik/arşiv (runeberg, Riksarkivet, Arkivverket, SBL/NBL/DBL, Diplomatarium) üçüncü kaynak bu turda bulunamadı/okunamadı. lex: 'grundlagt af Christian 4. i 1641 som udskibningshavn for trælast'. Gün hiçbirinde yok."
+   "ic_not": "ÇİFT TEYİT (yıl düzeyi): snl.no ve lex.dk aynı yılı verir. Ancak ikisi de genel ansiklopedidir; akademik/arşiv (runeberg, Riksarkivet, Arkivverket, SBL/NBL/DBL, Diplomatarium) üçüncü kaynak bu turda bulunamadı/okunamadı. lex: 'grundlagt af Christian 4. i 1641 som udskibningshavn for trælast'. Gün hiçbirinde yok. | 2. KAYNAK ARANDI — KISMİ: norgeshistorie.no (UiO), 'Kjøpstadsprivilegiene' kaynak sayfası, https://www.norgeshistorie.no/kilder/enevelde/K1201-kjopstadsprivilegiene.html — arama özetinde 'I 1662 var det 8 kjøpsteder i Norge: ... Fredrikstad og Kristiansand.' (sayfa tam gövdesi OKUNMADI); 1662'de kjøpstad olarak varlık, 1641'i teyit etmez, çelişmez. 1641 için akademik 2. kaynak bulunamadı. (UMIT 1116 II. tur)"
   },
   "kur": null,
   "ark": null,
@@ -600,7 +600,7 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_2 = [
    "kesinlik": "yil",
    "kaynak": "Store norske leksikon, 'Kuopio', https://snl.no/Kuopio",
    "tanik": "Kuopio ble allerede på 1500-tallet en viktig handelsplass, der den første kirken ble oppført mellom 1549 og 1552.",
-   "ic_not": "snl 'Kuopio': ilk kilise 1549-1552 arası (aralık: güvenli uç 1552); kent kuruluşu daha sonra (1652). TEK KAYNAK (snl; lex sayfası kuruluş yılı vermez, yalnız 1856 Saimaa Kanalı). Akademik/arşiv teyit yok."
+   "ic_not": "snl 'Kuopio': ilk kilise 1549-1552 arası (aralık: güvenli uç 1552); kent kuruluşu daha sonra (1652). TEK KAYNAK (snl; lex sayfası kuruluş yılı vermez, yalnız 1856 Saimaa Kanalı). Akademik/arşiv teyit yok. | 2. KAYNAK (bilimsel dernek ansiklopedisi): Uppslagsverket Finland, 'Kuopio', https://uppslagsverket.fi/sv/sok/view-170045-Kuopio (17 Kasım 2026 okundu): 'Kuopio by blev redan på 1500-t. en viktig handelsplats (Tavisalmi), där den första kyrkan uppfördes 1549-52.' — 1549-52 kilise TEYİT (güvenli uç 1552 korunur). Ayrıca: Per Brahe 1652'de şehir kurdu, 1678'de statü kaybı; 'fundationsbrev för staden utfärdades 1782'. (UMIT 1116)"
   },
   "kur": null,
   "ark": null,
@@ -650,12 +650,20 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_2 = [
    "t": "1827-01-01",
    "gun": "1827",
    "nicelik": "kurulus",
+   "kesinlik": "belirsiz",
+   "kaynak": "Store norske leksikon, 'Lillehammer', https://snl.no/Lillehammer",
+   "tanik": "Lillehammer fikk rettigheter som kjøpstad i 1827.",
+   "ic_not": "EMRELIC kural/karar 17 Kasim 1116: ilk = kaynakli en erken yazili anilis; imtiyaz/sehir hakki/kale yeniden insasi kur ya da olay. 1827 kjøpstad/kuruluş (kur'a da yazıldı); ilk anılış kaynakta BULUNAMADI, ilk.t yalnız yer tutucu, kesinlik 'belirsiz'. Önceki ic_not: ÇİFT TEYİT (yıl düzeyi): snl.no ve lex.dk aynı yılı verir. Ancak ikisi de genel ansiklopedidir; akademik/arşiv (runeberg, Riksarkivet, Arkivverket, SBL/NBL/DBL, Diplomatarium) üçüncü kaynak bu turda bulunamadı/okunamadı. lex 'Lillehammer blev anlagt i 1827 på østbredden af Mjøsa'. | 2. KAYNAK — GEVŞEK ÇELİŞKİ (karar gerekir): Jan Eivind Myhre, 'Byvekst og bygdemiljø', norgeshistorie.no (UiO), 2015, https://www.norgeshistorie.no/bygging-av-stat-og-nasjon/1403-byvekst-og-bygdemiljo.html (17 Kasım 2026 okundu): 'Den første innlandsbyen som fikk byrettigheter, var Kongsberg (1802), og rundt midten av århundret fulgte Lillehammer, Hamar, Hønefoss, Kongsvinger og Gjøvik.' — akademik kaynak Lillehammer'in şehir haklarını yaklaşık 'yüzyıl ortası'na koyar; 1827 yıl olarak teyit edilmedi. Yaklaşık ifade ve tek akademik kaynak: Hakemli karar eşiği yok, ilk.t 1827 korundu. (UMIT 1116 II. tur)"
+  },
+  "kur": {
+   "t": "1827-01-01",
+   "gun": "1827",
+   "nicelik": "kurulus",
    "kesinlik": "yil",
    "kaynak": "Store norske leksikon, 'Lillehammer', https://snl.no/Lillehammer",
    "tanik": "Lillehammer fikk rettigheter som kjøpstad i 1827.",
-   "ic_not": "ÇİFT TEYİT (yıl düzeyi): snl.no ve lex.dk aynı yılı verir. Ancak ikisi de genel ansiklopedidir; akademik/arşiv (runeberg, Riksarkivet, Arkivverket, SBL/NBL/DBL, Diplomatarium) üçüncü kaynak bu turda bulunamadı/okunamadı. lex 'Lillehammer blev anlagt i 1827 på østbredden af Mjøsa'."
+   "ic_not": "kjøpstad hakları 1827 (snl, lex 'anlagt i 1827'); Myhre (UiO 2015) 'yüzyıl ortası' der: gevşek çelişki."
   },
-  "kur": null,
   "ark": null,
   "bit": null,
   "sahip": [],
@@ -705,7 +713,7 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_2 = [
    "kesinlik": "yuzyil",
    "kaynak": "Den Store Danske / lex.dk, 'Linköping', https://lex.dk/Linköping",
    "tanik": "Linköping ligger i et rigt landbrugsområde med mange levn fra oldtid og middelalder. Stedet blev et kirkeligt centrum i 1100-t., og indtil Reformationen voksede byen kraftigt.",
-   "ic_not": "En erken yazılı STATÜ: piskoposluk/kilise merkezi 1100'ler (güvenli uç 1199). ÇİFT TEYİT (yüzyıl düzeyi): snl 'Linköping vokste fram som handelsplass i tidlig middelalder, og ble bispesete på 1100-tallet'. Kesin yıl iki kaynakta da yok. | TANIK DÜZELTME (UMIT 1116): iki cümlelik tanık (ad 1. cümlede, 'Stedet' 2. cümlede)"
+   "ic_not": "En erken yazılı STATÜ: piskoposluk/kilise merkezi 1100'ler (güvenli uç 1199). ÇİFT TEYİT (yüzyıl düzeyi): snl 'Linköping vokste fram som handelsplass i tidlig middelalder, og ble bispesete på 1100-tallet'. Kesin yıl iki kaynakta da yok. | TANIK DÜZELTME (UMIT 1116): iki cümlelik tanık (ad 1. cümlede, 'Stedet' 2. cümlede) | 2. KAYNAK (akademik, Riksarkivet SBL): Anders Winroth, 'Stephanus', Svenskt biografiskt lexikon bd 33 (2007-2011) s. 372, https://sok.riksarkivet.se/sbl/Presentation.aspx?id=20148 (17 Kasım 2026 okundu): 'Den nye ärkebiskopen fick fyra lydbiskopar som residerade i Skara, Linköping, Strängnäs och Västerås.' (bağlam: 1164 Uppsala başpiskoposluğu) — 1100'ler kilise merkezi TEYİT (1164'te piskopos oturağı; yüzyıl hassasiyetiyle uyumlu, güvenli uç 1199 korunur). (UMIT 1116 II. tur) | KALITE KONTROL 4'TE-1 ORNEK (UMIT 17 Kasim 1116, EMRELIC kurali): ad 1. cumlede, yil ('1100-t.') 2. cumlede ozne 'Stedet' (madde konusu sehir, ayni paragraf): KABUL, kesinlik kalir."
   },
   "kur": null,
   "ark": null,
@@ -827,7 +835,7 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_2 = [
    "kesinlik": "yil",
    "kaynak": "Store norske leksikon, 'Mikkeli', https://snl.no/Mikkeli",
    "tanik": "S:t Michel ligger der de gamle handelsvegene fra Vyborg og Tavastehus møtes. Ved Astuvansalmi finnes om lag 5000 år gamle holemaleri. Gravplasser viser at det har bodd folk her allerede på 900-tallet, og byen ble kjøpstad fra 1838.",
-   "ic_not": "snl 'byen ble kjøpstad fra 1838'. TEK KAYNAK (snl; lex bu yılı içermez). Daha eski yazılı tanık okunmadı; snl 900'ler mezarlar ('allerede på 900-tallet') arkeolojik (ark alanına yazıldı). | TANIK DÜZELTME (UMIT 1116): üç cümlelik tanık (ad aynı paragrafta, yıl cümlesinde değil; zayıf-b); snl sayfa adı 'S:t Michel' (= Mikkeli) | KARAR (EMRELIC/UMIT 17 Kasim 1116): madde konusu sehir, ozne zamir/anlati; tanik kabul, kesinlik kalir (LAB Hwange ortak kurali)."
+   "ic_not": "snl 'byen ble kjøpstad fra 1838'. TEK KAYNAK (snl; lex bu yılı içermez). Daha eski yazılı tanık okunmadı; snl 900'ler mezarlar ('allerede på 900-tallet') arkeolojik (ark alanına yazıldı). | TANIK DÜZELTME (UMIT 1116): üç cümlelik tanık (ad aynı paragrafta, yıl cümlesinde değil; zayıf-b); snl sayfa adı 'S:t Michel' (= Mikkeli) | KARAR (EMRELIC/UMIT 17 Kasim 1116): madde konusu sehir, ozne zamir/anlati; tanik kabul, kesinlik kalir (LAB Hwange ortak kurali). | 2. KAYNAK (bilimsel dernek ansiklopedisi): Uppslagsverket Finland, 'S:t Michel', https://uppslagsverket.fi/sv/sok/view-170045-STMichel (17 Kasım 2026 okundu): 'Då 1831 en ny länsindelning infördes, blev S:t Michel residens för det nyinrättade S:t Michels län, men först 1843 flyttades länsstyrelsen från Heinola, sedan stadsprivilegier för S:t Michel utfärdats 1838.' — 1838 TEYİT (ad ve yıl aynı cümlede). (UMIT 1116)"
   },
   "kur": null,
   "ark": {
@@ -1135,13 +1143,13 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_2 = [
    "Östersund"
   ],
   "ilk": {
-   "t": "1786-01-01",
-   "gun": "1786",
+   "t": "1786-10-23",
+   "gun": "23 Ekim 1786",
    "nicelik": "kurulus",
-   "kesinlik": "yil",
-   "kaynak": "Store norske leksikon, 'Östersund', https://snl.no/Östersund",
-   "tanik": "Östersund ble grunnlagt i 1786, og har vært residensstad for landshøvdingen fra 1810.",
-   "ic_not": "TEK KAYNAK (snl; özetten). lex 'Den opstod i 1700-tallet' (yüzyıl düzeyi uyumlu, ÇİFT TEYİT yüzyıl). Kuruluş günü kaynaklarda yok. | TANIK DÜZELTME (UMIT 1116): önceki tanık İngilizce idi (ilk.kaynak snl Norveççe); snl cümlesi alındı"
+   "kesinlik": "gun",
+   "kaynak": "Beata Losman, Förvaltningshistorik, kap. 4, Riksarkivet, https://forvaltningshistorik.riksarkivet.se/04_Stadens_Forvaltning.htm",
+   "tanik": "Staden Östersund fick enligt fundationsbrevet 23/10 1786 en speciell styrelseform",
+   "ic_not": "EMRELIC kural/karar 17 Kasim 1116: ilk = kaynakli en erken yazili anilis; imtiyaz/sehir hakki/kale yeniden insasi kur ya da olay. Kuruluş belgesi (fundationsbrev) günü 23/10 1786: gün yükseltildi (tek akademik kaynak, Riksarkivet; snl yalnız 1786 yılı). Gün Gregoryen/İsveç takvimi: 1753'te İsveç Gregoryene geçti, çevirme gerekmez. Önceki ilk: 1786-01-01 (snl). Önceki ic_not: TEK KAYNAK (snl; özetten). lex 'Den opstod i 1700-tallet' (yüzyıl düzeyi uyumlu, ÇİFT TEYİT yüzyıl). Kuruluş günü kaynaklarda yok. | TANIK DÜZELTME (UMIT 1116): önceki tanık İngilizce idi (ilk.kaynak snl Norveççe); snl cümlesi alındı | 2. KAYNAK (akademik, Riksarkivet): Beata Losman, Förvaltningshistorik, kap. 4 'Stadens styrelse och förvaltning', Riksarkivet (HTML 2005), https://forvaltningshistorik.riksarkivet.se/04_Stadens_Forvaltning.htm (17 Kasım 2026 okundu): 'Staden Östersund fick enligt fundationsbrevet 23/10 1786 en speciell styrelseform' — 1786 TEYİT; kuruluş belgesi (fundationsbrev) günü 23 Ekim 1786. Gün tek akademik kaynakta; ilk.t 1786-01-01 değiştirilmedi (gün yükseltmesi ayrı karar: sahip[0].f ile birlikte taşınmalı). (UMIT 1116)"
   },
   "kur": null,
   "ark": null,
@@ -1194,15 +1202,23 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_2 = [
    "Oulu"
   ],
   "ilk": {
+   "t": "1399-01-01",
+   "gun": "1300'ler (1399)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "belirsiz",
+   "kaynak": "Uppslagsverket Finland, 'Uleåborg', https://uppslagsverket.fi/sv/sok/view-170045-Uleaaborg",
+   "tanik": "Trakten kring Ule älvs mynning omnämns redan på 1300-t. som en mycket besökt marknadsplats, Ulahamn.",
+   "ic_not": "EMRELIC kural/karar 17 Kasim 1116: ilk = kaynakli en erken yazili anilis; imtiyaz/sehir hakki/kale yeniden insasi kur ya da olay. Ulahamn = Oulu'nun öncülü olarak yazılır (nehir ağzı pazar yeri); cümlede 'Uleåborg' adı yok, öncül ad Ulahamn: kesinlik 'belirsiz'. 1377'de 'Befästningen belägrades av novgoroderna' (aynı madde; Ulahamn'a bağı açık değil, kullanılmadı). 1605 kale yeniden inşası ve 1610 şehir imtiyazı olay; snl 1605'i şehir kuruluşu verir (kur). Eski ilk.t 1605. Tek akademik kaynak. Önceki ic_not: TEK KAYNAK (snl; lex 1605'i içermez, yalnız 'handelsplads for baglandet' ve 'borg afbrændt af russerne 1715'). | TANIK DÜZELTME (UMIT 1116): snl sayfa adı 'Uleåborg' (= Oulu); önceki tanık lex-Danca idi, ilk.kaynak snl; düzeltildi | 2. KAYNAK — KISMİ ÇELİŞKİ (karar gerekir): Uppslagsverket Finland, 'Uleåborg', https://uppslagsverket.fi/sv/sok/view-170045-Uleaaborg (17 Kasım 2026 okundu): '... uppfördes 1590 på Johan III:s befallning en vidlyftigare anläggning, som ... återuppbyggdes 1605 på order av Karl IX, delvis av sten.' ve 'Stadsprivilegier utfärdades 1610 för Uleåborg, ...'. Ayrıca: 'Trakten kring Ule älvs mynning omnämns redan på 1300-t. som en mycket besökt marknadsplats, Ulahamn' ve 'Befästningen belägrades 1377 av novgoroderna'. — 1605 burada KALE yeniden inşası, şehir imtiyazı 1610; snl 1605'i şehir kuruluşu + byrettigheter olarak verir. Hakemli karar: 1610'u veren ikinci bağımsız akademik kaynak bulunamadı (≥2 eşiği yok) → ilk.t 1605 korundu. Ulahamn 1300'ler / 1377 daha erken bir yer anılışıdır (ilk_anilis için ayrı karar). (UMIT 1116)"
+  },
+  "kur": {
    "t": "1605-01-01",
    "gun": "1605",
    "nicelik": "kurulus",
    "kesinlik": "yil",
    "kaynak": "Store norske leksikon, 'Oulu', https://snl.no/Oulu",
    "tanik": "Uleåborg fikk byrettigheter og ble grunnlagt i 1605 av Karl 9.",
-   "ic_not": "TEK KAYNAK (snl; lex 1605'i içermez, yalnız 'handelsplads for baglandet' ve 'borg afbrændt af russerne 1715'). | TANIK DÜZELTME (UMIT 1116): snl sayfa adı 'Uleåborg' (= Oulu); önceki tanık lex-Danca idi, ilk.kaynak snl; düzeltildi"
+   "ic_not": "snl: şehir hakları + kuruluş 1605; Uppslagsverket: 1605 kale yeniden inşası, 1610 şehir imtiyazı (karar: olay)."
   },
-  "kur": null,
   "ark": null,
   "bit": null,
   "sahip": [],
@@ -1214,6 +1230,13 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_2 = [
     "b": "Oulu (Uleåborg) IX. Karl tarafından kurulur ve şehir hakkı alır.",
     "kaynak": "Store norske leksikon, 'Oulu', https://snl.no/Oulu",
     "ic_not": "TEK KAYNAK (snl)."
+   },
+   {
+    "t": "1610-01-01",
+    "gun": "1610",
+    "k": "kurulus",
+    "b": "Uleåborg'a şehir imtiyazı verildi.",
+    "kaynak": "Uppslagsverket Finland, 'Uleåborg', https://uppslagsverket.fi/sv/sok/view-170045-Uleaaborg"
    },
    {
     "t": "1715-01-01",
@@ -1393,7 +1416,7 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_2 = [
    "kesinlik": "yil",
    "kaynak": "Store norske leksikon, 'Tønsberg', https://snl.no/Tønsberg",
    "tanik": "I andre skriftlige kilder nevnes Tønsberg første gang i 1135 hos den engelske historieskriveren Orderic Vitalis.",
-   "ic_not": "ARKEOLOJİK (snl: 'archaeological evidence predates only the 900s' — 900'ler, güvenli uç 999). Yazılı tanık: Snorre'nin (Heimskringla, ≈1230) kuruluşu ≈871'e koyması ve lex 'skal være grundlagt i 871' / 'fra 970 var den kongehyldningssted' — snl bunu 'disputed' diye işaretler; çağdaş yazılı tanık değil, geleneksel iddia: ilk.t yapılmadı, olay olarak yazıldı. Yazılı çağdaş tanık: ilk kilise 1191 (snl). | TANIK DÜZELTME (UMIT 1116): üç cümlelik tanık (ad aynı paragrafta, yıl cümlesinde değil; zayıf-b); snl ayrıca 'Tønsberg nevnes første gang i 1135 hos ... Orderic Vitalis' (yazılı ilk anılış 1135; ilk.t 900-tallet güvenli ucu olarak bırakıldı). tek kaynak (snl) | KARAR (EMRELIC/UMIT 17 Kasim 1116): ilk yazili anilis 1135 (snl, Orderic Vitalis; sayfa tam govdesinden birebir, 17 Kasim). Onceki deger 900'ler arkeolojik uc idi (999-01-01, yuzyil). 871 'resmi kurulus yili' gelenektir (Snorre), snl 'omdiskutert' der; yazili cagdas tanik degil. Tek kaynak (snl)."
+   "ic_not": "ARKEOLOJİK (snl: 'archaeological evidence predates only the 900s' — 900'ler, güvenli uç 999). Yazılı tanık: Snorre'nin (Heimskringla, ≈1230) kuruluşu ≈871'e koyması ve lex 'skal være grundlagt i 871' / 'fra 970 var den kongehyldningssted' — snl bunu 'disputed' diye işaretler; çağdaş yazılı tanık değil, geleneksel iddia: ilk.t yapılmadı, olay olarak yazıldı. Yazılı çağdaş tanık: ilk kilise 1191 (snl). | TANIK DÜZELTME (UMIT 1116): üç cümlelik tanık (ad aynı paragrafta, yıl cümlesinde değil; zayıf-b); snl ayrıca 'Tønsberg nevnes første gang i 1135 hos ... Orderic Vitalis' (yazılı ilk anılış 1135; ilk.t 900-tallet güvenli ucu olarak bırakıldı). tek kaynak (snl) | KARAR (EMRELIC/UMIT 17 Kasim 1116): ilk yazili anilis 1135 (snl, Orderic Vitalis; sayfa tam govdesinden birebir, 17 Kasim). Onceki deger 900'ler arkeolojik uc idi (999-01-01, yuzyil). 871 'resmi kurulus yili' gelenektir (Snorre), snl 'omdiskutert' der; yazili cagdas tanik degil. Tek kaynak (snl). | 2. KAYNAK (birincil metin neşri, kategori 8): Orderic Vitalis, Historia Ecclesiastica X.16, İng. çev. T. Forester, The Ecclesiastical History of England and Normandy, Bohn, London 1854, c. III s. 214-215, çevrimiçi metin https://www.melocki.org.uk/ordericus/Book10.html (17 Kasım 2026 okundu): 'There is a sixth, called Turesberga, which is situated to the eastward towards the Danish territory.' Çevirmen notu: 'Turesburga, another name disfigured by the transcriber, is Tonsberg' ve X. kitabın 'could not have been written before the summer of 1133' olduğu. — Orderic'in Tønsberg anılışı TEYİT; yazım yılı yalnız ≥1133 olarak sınırlanır (snl 1135; yazım ≈1133-1135). Yıl çelişkisi yok, ilk.t 1135 korundu. Ek (UiO, Hans Jacob Orning, 'Middelalderbyen', norgeshistorie.no, 2015, https://www.norgeshistorie.no/hoymiddelalder/0904-middelalderbyen.html): 'Rundt 950 forsvant den, og da en ny by oppstod i området, var det på et annet sted – i Tønsberg.' (Kaupang sonrası; yıl vermez). (UMIT 1116)"
   },
   "kur": null,
   "ark": null,
@@ -1589,7 +1612,7 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_2 = [
    "kesinlik": "belirsiz",
    "kaynak": "Store norske leksikon, 'Trondheim', https://snl.no/Trondheim",
    "tanik": "Trondheim ble etter tradisjonen grunnlagt av Olav Tryggvason, etter sagaenes kronologi i året 997.",
-   "ic_not": "GELENEKSEL kuruluş: snl 'Tradition holds that Olav Tryggvason founded the city in 997'; snl 'Trondheim - historie' yazılı çağdaş kaynak OLMADIĞINI söyler ('no written sources survive from that period') ve Skipakrok limanında 1000 öncesi ticaret faaliyetini arkeolojik olarak gösterir. lex 'udvikledes tidligt i 1000-tallet en handelsplads'. Yazılı çağdaş tanık yok; geleneksel kuruluş yılı alındı, kesinlik belirsiz. ÇİFT TEYİT (yıl düzeyi, gelenek): snl + Britannica da 997 verir (Britannica genel kaynak). | TANIK DÜZELTME (UMIT 1116): gelenek/saga kronolojisi (belirsiz kesinlik uygun); tek kaynak (snl)"
+   "ic_not": "GELENEKSEL kuruluş: snl 'Tradition holds that Olav Tryggvason founded the city in 997'; snl 'Trondheim - historie' yazılı çağdaş kaynak OLMADIĞINI söyler ('no written sources survive from that period') ve Skipakrok limanında 1000 öncesi ticaret faaliyetini arkeolojik olarak gösterir. lex 'udvikledes tidligt i 1000-tallet en handelsplads'. Yazılı çağdaş tanık yok; geleneksel kuruluş yılı alındı, kesinlik belirsiz. ÇİFT TEYİT (yıl düzeyi, gelenek): snl + Britannica da 997 verir (Britannica genel kaynak). | TANIK DÜZELTME (UMIT 1116): gelenek/saga kronolojisi (belirsiz kesinlik uygun); tek kaynak (snl) | 2. KAYNAK (akademik, UiO): Hans Jacob Orning, 'Middelalderbyen', norgeshistorie.no (Universitetet i Oslo), 2015, https://www.norgeshistorie.no/hoymiddelalder/0904-middelalderbyen.html (17 Kasım 2026 okundu): 'Ifølge sagaene grunnla Olav Tryggvason Nidaros, Olav Haraldsson Sarpsborg, Harald Hardråde Oslo og Olav Kyrre Bergen.' — Olav Tryggvason geleneği TEYİT, ama 997 YILINI VERMEZ: yıl hâlâ tek kaynak (snl; Britannica genel). kesinlik 'belirsiz' doğru. (UMIT 1116)"
   },
   "kur": null,
   "ark": null,
@@ -1702,7 +1725,7 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_2 = [
    "kesinlik": "yil",
    "kaynak": "Store norske leksikon, 'Åbo', https://snl.no/Åbo",
    "tanik": "Åbo er Finlands eldste by. Byen ble grunnlagt i 1229 og var landets hovedstad til 1812.",
-   "ic_not": "TEK KAYNAK (snl 'Åbo': kuruluş 1229; özetten). lex 'Turku': '1200'lerde ticaret yeri olarak doğdu' (yüzyıl düzeyi uyumlu, ÇİFT TEYİT yalnız yüzyıl). Piskoposluk: snl 1276, lex 1300 (ÇELİŞKİ, olay olarak yazıldı). | TANIK DÜZELTME (UMIT 1116): iki cümlelik tanık (ad 1. cümlede, yıl 2. cümlede); snl sayfa adı 'Åbo' (= Turku)"
+   "ic_not": "TEK KAYNAK (snl 'Åbo': kuruluş 1229; özetten). lex 'Turku': '1200'lerde ticaret yeri olarak doğdu' (yüzyıl düzeyi uyumlu, ÇİFT TEYİT yalnız yüzyıl). Piskoposluk: snl 1276, lex 1300 (ÇELİŞKİ, olay olarak yazıldı). | TANIK DÜZELTME (UMIT 1116): iki cümlelik tanık (ad 1. cümlede, yıl 2. cümlede); snl sayfa adı 'Åbo' (= Turku) | 2. KAYNAK (bilimsel dernek ansiklopedisi): Uppslagsverket Finland (Svenska folkskolans vänner / SLS çizgisi), 'Åbo', https://uppslagsverket.fi/sv/sok/view-170045-Aabo (17 Kasım 2026 okundu): 'Påven utfärdade 1229 en bulla i vilken han gav sitt tillstånd till att biskopssätet flyttades från Nousis till Korois, där det förblev århundradet ut. Året 1229 har i modern tid börjat firas som stadens grundläggningsår.' — 1229 TEYİT, ama bir konvansiyon olarak (papalık bullası, piskoposluk Koroinen'e); kale ve katedral 1280'ler, şehir imtiyazı 1290-1318 (Messenius). (UMIT 1116)"
   },
   "kur": null,
   "ark": null,
@@ -1770,7 +1793,7 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_2 = [
    "kesinlik": "yil",
    "kaynak": "Store norske leksikon, 'Umeå', https://snl.no/Umeå",
    "tanik": "Umeå ble by i 1622.",
-   "ic_not": "ÇİFT TEYİT (yıl düzeyi): snl.no ve lex.dk aynı yılı verir. Ancak ikisi de genel ansiklopedidir; akademik/arşiv (runeberg, Riksarkivet, Arkivverket, SBL/NBL/DBL, Diplomatarium) üçüncü kaynak bu turda bulunamadı/okunamadı. lex 'blev grundlagt i 1622'. lex 'kendes fra 1314 som vmu' bir NEHİR adıdır (Umeälv), yerleşim tanığı değil."
+   "ic_not": "ÇİFT TEYİT (yıl düzeyi): snl.no ve lex.dk aynı yılı verir. Ancak ikisi de genel ansiklopedidir; akademik/arşiv (runeberg, Riksarkivet, Arkivverket, SBL/NBL/DBL, Diplomatarium) üçüncü kaynak bu turda bulunamadı/okunamadı. lex 'blev grundlagt i 1622'. lex 'kendes fra 1314 som vmu' bir NEHİR adıdır (Umeälv), yerleşim tanığı değil. | 2. KAYNAK (kurumsal): Riksantikvarieämbetet, Bebyggelseregistret (BeBR), Backens kyrka tarihçesi, https://bebyggelseregistret.raa.se/bbr2/anlaggning/visaHelaHistoriken.raa?anlaggningId=21300000003142&historikId=21000001916111 (17 Kasım 2026 okundu): 'Umeå stad anlades istället 1622 på Sandahemmanet 5 km nedströms, där älven fortfarande var segelbar.' — 1622 TEYİT (bugünkü yer). Not: RAÄ yayını (M. Peterson, PDF, OKUNMADI) arama özetine göre Umeå'ya 1588 imtiyazı verildiğini yazar (1500'lerde kilise yanında başarısız şehir denemesi) — ayrı karar. (UMIT 1116 II. tur) | KARAR (EMRELIC 17 Kasim 1116): RAA PDF'i OKUNMADI (indirme yasagi); 1588 imtiyazi iddiasi arama ozetinden, dayanak yapilmadi; mevcut deger kalir."
   },
   "kur": null,
   "ark": null,
@@ -1824,7 +1847,7 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_2 = [
    "kesinlik": "yil",
    "kaynak": "Store norske leksikon, 'Uppsala', https://snl.no/Uppsala",
    "tanik": "The archbishopric moved from nearby Gamla Uppsala in 1273.",
-   "ic_not": "En erken YAZILI tanık: başpiskoposluğun Gamla Uppsala'dan bugünkü Uppsala'ya (Östra Aros) taşınması. ÇİFT TEYİT (yıl/on yıl): lex '1270'erne flyttet nogle kilometer ned ad åen'. ANTİK/ESKİ YERLEŞİM: Gamla Uppsala bugünkü şehirden ≈5 km uzaktadır (> 3 km kuralı): lex 'Byen kendes sidst i 900-tallet' (Ub salum), Adam av Bremen ca. 1075 'Ubsola', 1164 başpiskoposluk merkezi (lex) — bunlar Gamla Uppsala kaydıdır, burada YAZILMADI; ayrı kayıt olarak önerilir. Östra Aros'un 1273 öncesi yazılı tanığı okunamadı."
+   "ic_not": "En erken YAZILI tanık: başpiskoposluğun Gamla Uppsala'dan bugünkü Uppsala'ya (Östra Aros) taşınması. ÇİFT TEYİT (yıl/on yıl): lex '1270'erne flyttet nogle kilometer ned ad åen'. ANTİK/ESKİ YERLEŞİM: Gamla Uppsala bugünkü şehirden ≈5 km uzaktadır (> 3 km kuralı): lex 'Byen kendes sidst i 900-tallet' (Ub salum), Adam av Bremen ca. 1075 'Ubsola', 1164 başpiskoposluk merkezi (lex) — bunlar Gamla Uppsala kaydıdır, burada YAZILMADI; ayrı kayıt olarak önerilir. Östra Aros'un 1273 öncesi yazılı tanığı okunamadı. | 2. KAYNAK (akademik, Riksarkivet SBL): Sture Bolin, 'Erik den helige', Svenskt biografiskt lexikon bd 14 (1953) s. 248, https://sok.riksarkivet.se/sbl/Presentation.aspx?id=15396 (17 Kasım 2026 okundu): '... hans kvarlevor överfördes, troligen i juli 1273 till Uppsala, där S:t Eriks skrin nu befinner sig bakom högaltaret i domkyrkan.' ve 'I juli 1273 torde hans ben ha överförts från Gamla Uppsala till Uppsala.'; makalenin kaynakçasında hakemli makale: 'Flyttningen av ärkebiskopssätet och Erik den heliges reliker 1273 från Uppsala till östra Aros (Fornvännen, 14, 1919)'. — 1273 TEYİT (muhtemelen Temmuz 1273; gün yok). (UMIT 1116 II. tur)"
   },
   "kur": null,
   "ark": null,
@@ -1888,7 +1911,7 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_2 = [
    "kesinlik": "yil",
    "kaynak": "Den Store Danske / lex.dk, 'Vaasa', https://lex.dk/Vaasa",
    "tanik": "Det gamle Vaasa nedbrændte totalt i 1852",
-   "ic_not": "Bugünkü Vaasa'nın YENİDEN KURULUŞU: yangından sonra kent 7 km batıda yeniden kuruldu (lex 'ved genopbygningen flyttedes byen 7 km længere mod vest'; ÇİFT TEYİT snl 'gjenoppbygd 7 kilometer lenger vest'). İlk kuruluş 1606 (IX. Karl; lex 'grundlagt i 1606 af Karl 9' + snl 'grunnlagt i 1606 av Karl 9 av Sverige' = ÇİFT TEYİT) ESKİ Vaasa'ya (≈7 km doğuda, Mustasaari/Korsholm yakını) aittir: kural (> 3 km) gereği burada ilk.t yapılmadı, ayrı kayıt önerilir. Gün kaynakta okunamadı."
+   "ic_not": "Bugünkü Vaasa'nın YENİDEN KURULUŞU: yangından sonra kent 7 km batıda yeniden kuruldu (lex 'ved genopbygningen flyttedes byen 7 km længere mod vest'; ÇİFT TEYİT snl 'gjenoppbygd 7 kilometer lenger vest'). İlk kuruluş 1606 (IX. Karl; lex 'grundlagt i 1606 af Karl 9' + snl 'grunnlagt i 1606 av Karl 9 av Sverige' = ÇİFT TEYİT) ESKİ Vaasa'ya (≈7 km doğuda, Mustasaari/Korsholm yakını) aittir: kural (> 3 km) gereği burada ilk.t yapılmadı, ayrı kayıt önerilir. Gün kaynakta okunamadı. | 2. KAYNAK (bilimsel dernek ansiklopedisi): Uppslagsverket Finland, 'Gamla Vasa', https://uppslagsverket.fi/sv/sok/view-170045-GamlaVasa (17 Kasım 2026 okundu): 'Den 3/8 1852 lades G., som då hade ca 3 200 inv., i aska genom en brand, varefter staden flyttades 7 km åt n.v. närmare havet.' — 1852 TEYİT; yangın günü 3 Ağustos 1852 (yeni şehrin kuruluş günü değil, taşınmanın tetikleyicisi). ilk.t değişmedi. (UMIT 1116)"
   },
   "kur": null,
   "ark": null,
@@ -1945,28 +1968,35 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_2 = [
    "Västerås"
   ],
   "ilk": {
-   "t": "1164-01-01",
-   "gun": "1164",
+   "t": "1120-01-01",
+   "gun": "en geç 1120",
    "nicelik": "ilk_anilis",
    "kesinlik": "yil",
-   "kaynak": "Den Store Danske / lex.dk, 'Västerås', https://lex.dk/Västerås",
-   "tanik": "Västerås er under navnet Arosa nævnt som bispesæde i 1164",
-   "ic_not": "ÇELİŞKİ: snl 'Västerås' 'A bishopric is mentioned around 1120' (ca. 1120); lex 1164 (Arosa). Güvenli uç olarak kesin yıl 1164 alındı; 1120 'around' tek kaynak ve kesin olmadığından yazılmadı. TEK KAYNAK (lex) + çelişen genel ansiklopedi; akademik/arşiv teyit yok."
+   "kaynak": "Y. Brilioth, 'David', Svenskt biografiskt lexikon bd 10 (1931) s. 326, https://sok.riksarkivet.se/sbl/Presentation.aspx?id=17204",
+   "tanik": "Västerås stifts upprättande (senast år 1120) är måhända att betrakta som en frukt av hans arbete.",
+   "ic_not": "EMRELIC kural/karar 17 Kasim 1116: ilk = kaynakli en erken yazili anilis; imtiyaz/sehir hakki/kale yeniden insasi kur ya da olay. 'senast år 1120' = EN GEÇ 1120 (üst sınır), kesin yıl değil; Västerås piskoposluğu (stift) kurulması, cümle 'måhända' (belki) ifadeli: tarihin yılı belirsiz sayılmalıdır. snl 'around 1120' uyumlu (genel). 1164 'Arosa' piskopos oturağı (lex+SBL Stephanus) olay. Eski ilk.t 1164. Önceki ic_not: ÇELİŞKİ: snl 'Västerås' 'A bishopric is mentioned around 1120' (ca. 1120); lex 1164 (Arosa). Güvenli uç olarak kesin yıl 1164 alındı; 1120 'around' tek kaynak ve kesin olmadığından yazılmadı. TEK KAYNAK (lex) + çelişen genel ansiklopedi; akademik/arşiv teyit yok. | 2. KAYNAK (akademik, iki SBL maddesi) — ÇELİŞKİ SÜRÜYOR (karar gerekir): (1) Anders Winroth, 'Stephanus', SBL bd 33 (2007-2011) s. 372, https://sok.riksarkivet.se/sbl/Presentation.aspx?id=20148 (17 Kasım 2026 okundu): 'Den nye ärkebiskopen fick fyra lydbiskopar som residerade i Skara, Linköping, Strängnäs och Västerås.' (1164 bağlamı) — 1164'te Västerås piskopos oturağı TEYİT. (2) Y. Brilioth, 'David', SBL bd 10 (1931) s. 326, https://sok.riksarkivet.se/sbl/Presentation.aspx?id=17204: 'Västerås stifts upprättande (senast år 1120) är måhända att betrakta som en frukt av hans arbete.' — ≤1120 iddiası artık 1 akademik (SBL 1931) + 1 genel (snl 'around 1120') kaynağa dayanır; ikisi de kesin yıl değil ('senast'/'around'). Hakemli karar eşiği (≥2 bağımsız akademik) oluşmadı → ilk.t 1164 korundu. (UMIT 1116 II. tur)"
   },
   "kur": null,
   "ark": null,
   "bit": null,
   "sahip": [
    {
-    "f": "1164-01-01",
+    "f": "1120-01-01",
     "t": "1281-01-01",
     "d": "isvec-birlik-oncesi",
     "kesinlik": "yil",
     "kaynak": "Den Store Danske / lex.dk, 'Västerås', https://lex.dk/Västerås",
-    "ic_not": "BEYANLI YAKLAŞIKLIK: kaynak şehrin bağlı olduğu krallığı ayrıca söylemez; İsveç Krallığı (isvec-birlik-oncesi künyesi) toprağıdır. Atlas Västerås 1281'de isvec-birlik-oncesi ile başlıyor."
+    "ic_not": "BEYANLI YAKLAŞIKLIK: kaynak şehrin bağlı olduğu krallığı ayrıca söylemez; İsveç Krallığı (isvec-birlik-oncesi künyesi) toprağıdır. Atlas Västerås 1281'de isvec-birlik-oncesi ile başlıyor. | f 1120'ye çekildi (ilk.t); isvec-birlik-oncesi künyesi (f 1000) varsayımı beyanlı."
    }
   ],
   "olay": [
+   {
+    "t": "1164-01-01",
+    "gun": "1164",
+    "k": "diger",
+    "b": "Arosa (Västerås) piskopos oturağı olarak anılır (yeni Uppsala başpiskoposluğunun dört bağlı piskoposundan biri).",
+    "kaynak": "Den Store Danske / lex.dk, 'Västerås', https://lex.dk/Västerås"
+   },
    {
     "t": "1244-01-01",
     "gun": "1244",
@@ -2020,7 +2050,7 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_2 = [
    "kesinlik": "yil",
    "kaynak": "Den Store Danske / lex.dk, 'Växjö', https://lex.dk/Växjö",
    "tanik": "Som bispesæde fra 1170 blev Växjö i middelalderen åndeligt centrum for kristendommen i det sydlige Småland og for Sveriges dengang mindste stift.",
-   "ic_not": "ÇELİŞKİ (yıl düzeyi, aynı yüzyıl): snl 'Växjö har vært bispesete siden midten av 1100-tallet' (≈1150) vs lex 1170; güvenli uç 1170 alındı. snl ilk anılış vermez; Värend merkezi Viking çağı (yıl yok)."
+   "ic_not": "ÇELİŞKİ (yıl düzeyi, aynı yüzyıl): snl 'Växjö har vært bispesete siden midten av 1100-tallet' (≈1150) vs lex 1170; güvenli uç 1170 alındı. snl ilk anılış vermez; Värend merkezi Viking çağı (yıl yok). | 2. KAYNAK (akademik, Riksarkivet SBL): Hans Gillingstam, 'Karl Sverkersson', Svenskt biografiskt lexikon bd 20 (1973-1975) s. 621, https://sok.riksarkivet.se/sbl/Presentation.aspx?id=12369 (17 Kasım 2026 okundu): 'Detta har sammanställts med att Växjö stift ej namnes bland de sv stiften vid ärkebiskopstillsättningen 1164 och att den äldste kände växjöbiskopen kan beläggas tidigast 1170 (Larsson).' — 1170 TEYİT (ilk belgelenen Växjö piskoposu; 1164'te yok). (UMIT 1116 II. tur)"
   },
   "kur": null,
   "ark": null,

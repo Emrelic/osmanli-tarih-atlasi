@@ -16,9 +16,9 @@ window.SEHIR_TARIHCE_KARAYIP_3 = [
    "gun": "1627",
    "nicelik": "kurulus",
    "kesinlik": "yil",
-   "kaynak": "Encyclopaedia Britannica, «Basseterre», https://www.britannica.com/place/Basseterre (tam gövde okundu, 17 Kasım 2026)",
+   "kaynak": "Encyclopaedia Britannica, «Basseterre», https://www.britannica.com/place/Basseterre (tam gövde okundu, 17 Kasım 2026) · «Basseterre», The Columbia Encyclopedia, 6th ed., https://www.encyclopedia.com/reference/encyclopedias-almanacs-transcripts-and-maps/basseterre (tam gövde okundu, 17 Kasım 2026)",
    "tanik": "Founded in 1627 and rebuilt after being destroyed by fire (1867), it is",
-   "ic_not": "TEK KAYNAK (Britannica; ikinci bağımsız akademik kaynak bu turda okunmadı). Özne 'it' = madde konusu Basseterre (aynı cümle)."
+   "ic_not": "ÇİFT KAYNAK (17 Kasım 2026): Britannica + 2. KAYNAK: «Basseterre», The Columbia Encyclopedia, 6th ed. (Columbia University Press; genel başvuru eseri), https://www.encyclopedia.com/reference/encyclopedias-almanacs-transcripts-and-maps/basseterre: 'Basseterre was founded by the French in 1627.' (yıl aynı; kurucunun Fransız olduğu da bu cümlede). Özne 'it' = madde konusu Basseterre (Britannica cümlesi)."
   },
   "kur": {
    "t": "1627-01-01",
@@ -29,15 +29,38 @@ window.SEHIR_TARIHCE_KARAYIP_3 = [
   },
   "ark": null,
   "bit": null,
-  "dikis_beyan": "Atlas 1713-07-13 'ingiltere' başlangıcının günü okunan kaynaklarda yok: Britannica adayı Utrecht Antlaşması'yla 'April 1713'te Britanya'ya verilmiş sayar (gün 13 Temmuz değil). Yer tutucu olay yazılmadı.",
   "sahip": [
    {
     "f": "1627-01-01",
-    "t": "1713-07-13",
-    "d": "__BOSLUK__",
+    "t": "1690-06-20",
+    "d": "fransa",
     "kesinlik": "yil",
-    "kaynak": "Encyclopaedia Britannica, «Basseterre», https://www.britannica.com/place/Basseterre (tam gövde okundu, 17 Kasım 2026) · Encyclopaedia Britannica, «Saint Kitts and Nevis — History», https://www.britannica.com/place/Saint-Kitts-and-Nevis/History (tam gövde okundu, 17 Kasım 2026)",
-    "ic_not": "BEYANLI BOŞLUK: ada 17. yy boyunca Fransız ve İngiliz sömürgeciler arasında bölünmüştü (Britannica St Kitts tarihi); Fransızlar 1627'de d’Esnambuc yönetiminde koloni kurdu. Basseterre'in hangi kesimde/kimin elinde olduğu okunan kaynaklarda AÇIKÇA yazmıyor → sahip yazılmadı (çıkarım yapılmadı). Merdiven ②–⑦ basamağı bu turda denenmedi."
+    "kaynak": "St Christopher National Trust, «Basseterre» (Historic St. Kitts), https://www.historicstkitts.kn/places/basseterre (tam gövde okundu, 17 Kasım 2026) · «Basseterre», The Columbia Encyclopedia, 6th ed., https://www.encyclopedia.com/reference/encyclopedias-almanacs-transcripts-and-maps/basseterre (tam gövde okundu, 17 Kasım 2026) · Encyclopaedia Britannica, «Saint Kitts and Nevis — History», https://www.britannica.com/place/Saint-Kitts-and-Nevis/History (tam gövde okundu, 17 Kasım 2026)",
+    "ic_not": "BOŞLUK DOLDURULDU (17 Kasım 2026; ESKİ: __BOSLUK__ 1627-01-01→1713-07-13, 'Basseterre'in hangi kesimde olduğu kaynakta yok'). St Christopher National Trust (ulusal miras kurumu; hakemli değil, Calendar of State Papers ve Labat'a dayanır): 'On the 13th May 1627, following the routing of the Kalinago community, the island was divided between the two European nationalities. The English took the middle section while the French occupied the northern and the southern extremities. Du Roissey, took charge of Basseterre, the leeward (southern) side of the island.' + Columbia Encyclopedia 'Basseterre was founded by the French in 1627.' + Britannica (Fransız kolonisi 1627, d’Esnambuc). Bölünme günü 13 Mayıs 1627 tek kaynak (NT) → f yıl hassasiyetinde bırakıldı. 1666–67 Fransızlar bütün adayı alır, Breda (1667) bölünmeyi geri getirir — Basseterre bu arada da Fransız (NT). Kaynak niteliği BEYAN: Fransız sahipliği iki genel/kurumsal kaynakta, akademik hakemli kaynak okunamadı (Érudit BSHG 2001 bot denetimi → AÇILMADI)."
+   },
+   {
+    "f": "1690-06-20",
+    "t": "1697-01-01",
+    "d": "ingiltere",
+    "kesinlik": "gun",
+    "kaynak": "St Christopher National Trust, «Basseterre», https://www.historicstkitts.kn/places/basseterre (tam gövde okundu, 17 Kasım 2026) · UNESCO World Heritage Centre, «Brimstone Hill Fortress National Park» (list no. 910), https://whc.unesco.org/en/list/910/ (tam gövde okundu, 17 Kasım 2026)",
+    "ic_not": "NT: 'However on the 20th June 1690 British forces landed in Frigate Bay and made their way to Basseterre.' + NT'nin aktardığı Calendar of State Papers Colonial v. 13: 'The squadron then weighed for Basseterre, which the French evacuated, both forts and town, on our approach' + UNESCO 910 'in 1690 when the British installed a canon to drive out the French'. Gün çıkarma günüdür; şehrin tahliyesi aynı harekâttır (±1–2 gün, BEYAN). Yıl çift teyitli, gün tek kaynak (NT)."
+   },
+   {
+    "f": "1697-01-01",
+    "t": "1702-01-01",
+    "d": "fransa",
+    "kesinlik": "yil",
+    "kaynak": "St Christopher National Trust, «Basseterre», https://www.historicstkitts.kn/places/basseterre (tam gövde okundu, 17 Kasım 2026)",
+    "ic_not": "TEK KAYNAK (NT, hakemli değil): 'the English once again gave up the French Quarter of St. Kitts in 1697 at the Treaty of Ryswick.' Antlaşma günü (Eylül 1697) ve fiilî teslim günü kaynakta yok → yıl hassasiyeti, BEYANLI YAKLAŞIKLIK. Genealogie et Histoire de la Caraïbe (ghcaraibe.org; dernek sitesi, akademik değil, SAYILMADI) de 1697 iadesini yazar (arama özetinde görüldü, sayfa OKUNMADI)."
+   },
+   {
+    "f": "1702-01-01",
+    "t": "1713-07-13",
+    "d": "ingiltere",
+    "kesinlik": "yil",
+    "kaynak": "St Christopher National Trust, «Basseterre», https://www.historicstkitts.kn/places/basseterre (tam gövde okundu, 17 Kasım 2026) · Encyclopaedia Britannica, «Saint Kitts and Nevis — History», https://www.britannica.com/place/Saint-Kitts-and-Nevis/History (tam gövde okundu, 17 Kasım 2026)",
+    "ic_not": "NT: 'England and France were again at war in 1702 … As soon as the news reached Governor Codrington, he marched on the French in St. Kitts. Taken by surprise they surrendered immediately' + 'In 1713, the Treaty of Utrecht gave the whole of St. Kitts to Great Britain.' 1706 Fransız baskını bir haftalık yağmadır, elde tutma değil (NT) → dönem açılmadı. 1702 günü (16 Temmuz 1702) yalnız ghcaraibe arama özetinde görüldü, SAYILMADI → yıl. Atlas 1713-07-13 'ingiltere' ile aynı sahip → dikiş YOK (eski dikiş beyanı kalktı: Utrecht 'April 1713' ile atlas 13 Temmuz günü farkı künye/atlas meselesi olarak ic_not'ta)."
    }
   ],
   "olay": [
@@ -52,13 +75,34 @@ window.SEHIR_TARIHCE_KARAYIP_3 = [
     "ic_not": "İki kaynaktaki aynı yıl: Basseterre'in Fransız kuruluşu olduğu kaynakta yazılı değil."
    },
    {
-    "t": "1690-01-01",
-    "gun": "1690",
-    "k": "savas",
-    "b": "İngilizler Fransızları sürmek için Brimstone Hill'e top yerleştirir.",
+    "t": "1690-06-20",
+    "gun": "20 Haziran 1690",
+    "k": "fetih",
+    "b": "İngiliz kuvvetleri Frigate Bay'e çıkıp Basseterre'e yürür; Fransızlar kasabayı ve kaleleri boşaltır. İngilizler Fransızları sürmek için Brimstone Hill'e top yerleştirir.",
+    "kesinlik": "gun",
+    "kaynak": "St Christopher National Trust, «Basseterre», https://www.historicstkitts.kn/places/basseterre (tam gövde okundu, 17 Kasım 2026) · UNESCO World Heritage Centre, «Brimstone Hill Fortress National Park» (list no. 910), https://whc.unesco.org/en/list/910/ (tam gövde okundu, 17 Kasım 2026)",
+    "tanik": "However on the 20th June 1690 British forces landed in Frigate Bay and made their way to Basseterre.",
+    "ic_not": "ESKİ: 1690-01-01 'savas', yalnız UNESCO 910 ('in 1690 when the British installed a canon to drive out the French'). Gün NT'den (tek kaynak)."
+   },
+   {
+    "t": "1697-01-01",
+    "gun": "1697",
+    "k": "antlasma",
+    "b": "Ryswick Antlaşması'yla İngilizler adanın Fransız kesimini (Basseterre dahil) yeniden Fransa'ya bırakır.",
     "kesinlik": "yil",
-    "kaynak": "UNESCO World Heritage Centre, «Brimstone Hill Fortress National Park» (list no. 910), https://whc.unesco.org/en/list/910/ (tam gövde okundu, 17 Kasım 2026)",
-    "tanik": "in 1690 when the British installed a canon to drive out the French"
+    "kaynak": "St Christopher National Trust, «Basseterre», https://www.historicstkitts.kn/places/basseterre (tam gövde okundu, 17 Kasım 2026)",
+    "tanik": "the English once again gave up the French Quarter of St. Kitts in 1697 at the Treaty of Ryswick",
+    "ic_not": "Tek kaynak (NT, hakemli değil); antlaşma günü kaynakta yok."
+   },
+   {
+    "t": "1702-01-01",
+    "gun": "1702",
+    "k": "fetih",
+    "b": "İspanya Veraset Savaşı başlayınca Vali Codrington Fransız kesimine yürür; Fransızlar hemen teslim olur.",
+    "kesinlik": "yil",
+    "kaynak": "St Christopher National Trust, «Basseterre», https://www.historicstkitts.kn/places/basseterre (tam gövde okundu, 17 Kasım 2026)",
+    "tanik": "England and France were again at war in 1702",
+    "ic_not": "Tek kaynak (NT); gün yok."
    },
    {
     "t": "1713-04-01",
@@ -124,7 +168,7 @@ window.SEHIR_TARIHCE_KARAYIP_3 = [
     "tanik": "Saint Kitts and Nevis became independent on September 19, 1983"
    }
   ],
-  "ic_not": "1627–1713 sahibi BOŞLUK (beyanlı). Atlas 'Basseterre' 1713-07-13 ingiltere: Utrecht 11 Nisan 1713 (Britannica 'April 1713') ile 3 ay fark → atlas günü teyit edilmeli; atlasın 1627–1713'ü göstermesi için Fransız/İngiliz kesim kaynağı gerekir."
+  "ic_not": "1627–1713 sahibi (17 Kasım 2026): ESKİ __BOSLUK__ → fransa 1627→1690 · ingiltere 1690→1697 · fransa 1697→1702 · ingiltere 1702→1713-07-13 (St Christopher National Trust + Columbia + UNESCO 910 + Britannica; NT dışındaki kaynaklar yalnız 1627 ve 1690'ı taşır, 1697 ve 1702 TEK KAYNAK — beyan). ESKİ dikis_beyan alanı kaldırıldı: 'Atlas 1713-07-13 'ingiltere' başlangıcının günü okunan kaynaklarda yok: Britannica adayı Utrecht Antlaşması'yla 'April 1713'te Britanya'ya verilmiş sayar (gün 13 Temmuz değil).' — 1702'den beri sahip zaten ingiltere olduğundan dikiş yok; atlas başlangıç günü (13 Temmuz) yine teyitsiz. Atlas 'Basseterre' 1713-07-13'ten başlıyor → 1627–1713 zinciri atlasa eklenmeli (öneri)."
  },
  {
   "id": "bridgetown-bb",
@@ -143,9 +187,9 @@ window.SEHIR_TARIHCE_KARAYIP_3 = [
    "gun": "1628",
    "nicelik": "kurulus",
    "kesinlik": "yil",
-   "kaynak": "Encyclopaedia Britannica, «Bridgetown», https://www.britannica.com/place/Bridgetown (tam gövde okundu, 17 Kasım 2026)",
+   "kaynak": "Encyclopaedia Britannica, «Bridgetown», https://www.britannica.com/place/Bridgetown (tam gövde okundu, 17 Kasım 2026) · «Bridgetown», The Columbia Encyclopedia, 6th ed., https://www.encyclopedia.com/reference/encyclopedias-almanacs-transcripts-and-maps/bridgetown (tam gövde okundu, 17 Kasım 2026)",
    "tanik": "The town, which was founded in 1628 and was originally called Indian Bridge",
-   "ic_not": "TEK KAYNAK (Britannica; ikinci bağımsız akademik kaynak bu turda okunmadı). UNESCO 1376 kuruluş yılı vermez ('17th century street layout'). Şehir adı Indian Bridge aynı cümlede; madde konusu Bridgetown."
+   "ic_not": "ÇİFT KAYNAK (17 Kasım 2026): Britannica + 2. KAYNAK: «Bridgetown», The Columbia Encyclopedia, 6th ed. (Columbia University Press; genel başvuru eseri, akademik hakemli değil), https://www.encyclopedia.com/reference/encyclopedias-almanacs-transcripts-and-maps/bridgetown: 'The city was founded by the British in 1628, and its old town section and nearby garrison preserve examples of colonial period architecture.' → yıl 1628 aynı, çelişki yok. Akademik (hakemli) ikinci kaynak bulunamadı. UNESCO 1376 kuruluş yılı vermez ('17th century street layout'). Şehir adı Indian Bridge aynı cümlede; madde konusu Bridgetown."
   },
   "kur": {
    "t": "1628-01-01",
@@ -338,9 +382,9 @@ window.SEHIR_TARIHCE_KARAYIP_3 = [
    "gun": "1670",
    "nicelik": "kurulus",
    "kesinlik": "yil",
-   "kaynak": "Encyclopaedia Britannica, «Cap-Haïtien», https://www.britannica.com/place/Cap-Haitien (tam gövde okundu, 17 Kasım 2026)",
+   "kaynak": "Encyclopaedia Britannica, «Cap-Haïtien», https://www.britannica.com/place/Cap-Haitien (tam gövde okundu, 17 Kasım 2026) · «Cap-Haïtien», The Columbia Encyclopedia, 6th ed., https://www.encyclopedia.com/reference/encyclopedias-almanacs-transcripts-and-maps/cap-haitien (tam gövde okundu, 17 Kasım 2026)",
    "tanik": "Founded in 1670 by the French, the city was then known as Cap-Français",
-   "ic_not": "TEK KAYNAK (Britannica; ikinci bağımsız akademik kaynak bu turda okunmadı). Kuruluş yılı yalnız Britannica şehir maddesinde."
+   "ic_not": "ÇİFT KAYNAK (17 Kasım 2026): Britannica + 2. KAYNAK: «Cap-Haïtien», The Columbia Encyclopedia, 6th ed. (genel başvuru eseri), https://www.encyclopedia.com/reference/encyclopedias-almanacs-transcripts-and-maps/cap-haitien: 'Founded by the French in 1670, the city was the capital of colonial Haiti for a century.' → yıl 1670 aynı, çelişki yok; ELAHC «Port-au-Prince» (Larman C. Wilson) 'the first had been Cap Haitien' ile ilk sömürge başkentliğini doğrular. Akademik hakemli kaynak bulunamadı. ESKİ NOT: Kuruluş yılı yalnız Britannica şehir maddesinde."
   },
   "kur": {
    "t": "1670-01-01",
@@ -465,7 +509,7 @@ window.SEHIR_TARIHCE_KARAYIP_3 = [
    "kesinlik": "yil",
    "kaynak": "Encyclopaedia Britannica, «Cartago», https://www.britannica.com/place/Cartago (tam gövde okundu, 17 Kasım 2026)",
    "tanik": "Cartago was founded in 1563 and was the capital of Costa Rica until 1823",
-   "ic_not": "TEK KAYNAK (Britannica; ikinci bağımsız akademik kaynak bu turda okunmadı). "
+   "ic_not": "ÇELİŞKİ (17 Kasım 2026), ÇÖZÜLMEDİ: 2. KAYNAK: John Patrick Bell, «Cartago», ELAHC (Gale/Scribner), https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/cartago: 'From the time of its foundation in 1564, it was the capital and most important city in one of Spain's most isolated and neglected colonies.' (1564) ↔ Britannica 1563. Arama özetleri ayrımı gösteriyor: Haziran 1563 sonu Juan Vázquez de Coronado Guarco vadisinde yeri belirler, Mart 1564 Garcimuñoz'dan taşınma (Universidad de Costa Rica, «Estudios» dergisi makalesi — PDF, OKUNMADI, sayılmadı). Bağımsız iki akademik kaynak aynı yılda birleşmiyor → HAKEMLİ KARAR ÇIKMADI, 1563 kaldı. Ayrıca 1572 Mata Redonda'ya taşınma/dönüş iddiası (yalnız wiki türevi) bugünkü noktanın sürekliliğini sorgular — teyitsiz. ELAHC 1823'te Cartago'nun San José'ye yenildiğini doğrular (başkentlik bitişi 1823 çift teyitli)."
   },
   "kur": {
    "t": "1563-01-01",
@@ -581,42 +625,34 @@ window.SEHIR_TARIHCE_KARAYIP_3 = [
    "Granada"
   ],
   "ilk": {
-   "t": "1523-01-01",
-   "gun": "1523",
+   "t": "1524-01-01",
+   "gun": "1524",
    "nicelik": "kurulus",
    "kesinlik": "yil",
-   "kaynak": "Encyclopaedia Britannica, «Granada (Nicaragua)», https://www.britannica.com/place/Granada-Nicaragua (YALNIZ ÖNİZLEME okundu: metnin devamı abonelik duvarında, tam gövde OKUNAMADI, 17 Kasım 2026) · Encyclopaedia Britannica, «History of Nicaragua», https://www.britannica.com/place/history-of-Nicaragua (tam gövde okundu, 17 Kasım 2026)",
-   "tanik": "Granada was founded in 1523 by Francisco Hernández de Córdoba",
-   "ic_not": "Britannica Granada maddesi (yalnız önizleme) 1523; Britannica History of Nicaragua 'by 1524 with the founding of Granada and León' (uyumlu, aynı yayınevi → bağımsız ikinci kaynak sayılmaz)."
+   "kaynak": "David L. Jickling, «Granada, Nicaragua», Encyclopedia of Latin American History and Culture (Gale/Scribner), https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/granada-nicaragua (tam gövde okundu, 17 Kasım 2026) · Encyclopaedia Britannica, «History of Nicaragua», https://www.britannica.com/place/history-of-Nicaragua (tam gövde okundu, 17 Kasım 2026)",
+   "tanik": "Granada was founded in 1524 by Francisco Hernández de Córdoba.",
+   "ic_not": "HAKEMLİ KARAR (17 Kasım 2026): ESKİ DEĞER 1523-01-01 (Britannica «Granada (Nicaragua)» yalnız önizleme: 'Granada was founded in 1523 by Francisco Hernández de Córdoba'). Karşısında 1524: 2. KAYNAK: David L. Jickling, ELAHC (Gale/Scribner), https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/granada-nicaragua: 'Granada was founded in 1524 by Francisco Hernández de Córdoba.' + Britannica «History of Nicaragua» (imzalı tarih maddesi) 'by 1524 with the founding of Granada and León'. İki kaynak 1524'te birleşir, 1523 yalnız Britannica şehir önizlemesinde → 1524 SEÇİLDİ. Not: Britannica tarih maddesi şehir maddesiyle aynı yayınevidir; bağımsızlık ELAHC'den gelir. Antonio de Herrera 1523 der (yalnız basında aktarılmış, OKUNMADI); Cabrero Fernández & González Pujana, «Granada de Nicaragua» (AEA Congreso, 1992) 1524'ü savunur (PDF, OKUNMADI, sayılmadı). Gün (21 Nisan / 8 Aralık 1524) yalnız ansiklopedi-dışı kaynaklarda görüldü → yazılmadı."
   },
   "kur": {
-   "t": "1523-01-01",
-   "gun": "1523",
+   "t": "1524-01-01",
+   "gun": "1524",
    "kesinlik": "yil",
-   "kaynak": "Encyclopaedia Britannica, «Granada (Nicaragua)», https://www.britannica.com/place/Granada-Nicaragua (YALNIZ ÖNİZLEME okundu: metnin devamı abonelik duvarında, tam gövde OKUNAMADI, 17 Kasım 2026)",
-   "tanik": "Granada was founded in 1523 by Francisco Hernández de Córdoba"
+   "kaynak": "David L. Jickling, «Granada, Nicaragua», Encyclopedia of Latin American History and Culture (Gale/Scribner), https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/granada-nicaragua (tam gövde okundu, 17 Kasım 2026)",
+   "tanik": "Granada was founded in 1524 by Francisco Hernández de Córdoba."
   },
   "ark": null,
   "bit": null,
-  "sahip": [
-   {
-    "f": "1523-01-01",
-    "t": "1524-01-01",
-    "d": "ispanya",
-    "kesinlik": "yil",
-    "kaynak": "Encyclopaedia Britannica, «Granada (Nicaragua)», https://www.britannica.com/place/Granada-Nicaragua (YALNIZ ÖNİZLEME okundu: metnin devamı abonelik duvarında, tam gövde OKUNAMADI, 17 Kasım 2026)",
-    "ic_not": "TEK KAYNAK (Britannica; ikinci bağımsız akademik kaynak bu turda okunmadı). Kuruluştan atlas başlangıcına (1524-01-01, ispanya) kadar İspanya; atlas sahibiyle aynı → dikiş yok."
-   }
-  ],
+  "sahip": [],
   "olay": [
    {
-    "t": "1523-01-01",
-    "gun": "1523",
+    "t": "1524-01-01",
+    "gun": "1524",
     "k": "kurulus",
     "b": "Francisco Hernández de Córdoba Granada'yı kurar; şehir kısa sürede bölgenin iktisadî merkezi olur.",
     "kesinlik": "yil",
-    "kaynak": "Encyclopaedia Britannica, «Granada (Nicaragua)», https://www.britannica.com/place/Granada-Nicaragua (YALNIZ ÖNİZLEME okundu: metnin devamı abonelik duvarında, tam gövde OKUNAMADI, 17 Kasım 2026) · Encyclopaedia Britannica, «History of Nicaragua», https://www.britannica.com/place/history-of-Nicaragua (tam gövde okundu, 17 Kasım 2026)",
-    "tanik": "Granada was founded in 1523 by Francisco Hernández de Córdoba"
+    "kaynak": "David L. Jickling, «Granada, Nicaragua», Encyclopedia of Latin American History and Culture (Gale/Scribner), https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/granada-nicaragua (tam gövde okundu, 17 Kasım 2026) · Encyclopaedia Britannica, «History of Nicaragua», https://www.britannica.com/place/history-of-Nicaragua (tam gövde okundu, 17 Kasım 2026)",
+    "tanik": "Granada was founded in 1524 by Francisco Hernández de Córdoba.",
+    "ic_not": "Eski değer 1523 (Britannica şehir önizlemesi); hakemli karar ilk.ic_not'ta. Sahip zinciri boşaldı: kuruluş = atlas başlangıcı (1524-01-01, ispanya)."
    },
    {
     "t": "1821-01-01",
@@ -666,7 +702,7 @@ window.SEHIR_TARIHCE_KARAYIP_3 = [
    "kesinlik": "yil",
    "kaynak": "Encyclopaedia Britannica, «León (Nicaragua)», https://www.britannica.com/place/Leon-Nicaragua (tam gövde okundu, 17 Kasım 2026) · UNESCO World Heritage Centre, «Ruins of León Viejo» (list no. 613), https://whc.unesco.org/en/list/613/ (tam gövde okundu, 17 Kasım 2026)",
    "tanik": "after an earthquake it was moved in 1610 to the site of the old Indian capital",
-   "ic_not": "ÇİFT KAYNAK: Britannica (taşınma 1610) + UNESCO 613 (eski León 1524'te kuruldu, 1610'da kayboldu). Eski yer León Viejo Managua gölünün batı ucunda (Puerto Momotombo; mesafe ölçülmedi, ≈30 km) → 3 km kuralı: modern nokta 1610'dan; León Viejo ayrı kayıt önerisi."
+   "ic_not": "ÇİFT KAYNAK: Britannica (taşınma 1610) + UNESCO 613 (eski León 1524'te kuruldu, 1610'da kayboldu). Eski yer León Viejo Managua gölünün batı ucunda (Puerto Momotombo; mesafe ölçülmedi, ≈30 km) → 3 km kuralı: modern nokta 1610'dan; León Viejo ayrı kayıt önerisi. 3. KAYNAK (17 Kasım 2026): David L. Jickling, «León», ELAHC, https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/leon: 'León was first established on the western shores of Lake Managua in 1524. It was moved a few miles to the west to its present site in 1610 as the result of an eruption of nearby Momotombo volcano.' → 1610 üç kaynakta, çelişki yok (sebep: Britannica deprem, ELAHC Momotombo püskürmesi — beyan). | KALITE KONTROL 4'TE-1 ORNEK (UMIT 17 Kasim 1116, EMRELIC kurali): cumlede sehir adi yok, ozne zamir 'it' (madde konusu sehir, Britannica maddesi sehir hakkinda): KABUL, kesinlik kalir."
   },
   "kur": {
    "t": "1610-01-01",
@@ -787,9 +823,9 @@ window.SEHIR_TARIHCE_KARAYIP_3 = [
    "gun": "1693",
    "nicelik": "kurulus",
    "kesinlik": "yil",
-   "kaynak": "Encyclopaedia Britannica, «Matanzas», https://www.britannica.com/place/Matanzas-Cuba (YALNIZ ÖNİZLEME okundu: metnin devamı abonelik duvarında, tam gövde OKUNAMADI, 17 Kasım 2026)",
+   "kaynak": "Encyclopaedia Britannica, «Matanzas», https://www.britannica.com/place/Matanzas-Cuba (YALNIZ ÖNİZLEME okundu: metnin devamı abonelik duvarında, tam gövde OKUNAMADI, 17 Kasım 2026) · «Matanzas (City, Cuba)», The Columbia Encyclopedia, 6th ed., https://www.encyclopedia.com/places/latin-america-and-caribbean/cuban-political-geography/matanzas (tam gövde okundu, 17 Kasım 2026)",
    "tanik": "It was founded in 1693, although its excellent bay had been known",
-   "ic_not": "TEK KAYNAK (Britannica; ikinci bağımsız akademik kaynak bu turda okunmadı). Britannica maddesinin yalnız önizlemesi okunabildi. Özne 'It' = madde konusu Matanzas (önceki cümle 'Matanzas, city...')."
+   "ic_not": "ÇİFT KAYNAK (17 Kasım 2026): Britannica (yalnız önizleme) + 2. KAYNAK: «Matanzas (City, Cuba)», The Columbia Encyclopedia, 6th ed. (Columbia University Press; genel başvuru eseri, akademik hakemli değil), https://www.encyclopedia.com/places/latin-america-and-caribbean/cuban-political-geography/matanzas: 'Founded in 1693, it was once a pirate haven but by the early 19th cent. had become Cuba's second city, mainly because of the growth of the sugar industry.' → yıl 1693 aynı, çelişki yok (özne 'it' = madde konusu Matanzas şehri). Britannica tam gövdesi yine OKUNAMADI; akademik hakemli kaynak bulunamadı. Özne 'It' = madde konusu Matanzas (önceki cümle 'Matanzas, city...')."
   },
   "kur": {
    "t": "1693-01-01",
@@ -853,7 +889,7 @@ window.SEHIR_TARIHCE_KARAYIP_3 = [
    "kesinlik": "belirsiz",
    "kaynak": "Encyclopaedia Britannica, «Quetzaltenango», https://www.britannica.com/place/Quetzaltenango (tam gövde okundu, 17 Kasım 2026)",
    "tanik": "In 1524 Spanish conquistadors, led by Pedro de Alvarado",
-   "ic_not": "TEK KAYNAK (Britannica; ikinci bağımsız akademik kaynak bu turda okunmadı). ZAYIF TANIK: 1524 cümlesinin öznesi şehir değil (K’iche’ye karşı sefer); 'Quetzaltenango' adı sonraki cümlede ('Following the victory, Alvarado adopted the name Quetzaltenango'), yıl o cümlede yok → kesinlik 'belirsiz'. Kaynak vadinin MÖ ~200'den beri yerleşik olduğunu ve K’iche’nin 14. yy'da 'the area'yı aldığını söyler: şehir değil alan → başlangıç sayılmadı."
+   "ic_not": "2. KAYNAK (17 Kasım 2026): Jorge H. González, «Quetzaltenango», ELAHC (Gale/Scribner), https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/quetzaltenango: 'It is near the site of the battle in which the Spanish army under Pedro de Alvarado defeated the legendary Tecúnumán and his Quiché warriors in 1524.' — 1524 ÇİFT TEYİTLİ ama bu cümlede de özne zamir ('It') ve olay savaştır; önceki cümle 'In pre-Columbian times, Quetzaltenango was an important Maya-K'iche' center, known as Xelajú' yıl vermez → özne=şehir + yıl cümlesi BULUNAMADI, tanık ve 'belirsiz' DEĞİŞMEDİ. ELAHC ayrıca 'Quetzaltenango finally obtained the rank of city in 1825' (şehir unvanı, ilk anılış değil) ve Los Altos başkentliğini '(1838–1840)', Carrera'nın yeniden ilhakını '1840' verir → sahip[4] los-altos 1838–1840 ve sahip[5] guatemala 1840 ÇİFT TEYİTLİ (yıl). ESKİ NOT: TEK KAYNAK. ZAYIF TANIK: 1524 cümlesinin öznesi şehir değil (K’iche’ye karşı sefer); 'Quetzaltenango' adı sonraki cümlede ('Following the victory, Alvarado adopted the name Quetzaltenango'), yıl o cümlede yok → kesinlik 'belirsiz'. Kaynak vadinin MÖ ~200'den beri yerleşik olduğunu ve K’iche’nin 14. yy'da 'the area'yı aldığını söyler: şehir değil alan → başlangıç sayılmadı."
   },
   "kur": null,
   "ark": null,
@@ -1247,7 +1283,7 @@ window.SEHIR_TARIHCE_KARAYIP_3 = [
    "kesinlik": "yil",
    "kaynak": "Encyclopaedia Britannica, «Santiago de Cuba», https://www.britannica.com/place/Santiago-de-Cuba-Cuba (tam gövde okundu, 17 Kasım 2026)",
    "tanik": "it was moved a few miles to the present site in 1522",
-   "ic_not": "Bugünkü noktanın başlangıcı 1522 (taşınma). İlk kuruluş 1514 (Velázquez) birkaç mil ötede: 'a few miles' > 3 km sayıldı → VERI-YAPISI 3 km kuralı gereği modern nokta 1522'den başlar; 1514 olay olarak yazıldı. Zamir 'it' = madde konusu şehir (önceki cümlenin öznesi)."
+   "ic_not": "2. KAYNAK KISMİ (17 Kasım 2026): Linda K. Salvucci, «Santiago de Cuba», ELAHC, https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/santiago-de-cuba: 'Founded in 1514 by Diego de Velázquez, it quickly became an ecclesiastical and administrative center' — 1514 ilk kuruluşu teyit eder, 1522 taşınmasını ANMAZ → bugünkü noktanın 1522 başlangıcı yine TEK KAYNAK (Britannica). Bugünkü noktanın başlangıcı 1522 (taşınma). İlk kuruluş 1514 (Velázquez) birkaç mil ötede: 'a few miles' > 3 km sayıldı → VERI-YAPISI 3 km kuralı gereği modern nokta 1522'den başlar; 1514 olay olarak yazıldı. Zamir 'it' = madde konusu şehir (önceki cümlenin öznesi)."
   },
   "kur": {
    "t": "1522-01-01",
@@ -1364,7 +1400,7 @@ window.SEHIR_TARIHCE_KARAYIP_3 = [
    "kesinlik": "belirsiz",
    "kaynak": "Encyclopaedia Britannica, «Santiago de los Caballeros», https://www.britannica.com/place/Santiago-de-los-Caballeros (tam gövde okundu, 17 Kasım 2026)",
    "tanik": "After being destroyed by an earthquake in 1562, the city was rebuilt a few miles away",
-   "ic_not": "TEK KAYNAK (Britannica; ikinci bağımsız akademik kaynak bu turda okunmadı). Bugünkü yer 1562 depreminden SONRA birkaç mil ötede yeniden kuruldu; yeniden kuruluş yılı kaynakta YOK → 1562 alt sınırdır, güvenli uç bilinmiyor, kesinlik 'belirsiz'. İlk yer (1494/1495) bugün şehrin San Francisco de Jacagua semtindeki harabeler; 'a few miles' > 3 km sayıldı → 3 km kuralı: modern nokta 1562 sonrası başlar."
+   "ic_not": "TEK KAYNAK (bugünkü yer için). 2. KAYNAK ARANDI (17 Kasım 2026): Larman C. Wilson, «Santiago de los Caballeros», ELAHC, https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/santiago-de-los-caballeros: 'The city gets its name from the thirty Spanish gentlemen who settled there in 1504' — 1504 (ad kökeni) verir, ne 1494/95 kuruluşunu ne 1562 sonrası yeniden kuruluş yılını verir → 'belirsiz' tanık DEĞİŞMEDİ (1504 ile Britannica 1494/95 farkı beyan). Bugünkü yer 1562 depreminden SONRA birkaç mil ötede yeniden kuruldu; yeniden kuruluş yılı kaynakta YOK → 1562 alt sınırdır, güvenli uç bilinmiyor, kesinlik 'belirsiz'. İlk yer (1494/1495) bugün şehrin San Francisco de Jacagua semtindeki harabeler; 'a few miles' > 3 km sayıldı → 3 km kuralı: modern nokta 1562 sonrası başlar."
   },
   "kur": null,
   "ark": null,
@@ -1461,11 +1497,43 @@ window.SEHIR_TARIHCE_KARAYIP_3 = [
   "sahip": [
    {
     "f": "1634-01-01",
+    "t": "1800-01-01",
+    "d": "hollanda",
+    "kesinlik": "yil",
+    "kaynak": "UNESCO World Heritage Centre, «Historic Area of Willemstad, Inner City and Harbour, Curaçao» (list no. 819), https://whc.unesco.org/en/list/819/ (tam gövde okundu, 17 Kasım 2026) · Encyclopaedia Britannica, «Curaçao», https://www.britannica.com/place/Curacao (tam gövde okundu, 17 Kasım 2026) · Paul Grifhorst, «Curaçao», Encyclopedia of World Cultures (Gale), https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/curacao (tam gövde okundu, 17 Kasım 2026)",
+    "ic_not": "Hollanda (Batı Hindistan Şirketi) 1634'ten; Grifhorst 'In 1634 the Dutch conquered Curaçao after defeating the Spaniards' (3. kaynak, yıl aynı). ESKİ: tek dönem hollanda 1634→1900 ('kısa İngiliz işgali' başlangıcı okunan kaynakta yoktu → dönem açılmamıştı). 17 Kasım 2026: İngiliz işgal yılları iki bağımsız kaynakla açıldı (bkz. sahip[1], sahip[3])."
+   },
+   {
+    "f": "1800-01-01",
+    "t": "1803-01-01",
+    "d": "ingiltere",
+    "kesinlik": "yil",
+    "kaynak": "Wim Rutgers, «Schrijven is zilver, spreken is goud» (proefschrift, 1994), Hoofdstuk III, s. 67, DBNL, https://www.dbnl.org/tekst/rutg014schr01_01/rutg014schr01_01_0007.php (tam gövde okundu, 17 Kasım 2026) · Centraal Bureau voor de Statistiek Curaçao, «General facts of Curaçao», https://www.cbs.cw/general-facts-of-curacao (tam gövde okundu, 17 Kasım 2026)",
+    "ic_not": "2. KAYNAK + 3. KAYNAK (17 Kasım 2026): Rutgers 1994 (doktora tezi, s. 67): 'Van 1800-1803 en 1807-1816 zouden de Engelsen de scepter op het eiland zwaaien.' + CBS Curaçao (resmî istatistik kurumu, akademik değil): '1800-1803 First British occupation'. Yıl hassasiyeti; günler (13 Eylül 1800 → 13 Ocak 1803) yalnız akademik olmayan kaynaklarda (worldstatesmen, DBNL'deki 20. yy başı makaleler arama özetinde) görüldü → yazılmadı. Britannica yalnız 'brief British occupation' der (yıl yok) → çelişki yok. Künye: 1795–1806 Batavya Cumhuriyeti ayrı künye değil, 'hollanda' kullanıldı (eski kaydın seçimi, beyan)."
+   },
+   {
+    "f": "1803-01-01",
+    "t": "1807-01-01",
+    "d": "hollanda",
+    "kesinlik": "yil",
+    "kaynak": "Wim Rutgers, «Schrijven is zilver, spreken is goud» (proefschrift, 1994), s. 67, DBNL, https://www.dbnl.org/tekst/rutg014schr01_01/rutg014schr01_01_0007.php (tam gövde okundu, 17 Kasım 2026) · Centraal Bureau voor de Statistiek Curaçao, «General facts of Curaçao», https://www.cbs.cw/general-facts-of-curacao (tam gövde okundu, 17 Kasım 2026)",
+    "ic_not": "İki İngiliz işgali arası Hollanda (Batavya) yönetimi; yıl uçları Rutgers + CBS."
+   },
+   {
+    "f": "1807-01-01",
+    "t": "1816-01-01",
+    "d": "ingiltere",
+    "kesinlik": "yil",
+    "kaynak": "Wim Rutgers, «Schrijven is zilver, spreken is goud» (proefschrift, 1994), s. 67, DBNL, https://www.dbnl.org/tekst/rutg014schr01_01/rutg014schr01_01_0007.php (tam gövde okundu, 17 Kasım 2026) · Centraal Bureau voor de Statistiek Curaçao, «General facts of Curaçao», https://www.cbs.cw/general-facts-of-curacao (tam gövde okundu, 17 Kasım 2026) · Encyclopaedia Britannica, «Curaçao», https://www.britannica.com/place/Curacao (tam gövde okundu, 17 Kasım 2026)",
+    "ic_not": "HAKEMLİ KARAR (bitiş): Britannica 'the island returned to Dutch control in 1815' ↔ Rutgers 1994 '1807-1816' + CBS '1807-1816 Second British occupation' (bağımsız iki kaynak) → 1816 SEÇİLDİ (1815 büyük olasılıkla Paris/Viyana antlaşma yılı, 1816 fiilî teslim; beyan). Başlangıç 1807 iki kaynakta; 1 Ocak 1807 günü yalnız akademik olmayan kaynaklarda (arama özeti) → yıl (f zaten 1807-01-01). Teslim günü (27 Ocak / 4 Mart 1816 çelişkili, akademik değil) yazılmadı."
+   },
+   {
+    "f": "1816-01-01",
     "t": "1900-01-01",
     "d": "hollanda",
     "kesinlik": "yil",
-    "kaynak": "UNESCO World Heritage Centre, «Historic Area of Willemstad, Inner City and Harbour, Curaçao» (list no. 819), https://whc.unesco.org/en/list/819/ (tam gövde okundu, 17 Kasım 2026) · Encyclopaedia Britannica, «Curaçao», https://www.britannica.com/place/Curacao (tam gövde okundu, 17 Kasım 2026)",
-    "ic_not": "Hollanda (Batı Hindistan Şirketi) 1634'ten. Napolyon Savaşları'ndaki 'kısa İngiliz işgali' (Britannica Curaçao) başlangıç yılı okunan kaynakta YOK, yalnız 1815 dönüşü var → süresi bilinmeyen kısa ele geçirme kuralı: dönem AÇILMADI, 1815 olayı yazıldı. Atlasta 3 km içinde nokta yok → zincir 1900-01-01'e kadar."
+    "kaynak": "Wim Rutgers, «Schrijven is zilver, spreken is goud» (proefschrift, 1994), s. 67, DBNL, https://www.dbnl.org/tekst/rutg014schr01_01/rutg014schr01_01_0007.php (tam gövde okundu, 17 Kasım 2026) · Centraal Bureau voor de Statistiek Curaçao, «General facts of Curaçao», https://www.cbs.cw/general-facts-of-curacao (tam gövde okundu, 17 Kasım 2026) · Encyclopaedia Britannica, «Curaçao», https://www.britannica.com/place/Curacao (tam gövde okundu, 17 Kasım 2026)",
+    "ic_not": "Hollanda'ya dönüş 1816 (hakemli karar sahip[3]'te). Atlasta 3 km içinde nokta yok → zincir 1900-01-01'e kadar."
    }
   ],
   "olay": [
@@ -1497,14 +1565,52 @@ window.SEHIR_TARIHCE_KARAYIP_3 = [
     "tanik": "the Dutch Reformed Church (1769)"
    },
    {
+    "t": "1800-01-01",
+    "gun": "1800",
+    "k": "fetih",
+    "b": "Fransız çıkarma girişiminin ardından ada İngiliz işgaline girer (birinci İngiliz işgali, 1800–1803).",
+    "kesinlik": "yil",
+    "kaynak": "Wim Rutgers, «Schrijven is zilver, spreken is goud» (proefschrift, 1994), s. 67, DBNL, https://www.dbnl.org/tekst/rutg014schr01_01/rutg014schr01_01_0007.php (tam gövde okundu, 17 Kasım 2026) · Centraal Bureau voor de Statistiek Curaçao, «General facts of Curaçao», https://www.cbs.cw/general-facts-of-curacao (tam gövde okundu, 17 Kasım 2026)",
+    "tanik": "Van 1800-1803 en 1807-1816 zouden de Engelsen de scepter op het eiland zwaaien.",
+    "ic_not": "Rutgers: 'rond 1800 werd het door een Franse invasie tot internationaal strijdtoneel.'"
+   },
+   {
+    "t": "1803-01-01",
+    "gun": "1803",
+    "k": "antlasma",
+    "b": "Amiens barışının ardından ada Hollanda (Batavya) yönetimine döner.",
+    "kesinlik": "yil",
+    "kaynak": "Wim Rutgers, «Schrijven is zilver, spreken is goud» (proefschrift, 1994), s. 67, DBNL, https://www.dbnl.org/tekst/rutg014schr01_01/rutg014schr01_01_0007.php (tam gövde okundu, 17 Kasım 2026) · Centraal Bureau voor de Statistiek Curaçao, «General facts of Curaçao», https://www.cbs.cw/general-facts-of-curacao (tam gövde okundu, 17 Kasım 2026)",
+    "tanik": "Van 1800-1803 en 1807-1816 zouden de Engelsen de scepter op het eiland zwaaien.",
+    "ic_not": "Amiens bağlantısı kaynak cümlesinde yok (bağlam, beyan)."
+   },
+   {
+    "t": "1807-01-01",
+    "gun": "1807",
+    "k": "fetih",
+    "b": "İngilizler adayı yeniden ele geçirir (ikinci İngiliz işgali, 1807–1816).",
+    "kesinlik": "yil",
+    "kaynak": "Wim Rutgers, «Schrijven is zilver, spreken is goud» (proefschrift, 1994), s. 67, DBNL, https://www.dbnl.org/tekst/rutg014schr01_01/rutg014schr01_01_0007.php (tam gövde okundu, 17 Kasım 2026) · Centraal Bureau voor de Statistiek Curaçao, «General facts of Curaçao», https://www.cbs.cw/general-facts-of-curacao (tam gövde okundu, 17 Kasım 2026)",
+    "tanik": "Van 1800-1803 en 1807-1816 zouden de Engelsen de scepter op het eiland zwaaien."
+   },
+   {
     "t": "1815-01-01",
     "gun": "1815",
-    "k": "kazanc",
-    "b": "Napolyon Savaşları'ndaki kısa İngiliz işgalinden sonra ada Hollanda'ya döner.",
+    "k": "antlasma",
+    "b": "Britannica'ya göre Napolyon Savaşları'ndaki kısa İngiliz işgalinden sonra ada Hollanda denetimine döner (antlaşma yılı).",
     "kesinlik": "yil",
     "kaynak": "Encyclopaedia Britannica, «Curaçao», https://www.britannica.com/place/Curacao (tam gövde okundu, 17 Kasım 2026)",
     "tanik": "the island returned to Dutch control in 1815",
-    "ic_not": "İşgalin başlangıcı kaynakta yok; dönem açılmadı (beyan)."
+    "ic_not": "ESKİ k 'kazanc'. Fiilî teslim 1816 (Rutgers + CBS; hakemli karar sahip[3]'te) → sahiplik kırılması bu olayda değil 1816'da."
+   },
+   {
+    "t": "1816-01-01",
+    "gun": "1816",
+    "k": "kazanc",
+    "b": "İkinci İngiliz işgali sona erer; ada Hollanda'ya teslim edilir.",
+    "kesinlik": "yil",
+    "kaynak": "Wim Rutgers, «Schrijven is zilver, spreken is goud» (proefschrift, 1994), s. 67, DBNL, https://www.dbnl.org/tekst/rutg014schr01_01/rutg014schr01_01_0007.php (tam gövde okundu, 17 Kasım 2026) · Centraal Bureau voor de Statistiek Curaçao, «General facts of Curaçao», https://www.cbs.cw/general-facts-of-curacao (tam gövde okundu, 17 Kasım 2026)",
+    "tanik": "Van 1800-1803 en 1807-1816 zouden de Engelsen de scepter op het eiland zwaaien."
    },
    {
     "t": "1817-01-01",
@@ -1562,6 +1668,6 @@ window.SEHIR_TARIHCE_KARAYIP_3 = [
     "tanik": "Curaçao became a constituent country within the Kingdom of the Netherlands on October 10, 2010"
    }
   ],
-  "ic_not": "ATLAS EKSİĞİ: Willemstad'ın 3 km içinde atlas noktası yok → nokta eklenmeli (1634'ten zincir hazır). İngiliz işgali yılları ikinci kaynakla açılmalı."
+  "ic_not": "ATLAS EKSİĞİ: Willemstad'ın 3 km içinde atlas noktası yok → nokta eklenmeli (1634'ten zincir hazır). İngiliz işgali yılları 17 Kasım 2026'da açıldı (1800–1803, 1807–1816; Rutgers 1994 + CBS Curaçao); günler akademik kaynakta bulunamadı."
  }
 ];
