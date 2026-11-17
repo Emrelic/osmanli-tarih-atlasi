@@ -1,23 +1,23 @@
 blok	ad_modern	ad_1900	modern_ulke	lat	lon	giris	kat	not_
-orta-asya-mogolistan	Bulgan		Moğolistan	48.8125	103.53472	modern-merkez	2	modern birinci kademe (eyalet/il/bölge) merkezi: GeoNames Administrative Division sayfası + arama sa
-orta-asya-mogolistan	Choybalsan		Moğolistan	48.07257	114.53264	modern-merkez	2	modern birinci kademe (eyalet/il/bölge) merkezi: GeoNames Administrative Division sayfası + arama sa
-orta-asya-mogolistan	Choyr		Moğolistan	46.36111	108.36111	modern-merkez	2	modern birinci kademe (eyalet/il/bölge) merkezi: GeoNames Administrative Division sayfası + arama sa
-orta-asya-mogolistan	Dalandzadgad		Moğolistan	43.57083	104.425	modern-merkez	2	modern birinci kademe (eyalet/il/bölge) merkezi: GeoNames Administrative Division sayfası + arama sa
-orta-asya-mogolistan	Darhan		Moğolistan	49.48667	105.92278	modern-merkez	2	modern birinci kademe (eyalet/il/bölge) merkezi: GeoNames Administrative Division sayfası + arama sa
-orta-asya-mogolistan	Daşoguz		Türkmenistan	41.83625	59.96661	modern-merkez	2	modern birinci kademe (eyalet/il/bölge) merkezi: GeoNames Administrative Division sayfası + arama sa
-orta-asya-mogolistan	Dushanbe		Tacikistan	38.53575	68.77905	modern-merkez	2	modern birinci kademe (eyalet/il/bölge) merkezi: GeoNames Administrative Division sayfası + arama sa
-orta-asya-mogolistan	Dzuunmod		Moğolistan	47.70694	106.95278	modern-merkez	2	modern birinci kademe (eyalet/il/bölge) merkezi: GeoNames Administrative Division sayfası + arama sa
-orta-asya-mogolistan	Erdenet		Moğolistan	49.03333	104.08333	modern-merkez	2	modern birinci kademe (eyalet/il/bölge) merkezi: GeoNames Administrative Division sayfası + arama sa
-orta-asya-mogolistan	Guliston		Özbekistan	40.49536	68.77542	modern-merkez	2	modern birinci kademe (eyalet/il/bölge) merkezi: GeoNames Administrative Division sayfası + arama sa
-orta-asya-mogolistan	Jalal-Abad		Kırgızistan	40.94498	72.99313	modern-merkez	2	modern birinci kademe (eyalet/il/bölge) merkezi: GeoNames Administrative Division sayfası + arama sa
-orta-asya-mogolistan	Karagandy		Kazakistan	49.80187	73.10211	modern-merkez	2	modern birinci kademe (eyalet/il/bölge) merkezi: GeoNames Administrative Division sayfası + arama sa
-orta-asya-mogolistan	Khorugh		Tacikistan	37.49039	71.55337	modern-merkez	2	modern birinci kademe (eyalet/il/bölge) merkezi: GeoNames Administrative Division sayfası + arama sa
-orta-asya-mogolistan	Mandalgovĭ		Moğolistan	45.7625	106.27083	modern-merkez	2	modern birinci kademe (eyalet/il/bölge) merkezi: GeoNames Administrative Division sayfası + arama sa
-orta-asya-mogolistan	Mörön		Moğolistan	49.63417	100.1625	modern-merkez	2	modern birinci kademe (eyalet/il/bölge) merkezi: GeoNames Administrative Division sayfası + arama sa
-orta-asya-mogolistan	Naryn		Kırgızistan	41.4283	75.9957	modern-merkez	2	modern birinci kademe (eyalet/il/bölge) merkezi: GeoNames Administrative Division sayfası + arama sa
-orta-asya-mogolistan	Navoiy		Özbekistan	40.08444	65.37917	modern-merkez	2	modern birinci kademe (eyalet/il/bölge) merkezi: GeoNames Administrative Division sayfası + arama sa
-orta-asya-mogolistan	Nukus		Özbekistan	42.45861	59.60576	modern-merkez	2	modern birinci kademe (eyalet/il/bölge) merkezi: GeoNames Administrative Division sayfası + arama sa
-orta-asya-mogolistan	Qarshi		Özbekistan	38.86056	65.78905	modern-merkez	2	modern birinci kademe (eyalet/il/bölge) merkezi: GeoNames Administrative Division sayfası + arama sa
-orta-asya-mogolistan	Qŭrghonteppa		Tacikistan	37.83654	68.77762	modern-merkez	2	modern birinci kademe (eyalet/il/bölge) merkezi: GeoNames Administrative Division sayfası + arama sa
-orta-asya-mogolistan	Saynshand		Moğolistan	44.88239	110.11631	modern-merkez	2	modern birinci kademe (eyalet/il/bölge) merkezi: GeoNames Administrative Division sayfası + arama sa
-orta-asya-mogolistan	Sühbaatar		Moğolistan	46.68056	113.27917	modern-merkez	2	modern birinci kademe (eyalet/il/bölge) merkezi: GeoNames Administrative Division sayfası + arama sa
+hint	Washim	Basim	Hindistan	20.1113	77.1330	1900-liste	3	
+hint	Yavatmal	Yeotmal	Hindistan	20.3932	78.1320	1900-liste	3	
+hint	Zhob	Fort Sandeman	Pakistan	31.3408	69.4493	1900-liste	3	1900 Baluchistan district sayısı iskelette bulunamadı; liste genel bilgi
+orta-asya-mogolistan	Atyrau	Gurev	Kazakistan	47.1048	51.8843	1900-liste	3	kiril: Гурьев
+orta-asya-mogolistan	Bishkek	Pishpek	Kırgızistan	42.8700	74.5900	1900-liste	3	kiril: Пишпек
+orta-asya-mogolistan	Fort-Shevchenko	Aleksandrovskiy fort	Kazakistan	44.5065	50.2639	1900-liste	3	merkez adı birim adından farklı; kiril: Александровский форт
+orta-asya-mogolistan	Jizzakh	Dzhizak	Özbekistan	40.1335	67.8296	1900-liste	3	kiril: Джизак
+orta-asya-mogolistan	Karakol	Przhevalsk	Kırgızistan	42.4905	78.3920	1900-liste	3	kiril: Пржевальск
+orta-asya-mogolistan	Kattakurgan	Katta-Kurgan	Özbekistan	39.9055	66.2656	1900-liste	3	kiril: Катта-Курган
+orta-asya-mogolistan	Kazaly	Kazalinsk	Kazakistan	45.7626	62.1033	1900-liste	3	"Demoscope yazımı ""г. Казалинский""; kiril: Казалинский"
+orta-asya-mogolistan	Kokshetau	Kokchetav	Kazakistan	53.2841	69.3936	1900-liste	3	kiril: Кокчетав
+orta-asya-mogolistan	Kostanay	Kustanay	Kazakistan	53.2144	63.6246	1900-liste	3	kiril: Кустанай
+orta-asya-mogolistan	Kyzylorda	Perovsk	Kazakistan	44.8528	65.5092	1900-liste	3	kiril: Перовск
+orta-asya-mogolistan	Namangan	Namangan	Özbekistan	40.9983	71.6726	1900-liste	3	birimdeki öteki şehirler: Чуст; kiril: Наманган
+orta-asya-mogolistan	Osh	Osh	Kırgızistan	40.5283	72.7985	1900-liste	3	kiril: Ош
+orta-asya-mogolistan	Oskemen	Ust-Kamenogorsk	Kazakistan	49.9714	82.6059	1900-liste	3	kiril: Усть-Каменогорск
+orta-asya-mogolistan	Pavlodar	Pavlodar	Kazakistan	52.2760	76.9688	1900-liste	3	kiril: Павлодар
+orta-asya-mogolistan	Petropavl	Petropavlovsk	Kazakistan	54.8734	69.1506	1900-liste	3	kiril: Петропавловск
+orta-asya-mogolistan	Taraz	Aulie-Ata	Kazakistan	42.8980	71.3733	1900-liste	3	kiril: Аулие-Ата
+orta-asya-mogolistan	Tejen	Tedzhen	Türkmenistan	37.3834	60.5055	1900-liste	3	birimdeki öteki şehirler: Серахс, Каахк; kiril: Теджен
+orta-asya-mogolistan	Temir	Temir	Kazakistan	49.1428	57.1274	1900-liste	3	kiril: Темир
+orta-asya-mogolistan	Torgay	Turgay	Kazakistan	49.6307	63.4903	1900-liste	3	kiril: Тургай
