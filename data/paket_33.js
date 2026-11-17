@@ -1007,7 +1007,7 @@ window.OLAY_TARAF = {
  "0966-01-01|Mieszko I Hristiyanlığı kabul etti; Polonya devletinin başlangıcı": ["polonya-erken"],
  "0967-01-01|Muizzüddevle öldü; Irak'ta oğlu Bahtiyâr'ın dönemi başladı": ["buveyhi"],
  "0969-01-01|Mekke’de Fâtımîler adına hutbe okundu (358/969)": ["mekke-serifligi","fatimi"],
- "0969-07-01|Fâtımîler Mısır'ı aldı: Cevher es-Sıkıllî Fustat'a girdi, Kahire'nin temeli atıldı": ["fatimi","ihsidi"],
+ "0969-07-06|Fâtımîler Mısır'ı aldı: Cevher es-Sıkıllî Fustat'a girdi, Kahire'nin temeli atıldı": ["fatimi","ihsidi"],
  "0969-10-28|Antakya Bizans’ın eline geçti": ["bizans","hamdani-halep"],
  "0969-11-14|Şam'da Muiz adına hutbe okundu; Cevher'in kumandanı Ca'fer b. Felâh Suriye'yi aldı": ["fatimi"],
  "0969-12-10|Nikephoros Phokas öldürüldü; Ioannes Tzimiskes imparator oldu": ["bizans"],

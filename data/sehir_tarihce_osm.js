@@ -1,5 +1,5 @@
-// ŞEHİR TARİHÇESİ — OSM · üretici: arac/sehir_tarihce.py · şema: VERI-YAPISI.md
-// Motor/denetle/site OKUMAZ — araştırma birikimi. Elle düzenleme: JSON'u düzelt, yeniden üret.
+// ŞEHİR TARİHÇESİ — OSM · üretici: arac/sehir_tarihce.py · şema: VERI-YAPISI.md
+// Motor/denetle/site OKUMAZ — araştırma birikimi. Elle düzenleme: JSON'u düzelt, yeniden üret.
 window.SEHIR_TARIHCE_OSM = [
  {
   "id": "abha",
@@ -5878,16 +5878,16 @@ window.SEHIR_TARIHCE_OSM = [
    "Cairo"
   ],
   "ilk": {
-   "t": "0969-07-03",
-   "gun": "3 Temmuz 969 (Şâban 358)",
+   "t": "0969-07-06",
+   "gun": "6 Temmuz 969 (17 Şâban 358, Jülyen)",
    "nicelik": "kurulus",
    "kesinlik": "gun",
    "kaynak": "TDV CEVHER es-SIKILLÎ; TDV KAHİRE ('Şâban 358’de (Temmuz 969) Fustat’a girdi ... saray ve sur inşaatı başlattı')",
    "tanik": "Aynı gün Cevher Fustat’a girdi ... ve Kahire şehrinin temellerini attı"
   },
   "kur": {
-   "t": "0969-07-03",
-   "gun": "3 Temmuz 969 (Şâban 358)",
+   "t": "0969-07-06",
+   "gun": "6 Temmuz 969 (17 Şâban 358, Jülyen)",
    "kesinlik": "gun",
    "kaynak": "TDV CEVHER es-SIKILLÎ; TDV KAHİRE",
    "tanik": "Aynı gün Cevher Fustat’a girdi ... ve Kahire şehrinin temellerini attı"
@@ -5896,7 +5896,7 @@ window.SEHIR_TARIHCE_OSM = [
   "bit": null,
   "sahip": [
    {
-    "f": "0969-07-03",
+    "f": "0969-07-06",
     "t": "1171-09-13",
     "d": "fatimi",
     "kesinlik": "gun",
@@ -5904,14 +5904,14 @@ window.SEHIR_TARIHCE_OSM = [
    },
    {
     "f": "1171-09-13",
-    "t": "1250-05-02",
+    "t": "1250-04-30",
     "d": "eyyubi",
     "kesinlik": "gun",
     "kaynak": "TDV EYYÛBÎLER (13 Eylül 1171); TDV MEMLÜKLER ('Turan Şah’ı öldürdüler. Onun ölümüyle Mısır’da Eyyûbîler yıkılmış')",
-    "ic_not": "t: Turan Şah'ın öldürülme günü TDV'de yok (Faraskur 7 Nisan 1250 sonrası, Aybek'in tahtı 3 Temmuz 1250 öncesi); 2 Mayıs 1250 genel kronoloji (ayrıca doğrulanmadı)."
+    "ic_not": "t: Turan Şah'ın öldürülme günü TDV'de yok (Faraskur 7 Nisan 1250 sonrası, Aybek'in tahtı 3 Temmuz 1250 öncesi); 2 Mayıs 1250 genel kronoloji (ayrıca doğrulanmadı). || HAKEM13 (LAB, 17 Kasım 2026): TDV değeri 30 Nisan 1250 KALIR; 2 Mayıs 1250 ikinci aday. Turan Şah'ın öldürülmesi: TDV Eyyûbîler 30 Nisan 1250, TDV Şecerüddür 30 Muharrem 648/4 Mayıs 1250 (iç çelişki), Britannica 30 Nisan, Cambridge History of Egypt I (1998) 27 Muharrem 648/1 Mayıs; Runciman (A History of the Crusades III, 1954, s.272: '2 May') ve Setton (ed.), A History of the Crusades II (1969, ch. XX: 'Monday, May 2'; dipnot Makrîzî Sulûk I,345, İbn Vâsıl, Ebü'l-Mehâsin Nücûm VI) bağımsız iki akademik kaynak olarak 2 Mayıs 1250 (Jülyen Pazartesi, ~28 Muharrem 648) verir; hicrî→mîlâdî tablo çevirisi (sivil epoch: 1 Muharrem 648 = 5 Nisan 1250 Jülyen) ve Joinville zinciri (Dimyat teslimi 6 Mayıs) uyumlu. Karar: 1250-05-02. TDV'nin iki değeri ve Britannica'nın 30 Nisan'ı reddedilir; Makrîzî Sulûk, Humphreys, Irwin okunmadı."
    },
    {
-    "f": "1250-05-02",
+    "f": "1250-04-30",
     "t": "1252-01-01",
     "d": "memluk",
     "kesinlik": {
@@ -5924,8 +5924,8 @@ window.SEHIR_TARIHCE_OSM = [
   ],
   "olay": [
    {
-    "t": "0969-07-03",
-    "gun": "3 Temmuz 969",
+    "t": "0969-07-06",
+    "gun": "6 Temmuz 969",
     "k": "kurulus",
     "b": "Cevher es-Sıkıllî Fustat'a girdi, Kahire'nin temellerini attı",
     "kaynak": "TDV CEVHER es-SIKILLÎ"
@@ -5966,11 +5966,11 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV MEMLÜKLER"
    },
    {
-    "t": "1250-05-02",
-    "gun": "2 Mayıs 1250",
+    "t": "1250-04-30",
+    "gun": "30 Nisan 1250 (TDV Eyyûbîler)",
     "k": "isyan",
     "b": "Bahrî emîrleri Turan Şah'ı öldürdü; Eyyûbîler Mısır'da yıkıldı",
-    "kaynak": "TDV MEMLÜKLER (olay); gün genel kronoloji (ayrıca doğrulanmadı)"
+    "kaynak": "TDV EYYÛBÎLER (30 Nisan 1250); TDV MEMLÜKLER (olay). İKİNCİ ADAY 2 Mayıs 1250 (Runciman 1954 s.272; Setton II 1969 ch.XX) — HAKEM13, TDV değeri kalır"
    },
    {
     "t": "1250-07-03",
@@ -5980,7 +5980,7 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV MEMLÜKLER"
    }
   ],
-  "ic_not": "Atlas noktası (30.047, 31.243) Fâtımî Kahire'sinin (Ezher ~30.046, 31.263) ~1,9 km batısında — 3 km içinde. Fustat (22/643, TDV KAHİRE; Amr Camii ~4,2 km), el-Asker (132/750) ve Katâi‘ (254/868) ile Babilon kalesi ayrı yerlerdir — ayrı kayıt önerilir (Fustat: Amr b. Âs, 22/643; Babilon kalesi Fustat'tan önce). Parti koordinatı (GeoNames) atlas noktasına 1.9 km."
+  "ic_not": "Atlas noktası (30.047, 31.243) Fâtımî Kahire'sinin (Ezher ~30.046, 31.263) ~1,9 km batısında — 3 km içinde. Fustat (22/643, TDV KAHİRE; Amr Camii ~4,2 km), el-Asker (132/750) ve Katâi‘ (254/868) ile Babilon kalesi ayrı yerlerdir — ayrı kayıt önerilir (Fustat: Amr b. Âs, 22/643; Babilon kalesi Fustat'tan önce). Parti koordinatı (GeoNames) atlas noktasına 1.9 km. || HAKEM13 (LAB, 17 Kasım 2026): Kahire 969: TDV Misir (17 Saban 358/6 Temmuz 969) ile Ibn Hallikan (de Slane 1843, 'Kaid Jawhar': Cevher Misr'i Sali gunu Saban 358'de ele gecirdi, ayni gun/gece yeni sehrin sinirlarini cizdi, ertesi sabah temeller kazilmis bulundu) uyumludur; Cambridge History of Egypt I (Petry 1998) yalnizca 'Temmuz' ve Cuma 9 Temmuz'daki ilk Fatimi hutbesini verir (farkli olgu); Lane-Poole (1902) kendi icinde celisik (5 Agustos / Temmuz). Karar: 0969-07-06 (Julyen; 17 Saban 358, Sali) fetih=Fustat'a giris, temel atilis ayni gece; 1 ve 3 Temmuz kaynaksiz. Makrizi/EI2/Raymond okunmadi; cift teyit yazilmaz; Ibn Hallikan OCR rakami goruntuyle dogrulanmadi."
  },
  {
   "id": "canakkale",
@@ -12342,7 +12342,15 @@ window.SEHIR_TARIHCE_OSM = [
    "Haraiva (bölge/satraplık)",
    "Alexandreia Areia / Alexandria Ariorum",
    "Harēw",
-   "Herât"
+   "Herât",
+   "Haraiva",
+   "Aria",
+   "Areia",
+   "Ariea",
+   "Harāt",
+   "Haraiva (Eski Farsça kitâbeler)",
+   "Aria / Areia (Avesta, Grekçe metinler)",
+   "Herat"
   ],
   "ilk": {
    "t": "-0329-01-01",
@@ -12491,18 +12499,18 @@ window.SEHIR_TARIHCE_OSM = [
   ],
   "olay": [
    {
-    "t": "-0329-01-01",
-    "gun": "MÖ 330",
-    "k": "kurulus",
-    "b": "Büyük İskender Areia'da Alexandreia'yı kurdu",
-    "kaynak": "Plinius NH 6.25; PECS (Pleiades 961874)"
-   },
-   {
     "t": "-0322-06-10",
     "gun": "10 Haziran MÖ 323",
     "k": "diger",
     "b": "Büyük İskender'in ölümü; Diadokh dönemi",
     "kaynak": "gün genel kronoloji (ayrıca doğrulanmadı) (künye iskender-imparatorlugu bitişi)"
+   },
+   {
+    "t": "-0329-01-01",
+    "gun": "MÖ 330",
+    "k": "kurulus",
+    "b": "Büyük İskender Areia'da Alexandreia'yı kurdu",
+    "kaynak": "Plinius NH 6.25; PECS (Pleiades 961874)"
    },
    {
     "t": "0652-01-01",
@@ -12582,6 +12590,14 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV HERAT; hicrî 384 ∩ 994"
    },
    {
+    "t": "0994-02-15",
+    "gun": "384 H (994)",
+    "k": "diger",
+    "b": "Herat'ta Türklerin (Gaznelilerin) hâkimiyet devri başladı",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Herat» md., https://islamansiklopedisi.org.tr/herat (16 Kasım 2026'da okundu; tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026)): «Türkler’in hâkimiyet devri başladı (384/994)»"
+   },
+   {
     "t": "1001-01-01",
     "gun": "391 (1001)",
     "k": "savas",
@@ -12610,6 +12626,14 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV HERAT ('ertesi yıl'); hicrî 429 ∩ 1038"
    },
    {
+    "t": "1040-01-01",
+    "gun": "431 H (1040)",
+    "k": "antlasma",
+    "b": "Dandanakan Savaşı'ndan sonra Herat Mûsâ Yabgu'ya verildi",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Herat» md., https://islamansiklopedisi.org.tr/herat (16 Kasım 2026'da okundu; tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026)): «Dandanakan Savaşı’ndan (431/1040) sonra»"
+   },
+   {
     "t": "1040-05-23",
     "gun": "23 Mayıs 1040",
     "k": "savas",
@@ -12631,6 +12655,14 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV HERAT; hicrî 552 ∩ 1157"
    },
    {
+    "t": "1157-02-13",
+    "gun": "552 H (1157)",
+    "k": "kayip",
+    "b": "Sencer'in ölümünden sonra Herat Oğuzlar'ın hâkimiyetine girdi",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Herat» md., https://islamansiklopedisi.org.tr/herat (16 Kasım 2026'da okundu; tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026)): «Sencer’in ölümünden (552/1157) sonra Oğuzlar’ın hâkimiyetine girdi»"
+   },
+   {
     "t": "1164-01-01",
     "gun": "559 (1164)",
     "k": "siyaset",
@@ -12643,9 +12675,110 @@ window.SEHIR_TARIHCE_OSM = [
     "k": "fetih",
     "b": "Gurlular Herat'ı aldı",
     "kaynak": "TDV HERAT (R. Uslu); hicrî 571 ∩ 1175 = 1175-07-22 (atlas günü 1175-01-01)"
+   },
+   {
+    "t": "1175-07-22",
+    "gun": "571 H (1175-76)",
+    "k": "fetih",
+    "b": "Herat Gurlular'ın eline geçti",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Herat» md., https://islamansiklopedisi.org.tr/herat (16 Kasım 2026'da okundu; tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026)): «Herat 571’de (1175-76) Gurlular’ın»"
+   },
+   {
+    "t": "1208-07-16",
+    "gun": "605 H (1208-1209)",
+    "k": "fetih",
+    "b": "Hârizmşahlar Herat'ı on üç aylık kuşatmadan sonra aldı",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Herat» md., https://islamansiklopedisi.org.tr/herat (16 Kasım 2026'da okundu; tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026)): «605’te (1208-1209) on üç aylık bir kuşatmadan sonra»"
+   },
+   {
+    "t": "1221-02-25",
+    "gun": "618 H (1221)",
+    "k": "fetih",
+    "b": "Herat Cengiz Han'ın oğlu Tuluy'un eline geçti",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Herat» md., https://islamansiklopedisi.org.tr/herat (16 Kasım 2026'da okundu; tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026)): «618’de de (1221) Cengiz Han’ın oğlu Tuluy’un eline geçti»"
+   },
+   {
+    "t": "1244-06-09",
+    "gun": "642 H (1244)",
+    "k": "diger",
+    "b": "Moğollar Gur asıllı Şemseddin Kert'i Herat hâkimi olarak tayin etti (Kertler)",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Herat» md., https://islamansiklopedisi.org.tr/herat (16 Kasım 2026'da okundu; tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026)): «642’de (1244) Gur asıllı Şemseddin Kert’i Herat hâkimi olarak tayin etmeleri»"
+   },
+   {
+    "t": "1381-04-01",
+    "gun": "Nisan 1381",
+    "k": "fetih",
+    "b": "Timur Herat'ı Kertler'den aldı (TDV: Muharrem 783 / Nisan 1381)",
+    "kesinlik": "ay",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Herat» md., https://islamansiklopedisi.org.tr/herat (16 Kasım 2026'da okundu; tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026)): «Muharrem 783 / Nisan 1381»"
+   },
+   {
+    "t": "1507-05-13",
+    "gun": "1507",
+    "k": "fetih",
+    "b": "Herat Özbekler'in eline geçti",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Herat» md., https://islamansiklopedisi.org.tr/herat (16 Kasım 2026'da okundu; tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026)): «Herat 913’te (1507) Özbekler»"
+   },
+   {
+    "t": "1510-04-10",
+    "gun": "1510",
+    "k": "fetih",
+    "b": "Safevî Şah İsmâil Herat'ı zaptetti",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Herat» md., https://islamansiklopedisi.org.tr/herat (16 Kasım 2026'da okundu; tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026)): «916’da (1510) Safevî Hükümdarı Şah İsmâil tarafından zaptedildi»"
+   },
+   {
+    "t": "1747-01-01",
+    "gun": "1747",
+    "k": "fetih",
+    "b": "Herat Ahmed Şah Dürrânî tarafından Afganistan topraklarına katıldı (TDV: 1747-1772 aralığı; güvenli uç değil, ilk yıl)",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Herat» md., https://islamansiklopedisi.org.tr/herat (16 Kasım 2026'da okundu; tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026)): «Ahmed Şah Dürrânî (1747-1772) tarafından Afganistan topraklarına katıldı»"
    }
   ],
-  "ic_not": "İlk anılış Alexandreia Areia (Plinius; PECS 'Founded in 330, at Artacoana ... at, or near, Herat'): Pleiades 961874 yeri modern Herat sayar (1,33 km) — PECS'in 'or near' çekincesi not edildi. Ahameniş Haraiva bir bölge/satraplık adıdır, şehir tanığı sayılmadı; Artakoana Barrington'da yeri bilinmeyen (Pleiades 30211) — kullanılmadı. Atlas başlangıcı 1175-01-01 Gurlu: TDV 571 (1175-76) ⇒ hicrî kural 1175-07-22 (atlas düzeltmesi önerisi, küçük). Dört beyanlı boşluk (Helenistik–Sâsânî; Zübeyrî; Tâhirî–Saffârî; 1040–1072 Selçuklu-Gazneli) ve iki künyesiz yapı (Oğuzlar, Ay-aba)."
+  "ic_not": "İlk anılış Alexandreia Areia (Plinius; PECS 'Founded in 330, at Artacoana ... at, or near, Herat'): Pleiades 961874 yeri modern Herat sayar (1,33 km) — PECS'in 'or near' çekincesi not edildi. Ahameniş Haraiva bir bölge/satraplık adıdır, şehir tanığı sayılmadı; Artakoana Barrington'da yeri bilinmeyen (Pleiades 30211) — kullanılmadı. Atlas başlangıcı 1175-01-01 Gurlu: TDV 571 (1175-76) ⇒ hicrî kural 1175-07-22 (atlas düzeltmesi önerisi, küçük). Dört beyanlı boşluk (Helenistik–Sâsânî; Zübeyrî; Tâhirî–Saffârî; 1040–1072 Selçuklu-Gazneli) ve iki künyesiz yapı (Oğuzlar, Ay-aba). || [MÜKERRER BİRLEŞTİRME 17 Kasım 2026: herat-af (sehir_tarihce_orta_asya.js) kaydından] Kaynak: yalnız TDV 'Herat' (tam metne karşı doğrulandı (tarayıcı): WebFetch özetleyicisi; alıntılar onun sayfadan verdiği parçalardır). Çift teyit YOK (Encyclopaedia Iranica 403 verdi, okunamadı). ilk=661: TDV'nin Herat'a özgü en eski tarihli ifadesi 'yeniden fethedildi'dir ('yeniden' önceki bir fethi ima eder); TDV ayrıca Horasan'ın 31 (652) fethini verir ama Herat adının o cümlede geçip geçmediği tam metne karşı doğrulandı (tarayıcı)da teyit edilmedi, alınmadı. Daha eski anılışlar (Haraiva — Eski Farsça kitâbeler; Aria; 'Aria’daki İskenderiye') TDV'de TARİHSİZ; Behistun/Iranica tarihi okunamadığı için ilk olarak yazılmadı — ilk.t gerçek en eski anılış DEĞİL, 'TDV'de Herat'a özgü en eski tarihli tanık'tır. Atlas Herat'ı 0500-01-01'de eftalit ile başlatıyor (661 > 500 → sahip:[], atlas zinciri esastır); 500-661 arası (Eftalit, Sasani) bu kayıtla doğrulanmadı. Hicrî olaylar: Hicrî→mîlâdî: TDV'nin verdiği mîlâdî yıl ile hicrî yılın kesişiminin ilk günü, tablo takvimiyle (Jülyen, ±1-2 gün); kesinlik yıl. Safevî 1510'dan sonra Özbek/Safevî/Bâbürlü (1526) el değiştirmeleri TDV'de var ama atlas zinciri esas olduğundan olay yazılmadı. 1747 olayı: TDV '1747-1772' aralığı verir (belirsiz). Tarihsiz TDV ifadeleri (Alparslan, Abdalî XVIII. yy) yazılmadı. TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Uyuşmayanlar: TARİH UYUŞMUYOR (olay10.t): eski → 1507-05-13. Herat Özbek 913 (1507): 913 h. 1507-05-13 başlar; Hicrî ∩ milâdî kesişim ilk günü (aritmetik sivil takvim ±2 gün); eski 1507-01-01 hicrî yılın dışında kalıyordu. TARİH UYUŞMUYOR (olay11.t): eski → 1510-04-10. Herat Şah İsmâil 916 (1510): 916 h. 1510-04-10 başlar; Hicrî ∩ milâdî kesişim ilk günü (aritmetik sivil takvim ±2 gün); eski 1510-01-01 hicrî yılın dışında kalıyordu. Önceki notlardaki \"WebFetch özeti / tam metne karşı doğrulandı (tarayıcı) / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir. | Parti5 tanık kuralı (17 Kasım 2026): tanik cümleden birebir yenilendi [ilk]: TDV cümlesi ad+661 (aynı cümlede 31 (652) sulh fethi de var; ilk.t=661 korundu, ic_not'a eklendi)",
+  "ad_kaynak": [
+   {
+    "ad": "Haraiva",
+    "dil": "peo",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Herat' https://islamansiklopedisi.org.tr/herat",
+    "kanit": "çivi yazılı Eski Farsça kitâbelerde Haraiva"
+   },
+   {
+    "ad": "Aria",
+    "dil": "grc",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Herat' https://islamansiklopedisi.org.tr/herat",
+    "kanit": "Avesta’da ve Grekçe metinlerde Aria, Areia şeklinde rastlanır"
+   },
+   {
+    "ad": "Areia",
+    "dil": "grc",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Herat' https://islamansiklopedisi.org.tr/herat",
+    "kanit": "Avesta’da ve Grekçe metinlerde Aria, Areia şeklinde rastlanır"
+   },
+   {
+    "ad": "Ariea",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Herat' https://www.britannica.com/place/Herat-Afghanistan",
+    "kanit": "known in ancient times as Ariea (Old Persian: Haraiva)"
+   },
+   {
+    "ad": "Harāt",
+    "dil": "fa",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Herat' https://www.britannica.com/place/Herat-Afghanistan",
+    "kanit": "Also known as: Harāt"
+   }
+  ]
  },
  {
   "id": "hillah",
@@ -13588,7 +13721,16 @@ window.SEHIR_TARIHCE_OSM = [
    "Kâbul",
    "Kābul",
    "Kâbil",
-   "Kabul"
+   "Kabul",
+   "Kubha",
+   "Kaboura",
+   "Kao-fu",
+   "Kābol",
+   "Kubha (Rig Veda)",
+   "Kaboura (Ptolemaios)",
+   "Kao-fu (Çin seyyah kayıtları)",
+   "Kâbil / Kâbul",
+   "Kâbül"
   ],
   "ilk": {
    "t": "0664-04-04",
@@ -13688,6 +13830,14 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV KÂBİL; hicrî 179 ∩ 795, çeviri: tablo takvimi, Jülyen"
    },
    {
+    "t": "0795-03-27",
+    "gun": "179 H (795)",
+    "k": "fetih",
+    "b": "Müslüman ordusu Kâbil'e girdi; Türkşâhî hükümdarı vergiye bağlandı",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Kâbil (Afganistan)» md., https://islamansiklopedisi.org.tr/kabil--afganistan (16 Kasım 2026'da okundu; tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026)): «179’da (795) Zâbülistan’ı aldı ve Kâbil’e girdi»"
+   },
+   {
     "t": "0850-01-01",
     "gun": "~850",
     "k": "diger",
@@ -13735,9 +13885,100 @@ window.SEHIR_TARIHCE_OSM = [
     "k": "fetih",
     "b": "Algu'nun ölümü — saltanatında (1260-1266) Hârizm ve Afganistan'ı Çağatay Hanlığı'na katmıştı",
     "kaynak": "TDV ÇAĞATAY HANLIĞI"
+   },
+   {
+    "t": "1504-06-14",
+    "gun": "1504",
+    "k": "fetih",
+    "b": "Kâbil Bâbür'ün eline geçti",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Kâbil (Afganistan)» md., https://islamansiklopedisi.org.tr/kabil--afganistan (16 Kasım 2026'da okundu; tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026)): «910’da da (1504) Bâbür’ün eline geçti»"
+   },
+   {
+    "t": "1738-04-21",
+    "gun": "1738",
+    "k": "fetih",
+    "b": "Nâdir Şah Kâbil'i Bâbürlüler'den aldı",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Kâbil (Afganistan)» md., https://islamansiklopedisi.org.tr/kabil--afganistan (16 Kasım 2026'da okundu; tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026)): «1151’de (1738) Kâbil’i Bâbürlüler’den alarak»"
+   },
+   {
+    "t": "1747-01-13",
+    "gun": "1747",
+    "k": "fetih",
+    "b": "Nâdir Şah'ın öldürülmesinden sonra şehir Ahmed Şah Dürrânî'ye geçti",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Kâbil (Afganistan)» md., https://islamansiklopedisi.org.tr/kabil--afganistan (16 Kasım 2026'da okundu; tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026)): «1160’ta (1747) öldürülmesinden sonra şehri»"
+   },
+   {
+    "t": "1839-01-01",
+    "gun": "1839",
+    "k": "fetih",
+    "b": "İngiliz-Hint ordusu Kâbil'i işgal etti",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Kâbil (Afganistan)» md., https://islamansiklopedisi.org.tr/kabil--afganistan (16 Kasım 2026'da okundu; tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026)): «1839’da İngiliz-Hint ordusu Kâbil’i işgal ederek»"
+   },
+   {
+    "t": "1842-01-01",
+    "gun": "1842",
+    "k": "diger",
+    "b": "İngiliz ordusu (Pollock) Kâbil'i yakıp yıktı",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Kâbil (Afganistan)» md., https://islamansiklopedisi.org.tr/kabil--afganistan (16 Kasım 2026'da okundu; tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026)): «şehri yakıp yıkarak 70.000 kişiyi katletti (1842)»"
    }
   ],
-  "ic_not": "İlk anılış seçimi Emre kuralına göre: Batlamyus'un 'Kaboura'sı (Geogr. 6.18) ve Strabon'un Ortospana'sı (11.8.9) Barrington'da 'Kabul?' soru işaretiyle eşitlenir, Pleiades 60606 'kesin yeri belirlenemez' der (Pleiades 59885 Kabul 0,8 km) — yeri kesin olmayan eşitleme başlangıç sayılmadı; Rig Veda 'Kubha' ırmak adıdır. Yeri kesin ilk tanık TDV'nin 44/664 Arap seferi. TDV'nin 'MÖ 1500’lü yıllardan itibaren varlığı bilinmektedir' cümlesi dayanaksız (Kubha ırmak). Arkeolojik: Çaman-ı Huzûrî Ahameniş sikke definesi (Pleiades/TAVO) — tarihi ve yayını açılmadı, yazılmadı. Iranica (de Planhol) erken merkez olarak Kâpisa'yı (Begram, ~60 km K) gösterir. 1031–1266 arası tarihsiz el değiştirmeler beyanlı boşluk. Parti koordinatı atlas noktasına 0.0 km."
+  "ic_not": "İlk anılış seçimi Emre kuralına göre: Batlamyus'un 'Kaboura'sı (Geogr. 6.18) ve Strabon'un Ortospana'sı (11.8.9) Barrington'da 'Kabul?' soru işaretiyle eşitlenir, Pleiades 60606 'kesin yeri belirlenemez' der (Pleiades 59885 Kabul 0,8 km) — yeri kesin olmayan eşitleme başlangıç sayılmadı; Rig Veda 'Kubha' ırmak adıdır. Yeri kesin ilk tanık TDV'nin 44/664 Arap seferi. TDV'nin 'MÖ 1500’lü yıllardan itibaren varlığı bilinmektedir' cümlesi dayanaksız (Kubha ırmak). Arkeolojik: Çaman-ı Huzûrî Ahameniş sikke definesi (Pleiades/TAVO) — tarihi ve yayını açılmadı, yazılmadı. Iranica (de Planhol) erken merkez olarak Kâpisa'yı (Begram, ~60 km K) gösterir. 1031–1266 arası tarihsiz el değiştirmeler beyanlı boşluk. Parti koordinatı atlas noktasına 0.0 km. || [MÜKERRER BİRLEŞTİRME 17 Kasım 2026: kabil-af (sehir_tarihce_orta_asya.js) kaydından] Kaynak: TDV 'Kâbil' (maddenin URL'si /kabil--afganistan; tam metne karşı doğrulandı (tarayıcı)). Çift teyit YOK. ilk=795: Kâbil'e GİRİŞ ('Kâbil’e girdi') şehre özgü en eski tarihli tanık. 664 (Muâviye valileri, 44/664) ve 697 (78) TDV'de 'bölge' için verilir (şehir adı bağlamı özetle teyitsiz) — yazılmadı. TDV 'milâttan önce 1500’lü yıllardan itibaren varlığı bilinmektedir' der ama KAYNAK göstermez; dayanaksız olduğu için ilk/kur olarak yazılmadı (adlar: Kubha/Kaboura/Kao-fu tarihsiz). Atlas Kâbil'i 0500'de __BOSLUK__ ile başlatır; 795 > 500 → sahip:[] (atlas zinciri esas). Kâbilşâhîler/Türkşâhîler TDV'de tarihsiz ('Türkşâhîler dönemi'); atlas 'turk-sahi' 665-850 ile TDV 795 fethi arasında, TDV 'Türkşâhî hükümdarı vergiye bağlandı' anlatımıyla uyumlu (fetih ≠ künye değişimi). Hicrî: Hicrî→mîlâdî: TDV'nin verdiği mîlâdî yıl ile hicrî yılın kesişiminin ilk günü, tablo takvimiyle (Jülyen, ±1-2 gün); kesinlik yıl. 1773/1775 (Timur Şah başşehir yaptı), 1793, 1819 (Dost Muhammed tarihi belirsiz), 1841, 1879, 1880 TDV'de var ama ya tarihi çıkarım ya tam metne karşı doğrulandı (tarayıcı)da bağlamı belirsiz — yazılmadı. TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Uyuşmayanlar: TARİH UYUŞMUYOR (olay1.t): eski → 1504-06-14. Kâbil Bâbür 910 (1504): 910 h. 1504-06-14 başlar; Hicrî ∩ milâdî kesişim ilk günü (aritmetik sivil takvim ±2 gün); eski 1504-01-01 hicrî yılın dışında kalıyordu. TARİH UYUŞMUYOR (olay2.t): eski → 1738-04-21. Kâbil Nâdir Şah 1151 (1738): 1151 h. 1738-04-21 başlar; Hicrî ∩ milâdî kesişim ilk günü (aritmetik sivil takvim ±2 gün); eski 1738-01-01 hicrî yılın dışında kalıyordu. TARİH UYUŞMUYOR (olay3.t): eski → 1747-01-13. Kâbil Dürrânî 1160 (1747): 1160 h. 1747-01-13 başlar; Hicrî ∩ milâdî kesişim ilk günü (aritmetik sivil takvim ±2 gün); eski 1747-01-01 hicrî yılın dışında kalıyordu. Önceki notlardaki \"WebFetch özeti / tam metne karşı doğrulandı (tarayıcı) / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir.",
+  "ad_kaynak": [
+   {
+    "ad": "Kubha",
+    "dil": "sa",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Kâbil (Afganistan)' https://islamansiklopedisi.org.tr/kabil--afganistan",
+    "kanit": "Rig Veda’da “Kubha”"
+   },
+   {
+    "ad": "Kaboura",
+    "dil": "grc",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Kâbil (Afganistan)' https://islamansiklopedisi.org.tr/kabil--afganistan",
+    "kanit": "Kabolitler’in Kaboura şehri"
+   },
+   {
+    "ad": "Kao-fu",
+    "dil": "zh",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Kâbil (Afganistan)' https://islamansiklopedisi.org.tr/kabil--afganistan",
+    "kanit": "Çin seyahatnâmelerinde “Kao-fu” şekillerinde geçer"
+   },
+   {
+    "ad": "Kâbül",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Kâbil (Afganistan)' https://islamansiklopedisi.org.tr/kabil--afganistan",
+    "kanit": "ismin aslı “Kâbül” olup"
+   },
+   {
+    "ad": "Kâbil",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Kâbil (Afganistan)' https://islamansiklopedisi.org.tr/kabil--afganistan",
+    "kanit": "Zâbülistan’ı aldı ve Kâbil’e girdi"
+   },
+   {
+    "ad": "Kâbul",
+    "dil": "ar",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Kâbil (Afganistan)' https://islamansiklopedisi.org.tr/kabil--afganistan",
+    "kanit": "(Türk ve Kâbul)"
+   },
+   {
+    "ad": "Kābol",
+    "dil": "fa",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Kabul' https://www.britannica.com/place/Kabul",
+    "kanit": "Also known as: Kābol"
+   }
+  ]
  },
  {
   "id": "kahramanmaras",
@@ -18361,7 +18602,11 @@ window.SEHIR_TARIHCE_OSM = [
   "adlar": [
    "Hayr / Hoca Hayran (köy)",
    "Mezâr",
-   "Mezâr-ı Şerîf"
+   "Mezâr-ı Şerîf",
+   "Mazār-e Sharīf",
+   "Мазар-и-шериф",
+   "Mazar-e Sharif",
+   "Mezârışerif"
   ],
   "ilk": {
    "t": "1136-01-01",
@@ -18607,6 +18852,15 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV MEZÂRIŞERİF (R. Kurtuluş)"
    },
    {
+    "t": "1852-01-01",
+    "gun": "1852",
+    "k": "fetih",
+    "b": "Mezârışerif Afgan hâkimiyetine girdi",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, «Mazār-e Sharīf» (Britannica editörleri), https://www.britannica.com/place/Mazar-e-Sharif (tarayıcı sayfa okuma, 17 Kasım 2026) + TDV İslâm Ansiklopedisi, «Mezârışerif», https://islamansiklopedisi.org.tr/mezariserif (tarayıcı sayfa okuma, 17 Kasım 2026)",
+    "tanik": "Mazār-e Sharīf came under Afghan rule in 1852"
+   },
+   {
     "t": "1869-01-01",
     "gun": "1869",
     "k": "diger",
@@ -18614,7 +18868,23 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV MEZÂRIŞERİF (R. Kurtuluş)"
    }
   ],
-  "ic_not": "Şehir Hoca Hayran köyündeki Hz. Ali türbesi çevresinde doğdu: ilk iddia 530/1136 (Sencer), ikincisi 885/1480 ve türbe 886/1481 (TDV MEZÂRIŞERİF). Hicrî 530 = 11 Ekim 1135 – 28 Eylül 1136 ∩ 1136 ⇒ 1136-01-01. Köyün 1136 öncesi tanığı bulunamadı. Atlasta Mezâr-ı Şerîf noktası YOK (en yakın Belh 19,8 km) ⇒ zincir 1900-01-01'e kadar; zincirin tamamı TDV BELH'e dayalı BÖLGE SAHİBİ + BEYAN'dır. XIX. yy ikinci yarısında bölge merkezi Belh'ten Mezâr'a kaydı (TDV). Öneri: atlasa nokta (1852 Afganistan) eklenmeli; 1869'dan Afgan Türkistanı merkezi."
+  "ic_not": "Şehir Hoca Hayran köyündeki Hz. Ali türbesi çevresinde doğdu: ilk iddia 530/1136 (Sencer), ikincisi 885/1480 ve türbe 886/1481 (TDV MEZÂRIŞERİF). Hicrî 530 = 11 Ekim 1135 – 28 Eylül 1136 ∩ 1136 ⇒ 1136-01-01. Köyün 1136 öncesi tanığı bulunamadı. Atlasta Mezâr-ı Şerîf noktası YOK (en yakın Belh 19,8 km) ⇒ zincir 1900-01-01'e kadar; zincirin tamamı TDV BELH'e dayalı BÖLGE SAHİBİ + BEYAN'dır. XIX. yy ikinci yarısında bölge merkezi Belh'ten Mezâr'a kaydı (TDV). Öneri: atlasa nokta (1852 Afganistan) eklenmeli; 1869'dan Afgan Türkistanı merkezi. || [MÜKERRER BİRLEŞTİRME 17 Kasım 2026: mezarisserif-p10 (sehir_tarihce_orta_asya.js) kaydından] ÇİFT TEYİT: Britannica (cümle tanığı, 'Mazār-e Sharīf came under Afghan rule in 1852') + TDV Mezârışerif ('1852 yılında Afgan hâkimiyetine giren şehir 1869’da Afgan Türkistanı’nın siyasî merkezi haline getirildi'; TDV cümlesinde özne adı yok, madde konusudur). 1852 şehrin ilk anılışı DEĞİL: TDV iki Hz. Ali türbesi keşfini 530 (1136, Sencer) ve 885 (1480, Hüseyin Baykara) olarak verir; ancak TDV cümlesi şehir adını taşımaz, Britannica 1480 cümlesinde 'settlement' Belh'tir (belirsiz) ⇒ bu erken yıllar tanık olarak alınmadı, ayrı borç. 1869 olayı Britannica'da şehir adlı cümlede 15 kelimeyi aşar; TDV'de adsızdır: yazılmadı. Sahip zinciri 1852→1900 (Afganistan Bârekzâyî Emirliği, 'afganistan'): 1900 yalnız bu dosyanın atlas yokluğu dikişidir (kaynak değil); 1852'den sonra Afgan idaresi TDV'ye göre sürer (1869 siyasî merkez, 1873/1889 Afgan valileri). Atlas noktası yok.",
+  "ad_kaynak": [
+   {
+    "ad": "Mazār-e Sharīf",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Mazār-e Sharīf' https://www.britannica.com/place/Mazar-e-Sharif",
+    "kanit": "lent Mazār-e Sharīf (“tomb of the saint”) its name."
+   },
+   {
+    "ad": "Мазар-и-шериф",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Мазар-и-шериф' https://ru.wikisource.org/wiki/ЭСБЕ/Мазар-и-шериф",
+    "kanit": "Мазар-и-шериф — главный административный центр сев. части Афганистана"
+   }
+  ]
  },
  {
   "id": "mecca",
