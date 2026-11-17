@@ -1768,7 +1768,7 @@ window.SEHIR_TARIHCE_HINT = [
     "kaynak": "Banglapedia: National Encyclopedia of Bangladesh (Asiatic Society of Bangladesh, 2. baskı 2012), https://en.banglapedia.org/index.php/Hughli,_City (yazar: Md Akhtaruzzaman; kaynakça: J. J. A. Campos, History of the Portuguese in Bengal, Calcutta 1919; J. N. Sarkar (ed.), History of Bengal II, Dhaka 1976), tarayıcı dışı sayfa okuması, 17 Kasım 2026, tam sayfa metni okundu ve tanık includes() ile doğrulandı"
    }
   ],
-  "ic_not": "TEK KAYNAK (Banglapedia; imzalı madde, kaynakça Campos 1919 ve Sarkar). ÇELİŞKİ: Imperial Gazetteer (DSAL, OCR) c.13 s.173/176 Hooghly'nin 1537'de Portekizlilerce kurulduğunu yazar; DSAL c.8 s.39 OCR'ı '1637' okur (rakam bozulması). Banglapedia ise 1565 öncesi Hugli'de (Bhagirathi kıyısı) Portekiz yerleşimi bulunmadığını, Mayıs 1578'de Pedro Tavares'in Ekber'den şehir kurma izni aldığını ve resmî kuruluşun 1579 olduğunu yazar. İki tarihin neden ayrıştığı (örn. 1537 = Satgaon çevresindeki erken Portekiz varlığı) bu oturumda kaynakla doğrulanmadı. Hakemli karar için üçüncü bir bağımsız akademik kaynak okunamadı (Britannica 1911 'Hugli' sayfası Wikisource'ta yok, studylight Cloudflare engelli); bu yüzden 1579 (resmî kuruluş, Banglapedia) yazıldı, 1537 çelişkisi burada beyan edilir ve ikinci bir kaynakla kesinleştirilmelidir. Kesinlik yıl; 1579 içinde ay/gün yok. Olaylar aynı maddedeki 'Qasim Khan laid siege on Hughli on 20 June 1632 and captured it on 15 September' (yıl 1632 aynı cümlede), 'English east india company established their factory at Hughli in 1651', 'port city of Hughli was stormed, sacked, plundered and burnt by the English on 10 January 1757' cümleleridir. sahip[] yazılmadı."
+  "ic_not": "HAKEMLİ KARAR (LAB, 17 Kasım 2026): Hakemli karar: çelişen değerler 1579 (Banglapedia, Akhtaruzzaman: resmî Portekiz kolonisi, Akbar fermanı; 1578 Tavares heyeti) ve 1537 (Britannica, Columbia: Portekiz ticaret karakolu). Teyit: Banglapedia 'Portuguese, The' (A. Ray): Hugli'de 1565 öncesi Portekiz yerleşimi yok, yerleşim 1579'dan sonra biçimlenir; Gale Encyclopedia of India: 1580; Crawford 1903: yerleşme Akbar izniyle yaklaşık 1575, 1537/38 yalnız Dey'in kale iddiası (Calcutta Review 1892-93). Britannica ile Columbia'nın 1537'si kaynakçasız ve aynı geleneğe dayanıyor olabilir (bağımsızlık kanıtlanamadı); tek soy sayıldı. Seçim: 1579 kalır (resmî koloni); 1537 'tartışmalı geleneksel karakol tarihi' olarak beyan, kuruluş olarak yazılmaz. || TEK KAYNAK (Banglapedia; imzalı madde, kaynakça Campos 1919 ve Sarkar). ÇELİŞKİ: Imperial Gazetteer (DSAL, OCR) c.13 s.173/176 Hooghly'nin 1537'de Portekizlilerce kurulduğunu yazar; DSAL c.8 s.39 OCR'ı '1637' okur (rakam bozulması). Banglapedia ise 1565 öncesi Hugli'de (Bhagirathi kıyısı) Portekiz yerleşimi bulunmadığını, Mayıs 1578'de Pedro Tavares'in Ekber'den şehir kurma izni aldığını ve resmî kuruluşun 1579 olduğunu yazar. İki tarihin neden ayrıştığı (örn. 1537 = Satgaon çevresindeki erken Portekiz varlığı) bu oturumda kaynakla doğrulanmadı. Hakemli karar için üçüncü bir bağımsız akademik kaynak okunamadı (Britannica 1911 'Hugli' sayfası Wikisource'ta yok, studylight Cloudflare engelli); bu yüzden 1579 (resmî kuruluş, Banglapedia) yazıldı, 1537 çelişkisi burada beyan edilir ve ikinci bir kaynakla kesinleştirilmelidir. Kesinlik yıl; 1579 içinde ay/gün yok. Olaylar aynı maddedeki 'Qasim Khan laid siege on Hughli on 20 June 1632 and captured it on 15 September' (yıl 1632 aynı cümlede), 'English east india company established their factory at Hughli in 1651', 'port city of Hughli was stormed, sacked, plundered and burnt by the English on 10 January 1757' cümleleridir. sahip[] yazılmadı."
  },
  {
   "id": "indor-p6",
@@ -1799,7 +1799,7 @@ window.SEHIR_TARIHCE_HINT = [
   "bit": null,
   "sahip": [],
   "olay": [],
-  "ic_not": "Tek kaynak (Britannica): çift teyit aranmadı/bulunamadı (TDV'de İndor şehri maddesi yok; arama 'indor' yalnız cebir/Hârizmî/hesap maddelerini döndürdü; Majumdar VI ve Sewell'de yıllı cümle yok). Britannica kurucuları 'yerel toprak sahipleri (local landowners)' diye verir; Indreshwar Tapınağı 1741 ve Holkar Marathaları'nın başkent yapması sonraki gelişmedir (yazılmadı: atlas dönemi sonrası/şehir olgusu). Atlas noktası 1715-01-01'de babur-imparatorlugu ile başlar: kaynaklı kuruluş yılı atlas başlangıç yılıyla ÖRTÜŞÜR (zincir yok, uyarı beklenen). Sahip öneri: bu kaynak kuruluşu yerel yapıya bağlar, Babür sahipliğini DOĞRULAMAZ; atlasın 1715 Babür sahipliği için kaynak aranmalı (ayrı iş)."
+  "ic_not": "HAKEMLİ KARAR (LAB, 17 Kasım 2026): Hakem notu (17 Kas 2026): Britannica 1715 'trade market' kuruluşu ile Columbia c.1728 'Malhar Rao Holkar'ın kurması' çelişir. Malcolm, A Memoir of Central India (1823), Indore'da Holkar'dan önce Moğol dönemi yerel zemindar ailesinin varlığını bildirir (yıl yok): Holkar'ın 'kurucu' olması zayıflar, 1715 teyit edilemez. TDV'de İndor şehri maddesi yok. Bağımsız ikinci yıl tanığı bulunamadı: 1715 kalır (tek kaynak), c.1728 Holkar'ın yerleşme/başkent edinme yılı olabilir (teyitsiz, olay yazılmadı). || Tek kaynak (Britannica): çift teyit aranmadı/bulunamadı (TDV'de İndor şehri maddesi yok; arama 'indor' yalnız cebir/Hârizmî/hesap maddelerini döndürdü; Majumdar VI ve Sewell'de yıllı cümle yok). Britannica kurucuları 'yerel toprak sahipleri (local landowners)' diye verir; Indreshwar Tapınağı 1741 ve Holkar Marathaları'nın başkent yapması sonraki gelişmedir (yazılmadı: atlas dönemi sonrası/şehir olgusu). Atlas noktası 1715-01-01'de babur-imparatorlugu ile başlar: kaynaklı kuruluş yılı atlas başlangıç yılıyla ÖRTÜŞÜR (zincir yok, uyarı beklenen). Sahip öneri: bu kaynak kuruluşu yerel yapıya bağlar, Babür sahipliğini DOĞRULAMAZ; atlasın 1715 Babür sahipliği için kaynak aranmalı (ayrı iş)."
  },
  {
   "id": "kalkuta-in",
@@ -2640,19 +2640,19 @@ window.SEHIR_TARIHCE_HINT = [
    "Mîrat"
   ],
   "ilk": {
-   "t": "1203-01-01",
-   "gun": "1203",
+   "t": "1192-01-01",
+   "gun": "1192",
    "nicelik": "ilk_anilis",
    "kesinlik": "yil",
-   "kaynak": "TDV İslâm Ansiklopedisi, 'AYBEG, Kutbüddin', https://islamansiklopedisi.org.tr/aybeg-kutbuddin (17 Kasım 2026'da okundu; tarayıcı tam gövde): Aybeg 1192-1203 arasında Meerut'u iktâları arasına kattı",
-   "tanik": "1192-1203 yılları arasında ise Meerut, Ecmîr, Delhi, Kol, Thankir"
+   "kaynak": "The Columbia Encyclopedia 6th ed., «Meerut» (encyclopedia.com, 17 Kasım 2026); teyit: Minhâc-ı Sirâc Cûzcânî, Tabakât-ı Nâsırî, in Elliot & Dowson, History of India II (archive.org): Mirat Tarain sonrası aynı yıl (588 H./1192) alındı",
+   "tanik": "Meerut was conquered by Muslims in 1192"
   },
   "kur": null,
   "ark": null,
   "bit": null,
   "sahip": [
    {
-    "f": "1203-01-01",
+    "f": "1192-01-01",
     "t": "1206-06-25",
     "d": "gurlu",
     "kesinlik": {
@@ -2683,7 +2683,7 @@ window.SEHIR_TARIHCE_HINT = [
     "kaynak": "TDV 'AYBEG, Kutbüddin', https://islamansiklopedisi.org.tr/aybeg-kutbuddin (tarayıcı tam gövde): 'Sultan Muizzüddin’in ölümü üzerine “Kutbüddin” unvanıyla 25 Haziran 1206’da Lahor’da tahta çıktı'"
    }
   ],
-  "ic_not": "Tek kaynak (TDV Aybeg maddesi): çift teyit bulunamadı. TDV 'Meerut' şehir maddesi yok (arama 'meerut' Aybeg/Cüzcânî/Bâre Seyyidleri vb. maddeleri döndürdü; Cüzcânî ve Bâre Seyyidleri'nde Meerut yalnız bibliyografya basım yeri). 'Meerut' burada iktâ (idarî birim) olarak anılır; şehir mi bölge mi olduğu TDV'de ayrılmaz — yer-ad eşleşmesi beyanlıdır (Meerut ≈ Mîrat). Firûz Şah Tuğluk'un Asoka sütununu Mîrat'tan Delhi'ye taşıması (Majumdar VI, yıl bu cümlede yok) yazılmadı. Atlas Mîrat'ı 1281'de delhi-sultanligi ile başlatır; bu zincir 1203'e kadar geriye uzanır: atlas başlangıcının 1203'e çekilmesi önerisi (Meerut Sultanlık/Gurlu iktâsı olarak 1203'te var)."
+  "ic_not": "HAKEMLİ KARAR (LAB, 17 Kasım 2026): Hakem notu (17 Kas 2026): TDV 'AYBEG' '1192-1203 yılları arasında ise Meerut, Ecmîr, Delhi...' Aybeg'in iktâ edindiği genel aralıktır, Meerut'un fethini tarihlemez; aralık ucu (1203) Meerut için kullanılamaz. Meerut'un Gurlu eline geçişi: Columbia 'conquered by Muslims in 1192' + Minhâc-ı Sirâc, Tabakât-ı Nâsırî (Elliot & Dowson II, s.~297: Tarain 588 H./1192 sonrası aynı yıl Aybeg 'Mirat conquered'; aynı eserin biyografi pasajı 587 H./1191 der) + Hasan Nizâmî, Tâcü'l-me'âsir ('Capture of Mirat', yılsız). Seçilen: 1192 (hicrî 587/588 beyanı, ±1 yıl). 1203 Meerut'a özgü değil, bırakıldı. || Tek kaynak (TDV Aybeg maddesi): çift teyit bulunamadı. TDV 'Meerut' şehir maddesi yok (arama 'meerut' Aybeg/Cüzcânî/Bâre Seyyidleri vb. maddeleri döndürdü; Cüzcânî ve Bâre Seyyidleri'nde Meerut yalnız bibliyografya basım yeri). 'Meerut' burada iktâ (idarî birim) olarak anılır; şehir mi bölge mi olduğu TDV'de ayrılmaz — yer-ad eşleşmesi beyanlıdır (Meerut ≈ Mîrat). Firûz Şah Tuğluk'un Asoka sütununu Mîrat'tan Delhi'ye taşıması (Majumdar VI, yıl bu cümlede yok) yazılmadı. Atlas Mîrat'ı 1281'de delhi-sultanligi ile başlatır; bu zincir 1203'e kadar geriye uzanır: atlas başlangıcının 1203'e çekilmesi önerisi (Meerut Sultanlık/Gurlu iktâsı olarak 1203'te var)."
  },
  {
   "id": "multan-pk",
@@ -3640,7 +3640,7 @@ window.SEHIR_TARIHCE_HINT = [
     "kaynak": "Britannica 'Jaffna': ... their last possession in Ceylon (Sri Lanka) before its capture by the Dutch in 1658"
    }
   ],
-  "ic_not": "TEK KAYNAK (Britannica). Britannica Jaffna'nın 'yüzyıllarca bir Tamil krallığının başkenti' olduğunu söyler (yıl yok → ilk'e yazılmadı). 1619 Portekiz hâkimiyeti atlasın yafna→portekiz devrini 1619-02-01 ile tutar (tutarlı, gün Britannica'da yok). Hollanda'nın 1658'i atlas 1658-06-21'de tutar (tutarlı). Britannica 'British held Jaffna after 1795' der; atlas 1796-02-16 (Hollanda Seylanı sonu, Colombo'nun teslimi): 'after 1795' ile uyumsuzluk kesin değil, olay yazılmadı. Atlas başlangıcı 1281 (yafna) ilk tanıktan öncedir: sahip:[]; Yafna Krallığı'nın ilk anılışı (Majumdar/Sewell'de Jaffna geçmez) bulunamadı: borç."
+  "ic_not": "HAKEMLİ KARAR (LAB, 17 Kasım 2026): Çift teyit (hakemli karar, 17 Kas 2026): Portekiz hâkimiyeti 1619. Britannica 'Jaffna fell under Portuguese rule in 1619' + Gale, Encyclopedia of Western Colonialism since 1450 (2007), 'Ceylon': 'The Portuguese annexed the north of the island in 1619.' Çelişen: Columbia Encyclopedia 6th ed. 'conquered by the Portuguese in 1617' (tek kaynak; 1617 Cankili II'nin tahta çıkışıyla aynı yıl, olgu karışması olası, akademik monografiyle doğrulanmadı). Seçilen: 1619. Gün kaynaklarda yok; yıl hassasiyeti. || TEK KAYNAK (Britannica). Britannica Jaffna'nın 'yüzyıllarca bir Tamil krallığının başkenti' olduğunu söyler (yıl yok → ilk'e yazılmadı). 1619 Portekiz hâkimiyeti atlasın yafna→portekiz devrini 1619-02-01 ile tutar (tutarlı, gün Britannica'da yok). Hollanda'nın 1658'i atlas 1658-06-21'de tutar (tutarlı). Britannica 'British held Jaffna after 1795' der; atlas 1796-02-16 (Hollanda Seylanı sonu, Colombo'nun teslimi): 'after 1795' ile uyumsuzluk kesin değil, olay yazılmadı. Atlas başlangıcı 1281 (yafna) ilk tanıktan öncedir: sahip:[]; Yafna Krallığı'nın ilk anılışı (Majumdar/Sewell'de Jaffna geçmez) bulunamadı: borç."
  },
  {
   "id": "yanam-in-p6",
