@@ -46,5 +46,12 @@ Fatih + Kanunî, Roma'dan en az 5 imparator, her milletten 1-2 kişi).
   800×600: 33 rozet, 201 canlandırma, konsol hatası yok. Künye ve elenenler `img/acilis/KAYNAK.md`.
   Tuzak: Windows dosya adında büyük/küçük harf ayırmıyor — `rus`/`RUS` önbellekte çakıştı
   (tarihî önbellek dosyası artık `-tarih` ekli).
+- **Görünüm ve kişi eki (aynı gün, Emre'nin dört notu):** haritalar zeminsiz (yalnız şekil);
+  portreler dört köşe dikey 3:4, baş+omuz tam sığar (eski kırpma yüzün yarısını kesiyordu);
+  millet başına 2-3 kişi: +Shakespeare, Jeanne d'Arc, Vasco da Gama, Denizci Henrique, Kangxi,
+  Şah İsmail, Şah Abbas; dinî şahsiyetler haritasız kart olarak kendi yerlerinden: Hz. Muhammed
+  (adı, hat), Hz. İsa (Ayasofya Deesis), Hz. Musa (Sina ikonu), Buda, Konfüçyüs, Luther.
+  Toplam 59 öğe, 51 kişi. Betik 180 → 118 KB (kullanılmayan zeminler yazılmıyor); portre
+  tabakası 148 KB. Sınama 1400×860: konsol hatası yok, 220 canlandırma, 51 kart.
 - **Ölçülmedi:** tam sitede yükleme süresine etkisi (worktree'de üretilmiş veri yok);
   push kapısının `denetle_yayin` sınavı sitenin açılışını koşturur.

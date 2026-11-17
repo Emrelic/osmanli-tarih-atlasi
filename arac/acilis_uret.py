@@ -68,8 +68,35 @@ PORTRE = [
     ("iskender",  "Büyük İskender",     "Alexander_Mosaic_detail_of_Alexander_the_Great_(3x4_cropped).jpg", "Kamu malı", "", (4.6, 2.6, .55)),
     ("cengiz",    "Cengiz Han",         "YuanEmperorAlbumGenghisPortrait.jpg", "Kamu malı", "", (4.8, 4.0, .45)),
     ("kubilay",   "Kubilay Han",        "YuanEmperorAlbumKhubilaiPortrait.jpg", "Kamu malı", "", (4.8, 4.3, .45)),
+    # Emre, 17 Kas: milletlerden 2-3'er kişi
+    ("shakespeare", "Shakespeare",      "Shakespeare.jpg", "Kamu malı", "John Taylor (atf.)", (5.0, 3.4, .55)),
+    ("jeanne",    "Jeanne d'Arc",       "Ingres coronation charles vii.jpg", "Kamu malı", "Jean-Auguste-Dominique Ingres", (4.4, 1.6, .2)),
+    ("vasco",     "Vasco da Gama",      "Vasco da Gama - 1838.png", "Kamu malı", "António Manuel da Fonseca", (3.9, 1.8, .36)),
+    ("henrique",  "Denizci Henrique",   "Henry the Navigator1.jpg", "Kamu malı", "Nuno Gonçalves", (5.0, 5.0, .55)),
+    ("kangxi",    "Kangxi",             "Portrait of the Kangxi Emperor in Court Dress.jpg", "Kamu malı", "Qing saray ressamı", (5.0, 1.5, .22)),
+    ("abbas",     "I. Şah Abbas",       "Shah abbas I by Bishn Das.jpg", "Kamu malı", "Bişan Das", (4.3, 2.5, .16)),
+    ("ismail",    "Şah İsmail",         'Portrait of Shah Ismail I. Inscribed "Ismael Sophy Rex Pers". Painted by Cristofano dell\'Altissimo, dated 1552-1568.jpg', "Kamu malı", "Cristofano dell'Altissimo", (4.2, 5.0, .55)),
+    # Emre, 17 Kas: dinî şahsiyetler. Hz. Muhammed tasvir edilmez → adı hat ile (kırpma None = tamamı)
+    ("muhammed",  "Hz. Muhammed",       "Muhammad (name).png", "CC BY 3.0", "Morgan Phoenix", None),
+    ("isa",       "Hz. İsa",            "Christ Pantocrator Deesis mosaic Hagia Sophia.jpg", "Kamu malı", "Ayasofya Deesis mozaiği", (4.3, 2.0, .3)),
+    ("musa",      "Hz. Musa",           "Moses Icon Sinai 13th century detail.jpg", "Kamu malı", "Sina, Ayia Ekaterini ikonu (13. yy)", (5.0, 3.6, .5)),
+    ("buda",      "Buda",               "Gandhara Buddha (tnm).jpeg", "Kamu malı", "Gandhara heykeli (Tokyo Ulusal Müzesi)", (4.9, 1.3, .2)),
+    ("konfucyus", "Konfüçyüs",          "Confucius Tang Dynasty.jpg", "Kamu malı", "Wu Daozi ardılı taş baskı", (4.5, 1.5, .36)),
+    ("luther",    "Martin Luther",      "Lucas Cranach d.Ä. - Martin Luther, 1528 (Veste Coburg).jpg", "Kamu malı", "Lucas Cranach (Yaşlı)", (5.6, 3.4, .55)),
 ]
-HUCRE, SUTUN = 112, 8
+# Haritaya bağlı olmayan kişiler: kendi yerinden (boylam, enlem) fırlar. Önem sırasında
+# tarihî dalganın ilk beş haritasından sonra gelir.
+YALNIZ = [  # (anahtar, ad, boylam, enlem, kişiler)
+    ("din-muh", "Hz. Muhammed", 39.6, 24.5, ["muhammed"]),
+    ("din-isa", "Hz. İsa", 35.2, 31.8, ["isa"]),
+    ("din-musa", "Hz. Musa", 33.97, 28.54, ["musa"]),
+    ("din-buda", "Buda", 85.0, 24.7, ["buda"]),
+    ("din-konf", "Konfüçyüs", 117.0, 35.6, ["konfucyus"]),
+    ("din-luth", "Martin Luther", 12.65, 51.87, ["luther"]),
+]
+HUCRE, SUTUN = 96, 8
+HUCRE_Y = 128          # dikey 3:4 portre (Emre, 17 Kas: dört köşe resim, tam sığsın)
+GENIS = 1.9            # yüz karesinden baş+omuz penceresine büyütme
 
 # ── AMBLEMLER (Emre, 17 Kas: "amblemler, çeşitli tarihî semboller") ─────────────
 # Haritayla birlikte fırlar, haritanın köşesine rozet olur. Bugünkü devlet = bayrak;
@@ -126,8 +153,8 @@ PARSOMEN = {"alm", "rus"}                     # koyu ama renkli → parşömen y
 # yerel olarak (en çok 6 öğe ileriye) karıştırır: o an öne dönen ülke fırlar.
 BUGUN = [  # (anahtar, ADM0_A3, ad, renk, kişiler)
     ("TUR", "TUR", "Türkiye",          "#c0392b", ["ataturk"]),
-    ("GBR", "GBR", "Birleşik Krallık", "#7e3d8f", ["elizabeth"]),
-    ("FRA", "FRA", "Fransa",           "#2e5aa8", ["napolyon"]),
+    ("GBR", "GBR", "Birleşik Krallık", "#7e3d8f", ["elizabeth", "shakespeare"]),
+    ("FRA", "FRA", "Fransa",           "#2e5aa8", ["napolyon", "jeanne"]),
     ("ESP", "ESP", "İspanya",          "#d4a017", ["isabel"]),
     ("DEU", "DEU", "Almanya",          "#5d6d7e", ["friedrich"]),
     ("ITA", "ITA", "İtalya",           "#2e8b57", ["garibaldi", "leonardo"]),
@@ -162,7 +189,7 @@ TARIH = [
     ("sel", "Büyük Selçuklu", ["1100"], r"Seljuk Empire", "#3e7cb1", [], 0, None),
     ("gok", "Göktürk Kağanlığı", ["600"], r"Göktürks", "#2c8fbf", [], 0, None),
     ("bab", "Babür İmparatorluğu", ["1700"], r"Mughal Empire", "#d4a017", ["ekber"], 0, None),
-    ("qng", "Qing İmparatorluğu", ["1783", "1800"], r"Qing Empire", "#c9a227", [], 0, None),
+    ("qng", "Qing İmparatorluğu", ["1783", "1800"], r"Qing Empire", "#c9a227", ["kangxi"], 0, None),
     ("han", "Han Hanedanı", ["100"], r"Han", "#c8553d", [], 0, None),
     ("mis", "Eski Mısır (Yeni Krallık)", ["bc1500"], r"Egypt", "#c2a14d", ["ramses"], 0, None),
     ("alm", "Alman İmparatorluğu", ["1914"], r"German .*", "#262626", ["bismarck"], 1, (10.4, 51.2)),
@@ -171,7 +198,7 @@ TARIH = [
     ("ink", "İnka İmparatorluğu", ["1530", "1500"], r"Inca Empire", "#d35400", [], 0, None),
     ("azt", "Aztek İmparatorluğu", ["1500"], r"Aztec Empire", "#16a085", [], 0, None),
     ("tim", "Timurlular", ["1400"], r"Timurid Empire", "#6d4c9f", [], 0, None),
-    ("saf", "Safevîler", ["1600", "1530"], r"Safavid Empire", "#1f8a70", [], 0, None),
+    ("saf", "Safevîler", ["1600", "1530"], r"Safavid Empire", "#1f8a70", ["ismail", "abbas"], 0, None),
     ("alt", "Altın Orda", ["1300"], r"Khanate of the Golden Horde", "#c9a227", [], 0, None),
     ("hun", "Hun İmparatorluğu (Attila)", ["400"], r"Hunnic Empire", "#8b5a2b", [], 0, None),
     ("krl", "Karolenj İmparatorluğu", ["800"], r"Carolingian Empire", "#2e5aa8", [], 0, None),
@@ -180,7 +207,7 @@ TARIH = [
     ("mal", "Mali İmparatorluğu", ["1300"], r"Mali", "#b5651d", [], 0, None),
     ("leh", "Lehistan-Litvanya", ["1600"], r"Poland-Lithuania", "#b03a48", [], 0, None),
     ("isv", "İsveç İmparatorluğu", ["1650"], r"Sweden", "#2e6fb5", [], 0, None),
-    ("por", "Portekiz İmparatorluğu", ["1650"], r"Portug.*|.*\(Portugal\)", "#2e8b57", [], 1, (-8.0, 39.6)),
+    ("por", "Portekiz İmparatorluğu", ["1650"], r"Portug.*|.*\(Portugal\)", "#2e8b57", ["henrique", "vasco"], 1, (-8.0, 39.6)),
     ("hol", "Hollanda Sömürge İmp.", ["1700"], r"Dutch .*|.*\(Dutch\)|Netherlands", "#e67e22", [], 1, (5.3, 52.1)),
     ("kie", "Kiev Rus", ["1100"], r"Kievan Rus", "#4f7d4f", [], 0, None),
     ("khm", "Khmer İmparatorluğu", ["1100"], r"Khmer Empire", "#16a085", [], 0, None),
@@ -310,8 +337,8 @@ def portreler():
     os.makedirs(PR, exist_ok=True)
     os.makedirs(os.path.dirname(SPRITE), exist_ok=True)
     n = len(PORTRE)
-    tab = Image.new("RGB", (SUTUN * HUCRE, ((n + SUTUN - 1) // SUTUN) * HUCRE), (24, 24, 24))
-    for i, (k, ad, dosya, lis, eser, (cx, cy, s)) in enumerate(PORTRE):
+    tab = Image.new("RGB", (SUTUN * HUCRE, ((n + SUTUN - 1) // SUTUN) * HUCRE_Y), (24, 24, 24))
+    for i, (k, ad, dosya, lis, eser, kirp) in enumerate(PORTRE):
         p = os.path.join(PR, k + ".jpg")
         if not os.path.exists(p):
             q = urllib.parse.urlencode({"action": "query", "format": "json", "prop": "imageinfo",
@@ -323,10 +350,34 @@ def portreler():
             time.sleep(2)   # Commons art arda istekte 429 veriyor (17 Kas, ölçüldü)
         im = Image.open(p).convert("RGB")
         W, H = im.size
-        a = s * W
+        if kirp is None:   # hat levhası: tamamı parşömen üstünde, kenar boşluklu
+            from PIL import ImageOps
+            g = ImageOps.invert(im.convert("L"))
+            bb = g.point(lambda v: 255 if v > 40 else 0).getbbox() or (0, 0, W, H)
+            yazi = im.crop(bb)
+            pay = int(HUCRE * 0.05)
+            yazi.thumbnail((HUCRE - 2 * pay, HUCRE_Y - 2 * pay), Image.LANCZOS)
+            # mürekkep (koyu) → koyu kahve, kâğıt → parşömen
+            m = ImageOps.invert(yazi.convert("L"))
+            c = Image.new("RGB", (HUCRE, HUCRE_Y), (236, 224, 196))
+            c.paste(Image.new("RGB", yazi.size, (70, 40, 20)), ((HUCRE - yazi.width) // 2, (HUCRE_Y - yazi.height) // 2), m)
+            tab.paste(c, ((i % SUTUN) * HUCRE, (i // SUTUN) * HUCRE_Y))
+            continue
+        cx, cy, s = kirp
+        # Emre, 17 Kas: portre çerçeveye TAM sığsın, yarım yüz olmasın. Kırpma verisi yüzün
+        # karesidir; pencere BAŞ + OMUZ olacak kadar genişletilir (dikey 3:4), yüz üst
+        # üçte birde kalır, pencere resmin dışına taşmaz (kayar; sığmazsa oranı koruyup küçülür).
         x, y = cx / 10 * W, cy / 10 * H
-        c = im.crop((int(x - a / 2), int(y - a / 2), int(x + a / 2), int(y + a / 2))).resize((HUCRE, HUCRE), Image.LANCZOS)
-        tab.paste(c, ((i % SUTUN) * HUCRE, (i // SUTUN) * HUCRE))
+        gw = s * W * GENIS
+        gh = gw * HUCRE_Y / HUCRE
+        if gw > W:
+            gw, gh = W, W * HUCRE_Y / HUCRE
+        if gh > H:
+            gh, gw = H, H * HUCRE / HUCRE_Y
+        x0 = min(max(x - gw / 2, 0), W - gw)
+        y0 = min(max(y - gh * 0.40, 0), H - gh)
+        c = im.crop((int(x0), int(y0), int(x0 + gw), int(y0 + gh))).resize((HUCRE, HUCRE_Y), Image.LANCZOS)
+        tab.paste(c, ((i % SUTUN) * HUCRE, (i // SUTUN) * HUCRE_Y))
     tab.save(SPRITE, quality=80, optimize=True, progressive=True)
     print("portre tabakası: %d yüz, %d B" % (n, os.path.getsize(SPRITE)))
 
@@ -395,6 +446,12 @@ def amblemler():
     print("amblem tabakası: %d amblem, %d B" % (n, os.path.getsize(ASPRITE)))
 
 
+def ozet(yol):
+    """Tabaka adresine içerik özeti: düzen değişince (kare → 3:4) eski önbellek yüzleri kaydırmasın."""
+    import hashlib
+    return hashlib.md5(open(yol, "rb").read()).hexdigest()[:8]
+
+
 def js(x):
     return json.dumps(x, ensure_ascii=False, separators=(",", ":"))
 
@@ -427,8 +484,16 @@ def main():
             o["dunya"] = 1
             o["yol"] = dunya_yolu(g)
         else:
-            o["yol"], o["zemin"] = yol_uret(g, 0.01, kara_zemin)
+            # Zemin yazılmaz (Emre, 17 Kas: haritalar dörtgen içinde değil); çerçeve oranı
+            # (şekil 1,18 kat pay) zeminli üretimle aynı kalsın diye zemin yine hesaplanır.
+            o["yol"], zm = yol_uret(g, 0.01, kara_zemin)
+            if galeri:
+                o["zemin"] = zm
         ogeler.append(o)
+        if k == "biz":   # dinî şahsiyetler: tarihî dalganın ilk beş haritasından sonra
+            for yk, yad, ylon, ylat, ykis in YALNIZ:
+                ogeler.append({"k": yk, "ad": yad, "yil": "", "lon": ylon, "lat": ylat, "dalga": 2,
+                               "yalniz": 1, "kisi": [PI[x] for x in ykis], "kaynak": "kişi kartı"})
         print("%-4s %-28s %-7s %6d B zemin %5d B %s" % (k, ad, o["yil"], len(o["yol"]), len(o.get("zemin", "")), "DÜNYA" if dunya else ""))
 
     kara_duz = dunya_yolu(kara, 4)       # dünya öğelerinin zemini (eşdikdörtgen)
@@ -439,6 +504,8 @@ def main():
     if galeri:
         hucre = []
         for o in ogeler:
+            if o.get("yalniz"):
+                continue
             if o.get("dunya"):
                 svg = "<svg viewBox='0 0 360 180' width='300'><path d='%s' fill='#3d5163'/><path d='%s' fill='%s' stroke='#fff' stroke-width='.6'/></svg>" % (kara_duz, o["yol"], o["renk"])
             elif o.get("zemin"):
@@ -465,9 +532,9 @@ def main():
             "window.ACILIS_SILUET = {\n"
             "  kure: " + js(kara_kure) + ",\n"
             "  kara: " + js(kara_duz) + ",\n"
-            "  portre: " + js({"url": "img/acilis/portreler.jpg", "hucre": HUCRE, "sutun": SUTUN}) + ",\n"
+            "  portre: " + js({"url": "img/acilis/portreler.jpg?v=" + ozet(SPRITE),"hucre": HUCRE, "yuk": HUCRE_Y, "sutun": SUTUN}) + ",\n"
             "  kisiler: " + js(kisiler) + ",\n"
-            "  amblem: " + js({"url": "img/acilis/amblemler.webp", "hucre": AHUCRE, "sutun": SUTUN}) + ",\n"
+            "  amblem: " + js({"url": "img/acilis/amblemler.webp?v=" + ozet(ASPRITE),"hucre": AHUCRE, "sutun": SUTUN}) + ",\n"
             "  final: " + js(final) + ",\n"
             "  ogeler: [\n" + ",\n".join("    " + js(o) for o in ogeler) + "\n  ]\n};\n"
             "/* <<< VERI */")

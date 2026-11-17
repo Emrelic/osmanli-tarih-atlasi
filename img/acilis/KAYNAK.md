@@ -11,7 +11,7 @@
   atlasın ölçü verisi değildir; atlasın kendi sınırları için haritanın kendisine bakılır.
 - Kara zemini ve küre dokusu: Natural Earth 10m land (kamu malı).
 
-## Portreler (`portreler.jpg`, 38 yüz, 8 sütunlu tabaka)
+## Portreler (`portreler.jpg`, 51 kart, 8 sütunlu tabaka)
 Kaynak: Wikimedia Commons. Kamu malı olmayan eserler **CC BY-SA**; yüz kırpması bu
 eserlerden uyarlamadır ve aynı lisansla paylaşılır.
 
@@ -55,6 +55,23 @@ eserlerden uyarlamadır ve aynı lisansla paylaşılır.
 | Büyük İskender | Alexander_Mosaic_detail_of_Alexander_the_Great_(3x4_cropped).jpg | Kamu malı | |
 | Cengiz Han | YuanEmperorAlbumGenghisPortrait.jpg | Kamu malı | |
 | Kubilay Han | YuanEmperorAlbumKhubilaiPortrait.jpg | Kamu malı | |
+| Shakespeare | Shakespeare.jpg | Kamu malı | John Taylor (atf.) |
+| Jeanne d'Arc | Ingres coronation charles vii.jpg | Kamu malı | J.-A.-D. Ingres |
+| Vasco da Gama | Vasco da Gama - 1838.png | Kamu malı | António Manuel da Fonseca |
+| Denizci Henrique | Henry the Navigator1.jpg | Kamu malı | Nuno Gonçalves |
+| Kangxi | Portrait of the Kangxi Emperor in Court Dress.jpg | Kamu malı | Qing saray ressamı |
+| I. Şah Abbas | Shah abbas I by Bishn Das.jpg | Kamu malı | Bişan Das |
+| Şah İsmail | Portrait of Shah Ismail I. Inscribed "Ismael Sophy Rex Pers". Painted by Cristofano dell'Altissimo, dated 1552-1568.jpg | Kamu malı | Cristofano dell'Altissimo |
+| Hz. Muhammed (adı, hat) | Muhammad (name).png | CC BY 3.0 | Morgan Phoenix |
+| Hz. İsa | Christ Pantocrator Deesis mosaic Hagia Sophia.jpg | Kamu malı | Ayasofya Deesis mozaiği |
+| Hz. Musa | Moses Icon Sinai 13th century detail.jpg | Kamu malı | Sina, Ayia Ekaterini ikonu |
+| Buda | Gandhara Buddha (tnm).jpeg | Kamu malı | Gandhara heykeli, Tokyo Ulusal Müzesi |
+| Konfüçyüs | Confucius Tang Dynasty.jpg | Kamu malı | Wu Daozi ardılı taş baskı |
+| Martin Luther | Lucas Cranach d.Ä. - Martin Luther, 1528 (Veste Coburg).jpg | Kamu malı | Lucas Cranach (Yaşlı) |
+
+Portreler dikey 3:4 kırpılır (baş + omuz, pencere resmin dışına taşmaz). Hz. Muhammed
+tasvir edilmez: adının hat yazısı parşömen üstünde gösterilir. Dinî şahsiyetler bir haritaya
+bağlı değildir, kendi yerlerinden (Medine, Kudüs, Sina, Bodh Gaya, Qufu, Wittenberg) fırlar.
 
 Dosya sayfası: `https://commons.wikimedia.org/wiki/File:<dosya adı>`.
 
@@ -92,5 +109,5 @@ arması parşömen yuvarlak üstüne kondu — bu uyarlamalar aynı lisansla pay
 uygun dosya bulunamadı.
 
 **Elenenler:** Kiros (madde görseli modern kabartma, CC BY-SA, portre değil) ·
-Hârûnürreşîd (yalnız sikke) · Konfüçyüs (Han fresko, 112 px'te okunmuyor) ·
+Hârûnürreşîd (yalnız sikke) · Konfüçyüs'ün Han freskosu (okunmuyor; yerine Tang taş baskısı alındı) ·
 I. Dârâ (kabartma, okunmuyor) · Mao (siyasî; Emre'ye sorulmadan eklenmedi).
