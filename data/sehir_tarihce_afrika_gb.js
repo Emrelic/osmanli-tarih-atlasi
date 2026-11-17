@@ -1,5 +1,5 @@
-// ŞEHİR TARİHÇESİ — AFRIKA_GB · üretici: arac/sehir_tarihce.py · şema: VERI-YAPISI.md
-// Motor/denetle/site OKUMAZ — araştırma birikimi. Elle düzenleme: JSON'u düzelt, yeniden üret.
+// ŞEHİR TARİHÇESİ — AFRIKA_GB · üretici: arac/sehir_tarihce.py · şema: VERI-YAPISI.md
+// Motor/denetle/site OKUMAZ — araştırma birikimi. Elle düzenleme: JSON'u düzelt, yeniden üret.
 window.SEHIR_TARIHCE_AFRIKA_GB = [
  {
   "id": "abeokuta-ng-p3",
@@ -4645,16 +4645,7 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
   },
   "ark": null,
   "bit": null,
-  "sahip": [
-   {
-    "f": "1100-01-01",
-    "t": "1281-01-01",
-    "d": "__BOSLUK__",
-    "kesinlik": "yil",
-    "kaynak": "TDV İslâm Ansiklopedisi, 'Tinbüktü' (Ahmet Kavas), c. 41, İstanbul 2012, s. 190-192, https://islamansiklopedisi.org.tr/tinbuktu; TDV İslâm Ansiklopedisi, 'Mali' (Ahmet Kavas), c. 27, İstanbul 2003, s. 493-504, https://islamansiklopedisi.org.tr/mali",
-    "ic_not": "BOŞLUK (şehir var, sahibi kaynakta bulunamadı): TDV Tinbüktü şehrin ilk tarihli siyasî bağını Mansa Mûsâ dönemine (729 h./1329, 'Mali hâkimiyeti 1430'a kadar') bağlar; 1100-1281 arasında Gâne/Murâbıt/Susu/Tevârik sahibi için tarihli tanık bulunamadı."
-   }
-  ],
+  "sahip": [],
   "olay": [
    {
     "t": "1100-01-01",
