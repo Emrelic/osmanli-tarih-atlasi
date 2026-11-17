@@ -3035,5 +3035,375 @@
     "kanit": "Kikwit, town and river port, southwestern Democratic Republic of the Congo."
    }
   ]
+ },
+ {
+  "id": "benguela-ao-p3",
+  "ad": "Benguela",
+  "atlas_ad": "Benguela",
+  "lat": -12.5767,
+  "lon": 13.4027,
+  "kat1900": 2,
+  "adlar": [
+   "Benguela",
+   "Benguella"
+  ],
+  "ilk": {
+   "t": "1617-01-01",
+   "gun": "1617",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Britannica, 'Benguela' (britannica.com/place/Benguela), tarayicida okundu 17 Kasim 2026",
+   "tanik": "The city was founded in 1617 around São Filipe fortress"
+  },
+  "kur": {
+   "t": "1617-01-01",
+   "gun": "1617",
+   "kesinlik": "yil",
+   "kaynak": "Britannica, 'Benguela'",
+   "tanik": "The city was founded in 1617 around São Filipe fortress"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1617-01-01",
+    "t": "1617-05-17",
+    "d": "portekiz-angola",
+    "kesinlik": "yil",
+    "kaynak": "Britannica, 'Benguela': Portekiz kalesi etrafinda kurulus, 'one of the bases for Portuguese expansion in Africa'"
+   }
+  ],
+  "olay": [],
+  "ic_not": "TEK KAYNAK. Tanik ozne zamir = madde konusu; baslik sehir. Gun kaynakta yok (yil), atlas baslangicina (1617-05-17) <=1 yil uzatildi (beyanli dikis); sahip dönemi atlasin ilk sahibi portekiz-angola ile ayni kunye olarak yazildi (kunye 1617'de acilmamis olabilir; hayalet uyarisi beklenir)."
+ },
+ {
+  "id": "blantyre-mw-p3",
+  "ad": "Blantyre",
+  "atlas_ad": "Blantyre",
+  "lat": -15.785,
+  "lon": 35.0085,
+  "kat1900": 2,
+  "adlar": [
+   "Blantyre"
+  ],
+  "ilk": {
+   "t": "1876-01-01",
+   "gun": "1876",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Britannica, 'Blantyre' (britannica.com/place/Blantyre-Malawi), tarayicida okundu 17 Kasim 2026",
+   "tanik": "Blantyre was founded in 1876 as a Church of Scotland mission station"
+  },
+  "kur": {
+   "t": "1876-01-01",
+   "gun": "1876",
+   "kesinlik": "yil",
+   "kaynak": "Britannica, 'Blantyre'",
+   "tanik": "Blantyre was founded in 1876 as a Church of Scotland mission station"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1883-01-01",
+    "gun": "1883",
+    "k": "diger",
+    "b": "Britanya konsolosluk merkezi oldu (gun kaynakta yok)",
+    "kaynak": "Britannica, 'Blantyre': 'It became a British consular post in 1883' (ozne zamir = madde konusu)"
+   },
+   {
+    "t": "1895-01-01",
+    "gun": "1895",
+    "k": "diger",
+    "b": "belediye statusu kazandi (gun kaynakta yok)",
+    "kaynak": "Britannica, 'Blantyre': 'attained municipal status in 1895' (ozne zamir = madde konusu)"
+   }
+  ],
+  "ic_not": "TEK KAYNAK. Atlas noktasi 1876-01-01'de basliyor = ilk.t; zincir gerekmez. Gun kaynakta yok; yil hassasiyeti."
+ },
+ {
+  "id": "george-za-p3",
+  "ad": "George",
+  "atlas_ad": null,
+  "lat": -33.963,
+  "lon": 22.4617,
+  "kat1900": 2,
+  "adlar": [
+   "George"
+  ],
+  "ilk": {
+   "t": "1811-01-01",
+   "gun": "1811",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'George' (South Africa), https://www.britannica.com/place/George-South-Africa",
+   "tanik": "It was founded in 1811 as the first British settlement in the Cape Colony",
+   "ic_not": "TEK KAYNAK. özne zamir = madde konusu; başlık şehir. Gün kaynakta yok; yıl hassasiyeti (YYYY-01-01). Atlas noktası yok."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1811-01-01",
+    "t": "1900-01-01",
+    "d": "cape-ingiliz",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, 'George' (South Africa), https://www.britannica.com/place/George-South-Africa — «first British settlement in the Cape Colony»",
+    "ic_not": "Kaynak 1811'de kuruluşu 'Cape Colony içinde İngiliz yerleşimi' olarak verir; cape-ingiliz künyesi 1795/1806-1910 (devletler.js). 1900'e kadar zincir kesintisiz sürdü varsayımı değil: Britannica şehrin sonraki sahip değişimini anmaz, Cape Kolonisi 1910'a dek sürer."
+   }
+  ],
+  "olay": [],
+  "ic_not": "TEK KAYNAK (Britannica). Diğer kaynaklarla çift teyit aranmadı (bütçe)."
+ },
+ {
+  "id": "kimberley-za-p3",
+  "ad": "Kimberley",
+  "atlas_ad": null,
+  "lat": -28.7323,
+  "lon": 24.7623,
+  "kat1900": 2,
+  "adlar": [
+   "Kimberley",
+   "New Rush (ilk kamp adı)"
+  ],
+  "ilk": {
+   "t": "1871-01-01",
+   "gun": "1871",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "encyclopedia.com, 'Kimberley (South Africa)' maddesi (ilk blok; alt yayın adı sayfada okunmadı), güncelleme 14 Mayıs 2018, https://www.encyclopedia.com/places/africa/south-african-political-geography/kimberley-south-africa",
+   "tanik": "It was founded in 1871 after the discovery of diamonds nearby.",
+   "ic_not": "TEK KAYNAK. Özne zamir = madde konusu; başlık şehir. Kaynakta ilk kayıt tek yıl (1871). Not: Britannica 1911 'Kimberley' 1870 verir (okunmadı, çelişki hakemli karara bırakıldı); kesin kuruluş 1870/1871 ayrımı çözülmedi, encyclopedia.com yılı alındı. Sahip: kaynakta devlet ifadesi yok; 1871-1900 BOŞLUK beyanlı."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1871-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "encyclopedia.com 'Kimberley (South Africa)' maddesi: devlet adı verilmemiş",
+    "ic_not": "BOŞLUK: kaynakta 'şu yer, şu yılda, şu devletin' ifadesi bulunamadı; sahip tanığı borç."
+   }
+  ],
+  "olay": [],
+  "ic_not": "Tarihçe yalnız kuruluş yılı içerir; TEK KAYNAK."
+ },
+ {
+  "id": "kroonstad-za-p3",
+  "ad": "Kroonstad",
+  "atlas_ad": null,
+  "lat": -27.6504,
+  "lon": 27.2349,
+  "kat1900": 2,
+  "adlar": [
+   "Kroonstad"
+  ],
+  "ilk": {
+   "t": "1855-01-01",
+   "gun": "1855",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "The Columbia Encyclopedia, 6th ed., 'Kroonstad' maddesi (encyclopedia.com), https://encyclopedia.com/reference/encyclopedias-almanacs-transcripts-and-maps/kroonstad ; Encyclopaedia Britannica, 'Kroonstad' (Britannica Editors), https://www.britannica.com/place/Kroonstad",
+   "tanik": "Kroonstad was founded in 1855.",
+   "ic_not": "ÇİFT TEYİT. Birinci tanık Columbia 6th ed. (Kroonstad was founded in 1855.); ikinci tanık Britannica: 'Founded in 1855, it served briefly as the Boer capital of the Orange Free State' (özne zamir = madde konusu; başlık şehir). Bağımsızlık: ayrı yayıncı (Columbia Univ. Press/Gale-encyclopedia.com vs Britannica); cümleler farklı; ikisi de kısa ansiklopedi maddesi, kaynakçasız; ortak birincil dayanak kanıtı bulunamadı (kopya kanıtı yok, ancak aynı tipte ikincil derleme olduğundan bağımsızlık zayıf-orta). Sahip: kaynakta devlet adı yok; BOŞLUK beyanlı."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1855-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Columbia Encyclopedia 6th ed. 'Kroonstad': 1900'de Orange Free State başkenti anılır ama 1855-1900 sahip yılı/ devlet tanığı yok",
+    "ic_not": "BOŞLUK: sahip tanığı borç (Orange Free State ifadesi yalnız 1900 olayında)."
+   }
+  ],
+  "olay": [],
+  "ic_not": "Tarihçe yalnız kuruluş yılı içerir; ÇİFT TEYİT."
+ },
+ {
+  "id": "kisangani-cd-p3",
+  "ad": "Kisangani",
+  "atlas_ad": null,
+  "lat": 0.5153,
+  "lon": 25.191,
+  "kat1900": 2,
+  "adlar": [
+   "Kisangani",
+   "Stanleyville"
+  ],
+  "ilk": {
+   "t": "1883-01-01",
+   "gun": "1883",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "encyclopedia.com, 'Kisangani' maddesi (World Encyclopedia), https://www.encyclopedia.com/environment/encyclopedias-almanacs-transcripts-and-maps/kisangani",
+   "tanik": "English explorer Henry M. Stanley founded Kisangani in 1883.",
+   "ic_not": "TEK KAYNAK. Cümlede şehir adı ve yıl var. Kisangani ad olarak 1966 sonrası; kuruluş Stanley Falls Station/ Stanleyville. Sahip: kaynakta devlet ifadesi yok; BOŞLUK beyanlı."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1883-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "encyclopedia.com 'Kisangani' maddesi: devlet adı verilmemiş",
+    "ic_not": "BOŞLUK: sahip tanığı borç."
+   }
+  ],
+  "olay": [],
+  "ic_not": "Tarihçe yalnız kuruluş yılı içerir; TEK KAYNAK."
+ },
+ {
+  "id": "jamestown-sh-p3",
+  "ad": "Jamestown",
+  "atlas_ad": "Jamestown (Saint Helena)",
+  "lat": -15.9249,
+  "lon": -5.7182,
+  "kat1900": 2,
+  "adlar": [
+   "Jamestown"
+  ],
+  "ilk": {
+   "t": "1659-01-01",
+   "gun": "1659",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, «Jamestown, St. Helena» (Britannica Editors), https://www.britannica.com/place/Jamestown-Saint-Helena (tarayıcı sayfa okuma, 17 Kasım 2026)",
+   "tanik": "The town was founded in 1659, when the British East India Company built a fort"
+  },
+  "kur": {
+   "t": "1659-01-01",
+   "gun": "1659",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, «Jamestown, St. Helena» (Britannica Editors), https://www.britannica.com/place/Jamestown-Saint-Helena (tarayıcı sayfa okuma, 17 Kasım 2026)",
+   "tanik": "The town was founded in 1659, when the British East India Company built a fort"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [],
+  "ic_not": "TEK KAYNAK: Britannica. Özne 'The town' = madde konusu; başlık şehir. Gün yok; YYYY-01-01 + yil. ATLAS: Jamestown noktası 1000-01-01'de __BOSLUK__ (ıssız ada) ile başlar, ilk sahip dönemi (ingiltere) 1659-01-01'dedir; kaynaklı kuruluş yılı 1659 ile uyumlu, atlas başlangıcı 1659'a çekilmeli (denetle UYARI; KASA'ya bildirilir). Sahip zinciri atlasta esastır, bu kayıtta yazılmadı. Encyclopedia.com 'Jamestown (port)' sayfası okunmadı, çift teyit sayılmadı."
+ },
+ {
+  "id": "kariega-za-p3",
+  "ad": "Kariega",
+  "atlas_ad": null,
+  "lat": -33.7556,
+  "lon": 25.4007,
+  "kat1900": 2,
+  "adlar": [
+   "Uitenhage",
+   "Kariega"
+  ],
+  "ilk": {
+   "t": "1804-01-01",
+   "gun": "1804",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, «Kariega» (Britannica Editors), https://www.britannica.com/place/Kariega (tarayıcı sayfa okuma, 17 Kasım 2026)",
+   "tanik": "It was founded in 1804 by J.A. Uitenhage de Mist, a Dutch governmental official"
+  },
+  "kur": {
+   "t": "1804-01-01",
+   "gun": "1804",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, «Kariega» (Britannica Editors), https://www.britannica.com/place/Kariega (tarayıcı sayfa okuma, 17 Kasım 2026)",
+   "tanik": "It was founded in 1804 by J.A. Uitenhage de Mist, a Dutch governmental official"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1804-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "BOŞLUK BEYANI: Encyclopaedia Britannica, «Kariega» (Britannica Editors), https://www.britannica.com/place/Kariega kuruluş/ilk anılış yılını verir, sahip değişimi vermez; VERI-YAPISI: sahibi bilinmiyorsa __BOSLUK__ + ic_not",
+    "ic_not": "Şehir kaynak yılından itibaren VAR (ilk.t), ama kaynak 1900'e kadar egemen devlet/sahip değişimi vermiyor; beyansız yaklaşıklık yazılmadı, boşluk beyan edildi. Sahip tanığı bulunursa dilimlere bölünür."
+   }
+  ],
+  "olay": [],
+  "ic_not": "TEK KAYNAK: Britannica. Özne zamir 'It' = madde konusu; başlık şehir. Gün yok; YYYY-01-01 + yil. Atlas noktası yok. Zincir: kaynakta şehrin 1804-1900 sahip değişimi yok → __BOSLUK__ (şehir var, sahibi bu kaynakta bilinmiyor; beyanlı, yaklaşıklık yok). Britannica kuruluşu Batavya Cumhuriyeti görevlisine bağlar ama şehrin egemenliğini belirtmez."
+ },
+ {
+  "id": "kananga-cd-p3",
+  "ad": "Kananga",
+  "atlas_ad": null,
+  "lat": -5.8962,
+  "lon": 22.4166,
+  "kat1900": 2,
+  "adlar": [
+   "Luluabourg",
+   "Kananga"
+  ],
+  "ilk": {
+   "t": "1884-01-01",
+   "gun": "1884",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, «Kananga» (Britannica Editors), https://www.britannica.com/place/Kananga (tarayıcı sayfa okuma, 17 Kasım 2026)",
+   "tanik": "It was named Luluabourg in 1884 by a German explorer"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1884-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "BOŞLUK BEYANI: Encyclopaedia Britannica, «Kananga» (Britannica Editors), https://www.britannica.com/place/Kananga kuruluş/ilk anılış yılını verir, sahip değişimi vermez; VERI-YAPISI: sahibi bilinmiyorsa __BOSLUK__ + ic_not",
+    "ic_not": "Şehir kaynak yılından itibaren VAR (ilk.t), ama kaynak 1900'e kadar egemen devlet/sahip değişimi vermiyor; beyansız yaklaşıklık yazılmadı, boşluk beyan edildi. Sahip tanığı bulunursa dilimlere bölünür."
+   }
+  ],
+  "olay": [],
+  "ic_not": "TEK KAYNAK: Britannica. Özne zamir 'It' = madde konusu; başlık şehir. Kaynak kuruluş değil ADLANDIRMA yılını verir ('bir Alman kâşif'; adı kaynakta yok); nicelik ilk_anilis. Gün yok; YYYY-01-01 + yil. Atlas noktası yok. Zincir: kaynak sahip değişimi tarihi vermez (1895'te 'Belçikalılara' karşı isyan anılır, devlet geçişi yok) → __BOSLUK__ beyanlı."
+ },
+ {
+  "id": "ilha-de-mocambique-mz-p3",
+  "ad": "Ilha de Moçambique",
+  "atlas_ad": null,
+  "lat": -15.0347,
+  "lon": 40.7345,
+  "kat1900": 2,
+  "adlar": [
+   "Moçambique",
+   "Ilha de Moçambique"
+  ],
+  "ilk": {
+   "t": "1507-01-01",
+   "gun": "1507",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, «Moçambique» (Britannica Editors), https://www.britannica.com/place/Mocambique (tarayıcı sayfa okuma, 17 Kasım 2026)",
+   "tanik": "Moçambique was originally an Arab settlement; the Portuguese settled there by 1507"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1507-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "BOŞLUK BEYANI: Encyclopaedia Britannica, «Moçambique» (Britannica Editors), https://www.britannica.com/place/Mocambique kuruluş/ilk anılış yılını verir, sahip değişimi vermez; VERI-YAPISI: sahibi bilinmiyorsa __BOSLUK__ + ic_not",
+    "ic_not": "Şehir kaynak yılından itibaren VAR (ilk.t), ama kaynak 1900'e kadar egemen devlet/sahip değişimi vermiyor; beyansız yaklaşıklık yazılmadı, boşluk beyan edildi. Sahip tanığı bulunursa dilimlere bölünür."
+   }
+  ],
+  "olay": [],
+  "ic_not": "TEK KAYNAK: Britannica. Cümlede ad + yıl var. 'by 1507' = en geç 1507 (Portekiz yerleşimi); Arap yerleşimi yılsız. Kuruluş türetilmedi. Atlas noktası yok. Zincir: kaynak devlet-düzeyi egemenlik tarihi vermez (yalnız 'Portuguese settled'; 1897'ye dek Portekiz Doğu Afrikası başkenti) → __BOSLUK__ beyanlı; Portekiz yerleşimi egemenlik tanığı sayılmadı."
  }
 ]

@@ -1,0 +1,37 @@
+[
+ {
+  "id": "george-za-p3",
+  "ad": "George",
+  "atlas_ad": null,
+  "lat": -33.963,
+  "lon": 22.4617,
+  "kat1900": 2,
+  "adlar": [
+   "George"
+  ],
+  "ilk": {
+   "t": "1811-01-01",
+   "gun": "1811",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'George' (South Africa), https://www.britannica.com/place/George-South-Africa",
+   "tanik": "It was founded in 1811 as the first British settlement in the Cape Colony",
+   "ic_not": "TEK KAYNAK. özne zamir = madde konusu; başlık şehir. Gün kaynakta yok; yıl hassasiyeti (YYYY-01-01). Atlas noktası yok."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1811-01-01",
+    "t": "1900-01-01",
+    "d": "cape-ingiliz",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, 'George' (South Africa), https://www.britannica.com/place/George-South-Africa — «first British settlement in the Cape Colony»",
+    "ic_not": "Kaynak 1811'de kuruluşu 'Cape Colony içinde İngiliz yerleşimi' olarak verir; cape-ingiliz künyesi 1795/1806-1910 (devletler.js). 1900'e kadar zincir kesintisiz sürdü varsayımı değil: Britannica şehrin sonraki sahip değişimini anmaz, Cape Kolonisi 1910'a dek sürer."
+   }
+  ],
+  "olay": [],
+  "ic_not": "TEK KAYNAK (Britannica). Diğer kaynaklarla çift teyit aranmadı (bütçe)."
+ }
+]
