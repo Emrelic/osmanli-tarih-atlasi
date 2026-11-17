@@ -1,0 +1,33 @@
+ad	ulke	durum	neden	nufus_geonames	dosya
+Bayamón	Porto Riko (ABD)	KALDI	nufus>=~50 bin (GeoNames place)	203499	karayip-orta-amerika
+Carolina	Porto Riko (ABD)	KALDI	nufus>=~50 bin (GeoNames place)	170404	karayip-orta-amerika
+Ponce	Porto Riko (ABD)	KALDI	nufus>=~50 bin (GeoNames place)	137491	karayip-orta-amerika
+Arecibo	Porto Riko (ABD)	KALDI	nufus>=~50 bin (GeoNames place)	87754	karayip-orta-amerika
+Caguas	Porto Riko (ABD)	KALDI	nufus>=~50 bin (GeoNames place)	86804	karayip-orta-amerika
+Guaynabo	Porto Riko (ABD)	KALDI	nufus>=~50 bin (GeoNames place)	81360	karayip-orta-amerika
+Trujillo Alto	Porto Riko (ABD)	KALDI	nufus>=~50 bin (GeoNames place)	75243	karayip-orta-amerika
+Mayagüez	Porto Riko (ABD)	KALDI	nufus>=~50 bin (GeoNames place)	73077	karayip-orta-amerika
+Fajardo	Porto Riko (ABD)	SILINDI	belediye-duzeyi; onemli sehir/bolge merkezi olcutune uymuyor (GeoNames PPLA belediye merkezi)	32124	karayip-orta-amerika
+Vega Baja	Porto Riko (ABD)	SILINDI	belediye-duzeyi; onemli sehir/bolge merkezi olcutune uymuyor (GeoNames PPLA belediye merkezi)	29325	karayip-orta-amerika
+Barceloneta	Porto Riko (ABD)	SILINDI	belediye-duzeyi; onemli sehir/bolge merkezi olcutune uymuyor (GeoNames PPLA belediye merkezi)	22322	karayip-orta-amerika
+Guayama	Porto Riko (ABD)	SILINDI	belediye-duzeyi; onemli sehir/bolge merkezi olcutune uymuyor (GeoNames PPLA belediye merkezi)	21575	karayip-orta-amerika
+Humacao	Porto Riko (ABD)	SILINDI	belediye-duzeyi; onemli sehir/bolge merkezi olcutune uymuyor (GeoNames PPLA belediye merkezi)	20387	karayip-orta-amerika
+Yauco	Porto Riko (ABD)	SILINDI	belediye-duzeyi; onemli sehir/bolge merkezi olcutune uymuyor (GeoNames PPLA belediye merkezi)	20295	karayip-orta-amerika
+Cayey	Porto Riko (ABD)	SILINDI	belediye-duzeyi; onemli sehir/bolge merkezi olcutune uymuyor (GeoNames PPLA belediye merkezi)	18494	karayip-orta-amerika
+Koungou	Mayotte (Fransa)	KALDI	adanin ust siradaki/tarihi merkezi	18118	adalar-ek
+Dembeni	Mayotte (Fransa)	KALDI	adanin ust siradaki/tarihi merkezi	10141	adalar-ek
+Sada	Mayotte (Fransa)	SILINDI	belediye-duzeyi; onemli sehir/bolge merkezi olcutune uymuyor (GeoNames PPLA belediye merkezi)	9832	adalar-ek
+Bandraboua	Mayotte (Fransa)	SILINDI	belediye-duzeyi; onemli sehir/bolge merkezi olcutune uymuyor (GeoNames PPLA belediye merkezi)	7880	adalar-ek
+Mtsamboro	Mayotte (Fransa)	SILINDI	belediye-duzeyi; onemli sehir/bolge merkezi olcutune uymuyor (GeoNames PPLA belediye merkezi)	7724	adalar-ek
+Tsingoni	Mayotte (Fransa)	KALDI	adanin ust siradaki/tarihi merkezi	7602	adalar-ek
+Ouangani	Mayotte (Fransa)	SILINDI	belediye-duzeyi; onemli sehir/bolge merkezi olcutune uymuyor (GeoNames PPLA belediye merkezi)	7272	adalar-ek
+Chiconi	Mayotte (Fransa)	SILINDI	belediye-duzeyi; onemli sehir/bolge merkezi olcutune uymuyor (GeoNames PPLA belediye merkezi)	7204	adalar-ek
+Bandrele	Mayotte (Fransa)	SILINDI	belediye-duzeyi; onemli sehir/bolge merkezi olcutune uymuyor (GeoNames PPLA belediye merkezi)	6350	adalar-ek
+Chirongui	Mayotte (Fransa)	SILINDI	belediye-duzeyi; onemli sehir/bolge merkezi olcutune uymuyor (GeoNames PPLA belediye merkezi)	6173	adalar-ek
+Bouéni	Mayotte (Fransa)	SILINDI	belediye-duzeyi; onemli sehir/bolge merkezi olcutune uymuyor (GeoNames PPLA belediye merkezi)	5334	adalar-ek
+M'Tsangamouji	Mayotte (Fransa)	KALDI	adanin ust siradaki/tarihi merkezi	5028	adalar-ek
+Kani-Kéli	Mayotte (Fransa)	SILINDI	belediye-duzeyi; onemli sehir/bolge merkezi olcutune uymuyor (GeoNames PPLA belediye merkezi)	4854	adalar-ek
+Acoua	Mayotte (Fransa)	SILINDI	belediye-duzeyi; onemli sehir/bolge merkezi olcutune uymuyor (GeoNames PPLA belediye merkezi)	4622	adalar-ek
+Mamoudzou	Mayotte (Fransa)	EKLENDI	Mayotte'un merkezi; listede yoktu; 'kalsin' kapsaminda eksik tamamlandi (GeoNames PPLC id 921815)	71437 (ADM1) / 54831 (PPLC)	adalar-ek
+Vingt Cinq	Mauritius	SILINDI	Mauritius dis adasi (Agalega/Cargados Carajos), bolge merkezi olcutu disi; konum bayragi 300 km sapma kontrolu (UMIT 17 Kasim)		adalar-ek/LISTE.tsv
+Cargados Carajos	Mauritius	SILINDI	Mauritius dis adasi (Agalega/Cargados Carajos), bolge merkezi olcutu disi; konum bayragi 300 km sapma kontrolu (UMIT 17 Kasim)		adalar-ek/LISTE.tsv
