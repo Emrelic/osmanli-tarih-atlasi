@@ -34,8 +34,12 @@ p.add_argument("--esik", type=float, default=1000.0, help="tabloya girecek en k�
 p.add_argument("--devlet", default="", help="yalnız bu devlet(ler) (virgüllü); boş = hepsi")
 p.add_argument("--gunler", default="", help="virgüllü günler: o günü kapsayan dönemlerin taban/<=5/<=7/<=10 tablosu")
 p.add_argument("--tani", default="", help="TANI: bu devletin gövdesini aşama aşama ayrıştır")
+p.add_argument("--dolgu", default="", help="B DOLGU ÖLÇÜMÜ: virgüllü günler; her bant gövdesiyle 5/7/10 gün yarıçaplı dolgu talebi/yazılan km²")
+p.add_argument("--komsu-esik", type=float, default=0.5,
+               help="'komşu genişledi' sınıfı: kaybolan alanın komşunun bant gövdesiyle örtüşme oranı >= bu")
 a = p.parse_args()
 lo, hi = a.aralik.split(",")
+_BANT_GEO = {}      # (bütçe_saat, devlet, dönem_f) -> (bant gövdesi, dönem_t); motor DEĞİŞMEZ
 
 src, _sha = U._motor_kesiti(a.kutu, "bant-sonrasi")
 if a.devlet:
@@ -50,17 +54,38 @@ if src.count(capa) != 1:
     raise SystemExit("tarihler çapası %d kez geçti — alet güncellenmeli" % src.count(capa))
 src = src.replace(capa, (
     "_t_ilk, _t_son = tarihler[0], tarihler[-1]\n"
-    "tarihler = [t for t in tarihler if %r <= t <= %r]\n"
+    "tarihler = [t for t in tarihler if gn(%r) <= gn(t) <= gn(%r)]\n"
     "if not tarihler or tarihler[0] != %r: tarihler.insert(0, %r)\n"
     "if len(tarihler) < 2: tarihler.append(_t_son)\n" % (lo, hi, lo, lo)
 ) + capa, 1)
+
+_ic2 = "            _bant_alan_dnm[(_did, _f)] = _ham_km2(_u)\n"
+if src.count(_ic2) != 1:
+    raise SystemExit("bant alan çapası %d kez geçti — alet güncellenmeli" % src.count(_ic2))
+src = src.replace(_ic2, _ic2 + "            _BANT_GEO[(_bs, _did, _f)] = (_u, _t)\n", 1)
+
+# taban gövde alanı seyreltmeden ÖNCE de ölçülür (tabana giden hattın hangi aşaması alan kaybettiriyor?)
+_ic3 = "DEV_HALKA = seyrelt(DEV_HALKA, DEV_PARCA, DEVLET_KAYIT, _don, SEYRELT_TOL, _SEYRELT_SAYAC)\n"
+if src.count(_ic3) != 1:
+    raise SystemExit("seyrelt çapası %d kez geçti — alet güncellenmeli" % src.count(_ic3))
+src = src.replace(_ic3, (
+    "import dolgu as _dgx\n"
+    "_PRE_SEY = {}\n"
+    "for _d in DEVLET_KAYIT:\n"
+    "    for _q in _d['dnm']:\n"
+    "        if _q.get('g'):\n"
+    "            _gx = _dgx._coz(_q['g'], DEV_HALKA, DEV_PARCA)\n"
+    "            _PRE_SEY[(_d['id'], _q['f'])] = _ham_km2(_gx)\n"
+    "            if _d['id'] in %r: _PRE_GEO[(_d['id'], _q['f'])] = _gx\n" % (tuple(x for x in a.tani.split(",") if x),)
+) + _ic3, 1)
 
 os.environ["MOTOR_YURUYUS"] = "1"
 os.environ["MOTOR_YURUYUS_SAAT"] = "40"
 os.environ["MOTOR_UFUK_BANT"] = "40,56,80"
 os.environ["MOTOR_EGIM_AB_KAPALI"] = "1"
 os.environ["MOTOR_NEHIR_AB_KAPALI"] = "1"
-NS = {"__name__": "__main__", "__file__": U.ANA_MOTOR}
+_PRE_GEO = {}
+NS = {"__name__": "__main__", "__file__": U.ANA_MOTOR, "_BANT_GEO": _BANT_GEO, "_PRE_GEO": _PRE_GEO}
 t0 = time.time()
 exec(compile(src, U.ANA_MOTOR + " [BANT-GOVDE kesiti]", "exec"), NS)
 sure = time.time() - t0
@@ -86,34 +111,85 @@ for q in NS["donemler"]:
         tab[("OSMANLI", q["f"])] = NS["_ham_km2"](g)
 if TUM:
     b0 = min(TUM)
-    print("\n① TABAN BANT (<=5) ↔ yayın taban gövde (km²):")
-    fark_n = 0
-    for k, v in sorted(TUM[b0].items()):
+    print("\n① TABAN BANT ↔ taban gövde (km²). Referans bant = günün TABAN bütçesi: 1281 sonrası <=5 (40 sa),")
+    print("   1281 ÖNCESİ <=10 (80 sa; taban MÖ/öncesi bütçesiyle yürür). 'öncesi' = seyreltmeden ÖNCE taban;")
+    print("   'yayın' = seyreltme SONRASI. Hat eşitliği ölçütü: bant ↔ seyrelt-öncesi (±%0,1); seyreltme ayrı kalem.")
+    fark_n, sey_n = 0, 0
+    _sey_buyuk = []
+    gn_h = NS["gn"]
+    _t_h = {(kay[0], kay[1]): kay[2] for kay in NS["_BANT_AKTIF"]}
+    for k in sorted(TUM[b0]):
+        bref = max(TUM) if (k[0] != "OSMANLI" and gn_h(k[1]) < gn_h("1281-01-01")) else b0
+        v = TUM[bref].get(k)
         t = tab.get(k)
-        if t is None:
-            print("  %-26s %s  bant %8.0f  taban YOK" % (k[0], k[1], v))
+        pre = NS["_PRE_SEY"].get(k) if k[0] != "OSMANLI" else t
+        if t is None or v is None:
+            print("  %-26s %s  bant %s  taban %s" % (k[0], k[1], v, t))
             fark_n += 1
             continue
         if max(v, t) >= a.esik:
-            ok = abs(v - t) <= max(1.0, 0.001 * t)
+            ok = abs(v - pre) <= max(1.0, 0.001 * pre)
             fark_n += 0 if ok else 1
-            print("  %-26s %s  bant %9.0f  taban %9.0f  %s" % (
-                k[0], k[1], v, t, "✓" if ok else "FARK %.0f" % (v - t)))
-    print("  hat eşitliği ihlali: %d" % fark_n)
+            sey = (t - pre)
+            if abs(sey) > max(50.0, 0.005 * pre):
+                sey_n += 1
+                _sey_buyuk.append((abs(sey), k, pre, t))
+            print("  %-26s %s  bant<=%g %9.0f  öncesi %9.0f  yayın %9.0f  %s%s" % (
+                k[0], k[1], bref / 8.0, v, pre, t, "✓" if ok else "FARK %.0f" % (v - pre),
+                ("  [seyrelt %+.0f]" % sey) if abs(sey) > 0.5 else ""))
+    print("  hat eşitliği ihlali (bant ↔ seyrelt-öncesi): %d" % fark_n)
+    print("  seyrelt etkisi > max(50 km², %%0,5): %d dönem; en büyük 5:" % sey_n)
+    for r_ in sorted(_sey_buyuk, reverse=True)[:5]:
+        print("     %s %s: öncesi %.0f → yayın %.0f (%+.0f km²)" % (r_[1][0], r_[1][1], r_[2], r_[3], r_[3] - r_[2]))
     print("\n② MONOTONLUK (km²):")
     sira = sorted(TUM)
     ih = 0
+    gn_m = NS["gn"]
+    _t_of = {(kay[0], kay[1]): kay[2] for kay in NS["_BANT_AKTIF"]}
+
+    def _komsu_orani(k, b1, b2):
+        """Kaybolan (b1 − b2) alanın, AYNI günlerde başka devletlerin b2 gövdesiyle örtüşme oranı."""
+        e1, e2 = _BANT_GEO.get((b1,) + k), _BANT_GEO.get((b2,) + k)
+        if e1 is None:
+            return None
+        g1 = e1[0]
+        g2 = e2[0] if e2 is not None else None
+        kayip = g1 if g2 is None else g1.difference(g2)
+        if kayip.is_empty or kayip.area <= 0:
+            return None
+        f, t = k[1], _t_of.get(k)
+        diger = [v[0] for (bb, d2, f2), v in _BANT_GEO.items()
+                 if bb == b2 and d2 != k[0] and gn_m(f2) < gn_m(t) and gn_m(f) < gn_m(v[1])]
+        if not diger:
+            return 0.0
+        from shapely.ops import unary_union as _uu
+        ort = kayip.intersection(_uu(diger))
+        return ort.area / kayip.area
+
+    ih_komsu = 0
     for k in sorted(TUM[b0]):
         vs = [TUM[b].get(k) for b in sira]
         if max(x or 0 for x in vs) < a.esik:
             continue
-        mono = all(vs[i] is not None and vs[i + 1] is not None and vs[i + 1] >= vs[i] * 0.995 - 50
-                   for i in range(len(vs) - 1))
-        ih += 0 if mono else 1
+        bozuk = [i for i in range(len(vs) - 1)
+                 if vs[i] is not None and (vs[i + 1] is None or vs[i + 1] < vs[i] * 0.995 - 50)]
+        etiket = ""
+        if bozuk:
+            sinif = []
+            for i in bozuk:
+                r = _komsu_orani(k, sira[i], sira[i + 1])
+                if r is not None and r >= a.komsu_esik:
+                    sinif.append("%g→%g: KOMŞU-GENİŞLEDİ (örtüşme %%%.0f)" % (sira[i], sira[i + 1], 100 * r))
+                else:
+                    sinif.append("%g→%g: GERÇEK-İHLAL (komşu örtüşmesi %s)" % (
+                        sira[i], sira[i + 1], "%%%.0f" % (100 * r) if r is not None else "?"))
+            gercek = any("GERÇEK" in x for x in sinif)
+            ih += 1 if gercek else 0
+            ih_komsu += 0 if gercek else 1
+            etiket = "MONOTON-İHLAL " + "; ".join(sinif)
         print("  %-26s %s  %s %s" % (k[0], k[1],
-              " / ".join("%.0f" % x if x is not None else "YOK" for x in vs),
-              "" if mono else "MONOTON-İHLAL"))
-    print("  monotonluk ihlali: %d" % ih)
+              " / ".join("%.0f" % x if x is not None else "YOK" for x in vs), etiket))
+    print("  monotonluk GERÇEK ihlal: %d · komşu-genişledi (ihlal sayılmaz, ayrı rapor): %d" % (ih, ih_komsu))
 
 # ④ GÜN TABLOSU: --gunler 0001-01-01,-0100-06-15 → o günü kapsayan her dönem için taban/<=5/<=7/<=10
 if a.gunler:
@@ -134,12 +210,59 @@ if a.tani:
     print("\n③ TANI %s (km²): hesap(None) → komşu çıkar → yayın taban | bant işlevi" % a.tani)
     for kay in NS["_BANT_AKTIF"]:
         did, f, t, ak = kay[:4]
-        if did != a.tani:
+        if did not in a.tani.split(","):
             continue
         aktif = frozenset(ak)
         g0, _k, _t = NS["_yabanci_govde_hesap"](did, aktif, f, sorted(aktif), None)
         g1 = NS["_komsu_toprak_cikar"](did, aktif, f, g0, None)
         gb = NS["_bant_yabanci_govde"](did, f, ak, None)
         km = NS["_ham_km2"]
-        print("  %s  hesap %9.0f  komşu-çıkar %9.0f  yayın %9.0f  bant-işlevi %9.0f  (|aktif|=%d)" % (
-            f, km(g0), km(g1), tab.get((did, f), -1), km(gb) if gb is not None else -1, len(ak)))
+        print("  %s  hesap %9.0f  komşu-çıkar %9.0f  seyrelt-öncesi %9.0f  yayın %9.0f  bant-işlevi %9.0f  (|aktif|=%d)" % (
+            f, km(g0), km(g1), NS["_PRE_SEY"].get((did, f), -1), tab.get((did, f), -1),
+            km(gb) if gb is not None else -1, len(ak)))
+        # seyrelt kaybı nerede? (önce/sonra farkı: alan, kutu, parça sayısı)
+        _pre = _PRE_GEO.get((did, f))
+        _post = None
+        for _d in NS["DEVLET_KAYIT"]:
+            if _d["id"] == did:
+                for _q in _d["dnm"]:
+                    if _q["f"] == f and _q.get("g"):
+                        _post = dolgu._coz(_q["g"], NS["DEV_HALKA"], NS["DEV_PARCA"])
+        if _pre is not None and _post is not None and abs(km(_pre) - km(_post)) > 2000:
+            _kayip = _pre.difference(_post)
+            _parc = sorted(getattr(_kayip, "geoms", [_kayip]), key=lambda x: -x.area)[:3]
+            print("      ↳ SEYRELT KAYBI %.0f km²: pre %d parça → post %d parça; en büyük kayıp parçalar (km², kutu): %s" % (
+                km(_pre) - km(_post), len(getattr(_pre, "geoms", [_pre])), len(getattr(_post, "geoms", [_post])),
+                "; ".join("%.0f %s" % (km(x), tuple(round(v, 2) for v in x.bounds)) for x in _parc)))
+
+# ⑤ B DOLGU ÖLÇÜMÜ (--dolgu GÜN,...): her bant gövdesi seti × dolgu yarıçapı (5/7/10 günlük)
+#    arac/dolgu.py kesit_dolgu o günkü BANT gövdeleriyle koşturulur; ölçülen: talep km²,
+#    yazılan km², çekişmeli km², parça sayısı/cinsi, engellenen, süre.
+if a.dolgu:
+    import dolgu as _dg
+    KARA = NS["KARA"]
+    kh = _dg.KaraIndeks(KARA)
+    gn_d = NS["gn"]
+    print("\n⑤ B DOLGU ÖLÇÜMÜ (km²): bant gövdesi × dolgu yarıçapı (gün → r = gün·40,32/2 km)")
+    for gun in a.dolgu.split(","):
+        for bs in sorted(TUM):
+            gov = [(did, v[0], (bs, did, f)) for (b_, did, f), v in _BANT_GEO.items()
+                   if b_ == bs and gn_d(f) <= gn_d(gun) < gn_d(v[1])]
+            tabanA = sum(NS["_ham_km2"](g) for _d, g, _a in gov)
+            for rg in (5.0, 7.0, 10.0):
+                rkm = rg * 40.32 / 2.0
+                t0 = time.time()
+                gov_r = [(d_, g_, (a_, rg)) for d_, g_, a_ in gov]
+                parc, rap = _dg.kesit_dolgu(gov_r, KARA, kh, r_km=rkm)
+                cins = {}      # cins -> "parça sayısı/km²"
+                _cn, _ca = {}, {}
+                for pc in parc:
+                    _cn[pc["cins"]] = _cn.get(pc["cins"], 0) + 1
+                    _ca[pc["cins"]] = _ca.get(pc["cins"], 0.0) + _dg._km2(pc["g"])
+                cins = {k_: "%d/%.0fkm2" % (_cn[k_], _ca[k_]) for k_ in _cn}
+                yaz = sum(_dg._km2(pc["g"]) for pc in parc)
+                print("  %s  bant<=%g  gövde %9.0f | dolgu r=%5.1f km (%g gün): talep %8.0f yazılan %8.0f (%%%.1f) "
+                      "çekişmeli %7.0f parça %3d %s engel %d  %.0f sn" % (
+                          gun, bs / 8.0, tabanA, rkm, rg, rap["talep_km2"], yaz,
+                          100.0 * yaz / tabanA if tabanA else 0, rap["cekismeli_km2"], len(parc),
+                          cins, len(rap["engellendi"]), time.time() - t0))
