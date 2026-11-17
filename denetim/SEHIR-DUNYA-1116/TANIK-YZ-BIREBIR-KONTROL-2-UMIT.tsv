@@ -1,0 +1,15 @@
+dosya	id	alan	url	innerText	textContent	sinif	karar
+dogu_borc_1	addis-ababa-et	ilk.kaynak (tanik)	https://www.britannica.com/place/Addis-Ababa	E	E	GOVDE	degisiklik yok — tanik birebir govde paragrafinda ("The city was thus founded in 1887 ...")
+dogu_borc_1	addis-ababa-et	olay[1887 kurulus].kaynak	https://www.britannica.com/place/Addis-Ababa	E	E	GOVDE	degisiklik yok — Taitu/Menilek, hot springs, land to nobility, 1887 ayni govde paragrafinda
+dogu_borc_1	addis-ababa-et	olay[1905 cevre].kaynak	https://www.britannica.com/place/Addis-Ababa	E	E	GOVDE	degisiklik yok — "In 1905 a large number of eucalyptus trees were imported from Australia"
+dogu_borc_1	addis-ababa-et	olay[1936 isgal].kaynak	https://www.britannica.com/place/Addis-Ababa	E	E	GOVDE	degisiklik yok — "capital of Italian East Africa from 1936 to 1941"
+dogu_borc_1	addis-ababa-et	olay[1941 kurtulus].kaynak	https://www.britannica.com/place/Addis-Ababa	E	E	GOVDE	degisiklik yok — ayni cumle (aralik sonu 1941)
+dogu_borc_1	addis-ababa-et	olay[1950 egitim].kaynak	https://www.britannica.com/place/Addis-Ababa	E	E	GOVDE	degisiklik yok — "Addis Ababa University (1950)"
+dogu_borc_2	kismayo-so	ilk.kaynak (tanik)	https://www.britannica.com/place/Kismaayo	E	E	GOVDE	degisiklik yok — tanik birebir govde ilk paragrafinda
+dogu_borc_2	kismayo-so	olay[1872 kurulus].kaynak	https://www.britannica.com/place/Kismaayo	E	E	GOVDE	degisiklik yok
+dogu_borc_2	kismayo-so	olay[1887 isgal].kaynak	https://www.britannica.com/place/Kismaayo	E	E	GOVDE	degisiklik yok — "taken by the British in 1887"
+dogu_borc_2	kismayo-so	olay[1927 idari].kaynak	https://www.britannica.com/place/Kismaayo	E	E	GOVDE	degisiklik yok — ic_not alintisi "(1927-41)" birebir govdede
+dogu_borc_2	kismayo-so	olay[1941 kayip].kaynak	https://www.britannica.com/place/Kismaayo	E	E	GOVDE	degisiklik yok — govdede "(1927-41)"; "1941" dizgesi yalniz textContent'te ama o isabet script icindeki topicId (319415); YZ blogu bu sayfada yok
+dogu_borc_2	rey-ir	ark.kaynak	https://www.britannica.com/place/Rayy	E	E	GOVDE	degisiklik yok — "A settlement at the site dates from the 3rd millennium BCE." innerText'te birebir (textContent'te dugum sinirinda bosluk eksigi nedeniyle tam cumle eslesmedi, "3rd millennium" E)
+dogu_borc_2	rey-ir	sahip[1224-1447 __YOK__].kaynak	https://www.britannica.com/place/Rayy	E	E	GOVDE	degisiklik yok — "deserted remnants of Rayy soon fell into complete ruin" + survivors moved to Tehran govdede
+dogu_borc_2	rey-ir	olay[1220 yikim].kaynak	https://www.britannica.com/place/Rayy	E	E	GOVDE	degisiklik yok — "In 1220 the city was almost entirely destroyed by the Mongols" govdede; CIFT TEYIT gecerli

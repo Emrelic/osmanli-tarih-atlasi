@@ -964,7 +964,7 @@ window.SEHIR_TARIHCE_DOGU_BORC_2 = [
    "kesinlik": "yil",
    "kaynak": "Encyclopaedia Britannica, 'Kismaayo' (Britannica Editors; son güncelleme Amy Tikkanen), https://www.britannica.com/place/Kismaayo (17 Kas 2026 okundu)",
    "tanik": "Founded in 1872 by the sultan of Zanzibar, the town was taken by the British",
-   "ic_not": "ZAYIF TANIK (özne 'the town' = madde konusu Kismaayo, aynı paragrafın ilk cümlesinde adıyla) → ortak kurala göre kabul. TDV SOMALİ tam gövde okundu: Kismâyû yalnız şehir/liman listesinde, tarih yok; TDV'de KISMÂYÛ madde başlığı yok. Tek kaynak. ATLAS: 'Kısmâyû' 1281-01-01 '__BOSLUK__' başlıyor — şehir 1872'de kuruldu → atlas başlangıcı düzeltilmeli (1281-1872 sahipsiz delik yerine yerleşim yok)."
+   "ic_not": "ZAYIF TANIK (özne 'the town' = madde konusu Kismaayo, aynı paragrafın ilk cümlesinde adıyla) → ortak kurala göre kabul. TDV SOMALİ tam gövde okundu: Kismâyû yalnız şehir/liman listesinde, tarih yok; TDV'de KISMÂYÛ madde başlığı yok. Tek kaynak. ATLAS: 'Kısmâyû' 1281-01-01 '__BOSLUK__' başlıyor — şehir 1872'de kuruldu → atlas başlangıcı düzeltilmeli (1281-1872 sahipsiz delik yerine yerleşim yok). 2. KAYNAK (genel başvuru, hakemli değil): The Columbia Encyclopedia, 6th ed. (Columbia University Press), 'Kismayo', https://www.encyclopedia.com/reference/encyclopedias-almanacs-transcripts-and-maps/kismayo (17 Kas 2026 okundu): 'Kismayo was founded in 1872 by the sultan of Zanzibar, passed to Great Britain in 1887'. Yıl Britannica ile AYNI (çelişki yok; hakemli karar gerekmez). Akademik teyit gücü sınırlı: iki genel ansiklopedi. Columbia İtalya'ya devri 1924 der ('held until 1924, when it was transferred to Italian control'); Britannica 'Italian Somaliland (1927–41)' — İtalyan devrinin başlangıcı iki kaynakta farklı, olay[2] (1927) değiştirilmedi, borç. TDV BERGAŞ b. SAÎD (Mustafa L. Bilge), https://islamansiklopedisi.org.tr/bergas-b-said (17 Kas 2026 okundu): 'Sultan Mâcid’den sonra Zengibar sultanı olan Bergaş (7 Ekim 1870), ... Kismâyû ... bölgelerinde de hâkimiyetini sürdürdü' — Zengibar hâkimiyetini teyit eder, kuruluş yılı vermez. Akademik (hakemli/monografi) kaynakta 1872 bulunamadı: DuckDuckGo 3 sorgu (Kismayu 1872 Zanzibar; Cassanelli/JAH) sonuçsuz; TDV 'kismâyû' araması 2 içerik eşleşmesi (BERGAŞ, SOMALİ)."
   },
   "kur": null,
   "ark": null,
@@ -1002,7 +1002,7 @@ window.SEHIR_TARIHCE_DOGU_BORC_2 = [
     "ic_not": "Britannica yalnız aralık sonu verir."
    }
   ],
-  "ic_not": "Tek kaynak (Britannica)."
+  "ic_not": "Kuruluş yılı iki genel ansiklopedide (Britannica + Columbia) aynı; akademik ikinci kaynak bulunamadı (ayrıntı ilk.ic_not)."
  },
  {
   "id": "kuba-az",

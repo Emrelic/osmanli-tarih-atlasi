@@ -628,10 +628,10 @@ window.SEHIR_TARIHCE_KARAYIP_3 = [
    "t": "1524-01-01",
    "gun": "1524",
    "nicelik": "kurulus",
-   "kesinlik": "yil",
+   "kesinlik": "belirsiz",
    "kaynak": "David L. Jickling, «Granada, Nicaragua», Encyclopedia of Latin American History and Culture (Gale/Scribner), https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/granada-nicaragua (tam gövde okundu, 17 Kasım 2026) · Encyclopaedia Britannica, «History of Nicaragua», https://www.britannica.com/place/history-of-Nicaragua (tam gövde okundu, 17 Kasım 2026)",
    "tanik": "Granada was founded in 1524 by Francisco Hernández de Córdoba.",
-   "ic_not": "HAKEMLİ KARAR (17 Kasım 2026): ESKİ DEĞER 1523-01-01 (Britannica «Granada (Nicaragua)» yalnız önizleme: 'Granada was founded in 1523 by Francisco Hernández de Córdoba'). Karşısında 1524: 2. KAYNAK: David L. Jickling, ELAHC (Gale/Scribner), https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/granada-nicaragua: 'Granada was founded in 1524 by Francisco Hernández de Córdoba.' + Britannica «History of Nicaragua» (imzalı tarih maddesi) 'by 1524 with the founding of Granada and León'. İki kaynak 1524'te birleşir, 1523 yalnız Britannica şehir önizlemesinde → 1524 SEÇİLDİ. Not: Britannica tarih maddesi şehir maddesiyle aynı yayınevidir; bağımsızlık ELAHC'den gelir. Antonio de Herrera 1523 der (yalnız basında aktarılmış, OKUNMADI); Cabrero Fernández & González Pujana, «Granada de Nicaragua» (AEA Congreso, 1992) 1524'ü savunur (PDF, OKUNMADI, sayılmadı). Gün (21 Nisan / 8 Aralık 1524) yalnız ansiklopedi-dışı kaynaklarda görüldü → yazılmadı."
+   "ic_not": "YZ-ÖZET DÜZELTMESİ (UMIT 17 Kasım 2026, sayfa innerText+textContent JS araması): aşağıdaki hakemli kararda Britannica «History of Nicaragua»dan aktarılan 'by 1524 with the founding of Granada and León' ifadesi makale gövdesinde YOK; yalnız sayfanın gizli SSS bloğunda (ai-qna-answer, 'Created from Britannica articles using AI') geçiyor → YZ metni, kaynak sayılmaz. Gövdedeki gerçek cümle: 'Pedrarias then dispatched Francisco Hernández de Córdoba, who founded the cities of Granada and León; by 1524 he had established permanent colonization.' — bu cümle kuruluşu 1524'e tarihlemez (yalnız 'by 1524' üst sınır; 1523 ile de uyumlu). Britannica «Granada» şehir maddesinin gövdesi bugün tam okundu (önizleme değil): 'Granada was founded in 1523 by Francisco Hernández de Córdoba'. Sonuç: 1524 yalnız ELAHC'de, 1523 Britannica şehir gövdesinde → iki bağımsız kaynak 1524'te BİRLEŞMİYOR, hakemli karar eşiği yok. t 1524 (imzalı akademik ansiklopedi maddesi) bırakıldı, kesinlik yil→belirsiz (1523/1524 çelişkisi açık). | ESKİ NOT: HAKEMLİ KARAR (17 Kasım 2026): ESKİ DEĞER 1523-01-01 (Britannica «Granada (Nicaragua)» yalnız önizleme: 'Granada was founded in 1523 by Francisco Hernández de Córdoba'). Karşısında 1524: 2. KAYNAK: David L. Jickling, ELAHC (Gale/Scribner), https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/granada-nicaragua: 'Granada was founded in 1524 by Francisco Hernández de Córdoba.' + Britannica «History of Nicaragua» (imzalı tarih maddesi) 'by 1524 with the founding of Granada and León'. İki kaynak 1524'te birleşir, 1523 yalnız Britannica şehir önizlemesinde → 1524 SEÇİLDİ. Not: Britannica tarih maddesi şehir maddesiyle aynı yayınevidir; bağımsızlık ELAHC'den gelir. Antonio de Herrera 1523 der (yalnız basında aktarılmış, OKUNMADI); Cabrero Fernández & González Pujana, «Granada de Nicaragua» (AEA Congreso, 1992) 1524'ü savunur (PDF, OKUNMADI, sayılmadı). Gün (21 Nisan / 8 Aralık 1524) yalnız ansiklopedi-dışı kaynaklarda görüldü → yazılmadı."
   },
   "kur": {
    "t": "1524-01-01",
@@ -823,15 +823,15 @@ window.SEHIR_TARIHCE_KARAYIP_3 = [
    "gun": "1693",
    "nicelik": "kurulus",
    "kesinlik": "yil",
-   "kaynak": "Encyclopaedia Britannica, «Matanzas», https://www.britannica.com/place/Matanzas-Cuba (YALNIZ ÖNİZLEME okundu: metnin devamı abonelik duvarında, tam gövde OKUNAMADI, 17 Kasım 2026) · «Matanzas (City, Cuba)», The Columbia Encyclopedia, 6th ed., https://www.encyclopedia.com/places/latin-america-and-caribbean/cuban-political-geography/matanzas (tam gövde okundu, 17 Kasım 2026)",
+   "kaynak": "Encyclopaedia Britannica, «Matanzas», https://www.britannica.com/place/Matanzas-Cuba (tam gövde okundu, 17 Kasım 2026 UMIT birebir kontrolü; önceki okumada yalnız önizleme) · «Matanzas (City, Cuba)», The Columbia Encyclopedia, 6th ed., https://www.encyclopedia.com/places/latin-america-and-caribbean/cuban-political-geography/matanzas (tam gövde okundu, 17 Kasım 2026)",
    "tanik": "It was founded in 1693, although its excellent bay had been known",
-   "ic_not": "ÇİFT KAYNAK (17 Kasım 2026): Britannica (yalnız önizleme) + 2. KAYNAK: «Matanzas (City, Cuba)», The Columbia Encyclopedia, 6th ed. (Columbia University Press; genel başvuru eseri, akademik hakemli değil), https://www.encyclopedia.com/places/latin-america-and-caribbean/cuban-political-geography/matanzas: 'Founded in 1693, it was once a pirate haven but by the early 19th cent. had become Cuba's second city, mainly because of the growth of the sugar industry.' → yıl 1693 aynı, çelişki yok (özne 'it' = madde konusu Matanzas şehri). Britannica tam gövdesi yine OKUNAMADI; akademik hakemli kaynak bulunamadı. Özne 'It' = madde konusu Matanzas (önceki cümle 'Matanzas, city...')."
+   "ic_not": "ÇİFT KAYNAK (17 Kasım 2026): Britannica (yalnız önizleme) + 2. KAYNAK: «Matanzas (City, Cuba)», The Columbia Encyclopedia, 6th ed. (Columbia University Press; genel başvuru eseri, akademik hakemli değil), https://www.encyclopedia.com/places/latin-america-and-caribbean/cuban-political-geography/matanzas: 'Founded in 1693, it was once a pirate haven but by the early 19th cent. had become Cuba's second city, mainly because of the growth of the sugar industry.' → yıl 1693 aynı, çelişki yok (özne 'it' = madde konusu Matanzas şehri). Britannica tam gövdesi yine OKUNAMADI; akademik hakemli kaynak bulunamadı. Özne 'It' = madde konusu Matanzas (önceki cümle 'Matanzas, city...'). | BİREBİR KONTROL (UMIT 17 Kasım 2026, innerText+textContent JS araması): tanık Britannica makale gövdesinde (p.topic-paragraph, görünür) birebir var; YZ/SSS bloğunda değil. Gövde artık abonelik duvarı olmadan tam okunuyor."
   },
   "kur": {
    "t": "1693-01-01",
    "gun": "1693",
    "kesinlik": "yil",
-   "kaynak": "Encyclopaedia Britannica, «Matanzas», https://www.britannica.com/place/Matanzas-Cuba (YALNIZ ÖNİZLEME okundu: metnin devamı abonelik duvarında, tam gövde OKUNAMADI, 17 Kasım 2026)",
+   "kaynak": "Encyclopaedia Britannica, «Matanzas», https://www.britannica.com/place/Matanzas-Cuba (tam gövde okundu, 17 Kasım 2026 UMIT birebir kontrolü; önceki okumada yalnız önizleme)",
    "tanik": "It was founded in 1693"
   },
   "ark": null,
@@ -844,7 +844,7 @@ window.SEHIR_TARIHCE_KARAYIP_3 = [
     "k": "diger",
     "b": "Matanzas körfezi İspanyollarca biliniyor ve korsanlarca kullanılıyor (şehirden önce).",
     "kesinlik": "yil",
-    "kaynak": "Encyclopaedia Britannica, «Matanzas», https://www.britannica.com/place/Matanzas-Cuba (YALNIZ ÖNİZLEME okundu: metnin devamı abonelik duvarında, tam gövde OKUNAMADI, 17 Kasım 2026)",
+    "kaynak": "Encyclopaedia Britannica, «Matanzas», https://www.britannica.com/place/Matanzas-Cuba (tam gövde okundu, 17 Kasım 2026 UMIT birebir kontrolü; önceki okumada yalnız önizleme)",
     "tanik": "its excellent bay had been known to the Spanish since 1508",
     "ic_not": "Şehir değil körfez: başlangıç sayılmadı."
    },
@@ -854,7 +854,7 @@ window.SEHIR_TARIHCE_KARAYIP_3 = [
     "k": "kurulus",
     "b": "Şehir kurulur.",
     "kesinlik": "yil",
-    "kaynak": "Encyclopaedia Britannica, «Matanzas», https://www.britannica.com/place/Matanzas-Cuba (YALNIZ ÖNİZLEME okundu: metnin devamı abonelik duvarında, tam gövde OKUNAMADI, 17 Kasım 2026)",
+    "kaynak": "Encyclopaedia Britannica, «Matanzas», https://www.britannica.com/place/Matanzas-Cuba (tam gövde okundu, 17 Kasım 2026 UMIT birebir kontrolü; önceki okumada yalnız önizleme)",
     "tanik": "It was founded in 1693"
    },
    {
@@ -863,7 +863,7 @@ window.SEHIR_TARIHCE_KARAYIP_3 = [
     "k": "ekonomi",
     "b": "Matanzas Küba'nın ikinci şehri olur; şeker sanayiinin doğuya kaymasıyla büyümesi yavaşlar.",
     "kesinlik": "yil",
-    "kaynak": "Encyclopaedia Britannica, «Matanzas», https://www.britannica.com/place/Matanzas-Cuba (YALNIZ ÖNİZLEME okundu: metnin devamı abonelik duvarında, tam gövde OKUNAMADI, 17 Kasım 2026)",
+    "kaynak": "Encyclopaedia Britannica, «Matanzas», https://www.britannica.com/place/Matanzas-Cuba (tam gövde okundu, 17 Kasım 2026 UMIT birebir kontrolü; önceki okumada yalnız önizleme)",
     "tanik": "By 1860 Matanzas had become the second city of Cuba"
    }
   ],
@@ -1192,9 +1192,9 @@ window.SEHIR_TARIHCE_KARAYIP_3 = [
    "gun": "1708",
    "nicelik": "ilk_anilis",
    "kesinlik": "yil",
-   "kaynak": "Encyclopaedia Britannica, «Santa Ana (El Salvador)», https://www.britannica.com/place/Santa-Ana-El-Salvador (YALNIZ ÖNİZLEME okundu: metnin devamı abonelik duvarında, tam gövde OKUNAMADI, 17 Kasım 2026)",
+   "kaynak": "Encyclopaedia Britannica, «Santa Ana (El Salvador)», https://www.britannica.com/place/Santa-Ana-El-Salvador (tam gövde okundu, 17 Kasım 2026 UMIT birebir kontrolü; önceki okumada yalnız önizleme)",
    "tanik": "Known as Santa Ana since 1708, it ranks among the country’s largest cities",
-   "ic_not": "TEK KAYNAK (Britannica; ikinci bağımsız akademik kaynak bu turda okunmadı). Britannica maddesinin yalnız önizlemesi okundu. Tanık adın 1708'den beri kullanıldığını söyler: yerleşim daha eskidir ama daha eski tanık okunan kaynakta YOK (Izalcos/Sonsonate cümlesi bölge adıdır, şehir değil)."
+   "ic_not": "TEK KAYNAK (Britannica; ikinci bağımsız akademik kaynak bu turda okunmadı). Britannica maddesinin yalnız önizlemesi okundu. Tanık adın 1708'den beri kullanıldığını söyler: yerleşim daha eskidir ama daha eski tanık okunan kaynakta YOK (Izalcos/Sonsonate cümlesi bölge adıdır, şehir değil). | BİREBİR KONTROL (UMIT 17 Kasım 2026, innerText+textContent JS araması): madde kısa ve bugün tam okunuyor (imza 'The Editors of Encyclopaedia Britannica', son düzenleme Amy Tikkanen); tanık makale gövdesinde (p.topic-paragraph, görünür) birebir var, YZ/SSS bloğunda değil; aynı cümlede şehir adı ve yıl var."
   },
   "kur": null,
   "ark": null,
@@ -1232,7 +1232,7 @@ window.SEHIR_TARIHCE_KARAYIP_3 = [
     "k": "idari",
     "b": "Yerleşim 1708'den beri Santa Ana adıyla bilinir.",
     "kesinlik": "yil",
-    "kaynak": "Encyclopaedia Britannica, «Santa Ana (El Salvador)», https://www.britannica.com/place/Santa-Ana-El-Salvador (YALNIZ ÖNİZLEME okundu: metnin devamı abonelik duvarında, tam gövde OKUNAMADI, 17 Kasım 2026)",
+    "kaynak": "Encyclopaedia Britannica, «Santa Ana (El Salvador)», https://www.britannica.com/place/Santa-Ana-El-Salvador (tam gövde okundu, 17 Kasım 2026 UMIT birebir kontrolü; önceki okumada yalnız önizleme)",
     "tanik": "Known as Santa Ana since 1708"
    },
    {
