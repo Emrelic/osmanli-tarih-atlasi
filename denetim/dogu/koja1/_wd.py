@@ -2,7 +2,7 @@
 # kullanim: py _wd.py wd "<ad>" [lang]   -> Wikidata arama + P625 ;  py _wd.py osm "<ad>"  -> Nominatim
 import sys, io, json, urllib.request, urllib.parse, time
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
-UA = {'User-Agent': 'AtlasResearch/1.0 (emremre07@gmail.com)'}
+UA = {'User-Agent': 'AtlasResearch/1.0 (+https://kronoatlas.com)'}
 def get(u):
     for k in range(3):
         try:
