@@ -950,8 +950,13 @@ def inline_sozdizimi():
     # ⇒ Bir dersin BİR ÇAĞRI YERİNDE uygulanması, ÖĞRENİLDİĞİ anlamına
     #   gelmiyor. Çare yazıldığında "bu kusur BAŞKA NEREDE olabilir?" diye
     #   sorulmadıkça, düzeltme kendi satırında hapis kalıyor.
-    bloklar = re.findall(r"<script(?![^>]*\bsrc=)[^>]*>(.*?)</script>",
-                         _yorumsuz_html(h), re.S)
+    # SEO-STATIK-1117 (18 Kasım 2026): `<script type="application/ld+json">` JSON-LD'dir, JS
+    # değil — tarayıcı koşturmaz; `node --check` onu `"@context":` satırında haksız düşürüyordu.
+    # JS olmayan `type`lı bloklar elenir (type yok / text/javascript / module = JS).
+    bloklar = [g for a, g in re.findall(r"<script(?![^>]*\bsrc=)([^>]*)>(.*?)</script>",
+                                        _yorumsuz_html(h), re.S)
+               if not re.search(r'\btype\s*=\s*"(?!\s*(?:text/javascript|application/javascript|module)\s*")',
+                                a, re.I)]
     gec = os.path.join(tempfile.gettempdir(), "_yayin_blok.js")
     bulgular = []
     for i, b in enumerate(bloklar, 1):
