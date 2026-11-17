@@ -15,3 +15,5 @@ hint 91 · orta_asya 44 · afrika_gb 104 şehir kaydı; `ad_kaynak` (çok dilli 
 Yalnız Sonnet; rapor = sayı + dal + engel; yeniden tarama/tekrar doğrulama yok; indirme izni: yalnız archive.org açık erişimli *_djvu.txt (Emre sohbetinde verdi).
 
 ## Koordinat taraması sonucu (17 Kasım, GeoNames toplu): Afrika + Orta Asya LISTE ~680 satır tarandı (>8 km farkın hepsi elle incelendi): kesin hata YOK; yalnız Hanover (ZA) şüpheli (KOORD-HATA-1117.tsv). Hint: 4 hata düzeltildi. DSAL anahtar-kelime araması kuruluş cümlesi vermiyor (denendi: kullanma).
+
+## LAB 17 (17 Kasim): P3 kapandi -> P3-BORC-1117.tsv (364 aday, beyanli). TDV tarandi: Pesaver/Surat/Kanpur/Bisbek kurulus yili yok; Gaya/Kolhapur/Nasik/Bhuj/Jabalpur/Haldighati/Dambadeniya TDV maddesi yok (H11_BORC borcu gecerli). Siradaki: Hanover ZA -> Asama 2 ad_kaynak.
