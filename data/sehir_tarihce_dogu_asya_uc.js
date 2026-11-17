@@ -82,7 +82,7 @@ window.SEHIR_TARIHCE_DOGU_ASYA_UC = [
     "kesinlik": "gun"
    }
   ],
-  "ic_not": "TEK KAYNAK (Britannica tek bağımsız kaynak); çift teyit YOK. 1886 olayının günü 1 Ocak 1886 (kesinlik gun). Zincir 1900'e kadar. Britannica: Mindon 1850'lerin sonunda başkenti Mandalay'a taşıdı ('late 1850s', günsüz) — olay yazılmadı. Konum Mandalay banliyösü; Mandalay'a ≤ 3 km değil, ayrı kayıt. ATLAS ÖNERİSİ: Amarapura noktası eklenmeli (kat 1, 1783-1823/1837-1857 başkent)."
+  "ic_not": "TEK KAYNAK (Britannica tek bağımsız kaynak); çift teyit YOK. 1886 olayının günü 1 Ocak 1886 (kesinlik gun). Zincir 1900'e kadar. Britannica: Mindon 1850'lerin sonunda başkenti Mandalay'a taşıdı ('late 1850s', günsüz) — olay yazılmadı. Konum Mandalay banliyösü; Mandalay'a ≤ 3 km değil, ayrı kayıt. ATLAS ÖNERİSİ: Amarapura noktası eklenmeli (kat 1, 1783-1823/1837-1857 başkent). TANIK DENETIMI 17 Kasim 2026 (sayfa yeniden okundu): Alinti sayfada birebir; cumlede sehir adi yok, ozne zamir/ortuk ('it'/'the town/city/settlement') — madde konusu zamir (madde basligi sehirdir)."
  },
  {
   "id": "chuncheon-kr",
@@ -167,7 +167,7 @@ window.SEHIR_TARIHCE_DOGU_ASYA_UC = [
     "kesinlik": "ay"
    }
   ],
-  "ic_not": "TEK KAYNAK (Britannica tek bağımsız kaynak); çift teyit YOK. ilk.t 1900'den sonra: zincir yazılmadı. ATLAS ÖNERİSİ: Gwangju noktası eklenmeli; Baekje/Silla/Joseon dönemi TDV/akademik kaynakla aranmalı."
+  "ic_not": "TEK KAYNAK (Britannica tek bağımsız kaynak); çift teyit YOK. ilk.t 1900'den sonra: zincir yazılmadı. ATLAS ÖNERİSİ: Gwangju noktası eklenmeli; Baekje/Silla/Joseon dönemi TDV/akademik kaynakla aranmalı. TANIK DENETIMI 17 Kasim 2026 (sayfa yeniden okundu): Alinti sayfada birebir; ozne sehir degil (modern sanayi); kesinlik belirsiz korundu."
  },
  {
   "id": "haeju-kp",
@@ -261,7 +261,7 @@ window.SEHIR_TARIHCE_DOGU_ASYA_UC = [
     "kesinlik": "yil"
    }
   ],
-  "ic_not": "TEK KAYNAK (Britannica tek bağımsız kaynak); çift teyit YOK. Britannica'nın 1896 yılı 1896 eyalet reformuna denk gelir; sahip joseon künyeden çıkarımdır, kaynak yalnız yılı söyler. ATLAS ÖNERİSİ: Jinju noktası eklenmeli (kat 2)."
+  "ic_not": "TEK KAYNAK (Britannica tek bağımsız kaynak); çift teyit YOK. Britannica'nın 1896 yılı 1896 eyalet reformuna denk gelir; sahip joseon künyeden çıkarımdır, kaynak yalnız yılı söyler. ATLAS ÖNERİSİ: Jinju noktası eklenmeli (kat 2). TANIK DENETIMI 17 Kasim 2026 (sayfa yeniden okundu): Alinti sayfada birebir; cumlede sehir adi yok, ozne zamir/ortuk ('it'/'the town/city/settlement') — madde konusu zamir (madde basligi sehirdir)."
  },
  {
   "id": "kumamoto-jp",
@@ -308,7 +308,7 @@ window.SEHIR_TARIHCE_DOGU_ASYA_UC = [
     "kesinlik": "belirsiz"
    }
   ],
-  "ic_not": "TEK KAYNAK (Britannica tek bağımsız kaynak); çift teyit YOK. Atlas noktası 1281'de başladığı için zincir yazılmadı. ATLAS ÖNERİSİ: atlas başlangıcı 1281 kaynaksız; Hosokawa/Kato dönemi akademik kaynakla doğrulanmalı.",
+  "ic_not": "TEK KAYNAK (Britannica tek bağımsız kaynak); çift teyit YOK. Atlas noktası 1281'de başladığı için zincir yazılmadı. ATLAS ÖNERİSİ: atlas başlangıcı 1281 kaynaksız; Hosokawa/Kato dönemi akademik kaynakla doğrulanmalı. TANIK DENETIMI 17 Kasim 2026 (sayfa yeniden okundu): Alinti sayfada birebir; ozne sehir degil (Suizenji Parki); kesinlik belirsiz korundu.",
   "dikis_beyan": "Atlas 1281 Kumamoto başlangıcı (kamakura): Britannica'da daha erken yıllı tanık bulunamadı."
  },
  {
@@ -324,13 +324,13 @@ window.SEHIR_TARIHCE_DOGU_ASYA_UC = [
   "ad_kaynak": "Encyclopaedia Britannica, 'Lashio', https://www.britannica.com/place/Lashio (tarayıcı sayfa okuma, 17 Kasım 2026)",
   "konum_teyit": "LISTE.tsv koordinatı; çevrimiçi koordinat teyidi yapılmadı.",
   "ilk": {
-   "t": "1942-01-01",
+   "t": "1942-04-01",
    "nicelik": "ilk_anilis",
-   "kesinlik": "yil",
-   "tanik": "The city was occupied by the Japanese in 1942, which closed the road at its source.",
-   "ic_not": "En erken YILLI tanık; Britannica 1937'de başlayan Burma Yolu inşasını ('construction of the road after the outbreak of the Sino-Japanese War in 1937') söyler ama özne yol. Atlas 1281 san-devletleri başlangıcı kaynaksız.",
-   "gun": "1942",
-   "kaynak": "Encyclopaedia Britannica, 'Lashio', https://www.britannica.com/place/Lashio (tarayıcı sayfa okuma, 17 Kasım 2026)"
+   "kesinlik": "ay",
+   "tanik": "In April 1942, however, the Japanese overran Burma, seized Lashio, and thus closed the road at its source.",
+   "ic_not": "Eski tanik Britannica 'Lashio' sayfasindaki YZ ozetinden ('Summary created from Britannica articles using AI'; sayfada tam makale yok) -> YZ metni olduğu icin atildi; yerine Britannica 'Burma Road' makalesinin cumlesi: Nisan 1942 (gun yok; t ayin 1'i). Sehir adi cumlede + ay/yil var. Britannica ayrica 1939'da tamamlanan yolu soyler (ozne yol).",
+   "gun": "Nisan 1942",
+   "kaynak": "Encyclopaedia Britannica, 'Burma Road', https://www.britannica.com/topic/Burma-Road (tarayici sayfa okuma, 17 Kasim 2026)"
   },
   "kur": null,
   "ark": null,
@@ -338,16 +338,16 @@ window.SEHIR_TARIHCE_DOGU_ASYA_UC = [
   "sahip": [],
   "olay": [
    {
-    "t": "1942-01-01",
-    "gun": "1942",
+    "t": "1942-04-01",
+    "gun": "Nisan 1942",
     "k": "fetih",
-    "b": "Lashio Japonlar tarafından işgal edilir; Burma Yolu kaynağında kapanır (yalnız yıl).",
-    "kaynak": "Encyclopaedia Britannica, 'Lashio', https://www.britannica.com/place/Lashio (tarayıcı sayfa okuma, 17 Kasım 2026)",
-    "tanik": "The city was occupied by the Japanese in 1942, which closed the road at its source.",
-    "kesinlik": "yil"
+    "b": "Lashio Nisan 1942'de Japonlar tarafindan ele gecirilir; Burma Yolu kaynaginda kapanir (gun yok; t ayin 1'i).",
+    "kaynak": "Encyclopaedia Britannica, 'Burma Road', https://www.britannica.com/topic/Burma-Road (tarayici sayfa okuma, 17 Kasim 2026)",
+    "tanik": "In April 1942, however, the Japanese overran Burma, seized Lashio, and thus closed the road at its source.",
+    "kesinlik": "ay"
    }
   ],
-  "ic_not": "TEK KAYNAK (Britannica tek bağımsız kaynak); çift teyit YOK. Atlas noktası 1281'de başladığı için zincir yazılmadı; atlas başlangıcının kaynağı bulunamadı.",
+  "ic_not": "TEK KAYNAK (Britannica tek bağımsız kaynak); çift teyit YOK. Atlas noktası 1281'de başladığı için zincir yazılmadı; atlas başlangıcının kaynağı bulunamadı. TANIK DENETIMI 17 Kasim 2026 (sayfa yeniden okundu): ilk.tanik YZ ozetinden geldigi icin degistirildi (Burma Road makalesi); t 1942-01-01 -> 1942-04-01 (ay).",
   "dikis_beyan": "Atlas 1281 Lashio (san-devletleri) başlangıcı: Britannica'da en erken tanık 1942."
  },
  {
@@ -403,7 +403,7 @@ window.SEHIR_TARIHCE_DOGU_ASYA_UC = [
     "kesinlik": "yil"
    }
   ],
-  "ic_not": "TEK KAYNAK (Britannica tek bağımsız kaynak); çift teyit YOK. Zincir 1900'e kadar. Ad: Umayabashi (Muromachi dönemi, Britannica). ATLAS ÖNERİSİ: Maebashi noktası eklenmeli (kat 2)."
+  "ic_not": "TEK KAYNAK (Britannica tek bağımsız kaynak); çift teyit YOK. Zincir 1900'e kadar. Ad: Umayabashi (Muromachi dönemi, Britannica). ATLAS ÖNERİSİ: Maebashi noktası eklenmeli (kat 2). TANIK DENETIMI 17 Kasim 2026 (sayfa yeniden okundu): Alinti sayfada birebir; cumlede sehir adi yok, ozne zamir/ortuk ('it'/'the town/city/settlement') — madde konusu zamir (madde basligi sehirdir)."
  },
  {
   "id": "mito-jp",
@@ -483,7 +483,7 @@ window.SEHIR_TARIHCE_DOGU_ASYA_UC = [
     "kesinlik": "yil"
    }
   ],
-  "ic_not": "TEK KAYNAK (Britannica tek bağımsız kaynak); çift teyit YOK. Zincir 1900'e kadar. ATLAS ÖNERİSİ: Mito noktası eklenmeli (kat 2; Heian/Kamakura çıkışı için akademik kaynak aranmalı)."
+  "ic_not": "TEK KAYNAK (Britannica tek bağımsız kaynak); çift teyit YOK. Zincir 1900'e kadar. ATLAS ÖNERİSİ: Mito noktası eklenmeli (kat 2; Heian/Kamakura çıkışı için akademik kaynak aranmalı). TANIK DENETIMI 17 Kasim 2026 (sayfa yeniden okundu): Alinti sayfada birebir; cumlede sehir adi yok, ozne zamir/ortuk ('it'/'the town/city/settlement') — madde konusu zamir (madde basligi sehirdir)."
  },
  {
   "id": "naypyidaw",
@@ -554,8 +554,8 @@ window.SEHIR_TARIHCE_DOGU_ASYA_UC = [
    "t": "1350-01-01",
    "nicelik": "ilk_anilis",
    "kesinlik": "yil",
-   "tanik": "from 1350 to 1767 it was second in size and importance to the national capital of Phra",
-   "ic_not": "Britannica 'old walled city dates to the 13th century' der (yüzyıl; atlas 1281 sukhothai ile uyumlu). Alıntı snippet'te yarım kesilir ('Phra...'): 1350 yılı ve 1767 okundu, özne şehir, sıfat 'second in importance'. Yıllı en erken tanık 1350.",
+   "tanik": "from 1350 to 1767 it was second in size and importance to the national capital",
+   "ic_not": "Britannica 'old walled city dates to the 13th century' der (yuzyil; atlas 1281 sukhothai ile uyumlu). Sayfa paywall nedeniyle 'national capital of Phra...' ile KESIK; alinti kesilmeden onceki son tam kelimede bitirildi (birebir). Ozne 'it' (madde konusu zamir); 1350 ve 1767 yillari cumlede.",
    "gun": "1350",
    "kaynak": "Encyclopaedia Britannica, 'Phitsanulok', https://www.britannica.com/place/Phitsanulok (tarayıcı sayfa okuma, 17 Kasım 2026)"
   },
@@ -568,9 +568,9 @@ window.SEHIR_TARIHCE_DOGU_ASYA_UC = [
     "t": "1350-01-01",
     "gun": "1350",
     "k": "idari",
-    "b": "Phitsanulok, başkentten (Ayutthaya) sonra ikinci büyüklükte/önemde şehir olur (1767'ye kadar; yalnız yıl).",
+    "b": "Phitsanulok, ulusal baskentten sonra buyukluk ve onemde ikinci sehir olur (1767'ye kadar; yalnız yil).",
     "kaynak": "Encyclopaedia Britannica, 'Phitsanulok', https://www.britannica.com/place/Phitsanulok (tarayıcı sayfa okuma, 17 Kasım 2026)",
-    "tanik": "from 1350 to 1767 it was second in size and importance to the national capital of Phra",
+    "tanik": "from 1350 to 1767 it was second in size and importance to the national capital",
     "kesinlik": "yil"
    },
    {
@@ -579,11 +579,11 @@ window.SEHIR_TARIHCE_DOGU_ASYA_UC = [
     "k": "diger",
     "b": "Phitsanulok'un 'ikinci şehir' dönemi 1767'de sona erer (yalnız yıl).",
     "kaynak": "Encyclopaedia Britannica, 'Phitsanulok', https://www.britannica.com/place/Phitsanulok (tarayıcı sayfa okuma, 17 Kasım 2026)",
-    "tanik": "from 1350 to 1767 it was second in size and importance to the national capital of Phra",
+    "tanik": "from 1350 to 1767 it was second in size and importance to the national capital",
     "kesinlik": "yil"
    }
   ],
-  "ic_not": "TEK KAYNAK (Britannica tek bağımsız kaynak); çift teyit YOK. Atlas noktası 1281'de (sukhothai) başladığı için zincir yazılmadı. Ayutthaya adı snippet'te kesik; 1350/1767 tarihleri kaynak cümlesinde. ATLAS ÖNERİSİ: 13. yüzyıl kuruluş anlatısı için akademik kaynak (TDV yok, Siyam)."
+  "ic_not": "TEK KAYNAK (Britannica tek bağımsız kaynak); çift teyit YOK. Atlas noktası 1281'de (sukhothai) başladığı için zincir yazılmadı. Ayutthaya adı snippet'te kesik; 1350/1767 tarihleri kaynak cümlesinde. ATLAS ÖNERİSİ: 13. yüzyıl kuruluş anlatısı için akademik kaynak (TDV yok, Siyam). TANIK DENETIMI 17 Kasim 2026 (sayfa yeniden okundu): Alinti 'Phra' kesiginden arindirildi: sayfanin kendisi paywall'da 'Phra...' diye bitiyor, tam cumle okunamadi; baskent adi (Ayutthaya) kaynak cumlesinde okunmadigi icin olay metninden cikarildi. Madde konusu zamir ('it')."
  },
  {
   "id": "saitama-urawa-jp",
@@ -647,7 +647,7 @@ window.SEHIR_TARIHCE_DOGU_ASYA_UC = [
     "kesinlik": "yil"
    }
   ],
-  "ic_not": "TEK KAYNAK (Britannica tek bağımsız kaynak); çift teyit YOK. Zincir 1900'e kadar. ATLAS ÖNERİSİ: Urawa noktası eklenmeli (1900'de Saitama prefektörlük merkezi)."
+  "ic_not": "TEK KAYNAK (Britannica tek bağımsız kaynak); çift teyit YOK. Zincir 1900'e kadar. ATLAS ÖNERİSİ: Urawa noktası eklenmeli (1900'de Saitama prefektörlük merkezi). TANIK DENETIMI 17 Kasim 2026 (sayfa yeniden okundu): Alinti sayfada birebir; ozne Omiya ve Urawa (oncul sehirler), 'Saitama' adi yok; kesinlik belirsiz korundu."
  },
  {
   "id": "sapporo-jp",
@@ -700,7 +700,7 @@ window.SEHIR_TARIHCE_DOGU_ASYA_UC = [
     "kesinlik": "yil"
    }
   ],
-  "ic_not": "TEK KAYNAK (Britannica tek bağımsız kaynak); çift teyit YOK. Atlas noktası 1869'da başladığı için zincir yazılmadı (ilk.t atlas başlangıcından sonra). ATLAS ÖNERİSİ: Sapporo başlangıcı 1869 → en erken kaynaklı kuruluş yılı 1871 (Britannica); atlas başlangıcı düzeltilmeli."
+  "ic_not": "TEK KAYNAK (Britannica tek bağımsız kaynak); çift teyit YOK. Atlas noktası 1869'da başladığı için zincir yazılmadı (ilk.t atlas başlangıcından sonra). ATLAS ÖNERİSİ: Sapporo başlangıcı 1869 → en erken kaynaklı kuruluş yılı 1871 (Britannica); atlas başlangıcı düzeltilmeli. TANIK DENETIMI 17 Kasim 2026 (sayfa yeniden okundu): Alinti sayfada birebir; cumlede sehir adi yok, ozne zamir/ortuk ('it'/'the town/city/settlement') — madde konusu zamir (madde basligi sehirdir)."
  },
  {
   "id": "takamatsu-jp",
@@ -771,7 +771,7 @@ window.SEHIR_TARIHCE_DOGU_ASYA_UC = [
     "kesinlik": "yil"
    }
   ],
-  "ic_not": "TEK KAYNAK (Britannica tek bağımsız kaynak); çift teyit YOK. Zincir 1900-01-01'e kadar (atlasta nokta yok). Edo künyesi 1603'ten başlar, şehrin 1642 yılı sonradır. ATLAS ÖNERİSİ: Takamatsu noktası eklenmeli (kat 2, 1642)."
+  "ic_not": "TEK KAYNAK (Britannica tek bağımsız kaynak); çift teyit YOK. Zincir 1900-01-01'e kadar (atlasta nokta yok). Edo künyesi 1603'ten başlar, şehrin 1642 yılı sonradır. ATLAS ÖNERİSİ: Takamatsu noktası eklenmeli (kat 2, 1642). TANIK DENETIMI 17 Kasim 2026 (sayfa yeniden okundu): Alinti sayfada birebir; cumlede sehir adi yok, ozne zamir/ortuk ('it'/'the town/city/settlement') — madde konusu zamir (madde basligi sehirdir)."
  },
  {
   "id": "tsu-jp",
@@ -897,7 +897,7 @@ window.SEHIR_TARIHCE_DOGU_ASYA_UC = [
     "kesinlik": "yil"
    }
   ],
-  "ic_not": "TEK KAYNAK (Britannica tek bağımsız kaynak); çift teyit YOK. Zincir 1900'e kadar. ATLAS ÖNERİSİ: Utsunomiya noktası eklenmeli (kat 2; 11. yüzyıl şato kenti için akademik kaynak)."
+  "ic_not": "TEK KAYNAK (Britannica tek bağımsız kaynak); çift teyit YOK. Zincir 1900'e kadar. ATLAS ÖNERİSİ: Utsunomiya noktası eklenmeli (kat 2; 11. yüzyıl şato kenti için akademik kaynak). TANIK DENETIMI 17 Kasim 2026 (sayfa yeniden okundu): Alinti sayfada birebir; cumlede sehir adi yok, ozne zamir/ortuk ('it'/'the town/city/settlement') — madde konusu zamir (madde basligi sehirdir)."
  },
  {
   "id": "wakayama-jp",
@@ -976,6 +976,6 @@ window.SEHIR_TARIHCE_DOGU_ASYA_UC = [
     "kesinlik": "yil"
    }
   ],
-  "ic_not": "TEK KAYNAK (Britannica tek bağımsız kaynak); çift teyit YOK. Zincir 1900'e kadar. Britannica snippet'i 'Wakayama...' diye kesik; devamı okunamadı. ATLAS ÖNERİSİ: Wakayama noktası eklenmeli (kat 2)."
+  "ic_not": "TEK KAYNAK (Britannica tek bağımsız kaynak); çift teyit YOK. Zincir 1900'e kadar. Britannica snippet'i 'Wakayama...' diye kesik; devamı okunamadı. ATLAS ÖNERİSİ: Wakayama noktası eklenmeli (kat 2). TANIK DENETIMI 17 Kasim 2026 (sayfa yeniden okundu): Alinti sayfada birebir; cumlede sehir adi yok, ozne zamir/ortuk ('it'/'the town/city/settlement') — madde konusu zamir (madde basligi sehirdir)."
  }
 ];

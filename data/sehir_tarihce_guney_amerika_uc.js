@@ -122,7 +122,7 @@ window.SEHIR_TARIHCE_GUNEY_AMERIKA_UC = [
     "tanik": "He led the separation movement from Gran Colombia in 1829 and in 1830 convoked a constitutional convention for Venezuela"
    }
   ],
-  "ic_not": "TEK KAYNAK (Britannica) — bağımsız ikinci akademik kaynak okunamadı/bulunamadı; çift teyit YOK. Tanık cümlesi 'the town'a atıflıdır (madde başlığı Barcelona). İki yerleşimin birleşmesi = kuruluş (1671). Atlasta Barquisimeto/Barcelona yok. ATLAS ÖNERİSİ: nokta eklenmeli. 1821/1830 sınırları ÜLKE düzeyi."
+  "ic_not": "TEK KAYNAK (Britannica) — bağımsız ikinci akademik kaynak okunamadı/bulunamadı; çift teyit YOK. Tanık cümlesi 'the town'a atıflıdır (madde başlığı Barcelona). İki yerleşimin birleşmesi = kuruluş (1671). Atlasta Barquisimeto/Barcelona yok. ATLAS ÖNERİSİ: nokta eklenmeli. 1821/1830 sınırları ÜLKE düzeyi. TANIK DENETIMI 17 Kasim 2026 (sayfa yeniden okundu): Alinti sayfada birebir; cumlede sehir adi yok, ozne zamir/ortuk ('it'/'the town/city/settlement') — madde konusu zamir (madde basligi sehirdir)."
  },
  {
   "id": "barquisimeto-ve",
@@ -252,7 +252,7 @@ window.SEHIR_TARIHCE_GUNEY_AMERIKA_UC = [
     "tanik": "they promptly deposed the governor and declared their independence on May 14, 1811"
    }
   ],
-  "ic_not": "TEK KAYNAK (Britannica) — bağımsız ikinci akademik kaynak okunamadı/bulunamadı; çift teyit YOK. Tanık cümlesi 'the town'a atıflıdır (madde başlığı Caacupé). 1811 sınırı ÜLKE düzeyi. Atlasta Caacupé yok. ATLAS ÖNERİSİ: nokta eklenmeli."
+  "ic_not": "TEK KAYNAK (Britannica) — bağımsız ikinci akademik kaynak okunamadı/bulunamadı; çift teyit YOK. Tanık cümlesi 'the town'a atıflıdır (madde başlığı Caacupé). 1811 sınırı ÜLKE düzeyi. Atlasta Caacupé yok. ATLAS ÖNERİSİ: nokta eklenmeli. TANIK DENETIMI 17 Kasim 2026 (sayfa yeniden okundu): Alinti sayfada birebir; cumlede sehir adi yok, ozne zamir/ortuk ('it'/'the town/city/settlement') — madde konusu zamir (madde basligi sehirdir)."
  },
  {
   "id": "cali-co",
@@ -286,7 +286,7 @@ window.SEHIR_TARIHCE_GUNEY_AMERIKA_UC = [
    }
   ],
   "olay": [],
-  "ic_not": "TEK KAYNAK (Britannica) — bağımsız ikinci akademik kaynak okunamadı/bulunamadı; çift teyit YOK. ATLAS ÖNERİSİ: atlas Cali başlangıcı 1537-01-01 (gün kaynaksız); Britannica 25 Temmuz 1536 verir — başlangıç 1536-07-25'e çekilmeli (bağımsız ikinci kaynakla teyit sonrası)."
+  "ic_not": "TEK KAYNAK (Britannica) — bağımsız ikinci akademik kaynak okunamadı/bulunamadı; çift teyit YOK. ATLAS ÖNERİSİ: atlas Cali başlangıcı 1537-01-01 (gün kaynaksız); Britannica 25 Temmuz 1536 verir — başlangıç 1536-07-25'e çekilmeli (bağımsız ikinci kaynakla teyit sonrası). TANIK DENETIMI 17 Kasim 2026 (sayfa yeniden okundu): Alinti sayfada birebir; cumlede sehir adi yok, ozne zamir/ortuk ('it'/'the town/city/settlement') — madde konusu zamir (madde basligi sehirdir)."
  },
  {
   "id": "cayenne-gf",
@@ -340,7 +340,7 @@ window.SEHIR_TARIHCE_GUNEY_AMERIKA_UC = [
     "tanik": "In 1852 Napoleon III decreed that convicts with sentences of more than seven years were to be sent to French Guiana"
    }
   ],
-  "ic_not": "TEK KAYNAK (Britannica) — bağımsız ikinci akademik kaynak okunamadı/bulunamadı; çift teyit YOK. Atlas Cayenne 1643-01-01 'fransa' = ilk.t; zincir atlasa devredilir. Britannica: yeniden iskân 1664 öncesi kesinti — atlas zinciri esas.",
+  "ic_not": "TEK KAYNAK (Britannica) — bağımsız ikinci akademik kaynak okunamadı/bulunamadı; çift teyit YOK. Atlas Cayenne 1643-01-01 'fransa' = ilk.t; zincir atlasa devredilir. Britannica: yeniden iskân 1664 öncesi kesinti — atlas zinciri esas. TANIK DENETIMI 17 Kasim 2026 (sayfa yeniden okundu): Alinti sayfada birebir; cumlede yil var, sehir adi yok (La Ravardiere eski ad) — madde konusu zamir (madde basligi sehirdir).",
   "ad_kaynak": "La Ravardière: Britannica 'Cayenne' (kuruluş adı, 1643); Cayenne: 1777"
  },
  {
@@ -377,7 +377,7 @@ window.SEHIR_TARIHCE_GUNEY_AMERIKA_UC = [
     "tanik": "In 1846 the name was changed to honour the Venezuelan liberator Simón Bolívar"
    }
   ],
-  "ic_not": "TEK KAYNAK (Britannica) — bağımsız ikinci akademik kaynak okunamadı/bulunamadı; çift teyit YOK. Atlas 'Ciudad Bolívar (Angostura)' 1764-01-01 'yeni-granada-valiligi' = ilk.t ile aynı gün; zincir atlasa devredilir (ilk.t atlas başlangıcına eşit). 1764 kaynakta yalnız yıl (atlasın 01-01'i gün tanığı değil).",
+  "ic_not": "TEK KAYNAK (Britannica) — bağımsız ikinci akademik kaynak okunamadı/bulunamadı; çift teyit YOK. Atlas 'Ciudad Bolívar (Angostura)' 1764-01-01 'yeni-granada-valiligi' = ilk.t ile aynı gün; zincir atlasa devredilir (ilk.t atlas başlangıcına eşit). 1764 kaynakta yalnız yıl (atlasın 01-01'i gün tanığı değil). TANIK DENETIMI 17 Kasim 2026 (sayfa yeniden okundu): Alinti sayfada birebir; cumlede sehir adi yok, ozne zamir/ortuk ('it'/'the town/city/settlement') — madde konusu zamir (madde basligi sehirdir).",
   "ad_kaynak": "San Tomás de la Nueva Guayana de la Angostura: Britannica 'Ciudad Bolívar' (kuruluş adı, 1764); Ciudad Bolívar: 1846"
  },
  {
@@ -454,7 +454,7 @@ window.SEHIR_TARIHCE_GUNEY_AMERIKA_UC = [
     "tanik": "they promptly deposed the governor and declared their independence on May 14, 1811"
    }
   ],
-  "ic_not": "TEK KAYNAK (Britannica) — bağımsız ikinci akademik kaynak okunamadı/bulunamadı; çift teyit YOK. Tanık cümlesi 'the town'a atıflıdır. 1811 sınırı ÜLKE düzeyi. Atlasta yok. ATLAS ÖNERİSİ: nokta eklenmeli."
+  "ic_not": "TEK KAYNAK (Britannica) — bağımsız ikinci akademik kaynak okunamadı/bulunamadı; çift teyit YOK. Tanık cümlesi 'the town'a atıflıdır. 1811 sınırı ÜLKE düzeyi. Atlasta yok. ATLAS ÖNERİSİ: nokta eklenmeli. TANIK DENETIMI 17 Kasim 2026 (sayfa yeniden okundu): Alinti sayfada birebir; cumlede sehir adi yok, ozne zamir/ortuk ('it'/'the town/city/settlement') — madde konusu zamir (madde basligi sehirdir)."
  },
  {
   "id": "cucuta-co",
@@ -542,7 +542,7 @@ window.SEHIR_TARIHCE_GUNEY_AMERIKA_UC = [
     "tanik": "In 1875 it was destroyed by an earthquake but then was rebuilt with parks and wide avenues"
    }
   ],
-  "ic_not": "TEK KAYNAK (Britannica) — bağımsız ikinci akademik kaynak okunamadı/bulunamadı; çift teyit YOK. Zincir sınırları ÜLKE düzeyi (1819/1830; Cúcuta Kongresi 1821 ayrıca anılır). Atlasta Cúcuta yok. ATLAS ÖNERİSİ: nokta eklenmeli.",
+  "ic_not": "TEK KAYNAK (Britannica) — bağımsız ikinci akademik kaynak okunamadı/bulunamadı; çift teyit YOK. Zincir sınırları ÜLKE düzeyi (1819/1830; Cúcuta Kongresi 1821 ayrıca anılır). Atlasta Cúcuta yok. ATLAS ÖNERİSİ: nokta eklenmeli. TANIK DENETIMI 17 Kasim 2026 (sayfa yeniden okundu): Alinti sayfada birebir; cumlede sehir adi yok, ozne zamir/ortuk ('it'/'the town/city/settlement') — madde konusu zamir (madde basligi sehirdir).",
   "ad_kaynak": "San José de Guasimal: Britannica 'Cúcuta' (1733); San José de Cúcuta: 1793"
  },
  {
@@ -589,7 +589,7 @@ window.SEHIR_TARIHCE_GUNEY_AMERIKA_UC = [
     "tanik": "When the British regained control in 1812, the name was changed back to Georgetown"
    }
   ],
-  "ic_not": "TEK KAYNAK (Britannica) — bağımsız ikinci akademik kaynak okunamadı/bulunamadı; çift teyit YOK. ATLAS ÖNERİSİ: atlas 'Georgetown (Stabroek)' 1781-01-01 sahibi 'fransa'; Britannica kuruluşu İngilizlere (1781), 1784'e kadar Fransızların yeniden inşa ettiğini, sonra Hollanda (Stabroek) dönemini yazar — sahip/ardışık zincir atlasta denetlenmeli. Zincir atlasa devredilir (ilk.t = atlas başlangıcı).",
+  "ic_not": "TEK KAYNAK (Britannica) — bağımsız ikinci akademik kaynak okunamadı/bulunamadı; çift teyit YOK. ATLAS ÖNERİSİ: atlas 'Georgetown (Stabroek)' 1781-01-01 sahibi 'fransa'; Britannica kuruluşu İngilizlere (1781), 1784'e kadar Fransızların yeniden inşa ettiğini, sonra Hollanda (Stabroek) dönemini yazar — sahip/ardışık zincir atlasta denetlenmeli. Zincir atlasa devredilir (ilk.t = atlas başlangıcı). TANIK DENETIMI 17 Kasim 2026 (sayfa yeniden okundu): Alinti sayfada birebir; cumlede sehir adi yok, ozne zamir/ortuk ('it'/'the town/city/settlement') — madde konusu zamir (madde basligi sehirdir).",
   "ad_kaynak": "Stabroek: Britannica 'Georgetown' (Hollanda dönemi adı; 1784)"
  },
  {
@@ -677,7 +677,7 @@ window.SEHIR_TARIHCE_GUNEY_AMERIKA_UC = [
    }
   ],
   "olay": [],
-  "ic_not": "TEK KAYNAK (Britannica) — bağımsız ikinci akademik kaynak okunamadı/bulunamadı; çift teyit YOK. Atlasta Manizales yok. ATLAS ÖNERİSİ: nokta eklenmeli. Künye 'kolombiya-cumhuriyeti' (Yeni Granada/Kolombiya adlandırması ayrımı yapılmadı)."
+  "ic_not": "TEK KAYNAK (Britannica) — bağımsız ikinci akademik kaynak okunamadı/bulunamadı; çift teyit YOK. Atlasta Manizales yok. ATLAS ÖNERİSİ: nokta eklenmeli. Künye 'kolombiya-cumhuriyeti' (Yeni Granada/Kolombiya adlandırması ayrımı yapılmadı). TANIK DENETIMI 17 Kasim 2026 (sayfa yeniden okundu): Alinti sayfada birebir; cumlede sehir adi yok, ozne zamir/ortuk ('it'/'the town/city/settlement') — madde konusu zamir (madde basligi sehirdir)."
  },
  {
   "id": "maturin-ve",
@@ -745,7 +745,7 @@ window.SEHIR_TARIHCE_GUNEY_AMERIKA_UC = [
     "tanik": "He led the separation movement from Gran Colombia in 1829 and in 1830 convoked a constitutional convention for Venezuela"
    }
   ],
-  "ic_not": "TEK KAYNAK (Britannica) — bağımsız ikinci akademik kaynak okunamadı/bulunamadı; çift teyit YOK. Tanık cümlesi 'the city'ye atıflıdır (madde başlığı Maturín; ad önceki cümlede). Atlasta yok. ATLAS ÖNERİSİ: nokta eklenmeli. 1821/1830 sınırları ÜLKE düzeyi."
+  "ic_not": "TEK KAYNAK (Britannica) — bağımsız ikinci akademik kaynak okunamadı/bulunamadı; çift teyit YOK. Tanık cümlesi 'the city'ye atıflıdır (madde başlığı Maturín; ad önceki cümlede). Atlasta yok. ATLAS ÖNERİSİ: nokta eklenmeli. 1821/1830 sınırları ÜLKE düzeyi. TANIK DENETIMI 17 Kasim 2026 (sayfa yeniden okundu): Alinti sayfada birebir; cumlede sehir adi yok, ozne zamir/ortuk ('it'/'the town/city/settlement') — madde konusu zamir (madde basligi sehirdir)."
  },
  {
   "id": "merida-ve",
@@ -876,7 +876,7 @@ window.SEHIR_TARIHCE_GUNEY_AMERIKA_UC = [
     "tanik": "military officers carried out a coup on November 15, 1889"
    }
   ],
-  "ic_not": "TEK KAYNAK (Britannica) — bağımsız ikinci akademik kaynak okunamadı/bulunamadı; çift teyit YOK. 1822/1889 sınırları ÜLKE düzeyi (Britannica Brazil). Atlasta Niterói yok. ATLAS ÖNERİSİ: nokta eklenmeli.",
+  "ic_not": "TEK KAYNAK (Britannica) — bağımsız ikinci akademik kaynak okunamadı/bulunamadı; çift teyit YOK. 1822/1889 sınırları ÜLKE düzeyi (Britannica Brazil). Atlasta Niterói yok. ATLAS ÖNERİSİ: nokta eklenmeli. TANIK DENETIMI 17 Kasim 2026 (sayfa yeniden okundu): Alinti sayfada birebir; cumlede sehir adi yok, ozne zamir/ortuk ('it'/'the town/city/settlement') — madde konusu zamir (madde basligi sehirdir).",
   "ad_kaynak": "Villa Real da Praia Grande: Britannica 'Niterói' (1819); Niterói/Nictheroy: 1836"
  },
  {
@@ -1130,7 +1130,7 @@ window.SEHIR_TARIHCE_GUNEY_AMERIKA_UC = [
     "tanik": "they promptly deposed the governor and declared their independence on May 14, 1811"
    }
   ],
-  "ic_not": "TEK KAYNAK (Britannica) — bağımsız ikinci akademik kaynak okunamadı/bulunamadı; çift teyit YOK. Tanık cümlesi 'the town'a atıflıdır. 1811 sınırı ÜLKE düzeyi. Atlasta yok. ATLAS ÖNERİSİ: nokta eklenmeli.",
+  "ic_not": "TEK KAYNAK (Britannica) — bağımsız ikinci akademik kaynak okunamadı/bulunamadı; çift teyit YOK. Tanık cümlesi 'the town'a atıflıdır. 1811 sınırı ÜLKE düzeyi. Atlasta yok. ATLAS ÖNERİSİ: nokta eklenmeli. TANIK DENETIMI 17 Kasim 2026 (sayfa yeniden okundu): Alinti sayfada birebir; cumlede sehir adi yok, ozne zamir/ortuk ('it'/'the town/city/settlement') — madde konusu zamir (madde basligi sehirdir).",
   "ad_kaynak": "Ñeembucú: Britannica 'Pilar' (özgün ad, 1779)"
  },
  {
@@ -1208,7 +1208,7 @@ window.SEHIR_TARIHCE_GUNEY_AMERIKA_UC = [
     "tanik": "But on May 13, 1830, after a period of protracted regional rivalries, Ecuador seceded and became a separate independent republic"
    }
   ],
-  "ic_not": "TEK KAYNAK (Britannica) — bağımsız ikinci akademik kaynak okunamadı/bulunamadı; çift teyit YOK. TAŞINMA: 1535 kıyıya yakın ilk yer, 1628'de bugünkü yer — mesafe Britannica'da yok; > 3 km ise kuruluş 1628'e çekilmeli (ölçülmedi, BEYAN). 1822/1830 sınırları ÜLKE düzeyi. Atlasta Portoviejo yok. ATLAS ÖNERİSİ: nokta eklenmeli."
+  "ic_not": "TEK KAYNAK (Britannica) — bağımsız ikinci akademik kaynak okunamadı/bulunamadı; çift teyit YOK. TAŞINMA: 1535 kıyıya yakın ilk yer, 1628'de bugünkü yer — mesafe Britannica'da yok; > 3 km ise kuruluş 1628'e çekilmeli (ölçülmedi, BEYAN). 1822/1830 sınırları ÜLKE düzeyi. Atlasta Portoviejo yok. ATLAS ÖNERİSİ: nokta eklenmeli. TANIK DENETIMI 17 Kasim 2026 (sayfa yeniden okundu): Alinti sayfada birebir; cumlede sehir adi yok, ozne zamir/ortuk ('it'/'the town/city/settlement') — madde konusu zamir (madde basligi sehirdir)."
  },
  {
   "id": "punta-arenas-cl",
@@ -1242,7 +1242,7 @@ window.SEHIR_TARIHCE_GUNEY_AMERIKA_UC = [
    }
   ],
   "olay": [],
-  "ic_not": "TEK KAYNAK (Britannica) — bağımsız ikinci akademik kaynak okunamadı/bulunamadı; çift teyit YOK. Tanık cümlesi 'it'e atıflıdır; yıl 1848 (gün kaynakta yok; atlas 1848-12-18 gün tanığı okunmadı)."
+  "ic_not": "TEK KAYNAK (Britannica) — bağımsız ikinci akademik kaynak okunamadı/bulunamadı; çift teyit YOK. Tanık cümlesi 'it'e atıflıdır; yıl 1848 (gün kaynakta yok; atlas 1848-12-18 gün tanığı okunmadı). TANIK DENETIMI 17 Kasim 2026 (sayfa yeniden okundu): Alinti sayfada birebir; cumlede sehir adi yok, ozne zamir/ortuk ('it'/'the town/city/settlement') — madde konusu zamir (madde basligi sehirdir)."
  },
  {
   "id": "rio-branco-br",
@@ -1384,7 +1384,7 @@ window.SEHIR_TARIHCE_GUNEY_AMERIKA_UC = [
     "tanik": "But on May 13, 1830, after a period of protracted regional rivalries, Ecuador seceded and became a separate independent republic"
    }
   ],
-  "ic_not": "TEK KAYNAK (Britannica) — bağımsız ikinci akademik kaynak okunamadı/bulunamadı; çift teyit YOK. ESKİ YER: Britannica 1534'te İspanyolların şehri Cajabamba yerinde kurduğunu (bugünkü yerin 19 km GB'sı) yazar; > 3 km kuralı gereği bu kayıt BUGÜNKÜ yerin 1797 taşınmasından başlar, 1534 eski yer ayrı kayıt olarak ÖNERİLİR (Cajabamba/Eski Riobamba). 1822/1830 sınırları ÜLKE düzeyi. Atlasta Riobamba yok. ATLAS ÖNERİSİ: nokta eklenmeli.",
+  "ic_not": "TEK KAYNAK (Britannica) — bağımsız ikinci akademik kaynak okunamadı/bulunamadı; çift teyit YOK. ESKİ YER: Britannica 1534'te İspanyolların şehri Cajabamba yerinde kurduğunu (bugünkü yerin 19 km GB'sı) yazar; > 3 km kuralı gereği bu kayıt BUGÜNKÜ yerin 1797 taşınmasından başlar, 1534 eski yer ayrı kayıt olarak ÖNERİLİR (Cajabamba/Eski Riobamba). 1822/1830 sınırları ÜLKE düzeyi. Atlasta Riobamba yok. ATLAS ÖNERİSİ: nokta eklenmeli. TANIK DENETIMI 17 Kasim 2026 (sayfa yeniden okundu): Alinti sayfada birebir; cumlede sehir adi yok, ozne zamir/ortuk ('it'/'the town/city/settlement') — madde konusu zamir (madde basligi sehirdir).",
   "ad_kaynak": "Cajabamba: Britannica 'Riobamba' (eski yer, 1534)"
  },
  {
@@ -1429,7 +1429,7 @@ window.SEHIR_TARIHCE_GUNEY_AMERIKA_UC = [
     "tanik": "Its inhabitants declared their independence from Spain in 1811, and the city was recaptured only briefly by royalist forces"
    }
   ],
-  "ic_not": "TEK KAYNAK (Britannica) — bağımsız ikinci akademik kaynak okunamadı/bulunamadı; çift teyit YOK. ESKİ YER: 1561'de bugünkü San José de Chiquitos yerinde kuruldu (>3 km); bu kayıt bugünkü yerin 1595 kuruluşundan başlar, 1561 eski yer ayrı kayıt ÖNERİLİR. 1811 olayı atlas zincirine karışmaz (atlas esas).",
+  "ic_not": "TEK KAYNAK (Britannica) — bağımsız ikinci akademik kaynak okunamadı/bulunamadı; çift teyit YOK. ESKİ YER: 1561'de bugünkü San José de Chiquitos yerinde kuruldu (>3 km); bu kayıt bugünkü yerin 1595 kuruluşundan başlar, 1561 eski yer ayrı kayıt ÖNERİLİR. 1811 olayı atlas zincirine karışmaz (atlas esas). TANIK DENETIMI 17 Kasim 2026 (sayfa yeniden okundu): Alinti sayfada birebir; cumlede sehir adi yok, ozne zamir/ortuk ('it'/'the town/city/settlement') — madde konusu zamir (madde basligi sehirdir).",
   "ad_kaynak": "Santa Cruz de la Sierra: Britannica 'Santa Cruz' (1595 yeniden adlandırma)"
  },
  {
@@ -1507,7 +1507,7 @@ window.SEHIR_TARIHCE_GUNEY_AMERIKA_UC = [
     "tanik": "military officers carried out a coup on November 15, 1889"
    }
   ],
-  "ic_not": "TEK KAYNAK (Britannica) — bağımsız ikinci akademik kaynak okunamadı/bulunamadı; çift teyit YOK. Tanık cümlesi 'it'e atıflıdır (madde başlığı Santos). 1822/1889 sınırları ÜLKE düzeyi. Atlasta Santos yok. ATLAS ÖNERİSİ: nokta eklenmeli (liste notu: 1546 liman — Britannica 1543; çelişki gün/yıl farkı beyan)."
+  "ic_not": "TEK KAYNAK (Britannica) — bağımsız ikinci akademik kaynak okunamadı/bulunamadı; çift teyit YOK. Tanık cümlesi 'it'e atıflıdır (madde başlığı Santos). 1822/1889 sınırları ÜLKE düzeyi. Atlasta Santos yok. ATLAS ÖNERİSİ: nokta eklenmeli (liste notu: 1546 liman — Britannica 1543; çelişki gün/yıl farkı beyan). TANIK DENETIMI 17 Kasim 2026 (sayfa yeniden okundu): Alinti sayfada birebir; cumlede sehir adi yok, ozne zamir/ortuk ('it'/'the town/city/settlement') — madde konusu zamir (madde basligi sehirdir)."
  },
  {
   "id": "tarija-bo",
@@ -1543,7 +1543,7 @@ window.SEHIR_TARIHCE_GUNEY_AMERIKA_UC = [
   ],
   "olay": [],
   "dikis_beyan": "Atlas başlangıcı 1690-01-01 (atlas künyesi ispanyol-peru): Britannica yalnız 1574 kuruluşunu verir; 1690 için gün/olay tanığı okunmadı; ispanya → ispanyol-peru künye geçişi için yer tutucu olay yazılmadı.",
-  "ic_not": "TEK KAYNAK (Britannica) — bağımsız ikinci akademik kaynak okunamadı/bulunamadı; çift teyit YOK. ATLAS ÖNERİSİ: atlas Tarija başlangıcı 1690-01-01 'ispanyol-peru'; Britannica 1574 kuruluşu verir — atlas başlangıcı 1574'e çekilmeli.",
+  "ic_not": "TEK KAYNAK (Britannica) — bağımsız ikinci akademik kaynak okunamadı/bulunamadı; çift teyit YOK. ATLAS ÖNERİSİ: atlas Tarija başlangıcı 1690-01-01 'ispanyol-peru'; Britannica 1574 kuruluşu verir — atlas başlangıcı 1574'e çekilmeli. TANIK DENETIMI 17 Kasim 2026 (sayfa yeniden okundu): Alinti sayfada birebir; cumlede sehir adi yok, ozne zamir/ortuk ('it'/'the town/city/settlement') — madde konusu zamir (madde basligi sehirdir).",
   "ad_kaynak": "San Bernardo de la Frontera de Tarija: Britannica 'Tarija' (kuruluş adı, 1574)"
  },
  {
@@ -1578,7 +1578,7 @@ window.SEHIR_TARIHCE_GUNEY_AMERIKA_UC = [
    }
   ],
   "olay": [],
-  "ic_not": "TEK KAYNAK (Britannica) — bağımsız ikinci akademik kaynak okunamadı/bulunamadı; çift teyit YOK. Tanık cümlesi 'It'e atıflıdır (madde başlığı Temuco). Atlasta Temuco yok. ATLAS ÖNERİSİ: nokta eklenmeli."
+  "ic_not": "TEK KAYNAK (Britannica) — bağımsız ikinci akademik kaynak okunamadı/bulunamadı; çift teyit YOK. Tanık cümlesi 'It'e atıflıdır (madde başlığı Temuco). Atlasta Temuco yok. ATLAS ÖNERİSİ: nokta eklenmeli. TANIK DENETIMI 17 Kasim 2026 (sayfa yeniden okundu): Alinti sayfada birebir; cumlede sehir adi yok, ozne zamir/ortuk ('it'/'the town/city/settlement') — madde konusu zamir (madde basligi sehirdir)."
  },
  {
   "id": "trinidad-bo",
@@ -1648,6 +1648,6 @@ window.SEHIR_TARIHCE_GUNEY_AMERIKA_UC = [
     "tanik": "In 1819 it served as Simón Bolívar’s operating base for his victory over the Spanish at the Battle of Boyacá"
    }
   ],
-  "ic_not": "TEK KAYNAK (Britannica) — bağımsız ikinci akademik kaynak okunamadı/bulunamadı; çift teyit YOK. ATLAS ÖNERİSİ/ÇELİŞKİ: atlas 'Hunza (Tunja)' 1281-01-01 'muisca-konfederasyonu' ile başlıyor (İspanyol öncesi Muisca Hunza); Britannica yalnız 1539 İspanyol kuruluşunu verir. İlk.t atlas başlangıcından SONRA olduğundan zincir yazılmadı; 1281 Muisca başlangıcının kaynağı ayrıca doğrulanmalı. 1539 yalnız yıl."
+  "ic_not": "TEK KAYNAK (Britannica) — bağımsız ikinci akademik kaynak okunamadı/bulunamadı; çift teyit YOK. ATLAS ÖNERİSİ/ÇELİŞKİ: atlas 'Hunza (Tunja)' 1281-01-01 'muisca-konfederasyonu' ile başlıyor (İspanyol öncesi Muisca Hunza); Britannica yalnız 1539 İspanyol kuruluşunu verir. İlk.t atlas başlangıcından SONRA olduğundan zincir yazılmadı; 1281 Muisca başlangıcının kaynağı ayrıca doğrulanmalı. 1539 yalnız yıl. TANIK DENETIMI 17 Kasim 2026 (sayfa yeniden okundu): Alinti sayfada birebir; cumlede sehir adi yok, ozne zamir/ortuk ('it'/'the town/city/settlement') — madde konusu zamir (madde basligi sehirdir)."
  }
 ];
