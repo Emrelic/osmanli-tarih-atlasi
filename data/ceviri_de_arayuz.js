@@ -274,6 +274,7 @@ Ceviri.ekle("de","arayuz",{
 "# Temmuz # (# Cemâziyelâhir #)":["#. Juli # (#. Dschumada al-achira #)", "117e9575"],
 "# Temmuz # (# Zilkade # — TDV tebriz)":["#. Juli # (#. Dhu l-Qada # — TDV tebriz)", "e69a9738"],
 "# Temmuz # (# Şevval #)":["#. Juli # (#. Schawwal #)", "ab6aa597"],
+"# Temmuz # (# Şâban #)":["#. Juli # (#. Schaban #)", "5013bb7f"],
 "# Temmuz # (Berlin Antlaşması)":["#. Juli # (Berliner Vertrag)", "7d8e5a8c"],
 "# Temmuz # (Dnepr ötesi # Temmuz)":["#. Juli # (jenseits des Dnepr #. Juli)", "a33cc92a"],
 "# Temmuz # (Jülyen # Haziran)":["#. Juli # (julianisch #. Juni)", "e37ad0bb"],
