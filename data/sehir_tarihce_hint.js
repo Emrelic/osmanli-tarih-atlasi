@@ -1,6 +1,6 @@
-// ŞEHİR TARİHÇESİ — SEHIR_TARIHCE_HINT · üretici: arac/sehir_tarihce.py · şema: VERI-YAPISI.md
+// ŞEHİR TARİHÇESİ — HINT · üretici: arac/sehir_tarihce.py · şema: VERI-YAPISI.md
 // Motor/denetle/site OKUMAZ — araştırma birikimi. Elle düzenleme: JSON'u düzelt, yeniden üret.
-window.SEHIR_TARIHCE_SEHIR_TARIHCE_HINT = [
+window.SEHIR_TARIHCE_HINT = [
  {
   "id": "agra-in",
   "ad": "Agra",
@@ -3030,6 +3030,40 @@ window.SEHIR_TARIHCE_SEHIR_TARIHCE_HINT = [
   "dikis_beyan": "Atlas Patna'yı -0363-01-01'de nanda ile başlatır; TDV 'Patna' maddesi MÖ V. yy'dan sonra Gupta (MS IV. yy) dönemine atlar, Nanda hâkimiyetini tarihlemez; kaynak bulunamadı, yer tutucu olay yazılmadı."
  },
  {
+  "id": "puri-in-p11",
+  "ad": "Puri",
+  "atlas_ad": "Puri",
+  "lat": 19.7982,
+  "lon": 85.8249,
+  "kat1900": 3,
+  "adlar": [
+   "Puri"
+  ],
+  "ilk": {
+   "t": "1590-01-01",
+   "gun": "1590",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "L. S. S. O'Malley, Bengal District Gazetteers: Puri (Calcutta 1908), Chapter I History; archive.org dli.ministry.08613 (OCR djvu.txt yerel kopyası okundu, 17 Kasım 2026; OCR kullanıldı)",
+   "tanik": "in 1590, the Afghans ceded Puri and its temple to Man Singh"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1590-01-01",
+    "gun": "1590",
+    "k": "diger",
+    "b": "Afganlar Puri'yi ve Jagannâth tapınağını Râca Man Singh'e (Babürlü) bıraktı; iki yıl sonra şehri yağmaladılar",
+    "kesinlik": "yil",
+    "kaynak": "L. S. S. O'Malley, Bengal District Gazetteers: Puri (Calcutta 1908), Chapter I History; archive.org dli.ministry.08613 (OCR djvu.txt yerel kopyası okundu, 17 Kasım 2026; OCR kullanıldı)"
+   }
+  ],
+  "ic_not": "TEK KAYNAK (O'Malley 1908, OCR). ilk.t=1590: tanık 15 kelime sınırı için kısaltılmış (cümle: 'Subsequently, in 1590, the Afghans ceded Puri and its temple to Man Singh, but two years later, they plundered the city'). DİKKAT — ilk.t kaynağın verdiği EN ERKEN yıllı şehir cümlesi DEĞİL: aynı eserde 'The earliest Musalman raid recorded was in 1509 A.D. when a general of Husain Shah, king of Bengal, made a dash on Puri' cümlesi var (1509; Pratâparudra'nın 1497'de tahta çıkışından '12 years later' ile de tutarlı), ancak şehir+yıl içeren kesintisiz parça 16 kelime tutuyor ve 15 kelime sınırını aşıyor, ayrıca cümlede OCR bozukluğu var ('Mnsalman'); bu yüzden tanık olarak kullanılamadı; 1509 baskını bu notta beyan edilir, olay/ilk yapılmadı. Daha ileri çözüm: 16 kelimelik tanığa izin verilirse ilk.t 1509 yapılabilir. Jagannâth tapınağı Chodagaṅga tarafından '12. yüzyılın ilk yarısında' yaptırıldı (yalnız yüzyıl, yazılmadı). 'two years later' (1592) göreli, yazılmadı. sahip[] boş: 1590 Afgan→Babürlü devri için kaynaktan günlü/devlet-künyeli zincir kurulamadı. Çift teyit YOK."
+ },
+ {
   "id": "racmahal-in",
   "ad": "Râcmahal",
   "atlas_ad": "Râcmahal",
@@ -3185,6 +3219,31 @@ window.SEHIR_TARIHCE_SEHIR_TARIHCE_HINT = [
    }
   ],
   "ic_not": "TEK KAYNAK (Imperial Gazetteer; OCR). Çift teyit: Britannica sayfası/TDV/Majumdar bu oturumda ilgili yılı vermedi ya da 404 döndü; bağımsız ikinci kaynak bulunamadı. Cümle 14. yüzyılı 'çöküş' olarak verir; yerleşim ('Fatehpur Baori, within historical times') ondan önce vardı ama yıl verilmez. Güvenli uç (yüzyıl sonu) 1400. Aynı maddede MÖ-antik kalıntı (2 km²'lik antik tuğla alanı) tarihsiz. 1765 olayı Britannica'daki tanıkla uyumludur (parti 6 borcu: 'yalnız Britannica 1765') — iki bağımsız kaynak DEĞİL (Britannica ve Gazetteer aynı anlatıya dayanıyor olabilir), bu yüzden çift teyit yazılmadı. ÖLÇÜLDÜ: atlas noktası 1281-01-01'de 'delhi-sultanligi' ile başlıyor (denetim/atlas_ilk_gunleri, 17 Kasım 2026)."
+ },
+ {
+  "id": "sadiya-in-p11",
+  "ad": "Sadiya",
+  "atlas_ad": "Sadiya",
+  "lat": 27.832,
+  "lon": 95.6725,
+  "kat1900": 3,
+  "adlar": [
+   "Sadiya"
+  ],
+  "ilk": {
+   "t": "1523-01-01",
+   "gun": "1523",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Edward Gait, A History of Assam (Calcutta 1906), Ahom kralığı bölümleri; archive.org historyofassam00gait (OCR djvu.txt yerel kopyası okundu, 17 Kasım 2026; OCR kullanıldı)",
+   "tanik": "at Sadiya, and whose appointment dates from the overthrow of the Chutiya kingdom in 1523"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [],
+  "ic_not": "TEK KAYNAK (Gait 1906, OCR; Imperial Gazetteer c.6 s.26'daki 1523 rakamı Gait'e dayanan aynı yazar çizgisidir, bağımsız sayılmadı). ilk.t=1523: Sadiya'da oturan 'Sadiya Khowa Gohain' valiliğinin atanışı Chutiya krallığının devrilmesine (1523) tarihlenir; cümle şehri (Ahom vali merkezi) ve yılı birlikte verir. Tanık, 15 kelime sınırı için cümlenin 'at Sadiya, and whose appointment…' bölümüdür. Kaynak ayrıca 'Chutiya kings were reigning at Sadiya at the beginning of the thirteenth century' der (yalnız yüzyıl, yazılmadı) ve 1227 Gıyâseddin seferini Sadiya'ya kadar ulaştırır (yıl ayrı cümlede, şehir adı yıllı cümlede değil; yazılmadı). 1563 Chutiya baskını Sadiya'ya karşı Ahom seferi, OCR sütun karışıklığı nedeniyle atlandı. sahip[] boş: Chutiya→Ahom devri 1523 yılı kaynaklı ama önceki sahibin (Chutiya krallığı) künyesi/zinciri kurulmadı; zincir 1900'e kadar uydurulmadı. Çift teyit YOK."
  },
  {
   "id": "satara-in-p7",
@@ -3388,6 +3447,50 @@ window.SEHIR_TARIHCE_SEHIR_TARIHCE_HINT = [
    }
   ],
   "ic_not": "TEK KAYNAK (Banglapedia; imzalı madde, akademik ansiklopedi; DSAL Imperial Gazetteer 1296 cümlesinin OCR'sız karşılığı bulunamadı, o yüzden 1296 yazılmadı). ilk.t=1270: Banglapedia 'Maulana Şerefeddin Ebû Tevvâme Buhârî Sonargaon'a muhtemelen (probably) 1270'te geldi, hankâh ve medrese kurdu' der; 'probably' belirsizliği ic_not'ta beyan edilir, kesinlik yıl. Bu, şehrin o yıl VAR olduğu ve Müslüman ilim merkezi taşıdığı tanığıdır (kuruluş değil). Aynı maddede Sonargaon'un Vanga krallığı başkenti oluşu 'presumably 1260'lar' (varsayım, yıl yok) ve 'Hindu yönetiminin sonu (1302)' verilir; yazılmadı. Madde ayrıca ilk Müslüman valiyi Bahâdur Şah'ın bağımsızlığı (tarihsiz) ve 1338 öncesi 'bir on yıl' Tuğluk doğu eyaleti merkezi der; tarihsiz oldukları için yazılmadı. Çift teyit YOK. Aynı şehir için parti 4'te Majumdar VI'dan 1328 (728 H.) kaydı vardır (sonargaon-in-p4/A.json); bu kayıt çelişmez, daha geç bir anılıştır; birleştirmede en erken ilk=1270 alınır (probably beyanıyla), 1328 olaydır. 1338: 'The most glorious period of Sonargaon began in 1338 AD' cümlesi; 1352: 'fall of the house of Fakhruddin in the hands of shamsuddin iliyas shah in 1352 AD' (Sonargaon adı önceki cümlelerde); 1611: 'After the fall of musa khan (1611) in the hands of the Mughals, Sonargaon lost its political pre-eminence'. sahip[] yazılmadı (devlet kimlikleri için ayrı doğrulama gerekir)."
+ },
+ {
+  "id": "thane-in-p11",
+  "ad": "Thane",
+  "atlas_ad": "Thane",
+  "lat": 19.197,
+  "lon": 72.9636,
+  "kat1900": 3,
+  "adlar": [
+   "Sthanaka",
+   "Thana",
+   "Thane"
+  ],
+  "ilk": {
+   "t": "1318-01-01",
+   "gun": "1318",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Gazetteer of the Bombay Presidency, cilt XIV Thana: Places of Interest (Thana maddesi, History bölümü; archive.org dli.csl.3323, OCR djvu.txt yerel kopyası okundu, 17 Kasım 2026; OCR kullanıldı)",
+   "tanik": "In 1318, Thana was"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1318-01-01",
+    "gun": "1318",
+    "k": "fetih",
+    "b": "Thane, Halacî hanedanından Mübârek Şah (Mubarik Khilji) tarafından fethedildi ve bir Müslüman vali atandı (Devgiri Yâdavlarının 1250-1318 egemenliğinin sonu)",
+    "kesinlik": "yil",
+    "kaynak": "Gazetteer of the Bombay Presidency, cilt XIV Thana: Places of Interest (Thana maddesi, History bölümü; archive.org dli.csl.3323, OCR djvu.txt yerel kopyası okundu, 17 Kasım 2026; OCR kullanıldı)"
+   },
+   {
+    "t": "1529-01-01",
+    "gun": "1529",
+    "k": "diger",
+    "b": "Cambay donanmasının yenilgisi ve Bassein kıyısının yakılması üzerine 'büyük Thane şehrinin efendisi' Portekiz'e haraç verir oldu",
+    "kesinlik": "yil",
+    "kaynak": "Gazetteer of the Bombay Presidency, cilt XIV Thana: Places of Interest (Thana maddesi, History bölümü; archive.org dli.csl.3323, OCR djvu.txt yerel kopyası okundu, 17 Kasım 2026; OCR kullanıldı); cümlede OCR bozukluğu var (1529j), rakam 1530-1533 savaşı bağlamıyla tutarlı"
+   }
+  ],
+  "ic_not": "TEK KAYNAK (Bombay Gazetteer XIV, Campbell serisi; OCR djvu.txt). ilk.t=1318: 'In 1318, Thana was conquered by Mubarik Khilji' cümlesi; tanık yalnız OCR-temiz baş kısmı ('In 1318, Thana was') alındı, cümlenin devamında OCR bozukluğu var ('conejuered', 'Mnbarik') — bu yüzden tam cümle tırnaklanmadı. Rakam makullüğü: Mübârek Şah Halacî hanedanının 1316-1320 hükümdarıdır (Delhi Halacîleri, bkz. TDV 'Delhi Sultanlığı'; atlas künyesi delhi-halaci) ve aynı cildin Nasik cildinde Deccan'a Halacî akını 1318 olarak geçer. Daha erken tarihli anma: 1260 tarihli Someshvar (Silâhâra) yazıtında 'Shri-Sthanaka'daki Uttareshvar tapınağına bağış' — Sthanaka=Thana eşitlemesi eserin kendi yorumudur, cümlede 'Thana' adı geçmez ve yazıt-bağışı şehir olgusu sayılmadı, ilk anılış yapılmadı (olay da yazılmadı). Başka yıllı cümleler: Thana 'Devgiri Yâdavlarına geçti (1250-1318)' (aralık, OCR bozuk), 'In 1538 Thana and its suburbs ... measured about four miles round' (şehir boyutu, 1538; olay yazılmadı), 1342-44 İbn Batûta Kukin-Tana (OCR bozuk, yazılmadı). sahip[] BOŞ: kaynak 'şu yer şu yılda şu devletin' dese de sahiplik zinciri 1900'e kadar kaynaklı kurulamadı (1318-1529 arası Halacî→Tuğluk→Bahmanî→Gucerât; kaynak 'Thana seems to have become part of Gujarat' der, yıl vermez); zincir uydurulmadı, fetih olay olarak yazıldı. 1529 olayı: kaynak cümlesinde OCR bozukluğu (1529j), yıl 1530-33 savaşı bağlamıyla tutarlı. Çift teyit YOK (önceki parti yalnız heritageinstitute.com sitesinde 1318 buldu; akademik değil, sayılmadı)."
  },
  {
   "id": "tranquebar-in-p7",

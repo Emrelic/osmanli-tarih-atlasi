@@ -1,0 +1,44 @@
+[
+ {
+  "id": "abese-p11k",
+  "ad": "Abeşe (Abéché)",
+  "atlas_ad": "Abeşe (Abéché)",
+  "lat": 13.83,
+  "lon": 20.83,
+  "kat1900": null,
+  "adlar": ["Abeshr", "Abeşe (Abéché)"],
+  "ilk": {
+   "t": "1850-01-01",
+   "gun": "1850",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Heinrich Barth, Travels and Discoveries in North and Central Africa, cilt 2 (Waday bölümü), Harper, New York, 1857-59 baskısı; archive.org travelsanddisco02bartgoog (OCR djvu.txt, yerel kopya)",
+   "tanik": "in the year 1850 he [...] transferred the seat of govern- ment from Wara to Abeshr"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1850-01-01",
+    "gun": "1850",
+    "k": "diger",
+    "b": "Vadayî sultanı Muhammed eş-Şerîf hükümet merkezini Vâra'dan Abeşe'ye taşıdı; Abeşe o gün 'çok önemsiz bir yer ya da köy'dü (başkent oluş)",
+    "kesinlik": "yil",
+    "kaynak": "Heinrich Barth, Travels and Discoveries in North and Central Africa, cilt 2, archive.org travelsanddisco02bartgoog (OCR)",
+    "tanik": "in the year 1850 he [...] transferred the seat of govern- ment from Wara to Abeshr"
+   },
+   {
+    "t": "1852-01-01",
+    "gun": "1852",
+    "k": "diger",
+    "b": "Barth'ın gözlemi: hükümet merkezinin Abeşe'ye taşınması yüzünden eski başkent Vâra gün geçtikçe boşalıyor",
+    "kesinlik": "yil",
+    "kaynak": "Heinrich Barth, Travels and Discoveries in North and Central Africa, cilt 2, archive.org travelsanddisco02bartgoog (OCR)",
+    "tanik": "in 1852, on account of the seat of govemment having been transferred to Abeshr"
+   }
+  ],
+  "ic_not": "TEK KAYNAK (Barth; ikinci bağımsız metin yok). OCR djvu.txt kullanıldı; tanıktaki 'govern- ment' satır sonu tireli OCR biçimidir, ikinci alıntıdaki 'govemment' OCR hatasıdır (kaynak metinde 'government'); ikisi de OCR çıktısından birebirdir. Tanık için [...] aynı cümlede araya giren 'abandoned the old residence of all the former kings of Waday, down from Khanit the First, and' kısmını atlar (15 kelime sınırı); yıl (1850) ve şehir adı (Abeshr) AYNI cümlededir. 1850 yılı ikinci pasajla makul doğrulandı: Barth'ın 1852 notu taşınmanın en geç 1852'den önce olduğunu söyler ve rota listesi 'üç yıl önce Sultan Şerif'in ikametgâhı oldu' der (1852-3 ≈ 1850 civarı). Gün yok, yıl hassasiyeti (1850-01-01). Atlas Abeşe 1635'te vaday ile başlıyor; ilk.t atlas başlangıcından sonra olduğundan sahip zinciri YAZILMADI (denetle kuralı). ATLAS: atlas başlangıcı 1635 kaynaksız; Barth Abeşe'yi 1850 öncesinde 'Kelingen'in küçük yeri' olarak anar, yani 1635 'vaday' başlangıcı bu kaynakta doğrulanamadı. Atlas kronoloji maddesi 1850 ile Barth'ın yılı örtüşür."
+ }
+]
