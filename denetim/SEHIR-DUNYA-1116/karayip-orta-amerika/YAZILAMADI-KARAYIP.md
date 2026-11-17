@@ -12,3 +12,7 @@ Kapsam dışı bırakılan yok: istenen 12 şehirden 10'u yazıldı, 2'si burada
 
 `tarihce_var` iki yönlü kontrol: 12 hedefin hiçbiri yerel `data/sehir_tarihce_*.js` (32 dosya) ve
 `origin/main` (49 dosya) içinde ≤3 km ya da aynı adla kayıtlı değil (ölçüldü, 17 Kasım 2026).
+
+## F2B güncellemesi (UMIT, 17 Kasım 2026)
+
+Panamá ve Managua `data/sehir_tarihce_karayip_2.js`e YAZILDI (panama-viejo-pa, panama-city-casco-pa, managua-ni); ayrıntı `denetim/SEHIR-DUNYA-1116/KARAYIP-F2B-RAPOR-UMIT.md`. Managua zayıf: tek tanık (Rodgers, NLR 49, 2008; 1852), başkent yılı çelişkisi 1852/1855/1857 çözülmedi.
