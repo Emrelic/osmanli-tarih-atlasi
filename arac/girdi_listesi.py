@@ -761,4 +761,10 @@ GIRDI_DOSYALARI = [
     "yerlesimler_zincir64.js",
     # YERLESIM-SAHNE-1108 (9 Kasim 2026): kronolojide anilip atlasta olmayan yerlesimler (mukerrer taramali)
     "yerlesimler_sahne1108.js",
+    # BOLGE-CINb (15 Kasim 2026, UMIT ikinci dalga): Weihaiwei Ingiliz kira bolgesi 1898-1930 (kunye weihaiwei-ingiliz, harita:ingiltere)
+    "yerlesimler_cin_1115b.js",
+    # ITALYA-1115b (15 Kasim 2026): yerlesimsiz kunye Urbino (urbino-dukaligi 1443-1631)
+    "yerlesimler_italya_1115b.js",
+    # ISKANDINAV-1115c (15 Kasim 2026): C dilimi 1000-1199 - Lund (dansk ~1000, 1103 ark.), Sigtuna (~970, ilk piskoposluk)
+    "yerlesimler_iskandinav_1115c.js",
 ]

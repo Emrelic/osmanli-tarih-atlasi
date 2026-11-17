@@ -1,0 +1,2458 @@
+[
+ {
+  "id": "adiyaman-tr",
+  "ad": "Adıyaman",
+  "atlas_ad": null,
+  "lat": 37.7644,
+  "lon": 38.2763,
+  "kat1900": 3,
+  "adlar": [
+   "Hısnımansûr (Hısn-ı Mansûr)",
+   "Adıyaman"
+  ],
+  "ilk": {
+   "t": "0758-01-01",
+   "gun": "758",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/adiyaman (ADIYAMAN)",
+   "tanik": "758’de Abbâsî hâkimiyetine giren Hısnımansûr, X. yüzyılda yeniden Bizanslılar’a geçti"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0758-01-01",
+    "t": "1519-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/adiyaman (ADIYAMAN)",
+    "ic_not": "Şehir var, sahip zinciri bu dönem için kaynaklı kurulmadı (araştırılmadı); TDV olayları olay[]de. "
+   },
+   {
+    "f": "1519-01-01",
+    "t": "1900-01-01",
+    "d": "osmanli",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/adiyaman (ADIYAMAN)",
+    "ic_not": "f en geç tanıktan: TDV 'Osmanlı idarî teşkilâtında Besni’nin bir nahiyesi iken 1519’dan itibaren ... Maraş eyaletine bağlı sancaklar arasında yer aldı'; Osmanlı'ya katılış günü TDV'de yok. Önceki dönem (1066 Selçuklu ... 1519) uzun: sahip BOSLUK."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0758-01-01",
+    "gun": "758",
+    "k": "diger",
+    "b": "Hısnımansûr Abbâsî hâkimiyetine girdi",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/adiyaman (ADIYAMAN)"
+   },
+   {
+    "t": "1066-01-01",
+    "gun": "1066",
+    "k": "fetih",
+    "b": "Hısnımansûr Türkler’ce ilk defa Selçuklu kumandanı Gümüştegin tarafından alındı",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/adiyaman (ADIYAMAN)"
+   },
+   {
+    "t": "1519-01-01",
+    "gun": "1519",
+    "k": "diger",
+    "b": "Osmanlı idarî teşkilâtında Gerger, Kâhta, Besni ile Maraş eyaletine bağlı sancaklar arasına girdi",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/adiyaman (ADIYAMAN)"
+   },
+   {
+    "t": "1954-06-22",
+    "gun": "22 Haziran 1954",
+    "k": "diger",
+    "b": "Besni, Gerger ve Kâhta ilçeleriyle on altı nahiyeden oluşan il (Adıyaman) oldu",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/adiyaman (ADIYAMAN)"
+   }
+  ],
+  "ic_not": "Ad: TDV madde başlığı ADIYAMAN, eski ad Hısnımansûr (Hısn-ı Mansûr). TANIK KURALI: 758 cümlesi şehrin eski adıyla yıl aynı cümlede (ilk anılış en erken yıl değil olabilir: TDV 'Ömer zamanında başlanarak ... 670’e doğru ... Adıyaman, Samsat, Besni ve çevresi ele geçirildi' bölge anlamında, yeri kesin olmadığı için başlangıç sayılmadı). | TANIK: TDV tam gövdesinden birebir cümle (17 Kas 2026, gömülü tarayıcı). Tek kaynak (TDV)."
+ },
+ {
+  "id": "artvin-tr",
+  "ad": "Artvin",
+  "atlas_ad": null,
+  "lat": 41.1816,
+  "lon": 41.8217,
+  "kat1900": 3,
+  "adlar": [
+   "Livâne (Livâne Kalesi, Livâne kazası/sancağı)",
+   "Artvin"
+  ],
+  "ilk": {
+   "t": "0939-01-01",
+   "gun": "939",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/artvin (ARTVİN)",
+   "tanik": "bugünkü Artvin şehrinin nüvesini teşkil eden, müslüman ordularının akınlarını gözetlemek için Livâne Kalesi yapıldı (m.s. 939)"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0939-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/artvin (ARTVİN)",
+    "ic_not": "Şehir var, sahiplik zinciri kaynaklı kurulmadı (bu partide yalnız ilk anılış + olay yazıldı); zincir sonraki iş."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1536-01-01",
+    "gun": "1536-1537",
+    "k": "fetih",
+    "b": "Erzurum Beylerbeyi Dulkadırlı Mehmed Han’ın 1536-1537 harekâtında Artvin’in de içinde bulunduğu bölge ele geçirildi; Livâne sancağı kuruldu",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/artvin (ARTVİN)"
+   },
+   {
+    "t": "1549-01-01",
+    "gun": "1549",
+    "k": "fetih",
+    "b": "bölge ikinci vezir Ahmed Paşa’nın gayretiyle yeniden zaptedildi (arada elden çıkmıştı)",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/artvin (ARTVİN)"
+   },
+   {
+    "t": "1579-01-01",
+    "gun": "1579",
+    "k": "diger",
+    "b": "Çıldır eyaletinin teşkilinden sonra Artvin, Livâne sancağının merkezi oldu",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/artvin (ARTVİN)"
+   },
+   {
+    "t": "1828-06-01",
+    "gun": "Haziran 1828",
+    "k": "fetih",
+    "b": "Rus işgali; Edirne Muahedesi ile Ahıska Ruslar’a terkedildi, Çıldır eyaleti bozuldu",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/artvin (ARTVİN)"
+   },
+   {
+    "t": "1914-11-01",
+    "gun": "Kasım 1914",
+    "k": "kayip",
+    "b": "Melo Sınır Taburu Rus birliklerini bozguna uğrattı, Ruslar Artvin’i terketti",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/artvin (ARTVİN)"
+   }
+  ],
+  "ic_not": "TDV: 'Osman döneminde 646’da İslâm topraklarına katılan Artvin çevresi' (bölge, şehir noktası değil) — başlangıç olarak Livâne Kalesi'nin yapımı (939) alındı; kale 'bugünkü Artvin şehrinin nüvesi' (TDV). Sahiplik zinciri bu partide kurulmadı (BOSLUK): 1878 sonrası Rus yönetimi vb. TDV'de gün verilmiyor. | TANIK: TDV tam gövdesinden birebir cümle (17 Kas 2026, gömülü tarayıcı). Tek kaynak (TDV)."
+ },
+ {
+  "id": "bartin-tr",
+  "ad": "Bartın",
+  "atlas_ad": null,
+  "lat": 41.6358,
+  "lon": 32.3375,
+  "kat1900": 3,
+  "adlar": [
+   "Bartın"
+  ],
+  "ilk": {
+   "t": "1703-01-01",
+   "gun": "1703",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/bartin (BARTIN)",
+   "tanik": "1115 (1703) tarihli bahriye defterlerinde gemi inşası emredilen yerler arasında Bartın’ın da adı geçiyordu"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1703-01-01",
+    "t": "1900-01-01",
+    "d": "osmanli",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/bartin (BARTIN)",
+    "ic_not": "Osmanlı sahipliği ilk anılıştan itibaren: kaynak kaydı Osmanlı idarî kaydıdır; ilk.t en geç tanıktır (f en geç tanıktan)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1392-01-01",
+    "gun": "1392",
+    "k": "fetih",
+    "b": "muhtemelen Yıldırım Bayezid Candaroğulları’na ait kısım toprakları Osmanlı mülküne kattı (Bartın çevresi; TDV 'muhtemelen')",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/bartin (BARTIN)"
+   },
+   {
+    "t": "1867-01-01",
+    "gun": "1867",
+    "k": "diger",
+    "b": "Bartın kaza merkezi haline getirildi",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/bartin (BARTIN)"
+   },
+   {
+    "t": "1876-01-01",
+    "gun": "1876",
+    "k": "diger",
+    "b": "şehirde belediye teşkilâtı kuruldu",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/bartin (BARTIN)"
+   }
+  ],
+  "ic_not": "TANIK KURALI: TDV'nin XI. yüzyıl Türkmen akını ve 1204/1214/1261 cümleleri 'Bartın çevresi' bölgesi içindir, şehir tanığı değildir; yeri kesin olmayan başlangıç sayılmadı. Osmanlı: TDV 'muhtemelen 1392'de katıldığını söyler, günü/ kesinliği yok; zincir en geç tanık 1703'ten osmanli. | TANIK: TDV tam gövdesinden birebir cümle (17 Kas 2026, gömülü tarayıcı). Tek kaynak (TDV)."
+ },
+ {
+  "id": "nevsehir-tr",
+  "ad": "Nevşehir",
+  "atlas_ad": null,
+  "lat": 38.625,
+  "lon": 34.7122,
+  "kat1900": 3,
+  "adlar": [
+   "Muşkara",
+   "Nevşehir"
+  ],
+  "ilk": {
+   "t": "1518-01-01",
+   "gun": "1518",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/nevsehir (NEVŞEHİR)",
+   "tanik": "Muşkara köyü Niğde sancağının Ürgüp kazasına bağlıydı. 924’te (1518) idarî bakımdan Ürgüp kazasının Uçhisar nahiyesinin köyleri arasında yer almaktaydı"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1518-01-01",
+    "t": "1900-01-01",
+    "d": "osmanli",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/nevsehir (NEVŞEHİR)",
+    "ic_not": "Osmanlı sahipliği ilk anılıştan itibaren: kaynak kaydı Osmanlı idarî kaydıdır; ilk.t en geç tanıktır (f en geç tanıktan)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1530-01-01",
+    "gun": "1530",
+    "k": "diger",
+    "b": "Muşkara köyünün erkek nüfusu 150 nefer (yetmiş hâne, seksen mücerret)",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/nevsehir (NEVŞEHİR)"
+   },
+   {
+    "t": "1718-01-01",
+    "gun": "1718-1730",
+    "k": "diger",
+    "b": "Damad İbrâhim Paşa’nın sadrazamlığı döneminde Muşkara köyü kasaba durumuna geldi",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/nevsehir (NEVŞEHİR)"
+   }
+  ],
+  "ic_not": "Şehrin eski adı Muşkara (TDV NEVŞEHİR). Hicrî 924 = 1518 TDV'nin kendi çevirisi. TDV Hitit/Pers/Roma dönemlerini 'yöre' için sayar (belirtilir ifadesi), şehir noktası tanığı değildir; yazılmadı. | TANIK: TDV tam gövdesinden birebir cümle (17 Kas 2026, gömülü tarayıcı). Tek kaynak (TDV)."
+ },
+ {
+  "id": "usak-tr",
+  "ad": "Uşak",
+  "atlas_ad": null,
+  "lat": 38.6735,
+  "lon": 29.4058,
+  "kat1900": 3,
+  "adlar": [
+   "Uşak"
+  ],
+  "ilk": {
+   "t": "1076-01-01",
+   "gun": "1076 (1075’in ertesi yılı)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "belirsiz",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/usak (UŞAK)",
+   "tanik": "Malazgirt zaferinin ardından 1075’te İznik’in alınışının ertesi yılı Uşak ve çevresi Selçuklular’ın hâkimiyetine girdi"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1076-01-01",
+    "t": "1390-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/usak (UŞAK)",
+    "ic_not": "Şehir var, sahip zinciri bu dönem için kaynaklı kurulmadı (araştırılmadı); TDV olayları olay[]de. "
+   },
+   {
+    "f": "1390-01-01",
+    "t": "1900-01-01",
+    "d": "osmanli",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/usak (UŞAK)",
+    "ic_not": "TDV: 'Uşak da Osmanlı topraklarına katıldı (792/1390)'; gün yok."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1076-01-01",
+    "gun": "1076 (1075’in ertesi yılı)",
+    "k": "fetih",
+    "b": "Uşak ve çevresi Selçuklular’ın hâkimiyetine girdi (TDV: İznik'in alınışının ertesi yılı)",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/usak (UŞAK)"
+   },
+   {
+    "t": "1097-01-01",
+    "gun": "1097",
+    "k": "kayip",
+    "b": "Eskişehir (Dorylaion) Muharebesi’ndeki yenilgi üzerine Bizanslılar Uşak ve çevresini tekrar ele geçirdi",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/usak (UŞAK)"
+   },
+   {
+    "t": "1182-01-01",
+    "gun": "1182",
+    "k": "fetih",
+    "b": "Manuel Komnenos’un ölümünden (1180) iki yıl sonra Uşak tekrar Selçuklular’ın egemenliğine geçti",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/usak (UŞAK)"
+   },
+   {
+    "t": "1390-01-01",
+    "gun": "1390",
+    "k": "fetih",
+    "b": "Yıldırım Bayezid Germiyanoğulları Beyliği’ni Osmanlı sınırları içine aldı; Uşak Osmanlı topraklarına katıldı (792/1390)",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/usak (UŞAK)"
+   }
+  ],
+  "ic_not": "TANIK KURALI: yıl 1075 + 'ertesi yılı' = 1076 türetildi; 'Uşak ve çevresi' bölge ifadesi => kesinlik belirsiz. Önceki dönem (Selçuklu / Bizans / Germiyan) zinciri kaynaklı kurulmadı: BOSLUK. TDV'nin antik/MÖ anılışları (varsa) bu partide filtre dışı kaldı (3 haneli MÖ yıllar taranmadı). | TANIK: TDV tam gövdesinden birebir cümle (17 Kas 2026, gömülü tarayıcı). Tek kaynak (TDV)."
+ },
+ {
+  "id": "yalova-tr",
+  "ad": "Yalova",
+  "atlas_ad": null,
+  "lat": 40.655,
+  "lon": 29.2769,
+  "kat1900": 3,
+  "adlar": [
+   "Yalova"
+  ],
+  "ilk": {
+   "t": "1326-01-01",
+   "gun": "726 (1326)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "belirsiz",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/yalova (YALOVA)",
+   "tanik": "Yalova ve çevresi tam olarak 726’da (1326) Türkler’in eline geçti"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1326-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/yalova (YALOVA)",
+    "ic_not": "Şehir var, sahiplik zinciri kaynaklı kurulmadı (bu partide yalnız ilk anılış + olay yazıldı); zincir sonraki iş."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1302-01-01",
+    "gun": "1302",
+    "k": "diger",
+    "b": "Osman Bey’in bir Bizans birliğini yendiği savaş (Bafeus) Yalova civarında yapıldı (TDV: civar)",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/yalova (YALOVA)"
+   },
+   {
+    "t": "1326-01-01",
+    "gun": "726 (1326)",
+    "k": "fetih",
+    "b": "Yalova ve çevresi Türkler’in eline geçti",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/yalova (YALOVA)"
+   },
+   {
+    "t": "1894-07-10",
+    "gun": "10 Temmuz 1894",
+    "k": "diger",
+    "b": "büyük deprem: Yalova’nın yarıdan fazlası (bazı yayınlara göre tamamı) harap oldu",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/yalova (YALOVA)"
+   },
+   {
+    "t": "1920-08-07",
+    "gun": "7 Ağustos 1920",
+    "k": "fetih",
+    "b": "Yalova ve kaplıcaları Yunan kuvvetleri tarafından işgal edildi",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/yalova (YALOVA)"
+   }
+  ],
+  "ic_not": "TANIK KURALI: 'Yalova ve çevresi' ifadesi; 1302 Bafeus savaşı yalnız 'civarında'. TDV'de 'Türkler'in eline geçti' için sahip adı verilmiyor (çıkarım yazılmaz): sahip BOSLUK. | TANIK: TDV tam gövdesinden birebir cümle (17 Kas 2026, gömülü tarayıcı). Tek kaynak (TDV)."
+ },
+ {
+  "id": "zonguldak-tr",
+  "ad": "Zonguldak",
+  "atlas_ad": null,
+  "lat": 41.4514,
+  "lon": 31.7931,
+  "kat1900": 3,
+  "adlar": [
+   "Zonguldak"
+  ],
+  "ilk": {
+   "t": "1880-01-01",
+   "gun": "1880’lerden itibaren",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "onyil",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/zonguldak (ZONGULDAK)",
+   "tanik": "1880’lerden itibaren, maden havzası içinde yer alan Zonguldak veya Kozlu köylerinden birinin müstakil nahiye merkezine dönüştürülmesine çalışıldı"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1880-01-01",
+    "t": "1900-01-01",
+    "d": "osmanli",
+    "kesinlik": "onyil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/zonguldak (ZONGULDAK)",
+    "ic_not": "f en geç tanıktan: TDV 1899 cümlelerinde Kastamonu valiliği/Dahiliye Nezâreti ve Ereğli kazasına bağlı köy; 1880'lerde Osmanlı kaydı dolaylı (köy=Osmanlı idarî birim). Sahiplik değişimi yok."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1896-01-01",
+    "gun": "1896",
+    "k": "diger",
+    "b": "Fransız sermayeli Ereğli Şirketi kuruldu (Zonguldak liman ve rıhtımı için)",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/zonguldak (ZONGULDAK)"
+   },
+   {
+    "t": "1899-01-01",
+    "gun": "1899",
+    "k": "diger",
+    "b": "Zonguldak kaza merkezi haline getirildi (Fransa'nın 1899'da konsolos tayini mülkî idareyi gündeme getirdi)",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/zonguldak (ZONGULDAK)"
+   }
+  ],
+  "ic_not": "TANIK KURALI: ilk cümle iki köyden ('Zonguldak veya Kozlu') birini nahiye yapma çabası; ilk anılış yılı onyıl hassasiyetli. Köy kökeni (Zonguldak ve Kozlu 'madencilerin yerleştiği köyler') yıl vermiyor. TDV iç çelişki: 'Hamidiye kazasının kurulduğu 1887' ve '1899'da kaza merkezi' aynı cümlede; 1899 kaza merkezi yılı olarak alındı, çelişki beyan. | TANIK: TDV tam gövdesinden birebir cümle (17 Kas 2026, gömülü tarayıcı). Tek kaynak (TDV)."
+ },
+ {
+  "id": "tunceli-tr",
+  "ad": "Tunceli",
+  "atlas_ad": null,
+  "lat": 39.0992,
+  "lon": 39.5435,
+  "kat1900": 3,
+  "adlar": [
+   "Kalan (eski yerleşme)",
+   "Tunceli"
+  ],
+  "ilk": {
+   "t": "1935-12-25",
+   "gun": "25 Aralık 1935",
+   "nicelik": "kurulus",
+   "kesinlik": "belirsiz",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/tunceli (TUNCELİ)",
+   "tanik": "Tunceli, tarihî geçmişi olmayan, temeli Cumhuriyet döneminde atılan bir şehirdir. 25 Aralık 1935 tarihinde kabul edilen 2885 sayılı yasa ile ... Tunceli adlı yeni bir vilâyet kurulması kararlaştırılıp"
+  },
+  "kur": {
+   "t": "1935-12-25",
+   "gun": "25 Aralık 1935",
+   "kesinlik": "belirsiz",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/tunceli (TUNCELİ)",
+   "tanik": "temeli Cumhuriyet döneminde atılan bir şehirdir"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1935-12-25",
+    "gun": "25 Aralık 1935",
+    "k": "kurulus",
+    "b": "Tunceli vilâyeti kuruluş kanunu kabul edildi (merkez olarak boş alan seçildi)",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/tunceli (TUNCELİ)"
+   },
+   {
+    "t": "1847-01-01",
+    "gun": "1847",
+    "k": "diger",
+    "b": "Osmanlı idaresinde Dersim (merkezi Hozat) sancağı kuruldu (şehir yok; bölge)",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/tunceli (TUNCELİ)"
+   }
+  ],
+  "ic_not": "TANIK KURALI: kuruluş günü TDV'de yok; 25 Aralık 1935 vilâyet kuruluş kanununun (2885 sayılı) kabul günüdür, şehir temeli bunun sonrasıdır => kesinlik belirsiz. TDV içi çelişki: aynı kanun Bingöl maddesinde '7 Aralık 1935 (RG 4.1.1936)', Tunceli maddesinde '25 Aralık 1935' diye veriliyor; çelişki kayıtlı, 3. kaynak aranmadı. Kalan yerleşmesi: TDV 'merkezi olan Kalan yerleşmesine daha sonra Tunceli denmeye başlandı' ile 'hemen hemen boş kalan alan' çelişir (ikincisi şehrin yerleştiği alan). ilk.t 1900 sonrası, zincir yok. | TANIK: TDV tam gövdesinden birebir cümle (17 Kas 2026, gömülü tarayıcı). Tek kaynak (TDV)."
+ },
+ {
+  "id": "giresun-tr",
+  "ad": "Giresun",
+  "atlas_ad": null,
+  "lat": 40.917,
+  "lon": 38.3874,
+  "kat1900": 3,
+  "adlar": [
+   "Kerasus (Kerasous)",
+   "Farnakia (Pharnakeia)",
+   "Giresun"
+  ],
+  "ilk": {
+   "t": "-0399-01-01",
+   "gun": "MÖ 400’lerin başı",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "onyil",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/giresun (GİRESUN); Ksenofon, Anabasis (TDV aktarımı)",
+   "tanik": "başında bulunduğu Yunanlı askerlerle (Onbinler) milâttan önce 400’lerin başında ulaşıp bir ay kadar kaldıkları Trabzon’dan üç günde Kerasus’a varmışlardı"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "-0399-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/giresun (GİRESUN); Ksenofon, Anabasis (TDV aktarımı)",
+    "ic_not": "Şehir var, sahiplik zinciri kaynaklı kurulmadı (bu partide yalnız ilk anılış + olay yazıldı); zincir sonraki iş."
+   }
+  ],
+  "olay": [
+   {
+    "t": "-0168-01-01",
+    "gun": "MÖ 190-169",
+    "k": "kurulus",
+    "b": "Farnakis (m.ö. 190-169) Giresun yarımadasında Farnakia’yı kurdu (Kerasus Romalılar döneminde bu şehrin adı oldu; TDV, Arrianos aktarımı)",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/giresun (GİRESUN); Ksenofon, Anabasis (TDV aktarımı)"
+   },
+   {
+    "t": "1341-01-01",
+    "gun": "1341",
+    "k": "kayip",
+    "b": "Livadenos’un raporuna göre 1341’den kısa bir süre önce Kerasus Türkmenler’in eline geçti",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/giresun (GİRESUN); Ksenofon, Anabasis (TDV aktarımı)"
+   },
+   {
+    "t": "1348-01-01",
+    "gun": "1348",
+    "k": "diger",
+    "b": "Kerasus Cenevizliler’ce yağmalanıp kale dışındaki yerleşme yeri yakıldı",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/giresun (GİRESUN); Ksenofon, Anabasis (TDV aktarımı)"
+   }
+  ],
+  "ic_not": "Ksenofon tanığı: TDV 'm.ö. 400'lerin başı' der (yıl yok; Anabasis ~MÖ 400 => -0399 onyıl hassasiyeti, gün/yıl uydurulmadı). Kerasus=Giresun kimliği TDV'de tartışmalıdır: TDV 'eski coğrafyacıların karışık bilgileri ... üç ayrı Kerasus' ve 'Kerasus için Giresun’dan daha uzakta herhangi bir yer aramaya da ihtiyaç bulunmamaktadır' (The Byzantine Monuments s.126) — TDV kimliği kabul ediyor, ama 'Ksenofon’un (m.ö. 350) ifadeleri kesin bilgi vermiyor' dediği için ilk.kesinlik onyil/ yer belirsizliği beyanlı. TDV: Kerasus kuruluşu 'MÖ 670'lerde Miletoslar tarafından ... ileri sürülür' (iddia, yazılı tanık değil) ve Arrianos (ö.176) 'Sinoplular tarafından' der — iki TDV içi çelişki; kuruluş yazılmadı. Sahiplik zinciri bu partide kurulmadı (BOSLUK). | TANIK: TDV tam gövdesinden birebir cümle (17 Kas 2026, gömülü tarayıcı). Tek kaynak (TDV)."
+ },
+ {
+  "id": "ordu-tr",
+  "ad": "Ordu",
+  "atlas_ad": null,
+  "lat": 40.9778,
+  "lon": 37.8905,
+  "kat1900": 3,
+  "adlar": [
+   "Kotyora (Kotyôra)",
+   "Bayramlu / Nefs-i Ordu",
+   "Ordu"
+  ],
+  "ilk": {
+   "t": "-0399-01-01",
+   "gun": "MÖ 400’lerin başı",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "onyil",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/ordu--sehir (ORDU); Ksenofon, Anabasis (TDV aktarımı)",
+   "tanik": "Ksenofon’un (Ksenophon) ifadesine göre Kotyora’nın milâttan önce 400’lerin başında hâlâ korunaklı bir site olduğu anlaşılmaktadır"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "-0399-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/ordu--sehir (ORDU); Ksenofon, Anabasis (TDV aktarımı)",
+    "ic_not": "Şehir var, sahiplik zinciri kaynaklı kurulmadı (bu partide yalnız ilk anılış + olay yazıldı); zincir sonraki iş."
+   }
+  ],
+  "olay": [
+   {
+    "t": "-0168-01-01",
+    "gun": "MÖ 190-169",
+    "k": "diger",
+    "b": "Farnakis Giresun yarımadasında Farnakia’yı kurunca Kotyora halkını oraya nakletti",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/ordu--sehir (ORDU); Ksenofon, Anabasis (TDV aktarımı)"
+   },
+   {
+    "t": "0395-01-01",
+    "gun": "395",
+    "k": "diger",
+    "b": "Ordu yöresi Roma İmparatorluğu’ndan sonra Bizans’ın denetimine girdi (TDV 395)",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/ordu--sehir (ORDU); Ksenofon, Anabasis (TDV aktarımı)"
+   },
+   {
+    "t": "1386-01-01",
+    "gun": "788/1386",
+    "k": "diger",
+    "b": "Canik Emîri Tâceddin Bey, Hacı Emîr’in oğlu Süleyman’ın Ordu bölgesindeki topraklarına saldırdı, mağlûp oldu ve öldürüldü",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/ordu--sehir (ORDU); Ksenofon, Anabasis (TDV aktarımı)"
+   },
+   {
+    "t": "1398-01-01",
+    "gun": "800 (1398)",
+    "k": "diger",
+    "b": "Yıldırım Bayezid Canik bölgesine girince Ordu yöresi emîri Süleyman ona tâbi oldu",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/ordu--sehir (ORDU); Ksenofon, Anabasis (TDV aktarımı)"
+   },
+   {
+    "t": "1455-01-01",
+    "gun": "859 (1455)",
+    "k": "diger",
+    "b": "Tahrir Defteri’nde Ordu yöresi 'vilâyet-i Canik-i Bayramlu maa İskefsir ve Milas' kaydedilir",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/ordu--sehir (ORDU); Ksenofon, Anabasis (TDV aktarımı)"
+   },
+   {
+    "t": "1613-01-01",
+    "gun": "1022/1613",
+    "k": "diger",
+    "b": "'nâhiye-i Bayramlu nâm-ı dîger Ordu' adı kaydedilir",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/ordu--sehir (ORDU); Ksenofon, Anabasis (TDV aktarımı)"
+   }
+  ],
+  "ic_not": "Kotyora=Ordu özdeşliği TDV ORDU maddesinde kabul edilir (konum: Ordu yöresi); 'milâttan önce 400’lerin başı' yıl vermez => -0399 onyıl. TANIK KURALI: Ksenofon 'Kotyora'dan söz eder, 'Ordu' adı o dönemde yok; ad eşitlemesi TDV'ye aittir, yeri kesin olmayan başlangıç (bugünkü Ordu merkezi ≠ Kotyora) olabilir (bu yüzden başka noktalarla çakışma ölçülmedi). 395 olayı TDV'de 'yöre' için yıldır (gün yok). Sahiplik zinciri kurulmadı (BOSLUK). | TANIK: TDV tam gövdesinden birebir cümle (17 Kas 2026, gömülü tarayıcı). Tek kaynak (TDV)."
+ },
+ {
+  "id": "gaziantep-tr",
+  "ad": "Gaziantep",
+  "atlas_ad": null,
+  "lat": 37.0594,
+  "lon": 37.3825,
+  "kat1900": 3,
+  "adlar": [
+   "Ayıntâb (Aynütâb)",
+   "Antep",
+   "Gaziantep"
+  ],
+  "ilk": {
+   "t": "1067-01-01",
+   "gun": "1067",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/gaziantep (GAZİANTEP)",
+   "tanik": "1067’de kuvvetleriyle önce Antep ve Ra‘bân’ı (günümüzdeki Araban) aldı"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1067-01-01",
+    "t": "1516-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/gaziantep (GAZİANTEP)",
+    "ic_not": "Şehir var, sahip zinciri bu dönem için kaynaklı kurulmadı (araştırılmadı); TDV olayları olay[]de. "
+   },
+   {
+    "f": "1516-01-01",
+    "t": "1900-01-01",
+    "d": "osmanli",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/gaziantep (GAZİANTEP)",
+    "ic_not": "TDV: 'Gaziantep 1516 yılında Osmanlı topraklarına katılınca' (yıl; gün yok)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1067-01-01",
+    "gun": "1067",
+    "k": "fetih",
+    "b": "Türkmen kumandanı Afşin Antep ve Ra‘bân’ı aldı, sonra Antakya Dukalığı arazisine girdi",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/gaziantep (GAZİANTEP)"
+   },
+   {
+    "t": "1516-01-01",
+    "gun": "1516",
+    "k": "fetih",
+    "b": "Gaziantep Osmanlı topraklarına katıldı (imar faaliyeti hızlandı)",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/gaziantep (GAZİANTEP)"
+   },
+   {
+    "t": "1921-12-25",
+    "gun": "25 Aralık 1921",
+    "k": "kayip",
+    "b": "Fransızlar Ankara Antlaşması’nın ardından şehri boşalttılar, iki yıl süren işgal bitti",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/gaziantep (GAZİANTEP)"
+   }
+  ],
+  "ic_not": "TDV GAZİANTEP iki bölümlü; Antep Kalesi 'Iustinianos devrinde (527-565) ... inşa edilmiş olmalıdır' (varsayım; yazılı tanık değil, kullanılmadı). Dülük (Doliche, antik, Hitit/İskender/Roma) bugünkü Gaziantep merkezinden ~10 km uzakta olduğundan ayrı kayıt önerisi (TDV: 'MÖ 334 İskender ... Dülük'). 1067 Afşin cümlesi yıl+şehir (Antep) aynı cümlede. İlk anılış 782/785 (Hârûnürreşîd/Belâzürî) Dülük için, Antep adı yok. Hitit kronolojisi vb. yazılmadı. | TANIK: TDV tam gövdesinden birebir cümle (17 Kas 2026, gömülü tarayıcı). Tek kaynak (TDV)."
+ },
+ {
+  "id": "adapazari-tr",
+  "ad": "Adapazarı",
+  "atlas_ad": null,
+  "lat": 40.7806,
+  "lon": 30.4033,
+  "kat1900": 3,
+  "adlar": [
+   "Adapazarı"
+  ],
+  "ilk": {
+   "t": "1600-01-01",
+   "gun": "16. yüzyıl (XVI. yüzyıl)",
+   "nicelik": "kurulus",
+   "kesinlik": "yuzyil",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/adapazari (ADAPAZARI)",
+   "tanik": "Bu arada Adapazarı da XVI. yüzyılda bir köy olarak kurulmuştur"
+  },
+  "kur": {
+   "t": "1600-01-01",
+   "gun": "16. yüzyıl (XVI. yüzyıl)",
+   "kesinlik": "yuzyil",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/adapazari (ADAPAZARI)",
+   "tanik": "Adapazarı da XVI. yüzyılda bir köy olarak kurulmuştur"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1600-01-01",
+    "t": "1852-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/adapazari (ADAPAZARI)",
+    "ic_not": "Şehir var, sahip zinciri bu dönem için kaynaklı kurulmadı (araştırılmadı); TDV olayları olay[]de. "
+   },
+   {
+    "f": "1852-01-01",
+    "t": "1900-01-01",
+    "d": "osmanli",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/adapazari (ADAPAZARI)",
+    "ic_not": "f en geç tanıktan: TDV 'İzmit sancağına bağlı kaza merkezi (1852)' Osmanlı idarî kaydı; önceki Osmanlı dönemi için gün/yıl yok."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1852-01-01",
+    "gun": "1852",
+    "k": "diger",
+    "b": "Adapazarı İzmit sancağına bağlı bir kaza merkezi durumuna getirildi",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/adapazari (ADAPAZARI)"
+   },
+   {
+    "t": "1869-01-01",
+    "gun": "1869",
+    "k": "diger",
+    "b": "belediye teşkilâtı kuruldu",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/adapazari (ADAPAZARI)"
+   },
+   {
+    "t": "1899-01-01",
+    "gun": "1899",
+    "k": "diger",
+    "b": "Arifiye’den ayrılan 9 km’lik demiryolu hattı Adapazarı’na ulaştı",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/adapazari (ADAPAZARI)"
+   }
+  ],
+  "ic_not": "Yüzyıl hassasiyetinde kuruluş: aralığın SON ucu 1600 güvenli uç. TDV 'Bu arada' ifadesi: bir önceki cümlede bölge anlatısı (Sakarya ovası); kuruluş cümlesi Adapazarı'yı özne alır. Önceki dönemin sahipliği (1600-1852) yazılmadı (BOSLUK). | TANIK: TDV tam gövdesinden birebir cümle (17 Kas 2026, gömülü tarayıcı). Tek kaynak (TDV)."
+ },
+ {
+  "id": "raqqa-sy",
+  "ad": "Raqqa",
+  "atlas_ad": null,
+  "lat": 35.9528,
+  "lon": 39.0079,
+  "kat1900": 3,
+  "adlar": [
+   "Kallinikon",
+   "Leontopolis",
+   "Râfika",
+   "Rakka"
+  ],
+  "ilk": {
+   "t": "-0225-01-01",
+   "gun": "MÖ 246-226",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "belirsiz",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/rakka (RAKKA)",
+   "tanik": "Seleucus Kallinikos’un (m.ö. 246-226) genişletmesi dolayısıyla Kallinikon, Bizans İmparatoru I. Leon’un yeniden inşa ettirmesi sebebiyle Leontopolis adını almıştır"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "-0225-01-01",
+    "t": "1517-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/rakka (RAKKA)",
+    "ic_not": "Şehir var, sahip zinciri bu dönem için kaynaklı kurulmadı (araştırılmadı); TDV olayları olay[]de. "
+   },
+   {
+    "f": "1517-01-01",
+    "t": "1900-01-01",
+    "d": "osmanli",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/rakka (RAKKA)",
+    "ic_not": "TDV: 'Rakka 923’te (1517) Osmanlı topraklarına katılarak Diyarbekir eyaletine bağlı bir sancak merkezi haline getirildi'. 1832 Mısır idaresi süresi verilmediği için dönem açılmadı (olay[])."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0639-01-01",
+    "gun": "18 (639)",
+    "k": "fetih",
+    "b": "Rakka İyâz b. Ganm kumandasındaki İslâm ordusu tarafından barış yoluyla fethedildi",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/rakka (RAKKA)"
+   },
+   {
+    "t": "0772-01-01",
+    "gun": "155/772",
+    "k": "kurulus",
+    "b": "Abbâsî Halifesi Mansûr Rakka’nın 200 m. kuzeybatısında yuvarlak planlı yeni şehir (Râfika) inşa ettirdi",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/rakka (RAKKA)"
+   },
+   {
+    "t": "0928-01-01",
+    "gun": "316 (928)",
+    "k": "fetih",
+    "b": "Rakka Karmâtîler’in eline geçti",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/rakka (RAKKA)"
+   },
+   {
+    "t": "1234-01-01",
+    "gun": "632 (1234-35)",
+    "k": "fetih",
+    "b": "Rakka Anadolu Selçukluları’nın yönetimine girdi",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/rakka (RAKKA)"
+   },
+   {
+    "t": "1260-01-01",
+    "gun": "658/1260",
+    "k": "fetih",
+    "b": "Aynicâlût Savaşı’nın ardından Memlükler’in hâkimiyetine geçti",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/rakka (RAKKA)"
+   },
+   {
+    "t": "1371-01-01",
+    "gun": "773 (1371)",
+    "k": "diger",
+    "b": "Timur’un saldırısına uğradı, halkının tamamını kaybetti",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/rakka (RAKKA)"
+   },
+   {
+    "t": "1517-01-01",
+    "gun": "923 (1517)",
+    "k": "fetih",
+    "b": "Rakka Osmanlı topraklarına katıldı, Diyarbekir eyaletine bağlı sancak merkezi yapıldı",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/rakka (RAKKA)"
+   },
+   {
+    "t": "1832-01-01",
+    "gun": "1832",
+    "k": "fetih",
+    "b": "İbrâhim Paşa’nın Suriye işgali yıllarında Mısır idaresine geçti (süresi TDV'de yıl olarak verilmiyor: dönem AÇILMADI)",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/rakka (RAKKA)"
+   }
+  ],
+  "ic_not": "Seleukos II Kallinikos (MÖ 246-226) saltanat aralığı: güvenli uç 226 (=-0225). TANIK KURALI: cümle 'genişletmesi' der (kuruluş değil, ad kaynağı); ilk.nicelik ilk_anilis, kesinlik belirsiz. Cümle TDV'de önceki cümleden devam eder (alıntı cümle ortasından başlar). Antik Kallinikon-Rakka aynı yer sayıldı (TDV: Mansûr yeni şehri 200 m uzakta). Çelişki yok. Zincirde 1517 öncesi BOSLUK (Selevkos...Memlük arası kaynaklı zincir kurulmadı). | TANIK: TDV tam gövdesinden birebir cümle (17 Kas 2026, gömülü tarayıcı). Tek kaynak (TDV)."
+ },
+ {
+  "id": "homs-sy",
+  "ad": "Homs",
+  "atlas_ad": null,
+  "lat": 34.7241,
+  "lon": 36.7256,
+  "kat1900": 3,
+  "adlar": [
+   "Emesa",
+   "Hıms (Humus)",
+   "Homs"
+  ],
+  "ilk": {
+   "t": "-0279-01-01",
+   "gun": "MÖ 305-280",
+   "nicelik": "kurulus",
+   "kesinlik": "belirsiz",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/humus--suriye (HUMUS)",
+   "tanik": "şehir Seleucus Nicator (m.ö. 305-280) tarafından kurulmuş, milâttan önce 64’te Pompeius döneminde Roma İmparatorluğu’na katılmıştır"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "-0279-01-01",
+    "t": "-0063-01-01",
+    "d": "selevkos",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/humus--suriye (HUMUS)",
+    "ic_not": "Seleucus Nicator (305-280) kurucu; dönem sonu MÖ 64 Pompeius (TDV). Selevkos künye ömrü -0311..-0062."
+   },
+   {
+    "f": "-0063-01-01",
+    "t": "1516-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/humus--suriye (HUMUS)",
+    "ic_not": "Şehir var; MÖ 64 - 1516 arası (Roma/Bizans/Rashidun/Emevî/Abbâsî/.../Memlük) sahiplik zinciri kaynaklı kurulmadı; TDV tarihleri olay[]de (217, 272, 636, 637)."
+   },
+   {
+    "f": "1516-01-01",
+    "t": "1900-01-01",
+    "d": "osmanli",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica (britannica.com/place/Homs)",
+    "ic_not": "Britannica: 'Homs later (1516) passed into Ottoman hands, where it remained, except for a brief period of Egyptian control in the 1830s, until the creation of Syria after World War I'. Mısır idaresi süresi Britannica'da verilmediği için dönem AÇILMADI."
+   }
+  ],
+  "olay": [
+   {
+    "t": "-0063-01-01",
+    "gun": "MÖ 64",
+    "k": "fetih",
+    "b": "şehir Pompeius döneminde Roma İmparatorluğu’na katıldı",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/humus--suriye (HUMUS)"
+   },
+   {
+    "t": "0217-01-01",
+    "gun": "217",
+    "k": "diger",
+    "b": "Emesa doğumlu güneş tanrısı Elagabal Mâbedi başrahibi bölgedeki askerî birlikler tarafından imparator ilân edildi (Elagabalus)",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/humus--suriye (HUMUS)"
+   },
+   {
+    "t": "0272-01-01",
+    "gun": "272",
+    "k": "diger",
+    "b": "Palmira Kraliçesi Zenobi’nin Romalılar tarafından yenilgiye uğratılması Emesa yakınında oldu",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/humus--suriye (HUMUS)"
+   },
+   {
+    "t": "0636-01-01",
+    "gun": "15/636",
+    "k": "kayip",
+    "b": "Yermük Savaşı’ndan sonra Herakleios Humus’u terketti",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/humus--suriye (HUMUS)"
+   },
+   {
+    "t": "0637-01-01",
+    "gun": "16/637",
+    "k": "fetih",
+    "b": "Ebû Ubeyde b. Cerrâh ve Hâlid b. Velîd kumandasındaki İslâm ordusu şehri kan dökülmeden aldı (Belâzürî'ye göre ilk fetih 14/635, ikincisi 15/636)",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/humus--suriye (HUMUS)"
+   },
+   {
+    "t": "1516-01-01",
+    "gun": "1516",
+    "k": "fetih",
+    "b": "Homs Osmanlı eline geçti (Britannica; TDV Humus gövdesinde Osmanlı katılış yılı okunmadı)",
+    "kaynak": "Encyclopaedia Britannica (britannica.com/place/Homs)"
+   }
+  ],
+  "ic_not": "TDV: 'Bölge milâttan önce 3000’den beri meskûn bir yerdir' (arkeolojik/bölge cümlesi, şehir kuruluşu değil, yazılmadı). Kurucu Seleucus Nicator saltanat aralığı MÖ 305-280: güvenli uç 280 (-0279), kesinlik belirsiz. TDV 647'de (26) Muâviye'nin Humus'u vilâyet yapması olay olarak yazılmadı. Zincir: MÖ 64 sonrası BOSLUK (beyanlı). | TANIK: TDV tam gövdesinden birebir cümle (17 Kas 2026, gömülü tarayıcı). Tek kaynak (TDV)."
+ },
+ {
+  "id": "tikrit-iq",
+  "ad": "Tikrit",
+  "atlas_ad": null,
+  "lat": 34.6158,
+  "lon": 43.6786,
+  "kat1900": 3,
+  "adlar": [
+   "Tikrît (Tekrît)",
+   "Tikrit"
+  ],
+  "ilk": {
+   "t": "0197-01-01",
+   "gun": "197",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/tikrit (TİKRÎT)",
+   "tanik": "Uzun yıllar Persler’in elinde kalan Tikrît 197’de kısa süreliğine Romalılar’ın, VI. yüzyılda da Bizans İmparatorluğu’nun hâkimiyetine geçti"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0197-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/tikrit (TİKRÎT)",
+    "ic_not": "Şehir var, sahiplik zinciri kaynaklı kurulmadı (bu partide yalnız ilk anılış + olay yazıldı); zincir sonraki iş."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0637-01-01",
+    "gun": "16 (637)",
+    "k": "fetih",
+    "b": "müslümanlar tarafından ilk defa Kādisiye Savaşı’nın ardından Abdullah b. Mu‘tem kumandasındaki birliklerce kırk günlük kuşatma sonrası barış yoluyla fethedildi",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/tikrit (TİKRÎT)"
+   },
+   {
+    "t": "0641-01-01",
+    "gun": "20 (641)",
+    "k": "fetih",
+    "b": "şehir halkıyla tekrar muahede yapıldı; Nüseyr b. Deysem tarafından ikinci defa barış yoluyla alındı",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/tikrit (TİKRÎT)"
+   },
+   {
+    "t": "0943-01-01",
+    "gun": "332 (943)",
+    "k": "fetih",
+    "b": "Emîrülümerâ Tüzün’ün yardımıyla Abbâsîler tarafından Hamdânîler’den ele geçirildi",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/tikrit (TİKRÎT)"
+   }
+  ],
+  "ic_not": "TANIK KURALI: Şâpûr tarafından kuruldu (kuruluş rivayeti, TDV: 'şeklinde'; tarihsiz) yazılmadı; Hâlid b. Velîd 12/633-34 çatışması Tikrît'e geçişi 'Tikrît’e geçip davar ve develeri ganimet aldılar' — hâkimiyet değil, ilk anılış aralığı olarak 633-34 de olabilir ama aralık biçimi (12/633-34) ve fetih olmaması nedeniyle 197 seçildi. Zincir: 197 sonrası Pers/Roma/Bizans/Emevî/Abbâsî... BOSLUK (kaynaklı zincir kurulmadı). | TANIK: TDV tam gövdesinden birebir cümle (17 Kas 2026, gömülü tarayıcı). Tek kaynak (TDV)."
+ },
+ {
+  "id": "najaf-iq",
+  "ad": "Najaf",
+  "atlas_ad": null,
+  "lat": 32.0259,
+  "lon": 44.3463,
+  "kat1900": 3,
+  "adlar": [
+   "Necef",
+   "Meşhed-i Ali",
+   "Najaf"
+  ],
+  "ilk": {
+   "t": "0809-01-01",
+   "gun": "786-809",
+   "nicelik": "kurulus",
+   "kesinlik": "belirsiz",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/necef (NECEF)",
+   "tanik": "Hârûnürreşîd devrine (786-809) rastlamaktadır. Buna göre Necef’in bir yerleşim birimi olarak ortaya çıkışının bu tarihte gerçekleştiği söylenebilir"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0809-01-01",
+    "t": "1534-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/necef (NECEF)",
+    "ic_not": "Şehir var, sahip zinciri bu dönem için kaynaklı kurulmadı (araştırılmadı); TDV olayları olay[]de. "
+   },
+   {
+    "f": "1534-01-01",
+    "t": "1900-01-01",
+    "d": "osmanli",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/necef (NECEF)",
+    "ic_not": "f en geç tanıktan: TDV 'Osmanlılar’ın Irak’a hâkim olmasının ardından 941 (1534-35) yılında Necef’e gelen Kanûnî ... imarı için gereken emirleri verdi'; önceki sahip (Abbâsî ... Safevî) zinciri kurulmadı."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0750-01-01",
+    "gun": "133/750",
+    "k": "diger",
+    "b": "Abbâsî hânedanından Dâvûd b. Ali’nin (ö. 133/750) Hz. Ali’nin mezarı üzerine bir sanduka koydurduğu bilinir (yerleşim değil, kabir)",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/necef (NECEF)"
+   },
+   {
+    "t": "0978-01-01",
+    "gun": "978-983",
+    "k": "diger",
+    "b": "Büveyhî Hükümdarı Adudüddevle kabir üzerine türbe yaptırdı (Necef çevresi rivayete göre 2500 adımlık yerleşim)",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/necef (NECEF)"
+   },
+   {
+    "t": "1051-01-01",
+    "gun": "443 (1051)",
+    "k": "diger",
+    "b": "Hz. Ali’nin türbesi Bağdatlı Şiî muhalifleri tarafından yakıldı, çok geçmeden onarıldı",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/necef (NECEF)"
+   },
+   {
+    "t": "1087-01-01",
+    "gun": "479 (1087)",
+    "k": "diger",
+    "b": "Selçuklu Sultanı Melikşah ve veziri Nizâmülmülk kabri ziyaret etti",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/necef (NECEF)"
+   },
+   {
+    "t": "1534-01-01",
+    "gun": "941 (1534-35)",
+    "k": "diger",
+    "b": "Osmanlılar’ın Irak’a hâkim olmasının ardından Kanûnî Sultan Süleyman Necef’e gelip şehrin imarı için emirler verdi",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/necef (NECEF)"
+   }
+  ],
+  "ic_not": "Yerleşim, Hz. Ali'nin ölümünden (661) yaklaşık bir buçuk asır sonra 'yerleşim merkezine dönüşmeye başladı' (TDV); 786-809 aralığının SON ucu (809) güvenli uç, kesinlik belirsiz (kuruluş tahmini: 'söylenebilir'). Hz. Ali'nin kabri (661) yazılmadı: yerleşim değil, kabir. 1917 İngiliz işgali (7 Mart 1917) atlas zinciri 1900'den sonra. Britannica NAJAF (okundu): 'The caliph Hārūn al-Rashīd is reputed to have founded Najaf in 791 ce; its growth occurred mostly after the 10th century' — 791, TDV'nin 786-809 aralığı İÇİNDE; ikinci bağımsız kaynak aralıkla çelişmez, yıl rivayet ('reputed') => ilk.t TDV güvenli uç (809) kaldı, 791 gün/yıl olarak yazılmadı. | TANIK: TDV tam gövdesinden birebir cümle (17 Kas 2026, gömülü tarayıcı). TDV esas; Britannica uyumlu (aralık içinde)."
+ },
+ {
+  "id": "amman-jo",
+  "ad": "Amman",
+  "atlas_ad": null,
+  "lat": 31.9552,
+  "lon": 35.945,
+  "kat1900": 3,
+  "adlar": [
+   "Rabbat Ammon (ad TDV'de yok)",
+   "Philadelphia",
+   "Amman"
+  ],
+  "ilk": {
+   "t": "-2199-01-01",
+   "gun": "MÖ 2200 yıllarında",
+   "nicelik": "kurulus",
+   "kesinlik": "belirsiz",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/amman (AMMAN)",
+   "tanik": "Milâttan önce 2200 yıllarında kurulduğu anlaşılan şehir, Helenistik devirde ... Ptolemaios Philadelphos (m.ö. 308-246) tarafından ele geçirildiğinde yeniden iskân edilmiş ve Philadelphia adını almıştır"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "-2199-01-01",
+    "t": "1516-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/amman (AMMAN)",
+    "ic_not": "Şehir var, sahip zinciri bu dönem için kaynaklı kurulmadı (araştırılmadı); TDV olayları olay[]de. "
+   },
+   {
+    "f": "1516-01-01",
+    "t": "1900-01-01",
+    "d": "osmanli",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/amman (AMMAN)",
+    "ic_not": "TDV: 'Emevîler’den sonra Abbâsî, Eyyûbî, Selçuklu ve Memlük idarelerinde kalan şehir, 1516’da Osmanlı sınırlarına dahil edildi'."
+   }
+  ],
+  "olay": [
+   {
+    "t": "-0245-01-01",
+    "gun": "MÖ 308-246",
+    "k": "fetih",
+    "b": "Mısır Kralı Ptolemaios Philadelphos tarafından ele geçirildi, yeniden iskân edilip Philadelphia adını aldı",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/amman (AMMAN)"
+   },
+   {
+    "t": "0635-01-01",
+    "gun": "14 (635)",
+    "k": "fetih",
+    "b": "Yezîd b. Ebû Süfyân tarafından Bizanslılar’dan barış yoluyla alındı; Amman adı bu tarihten itibaren kullanılmaya başlandı",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/amman (AMMAN)"
+   },
+   {
+    "t": "0693-01-01",
+    "gun": "74/693",
+    "k": "diger",
+    "b": "Halîfe Abdülmelik b. Mervân devrinde Amman’da darphâne bulunup para bastırıldı",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/amman (AMMAN)"
+   },
+   {
+    "t": "1516-01-01",
+    "gun": "1516",
+    "k": "fetih",
+    "b": "şehir Osmanlı sınırlarına dahil edildi",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/amman (AMMAN)"
+   },
+   {
+    "t": "1920-01-01",
+    "gun": "1920",
+    "k": "antlasma",
+    "b": "San Remo Konferansı ile kurulan Trans Jordan mandası içinde İngilizler’e terkedildi",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/amman (AMMAN)"
+   }
+  ],
+  "ic_not": "TDV: 'kurulduğu anlaşılan' (kesin değil) => kesinlik belirsiz, MÖ 2200 yıllarında. Rabbat Ammon adı TDV'de geçmediği için adlar'a alınmadı (adlar listesindeki parantez TDV beyanıdır). Amman adı 635'ten itibaren TDV'ye göre. | TANIK: TDV tam gövdesinden birebir cümle (17 Kas 2026, gömülü tarayıcı). Tek kaynak (TDV)."
+ },
+ {
+  "id": "haifa-il",
+  "ad": "Haifa",
+  "atlas_ad": null,
+  "lat": 32.813,
+  "lon": 34.9993,
+  "kat1900": 3,
+  "adlar": [
+   "Caiphas",
+   "Hayfa",
+   "Haifa"
+  ],
+  "ilk": {
+   "t": "0400-01-01",
+   "gun": "MS 1.-4. yüzyıl",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yuzyil",
+   "kaynak": "Encyclopaedia Britannica (britannica.com/place/Haifa)",
+   "tanik": "Haifa is first mentioned in the Talmud (c. 1st–4th century ce)"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0400-01-01",
+    "t": "1516-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "Encyclopaedia Britannica (britannica.com/place/Haifa)",
+    "ic_not": "Şehir var, sahip zinciri bu dönem için kaynaklı kurulmadı (araştırılmadı); TDV olayları olay[]de. "
+   },
+   {
+    "f": "1516-01-01",
+    "t": "1900-01-01",
+    "d": "osmanli",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/hayfa (HAYFA)",
+    "ic_not": "TDV: 'Osmanlılar Mısır seferi sırasında Filistin’i aldıklarında (1516) şehir harabe halinde idi'; Haifa kaydında Osmanlı katılış günü yok. 1799 Napolyon ve 1839-40 Mısır idaresi kısa: dönem AÇILMADI."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1100-07-25",
+    "gun": "25 Temmuz 1100",
+    "k": "fetih",
+    "b": "Haçlılar Fâtımî idaresindeki Hayfa’yı bir aylık kuşatma sonucunda zaptetti, halkı kılıçtan geçirdi (Caiphas)",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/hayfa (HAYFA)"
+   },
+   {
+    "t": "1187-01-01",
+    "gun": "1187",
+    "k": "fetih",
+    "b": "Hittîn Savaşı’ndan sonra Akkâ Kalesi’yle birlikte Hayfa da ele geçirildi (Eyyûbîler)",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/hayfa (HAYFA)"
+   },
+   {
+    "t": "1291-01-01",
+    "gun": "1291",
+    "k": "fetih",
+    "b": "Yeniden Haçlılar tarafından zaptedilen şehri Sultan el-Melikü’l-Eşref Halîl geri aldı",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/hayfa (HAYFA)"
+   },
+   {
+    "t": "1516-01-01",
+    "gun": "1516",
+    "k": "fetih",
+    "b": "Osmanlılar Mısır seferi sırasında Filistin’i aldıklarında Hayfa harabe halindeydi",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/hayfa (HAYFA)"
+   },
+   {
+    "t": "1799-01-01",
+    "gun": "1799",
+    "k": "fetih",
+    "b": "Napolyon şehri aldı",
+    "kaynak": "Encyclopaedia Britannica (britannica.com/place/Haifa)"
+   },
+   {
+    "t": "1839-01-01",
+    "gun": "1839",
+    "k": "fetih",
+    "b": "Mısır Valisi İbrâhim Paşa şehri ele geçirdi (1840'ta Avrupa filolarının baskısıyla Osmanlı'ya geri verdi)",
+    "kaynak": "Encyclopaedia Britannica (britannica.com/place/Haifa)"
+   },
+   {
+    "t": "1918-01-01",
+    "gun": "1918",
+    "k": "fetih",
+    "b": "İngiliz kuvvetleri şehri işgal etti",
+    "kaynak": "Encyclopaedia Britannica (britannica.com/place/Haifa)"
+   },
+   {
+    "t": "1948-04-22",
+    "gun": "22 Nisan 1948",
+    "k": "kayip",
+    "b": "Araplar Haganah karşısında teslim oldu (Filistin Savaşı)",
+    "kaynak": "Encyclopaedia Britannica (britannica.com/place/Haifa)"
+   }
+  ],
+  "ic_not": "Talmud tanığı 'c. 1st–4th century ce' aralığı (Britannica): güvenli uç = son (400); TDV HAYFA da okundu: 'Nâsır-ı Hüsrev 1046’da gördüğü Hayfa' (daha geç yıl), 'ilk yerleşim MÖ XIV. yy Ebûhavam höyüğünde (Hayfa çevresi)' — höyük bugünkü Hayfa merkezinden >3 km olabileceğinden yazılmadı. 1100 Haçlı fethi: TDV gün veriyor (25 Temmuz 1100); Britannica yalnız '1100' => TDV günü alındı (çelişki yok). Zincir 1516 öncesi BOSLUK. | TANIK: Britannica sayfa gövdesinden birebir cümle (17 Kas 2026, gömülü tarayıcı); Britannica yazar-hakemli ulusal olmayan genel ansiklopedi: TDV'de madde bulunamadı/yetersiz, tek kaynak. TDV ile uyumlu 1100/1187/1516 (iki bağımsız ansiklopedi: çift teyit 1100)."
+ },
+ {
+  "id": "ramla-il",
+  "ad": "Ramla",
+  "atlas_ad": null,
+  "lat": 31.9262,
+  "lon": 34.8635,
+  "kat1900": 3,
+  "adlar": [
+   "Rames (Haçlı)",
+   "Remle",
+   "Ramla"
+  ],
+  "ilk": {
+   "t": "0716-01-01",
+   "gun": "716",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica (britannica.com/place/Ramla)",
+   "tanik": "It was established in 716 by the caliph Sulaymān ibn ʿAbd al-Malik (reigned 715–717), who made it the administrative capital of Palestine"
+  },
+  "kur": {
+   "t": "0716-01-01",
+   "gun": "716",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica (britannica.com/place/Ramla)",
+   "tanik": "It was established in 716 by the caliph Sulaymān ibn ʿAbd al-Malik (reigned 715–717)"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0716-01-01",
+    "t": "0750-01-01",
+    "d": "emevi",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica (britannica.com/place/Ramla)",
+    "ic_not": "Kuruluş 716 (Britannica); Emevî dönemi sonu 750 TDV (132/750 Mervân yenilgisi)."
+   },
+   {
+    "f": "0750-01-01",
+    "t": "0877-01-01",
+    "d": "abbasi",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/remle (REMLE)",
+    "ic_not": "TDV: 'Abbâsîler’in ilk dönemlerinde Filistin ve Suriye eyaletinin merkezi olarak önemini koruyan ... Remle 877’de Tolunoğulları’nın ... eline geçti'. Künye abbasi 749-1258."
+   },
+   {
+    "f": "0877-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/remle (REMLE)",
+    "ic_not": "Şehir var; 877 sonrası (Tolunoğulları 877, İhşîdîler 935, Fâtımîler 969, Selçuklu/Haçlı 1099, Eyyûbî 1187, Memlük 1266, Osmanlı) künyeleri devletler.js'te Tolunoğulları/İhşîdî/Fâtımî için bu partide doğrulanmadı: zincir kurulmadı; olay[]de."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0750-01-01",
+    "gun": "132/750",
+    "k": "diger",
+    "b": "Remle Emevî Halifesi Mervân’ın Abbâsî ordusu karşısında yenildiği son savaşlardan birine sahne oldu (Emevî -> Abbâsî geçişi)",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/remle (REMLE)"
+   },
+   {
+    "t": "0877-01-01",
+    "gun": "877",
+    "k": "fetih",
+    "b": "Remle Tolunoğulları’nın eline geçti",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/remle (REMLE)"
+   },
+   {
+    "t": "0935-01-01",
+    "gun": "935",
+    "k": "fetih",
+    "b": "Remle İhşîdîler’in eline geçti",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/remle (REMLE)"
+   },
+   {
+    "t": "0969-01-01",
+    "gun": "969",
+    "k": "fetih",
+    "b": "Remle Fâtımîler’in eline geçti",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/remle (REMLE)"
+   },
+   {
+    "t": "1099-01-01",
+    "gun": "1099",
+    "k": "fetih",
+    "b": "Remle Haçlılar tarafından zaptedildi, ortasına büyük kilise yapılıp başpiskoposluk haline getirildi",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/remle (REMLE)"
+   },
+   {
+    "t": "1187-01-01",
+    "gun": "1187",
+    "k": "fetih",
+    "b": "Selâhaddin şehri Haçlılar’dan aldı (dört yıl sonra yeniden Haçlılar eline geçmesinden endişe duyularak tahrip ettirildi)",
+    "kaynak": "Encyclopaedia Britannica (britannica.com/place/Ramla)"
+   },
+   {
+    "t": "1266-07-01",
+    "gun": "Şevval 664 (Temmuz 1266)",
+    "k": "fetih",
+    "b": "Memlük Sultanı I. Baybars Remle’yi tekrar fethetti, Filistin’in idare merkezi yaptı",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/remle (REMLE)"
+   },
+   {
+    "t": "1936-01-01",
+    "gun": "1936-1939",
+    "k": "isyan",
+    "b": "Arap-Yahudi karışıklıkları (Britannica: Yahudi cemaati 1936-39 karışıklıklarına dek vardı)",
+    "kaynak": "Encyclopaedia Britannica (britannica.com/place/Ramla)"
+   }
+  ],
+  "ic_not": "Britannica 'It' zamiri: madde başlığı şehirdir (atıflı cümle). Kuruluş 716 (kaynak yıl verir; Britannica ayrıca 'reigned 715–717' halife). TDV REMLE okundu: Mervân yenilgisi 132/750 (kuruluştan sonra) uyumlu; kuruluş cümlesi TDV'de okunan 10 cümlede çıkmadı (ikinci kaynak kuruluşu yıl olarak doğrulamadı => tek kaynak kuruluş). Zincir 750-877 Abbâsî TDV ifadesiyle. | TANIK: Britannica sayfa gövdesinden birebir cümle (17 Kas 2026, gömülü tarayıcı); Britannica yazar-hakemli ulusal olmayan genel ansiklopedi: TDV'de madde bulunamadı/yetersiz, tek kaynak."
+ },
+ {
+  "id": "sidon-lb",
+  "ad": "Sidon",
+  "atlas_ad": null,
+  "lat": 33.5575,
+  "lon": 35.3715,
+  "kat1900": 3,
+  "adlar": [
+   "Sidon (Sayda)",
+   "Sayda"
+  ],
+  "ilk": {
+   "t": "-2000-01-01",
+   "gun": "MÖ 3. binyıl",
+   "nicelik": "kurulus",
+   "kesinlik": "belirsiz",
+   "kaynak": "Encyclopaedia Britannica (britannica.com/place/Sidon)",
+   "tanik": "Sidon, one of the oldest Phoenician cities, was founded in the 3rd millennium bce and became prosperous in the 2nd"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "-2000-01-01",
+    "t": "1516-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "Encyclopaedia Britannica (britannica.com/place/Sidon)",
+    "ic_not": "Şehir var, sahip zinciri bu dönem için kaynaklı kurulmadı (araştırılmadı); TDV olayları olay[]de. "
+   },
+   {
+    "f": "1516-01-01",
+    "t": "1900-01-01",
+    "d": "osmanli",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/sayda (SAYDA)",
+    "ic_not": "TDV: 'Sayda, Yavuz Sultan Selim’in 922 (1516) Mercidâbık zaferinden sonra Osmanlı ülkesine katıldı'. Britannica '1517' der (çelişki, ic_not); TDV esas."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0637-01-01",
+    "gun": "16 (637) civarı",
+    "k": "fetih",
+    "b": "Sayda Yezîd b. Ebû Süfyân tarafından 16 (637) yılı civarında fethedildi ve Dımaşk cündüne bağlandı",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/sayda (SAYDA)"
+   },
+   {
+    "t": "0750-01-01",
+    "gun": "132 (750)",
+    "k": "diger",
+    "b": "Mervân limanını tamir ettirdi (Abbâsî dönemi önemsiz)",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/sayda (SAYDA)"
+   },
+   {
+    "t": "1087-01-01",
+    "gun": "480 (1087)",
+    "k": "fetih",
+    "b": "Tutuş Sayda’yı ele geçirdi",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/sayda (SAYDA)"
+   },
+   {
+    "t": "1089-01-01",
+    "gun": "482/1089",
+    "k": "fetih",
+    "b": "Vezir Bedr el-Cemâlî’nin Fâtımî ordusu şehri tekrar zaptetti",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/sayda (SAYDA)"
+   },
+   {
+    "t": "1107-01-01",
+    "gun": "501 (1107)",
+    "k": "diger",
+    "b": "Kudüs Haçlı Kralı I. Baudouin’in kuşatmasından yüklü para ödenerek kurtarıldı",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/sayda (SAYDA)"
+   },
+   {
+    "t": "1516-01-01",
+    "gun": "922 (1516)",
+    "k": "fetih",
+    "b": "Sayda Yavuz Sultan Selim’in Mercidâbık zaferinden sonra Osmanlı ülkesine katıldı",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/sayda (SAYDA)"
+   },
+   {
+    "t": "1791-01-01",
+    "gun": "1791",
+    "k": "diger",
+    "b": "Osmanlı Lübnan valisi Ahmed el-Cezzâr Fransız tüccarları kapılarından kovdu (ticaret çöktü)",
+    "kaynak": "Encyclopaedia Britannica (britannica.com/place/Sidon)"
+   },
+   {
+    "t": "1837-01-01",
+    "gun": "1837",
+    "k": "diger",
+    "b": "şehir depremle harap oldu, yeniden inşa edildi",
+    "kaynak": "Encyclopaedia Britannica (britannica.com/place/Sidon)"
+   }
+  ],
+  "ic_not": "3. binyıl: güvenli uç MÖ 2001 (-2000), kesinlik belirsiz. Kuruluş yazılı tanık değil, Britannica özetinin kronolojik ifadesi. TDV SAYDA okundu: en erken yıl 637 civarı fetih (yazılı tanık ama kuruluş değil). ÇELİŞKİ: Osmanlı katılışı TDV 1516 (922), Britannica 'from the year 1517' — TDV esas (Mısır'ın fethi 1517 Ocak sonrası olabilir; hakemli üçüncü kaynak aranmadı). TDV'de Haçlı/Eyyûbî dönemleri yok sayıldı. Britannica 'Sidon' okundu (kuruluş) + TDV. | TANIK: Britannica sayfa gövdesinden birebir cümle (17 Kas 2026, gömülü tarayıcı); Britannica yazar-hakemli ulusal olmayan genel ansiklopedi: TDV'de madde bulunamadı/yetersiz, tek kaynak. TDV 'SAYDA' gövdesi ayrıca okundu (olaylar)."
+ },
+ {
+  "id": "byblos-lb",
+  "ad": "Byblos",
+  "atlas_ad": null,
+  "lat": 34.1211,
+  "lon": 35.6481,
+  "kat1900": 3,
+  "adlar": [
+   "Byblos (Gubla)",
+   "Cübeyl (Jubayl)",
+   "Gibelet (Haçlı)"
+  ],
+  "ilk": {
+   "t": "-1755-01-01",
+   "gun": "MÖ 1938-1756 (12. hanedan)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "belirsiz",
+   "kaynak": "Encyclopaedia Britannica (britannica.com/place/Byblos)",
+   "tanik": "During Egypt’s 12th dynasty (1938–1756 bce), Byblos again became an Egyptian dependency"
+  },
+  "kur": null,
+  "ark": {
+   "t": "-3999-01-01",
+   "gun": "MÖ 4. binyıl",
+   "kesinlik": "belirsiz",
+   "kaynak": "Encyclopaedia Britannica (britannica.com/place/Byblos)",
+   "tanik": "during the 4th millennium bce an extensive settlement developed there"
+  },
+  "bit": null,
+  "sahip": [
+   {
+    "f": "-1755-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "Encyclopaedia Britannica (britannica.com/place/Byblos)",
+    "ic_not": "Şehir var, sahiplik zinciri kaynaklı kurulmadı (bu partide yalnız ilk anılış + olay yazıldı); zincir sonraki iş."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1103-01-01",
+    "gun": "1103",
+    "k": "fetih",
+    "b": "Haçlılar şehri aldı ve Gibelet adını verdi",
+    "kaynak": "Encyclopaedia Britannica (britannica.com/place/Byblos)"
+   },
+   {
+    "t": "1189-01-01",
+    "gun": "1189",
+    "k": "fetih",
+    "b": "Eyyûbî Sultanı Selâhaddin Haçlıları şehirden çıkardı",
+    "kaynak": "Encyclopaedia Britannica (britannica.com/place/Byblos)"
+   }
+  ],
+  "ic_not": "Britannica: 'again became an Egyptian dependency' ifadesi daha eski Mısır bağını işaret eder (yıl verilmez) => 12. hanedan aralığı (Mısır kronolojisi Britannica'nın; CLAUDE.md konvansiyonu Shaw 2000: 12. hanedan farklı olabilir, beyan). Aralığın SON ucu 1756 => -1755. Arkeolojik: Neolitik (c. 8000–4000) ve MÖ 4. binyıl yerleşme (ark). Zincir BOSLUK. Modern Cübeyl ~ antik Byblos aynı nokta. | TANIK: Britannica sayfa gövdesinden birebir cümle (17 Kas 2026, gömülü tarayıcı); Britannica yazar-hakemli ulusal olmayan genel ansiklopedi: TDV'de madde bulunamadı/yetersiz, tek kaynak."
+ },
+ {
+  "id": "madaba-jo",
+  "ad": "Madaba",
+  "atlas_ad": null,
+  "lat": 31.716,
+  "lon": 35.7939,
+  "kat1900": 3,
+  "adlar": [
+   "Medebâ",
+   "Madaba"
+  ],
+  "ilk": {
+   "t": "-0800-01-01",
+   "gun": "MÖ 9. yüzyıl",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yuzyil",
+   "kaynak": "Encyclopaedia Britannica (britannica.com/place/Madaba)",
+   "tanik": "It later served as a Moabite stronghold, having been taken by Mesha, king of Moab, after the division of the Jewish kingdom (9th century bce)"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "-0800-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "Encyclopaedia Britannica (britannica.com/place/Madaba)",
+    "ic_not": "Şehir var, sahiplik zinciri kaynaklı kurulmadı (bu partide yalnız ilk anılış + olay yazıldı); zincir sonraki iş."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1880-01-01",
+    "gun": "1880",
+    "k": "kayip",
+    "b": "kasaba yıkıldı; Al-Karak ve çevresinden gelen Hıristiyan Araplarla yeniden iskân edildi",
+    "kaynak": "Encyclopaedia Britannica (britannica.com/place/Madaba)"
+   },
+   {
+    "t": "1884-01-01",
+    "gun": "1884",
+    "k": "diger",
+    "b": "6. yüzyıla tarihlenen mozaik harita keşfedildi",
+    "kaynak": "Encyclopaedia Britannica (britannica.com/place/Madaba)"
+   }
+  ],
+  "ic_not": "Britannica: 'later served as a Moabite stronghold' (9th century bce: güvenli uç MÖ 801 → -0800). Kuruluş değil, ilk yazılı ('Mesha' / Moab) anılış; TDV 'Medebâ' araması sonuç vermedi (arama 15 sn aralıkla; TDV'de madde bulunamadı). Tek kaynak (Britannica). Zincir BOSLUK. | TANIK: Britannica sayfa gövdesinden birebir cümle (17 Kas 2026, gömülü tarayıcı); Britannica yazar-hakemli ulusal olmayan genel ansiklopedi: TDV'de madde bulunamadı/yetersiz, tek kaynak."
+ },
+ {
+  "id": "riyadh-sa",
+  "ad": "Riyadh",
+  "atlas_ad": null,
+  "lat": 24.6877,
+  "lon": 46.7219,
+  "kat1900": 3,
+  "adlar": [
+   "Riyad",
+   "Riyadh"
+  ],
+  "ilk": {
+   "t": "1688-01-01",
+   "gun": "1099 (1688)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/riyad (RİYAD)",
+   "tanik": "Riyad ise 1099’dan (1688) itibaren Benî Hanîfe’den Ebû Zer‘a ailesinin yönetimindeydi"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1688-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/riyad (RİYAD)",
+    "ic_not": "Şehir var; TDV'ye göre sahiplik: Ebû Zer‘a ailesi (1688) -> Suûdîler (1773, suud-birinci künyesi 1744-1818) -> Osmanlı/Mısır denetimi (1818) -> Suûdîler (1824, suud-ikinci 1824-1891) -> Mısır/Hurşid 1837 -> Faysal 1843 -> İbn Reşîd 1891 (Reşîdî künyesi devletler.js'te yok): geçiş günleri TDV'de yıl hassasiyetli ve dönemler iç içe (1837-1843 Mısır), zincir bu partide kurulmadı; olay[]de."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1688-01-01",
+    "gun": "1099 (1688)",
+    "k": "diger",
+    "b": "Riyad Benî Hanîfe’den Ebû Zer‘a ailesinin yönetiminde",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/riyad (RİYAD)"
+   },
+   {
+    "t": "1773-01-01",
+    "gun": "1746-1773",
+    "k": "fetih",
+    "b": "Riyad emîri Dehhâm b. Devvâs ile Suûd ailesine bağlı kuvvetlerin 1746-1773 yılları arasındaki otuz beş karşılaşmasının sonunda Riyad Suûdîler’in eline geçti",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/riyad (RİYAD)"
+   },
+   {
+    "t": "1818-01-01",
+    "gun": "1818",
+    "k": "fetih",
+    "b": "Mehmed Ali Paşa’nın askerî harekâtına Riyad halkı destek verdi, bölge 1818’de Osmanlı denetimine girdi",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/riyad (RİYAD)"
+   },
+   {
+    "t": "1824-01-01",
+    "gun": "1824",
+    "k": "diger",
+    "b": "Suûd ailesinden Türkî b. Abdullah Riyad’ı idare merkezi yaptı",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/riyad (RİYAD)"
+   },
+   {
+    "t": "1837-01-01",
+    "gun": "1837",
+    "k": "fetih",
+    "b": "Mısır’dan gönderilen Hurşid Paşa şehre girip Hâlid b. Suûd’u emîr tayin etti",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/riyad (RİYAD)"
+   },
+   {
+    "t": "1843-01-01",
+    "gun": "1843",
+    "k": "diger",
+    "b": "Faysal b. Türkî Riyad’ın yönetimini tekrar ele geçirdi; Osmanlı onun emirliğini tanıdı, 1848'de Necid kaymakamlığına getirdi",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/riyad (RİYAD)"
+   },
+   {
+    "t": "1891-01-01",
+    "gun": "1891",
+    "k": "fetih",
+    "b": "Hâil Emîri İbn Reşîd Riyad’a girdi, Muhammed b. Faysal’ı emirlik tahtına oturttu",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/riyad (RİYAD)"
+   }
+  ],
+  "ic_not": "TANIK KURALI: ilk anılış olarak TDV RİYAD gövdesindeki en erken yıl+şehir cümlesi (1688) alındı; Hicr/Hacer (Riyad'ın eski adı/ Yemâme) TDV Riyad maddesinde okunmadı => önceki anılış araştırılmadı (borç). Hicrî 1099 = 1688 TDV'nin kendi çevirisi. 'Hulefâ-yi Râşidîn devrinden itibaren merkezden gönderilen valilerle yönetilmiş' bölge cümlesi (Necid) yazılmadı. Sahip zinciri kurulmadı (BOSLUK, beyanlı). | TANIK: TDV tam gövdesinden birebir cümle (17 Kas 2026, gömülü tarayıcı). Tek kaynak (TDV)."
+ },
+ {
+  "id": "tabuk-sa",
+  "ad": "Tabuk",
+  "atlas_ad": null,
+  "lat": 28.3998,
+  "lon": 36.5715,
+  "kat1900": 3,
+  "adlar": [
+   "Tebük",
+   "Tabuk"
+  ],
+  "ilk": {
+   "t": "0630-01-01",
+   "gun": "9 (630)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/tebuk (TEBÜK)",
+   "tanik": "Peygamber’in 9 (630) yılında Bizans’a karşı düzenlediği gazve dolayısıyla meşhur olmuştur"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0630-01-01",
+    "t": "1560-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/tebuk (TEBÜK)",
+    "ic_not": "Şehir var, sahip zinciri bu dönem için kaynaklı kurulmadı (araştırılmadı); TDV olayları olay[]de. "
+   },
+   {
+    "f": "1560-01-01",
+    "t": "1900-01-01",
+    "d": "osmanli",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/tebuk (TEBÜK)",
+    "ic_not": "f en geç tanıktan: Kanûnî Sultan Süleyman’ın emriyle 1560 civarı yapılan Tebük Kalesi (TDV: '965 (1558) saldırısından iki yıl sonra'); önceki sahip zinciri kurulmadı."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0630-01-01",
+    "gun": "9 (630)",
+    "k": "diger",
+    "b": "Peygamber’in Bizans’a karşı düzenlediği Tebük gazvesi",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/tebuk (TEBÜK)"
+   },
+   {
+    "t": "0633-01-01",
+    "gun": "633 yılı (sonbahar)",
+    "k": "diger",
+    "b": "Ebû Bekir Şürahbîl b. Hasene’yi 3000 kişilik birlikle Tebük-Maan istikametine gönderdi",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/tebuk (TEBÜK)"
+   },
+   {
+    "t": "0717-01-01",
+    "gun": "99 (717)",
+    "k": "kurulus",
+    "b": "Halife Ömer b. Abdülazîz Resûl-i Ekrem’in mescid olarak kullandığı yerde Tebük’te cami yaptırdı",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/tebuk (TEBÜK)"
+   },
+   {
+    "t": "1560-01-01",
+    "gun": "1560 (1558 + iki yıl)",
+    "k": "kurulus",
+    "b": "1558 saldırısından iki yıl sonra Kanûnî’nin emriyle hac güzergâhında yapılan kalelerden biri Tebük Kalesi idi",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/tebuk (TEBÜK)"
+   },
+   {
+    "t": "1654-01-01",
+    "gun": "1064 (1654)",
+    "k": "diger",
+    "b": "kitâbeden Tebük Kalesi’nin 1064’te (1654) tamir edildiği anlaşılıyor",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/tebuk (TEBÜK)"
+   }
+  ],
+  "ic_not": "TANIK KURALI: alıntı cümle TDV'de önceki cümleden devam eder (özne Tebük; madde başlığı şehir). 633 Ebû Bekir seferi: TDV 'sonbahar' der, yalnız yıl (633) kesin; gün/ay yazılmadı. Kale yapım yılı 1560 TDV'de 'iki yıl sonra' hesabıyla (1558+2) türetildi (TDV doğrudan '1560' demez); kesinlik yil. Hicrî 9 = 630 TDV çevirisi. | TANIK: TDV tam gövdesinden birebir cümle (17 Kas 2026, gömülü tarayıcı). Tek kaynak (TDV)."
+ },
+ {
+  "id": "gaza-ps",
+  "ad": "Gaza",
+  "atlas_ad": null,
+  "lat": 31.5016,
+  "lon": 34.4667,
+  "kat1900": 3,
+  "adlar": [
+   "Gazze",
+   "Gaza"
+  ],
+  "ilk": {
+   "t": "0624-01-01",
+   "gun": "2 (624)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/gazze (GAZZE)",
+   "tanik": "Hicretin 2. yılında (624) Bedir Gazvesi’ne yol açan zengin ticaret kervanı da Ebû Süfyân idaresinde Gazze’den dönmekteydi"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0624-01-01",
+    "t": "1517-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/gazze (GAZZE)",
+    "ic_not": "Şehir var, sahip zinciri bu dönem için kaynaklı kurulmadı (araştırılmadı); TDV olayları olay[]de. "
+   },
+   {
+    "f": "1517-01-01",
+    "t": "1900-01-01",
+    "d": "osmanli",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/gazze (GAZZE)",
+    "ic_not": "TDV: 'Mısır’ın Osmanlılar tarafından fethine kadar (1517) onların (Memlükler) idaresinde kalmıştır. Osmanlı döneminde Gazze ... Şam’a bağlı kaldı'. 1773 Zâhir el-Ömer isyanı kısa; dönem açılmadı."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0634-01-01",
+    "gun": "13/634",
+    "k": "fetih",
+    "b": "Gazze Ebû Bekir’in hilâfeti zamanında fethedildi",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/gazze (GAZZE)"
+   },
+   {
+    "t": "1149-01-01",
+    "gun": "1149",
+    "k": "fetih",
+    "b": "Gazze Haçlı Kralı Baldwin’in eline geçti",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/gazze (GAZZE)"
+   },
+   {
+    "t": "1187-01-01",
+    "gun": "1187",
+    "k": "fetih",
+    "b": "Hittîn Savaşı’ndan sonra Selâhaddîn-i Eyyûbî Gazze’yi geri aldı",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/gazze (GAZZE)"
+   },
+   {
+    "t": "1260-09-03",
+    "gun": "3 Eylül 1260",
+    "k": "diger",
+    "b": "Aynicâlût Savaşı’nda Moğollar hezimete uğratıldı; Gazze (Moğolların batıdaki en uç noktası) Memlükler tarafından geri alındı",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/gazze (GAZZE)"
+   },
+   {
+    "t": "1517-01-01",
+    "gun": "1517",
+    "k": "fetih",
+    "b": "Mısır’ın Osmanlılar tarafından fethine kadar (1517) Memlükler’in idaresinde kaldı",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/gazze (GAZZE)"
+   },
+   {
+    "t": "1773-01-01",
+    "gun": "1773",
+    "k": "isyan",
+    "b": "Şeyh Zâhir el-Ömer isyan ederek Kudüs, Yafa, Nablus ve Gazze’yi ele geçirdi; 1775'te bastırıldı",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/gazze (GAZZE)"
+   }
+  ],
+  "ic_not": "TDV GAZZE gövdesinde 624'ten önce yıl taşıyan cümle yok (3-4 haneli sayı taraması): ilk anılış TDV'deki en erken yıldır (antik Gaza/Mısır-Fenike yazılı tanıkları TDV'de yok; ayrı kaynak aranmadı — Britannica 'Gaza' slug'ları 404). Kuruluş günü yok. İmam Şâfiî 767'de Gazze'de doğdu (olay yazılmadı). | TANIK: TDV tam gövdesinden birebir cümle (17 Kas 2026, gömülü tarayıcı). Tek kaynak (TDV)."
+ },
+ {
+  "id": "hebron-ps",
+  "ad": "Hebron",
+  "atlas_ad": null,
+  "lat": 31.5293,
+  "lon": 35.0938,
+  "kat1900": 3,
+  "adlar": [
+   "Habrûn / Kiryât-Arba (Kiryat Arba)",
+   "Meşhed-i Halîlürrahman",
+   "Halîl",
+   "Hebron"
+  ],
+  "ilk": {
+   "t": "1047-01-01",
+   "gun": "1047",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/halil (HALÎL)",
+   "tanik": "Haçlı seferlerinin başlamasından yarım yüzyıl önce bölgeyi gezen (1047) seyyah Nâsır-ı Hüsrev Sefernâme adlı eserinde, kendi deyimiyle Meşhed-i Halîlürrahman’ın bulunduğu Halîl’in Kudüs’ten 6 fersah mesafede olduğundan bahseder"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1047-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/halil (HALÎL)",
+    "ic_not": "Şehir var, sahiplik zinciri kaynaklı kurulmadı (bu partide yalnız ilk anılış + olay yazıldı); zincir sonraki iş."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1099-01-01",
+    "gun": "1099",
+    "k": "fetih",
+    "b": "Haçlılar Hebron Saint Abraham dedikleri şehri ele geçirdiler; meşhed-camiyi yıkıp yerine kilise inşa ettiler",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/halil (HALÎL)"
+   }
+  ],
+  "ic_not": "TANIK KURALI: TDV HALÎL 3-4 haneli yıl taşıyan en erken cümle 1047 (Nâsır-ı Hüsrev); Peygamber'in Temîm ed-Dârî'ye iktâ rivayeti (Habrûn, Mertûm, Beyt Aynûn, Beyt İbrâhim; 'o dönemdeki adları olduğu sanılmaktadır') yıl vermez, Kiryât-Arba Tevrat anılışı TDV gövdesinde yılsız => yazılmadı; gerçek ilk anılış 1047'den çok eski (Tevrat, Amarna/Mısır) olabilir: borç. Britannica 'Hebron' slug'ları (404) okunamadı. Sahip zinciri kurulmadı (BOSLUK). | TANIK: TDV tam gövdesinden birebir cümle (17 Kas 2026, gömülü tarayıcı). Tek kaynak (TDV)."
+ },
+ {
+  "id": "jenin-ps",
+  "ad": "Jenin",
+  "atlas_ad": null,
+  "lat": 32.4594,
+  "lon": 35.3009,
+  "kat1900": 3,
+  "adlar": [
+   "Ginaea / Ginea (Amarna'da anılan yerleşme, Britannica 'original ancient settlement')",
+   "Cenîn",
+   "Jenin"
+  ],
+  "ilk": {
+   "t": "-1300-01-01",
+   "gun": "MÖ 14. yüzyıl",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "belirsiz",
+   "kaynak": "Encyclopaedia Britannica (britannica.com/place/Jenin)",
+   "tanik": "The original ancient settlement is mentioned in the Amarna Letters, a series of 14th-century-bce diplomatic documents found at Tell el-Amarna in Egypt"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "-1300-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "Encyclopaedia Britannica (britannica.com/place/Jenin)",
+    "ic_not": "Şehir var, sahiplik zinciri kaynaklı kurulmadı (bu partide yalnız ilk anılış + olay yazıldı); zincir sonraki iş."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1950-01-01",
+    "gun": "1950",
+    "k": "diger",
+    "b": "Jenin Birinci Arap-İsrail Savaşı sonrası Ürdün’ün ilhak ettiği bölgede (Britannica)",
+    "kaynak": "Encyclopaedia Britannica (britannica.com/place/Jenin)"
+   },
+   {
+    "t": "2002-04-01",
+    "gun": "Nisan 2002",
+    "k": "diger",
+    "b": "İsrail'in 'Savunma Kalkanı' operasyonunun odak noktası oldu (Britannica)",
+    "kaynak": "Encyclopaedia Britannica (britannica.com/place/Jenin)"
+   }
+  ],
+  "ic_not": "Britannica: 'original ancient settlement' modern Jenin'den ayrı bir tepe (tell) olabilir; yeri kesin olmayan ad eşitlemesi (Amarna 'Ginti/Gina') başlangıç sayılmamalıydı => kesinlik belirsiz, ilk.t güvenli uç (MÖ 14. yy sonu: -1300), YAZILI TANIK YER BELİRSİZLİĞİ BEYANLI; TDV 'Cenîn' araması embriyo maddesine gitti (şehir maddesi yok). Zincir BOSLUK. | TANIK: Britannica sayfa gövdesinden birebir cümle (17 Kas 2026, gömülü tarayıcı); tek kaynak."
+ },
+ {
+  "id": "erbil-iq",
+  "ad": "Erbil",
+  "atlas_ad": null,
+  "lat": 36.1912,
+  "lon": 44.0094,
+  "kat1900": 3,
+  "adlar": [
+   "Arbela (antik, TDV'de ad geçmiyor)",
+   "Erbîl",
+   "Erbil",
+   "Hewlêr"
+  ],
+  "ilk": {
+   "t": "0500-01-01",
+   "gun": "500",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/erbil (ERBİL)",
+   "tanik": "halkının hemen tamamı hıristiyan olan Erbil, 500 yılında Keldânî Metropolitliği’nin kurulması üzerine Musul’dan sonra bölgenin ikinci önemli din ve kültür merkezi haline gelmiştir"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0500-01-01",
+    "t": "1535-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/erbil (ERBİL)",
+    "ic_not": "Şehir var, sahip zinciri bu dönem için kaynaklı kurulmadı (araştırılmadı); TDV olayları olay[]de. "
+   },
+   {
+    "f": "1535-01-01",
+    "t": "1900-01-01",
+    "d": "osmanli",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/erbil (ERBİL)",
+    "ic_not": "TDV: 'Erbil, Kanûnî Sultan Süleyman’ın Irakeyn Seferi sırasında (1535) Bağdat’la birlikte Osmanlı topraklarına katıldı'; gün yok."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0750-01-16",
+    "gun": "16 Ocak 750",
+    "k": "diger",
+    "b": "İslâmî kaynaklarda Erbil adına ilk defa Büyük Zap Suyu Savaşı (Emevî hâkimiyetini bitiren, Abbâsî dönemini başlatan) münasebetiyle rastlanır",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/erbil (ERBİL)"
+   },
+   {
+    "t": "1132-01-01",
+    "gun": "1132",
+    "k": "fetih",
+    "b": "Musul Atabeği İmâdüddin Zengî Erbil’i ele geçirdi",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/erbil (ERBİL)"
+   },
+   {
+    "t": "1232-01-01",
+    "gun": "1232",
+    "k": "diger",
+    "b": "Kökböri’nin ölümü üzerine Erbil bölgesi vasiyet yoluyla Abbâsî Halifesi Müstansır-Billâh’ın eline geçti",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/erbil (ERBİL)"
+   },
+   {
+    "t": "1236-01-01",
+    "gun": "1236",
+    "k": "diger",
+    "b": "Moğollar Erbil’e saldırıp aşağı şehri işgal etti, kaleyi kuşattılarsa da geri çekildiler",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/erbil (ERBİL)"
+   },
+   {
+    "t": "1258-01-01",
+    "gun": "1258",
+    "k": "fetih",
+    "b": "Bağdat’ın Hülâgû’nun eline geçmesinden sonra Erbil de zaptedildi",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/erbil (ERBİL)"
+   },
+   {
+    "t": "1535-01-01",
+    "gun": "1535",
+    "k": "fetih",
+    "b": "Kanûnî’nin Irakeyn Seferi sırasında Bağdat’la birlikte Osmanlı topraklarına katıldı",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/erbil (ERBİL)"
+   }
+  ],
+  "ic_not": "TANIK KURALI: 500 cümlesi şehrin 'din ve kültür merkezi haline gelişi' (Keldânî Metropolitliği); kuruluş/ilk anılış değildir. Erbil antik Arbela'dır (Asur/Ahamenîş/Selevkos/Part çağı yazılı tanıkları, Ur III 'Urbilum' ~MÖ 2000) — bu partide TDV dışı kaynak okunmadı: başlangıç tarihi çok daha eski olabilir (BORÇ: Perseus/Britannica/Iraq akademik kaynakları). 750 İslâmî kaynakların ilk anışı. 1535 sonrası zincir osmanli. Aynı noktada citadel (Erbil Kalesi) ~ modern merkez, mesafe <3 km. | TANIK: TDV tam gövdesinden birebir cümle (17 Kas 2026, gömülü tarayıcı). Tek kaynak (TDV)."
+ },
+ {
+  "id": "tartus-sy",
+  "ad": "Tartus",
+  "atlas_ad": null,
+  "lat": 34.889,
+  "lon": 35.8866,
+  "kat1900": 3,
+  "adlar": [
+   "Antaradus / Tortosa (Haçlı)",
+   "Tartûs",
+   "Tartus"
+  ],
+  "ilk": {
+   "t": "0968-01-01",
+   "gun": "357 (968)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/tartus (TARTÛS)",
+   "tanik": "Saîd el-Antâkî, 10 Zilhicce 357 (5 Kasım 968) tarihinde Trablus önlerine gelen imparatorun ... Hısnıcebele ve Merakıye ile birlikte Tartûs’u da zaptettiğini söyler"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0968-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/tartus (TARTÛS)",
+    "ic_not": "Şehir var, sahiplik zinciri kaynaklı kurulmadı (bu partide yalnız ilk anılış + olay yazıldı); zincir sonraki iş."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0968-01-01",
+    "gun": "357-358 (968-969)",
+    "k": "diger",
+    "b": "İbn Havkal: Bizans İmparatoru Nikephoros Phokas’ın Suriye seferi sırasında Tartûs’u kuşattı, başarısız oldu; Yahyâ b. Saîd el-Antâkî ise Tartûs’u zaptettiğini söyler (kaynak çelişkisi)",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/tartus (TARTÛS)"
+   }
+  ],
+  "ic_not": "TANIK KURALI: Yahyâ b. Saîd el-Antâkî cümlesindeki '5 Kasım 968' imparatorun Trablus önlerine GELİŞ günüdür (Tartûs'un zaptı değil); yalnız yıl 968 alındı. KAYNAK ÇELİŞKİSİ (TDV içi): İbn Havkal 'kuşatma başarısızlıkla sonuçlandı', Yahyâ el-Antâkî 'Tartûs'u da zaptetti'; zincir açılmadı (968 Bizans fethi/ihlali belirsiz). Ya'kūbî ve Ca'fer (ö. 337/948 [?]) Tartûs'u yılsız anar (daha eski ama yıl yok). Osmanlı'ya katılış yılı TDV gövdesinden okunan cümlelerde yok => BOSLUK. Zincir BOSLUK. | TANIK: TDV tam gövdesinden birebir cümle (17 Kas 2026, gömülü tarayıcı). Tek kaynak (TDV)."
+ },
+ {
+  "id": "jazan-sa",
+  "ad": "Jazan",
+  "atlas_ad": null,
+  "lat": 16.8892,
+  "lon": 42.5511,
+  "kat1900": 3,
+  "adlar": [
+   "Mihlâfü’s-Süleymânî",
+   "Cîzân",
+   "Jazan (Jizan)"
+  ],
+  "ilk": {
+   "t": "1000-01-01",
+   "gun": "10. yüzyıl (X. yüzyılın sonları)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yuzyil",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/cizan (CÎZÂN)",
+   "tanik": "Cîzân X. yüzyılın sonlarında Asr (Assâr) şehrinin yöneticisi Süleyman b. Taraf el-Hakemî’ye nisbetle Mihlâfü’s-Süleymânî adıyla da anılmıştır"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1000-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/cizan (CÎZÂN)",
+    "ic_not": "Şehir var; sahiplik: Ziyâdîler (≤1011), Gānimîler/Eyyûbî dönemi, 1477 Mekke Şerifi saldırısı, 1538 Osmanlı — süre/sürekliliği TDV'de dönem dönem verilmiyor; zincir kurulmadı."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1477-01-01",
+    "gun": "1477",
+    "k": "diger",
+    "b": "Mekke Şerifi Muhammed b. Berekât Cîzân’a saldırıp yağma etti",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/cizan (CÎZÂN)"
+   },
+   {
+    "t": "1538-01-01",
+    "gun": "1538",
+    "k": "fetih",
+    "b": "Yemen’in fethiyle birlikte Cîzân Osmanlı idaresine girdi, mihlaf müdürü tayin edildi",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/cizan (CÎZÂN)"
+   }
+  ],
+  "ic_not": "TANIK KURALI: 'X. yüzyılın sonlarında' yüzyıl hassasiyeti: güvenli uç 1000. Ziyâdî Veziri Hüseyin b. Selâme'nin zaptı: TDV 'ö. 402/1011-12' (yalnız ölüm tarihi) — zapt yılı bilinmiyor, olay yazılmadı. 1538 Osmanlı: Cîzân'ın tarihi boyunca 'genellikle Yemen'de kurulan devletlerin hâkimiyeti altında' (TDV); 1538 sonrası Osmanlı sürekliliği TDV'de okunan cümlelerde yok (Osmanlı Yemen'den 1635'te çıkmıştı, 1872'de döndü — TDV'de okunmadı) => sahip zinciri kurulmadı (BOSLUK). | TANIK: TDV tam gövdesinden birebir cümle (17 Kas 2026, gömülü tarayıcı). Tek kaynak (TDV)."
+ },
+ {
+  "id": "ardahan-tr",
+  "ad": "Ardahan",
+  "atlas_ad": null,
+  "lat": 41.1087,
+  "lon": 42.7022,
+  "kat1900": 3,
+  "adlar": [
+   "Ardahan"
+  ],
+  "ilk": {
+   "t": "0642-01-01",
+   "gun": "642",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/ardahan (ARDAHAN)",
+   "tanik": "Kars ve yöresiyle birlikte Ardahan’ın İslâm akınlarına hedef olması ise 642 tarihlerine rastlar"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0642-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/ardahan (ARDAHAN)",
+    "ic_not": "Şehir var; 642 (İslâm akını) - 1878 sahiplik zinciri (Selçuklu 1067 Alparslan, Gürcü, Osmanlı 1578 Çıldır eyaleti, Rus 1828/1855 geçici, 1878 kalıcı) kaynaklı kurulmadı; 1900'de Rus idaresi (TDV)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1053-01-01",
+    "gun": "1053",
+    "k": "diger",
+    "b": "yöreye ilk Türk akınları Kutalmış idaresinde başladı",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/ardahan (ARDAHAN)"
+   },
+   {
+    "t": "1549-01-01",
+    "gun": "1549",
+    "k": "diger",
+    "b": "Osmanlı idaresinde Çıldır/Erzurum eyaletine bağlı Ardahan Kalesi tamir edildi",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/ardahan (ARDAHAN)"
+   },
+   {
+    "t": "1578-01-01",
+    "gun": "1578",
+    "k": "fetih",
+    "b": "Çıldır’ın fethiyle kurulan Çıldır eyaletine dahil edilen Ardahan 1578-1588 arasında Erzurum eyaleti sancaklarından biri olarak kaydedilir",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/ardahan (ARDAHAN)"
+   },
+   {
+    "t": "1828-01-01",
+    "gun": "1828",
+    "k": "fetih",
+    "b": "Ardahan (Kars ve Batum ile elviye-i selâse) Rus idaresine girdi (1828, 1855, nihayet 1877-78 sonrası)",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/ardahan (ARDAHAN)"
+   },
+   {
+    "t": "1878-01-01",
+    "gun": "1877-1878",
+    "k": "fetih",
+    "b": "1877-1878 Osmanlı-Rus Savaşı sonrasında Rus idaresine girdi",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/ardahan (ARDAHAN)"
+   }
+  ],
+  "ic_not": "TANIK KURALI: '642 tarihlerine rastlar' yaklaşık; 'Kars ve yöresiyle birlikte' bölge cümlesi: Ardahan adı + yıl aynı cümlede, ancak yer şehir noktası mı yöre mi belirsiz => kesinlik yil ama güven orta. Osmanlı/Çıldır/Rus dönemleri iç içe (1828, 1855 geçici Rus işgali; 1878 kalıcı) — süreleri TDV'de yıl hassasiyetinde, zincir BOSLUK. Zincir 1900 itibarıyla Rus idaresi (1878-1921; TDV 'son olarak 1877-1878 ... sonrasında'); künye (Rus İmparatorluğu) kontrol edilmedi. | TANIK: TDV tam gövdesinden birebir cümle (17 Kas 2026, gömülü tarayıcı). Tek kaynak (TDV)."
+ },
+ {
+  "id": "karabuk-tr",
+  "ad": "Karabük",
+  "atlas_ad": null,
+  "lat": 41.2049,
+  "lon": 32.6277,
+  "kat1900": 3,
+  "adlar": [
+   "Karabük"
+  ],
+  "ilk": {
+   "t": "1897-01-01",
+   "gun": "1314 (1897)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/karabuk (KARABÜK)",
+   "tanik": "1314 (1897) tarihli Kastamonu Vilâyeti Salnâmesi’ne göre (s. 289) Safranbolu’ya bağlı köyler arasında yer alan Karabük on dokuz hânede seksen bir kişinin yaşadığı küçük bir yer durumundaydı"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1897-01-01",
+    "t": "1900-01-01",
+    "d": "osmanli",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/karabuk (KARABÜK)",
+    "ic_not": "Osmanlı sahipliği ilk anılıştan itibaren: kaynak kaydı Osmanlı idarî kaydıdır; ilk.t en geç tanıktır (f en geç tanıktan)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1897-01-01",
+    "gun": "1314 (1897)",
+    "k": "diger",
+    "b": "Kastamonu Vilâyeti Salnâmesi: Karabük, Safranbolu’ya bağlı köylerden, 19 hâne / 81 kişi",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/karabuk (KARABÜK)"
+   },
+   {
+    "t": "1937-04-03",
+    "gun": "3 Nisan 1937",
+    "k": "kurulus",
+    "b": "Karabük demir-çelik fabrikasının temeli atıldı",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/karabuk (KARABÜK)"
+   },
+   {
+    "t": "1939-06-06",
+    "gun": "6 Haziran 1939",
+    "k": "kurulus",
+    "b": "fabrika işletmeye açıldı",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/karabuk (KARABÜK)"
+   }
+  ],
+  "ic_not": "TDV: 'Bu küçük yerleşmenin ne zaman kurulduğu hakkında bilgi yoktur. 937 (1530) tarihli tahrir kayıtlarında Taraklıborlu (Safranbolu) kazasına bağlı köyler arasında Karabük adı geçmez.' => kuruluş yazılmadı. 'Karabük mevkiinde Devleşe divanı’nda Ârif Şeyh’in vakıflarından' bahseden tahrir kaydı TARİHSİZ (438 No'lu Muhâsebe-i Vilâyet-i Anadolu Defteri; yıl TDV'de yok): daha erken olabilir, borç. Osmanlı sahipliği Kastamonu Vilâyeti idarî kaydıyla en geç tanıktan (1897). | TANIK: TDV tam gövdesinden birebir cümle (17 Kas 2026, gömülü tarayıcı). Tek kaynak (TDV)."
+ },
+ {
+  "id": "kirikkale-tr",
+  "ad": "Kırıkkale",
+  "atlas_ad": null,
+  "lat": 39.8453,
+  "lon": 33.5064,
+  "kat1900": 3,
+  "adlar": [
+   "Kırıklu / Kırıkkale"
+  ],
+  "ilk": {
+   "t": "1700-01-01",
+   "gun": "17. yüzyıl başları (XVII. yüzyıl)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yuzyil",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/kirikkale (KIRIKKALE)",
+   "tanik": "XVII. yüzyıl başlarına ait bir mühimme kaydında Kırıklu adlı köy halkının eşkıya saldırılarına karşı civardaki kaleyi tamir edip savunma yeri olarak kullanmasına izin verildiğinin belirtilmesi Kırıkkale adının nasıl ortaya çıktığına da işaret eder"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1700-01-01",
+    "t": "1900-01-01",
+    "d": "osmanli",
+    "kesinlik": "yuzyil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/kirikkale (KIRIKKALE)",
+    "ic_not": "Osmanlı sahipliği ilk anılıştan itibaren: kaynak kaydı Osmanlı idarî kaydıdır; ilk.t en geç tanıktır (f en geç tanıktan)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1925-01-01",
+    "gun": "1925",
+    "k": "kurulus",
+    "b": "savunma sanayii kuruldu; Kırıkkale bunun sonucu şehir özelliği kazandı",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/kirikkale (KIRIKKALE)"
+   }
+  ],
+  "ic_not": "TANIK KURALI: kayıt 'Kırıklu adlı köy' ve 'civardaki kale' ile ilgilidir; 'Kırıkkale' adının doğuşuna işaret eder (özne belirsiz) => kesinlik yuzyil; yüzyıl hassasiyeti: XVII. yüzyıl BAŞLARI için güvenli uç 1700 (yaklaşık, beyan). Tarihli en erken kayıt TDV'de 937/1530 defteri (Kırıklu Türkmen topluluğu, Kırşehir civarı, Kırıkkale'nin kendisi değil) — kullanılmadı. Osmanlı: TDV 'XV. yüzyılda kesin olarak Osmanlı topraklarına katıldı' (yüzyıl); zincir ilk anılıştan itibaren osmanli (f en geç tanıktan). | TANIK: TDV tam gövdesinden birebir cümle (17 Kas 2026, gömülü tarayıcı). Tek kaynak (TDV)."
+ },
+ {
+  "id": "igdir-tr",
+  "ad": "Iğdır",
+  "atlas_ad": null,
+  "lat": 39.9237,
+  "lon": 44.045,
+  "kat1900": 3,
+  "adlar": [
+   "Şatık Kalesi/Hisarı",
+   "Iğdır Korganı",
+   "Iğdır"
+  ],
+  "ilk": {
+   "t": "1064-01-01",
+   "gun": "1064",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "belirsiz",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/igdir--sehir (IĞDIR)",
+   "tanik": "Dede Korkut Oğuznâmeleri’nde Şatık Kalesi olarak geçen ve 1064 yılında Melikşah tarafından Bizanslılar’dan alınan kalenin burası olduğu sanılmaktadır"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1064-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/igdir--sehir (IĞDIR)",
+    "ic_not": "Şehir var, sahiplik zinciri kaynaklı kurulmadı (bu partide yalnız ilk anılış + olay yazıldı); zincir sonraki iş."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1064-01-01",
+    "gun": "1064",
+    "k": "fetih",
+    "b": "Melikşah Şatık Hisarı’nı Bizanslılar’dan aldı (Kars’ın fethiyle (1064) sonuçlanan Selçuklu akınları sırasında); sonra Iğdır Korganı/Kalesi denmeye başlandı",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/igdir--sehir (IĞDIR)"
+   },
+   {
+    "t": "1232-01-01",
+    "gun": "1232",
+    "k": "fetih",
+    "b": "Kemâleddin Sürmeli Çukur’u (Iğdır bir kenarında) Anadolu Selçuklu topraklarına kattı",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/igdir--sehir (IĞDIR)"
+   },
+   {
+    "t": "1404-05-30",
+    "gun": "30 Mayıs 1404",
+    "k": "diger",
+    "b": "İspanya elçisi Clavijo Iğdır adlı kayalık üzerindeki kaleyi anlatır (1404'te kale Timur tarafından zaptedilmişti)",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/igdir--sehir (IĞDIR)"
+   }
+  ],
+  "ic_not": "TANIK KURALI: 'olduğu sanılmaktadır' (Kırzıoğlu, Anı Şehri Tarihi s.31) — Şatık=Iğdır kalesi eşitlemesi kaynakta KESİN DEĞİL => kesinlik belirsiz; yeri kesin olmayan ad eşitlemesi başlangıç sayılmamalıydı (VERI-YAPISI): yerinde kesin tanık: 30 Mayıs 1404 (Clavijo 'Iğdır' adını yazar) ama o daha geç tarih. Karar: 1064 belirsiz olarak yazıldı, beyan edildi; kesin ilk anılış günü olarak 1404-05-30 olay[]de. TDV: Osman devrinde (644-656) Aras havzasına akınlar, bölge cümlesi, yazılmadı. Sahip zinciri kurulmadı (BOSLUK). | TANIK: TDV tam gövdesinden birebir cümle (17 Kas 2026, gömülü tarayıcı). Tek kaynak (TDV)."
+ },
+ {
+  "id": "baalbek-lb",
+  "ad": "Baalbek",
+  "atlas_ad": null,
+  "lat": 34.0058,
+  "lon": 36.2181,
+  "kat1900": 3,
+  "adlar": [
+   "Heliopolis",
+   "Ba‘lebek",
+   "Baalbek"
+  ],
+  "ilk": {
+   "t": "0637-01-01",
+   "gun": "637",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/balebek (BA‘LEBEK)",
+   "tanik": "Ömer devrinde Ebû Ubeyde b. Cerrâh tarafından Dımaşk’ın fethinden sonra barış yoluyla alınarak İslâm topraklarına katıldı (637)"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0637-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/balebek (BA‘LEBEK)",
+    "ic_not": "Şehir var, sahiplik zinciri kaynaklı kurulmadı (bu partide yalnız ilk anılış + olay yazıldı); zincir sonraki iş."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0637-01-01",
+    "gun": "637",
+    "k": "fetih",
+    "b": "Ba‘lebek Ebû Ubeyde b. Cerrâh tarafından Dımaşk’ın fethinden sonra barış yoluyla alındı",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/balebek (BA‘LEBEK)"
+   },
+   {
+    "t": "0661-01-01",
+    "gun": "661",
+    "k": "diger",
+    "b": "Muâviye halifeliğini ilân edince Ba‘lebek darphânesinde 'Ba‘lebek' ibareli Emevî dirhemi bastırdı",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/balebek (BA‘LEBEK)"
+   },
+   {
+    "t": "0974-01-01",
+    "gun": "974",
+    "k": "fetih",
+    "b": "Bizans İmparatoru I. Ioannis Tzimiskes’in hâkimiyetine girdi (878-974 Tolunoğulları, İhşîdîler, Hamdânîler, Karmatîler, Fâtımîler)",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/balebek (BA‘LEBEK)"
+   },
+   {
+    "t": "1075-01-01",
+    "gun": "1075",
+    "k": "fetih",
+    "b": "Suriye Selçuklu Meliki Tutuş ve oğullarının hâkimiyetine girdi",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/balebek (BA‘LEBEK)"
+   },
+   {
+    "t": "1136-01-01",
+    "gun": "1136",
+    "k": "fetih",
+    "b": "Halep Valisi Zengî şehri alıp valiliğine Eyyûb’u getirdi",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/balebek (BA‘LEBEK)"
+   },
+   {
+    "t": "1155-01-01",
+    "gun": "1155",
+    "k": "diger",
+    "b": "Nûreddin Zengî Dımaşk’ı alıp Börîler’in hâkimiyetine son verdikten sonra Ba‘lebek’e yöneldi",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/balebek (BA‘LEBEK)"
+   }
+  ],
+  "ic_not": "TANIK KURALI: TDV'de Heliopolis dönemi yalnız hükümdar saltanat aralıklarıyla verilir (Büyük Konstantin 306-337, I. Theodosios 379-395): yıl tanığı değil, yazılmadı; antik Heliopolis (Roma çağı) ilk anılışı ayrı kaynakla borç. 637 TDV açık yıl (fetih). Osmanlı'ya katılış TDV'den okunan cümlelerde yok (BOSLUK). Zincir kurulmadı. | TANIK: TDV tam gövdesinden birebir cümle (17 Kas 2026, gömülü tarayıcı). Tek kaynak (TDV)."
+ },
+ {
+  "id": "sirnak-tr",
+  "ad": "Şırnak",
+  "atlas_ad": null,
+  "lat": 37.5139,
+  "lon": 42.4543,
+  "kat1900": 3,
+  "adlar": [
+   "Şırnak"
+  ],
+  "ilk": {
+   "t": "1900-01-01",
+   "gun": "19. yüzyıl (XIX. yüzyılın sonlarına doğru)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yuzyil",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/sirnak (ŞIRNAK)",
+   "tanik": "Şırnak ismi XIX. yüzyılın sonlarına doğru bir köy adı olarak geçmektedir (Cuinet, II, 612)"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1990-01-01",
+    "gun": "1990",
+    "k": "diger",
+    "b": "Şırnak’ın 1990 yılına kadar bağlı olduğu Siirt (TDV); 1990 = Siirt'e bağlılığın sonu",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/sirnak (ŞIRNAK)"
+   }
+  ],
+  "ic_not": "TANIK KURALI: yüzyıl hassasiyeti 'XIX. yüzyılın sonlarına doğru' => güvenli uç 1900 (ilk.t = zincir sonu 1900-01-01, bu yüzden zincir yok, atlas noktası yok). TDV: 'Önemli bir yol kavşağı olmasına rağmen tarihî kayıtlarda burada herhangi bir yerleşme olduğuna dair bilgilere rastlanmamakta' => kuruluş yazılmadı. 1990 olayı TDV'de 'bağlı olduğu' ifadesiyle (il olma tarihi/maddesi okunmadı): olay gün/yıl 1990 olarak YAKLAŞIK; il kuruluş 1990'a ait olduğu TDV cümlesinde dolaylı. Siirt tarihi (639 İyâz b. Ganm vb.) Şırnak'ın değil Siirt'in tarihidir. | TANIK: TDV tam gövdesinden birebir cümle (17 Kas 2026, gömülü tarayıcı). Tek kaynak (TDV)."
+ }
+]

@@ -1,0 +1,26 @@
+id	ad	lat_atlas_tahmin	lon_atlas_tahmin	bolge	sahip_devlet	kronoloji_yer_id	kanit
+yerlesimler_ek8.js:17	Arhangelsk	64.5401	40.5433	dogu-avrupa	novgorod	yok	
+yerlesimler_h2_rusya.js:22	Hlınov (Vyatka)	58.604	49.668	dogu-avrupa	novgorod	yok	
+yerlesimler_ukrayna_0916.js:3	Jitomir (Zhytomyr)	50.262	28.679	dogu-avrupa	sovyet-rusya	yok	
+yerlesimler_ek8.js:15	Kandalakşa	67.155	32.4117	dogu-avrupa	novgorod	yok	
+yerlesimler_h2_rusya.js:9	Petrozavodsk	61.789	34.351	dogu-avrupa	rusya	yok	
+yerlesimler_ek8.js:16	Ponoy	67.0833	41.15	dogu-avrupa	novgorod	yok	
+yerlesimler.js:408	Tula	54.193	37.617	dogu-avrupa	cernigov-knezligi	yok	
+yerlesimler_a78_avrupa.js:36	Ventspils (Windau)	57.3894	21.5606	dogu-avrupa	sovyet-rusya	yok	
+yerlesimler.js:410	Vologda	59.22	39.891	dogu-avrupa	novgorod	yok	
+yerlesimler_ukrayna_0916.js:6	Çerkasi (Cherkasy)	49.444	32.06	dogu-avrupa	sovyet-rusya	yok	
+yerlesimler_ek26.js:2	Hanak	41.23	42.855	kafkasya	gurcistan	yok	
+yerlesimler_ek26.js:1	Posof	41.51	42.72	kafkasya	gurcistan	yok	
+yerlesimler_ek26.js:0	Şavşat	41.245	42.36	kafkasya	gurcistan	yok	
+yerlesimler_ok106.js:14	Akyar (Sivastopol)	44.6138	33.5254	dogu-avrupa	rusya	var(1)	
+yerlesimler.js:225	Azak	47.113	39.423	dogu-avrupa	rusya	var(13)	
+yerlesimler_ortaasya2.js:1	Aşkabad	37.95	58.38	dogu-avrupa	sovyet-rusya	var(5)	
+yerlesimler.js:474	Bar (Podolya)	49.074	27.674	dogu-avrupa	lehistan	var(5)	
+yerlesimler_ok106.js:15	Berdyansk	46.7558	36.7885	dogu-avrupa	rusya	var(1)	
+yerlesimler_ukrayna_0916.js:5	Bila Tserkva (Belaya Tserkov)	49.795	30.131	dogu-avrupa	sovyet-rusya	var(2)	
+yerlesimler_ek17.js:3	Bryansk	53.2436	34.3639	dogu-avrupa	sovyet-rusya	var(6)	
+yerlesimler.js:378	Częstochowa	50.811	19.121	dogu-avrupa	polonya-erken	var(2)	
+yerlesimler.js:399	Gdansk	54.352	18.646	dogu-avrupa	polonya-erken	var(11)	
+yerlesimler.js:331	Harkov	49.994	36.231	dogu-avrupa	sovyet-rusya	var(9)	
+yerlesimler_ok106.js:10	Herson	46.6383	32.6158	dogu-avrupa	rusya	var(1)	
+yerlesimler_ek7.js:36	Klaipėda (Memel)	55.703	21.144	dogu-avrupa	livonya-tarikati	var(5)	

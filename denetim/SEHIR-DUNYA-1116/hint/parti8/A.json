@@ -1,0 +1,57 @@
+[
+ {
+  "id": "dambadeniya-in-p8",
+  "ad": "Dambadeniya",
+  "atlas_ad": "Dambadeniya",
+  "lat": 7.3675,
+  "lon": 80.1497,
+  "kat1900": 3,
+  "adlar": ["Dambadeniya", "Dambadeṇiya"],
+  "ilk": {
+   "t": "1255-01-01",
+   "gun": "1255",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Dambadeṇiya dynasty' maddesi, https://www.britannica.com/topic/Dambadeniya-dynasty, tarayicida tam metin okundu 17 Kasim 2026",
+   "tanik": "from 1255 to about 1330 whose seat was at Dambadeṇiya"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1280-01-01",
+    "gun": "yaklasik 1280",
+    "k": "diger",
+    "b": "Dambadeniya yaklasik 1280'den itibaren baskent olmaktan cikti (Britannica: 'from about 1280 Dambadeṇiya ceased as the capital')",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, 'Dambadeṇiya dynasty' maddesi, https://www.britannica.com/topic/Dambadeniya-dynasty, 17 Kasim 2026"
+   }
+  ],
+  "ic_not": "TEK KAYNAK (Britannica); bagimsiz ikinci akademik kaynak bulunamadi/okunmadi (Geiger, Culavamsa II archive.org tam metni okundu: Dambadeni/Jambuddoni'yi anar, 'Now Dambadeniya' dipnotu, ama yil vermez; Culavamsa yilsiz). 1255 Britannica'nin hanedanin 'tum Seylan'a hukmetme' baslangicidir; ayni maddede 1232'de 'guney Seylan'da resmen iktidara gelis' (sehir adi cumlede yok, yazilmadi) ve Parakramabahu II (1236-70) 'Dambadeniya kingdom' (Britannica, Parakramabahu II / Sri Lanka). Aralikli kaynakta guvenli uc alindi; sehrin gercek ilk tanigi 1232-1255 arasinda olabilir, ilk anilis TEK kaynaktan 1255 yazildi. Sahip: kaynak 'Dambadeniya krallik/hanedani' der; devletler.js'te uygun kimlik dogrulanmadigindan sahip bos birakildi, hanedan/krallik kimligi onerisi: Dambadeniya Krallığı (1232-~1340). Ayni koordinat/ad: GeoNames Dambadeniya PPL 7.3675,80.1497 (atlas noktasina 1.8 km)."
+ },
+ {
+  "id": "haldighati-in-p8",
+  "ad": "Haldighati",
+  "atlas_ad": "Haldighati",
+  "lat": 24.8922,
+  "lon": 73.6978,
+  "kat1900": 3,
+  "adlar": ["Haldighati", "Haldighat"],
+  "ilk": {
+   "t": "1576-01-01",
+   "gun": "1576",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Imperial Gazetteer of India (Meyer/Burn/Cotton, 1908-09), DSAL (University of Chicago), https://dsal.uchicago.edu/reference/gazetteer/, c. 24, s. 90 (Mewar/Udaipur ile ilgili madde, Rana Pratap anlatisi); DSAL arama sonucu OCR metni olarak 17 Kasim 2026'da tarayicida okundu (sayfa goruntusu okunmadi)",
+   "tanik": "he suffered a severe defeat at Haldighat in 1576"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [],
+  "ic_not": "TEK KAYNAK (Imperial Gazetteer; OCR; ayni yil c.7 s.19'da 'battle of Haldighat in I576' diye ikinci kez geciyor ama ayni eser, bagimsiz ikinci kaynak degil). Yer bir savas alani/gecit (kasaba degil): 1576 savas anilisi yerin O YIL VAR/ANILDIGINI gosterir, yerlesimin kurulus ya da sehir olgusu degildir; onceki turda (parti 7 BORC) kural 4 gerekcesiyle reddedilmisti, bu kayit yalniz 'ilk anilis' olarak, savas alani oldugu beyaniyla yazildi — karar KASA/Emre'ye birakilir. Sahip bos: Gazetteer cumlede devlet/sahip vermez (Mewar-Mughal catismasi bolgesel). Okunmadi: Badauni/Ain-i Akbari neşri, Sarkar, Ojha."
+ }
+]

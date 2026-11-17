@@ -1,0 +1,621 @@
+// ŞEHİR TARİHÇESİ — YAKIN_DOGU_D · üretici: arac/sehir_tarihce.py · şema: VERI-YAPISI.md
+// Motor/denetle/site OKUMAZ — araştırma birikimi. Elle düzenleme: JSON'u düzelt, yeniden üret.
+window.SEHIR_TARIHCE_YAKIN_DOGU_D = [
+ {
+  "id": "alanya-tr",
+  "ad": "Alanya",
+  "atlas_ad": "Alanya",
+  "lat": 36.544,
+  "lon": 32.0,
+  "kat1900": 3,
+  "adlar": [
+   "Korakesion/Coracesium (Grekçe/Latince, antik; Strabon, TDV)",
+   "Kalonoros (Bizans adı; TDV)",
+   "Alâiyye/Alâiye (Arapça-Türkçe; 1221'den, I. Alâeddin Keykubad adına; TDV)",
+   "Alanya (Türkçe)"
+  ],
+  "ilk": {
+   "t": "-0137-01-01",
+   "gun": "MÖ 138 (güvenli uç; Tryphon isyanı MÖ 145-138)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "belirsiz",
+   "kaynak": "Strabon, Geographika 14.5.2 (Perseus, Jones çevirisi: https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0198:book=14:chapter=5:section=2; 16 Kas 2026'da okundu); yıl aralığı Strabon'da yok (genel kronoloji, ikinci kaynakla teyit edilmedi)",
+   "tanik": "a stronghold, Coracesium, situated on an abrupt rock (Diodotos Tryphon'un üssü)"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "-0137-01-01",
+    "t": "1221-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV İslâm Ansiklopedisi, ALANYA maddesi (islamansiklopedisi.org.tr/alanya; 16 Kas 2026'da okundu) (bu aralık için sahip tarihlenmemiş)",
+    "ic_not": "Strabon'daki Tryphon üssünden 1221 Selçuklu fethine ~1350 yıl: bu aralık için TDV tarihli sahip vermiyor (Roma/Bizans/Kalonoros anılır, tarihsiz). TDV fetih bağlamında 'Kıbrıs Krallığı' ifadesini kullanır; künye ve tarih verilmediği için sahip olarak YAZILMADI. Sahip zinciri bu araştırmada doldurulamadı."
+   },
+   {
+    "f": "1221-01-01",
+    "t": "1222-01-01",
+    "d": "selcuklu",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, ALANYA maddesi (islamansiklopedisi.org.tr/alanya; 16 Kas 2026'da okundu): 1221'de I. Alâeddin Keykubad",
+    "ic_not": "Anadolu Selçukluları (künye 1075-1308); atlas sahibiyle aynı."
+   }
+  ],
+  "olay": [
+   {
+    "t": "-0137-01-01",
+    "gun": "MÖ 138 (belirsiz)",
+    "k": "diger",
+    "b": "Diodotos Tryphon Coracesium kalesini Suriye krallarına karşı üs yaptı",
+    "kaynak": "Strabon, Geographika 14.5.2 (Perseus, Jones çevirisi: https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0198:book=14:chapter=5:section=2; 16 Kas 2026'da okundu)"
+   },
+   {
+    "t": "1221-01-01",
+    "gun": "1221",
+    "k": "fetih",
+    "b": "I. Alâeddin Keykubad şehri aldı; adı Alâiye oldu",
+    "kaynak": "TDV İslâm Ansiklopedisi, ALANYA maddesi (islamansiklopedisi.org.tr/alanya; 16 Kas 2026'da okundu)"
+   }
+  ],
+  "ic_not": "Koord: koord: GeoNames 324190 (36°32′37.50″ N, 31°59′59.35″ E), atlas tahmininden 0.7 km. Bizans adı Kalonoros ve 1221 TDV'den. Sonraki olaylar (1293 Karamanoğlu, 1471 Osmanlı...) atlas zinciri başladığı için bu dosyaya alınmadı. Üst basamaklar: İSAM/TTK/DergiPark/YÖK taraması BU PARTİDE YAPILMADI (yalnız TDV maddesi + belirtilen Perseus metni okundu); çok kaynaklı teyit yok."
+ },
+ {
+  "id": "bodrum-tr",
+  "ad": "Bodrum",
+  "atlas_ad": "Bodrum",
+  "lat": 37.038,
+  "lon": 27.429,
+  "kat1900": 3,
+  "adlar": [
+   "Halikarnassos (Grekçe, antik; Herodotos, TDV)",
+   "Bodrum (Türkçe; TDV madde başlığı, adın kökeni TDV'de verilmedi)"
+  ],
+  "ilk": {
+   "t": "-0479-01-01",
+   "gun": "MÖ 480",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Herodotos, Historiai 7.99 (Godley çevirisi, Perseus: https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0126:book=7:chapter=99; metin arama sonucunda görülen alıntıyla doğrulandı, sayfa gövdesi okunamadı); yıl: Kserkses donanması (genel kronoloji, Herodotos'ta yıl yok)",
+   "tanik": "She was the leader of the men of Halicarnassus and Cos and Nisyrus and Calydnos, and provided five ships"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "-0479-01-01",
+    "t": "-0390-01-01",
+    "d": "ahamenis",
+    "kesinlik": "belirsiz",
+    "kaynak": "Herodotos, Historiai 7.99 (Godley çevirisi, Perseus: https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0126:book=7:chapter=99; metin arama sonucunda görülen alıntıyla doğrulandı, sayfa gövdesi okunamadı)",
+    "ic_not": "Artemisia, Kserkses donanmasına gemi veren Halikarnassos hükümdarı: Pers tâbiliği Herodotos'tan çıkarılan sonuçtur; bitiş -0390 atlas başlangıcıdır (Hekatomnos satraplığı bu araştırmada okunmadı)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "-0479-01-01",
+    "gun": "MÖ 480",
+    "k": "diger",
+    "b": "Halikarnassos hükümdarı Artemisia Kserkses'in donanmasında beş gemiyle yer aldı",
+    "kaynak": "Herodotos, Historiai 7.99 (Godley çevirisi, Perseus: https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0126:book=7:chapter=99; metin arama sonucunda görülen alıntıyla doğrulandı, sayfa gövdesi okunamadı)"
+   }
+  ],
+  "dikis_beyan": "Atlas -0390-01-01'de 'karya-hekatomnid' ile başlıyor; Pers (ahamenis) → Hekatomnid geçişine okunmuş bir tanık yok (TDV Bodrum Karya/Hekatomnos'tan söz etmez). Yer tutucu olay yazılmadı.",
+  "ic_not": "TDV: kent MÖ VII. yüzyıldan itibaren gelişmiş, ad yerli Anadolu dillerine ait (ilk anılış tarihi verilmez); bu yüzden yazılı en erken tanık olarak okunabilen Herodotos alındı, daha eski tanık aranmadı. Sonraki dönem (Rodos Şövalyeleri 1415, Osmanlı 1522 vb. TDV) atlas zinciri başladığı için alınmadı. Koord: koord: GeoNames 320995 (37°02′17.99″ N, 27°25′45.01″ E), atlas tahmininden 0.5 km. Üst basamaklar: İSAM/TTK/DergiPark/YÖK taraması BU PARTİDE YAPILMADI (yalnız TDV maddesi + belirtilen Perseus metni okundu); çok kaynaklı teyit yok."
+ },
+ {
+  "id": "cizre-tr",
+  "ad": "Cizre",
+  "atlas_ad": "Cizre",
+  "lat": 37.33,
+  "lon": 42.185,
+  "kat1900": 3,
+  "adlar": [
+   "Bâzabdâ (eski çağ kalesi/Dicle geçidi; TDV)",
+   "Cezîre (Arapça, ilk ad; TDV)",
+   "Cezîre-i İbn Ömer (Arapça; TDV)",
+   "Cizre (Türkçe, XVI. yüzyıldan; TDV)"
+  ],
+  "ilk": {
+   "t": "0864-02-13",
+   "gun": "250 (864)",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, CIZRE maddesi (islamansiklopedisi.org.tr/cizre; 16 Kas 2026'da okundu); hicrî 250 ∩ 864 kesişiminin ilk günü, tablo takvimi, Jülyen",
+   "tanik": "Ancak Cizre’nin kurulduğu tarihe yakın dönemde kaleme alınan kaynaklar, şehrin 250’den (864) önce Hasan b."
+  },
+  "kur": {
+   "t": "0864-02-13",
+   "gun": "250 (864)",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, CIZRE maddesi (islamansiklopedisi.org.tr/cizre; 16 Kas 2026'da okundu) (kaynaklara göre; TDV bu görüşü tercih eder)",
+   "tanik": "[TDV metninden özet, aynen alıntı değil] Hasan b. Ömer et-Tağlibî kurucu"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0864-02-13",
+    "t": "0906-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV İslâm Ansiklopedisi, CIZRE maddesi (islamansiklopedisi.org.tr/cizre; 16 Kas 2026'da okundu)",
+    "ic_not": "Kurucu Tağlibî Hasan b. Ömer; TDV bu aralık için üst sahip (halifelik vb.) vermiyor."
+   },
+   {
+    "f": "0906-01-01",
+    "t": "0979-01-01",
+    "d": "hamdani-musul",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, CIZRE maddesi (islamansiklopedisi.org.tr/cizre; 16 Kas 2026'da okundu): 293-368 (906-979) Hamdânîler",
+    "ic_not": "hicrî 293 ∩ 906 ve 368 ∩ 979 kesişim ilk günü (tablo takvimi); iki uç da yıl hassasiyetli."
+   },
+   {
+    "f": "0979-01-01",
+    "t": "0990-03-31",
+    "d": "buveyhi",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, CIZRE maddesi (islamansiklopedisi.org.tr/cizre; 16 Kas 2026'da okundu): 368 (979) Büveyhî Adudüddevle hâkim oldu",
+    "ic_not": "Bitiş: hicrî 380 ∩ 990 ilk günü."
+   },
+   {
+    "f": "0990-03-31",
+    "t": "1085-01-01",
+    "d": "mervani",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, CIZRE maddesi (islamansiklopedisi.org.tr/cizre; 16 Kas 2026'da okundu): 380 (990) Diyarbekir ve Cizre'de Mervânî Emirliği kuruldu",
+    "ic_not": "TDV: bitiş 1085; bazı kaynaklara göre 1087 ve 1094'e kadar — 1085 alındı (TDV'nin ana tarihi)."
+   },
+   {
+    "f": "1085-01-01",
+    "t": "1108-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV İslâm Ansiklopedisi, CIZRE maddesi (islamansiklopedisi.org.tr/cizre; 16 Kas 2026'da okundu)",
+    "ic_not": "TDV Mervânî sonundan (1085) 1108'e kadar sahibi vermiyor."
+   },
+   {
+    "f": "1108-01-01",
+    "t": "1127-01-17",
+    "d": "buyuk-selcuklu",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, CIZRE maddesi (islamansiklopedisi.org.tr/cizre; 16 Kas 2026'da okundu): 1108'de Sultan Muhammed Tapar şehri ele geçirdi",
+    "ic_not": "Bitiş atlas başlangıcıdır (1127-01-17)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0864-02-13",
+    "gun": "250 (864)",
+    "k": "kurulus",
+    "b": "Hasan b. Ömer et-Tağlibî Cezîre'yi kurdu",
+    "kaynak": "TDV İslâm Ansiklopedisi, CIZRE maddesi (islamansiklopedisi.org.tr/cizre; 16 Kas 2026'da okundu)"
+   },
+   {
+    "t": "0906-01-01",
+    "gun": "293 (906)",
+    "k": "diger",
+    "b": "Hamdânî hâkimiyeti başladı (TDV: 293-368)",
+    "kaynak": "TDV İslâm Ansiklopedisi, CIZRE maddesi (islamansiklopedisi.org.tr/cizre; 16 Kas 2026'da okundu)"
+   },
+   {
+    "t": "0979-01-01",
+    "gun": "368 (979)",
+    "k": "fetih",
+    "b": "Büveyhî Adudüddevle bölgeye hâkim oldu",
+    "kaynak": "TDV İslâm Ansiklopedisi, CIZRE maddesi (islamansiklopedisi.org.tr/cizre; 16 Kas 2026'da okundu)"
+   },
+   {
+    "t": "0990-03-31",
+    "gun": "380 (990)",
+    "k": "kurulus",
+    "b": "Diyarbekir ve Cizre'de Mervânî Emirliği kuruldu",
+    "kaynak": "TDV İslâm Ansiklopedisi, CIZRE maddesi (islamansiklopedisi.org.tr/cizre; 16 Kas 2026'da okundu)"
+   },
+   {
+    "t": "1085-01-01",
+    "gun": "1085",
+    "k": "kayip",
+    "b": "Mervânî hâkimiyeti sona erdi (bazı kaynaklara göre 1087/1094)",
+    "kaynak": "TDV İslâm Ansiklopedisi, CIZRE maddesi (islamansiklopedisi.org.tr/cizre; 16 Kas 2026'da okundu)"
+   },
+   {
+    "t": "1108-01-01",
+    "gun": "1108",
+    "k": "fetih",
+    "b": "Sultan Muhammed Tapar şehri ele geçirdi",
+    "kaynak": "TDV İslâm Ansiklopedisi, CIZRE maddesi (islamansiklopedisi.org.tr/cizre; 16 Kas 2026'da okundu)"
+   }
+  ],
+  "dikis_beyan": "Atlas 1127-01-17'de 'zengi-musul' ile başlıyor; TDV Cizre'nin Zengî'ye geçişine tarih vermiyor (yalnız 1146 İmâdüddin Zengî'nin ölümü ve 1158 Mevdûd). Yer tutucu olay yazılmadı.",
+  "ic_not": "TDV: 17/638 İyâz b. Ganm bölgeyi fethetti (şehir kurulmadan önce, bölge düzeyi) — başlangıç sayılmadı. Sonraki dönem (1158 Mevdûd, Eyyûbî, Timur 1394, Osmanlı...) atlas zinciri başladığı için alınmadı. Koord: koord: GeoNames 318253 (37°19′48.86″ N, 42°11′05.42″ E), atlas tahmininden 0.4 km. Üst basamaklar: İSAM/TTK/DergiPark/YÖK taraması BU PARTİDE YAPILMADI (yalnız TDV maddesi + belirtilen Perseus metni okundu); çok kaynaklı teyit yok. | TANIK: TDV tam gövdesinden birebir cümle (16 Kas 2026, tarayıcı; yıl+şehir aynı cümlede ya da maddenin konusu şehre açık atıf)."
+ },
+ {
+  "id": "karaman-tr",
+  "ad": "Karaman",
+  "atlas_ad": "Karaman",
+  "lat": 37.181,
+  "lon": 33.215,
+  "kat1900": 3,
+  "adlar": [
+   "Laranda (Grekçe/Latince, antik; Strabon, TDV)",
+   "Lârende (Arapça-Türkçe, Karamanoğulları/Osmanlı; TDV)",
+   "Karaman (Türkçe, Karamanoğulları adından)"
+  ],
+  "ilk": {
+   "t": "0023-01-01",
+   "gun": "~MS 23 (Strabon'un yazım sonu; güvenli uç)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "belirsiz",
+   "kaynak": "Strabon, Geographika 12.6.3 (Perseus, Jones çevirisi: https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0198:book=12:chapter=6:section=3; 16 Kas 2026'da okundu); yazım tarihi (MÖ ~7 - MS ~23) Strabon metninden değil genel kronolojiden",
+   "tanik": "He also possessed Laranda"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0023-01-01",
+    "t": "0395-01-17",
+    "d": "roma-imp",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV İslâm Ansiklopedisi, KARAMAN maddesi (islamansiklopedisi.org.tr/karaman; 16 Kas 2026'da okundu): İskender ve halefleri sonrası Roma topraklarına katıldı (tarihsiz)",
+    "ic_not": "Roma'ya katılma tarihi TDV'de yok; Strabon çağında Roma etki alanı varsayımı beyanlıdır."
+   },
+   {
+    "f": "0395-01-17",
+    "t": "1000-01-01",
+    "d": "bizans",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV İslâm Ansiklopedisi, KARAMAN maddesi (islamansiklopedisi.org.tr/karaman; 16 Kas 2026'da okundu): 395'ten itibaren Bizans'a bağlandı",
+    "ic_not": "Bitiş 1000-01-01 atlas başlangıcıdır; TDV 395 ile 1165 Selçuklu arasında (Arap akınları vb.) sahip tarihi vermez — Bizans sürekliliği KANITLANMAMIŞTIR."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0395-01-17",
+    "gun": "395",
+    "k": "diger",
+    "b": "künye geçişi: Roma İmparatorluğu bölündü, şehir Doğu Roma'ya (Bizans) kaldı",
+    "kaynak": "TDV İslâm Ansiklopedisi, KARAMAN maddesi (islamansiklopedisi.org.tr/karaman; 16 Kas 2026'da okundu)"
+   }
+  ],
+  "dikis_beyan": "Atlas 1000-01-01'de __BOSLUK__ ile başlıyor (kaynaksız yer tutucu); Bizans sürekliliği 1000'e kadar kanıtlı değil. Yer tutucu olay yazılmadı.",
+  "ic_not": "TDV: Hititler, Frigyalılar (MÖ VII.), Lidyalılar (MÖ VI.), Persler'in hâkimiyeti sayılır ama Laranda adıyla anılış tarihi yok; Strabon'dan okunan en erken yazılı tanık alındı (Cicero vb. aranmadı). Sonraki: 1165 Selçuklu, 1216, 1256 Karamanoğulları, 1471 Osmanlı (TDV) atlas sonrasıdır. Koord: koord: GeoNames 309527 (37°10′52.00″ N, 33°12′54.00″ E), atlas tahmininden 0.0 km. Üst basamaklar: İSAM/TTK/DergiPark/YÖK taraması BU PARTİDE YAPILMADI (yalnız TDV maddesi + belirtilen Perseus metni okundu); çok kaynaklı teyit yok."
+ },
+ {
+  "id": "katif-sa",
+  "ad": "Katîf",
+  "atlas_ad": "Katîf",
+  "lat": 26.565,
+  "lon": 50.009,
+  "kat1900": 3,
+  "adlar": [
+   "el-Katîf (Arapça)"
+  ],
+  "ilk": {
+   "t": "0899-01-17",
+   "gun": "286 (899)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, KATÎF maddesi (islamansiklopedisi.org.tr/katif; 16 Kas 2026'da okundu); hicrî 286 ∩ 899 ilk günü, tablo takvimi, Jülyen",
+   "tanik": "Katîf dahil bütün bölge, iki yüzyıl sonra kanlı savaşların ardından birkaç defa el değiştirerek Ebû Saîd el-Cennâbî idaresindeki Karmatîler tarafından zaptedildi (286/899)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0899-01-17",
+    "t": "1000-01-01",
+    "d": "karmati",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV İslâm Ansiklopedisi, KATÎF maddesi (islamansiklopedisi.org.tr/katif; 16 Kas 2026'da okundu): 286 (899) Karmatî egemenliği",
+    "ic_not": "Bölge (Bahreyn/Hecer-Katîf) Karmatîler'e geçti; Katîf'in kendisi için ayrı tanık TDV özetinde yok. Bitiş 1000-01-01 atlas başlangıcıdır; Karmatî egemenliğinin 1000'e kadar sürdüğü TDV'de belirtilmez."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0899-01-17",
+    "gun": "286 (899)",
+    "k": "fetih",
+    "b": "Karmatîler Ebû Saîd el-Cennâbî önderliğinde Bahreyn bölgesini ele geçirdi",
+    "kaynak": "TDV İslâm Ansiklopedisi, KATÎF maddesi (islamansiklopedisi.org.tr/katif; 16 Kas 2026'da okundu)"
+   }
+  ],
+  "dikis_beyan": "Atlas 1000-01-01'de __BOSLUK__ ile başlıyor; Karmatî → sonraki sahip geçişine tarihli tanık yok (TDV'de Karmatî sonrası Ukaylî tarihi yok, 1330/731 Hürmüz alışı var). Yer tutucu olay yazılmadı.",
+  "ic_not": "TDV Katîf'in ilk anılış tarihini vermiyor (İslâm öncesi Abdülkays yurdu, Alâ b. Hadramî'nin gönderilişi tarihsiz); en erken TARİHLİ bağlantı Karmatî fethidir (bölge düzeyi, şehir adı geçmez olabilir) — ilk anılış olarak zayıf. Sonrası (1330 Hürmüz, 1534 Osmanlı, 1792/1830 Suûdî) atlas sonrası. Koord: koord: GeoNames 108927 (26°33′55.51″ N, 50°00′32.04″ E), atlas tahmininden 2.3 km. Üst basamaklar: İSAM/TTK/DergiPark/YÖK taraması BU PARTİDE YAPILMADI (yalnız TDV maddesi + belirtilen Perseus metni okundu); çok kaynaklı teyit yok. | TANIK: TDV tam gövdesinden birebir cümle (16 Kas 2026, tarayıcı; yıl+şehir aynı cümlede ya da maddenin konusu şehre açık atıf)."
+ },
+ {
+  "id": "kilis-tr",
+  "ad": "Kilis",
+  "atlas_ad": "Kilis",
+  "lat": 36.716,
+  "lon": 37.115,
+  "kat1900": 3,
+  "adlar": [
+   "Kilizi (Asur çivi yazılı belgesi; bugünkü Kilis olabilir, KESİN DEĞİL — TDV)",
+   "Ciliza sive Urmagiganti (Roma dönemi; TDV)",
+   "Kilis (Türkçe/Arapça)"
+  ],
+  "ilk": {
+   "t": "0985-07-01",
+   "gun": "Safer 375 (Temmuz 985)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "ay",
+   "kaynak": "TDV İslâm Ansiklopedisi, KILIS maddesi (islamansiklopedisi.org.tr/kilis; 16 Kas 2026'da okundu); Safer 375 (tablo takvimi 985-06-23..07-22) ∩ TDV'nin 'Temmuz 985'i → ayın ilk günü, Jülyen",
+   "tanik": "375 Saferinde (Temmuz 985) Bardas Phokas Kilis’i alıp Bizans topraklarına kattı"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0985-07-01",
+    "t": "1000-01-01",
+    "d": "bizans",
+    "kesinlik": "ay",
+    "kaynak": "TDV İslâm Ansiklopedisi, KILIS maddesi (islamansiklopedisi.org.tr/kilis; 16 Kas 2026'da okundu): Safer 375'te Bardas Phokas",
+    "ic_not": "Bitiş 1000-01-01 atlas başlangıcıdır; Bizans'ın 1000'e kadar tuttuğu TDV'de belirtilmez (bitiş tarihsiz)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0985-07-01",
+    "gun": "Safer 375 (Temmuz 985)",
+    "k": "fetih",
+    "b": "Bardas Phokas Kilis'i aldı, Bizans topraklarına kattı",
+    "kaynak": "TDV İslâm Ansiklopedisi, KILIS maddesi (islamansiklopedisi.org.tr/kilis; 16 Kas 2026'da okundu)"
+   }
+  ],
+  "dikis_beyan": "Atlas 1000-01-01'de __BOSLUK__ ile başlıyor; Bizans'ın 985-1000 arası sürekliliği ve sonrası TDV'de tarihsiz (1124 Belek Gazi Artuklu, Eyyûbî/Memlük tarihsiz). Yer tutucu olay yazılmadı.",
+  "ic_not": "Kilizi (MÖ ~1100, I. Tiglat-pileser) eşitlemesi TDV'ce kesin değil → başlangıç SAYILMADI (VERİ-YAPISI: yeri kesin olmayan eşitleme). Roma yönetimi MÖ 64 (bölge) ve Ebû Ubeyde 15/636 fethi (bölge) şehir düzeyi tanık değil. Daha eski tanık aranmadı. Koord: koord: GeoNames 307864 (36°42′58.00″ N, 37°06′54.00″ E), atlas tahmininden 0.0 km. Üst basamaklar: İSAM/TTK/DergiPark/YÖK taraması BU PARTİDE YAPILMADI (yalnız TDV maddesi + belirtilen Perseus metni okundu); çok kaynaklı teyit yok. | TANIK: TDV tam gövdesinden birebir cümle (16 Kas 2026, tarayıcı; yıl+şehir aynı cümlede ya da maddenin konusu şehre açık atıf)."
+ },
+ {
+  "id": "nusaybin-tr",
+  "ad": "Nusaybin",
+  "atlas_ad": "Nusaybin",
+  "lat": 37.07,
+  "lon": 41.215,
+  "kat1900": 3,
+  "adlar": [
+   "Nisibis (Grekçe/Latince, antik)",
+   "Septimia Nesibi Colonia Metropolis (195'ten, Septimius Severus; TDV)",
+   "Nusaybin (Arapça-Türkçe)"
+  ],
+  "ilk": {
+   "t": "-0888-01-01",
+   "gun": "MÖ 889 (güvenli uç; II. Adad-nirari 912-889)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "belirsiz",
+   "kaynak": "TDV İslâm Ansiklopedisi, NUSAYBIN maddesi (islamansiklopedisi.org.tr/nusaybin; 16 Kas 2026'da okundu)",
+   "tanik": "912-889) rastlanan Nusaybin, Basra körfezi üzerinden gelen yolların hiçbir doğal engelle karşılaşmadan ulaştığı, buradan itibaren ikiye ayrılıp Mezopotamya’yı Batı Anadolu’ya, Suriye limanlarına ve Diyarbakır havzasıyla Anadolu’nun başka noktalarına bağlayan bir mevkide yer alıyordu."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "-0888-01-01",
+    "t": "-0611-01-01",
+    "d": "yeni-asur",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV İslâm Ansiklopedisi, NUSAYBIN maddesi (islamansiklopedisi.org.tr/nusaybin; 16 Kas 2026'da okundu): Asur eyalet merkezi (MÖ 852-715) ve Asur dönemi",
+    "ic_not": "MÖ 612 TDV'de 'Asur savaşları sonrası Med, Babil, Pers' diye geçer; bitiş MÖ 612."
+   },
+   {
+    "f": "-0611-01-01",
+    "t": "0195-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV İslâm Ansiklopedisi, NUSAYBIN maddesi (islamansiklopedisi.org.tr/nusaybin; 16 Kas 2026'da okundu)",
+    "ic_not": "TDV: Med/Babil/Pers (MÖ 612'den), Makedonlar (MÖ 331), Selevkos kolonisi (IV. Antiokhos sikkeleri MÖ 175-164), Part/Ermeni/Roma arasında el değiştirme — ara tarihler yok; zincir doldurulamadı."
+   },
+   {
+    "f": "0195-01-01",
+    "t": "0363-01-01",
+    "d": "roma-imp",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, NUSAYBIN maddesi (islamansiklopedisi.org.tr/nusaybin; 16 Kas 2026'da okundu): 195'te Septimius Severus kesin olarak Roma'ya kattı",
+    "ic_not": "Bitiş: Sasanî ele geçirişi 363 (TDV)."
+   },
+   {
+    "f": "0363-01-01",
+    "t": "1120-04-02",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV İslâm Ansiklopedisi, NUSAYBIN maddesi (islamansiklopedisi.org.tr/nusaybin; 16 Kas 2026'da okundu)",
+    "ic_not": "363 Sasanî ele geçirişi; İslâm fethi (18/639 ya da 19/640); 942 Bizans; Hamdânî/Mervânî/Ukaylî; Tuğrul 1043 — TDV bu aralıkta sahip geçişlerini tarihlemiyor, Sasanî/Bizans/halifelik sürekliliği YAZILMADI."
+   },
+   {
+    "f": "1120-04-02",
+    "t": "1183-06-11",
+    "d": "artuklu",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV İslâm Ansiklopedisi, NUSAYBIN maddesi (islamansiklopedisi.org.tr/nusaybin; 16 Kas 2026'da okundu): 514 (1120) Necmeddin İlgazi hâkimiyeti ele geçirdi",
+    "ic_not": "TDV Artuklu bitişini ve Zengî'ye geçişi tarihlemez; Artuklu'nun 1183'e kadar tuttuğu İDDİA EDİLMEZ — zincir kuralı gereği atlas başlangıcına uzatıldı, gerçek sahip Zengî olabilir."
+   }
+  ],
+  "olay": [
+   {
+    "t": "-0611-01-01",
+    "gun": "MÖ 612",
+    "k": "kayip",
+    "b": "Asur savaşları sonrası şehir Med/Babil/Pers egemenliğine geçti",
+    "kaynak": "TDV İslâm Ansiklopedisi, NUSAYBIN maddesi (islamansiklopedisi.org.tr/nusaybin; 16 Kas 2026'da okundu)"
+   },
+   {
+    "t": "-0330-01-01",
+    "gun": "MÖ 331",
+    "k": "fetih",
+    "b": "Makedonlar şehri aldı (İskender Pers hâkimiyetini bitirdi); Selevkos kolonisi",
+    "kaynak": "TDV İslâm Ansiklopedisi, NUSAYBIN maddesi (islamansiklopedisi.org.tr/nusaybin; 16 Kas 2026'da okundu)"
+   },
+   {
+    "t": "0195-01-01",
+    "gun": "195",
+    "k": "fetih",
+    "b": "Septimius Severus kesin olarak Roma'ya kattı; sınır eyaleti başkenti",
+    "kaynak": "TDV İslâm Ansiklopedisi, NUSAYBIN maddesi (islamansiklopedisi.org.tr/nusaybin; 16 Kas 2026'da okundu)"
+   },
+   {
+    "t": "0363-01-01",
+    "gun": "363",
+    "k": "fetih",
+    "b": "Sasanîler şehri ele geçirdi",
+    "kaynak": "TDV İslâm Ansiklopedisi, NUSAYBIN maddesi (islamansiklopedisi.org.tr/nusaybin; 16 Kas 2026'da okundu)"
+   },
+   {
+    "t": "0639-01-01",
+    "gun": "18 (639) ya da 19 (640)",
+    "k": "fetih",
+    "b": "İyâz b. Ganm şehri direnişsiz fethetti",
+    "kaynak": "TDV İslâm Ansiklopedisi, NUSAYBIN maddesi (islamansiklopedisi.org.tr/nusaybin; 16 Kas 2026'da okundu)"
+   },
+   {
+    "t": "1120-04-02",
+    "gun": "514 (1120)",
+    "k": "fetih",
+    "b": "Artuklu Necmeddin İlgazi şehri ele geçirdi",
+    "kaynak": "TDV İslâm Ansiklopedisi, NUSAYBIN maddesi (islamansiklopedisi.org.tr/nusaybin; 16 Kas 2026'da okundu); hicrî 514 ∩ 1120 ilk günü, tablo takvimi"
+   }
+  ],
+  "dikis_beyan": "Atlas 1183-06-11'de 'zengi-musul' ile başlıyor; TDV Artuklu→Zengî geçişine ve Selâhaddîn'e tarih vermiyor. Yer tutucu olay yazılmadı.",
+  "ic_not": "Sasanî 363 → 639 sürekliliği YAZILMADI (Herakleios dönemi Bizans'ın 628 sonrası dönüşü TDV'de yok). İlk anılış aralığının (912-889) güvenli ucu alındı. Koord: koord: GeoNames 303750 (37°04′13.01″ N, 41°12′52.74″ E), atlas tahmininden 0.8 km. Üst basamaklar: İSAM/TTK/DergiPark/YÖK taraması BU PARTİDE YAPILMADI (yalnız TDV maddesi + belirtilen Perseus metni okundu); çok kaynaklı teyit yok. | TANIK: TDV tam gövdesinden birebir cümle/parça (17 Kas 2026, tarayıcı; yıl + şehir aynı cümlede ya da maddenin konusu şehre açık atıf)."
+ },
+ {
+  "id": "sade-ye",
+  "ad": "Sa'de",
+  "atlas_ad": "Sa'de",
+  "lat": 16.94,
+  "lon": 43.764,
+  "kat1900": 3,
+  "adlar": [
+   "Sa'de/Sa'da (Arapça)"
+  ],
+  "ilk": {
+   "t": "0897-02-08",
+   "gun": "284 (897)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "belirsiz",
+   "kaynak": "TDV İslâm Ansiklopedisi, YEMEN maddesi (islamansiklopedisi.org.tr/yemen; 16 Kas 2026'da okundu) (Zeydîlik/Sa'de bölümü); hicrî 284 ∩ 897 ilk günü, tablo takvimi, Jülyen",
+   "tanik": "[TDV metninden özet, aynen alıntı değil] Hâdî ilâ'l-Hak Yahyâ b. Hüseyin Zeydî imâmetini kurmak üzere Sa'de'ye geldi (284/897)"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0897-02-08",
+    "t": "1000-01-01",
+    "d": "yemen-zeydi",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV İslâm Ansiklopedisi, YEMEN maddesi (islamansiklopedisi.org.tr/yemen; 16 Kas 2026'da okundu)",
+    "ic_not": "Zeydî imâmetinin Sa'de merkezli kuruluşu 897; 1000'e kadar kesintisiz Zeydî hâkimiyeti TDV özetinde açıkça yazılı değil (San'a 901'de alınıp geri verilir) — atlas sahibiyle aynı künyeye bağlandı, beyanlı yaklaşıklık."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0897-02-08",
+    "gun": "284 (897)",
+    "k": "kurulus",
+    "b": "Hâdî ilâ'l-Hak Yahyâ b. Hüseyin Sa'de'de Zeydî imâmetini kurdu",
+    "kaynak": "TDV İslâm Ansiklopedisi, YEMEN maddesi (islamansiklopedisi.org.tr/yemen; 16 Kas 2026'da okundu)"
+   }
+  ],
+  "ic_not": "'Yemen' maddesi (islamansiklopedisi.org.tr/yemen) okundu; ayrı 'Sa'de' maddesi bulunamadı (arama sonucu boş). 897 en erken tarihli tanık: şehrin daha eski anılışı (Hemdânî, Sıfatü Cezîreti'l-Arab) aranmadı. Sonrası (1027 Hâşid, Resûlî 1229...) atlas sonrası. Koord: koord: GeoNames 71334 (16°56′24.76″ N, 43°45′50.15″ E), atlas tahmininden 0.0 km. Üst basamaklar: İSAM/TTK/DergiPark/YÖK taraması BU PARTİDE YAPILMADI (yalnız TDV maddesi + belirtilen Perseus metni okundu); çok kaynaklı teyit yok. | TANIK KURALI (16 Kas 2026, EMRELİC): tam gövdede yıl + şehir adı AYNI cümlede birebir bir cümle bulunamadı (TDV tam gövde tarayıcıyla tarandı); `ilk` güvenli uç/türev yıldır, kesinlik belirsiz sayılır."
+ },
+ {
+  "id": "yenbu-sa",
+  "ad": "Yenbu",
+  "atlas_ad": "Yenbu",
+  "lat": 24.09,
+  "lon": 38.062,
+  "kat1900": 3,
+  "adlar": [
+   "Nera/Negra (TDV: Yunan kaynaklarında bu adla anıldığı söylenir; tarihsiz)",
+   "Yenbu' (Arapça)"
+  ],
+  "ilk": {
+   "t": "0623-07-05",
+   "gun": "2 (623)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, YENBU' maddesi (islamansiklopedisi.org.tr/yenbu; 16 Kas 2026'da okundu); hicrî 2 ∩ 623 ilk günü, tablo takvimi, Jülyen",
+   "tanik": "Bu çerçevede yapılan Buvât ve Uşeyre gazveleri (2/623) ve Sîfülbahr Seriyyesi ile (8/629) Yenbu‘ ve çevresindeki Arap kabileleriyle ilişki kurularak onların güvenliklerinin sağlanmasına katkıda bulunulmuş"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0623-07-05",
+    "t": "1000-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV İslâm Ansiklopedisi, YENBU' maddesi (islamansiklopedisi.org.tr/yenbu; 16 Kas 2026'da okundu)",
+    "ic_not": "TDV: Hz. Peygamber, Hz. Ömer, Hz. Ali (arazi temlikleri), Emevî/Abbâsî karşıtı Rudvâ sığınağı, Abbâsî-Fâtımî çekişmesi — ardışık sahip tarihleri verilmiyor; zincir doldurulamadı."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0623-07-05",
+    "gun": "2 (623)",
+    "k": "diger",
+    "b": "Buvât ve Uşeyre seferleri (Yenbu' çevresi); Cüheyne ve Müdlic kabileleri Müslümanlarla",
+    "kaynak": "TDV İslâm Ansiklopedisi, YENBU' maddesi (islamansiklopedisi.org.tr/yenbu; 16 Kas 2026'da okundu)"
+   }
+  ],
+  "dikis_beyan": "Atlas 1000-01-01'de __BOSLUK__ ile başlıyor; bu dosyada da 1000'e kadar sahip bilinmiyor (beyanlı boşluk), dikiş çelişkisi yok.",
+  "ic_not": "Sefer yerinin Yenbu' şehriyle aynı nokta olup olmadığı TDV özetinde 'çevre' düzeyindedir; ilk anılış zayıf. Sonrası (1182 Renaud, 1200 Katâde...) atlas sonrası. Koord: koord: GeoNames 100425 (24°05′22.34″ N, 38°03′42.48″ E), atlas tahmininden 0.2 km. Üst basamaklar: İSAM/TTK/DergiPark/YÖK taraması BU PARTİDE YAPILMADI (yalnız TDV maddesi + belirtilen Perseus metni okundu); çok kaynaklı teyit yok. | TANIK: TDV tam gövdesinden birebir cümle (16 Kas 2026, tarayıcı; yıl+şehir aynı cümlede ya da maddenin konusu şehre açık atıf)."
+ },
+ {
+  "id": "zebid-ye",
+  "ad": "Zebîd",
+  "atlas_ad": "Zebîd",
+  "lat": 14.195,
+  "lon": 43.315,
+  "kat1900": 3,
+  "adlar": [
+   "Husayb (bölgedeki eski yerleşim; TDV)",
+   "Zebîd (Arapça)"
+  ],
+  "ilk": {
+   "t": "0820-02-01",
+   "gun": "Şâban 204 (Şubat 820)",
+   "nicelik": "kurulus",
+   "kesinlik": "ay",
+   "kaynak": "TDV İslâm Ansiklopedisi, ZEBÎD maddesi (islamansiklopedisi.org.tr/zebid; 16 Kas 2026'da okundu); Şâban 204 (tablo takvimi 820-01-21..02-19) ∩ TDV'nin 'Şubat 820'si → ayın ilk günü, Jülyen",
+   "tanik": "Me’mûn’un emriyle Şâban 204’te (Şubat 820) Zebîd şehrini kurarak saraylar yaptırdı ve kanallar açtırdı."
+  },
+  "kur": {
+   "t": "0820-02-01",
+   "gun": "Şâban 204 (Şubat 820)",
+   "kesinlik": "ay",
+   "kaynak": "TDV İslâm Ansiklopedisi, ZEBÎD maddesi (islamansiklopedisi.org.tr/zebid; 16 Kas 2026'da okundu)",
+   "tanik": "[TDV metninden özet, aynen alıntı değil] Me'mûn'un emriyle şehir kuruldu"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "0818-01-01",
+    "gun": "203 (818)",
+    "k": "diger",
+    "b": "Muhammed b. Abdullah b. Ziyâd Yemen'e gönderildi",
+    "kaynak": "TDV İslâm Ansiklopedisi, ZEBÎD maddesi (islamansiklopedisi.org.tr/zebid; 16 Kas 2026'da okundu)"
+   },
+   {
+    "t": "0820-02-01",
+    "gun": "Şâban 204 (Şubat 820)",
+    "k": "kurulus",
+    "b": "Zebîd şehri Me'mûn'un emriyle kuruldu (Ziyâdîler)",
+    "kaynak": "TDV İslâm Ansiklopedisi, ZEBÎD maddesi (islamansiklopedisi.org.tr/zebid; 16 Kas 2026'da okundu)"
+   }
+  ],
+  "ic_not": "Atlas Zebîd'i 0820-01-01'de 'ziyadi' ile başlatıyor, TDV'ye göre şehir Şubat 820'de kuruldu — atlas başlangıcı kuruluştan ~1 ay ÖNCE (denetle uyarısı beklenir; sıfır zincir çünkü ilk.t atlas başlangıcından sonra). Atlas düzeltmesi önerisi: 0820-02-01 (ay hassasiyeti). Zincir yazılmadı: kuruluştan atlas başlangıcına zaman kalmadı. Sonrası (Ziyâdîler, Necâhîler 1022, Mehdîler 1159, Eyyûbî 1174, Resûlî, Tâhirî, Osmanlı 20 Haz 1516) atlas zincirinde. Koord: koord: GeoNames 69500 (14°11′42.36″ N, 43°18′54.65″ E), atlas tahmininden 0.2 km. Üst basamaklar: İSAM/TTK/DergiPark/YÖK taraması BU PARTİDE YAPILMADI (yalnız TDV maddesi + belirtilen Perseus metni okundu); çok kaynaklı teyit yok. | TANIK: TDV tam gövdesinden birebir cümle (16 Kas 2026, tarayıcı; yıl+şehir aynı cümlede ya da maddenin konusu şehre açık atıf)."
+ }
+];

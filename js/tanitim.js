@@ -25,7 +25,7 @@
   // bozuk çeviri üretir. Bu yüzden: `p` = bütün cümleli paragraflar, `m` =
   // [kalın terim, tam cümle açıklama] maddeleri. Metne etiket YAZMA.
   var ADIMLAR = [
-    { baslik: "Tarih Atlası'na hoş geldiniz",
+    { baslik: "KRONOATLAS'a hoş geldiniz",
       p: ["Bu atlas, zaman ilerledikçe devlet sınırlarının nasıl değiştiğini gösterir. Haritanın yanında o günün kronolojisi ve hükümdarı akar: bir madde okuduğunuzda haritada tam o değişimi görürsünüz.",
           "Kısa bir turla ekrandaki her parçayı tanıtalım. İleri düğmesiyle (ya da sağ ok tuşuyla) ilerleyin; istediğiniz an Geç diyebilirsiniz."] },
     { baslik: "Sayfanın düzeni",
@@ -65,7 +65,8 @@
           ["⏱ Zaman akışı", "Takvim düzgün akar (sene sene); yanındaki kutu hızı seçer: saniyede bir aydan saniyede on yıla kadar. Sınırların değişimini film gibi izlemek için uygundur."]] },
     { hedef: ["#tarihe-git-giris"], baslik: "Sene yaz git",
       p: ["Bu kutuya bir tarih yazıp Enter tuşuna basın; harita ve kronoloji o güne atlar.",
-          "Yazım örnekleri: 1453 · 1453-05-29 · 29.05.1453 · 29 Mayıs 1453 · Mayıs 1453"] },
+          "Yazım örnekleri: 1453 · 1453-05-29 · 29.05.1453 · 29 Mayıs 1453 · Mayıs 1453",
+          "Milattan önce için eksi ya da MÖ yazın: -1236 · MÖ 1236 · -12000. 0 milada (MS 1) götürür."] },
     { hedef: ["#yer-ara"], baslik: "Şehir yaz git",
       p: ["Bu kutuya bir yer adı yazın: şehir, kale, liman, bölge ya da ülke.",
           "Açılan listeden tıklayın (ya da ok tuşları ve Enter ile seçin); harita oraya uçar, tarih değişmez. Listede yalnız o gün haritada olan yerler çıkar."] },

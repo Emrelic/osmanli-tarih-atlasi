@@ -965,6 +965,10 @@ Denetim ve JS üretimi: `py arac/sehir_tarihce.py denetle <dosya.js>` · `yaz <j
 { id:"konya", ad:"Konya", atlas_ad:"Konya",          // atlas_ad: 3 km içindeki atlas noktası, yoksa null
   lat:37.872, lon:32.492, kat1900:2,                 // kat1900: 1 başkent · 2 eyalet · 3 sancak boyu
   adlar:["Kawania","İkonion","Iconium","Konya"],     // tarih sırasıyla; aynı koordinat = aynı şehir
+  ad_kaynak:[ { ad:"İkonion", dil:"el", donem:"-0400…", kaynak:"Ksenophon, Anabasis 1.2.19", kanit:"…okunan sayfadan alıntı…" } ],
+                                                     // OPSİYONEL (Aşama 2, LAB pilotu 17 Kasım 2026): `adlar`daki bir adın
+                                                     // dili/dönemi/kaynağı + kaynaktan okunan kanıt; yazı sistemli adlar (ar/fa/hi/zh…)
+                                                     // `ad`da kendi yazısıyla, `dil` ISO kodu (ar, fa, hi, zh…) ile yazılır
   ilk:{ t:"-0400-01-01", gun:"MÖ 401", nicelik:"ilk_anilis", kesinlik:"yil",
         kaynak:"Ksenophon, Anabasis 1.2.19 (Perseus)", tanik:"to Iconium, the last city of Phrygia" },
   kur:null,                                          // yalnız KURULUŞA tanıklık varsa {t,gun,kesinlik,kaynak,tanik}
@@ -978,6 +982,13 @@ Denetim ve JS üretimi: `py arac/sehir_tarihce.py denetle <dosya.js>` · `yaz <j
 **Kurallar** (`arac/sehir_tarihce.py denetle` hepsini sınar; çıkış 0 temiz · 1 ihlal · 2 ölçülemedi):
 - **Tarihsiz tanık** (Emre, 17 Kasım 2026; Roma vb. yıl vermeyen kaynak): `ilk:{nicelik:"tarihsiz_tanik", kaynak, ic_not:"tarihsiz tanık: <kaynak, sayfa>"}`,
   `t` BOŞ (yıl uydurulmaz), `sahip:[]`. Yalnız tarihçe metni tanıktır; sınır/boyama kanıt sayılmaz. Denetim `sehir_tarihce.py`dedir (istisna kalıbı, tavan değil).
+- **`ad_kaynak`** *(opsiyonel, 17 Kasım 2026)*: `[{ad, dil, donem, kaynak, kanit}]`. `adlar` listesindeki ad
+  için dil (ISO kod), dönem ve KAYNAK + kaynaktan okunan `kanit`. **Şimdilik KONVANSİYON:** `arac/sehir_tarihce.py`
+  bu alanı DENETLEMEZ, yalnız tanımadığı alan diye reddetmez (ölçüldü 17 Kasım: aracın kodunda `ad_kaynak` yok;
+  `kanit` boş olmama kuralı yazılmışsa da zorlanmaz — önerilen denetim kuralı `ad_kaynak` ekleme işinde).
+  Çıplak belirsiz ad (Haydarâbâd) parantezli atlas adıyla yazılır (`Haydarâbâd (Dekken)`).
+  ⚠️ BİLİNEN KÖR NOKTA: `arac/ad_esanlam.sadelestir()` ASCII dışı yazıyı atar; Arapça/Devanagari/Bengal/Çince
+  adlar `data/ad_esanlam.js` sözlük eşlemesinde çözülmez (boş dizeye düşer) — çözümleme ayrı bir iştir.
 - `ilk.nicelik`: `kurulus` | `ilk_anilis` | `arkeolojik` (| `tarihsiz_tanik`, yukarı). Haritanın başlangıcı `ilk.t`dir ve
   `sahip[0].f == ilk.t`. Öncelik: yazılı tanık (kuruluş ya da ilk anılış) varsa o; `arkeolojik` yalnız
   yazılı tanık HİÇ yoksa. İlk anılıştan `kur` TÜRETİLMEZ (yukarıda `kesinlik` sınırı).

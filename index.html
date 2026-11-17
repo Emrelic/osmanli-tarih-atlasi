@@ -3,17 +3,58 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Tarih Atlası</title>
+<title>KRONOATLAS — Etkileşimli Tarih Atlası</title>
+<!-- KRONOATLAS (Emre onayı, 16 Kasım 2026): marka adı çevrilmez; alt başlık/açıklama dile göre
+     js/marka.js'te çevrilir (ham HTML Türkçe — tarayıcı olmayan okuyucu bunu görür).
+     ALAN-ADI: og:url ve canonical şimdilik github.io; kronoatlas.com / kronoatlas.com.tr
+     bağlanınca (Emre DNS yapacak) İKİSİ DE yeni adrese çevrilecek. -->
+<meta name="description" content="Zaman ilerledikçe devlet sınırlarının değiştiği, yanında kronoloji ve dönemin hükümdarının aktığı etkileşimli tarih atlası. Osmanlı 1281–1923 gün hassasiyetinde; dünya kapsamı kademeli genişliyor. Beta sürümü.">
+<meta name="theme-color" content="#5c1020">
+<link rel="canonical" href="https://emrelic.github.io/osmanli-tarih-atlasi/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="KRONOATLAS">
+<meta property="og:title" content="KRONOATLAS — Etkileşimli Tarih Atlası">
+<meta property="og:description" content="Zaman ilerledikçe devlet sınırlarının değiştiği, yanında kronoloji ve dönemin hükümdarının aktığı etkileşimli tarih atlası. Osmanlı 1281–1923 gün hassasiyetinde; dünya kapsamı kademeli genişliyor. Beta sürümü.">
+<meta property="og:url" content="https://emrelic.github.io/osmanli-tarih-atlasi/">
+<meta property="og:locale" content="tr_TR">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="KRONOATLAS — Etkileşimli Tarih Atlası">
+<meta name="twitter:description" content="Zaman ilerledikçe devlet sınırlarının değiştiği, yanında kronoloji ve dönemin hükümdarının aktığı etkileşimli tarih atlası. Osmanlı 1281–1923 gün hassasiyetinde; dünya kapsamı kademeli genişliyor. Beta sürümü.">
+<link rel="preconnect" href="https://unpkg.com" crossorigin>
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="icon" type="image/svg+xml" href="assets/ikon.svg">
+<link rel="manifest" href="manifest.webmanifest">
+<script src="js/marka.js?v=r56994480"></script>
+<style>
+/* KRONOATLAS P3/P4 (16 Kasım 2026) — küçük, tek yerde; style.css'e dokunmaz. */
+.yalniz-okuyucu { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+.atla-baglanti { position: absolute; left: 8px; top: -60px; z-index: 100000; background: #f3e6c8; color: #2a0a10; padding: 8px 14px; border-radius: 6px; font: 600 14px "Segoe UI", sans-serif; text-decoration: none; }
+.atla-baglanti:focus { top: 8px; }
+.beta-ibare { font: 700 10px/1 "Segoe UI", sans-serif; letter-spacing: .08em; padding: 3px 6px; border-radius: 9px; border: 1px solid #f3e6c8; background: transparent; color: #f3e6c8; cursor: pointer; opacity: .85; }
+.beta-ibare:hover, .beta-ibare:focus-visible { opacity: 1; background: rgba(243, 230, 200, .15); }
+#hakkinda-pencere { position: fixed; inset: 0; z-index: 100001; display: flex; align-items: center; justify-content: center; background: rgba(0, 0, 0, .55); padding: 16px; }
+#hakkinda-pencere.gizli { display: none; }
+#hakkinda-pencere .hakkinda-kart { max-width: 460px; background: #2a0a10; color: #f3e6c8; border: 1px solid #f3e6c8; border-radius: 10px; padding: 18px 22px; font: 14px/1.5 "Segoe UI", sans-serif; box-shadow: 0 8px 30px rgba(0, 0, 0, .5); }
+#hakkinda-pencere h2 { margin: 0 0 10px; font-size: 17px; }
+#hakkinda-pencere p { margin: 0 0 10px; }
+#hakkinda-pencere a { color: #ffd98a; }
+#hakkinda-pencere button { margin-top: 4px; padding: 6px 16px; border-radius: 6px; border: 1px solid #f3e6c8; background: #5c1020; color: #f3e6c8; cursor: pointer; font: 14px "Segoe UI", sans-serif; }
+</style>
 <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.24.0/dist/maplibre-gl.css">
-<script>window.SURUM="r15688";</script>
-<link rel="stylesheet" href="css/style.css?v=r139453370">
+<script>window.SURUM="r16114";</script>
+<link rel="stylesheet" href="css/style.css?v=r132893546">
 </head>
 <body>
+<!-- ERİŞİLEBİLİRLİK (LAB P5): görünmez <h1> + "haritaya geç" bağlantısı (yalnız odaklanınca görünür).
+     Emre'nin 21 Ağustos'ta kaldırdığı GÖRÜNÜR başlık geri gelmedi; bu yalnız ekran okuyucu içindir.
+     Metinler js/marka.js'te dile göre doldurulur. -->
+<a id="atla-baglanti" class="atla-baglanti" href="#harita">Haritaya geç</a>
+<h1 id="marka-h1" class="yalniz-okuyucu">KRONOATLAS — Etkileşimli Tarih Atlası</h1>
 <!-- ACILIS-ANIM-0929 — serpilen haritalar perdesi. <body>'nin HEMEN ardından,
      SENKRON: perde öğeleri ilk boyamadan önce kurulmalı (denetim/ACILIS-ANIM-0929.md §3:
      yüklemeyi uzatmıyor, perde ~1,2 sn erken görünüyor). Bağlayan: UFUK-DUGME-0930
      (PAKET-0077A H-0002). Yüklenmezse css/style.css yedek küresi çalışır. -->
-<script src="data/acilis_siluet.js?v=r235949476"></script>
+<script src="data/acilis_siluet.js?v=r128825633"></script>
 <!-- 🏷️ KOŞU DAMGASI — app.js'ten ÖNCE yüklenmeli (app.js onu okuyup yazıyor).
      Dosya birkaç yüz bayt; pakete girmesine gerek yok, ve pakete GİRMEMELİ:
      paket bir koşuda değişmeyebilir, damga HER koşuda değişir. -->
@@ -67,6 +108,9 @@
     <!-- TANITIM (Emre, 7 Kasım 2026): turu sonradan açmak için — js/tanitim.js -->
     <button id="btn-tanitim" title="Bu site nasıl gezilir — tanıtım turu">ℹ Siteyi tanı</button>
     <button id="btn-dizin" title="Kişi, savaş ve antlaşma dizinleri">📚 Dizin</button>
+    <!-- FORUM F1 (17 Kasım 2026): Kahvehane — ayrı sayfa forum/ (Supabase). Herkese
+         açılana kadar YALNIZ geliştirici kipinde görünür (.yalniz-gelistirici). -->
+    <button id="btn-forum" class="yalniz-gelistirici" title="Kahvehane — tarih forumu" onclick="location.href='forum/'">💬 Forum</button>
     <!-- 🆕 ARAYUZ-0082 / H-0087 (30 Eylül 2026), Emre: "harita simgeleri ve
          gösterimleri ile ilgili olan butonu butonlar içine koysak haritada
          gözümüzün önünde olmasın" · "i harfi ilk gösterimde orada görünse ama
@@ -434,7 +478,7 @@
     <span id="git-grup">
     <input type="text" id="tarihe-git-giris"
            placeholder="tarihe git"
-           title="Örnek: 1453 · 1453-05-29 · 29.05.1453 · 29 Mayıs 1453 · Mayıs 1453 — yazıp Enter'a basın">
+           title="Örnek: 1453 · 29 Mayıs 1453 · 29.05.1453 · 1453-05-29 · Mayıs 1453 · 15 · 0 (milat) · -1236 ya da MÖ 1236 · -12000 — yazıp Enter'a basın">
     <span id="tarihe-git-durum"></span>
     <!-- 🆕 YER ARA (YER-ARAMA-KUTUSU-1006) — Emre, 6 Ekim 2026: "sene
          seçtiğimiz ve ilgili seneye gittiğimiz textboxun yanında olmalı şehir
@@ -1164,7 +1208,7 @@
        data/olaylar_ek6.js
        data/olaylar_ilirya_0072.js
        data/olaylar_ek7.js -->
-<script src="data/paket_01.js?v=r177375151"></script>
+<script src="data/paket_01.js?v=r18217348"></script>
 <!-- 16 Ağustos gece partisi: `Değişmez 5a` (62 hayalet yerleşim) düzeltilince
      dört harita kırılması maddesiz kaldı; bu dosya onları kapatıyor.
      🔴 BAĞLANMASI ŞART: denetim `data/olaylar*.js`i glob ile okuduğu için
@@ -1219,7 +1263,7 @@
      (tazeliği yayın kapısı sınar). İçindekiler:
        data/devirler.js
        data/devletler.js -->
-<script src="data/paket_05.js?v=r67166866"></script>
+<script src="data/paket_05.js?v=r145555560"></script>
 <!-- ÇOK SEKMELİ ARAYÜZ (20 Ağustos 2026, KOORDİNATÖR görevi) — devletlerin
      DERİN kronolojileri. `data/devletler.js`teki habsburg/rusya/lehistan
      künyeleri hâlâ eski/kısa listeyi taşıyor (14/15/12 madde, çoğu Osmanlı
@@ -1242,7 +1286,7 @@
        data/kronoloji_venedik.js
        data/kronoloji_iran.js
        data/kronoloji_bizans.js -->
-<script src="data/paket_06.js?v=r223740363"></script>
+<script src="data/paket_06.js?v=r75565540"></script>
 <!-- 21 Ağustos: iki YENİ dosya diskte hazır ama BAĞLI DEĞİLDİ (Kırım ·
      Macaristan) — aynı sınıftan üçüncü vaka, bulunur bulunmaz eklendi. -->
 <!-- ▼ data/paket_07.js — aşağıdaki 3 dosya buraya PAKETLENDİ (arac/paketle.py).
@@ -1324,8 +1368,15 @@
        data/kronoloji_sinir_antik_hitit.js
        data/kronoloji_sinir_antik_frig.js
        data/kronoloji_sinir_antik_bizans_komsu.js -->
-<script src="data/paket_09.js?v=r198700756"></script>
-<script src="data/kronoloji_sinir_burgund_septimania.js?v=r225331273"></script>
+<script src="data/paket_09.js?v=r258246543"></script>
+<!-- ▼ data/paket_41.js — aşağıdaki 2 dosya buraya PAKETLENDİ (arac/paketle.py).
+     Sıra korunmuştur; uç uca ekleme klasik betiklerin anlamını
+     değiştirmez. Kaynak değişirse: py arac/paketle.py yenile
+     (tazeliği yayın kapısı sınar). İçindekiler:
+       data/kronoloji_sinir_burgund_septimania.js
+       data/kronoloji_sinir_hint_1115b.js -->
+<script src="data/paket_41.js?v=r126562115"></script>
+  <!-- HINT-1115b: Delhi hanedan geçişleri, Koç Bihar, Agartala, Daman, Karaikal/Mahé/Yanam, Serampore (damga: paketle/surum_damgala) -->
 
 <!-- ▼ ÇOK TARAFLI KRONOLOJİ — 29 Eylül seferberliğinin ürünü (30 Eylül'de bağlandı).
      16 paket dünya devletlerinin kronolojilerini tarayıp yazdı; dosyalar DİSKTE
@@ -1378,7 +1429,7 @@
        data/kronoloji_cok_ukrayna.js
        data/kronoloji_cok_yunanistan.js
        data/kronoloji_cok_orta_amerika_2.js -->
-<script src="data/paket_30.js?v=r231835619"></script>
+<script src="data/paket_30.js?v=r184850640"></script>
 <!-- ═══ 30 EYLUL / 1 EKIM 2026 KAMPANYASI — 18 dosya, 1804 madde ═══════════
      🔴 BU DOSYALAR AYLARDIR DISKTE, COMMIT'LI VE DENETIMLERIN EVRENINDEYDI
         ama index.html onlari HIC YUKLEMIYORDU ⇒ tarayici goremiyordu, kullanici
@@ -1428,7 +1479,7 @@
        data/kronoloji_cok_ince_kuzey_amerika.js
        data/kronoloji_cok_kuzey_amerika_k2.js
        data/kronoloji_cok_ince_misir_orta_asya.js -->
-<script src="data/paket_31.js?v=r238609515"></script>
+<script src="data/paket_31.js?v=r4832477"></script>
 <!-- ▼ data/paket_32.js — aşağıdaki 4 dosya buraya PAKETLENDİ (arac/paketle.py).
      Sıra korunmuştur; uç uca ekleme klasik betiklerin anlamını
      değiştirmez. Kaynak değişirse: py arac/paketle.py yenile
@@ -1437,7 +1488,7 @@
        data/kronoloji_cok_senkron_0930.js
        data/kronoloji_cok_iskandinavya.js
        data/kronoloji_timor_leste.js -->
-<script src="data/paket_32.js?v=r58969146"></script>
+<script src="data/paket_32.js?v=r7763384"></script>
 
 <!-- Akkoyunlu ve Karakoyunlu AYRI dosya oldu — brifingde tek dosya
      (`kronoloji_koyunlular.js`) demiştim, oturum ikiye ayırdı ve bu DAHA
@@ -1461,7 +1512,7 @@
        data/kronoloji_misir.js
        data/kronoloji_ozbek.js
        data/kronoloji_timurlu.js -->
-<script src="data/paket_11.js?v=r147750341"></script>
+<script src="data/paket_11.js?v=r264604726"></script>
 <!-- 22 Agu 2026 · ikinci dalga kronoloji teslimleri. Sema denetimi "ekranda var mi" diye SORMUYOR — bu satirlar o yuzden elle sayilip eklendi. -->
 <!-- ▼ data/paket_12.js — aşağıdaki 28 dosya buraya PAKETLENDİ (arac/paketle.py).
      Sıra korunmuştur; uç uca ekleme klasik betiklerin anlamını
@@ -1495,7 +1546,7 @@
        data/kronoloji_sirbistan.js
        data/kisiler.js
        data/savaslar.js -->
-<script src="data/paket_12.js?v=r82327107"></script>
+<script src="data/paket_12.js?v=r66397967"></script>
 <!-- YERLESIM PARTILERI - hepsi yuklenir ve TEK diziye birlestirilir.
      2 Agustos 2026: kutu acildiginda 789 nokta (afrika 186 - asya 344 -
      avrupa 237 - ek 15 - ortaasya2 7) TOPRAGI CIZILIYOR ama ADI GORUNMUYORDU
@@ -1522,7 +1573,7 @@
        data/yerlesimler_ek4.js
        data/yerlesimler_ek5.js
        data/yerlesimler_ek6.js -->
-<script src="data/paket_13.js?v=r258494165"></script>
+<script src="data/paket_13.js?v=r163236084"></script>
 <!-- PARTİ 18-19 — koşu 9 ile bağlandı. `girdi.py` bu üçünü okuyor, yani
      PETEKLERİ haritada zaten var; index.html'e eklenmezse İŞARETÇİLERİ
      görünmez ve denetle_yayin haklı olarak "üretiliyor ama çizilmiyor" der.
@@ -1563,7 +1614,7 @@
        data/yerlesimler_ek27.js
        data/yerlesimler_ek28.js
        data/yerlesimler_ek29.js -->
-<script src="data/paket_14.js?v=r116584099"></script>
+<script src="data/paket_14.js?v=r268208194"></script>
 <!-- NOKTA EPİR, 22 Ağu 2026 — Parga'nın 3.701 km²'lik peteğini bölen iki nokta.
      `girdi.py`ye de eklendi; ikisi AYRI kapıdır (§5: bir dosya motorda olup
      arayüzde olmayabilir, bu sabah yedi kronoloji dosyası öyle kaybolmuştu). -->
@@ -1640,7 +1691,7 @@
        data/yerlesimler_ek31.js
        data/yerlesimler_0ee15e.js
        data/yerlesimler_e9353f.js -->
-<script src="data/paket_17.js?v=r128632964"></script>
+<script src="data/paket_17.js?v=r48267783"></script>
 <!-- 🔴 20 Ağustos 2026 — DÖRT DOSYA MOTORA BAĞLIYDI, TARAYICIYA DEĞİL.
      `arac/girdi.py`ye ekledim (`073df09`) ama BURAYA eklemeyi unuttum ⇒
      13 nokta haritada ÇİZİLİYOR ama dizinde/aramada/tıklamada YOK.
@@ -1690,7 +1741,7 @@
        data/yerlesimler_4ff22b.js
        data/yerlesimler_amerika2.js
        data/yerlesimler_hindistan.js -->
-<script src="data/paket_20.js?v=r97803163"></script>
+<script src="data/paket_20.js?v=r17483005"></script>
 <!-- 🔴 2 EYLUL 2026 PARTISI — ALTI dosya, 36 nokta, 2624 -> 2660.
      `arac/_baglama_onsinav.py` ile BAGLANMADAN ONCE sinandi (ad alani 8/8 ·
      bagli evrende ad cakismasi 0 · 3 km mukerrer 0 · node ayristirma 8/8).
@@ -1739,7 +1790,7 @@
        data/yerlesimler_gamerika.js
        data/yerlesimler_kamerika.js
        data/yerlesimler_hint0912.js -->
-<script src="data/paket_22.js?v=r263230725"></script>
+<script src="data/paket_22.js?v=r254228960"></script>
 <!-- 🟢 SÎVA (Siwa) — paket 0043 · H-0017 · 12 Eylül 2026, KITA 13.
      TEK NOKTA, ve sayının düşüklüğü işin küçüklüğü değil TESPİTİN
      KENDİSİ: sevk 12 aday verdi, ONU ZATEN VERİDEYDİ (üçü 3 km
@@ -1802,7 +1853,7 @@
        data/yerlesimler_zincir64.js
        data/yerlesimler_sahne1108.js
        data/yerlesimler_ek_karayip_adalar.js -->
-<script src="data/paket_24.js?v=r254679164"></script>
+<script src="data/paket_24.js?v=r165538887"></script>
 <!-- ARKEOLOJİ KATMANI (MÖ 12000–3000), şartname denetim/ARKEOLOJI-KATMANI-SARTNAME-1018.md · yalnız olay: kronoloji motoru BESLEMİYOR, koşuyu etkilemez -->
 <!-- ▼ data/paket_33.js — aşağıdaki 11 dosya buraya PAKETLENDİ (arac/paketle.py).
      Sıra korunmuştur; uç uca ekleme klasik betiklerin anlamını
@@ -1819,7 +1870,7 @@
        data/kronoloji_cok_antik_akad.js
        data/kronoloji_cok_antik_sumer.js
        data/olay_taraf.js -->
-<script src="data/paket_33.js?v=r210201010"></script>
+<script src="data/paket_33.js?v=r146531709"></script>
   <!-- OLAY_TARAF: OLAYLAR* dış maddesi -> künye eşlemesi (Emre 10 Kasım 2026) -->
 
 <!-- ▼ data/paket_34.js — aşağıdaki 15 dosya buraya PAKETLENDİ (arac/paketle.py).
@@ -1899,11 +1950,23 @@
        data/olaylar_antik_akdeniz.js
        data/olaylar_ortacag_bekleyen_acik.js
        data/olaylar_kunfuze_1016.js -->
-<script src="data/paket_35.js?v=r3058329"></script>
+<script src="data/paket_35.js?v=r69932424"></script>
 <!-- DEGISMEZ2-TARAMA-1019 (19 Ekim 2026; KASA 1 Kasım seçerek aldı, 36/67 madde): kronolojisiz toprak değişimlerinin maddeleri (Değişmez 2s/2i evreni) — window.OLAYLAR_2S1019 -->
-<script src="data/olaylar_2s_1019.js?v=r75016925"></script>
-<script src="data/olaylar_2s_1114_d5.js?v=r26945099"></script>
-<script src="data/olaylar_mogolistan_1115.js?v=r109182849"></script>
+<!-- ▼ data/paket_42.js — aşağıdaki 10 dosya buraya PAKETLENDİ (arac/paketle.py).
+     Sıra korunmuştur; uç uca ekleme klasik betiklerin anlamını
+     değiştirmez. Kaynak değişirse: py arac/paketle.py yenile
+     (tazeliği yayın kapısı sınar). İçindekiler:
+       data/olaylar_2s_1019.js
+       data/olaylar_2s_1114_d5.js
+       data/olaylar_mogolistan_1115.js
+       data/olaylar_alm_1115b.js
+       data/yerlesimler_cin_1115b.js
+       data/kronoloji_sinir_cin_1115b.js
+       data/kronoloji_cin_ming_1115b.js
+       data/olaylar_cinhindi_1115b.js
+       data/olaylar_mogolistan_1115b.js
+       data/olaylar_ortaasya_1115b.js -->
+<script src="data/paket_42.js?v=r13750848"></script>
 <!-- GÖREV-DÜNYA-1102 hücre 1 (KASA, 2 Kasım 2026): Avrupa MÖ 3500–500 eksik maddeleri — window.OLAYLAR_DUNYA_AVRUPA_MO -->
 <script src="data/olaylar_dunya_avrupa_mo.js?v=r264080432"></script>
 <!-- GÖREV-DÜNYA-1102 hücre 2 (KASA, 2 Kasım 2026): Avrupa MÖ 500–MS 500 eksik maddeleri — window.OLAYLAR_DUNYA_AVRUPA2 -->
@@ -1964,6 +2027,8 @@
      BU DOSYAYI KACIRDI. Kapatilan acik, ayni saatte yeniden acilmisti.
      📌 Ders: bir tarama, tarandigi ANIN fotografidir. Ayni turda yapilan
      bir silme/geri-alma onu gecersiz kilar. -->
+<script src="data/kronoloji_sinir_iberya_1115c.js?v=r111000705"></script>
+<script src="data/yerlesimler_iskandinav_1115c.js?v=r19542532"></script>
 <!-- ▼ data/paket_26.js — aşağıdaki 27 dosya buraya PAKETLENDİ (arac/paketle.py).
      Sıra korunmuştur; uç uca ekleme klasik betiklerin anlamını
      değiştirmez. Kaynak değişirse: py arac/paketle.py yenile
@@ -1996,6 +2061,7 @@
        data/savas_kunye_2.js
        data/savas_kunye_3.js -->
 <script src="data/paket_26.js?v=r129698816"></script>
+<script src="data/yerlesimler_italya_1115b.js?v=r256954738"></script>
 <script>
   // Parti dosyalari KENDI kuresel degiskenlerini tanimliyor; app.js yalniz
   // window.YERLESIMLER okuyor. Birlestirme burada, TEK yerde yapilir --
@@ -2018,9 +2084,9 @@
 
 
 </script>
-<script src="data/bolgeler.js?v=r89142849"></script>
+<script src="data/bolgeler.js?v=r41056787"></script>
 <!-- bolge_pencere.js — bölge sınırı × o günün Osmanlı gövdesi (arac/uret_bolge_pencere.py, iniş adımı · Emre 17 Ekim 2026) -->
-<script src="data/bolge_pencere.js?v=r141242347"></script>
+<script src="data/bolge_pencere.js?v=r22713697"></script>
 <!-- ═══ GEOMETRİ: KODLANMIŞ KOORDİNAT HAVUZU (Emre kararı, 28 Eylül 2026) ═══
      Koşu 17b'de sürtünmeli yürüyüş İLK KEZ açıldı ve devletler_harita.js
      85,3 → 169,1 MB oldu — GitHub'ın 100 MB/dosya sert sınırının ÜSTÜ,
@@ -2041,7 +2107,7 @@
         için base64 + senkron çözme yolu seçildi (Emre: "app.js'e dokunma").
      📌 devletler_harita.js artık DEPODA DURMUYOR (.gitignore). Araçlar için
         yerelde üretilir: `py arac/kodla.py coz-c data data/devletler_harita.js` -->
-<script src="data/devlet_harita_ust.js?v=r221039151"></script>
+<script src="data/devlet_harita_ust.js?v=r192027867"></script>
 <!-- ▼ TEMBEL YÜKLEME (29 Eylül 2026) — Emre: "tembel yüklemeyi de yapalım,
      app.js'e dokunmak gerekse de."
      ÖLÇÜLDÜ: devlet_parcalar.js 17,69 MB telde ve açılışta EŞZAMANLI
@@ -2060,7 +2126,7 @@
      📌 Seyrek katman özgün indeksleri kullanır: havuz yeniden sıralanmaz,
         DEVLET_PARCA_HALKA'ya dokunulmaz, `coz-c` geri üretim yolu değişmez.
         Üretimi: py arac/kodla.py on-dilim data -->
-<script src="data/devlet_parca_on.js?v=r53486459"></script>
+<script src="data/devlet_parca_on.js?v=r46587706"></script>
 <!-- ▼ İKİNCİ KAYIPSIZ KODLAMA — donemler.js (29 Eylül 2026)
      Emre: "donemler.js'i de küçültelim, site daha da hızlansın."
      ÖLÇÜLDÜ, benzerliğe bakılarak seçilmedi:
@@ -2085,16 +2151,24 @@
         (İlk hedefte havuz dosyanın EN BAŞINDAYDI, bu yüzden hiç görünmemişti.)
      📌 donemler.js artık DEPODA DURMUYOR (.gitignore). Araçlar için yerelde:
         py arac/kodla.py coz-c data data/donemler.js donem -->
-<script src="data/donemler_on.js?v=r128076890"></script>
-<script src="data/donemler_ust.js?v=r11932663"></script>
+<script src="data/donemler_on.js?v=r152454779"></script>
+<script src="data/donemler_ust.js?v=r17781542"></script>
 <!-- 🔴 DÖNEM KATMAN 1 (25 Ekim 2026): donem_parcalar.js (13,5 MB) artık BURADA
      YÜKLENMEZ — engelleyici <script> idi. Yerine açılış gününün halkalarını
      taşıyan donem_parca_on.js (0,7 KB) var; tam havuz js/geo_coz.js tarafından
      `load`dan SONRA arka planda getirilir ve window.__donemYenile() çağrılır.
      Üretim: py arac/kodla.py on-dilim-donem data  (havuz değişince YENİDEN
      koşturulmalı; `kodla.py kapi` bayatlığı yakalar). -->
-<script src="data/donem_parca_on.js?v=r101159171"></script>
-<script src="js/geo_coz.js?v=r263255028"></script>
+<script src="data/donem_parca_on.js?v=r18454023"></script>
+<!-- ▼ ZAMAN DİLİMLİ PARÇA (P1 ②, 16 Kasım 2026): tam havuzlar (devlet_parcalar.js
+     ~41 MB + donem_parcalar.js ~8 MB telde) artık İSTENMEZ. Bu küçük dizin
+     (window.PARCA_MANIFEST) varsa js/geo_coz.js yalnız o tarihin parçalarını
+     data/dilim/ altından indirir (parcaGerek; app.js guncelle çağırır).
+     geo_coz.js'ten ÖNCE yüklenmeli. Üretim: py arac/kodla.py dilim-yaz data <hedef>
+     (kodla.py yay kendiliğinden yeniler). Sınav: kodla.py dilim-sina data <hedef>.
+     Eski yol: ?parca=0 ya da bu satır yoksa tam havuz eskisi gibi iner. -->
+<script src="data/parca_manifest.js?v=r238809722"></script>
+<script src="js/geo_coz.js?v=r103657046"></script>
 <script src="data/sehirler.js?v=r21470183"></script>
 <!-- Ⓑ DOLGU KATMANI (arac/dolgu.py) — window.DOLGU + DOLGU_PARCALAR +
      DOLGU_PARCA_HALKA. Üretilmemişse dosya YOKTUR ve yükleyici satırı
@@ -2316,13 +2390,17 @@
 <script src="js/kaynak_damga.js?v=r238823548"></script>
 <!-- ODAK-ZOOM-1016 — saf hesap (DOM'suz), app.js'ten ÖNCE: `window.ODAK_ZOOM`. -->
 <script src="js/odak_zoom.js?v=r126728536"></script>
+<script src="data/kronoloji_sinir_italya_1115b.js?v=r11328197"></script>
+<script src="data/kronoloji_sinir_maritim_1115b.js?v=r174434736"></script>
+<script src="data/kronoloji_sinir_sehir_kuzey_avrupa_1116.js?v=r126623943"></script>
+<script src="data/kronoloji_sinir_sehir_yakin_dogu_balkan_1116.js?v=r254835843"></script>
 <!-- CEVIRI-1103 — ÇOK DİLLİLİK (Emre'nin 6. maddesi; tasarım denetim/CEVIRI-1103/TASARIM.md).
      app.js'ten HEMEN ÖNCE ve bütün data/*.js'ten SONRA: seçili dil Türkçe değilse
      data/ceviri_<dil>_*.js'i document.write ile araya ekler ve OLAYLAR*/DEVLETLER
      metnini app.js `olaylar`ı kurmadan çevirir. Türkçede hiçbir çeviri dosyası inmez. -->
-<script src="data/ceviri_dizin.js?v=r119842208"></script>
+<script src="data/ceviri_dizin.js?v=r72674419"></script>
 <script src="js/ceviri.js?v=r224473008"></script>
-<script src="js/app.js?v=r203606972"></script>
+<script src="js/app.js?v=r87281987"></script>
 <!-- A-F ALTI KADEME · D/E/F KATMANI + ANTLAŞMA HARİTASI (GORUNUM-ABCD-0916, D-KATMAN).
      Kosu 12 bitince baglandi (17 Eylul). d_katman.js app.js'ten SONRA — guncelle()'yi sarar. -->
 <!-- ▼ data/paket_28.js — aşağıdaki 10 dosya buraya PAKETLENDİ (arac/paketle.py).
@@ -2465,27 +2543,39 @@
 <script src="data/antlasma_madde_belgrad.js?v=r97094351"></script>
 <script src="data/antlasma_madde_kerden.js?v=r260199970"></script>  <!-- KERDEN 1746 Osmanlı-İran (Nadir Şah) esas+şart+md.1-3+ek hükümler (oynatıcı verisi) -->
 
-<script src="data/antlasma_madde_zitvatorok.js?v=r109830294"></script>  <!-- ZITVATOROK 1606 17 madde (oynatici verisi; dugme yalniz acik antlasma_id) -->
-<script src="data/antlasma_madde_vasvar.js?v=r191213271"></script>  <!-- VASVAR 1664 10 madde (oynatici verisi; dugme yalniz acik antlasma_id) -->
-<script src="data/antlasma_madde_bucas.js?v=r35117863"></script>  <!-- BUCAS 1672 9 madde (oynatici verisi; dugme yalniz acik antlasma_id) -->
-<script src="data/antlasma_madde_istanbul1700.js?v=r196159456"></script>  <!-- ISTANBUL 1700 Rusya 14 madde (oynatici verisi; dugme yalniz acik antlasma_id) -->
-<script src="data/antlasma_madde_ingiliz1799.js?v=r103535265"></script>  <!-- OSMANLI-İNGİLİZ İTTİFAKI 1799 md.1-10 (son adım yarım; oynatıcı verisi; düğme yalnız açık antlasma_id) -->
-<script src="data/antlasma_madde_artavolos1832.js?v=r103069532"></script>  <!-- İSTANBUL 1832 ARTA-VOLOS md.1-8 + ayrı protokol (oynatıcı verisi; düğme yalnız açık antlasma_id) -->
-<script src="data/antlasma_madde_balta1838.js?v=r207261282"></script>  <!-- BALTA LİMANI TİCARET SÖZLEŞMESİ 1838 md.1-8 + 3 ek madde (oynatıcı verisi; düğme yalnız açık antlasma_id) -->
-<script src="data/antlasma_madde_kibris1878.js?v=r264879757"></script>  <!-- KIBRIS SÖZLEŞMESİ 1878 md.1-2 + anneks (oynatıcı verisi; düğme yalnız açık antlasma_id) -->
-<script src="data/antlasma_madde_yergogu1790.js?v=r1287053"></script>  <!-- YERGÖĞÜ MÜTAREKESİ 1790 md.1-6 (oynatıcı verisi; düğme yalnız açık antlasma_id) -->
-<script src="data/antlasma_madde_prusya1790.js?v=r93957013"></script>  <!-- OSMANLI-PRUSYA İTTİFAKI 1790 md.1-5 (oynatıcı verisi; düğme yalnız açık antlasma_id) -->
-<script src="data/antlasma_madde_rus1799.js?v=r222104324"></script>  <!-- OSMANLI-RUS SAVUNMA İTTİFAKI 1799 md.1-14 (oynatıcı verisi; md.2-7 OCR eksik; düğme yalnız açık antlasma_id) -->
-<script src="data/antlasma_madde_iki_sicilya1799.js?v=r208733964"></script>  <!-- OSMANLI-İKİ SİCİLYA İTTİFAKI 1799 md.1-9 (oynatıcı verisi; düğme yalnız açık antlasma_id) -->
+<script src="data/antlasma_madde_zitvatorok.js?v=r109830294"></script>
+  <!-- ZITVATOROK 1606 17 madde (oynatici verisi; dugme yalniz acik antlasma_id) -->
+<script src="data/antlasma_madde_vasvar.js?v=r191213271"></script>
+  <!-- VASVAR 1664 10 madde (oynatici verisi; dugme yalniz acik antlasma_id) -->
+<script src="data/antlasma_madde_bucas.js?v=r35117863"></script>
+  <!-- BUCAS 1672 9 madde (oynatici verisi; dugme yalniz acik antlasma_id) -->
+<script src="data/antlasma_madde_istanbul1700.js?v=r196159456"></script>
+  <!-- ISTANBUL 1700 Rusya 14 madde (oynatici verisi; dugme yalniz acik antlasma_id) -->
+<script src="data/antlasma_madde_ingiliz1799.js?v=r103535265"></script>
+  <!-- OSMANLI-İNGİLİZ İTTİFAKI 1799 md.1-10 (son adım yarım; oynatıcı verisi; düğme yalnız açık antlasma_id) -->
+<script src="data/antlasma_madde_artavolos1832.js?v=r103069532"></script>
+  <!-- İSTANBUL 1832 ARTA-VOLOS md.1-8 + ayrı protokol (oynatıcı verisi; düğme yalnız açık antlasma_id) -->
+<script src="data/antlasma_madde_balta1838.js?v=r207261282"></script>
+  <!-- BALTA LİMANI TİCARET SÖZLEŞMESİ 1838 md.1-8 + 3 ek madde (oynatıcı verisi; düğme yalnız açık antlasma_id) -->
+<script src="data/antlasma_madde_kibris1878.js?v=r264879757"></script>
+  <!-- KIBRIS SÖZLEŞMESİ 1878 md.1-2 + anneks (oynatıcı verisi; düğme yalnız açık antlasma_id) -->
+<script src="data/antlasma_madde_yergogu1790.js?v=r1287053"></script>
+  <!-- YERGÖĞÜ MÜTAREKESİ 1790 md.1-6 (oynatıcı verisi; düğme yalnız açık antlasma_id) -->
+<script src="data/antlasma_madde_prusya1790.js?v=r93957013"></script>
+  <!-- OSMANLI-PRUSYA İTTİFAKI 1790 md.1-5 (oynatıcı verisi; düğme yalnız açık antlasma_id) -->
+<script src="data/antlasma_madde_rus1799.js?v=r222104324"></script>
+  <!-- OSMANLI-RUS SAVUNMA İTTİFAKI 1799 md.1-14 (oynatıcı verisi; md.2-7 OCR eksik; düğme yalnız açık antlasma_id) -->
+<script src="data/antlasma_madde_iki_sicilya1799.js?v=r208733964"></script>
+  <!-- OSMANLI-İKİ SİCİLYA İTTİFAKI 1799 md.1-9 (oynatıcı verisi; düğme yalnız açık antlasma_id) -->
 <script src="js/antlasma_oynatici.js?v=r151039795"></script>  <!-- ANTLAŞMA MİKRO OYNATICISI — obGoster'ı antlasma_harita.js'ten SONRA sarar -->
 <script src="js/anim_dili.js?v=r63557749"></script>
 <script src="js/sefer_ok.js?v=r244751968"></script>
-<script src="js/gelistirici.js?v=r72703999"></script>  <!-- GELİŞTİRİCİ NOTLARI — GitHub Issues `harita-notu`; Claude tarafı arac/not.py -->
+<script src="js/gelistirici.js?v=r30563461"></script>  <!-- GELİŞTİRİCİ NOTLARI — GitHub Issues `harita-notu`; Claude tarafı arac/not.py -->
 <script src="data/tur_siniflari.js?v=r197039638"></script>
   <!-- TUR SINIFLARI: tur -> ana tur (KRON-ALAN-1108) -->
 <script src="js/album.js?v=r82959085"></script>  <!-- ALBÜM düğmesi (DALGA-0059 H-0001) — obGoster sarmalar, app.js SONRASI -->
-<script src="js/tanitim.js?v=r124987837"></script>  <!-- TANITIM TURU — açılışta + ☰ Butonlar → ℹ Siteyi tanı; app.js SONRASI -->
-<script src="data/acilis_tablosu.js?v=r205690318"></script>
+<script src="js/tanitim.js?v=r18226000"></script>  <!-- TANITIM TURU — açılışta + ☰ Butonlar → ℹ Siteyi tanı; app.js SONRASI -->
+<script src="data/acilis_tablosu.js?v=r262169018"></script>
   <!-- AÇILIŞ TABLOSU — ülke → devlet + gün + gerekçe (js/acilis.js okur) -->
 <script src="js/acilis.js?v=r148878349"></script>  <!-- AÇILIŞ MADDESİ (ACILIS-MADDESI-1110) — ülkeye göre odak + gün; ?acilis=XX dener, ?acilis=yok kapatır; app.js SONRASI -->
 </body>

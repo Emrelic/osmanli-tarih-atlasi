@@ -1,5 +1,5 @@
-// ŞEHİR TARİHÇESİ — K3 · üretici: arac/sehir_tarihce.py · şema: VERI-YAPISI.md
-// Motor/denetle/site OKUMAZ — araştırma birikimi. Elle düzenleme: JSON'u düzelt, yeniden üret.
+// ŞEHİR TARİHÇESİ — K3 · üretici: arac/sehir_tarihce.py · şema: VERI-YAPISI.md
+// Motor/denetle/site OKUMAZ — araştırma birikimi. Elle düzenleme: JSON'u düzelt, yeniden üret.
 window.SEHIR_TARIHCE_K3 = [
  {
   "id": "a-coruna-es",
@@ -27967,12 +27967,65 @@ window.SEHIR_TARIHCE_K3 = [
     "tanik": "ribâtın bulunduğu yerde bir ordugâh kurulmasını emretti"
    },
    {
+    "t": "1184-01-01",
+    "gun": "1184-1199",
+    "k": "kurulus",
+    "b": "Ebû Yûsuf el-Mansûr dönemi (1184-1199) şehrin asıl kuruluş ve imar programı: bugün hâlâ ayakta kalan surlar ve Hassan Camii (tamamlanmadı).",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'RABAT', https://islamansiklopedisi.org.tr/rabat",
+    "ic_not": "Aralığın ilk yılı."
+   },
+   {
+    "t": "1212-01-01",
+    "gun": "1212 (609 h.)",
+    "k": "savas",
+    "b": "Muvahhidler İkāb'da yenildi; bundan sonra Rabat gerilemeye başladı.",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'RABAT', https://islamansiklopedisi.org.tr/rabat"
+   },
+   {
     "t": "1251-03-26",
     "gun": "649 H / 1251",
     "k": "fetih",
     "b": "Merînî Ebû Yahyâ Ebû Bekir Rabat ve Selâ'yı ele geçirir (atlas dilimi; bilgi amaçlı).",
     "kaynak": "TDV RABAT ; TDV İslâm Ansiklopedisi, MERÎNÎLER, https://islamansiklopedisi.org.tr/meriniler",
     "tanik": "Rabat ve Selâ’yı ele geçirdi"
+   },
+   {
+    "t": "1609-01-01",
+    "gun": "1609-1614",
+    "k": "diger",
+    "b": "Endülüs'ten sürülen Müslümanlar Rabat ve Selâ'ya yerleştirildi.",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'RABAT', https://islamansiklopedisi.org.tr/rabat",
+    "ic_not": "Aralığın ilk yılı."
+   },
+   {
+    "t": "1757-01-01",
+    "gun": "1757-1790",
+    "k": "idari",
+    "b": "III. Muhammed Rabat'ı üçüncü başkent yaptı, saray yaptırdı.",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'RABAT', https://islamansiklopedisi.org.tr/rabat",
+    "ic_not": "Aralığın ilk yılı."
+   },
+   {
+    "t": "1911-07-19",
+    "gun": "19 Temmuz 1911",
+    "k": "isgal",
+    "b": "Fransız kuvvetleri Rabat ve Selâ'yı işgal etti.",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'RABAT', https://islamansiklopedisi.org.tr/rabat"
+   },
+   {
+    "t": "1912-01-01",
+    "gun": "1912",
+    "k": "idari",
+    "b": "Mareşal Lyautey idarî merkezi Fes'ten Rabat'a taşıdı; Rabat Fransız himayesinin başkenti oldu.",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'RABAT', https://islamansiklopedisi.org.tr/rabat",
+    "ic_not": "Gün yok; himaye antlaşması günü ayrı olay."
+   },
+   {
+    "t": "1912-03-30",
+    "gun": "30 Mart 1912",
+    "k": "antlasma",
+    "b": "Fransa ile Fas arasında koruma (himaye) antlaşması imzalandı.",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'FAS (Fes şehri)', https://islamansiklopedisi.org.tr/fas--fas"
    }
   ],
   "ic_not": "Rabat: ilk = kuruluş (TDV) 545/1150 → atlas 'muvahhidler' 1150-01-01 başlangıcıyla UYARI (ilk.t atlas başlangıcından sonra; zincir boş). Kaynak sayısı: TDV tek (EI² 'al-Ribāṭ' Brill 202/paywall; Britannica 403; UNESCO sayfası kullanılmadı). Çift teyit YOK. ATLAS: Rabat f 1150-01-01 → 1150-04-30. Sala/Chellah (antik) ayrı karar için işaretli."
@@ -29930,7 +29983,10 @@ window.SEHIR_TARIHCE_K3 = [
   "adlar": [
    "Serahs (Saraḵs)",
    "Saragt",
-   "Sarakhs"
+   "Sarakhs",
+   "سرخس",
+   "Serahs",
+   "Серахс"
   ],
   "ilk": {
    "t": "0651-08-24",
@@ -30040,6 +30096,14 @@ window.SEHIR_TARIHCE_K3 = [
     "tanik": "Abdullah b. Hâzim tarafından fethedildi (31/651-52)."
    },
    {
+    "t": "0661-07-29",
+    "gun": "25 Rebîülevvel 41 / 29 Temmuz 661",
+    "k": "diger",
+    "b": "künye geçişi: Hulefâ-yi Râşidîn → Emevî (Muâviye'ye biat)",
+    "kaynak": "TDV İslâm Ansiklopedisi (Muâviye b. Ebû Süfyân), https://islamansiklopedisi.org.tr/muaviye-b-ebu-sufyan",
+    "tanik": "Kûfe’ye giderek ondan ve halktan biat aldı (25 Rebîülevvel 41 / 29 Temmuz 661)."
+   },
+   {
     "t": "0748-01-15",
     "gun": "9 Cemâziyelevvel 130 / 15 Ocak 748",
     "k": "diger",
@@ -30047,31 +30111,6 @@ window.SEHIR_TARIHCE_K3 = [
     "kaynak": "TDV İslâm Ansiklopedisi (Serahs), https://islamansiklopedisi.org.tr/serahs",
     "tanik": "Nasr (9 Cemâziyelevvel 130 / 15 Ocak 748) buradan Serahs’a, ardından Tûs ve Nîşâbur’a çekildi.",
     "ic_not": "Sahip değişimi değil; Abbâsî ihtilâli sırasında Serahs'ın Emevî eliyle son kullanımı."
-   },
-   {
-    "t": "1157-02-13",
-    "gun": "552 / 1157",
-    "k": "diger",
-    "b": "Sencer'in ölümüyle Büyük Selçuklu Devleti sona erer; Serahs bir süre Oğuzlar'da kalır.",
-    "kaynak": "TDV İslâm Ansiklopedisi (Serahs), https://islamansiklopedisi.org.tr/serahs",
-    "tanik": "Sencer’in ölümüyle Büyük Selçuklu Devleti’nin tarihe karışması sonucunda Serahs bir süre Oğuzlar’ın elinde kaldı",
-    "ic_not": "hicrî 552 ∩ 1157 kesişiminin ilk günü; (bu madde ol_selcuklu_son ile aynı olguyu şehir kaynağından da teyit eder)."
-   },
-   {
-    "t": "1193-01-01",
-    "gun": "1193",
-    "k": "fetih",
-    "b": "Hârizmşahlar Serahs'ı da içeren Horasan'a hâkim olur.",
-    "kaynak": "TDV İslâm Ansiklopedisi (Serahs), https://islamansiklopedisi.org.tr/serahs",
-    "tanik": "ardından bütün Horasan’la birlikte şehir ve çevresine Hârizmşahlar hâkim oldu (1193)"
-   },
-   {
-    "t": "0661-07-29",
-    "gun": "25 Rebîülevvel 41 / 29 Temmuz 661",
-    "k": "diger",
-    "b": "künye geçişi: Hulefâ-yi Râşidîn → Emevî (Muâviye'ye biat)",
-    "kaynak": "TDV İslâm Ansiklopedisi (Muâviye b. Ebû Süfyân), https://islamansiklopedisi.org.tr/muaviye-b-ebu-sufyan",
-    "tanik": "Kûfe’ye giderek ondan ve halktan biat aldı (25 Rebîülevvel 41 / 29 Temmuz 661)."
    },
    {
     "t": "0749-11-28",
@@ -30125,15 +30164,71 @@ window.SEHIR_TARIHCE_K3 = [
    },
    {
     "t": "1157-02-13",
+    "gun": "552 / 1157",
+    "k": "diger",
+    "b": "Sencer'in ölümüyle Büyük Selçuklu Devleti sona erer; Serahs bir süre Oğuzlar'da kalır.",
+    "kaynak": "TDV İslâm Ansiklopedisi (Serahs), https://islamansiklopedisi.org.tr/serahs",
+    "tanik": "Sencer’in ölümüyle Büyük Selçuklu Devleti’nin tarihe karışması sonucunda Serahs bir süre Oğuzlar’ın elinde kaldı",
+    "ic_not": "hicrî 552 ∩ 1157 kesişiminin ilk günü; (bu madde ol_selcuklu_son ile aynı olguyu şehir kaynağından da teyit eder)."
+   },
+   {
+    "t": "1157-02-13",
     "gun": "552 H / 1157",
     "k": "diger",
     "b": "Sencer'in ölümü; Büyük Selçuklu Devleti'nin Horasan'daki hâkimiyeti sona erer",
     "kaynak": "TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan",
     "tanik": "Sencer’in ölümünden (552/1157) sonra Oğuzlar’ın Horasan’daki tahribatı devam etti",
     "ic_not": "hicrî 552 ∩ 1157 kesişiminin ilk günü (tablo takvimi, Jülyen); Sencer'in ölüm günü TDV Horasan'da yok."
+   },
+   {
+    "t": "1193-01-01",
+    "gun": "1193",
+    "k": "fetih",
+    "b": "Hârizmşahlar Serahs'ı da içeren Horasan'a hâkim olur.",
+    "kaynak": "TDV İslâm Ansiklopedisi (Serahs), https://islamansiklopedisi.org.tr/serahs",
+    "tanik": "ardından bütün Horasan’la birlikte şehir ve çevresine Hârizmşahlar hâkim oldu (1193)"
+   },
+   {
+    "t": "1221-02-25",
+    "gun": "1221",
+    "k": "fetih",
+    "b": "Serahs Moğol istilâsına uğradı",
+    "kesinlik": "yil",
+    "kaynak": "TDV 'Serahs'",
+    "tanik": "618’de (1221) Moğol istilâsına mâruz kaldı"
    }
   ],
-  "ic_not": "KAYNAK: TDV Serahs (curl ile gövde okundu; Bosworth EI2, Ruska İA bibliyografyada, açılmadı); Iranica Khorasan iii/v (Sasanian Khorasan, Fażl b. Sahl 202/818). Kuruluş: TAHMİN (MÖ VI-IV. yy, TDV) — kaynaklı kuruluş yok. 1157-1193 Oğuz dilimi BOŞLUK (TDV). ATLAS DİKİŞİ: atlas Serahs'ı 1193-01-01'de harizmsah ile başlatır (kaynak: aynı TDV Serahs, 1193) → zincir 1193-01-01'de BOŞLUK ile biter; dikiş olayı TDV Serahs 1193. 1193 sonrası atlasın zinciri esastır (Moğol 618/1221 TDV Serahs ile atlasta zaten var)."
+  "ic_not": "KAYNAK: TDV Serahs (curl ile gövde okundu; Bosworth EI2, Ruska İA bibliyografyada, açılmadı); Iranica Khorasan iii/v (Sasanian Khorasan, Fażl b. Sahl 202/818). Kuruluş: TAHMİN (MÖ VI-IV. yy, TDV) — kaynaklı kuruluş yok. 1157-1193 Oğuz dilimi BOŞLUK (TDV). ATLAS DİKİŞİ: atlas Serahs'ı 1193-01-01'de harizmsah ile başlatır (kaynak: aynı TDV Serahs, 1193) → zincir 1193-01-01'de BOŞLUK ile biter; dikiş olayı TDV Serahs 1193. 1193 sonrası atlasın zinciri esastır (Moğol 618/1221 TDV Serahs ile atlasta zaten var). || [MÜKERRER BİRLEŞTİRME 17 Kasım 2026: serahs-tm (sehir_tarihce_orta_asya.js) kaydından] Tek kaynak TDV 'Serahs' (WebFetch özet aracı). Çift teyit yok. TDV kuruluşu 'milâttan önce VI-IV. yüzyıllarda Persler devrinde kurulduğu tahmin edilmektedir' diye verir: tahmin, yazılı tanık/kuruluş tarihi değil → kur/ark yazılmadı; ilk anılış olarak fetih tarihi (651-52, aralığın son ucu) alındı, daha eski tanık bulunamadı. Atlas Serahs'ı 0500'den başlatır → sahip:[]. 'Serahs' adının kökeni TDV'de Serahs b. Hûzrez iktâsı olarak anlatılır (tarihsiz). Atlas'ta TDV Serahs'tan alıntı zaten vardır; 1157/1193 olayları Serahs'a özgü sahip değişimi değil bölge olaylarıdır (Sencer ölümü sonrası Oğuz hâkimiyeti dilimi TDV'de yıl vermiyor). TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Uyuşmayanlar: TARİH UYUŞMUYOR (olay0.t): eski → 1157-02-13. Serahs 552 (1157): 552 h. 1157-02-13 başlar; Hicrî ∩ milâdî kesişim ilk günü (aritmetik sivil takvim ±2 gün); eski 1157-01-01 hicrî yılın dışında kalıyordu; Herat olay4 ile aynı kesişim. TARİH UYUŞMUYOR (olay2.t): eski → 1221-02-25. Serahs 618 (1221): 618 h. 1221-02-25 başlar; Hicrî ∩ milâdî kesişim ilk günü (aritmetik sivil takvim ±2 gün); eski 1221-01-01 hicrî yılın dışında kalıyordu; Herat olay7 ile aynı kesişim. Önceki notlardaki \"WebFetch özeti / tam metne karşı doğrulandı (tarayıcı) / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir. | Parti5 tanık kuralı (17 Kasım 2026): tanik cümleden birebir yenilendi [ilk]: TDV cümlesi ad+31/651-52; kaynak ifadesi güncellendi",
+  "ad_kaynak": [
+   {
+    "ad": "سرخس",
+    "dil": "ar",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'SERAHS' https://islamansiklopedisi.org.tr/serahs",
+    "kanit": "SERAHS سرخس Türkmenistan’da tarihî bir şehir."
+   },
+   {
+    "ad": "Sarakhs",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'SERAHS (kaynakça)' https://islamansiklopedisi.org.tr/serahs",
+    "kanit": "C. E. Bosworth, “Sarakhs”, EI2 (İng.), IX, 34."
+   },
+   {
+    "ad": "Serahs",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'SERAHS' https://islamansiklopedisi.org.tr/serahs",
+    "kanit": "Serahs’ın ilk defa ne zaman kimler tarafından kurulduğu"
+   },
+   {
+    "ad": "Серахс",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Серахс' https://ru.wikisource.org/wiki/ЭСБЕ/Серахс",
+    "kanit": "Серахс — поселение и стоянка войск Тедженского уезда Закаспийской области"
+   }
+  ]
  },
  {
   "id": "sevilla-es",

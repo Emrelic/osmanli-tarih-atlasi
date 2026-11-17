@@ -1,5 +1,5 @@
-// ŞEHİR TARİHÇESİ — K3_G1 · üretici: arac/sehir_tarihce.py · şema: VERI-YAPISI.md
-// Motor/denetle/site OKUMAZ — araştırma birikimi. Elle düzenleme: JSON'u düzelt, yeniden üret.
+// ŞEHİR TARİHÇESİ — K3_G1 · üretici: arac/sehir_tarihce.py · şema: VERI-YAPISI.md
+// Motor/denetle/site OKUMAZ — araştırma birikimi. Elle düzenleme: JSON'u düzelt, yeniden üret.
 window.SEHIR_TARIHCE_K3_G1 = [
  {
   "id": "aleppo",
@@ -438,14 +438,14 @@ window.SEHIR_TARIHCE_K3_G1 = [
    },
    {
     "f": "1129-01-01",
-    "t": "1146-06-13",
+    "t": "1146-09-14",
     "d": "zengi-musul",
     "kesinlik": "yil",
     "kaynak": "TDV HALEP (Zengî 1129); TDV ZENGÎLER: Zengî Ca‘ber kuşatmasında öldürüldü (541/1146); hicrî 541 ∩ 1146 ilk gün",
     "ic_not": "t hicrî kuralla 541'in ilk gününe düşüyor; Zengî'nin ölümü 541 Rebîülâhirindedir (Eylül 1146) — kural gereği erken uç."
    },
    {
-    "f": "1146-06-13",
+    "f": "1146-09-14",
     "t": "1183-06-12",
     "d": "zengi-halep",
     "kesinlik": {
@@ -844,8 +844,8 @@ window.SEHIR_TARIHCE_K3_G1 = [
     "tanik": "karşısındaki kahramanlıklarıyla tanınan İmâdüddin Zengî’ye verdi (1129)."
    },
    {
-    "t": "1146-06-13",
-    "gun": "541 (1146)",
+    "t": "1146-09-14",
+    "gun": "5 Rebîülâhir 541 / 14 Eylül 1146",
     "k": "diger",
     "b": "Zengî'nin ölümü; Halep oğlu Nûreddin Mahmud'a, Musul Seyfeddin Gazi'ye (künye geçişi)",
     "kaynak": "TDV ZENGÎLER"
@@ -2162,48 +2162,6 @@ window.SEHIR_TARIHCE_K3_G1 = [
   ],
   "dikis_beyan": "Atlas 1205-01-01 atinadukaligi diyor; TDV ATİNA Haçlıların şehri '1204'te' aldığını söyler (yalnız yıl, gün/ay yok), ASCSA 1204'te aşağı şehrin Leon Sgouros tarafından tahrip edildiğini yazar. 1204-1205 arası Haçlı/Akropolis (Mikhail Akominatos) teslim günü bu oturumda okunabilen bir kaynakta (Setton, Gregorovius, Choniates) bulunamadı: erişilen kaynaklarda ±30 gün içinde tarihli olay yok; yer tutucu olay YAZILMADI.",
   "ic_not": "İLK: ASCSA 'ca. 3000 B.C. earliest recorded habitation... (Neolithic)' — arkeolojik (kazı özeti, yıl yaklaşık); TDV 'Neolitik çağlardan beri'. Atina'ya ilişkin yazılı en eski tanık (Homeros, Mikenai Linear B) bu oturumda tarihli olarak okunamadı — borç. SAHİP: MÖ 337–86 arası beyanlı boşluk (Helenistik nüfuz alanı); MÖ 507 öncesi 'arkaik polis' künyesiz. Roma sahipliği MÖ 86'dan (TDV/ASCSA/Plutarkhos), Treccani 146'yı 'conquista romana' sayar — iki kaynak arası fark beyan: TDV (esas) 86. Atina Bizans dönemi (395–1204) tek dönem: Sasani/Arap/Slav akınları kısa olaylar. 1204 sonrası atlas zinciri esastır. ASCSA 1204 kaydı Haçlı değil Leon Sgouros'tur; Haçlı işgali yalnız TDV/Treccani. ÇİFT TEYİT (bağımsız yayın): MÖ 508/507 Kleisthenes (ASCSA + Treccani 508), MÖ 480 Pers yağması (Herodotos 8.53 + TDV), MÖ 146 (ASCSA + Treccani), MÖ 86 Sulla (TDV + ASCSA; gün Plutarkhos), 529 okulların kapanması (ASCSA + TDV). ÇELİŞKİ: Khaironeia MÖ 338 (ASCSA) / Treccani 'nel 337 sottomesse' — Treccani teslim yılını söylüyor, savaşı değil (338 BC = astronomik -0337; dönem sınırı -0337 yazıldı)."
- },
- {
-  "id": "cairo",
-  "ad": "Cairo",
-  "atlas_ad": "Kahire",
-  "lat": 30.063,
-  "lon": 31.25,
-  "kat1900": 2,
-  "adlar": [
-   "el-Kāhire",
-   "Kahire",
-   "Cairo"
-  ],
-  "ilk": {
-   "t": "0969-07-03",
-   "gun": "3 Temmuz 969 (Şâban 358)",
-   "nicelik": "kurulus",
-   "kesinlik": "gun",
-   "kaynak": "TDV CEVHER es-SIKILLÎ; TDV KAHİRE ('Şâban 358’de (Temmuz 969) Fustat’a girdi ... saray ve sur inşaatı başlattı')",
-   "tanik": "Kahire şehrinin temellerini attı"
-  },
-  "kur": {
-   "t": "0969-07-03",
-   "gun": "3 Temmuz 969 (Şâban 358)",
-   "kesinlik": "gun",
-   "kaynak": "TDV CEVHER es-SIKILLÎ; TDV KAHİRE",
-   "tanik": "Kahire şehrinin temellerini attı"
-  },
-  "ark": null,
-  "bit": null,
-  "sahip": [],
-  "olay": [
-   {
-    "t": "0969-07-03",
-    "gun": "3 Temmuz 969",
-    "k": "kurulus",
-    "b": "Cevher es-Sıkıllî Fustat'a girdi, Kahire'nin temellerini attı",
-    "kaynak": "TDV CEVHER es-SIKILLÎ",
-    "tanik": "Furât’ın başkanlığında 3 Temmuz 969’da Cevher’in Cîze’deki karargâhına giderek bağlılıklarını bildirdiler."
-   }
-  ],
-  "ic_not": "g1: zincir atlasın bugünkü başlangıcına göre kırpıldı (atlas 0969-07-01 fatimi; önceki data/sehir_tarihce_osm.js zinciri 1252-01-01'e uzanıyordu). Atlas noktası (30.047, 31.243) Fâtımî Kahire'sinin (Ezher ~30.046, 31.263) ~1,9 km batısında — 3 km içinde. Fustat (22/643, TDV KAHİRE; Amr Camii ~4,2 km), el-Asker (132/750) ve Katâi‘ (254/868) ile Babilon kalesi ayrı yerlerdir — ayrı kayıt önerilir (Fustat: Amr b. Âs, 22/643; Babilon kalesi Fustat'tan önce). Parti koordinatı (GeoNames) atlas noktasına 1.9 km."
  },
  {
   "id": "damascus",

@@ -1,0 +1,1 @@
+şehir 30 | doğrulanmış ad_kaynak girdisi 90 | yeni ad (adlar'a eklenen) 62 | dil 16 ['ae', 'ar', 'bn', 'en', 'fa', 'fr', 'grc', 'kk', 'peo', 'pt', 'ru', 'sa', 'tr', 'tr-osm', 'ur', 'zh'] | okunmadı (veriye konmayan) 58 | adlar'da kaynaksız mevcut ad 31

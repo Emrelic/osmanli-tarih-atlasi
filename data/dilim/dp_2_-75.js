@@ -1,0 +1,3 @@
+// Otomatik üretildi — elle düzenlemeyin. Betik: arac/kodla.py dilim-yaz
+window.__DILIM=window.__DILIM||{};
+window.__DILIM["dp_2_-75"]={sha:"0e57cf9f4a25b48fbf465d1b2c3f5f5e3aff59c4aa79fac50f11e2cee0a450cb",b64:"BMaJAQIECNjcBPDUBGRjYwAAZGC83QSM1ASsAscBrAIAAMcBZGPIAQDIAccBkANjyAGrAqwCAGRjDKsCWAAAxwHIAasCYwBjjwPHAWNjjwPHAWMAjwNjAACVBMgBpQHIAY8DAKsCxwFjY8cBYwBjqwK1DgGNB3PnBZkCrgaGB4AB6gOzAswBIcwB5AHIAUiQA8gBZADIAdgEZADADGSsAmQAAMgBZAAAhAcA"};

@@ -1,3 +1,7 @@
+# ⛔ EMEKLİ (17 Kas 2026): yerine `py arac/acilis_uret.py` (ACILIS-PERDESI-1117).
+#    Bu betik eski şemayı yazar ve yeni perdenin verisini ezerdi; koşturulursa durur.
+import sys as _sys
+_sys.exit("emekli: py arac/acilis_uret.py kullanın (ACILIS-PERDESI-1117)")
 # ACILIS-ANIM-0929 — açılış perdesinin silüet verisini üretir.
 #   py denetim/ARAC-ACILIS-ANIM-0929-URET.py
 # Çıktı: data/acilis_siluet.js içindeki işaretli VERİ bloğu (kurucu kod elle

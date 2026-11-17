@@ -1,0 +1,824 @@
+[
+ {
+  "id": "serahs-tm",
+  "ad_kaynak": [
+   {
+    "ad": "سرخس",
+    "dil": "ar",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'SERAHS' https://islamansiklopedisi.org.tr/serahs",
+    "kanit": "SERAHS سرخس Türkmenistan’da tarihî bir şehir."
+   },
+   {
+    "ad": "Sarakhs",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'SERAHS (kaynakça)' https://islamansiklopedisi.org.tr/serahs",
+    "kanit": "C. E. Bosworth, “Sarakhs”, EI2 (İng.), IX, 34."
+   },
+   {
+    "ad": "Serahs",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'SERAHS' https://islamansiklopedisi.org.tr/serahs",
+    "kanit": "Serahs’ın ilk defa ne zaman kimler tarafından kurulduğu"
+   },
+   {
+    "ad": "Серахс",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Серахс' https://ru.wikisource.org/wiki/ЭСБЕ/Серахс",
+    "kanit": "Серахс — поселение и стоянка войск Тедженского уезда Закаспийской области"
+   }
+  ],
+  "adlar_sira": [
+   "Serahs",
+   "سرخس",
+   "Sarakhs",
+   "Серахс"
+  ],
+  "kaynaksiz": []
+ },
+ {
+  "id": "karakurum-mn",
+  "ad_kaynak": [
+   {
+    "ad": "H̱araẖorim",
+    "dil": "mn",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'KARAKORUM' https://islamansiklopedisi.org.tr/karakorum",
+    "kanit": "Karakorum (Moğolca H̱araẖorim) adını taşıyan şehirlerden biri"
+   },
+   {
+    "ad": "Karakorum",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'KARAKORUM' https://islamansiklopedisi.org.tr/karakorum",
+    "kanit": "Karakorum (Moğolca H̱araẖorim) adını taşıyan şehirlerden biri"
+   },
+   {
+    "ad": "Ordubalık",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'KARAKORUM' https://islamansiklopedisi.org.tr/karakorum",
+    "kanit": "Kaynaklarda umumiyetle Ordubalık, bazan da Mubalık adıyla anılan şehir"
+   },
+   {
+    "ad": "Mubalık",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'KARAKORUM' https://islamansiklopedisi.org.tr/karakorum",
+    "kanit": "umumiyetle Ordubalık, bazan da Mubalık adıyla anılan şehir"
+   },
+   {
+    "ad": "Каракорум",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Каракорум, города' https://ru.wikisource.org/wiki/ЭСБЕ/Каракорум, города",
+    "kanit": "Каракорум — имя, которым назывались два города, существовавшие в разное время"
+   },
+   {
+    "ad": "Дахолин",
+    "dil": "zh",
+    "donem": null,
+    "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Каракорум, города' https://ru.wikisource.org/wiki/ЭСБЕ/Каракорум, города",
+    "kanit": "в лапидарных надписях, найденных близ монастыря Эрдени-цзу — Дахолин"
+   }
+  ],
+  "adlar_sira": [
+   "H̱araẖorim",
+   "Karakorum",
+   "Ordubalık",
+   "Mubalık",
+   "Каракорум",
+   "Дахолин"
+  ],
+  "kaynaksiz": [
+   "Harhorim",
+   "Karakurum"
+  ]
+ },
+ {
+  "id": "almalik-cn",
+  "ad_kaynak": [
+   {
+    "ad": "Almalık",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'ALMALIĞ' https://islamansiklopedisi.org.tr/almalig",
+    "kanit": "Tarihî kaynaklarda Almalık olarak da geçen şehir"
+   },
+   {
+    "ad": "Almalığ",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'ALMALIĞ' https://islamansiklopedisi.org.tr/almalig",
+    "kanit": "müstahkem bir şehir olan Almalığ, XIII. yüzyıl başlarında"
+   }
+  ],
+  "adlar_sira": [
+   "Almalığ",
+   "Almalık"
+  ],
+  "kaynaksiz": []
+ },
+ {
+  "id": "hucend-tj",
+  "ad_kaynak": [
+   {
+    "ad": "Hucend",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'HUCEND' https://islamansiklopedisi.org.tr/hucend",
+    "kanit": "emirlik olarak adı geçen Hucend üzerine müslümanların ilk seferi"
+   },
+   {
+    "ad": "Hucende",
+    "dil": "fa",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'HUCEND' https://islamansiklopedisi.org.tr/hucend",
+    "kanit": "İslâmî kaynaklarda Hucende, Çin kaynaklarında Hu-ch’an ve Hu-jan şeklinde"
+   },
+   {
+    "ad": "Hu-ch’an",
+    "dil": "zh",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'HUCEND' https://islamansiklopedisi.org.tr/hucend",
+    "kanit": "Çin kaynaklarında Hu-ch’an ve Hu-jan şeklinde geçen şehir"
+   },
+   {
+    "ad": "Hu-jan",
+    "dil": "zh",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'HUCEND' https://islamansiklopedisi.org.tr/hucend",
+    "kanit": "Çin kaynaklarında Hu-ch’an ve Hu-jan şeklinde geçen şehir"
+   },
+   {
+    "ad": "Alexandria Eschate",
+    "dil": "grc",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Khujand' https://www.britannica.com/place/Khujand",
+    "kanit": "Also known as: Alexandria Eschate, Chucand, Khodzhent, Khohand, Khojent, Khudzhand, Leninabad"
+   },
+   {
+    "ad": "Chucand",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Khujand' https://www.britannica.com/place/Khujand",
+    "kanit": "Also known as: Alexandria Eschate, Chucand, Khodzhent, Khohand, Khojent, Khudzhand, Leninabad"
+   },
+   {
+    "ad": "Khodzhent",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Khujand' https://www.britannica.com/place/Khujand",
+    "kanit": "Also known as: Alexandria Eschate, Chucand, Khodzhent, Khohand, Khojent, Khudzhand, Leninabad"
+   },
+   {
+    "ad": "Khojent",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Khujand' https://www.britannica.com/place/Khujand",
+    "kanit": "Also known as: Alexandria Eschate, Chucand, Khodzhent, Khohand, Khojent, Khudzhand, Leninabad"
+   },
+   {
+    "ad": "Khudzhand",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Khujand' https://www.britannica.com/place/Khujand",
+    "kanit": "Also known as: Alexandria Eschate, Chucand, Khodzhent, Khohand, Khojent, Khudzhand, Leninabad"
+   },
+   {
+    "ad": "Leninabad",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Khujand' https://www.britannica.com/place/Khujand",
+    "kanit": "Also known as: Alexandria Eschate, Chucand, Khodzhent, Khohand, Khojent, Khudzhand, Leninabad"
+   },
+   {
+    "ad": "Khujand",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Khujand' https://www.britannica.com/place/Khujand",
+    "kanit": "Khujand, city, northwestern Tajikistan."
+   },
+   {
+    "ad": "Ходжент",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Ходжент' https://ru.wikisource.org/wiki/ЭСБЕ/Ходжент",
+    "kanit": "Ходжент — уездный город Самаркандской области, под 40°18′ сев. шир."
+   }
+  ],
+  "adlar_sira": [
+   "Alexandria Eschate",
+   "Hu-ch’an",
+   "Hu-jan",
+   "Hucende",
+   "Hucend",
+   "Chucand",
+   "Khodzhent",
+   "Khojent",
+   "Khudzhand",
+   "Khujand",
+   "Ходжент",
+   "Leninabad"
+  ],
+  "kaynaksiz": [
+   "Leninâbâd"
+  ]
+ },
+ {
+  "id": "askabat-tm",
+  "ad_kaynak": [
+   {
+    "ad": "Poltoratsk",
+    "dil": "ru",
+    "donem": "1919-1927",
+    "kaynak": "TDV İslâm Ansiklopedisi 'AŞKĀBÂD' https://islamansiklopedisi.org.tr/askabad",
+    "kanit": "ihtilâlci Poltoratsk’ın adıyla değiştirildi. Şehir 1924 yılında,"
+   },
+   {
+    "ad": "Aşkābâd",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'AŞKĀBÂD' https://islamansiklopedisi.org.tr/askabad",
+    "kanit": "şehri geri aldı ve Aşkābâd adı, ilk Bolşevik yönetimin"
+   },
+   {
+    "ad": "Ashgabat",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Ashgabat' https://www.britannica.com/place/Ashgabat",
+    "kanit": "Ashgabat, city and capital of Turkmenistan."
+   },
+   {
+    "ad": "Ašchabad",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Ashgabat' https://www.britannica.com/place/Ashgabat",
+    "kanit": "Also known as: Ašchabad, Ashkabad, Ashkhabad, Askhabad, Poltoratsk"
+   },
+   {
+    "ad": "Ashkabad",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Ashgabat' https://www.britannica.com/place/Ashgabat",
+    "kanit": "Also known as: Ašchabad, Ashkabad, Ashkhabad, Askhabad, Poltoratsk"
+   },
+   {
+    "ad": "Ashkhabad",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Ashgabat' https://www.britannica.com/place/Ashgabat",
+    "kanit": "Also known as: Ašchabad, Ashkabad, Ashkhabad, Askhabad, Poltoratsk"
+   },
+   {
+    "ad": "Askhabad",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Ashgabat' https://www.britannica.com/place/Ashgabat",
+    "kanit": "took the name of the nearby Turkmen settlement of Askhabad."
+   },
+   {
+    "ad": "Poltoratsk",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Ashgabat' https://www.britannica.com/place/Ashgabat",
+    "kanit": "the city soon was renamed Poltoratsk, after a local revolutionary."
+   },
+   {
+    "ad": "Асхабад",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Асхабад' https://ru.wikisource.org/wiki/ЭСБЕ/Асхабад",
+    "kanit": "Асхабад — г. Закаспийской обл. Ахалтекинского у."
+   }
+  ],
+  "adlar_sira": [
+   "Aşkābâd",
+   "Askhabad",
+   "Ashkhabad",
+   "Ashkabad",
+   "Ašchabad",
+   "Асхабад",
+   "Poltoratsk",
+   "Ashgabat"
+  ],
+  "kaynaksiz": [
+   "Aşkabat"
+  ]
+ },
+ {
+  "id": "cimkent-kz",
+  "ad_kaynak": [
+   {
+    "ad": "Çîkend",
+    "dil": "fa",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'ÇİMKENT' https://islamansiklopedisi.org.tr/cimkent",
+    "kanit": "Zafernâme’sinde adı Çîkend şeklinde kaydedilir ve Sayram yakınlarında"
+   },
+   {
+    "ad": "Çimkent",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'ÇİMKENT' https://islamansiklopedisi.org.tr/cimkent",
+    "kanit": "ve kale olarak geçen Çimkent, 1700’lerde Hokand Hanlığı’nın"
+   },
+   {
+    "ad": "Shymkent",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Shymkent' https://www.britannica.com/place/Shymkent",
+    "kanit": "Shymkent, city, south-central Kazakhstan."
+   },
+   {
+    "ad": "Čimkent",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Shymkent' https://www.britannica.com/place/Shymkent",
+    "kanit": "Also known as: Čimkent, Chimkent"
+   },
+   {
+    "ad": "Chimkent",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Shymkent' https://www.britannica.com/place/Shymkent",
+    "kanit": "Also known as: Čimkent, Chimkent"
+   },
+   {
+    "ad": "Чимкент",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Чимкент' https://ru.wikisource.org/wiki/ЭСБЕ/Чимкент",
+    "kanit": "Чимкент — уездный город Сыр-Дарьинской области, в 114 верстах к северу"
+   }
+  ],
+  "adlar_sira": [
+   "Çîkend",
+   "Çimkent",
+   "Chimkent",
+   "Čimkent",
+   "Чимкент",
+   "Shymkent"
+  ],
+  "kaynaksiz": []
+ },
+ {
+  "id": "hami-kumul-cn",
+  "ad_kaynak": [
+   {
+    "ad": "Hami",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'TURFAN' https://islamansiklopedisi.org.tr/turfan",
+    "kanit": "Tirmizli hocaların Hami taraflarında bir Budist manastır külliyesinin yanında"
+   },
+   {
+    "ad": "Kumul",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'TURFAN' https://islamansiklopedisi.org.tr/turfan",
+    "kanit": "1868’de Turfan ve Kumul’u kendine bağladı. 1877’de Turfan’ı"
+   },
+   {
+    "ad": "Igu",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'İPEK YOLU' https://islamansiklopedisi.org.tr/ipek-yolu",
+    "kanit": "ilk meskûn nokta o zamanki adı Igu olan Hami (Komul) idi."
+   },
+   {
+    "ad": "Komul",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'İPEK YOLU' https://islamansiklopedisi.org.tr/ipek-yolu",
+    "kanit": "ilk meskûn nokta o zamanki adı Igu olan Hami (Komul) idi."
+   },
+   {
+    "ad": "Хами",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Хамийский оазис' https://ru.wikisource.org/wiki/ЭСБЕ/Хамийский оазис",
+    "kanit": "сяньбийцы, властвовавшие в Хами до 133 г."
+   }
+  ],
+  "adlar_sira": [
+   "Igu",
+   "Hami",
+   "Komul",
+   "Kumul",
+   "Хами"
+  ],
+  "kaynaksiz": []
+ },
+ {
+  "id": "sehrisebz-kes-uz",
+  "ad_kaynak": [
+   {
+    "ad": "Keş",
+    "dil": "fa",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'KEŞ' https://islamansiklopedisi.org.tr/kes",
+    "kanit": "adlarla anılan Keş (Kiş, Kis), Semerkant ile Belh arasındaki"
+   },
+   {
+    "ad": "Kiş",
+    "dil": "fa",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'KEŞ' https://islamansiklopedisi.org.tr/kes",
+    "kanit": "adlarla anılan Keş (Kiş, Kis), Semerkant ile Belh arasındaki"
+   },
+   {
+    "ad": "Kis",
+    "dil": "fa",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'KEŞ' https://islamansiklopedisi.org.tr/kes",
+    "kanit": "adlarla anılan Keş (Kiş, Kis), Semerkant ile Belh arasındaki"
+   },
+   {
+    "ad": "Kia-Sha",
+    "dil": "zh",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'KEŞ' https://islamansiklopedisi.org.tr/kes",
+    "kanit": "Çin kaynaklarında Kia-Sha, Khie-Shu-ang-na, Khu-sha, Khie-She gibi adlarla anılan"
+   },
+   {
+    "ad": "Şehrisebz",
+    "dil": "fa",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'KEŞ' https://islamansiklopedisi.org.tr/kes",
+    "kanit": "anlamına gelen Şehrisebz (halk arasında Şaar-sâbiz) adıyla bilinir."
+   },
+   {
+    "ad": "Şaar-sâbiz",
+    "dil": "uz",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'KEŞ' https://islamansiklopedisi.org.tr/kes",
+    "kanit": "Şehrisebz (halk arasında Şaar-sâbiz) adıyla bilinir. Nüfusu 71.600’dür"
+   }
+  ],
+  "adlar_sira": [
+   "Keş",
+   "Kiş",
+   "Kis",
+   "Kia-Sha",
+   "Şehrisebz",
+   "Şaar-sâbiz"
+  ],
+  "kaynaksiz": []
+ },
+ {
+  "id": "uc-turfan-cn",
+  "ad_kaynak": [
+   {
+    "ad": "Uc Turfan",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'TURFAN' https://islamansiklopedisi.org.tr/turfan",
+    "kanit": "Kurulan şehrin adına Uc Turfan denildi. Asıl Turfan’a ise"
+   },
+   {
+    "ad": "Uc",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'TURFAN' https://islamansiklopedisi.org.tr/turfan",
+    "kanit": "1756’da Aksu’nun batısındaki Uc şehrinin halkı isyan ettiği gerekçesiyle"
+   },
+   {
+    "ad": "Köhne Turfan",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'TURFAN' https://islamansiklopedisi.org.tr/turfan",
+    "kanit": "Asıl Turfan’a ise Köhne Turfan adı verildi."
+   }
+  ],
+  "adlar_sira": [
+   "Uc",
+   "Uc Turfan",
+   "Köhne Turfan"
+  ],
+  "kaynaksiz": [
+   "Uç Turfan"
+  ]
+ },
+ {
+  "id": "mezarisserif-p10",
+  "ad_kaynak": [
+   {
+    "ad": "Mazār-e Sharīf",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Mazār-e Sharīf' https://www.britannica.com/place/Mazar-e-Sharif",
+    "kanit": "lent Mazār-e Sharīf (“tomb of the saint”) its name."
+   },
+   {
+    "ad": "Мазар-и-шериф",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Мазар-и-шериф' https://ru.wikisource.org/wiki/ЭСБЕ/Мазар-и-шериф",
+    "kanit": "Мазар-и-шериф — главный административный центр сев. части Афганистана"
+   }
+  ],
+  "adlar_sira": [
+   "Mazār-e Sharīf",
+   "Мазар-и-шериф"
+  ],
+  "kaynaksiz": [
+   "Mezârışerif"
+  ]
+ },
+ {
+  "id": "akmescid-ua",
+  "ad_kaynak": [
+   {
+    "ad": "Neapolis",
+    "dil": "grc",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'AKMESCİD' https://islamansiklopedisi.org.tr/akmescid",
+    "kanit": "Yunanlılar’ın Neapolis (yeni şehir) adını verdikleri bir kale kurduğu"
+   },
+   {
+    "ad": "Kirmencik",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'AKMESCİD' https://islamansiklopedisi.org.tr/akmescid",
+    "kanit": "Kırım Türkleri tarafından da Kirmencik (küçük kale) adlı bir kale"
+   },
+   {
+    "ad": "Akmescid",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'AKMESCİD' https://islamansiklopedisi.org.tr/akmescid",
+    "kanit": "kurulmuş bulunan şehre Akmescid (Akmeçet) adı, Mengli Giray Han"
+   },
+   {
+    "ad": "Akmeçet",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'AKMESCİD' https://islamansiklopedisi.org.tr/akmescid",
+    "kanit": "kurulmuş bulunan şehre Akmescid (Akmeçet) adı, Mengli Giray Han"
+   },
+   {
+    "ad": "Simferopol",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'AKMESCİD' https://islamansiklopedisi.org.tr/akmescid",
+    "kanit": "Kırım bölgesinde bulunan bugünkü Simferopol şehrinin eski adı."
+   },
+   {
+    "ad": "Symferopil",
+    "dil": "uk",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Simferopol' https://www.britannica.com/place/Simferopol",
+    "kanit": "Also known as: Symferopil"
+   },
+   {
+    "ad": "Ak-Mechet",
+    "dil": "crh",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Simferopol' https://www.britannica.com/place/Simferopol",
+    "kanit": "adjacent to the Tatar settlement of Ak-Mechet"
+   },
+   {
+    "ad": "Ак-Мечеть",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Симферополь' https://ru.wikisource.org/wiki/ЭСБЕ/Симферополь",
+    "kanit": "татарское поселение под назв. Ак-Мечеть (белая мечеть)"
+   },
+   {
+    "ad": "Симферополь",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Симферополь' https://ru.wikisource.org/wiki/ЭСБЕ/Симферополь",
+    "kanit": "Симферополь — губернский город Таврической губернии, при реке Салгир"
+   }
+  ],
+  "adlar_sira": [
+   "Neapolis",
+   "Kirmencik",
+   "Ak-Mechet",
+   "Akmescid",
+   "Akmeçet",
+   "Ак-Мечеть",
+   "Симферополь",
+   "Simferopol",
+   "Symferopil"
+  ],
+  "kaynaksiz": []
+ },
+ {
+  "id": "sudak-ua",
+  "ad_kaynak": [
+   {
+    "ad": "Suğdak",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'KIRIM' https://islamansiklopedisi.org.tr/kirim",
+    "kanit": "III. yüzyılda kurulan Suğdak (Sudak), Kefe gibi şehirleri ele geçirmişlerdi."
+   },
+   {
+    "ad": "Sudak",
+    "dil": "tr",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'KIRIM' https://islamansiklopedisi.org.tr/kirim",
+    "kanit": "III. yüzyılda kurulan Suğdak (Sudak), Kefe gibi şehirleri ele geçirmişlerdi."
+   }
+  ],
+  "adlar_sira": [
+   "Suğdak",
+   "Sudak"
+  ],
+  "kaynaksiz": []
+ },
+ {
+  "id": "hamdullahi-ml",
+  "ad_kaynak": [
+   {
+    "ad": "Hamdullahi",
+    "dil": "tr-osm",
+    "donem": "1815-",
+    "kaynak": "TDV İslâm Ansiklopedisi 'FÛLÂNÎLER' https://islamansiklopedisi.org.tr/fulaniler",
+    "kanit": "1815’te Bani nehri kıyısında Hamdullahi (Hamdallay) şehrini kurarak burasını başşehir yaptı"
+   },
+   {
+    "ad": "Hamdallay",
+    "dil": "ff",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'FÛLÂNÎLER' https://islamansiklopedisi.org.tr/fulaniler",
+    "kanit": "Bani nehri kıyısında Hamdullahi (Hamdallay) şehrini kurarak burasını başşehir yaptı"
+   }
+  ],
+  "adlar_sira": [
+   "Hamdullahi",
+   "Hamdallay"
+  ],
+  "kaynaksiz": []
+ },
+ {
+  "id": "bloemfontein-za",
+  "ad_kaynak": [
+   {
+    "ad": "Bloemfontein",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Bloemfontein' https://www.britannica.com/place/Bloemfontein",
+    "kanit": "Bloemfontein, city, capital of Free State province (formerly Orange Free State)"
+   },
+   {
+    "ad": "Mangaung",
+    "dil": "st",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Bloemfontein' https://www.britannica.com/place/Bloemfontein",
+    "kanit": "Also known as: Mangaung"
+   },
+   {
+    "ad": "Блумфонтен",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Блумфонтен' https://ru.wikisource.org/wiki/ЭСБЕ/Блумфонтен",
+    "kanit": "Блумфонтен (Bloemfontein) — столица"
+   }
+  ],
+  "adlar_sira": [
+   "Bloemfontein",
+   "Mangaung",
+   "Блумфонтен"
+  ],
+  "kaynaksiz": []
+ },
+ {
+  "id": "windhoek-na",
+  "ad_kaynak": [
+   {
+    "ad": "Windhoek",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Windhoek' https://www.britannica.com/place/Windhoek",
+    "kanit": "Windhoek national capital, Namibia Also known as: Aigams"
+   },
+   {
+    "ad": "Aigams",
+    "dil": "naq",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Windhoek' https://www.britannica.com/place/Windhoek",
+    "kanit": "the town was known as Aigams, meaning “hot water,”"
+   }
+  ],
+  "adlar_sira": [
+   "Aigams",
+   "Windhoek"
+  ],
+  "kaynaksiz": [
+   "Queen Adelaide's Bath",
+   "ǀAi-ǁGams",
+   "Otjomuise"
+  ]
+ },
+ {
+  "id": "yola-ng",
+  "ad_kaynak": [
+   {
+    "ad": "Yola",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'ADAMAVA' https://islamansiklopedisi.org.tr/adamava",
+    "kanit": "1841’de Yola şehrini merkez yaparak Garoua ve Ngaoundere gibi yeni şehirler kurmuştur."
+   }
+  ],
+  "adlar_sira": [
+   "Yola"
+  ],
+  "kaynaksiz": []
+ },
+ {
+  "id": "agadez-ne",
+  "ad_kaynak": [
+   {
+    "ad": "Agadez",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Agadez' https://www.britannica.com/place/Agadez",
+    "kanit": "Agadez, town, central Niger, at the southern edge of the Aïr massif."
+   },
+   {
+    "ad": "Agades",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Agadez' https://www.britannica.com/place/Agadez",
+    "kanit": "Also known as: Agades"
+   },
+   {
+    "ad": "Агадес",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Агадес' https://ru.wikisource.org/wiki/ЭСБЕ/Агадес",
+    "kanit": "Агадес — главный город оазиса Аир в Сахаре"
+   }
+  ],
+  "adlar_sira": [
+   "Agadez",
+   "Agades",
+   "Агадес"
+  ],
+  "kaynaksiz": []
+ },
+ {
+  "id": "maseru-ls",
+  "ad_kaynak": [
+   {
+    "ad": "Maseru",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Maseru' https://www.britannica.com/place/Maseru",
+    "kanit": "Maseru, capital and largest urban centre of Lesotho."
+   }
+  ],
+  "adlar_sira": [
+   "Maseru"
+  ],
+  "kaynaksiz": []
+ },
+ {
+  "id": "zinder-af-p9",
+  "ad_kaynak": [
+   {
+    "ad": "Zinder",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Zinder' https://www.britannica.com/place/Zinder",
+    "kanit": "Zinder, city, south-central Niger."
+   },
+   {
+    "ad": "Damagaram",
+    "dil": "ha",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Zinder' https://www.britannica.com/place/Zinder",
+    "kanit": "Zinder Niger Also known as: Damagaram"
+   }
+  ],
+  "adlar_sira": [
+   "Zinder",
+   "Damagaram"
+  ],
+  "kaynaksiz": []
+ },
+ {
+  "id": "bamako-af-p9",
+  "ad_kaynak": [
+   {
+    "ad": "Bamako",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Bamako' https://www.britannica.com/place/Bamako",
+    "kanit": "Bamako, Mali."
+   }
+  ],
+  "adlar_sira": [
+   "Bamako"
+  ],
+  "kaynaksiz": []
+ }
+]

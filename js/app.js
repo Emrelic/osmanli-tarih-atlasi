@@ -779,6 +779,10 @@ window.__govdeYenile = function () {
                geometry: parcaCoz(p.g, DEVLET_PARCALAR, DEVLET_PARCA_HALKA) };
     });
   });
+  // 🔴 İmza yalnız "hangi dönem etkin"i özetler, geometriyi DEĞİL: aynı günde
+  // eksik halkalar sonradan gelirse `devletGuncelle` "değişmedi" sayıp ÇİZMEZDİ
+  // (zaman dilimli parça kipinde her yeni tarihte olur). Sıfırla ⇒ yeniden çiz.
+  devletImza = null;
   try { guncelle(); } catch (e) {
     if (window.console) console.error("🔴 __govdeYenile: guncelle() attı:", e);
     return false;
@@ -11722,6 +11726,12 @@ function kapsamSeridiGuncelle(t) {
 }
 
 function guncelle() {
+  // ZAMAN DİLİMLİ PARÇA (P1 ②) — o yılın gövde parçalarını iste (js/geo_coz.js).
+  // İnmiş parça yeniden istenmez; aynı yılda çağrı bedavadır. Eksik halka
+  // `parcaCoz`ta ATLANIR; parça gelince kanca (__govdeYenile/__donemYenile) çizer.
+  if (typeof window.parcaGerek === "function") {
+    try { window.parcaGerek(idxTarih(suanki).y); } catch (eP) { /* çizimi durdurmaz */ }
+  }
   kapsamSeridiGuncelle(suanki);
   if (ustbarTarih) ustbarTarih.textContent = zamanTarihYazi(suanki);
   if (ustbarYil) ustbarYil.textContent = idxTarih(suanki).y;
@@ -12084,6 +12094,12 @@ function damgaMadde() {
 }
 
 function baslikDamgala() {
+  // KRONOATLAS P3 (16 Kasım 2026): halka açık sitede başlık TEMİZ kalır (js/marka.js yazar);
+  // durum damgası yalnız geliştirici kipinde (?gelistirici=1 / ?tani= ya da Ctrl+Alt+G).
+  if (!window.GELISTIRICI_KIPI && !(document.body && document.body.classList.contains("gelistirici"))) {
+    if (window.MARKA_BASLIK && document.title !== window.MARKA_BASLIK) document.title = window.MARKA_BASLIK;
+    return;
+  }
   // ⚠️ `haritaHazir` ŞART DEĞİL. Şart koşulmuştu ve şu kusuru üretti: bayrak
   // yalnız MapLibre'in "load" olayında true oluyor, o da altlık stili inene
   // kadar beklyor; yavaş bir açılışta sayfa görünür haldeyken başlık hâlâ
@@ -12098,7 +12114,7 @@ function baslikDamgala() {
     try { s = harita.getBounds(); } catch (e2) { s = null; }
     // Sitenin adı (Emre, 9 Ekim 2026: "tarih atlası daha doğru") — yalnız AD
     // değişti; "Osmanlı" çekirdek katmanı anlatan metinlerde (lejant vb.) kalır.
-    var parcalar = ["Tarih Atlası", iso,
+    var parcalar = ["KRONOATLAS", iso,
       Math.abs(c.lat).toFixed(2) + (c.lat < 0 ? "S" : "N") + " " +
       Math.abs(c.lng).toFixed(2) + (c.lng < 0 ? "W" : "E"),
       "z" + (Math.round(z * 10) / 10)];
@@ -17409,39 +17425,67 @@ AYLAR.forEach(function (a, i) {
 // etmez). Döner: {gi: gün indeksi} ya da {hata: kullanıcıya gösterilecek metin}.
 // ⚠️ SESSİZ KALMA YASAK (görev şartı) — her ayrıştırılamayan girdi bir
 // `hata` metniyle döner, boş/undefined DÖNMEZ.
+// 🆕 TARIHE-GIT-MO-1117 (Emre, 17 Kasım 2026: "gerek milat 0 senesine gerek -10
+// gerek -111 gerek -1236 gerek -12000 senesine gerek 15 gerek 123 gerek 1234
+// gerek 1912 senesine gidebilecek şekilde"). Yıl artık 1-5 hane ve İŞARETLİ:
+//   "-1236" · "MÖ 1236" · "M.Ö. 1236" · "1236 MÖ" → MÖ 1236 (TARİHSEL yıl; "-n" = "MÖ n",
+//   sitenin "MÖ n" yazısıyla aynı — iç sayımdaki astronomik 1−n'e burada çevrilir)
+//   "MS 15" · "15" → MS 15 (0-99 artık 1900'lere KAYMAZ: gün sayacı GUN, Date değil)
+//   "0" → milat: 1 Ocak MS 1 (0 yılı takvimde yok; bu söylenir, sessiz değil).
+// Gün/ay biçimleri de işaretli yılı alır: "-1236-05-29" · "29.05.-1236" · "29 Mayıs MÖ 1236".
 function tarihMetniAyristir(ham) {
   var s = String(ham == null ? "" : ham).trim().replace(/\s+/g, " ");
   if (!s) return { hata: "Bir tarih yazın." };
+  var ORNEK = "Örnek: 1453 · 29 Mayıs 1453 · 29.05.1453 · 1453-05-29 · 15 · 0 · -1236 · MÖ 12000";
+  // Çağ eki: baştaki ya da sondaki "MÖ"/"M.Ö."/"MS"/"M.S." (büyük-küçük, aksansız "MO").
+  // _tgKucuk/_tgAscii harf başına tek harf verir ⇒ `kucuk` ile `s` aynı uzunlukta.
+  var kucuk = _tgAscii(_tgKucuk(s));
+  var mo = false, ms = false, cm;
+  // Ek başta, ortada ya da sonda olabilir: "MÖ 1236" · "M.Ö.1236" · "1236 MÖ" · "29 Mayıs MÖ 1236".
+  // Ay adları ("Mayıs", "Mart") "m"den sonra harf aldığı için eşleşmez.
+  if ((cm = kucuk.match(/(?:^|(?<=[\d ]))m\.? ?([os])\.? ?(?=[-\d ]|$)/))) {
+    mo = cm[1] === "o"; ms = !mo;
+    s = (s.slice(0, cm.index) + " " + s.slice(cm.index + cm[0].length)).trim().replace(/\s+/g, " ");
+  }
+  if (!s) return { hata: "Yıl yazın. " + ORNEK };
+  var Y = "(-?\\d{1,5})";
   var m, yil, ay, gun;
-  if ((m = s.match(/^(\d{1,4})-(\d{1,2})(?:-(\d{1,2}))?$/))) {
+  if ((m = s.match(new RegExp("^" + Y + "-(\\d{1,2})(?:-(\\d{1,2}))?$")))) {
     yil = +m[1]; ay = +m[2]; gun = m[3] ? +m[3] : 1;
-  } else if ((m = s.match(/^(\d{1,2})\.(\d{1,2})\.(\d{1,4})$/))) {
+  } else if ((m = s.match(new RegExp("^(\\d{1,2})\\.(\\d{1,2})\\." + Y + "$")))) {
     gun = +m[1]; ay = +m[2]; yil = +m[3];
-  } else if ((m = s.match(/^(\d{1,2}) ([^\d ]+) (\d{1,4})$/))) {
+  } else if ((m = s.match(new RegExp("^(\\d{1,2}) ([^\\d -]+) " + Y + "$")))) {
     gun = +m[1]; yil = +m[3];
     ay = _TG_AY_NO[_tgKucuk(m[2])] || _TG_AY_NO[_tgAscii(_tgKucuk(m[2]))];
     if (!ay) return { hata: "Ay adı tanınmadı: “" + m[2] + "” — " + AYLAR.join(", ") };
-  } else if ((m = s.match(/^([^\d ]+) (\d{1,4})$/))) {
+  } else if ((m = s.match(new RegExp("^([^\\d -]+) " + Y + "$")))) {
     yil = +m[2]; gun = 1;
     ay = _TG_AY_NO[_tgKucuk(m[1])] || _TG_AY_NO[_tgAscii(_tgKucuk(m[1]))];
     if (!ay) return { hata: "Ay adı tanınmadı: “" + m[1] + "” — " + AYLAR.join(", ") };
-  } else if ((m = s.match(/^(\d{1,4})$/))) {
-    yil = +m[1]; ay = 1; gun = 1;
+  } else if ((m = s.match(new RegExp("^" + Y + "$")))) {
+    yil = +m[1]; ay = 1; gun = 1; var yalnizYil = true;
   } else {
-    return { hata: "Anlaşılamadı. Örnek: 1453 · 1453-05-29 · 29.05.1453 · 29 Mayıs 1453 · Mayıs 1453" };
+    return { hata: "Anlaşılamadı. " + ORNEK };
   }
-  if (ay < 1 || ay > 12) return { hata: "Ay 1-12 arası olmalı (“" + s + "”)" };
-  if (gun < 1 || gun > 31) return { hata: "Gün 1-31 arası olmalı (“" + s + "”)" };
-  if (yil < 1) return { hata: "Yıl geçersiz (“" + s + "”)" };
-  // DENETIM-1111 — Date.UTC(0-99, …) yılı 1900+'a kaydırır ("50" → 1950) ve taşan
-  // günü sessizce sonraki aya atar ("1453-02-30" → 2 Mart). Yıl setUTCFullYear ile
-  // kurulur; gün takvimde yoksa açık hata döner (SESSİZ KALMA YASAK).
-  var d = new Date(Date.UTC(2000, 0, 1));
-  d.setUTCFullYear(yil, ay - 1, gun);
-  if (d.getUTCMonth() !== ay - 1 || d.getUTCDate() !== gun) {
-    return { hata: "Takvimde böyle bir gün yok (“" + s + "”)" };
+  if (ay < 1 || ay > 12) return { hata: "Ay 1-12 arası olmalı (“" + ham + "”)" };
+  if (yil < 0 && (mo || ms)) return { hata: "Eksi işaretiyle MÖ/MS birlikte yazılmaz (“" + ham + "”)" };
+  // Tarihsel yıl → astronomik yıl (GUN'un saydığı): MÖ n = 1 − n · MS n = n.
+  var not = null, astro;
+  if (yil === 0) {
+    if (mo) return { hata: "MÖ 0 yılı yoktur; MÖ 1'den sonra MS 1 gelir (“" + ham + "”)" };
+    astro = 1; ay = 1; gun = 1; not = "0 yılı takvimde yoktur; milada (1 Ocak MS 1) gidildi";
+  } else if (yil < 0 || mo) {
+    astro = 1 - Math.abs(yil);
+  } else {
+    astro = yil;
   }
-  return { gi: Math.round(d.getTime() / 864e5) };
+  // DENETIM-1111 — taşan gün sessizce sonraki aya atılmaz ("1453-02-30" → hata).
+  if (gun < 1 || gun > GUN.ayUzunlugu(astro, ay)) {
+    return { hata: "Takvimde böyle bir gün yok (“" + ham + "”)" };
+  }
+  // Yalnız yıl yazıldıysa o yılın aralığı da döner: "1912" 5 Kasım 1911'e değil 1912'ye gitmeli.
+  return { gi: GUN.gunSayisi(astro, ay, gun), not: not,
+           yilSonu: yalnizYil ? GUN.gunSayisi(astro + 1, 1, 1) : null };
 }
 
 // `olaylar[]` `.gi`ye göre ARTAN sırayla (olayIndexTazele'nin kendi
@@ -17487,6 +17531,22 @@ function enYakinOlayBul(gi) {
     }
     var o = enYakinOlayBul(hedefGi);
     if (!o) { _durumYaz("⚠️ Yakın bir olay bulunamadı.", true); return; }
+    // TARIHE-GIT-MO-1117: yalnız yıl yazıldıysa ve en yakın madde BAŞKA yıldaysa
+    // o yılın içindeki ilk madde aranır; yoksa yılın kendisine (1 Ocak) gidilir.
+    if (!kirpildi && sonuc.yilSonu != null && (o.gi < sonuc.gi || o.gi >= sonuc.yilSonu)) {
+      var ic = enYakinOlayBul(sonuc.gi);
+      if (ic && ic.gi < sonuc.gi) {
+        var k = olaylar.indexOf(ic);
+        ic = k >= 0 && k + 1 < olaylar.length ? olaylar[k + 1] : null;
+      }
+      if (ic && ic.gi >= sonuc.gi && ic.gi < sonuc.yilSonu) o = ic;
+      else {
+        tarihAyarla(hedefGi);
+        _durumYaz("ℹ️ " + (sonuc.not ? sonuc.not + " · " : "") + GUN.yilYazi(idxTarih(hedefGi).y) +
+          " — bu yılda ana kronolojide madde yok (en yakını " + olayTarihYazi(o) + ")");
+        return;
+      }
+    }
     // 🆕 ZAMAN-GENİŞ-1008 — ana kronoloji (OLAYLAR) bugün 1281 öncesinde 0,
     // 1923-10-29 sonrasında 2 madde taşıyor (ölçüldü); 1281 öncesinin 1202 ve
     // 1923–1945'in 505 maddesi DEVLET kronolojilerinde. "1100" yazan kullanıcıyı
@@ -17495,18 +17555,18 @@ function enYakinOlayBul(gi) {
     var UZAK_GUN = 5 * 365;
     if (!kirpildi && Math.abs(o.gi - hedefGi) > UZAK_GUN) {
       tarihAyarla(hedefGi);
-      _durumYaz("ℹ️ " + idxTarih(hedefGi).y + " — ana kronolojide bu yıla yakın madde yok (en yakını " +
+      _durumYaz("ℹ️ " + (sonuc.not ? sonuc.not + " · " : "") + GUN.yilYazi(idxTarih(hedefGi).y) + " — ana kronolojide bu yıla yakın madde yok (en yakını " +
         olayTarihYazi(o) + "); devlet kronolojileri için ☪ seçicisinden devlet seçin.");
       return;
     }
     olayaGit(o, true, true);
     if (kirpildi) {
-      _durumYaz("ℹ️ Atlas " + idxTarih(BASLANGIC).y + "–" + idxTarih(BITIS).y +
+      _durumYaz("ℹ️ Atlas " + GUN.yilYazi(idxTarih(BASLANGIC).y) + "–" + GUN.yilYazi(idxTarih(BITIS).y) +
         " arasını kapsıyor (yazdığınız tarih " +
         (kirpildi === "önce" ? "öncesinde" : "sonrasında") +
         "); en yakın olaya götürüldü: " + olayTarihYazi(o));
     } else {
-      _durumYaz("✓ " + olayTarihYazi(o) + " — " + o.b);
+      _durumYaz("✓ " + (sonuc.not ? sonuc.not + " · " : "") + olayTarihYazi(o) + " — " + o.b);
     }
   }
   // 14 Eylül 2026 — "📅 Git" butonu kaldırıldı; tek tetik Enter.

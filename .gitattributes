@@ -38,6 +38,10 @@ data/*_parcalar_*.js -text
 data/*_parca.js     -text
 data/*_ust.js       -text
 data/*_on.js        -text
+# 16 Kasım 2026 (P1 ②): zaman dilimli parçalar — manifest dosya BOYUNU da
+# kaydeder (`kodla.py kapi` ölçer); CRLF dönüşümü boyu ve damgayı bozardı.
+data/dilim/**       -text
+data/parca_manifest.js -text
 
 # ─────────────────────────────────────────────────────────────────────────────
 # YAMA DOSYALARI — satır sonu DÖNÜŞTÜRÜLMEZ (1 Ekim 2026, KOSU-UMIT ölçtü)

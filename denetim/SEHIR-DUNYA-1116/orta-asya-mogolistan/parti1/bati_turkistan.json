@@ -1,0 +1,140 @@
+[
+ {
+  "id": "buhara-uz", "ad": "Buhara", "atlas_ad": "Buhara", "lat": 39.7681, "lon": 64.421, "kat1900": 1,
+  "adlar": ["Pu-ha (Çin kaynakları, VII. yy)", "Buhara"],
+  "ilk": {"t": "0630-01-01", "gun": "630 civarı", "nicelik": "ilk_anilis", "kesinlik": "onyil",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Buhara', https://islamansiklopedisi.org.tr/buhara (16 Kasım 2026'da okundu; WebFetch aracıyla; alıntı aracın verdiği parçadır)",
+   "tanik": "Pu-ha şeklinde 630 yılı civarında Çinli seyyah Hüang-Tsang tarafından kullanılır"},
+  "kur": null, "ark": null, "bit": null,
+  "sahip": [],
+  "olay": [
+   {"t": "0674-01-01", "gun": "674", "k": "fetih", "b": "Horasan valisi Ubeydullah b. Ziyâd Buhara'yı fethetti (Emevî)", "kesinlik": "yil",
+    "kaynak": "TDV 'Buhara' (okuma: WebFetch)", "tanik": "Ubeydullah b. Ziyâd tarafından fethedilmiştir"},
+   {"t": "0992-01-01", "gun": "992", "k": "fetih", "b": "Karahanlı Hârun Buğra Han Buhara'yı geçici olarak işgal etti", "kesinlik": "yil",
+    "kaynak": "TDV 'Buhara'", "tanik": "Buğra Han 382’de (992) Buhara’yı geçici olarak işgal etti"},
+   {"t": "0999-01-01", "gun": "999", "k": "fetih", "b": "Karahanlı İlig Han Nasr b. Ali Buhara'yı alıp Sâmânî Devleti'ne son verdi", "kesinlik": "yil",
+    "kaynak": "TDV 'Buhara'", "tanik": "Böylece Buhara 389 (999) yılına kadar Sâmânîler tarafından idare edildi"},
+   {"t": "1141-01-01", "gun": "1141", "k": "diger", "b": "Katvân savaşından (9 Eylül 1141) sonra şehir Karahıtaylar'ın idaresine geçti (geçiş günü kaynakta yok; savaş günü 5 Safer 536 = 9 Eylül 1141)", "kesinlik": "yil",
+    "kaynak": "TDV 'Buhara'", "tanik": "Katvân savaşından sonra şehir putperest Karahıtaylar’ın idaresine geçti"},
+   {"t": "1207-01-01", "gun": "1207", "k": "fetih", "b": "Hârizmşah Muhammed b. Tekiş Buhara'yı idaresine aldı", "kesinlik": "yil",
+    "kaynak": "TDV 'Buhara'", "tanik": "Aynı yıl şehir Hârizmşah Muhammed b. Tekiş’in idaresi altına girdi"},
+   {"t": "1220-02-10", "gun": "10 Şubat 1220", "k": "fetih", "b": "Moğollar Buhara'yı işgal edip yağmaladı", "kesinlik": "gun",
+    "kaynak": "TDV 'Buhara' (4 Zilhicce 616 = 10 Şubat 1220, TDV'nin kendi mîlâdî karşılığı)", "tanik": "4 Zilhicce 616 (10 Şubat 1220) tarihinde Moğol orduları tarafından işgal edilip yağmalandı"},
+   {"t": "1500-01-01", "gun": "1500", "k": "fetih", "b": "Şeybânî Han kumandasındaki Özbekler Buhara'yı ele geçirdi (yaz mevsimi)", "kesinlik": "yil",
+    "kaynak": "TDV 'Buhara'", "tanik": "905 (1500) yılı yaz mevsiminde Buhara Şeybânî Han kumandasındaki Özbekler tarafından ele geçirildi"},
+   {"t": "1599-01-01", "gun": "1599", "k": "diger", "b": "Abdullah Han'ın ölümünden bir yıl sonra Buhara Hanlığı Canoğulları hânedanına geçti (künye geçişi)", "kesinlik": "yil",
+    "kaynak": "TDV 'Buhara'", "tanik": "Buhara Hanlığı Canoğulları hânedanının eline geçti"}
+  ],
+  "ic_not": "Tek kaynak: TDV 'Buhara' (WebFetch özet aracı; tanik alanlarındaki parçalar aracın sayfadan verdiği alıntılardır, tam metinle karşılaştırılmadı). Çift teyit (Barthold/Bosworth/Iranica) ARANDI: iranicaonline.org HTTP 403; teyit edilemedi, TDV tek kaynak. İlk anılış '630 civarı' onyil kesinliği; TDV V. yy Çin kaynaklarında 'Nûmickes' adını da anar (fetch özetinde, alıntı doğrulanamadı → yazılmadı). Atlas Buhara'yı 0500-01-01'de başlatır (ilk.t'den önce) → sahip:[] (atlas zinciri esas). ÇELİŞKİ (atlas düzeltme önerisi): TDV Emevî fethini 674 (Ubeydullah b. Ziyâd) verir, atlas buhara-hudat→emevi dikişini 709'da taşır; atlas referans değildir, bu kaynaklı bir tespit değil, ölçülmesi gereken bir farktır (Kuteybe 706-709 sefer yılları bu oturumda okunamadı). Karahıtay geçişi günü TDV'de yok (yalnız Katvân savaş günü)."
+ },
+ {
+  "id": "semerkant-uz", "ad": "Semerkant", "atlas_ad": "Semerkant", "lat": 39.6542, "lon": 66.9758, "kat1900": 2,
+  "adlar": ["Maracanda (Grekçe)", "K'ang / Hsi-wan-chin (Çin vekāyi‘nâmeleri)", "Semerkant"],
+  "ilk": {"t": "-0328-01-01", "gun": "MÖ 329", "nicelik": "ilk_anilis", "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Semerkant', https://islamansiklopedisi.org.tr/semerkant (16 Kasım 2026'da okundu; WebFetch aracıyla)",
+   "tanik": "Milâttan önce 329 yılında Semerkant’ı Persler’den alan Büyük İskender"},
+  "kur": null, "ark": null, "bit": null,
+  "sahip": [
+   {"f": "-0328-01-01", "t": "0500-01-01", "d": "__BOSLUK__", "kesinlik": "yil",
+    "kaynak": "bulunamadı (MÖ 329 ile MS 500 arası ardışık sahip tarihleri bu oturumda kaynaklanmadı)",
+    "ic_not": "TDV özeti Selevkos ve Grek-Baktria idaresini anar fakat yıl/gün vermez (alıntı doğrulanamadı); Kuşan/Sâsânî/Eftalit/Göktürk zinciri atlasta 0500'den başlar. Dilim bu yüzden beyanlı boşluktur; kaynaklı doldurma için Arrian (Anabasis), Rtveladze/Bernard monografileri, DergiPark Orta Asya antik dönem makaleleri gerekir."}
+  ],
+  "olay": [
+   {"t": "-0328-01-01", "gun": "MÖ 329", "k": "fetih", "b": "Büyük İskender Semerkant'ı (Maracanda) Persler'den aldı", "kesinlik": "yil",
+    "kaynak": "TDV 'Semerkant'", "tanik": "Milâttan önce 329 yılında Semerkant’ı Persler’den alan Büyük İskender"},
+   {"t": "0711-01-01", "gun": "711", "k": "fetih", "b": "Müslüman Araplar (Kuteybe b. Müslim) Semerkant'ı kesin biçimde fethetti", "kesinlik": "yil",
+    "kaynak": "TDV 'Semerkant'", "tanik": "kesin biçimde fethedildi (93/711)"},
+   {"t": "0992-01-01", "gun": "992", "k": "fetih", "b": "Karahanlı Hârun Buğra Han Semerkant'ı kısa süre ele geçirdi", "kesinlik": "yil",
+    "kaynak": "TDV 'Semerkant'", "tanik": "382 (992) yılında Karahanlı Harun Buğra Han kısa bir süre Semerkant’ı ele geçirdiyse de"},
+   {"t": "0999-01-01", "gun": "999", "k": "fetih", "b": "Semerkant tekrar Karahanlılar'ın eline geçti", "kesinlik": "yil",
+    "kaynak": "TDV 'Semerkant'", "tanik": "389’da (999) tekrar Karahanlılar’ın eline geçti"},
+   {"t": "1220-01-01", "gun": "1220", "k": "fetih", "b": "Cengiz Han Semerkant'ı tahrip etti", "kesinlik": "yil",
+    "kaynak": "TDV 'Semerkant'", "tanik": "Cengiz Han’ın 617’de (1220) Semerkant’ı tahrip etmesinden sonra"},
+   {"t": "1369-01-01", "gun": "1369", "k": "diger", "b": "Timur Semerkant'ı başşehri yaptı (TDV: 771/1369)", "kesinlik": "yil",
+    "kaynak": "TDV 'Semerkant'", "tanik": "Timur’un Semerkant’ı kendisine başşehir yapması"},
+   {"t": "1500-01-01", "gun": "1500", "k": "fetih", "b": "Özbek hükümdarı Şeybânî Han Semerkant'ı ele geçirdi", "kesinlik": "yil",
+    "kaynak": "TDV 'Semerkant'", "tanik": "1500’de Özbek Hükümdarı Şeybânî Han tarafından ele geçirilen Semerkant"},
+   {"t": "1868-05-14", "gun": "14 Mayıs 1868", "k": "fetih", "b": "Ruslar Semerkant'ı zapt etti", "kesinlik": "gun",
+    "kaynak": "TDV 'Semerkant'", "tanik": "Ruslar 14 Mayıs 1868’de Semerkant’ı zaptederek"}
+  ],
+  "dikis_beyan": "Atlas Semerkant'ı 0500-01-01'de eftalit ile başlatır; MÖ 329-MS 500 arası sahip kaynaklı olarak doldurulamadı (beyanlı boşluk), 0500-01-01 için el değiştirme tanığı yok, yer tutucu olay yazılmadı.",
+  "ic_not": "Tek kaynak TDV 'Semerkant' (WebFetch özet aracı; tanik parçaları aracın verdiği alıntılar). Çift teyit aranadı: iranicaonline.org HTTP 403. TDV Timur'un başşehir yapışını 771/1369 verir (yaygın 1370; TDV esas, fark beyanı). Maracanda MÖ 329 İskender'in alınışıdır; şehir ondan eskidir (Efrâsiyâb höyüğü, TDV: 'günümüze ulaşan harabelerine Efrâsiyâb adı verilmektedir'). ÖNERİ: Efrâsiyâb (Afrasiyab) antik yerleşimi ~1-2 km'de ise ayrı kayıt; modern noktaya uzaklığı bu oturumda ölçülmedi. Kuteybe fethi: TDV 93/711 (başka kaynaklar 712 verir; TDV esas)."
+ },
+ {
+  "id": "taskent-uz", "ad": "Taşkent", "atlas_ad": "Taşkent", "lat": 41.311, "lon": 69.28, "kat1900": 1,
+  "adlar": ["Çâç / Şâş (bölge adı)", "Binkes (merkez)", "Taşkent"],
+  "ilk": {"t": "0713-01-01", "gun": "713", "nicelik": "ilk_anilis", "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Taşkent', https://islamansiklopedisi.org.tr/taskent (16 Kasım 2026'da okundu; WebFetch aracıyla)",
+   "tanik": "Kuteybe b. Müslim tarafından ele geçirilip (94/713) tahrip edildi"},
+  "kur": null, "ark": null, "bit": null,
+  "sahip": [],
+  "olay": [
+   {"t": "0713-01-01", "gun": "713", "k": "fetih", "b": "Kuteybe b. Müslim şehri ele geçirip tahrip etti", "kesinlik": "yil",
+    "kaynak": "TDV 'Taşkent'", "tanik": "Kuteybe b. Müslim tarafından ele geçirilip (94/713) tahrip edildi"},
+   {"t": "1220-01-01", "gun": "1220", "k": "fetih", "b": "Cengiz Han Taşkent'i istilâ etti", "kesinlik": "yil",
+    "kaynak": "TDV 'Taşkent'", "tanik": "1220’de Cengiz Han tarafından istilâ edildi"},
+   {"t": "1503-01-01", "gun": "1503", "k": "fetih", "b": "Özbek Şeybânî Han Taşkent'i aldı", "kesinlik": "yil",
+    "kaynak": "TDV 'Taşkent'", "tanik": "908’de (1503) Taşkent’i Özbek Şeybânî Han aldı"},
+   {"t": "1809-01-01", "gun": "1809", "k": "fetih", "b": "Taşkent Hokand Hanlığı'nın egemenliğine girdi", "kesinlik": "yil",
+    "kaynak": "TDV 'Taşkent'", "tanik": "Hokand Hanlığı’nın egemenliğine girdi (1809)"},
+   {"t": "1865-06-01", "gun": "Haziran 1865", "k": "fetih", "b": "Çarlık Rusyası orduları Taşkent'i işgal etti", "kesinlik": "ay",
+    "kaynak": "TDV 'Taşkent'", "tanik": "Haziran 1865’te Çarlık Rusyası orduları tarafından işgal edilen"}
+  ],
+  "ic_not": "Tek kaynak TDV 'Taşkent' (WebFetch özet aracı; tanik parçaları aracın verdiği alıntılar, tam metinle karşılaştırılmadı). Çift teyit aranmadı/edilemedi (Iranica 403). İLK ANILIŞ UYARISI: 713 TDV'nin verdiği en eski tarihtir (fetih/tahrip); Çaç/Şâş adının Çin ve Soğd kaynaklarındaki daha eski anılışları (TDV: '6.-8. yy Türk hâkimiyetinde ticaret merkezi') alıntıyla doğrulanamadı, bu yüzden daha eski ilk anılış bulunabilir. TDV'nin 'Şâş adının Türkçe Taşkent'ten geldiği' ve 'Taşkent adı XI. yy'da Bîrûnî'de' ifadeleri alıntı olarak doğrulanamadı; ad sırası bu yüzden yalnız TDV'nin bölge/merkez ayrımına dayanır. Atlas 0500'de başlar → sahip:[]."
+ },
+ {
+  "id": "hokand-uz", "ad": "Hokand", "atlas_ad": "Hokand", "lat": 40.529, "lon": 70.943, "kat1900": 2,
+  "adlar": ["Huvâkand (Yâkūt)", "Huvâkend (İstahrî, İbn Havkal)", "Hokand (Hukand)"],
+  "ilk": {"t": "0999-01-01", "gun": "MS 10. yüzyıl", "nicelik": "ilk_anilis", "kesinlik": "yuzyil",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Hokand', https://islamansiklopedisi.org.tr/hokand (16 Kasım 2026'da okundu; WebFetch aracıyla): X. yüzyıl Arap coğrafyacılarının eserlerinde (İstahrî s. 335, İbn Havkal s. 461)",
+   "tanik": "X. yüzyıl Arap coğrafyacılarının eserlerinde"},
+  "kur": null, "ark": null, "bit": null,
+  "sahip": [],
+  "olay": [
+   {"t": "1875-08-01", "gun": "Ağustos 1875", "k": "fetih", "b": "Hokand Ruslar tarafından kuşatıldı", "kesinlik": "ay",
+    "kaynak": "TDV 'Hokand'", "tanik": "Ağustos 1875’te"},
+   {"t": "1876-02-01", "gun": "Şubat 1876", "k": "fetih", "b": "Hokand Rusya'ya ilhak edildi", "kesinlik": "ay",
+    "kaynak": "TDV 'Hokand'", "tanik": "ertesi yıl da ilhak edilmiştir (Şubat 1876)"}
+  ],
+  "ic_not": "Tek kaynak TDV 'Hokand' (WebFetch özet aracı). Çift teyit yok. TDV kuruluş tarihi vermez: 'Şehrin ne zaman kurulduğu hakkında bir bilgi bulunmamakla beraber' (alıntı aracın verdiği); ilk anılış X. yy, güvenli uç 0999-01-01 (yuzyil). Hokand Hanlığı'nın 1710 başlangıcı ve Şahruh Bî TDV 'Hokand' maddesinde YOK (fetch sonucu: yalnız 'XVIII. yüzyılın ortalarından sonra Özbek Ming hânedanının' başşehri) → yazılmadı; atlas kd 1710 kaynak bu oturumda doğrulanamadı. Atlas 0500'de başladığı için sahip:[]."
+ },
+ {
+  "id": "hive-uz", "ad": "Hîve", "atlas_ad": "Hîve", "lat": 41.3783, "lon": 60.3639, "kat1900": 1,
+  "adlar": ["Hîve"],
+  "ilk": {"t": "0999-01-01", "gun": "MS 10. yüzyıl", "nicelik": "ilk_anilis", "kesinlik": "yuzyil",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Hîve Hanlığı', https://islamansiklopedisi.org.tr/hive-hanligi (16 Kasım 2026'da okundu; WebFetch aracıyla)",
+   "tanik": "Arap coğrafyacılarının eserlerinde X. yüzyılda adına rastlanan Hîve"},
+  "kur": null, "ark": null, "bit": null,
+  "sahip": [
+   {"f": "0999-01-01", "t": "1281-01-01", "d": "__BOSLUK__", "kesinlik": "yil",
+    "kaynak": "bulunamadı (X. yy - 1281 arası Hîve şehrine özgü sahip zinciri kaynaklanamadı)",
+    "ic_not": "TDV 'Hîve Hanlığı' maddesi 1221'den itibaren Moğol, 1388'den itibaren Timur imparatorluklarına 'başkentlik' cümlesini verir; cümle şehri (Hîve) mi bölgeyi (Hârizm/Ürgenç) mi kastettiği belirsiz olduğundan ve Moğol künyesinin bu tarihlerle örtüşmesi doğrulanamadığından zincir yazılmadı. Merdiven: TDV (hive-hanligi, gurgenc) okundu; İSAM/DergiPark/Barthold basamakları bu oturumda erişilmedi."}
+  ],
+  "olay": [
+   {"t": "1873-05-29", "gun": "29 Mayıs 1873", "k": "fetih", "b": "Ruslar Hîve'yi topçu ateşinden sonra ele geçirdi", "kesinlik": "gun",
+    "kaynak": "TDV 'Hîve Hanlığı'", "tanik": "şehri şiddetli bir topçu ateşinden sonra ele geçirdiler (29 Mayıs 1873)"},
+   {"t": "1920-04-26", "gun": "26 Nisan 1920", "k": "kurulus", "b": "Hârizm Halk Cumhuriyeti ilân edildi (Hîve Hanlığı'nın sonu)", "kesinlik": "gun",
+    "kaynak": "TDV 'Hîve Hanlığı'", "tanik": "26 Nisan 1920’de Hârizm Halk Cumhuriyeti ilân edildi"}
+  ],
+  "dikis_beyan": "Atlas Hîve'yi 1281-01-01'de cagatay ile başlatır; 1281 için kaynaklı el değiştirme tanığı yok (X. yy-1281 beyanlı boşluk), yer tutucu olay yazılmadı.",
+  "ic_not": "Tek kaynak TDV (WebFetch özet aracı). Çift teyit yok. TDV 'hive' arama sayfası yalnız 'Hîve Hanlığı' ve 'İlbars Han' maddelerini listeler; 1512 hanlık kuruluşu (İlbars Han 1512-1525) devlet kuruluşudur, şehrin başkent oluş yılı TDV'den alıntılanamadı (yalnız 'Bu dönemde merkezin Hîve’ye taşınması'), bu yüzden olay yazılmadı. TDV 'Gürgenç': Hîve Hanlığı'nın başşehri 1645'e dek Ürgenç idi (alıntı aracın verdiği)."
+ },
+ {
+  "id": "serahs-tm", "ad": "Serahs", "atlas_ad": "Serahs", "lat": 36.5386, "lon": 61.1611, "kat1900": 3,
+  "adlar": ["Serahs"],
+  "ilk": {"t": "0652-01-01", "gun": "652 (TDV: 651-52)", "nicelik": "ilk_anilis", "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Serahs', https://islamansiklopedisi.org.tr/serahs (16 Kasım 2026'da okundu; WebFetch aracıyla); aralık verir: güvenli uç (son uç) alındı",
+   "tanik": "tarafından fethedildi (31/651-52)"},
+  "kur": null, "ark": null, "bit": null,
+  "sahip": [],
+  "olay": [
+   {"t": "1157-01-01", "gun": "1157", "k": "diger", "b": "Sultan Sencer'in ölümüyle Büyük Selçuklu Devleti sona erdi (Serahs'ta sonrası bir süre Oğuzlar)", "kesinlik": "yil",
+    "kaynak": "TDV 'Serahs'", "tanik": "552 (1157) yılında Sultan Sencer’in ölümüyle Büyük Selçuklu Devleti’nin tarihe karışması"},
+   {"t": "1193-01-01", "gun": "1193", "k": "fetih", "b": "Hârizmşahlar Serahs'a hâkim oldu", "kesinlik": "yil",
+    "kaynak": "TDV 'Serahs'", "tanik": "Hârizmşahlar hâkim oldu (1193)"},
+   {"t": "1221-01-01", "gun": "1221", "k": "fetih", "b": "Serahs Moğol istilâsına uğradı", "kesinlik": "yil",
+    "kaynak": "TDV 'Serahs'", "tanik": "618’de (1221) Moğol istilâsına mâruz kaldı"}
+  ],
+  "ic_not": "Tek kaynak TDV 'Serahs' (WebFetch özet aracı). Çift teyit yok. TDV kuruluşu 'milâttan önce VI-IV. yüzyıllarda Persler devrinde kurulduğu tahmin edilmektedir' diye verir: tahmin, yazılı tanık/kuruluş tarihi değil → kur/ark yazılmadı; ilk anılış olarak fetih tarihi (651-52, aralığın son ucu) alındı, daha eski tanık bulunamadı. Atlas Serahs'ı 0500'den başlatır → sahip:[]. 'Serahs' adının kökeni TDV'de Serahs b. Hûzrez iktâsı olarak anlatılır (tarihsiz). Atlas'ta TDV Serahs'tan alıntı zaten vardır; 1157/1193 olayları Serahs'a özgü sahip değişimi değil bölge olaylarıdır (Sencer ölümü sonrası Oğuz hâkimiyeti dilimi TDV'de yıl vermiyor)."
+ }
+]

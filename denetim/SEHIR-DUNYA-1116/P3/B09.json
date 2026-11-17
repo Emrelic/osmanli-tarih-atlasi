@@ -1,0 +1,52 @@
+[
+{"id":"stellenbosch-za-p3","ad":"Stellenbosch","atlas_ad":"Stellenbosch","lat":-33.9346,"lon":18.8668,"kat1900":2,"adlar":["Stellenbosch"],
+ "ilk":{"t":"1679-01-01","gun":"1679","nicelik":"kurulus","kesinlik":"yil","kaynak":"Encyclopaedia Britannica, 'Stellenbosch' (britannica.com/place/Stellenbosch; Britannica Editors, rev. Amy Tikkanen), tarayicida okundu 17 Kasim 2026","tanik":"Founded in 1679 and named for Governor Simon van der Stel"},
+ "kur":{"t":"1679-01-01","gun":"1679","kesinlik":"yil","kaynak":"Encyclopaedia Britannica, 'Stellenbosch'","tanik":"Founded in 1679 and named for Governor Simon van der Stel"},
+ "ark":null,"bit":null,
+ "sahip":[{"f":"1679-01-01","t":"1679-11-08","d":"hollanda","kesinlik":"yil","kaynak":"Britannica 'Stellenbosch': 'named for Governor Simon van der Stel' (Cape valisi); devlet adı kaynakta yok, atlasın ilk sahibi ile aynı künye olarak yazıldı","ic_not":"BEYANLI DİKİŞ: gün kaynakta yok, atlas başlangıcına (1679-11-08) ≤1 yıl uzatıldı; sahip kimliği atlasın ilk sahibinden (hollanda) alındı, Britannica devleti adıyla söylemez — bu bir yaklaşıklıktır ve burada beyan edilmiştir."}],
+ "olay":[],
+ "ic_not":"TEK KAYNAK (Britannica gövdesinden, YZ özeti bloğu dışı; sayfada 'Summary created from Britannica articles using AI' bloğu yok, yalnız 'Britannica AI / Ask Anything' düğmesi var). Cümle öznesi zamir 'it' = madde konusu; başlık şehir (tanık cümlesi 'it is South Africa's next oldest settlement after Cape Town' ile devam eder, ilk 10 kelime birebir). Gün yok; YYYY-01-01 + yil. Atlas kur 1679-11-08 ile aynı yıl, çelişki yok. Aranan öteki kaynaklar: WebSearch'te encyclopedia.com Columbia girdisi çıkmadı; SAHO sayfası (sahistory.org.za/node/11024) doğrulanmadı — çift teyit sayılmadı. DİKİŞ: atlas ilk sahibi hollanda 1679-11-08'de başlar; kaynak yılı ≤1 yıl öncesi, ama kaynak sahip adı vermediği ve 1679-11-08 el değiştirmesine olay tanığı olmadığı için sahip zinciri kaynaktan değil atlasın ilk sahibinden alındı (beyanlı yaklaşıklık, sahip[0].ic_not)."
+},
+{"id":"swellendam-za-p3","ad":"Swellendam","atlas_ad":null,"lat":-34.0226,"lon":20.4417,"kat1900":2,"adlar":["Swellendam"],
+ "ilk":{"t":"1743-01-01","gun":"1743","nicelik":"kurulus","kesinlik":"yil","kaynak":"Encyclopaedia Britannica, 'Swellendam' (britannica.com/place/Swellendam-South-Africa), tarayicida okundu 17 Kasim 2026","tanik":"Founded (1743) by the Dutch East India Company, it was named for the Cape governor"},
+ "kur":{"t":"1743-01-01","gun":"1743","kesinlik":"yil","kaynak":"Encyclopaedia Britannica, 'Swellendam'","tanik":"Founded (1743) by the Dutch East India Company, it was named for the Cape governor"},
+ "ark":null,"bit":null,
+ "sahip":[
+  {"f":"1743-01-01","t":"1795-01-01","d":"hollanda","kesinlik":"yil","kaynak":"Britannica 'Swellendam': 'Founded (1743) by the Dutch East India Company' (VOC = Hollanda künyesi; yıl hassasiyeti)","ic_not":"Hollanda Doğu Hindistan Şirketi sahibi olarak 'hollanda' künyesine bağlandı; son uç 1795 = Britannica'nın 'A local revolt against company authority in 1795' yılı (gün yok)."},
+  {"f":"1795-01-01","t":"1900-01-01","d":"__BOSLUK__","kesinlik":"yil","kaynak":"BOŞLUK BEYANI: Britannica 'Swellendam' 1795 isyanı 'first of several local Boer republics' der; 1795 sonrası egemen devleti 1900'e kadar vermez","ic_not":"Kaynak 1795-1900 arası sahip değişimini vermiyor (Cape Colony/İngiliz egemenliği bu kaynakta yok); beyansız yaklaşıklık yazılmadı. Sahip tanığı bulunursa dilimlere bölünür."}],
+ "olay":[{"t":"1795-01-01","gun":"1795","k":"diger","b":"Şirket yönetimine karşı yerel isyan; ilk yerel Boer cumhuriyetlerinden biri (gün kaynakta yok)","kaynak":"Britannica 'Swellendam': 'A local revolt against company authority in 1795 led to the establishment of the first of several local Boer republics.'"}],
+ "ic_not":"TEK KAYNAK (Britannica gövdesinden, YZ özeti bloğu dışı; blok yok). SAHO (sahistory.org.za/place/swellendam) AYNI cümleyi verir ('Founded in 1743 by the Dutch East India Company, it was named after the Cape Governor') = Britannica ile ortak soy/kopya; bağımsız sayılmadı, ÇİFT TEYİT DEĞİL. Cümle öznesi zamir 'it' = madde konusu; başlık şehir. Atlas noktası yok; zincir kuruluştan 1900-01-01'e. Wikipedia mirror 1746 verir (kullanılmadı; Vikipedi dayanak değil); çelişki beyanı: 1743 iki kaynakta (aynı soy)."
+},
+{"id":"swakopmund-na-p3","ad":"Swakopmund","atlas_ad":null,"lat":-22.6784,"lon":14.5266,"kat1900":2,"adlar":["Swakopmund"],
+ "ilk":{"t":"1892-01-01","gun":"1892","nicelik":"kurulus","kesinlik":"yil","kaynak":"Britannica Kids, 'Swakopmund' (kids.britannica.com/kids/article/Swakopmund/602272), tarayicida okundu 17 Kasim 2026","tanik":"Captain Curt von François established Swakopmund in 1892."},
+ "kur":{"t":"1892-01-01","gun":"1892","kesinlik":"yil","kaynak":"Britannica Kids, 'Swakopmund'","tanik":"Captain Curt von François established Swakopmund in 1892."},
+ "ark":null,"bit":null,
+ "sahip":[{"f":"1892-01-01","t":"1900-01-01","d":"alman-guneybati-afrikasi","kesinlik":"yil","kaynak":"SAHO, 'Swakopmund, Namibia' (sahistory.org.za/place/swakopmund-namibia): 'It was founded in 1892 as the main harbour for German South-West Africa'","ic_not":"Sahip kaynaktaki 'German South-West Africa' ifadesine dayanır; kuruluş yılından 1900-01-01'e (atlas noktası yok) kesintisiz; kaynak 1892-1900 arasında sahip değişimi vermiyor."}],
+ "olay":[],
+ "ic_not":"ÇİFT TEYİT (kısmi bağımsızlık): ① Britannica Kids 'Captain Curt von François established Swakopmund in 1892.' ② SAHO 'It was founded in 1892 as the main harbour for German South-West Africa' (özne zamir 'It' = madde konusu; başlık şehir). Ayrı yayıncı (Encyclopaedia Britannica Inc. / SAHO); cümleler farklı; ikisi de kaynakçasız çocuk/genel kitle metni; kopya kanıtı bulunmadı ama ortak birincil dayanak (von François 1892 çıkarması) ölçülmedi — bu yüzden bağımsızlık TAM sayılmaz. Britannica yetişkin 'Swakopmund' maddesi kuruluş yılı VERMİYOR (okundu; yalnız 1951 müzesi). Gün yok; yil hassasiyeti. Kids maddesi Britannica YZ özeti değildir (editoryal çocuk maddesi). Atlas noktası yok."
+},
+{"id":"stutterheim-za-p3","ad":"Stutterheim","atlas_ad":null,"lat":-32.5708,"lon":27.4240,"kat1900":2,"adlar":["Stutterheim"],
+ "ilk":{"t":"1837-01-01","gun":"1837","nicelik":"kurulus","kesinlik":"yil","kaynak":"SAHO, 'Stutterheim, Amatola- Eastern Cape' (sahistory.org.za/place/stutterheim-amatola-eastern-cape), tarayicida okundu 17 Kasim 2026","tanik":"Originally established as a missionary station in 1837, Stutterheim today has achieved acclaim"},
+ "kur":{"t":"1837-01-01","gun":"1837","kesinlik":"yil","kaynak":"SAHO, 'Stutterheim, Amatola- Eastern Cape'","tanik":"Originally established as a missionary station in 1837, Stutterheim today has achieved acclaim"},
+ "ark":null,"bit":null,
+ "sahip":[{"f":"1837-01-01","t":"1900-01-01","d":"__BOSLUK__","kesinlik":"yil","kaynak":"BOŞLUK BEYANI: SAHO 'Stutterheim' yalnız misyon istasyonu kuruluşunu verir; egemen devlet/sahip yok","ic_not":"Şehir (misyon istasyonu) 1837'den itibaren var, ama kaynak 1900'e kadar sahip vermiyor; beyansız yaklaşıklık yazılmadı."}],
+ "olay":[],
+ "ic_not":"TEK KAYNAK (SAHO). Tanıkta şehir adı + yıl aynı cümlede. Kuruluş = misyon istasyonu ('originally established'); bugünkü kasaba (Anglo-Alman Lejyonu askerî yerleşimcileri, 1857-60'lar) ayrı bir olgu olabilir — ölçülmedi, çelişki beyanı. Atlas noktası yok."
+},
+{"id":"steynsburg-za-p3","ad":"Steynsburg","atlas_ad":null,"lat":-31.2956,"lon":25.8234,"kat1900":2,"adlar":["Steynsburg"],
+ "ilk":{"t":"1872-01-01","gun":"1872","nicelik":"kurulus","kesinlik":"belirsiz","kaynak":"SAHO, 'Steynsburg' (sahistory.org.za/place/steynsburg), tarayicida okundu 17 Kasim 2026","tanik":"He was the founder of this Town, established in 1872."},
+ "kur":null,
+ "ark":null,"bit":null,
+ "sahip":[{"f":"1872-01-01","t":"1900-01-01","d":"__BOSLUK__","kesinlik":"yil","kaynak":"BOŞLUK BEYANI: SAHO 'Steynsburg' kuruluş yılını verir, devlet yok","ic_not":"Kaynak sahip vermiyor; beyansız yaklaşıklık yazılmadı."}],
+ "olay":[],
+ "ic_not":"TEK KAYNAK (SAHO). Cümle öznesi kişi ('He' = A.P.J. Steyn), 'this Town' = madde konusu; özne-zamir kuralı tam sağlanmadığı için kesinlik 'belirsiz'. 1872 yıl 'established in 1872' diye açık. Aynı sayfadaki 'Town was established in 1910' Steynsrus (Free State) kenar çubuğudur, kullanılmadı. Atlas noktası yok."
+},
+{"id":"teyateyaneng-ls-p3","ad":"Teyateyaneng","atlas_ad":null,"lat":-29.1472,"lon":27.7490,"kat1900":2,"adlar":["Teyateyaneng"],
+ "ilk":{"t":"1886-01-01","gun":"1886","nicelik":"ilk_anilis","kesinlik":"yil","kaynak":"Encyclopaedia Britannica, 'Teyateyaneng' (britannica.com/place/Teyateyaneng), tarayicida okundu 17 Kasim 2026","tanik":"The village is on a hilltop, the site of a camp established in 1886"},
+ "kur":null,
+ "ark":null,"bit":null,
+ "sahip":[{"f":"1886-01-01","t":"1900-01-01","d":"__BOSLUK__","kesinlik":"yil","kaynak":"BOŞLUK BEYANI: Britannica 'Teyateyaneng' British resident commissioner ile Chief Masopha'nın anlaşmasını anar; 'şu yer şu devletin' demez","ic_not":"Kaynak bölge sahipliğini açıkça vermiyor (Masopha kendi bölge karargâhını kurdu, vergi resident commissioner'a); beyansız yaklaşıklık yazılmadı."}],
+ "olay":[],
+ "ic_not":"TEK KAYNAK (Britannica gövdesinden, YZ özeti bloğu dışı; blok yok). Özne 'The village' = madde konusu; başlık şehir. Kuruluşa değil KAMP kuruluşuna ait yıl: nicelik ilk_anilis, kur yazılmadı. 'Berea' adı SAHO özetine göre ~1888'e dek (WebSearch özeti; sayfa okunmadı, adlara kaynak olarak girmedi). Atlas noktası yok."
+}
+]

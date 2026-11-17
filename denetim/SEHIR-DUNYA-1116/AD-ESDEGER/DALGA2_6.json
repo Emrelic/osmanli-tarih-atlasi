@@ -1,0 +1,499 @@
+[
+ {
+  "id": "konakri-af-p9",
+  "ad_kaynak": [
+   {
+    "ad": "Conakry",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Conakry' https://www.britannica.com/place/Conakry",
+    "kanit": "Conakry, national capital, largest city, and chief Atlantic port, western Guinea."
+   },
+   {
+    "ad": "Konakry",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Conakry' https://www.britannica.com/place/Conakry",
+    "kanit": "Also spelled: Konakry"
+   },
+   {
+    "ad": "Konakri",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'KONAKRİ' https://islamansiklopedisi.org.tr/konakri",
+    "kanit": "KONAKRİ Gine Cumhuriyeti’nin başşehri."
+   },
+   {
+    "ad": "Conakry",
+    "dil": "fr",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'GİNE' https://islamansiklopedisi.org.tr/gine",
+    "kanit": "başşehri Atlas Okyanusu kıyısındaki Konakri’dir (Conakry)."
+   },
+   {
+    "ad": "Konakry",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "The Columbia Encyclopedia, 6th ed., 'Conakry' https://www.encyclopedia.com/reference/encyclopedias-almanacs-transcripts-and-maps/conakry",
+    "kanit": "The name is also spelled Konakry."
+   }
+  ],
+  "adlar_sira": [
+   "Conakry",
+   "Konakry",
+   "Konakri"
+  ],
+  "kaynaksiz": []
+ },
+ {
+  "id": "dakar-af-p9",
+  "ad_kaynak": [
+   {
+    "ad": "Dakar",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Dakar' https://www.britannica.com/place/Dakar",
+    "kanit": "Dakar, the capital of Senegal, is a major seaport"
+   },
+   {
+    "ad": "Dakar",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'DAKAR' https://islamansiklopedisi.org.tr/dakar",
+    "kanit": "DAKAR Senegal Cumhuriyeti’nin başşehri."
+   },
+   {
+    "ad": "Dakar",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "The Columbia Encyclopedia, 6th ed., 'Dakar' https://www.encyclopedia.com/reference/encyclopedias-almanacs-transcripts-and-maps/dakar",
+    "kanit": "Dakar (dəkär´, dä–), city (1988 pop. 672,991), capital of Senegal"
+   }
+  ],
+  "adlar_sira": [
+   "Dakar"
+  ],
+  "kaynaksiz": []
+ },
+ {
+  "id": "yaunde-af-p9",
+  "ad_kaynak": [
+   {
+    "ad": "Yaoundé",
+    "dil": "fr",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Yaoundé' https://www.britannica.com/place/Yaounde",
+    "kanit": "Yaoundé, city and capital of Cameroon."
+   },
+   {
+    "ad": "Yaunde",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Yaoundé' https://www.britannica.com/place/Yaounde",
+    "kanit": "Also spelled: Yaunde"
+   },
+   {
+    "ad": "Yaunde",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'YAUNDE' https://islamansiklopedisi.org.tr/yaunde",
+    "kanit": "YAUNDE Kamerun Cumhuriyeti’nin başşehri."
+   },
+   {
+    "ad": "Yaoundé",
+    "dil": "fr",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'KAMERUN' https://islamansiklopedisi.org.tr/kamerun",
+    "kanit": "başşehri Yaoundé (Yaunde: 990.000)"
+   },
+   {
+    "ad": "Yaoundé",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "The Columbia Encyclopedia, 6th ed., 'Yaoundé' https://www.encyclopedia.com/reference/encyclopedias-almanacs-transcripts-and-maps/yaounde",
+    "kanit": "Yaoundé (yäōōndā´), city (1990 est. pop. 750,000), capital of Cameroon"
+   }
+  ],
+  "adlar_sira": [
+   "Yaoundé",
+   "Yaunde"
+  ],
+  "kaynaksiz": []
+ },
+ {
+  "id": "buake-af-p9",
+  "ad_kaynak": [
+   {
+    "ad": "Bouaké",
+    "dil": "fr",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Bouaké' https://www.britannica.com/place/Bouake",
+    "kanit": "Bouaké, city, central Côte d’Ivoire (Ivory Coast)."
+   }
+  ],
+  "adlar_sira": [
+   "Bouaké",
+   "Buake"
+  ],
+  "kaynaksiz": [
+   "Buake"
+  ]
+ },
+ {
+  "id": "ndjamena-af-p9",
+  "ad_kaynak": [
+   {
+    "ad": "Fort-Lamy",
+    "dil": "fr",
+    "donem": "1900-1973",
+    "kaynak": "Encyclopaedia Britannica 'N’Djamena' https://www.britannica.com/place/NDjamena",
+    "kanit": "It was named Fort-Lamy after a French major"
+   },
+   {
+    "ad": "Fort-Lamy",
+    "dil": "fr",
+    "donem": "-1973",
+    "kaynak": "The Columbia Encyclopedia, 6th ed., 'Ndjamena' https://www.encyclopedia.com/reference/encyclopedias-almanacs-transcripts-and-maps/ndjamena",
+    "kanit": "Ndjamena (ənjä´mānä), formerly Fort-Lamy (fôr-lämē´), city"
+   },
+   {
+    "ad": "N’Djamena",
+    "dil": "fr",
+    "donem": "1973-",
+    "kaynak": "Encyclopaedia Britannica 'N’Djamena' https://www.britannica.com/place/NDjamena",
+    "kanit": "Its name was changed to N’Djamena in 1973"
+   },
+   {
+    "ad": "Ndjamena",
+    "dil": "fr",
+    "donem": "1973-",
+    "kaynak": "The Columbia Encyclopedia, 6th ed., 'Ndjamena' https://www.encyclopedia.com/reference/encyclopedias-almanacs-transcripts-and-maps/ndjamena",
+    "kanit": "Its name was changed to Ndjamena in 1973."
+   }
+  ],
+  "adlar_sira": [
+   "Fort-Lamy",
+   "N’Djamena",
+   "Ndjamena"
+  ],
+  "kaynaksiz": []
+ },
+ {
+  "id": "lome-p10",
+  "ad_kaynak": [
+   {
+    "ad": "Lomé",
+    "dil": "fr",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Lomé' https://www.britannica.com/place/Lome",
+    "kanit": "Lomé, city, capital of Togo."
+   },
+   {
+    "ad": "Lomé",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "The Columbia Encyclopedia, 6th ed., 'Lomé' https://www.encyclopedia.com/reference/encyclopedias-almanacs-transcripts-and-maps/lome",
+    "kanit": "Lomé (lômā´), city (2010 pop. 837,437), capital of Togo"
+   },
+   {
+    "ad": "Lomé",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'TOGO' https://islamansiklopedisi.org.tr/togo",
+    "kanit": "başşehri Lomé (2006’da 750.000)"
+   }
+  ],
+  "adlar_sira": [
+   "Lomé",
+   "Lome"
+  ],
+  "kaynaksiz": [
+   "Lome"
+  ]
+ },
+ {
+  "id": "douala-p10",
+  "ad_kaynak": [
+   {
+    "ad": "Douala",
+    "dil": "fr",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Douala' https://www.britannica.com/place/Douala",
+    "kanit": "Douala, city and chief port of Cameroon."
+   },
+   {
+    "ad": "Douala",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "The Columbia Encyclopedia, 6th ed., 'Douala' https://www.encyclopedia.com/reference/encyclopedias-almanacs-transcripts-and-maps/douala",
+    "kanit": "Douala (dōō-ä´lə), city (1991 est. pop. 1,604,500), Cameroon"
+   }
+  ],
+  "adlar_sira": [
+   "Douala"
+  ],
+  "kaynaksiz": []
+ },
+ {
+  "id": "bangui-p10",
+  "ad_kaynak": [
+   {
+    "ad": "Bangui",
+    "dil": "fr",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Bangui' https://www.britannica.com/place/Bangui",
+    "kanit": "Bangui, city, capital of the Central African Republic"
+   },
+   {
+    "ad": "Bangui",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'ORTA AFRİKA CUMHURİYETİ' https://islamansiklopedisi.org.tr/orta-afrika-cumhuriyeti",
+    "kanit": "başşehri Bangui (622.771)"
+   },
+   {
+    "ad": "Bangui",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "The Columbia Encyclopedia, 6th ed., 'Bangui' https://www.encyclopedia.com/reference/encyclopedias-almanacs-transcripts-and-maps/bangui",
+    "kanit": "Bangui (bäng-gē´), city (1994 est. pop. 560,000), capital of the"
+   }
+  ],
+  "adlar_sira": [
+   "Bangui",
+   "Bangi"
+  ],
+  "kaynaksiz": [
+   "Bangi"
+  ]
+ },
+ {
+  "id": "timbo-p10",
+  "ad_kaynak": [
+   {
+    "ad": "Timbo",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Fouta Djallon' https://www.britannica.com/place/Fouta-Djallon",
+    "kanit": "Timbo, 26 miles (42 km) northeast of Mamou"
+   },
+   {
+    "ad": "Timbo",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'FUTA CALON' https://islamansiklopedisi.org.tr/futa-calon",
+    "kanit": "Timbo, Medine, Kade ve Fugumba da diğer önemli şehirlerdir."
+   }
+  ],
+  "adlar_sira": [
+   "Timbo"
+  ],
+  "kaynaksiz": []
+ },
+ {
+  "id": "likasi-p10",
+  "ad_kaynak": [
+   {
+    "ad": "Likasi",
+    "dil": "fr",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Likasi' https://www.britannica.com/place/Likasi",
+    "kanit": "Likasi, city, southeastern Democratic Republic of the Congo."
+   },
+   {
+    "ad": "Jadotville",
+    "dil": "fr",
+    "donem": "-1966",
+    "kaynak": "Encyclopaedia Britannica 'Likasi' https://www.britannica.com/place/Likasi",
+    "kanit": "Formerly (until 1966): Jadotville"
+   },
+   {
+    "ad": "Jadotville",
+    "dil": "fr",
+    "donem": null,
+    "kaynak": "The Columbia Encyclopedia, 6th ed., 'Likasi' https://www.encyclopedia.com/reference/encyclopedias-almanacs-transcripts-and-maps/likasi",
+    "kanit": "Likasi (lĬkäs´ē), formerly Jadotville (zhädōvēl´), city"
+   }
+  ],
+  "adlar_sira": [
+   "Jadotville",
+   "Likasi"
+  ],
+  "kaynaksiz": []
+ },
+ {
+  "id": "okrika-p10",
+  "ad_kaynak": [
+   {
+    "ad": "Okrika",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Okrika' https://www.britannica.com/place/Okrika",
+    "kanit": "Okrika, town and port, Rivers state, southern Nigeria."
+   }
+  ],
+  "adlar_sira": [
+   "Okrika"
+  ],
+  "kaynaksiz": []
+ },
+ {
+  "id": "lobito-p10",
+  "ad_kaynak": [
+   {
+    "ad": "Lobito",
+    "dil": "pt",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Lobito' https://www.britannica.com/place/Lobito",
+    "kanit": "Lobito, port city, western Angola, on the Atlantic coast"
+   },
+   {
+    "ad": "Lobito",
+    "dil": "pt",
+    "donem": null,
+    "kaynak": "The Columbia Encyclopedia, 6th ed., 'Lobito' https://www.encyclopedia.com/reference/encyclopedias-almanacs-transcripts-and-maps/lobito",
+    "kanit": "Lobito (lōbē´tō, lŏŏvē´tō), city (1983 est. pop. 150,000)"
+   }
+  ],
+  "adlar_sira": [
+   "Lobito"
+  ],
+  "kaynaksiz": []
+ },
+ {
+  "id": "ibadan-p10",
+  "ad_kaynak": [
+   {
+    "ad": "Ibadan",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Ibadan' https://www.britannica.com/place/Ibadan",
+    "kanit": "Ibadan is the capital of Oyo State, Nigeria"
+   },
+   {
+    "ad": "Ibadan",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "The Columbia Encyclopedia, 6th ed., 'Ibadan' https://www.encyclopedia.com/reference/encyclopedias-almanacs-transcripts-and-maps/ibadan",
+    "kanit": "Ibadan (ēbä´dän, ēbädäN´), city (1991 est. pop. 1,263,000), SW Nigeria"
+   },
+   {
+    "ad": "İbadan",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'İBADAN' https://islamansiklopedisi.org.tr/ibadan",
+    "kanit": "İBADAN Nijerya’nın güneybatısında bir şehir."
+   }
+  ],
+  "adlar_sira": [
+   "Ibadan",
+   "İbadan"
+  ],
+  "kaynaksiz": []
+ },
+ {
+  "id": "laayoune-p10",
+  "ad_kaynak": [
+   {
+    "ad": "Laayoune",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Laayoune' https://www.britannica.com/place/Laayoune",
+    "kanit": "Laayoune, town, northern Western Sahara"
+   },
+   {
+    "ad": "El-Aaiún",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Laayoune' https://www.britannica.com/place/Laayoune",
+    "kanit": "Also spelled: El-Aaiún, El-Ayoun, Aaiún, or Aiun"
+   },
+   {
+    "ad": "El-Ayoun",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Laayoune' https://www.britannica.com/place/Laayoune",
+    "kanit": "Also spelled: El-Aaiún, El-Ayoun, Aaiún, or Aiun"
+   },
+   {
+    "ad": "Aaiún",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Laayoune' https://www.britannica.com/place/Laayoune",
+    "kanit": "Also spelled: El-Aaiún, El-Ayoun, Aaiún, or Aiun"
+   },
+   {
+    "ad": "Aiun",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Laayoune' https://www.britannica.com/place/Laayoune",
+    "kanit": "Also spelled: El-Aaiún, El-Ayoun, Aaiún, or Aiun"
+   },
+   {
+    "ad": "Al-ʿUyūn",
+    "dil": "ar",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Laayoune' https://www.britannica.com/place/Laayoune",
+    "kanit": "From Arabic: Al-ʿUyūn"
+   }
+  ],
+  "adlar_sira": [
+   "Laayoune",
+   "El-Aaiún",
+   "El-Ayoun",
+   "Aaiún",
+   "Aiun",
+   "Al-ʿUyūn"
+  ],
+  "kaynaksiz": [
+   "El-Ayn"
+  ]
+ },
+ {
+  "id": "hwange-p13",
+  "ad_kaynak": [
+   {
+    "ad": "Wankie",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "The Columbia Encyclopedia, 6th ed., 'Hwange' https://www.encyclopedia.com/reference/encyclopedias-almanacs-transcripts-and-maps/hwange",
+    "kanit": "Hwange (wän´gē), formerly Wankie (wŏng´kē), city"
+   },
+   {
+    "ad": "Wankie",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Hwange' https://www.britannica.com/place/Hwange",
+    "kanit": "Formerly: Wankie"
+   },
+   {
+    "ad": "Hwange",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Hwange' https://www.britannica.com/place/Hwange",
+    "kanit": "Hwange, town, western Zimbabwe."
+   }
+  ],
+  "adlar_sira": [
+   "Wankie",
+   "Hwange"
+  ],
+  "kaynaksiz": []
+ },
+ {
+  "id": "kikwit-p13",
+  "ad_kaynak": [
+   {
+    "ad": "Kikwit",
+    "dil": "fr",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Kikwit' https://www.britannica.com/place/Kikwit",
+    "kanit": "Kikwit, town and river port, southwestern Democratic Republic of the Congo."
+   }
+  ],
+  "adlar_sira": [
+   "Kikwit"
+  ],
+  "kaynaksiz": []
+ }
+]

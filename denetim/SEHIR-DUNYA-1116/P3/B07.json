@@ -1,0 +1,180 @@
+[
+ {
+  "id": "mossel-bay-za-p3",
+  "ad": "Mossel Bay",
+  "atlas_ad": null,
+  "lat": -34.1831,
+  "lon": 22.146,
+  "kat1900": 2,
+  "adlar": [
+   "Mossel Bay",
+   "Mosselbaai",
+   "Aliwal South (kısa süre)"
+  ],
+  "ilk": {
+   "t": "1848-01-01",
+   "gun": "1848",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, «Mossel Bay» (Britannica editörleri), https://www.britannica.com/place/Mossel-Bay (tarayıcı sayfa okuma, 17 Kasım 2026)",
+   "tanik": "The present town was founded by British colonists in 1848"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1848-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "BOŞLUK BEYANI: Encyclopaedia Britannica, «Mossel Bay» (Britannica editörleri), https://www.britannica.com/place/Mossel-Bay (tarayıcı sayfa okuma, 17 Kasım 2026) kuruluş yılını verir, 1900'e kadar egemen devlet/sahip değişimi vermez; VERI-YAPISI: sahibi bilinmiyorsa __BOSLUK__ + ic_not",
+    "ic_not": "Şehir kaynak yılından itibaren VAR (ilk.t), ama kaynak 1900'e kadar egemen devlet/sahip değişimi vermiyor; beyansız yaklaşıklık yazılmadı, boşluk beyan edildi. Sahip tanığı bulunursa dilimlere bölünür."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1848-01-01",
+    "gun": "1848",
+    "k": "diger",
+    "b": "Mossel Bay şehri İngiliz kolonistlerce kuruldu (Britannica)",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, «Mossel Bay» (Britannica editörleri), https://www.britannica.com/place/Mossel-Bay (tarayıcı sayfa okuma, 17 Kasım 2026)",
+    "tanik": "The present town was founded by British colonists in 1848"
+   }
+  ],
+  "ic_not": "TEK KAYNAK (Britannica gövdesinden, YZ özeti bloğu dışı: sayfa innerText'inde 'created from Britannica articles using AI' bloğu YOK, tanık makale giriş paragrafında includes() ile doğrulandı, 17 Kasım 2026; ikinci bağımsız kaynak aranıp bulunamadı: encyclopedia.com Columbia'da maddesi yok, SAHO yalnız misyon/bölüm yılı veriyor). Tanık cümlesinde şehir adı yok; özne 'The present town' = madde konusu; başlık şehir. Aynı kaynak şehri kısa süre Aliwal South diye anar. Dias 1488/da Gama 1497 anmaları koyla ilgilidir, şehir kuruluşu değildir (kullanılmadı); SAHO 'municipality 1852' sonraki olgudur. Gün yok; YYYY-01-01 + yil. Atlas noktası yok; zincir 1900-01-01'e __BOSLUK__ beyanlı. Britannica yalnız 'British colonists' der; devlet adı vermez."
+ },
+ {
+  "id": "oudtshoorn-za-p3",
+  "ad": "Oudtshoorn",
+  "atlas_ad": null,
+  "lat": -33.6005,
+  "lon": 22.1995,
+  "kat1900": 2,
+  "adlar": [
+   "Oudtshoorn"
+  ],
+  "ilk": {
+   "t": "1847-01-01",
+   "gun": "1847",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, «Oudtshoorn» (Britannica editörleri), https://www.britannica.com/place/Oudtshoorn (tarayıcı sayfa okuma, 17 Kasım 2026)",
+   "tanik": "First settled in 1847, it was named (in 1863) after a baron"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1847-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "BOŞLUK BEYANI: Encyclopaedia Britannica, «Oudtshoorn» (Britannica editörleri), https://www.britannica.com/place/Oudtshoorn (tarayıcı sayfa okuma, 17 Kasım 2026) kuruluş yılını verir, 1900'e kadar egemen devlet/sahip değişimi vermez; VERI-YAPISI: sahibi bilinmiyorsa __BOSLUK__ + ic_not",
+    "ic_not": "Şehir kaynak yılından itibaren VAR (ilk.t), ama kaynak 1900'e kadar egemen devlet/sahip değişimi vermiyor; beyansız yaklaşıklık yazılmadı, boşluk beyan edildi. Sahip tanığı bulunursa dilimlere bölünür."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1847-01-01",
+    "gun": "1847",
+    "k": "diger",
+    "b": "İlk yerleşim (Britannica: 'First settled in 1847')",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, «Oudtshoorn» (Britannica editörleri), https://www.britannica.com/place/Oudtshoorn (tarayıcı sayfa okuma, 17 Kasım 2026)",
+    "tanik": "First settled in 1847, it was named (in 1863) after a baron"
+   }
+  ],
+  "ic_not": "TEK KAYNAK (Britannica gövdesinden, YZ özeti bloğu dışı: sayfa innerText'inde 'created from Britannica articles using AI' bloğu YOK, tanık makale giriş paragrafında includes() ile doğrulandı, 17 Kasım 2026; ikinci bağımsız kaynak aranıp bulunamadı: encyclopedia.com Columbia'da maddesi yok, SAHO yalnız misyon/bölüm yılı veriyor). Özne zamir 'it' = madde konusu; başlık şehir; cümlede şehir adı yok. İlk yerleşim yılı 1847; 1887 'resmen kasaba' ve 1863 adlandırma ayrı olgulardır (kuruluş sayılmadı). Başka yayınlarda 1848 anıldığı web aramasında görüldü; okunmadı, sayılmadı. Gün yok; YYYY-01-01 + yil. Atlas noktası yok; zincir 1900-01-01'e __BOSLUK__ beyanlı. Çelişki yok (okunan tek kaynak)."
+ },
+ {
+  "id": "paarl-za-p3",
+  "ad": "Paarl",
+  "atlas_ad": null,
+  "lat": -33.7338,
+  "lon": 18.9752,
+  "kat1900": 2,
+  "adlar": [
+   "Paarl"
+  ],
+  "ilk": {
+   "t": "1688-01-01",
+   "gun": "1688",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, «Paarl» (Britannica editörleri), https://www.britannica.com/place/Paarl (tarayıcı sayfa okuma, 17 Kasım 2026)",
+   "tanik": "Settled in 1688 by Huguenots, who introduced viticulture, it is still known"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1688-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "BOŞLUK BEYANI: Encyclopaedia Britannica, «Paarl» (Britannica editörleri), https://www.britannica.com/place/Paarl (tarayıcı sayfa okuma, 17 Kasım 2026) kuruluş yılını verir, 1900'e kadar egemen devlet/sahip değişimi vermez; VERI-YAPISI: sahibi bilinmiyorsa __BOSLUK__ + ic_not",
+    "ic_not": "Şehir kaynak yılından itibaren VAR (ilk.t), ama kaynak 1900'e kadar egemen devlet/sahip değişimi vermiyor; beyansız yaklaşıklık yazılmadı, boşluk beyan edildi. Sahip tanığı bulunursa dilimlere bölünür."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1688-01-01",
+    "gun": "1688",
+    "k": "diger",
+    "b": "Huguenotlar 1688'de yerleşti, bağcılığı getirdi (Britannica)",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, «Paarl» (Britannica editörleri), https://www.britannica.com/place/Paarl (tarayıcı sayfa okuma, 17 Kasım 2026)",
+    "tanik": "Settled in 1688 by Huguenots, who introduced viticulture, it is still known"
+   }
+  ],
+  "ic_not": "TEK KAYNAK (Britannica gövdesinden, YZ özeti bloğu dışı: sayfa innerText'inde 'created from Britannica articles using AI' bloğu YOK, tanık makale giriş paragrafında includes() ile doğrulandı, 17 Kasım 2026; ikinci bağımsız kaynak aranıp bulunamadı: encyclopedia.com Columbia'da maddesi yok, SAHO yalnız misyon/bölüm yılı veriyor). Eksiltili cümle: öznesi madde konusu (it = Paarl); başlık şehir; cümlede şehir adı yok. Başka yayınlarda 1687 (ilk çiftlik tapuları) anıldığı web aramasında görüldü; okunmadı, hakemli karara girmedi. Gün yok; YYYY-01-01 + yil. Atlas noktası yok; zincir 1900-01-01'e __BOSLUK__ beyanlı. SAHO 'DRCSA 1820' misyon yılıdır, kuruluş değil."
+ },
+ {
+  "id": "mochudi-bw-p3",
+  "ad": "Mochudi",
+  "atlas_ad": null,
+  "lat": -24.4167,
+  "lon": 26.15,
+  "kat1900": 2,
+  "adlar": [
+   "Mochudi"
+  ],
+  "ilk": {
+   "t": "1871-01-01",
+   "gun": "1871",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, «Mochudi» (Britannica editörleri), https://www.britannica.com/place/Mochudi (tarayıcı sayfa okuma, 17 Kasım 2026)",
+   "tanik": "Settled by the Tswana people in 1871, Mochudi is the administrative seat of the chief"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1871-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "BOŞLUK BEYANI: Encyclopaedia Britannica, «Mochudi» (Britannica editörleri), https://www.britannica.com/place/Mochudi (tarayıcı sayfa okuma, 17 Kasım 2026) kuruluş yılını verir, 1900'e kadar egemen devlet/sahip değişimi vermez; VERI-YAPISI: sahibi bilinmiyorsa __BOSLUK__ + ic_not",
+    "ic_not": "Şehir kaynak yılından itibaren VAR (ilk.t), ama kaynak 1900'e kadar egemen devlet/sahip değişimi vermiyor; beyansız yaklaşıklık yazılmadı, boşluk beyan edildi. Sahip tanığı bulunursa dilimlere bölünür."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1871-01-01",
+    "gun": "1871",
+    "k": "diger",
+    "b": "Tswana yerleşimi (Britannica: 'Settled by the Tswana people in 1871'); Bakgatla şefinin idari merkezi",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, «Mochudi» (Britannica editörleri), https://www.britannica.com/place/Mochudi (tarayıcı sayfa okuma, 17 Kasım 2026)",
+    "tanik": "Settled by the Tswana people in 1871, Mochudi is the administrative seat of the chief"
+   }
+  ],
+  "ic_not": "TEK KAYNAK (Britannica gövdesinden, YZ özeti bloğu dışı: sayfa innerText'inde 'created from Britannica articles using AI' bloğu YOK, tanık makale giriş paragrafında includes() ile doğrulandı, 17 Kasım 2026; ikinci bağımsız kaynak aranıp bulunamadı: encyclopedia.com Columbia'da maddesi yok, SAHO yalnız misyon/bölüm yılı veriyor). Cümlede ad + yıl birlikte (birebir). Çelişen olgu: SAHO Mission Stations-M listesi 'MOCHUDI, Botswana: DRCSA 1865' (misyon istasyonu yılı; yerleşim kuruluşu değil; tek satır, hakemli karara konu edilmedi). Bakgatla şefinin idari merkezi olması egemenlik tanığı sayılmadı. Gün yok; YYYY-01-01 + yil. Atlas noktası yok; zincir 1900-01-01'e __BOSLUK__ beyanlı. Britannica 'Tswana people' der; devlet tarihi vermez."
+ }
+]

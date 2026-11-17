@@ -1,0 +1,372 @@
+[
+ {
+  "id": "pietermaritzburg-za-p3",
+  "ad": "Pietermaritzburg",
+  "atlas_ad": null,
+  "lat": -29.6168,
+  "lon": 30.3928,
+  "kat1900": 2,
+  "adlar": [
+   "Pietermaritzburg"
+  ],
+  "ilk": {
+   "t": "1838-01-01",
+   "gun": "1838",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica (çevrimiçi), 'Pietermaritzburg', britannica.com/place/Pietermaritzburg (tarayıcıda okundu)",
+   "tanik": "Boers from the Cape Colony founded it in 1838 after a victory over the Zulus",
+   "ic_not": "Özne 'Boers'; 'it' nesne zamiri = madde konusu (başlık şehir); şehir adı cümlede yok, beyan edildi. Britannica gövdesinden (YZ özeti bloğu dışı; sayfada YZ bloğu yok, alıntı makale gövdesinde includes() ile doğrulandı)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1838-01-01",
+    "t": "1843-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica (çevrimiçi), 'Pietermaritzburg', britannica.com/place/Pietermaritzburg (tarayıcıda okundu)",
+    "ic_not": "BOŞLUK: Britannica kuruluşu Boer göçmenlere bağlar; devletler.js'te Natalia Boer Cumhuriyeti künyesi yok, sahip bu kaynakta devlet olarak adlandırılmadı."
+   },
+   {
+    "f": "1843-01-01",
+    "t": "1900-01-01",
+    "d": "ingiltere",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica (çevrimiçi), 'Pietermaritzburg', britannica.com/place/Pietermaritzburg (tarayıcıda okundu)",
+    "ic_not": "Britannica: 'The British took control in 1843'; gün yok, yıl. Bu tarihten 1900'e Britannica el değişimi vermiyor; ingiltere (Natal Kolonisi) olarak sürer."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1843-01-01",
+    "gun": "1843",
+    "k": "diger",
+    "b": "İngilizler şehrin denetimini alır (Fort Napier)",
+    "kaynak": "Encyclopaedia Britannica (çevrimiçi), 'Pietermaritzburg', britannica.com/place/Pietermaritzburg (tarayıcıda okundu)"
+   }
+  ],
+  "ic_not": "TEK KAYNAK: tek ansiklopedi cümlesi (Britannica Editors). Atlas noktası yok (atlas_en_yakin boş)."
+ },
+ {
+  "id": "potchefstroom-za-p3",
+  "ad": "Potchefstroom",
+  "atlas_ad": null,
+  "lat": -26.7167,
+  "lon": 27.1,
+  "kat1900": 2,
+  "adlar": [
+   "Potchefstroom"
+  ],
+  "ilk": {
+   "t": "1838-01-01",
+   "gun": "1838",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica (çevrimiçi), 'Potchefstroom', britannica.com/place/Potchefstroom (tarayıcıda okundu)",
+   "tanik": "It was founded in 1838 as the first capital of the Transvaal",
+   "ic_not": "Özne zamir 'It' = madde konusu; başlık şehir. Britannica gövdesinden (YZ özeti bloğu dışı; sayfada YZ bloğu yok, alıntı makale gövdesinde includes() ile doğrulandı)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1838-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica (çevrimiçi), 'Potchefstroom', britannica.com/place/Potchefstroom (tarayıcıda okundu)",
+    "ic_not": "BOŞLUK (şehir var, sahibi kaynakta bulunamadı): Britannica 'first capital of the Transvaal' der ama 1838'de Transvaal devleti (devletler.js transvaal) henüz yoktu; 1838-1900 arası tarihli sahip tanığı yok."
+   }
+  ],
+  "olay": [],
+  "ic_not": "TEK KAYNAK: tek ansiklopedi cümlesi. Atlas noktası yok."
+ },
+ {
+  "id": "quelimane-mz-p3",
+  "ad": "Quelimane",
+  "atlas_ad": null,
+  "lat": -17.8786,
+  "lon": 36.8883,
+  "kat1900": 2,
+  "adlar": [
+   "Quelimane"
+  ],
+  "ilk": {
+   "t": "1544-01-01",
+   "gun": "1544",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica (çevrimiçi), 'Quelimane', britannica.com/place/Quelimane (tarayıcıda okundu)",
+   "tanik": "it was founded by the Portuguese as a trading station in 1544",
+   "ic_not": "Özne zamir 'it' = madde konusu (cümle 'One of the oldest settlements in the area, it was founded...'). Britannica gövdesinden (YZ özeti bloğu dışı; sayfada YZ bloğu yok, alıntı makale gövdesinde includes() ile doğrulandı)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1544-01-01",
+    "t": "1900-01-01",
+    "d": "portekiz",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica (çevrimiçi), 'Quelimane', britannica.com/place/Quelimane (tarayıcıda okundu)",
+    "ic_not": "Britannica kuruluşu Portekizlilere bağlar ('founded by the Portuguese'; 1761'de 'Portuguese colonial town'); portekiz id'si 1544-1900 boyunca sürer; kesintisiz el değişimi tanığı bulunmadı."
+   }
+  ],
+  "olay": [],
+  "ic_not": "TEK KAYNAK: tek ansiklopedi cümlesi. Atlas noktası yok."
+ },
+ {
+  "id": "saint-louis-sn-p3",
+  "ad": "Saint-Louis",
+  "atlas_ad": null,
+  "lat": 16.0179,
+  "lon": -16.4896,
+  "kat1900": 2,
+  "adlar": [
+   "Saint-Louis"
+  ],
+  "ilk": {
+   "t": "1659-01-01",
+   "gun": "1659",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica (çevrimiçi), 'Saint-Louis', britannica.com/place/Saint-Louis-Senegal (tarayıcıda okundu)",
+   "tanik": "Saint-Louis, founded in 1659, is the oldest colonial city on the western African coast",
+   "ic_not": "Şehir adı ve yıl aynı cümlede. Britannica gövdesinden (YZ özeti bloğu dışı; sayfada YZ bloğu yok, alıntı makale gövdesinde includes() ile doğrulandı)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1659-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica (çevrimiçi), 'Saint-Louis', britannica.com/place/Saint-Louis-Senegal (tarayıcıda okundu)",
+    "ic_not": "BOŞLUK (şehir var, sahibi kaynakta bulunamadı): Britannica kurucu devleti bu cümlede adlandırmaz; 1659-1900 arası tarihli sahip tanığı alınmadı."
+   }
+  ],
+  "olay": [],
+  "ic_not": "TEK KAYNAK: tek ansiklopedi cümlesi. Atlas noktası yok."
+ },
+ {
+  "id": "polokwane-za-p3",
+  "ad": "Polokwane",
+  "atlas_ad": null,
+  "lat": -23.9045,
+  "lon": 29.4688,
+  "kat1900": 2,
+  "adlar": [
+   "Pietersburg",
+   "Polokwane"
+  ],
+  "ilk": {
+   "t": "1886-01-01",
+   "gun": "1886",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica (çevrimiçi), 'Polokwane', britannica.com/place/Polokwane (tarayıcıda okundu)",
+   "tanik": "in 1886 on land purchased in 1884 from a local farmer and named Pietersburg",
+   "ic_not": "Cümlenin öznesi zamir 'It' (It was founded by Voortrekkers ... in 1886) = madde konusu; başlık şehir. Alıntı cümlenin devamıdır, 'Pietersburg' ad olarak cümlede. Britannica gövdesinden (YZ özeti bloğu dışı; sayfada YZ bloğu yok, alıntı makale gövdesinde includes() ile doğrulandı)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1886-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica (çevrimiçi), 'Polokwane', britannica.com/place/Polokwane (tarayıcıda okundu)",
+    "ic_not": "BOŞLUK (şehir var, sahibi kaynakta bulunamadı): Britannica kurucuyu Voortrekkers olarak verir, devlet vermez; 1886-1900 arası tarihli sahip tanığı alınmadı."
+   }
+  ],
+  "olay": [],
+  "ic_not": "TEK KAYNAK: tek ansiklopedi cümlesi; 1884 arazi satın alma kuruluş değil. Atlas noktası yok."
+ },
+ {
+  "id": "qonce-za-p3",
+  "ad": "Qonce",
+  "atlas_ad": null,
+  "lat": -32.8808,
+  "lon": 27.3938,
+  "kat1900": 2,
+  "adlar": [
+   "King William's Town",
+   "Qonce"
+  ],
+  "ilk": {
+   "t": "1826-01-01",
+   "gun": "1826",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica (çevrimiçi), 'Qonce', britannica.com/place/Qonce (tarayıcıda okundu)",
+   "tanik": "Founded as a missionary station in 1826",
+   "ic_not": "Cümle başı 'Founded ...' öznesi madde konusu (başlık şehir) ve 'it' ile sürer. Britannica gövdesinden (YZ özeti bloğu dışı; sayfada YZ bloğu yok, alıntı makale gövdesinde includes() ile doğrulandı)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1826-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica (çevrimiçi), 'Qonce', britannica.com/place/Qonce (tarayıcıda okundu)",
+    "ic_not": "BOŞLUK (şehir var, sahibi kaynakta bulunamadı): Britannica 1835 sonrası British Kaffraria askerî merkezi der (devletler.js'te ayrı künye yok); 1826-1900 arası kesintisiz sahip tanığı alınmadı."
+   }
+  ],
+  "olay": [],
+  "ic_not": "TEK KAYNAK: tek ansiklopedi cümlesi. Atlas noktası yok."
+ },
+ {
+  "id": "rustenburg-za-p3",
+  "ad": "Rustenburg",
+  "atlas_ad": null,
+  "lat": -25.6676,
+  "lon": 27.2421,
+  "kat1900": 2,
+  "adlar": [
+   "Rustenburg"
+  ],
+  "ilk": {
+   "t": "1850-01-01",
+   "gun": "1850",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica (çevrimiçi), 'Rustenburg', britannica.com/place/Rustenburg (tarayıcıda okundu)",
+   "tanik": "Founded in 1850, its name was allegedly derived from the rust",
+   "ic_not": "Özne madde konusu şehir ('its name'). Britannica gövdesinden (YZ özeti bloğu dışı; sayfada YZ bloğu yok, alıntı makale gövdesinde includes() ile doğrulandı)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1850-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica (çevrimiçi), 'Rustenburg', britannica.com/place/Rustenburg (tarayıcıda okundu)",
+    "ic_not": "BOŞLUK (şehir var, sahibi kaynakta bulunamadı): Britannica devlet vermez; 1850-1900 arası tarihli sahip tanığı alınmadı."
+   }
+  ],
+  "olay": [],
+  "ic_not": "TEK KAYNAK: tek ansiklopedi cümlesi. Atlas noktası yok."
+ },
+ {
+  "id": "robertson-za-p3",
+  "ad": "Robertson",
+  "atlas_ad": null,
+  "lat": -33.8034,
+  "lon": 19.8854,
+  "kat1900": 2,
+  "adlar": [
+   "Robertson"
+  ],
+  "ilk": {
+   "t": "1853-01-01",
+   "gun": "1853",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "South African History Online, 'Robertson, Route 62', sahistory.org.za/place/robertson-route-62 (tarayıcıda okundu)",
+   "tanik": "the first Plots, went on sale on 4 May 1853",
+   "ic_not": "Özne zamir 'It' = madde konusu (başlık şehir). Aynı sayfa: 1853'teki plot satışı ve DRC temel taşı 'the birth date of the Town' sayılır; gün (4 Mayıs) yalnız plot satışı, kuruluş günü değil, bu yüzden YYYY-01-01 + yıl."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1853-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "South African History Online, 'Robertson, Route 62', sahistory.org.za/place/robertson-route-62 (tarayıcıda okundu)",
+    "ic_not": "BOŞLUK (şehir var, sahibi kaynakta bulunamadı): SAHO devlet/kolonî sahibini bu sayfada belirtmez; 1853-1900 sahip tanığı alınmadı."
+   }
+  ],
+  "olay": [],
+  "ic_not": "TEK KAYNAK: SAHO tek sayfa; ek kaynak bulunamadı. Atlas noktası yok."
+ },
+ {
+  "id": "piketberg-za-p3",
+  "ad": "Piketberg",
+  "atlas_ad": null,
+  "lat": -32.9032,
+  "lon": 18.757,
+  "kat1900": 2,
+  "adlar": [
+   "Piquetberg",
+   "Piketberg"
+  ],
+  "ilk": {
+   "t": "1836-01-01",
+   "gun": "1836",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "South African History Online, 'Piketberg', sahistory.org.za/place/piketberg (tarayıcıda okundu)",
+   "tanik": "Piketberg is an Historic town, established in 1836",
+   "ic_not": "Şehir adı ve yıl aynı cümlede."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1836-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "South African History Online, 'Piketberg', sahistory.org.za/place/piketberg (tarayıcıda okundu)",
+    "ic_not": "BOŞLUK (şehir var, sahibi kaynakta bulunamadı): SAHO sahibi belirtmez; 1836-1900 sahip tanığı alınmadı."
+   }
+  ],
+  "olay": [],
+  "ic_not": "TEK KAYNAK: Aynı sayfa 1833 DRC cemaati, 1841 ilk plot satışı verir; kuruluş cümlesi 1836 alındı (çelişki iç tutarsızlık, hakem kaynak yok)."
+ },
+ {
+  "id": "prince-albert-za-p3",
+  "ad": "Prince Albert",
+  "atlas_ad": null,
+  "lat": -33.2248,
+  "lon": 22.0267,
+  "kat1900": 2,
+  "adlar": [
+   "Albertsburg",
+   "Prince Albert"
+  ],
+  "ilk": {
+   "t": "1845-01-01",
+   "gun": "1845",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "South African History Online, 'Prince Albert', sahistory.org.za/place/prince-albert (tarayıcıda okundu)",
+   "tanik": "in 1845, the tiny village was proclaimed Prince Albert",
+   "ic_not": "Şehir adı ve yıl aynı cümlede; 1845 köy ilanı (kuruluş) alındı."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1845-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "South African History Online, 'Prince Albert', sahistory.org.za/place/prince-albert (tarayıcıda okundu)",
+    "ic_not": "BOŞLUK (şehir var, sahibi kaynakta bulunamadı): SAHO sahibi belirtmez; 1845-1900 sahip tanığı alınmadı."
+   }
+  ],
+  "olay": [],
+  "ic_not": "TEK KAYNAK: Aynı sayfa 'Founded in 1762' der ama bu Kweekvallei çiftliğinin tarihidir (köy 1845'te ilan); 1762 kuruluş sayılmadı."
+ }
+]

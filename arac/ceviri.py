@@ -106,23 +106,39 @@ DILLER = [("tr", "Türkçe"), ("en", "English"), ("ar", "العربية"), ("es"
 # maddeleri, EMRELİC Kolhapûr 1675 yeni maddesi), bayat olay +1 (Kütahya Uzlaşması yeniden adlandırma, Yergöğü/Yûsuf düzeltmesi,
 # 1547 gün). Çeviri işi site bitince (Emre, 13 Kasım). Eski: eksik arayuz 48, olay en/ar/es/de 325, pt 1439, ru 3532, fr 4432;
 # bayat olay en/ar/es/de 72, pt 57, ru 31, fr 7.
+# 16 Kasım 2026 (KASA 16 KASIM, koşu 39 inişi + UMIT 1115c birleşimi): tavan AÇILDI (Emre 1 Kasım kararı: önce ölç, aç, raporla)
+# — kaynak: main'e göre eklenen yeni künyeler (Delhi hanedanları, Qing Halha, Lan Xang ardılları, İngiliz Guyanası vb.) ve 3 yeni olay
+# metni (UMIT 1115c 7 dalı + kasa-1115-umit-birlesim). ÖLÇÜM: devlet eksik 21->24, olay eksik +3 her dilde. Eski değerler: devlet 21;
+# olay en/ar/es/de 426, pt 1539, ru 3631, fr 4531. Çeviri işi site bitince (Emre, 13 Kasım).
+# 16 Kasım 2026 (EMRELİC postit-resim, Emre 1 Kasım kararı): ÖLÇÜM — eksik arayuz 72->78 her dilde. Kaynak: js/gelistirici.js
+# "Resim ekle → çerçeveli ekran görüntüsü" penceresinin 6 yeni düğme/ipucu dizgisi (✓ Ekle, ✕ Vazgeç, Tamamı, "Fareyle / parmakla
+# çerçeve çiz", "Beğenmediysen yeniden çiz · Enter: ekle", "Yalnız harita yakalandı …"); geliştirici kipini yalnız Emre görür.
+# 17 Kasım 2026 (KASA 16 KASIM, post-it/kronoloji birleşimi): tavan AÇILDI (Emre 1 Kasım kuralı: önce ölç, aç, raporla)
+# — ÖLÇÜM: arayüz eksik 78->79 (post-it Resim ekleme: js/gelistirici.js yeni dış dizge; dal tavanı 78 ölçmüştu, birleşimde +1),
+# olay eksik +1 her dilde (postit-194 Yalova-Karamürsel 1323->1326 madde metni/günü değişti). Eski: arayüz 78; olay en/ar/es/de 429, pt 1542, ru 3634, fr 4534.
+# 17 Kasım 2026 (KASA 16 KASIM, F3 yama partisi): tavan AÇILDI (Emre 1 Kasım kuralı: önce ölç, aç, raporla)
+# — ÖLÇÜM: LAB F3 yamaları (64 yama; hicrî yıl kuralı + gün kesinleştirme) kronoloji maddelerinin t değerini değiştirdi;
+# çeviri olay kimliği <dizi>:<t>:<sıra> olduğundan çevrilmiş dillerde eski kimlik yetim, yeni kimlik eksik: olay eksik en/ar/es/de 430->442,
+# pt 1543->1553; bayat en/ar/es/de 113->116, pt 92->95 (fr/ru aynı). Çeviri işi site bitince (Emre, 13 Kasım).
+# 17 Kasım 2026 (KASA 17, tavan AÇILDI: önce ölç, aç, raporla): arayüz eksik 79 -> 80 her dilde = +1 yeni gün kalıbı;
+# kaynak: kapı 5 birleşimi (lab-yama-1117 ve/veya umit-17-kasim kronoloji metni); tek kalıp ayrıca izole edilmedi. Eski: arayüz 79.
 BEKLENEN_CEVIRI_EKSIK = {
-    "en": {"arayuz": 69, "devlet": 5, "olay": 391},
-    "ar": {"arayuz": 69, "devlet": 5, "olay": 391},
-    "es": {"arayuz": 69, "devlet": 5, "olay": 391},
-    "de": {"arayuz": 69, "devlet": 5, "olay": 391},
-    "pt": {"arayuz": 69, "devlet": 5, "olay": 1504},
-    "ru": {"arayuz": 69, "devlet": 5, "olay": 3596},
-    "fr": {"arayuz": 69, "devlet": 5, "olay": 4496},
+    "en": {"arayuz": 80, "devlet": 24, "olay": 442},
+    "ar": {"arayuz": 80, "devlet": 24, "olay": 442},
+    "es": {"arayuz": 80, "devlet": 24, "olay": 442},
+    "de": {"arayuz": 80, "devlet": 24, "olay": 442},
+    "pt": {"arayuz": 80, "devlet": 24, "olay": 1553},
+    "ru": {"arayuz": 80, "devlet": 24, "olay": 3635},
+    "fr": {"arayuz": 80, "devlet": 24, "olay": 4535},
 }
 # 13 Kasım 2026 (KASA batch 15): bayat olay en/ar/es/de 71→72 (ÖLÇÜM) — UMIT p08 / EMRELİC ant17 ana maddelere `antlasma_id` yazdı
 # (Zitvatorok/Buçaş/Vasvar/İstanbul 1700, Yergöğü, İngiliz 1799). Kaynak ölçüldü; çeviri işi site bitince (Emre, 13 Kasım).
 BEKLENEN_CEVIRI_BAYAT = {
-    "en": {"arayuz": 0, "devlet": 1, "olay": 113},
-    "ar": {"arayuz": 0, "devlet": 1, "olay": 113},
-    "es": {"arayuz": 0, "devlet": 1, "olay": 113},
-    "de": {"arayuz": 0, "devlet": 1, "olay": 113},
-    "pt": {"arayuz": 0, "devlet": 1, "olay": 92},
+    "en": {"arayuz": 0, "devlet": 1, "olay": 116},
+    "ar": {"arayuz": 0, "devlet": 1, "olay": 116},
+    "es": {"arayuz": 0, "devlet": 1, "olay": 116},
+    "de": {"arayuz": 0, "devlet": 1, "olay": 116},
+    "pt": {"arayuz": 0, "devlet": 1, "olay": 95},
     "ru": {"arayuz": 0, "devlet": 1, "olay": 63},
     "fr": {"arayuz": 0, "devlet": 1, "olay": 26},
 }

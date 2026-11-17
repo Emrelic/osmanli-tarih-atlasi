@@ -1,0 +1,170 @@
+[
+ {
+  "id": "likasi-p10",
+  "ad": "Likasi",
+  "atlas_ad": null,
+  "lat": -10.98303,
+  "lon": 26.7384,
+  "kat1900": null,
+  "adlar": [
+   "Likasi",
+   "Jadotville"
+  ],
+  "ilk": {
+   "t": "1917-01-01",
+   "gun": "1917",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, «Likasi» (Britannica editörleri), https://www.britannica.com/place/Likasi (tarayıcı sayfa okuma, 17 Kasım 2026)",
+   "tanik": "Likasi was founded in 1917 and was designated an urban district in 1943"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1892-01-01",
+    "gun": "1892",
+    "k": "diger",
+    "b": "Belçikalılar Likasi'de ve Kambove'de bakır yatakları keşfetti",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, «Likasi» (Britannica editörleri), https://www.britannica.com/place/Likasi (tarayıcı sayfa okuma, 17 Kasım 2026)",
+    "tanik": "In 1892 Belgians discovered copper deposits at Likasi and at Kambove"
+   },
+   {
+    "t": "1917-01-01",
+    "gun": "1917",
+    "k": "kurulus",
+    "b": "Likasi kuruldu",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, «Likasi» (Britannica editörleri), https://www.britannica.com/place/Likasi (tarayıcı sayfa okuma, 17 Kasım 2026)",
+    "tanik": "Likasi was founded in 1917 and was designated an urban district in 1943"
+   },
+   {
+    "t": "1943-01-01",
+    "gun": "1943",
+    "k": "diger",
+    "b": "Likasi kentsel bölge (urban district) ilân edildi",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, «Likasi» (Britannica editörleri), https://www.britannica.com/place/Likasi (tarayıcı sayfa okuma, 17 Kasım 2026)",
+    "tanik": "Likasi was founded in 1917 and was designated an urban district in 1943"
+   }
+  ],
+  "ic_not": "TEK KAYNAK (Britannica); çift teyit yok. TDV sitesi 17 Kasım 2026'da açıldı ama bu şehir için madde yok/okunmadı. Gün yok, yıl hassasiyeti. Kuruluş 1917 kaynaklı; 1892 yalnız bakır keşfi (yerleşim olgusu değil, olay olarak yazıldı). 'Jadotville' adı bu kaynakta yok: adlar alanında Britannica dışı bilgidir, doğrulanmadı. Atlas noktası yok; sahip zinciri yazılmadı (kaynak 'şu devletin' demiyor; 1917 zaten 1900 sonrası)."
+ },
+ {
+  "id": "okrika-p10",
+  "ad": "Okrika",
+  "atlas_ad": null,
+  "lat": 4.74215,
+  "lon": 7.08368,
+  "kat1900": null,
+  "adlar": [
+   "Okrika"
+  ],
+  "ilk": {
+   "t": "1912-01-01",
+   "gun": "1912",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, «Okrika» (Britannica editörleri), https://www.britannica.com/place/Okrika (tarayıcı sayfa okuma, 17 Kasım 2026)",
+   "tanik": "By 1912 Okrika had been completely eclipsed by Port Harcourt"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1912-01-01",
+    "gun": "1912",
+    "k": "diger",
+    "b": "Okrika, Port Harcourt tarafından tamamen gölgede bırakılmış durumdaydı (en geç 1912)",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, «Okrika» (Britannica editörleri), https://www.britannica.com/place/Okrika (tarayıcı sayfa okuma, 17 Kasım 2026)",
+    "tanik": "By 1912 Okrika had been completely eclipsed by Port Harcourt"
+   }
+  ],
+  "ic_not": "TEK KAYNAK (Britannica); çift teyit yok. TDV sitesi 17 Kasım 2026'da açıldı ama bu şehir için madde yok/okunmadı. Gün yok, yıl hassasiyeti. 'By 1912' EN GEÇ tarihtir (olayın günü/yılı değil); en erken yıllı tanıktır, şehrin ilk anılışı değildir. Aynı maddede 'early 17th century' (Okrika krallığı başkenti) ve '1830s' yalnız yüzyıl/on yıl: yazılmadı. 1965 (Okrika'nın ticarî liman olarak yeniden canlanması, rafineri) ayrı cümle parçası: 'it was not revived as a commercial port until 1965' dahil edilmedi, çünkü olay parçası tanıkta aynı cümlede ve adsız özne ('it'). Atlas noktası yok; sahip zinciri yazılmadı."
+ },
+ {
+  "id": "lobito-p10",
+  "ad": "Lobito",
+  "atlas_ad": null,
+  "lat": -12.3644,
+  "lon": 13.53601,
+  "kat1900": null,
+  "adlar": [
+   "Lobito"
+  ],
+  "ilk": {
+   "t": "1928-01-01",
+   "gun": "1928",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, «Lobito» (Britannica editörleri), https://www.britannica.com/place/Lobito (tarayıcı sayfa okuma, 17 Kasım 2026)",
+   "tanik": "the completion in 1928 of the important Benguela Railway, which connected Lobito"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1928-01-01",
+    "gun": "1928",
+    "k": "diger",
+    "b": "Benguela Demiryolu'nun tamamlanması Lobito'yu Belçika Kongosu'na bağladı",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, «Lobito» (Britannica editörleri), https://www.britannica.com/place/Lobito (tarayıcı sayfa okuma, 17 Kasım 2026)",
+    "tanik": "the completion in 1928 of the important Benguela Railway, which connected Lobito"
+   }
+  ],
+  "ic_not": "TEK KAYNAK (Britannica); çift teyit yok. TDV sitesi 17 Kasım 2026'da açıldı ama bu şehir için madde yok/okunmadı. Gün yok, yıl hassasiyeti. 1928 şehrin kuruluşu değil, demiryolunun tamamlanma yılıdır (yıllı en erken tanık); Britannica'da Lobito kuruluş yılı okunmadı. Atlas noktası yok; sahip zinciri yazılmadı."
+ },
+ {
+  "id": "mezarisserif-p10",
+  "ad": "Mezârışerif (Mazar-ı Şerif)",
+  "atlas_ad": null,
+  "lat": 36.70904,
+  "lon": 67.11087,
+  "kat1900": null,
+  "adlar": [
+   "Mazar-e Sharif",
+   "Mezârışerif"
+  ],
+  "ilk": {
+   "t": "1852-01-01",
+   "gun": "1852",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, «Mazār-e Sharīf» (Britannica editörleri), https://www.britannica.com/place/Mazar-e-Sharif (tarayıcı sayfa okuma, 17 Kasım 2026) + TDV İslâm Ansiklopedisi, «Mezârışerif», https://islamansiklopedisi.org.tr/mezariserif (tarayıcı sayfa okuma, 17 Kasım 2026)",
+   "tanik": "Mazār-e Sharīf came under Afghan rule in 1852"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1852-01-01",
+    "t": "1900-01-01",
+    "d": "afganistan",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, «Mazār-e Sharīf» (Britannica editörleri), https://www.britannica.com/place/Mazar-e-Sharif (tarayıcı sayfa okuma, 17 Kasım 2026) + TDV İslâm Ansiklopedisi, «Mezârışerif», https://islamansiklopedisi.org.tr/mezariserif (tarayıcı sayfa okuma, 17 Kasım 2026)"
+   }
+  ],
+  "olay": [
+   {
+    "t": "1852-01-01",
+    "gun": "1852",
+    "k": "fetih",
+    "b": "Mezârışerif Afgan hâkimiyetine girdi",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, «Mazār-e Sharīf» (Britannica editörleri), https://www.britannica.com/place/Mazar-e-Sharif (tarayıcı sayfa okuma, 17 Kasım 2026) + TDV İslâm Ansiklopedisi, «Mezârışerif», https://islamansiklopedisi.org.tr/mezariserif (tarayıcı sayfa okuma, 17 Kasım 2026)",
+    "tanik": "Mazār-e Sharīf came under Afghan rule in 1852"
+   }
+  ],
+  "ic_not": "ÇİFT TEYİT: Britannica (cümle tanığı, 'Mazār-e Sharīf came under Afghan rule in 1852') + TDV Mezârışerif ('1852 yılında Afgan hâkimiyetine giren şehir 1869’da Afgan Türkistanı’nın siyasî merkezi haline getirildi'; TDV cümlesinde özne adı yok, madde konusudur). 1852 şehrin ilk anılışı DEĞİL: TDV iki Hz. Ali türbesi keşfini 530 (1136, Sencer) ve 885 (1480, Hüseyin Baykara) olarak verir; ancak TDV cümlesi şehir adını taşımaz, Britannica 1480 cümlesinde 'settlement' Belh'tir (belirsiz) ⇒ bu erken yıllar tanık olarak alınmadı, ayrı borç. 1869 olayı Britannica'da şehir adlı cümlede 15 kelimeyi aşar; TDV'de adsızdır: yazılmadı. Sahip zinciri 1852→1900 (Afganistan Bârekzâyî Emirliği, 'afganistan'): 1900 yalnız bu dosyanın atlas yokluğu dikişidir (kaynak değil); 1852'den sonra Afgan idaresi TDV'ye göre sürer (1869 siyasî merkez, 1873/1889 Afgan valileri). Atlas noktası yok."
+ }
+]

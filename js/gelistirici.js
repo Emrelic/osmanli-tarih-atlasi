@@ -28,7 +28,10 @@
 //   bölgelerin bağlamı korunur, yenilerinki o anki haritadan ölçülür) ve
 //   altına "✏️ Emre notu düzenledi" yorumu düşer — yorum `not.py bekle`yi
 //   uyandırır, notu tutan oturum değişikliği görür. Geçmiş: veri.duzenlemeler.
-// RESİM: dosya seç · yapıştır (Ctrl+V) · sürükle-bırak. 1600 px'e küçültülüp
+// RESİM: "🖼 Resim ekle" → 📁 Galeriden (dosya seç) ya da ✂️ Ekran görüntüsü
+//   (Emre 13 Kasım 2026: ekranın donmuş karesi üstünde elle çerçeve çizilir,
+//   çerçevenin içi eklenir; ekran paylaşımı olmayan tarayıcıda yalnız harita
+//   tuvali) · yapıştır (Ctrl+V) · sürükle-bırak. 1600 px'e küçültülüp
 //   JPEG olarak `postit-resim` dalına (Contents API) yüklenir — `main`e değil,
 //   yayın tetiklenmez. Token'da Contents → Read and write izni gerekir.
 //   veri.resimler: [{url, ad}] · gövdede ![..](url) olarak da yazılır.
@@ -655,17 +658,130 @@
         var img = new Image();
         img.onerror = function () { no(new Error("resim çözülemedi: " + (dosya.name || ""))); };
         img.onload = function () {
-          var K = 1600, o = Math.min(1, K / Math.max(img.width, img.height));
-          var c = document.createElement("canvas");
-          c.width = Math.max(1, Math.round(img.width * o)); c.height = Math.max(1, Math.round(img.height * o));
-          var x = c.getContext("2d");
-          x.fillStyle = "#fff"; x.fillRect(0, 0, c.width, c.height);
-          x.drawImage(img, 0, 0, c.width, c.height);
-          ok({ veri: c.toDataURL("image/jpeg", 0.88), ad: dosya.name || "pano" });
+          ok(jpegYap(img, 0, 0, img.width, img.height, dosya.name || "pano"));
         };
         img.src = r.result;
       };
       r.readAsDataURL(dosya);
+    });
+  }
+  // kaynak (img/canvas) içinden (x,y,w,h) dilimi → en uzun kenar 1600 px JPEG
+  function jpegYap(kaynak, sx, sy, sw, sh, ad) {
+    var K = 1600, o = Math.min(1, K / Math.max(sw, sh));
+    var c = document.createElement("canvas");
+    c.width = Math.max(1, Math.round(sw * o)); c.height = Math.max(1, Math.round(sh * o));
+    var x = c.getContext("2d");
+    x.fillStyle = "#fff"; x.fillRect(0, 0, c.width, c.height);
+    x.drawImage(kaynak, sx, sy, sw, sh, 0, 0, c.width, c.height);
+    return { veri: c.toDataURL("image/jpeg", 0.88), ad: ad };
+  }
+
+  // ------------------------------------------------- EKRAN GÖRÜNTÜSÜ (çerçeve)
+  // 1) Ekran paylaşımı (masaüstü Chrome/Edge/Firefox) → sekmenin tek karesi.
+  // 2) Desteklenmiyorsa (telefon) → yalnız harita tuvali (kronoloji paneli girmez).
+  // Kare donar, üstünde elle çerçeve çizilir, çerçevenin içi resim olur.
+  function haritaKaresi() {
+    return new Promise(function (ok, no) {
+      if (typeof harita === "undefined" || !harita.getCanvas) { no(new Error("harita yok")); return; }
+      var bitti = false;
+      function al() {
+        if (bitti) return; bitti = true;
+        var hc = harita.getCanvas(), c = document.createElement("canvas");
+        c.width = hc.width; c.height = hc.height;
+        c.getContext("2d").drawImage(hc, 0, 0);   // render olayında: tampon henüz silinmedi
+        ok({ tuval: c, yalnizHarita: true });
+      }
+      harita.once("render", al);
+      harita.triggerRepaint();
+      setTimeout(al, 2000);   // sekme arka plandaysa render gelmez
+
+    });
+  }
+  function ekranKaresi() {
+    var md = navigator.mediaDevices;
+    if (!md || !md.getDisplayMedia) return haritaKaresi();
+    return md.getDisplayMedia({ video: { displaySurface: "browser" }, audio: false,
+                                preferCurrentTab: true, selfBrowserSurface: "include",
+                                surfaceSwitching: "exclude", systemAudio: "exclude" })
+      .then(function (akis) {
+        return new Promise(function (ok, no) {
+          var v = document.createElement("video");
+          v.muted = true; v.playsInline = true; v.srcObject = akis;
+          function bitir() { akis.getTracks().forEach(function (t) { t.stop(); }); }
+          v.onloadedmetadata = function () {
+            v.play().then(function () {
+              // paylaşım çubuğu otursun, gizlenen form ekrandan silinsin
+              setTimeout(function () {
+                var c = document.createElement("canvas");
+                c.width = v.videoWidth; c.height = v.videoHeight;
+                c.getContext("2d").drawImage(v, 0, 0);
+                bitir(); ok({ tuval: c });
+              }, 400);
+            }).catch(function (e) { bitir(); no(e); });
+          };
+        });
+      }, function (e) {
+        if (e && (e.name === "NotAllowedError" || e.name === "AbortError")) throw new Error("vazgeçildi");
+        return haritaKaresi();
+      });
+  }
+  // Donmuş kare üstünde çerçeve çizdirir → {veri, ad} ya da null (vazgeç).
+  function cerceveSec(kare) {
+    return new Promise(function (ok) {
+      var t = kare.tuval, W = t.width, H = t.height;
+      var o = el("div"); o.id = "gn-kirp";
+      var s = Math.min(innerWidth / W, (innerHeight - 44) / H);
+      t.className = "gn-kirp-tuval";
+      t.style.width = Math.round(W * s) + "px"; t.style.height = Math.round(H * s) + "px";
+      var kutu = el("div", "gn-kirp-kutu"); kutu.style.display = "none";
+      var ust = el("div", "gn-kirp-ust");
+      var ip = el("span", null, (kare.yalnizHarita ? "Yalnız harita yakalandı (tarayıcı ekran paylaşımı vermiyor) · " : "") +
+                                "Fareyle / parmakla çerçeve çiz");
+      var bEkle = el("button", "gn-ana", "✓ Ekle"), bTam = el("button", null, "Tamamı"),
+          bVaz = el("button", null, "✕ Vazgeç");
+      [bEkle, bTam, bVaz].forEach(function (b) { b.type = "button"; });
+      bEkle.disabled = true;
+      ust.appendChild(ip); ust.appendChild(bEkle); ust.appendChild(bTam); ust.appendChild(bVaz);
+      var sahne = el("div", "gn-kirp-sahne"), sar = el("div", "gn-kirp-sar");
+      sar.appendChild(t); sar.appendChild(kutu); sahne.appendChild(sar);   // kutu tuvale bağlı
+      o.appendChild(ust); o.appendChild(sahne);
+      document.body.appendChild(o);
+      var c = null, bas = null;   // c: tuval px'inde {x,y,w,h}
+      function nokta(e) {
+        var r = t.getBoundingClientRect();
+        return { x: Math.max(0, Math.min(r.width, e.clientX - r.left)),
+                 y: Math.max(0, Math.min(r.height, e.clientY - r.top)), r: r };
+      }
+      function ciz(a, b) {
+        var x = Math.min(a.x, b.x), y = Math.min(a.y, b.y), w = Math.abs(a.x - b.x), h = Math.abs(a.y - b.y);
+        kutu.style.display = "block";
+        kutu.style.left = x + "px"; kutu.style.top = y + "px";
+        kutu.style.width = w + "px"; kutu.style.height = h + "px";
+        var k = W / a.r.width;
+        c = { x: Math.round(x * k), y: Math.round(y * k), w: Math.round(w * k), h: Math.round(h * k) };
+        bEkle.disabled = c.w < 8 || c.h < 8;
+      }
+      sahne.addEventListener("pointerdown", function (e) {
+        e.preventDefault(); bas = nokta(e); sahne.setPointerCapture(e.pointerId); ciz(bas, bas);
+      });
+      sahne.addEventListener("pointermove", function (e) { if (bas) ciz(bas, nokta(e)); });
+      sahne.addEventListener("pointerup", function () {
+        bas = null;
+        if (!bEkle.disabled) { ip.textContent = "Beğenmediysen yeniden çiz · Enter: ekle"; }
+      });
+      function kapat(sonuc) {
+        document.removeEventListener("keydown", tus, true);
+        o.remove(); ok(sonuc);
+      }
+      function tus(e) {
+        if (e.key === "Escape") { e.preventDefault(); e.stopPropagation(); kapat(null); }
+        if (e.key === "Enter" && !bEkle.disabled) { e.preventDefault(); e.stopPropagation(); bEkle.click(); }
+      }
+      document.addEventListener("keydown", tus, true);
+      var ad = "ekran-" + new Date().toISOString().slice(0, 19).replace(/[:T]/g, "-");
+      bEkle.onclick = function () { kapat(jpegYap(t, c.x, c.y, c.w, c.h, ad)); };
+      bTam.onclick = function () { kapat(jpegYap(t, 0, 0, W, H, ad)); };
+      bVaz.onclick = function () { kapat(null); };
     });
   }
   function yetkiHatasi(e) {
@@ -889,9 +1005,31 @@
     var dosya = el("input"); dosya.type = "file"; dosya.accept = "image/*"; dosya.multiple = true; dosya.style.display = "none";
     dosya.onchange = function () { resimAl(dosya.files); };
     var rEkle = el("button", "gn-bolge-ekle", "🖼 Resim ekle"); rEkle.type = "button";
-    rEkle.title = "Dosya seç · ya da metin kutusuna Ctrl+V ile yapıştır · ya da forma sürükle-bırak";
-    rEkle.onclick = function () { dosya.click(); };
-    rl.appendChild(rEkle); rl.appendChild(dosya);
+    rEkle.title = "Galeriden / dosyadan ya da çerçeveli ekran görüntüsü · Ctrl+V ile yapıştır · forma sürükle-bırak da olur";
+    var secim = el("span", "gn-resim-secim"); secim.style.display = "none";
+    var rGaleri = el("button", "gn-bolge-ekle", "📁 Galeriden"); rGaleri.type = "button";
+    rGaleri.title = "Galeriden / bilgisayardan resim seç";
+    var rEkran = el("button", "gn-bolge-ekle", "✂️ Ekran görüntüsü"); rEkran.type = "button";
+    rEkran.title = "Ekranın donmuş karesi üstünde çerçeve çiz; çerçevenin içi nota eklenir";
+    rEkle.onclick = function () { secim.style.display = secim.style.display === "none" ? "inline-flex" : "none"; };
+    rGaleri.onclick = function () { secim.style.display = "none"; dosya.click(); };
+    rEkran.onclick = function () {
+      sakla();
+      f.style.display = "none";
+      var b = $("gn-bildirim"); if (b) b.style.display = "none";
+      // form ekrandan silinsin, sonra kare alınsın
+      requestAnimationFrame(function () { requestAnimationFrame(function () {
+        ekranKaresi().then(cerceveSec).then(function (r) {
+          if (r) G.taslakResim = G.taslakResim.concat([r]);
+          formAc(hedef);
+        }).catch(function (e) {
+          formAc(hedef);
+          if (e.message !== "vazgeçildi") bildir("Ekran görüntüsü alınamadı: " + e.message, true);
+        });
+      }); });
+    };
+    secim.appendChild(rGaleri); secim.appendChild(rEkran);
+    rl.appendChild(rEkle); rl.appendChild(secim); rl.appendChild(dosya);
     f.appendChild(rl);
     ta.addEventListener("paste", function (e) {
       var it = (e.clipboardData && e.clipboardData.items) || [], l = [];

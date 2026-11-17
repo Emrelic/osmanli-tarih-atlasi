@@ -1,0 +1,644 @@
+[
+ {
+  "id": "amritsar-in",
+  "ad_kaynak": [
+   {
+    "ad": "Râmdâspûr",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'AMRİTSAR' https://islamansiklopedisi.org.tr/amritsar",
+    "kanit": "Râmdâspûr (Râm Dâs’ın şehri) adı verilen"
+   },
+   {
+    "ad": "Amritsar",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'AMRİTSAR' https://islamansiklopedisi.org.tr/amritsar",
+    "kanit": "bulunan Amritsar, aynı adı taşıyan ilin merkezi"
+   },
+   {
+    "ad": "Ramdaspur",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Amritsar' https://www.britannica.com/place/Amritsar",
+    "kanit": "Also known as: Ramdaspur"
+   },
+   {
+    "ad": "Amrita-saras",
+    "dil": "sa",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'AMRİTSAR' https://islamansiklopedisi.org.tr/amritsar",
+    "kanit": "Amrita-saras (< Amritsar “âb-ı hayât havuzu”)"
+   }
+  ],
+  "adlar_sira": [
+   "Ramdaspur",
+   "Amritsar"
+  ],
+  "kaynaksiz": []
+ },
+ {
+  "id": "bahavelpur-pk",
+  "ad_kaynak": [
+   {
+    "ad": "Bahâvelpûr",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'BAHÂVELPÛR' https://islamansiklopedisi.org.tr/bahavelpur",
+    "kanit": "Bahâvelpûr’da halkın çoğu Sünnî müslümandır"
+   },
+   {
+    "ad": "Bağdâdulcedîd",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'BAHÂVELPÛR' https://islamansiklopedisi.org.tr/bahavelpur",
+    "kanit": "Bağdat’a benzediği için Bağdâdulcedîd adıyla da bilinir"
+   }
+  ],
+  "adlar_sira": null,
+  "kaynaksiz": []
+ },
+ {
+  "id": "mursidabad-in",
+  "ad_kaynak": [
+   {
+    "ad": "Maksûdâbâd",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'MÜRŞİDÂBÂD' https://islamansiklopedisi.org.tr/mursidabad",
+    "kanit": "şehrin önceki adı Maksûdâbâd’dır (Mahsûsâbâd)"
+   },
+   {
+    "ad": "Mahsûsâbâd",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'MÜRŞİDÂBÂD' https://islamansiklopedisi.org.tr/mursidabad",
+    "kanit": "şehrin önceki adı Maksûdâbâd’dır (Mahsûsâbâd)"
+   },
+   {
+    "ad": "Mürşidâbâd",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'MÜRŞİDÂBÂD' https://islamansiklopedisi.org.tr/mursidabad",
+    "kanit": "isminin Mürşidâbâd’a çevrilmesi bu döneme rastlar"
+   },
+   {
+    "ad": "Makhsudabad",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Murshidabad' https://www.britannica.com/place/Murshidabad",
+    "kanit": "Also known as: Makhsudabad"
+   },
+   {
+    "ad": "Makhsudabad",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Banglapedia 'Murshidabad' https://en.banglapedia.org/index.php/Murshidabad",
+    "kanit": "the place was called after him Makhsudabad"
+   },
+   {
+    "ad": "Morasudabad",
+    "dil": "sa",
+    "donem": null,
+    "kaynak": "Banglapedia 'Murshidabad' https://en.banglapedia.org/index.php/Murshidabad",
+    "kanit": "There is also mention of this place as 'Morasudabad' founded by a Yavana"
+   },
+   {
+    "ad": "Moxudabath",
+    "dil": "nl",
+    "donem": "1658-1664",
+    "kaynak": "Banglapedia 'Murshidabad' https://en.banglapedia.org/index.php/Murshidabad",
+    "kanit": "In Valentyn's map (1658-64) 'Moxudabath' is shown on an island"
+   }
+  ],
+  "adlar_sira": null,
+  "kaynaksiz": []
+ },
+ {
+  "id": "gaur-bd",
+  "ad_kaynak": [
+   {
+    "ad": "Gavr",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'LEKNEVTÎ' https://islamansiklopedisi.org.tr/leknevti",
+    "kanit": "şehre Gavr (Gur) ve Cennetâbâd da denilir"
+   },
+   {
+    "ad": "Gur",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'LEKNEVTÎ' https://islamansiklopedisi.org.tr/leknevti",
+    "kanit": "şehre Gavr (Gur) ve Cennetâbâd da denilir"
+   },
+   {
+    "ad": "Cennetâbâd",
+    "dil": "tr-osm",
+    "donem": "1538-",
+    "kaynak": "TDV İslâm Ansiklopedisi 'LEKNEVTÎ' https://islamansiklopedisi.org.tr/leknevti",
+    "kanit": "şehrin güzelliğinden dolayı buraya Cennetâbâd ismini verdi"
+   },
+   {
+    "ad": "Leknevtî",
+    "dil": "tr-osm",
+    "donem": "1538-",
+    "kaynak": "TDV İslâm Ansiklopedisi 'LEKNEVTÎ' https://islamansiklopedisi.org.tr/leknevti",
+    "kanit": "Hümâyun 1538’de Afgan Şîr Şah’ı mağlûp ederek Leknevtî’yi ele geçirdi"
+   },
+   {
+    "ad": "Lakhanavati",
+    "dil": "sa",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'LEKNEVTÎ' https://islamansiklopedisi.org.tr/leknevti",
+    "kanit": "Sanskritçe’de “yerleşim yeri” anlamına da gelen “lakhanavati” kelimesinden geldiği düşünülür"
+   },
+   {
+    "ad": "Lakhnauti",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Banglapedia 'Lakhnauti' https://en.banglapedia.org/index.php/Lakhnauti",
+    "kanit": "Lakhnauti a ruined city in the Maldah district of west Bengal"
+   },
+   {
+    "ad": "Laksmanavati",
+    "dil": "sa",
+    "donem": null,
+    "kaynak": "Banglapedia 'Lakhnauti' https://en.banglapedia.org/index.php/Lakhnauti",
+    "kanit": "Laksmanavati came to be known as Lakhnauti under the Muslim rulers"
+   }
+  ],
+  "adlar_sira": null,
+  "kaynaksiz": []
+ },
+ {
+  "id": "bhopal-in",
+  "ad_kaynak": [
+   {
+    "ad": "Bopal",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'BOPAL' https://islamansiklopedisi.org.tr/bopal--sehir",
+    "kanit": "Önceleri Bopal İslâm Devleti’nin başşehri olan Bopal"
+   }
+  ],
+  "adlar_sira": null,
+  "kaynaksiz": [
+   "Bhopal (yalnız yazım; TDV Bopal yazar, Britannica 'Bhopal-India' gövdesi alınamadı)"
+  ]
+ },
+ {
+  "id": "caul-in-a3",
+  "ad_kaynak": [
+   {
+    "ad": "Çaul",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'ÂDİLŞÂHÎLER' https://islamansiklopedisi.org.tr/adilsahiler",
+    "kanit": "Goa ve Çaul limanlarını kuşattılarsa"
+   }
+  ],
+  "adlar_sira": null,
+  "kaynaksiz": [
+   "Sîmûr (TDV: Sîmûr (Çaul))",
+   "Chaul"
+  ]
+ },
+ {
+  "id": "kalyani-in-a3",
+  "ad_kaynak": [
+   {
+    "ad": "Kalyan",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'ÂDİLŞÂHÎLER' https://islamansiklopedisi.org.tr/adilsahiler",
+    "kanit": "önce Bîder, sonra da Kalyan şehirlerini ele geçirdi"
+   }
+  ],
+  "adlar_sira": null,
+  "kaynaksiz": [
+   "Kalyani",
+   "Basavakalyan"
+  ]
+ },
+ {
+  "id": "kolam-in",
+  "ad_kaynak": [
+   {
+    "ad": "Coilum",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Kollam' https://www.britannica.com/place/Kollam",
+    "kanit": "Also known as: Coilum, Elancon, Kaulam Mall, Quilon"
+   },
+   {
+    "ad": "Elancon",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Kollam' https://www.britannica.com/place/Kollam",
+    "kanit": "Also known as: Coilum, Elancon, Kaulam Mall, Quilon"
+   },
+   {
+    "ad": "Kaulam Mall",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Kollam' https://www.britannica.com/place/Kollam",
+    "kanit": "Also known as: Coilum, Elancon, Kaulam Mall, Quilon"
+   },
+   {
+    "ad": "Quilon",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Kollam' https://www.britannica.com/place/Kollam",
+    "kanit": "Formerly: Quilon"
+   },
+   {
+    "ad": "Quilon",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Hobson-Jobson (Yule-Burnell) 'QUILON' https://dsal.uchicago.edu/cgi-bin/app/hobsonjobson_query.py?qs=Quilon&searchhws=yes&matchtype=exact",
+    "kanit": "QUILON, n.p. A form which we have adopted from the Portuguese"
+   },
+   {
+    "ad": "Kaulam",
+    "dil": "ar",
+    "donem": null,
+    "kaynak": "Hobson-Jobson (Yule-Burnell) 'QUILON' https://dsal.uchicago.edu/cgi-bin/app/hobsonjobson_query.py?qs=Quilon&searchhws=yes&matchtype=exact",
+    "kanit": "known to the Arabs as Kaulam. The proper name is Tamil, Kollam"
+   },
+   {
+    "ad": "Kollam",
+    "dil": "ta",
+    "donem": null,
+    "kaynak": "Hobson-Jobson (Yule-Burnell) 'QUILON' https://dsal.uchicago.edu/cgi-bin/app/hobsonjobson_query.py?qs=Quilon&searchhws=yes&matchtype=exact",
+    "kanit": "known to the Arabs as Kaulam. The proper name is Tamil, Kollam"
+   }
+  ],
+  "adlar_sira": null,
+  "kaynaksiz": []
+ },
+ {
+  "id": "racmahal-in",
+  "ad_kaynak": [
+   {
+    "ad": "Rajmahal",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Banglapedia 'Rajmahal' https://en.banglapedia.org/index.php/Rajmahal",
+    "kanit": "Rajmahal a historic town, is situated on the west bank"
+   },
+   {
+    "ad": "Agmahl",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Banglapedia 'Rajmahal' https://en.banglapedia.org/index.php/Rajmahal",
+    "kanit": "The earlier name of the place was Agmahl"
+   },
+   {
+    "ad": "Akbarnagar",
+    "dil": "en",
+    "donem": "1595-",
+    "kaynak": "Banglapedia 'Rajmahal' https://en.banglapedia.org/index.php/Rajmahal",
+    "kanit": "named it Akbarnagar, after akbar, the emperor"
+   }
+  ],
+  "adlar_sira": null,
+  "kaynaksiz": []
+ },
+ {
+  "id": "mangalor-in",
+  "ad_kaynak": [
+   {
+    "ad": "Mangalore",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Mangaluru' https://www.britannica.com/place/Mangaluru",
+    "kanit": "Also known as: Mangalore"
+   },
+   {
+    "ad": "Mangalore",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Hobson-Jobson (Yule-Burnell) 'MANGALORE' https://dsal.uchicago.edu/cgi-bin/app/hobsonjobson_query.py?qs=Mangalore&searchhws=yes&matchtype=exact",
+    "kanit": "MANGALORE, n.p. The only place now well known by this name"
+   },
+   {
+    "ad": "Mangal-ūr",
+    "dil": "kn",
+    "donem": null,
+    "kaynak": "Hobson-Jobson (Yule-Burnell) 'MANGALORE' https://dsal.uchicago.edu/cgi-bin/app/hobsonjobson_query.py?qs=Mangalore&searchhws=yes&matchtype=exact",
+    "kanit": "Mangal-ūr, a port on the coast of Southern Canara"
+   },
+   {
+    "ad": "Manjarūr",
+    "dil": "ar",
+    "donem": "1343",
+    "kaynak": "Hobson-Jobson (Yule-Burnell) 'MANGALORE' https://dsal.uchicago.edu/cgi-bin/app/hobsonjobson_query.py?qs=Mangalore&searchhws=yes&matchtype=exact",
+    "kanit": "we arrived after three days at the city of Manjarūr"
+   }
+  ],
+  "adlar_sira": null,
+  "kaynaksiz": [
+   "Mangaluru (Britannica sayfa başlığı; ad satırı yok)"
+  ]
+ },
+ {
+  "id": "bikaner-p6",
+  "ad_kaynak": [],
+  "adlar_sira": null,
+  "kaynaksiz": [
+   "Bikaner"
+  ]
+ },
+ {
+  "id": "indor-p6",
+  "ad_kaynak": [
+   {
+    "ad": "Indur",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Indore' https://www.britannica.com/place/Indore",
+    "kanit": "Also known as: Indur"
+   }
+  ],
+  "adlar_sira": null,
+  "kaynaksiz": [
+   "Indore (Britannica sayfa başlığı; gövde alınamadı)"
+  ]
+ },
+ {
+  "id": "broac-p6",
+  "ad_kaynak": [
+   {
+    "ad": "Broach",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Bharuch' https://www.britannica.com/place/Bharuch",
+    "kanit": "Also called: Broach"
+   },
+   {
+    "ad": "Bharukaccha",
+    "dil": "sa",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Bharuch' https://www.britannica.com/place/Bharuch",
+    "kanit": "Historically: Bharukaccha or Bhrgukaccha"
+   },
+   {
+    "ad": "Bhrgukaccha",
+    "dil": "sa",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Bharuch' https://www.britannica.com/place/Bharuch",
+    "kanit": "Historically: Bharukaccha or Bhrgukaccha"
+   },
+   {
+    "ad": "Broach",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Hobson-Jobson (Yule-Burnell) 'BROACH' https://dsal.uchicago.edu/cgi-bin/app/hobsonjobson_query.py?qs=Broach&searchhws=yes&matchtype=exact",
+    "kanit": "From the sands of Swallow to Broach"
+   },
+   {
+    "ad": "Bhṛigu-kachchha",
+    "dil": "sa",
+    "donem": null,
+    "kaynak": "Hobson-Jobson (Yule-Burnell) 'BROACH' https://dsal.uchicago.edu/cgi-bin/app/hobsonjobson_query.py?qs=Broach&searchhws=yes&matchtype=exact",
+    "kanit": "The original forms of the name are Bhṛigu-kachchha, and Bhāru-Kachchha"
+   },
+   {
+    "ad": "Bhāru-Kachchha",
+    "dil": "sa",
+    "donem": null,
+    "kaynak": "Hobson-Jobson (Yule-Burnell) 'BROACH' https://dsal.uchicago.edu/cgi-bin/app/hobsonjobson_query.py?qs=Broach&searchhws=yes&matchtype=exact",
+    "kanit": "The original forms of the name are Bhṛigu-kachchha, and Bhāru-Kachchha"
+   },
+   {
+    "ad": "Barygaza",
+    "dil": "grc",
+    "donem": "80",
+    "kaynak": "Hobson-Jobson (Yule-Burnell) 'BROACH' https://dsal.uchicago.edu/cgi-bin/app/hobsonjobson_query.py?qs=Broach&searchhws=yes&matchtype=exact",
+    "kanit": "they are piloted up to Barygaza."
+   }
+  ],
+  "adlar_sira": null,
+  "kaynaksiz": [
+   "Bharuch (Britannica sayfa başlığı; ad satırı yok)",
+   "Bhrigukaccha (yazım: kaynaklar Bhrgukaccha / Bhṛigu-kachchha yazar)"
+  ]
+ },
+ {
+  "id": "mirat-p6",
+  "ad_kaynak": [],
+  "adlar_sira": null,
+  "kaynaksiz": [
+   "Meerut",
+   "Mîrat"
+  ]
+ },
+ {
+  "id": "kurnool-in-p6",
+  "ad_kaynak": [
+   {
+    "ad": "Kurnool",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Hobson-Jobson (Yule-Burnell) 'KURNOOL' https://dsal.uchicago.edu/cgi-bin/app/hobsonjobson_query.py?qs=Kurnool&searchhws=yes&matchtype=exact",
+    "kanit": "KURNOOL, n.p. The name of a city and territory in the Deccan"
+   },
+   {
+    "ad": "Karnūl",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Hobson-Jobson (Yule-Burnell) 'KURNOOL' https://dsal.uchicago.edu/cgi-bin/app/hobsonjobson_query.py?qs=Kurnool&searchhws=yes&matchtype=exact",
+    "kanit": "Karnūl of the Imp. Gazetteer"
+   },
+   {
+    "ad": "Kandanūr",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Hobson-Jobson (Yule-Burnell) 'KURNOOL' https://dsal.uchicago.edu/cgi-bin/app/hobsonjobson_query.py?qs=Kurnool&searchhws=yes&matchtype=exact",
+    "kanit": "Properly Kandanūr; Canoul of Orme."
+   },
+   {
+    "ad": "Canoul",
+    "dil": "fr",
+    "donem": null,
+    "kaynak": "Hobson-Jobson (Yule-Burnell) 'KURNOOL' https://dsal.uchicago.edu/cgi-bin/app/hobsonjobson_query.py?qs=Kurnool&searchhws=yes&matchtype=exact",
+    "kanit": "Properly Kandanūr; Canoul of Orme."
+   }
+  ],
+  "adlar_sira": null,
+  "kaynaksiz": []
+ },
+ {
+  "id": "meysur-in-p6",
+  "ad_kaynak": [
+   {
+    "ad": "Meysûr",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'MEYSÛR' https://islamansiklopedisi.org.tr/meysur",
+    "kanit": "Meysûr şehri Bengalur’dan sonra"
+   },
+   {
+    "ad": "Maisūr",
+    "dil": "ta",
+    "donem": null,
+    "kaynak": "Hobson-Jobson (Yule-Burnell) 'MYSORE' https://dsal.uchicago.edu/cgi-bin/app/hobsonjobson_query.py?qs=Mysore&searchhws=yes&matchtype=exact",
+    "kanit": "MYSORE, n.p. Tam. Maisūr, Can. Maisūru."
+   },
+   {
+    "ad": "Maisūru",
+    "dil": "kn",
+    "donem": null,
+    "kaynak": "Hobson-Jobson (Yule-Burnell) 'MYSORE' https://dsal.uchicago.edu/cgi-bin/app/hobsonjobson_query.py?qs=Mysore&searchhws=yes&matchtype=exact",
+    "kanit": "MYSORE, n.p. Tam. Maisūr, Can. Maisūru."
+   }
+  ],
+  "adlar_sira": null,
+  "kaynaksiz": [
+   "Mysore",
+   "Mysuru"
+  ]
+ },
+ {
+  "id": "kannur-in-p6",
+  "ad_kaynak": [
+   {
+    "ad": "Cannanore",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Kannur' https://www.britannica.com/place/Kannur",
+    "kanit": "Formerly: Cannanore"
+   },
+   {
+    "ad": "Cannanore",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Hobson-Jobson (Yule-Burnell) 'CANNANORE' https://dsal.uchicago.edu/cgi-bin/app/hobsonjobson_query.py?qs=Cannanore&searchhws=yes&matchtype=exact",
+    "kanit": "CANNANORE, n.p. A port on the coast of northern Malabar"
+   },
+   {
+    "ad": "Kaṇṇūr",
+    "dil": "ta",
+    "donem": null,
+    "kaynak": "Hobson-Jobson (Yule-Burnell) 'CANNANORE' https://dsal.uchicago.edu/cgi-bin/app/hobsonjobson_query.py?qs=Cannanore&searchhws=yes&matchtype=exact",
+    "kanit": "The name is Kaṇṇūr or Kaṇṇanūr, 'Krishna's Town.'"
+   },
+   {
+    "ad": "Kaṇṇanūr",
+    "dil": "ta",
+    "donem": null,
+    "kaynak": "Hobson-Jobson (Yule-Burnell) 'CANNANORE' https://dsal.uchicago.edu/cgi-bin/app/hobsonjobson_query.py?qs=Cannanore&searchhws=yes&matchtype=exact",
+    "kanit": "The name is Kaṇṇūr or Kaṇṇanūr, 'Krishna's Town.'"
+   },
+   {
+    "ad": "Cananor",
+    "dil": "pt",
+    "donem": "1572",
+    "kaynak": "Hobson-Jobson (Yule-Burnell) 'CANNANORE' https://dsal.uchicago.edu/cgi-bin/app/hobsonjobson_query.py?qs=Cannanore&searchhws=yes&matchtype=exact",
+    "kanit": "Que entre Calecut jaz, e Cananor."
+   }
+  ],
+  "adlar_sira": null,
+  "kaynaksiz": [
+   "Kannur (Britannica sayfa başlığı; ad satırı yok)"
+  ]
+ },
+ {
+  "id": "masulipatnam-in-p6",
+  "ad_kaynak": [
+   {
+    "ad": "Masulipatam",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Machilipatnam' https://www.britannica.com/place/Machilipatnam",
+    "kanit": "Also known as: Masulipatam, Masulipatnam"
+   },
+   {
+    "ad": "Masulipatnam",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Machilipatnam' https://www.britannica.com/place/Machilipatnam",
+    "kanit": "Also known as: Masulipatam, Masulipatnam"
+   },
+   {
+    "ad": "Machhlipatan",
+    "dil": "hi",
+    "donem": null,
+    "kaynak": "Hobson-Jobson (Yule-Burnell) 'MASULIPATAM' https://dsal.uchicago.edu/cgi-bin/app/hobsonjobson_query.py?qs=Masulipatam&searchhws=yes&matchtype=exact",
+    "kanit": "sometimes vulgarly called Machhlipatan or Machhli-bandar"
+   },
+   {
+    "ad": "Machhli-bandar",
+    "dil": "hi",
+    "donem": null,
+    "kaynak": "Hobson-Jobson (Yule-Burnell) 'MASULIPATAM' https://dsal.uchicago.edu/cgi-bin/app/hobsonjobson_query.py?qs=Masulipatam&searchhws=yes&matchtype=exact",
+    "kanit": "sometimes vulgarly called Machhlipatan or Machhli-bandar"
+   },
+   {
+    "ad": "Missulapatam",
+    "dil": "en",
+    "donem": "1619",
+    "kaynak": "Hobson-Jobson (Yule-Burnell) 'MASULIPATAM' https://dsal.uchicago.edu/cgi-bin/app/hobsonjobson_query.py?qs=Masulipatam&searchhws=yes&matchtype=exact",
+    "kanit": "Master Methwold came from Missulapatam in one of the country Boats."
+   }
+  ],
+  "adlar_sira": null,
+  "kaynaksiz": [
+   "Machilipatnam (Britannica sayfa başlığı; ad satırı yok)"
+  ]
+ },
+ {
+  "id": "yafna-lk-p6",
+  "ad_kaynak": [],
+  "adlar_sira": null,
+  "kaynaksiz": [
+   "Jaffna",
+   "Yafna"
+  ]
+ },
+ {
+  "id": "nagapatnam-in-p7",
+  "ad_kaynak": [
+   {
+    "ad": "Nagappattinam",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Nagapattinam' https://www.britannica.com/place/Nagapattinam",
+    "kanit": "Also known as: Nagappattinam, Negapattam"
+   },
+   {
+    "ad": "Negapattam",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Nagapattinam' https://www.britannica.com/place/Nagapattinam",
+    "kanit": "Also known as: Nagappattinam, Negapattam"
+   },
+   {
+    "ad": "Negapatam",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Hobson-Jobson (Yule-Burnell) 'NEGAPATAM' https://dsal.uchicago.edu/cgi-bin/app/hobsonjobson_query.py?qs=Negapatam&searchhws=yes&matchtype=exact",
+    "kanit": "NEGAPATAM, n.p. A seaport of Tanjore district"
+   },
+   {
+    "ad": "Nāgai-ppaṭṭanam",
+    "dil": "ta",
+    "donem": null,
+    "kaynak": "Hobson-Jobson (Yule-Burnell) 'NEGAPATAM' https://dsal.uchicago.edu/cgi-bin/app/hobsonjobson_query.py?qs=Negapatam&searchhws=yes&matchtype=exact",
+    "kanit": "written Nāgai-ppaṭṭanam, which may mean 'Snake Town.'"
+   },
+   {
+    "ad": "Negapatan",
+    "dil": "en",
+    "donem": "1598",
+    "kaynak": "Hobson-Jobson (Yule-Burnell) 'NEGAPATAM' https://dsal.uchicago.edu/cgi-bin/app/hobsonjobson_query.py?qs=Negapatam&searchhws=yes&matchtype=exact",
+    "kanit": "The coast of Choramandel beginneth from the Cape of Negapatan."
+   }
+  ],
+  "adlar_sira": null,
+  "kaynaksiz": [
+   "Nagapattanam (yazım; kaynaklar Nagappattinam/Nagapattinam yazar)",
+   "Choramandel (Portekizce) (kaynakta kıyı adı olarak geçer, şehir adı değil)"
+  ]
+ }
+]

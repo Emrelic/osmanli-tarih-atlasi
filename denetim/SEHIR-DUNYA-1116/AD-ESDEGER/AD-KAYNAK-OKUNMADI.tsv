@@ -1,0 +1,59 @@
+id	ad	dil	donem	neden(durum)	kaynak
+delhi-in	Dilli	hi		DOGRULANMADI_(kaynak_türü)	Encyclopaedia Britannica 'Delhi' (arama özeti; sayfa 403) https://www.britannica.com/place/Delhi
+delhi-in	Dehli	en		DOGRULANMADI_(kaynak_türü)	Encyclopaedia Britannica 'Delhi' (arama özeti; sayfa 403) https://www.britannica.com/place/Delhi
+delhi-in	Delhi	en		DOGRULANMADI_(kaynak_türü)	Encyclopaedia Britannica 'Delhi' (arama özeti; sayfa 403) https://www.britannica.com/place/Delhi
+kalkuta-in	Kalküta	tr-osm		YOK	TDV İslâm Ansiklopedisi 'KALKÜTA' https://islamansiklopedisi.org.tr/kalkuta
+lahor-pk	Lōhāwar	ur		DOGRULANMADI_(kaynak_türü)	Encyclopaedia Britannica 'Lahore' (arama özeti; sayfa 403) https://www.britannica.com/place/Lahore
+lahor-pk	Lāhawr	ur		DOGRULANMADI_(kaynak_türü)	Encyclopaedia Britannica 'Lahore' (arama özeti; sayfa 403) https://www.britannica.com/place/Lahore
+karaci-pk-a3	Kalachi-jo-Goth	sd	18. yy	DOGRULANMADI_(kaynak_türü)	Encyclopaedia Britannica 'Karachi' (arama özeti; sayfa 403) https://www.britannica.com/place/Karachi
+karaci-pk-a3	Kurrachee	en		DOGRULANMADI_(kaynak_türü)	Encyclopaedia Britannica 'Karachi' (arama özeti; sayfa 403) https://www.britannica.com/place/Karachi
+karaci-pk-a3	Karaçi	tr-osm		YOK	TDV İslâm Ansiklopedisi 'KARAÇİ' https://islamansiklopedisi.org.tr/karaci
+ahmedabad-in	Ahmadabad	en		KANIT_AD_ICERMIYOR	TDV İslâm Ansiklopedisi 'AHMEDÂBÂD (kaynakça)' https://islamansiklopedisi.org.tr/ahmedabad
+bangalor-in-p6	Bangalore	en	-2006	KANIT_AD_ICERMIYOR	Encyclopedia.com 'Bangalore' https://www.encyclopedia.com/places/asia/indian-political-geography/bangalore
+bangalor-in-p6	Bengaluru	kn	2006-	DOGRULANMADI_(kaynak_türü)	Encyclopaedia Britannica Students 'Bengaluru' https://kids.britannica.com/students/article/Bengaluru/273090 (arama özeti)
+agra-in	Âgra	tr-osm		KANIT_AD_ICERMIYOR	TDV İslâm Ansiklopedisi 'AGRA' https://islamansiklopedisi.org.tr/agra
+dakka-bd	Dakka	tr-osm		KANIT_AD_ICERMIYOR	TDV İslâm Ansiklopedisi 'DAKKA' https://islamansiklopedisi.org.tr/dakka
+citagong-bd-a3	Çitagong	tr-osm		YOK	TDV İslâm Ansiklopedisi 'ÇİTAGONG' https://islamansiklopedisi.org.tr/citagong
+ecmir-in	Ecmîr	tr-osm		KANIT_AD_ICERMIYOR	TDV İslâm Ansiklopedisi 'ECMÎR' https://islamansiklopedisi.org.tr/ecmir
+ecmir-in	Ajmer	en		DOGRULANMADI_(kaynak_türü)	Encyclopaedia Britannica 'Ajmer' (arama özeti; sayfa 403) https://www.britannica.com/place/Ajmer
+kabil-af	Kābol	fa		DOGRULANMADI_(kaynak_türü)	Encyclopaedia Britannica 'Kabul' https://www.britannica.com/place/Kabul
+herat-af	Ariea	en		DOGRULANMADI_(kaynak_türü)	Encyclopaedia Britannica 'Herat' https://www.britannica.com/place/Herat-Afghanistan
+herat-af	Harāt	fa		DOGRULANMADI_(kaynak_türü)	Encyclopaedia Britannica 'Herat' https://www.britannica.com/place/Herat-Afghanistan
+semerkant-uz	Samarqand	en		DOGRULANMADI_(kaynak_türü)	Encyclopaedia Britannica 'Samarkand' https://www.britannica.com/place/Samarkand-Uzbekistan
+semerkant-uz	Maracanda	grc	4. yy MÖ (kaynak yalnız yüzyıl verir)	DOGRULANMADI_(kaynak_türü)	Encyclopaedia Britannica 'Samarkand' https://www.britannica.com/place/Samarkand-Uzbekistan
+buhara-uz	Bukhoro	uz		DOGRULANMADI_(kaynak_türü)	Encyclopaedia Britannica 'Bukhara' https://www.britannica.com/place/Bukhara
+buhara-uz	Buxoro	uz		DOGRULANMADI_(kaynak_türü)	Encyclopaedia Britannica 'Bukhara' https://www.britannica.com/place/Bukhara
+buhara-uz	Bokhara	en		DOGRULANMADI_(kaynak_türü)	Encyclopaedia Britannica 'Bukhara' https://www.britannica.com/place/Bukhara
+taskent-uz	Dzhadzh	en		DOGRULANMADI_(kaynak_türü)	Encyclopaedia Britannica 'Tashkent' https://www.britannica.com/place/Tashkent
+taskent-uz	Chachkent	en		DOGRULANMADI_(kaynak_türü)	Encyclopaedia Britannica 'Tashkent' https://www.britannica.com/place/Tashkent
+taskent-uz	Shashkent	en		DOGRULANMADI_(kaynak_türü)	Encyclopaedia Britannica 'Tashkent' https://www.britannica.com/place/Tashkent
+taskent-uz	Binkent	en		DOGRULANMADI_(kaynak_türü)	Encyclopaedia Britannica 'Tashkent' https://www.britannica.com/place/Tashkent
+taskent-uz	Tashkent	en	XI. yy	DOGRULANMADI_(kaynak_türü)	Encyclopaedia Britannica 'Tashkent' https://www.britannica.com/place/Tashkent
+belh-af	Bactra	en		DOGRULANMADI_(kaynak_türü)	Encyclopaedia Britannica 'Balkh' https://www.britannica.com/place/Balkh
+belh-af	Bactra-Zariaspa	en		DOGRULANMADI_(kaynak_türü)	Encyclopaedia Britannica 'Balkh' https://www.britannica.com/place/Balkh
+belh-af	Vazīrābād	fa		DOGRULANMADI_(kaynak_türü)	Encyclopaedia Britannica 'Balkh' https://www.britannica.com/place/Balkh
+hive-uz	Khiva	en		DOGRULANMADI_(kaynak_türü)	Encyclopaedia Britannica 'Khiva' https://www.britannica.com/place/Khiva
+hive-uz	Khiwa	en		DOGRULANMADI_(kaynak_türü)	Encyclopaedia Britannica 'Khiva' https://www.britannica.com/place/Khiva
+urumci-cn	Dihua	zh	1763- (kuruluş yılı; kaynak bitiş vermez)	DOGRULANMADI_(kaynak_türü)	Encyclopaedia Britannica 'Ürümqi' https://www.britannica.com/place/Urumqi
+urumci-cn	Ürümqi	en		DOGRULANMADI_(kaynak_türü)	Encyclopaedia Britannica 'Ürümqi' https://www.britannica.com/place/Urumqi
+urumci-cn	Ürümchi	en		DOGRULANMADI_(kaynak_türü)	Encyclopaedia Britannica 'Ürümqi' https://www.britannica.com/place/Urumqi
+kasgar-cn	K’a-shih	zh		DOGRULANMADI_(kaynak_türü)	Encyclopaedia Britannica 'Kashgar' https://www.britannica.com/place/Kashgar
+almati-kz	Zailiyskoye	ru	1854-1855	DOGRULANMADI_(kaynak_türü)	Encyclopaedia Britannica 'Almaty' https://www.britannica.com/place/Almaty-Kazakhstan
+almati-kz	Verny	ru	1855-1921	DOGRULANMADI_(kaynak_türü)	Encyclopaedia Britannica 'Almaty' https://www.britannica.com/place/Almaty-Kazakhstan
+almati-kz	Alma-Ata	ru	1921-1991	DOGRULANMADI_(kaynak_türü)	Encyclopaedia Britannica 'Almaty' https://www.britannica.com/place/Almaty-Kazakhstan
+almati-kz	Almaty	kk	1991-	DOGRULANMADI_(kaynak_türü)	Encyclopaedia Britannica 'Almaty' https://www.britannica.com/place/Almaty-Kazakhstan
+astana-p9	Akmolinsk	ru		DOGRULANMADI_(kaynak_türü)	Encyclopaedia Britannica 'Astana' https://www.britannica.com/place/Astana-Kazakhstan
+astana-p9	Tselinograd	ru		DOGRULANMADI_(kaynak_türü)	Encyclopaedia Britannica 'Astana' https://www.britannica.com/place/Astana-Kazakhstan
+astana-p9	Aqmola	kk	1992-1998	DOGRULANMADI_(kaynak_türü)	Encyclopaedia Britannica 'Astana' https://www.britannica.com/place/Astana-Kazakhstan
+astana-p9	Astana	kk	1998-2019	DOGRULANMADI_(kaynak_türü)	Encyclopaedia Britannica 'Astana' https://www.britannica.com/place/Astana-Kazakhstan
+astana-p9	Nur-Sultan	kk	2019-2022	DOGRULANMADI_(kaynak_türü)	Encyclopaedia Britannica 'Astana' https://www.britannica.com/place/Astana-Kazakhstan
+astana-p9	Astana	kk	2022-	DOGRULANMADI_(kaynak_türü)	Encyclopaedia Britannica 'Astana' https://www.britannica.com/place/Astana-Kazakhstan
+tombouctou-ml	Timbuktu	en		DOGRULANMADI_(kaynak_türü)	Encyclopaedia Britannica 'Timbuktu' https://www.britannica.com/place/Timbuktu-Mali
+cape-town-za	De Kaap	nl		DOGRULANMADI_(kaynak_türü)	Encyclopaedia Britannica 'Cape Town' https://www.britannica.com/place/Cape-Town
+cape-town-za	Kaapstad	nl		DOGRULANMADI_(kaynak_türü)	Encyclopaedia Britannica 'Cape Town' https://www.britannica.com/place/Cape-Town
+cape-town-za	Cape Town	en		DOGRULANMADI_(kaynak_türü)	Encyclopaedia Britannica 'Cape Town' https://www.britannica.com/place/Cape-Town
+kano-ng	Kano	ha		DOGRULANMADI_(kaynak_türü)	Encyclopaedia Britannica 'Kano' https://www.britannica.com/place/Kano-Nigeria
+kano-ng	Kano City	en		DOGRULANMADI_(kaynak_türü)	Encyclopaedia Britannica 'Kano' https://www.britannica.com/place/Kano-Nigeria
+luanda-p9	São Paulo de Luanda	pt		DOGRULANMADI_(kaynak_türü)	Encyclopaedia Britannica 'Luanda' https://www.britannica.com/place/Luanda
+luanda-p9	Loanda	pt		DOGRULANMADI_(kaynak_türü)	Encyclopaedia Britannica 'Luanda' https://www.britannica.com/place/Luanda
+luanda-p9	Luanda	pt		DOGRULANMADI_(kaynak_türü)	Encyclopaedia Britannica 'Luanda' https://www.britannica.com/place/Luanda

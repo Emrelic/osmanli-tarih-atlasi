@@ -1,0 +1,130 @@
+#0 bordeaux-fr | fark 222 gün | ortak 3
+  ŞEHİR  t=0843-01-01 gun=843 kes= b=künye geçişi: Verdun Antlaşması — Frank imparatorluğu bölünür, bölge B
+         kaynak=Britannica 1911 'Verdun', https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Verdun | tanik=In 843 the famous treaty was signed here by the sons of Louis the Pious
+  KRON   t=0843-08-10 gun=10 Ağustos 843 kes="gun" dosya=kronoloji_sinir_antik_roma.js b=Aquitania: Verdun Antlaşması, Frank bütünlüğü bitti, şehirler beyanlı 
+         kaynak=künye frank (t 0843-08-10; Treccani «Verdun»: Ağustos 843 antlaşması) | ic_not_gun=
+#1 chengdu-cin | fark 29 gün | ortak 3
+  ŞEHİR  t=0934-02-17 gun=934 閏正月 kes= b=künye geçişi: Sonraki Tang → Sonraki Shu: Meng Zhixiang imparator olur
+         kaynak=Xin Wudai shi 64 Hou Shu shijia — https://zh.wikisource.org/wiki/新五代史/卷64 | tanik=明年閏正月，知祥乃即皇帝位，國號蜀
+  KRON   t=0934-03-16 gun=Yingshun 1. yıl 閏1. ay 己巳 günü kes="gun" dosya=kronoloji_cok_dogu_500_1281.js b=Meng Zhixiang Chengdu'da imparator ilan etti: Sonraki Shu
+         kaynak=Sima Guang, Zizhi tongjian, juan 278 (Hu Sanxing notlu; zh.wikisource.org/wiki/資治通鑒_(胡三省音注)/卷278, okundu): 「蜀將吏勸蜀王知祥稱帝；己巳，知祥卽皇帝位于成都。」 · Ouyang Xiu, Xin Wudai shi, juan 64 | ic_not_gun=
+#2 chengdu-cin | fark 29 gün | ortak 3
+  ŞEHİR  t=0934-02-17 gun=934 閏正月 kes= b=künye geçişi: Sonraki Tang → Sonraki Shu: Meng Zhixiang imparator olur
+         kaynak=Xin Wudai shi 64 Hou Shu shijia — https://zh.wikisource.org/wiki/新五代史/卷64 | tanik=明年閏正月，知祥乃即皇帝位，國號蜀
+  KRON   t=0934-03-16 gun=Yingshun 1. yıl 閏1. ay 己巳 günü kes="gun" dosya=kronoloji_sinir_dogu_500_1281.js b=Meng Zhixiang Chengdu'da imparator oldu; şehir Sonraki Shu'ya geçti
+         kaynak=Sima Guang, Zizhi tongjian, juan 278 (Hu Sanxing notlu; zh.wikisource.org/wiki/資治通鑒_(胡三省音注)/卷278, okundu): 「蜀將吏勸蜀王知祥稱帝；己巳，知祥卽皇帝位于成都。」 · Ouyang Xiu, Xin Wudai shi, juan 64 | ic_not_gun=
+#3 gyeongju-kr | fark 69 gün | ortak 3
+  ŞEHİR  t=0935-10-30 gun=Gyeongsun 9/10 (935) kes= b=Kral Gyeongsun, Goryeo'ya teslim mektubu gönderir (resmî devir 12. ayd
+         kaynak=Samguk Sagi (三國史記) kwon 12, https://zh.wikisource.org/wiki/三國史記/卷12 | tanik=乃使侍郞金封休，齎書請降於太祖
+  KRON   t=0936-01-08 gun=Taejo 18 (935) 12. ay 壬申 kes="gun" dosya=kronoloji_cok_dogu_500_1281.js b=Silla Kralı Gyeongsun Goryeo'ya teslim oldu; Silla sona erdi
+         kaynak=Goryeosa (Jeong Inji vd.) 卷二 (zh.wikisource.org/wiki/高麗史/卷二, okundu): «十二月辛酉，群臣奏曰「天無二日，土無二王，一國二君，民何以堪？願聽羅王之請。」壬申，御天德殿，會百僚曰：「朕與新羅，歃血同盟，庶幾兩國永好，各保社稷。今羅王固請稱臣，卿等亦以爲可，朕心雖愧，衆意難違 | ic_not_gun=
+#4 kaifeng-cin | fark -1 gün | ortak 3
+  ŞEHİR  t=0923-11-19 gun=19 Kasım 923 kes= b=Sonraki Tang Kaifeng'e girer; komutan Wang Zan kapıyı açıp teslim olur
+         kaynak=Zizhi tongjian 272 — https://zh.wikisource.org/wiki/資治通鑑/卷272 | tanik=己卯旦，李嗣源軍至大梁，攻封丘門，王瓚開門出降
+  KRON   t=0923-11-18 gun=Longde 3 (923), 10. ay, ganzhi 戊寅 kes="gun" dosya=kronoloji_cok_dogu_500_1281.js b=Son Liang imparatoru Zhu Zhen öldü; Sonraki Liang sona erdi
+         kaynak=Xin Wudai shi, juan 3 «Liang benji san» (zh.wikisource.org/wiki/新五代史/卷03; okundu): «戊寅，皇帝崩。梁亡。»; juan 5 «Tang benji» (zh.wikisource.org/wiki/新五代史/卷05; okundu): «冬十月壬申，如鄆州 | ic_not_gun=
+#5 metz-fr | fark 222 gün | ortak 3
+  ŞEHİR  t=0843-01-01 gun=843 kes= b=Verdun Antlaşması (843): Frank mirasının üç oğul arasında bölünmesi; k
+         kaynak=Treccani, Storia della civiltà europea (U. Eco, 2014), 'Il regno dei Franchi da Carlo Magno al trattato di Verdun' (E. E. Metzner), treccani.it/enciclopedia/il-regno-dei- | tanik=trattato di Verdun (843) che sancisce la spartizione giuridica
+  KRON   t=0843-08-10 gun=10 Ağustos 843 kes="gun" dosya=kronoloji_sinir_antik_roma.js b=Gallia Belgica: Verdun Antlaşması, Frank bütünlüğü bitti, şehirler bey
+         kaynak=künye frank (t 0843-08-10; Treccani «Verdun»: Ağustos 843 antlaşması) | ic_not_gun=
+#6 perigueux-fr | fark 365 gün | ortak 3
+  ŞEHİR  t=0507-01-01 gun=507 kes= b=Vouillé: Aquitania Frank'a geçer.
+         kaynak=Treccani, Enciclopedia Italiana, 'AQUITANIA', https://www.treccani.it/enciclopedia/aquitania_(Enciclopedia-Italiana)/ | tanik=che vinsero nella battaglia di Vouillé (507) il re visigoto Alarico
+  KRON   t=0508-01-01 gun=508 (yıl) kes="yil" dosya=kronoloji_sinir_antik_roma.js b=Aquitania (Aquitania II): Vouillé sonrası Frank hâkimiyeti
+         kaynak=Treccani «Visigoti» (Vouillé 507); mevcut Toulouse zinciri vizigot 418-508 → frank | ic_not_gun=
+#7 perigueux-fr | fark 222 gün | ortak 3
+  ŞEHİR  t=0843-01-01 gun=843 kes= b=künye geçişi: Verdun Antlaşması — Frank imparatorluğu bölünür, bölge B
+         kaynak=Britannica 1911 'Verdun', https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Verdun | tanik=In 843 the famous treaty was signed here by the sons of Louis the Pious
+  KRON   t=0843-08-10 gun=10 Ağustos 843 kes="gun" dosya=kronoloji_sinir_antik_roma.js b=Aquitania: Verdun Antlaşması, Frank bütünlüğü bitti, şehirler beyanlı 
+         kaynak=künye frank (t 0843-08-10; Treccani «Verdun»: Ağustos 843 antlaşması) | ic_not_gun=
+#8 poitiers-fr | fark 365 gün | ortak 3
+  ŞEHİR  t=0507-01-01 gun=507 kes= b=Vouillé Muharebesi: Clovis Vizigot II. Alaric'i yener; Aquitania Frank
+         kaynak=Treccani, Enciclopedia Italiana, 'AQUITANIA', https://www.treccani.it/enciclopedia/aquitania_(Enciclopedia-Italiana)/ | tanik=che vinsero nella battaglia di Vouillé (507) il re visigoto Alarico
+  KRON   t=0508-01-01 gun=508 (yıl) kes="yil" dosya=kronoloji_sinir_antik_roma.js b=Aquitania (Aquitania II): Vouillé sonrası Frank hâkimiyeti
+         kaynak=Treccani «Visigoti» (Vouillé 507); mevcut Toulouse zinciri vizigot 418-508 → frank | ic_not_gun=
+#9 poitiers-fr | fark 222 gün | ortak 3
+  ŞEHİR  t=0843-01-01 gun=843 kes= b=künye geçişi: Verdun Antlaşması — Frank imparatorluğu bölünür, bölge B
+         kaynak=Britannica 1911 'Verdun', https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Verdun | tanik=In 843 the famous treaty was signed here by the sons of Louis the Pious
+  KRON   t=0843-08-10 gun=10 Ağustos 843 kes="gun" dosya=kronoloji_sinir_antik_roma.js b=Aquitania: Verdun Antlaşması, Frank bütünlüğü bitti, şehirler beyanlı 
+         kaynak=künye frank (t 0843-08-10; Treccani «Verdun»: Ağustos 843 antlaşması) | ic_not_gun=
+#10 poitiers-fr | fark -139 gün | ortak 4
+  ŞEHİR  t=1152-05-18 gun=18 Mayıs 1152 kes= b=Aquitaine Düşesi Eleonore, Henry Plantagenet ile evlenir; dükalık ve P
+         kaynak=Vikipedi EN 'Eleanor of Aquitaine' (yalnız ikinci tanık), https://en.wikipedia.org/w/index.php?action=raw&title=Eleanor_of_Aquitaine | tanik=on 18 May 1152
+  KRON   t=1152-01-01 gun=1152 (kaynak: Mart 1152 iptalinden 'iki ay sonra'; gün yazılmadı) kes= dosya=kronoloji_cok_once1281_avrupa.js b=Henry Plantagenet, Akitanya düşesi Aliénor ile evlenir; Akitanya Angev
+         kaynak=Encyclopaedia Britannica — 'Eleanor of Aquitaine' — https://www.britannica.com/biography/Eleanor-of-Aquitaine — alıntı: 'According to feudal customs, Eleanor then regaine | ic_not_gun=
+#11 serahs-ir | fark 144 gün | ortak 3
+  ŞEHİR  t=1040-01-01 gun=431 H / 1040 kes= b=Dandanakan Savaşı: Horasan bütünüyle Selçuklu toprağı olur
+         kaynak=TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan | tanik=Dandanakan Savaşı’nın (431/1040) ardından Horasan bütünüyle bir Selçuklu toprağı haline geldi
+  KRON   t=1040-05-23 gun= kes="gun" dosya=olaylar_ortacag_iran_turan.js b=Dandanakan Savaşı: Selçuklular Gazneli ordusunu bozguna uğrattı; Horas
+         kaynak=TDV İslâm Ansiklopedisi, SELÇUKLULAR maddesi (Büyük Selçuklular bölümü), https://islamansiklopedisi.org.tr/selcuklular ; TDV İslâm Ansiklopedisi, GAZNELİLER maddesi, http | ic_not_gun=
+#12 sicilmase-ma | fark 340 gün | ortak 4
+  ŞEHİR  t=0909-08-26 gun=6 Zilhicce 296 / 26 Ağustos 909 kes= b=Ebû Abdullah eş-Şiî Sicilmâse'yi işgal edip Ubeydullah el-Mehdî'yi hap
+         kaynak=TDV İslâm Ansiklopedisi, SİCİLMÂSE (İsmail Ceran, 2009), https://islamansiklopedisi.org.tr/sicilmase | tanik=Sicilmâse’yi işgal ederek Ubeydullah el-Mehdî’yi hapisten çıkarıp bütün yetkilerini ona devretti
+  KRON   t=0910-08-01 gun=Zilhicce 297 / Ağustos 910 (TDV; ay biliniyor, gün yok) kes= dosya=kronoloji_cok_ms1_1000_iber_balkan.js b=Midrârîler Fâtımî valisini ve muhafızlarını öldürüp Sicilmâse'ye yenid
+         kaynak=TDV 'MİDRÂRÎLER' (islamansiklopedisi.org.tr/midrariler) — alıntı: 'valiyi ve muhafızlarını öldürüp bölgeye tekrar hâkim oldular (Zilhicce 297 / Ağustos 910).' | ic_not_gun=
+#13 tus-ir | fark -42 gün | ortak 4
+  ŞEHİR  t=1157-02-13 gun=552 H / 1157 kes= b=Sencer'in ölümü; Büyük Selçuklu Devleti'nin Horasan'daki hâkimiyeti so
+         kaynak=TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan | tanik=Sencer’in ölümünden (552/1157) sonra Oğuzlar’ın Horasan’daki tahribatı devam etti
+  KRON   t=1157-01-01 gun= kes= dosya=kronoloji_sinir_once1281_geriye.js b=Artvin, Tûs, Zerenc (Sîstan): büyük selçuklu devleti hâkimiyeti sona e
+         kaynak=TDV artvin: «Artvin ve civarında Selçuklu hâkimiyeti 1068 yılından itibaren kurulmaya başladı.» BEYANLI YAKLAŞIKLIK: 'Selçuklu' = Büyük Selçuklu varsayıldı (Anadolu Selçu | ic_not_gun=
+#14 aleppo | fark 169 gün | ortak 4
+  ŞEHİR  t=1080-01-01 gun=472 (1080) kes= b=Ukaylî Şerefüddevle Müslim b. Kureyş Halep'e girip Mirdâsî hânedanına 
+         kaynak=TDV HALEP | tanik=girdi ve Mirdâsî hânedanına son verdi (472/1080).
+  KRON   t=1080-06-18 gun= kes="gun" dosya=olaylar_ortacag_ortadogu.js b=Ukaylî Müslim b. Kureyş Halep'e girdi; Mirdâsî hâkimiyeti sona erdi (i
+         kaynak=TDV: mirdasiler | ic_not_gun=
+#15 aleppo | fark 274 gün | ortak 3
+  ŞEHİR  t=1080-01-01 gun=472 (1080) kes= b=Ukaylî Şerefüddevle Müslim b. Kureyş Halep'e girip Mirdâsî hânedanına 
+         kaynak=TDV HALEP | tanik=girdi ve Mirdâsî hânedanına son verdi (472/1080).
+  KRON   t=1080-10-01 gun=Rebîülâhir 473 / Ekim 1080 (TDV; gün yok) kes="ay" dosya=olaylar_ortacag_ortadogu.js b=Müslim b. Kureyş Halep iç kalesini alıp Mirdâsîler'in hâkimiyetine son
+         kaynak=TDV İslâm Ansiklopedisi, «Mirdâsîler» md. (https://islamansiklopedisi.org.tr/mirdasiler, 14.11.2026 okundu): «Rebîülâhir 473 (Ekim 1080)» tarihinde iç kaleyi alıp Mirdâsî | ic_not_gun=
+#16 aleppo | fark -164 gün | ortak 5
+  ŞEHİR  t=1146-06-13 gun=541 (1146) kes= b=Zengî'nin ölümü; Halep oğlu Nûreddin Mahmud'a, Musul Seyfeddin Gazi'ye
+         kaynak=TDV ZENGÎLER | tanik=
+  KRON   t=1146-01-01 gun= kes="yil" dosya=olaylar_ortacag_ortadogu.js b=İmâdüddin Zengî Ca‘ber kuşatmasında öldürüldü; ülke bölündü, Nûreddin 
+         kaynak=TDV İslâm Ansiklopedisi, Zengîler https://islamansiklopedisi.org.tr/zengiler ; Nûreddin Zengî, Mahmud https://islamansiklopedisi.org.tr/nureddin-zengi-mahmud : '5 Rebîülâ | ic_not_gun=
+#17 aleppo | fark -1 gün | ortak 4
+  ŞEHİR  t=1183-06-12 gun=18 Safer 579 / 12 Haziran 1183 kes= b=Selâhaddin Halep'i II. İmâdüddin Zengî'den Sincar vb. karşılığında ald
+         kaynak=TDV ZENGÎLER; TDV HALEP | tanik=(17 Safer 579 / 11 Haziran 1183).
+  KRON   t=1183-06-11 gun= kes="gun" dosya=olaylar_ortacag_bekleyen_acik.js b=İmâdüddin Zengî Halep'i başka şehirler karşılığında Selâhaddin'e tesli
+         kaynak=TDV İslâm Ansiklopedisi, Selâhaddîn-i Eyyûbî (17 Safer 579 / 11 Haziran 1183) https://islamansiklopedisi.org.tr/selahaddin-i-eyyubi | ic_not_gun=
+#18 aleppo | fark -84 gün | ortak 4
+  ŞEHİR  t=1186-03-24 gun=582 (1186) kes= b=el-Melikü'z-Zâhir Gāzî Halep'e yeniden tayin edildi; Halep Eyyûbî kolu
+         kaynak=TDV HALEP | tanik=sonra el-Melikü’z-Zâhir tekrar Halep’e tayin edildi (582/1186).
+  KRON   t=1186-01-01 gun= kes="yil" dosya=olaylar_ortacag_ortadogu.js b=el-Melikü'z-Zâhir Gāzî Halep'e tayin edildi; Halep Eyyûbî kolu başladı
+         kaynak=TDV: halep | ic_not_gun=
+#19 cairo | fark 3 gün | ortak 4
+  ŞEHİR  t=0969-07-03 gun=3 Temmuz 969 kes= b=Cevher es-Sıkıllî Fustat'a girdi, Kahire'nin temellerini attı
+         kaynak=TDV CEVHER es-SIKILLÎ | tanik=Furât’ın başkanlığında 3 Temmuz 969’da Cevher’in Cîze’deki karargâhına giderek bağlılıklarını bildir
+  KRON   t=0969-07-06 gun=6 Temmuz 969 (17 Şâban 358; Jülyen; TDV ihsidiler ve muiz-lidinillah gün verir) kes= dosya=kronoloji_cok_ms1_1000_ortadogu.js b=Cevher es-Sıkıllî Fustat'a girdi: Fâtımîler Mısır'ı İhşîdîler'den aldı
+         kaynak=TDV: ihsidiler — "Cevher aynı gün Fustat’a girdi. Böylece İhşîdîler Devleti sona erdi." ; TDV: muiz-lidinillah — "17 Şâban 358’de (6 Temmuz 969) Fustat’a giren Cevher, Ab | ic_not_gun=
+#20 cairo | fark -2 gün | ortak 4
+  ŞEHİR  t=0969-07-03 gun=3 Temmuz 969 kes= b=Cevher es-Sıkıllî Fustat'a girdi, Kahire'nin temellerini attı
+         kaynak=TDV CEVHER es-SIKILLÎ | tanik=Furât’ın başkanlığında 3 Temmuz 969’da Cevher’in Cîze’deki karargâhına giderek bağlılıklarını bildir
+  KRON   t=0969-07-01 gun=Temmuz 969 (Şâban 358) kes= dosya=olaylar_2s_1019.js b=Fâtımîler Mısır'ı aldı: Cevher es-Sıkıllî Fustat'a girdi, Kahire'nin t
+         kaynak=TDV `kahire` — AYNEN: "Fâtımî Halifesi Muiz-Lidînillâh döneminde Mısır’daki İhşîdî hâkimiyetine son veren kumandan Cevher es-Sıkıllî Şâban 358’de (Temmuz 969) Fustat’a gi | ic_not_gun=
+#21 cairo | fark 3 gün | ortak 3
+  ŞEHİR  t=0969-07-03 gun=3 Temmuz 969 kes= b=Cevher es-Sıkıllî Fustat'a girdi, Kahire'nin temellerini attı
+         kaynak=TDV CEVHER es-SIKILLÎ | tanik=Furât’ın başkanlığında 3 Temmuz 969’da Cevher’in Cîze’deki karargâhına giderek bağlılıklarını bildir
+  KRON   t=0969-07-06 gun= kes="gun" dosya=olaylar_once1000_1019.js b=Kumandan Cevher es-Sıkıllî Fustat'a girerek Mısır'ı fethetti; İhşîdîle
+         kaynak=TDV muiz-lidinillah https://islamansiklopedisi.org.tr/muiz-lidinillah ; TDV ihsidiler https://islamansiklopedisi.org.tr/ihsidiler | ic_not_gun=
+#22 jerusalem | fark -22 gün | ortak 3
+  ŞEHİR  t=0638-01-23 gun=17 (638) kes= b=Hz. Ömer Kudüs'ü Patrik Sophronios'tan antlaşmayla teslim aldı
+         kaynak=TDV KUDÜS 2. bölüm (C. Avcı); hicrî 17 ∩ 638, çeviri: tablo takvimi, Jülyen | tanik=Sophronios’tan teslim aldı ve anlaşmayı imzaladı (17/638).
+  KRON   t=0638-01-01 gun=638 (yıl; 636/637/638 tartışmalı) kes="yil" dosya=kronoloji_sinir_antik_roma.js b=Hz. Ömer Kudüs’ü Patrik Sophronios’tan teslim aldı
+         kaynak=TDV İslâm Ansiklopedisi, «Kudüs» md. (islamansiklopedisi.org.tr/kudus, 13.11.2026 okundu): fetih 636/637/638 olarak geçer; Belâzurî rivayetiyle kuşatma 637’de başlayıp te | ic_not_gun=
+#23 rome | fark 183 gün | ortak 3
+  ŞEHİR  t=1083-07-01 gun=Temmuz 1083 kes= b=IV. Heinrich'in Roma kuşatması VII. Gregorius'u Castel Sant'Angelo'ya 
+         kaynak=Treccani, Enciclopedia Italiana, 'Roma' (Storia), treccani.it/enciclopedia/roma/ (curl, tam metin) | tanik=nel luglio 1083 il papa Gregorio VII a riparare in Castel Sant’Angelo
+  KRON   t=1084-01-01 gun=1084 (kaynak yalnız yıl verir) kes= dosya=kronoloji_cok_once1281_avrupa.js b=IV. Heinrich Roma'yı alıp taç giyer; Robert Guiscard papayı kurtarır
+         kaynak=Treccani Enciclopedia on line — 'Enrico IV imperatore' — https://www.treccani.it/enciclopedia/enrico-iv-imperatore/ — alıntı: 'fece consacrare l'antipapa Clemente III e s | ic_not_gun=
+#24 cenova | fark 365 gün | ortak 3
+  ŞEHİR  t=1098-01-01 gun=1098 kes= b=Compagna communis kurulur: 18 aylık çekişmeden sonra 3 yıllık, 6 konsü
+         kaynak=Enciclopedia Italiana (Treccani, 1932), s.v. 'Genova' — https://www.treccani.it/enciclopedia/genova_(Enciclopedia-Italiana)/ | tanik=nel 1098, dopo 18 mesi di discordie, si fece una Compagna di tre anni
+  KRON   t=1099-01-01 gun= kes="yil" dosya=olaylar_napolyon_italya_1028.js b=Cenova'da Compagna Communis kuruldu: şehir komün yönetimine geçti
+         kaynak=Treccani Enciclopedia on line 'Genova' (Compagna Communis, 1099) ; künye cenova (devletler.js, f 1005 — kaynaksız) — ikinci kaynak aranıyor | ic_not_gun=
+#25 viyana | fark -1 gün | ortak 6
+  ŞEHİR  t=1156-09-18 gun=18 Eylül 1156 kes= b=Privilegium minus: Avusturya Markı Dukalığa yükseltildi, Bavyera'dan a
+         kaynak=Wien Geschichte Wiki (Czeike), "Privilegium minus" (https://www.geschichtewiki.wien.gv.at/Privilegium_minus); Wien Geschichte Wiki (Czeike, Historisches Lexikon Wien), "B | tanik=Urkunde Friedrichs I. Barbarossa vom 18. September 1156, ausgestellt in Regensburg
+  KRON   t=1156-09-17 gun= kes="gun" dosya=olaylar_avmac_a_1029.js b=Privilegium minus (Regensburg): Avusturya Markı dükalığa yükseltildi —
+         kaynak=ADB 'Heinrich II. Jasomirgott' (deutsche-biographie.de/sfz70077.html) ve ADB 'Friedrich I.': «Am 17. Sept. 1156 gab der Babenberger zu Regensburg dem Kaiser Baiern zurück | ic_not_gun=

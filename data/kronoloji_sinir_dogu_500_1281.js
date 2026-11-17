@@ -3484,7 +3484,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
   ],
   "sinir_id": [],
   "yer_id": "Hanoi (Thăng Long)",
-  "t": "0939-01-01",
+  "t": "0938-01-01",
   "devlet": "ngo-hanedani",
   "taraflar": [
    "ngo-hanedani",
@@ -5621,7 +5621,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
   "sinir_id": []
  },
  {
-  "t": "0711-01-01",
+  "t": "0711-10-19",
   "devlet": "emevi",
   "taraflar": [
    "emevi",

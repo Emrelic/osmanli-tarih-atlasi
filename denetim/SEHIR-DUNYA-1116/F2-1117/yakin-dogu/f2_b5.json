@@ -1,0 +1,166 @@
+[
+ {
+  "id": "riyadh-sa",
+  "ad": "Riyadh",
+  "atlas_ad": null,
+  "lat": 24.6877,
+  "lon": 46.7219,
+  "kat1900": 3,
+  "adlar": [
+   "Riyad",
+   "Riyadh"
+  ],
+  "ilk": {
+   "t": "1688-01-01",
+   "gun": "1099 (1688)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/riyad (RİYAD)",
+   "tanik": "Riyad ise 1099’dan (1688) itibaren Benî Hanîfe’den Ebû Zer‘a ailesinin yönetimindeydi"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1688-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/riyad (RİYAD)",
+    "ic_not": "Şehir var; TDV'ye göre sahiplik: Ebû Zer‘a ailesi (1688) -> Suûdîler (1773, suud-birinci künyesi 1744-1818) -> Osmanlı/Mısır denetimi (1818) -> Suûdîler (1824, suud-ikinci 1824-1891) -> Mısır/Hurşid 1837 -> Faysal 1843 -> İbn Reşîd 1891 (Reşîdî künyesi devletler.js'te yok): geçiş günleri TDV'de yıl hassasiyetli ve dönemler iç içe (1837-1843 Mısır), zincir bu partide kurulmadı; olay[]de."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1688-01-01",
+    "gun": "1099 (1688)",
+    "k": "diger",
+    "b": "Riyad Benî Hanîfe’den Ebû Zer‘a ailesinin yönetiminde",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/riyad (RİYAD)"
+   },
+   {
+    "t": "1773-01-01",
+    "gun": "1746-1773",
+    "k": "fetih",
+    "b": "Riyad emîri Dehhâm b. Devvâs ile Suûd ailesine bağlı kuvvetlerin 1746-1773 yılları arasındaki otuz beş karşılaşmasının sonunda Riyad Suûdîler’in eline geçti",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/riyad (RİYAD)"
+   },
+   {
+    "t": "1818-01-01",
+    "gun": "1818",
+    "k": "fetih",
+    "b": "Mehmed Ali Paşa’nın askerî harekâtına Riyad halkı destek verdi, bölge 1818’de Osmanlı denetimine girdi",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/riyad (RİYAD)"
+   },
+   {
+    "t": "1824-01-01",
+    "gun": "1824",
+    "k": "diger",
+    "b": "Suûd ailesinden Türkî b. Abdullah Riyad’ı idare merkezi yaptı",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/riyad (RİYAD)"
+   },
+   {
+    "t": "1837-01-01",
+    "gun": "1837",
+    "k": "fetih",
+    "b": "Mısır’dan gönderilen Hurşid Paşa şehre girip Hâlid b. Suûd’u emîr tayin etti",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/riyad (RİYAD)"
+   },
+   {
+    "t": "1843-01-01",
+    "gun": "1843",
+    "k": "diger",
+    "b": "Faysal b. Türkî Riyad’ın yönetimini tekrar ele geçirdi; Osmanlı onun emirliğini tanıdı, 1848'de Necid kaymakamlığına getirdi",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/riyad (RİYAD)"
+   },
+   {
+    "t": "1891-01-01",
+    "gun": "1891",
+    "k": "fetih",
+    "b": "Hâil Emîri İbn Reşîd Riyad’a girdi, Muhammed b. Faysal’ı emirlik tahtına oturttu",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/riyad (RİYAD)"
+   }
+  ],
+  "ic_not": "TANIK KURALI: ilk anılış olarak TDV RİYAD gövdesindeki en erken yıl+şehir cümlesi (1688) alındı; Hicr/Hacer (Riyad'ın eski adı/ Yemâme) TDV Riyad maddesinde okunmadı => önceki anılış araştırılmadı (borç). Hicrî 1099 = 1688 TDV'nin kendi çevirisi. 'Hulefâ-yi Râşidîn devrinden itibaren merkezden gönderilen valilerle yönetilmiş' bölge cümlesi (Necid) yazılmadı. Sahip zinciri kurulmadı (BOSLUK, beyanlı). | TANIK: TDV tam gövdesinden birebir cümle (17 Kas 2026, gömülü tarayıcı). Tek kaynak (TDV)."
+ },
+ {
+  "id": "tabuk-sa",
+  "ad": "Tabuk",
+  "atlas_ad": null,
+  "lat": 28.3998,
+  "lon": 36.5715,
+  "kat1900": 3,
+  "adlar": [
+   "Tebük",
+   "Tabuk"
+  ],
+  "ilk": {
+   "t": "0630-01-01",
+   "gun": "9 (630)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/tebuk (TEBÜK)",
+   "tanik": "Peygamber’in 9 (630) yılında Bizans’a karşı düzenlediği gazve dolayısıyla meşhur olmuştur"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0630-01-01",
+    "t": "1560-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/tebuk (TEBÜK)",
+    "ic_not": "Şehir var, sahip zinciri bu dönem için kaynaklı kurulmadı (araştırılmadı); TDV olayları olay[]de. "
+   },
+   {
+    "f": "1560-01-01",
+    "t": "1900-01-01",
+    "d": "osmanli",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/tebuk (TEBÜK)",
+    "ic_not": "f en geç tanıktan: Kanûnî Sultan Süleyman’ın emriyle 1560 civarı yapılan Tebük Kalesi (TDV: '965 (1558) saldırısından iki yıl sonra'); önceki sahip zinciri kurulmadı."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0630-01-01",
+    "gun": "9 (630)",
+    "k": "diger",
+    "b": "Peygamber’in Bizans’a karşı düzenlediği Tebük gazvesi",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/tebuk (TEBÜK)"
+   },
+   {
+    "t": "0633-01-01",
+    "gun": "633 yılı (sonbahar)",
+    "k": "diger",
+    "b": "Ebû Bekir Şürahbîl b. Hasene’yi 3000 kişilik birlikle Tebük-Maan istikametine gönderdi",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/tebuk (TEBÜK)"
+   },
+   {
+    "t": "0717-01-01",
+    "gun": "99 (717)",
+    "k": "kurulus",
+    "b": "Halife Ömer b. Abdülazîz Resûl-i Ekrem’in mescid olarak kullandığı yerde Tebük’te cami yaptırdı",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/tebuk (TEBÜK)"
+   },
+   {
+    "t": "1560-01-01",
+    "gun": "1560 (1558 + iki yıl)",
+    "k": "kurulus",
+    "b": "1558 saldırısından iki yıl sonra Kanûnî’nin emriyle hac güzergâhında yapılan kalelerden biri Tebük Kalesi idi",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/tebuk (TEBÜK)"
+   },
+   {
+    "t": "1654-01-01",
+    "gun": "1064 (1654)",
+    "k": "diger",
+    "b": "kitâbeden Tebük Kalesi’nin 1064’te (1654) tamir edildiği anlaşılıyor",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/tebuk (TEBÜK)"
+   }
+  ],
+  "ic_not": "TANIK KURALI: alıntı cümle TDV'de önceki cümleden devam eder (özne Tebük; madde başlığı şehir). 633 Ebû Bekir seferi: TDV 'sonbahar' der, yalnız yıl (633) kesin; gün/ay yazılmadı. Kale yapım yılı 1560 TDV'de 'iki yıl sonra' hesabıyla (1558+2) türetildi (TDV doğrudan '1560' demez); kesinlik yil. Hicrî 9 = 630 TDV çevirisi. | TANIK: TDV tam gövdesinden birebir cümle (17 Kas 2026, gömülü tarayıcı). Tek kaynak (TDV)."
+ }
+]

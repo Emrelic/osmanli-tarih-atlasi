@@ -1,0 +1,25 @@
+id	ad	neden
+zaporizhzhia-eslesme	Zaporizhzhia	YAZILDI ama LISTE atlas_ad 'Aleksandrovsk (Kuzey Sahalin)' yanlış eşleşme; atlas_ad null yazıldı
+brest	Brest (Brest-Litovsk)	LISTE atlas_ad 'Brest' atlasta -0049 roma-cumhuriyeti (Brest/Fransa); Belarus Brest'i değil, eşleşme hatası. Britannica/Treccani Brest-Litovsk maddesi bulunamadı (Treccani 'brest' Fransa)
+bratslav	Bratslav	EoU yalnız 'Cossack regimental town 1648-1712'; ilk anılış okunmadı
+balta	Balta	EoU yalnız 'Turkey until 1791' (ilk anılış/kuruluş yok)
+starokostiantyniv	Starokostiantyniv	EoU slug/ilk anılış okunmadı (zaman)
+odesa	Odesa	EoU Odesa ilk kuruluş/Hacıbey cümlesi bu turda okunmadı
+yalta	Yalta	EoU: 1. yy MÖ Yalita Yunan kolonisi 'earliest recorded reference to settlement on the site' – modern şehirle süreklilik belirsiz, yazılmadı
+kerch	Kerch	Panticapaeum MÖ 7. yy sonu (EoU) — Bospor/Bizans/Ceneviz/Kırım/Osmanlı/Rus çok sahipli zincir günlü tanık ister; bu turda kurulamadı
+sevastopol	Sevastopol	Chersonese MÖ 422-21 ayrı antik yer; modern şehir 1784 (EoU 'ordered in 1784') kuruluş cümlesi tam okunmadı
+yevpatoriia	Yevpatoriia	EoU 'In 1478 the Ottomans built a fortified town there called Gözleve'; TDV 'gozleve' slug 404; yazılmadı (zaman)
+simferopol	Simferopol	EoU Ak-Mechet 1508 + Simferopol 1784; atlas 'Akmescid' 1281 altinorda aynı noktada, ilişki ikinci kaynakla çözülmedi
+kamianets-podilskyi	Kamianets-Podilskyi	EoU slug (Kam'ianets...) okunamadı
+uzhhorod	Uzhhorod	EoU yalnız 1242 Tatar yıkımı, 1691 Habsburg; ilk anılış cümlesi yok
+berehove,vynohradiv	Berehove, Vynohradiv	EoU maddesi gövde kısa; ilk anılış yok
+grodno,polotsk,gomel,babruysk,mazyr,slonim,lida,kobryn vb.	Belarus kat 2-3 kalanı	Britannica 404 ya da ilk anılış yok; Treccani yalnız Grodno(1432 birlik), Mogilev(yazıldı), Gomel (tarihsiz); VLE Belarus kapsamaz
+tartu	Tartu	Treccani yalnız 1582/1600/1603-25/1704 devirleri; ilk anılış/kuruluş (1030) kaynaklı cümle okunmadı; Britannica 'Tartu' sec 0 (gövde boş)
+daugavpils	Daugavpils	Britannica yalnız 1582/1772/1811; kuruluş (Dünaburg 1275) cümlesi okunan gövdede yok
+rezekne,kuldiga,jelgava vb. Letonya	Letonya kalanı	Britannica 404; Treccani Latvija slug yok
+haapsalu,viljandi,rakvere,kuressaare,valga,voru,paide,jogeva,polva,rapla,kardla,johvi	Estonya kalanı	Britannica 404 (slug) / Treccani 'yok'; Eesti ansiklopedisi sınanmadı
+alytus,marijampole,telsiai,trakai,ukmerge,taurage,utena,raseiniai,svencionys,zarasai,klaipeda	Litvanya kalanı	VLE maddeleri okundu ama 'Istorija' bölümü sayfa gövdesinde (statik HTML) yok; yalnız nüfus/anıt; Britannica Alytus/Marijampolė: Marijampolė 1758 kent statüsü (ilk anılış değil)
+bender,balti,orhei,soroca,cahul,comrat	Moldova kalanı	Britannica 404; Treccani Balti/Tighina gövdesi kısa; TDV 'bender' slug yok (arama sayfası dinamik)
+izmail,kili,akkirman-dışı Bucak	İsmail	EoU 'Izmail' yalnız 'Originally called Smil, 1484-1812 Osmanlı' (ilk anılış yok); TDV İsmail/Kili slug denenmedi
+SIBIRYA 33 satır	gorno-altaysk, yuzhno-sakhalinsk, aksha, balagansk, barguzin, irbit, ishim, kirensk, kirovskoye, kuybyshev, mariinsk, markovo, minusinsk, nerchinsky-zavod, nikolskoe, nizhneudinsk, novoselenginsk, okhotsk, olekminsk, polyarny, srednekolymsk, staroturukhansk, tara, turinsk, tyukalinsk, tyumen, verkholensk, vilyuysk, yalutorovsk, zmeinogorsk, gizhiga, 2x bulunamadi	17 Kas'ta Britannica 404 (yeniden sınandı: Irbit, Okhotsk, Minusinsk, Tara, Ishim, Kirensk, Olekminsk, Vilyuysk, Nizhneudinsk, Mariinsk, Yalutorovsk, Turinsk, Barguzin, Zmeinogorsk, Balagansk 404); Treccani/HE önceki turda yok; bigenc.ru 403. tyumen: 'tumen' (k12) ile mükerrer. 'bulunamadi' x2 yer tutucu
+ek-modern-merkez	Alytus/Marijampolė/Taurage/Utena/Jõhvi/Rapla/Jõgeva/Põlva/Kärdla/Jūrmala/Cahul/Comrat	ek merkezler: okunabilir kaynakta tarihli ilk anılış cümlesi yok (Narva, Liepāja, Panevėžys yazıldı)

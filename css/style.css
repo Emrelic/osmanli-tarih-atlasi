@@ -3491,23 +3491,60 @@ html.atlas-hazir::before, html.atlas-hazir::after, html.atlas-hazir body::before
    ARKASINDAN çıkar. */
 html.acilis-js::after, html.acilis-js body::before { display: none; }
 #acilis { position: fixed; inset: 0; z-index: 9000; pointer-events: none; overflow: hidden; contain: strict; }
+/* ACILIS-PERDESI-1117: küre N dikey banttan kurulur; her bandın içindeki doku cos(θ)
+   ile sıkışıp aynı periyotla kayar ⇒ kenarlar küre gibi daralır (data/acilis_siluet.js). */
 #acilis .acilis-kure {
   position: absolute; z-index: 2; border-radius: 50%; overflow: hidden;
-  background: #2c6e9e; box-shadow: 0 0 40px rgba(120,180,255,.25);
+  background: radial-gradient(circle at 38% 34%, #2f7fb5 0%, #1b5684 55%, #0f3556 100%);
 }
-#acilis .acilis-serit {
+#acilis .acilis-sahne { position: absolute; left: 50%; top: 50%; width: 0; height: 0; }
+#acilis .acilis-kure-doku { position: absolute; inset: 0; }
+#acilis .acilis-bant { position: absolute; top: 0; height: 100%; overflow: hidden; }
+#acilis .acilis-bant-ic {
   position: absolute; left: 0; top: 0; height: 100%;
-  background-repeat: repeat-x; background-position: 0 50%;
-  will-change: transform;
+  background-repeat: repeat-x; transform-origin: 0 0; will-change: transform;
 }
-#acilis .acilis-golge {
+#acilis .acilis-isik {   /* güneş sol üstten: parlama + sağ altta gece tarafı */
   position: absolute; inset: 0; border-radius: 50%;
-  box-shadow: inset -28px -18px 40px rgba(0,0,0,.55), inset 10px 8px 24px rgba(255,255,255,.18);
+  background: radial-gradient(circle at 32% 28%, rgba(255,255,255,.28) 0%, rgba(255,255,255,0) 38%),
+              radial-gradient(circle at 30% 30%, rgba(0,0,0,0) 50%, rgba(0,0,0,.55) 88%, rgba(0,0,0,.75) 100%);
 }
-#acilis .acilis-sil, .acilis-final {
+#acilis .acilis-atmo {
+  position: absolute; z-index: 2; border-radius: 50%;
+  box-shadow: 0 0 34px 6px rgba(110,180,255,.38), 0 0 90px 20px rgba(80,150,255,.12);
+}
+#acilis .acilis-baslik {
+  position: absolute; width: 400px; z-index: 3; height: 22px; text-align: center;
+  font: italic 15px/22px Georgia, "Times New Roman", serif; color: #d9c79e; letter-spacing: .04em;
+}
+#acilis .acilis-baslik span { position: absolute; left: 0; right: 0; opacity: 0; }
+#acilis .acilis-sil, .acilis-final, #acilis .acilis-kisi {
   position: absolute; z-index: 1; opacity: 0; will-change: transform, opacity;
   /* filter: drop-shadow YOK — uçan katmanda her kare yeniden hesaplanıyor,
      ölçüldü: atlas-hazir'ı ~2 sn geciktirdi. Gölge SVG'nin içine gömülü. */
+}
+/* Ülkesinin ÜSTÜNDEN fırlar (küre z 2'nin önünde); hedefler küre dışında olduğu
+   için yere inen öğe küreyi örtmez. */
+#acilis .acilis-sil, #acilis .acilis-kisi { z-index: 4; }
+/* Amblem rozeti: haritanın köşesinde, haritanın üstünde (gölge tabakaya gömülü) */
+#acilis .acilis-amb {
+  position: absolute; z-index: 5; opacity: 0; will-change: transform, opacity;
+  background-repeat: no-repeat;
+}
+#acilis .acilis-kisi { text-align: center; }
+#acilis .acilis-yuz {
+  /* Emre, 17 Kas: kişiler yuvarlak değil DÖRT KÖŞE resim (fotoğraf baskısı gibi) */
+  /* çerçeve box-shadow: border resmi kenardan kırpıp 2 px kaydırıyordu */
+  border-radius: 2px; background-color: #2a2a2a; background-repeat: no-repeat;
+  box-shadow: 0 0 0 2px #efe6d2, 0 3px 7px 2px rgba(0,0,0,.55);
+}
+#acilis .acilis-kisi span {
+  display: block; margin: 2px -30px 0; color: #f3ead7; white-space: nowrap;
+  font: 600 10.5px/1.2 Georgia, "Times New Roman", serif; text-shadow: 0 1px 2px #000, 0 0 4px #000;
+}
+#acilis .acilis-kivilcim {
+  position: absolute; z-index: 3; width: 28px; height: 28px; border-radius: 50%;
+  border: 2px solid #fff; box-sizing: border-box; opacity: 0;
 }
 .acilis-final { position: fixed; z-index: 9003; pointer-events: none; }
 /* app.js acilisBitir() çağıramazsa (hata) perde yine de kalkar: */
@@ -3838,6 +3875,17 @@ body.gn-oge-kipi * { cursor: crosshair !important; }
   position: absolute; top: -6px; right: -6px; width: 18px; height: 18px; padding: 0; border-radius: 9px;
   border: 1px solid #a33; background: #fff; color: #a33; font-size: 11px; line-height: 16px; cursor: pointer;
 }
+/* Resim ekle → galeri / çerçeveli ekran görüntüsü (POSTIT-RESIM-1113) */
+.gn-resim-secim { gap: 6px; flex-wrap: wrap; }
+#gn-kirp { position: fixed; inset: 0; z-index: 9700; background: rgba(20, 20, 20, .88); display: flex; flex-direction: column; touch-action: none; user-select: none; }
+.gn-kirp-ust { flex: 0 0 auto; display: flex; flex-wrap: wrap; gap: 8px; align-items: center; justify-content: center; padding: 6px 12px; color: #fff; font: 14px system-ui, sans-serif; }
+.gn-kirp-ust button { padding: 4px 12px; border-radius: 4px; border: 1px solid #888; background: #fff; color: #222; cursor: pointer; font-size: 14px; }
+.gn-kirp-ust button.gn-ana { background: #2bd10f; border-color: #1a8f08; color: #000; font-weight: 600; }
+.gn-kirp-ust button:disabled { opacity: .45; cursor: default; }
+.gn-kirp-sahne { position: relative; flex: 1 1 auto; display: flex; align-items: center; justify-content: center; overflow: hidden; cursor: crosshair; }
+.gn-kirp-sar { position: relative; line-height: 0; }
+.gn-kirp-tuval { display: block; box-shadow: 0 0 0 1px #555; }
+.gn-kirp-kutu { position: absolute; border: 2px dashed #2bd10f; box-shadow: 0 0 0 9999px rgba(0, 0, 0, .45); pointer-events: none; }
 
 
 /* ═══ TANITIM TURU (js/tanitim.js, Emre 7 Kasım 2026) ═══

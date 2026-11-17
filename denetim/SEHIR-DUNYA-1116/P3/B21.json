@@ -1,0 +1,44 @@
+[
+ {
+  "id": "darjeeling-in-p3",
+  "ad": "Darjeeling",
+  "atlas_ad": null,
+  "lat": 27.0333,
+  "lon": 88.2667,
+  "kat1900": 3,
+  "adlar": ["Darjeeling", "Darjiling", "Dorje-ling"],
+  "ilk": {
+   "t": "1835-01-01",
+   "gun": "1835",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, «Darjeeling» md. (Britannica Editors), https://www.britannica.com/place/Darjeeling-India, tarayıcı sayfa okuma, 17 Kasım 2026",
+   "tanik": "Darjeeling was ceded by the raja of Sikkim to the British in 1835"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1835-01-01",
+    "t": "1900-01-01",
+    "d": "ingiliz-hindistani",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, «Darjeeling» md.: «Darjeeling was ceded by the raja of Sikkim to the British in 1835»",
+    "ic_not": "Britannica 'the British' der (Doğu Hindistan Şirketi dönemi); devlet kimliği atlasın ingiliz-hindistani künyesi (1757-1947) olarak eşlendi. 1835-1900 arası el değiştirme tanığı yok; 1900-01-01 zincirin kapanış sınırıdır."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1835-01-01",
+    "gun": "1835",
+    "k": "devir",
+    "b": "Darjeeling Sikkim rajası tarafından İngilizlere devredildi; İngiliz askerleri için sağlıklaştırma (sanatoryum) yeri olarak geliştirildi",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, «Darjeeling» md., https://www.britannica.com/place/Darjeeling-India, tarayıcı sayfa okuma, 17 Kasım 2026",
+    "tanik": "Darjeeling was ceded by the raja of Sikkim to the British in 1835"
+   }
+  ],
+  "ic_not": "TEK KAYNAK (Britannica gövdesinden, YZ özeti bloğu dışı; alıntı sayfanın görünür makale gövdesinde includes() ile doğrulandı). Atlas noktası YOK (data/yerlesimler*.js içinde Darjeeling/Darjiling yok), bu yüzden zincir ilk anılıştan 1900-01-01'e kuruldu. 1835 yerleşimin kuruluşu değil, yerin İngilizlere devir yılıdır; ilk_anilis olarak en erken yıllı olgudur. Britannica ayrıca belediye 1850 verir (yazılmadı: belediye yılı kuruluş değildir). Encyclopedia.com/Columbia Darjeeling maddesi devir yılını vermez; ikinci bağımsız kaynak teyidi yok."
+ }
+]

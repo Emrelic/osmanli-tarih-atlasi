@@ -1,0 +1,296 @@
+[
+ {
+  "id": "piraeus-gr",
+  "ad": "Piraeus",
+  "atlas_ad": null,
+  "lat": 37.942,
+  "lon": 23.6462,
+  "kat1900": 3,
+  "adlar": [
+   "Peiraieus / Πειραιεύς (Eski Yunanca)",
+   "Pireas / Πειραιάς (Yeni Yunanca)",
+   "Pire (Türkçe)",
+   "Piraeus"
+  ],
+  "ad_kaynak": "Encyclopaedia Britannica, 'Piraeus' (britannica.com/place/Piraeus; makale gövdesi section[id^=ref], görünen metin, 17 Kas 2026)",
+  "ilk": {
+   "t": "-0492-01-01",
+   "gun": "MÖ 493",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Piraeus' (britannica.com/place/Piraeus; makale gövdesi section[id^=ref], görünen metin, 17 Kas 2026)",
+   "tanik": "The Athenian statesman Themistocles persuaded his colleagues about 493 BCE to fortify and use Piraeus for the new Athenian fleet"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "-0492-01-01",
+    "t": "-0403-01-01",
+    "d": "atina-demokrasisi",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, 'Piraeus' (britannica.com/place/Piraeus; makale gövdesi section[id^=ref], görünen metin, 17 Kas 2026)",
+    "ic_not": "Britannica: Atina donanma limanı; kaleleri MÖ 479 sonrası tamamlandı, MÖ 460 sonrası Uzun Surlar"
+   },
+   {
+    "f": "-0403-01-01",
+    "t": "1834-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, 'Piraeus' (britannica.com/place/Piraeus; makale gövdesi section[id^=ref], görünen metin, 17 Kas 2026)",
+    "ic_not": "Britannica: MÖ 404'te Spartalılar aldı ve surları yıktı (MÖ 393'te Conon yeniden inşa etti), MÖ 86 Sulla yıktı, o zamandan 1834'e kadar önemsiz kaldı — sürekli sahip sırası kurulmadı (beyanlı boşluk)"
+   },
+   {
+    "f": "1834-01-01",
+    "t": "1900-01-01",
+    "d": "yunanistan",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, 'Piraeus' (britannica.com/place/Piraeus; makale gövdesi section[id^=ref], görünen metin, 17 Kas 2026)",
+    "ic_not": "Britannica: 'its revival after 1834, when Athens became the capital of newly independent Greece'"
+   }
+  ],
+  "olay": [
+   {
+    "t": "-0492-01-01",
+    "gun": "MÖ 493",
+    "k": "kurulus",
+    "b": "Themistokles Pire'yi donanma limanı olarak tahkim etmeyi kabul ettirir (yaklaşık MÖ 493)",
+    "kaynak": "Encyclopaedia Britannica, 'Piraeus' (britannica.com/place/Piraeus; makale gövdesi section[id^=ref], görünen metin, 17 Kas 2026)"
+   },
+   {
+    "t": "-0403-01-01",
+    "gun": "MÖ 404",
+    "k": "fetih",
+    "b": "Peloponnesos Savaşı sonunda Spartalılar Pire'yi alır, Uzun Surları ve liman tahkimatını yıkar (MÖ 393'te Conon yeniden inşa eder)",
+    "kaynak": "Encyclopaedia Britannica, 'Piraeus' (britannica.com/place/Piraeus; makale gövdesi section[id^=ref], görünen metin, 17 Kas 2026)"
+   },
+   {
+    "t": "-0085-01-01",
+    "gun": "MÖ 86",
+    "k": "fetih",
+    "b": "Roma komutanı Sulla şehri yıkar",
+    "kaynak": "Encyclopaedia Britannica, 'Piraeus' (britannica.com/place/Piraeus; makale gövdesi section[id^=ref], görünen metin, 17 Kas 2026)"
+   },
+   {
+    "t": "1834-01-01",
+    "gun": "1834",
+    "k": "diger",
+    "b": "Atina bağımsız Yunanistan'ın başkenti olunca Pire yeniden canlanır",
+    "kaynak": "Encyclopaedia Britannica, 'Piraeus' (britannica.com/place/Piraeus; makale gövdesi section[id^=ref], görünen metin, 17 Kas 2026)"
+   }
+  ],
+  "ic_not": "ilk: Britannica 'about 493 BCE' (yaklaşık) — kesinlik yıl ama 'yaklaşık' beyanı; MÖ VII-VI. yy Phaleron körfezi demirleme yeri kullanıldı (Pire değil). Atina kaydı: 'athens' (k3_g1) ayrı yerleşim (≈9 km). LISTE id 'piraeus-gr'. Sahip: Atina Demokrasisi künyesi -0507..-0337; MÖ 404 sonrası boşluk. koord: LISTE koordinatı ya da GeoNames arama sayfasından (geonames.org, 17 Kas 2026); LISTE'de boş olanlar GeoNames'ten"
+ },
+ {
+  "id": "volos",
+  "ad": "Volos",
+  "atlas_ad": null,
+  "lat": 39.3692,
+  "lon": 22.9477,
+  "kat1900": 2,
+  "adlar": [
+   "Iolkos / Iolcos (antik, Áno Vólos)",
+   "Pagasai (antik liman)",
+   "Demetrias (MÖ 293)",
+   "Golos (Türkçe)",
+   "Volos / Vólos"
+  ],
+  "ad_kaynak": "Encyclopaedia Britannica, 'Vólos' (britannica.com/place/Volos; makale gövdesi section[id^=ref], görünen metin, 17 Kas 2026)",
+  "ilk": {
+   "t": "-2499-01-01",
+   "gun": "MÖ 2500",
+   "nicelik": "arkeolojik",
+   "kesinlik": "belirsiz",
+   "kaynak": "Encyclopaedia Britannica, 'Vólos' (britannica.com/place/Volos; makale gövdesi section[id^=ref], görünen metin, 17 Kas 2026)",
+   "tanik": "Áno Vólos was the site of ancient Iolcos, inhabited since the beginning of the Bronze Age (c. 2500 BCE) and capital of Mycenaean Thessaly."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "-2499-01-01",
+    "t": "1881-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "Encyclopaedia Britannica, 'Vólos' (britannica.com/place/Volos; makale gövdesi section[id^=ref], görünen metin, 17 Kas 2026)",
+    "ic_not": "Britannica: Pagasai (Miken-geç Klasik), MÖ 293 Demetrias, Bizans piskoposluğu, 902 Sarazen korsanlarından kurtuldu; Osmanlı dönemi bu kaynakta yok — sürekli sahip sırası kurulmadı (beyanlı boşluk)"
+   },
+   {
+    "f": "1881-01-01",
+    "t": "1900-01-01",
+    "d": "yunanistan",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, 'Vólos' (britannica.com/place/Volos; makale gövdesi section[id^=ref], görünen metin, 17 Kas 2026)",
+    "ic_not": "Britannica: 'Vólos grew dramatically after 1881 when it was ceded, along with Thessaly, by Turkey to Greece'"
+   }
+  ],
+  "olay": [
+   {
+    "t": "1881-01-01",
+    "gun": "1881",
+    "k": "antlasma",
+    "b": "Volos Teselya ile birlikte Osmanlı'dan Yunanistan'a bırakılır",
+    "kaynak": "Encyclopaedia Britannica, 'Vólos' (britannica.com/place/Volos; makale gövdesi section[id^=ref], görünen metin, 17 Kas 2026)"
+   }
+  ],
+  "ic_not": "ilk: yalnız arkeolojik (Britannica Iolkos c. 2500 MÖ, Áno Vólos); yazılı ilk anılış bu partide okunmadı — Homeros/Iolkos eşitlemesi yer olarak Áno Vólos (şehir merkezinin birkaç km güneyi), 3 km sınırı kesin ölçülmedi. Neolitik Sesklo/Dimini yakında ayrı yerleşim. koord: LISTE koordinatı ya da GeoNames arama sayfasından (geonames.org, 17 Kas 2026); LISTE'de boş olanlar GeoNames'ten"
+ },
+ {
+  "id": "kalamata",
+  "ad": "Kalamata",
+  "atlas_ad": null,
+  "lat": 37.0391,
+  "lon": 22.1127,
+  "kat1900": 2,
+  "adlar": [
+   "Kalámai / Καλάμαι (Eski/Yeni Yunanca)",
+   "Kalamata / Καλαμάτα",
+   "Kalamata"
+  ],
+  "ad_kaynak": "Encyclopaedia Britannica, 'Kalámai' (britannica.com/place/Kalamai; makale gövdesi section[id^=ref], görünen metin, 17 Kas 2026)",
+  "ilk": {
+   "t": "1000-01-01",
+   "gun": "10. yüzyıl",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yuzyil",
+   "kaynak": "Encyclopaedia Britannica, 'Kalámai' (britannica.com/place/Kalamai; makale gövdesi section[id^=ref], görünen metin, 17 Kas 2026)",
+   "tanik": "A Byzantine centre in the 10th century, Kalámai became in 1208, after the Fourth Crusade, a fief of the Villehardouin family"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1000-01-01",
+    "t": "1208-01-01",
+    "d": "bizans",
+    "kesinlik": "yuzyil",
+    "kaynak": "Encyclopaedia Britannica, 'Kalámai' (britannica.com/place/Kalamai; makale gövdesi section[id^=ref], görünen metin, 17 Kas 2026)",
+    "ic_not": "Britannica: 'A Byzantine centre in the 10th century'"
+   },
+   {
+    "f": "1208-01-01",
+    "t": "1463-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, 'Kalámai' (britannica.com/place/Kalamai; makale gövdesi section[id^=ref], görünen metin, 17 Kas 2026)",
+    "ic_not": "Britannica: 1208'den Villehardouin ailesinin tımarı (Achaea Prensliği künyesi atlasta bu isimle okunmadı); sonraki sahipler (Mora Despotluğu/Osmanlı) kaynakta yok — beyanlı boşluk"
+   },
+   {
+    "f": "1463-01-01",
+    "t": "1479-01-01",
+    "d": "venedik",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, 'Kalámai' (britannica.com/place/Kalamai; makale gövdesi section[id^=ref], görünen metin, 17 Kas 2026)",
+    "ic_not": "Britannica: 'The Venetians first occupied it during the first Turko-Venetian war (1463–79)'"
+   },
+   {
+    "f": "1479-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, 'Kalámai' (britannica.com/place/Kalamai; makale gövdesi section[id^=ref], görünen metin, 17 Kas 2026)",
+    "ic_not": "Britannica: 1685'te Venedikliler yeniden işgal etti; 1770 ve 1821'de Mora devrimcilerinin karargâhı, 1825'te Müslümanlarca yağmalandı — 1479 sonrası sahip sırası kurulmadı (beyanlı boşluk)"
+   }
+  ],
+  "olay": [
+   {
+    "t": "1208-01-01",
+    "gun": "1208",
+    "k": "diger",
+    "b": "IV. Haçlı Seferi sonrası Villehardouin ailesinin tımarı olur",
+    "kaynak": "Encyclopaedia Britannica, 'Kalámai' (britannica.com/place/Kalamai; makale gövdesi section[id^=ref], görünen metin, 17 Kas 2026)"
+   },
+   {
+    "t": "1463-01-01",
+    "gun": "1463",
+    "k": "fetih",
+    "b": "Birinci Osmanlı-Venedik savaşında Venedikliler şehri ilk kez işgal eder",
+    "kaynak": "Encyclopaedia Britannica, 'Kalámai' (britannica.com/place/Kalamai; makale gövdesi section[id^=ref], görünen metin, 17 Kas 2026)"
+   },
+   {
+    "t": "1479-01-01",
+    "gun": "1479",
+    "k": "antlasma",
+    "b": "Birinci Osmanlı-Venedik savaşı sona erer (1463-79)",
+    "kaynak": "Encyclopaedia Britannica, 'Kalámai' (britannica.com/place/Kalamai; makale gövdesi section[id^=ref], görünen metin, 17 Kas 2026)"
+   },
+   {
+    "t": "1685-01-01",
+    "gun": "1685",
+    "k": "fetih",
+    "b": "Venedikliler şehri yeniden işgal eder",
+    "kaynak": "Encyclopaedia Britannica, 'Kalámai' (britannica.com/place/Kalamai; makale gövdesi section[id^=ref], görünen metin, 17 Kas 2026)"
+   },
+   {
+    "t": "1821-01-01",
+    "gun": "1821",
+    "k": "isyan",
+    "b": "Mora ayaklanmasının karargâhı olur (1770'te de)",
+    "kaynak": "Encyclopaedia Britannica, 'Kalámai' (britannica.com/place/Kalamai; makale gövdesi section[id^=ref], görünen metin, 17 Kas 2026)"
+   },
+   {
+    "t": "1825-01-01",
+    "gun": "1825",
+    "k": "diger",
+    "b": "Şehir Müslümanlarca yağmalanır",
+    "kaynak": "Encyclopaedia Britannica, 'Kalámai' (britannica.com/place/Kalamai; makale gövdesi section[id^=ref], görünen metin, 17 Kas 2026)"
+   }
+  ],
+  "ic_not": "ilk: Britannica 10. yy Bizans merkezi (yüzyıl sonu 1000 güvenli uç); yazılı ilk anılış (Kalamai) daha eski olabilir, okunmadı. HE Kalamata: XIII. yy kalesi. Britannica 'Pop. 2011 54.100'. koord: LISTE koordinatı ya da GeoNames arama sayfasından (geonames.org, 17 Kas 2026); LISTE'de boş olanlar GeoNames'ten"
+ },
+ {
+  "id": "sparti",
+  "ad": "Sparti",
+  "atlas_ad": null,
+  "lat": 37.0745,
+  "lon": 22.4301,
+  "kat1900": 2,
+  "adlar": [
+   "Sparte / Σπάρτη (Eski Yunanca)",
+   "Lakedaimon / Λακεδαίμων (HE)",
+   "Sparta",
+   "Sparti"
+  ],
+  "ad_kaynak": "Hrvatska enciklopedija, 'Sparta' (enciklopedija.hr/clanak/sparta; gömülü tarayıcıda gövde, 17 Kas 2026)",
+  "ilk": {
+   "t": "-0900-01-01",
+   "gun": "MÖ 10. yüzyıl",
+   "nicelik": "kurulus",
+   "kesinlik": "yuzyil",
+   "kaynak": "Hrvatska enciklopedija, 'Sparta' (enciklopedija.hr/clanak/sparta; gömülü tarayıcıda gövde, 17 Kas 2026)",
+   "tanik": "Osnovali su je Dorani na obalama rijeke Evrotas, vjerojatno u X. st. pr. Kr."
+  },
+  "kur": {
+   "t": "-0900-01-01",
+   "gun": "MÖ 10. yüzyıl",
+   "kesinlik": "yuzyil",
+   "kaynak": "Hrvatska enciklopedija, 'Sparta' (enciklopedija.hr/clanak/sparta; gömülü tarayıcıda gövde, 17 Kas 2026)",
+   "tanik": "Osnovali su je Dorani na obalama rijeke Evrotas, vjerojatno u X. st. pr. Kr."
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "-0900-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yuzyil",
+    "kaynak": "Hrvatska enciklopedija, 'Sparta' (enciklopedija.hr/clanak/sparta; gömülü tarayıcıda gövde, 17 Kas 2026)",
+    "ic_not": "HE: antik polis (hegemonya, Peloponez Birliği ~MÖ 550); sonraki dönemler bu kaynakta yok — sürekli sahip sırası kurulmadı (beyanlı boşluk)"
+   }
+  ],
+  "olay": [
+   {
+    "t": "-0900-01-01",
+    "gun": "MÖ 10. yüzyıl",
+    "k": "kurulus",
+    "b": "Dorlar Eurotas kıyısında Sparta'yı kurar (HE: 'vjerojatno' — olasılık)",
+    "kaynak": "Hrvatska enciklopedija, 'Sparta' (enciklopedija.hr/clanak/sparta; gömülü tarayıcıda gövde, 17 Kas 2026)"
+   }
+  ],
+  "ic_not": "ilk: HE 'vjerojatno X. yy MÖ' (olasılık; yüzyıl sonu güvenli uç -0900); kesinlik yüzyıl. Modern Sparti (1834'te yeniden kuruldu) antik Sparta üzerinde: HE 'grad i upravno središte Lakonije' diyor; modern/antik aynı yer kabulü HE'dendir, 3 km ölçülmedi. koord: LISTE koordinatı ya da GeoNames arama sayfasından (geonames.org, 17 Kas 2026); LISTE'de boş olanlar GeoNames'ten"
+ }
+]

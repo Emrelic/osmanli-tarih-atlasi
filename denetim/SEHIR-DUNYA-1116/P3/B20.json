@@ -1,0 +1,152 @@
+[
+ {
+  "id": "bannu-pk-p3",
+  "ad": "Bannu",
+  "atlas_ad": "Bannu (Edwardesabad)",
+  "lat": 32.9853,
+  "lon": 70.604,
+  "kat1900": 3,
+  "adlar": ["Bannu", "Dalipnagar", "Edwardesabad"],
+  "ilk": {
+   "t": "1848-01-01",
+   "gun": "1848",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Bannu', https://www.britannica.com/place/Bannu (tarayicida okundu, 17 Kasim 2026)",
+   "tanik": "the town was named Dalipnagar (1848) and then Edwardesabad (1869)"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [],
+  "ic_not": "TEK KAYNAK. Britannica govdesinden (YZ ozeti blogu disi; sayfada 'Summary created' blogu yok). Ozne 'the town' = madde konusu; baslik sehir. Ayni maddede 'Founded in 1848 by Lieut. (later Sir) Herbert Edwardes as a military base' (askeri ussun kurulusu). Ad 1903'te Bannu oldu (Britannica). Gun kaynakta yok: YYYY-01-01 + kesinlik 'yil'. Atlas noktasi 'Bannu (Edwardesabad)' 1848-01-01'de basliyor = ilk.t; dikis gerekmiyor, sahip[] bos (atlas zinciri atlasta). Ikinci bagimsiz kaynak okunmadi. P3-B20."
+ },
+ {
+  "id": "bareilly-in-p3",
+  "ad": "Bareilly",
+  "atlas_ad": null,
+  "lat": 28.3668,
+  "lon": 79.4317,
+  "kat1900": 3,
+  "adlar": ["Bareilly"],
+  "ilk": {
+   "t": "1537-01-01",
+   "gun": "1537",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Bareilly', https://www.britannica.com/place/Bareilly (tarayicida okundu, 17 Kasim 2026)",
+   "tanik": "The city, founded in 1537, was built largely by the Mughal governor Makrand Ray."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1537-01-01",
+    "t": "1774-01-01",
+    "d": "babur-imparatorlugu",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, 'Bareilly': 'built largely by the Mughal governor Makrand Ray' (1537)",
+    "ic_not": "BEYANLI YAKLASIKLIK: kaynak yalniz kurulusta (1537) Mughal valisini soyler; 1774'e kadar sahip degisimi kaynakta yok, dolayisiyla dönem Mughal egemenligi surdu varsayimiyla 1774'e kadar uzatildi (Sur interregnumu 1540-55 ve Rohilla donemi kaynakta anilmiyor; atlas noktasi yok, atlas karismiyor)."
+   },
+   {
+    "f": "1774-01-01",
+    "t": "1801-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, 'Bareilly': 'In 1774, during the Rohilla War, the ruler of Oudh (Ayodhya) conquered the area with British aid'",
+    "ic_not": "BOSLUK: kaynak Oudh (Avadh) hakiminin 1774'te bolgeyi fethettigini soyler; data/devletler.js'te Avadh/Oudh kimligi yok; beyansiz yaklasiklik yazilmadi."
+   },
+   {
+    "f": "1801-01-01",
+    "t": "1900-01-01",
+    "d": "ingiliz-hindistani",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, 'Bareilly': 'Bareilly was ceded to the British in 1801'",
+    "ic_not": "Kaynak 1801 Ingiliz devri der (gun yok); ingiliz-hindistani kunyesi 1757-1947 icinde."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1774-01-01",
+    "gun": "1774",
+    "k": "diger",
+    "b": "Rohilla Savasi'nda Oudh hakimi bolgeyi Ingiliz yardimiyla fethetti (gun kaynakta yok)",
+    "kaynak": "Britannica, 'Bareilly': 'In 1774, during the Rohilla War, the ruler of Oudh (Ayodhya) conquered the area with British aid'"
+   },
+   {
+    "t": "1801-01-01",
+    "gun": "1801",
+    "k": "diger",
+    "b": "Bareilly Ingilizlere devredildi (gun kaynakta yok)",
+    "kaynak": "Britannica, 'Bareilly': 'and Bareilly was ceded to the British in 1801'"
+   }
+  ],
+  "ic_not": "TEK KAYNAK. Britannica govdesinden (YZ ozeti blogu disi; sayfada 'Summary created' blogu yok). Cumlede ad yok; 'The city' = madde konusu, baslik sehir (ozne zamir = madde konusu). Gun kaynakta yok: YYYY-01-01 + kesinlik 'yil'. Atlas noktasi yok (3 km tarandi; en yakin Koil 142 km). P3-B20."
+ },
+ {
+  "id": "beawar-in-p3",
+  "ad": "Beawar",
+  "atlas_ad": null,
+  "lat": 26.1012,
+  "lon": 74.3203,
+  "kat1900": 3,
+  "adlar": ["Beawar", "Nayanagar"],
+  "ilk": {
+   "t": "1835-01-01",
+   "gun": "1835",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Beawar', https://www.britannica.com/place/Beawar (tarayicida okundu, 17 Kasim 2026)",
+   "tanik": "Formerly also called Nayanagar, the city was founded in 1835"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1835-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, 'Beawar'",
+    "ic_not": "BOSLUK (atlas noktasi yok): Britannica Beawar maddesi 1835 kurulusundan sonra devlet sahibi tarihli cumle vermez (Ajmer bolgesine ait 1818 Ingiliz devri bolge cumlesidir, sehir olgusu degildir); beyansiz yaklasiklik yazilmadi."
+   }
+  ],
+  "olay": [],
+  "ic_not": "TEK KAYNAK. Britannica govdesinden (YZ ozeti blogu disi; sayfada 'Summary created' blogu yok). Cumlede 'the city' = madde konusu, baslik sehir (ozne zamir = madde konusu); eski ad Nayanagar ayni cumlede. Gun kaynakta yok: YYYY-01-01 + kesinlik 'yil'. Atlas noktasi yok (3 km tarandi; en yakin Ajmer 50 km). P3-B20."
+ },
+ {
+  "id": "bogura-bd-p3",
+  "ad": "Bogura",
+  "atlas_ad": null,
+  "lat": 24.851,
+  "lon": 89.3711,
+  "kat1900": 3,
+  "adlar": ["Bogra", "Bogura"],
+  "ilk": {
+   "t": "1850-01-01",
+   "gun": "1850",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Banglapedia, 'Bogra District' (Administration), https://en.banglapedia.org/index.php/Bogra_District (tarayicida okundu, 17 Kasim 2026)",
+   "tanik": "Bogra town founded in 1850."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1850-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Banglapedia, 'Bogra District'",
+    "ic_not": "BOSLUK (atlas noktasi yok): kaynak 1850 kurulusunu verir, devlet sahibi cumlesi yok; beyansiz yaklasiklik yazilmadi."
+   }
+  ],
+  "olay": [],
+  "ic_not": "TEK KAYNAK. Banglapedia (Asiatic Society of Bangladesh, akademik ansiklopedi) 'Bogra District' maddesi; sehir adi + yil ayni cumlede. Britannica 'Bogra' yalniz belediye 1876 verir (kurulus degil), celiski yok. Gun kaynakta yok: YYYY-01-01 + kesinlik 'yil'. Atlas noktasi yok (3 km tarandi; en yakin Gaur 125 km). P3-B20."
+ }
+]

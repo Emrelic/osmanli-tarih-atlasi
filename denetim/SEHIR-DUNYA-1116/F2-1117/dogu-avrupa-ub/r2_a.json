@@ -1,0 +1,629 @@
+[
+ {
+  "id": "poltava",
+  "ad": "Poltava",
+  "atlas_ad": "Poltava",
+  "lat": 49.589,
+  "lon": 34.551,
+  "kat1900": 2,
+  "adlar": [
+   "Ltava",
+   "Poltava"
+  ],
+  "ilk": {
+   "t": "1174-01-01",
+   "gun": "1174",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Poltava' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)",
+   "tanik": "The city is first mentioned, as Ltava, in the Hypatian Chronicle under the year 1174."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1174-01-01",
+    "t": "1281-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Poltava' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)",
+    "ic_not": "BEYANLI BOŞLUK: EoU 1174'te Ltava'yı anar, 1240 Moğol zaptı ve XIV. yy 2. yarısı Litvanya egemenliğini tarihsiz verir; 1174-1281 arası sahip tek künyeyle ve günlü tanıkla kaynakta yok."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1174-01-01",
+    "gun": "1174",
+    "k": "diger",
+    "b": "Ltava Hypatian Chronicle'da ilk kez anıldı",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Poltava' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   },
+   {
+    "t": "1240-01-01",
+    "gun": "1240",
+    "k": "fetih",
+    "b": "Moğollar Poltava'yı ele geçirdi",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Poltava' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   },
+   {
+    "t": "1569-01-01",
+    "gun": "1569",
+    "k": "diger",
+    "b": "Poltava Polonya-Litvanya Ortak Cumhuriyeti'ne dahil oldu",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Poltava' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   },
+   {
+    "t": "1648-01-01",
+    "gun": "1648",
+    "k": "idari",
+    "b": "Hetman devletinde alay merkezi oldu (1648-1775)",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Poltava' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   },
+   {
+    "t": "1709-07-08",
+    "gun": "8 Temmuz 1709",
+    "k": "savas",
+    "b": "Poltava Muharebesi: I. Petro İsveç-Kazak ittifakını yendi",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Poltava' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   }
+  ],
+  "ic_not": "ilk anılış 1174 (EoU). TEK KAYNAK; ikinci bağımsız akademik kaynak bu turda okunmadı/bulunamadı (çift teyit YOK). Koordinat LISTE'den.",
+  "dikis_beyan": "Atlasın 1281-01-01 'altinorda' başlangıcı için kaynak bulunamadı: EoU 1240 Moğol zaptını verir, Altın Orda adını/1281 günü vermez; 1174-1281 arası BOŞLUK beyanlı."
+ },
+ {
+  "id": "berdychiv",
+  "ad": "Berdychiv",
+  "atlas_ad": "Berdiçev (Berdychiv)",
+  "lat": 49.894,
+  "lon": 28.582,
+  "kat1900": 3,
+  "adlar": [
+   "Berdychiv",
+   "Berdichev"
+  ],
+  "ilk": {
+   "t": "1545-01-01",
+   "gun": "1545",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Berdychiv' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)",
+   "tanik": "Berdychiv was first mentioned in a historical document of 1545."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1545-01-01",
+    "gun": "1545",
+    "k": "diger",
+    "b": "Berdychiv tarihî bir belgede ilk kez anıldı",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Berdychiv' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   },
+   {
+    "t": "1569-01-01",
+    "gun": "1569",
+    "k": "diger",
+    "b": "Şehir Litvanya'dan Polonya egemenliğine geçti",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Berdychiv' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   },
+   {
+    "t": "1593-01-01",
+    "gun": "1593",
+    "k": "kurulus",
+    "b": "Şehrin çevresine kale yapıldı",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Berdychiv' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   }
+  ],
+  "ic_not": "Atlas noktası 'Berdiçev (Berdychiv)' 1545-01-01'de litvanya-buyuk-dukalik ile başlıyor = ilk.t; zincir yazılmadı (atlas esas). TEK KAYNAK; ikinci bağımsız akademik kaynak bu turda okunmadı/bulunamadı (çift teyit YOK)."
+ },
+ {
+  "id": "lutsk",
+  "ad": "Lutsk",
+  "atlas_ad": "Lutsk (Łuck)",
+  "lat": 50.7472,
+  "lon": 25.3254,
+  "kat1900": 3,
+  "adlar": [
+   "Lutsk",
+   "Łuck"
+  ],
+  "ilk": {
+   "t": "1085-01-01",
+   "gun": "1085",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Lutsk' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)",
+   "tanik": "It is first mentioned in the Hypatian Chronicle under the year 1085"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1085-01-01",
+    "gun": "1085",
+    "k": "diger",
+    "b": "Lutsk Hypatian Chronicle'da ilk kez anıldı",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Lutsk' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   },
+   {
+    "t": "1340-01-01",
+    "gun": "1340",
+    "k": "fetih",
+    "b": "Liubartas Lutsk'u ilhak etti; büyük kale yaptırıp appanage prensliğinin başkenti yaptı",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Lutsk' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   }
+  ],
+  "ic_not": "Atlas noktası 1085-01-01'de kiev-rusu ile başlıyor = ilk.t; zincir yazılmadı. EoU: 10. yy Luchanian kabile merkezi olması 'muhtemel' (kesin değil, başlangıç sayılmadı). TEK KAYNAK; ikinci bağımsız akademik kaynak bu turda okunmadı/bulunamadı (çift teyit YOK)."
+ },
+ {
+  "id": "uman",
+  "ad": "Uman",
+  "atlas_ad": "Uman",
+  "lat": 48.7484,
+  "lon": 30.2219,
+  "kat1900": 3,
+  "adlar": [
+   "Uman"
+  ],
+  "ilk": {
+   "t": "1616-01-01",
+   "gun": "1616",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Uman' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)",
+   "tanik": "It was first mentioned in historical documents in 1616, when it was under Polish rule."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1616-01-01",
+    "gun": "1616",
+    "k": "diger",
+    "b": "Uman tarihî belgelerde ilk kez anıldı (Polonya yönetiminde)",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Uman' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   }
+  ],
+  "ic_not": "Atlas noktası 1616-01-01'de lehistan ile başlıyor = ilk.t; zincir yazılmadı. TEK KAYNAK; ikinci bağımsız akademik kaynak bu turda okunmadı/bulunamadı (çift teyit YOK)."
+ },
+ {
+  "id": "vinnytsia",
+  "ad": "Vinnytsia",
+  "atlas_ad": "Vinnitsa (Vinnytsia)",
+  "lat": 49.232,
+  "lon": 28.469,
+  "kat1900": 3,
+  "adlar": [
+   "Vinnytsia",
+   "Vinnitsa"
+  ],
+  "ilk": {
+   "t": "1363-01-01",
+   "gun": "1363",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Vinnytsia' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)",
+   "tanik": "It is first mentioned in historical documents in 1363, as a Lithuanian fortress."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1363-01-01",
+    "gun": "1363",
+    "k": "diger",
+    "b": "Vinnytsia Litvanya kalesi olarak ilk kez anıldı",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Vinnytsia' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   },
+   {
+    "t": "1558-01-01",
+    "gun": "1558",
+    "k": "kurulus",
+    "b": "Nehir adasında yeni kale yapıldı",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Vinnytsia' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   }
+  ],
+  "ic_not": "Atlas noktası 1363-01-01'de litvanya-buyuk-dukalik ile başlıyor = ilk.t; zincir yazılmadı. TEK KAYNAK; ikinci bağımsız akademik kaynak bu turda okunmadı/bulunamadı (çift teyit YOK)."
+ },
+ {
+  "id": "kovel",
+  "ad": "Kovel",
+  "atlas_ad": "Kovel",
+  "lat": 51.2153,
+  "lon": 24.7086,
+  "kat1900": 3,
+  "adlar": [
+   "Kovel"
+  ],
+  "ilk": {
+   "t": "1310-01-01",
+   "gun": "1310",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Kovel' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)",
+   "tanik": "First mentioned in 1310, in 1518 it was granted the rights of Magdeburg law."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1310-01-01",
+    "gun": "1310",
+    "k": "diger",
+    "b": "Kovel ilk kez anıldı",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Kovel' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   },
+   {
+    "t": "1518-01-01",
+    "gun": "1518",
+    "k": "idari",
+    "b": "Kovel'e Magdeburg hukuku verildi",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Kovel' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   }
+  ],
+  "ic_not": "ATLAS ÖNERİSİ: atlas 'Kovel' 1281-01-01 galicya-volhinya; EoU ilk anılış 1310 (atlas başlangıcından 29 yıl sonra) — atlas başlangıcı kaynaksız, 1310'a çekilmeli ya da daha erken tanık bulunmalı. Zincir yazılmadı. TEK KAYNAK; ikinci bağımsız akademik kaynak bu turda okunmadı/bulunamadı (çift teyit YOK)."
+ },
+ {
+  "id": "rivne",
+  "ad": "Rivne",
+  "atlas_ad": "Rivne (Równe)",
+  "lat": 50.6199,
+  "lon": 26.2516,
+  "kat1900": 3,
+  "adlar": [
+   "Rivne",
+   "Równe",
+   "Rovno"
+  ],
+  "ilk": {
+   "t": "1282-01-01",
+   "gun": "1282",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Rivne' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)",
+   "tanik": "It is first mentioned in historical documents in 1282, as the site of a battle"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1282-01-01",
+    "gun": "1282",
+    "k": "savas",
+    "b": "Polonyalı prens Leszek Czarny ile Litvanyalı soylu Vitenas arasında Rivne'de savaş (ilk anılış)",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Rivne' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   }
+  ],
+  "ic_not": "ATLAS ÖNERİSİ: atlas 'Rivne (Równe)' 1281-01-01 galicya-volhinya; EoU ilk anılış 1282 (1 yıl sonra, kaynaksız). EoU: yerleşim Galicya-Volhinya prensliğinde bir kale çevresinde gelişti. Zincir yazılmadı. TEK KAYNAK; ikinci bağımsız akademik kaynak bu turda okunmadı/bulunamadı (çift teyit YOK)."
+ },
+ {
+  "id": "izium",
+  "ad": "Izium",
+  "atlas_ad": "İzyum",
+  "lat": 49.21,
+  "lon": 37.29,
+  "kat1900": 3,
+  "adlar": [
+   "Izium",
+   "Izyum"
+  ],
+  "ilk": {
+   "t": "1650-01-01",
+   "gun": "17. yüzyılın ikinci çeyreği",
+   "nicelik": "kurulus",
+   "kesinlik": "belirsiz",
+   "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Izium' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)",
+   "tanik": "A settlement was established there in the second quarter of the 17th century"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1650-01-01",
+    "t": "1681-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Izium' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)",
+    "ic_not": "BEYANLI BOŞLUK: kaynak yerleşimin 1626-1650 arası kurulduğunu söyler, sahibini 1681 tahkimine kadar vermez."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1681-01-01",
+    "gun": "1681",
+    "k": "kurulus",
+    "b": "Kharkiv alayı albayı tarafından tahkim edildi; Tatar akınlarına karşı savunma karakolu",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Izium' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   }
+  ],
+  "ic_not": "Aralık veren kaynakta güvenli uç alındı (1650; ikinci çeyrek 1626-1650). Atlas 1681-01-01 rusya ile uyumlu (tahkim yılı). TEK KAYNAK; ikinci bağımsız akademik kaynak bu turda okunmadı/bulunamadı (çift teyit YOK).",
+  "dikis_beyan": "Atlas 1681-01-01 'rusya': EoU yalnız Kharkiv alayı albayının 1681 tahkimini verir; Rus egemenliği cümlesi yok (Slobidska Ukrayna'nın Rus himayesi başka kaynakla teyit edilmeli)."
+ },
+ {
+  "id": "chernihiv",
+  "ad": "Chernihiv",
+  "atlas_ad": null,
+  "lat": 51.5054,
+  "lon": 31.2866,
+  "kat1900": 2,
+  "adlar": [
+   "Chernigov",
+   "Chernihiv"
+  ],
+  "ilk": {
+   "t": "0907-01-01",
+   "gun": "907",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Chernihiv' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)",
+   "tanik": "The first mention of Chernihiv in the chronicles occurred in 907."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0907-01-01",
+    "t": "1503-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Chernihiv' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)",
+    "ic_not": "BEYANLI BOŞLUK: EoU 1239 Tatar yıkımını verir ama 907-1503 arası sahibi (Çernigov prensliği/Litvanya) tek künyeyle ve günlü tanıkla vermez."
+   },
+   {
+    "f": "1503-01-01",
+    "t": "1547-01-16",
+    "d": "moskova",
+    "kesinlik": "yil",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Chernihiv' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)",
+    "ic_not": "BEYANLI YAKLAŞIKLIK: EoU 'came under Muscovy’s rule' (1503); künye moskova 1547-01-16'ya kadar."
+   },
+   {
+    "f": "1547-01-16",
+    "t": "1618-01-01",
+    "d": "rusya",
+    "kesinlik": "yil",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Chernihiv' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)",
+    "ic_not": "Künye geçişi (moskova→rusya, devletler.js sınırı); EoU 1503-1618 arası Moskova/Rus yönetimini verir, 1547 gününü vermez."
+   },
+   {
+    "f": "1618-01-01",
+    "t": "1648-01-01",
+    "d": "lehistan",
+    "kesinlik": "yil",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Chernihiv' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)",
+    "ic_not": "Deulino Ateşkesi (1618) ile Polonya Ortak Cumhuriyeti'ne devredildi; gün EoU'da yok."
+   },
+   {
+    "f": "1648-01-01",
+    "t": "1764-11-21",
+    "d": "kazak-hetmanligi",
+    "kesinlik": "yil",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Chernihiv' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)",
+    "ic_not": "1648'de Kazak Hetman devletine katıldı; bitiş günü künyeden (1764-11-21); EoU kaldırma yılını vermiyor, kaldırmadan sonra 1781 valilik merkezi der."
+   },
+   {
+    "f": "1764-11-21",
+    "t": "1900-01-01",
+    "d": "rusya",
+    "kesinlik": "yil",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Chernihiv' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)",
+    "ic_not": "Hetmanlığın kaldırılmasından sonra Rus yönetimi (EoU: 1781 vicegerency, 1797 Küçük Rusya, 1802 Çernigov guberniyası merkezi)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0907-01-01",
+    "gun": "907",
+    "k": "diger",
+    "b": "Chernihiv kroniklerde ilk kez anıldı",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Chernihiv' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   },
+   {
+    "t": "1239-01-01",
+    "gun": "1239",
+    "k": "savas",
+    "b": "Tatarlar Chernihiv'i yıktı",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Chernihiv' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   },
+   {
+    "t": "1503-01-01",
+    "gun": "1503",
+    "k": "fetih",
+    "b": "Chernihiv ve Chernihiv-Siversk toprağı Moskova egemenliğine geçti",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Chernihiv' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   },
+   {
+    "t": "1547-01-16",
+    "gun": "16 Ocak 1547",
+    "k": "diger",
+    "b": "künye geçişi: Moskova Büyük Dükalığı → Rusya Çarlığı (EoU'da yok)",
+    "kaynak": "devletler.js künye sınırı (atlas verisi)"
+   },
+   {
+    "t": "1618-01-01",
+    "gun": "1618",
+    "k": "antlasma",
+    "b": "Deulino Ateşkesi: Chernihiv Polonya Ortak Cumhuriyeti'ne devredildi",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Chernihiv' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   },
+   {
+    "t": "1648-01-01",
+    "gun": "1648",
+    "k": "idari",
+    "b": "Chernihiv Kazak Hetman devletine katıldı, Chernihiv alayının merkezi oldu",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Chernihiv' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   },
+   {
+    "t": "1764-11-21",
+    "gun": "21 Kasım 1764",
+    "k": "diger",
+    "b": "Hetman devleti kaldırıldı, Rus idaresi (gün künye bitişinden; EoU tarihsiz)",
+    "kaynak": "devletler.js künye sınırı (atlas verisi); Internet Encyclopedia of Ukraine (CIUS), 'Chernihiv' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   }
+  ],
+  "ic_not": "ilk anılış 907 (EoU). TEK KAYNAK; ikinci bağımsız akademik kaynak bu turda okunmadı/bulunamadı (çift teyit YOK). Zincirde 1547-01-16 ve 1764-11-21 günleri devletler.js künye sınırlarından alındı (BEYAN); EoU yalnız yıl/sıra verir. 1503/1618/1648 günleri yıl hassasiyetinde (YYYY-01-01)."
+ },
+ {
+  "id": "khotyn",
+  "ad": "Hotin",
+  "atlas_ad": null,
+  "lat": 48.5055,
+  "lon": 26.4898,
+  "kat1900": 3,
+  "adlar": [
+   "Hotin",
+   "Khotyn",
+   "Khotin"
+  ],
+  "ilk": {
+   "t": "1387-01-01",
+   "gun": "1387",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, HOTİN maddesi (islamansiklopedisi.org.tr/hotin; 17 Kas 2026 gömülü tarayıcıda okundu)",
+   "tanik": "1387’de Hotin Kalesi dizdarlarının adlarına rastlanması bu sıralarda askerî bir istihkâmın varlığına işaret etmektedir."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1387-01-01",
+    "t": "1711-01-01",
+    "d": "bogdan",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, HOTİN maddesi (islamansiklopedisi.org.tr/hotin; 17 Kas 2026 gömülü tarayıcıda okundu)",
+    "ic_not": "TDV: Ortaçağ kalesi olarak Boğdan beylerinin idaresinde; 9 Ekim 1621 antlaşması Hotin'i Boğdan voyvodalarına verdi. 1538/1621/1673 kuşatma ve geçici işgalleri dönem açmadı. BEYANLI: 1387-1621 arası kesintisizlik TDV'de açık yazılı değil."
+   },
+   {
+    "f": "1711-01-01",
+    "t": "1769-01-01",
+    "d": "osmanli",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, HOTİN maddesi (islamansiklopedisi.org.tr/hotin; 17 Kas 2026 gömülü tarayıcıda okundu)",
+    "ic_not": "TDV: 1711'den sonra Boğdan'dan alınıp doğrudan Osmanlı idaresine sokuldu. 1739 Rus işgali aynı yıl bitti; dönem açılmadı."
+   },
+   {
+    "f": "1769-01-01",
+    "t": "1774-01-01",
+    "d": "rusya",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, HOTİN maddesi (islamansiklopedisi.org.tr/hotin; 17 Kas 2026 gömülü tarayıcıda okundu)",
+    "ic_not": "TDV: 1769'da Golitsın tarafından zaptedildi; 1774 Küçük Kaynarca ile Osmanlı'ya bırakıldı."
+   },
+   {
+    "f": "1774-01-01",
+    "t": "1788-01-01",
+    "d": "osmanli",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, HOTİN maddesi (islamansiklopedisi.org.tr/hotin; 17 Kas 2026 gömülü tarayıcıda okundu)",
+    "ic_not": "TDV: 1774 Küçük Kaynarca ile Osmanlı'ya bırakıldı."
+   },
+   {
+    "f": "1788-01-01",
+    "t": "1792-01-01",
+    "d": "rusya",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, HOTİN maddesi (islamansiklopedisi.org.tr/hotin; 17 Kas 2026 gömülü tarayıcıda okundu)",
+    "ic_not": "BEYANLI YAKLAŞIKLIK: TDV 'Avusturya ve Rusya ortak kuvvetleri' 1788 Eylülde aldı; 1792 Yaş ile Osmanlı'ya geri verildi. Ortak işgal tek künyeye (Rusya) indirildi."
+   },
+   {
+    "f": "1792-01-01",
+    "t": "1806-01-01",
+    "d": "osmanli",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, HOTİN maddesi (islamansiklopedisi.org.tr/hotin; 17 Kas 2026 gömülü tarayıcıda okundu)",
+    "ic_not": "TDV: Yaş Antlaşması (1792) ile Osmanlılar'a geri verildi."
+   },
+   {
+    "f": "1806-01-01",
+    "t": "1900-01-01",
+    "d": "rusya",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, HOTİN maddesi (islamansiklopedisi.org.tr/hotin; 17 Kas 2026 gömülü tarayıcıda okundu)",
+    "ic_not": "TDV: 1806'da Rus işgali; 1812 Bükreş Antlaşması ile Dinyester-Boh (Besarabya) arasıyla Rusya'ya bırakıldı."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1387-01-01",
+    "gun": "1387",
+    "k": "diger",
+    "b": "Hotin Kalesi dizdarlarının adlarına rastlandı (ilk anılış)",
+    "kaynak": "TDV İslâm Ansiklopedisi, HOTİN maddesi (islamansiklopedisi.org.tr/hotin; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   },
+   {
+    "t": "1621-10-09",
+    "gun": "9 Ekim 1621",
+    "k": "antlasma",
+    "b": "Hotin Antlaşması: Dinyester sınır sayıldı, Hotin Boğdan voyvodalarının idaresine verildi",
+    "kaynak": "TDV İslâm Ansiklopedisi, HOTİN maddesi (islamansiklopedisi.org.tr/hotin; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   },
+   {
+    "t": "1711-01-01",
+    "gun": "1711",
+    "k": "idari",
+    "b": "Hotin Boğdan'dan alınıp doğrudan Osmanlı idaresine sokuldu",
+    "kaynak": "TDV İslâm Ansiklopedisi, HOTİN maddesi (islamansiklopedisi.org.tr/hotin; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   },
+   {
+    "t": "1739-01-01",
+    "gun": "1739",
+    "k": "isgal",
+    "b": "Münnich komutasındaki Rus ordusu kaleyi aldı; Belgrad Antlaşması (1739) ile Osmanlı'ya geri verildi (kısa işgal, dönem açılmadı)",
+    "kaynak": "TDV İslâm Ansiklopedisi, HOTİN maddesi (islamansiklopedisi.org.tr/hotin; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   },
+   {
+    "t": "1769-01-01",
+    "gun": "1769",
+    "k": "fetih",
+    "b": "Golitsın Hotin'i zaptetti",
+    "kaynak": "TDV İslâm Ansiklopedisi, HOTİN maddesi (islamansiklopedisi.org.tr/hotin; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   },
+   {
+    "t": "1774-01-01",
+    "gun": "1774",
+    "k": "antlasma",
+    "b": "Küçük Kaynarca Antlaşması ile Hotin Osmanlı'ya bırakıldı",
+    "kaynak": "TDV İslâm Ansiklopedisi, HOTİN maddesi (islamansiklopedisi.org.tr/hotin; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   },
+   {
+    "t": "1788-01-01",
+    "gun": "1788",
+    "k": "fetih",
+    "b": "Avusturya-Rus ortak kuvvetleri Hotin'i aldı (Eylül)",
+    "kaynak": "TDV İslâm Ansiklopedisi, HOTİN maddesi (islamansiklopedisi.org.tr/hotin; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   },
+   {
+    "t": "1792-01-01",
+    "gun": "1792",
+    "k": "antlasma",
+    "b": "Yaş Antlaşması ile Hotin Osmanlı'ya geri verildi",
+    "kaynak": "TDV İslâm Ansiklopedisi, HOTİN maddesi (islamansiklopedisi.org.tr/hotin; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   },
+   {
+    "t": "1806-01-01",
+    "gun": "1806",
+    "k": "isgal",
+    "b": "Ruslar Hotin'i işgal etti",
+    "kaynak": "TDV İslâm Ansiklopedisi, HOTİN maddesi (islamansiklopedisi.org.tr/hotin; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   }
+  ],
+  "ic_not": "TDV tek kaynak (tam gövde okundu). EoU 'Khotyn' maddesi: 10. yy Kyiv Rusu, 12. yy Galicya-Volhinya, XIII. yy 2. yarısı Ceneviz kalesi (tarihsiz; başlangıç sayılmadı, TDV Boğdan sahipliği ile çelişki yok çünkü EoU'nun cümleleri tarihsiz). Gün yok: Bükreş (1812) günü TDV'de yok; 1806 işgalinden zincir Rus. Koordinat: GeoNames Khotyn PPL (Dnistrovskyi Raion, Chernivtsi), 48°30′20″N 26°29′23″E; LISTE'de boştu."
+ }
+]

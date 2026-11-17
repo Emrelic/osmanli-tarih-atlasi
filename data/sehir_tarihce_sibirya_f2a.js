@@ -1,0 +1,684 @@
+// ŞEHİR TARİHÇESİ — SIBIRYA_F2A · üretici: arac/sehir_tarihce.py · şema: VERI-YAPISI.md
+// Motor/denetle/site OKUMAZ — araştırma birikimi. Elle düzenleme: JSON'u düzelt, yeniden üret.
+window.SEHIR_TARIHCE_SIBIRYA_F2A = [
+ {
+  "id": "abakan-ru",
+  "ad": "Abakan",
+  "atlas_ad": null,
+  "lat": 53.7154,
+  "lon": 91.4259,
+  "kat1900": 3,
+  "adlar": [
+   "Ust-Abakanskoye (Ust’-Abakanskoe, 1925'e kadar; Hrvatska enciklopedija)",
+   "Abakan (1925'ten)"
+  ],
+  "ad_kaynak": "Hrvatska enciklopedija Abakan ('do 1925. Ust Abakanskoje, od 1925. ... Abakan')",
+  "ilk": {
+   "t": "1675-01-01",
+   "gun": "1675",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Treccani Enciclopedia on line, 'Abakan' maddesi (treccani.it/enciclopedia/abakan); Hrvatska enciklopedija, 'Abakan' maddesi (enciklopedija.hr/clanak/abakan)",
+   "tanik": "Abakan (163.980 ab. nel 2006), capoluogo della Repubblica della Hakasija: sorta intorno a un forte eretto nel 1675"
+  },
+  "kur": {
+   "t": "1675-01-01",
+   "gun": "1675",
+   "kesinlik": "yil",
+   "kaynak": "Treccani Enciclopedia on line, 'Abakan' maddesi (treccani.it/enciclopedia/abakan); Hrvatska enciklopedija, 'Abakan' maddesi (enciklopedija.hr/clanak/abakan)",
+   "tanik": "Abakan (163.980 ab. nel 2006), capoluogo della Repubblica della Hakasija: sorta intorno a un forte eretto nel 1675"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1675-01-01",
+    "t": "1900-01-01",
+    "d": "rusya",
+    "kesinlik": "yil",
+    "kaynak": "Treccani Enciclopedia on line, 'Abakan' maddesi (treccani.it/enciclopedia/abakan): 1675 kalesi çevresinde doğdu (Sibirya Rus kolonizasyonu; dolaylı)"
+   }
+  ],
+  "olay": [
+   {
+    "t": "1675-01-01",
+    "gun": "1675",
+    "k": "kurulus",
+    "b": "Abakan, 1675'te dikilen kale çevresinde doğdu",
+    "kaynak": "Treccani Enciclopedia on line, 'Abakan' maddesi (treccani.it/enciclopedia/abakan); Hrvatska enciklopedija, 'Abakan' maddesi (enciklopedija.hr/clanak/abakan) ('Osnovan 1675.')"
+   }
+  ],
+  "ic_not": "KURULUŞ 1675: Treccani + Hrvatska enciklopedija (HE: 'Osnovan 1675.') — çift teyit. Britannica Abakan maddesi kuruluş yılı vermez. LISTE'deki 'Ust-Abakanskoye' notu HE'den doğrulandı (1925'e kadar bu ad). Atlasta nokta yok: zincir 1900'e. Sahiplik (rusya): kuruluşun Rus Sibirya kolonizasyonuna ait olmasından; kaynaklar 'Rusya sahibidir' cümlesini doğrudan yazmaz, dolaylı (kaynak sütunundaki ifade). Takvim: Rusya 1918'e kadar Jülyen kullandı; kaynaklar yalnız yıl (ya da onyıl) verir, yıl hassasiyetinde Jülyen/Gregoryen farkı sonucu değiştirmez, çevrim gerekmedi. koord: LISTE (GeoNames 1512236). TANIK: tırnak içi cümleler gömülü tarayıcıyla 17 Kasım 2026'da okunan sayfa gövdesinden birebir alındı (sayfa gövdesi okundu, arama özeti değil). "
+ },
+ {
+  "id": "anadyr-ru",
+  "ad": "Anadyr",
+  "atlas_ad": null,
+  "lat": 64.7342,
+  "lon": 177.5103,
+  "kat1900": 3,
+  "adlar": [
+   "Novo-Mariinsk (Novo-Marijinsk; 1923'e kadar; Hrvatska enciklopedija)",
+   "Anadyr (1923'ten)"
+  ],
+  "ad_kaynak": "Hrvatska enciklopedija Anadir ('do 1923. Novo-Marijinsk')",
+  "ilk": {
+   "t": "1889-01-01",
+   "gun": "1889",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Hrvatska enciklopedija, 'Anadir' maddesi (enciklopedija.hr/clanak/anadir)",
+   "tanik": "Osnovan 1889., gradom proglašen 1965."
+  },
+  "kur": {
+   "t": "1889-01-01",
+   "gun": "1889",
+   "kesinlik": "yil",
+   "kaynak": "Hrvatska enciklopedija, 'Anadir' maddesi (enciklopedija.hr/clanak/anadir)",
+   "tanik": "Osnovan 1889., gradom proglašen 1965."
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1889-01-01",
+    "t": "1900-01-01",
+    "d": "rusya",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija, 'Anadir' maddesi (enciklopedija.hr/clanak/anadir): 1889'da Novo-Marijinsk (Rus Çarlığı Çukotka postası; dolaylı)"
+   }
+  ],
+  "olay": [
+   {
+    "t": "1923-01-01",
+    "gun": "1923",
+    "k": "diger",
+    "b": "Novo-Mariinsk adı Anadyr oldu",
+    "kaynak": "Hrvatska enciklopedija, 'Anadir' maddesi (enciklopedija.hr/clanak/anadir) ('do 1923. Novo-Marijinsk')"
+   },
+   {
+    "t": "1965-01-01",
+    "gun": "1965",
+    "k": "diger",
+    "b": "Anadyr kent statüsü aldı",
+    "kaynak": "Hrvatska enciklopedija, 'Anadir' maddesi (enciklopedija.hr/clanak/anadir); Britannica, 'Anadyr' maddesi (britannica.com/place/Anadyr) ('Incorporated as a town in 1965')"
+   }
+  ],
+  "ic_not": "TEK KAYNAK kuruluş: Hrvatska enciklopedija 'Anadir' ('Osnovan 1889.'). Britannica yalnız kasaba statüsü 1965'i verir; Treccani Anadyr kent kuruluşu yazmaz (nehir maddesi). Sahiplik (rusya): kuruluşun Rus Sibirya kolonizasyonuna ait olmasından; kaynaklar 'Rusya sahibidir' cümlesini doğrudan yazmaz, dolaylı (kaynak sütunundaki ifade). Zincir 1900'e. Takvim: Rusya 1918'e kadar Jülyen kullandı; kaynaklar yalnız yıl (ya da onyıl) verir, yıl hassasiyetinde Jülyen/Gregoryen farkı sonucu değiştirmez, çevrim gerekmedi. koord: LISTE (GeoNames 2127202). TANIK: tırnak içi cümleler gömülü tarayıcıyla 17 Kasım 2026'da okunan sayfa gövdesinden birebir alındı (sayfa gövdesi okundu, arama özeti değil). "
+ },
+ {
+  "id": "birobidzhan-ru",
+  "ad": "Birobidzhan",
+  "atlas_ad": null,
+  "lat": 48.793,
+  "lon": 132.9203,
+  "kat1900": 3,
+  "adlar": [
+   "Tikhonkaya (Tihonkaja; demiryolu istasyonu, 1931'e kadar; Hrvatska enciklopedija)",
+   "Birobidzhan"
+  ],
+  "ad_kaynak": "Hrvatska enciklopedija Birobidžan ('kao Tihonkaja (do 1931)'); Britannica 'railway station called Tikhonkaya'",
+  "ilk": {
+   "t": "1928-01-01",
+   "gun": "1928",
+   "nicelik": "kurulus",
+   "kesinlik": "belirsiz",
+   "kaynak": "Britannica, 'Birobidzhan' maddesi (britannica.com/place/Birobidzhan)",
+   "tanik": "It was founded in 1928 as a railway station called Tikhonkaya."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1934-01-01",
+    "gun": "1934",
+    "k": "diger",
+    "b": "Yahudi Özerk Oblastı kuruldu; Birobidzhan merkez oldu",
+    "kaynak": "Britannica, 'Birobidzhan' maddesi (britannica.com/place/Birobidzhan) ('The oblast was formed in 1934, with Birobidzhan as its centre')"
+   },
+   {
+    "t": "1937-01-01",
+    "gun": "1937",
+    "k": "diger",
+    "b": "Birobidzhan kent statüsü aldı",
+    "kaynak": "Britannica, 'Birobidzhan' maddesi (britannica.com/place/Birobidzhan)"
+   }
+  ],
+  "ic_not": "ÇELİŞKİ (kuruluş yılı): Britannica 1928 (istasyon) · Hrvatska enciklopedija 'Osnovan 1915. kao Tihonkaja'. Aynı yıl iki kaynakta yok; güvenli uç (geç) 1928, kesinlik 'belirsiz', kur yazılmadı. Zincir yok: 1900'den sonra. Takvim: Rusya 1918'e kadar Jülyen kullandı; kaynaklar yalnız yıl (ya da onyıl) verir, yıl hassasiyetinde Jülyen/Gregoryen farkı sonucu değiştirmez, çevrim gerekmedi. koord: LISTE (GeoNames 2026643). TANIK: tırnak içi cümleler gömülü tarayıcıyla 17 Kasım 2026'da okunan sayfa gövdesinden birebir alındı (sayfa gövdesi okundu, arama özeti değil). "
+ },
+ {
+  "id": "irkutsk",
+  "ad": "Irkutsk",
+  "atlas_ad": "İrkutsk",
+  "lat": 52.287,
+  "lon": 104.281,
+  "kat1900": 2,
+  "adlar": [
+   "Irkutsk"
+  ],
+  "ad_kaynak": "Britannica; Treccani; Hrvatska enciklopedija (Irkutsk)",
+  "ilk": {
+   "t": "1652-01-01",
+   "gun": "1652",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Britannica, 'Irkutsk' maddesi (britannica.com/place/Irkutsk-Russia); Hrvatska enciklopedija, 'Irkutsk' maddesi (enciklopedija.hr/clanak/irkutsk)",
+   "tanik": "It was founded as a wintering camp in 1652, during the first Russian colonization of the area"
+  },
+  "kur": {
+   "t": "1652-01-01",
+   "gun": "1652",
+   "kesinlik": "yil",
+   "kaynak": "Britannica, 'Irkutsk' maddesi (britannica.com/place/Irkutsk-Russia); Hrvatska enciklopedija, 'Irkutsk' maddesi (enciklopedija.hr/clanak/irkutsk)",
+   "tanik": "It was founded as a wintering camp in 1652, during the first Russian colonization of the area"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1652-01-01",
+    "t": "1661-01-01",
+    "d": "rusya",
+    "kesinlik": "yil",
+    "kaynak": "Britannica, 'Irkutsk' maddesi (britannica.com/place/Irkutsk-Russia) ('during the first Russian colonization of the area'); zincir atlas başlangıcına (1661-01-01, rusya) kadar"
+   }
+  ],
+  "olay": [
+   {
+    "t": "1652-01-01",
+    "gun": "1652",
+    "k": "kurulus",
+    "b": "Kazak kışlık kampı olarak kuruldu",
+    "kaynak": "Britannica, 'Irkutsk' maddesi (britannica.com/place/Irkutsk-Russia); Hrvatska enciklopedija, 'Irkutsk' maddesi (enciklopedija.hr/clanak/irkutsk) ('Osnovan je 1652. kao zimski logor Kozaka')"
+   },
+   {
+    "t": "1661-01-01",
+    "gun": "1661",
+    "k": "diger",
+    "b": "Kale inşa edildi",
+    "kaynak": "Britannica, 'Irkutsk' maddesi (britannica.com/place/Irkutsk-Russia); Hrvatska enciklopedija, 'Irkutsk' maddesi (enciklopedija.hr/clanak/irkutsk)"
+   },
+   {
+    "t": "1686-01-01",
+    "gun": "1686",
+    "k": "diger",
+    "b": "Kent statüsü aldı",
+    "kaynak": "Britannica, 'Irkutsk' maddesi (britannica.com/place/Irkutsk-Russia) ('It acquired town status in 1686.'); Hrvatska enciklopedija, 'Irkutsk' maddesi (enciklopedija.hr/clanak/irkutsk)"
+   }
+  ],
+  "ic_not": "KURULUŞ 1652: Britannica + Hrvatska enciklopedija — çift teyit (Treccani yıl vermez). Atlasta nokta 'İrkutsk' var ve 1661-01-01'de rusya ile başlıyor; zincir 1652→1661 (aynı sahip, kale tarihi) yazıldı. Takvim: Rusya 1918'e kadar Jülyen kullandı; kaynaklar yalnız yıl (ya da onyıl) verir, yıl hassasiyetinde Jülyen/Gregoryen farkı sonucu değiştirmez, çevrim gerekmedi. koord: LISTE (atlas eşleşmesi). TANIK: tırnak içi cümleler gömülü tarayıcıyla 17 Kasım 2026'da okunan sayfa gövdesinden birebir alındı (sayfa gövdesi okundu, arama özeti değil). "
+ },
+ {
+  "id": "kemerovo-ru",
+  "ad": "Kemerovo",
+  "atlas_ad": null,
+  "lat": 55.3542,
+  "lon": 86.1043,
+  "kat1900": 3,
+  "adlar": [
+   "Kemerovo (köy, 1830'lar)",
+   "Shcheglovo (Ščeglovo; köy)",
+   "Shcheglovsk (1918-1932; Britannica)",
+   "Kemerovo (1932'den)"
+  ],
+  "ad_kaynak": "Britannica Kemerovo; Hrvatska enciklopedija Kemerovo; Treccani Kemerovo ('fino al 1935 Ščeglovsk')",
+  "ilk": {
+   "t": "1830-01-01",
+   "gun": "1830'lar",
+   "nicelik": "kurulus",
+   "kesinlik": "onyil",
+   "kaynak": "Britannica, 'Kemerovo' maddesi (britannica.com/place/Kemerovo-Russia)",
+   "tanik": "The small village of Kemerovo was founded in the 1830s"
+  },
+  "kur": {
+   "t": "1830-01-01",
+   "gun": "1830'lar",
+   "kesinlik": "onyil",
+   "kaynak": "Britannica, 'Kemerovo' maddesi (britannica.com/place/Kemerovo-Russia)",
+   "tanik": "The small village of Kemerovo was founded in the 1830s"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1830-01-01",
+    "t": "1900-01-01",
+    "d": "rusya",
+    "kesinlik": "onyil",
+    "kaynak": "Britannica, 'Kemerovo' maddesi (britannica.com/place/Kemerovo-Russia) (köy 1830'lar; Rus İmparatorluğu dolaylı)"
+   }
+  ],
+  "olay": [
+   {
+    "t": "1918-01-01",
+    "gun": "1918",
+    "k": "birlesme",
+    "b": "Kemerovo ve Shcheglovo köyleri birleşip Shcheglovsk kenti oldu",
+    "kaynak": "Britannica, 'Kemerovo' maddesi (britannica.com/place/Kemerovo-Russia); Hrvatska enciklopedija, 'Kemerovo' maddesi (enciklopedija.hr/clanak/kemerovo) ('Grad je nastao 1918. spajanjem sela Kemerovo i Ščeglovo')"
+   },
+   {
+    "t": "1932-01-01",
+    "gun": "1932",
+    "k": "diger",
+    "b": "Kent Kemerovo adına döndü",
+    "kaynak": "Britannica, 'Kemerovo' maddesi (britannica.com/place/Kemerovo-Russia)"
+   }
+  ],
+  "ic_not": "KURULUŞ KÖY olarak 1830'lar (Britannica; onyıl). ÇELİŞKİ: Treccani 'Fondata nel 1916', Hrvatska enciklopedija kent '1918'de nastao' (köy birleşmesi) — bunlar kent kuruluşudur, köyün değil; ilk.t köy kuruluşuna (en erken yazılı tanık, tek kaynak) bağlandı; onyıl hassasiyeti. Treccani 'fino al 1935 Ščeglovsk', Britannica 1932 ve LISTE (1932) ad değişikliğinde çelişir — Britannica 1932 alındı, Treccani ayrık (hakem için üçüncü kaynak aranmadı). K11 ad_1900 'Shcheglovo'. Sahiplik (rusya): kuruluşun Rus Sibirya kolonizasyonuna ait olmasından; kaynaklar 'Rusya sahibidir' cümlesini doğrudan yazmaz, dolaylı (kaynak sütunundaki ifade). Takvim: Rusya 1918'e kadar Jülyen kullandı; kaynaklar yalnız yıl (ya da onyıl) verir, yıl hassasiyetinde Jülyen/Gregoryen farkı sonucu değiştirmez, çevrim gerekmedi. koord: LISTE (GeoNames 1503901). TANIK: tırnak içi cümleler gömülü tarayıcıyla 17 Kasım 2026'da okunan sayfa gövdesinden birebir alındı (sayfa gövdesi okundu, arama özeti değil). "
+ },
+ {
+  "id": "krasnoyarsk",
+  "ad": "Krasnoyarsk",
+  "atlas_ad": "Krasnoyarsk",
+  "lat": 56.0106,
+  "lon": 92.8526,
+  "kat1900": 2,
+  "adlar": [
+   "Krasny Yar (Krasnyy Yar, kale adı 1628; Britannica)",
+   "Krasnoyarsk"
+  ],
+  "ad_kaynak": "Britannica; Treccani; Hrvatska enciklopedija",
+  "ilk": {
+   "t": "1628-01-01",
+   "gun": "1628",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Britannica, 'Krasnoyarsk' maddesi (britannica.com/place/Krasnoyarsk-Russia); Treccani Enciclopedia on line, 'Krasnojarsk' maddesi (treccani.it/enciclopedia/krasnojarsk); Hrvatska enciklopedija, 'Krasnojarsk' maddesi (enciklopedija.hr/clanak/krasnojarsk)",
+   "tanik": "it was founded as the fort of Krasny Yar in 1628 on the left bank of the Yenisey"
+  },
+  "kur": {
+   "t": "1628-01-01",
+   "gun": "1628",
+   "kesinlik": "yil",
+   "kaynak": "Britannica, 'Krasnoyarsk' maddesi (britannica.com/place/Krasnoyarsk-Russia); Treccani Enciclopedia on line, 'Krasnojarsk' maddesi (treccani.it/enciclopedia/krasnojarsk); Hrvatska enciklopedija, 'Krasnojarsk' maddesi (enciklopedija.hr/clanak/krasnojarsk)",
+   "tanik": "it was founded as the fort of Krasny Yar in 1628 on the left bank of the Yenisey"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1628-01-01",
+    "gun": "1628",
+    "k": "kurulus",
+    "b": "Krasny Yar kalesi olarak Kazaklarca kuruldu",
+    "kaynak": "Britannica, 'Krasnoyarsk' maddesi (britannica.com/place/Krasnoyarsk-Russia); Treccani Enciclopedia on line, 'Krasnojarsk' maddesi (treccani.it/enciclopedia/krasnojarsk) ('La sua fondazione, come fortezza, risale al 1628 e fu opera dei Cosacchi'); Hrvatska enciklopedija, 'Krasnojarsk' maddesi (enciklopedija.hr/clanak/krasnojarsk)"
+   },
+   {
+    "t": "1822-01-01",
+    "gun": "1822",
+    "k": "diger",
+    "b": "Yenisey gubernyasının merkezi oldu",
+    "kaynak": "Hrvatska enciklopedija, 'Krasnojarsk' maddesi (enciklopedija.hr/clanak/krasnojarsk) ('Od 1822. glavni je grad Jenisejske gubernije')"
+   }
+  ],
+  "ic_not": "KURULUŞ 1628: Britannica, Treccani, Hrvatska enciklopedija — üç bağımsız ansiklopedi aynı yıl (çift teyit ötesi). Hrvatska enciklopedija 'na mjestu starijega ruskog naselja' diyor (tarihsiz, kullanılmadı). Zincir atlas gereği YAZILMADI (atlas noktası 'Krasnoyarsk'). Takvim: Rusya 1918'e kadar Jülyen kullandı; kaynaklar yalnız yıl (ya da onyıl) verir, yıl hassasiyetinde Jülyen/Gregoryen farkı sonucu değiştirmez, çevrim gerekmedi. koord: LISTE. TANIK: tırnak içi cümleler gömülü tarayıcıyla 17 Kasım 2026'da okunan sayfa gövdesinden birebir alındı (sayfa gövdesi okundu, arama özeti değil). "
+ },
+ {
+  "id": "kyzyl-ru",
+  "ad": "Kyzyl",
+  "atlas_ad": null,
+  "lat": 51.7111,
+  "lon": 94.4378,
+  "kat1900": 3,
+  "adlar": [
+   "Belotsarsk (Belocarsk; 1914-1918 civarı)",
+   "Khem-Beldyr (Hem-Beldir; 1918-1926; Treccani)",
+   "Kyzyl (1926'dan)"
+  ],
+  "ad_kaynak": "Hrvatska enciklopedija Kizil ('do 1918. Belocarsk, od 1918. do 1926.' ad kesiti); Treccani Kyzyl ('fino al 1917 Belocarsk, dal 1917 al 1926 Chem-Beldyr')",
+  "ilk": {
+   "t": "1914-01-01",
+   "gun": "1914",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Hrvatska enciklopedija, 'Kizil' maddesi (enciklopedija.hr/clanak/kizil)",
+   "tanik": "Osnovan 1914."
+  },
+  "kur": {
+   "t": "1914-01-01",
+   "gun": "1914",
+   "kesinlik": "yil",
+   "kaynak": "Hrvatska enciklopedija, 'Kizil' maddesi (enciklopedija.hr/clanak/kizil)",
+   "tanik": "Osnovan 1914."
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1914-01-01",
+    "gun": "1914",
+    "k": "kurulus",
+    "b": "Belotsarsk adıyla kuruldu (bugünkü Kyzyl)",
+    "kaynak": "Hrvatska enciklopedija, 'Kizil' maddesi (enciklopedija.hr/clanak/kizil) ('Osnovan 1914.')"
+   }
+  ],
+  "ic_not": "TEK KAYNAK kuruluş yılı: Hrvatska enciklopedija 'Kizil' maddesi ('Osnovan 1914.', madde başlığı şehirdir, atıflı cümle). Treccani kuruluş yılı vermez (ad Belocarsk 1917'ye kadar); Britannica Kyzyl maddesinde yıl yok. ÇELİŞKİ (ad): Treccani Belocarsk 1917'ye, HE 1918'e kadar — ad_kaynak. Zincir YOK: ilk.t 1914 > 1900 (atlasta nokta yok; kural: şehir 1900'den sonra doğduysa 1900 zinciri yok). Takvim: Rusya 1918'e kadar Jülyen kullandı; kaynaklar yalnız yıl (ya da onyıl) verir, yıl hassasiyetinde Jülyen/Gregoryen farkı sonucu değiştirmez, çevrim gerekmedi. koord: LISTE (GeoNames 1500973). TANIK: tırnak içi cümleler gömülü tarayıcıyla 17 Kasım 2026'da okunan sayfa gövdesinden birebir alındı (sayfa gövdesi okundu, arama özeti değil). "
+ },
+ {
+  "id": "magadan-ru",
+  "ad": "Magadan",
+  "atlas_ad": null,
+  "lat": 59.5627,
+  "lon": 150.8021,
+  "kat1900": 3,
+  "adlar": [
+   "Magadan"
+  ],
+  "ad_kaynak": "Britannica; Treccani; Hrvatska enciklopedija (hepsi Magadan)",
+  "ilk": {
+   "t": "1933-01-01",
+   "gun": "1933",
+   "nicelik": "kurulus",
+   "kesinlik": "belirsiz",
+   "kaynak": "Britannica, 'Magadan' maddesi (britannica.com/place/Magadan-Russia)",
+   "tanik": "The city was founded in 1933 as the port and supply centre for the Kolyma goldfields."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1939-01-01",
+    "gun": "1939",
+    "k": "diger",
+    "b": "Magadan kent statüsü kazandı",
+    "kaynak": "Hrvatska enciklopedija, 'Magadan' maddesi (enciklopedija.hr/clanak/magadan) ('status grada stekao 1939.')"
+   },
+   {
+    "t": "1953-01-01",
+    "gun": "1953",
+    "k": "diger",
+    "b": "Magadan oblastı kuruldu (Habarovsk krayı içinden)",
+    "kaynak": "Treccani Enciclopedia on line, 'Magadan' maddesi (treccani.it/enciclopedia/magadan)"
+   }
+  ],
+  "ic_not": "ÇELİŞKİ (kuruluş yılı): Britannica 1933 · Treccani 'Di recente origine (1932)' · Hrvatska enciklopedija 'Osnovan 1929. ... tranzitni, potom upravni centar' — üç bağımsız ansiklopedi üç farklı yıl; ikisi aynı yılı vermez, hakemli karar çıkmadı. Güvenli uç (en geç) 1933 alındı, kesinlik 'belirsiz'; kur YAZILMADI. Zincir yok: 1900'den sonra. Takvim: Rusya 1918'e kadar Jülyen kullandı; kaynaklar yalnız yıl (ya da onyıl) verir, yıl hassasiyetinde Jülyen/Gregoryen farkı sonucu değiştirmez, çevrim gerekmedi. koord: LISTE (GeoNames 2123628). TANIK: tırnak içi cümleler gömülü tarayıcıyla 17 Kasım 2026'da okunan sayfa gövdesinden birebir alındı (sayfa gövdesi okundu, arama özeti değil). "
+ },
+ {
+  "id": "novosibirsk-ru",
+  "ad": "Novosibirsk",
+  "atlas_ad": null,
+  "lat": 55.0226,
+  "lon": 82.9318,
+  "kat1900": 3,
+  "adlar": [
+   "Krivoshchekovo (köy, 1893'te Ob geçidi seçildi; Britannica)",
+   "Novaya Derevnya (demiryolu istasyonu; Hrvatska enciklopedija)",
+   "Gusevka / Aleksandrovsky (ilk adlar; Britannica)",
+   "Novonikolayevsk (1895'ten 1925'e; Britannica, Treccani)",
+   "Novosibirsk (1925'ten)"
+  ],
+  "ad_kaynak": "Britannica Novosibirsk; Treccani Novosibirsk ('fino al 1925 Novonikolaevsk'); Hrvatska enciklopedija Novosibirsk",
+  "ilk": {
+   "t": "1893-01-01",
+   "gun": "1893",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Treccani Enciclopedia on line, 'Novosibirsk' maddesi (treccani.it/enciclopedia/novosibirsk); Hrvatska enciklopedija, 'Novosibirsk' maddesi (enciklopedija.hr/clanak/novosibirsk); Britannica, 'Novosibirsk' maddesi (britannica.com/place/Novosibirsk-Russia)",
+   "tanik": "Fondata nel 1893, sulla riva destra dell’Ob´, presso il ponte della Transiberiana."
+  },
+  "kur": {
+   "t": "1893-01-01",
+   "gun": "1893",
+   "kesinlik": "yil",
+   "kaynak": "Treccani Enciclopedia on line, 'Novosibirsk' maddesi (treccani.it/enciclopedia/novosibirsk); Hrvatska enciklopedija, 'Novosibirsk' maddesi (enciklopedija.hr/clanak/novosibirsk); Britannica, 'Novosibirsk' maddesi (britannica.com/place/Novosibirsk-Russia)",
+   "tanik": "Fondata nel 1893, sulla riva destra dell’Ob´, presso il ponte della Transiberiana."
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1893-01-01",
+    "t": "1900-01-01",
+    "d": "rusya",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija, 'Novosibirsk' maddesi (enciklopedija.hr/clanak/novosibirsk): Transsibirska pruga istasyonu olarak 1893 (Rus İmparatorluğu); Britannica: 1895'te Çar II. Nikolay'ın şerefine adlandırıldı"
+   }
+  ],
+  "olay": [
+   {
+    "t": "1893-01-01",
+    "gun": "1893",
+    "k": "kurulus",
+    "b": "Novosibirsk, Transsibirya demiryolunun Ob geçidi olarak (Novaya Derevnya / Krivoshchekovo) kuruldu",
+    "kaynak": "Treccani Enciclopedia on line, 'Novosibirsk' maddesi (treccani.it/enciclopedia/novosibirsk); Hrvatska enciklopedija, 'Novosibirsk' maddesi (enciklopedija.hr/clanak/novosibirsk)"
+   },
+   {
+    "t": "1895-01-01",
+    "gun": "1895",
+    "k": "diger",
+    "b": "Çar II. Nikolay'ın tahta çıkışı onuruna Novonikolayevsk adı verildi",
+    "kaynak": "Britannica, 'Novosibirsk' maddesi (britannica.com/place/Novosibirsk-Russia)"
+   },
+   {
+    "t": "1903-01-01",
+    "gun": "1903",
+    "k": "diger",
+    "b": "Kent statüsü verildi",
+    "kaynak": "Britannica, 'Novosibirsk' maddesi (britannica.com/place/Novosibirsk-Russia)"
+   },
+   {
+    "t": "1925-01-01",
+    "gun": "1925",
+    "k": "diger",
+    "b": "Novonikolayevsk adı Novosibirsk oldu",
+    "kaynak": "Treccani Enciclopedia on line, 'Novosibirsk' maddesi (treccani.it/enciclopedia/novosibirsk) ('fino al 1925 Novonikolaevsk')"
+   }
+  ],
+  "ic_not": "KURULUŞ 1893: üç bağımsız ansiklopedi (Treccani, Hrvatska enciklopedija, Britannica) 1893'ü verir — çift teyit (Britannica 1893'ü 'Krivoshchekovo köyü Ob geçidi seçildi' diye anar; kuruluş cümlesi Treccani/HE). Atlasta nokta yok: zincir 1900-01-01'e kadar. Sahiplik (rusya): kuruluşun Rus Sibirya kolonizasyonuna ait olmasından; kaynaklar 'Rusya sahibidir' cümlesini doğrudan yazmaz, dolaylı (kaynak sütunundaki ifade). Takvim: Rusya 1918'e kadar Jülyen kullandı; kaynaklar yalnız yıl (ya da onyıl) verir, yıl hassasiyetinde Jülyen/Gregoryen farkı sonucu değiştirmez, çevrim gerekmedi. koord: LISTE (GeoNames 1496747 DMS sayfadan). Not: LISTE ad_1900 'Novonikolaevsk'; 1900'de şehir adı büyük olasılıkla Novonikolayevsk (Britannica 1895). TANIK: tırnak içi cümleler gömülü tarayıcıyla 17 Kasım 2026'da okunan sayfa gövdesinden birebir alındı (sayfa gövdesi okundu, arama özeti değil). "
+ },
+ {
+  "id": "omsk",
+  "ad": "Omsk",
+  "atlas_ad": "Omsk",
+  "lat": 54.9885,
+  "lon": 73.3242,
+  "kat1900": 2,
+  "adlar": [
+   "Omsk"
+  ],
+  "ad_kaynak": "Britannica; Treccani",
+  "ilk": {
+   "t": "1716-01-01",
+   "gun": "1716",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Britannica, 'Omsk' maddesi (britannica.com/place/Omsk-Russia); Treccani Enciclopedia on line, 'Omsk' maddesi (treccani.it/enciclopedia/omsk)",
+   "tanik": "Omsk, founded in 1716 as a stronghold at the eastern end of the Ishim fortified line between the Tobol and the Irtysh"
+  },
+  "kur": {
+   "t": "1716-01-01",
+   "gun": "1716",
+   "kesinlik": "yil",
+   "kaynak": "Britannica, 'Omsk' maddesi (britannica.com/place/Omsk-Russia); Treccani Enciclopedia on line, 'Omsk' maddesi (treccani.it/enciclopedia/omsk)",
+   "tanik": "Omsk, founded in 1716 as a stronghold at the eastern end of the Ishim fortified line between the Tobol and the Irtysh"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1716-01-01",
+    "gun": "1716",
+    "k": "kurulus",
+    "b": "Omsk kalesi (Ishim tahkim hattının doğu ucu) kuruldu",
+    "kaynak": "Britannica, 'Omsk' maddesi (britannica.com/place/Omsk-Russia); Treccani Enciclopedia on line, 'Omsk' maddesi (treccani.it/enciclopedia/omsk) ('Fondata nel 1716 come fortezza da truppe di Pietro il Grande')"
+   },
+   {
+    "t": "1804-01-01",
+    "gun": "1804",
+    "k": "diger",
+    "b": "Omsk kent statüsü aldı",
+    "kaynak": "Britannica, 'Omsk' maddesi (britannica.com/place/Omsk-Russia) ('became a city in 1804')"
+   },
+   {
+    "t": "1918-01-01",
+    "gun": "1918",
+    "k": "diger",
+    "b": "İç savaşta Amiral Kolçak'ın Bolşevik karşıtı hükûmetinin merkezi oldu (1918-19)",
+    "kaynak": "Britannica, 'Omsk' maddesi (britannica.com/place/Omsk-Russia); Treccani Enciclopedia on line, 'Omsk' maddesi (treccani.it/enciclopedia/omsk)"
+   }
+  ],
+  "ic_not": "KURULUŞ 1716: Britannica + Treccani — çift teyit (Hrvatska enciklopedija yıl vermedi). Zincir atlas gereği yazılmadı. Takvim: Rusya 1918'e kadar Jülyen kullandı; kaynaklar yalnız yıl (ya da onyıl) verir, yıl hassasiyetinde Jülyen/Gregoryen farkı sonucu değiştirmez, çevrim gerekmedi. koord: LISTE. TANIK: tırnak içi cümleler gömülü tarayıcıyla 17 Kasım 2026'da okunan sayfa gövdesinden birebir alındı (sayfa gövdesi okundu, arama özeti değil). "
+ },
+ {
+  "id": "tomsk",
+  "ad": "Tomsk",
+  "atlas_ad": "Tomsk",
+  "lat": 56.4884,
+  "lon": 84.948,
+  "kat1900": 2,
+  "adlar": [
+   "Tomsk"
+  ],
+  "ad_kaynak": "Britannica; Treccani; Hrvatska enciklopedija",
+  "ilk": {
+   "t": "1604-01-01",
+   "gun": "1604",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Britannica, 'Tomsk' maddesi (britannica.com/place/Tomsk-Russia); Treccani Enciclopedia on line, 'Tomsk' maddesi (treccani.it/enciclopedia/tomsk); Hrvatska enciklopedija, 'Tomsk' maddesi (enciklopedija.hr/clanak/tomsk)",
+   "tanik": "Founded as a fort in 1604 to protect the river crossing, the city developed as a regional administrative centre."
+  },
+  "kur": {
+   "t": "1604-01-01",
+   "gun": "1604",
+   "kesinlik": "yil",
+   "kaynak": "Britannica, 'Tomsk' maddesi (britannica.com/place/Tomsk-Russia); Treccani Enciclopedia on line, 'Tomsk' maddesi (treccani.it/enciclopedia/tomsk); Hrvatska enciklopedija, 'Tomsk' maddesi (enciklopedija.hr/clanak/tomsk)",
+   "tanik": "Founded as a fort in 1604 to protect the river crossing, the city developed as a regional administrative centre."
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1604-01-01",
+    "gun": "1604",
+    "k": "kurulus",
+    "b": "Tomsk, Tom nehri geçidini korumak için kale olarak kuruldu",
+    "kaynak": "Britannica, 'Tomsk' maddesi (britannica.com/place/Tomsk-Russia); Treccani Enciclopedia on line, 'Tomsk' maddesi (treccani.it/enciclopedia/tomsk) ('Fondata nel 1604'); Hrvatska enciklopedija, 'Tomsk' maddesi (enciklopedija.hr/clanak/tomsk) ('Osnovan je 1604. kao naselje uz istoimenu tvrđavu')"
+   },
+   {
+    "t": "1782-01-01",
+    "gun": "1782",
+    "k": "diger",
+    "b": "Tomsk oblast merkezi oldu",
+    "kaynak": "Hrvatska enciklopedija, 'Tomsk' maddesi (enciklopedija.hr/clanak/tomsk) ('God. 1782. postao je sjedištem istoimene oblasti')"
+   },
+   {
+    "t": "1804-01-01",
+    "gun": "1804",
+    "k": "diger",
+    "b": "Tomsk guberniya merkezi oldu",
+    "kaynak": "Hrvatska enciklopedija, 'Tomsk' maddesi (enciklopedija.hr/clanak/tomsk) ('a 1804. sjedištem gubernije')"
+   }
+  ],
+  "ic_not": "KURULUŞ 1604: Britannica, Treccani, Hrvatska enciklopedija — üç kaynak aynı yıl. Zincir atlas gereği yazılmadı. Takvim: Rusya 1918'e kadar Jülyen kullandı; kaynaklar yalnız yıl (ya da onyıl) verir, yıl hassasiyetinde Jülyen/Gregoryen farkı sonucu değiştirmez, çevrim gerekmedi. koord: LISTE. TANIK: tırnak içi cümleler gömülü tarayıcıyla 17 Kasım 2026'da okunan sayfa gövdesinden birebir alındı (sayfa gövdesi okundu, arama özeti değil). "
+ },
+ {
+  "id": "vladivostok",
+  "ad": "Vladivostok",
+  "atlas_ad": "Vladivostok",
+  "lat": 43.115,
+  "lon": 131.885,
+  "kat1900": 2,
+  "adlar": [
+   "Vladivostok"
+  ],
+  "ad_kaynak": "Britannica; Treccani; Hrvatska enciklopedija",
+  "ilk": {
+   "t": "1860-01-01",
+   "gun": "1860",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Britannica, 'Vladivostok' maddesi (britannica.com/place/Vladivostok); Treccani Enciclopedia on line, 'Vladivostok' maddesi (treccani.it/enciclopedia/vladivostok); Hrvatska enciklopedija, 'Vladivostok' maddesi (enciklopedija.hr/clanak/vladivostok)",
+   "tanik": "The town was founded in 1860 as a Russian military outpost and was named Vladivostok"
+  },
+  "kur": {
+   "t": "1860-01-01",
+   "gun": "1860",
+   "kesinlik": "yil",
+   "kaynak": "Britannica, 'Vladivostok' maddesi (britannica.com/place/Vladivostok); Treccani Enciclopedia on line, 'Vladivostok' maddesi (treccani.it/enciclopedia/vladivostok); Hrvatska enciklopedija, 'Vladivostok' maddesi (enciklopedija.hr/clanak/vladivostok)",
+   "tanik": "The town was founded in 1860 as a Russian military outpost and was named Vladivostok"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1860-01-01",
+    "gun": "1860",
+    "k": "kurulus",
+    "b": "Vladivostok Rus askerî karakolu olarak kuruldu",
+    "kaynak": "Britannica, 'Vladivostok' maddesi (britannica.com/place/Vladivostok); Treccani Enciclopedia on line, 'Vladivostok' maddesi (treccani.it/enciclopedia/vladivostok) ('Fondata nel 1860'); Hrvatska enciklopedija, 'Vladivostok' maddesi (enciklopedija.hr/clanak/vladivostok) ('Osnovan je 1860.')"
+   },
+   {
+    "t": "1872-01-01",
+    "gun": "1872",
+    "k": "diger",
+    "b": "Rusya'nın ana Pasifik deniz üssü buraya taşındı",
+    "kaynak": "Britannica, 'Vladivostok' maddesi (britannica.com/place/Vladivostok)"
+   },
+   {
+    "t": "1880-01-01",
+    "gun": "1880",
+    "k": "diger",
+    "b": "Kent statüsü verildi",
+    "kaynak": "Britannica, 'Vladivostok' maddesi (britannica.com/place/Vladivostok) ('In 1880 city status was conferred on it.')"
+   }
+  ],
+  "ic_not": "KURULUŞ 1860: üç kaynak aynı yıl. Önceki dönem (Qing/Mançu bölge) bu kayıtta YAZILMADI; atlasta nokta 'Vladivostok' var: atlas başlangıcı 1860'tan önceyse atlas önceki sahibi kaynaksız taşıyor olabilir (denetle uyarısına bak). Takvim: Rusya 1918'e kadar Jülyen kullandı; kaynaklar yalnız yıl (ya da onyıl) verir, yıl hassasiyetinde Jülyen/Gregoryen farkı sonucu değiştirmez, çevrim gerekmedi. koord: LISTE. Not: ESBE 1888'de oblast idaresinin Habarovka'dan Vladivostok'a taşındığını söyler (LISTE notu; bu kayıtta okunmadı). TANIK: tırnak içi cümleler gömülü tarayıcıyla 17 Kasım 2026'da okunan sayfa gövdesinden birebir alındı (sayfa gövdesi okundu, arama özeti değil). "
+ },
+ {
+  "id": "yakutsk",
+  "ad": "Yakutsk",
+  "atlas_ad": "Yakutsk",
+  "lat": 62.0281,
+  "lon": 129.7325,
+  "kat1900": 2,
+  "adlar": [
+   "Yakutsk"
+  ],
+  "ad_kaynak": "Britannica; Hrvatska enciklopedija",
+  "ilk": {
+   "t": "1642-01-01",
+   "gun": "1642",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Britannica, 'Yakutsk' maddesi (britannica.com/place/Yakutsk); Hrvatska enciklopedija, 'Jakutsk' maddesi (enciklopedija.hr/clanak/jakutsk)",
+   "tanik": "transferred 43 miles (70 km) upstream to the present site of Yakutsk in 1642"
+  },
+  "kur": {
+   "t": "1642-01-01",
+   "gun": "1642",
+   "kesinlik": "yil",
+   "kaynak": "Britannica, 'Yakutsk' maddesi (britannica.com/place/Yakutsk); Hrvatska enciklopedija, 'Jakutsk' maddesi (enciklopedija.hr/clanak/jakutsk)",
+   "tanik": "transferred 43 miles (70 km) upstream to the present site of Yakutsk in 1642"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1632-01-01",
+    "gun": "1632",
+    "k": "diger",
+    "b": "Lena'nın sağ kıyısında (bugünkü yerleşimin dışında, yaklaşık 70 km aşağıda) ilk Yakut kalesi kuruldu",
+    "kaynak": "Britannica, 'Yakutsk' maddesi (britannica.com/place/Yakutsk) ('A fort was founded on the Lena’s low right bank in 1632'); Hrvatska enciklopedija, 'Jakutsk' maddesi (enciklopedija.hr/clanak/jakutsk) ('Osnovan je 1632. na desnoj obali Lene')"
+   },
+   {
+    "t": "1642-01-01",
+    "gun": "1642",
+    "k": "kurulus",
+    "b": "Kale bugünkü Yakutsk yerine taşındı",
+    "kaynak": "Britannica, 'Yakutsk' maddesi (britannica.com/place/Yakutsk); Hrvatska enciklopedija, 'Jakutsk' maddesi (enciklopedija.hr/clanak/jakutsk) ('1642. preseljen na lijevu obalu')"
+   }
+  ],
+  "ic_not": "İLK 1642 (BUGÜNKÜ YER): kaynaklar kalenin 1632'de başka yerde kurulup 1642'de bugünkü yere taşındığını söyler (Britannica: 70 km yukarı; Hrvatska enciklopedija: sağ kıyıdan sol kıyıya). Antik/ilk yer modern noktadan > 3 km ise burada yazılmaz kuralı gereği 1632 kuruluş değil 1642 taşınma alındı; 1632 yeri ayrı kayıt olarak önerilir (koordinatı kaynakta yok). Çift teyit (1642; iki kaynak aynı yılı verir). Zincir atlas gereği yazılmadı. Takvim: Rusya 1918'e kadar Jülyen kullandı; kaynaklar yalnız yıl (ya da onyıl) verir, yıl hassasiyetinde Jülyen/Gregoryen farkı sonucu değiştirmez, çevrim gerekmedi. koord: LISTE. TANIK: tırnak içi cümleler gömülü tarayıcıyla 17 Kasım 2026'da okunan sayfa gövdesinden birebir alındı (sayfa gövdesi okundu, arama özeti değil). "
+ }
+];

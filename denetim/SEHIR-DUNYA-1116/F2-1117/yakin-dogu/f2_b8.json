@@ -1,0 +1,53 @@
+[
+ {
+  "id": "jazan-sa",
+  "ad": "Jazan",
+  "atlas_ad": null,
+  "lat": 16.8892,
+  "lon": 42.5511,
+  "kat1900": 3,
+  "adlar": [
+   "Mihlâfü’s-Süleymânî",
+   "Cîzân",
+   "Jazan (Jizan)"
+  ],
+  "ilk": {
+   "t": "1000-01-01",
+   "gun": "10. yüzyıl (X. yüzyılın sonları)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yuzyil",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/cizan (CÎZÂN)",
+   "tanik": "Cîzân X. yüzyılın sonlarında Asr (Assâr) şehrinin yöneticisi Süleyman b. Taraf el-Hakemî’ye nisbetle Mihlâfü’s-Süleymânî adıyla da anılmıştır"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1000-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/cizan (CÎZÂN)",
+    "ic_not": "Şehir var; sahiplik: Ziyâdîler (≤1011), Gānimîler/Eyyûbî dönemi, 1477 Mekke Şerifi saldırısı, 1538 Osmanlı — süre/sürekliliği TDV'de dönem dönem verilmiyor; zincir kurulmadı."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1477-01-01",
+    "gun": "1477",
+    "k": "diger",
+    "b": "Mekke Şerifi Muhammed b. Berekât Cîzân’a saldırıp yağma etti",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/cizan (CÎZÂN)"
+   },
+   {
+    "t": "1538-01-01",
+    "gun": "1538",
+    "k": "fetih",
+    "b": "Yemen’in fethiyle birlikte Cîzân Osmanlı idaresine girdi, mihlaf müdürü tayin edildi",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/cizan (CÎZÂN)"
+   }
+  ],
+  "ic_not": "TANIK KURALI: 'X. yüzyılın sonlarında' yüzyıl hassasiyeti: güvenli uç 1000. Ziyâdî Veziri Hüseyin b. Selâme'nin zaptı: TDV 'ö. 402/1011-12' (yalnız ölüm tarihi) — zapt yılı bilinmiyor, olay yazılmadı. 1538 Osmanlı: Cîzân'ın tarihi boyunca 'genellikle Yemen'de kurulan devletlerin hâkimiyeti altında' (TDV); 1538 sonrası Osmanlı sürekliliği TDV'de okunan cümlelerde yok (Osmanlı Yemen'den 1635'te çıkmıştı, 1872'de döndü — TDV'de okunmadı) => sahip zinciri kurulmadı (BOSLUK). | TANIK: TDV tam gövdesinden birebir cümle (17 Kas 2026, gömülü tarayıcı). Tek kaynak (TDV)."
+ }
+]

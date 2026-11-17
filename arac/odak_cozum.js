@@ -621,6 +621,7 @@ if (G.yay_dogrula) {
   console.log = function () {};
   console.error = function () { _yuk.push([].join.call(arguments, " ")); };
   W.DEVLET_PARCALAR = undefined;                                   // katman 1 değil, TAM havuz
+  W.__PARCA_KAPALI = true;                                         // zaman dilimli parça kipi DEĞİL (P1 ②)
   try { geval(oku(path.join(KOK, "js", "geo_coz.js"))); } catch (e) { olculemedi("js/geo_coz.js koşmadı: " + e.message); }
   console.log = _log; console.error = _err;
   if (_ael) global.addEventListener = _ael;

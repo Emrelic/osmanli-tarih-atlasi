@@ -1,0 +1,304 @@
+bolge	ulke	dil	kaynak_adi	tur	url	tam_govde_okunur	sehir_bazli_sorgu	ornek_sorgu	olcum
+Yakın Doğu	Türkiye	çok	Britannica	ansiklopedi	https://www.britannica.com/place/<Sehir>	E (tarayıcıda; WebFetch 403)	E (place maddesi)	britannica.com/place/Poznan	OLCULDU 16 Kas (HAVVA, KAYNAK-ERISIM-TESTI-HAVVA.md)
+Yakın Doğu	Türkiye	it	Treccani Enciclopedia	ansiklopedi	https://www.treccani.it/enciclopedia/<sehir>/	E (tarayıcıda; WebFetch boş)	E	treccani.it/enciclopedia/poznan/	OLCULDU 16 Kas
+Yakın Doğu	Türkiye	fr	Persée	dergi portalı	https://www.persee.fr/search?q=<sehir>	E arama sonucu; makale PDF ayrı	E (arama)	persee.fr/search?q=Dhofar	OLCULDU 16 Kas
+Yakın Doğu	Türkiye	en	Cambridge Core	dergi/monografi	https://www.cambridge.org/core/search?q=<sehir>	KISMEN: özet açık, tam metin abonelik	E (arama)	cambridge.org/core/search?q=Dhofar	OLCULDU 16 Kas
+Yakın Doğu	Türkiye	çok	GeoNames	gazetteer	https://www.geonames.org/search.html?q=<ad>	E (arama sayfası, DMS koordinat)	E	geonames.org/search.html?q=Krsko	OLCULDU 17 Kas (koordinat düzeltmelerinde)
+Yakın Doğu	Türkiye	tr	DergiPark dergi/makale sayfası	dergi portalı	https://dergipark.org.tr/tr/pub/<dergi>	E tekil dergi/makale sayfası	H: ARAMA CAPTCHA (/search/verification)	dergipark.org.tr/tr/pub/belleten	OLCULDU 16 Kas; arama engelli
+Yakın Doğu	Suriye	çok	Britannica	ansiklopedi	https://www.britannica.com/place/<Sehir>	E (tarayıcıda; WebFetch 403)	E (place maddesi)	britannica.com/place/Poznan	OLCULDU 16 Kas (HAVVA, KAYNAK-ERISIM-TESTI-HAVVA.md)
+Yakın Doğu	Suriye	it	Treccani Enciclopedia	ansiklopedi	https://www.treccani.it/enciclopedia/<sehir>/	E (tarayıcıda; WebFetch boş)	E	treccani.it/enciclopedia/poznan/	OLCULDU 16 Kas
+Yakın Doğu	Suriye	fr	Persée	dergi portalı	https://www.persee.fr/search?q=<sehir>	E arama sonucu; makale PDF ayrı	E (arama)	persee.fr/search?q=Dhofar	OLCULDU 16 Kas
+Yakın Doğu	Suriye	en	Cambridge Core	dergi/monografi	https://www.cambridge.org/core/search?q=<sehir>	KISMEN: özet açık, tam metin abonelik	E (arama)	cambridge.org/core/search?q=Dhofar	OLCULDU 16 Kas
+Yakın Doğu	Suriye	çok	GeoNames	gazetteer	https://www.geonames.org/search.html?q=<ad>	E (arama sayfası, DMS koordinat)	E	geonames.org/search.html?q=Krsko	OLCULDU 17 Kas (koordinat düzeltmelerinde)
+Yakın Doğu	Suriye	tr	DergiPark dergi/makale sayfası	dergi portalı	https://dergipark.org.tr/tr/pub/<dergi>	E tekil dergi/makale sayfası	H: ARAMA CAPTCHA (/search/verification)	dergipark.org.tr/tr/pub/belleten	OLCULDU 16 Kas; arama engelli
+Yakın Doğu	Irak	çok	Britannica	ansiklopedi	https://www.britannica.com/place/<Sehir>	E (tarayıcıda; WebFetch 403)	E (place maddesi)	britannica.com/place/Poznan	OLCULDU 16 Kas (HAVVA, KAYNAK-ERISIM-TESTI-HAVVA.md)
+Yakın Doğu	Irak	it	Treccani Enciclopedia	ansiklopedi	https://www.treccani.it/enciclopedia/<sehir>/	E (tarayıcıda; WebFetch boş)	E	treccani.it/enciclopedia/poznan/	OLCULDU 16 Kas
+Yakın Doğu	Irak	fr	Persée	dergi portalı	https://www.persee.fr/search?q=<sehir>	E arama sonucu; makale PDF ayrı	E (arama)	persee.fr/search?q=Dhofar	OLCULDU 16 Kas
+Yakın Doğu	Irak	en	Cambridge Core	dergi/monografi	https://www.cambridge.org/core/search?q=<sehir>	KISMEN: özet açık, tam metin abonelik	E (arama)	cambridge.org/core/search?q=Dhofar	OLCULDU 16 Kas
+Yakın Doğu	Irak	çok	GeoNames	gazetteer	https://www.geonames.org/search.html?q=<ad>	E (arama sayfası, DMS koordinat)	E	geonames.org/search.html?q=Krsko	OLCULDU 17 Kas (koordinat düzeltmelerinde)
+Yakın Doğu	Irak	tr	DergiPark dergi/makale sayfası	dergi portalı	https://dergipark.org.tr/tr/pub/<dergi>	E tekil dergi/makale sayfası	H: ARAMA CAPTCHA (/search/verification)	dergipark.org.tr/tr/pub/belleten	OLCULDU 16 Kas; arama engelli
+Yakın Doğu	Lübnan	çok	Britannica	ansiklopedi	https://www.britannica.com/place/<Sehir>	E (tarayıcıda; WebFetch 403)	E (place maddesi)	britannica.com/place/Poznan	OLCULDU 16 Kas (HAVVA, KAYNAK-ERISIM-TESTI-HAVVA.md)
+Yakın Doğu	Lübnan	it	Treccani Enciclopedia	ansiklopedi	https://www.treccani.it/enciclopedia/<sehir>/	E (tarayıcıda; WebFetch boş)	E	treccani.it/enciclopedia/poznan/	OLCULDU 16 Kas
+Yakın Doğu	Lübnan	fr	Persée	dergi portalı	https://www.persee.fr/search?q=<sehir>	E arama sonucu; makale PDF ayrı	E (arama)	persee.fr/search?q=Dhofar	OLCULDU 16 Kas
+Yakın Doğu	Lübnan	en	Cambridge Core	dergi/monografi	https://www.cambridge.org/core/search?q=<sehir>	KISMEN: özet açık, tam metin abonelik	E (arama)	cambridge.org/core/search?q=Dhofar	OLCULDU 16 Kas
+Yakın Doğu	Lübnan	çok	GeoNames	gazetteer	https://www.geonames.org/search.html?q=<ad>	E (arama sayfası, DMS koordinat)	E	geonames.org/search.html?q=Krsko	OLCULDU 17 Kas (koordinat düzeltmelerinde)
+Yakın Doğu	Lübnan	tr	DergiPark dergi/makale sayfası	dergi portalı	https://dergipark.org.tr/tr/pub/<dergi>	E tekil dergi/makale sayfası	H: ARAMA CAPTCHA (/search/verification)	dergipark.org.tr/tr/pub/belleten	OLCULDU 16 Kas; arama engelli
+Yakın Doğu	Ürdün	çok	Britannica	ansiklopedi	https://www.britannica.com/place/<Sehir>	E (tarayıcıda; WebFetch 403)	E (place maddesi)	britannica.com/place/Poznan	OLCULDU 16 Kas (HAVVA, KAYNAK-ERISIM-TESTI-HAVVA.md)
+Yakın Doğu	Ürdün	it	Treccani Enciclopedia	ansiklopedi	https://www.treccani.it/enciclopedia/<sehir>/	E (tarayıcıda; WebFetch boş)	E	treccani.it/enciclopedia/poznan/	OLCULDU 16 Kas
+Yakın Doğu	Ürdün	fr	Persée	dergi portalı	https://www.persee.fr/search?q=<sehir>	E arama sonucu; makale PDF ayrı	E (arama)	persee.fr/search?q=Dhofar	OLCULDU 16 Kas
+Yakın Doğu	Ürdün	en	Cambridge Core	dergi/monografi	https://www.cambridge.org/core/search?q=<sehir>	KISMEN: özet açık, tam metin abonelik	E (arama)	cambridge.org/core/search?q=Dhofar	OLCULDU 16 Kas
+Yakın Doğu	Ürdün	çok	GeoNames	gazetteer	https://www.geonames.org/search.html?q=<ad>	E (arama sayfası, DMS koordinat)	E	geonames.org/search.html?q=Krsko	OLCULDU 17 Kas (koordinat düzeltmelerinde)
+Yakın Doğu	Ürdün	tr	DergiPark dergi/makale sayfası	dergi portalı	https://dergipark.org.tr/tr/pub/<dergi>	E tekil dergi/makale sayfası	H: ARAMA CAPTCHA (/search/verification)	dergipark.org.tr/tr/pub/belleten	OLCULDU 16 Kas; arama engelli
+Yakın Doğu	Filistin	çok	Britannica	ansiklopedi	https://www.britannica.com/place/<Sehir>	E (tarayıcıda; WebFetch 403)	E (place maddesi)	britannica.com/place/Poznan	OLCULDU 16 Kas (HAVVA, KAYNAK-ERISIM-TESTI-HAVVA.md)
+Yakın Doğu	Filistin	it	Treccani Enciclopedia	ansiklopedi	https://www.treccani.it/enciclopedia/<sehir>/	E (tarayıcıda; WebFetch boş)	E	treccani.it/enciclopedia/poznan/	OLCULDU 16 Kas
+Yakın Doğu	Filistin	fr	Persée	dergi portalı	https://www.persee.fr/search?q=<sehir>	E arama sonucu; makale PDF ayrı	E (arama)	persee.fr/search?q=Dhofar	OLCULDU 16 Kas
+Yakın Doğu	Filistin	en	Cambridge Core	dergi/monografi	https://www.cambridge.org/core/search?q=<sehir>	KISMEN: özet açık, tam metin abonelik	E (arama)	cambridge.org/core/search?q=Dhofar	OLCULDU 16 Kas
+Yakın Doğu	Filistin	çok	GeoNames	gazetteer	https://www.geonames.org/search.html?q=<ad>	E (arama sayfası, DMS koordinat)	E	geonames.org/search.html?q=Krsko	OLCULDU 17 Kas (koordinat düzeltmelerinde)
+Yakın Doğu	Filistin	tr	DergiPark dergi/makale sayfası	dergi portalı	https://dergipark.org.tr/tr/pub/<dergi>	E tekil dergi/makale sayfası	H: ARAMA CAPTCHA (/search/verification)	dergipark.org.tr/tr/pub/belleten	OLCULDU 16 Kas; arama engelli
+Yakın Doğu	İsrail	çok	Britannica	ansiklopedi	https://www.britannica.com/place/<Sehir>	E (tarayıcıda; WebFetch 403)	E (place maddesi)	britannica.com/place/Poznan	OLCULDU 16 Kas (HAVVA, KAYNAK-ERISIM-TESTI-HAVVA.md)
+Yakın Doğu	İsrail	it	Treccani Enciclopedia	ansiklopedi	https://www.treccani.it/enciclopedia/<sehir>/	E (tarayıcıda; WebFetch boş)	E	treccani.it/enciclopedia/poznan/	OLCULDU 16 Kas
+Yakın Doğu	İsrail	fr	Persée	dergi portalı	https://www.persee.fr/search?q=<sehir>	E arama sonucu; makale PDF ayrı	E (arama)	persee.fr/search?q=Dhofar	OLCULDU 16 Kas
+Yakın Doğu	İsrail	en	Cambridge Core	dergi/monografi	https://www.cambridge.org/core/search?q=<sehir>	KISMEN: özet açık, tam metin abonelik	E (arama)	cambridge.org/core/search?q=Dhofar	OLCULDU 16 Kas
+Yakın Doğu	İsrail	çok	GeoNames	gazetteer	https://www.geonames.org/search.html?q=<ad>	E (arama sayfası, DMS koordinat)	E	geonames.org/search.html?q=Krsko	OLCULDU 17 Kas (koordinat düzeltmelerinde)
+Yakın Doğu	İsrail	tr	DergiPark dergi/makale sayfası	dergi portalı	https://dergipark.org.tr/tr/pub/<dergi>	E tekil dergi/makale sayfası	H: ARAMA CAPTCHA (/search/verification)	dergipark.org.tr/tr/pub/belleten	OLCULDU 16 Kas; arama engelli
+Yakın Doğu	Suudi Arabistan	çok	Britannica	ansiklopedi	https://www.britannica.com/place/<Sehir>	E (tarayıcıda; WebFetch 403)	E (place maddesi)	britannica.com/place/Poznan	OLCULDU 16 Kas (HAVVA, KAYNAK-ERISIM-TESTI-HAVVA.md)
+Yakın Doğu	Suudi Arabistan	it	Treccani Enciclopedia	ansiklopedi	https://www.treccani.it/enciclopedia/<sehir>/	E (tarayıcıda; WebFetch boş)	E	treccani.it/enciclopedia/poznan/	OLCULDU 16 Kas
+Yakın Doğu	Suudi Arabistan	fr	Persée	dergi portalı	https://www.persee.fr/search?q=<sehir>	E arama sonucu; makale PDF ayrı	E (arama)	persee.fr/search?q=Dhofar	OLCULDU 16 Kas
+Yakın Doğu	Suudi Arabistan	en	Cambridge Core	dergi/monografi	https://www.cambridge.org/core/search?q=<sehir>	KISMEN: özet açık, tam metin abonelik	E (arama)	cambridge.org/core/search?q=Dhofar	OLCULDU 16 Kas
+Yakın Doğu	Suudi Arabistan	çok	GeoNames	gazetteer	https://www.geonames.org/search.html?q=<ad>	E (arama sayfası, DMS koordinat)	E	geonames.org/search.html?q=Krsko	OLCULDU 17 Kas (koordinat düzeltmelerinde)
+Yakın Doğu	Suudi Arabistan	tr	DergiPark dergi/makale sayfası	dergi portalı	https://dergipark.org.tr/tr/pub/<dergi>	E tekil dergi/makale sayfası	H: ARAMA CAPTCHA (/search/verification)	dergipark.org.tr/tr/pub/belleten	OLCULDU 16 Kas; arama engelli
+Yakın Doğu	Yemen	çok	Britannica	ansiklopedi	https://www.britannica.com/place/<Sehir>	E (tarayıcıda; WebFetch 403)	E (place maddesi)	britannica.com/place/Poznan	OLCULDU 16 Kas (HAVVA, KAYNAK-ERISIM-TESTI-HAVVA.md)
+Yakın Doğu	Yemen	it	Treccani Enciclopedia	ansiklopedi	https://www.treccani.it/enciclopedia/<sehir>/	E (tarayıcıda; WebFetch boş)	E	treccani.it/enciclopedia/poznan/	OLCULDU 16 Kas
+Yakın Doğu	Yemen	fr	Persée	dergi portalı	https://www.persee.fr/search?q=<sehir>	E arama sonucu; makale PDF ayrı	E (arama)	persee.fr/search?q=Dhofar	OLCULDU 16 Kas
+Yakın Doğu	Yemen	en	Cambridge Core	dergi/monografi	https://www.cambridge.org/core/search?q=<sehir>	KISMEN: özet açık, tam metin abonelik	E (arama)	cambridge.org/core/search?q=Dhofar	OLCULDU 16 Kas
+Yakın Doğu	Yemen	çok	GeoNames	gazetteer	https://www.geonames.org/search.html?q=<ad>	E (arama sayfası, DMS koordinat)	E	geonames.org/search.html?q=Krsko	OLCULDU 17 Kas (koordinat düzeltmelerinde)
+Yakın Doğu	Yemen	tr	DergiPark dergi/makale sayfası	dergi portalı	https://dergipark.org.tr/tr/pub/<dergi>	E tekil dergi/makale sayfası	H: ARAMA CAPTCHA (/search/verification)	dergipark.org.tr/tr/pub/belleten	OLCULDU 16 Kas; arama engelli
+Yakın Doğu	Umman	çok	Britannica	ansiklopedi	https://www.britannica.com/place/<Sehir>	E (tarayıcıda; WebFetch 403)	E (place maddesi)	britannica.com/place/Poznan	OLCULDU 16 Kas (HAVVA, KAYNAK-ERISIM-TESTI-HAVVA.md)
+Yakın Doğu	Umman	it	Treccani Enciclopedia	ansiklopedi	https://www.treccani.it/enciclopedia/<sehir>/	E (tarayıcıda; WebFetch boş)	E	treccani.it/enciclopedia/poznan/	OLCULDU 16 Kas
+Yakın Doğu	Umman	fr	Persée	dergi portalı	https://www.persee.fr/search?q=<sehir>	E arama sonucu; makale PDF ayrı	E (arama)	persee.fr/search?q=Dhofar	OLCULDU 16 Kas
+Yakın Doğu	Umman	en	Cambridge Core	dergi/monografi	https://www.cambridge.org/core/search?q=<sehir>	KISMEN: özet açık, tam metin abonelik	E (arama)	cambridge.org/core/search?q=Dhofar	OLCULDU 16 Kas
+Yakın Doğu	Umman	çok	GeoNames	gazetteer	https://www.geonames.org/search.html?q=<ad>	E (arama sayfası, DMS koordinat)	E	geonames.org/search.html?q=Krsko	OLCULDU 17 Kas (koordinat düzeltmelerinde)
+Yakın Doğu	Umman	tr	DergiPark dergi/makale sayfası	dergi portalı	https://dergipark.org.tr/tr/pub/<dergi>	E tekil dergi/makale sayfası	H: ARAMA CAPTCHA (/search/verification)	dergipark.org.tr/tr/pub/belleten	OLCULDU 16 Kas; arama engelli
+Yakın Doğu	BAE	çok	Britannica	ansiklopedi	https://www.britannica.com/place/<Sehir>	E (tarayıcıda; WebFetch 403)	E (place maddesi)	britannica.com/place/Poznan	OLCULDU 16 Kas (HAVVA, KAYNAK-ERISIM-TESTI-HAVVA.md)
+Yakın Doğu	BAE	it	Treccani Enciclopedia	ansiklopedi	https://www.treccani.it/enciclopedia/<sehir>/	E (tarayıcıda; WebFetch boş)	E	treccani.it/enciclopedia/poznan/	OLCULDU 16 Kas
+Yakın Doğu	BAE	fr	Persée	dergi portalı	https://www.persee.fr/search?q=<sehir>	E arama sonucu; makale PDF ayrı	E (arama)	persee.fr/search?q=Dhofar	OLCULDU 16 Kas
+Yakın Doğu	BAE	en	Cambridge Core	dergi/monografi	https://www.cambridge.org/core/search?q=<sehir>	KISMEN: özet açık, tam metin abonelik	E (arama)	cambridge.org/core/search?q=Dhofar	OLCULDU 16 Kas
+Yakın Doğu	BAE	çok	GeoNames	gazetteer	https://www.geonames.org/search.html?q=<ad>	E (arama sayfası, DMS koordinat)	E	geonames.org/search.html?q=Krsko	OLCULDU 17 Kas (koordinat düzeltmelerinde)
+Yakın Doğu	BAE	tr	DergiPark dergi/makale sayfası	dergi portalı	https://dergipark.org.tr/tr/pub/<dergi>	E tekil dergi/makale sayfası	H: ARAMA CAPTCHA (/search/verification)	dergipark.org.tr/tr/pub/belleten	OLCULDU 16 Kas; arama engelli
+Yakın Doğu	Bahreyn	çok	Britannica	ansiklopedi	https://www.britannica.com/place/<Sehir>	E (tarayıcıda; WebFetch 403)	E (place maddesi)	britannica.com/place/Poznan	OLCULDU 16 Kas (HAVVA, KAYNAK-ERISIM-TESTI-HAVVA.md)
+Yakın Doğu	Bahreyn	it	Treccani Enciclopedia	ansiklopedi	https://www.treccani.it/enciclopedia/<sehir>/	E (tarayıcıda; WebFetch boş)	E	treccani.it/enciclopedia/poznan/	OLCULDU 16 Kas
+Yakın Doğu	Bahreyn	fr	Persée	dergi portalı	https://www.persee.fr/search?q=<sehir>	E arama sonucu; makale PDF ayrı	E (arama)	persee.fr/search?q=Dhofar	OLCULDU 16 Kas
+Yakın Doğu	Bahreyn	en	Cambridge Core	dergi/monografi	https://www.cambridge.org/core/search?q=<sehir>	KISMEN: özet açık, tam metin abonelik	E (arama)	cambridge.org/core/search?q=Dhofar	OLCULDU 16 Kas
+Yakın Doğu	Bahreyn	çok	GeoNames	gazetteer	https://www.geonames.org/search.html?q=<ad>	E (arama sayfası, DMS koordinat)	E	geonames.org/search.html?q=Krsko	OLCULDU 17 Kas (koordinat düzeltmelerinde)
+Yakın Doğu	Bahreyn	tr	DergiPark dergi/makale sayfası	dergi portalı	https://dergipark.org.tr/tr/pub/<dergi>	E tekil dergi/makale sayfası	H: ARAMA CAPTCHA (/search/verification)	dergipark.org.tr/tr/pub/belleten	OLCULDU 16 Kas; arama engelli
+Yakın Doğu	Katar	çok	Britannica	ansiklopedi	https://www.britannica.com/place/<Sehir>	E (tarayıcıda; WebFetch 403)	E (place maddesi)	britannica.com/place/Poznan	OLCULDU 16 Kas (HAVVA, KAYNAK-ERISIM-TESTI-HAVVA.md)
+Yakın Doğu	Katar	it	Treccani Enciclopedia	ansiklopedi	https://www.treccani.it/enciclopedia/<sehir>/	E (tarayıcıda; WebFetch boş)	E	treccani.it/enciclopedia/poznan/	OLCULDU 16 Kas
+Yakın Doğu	Katar	fr	Persée	dergi portalı	https://www.persee.fr/search?q=<sehir>	E arama sonucu; makale PDF ayrı	E (arama)	persee.fr/search?q=Dhofar	OLCULDU 16 Kas
+Yakın Doğu	Katar	en	Cambridge Core	dergi/monografi	https://www.cambridge.org/core/search?q=<sehir>	KISMEN: özet açık, tam metin abonelik	E (arama)	cambridge.org/core/search?q=Dhofar	OLCULDU 16 Kas
+Yakın Doğu	Katar	çok	GeoNames	gazetteer	https://www.geonames.org/search.html?q=<ad>	E (arama sayfası, DMS koordinat)	E	geonames.org/search.html?q=Krsko	OLCULDU 17 Kas (koordinat düzeltmelerinde)
+Yakın Doğu	Katar	tr	DergiPark dergi/makale sayfası	dergi portalı	https://dergipark.org.tr/tr/pub/<dergi>	E tekil dergi/makale sayfası	H: ARAMA CAPTCHA (/search/verification)	dergipark.org.tr/tr/pub/belleten	OLCULDU 16 Kas; arama engelli
+Yakın Doğu	Kuveyt	çok	Britannica	ansiklopedi	https://www.britannica.com/place/<Sehir>	E (tarayıcıda; WebFetch 403)	E (place maddesi)	britannica.com/place/Poznan	OLCULDU 16 Kas (HAVVA, KAYNAK-ERISIM-TESTI-HAVVA.md)
+Yakın Doğu	Kuveyt	it	Treccani Enciclopedia	ansiklopedi	https://www.treccani.it/enciclopedia/<sehir>/	E (tarayıcıda; WebFetch boş)	E	treccani.it/enciclopedia/poznan/	OLCULDU 16 Kas
+Yakın Doğu	Kuveyt	fr	Persée	dergi portalı	https://www.persee.fr/search?q=<sehir>	E arama sonucu; makale PDF ayrı	E (arama)	persee.fr/search?q=Dhofar	OLCULDU 16 Kas
+Yakın Doğu	Kuveyt	en	Cambridge Core	dergi/monografi	https://www.cambridge.org/core/search?q=<sehir>	KISMEN: özet açık, tam metin abonelik	E (arama)	cambridge.org/core/search?q=Dhofar	OLCULDU 16 Kas
+Yakın Doğu	Kuveyt	çok	GeoNames	gazetteer	https://www.geonames.org/search.html?q=<ad>	E (arama sayfası, DMS koordinat)	E	geonames.org/search.html?q=Krsko	OLCULDU 17 Kas (koordinat düzeltmelerinde)
+Yakın Doğu	Kuveyt	tr	DergiPark dergi/makale sayfası	dergi portalı	https://dergipark.org.tr/tr/pub/<dergi>	E tekil dergi/makale sayfası	H: ARAMA CAPTCHA (/search/verification)	dergipark.org.tr/tr/pub/belleten	OLCULDU 16 Kas; arama engelli
+Yakın Doğu	Kıbrıs	çok	Britannica	ansiklopedi	https://www.britannica.com/place/<Sehir>	E (tarayıcıda; WebFetch 403)	E (place maddesi)	britannica.com/place/Poznan	OLCULDU 16 Kas (HAVVA, KAYNAK-ERISIM-TESTI-HAVVA.md)
+Yakın Doğu	Kıbrıs	it	Treccani Enciclopedia	ansiklopedi	https://www.treccani.it/enciclopedia/<sehir>/	E (tarayıcıda; WebFetch boş)	E	treccani.it/enciclopedia/poznan/	OLCULDU 16 Kas
+Yakın Doğu	Kıbrıs	fr	Persée	dergi portalı	https://www.persee.fr/search?q=<sehir>	E arama sonucu; makale PDF ayrı	E (arama)	persee.fr/search?q=Dhofar	OLCULDU 16 Kas
+Yakın Doğu	Kıbrıs	en	Cambridge Core	dergi/monografi	https://www.cambridge.org/core/search?q=<sehir>	KISMEN: özet açık, tam metin abonelik	E (arama)	cambridge.org/core/search?q=Dhofar	OLCULDU 16 Kas
+Yakın Doğu	Kıbrıs	çok	GeoNames	gazetteer	https://www.geonames.org/search.html?q=<ad>	E (arama sayfası, DMS koordinat)	E	geonames.org/search.html?q=Krsko	OLCULDU 17 Kas (koordinat düzeltmelerinde)
+Yakın Doğu	Kıbrıs	tr	DergiPark dergi/makale sayfası	dergi portalı	https://dergipark.org.tr/tr/pub/<dergi>	E tekil dergi/makale sayfası	H: ARAMA CAPTCHA (/search/verification)	dergipark.org.tr/tr/pub/belleten	OLCULDU 16 Kas; arama engelli
+Balkanlar	Yunanistan	çok	Britannica	ansiklopedi	https://www.britannica.com/place/<Sehir>	E (tarayıcıda; WebFetch 403)	E (place maddesi)	britannica.com/place/Poznan	OLCULDU 16 Kas (HAVVA, KAYNAK-ERISIM-TESTI-HAVVA.md)
+Balkanlar	Yunanistan	it	Treccani Enciclopedia	ansiklopedi	https://www.treccani.it/enciclopedia/<sehir>/	E (tarayıcıda; WebFetch boş)	E	treccani.it/enciclopedia/poznan/	OLCULDU 16 Kas
+Balkanlar	Yunanistan	fr	Persée	dergi portalı	https://www.persee.fr/search?q=<sehir>	E arama sonucu; makale PDF ayrı	E (arama)	persee.fr/search?q=Dhofar	OLCULDU 16 Kas
+Balkanlar	Yunanistan	en	Cambridge Core	dergi/monografi	https://www.cambridge.org/core/search?q=<sehir>	KISMEN: özet açık, tam metin abonelik	E (arama)	cambridge.org/core/search?q=Dhofar	OLCULDU 16 Kas
+Balkanlar	Yunanistan	çok	GeoNames	gazetteer	https://www.geonames.org/search.html?q=<ad>	E (arama sayfası, DMS koordinat)	E	geonames.org/search.html?q=Krsko	OLCULDU 17 Kas (koordinat düzeltmelerinde)
+Balkanlar	Yunanistan	tr	DergiPark dergi/makale sayfası	dergi portalı	https://dergipark.org.tr/tr/pub/<dergi>	E tekil dergi/makale sayfası	H: ARAMA CAPTCHA (/search/verification)	dergipark.org.tr/tr/pub/belleten	OLCULDU 16 Kas; arama engelli
+Balkanlar	Bulgaristan	çok	Britannica	ansiklopedi	https://www.britannica.com/place/<Sehir>	E (tarayıcıda; WebFetch 403)	E (place maddesi)	britannica.com/place/Poznan	OLCULDU 16 Kas (HAVVA, KAYNAK-ERISIM-TESTI-HAVVA.md)
+Balkanlar	Bulgaristan	it	Treccani Enciclopedia	ansiklopedi	https://www.treccani.it/enciclopedia/<sehir>/	E (tarayıcıda; WebFetch boş)	E	treccani.it/enciclopedia/poznan/	OLCULDU 16 Kas
+Balkanlar	Bulgaristan	fr	Persée	dergi portalı	https://www.persee.fr/search?q=<sehir>	E arama sonucu; makale PDF ayrı	E (arama)	persee.fr/search?q=Dhofar	OLCULDU 16 Kas
+Balkanlar	Bulgaristan	en	Cambridge Core	dergi/monografi	https://www.cambridge.org/core/search?q=<sehir>	KISMEN: özet açık, tam metin abonelik	E (arama)	cambridge.org/core/search?q=Dhofar	OLCULDU 16 Kas
+Balkanlar	Bulgaristan	çok	GeoNames	gazetteer	https://www.geonames.org/search.html?q=<ad>	E (arama sayfası, DMS koordinat)	E	geonames.org/search.html?q=Krsko	OLCULDU 17 Kas (koordinat düzeltmelerinde)
+Balkanlar	Bulgaristan	tr	DergiPark dergi/makale sayfası	dergi portalı	https://dergipark.org.tr/tr/pub/<dergi>	E tekil dergi/makale sayfası	H: ARAMA CAPTCHA (/search/verification)	dergipark.org.tr/tr/pub/belleten	OLCULDU 16 Kas; arama engelli
+Balkanlar	Romanya	çok	Britannica	ansiklopedi	https://www.britannica.com/place/<Sehir>	E (tarayıcıda; WebFetch 403)	E (place maddesi)	britannica.com/place/Poznan	OLCULDU 16 Kas (HAVVA, KAYNAK-ERISIM-TESTI-HAVVA.md)
+Balkanlar	Romanya	it	Treccani Enciclopedia	ansiklopedi	https://www.treccani.it/enciclopedia/<sehir>/	E (tarayıcıda; WebFetch boş)	E	treccani.it/enciclopedia/poznan/	OLCULDU 16 Kas
+Balkanlar	Romanya	fr	Persée	dergi portalı	https://www.persee.fr/search?q=<sehir>	E arama sonucu; makale PDF ayrı	E (arama)	persee.fr/search?q=Dhofar	OLCULDU 16 Kas
+Balkanlar	Romanya	en	Cambridge Core	dergi/monografi	https://www.cambridge.org/core/search?q=<sehir>	KISMEN: özet açık, tam metin abonelik	E (arama)	cambridge.org/core/search?q=Dhofar	OLCULDU 16 Kas
+Balkanlar	Romanya	çok	GeoNames	gazetteer	https://www.geonames.org/search.html?q=<ad>	E (arama sayfası, DMS koordinat)	E	geonames.org/search.html?q=Krsko	OLCULDU 17 Kas (koordinat düzeltmelerinde)
+Balkanlar	Romanya	tr	DergiPark dergi/makale sayfası	dergi portalı	https://dergipark.org.tr/tr/pub/<dergi>	E tekil dergi/makale sayfası	H: ARAMA CAPTCHA (/search/verification)	dergipark.org.tr/tr/pub/belleten	OLCULDU 16 Kas; arama engelli
+Balkanlar	Sırbistan	çok	Britannica	ansiklopedi	https://www.britannica.com/place/<Sehir>	E (tarayıcıda; WebFetch 403)	E (place maddesi)	britannica.com/place/Poznan	OLCULDU 16 Kas (HAVVA, KAYNAK-ERISIM-TESTI-HAVVA.md)
+Balkanlar	Sırbistan	it	Treccani Enciclopedia	ansiklopedi	https://www.treccani.it/enciclopedia/<sehir>/	E (tarayıcıda; WebFetch boş)	E	treccani.it/enciclopedia/poznan/	OLCULDU 16 Kas
+Balkanlar	Sırbistan	fr	Persée	dergi portalı	https://www.persee.fr/search?q=<sehir>	E arama sonucu; makale PDF ayrı	E (arama)	persee.fr/search?q=Dhofar	OLCULDU 16 Kas
+Balkanlar	Sırbistan	en	Cambridge Core	dergi/monografi	https://www.cambridge.org/core/search?q=<sehir>	KISMEN: özet açık, tam metin abonelik	E (arama)	cambridge.org/core/search?q=Dhofar	OLCULDU 16 Kas
+Balkanlar	Sırbistan	çok	GeoNames	gazetteer	https://www.geonames.org/search.html?q=<ad>	E (arama sayfası, DMS koordinat)	E	geonames.org/search.html?q=Krsko	OLCULDU 17 Kas (koordinat düzeltmelerinde)
+Balkanlar	Sırbistan	tr	DergiPark dergi/makale sayfası	dergi portalı	https://dergipark.org.tr/tr/pub/<dergi>	E tekil dergi/makale sayfası	H: ARAMA CAPTCHA (/search/verification)	dergipark.org.tr/tr/pub/belleten	OLCULDU 16 Kas; arama engelli
+Balkanlar	Hırvatistan	çok	Britannica	ansiklopedi	https://www.britannica.com/place/<Sehir>	E (tarayıcıda; WebFetch 403)	E (place maddesi)	britannica.com/place/Poznan	OLCULDU 16 Kas (HAVVA, KAYNAK-ERISIM-TESTI-HAVVA.md)
+Balkanlar	Hırvatistan	it	Treccani Enciclopedia	ansiklopedi	https://www.treccani.it/enciclopedia/<sehir>/	E (tarayıcıda; WebFetch boş)	E	treccani.it/enciclopedia/poznan/	OLCULDU 16 Kas
+Balkanlar	Hırvatistan	fr	Persée	dergi portalı	https://www.persee.fr/search?q=<sehir>	E arama sonucu; makale PDF ayrı	E (arama)	persee.fr/search?q=Dhofar	OLCULDU 16 Kas
+Balkanlar	Hırvatistan	en	Cambridge Core	dergi/monografi	https://www.cambridge.org/core/search?q=<sehir>	KISMEN: özet açık, tam metin abonelik	E (arama)	cambridge.org/core/search?q=Dhofar	OLCULDU 16 Kas
+Balkanlar	Hırvatistan	çok	GeoNames	gazetteer	https://www.geonames.org/search.html?q=<ad>	E (arama sayfası, DMS koordinat)	E	geonames.org/search.html?q=Krsko	OLCULDU 17 Kas (koordinat düzeltmelerinde)
+Balkanlar	Hırvatistan	tr	DergiPark dergi/makale sayfası	dergi portalı	https://dergipark.org.tr/tr/pub/<dergi>	E tekil dergi/makale sayfası	H: ARAMA CAPTCHA (/search/verification)	dergipark.org.tr/tr/pub/belleten	OLCULDU 16 Kas; arama engelli
+Balkanlar	Bosna-Hersek	çok	Britannica	ansiklopedi	https://www.britannica.com/place/<Sehir>	E (tarayıcıda; WebFetch 403)	E (place maddesi)	britannica.com/place/Poznan	OLCULDU 16 Kas (HAVVA, KAYNAK-ERISIM-TESTI-HAVVA.md)
+Balkanlar	Bosna-Hersek	it	Treccani Enciclopedia	ansiklopedi	https://www.treccani.it/enciclopedia/<sehir>/	E (tarayıcıda; WebFetch boş)	E	treccani.it/enciclopedia/poznan/	OLCULDU 16 Kas
+Balkanlar	Bosna-Hersek	fr	Persée	dergi portalı	https://www.persee.fr/search?q=<sehir>	E arama sonucu; makale PDF ayrı	E (arama)	persee.fr/search?q=Dhofar	OLCULDU 16 Kas
+Balkanlar	Bosna-Hersek	en	Cambridge Core	dergi/monografi	https://www.cambridge.org/core/search?q=<sehir>	KISMEN: özet açık, tam metin abonelik	E (arama)	cambridge.org/core/search?q=Dhofar	OLCULDU 16 Kas
+Balkanlar	Bosna-Hersek	çok	GeoNames	gazetteer	https://www.geonames.org/search.html?q=<ad>	E (arama sayfası, DMS koordinat)	E	geonames.org/search.html?q=Krsko	OLCULDU 17 Kas (koordinat düzeltmelerinde)
+Balkanlar	Bosna-Hersek	tr	DergiPark dergi/makale sayfası	dergi portalı	https://dergipark.org.tr/tr/pub/<dergi>	E tekil dergi/makale sayfası	H: ARAMA CAPTCHA (/search/verification)	dergipark.org.tr/tr/pub/belleten	OLCULDU 16 Kas; arama engelli
+Balkanlar	Karadağ	çok	Britannica	ansiklopedi	https://www.britannica.com/place/<Sehir>	E (tarayıcıda; WebFetch 403)	E (place maddesi)	britannica.com/place/Poznan	OLCULDU 16 Kas (HAVVA, KAYNAK-ERISIM-TESTI-HAVVA.md)
+Balkanlar	Karadağ	it	Treccani Enciclopedia	ansiklopedi	https://www.treccani.it/enciclopedia/<sehir>/	E (tarayıcıda; WebFetch boş)	E	treccani.it/enciclopedia/poznan/	OLCULDU 16 Kas
+Balkanlar	Karadağ	fr	Persée	dergi portalı	https://www.persee.fr/search?q=<sehir>	E arama sonucu; makale PDF ayrı	E (arama)	persee.fr/search?q=Dhofar	OLCULDU 16 Kas
+Balkanlar	Karadağ	en	Cambridge Core	dergi/monografi	https://www.cambridge.org/core/search?q=<sehir>	KISMEN: özet açık, tam metin abonelik	E (arama)	cambridge.org/core/search?q=Dhofar	OLCULDU 16 Kas
+Balkanlar	Karadağ	çok	GeoNames	gazetteer	https://www.geonames.org/search.html?q=<ad>	E (arama sayfası, DMS koordinat)	E	geonames.org/search.html?q=Krsko	OLCULDU 17 Kas (koordinat düzeltmelerinde)
+Balkanlar	Karadağ	tr	DergiPark dergi/makale sayfası	dergi portalı	https://dergipark.org.tr/tr/pub/<dergi>	E tekil dergi/makale sayfası	H: ARAMA CAPTCHA (/search/verification)	dergipark.org.tr/tr/pub/belleten	OLCULDU 16 Kas; arama engelli
+Balkanlar	Slovenya	çok	Britannica	ansiklopedi	https://www.britannica.com/place/<Sehir>	E (tarayıcıda; WebFetch 403)	E (place maddesi)	britannica.com/place/Poznan	OLCULDU 16 Kas (HAVVA, KAYNAK-ERISIM-TESTI-HAVVA.md)
+Balkanlar	Slovenya	it	Treccani Enciclopedia	ansiklopedi	https://www.treccani.it/enciclopedia/<sehir>/	E (tarayıcıda; WebFetch boş)	E	treccani.it/enciclopedia/poznan/	OLCULDU 16 Kas
+Balkanlar	Slovenya	fr	Persée	dergi portalı	https://www.persee.fr/search?q=<sehir>	E arama sonucu; makale PDF ayrı	E (arama)	persee.fr/search?q=Dhofar	OLCULDU 16 Kas
+Balkanlar	Slovenya	en	Cambridge Core	dergi/monografi	https://www.cambridge.org/core/search?q=<sehir>	KISMEN: özet açık, tam metin abonelik	E (arama)	cambridge.org/core/search?q=Dhofar	OLCULDU 16 Kas
+Balkanlar	Slovenya	çok	GeoNames	gazetteer	https://www.geonames.org/search.html?q=<ad>	E (arama sayfası, DMS koordinat)	E	geonames.org/search.html?q=Krsko	OLCULDU 17 Kas (koordinat düzeltmelerinde)
+Balkanlar	Slovenya	tr	DergiPark dergi/makale sayfası	dergi portalı	https://dergipark.org.tr/tr/pub/<dergi>	E tekil dergi/makale sayfası	H: ARAMA CAPTCHA (/search/verification)	dergipark.org.tr/tr/pub/belleten	OLCULDU 16 Kas; arama engelli
+Balkanlar	Arnavutluk	çok	Britannica	ansiklopedi	https://www.britannica.com/place/<Sehir>	E (tarayıcıda; WebFetch 403)	E (place maddesi)	britannica.com/place/Poznan	OLCULDU 16 Kas (HAVVA, KAYNAK-ERISIM-TESTI-HAVVA.md)
+Balkanlar	Arnavutluk	it	Treccani Enciclopedia	ansiklopedi	https://www.treccani.it/enciclopedia/<sehir>/	E (tarayıcıda; WebFetch boş)	E	treccani.it/enciclopedia/poznan/	OLCULDU 16 Kas
+Balkanlar	Arnavutluk	fr	Persée	dergi portalı	https://www.persee.fr/search?q=<sehir>	E arama sonucu; makale PDF ayrı	E (arama)	persee.fr/search?q=Dhofar	OLCULDU 16 Kas
+Balkanlar	Arnavutluk	en	Cambridge Core	dergi/monografi	https://www.cambridge.org/core/search?q=<sehir>	KISMEN: özet açık, tam metin abonelik	E (arama)	cambridge.org/core/search?q=Dhofar	OLCULDU 16 Kas
+Balkanlar	Arnavutluk	çok	GeoNames	gazetteer	https://www.geonames.org/search.html?q=<ad>	E (arama sayfası, DMS koordinat)	E	geonames.org/search.html?q=Krsko	OLCULDU 17 Kas (koordinat düzeltmelerinde)
+Balkanlar	Arnavutluk	tr	DergiPark dergi/makale sayfası	dergi portalı	https://dergipark.org.tr/tr/pub/<dergi>	E tekil dergi/makale sayfası	H: ARAMA CAPTCHA (/search/verification)	dergipark.org.tr/tr/pub/belleten	OLCULDU 16 Kas; arama engelli
+Balkanlar	Kuzey Makedonya	çok	Britannica	ansiklopedi	https://www.britannica.com/place/<Sehir>	E (tarayıcıda; WebFetch 403)	E (place maddesi)	britannica.com/place/Poznan	OLCULDU 16 Kas (HAVVA, KAYNAK-ERISIM-TESTI-HAVVA.md)
+Balkanlar	Kuzey Makedonya	it	Treccani Enciclopedia	ansiklopedi	https://www.treccani.it/enciclopedia/<sehir>/	E (tarayıcıda; WebFetch boş)	E	treccani.it/enciclopedia/poznan/	OLCULDU 16 Kas
+Balkanlar	Kuzey Makedonya	fr	Persée	dergi portalı	https://www.persee.fr/search?q=<sehir>	E arama sonucu; makale PDF ayrı	E (arama)	persee.fr/search?q=Dhofar	OLCULDU 16 Kas
+Balkanlar	Kuzey Makedonya	en	Cambridge Core	dergi/monografi	https://www.cambridge.org/core/search?q=<sehir>	KISMEN: özet açık, tam metin abonelik	E (arama)	cambridge.org/core/search?q=Dhofar	OLCULDU 16 Kas
+Balkanlar	Kuzey Makedonya	çok	GeoNames	gazetteer	https://www.geonames.org/search.html?q=<ad>	E (arama sayfası, DMS koordinat)	E	geonames.org/search.html?q=Krsko	OLCULDU 17 Kas (koordinat düzeltmelerinde)
+Balkanlar	Kuzey Makedonya	tr	DergiPark dergi/makale sayfası	dergi portalı	https://dergipark.org.tr/tr/pub/<dergi>	E tekil dergi/makale sayfası	H: ARAMA CAPTCHA (/search/verification)	dergipark.org.tr/tr/pub/belleten	OLCULDU 16 Kas; arama engelli
+Balkanlar	Kosova	çok	Britannica	ansiklopedi	https://www.britannica.com/place/<Sehir>	E (tarayıcıda; WebFetch 403)	E (place maddesi)	britannica.com/place/Poznan	OLCULDU 16 Kas (HAVVA, KAYNAK-ERISIM-TESTI-HAVVA.md)
+Balkanlar	Kosova	it	Treccani Enciclopedia	ansiklopedi	https://www.treccani.it/enciclopedia/<sehir>/	E (tarayıcıda; WebFetch boş)	E	treccani.it/enciclopedia/poznan/	OLCULDU 16 Kas
+Balkanlar	Kosova	fr	Persée	dergi portalı	https://www.persee.fr/search?q=<sehir>	E arama sonucu; makale PDF ayrı	E (arama)	persee.fr/search?q=Dhofar	OLCULDU 16 Kas
+Balkanlar	Kosova	en	Cambridge Core	dergi/monografi	https://www.cambridge.org/core/search?q=<sehir>	KISMEN: özet açık, tam metin abonelik	E (arama)	cambridge.org/core/search?q=Dhofar	OLCULDU 16 Kas
+Balkanlar	Kosova	çok	GeoNames	gazetteer	https://www.geonames.org/search.html?q=<ad>	E (arama sayfası, DMS koordinat)	E	geonames.org/search.html?q=Krsko	OLCULDU 17 Kas (koordinat düzeltmelerinde)
+Balkanlar	Kosova	tr	DergiPark dergi/makale sayfası	dergi portalı	https://dergipark.org.tr/tr/pub/<dergi>	E tekil dergi/makale sayfası	H: ARAMA CAPTCHA (/search/verification)	dergipark.org.tr/tr/pub/belleten	OLCULDU 16 Kas; arama engelli
+Doğu Avrupa	Rusya	çok	Britannica	ansiklopedi	https://www.britannica.com/place/<Sehir>	E (tarayıcıda; WebFetch 403)	E (place maddesi)	britannica.com/place/Poznan	OLCULDU 16 Kas (HAVVA, KAYNAK-ERISIM-TESTI-HAVVA.md)
+Doğu Avrupa	Rusya	it	Treccani Enciclopedia	ansiklopedi	https://www.treccani.it/enciclopedia/<sehir>/	E (tarayıcıda; WebFetch boş)	E	treccani.it/enciclopedia/poznan/	OLCULDU 16 Kas
+Doğu Avrupa	Rusya	fr	Persée	dergi portalı	https://www.persee.fr/search?q=<sehir>	E arama sonucu; makale PDF ayrı	E (arama)	persee.fr/search?q=Dhofar	OLCULDU 16 Kas
+Doğu Avrupa	Rusya	en	Cambridge Core	dergi/monografi	https://www.cambridge.org/core/search?q=<sehir>	KISMEN: özet açık, tam metin abonelik	E (arama)	cambridge.org/core/search?q=Dhofar	OLCULDU 16 Kas
+Doğu Avrupa	Rusya	çok	GeoNames	gazetteer	https://www.geonames.org/search.html?q=<ad>	E (arama sayfası, DMS koordinat)	E	geonames.org/search.html?q=Krsko	OLCULDU 17 Kas (koordinat düzeltmelerinde)
+Doğu Avrupa	Rusya	tr	DergiPark dergi/makale sayfası	dergi portalı	https://dergipark.org.tr/tr/pub/<dergi>	E tekil dergi/makale sayfası	H: ARAMA CAPTCHA (/search/verification)	dergipark.org.tr/tr/pub/belleten	OLCULDU 16 Kas; arama engelli
+Doğu Avrupa	Ukrayna	çok	Britannica	ansiklopedi	https://www.britannica.com/place/<Sehir>	E (tarayıcıda; WebFetch 403)	E (place maddesi)	britannica.com/place/Poznan	OLCULDU 16 Kas (HAVVA, KAYNAK-ERISIM-TESTI-HAVVA.md)
+Doğu Avrupa	Ukrayna	it	Treccani Enciclopedia	ansiklopedi	https://www.treccani.it/enciclopedia/<sehir>/	E (tarayıcıda; WebFetch boş)	E	treccani.it/enciclopedia/poznan/	OLCULDU 16 Kas
+Doğu Avrupa	Ukrayna	fr	Persée	dergi portalı	https://www.persee.fr/search?q=<sehir>	E arama sonucu; makale PDF ayrı	E (arama)	persee.fr/search?q=Dhofar	OLCULDU 16 Kas
+Doğu Avrupa	Ukrayna	en	Cambridge Core	dergi/monografi	https://www.cambridge.org/core/search?q=<sehir>	KISMEN: özet açık, tam metin abonelik	E (arama)	cambridge.org/core/search?q=Dhofar	OLCULDU 16 Kas
+Doğu Avrupa	Ukrayna	çok	GeoNames	gazetteer	https://www.geonames.org/search.html?q=<ad>	E (arama sayfası, DMS koordinat)	E	geonames.org/search.html?q=Krsko	OLCULDU 17 Kas (koordinat düzeltmelerinde)
+Doğu Avrupa	Ukrayna	tr	DergiPark dergi/makale sayfası	dergi portalı	https://dergipark.org.tr/tr/pub/<dergi>	E tekil dergi/makale sayfası	H: ARAMA CAPTCHA (/search/verification)	dergipark.org.tr/tr/pub/belleten	OLCULDU 16 Kas; arama engelli
+Doğu Avrupa	Belarus	çok	Britannica	ansiklopedi	https://www.britannica.com/place/<Sehir>	E (tarayıcıda; WebFetch 403)	E (place maddesi)	britannica.com/place/Poznan	OLCULDU 16 Kas (HAVVA, KAYNAK-ERISIM-TESTI-HAVVA.md)
+Doğu Avrupa	Belarus	it	Treccani Enciclopedia	ansiklopedi	https://www.treccani.it/enciclopedia/<sehir>/	E (tarayıcıda; WebFetch boş)	E	treccani.it/enciclopedia/poznan/	OLCULDU 16 Kas
+Doğu Avrupa	Belarus	fr	Persée	dergi portalı	https://www.persee.fr/search?q=<sehir>	E arama sonucu; makale PDF ayrı	E (arama)	persee.fr/search?q=Dhofar	OLCULDU 16 Kas
+Doğu Avrupa	Belarus	en	Cambridge Core	dergi/monografi	https://www.cambridge.org/core/search?q=<sehir>	KISMEN: özet açık, tam metin abonelik	E (arama)	cambridge.org/core/search?q=Dhofar	OLCULDU 16 Kas
+Doğu Avrupa	Belarus	çok	GeoNames	gazetteer	https://www.geonames.org/search.html?q=<ad>	E (arama sayfası, DMS koordinat)	E	geonames.org/search.html?q=Krsko	OLCULDU 17 Kas (koordinat düzeltmelerinde)
+Doğu Avrupa	Belarus	tr	DergiPark dergi/makale sayfası	dergi portalı	https://dergipark.org.tr/tr/pub/<dergi>	E tekil dergi/makale sayfası	H: ARAMA CAPTCHA (/search/verification)	dergipark.org.tr/tr/pub/belleten	OLCULDU 16 Kas; arama engelli
+Doğu Avrupa	Moldova	çok	Britannica	ansiklopedi	https://www.britannica.com/place/<Sehir>	E (tarayıcıda; WebFetch 403)	E (place maddesi)	britannica.com/place/Poznan	OLCULDU 16 Kas (HAVVA, KAYNAK-ERISIM-TESTI-HAVVA.md)
+Doğu Avrupa	Moldova	it	Treccani Enciclopedia	ansiklopedi	https://www.treccani.it/enciclopedia/<sehir>/	E (tarayıcıda; WebFetch boş)	E	treccani.it/enciclopedia/poznan/	OLCULDU 16 Kas
+Doğu Avrupa	Moldova	fr	Persée	dergi portalı	https://www.persee.fr/search?q=<sehir>	E arama sonucu; makale PDF ayrı	E (arama)	persee.fr/search?q=Dhofar	OLCULDU 16 Kas
+Doğu Avrupa	Moldova	en	Cambridge Core	dergi/monografi	https://www.cambridge.org/core/search?q=<sehir>	KISMEN: özet açık, tam metin abonelik	E (arama)	cambridge.org/core/search?q=Dhofar	OLCULDU 16 Kas
+Doğu Avrupa	Moldova	çok	GeoNames	gazetteer	https://www.geonames.org/search.html?q=<ad>	E (arama sayfası, DMS koordinat)	E	geonames.org/search.html?q=Krsko	OLCULDU 17 Kas (koordinat düzeltmelerinde)
+Doğu Avrupa	Moldova	tr	DergiPark dergi/makale sayfası	dergi portalı	https://dergipark.org.tr/tr/pub/<dergi>	E tekil dergi/makale sayfası	H: ARAMA CAPTCHA (/search/verification)	dergipark.org.tr/tr/pub/belleten	OLCULDU 16 Kas; arama engelli
+Doğu Avrupa	Letonya	çok	Britannica	ansiklopedi	https://www.britannica.com/place/<Sehir>	E (tarayıcıda; WebFetch 403)	E (place maddesi)	britannica.com/place/Poznan	OLCULDU 16 Kas (HAVVA, KAYNAK-ERISIM-TESTI-HAVVA.md)
+Doğu Avrupa	Letonya	it	Treccani Enciclopedia	ansiklopedi	https://www.treccani.it/enciclopedia/<sehir>/	E (tarayıcıda; WebFetch boş)	E	treccani.it/enciclopedia/poznan/	OLCULDU 16 Kas
+Doğu Avrupa	Letonya	fr	Persée	dergi portalı	https://www.persee.fr/search?q=<sehir>	E arama sonucu; makale PDF ayrı	E (arama)	persee.fr/search?q=Dhofar	OLCULDU 16 Kas
+Doğu Avrupa	Letonya	en	Cambridge Core	dergi/monografi	https://www.cambridge.org/core/search?q=<sehir>	KISMEN: özet açık, tam metin abonelik	E (arama)	cambridge.org/core/search?q=Dhofar	OLCULDU 16 Kas
+Doğu Avrupa	Letonya	çok	GeoNames	gazetteer	https://www.geonames.org/search.html?q=<ad>	E (arama sayfası, DMS koordinat)	E	geonames.org/search.html?q=Krsko	OLCULDU 17 Kas (koordinat düzeltmelerinde)
+Doğu Avrupa	Letonya	tr	DergiPark dergi/makale sayfası	dergi portalı	https://dergipark.org.tr/tr/pub/<dergi>	E tekil dergi/makale sayfası	H: ARAMA CAPTCHA (/search/verification)	dergipark.org.tr/tr/pub/belleten	OLCULDU 16 Kas; arama engelli
+Doğu Avrupa	Litvanya	çok	Britannica	ansiklopedi	https://www.britannica.com/place/<Sehir>	E (tarayıcıda; WebFetch 403)	E (place maddesi)	britannica.com/place/Poznan	OLCULDU 16 Kas (HAVVA, KAYNAK-ERISIM-TESTI-HAVVA.md)
+Doğu Avrupa	Litvanya	it	Treccani Enciclopedia	ansiklopedi	https://www.treccani.it/enciclopedia/<sehir>/	E (tarayıcıda; WebFetch boş)	E	treccani.it/enciclopedia/poznan/	OLCULDU 16 Kas
+Doğu Avrupa	Litvanya	fr	Persée	dergi portalı	https://www.persee.fr/search?q=<sehir>	E arama sonucu; makale PDF ayrı	E (arama)	persee.fr/search?q=Dhofar	OLCULDU 16 Kas
+Doğu Avrupa	Litvanya	en	Cambridge Core	dergi/monografi	https://www.cambridge.org/core/search?q=<sehir>	KISMEN: özet açık, tam metin abonelik	E (arama)	cambridge.org/core/search?q=Dhofar	OLCULDU 16 Kas
+Doğu Avrupa	Litvanya	çok	GeoNames	gazetteer	https://www.geonames.org/search.html?q=<ad>	E (arama sayfası, DMS koordinat)	E	geonames.org/search.html?q=Krsko	OLCULDU 17 Kas (koordinat düzeltmelerinde)
+Doğu Avrupa	Litvanya	tr	DergiPark dergi/makale sayfası	dergi portalı	https://dergipark.org.tr/tr/pub/<dergi>	E tekil dergi/makale sayfası	H: ARAMA CAPTCHA (/search/verification)	dergipark.org.tr/tr/pub/belleten	OLCULDU 16 Kas; arama engelli
+Doğu Avrupa	Estonya	çok	Britannica	ansiklopedi	https://www.britannica.com/place/<Sehir>	E (tarayıcıda; WebFetch 403)	E (place maddesi)	britannica.com/place/Poznan	OLCULDU 16 Kas (HAVVA, KAYNAK-ERISIM-TESTI-HAVVA.md)
+Doğu Avrupa	Estonya	it	Treccani Enciclopedia	ansiklopedi	https://www.treccani.it/enciclopedia/<sehir>/	E (tarayıcıda; WebFetch boş)	E	treccani.it/enciclopedia/poznan/	OLCULDU 16 Kas
+Doğu Avrupa	Estonya	fr	Persée	dergi portalı	https://www.persee.fr/search?q=<sehir>	E arama sonucu; makale PDF ayrı	E (arama)	persee.fr/search?q=Dhofar	OLCULDU 16 Kas
+Doğu Avrupa	Estonya	en	Cambridge Core	dergi/monografi	https://www.cambridge.org/core/search?q=<sehir>	KISMEN: özet açık, tam metin abonelik	E (arama)	cambridge.org/core/search?q=Dhofar	OLCULDU 16 Kas
+Doğu Avrupa	Estonya	çok	GeoNames	gazetteer	https://www.geonames.org/search.html?q=<ad>	E (arama sayfası, DMS koordinat)	E	geonames.org/search.html?q=Krsko	OLCULDU 17 Kas (koordinat düzeltmelerinde)
+Doğu Avrupa	Estonya	tr	DergiPark dergi/makale sayfası	dergi portalı	https://dergipark.org.tr/tr/pub/<dergi>	E tekil dergi/makale sayfası	H: ARAMA CAPTCHA (/search/verification)	dergipark.org.tr/tr/pub/belleten	OLCULDU 16 Kas; arama engelli
+Sibirya/Uzak Doğu	Rusya	çok	Britannica	ansiklopedi	https://www.britannica.com/place/<Sehir>	E (tarayıcıda; WebFetch 403)	E (place maddesi)	britannica.com/place/Poznan	OLCULDU 16 Kas (HAVVA, KAYNAK-ERISIM-TESTI-HAVVA.md)
+Sibirya/Uzak Doğu	Rusya	it	Treccani Enciclopedia	ansiklopedi	https://www.treccani.it/enciclopedia/<sehir>/	E (tarayıcıda; WebFetch boş)	E	treccani.it/enciclopedia/poznan/	OLCULDU 16 Kas
+Sibirya/Uzak Doğu	Rusya	fr	Persée	dergi portalı	https://www.persee.fr/search?q=<sehir>	E arama sonucu; makale PDF ayrı	E (arama)	persee.fr/search?q=Dhofar	OLCULDU 16 Kas
+Sibirya/Uzak Doğu	Rusya	en	Cambridge Core	dergi/monografi	https://www.cambridge.org/core/search?q=<sehir>	KISMEN: özet açık, tam metin abonelik	E (arama)	cambridge.org/core/search?q=Dhofar	OLCULDU 16 Kas
+Sibirya/Uzak Doğu	Rusya	çok	GeoNames	gazetteer	https://www.geonames.org/search.html?q=<ad>	E (arama sayfası, DMS koordinat)	E	geonames.org/search.html?q=Krsko	OLCULDU 17 Kas (koordinat düzeltmelerinde)
+Sibirya/Uzak Doğu	Rusya	tr	DergiPark dergi/makale sayfası	dergi portalı	https://dergipark.org.tr/tr/pub/<dergi>	E tekil dergi/makale sayfası	H: ARAMA CAPTCHA (/search/verification)	dergipark.org.tr/tr/pub/belleten	OLCULDU 16 Kas; arama engelli
+Yakın Doğu	Türkiye	tr	TDV İslâm Ansiklopedisi	ansiklopedi	https://islamansiklopedisi.org.tr/<slug>	E (gövde; 429 hız sınırı: ≥5 sn)	"E (yer maddesi; ""bk."" yönlendirmelerini izle)"	islamansiklopedisi.org.tr/bursa	OLCULDU 16-17 Kas (50+ madde tam gövde)
+Yakın Doğu	Türkiye	tr	İSAM Osmanlı Araştırmaları / ktp.isam.org.tr	dergi/katalog	https://ktp.isam.org.tr	?	E (makale araması)	ktp.isam.org.tr arama: Karamürsel	"SINANMADI (bilgiye dayalı aday; erişilemezse ""okunamadı"" yazılır)"
+Yakın Doğu	Türkiye	tr	Türk Tarih Kurumu Belleten	dergi	https://belleten.gov.tr	?	H (şehre göre arama zayıf)	belleten.gov.tr	"SINANMADI (bilgiye dayalı aday; erişilemezse ""okunamadı"" yazılır)"
+Yakın Doğu	Türkiye	tr	YÖK Ulusal Tez Merkezi	tez	https://tez.yok.gov.tr	H (bot/oturum)	E (başlık araması)	tez.yok.gov.tr sancak monografisi	"SINANMADI (bilgiye dayalı aday; erişilemezse ""okunamadı"" yazılır)"
+Yakın Doğu	Türkiye	tr	DergiPark (OTAM, Tarih Dergisi, Tarih Araştırmaları Dergisi vb.)	dergi	https://dergipark.org.tr/tr/pub/<dergi>	E makale sayfası	H arama CAPTCHA; dergi içi tarama	dergipark.org.tr/tr/pub/otam	OLCULDU 16 Kas
+Yakın Doğu	Suriye	tr	TDV İslâm Ansiklopedisi	ansiklopedi	https://islamansiklopedisi.org.tr/<slug>	E	E	islamansiklopedisi.org.tr/halep	OLCULDU 16-17 Kas
+Yakın Doğu	Suriye	en	Encyclopaedia of Islam, Three/Second ed. (Brill)	ansiklopedi	https://referenceworks.brill.com/page/eion	H (403)	E (yer maddesi, ilk sayfa)	Brill EI: Halab	OLCULDU 17 Kas: referenceworks.brill.com 403 (istek engellendi) -> okunamadi
+Yakın Doğu	Suriye	ar	Arap tarihçileri (Yâkūt, Mu‘cem el-Büldân, neşir) — akademik neşir bağlantısı	birincil kaynak neşri	https://archive.org (taramalı neşir)	İNDİRME İZNİ GEREK	H	Mu‘cem el-Büldân	SINANMADI; indirme izni Emre sohbetinde yok
+Yakın Doğu	Irak	tr	TDV İslâm Ansiklopedisi	ansiklopedi	https://islamansiklopedisi.org.tr/<slug>	E	E	islamansiklopedisi.org.tr/halep	OLCULDU 16-17 Kas
+Yakın Doğu	Irak	en	Encyclopaedia of Islam, Three/Second ed. (Brill)	ansiklopedi	https://referenceworks.brill.com/page/eion	H (403)	E (yer maddesi, ilk sayfa)	Brill EI: Halab	OLCULDU 17 Kas: referenceworks.brill.com 403 (istek engellendi) -> okunamadi
+Yakın Doğu	Irak	ar	Arap tarihçileri (Yâkūt, Mu‘cem el-Büldân, neşir) — akademik neşir bağlantısı	birincil kaynak neşri	https://archive.org (taramalı neşir)	İNDİRME İZNİ GEREK	H	Mu‘cem el-Büldân	SINANMADI; indirme izni Emre sohbetinde yok
+Yakın Doğu	Lübnan	tr	TDV İslâm Ansiklopedisi	ansiklopedi	https://islamansiklopedisi.org.tr/<slug>	E	E	islamansiklopedisi.org.tr/halep	OLCULDU 16-17 Kas
+Yakın Doğu	Lübnan	en	Encyclopaedia of Islam, Three/Second ed. (Brill)	ansiklopedi	https://referenceworks.brill.com/page/eion	H (403)	E (yer maddesi, ilk sayfa)	Brill EI: Halab	OLCULDU 17 Kas: referenceworks.brill.com 403 (istek engellendi) -> okunamadi
+Yakın Doğu	Lübnan	ar	Arap tarihçileri (Yâkūt, Mu‘cem el-Büldân, neşir) — akademik neşir bağlantısı	birincil kaynak neşri	https://archive.org (taramalı neşir)	İNDİRME İZNİ GEREK	H	Mu‘cem el-Büldân	SINANMADI; indirme izni Emre sohbetinde yok
+Yakın Doğu	Ürdün	tr	TDV İslâm Ansiklopedisi	ansiklopedi	https://islamansiklopedisi.org.tr/<slug>	E	E	islamansiklopedisi.org.tr/halep	OLCULDU 16-17 Kas
+Yakın Doğu	Ürdün	en	Encyclopaedia of Islam, Three/Second ed. (Brill)	ansiklopedi	https://referenceworks.brill.com/page/eion	H (403)	E (yer maddesi, ilk sayfa)	Brill EI: Halab	OLCULDU 17 Kas: referenceworks.brill.com 403 (istek engellendi) -> okunamadi
+Yakın Doğu	Ürdün	ar	Arap tarihçileri (Yâkūt, Mu‘cem el-Büldân, neşir) — akademik neşir bağlantısı	birincil kaynak neşri	https://archive.org (taramalı neşir)	İNDİRME İZNİ GEREK	H	Mu‘cem el-Büldân	SINANMADI; indirme izni Emre sohbetinde yok
+Yakın Doğu	Filistin	tr	TDV İslâm Ansiklopedisi	ansiklopedi	https://islamansiklopedisi.org.tr/<slug>	E	E	islamansiklopedisi.org.tr/halep	OLCULDU 16-17 Kas
+Yakın Doğu	Filistin	en	Encyclopaedia of Islam, Three/Second ed. (Brill)	ansiklopedi	https://referenceworks.brill.com/page/eion	H (403)	E (yer maddesi, ilk sayfa)	Brill EI: Halab	OLCULDU 17 Kas: referenceworks.brill.com 403 (istek engellendi) -> okunamadi
+Yakın Doğu	Filistin	ar	Arap tarihçileri (Yâkūt, Mu‘cem el-Büldân, neşir) — akademik neşir bağlantısı	birincil kaynak neşri	https://archive.org (taramalı neşir)	İNDİRME İZNİ GEREK	H	Mu‘cem el-Büldân	SINANMADI; indirme izni Emre sohbetinde yok
+Yakın Doğu	İsrail	tr	TDV İslâm Ansiklopedisi	ansiklopedi	https://islamansiklopedisi.org.tr/<slug>	E	E	islamansiklopedisi.org.tr/halep	OLCULDU 16-17 Kas
+Yakın Doğu	İsrail	en	Encyclopaedia of Islam, Three/Second ed. (Brill)	ansiklopedi	https://referenceworks.brill.com/page/eion	H (403)	E (yer maddesi, ilk sayfa)	Brill EI: Halab	OLCULDU 17 Kas: referenceworks.brill.com 403 (istek engellendi) -> okunamadi
+Yakın Doğu	İsrail	ar	Arap tarihçileri (Yâkūt, Mu‘cem el-Büldân, neşir) — akademik neşir bağlantısı	birincil kaynak neşri	https://archive.org (taramalı neşir)	İNDİRME İZNİ GEREK	H	Mu‘cem el-Büldân	SINANMADI; indirme izni Emre sohbetinde yok
+Yakın Doğu	Irak	en	Encyclopaedia Iranica (Irak/Mezopotamya maddeleri)	ansiklopedi	https://iranicaonline.org/articles/<ad>	KISMEN (796 karakter)	E	iranicaonline.org/articles/baghdad	OLCULDU 17 Kas: /articles/baghdad 796 karakter (yalniz başlık+ilk bölüm; tam gövde lazy/abonelik)
+Yakın Doğu	İsrail	en	Jewish Virtual Library / Encyclopaedia Judaica (Gale)	ansiklopedi	https://www.jewishvirtuallibrary.org	KISMEN (980 karakter)	E	Encyclopaedia Judaica: Safed	OLCULDU 17 Kas: /safed-tzfat 980 karakter (kısa/boş başlık); Judaica metni görülmedi
+Yakın Doğu	Filistin	en	Palestine Exploration Quarterly / Journal of Palestine Studies	dergi	https://www.tandfonline.com	H (abonelik)	E	PEQ: Nablus	SINANMADI
+Yakın Doğu	Lübnan	fr	Persée / Mélanges de l’Université Saint-Joseph	dergi	https://www.persee.fr	E	E	persee.fr/search?q=Tripoli+Liban	OLCULDU (Persée arama)
+Yakın Doğu	Suudi Arabistan	tr	TDV İslâm Ansiklopedisi	ansiklopedi	https://islamansiklopedisi.org.tr/<slug>	E	E	islamansiklopedisi.org.tr/mekke	OLCULDU 16-17 Kas
+Yakın Doğu	Suudi Arabistan	en	Qatar Digital Library (Lorimer Gazetteer, IOR kayıtları)	arşiv neşri	https://www.qdl.qa/en/archive/<no>	ana sayfa E; ARAMA HTTP 525	H (arama); belge URL biliniyorsa E	qdl.qa/en	OLCULDU 16 Kas; arama 525
+Yakın Doğu	Suudi Arabistan	en	Encyclopaedia of Islam (Brill)	ansiklopedi	https://referenceworks.brill.com	H (403)	E	EI: Ṣanʿāʾ	OLCULDU 17 Kas: referenceworks.brill.com 403 (istek engellendi) -> okunamadi
+Yakın Doğu	Yemen	tr	TDV İslâm Ansiklopedisi	ansiklopedi	https://islamansiklopedisi.org.tr/<slug>	E	E	islamansiklopedisi.org.tr/mekke	OLCULDU 16-17 Kas
+Yakın Doğu	Yemen	en	Qatar Digital Library (Lorimer Gazetteer, IOR kayıtları)	arşiv neşri	https://www.qdl.qa/en/archive/<no>	ana sayfa E; ARAMA HTTP 525	H (arama); belge URL biliniyorsa E	qdl.qa/en	OLCULDU 16 Kas; arama 525
+Yakın Doğu	Yemen	en	Encyclopaedia of Islam (Brill)	ansiklopedi	https://referenceworks.brill.com	H (403)	E	EI: Ṣanʿāʾ	OLCULDU 17 Kas: referenceworks.brill.com 403 (istek engellendi) -> okunamadi
+Yakın Doğu	Umman	tr	TDV İslâm Ansiklopedisi	ansiklopedi	https://islamansiklopedisi.org.tr/<slug>	E	E	islamansiklopedisi.org.tr/mekke	OLCULDU 16-17 Kas
+Yakın Doğu	Umman	en	Qatar Digital Library (Lorimer Gazetteer, IOR kayıtları)	arşiv neşri	https://www.qdl.qa/en/archive/<no>	ana sayfa E; ARAMA HTTP 525	H (arama); belge URL biliniyorsa E	qdl.qa/en	OLCULDU 16 Kas; arama 525
+Yakın Doğu	Umman	en	Encyclopaedia of Islam (Brill)	ansiklopedi	https://referenceworks.brill.com	H (403)	E	EI: Ṣanʿāʾ	OLCULDU 17 Kas: referenceworks.brill.com 403 (istek engellendi) -> okunamadi
+Yakın Doğu	BAE	tr	TDV İslâm Ansiklopedisi	ansiklopedi	https://islamansiklopedisi.org.tr/<slug>	E	E	islamansiklopedisi.org.tr/mekke	OLCULDU 16-17 Kas
+Yakın Doğu	BAE	en	Qatar Digital Library (Lorimer Gazetteer, IOR kayıtları)	arşiv neşri	https://www.qdl.qa/en/archive/<no>	ana sayfa E; ARAMA HTTP 525	H (arama); belge URL biliniyorsa E	qdl.qa/en	OLCULDU 16 Kas; arama 525
+Yakın Doğu	BAE	en	Encyclopaedia of Islam (Brill)	ansiklopedi	https://referenceworks.brill.com	H (403)	E	EI: Ṣanʿāʾ	OLCULDU 17 Kas: referenceworks.brill.com 403 (istek engellendi) -> okunamadi
+Yakın Doğu	Bahreyn	tr	TDV İslâm Ansiklopedisi	ansiklopedi	https://islamansiklopedisi.org.tr/<slug>	E	E	islamansiklopedisi.org.tr/mekke	OLCULDU 16-17 Kas
+Yakın Doğu	Bahreyn	en	Qatar Digital Library (Lorimer Gazetteer, IOR kayıtları)	arşiv neşri	https://www.qdl.qa/en/archive/<no>	ana sayfa E; ARAMA HTTP 525	H (arama); belge URL biliniyorsa E	qdl.qa/en	OLCULDU 16 Kas; arama 525
+Yakın Doğu	Bahreyn	en	Encyclopaedia of Islam (Brill)	ansiklopedi	https://referenceworks.brill.com	H (403)	E	EI: Ṣanʿāʾ	OLCULDU 17 Kas: referenceworks.brill.com 403 (istek engellendi) -> okunamadi
+Yakın Doğu	Katar	tr	TDV İslâm Ansiklopedisi	ansiklopedi	https://islamansiklopedisi.org.tr/<slug>	E	E	islamansiklopedisi.org.tr/mekke	OLCULDU 16-17 Kas
+Yakın Doğu	Katar	en	Qatar Digital Library (Lorimer Gazetteer, IOR kayıtları)	arşiv neşri	https://www.qdl.qa/en/archive/<no>	ana sayfa E; ARAMA HTTP 525	H (arama); belge URL biliniyorsa E	qdl.qa/en	OLCULDU 16 Kas; arama 525
+Yakın Doğu	Katar	en	Encyclopaedia of Islam (Brill)	ansiklopedi	https://referenceworks.brill.com	H (403)	E	EI: Ṣanʿāʾ	OLCULDU 17 Kas: referenceworks.brill.com 403 (istek engellendi) -> okunamadi
+Yakın Doğu	Kuveyt	tr	TDV İslâm Ansiklopedisi	ansiklopedi	https://islamansiklopedisi.org.tr/<slug>	E	E	islamansiklopedisi.org.tr/mekke	OLCULDU 16-17 Kas
+Yakın Doğu	Kuveyt	en	Qatar Digital Library (Lorimer Gazetteer, IOR kayıtları)	arşiv neşri	https://www.qdl.qa/en/archive/<no>	ana sayfa E; ARAMA HTTP 525	H (arama); belge URL biliniyorsa E	qdl.qa/en	OLCULDU 16 Kas; arama 525
+Yakın Doğu	Kuveyt	en	Encyclopaedia of Islam (Brill)	ansiklopedi	https://referenceworks.brill.com	H (403)	E	EI: Ṣanʿāʾ	OLCULDU 17 Kas: referenceworks.brill.com 403 (istek engellendi) -> okunamadi
+Yakın Doğu	Yemen	ar/en	Yemen: École française / CEFAS, Revue du monde musulman et de la Méditerranée	dergi	https://journals.openedition.org/remmm	E (açık erişim)	E	journals.openedition.org/remmm: Zabid	"SINANMADI (bilgiye dayalı aday; erişilemezse ""okunamadı"" yazılır)"
+Yakın Doğu	Umman	en	Journal of Oman Studies / Arabian Archaeology and Epigraphy	dergi	https://onlinelibrary.wiley.com	H	E	Sohar	"SINANMADI (bilgiye dayalı aday; erişilemezse ""okunamadı"" yazılır)"
+Yakın Doğu	Kıbrıs	en	Cyprus Dept. of Antiquities, Report; Journal of Cypriot Studies	kurumsal/dergi	https://www.mcw.gov.cy/mcw/da/da.nsf	?	E	Famagusta	"SINANMADI (bilgiye dayalı aday; erişilemezse ""okunamadı"" yazılır)"
+Yakın Doğu	Kıbrıs	el	Κυπριακαί Σπουδαί (Kypriakai Spoudai)	dergi	http://www.kypriakai-spoudai.org (Kypriaki Etaireia Istorikon Spoudon)	?	H	Λευκωσία	"SINANMADI (bilgiye dayalı aday; erişilemezse ""okunamadı"" yazılır)"
+Yakın Doğu	Kıbrıs	tr	TDV İslâm Ansiklopedisi	ansiklopedi	https://islamansiklopedisi.org.tr/kibris	E	E	islamansiklopedisi.org.tr/kibris	OLCULDU
+Balkanlar	Yunanistan	el	Μεγάλη Ελληνική Εγκυκλοπαίδεια / Εθνικό Κέντρο Τεκμηρίωσης (EKT)	ansiklopedi/kurumsal	https://www.ekt.gr	H (Cloudflare)	E	ekt.gr: Τρίπολη	OLCULDU 17 Kas: ekt.gr Cloudflare doğrulaması (403) -> okunamadi
+Balkanlar	Yunanistan	el	Ίδρυμα Μείζονος Ελληνισμού (Hellenic World Foundation) Encyclopedia of Asia Minor / Constantinople / Hellenic World	ansiklopedi	https://www.ehw.gr	E (başka kaynak)	E	ehw.gr: Σέρρες	SINANMADI
+Balkanlar	Yunanistan	en	Hesperia / Annual of the British School at Athens / Cambridge Core	dergi	https://www.cambridge.org/core	KISMEN	E	BSA: Mistra	"SINANMADI (bilgiye dayalı aday; erişilemezse ""okunamadı"" yazılır)"
+Balkanlar	Bulgaristan	bg	Bulgarian Academy of Sciences — Енциклопедия България / Старобългарски и османски извори (ИИ БАН)	akademik	https://www.bas.bg	?	E	Плевен	SINANMADI
+Balkanlar	Bulgaristan	bg	Българско историческо дружество / Исторически преглед	dergi	http://www.historicalreview.bg	?	H	Исторически преглед: Никопол	SINANMADI
+Balkanlar	Hırvatistan	hr	Hrvatska enciklopedija (LZMK)	ansiklopedi	https://enciklopedija.hr/<sehir>	E (HE ek sayfalar; cümle bölme dikkat)	E	enciklopedija.hr/clanak/karlovac	OLCULDU 16-17 Kas (28 ilk-tanık için okundu)
+Balkanlar	Hırvatistan	hr	Hrčak (Srce, hakemli dergi portalı)	dergi portalı	https://hrcak.srce.hr	E (arama), PDF ayrı	E	hrcak.srce.hr	OLCULDU 16 Kas
+Balkanlar	Sırbistan	sr	Српска енциклопедија / SANU / Историјски институт Београд	ansiklopedi/akademik	https://www.sanu.ac.rs	KISMEN (ana sayfa)	E	Београд	OLCULDU 17 Kas: sanu.ac.rs ana sayfa 1.187 karakter; ansiklopedi maddesi sınanmadı
+Balkanlar	Sırbistan	sr	doiserbia.nb.rs (Serbian Journals Online)	dergi portalı	https://doiserbia.nb.rs	H TLS hata (ERR_CERT_COMMON_NAME_INVALID)	?	doiserbia.nb.rs	OLCULDU 16 Kas: AÇILMADI
+Balkanlar	Karadağ	sr	Српска енциклопедија / SANU / Историјски институт Београд	ansiklopedi/akademik	https://www.sanu.ac.rs	KISMEN (ana sayfa)	E	Београд	OLCULDU 17 Kas: sanu.ac.rs ana sayfa 1.187 karakter; ansiklopedi maddesi sınanmadı
+Balkanlar	Karadağ	sr	doiserbia.nb.rs (Serbian Journals Online)	dergi portalı	https://doiserbia.nb.rs	H TLS hata (ERR_CERT_COMMON_NAME_INVALID)	?	doiserbia.nb.rs	OLCULDU 16 Kas: AÇILMADI
+Balkanlar	Romanya	ro	"Enciclopedia României / Institutul de Istorie ""N. Iorga"" (Academia Română)"	akademik	https://www.acad.ro	KISMEN	E	Chișinău	OLCULDU 17 Kas: acad.ro bot doğrulaması (429), sonra ana sayfa açıldı; ansiklopedi maddesi sınanmadı
+Balkanlar	Romanya	ro	Revista Istorică / Studii și Materiale (Academia Română)	dergi	https://www.acad.ro	?	H	Brăila	SINANMADI
+Balkanlar	Bosna-Hersek	bs	Bosanski Pogledi / Prilozi (Institut za istoriju Sarajevo) 	dergi	https://www.iis.unsa.ba	?	H	Višegrad	SINANMADI
+Balkanlar	Slovenya	sl	Slovenski biografski leksikon + Enciklopedija Slovenije	ansiklopedi	https://www.slovenska-biografija.si	KISMEN (yalniz ana sayfa)	E	Krško	OLCULDU 17 Kas: ana sayfa 5.208 karakter; yer maddesi sayfası sınanmadı
+Balkanlar	Arnavutluk	sq	Akademia e Shkencave e Shqipërisë / Studime Historike	dergi	https://www.akad.edu.al	?	H	Berat	SINANMADI
+Balkanlar	Kuzey Makedonya	mk	Македонска академија на науките и уметностите (МАНУ); Гласник на Институтот за национална историја	akademik	https://manu.edu.mk	?	H	Битола	SINANMADI
+Balkanlar	Kosova	sq	Instituti Albanologjik i Prishtinës / Gjurmime Albanologjike	dergi	https://www.alb-institute.org	?	H	Prizren	SINANMADI
+Balkanlar	Yunanistan	tr	TDV İslâm Ansiklopedisi (Rumeli şehirleri)	ansiklopedi	https://islamansiklopedisi.org.tr/<slug>	E	E	islamansiklopedisi.org.tr/selanik	OLCULDU 16-17 Kas
+Balkanlar	Bulgaristan	tr	TDV İslâm Ansiklopedisi (Rumeli şehirleri)	ansiklopedi	https://islamansiklopedisi.org.tr/<slug>	E	E	islamansiklopedisi.org.tr/selanik	OLCULDU 16-17 Kas
+Balkanlar	Romanya	tr	TDV İslâm Ansiklopedisi (Rumeli şehirleri)	ansiklopedi	https://islamansiklopedisi.org.tr/<slug>	E	E	islamansiklopedisi.org.tr/selanik	OLCULDU 16-17 Kas
+Balkanlar	Sırbistan	tr	TDV İslâm Ansiklopedisi (Rumeli şehirleri)	ansiklopedi	https://islamansiklopedisi.org.tr/<slug>	E	E	islamansiklopedisi.org.tr/selanik	OLCULDU 16-17 Kas
+Balkanlar	Hırvatistan	tr	TDV İslâm Ansiklopedisi (Rumeli şehirleri)	ansiklopedi	https://islamansiklopedisi.org.tr/<slug>	E	E	islamansiklopedisi.org.tr/selanik	OLCULDU 16-17 Kas
+Balkanlar	Bosna-Hersek	tr	TDV İslâm Ansiklopedisi (Rumeli şehirleri)	ansiklopedi	https://islamansiklopedisi.org.tr/<slug>	E	E	islamansiklopedisi.org.tr/selanik	OLCULDU 16-17 Kas
+Balkanlar	Karadağ	tr	TDV İslâm Ansiklopedisi (Rumeli şehirleri)	ansiklopedi	https://islamansiklopedisi.org.tr/<slug>	E	E	islamansiklopedisi.org.tr/selanik	OLCULDU 16-17 Kas
+Balkanlar	Slovenya	tr	TDV İslâm Ansiklopedisi (Rumeli şehirleri)	ansiklopedi	https://islamansiklopedisi.org.tr/<slug>	E	E	islamansiklopedisi.org.tr/selanik	OLCULDU 16-17 Kas
+Balkanlar	Arnavutluk	tr	TDV İslâm Ansiklopedisi (Rumeli şehirleri)	ansiklopedi	https://islamansiklopedisi.org.tr/<slug>	E	E	islamansiklopedisi.org.tr/selanik	OLCULDU 16-17 Kas
+Balkanlar	Kuzey Makedonya	tr	TDV İslâm Ansiklopedisi (Rumeli şehirleri)	ansiklopedi	https://islamansiklopedisi.org.tr/<slug>	E	E	islamansiklopedisi.org.tr/selanik	OLCULDU 16-17 Kas
+Balkanlar	Kosova	tr	TDV İslâm Ansiklopedisi (Rumeli şehirleri)	ansiklopedi	https://islamansiklopedisi.org.tr/<slug>	E	E	islamansiklopedisi.org.tr/selanik	OLCULDU 16-17 Kas
+Doğu Avrupa	Rusya	ru	Большая российская энциклопедия (БРЭ)	ansiklopedi	https://bigenc.ru/geography/<ad>	H (403, IP engeli)	E	bigenc.ru: Вологда	OLCULDU 17 Kas: HTTP 403 (bigenc.ru bu IP'ye yasak, 298 karakter hata sayfası) -> okunamadi
+Doğu Avrupa	Rusya	ru	Электронная библиотека Научная электронная библиотека eLIBRARY.RU / CyberLeninka	dergi portalı	https://cyberleninka.ru	H (arama boş)	E (arama)	cyberleninka.ru arama: Орёл	OLCULDU 17 Kas: cyberleninka arama sayfası 143 karakter (sonuç yok/JS); makale sayfası sınanmadı
+Doğu Avrupa	Rusya	en	Columbia Encyclopedia (Encyclopedia.com)	ansiklopedi	https://www.encyclopedia.com	E	E	encyclopedia.com: Vologda	OLCULDU 17 Kas: tahmin edilen URL 404 (encyclopedia.com/places/.../vologda yok); doğru slug aranmadı -> okunamadi
+Doğu Avrupa	Rusya	ru	Институт российской истории РАН / Вопросы истории	akademik/dergi	https://iriran.ru	?	H	Вопросы истории: Тула	SINANMADI
+Doğu Avrupa	Ukrayna	en	Encyclopedia of Ukraine (CIUS, Internet Encyclopedia of Ukraine)	ansiklopedi	https://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5C<harf>%5C<ad>.htm	E (8.693 karakter)	E	encyclopediaofukraine.com Kholm.htm	OLCULDU 17 Kas: Kholm.htm 8.693 karakter tam gövde
+Doğu Avrupa	Ukrayna	uk	Енциклопедія історії України (НАН України)	ansiklopedi	https://resource.history.org.ua/cgi-bin/eiu	?	E	Запоріжжя	SINANMADI
+Doğu Avrupa	Belarus	en	Encyclopedia Britannica + Беларуская энцыклапедыя (BRE)	ansiklopedi	https://www.britannica.com/place/<ad>	E	E	britannica.com/place/Vitebsk	OLCULDU 17 Kas: britannica.com/place/Vitebsk 404 (doğru slug aranmadı); BRE sınanmadı
+Doğu Avrupa	Letonya	en	Encyclopaedia Britannica / Treccani	ansiklopedi	https://www.britannica.com/place/<ad>	E (Treccani 5.099)	E	britannica.com/place/Tartu	OLCULDU 17 Kas: Treccani /enciclopedia/vologda/ 5.099 karakter tam gövde (Britannica Vitebsk 404)
+Doğu Avrupa	Litvanya	en	Encyclopaedia Britannica / Treccani	ansiklopedi	https://www.britannica.com/place/<ad>	E (Treccani 5.099)	E	britannica.com/place/Tartu	OLCULDU 17 Kas: Treccani /enciclopedia/vologda/ 5.099 karakter tam gövde (Britannica Vitebsk 404)
+Doğu Avrupa	Estonya	en	Encyclopaedia Britannica / Treccani	ansiklopedi	https://www.britannica.com/place/<ad>	E (Treccani 5.099)	E	britannica.com/place/Tartu	OLCULDU 17 Kas: Treccani /enciclopedia/vologda/ 5.099 karakter tam gövde (Britannica Vitebsk 404)
+Doğu Avrupa	Letonya	lv	Latvijas Nacionālā enciklopēdija	ansiklopedi	https://enciklopedija.lv	H (623 karakter)	E	Daugavpils	OLCULDU 17 Kas: tahmin edilen slug sayfası 623 karakter (içerik yok); doğru slug aranmadı -> okunamadi
+Doğu Avrupa	Litvanya	lt	Visuotinė lietuvių enciklopedija (VLE)	ansiklopedi	https://www.vle.lt	E (12.505 karakter)	E	Klaipėda	OLCULDU 17 Kas: /straipsnis/klaipeda/ 12.505 karakter tam gövde
+Doğu Avrupa	Estonya	et	Eesti entsüklopeedia / Eesti Teaduste Akadeemia	ansiklopedi	https://entsyklopeedia.ee	H	E	Tartu	OLCULDU 17 Kas: tarayıcı gezintisi reddedildi (site izni yok) -> okunamadi
+Doğu Avrupa	Moldova	ro	Enciclopedia Sovietică Moldovenească / Academia de Științe a Moldovei	ansiklopedi/akademik	https://www.asm.md	?	H	Chișinău	SINANMADI
+Sibirya/Uzak Doğu	Rusya	ru	БРЭ + Энциклопедия «Сибирь» (ИИ СО РАН)	ansiklopedi	https://bigenc.ru	E	E	bigenc.ru: Иркутск	SINANMADI
+Sibirya/Uzak Doğu	Rusya	ru	Институт истории СО РАН / Сибирский исторический журнал	akademik/dergi	https://history.nsc.ru	?	H	Томск	SINANMADI
+Sibirya/Uzak Doğu	Rusya	en	Encyclopedia of Siberia / Cambridge: History of Siberia	ansiklopedi	https://www.britannica.com/place/Siberia	E	E	britannica.com/place/Irkutsk	SINANMADI

@@ -1,0 +1,15 @@
+id	kat	ulke	ad_1900	ad_modern	lat_atlas_tahmin	lon_atlas_tahmin	kaynak_1900	not
+hofuf	3	Suudi Arabistan	Hufuf	Hofuf			Cuinet TdA c.3 (chef-lieu Houfouf) + TDV BASRA	
+kars	2	Türkiye	Kars	Kars	40.602	43.095	Statoids uru (Rus İmp. il tablosu)	kiril: Карс
+elazig	2	Türkiye	Mamuretülaziz (Harput-Mezre)	Elazığ	38.714	39.245	Cuinet TdA c.2 (1891) (Kharpout-Mezré)	vali Mezre'de; Harput eski merkez
+dogubayazit	3	Türkiye	Bayezid	Doğubayazıt	39.548	44.084	Cuinet TdA c.1 (1892)	Cuinet 1891-96 durumu; 1900'e kadar değişiklik bilinmiyor
+maden-(elazig)	3	Türkiye	Ergani Madeni	Maden (Elazığ)	38.714	39.245	Cuinet TdA c.2 (1891) (Arghana-ma'aden, chef-lieu du sandjak)	Cuinet 1891-96 durumu; 1900'e kadar değişiklik bilinmiyor
+bulunamadi-(genc/bingol-yoresi)	3	Türkiye	Gernik	bulunamadı (Genç/Bingöl yöresi)			Cuinet TdA c.2 (1891) ('Guernik, chef-lieu du sandjak et du merkez-caza de Guendj')	Cuinet 1891-96 durumu; 1900'e kadar değişiklik bilinmiyor; Gernik'in bugünkü karşılığı doğrulanmadı (Darahini/Genç olabilir)
+gumushane	3	Türkiye	Gümüşhane	Gümüşhane	40.461	39.477	Cuinet TdA c.1 (1892)	Cuinet 1891-96 durumu; 1900'e kadar değişiklik bilinmiyor
+kirklareli	3	Türkiye	Kırkkilise	Kırklareli	41.943	27.401	TDV KIRKLARELİ	
+silifke	3	Türkiye	Silifke	Silifke	36.309	33.938	Cuinet TdA c.2 (1891) (chef-lieu Selefké)	Cuinet 1891-96 durumu; 1900'e kadar değişiklik bilinmiyor
+kozan	3	Türkiye	Sis	Kozan			Cuinet TdA c.2 (1891) (chef-lieu Sis)	Cuinet 1891-96 durumu; 1900'e kadar değişiklik bilinmiyor
+yarpuz-(osmaniye)	3	Türkiye	Yarpuz	Yarpuz (Osmaniye)			Cuinet TdA c.2 (1891) (chef-lieu Yarpout)	Cuinet 1891-96 durumu; 1900'e kadar değişiklik bilinmiyor; merkezin sonradan Osmaniye'ye taşındığı tarih doğrulanmadı
+lahij	2	Yemen	Lahic (el-Hûta)	Lahij			genel bilgi	Aden protektorasındaki ~9 kabile devletinden yalnız büyükleri; tam liste bulunamadı
+seiyun	2	Yemen	Seyûn	Seiyun	15.9433	48.7933	genel bilgi	Aden protektorasındaki ~9 kabile devletinden yalnız büyükleri; tam liste bulunamadı
+al-karak	3	Ürdün	Kerek	Al-Karak			Cuinet Syrie (1896) (Karak Mart 1894'ten sandjaq merkezi)	

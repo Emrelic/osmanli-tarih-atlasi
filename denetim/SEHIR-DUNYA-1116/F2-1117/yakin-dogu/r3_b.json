@@ -1,0 +1,153 @@
+[
+ {
+  "id": "duzce-tr",
+  "ad": "Düzce",
+  "atlas_ad": null,
+  "lat": 40.8389,
+  "lon": 31.1639,
+  "kat1900": 3,
+  "adlar": [
+   "Tuzca",
+   "Duzca",
+   "Akçeşehiri maa Düzce",
+   "Düzce"
+  ],
+  "ilk": {
+   "t": "1519-01-01",
+   "gun": "1519",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV Islam Ansiklopedisi, DÜZCE (Metin Tuncel), 2020, https://islamansiklopedisi.org.tr/duzce (17 Kas 2026 gomulu tarayicida okundu)",
+   "tanik": "1519 tahririnde bu adın Tuzca/Duzca okunacak şekilde yazılması tuz ticaretinin yapıldığı bir pazar yeri olmasıyla ilgili olabilir."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1519-01-01",
+    "t": "1900-01-01",
+    "d": "osmanli",
+    "kesinlik": "yil",
+    "kaynak": "TDV Islam Ansiklopedisi, DÜZCE (Metin Tuncel), 2020, https://islamansiklopedisi.org.tr/duzce (17 Kas 2026 gomulu tarayicida okundu)",
+    "ic_not": "TDV: 925 (1519) tahriri Konurapa Bolu sancagina bagli kaza; XIX. yy ikinci yarisi vilayet duzeni (Kastamonu vilayeti, Bolu sancagi, Goynuk kazasi): Osmanli surekli; gecis gunu yok."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1519-01-01",
+    "gun": "1519",
+    "k": "diger",
+    "b": "925 (1519) tahririnde Duzce yerlesim olmayan bir kir pazari olarak anildi (Konurapa/Bolu sancagi kazasi)",
+    "kaynak": "TDV Islam Ansiklopedisi, DÜZCE (Metin Tuncel), 2020, https://islamansiklopedisi.org.tr/duzce (17 Kas 2026 gomulu tarayicida okundu)"
+   },
+   {
+    "t": "1920-04-13",
+    "gun": "13 Nisan 1920",
+    "k": "isyan",
+    "b": "Duzce ayaklanmalarinin ilki basladi (26 Mayis'ta bastirildi)",
+    "kaynak": "TDV Islam Ansiklopedisi, DÜZCE (Metin Tuncel), 2020, https://islamansiklopedisi.org.tr/duzce (17 Kas 2026 gomulu tarayicida okundu)"
+   },
+   {
+    "t": "1920-08-08",
+    "gun": "8 Agustos 1920",
+    "k": "isyan",
+    "b": "Duzce ikinci isyan hareketi patlak verdi; Duzce ve Bolu asilerin eline gecti",
+    "kaynak": "TDV Islam Ansiklopedisi, DÜZCE (Metin Tuncel), 2020, https://islamansiklopedisi.org.tr/duzce (17 Kas 2026 gomulu tarayicida okundu)"
+   },
+   {
+    "t": "1920-09-23",
+    "gun": "23 Eylul 1920",
+    "k": "diger",
+    "b": "Duzce isyancilardan kurtarildi (Bolu 14 Agustos'ta)",
+    "kaynak": "TDV Islam Ansiklopedisi, DÜZCE (Metin Tuncel), 2020, https://islamansiklopedisi.org.tr/duzce (17 Kas 2026 gomulu tarayicida okundu)"
+   }
+  ],
+  "ic_not": "TEK KAYNAK (TDV). TANIK KURALI: ilk.t 'tahrir ismi' (1519 = 925 hicri; TDV miladi karsiligi verir); yer 'icinde yerlesme olmayan kir pazari' (sehir 19. yy'da kuruldu: TDV 'Duzce 9 km kuzeyindeki Uskubu'nun yerini almis bir XIX. yuzyil sehridir'). ANTIK/ESKI MERKEZ AYRI YERLESIM: Uskubu/Konuralp (Prusias ad Hypium; 9 km kuzey) -> ayri kayit onerisi, burada yazilmadi (3 km kurali; Konuralp 1321/1323 fethi, Bitinya 74 MO Roma'ya, 395 Dogu Roma TDV'de). Sahip: Bolu sancagi kazasi 1519'da Osmanli; 19. yy Kastamonu vilayeti Bolu sancagi Goynuk kazasi 'Akcesehiri maa Duzce' nahiyesi (yil yok): osmanli 1519-1900. Atlas noktasi/kunyesi bu turda kontrol edilmedi (LISTE ek-modern-merkez, atlas_ad bos). koord: GeoNames arama sayfasi 17 Kas 2026'da okundu."
+ },
+ {
+  "id": "fujairah-ae",
+  "ad": "Fujairah",
+  "atlas_ad": null,
+  "lat": 25.1164,
+  "lon": 56.3414,
+  "kat1900": 3,
+  "adlar": [
+   "Füceyre",
+   "Fujairah"
+  ],
+  "ilk": {
+   "t": "1800-01-01",
+   "gun": "1800",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV Islam Ansiklopedisi, FÜCEYRE (Mustafa L. Bilge), 1996, https://islamansiklopedisi.org.tr/fuceyre (17 Kas 2026 gomulu tarayicida okundu)",
+   "tanik": "1800 yılından beri onlara tâbi olan Füceyreliler vergi ödemekten vazgeçtiler."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1800-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV Islam Ansiklopedisi, FÜCEYRE (Mustafa L. Bilge), 1996, https://islamansiklopedisi.org.tr/fuceyre (17 Kas 2026 gomulu tarayicida okundu)",
+    "ic_not": "TDV: Kavasim (Sarika) tabiyeti (1800'den), Vehhabi 1809-10, 1892 Ingiliz antlasmasi (dis islerde); 1952 bagimsiz seyhlik; yil duzeyi, kunyeli zincir kurulmadi."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1809-01-01",
+    "gun": "1809-1810",
+    "k": "fetih",
+    "b": "Necid'den gelen Vehhabilerin idaresine girdi; zekatlarini onlara oduyen Fuceyre halki sonra bu idareden kurtuldu",
+    "kaynak": "TDV Islam Ansiklopedisi, FÜCEYRE (Mustafa L. Bilge), 1996, https://islamansiklopedisi.org.tr/fuceyre (17 Kas 2026 gomulu tarayicida okundu)"
+   },
+   {
+    "t": "1866-01-01",
+    "gun": "1866",
+    "k": "isyan",
+    "b": "Kavasim lideri Seyh Sultan b. Sakr'in olumuyle Fuceyreliler vergi odemekten vazgecti; sonra yeniden kabul etti",
+    "kaynak": "TDV Islam Ansiklopedisi, FÜCEYRE (Mustafa L. Bilge), 1996, https://islamansiklopedisi.org.tr/fuceyre (17 Kas 2026 gomulu tarayicida okundu)"
+   },
+   {
+    "t": "1879-01-01",
+    "gun": "1879",
+    "k": "isyan",
+    "b": "Fuceyre halki Sarika seyhinin gonderdigi valiye karsi isyan etti",
+    "kaynak": "TDV Islam Ansiklopedisi, FÜCEYRE (Mustafa L. Bilge), 1996, https://islamansiklopedisi.org.tr/fuceyre (17 Kas 2026 gomulu tarayicida okundu)"
+   },
+   {
+    "t": "1892-01-01",
+    "gun": "1892",
+    "k": "antlasma",
+    "b": "Ingiltere'nin yeni antlasmasi: kiyi emirlikleri ic islerinde serbest, dis islerinde Ingiliz hukumetine bagli",
+    "kaynak": "TDV Islam Ansiklopedisi, FÜCEYRE (Mustafa L. Bilge), 1996, https://islamansiklopedisi.org.tr/fuceyre (17 Kas 2026 gomulu tarayicida okundu)"
+   },
+   {
+    "t": "1903-01-01",
+    "gun": "1903",
+    "k": "diger",
+    "b": "Hindistan'daki sömürge hükümeti Fuceyre'yi Sarika'ya bagli bir seyhlik olarak tanidigini acikladi",
+    "kaynak": "TDV Islam Ansiklopedisi, FÜCEYRE (Mustafa L. Bilge), 1996, https://islamansiklopedisi.org.tr/fuceyre (17 Kas 2026 gomulu tarayicida okundu)"
+   },
+   {
+    "t": "1952-01-01",
+    "gun": "1952",
+    "k": "antlasma",
+    "b": "Fuceyre bagimsiz seyhlik olarak tanindi; Antlasmali Emirlikler Konseyi'ne katildi",
+    "kaynak": "TDV Islam Ansiklopedisi, FÜCEYRE (Mustafa L. Bilge), 1996, https://islamansiklopedisi.org.tr/fuceyre (17 Kas 2026 gomulu tarayicida okundu)"
+   },
+   {
+    "t": "1971-12-02",
+    "gun": "2 Aralik 1971",
+    "k": "kurulus",
+    "b": "Ingiltere antlasmalari feshedip Fuceyre'nin de dahil oldugu Birlesik Arap Emirlikleri federasyonunu tanidi",
+    "kaynak": "TDV Islam Ansiklopedisi, FÜCEYRE (Mustafa L. Bilge), 1996, https://islamansiklopedisi.org.tr/fuceyre (17 Kas 2026 gomulu tarayicida okundu)"
+   }
+  ],
+  "ic_not": "IKI KAYNAK (TDV ana; Britannica 'Fujairah': Qasimi/Sharjah 1850 civari ilhak, 1886'ya kadar fiilen bagimsiz, 19. yy'da Ingiltere tarafindan bagimsiz tanimadi: TDV ile celismez, farkli ayrinti; CIFT TEYIT DEGIL). TDV maddesi EMIRLIK maddesi; sehir Fuceyre emirligin merkezi (TDV: 'emirligin merkezi olan Fuceyre sehri'): ilk.t emirlik/sehir halki icin; ilk.kesinlik 'yil' (1800 'beri': guvenli uc eski). Sahip: Kavasim (Sarika) tabiyeti 1800-1866; Vehhabi 1809-10; Ingiliz himayesi 1892: kunyeli gecis gunleri yok. Atlas noktasi/kunyesi bu turda kontrol edilmedi (LISTE ek-modern-merkez, atlas_ad bos). koord: GeoNames arama sayfasi 17 Kas 2026'da okundu."
+ }
+]

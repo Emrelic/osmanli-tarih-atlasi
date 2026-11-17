@@ -1,0 +1,502 @@
+[
+ {
+  "id": "ostroh",
+  "ad": "Ostroh",
+  "atlas_ad": null,
+  "lat": 50.329,
+  "lon": 26.5211,
+  "kat1900": 4,
+  "adlar": [
+   "Ostroh",
+   "Ostrih",
+   "Ostróg",
+   "Острог"
+  ],
+  "ilk": {
+   "t": "1100-01-01",
+   "gun": "1100",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Ostroh' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gomulu tarayicida okundu)",
+   "tanik": "It is first mentioned in the Hypatian Chronicle under the year 1100."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1100-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Ostroh' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gomulu tarayicida okundu)",
+    "ic_not": "EoU: 14. yy ikinci yarisinda Litvanya; 1386'dan Ostrozky ailesi; 1793'te Rusya. Kunyeli sahip gecis gunleri kaynakta yok: zincir kurulmadi."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1386-01-01",
+    "gun": "1386",
+    "k": "diger",
+    "b": "Ostroh Ostrozky ailesinin mulkune gecti; kale ve Epiphany Kilisesi yapildi",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Ostroh' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gomulu tarayicida okundu)"
+   },
+   {
+    "t": "1528-01-01",
+    "gun": "1528",
+    "k": "diger",
+    "b": "Ostroh'a Magdeburg hakki verildi",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Ostroh' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gomulu tarayicida okundu)"
+   },
+   {
+    "t": "1648-01-01",
+    "gun": "1648",
+    "k": "fetih",
+    "b": "Bohdan Khmelnytsky Ostroh'u ele gecirdi; kale ve kilise yikildi",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Ostroh' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gomulu tarayicida okundu)"
+   },
+   {
+    "t": "1793-01-01",
+    "gun": "1793",
+    "k": "diger",
+    "b": "Lehistan'in bolunmesiyle Ostroh Rusya'ya devredildi; Volhynia guberniasinda uyezd merkezi",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Ostroh' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gomulu tarayicida okundu)"
+   }
+  ],
+  "ic_not": "TEK KAYNAK (EoU); ikinci bagimsiz akademik kaynak bu turda okunmadi. Atlas noktasi yok (LISTE atlas_ad bos): zincir 1900-01-01'e kadar. LISTE'de UYEZD-BORC (kat 4) etiketli; cagiran gorev geregi yazildi. Sahip zinciri: Litvanya (14. yy ikinci yarisi, tarihsiz) -> 1386 Ostrozky ailesi -> Zaslawski -> 1673 Wisniowiecki -> 1700 Sanguszko -> 1793 Rusya; kunyeli devlet sahibi/gun yok, __BOSLUK__. koord: GeoNames arama sayfasi 17 Kas 2026'da okundu (PPL kaydi).",
+  "ad_kaynak": "EoU: 'Ostroh or Ostrih'; Ostróg/Острог LISTE ad_1900 ve kiril alani."
+ },
+ {
+  "id": "pryluky",
+  "ad": "Pryluky",
+  "atlas_ad": null,
+  "lat": 50.5953,
+  "lon": 32.3838,
+  "kat1900": 4,
+  "adlar": [
+   "Pryluky",
+   "Pryluka",
+   "Priluki",
+   "Прилуки"
+  ],
+  "ilk": {
+   "t": "1092-01-01",
+   "gun": "1092",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Pryluky' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gomulu tarayicida okundu)",
+   "tanik": "It was first mentioned, as a fortress, in the Hypatian Chronicle under the year 1092."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1092-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Pryluky' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gomulu tarayicida okundu)",
+    "ic_not": "EoU: Hlynsky knezleri/Litvanya (15. yy), 1569 Lehistan, 1654 Hetman devleti; gun yok: zincir kurulmadi."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1239-01-01",
+    "gun": "1239",
+    "k": "fetih",
+    "b": "Pryluky Mogollar tarafindan yikildi",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Pryluky' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gomulu tarayicida okundu)"
+   },
+   {
+    "t": "1569-01-01",
+    "gun": "1569",
+    "k": "diger",
+    "b": "Pryluky Litvanya Buyuk Dukaligi'ndan Lehistan Ortak Cumhuriyeti'ne gecti",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Pryluky' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gomulu tarayicida okundu)"
+   },
+   {
+    "t": "1654-01-01",
+    "gun": "1654",
+    "k": "diger",
+    "b": "Pryluky Hetman devletinin alay (regiment) merkezi oldu (1654-1781)",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Pryluky' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gomulu tarayicida okundu)"
+   },
+   {
+    "t": "1783-01-01",
+    "gun": "1783",
+    "k": "diger",
+    "b": "Pryluky'ye Magdeburg hakki verildi",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Pryluky' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gomulu tarayicida okundu)"
+   }
+  ],
+  "ic_not": "TEK KAYNAK (EoU); ikinci bagimsiz akademik kaynak bu turda okunmadi. Atlas noktasi yok (LISTE atlas_ad bos): zincir 1900-01-01'e kadar. LISTE'de UYEZD-BORC (kat 4) etiketli; cagiran gorev geregi yazildi. 15. yy Hlynsky knezleri yeniden kurdu; Litvanya -> 1569 Lehistan -> 1654 Hetman devleti -> 1781 Chernihiv vekalet bolgesi -> 1802 Poltava guberniasi. koord: GeoNames arama sayfasi 17 Kas 2026'da okundu (PPL kaydi)."
+ },
+ {
+  "id": "ovruch",
+  "ad": "Ovruch",
+  "atlas_ad": null,
+  "lat": 51.3274,
+  "lon": 28.8017,
+  "kat1900": 4,
+  "adlar": [
+   "Vruchyi",
+   "Ovruch",
+   "Ovruč",
+   "Овруч"
+  ],
+  "ilk": {
+   "t": "0946-01-01",
+   "gun": "946",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Ovruch' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gomulu tarayicida okundu)",
+   "tanik": "It is first mentioned in the chronicles under the year 946 as Vruchyi, a Derevlianian settlement."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0946-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Ovruch' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gomulu tarayicida okundu)",
+    "ic_not": "EoU: Derevlian yerlesimi; 12. yy Riuryk Rostyslavych beyligi; 1362 Litvanya; 1569 Lehistan; 1793 Rusya. Gun yok: zincir kurulmadi."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0977-01-01",
+    "gun": "977",
+    "k": "savas",
+    "b": "Oleh Sviatoslavych ile Yaropolk I Sviatoslavych Ovruch'ta savasti",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Ovruch' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gomulu tarayicida okundu)"
+   },
+   {
+    "t": "1362-01-01",
+    "gun": "1362",
+    "k": "diger",
+    "b": "Ovruch Litvanya egemenligine girdi (Litvanya-Rutenya devleti)",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Ovruch' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gomulu tarayicida okundu)"
+   },
+   {
+    "t": "1569-01-01",
+    "gun": "1569",
+    "k": "diger",
+    "b": "Lublin Birligi sonrasi Ovruch Lehistan'a devredildi; Ovruch starostvo merkezi",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Ovruch' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gomulu tarayicida okundu)"
+   },
+   {
+    "t": "1641-01-01",
+    "gun": "1641",
+    "k": "diger",
+    "b": "Ovruch'a Magdeburg hakki verildi",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Ovruch' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gomulu tarayicida okundu)"
+   },
+   {
+    "t": "1793-01-01",
+    "gun": "1793",
+    "k": "diger",
+    "b": "Lehistan'in bolunmesinden sonra Rusya'ya katildi; Volhynia guberniasinda uyezd merkezi",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Ovruch' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gomulu tarayicida okundu)"
+   }
+  ],
+  "ic_not": "TEK KAYNAK (EoU); ikinci bagimsiz akademik kaynak bu turda okunmadi. Atlas noktasi yok (LISTE atlas_ad bos): zincir 1900-01-01'e kadar. LISTE'de UYEZD-BORC (kat 4) etiketli; cagiran gorev geregi yazildi. 12. yy ikinci yarisi Riuryk (Vasylii) Rostyslavych beyligi (tarihsiz). koord: GeoNames arama sayfasi 17 Kas 2026'da okundu (PPL kaydi).",
+  "ad_kaynak": "EoU: 'Ovruch [Овруч; Ovruč]'; 946'da 'Vruchyi' adiyla."
+ },
+ {
+  "id": "pereiaslav",
+  "ad": "Pereiaslav",
+  "atlas_ad": null,
+  "lat": 50.0674,
+  "lon": 31.4497,
+  "kat1900": 4,
+  "adlar": [
+   "Pereiaslavl",
+   "Pereiaslav",
+   "Pereiaslav-Khmelnytskyi",
+   "Pereiaslav",
+   "Переяслав"
+  ],
+  "ilk": {
+   "t": "0907-01-01",
+   "gun": "907",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Pereiaslav' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gomulu tarayicida okundu)",
+   "tanik": "it is first mentioned in 907, in a treaty between Prince Oleh and Byzantium"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0907-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Pereiaslav' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gomulu tarayicida okundu)",
+    "ic_not": "EoU: Kiev Rus'u Pereiaslav beyligi (11. yy ortasi-13. yy basi); 1239 Tatar; 16. yy Kiev voyvodaligi (Lehistan); 1648 Hetman devleti. Gun yok: zincir kurulmadi."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0992-01-01",
+    "gun": "992",
+    "k": "diger",
+    "b": "Volodymyr tahkimatlari guclendirdi (Pecheneg zaferi sonrasi) - kronik kaydi",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Pereiaslav' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gomulu tarayicida okundu)"
+   },
+   {
+    "t": "1239-01-01",
+    "gun": "1239",
+    "k": "fetih",
+    "b": "Pereiaslav Tatarlar tarafindan yikildi",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Pereiaslav' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gomulu tarayicida okundu)"
+   },
+   {
+    "t": "1648-01-01",
+    "gun": "1648",
+    "k": "diger",
+    "b": "Pereiaslav Hetman devletinin alay merkezi oldu (Khmelnytsky)",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Pereiaslav' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gomulu tarayicida okundu)"
+   },
+   {
+    "t": "1654-01-01",
+    "gun": "1654",
+    "k": "antlasma",
+    "b": "Pereiaslav Antlasmasi muzakereleri Pereiaslav'da",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Pereiaslav' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gomulu tarayicida okundu)"
+   },
+   {
+    "t": "1943-01-01",
+    "gun": "1943",
+    "k": "diger",
+    "b": "Sehrin adi Pereiaslav-Khmelnytskyi oldu",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Pereiaslav' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gomulu tarayicida okundu)"
+   },
+   {
+    "t": "2017-01-01",
+    "gun": "2017",
+    "k": "diger",
+    "b": "Sehir adi yeniden Pereiaslav yapildi",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Pereiaslav' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gomulu tarayicida okundu)"
+   }
+  ],
+  "ic_not": "TEK KAYNAK (EoU); ikinci bagimsiz akademik kaynak bu turda okunmadi. Atlas noktasi yok (LISTE atlas_ad bos): zincir 1900-01-01'e kadar. LISTE'de UYEZD-BORC (kat 4) etiketli; cagiran gorev geregi yazildi. Pereiaslav beyligi/eparkisi merkezi 11. yy ortasi-13. yy basi; 16. yy ortasindan Kiev voyvodaligi Kazak merkezi. Dikkat: 'Pereiaslav' adi uzak Rus Pereslavl'lerle karismasin (EoU Ukrayna sehri). koord: GeoNames arama sayfasi 17 Kas 2026'da okundu (PPL kaydi).",
+  "ad_kaynak": "EoU: Pereiaslavl (Prens donemi) -> Pereiaslav -> 1943 Pereiaslav-Khmelnytskyi -> 2017 Pereiaslav."
+ },
+ {
+  "id": "hlukhiv",
+  "ad": "Hlukhiv",
+  "atlas_ad": null,
+  "lat": 51.6798,
+  "lon": 33.9168,
+  "kat1900": 4,
+  "adlar": [
+   "Hlukhiv",
+   "Hluxiv",
+   "Glukhov",
+   "Глухов"
+  ],
+  "ilk": {
+   "t": "1152-01-01",
+   "gun": "1152",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Hlukhiv' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gomulu tarayicida okundu)",
+   "tanik": "Mentioned in the Hypatian Chronicle under the year 1152 as a city in Chernihiv principality"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1152-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Hlukhiv' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gomulu tarayicida okundu)",
+    "ic_not": "EoU: Chernihiv beyligi -> Mogol (13. yy ortasi) -> Litvanya (1350'ler) -> 1503 Moskova -> 1618 Lehistan -> 1648 Hetman devleti -> Rusya. Gun yok: zincir kurulmadi."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1503-01-01",
+    "gun": "1503",
+    "k": "fetih",
+    "b": "Hlukhiv bolgesi Moskova tarafindan ilhak edildi",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Hlukhiv' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gomulu tarayicida okundu)"
+   },
+   {
+    "t": "1618-01-01",
+    "gun": "1618",
+    "k": "diger",
+    "b": "Hlukhiv Lehistan'a ilhak edildi ve Magdeburg hakki aldi",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Hlukhiv' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gomulu tarayicida okundu)"
+   },
+   {
+    "t": "1669-01-01",
+    "gun": "1669",
+    "k": "antlasma",
+    "b": "Hlukhiv Maddeleri Hlukhiv'de imzalandi",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Hlukhiv' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gomulu tarayicida okundu)"
+   },
+   {
+    "t": "1708-01-01",
+    "gun": "1708",
+    "k": "diger",
+    "b": "Hlukhiv Sol Yaka hetmanlarinin baskenti oldu (1708-22 ve 1727-64)",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Hlukhiv' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gomulu tarayicida okundu)"
+   },
+   {
+    "t": "1750-01-01",
+    "gun": "1750",
+    "k": "diger",
+    "b": "Hlukhiv Konseyi'nde Kyrylo Rozumovsky hetman secildi",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Hlukhiv' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gomulu tarayicida okundu)"
+   },
+   {
+    "t": "1919-01-01",
+    "gun": "1919",
+    "k": "fetih",
+    "b": "Ocak 1919'da Hlukhiv Sovyet kuvvetlerince isgal edildi",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Hlukhiv' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gomulu tarayicida okundu)"
+   }
+  ],
+  "ic_not": "TEK KAYNAK (EoU); ikinci bagimsiz akademik kaynak bu turda okunmadi. Atlas noktasi yok (LISTE atlas_ad bos): zincir 1900-01-01'e kadar. LISTE'de UYEZD-BORC (kat 4) etiketli; cagiran gorev geregi yazildi. EoU: 13.-14. yy Chernihiv beyligi (ayri beylik baskenti), 13. yy ortasi Mogol, 1350'ler Litvanya egemenligi. Ay/gun: 1919 icin EoU 'January 1919' verir, gun yok (yil hassasiyeti). koord: GeoNames arama sayfasi 17 Kas 2026'da okundu (PPL kaydi).",
+  "ad_kaynak": "EoU: 'Hlukhiv [Глухів; Hluxiv]'; Glukhov LISTE ad_1900."
+ },
+ {
+  "id": "kaniv",
+  "ad": "Kaniv",
+  "atlas_ad": null,
+  "lat": 49.7519,
+  "lon": 31.47,
+  "kat1900": 4,
+  "adlar": [
+   "Kaniv",
+   "Канів",
+   "Kanev"
+  ],
+  "ilk": {
+   "t": "1100-01-01",
+   "gun": "11. yy ikinci yarisi",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yuzyil",
+   "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Kaniv' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gomulu tarayicida okundu)",
+   "tanik": "it was mentioned in the Kyivan Cave Patericon as existing in the last half of the 11th century"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1100-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Kaniv' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gomulu tarayicida okundu)",
+    "ic_not": "EoU: Kiev Rus'u (11-12. yy), Litvanya 1362-1596, Lehistan, Kazak alay merkezi 1637-78, 1793 Rusya. Gun yok: zincir kurulmadi."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1362-01-01",
+    "gun": "1362",
+    "k": "diger",
+    "b": "Kaniv Litvanya egemenligine girdi (1362-1596 starosta yonetimi)",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Kaniv' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gomulu tarayicida okundu)"
+   },
+   {
+    "t": "1556-01-01",
+    "gun": "1556",
+    "k": "diger",
+    "b": "Kaniv'e Magdeburg hakki verildi",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Kaniv' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gomulu tarayicida okundu)"
+   },
+   {
+    "t": "1637-01-01",
+    "gun": "1637",
+    "k": "diger",
+    "b": "Kaniv alayi (regiment) merkezi (1637-78)",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Kaniv' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gomulu tarayicida okundu)"
+   },
+   {
+    "t": "1793-01-01",
+    "gun": "1793",
+    "k": "diger",
+    "b": "Rus yonetimine gecti; Kiev guberniasinda uyezd (1838-1917)",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Kaniv' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gomulu tarayicida okundu)"
+   }
+  ],
+  "ic_not": "TEK KAYNAK (EoU); ikinci bagimsiz akademik kaynak bu turda okunmadi. Atlas noktasi yok (LISTE atlas_ad bos): zincir 1900-01-01'e kadar. LISTE'de UYEZD-BORC (kat 4) etiketli; cagiran gorev geregi yazildi. TANIK KURALI: ilk anilis yil vermez (11. yy ikinci yarisi); guvenli uc 1100 alindi, ilk.kesinlik 'yuzyil'. Ayrica 1144 Saint George (Dormition) Katedrali Vsevolod Olhovych tarafindan yapildi (EoU). koord: GeoNames arama sayfasi 17 Kas 2026'da okundu (PPL kaydi)."
+ },
+ {
+  "id": "vasylkiv",
+  "ad": "Vasylkiv",
+  "atlas_ad": null,
+  "lat": 50.1802,
+  "lon": 30.3119,
+  "kat1900": 4,
+  "adlar": [
+   "Vasyliv",
+   "Vasylkiv",
+   "Vasilkov",
+   "Васильків"
+  ],
+  "ilk": {
+   "t": "0988-01-01",
+   "gun": "988",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Vasylkiv' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gomulu tarayicida okundu)",
+   "tanik": "According to the chronicles it was founded in 988 by Volodymyr the Great"
+  },
+  "kur": {
+   "t": "0988-01-01",
+   "gun": "988",
+   "kesinlik": "yil",
+   "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Vasylkiv' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gomulu tarayicida okundu)",
+   "tanik": "it was founded in 988 by Volodymyr the Great"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0988-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Vasylkiv' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gomulu tarayicida okundu)",
+    "ic_not": "EoU: Kiev Rus'u (988), Mogol 1240, Hetman devleti 1648 (Kiev alayi), Rusya 1796 uyezd. Gun yok: zincir kurulmadi."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1240-01-01",
+    "gun": "1240",
+    "k": "fetih",
+    "b": "Vasylkiv Mogollar tarafindan yikildi, koy buyuklugune dustu",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Vasylkiv' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gomulu tarayicida okundu)"
+   },
+   {
+    "t": "1648-01-01",
+    "gun": "1648",
+    "k": "diger",
+    "b": "Vasylkiv Kiev alayinin 'sotnia' merkezi oldu",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Vasylkiv' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gomulu tarayicida okundu)"
+   },
+   {
+    "t": "1796-01-01",
+    "gun": "1796",
+    "k": "diger",
+    "b": "Vasylkiv sehir statusu aldi; Kiev guberniasinda uyezd merkezi",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Vasylkiv' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gomulu tarayicida okundu)"
+   }
+  ],
+  "ic_not": "TEK KAYNAK (EoU); ikinci bagimsiz akademik kaynak bu turda okunmadi. Atlas noktasi yok (LISTE atlas_ad bos): zincir 1900-01-01'e kadar. LISTE'de UYEZD-BORC (kat 4) etiketli; cagiran gorev geregi yazildi. Kurucu: Buyuk Volodymyr (kronik). TANIK 'According to the chronicles' -> anlati kaynagi; kesinlik yil. koord: GeoNames arama sayfasi 17 Kas 2026'da okundu (PPL kaydi)."
+ }
+]

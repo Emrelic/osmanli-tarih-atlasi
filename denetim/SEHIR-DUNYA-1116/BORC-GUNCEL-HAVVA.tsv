@@ -1,0 +1,64 @@
+blok	ad	lat	lon	bolge	onceki_durum	guncel_durum	guncel_tarihce_tanik	guncel_kronoloji_yer_id
+balkanlar	Tarsus	36.917	34.895	balkanlar	yok	HALA_BORC	yok	var(21)
+balkanlar	İstanköy	36.893	27.288	balkanlar	yok	HALA_BORC	yok	var(3)
+yakin-dogu	Asvan	24.089	32.899	mezopotamya	yok	ZATEN_KAYITLI	var	var(11)
+yakin-dogu	Sayda	33.563	35.369	suriye-filistin	yok	HALA_BORC	yok	var(10)
+bolgesiz	Kielce	50.874	20.628		yok	HALA_BORC	yok	var(8)
+dogu-avrupa	Liegnitz (Legnica)	51.211	16.161	dogu-avrupa	yok	HALA_BORC	yok	var(4)
+dogu-avrupa	Poznan	52.409	16.932	dogu-avrupa	yok	HALA_BORC	yok	var(8)
+dogu-avrupa	Minsk	53.904	27.561	dogu-avrupa	yok	HALA_BORC	yok	var(5)
+dogu-avrupa	Smolensk	54.783	32.045	dogu-avrupa	yok	HALA_BORC	yok	var(13)
+yakin-dogu	Salala	17.02	54.09	arabistan	yok	HALA_BORC	yok	yok
+dogu-avrupa	Yazlofça (Yazlovets)	48.951	25.435	dogu-avrupa	yok	HALA_BORC	yok	var(1)
+yakin-dogu	Suhâr	24.3472	56.7092	arabistan	yok	HALA_BORC	yok	var(1)
+yakin-dogu	Sûr	22.555	59.52	arabistan	yok	HALA_BORC	yok	var(2)
+bolgesiz	Dvin	40.01186	44.58079		yok	HALA_BORC	yok	var(11)
+bolgesiz	Vişegrad	43.783	19.288		yok	HALA_BORC	yok	var(1)
+yakin-dogu	Bilbîs (Şarkiye)	30.417	31.567	mezopotamya	yok	HALA_BORC	yok	var(1)
+bolgesiz	Cimma (Jiren)	7.673	36.834		yok	HALA_BORC	yok	var(2)
+dogu-avrupa	Kandalakşa	67.155	32.4117	dogu-avrupa	yok	HALA_BORC	yok	yok
+dogu-avrupa	Ponoy	67.0833	41.15	dogu-avrupa	yok	HALA_BORC	yok	yok
+dogu-avrupa	Bryansk	53.2436	34.3639	dogu-avrupa	yok	HALA_BORC	yok	var(6)
+bolgesiz	Meriç (İpsala kuzeyi)	41.191	26.421		yok	HALA_BORC	yok	yok
+bolgesiz	Orestiada (Kumçiftliği)	41.503	26.531		yok	HALA_BORC	yok	yok
+bolgesiz	Sofulu (Soufli)	41.193	26.298		yok	HALA_BORC	yok	yok
+bolgesiz	Lalapaşa	41.836	26.741		yok	HALA_BORC	yok	yok
+bolgesiz	Kofçaz	41.936	27.176		yok	HALA_BORC	yok	yok
+bolgesiz	Dereköy (Kırklareli)	41.943	27.401		yok	HALA_BORC	yok	yok
+bolgesiz	Demirköy	41.822	27.762		yok	HALA_BORC	yok	yok
+balkanlar	İğneada	41.889	28.0258	balkanlar	yok	HALA_BORC	yok	yok
+bolgesiz	Elhova (Elhovo)	42.17	26.573		yok	HALA_BORC	yok	var(1)
+bolgesiz	Malko Tırnova	41.983	27.525		yok	HALA_BORC	yok	yok
+balkanlar	Rezve (Rezovo)	41.9935	28.0192	balkanlar	yok	HALA_BORC	yok	var(1)
+yakin-dogu	Suruç	36.976	38.427	mezopotamya	yok	ZATEN_KAYITLI	var	var(2)
+yakin-dogu	Silopi	37.246	42.47	anadolu	yok	HALA_BORC	yok	yok
+yakin-dogu	Cerablus	36.825	38.014	anadolu	yok	HALA_BORC	yok	var(1)
+yakin-dogu	Malikiye (Derik)	37.176	42.145	anadolu	yok	HALA_BORC	yok	yok
+dogu-avrupa	Şavşat	41.245	42.36	kafkasya	yok	HALA_BORC	yok	yok
+dogu-avrupa	Posof	41.51	42.72	kafkasya	yok	ZATEN_KAYITLI	var	yok
+dogu-avrupa	Hanak	41.23	42.855	kafkasya	yok	HALA_BORC	yok	yok
+yakin-dogu	Diyadin	39.5406	43.6717	anadolu	yok	ZATEN_KAYITLI	var	yok
+yakin-dogu	Karakilise (Karaköse, Ağrı)	39.7191	43.0503	anadolu	yok	ZATEN_KAYITLI	var	yok
+yakin-dogu	Eleşkirt	39.7996	42.6741	anadolu	yok	ZATEN_KAYITLI	var	yok
+dogu-avrupa	Hopa	41.39	41.427	kafkasya	yok	ZATEN_KAYITLI	var	var(1)
+dogu-avrupa	Sarp	41.517	41.545	dogu-avrupa	yok	HALA_BORC	yok	var(1)
+yakin-dogu	Sûr (Tyre) — Lübnan	33.2704	35.2038	suriye-filistin	yok	HALA_BORC	yok	var(4)
+yakin-dogu	Tâka (Zufâr)	17.057	54.404	arabistan	yok	HALA_BORC	yok	yok
+yakin-dogu	Hâsik	17.383	55.283	arabistan	yok	HALA_BORC	yok	yok
+yakin-dogu	Şüveymiye	17.946	55.969	arabistan	yok	HALA_BORC	yok	yok
+yakin-dogu	Dukm	19.66	57.707	arabistan	yok	HALA_BORC	yok	yok
+yakin-dogu	Muhût	20.7	58.1	arabistan	yok	HALA_BORC	yok	yok
+yakin-dogu	Tumreyt	17.667	54.024	arabistan	yok	HALA_BORC	yok	yok
+yakin-dogu	Şisr	18.257	53.647	arabistan	yok	HALA_BORC	yok	yok
+yakin-dogu	Cezîr (Sevkıra)	18.161	56.537	arabistan	yok	HALA_BORC	yok	yok
+yakin-dogu	Râs Medreke	19.002	57.792	arabistan	yok	HALA_BORC	yok	yok
+yakin-dogu	Rahbût	16.762	53.418	arabistan	yok	HALA_BORC	yok	yok
+dogu-avrupa	Petropavlovsk-Kamçatskiy	53.0113	158.6514	dogu-avrupa	yok	HALA_BORC	yok	var(1)
+yakin-dogu	Dilem (Harc)	23.991	47.162	arabistan	yok	HALA_BORC	yok	var(1)
+yakin-dogu	Havta (Havtat Benî Temîm)	23.496	46.878	arabistan	yok	HALA_BORC	yok	yok
+yakin-dogu	Leylâ (Eflâc)	22.292	46.724	arabistan	yok	HALA_BORC	yok	yok
+yakin-dogu	Seyûn (Sayvan)	15.9433	48.7933	arabistan	yok	HALA_BORC	yok	var(4)
+bolgesiz	Klokotnitsa	41.992578	25.495366		yok	HALA_BORC	yok	yok
+bolgesiz	Gabrovo	42.874242	25.31784		yok	HALA_BORC	yok	yok
+balkanlar	Orašac (Aranđelovac)	44.32888889	20.58527778	balkanlar	yok	HALA_BORC	yok	yok
+balkanlar	Takova (Takovo)	44.04277778	20.3875	balkanlar	yok	HALA_BORC	yok	yok

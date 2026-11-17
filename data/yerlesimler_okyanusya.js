@@ -54,7 +54,7 @@ window.YERLESIMLER_OKYANUSYA = [
 { ad:"Levuka", tur:"sehir", lat:-17.6814, lon:178.8327, g:1, k:1,
   kur:"1874-10-10",
   kaynak:"Atlasın kendi Suva kaydıyla aynı gün (1874-10-10, Fiji'nin devri) — Encyclopaedia Britannica, 'Fiji: History'. Levuka 1874-1882 arası koloninin ilk başkentiydi.",
-  s:[{f:"1874-10-10",t:"1970-10-10",d:"ingiltere",kaynak:"DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Fiji Britanya'dan bagimsiz oldu (Suva, Levuka)» (1970-10-10, yer kolu) kaynağı — https://fijiassociation.co.nz/Events/50YearsFiji/50YearsFiji.html ; https://www.fijitimes.com.fj/?p=770187 · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil"},{f:"1970-10-10",t:"2000-12-31",d:"fiji",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}] },
+  s:[{f:"1874-10-10",t:"1970-10-10",d:"fiji-kolonisi",kaynak:"KUNYE-ESLEME (UMIT 1115c okyanusya): pencere sahibi ingiltere yerine kunye fiji-kolonisi (Fiji Kolonisi, 1874-10-10 Devir Senedi — PacLII Deed of Cession 1874, paclii.org/fj/legis/num_act/coftgb1874271); renk BOYALAR fiji-kolonisi. DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Fiji Britanya'dan bagimsiz oldu (Suva, Levuka)» (1970-10-10, yer kolu) kaynağı — https://fijiassociation.co.nz/Events/50YearsFiji/50YearsFiji.html ; https://www.fijitimes.com.fj/?p=770187 · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil"},{f:"1970-10-10",t:"2000-12-31",d:"fiji",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}] },
 
 { ad:"Samarai", tur:"sehir", lat:-10.6098, lon:150.6833, g:1, k:1,
   kur:"1884-11-06",

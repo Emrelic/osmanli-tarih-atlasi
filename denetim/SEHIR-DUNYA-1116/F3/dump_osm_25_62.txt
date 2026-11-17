@@ -1,0 +1,190 @@
+#25 damascus | fark -25 gün | ortak 4
+  ŞEHİR  t=1250-04-30 gun=30 Nisan 1250 kes= b=Turan Şah öldürüldü; Halep Eyyûbîsi en-Nâsır Yûsuf Dımaşk'a hâkim oldu
+         kaynak=TDV EYYÛBÎLER (R. Şeşen); TDV ŞAM (C. Tomar) | tanik=
+  KRON   t=1250-04-05 gun=648 (1250) (TDV yıl verir) kes= dosya=kronoloji_cok_once1281_ortadogu.js b=Halep'in el-Melikü'n-Nâsır Yûsuf'u Dımaşk'a hâkim oldu
+         kaynak=TDV: sam--suriye ("Eyyûbîler’den Halep hâkimi el-Melikü’n-Nâsır Yûsuf şehir halkının da çağrısıyla Dımaşk’ta hâkimiyeti sağladı (648/1250).") | ic_not_gun=
+#26 damascus | fark -120 gün | ortak 4
+  ŞEHİR  t=1250-04-30 gun=30 Nisan 1250 kes= b=Turan Şah öldürüldü; Halep Eyyûbîsi en-Nâsır Yûsuf Dımaşk'a hâkim oldu
+         kaynak=TDV EYYÛBÎLER (R. Şeşen); TDV ŞAM (C. Tomar) | tanik=
+  KRON   t=1250-01-01 gun= kes="yil" dosya=olaylar_ortacag_ortadogu.js b=Memlüklerin Turan Şah'ı öldürmesinin ardından Şam emirlerinin daveti ü
+         kaynak=Kur'an Ansiklopedisi (TDV), 'el-Melikü'n-Nâsır, Yûsuf' maddesi | ic_not_gun=
+#27 debar | fark 365 gün | ortak 3
+  ŞEHİR  t=1283-01-01 gun=1283 kes= b=Sırp Kralı Milutin Debre'yi ele geçirdi
+         kaynak=TDV DEBRE (M. Kiel) | tanik=
+  KRON   t=1284-01-01 gun=1284 (yıl; gün yok; kaynaklar 1282-1284 arasında ayrışır) kes="yil" dosya=kronoloji_sinir_komsu.js b=Sırp Kralı Milutin Debre, Kırçova ve Porečie bölgelerini ele geçirdi
+         kaynak=Popović & Zervan, 'The Fatherland of the Serbian Kings Milutin and Dečanski', Studia Slavica et Balcanica Petropolitana 2022/1, DOI 10.21638/spbu19.2022.102 ('conquered t | ic_not_gun=
+#28 diyarbakir | fark 3 gün | ortak 5
+  ŞEHİR  t=1183-04-26 gun=579 (1183) yılı başı kes= b=Selâhaddîn-i Eyyûbî Âmid'i aldı, Hısnıkeyfâ Artuklu Nûreddin Muhammed'
+         kaynak=TDV DİYARBAKIR (N. Göyünç); hicrî 579/1/1, çeviri: tablo takvimi, Jülyen | tanik=
+  KRON   t=1183-04-29 gun= kes="gun" dosya=olaylar_t5_1000a.js b=Selâhaddin Âmid'i alıp Artuklu Nûreddin Muhammed'e verdi
+         kaynak=TDV inalogullari — AYNEN: "Esasen Güneydoğu Anadolu bölgesinde hâkimiyet kurmayı planlayan Selâhaddin, Abbâsî Halifesi Nâsır-Lidînillâh’ın da izniyle Nûreddin Muhammed’le | ic_not_gun=
+#29 diyarbakir | fark -17 gün | ortak 3
+  ŞEHİR  t=1232-10-18 gun=5-18 Ekim 1232 kes= b=Eyyûbî el-Melikü'l-Kâmil Âmid'i kuşatıp aldı
+         kaynak=TDV DİYARBAKIR (N. Göyünç) | tanik=
+  KRON   t=1232-10-01 gun= kes="ay" dosya=olaylar_t5_1000a.js b=Eyyûbî el-Melikü'l-Kâmil Âmid'i aldı
+         kaynak=TDV diyarbakir — AYNEN: "Âmid 5-18 Ekim 1232 tarihleri arasında tekrar Eyyûbî Hükümdarı el-Melikü’l-Kâmil I. Nâsırüddin tarafından kuşatılarak alındı." · hassasiyet: ay · | ic_not_gun=
+#30 diyarbakir | fark -205 gün | ortak 3
+  ŞEHİR  t=1240-07-23 gun=638 (1240-41) kes= b=II. Gıyâseddin Keyhusrev Âmid'i zaptetti
+         kaynak=TDV DİYARBAKIR (N. Göyünç); hicrî 638/1/1, çeviri: tablo takvimi, Jülyen | tanik=
+  KRON   t=1240-01-01 gun= kes="yil" dosya=olaylar_t5_1000a.js b=II. Gıyâseddin Keyhusrev Âmid'i zaptetti
+         kaynak=TDV diyarbakir — AYNEN: "638 (1240-41) yılında da Anadolu Selçuklu Sultanı II. Gıyâseddin Keyhusrev Âmid’i zaptetti." · hassasiyet: yil · T5-1000-A-1016 | ic_not_gun=
+#31 edirne | fark 334 gün | ortak 3
+  ŞEHİR  t=1204-05-16 gun=1204 kes= b=Latin İmparatoru Baudouin'in kardeşi Henri Edirne'de bağlılık aldı; ga
+         kaynak=Villehardouin (Gutenberg 6032) | tanik=
+  KRON   t=1205-04-15 gun= kes="gun" dosya=olaylar_ortacag_bizans_balkan.js b=Edirne Savaşı: Kaloyan Latin İmparatoru Baudouin’i yendi ve esir aldı
+         kaynak=TDV İslâm Ansiklopedisi, Edirne, https://islamansiklopedisi.org.tr/edirne: “İstanbul’un Latinler’in eline geçmesi üzerine onlara karşı meydana gelen ayaklanmalar sırasınd | ic_not_gun=
+#32 faiyum | fark 258 gün | ortak 4
+  ŞEHİR  t=0868-01-01 gun=254 (868) kes= b=Ahmed b. Tolun Mısır'da; Tolunoğulları dönemi
+         kaynak=TDV TOLUNOĞULLARI (N. Özkuyumcu) | tanik=
+  KRON   t=0868-09-15 gun=15 Eylül 868 kes="gun" dosya=kronoloji_sinir_antik_roma.js b=Ahmed b. Tolun Mısır'a girdi: Mısır Abbâsî valiliğinden Tolunoğulları 
+         kaynak=TDV «Ahmed b. Tolun» (15 Eylül 868) · TDV «Tolunoğulları» · TDV «Mısır» (254/868). | ic_not_gun=
+#33 fes | fark 145 gün | ortak 6
+  ŞEHİR  t=0985-01-01 gun=375 (985) kes= b=Zîrî b. Atıyye, Fas yakınında Mansûr b. Bulukkîn'in ordusunu ağır yeni
+         kaynak=TDV ZÎRÎ b. ATIYYE | tanik=
+  KRON   t=0985-05-24 gun=375 (985) — TDV 'Zîrî b. Atıyye'; hicrî 375 ∩ 985'in ilk günü kes= dosya=kronoloji_cok_ms1_1000_iber_balkan.js b=Zîrî b. Atıyye Fas yakınında Mansûr b. Bulukkîn'in ordusunu bozguna uğ
+         kaynak=TDV 'ZÎRÎ b. ATIYYE' (islamansiklopedisi.org.tr/ziri-b-atiyye) — alıntı: 'Zîrî b. Atıyye, Fas şehri yakınlarında karşıladığı Mansûr ve ordusunu büyük bir yenilgiye uğratt | ic_not_gun=
+#34 fes | fark 124 gün | ortak 3
+  ŞEHİR  t=0987-01-01 gun=377 (987) kes= b=Hâcib el-Mansûr, Zîrî b. Atıyye'yi Fas valiliğine tayin etti
+         kaynak=TDV MAĞRÂVE | tanik=
+  KRON   t=0987-05-03 gun=377 (987) — TDV; hicrî 377 ∩ 987'nin ilk günü kes= dosya=kronoloji_cok_ms1_1000_iber_balkan.js b=Zîrî b. Atıyye el-Mansûr tarafından Fas valiliğine atandı
+         kaynak=TDV 'MAĞRÂVE' (islamansiklopedisi.org.tr/magrave) — alıntı: 'Zîrî b. Atıyye, 377 (987) yılında Hâcib el-Mansûr tarafından Fas valiliğine tayin edildi.' | ic_not_gun=
+#35 fes | fark 365 gün | ortak 3
+  ŞEHİR  t=0992-01-01 gun=382 (992) kes= b=Zîrî Kurtuba'dayken Fâtımî valisi Yeddû b. Ya‘lâ (Benî İfren) Fas'ı iş
+         kaynak=TDV MAĞRÂVE; TDV ZÎRÎ b. ATIYYE | tanik=
+  KRON   t=0993-01-01 gun= kes="yil" dosya=olaylar_ortacag_bekleyen_acik.js b=Zîrî b. Atıyye Fâtımî valisi Yeddû b. Ya'lâ'yı yenip Fas'ı geri alır; 
+         kaynak=TDV, MAĞRÂVE (383/993) | ic_not_gun=
+#36 fes | fark -1 gün | ortak 3
+  ŞEHİR  t=1146-06-13 gun=541 (1146) kes= b=Fas Muvahhidler'in hâkimiyetine geçti
+         kaynak=TDV FAS; TDV MURÂBITLAR; hicrî 541 ∩ 1146, çeviri: tablo takvimi, Jülyen | tanik=
+  KRON   t=1146-06-12 gun= kes= dosya=kronoloji_sinir_once1281_geriye.js b=Fas şehri Murâbıtlar'dan Muvahhidler'in hâkimiyetine geçti
+         kaynak=TDV 'fas--fas': "Fas 541 (1146) yılında Muvahhidler’in hâkimiyetine geçti ve yaklaşık bir asır devam eden bu dönemde ..." 541 AH 1 Muharrem = 1146-06-12 (tablo, ∩1146 ilk | ic_not_gun=
+#37 hillah | fark -120 gün | ortak 4
+  ŞEHİR  t=1150-04-30 gun=545/1150 kes= b=II. Ali'nin ölümü; Sultan Mesud Hille'yi kumandanı Sâlârkerd'e verdi
+         kaynak=TDV MEZYEDÎLER; hicrî 545 ∩ 1150 kesişimin ilk günü | tanik=
+  KRON   t=1150-01-01 gun= kes="yil" dosya=olaylar_t5_1000a.js b=Sultan Mesud Hille'yi Sâlârkerd'e verdi
+         kaynak=TDV mezyediler — AYNEN: "Ali ertesi yıl ölünce Sultan Mesud Hille’yi kumandanlarından Sâlârkerd’e verdi (545/1150)" · hassasiyet: yil · T5-1000-A-1016 (renk bekleyen, REN | ic_not_gun=
+#38 hillah | fark -98 gün | ortak 4
+  ŞEHİR  t=1152-04-08 gun=547/1152 kes= b=Sultan Mesud'un ölümü; Bağdat şahnesi Mesud Bilâl'i halife Muktefî'nin
+         kaynak=TDV MEZYEDÎLER; hicrî 547 ∩ 1152 kesişimin ilk günü | tanik=
+  KRON   t=1152-01-01 gun= kes="yil" dosya=olaylar_t5_1000a.js b=Sultan Mesud öldü; Halife Muktefî Irak'ta tek başına hâkim oldu, Hille
+         kaynak=[Bağdat] TDV muktefi-liemrillah — AYNEN: "Muktefî-Liemrillâh, Sultan Mesud’un ölümünün ardından (547/1152) daha rahat hareket edebileceği bir ortam buldu." · hassasiyet:  | ic_not_gun=
+#39 jerusalem | fark -22 gün | ortak 3
+  ŞEHİR  t=0638-01-23 gun=17 (638) kes= b=Hz. Ömer Kudüs'ü Patrik Sophronios'tan antlaşmayla teslim aldı
+         kaynak=TDV KUDÜS 2. bölüm (C. Avcı); hicrî 17 ∩ 638, çeviri: tablo takvimi, Jülyen | tanik=
+  KRON   t=0638-01-01 gun=638 (yıl; 636/637/638 tartışmalı) kes="yil" dosya=kronoloji_sinir_antik_roma.js b=Hz. Ömer Kudüs’ü Patrik Sophronios’tan teslim aldı
+         kaynak=TDV İslâm Ansiklopedisi, «Kudüs» md. (islamansiklopedisi.org.tr/kudus, 13.11.2026 okundu): fetih 636/637/638 olarak geçer; Belâzurî rivayetiyle kuşatma 637’de başlayıp te | ic_not_gun=
+#40 kabul | fark 90 gün | ortak 4
+  ŞEHİR  t=0697-01-01 gun=78 (697) kes= b=Haccâc'ın gönderdiği İbn Ebû Bekre'nin Kâbil seferi ağır kayıpla başar
+         kaynak=TDV KÂBİL | tanik=
+  KRON   t=0697-03-30 gun=78/697 (TDV); hicrî 78 = 697-03-30…698-03-19 kes="yil" dosya=kronoloji_cok_dogu_500_1281.js b=Haccâc'ın gönderdiği İbn Ebû Bekre başarısız oldu (78/697); Kâbil ve Z
+         kaynak=Ahmet Kavas, «Kâbil», TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/kabil--afganistan (22.10.2026'da okundu), «Kâbil»: "Halife Abdülmelik döneminde Irak Vali | ic_not_gun=
+#41 kahramanmaras | fark -198 gün | ortak 5
+  ŞEHİR  t=1208-07-16 gun=605 (1208) kes= b=I. Gıyâseddin Keyhusrev Maraş'ı tekrar Selçuklu topraklarına kattı; Hü
+         kaynak=TDV KAHRAMANMARAŞ; hicrî 605 ∩ 1208, çeviri: tablo takvimi, Jülyen | tanik=
+  KRON   t=1208-01-01 gun= kes="yil" dosya=olaylar_t5_1000a.js b=I. Gıyâseddin Keyhusrev Maraş'ı tekrar Selçuklu'ya kattı
+         kaynak=TDV kahramanmaras — AYNEN: "Gıyâseddin Keyhusrev 605’te (1208) Ermeniler’i cezalandırmak amacıyla Maraş üzerine bir sefer düzenledi ve Maraş’ı tekrar Selçuklu toprakların | ic_not_gun=
+#42 kerman | fark -44 gün | ortak 3
+  ŞEHİR  t=1222-02-15 gun=619 (1222) kes= b=Barak Hâcib Kirman'a hâkim oldu, Kutluğhanlı hânedanını kurdu
+         kaynak=TDV KİRMAN; TDV KUTLUĞHANLILAR; hicrî 619 ∩ 1222 ilk günü, tablo takvimi, Jülyen | tanik=
+  KRON   t=1222-01-01 gun=1222 (619 h.; yıl — gün kaynaktan alınmadı) kes= dosya=kronoloji_sinir_once1281_yerlesim_asya_iran.js b=Barak Hâcib Kirman’a hâkim oldu — Kutluğhanlılar kuruldu
+         kaynak=TDV kutlughanlilar: 'Kutluğ Han unvanıyla meşhur olan Barak ertesi yıl Kirman’a hâkim oldu ve Kutluğhanlılar adıyla bilinen hânedanı kurdu.' · TDV kirman: 'Karahıtay asıl | ic_not_gun=
+#43 mansoura | fark 310 gün | ortak 3
+  ŞEHİR  t=1249-06-01 gun=1249 kes= b=IX. Louis'nin Haçlı ordusu karşısında müslümanlar Dimyat'ı boşaltıp Ma
+         kaynak=TDV MANSÛRE (Mısır) (H. Görgün) | tanik=
+  KRON   t=1250-04-07 gun= kes="gun" dosya=olaylar_ortacag_ortadogu.js b=Mansûre: Müslümanlar IX. Louis'in Haçlı ordusunu kesin yenilgiye uğrat
+         kaynak=TDV eyyubiler https://islamansiklopedisi.org.tr/eyyubiler : 'Müslümanlar mart başlarından 7 Nisan 1250 tarihine kadar devam eden savaşlarda Haçlıları kesin yenilgiye uğra | ic_not_gun=
+#44 mecca | fark 11 gün | ortak 3
+  ŞEHİR  t=0930-01-01 gun=317 (930) kes= b=Karmatîler hac mevsiminde Mekke'ye baskın yapıp hacıları katletti, Hac
+         kaynak=TDV MEKKE (M. S. Küçükaşcı) | tanik=
+  KRON   t=0930-01-12 gun=12 Ocak 930 (8 Zilhicce 317; Jülyen; TDV gün verir) kes= dosya=kronoloji_cok_ms1_1000_ortadogu.js b=Ebû Tâhir el-Cennâbî önderliğindeki Karmatîler Kâbe'ye baskın yaptı; H
+         kaynak=TDV: muktedir-billah — "8 Zilhicce 317’de (12 Ocak 930) Kâbe’ye baskın düzenleyip binlerce hacıyı katlettiler ve Hacerülesved’i yerinden söküp Hecer’e götürdüler." | ic_not_gun=
+#45 mecca | fark -322 gün | ortak 3
+  ŞEHİR  t=0930-01-01 gun=317 (930) kes= b=Karmatîler hac mevsiminde Mekke'ye baskın yapıp hacıları katletti, Hac
+         kaynak=TDV MEKKE (M. S. Küçükaşcı) | tanik=
+  KRON   t=0929-02-14 gun= kes="yil" dosya=olaylar_ortacag_ortadogu.js b=Karmatîler Mekke'yi işgal edip Hacerülesved'i Ahsâ'ya (Lahsâ) götürdü;
+         kaynak=TDV abbasiler https://islamansiklopedisi.org.tr/abbasiler : '929'da Mekke'yi işgal ederek Hacerülesved'i Ahsâ'ya götürdüler ve ancak yirmi yıl sonra tekrar yerine koydula | ic_not_gun=
+#46 mecca | fark -293 gün | ortak 6
+  ŞEHİR  t=1069-10-20 gun=462 (1069-70) kes= b=Mekke Emîri Ebû Hâşim hutbeyi Fâtımîler'den Abbâsî halifesi ve Alparsl
+         kaynak=TDV MEKKE (M. S. Küçükaşcı); hicrî 462 ∩ 1069-70 ilk gün, çeviri: tablo takvimi, Jülyen (hicrî kural: kesişimin ilk günü) | tanik=
+  KRON   t=1069-01-01 gun=(TDV yıl verir) kes= dosya=kronoloji_cok_once1281_ortadogu.js b=Mekke hutbeyi Fâtımîlerden Abbâsî halifesi ve Sultan Alparslan adına ç
+         kaynak=TDV: mekke ("Mekke Emîri Ebû Hâşim Muhammed b. Ca‘fer hutbeyi Abbâsî Halifesi Kāim-Biemrillâh ile Selçuklu Sultanı Alparslan adına okuttu (462/1069-70)") | ic_not_gun=
+#47 mecca | fark 72 gün | ortak 4
+  ŞEHİR  t=1069-10-20 gun=462 (1069-70) kes= b=Mekke Emîri Ebû Hâşim hutbeyi Fâtımîler'den Abbâsî halifesi ve Alparsl
+         kaynak=TDV MEKKE (M. S. Küçükaşcı); hicrî 462 ∩ 1069-70 ilk gün, çeviri: tablo takvimi, Jülyen (hicrî kural: kesişimin ilk günü) | tanik=
+  KRON   t=1070-01-01 gun= kes="yil" dosya=olaylar_t5_1000b.js b=Mekke hutbesi Fâtımîlerden Abbâsî halifesi ve Sultan Alparslan adına ç
+         kaynak=TDV mekke — AYNEN: "Ca‘fer hutbeyi Abbâsî Halifesi Kāim-Biemrillâh ile Selçuklu Sultanı Alparslan adına okuttu (462/1069-70)" · hassasiyet: yil (462 = Ekim 1069 – Ekim 10 | ic_not_gun=
+#48 medina | fark 1 gün | ortak 6
+  ŞEHİR  t=0969-01-01 gun=358 (969) kes= b=Hüseynîler Medine'ye yeniden hâkim oldu, hutbeyi Fâtımîler adına okutt
+         kaynak=TDV MEDİNE (Makrîzî I, 172); hicrî 358 ∩ 969 ilk günü | tanik=
+  KRON   t=0969-01-02 gun=358 H. / 969 (TDV medine yıl verir; yalnız yıl teyitli; gün bilinmiyor) kes= dosya=kronoloji_cok_ms1_1000_ortadogu.js b=Hüseynîler Medine'ye yeniden hâkim oldu; Fâtımîler adına hutbe okuttu
+         kaynak=TDV: medine — "358 (969) yılında tekrar Medine’ye hâkim olan Hüseynîler, Abbâsîler yerine Fâtımîler adına hutbe okutmaya başladılar" | ic_not_gun=
+#49 mosul | fark 211 gün | ortak 3
+  ŞEHİR  t=0979-01-01 gun=368 (979) kes= b=Adudüddevle el-Cezîre ve Diyârırebîa'yı hâkimiyeti altına aldı; Hamdân
+         kaynak=TDV ADUDÜDDEVLE; TDV HAMDÂNÎLER (N. Dönmez) (369/979) | tanik=
+  KRON   t=0979-07-29 gun=H. 369 yılı (979); yalnız yıl teyitli; gün bilinmiyor kes= dosya=kronoloji_cok_ms1_1000_ortadogu.js b=Ebû Tağlib Gazanfer Remle'de yenilip öldü: Hamdânîler'in Cezîre ve Mus
+         kaynak=TDV: hamdaniler — "Daha sonra geri döndüyse de Remle Emîri Müferric b. Dağfel’e yenilerek öldürüldü (369/979); onun ölümüyle de Hamdânîler’in el-Cezîre ve Musul’daki hâki | ic_not_gun=
+#50 mosul | fark 211 gün | ortak 3
+  ŞEHİR  t=0979-01-01 gun=368 (979) kes= b=Adudüddevle el-Cezîre ve Diyârırebîa'yı hâkimiyeti altına aldı; Hamdân
+         kaynak=TDV ADUDÜDDEVLE; TDV HAMDÂNÎLER (N. Dönmez) (369/979) | tanik=
+  KRON   t=0979-07-29 gun= kes="gun" dosya=olaylar_ortacag_ortadogu.js b=Ebû Tağlib Gazanfer Remle'de öldürüldü; Hamdânîler'in Musul ve el-Cezî
+         kaynak=TDV: hamdaniler: '(369/979)' | ic_not_gun=
+#51 mus | fark 8 gün | ortak 3
+  ŞEHİR  t=1387-01-22 gun=789 (1387) kes= b=Muş Karakoyunlu topraklarına sahip olan Timur'un idaresine girdi
+         kaynak=TDV MUŞ; hicrî 789 ilk günü (tablo, Jülyen) | tanik=
+  KRON   t=1387-01-30 gun=789 H / 1387 (yalnız yıl teyitli; gün bilinmiyor) kes="yil" dosya=olaylar_ek5.js b=Muş Karakoyunlu yönetiminden Timur'un idaresine geçti (789/1387)
+         kaynak=TDV İslâm Ansiklopedisi, «Muş» md. (https://islamansiklopedisi.org.tr/mus, 14.11.2026 okundu): «789'da (1387) Karakoyunlu topraklarına sahip olan Timur'un idaresi altına  | ic_not_gun=
+#52 qena | fark 258 gün | ortak 5
+  ŞEHİR  t=0868-01-01 gun=254 (868) kes= b=Ahmed b. Tolun Mısır'a vali vekili olarak girdi; Tolunoğulları dönemi 
+         kaynak=TDV TOLUNOĞULLARI: Ahmed b. Tolun Mısır'a girdi (254/868); Şeybân teslim oldu (Rebîülevvel 292 / Ocak 905) | tanik=
+  KRON   t=0868-09-15 gun=15 Eylül 868 kes="gun" dosya=kronoloji_sinir_antik_roma.js b=Ahmed b. Tolun Mısır'a girdi: Mısır Abbâsî valiliğinden Tolunoğulları 
+         kaynak=TDV «Ahmed b. Tolun» (15 Eylül 868) · TDV «Tolunoğulları» · TDV «Mısır» (254/868). | ic_not_gun=
+#53 qena | fark -4 gün | ortak 3
+  ŞEHİR  t=1250-05-04 gun=30 Muharrem 648 / 4 Mayıs 1250 kes= b=Turan Şah öldürüldü, Şecerüddür sultan; Mısır'da Memlûk dönemi başladı
+         kaynak=TDV ŞECERÜDDÜR: Turan Şah öldürüldü, Şecerüddür sultan '30 Muharrem 648 / 4 Mayıs 1250' | tanik=
+  KRON   t=1250-04-30 gun=30 Nisan 1250 kes="gun" dosya=kronoloji_sinir_antik_roma.js b=Turan Şah öldürüldü: Mısır şehirleri Eyyûbîlerden Bahrî Memlûklere geç
+         kaynak=TDV «Eyyûbîler» (30 Nisan 1250) · TDV «Mısır» (648/1250). | ic_not_gun=
+#54 rodos-rhodes | fark 365 gün | ortak 3
+  ŞEHİR  t=-0304-01-01 gun=MÖ 305 kes= b=Demetrios Poliorketes'in kuşatması püskürtüldü; zafer anısına Rodos He
+         kaynak=TDV RODOS | tanik=
+  KRON   t=-0303-01-01 gun=MÖ 304 kes="yil" dosya=olaylar_antik_akdeniz.js b=Demetrios Poliorketes'in Rodos kuşatması başarısızlıkla bitti
+         kaynak=Diodoros 20.81.1, 20.91.1, 20.99.3 (Perseus, CC BY-SA) — «οἱ Ῥόδιοι συνέθεντο πρὸς Δημήτριον ἐπὶ τοῖσδε, αὐτόνομον καὶ ἀφρούρητον εἶναι τὴν πόλιν» | ic_not_gun=
+#55 sanaa | fark 2 gün | ortak 3
+  ŞEHİR  t=0628-01-01 gun=628 kes= b=Sâsânî valisi Bâzân İslâm'ı kabul etti; Yemen Medine'ye bağlandı
+         kaynak=TDV SAN‘A | tanik=
+  KRON   t=0628-01-03 gun=628-631 aralığında (TDV yemen); TDV kronolojisinde 7 H. / 628 grubunda (yalnız yıl teyitli; gün bilinmiyor) kes= dosya=kronoloji_cok_ms1_1000_ortadogu.js b=Yemen'deki Sâsânî valisi Bâzân ve Ebnâ topluluğu Müslüman oldu
+         kaynak=TDV: bazan — "Bâzân bunun üzerine müslüman oldu. Onunla birlikte Ebnâ’larla San‘a halkı da müslüman oldular." | TDV: yemen — "Sâsânîler’in Yemen valisi Bâzân’ın İslâmiyet | ic_not_gun=
+#56 sanaa | fark -306 gün | ortak 3
+  ŞEHİR  t=1198-11-03 gun=595 (1198) kes= b=Zeydî imamı Abdullah b. Hamza San‘a'yı bir süre ele geçirdi
+         kaynak=TDV SAN‘A; hicrî 595 ∩ 1198, çeviri: tablo takvimi, Jülyen | tanik=
+  KRON   t=1198-01-01 gun= kes="yil" dosya=olaylar_ortacag_ortadogu.js b=Zeydî imam Abdullah b. Hamza San'a ve Dhamar'ı Eyyûbîler'den aldı.
+         kaynak=TDV «Mansûr-Billâh, Abdullah b. Hamza» md., https://islamansiklopedisi.org.tr/mansur-billah-abdullah-b-hamza (okundu); TDV «Yemen» md. — «Sa‘de’yi kendine karargâh yapan  | ic_not_gun=
+#57 sharjah | fark -26 gün | ortak 3
+  ŞEHİR  t=1820-02-04 gun=4 Şubat 1820 kes= b=Şârika şeyhi Sultan b. Sakr İngiltere ile Genel Barış Antlaşması'nı im
+         kaynak=IOR/QDL 'Revision of Aitchison's Treaties' (arama özeti); takvim Gregoryen, 4 Şubat 1820 Cuma — kaynağın haftagünüyle tutarlı | tanik=
+  KRON   t=1820-01-08 gun=8 Ocak 1820 (imzalar 8 Ocak-15 Mart arası şeyhlik şeyhlik tamamlandı) kes= dosya=olaylar_ek16.js b=Genel Deniz Antlaşması — Kavâsım ve öteki Körfez şeyhlikleri İngiltere
+         kaynak=TDV İslâm Ansiklopedisi, Birleşik Arap Emirlikleri maddesi — «Gemilere saldırılmaması konusunda İngilizler'le sahil şeyhleri arasında 1820'de bir antlaşma imzalandı» | ic_not_gun=
+#58 shiraz | fark -81 gün | ortak 4
+  ŞEHİR  t=1056-03-21 gun=448 (1056) kes= b=Şebânkâre emîri Fazlûye Büveyhî Fülâd Sütûn'u öldürüp Şîraz'ı aldı
+         kaynak=TDV ŞÎRAZ; TDV BÜVEYHÎLER | tanik=
+  KRON   t=1056-01-01 gun=1056 (gün bilinmiyor) kes= dosya=kronoloji_cok_once1281_iran.js b=Şebânkâre emîri Fazlûye Fars'taki Büveyhî hâkimiyetine son verdi
+         kaynak=TDV: buveyhiler (BÜVEYHÎLER) | ic_not_gun=
+#59 shiraz | fark -81 gün | ortak 6
+  ŞEHİR  t=1056-03-21 gun=448 (1056) kes= b=Şebânkâre emîri Fazlûye Büveyhî Fülâd Sütûn'u öldürüp Şîraz'ı aldı
+         kaynak=TDV ŞÎRAZ; TDV BÜVEYHÎLER | tanik=
+  KRON   t=1056-01-01 gun= kes="yil" dosya=olaylar_ortacag_iran_turan.js b=Şebânkâre emîri Fazlûye Fülâd Sütûn'u öldürdü; Fars'taki Büveyhî hâkim
+         kaynak=TDV İslâm Ansiklopedisi, BÜVEYHÎLER maddesi, https://islamansiklopedisi.org.tr/buveyhiler : «Fazlûye ... mağlûp ederek öldürttü (1056) ve Fars’taki Büveyhî hâkimiyetine s | ic_not_gun=
+#60 tabriz | fark -102 gün | ortak 3
+  ŞEHİR  t=1054-04-12 gun=446 (1054) kes= b=Revvâdî Vehsûdân Azerbaycan'a gelen Tuğrul Bey'e itaatini bildirdi (Se
+         kaynak=TDV REVVÂDÎLER; TDV TEBRİZ; hicrî 446 ∩ 1054 ilk gün, tablo takvimi, Jülyen | tanik=
+  KRON   t=1054-01-01 gun=446/1054 (gün bilinmiyor) kes= dosya=kronoloji_cok_once1281_iran.js b=Revvâdî Vehsûdân Tuğrul Bey'e itaat etti
+         kaynak=TDV: revvadiler (REVVÂDÎLER) | ic_not_gun=
+#61 tabriz | fark -102 gün | ortak 3
+  ŞEHİR  t=1054-04-12 gun=446 (1054) kes= b=Revvâdî Vehsûdân Azerbaycan'a gelen Tuğrul Bey'e itaatini bildirdi (Se
+         kaynak=TDV REVVÂDÎLER; TDV TEBRİZ; hicrî 446 ∩ 1054 ilk gün, tablo takvimi, Jülyen | tanik=
+  KRON   t=1054-01-01 gun=1054 (446 h.; yıl — gün kaynaktan alınmadı) kes= dosya=kronoloji_sinir_once1281_yerlesim_asya_iran.js b=Tuğrul Bey’e itaat eden Tebriz, Azerbaycan’da Revvâdî yönetimini bırak
+         kaynak=TDV tebriz: 'Tebriz, Revvâdî Emîri Ebû Mansûr ve bazı mahallî hükümdarlarla birlikte Azerbaycan’a gelen Sultan Tuğrul Bey’e itaatini bildirdi ve Selçuklu hâkimiyetine gir | ic_not_gun=
+#62 tripoli-2 | fark 57 gün | ortak 4
+  ŞEHİR  t=1105-01-01 gun=1105 kes= b=Raymond de Saint-Gilles uzun kuşatma sırasında öldü
+         kaynak=TDV TRABLUSŞAM (C. Tomar) | tanik=
+  KRON   t=1105-02-28 gun= kes="gun" dosya=olaylar_ortacag_ortadogu.js b=Raymond de Saint-Gilles kuşatma sürerken öldü; yerine kuzeni Guillaume
+         kaynak=TDV İslâm Ansiklopedisi, Ammâroğulları, https://islamansiklopedisi.org.tr/ammarogullari--trablussam | ic_not_gun=

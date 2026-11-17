@@ -1,5 +1,5 @@
-// ŞEHİR TARİHÇESİ — OSM · üretici: arac/sehir_tarihce.py · şema: VERI-YAPISI.md
-// Motor/denetle/site OKUMAZ — araştırma birikimi. Elle düzenleme: JSON'u düzelt, yeniden üret.
+// ŞEHİR TARİHÇESİ — OSM · üretici: arac/sehir_tarihce.py · şema: VERI-YAPISI.md
+// Motor/denetle/site OKUMAZ — araştırma birikimi. Elle düzenleme: JSON'u düzelt, yeniden üret.
 window.SEHIR_TARIHCE_OSM = [
  {
   "id": "abha",
@@ -44,72 +44,6 @@ window.SEHIR_TARIHCE_OSM = [
   ],
   "dikis_beyan": "Atlas 1281-01-01 'yemen' (yemen-zeydi, Zeydî İmamlığı) der. TDV EBHÂ ise bölgenin Resûlîler zamanında Yemen'e tâbi olduğunu söyler (1281'de Yemen'de Resûlîler hâkim, Zeydîler kuzey dağlarında); Ebhâ'ya özgü 1281 sahibi için tarihli tanık bulunamadı. Atlasın 'yemen' iddiası kaynaksız ve muhtemelen yanlış künye.",
   "ic_not": "İlk anılış bir yer/vadi adı tanığıdır: Hemdânî 'Ebhâ'yı Asîr'in vadi ve yurtları arasında anar (şehir değil yurt); bugünkü şehir Vâdi Ebhâ'dadır (TDV) — aynı yer sayıldı. Güvenli uç: Hemdânî'nin ölümü tartışmalı (334/945-46; el-Câsir: 344/955 sonrası; İklîl'e göre 360/971'de hayatta) — en geç uç 971. Kabir rivayeti 300 civarına tarihlenir ama 'fîmâ yukāl' (söylenir) kaydıyla — başlangıç sayılmadı, olay. Şehir olarak tanık: TDV 'XVI. yüzyılda ... Asîr bölgesinin merkezi o dönemde de Ebhâ idi' (tarihsiz). ATLAS DÜZELTMESİ ÖNERİSİ: 1281 sahibi 'yemen' yerine Resûlî (resuli) ya da beyanlı boşluk; ayrıca atlas 1871'de Osmanlı'ya geçiş yazıyor, TDV Ebhâ dahil Asîr'in 1872'de ele geçirildiğini söyler (atlas penceresi). Koordinat doğru: GeoNames 110690 Abha, atlas noktasına 0,1 km."
- },
- {
-  "id": "abu-dhabi",
-  "ad": "Abu Dhabi",
-  "atlas_ad": "Abu Dabi",
-  "lat": 24.451,
-  "lon": 54.397,
-  "kat1900": 2,
-  "adlar": [
-   "Ebûzabî",
-   "Abu Dhabi"
-  ],
-  "ilk": {
-   "t": "1761-01-01",
-   "gun": "1761",
-   "nicelik": "kurulus",
-   "kesinlik": "yil",
-   "kaynak": "TDV EBÛZABİ",
-   "tanik": "Benî Yâs kabilesi ... Ebûzabî adasına 1761’de geldiler"
-  },
-  "kur": {
-   "t": "1761-01-01",
-   "gun": "1761",
-   "kesinlik": "yil",
-   "kaynak": "TDV EBÛZABİ",
-   "tanik": "buraya yerleştiklerinde yirmi ev kadar bir topluluk oluşturmaktaydılar"
-  },
-  "ark": null,
-  "bit": null,
-  "sahip": [
-   {
-    "f": "1761-01-01",
-    "t": "1820-01-08",
-    "d": "ebuzabi-seyhligi",
-    "kesinlik": {
-     "f": "yil",
-     "t": "gun"
-    },
-    "kaynak": "TDV EBÛZABİ (Benî Yâs, Âl-i Bû Felâh; Şahbût b. Ziyâb 1793-1816; Tahnûn b. Şahbût 1818-1833, 1820 antlaşması)",
-    "ic_not": "Önerilen künye: ebuzabi-seyhligi — Benî Yâs (Âl-i Bû Felâh / Nehyân) Ebûzabî şeyhliği, 1761–1971 (TDV EBÛZABİ). Dikiş: atlas 1820-01-08'de 'ingiltere' ile başlıyor; TDV yalnız '1820' yılını verir (gün atlas kaydından, kaynakta yok). Atlas düzeltmesi önerisi: 1820 Genel Barış Antlaşması bir HİMAYE kurmadı — şeyhlik iç işlerinde bağımsız kaldı; TDV'ye göre İngiltere şeyhlikleri 'kendi himayesi altında' 1892'de ilân etti. 1820 sonrası sahip için 'trucial-states' (künye 1820–1971) ya da şeyhlik künyesi + himaye daha doğru olabilir."
-   }
-  ],
-  "olay": [
-   {
-    "t": "1761-01-01",
-    "gun": "1761",
-    "k": "kurulus",
-    "b": "Benî Yâs kabilesi Ebûzabî adasına yerleşti (yirmi ev kadar)",
-    "kaynak": "TDV EBÛZABİ"
-   },
-   {
-    "t": "1816-01-01",
-    "gun": "1816",
-    "k": "diger",
-    "b": "Şahbût b. Ziyâb oğlu Muhammed tarafından şeyhlikten uzaklaştırıldı",
-    "kaynak": "TDV EBÛZABİ"
-   },
-   {
-    "t": "1820-01-01",
-    "gun": "1820",
-    "k": "antlasma",
-    "b": "Tahnûn b. Şahbût, İngilizler'in Re'sülhayme saldırısının ardından şeyhler ile İngilizler arasındaki genel barış antlaşmasına ön ayak oldu (atlas dikişi)",
-    "kaynak": "TDV EBÛZABİ"
-   }
-  ],
-  "ic_not": "Kuruluş TDV'den (1761, yıl kesin, gün yok). XIX. yy başındaki Suûdî saldırıları püskürtüldü (TDV, tarihsiz) — tâbiyet yok. Parti koordinatı atlas noktasına 0.3 km."
  },
  {
   "id": "acre-akko",
@@ -357,7 +291,7 @@ window.SEHIR_TARIHCE_OSM = [
    },
    {
     "f": "1187-07-09",
-    "t": "1191-01-01",
+    "t": "1191-07-11",
     "d": "eyyubi",
     "kesinlik": {
      "f": "gun",
@@ -367,7 +301,7 @@ window.SEHIR_TARIHCE_OSM = [
     "ic_not": "TDV yalnız yıl verir; teslim günü (genel kronolojide 12 Temmuz 1191) doğrulanmadı."
    },
    {
-    "f": "1191-01-01",
+    "f": "1191-07-11",
     "t": "1281-01-01",
     "d": "kudus-kralligi",
     "kesinlik": "yil",
@@ -587,8 +521,8 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV AKKÂ (F. Emecen)"
    },
    {
-    "t": "1191-01-01",
-    "gun": "1191",
+    "t": "1191-07-11",
+    "gun": "11 Temmuz 1191",
     "k": "kusatma",
     "b": "III. Haçlı Seferi kuşatması sonunda müdafiler teslim oldu; şehir Henri de Champagne'a verildi",
     "kaynak": "TDV AKKÂ (F. Emecen)"
@@ -1263,57 +1197,6 @@ window.SEHIR_TARIHCE_OSM = [
   "ic_not": "Atlasta nokta yok (en yakın Fîgîg 93,4 km) ⇒ zincir 1900-01-01'e gider. TDV'de AYN SEFRÂ maddesi yok (arama yalnız MÜSTEGĀNİM'deki aynı adlı mahalleyi verir — başka yer). 1900'de askerî subdivision merkezi (sonradan Lyautey'nin komutası, 1903). Koordinat doğru (Sud-Oranais, Ksour dağları)."
  },
  {
-  "id": "ajman",
-  "ad": "Ajman",
-  "atlas_ad": null,
-  "lat": 25.402,
-  "lon": 55.479,
-  "kat1900": 2,
-  "adlar": [
-   "Ejman (İngiliz kayıtları)",
-   "Acmân",
-   "Ajman"
-  ],
-  "ilk": {
-   "t": "1820-03-15",
-   "gun": "15 Mart 1820",
-   "nicelik": "ilk_anilis",
-   "kesinlik": "gun",
-   "kaynak": "IOR 'Revision of Aitchison's Treaties, Persian Gulf Section' (File 3939/1926 Pt 6, f. 573r, QDL; yalnız arama özeti okunabildi); TDV ACMÂN (M. L. Bilge): '1820 ve 1892 antlaşmalarına iştirak etti'",
-   "tanik": "Faleia, fifteenth of March 1820 ... Chief of Ejman"
-  },
-  "kur": null,
-  "ark": null,
-  "bit": null,
-  "sahip": [
-   {
-    "f": "1820-03-15",
-    "t": "1900-01-01",
-    "d": "trucial-states",
-    "kesinlik": "gun",
-    "kaynak": "TDV ACMÂN (M. L. Bilge); TDV BİRLEŞİK ARAP EMİRLİKLERİ; imza günü IOR/QDL kaydı",
-    "ic_not": "Doğrudan sahip Acmân şeyhi (Naîm kabilesi, Âl-i Bûhureybân); trucial-states künyesi Sahil şeyhliklerinin ortak künyesidir — Acmân'a ayrı künye açılırsa o yazılmalı. TDV 'XIX. yüzyıl boyunca komşusu Şârika’daki Kāsımî Emirliği’ne bağlı kalmıştır' der; oysa 1820 antlaşmasını Acmân şeyhi ayrıca imzalamıştır (metbû Kāsımî mi, ayrı şeyhlik mi: kaynaklar ayrışıyor). 1820 öncesi (Naîmîlerin Acmân'a yerleşmesi, kalenin yaşı) tarihli tanık bulunamadı."
-   }
-  ],
-  "olay": [
-   {
-    "t": "1820-03-15",
-    "gun": "15 Mart 1820",
-    "k": "antlasma",
-    "b": "Acmân şeyhi Genel Barış Antlaşması'nı (1820) Faleia'da imzaladı",
-    "kaynak": "IOR/QDL 'Revision of Aitchison's Treaties' (arama özeti); TDV ACMÂN"
-   },
-   {
-    "t": "1892-01-01",
-    "gun": "1892",
-    "k": "antlasma",
-    "b": "Acmân, İngiltere ile Sahil şeyhliklerinin 1892 antlaşmasına katıldı (İngiliz himayesi)",
-    "kaynak": "TDV ACMÂN (M. L. Bilge)"
-   }
-  ],
-  "ic_not": "Atlasta nokta yok (en yakın Şârika 10,1 km); zincir 1900-01-01'e gider. İlk anılış 'en geç' tanıktır: Acmân'ın 1820'den önce de var olduğu kesin değil ama muhtemel; Britannica 'Ajman' maddesi de 1820'yi ilk özerk tanınma sayar (doğrulanmadı). İmza günü IOR dosyasının QDL'deki otomatik dökümünden (arama özetinde) okundu; sayfa 403 verdiği için tam metin görülemedi — doğrulanmalı."
- },
- {
   "id": "al-karak",
   "ad": "Al-Karak",
   "atlas_ad": "Kerak",
@@ -1592,1233 +1475,6 @@ window.SEHIR_TARIHCE_OSM = [
   "ic_not": "KOORDİNAT DÜZELTMESİ: parti koordinatı (31.164, 35.762) GeoNames 6946409 'Karak City' kaydından geliyordu; bu nokta tarihî Kerek'in (kale ve eski şehir) ~6 km doğusundadır. Doğrusu GeoNames 250624 'Qīr Moāv' (alt adlar: Al Karak, El Kerak, Kerak; 31.18248, 35.69999) — atlas 'Kerak' noktasına (31.181, 35.703) ~0,3 km, Pleiades 697648'e 0,32 km. atlas_ad buna göre 'Kerak' (atlasın ilk günü 1281-01-01, ilk sahibi memluk). Kir-hareseth / Kir-Moab (Moab başşehri, TDV 'XIII-VIII. yüzyıllar') eşitlemesi yeri kesin olmayan eşitleme sayıldı, başlangıç alınmadı; Mesha yazıtı ve Kitab-ı Mukaddes tanıkları doğrulanmadı. Ptolemaios Geographia'da 'Charakmoba' kaydı doğrulanamadı — doğrulanırsa ilk anılış II. yy'a çekilir (borç). Atlas 1281 memluk — dikiş düz."
  },
  {
-  "id": "aleppo",
-  "ad": "Aleppo",
-  "atlas_ad": "Halep",
-  "lat": 36.201,
-  "lon": 37.161,
-  "kat1900": 2,
-  "adlar": [
-   "Ḫalab / Halaba (Ebla, Akad)",
-   "Ḫalpa (Hitit)",
-   "Ḫalman (Asur)",
-   "Beroia",
-   "Ḥalab",
-   "Halep",
-   "Aleppo"
-  ],
-  "ilk": {
-   "t": "-2300-01-01",
-   "gun": "MÖ 24. yüzyıl",
-   "nicelik": "ilk_anilis",
-   "kesinlik": "yuzyil",
-   "kaynak": "A. Archi, 'Hadda of Ḫalab and his temple in the Ebla period', Iraq 72 (2010) 3–17 (özet); TDV HALEP: 'İlk olarak milâttan önce III. binyıl çivi yazılı Akkad tabletlerinde Halaba'",
-   "tanik": "İlk olarak milâttan önce III. binyıl çivi yazılı Akkad tabletlerinde Halaba"
-  },
-  "kur": null,
-  "ark": null,
-  "bit": null,
-  "sahip": [
-   {
-    "f": "-2300-01-01",
-    "t": "-2299-01-01",
-    "d": "ebla-1",
-    "kesinlik": {
-     "f": "yuzyil",
-     "t": "yil"
-    },
-    "kaynak": "A. Archi, 'Hadda of Ḫalab and his temple in the Ebla period', Iraq 72 (2010) 3–17 (özet: Halep'in Hadda tapınağı Ebla denetiminde)",
-    "ic_not": "t = ebla-1 künyesinin sonu (Ebla'nın yıkılışı); Halep'in Ebla'dan çıkış günü kaynakta yok."
-   },
-   {
-    "f": "-2299-01-01",
-    "t": "-1799-01-01",
-    "d": "__BOSLUK__",
-    "kesinlik": "belirsiz",
-    "kaynak": "bulunamadı",
-    "ic_not": "Akkad, Ur III, Ebla II–III dönemleri: Halep'in kimin elinde olduğuna dair tarihli tanık bulunamadı. TDV: 'milâttan önce XVIII. yüzyılda Yamhad Krallığı’nın başşehri'."
-   },
-   {
-    "f": "-1799-01-01",
-    "t": "-1599-01-01",
-    "d": "yamhad",
-    "kesinlik": "belirsiz",
-    "kaynak": "TDV HALEP: 'milâttan önce XVIII. yüzyılda Yamhad Krallığı’nın başşehri'",
-    "ic_not": "Uçlar yamhad künyesinin ömrüdür (beyanlı yaklaşıklık); Mari arşivleri (Sumu-epuh, Yarim-Lim) tarihlendirmeyi daraltabilir — bakılmadı."
-   },
-   {
-    "f": "-1599-01-01",
-    "t": "-1343-01-01",
-    "d": "__BOSLUK__",
-    "kesinlik": "belirsiz",
-    "kaynak": "bulunamadı",
-    "ic_not": "I. Murşili'nin Halep yağması (~MÖ 1595), Mitanni hâkimiyeti (İdrimi dönemi), Hitit–Mitanni çekişmesi: dilim dilim tarihli tanık bulunamadı."
-   },
-   {
-    "f": "-1343-01-01",
-    "t": "-1179-01-01",
-    "d": "hitit-imp",
-    "kesinlik": "belirsiz",
-    "kaynak": "TDV HALEP: 'Hitit Krallığı’nın eline geçerek bu devletin imparatorluk döneminde en önemli eyalet merkezlerinden'; Pleiades 658409 (Ḫalab, -1344/-1212 Mısır-Hitit Levant)",
-    "ic_not": "f: Pleiades/TAVO dönem sınırı (MÖ 1344, I. Şuppiluliuma'nın Suriye seferleri çağı); TDV yıl vermez. t: künye sonu."
-   },
-   {
-    "f": "-1179-01-01",
-    "t": "-0852-01-01",
-    "d": "yeni-hitit",
-    "kesinlik": "belirsiz",
-    "kaynak": "TDV HALEP: 'imparatorluğun dağılmasından sonra da Halpa Krallığı adıyla müstakil bir Geç Hitit devleti'",
-    "ic_not": "Doğrudan sahip 'Halpa Krallığı' (Geç Hitit); yeni-hitit ortak künyedir. t: TDV 'milâttan önce IX. yüzyılın ortalarında Asur'."
-   },
-   {
-    "f": "-0852-01-01",
-    "t": "-0608-01-01",
-    "d": "yeni-asur",
-    "kesinlik": {
-     "f": "yil",
-     "t": "belirsiz"
-    },
-    "kaynak": "TDV HALEP: 'Milâttan önce IX. yüzyılın ortalarında Asur İmparatorluğu topraklarına dahil'; Pleiades 658409 (Ḫalman, Yeni Asur)",
-    "ic_not": "f: III. Salmanasar'ın MÖ 853 seferi (Halman'ın boyun eğişi) — TDV yalnız 'IX. yüzyıl ortası' der; doğrudan eyalet idaresi (Arpad'ın ilhakı MÖ 740) daha geç olabilir: bu dilimin başı haraçlı tâbiliktir. t: yeni-asur künyesinin sonu."
-   },
-   {
-    "f": "-0608-01-01",
-    "t": "-0604-01-01",
-    "d": "__BOSLUK__",
-    "kesinlik": "yil",
-    "kaynak": "bulunamadı",
-    "ic_not": "Asur'un çöküşü ile Karkamış Savaşı (MÖ 605) arası: Kuzey Suriye Mısır (II. Nekho) denetiminde olabilir; Halep'e özgü tanık yok."
-   },
-   {
-    "f": "-0604-01-01",
-    "t": "-0538-10-12",
-    "d": "yeni-babil",
-    "kesinlik": {
-     "f": "yil",
-     "t": "gun"
-    },
-    "kaynak": "Karkamış Savaşı (MÖ 605) sonrası Suriye Babil'e — bölge sahibi + beyan; genel kronoloji (ayrıca doğrulanmadı)",
-    "ic_not": "Bölge sahibi + beyan: Halep'e özgü tanık yok."
-   },
-   {
-    "f": "-0538-10-12",
-    "t": "-0332-01-01",
-    "d": "ahamenis",
-    "kesinlik": {
-     "f": "gun",
-     "t": "belirsiz"
-    },
-    "kaynak": "TDV HALEP: 'Pers hâkimiyeti sırasında ise sadece tanrı Adad sebebiyle hatırlanan küçük bir yerleşim'",
-    "ic_not": "f: Babil'in Kyros'a düşüşü (künye geçiş günü); t: İssos (Kasım MÖ 333) sonrası Suriye'nin İskender'e geçişi — Halep günü yok."
-   },
-   {
-    "f": "-0332-01-01",
-    "t": "-0322-06-10",
-    "d": "iskender-imparatorlugu",
-    "kesinlik": {
-     "f": "belirsiz",
-     "t": "gun"
-    },
-    "kaynak": "İssos sonrası Suriye — bölge sahibi + beyan; t: İskender'in ölümü (künye sonu)"
-   },
-   {
-    "f": "-0322-06-10",
-    "t": "-0300-01-01",
-    "d": "__BOSLUK__",
-    "kesinlik": "belirsiz",
-    "kaynak": "bulunamadı",
-    "ic_not": "Diadokh dönemi (Laomedon, Ptolemaios, Antigonos): Kuzey Suriye el değiştirdi; Halep'e özgü tanık yok. İpsos (MÖ 301) sonrası Selevkos'a."
-   },
-   {
-    "f": "-0300-01-01",
-    "t": "-0082-01-01",
-    "d": "selevkos",
-    "kesinlik": "yil",
-    "kaynak": "TDV HALEP: 'Seleucus Nicator (m.ö. 305-280) tarafından ... imar edilmesiyle ... Beroia adını aldı'; İpsos (MÖ 301) sonrası paylaşım genel kronoloji",
-    "ic_not": "f: İpsos sonrası (MÖ 301); I. Selevkos'un Beroia'yı kuruşu TDV'de tarihsiz (saltanatı 305–280)."
-   },
-   {
-    "f": "-0082-01-01",
-    "t": "-0068-01-01",
-    "d": "tigran-imp",
-    "kesinlik": "yil",
-    "kaynak": "Appianos, Syriake 48 (H. White çev., livius.org): Tigranes Suriye'yi 'fourteen years' elinde tuttu; yıllar (83–69) çeviri dipnotu",
-    "ic_not": "Doğrudan idareci Tigranes'in generali Magadates (Appianos 48)."
-   },
-   {
-    "f": "-0068-01-01",
-    "t": "-0063-01-01",
-    "d": "selevkos",
-    "kesinlik": "yil",
-    "kaynak": "Appianos, Syriake 49: Lucullus XIII. Antiokhos'un atalarının yetkisini kullanmasına karşı çıkmadı; Pompeius onu Suriye'den çıkardı",
-    "ic_not": "Selevkos künyesi -0062'de bitiyor; dilim künye içinde."
-   },
-   {
-    "f": "-0063-01-01",
-    "t": "-0026-01-16",
-    "d": "roma-cumhuriyeti",
-    "kesinlik": {
-     "f": "yil",
-     "t": "gun"
-    },
-    "kaynak": "Appianos, Syriake 49–50: 'the Romans, without fighting, came into possession of ... both inland Syria and Coele-Syria'; yıl (MÖ 64) genel kronoloji"
-   },
-   {
-    "f": "-0026-01-16",
-    "t": "0395-01-17",
-    "d": "roma-imp",
-    "kesinlik": "gun",
-    "kaynak": "TDV HALEP (Roma döneminde büyüme); geçiş günleri genel kronoloji (ayrıca doğrulanmadı)"
-   },
-   {
-    "f": "0395-01-17",
-    "t": "0613-01-01",
-    "d": "bizans",
-    "kesinlik": {
-     "f": "gun",
-     "t": "yil"
-    },
-    "kaynak": "TDV HALEP (Bizans döneminde Hıristiyanlık merkezi)",
-    "ic_not": "540'ta I. Hüsrev'in Beroia'yı yakması (Prokopios, Savaşlar 2.7) kısa baskındır — dönem açılmadı, olay olarak da doğrulanmadığı için yazılmadı."
-   },
-   {
-    "f": "0613-01-01",
-    "t": "0628-01-01",
-    "d": "sasani",
-    "kesinlik": {
-     "f": "yil",
-     "t": "belirsiz"
-    },
-    "kaynak": "TDV SÂSÂNÎLER: '613’te İrmîniye ve Suriye’ye girip Dımaşk’ı işgal eden Sâsânî orduları'",
-    "ic_not": "Bölge sahibi + beyan: Halep'e özgü teslim/tahliye günü yok; t = 628 barışı (Herakleios'un zaferi sonrası), tahliye 629–630'a sarkmış olabilir."
-   },
-   {
-    "f": "0628-01-01",
-    "t": "0637-02-02",
-    "d": "bizans",
-    "kesinlik": {
-     "f": "belirsiz",
-     "t": "yil"
-    },
-    "kaynak": "TDV HALEP"
-   },
-   {
-    "f": "0637-02-02",
-    "t": "0661-07-29",
-    "d": "hulefa-yi-rasidin",
-    "kesinlik": "yil",
-    "kaynak": "TDV HALEP: müslümanlar Antakya Kapısı'ndan şehre girdiler (16/637); hicrî 16 ∩ 637 ilk gün, tablo takvimi, Jülyen"
-   },
-   {
-    "f": "0661-07-29",
-    "t": "0750-01-25",
-    "d": "emevi",
-    "kesinlik": {
-     "f": "yil",
-     "t": "belirsiz"
-    },
-    "kaynak": "TDV HALEP (Emevîler döneminde Cündikınnesrîn'e bağlı)",
-    "ic_not": "f 0661-01-01 → 0661-07-29: künye geçişi günü 14 Ekim 2026'da TDV hulefa-yi-rasidin '25 Rebîülevvel 41/29 Temmuz 661' ile düzeldi (Hz. Hasan'ın feragati)."
-   },
-   {
-    "f": "0750-01-25",
-    "t": "0878-01-01",
-    "d": "abbasi",
-    "kesinlik": {
-     "f": "belirsiz",
-     "t": "yil"
-    },
-    "kaynak": "TDV MERVÂN II: Zap Savaşı '11 Cemâziyelâhir [132] ... (25 Ocak [750])' ve Mervân'ın Kınnesrîn–Humus–Dımaşk üzerinden kaçışı",
-    "ic_not": "f: Zap yenilgisi (25 Ocak 750) — Halep'in Abbâsî'ye geçtiği gün kaynakta yok, Suriye 750 baharında el değiştirdi."
-   },
-   {
-    "f": "0878-01-01",
-    "t": "0884-06-29",
-    "d": "tolunogullari",
-    "kesinlik": "yil",
-    "kaynak": "TDV HALEP: 'Ahmed b. Tolun 264 (878) yılında Halep’i istilâ etti'; hicrî 264 ∩ 878 ilk gün, tablo takvimi, Jülyen"
-   },
-   {
-    "f": "0884-06-29",
-    "t": "0936-01-01",
-    "d": "abbasi",
-    "kesinlik": "yil",
-    "kaynak": "TDV HALEP: 'Abbâsîler daha sonra şehri geri aldılar (271/884)'; hicrî 271 ∩ 884 ilk gün, tablo takvimi, Jülyen",
-    "ic_not": "TDV TOLUNOĞULLARI ile çelişki notu: Humâreveyh dönemi (884–896) Suriye'si Tolunoğulları'ndadır; TDV HALEP'in '271/884 Abbâsî' ifadesi esas alındı (Humâreveyh'in Halep'i yeniden tutup tutmadığı ayrıca bakılmalı)."
-   },
-   {
-    "f": "0936-01-01",
-    "t": "0944-10-29",
-    "d": "ihsidi",
-    "kesinlik": {
-     "f": "yil",
-     "t": "gun"
-    },
-    "kaynak": "TDV HALEP: '324 (936) yılında İhşîdîler’in eline geçti'; hicrî 324 ∩ 936 ilk gün, tablo takvimi, Jülyen"
-   },
-   {
-    "f": "0944-10-29",
-    "t": "0969-01-01",
-    "d": "hamdani-halep",
-    "kesinlik": {
-     "f": "gun",
-     "t": "yil"
-    },
-    "kaynak": "TDV HAMDÂNÎLER: Seyfüddevle '8 Rebîülevvel 333’te (29 Ekim 944) şehre girerek'",
-    "ic_not": "962'de Nikephoros Phokas'ın bir haftalık işgali/yağması kısa ele geçirmedir — olay olarak yazıldı."
-   },
-   {
-    "f": "0969-01-01",
-    "t": "0975-09-10",
-    "d": "bizans",
-    "kesinlik": "yil",
-    "kaynak": "TDV HALEP: 'Nikephoros Phokas’ın 358 (969) yılında Halep’i tekrar istilâ etmesine ...; Hamdânîler şehri ancak 365’te (975) geri alabildiler'; hicrî 358 ∩ 969 ve 365 ∩ 975 ilk gün, tablo takvimi, Jülyen",
-    "ic_not": "Bu dilimde şehri Bizans'a tâbi Hamdânî gulâmı Kargūye'nin yönettiği bilinir (TDV HALEP söylemez); TDV HALEP esas alındı, doğrudan yönetici ayrımı borç."
-   },
-   {
-    "f": "0975-09-10",
-    "t": "1004-01-01",
-    "d": "hamdani-halep",
-    "kesinlik": "yil",
-    "kaynak": "TDV HALEP; TDV HAMDÂNÎLER (Sa‘düddevle, Saîdüddevle)"
-   },
-   {
-    "f": "1004-01-01",
-    "t": "1014-01-01",
-    "d": "luluogullari-halep",
-    "kesinlik": "yil",
-    "kaynak": "TDV HAMDÂNÎLER: Lü’lü’ 'Hamdânîler’in Halep koluna son veren ... idareyi tek başına ele geçirmiş oldu' (394/1004); hicrî 394 ∩ 1004 ilk gün",
-    "kunye_yok": true,
-    "ic_not": "Künye yok: Lü'lü' ve oğlu Mansûr (Murtazâ) — Halep'te Hamdânî memlûklerinden doğan kısa hânedan, 1004–1014/16; Mansûr Fâtımî halifesi adına hutbe okuttu (metbû Fâtımî). Musul'daki 'lului' (Bedreddin Lü'lü', 1233–1259) başka yapıdır."
-   },
-   {
-    "f": "1014-01-01",
-    "t": "1024-03-15",
-    "d": "fatimi",
-    "kesinlik": "yil",
-    "kaynak": "TDV HALEP: 'Halep 404’te (1014) Fâtımîler’in eline geçti'; hicrî 404 ∩ 1014 ilk gün",
-    "ic_not": "TDV MİRDÂSÎLER: Sâlih b. Mirdâs 405 (1014-15)'te Murtazâ'yı yendi, kale kumandanı Feth Fâtımîlerle anlaştı — TDV HALEP'in 404/1014 tarihi esas alındı."
-   },
-   {
-    "f": "1024-03-15",
-    "t": "1038-01-01",
-    "d": "mirdasi",
-    "kesinlik": "yil",
-    "kaynak": "TDV MİRDÂSÎLER: '415 (1024) yılında Halep’i ele geçirdi'; hicrî 415 ∩ 1024 ilk gün"
-   },
-   {
-    "f": "1038-01-01",
-    "t": "1042-01-01",
-    "d": "fatimi",
-    "kesinlik": "yil",
-    "kaynak": "TDV MİRDÂSÎLER: '429’da (1038) Halep’e giren Anuş Tegin'; 'Anuş Tegin’in ölümü üzerine (433/1042) Halep halkı şehrin kapılarını Simâl’e açtı'; hicrî 429 ∩ 1038 ve 433 ∩ 1042 ilk gün"
-   },
-   {
-    "f": "1042-01-01",
-    "t": "1057-01-01",
-    "d": "mirdasi",
-    "kesinlik": "yil",
-    "kaynak": "TDV MİRDÂSÎLER"
-   },
-   {
-    "f": "1057-01-01",
-    "t": "1060-01-01",
-    "d": "fatimi",
-    "kesinlik": "yil",
-    "kaynak": "TDV MİRDÂSÎLER: Simâl 'Halep’i Fâtımîler’e teslim edip Akkâ’ya gitti (1057)'; '1060 ... Halep Nasr’ın oğlu Reşîdüddevle Mahmûd tarafından zaptedildi'"
-   },
-   {
-    "f": "1060-01-01",
-    "t": "1080-01-01",
-    "d": "mirdasi",
-    "kesinlik": "yil",
-    "kaynak": "TDV MİRDÂSÎLER; TDV HALEP (Mahmûd el-Mirdâsî Selçuklulara bağlandı, 31 Temmuz 1070)",
-    "ic_not": "1070'ten itibaren Mirdâsî emîri Selçuklu tâbiidir (metbû Büyük Selçuklu)."
-   },
-   {
-    "f": "1080-01-01",
-    "t": "1085-06-20",
-    "d": "ukayli",
-    "kesinlik": {
-     "f": "yil",
-     "t": "gun"
-    },
-    "kaynak": "TDV HALEP: Şerefüddevle 'şehre girdi ve Mirdâsî hânedanına son verdi (472/1080)'; TDV UKAYLÎLER: Müslim öldürüldü '24 Safer 478 / 20 Haziran 1085'"
-   },
-   {
-    "f": "1085-06-20",
-    "t": "1086-07-11",
-    "d": "halep-huteyti",
-    "kesinlik": "gun",
-    "kaynak": "TDV TUTUŞ: 'şehrin hâkimi Şerîf Ebû Ali Hasan b. Hibetullah el-Huteytî'; TDV HALEP",
-    "kunye_yok": true,
-    "ic_not": "Künye yok: Halep şerifi Ebû Ali Hasan b. Hibetullah el-Huteytî'nin şehir yönetimi (Haziran 1085 – Temmuz 1086); şehri Süleyman Şah'a karşı tuttu, sonra Tutuş'a teslim etti."
-   },
-   {
-    "f": "1086-07-11",
-    "t": "1086-12-03",
-    "d": "suriye-selcuklu",
-    "kesinlik": "gun",
-    "kaynak": "TDV HALEP: 'Tutuş 26 Rebîülevvel 479 (11 Temmuz 1086) günü şehri ele geçirdi'",
-    "ic_not": "Kale (Huteytî) teslim olmadan Tutuş'un şehre girişi; Melikşah'ın emriyle ayrıldı."
-   },
-   {
-    "f": "1086-12-03",
-    "t": "1094-05-27",
-    "d": "buyuk-selcuklu",
-    "kesinlik": {
-     "f": "gun",
-     "t": "ay"
-    },
-    "kaynak": "TDV HALEP: 'Sultan Melikşah ... 23 Şâban 479’da (3 Aralık 1086) şehri teslim aldı' (Aksungur şahne); TDV TUTUŞ: Aksungur yenilip öldürüldü (Cemâziyelevvel 487 / Mayıs 1094)",
-    "ic_not": "1092 sonunda Aksungur Tutuş'la 'anlaştı' (tâbi oldu), sonra Berkyaruk tarafına geçti; Halep'i Mayıs 1094'e kadar o tuttu. t = Tel Sultan savaşı (27 Mayıs 1094); şehrin Tutuş'a teslim günü kaynakta yok."
-   },
-   {
-    "f": "1094-05-27",
-    "t": "1117-05-05",
-    "d": "suriye-selcuklu",
-    "kesinlik": {
-     "f": "ay",
-     "t": "yil"
-    },
-    "kaynak": "TDV TUTUŞ; TDV HALEP (Rıdvân 488/1095 – Sultan Şah)",
-    "ic_not": "künye ömrü düzeltilmeli: suriye-selcuklu künyesi 1117-01-01'de bitiyor; TDV HALEP'e göre Halep'te Rıdvân'ın oğlu Sultan Şah (fiilen atabegler Lü'lü', Yaruktaş) İlgazi'nin girişine (511/1117-18) kadar sürüyor — aynı yapı sürüyor ⇒ künye t'sini 1117-18'e GENİŞLET önerisi."
-   },
-   {
-    "f": "1117-05-05",
-    "t": "1125-01-01",
-    "d": "artuklu",
-    "kesinlik": {
-     "f": "yil",
-     "t": "belirsiz"
-    },
-    "kaynak": "TDV HALEP: İlgazi 'şehre girdi (511/1117-18)'; Bedrüddevle Süleyman (1122), Belek (Haziran 1123), Timurtaş (22 Mayıs 1124); hicrî 511 ilk gün",
-    "ic_not": "Artuklu künyesi 1102'de başlıyor — uyumlu. t: Aksungur el-Porsukî'nin şehri kurtarıp yönetimi alması — TDV gün/yıl vermez (Ocak 1125 civarı, genel bilgi, doğrulanmadı)."
-   },
-   {
-    "f": "1125-01-01",
-    "t": "1129-01-01",
-    "d": "irak-selcuklu",
-    "kesinlik": "belirsiz",
-    "kaynak": "TDV HALEP: Aksungur'un yaklaşmasıyla müttefikler dağıldı; 'Aksungur’un ölümü üzerine Irak Selçuklu Sultanı Mahmud Halep’i ... Zengî’ye verdi (1129)'",
-    "ic_not": "Doğrudan idareci Musul valisi Aksungur el-Porsukî (Irak Selçuklu emîri) ve 1126'daki ölümünden sonra oğlu Mesud ile karışık dönem; uçlar beyanlı yaklaşıklık. TDV ZENGÎLER bibliyografyası Zengî dönemini 522/1128'den başlatır (Zouache) — TDV HALEP'in 1129'u esas."
-   },
-   {
-    "f": "1129-01-01",
-    "t": "1146-06-13",
-    "d": "zengi-musul",
-    "kesinlik": "yil",
-    "kaynak": "TDV HALEP (Zengî 1129); TDV ZENGÎLER: Zengî Ca‘ber kuşatmasında öldürüldü (541/1146); hicrî 541 ∩ 1146 ilk gün",
-    "ic_not": "t hicrî kuralla 541'in ilk gününe düşüyor; Zengî'nin ölümü 541 Rebîülâhirindedir (Eylül 1146) — kural gereği erken uç."
-   },
-   {
-    "f": "1146-06-13",
-    "t": "1183-06-12",
-    "d": "zengi-halep",
-    "kesinlik": {
-     "f": "yil",
-     "t": "gun"
-    },
-    "kaynak": "TDV ZENGÎLER: Nûreddin Mahmud Halep'e hâkim oldu (541/1146); '18 Safer 579’da (12 Haziran 1183) Halep’i ele geçiren ... Selâhaddîn'",
-    "ic_not": "TDV HALEP antlaşmayı '17 Safer 579 / 11 Haziran 1183' diye verir; teslim/ele geçiriş için TDV ZENGÎLER'in 12 Haziran'ı alındı."
-   },
-   {
-    "f": "1183-06-12",
-    "t": "1186-03-24",
-    "d": "eyyubi",
-    "kesinlik": {
-     "f": "gun",
-     "t": "yil"
-    },
-    "kaynak": "TDV HALEP: Selâhaddin şehri önce oğlu ez-Zâhir Gāzî'ye, sonra kardeşi el-Âdil'e verdi; ez-Zâhir 'tekrar Halep’e tayin edildi (582/1186)'; hicrî 582 ∩ 1186 ilk gün"
-   },
-   {
-    "f": "1186-03-24",
-    "t": "1260-01-01",
-    "d": "eyyubi-halep",
-    "kesinlik": {
-     "f": "yil",
-     "t": "yil"
-    },
-    "kaynak": "TDV HALEP: Melik Gāzî devri (1186-1212) ... II. Yûsuf (1237-1260); 'Hülâgû 1260’ta şehri ele geçirerek'"
-   }
-  ],
-  "olay": [
-   {
-    "t": "-2300-01-01",
-    "gun": "MÖ 24. yüzyıl",
-    "k": "diger",
-    "b": "Ebla metinlerinde Ḫalab ve fırtına tanrısı Hadda'nın tapınağı anılıyor",
-    "kaynak": "A. Archi, Iraq 72 (2010) 3–17 (özet)"
-   },
-   {
-    "t": "-2299-01-01",
-    "gun": "MÖ 2300",
-    "k": "diger",
-    "b": "Ebla Birinci Krallığı'nın sonu (künye geçişi; Halep'in sonraki sahibi bilinmiyor)",
-    "kaynak": "devlet künyesi ebla-1 (atlas); Halep'e özgü tanık yok — bulunamadı"
-   },
-   {
-    "t": "-1799-01-01",
-    "gun": "MÖ 18. yüzyıl",
-    "k": "kurulus",
-    "b": "Halep Yamhad Krallığı'nın başşehri olarak görünüyor",
-    "kaynak": "TDV HALEP"
-   },
-   {
-    "t": "-1599-01-01",
-    "gun": "MÖ 1600",
-    "k": "diger",
-    "b": "Yamhad künyesinin sonu; Hitit I. Murşili'nin Halep'i yağmalaması bu çağdadır (tarih ve Halep'in sonraki sahibi belirsiz)",
-    "kaynak": "TDV HALEP ('Hitit Krallığı’nın eline geçerek')"
-   },
-   {
-    "t": "-1343-01-01",
-    "gun": "MÖ 1344",
-    "k": "fetih",
-    "b": "Halep Hitit İmparatorluğu'nun eyalet merkezi (I. Şuppiluliuma çağı; yıl yaklaşık)",
-    "kaynak": "TDV HALEP; Pleiades 658409"
-   },
-   {
-    "t": "-1179-01-01",
-    "gun": "MÖ 1180",
-    "k": "kurulus",
-    "b": "Hitit İmparatorluğu'nun dağılması; Halpa Geç Hitit krallığı",
-    "kaynak": "TDV HALEP"
-   },
-   {
-    "t": "-0852-01-01",
-    "gun": "MÖ 853",
-    "k": "vassal",
-    "b": "Asur (III. Salmanasar) Halman'ı haraca bağladı; Halep Asur topraklarına girdi (TDV: IX. yy. ortası)",
-    "kaynak": "TDV HALEP; Pleiades 658409 (Ḫalman); MÖ 853 yılı genel kronoloji (ayrıca doğrulanmadı)"
-   },
-   {
-    "t": "-0608-01-01",
-    "gun": "MÖ 609",
-    "k": "kayip",
-    "b": "Yeni Asur İmparatorluğu'nun son direnişi çöktü (künye sonu)",
-    "kaynak": "devlet künyesi yeni-asur; genel kronoloji"
-   },
-   {
-    "t": "-0604-01-01",
-    "gun": "MÖ 605",
-    "k": "savas",
-    "b": "Karkamış Savaşı: Suriye Babil'e geçti",
-    "kaynak": "genel kronoloji (ayrıca doğrulanmadı) — bölge olayı"
-   },
-   {
-    "t": "-0538-10-12",
-    "gun": "12 Ekim MÖ 539",
-    "k": "fetih",
-    "b": "Babil Kyros'a düştü; Suriye Ahameniş egemenliğine geçti",
-    "kaynak": "devlet künyesi yeni-babil; genel kronoloji"
-   },
-   {
-    "t": "-0332-01-01",
-    "gun": "~MÖ 333",
-    "k": "fetih",
-    "b": "İssos sonrası Suriye İskender'e geçti (yıl yaklaşık)",
-    "kaynak": "genel kronoloji (ayrıca doğrulanmadı) — bölge olayı"
-   },
-   {
-    "t": "-0322-06-10",
-    "gun": "10 Haziran MÖ 323",
-    "k": "diger",
-    "b": "Büyük İskender'in ölümü; Diadokh savaşları",
-    "kaynak": "genel kronoloji (künye iskender-imparatorlugu bitişi)"
-   },
-   {
-    "t": "-0300-01-01",
-    "gun": "MÖ 301",
-    "k": "savas",
-    "b": "İpsos Savaşı: Kuzey Suriye I. Selevkos'a; Halep Beroia adıyla yeniden imar edildi",
-    "kaynak": "TDV HALEP; İpsos yılı genel kronoloji"
-   },
-   {
-    "t": "-0082-01-01",
-    "gun": "MÖ 83",
-    "k": "fetih",
-    "b": "Ermeni kralı Tigranes Selevkos Suriyesi'ni ele geçirdi",
-    "kaynak": "Appianos, Syriake 48 (livius.org, H. White çev.)"
-   },
-   {
-    "t": "-0068-01-01",
-    "gun": "MÖ 69",
-    "k": "diger",
-    "b": "Lucullus Tigranes'i yendi; XIII. Antiokhos Suriye'de atalarının yetkisini yeniden kullandı",
-    "kaynak": "Appianos, Syriake 49"
-   },
-   {
-    "t": "-0063-01-01",
-    "gun": "MÖ 64",
-    "k": "ilhak",
-    "b": "Pompeius Suriye'yi Roma'ya kattı",
-    "kaynak": "Appianos, Syriake 49–50; yıl genel kronoloji"
-   },
-   {
-    "t": "-0026-01-16",
-    "gun": "16 Ocak MÖ 27",
-    "k": "diger",
-    "b": "künye geçişi: Octavianus 'Augustus' unvanını aldı — Roma Cumhuriyeti'nden Prinkipat'a (toprak el değiştirmedi)",
-    "kaynak": "genel kronoloji (ayrıca doğrulanmadı)"
-   },
-   {
-    "t": "0395-01-17",
-    "gun": "17 Ocak 395",
-    "k": "diger",
-    "b": "künye geçişi: I. Theodosius'un ölümü; imparatorluk ikiye ayrıldı, şehir Doğu Roma'da kaldı",
-    "kaynak": "genel kronoloji (ayrıca doğrulanmadı)"
-   },
-   {
-    "t": "0613-01-01",
-    "gun": "613",
-    "k": "fetih",
-    "b": "Sâsânî orduları Suriye'ye girdi (Dımaşk işgal edildi)",
-    "kaynak": "TDV SÂSÂNÎLER"
-   },
-   {
-    "t": "0628-01-01",
-    "gun": "628",
-    "k": "antlasma",
-    "b": "Herakleios'un zaferi ve barış; Sâsânîler Suriye'den çekildi (tahliye günü yok)",
-    "kaynak": "TDV SÂSÂNÎLER (627 Ninova); TDV MISIR (628)"
-   },
-   {
-    "t": "0637-02-02",
-    "gun": "16 (637)",
-    "k": "fetih",
-    "b": "Halep halkı aman diledi; İyâz b. Ganm antlaşmasıyla müslümanlar Antakya Kapısı'ndan girdi",
-    "kaynak": "TDV HALEP (Belâzürî, Fütûh)"
-   },
-   {
-    "t": "0661-07-29",
-    "gun": "661",
-    "k": "diger",
-    "b": "künye geçişi: Muâviye'nin halifeliği — Hulefâ-yi Râşidîn'den Emevîler'e",
-    "kaynak": "TDV HALEP (Muâviye Suriye valisi); gün künye başlangıcı · gün 0661-07-29: künye geçişi günü 14 Ekim 2026'da TDV hulefa-yi-rasidin '25 Rebîülevvel 41/29 Temmuz 661' ile düzeldi (Hz. Hasan'ın feragati)"
-   },
-   {
-    "t": "0750-01-25",
-    "gun": "25 Ocak 750",
-    "k": "savas",
-    "b": "Zap Savaşı: II. Mervân yenildi; Suriye Abbâsîler'e geçti",
-    "kaynak": "TDV MERVÂN II"
-   },
-   {
-    "t": "0878-01-01",
-    "gun": "264 (878)",
-    "k": "fetih",
-    "b": "Ahmed b. Tolun Halep'i istilâ etti",
-    "kaynak": "TDV HALEP"
-   },
-   {
-    "t": "0884-06-29",
-    "gun": "271 (884)",
-    "k": "fetih",
-    "b": "Abbâsîler Halep'i geri aldı",
-    "kaynak": "TDV HALEP"
-   },
-   {
-    "t": "0903-01-01",
-    "gun": "290 (903)",
-    "k": "kusatma",
-    "b": "Karmatîler Halep'i kuşattı",
-    "kaynak": "TDV HALEP"
-   },
-   {
-    "t": "0936-01-01",
-    "gun": "324 (936)",
-    "k": "fetih",
-    "b": "Halep İhşîdîler'in eline geçti",
-    "kaynak": "TDV HALEP"
-   },
-   {
-    "t": "0944-10-29",
-    "gun": "8 Rebîülevvel 333 / 29 Ekim 944",
-    "k": "fetih",
-    "b": "Seyfüddevle Halep'e girdi; Hamdânîler'in başşehri oldu",
-    "kaynak": "TDV HAMDÂNÎLER; TDV HALEP"
-   },
-   {
-    "t": "0962-02-09",
-    "gun": "351 (962)",
-    "k": "kusatma",
-    "b": "Nikephoros Phokas Halep'i ele geçirip bir hafta yağmaladı (kısa işgal; dönem açılmadı)",
-    "kaynak": "TDV HALEP; hicrî 351 ilk gün, tablo takvimi"
-   },
-   {
-    "t": "0969-01-01",
-    "gun": "358 (969)",
-    "k": "fetih",
-    "b": "Nikephoros Phokas döneminde Bizans Halep'i yeniden istilâ etti",
-    "kaynak": "TDV HALEP"
-   },
-   {
-    "t": "0975-09-10",
-    "gun": "365 (975)",
-    "k": "fetih",
-    "b": "Hamdânîler Halep'i geri aldı",
-    "kaynak": "TDV HALEP"
-   },
-   {
-    "t": "1004-01-01",
-    "gun": "394 (1004)",
-    "k": "darbe",
-    "b": "Hâcib Lü’lü’ Hamdânî Halep koluna son verip idareyi tek başına aldı",
-    "kaynak": "TDV HAMDÂNÎLER"
-   },
-   {
-    "t": "1014-01-01",
-    "gun": "404 (1014)",
-    "k": "fetih",
-    "b": "Halep Fâtımîler'in eline geçti",
-    "kaynak": "TDV HALEP"
-   },
-   {
-    "t": "1024-03-15",
-    "gun": "415 (1024)",
-    "k": "fetih",
-    "b": "Sâlih b. Mirdâs Halep'i alıp Mirdâsî hânedanının merkezi yaptı",
-    "kaynak": "TDV MİRDÂSÎLER; TDV HALEP"
-   },
-   {
-    "t": "1038-01-01",
-    "gun": "429 (1038)",
-    "k": "fetih",
-    "b": "Fâtımî kumandanı Anuş Tegin ed-Dizberî Halep'e girdi",
-    "kaynak": "TDV MİRDÂSÎLER"
-   },
-   {
-    "t": "1042-01-01",
-    "gun": "433 (1042)",
-    "k": "fetih",
-    "b": "Anuş Tegin'in ölümü; Halep halkı kapıları Mirdâsî Simâl'e açtı",
-    "kaynak": "TDV MİRDÂSÎLER"
-   },
-   {
-    "t": "1057-01-01",
-    "gun": "1057",
-    "k": "antlasma",
-    "b": "Simâl Halep'i Fâtımîler'e teslim edip Akkâ'ya gitti",
-    "kaynak": "TDV MİRDÂSÎLER"
-   },
-   {
-    "t": "1060-01-01",
-    "gun": "1060",
-    "k": "fetih",
-    "b": "Funeydik zaferinden sonra Mirdâsî Mahmûd Halep'i aldı",
-    "kaynak": "TDV MİRDÂSÎLER"
-   },
-   {
-    "t": "1070-07-31",
-    "gun": "19 Şevval 462 / 31 Temmuz 1070",
-    "k": "vassal",
-    "b": "Mahmûd el-Mirdâsî Abbâsî halifesi ve Alparslan adına hutbe okuttu",
-    "kaynak": "TDV HALEP"
-   },
-   {
-    "t": "1080-01-01",
-    "gun": "472 (1080)",
-    "k": "fetih",
-    "b": "Ukaylî Şerefüddevle Müslim b. Kureyş Halep'e girip Mirdâsî hânedanına son verdi",
-    "kaynak": "TDV HALEP"
-   },
-   {
-    "t": "1085-06-20",
-    "gun": "24 Safer 478 / 20 Haziran 1085",
-    "k": "savas",
-    "b": "Şerefüddevle Müslim Süleyman Şah'a yenilip öldü; şehir Şerif el-Huteytî'nin elinde kaldı",
-    "kaynak": "TDV UKAYLÎLER; TDV HALEP"
-   },
-   {
-    "t": "1086-07-11",
-    "gun": "26 Rebîülevvel 479 / 11 Temmuz 1086",
-    "k": "fetih",
-    "b": "Tutuş Halep'i ele geçirdi",
-    "kaynak": "TDV HALEP"
-   },
-   {
-    "t": "1086-12-03",
-    "gun": "23 Şâban 479 / 3 Aralık 1086",
-    "k": "fetih",
-    "b": "Sultan Melikşah Halep'i teslim aldı; Aksungur şahne",
-    "kaynak": "TDV HALEP"
-   },
-   {
-    "t": "1094-05-27",
-    "gun": "9 Cemâziyelevvel 487 / 27 Mayıs 1094",
-    "k": "savas",
-    "b": "Tel Sultan savaşı: Tutuş Aksungur'u yenip öldürttü; Halep Tutuş'a geçti",
-    "kaynak": "TDV TUTUŞ"
-   },
-   {
-    "t": "1117-05-05",
-    "gun": "511 (1117-18)",
-    "k": "fetih",
-    "b": "Artukoğlu İlgazi Halepliler'in çağrısıyla şehre girdi",
-    "kaynak": "TDV HALEP"
-   },
-   {
-    "t": "1124-05-22",
-    "gun": "22 Mayıs 1124",
-    "k": "taht",
-    "b": "Timurtaş Halep'e hâkim oldu; ardından Sultan Şah–Dübeys–II. Baudouin kuşatması",
-    "kaynak": "TDV HALEP"
-   },
-   {
-    "t": "1125-01-01",
-    "gun": "1125 (yaklaşık)",
-    "k": "kusatma",
-    "b": "Aksungur el-Porsukî'nin yaklaşmasıyla müttefikler Halep kuşatmasını kaldırdı",
-    "kaynak": "TDV HALEP (yıl TDV'de yok)"
-   },
-   {
-    "t": "1129-01-01",
-    "gun": "1129",
-    "k": "idari",
-    "b": "Irak Selçuklu Sultanı Mahmud Halep'i İmâdüddin Zengî'ye verdi",
-    "kaynak": "TDV HALEP"
-   },
-   {
-    "t": "1146-06-13",
-    "gun": "541 (1146)",
-    "k": "diger",
-    "b": "Zengî'nin ölümü; Halep oğlu Nûreddin Mahmud'a, Musul Seyfeddin Gazi'ye (künye geçişi)",
-    "kaynak": "TDV ZENGÎLER"
-   },
-   {
-    "t": "1183-06-12",
-    "gun": "18 Safer 579 / 12 Haziran 1183",
-    "k": "antlasma",
-    "b": "Selâhaddin Halep'i II. İmâdüddin Zengî'den Sincar vb. karşılığında aldı",
-    "kaynak": "TDV ZENGÎLER; TDV HALEP"
-   },
-   {
-    "t": "1186-03-24",
-    "gun": "582 (1186)",
-    "k": "idari",
-    "b": "el-Melikü'z-Zâhir Gāzî Halep'e yeniden tayin edildi; Halep Eyyûbî kolu",
-    "kaynak": "TDV HALEP"
-   },
-   {
-    "t": "1260-01-01",
-    "gun": "1260",
-    "k": "fetih",
-    "b": "Hülâgû Halep'i kuşatıp ele geçirdi, yakıp yıktı",
-    "kaynak": "TDV HALEP; TDV HÜLÂGÛ"
-   }
-  ],
-  "ic_not": "İlk anılış: Archi (2010) özeti Halep'i MÖ 24. yüzyılda (Ebla arşivleri) anıyor; güvenli uç olarak yüzyılın sonu (MÖ 2301) alındı. TDV yalnız 'III. binyıl' der. Pleiades 658409 (Beroia) atlas noktasına 0,33 km; Hitit–Asur–Helenistik yer adları aynı kale höyüğüne bağlanır. Antikçağ zincirinin büyük kısmı künye sınırları üzerinden beyanlı yaklaşıklıktır; MÖ 2300–1800 ve 1600–1344 dilimleri beyanlı boşluk. Atlas başlangıcı 1260-01-01 ilhanli: TDV yalnız yıl (1260) verir, dikiş olayı o yılla yazıldı. Parti koordinatı atlas noktasına 0,1 km."
- },
- {
-  "id": "alexandria",
-  "ad": "Alexandria",
-  "atlas_ad": "İskenderiye",
-  "lat": 31.202,
-  "lon": 29.916,
-  "kat1900": 2,
-  "adlar": [
-   "Rhakotis",
-   "Alexandreia",
-   "Alexandria",
-   "el-İskenderiyye",
-   "İskenderiye"
-  ],
-  "ilk": {
-   "t": "-0330-01-01",
-   "gun": "MÖ 331",
-   "nicelik": "kurulus",
-   "kesinlik": "yil",
-   "kaynak": "Arrianos, Anabasis 3.1.5 (Chinnock çev., Wikisource); yıl: Diodoros 17.49–52 (arkhon Niketes 332/331) — güvenli uç MÖ 331",
-   "tanik": "The position seemed to him a very fine one in which to found a city"
-  },
-  "kur": {
-   "t": "-0330-01-01",
-   "gun": "MÖ 331",
-   "kesinlik": "yil",
-   "kaynak": "Arrianos, Anabasis 3.1.5; Diodoros 17.52; TDV İSKENDERİYE",
-   "tanik": "The position seemed to him a very fine one in which to found a city"
-  },
-  "ark": null,
-  "bit": null,
-  "sahip": [
-   {
-    "f": "-0330-01-01",
-    "t": "-0322-06-10",
-    "d": "iskender-imparatorlugu",
-    "kesinlik": {
-     "f": "yil",
-     "t": "gun"
-    },
-    "kaynak": "Arrianos, Anabasis 3.1.5 (Chinnock çev.); Diodoros 17.49–52 (arkhon Niketes, MÖ 332/331); TDV İSKENDERİYE: 'Büyük İskender’in emriyle ... kurulan şehrin'"
-   },
-   {
-    "f": "-0322-06-10",
-    "t": "-0029-08-01",
-    "d": "ptolemai",
-    "kesinlik": "gun",
-    "kaynak": "TDV İSKENDERİYE: 'Mısır’ın başşehri olarak meydana çıkması Batlamyus (Ptolemaios) hânedanı devrine rastlar'; Babil paylaşımı (MÖ 323) genel kronoloji",
-    "ic_not": "künye ömrü düzeltilmeli: ptolemai künyesi -0304'te (krallık ilanı) başlıyor; I. Ptolemaios Mısır'ı MÖ 323'ten satrap olarak elinde tutuyor (aynı yapı sürüyor ⇒ künyeyi GENİŞLET önerisi). Bitiş: İskenderiye'nin alınışı (1 Ağustos MÖ 30), künye -0029-01-01'de bitiyor."
-   },
-   {
-    "f": "-0029-08-01",
-    "t": "-0026-01-16",
-    "d": "roma-cumhuriyeti",
-    "kesinlik": "gun",
-    "kaynak": "TDV MISIR (Eskiçağ bölümü): Actium sonrası 'Bir Roma eyaleti haline gelen Mısır'; Cassius Dio 51.19.6 (İskenderiye'nin alındığı gün uğurlu ilan edildi); gün: 1 Ağustos MÖ 30 (Kal. Sext.), Roma takvimi — Jülyen düzeltmesi öncesi, çevrilmedi; genel kronoloji (ayrıca doğrulanmadı)",
-    "ic_not": "Ptolemai künyesi -0029-01-01'de bitiyor; İskenderiye'nin alınışı 1 Ağustos MÖ 30 — künye ömrü düzeltilmeli: ptolemai t = -0029-08-01 önerisi."
-   },
-   {
-    "f": "-0026-01-16",
-    "t": "0395-01-17",
-    "d": "roma-imp",
-    "kesinlik": "gun",
-    "kaynak": "TDV MISIR (Eskiçağ bölümü): Actium sonrası 'Bir Roma eyaleti haline gelen Mısır'; geçiş günleri genel kronoloji (ayrıca doğrulanmadı)",
-    "ic_not": "Palmira (Zenobia) kuvvetlerinin Mısır'ı tutması (yaklaşık 270–272) olay olarak bile yazılmadı: şehre özgü ve tarihli tanık bulunamadı. İskenderiye'de 215 (Caracalla katliamı) ve 297–298 (Domitius Domitianus isyanı, Diocletianus kuşatması) olayları yazılmadı (doğrulanmadı)."
-   },
-   {
-    "f": "0395-01-17",
-    "t": "0619-01-01",
-    "d": "bizans",
-    "kesinlik": {
-     "f": "gun",
-     "t": "yil"
-    },
-    "kaynak": "TDV MISIR (Bizans dönemi bölümü): 'Sâsânîler Mısır’ı zaptettilerse de (619) şehir 628’de geri alındı'"
-   },
-   {
-    "f": "0619-01-01",
-    "t": "0628-01-01",
-    "d": "sasani",
-    "kesinlik": "yil",
-    "kaynak": "TDV MISIR (Bizans dönemi bölümü): 'Sâsânîler Mısır’ı zaptettilerse de (619) şehir 628’de geri alındı'",
-    "ic_not": "Bölge sahibi + beyan: TDV yalnız Mısır'ın zaptını (619) ve geri alınışı (628) verir; şehre özgü teslim günü yok."
-   },
-   {
-    "f": "0628-01-01",
-    "t": "0642-09-02",
-    "d": "bizans",
-    "kesinlik": {
-     "f": "yil",
-     "t": "ay"
-    },
-    "kaynak": "TDV MISIR (Bizans dönemi bölümü): 'Sâsânîler Mısır’ı zaptettilerse de (619) şehir 628’de geri alındı'; TDV MISIR, 4. bölüm (C. Tomar); TDV İSKENDERİYE: 'Şevval 21 / Eylül 642'; Şevval 21 ∩ Eylül 642 ilk gün, tablo takvimi, Jülyen"
-   },
-   {
-    "f": "0642-09-02",
-    "t": "0645-01-01",
-    "d": "hulefa-yi-rasidin",
-    "kesinlik": {
-     "f": "ay",
-     "t": "yil"
-    },
-    "kaynak": "TDV MISIR, 4. bölüm (C. Tomar); TDV İSKENDERİYE: 'Şevval 21 / Eylül 642'; Şevval 21 ∩ Eylül 642 ilk gün, tablo takvimi, Jülyen"
-   },
-   {
-    "f": "0645-01-01",
-    "t": "0646-01-01",
-    "d": "bizans",
-    "kesinlik": "yil",
-    "kaynak": "TDV İSKENDERİYE: '24 (645) yılında ... Bizanslılar tarafından geri alındıysa da'; hicrî 24 ∩ 645 ilk gün"
-   },
-   {
-    "f": "0646-01-01",
-    "t": "0661-07-29",
-    "d": "hulefa-yi-rasidin",
-    "kesinlik": "yil",
-    "kaynak": "TDV İSKENDERİYE: 'ertesi yıl Amr b. Âs şehri tekrar fethetti'; hicrî 25 ∩ 646 ilk gün"
-   },
-   {
-    "f": "0661-07-29",
-    "t": "0683-08-30",
-    "d": "emevi",
-    "kesinlik": "yil",
-    "kaynak": "TDV MISIR 4. bölüm (Muâviye dönemi); künye geçişi günü: emevi künyesinin başlangıcı (661)",
-    "ic_not": "f 0661-01-01 → 0661-07-29: künye geçişi günü 14 Ekim 2026'da TDV hulefa-yi-rasidin '25 Rebîülevvel 41/29 Temmuz 661' ile düzeldi (Hz. Hasan'ın feragati)."
-   },
-   {
-    "f": "0683-08-30",
-    "t": "0684-12-14",
-    "d": "zubeyri",
-    "kesinlik": {
-     "f": "yil",
-     "t": "ay"
-    },
-    "kaynak": "TDV MISIR, 4. bölüm (C. Tomar): 'Mısır’daki Hâricîler, 64 (683) yılında ... Abdullah b. Zübeyr’in tarafını tutunca'; hicrî 64 ∩ 683, ilk gün; çeviri: tablo takvimi, Jülyen"
-   },
-   {
-    "f": "0684-12-14",
-    "t": "0750-08-05",
-    "d": "emevi",
-    "kesinlik": {
-     "f": "ay",
-     "t": "gun"
-    },
-    "kaynak": "TDV MISIR, 4. bölüm (C. Tomar): 'Cemâziyelevvel 65’te (Aralık 684) Fustat’a giren I. Mervân tekrar Emevî hâkimiyetini sağladı'; Cem.evvel 65 ∩ Aralık 684 ilk gün, tablo takvimi, Jülyen"
-   },
-   {
-    "f": "0750-08-05",
-    "t": "0817-07-20",
-    "d": "abbasi",
-    "kesinlik": {
-     "f": "gun",
-     "t": "yil"
-    },
-    "kaynak": "TDV MERVÂN II: Bûsîr'de öldürüldü '26 Zilhicce 132 / 5 Ağustos 750'"
-   },
-   {
-    "f": "0817-07-20",
-    "t": "0826-04-13",
-    "d": "rabazli-iskenderiye",
-    "kesinlik": "yil",
-    "kaynak": "TDV İSKENDERİYE: '202 (817-18) yılında ... Rabazlılar’ın bir kısmı İskenderiye’ye gelerek idareyi ele geçirdiler'; hicrî 202 ilk gün, tablo takvimi, Jülyen",
-    "kunye_yok": true,
-    "ic_not": "Künye yok: Endülüs Emevî Emîri I. Hakem'in Kurtuba Rabaz isyanından (202/817-18) sonra sürdüğü Endülüslü göçmenlerin İskenderiye hâkimiyeti (817/18–826); 827'de Girit'e geçip Girit Emirliği'ni kurdular. Kaynak TDV İSKENDERİYE."
-   },
-   {
-    "f": "0826-04-13",
-    "t": "0870-01-01",
-    "d": "abbasi",
-    "kesinlik": "yil",
-    "kaynak": "TDV İSKENDERİYE: 'Abdullah b. Tâhir şehri Endülüslüler’in hâkimiyetinden kurtardı (211/826)'; hicrî 211 ∩ 826 ilk gün, tablo takvimi, Jülyen"
-   },
-   {
-    "f": "0870-01-01",
-    "t": "0905-01-11",
-    "d": "tolunogullari",
-    "kesinlik": {
-     "f": "yil",
-     "t": "ay"
-    },
-    "kaynak": "TDV İSKENDERİYE: Ahmed b. Tolun 'İskenderiye’yi de yönetimi altına aldıktan (256/870)'; hicrî 256 ∩ 870 ilk gün"
-   },
-   {
-    "f": "0905-01-11",
-    "t": "0935-08-04",
-    "d": "abbasi",
-    "kesinlik": "ay",
-    "kaynak": "TDV TOLUNOĞULLARI: Ahmed b. Tolun Mısır'a girdi (254/868); Şeybân teslim oldu (Rebîülevvel 292 / Ocak 905); Rebîülevvel 292 ∩ Ocak 905 ilk gün, tablo takvimi, Jülyen"
-   },
-   {
-    "f": "0935-08-04",
-    "t": "0969-07-06",
-    "d": "ihsidi",
-    "kesinlik": {
-     "f": "ay",
-     "t": "gun"
-    },
-    "kaynak": "TDV İHŞÎDÎLER: 'Mısır’da İhşîdîler döneminin temelleri atılmış oldu (Ramazan 323 / Ağustos 935)'; Fâtımî girişi '17 Şâban 358 / 6 Temmuz 969'; Ramazan 323 ∩ Ağustos 935 ilk gün, tablo takvimi, Jülyen"
-   },
-   {
-    "f": "0969-07-06",
-    "t": "1171-09-13",
-    "d": "fatimi",
-    "kesinlik": "gun",
-    "kaynak": "TDV İHŞÎDÎLER: 'Mısır’da İhşîdîler döneminin temelleri atılmış oldu (Ramazan 323 / Ağustos 935)'; Fâtımî girişi '17 Şâban 358 / 6 Temmuz 969'; TDV MISIR 4. bölüm (17 Şâban 358 / 6 Temmuz 969)"
-   },
-   {
-    "f": "1171-09-13",
-    "t": "1250-05-04",
-    "d": "eyyubi",
-    "kesinlik": "gun",
-    "kaynak": "TDV EYYÛBÎLER: Abbâsîler adına hutbe '10 Muharrem 567 / 13 Eylül 1171'"
-   },
-   {
-    "f": "1250-05-04",
-    "t": "1281-01-01",
-    "d": "memluk",
-    "kesinlik": "gun",
-    "kaynak": "TDV ŞECERÜDDÜR: Turan Şah öldürüldü, Şecerüddür sultan '30 Muharrem 648 / 4 Mayıs 1250'"
-   }
-  ],
-  "olay": [
-   {
-    "t": "-0330-01-01",
-    "gun": "MÖ 331",
-    "k": "kurulus",
-    "b": "Büyük İskender Rhakotis kıyısında İskenderiye'yi kurdurdu",
-    "kaynak": "Arrianos, Anabasis 3.1.5; Diodoros 17.52; TDV İSKENDERİYE"
-   },
-   {
-    "t": "-0322-06-10",
-    "gun": "10 Haziran MÖ 323",
-    "k": "diger",
-    "b": "Büyük İskender'in ölümü; Mısır satraplığı Ptolemaios'a",
-    "kaynak": "genel kronoloji (künye iskender-imparatorlugu bitişi)"
-   },
-   {
-    "t": "-0046-01-01",
-    "gun": "MÖ 47",
-    "k": "kusatma",
-    "b": "Caesar'ın İskenderiye savaşı; kütüphanenin yanışı",
-    "kaynak": "TDV İSKENDERİYE ('milâttan önce 47 yılında Sezar’ın şehri tahribi')"
-   },
-   {
-    "t": "-0029-08-01",
-    "gun": "1 Ağustos MÖ 30",
-    "k": "ilhak",
-    "b": "Octavianus İskenderiye'yi aldı; Ptolemaios Krallığı sona erdi, Mısır Roma eyaleti oldu",
-    "kaynak": "TDV MISIR (Eskiçağ bölümü): Actium sonrası 'Bir Roma eyaleti haline gelen Mısır'; Cassius Dio 51.19.6 (İskenderiye'nin alındığı gün uğurlu ilan edildi); gün: 1 Ağustos MÖ 30 (Kal. Sext.), Roma takvimi — Jülyen düzeltmesi öncesi, çevrilmedi; genel kronoloji (ayrıca doğrulanmadı)"
-   },
-   {
-    "t": "-0026-01-16",
-    "gun": "16 Ocak MÖ 27",
-    "k": "diger",
-    "b": "künye geçişi: Octavianus 'Augustus' unvanını aldı — Roma Cumhuriyeti'nden Prinkipat'a (toprak el değiştirmedi)",
-    "kaynak": "genel kronoloji (ayrıca doğrulanmadı); TDV MISIR (Eskiçağ: Octavianus/Augustus)"
-   },
-   {
-    "t": "0395-01-17",
-    "gun": "17 Ocak 395",
-    "k": "diger",
-    "b": "künye geçişi: I. Theodosius'un ölümü; imparatorluk ikiye ayrıldı, şehir Doğu Roma'da kaldı",
-    "kaynak": "genel kronoloji (ayrıca doğrulanmadı)"
-   },
-   {
-    "t": "0619-01-01",
-    "gun": "619",
-    "k": "fetih",
-    "b": "Sâsânîler Mısır'ı zaptetti",
-    "kaynak": "TDV MISIR (Bizans dönemi bölümü): 'Sâsânîler Mısır’ı zaptettilerse de (619) şehir 628’de geri alındı'"
-   },
-   {
-    "t": "0628-01-01",
-    "gun": "628",
-    "k": "fetih",
-    "b": "Bizans Mısır'ı Sâsânîler'den geri aldı",
-    "kaynak": "TDV MISIR (Bizans dönemi bölümü): 'Sâsânîler Mısır’ı zaptettilerse de (619) şehir 628’de geri alındı'"
-   },
-   {
-    "t": "0642-09-02",
-    "gun": "Şevval 21 / Eylül 642",
-    "k": "fetih",
-    "b": "Bizans kuvvetleri İskenderiye'yi Amr b. Âs'a teslim etti",
-    "kaynak": "TDV MISIR, 4. bölüm (C. Tomar); TDV İSKENDERİYE: 'Şevval 21 / Eylül 642'; Şevval 21 ∩ Eylül 642 ilk gün, tablo takvimi, Jülyen"
-   },
-   {
-    "t": "0645-01-01",
-    "gun": "24 (645)",
-    "k": "fetih",
-    "b": "Bizans İskenderiye'yi geri aldı (Amr Medine'de iken)",
-    "kaynak": "TDV İSKENDERİYE"
-   },
-   {
-    "t": "0646-01-01",
-    "gun": "25 (646)",
-    "k": "fetih",
-    "b": "Amr b. Âs İskenderiye'yi yeniden fethetti, surlarını yıktı",
-    "kaynak": "TDV İSKENDERİYE"
-   },
-   {
-    "t": "0817-07-20",
-    "gun": "202 (817-18)",
-    "k": "isyan",
-    "b": "Kurtuba'dan sürülen Rabazlı Endülüslüler İskenderiye'de idareyi ele geçirdi",
-    "kaynak": "TDV İSKENDERİYE"
-   },
-   {
-    "t": "0826-04-13",
-    "gun": "211 (826)",
-    "k": "fetih",
-    "b": "Abdullah b. Tâhir İskenderiye'yi Endülüslülerden kurtardı",
-    "kaynak": "TDV İSKENDERİYE"
-   },
-   {
-    "t": "0870-01-01",
-    "gun": "256 (870)",
-    "k": "idari",
-    "b": "Ahmed b. Tolun İskenderiye'yi yönetimi altına aldı",
-    "kaynak": "TDV İSKENDERİYE"
-   },
-   {
-    "t": "0914-01-01",
-    "gun": "302 (914-15)",
-    "k": "kusatma",
-    "b": "Fâtımîler'in İskenderiye'yi ele geçirme girişimi Abbâsî kuvvetlerince püskürtüldü",
-    "kaynak": "TDV İSKENDERİYE (TDV 'başarısızlıkla sonuçlandı' der)"
-   },
-   {
-    "t": "0919-01-01",
-    "gun": "307 (919)",
-    "k": "kusatma",
-    "b": "Fâtımîler'in ikinci İskenderiye girişimi başarısız",
-    "kaynak": "TDV İSKENDERİYE"
-   },
-   {
-    "t": "1174-07-01",
-    "gun": "569 (Temmuz 1174)",
-    "k": "kusatma",
-    "b": "Sicilya Normanları'nın İskenderiye saldırısı püskürtüldü",
-    "kaynak": "TDV İSKENDERİYE; TDV EYYÛBÎLER (Temmuz 1174)"
-   },
-   {
-    "t": "0661-07-29",
-    "gun": "661",
-    "k": "diger",
-    "b": "künye geçişi: Hz. Ali'nin şehadeti, Muâviye'nin halifeliği — Hulefâ-yi Râşidîn'den Emevîler'e",
-    "kaynak": "TDV MISIR 4. bölüm (C. Tomar); gün künye başlangıcı · gün 0661-07-29: künye geçişi günü 14 Ekim 2026'da TDV hulefa-yi-rasidin '25 Rebîülevvel 41/29 Temmuz 661' ile düzeldi (Hz. Hasan'ın feragati)"
-   },
-   {
-    "t": "0683-08-30",
-    "gun": "64 (683)",
-    "k": "isyan",
-    "b": "Mısır Abdullah b. Zübeyr'in halifeliğini tanıdı",
-    "kaynak": "TDV MISIR, 4. bölüm (C. Tomar)"
-   },
-   {
-    "t": "0684-12-14",
-    "gun": "Cemâziyelevvel 65 (Aralık 684)",
-    "k": "fetih",
-    "b": "I. Mervân Fustat'a girdi; Mısır yeniden Emevî",
-    "kaynak": "TDV MISIR, 4. bölüm (C. Tomar)"
-   },
-   {
-    "t": "0750-08-05",
-    "gun": "26 Zilhicce 132 / 5 Ağustos 750",
-    "k": "savas",
-    "b": "Son Emevî halifesi II. Mervân Bûsîr'de öldürüldü; Mısır Abbâsî hâkimiyetine girdi",
-    "kaynak": "TDV MERVÂN II: Bûsîr'de öldürüldü '26 Zilhicce 132 / 5 Ağustos 750'"
-   },
-   {
-    "t": "0905-01-11",
-    "gun": "Rebîülevvel 292 / Ocak 905",
-    "k": "fetih",
-    "b": "Abbâsî ordusu (Muhammed b. Süleyman) Fustat'a girdi; Tolunoğulları sona erdi",
-    "kaynak": "TDV TOLUNOĞULLARI: Ahmed b. Tolun Mısır'a girdi (254/868); Şeybân teslim oldu (Rebîülevvel 292 / Ocak 905)"
-   },
-   {
-    "t": "0935-08-04",
-    "gun": "Ramazan 323 / Ağustos 935",
-    "k": "taht",
-    "b": "Muhammed b. Tuğç Mısır valiliğine yeniden atandı; İhşîdîler dönemi başladı",
-    "kaynak": "TDV İHŞÎDÎLER: 'Mısır’da İhşîdîler döneminin temelleri atılmış oldu (Ramazan 323 / Ağustos 935)'; Fâtımî girişi '17 Şâban 358 / 6 Temmuz 969'"
-   },
-   {
-    "t": "0969-07-06",
-    "gun": "17 Şâban 358 / 6 Temmuz 969",
-    "k": "fetih",
-    "b": "Cevher es-Sıkıllî Fustat'a girdi; Mısır Fâtımî hâkimiyetine geçti",
-    "kaynak": "TDV İHŞÎDÎLER: 'Mısır’da İhşîdîler döneminin temelleri atılmış oldu (Ramazan 323 / Ağustos 935)'; Fâtımî girişi '17 Şâban 358 / 6 Temmuz 969'"
-   },
-   {
-    "t": "1171-09-13",
-    "gun": "10 Muharrem 567 / 13 Eylül 1171",
-    "k": "darbe",
-    "b": "Selâhaddin Fâtımî hilâfetine son verip Abbâsîler adına hutbe okuttu; Eyyûbî dönemi",
-    "kaynak": "TDV EYYÛBÎLER: Abbâsîler adına hutbe '10 Muharrem 567 / 13 Eylül 1171'"
-   },
-   {
-    "t": "1250-05-04",
-    "gun": "30 Muharrem 648 / 4 Mayıs 1250",
-    "k": "darbe",
-    "b": "Turan Şah öldürüldü, Şecerüddür sultan; Mısır'da Memlûk dönemi başladı",
-    "kaynak": "TDV ŞECERÜDDÜR: Turan Şah öldürüldü, Şecerüddür sultan '30 Muharrem 648 / 4 Mayıs 1250'"
-   }
-  ],
-  "ic_not": "Kuruluş yılı: Arrianos gün/yıl vermez; Diodoros kuruluşu arkhon Niketes yılına (MÖ 332/331) koyar — güvenli uç MÖ 331 (geleneksel 7 Nisan / 20 Ocak MÖ 331 günleri Psödo-Kallisthenes kaynaklı, kullanılmadı). Öncül Mısır köyü Rhakotis'in ayrı ilk anılışı aranmadı (Strabon 17.1.6 Rhakotis'i İskenderiye'nin bir kesimi sayar — aynı yer). Roma–Bizans–Sâsânî ve Emevî/Abbâsî/Tolunoğlu/İhşîdî/Fâtımî/Eyyûbî/Memlûk geçişleri Mısır geneline ait günlerdir (bölge sahibi + beyan); İskenderiye'ye özgü olanlar (642, 645–646, 817–826, 870) TDV İSKENDERİYE'den. Atlas 1281-01-01 memluk ile düz dikiş. Parti koordinatı atlas noktasına 0,4 km."
- },
- {
   "id": "alexandroupoli",
   "ad": "Alexandroupoli",
   "atlas_ad": "Dedeağaç (Alexandroupoli)",
@@ -3067,48 +1723,6 @@ window.SEHIR_TARIHCE_OSM = [
   "dikis_beyan": "Atlas 1281-01-01'de 'zeyyani' ile başlıyor; parti 03 bu sahiplik için tanık bulamadı (TDV'de Cezayir şehir maddesi yok; Hafsî Ebû Zekeriyyâ'nın nüfuzu 1228-1249 TDV'de). Zincir __BOSLUK__ ile bitiyor. Atlas başlangıç iddiası kaynak bekliyor."
  },
  {
-  "id": "amarah",
-  "ad": "Amarah",
-  "atlas_ad": "Ammâre",
-  "lat": 31.836,
-  "lon": 47.145,
-  "kat1900": 3,
-  "adlar": [
-   "Amâre",
-   "Ordu (1862, halk ağzı)",
-   "el-ʿAmāra"
-  ],
-  "ilk": {
-   "t": "1700-01-01",
-   "gun": "17. yüzyıl (güvenli uç 1700)",
-   "nicelik": "ilk_anilis",
-   "kesinlik": "yuzyil",
-   "kaynak": "TDV AMÂRE (İ. Bostan) — J.-B. Tavernier, Les six voyages (ed. S. Yerasimos, Paris 1981) I, 304 atfıyla; Tavernier metni açılmadı",
-   "tanik": "XVII. yüzyılda bir köy görünümünde olan Amâre"
-  },
-  "kur": null,
-  "ark": null,
-  "bit": null,
-  "sahip": [],
-  "olay": [
-   {
-    "t": "1862-01-01",
-    "gun": "1862",
-    "k": "diger",
-    "b": "Bağdat valisi Nâmık Paşa'nın Benî Lâm ve Âl-i Bû Muhammed harekâtında Dicle sol kıyısında ordugâh kuruldu; ardından kışla, şehir ticaret merkezine dönüştü",
-    "kaynak": "TDV AMÂRE (İ. Bostan)"
-   },
-   {
-    "t": "1890-01-01",
-    "gun": "1890",
-    "k": "idari",
-    "b": "II. Abdülhamid'in bölgedeki emlâkinin idare merkezi oldu",
-    "kaynak": "TDV AMÂRE (İ. Bostan)"
-   }
-  ],
-  "ic_not": "Zincir YOK: ilk tanık (XVII. yüzyıl köyü, güvenli uç 1700) atlas başlangıcından (1281-01-01, ilhanli) sonra ⇒ ATLAS DÜZELTMESİ ÖNERİSİ: 1281 için ne yerleşim ne sahip tanığı var; nokta en erken XVII. yüzyıl (Osmanlı Basra/Bağdat idaresi, doğrudan sahip araştırılmadı) ya da bugünkü şehrin çekirdeği olan 1862 ordugâhından başlamalı. Belirsizlik: TDV'nin XVII. yüzyıl 'köyü' ile 1862 ordugâhının aynı nokta olduğu metinde açık değil; Tavernier'in seyahat yılı (1650'ler sanılır) doğrulanmadı — açılsa ilk.t yıla iner. EI2 'ʿAmāra' (Longrigg) açılmadı. Sancak merkezliği XIX. yy sonu–1914 (TDV). Koordinat doğru (Amâre sancağı merkezi; atlas noktasına 0,0 km)."
- },
- {
   "id": "amasya",
   "ad": "Amasya",
   "atlas_ad": "Amasya",
@@ -3259,291 +1873,6 @@ window.SEHIR_TARIHCE_OSM = [
   ],
   "dikis_beyan": "Atlas 1281-01-01'i 'ilhanli' ile açıyor. Kaynak: TDV AMASYA Kösedağ (1243) sonrası Moğol zaptı ve 'Moğol valileri' der (zapt yılı yok); TDV KÖSEDAĞ'a göre Selçuklu devleti Moğol'a tâbi olarak sürdü ve vezir Amasya'dan barış yaptı. 1243-1281 doğrudan sahip (İlhanlı valisi mi, tâbi Selçuklu mu) tarihli tanıkla ayrılamadı — zincir __BOSLUK__ ile bitiyor; atlasın İlhanlı başlangıcı TDV AMASYA ile uyumlu ama günsüz. Arandı: TDV AMASYA, KÖSEDAĞ SAVAŞI, DÂNİŞMENDLİLER.",
   "ic_not": "İlk anılış pilottan (MÖ 63, Strabon'un Amaseia'da doğumu; güvenli uç) — Strabon 12.3.39 Perseus'ta yeniden okundu: 'Within this circuit are both the palaces and monuments of the kings' ve 'Amaseia was also given to kings, though it is now a province' cümleleri var. Pontus başkentliği (Pleiades editörleri ~MÖ 300-183) için tarihli birincil tanık bulunamadı: geri çekilirse zincir pontus ile başlar. TDV: kurucu ve tarih bilinmiyor, İskender öncesi ve Hitit dönemine uzandığı 'sanılmaktadır' (tanık değil). Pleiades 857018 Amaseia noktasına 1,92 km. Osmanlı ilhakı 1398 (TDV) atlas dönemine aittir."
- },
- {
-  "id": "ankara",
-  "ad": "Ankara",
-  "atlas_ad": "Ankara",
-  "lat": 39.92,
-  "lon": 32.854,
-  "kat1900": 2,
-  "adlar": [
-   "Ankyra",
-   "Ancyra",
-   "Sebaste Tektosagon",
-   "Engürü",
-   "Angora",
-   "Ankara"
-  ],
-  "ilk": {
-   "t": "-0332-01-01",
-   "gun": "MÖ 333",
-   "nicelik": "ilk_anilis",
-   "kesinlik": "yil",
-   "kaynak": "Arrianos, Anabasis 2.4.1 (TDV ANKARA 1. bölüm (S. Erdem) aktarımı; birincil metin açılamadı)",
-   "tanik": "Gordion’dan sonra Ankyra’ya geçerek Pers ordusunu orada beklemesi"
-  },
-  "kur": null,
-  "ark": {
-   "t": "-0600-01-01",
-   "gun": "MÖ 7. yüzyıl sonu",
-   "kesinlik": "yuzyil",
-   "kaynak": "TDV ANKARA 1. bölüm (S. Erdem): 'ilk şehri Frigler’in kurduğunu (m.ö. VIII-VII. yüzyıllar)'"
-  },
-  "bit": null,
-  "sahip": [
-   {
-    "f": "-0332-01-01",
-    "t": "-0322-06-10",
-    "d": "iskender-imparatorlugu",
-    "kesinlik": {
-     "f": "yil",
-     "t": "gun"
-    },
-    "kaynak": "Arrianos 2.4.1 (TDV ANKARA 1. bölüm (S. Erdem))",
-    "ic_not": "TDV: MÖ 547'den itibaren Pers yönetimi; ilk anılış İskender'in gelişinin kendisi olduğu için zincir İskender'le başlar (Pers dönemi ilk anılıştan önce kalır)."
-   },
-   {
-    "f": "-0322-06-10",
-    "t": "-0277-01-01",
-    "d": "__BOSLUK__",
-    "kesinlik": "belirsiz",
-    "kaynak": "TDV ANKARA 1. bölüm (S. Erdem)",
-    "ic_not": "TDV yalnız 'İskender ve Selevkoslar devrinde eski önemini nisbeten kaybettiği' der; Diadokh dönemi doğrudan sahip ve tarihler yok."
-   },
-   {
-    "f": "-0277-01-01",
-    "t": "-0087-01-01",
-    "d": "galatya-keltleri",
-    "kesinlik": "yil",
-    "kaynak": "TDV ANKARA 1. bölüm (S. Erdem): 'milâttan önce 278-189 yılları arasında ... Galatlar’ın Tektosages kolunun başşehri oldu'",
-    "ic_not": "TDV MÖ 189'dan itibaren 'Romalılar dönemi' der (Manlius Vulso seferi); doğrudan sahip Galat tetrarkları/kralları sayıldı, metbu Roma. Eyaletleşme MÖ 25 (Strabon 12.5.1)."
-   },
-   {
-    "f": "-0087-01-01",
-    "t": "-0083-01-01",
-    "d": "pontus",
-    "kesinlik": "yil",
-    "kaynak": "TDV ANKARA 1. bölüm (S. Erdem): 'Pontus Kralı Mithridatis’in eline geçtiği dört yıl (m.ö. 88-84) hariç'"
-   },
-   {
-    "f": "-0083-01-01",
-    "t": "-0024-01-01",
-    "d": "galatya-keltleri",
-    "kesinlik": "yil",
-    "kaynak": "TDV ANKARA 1. bölüm (S. Erdem); Strabon 12.5.1"
-   },
-   {
-    "f": "-0024-01-01",
-    "t": "0395-01-17",
-    "d": "roma-imp",
-    "kesinlik": {
-     "f": "yil",
-     "t": "gun"
-    },
-    "kaynak": "Strabon 12.5.1 (Perseus, Jones çev.; dipnot 'MÖ 25'); TDV ANKARA 1. bölüm (S. Erdem): 'Augustus’tan ... itibaren Galatya eyaletinin başşehri'"
-   },
-   {
-    "f": "0395-01-17",
-    "t": "0620-01-01",
-    "d": "bizans",
-    "kesinlik": {
-     "f": "gun",
-     "t": "yil"
-    },
-    "kaynak": "TDV ANKARA 1. bölüm (S. Erdem) (Bizans dönemi 395-1073)"
-   },
-   {
-    "f": "0620-01-01",
-    "t": "0627-01-01",
-    "d": "sasani",
-    "kesinlik": "yil",
-    "kaynak": "TDV ANKARA 2. bölüm (A. Özaydın): 'Sâsânîler tarafından işgal edilerek yakılıp yıkıldı (620). Ancak İmparator Herakleios 627’de ... şehri geri aldı'"
-   },
-   {
-    "f": "0627-01-01",
-    "t": "1073-01-01",
-    "d": "bizans",
-    "kesinlik": "yil",
-    "kaynak": "TDV ANKARA 2. bölüm (A. Özaydın)",
-    "ic_not": "44/664 Emevî fethi rivayeti (TDV: İslâm kaynaklarında doğrulanmaz), 181/797 Abbâsî fethi ('daha sonra Bizans’a bırakmak zorunda kalmıştır'), ~806 Abbâsî, 838 Mu'tasım, 871 Pavlikanlar: TDV 'zaman zaman el değiştirdi' der, süre vermez — olay olarak yazıldı, dönem ayrılmadı (borç)."
-   },
-   {
-    "f": "1073-01-01",
-    "t": "1101-06-23",
-    "d": "selcuklu",
-    "kesinlik": {
-     "f": "yil",
-     "t": "gun"
-    },
-    "kaynak": "TDV ANKARA 2. bölüm (A. Özaydın): 'Selçuklular Malazgirt Zaferi’nden iki yıl sonra Ankara’yı da fethettiler (1073)'",
-    "ic_not": "Denetim 'hayalet' uyarısı verir (künye selcuklu 1075): 1073'te fetheden yapı TDV'de 'Selçuklular'; Türkiye Selçuklu Devleti'nin kuruluşu 1075 ya da 1078–1081 (TDV SÜLEYMAN ŞAH I) — Büyük Selçuklu uç kuvvetleri olabilir, ayrım kaynakta yok. I. Haçlı (1101) Raimond de Toulouse'un kısa işgali olayda; Haçlı elindeki günler dönem olarak ayrılmadı."
-   },
-   {
-    "f": "1101-06-23",
-    "t": "1121-01-01",
-    "d": "bizans",
-    "kesinlik": {
-     "f": "gun",
-     "t": "onyil"
-    },
-    "kaynak": "TDV ANKARA 2. bölüm (A. Özaydın): 'Ankara 23 Haziran 1101’de Bizans İmparatorluğu’na bırakıldı'; TDV ANKARA 1. bölüm (S. Erdem): 'tahminen yirmi yıl yine bir hıristiyan şehri olarak kalmıştır'"
-   },
-   {
-    "f": "1121-01-01",
-    "t": "1127-01-01",
-    "d": "selcuklu",
-    "kesinlik": {
-     "f": "onyil",
-     "t": "yil"
-    },
-    "kaynak": "TDV ANKARA 2. bölüm (A. Özaydın): '1127’den önceki bir tarihte tekrar Selçuklular’ın eline geçtiği anlaşılmaktadır'; TDV ANKARA 1. bölüm (S. Erdem)",
-    "ic_not": "f = 1101 + TDV 1. bölümün 'tahminen yirmi yıl'ı (tahmin, onyıl kesinlik); 2. bölüm yalnız '1127’den önce' der."
-   },
-   {
-    "f": "1127-01-01",
-    "t": "1134-01-01",
-    "d": "danismendli",
-    "kesinlik": "yil",
-    "kaynak": "TDV ANKARA 2. bölüm (A. Özaydın): 'Emîr Gazi 1127’de burayı ... I. Kılıcarslan’ın oğlu Melik Arab’dan almıştır'"
-   }
-  ],
-  "olay": [
-   {
-    "t": "-0332-01-01",
-    "gun": "MÖ 333",
-    "k": "fetih",
-    "b": "İskender Gordion'dan sonra Ankyra'ya geldi; Paflagonya elçilerini burada kabul etti",
-    "kaynak": "Arrianos 2.4.1 (TDV ANKARA 1. bölüm (S. Erdem))"
-   },
-   {
-    "t": "-0322-06-10",
-    "gun": "10 Haziran MÖ 323",
-    "k": "diger",
-    "b": "Büyük İskender'in ölümü; Diadokh savaşları başladı",
-    "kaynak": "gün genel kronoloji (ayrıca doğrulanmadı) (künye iskender-imparatorlugu bitişiyle aynı)"
-   },
-   {
-    "t": "-0277-01-01",
-    "gun": "MÖ 278",
-    "k": "fetih",
-    "b": "Trakya'dan gelen Galatlar'ın Tektosages kolu Ankyra'yı başşehir yaptı",
-    "kaynak": "TDV ANKARA 1. bölüm (S. Erdem)"
-   },
-   {
-    "t": "-0188-01-01",
-    "gun": "MÖ 189",
-    "k": "savas",
-    "b": "Roma'nın Galatya seferi; TDV'ye göre Roma dönemi başlar (Galat yönetimi sürdü)",
-    "kaynak": "TDV ANKARA 1. bölüm (S. Erdem)"
-   },
-   {
-    "t": "-0087-01-01",
-    "gun": "MÖ 88",
-    "k": "fetih",
-    "b": "Pontus kralı VI. Mithridates Ankara'yı ele geçirdi",
-    "kaynak": "TDV ANKARA 1. bölüm (S. Erdem)"
-   },
-   {
-    "t": "-0083-01-01",
-    "gun": "MÖ 84",
-    "k": "kayip",
-    "b": "Pontus hâkimiyeti sona erdi; Galat yönetimi geri döndü",
-    "kaynak": "TDV ANKARA 1. bölüm (S. Erdem)"
-   },
-   {
-    "t": "-0024-01-01",
-    "gun": "MÖ 25",
-    "k": "ilhak",
-    "b": "Amyntas'ın krallığı Romalılarca tek eyalet yapıldı; Ankyra Galatia eyaletinin başşehri",
-    "kaynak": "Strabon 12.5.1 (Jones dipnotu MÖ 25); TDV ANKARA 1. bölüm (S. Erdem)"
-   },
-   {
-    "t": "0395-01-17",
-    "gun": "17 Ocak 395",
-    "k": "diger",
-    "b": "I. Theodosius'un ölümü; imparatorluk ikiye ayrıldı, şehir Doğu Roma'da kaldı (künye geçişi)",
-    "kaynak": "TDV KONYA / TDV İZMİT (ikiye ayrılma); gün genel kronoloji (ayrıca doğrulanmadı)"
-   },
-   {
-    "t": "0620-01-01",
-    "gun": "620",
-    "k": "fetih",
-    "b": "Sâsânîler Ankara'yı işgal edip yaktı",
-    "kaynak": "TDV ANKARA 2. bölüm (A. Özaydın)"
-   },
-   {
-    "t": "0627-01-01",
-    "gun": "627",
-    "k": "fetih",
-    "b": "Herakleios Sâsânî ordularını bozup şehri geri aldı",
-    "kaynak": "TDV ANKARA 2. bölüm (A. Özaydın)"
-   },
-   {
-    "t": "0797-03-05",
-    "gun": "181 (797)",
-    "k": "fetih",
-    "b": "Abdülmelik b. Sâlih kumandasındaki Abbâsî ordusu şehri fethetti, sonra Bizans'a bırakmak zorunda kaldı",
-    "kaynak": "TDV ANKARA 2. bölüm (A. Özaydın); hicrî 181/1/1, çeviri: tablo takvimi, Jülyen"
-   },
-   {
-    "t": "0838-01-01",
-    "gun": "838",
-    "k": "fetih",
-    "b": "Halife Mu'tasım Ankara'yı yeniden fethetti, Ammûriye'ye yürüdü; şehir bir müddet sonra Bizans'a döndü",
-    "kaynak": "TDV ANKARA 2. bölüm (A. Özaydın)"
-   },
-   {
-    "t": "0859-01-01",
-    "gun": "859",
-    "k": "diger",
-    "b": "III. Mikhail surları tamir ettirdi",
-    "kaynak": "TDV ANKARA 2. bölüm (A. Özaydın)"
-   },
-   {
-    "t": "0871-01-01",
-    "gun": "871",
-    "k": "fetih",
-    "b": "Pavlikanlar şehri zaptetti (kısa süreli)",
-    "kaynak": "TDV ANKARA 2. bölüm (A. Özaydın)"
-   },
-   {
-    "t": "0931-01-01",
-    "gun": "931",
-    "k": "kusatma",
-    "b": "Tarsus Abbâsî kuvvetlerinin kuşatması sonuçsuz",
-    "kaynak": "TDV ANKARA 2. bölüm (A. Özaydın)"
-   },
-   {
-    "t": "1073-01-01",
-    "gun": "1073",
-    "k": "fetih",
-    "b": "Selçuklular Ankara'yı fethetti",
-    "kaynak": "TDV ANKARA 2. bölüm (A. Özaydın)"
-   },
-   {
-    "t": "1101-06-23",
-    "gun": "23 Haziran 1101",
-    "k": "antlasma",
-    "b": "Raimond de Toulouse'un aldığı Ankara anlaşma gereği Bizans'a bırakıldı",
-    "kaynak": "TDV ANKARA 2. bölüm (A. Özaydın)"
-   },
-   {
-    "t": "1121-01-01",
-    "gun": "~1121",
-    "k": "fetih",
-    "b": "Ankara yeniden Selçuklu eline geçti (tahmini; en geç 1127)",
-    "kaynak": "TDV ANKARA 1. bölüm (S. Erdem); TDV ANKARA 2. bölüm (A. Özaydın)"
-   },
-   {
-    "t": "1127-01-01",
-    "gun": "1127",
-    "k": "fetih",
-    "b": "Dânişmendli Emîr Gazi Ankara'yı Melik Arab'dan aldı",
-    "kaynak": "TDV ANKARA 2. bölüm (A. Özaydın)"
-   }
-  ],
-  "ic_not": "İlk anılış pilotla (SONUC-OPUS §3) aynı; Arrianos pasajı yine birincil metinden açılamadı, TDV ANKARA 1. bölüm aktarımı tanık alındı. Ankuruwa/Ankuwa eşitlemesi (TDV: ispat edilemedi) başlangıç sayılmadı. Pleiades 619103'e 1,20 km. Parti koordinatı (GeoNames) atlas noktasına 1.5 km."
  },
  {
   "id": "annaba",
@@ -4602,7 +2931,7 @@ window.SEHIR_TARIHCE_OSM = [
    },
    {
     "f": "0750-08-05",
-    "t": "0868-01-01",
+    "t": "0868-09-15",
     "d": "abbasi",
     "kesinlik": {
      "f": "gun",
@@ -4611,7 +2940,7 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV MERVÂN II: Bûsîr'de öldürüldü '26 Zilhicce 132 / 5 Ağustos 750'"
    },
    {
-    "f": "0868-01-01",
+    "f": "0868-09-15",
     "t": "0905-01-11",
     "d": "tolunogullari",
     "kesinlik": {
@@ -4801,8 +3130,8 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV MISIR, 4. bölüm (C. Tomar): 'Bu sırada İslâm ordusunun diğer kısmı Feyyûm’u ve buradan hareketle Asvan’a kadar Yukarı Mısır’ı (Saîd) ele geçirdi'; TDV ASYÛT (M. L. Bilge): 'Amr b. Âs’ın Mısır’ı fethi sırasında müslümanların idaresine geçen'"
    },
    {
-    "t": "0868-01-01",
-    "gun": "254 (868)",
+    "t": "0868-09-15",
+    "gun": "15 Eylül 868",
     "k": "kurulus",
     "b": "Ahmed b. Tolun Mısır'a vali vekili olarak girdi; Tolunoğulları dönemi başladı",
     "kaynak": "TDV TOLUNOĞULLARI: Ahmed b. Tolun Mısır'a girdi (254/868); Şeybân teslim oldu (Rebîülevvel 292 / Ocak 905)"
@@ -5073,223 +3402,6 @@ window.SEHIR_TARIHCE_OSM = [
   "ic_not": "Eski Tralles bugünkü Aydın'ın kuzeyinde (TDV); Pleiades 599987 temsil noktası atlas noktasına 1,72 km (tiyatro ~2,6 km) ⇒ 3 km içinde, aynı kayıt. Güzelhisar'ın ovaya doğru gelişmesi 1309 sonrası (TDV). İlk anılış: Ksenophon Anabasis 1.4.8 (MÖ 401) — daha erken tarihli tanık bulunamadı; Thukydides'te anılış aranmadı/bulunmadı. Kuruluş efsanesi (Argoslular ve Tralleisler, Strabon) tanık değil. TDV TRALLES maddesi yok (madde başlığı araması boş)."
  },
  {
-  "id": "baabda",
-  "ad": "Baabda",
-  "atlas_ad": null,
-  "lat": 33.834,
-  "lon": 35.544,
-  "kat1900": 2,
-  "adlar": [
-   "Ba‘abda",
-   "Bâbdâ",
-   "Baabda"
-  ],
-  "ilk": {
-   "t": "1883-01-01",
-   "gun": "en geç 1883",
-   "nicelik": "ilk_anilis",
-   "kesinlik": "belirsiz",
-   "kaynak": "V. Cuinet, Syrie, Liban et Palestine, Paris 1896, s. 229, 235–237 (archive.org syrielibanetpal00vitagoog)",
-   "tanik": "Ba'abda (choisi pour résidence d'hiver par Rustèm pacha"
-  },
-  "kur": null,
-  "ark": null,
-  "bit": null,
-  "sahip": [
-   {
-    "f": "1883-01-01",
-    "t": "1900-01-01",
-    "d": "cebel-i-lubnan-mutasarrifligi",
-    "kesinlik": "belirsiz",
-    "kaynak": "V. Cuinet 1896, s. 236–237: 'La résidence d'hiver des bureaux du gouvernement du Liban est à Ba'abda'; TDV LÜBNAN (1861 Règlement, 1864 protokolü)",
-    "ic_not": "f en geç tanıktan: Cuinet'e göre kışlık merkezi Rüstem Paşa seçti, saray Vasa Paşa (1883–91) döneminde tamamlandı ⇒ Baabda en geç 1883'te vardı ve Lübnan Mutasarrıflığı içindeydi. Mutasarrıflık 9 Haziran 1861'den beri var (TDV LÜBNAN); köyün daha eski tanığı bulunamadı."
-   }
-  ],
-  "olay": [
-   {
-    "t": "1883-01-01",
-    "gun": "1883–1891",
-    "k": "idari",
-    "b": "Vasa Paşa döneminde Baabda sarayı (mutasarrıflığın kışlık merkezi) tamamlandı",
-    "kaynak": "V. Cuinet 1896, s. 229, 237"
-   }
-  ],
-  "ic_not": "Atlasta nokta yok (Beyrut 7,5 km); zincir 1900-01-01'e gider. İlk anılış 'en geç' tanıktır: Cuinet (1896) Rüstem Paşa'nın (selefi Vasa Paşa 1883'te başladı) Baabda'yı seçtiğini yazar. Baabda'nın Şihâbî emîrleri dönemindeki (Haydar Şihâb sarayı, 1775 — Hallak 1987'ye atfen, Vikipedi ipucu) ve 1523 tahriri dönemindeki varlığı doğrulanamadı; tanık bulunursa ilk anılış ve zincir (Ma‘noğulları/Şihâboğulları – lubnan-emirligi, 1843–61 kaymakamlıklar) geriye uzatılmalı. TDV'de BAABDA maddesi yok, LÜBNAN ve BEYRUT maddelerinde ad geçmiyor."
- },
- {
-  "id": "baghdad",
-  "ad": "Baghdad",
-  "atlas_ad": "Bağdat",
-  "lat": 33.341,
-  "lon": 44.401,
-  "kat1900": 2,
-  "adlar": [
-   "Bagdadu (Babil/Asur, yeri kesin değil)",
-   "Medînetüsselâm",
-   "Bağdat",
-   "Baghdad"
-  ],
-  "ilk": {
-   "t": "0762-01-01",
-   "gun": "762",
-   "nicelik": "kurulus",
-   "kesinlik": "yil",
-   "kaynak": "TDV BAĞDAT (A. ed-Dûrî): 'Ya‘kūbî Bağdat’ın planının 755’te çizildiğini nakleder. Ancak yapım çalışmaları 762’de başlamıştır'",
-   "tanik": "Ancak yapım çalışmaları 762’de başlamıştır"
-  },
-  "kur": {
-   "t": "0762-01-01",
-   "gun": "762",
-   "kesinlik": "yil",
-   "kaynak": "TDV BAĞDAT (A. ed-Dûrî)",
-   "tanik": "VIII. yüzyılda Abbâsî Halifesi Ebû Ca‘fer el-Mansûr tarafından kurulmuştur"
-  },
-  "ark": null,
-  "bit": null,
-  "sahip": [
-   {
-    "f": "0762-01-01",
-    "t": "0945-12-19",
-    "d": "abbasi",
-    "kesinlik": {
-     "f": "yil",
-     "t": "gun"
-    },
-    "kaynak": "TDV BAĞDAT (A. ed-Dûrî): 'yapım çalışmaları 762’de başlamıştır'"
-   },
-   {
-    "f": "0945-12-19",
-    "t": "1055-12-01",
-    "d": "buveyhi",
-    "kesinlik": {
-     "f": "gun",
-     "t": "ay"
-    },
-    "kaynak": "TDV BÜVEYHÎLER: Ahmed '19 Aralık 945 tarihinde ... Bağdat’a girdi'; 'Tuğrul Bey, Ramazan 447’de (Aralık 1055) ... Bağdat’a girdi'; Ramazan 447 ∩ Aralık 1055 ilk gün, tablo takvimi, Jülyen",
-    "ic_not": "Halife şehirde kalır; doğrudan hâkim Büveyhî emîrü'l-ümerâ (metbû nominal Abbâsî)."
-   },
-   {
-    "f": "1055-12-01",
-    "t": "1059-01-01",
-    "d": "buyuk-selcuklu",
-    "kesinlik": "ay",
-    "kaynak": "TDV BÜVEYHÎLER; TDV BESÂSÎRÎ"
-   },
-   {
-    "f": "1059-01-01",
-    "t": "1059-12-14",
-    "d": "fatimi",
-    "kesinlik": {
-     "f": "ay",
-     "t": "gun"
-    },
-    "kaynak": "TDV BESÂSÎRÎ: 'Besâsîrî Bağdat’a girerek hutbeyi Fâtımî Halifesi Müstansır-Billâh adına okuttu (Ocak 1059)'; 'şehri terkedip (14 Aralık 1059)'",
-    "ic_not": "Doğrudan hâkim Besâsîrî (Fâtımî adına); TDV BAĞDAT girişi '1058' der (8 Zilkade 450 = Aralık 1058 olabilir) — TDV BESÂSÎRÎ'nin Ocak 1059'u esas alındı."
-   },
-   {
-    "f": "1059-12-14",
-    "t": "1118-05-06",
-    "d": "buyuk-selcuklu",
-    "kesinlik": "gun",
-    "kaynak": "TDV BESÂSÎRÎ; TDV BAĞDAT (A. ed-Dûrî) (1059 Selçuklu dönüşü)"
-   },
-   {
-    "f": "1118-05-06",
-    "t": "1152-04-08",
-    "d": "irak-selcuklu",
-    "kesinlik": {
-     "f": "gun",
-     "t": "yil"
-    },
-    "kaynak": "künye geçişi: Irak Selçukluları (Sultan Mahmud) — gün künye başlangıcı; TDV MUKTEFÎ-LİEMRİLLÂH: 'Sultan Mesud’un ölümünün ardından (547/1152) daha rahat hareket edebileceği'; hicrî 547 ∩ 1152 ilk gün",
-    "ic_not": "f: atlasın irak-selcuklu künye günü (TDV MUHAMMED TAPAR bakılmadı; Tapar'ın ölümü 1118 Nisan sonu olabilir). t: Halifenin fiilî bağımsızlığı Mesud'un ölümüyle (Receb 547 / Ekim 1152) başlar — hicrî kural yılın ilk gününe düşürüyor (erken uç)."
-   },
-   {
-    "f": "1152-04-08",
-    "t": "1258-02-10",
-    "d": "abbasi",
-    "kesinlik": {
-     "f": "yil",
-     "t": "gun"
-    },
-    "kaynak": "TDV MUKTEFÎ-LİEMRİLLÂH; TDV HÜLÂGÛ: 'Halife Müsta‘sım 4 Safer 656’da (10 Şubat 1258) kayıtsız şartsız teslim oldu'"
-   }
-  ],
-  "olay": [
-   {
-    "t": "0762-01-01",
-    "gun": "762",
-    "k": "kurulus",
-    "b": "Halife Mansûr Bağdat'ın (Medînetüsselâm) yapımına başlattı",
-    "kaynak": "TDV BAĞDAT (A. ed-Dûrî)"
-   },
-   {
-    "t": "0763-01-01",
-    "gun": "763",
-    "k": "idari",
-    "b": "Mansûr Bağdat'a yerleşti; hilâfet merkezi oraya taşındı",
-    "kaynak": "TDV BAĞDAT (A. ed-Dûrî)"
-   },
-   {
-    "t": "0813-01-01",
-    "gun": "813",
-    "k": "kusatma",
-    "b": "Emîn–Me’mûn mücadelesinde Bağdat kuşatması; Bâbüzzeheb zarar gördü",
-    "kaynak": "TDV BAĞDAT (A. ed-Dûrî)"
-   },
-   {
-    "t": "0945-12-19",
-    "gun": "19 Aralık 945",
-    "k": "fetih",
-    "b": "Büveyhî Ahmed (Muizzüddevle) Bağdat'a girdi, emîrü'l-ümerâ oldu",
-    "kaynak": "TDV BÜVEYHÎLER"
-   },
-   {
-    "t": "1055-12-01",
-    "gun": "Ramazan 447 / Aralık 1055",
-    "k": "fetih",
-    "b": "Tuğrul Bey Bağdat'a girdi; Büveyhî hâkimiyeti sona erdi",
-    "kaynak": "TDV BÜVEYHÎLER; TDV BAĞDAT (A. ed-Dûrî)"
-   },
-   {
-    "t": "1059-01-01",
-    "gun": "Ocak 1059",
-    "k": "fetih",
-    "b": "Besâsîrî Bağdat'a girip Fâtımî halifesi adına hutbe okuttu",
-    "kaynak": "TDV BESÂSÎRÎ"
-   },
-   {
-    "t": "1059-12-14",
-    "gun": "14 Aralık 1059",
-    "k": "fetih",
-    "b": "Besâsîrî Bağdat'ı terk etti; Selçuklu hâkimiyeti döndü",
-    "kaynak": "TDV BESÂSÎRÎ"
-   },
-   {
-    "t": "1118-05-06",
-    "gun": "1118",
-    "k": "diger",
-    "b": "künye geçişi: Irak Selçuklu sultanlığı (Mahmud) — Bağdat şahneliği Irak Selçuklularına",
-    "kaynak": "devlet künyesi irak-selcuklu (gün); TDV MUKTEFÎ"
-   },
-   {
-    "t": "1152-04-08",
-    "gun": "547 (1152)",
-    "k": "diger",
-    "b": "Sultan Mesud'un ölümü; Halife Muktefî Selçuklu nüfuzundan kurtuldu, Bağdat şahnesi kaçtı",
-    "kaynak": "TDV MUKTEFÎ-LİEMRİLLÂH"
-   },
-   {
-    "t": "1258-02-10",
-    "gun": "4 Safer 656 / 10 Şubat 1258",
-    "k": "fetih",
-    "b": "Halife Müsta‘sım Hülâgû'ya teslim oldu; Bağdat yağmalandı, Abbâsî hilâfeti sona erdi",
-    "kaynak": "TDV HÜLÂGÛ"
-   }
-  ],
-  "ic_not": "İslâm öncesi 'Bagdadu/Bagdadi' (Hammurabi dönemi, Nazimaruttaş ve Marduk-apla-iddina sınır taşları, II. Adad-nirari, III. Tiglat-pileser — TDV BAĞDAT, EI2'ye atfen) yeri kesin olmayan ad eşitlemesidir (Emre kuralı, Adana tipi) — başlangıç sayılmadı. TDV ayrıca Sarât kuzeyinde 'Bağdat köyü'nü anar (tarihsiz). Kuruluşun günü (geleneksel 30 Temmuz 762) TDV'de yok; yıl alındı. Atlas noktası (44.361, yuvarlak şehir/Kerh tarafı) ile parti koordinatı (Rusâfe tarafı) 3,7 km — kayık eşleşme, aynı şehir. Atlas 1258-02-10 ilhanli: el değiştirme tam atlas başlangıcında (dikiş olayı Müsta‘sım'ın teslimi)."
- },
- {
   "id": "balikesir",
   "ad": "Balıkesir",
   "atlas_ad": "Balıkesir",
@@ -5512,7 +3624,7 @@ window.SEHIR_TARIHCE_OSM = [
    },
    {
     "f": "0750-08-05",
-    "t": "0868-01-01",
+    "t": "0868-09-15",
     "d": "abbasi",
     "kesinlik": {
      "f": "gun",
@@ -5521,7 +3633,7 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV MERVÂN II: Bûsîr'de öldürüldü '26 Zilhicce 132 / 5 Ağustos 750'"
    },
    {
-    "f": "0868-01-01",
+    "f": "0868-09-15",
     "t": "0905-01-11",
     "d": "tolunogullari",
     "kesinlik": {
@@ -5683,8 +3795,8 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV MISIR, 4. bölüm (C. Tomar): 'Babilon Kalesi’nin fethiyle de (20/641) ... deltanın güneyle ilişkisini kestiler'; hicrî 20 ∩ 641 ilk gün — bölge sahibi + beyan"
    },
    {
-    "t": "0868-01-01",
-    "gun": "254 (868)",
+    "t": "0868-09-15",
+    "gun": "15 Eylül 868",
     "k": "kurulus",
     "b": "Ahmed b. Tolun Mısır'a vali vekili olarak girdi; Tolunoğulları dönemi başladı",
     "kaynak": "TDV TOLUNOĞULLARI: Ahmed b. Tolun Mısır'a girdi (254/868); Şeybân teslim oldu (Rebîülevvel 292 / Ocak 905)"
@@ -6656,7 +4768,8 @@ window.SEHIR_TARIHCE_OSM = [
    "nicelik": "ilk_anilis",
    "kesinlik": "yuzyil",
    "kaynak": "C. Peust, Die Toponyme vorarabischen Ursprungs im modernen Ägypten (GM Beihefte 8, Göttingen 2010) s. 91–92 (Ramzî II/3:155-157 aktarımı)",
-   "tanik": "seit dem 15. Jhdt. die heutige Schreibung gebraucht wird"
+   "tanik": "seit dem 15. Jhdt. die heutige Schreibung gebraucht wird",
+   "ic_not": "UMIT 17 Kasim 2026 ek tarama: M. Ramzi, el-Kamusu'l-cografi I ('Bufisiya' md., ar.wikisource) Tuhfe s.172'de 'Manfaswaih' yerlesimini teyit eder; Peust ile ayni kaynak zinciri; 'Bufisia' esitlemesi Ramzi'nin tarihsiz cikarimidir. 1281 oncesi TARIHLI tanik BULUNAMADI (ilk.t 1500 yuzyil duzeyi kalir). Atlas baslangicinin (1281) yeniden olculmesi KASA'da."
   },
   "kur": null,
   "ark": null,
@@ -7765,16 +5878,16 @@ window.SEHIR_TARIHCE_OSM = [
    "Cairo"
   ],
   "ilk": {
-   "t": "0969-07-03",
-   "gun": "3 Temmuz 969 (Şâban 358)",
+   "t": "0969-07-06",
+   "gun": "6 Temmuz 969 (17 Şâban 358, Jülyen)",
    "nicelik": "kurulus",
    "kesinlik": "gun",
    "kaynak": "TDV CEVHER es-SIKILLÎ; TDV KAHİRE ('Şâban 358’de (Temmuz 969) Fustat’a girdi ... saray ve sur inşaatı başlattı')",
    "tanik": "Aynı gün Cevher Fustat’a girdi ... ve Kahire şehrinin temellerini attı"
   },
   "kur": {
-   "t": "0969-07-03",
-   "gun": "3 Temmuz 969 (Şâban 358)",
+   "t": "0969-07-06",
+   "gun": "6 Temmuz 969 (17 Şâban 358, Jülyen)",
    "kesinlik": "gun",
    "kaynak": "TDV CEVHER es-SIKILLÎ; TDV KAHİRE",
    "tanik": "Aynı gün Cevher Fustat’a girdi ... ve Kahire şehrinin temellerini attı"
@@ -7783,7 +5896,7 @@ window.SEHIR_TARIHCE_OSM = [
   "bit": null,
   "sahip": [
    {
-    "f": "0969-07-03",
+    "f": "0969-07-06",
     "t": "1171-09-13",
     "d": "fatimi",
     "kesinlik": "gun",
@@ -7791,14 +5904,14 @@ window.SEHIR_TARIHCE_OSM = [
    },
    {
     "f": "1171-09-13",
-    "t": "1250-05-02",
+    "t": "1250-04-30",
     "d": "eyyubi",
     "kesinlik": "gun",
     "kaynak": "TDV EYYÛBÎLER (13 Eylül 1171); TDV MEMLÜKLER ('Turan Şah’ı öldürdüler. Onun ölümüyle Mısır’da Eyyûbîler yıkılmış')",
-    "ic_not": "t: Turan Şah'ın öldürülme günü TDV'de yok (Faraskur 7 Nisan 1250 sonrası, Aybek'in tahtı 3 Temmuz 1250 öncesi); 2 Mayıs 1250 genel kronoloji (ayrıca doğrulanmadı)."
+    "ic_not": "t: Turan Şah'ın öldürülme günü TDV'de yok (Faraskur 7 Nisan 1250 sonrası, Aybek'in tahtı 3 Temmuz 1250 öncesi); 2 Mayıs 1250 genel kronoloji (ayrıca doğrulanmadı). || HAKEM13 (LAB, 17 Kasım 2026): TDV değeri 30 Nisan 1250 KALIR; 2 Mayıs 1250 ikinci aday. Turan Şah'ın öldürülmesi: TDV Eyyûbîler 30 Nisan 1250, TDV Şecerüddür 30 Muharrem 648/4 Mayıs 1250 (iç çelişki), Britannica 30 Nisan, Cambridge History of Egypt I (1998) 27 Muharrem 648/1 Mayıs; Runciman (A History of the Crusades III, 1954, s.272: '2 May') ve Setton (ed.), A History of the Crusades II (1969, ch. XX: 'Monday, May 2'; dipnot Makrîzî Sulûk I,345, İbn Vâsıl, Ebü'l-Mehâsin Nücûm VI) bağımsız iki akademik kaynak olarak 2 Mayıs 1250 (Jülyen Pazartesi, ~28 Muharrem 648) verir; hicrî→mîlâdî tablo çevirisi (sivil epoch: 1 Muharrem 648 = 5 Nisan 1250 Jülyen) ve Joinville zinciri (Dimyat teslimi 6 Mayıs) uyumlu. Karar: 1250-05-02. TDV'nin iki değeri ve Britannica'nın 30 Nisan'ı reddedilir; Makrîzî Sulûk, Humphreys, Irwin okunmadı."
    },
    {
-    "f": "1250-05-02",
+    "f": "1250-04-30",
     "t": "1252-01-01",
     "d": "memluk",
     "kesinlik": {
@@ -7811,8 +5924,8 @@ window.SEHIR_TARIHCE_OSM = [
   ],
   "olay": [
    {
-    "t": "0969-07-03",
-    "gun": "3 Temmuz 969",
+    "t": "0969-07-06",
+    "gun": "6 Temmuz 969",
     "k": "kurulus",
     "b": "Cevher es-Sıkıllî Fustat'a girdi, Kahire'nin temellerini attı",
     "kaynak": "TDV CEVHER es-SIKILLÎ"
@@ -7853,11 +5966,11 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV MEMLÜKLER"
    },
    {
-    "t": "1250-05-02",
-    "gun": "2 Mayıs 1250",
+    "t": "1250-04-30",
+    "gun": "30 Nisan 1250 (TDV Eyyûbîler)",
     "k": "isyan",
     "b": "Bahrî emîrleri Turan Şah'ı öldürdü; Eyyûbîler Mısır'da yıkıldı",
-    "kaynak": "TDV MEMLÜKLER (olay); gün genel kronoloji (ayrıca doğrulanmadı)"
+    "kaynak": "TDV EYYÛBÎLER (30 Nisan 1250); TDV MEMLÜKLER (olay). İKİNCİ ADAY 2 Mayıs 1250 (Runciman 1954 s.272; Setton II 1969 ch.XX) — HAKEM13, TDV değeri kalır"
    },
    {
     "t": "1250-07-03",
@@ -7867,7 +5980,7 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV MEMLÜKLER"
    }
   ],
-  "ic_not": "Atlas noktası (30.047, 31.243) Fâtımî Kahire'sinin (Ezher ~30.046, 31.263) ~1,9 km batısında — 3 km içinde. Fustat (22/643, TDV KAHİRE; Amr Camii ~4,2 km), el-Asker (132/750) ve Katâi‘ (254/868) ile Babilon kalesi ayrı yerlerdir — ayrı kayıt önerilir (Fustat: Amr b. Âs, 22/643; Babilon kalesi Fustat'tan önce). Parti koordinatı (GeoNames) atlas noktasına 1.9 km."
+  "ic_not": "Atlas noktası (30.047, 31.243) Fâtımî Kahire'sinin (Ezher ~30.046, 31.263) ~1,9 km batısında — 3 km içinde. Fustat (22/643, TDV KAHİRE; Amr Camii ~4,2 km), el-Asker (132/750) ve Katâi‘ (254/868) ile Babilon kalesi ayrı yerlerdir — ayrı kayıt önerilir (Fustat: Amr b. Âs, 22/643; Babilon kalesi Fustat'tan önce). Parti koordinatı (GeoNames) atlas noktasına 1.9 km. || HAKEM13 (LAB, 17 Kasım 2026): Kahire 969: TDV Misir (17 Saban 358/6 Temmuz 969) ile Ibn Hallikan (de Slane 1843, 'Kaid Jawhar': Cevher Misr'i Sali gunu Saban 358'de ele gecirdi, ayni gun/gece yeni sehrin sinirlarini cizdi, ertesi sabah temeller kazilmis bulundu) uyumludur; Cambridge History of Egypt I (Petry 1998) yalnizca 'Temmuz' ve Cuma 9 Temmuz'daki ilk Fatimi hutbesini verir (farkli olgu); Lane-Poole (1902) kendi icinde celisik (5 Agustos / Temmuz). Karar: 0969-07-06 (Julyen; 17 Saban 358, Sali) fetih=Fustat'a giris, temel atilis ayni gece; 1 ve 3 Temmuz kaynaksiz. Makrizi/EI2/Raymond okunmadi; cift teyit yazilmaz; Ibn Hallikan OCR rakami goruntuyle dogrulanmadi."
  },
  {
   "id": "canakkale",
@@ -9170,7 +7283,7 @@ window.SEHIR_TARIHCE_OSM = [
    },
    {
     "f": "0750-08-05",
-    "t": "0868-01-01",
+    "t": "0868-09-15",
     "d": "abbasi",
     "kesinlik": {
      "f": "gun",
@@ -9180,8 +7293,8 @@ window.SEHIR_TARIHCE_OSM = [
     "ic_not": "t: hicrî 254 (28 Aralık 867 – 16 Aralık 868) ∩ 868 → 868-01-01."
    },
    {
-    "f": "0868-01-01",
-    "t": "0905-01-01",
+    "f": "0868-09-15",
+    "t": "0905-01-11",
     "d": "tolunogullari",
     "kesinlik": {
      "f": "yil",
@@ -9190,7 +7303,7 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV TOLUNOĞULLARI (N. Özkuyumcu): Şeybân teslim oldu (Rebîülevvel 292 / Ocak 905)"
    },
    {
-    "f": "0905-01-01",
+    "f": "0905-01-11",
     "t": "0935-08-01",
     "d": "abbasi",
     "kesinlik": "ay",
@@ -9208,7 +7321,7 @@ window.SEHIR_TARIHCE_OSM = [
    },
    {
     "f": "0969-07-06",
-    "t": "1171-09-04",
+    "t": "1171-09-13",
     "d": "fatimi",
     "kesinlik": {
      "f": "gun",
@@ -9218,7 +7331,7 @@ window.SEHIR_TARIHCE_OSM = [
     "ic_not": "t: hicrî 567 (4 Eylül 1171 – 22 Ağustos 1172) ∩ 1171 → 1171-09-04, tablo takvimi Jülyen."
    },
    {
-    "f": "1171-09-04",
+    "f": "1171-09-13",
     "t": "1250-04-30",
     "d": "eyyubi",
     "kesinlik": {
@@ -9286,15 +7399,15 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "gün genel kronoloji (ayrıca doğrulanmadı) (künye geçişi; atlas emevi bitişi)"
    },
    {
-    "t": "0868-01-01",
-    "gun": "254/868",
+    "t": "0868-09-15",
+    "gun": "15 Eylül 868",
     "k": "kurulus",
     "b": "Ahmed b. Tolun Mısır'a geldi; Tolunoğulları dönemi",
     "kaynak": "TDV MISIR (tarih bölümleri)"
    },
    {
-    "t": "0905-01-01",
-    "gun": "Ocak 905",
+    "t": "0905-01-11",
+    "gun": "1 Rebîülevvel 292 / 11 Ocak 905",
     "k": "fetih",
     "b": "Abbâsî ordusu Fustat'a girdi; Tolunoğulları sona erdi",
     "kaynak": "TDV TOLUNOĞULLARI (N. Özkuyumcu)"
@@ -9314,8 +7427,8 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV MISIR (tarih bölümleri)"
    },
    {
-    "t": "1171-09-04",
-    "gun": "567/1171",
+    "t": "1171-09-13",
+    "gun": "10 Muharrem 567 / 13 Eylül 1171",
     "k": "diger",
     "b": "Selâhaddîn-i Eyyûbî Fâtımî Devleti'ni kaldırdı",
     "kaynak": "TDV MISIR (tarih bölümleri); hicrî 567 kesişimin ilk günü"
@@ -9329,711 +7442,6 @@ window.SEHIR_TARIHCE_OSM = [
    }
   ],
   "ic_not": "İlk anılış yazılı ve yeri kesin tanıktan: Ptolemaios (Hermopolis Mikra = Demenhûr, Pleiades 727123, parti noktasına 0,08 km). Pleiades/TAVO Mısırca 'dmjt' (Eski Krallık) ve Hellenistik 'Hermou Polis Mikra' (Batlamyus dönemi) adlarını da verir; bu tanıklar tek tek tarihlenemediği için başlangıç sayılmadı — daha erken başlangıç adayı (borç). Strabon 17.1.22'deki 'Hermupolis' eşitlemesi kesin değil, kullanılmadı. TDV'de DEMENHÛR maddesi yok (arama: yalnız kişi nisbeleri). Arap dönemi el değiştirmeleri Mısır geneli tarihleridir; Demenhûr'a özgü gün bulunamadı."
- },
- {
-  "id": "damascus",
-  "ad": "Damascus",
-  "atlas_ad": "Şam",
-  "lat": 33.51,
-  "lon": 36.291,
-  "kat1900": 2,
-  "adlar": [
-   "Ta-ms-ku / Tmśq (Mısırca)",
-   "Dimašqa (Amarna, Akkadca)",
-   "Damešeq / Ša imērīšu",
-   "Damaskos",
-   "Dımaşk",
-   "Şam"
-  ],
-  "ilk": {
-   "t": "-1424-01-01",
-   "gun": "MÖ 1425",
-   "nicelik": "ilk_anilis",
-   "kesinlik": "onyil",
-   "kaynak": "TDV ŞAM (C. Tomar): 'İlk defa Luksor'da Karnak Tapınağı'ndaki yazıtlarda Ta-ms-ku şeklinde'; III. Thutmosis listesi, saltanat sonu genel kronoloji (ayrıca doğrulanmadı)",
-   "tanik": "İlk defa Luksor'da Karnak Tapınağı'ndaki yazıtlarda Ta-ms-ku şeklinde kaydedilmiştir"
-  },
-  "kur": null,
-  "ark": {
-   "t": "-3999-01-01",
-   "gun": "MÖ 4000",
-   "kesinlik": "belirsiz",
-   "kaynak": "TDV ŞAM (C. Tomar): 'milâttan önce 4000'lere kadar giden yerleşim olduğuna dair arkeolojik kanıtlar'"
-  },
-  "bit": null,
-  "sahip": [
-   {
-    "f": "-1424-01-01",
-    "t": "-1335-01-01",
-    "d": "misir-yeni-krallik",
-    "kesinlik": "onyil",
-    "kaynak": "TDV ŞAM (C. Tomar) (Karnak; Amarna tabletlerinde Di-maş-ka); Pleiades 678106 (Dimašqa, Bagg RGTC 7/1)",
-    "ic_not": "f = III. Thutmosis listesinin güvenli ucu (saltanat sonu ~MÖ 1425, genel kronoloji). t = Amarna mektuplarının (Akhenaton) son ucu ~MÖ 1336 — Dımaşk'ın Mısır'a bağlı Upe bölgesinde olduğu son tarihli tanık; sonrası tarihlenemedi."
-   },
-   {
-    "f": "-1335-01-01",
-    "t": "-0852-01-01",
-    "d": "__BOSLUK__",
-    "kesinlik": {
-     "f": "onyil",
-     "t": "yil"
-    },
-    "kaynak": "TDV ŞAM (C. Tomar)",
-    "ic_not": "Amarna sonrası (Hitit-Mısır rekabeti, MÖ 12. yy çöküşü) ile Aram-Dımaşk krallığının ilk tarihli tanığı arasında şehre özgü sahiplik tanığı bulunamadı. Aram krallığı daha önce başlamıştır (Rezon, I. Krallar 11:23-24, tarihsiz)."
-   },
-   {
-    "f": "-0852-01-01",
-    "t": "-0731-01-01",
-    "d": "aram-sam",
-    "kesinlik": "yil",
-    "kaynak": "Kurkh monoliti (III. Salmanasar, Karkar MÖ 853: Dımaşklı Adad-idri) — künye ikinci el (RIMA 3 A.0.102.2); yıl genel kronoloji (ayrıca doğrulanmadı)",
-    "ic_not": "f en geç tanıktan: MÖ 853'te Dımaşk kralı Hadadezer (Adad-idri) Karkar'da. Krallık daha eskidir."
-   },
-   {
-    "f": "-0731-01-01",
-    "t": "-0608-01-01",
-    "d": "yeni-asur",
-    "kesinlik": "yil",
-    "kaynak": "III. Tiglat-pileser yıllıkları (RINAP 1) ve II. Krallar 16:9: Dımaşk'ın alınışı MÖ 732; Harran'ın düşüşü MÖ 609 (Babil Kroniği ABC 3) — yıllar genel kronoloji (ayrıca doğrulanmadı)"
-   },
-   {
-    "f": "-0608-01-01",
-    "t": "-0604-01-01",
-    "d": "__BOSLUK__",
-    "kesinlik": "yil",
-    "kaynak": "Babil Kroniği ABC 5 (Karkamış MÖ 605) — genel kronoloji (ayrıca doğrulanmadı)",
-    "ic_not": "Asur'un çöküşü ile Karkamış arası (MÖ 609-605) Suriye'de Mısır (II. Neko) hegemonyası; Dımaşk'a özgü tanık yok — beyanlı boşluk."
-   },
-   {
-    "f": "-0604-01-01",
-    "t": "-0538-10-12",
-    "d": "yeni-babil",
-    "kesinlik": {
-     "f": "yil",
-     "t": "gun"
-    },
-    "kaynak": "Babil Kroniği ABC 5 (Nabukadnezar 'bütün Hatti'yi aldı'); Nabonid Kroniği ABC 7 (Babil'in düşüşü, 16 Tašrītu) — genel kronoloji (ayrıca doğrulanmadı)"
-   },
-   {
-    "f": "-0538-10-12",
-    "t": "-0332-01-01",
-    "d": "ahamenis",
-    "kesinlik": {
-     "f": "gun",
-     "t": "yil"
-    },
-    "kaynak": "Arrianos, Anabasis 2.11.9-10, 2.15.1 (Parmenion İssos sonrası Dımaşk'taki Pers hazinesini aldı) — künye ikinci el",
-    "ic_not": "t: İssos (Kasım MÖ 333) sonrası kış; yıl MÖ 333."
-   },
-   {
-    "f": "-0332-01-01",
-    "t": "-0322-06-10",
-    "d": "iskender-imparatorlugu",
-    "kesinlik": {
-     "f": "yil",
-     "t": "gun"
-    },
-    "kaynak": "Arrianos 2.11, 2.15; İskender'in ölümü genel kronoloji (ayrıca doğrulanmadı)"
-   },
-   {
-    "f": "-0322-06-10",
-    "t": "-0199-01-01",
-    "d": "__BOSLUK__",
-    "kesinlik": {
-     "f": "gun",
-     "t": "yil"
-    },
-    "kaynak": "Polybios 16.18-19 (Panion, MÖ 200) — künye ikinci el",
-    "ic_not": "Diadokh ve Suriye savaşlarında Koile-Suriye Ptolemai/Antigonos/Selevkos arasında defalarca el değiştirdi; Dımaşk'a özgü tarihli tanık bulunamadı. MÖ 200 Panion'dan sonra Selevkos hâkimiyeti kesin."
-   },
-   {
-    "f": "-0199-01-01",
-    "t": "-0084-01-01",
-    "d": "selevkos",
-    "kesinlik": {
-     "f": "yil",
-     "t": "onyil"
-    },
-    "kaynak": "Polybios 16.18-19; Iosephus, AJ 13.392 (Aretas'ın Dımaşk'ı alışı) — künye ikinci el",
-    "ic_not": "t: Iosephus yıl vermez; III. Aretas'ın Dımaşk'a girişi ~MÖ 85 (modern tarihleme, genel kronoloji (ayrıca doğrulanmadı)). MÖ 1. yy başında şehir Selevkos taht kavgası kollarının (III. Demetrios, XII. Antiokhos) merkeziydi."
-   },
-   {
-    "f": "-0084-01-01",
-    "t": "-0071-01-01",
-    "d": "nabatiye",
-    "kesinlik": "onyil",
-    "kaynak": "Iosephus, AJ 13.392 — künye ikinci el; t genel kronoloji (ayrıca doğrulanmadı)",
-    "ic_not": "t ~MÖ 72: II. Tigran'ın Suriye'de Dımaşk'ı tutması (Dımaşk darbı sikkeler) — genel kronoloji, ayrıca doğrulanmadı."
-   },
-   {
-    "f": "-0071-01-01",
-    "t": "-0064-01-01",
-    "d": "__BOSLUK__",
-    "kesinlik": {
-     "f": "onyil",
-     "t": "yil"
-    },
-    "kaynak": "Iosephus, AJ 14.29 (Metellus ve Lollius Dımaşk'ı işgal etti, MÖ 65) — künye ikinci el",
-    "ic_not": "MÖ ~72-69 Ermenistan kralı II. Tigran (künyesi yok), 69'dan sonra Selevkos kalıntısı (XIII. Antiokhos) — geçiş yılları doğrulanamadı, beyanlı boşluk."
-   },
-   {
-    "f": "-0064-01-01",
-    "t": "-0026-01-16",
-    "d": "roma-cumhuriyeti",
-    "kesinlik": {
-     "f": "yil",
-     "t": "gun"
-    },
-    "kaynak": "Iosephus, AJ 14.29; Pompeius'un Suriye düzenlemesi (MÖ 64) genel kronoloji (ayrıca doğrulanmadı)"
-   },
-   {
-    "f": "-0026-01-16",
-    "t": "0395-01-17",
-    "d": "roma-imp",
-    "kesinlik": "gun",
-    "kaynak": "geçiş günleri genel kronoloji (ayrıca doğrulanmadı)",
-    "ic_not": "MS 37-40 civarı Dımaşk'ta Nabatî kralı IV. Aretas'ın 'ethnarkhes'i (II. Korintliler 11:32) tartışmalıdır — dönem açılmadı."
-   },
-   {
-    "f": "0395-01-17",
-    "t": "0613-01-01",
-    "d": "bizans",
-    "kesinlik": {
-     "f": "gun",
-     "t": "yil"
-    },
-    "kaynak": "TDV ŞAM (C. Tomar): 'İslâm fetihlerinden önce Bizans'ın hâkimiyetinde bulunan Dımaşk 613 yılında Sâsânîler tarafından işgal edildi'"
-   },
-   {
-    "f": "0613-01-01",
-    "t": "0628-01-01",
-    "d": "sasani",
-    "kesinlik": "yil",
-    "kaynak": "TDV ŞAM (C. Tomar): '628'de Bizans İmparatoru Herakleios şehri geri aldı'"
-   },
-   {
-    "f": "0628-01-01",
-    "t": "0635-09-01",
-    "d": "bizans",
-    "kesinlik": {
-     "f": "yil",
-     "t": "ay"
-    },
-    "kaynak": "TDV ŞAM (C. Tomar): 'Hâlid b. Velîd ... Dımaşk'ı fethetti (Receb 14 / Eylül 635)'"
-   },
-   {
-    "f": "0635-09-01",
-    "t": "0661-07-29",
-    "d": "hulefa-yi-rasidin",
-    "kesinlik": {
-     "f": "ay",
-     "t": "yil"
-    },
-    "kaynak": "TDV ŞAM (C. Tomar)",
-    "ic_not": "636'da Yermük öncesi müslümanlar şehri boşalttı, Aralık 636'da ikinci kez fethedildi (TDV) — boşaltma günü yok, Bizans dönüşü kısa: dönem açılmadı, olay yazıldı. t: hicrî 41 ∩ 661 → 661-05-07; künye hulefa 661-01-01'de bitiyor (uyarı bu kesişimden)."
-   },
-   {
-    "f": "0661-07-29",
-    "t": "0750-04-01",
-    "d": "emevi",
-    "kesinlik": {
-     "f": "yil",
-     "t": "ay"
-    },
-    "kaynak": "TDV ŞAM (C. Tomar): 'Abbâsîler'in eline geçti (Ramazan 132 / Nisan 750)'",
-    "ic_not": "Dımaşk Emevî başşehri (661-744). · f 0661-05-07 → 0661-07-29: künye geçişi günü 14 Ekim 2026'da TDV hulefa-yi-rasidin '25 Rebîülevvel 41/29 Temmuz 661' ile düzeldi (Hz. Hasan'ın feragati)."
-   },
-   {
-    "f": "0750-04-01",
-    "t": "0878-01-01",
-    "d": "abbasi",
-    "kesinlik": {
-     "f": "ay",
-     "t": "yil"
-    },
-    "kaynak": "TDV ŞAM (C. Tomar): 'Tolunoğulları dönemi başladı (264/878)'",
-    "ic_not": "t: hicrî 264 (13 Eylül 877 – 2 Eylül 878) ∩ 878 → 878-01-01."
-   },
-   {
-    "f": "0878-01-01",
-    "t": "0905-01-01",
-    "d": "tolunogullari",
-    "kesinlik": {
-     "f": "yil",
-     "t": "ay"
-    },
-    "kaynak": "TDV ŞAM (C. Tomar); TDV TOLUNOĞULLARI (N. Özkuyumcu)",
-    "ic_not": "885-886'da Abbâsîler şehri kısa süre aldı, Humâreveyh 272/886'da geri aldı (TDV ŞAM) — olay. t: Tolunoğulları'nın teslimi Ocak 905 (TDV TOLUNOĞULLARI); Dımaşk'a özgü gün yok."
-   },
-   {
-    "f": "0905-01-01",
-    "t": "0936-01-01",
-    "d": "abbasi",
-    "kesinlik": {
-     "f": "ay",
-     "t": "yil"
-    },
-    "kaynak": "TDV ŞAM (C. Tomar): 'Muhammed b. Tuğç 324 (936) yılında Suriye'yi yönetimine kattı'",
-    "ic_not": "t: hicrî 324 (30 Kasım 935 – 18 Kasım 936) ∩ 936 → 936-01-01."
-   },
-   {
-    "f": "0936-01-01",
-    "t": "0968-01-01",
-    "d": "ihsidi",
-    "kesinlik": "yil",
-    "kaynak": "TDV ŞAM (C. Tomar); TDV İHŞÎDÎLER (A. Ağırakça); TDV KARMATÎLER (S. Hizmetli): '357'de (968) ... İhşîdîler'den Dımaşk'ı alıp'",
-    "ic_not": "939/940-942 arası Suriye eski emîrülümerâ İbn Râik'in elindeydi (TDV İHŞÎDÎLER: 940 antlaşması, Suriye İbn Râik'e); 330/942'deki ölümünden sonra İhşîdîler geri aldı. Geçiş günleri yok — ayrı dönem açılmadı (borç). 945-46'da Seyfüddevle el-Hamdânî şehre kısa süre girdi (olay). t: hicrî 357 ∩ 968 → 968-01-01."
-   },
-   {
-    "f": "0968-01-01",
-    "t": "0970-01-01",
-    "d": "karmati",
-    "kesinlik": "yil",
-    "kaynak": "TDV KARMATÎLER (S. Hizmetli): '359'da (970) ... yenilerek Dımaşk ve Remle'yi kaybettiler'",
-    "ic_not": "t: hicrî 359 (14 Kasım 969 – 3 Kasım 970) ∩ 970 → 970-01-01."
-   },
-   {
-    "f": "0970-01-01",
-    "t": "0971-08-31",
-    "d": "fatimi",
-    "kesinlik": {
-     "f": "yil",
-     "t": "gun"
-    },
-    "kaynak": "TDV FÂTIMÎLER (E. F. Seyyid): 'Dımaşk'ta Karmatîler'le yapılan savaşta ... Ca‘fer b. Felâh'ın 6 Zilkade 360 (31 Ağustos 971) tarihinde öldürülmesi'"
-   },
-   {
-    "f": "0971-08-31",
-    "t": "0975-01-01",
-    "d": "karmati",
-    "kesinlik": {
-     "f": "gun",
-     "t": "yil"
-    },
-    "kaynak": "TDV KARMATÎLER (S. Hizmetli): '360 (971) yılında ... bu iki şehri yeniden ele geçirdi'; TDV ŞAM (C. Tomar): 'Aftegin ... (364/975)'",
-    "ic_not": "t: hicrî 364 (21 Eylül 974 – 9 Eylül 975) ∩ 975 → 975-01-01."
-   },
-   {
-    "f": "0975-01-01",
-    "t": "0982-06-26",
-    "d": "aftegin-dimask",
-    "kesinlik": "yil",
-    "kaynak": "TDV ŞAM (C. Tomar): 'Türk Emîri Aftegin, Dımaşk'a hâkim olarak burada bağımsız bir beylik kurdu (364/975)'; 'Fâtımîler ... Dımaşk'ı ele geçirdiler (372/982-83)'",
-    "kunye_yok": true,
-    "ic_not": "Önerilen künye: aftegin-dimask — Türk emîri Aftegin'in Dımaşk beyliği (364/975 – 372/982-83, TDV ŞAM). TDV ŞAM Aftegin sonrası iç değişiklikleri ayırmaz; dönem tek tutuldu. t: hicrî 372 (26 Haziran 982 – 14 Haziran 983) ∩ '982-83' → 982-06-26."
-   },
-   {
-    "f": "0982-06-26",
-    "t": "1075-08-16",
-    "d": "fatimi",
-    "kesinlik": "yil",
-    "kaynak": "TDV ŞAM (C. Tomar); TDV ATSIZ b. UVAK (A. Sevim)",
-    "ic_not": "Vali Anuş Tegin (1023-1042) Fâtımîler'den bağımsız politika izledi (TDV) — künye ayrılmadı. t: TDV ŞAM 'Atsız ... (468/1075)'; hicrî 468 (16 Ağustos 1075 – 4 Ağustos 1076) ∩ 1075 → 1075-08-16."
-   },
-   {
-    "f": "1075-08-16",
-    "t": "1079-01-01",
-    "d": "atsiz-beyligi",
-    "kesinlik": "yil",
-    "kaynak": "TDV ATSIZ b. UVAK (A. Sevim); TDV ŞAM (C. Tomar); TDV TUTUŞ (A. Özaydın): '471'de (1079) Dımaşk'a giren Tutuş'",
-    "ic_not": "Önerilen künye: atsiz-beyligi — Türkmen emîri Atsız b. Uvak'ın Kudüs-Dımaşk beyliği (1071-1079, merkezi 1075/76'dan Dımaşk; Büyük Selçuklu metbû, hutbe Melikşah adına; TDV ATSIZ b. UVAK). t: hicrî 471 ∩ 1079 → 1079-01-01 (İbn Asâkir 472 der)."
-   },
-   {
-    "f": "1079-01-01",
-    "t": "1104-06-06",
-    "d": "suriye-selcuklu",
-    "kesinlik": {
-     "f": "yil",
-     "t": "gun"
-    },
-    "kaynak": "TDV TUTUŞ (A. Özaydın); TDV DUKAK b. TUTUŞ (A. Özaydın): 'Dukak 10 Ramazan 497'de (6 Haziran 1104) vefat etti'",
-    "ic_not": "1095'ten Dukak'ın Dımaşk Selçuklu Melikliği (Suriye Selçukluları'nın Dımaşk şubesi) — aynı künye."
-   },
-   {
-    "f": "1104-06-06",
-    "t": "1154-04-25",
-    "d": "boriler",
-    "kesinlik": "gun",
-    "kaynak": "TDV DUKAK b. TUTUŞ (A. Özaydın); TDV ŞAM (C. Tomar): 'Nûreddin ... 549'da (1154) Dımaşk'ı hâkimiyeti altına aldı'",
-    "ic_not": "t: künye boriler bitişiyle aynı gün; TDV yalnız 549/1154 verir — gün genel kronoloji (ayrıca doğrulanmadı)."
-   },
-   {
-    "f": "1154-04-25",
-    "t": "1174-10-12",
-    "d": "zengi-halep",
-    "kesinlik": {
-     "f": "gun",
-     "t": "yil"
-    },
-    "kaynak": "TDV ŞAM (C. Tomar); TDV SELÂHADDÎN-i EYYÛBÎ (R. Şeşen): '13 Rebîülevvel 570'te (12 Ekim 1174) ... Kahire'den Dımaşk'a hareket eden Selâhaddin'",
-    "ic_not": "t: TDV ŞAM '(570/1174)'; hicrî 570 ∩ 1174 ∩ Kahire'den çıkış (12 Ekim 1174) → 1174-10-12; Dımaşk'a giriş birkaç hafta sonra (gün yok). Nûreddin 1174'te öldü; şehir oğlu es-Sâlih İsmâil'in (Zengî) adına yönetildi."
-   },
-   {
-    "f": "1174-10-12",
-    "t": "1250-04-30",
-    "d": "eyyubi",
-    "kesinlik": {
-     "f": "yil",
-     "t": "gun"
-    },
-    "kaynak": "TDV ŞAM (C. Tomar); TDV EYYÛBÎLER (R. Şeşen)",
-    "ic_not": "Eyyûbî Dımaşk kolu (el-Efdal, el-Âdil, el-Muazzam, el-Eşref, es-Sâlih İsmâil) ayrı künye taşımıyor; 1193-1250 iç el değiştirmeleri olay olarak yazıldı. t: Turan Şah'ın öldürülmesi (30 Nisan 1250, TDV EYYÛBÎLER)."
-   },
-   {
-    "f": "1250-04-30",
-    "t": "1260-03-01",
-    "d": "eyyubi-halep",
-    "kesinlik": {
-     "f": "yil",
-     "t": "ay"
-    },
-    "kaynak": "TDV ŞAM (C. Tomar): 'el-Melikü'n-Nâsır Yûsuf ... Dımaşk'ta hâkimiyeti sağladı (648/1250)'; 'Moğollar'ın eline geçti (Rebîülevvel 658 / Mart 1260)'",
-    "ic_not": "f: hicrî 648 (4 Nisan 1250 – 23 Mart 1251) ∩ 1250 = 4 Nisan; öncül uç (Turan Şah 30 Nisan 1250'ye dek sultan) ile çakıştığından 1250-04-30. Nâsır'ın girişi daha sonradır (gün yok). Künye eyyubi-halep 1260-01-01'de bitiyor; TDV Moğol girişini Mart 1260 verir."
-   },
-   {
-    "f": "1260-03-01",
-    "t": "1260-09-03",
-    "d": "ilhanli",
-    "kesinlik": {
-     "f": "ay",
-     "t": "gun"
-    },
-    "kaynak": "TDV ŞAM (C. Tomar); TDV AYNİCÂLÛT SAVAŞI (A. Özaydın): '25 Ramazan 658 / 3 Eylül 1260'",
-    "ic_not": "t = Aynicâlût günü; Kutuz Dımaşk'a savaştan sonra girdi (gün yok)."
-   },
-   {
-    "f": "1260-09-03",
-    "t": "1281-01-01",
-    "d": "memluk",
-    "kesinlik": "gun",
-    "kaynak": "TDV AYNİCÂLÛT SAVAŞI (A. Özaydın); TDV ŞAM (C. Tomar); TDV MEMLÜKLER (İ. Yiğit)"
-   }
-  ],
-  "olay": [
-   {
-    "t": "-1424-01-01",
-    "gun": "MÖ 1425",
-    "k": "diger",
-    "b": "III. Thutmosis'in Karnak listesinde Ta-ms-ku (Dımaşk)",
-    "kaynak": "TDV ŞAM (C. Tomar)"
-   },
-   {
-    "t": "-1335-01-01",
-    "gun": "MÖ 1336",
-    "k": "diger",
-    "b": "Amarna mektuplarında Di-maş-ka (Mısır'a bağlı)",
-    "kaynak": "TDV ŞAM (C. Tomar); Pleiades 678106"
-   },
-   {
-    "t": "-0852-01-01",
-    "gun": "MÖ 853",
-    "k": "savas",
-    "b": "Karkar Savaşı: Dımaşk kralı Hadadezer Asur'a karşı ittifakın başında",
-    "kaynak": "Kurkh monoliti (RIMA 3 A.0.102.2, künye ikinci el)"
-   },
-   {
-    "t": "-0731-01-01",
-    "gun": "MÖ 732",
-    "k": "fetih",
-    "b": "III. Tiglat-pileser Dımaşk'ı aldı; Aram-Dımaşk krallığı sona erdi",
-    "kaynak": "RINAP 1; II. Krallar 16:9 — yıl genel kronoloji (ayrıca doğrulanmadı)"
-   },
-   {
-    "t": "-0608-01-01",
-    "gun": "MÖ 609",
-    "k": "diger",
-    "b": "Harran'ın düşüşü; Yeni Asur sona erdi",
-    "kaynak": "Babil Kroniği ABC 3 — genel kronoloji (ayrıca doğrulanmadı)"
-   },
-   {
-    "t": "-0604-01-01",
-    "gun": "MÖ 605",
-    "k": "savas",
-    "b": "Karkamış Savaşı; Nabukadnezar Suriye'yi aldı",
-    "kaynak": "Babil Kroniği ABC 5 — genel kronoloji (ayrıca doğrulanmadı)"
-   },
-   {
-    "t": "-0538-10-12",
-    "gun": "12 Ekim MÖ 539",
-    "k": "fetih",
-    "b": "Babil'in Kyros'a teslimi; Suriye Ahamenişlere geçti",
-    "kaynak": "Nabonid Kroniği ABC 7 — gün genel kronoloji (ayrıca doğrulanmadı)"
-   },
-   {
-    "t": "-0332-01-01",
-    "gun": "MÖ 333",
-    "k": "fetih",
-    "b": "İssos sonrası Parmenion Dımaşk'ı ve Pers hazinesini aldı",
-    "kaynak": "Arrianos, Anabasis 2.11.9-10, 2.15.1"
-   },
-   {
-    "t": "-0322-06-10",
-    "gun": "10 Haziran MÖ 323",
-    "k": "diger",
-    "b": "Büyük İskender'in ölümü; Diadokh savaşları",
-    "kaynak": "gün genel kronoloji (ayrıca doğrulanmadı)"
-   },
-   {
-    "t": "-0199-01-01",
-    "gun": "MÖ 200",
-    "k": "savas",
-    "b": "Panion Savaşı: Koile-Suriye Selevkoslar'a geçti",
-    "kaynak": "Polybios 16.18-19"
-   },
-   {
-    "t": "-0084-01-01",
-    "gun": "~MÖ 85",
-    "k": "fetih",
-    "b": "Dımaşklılar Nabatî kralı III. Aretas'ı çağırdı",
-    "kaynak": "Iosephus, AJ 13.392 — yıl genel kronoloji (ayrıca doğrulanmadı)"
-   },
-   {
-    "t": "-0071-01-01",
-    "gun": "~MÖ 72",
-    "k": "fetih",
-    "b": "Ermeni kralı II. Tigran Dımaşk'ı tuttu",
-    "kaynak": "genel kronoloji (ayrıca doğrulanmadı)"
-   },
-   {
-    "t": "-0064-01-01",
-    "gun": "MÖ 65",
-    "k": "fetih",
-    "b": "Pompeius'un legatları Metellus ve Lollius Dımaşk'ı işgal etti",
-    "kaynak": "Iosephus, AJ 14.29"
-   },
-   {
-    "t": "-0026-01-16",
-    "gun": "16 Ocak MÖ 27",
-    "k": "diger",
-    "b": "künye geçişi: Octavianus 'Augustus' unvanını aldı — Roma Cumhuriyeti'nden Prinkipat'a (toprak el değiştirmedi)",
-    "kaynak": "gün genel kronoloji (ayrıca doğrulanmadı)"
-   },
-   {
-    "t": "0395-01-17",
-    "gun": "17 Ocak 395",
-    "k": "diger",
-    "b": "künye geçişi: I. Theodosius'un ölümü; imparatorluk ikiye ayrıldı; Dımaşk Doğu Roma'da kaldı",
-    "kaynak": "gün genel kronoloji (ayrıca doğrulanmadı)"
-   },
-   {
-    "t": "0613-01-01",
-    "gun": "613",
-    "k": "fetih",
-    "b": "Sâsânîler Dımaşk'ı işgal etti",
-    "kaynak": "TDV ŞAM (C. Tomar)"
-   },
-   {
-    "t": "0628-01-01",
-    "gun": "628",
-    "k": "fetih",
-    "b": "Herakleios Dımaşk'ı geri aldı",
-    "kaynak": "TDV ŞAM (C. Tomar)"
-   },
-   {
-    "t": "0635-09-01",
-    "gun": "Receb 14 / Eylül 635",
-    "k": "fetih",
-    "b": "Hâlid b. Velîd Dımaşk'ı fethetti",
-    "kaynak": "TDV ŞAM (C. Tomar)"
-   },
-   {
-    "t": "0636-08-20",
-    "gun": "12 Receb 15 / 20 Ağustos 636",
-    "k": "savas",
-    "b": "Yermük Savaşı (öncesinde müslümanlar Dımaşk'ı boşaltmıştı)",
-    "kaynak": "TDV ŞAM (C. Tomar)"
-   },
-   {
-    "t": "0636-12-01",
-    "gun": "Zilkade 15 / Aralık 636",
-    "k": "fetih",
-    "b": "Dımaşk ikinci kez fethedildi",
-    "kaynak": "TDV ŞAM (C. Tomar)"
-   },
-   {
-    "t": "0661-07-29",
-    "gun": "41/661",
-    "k": "diger",
-    "b": "künye geçişi: Muâviye b. Ebû Süfyân'ın halifeliği — Emevî Devleti (Râşidîn → Emevî)",
-    "kaynak": "TDV ŞAM (C. Tomar): '(41/661)'; hicrî 41 (7 Mayıs 661 – 25 Nisan 662), çeviri: tablo takvimi, Jülyen — kesişimin ilk günü · gün 0661-07-29: künye geçişi günü 14 Ekim 2026'da TDV hulefa-yi-rasidin '25 Rebîülevvel 41/29 Temmuz 661' ile düzeldi (Hz. Hasan'ın feragati)"
-   },
-   {
-    "t": "0750-04-01",
-    "gun": "Ramazan 132 / Nisan 750",
-    "k": "fetih",
-    "b": "Dımaşk Abbâsîler'in eline geçti",
-    "kaynak": "TDV ŞAM (C. Tomar)"
-   },
-   {
-    "t": "0878-01-01",
-    "gun": "264/878",
-    "k": "vassal",
-    "b": "Dımaşk valisi Ali b. Emâcûr Ahmed b. Tolun'a tâbi oldu",
-    "kaynak": "TDV ŞAM (C. Tomar)"
-   },
-   {
-    "t": "0886-01-01",
-    "gun": "272/886",
-    "k": "kusatma",
-    "b": "Abbâsîler şehri kısa süre aldı; Humâreveyh geri aldı",
-    "kaynak": "TDV ŞAM (C. Tomar)"
-   },
-   {
-    "t": "0905-01-01",
-    "gun": "Ocak 905",
-    "k": "fetih",
-    "b": "Tolunoğulları sona erdi; Suriye Abbâsîler'e döndü",
-    "kaynak": "TDV TOLUNOĞULLARI (N. Özkuyumcu)"
-   },
-   {
-    "t": "0936-01-01",
-    "gun": "324/936",
-    "k": "fetih",
-    "b": "Muhammed b. Tuğç (İhşîd) Suriye'yi yönetimine kattı",
-    "kaynak": "TDV ŞAM (C. Tomar)"
-   },
-   {
-    "t": "0945-01-01",
-    "gun": "334/945-46",
-    "k": "fetih",
-    "b": "Seyfüddevle el-Hamdânî Dımaşk'a girdi, İhşîd karşısında çekildi",
-    "kaynak": "TDV ŞAM (C. Tomar); TDV İHŞÎDÎLER (A. Ağırakça)"
-   },
-   {
-    "t": "0968-01-01",
-    "gun": "357/968",
-    "k": "fetih",
-    "b": "Karmatîler İhşîdîler'den Dımaşk'ı aldı",
-    "kaynak": "TDV KARMATÎLER (S. Hizmetli); TDV ŞAM (C. Tomar)"
-   },
-   {
-    "t": "0970-01-01",
-    "gun": "359/970",
-    "k": "fetih",
-    "b": "Fâtımîler Dımaşk'ı Karmatîler'den aldı",
-    "kaynak": "TDV KARMATÎLER (S. Hizmetli)"
-   },
-   {
-    "t": "0971-08-31",
-    "gun": "31 Ağustos 971",
-    "k": "savas",
-    "b": "Dımaşk'ta Karmatî zaferi; Fâtımî emîri Ca‘fer b. Felâh öldürüldü",
-    "kaynak": "TDV FÂTIMÎLER (E. F. Seyyid)"
-   },
-   {
-    "t": "0975-01-01",
-    "gun": "364/975",
-    "k": "kurulus",
-    "b": "Türk emîri Aftegin Dımaşk'ta bağımsız beylik kurdu",
-    "kaynak": "TDV ŞAM (C. Tomar)"
-   },
-   {
-    "t": "0982-06-26",
-    "gun": "372/982-83",
-    "k": "fetih",
-    "b": "Fâtımîler Dımaşk'ı ele geçirdi",
-    "kaynak": "TDV ŞAM (C. Tomar)"
-   },
-   {
-    "t": "1069-01-01",
-    "gun": "461/1069",
-    "k": "isyan",
-    "b": "Fâtımîler'e karşı isyan; Emeviyye Camii'nin bir kısmı yandı",
-    "kaynak": "TDV ŞAM (C. Tomar)"
-   },
-   {
-    "t": "1075-08-16",
-    "gun": "468/1075",
-    "k": "fetih",
-    "b": "Atsız b. Uvak Dımaşk'ı aldı; hutbe Abbâsî halifesi ve Melikşah adına",
-    "kaynak": "TDV ŞAM (C. Tomar); TDV ATSIZ b. UVAK (A. Sevim)"
-   },
-   {
-    "t": "1077-02-07",
-    "gun": "7 Şubat 1077",
-    "k": "savas",
-    "b": "Atsız Kahire önünde yenildi, Dımaşk'a döndü",
-    "kaynak": "TDV ATSIZ b. UVAK (A. Sevim)"
-   },
-   {
-    "t": "1079-01-01",
-    "gun": "471/1079",
-    "k": "fetih",
-    "b": "Tutuş Dımaşk'a girdi, Atsız'ı boğdurdu; Suriye Selçuklu Devleti",
-    "kaynak": "TDV TUTUŞ (A. Özaydın)"
-   },
-   {
-    "t": "1104-06-06",
-    "gun": "6 Haziran 1104",
-    "k": "kurulus",
-    "b": "Dukak öldü; Atabeg Tuğtegin Dımaşk Atabegliği'ni (Börîler) kurdu",
-    "kaynak": "TDV DUKAK b. TUTUŞ (A. Özaydın)"
-   },
-   {
-    "t": "1148-07-24",
-    "gun": "543/1148",
-    "k": "kusatma",
-    "b": "II. Haçlı Seferi Dımaşk kuşatması başarısız",
-    "kaynak": "TDV ŞAM (C. Tomar); gün genel kronoloji (ayrıca doğrulanmadı)"
-   },
-   {
-    "t": "1154-04-25",
-    "gun": "549/1154",
-    "k": "fetih",
-    "b": "Nûreddin Mahmud Zengî Dımaşk'ı aldı",
-    "kaynak": "TDV ŞAM (C. Tomar); gün genel kronoloji (ayrıca doğrulanmadı)"
-   },
-   {
-    "t": "1174-10-12",
-    "gun": "570/1174",
-    "k": "fetih",
-    "b": "Selâhaddîn-i Eyyûbî Kahire'den çıkıp Dımaşk'a girdi",
-    "kaynak": "TDV SELÂHADDÎN-i EYYÛBÎ (R. Şeşen); TDV ŞAM (C. Tomar)"
-   },
-   {
-    "t": "1201-01-01",
-    "gun": "598/1201",
-    "k": "diger",
-    "b": "deprem",
-    "kaynak": "TDV ŞAM (C. Tomar)"
-   },
-   {
-    "t": "1229-01-01",
-    "gun": "626/1229",
-    "k": "fetih",
-    "b": "el-Melikü'l-Kâmil Dımaşk'ı el-Melikü'n-Nâsır Dâvûd'dan alıp el-Eşref'e verdi",
-    "kaynak": "TDV ŞAM (C. Tomar)"
-   },
-   {
-    "t": "1245-01-01",
-    "gun": "643/1245",
-    "k": "fetih",
-    "b": "el-Melikü's-Sâlih Eyyûb'un kuvvetleri Dımaşk'ı zaptetti",
-    "kaynak": "TDV ŞAM (C. Tomar)"
-   },
-   {
-    "t": "1250-04-30",
-    "gun": "30 Nisan 1250",
-    "k": "isyan",
-    "b": "Turan Şah öldürüldü; Halep Eyyûbîsi en-Nâsır Yûsuf Dımaşk'a hâkim oldu (648/1250)",
-    "kaynak": "TDV EYYÛBÎLER (R. Şeşen); TDV ŞAM (C. Tomar)"
-   },
-   {
-    "t": "1260-03-01",
-    "gun": "Rebîülevvel 658 / Mart 1260",
-    "k": "fetih",
-    "b": "Moğollar Dımaşk'ı aldı; batı surları ve kale tahrip edildi",
-    "kaynak": "TDV ŞAM (C. Tomar)"
-   },
-   {
-    "t": "1260-09-03",
-    "gun": "3 Eylül 1260",
-    "k": "savas",
-    "b": "Aynicâlût: Memlükler Moğollar'ı yendi; Kutuz Dımaşk'a girdi",
-    "kaynak": "TDV AYNİCÂLÛT SAVAŞI (A. Özaydın)"
-   }
-  ],
-  "ic_not": "İlk anılış TDV ŞAM'ın verdiği Karnak (III. Thutmosis) tanığı; tarih TDV'de yok, saltanat sonu ~MÖ 1425 genel kronoloji (güvenli uç). Pleiades 678106 Dimašqa adını -1344'ten (Amarna) başlatır. Pleiades noktası parti noktasına 1,59 km. MÖ dönem zinciri TDV dışı birincil kaynaklardan; künyeleri (Kurkh, ABC, RINAP) ikinci el — en büyük borç MÖ 1335-853 ve 323-200 boşlukları. Sungur el-Eşkar'ın 1280 Dımaşk isyanı (atlas başlangıcına yakın) TDV'de bulunamadı, yazılmadı."
  },
  {
   "id": "damietta",
@@ -10794,7 +8202,7 @@ window.SEHIR_TARIHCE_OSM = [
    },
    {
     "f": "1095-01-11",
-    "t": "1183-04-26",
+    "t": "1183-04-29",
     "d": "inalogullari",
     "kesinlik": {
      "f": "yil",
@@ -10804,7 +8212,7 @@ window.SEHIR_TARIHCE_OSM = [
     "ic_not": "Hicrî 488 (Tutuş'un ölümü) ∩ 1095 ⇒ 1095-01-11. Denetim 'hayalet' uyarısı verir: künye ömrü düzeltilmeli — inalogullari künyesi 1098'de (İnal'in geçişi, 491/1098) başlıyor; Sadr (1095–1098) aynı hanedanın kurucu halkası (İnal'in kardeşi ya da babası, TDV) ⇒ künye f 1095 önerilir. 1151'den Artuklu tâbiiyeti (TDV)."
    },
    {
-    "f": "1183-04-26",
+    "f": "1183-04-29",
     "t": "1232-10-18",
     "d": "artuklu",
     "kesinlik": "ay",
@@ -11034,8 +8442,8 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV DİYARBAKIR (N. Göyünç); TDV İNALOĞULLARI (A. Sevim); hicrî 488/1/1, çeviri: tablo takvimi, Jülyen"
    },
    {
-    "t": "1183-04-26",
-    "gun": "579 (1183) yılı başı",
+    "t": "1183-04-29",
+    "gun": "4 Muharrem 579 / 29 Nisan 1183",
     "k": "fetih",
     "b": "Selâhaddîn-i Eyyûbî Âmid'i aldı, Hısnıkeyfâ Artuklu Nûreddin Muhammed'e verdi",
     "kaynak": "TDV DİYARBAKIR (N. Göyünç); hicrî 579/1/1, çeviri: tablo takvimi, Jülyen"
@@ -11474,81 +8882,6 @@ window.SEHIR_TARIHCE_OSM = [
   ],
   "dikis_beyan": "Atlas Drama'yı 1281-01-01'de 'bizans' ile başlatıyor. Drama adıyla bulunan en erken tarihli tanık 1345'tir (TDV). 1281'de yörenin Bizans'ta olması makul, ama Drama'ya özgü tarihli yazılı tanık bulunamadı (aranan: Kantakuzenos/Gregoras, Athos arşivleri — sonuçsuz).",
   "ic_not": "Zincir YOK: tarihli ilk tanık (1345) atlas başlangıcından sonra. TDV'nin 'eski adı Drabescos' eşitlemesi BAŞLANGIÇ SAYILMADI: Barrington/Pleiades 501403 Drabeskos'u (Thukydides 4.102; Tabula Peutingeriana Daravescos) Drama'ya 35,6 km uzakta, Strymon havzasında konumlar — yeri kesin olmayan/yanlış eşitleme. Bizans surlarının X. yy'a tarihlenmesi yalnız yerel/turizm kaynaklarında görüldü (kabul edilmedi, ark yazılmadı). Atlas başlangıcı düzeltilmeli ya da 1345 öncesi tanık bulunmalı (borç)."
- },
- {
-  "id": "dubai",
-  "ad": "Dubai",
-  "atlas_ad": null,
-  "lat": 25.077,
-  "lon": 55.309,
-  "kat1900": 2,
-  "adlar": [
-   "Dibei (Balbi, doğrulanamadı)",
-   "Dibai",
-   "Dübey (Dubâi)",
-   "Dubai"
-  ],
-  "ilk": {
-   "t": "1799-01-01",
-   "gun": "1799",
-   "nicelik": "ilk_anilis",
-   "kesinlik": "yil",
-   "kaynak": "TDV DÜBEY (M. L. Bilge): 'Lorimer'e göre Dübey bu tarihte Ebûzabî'ye bağlı olarak görülmektedir'",
-   "tanik": "Lorimer'e göre Dübey bu tarihte Ebûzabî'ye bağlı olarak görülmektedir"
-  },
-  "kur": null,
-  "ark": null,
-  "bit": null,
-  "sahip": [
-   {
-    "f": "1799-01-01",
-    "t": "1833-01-01",
-    "d": "ebuzabi-seyhligi",
-    "kesinlik": "yil",
-    "kaynak": "TDV DÜBEY (M. L. Bilge): '(1799) ... Ebûzabî'ye bağlı'; 'Dübey Valisi Muhammed b. Hezza‘ b. Za‘l'",
-    "ic_not": "Önerilen künye: ebuzabi-seyhligi — Benî Yâs (Âl Nehyân) Ebûzabî şeyhliği (atlas Abu Dabi kur: 1761; Lorimer). 1820-01-08 Genel Barış Antlaşması'ndan sonra İngiliz himayesi (metbû); atlas bu kıyıyı 1820'den 'ingiltere' ile boyar. 1825 sonrası Şârika (Kavâsim) emîri Sultan b. Sakr'ın nüfuzu (TDV)."
-   },
-   {
-    "f": "1833-01-01",
-    "t": "1900-01-01",
-    "d": "dubai-seyhligi",
-    "kesinlik": "yil",
-    "kaynak": "TDV DÜBEY (M. L. Bilge): '1833'te Âl-i Bû Felâse ... Mektûm b. Batî ... kontrolü ele geçirmeleri üzerine müstakil emirlik oldu'",
-    "kunye_yok": true,
-    "ic_not": "Önerilen künye: dubai-seyhligi — Âl Mektûm (Âl-i Bû Felâse) Dübey şeyhliği, 1833-1971 (TDV DÜBEY); Muahede Sahili şeyhliklerinden (atlas künyesi trucial-states kolektiftir), metbû İngiltere (1892 münhasırlık antlaşması)."
-   }
-  ],
-  "olay": [
-   {
-    "t": "1799-01-01",
-    "gun": "1799",
-    "k": "diger",
-    "b": "Korsanlığı yasaklayan antlaşmalar; Dübey Ebûzabî'ye bağlı (Lorimer)",
-    "kaynak": "TDV DÜBEY (M. L. Bilge)"
-   },
-   {
-    "t": "1820-01-08",
-    "gun": "8 Ocak 1820",
-    "k": "antlasma",
-    "b": "Genel Barış Antlaşması: Körfez şeyhlikleri İngiliz himayesine (atlas 'ingiltere' başlangıcı)",
-    "kaynak": "gün genel kronoloji (ayrıca doğrulanmadı) (atlas Abu Dabi/Şârika s: başlangıcıyla aynı)"
-   },
-   {
-    "t": "1833-01-01",
-    "gun": "1833",
-    "k": "kurulus",
-    "b": "Âl-i Bû Felâse (800 kişi, Mektûm b. Batî) Ebûzabî'den ayrılıp Dübey'i aldı; müstakil emirlik",
-    "kaynak": "TDV DÜBEY (M. L. Bilge)"
-   },
-   {
-    "t": "1892-01-01",
-    "gun": "1892",
-    "k": "antlasma",
-    "b": "Dübey İngiltere'nin muvafakati olmadan başka devletle ilişki kurmamayı taahhüt etti",
-    "kaynak": "TDV DÜBEY (M. L. Bilge)"
-   }
-  ],
-  "ic_not": "Atlasta nokta yok (en yakın Şârika 32,2 km) ⇒ zincir 1900-01-01'e gider. İlk anılış: TDV'nin Lorimer'den aktardığı 1799 kaydı. Daha erken aday: Gasparo Balbi'nin 1580 Körfez inci listesi ('Dibei', Viaggio dell'Indie Orientali, Venedik 1590) — yalnız sahaf/Vikipedi aktarımı bulundu, metin açılamadı: DOĞRULANAMADI, başlangıç sayılmadı. Vikipedi'deki İdrîsî/Bekrî (1095) iddiaları şehrin kendisini değil kıyıyı anıyor olabilir — kullanılmadı. 1799 öncesi sahip bilinmediği için zincir 1799'da başlar. Künye önerileri: ebuzabi-seyhligi, dubai-seyhligi (atlasın trucial-states/ingiltere boyamasıyla ilişkisi aktarımda karar ister)."
  },
  {
   "id": "durres",
@@ -12892,7 +10225,7 @@ window.SEHIR_TARIHCE_OSM = [
    },
    {
     "f": "0750-08-05",
-    "t": "0868-01-01",
+    "t": "0868-09-15",
     "d": "abbasi",
     "kesinlik": {
      "f": "gun",
@@ -12901,7 +10234,7 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV MERVÂN II; TDV TOLUNOĞULLARI (N. Özkuyumcu): 'Ahmed b. Tolun 254 (868)'; hicrî 254 ∩ 868 ilk gün"
    },
    {
-    "f": "0868-01-01",
+    "f": "0868-09-15",
     "t": "0905-01-11",
     "d": "tolunogullari",
     "kesinlik": {
@@ -13057,8 +10390,8 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV FEYYÛM; TDV MERVÂN II"
    },
    {
-    "t": "0868-01-01",
-    "gun": "254 (868)",
+    "t": "0868-09-15",
+    "gun": "15 Eylül 868",
     "k": "kurulus",
     "b": "Ahmed b. Tolun Mısır'da; Tolunoğulları dönemi",
     "kaynak": "TDV TOLUNOĞULLARI (N. Özkuyumcu)"
@@ -13286,14 +10619,14 @@ window.SEHIR_TARIHCE_OSM = [
    },
    {
     "f": "0979-01-01",
-    "t": "0987-01-01",
+    "t": "0987-05-03",
     "d": "__BOSLUK__",
     "kesinlik": "yil",
     "kaynak": "TDV ZÎRÎ b. ATIYYE; TDV MAĞRÂVE",
     "ic_not": "Bulukkîn b. Zîrî 979-984 seferlerinde Fas'ı zaptetti (yıl yok); Mağrâve (Muhammed b. Hayr el-Asgar, Zîrî b. Atıyye) ile Sanhâce/Fâtımî arasında mücadele; 985'te Zîrî b. Atıyye Fas yakınında Mansûr b. Bulukkîn'i yendi. Şehrin bu yıllardaki doğrudan sahibi ve geçiş günleri tarihlenemedi — beyanlı boşluk. t = 377/987 Zîrî b. Atıyye'nin Fas valiliğine tayini (TDV MAĞRÂVE)."
    },
    {
-    "f": "0987-01-01",
+    "f": "0987-05-03",
     "t": "0993-02-26",
     "d": "endulus-emevi",
     "kesinlik": "yil",
@@ -13442,22 +10775,22 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV ZÎRÎ b. ATIYYE"
    },
    {
-    "t": "0985-01-01",
-    "gun": "375 (985)",
+    "t": "0985-05-24",
+    "gun": "375 H (985)",
     "k": "savas",
     "b": "Zîrî b. Atıyye, Fas yakınında Mansûr b. Bulukkîn'in ordusunu ağır yenilgiye uğrattı",
     "kaynak": "TDV ZÎRÎ b. ATIYYE"
    },
    {
-    "t": "0987-01-01",
-    "gun": "377 (987)",
+    "t": "0987-05-03",
+    "gun": "377 H (987)",
     "k": "diger",
     "b": "Hâcib el-Mansûr, Zîrî b. Atıyye'yi Fas valiliğine tayin etti",
     "kaynak": "TDV MAĞRÂVE"
    },
    {
-    "t": "0992-01-01",
-    "gun": "382 (992)",
+    "t": "0992-03-09",
+    "gun": "382 H (992)",
     "k": "fetih",
     "b": "Zîrî Kurtuba'dayken Fâtımî valisi Yeddû b. Ya‘lâ (Benî İfren) Fas'ı işgal etti (kısa)",
     "kaynak": "TDV MAĞRÂVE; TDV ZÎRÎ b. ATIYYE"
@@ -13684,7 +11017,8 @@ window.SEHIR_TARIHCE_OSM = [
    "nicelik": "ilk_anilis",
    "kesinlik": "yil",
    "kaynak": "TDV HEVVÂRE (İ. Harekât – A. Kavas); hicrî 798 ∩ 1396, çeviri: tablo takvimi, Jülyen",
-   "tanik": "bölgeye Circe Hevvâreleri’nden bir grup askerle yeni nâib gönderildi"
+   "tanik": "bölgeye Circe Hevvâreleri’nden bir grup askerle yeni nâib gönderildi",
+   "ic_not": "UMIT 17 Kasim 2026: TDV HEVVARE 'Cirge Hevvareleri'ne yeni naib gonderildi' hicri 798 ∩ 1396 (hicri 798 ∩ miladi 1396 kesisiminin ilk gunu 1396-01-01, yil duzeyi); DOGU-BORC-4 raporuna gore TDV maddesi 1380 de anar (baglami bu oturumda yeniden okunmadi): ilk.t 1396 kaynakli en erken yazili tanik, kurulus degildir. Atlas baslangicinin (1281) 1380-1396 oncesi sahipsiz/yersiz kalan bolgesi KASA'da olculuyor; tarihcede yazilabilecek kaynakli sahip zinciri yok."
   },
   "kur": {
    "t": "1380-04-07",
@@ -15008,7 +12342,15 @@ window.SEHIR_TARIHCE_OSM = [
    "Haraiva (bölge/satraplık)",
    "Alexandreia Areia / Alexandria Ariorum",
    "Harēw",
-   "Herât"
+   "Herât",
+   "Haraiva",
+   "Aria",
+   "Areia",
+   "Ariea",
+   "Harāt",
+   "Haraiva (Eski Farsça kitâbeler)",
+   "Aria / Areia (Avesta, Grekçe metinler)",
+   "Herat"
   ],
   "ilk": {
    "t": "-0329-01-01",
@@ -15157,18 +12499,18 @@ window.SEHIR_TARIHCE_OSM = [
   ],
   "olay": [
    {
-    "t": "-0329-01-01",
-    "gun": "MÖ 330",
-    "k": "kurulus",
-    "b": "Büyük İskender Areia'da Alexandreia'yı kurdu",
-    "kaynak": "Plinius NH 6.25; PECS (Pleiades 961874)"
-   },
-   {
     "t": "-0322-06-10",
     "gun": "10 Haziran MÖ 323",
     "k": "diger",
     "b": "Büyük İskender'in ölümü; Diadokh dönemi",
     "kaynak": "gün genel kronoloji (ayrıca doğrulanmadı) (künye iskender-imparatorlugu bitişi)"
+   },
+   {
+    "t": "-0329-01-01",
+    "gun": "MÖ 330",
+    "k": "kurulus",
+    "b": "Büyük İskender Areia'da Alexandreia'yı kurdu",
+    "kaynak": "Plinius NH 6.25; PECS (Pleiades 961874)"
    },
    {
     "t": "0652-01-01",
@@ -15248,6 +12590,14 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV HERAT; hicrî 384 ∩ 994"
    },
    {
+    "t": "0994-02-15",
+    "gun": "384 H (994)",
+    "k": "diger",
+    "b": "Herat'ta Türklerin (Gaznelilerin) hâkimiyet devri başladı",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Herat» md., https://islamansiklopedisi.org.tr/herat (16 Kasım 2026'da okundu; tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026)): «Türkler’in hâkimiyet devri başladı (384/994)»"
+   },
+   {
     "t": "1001-01-01",
     "gun": "391 (1001)",
     "k": "savas",
@@ -15276,6 +12626,14 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV HERAT ('ertesi yıl'); hicrî 429 ∩ 1038"
    },
    {
+    "t": "1040-01-01",
+    "gun": "431 H (1040)",
+    "k": "antlasma",
+    "b": "Dandanakan Savaşı'ndan sonra Herat Mûsâ Yabgu'ya verildi",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Herat» md., https://islamansiklopedisi.org.tr/herat (16 Kasım 2026'da okundu; tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026)): «Dandanakan Savaşı’ndan (431/1040) sonra»"
+   },
+   {
     "t": "1040-05-23",
     "gun": "23 Mayıs 1040",
     "k": "savas",
@@ -15297,6 +12655,14 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV HERAT; hicrî 552 ∩ 1157"
    },
    {
+    "t": "1157-02-13",
+    "gun": "552 H (1157)",
+    "k": "kayip",
+    "b": "Sencer'in ölümünden sonra Herat Oğuzlar'ın hâkimiyetine girdi",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Herat» md., https://islamansiklopedisi.org.tr/herat (16 Kasım 2026'da okundu; tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026)): «Sencer’in ölümünden (552/1157) sonra Oğuzlar’ın hâkimiyetine girdi»"
+   },
+   {
     "t": "1164-01-01",
     "gun": "559 (1164)",
     "k": "siyaset",
@@ -15309,9 +12675,110 @@ window.SEHIR_TARIHCE_OSM = [
     "k": "fetih",
     "b": "Gurlular Herat'ı aldı",
     "kaynak": "TDV HERAT (R. Uslu); hicrî 571 ∩ 1175 = 1175-07-22 (atlas günü 1175-01-01)"
+   },
+   {
+    "t": "1175-07-22",
+    "gun": "571 H (1175-76)",
+    "k": "fetih",
+    "b": "Herat Gurlular'ın eline geçti",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Herat» md., https://islamansiklopedisi.org.tr/herat (16 Kasım 2026'da okundu; tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026)): «Herat 571’de (1175-76) Gurlular’ın»"
+   },
+   {
+    "t": "1208-07-16",
+    "gun": "605 H (1208-1209)",
+    "k": "fetih",
+    "b": "Hârizmşahlar Herat'ı on üç aylık kuşatmadan sonra aldı",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Herat» md., https://islamansiklopedisi.org.tr/herat (16 Kasım 2026'da okundu; tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026)): «605’te (1208-1209) on üç aylık bir kuşatmadan sonra»"
+   },
+   {
+    "t": "1221-02-25",
+    "gun": "618 H (1221)",
+    "k": "fetih",
+    "b": "Herat Cengiz Han'ın oğlu Tuluy'un eline geçti",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Herat» md., https://islamansiklopedisi.org.tr/herat (16 Kasım 2026'da okundu; tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026)): «618’de de (1221) Cengiz Han’ın oğlu Tuluy’un eline geçti»"
+   },
+   {
+    "t": "1244-06-09",
+    "gun": "642 H (1244)",
+    "k": "diger",
+    "b": "Moğollar Gur asıllı Şemseddin Kert'i Herat hâkimi olarak tayin etti (Kertler)",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Herat» md., https://islamansiklopedisi.org.tr/herat (16 Kasım 2026'da okundu; tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026)): «642’de (1244) Gur asıllı Şemseddin Kert’i Herat hâkimi olarak tayin etmeleri»"
+   },
+   {
+    "t": "1381-04-01",
+    "gun": "Nisan 1381",
+    "k": "fetih",
+    "b": "Timur Herat'ı Kertler'den aldı (TDV: Muharrem 783 / Nisan 1381)",
+    "kesinlik": "ay",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Herat» md., https://islamansiklopedisi.org.tr/herat (16 Kasım 2026'da okundu; tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026)): «Muharrem 783 / Nisan 1381»"
+   },
+   {
+    "t": "1507-05-13",
+    "gun": "1507",
+    "k": "fetih",
+    "b": "Herat Özbekler'in eline geçti",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Herat» md., https://islamansiklopedisi.org.tr/herat (16 Kasım 2026'da okundu; tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026)): «Herat 913’te (1507) Özbekler»"
+   },
+   {
+    "t": "1510-04-10",
+    "gun": "1510",
+    "k": "fetih",
+    "b": "Safevî Şah İsmâil Herat'ı zaptetti",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Herat» md., https://islamansiklopedisi.org.tr/herat (16 Kasım 2026'da okundu; tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026)): «916’da (1510) Safevî Hükümdarı Şah İsmâil tarafından zaptedildi»"
+   },
+   {
+    "t": "1747-01-01",
+    "gun": "1747",
+    "k": "fetih",
+    "b": "Herat Ahmed Şah Dürrânî tarafından Afganistan topraklarına katıldı (TDV: 1747-1772 aralığı; güvenli uç değil, ilk yıl)",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Herat» md., https://islamansiklopedisi.org.tr/herat (16 Kasım 2026'da okundu; tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026)): «Ahmed Şah Dürrânî (1747-1772) tarafından Afganistan topraklarına katıldı»"
    }
   ],
-  "ic_not": "İlk anılış Alexandreia Areia (Plinius; PECS 'Founded in 330, at Artacoana ... at, or near, Herat'): Pleiades 961874 yeri modern Herat sayar (1,33 km) — PECS'in 'or near' çekincesi not edildi. Ahameniş Haraiva bir bölge/satraplık adıdır, şehir tanığı sayılmadı; Artakoana Barrington'da yeri bilinmeyen (Pleiades 30211) — kullanılmadı. Atlas başlangıcı 1175-01-01 Gurlu: TDV 571 (1175-76) ⇒ hicrî kural 1175-07-22 (atlas düzeltmesi önerisi, küçük). Dört beyanlı boşluk (Helenistik–Sâsânî; Zübeyrî; Tâhirî–Saffârî; 1040–1072 Selçuklu-Gazneli) ve iki künyesiz yapı (Oğuzlar, Ay-aba)."
+  "ic_not": "İlk anılış Alexandreia Areia (Plinius; PECS 'Founded in 330, at Artacoana ... at, or near, Herat'): Pleiades 961874 yeri modern Herat sayar (1,33 km) — PECS'in 'or near' çekincesi not edildi. Ahameniş Haraiva bir bölge/satraplık adıdır, şehir tanığı sayılmadı; Artakoana Barrington'da yeri bilinmeyen (Pleiades 30211) — kullanılmadı. Atlas başlangıcı 1175-01-01 Gurlu: TDV 571 (1175-76) ⇒ hicrî kural 1175-07-22 (atlas düzeltmesi önerisi, küçük). Dört beyanlı boşluk (Helenistik–Sâsânî; Zübeyrî; Tâhirî–Saffârî; 1040–1072 Selçuklu-Gazneli) ve iki künyesiz yapı (Oğuzlar, Ay-aba). || [MÜKERRER BİRLEŞTİRME 17 Kasım 2026: herat-af (sehir_tarihce_orta_asya.js) kaydından] Kaynak: yalnız TDV 'Herat' (tam metne karşı doğrulandı (tarayıcı): WebFetch özetleyicisi; alıntılar onun sayfadan verdiği parçalardır). Çift teyit YOK (Encyclopaedia Iranica 403 verdi, okunamadı). ilk=661: TDV'nin Herat'a özgü en eski tarihli ifadesi 'yeniden fethedildi'dir ('yeniden' önceki bir fethi ima eder); TDV ayrıca Horasan'ın 31 (652) fethini verir ama Herat adının o cümlede geçip geçmediği tam metne karşı doğrulandı (tarayıcı)da teyit edilmedi, alınmadı. Daha eski anılışlar (Haraiva — Eski Farsça kitâbeler; Aria; 'Aria’daki İskenderiye') TDV'de TARİHSİZ; Behistun/Iranica tarihi okunamadığı için ilk olarak yazılmadı — ilk.t gerçek en eski anılış DEĞİL, 'TDV'de Herat'a özgü en eski tarihli tanık'tır. Atlas Herat'ı 0500-01-01'de eftalit ile başlatıyor (661 > 500 → sahip:[], atlas zinciri esastır); 500-661 arası (Eftalit, Sasani) bu kayıtla doğrulanmadı. Hicrî olaylar: Hicrî→mîlâdî: TDV'nin verdiği mîlâdî yıl ile hicrî yılın kesişiminin ilk günü, tablo takvimiyle (Jülyen, ±1-2 gün); kesinlik yıl. Safevî 1510'dan sonra Özbek/Safevî/Bâbürlü (1526) el değiştirmeleri TDV'de var ama atlas zinciri esas olduğundan olay yazılmadı. 1747 olayı: TDV '1747-1772' aralığı verir (belirsiz). Tarihsiz TDV ifadeleri (Alparslan, Abdalî XVIII. yy) yazılmadı. TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Uyuşmayanlar: TARİH UYUŞMUYOR (olay10.t): eski → 1507-05-13. Herat Özbek 913 (1507): 913 h. 1507-05-13 başlar; Hicrî ∩ milâdî kesişim ilk günü (aritmetik sivil takvim ±2 gün); eski 1507-01-01 hicrî yılın dışında kalıyordu. TARİH UYUŞMUYOR (olay11.t): eski → 1510-04-10. Herat Şah İsmâil 916 (1510): 916 h. 1510-04-10 başlar; Hicrî ∩ milâdî kesişim ilk günü (aritmetik sivil takvim ±2 gün); eski 1510-01-01 hicrî yılın dışında kalıyordu. Önceki notlardaki \"WebFetch özeti / tam metne karşı doğrulandı (tarayıcı) / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir. | Parti5 tanık kuralı (17 Kasım 2026): tanik cümleden birebir yenilendi [ilk]: TDV cümlesi ad+661 (aynı cümlede 31 (652) sulh fethi de var; ilk.t=661 korundu, ic_not'a eklendi)",
+  "ad_kaynak": [
+   {
+    "ad": "Haraiva",
+    "dil": "peo",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Herat' https://islamansiklopedisi.org.tr/herat",
+    "kanit": "çivi yazılı Eski Farsça kitâbelerde Haraiva"
+   },
+   {
+    "ad": "Aria",
+    "dil": "grc",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Herat' https://islamansiklopedisi.org.tr/herat",
+    "kanit": "Avesta’da ve Grekçe metinlerde Aria, Areia şeklinde rastlanır"
+   },
+   {
+    "ad": "Areia",
+    "dil": "grc",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Herat' https://islamansiklopedisi.org.tr/herat",
+    "kanit": "Avesta’da ve Grekçe metinlerde Aria, Areia şeklinde rastlanır"
+   },
+   {
+    "ad": "Ariea",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Herat' https://www.britannica.com/place/Herat-Afghanistan",
+    "kanit": "known in ancient times as Ariea (Old Persian: Haraiva)"
+   },
+   {
+    "ad": "Harāt",
+    "dil": "fa",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Herat' https://www.britannica.com/place/Herat-Afghanistan",
+    "kanit": "Also known as: Harāt"
+   }
+  ]
  },
  {
   "id": "hillah",
@@ -15843,243 +13310,6 @@ window.SEHIR_TARIHCE_OSM = [
   "ic_not": "Zincir YOK: ilk tanık atlas başlangıcıyla aynı gün (1204-01-01, selcuklu) — atlas iddiası TDV'deki fetih yılıyla uyumlu, düzeltme gerekmez. ⚠️ İlk anılış tartışmalı: TDV, İbn Bîbî'nin Saparta'sının 'tereddüt uyandırmışsa da' muhtasar Türkçe tercümede açıkça İsparta yazıldığını belirtir; bazı araştırmacılar Patara'yı kasteddiğini söyler; O. Turan daha önce zaptedilip elden çıkmış olabileceğini yazar. Yeri kesin sonraki tanık: İbn Battûta (Sabarta, 1330'lar) — eşitleme reddedilirse ilk anılış oraya kayar ve atlas başlangıcı (1204) tanıksız kalır. TDV: 'bugünkü bulunduğu yerde antik döneme ait iskân izine rastlanmamıştır'. Antik Baris (Pleiades 638790, Barrington 'Farı mevkii, Kılıç') atlas noktasına 2,66 km — Honigmann'a göre Isparta ile ilgisi yok (ad sürekliliği yok); ayrı kayıt olarak önerilir (Baris Roma/Bizans piskoposluğu, -30–1450). Polybios'un Saporda'sı (Pleiades 642559) yeri bilinmiyor (Barrington: 'perhaps at Çubuk boğaz'), eşitleme kullanılmadı. Parti koordinatı atlas noktasına 0,2 km. Denetim uyarısı ('atlas başlangıcı düzeltilmeli') burada biçimseldir: ilk.t atlas başlangıcına EŞİT, düzeltme önerilmez."
  },
  {
-  "id": "istanbul",
-  "ad": "İstanbul",
-  "atlas_ad": "İstanbul",
-  "lat": 41.014,
-  "lon": 28.95,
-  "kat1900": 1,
-  "adlar": [
-   "Byzantion",
-   "Byzantium",
-   "Augusta Antonina",
-   "Konstantinopolis",
-   "Kostantıniyye",
-   "İstanbul"
-  ],
-  "ilk": {
-   "t": "-0511-01-01",
-   "gun": "~MÖ 512",
-   "nicelik": "ilk_anilis",
-   "kesinlik": "onyil",
-   "kaynak": "Herodot 4.87 ve 4.138 (Perseus, Godley çev.) — Dareios'un İskit seferi; yıl genel kronoloji (ayrıca doğrulanmadı)",
-   "tanik": "Ariston of Byzantium ... all from the Hellespont and sovereigns of cities there"
-  },
-  "kur": null,
-  "ark": null,
-  "bit": null,
-  "sahip": [
-   {
-    "f": "-0511-01-01",
-    "t": "-0497-01-01",
-    "d": "ahamenis",
-    "kesinlik": {
-     "f": "onyil",
-     "t": "yil"
-    },
-    "kaynak": "Herodot 4.138 (Byzantionlu Ariston, Dareios'a tâbi Hellespontos tiranları arasında); 5.26 (Otanes 'captured Byzantium'); TDV İSTANBUL ('Persler’in işgaline de uğradı')",
-    "ic_not": "Doğrudan yönetim Pers'e tâbi tiran (Ariston); metbu Ahameniş. İskit seferinden sonra şehrin bir ara elden çıkıp Otanes'çe yeniden alındığı (Hdt 5.26, tarihsiz) kısa ayrılık olarak olay yazıldı. t: İyon isyancılarının Byzantion'u alışı (Hdt 5.103), MÖ 498 — yıl genel kronoloji (ayrıca doğrulanmadı)."
-   },
-   {
-    "f": "-0497-01-01",
-    "t": "-0492-01-01",
-    "d": "byzantion-polis",
-    "kesinlik": "yil",
-    "kaynak": "Herodot 5.103 ('made Byzantium ... subject to themselves'); 6.33 (Fenike donanması öncesi Byzantionlular Mesambria'ya kaçtı, şehir yakıldı)",
-    "ic_not": "Önerilen künye: byzantion-polis — Megara kolonisi Byzantion şehir devleti (MÖ VII. yy – MS 73; Herodot, Thukydides, Ksenophon; TDV İSTANBUL). Bu dilim İyon isyanı ittifakı içinde. t: MÖ 493 — yıl genel kronoloji (ayrıca doğrulanmadı)."
-   },
-   {
-    "f": "-0492-01-01",
-    "t": "-0477-01-01",
-    "d": "ahamenis",
-    "kesinlik": "yil",
-    "kaynak": "Herodot 6.33 (Fenike donanması Byzantion'u yaktı); Thukydides 1.94 ('Byzantium, which was in the hands of the Medes, and compelled it to surrender')",
-    "ic_not": "f MÖ 493, t MÖ 478 (Pausanias) — yıl genel kronoloji (ayrıca doğrulanmadı)."
-   },
-   {
-    "f": "-0477-01-01",
-    "t": "-0476-01-01",
-    "d": "sparta",
-    "kesinlik": "yil",
-    "kaynak": "Thukydides 1.94-95 (Pausanias komutasında Hellen donanması; müttefiklerin Atina önderliğine geçmesi); TDV İSTANBUL ('Milâttan önce 478’de ... Delos Birliği’ne girdi')",
-    "ic_not": "Spartalı Pausanias'ın komutası (Hellen birliği adına). Pausanias'ın sonra özel trireme ile dönüp Byzantion'u bir süre tutması ve Atinalılarca kuşatılıp çıkarılması (Thuk. 1.128-131) tarihsiz — olay olarak."
-   },
-   {
-    "f": "-0476-01-01",
-    "t": "-0410-01-01",
-    "d": "byzantion-polis",
-    "kesinlik": "yil",
-    "kaynak": "TDV İSTANBUL (Delos Birliği; MÖ 440 Atina'ya isyan, kısa sürede yeniden tâbi); Thukydides 8.80 (MÖ 411 isyan)",
-    "ic_not": "Delos Birliği üyesi, metbu Atina (vergi). 440 isyanı kısa — olay. t: MÖ 411 — yıl genel kronoloji (ayrıca doğrulanmadı)."
-   },
-   {
-    "f": "-0410-01-01",
-    "t": "-0407-01-01",
-    "d": "sparta",
-    "kesinlik": "yil",
-    "kaynak": "Thukydides 8.80.3 ('under the Megarian Helixus ... effected the revolt of Byzantium'); Ksenophon, Hellenika 1.3.14-22 (Alkibiades'in şehre alınması)",
-    "ic_not": "Sparta harmostu Klearkhos dönemi. t: MÖ 408 — yıl genel kronoloji (ayrıca doğrulanmadı)."
-   },
-   {
-    "f": "-0407-01-01",
-    "t": "-0404-01-01",
-    "d": "byzantion-polis",
-    "kesinlik": "yil",
-    "kaynak": "Ksenophon, Hellenika 1.3.20-22; 2.2.1-2",
-    "ic_not": "Atina müttefiki. t: Aigospotamoi sonrası Lysandros'a teslim, MÖ 405 — yıl genel kronoloji (ayrıca doğrulanmadı)."
-   },
-   {
-    "f": "-0404-01-01",
-    "t": "-0389-01-01",
-    "d": "sparta",
-    "kesinlik": "yil",
-    "kaynak": "Ksenophon, Hellenika 2.2.2 ('leaving Sthenelaus, a Laconian, as governor of Byzantium'); 4.8.27 (Thrasybulos)",
-    "ic_not": "Spartalı harmost yönetimi; ~403'te Klearkhos'un tiranlığı (Ksenophon, Anabasis 2.6) Spartalılarca sona erdirildi — ayrıntı ölçülmedi. t: Thrasybulos'un yönetimi demokrasiye çevirmesi, MÖ 390/389 — yıl genel kronoloji (ayrıca doğrulanmadı)."
-   },
-   {
-    "f": "-0389-01-01",
-    "t": "0073-01-01",
-    "d": "byzantion-polis",
-    "kesinlik": "yil",
-    "kaynak": "Ksenophon, Hellenika 4.8.27; TDV İSTANBUL (MÖ 340 II. Filip kuşatması püskürtüldü; Roma'nın 'serbest şehir (civitas libera)' statüsü; 'milâttan sonra 73 yılında İmparator Vespasianus tarafından Roma topraklarına katıldı')",
-    "ic_not": "Bağımsız şehir devleti; IV. yy'da Atina ittifakları, Helenistik çağda Galat (Tylis) haracı ve Roma müttefikliği/serbest şehir statüsü — doğrudan sahip şehrin kendisi. Roma'ya bağlanışın ayrıntısı (Claudius dönemi vergi muafiyeti vb.) ölçülmedi; TDV'nin 73 tarihi esas."
-   },
-   {
-    "f": "0073-01-01",
-    "t": "0330-05-11",
-    "d": "roma-imp",
-    "kesinlik": {
-     "f": "yil",
-     "t": "gun"
-    },
-    "kaynak": "TDV İSTANBUL (73 Vespasianus; Septimius Severus tahribi ve Augusta Antonina; 324 inşa; 11 Mayıs 330 açılış)",
-    "ic_not": "Dikiş: atlas noktası 330-05-11'de 'bizans' ile başlıyor — Roma'dan Bizans künyesine geçiş (künye geçişi, toprak el değiştirmedi)."
-   }
-  ],
-  "olay": [
-   {
-    "t": "-0511-01-01",
-    "gun": "~MÖ 512",
-    "k": "sefer",
-    "b": "Dareios Boğaz'a köprü kurdu; Byzantion tiranı Ariston İskit seferinde Dareios'un yanında (dikilen taşları Byzantionlular sonra şehre taşıdı)",
-    "kaynak": "Herodot 4.87, 4.138; yıl genel kronoloji (ayrıca doğrulanmadı)"
-   },
-   {
-    "t": "-0510-01-01",
-    "gun": "~MÖ 511",
-    "k": "fetih",
-    "b": "Megabazos'un halefi Otanes Byzantion ve Kalkhedon'u ele geçirdi",
-    "kaynak": "Herodot 5.26; yıl genel kronoloji (ayrıca doğrulanmadı)"
-   },
-   {
-    "t": "-0497-01-01",
-    "gun": "MÖ 498",
-    "k": "isyan",
-    "b": "İyon isyancıları Hellespontos'a gidip Byzantion'u ve bölge şehirlerini kendilerine bağladı",
-    "kaynak": "Herodot 5.103; yıl genel kronoloji (ayrıca doğrulanmadı)"
-   },
-   {
-    "t": "-0492-01-01",
-    "gun": "MÖ 493",
-    "k": "fetih",
-    "b": "Fenike (Pers) donanması gelmeden Byzantionlular Mesambria'ya kaçtı; şehir yakıldı",
-    "kaynak": "Herodot 6.33; yıl genel kronoloji (ayrıca doğrulanmadı)"
-   },
-   {
-    "t": "-0477-01-01",
-    "gun": "MÖ 478",
-    "k": "fetih",
-    "b": "Pausanias komutasındaki Hellen donanması Medlerin elindeki Byzantion'u teslim aldı",
-    "kaynak": "Thukydides 1.94; TDV İSTANBUL (478)"
-   },
-   {
-    "t": "-0476-01-01",
-    "gun": "MÖ 477",
-    "k": "antlasma",
-    "b": "Müttefikler önderliği Atina'ya devretti; Byzantion Delos Birliği'nde",
-    "kaynak": "Thukydides 1.95; TDV İSTANBUL; yıl genel kronoloji (ayrıca doğrulanmadı)"
-   },
-   {
-    "t": "-0469-01-01",
-    "gun": "MÖ 470 civarı (tarihsiz)",
-    "k": "kusatma",
-    "b": "Özel olarak dönen Pausanias Byzantion'dan Atinalılarca kuşatılıp çıkarıldı",
-    "kaynak": "Thukydides 1.128-131; yıl belirsiz, yıl genel kronoloji (ayrıca doğrulanmadı)"
-   },
-   {
-    "t": "-0439-01-01",
-    "gun": "MÖ 440",
-    "k": "isyan",
-    "b": "Byzantion Atina'ya isyan etti, kısa süre sonra yeniden tâbi oldu",
-    "kaynak": "TDV İSTANBUL"
-   },
-   {
-    "t": "-0410-01-01",
-    "gun": "MÖ 411",
-    "k": "isyan",
-    "b": "Megaralı Helixos'un gemileriyle Byzantion Atina'dan ayrılıp Sparta'ya geçti",
-    "kaynak": "Thukydides 8.80; yıl genel kronoloji (ayrıca doğrulanmadı)"
-   },
-   {
-    "t": "-0407-01-01",
-    "gun": "MÖ 408",
-    "k": "fetih",
-    "b": "İçerideki taraftarlar Trakya Meydanı kapısını açtı; Alkibiades şehre girdi",
-    "kaynak": "Ksenophon, Hellenika 1.3.14-22; yıl genel kronoloji (ayrıca doğrulanmadı)"
-   },
-   {
-    "t": "-0404-01-01",
-    "gun": "MÖ 405",
-    "k": "fetih",
-    "b": "Aigospotamoi sonrası Byzantion Lysandros'a teslim oldu; Spartalı Sthenelaos vali bırakıldı",
-    "kaynak": "Ksenophon, Hellenika 2.2.1-2; TDV İSTANBUL ('Spartalılar’ın eline geçti'); yıl genel kronoloji (ayrıca doğrulanmadı)"
-   },
-   {
-    "t": "-0389-01-01",
-    "gun": "MÖ 390",
-    "k": "diger",
-    "b": "Thrasybulos Byzantion yönetimini oligarşiden demokrasiye çevirdi, Pontus geçiş vergisini kiraya verdi",
-    "kaynak": "Ksenophon, Hellenika 4.8.27; yıl genel kronoloji (ayrıca doğrulanmadı)"
-   },
-   {
-    "t": "-0339-01-01",
-    "gun": "MÖ 340",
-    "k": "kusatma",
-    "b": "Makedonya kralı II. Filip Byzantion'u karadan ve denizden kuşattı; müttefik yardımıyla kurtuldu",
-    "kaynak": "TDV İSTANBUL"
-   },
-   {
-    "t": "0073-01-01",
-    "gun": "73",
-    "k": "ilhak",
-    "b": "Vespasianus serbest şehir Byzantion'u Roma topraklarına kattı",
-    "kaynak": "TDV İSTANBUL"
-   },
-   {
-    "t": "0196-01-01",
-    "gun": "196",
-    "k": "kusatma",
-    "b": "Pescennius Niger'i tutan Byzantion uzun kuşatmadan sonra Septimius Severus'a düştü, tahrip edildi; yeniden imar edilip Augusta Antonina adı verildi",
-    "kaynak": "TDV İSTANBUL; yıl genel kronoloji (ayrıca doğrulanmadı)"
-   },
-   {
-    "t": "0324-01-01",
-    "gun": "324",
-    "k": "diger",
-    "b": "I. Konstantinos yeni başşehrin inşasına başladı",
-    "kaynak": "TDV İSTANBUL"
-   },
-   {
-    "t": "0330-05-11",
-    "gun": "11 Mayıs 330",
-    "k": "diger",
-    "b": "Konstantinopolis'in resmî açılış töreni — Roma'dan Bizans künyesine geçiş (künye geçişi)",
-    "kaynak": "TDV İSTANBUL (S. Eyice): 'nihayet 11 Mayıs 330’da ... şehrin resmî açılış töreni yapıldı'"
-   }
-  ],
-  "ic_not": "Kuruluş: TDV İSTANBUL 'yaygın efsane bir Megara kolonisi olarak kurulduğu (m.ö. 659)' der ve tarihi EFSANE diye niteler; Herodot 4.144 Kalkhedon'un Byzantion'dan 17 yıl önce kurulduğunu söyler (mutlak tarih yok) ⇒ kur YAZILMADI; ilk anılış (Dareios'un İskit seferi, ~MÖ 513, aralığın güvenli ucu MÖ 512) başlangıç alındı. Kuruluş tarihi bir kaynakta mutlak tarihle (Eusebios kroniği) doğrulanırsa başlangıç MÖ 659'a çekilebilir — açık soru. Plinius'un Lygos köyü (Byzantion öncesi) yeri kesin değil. Arkeolojik VII. yy Megara dönemi buluntuları aranmadı. Klasik çağ yılları Herodot/Thukydides/Ksenophon metinlerinde yoktur — genel kronolojiden; TDV yalnız 478, 440, 340 ve MS 73'ü verir. Parti koordinatı (41.014, 28.950) atlas noktasından 2.6 km batıda; antik Byzantion akropolisi Sarayburnu–Ayasofya (TDV) atlas noktasına yakın."
- },
- {
   "id": "izmir",
   "ad": "İzmir",
   "atlas_ad": "İzmir",
@@ -16481,834 +13711,6 @@ window.SEHIR_TARIHCE_OSM = [
   "ic_not": "Kuruluş pilotla (SONUC-OPUS §18) aynı; Pleiades 511337'ye 0,26 km. Astakos (MÖ 712, Başiskele) 5,81 km uzakta, ayrı yer — buraya yazılmadı, ayrı kayıt önerilir. Pleiades/Perseus notu MÖ 264 der; TDV 262 esas. Parti koordinatı (GeoNames) atlas noktasına 1.0 km."
  },
  {
-  "id": "jeddah",
-  "ad": "Jeddah",
-  "atlas_ad": "Cidde",
-  "lat": 21.49,
-  "lon": 39.186,
-  "kat1900": 3,
-  "adlar": [
-   "Cüdde",
-   "Cidde",
-   "Jeddah"
-  ],
-  "ilk": {
-   "t": "0656-01-01",
-   "gun": "Hz. Osman devri (644–656)",
-   "nicelik": "ilk_anilis",
-   "kesinlik": "onyil",
-   "kaynak": "TDV CİDDE",
-   "tanik": "Hz. Osman zamanında güneyindeki Şuaybe Limanı’nın terkedilerek"
-  },
-  "kur": null,
-  "ark": null,
-  "bit": null,
-  "sahip": [
-   {
-    "f": "0656-01-01",
-    "t": "0661-07-29",
-    "d": "hulefa-yi-rasidin",
-    "kesinlik": {
-     "f": "onyil",
-     "t": "gun"
-    },
-    "kaynak": "TDV CİDDE (Hz. Osman'ın Cidde'yi Mekke limanı yapması); TDV HULEFÂ-yi RÂŞİDÎN (M. Fayda): Hz. Hasan'ın 'hilâfeti Muâviye b. Ebû Süfyân’a bıraktığı güne kadar (25 Rebîülevvel 41/29 Temmuz 661)'",
-    "ic_not": "f = ilk anılışın güvenli ucu (Hz. Osman devri 644–656). Cidde Mekke'nin limanı olarak Medine'den yönetilen Hicaz'ın parçasıdır (bölge sahibi + beyan). Künye ömrü notu (denetim 'hayalet' uyarısı): hulefa-yi-rasidin künyesi 0661-01-01'de bitiyor; Irak/Hicaz/Suriye sınırının Muâviye'ye geçişi Âmü'l-cemâa (29 Temmuz 661, TDV HULEFÂ-yi RÂŞİDÎN) — künye t 0661-07-29'a çekilmeli (parti 08 Mekke ile aynı öneri)."
-   },
-   {
-    "f": "0661-07-29",
-    "t": "0683-09-24",
-    "d": "emevi",
-    "kesinlik": "gun",
-    "kaynak": "TDV MEKKE (M. S. Küçükaşcı): Emevî valileri; kuşatma '26 Muharrem 64 / 24 Eylül 683'",
-    "ic_not": "Bölge sahibi + beyan: Cidde'ye özgü tanık yok; Mekke ile aynı (parti 08 Mekke zinciri). t en geç tanıktan: İbnü'z-Zübeyr'in Mekke'yi tuttuğunun en geç tanığı Suriye ordusunun kuşatması."
-   },
-   {
-    "f": "0683-09-24",
-    "t": "0692-10-01",
-    "d": "zubeyri",
-    "kesinlik": "gun",
-    "kaynak": "TDV MEKKE (M. S. Küçükaşcı): 'İbnü’z-Zübeyr’in ... öldürülmesinin ardından Mekke Emevî hâkimiyetine girdi (14 Cemâziyelevvel 73 / 1 Ekim 692)'",
-    "ic_not": "Bölge sahibi + beyan (Hicaz İbnü'z-Zübeyr'in elinde); Cidde'ye özgü tanık yok."
-   },
-   {
-    "f": "0692-10-01",
-    "t": "0750-08-05",
-    "d": "emevi",
-    "kesinlik": {
-     "f": "gun",
-     "t": "yil"
-    },
-    "kaynak": "TDV MEKKE (M. S. Küçükaşcı); bitiş: TDV MERVÂN II (H. Kurt): '26 Zilhicce 132 / 5 Ağustos 750'",
-    "ic_not": "Bölge sahibi + beyan. Ebû Hamza eş-Şârî'nin 747–748 Mekke işgali kısa — Cidde'ye özgü tanık yok, yazılmadı."
-   },
-   {
-    "f": "0750-08-05",
-    "t": "0943-01-01",
-    "d": "abbasi",
-    "kesinlik": "yil",
-    "kaynak": "TDV MEKKE (M. S. Küçükaşcı): 'Mekke, İhşîdîler zamanına kadar bazı kısa dönemler dışında Abbâsîler’e bağlılığını sürdürdü'; hicrî 331 ∩ 943, çeviri: tablo takvimi, Jülyen (kesişimin ilk günü)",
-    "ic_not": "Bölge sahibi + beyan. Karmatî baskını (317/930) Mekke'ye yönelikti, Cidde'ye özgü tanık yok."
-   },
-   {
-    "f": "0943-01-01",
-    "t": "0969-01-01",
-    "d": "ihsidi",
-    "kesinlik": "yil",
-    "kaynak": "TDV MEKKE (M. S. Küçükaşcı): '331-358 (943-969) yılları arasında Abbâsî halifeleriyle birlikte adlarına hutbe okunan İhşîdîler'; hicrî 331 ∩ 943 ve 358 ∩ 969 ilk günleri, tablo takvimi, Jülyen",
-    "ic_not": "Bölge sahibi + beyan; hutbe metbuluğu (metbû nominal Abbâsî)."
-   },
-   {
-    "f": "0969-01-01",
-    "t": "1281-01-01",
-    "d": "mekke-serifligi",
-    "kesinlik": "yil",
-    "kaynak": "TDV MEKKE (M. S. Küçükaşcı): 'Ca‘fer b. Muhammed’in Mekke’yi hâkimiyeti altına alıp hutbeyi Fâtımîler adına okutmasıyla (358/969)'; TDV CİDDE: Cidde rüsûmunun 'zaman zaman şeriflerle paylaşılması', İbn Cübeyr: 'şerifler aracılığıyla toplanan vergiler'; I. Baybars 667 (1268) Mekke nâibi",
-    "ic_not": "Doğrudan sahip Mekke Hasenî şerifleri (Cidde gelirleri şeriflerce toplanır — İbn Cübeyr, TDV CİDDE). Metbular: Fâtımî, Abbâsî–Selçuklu, Eyyûbî (569/1174 – 650/1252), Memlük (I. Baybars; 667/1268 Mekke nâibi). Memlüklerin Cidde'de nâib bıraktıkları TDV'de tarihsiz; 1452'den itibaren vergiyi câbîlerle topladılar."
-   }
-  ],
-  "olay": [
-   {
-    "t": "0656-01-01",
-    "gun": "Hz. Osman devri (644–656)",
-    "k": "diger",
-    "b": "Hz. Osman Şuaybe'yi bırakıp Cidde'yi Mekke'nin limanı yaptı",
-    "kaynak": "TDV CİDDE; TDV HİCAZ ('Hz. Osman zamanından beri Mekke’nin iskelesi')"
-   },
-   {
-    "t": "0661-07-29",
-    "gun": "25 Rebîülevvel 41 / 29 Temmuz 661",
-    "k": "diger",
-    "b": "künye geçişi: Hz. Hasan hilâfeti Muâviye'ye bıraktı; Hicaz Emevî valilerine geçti",
-    "kaynak": "TDV HULEFÂ-yi RÂŞİDÎN (M. Fayda)"
-   },
-   {
-    "t": "0683-09-24",
-    "gun": "26 Muharrem 64 / 24 Eylül 683",
-    "k": "kusatma",
-    "b": "Yezîd'in ordusu İbnü'z-Zübeyr'in elindeki Mekke'yi kuşattı (Hicaz Zübeyrî denetiminde)",
-    "kaynak": "TDV MEKKE (M. S. Küçükaşcı)"
-   },
-   {
-    "t": "0692-10-01",
-    "gun": "14 Cemâziyelevvel 73 / 1 Ekim 692",
-    "k": "fetih",
-    "b": "Haccâc İbnü'z-Zübeyr'i öldürdü; Hicaz yeniden Emevî",
-    "kaynak": "TDV MEKKE (M. S. Küçükaşcı)"
-   },
-   {
-    "t": "0750-08-05",
-    "gun": "26 Zilhicce 132 / 5 Ağustos 750",
-    "k": "diger",
-    "b": "Son Emevî halifesi II. Mervân öldürüldü; Haremeyn Abbâsî valisi Dâvûd b. Ali'ye geçti",
-    "kaynak": "TDV MERVÂN II (H. Kurt); TDV MEKKE"
-   },
-   {
-    "t": "0943-01-01",
-    "gun": "331 (943)",
-    "k": "diger",
-    "b": "Mekke'de hutbe Abbâsî halifesiyle birlikte İhşîdîler adına okunmaya başladı",
-    "kaynak": "TDV MEKKE (M. S. Küçükaşcı); hicrî 331 ∩ 943, çeviri: tablo takvimi, Jülyen"
-   },
-   {
-    "t": "0969-01-01",
-    "gun": "358 (969)",
-    "k": "fetih",
-    "b": "Hasenî Ca‘fer b. Muhammed Mekke'ye hâkim oldu; şerifler dönemi başladı",
-    "kaynak": "TDV MEKKE (M. S. Küçükaşcı); hicrî 358 ∩ 969, çeviri: tablo takvimi, Jülyen"
-   },
-   {
-    "t": "1268-09-10",
-    "gun": "667 (1268)",
-    "k": "vassal",
-    "b": "I. Baybars hacca gidip Şemseddin Mervân'ı Mekke'de nâib tayin etti; şerifler Memlük nâibine danışır oldu",
-    "kaynak": "TDV CİDDE; hicrî 667 ∩ 1268, çeviri: tablo takvimi, Jülyen"
-   }
-  ],
-  "ic_not": "İlk anılış: TDV CİDDE 'Hz. Osman zamanında' der, yıl vermez ⇒ aralığın güvenli ucu 656 (onyıl). Geleneksel tarih 26/646-47 yalnız ikincil (WikiShia) sayfalarda bulundu, EI2 'Djudda' maddesi açılamadı — yıl yazılmadı. İslâm öncesi Cidde: TDV 'çok az şey bilinmektedir' (tarihli tanık yok). TDV BAHRİYE 'Şuaybe’de (Cidde)' diyerek iki limanı eşitler; TDV CİDDE Şuaybe'yi Cidde'nin güneyinde ayrı liman sayar — CİDDE esas alındı. 661–1281 zinciri Mekke zincirinin (parti 08) bölge sahibi + beyan kopyasıdır; Cidde'ye özgü el değiştirme tanığı yok. ⚠️ Koordinat: parti koordinatı GeoNames 105343 (21.490, 39.186) tarihî Cidde (el-Beled) ile uyumlu; atlas noktası 'Cidde' (21.543, 39.173) 6,0 km kuzeyde — 3 km'yi aşıyor: atlas noktasının tarihî şehre taşınması önerilir.",
-  "dikis_beyan": "Atlas Cidde'yi 1281-01-01'de 'memluk' ile başlatıyor; TDV MEKKE/CİDDE'ye göre Cidde gelirlerini ve Mekke'yi doğrudan tutan Hasenî şeriflerdir (358/969'dan; künye mekke-serifligi), Memlük metbudur (I. Baybars, 667/1268 Mekke nâibi). Memlüklerin Cidde'ye nâib koyduğu gün/yıl TDV'de yok ⇒ dikiş olayı yazılmadı. Atlas düzeltmesi önerisi: 1281 sahibi mekke-serifligi (+ tabi: memluk) ya da memluk dönemi beyanla korunur (Mekke ile aynı karar)."
- },
- {
-  "id": "jerusalem",
-  "ad": "Jerusalem",
-  "atlas_ad": "Kudüs",
-  "lat": 31.769,
-  "lon": 35.216,
-  "kat1900": 2,
-  "adlar": [
-   "Kudüs (Mısır lanet metinleri)",
-   "Urusalim",
-   "Yeruşalayim",
-   "Hierosolyma",
-   "Colonia Aelia Capitolina",
-   "İliyâ / Beytülmakdis",
-   "Kudüs"
-  ],
-  "ilk": {
-   "t": "-1700-01-01",
-   "gun": "MÖ 1701",
-   "nicelik": "ilk_anilis",
-   "kesinlik": "yuzyil",
-   "kaynak": "TDV KUDÜS 1. bölüm (Ö. F. Harman) (Franken 1989; IDB II, 843); Pleiades 687928 (0,09 km)",
-   "tanik": "XIX ve XVIII. yüzyıllara ait Mısır metinlerinde Kudüs bir Ken‘an site devleti olarak zikredilir"
-  },
-  "kur": null,
-  "ark": {
-   "t": "-3000-01-01",
-   "gun": "MÖ 3001",
-   "kesinlik": "belirsiz",
-   "kaynak": "TDV KUDÜS 1. bölüm (Ö. F. Harman): 'milâttan önce IV. binyıla ait çömlekler'"
-  },
-  "bit": null,
-  "sahip": [
-   {
-    "f": "-1700-01-01",
-    "t": "-1365-01-01",
-    "d": "urusalim-kent-devleti",
-    "kunye_yok": true,
-    "kesinlik": {
-     "f": "yuzyil",
-     "t": "onyil"
-    },
-    "kaynak": "TDV KUDÜS 1. bölüm (Ö. F. Harman): Ken‘an site devleti (Mısır metinleri); Abd-Hiba 'XIV. yüzyılda Mısır’ın tebaası olarak Kudüs’te hüküm sürmüş', IV. Amenofis (m.ö. 1375-1366)",
-    "ic_not": "Urusalim Ken‘an şehir devleti — künye yok, önerilen id 'urusalim-kent-devleti'. XIV. yy'da metbu Mısır Yeni Krallık (misir-yeni-krallik), doğrudan hükümdar Abd-Hiba. f ilk anılışın güvenli ucu (XIX–XVIII. yy aralığının sonu); t son tanık: IV. Amenofis saltanatının sonu (TDV kronolojisi, m.ö. 1366)."
-   },
-   {
-    "f": "-1365-01-01",
-    "t": "-0700-01-01",
-    "d": "__BOSLUK__",
-    "kesinlik": "onyil",
-    "kaynak": "TDV KUDÜS 1. bölüm (Ö. F. Harman); TDV DÂVÛD",
-    "ic_not": "Kitab-ı Mukaddes anlatısı: Yebûsîler → Dâvûd'un fethi ('Dâvûd’un şehri') → birleşik krallık → Yahuda Krallığı başşehri. TDV KUDÜS ve DÂVÛD bu geçişlere yıl vermez; Şişak seferi (Rehoboam) tarihsiz. Sahipleri bilinen, tarihlenemeyen dilimler — beyanlı boşluk. Yahuda'nın en geç tanığı Sanherib'in 701 seferi."
-   },
-   {
-    "f": "-0700-01-01",
-    "t": "-0586-01-01",
-    "d": "yahuda",
-    "kesinlik": "yil",
-    "kaynak": "Sanherib Rassam silindiri (RINAP 3/1, Sennacherib 4; Oracc) — Hizkiya 'kral şehri Kudüs'te'; TDV KUDÜS: '597’de Kudüs’e ikinci defa giren Nebukadnezzar' ... 'On yıl sonra' şehir düştü",
-    "ic_not": "f en geç tanıktan (Sanherib'in MÖ 701 seferi; RINAP satır numarası ayrıca doğrulanmadı). Yehoyakim döneminden itibaren Bâbil'e tâbi (TDV, yıl yok); 597'de Nebukadnezzar Yehoyakin'i götürüp Tsedekiya'yı tahta çıkardı — metbu Yeni Bâbil, doğrudan hükümdar Yahuda kralı. t: 597 + 10 = MÖ 587 (TDV)."
-   },
-   {
-    "f": "-0586-01-01",
-    "t": "-0537-01-01",
-    "d": "yeni-babil",
-    "kesinlik": "yil",
-    "kaynak": "TDV KUDÜS 1. bölüm: mâbed ve şehir yakıldı, 'Kudüs elli yıl boyunca harabe'; 'Bâbil esareti sonrasında Kudüs Pers hâkimiyetine girmiş (m.ö. 538)'",
-    "ic_not": "Künye yeni-babil MÖ 539 Ekim'de (Bâbil'in düşüşü) bitiyor; TDV Kudüs için Pers hâkimiyetini m.ö. 538'e koyar — hayalet uyarısı beklenir; fark Kiros'un Bâbil'i alışı ile Kudüs'e dönüş arasıdır. Künye değiştirilmedi, TDV yılı esas alındı."
-   },
-   {
-    "f": "-0537-01-01",
-    "t": "-0331-01-01",
-    "d": "ahamenis",
-    "kesinlik": "yil",
-    "kaynak": "TDV KUDÜS 1. bölüm: 'Pers hâkimiyetine girmiş (m.ö. 538), ardından Makedonyalı Büyük İskender şehri almış (332)'"
-   },
-   {
-    "f": "-0331-01-01",
-    "t": "-0322-06-10",
-    "d": "iskender-imparatorlugu",
-    "kesinlik": {
-     "f": "yil",
-     "t": "gun"
-    },
-    "kaynak": "TDV KUDÜS 1. bölüm: İskender (332), 'onun 323’teki ölümünü takiben'"
-   },
-   {
-    "f": "-0322-06-10",
-    "t": "-0197-01-01",
-    "d": "__BOSLUK__",
-    "kesinlik": {
-     "f": "gun",
-     "t": "yil"
-    },
-    "kaynak": "TDV KUDÜS 1. bölüm: 'şehir çeşitli savaşlar görmüş, önce Mısırlı Ptolemaioslar, daha sonra 198’den itibaren Selefkiler'",
-    "ic_not": "Diadokh savaşları ve Ptolemaios hâkimiyeti — Ptolemaios döneminin başlangıç yılı TDV'de yok. Sahibi kısmen bilinen, tarihlenemeyen dilim."
-   },
-   {
-    "f": "-0197-01-01",
-    "t": "-0167-01-01",
-    "d": "selevkos",
-    "kesinlik": "yil",
-    "kaynak": "TDV KUDÜS 1. bölüm: '198’den itibaren Selefkiler'; 'Milâttan önce 168’de IV. Antiokhos Epifanes ... mâbedi kirletmiş'",
-    "ic_not": "t son Selevkos tanığı (MÖ 168). Makkabi isyanı sonrası Selevkos garnizonu (Akra) MÖ 141'e kadar şehirde."
-   },
-   {
-    "f": "-0167-01-01",
-    "t": "-0140-01-01",
-    "d": "__BOSLUK__",
-    "kesinlik": "yil",
-    "kaynak": "TDV KUDÜS 1. bölüm (Makkabi isyanları, mâbedin temizlenmesi — tarihsiz); 1 Makkabiler 13:49-52",
-    "ic_not": "Makkabi isyanı: şehir Makkabiler ile Selevkos Akra garnizonu arasında bölünmüş; mâbedin temizlenmesi TDV'de tarihsiz. Tam Hasmoni denetimi Akra'nın 171 SE (MÖ 141) teslimiyle (1 Makkabiler 13:51; çeviri ayrıca doğrulanmadı)."
-   },
-   {
-    "f": "-0140-01-01",
-    "t": "-0036-01-01",
-    "d": "hasmoni",
-    "kesinlik": "yil",
-    "kaynak": "1 Makkabiler 13:51 ('yüz yetmiş birinci yıl'); TDV KUDÜS 1. bölüm: 63 Pompeius, 54 Crassus, '40 yılında Partlar şehri ele geçirmiş, Büyük Herod 37’de şehri alıp'",
-    "ic_not": "MÖ 63 Pompeius işgalinden sonra Hasmoni Hyrkanos II Roma'ya tâbi (metbu Roma Cumhuriyeti); MÖ 40 Partlar şehri alıp Hasmoni Antigonos'u tahta çıkardı (metbu Part) — doğrudan hükümdar her iki durumda Hasmoni; dönem ayrılmadı, olay olarak yazıldı."
-   },
-   {
-    "f": "-0036-01-01",
-    "t": "0006-01-01",
-    "d": "herodes-krallik",
-    "kesinlik": "yil",
-    "kaynak": "TDV KUDÜS 1. bölüm: 'Büyük Herod 37’de şehri alıp duvarları onarmış'; Arkhelaos'un azli ve Yahudiye eyaleti (MS 6) genel kronoloji (ayrıca doğrulanmadı)",
-    "ic_not": "Herod (MÖ 37–4) ve oğlu Arkhelaos (etnark, MS 6'ya kadar); metbu Roma. t TDV'de yok (genel kronoloji)."
-   },
-   {
-    "f": "0006-01-01",
-    "t": "0041-01-01",
-    "d": "roma-imp",
-    "kesinlik": "yil",
-    "kaynak": "Yahudiye eyaleti (MS 6) ve I. Agrippa'nın krallığı (41) genel kronoloji (ayrıca doğrulanmadı); TDV KUDÜS: 'Herod Agrippa milâttan sonra 42-43’te bir üçüncü duvarın inşasına başlamıştır'"
-   },
-   {
-    "f": "0041-01-01",
-    "t": "0044-01-01",
-    "d": "herodes-krallik",
-    "kesinlik": "yil",
-    "kaynak": "TDV KUDÜS 1. bölüm (Herod Agrippa 42-43'te üçüncü sur); I. Agrippa'nın krallığı 41–44 genel kronoloji (ayrıca doğrulanmadı)",
-    "ic_not": "I. Herod Agrippa, Claudius'un verdiği Yahudiye krallığı; metbu Roma."
-   },
-   {
-    "f": "0044-01-01",
-    "t": "0066-01-01",
-    "d": "roma-imp",
-    "kesinlik": "yil",
-    "kaynak": "genel kronoloji (ayrıca doğrulanmadı): Agrippa'nın ölümü (44), Yahudi isyanı (66)"
-   },
-   {
-    "f": "0066-01-01",
-    "t": "0070-01-01",
-    "d": "kudus-isyan-hukumeti",
-    "kunye_yok": true,
-    "kesinlik": "yil",
-    "kaynak": "TDV KUDÜS 1. bölüm: '70 yılında bu defa da Romalı kumandan Titus şehri kuşatmış'; isyanın başlangıcı (66) Josephus, Bellum Judaicum 2.284 — ayrıca doğrulanmadı",
-    "ic_not": "Birinci Yahudi isyanı geçici hükûmeti (66–70) — künye yok, önerilen id 'kudus-isyan-hukumeti'. t: TDV yalnız yıl verir (70); şehrin düşüşü yaz sonu 70 — yıl hassasiyeti."
-   },
-   {
-    "f": "0070-01-01",
-    "t": "0395-01-17",
-    "d": "roma-imp",
-    "kesinlik": {
-     "f": "yil",
-     "t": "gun"
-    },
-    "kaynak": "TDV KUDÜS 1. bölüm: Titus (70); ayaklanma bastırıldı (135), Colonia Aelia Capitolina",
-    "ic_not": "132–135 Bar Kohba isyanında şehrin isyancılarca tutulup tutulmadığı tartışmalı; TDV yalnız bastırılışı (135) anar — dönem açılmadı (olay)."
-   },
-   {
-    "f": "0395-01-17",
-    "t": "0614-01-01",
-    "d": "bizans",
-    "kesinlik": {
-     "f": "gun",
-     "t": "yil"
-    },
-    "kaynak": "TDV KUDÜS 1. bölüm: '614’te Sâsânîler tarafından işgal edilen Kudüs'"
-   },
-   {
-    "f": "0614-01-01",
-    "t": "0629-01-01",
-    "d": "sasani",
-    "kesinlik": "yil",
-    "kaynak": "TDV KUDÜS 1. bölüm: '629’da Bizans İmparatoru Herakleios kurtarmış'"
-   },
-   {
-    "f": "0629-01-01",
-    "t": "0638-01-23",
-    "d": "bizans",
-    "kesinlik": "yil",
-    "kaynak": "TDV KUDÜS 2. bölüm (C. Avcı): Hz. Ömer şehri Patrik Sophronios'tan teslim aldı (17/638); hicrî 17 ∩ 638, çeviri: tablo takvimi, Jülyen"
-   },
-   {
-    "f": "0638-01-23",
-    "t": "0660-05-17",
-    "d": "hulefa-yi-rasidin",
-    "kesinlik": "yil",
-    "kaynak": "TDV KUDÜS 2. bölüm (C. Avcı): Muâviye 'Kudüs’te halkın biatını alarak halifeliğini ilân etmiştir (40/660)'; hicrî 40 ∩ 660, çeviri: tablo takvimi, Jülyen",
-    "ic_not": "Fetih yılı rivayetleri 15/636, 16/637, 17/638; TDV Belâzürî'nin 17/638 rivayetini doğru sayar. Kudüs fethten itibaren Suriye valisi Muâviye'nin idaresinde."
-   },
-   {
-    "f": "0660-05-17",
-    "t": "0750-01-01",
-    "d": "emevi",
-    "kesinlik": {
-     "f": "yil",
-     "t": "belirsiz"
-    },
-    "kaynak": "TDV KUDÜS 2. bölüm (C. Avcı) (40/660; 'Abbâsîler’in iktidara gelmesi'); hicrî 132 ∩ 750",
-    "ic_not": "Künye emevi 661'de başlıyor — hayalet uyarısı beklenir: Muâviye halifeliğini 40/660'ta Kudüs'te ilan etti (TDV) ⇒ künye ömrü düzeltilmeli önerisi: emevi f 660. t: Kudüs'ün Abbâsî geçiş günü TDV'de yok; 132/750 hicrî kural — beyanlı yaklaşıklık."
-   },
-   {
-    "f": "0750-01-01",
-    "t": "0878-01-01",
-    "d": "abbasi",
-    "kesinlik": {
-     "f": "belirsiz",
-     "t": "yil"
-    },
-    "kaynak": "TDV KUDÜS 2. bölüm (C. Avcı): 'Ahmed b. Tolun 264’te (878) Filistin’i alınca'; hicrî 264 ∩ 878, çeviri: tablo takvimi, Jülyen"
-   },
-   {
-    "f": "0878-01-01",
-    "t": "0905-01-01",
-    "d": "tolunogullari",
-    "kesinlik": "yil",
-    "kaynak": "TDV KUDÜS 2. bölüm (C. Avcı): '292 (905) yılına kadar Tolunoğulları’nın'; hicrî 292 ∩ 905, çeviri: tablo takvimi, Jülyen"
-   },
-   {
-    "f": "0905-01-01",
-    "t": "0935-08-04",
-    "d": "abbasi",
-    "kesinlik": {
-     "f": "yil",
-     "t": "ay"
-    },
-    "kaynak": "TDV KUDÜS 2. bölüm: 'bir süre sonra Muhammed b. Tuğç tarafından kurulan İhşîdîler’in'; TDV İHŞÎDÎLER (Ramazan 323 / Ağustos 935)",
-    "ic_not": "İhşîdî hâkimiyetinin Kudüs için yılı yok; Mısır'daki başlangıç (TDV İHŞÎDÎLER) kullanıldı — beyanlı yaklaşıklık."
-   },
-   {
-    "f": "0935-08-04",
-    "t": "0969-07-06",
-    "d": "ihsidi",
-    "kesinlik": {
-     "f": "ay",
-     "t": "gun"
-    },
-    "kaynak": "TDV KUDÜS 2. bölüm: '358’de (969) İhşîdîler’in Fâtımîler tarafından yıkılmasıyla'; TDV İHŞÎDÎLER (17 Şâban 358 / 6 Temmuz 969)",
-    "ic_not": "t: Fustat'ın Fâtımîler'e geçiş günü; Kudüs'ün kendi geçiş günü yok (alt sınır)."
-   },
-   {
-    "f": "0969-07-06",
-    "t": "1071-01-01",
-    "d": "fatimi",
-    "kesinlik": {
-     "f": "gun",
-     "t": "yil"
-    },
-    "kaynak": "TDV KUDÜS 2. bölüm (C. Avcı): 'Kudüs, 358-463 (969-1071) yılları arasında ... Fâtımîler’in hâkimiyetinde'; Atsız 463 (1071); hicrî 463 ∩ 1071, çeviri: tablo takvimi, Jülyen",
-    "ic_not": "Atsız'ın 465 (1073)'te zaptettiği rivayeti de var (TDV); TDV'nin öncelediği 463 alındı."
-   },
-   {
-    "f": "1071-01-01",
-    "t": "1079-01-01",
-    "d": "atsiz-beyligi",
-    "kesinlik": "yil",
-    "kaynak": "TDV KUDÜS 2. bölüm (C. Avcı): Atsız b. Uvak; Tutuş 471 (1079) yılında Atsız'ı ortadan kaldırdı; hicrî 471 ∩ 1079",
-    "ic_not": "Atsız b. Uvak'ın Filistin-Dımaşk emirliği (1071–1079) — hutbe Abbâsî halifesi ve Büyük Selçuklu Sultanı adına (metbu buyuk-selcuklu). Künye yok; önerilen id 'atsiz-filistin'. 469/1077 Fâtımî yanlısı isyan, Atsız bir günlük kuşatmayla geri aldı (kısa — olay). · 14 Ekim 2026: önerilen id 'atsiz-filistin' açılan künye 'atsiz-beyligi' ile birleştirildi (aynı yapı)."
-   },
-   {
-    "f": "1079-01-01",
-    "t": "1098-07-04",
-    "d": "suriye-selcuklu",
-    "kesinlik": {
-     "f": "yil",
-     "t": "ay"
-    },
-    "kaynak": "TDV KUDÜS 2. bölüm (C. Avcı): Tutuş; Artuk b. Eksük (477/1085), oğulları Sökmen ve İlgazi 491 (1098)'e kadar; Efdal teslim aldı (Şâban 491 / Temmuz 1098)",
-    "ic_not": "1085'ten doğrudan idareci Artuk ve oğulları (Tutuş'un ikta sahibi); Tutuş'un 1095'teki ölümünden sonra fiilen Artuk oğulları — artuklu künyesi 1102'de başlıyor, dilim ayrılmadı."
-   },
-   {
-    "f": "1098-07-04",
-    "t": "1099-07-15",
-    "d": "fatimi",
-    "kesinlik": {
-     "f": "ay",
-     "t": "gun"
-    },
-    "kaynak": "TDV KUDÜS 2. bölüm (Şâban 491 / Temmuz 1098; çeviri: tablo takvimi, Jülyen); 3. bölüm (I. Demirkent): '23 Şâban 492 / 15 Temmuz 1099'"
-   },
-   {
-    "f": "1099-07-15",
-    "t": "1187-10-02",
-    "d": "kudus-kralligi",
-    "kesinlik": "gun",
-    "kaynak": "TDV KUDÜS 3. bölüm (I. Demirkent): 15 Temmuz 1099; 'Mi‘rac kandiline denk düşen 27 Receb 583 (2 Ekim 1187) Cuma günü Selâhaddin Kudüs’e girdi'"
-   },
-   {
-    "f": "1187-10-02",
-    "t": "1229-03-17",
-    "d": "eyyubi",
-    "kesinlik": "gun",
-    "kaynak": "TDV KUDÜS 3. bölüm (I. Demirkent): 'Friedrich 17 Mart 1229’da Kudüs’e girdi'",
-    "ic_not": "Selâhaddin'den sonra Dımaşk Eyyûbîleri'nin elinde (el-Melikü'l-Muazzam surları yıktırdı — TDV yıl vermez); Dımaşk kolunun künyesi yok, 'eyyubi' altında."
-   },
-   {
-    "f": "1229-03-17",
-    "t": "1244-07-11",
-    "d": "kudus-kralligi",
-    "kesinlik": "gun",
-    "kaynak": "TDV KUDÜS 3. bölüm (I. Demirkent): 626 (1229) antlaşması, '17 Mart 1229'; 'Hârizmliler ... 11 Temmuz 1244’te Kudüs’e girdiler'",
-    "ic_not": "II. Friedrich (Kutsal Roma imparatoru, Kudüs kralı sıfatıyla) on yıllık antlaşmayla. TDV 1239'daki el-Melikü'n-Nâsır Dâvûd işgalini ve 1243 iadesini anmaz — genel kronoloji, doğrulanmadı; dönem açılmadı."
-   },
-   {
-    "f": "1244-07-11",
-    "t": "1250-04-05",
-    "d": "eyyubi",
-    "kesinlik": {
-     "f": "gun",
-     "t": "yil"
-    },
-    "kaynak": "TDV KUDÜS 3. bölüm: Hârizmliler el-Melikü's-Sâlih Eyyûb'un çağrısıyla; Gazze (Cemâziyelevvel 642 / Ekim 1244) 'Mısır Eyyûbîleri’nin hâkimiyetine'; TDV MISIR (648/1250); hicrî 648 ∩ 1250",
-    "ic_not": "Hârizmli atlılar Mısır Eyyûbî sultanının müttefiki; doğrudan sahip Mısır Eyyûbîleri sayıldı."
-   },
-   {
-    "f": "1250-04-05",
-    "t": "1253-04-02",
-    "d": "__BOSLUK__",
-    "kesinlik": {
-     "f": "yil",
-     "t": "ay"
-    },
-    "kaynak": "TDV KUDÜS 4. bölüm (C. Tomar): '(1250-1260) Suriye’deki Eyyûbîler ile Memlükler arasında birkaç defa el değiştirdi'; '(Safer 651 / Nisan 1253) Kudüs Memlükler’e bırakıldı'",
-    "ic_not": "1250–1253 sahibi TDV'de açık değil (Suriye Eyyûbîsi el-Melikü'n-Nâsır Yûsuf olması muhtemel — kaynak söylemiyor). Beyanlı boşluk."
-   },
-   {
-    "f": "1253-04-02",
-    "t": "1256-01-30",
-    "d": "memluk",
-    "kesinlik": {
-     "f": "ay",
-     "t": "yil"
-    },
-    "kaynak": "TDV KUDÜS 4. bölüm (C. Tomar): Safer 651 / Nisan 1253; 'Filistin ve Kudüs 654 (1256) yılında tekrar Eyyûbîler’in eline geçti'; hicrî 654 ∩ 1256"
-   },
-   {
-    "f": "1256-01-30",
-    "t": "1260-09-03",
-    "d": "eyyubi-halep",
-    "kesinlik": {
-     "f": "yil",
-     "t": "gun"
-    },
-    "kaynak": "TDV KUDÜS 4. bölüm (C. Tomar): 654 (1256); Aynicâlût (1260); TDV AYNİCÂLÛT SAVAŞI (A. Özaydın): 25 Ramazan 658 / 3 Eylül 1260",
-    "ic_not": "TDV hangi Eyyûbî kolu olduğunu yazmaz; dönemin Suriye Eyyûbî hükümdarı el-Melikü'n-Nâsır Yûsuf (Halep-Dımaşk) varsayıldı — beyanlı yaklaşıklık. 1260 Moğol akını. Künye eyyubi-halep 1260-01-01'de bitiyor (hayalet uyarısı): el-Melikü'n-Nâsır Yûsuf'un Suriye'deki hâkimiyeti 1260 başında Moğol istilasıyla çöktü; Kudüs'ün Şubat–Eylül 1260 arası durumu (Moğol akını) TDV'de yok — t Aynicâlût günü üst sınırdır."
-   },
-   {
-    "f": "1260-09-03",
-    "t": "1281-01-01",
-    "d": "memluk",
-    "kesinlik": "gun",
-    "kaynak": "TDV KUDÜS 4. bölüm (C. Tomar): 'Aynicâlût zaferiyle (1260) Eyyûbî hânedanı da sona erdi'; TDV AYNİCÂLÛT SAVAŞI",
-    "ic_not": "f Aynicâlût günü — Kudüs'e Memlük girişinin kendi günü yok (alt sınır)."
-   }
-  ],
-  "olay": [
-   {
-    "t": "-1700-01-01",
-    "gun": "MÖ 1701",
-    "k": "diger",
-    "b": "Mısır (lanet) metinleri Kudüs'ü bir Ken‘an şehir devleti olarak anar (XIX–XVIII. yy)",
-    "kaynak": "TDV KUDÜS 1. bölüm"
-   },
-   {
-    "t": "-1365-01-01",
-    "gun": "MÖ 1366",
-    "k": "diger",
-    "b": "Tell Amarna: Kudüs hükümdarı Abd-Hiba'nın IV. Amenofis'e mektupları (Mısır'ın tebaası)",
-    "kaynak": "TDV KUDÜS 1. bölüm"
-   },
-   {
-    "t": "-0700-01-01",
-    "gun": "MÖ 701",
-    "k": "kusatma",
-    "b": "Asur kralı Sanherib Kudüs'te Hizkiya'yı kuşattı; şehir alınmadı",
-    "kaynak": "Sanherib Rassam silindiri (RINAP 3/1, Sennacherib 4; Oracc); TDV KUDÜS (tarihsiz)"
-   },
-   {
-    "t": "-0596-01-01",
-    "gun": "MÖ 597",
-    "k": "fetih",
-    "b": "Nebukadnezzar Kudüs'e ikinci kez girdi, Yehoyakin'i Bâbil'e götürdü",
-    "kaynak": "TDV KUDÜS 1. bölüm"
-   },
-   {
-    "t": "-0586-01-01",
-    "gun": "MÖ 587",
-    "k": "fetih",
-    "b": "Nebukadnezzar şehri aldı; mâbed ve şehir yakıldı, halk sürüldü",
-    "kaynak": "TDV KUDÜS 1. bölüm ('on yıl sonra')"
-   },
-   {
-    "t": "-0537-01-01",
-    "gun": "MÖ 538",
-    "k": "fetih",
-    "b": "Bâbil esareti sonrası Kudüs Pers hâkimiyetinde; Zerubbabel mâbedin temelini attı",
-    "kaynak": "TDV KUDÜS 1. bölüm"
-   },
-   {
-    "t": "-0331-01-01",
-    "gun": "MÖ 332",
-    "k": "fetih",
-    "b": "Büyük İskender Kudüs'ü aldı",
-    "kaynak": "TDV KUDÜS 1. bölüm"
-   },
-   {
-    "t": "-0322-06-10",
-    "gun": "10 Haziran MÖ 323",
-    "k": "diger",
-    "b": "Büyük İskender'in ölümü; Diadokh savaşları",
-    "kaynak": "TDV KUDÜS (323); gün genel kronoloji (ayrıca doğrulanmadı)"
-   },
-   {
-    "t": "-0197-01-01",
-    "gun": "MÖ 198",
-    "k": "fetih",
-    "b": "Selevkoslar Kudüs'e hâkim oldu",
-    "kaynak": "TDV KUDÜS 1. bölüm"
-   },
-   {
-    "t": "-0167-01-01",
-    "gun": "MÖ 168",
-    "k": "isyan",
-    "b": "IV. Antiokhos mâbedi kirletti; Makkabi isyanları başladı",
-    "kaynak": "TDV KUDÜS 1. bölüm"
-   },
-   {
-    "t": "-0140-01-01",
-    "gun": "MÖ 141",
-    "k": "fetih",
-    "b": "Akra kalesi Simon'a teslim oldu; Hasmoni denetimi",
-    "kaynak": "1 Makkabiler 13:49-52 (ayrıca doğrulanmadı)"
-   },
-   {
-    "t": "-0062-01-01",
-    "gun": "MÖ 63",
-    "k": "fetih",
-    "b": "Pompeius Kudüs'ü işgal etti, surların bir kısmını yıktırdı (Hasmoniler Roma'ya tâbi)",
-    "kaynak": "TDV KUDÜS 1. bölüm"
-   },
-   {
-    "t": "-0053-01-01",
-    "gun": "MÖ 54",
-    "k": "diger",
-    "b": "Crassus mâbedi yağmaladı",
-    "kaynak": "TDV KUDÜS 1. bölüm"
-   },
-   {
-    "t": "-0039-01-01",
-    "gun": "MÖ 40",
-    "k": "fetih",
-    "b": "Partlar şehri ele geçirdi (Hasmoni Antigonos tahta)",
-    "kaynak": "TDV KUDÜS 1. bölüm"
-   },
-   {
-    "t": "-0036-01-01",
-    "gun": "MÖ 37",
-    "k": "fetih",
-    "b": "Büyük Herod şehri aldı, surları onardı",
-    "kaynak": "TDV KUDÜS 1. bölüm"
-   },
-   {
-    "t": "0006-01-01",
-    "gun": "MS 6",
-    "k": "ilhak",
-    "b": "Arkhelaos azledildi; Yahudiye Roma eyaleti oldu",
-    "kaynak": "genel kronoloji (ayrıca doğrulanmadı)"
-   },
-   {
-    "t": "0041-01-01",
-    "gun": "MS 41",
-    "k": "diger",
-    "b": "I. Herod Agrippa Yahudiye kralı; 42-43'te üçüncü sur",
-    "kaynak": "TDV KUDÜS 1. bölüm (42-43); yıl 41 genel kronoloji (ayrıca doğrulanmadı)"
-   },
-   {
-    "t": "0044-01-01",
-    "gun": "MS 44",
-    "k": "ilhak",
-    "b": "Agrippa'nın ölümü; Yahudiye yeniden Roma prokuratörlüğü",
-    "kaynak": "genel kronoloji (ayrıca doğrulanmadı)"
-   },
-   {
-    "t": "0066-01-01",
-    "gun": "MS 66",
-    "k": "isyan",
-    "b": "Birinci Yahudi isyanı; Kudüs isyancıların eline geçti",
-    "kaynak": "Josephus, Bellum Judaicum 2.284 (ayrıca doğrulanmadı)"
-   },
-   {
-    "t": "0070-01-01",
-    "gun": "MS 70",
-    "k": "kusatma",
-    "b": "Titus şehri kuşatıp aldı; mâbed ve şehir yandı",
-    "kaynak": "TDV KUDÜS 1. bölüm"
-   },
-   {
-    "t": "0135-01-01",
-    "gun": "MS 135",
-    "k": "isyan",
-    "b": "Bar Kohba ayaklanması bastırıldı; şehir Colonia Aelia Capitolina adıyla yeniden kuruldu",
-    "kaynak": "TDV KUDÜS 1. bölüm"
-   },
-   {
-    "t": "0395-01-17",
-    "gun": "17 Ocak 395",
-    "k": "diger",
-    "b": "künye geçişi: I. Theodosius'un ölümü, Kudüs Doğu Roma'da",
-    "kaynak": "gün genel kronoloji (ayrıca doğrulanmadı)"
-   },
-   {
-    "t": "0614-01-01",
-    "gun": "614",
-    "k": "fetih",
-    "b": "Sâsânîler Kudüs'ü işgal etti",
-    "kaynak": "TDV KUDÜS 1. bölüm"
-   },
-   {
-    "t": "0629-01-01",
-    "gun": "629",
-    "k": "fetih",
-    "b": "Herakleios Kudüs'ü geri aldı, kutsal haçı yerine koydu",
-    "kaynak": "TDV KUDÜS 1. bölüm"
-   },
-   {
-    "t": "0638-01-23",
-    "gun": "17 (638)",
-    "k": "fetih",
-    "b": "Hz. Ömer Kudüs'ü Patrik Sophronios'tan antlaşmayla teslim aldı",
-    "kaynak": "TDV KUDÜS 2. bölüm (C. Avcı); hicrî 17 ∩ 638, çeviri: tablo takvimi, Jülyen"
-   },
-   {
-    "t": "0660-05-17",
-    "gun": "40 (660)",
-    "k": "siyaset",
-    "b": "Muâviye Kudüs'te biat alarak halifeliğini ilân etti (künye geçişi)",
-    "kaynak": "TDV KUDÜS 2. bölüm; hicrî 40 ∩ 660"
-   },
-   {
-    "t": "0750-01-01",
-    "gun": "132 (750)",
-    "k": "diger",
-    "b": "künye geçişi: Abbâsîler iktidara geldi",
-    "kaynak": "TDV KUDÜS 2. bölüm; hicrî 132 ∩ 750"
-   },
-   {
-    "t": "0878-01-01",
-    "gun": "264 (878)",
-    "k": "fetih",
-    "b": "Ahmed b. Tolun Filistin'i aldı; Kudüs Tolunoğulları'na geçti",
-    "kaynak": "TDV KUDÜS 2. bölüm; hicrî 264 ∩ 878"
-   },
-   {
-    "t": "0905-01-01",
-    "gun": "292 (905)",
-    "k": "fetih",
-    "b": "Tolunoğulları hâkimiyeti sona erdi; Abbâsî idaresi",
-    "kaynak": "TDV KUDÜS 2. bölüm; hicrî 292 ∩ 905"
-   },
-   {
-    "t": "0935-08-04",
-    "gun": "Ramazan 323 (Ağustos 935)",
-    "k": "siyaset",
-    "b": "İhşîdîler dönemi başladı",
-    "kaynak": "TDV İHŞÎDÎLER (A. Ağırakça)"
-   },
-   {
-    "t": "0969-07-06",
-    "gun": "17 Şâban 358 / 6 Temmuz 969",
-    "k": "fetih",
-    "b": "İhşîdîler'in Fâtımîler'ce yıkılması; Kudüs Fâtımî hâkimiyetine",
-    "kaynak": "TDV İHŞÎDÎLER; TDV KUDÜS 2. bölüm"
-   },
-   {
-    "t": "1071-01-01",
-    "gun": "463 (1071)",
-    "k": "fetih",
-    "b": "Atsız b. Uvak Kudüs'e girdi; hutbe Abbâsî halifesi ve Alparslan adına",
-    "kaynak": "TDV KUDÜS 2. bölüm; hicrî 463 ∩ 1071"
-   },
-   {
-    "t": "1077-01-01",
-    "gun": "469 (1077)",
-    "k": "isyan",
-    "b": "Fâtımî yanlısı isyan; Atsız bir günlük kuşatmayla şehri geri aldı",
-    "kaynak": "TDV KUDÜS 2. bölüm; hicrî 469 ∩ 1077"
-   },
-   {
-    "t": "1079-01-01",
-    "gun": "471 (1079)",
-    "k": "siyaset",
-    "b": "Tâcüddevle Tutuş Atsız'ı ortadan kaldırdı",
-    "kaynak": "TDV KUDÜS 2. bölüm; hicrî 471 ∩ 1079"
-   },
-   {
-    "t": "1085-01-01",
-    "gun": "477 (1085)",
-    "k": "idari",
-    "b": "Kudüs ve çevresinin yönetimi Artuk b. Eksük'e verildi",
-    "kaynak": "TDV KUDÜS 2. bölüm; hicrî 477 ∩ 1085"
-   },
-   {
-    "t": "1098-07-04",
-    "gun": "Şâban 491 (Temmuz 1098)",
-    "k": "fetih",
-    "b": "Fâtımî veziri Efdal Kudüs'ü İlgazi ve Sökmen'den teslim aldı",
-    "kaynak": "TDV KUDÜS 2. bölüm; çeviri: tablo takvimi, Jülyen"
-   },
-   {
-    "t": "1099-07-15",
-    "gun": "23 Şâban 492 / 15 Temmuz 1099",
-    "k": "fetih",
-    "b": "Haçlılar beş haftalık kuşatmadan sonra Kudüs'ü aldı",
-    "kaynak": "TDV KUDÜS 3. bölüm (I. Demirkent)"
-   },
-   {
-    "t": "1187-10-02",
-    "gun": "27 Receb 583 (2 Ekim 1187)",
-    "k": "fetih",
-    "b": "Selâhaddîn-i Eyyûbî Kudüs'e girdi",
-    "kaynak": "TDV KUDÜS 3. bölüm (I. Demirkent)"
-   },
-   {
-    "t": "1229-03-17",
-    "gun": "17 Mart 1229",
-    "k": "antlasma",
-    "b": "II. Friedrich el-Melikü'l-Kâmil ile antlaşma sonrası Kudüs'e girdi",
-    "kaynak": "TDV KUDÜS 3. bölüm (I. Demirkent)"
-   },
-   {
-    "t": "1244-07-11",
-    "gun": "11 Temmuz 1244",
-    "k": "fetih",
-    "b": "Hârizmliler Kudüs'e girdi; Gazze zaferiyle şehir Mısır Eyyûbîleri'ne",
-    "kaynak": "TDV KUDÜS 3. bölüm (I. Demirkent)"
-   },
-   {
-    "t": "1250-04-05",
-    "gun": "648 (1250)",
-    "k": "darbe",
-    "b": "Turan Şah'ın öldürülmesi; Mısır'da Memlükler — Kudüs Eyyûbî-Memlük çekişmesinde",
-    "kaynak": "TDV MISIR; TDV KUDÜS 4. bölüm; hicrî 648 ∩ 1250"
-   },
-   {
-    "t": "1253-04-02",
-    "gun": "Safer 651 (Nisan 1253)",
-    "k": "antlasma",
-    "b": "Halifenin aracılığıyla barış; Kudüs Memlükler'e bırakıldı",
-    "kaynak": "TDV KUDÜS 4. bölüm (C. Tomar); çeviri: tablo takvimi, Jülyen"
-   },
-   {
-    "t": "1256-01-30",
-    "gun": "654 (1256)",
-    "k": "fetih",
-    "b": "Filistin ve Kudüs tekrar Eyyûbîler'in eline geçti",
-    "kaynak": "TDV KUDÜS 4. bölüm; hicrî 654 ∩ 1256"
-   },
-   {
-    "t": "1260-09-03",
-    "gun": "25 Ramazan 658 / 3 Eylül 1260",
-    "k": "savas",
-    "b": "Aynicâlût zaferi; Eyyûbî hânedanı sona erdi, Kudüs Memlük'te",
-    "kaynak": "TDV AYNİCÂLÛT SAVAŞI (A. Özaydın); TDV KUDÜS 4. bölüm"
-   }
-  ],
-  "ic_not": "Atlas noktası 1281'de Memlük ile başlıyor; dikiş düz. İlk anılış: TDV Mısır (lanet) metinlerini (XIX–XVIII. yy) şehrin adının geçtiği en eski belge sayar — güvenli uç (aralığın sonu, MÖ 1701) alındı; Rushalimum = Kudüs eşitlemesi TDV'ce kesin ifade edilir. Tell Amarna (XIV. yy) Urusalim tanığı yeri kesin ikinci tanık. Dört beyanlı boşluk (Amarna–Sanherib; Diadokh–Ptolemaios; Makkabi; 1250–1253) ve üç künyesiz yapı (Urusalim kent devleti, 66–70 isyan hükûmeti, Atsız emirliği). Antik dönemde TDV'nin vermediği birkaç geçiş günü 'genel kronoloji (ayrıca doğrulanmadı)' diye işaretli. Parti koordinatı atlas noktasına 1,9 km (Eski Şehir içi)."
- },
- {
   "id": "kabul",
   "ad": "Kabul",
   "atlas_ad": "Kâbil",
@@ -17319,7 +13721,16 @@ window.SEHIR_TARIHCE_OSM = [
    "Kâbul",
    "Kābul",
    "Kâbil",
-   "Kabul"
+   "Kabul",
+   "Kubha",
+   "Kaboura",
+   "Kao-fu",
+   "Kābol",
+   "Kubha (Rig Veda)",
+   "Kaboura (Ptolemaios)",
+   "Kao-fu (Çin seyyah kayıtları)",
+   "Kâbil / Kâbul",
+   "Kâbül"
   ],
   "ilk": {
    "t": "0664-04-04",
@@ -17398,8 +13809,8 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV KÂBİL; hicrî 44 ∩ 664, çeviri: tablo takvimi, Jülyen"
    },
    {
-    "t": "0697-01-01",
-    "gun": "78 (697)",
+    "t": "0697-03-30",
+    "gun": "78 H (697)",
     "k": "sefer",
     "b": "Haccâc'ın gönderdiği İbn Ebû Bekre'nin Kâbil seferi ağır kayıpla başarısız oldu",
     "kaynak": "TDV KÂBİL"
@@ -17417,6 +13828,14 @@ window.SEHIR_TARIHCE_OSM = [
     "k": "vassal",
     "b": "İbrâhim b. Cibrâîl Zâbülistan'ı alıp Kâbil'e girdi; Türkşâhî hükümdarı Müslüman oldu, 1,5 milyon dirhem haraç kabul etti",
     "kaynak": "TDV KÂBİL; hicrî 179 ∩ 795, çeviri: tablo takvimi, Jülyen"
+   },
+   {
+    "t": "0795-03-27",
+    "gun": "179 H (795)",
+    "k": "fetih",
+    "b": "Müslüman ordusu Kâbil'e girdi; Türkşâhî hükümdarı vergiye bağlandı",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Kâbil (Afganistan)» md., https://islamansiklopedisi.org.tr/kabil--afganistan (16 Kasım 2026'da okundu; tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026)): «179’da (795) Zâbülistan’ı aldı ve Kâbil’e girdi»"
    },
    {
     "t": "0850-01-01",
@@ -17466,9 +13885,100 @@ window.SEHIR_TARIHCE_OSM = [
     "k": "fetih",
     "b": "Algu'nun ölümü — saltanatında (1260-1266) Hârizm ve Afganistan'ı Çağatay Hanlığı'na katmıştı",
     "kaynak": "TDV ÇAĞATAY HANLIĞI"
+   },
+   {
+    "t": "1504-06-14",
+    "gun": "1504",
+    "k": "fetih",
+    "b": "Kâbil Bâbür'ün eline geçti",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Kâbil (Afganistan)» md., https://islamansiklopedisi.org.tr/kabil--afganistan (16 Kasım 2026'da okundu; tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026)): «910’da da (1504) Bâbür’ün eline geçti»"
+   },
+   {
+    "t": "1738-04-21",
+    "gun": "1738",
+    "k": "fetih",
+    "b": "Nâdir Şah Kâbil'i Bâbürlüler'den aldı",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Kâbil (Afganistan)» md., https://islamansiklopedisi.org.tr/kabil--afganistan (16 Kasım 2026'da okundu; tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026)): «1151’de (1738) Kâbil’i Bâbürlüler’den alarak»"
+   },
+   {
+    "t": "1747-01-13",
+    "gun": "1747",
+    "k": "fetih",
+    "b": "Nâdir Şah'ın öldürülmesinden sonra şehir Ahmed Şah Dürrânî'ye geçti",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Kâbil (Afganistan)» md., https://islamansiklopedisi.org.tr/kabil--afganistan (16 Kasım 2026'da okundu; tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026)): «1160’ta (1747) öldürülmesinden sonra şehri»"
+   },
+   {
+    "t": "1839-01-01",
+    "gun": "1839",
+    "k": "fetih",
+    "b": "İngiliz-Hint ordusu Kâbil'i işgal etti",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Kâbil (Afganistan)» md., https://islamansiklopedisi.org.tr/kabil--afganistan (16 Kasım 2026'da okundu; tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026)): «1839’da İngiliz-Hint ordusu Kâbil’i işgal ederek»"
+   },
+   {
+    "t": "1842-01-01",
+    "gun": "1842",
+    "k": "diger",
+    "b": "İngiliz ordusu (Pollock) Kâbil'i yakıp yıktı",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Kâbil (Afganistan)» md., https://islamansiklopedisi.org.tr/kabil--afganistan (16 Kasım 2026'da okundu; tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026)): «şehri yakıp yıkarak 70.000 kişiyi katletti (1842)»"
    }
   ],
-  "ic_not": "İlk anılış seçimi Emre kuralına göre: Batlamyus'un 'Kaboura'sı (Geogr. 6.18) ve Strabon'un Ortospana'sı (11.8.9) Barrington'da 'Kabul?' soru işaretiyle eşitlenir, Pleiades 60606 'kesin yeri belirlenemez' der (Pleiades 59885 Kabul 0,8 km) — yeri kesin olmayan eşitleme başlangıç sayılmadı; Rig Veda 'Kubha' ırmak adıdır. Yeri kesin ilk tanık TDV'nin 44/664 Arap seferi. TDV'nin 'MÖ 1500’lü yıllardan itibaren varlığı bilinmektedir' cümlesi dayanaksız (Kubha ırmak). Arkeolojik: Çaman-ı Huzûrî Ahameniş sikke definesi (Pleiades/TAVO) — tarihi ve yayını açılmadı, yazılmadı. Iranica (de Planhol) erken merkez olarak Kâpisa'yı (Begram, ~60 km K) gösterir. 1031–1266 arası tarihsiz el değiştirmeler beyanlı boşluk. Parti koordinatı atlas noktasına 0.0 km."
+  "ic_not": "İlk anılış seçimi Emre kuralına göre: Batlamyus'un 'Kaboura'sı (Geogr. 6.18) ve Strabon'un Ortospana'sı (11.8.9) Barrington'da 'Kabul?' soru işaretiyle eşitlenir, Pleiades 60606 'kesin yeri belirlenemez' der (Pleiades 59885 Kabul 0,8 km) — yeri kesin olmayan eşitleme başlangıç sayılmadı; Rig Veda 'Kubha' ırmak adıdır. Yeri kesin ilk tanık TDV'nin 44/664 Arap seferi. TDV'nin 'MÖ 1500’lü yıllardan itibaren varlığı bilinmektedir' cümlesi dayanaksız (Kubha ırmak). Arkeolojik: Çaman-ı Huzûrî Ahameniş sikke definesi (Pleiades/TAVO) — tarihi ve yayını açılmadı, yazılmadı. Iranica (de Planhol) erken merkez olarak Kâpisa'yı (Begram, ~60 km K) gösterir. 1031–1266 arası tarihsiz el değiştirmeler beyanlı boşluk. Parti koordinatı atlas noktasına 0.0 km. || [MÜKERRER BİRLEŞTİRME 17 Kasım 2026: kabil-af (sehir_tarihce_orta_asya.js) kaydından] Kaynak: TDV 'Kâbil' (maddenin URL'si /kabil--afganistan; tam metne karşı doğrulandı (tarayıcı)). Çift teyit YOK. ilk=795: Kâbil'e GİRİŞ ('Kâbil’e girdi') şehre özgü en eski tarihli tanık. 664 (Muâviye valileri, 44/664) ve 697 (78) TDV'de 'bölge' için verilir (şehir adı bağlamı özetle teyitsiz) — yazılmadı. TDV 'milâttan önce 1500’lü yıllardan itibaren varlığı bilinmektedir' der ama KAYNAK göstermez; dayanaksız olduğu için ilk/kur olarak yazılmadı (adlar: Kubha/Kaboura/Kao-fu tarihsiz). Atlas Kâbil'i 0500'de __BOSLUK__ ile başlatır; 795 > 500 → sahip:[] (atlas zinciri esas). Kâbilşâhîler/Türkşâhîler TDV'de tarihsiz ('Türkşâhîler dönemi'); atlas 'turk-sahi' 665-850 ile TDV 795 fethi arasında, TDV 'Türkşâhî hükümdarı vergiye bağlandı' anlatımıyla uyumlu (fetih ≠ künye değişimi). Hicrî: Hicrî→mîlâdî: TDV'nin verdiği mîlâdî yıl ile hicrî yılın kesişiminin ilk günü, tablo takvimiyle (Jülyen, ±1-2 gün); kesinlik yıl. 1773/1775 (Timur Şah başşehir yaptı), 1793, 1819 (Dost Muhammed tarihi belirsiz), 1841, 1879, 1880 TDV'de var ama ya tarihi çıkarım ya tam metne karşı doğrulandı (tarayıcı)da bağlamı belirsiz — yazılmadı. TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Uyuşmayanlar: TARİH UYUŞMUYOR (olay1.t): eski → 1504-06-14. Kâbil Bâbür 910 (1504): 910 h. 1504-06-14 başlar; Hicrî ∩ milâdî kesişim ilk günü (aritmetik sivil takvim ±2 gün); eski 1504-01-01 hicrî yılın dışında kalıyordu. TARİH UYUŞMUYOR (olay2.t): eski → 1738-04-21. Kâbil Nâdir Şah 1151 (1738): 1151 h. 1738-04-21 başlar; Hicrî ∩ milâdî kesişim ilk günü (aritmetik sivil takvim ±2 gün); eski 1738-01-01 hicrî yılın dışında kalıyordu. TARİH UYUŞMUYOR (olay3.t): eski → 1747-01-13. Kâbil Dürrânî 1160 (1747): 1160 h. 1747-01-13 başlar; Hicrî ∩ milâdî kesişim ilk günü (aritmetik sivil takvim ±2 gün); eski 1747-01-01 hicrî yılın dışında kalıyordu. Önceki notlardaki \"WebFetch özeti / tam metne karşı doğrulandı (tarayıcı) / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir.",
+  "ad_kaynak": [
+   {
+    "ad": "Kubha",
+    "dil": "sa",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Kâbil (Afganistan)' https://islamansiklopedisi.org.tr/kabil--afganistan",
+    "kanit": "Rig Veda’da “Kubha”"
+   },
+   {
+    "ad": "Kaboura",
+    "dil": "grc",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Kâbil (Afganistan)' https://islamansiklopedisi.org.tr/kabil--afganistan",
+    "kanit": "Kabolitler’in Kaboura şehri"
+   },
+   {
+    "ad": "Kao-fu",
+    "dil": "zh",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Kâbil (Afganistan)' https://islamansiklopedisi.org.tr/kabil--afganistan",
+    "kanit": "Çin seyahatnâmelerinde “Kao-fu” şekillerinde geçer"
+   },
+   {
+    "ad": "Kâbül",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Kâbil (Afganistan)' https://islamansiklopedisi.org.tr/kabil--afganistan",
+    "kanit": "ismin aslı “Kâbül” olup"
+   },
+   {
+    "ad": "Kâbil",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Kâbil (Afganistan)' https://islamansiklopedisi.org.tr/kabil--afganistan",
+    "kanit": "Zâbülistan’ı aldı ve Kâbil’e girdi"
+   },
+   {
+    "ad": "Kâbul",
+    "dil": "ar",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'Kâbil (Afganistan)' https://islamansiklopedisi.org.tr/kabil--afganistan",
+    "kanit": "(Türk ve Kâbul)"
+   },
+   {
+    "ad": "Kābol",
+    "dil": "fa",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Kabul' https://www.britannica.com/place/Kabul",
+    "kanit": "Also known as: Kābol"
+   }
+  ]
  },
  {
   "id": "kahramanmaras",
@@ -19436,215 +15946,6 @@ window.SEHIR_TARIHCE_OSM = [
   "ic_not": "Zincir YOK: ilk anılış (1331) atlas başlangıcından (1281-01-01, bizans) sonra. TDV yerleşimin kuruluşunu 1207 Bulgar istilâsıyla Mosinopolis'in yıkılması SONRASINA koyar (kuruluş yılı yok) ⇒ 1281'de kasabanın var olması TDV ile çelişmez ama tanıksızdır; atlas başlangıcı 1281 korunabilir (bizans bölge sahibi), en kesin tanıklı alternatif 1331. kur yazılmadı ('1207 sonrası' bir alt sınırdır, kuruluş günü değil). ark: Theodosios kalesi (380–385) — yerleşim değil, kale; ayrı nicelik. Kalenin 'Koumoutsina' adıyla 1331 tanığı TDV'de kaynak göstermeden verilir (Kantakuzenos olabilir — doğrulanmadı); Rumca adı 'ilk defa 1344’te Gregoras' kullandı der (TDV içi gerilim: 1331 kale adı, 1344 Gregoras'ta şehir adı). Osmanlı fethi tarihi tartışmalı (762/1361, 1363, ya da 1371 öncesi; TDV son araştırmaları esas alır). Mosinopolis/Maximianopolis (Pleiades 501574) 6,8 km ⇒ ayrı yer; Pleiades 501475 Komotene 3,39 km (Barrington noktası, modern şehir). Parti koordinatı atlas noktasına 0,5 km."
  },
  {
-  "id": "konya",
-  "ad": "Konya",
-  "atlas_ad": "Konya",
-  "lat": 37.871,
-  "lon": 32.485,
-  "kat1900": 2,
-  "adlar": [
-   "Kawania (Frigce, TDV)",
-   "İkonion",
-   "Iconium",
-   "Kūniye",
-   "Konya"
-  ],
-  "ilk": {
-   "t": "-0400-01-01",
-   "gun": "MÖ 401",
-   "nicelik": "ilk_anilis",
-   "kesinlik": "yil",
-   "kaynak": "Ksenophon, Anabasis 1.2.19 (Perseus, Brownson çev.)",
-   "tanik": "to Iconium, the last city of Phrygia"
-  },
-  "kur": null,
-  "ark": {
-   "t": "-1999-01-01",
-   "gun": "MÖ 2000",
-   "kesinlik": "belirsiz",
-   "kaynak": "M. Akok, Belleten 39/154 (1975) 217–224; Pleiades 648647"
-  },
-  "bit": null,
-  "sahip": [
-   {
-    "f": "-0400-01-01",
-    "t": "-0332-01-01",
-    "d": "ahamenis",
-    "kesinlik": {
-     "f": "yil",
-     "t": "belirsiz"
-    },
-    "kaynak": "Ksenophon, Anab. 1.2.19; TDV KONYA (T. Baykara): 'VI. yüzyılın ortalarında şehir Pers hâkimiyetinde'"
-   },
-   {
-    "f": "-0332-01-01",
-    "t": "-0322-06-10",
-    "d": "iskender-imparatorlugu",
-    "kesinlik": {
-     "f": "belirsiz",
-     "t": "gun"
-    },
-    "kaynak": "TDV KONYA (T. Baykara): 'IV. yüzyılın ikinci yarısında İskender İmparatorluğu’na'",
-    "ic_not": "Konya'nın İskender'e geçiş yılı kaynakta yok; MÖ 333 İskender'in Frigya'yı (Gordion → Ankyra) geçtiği yıldır (Arrianos 2.4.1, TDV ANKARA aktarımı) — Konya tanığı değil, çağrışım; kesinlik belirsiz."
-   },
-   {
-    "f": "-0322-06-10",
-    "t": "-0189-01-01",
-    "d": "__BOSLUK__",
-    "kesinlik": "belirsiz",
-    "kaynak": "TDV KONYA (T. Baykara): 'onun ölümünden sonra Selefkiler’e'",
-    "ic_not": "Diadokh dönemi: Antigonos (321–301), İpsos (301) sonrası paylaşım ve Selevkos hâkimiyetinin Lykaonia'da başladığı yıl kaynakta yok. Selevkos'un elinde olduğu en geç MÖ 190'da kesin (Livius 37.55–56). Sahibi bilinen ama tarihlenemeyen dilim — beyanlı boşluk."
-   },
-   {
-    "f": "-0189-01-01",
-    "t": "-0187-01-01",
-    "d": "selevkos",
-    "kesinlik": "yil",
-    "kaynak": "Livius 37.55–56 (McDevitte çev., Gutenberg 44318): senato 'all Lycaonia' Antiokhos'tan alınacak topraklar arasında; TDV KONYA (T. Baykara)",
-    "ic_not": "f bir başlangıç değil EN GEÇ tanıktır (Magnesia Savaşı yılı, MÖ 190); Selevkos hâkimiyeti daha önce başlamıştır."
-   },
-   {
-    "f": "-0187-01-01",
-    "t": "-0132-01-01",
-    "d": "bergama",
-    "kesinlik": "yil",
-    "kaynak": "Livius 38.39 (Apameia: 'also gave to him Lycaonia'); TDV KONYA (T. Baykara): 'ardından da Bergama krallarının eline geçti'",
-    "ic_not": "Bitiş MÖ 133: III. Attalos'un ölümü (TDV olayı anar, yılı vermez; yıl genel kronoloji (ayrıca doğrulanmadı))."
-   },
-   {
-    "f": "-0132-01-01",
-    "t": "-0026-01-16",
-    "d": "roma-cumhuriyeti",
-    "kesinlik": {
-     "f": "yil",
-     "t": "gun"
-    },
-    "kaynak": "TDV KONYA (T. Baykara): 'III. Attalos’un ölümü üzerine Roma İmparatorluğu topraklarına katıldı'",
-    "ic_not": "Doğrudan sahip ayrıntısı eksik (borç): Strabon 12.6.1 'This place was held by Polemon' der (tarihsiz); Lykaonia Galat kralı Amyntas'ın krallığına girdi ve MÖ 25'te Galatia eyaleti oldu (Strabon 12.5.1, Jones dipnotu). Vasal dilimler tarihsiz olduğundan ayrı dönem yazılmadı; metbu Roma."
-   },
-   {
-    "f": "-0026-01-16",
-    "t": "0395-01-17",
-    "d": "roma-imp",
-    "kesinlik": "gun",
-    "kaynak": "TDV KONYA (T. Baykara) (Roma dönemi, Pavlus'un ikameti); geçiş günleri genel kronoloji (ayrıca doğrulanmadı)"
-   },
-   {
-    "f": "0395-01-17",
-    "t": "1073-01-01",
-    "d": "bizans",
-    "kesinlik": {
-     "f": "gun",
-     "t": "yil"
-    },
-    "kaynak": "TDV KONYA (T. Baykara): 'Roma İmparatorluğu’nun ikiye ayrılmasından sonra Doğu Roma şehri haline gelen Konya'",
-    "ic_not": "Emevî (105/723-24 Mervân b. Muhammed) fethi ile 900, ~907 ve 963 Abbâsî seferleri olay olarak yazıldı; TDV hâkimiyeti 'geçici' sayar ve süre vermez — dönem ayrılmadı."
-   },
-   {
-    "f": "1073-01-01",
-    "t": "1097-01-01",
-    "d": "selcuklu",
-    "kesinlik": "yil",
-    "kaynak": "TDV KONYA (T. Baykara): 'Türk fethi, 1071 sonrasında muhtemelen 1073 yılında gerçekleşti'",
-    "ic_not": "TDV fatihi yalnız 'Türkler' diye anar ve yılı 'muhtemelen' verir. Selçuklu yazıldı çünkü 1097'de şehir Selçuklu hanedanının başşehridir. Denetim 'hayalet' uyarısı verir (künye selcuklu 1075'te başlar): Türkiye Selçuklu Devleti'nin kuruluşu TDV SÜLEYMAN ŞAH I'e göre 1075 ya da 1078–1081 — fetheden yapı (Büyük Selçuklu uç kuvvetleri mi, Süleyman Şah mı) kaynakta ayrılmıyor; künye değiştirilmedi."
-   }
-  ],
-  "olay": [
-   {
-    "t": "-0400-01-01",
-    "gun": "MÖ 401",
-    "k": "diger",
-    "b": "Kyros'un ordusu (Onbinler) İkonion'da üç gün konakladı",
-    "kaynak": "Ksenophon, Anabasis 1.2.19"
-   },
-   {
-    "t": "-0332-01-01",
-    "gun": "~MÖ 333",
-    "k": "fetih",
-    "b": "Konya İskender İmparatorluğu'na geçti (yıl yaklaşık)",
-    "kaynak": "TDV KONYA (T. Baykara)"
-   },
-   {
-    "t": "-0322-06-10",
-    "gun": "10 Haziran MÖ 323",
-    "k": "diger",
-    "b": "Büyük İskender'in ölümü; Diadokh savaşları başladı",
-    "kaynak": "gün genel kronoloji (ayrıca doğrulanmadı) (künye iskender-imparatorlugu bitişiyle aynı)"
-   },
-   {
-    "t": "-0189-01-01",
-    "gun": "MÖ 190",
-    "k": "savas",
-    "b": "Magnesia Savaşı: Roma senatosu Lykaonia'yı Antiokhos'tan alınacak topraklar arasında saydı",
-    "kaynak": "Livius 37.55–56"
-   },
-   {
-    "t": "-0187-01-01",
-    "gun": "MÖ 188",
-    "k": "antlasma",
-    "b": "Apameia Barışı: Lykaonia Bergama kralı II. Eumenes'e verildi",
-    "kaynak": "Livius 38.38–39"
-   },
-   {
-    "t": "-0132-01-01",
-    "gun": "MÖ 133",
-    "k": "ilhak",
-    "b": "III. Attalos'un ölümü; Bergama toprakları Roma'ya geçti",
-    "kaynak": "TDV KONYA (T. Baykara); yıl genel kronoloji (ayrıca doğrulanmadı)"
-   },
-   {
-    "t": "-0026-01-16",
-    "gun": "16 Ocak MÖ 27",
-    "k": "diger",
-    "b": "Octavianus 'Augustus' unvanını aldı — Roma Cumhuriyeti'nden Prinkipat'a geçiş (künye geçişi, toprak el değiştirmedi)",
-    "kaynak": "TDV ANKARA 1. bölüm (S. Erdem): 'Augustus’tan (m.ö. 27 - m.s. 14)'; gün genel kronoloji (ayrıca doğrulanmadı)"
-   },
-   {
-    "t": "0395-01-17",
-    "gun": "17 Ocak 395",
-    "k": "diger",
-    "b": "I. Theodosius'un ölümü; imparatorluk ikiye ayrıldı, şehir Doğu Roma'da kaldı (künye geçişi)",
-    "kaynak": "TDV KONYA / TDV İZMİT (ikiye ayrılma); gün genel kronoloji (ayrıca doğrulanmadı)"
-   },
-   {
-    "t": "0723-06-10",
-    "gun": "105 (723-24)",
-    "k": "fetih",
-    "b": "Emevî kumandanı Mervân b. Muhammed Konya'yı fethetti (geçici)",
-    "kaynak": "TDV KONYA (T. Baykara); hicrî 105/1/1, çeviri: tablo takvimi, Jülyen"
-   },
-   {
-    "t": "0900-01-07",
-    "gun": "287 (900)",
-    "k": "diger",
-    "b": "Tarsus Emîri Ebû Sâbit esir düştü, Konya Kalesi'nde hapsedildi (şehir Bizans'ta)",
-    "kaynak": "TDV KONYA (T. Baykara) (Taberî X, 76); hicrî 287/1/1, çeviri: tablo takvimi, Jülyen"
-   },
-   {
-    "t": "0963-11-01",
-    "gun": "Şevval 352 (Kasım 963)",
-    "k": "sefer",
-    "b": "Tarsus garnizonundan çıkan İslâm ordusu Konya'ya kadar sefer yapıp döndü",
-    "kaynak": "TDV KONYA (T. Baykara) (İbnü’l-Esîr VIII, 547)"
-   },
-   {
-    "t": "1069-01-01",
-    "gun": "1069",
-    "k": "sefer",
-    "b": "Selçuklu kumandanı Afşin Konya önlerinde göründü",
-    "kaynak": "TDV KONYA (T. Baykara)"
-   },
-   {
-    "t": "1073-01-01",
-    "gun": "muhtemelen 1073",
-    "k": "fetih",
-    "b": "Konya'nın Türkler tarafından fethi; Rum halkın bir kısmı Sille'ye göçtü",
-    "kaynak": "TDV KONYA (T. Baykara)"
-   }
-  ],
-  "ic_not": "İlk anılış pilotla (SONUC-OPUS §4) aynı; Pleiades 648647 noktasına 0,06 km. Atlas noktası 1097-01-01'de Selçuklu ile başlıyor; TDV'deki başşehir seçimi 19 Haziran 1097'dir (İznik'in Bizans'a teslimi) — atlas başlangıcı yıl başına yuvarlanmış görünüyor; bu dosya karışmaz. Antikçağ vasal dilimleri (Polemon, Amyntas) ve Diadokh dönemi tarihlenemedi. Parti koordinatı (GeoNames) atlas noktasına 0.7 km."
- },
- {
   "id": "korce",
   "ad": "Korçë",
   "atlas_ad": "Görice (Korçë)",
@@ -20958,433 +17259,6 @@ window.SEHIR_TARIHCE_OSM = [
    }
   ],
   "ic_not": "Kition, bugünkü Larnaka'nın altındadır: Pleiades 707534 noktası atlas noktasına 0,50 km (Barrington: 'Larnaka'); TDV LARNAKA 'eski Kition’un yanında' der. İlk anılış Thukydides (MÖ 450/449 Kimon kuşatması) — güvenli uç MÖ 449. Daha eski aday: Asur Esarhaddon listesindeki Qartihadasti ve Fenike 'Qarthadasht' (Pleiades 707534 Kition'a bağlar, Bagg RGTC 7/1) — eşitleme tartışmalı (PECS NEAPOLIS: Limasol önerisi reddedilir ama tartışma sürer); Adana kuralı gereği başlangıç sayılmadı. TDV LARNAKA'nın 'Fenike Kralı Hiram tarafından kurulduğu sanılan' rivayeti (MÖ 1000) kur yazılmadı. MÖ 560 Mısır (Amasis) üstünlüğü TDV'de geçer; Kition doğrudan yönetilmediği için dönem açılmadı. Atlas noktası 1281'de lusignan ile başlıyor — zincir düz bağlandı. Parti koordinatı atlas noktasına 0,6 km."
- },
- {
-  "id": "latakia",
-  "ad": "Latakia",
-  "atlas_ad": null,
-  "lat": 35.531,
-  "lon": 35.791,
-  "kat1900": 3,
-  "adlar": [
-   "Ramitha (Fenike, TDV)",
-   "Laodikeia / Laodicea ad Mare",
-   "el-Lâzikıyye",
-   "Lazkiye",
-   "Latakia"
-  ],
-  "ilk": {
-   "t": "-0280-01-01",
-   "gun": "MÖ 281",
-   "nicelik": "ilk_anilis",
-   "kesinlik": "onyil",
-   "kaynak": "TDV LAZKİYE (Ş. T. Buzpınar): 'Milâttan önce III. yüzyılda I. Selefkos tarafından yeniden kurulan şehre annesi Laodice’ye atfen Laodicea (Laodikeia) adı verilmiştir'",
-   "tanik": "Milâttan önce III. yüzyılda I. Selefkos tarafından yeniden kurulan şehre"
-  },
-  "kur": null,
-  "ark": null,
-  "bit": null,
-  "sahip": [
-   {
-    "f": "-0280-01-01",
-    "t": "-0063-01-01",
-    "d": "selevkos",
-    "kesinlik": {
-     "f": "onyil",
-     "t": "yil"
-    },
-    "kaynak": "TDV LAZKİYE; t: 'Milâttan önce 64’te Pompey tarafından Roma hâkimiyetine alınan şehir'",
-    "ic_not": "f güvenli uçtur: TDV 'III. yüzyılda' (MÖ 300-201) ∩ I. Selevkos'un ölümü (MÖ 281, genel kronoloji, ayrıca doğrulanmadı). Tigranes'in Suriye hâkimiyeti (MÖ 83-69; Halep partisinde Appianos ile açıldı) için Laodikeia'ya özgü tanık yok — dönem açılmadı (beyan)."
-   },
-   {
-    "f": "-0063-01-01",
-    "t": "-0026-01-16",
-    "d": "roma-cumhuriyeti",
-    "kesinlik": {
-     "f": "yil",
-     "t": "gun"
-    },
-    "kaynak": "TDV LAZKİYE ('Roma döneminde iç savaşlara mâruz kaldı'); t: künye geçişi (roma-cumhuriyeti t)"
-   },
-   {
-    "f": "-0026-01-16",
-    "t": "0395-01-17",
-    "d": "roma-imp",
-    "kesinlik": "gun",
-    "kaynak": "künye geçişleri (devletler.js); TDV LAZKİYE"
-   },
-   {
-    "f": "0395-01-17",
-    "t": "0638-01-23",
-    "d": "bizans",
-    "kesinlik": "gun",
-    "kaynak": "TDV LAZKİYE ('IV. yüzyılın son çeyreğinde Bizans yönetimine girdi ve I. Iustinianos zamanında Theodorias eyaletinin merkezi oldu'); t: TDV UBÂDE b. SÂMİT: 'Bu görevde iken Lazkiye ve Cebele’yi ele geçirdi (17/638)' — hicrî 17 ∩ 638 ilk gün, çeviri: tablo takvimi, Jülyen",
-    "ic_not": "Sâsânî işgali (613-628) için Lazkiye'ye özgü tanık yok — dönem açılmadı (beyan)."
-   },
-   {
-    "f": "0638-01-23",
-    "t": "0661-07-29",
-    "d": "hulefa-yi-rasidin",
-    "kesinlik": {
-     "f": "gun",
-     "t": "yil"
-    },
-    "kaynak": "TDV UBÂDE b. SÂMİT; TDV LAZKİYE ('Şehrin ilk camisini de Ubâde yaptırdı'); t: künye geçişi (hulefa-yi-rasidin t)"
-   },
-   {
-    "f": "0661-07-29",
-    "t": "0750-08-05",
-    "d": "emevi",
-    "kesinlik": {
-     "f": "yil",
-     "t": "gun"
-    },
-    "kaynak": "TDV LAZKİYE (Ömer b. Abdülazîz ve II. Yezîd dönemi imarı; Belâzürî s. 189-190); künye geçişleri",
-    "ic_not": "720 civarı Bizans'ın denizden baskını ve tahribi: KISA ELE GEÇİRME/baskın, dönem açılmadı, olay yazıldı. · f 0661-01-01 → 0661-07-29: künye geçişi günü 14 Ekim 2026'da TDV hulefa-yi-rasidin '25 Rebîülevvel 41/29 Temmuz 661' ile düzeldi (Hz. Hasan'ın feragati)."
-   },
-   {
-    "f": "0750-08-05",
-    "t": "0878-01-01",
-    "d": "abbasi",
-    "kesinlik": {
-     "f": "gun",
-     "t": "yil"
-    },
-    "kaynak": "TDV LAZKİYE ('Abbâsîler’in ilk asırlarında Lazkiye’nin dikkate değer bir konuma sahip olmadığı'); künye geçişi (emevi t)"
-   },
-   {
-    "f": "0878-01-01",
-    "t": "0905-01-01",
-    "d": "tolunogullari",
-    "kesinlik": {
-     "f": "yil",
-     "t": "ay"
-    },
-    "kaynak": "TDV TOLUNOĞULLARI (N. Özkuyumcu): 'Suriye seferi sonunda Fırat’ın batısındaki bütün vilâyetlere hâkim oldu'; t: 'Rebîülevvel 292 / Ocak 905' Fustat'ın teslimi",
-    "ic_not": "Bölge sahibi + beyan: TDV TOLUNOĞULLARI Lazkiye adını anmaz; f '877'den sonra' başlayan Suriye seferi — yıl 878 (Halep partisinde TDV HALEP 264/878 ile; Beyrut partisiyle aynı). t Mısır'ın Abbâsî'ye dönüşü; Suriye kıyısının dönüş günü kaynakta yok."
-   },
-   {
-    "f": "0905-01-01",
-    "t": "0970-01-01",
-    "d": "__BOSLUK__",
-    "kesinlik": {
-     "f": "ay",
-     "t": "yil"
-    },
-    "kaynak": "TDV LAZKİYE: 'X. yüzyılda bir süre Hamdânîler’in hâkimiyeti altında kalan şehir 970’te Bizans yönetimine girdi'",
-    "ic_not": "Abbâsî dönüşü, İhşîdîler ve 'bir süre' Hamdânîler — sırası ve yılları Lazkiye için tarihlenemedi ⇒ beyanlı boşluk."
-   },
-   {
-    "f": "0970-01-01",
-    "t": "1050-01-01",
-    "d": "bizans",
-    "kesinlik": {
-     "f": "yil",
-     "t": "onyil"
-    },
-    "kaynak": "TDV LAZKİYE: '970’te Bizans yönetimine girdi'; t: 'XI. yüzyılın ortalarında Lazkiye tekrar müslümanların eline geçti'",
-    "ic_not": "t 'XI. yüzyılın ortaları' — onyıl kesinliğinde yaklaşıklık, beyanlı (1050)."
-   },
-   {
-    "f": "1050-01-01",
-    "t": "1086-01-01",
-    "d": "__BOSLUK__",
-    "kesinlik": {
-     "f": "onyil",
-     "t": "yil"
-    },
-    "kaynak": "TDV LAZKİYE: 'tekrar müslümanların eline geçti. 1086’da Selçuklu Sultanı Melikşah şehir ve çevresine hâkim oldu'",
-    "ic_not": "TDV şehri alan müslüman yapıyı adlandırmaz — tahmin yazılmadı, beyanlı boşluk."
-   },
-   {
-    "f": "1086-01-01",
-    "t": "1098-01-01",
-    "d": "buyuk-selcuklu",
-    "kesinlik": "yil",
-    "kaynak": "TDV LAZKİYE: '1086’da Selçuklu Sultanı Melikşah şehir ve çevresine hâkim oldu'; t: 'I. Haçlı Seferi sırasında 1098’de Haçlılar’ın eline geçti'",
-    "ic_not": "Doğrudan yönetici (Melikşah'ın emîri mi, Suriye Selçuklu Tutuş mu) kaynakta ayrılmıyor; metbû Büyük Selçuklu yazıldı (beyan)."
-   },
-   {
-    "f": "1098-01-01",
-    "t": "1108-01-01",
-    "d": "__BOSLUK__",
-    "kesinlik": "yil",
-    "kaynak": "TDV LAZKİYE: 'Bu tarihten itibaren Bizans ile Haçlılar arasında sık sık el değiştiren Lazkiye, 1108’de Tankred tarafından Antakya Prinkepsliği yönetimine dahil edildi'",
-    "ic_not": "1098-1108 Haçlı/Bizans el değiştirmelerinin sırası ve günleri kaynakta yok ⇒ beyanlı boşluk."
-   },
-   {
-    "f": "1108-01-01",
-    "t": "1188-03-02",
-    "d": "antakya-prinkipsligi",
-    "kesinlik": {
-     "f": "yil",
-     "t": "gun"
-    },
-    "kaynak": "TDV LAZKİYE: '1108’de Tankred tarafından Antakya Prinkepsliği yönetimine dahil edildi'; t: '584’te (1188) Selâhaddîn-i Eyyûbî’nin hâkimiyetine girdi' — hicrî 584 ∩ 1188 ilk gün, çeviri: tablo takvimi, Jülyen",
-    "ic_not": "t hicrî kuralla 1188-03-02 (gerçek teslim günü daha geç olabilir; kaynak yalnız yıl verir). 530 (1136) Emîr Savar akını şehri el değiştirmedi (olay)."
-   },
-   {
-    "f": "1188-03-02",
-    "t": "1193-03-04",
-    "d": "eyyubi",
-    "kesinlik": "gun",
-    "kaynak": "TDV LAZKİYE (Selâhaddin hıristiyanların cizye ile kalmasına izin verdi); t: TDV SELÂHADDÎN-i EYYÛBÎ: '27 Safer 589’da (4 Mart 1193) Dımaşk’ta vefat etti'",
-    "ic_not": "t beyanlı sınırdır: Lazkiye'nin Halep Eyyûbî koluna geçiş günü kaynakta yok; Selâhaddin'in ölümüyle ülke oğulları arasında paylaşıldı."
-   },
-   {
-    "f": "1193-03-04",
-    "t": "1260-01-01",
-    "d": "eyyubi-halep",
-    "kesinlik": {
-     "f": "gun",
-     "t": "yil"
-    },
-    "kaynak": "TDV LAZKİYE: 'Haçlılar’ın aralıklarla şehri zaptetme teşebbüslerine rağmen 1260’a kadar Eyyûbîler’in Halep kolu yönetiminde kalan Lazkiye'"
-   },
-   {
-    "f": "1260-01-01",
-    "t": "1287-02-16",
-    "d": "antakya-prinkipsligi",
-    "kesinlik": {
-     "f": "yil",
-     "t": "gun"
-    },
-    "kaynak": "TDV LAZKİYE: 'bu tarihte Moğollar’ın Eyyûbîler’in Halep koluna son vermesiyle Antakya Haçlıları’nın eline geçti'; t: TDV KALAVUN: 'Antakya Prinkepsliği’nden kalan son şehir Lazkiye’yi aldı' (686/1287) — hicrî 686 ∩ 1287 ilk gün, çeviri: tablo takvimi, Jülyen",
-    "ic_not": "KÜNYE ÖMRÜ DÜZELTİLMELİ: antakya-prinkipsligi t 1268-05-18 (Antakya'nın düşüşü); TDV KALAVUN'a göre prinkepslik Lazkiye'de 686/1287'ye kadar sürdü (Antakya prinsi aynı zamanda Trablus kontu). Baybars 673'te (1274-75) şehri yıllık 20.000 dinar vergiye bağladı (olay)."
-   },
-   {
-    "f": "1287-02-16",
-    "t": "1516-08-24",
-    "d": "memluk",
-    "kesinlik": "gun",
-    "kaynak": "TDV KALAVUN; TDV LAZKİYE ('Memlükler döneminde önce Trablusşam’a, ardından Hama’ya bağlı'); t: TDV RAMAZANOĞULLARI 'Mercidâbık zaferini (25 Receb 922 / 24 Ağustos 1516)'",
-    "ic_not": "t alt sınırdır: TDV LAZKİYE yalnız '1516’da' der; Osmanlı'nın Suriye'ye girişi Mercidâbık'tan sonradır."
-   },
-   {
-    "f": "1516-08-24",
-    "t": "1833-05-06",
-    "d": "osmanli",
-    "kesinlik": {
-     "f": "yil",
-     "t": "belirsiz"
-    },
-    "kaynak": "TDV LAZKİYE ('1516’da Yavuz Sultan Selim’in ... Memlük hâkimiyetine son vermesiyle Lazkiye Osmanlı yönetimine girdi'; Trablusşam eyaletine bağlı sancak); t: TDV İBRÂHİM PAŞA, Kavalalı: Mehmed Ali Paşa'ya bırakılan yerler fermanla bildirildi '(6 Mayıs 1833)'",
-    "ic_not": "t en geç tanıktan: İbrâhim Paşa'nın Suriye seferi 2 Kasım 1831'de başladı (TDV İBRÂHİM PAŞA); Lazkiye'nin Mısır kuvvetlerine geçiş günü kaynakta yok — Osmanlı dönemi 6 Mayıs 1833 fermanına uzatıldı (beyan, < 1 kuşak). 1730 Azmzâdeler'e karşı ayaklanma Osmanlı içi (olay)."
-   },
-   {
-    "f": "1833-05-06",
-    "t": "1840-01-01",
-    "d": "misir-suriye-idaresi",
-    "kesinlik": {
-     "f": "belirsiz",
-     "t": "yil"
-    },
-    "kaynak": "TDV LAZKİYE: '1831-1840 Mısır idaresi devrinde meydana gelen silâhsızlandırma, mecburi askerlik ve yüksek vergi uygulamaları Lazkiye’de ayaklanmalara yol açtı'; TDV İBRÂHİM PAŞA",
-    "ic_not": "t TDV yılıdır (1840); Mısır kuvvetlerinin Lazkiye'den çekilme günü kaynakta yok (künye t 1840-11-27 dayanak alınmadı)."
-   },
-   {
-    "f": "1840-01-01",
-    "t": "1900-01-01",
-    "d": "osmanli",
-    "kesinlik": {
-     "f": "yil",
-     "t": "gun"
-    },
-    "kaynak": "TDV LAZKİYE (Şam eyaleti, 1864 Suriye vilâyeti Trablus sancağı kazası, 1880 sancak merkezi, 1887 Beyrut vilâyeti sancağı)"
-   }
-  ],
-  "olay": [
-   {
-    "t": "-0280-01-01",
-    "gun": "MÖ 281",
-    "k": "kurulus",
-    "b": "I. Selevkos şehri annesi Laodike adına Laodikeia olarak yeniden kurdu (güvenli uç)",
-    "kaynak": "TDV LAZKİYE (Ş. T. Buzpınar)"
-   },
-   {
-    "t": "-0063-01-01",
-    "gun": "MÖ 64",
-    "k": "ilhak",
-    "b": "Pompeius Laodikeia'yı Roma hâkimiyetine aldı",
-    "kaynak": "TDV LAZKİYE"
-   },
-   {
-    "t": "-0026-01-16",
-    "gun": "16 Ocak MÖ 27",
-    "k": "diger",
-    "b": "künye geçişi: Roma Cumhuriyeti → Roma İmparatorluğu (Augustus)",
-    "kaynak": "devletler.js künye geçişi (roma-cumhuriyeti t)"
-   },
-   {
-    "t": "0395-01-17",
-    "gun": "17 Ocak 395",
-    "k": "diger",
-    "b": "künye geçişi: Roma İmparatorluğu → Doğu Roma (Bizans)",
-    "kaynak": "devletler.js künye geçişi (roma-imp t); TDV LAZKİYE"
-   },
-   {
-    "t": "0638-01-23",
-    "gun": "17 (638)",
-    "k": "fetih",
-    "b": "Humus valisi Ubâde b. Sâmit Lazkiye ve Cebele'yi fethetti; kaçan hıristiyanlar haraçla döndü",
-    "kaynak": "TDV UBÂDE b. SÂMİT; TDV LAZKİYE; hicrî 17 ∩ 638 ilk gün, çeviri: tablo takvimi, Jülyen"
-   },
-   {
-    "t": "0661-07-29",
-    "gun": "661",
-    "k": "diger",
-    "b": "künye geçişi: Hulefâ-yi Râşidîn → Emevî Hilâfeti",
-    "kaynak": "devletler.js künye geçişi (hulefa-yi-rasidin t) · gün 0661-07-29: künye geçişi günü 14 Ekim 2026'da TDV hulefa-yi-rasidin '25 Rebîülevvel 41/29 Temmuz 661' ile düzeldi (Hz. Hasan'ın feragati)"
-   },
-   {
-    "t": "0720-01-01",
-    "gun": "720 (yaklaşık)",
-    "k": "kusatma",
-    "b": "Bizanslılar denizden saldırıp şehri tahrip etti, halkı esir aldı (kısa baskın)",
-    "kaynak": "TDV LAZKİYE (Belâzürî s. 189-190)"
-   },
-   {
-    "t": "0750-08-05",
-    "gun": "5 Ağustos 750",
-    "k": "diger",
-    "b": "künye geçişi: Emevî → Abbâsî Hilâfeti (II. Mervân'ın ölümü)",
-    "kaynak": "devletler.js künye geçişi (emevi t)"
-   },
-   {
-    "t": "0878-01-01",
-    "gun": "878",
-    "k": "fetih",
-    "b": "Ahmed b. Tolun'un Suriye seferi: Fırat'ın batısındaki bütün vilâyetler Tolunoğulları'na geçti",
-    "kaynak": "TDV TOLUNOĞULLARI (N. Özkuyumcu)"
-   },
-   {
-    "t": "0905-01-01",
-    "gun": "Ocak 905",
-    "k": "kayip",
-    "b": "Tolunoğulları'nın sonu: Abbâsî ordusu Fustat'a girdi",
-    "kaynak": "TDV TOLUNOĞULLARI (Rebîülevvel 292 / Ocak 905)"
-   },
-   {
-    "t": "0970-01-01",
-    "gun": "970",
-    "k": "fetih",
-    "b": "Lazkiye Bizans yönetimine girdi",
-    "kaynak": "TDV LAZKİYE"
-   },
-   {
-    "t": "1050-01-01",
-    "gun": "1050 civarı (11. asrın ortası)",
-    "k": "fetih",
-    "b": "Bizans'taki iç karışıklıklar sırasında Lazkiye tekrar müslümanların eline geçti",
-    "kaynak": "TDV LAZKİYE"
-   },
-   {
-    "t": "1086-01-01",
-    "gun": "1086",
-    "k": "fetih",
-    "b": "Sultan Melikşah Lazkiye ve çevresine hâkim oldu",
-    "kaynak": "TDV LAZKİYE"
-   },
-   {
-    "t": "1098-01-01",
-    "gun": "1098",
-    "k": "kayip",
-    "b": "I. Haçlı Seferi sırasında Lazkiye Haçlıların eline geçti",
-    "kaynak": "TDV LAZKİYE"
-   },
-   {
-    "t": "1108-01-01",
-    "gun": "1108",
-    "k": "fetih",
-    "b": "Tankred Lazkiye'yi Antakya Prinkepsliği yönetimine kattı",
-    "kaynak": "TDV LAZKİYE"
-   },
-   {
-    "t": "1136-01-01",
-    "gun": "530 (1136)",
-    "k": "sefer",
-    "b": "Zengî adına Halep'i yöneten Emîr Savar Lazkiye'ye akınlar düzenleyip çok sayıda esir aldı",
-    "kaynak": "TDV LAZKİYE; hicrî 530 ∩ 1136 ilk gün, çeviri: tablo takvimi, Jülyen"
-   },
-   {
-    "t": "1188-03-02",
-    "gun": "584 (1188)",
-    "k": "fetih",
-    "b": "Selâhaddîn-i Eyyûbî Lazkiye'yi aldı; Haçlıları Sicilya gemileriyle gönderdi",
-    "kaynak": "TDV LAZKİYE; hicrî 584 ∩ 1188 ilk gün, çeviri: tablo takvimi, Jülyen"
-   },
-   {
-    "t": "1193-03-04",
-    "gun": "4 Mart 1193",
-    "k": "diger",
-    "b": "Selâhaddin'in ölümü; Eyyûbî ülkesi oğulları arasında paylaşıldı",
-    "kaynak": "TDV SELÂHADDÎN-i EYYÛBÎ (27 Safer 589)"
-   },
-   {
-    "t": "1260-01-01",
-    "gun": "1260",
-    "k": "kayip",
-    "b": "Moğollar Halep Eyyûbî koluna son verdi; Lazkiye Antakya Haçlılarına geçti",
-    "kaynak": "TDV LAZKİYE"
-   },
-   {
-    "t": "1274-07-07",
-    "gun": "673 (1274-75)",
-    "k": "vassal",
-    "b": "Baybars Lazkiye'yi yıllık 20.000 dinar vergiye bağladı",
-    "kaynak": "TDV LAZKİYE; hicrî 673 ∩ 1274 ilk gün, çeviri: tablo takvimi, Jülyen"
-   },
-   {
-    "t": "1287-02-16",
-    "gun": "686 (1287)",
-    "k": "fetih",
-    "b": "Kalavun Antakya Prinkepsliği'nden kalan son şehir Lazkiye'yi aldı",
-    "kaynak": "TDV KALAVUN; TDV LAZKİYE; hicrî 686 ∩ 1287 ilk gün, çeviri: tablo takvimi, Jülyen"
-   },
-   {
-    "t": "1516-08-24",
-    "gun": "24 Ağustos 1516",
-    "k": "savas",
-    "b": "Mercidâbık zaferi; ardından Lazkiye Osmanlı yönetimine girdi (teslim günü kaynakta yok)",
-    "kaynak": "TDV RAMAZANOĞULLARI; TDV LAZKİYE ('1516’da')"
-   },
-   {
-    "t": "1730-01-01",
-    "gun": "1730",
-    "k": "isyan",
-    "b": "Azmzâdeler'e karşı güçlü ayaklanma; Azmzâdeler kısa süre görevden alındı",
-    "kaynak": "TDV LAZKİYE"
-   },
-   {
-    "t": "1831-11-02",
-    "gun": "2 Kasım 1831",
-    "k": "sefer",
-    "b": "İbrâhim Paşa kumandasındaki Mısır ordusunun Suriye seferi başladı",
-    "kaynak": "TDV İBRÂHİM PAŞA, Kavalalı"
-   },
-   {
-    "t": "1833-05-06",
-    "gun": "6 Mayıs 1833",
-    "k": "antlasma",
-    "b": "Mehmed Ali Paşa'ya bırakılan yerler (Suriye dahil) fermanla bildirildi ('Kütahya Antlaşması')",
-    "kaynak": "TDV İBRÂHİM PAŞA, Kavalalı"
-   },
-   {
-    "t": "1840-01-01",
-    "gun": "1840",
-    "k": "kayip",
-    "b": "Mısır idaresi sona erdi; Lazkiye Şam eyaletine bağlandı",
-    "kaynak": "TDV LAZKİYE"
-   },
-   {
-    "t": "1880-01-01",
-    "gun": "1880",
-    "k": "idari",
-    "b": "Lazkiye üç kazalı bir sancağın merkezi oldu",
-    "kaynak": "TDV LAZKİYE"
-   }
-  ],
-  "ic_not": "Atlasta nokta yok (en yakın Antakya 81,7 km) ⇒ zincir 1900-01-01'e gider. Koordinat doğru (GeoNames 173576). İlk anılış: Fenike dönemi adı Ramitha (TDV) tarihsiz — başlangıç sayılmadı; Selevkos'un yeniden kuruluşu 'yeniden' olduğu için kur YAZILMADI (ilk_anilis, güvenli uç MÖ 281). Pleiades Laodicea ad Mare ölçülmedi. Hicrî kural nedeniyle 1188 ve 1287 günleri yıl içi ilk gündür (gerçek teslimler daha geç). Borçlu dilimler: 905-970 ve 1050-1086 (sahip bilinmiyor), 1098-1108 (Haçlı/Bizans çekişmesi)."
  },
  {
   "id": "limassol",
@@ -22728,7 +18602,11 @@ window.SEHIR_TARIHCE_OSM = [
   "adlar": [
    "Hayr / Hoca Hayran (köy)",
    "Mezâr",
-   "Mezâr-ı Şerîf"
+   "Mezâr-ı Şerîf",
+   "Mazār-e Sharīf",
+   "Мазар-и-шериф",
+   "Mazar-e Sharif",
+   "Mezârışerif"
   ],
   "ilk": {
    "t": "1136-01-01",
@@ -22974,6 +18852,15 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV MEZÂRIŞERİF (R. Kurtuluş)"
    },
    {
+    "t": "1852-01-01",
+    "gun": "1852",
+    "k": "fetih",
+    "b": "Mezârışerif Afgan hâkimiyetine girdi",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, «Mazār-e Sharīf» (Britannica editörleri), https://www.britannica.com/place/Mazar-e-Sharif (tarayıcı sayfa okuma, 17 Kasım 2026) + TDV İslâm Ansiklopedisi, «Mezârışerif», https://islamansiklopedisi.org.tr/mezariserif (tarayıcı sayfa okuma, 17 Kasım 2026)",
+    "tanik": "Mazār-e Sharīf came under Afghan rule in 1852"
+   },
+   {
     "t": "1869-01-01",
     "gun": "1869",
     "k": "diger",
@@ -22981,7 +18868,23 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV MEZÂRIŞERİF (R. Kurtuluş)"
    }
   ],
-  "ic_not": "Şehir Hoca Hayran köyündeki Hz. Ali türbesi çevresinde doğdu: ilk iddia 530/1136 (Sencer), ikincisi 885/1480 ve türbe 886/1481 (TDV MEZÂRIŞERİF). Hicrî 530 = 11 Ekim 1135 – 28 Eylül 1136 ∩ 1136 ⇒ 1136-01-01. Köyün 1136 öncesi tanığı bulunamadı. Atlasta Mezâr-ı Şerîf noktası YOK (en yakın Belh 19,8 km) ⇒ zincir 1900-01-01'e kadar; zincirin tamamı TDV BELH'e dayalı BÖLGE SAHİBİ + BEYAN'dır. XIX. yy ikinci yarısında bölge merkezi Belh'ten Mezâr'a kaydı (TDV). Öneri: atlasa nokta (1852 Afganistan) eklenmeli; 1869'dan Afgan Türkistanı merkezi."
+  "ic_not": "Şehir Hoca Hayran köyündeki Hz. Ali türbesi çevresinde doğdu: ilk iddia 530/1136 (Sencer), ikincisi 885/1480 ve türbe 886/1481 (TDV MEZÂRIŞERİF). Hicrî 530 = 11 Ekim 1135 – 28 Eylül 1136 ∩ 1136 ⇒ 1136-01-01. Köyün 1136 öncesi tanığı bulunamadı. Atlasta Mezâr-ı Şerîf noktası YOK (en yakın Belh 19,8 km) ⇒ zincir 1900-01-01'e kadar; zincirin tamamı TDV BELH'e dayalı BÖLGE SAHİBİ + BEYAN'dır. XIX. yy ikinci yarısında bölge merkezi Belh'ten Mezâr'a kaydı (TDV). Öneri: atlasa nokta (1852 Afganistan) eklenmeli; 1869'dan Afgan Türkistanı merkezi. || [MÜKERRER BİRLEŞTİRME 17 Kasım 2026: mezarisserif-p10 (sehir_tarihce_orta_asya.js) kaydından] ÇİFT TEYİT: Britannica (cümle tanığı, 'Mazār-e Sharīf came under Afghan rule in 1852') + TDV Mezârışerif ('1852 yılında Afgan hâkimiyetine giren şehir 1869’da Afgan Türkistanı’nın siyasî merkezi haline getirildi'; TDV cümlesinde özne adı yok, madde konusudur). 1852 şehrin ilk anılışı DEĞİL: TDV iki Hz. Ali türbesi keşfini 530 (1136, Sencer) ve 885 (1480, Hüseyin Baykara) olarak verir; ancak TDV cümlesi şehir adını taşımaz, Britannica 1480 cümlesinde 'settlement' Belh'tir (belirsiz) ⇒ bu erken yıllar tanık olarak alınmadı, ayrı borç. 1869 olayı Britannica'da şehir adlı cümlede 15 kelimeyi aşar; TDV'de adsızdır: yazılmadı. Sahip zinciri 1852→1900 (Afganistan Bârekzâyî Emirliği, 'afganistan'): 1900 yalnız bu dosyanın atlas yokluğu dikişidir (kaynak değil); 1852'den sonra Afgan idaresi TDV'ye göre sürer (1869 siyasî merkez, 1873/1889 Afgan valileri). Atlas noktası yok.",
+  "ad_kaynak": [
+   {
+    "ad": "Mazār-e Sharīf",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Mazār-e Sharīf' https://www.britannica.com/place/Mazar-e-Sharif",
+    "kanit": "lent Mazār-e Sharīf (“tomb of the saint”) its name."
+   },
+   {
+    "ad": "Мазар-и-шериф",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Мазар-и-шериф' https://ru.wikisource.org/wiki/ЭСБЕ/Мазар-и-шериф",
+    "kanit": "Мазар-и-шериф — главный административный центр сев. части Афганистана"
+   }
+  ]
  },
  {
   "id": "mecca",
@@ -23177,8 +19080,8 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV MERVÂN II (H. Kurt); TDV MEKKE (M. S. Küçükaşcı)"
    },
    {
-    "t": "0930-01-01",
-    "gun": "317 (930)",
+    "t": "0930-01-12",
+    "gun": "8 Zilhicce 317 / 12 Ocak 930",
     "k": "kayip",
     "b": "Karmatîler hac mevsiminde Mekke'ye baskın yapıp hacıları katletti, Hacerülesved'i götürdü",
     "kaynak": "TDV MEKKE (M. S. Küçükaşcı)"
@@ -25123,66 +21026,6 @@ window.SEHIR_TARIHCE_OSM = [
    }
   ],
   "ic_not": "İlk anılış pilottan (SONUC-OPUS §20) alındı ve doğrulandı: Pleiades 599801 *Mobolla yalnız Helenistik dönem için 'confident' (MÖ 330–30), güvenli uç MÖ 30; tarihli yazılı tanık bulunamadı. Yeni aday (doğrulanamadı): CHANGE veritabanı başlığında 'Mobolla: -188 To -167 Honorific statue-base dedication for Sosikrates the Rhodian epistates' (Rhodian Peraia 106 = L. Robert, La Carie II no. 2) ve Iason yazıtı (MÖ 188–150, Ünver–Çörtük 2021) — PHI sayfası 403, CHANGE kayıt sayfası başka bir kayıt döndürdü; buluntu yeri ve Mobolla adının metinde geçip geçmediği okunamadı. Doğrulanırsa ilk MÖ 167'ye (-0166) çekilir ve ilk dönem Rodos (Peraia) sahipliği ister. Pleiades Mobolla noktası atlasa 1,96 km. Koordinat sınandı: doğru (sancak Menteşe merkezi); atlas noktası 0,5 km. Atlas 1281 mentese — dikiş düz."
- },
- {
-  "id": "muharraq",
-  "ad": "Muharraq",
-  "atlas_ad": null,
-  "lat": 26.257,
-  "lon": 50.612,
-  "kat1900": 2,
-  "adlar": [
-   "Muharrak",
-   "Muharraq"
-  ],
-  "ilk": {
-   "t": "1810-01-01",
-   "gun": "1810 civarı",
-   "nicelik": "ilk_anilis",
-   "kesinlik": "onyil",
-   "kaynak": "A. al-Sulaiti, 'A view of the defence strategy of Muḥarraq, a tribal town in the Gulf', PSAS 41 (2011) 339-349 (yalnız özet okundu)",
-   "tanik": "decided to move to the town of Muḥarraq"
-  },
-  "kur": null,
-  "ark": null,
-  "bit": null,
-  "sahip": [
-   {
-    "f": "1810-01-01",
-    "t": "1900-01-01",
-    "d": "bahreyn",
-    "kesinlik": {
-     "f": "onyil",
-     "t": "gun"
-    },
-    "kaynak": "TDV BAHREYN (M. L. Bilge) (1783'ten Âl-i Halîfe); A. al-Sulaiti, 'A view of the defence strategy of Muḥarraq, a tribal town in the Gulf', PSAS 41 (2011) 339-349 (yalnız özet okundu)",
-    "ic_not": "Doğrudan sahip Âl-i Halîfe şeyhliği (künye bahreyn). Metbû/himaye: Vehhâbî zekât ilişkisi (1830), Osmanlı iddiaları, 21 Mayıs 1861 İngiliz antlaşması (TDV BAHREYN); İngiliz himayesi kurallaştıran 1880/1892 anlaşmaları TDV bölümünde okunmadı — dönem bölünmedi."
-   }
-  ],
-  "olay": [
-   {
-    "t": "1810-01-01",
-    "gun": "1810 civarı",
-    "k": "diger",
-    "b": "Zübâre yöresindeki savaştan sonra Câv'a geçen Utûb kolu Muharrak'a taşındı ve kasabaya kuzey suru yaptı",
-    "kaynak": "A. al-Sulaiti, 'A view of the defence strategy of Muḥarraq, a tribal town in the Gulf', PSAS 41 (2011) 339-349 (yalnız özet okundu)"
-   },
-   {
-    "t": "1828-01-01",
-    "gun": "1828",
-    "k": "savas",
-    "b": "Uman Sultanı Seyyid Saîd Bahreyn'e savaş açtı, başarısız oldu",
-    "kaynak": "TDV BAHREYN (M. L. Bilge)"
-   },
-   {
-    "t": "1861-05-21",
-    "gun": "21 Mayıs 1861",
-    "k": "antlasma",
-    "b": "Bahreyn adına Şeyh Ali, köle ticareti ve korsanlığı yasaklayan antlaşmayı İngiltere ile imzaladı",
-    "kaynak": "TDV BAHREYN (M. L. Bilge)"
-   }
-  ],
-  "ic_not": "Atlasta nokta yok (en yakın Manama 4,1 km) → zincir 1900-01-01'e. İlk anılış ZAYIF ve 'en geç' tanıktır: al-Sulaiti özetine göre Utûb kolu 1810 civarı Muharrak 'kasabasına' taşındı ve adada zaten iki kale vardı — kasaba daha eskidir. Daha eski tarihli tanık aranıp BULUNAMADI: TDV'de Muharrak maddesi yok (BAHREYN maddesi yalnız adayı anar; BEKİR b. VÂİL'deki 'el-Muharrak' bir puttur); Lorimer Gazetteer ve QDL (Brucks 1825 haritası, Memoir) erişilemedi (403). Âl-i Halîfe'nin Bahreyn'i alışı 1783 (TDV) Muharrak'a özgü tanık değil. Muharrak adası = Strabon'un Arados/Tylos Minor eşitlemesi Pleiades 932432'de soru işaretli — kullanılmadı. Muharrak 1923'e dek hükümdar ailesinin ikametgâhı (Britannica; tek dayanak olamaz)."
  },
  {
   "id": "mukalla",
@@ -28448,7 +24291,8 @@ window.SEHIR_TARIHCE_OSM = [
    "nicelik": "kurulus",
    "kesinlik": "gun",
    "kaynak": "TDV PORT SAİD (H. Görgün): çekirdek 1859'da kanal işçileri için kurulan baraka köyü; gün: EB1911 'Suez Canal' (Wikisource): inşaat 25 Nisan 1859'da başladı",
-   "tanik": "On the 25th of April 1859 the work of construction was formally begun"
+   "tanik": "On the 25th of April 1859 the work of construction was formally begun",
+   "ic_not": "UMIT 17 Kasim 2026: ilk.t 1859-04-25 = atlas baslangici ile ayni gun; zincir kural geregi bos, sorun yok. TDV PORT SAID cekirdegi 1859'da kanal iscileri icin kurulan baraka koyu olarak yazar."
   },
   "kur": {
    "t": "1859-04-25",
@@ -28836,7 +24680,7 @@ window.SEHIR_TARIHCE_OSM = [
    },
    {
     "f": "0750-08-05",
-    "t": "0868-01-01",
+    "t": "0868-09-15",
     "d": "abbasi",
     "kesinlik": {
      "f": "gun",
@@ -28845,7 +24689,7 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV MERVÂN II: Bûsîr'de öldürüldü '26 Zilhicce 132 / 5 Ağustos 750'"
    },
    {
-    "f": "0868-01-01",
+    "f": "0868-09-15",
     "t": "0905-01-11",
     "d": "tolunogullari",
     "kesinlik": {
@@ -28880,13 +24724,13 @@ window.SEHIR_TARIHCE_OSM = [
    },
    {
     "f": "1171-09-13",
-    "t": "1250-05-04",
+    "t": "1250-04-30",
     "d": "eyyubi",
     "kesinlik": "gun",
     "kaynak": "TDV EYYÛBÎLER: Abbâsîler adına hutbe '10 Muharrem 567 / 13 Eylül 1171'"
    },
    {
-    "f": "1250-05-04",
+    "f": "1250-04-30",
     "t": "1281-01-01",
     "d": "memluk",
     "kesinlik": "gun",
@@ -28923,8 +24767,8 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV MISIR, 4. bölüm (C. Tomar): 'Bu sırada İslâm ordusunun diğer kısmı Feyyûm’u ve buradan hareketle Asvan’a kadar Yukarı Mısır’ı (Saîd) ele geçirdi'; TDV ASYÛT (M. L. Bilge): 'Amr b. Âs’ın Mısır’ı fethi sırasında müslümanların idaresine geçen'"
    },
    {
-    "t": "0868-01-01",
-    "gun": "254 (868)",
+    "t": "0868-09-15",
+    "gun": "15 Eylül 868",
     "k": "kurulus",
     "b": "Ahmed b. Tolun Mısır'a vali vekili olarak girdi; Tolunoğulları dönemi başladı",
     "kaynak": "TDV TOLUNOĞULLARI: Ahmed b. Tolun Mısır'a girdi (254/868); Şeybân teslim oldu (Rebîülevvel 292 / Ocak 905)"
@@ -28986,8 +24830,8 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV EYYÛBÎLER: Abbâsîler adına hutbe '10 Muharrem 567 / 13 Eylül 1171'"
    },
    {
-    "t": "1250-05-04",
-    "gun": "30 Muharrem 648 / 4 Mayıs 1250",
+    "t": "1250-04-30",
+    "gun": "30 Nisan 1250",
     "k": "darbe",
     "b": "Turan Şah öldürüldü, Şecerüddür sultan; Mısır'da Memlûk dönemi başladı",
     "kaynak": "TDV ŞECERÜDDÜR: Turan Şah öldürüldü, Şecerüddür sultan '30 Muharrem 648 / 4 Mayıs 1250'"
@@ -29026,7 +24870,8 @@ window.SEHIR_TARIHCE_OSM = [
    "nicelik": "kurulus",
    "kesinlik": "yil",
    "kaynak": "ARCE (American Research Center in Egypt), Quseir Fort projesi; Ch. Le Quesne, Quseir: An Ottoman and Napoleonic Fortress on the Red Sea Coast of Egypt (ARCE/AUC 2007) — kitap okunmadı",
-   "tanik": "the Ottomans founded a new harbor and fort in 1571"
+   "tanik": "the Ottomans founded a new harbor and fort in 1571",
+   "ic_not": "UMIT 17 Kasim 2026: ARCE/Le Quesne 'Ottomans founded a new harbor and fort in 1571' = Osmanli YENI liman ve kale (Kuseyr el-Cedid); Kuseyr el-Kadim (ortacag Mem. limani) yaklasik 8 km kuzeyde ayri yerlesimdir (KASA A'da olculuyor). 1571 kurulus tarihi yeni yerlesime aittir; atlas baslangicinin (1281) duzeltilmesi KASA'da; tarihcede yazilabilecek kaynakli zincir yok."
   },
   "kur": {
    "t": "1571-01-01",
@@ -29595,8 +25440,8 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "Diodoros 18.8.1 (metin okunmadı); iskender-imparatorlugu künyesi"
    },
    {
-    "t": "-0304-01-01",
-    "gun": "MÖ 305",
+    "t": "-0303-01-01",
+    "gun": "303 (MÖ 304)",
     "k": "kusatma",
     "b": "Demetrios Poliorketes'in kuşatması püskürtüldü; zafer anısına Rodos Heykeli dikildi",
     "kaynak": "TDV RODOS"
@@ -32206,135 +28051,6 @@ window.SEHIR_TARIHCE_OSM = [
   "ic_not": "Atlasta nokta yok (en yakın Lofça 33,6 km); zincir 1900-01-01'e gider. TDV: kasaba '1516 yılından kısa bir süre önce' kuruldu — kuruluş günü yok, kur yazılmadı; 1516 defteri onu 'hâriç ez-defter, yeni kurulan' yer diye kaydeder (884/1479 icmalinde yok). Hutaliç kalesi (9 km GD, XIII. yy Bulgar yazıtında) ayrı yerdir. Takvim: Berlin günü atlas künyesindeki (Gregoryen) gibi yazıldı."
  },
  {
-  "id": "sharjah",
-  "ad": "Sharjah",
-  "atlas_ad": "Şârika",
-  "lat": 25.334,
-  "lon": 55.412,
-  "kat1900": 2,
-  "adlar": [
-   "Shargah (İngiliz kayıtları)",
-   "Şârika",
-   "Şerce",
-   "Sharjah"
-  ],
-  "ilk": {
-   "t": "1820-02-04",
-   "gun": "4 Şubat 1820",
-   "nicelik": "ilk_anilis",
-   "kesinlik": "gun",
-   "kaynak": "IOR 'Revision of Aitchison's Treaties, Persian Gulf Section' (File 3939/1926 Pt 6, QDL; yalnız arama özeti okunabildi, sayfa 403): Genel Barış Antlaşması'nı Sultan b. Sakr 'Chief of Shargah' Shargah'da imzaladı, Cuma, Rebîülâhir 1235",
-   "tanik": "Chief of Shargah ... the fourth of February 1820"
-  },
-  "kur": null,
-  "ark": null,
-  "bit": null,
-  "sahip": [],
-  "olay": [
-   {
-    "t": "1820-02-04",
-    "gun": "4 Şubat 1820",
-    "k": "antlasma",
-    "b": "Şârika şeyhi Sultan b. Sakr İngiltere ile Genel Barış Antlaşması'nı imzaladı",
-    "kaynak": "IOR/QDL 'Revision of Aitchison's Treaties' (arama özeti); takvim Gregoryen, 4 Şubat 1820 Cuma — kaynağın haftagünüyle tutarlı"
-   }
-  ],
-  "ic_not": "Zincir boş: ilk tanık (1820) atlas başlangıcından (1281-01-01, nebhani) sonra. Atlas düzeltmesi önerisi: atlasın 1281 'nebhani' iddiası için kaynak bulunamadı; TDV ŞÂRİKA (M. L. Bilge) şehri ancak XVIII. yy ortasında Kavâsim reisi Rahmet el-Matarî döneminde anar (tarihsiz) — başlangıç en erken XVIII. yy, tanıklı ilk gün 1820-02-04. Doğrulanmamış daha erken adaylar (borç): c. 1727 Kavâsim yerleşimi (yalnız Vikipedi), 1756 VOK raporu (Kniphausen; UNESCO geçici liste dosyası, kaynak adı yok), Niebuhr haritası (Buckingham aktarımı); Lorimer Gazetteer QDL sayfaları 403 verdi. 6 Ocak 1820 ön antlaşması Ras el-Hayme'de imzalandı — Şârika'yı yer olarak anıp anmadığı görülmedi. Doğrudan sahip Kavâsim (el-Kāsımî) şeyhliği; künye yok — aktarımda 'trucial-states' (1820 sonrası) ya da ayrı 'kasimi' künyesi. Atlas noktası parti noktasına 3,3 km (sınırda)."
- },
- {
-  "id": "sheikh-saad",
-  "ad": "Sheikh Saad",
-  "atlas_ad": null,
-  "lat": null,
-  "lon": null,
-  "kat1900": 3,
-  "koordinat_bekliyor": "Şeyh Saad, Havran sancağı 1896 merkezi (Cuinet); GeoNames cities1000'de yok. Konum tarifi: Burckhardt (1812) 'Sheikh Saad, near Tel Sheikh Saad' — Cevlan köyleri arasında, Nevâ (GeoNames 166365) ve Tell Aşara yakınında. DİKKAT: Cuinet (Syrie, Liban et Palestine, 1896) 'Mzèrîb (Cheikh-Sa'ad), chef-lieu du sandjaq du Haourân' der — Müzeyrib (GeoNames 166503) ayrı yerdir (~13 km); 1900 merkezinin hangisi olduğu ayrıca doğrulanmalı.",
-  "adlar": [
-   "Sheikh Saad (Burckhardt)",
-   "Şeyh Sa'd",
-   "Cheikh-Sa'ad (Cuinet)"
-  ],
-  "ilk": {
-   "t": "1812-05-01",
-   "gun": "Mayıs 1812",
-   "nicelik": "ilk_anilis",
-   "kesinlik": "ay",
-   "kaynak": "J. L. Burckhardt, Travels in Syria and the Holy Land (1822), Cevlan köyleri listesi, Mayıs 1812 günlüğü (Gutenberg 8884)",
-   "tanik": "Sheikh Saad [Arabic], near Tel Sheikh Saad, Ayoub [Arabic]"
-  },
-  "kur": null,
-  "ark": null,
-  "bit": null,
-  "sahip": [
-   {
-    "f": "1812-05-01",
-    "t": "1833-01-01",
-    "d": "osmanli",
-    "kesinlik": {
-     "f": "ay",
-     "t": "yil"
-    },
-    "kaynak": "Burckhardt (1812): 'The Aga of Haouran is generally at the same time governor of Djolan' (Şam paşalığı); TDV HAVRAN (Ş. T. Buzpınar): 'Kısa süren Mısır hâkimiyeti (1833-1840)'"
-   },
-   {
-    "f": "1833-01-01",
-    "t": "1840-01-01",
-    "d": "misir-suriye-idaresi",
-    "kesinlik": "yil",
-    "kaynak": "TDV HAVRAN (Ş. T. Buzpınar): 'Kısa süren Mısır hâkimiyeti (1833-1840)'",
-    "ic_not": "TDV yalnız yıl verir; künye 1832-05-27 – 1840-11-27 (Akkâ/Şam düşüşü ve tahliye günleri) — Havran'a özgü gün yok, TDV yılları alındı. Metbu Osmanlı (nominal)."
-   },
-   {
-    "f": "1840-01-01",
-    "t": "1900-01-01",
-    "d": "osmanli",
-    "kesinlik": {
-     "f": "yil",
-     "t": "gun"
-    },
-    "kaynak": "TDV HAVRAN (1840 Mısır hâkimiyetinin sonu; 1864 Havran sancağı); Cuinet, Syrie, Liban et Palestine (1896): 'chef-lieu du sandjaq du Haourân'"
-   }
-  ],
-  "olay": [
-   {
-    "t": "1812-05-01",
-    "gun": "Mayıs 1812",
-    "k": "diger",
-    "b": "Burckhardt Şeyh Saad'ı Cevlan'ın başlıca köyleri arasında saydı",
-    "kaynak": "Burckhardt, Travels in Syria (1822)"
-   },
-   {
-    "t": "1833-01-01",
-    "gun": "1833",
-    "k": "ilhak",
-    "b": "Havran Kavalalı Mısır hâkimiyetine girdi",
-    "kaynak": "TDV HAVRAN (Ş. T. Buzpınar)"
-   },
-   {
-    "t": "1837-01-01",
-    "gun": "1837",
-    "k": "isyan",
-    "b": "İbrâhim Paşa'nın askere alma girişimine karşı Havran Dürzîleri ayaklandı",
-    "kaynak": "TDV HAVRAN"
-   },
-   {
-    "t": "1840-01-01",
-    "gun": "1840",
-    "k": "kayip",
-    "b": "Mısır hâkimiyeti sona erdi; Havran yeniden Osmanlı idaresinde",
-    "kaynak": "TDV HAVRAN"
-   },
-   {
-    "t": "1864-01-01",
-    "gun": "1864",
-    "k": "diger",
-    "b": "Suriye vilâyeti kuruldu; Havran sancağı (merkez Süveydâ) teşkil edildi",
-    "kaynak": "TDV HAVRAN"
-   }
-  ],
-  "ic_not": "Yeri kesin olmayan eşitlemeler başlangıç sayılmadı (Adana kuralı): Karnaim/Karnaia ('Ashteroth Karnaim') — Pleiades 678227 'Karnaia/Astaroth?' noktayı Tell Aşara'ya koyar (soru işaretli); Egeria'nın (IV. yy) 'Carneas, Eyüp şehri' ve Arap coğrafyacılarının Deyr Eyyûb'u Şeyh Saad'a bitişik sayılır ama koordinat olmadan ≤3 km ölçülemedi — ayrı kayıt/ölçüm borcu. 1896'da sancak merkezi olduğu Cuinet'den (TDV HAVRAN 1864 merkezini Süveydâ verir; Şeyh Saad'a geçiş yılı bulunamadı). Atlasta nokta yok → zincir 1900-01-01."
- },
- {
   "id": "shibin-el-kom",
   "ad": "Shibin el-Kom",
   "atlas_ad": "Şibînülkûm (Menûfiye)",
@@ -32351,7 +28067,8 @@ window.SEHIR_TARIHCE_OSM = [
    "nicelik": "ilk_anilis",
    "kesinlik": "yil",
    "kaynak": "M. Ramzî, el-Kāmûsü'l-coğrafî li'l-bilâdi'l-Mısriyye, I. kısım (Arapça Vikikaynak metni), komşu köy maddeleri: 1897 nüfus sayımı coğrafya sözlüğünde 'Şibînülkûm merkezi' nahiyeleri",
-   "tanik": "القاموس الجغرافي لإحصاء سنة ۱۸۹۷ ضمن نواحي مركز شبين الكوم"
+   "tanik": "القاموس الجغرافي لإحصاء سنة ۱۸۹۷ ضمن نواحي مركز شبين الكوم",
+   "ic_not": "UMIT 17 Kasim 2026: 1897 = Ramzi'nin kamusunda 1897 sayim yilina atif; yerlesimin ilk anilisi DEGIL, yalniz en erken tarihli bu oturumda okunan tanik. 1281 oncesi tarihli tanik aranmadi (Ramzi II/2 yalniz PDF; indirme yasagi): BORC. Atlas baslangicinin yeniden olculmesi KASA'da."
   },
   "kur": null,
   "ark": null,
@@ -34521,81 +30238,6 @@ window.SEHIR_TARIHCE_OSM = [
   "ic_not": "TDV'de Sevâkin maddesi yok (arandı; 30 madde içi anılış, hepsi Osmanlı/XIX. yy). İlk anılış için ikincil kaynaklar Hemdânî'yi (X. yy başı) de anar — doğrulanmadı. Ptolemaios'un 'Evangelon Portus'u ile eşitleme yeri kesin olmayan öneri, kullanılmadı. Mes'ûdî'nin Mürûcü'z-zeheb metni açılmadı: güvenli uç ölüm yılı 956 (Westley yalnız 'tenth-century' der). Osmanlı: Sevâkin 1517'de geçici teslim (MarEA); TDV HABEŞ EYALETİ ilk sancak beyi 10 Nisan 1554."
  },
  {
-  "id": "sulaymaniyah",
-  "ad": "Sulaymaniyah",
-  "atlas_ad": "Şehrizor",
-  "lat": 35.565,
-  "lon": 45.433,
-  "kat1900": 3,
-  "adlar": [
-   "Mâlikkendi (köy)",
-   "Süleymaniye"
-  ],
-  "ilk": {
-   "t": "1784-01-01",
-   "gun": "1784",
-   "nicelik": "kurulus",
-   "kesinlik": "yil",
-   "kaynak": "TDV SÜLEYMANİYE (Irak) (A. Gündüz)",
-   "tanik": "buraya Süleymaniye adını vererek sancağın merkezi yaptı (1784)"
-  },
-  "kur": {
-   "t": "1784-01-01",
-   "gun": "1784",
-   "kesinlik": "yil",
-   "kaynak": "TDV SÜLEYMANİYE (Irak) (A. Gündüz)",
-   "tanik": "Mâlikkendi köyünün yerinde yeni bir kasaba kurdu"
-  },
-  "ark": null,
-  "bit": null,
-  "sahip": [],
-  "olay": [
-   {
-    "t": "1784-01-01",
-    "gun": "1784",
-    "k": "kurulus",
-    "b": "Baban İbrâhim Bey (Paşa) Mâlikkendi köyü yerinde Süleymaniye'yi kurdu, Baban sancağının merkezi yaptı",
-    "kaynak": "TDV SÜLEYMANİYE (Irak)"
-   },
-   {
-    "t": "1821-01-01",
-    "gun": "1821",
-    "k": "fetih",
-    "b": "İranlılar Süleymaniye'yi işgal etti",
-    "kaynak": "TDV SÜLEYMANİYE (Irak)"
-   },
-   {
-    "t": "1842-01-01",
-    "gun": "1842",
-    "k": "fetih",
-    "b": "İranlılar Süleymaniye'yi yeniden işgal etti",
-    "kaynak": "TDV SÜLEYMANİYE (Irak)"
-   },
-   {
-    "t": "1847-01-01",
-    "gun": "1847",
-    "k": "fetih",
-    "b": "Şehir tekrar Osmanlıların eline geçti",
-    "kaynak": "TDV SÜLEYMANİYE (Irak)"
-   },
-   {
-    "t": "1850-01-01",
-    "gun": "1850",
-    "k": "ilhak",
-    "b": "Baban Emirliği'ne son verildi; Süleymaniye sancak merkezi olarak Bağdat'a bağlandı",
-    "kaynak": "TDV SÜLEYMANİYE (Irak)"
-   },
-   {
-    "t": "1878-01-01",
-    "gun": "1878",
-    "k": "diger",
-    "b": "Süleymaniye sancağı Musul vilâyetine bağlandı",
-    "kaynak": "TDV SÜLEYMANİYE (Irak)"
-   }
-  ],
-  "ic_not": "ZİNCİR YOK — atlas düzeltmesi önerisi. Şehir 1784'te kuruldu (TDV; tayin 1197/1783), atlas noktası ise 1233-01-01'de 'abbasi' ile başlıyor. Atlas noktası 'Şehrizor' adını taşıyor ve Süleymaniye'ye 0,6 km; oysa TDV ŞEHRİZOR'a göre ortaçağ Şehrizor şehrinin 'yeri kesin olarak bilinemeyen' (Yasintepe, Kızkale ya da Gülanber Kalesi civarı) bir yerdir ve 1560 tahririnde adı geçmez. Atlasın 1233 başlangıcı Kökböri'nin ölümüyle (630/1233) Şehrizor BÖLGESİNİN Abbâsîlere dönüşüdür — Süleymaniye noktasına ait değil. Öneri: Süleymaniye noktası 1784'ten başlamalı (sahip: Osmanlı Bağdat valiliğine bağlı Baban sancağı/ocaklığı; Baban emirliği künyesi yok); ortaçağ Şehrizor ayrı kayıt olarak yeri belirlenince açılmalı. Mâlikkendi köyünün yaşı tarihsiz."
- },
- {
   "id": "svishtov",
   "ad": "Svishtov",
   "atlas_ad": "Ziştovi (Svishtov)",
@@ -35571,248 +31213,6 @@ window.SEHIR_TARIHCE_OSM = [
   ],
   "ic_not": "Koordinat sınandı: GeoNames Tekirdağ (40.978, 27.511), Pleiades 511187 Bisanthe/Rhaidestos 0,25 km, atlas noktası 0,7 km — doğru yer. TDV 'Herodot’a göre ... Samos göçmenleri tarafından kurulmuştur' der; Hdt. 7.137 kuruluşu anmaz (Samos kolonisi bilgisi başka yazardadır, doğrulanmadı) — `kur` yazılmadı. Trak mezar taşları MÖ IV. yy (TDV) ilk anılıştan geç. Atlas 1275-01-01 bizans başlangıcı TDV'nin 1275 cümlesiyle örtüşür; zincir __BOSLUK__ → bizans geçişi o güne olayla bağlandı. Atlas evrenindeki olaylar: 1305 Katalan yıkımı; 1357-58 Şehzade Murad'a savaşsız teslim (TDV).",
   "dikis_beyan": null
- },
- {
-  "id": "thessaloniki",
-  "ad": "Thessaloniki",
-  "atlas_ad": "Selanik",
-  "lat": 40.641,
-  "lon": 22.935,
-  "kat1900": 2,
-  "adlar": [
-   "Thessalonike (Θεσσαλονίκη)",
-   "Thessalonica",
-   "Selânik",
-   "Thessaloniki"
-  ],
-  "ilk": {
-   "t": "-0315-01-01",
-   "gun": "MÖ 316",
-   "nicelik": "kurulus",
-   "kesinlik": "yil",
-   "kaynak": "TDV SELÂNİK (M. Kiel)",
-   "tanik": "Thessalonike’nin adına milâttan önce 316’da kuruldu"
-  },
-  "kur": {
-   "t": "-0315-01-01",
-   "gun": "MÖ 316",
-   "kesinlik": "yil",
-   "kaynak": "TDV SELÂNİK (M. Kiel)",
-   "tanik": "Makedon Kralı (Diadok) Kassander tarafından ... milâttan önce 316’da kuruldu"
-  },
-  "ark": null,
-  "bit": null,
-  "sahip": [
-   {
-    "f": "-0315-01-01",
-    "t": "-0167-01-01",
-    "d": "makedonya-krallik",
-    "kesinlik": "yil",
-    "kaynak": "TDV SELÂNİK (M. Kiel): 'Milâttan önce 168’de Roma İmparatorluğu’nun bir parçası olan şehir'",
-    "ic_not": "Kassandros (Antipatros soyu), sonra Antigonos soyu; künye 'makedonya-krallik' Argead-Antigonid ortak künyesidir. Kassandros MÖ 316'da fiilî hükümdar, kral unvanı MÖ 305. t: Pydna (MÖ 168)."
-   },
-   {
-    "f": "-0167-01-01",
-    "t": "-0147-01-01",
-    "d": "makedon-merisleri",
-    "kesinlik": "yil",
-    "kaynak": "Livius 45.29.9 (Perseus): 'Amphipolis was fixed for the first, Thessalonica for the second'; TDV SELÂNİK",
-    "ic_not": "Künye yok: Pydna'dan sonra Aemilius Paullus'un kurduğu dört Makedon bölgesi (meris), MÖ 167-148; Selanik ikinci bölgenin merkezi. Metbu Roma Cumhuriyeti — TDV bu dilimi doğrudan Roma sayar. Parti 04 (Manastır) ile aynı önerilen id. MÖ 149-148 Andriskos (sahte Philippos) Makedonya'yı ele geçirdi; Selanik'e etkisi ve süresi tarihlenemedi, dönem açılmadı."
-   },
-   {
-    "f": "-0147-01-01",
-    "t": "-0026-01-16",
-    "d": "roma-cumhuriyeti",
-    "kesinlik": {
-     "f": "yil",
-     "t": "gun"
-    },
-    "kaynak": "genel kronoloji: MÖ 148 Andriskos'un yenilgisi ve Makedonya eyaleti (doğrulanmadı); TDV SELÂNİK",
-    "ic_not": "Makedonya eyaletinin merkezi."
-   },
-   {
-    "f": "-0026-01-16",
-    "t": "0395-01-17",
-    "d": "roma-imp",
-    "kesinlik": "gun",
-    "kaynak": "Cassius Dio 53.12.4 (LacusCurtius: Makedonya senato eyaletleri arasında); TDV SELÂNİK"
-   },
-   {
-    "f": "0395-01-17",
-    "t": "1185-08-24",
-    "d": "bizans",
-    "kesinlik": "gun",
-    "kaynak": "TDV SELÂNİK (M. Kiel)",
-    "ic_not": "904 yazında Girit'ten gelen Arap donanması şehri alıp on gün yağmaladı — kısa ele geçirme, dönem açılmadı (olay). Slav-Avar kuşatmaları (550-750) ve Bulgar teşebbüsleri başarısız (TDV)."
-   },
-   {
-    "f": "1185-08-24",
-    "t": "1185-11-07",
-    "d": "sicilya-kralligi",
-    "kesinlik": {
-     "f": "gun",
-     "t": "ay"
-    },
-    "kaynak": "TDV SELÂNİK ('1185 Ağustosunda Sicilya ve Güney İtalya’dan gelen Normanlar'); gün: Eustathios, De capta Thessalonica (24 Ağustos 1185) — doğrulanmadı; t: Dimitritza yenilgisi 7 Kasım 1185 (Niketas Khoniates) — doğrulanmadı",
-    "ic_not": "Norman işgali ~2,5 ay. Bitiş: Normanlar Dimitritza'da yenilince Selanik'i boşalttı; boşaltma günü ayrıca bilinmiyor (beyanlı, kesinlik ay)."
-   },
-   {
-    "f": "1185-11-07",
-    "t": "1205-01-01",
-    "d": "bizans",
-    "kesinlik": {
-     "f": "ay",
-     "t": "yil"
-    },
-    "kaynak": "TDV SELÂNİK ('Latin Selânik Krallığı’nın (1205-1225) merkezi')",
-    "ic_not": "t: TDV krallığı 1205'ten tarihler; Montferratlı Bonifacio şehri 1204 yazı-sonbaharında almıştı (ODB, doğrulanmadı). 13 Nisan 1204 (İstanbul'un düşüşü) ile 1205 arası Bizans sahipliği yaklaşıktır — TDV esas alındı (beyanlı)."
-   },
-   {
-    "f": "1205-01-01",
-    "t": "1225-01-01",
-    "d": "selanik-kralligi",
-    "kesinlik": "yil",
-    "kaynak": "TDV SELÂNİK ('Latin Selânik Krallığı’nın (1205-1225)')",
-    "ic_not": "Bonifacio ve ardılları. t: TDV; Epir hükümdarı Theodoros Komnenos Dukas şehri Aralık 1224'te aldı (genel kronoloji, doğrulanmadı) — TDV esas."
-   },
-   {
-    "f": "1225-01-01",
-    "t": "1246-12-01",
-    "d": "selanik-imparatorlugu",
-    "kesinlik": {
-     "f": "yil",
-     "t": "ay"
-    },
-    "kaynak": "TDV SELÂNİK (f); t: Georgios Akropolites, Historia §45-46 (III. Ioannes Vatatzes Selanik'e Aralık 1246'da girdi) — doğrulanmadı",
-    "ic_not": "Theodoros (1227 taç), Manuel, Ioannes, Demetrios. 1230 Klokotnitsa'dan sonra II. İvan Asen'in (Bulgar) metbuluğu; 1242'den sonra İznik metbuluğu ve despotluk. KÜNYE ÖMRÜ DÜZELTİLMELİ: selanik-imparatorlugu t 1246-01-01 → Aralık 1246 (Vatatzes'in girişi)."
-   },
-   {
-    "f": "1246-12-01",
-    "t": "1261-07-25",
-    "d": "iznik-imparatorlugu",
-    "kesinlik": {
-     "f": "ay",
-     "t": "gun"
-    },
-    "kaynak": "Akropolites §46 (doğrulanmadı); iznik-imparatorlugu künyesi (t)"
-   },
-   {
-    "f": "1261-07-25",
-    "t": "1281-01-01",
-    "d": "bizans",
-    "kesinlik": "gun",
-    "kaynak": "TDV SELÂNİK ('XIII ve XIV. yüzyıllar şehir için Bizans kültürünün olgunluk çağları oldu')",
-    "ic_not": "Dikiş düz (atlas: bizans 1281-01-01)."
-   }
-  ],
-  "olay": [
-   {
-    "t": "-0315-01-01",
-    "gun": "MÖ 316",
-    "k": "kurulus",
-    "b": "Kassandros şehri karısı Thessalonike adına kurdu; çevredeki 26 kasabanın halkı yerleştirildi",
-    "kaynak": "TDV SELÂNİK (M. Kiel)"
-   },
-   {
-    "t": "-0167-01-01",
-    "gun": "MÖ 168",
-    "k": "savas",
-    "b": "Pydna: Makedonya Krallığı yıkıldı; Selanik ikinci Makedon bölgesinin (meris) merkezi oldu",
-    "kaynak": "TDV SELÂNİK; Livius 45.29.9 (Perseus)"
-   },
-   {
-    "t": "-0147-01-01",
-    "gun": "MÖ 148",
-    "k": "ilhak",
-    "b": "Andriskos yenildi; Makedonya Roma eyaleti oldu",
-    "kaynak": "genel kronoloji (doğrulanmadı)"
-   },
-   {
-    "t": "-0026-01-16",
-    "gun": "16 Ocak MÖ 27",
-    "k": "diger",
-    "b": "künye geçişi: Augustus'un eyalet düzenlemesi — Roma İmparatorluğu (Makedonya senato eyaleti)",
-    "kaynak": "Cassius Dio 53.12.4 (LacusCurtius)"
-   },
-   {
-    "t": "0050-01-01",
-    "gun": "50",
-    "k": "diger",
-    "b": "Aziz Pavlus şehirde Hıristiyan cemaati kurdu",
-    "kaynak": "TDV SELÂNİK (M. Kiel)"
-   },
-   {
-    "t": "0390-01-01",
-    "gun": "390",
-    "k": "isyan",
-    "b": "Theodosius'a karşı ayaklanma; hipodromda 7000 kişi katledildi",
-    "kaynak": "TDV SELÂNİK (M. Kiel)"
-   },
-   {
-    "t": "0395-01-17",
-    "gun": "17 Ocak 395",
-    "k": "diger",
-    "b": "künye geçişi: imparatorluk bölündü, Selanik Doğu Roma'da kaldı",
-    "kaynak": "roma-imp/bizans künyeleri (genel kronoloji)"
-   },
-   {
-    "t": "0620-01-01",
-    "gun": "620",
-    "k": "diger",
-    "b": "Büyük deprem antik şehrin yapılarını ve sütunlu sokaklarını yıktı",
-    "kaynak": "TDV SELÂNİK (M. Kiel)"
-   },
-   {
-    "t": "0904-01-01",
-    "gun": "904 yazı",
-    "k": "fetih",
-    "b": "Girit'ten gelen Arap donanması şehri aldı, on gün yağmalayıp çekildi (kısa ele geçirme)",
-    "kaynak": "TDV SELÂNİK (M. Kiel)"
-   },
-   {
-    "t": "1185-08-24",
-    "gun": "24 Ağustos 1185",
-    "k": "fetih",
-    "b": "Sicilya Normanları şehri karadan ve denizden alıp yağmaladı",
-    "kaynak": "TDV SELÂNİK (ay); Eustathios, De capta Thessalonica (gün; doğrulanmadı)"
-   },
-   {
-    "t": "1185-11-07",
-    "gun": "7 Kasım 1185",
-    "k": "savas",
-    "b": "Normanlar Dimitritza'da yenildi; Selanik Bizans'a döndü",
-    "kaynak": "Niketas Khoniates (genel kronoloji; doğrulanmadı)"
-   },
-   {
-    "t": "1205-01-01",
-    "gun": "1205",
-    "k": "kurulus",
-    "b": "Haçlılar şehri aldı; Latin Selânik Krallığı'nın merkezi oldu",
-    "kaynak": "TDV SELÂNİK (M. Kiel)"
-   },
-   {
-    "t": "1225-01-01",
-    "gun": "1225",
-    "k": "fetih",
-    "b": "Epir hükümdarı Theodoros Komnenos Dukas Selanik'i aldı (Latin krallığının sonu)",
-    "kaynak": "TDV SELÂNİK (1225); genel kronoloji Aralık 1224"
-   },
-   {
-    "t": "1246-12-01",
-    "gun": "Aralık 1246",
-    "k": "fetih",
-    "b": "İznik İmparatoru III. Ioannes Vatatzes Selanik'i aldı",
-    "kaynak": "Georgios Akropolites, Historia §46 (doğrulanmadı)"
-   },
-   {
-    "t": "1261-07-25",
-    "gun": "25 Temmuz 1261",
-    "k": "diger",
-    "b": "künye geçişi: İstanbul geri alındı; İznik İmparatorluğu → Bizans",
-    "kaynak": "iznik-imparatorlugu/bizans künyeleri (genel kronoloji)"
-   }
-  ],
-  "ic_not": "Kuruluş TDV'ye göre MÖ 316 (bazı kaynaklar MÖ 315). Antik Therme ile eşitleme kullanılmadı. Norman (1185) ve Vatatzes (1246) günleri TDV dışı ve doğrulanmadı; Latin dönemi uçları TDV yıllarıyla (1205, 1225) yazıldı, gerçek geçişler büyük olasılıkla 1204 sonbaharı ve Aralık 1224. Parti koordinatı atlas noktasına 0,8 km."
  },
  {
   "id": "tizi-ouzou",
@@ -36795,8 +32195,8 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV TRABLUSŞAM (C. Tomar); hicrî 495 ∩ 1102"
    },
    {
-    "t": "1105-01-01",
-    "gun": "1105",
+    "t": "1105-02-28",
+    "gun": "28 Şubat 1105",
     "k": "kusatma",
     "b": "Raymond de Saint-Gilles uzun kuşatma sırasında öldü",
     "kaynak": "TDV TRABLUSŞAM (C. Tomar)"
@@ -37383,91 +32783,6 @@ window.SEHIR_TARIHCE_OSM = [
    }
   ],
   "ic_not": "Zincir YOK: kasabanın (Donje Soli = Donja Tuzla) ilk tarihli tanığı 1460 — atlas başlangıcından (1281-01-01, bosna) sonra ⇒ atlas başlangıcı düzeltilmeli. Daha erken adaylar başlangıç sayılmadı: (1) Konstantinos Porphyrogennetos (X. yy ortası) ve Pop Dukljanin (XII. yy) 'Soli'yi anar (TDV) — bölge adıdır, iki Tuzla (Donja/Gornja, 10 km) arasında yer kesin değil (yeri kesin olmayan eşitleme kuralı); (2) Roma 'Salinae' (HE) en geç VI. yüzyılda yıkıldı, yeri ölçülmedi. HE: Donje Soli 'en geç XV. yüzyılın ilk yarısında' tahkimliydi (tarihsiz). ATLAS DÜZELTMESİ ÖNERİSİ: (a) nokta en erken 1460'ta başlamalı; (b) atlasın 1281 'bosna' iddiası bölge düzeyinde de TDV ile çelişir — TDV: XII. yüzyılda Macar idaresi, Ban Boriç Bosna'ya kattı, '1253’ten itibaren Macarlar’ın Mačva banlığının bir parçası', 1284-1300 Macar vasalı Sırp Kralı Dragutin, Bosna'ya katılış II. Stjepan Kotromanić döneminde (1322-1353). Osmanlı geçişinde kaynaklar ayrışır: HE 1460 Osmanlı, 1463-1510'lar Macar Srebrenik banlığı; TDV 1463'te Bosna kralının yaktırdığı Ağaçhisar, Osmanlı idaresi 1474 Nisanından önce (eski literatür 1512) — TDV esas. Parti koordinatı atlas noktasına 0,7 km."
- },
- {
-  "id": "umm-al-quwain",
-  "ad": "Umm al-Quwain",
-  "atlas_ad": null,
-  "lat": 25.565,
-  "lon": 55.555,
-  "kat1900": 2,
-  "adlar": [
-   "Ümmülkuveyn / Ümmülkıveyn",
-   "Umm-al-Qaiwain (İngiliz kayıtları)",
-   "Ümmülkayveyn",
-   "Umm al-Quwain"
-  ],
-  "ilk": {
-   "t": "1775-02-21",
-   "gun": "1189 (1775)",
-   "nicelik": "ilk_anilis",
-   "kesinlik": "yil",
-   "kaynak": "TDV ÜMMÜLKAYVEYN (M. L. Bilge); hicrî 1189 ∩ 1775, çeviri: tablo takvimi, Jülyen",
-   "tanik": "Ümmülkayveyn 1189’da (1775) Şeyh Mâcid el-Muallâ başkanlığında bir kabile olarak tanınmaktaydı"
-  },
-  "kur": null,
-  "ark": null,
-  "bit": null,
-  "sahip": [
-   {
-    "f": "1775-02-21",
-    "t": "1820-03-15",
-    "d": "ummulkayveyn-seyhligi",
-    "kunye_yok": true,
-    "kesinlik": {
-     "f": "yil",
-     "t": "gun"
-    },
-    "kaynak": "TDV ÜMMÜLKAYVEYN (M. L. Bilge): 'Kavâsim Emirliği’ne bağlıydı. İngilizler’in 1819 yılındaki müdahalesinin ardından Kavâsim Şeyhliği’nden ayrılarak bağımsız hale geldi'",
-    "ic_not": "Künye yok: Ümmülkayveyn şeyhliği (Âl-i Muallâ, Âl-i Alî kabilesinin kolu), 1775'ten (TDV) 1971 BAE'ye kadar; metbu 1819'a kadar Kavâsim (Kāsımî) Emirliği (onun da künyesi yok). Doğrudan sahip şeyhlik olduğu için Kavâsim metbu olarak burada. t: 1820 Genel Antlaşması'nın Ümmülkayveyn şeyhince imzası (sonraki dönem trucial-states — parti 03 Acmân ile aynı tercih)."
-   },
-   {
-    "f": "1820-03-15",
-    "t": "1900-01-01",
-    "d": "trucial-states",
-    "kesinlik": "gun",
-    "kaynak": "IOR 'Revision of Aitchison's Treaties, Persian Gulf Section' (QDL vdc_100022770472.0x00002d; yalnız arama özeti okunabildi: 'Abdullah-bin-Rashid of Umm-al-Qaiwain', Falaiyah, 15 Mart); TDV ÜMMÜLKAYVEYN (1879, 1892 antlaşmaları)",
-    "ic_not": "Doğrudan sahip Ümmülkayveyn şeyhi (Abdullah b. Râşid el-Muallâ, 1820-1853); trucial-states Sahil şeyhliklerinin ortak künyesidir — şeyhliğe ayrı künye açılırsa o yazılmalı. QDL dökümüne göre Acmân ve Ümmülkayveyn şeyhleri bu antlaşmayla 'bağımsız hükümdar' sayıldı (ön antlaşmada Şârika şeyhi onlar adına imzalamıştı). QDL sayfası 403 verdi — imza günü arama özetinden okundu, doğrulanmalı. Gerçek İngiliz himayesi 1892 (TDV)."
-   }
-  ],
-  "olay": [
-   {
-    "t": "1775-02-21",
-    "gun": "1189 (1775)",
-    "k": "diger",
-    "b": "Şeyh Mâcid el-Muallâ başkanlığında kabile olarak tanınıyordu; Kavâsim Emirliği'ne bağlı",
-    "kaynak": "TDV ÜMMÜLKAYVEYN (M. L. Bilge)"
-   },
-   {
-    "t": "1819-01-01",
-    "gun": "1819",
-    "k": "diger",
-    "b": "İngilizlerin Kavâsim'e müdahalesi; Ümmülkayveyn Kavâsim'den ayrılıp bağımsızlaştı",
-    "kaynak": "TDV ÜMMÜLKAYVEYN (M. L. Bilge)"
-   },
-   {
-    "t": "1820-03-15",
-    "gun": "15 Mart 1820",
-    "k": "antlasma",
-    "b": "Ümmülkayveyn şeyhi Abdullah b. Râşid Genel Barış Antlaşması'nı Faleia'da imzaladı",
-    "kaynak": "IOR/QDL 'Revision of Aitchison's Treaties' (arama özeti)"
-   },
-   {
-    "t": "1879-01-01",
-    "gun": "1879",
-    "k": "antlasma",
-    "b": "İngiltere ile Sahil emirlikleri arasında antlaşma",
-    "kaynak": "TDV ÜMMÜLKAYVEYN (M. L. Bilge)"
-   },
-   {
-    "t": "1892-01-01",
-    "gun": "1892",
-    "k": "antlasma",
-    "b": "1892 antlaşması: emirlikler İngiliz nüfuzu altında özerk",
-    "kaynak": "TDV ÜMMÜLKAYVEYN (M. L. Bilge)"
-   }
-  ],
-  "ic_not": "Atlasta nokta yok (en yakın Şârika 28,3 km); zincir 1900-01-01'e gider. İlk anılış 'en geç' tanıktır: TDV yalnız 1775'te kabile olarak tanındığını söyler, kasabanın kuruluşu tarihlenmedi. Ed-Dûr antik şehri (TDV: MÖ 260 – MS 200 kalıntıları) ayrı yerdir (güneyde, mesafe ölçülmedi, > 3 km olduğu kesin) — ayrı kayıt önerisi."
  },
  {
   "id": "vamos",

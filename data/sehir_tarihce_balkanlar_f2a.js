@@ -1,0 +1,716 @@
+// ŞEHİR TARİHÇESİ — BALKANLAR_F2A · üretici: arac/sehir_tarihce.py · şema: VERI-YAPISI.md
+// Motor/denetle/site OKUMAZ — araştırma birikimi. Elle düzenleme: JSON'u düzelt, yeniden üret.
+window.SEHIR_TARIHCE_BALKANLAR_F2A = [
+ {
+  "id": "koprivnica-hr",
+  "ad": "Koprivnica",
+  "atlas_ad": null,
+  "lat": 46.1636,
+  "lon": 16.8297,
+  "kat1900": 3,
+  "adlar": [
+   "Koproncha civitas / Kapruncha civitas libera regia (Latince)",
+   "Koprivnica"
+  ],
+  "ad_kaynak": "Hrvatska enciklopedija, 'Koprivnica' (enciklopedija.hr/clanak/koprivnica; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+  "ilk": {
+   "t": "1272-01-01",
+   "gun": "1272",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "belirsiz",
+   "kaynak": "Hrvatska enciklopedija, 'Koprivnica' (enciklopedija.hr/clanak/koprivnica; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+   "tanik": "Srednjovjekovno trgovište Koprivnica (Koproncha civitas) razvilo se oko utvrde Kamengrad (Kuvar, Kwar, poslije nazvana Starigrad), koja se prvi put spominje 1272."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1272-01-01",
+    "t": "1526-12-31",
+    "d": "macaristan",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija, 'Koprivnica' (enciklopedija.hr/clanak/koprivnica; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+    "ic_not": "Hırvat-Macar Krallığı içinde (HE: 1327 Mikac Mihaljević, 1356 Anjou Ludovik I. ile özgür kraliyet şehri)"
+   },
+   {
+    "f": "1526-12-31",
+    "t": "1900-01-01",
+    "d": "macaristan-habsburg",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija, 'Koprivnica' (enciklopedija.hr/clanak/koprivnica; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+    "ic_not": "1526 Mohaç sonrası Habsburg-Macar tacı; HE bu geçişi 'Nakon poraza Ludovika II. na Mohačkome polju 1526.' ile anar"
+   }
+  ],
+  "olay": [
+   {
+    "t": "1327-01-01",
+    "gun": "1327",
+    "k": "diger",
+    "b": "Koprivnica Mikac Mihaljević ve oğullarının mülkiyetine geçer",
+    "kaynak": "Hrvatska enciklopedija, 'Koprivnica' (enciklopedija.hr/clanak/koprivnica; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   },
+   {
+    "t": "1356-01-01",
+    "gun": "1356",
+    "k": "diger",
+    "b": "Kral I. Lajos (Anjou) fermanıyla Koprivnica özgür kraliyet şehri (Kapruncha civitas libera regia) olur",
+    "kaynak": "Hrvatska enciklopedija, 'Koprivnica' (enciklopedija.hr/clanak/koprivnica; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   },
+   {
+    "t": "1526-12-31",
+    "gun": "1526",
+    "k": "savas",
+    "b": "Mohaç Meydan Savaşı'ndan (II. Lajos'un yenilgisi) sonra şehirde sabor toplanır, Krsto I. Frankapan yönetici seçilir",
+    "kaynak": "Hrvatska enciklopedija, 'Koprivnica' (enciklopedija.hr/clanak/koprivnica; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   }
+  ],
+  "ic_not": "ilk: 1272 yılı Kamengrad KALESİNİN ilk anılışıdır (şehir o kalenin etrafında gelişti); kalenin yeri şehrin merkezi olduğu için ilk anılış olarak alındı ama özne kale olduğundan kesinlik 'belirsiz'. Sahiplik yalnız HE'den; 1526 geçişi: kaynakta gün yok, yıl sonu 1526-12-31 (künye macaristan-habsburg f 1526-12-17). Mükerrer: yok. TANIK KURALI: HE tam gövde birebir; şehir adı ve 1272 aynı cümlede, ama 1272 kaleyi tarihler."
+ },
+ {
+  "id": "krapina-hr",
+  "ad": "Krapina",
+  "atlas_ad": null,
+  "lat": 46.1608,
+  "lon": 15.8737,
+  "kat1900": 3,
+  "adlar": [
+   "Krapina"
+  ],
+  "ad_kaynak": "Hrvatska enciklopedija, 'Krapina' (enciklopedija.hr/clanak/krapina; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+  "ilk": {
+   "t": "1193-01-01",
+   "gun": "1193",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Hrvatska enciklopedija, 'Krapina' (enciklopedija.hr/clanak/krapina; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+   "tanik": "U povijesnim se dokumentima Krapina prvi put spominje 1193. u povelji kojom pečuški biskup Kalan dodjeljuje zagrebačkomu biskupu Dominiku i njegovim nasljednicima pravo na desetinu."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1193-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija, 'Krapina' (enciklopedija.hr/clanak/krapina; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+    "ic_not": "HE Krapina maddesi bu parti için yalnız ilk anılışı ve barok yapıları verdi; Macar-Hırvat/Habsburg sahip sırası şehre özgü okunmadı (beyanlı boşluk)"
+   }
+  ],
+  "olay": [
+   {
+    "t": "1193-01-01",
+    "gun": "1193",
+    "k": "diger",
+    "b": "Pécs piskoposu Kalan, Zagreb piskoposu Dominik'e ondalık hakkı verir (Krapina'nın ilk anılışı)",
+    "kaynak": "Hrvatska enciklopedija, 'Krapina' (enciklopedija.hr/clanak/krapina; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   }
+  ],
+  "ic_not": "Neanderthal alanı Hušnjakovo brdo (arkeolojik, ~130 000 yıl) şehir başlangıcı sayılmadı — yazılı tanık var. Mükerrer: yok. TANIK KURALI: HE tam gövde birebir; şehir adı ve 1193 aynı cümlede."
+ },
+ {
+  "id": "pazin-hr",
+  "ad": "Pazin",
+  "atlas_ad": null,
+  "lat": 45.2392,
+  "lon": 13.9395,
+  "kat1900": 3,
+  "adlar": [
+   "Pisino (İtalyanca)",
+   "Mitterburg (Almanca)",
+   "Pazin"
+  ],
+  "ad_kaynak": "Hrvatska enciklopedija, 'Pazin' (enciklopedija.hr/clanak/pazin; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+  "ilk": {
+   "t": "0983-01-01",
+   "gun": "983",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "belirsiz",
+   "kaynak": "Hrvatska enciklopedija, 'Pazin' (enciklopedija.hr/clanak/pazin; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+   "tanik": "Pazinski kaštel (spominje se 983) s Etnografskim muzejom Istre (osn. 1955) i Muzejom grada Pazina"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0983-01-01",
+    "t": "1374-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija, 'Pazin' (enciklopedija.hr/clanak/pazin; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+    "ic_not": "HE: kaleye ilişkin 983 anılışı; Pazin için XI-XIV. yy sahip sırası (markgraflık, Gorizia kontları) bu partide okunmadı (beyanlı boşluk)"
+   },
+   {
+    "f": "1374-01-01",
+    "t": "1900-01-01",
+    "d": "habsburg",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija, 'Pazin' (enciklopedija.hr/clanak/pazin; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+    "ic_not": "HE: 1374'te Habsburg mülkiyetine geçer; ancak kale sık sık ipotek/kiralama (Devinski, Walsee-Enns, Mosconi, Frangipane, Montecuccoli...) ile başkalarının elinde; 1508 Venedik kısa; 1810-13 Fransız; 1766'ya kadar çeşitli aileler"
+   }
+  ],
+  "olay": [
+   {
+    "t": "1374-01-01",
+    "gun": "1374",
+    "k": "diger",
+    "b": "Miras yoluyla Habsburg ailesinin mülkiyetine geçer",
+    "kaynak": "Hrvatska enciklopedija, 'Pazin' (enciklopedija.hr/clanak/pazin; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   },
+   {
+    "t": "1508-01-01",
+    "gun": "1508",
+    "k": "savas",
+    "b": "Venedik-Maximilian I savaşında Pazin ve knežija kısa süre Venedik egemenliğine girer",
+    "kaynak": "Hrvatska enciklopedija, 'Pazin' (enciklopedija.hr/clanak/pazin; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   },
+   {
+    "t": "1615-01-01",
+    "gun": "1615",
+    "k": "savas",
+    "b": "Uskok Savaşı (1615-18) sonrası Habsburglar Pazin'i satar; 1766'ya kadar çeşitli aileler yönetir",
+    "kaynak": "Hrvatska enciklopedija, 'Pazin' (enciklopedija.hr/clanak/pazin; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   },
+   {
+    "t": "1810-01-01",
+    "gun": "1810",
+    "k": "diger",
+    "b": "Kısa Fransız yönetimi (1810-13); 1814'ten Rijeka'ya bağlı kotar",
+    "kaynak": "Hrvatska enciklopedija, 'Pazin' (enciklopedija.hr/clanak/pazin; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   }
+  ],
+  "ic_not": "ilk: HE '(spominje se 983)' ifadesi KALE içindir, şehir değil; bu yüzden kesinlik 'belirsiz'. Zincir 1374'ten Habsburg; ancak HE aynı yazıda kalenin başka ailelere ipotek/satışını verir (sahiplik = hanedan değil mülk sahibi) — ic_not. Mükerrer: yok. TANIK KURALI: HE tam gövde birebir; cümle kale+983 (şehir adı 'Pazinski' sıfatında)."
+ },
+ {
+  "id": "pula-hr",
+  "ad": "Pula",
+  "atlas_ad": null,
+  "lat": 44.8683,
+  "lon": 13.8481,
+  "kat1900": 3,
+  "adlar": [
+   "Pola (Colonia Pietas Iulia Pola; Latince/İtalyanca)",
+   "Pula"
+  ],
+  "ad_kaynak": "Hrvatska enciklopedija, 'Pula' (enciklopedija.hr/clanak/pula; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+  "ilk": {
+   "t": "-0049-01-01",
+   "gun": "MÖ 50 civarı (MÖ 1. yy ortası)",
+   "nicelik": "kurulus",
+   "kesinlik": "yuzyil",
+   "kaynak": "Hrvatska enciklopedija, 'Pula' (enciklopedija.hr/clanak/pula; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+   "tanik": "sredinom I. st. pr. Kr. u podnožju toga brežuljka osnovana je kolonija rimskih legionara (Colonia Pietas Iulia Pola)"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "-0049-01-01",
+    "t": "1331-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yuzyil",
+    "kaynak": "Hrvatska enciklopedija, 'Pula' (enciklopedija.hr/clanak/pula; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+    "ic_not": "HE: Roma kolonisi, 533'ten Bizans, 788'den Frank, 962'den Kutsal Roma, XI. yy ortasından Istria markgrafları, 1208'den Aquileia patrikleri, Castropola ailesi; sürekli sahip sırası bu partide kurulmadı (beyanlı boşluk)"
+   },
+   {
+    "f": "1331-01-01",
+    "t": "1797-01-01",
+    "d": "venedik",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija, 'Pula' (enciklopedija.hr/clanak/pula; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   },
+   {
+    "f": "1797-01-01",
+    "t": "1805-01-01",
+    "d": "habsburg",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija, 'Pula' (enciklopedija.hr/clanak/pula; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   },
+   {
+    "f": "1805-01-01",
+    "t": "1813-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija, 'Pula' (enciklopedija.hr/clanak/pula; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+    "ic_not": "Fransız egemenliği (1805-13, HE); devletler.js'te uygun Fransız İlirya künyesi bulunmadı — beyanlı boşluk"
+   },
+   {
+    "f": "1813-01-01",
+    "t": "1900-01-01",
+    "d": "habsburg",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija, 'Pula' (enciklopedija.hr/clanak/pula; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   }
+  ],
+  "olay": [
+   {
+    "t": "1331-01-01",
+    "gun": "1331",
+    "k": "fetih",
+    "b": "Castropola ailesi devrildi, şehir yönetimi Venedik'e devredildi",
+    "kaynak": "Hrvatska enciklopedija, 'Pula' (enciklopedija.hr/clanak/pula; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   },
+   {
+    "t": "1797-01-01",
+    "gun": "1797",
+    "k": "kayip",
+    "b": "Venedik Cumhuriyeti'nin çöküşü; Avusturya yönetimi (1797-1805)",
+    "kaynak": "Hrvatska enciklopedija, 'Pula' (enciklopedija.hr/clanak/pula; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   },
+   {
+    "t": "1805-01-01",
+    "gun": "1805",
+    "k": "diger",
+    "b": "Fransız yönetimi başlar (1805-13)",
+    "kaynak": "Hrvatska enciklopedija, 'Pula' (enciklopedija.hr/clanak/pula; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   },
+   {
+    "t": "1813-01-01",
+    "gun": "1813",
+    "k": "diger",
+    "b": "Avusturya yönetimi geri döner (1813 sonrası istikrarlı Avusturya egemenliği)",
+    "kaynak": "Hrvatska enciklopedija, 'Pula' (enciklopedija.hr/clanak/pula; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   },
+   {
+    "t": "1848-01-01",
+    "gun": "1848",
+    "k": "diger",
+    "b": "1848-1853: Pula Habsburg İmparatorluğu'nun ana savaş limanı olur (tersane)",
+    "kaynak": "Hrvatska enciklopedija, 'Pula' (enciklopedija.hr/clanak/pula; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   }
+  ],
+  "ic_not": "ilk: HE kuruluş cümlesi (Roma kolonisi, MÖ 1. yy ortası) — 'sredinom' nedeniyle yuzyil, tarih -0049 yaklaşık (MÖ 50). Daha eski gradina yerleşimi (MÖ 1. binyıl başı, arkeolojik) yazılı tanık olduğundan ilk sayılmadı. Zincir 1331 öncesi beyanlı boşluk. Mükerrer taraması: yok. TANIK KURALI: HE tam gövde birebir; cümle 'a sredinom I. st. pr. Kr.' ile başlar, madde konusu şehirdir ('Pula (talijanski Pola)') — şehir adı koloni adında (Pola) geçer."
+ },
+ {
+  "id": "sibenik-hr",
+  "ad": "Šibenik",
+  "atlas_ad": null,
+  "lat": 43.7343,
+  "lon": 15.8942,
+  "kat1900": 3,
+  "adlar": [
+   "Šibenik"
+  ],
+  "ad_kaynak": "Hrvatska enciklopedija, 'Šibenik' (enciklopedija.hr/clanak/sibenik; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+  "ilk": {
+   "t": "0900-01-01",
+   "gun": "9. yüzyıl",
+   "nicelik": "kurulus",
+   "kesinlik": "belirsiz",
+   "kaynak": "Hrvatska enciklopedija, 'Šibenik' (enciklopedija.hr/clanak/sibenik; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+   "tanik": "Pretpostavlja se da je bio utemeljen u doba kneza Domagoja u IX. st."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0900-01-01",
+    "t": "1105-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yuzyil",
+    "kaynak": "Hrvatska enciklopedija, 'Šibenik' (enciklopedija.hr/clanak/sibenik; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+    "ic_not": "IX. yy Hırvat beyliği (Domagoj dönemi, HE) — Hırvat Dükalığı künyesi (818-925) ve krallık (925-1102) kronolojik olarak şehre özgü okunmadı; beyanlı boşluk"
+   },
+   {
+    "f": "1105-01-01",
+    "t": "1390-01-01",
+    "d": "macaristan",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija, 'Šibenik' (enciklopedija.hr/clanak/sibenik; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+    "ic_not": "1105 Kolomán'ın egemenliği; 1180'e kadar Venedik-Bizans-Arpadlar çekişmesi, 1200-1322 Hırvat beyleri (Domald, Bribirliler), 1358 Zadar barışıyla Anjou; kesintiler ic_not'ta"
+   },
+   {
+    "f": "1390-01-01",
+    "t": "1412-01-01",
+    "d": "bosna-kralligi",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija, 'Šibenik' (enciklopedija.hr/clanak/sibenik; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+    "ic_not": "HE: 1390'dan Bosna Kralı Tvrtko I, XV. yy başı Hrvoje Vukčić ve Napoli Kralı Ladislas — Bosna dışındaki egemenler kısaca ic_not'ta"
+   },
+   {
+    "f": "1412-01-01",
+    "t": "1797-01-01",
+    "d": "venedik",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija, 'Šibenik' (enciklopedija.hr/clanak/sibenik; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   },
+   {
+    "f": "1797-01-01",
+    "t": "1805-01-01",
+    "d": "habsburg",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija, 'Šibenik' (enciklopedija.hr/clanak/sibenik; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   },
+   {
+    "f": "1805-01-01",
+    "t": "1813-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija, 'Šibenik' (enciklopedija.hr/clanak/sibenik; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+    "ic_not": "Pozsony Barışı (1805) sonrası Fransız egemenliği (HE); uygun künye bulunmadı — beyanlı boşluk"
+   },
+   {
+    "f": "1813-01-01",
+    "t": "1900-01-01",
+    "d": "habsburg",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija, 'Šibenik' (enciklopedija.hr/clanak/sibenik; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   }
+  ],
+  "olay": [
+   {
+    "t": "1105-01-01",
+    "gun": "1105",
+    "k": "diger",
+    "b": "Petrova Gora yenilgisi (1097) sonrası Šibenik Kolomán'ın egemenliğini tanır",
+    "kaynak": "Hrvatska enciklopedija, 'Šibenik' (enciklopedija.hr/clanak/sibenik; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   },
+   {
+    "t": "1390-01-01",
+    "gun": "1390",
+    "k": "diger",
+    "b": "Dalmaçya şehirleriyle birlikte Bosna Kralı Tvrtko I Kotromanić'in egemenliğini tanır",
+    "kaynak": "Hrvatska enciklopedija, 'Šibenik' (enciklopedija.hr/clanak/sibenik; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   },
+   {
+    "t": "1412-01-01",
+    "gun": "1412",
+    "k": "fetih",
+    "b": "Šibenik yeniden Venedik Cumhuriyeti egemenliğine girer",
+    "kaynak": "Hrvatska enciklopedija, 'Šibenik' (enciklopedija.hr/clanak/sibenik; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   },
+   {
+    "t": "1797-01-01",
+    "gun": "1797",
+    "k": "kayip",
+    "b": "Venedik Cumhuriyeti'nin çöküşü; 1797-1805 Habsburg",
+    "kaynak": "Hrvatska enciklopedija, 'Šibenik' (enciklopedija.hr/clanak/sibenik; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   },
+   {
+    "t": "1805-01-01",
+    "gun": "1805",
+    "k": "antlasma",
+    "b": "Pozsony Barışı (1805): şehir Fransız yönetimine geçer",
+    "kaynak": "Hrvatska enciklopedija, 'Šibenik' (enciklopedija.hr/clanak/sibenik; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   },
+   {
+    "t": "1813-01-01",
+    "gun": "1813",
+    "k": "diger",
+    "b": "1813'te yeniden Habsburg Monarşisi içinde (1813-1918)",
+    "kaynak": "Hrvatska enciklopedija, 'Šibenik' (enciklopedija.hr/clanak/sibenik; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   }
+  ],
+  "ic_not": "ilk: HE 'Pretpostavlja se' (varsayılır) ile IX. yy kuruluşu der; yazılı ilk anılış HE'de bu sırada okunmadı (HE: ilk güvenli olay 1105, 1097 Petrova Gora). Bu nedenle kesinlik 'belirsiz'. Venedik'in 1412 öncesi dönemlerinde 1322'ye kadar Bribirli beyleri vb. HE'de; zincire yazılmadı. Mükerrer: yok. TANIK KURALI: HE tam gövde birebir; özne Šibenik (Povijest bölümü), yüzyıl IX."
+ },
+ {
+  "id": "sisak-hr",
+  "ad": "Sisak",
+  "atlas_ad": null,
+  "lat": 45.4661,
+  "lon": 16.3775,
+  "kat1900": 3,
+  "adlar": [
+   "Segestica / Segesta (kelt oppidumu; HE antik kaynaklarla)",
+   "Siscia (Colonia Flavia Siscia, Colonia Septimia Siscia Augusta)",
+   "Sisak"
+  ],
+  "ad_kaynak": "Hrvatska enciklopedija, 'Sisak' (enciklopedija.hr/clanak/sisak; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+  "ilk": {
+   "t": "0071-01-01",
+   "gun": "71",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "belirsiz",
+   "kaynak": "Hrvatska enciklopedija, 'Sisak' (enciklopedija.hr/clanak/sisak; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+   "tanik": "Za Vespazijana, god. 71. grad je dobio status kolonije (Colonia Flavia Siscia)"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0071-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "Hrvatska enciklopedija, 'Sisak' (enciklopedija.hr/clanak/sisak; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+    "ic_not": "HE: Roma kolonisi (71), 279'da Pannonia Savia başkenti, VI. yy Ostrogot, ~600 Avar-Slav yıkımı, XIII-XV. yy Hırvat-Macar trgovište; sürekli sahip sırası bu partide okunmadı (beyanlı boşluk)"
+   }
+  ],
+  "olay": [
+   {
+    "t": "-0034-01-01",
+    "gun": "MÖ 35",
+    "k": "fetih",
+    "b": "Octavianus, Segestica'yı (Kelt oppidumu) bir aylık kuşatmadan sonra ele geçirir; karşı kıyıda Roma askerî kampı ve Siscia gelişir",
+    "kaynak": "Hrvatska enciklopedija, 'Sisak' (enciklopedija.hr/clanak/sisak; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   },
+   {
+    "t": "0071-01-01",
+    "gun": "71",
+    "k": "diger",
+    "b": "Vespasianus döneminde şehir koloni statüsü alır (Colonia Flavia Siscia)",
+    "kaynak": "Hrvatska enciklopedija, 'Sisak' (enciklopedija.hr/clanak/sisak; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   },
+   {
+    "t": "1593-01-01",
+    "gun": "1593",
+    "k": "savas",
+    "b": "1593 Sisak savaşı: Hristiyan ordusunun zaferiyle Osmanlı ilerleyişi durdurulur (HE: 'reliquiae reliquiarum' savunması)",
+    "kaynak": "Hrvatska enciklopedija, 'Sisak' (enciklopedija.hr/clanak/sisak; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   }
+  ],
+  "ic_not": "ilk: HE Siscia'nın 71'deki koloni statüsünü verir — bu bir statü verilişidir, ilk anılış değildir; şehir 'predrimskoga podrijetla' (öncesinde Kelt Segestica/Siscia, MÖ 35 Octavianus fetihi, HE). Bu yüzden kesinlik 'belirsiz'. Daha eski yazılı tanık için Strabon/Plinius HE'de adı geçer (okunmadı). Mükerrer: yok. TANIK KURALI: HE tam gövde birebir; özne 'grad' = Siscia."
+ },
+ {
+  "id": "slavonski-brod-hr",
+  "ad": "Slavonski Brod",
+  "atlas_ad": null,
+  "lat": 45.1616,
+  "lon": 18.0163,
+  "kat1900": 3,
+  "adlar": [
+   "Brod (yerel, kısaca)",
+   "Brod na Savi (1934'e kadar)",
+   "Slawonisch Brod (Almanca)",
+   "Slavonski Brod"
+  ],
+  "ad_kaynak": "Hrvatska enciklopedija, 'Slavonski Brod' (enciklopedija.hr/clanak/slavonski-brod; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+  "ilk": {
+   "t": "1500-01-01",
+   "gun": "15. yüzyıl ikinci yarısı",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yuzyil",
+   "kaynak": "Hrvatska enciklopedija, 'Slavonski Brod' (enciklopedija.hr/clanak/slavonski-brod; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+   "tanik": "naselje Brod na rijeci Savi, odnosno današnji Slavonski Brod prvi se put spominje u drugoj polovici XV. st."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1500-01-01",
+    "t": "1536-01-01",
+    "d": "macaristan",
+    "kesinlik": "yuzyil",
+    "kaynak": "Hrvatska enciklopedija, 'Slavonski Brod' (enciklopedija.hr/clanak/slavonski-brod; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+    "ic_not": "f en geç tanıktan: HE 'XV. yy ikinci yarısı' ilk anılış, Berislavić Grabarski mülkiyeti (Hırvat-Macar Krallığı); güvenli uç 1500. 1526 Mohaç sonrası Habsburg-Macar tacı ic_not'ta"
+   },
+   {
+    "f": "1536-01-01",
+    "t": "1688-01-01",
+    "d": "osmanli",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija, 'Slavonski Brod' (enciklopedija.hr/clanak/slavonski-brod; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   },
+   {
+    "f": "1688-01-01",
+    "t": "1900-01-01",
+    "d": "habsburg",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija, 'Slavonski Brod' (enciklopedija.hr/clanak/slavonski-brod; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+    "ic_not": "HE: 1690 Osmanlı kısa süreli geri dönüş, 1691 Ekim kesin kurtuluş; 1716 Osmanlılar kaleyi tekrar ele geçirir ve terk ederken yakar — kısa kesintiler zincire yazılmadı"
+   }
+  ],
+  "olay": [
+   {
+    "t": "1536-01-01",
+    "gun": "1536",
+    "k": "fetih",
+    "b": "Osmanlılar şehri (kaleyi) ele geçirir; kadılık merkezi, kaptanlı garnizon, Aziz Marko kilisesi camiye çevrilir",
+    "kaynak": "Hrvatska enciklopedija, 'Slavonski Brod' (enciklopedija.hr/clanak/slavonski-brod; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   },
+   {
+    "t": "1688-01-01",
+    "gun": "1688",
+    "k": "fetih",
+    "b": "Hristiyan ordusu Brod'u kurtarır (1688); 1690 Osmanlı kısa geri dönüşü, Ekim 1691 kesin kurtuluş",
+    "kaynak": "Hrvatska enciklopedija, 'Slavonski Brod' (enciklopedija.hr/clanak/slavonski-brod; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   },
+   {
+    "t": "1716-01-01",
+    "gun": "1716",
+    "k": "savas",
+    "b": "Osmanlılar kaleyi tekrar ele geçirir; aynı yıl Drašković tarafından yenilince kaleyi yakarak terk eder",
+    "kaynak": "Hrvatska enciklopedija, 'Slavonski Brod' (enciklopedija.hr/clanak/slavonski-brod; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   },
+   {
+    "t": "1722-01-01",
+    "gun": "1722",
+    "k": "diger",
+    "b": "Osmanlılara karşı büyük bastionlu kale inşasına başlanır (1722-41)",
+    "kaynak": "Hrvatska enciklopedija, 'Slavonski Brod' (enciklopedija.hr/clanak/slavonski-brod; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   }
+  ],
+  "ic_not": "ilk: HE açıkça '1244 (Bela IV fermanı) yerel tezi tarihyazımına aykırı' der ve 'ancak XV. yy ikinci yarısı' ilk anılış olarak verir; 1244 yok sayıldı. Güvenli uç 1500-01-01. 1500-1526 ve 1526-36 Macar tacı ic_not'ta. Mükerrer: yok. TANIK KURALI: HE tam gövde birebir; şehir adı (Slavonski Brod) cümlede; yıl yüzyıl düzeyinde."
+ },
+ {
+  "id": "split-hr",
+  "ad": "Split",
+  "atlas_ad": null,
+  "lat": 43.5089,
+  "lon": 16.4392,
+  "kat1900": 3,
+  "adlar": [
+   "Aspálathos / Aspalatos (Yunanca; yeri HE'de 'olasılık')",
+   "Spalato (Tabula Peutingeriana, IV. yy)",
+   "Split"
+  ],
+  "ad_kaynak": "Hrvatska enciklopedija, 'Split' (enciklopedija.hr/clanak/split; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+  "ilk": {
+   "t": "0400-01-01",
+   "gun": "4. yüzyıl",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yuzyil",
+   "kaynak": "Hrvatska enciklopedija, 'Split' (enciklopedija.hr/clanak/split; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+   "tanik": "Današnje ime grada prvi je put zabilježeno u obliku Spalato na Tabuli Peutingeriani u IV. st."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0400-01-01",
+    "t": "1105-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yuzyil",
+    "kaynak": "Hrvatska enciklopedija, 'Split' (enciklopedija.hr/clanak/split; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+    "ic_not": "HE: Bizans Dalmaçyası, 803-812 Frank, 1165-80 Bizans yönetimi vb.; sürekli sahip sırası bu partide kurulmadı (beyanlı boşluk)"
+   },
+   {
+    "f": "1105-01-01",
+    "t": "1420-01-01",
+    "d": "macaristan",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija, 'Split' (enciklopedija.hr/clanak/split; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+    "ic_not": "f: 'Od 1105. grad je uglavnom priznavao suverenitet hrvatsko-ugarskih kraljeva'; 1165-80 Bizans ve 1403-13 arası kesintiler ic_not'ta"
+   },
+   {
+    "f": "1420-01-01",
+    "t": "1797-01-01",
+    "d": "venedik",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija, 'Split' (enciklopedija.hr/clanak/split; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   },
+   {
+    "f": "1797-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija, 'Split' (enciklopedija.hr/clanak/split; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+    "ic_not": "1797 sonrası: Split maddesi yalnız 'kısa Fransız egemenliği' der; komşu Šibenik maddesi 1797-1805 Habsburg, 1805-13 Fransız, 1813-1918 Habsburg verir — Split için şehre özgü sıra okunmadı"
+   }
+  ],
+  "olay": [
+   {
+    "t": "1105-01-01",
+    "gun": "1105",
+    "k": "diger",
+    "b": "Şehir Hırvat-Macar krallarının egemenliğini tanır (HE: 'Od 1105. ... uglavnom priznavao suverenitet')",
+    "kaynak": "Hrvatska enciklopedija, 'Split' (enciklopedija.hr/clanak/split; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   },
+   {
+    "t": "1420-01-01",
+    "gun": "1420",
+    "k": "fetih",
+    "b": "Venedik egemenliği başlar (1420-1797, kesintisiz)",
+    "kaynak": "Hrvatska enciklopedija, 'Split' (enciklopedija.hr/clanak/split; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   },
+   {
+    "t": "1797-01-01",
+    "gun": "1797",
+    "k": "kayip",
+    "b": "Venedik Cumhuriyeti egemenliğinin sonu (1797)",
+    "kaynak": "Hrvatska enciklopedija, 'Split' (enciklopedija.hr/clanak/split; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   },
+   {
+    "t": "0295-01-01",
+    "gun": "295",
+    "k": "kurulus",
+    "b": "Dioklecijan Sarayı'nın inşası (295-305)",
+    "kaynak": "Hrvatska enciklopedija, 'Split' (enciklopedija.hr/clanak/split; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   }
+  ],
+  "ic_not": "ilk: HE yalnız ADIN ilk kaydını (Spalato, Tabula Peutingeriana, IV. yy) verir; yüzyıl hassasiyeti, güvenli uç 400. Dioklecijan Sarayı 295-305 (HE) ve 'Aspalatos' adlı Yunan yerleşimi olasılığı (iki Yunanca yazıt, HE 'mogućnost') kuruluş tanığı sayılmadı. Zincir tek devlet ağırlıklı değil: kesintiler yukarıda beyan. Mükerrer taraması: LISTE+data'da yok. TANIK KURALI: HE tam gövde birebir (adın ilk kaydı; 'Split' adı cümlede 'grad' olarak geçer, Spalato biçimi yıl-yüzyılla aynı cümlede)."
+ },
+ {
+  "id": "virovitica-hr",
+  "ad": "Virovitica",
+  "atlas_ad": null,
+  "lat": 45.8345,
+  "lon": 17.3855,
+  "kat1900": 3,
+  "adlar": [
+   "Wereuche (magna villa Wereuche, Latince)",
+   "Wirowititz (Almanca)",
+   "Verőce (Macarca)",
+   "Virovitica"
+  ],
+  "ad_kaynak": "Hrvatska enciklopedija, 'Virovitica' (enciklopedija.hr/clanak/virovitica; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+  "ilk": {
+   "t": "1234-01-01",
+   "gun": "1234",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Hrvatska enciklopedija, 'Virovitica' (enciklopedija.hr/clanak/virovitica; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+   "tanik": "U srednjem vijeku Virovitica je bila sjedište male Virovitičke županije, a u pisanim vrelima spominje se 1234. kao magna villa Wereuche"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1234-01-01",
+    "t": "1552-01-01",
+    "d": "macaristan",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija, 'Virovitica' (enciklopedija.hr/clanak/virovitica; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+    "ic_not": "Hırvat-Macar Krallığı: 1241'den Macar kraliçelerinin mülkü; 1429/1437 Sigismund Marczaly kardeşlere"
+   },
+   {
+    "f": "1552-01-01",
+    "t": "1684-01-01",
+    "d": "osmanli",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija, 'Virovitica' (enciklopedija.hr/clanak/virovitica; gömülü tarayıcıda tam gövde, 17 Kas 2026)",
+    "ic_not": "HE: 1552-1684 Osmanlı egemenliği (1552 ya da en geç 1553 kadılık ve nahiye, Pojega sancağı)"
+   },
+   {
+    "f": "1684-01-01",
+    "t": "1900-01-01",
+    "d": "habsburg",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija, 'Virovitica' (enciklopedija.hr/clanak/virovitica; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   }
+  ],
+  "olay": [
+   {
+    "t": "1552-01-01",
+    "gun": "1552",
+    "k": "fetih",
+    "b": "Virovitica Osmanlı egemenliğine girer (1552-1684); kadılık ve nahiye 1552 ya da en geç 1553'te",
+    "kaynak": "Hrvatska enciklopedija, 'Virovitica' (enciklopedija.hr/clanak/virovitica; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   },
+   {
+    "t": "1684-01-01",
+    "gun": "1684",
+    "k": "fetih",
+    "b": "Osmanlı egemenliğinden kurtuluş; Askerî Sınır'a bağlanır",
+    "kaynak": "Hrvatska enciklopedija, 'Virovitica' (enciklopedija.hr/clanak/virovitica; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   },
+   {
+    "t": "1241-01-01",
+    "gun": "1241",
+    "k": "diger",
+    "b": "Virovitica mülkü Macar kraliçelerinin elinde (1241'den)",
+    "kaynak": "Hrvatska enciklopedija, 'Virovitica' (enciklopedija.hr/clanak/virovitica; gömülü tarayıcıda tam gövde, 17 Kas 2026)"
+   }
+  ],
+  "ic_not": "ilk: HE açık ilk anılış (1234, magna villa Wereuche); 1552'de Osmanlı: HE 'Vjerojatno su već 1552. ili najkasnije 1553. bili osnovani kadiluk' — fetih yılı 1552 alındı, belirsizlik not. Mükerrer: yok. TANIK KURALI: HE tam gövde birebir; şehir adı (Virovitica) ve 1234 aynı cümlede."
+ }
+];

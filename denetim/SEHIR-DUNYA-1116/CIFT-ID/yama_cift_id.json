@@ -1,0 +1,569 @@
+[
+ {
+  "id": "aleppo",
+  "islem": "birlestir",
+  "kalan_dosya": "k3_g1",
+  "dusen_dosya": "osm",
+  "neden": "iki kayıt özdeş (47 dönem/52 olay); k3_g1 30 olayda birebir tanık taşır, osm 0. Yalnız fark: Zengî ölümü 1146-09-14 (k3_g1, tanıklı; tarihte 14 Eylül 1146) vs 1146-06-13 (osm) → k3_g1 değeri kalır",
+  "tasinan_olay": [],
+  "tasinan_sahip": [],
+  "atlas_sonrasi_olay_tasinmadi": [],
+  "atlas_sonrasi_sahip_tasinmadi": [],
+  "simulasyon": "ÖLÇÜLEMEDİ (yerel atlas main'in gerisinde; kalan kayıt değişmeden de aynı ihlali veriyor; KASA main ağacında denetle ile ölç)",
+  "simulasyon_ihlal": []
+ },
+ {
+  "id": "alexandria",
+  "islem": "birlestir",
+  "kalan_dosya": "k3_g1",
+  "dusen_dosya": "osm",
+  "neden": "k3_g1 16 olayda tanıklı; osm 3 olay + 2 sahip dönemi (Eyyûbî 1171-1250, Memlûk 1250-1281) fazla → kalana taşınır",
+  "tasinan_olay": [],
+  "tasinan_sahip": [],
+  "atlas_sonrasi_olay_tasinmadi": [
+   {
+    "t": "1174-07-01",
+    "gun": "569 (Temmuz 1174)",
+    "k": "kusatma",
+    "b": "Sicilya Normanları'nın İskenderiye saldırısı püskürtüldü",
+    "kaynak": "TDV İSKENDERİYE; TDV EYYÛBÎLER (Temmuz 1174)"
+   },
+   {
+    "t": "1171-09-13",
+    "gun": "10 Muharrem 567 / 13 Eylül 1171",
+    "k": "darbe",
+    "b": "Selâhaddin Fâtımî hilâfetine son verip Abbâsîler adına hutbe okuttu; Eyyûbî dönemi",
+    "kaynak": "TDV EYYÛBÎLER: Abbâsîler adına hutbe '10 Muharrem 567 / 13 Eylül 1171'"
+   },
+   {
+    "t": "1250-05-04",
+    "gun": "30 Muharrem 648 / 4 Mayıs 1250",
+    "k": "darbe",
+    "b": "Turan Şah öldürüldü, Şecerüddür sultan; Mısır'da Memlûk dönemi başladı",
+    "kaynak": "TDV ŞECERÜDDÜR: Turan Şah öldürüldü, Şecerüddür sultan '30 Muharrem 648 / 4 Mayıs 1250'"
+   }
+  ],
+  "atlas_sonrasi_sahip_tasinmadi": [
+   {
+    "f": "1171-09-13",
+    "t": "1250-05-04",
+    "d": "eyyubi",
+    "kesinlik": "gun",
+    "kaynak": "TDV EYYÛBÎLER: Abbâsîler adına hutbe '10 Muharrem 567 / 13 Eylül 1171'"
+   },
+   {
+    "f": "1250-05-04",
+    "t": "1281-01-01",
+    "d": "memluk",
+    "kesinlik": "gun",
+    "kaynak": "TDV ŞECERÜDDÜR: Turan Şah öldürüldü, Şecerüddür sultan '30 Muharrem 648 / 4 Mayıs 1250'"
+   }
+  ],
+  "simulasyon": "ÖLÇÜLEMEDİ (yerel atlas main'in gerisinde; kalan kayıt değişmeden de aynı ihlali veriyor; KASA main ağacında denetle ile ölç)",
+  "simulasyon_ihlal": []
+ },
+ {
+  "id": "ankara",
+  "islem": "birlestir",
+  "kalan_dosya": "k3_g1",
+  "dusen_dosya": "osm",
+  "neden": "olaylar özdeş; k3_g1 10 tanıklı olay; osm 1 ek sahip dönemi (Danişmendli 1127-1134) → taşınır",
+  "tasinan_olay": [],
+  "tasinan_sahip": [],
+  "atlas_sonrasi_olay_tasinmadi": [],
+  "atlas_sonrasi_sahip_tasinmadi": [
+   {
+    "f": "1127-01-01",
+    "t": "1134-01-01",
+    "d": "danismendli",
+    "kesinlik": "yil",
+    "kaynak": "TDV ANKARA 2. bölüm (A. Özaydın): 'Emîr Gazi 1127’de burayı ... I. Kılıcarslan’ın oğlu Melik Arab’dan almıştır'"
+   }
+  ],
+  "simulasyon": "ÖLÇÜLEMEDİ (yerel atlas main'in gerisinde; kalan kayıt değişmeden de aynı ihlali veriyor; KASA main ağacında denetle ile ölç)",
+  "simulasyon_ihlal": []
+ },
+ {
+  "id": "cairo",
+  "islem": "birlestir",
+  "kalan_dosya": "osm",
+  "dusen_dosya": "k3_g1",
+  "neden": "k3_g1 yalnız 1 olay/0 sahip; osm 3 dönem + 8 olay (k3_g1 olayı osm'de var) → osm kalır, k3_g1 düşer",
+  "tasinan_olay": [],
+  "tasinan_sahip": [],
+  "atlas_sonrasi_olay_tasinmadi": [],
+  "atlas_sonrasi_sahip_tasinmadi": [],
+  "simulasyon": "ÖLÇÜLEMEDİ (yerel atlas main'in gerisinde; kalan kayıt değişmeden de aynı ihlali veriyor; KASA main ağacında denetle ile ölç)",
+  "simulasyon_ihlal": []
+ },
+ {
+  "id": "damascus",
+  "islem": "birlestir",
+  "kalan_dosya": "k3_g1",
+  "dusen_dosya": "osm",
+  "neden": "k3_g1 16 tanıklı olay; osm 14 olay + 8 sahip dönemi (Atsız…Eyyûbî-Halep 1075-1260) fazla → taşınır",
+  "tasinan_olay": [],
+  "tasinan_sahip": [],
+  "atlas_sonrasi_olay_tasinmadi": [
+   {
+    "t": "1069-01-01",
+    "gun": "461/1069",
+    "k": "isyan",
+    "b": "Fâtımîler'e karşı isyan; Emeviyye Camii'nin bir kısmı yandı",
+    "kaynak": "TDV ŞAM (C. Tomar)"
+   },
+   {
+    "t": "1075-08-16",
+    "gun": "468/1075",
+    "k": "fetih",
+    "b": "Atsız b. Uvak Dımaşk'ı aldı; hutbe Abbâsî halifesi ve Melikşah adına",
+    "kaynak": "TDV ŞAM (C. Tomar); TDV ATSIZ b. UVAK (A. Sevim)"
+   },
+   {
+    "t": "1077-02-07",
+    "gun": "7 Şubat 1077",
+    "k": "savas",
+    "b": "Atsız Kahire önünde yenildi, Dımaşk'a döndü",
+    "kaynak": "TDV ATSIZ b. UVAK (A. Sevim)"
+   },
+   {
+    "t": "1079-01-01",
+    "gun": "471/1079",
+    "k": "fetih",
+    "b": "Tutuş Dımaşk'a girdi, Atsız'ı boğdurdu; Suriye Selçuklu Devleti",
+    "kaynak": "TDV TUTUŞ (A. Özaydın)"
+   },
+   {
+    "t": "1104-06-06",
+    "gun": "6 Haziran 1104",
+    "k": "kurulus",
+    "b": "Dukak öldü; Atabeg Tuğtegin Dımaşk Atabegliği'ni (Börîler) kurdu",
+    "kaynak": "TDV DUKAK b. TUTUŞ (A. Özaydın)"
+   },
+   {
+    "t": "1148-07-24",
+    "gun": "543/1148",
+    "k": "kusatma",
+    "b": "II. Haçlı Seferi Dımaşk kuşatması başarısız",
+    "kaynak": "TDV ŞAM (C. Tomar); gün genel kronoloji (ayrıca doğrulanmadı)"
+   },
+   {
+    "t": "1154-04-25",
+    "gun": "549/1154",
+    "k": "fetih",
+    "b": "Nûreddin Mahmud Zengî Dımaşk'ı aldı",
+    "kaynak": "TDV ŞAM (C. Tomar); gün genel kronoloji (ayrıca doğrulanmadı)"
+   },
+   {
+    "t": "1174-10-12",
+    "gun": "570/1174",
+    "k": "fetih",
+    "b": "Selâhaddîn-i Eyyûbî Kahire'den çıkıp Dımaşk'a girdi",
+    "kaynak": "TDV SELÂHADDÎN-i EYYÛBÎ (R. Şeşen); TDV ŞAM (C. Tomar)"
+   },
+   {
+    "t": "1201-01-01",
+    "gun": "598/1201",
+    "k": "diger",
+    "b": "deprem",
+    "kaynak": "TDV ŞAM (C. Tomar)"
+   },
+   {
+    "t": "1229-01-01",
+    "gun": "626/1229",
+    "k": "fetih",
+    "b": "el-Melikü'l-Kâmil Dımaşk'ı el-Melikü'n-Nâsır Dâvûd'dan alıp el-Eşref'e verdi",
+    "kaynak": "TDV ŞAM (C. Tomar)"
+   },
+   {
+    "t": "1245-01-01",
+    "gun": "643/1245",
+    "k": "fetih",
+    "b": "el-Melikü's-Sâlih Eyyûb'un kuvvetleri Dımaşk'ı zaptetti",
+    "kaynak": "TDV ŞAM (C. Tomar)"
+   },
+   {
+    "t": "1250-04-30",
+    "gun": "30 Nisan 1250",
+    "k": "isyan",
+    "b": "Turan Şah öldürüldü; Halep Eyyûbîsi en-Nâsır Yûsuf Dımaşk'a hâkim oldu (648/1250)",
+    "kaynak": "TDV EYYÛBÎLER (R. Şeşen); TDV ŞAM (C. Tomar)"
+   },
+   {
+    "t": "1260-03-01",
+    "gun": "Rebîülevvel 658 / Mart 1260",
+    "k": "fetih",
+    "b": "Moğollar Dımaşk'ı aldı; batı surları ve kale tahrip edildi",
+    "kaynak": "TDV ŞAM (C. Tomar)"
+   },
+   {
+    "t": "1260-09-03",
+    "gun": "3 Eylül 1260",
+    "k": "savas",
+    "b": "Aynicâlût: Memlükler Moğollar'ı yendi; Kutuz Dımaşk'a girdi",
+    "kaynak": "TDV AYNİCÂLÛT SAVAŞI (A. Özaydın)"
+   }
+  ],
+  "atlas_sonrasi_sahip_tasinmadi": [
+   {
+    "f": "1075-08-16",
+    "t": "1079-01-01",
+    "d": "atsiz-beyligi",
+    "kesinlik": "yil",
+    "kaynak": "TDV ATSIZ b. UVAK (A. Sevim); TDV ŞAM (C. Tomar); TDV TUTUŞ (A. Özaydın): '471'de (1079) Dımaşk'a giren Tutuş'",
+    "ic_not": "Önerilen künye: atsiz-beyligi — Türkmen emîri Atsız b. Uvak'ın Kudüs-Dımaşk beyliği (1071-1079, merkezi 1075/76'dan Dımaşk; Büyük Selçuklu metbû, hutbe Melikşah adına; TDV ATSIZ b. UVAK). t: hicrî 471 ∩ 1079 → 1079-01-01 (İbn Asâkir 472 der)."
+   },
+   {
+    "f": "1079-01-01",
+    "t": "1104-06-06",
+    "d": "suriye-selcuklu",
+    "kesinlik": {
+     "f": "yil",
+     "t": "gun"
+    },
+    "kaynak": "TDV TUTUŞ (A. Özaydın); TDV DUKAK b. TUTUŞ (A. Özaydın): 'Dukak 10 Ramazan 497'de (6 Haziran 1104) vefat etti'",
+    "ic_not": "1095'ten Dukak'ın Dımaşk Selçuklu Melikliği (Suriye Selçukluları'nın Dımaşk şubesi) — aynı künye."
+   },
+   {
+    "f": "1104-06-06",
+    "t": "1154-04-25",
+    "d": "boriler",
+    "kesinlik": "gun",
+    "kaynak": "TDV DUKAK b. TUTUŞ (A. Özaydın); TDV ŞAM (C. Tomar): 'Nûreddin ... 549'da (1154) Dımaşk'ı hâkimiyeti altına aldı'",
+    "ic_not": "t: künye boriler bitişiyle aynı gün; TDV yalnız 549/1154 verir — gün genel kronoloji (ayrıca doğrulanmadı)."
+   },
+   {
+    "f": "1154-04-25",
+    "t": "1174-10-12",
+    "d": "zengi-halep",
+    "kesinlik": {
+     "f": "gun",
+     "t": "yil"
+    },
+    "kaynak": "TDV ŞAM (C. Tomar); TDV SELÂHADDÎN-i EYYÛBÎ (R. Şeşen): '13 Rebîülevvel 570'te (12 Ekim 1174) ... Kahire'den Dımaşk'a hareket eden Selâhaddin'",
+    "ic_not": "t: TDV ŞAM '(570/1174)'; hicrî 570 ∩ 1174 ∩ Kahire'den çıkış (12 Ekim 1174) → 1174-10-12; Dımaşk'a giriş birkaç hafta sonra (gün yok). Nûreddin 1174'te öldü; şehir oğlu es-Sâlih İsmâil'in (Zengî) adına yönetildi."
+   },
+   {
+    "f": "1174-10-12",
+    "t": "1250-04-30",
+    "d": "eyyubi",
+    "kesinlik": {
+     "f": "yil",
+     "t": "gun"
+    },
+    "kaynak": "TDV ŞAM (C. Tomar); TDV EYYÛBÎLER (R. Şeşen)",
+    "ic_not": "Eyyûbî Dımaşk kolu (el-Efdal, el-Âdil, el-Muazzam, el-Eşref, es-Sâlih İsmâil) ayrı künye taşımıyor; 1193-1250 iç el değiştirmeleri olay olarak yazıldı. t: Turan Şah'ın öldürülmesi (30 Nisan 1250, TDV EYYÛBÎLER)."
+   },
+   {
+    "f": "1250-04-30",
+    "t": "1260-03-01",
+    "d": "eyyubi-halep",
+    "kesinlik": {
+     "f": "yil",
+     "t": "ay"
+    },
+    "kaynak": "TDV ŞAM (C. Tomar): 'el-Melikü'n-Nâsır Yûsuf ... Dımaşk'ta hâkimiyeti sağladı (648/1250)'; 'Moğollar'ın eline geçti (Rebîülevvel 658 / Mart 1260)'",
+    "ic_not": "f: hicrî 648 (4 Nisan 1250 – 23 Mart 1251) ∩ 1250 = 4 Nisan; öncül uç (Turan Şah 30 Nisan 1250'ye dek sultan) ile çakıştığından 1250-04-30. Nâsır'ın girişi daha sonradır (gün yok). Künye eyyubi-halep 1260-01-01'de bitiyor; TDV Moğol girişini Mart 1260 verir."
+   },
+   {
+    "f": "1260-03-01",
+    "t": "1260-09-03",
+    "d": "ilhanli",
+    "kesinlik": {
+     "f": "ay",
+     "t": "gun"
+    },
+    "kaynak": "TDV ŞAM (C. Tomar); TDV AYNİCÂLÛT SAVAŞI (A. Özaydın): '25 Ramazan 658 / 3 Eylül 1260'",
+    "ic_not": "t = Aynicâlût günü; Kutuz Dımaşk'a savaştan sonra girdi (gün yok)."
+   },
+   {
+    "f": "1260-09-03",
+    "t": "1281-01-01",
+    "d": "memluk",
+    "kesinlik": "gun",
+    "kaynak": "TDV AYNİCÂLÛT SAVAŞI (A. Özaydın); TDV ŞAM (C. Tomar); TDV MEMLÜKLER (İ. Yiğit)"
+   }
+  ],
+  "simulasyon": "ÖLÇÜLEMEDİ (yerel atlas main'in gerisinde; kalan kayıt değişmeden de aynı ihlali veriyor; KASA main ağacında denetle ile ölç)",
+  "simulasyon_ihlal": []
+ },
+ {
+  "id": "istanbul",
+  "islem": "birlestir",
+  "kalan_dosya": "k3_g1",
+  "dusen_dosya": "osm",
+  "neden": "iki kayıt özdeş; k3_g1 tanıklı olay 2, osm 0 → k3_g1 kalır",
+  "tasinan_olay": [],
+  "tasinan_sahip": [],
+  "atlas_sonrasi_olay_tasinmadi": [],
+  "atlas_sonrasi_sahip_tasinmadi": [],
+  "simulasyon": "ÖLÇÜLEMEDİ (yerel atlas main'in gerisinde; kalan kayıt değişmeden de aynı ihlali veriyor; KASA main ağacında denetle ile ölç)",
+  "simulasyon_ihlal": []
+ },
+ {
+  "id": "jerusalem",
+  "islem": "birlestir",
+  "kalan_dosya": "k3_g1",
+  "dusen_dosya": "osm",
+  "neden": "k3_g1 19 tanıklı olay; osm 2 olay + 3 sahip dönemi (Memlûk/Eyyûbî-Halep 1253-1281) fazla → taşınır",
+  "tasinan_olay": [],
+  "tasinan_sahip": [],
+  "atlas_sonrasi_olay_tasinmadi": [
+   {
+    "t": "1256-01-30",
+    "gun": "654 (1256)",
+    "k": "fetih",
+    "b": "Filistin ve Kudüs tekrar Eyyûbîler'in eline geçti",
+    "kaynak": "TDV KUDÜS 4. bölüm; hicrî 654 ∩ 1256"
+   },
+   {
+    "t": "1260-09-03",
+    "gun": "25 Ramazan 658 / 3 Eylül 1260",
+    "k": "savas",
+    "b": "Aynicâlût zaferi; Eyyûbî hânedanı sona erdi, Kudüs Memlük'te",
+    "kaynak": "TDV AYNİCÂLÛT SAVAŞI (A. Özaydın); TDV KUDÜS 4. bölüm"
+   }
+  ],
+  "atlas_sonrasi_sahip_tasinmadi": [
+   {
+    "f": "1253-04-02",
+    "t": "1256-01-30",
+    "d": "memluk",
+    "kesinlik": {
+     "f": "ay",
+     "t": "yil"
+    },
+    "kaynak": "TDV KUDÜS 4. bölüm (C. Tomar): Safer 651 / Nisan 1253; 'Filistin ve Kudüs 654 (1256) yılında tekrar Eyyûbîler’in eline geçti'; hicrî 654 ∩ 1256"
+   },
+   {
+    "f": "1256-01-30",
+    "t": "1260-09-03",
+    "d": "eyyubi-halep",
+    "kesinlik": {
+     "f": "yil",
+     "t": "gun"
+    },
+    "kaynak": "TDV KUDÜS 4. bölüm (C. Tomar): 654 (1256); Aynicâlût (1260); TDV AYNİCÂLÛT SAVAŞI (A. Özaydın): 25 Ramazan 658 / 3 Eylül 1260",
+    "ic_not": "TDV hangi Eyyûbî kolu olduğunu yazmaz; dönemin Suriye Eyyûbî hükümdarı el-Melikü'n-Nâsır Yûsuf (Halep-Dımaşk) varsayıldı — beyanlı yaklaşıklık. 1260 Moğol akını. Künye eyyubi-halep 1260-01-01'de bitiyor (hayalet uyarısı): el-Melikü'n-Nâsır Yûsuf'un Suriye'deki hâkimiyeti 1260 başında Moğol istilasıyla çöktü; Kudüs'ün Şubat–Eylül 1260 arası durumu (Moğol akını) TDV'de yok — t Aynicâlût günü üst sınırdır."
+   },
+   {
+    "f": "1260-09-03",
+    "t": "1281-01-01",
+    "d": "memluk",
+    "kesinlik": "gun",
+    "kaynak": "TDV KUDÜS 4. bölüm (C. Tomar): 'Aynicâlût zaferiyle (1260) Eyyûbî hânedanı da sona erdi'; TDV AYNİCÂLÛT SAVAŞI",
+    "ic_not": "f Aynicâlût günü — Kudüs'e Memlük girişinin kendi günü yok (alt sınır)."
+   }
+  ],
+  "simulasyon": "ÖLÇÜLEMEDİ (yerel atlas main'in gerisinde; kalan kayıt değişmeden de aynı ihlali veriyor; KASA main ağacında denetle ile ölç)",
+  "simulasyon_ihlal": []
+ },
+ {
+  "id": "konya",
+  "islem": "birlestir",
+  "kalan_dosya": "k3_g1",
+  "dusen_dosya": "osm",
+  "neden": "iki kayıt özdeş; k3_g1 5 tanıklı olay, osm 0 → k3_g1 kalır",
+  "tasinan_olay": [],
+  "tasinan_sahip": [],
+  "atlas_sonrasi_olay_tasinmadi": [],
+  "atlas_sonrasi_sahip_tasinmadi": [],
+  "simulasyon": "ÖLÇÜLEMEDİ (yerel atlas main'in gerisinde; kalan kayıt değişmeden de aynı ihlali veriyor; KASA main ağacında denetle ile ölç)",
+  "simulasyon_ihlal": []
+ },
+ {
+  "id": "thessaloniki",
+  "islem": "birlestir",
+  "kalan_dosya": "k3_g1",
+  "dusen_dosya": "osm",
+  "neden": "k3_g1 tanıklı; osm 2 olay + 2 sahip dönemi (İznik 1246-1261, Bizans 1261-1281) fazla → taşınır",
+  "tasinan_olay": [],
+  "tasinan_sahip": [],
+  "atlas_sonrasi_olay_tasinmadi": [
+   {
+    "t": "1246-12-01",
+    "gun": "Aralık 1246",
+    "k": "fetih",
+    "b": "İznik İmparatoru III. Ioannes Vatatzes Selanik'i aldı",
+    "kaynak": "Georgios Akropolites, Historia §46 (doğrulanmadı)"
+   },
+   {
+    "t": "1261-07-25",
+    "gun": "25 Temmuz 1261",
+    "k": "diger",
+    "b": "künye geçişi: İstanbul geri alındı; İznik İmparatorluğu → Bizans",
+    "kaynak": "iznik-imparatorlugu/bizans künyeleri (genel kronoloji)"
+   }
+  ],
+  "atlas_sonrasi_sahip_tasinmadi": [
+   {
+    "f": "1246-12-01",
+    "t": "1261-07-25",
+    "d": "iznik-imparatorlugu",
+    "kesinlik": {
+     "f": "ay",
+     "t": "gun"
+    },
+    "kaynak": "Akropolites §46 (doğrulanmadı); iznik-imparatorlugu künyesi (t)"
+   },
+   {
+    "f": "1261-07-25",
+    "t": "1281-01-01",
+    "d": "bizans",
+    "kesinlik": "gun",
+    "kaynak": "TDV SELÂNİK ('XIII ve XIV. yüzyıllar şehir için Bizans kültürünün olgunluk çağları oldu')",
+    "ic_not": "Dikiş düz (atlas: bizans 1281-01-01)."
+   }
+  ],
+  "simulasyon": "ÖLÇÜLEMEDİ (yerel atlas main'in gerisinde; kalan kayıt değişmeden de aynı ihlali veriyor; KASA main ağacında denetle ile ölç)",
+  "simulasyon_ihlal": []
+ },
+ {
+  "id": "rabat-ma",
+  "islem": "birlestir",
+  "kalan_dosya": "k3",
+  "dusen_dosya": "magrip",
+  "neden": "k3: ilk 1150-04-30 (gün) + 2 tanıklı olay; magrip: ilk 1150 yıl, tanıkta şehir adı yok (UMIT beyanı), olaylar TDV tabanlı → k3 kalır, magrip'in 7 TDV olayı taşınır",
+  "tasinan_olay": [
+   {
+    "t": "1184-01-01",
+    "gun": "1184-1199",
+    "k": "kurulus",
+    "b": "Ebû Yûsuf el-Mansûr dönemi (1184-1199) şehrin asıl kuruluş ve imar programı: bugün hâlâ ayakta kalan surlar ve Hassan Camii (tamamlanmadı).",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'RABAT', https://islamansiklopedisi.org.tr/rabat",
+    "ic_not": "Aralığın ilk yılı."
+   },
+   {
+    "t": "1212-01-01",
+    "gun": "1212 (609 h.)",
+    "k": "savas",
+    "b": "Muvahhidler İkāb'da yenildi; bundan sonra Rabat gerilemeye başladı.",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'RABAT', https://islamansiklopedisi.org.tr/rabat"
+   },
+   {
+    "t": "1609-01-01",
+    "gun": "1609-1614",
+    "k": "diger",
+    "b": "Endülüs'ten sürülen Müslümanlar Rabat ve Selâ'ya yerleştirildi.",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'RABAT', https://islamansiklopedisi.org.tr/rabat",
+    "ic_not": "Aralığın ilk yılı."
+   },
+   {
+    "t": "1757-01-01",
+    "gun": "1757-1790",
+    "k": "idari",
+    "b": "III. Muhammed Rabat'ı üçüncü başkent yaptı, saray yaptırdı.",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'RABAT', https://islamansiklopedisi.org.tr/rabat",
+    "ic_not": "Aralığın ilk yılı."
+   },
+   {
+    "t": "1911-07-19",
+    "gun": "19 Temmuz 1911",
+    "k": "isgal",
+    "b": "Fransız kuvvetleri Rabat ve Selâ'yı işgal etti.",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'RABAT', https://islamansiklopedisi.org.tr/rabat"
+   },
+   {
+    "t": "1912-03-30",
+    "gun": "30 Mart 1912",
+    "k": "antlasma",
+    "b": "Fransa ile Fas arasında koruma (himaye) antlaşması imzalandı.",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'FAS (Fes şehri)', https://islamansiklopedisi.org.tr/fas--fas"
+   },
+   {
+    "t": "1912-01-01",
+    "gun": "1912",
+    "k": "idari",
+    "b": "Mareşal Lyautey idarî merkezi Fes'ten Rabat'a taşıdı; Rabat Fransız himayesinin başkenti oldu.",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'RABAT', https://islamansiklopedisi.org.tr/rabat",
+    "ic_not": "Gün yok; himaye antlaşması günü ayrı olay."
+   }
+  ],
+  "tasinan_sahip": [],
+  "atlas_sonrasi_olay_tasinmadi": [],
+  "atlas_sonrasi_sahip_tasinmadi": [],
+  "simulasyon": "1 şehir · 0 sahiplik dönemi · 9 olay · ihlal 0 · uyarı 1",
+  "simulasyon_ihlal": []
+ },
+ {
+  "id": "tanca-ma",
+  "islem": "birlestir",
+  "kalan_dosya": "k3",
+  "dusen_dosya": "magrip",
+  "neden": "k3: 13 sahip dönemi + 16 tanıklı olay, ilk MÖ 814 (TDV Fenike kuruluşu); magrip: sahip yok, olaylar TDV tabanlı, ilk 0079 Plinius (yıl yok) → k3 kalır, magrip'in yalnız-ona-ait olayları taşınır",
+  "tasinan_olay": [],
+  "tasinan_sahip": [],
+  "atlas_sonrasi_olay_tasinmadi": [
+   {
+    "t": "1471-08-28",
+    "gun": "28 Ağustos 1471",
+    "k": "fetih",
+    "b": "Portekiz şehri işgal etti; boğazı denetleyen askerî liman olarak kullandı.",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'TANCA', https://islamansiklopedisi.org.tr/tanca"
+   },
+   {
+    "t": "1581-01-01",
+    "gun": "1581",
+    "k": "idari",
+    "b": "İber birliği: Tanca İspanya yönetimine girdi (1581-1640).",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'TANCA', https://islamansiklopedisi.org.tr/tanca"
+   },
+   {
+    "t": "1640-01-01",
+    "gun": "1640",
+    "k": "idari",
+    "b": "Tanca Portekiz'e geri döndü.",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'TANCA', https://islamansiklopedisi.org.tr/tanca"
+   },
+   {
+    "t": "1661-01-01",
+    "gun": "1661",
+    "k": "diger",
+    "b": "II. Charles'ın Braganza prensesiyle evliliği çeyizinin parçası olarak Tanca İngiltere'ye geçti.",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'TANCA', https://islamansiklopedisi.org.tr/tanca"
+   },
+   {
+    "t": "1684-01-01",
+    "gun": "1095 h. (1684)",
+    "k": "fetih",
+    "b": "Mevlây İsmâil'in kuvvetleri, İngilizler şehri boşaltırken Tanca'yı geri aldı; İngilizler limanı ve surları büyük ölçüde yıktı.",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'TANCA', https://islamansiklopedisi.org.tr/tanca",
+    "ic_not": "TDV 1095/1684 verir; gün yok."
+   },
+   {
+    "t": "1844-01-01",
+    "gun": "1844",
+    "k": "isgal",
+    "b": "Fransız filosu şehre zarar verip işgal etti; aynı yıl boşaltıldı.",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'TANCA', https://islamansiklopedisi.org.tr/tanca"
+   },
+   {
+    "t": "1923-01-01",
+    "gun": "1923",
+    "k": "idari",
+    "b": "Tanca büyük güçleri temsil eden bir konseyin yönettiği uluslararası bölge oldu.",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'TANCA', https://islamansiklopedisi.org.tr/tanca",
+    "ic_not": "TDV yalnız yıl verir."
+   },
+   {
+    "t": "1956-01-01",
+    "gun": "1956",
+    "k": "idari",
+    "b": "Fas'ın bağımsızlığıyla Tanca Fas'a katıldı.",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'TANCA', https://islamansiklopedisi.org.tr/tanca",
+    "ic_not": "TDV yalnız yıl verir."
+   }
+  ],
+  "atlas_sonrasi_sahip_tasinmadi": [],
+  "simulasyon": "ÖLÇÜLEMEDİ (yerel atlas main'in gerisinde; kalan kayıt değişmeden de aynı ihlali veriyor; KASA main ağacında denetle ile ölç)",
+  "simulasyon_ihlal": []
+ },
+ {
+  "id": "susa",
+  "islem": "id_yeniden_adlandir",
+  "dosya": "sehir_tarihce_k12.js",
+  "eski_id": "susa",
+  "yeni_id": "susa-karabag",
+  "neden": "AYNI id AYNI YER DEĞİL: arkeoloji d2-iran-orta-asya \"Susa\" (Elam, MÖ 3999) ≠ k12 \"Şuşa\" (Karabağ, 1750). Birleştirme YOK; k12 kaydı id'si \"susa\" → \"susa-karabag\" yeniden adlandırılır"
+ }
+]

@@ -1,0 +1,923 @@
+[
+ {
+  "id": "bicapur-in",
+  "ad_kaynak": [
+   {
+    "ad": "Vicayapura",
+    "dil": "sa",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'BÎCÂPÛR' https://islamansiklopedisi.org.tr/bicapur",
+    "kanit": "eski Vicayapura’dan gelmektedir"
+   },
+   {
+    "ad": "Bîcâpûr",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'BÎCÂPÛR' https://islamansiklopedisi.org.tr/bicapur",
+    "kanit": "Güney Hindistan’da Haydarâbâd’ın batısında bulunan Bîcâpûr’un adı"
+   },
+   {
+    "ad": "Bijapur",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Vijayapura (Bijapur)' https://www.britannica.com/place/Vijayapura",
+    "kanit": "Also called: Bijapur"
+   },
+   {
+    "ad": "Vijayapura",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Vijayapura (Bijapur)' https://www.britannica.com/place/Vijayapura",
+    "kanit": "Tomb of Gol Gumbaz, Vijayapura, Karnataka, India."
+   },
+   {
+    "ad": "Биджапур",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Биджапур' https://ru.wikisource.org/wiki/ЭСБЕ/Биджапур",
+    "kanit": "Биджапур — город в Британской Индии, в президентстве Бомбей"
+   }
+  ],
+  "adlar_sira": [
+   "Vicayapura",
+   "Bîcâpûr",
+   "Bijapur",
+   "Vijayapura"
+  ],
+  "kaynaksiz": []
+ },
+ {
+  "id": "golkonda-in",
+  "ad_kaynak": [
+   {
+    "ad": "Gûlkünde",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'GÛLKÜNDE' https://islamansiklopedisi.org.tr/gulkunde",
+    "kanit": "Eski bir Hindu kalesi olan Gûlkünde (Golkonda)"
+   },
+   {
+    "ad": "Golkonda",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'GÛLKÜNDE' https://islamansiklopedisi.org.tr/gulkunde",
+    "kanit": "Eski bir Hindu kalesi olan Gûlkünde (Golkonda)"
+   },
+   {
+    "ad": "Голконда",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Голконда' https://ru.wikisource.org/wiki/ЭСБЕ/Голконда",
+    "kanit": "Голконда — крепость и развалины города"
+   }
+  ],
+  "adlar_sira": [
+   "Gûlkünde",
+   "Golkonda"
+  ],
+  "kaynaksiz": []
+ },
+ {
+  "id": "bidar-in",
+  "ad_kaynak": [
+   {
+    "ad": "Bîder",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'MUHAMMEDÂBÂD' https://islamansiklopedisi.org.tr/muhammedabad",
+    "kanit": "günümüzde Bîder adıyla bilinmektedir"
+   },
+   {
+    "ad": "Muhammedâbâd",
+    "dil": "tr-osm",
+    "donem": "1424-",
+    "kaynak": "TDV İslâm Ansiklopedisi 'MUHAMMEDÂBÂD' https://islamansiklopedisi.org.tr/muhammedabad",
+    "kanit": "adını Muhammedâbâd olarak değiştirdi"
+   }
+  ],
+  "adlar_sira": [
+   "Bîder",
+   "Muhammedâbâd",
+   "Bîdar"
+  ],
+  "kaynaksiz": [
+   "Bîdar"
+  ]
+ },
+ {
+  "id": "gvalyar-in",
+  "ad_kaynak": [
+   {
+    "ad": "Gevâliyâr",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'GEVÂLİYÂR' https://islamansiklopedisi.org.tr/gevaliyar",
+    "kanit": "Gevâliyâr (Gwalior) Kalesi’ni kuşattı"
+   },
+   {
+    "ad": "Gwalior",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'GEVÂLİYÂR' https://islamansiklopedisi.org.tr/gevaliyar",
+    "kanit": "Gevâliyâr (Gwalior) Kalesi’ni kuşattı"
+   },
+   {
+    "ad": "Гвалиор",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Гвалиор, город' https://ru.wikisource.org/wiki/ЭСБЕ/Гвалиор, город",
+    "kanit": "Гвалиор (Gwalior) — главный город государства"
+   }
+  ],
+  "adlar_sira": [
+   "Gevâliyâr",
+   "Gwalior"
+  ],
+  "kaynaksiz": []
+ },
+ {
+  "id": "uccayn-in",
+  "ad_kaynak": [
+   {
+    "ad": "Ozene",
+    "dil": "grc",
+    "donem": "0101-0200",
+    "kaynak": "Encyclopaedia Britannica 'Ujjain' https://www.britannica.com/place/Ujjain",
+    "kanit": "known to the Greek geographer Ptolemy in the 2nd century ce as Ozene"
+   },
+   {
+    "ad": "Ujjain",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Ujjain' https://www.britannica.com/place/Ujjain",
+    "kanit": "Ujjain is one of seven sacred Hindu cities."
+   }
+  ],
+  "adlar_sira": [
+   "Ozene",
+   "Ujjain"
+  ],
+  "kaynaksiz": [
+   "Ujjayini"
+  ]
+ },
+ {
+  "id": "mathura-in",
+  "ad_kaynak": [
+   {
+    "ad": "Mathûrâ",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'MAHMÛD-ı GAZNEVÎ' https://islamansiklopedisi.org.tr/mahmud-i-gaznevi",
+    "kanit": "bulunan Mathûrâ (Muttra) şehrine hâkim oldu"
+   },
+   {
+    "ad": "Muttra",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'MAHMÛD-ı GAZNEVÎ' https://islamansiklopedisi.org.tr/mahmud-i-gaznevi",
+    "kanit": "bulunan Mathûrâ (Muttra) şehrine hâkim oldu"
+   },
+   {
+    "ad": "Muttra",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Mathura' https://www.britannica.com/place/Mathura",
+    "kanit": "Mathura India Ask Anything Homework Help Also known as: Muttra"
+   },
+   {
+    "ad": "Mathura",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Mathura' https://www.britannica.com/place/Mathura",
+    "kanit": "Mathura India Ask Anything Homework Help Also known as: Muttra"
+   },
+   {
+    "ad": "Матхура",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Матхура' https://ru.wikisource.org/wiki/ЭСБЕ/Матхура",
+    "kanit": "Матхура (Mathurâ) — древний город Индии, один из семи священных"
+   },
+   {
+    "ad": "Муттра",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Матхура' https://ru.wikisource.org/wiki/ЭСБЕ/Матхура",
+    "kanit": "теперь называется Муттра, или Матура"
+   },
+   {
+    "ad": "Матура",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Матхура' https://ru.wikisource.org/wiki/ЭСБЕ/Матхура",
+    "kanit": "теперь называется Муттра, или Матура"
+   }
+  ],
+  "adlar_sira": [
+   "Mathura",
+   "Muttra"
+  ],
+  "kaynaksiz": []
+ },
+ {
+  "id": "kanbayet-in",
+  "ad_kaynak": [
+   {
+    "ad": "Cambay",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Khambhat' https://www.britannica.com/place/Khambhat",
+    "kanit": "Also known as: Cambay"
+   },
+   {
+    "ad": "Khambhat",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Khambhat' https://www.britannica.com/place/Khambhat",
+    "kanit": "It lies at the head of the Gulf of Khambhat (Cambay)"
+   }
+  ],
+  "adlar_sira": [
+   "Stambha",
+   "Cambay",
+   "Khambhat"
+  ],
+  "kaynaksiz": [
+   "Stambha"
+  ]
+ },
+ {
+  "id": "kannauc-in-a3",
+  "ad_kaynak": [
+   {
+    "ad": "Kannevc",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'MAHMÛD-ı GAZNEVÎ' https://islamansiklopedisi.org.tr/mahmud-i-gaznevi",
+    "kanit": "Sultanın asıl hedefi olan Kannevc ise 8 Şâban 409’da"
+   },
+   {
+    "ad": "Cannauj",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Kannauj' https://www.britannica.com/place/Kannauj",
+    "kanit": "Also known as: Cannauj, Kanauj, Kanyakubja"
+   },
+   {
+    "ad": "Kanauj",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Kannauj' https://www.britannica.com/place/Kannauj",
+    "kanit": "Also known as: Cannauj, Kanauj, Kanyakubja"
+   },
+   {
+    "ad": "Kanyakubja",
+    "dil": "sa",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Kannauj' https://www.britannica.com/place/Kannauj",
+    "kanit": "Also known as: Cannauj, Kanauj, Kanyakubja"
+   },
+   {
+    "ad": "Kannauj",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Kannauj' https://www.britannica.com/place/Kannauj",
+    "kanit": "Kannauj India Ask Anything Homework Help Also known as: Cannauj"
+   }
+  ],
+  "adlar_sira": [
+   "Kannevc",
+   "Kanyakubja",
+   "Cannauj",
+   "Kanauj",
+   "Kannauj"
+  ],
+  "kaynaksiz": []
+ },
+ {
+  "id": "gazne-af",
+  "ad_kaynak": [
+   {
+    "ad": "Genzek",
+    "dil": "und",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'GAZNE' https://islamansiklopedisi.org.tr/gazne",
+    "kanit": "Asıl adı Genzek olan şehir İslâm kaynaklarında Gazne ve Gaznîn"
+   },
+   {
+    "ad": "Gazne",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'GAZNE' https://islamansiklopedisi.org.tr/gazne",
+    "kanit": "Asıl adı Genzek olan şehir İslâm kaynaklarında Gazne ve Gaznîn"
+   },
+   {
+    "ad": "Gaznîn",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'GAZNE' https://islamansiklopedisi.org.tr/gazne",
+    "kanit": "Asıl adı Genzek olan şehir İslâm kaynaklarında Gazne ve Gaznîn"
+   },
+   {
+    "ad": "Ghazna",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Ghaznī' https://www.britannica.com/place/Ghazni",
+    "kanit": "Formerly: Ghazna"
+   },
+   {
+    "ad": "Ghaznī",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Ghaznī' https://www.britannica.com/place/Ghazni",
+    "kanit": "Ghaznī Introduction"
+   }
+  ],
+  "adlar_sira": [
+   "Genzek",
+   "Gazne",
+   "Gaznîn",
+   "Ghazna",
+   "Ghaznī"
+  ],
+  "kaynaksiz": []
+ },
+ {
+  "id": "hokand-uz",
+  "ad_kaynak": [
+   {
+    "ad": "Huvâkand",
+    "dil": "ar",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'HOKAND' https://islamansiklopedisi.org.tr/hokand",
+    "kanit": "İslâm coğrafyacılarının Huvâkand (Yâkūt, II, 456) ve Huvâkend"
+   },
+   {
+    "ad": "Huvâkend",
+    "dil": "ar",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'HOKAND' https://islamansiklopedisi.org.tr/hokand",
+    "kanit": "İslâm coğrafyacılarının Huvâkand (Yâkūt, II, 456) ve Huvâkend"
+   },
+   {
+    "ad": "Hokand",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'HOKAND' https://islamansiklopedisi.org.tr/hokand",
+    "kanit": "isim daha sonra Hokand (Hukand) biçimini almıştır"
+   },
+   {
+    "ad": "Hukand",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'HOKAND' https://islamansiklopedisi.org.tr/hokand",
+    "kanit": "isim daha sonra Hokand (Hukand) biçimini almıştır"
+   },
+   {
+    "ad": "Khavakend",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Kokand' https://www.britannica.com/place/Kokand",
+    "kanit": "Also known as: Khavakend, Qŭqon"
+   },
+   {
+    "ad": "Qŭqon",
+    "dil": "uz",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Kokand' https://www.britannica.com/place/Kokand",
+    "kanit": "Also known as: Khavakend, Qŭqon"
+   },
+   {
+    "ad": "Коканд",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Коканд' https://ru.wikisource.org/wiki/ЭСБЕ/Коканд",
+    "kanit": "Коканд — уездный город Ферганской области"
+   }
+  ],
+  "adlar_sira": [
+   "Huvâkand",
+   "Huvâkend",
+   "Hokand",
+   "Hukand",
+   "Khavakend",
+   "Qŭqon",
+   "Коканд"
+  ],
+  "kaynaksiz": []
+ },
+ {
+  "id": "karakorum-mn",
+  "ad_kaynak": [
+   {
+    "ad": "H̱araẖorim",
+    "dil": "mn",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'KARAKORUM' https://islamansiklopedisi.org.tr/karakorum",
+    "kanit": "Karakorum (Moğolca H̱araẖorim) adını taşıyan"
+   },
+   {
+    "ad": "Karakorum",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'KARAKORUM' https://islamansiklopedisi.org.tr/karakorum",
+    "kanit": "Karakorum (Moğolca H̱araẖorim) adını taşıyan"
+   },
+   {
+    "ad": "Ordubalık",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'KARAKORUM' https://islamansiklopedisi.org.tr/karakorum",
+    "kanit": "zaman zaman Ordubalık resmî adıyla zikredilmiştir"
+   },
+   {
+    "ad": "Har Horin",
+    "dil": "mn",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Karakorum' https://www.britannica.com/place/Karakorum",
+    "kanit": "Also known as: Har Horin, K’a-la-k’un-lun, Khara-khorin"
+   },
+   {
+    "ad": "Khara-khorin",
+    "dil": "mn",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Karakorum' https://www.britannica.com/place/Karakorum",
+    "kanit": "Also known as: Har Horin, K’a-la-k’un-lun, Khara-khorin"
+   },
+   {
+    "ad": "K’a-la-k’un-lun",
+    "dil": "zh",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Karakorum' https://www.britannica.com/place/Karakorum",
+    "kanit": "Also known as: Har Horin, K’a-la-k’un-lun, Khara-khorin"
+   },
+   {
+    "ad": "Каракорум",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Каракорум, города' https://ru.wikisource.org/wiki/ЭСБЕ/Каракорум, города",
+    "kanit": "Каракорум — имя, которым назывались два города"
+   }
+  ],
+  "adlar_sira": [
+   "H̱araẖorim",
+   "Karakorum",
+   "Ordubalık",
+   "Har Horin",
+   "Khara-khorin",
+   "K’a-la-k’un-lun",
+   "Каракорум"
+  ],
+  "kaynaksiz": []
+ },
+ {
+  "id": "turkistan-yesi-kz",
+  "ad_kaynak": [
+   {
+    "ad": "Yesi",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'TÜRKİSTAN' https://islamansiklopedisi.org.tr/turkistan",
+    "kanit": "Türkistan ayrıca bugün Kazakistan’da bulunan Yesi şehrinin adıdır"
+   },
+   {
+    "ad": "Türkistan",
+    "dil": "tr",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'TÜRKİSTAN' https://islamansiklopedisi.org.tr/turkistan",
+    "kanit": "şehrin Türkistan adı buna bağlanmaktadır"
+   },
+   {
+    "ad": "Hazret-i Türkistan",
+    "dil": "tr",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'TÜRKİSTAN' https://islamansiklopedisi.org.tr/turkistan",
+    "kanit": "Ahmed Yesevî “Hazret-i Türkistan” adıyla anıldığı"
+   }
+  ],
+  "adlar_sira": [
+   "Yesi",
+   "Türkistan",
+   "Hazret-i Türkistan"
+  ],
+  "kaynaksiz": [
+   "Yassı"
+  ]
+ },
+ {
+  "id": "andican-uz",
+  "ad_kaynak": [
+   {
+    "ad": "Endigân",
+    "dil": "ar",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'ENDİCAN' https://islamansiklopedisi.org.tr/endican",
+    "kanit": "ismini İbn Havkal Endigân, Yâkūt el-Hamevî Endügân"
+   },
+   {
+    "ad": "Endügân",
+    "dil": "ar",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'ENDİCAN' https://islamansiklopedisi.org.tr/endican",
+    "kanit": "ismini İbn Havkal Endigân, Yâkūt el-Hamevî Endügân"
+   },
+   {
+    "ad": "Andugân",
+    "dil": "ar",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'ENDİCAN' https://islamansiklopedisi.org.tr/endican",
+    "kanit": "Yâkūt el-Hamevî Endügân, Ebü’l-Fidâ Andugân şeklinde yazmış"
+   },
+   {
+    "ad": "Andijon",
+    "dil": "uz",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'ENDİCAN' https://islamansiklopedisi.org.tr/endican",
+    "kanit": "Endican eyaletinin (Andijon Oblasti) merkezidir"
+   },
+   {
+    "ad": "Andižan",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Andijon' https://www.britannica.com/place/Andijon",
+    "kanit": "Also known as: Andižan, Andijan, Andizhan"
+   },
+   {
+    "ad": "Andijan",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Andijon' https://www.britannica.com/place/Andijon",
+    "kanit": "Also known as: Andižan, Andijan, Andizhan"
+   },
+   {
+    "ad": "Andizhan",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Andijon' https://www.britannica.com/place/Andijon",
+    "kanit": "Also known as: Andižan, Andijan, Andizhan"
+   },
+   {
+    "ad": "Андижан",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Андижан' https://ru.wikisource.org/wiki/ЭСБЕ/Андижан",
+    "kanit": "Андижан — город в вост. части Ферганской обл."
+   },
+   {
+    "ad": "Endican",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'ENDİCAN' https://islamansiklopedisi.org.tr/endican",
+    "kanit": "Endican eyaletinin (Andijon Oblasti) merkezidir"
+   }
+  ],
+  "adlar_sira": [
+   "Endigân",
+   "Endügân",
+   "Andugân",
+   "Endican",
+   "Andijon",
+   "Andižan",
+   "Andijan",
+   "Andizhan",
+   "Андижан"
+  ],
+  "kaynaksiz": []
+ },
+ {
+  "id": "termez-uz",
+  "ad_kaynak": [
+   {
+    "ad": "Tirmiz",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'TİRMİZ' https://islamansiklopedisi.org.tr/tirmiz",
+    "kanit": "Tirmiz (Termiz, Türmiz) adı daha yaygın biçimde kullanılmıştır"
+   },
+   {
+    "ad": "Termiz",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'TİRMİZ' https://islamansiklopedisi.org.tr/tirmiz",
+    "kanit": "Tirmiz (Termiz, Türmiz) adı daha yaygın biçimde kullanılmıştır"
+   },
+   {
+    "ad": "Türmiz",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'TİRMİZ' https://islamansiklopedisi.org.tr/tirmiz",
+    "kanit": "Tirmiz (Termiz, Türmiz) adı daha yaygın biçimde kullanılmıştır"
+   },
+   {
+    "ad": "Termez",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'TİRMİZ' https://islamansiklopedisi.org.tr/tirmiz",
+    "kanit": "Tirmiz (Termez) şehrinin nüfusu"
+   },
+   {
+    "ad": "Termiz",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Termez' https://www.britannica.com/place/Termez",
+    "kanit": "Termez Uzbekistan Ask Anything Homework Help Also known as: Termiz"
+   },
+   {
+    "ad": "Термез",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Термез' https://ru.wikisource.org/wiki/ЭСБЕ/Термез",
+    "kanit": "Термез — древний город Средней Азии"
+   }
+  ],
+  "adlar_sira": [
+   "Tirmiz",
+   "Termiz",
+   "Türmiz",
+   "Termez",
+   "Термез"
+  ],
+  "kaynaksiz": [
+   "Toprakkorgan (Rus sınır kalesi)"
+  ]
+ },
+ {
+  "id": "hotan-cn",
+  "ad_kaynak": [
+   {
+    "ad": "Yotkan",
+    "dil": "und",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'HOTEN' https://islamansiklopedisi.org.tr/hoten",
+    "kanit": "İlk ismi Yotkan olan Hoten"
+   },
+   {
+    "ad": "Hoten",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'HOTEN' https://islamansiklopedisi.org.tr/hoten",
+    "kanit": "İlk ismi Yotkan olan Hoten"
+   },
+   {
+    "ad": "Hotan",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Hotan' https://www.britannica.com/place/Hotan",
+    "kanit": "Hotan China Ask Anything Homework Help Also known as: Ho-t’ien, Khotan"
+   },
+   {
+    "ad": "Ho-t’ien",
+    "dil": "zh",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Hotan' https://www.britannica.com/place/Hotan",
+    "kanit": "Hotan China Ask Anything Homework Help Also known as: Ho-t’ien, Khotan"
+   },
+   {
+    "ad": "Khotan",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Hotan' https://www.britannica.com/place/Hotan",
+    "kanit": "Hotan China Ask Anything Homework Help Also known as: Ho-t’ien, Khotan"
+   },
+   {
+    "ad": "Хотан",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "МЭСБЕ (Брокгауз-Ефрон) 'Хотан' https://ru.wikisource.org/wiki/МЭСБЕ/Хотан",
+    "kanit": "Хотан, оазис и гор. Вост. Туркестана в Китае"
+   }
+  ],
+  "adlar_sira": [
+   "Yotkan",
+   "Hoten",
+   "Hotan",
+   "Ho-t’ien",
+   "Khotan",
+   "Хотан"
+  ],
+  "kaynaksiz": []
+ },
+ {
+  "id": "kuca-cn",
+  "ad_kaynak": [
+   {
+    "ad": "Kücâ",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'HOTEN' https://islamansiklopedisi.org.tr/hoten",
+    "kanit": "Gerdîzî ise Hoten’in Çin sınırında büyük bir şehir olan Kücâ’ya"
+   },
+   {
+    "ad": "Kuqa",
+    "dil": "zh",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Kucha' https://www.britannica.com/place/Kucha",
+    "kanit": "Kucha China Ask Anything Homework Help Also known as: K’u-ch’e, Kuqa"
+   },
+   {
+    "ad": "K’u-ch’e",
+    "dil": "zh",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Kucha' https://www.britannica.com/place/Kucha",
+    "kanit": "Kucha China Ask Anything Homework Help Also known as: K’u-ch’e, Kuqa"
+   }
+  ],
+  "adlar_sira": [
+   "Kücâ",
+   "Kuça",
+   "Kuqa",
+   "K’u-ch’e"
+  ],
+  "kaynaksiz": [
+   "Kuça"
+  ]
+ },
+ {
+  "id": "gao-ml",
+  "ad_kaynak": [
+   {
+    "ad": "Kevkev",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'GAO' https://islamansiklopedisi.org.tr/gao",
+    "kanit": "İslâm kaynaklarında adı Kevkev, Batı kaynaklarında Kawkaw, Gogo, Kaukau, Kookou, Kankou"
+   },
+   {
+    "ad": "Kawkaw",
+    "dil": "und",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'GAO' https://islamansiklopedisi.org.tr/gao",
+    "kanit": "İslâm kaynaklarında adı Kevkev, Batı kaynaklarında Kawkaw, Gogo, Kaukau, Kookou, Kankou"
+   },
+   {
+    "ad": "Gogo",
+    "dil": "und",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'GAO' https://islamansiklopedisi.org.tr/gao",
+    "kanit": "İslâm kaynaklarında adı Kevkev, Batı kaynaklarında Kawkaw, Gogo, Kaukau, Kookou, Kankou"
+   },
+   {
+    "ad": "Kaukau",
+    "dil": "und",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'GAO' https://islamansiklopedisi.org.tr/gao",
+    "kanit": "İslâm kaynaklarında adı Kevkev, Batı kaynaklarında Kawkaw, Gogo, Kaukau, Kookou, Kankou"
+   },
+   {
+    "ad": "Kookou",
+    "dil": "und",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'GAO' https://islamansiklopedisi.org.tr/gao",
+    "kanit": "İslâm kaynaklarında adı Kevkev, Batı kaynaklarında Kawkaw, Gogo, Kaukau, Kookou, Kankou"
+   },
+   {
+    "ad": "Kankou",
+    "dil": "und",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'GAO' https://islamansiklopedisi.org.tr/gao",
+    "kanit": "İslâm kaynaklarında adı Kevkev, Batı kaynaklarında Kawkaw, Gogo, Kaukau, Kookou, Kankou"
+   },
+   {
+    "ad": "Kawkaw",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Gao' https://www.britannica.com/place/Gao-Mali",
+    "kanit": "Gao Mali Ask Anything Homework Help Also known as: Kawkaw"
+   },
+   {
+    "ad": "Gao",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Gao' https://www.britannica.com/place/Gao-Mali",
+    "kanit": "Gao Mali Ask Anything Homework Help Also known as: Kawkaw"
+   }
+  ],
+  "adlar_sira": [
+   "Kevkev",
+   "Kawkaw",
+   "Gogo",
+   "Kaukau",
+   "Kookou",
+   "Kankou",
+   "Gao"
+  ],
+  "kaynaksiz": []
+ },
+ {
+  "id": "sokoto-ng",
+  "ad_kaynak": [
+   {
+    "ad": "Sakvato",
+    "dil": "ha",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'SOKOTO' https://islamansiklopedisi.org.tr/sokoto",
+    "kanit": "adı Hevsâ dilinde Sakvato, Sakkwato ve Sakata olarak geçer"
+   },
+   {
+    "ad": "Sakkwato",
+    "dil": "ha",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'SOKOTO' https://islamansiklopedisi.org.tr/sokoto",
+    "kanit": "adı Hevsâ dilinde Sakvato, Sakkwato ve Sakata olarak geçer"
+   },
+   {
+    "ad": "Sakata",
+    "dil": "ha",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'SOKOTO' https://islamansiklopedisi.org.tr/sokoto",
+    "kanit": "adı Hevsâ dilinde Sakvato, Sakkwato ve Sakata olarak geçer"
+   },
+   {
+    "ad": "Birnin Şeyhu da Bello",
+    "dil": "und",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'SOKOTO' https://islamansiklopedisi.org.tr/sokoto",
+    "kanit": "Kurucularına nisbetle şehre Birnin Şeyhu da Bello da"
+   },
+   {
+    "ad": "Sokoto",
+    "dil": "tr",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'SOKOTO' https://islamansiklopedisi.org.tr/sokoto",
+    "kanit": "Nijerya’nın kuzeybatısında Nijer sınırına çok yakın bir yerde bulunan Sokoto’nun adı"
+   }
+  ],
+  "adlar_sira": [
+   "Sokoto",
+   "Sakvato",
+   "Sakkwato",
+   "Sakata",
+   "Birnin Şeyhu da Bello"
+  ],
+  "kaynaksiz": []
+ },
+ {
+  "id": "monrovia-lr",
+  "ad_kaynak": [
+   {
+    "ad": "Cape Mesurado",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'LİBERYA' https://islamansiklopedisi.org.tr/liberya",
+    "kanit": "ilk Amerikalı zenciler grubunu Cape Mesurado sahil kesimine yerleştirmeyi"
+   },
+   {
+    "ad": "Monrovia",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'LİBERYA' https://islamansiklopedisi.org.tr/liberya",
+    "kanit": "James Monroe’ya izâfeten Monrovia adı verildi"
+   },
+   {
+    "ad": "Монровия",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Монровия' https://ru.wikisource.org/wiki/ЭСБЕ/Монровия",
+    "kanit": "Монровия (Monrovia) — столица африк. негрит. республики Либерии"
+   },
+   {
+    "ad": "Мезурадо",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Монровия' https://ru.wikisource.org/wiki/ЭСБЕ/Монровия",
+    "kanit": "с гаванью на мысе Мезурадо"
+   }
+  ],
+  "adlar_sira": [
+   "Cape Mesurado",
+   "Monrovia"
+  ],
+  "kaynaksiz": []
+ },
+ {
+  "id": "pretoria-za",
+  "ad_kaynak": [
+   {
+    "ad": "Pretoria",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Pretoria' https://www.britannica.com/place/Pretoria",
+    "kanit": "In 2000 Pretoria became part of the Tshwane Metropolitan Municipality"
+   },
+   {
+    "ad": "Tshwane",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Pretoria' https://www.britannica.com/place/Pretoria",
+    "kanit": "Also known as: Tshwane"
+   },
+   {
+    "ad": "Претория",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Претория' https://ru.wikisource.org/wiki/ЭСБЕ/Претория",
+    "kanit": "Претория — стол. бывш."
+   }
+  ],
+  "adlar_sira": [
+   "Pretoria"
+  ],
+  "kaynaksiz": []
+ }
+]

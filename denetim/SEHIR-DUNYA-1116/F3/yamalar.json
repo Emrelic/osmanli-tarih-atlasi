@@ -1,0 +1,1581 @@
+[
+ {
+  "id": "osm0-24-acre-akko-1191-01-01",
+  "tur": "sehir_olay",
+  "dosya": "data/sehir_tarihce_osm.js",
+  "anahtar": {
+   "sehir_id": "acre-akko",
+   "olay_t": "1191-01-01",
+   "b_oneki": "III. Haçlı Seferi kuşatması sonunda müdafiler teslim oldu"
+  },
+  "degisiklik": [
+   {
+    "alan": "t",
+    "eski": "1191-01-01",
+    "yeni": "1191-07-11"
+   },
+   {
+    "alan": "gun",
+    "eski": null,
+    "yeni": "11 Temmuz 1191"
+   }
+  ],
+  "kaynak": "TDV Haçlılar md. «…11 Temmuz 1191’de … şehri Haçlılar’a teslime mecbur kaldı»",
+  "tanik": "",
+  "gerekce": "F3 çözüm: yıl/ay → gün (TDV tam gövde)"
+ },
+ {
+  "id": "osm0-24-aleppo-1146-06-13",
+  "tur": "sehir_olay",
+  "dosya": "data/sehir_tarihce_k3_g1.js",
+  "anahtar": {
+   "sehir_id": "aleppo",
+   "olay_t": "1146-06-13",
+   "b_oneki": "Zengî'nin ölümü; Halep oğlu Nûreddin Mahmud'a"
+  },
+  "degisiklik": [
+   {
+    "alan": "t",
+    "eski": "1146-06-13",
+    "yeni": "1146-09-14"
+   },
+   {
+    "alan": "gun",
+    "eski": null,
+    "yeni": "5 Rebîülâhir 541 / 14 Eylül 1146"
+   }
+  ],
+  "kaynak": "TDV Nûreddin Zengî, Mahmud md. «(5 Rebîülâhir 541 / 14 Eylül 1146)»",
+  "tanik": "",
+  "gerekce": "F3 çözüm: yıl/ay → gün (TDV tam gövde)"
+ },
+ {
+  "id": "osm0-24-asyut-0868-01-01",
+  "tur": "sehir_olay",
+  "dosya": "data/sehir_tarihce_osm.js",
+  "anahtar": {
+   "sehir_id": "asyut",
+   "olay_t": "0868-01-01",
+   "b_oneki": "Ahmed b. Tolun Mısır'a vali vekili olarak girdi"
+  },
+  "degisiklik": [
+   {
+    "alan": "t",
+    "eski": "0868-01-01",
+    "yeni": "0868-09-15"
+   },
+   {
+    "alan": "gun",
+    "eski": null,
+    "yeni": "15 Eylül 868"
+   }
+  ],
+  "kaynak": "TDV Ahmed b. Tolun md. «15 Eylül 868’de Mısır’a gitti» (fiil farkı notlu)",
+  "tanik": "",
+  "gerekce": "F3 çözüm: yıl/ay → gün (TDV tam gövde)"
+ },
+ {
+  "id": "osm0-24-banha-0868-01-01",
+  "tur": "sehir_olay",
+  "dosya": "data/sehir_tarihce_osm.js",
+  "anahtar": {
+   "sehir_id": "banha",
+   "olay_t": "0868-01-01",
+   "b_oneki": "Ahmed b. Tolun Mısır'a vali vekili olarak girdi"
+  },
+  "degisiklik": [
+   {
+    "alan": "t",
+    "eski": "0868-01-01",
+    "yeni": "0868-09-15"
+   },
+   {
+    "alan": "gun",
+    "eski": null,
+    "yeni": "15 Eylül 868"
+   }
+  ],
+  "kaynak": "aynı",
+  "tanik": "",
+  "gerekce": "F3 çözüm: yıl/ay → gün (TDV tam gövde)"
+ },
+ {
+  "id": "osm0-24-damanhur-0868-01-01",
+  "tur": "sehir_olay",
+  "dosya": "data/sehir_tarihce_osm.js",
+  "anahtar": {
+   "sehir_id": "damanhur",
+   "olay_t": "0868-01-01",
+   "b_oneki": "Ahmed b. Tolun Mısır'a geldi"
+  },
+  "degisiklik": [
+   {
+    "alan": "t",
+    "eski": "0868-01-01",
+    "yeni": "0868-09-15"
+   },
+   {
+    "alan": "gun",
+    "eski": null,
+    "yeni": "15 Eylül 868"
+   }
+  ],
+  "kaynak": "aynı",
+  "tanik": "",
+  "gerekce": "F3 çözüm: yıl/ay → gün (TDV tam gövde)"
+ },
+ {
+  "id": "osm0-24-baghdad-1055-12-01",
+  "tur": "sehir_olay",
+  "dosya": "data/sehir_tarihce_osm.js",
+  "anahtar": {
+   "sehir_id": "baghdad",
+   "olay_t": "1055-12-01",
+   "b_oneki": "Tuğrul Bey Bağdat'a girdi"
+  },
+  "degisiklik": [
+   {
+    "alan": "t",
+    "eski": "1055-12-01",
+    "yeni": "1055-12-18"
+   },
+   {
+    "alan": "gun",
+    "eski": null,
+    "yeni": "25 Ramazan 447 / 18 Aralık 1055"
+   }
+  ],
+  "kaynak": "TDV Kāim-Biemrillâh md. «Tuğrul Bey 25 Ramazan 447’de (18 Aralık 1055) Bağdat’a girdi»",
+  "tanik": "",
+  "gerekce": "F3 çözüm: yıl/ay → gün (TDV tam gövde)"
+ },
+ {
+  "id": "osm0-24-damanhur-0905-01-01",
+  "tur": "sehir_olay",
+  "dosya": "data/sehir_tarihce_osm.js",
+  "anahtar": {
+   "sehir_id": "damanhur",
+   "olay_t": "0905-01-01",
+   "b_oneki": "Abbâsî ordusu Fustat'a girdi"
+  },
+  "degisiklik": [
+   {
+    "alan": "t",
+    "eski": "0905-01-01",
+    "yeni": "0905-01-11"
+   },
+   {
+    "alan": "gun",
+    "eski": null,
+    "yeni": "1 Rebîülevvel 292 / 11 Ocak 905"
+   }
+  ],
+  "kaynak": "TDV Muktefî-Billâh md. «(1 Rebîülevvel 292 / 11 Ocak 905)»",
+  "tanik": "",
+  "gerekce": "F3 çözüm: yıl/ay → gün (TDV tam gövde)"
+ },
+ {
+  "id": "osm0-24-damanhur-1171-09-04",
+  "tur": "sehir_olay",
+  "dosya": "data/sehir_tarihce_osm.js",
+  "anahtar": {
+   "sehir_id": "damanhur",
+   "olay_t": "1171-09-04",
+   "b_oneki": "Selâhaddîn-i Eyyûbî Fâtımî Devleti'ni kaldırdı"
+  },
+  "degisiklik": [
+   {
+    "alan": "t",
+    "eski": "1171-09-04",
+    "yeni": "1171-09-13"
+   },
+   {
+    "alan": "gun",
+    "eski": null,
+    "yeni": "10 Muharrem 567 / 13 Eylül 1171"
+   }
+  ],
+  "kaynak": "TDV Eyyûbîler md. «(10 Muharrem 567 / 13 Eylül 1171)»",
+  "tanik": "",
+  "gerekce": "F3 çözüm: yıl/ay → gün (TDV tam gövde)"
+ },
+ {
+  "id": "osm0-24-kron-1110-01-01-Aden Zürey",
+  "tur": "kronoloji",
+  "dosya": "data/kronoloji_cok_once1281_ortadogu.js",
+  "anahtar": {
+   "b_oneki": "Aden Zürey",
+   "t_eski": "1110-01-01"
+  },
+  "degisiklik": [
+   {
+    "alan": "t",
+    "eski": "1110-01-01",
+    "yeni": "1110-07-20"
+   }
+  ],
+  "kaynak": "TDV Zürey‘îler md. «504 (1110)»; 504 H = 1110-07-20…",
+  "tanik": "",
+  "gerekce": "F3 çözüm: hicrî yıl kuralı / gün ekleme (CLAUDE.md hicrî kuralı: hicrî yıl ∩ milâdî yıl kesişiminin ilk günü)"
+ },
+ {
+  "id": "osm0-24-kron-1146-01-01-İmâdüddin Ze",
+  "tur": "kronoloji",
+  "dosya": "data/olaylar_ortacag_ortadogu.js",
+  "anahtar": {
+   "b_oneki": "İmâdüddin Zengî Ca",
+   "t_eski": "1146-01-01"
+  },
+  "degisiklik": [
+   {
+    "alan": "t",
+    "eski": "1146-01-01",
+    "yeni": "1146-09-14"
+   }
+  ],
+  "kaynak": "TDV Nûreddin Zengî md. «(5 Rebîülâhir 541 / 14 Eylül 1146)»",
+  "tanik": "",
+  "gerekce": "F3 çözüm: hicrî yıl kuralı / gün ekleme (CLAUDE.md hicrî kuralı: hicrî yıl ∩ milâdî yıl kesişiminin ilk günü)"
+ },
+ {
+  "id": "osm0-24-kron-1186-01-01-el-Melikü",
+  "tur": "kronoloji",
+  "dosya": "data/olaylar_ortacag_ortadogu.js",
+  "anahtar": {
+   "b_oneki": "el-Melikü",
+   "t_eski": "1186-01-01"
+  },
+  "degisiklik": [
+   {
+    "alan": "t",
+    "eski": "1186-01-01",
+    "yeni": "1186-03-24"
+   }
+  ],
+  "kaynak": "TDV Halep md. 582; 582 H = 1186-03-24…",
+  "tanik": "",
+  "gerekce": "F3 çözüm: hicrî yıl kuralı / gün ekleme (CLAUDE.md hicrî kuralı: hicrî yıl ∩ milâdî yıl kesişiminin ilk günü)"
+ },
+ {
+  "id": "osm0-24-kron-1184-01-01-Benî Gāniye ",
+  "tur": "kronoloji",
+  "dosya": "data/kronoloji_cok_once1281_afrika.js",
+  "anahtar": {
+   "b_oneki": "Benî Gāniye Mağrib",
+   "t_eski": "1184-01-01"
+  },
+  "degisiklik": [
+   {
+    "alan": "t",
+    "eski": "1184-01-01",
+    "yeni": "1184-04-14"
+   }
+  ],
+  "kaynak": "TDV Muvahhidler md. «(580/1184)»; 580 H = 1184-04-14…",
+  "tanik": "",
+  "gerekce": "F3 çözüm: hicrî yıl kuralı / gün ekleme (CLAUDE.md hicrî kuralı: hicrî yıl ∩ milâdî yıl kesişiminin ilk günü)"
+ },
+ {
+  "id": "osm0-24-kron-1152-01-01-Sultan Mesud",
+  "tur": "kronoloji",
+  "dosya": "data/olaylar_t5_1000a.js",
+  "anahtar": {
+   "b_oneki": "Sultan Mesud öldü",
+   "t_eski": "1152-01-01"
+  },
+  "degisiklik": [
+   {
+    "alan": "t",
+    "eski": "1152-01-01",
+    "yeni": "1152-04-08"
+   }
+  ],
+  "kaynak": "TDV Muktefî-Liemrillâh md. «(547/1152)»; 547 H = 1152-04-08…",
+  "tanik": "",
+  "gerekce": "F3 çözüm: hicrî yıl kuralı / gün ekleme (CLAUDE.md hicrî kuralı: hicrî yıl ∩ milâdî yıl kesişiminin ilk günü)"
+ },
+ {
+  "id": "osm0-24-kron-1230-01-01-Ebû Zekeriyy",
+  "tur": "kronoloji",
+  "dosya": "data/kronoloji_cok_once1281_afrika.js",
+  "anahtar": {
+   "b_oneki": "Ebû Zekeriyyâ Kosantîne",
+   "t_eski": "1230-01-01"
+  },
+  "degisiklik": [
+   {
+    "alan": "t",
+    "eski": "1230-01-01",
+    "yeni": "1230-11-09"
+   }
+  ],
+  "kaynak": "TDV Hafsîler md. «(628/1230-31)»; 628 H = 1230-11-09…",
+  "tanik": "",
+  "gerekce": "F3 çözüm: hicrî yıl kuralı / gün ekleme (CLAUDE.md hicrî kuralı: hicrî yıl ∩ milâdî yıl kesişiminin ilk günü)"
+ },
+ {
+  "id": "osm0-24-kron-1175-01-01-Gurlu Muizzü",
+  "tur": "kronoloji",
+  "dosya": "data/kronoloji_sinir_once1281_yerlesim_asya_iran.js",
+  "anahtar": {
+   "b_oneki": "Gurlu Muizzüddin Muhammed Mültan",
+   "t_eski": "1175-01-01"
+  },
+  "degisiklik": [
+   {
+    "alan": "t",
+    "eski": "1175-01-01",
+    "yeni": "1175-07-22"
+   }
+  ],
+  "kaynak": "TDV Mültan md. «571’de (1175-76)»; 571 H = 1175-07-22…",
+  "tanik": "",
+  "gerekce": "F3 çözüm: hicrî yıl kuralı / gün ekleme (CLAUDE.md hicrî kuralı: hicrî yıl ∩ milâdî yıl kesişiminin ilk günü)"
+ },
+ {
+  "id": "osm0-24-kron-1228-01-01-İltutmış Mül",
+  "tur": "kronoloji",
+  "dosya": "data/kronoloji_cok_once1281_hint_amerika.js",
+  "anahtar": {
+   "b_oneki": "İltutmış Mültan",
+   "t_eski": "1228-01-01"
+  },
+  "degisiklik": [
+   {
+    "alan": "t",
+    "eski": "1228-01-01",
+    "yeni": "1228-11-30"
+   }
+  ],
+  "kaynak": "TDV Mültan md. «626 (1228)»; 626 H = 1228-11-30…",
+  "tanik": "",
+  "gerekce": "F3 çözüm: hicrî yıl kuralı / gün ekleme (CLAUDE.md hicrî kuralı: hicrî yıl ∩ milâdî yıl kesişiminin ilk günü)"
+ },
+ {
+  "id": "osm0-24-kron-1228-01-01-İltutmış Mül",
+  "tur": "kronoloji",
+  "dosya": "data/kronoloji_sinir_once1281_yerlesim_asya_iran.js",
+  "anahtar": {
+   "b_oneki": "İltutmış Mültan",
+   "t_eski": "1228-01-01"
+  },
+  "degisiklik": [
+   {
+    "alan": "t",
+    "eski": "1228-01-01",
+    "yeni": "1228-11-30"
+   }
+  ],
+  "kaynak": "TDV Mültan md. «626 (1228)»",
+  "tanik": "",
+  "gerekce": "F3 çözüm: hicrî yıl kuralı / gün ekleme (CLAUDE.md hicrî kuralı: hicrî yıl ∩ milâdî yıl kesişiminin ilk günü)"
+ },
+ {
+  "id": "osm0-24-kron-1207-01-01-Buhara Karah",
+  "tur": "kronoloji",
+  "dosya": "data/kronoloji_sinir_once1281_yerlesim_asya_iran.js",
+  "anahtar": {
+   "b_oneki": "Buhara Karahıtaylardan",
+   "t_eski": "1207-01-01"
+  },
+  "degisiklik": [
+   {
+    "alan": "t",
+    "eski": "1207-01-01",
+    "yeni": "1207-07-28"
+   }
+  ],
+  "kaynak": "TDV Buhara md. «604 (1207)»; 604 H = 1207-07-28…",
+  "tanik": "",
+  "gerekce": "F3 çözüm: hicrî yıl kuralı / gün ekleme (CLAUDE.md hicrî kuralı: hicrî yıl ∩ milâdî yıl kesişiminin ilk günü)"
+ },
+ {
+  "id": "osm0-24-kron-0711-01-01-Kuteybe b. M",
+  "tur": "kronoloji",
+  "dosya": "data/kronoloji_sinir_dogu_500_1281.js",
+  "anahtar": {
+   "b_oneki": "Kuteybe b. Müslim Semerkant",
+   "t_eski": "0711-01-01"
+  },
+  "degisiklik": [
+   {
+    "alan": "t",
+    "eski": "0711-01-01",
+    "yeni": "0711-10-19"
+   }
+  ],
+  "kaynak": "TDV Semerkant md. «(93/711)»; 93 H = 0711-10-19…",
+  "tanik": "",
+  "gerekce": "F3 çözüm: hicrî yıl kuralı / gün ekleme (CLAUDE.md hicrî kuralı: hicrî yıl ∩ milâdî yıl kesişiminin ilk günü)"
+ },
+ {
+  "id": "osm0-24-kron-1018-01-01-Gazneli Mahm",
+  "tur": "kronoloji",
+  "dosya": "data/kronoloji_cok_once1281_hint_amerika.js",
+  "anahtar": {
+   "b_oneki": "Gazneli Mahmud son önemli",
+   "t_eski": "1018-01-01"
+  },
+  "degisiklik": [
+   {
+    "alan": "t",
+    "eski": "1018-01-01",
+    "yeni": "1018-12-20"
+   }
+  ],
+  "kaynak": "TDV Mahmûd-ı Gaznevî md. «8 Şâban 409’da (20 Aralık 1018)»",
+  "tanik": "",
+  "gerekce": "F3 çözüm: hicrî yıl kuralı / gün ekleme (CLAUDE.md hicrî kuralı: hicrî yıl ∩ milâdî yıl kesişiminin ilk günü)"
+ },
+ {
+  "id": "osm0-24-kron-0992-01-01-Karahanlı Hâ",
+  "tur": "kronoloji",
+  "dosya": "data/kronoloji_cok_ms1_1000_ortadogu.js",
+  "anahtar": {
+   "b_oneki": "Karahanlı Hârun Buğra Han Buhara'yı ele geçirdi",
+   "t_eski": "0992-01-01"
+  },
+  "degisiklik": [
+   {
+    "alan": "t",
+    "eski": "0992-01-01",
+    "yeni": "0992-05-07"
+   }
+  ],
+  "kaynak": "TDV Sâmânîler md. «(Rebîülevvel 382 / Mayıs 992)»",
+  "tanik": "",
+  "gerekce": "F3 çözüm: hicrî yıl kuralı / gün ekleme (CLAUDE.md hicrî kuralı: hicrî yıl ∩ milâdî yıl kesişiminin ilk günü)"
+ },
+ {
+  "id": "osm2-osm#26",
+  "tur": "kronoloji",
+  "dosya": "data/olaylar_ortacag_ortadogu.js",
+  "anahtar": {
+   "b_oneki": "Memlüklerin Turan Şah'ı öldürmesinin ardından",
+   "t_eski": "1250-01-01"
+  },
+  "degisiklik": [
+   {
+    "alan": "t",
+    "eski": "1250-01-01",
+    "yeni": "1250-04-05"
+   }
+  ],
+  "kaynak": "TDV Şam md. (tam gövde): «hâkimiyeti sağladı (648/1250)»; kron kaydı kaynağı Kur'an Ansiklopedisi (TDV) 'Yûsuf' md. tam gövdeyle okunmadı",
+  "tanik": "",
+  "gerekce": "Aynı olay (Yûsuf'un Dımaşk'a hâkim oluşu); kron \"Turan Şah'ın öldürülmesinin ardından\" der ama t=1250-01-01 ölümden (30 Nisan) ÖNCE; 648 H ∩ 1250 ilk günü 1250-04-05 (hicrî kural). #25'in kron maddesiyle mükerrer olabilir."
+ },
+ {
+  "id": "osm2-osm#27",
+  "tur": "kronoloji",
+  "dosya": "data/kronoloji_sinir_komsu.js",
+  "anahtar": {
+   "b_oneki": "Sırp Kralı Milutin Debre, Kırçova ve Porečie",
+   "t_eski": "1284-01-01"
+  },
+  "degisiklik": [
+   {
+    "alan": "t",
+    "eski": "1284-01-01",
+    "yeni": "1283-01-01"
+   }
+  ],
+  "kaynak": "TDV Debre md. (tam gövde): «1283’te Sırp Kralı Milutin Debre’yi ele geçirdi»; kron: Popović & Zervan 2022 (kaynaklar 1282-1284 ayrışır)",
+  "tanik": "",
+  "gerekce": "Tarih çelişkisinde TDV esastır (CLAUDE.md): 1284 → 1283, Popović 1284 ic_not'ta beyan. Madde sınır maddesidir: Değişmez 2 ±30 gün ve komşu kırılmalar kontrol edilmeli. TDV yılı kron kaynağının 1282-84 aralığı içinde."
+ },
+ {
+  "id": "osm2-osm#28",
+  "tur": "sehir_olay",
+  "dosya": "data/sehir_tarihce_osm.js",
+  "anahtar": {
+   "sehir_id": "diyarbakir",
+   "olay_t": "1183-04-26",
+   "b_oneki": "Selâhaddîn-i Eyyûbî Âmid'i aldı, Hısnıkeyfâ"
+  },
+  "degisiklik": [
+   {
+    "alan": "t",
+    "eski": "1183-04-26",
+    "yeni": "1183-04-29"
+   },
+   {
+    "alan": "gun",
+    "eski": null,
+    "yeni": "4 Muharrem 579 / 29 Nisan 1183"
+   },
+   {
+    "alan": "kesinlik",
+    "eski": null,
+    "yeni": "gun"
+   }
+  ],
+  "kaynak": "TDV İnaloğulları md. (tam gövde): «(4 Muharrem 579 / 29 Nisan 1183)»",
+  "tanik": "",
+  "gerekce": "Aynı olay; şehir kaydı \"yıl başı\" tahmini (1183-04-26), TDV günü verir: 29 Nisan 1183. Kron doğru."
+ },
+ {
+  "id": "osm2-osm#30",
+  "tur": "kronoloji",
+  "dosya": "data/olaylar_t5_1000a.js",
+  "anahtar": {
+   "b_oneki": "II. Gıyâseddin Keyhusrev Âmid'i zaptetti",
+   "t_eski": "1240-01-01"
+  },
+  "degisiklik": [
+   {
+    "alan": "t",
+    "eski": "1240-01-01",
+    "yeni": "1240-07-23"
+   }
+  ],
+  "kaynak": "TDV Diyarbakır md. (tam gövde): «638 (1240-41) yılında da ... Âmid’i zaptetti»",
+  "tanik": "",
+  "gerekce": "Hicrî 638 = 1240-07-23…1241-07-10; kron t=1240-01-01 hicrî yılın DIŞINDA → hicrî kural: kesişimin ilk günü 1240-07-23."
+ },
+ {
+  "id": "osm2-osm#32",
+  "tur": "sehir_olay",
+  "dosya": "data/sehir_tarihce_osm.js",
+  "anahtar": {
+   "sehir_id": "faiyum",
+   "olay_t": "0868-01-01",
+   "b_oneki": "Ahmed b. Tolun Mısır'da; Tolunoğulları dönemi"
+  },
+  "degisiklik": [
+   {
+    "alan": "t",
+    "eski": "0868-01-01",
+    "yeni": "0868-09-15"
+   },
+   {
+    "alan": "gun",
+    "eski": null,
+    "yeni": "15 Eylül 868"
+   },
+   {
+    "alan": "kesinlik",
+    "eski": null,
+    "yeni": "gun"
+   }
+  ],
+  "kaynak": "TDV Ahmed b. Tolun md. (tam gövde, /ahmed-b-tolun): «15 Eylül 868’de Mısır’a gitti»; TDV Tolunoğulları md.: «(254/868)»",
+  "tanik": "",
+  "gerekce": "Aynı olay (Ahmed b. Tolun'un Mısır'a girişi). Şehir kayıtları yıl (254 H başı = 868-01-01) taşır, TDV günü verir: 15 Eylül 868. Kron doğru. İki şehir (Faiyum #32, Kına #52)."
+ },
+ {
+  "id": "osm2-osm#52",
+  "tur": "sehir_olay",
+  "dosya": "data/sehir_tarihce_osm.js",
+  "anahtar": {
+   "sehir_id": "qena",
+   "olay_t": "0868-01-01",
+   "b_oneki": "Ahmed b. Tolun Mısır'a vali vekili olarak"
+  },
+  "degisiklik": [
+   {
+    "alan": "t",
+    "eski": "0868-01-01",
+    "yeni": "0868-09-15"
+   },
+   {
+    "alan": "gun",
+    "eski": null,
+    "yeni": "15 Eylül 868"
+   },
+   {
+    "alan": "kesinlik",
+    "eski": null,
+    "yeni": "gun"
+   }
+  ],
+  "kaynak": "TDV Ahmed b. Tolun md. (tam gövde, /ahmed-b-tolun): «15 Eylül 868’de Mısır’a gitti»; TDV Tolunoğulları md.: «(254/868)»",
+  "tanik": "",
+  "gerekce": "Aynı olay (Ahmed b. Tolun'un Mısır'a girişi). Şehir kayıtları yıl (254 H başı = 868-01-01) taşır, TDV günü verir: 15 Eylül 868. Kron doğru. İki şehir (Faiyum #32, Kına #52)."
+ },
+ {
+  "id": "osm2-osm#33",
+  "tur": "sehir_olay",
+  "dosya": "data/sehir_tarihce_osm.js",
+  "anahtar": {
+   "sehir_id": "fes",
+   "olay_t": "0985-01-01",
+   "b_oneki": "Zîrî b. Atıyye, Fas yakınında Mansûr b."
+  },
+  "degisiklik": [
+   {
+    "alan": "t",
+    "eski": "0985-01-01",
+    "yeni": "0985-05-24"
+   },
+   {
+    "alan": "gun",
+    "eski": null,
+    "yeni": "375 H (985)"
+   },
+   {
+    "alan": "kesinlik",
+    "eski": null,
+    "yeni": "yil"
+   }
+  ],
+  "kaynak": "TDV Zîrî b. Atıyye md. (tam gövde): «Mansûr’un çok sayıda askeri öldürüldü veya esir alındı (375/985)»",
+  "tanik": "",
+  "gerekce": "Hicrî 375 = 985-05-24…986-05-12; şehir t=985-01-01 hicrî yılın DIŞINDA → hicrî kural: 985-05-24. Kron (985-05-24) kurala uygun."
+ },
+ {
+  "id": "osm2-osm#34",
+  "tur": "sehir_olay",
+  "dosya": "data/sehir_tarihce_osm.js",
+  "anahtar": {
+   "sehir_id": "fes",
+   "olay_t": "0987-01-01",
+   "b_oneki": "Hâcib el-Mansûr, Zîrî b. Atıyye'yi Fas"
+  },
+  "degisiklik": [
+   {
+    "alan": "t",
+    "eski": "0987-01-01",
+    "yeni": "0987-05-03"
+   },
+   {
+    "alan": "gun",
+    "eski": null,
+    "yeni": "377 H (987)"
+   },
+   {
+    "alan": "kesinlik",
+    "eski": null,
+    "yeni": "yil"
+   }
+  ],
+  "kaynak": "TDV Mağrâve md. (tam gövde): «Zîrî b. Atıyye, 377 (987) yılında Hâcib el-Mansûr tarafından Fas valiliğine tayin edildi»",
+  "tanik": "",
+  "gerekce": "Hicrî 377 = 987-05-03…988-04-20; şehir t=987-01-01 hicrî yılın dışında → 987-05-03. Kron kurala uygun."
+ },
+ {
+  "id": "osm2-osm#35",
+  "tur": "kronoloji",
+  "dosya": "data/olaylar_ortacag_bekleyen_acik.js",
+  "anahtar": {
+   "b_oneki": "Zîrî b. Atıyye Fâtımî valisi Yeddû b. Ya'lâ'yı",
+   "t_eski": "0993-01-01"
+  },
+  "degisiklik": [
+   {
+    "alan": "t",
+    "eski": "0993-01-01",
+    "yeni": "0993-02-26"
+   }
+  ],
+  "kaynak": "TDV Mağrâve md. (tam gövde): «Fas’ı işgal etmiş olan Fâtımî Valisi Yeddû b. Ya‘lâ ile mücadeleye girip şehri geri aldı (383/993)»",
+  "tanik": "",
+  "gerekce": "FARKLI olay (şehir: 382/992'de Zîrî Kurtuba'dayken Yeddû'nun Fas'ı işgali; kron: 383/993'te geri alış). Ayrıca kron t=0993-01-01 hicrî 383'ün (993-02-26…994-02-14) DIŞINDA → 993-02-26. (Şehir tarafı için 35-sehir satırı.)"
+ },
+ {
+  "id": "osm2-osm#35",
+  "tur": "sehir_olay",
+  "dosya": "data/sehir_tarihce_osm.js",
+  "anahtar": {
+   "sehir_id": "fes",
+   "olay_t": "0992-01-01",
+   "b_oneki": "Zîrî Kurtuba'dayken Fâtımî valisi Yeddû b."
+  },
+  "degisiklik": [
+   {
+    "alan": "t",
+    "eski": "0992-01-01",
+    "yeni": "0992-03-09"
+   },
+   {
+    "alan": "gun",
+    "eski": null,
+    "yeni": "382 H (992)"
+   },
+   {
+    "alan": "kesinlik",
+    "eski": null,
+    "yeni": "yil"
+   }
+  ],
+  "kaynak": "TDV Mağrâve md. (tam gövde): «Zîrî 382’de (992) aldığı bir davetle Kurtuba’ya gitti»",
+  "tanik": "",
+  "gerekce": "Hicrî 382 = 992-03-09…993-02-25; şehir t=992-01-01 hicrî yılın dışında → 992-03-09."
+ },
+ {
+  "id": "osm2-osm#37",
+  "tur": "kronoloji",
+  "dosya": "data/olaylar_t5_1000a.js",
+  "anahtar": {
+   "b_oneki": "Sultan Mesud Hille'yi Sâlârkerd'e verdi",
+   "t_eski": "1150-01-01"
+  },
+  "degisiklik": [
+   {
+    "alan": "t",
+    "eski": "1150-01-01",
+    "yeni": "1150-04-30"
+   }
+  ],
+  "kaynak": "kron kaydının TDV alıntısı «Sâlârkerd’e verdi (545/1150)» (TDV Mezyedîler tam gövdeyle doğrulanmadı)",
+  "tanik": "",
+  "gerekce": "Hicrî 545 = 1150-04-30…1151-04-18; kron t=1150-01-01 hicrî yılın dışında → 1150-04-30 (şehir kaydı zaten bu)."
+ },
+ {
+  "id": "osm2-osm#38",
+  "tur": "kronoloji",
+  "dosya": "data/olaylar_t5_1000a.js",
+  "anahtar": {
+   "b_oneki": "Sultan Mesud öldü; Halife Muktefî Irak'ta tek",
+   "t_eski": "1152-01-01"
+  },
+  "degisiklik": [
+   {
+    "alan": "t",
+    "eski": "1152-01-01",
+    "yeni": "1152-04-08"
+   }
+  ],
+  "kaynak": "kron kaydının TDV alıntısı «Sultan Mesud’un ölümünün ardından (547/1152)» (TDV Muktefî md. tam gövdeyle doğrulanmadı)",
+  "tanik": "",
+  "gerekce": "Hicrî 547 = 1152-04-08…1153-03-27; kron t=1152-01-01 dışında → 1152-04-08."
+ },
+ {
+  "id": "osm2-osm#39",
+  "tur": "kronoloji",
+  "dosya": "data/kronoloji_sinir_antik_roma.js",
+  "anahtar": {
+   "b_oneki": "Hz. Ömer Kudüs’ü Patrik Sophronios’tan teslim",
+   "t_eski": "0638-01-01"
+  },
+  "degisiklik": [
+   {
+    "alan": "t",
+    "eski": "0638-01-01",
+    "yeni": "0638-01-23"
+   }
+  ],
+  "kaynak": "TDV Kudüs md. (tam gövde): «Patrik Sophronios’tan teslim aldı ve anlaşmayı imzaladı (17/638)»",
+  "tanik": "",
+  "gerekce": "TDV hicrî 17 verir (15/636, 16/637, 17/638 tartışması TDV içinde, 17/638 tercih). Hicrî 17 = 638-01-23…639-01-11; kron t=0638-01-01 dışında → 638-01-23 (şehir kaydı bu). Gün teyitsiz kalır."
+ },
+ {
+  "id": "osm2-osm#40",
+  "tur": "sehir_olay",
+  "dosya": "data/sehir_tarihce_osm.js",
+  "anahtar": {
+   "sehir_id": "kabul",
+   "olay_t": "0697-01-01",
+   "b_oneki": "Haccâc'ın gönderdiği İbn Ebû Bekre'nin Kâbil"
+  },
+  "degisiklik": [
+   {
+    "alan": "t",
+    "eski": "0697-01-01",
+    "yeni": "0697-03-30"
+   },
+   {
+    "alan": "gun",
+    "eski": null,
+    "yeni": "78 H (697)"
+   },
+   {
+    "alan": "kesinlik",
+    "eski": null,
+    "yeni": "yil"
+   }
+  ],
+  "kaynak": "TDV Kâbil md. (tam gövde): «Haccâc b. Yûsuf 78 (697) yılında fetih amacıyla İbn Ebû Bekre’yi bölgeye gönderdiyse de başarı kazanılamadı»",
+  "tanik": "",
+  "gerekce": "Hicrî 78 = 697-03-30…698-03-19; şehir t=697-01-01 dışında → 697-03-30. Kron zaten doğru."
+ },
+ {
+  "id": "osm2-osm#41",
+  "tur": "kronoloji",
+  "dosya": "data/olaylar_t5_1000a.js",
+  "anahtar": {
+   "b_oneki": "I. Gıyâseddin Keyhusrev Maraş'ı tekrar",
+   "t_eski": "1208-01-01"
+  },
+  "degisiklik": [
+   {
+    "alan": "t",
+    "eski": "1208-01-01",
+    "yeni": "1208-07-16"
+   }
+  ],
+  "kaynak": "kron kaydının TDV alıntısı «605’te (1208) ... Maraş’ı tekrar Selçuklu topraklarına kattı» (TDV Kahramanmaraş md. tam gövdeyle doğrulanmadı)",
+  "tanik": "",
+  "gerekce": "Hicrî 605 = 1208-07-16…1209-07-04; kron t=1208-01-01 dışında → 1208-07-16."
+ },
+ {
+  "id": "osm2-osm#42",
+  "tur": "kronoloji",
+  "dosya": "data/kronoloji_sinir_once1281_yerlesim_asya_iran.js",
+  "anahtar": {
+   "b_oneki": "Barak Hâcib Kirman’a hâkim oldu —",
+   "t_eski": "1222-01-01"
+  },
+  "degisiklik": [
+   {
+    "alan": "t",
+    "eski": "1222-01-01",
+    "yeni": "1222-02-15"
+   }
+  ],
+  "kaynak": "TDV Kirman md. (tam gövde): «Karahıtay asıllı Barak Hâcib 619’da (1222) buraya hâkim oldu»; TDV Kutluğhanlılar md.: «Barak ertesi yıl Kirman’a hâkim oldu» (1221'den sonraki yıl)",
+  "tanik": "",
+  "gerekce": "Hicrî 619 = 1222-02-15…1223-02-02; kron t=1222-01-01 dışında → 1222-02-15 (şehir kaydı bu)."
+ },
+ {
+  "id": "osm2-osm#44",
+  "tur": "sehir_olay",
+  "dosya": "data/sehir_tarihce_osm.js",
+  "anahtar": {
+   "sehir_id": "mecca",
+   "olay_t": "0930-01-01",
+   "b_oneki": "Karmatîler hac mevsiminde Mekke'ye baskın yapıp"
+  },
+  "degisiklik": [
+   {
+    "alan": "t",
+    "eski": "0930-01-01",
+    "yeni": "0930-01-12"
+   },
+   {
+    "alan": "gun",
+    "eski": null,
+    "yeni": "8 Zilhicce 317 / 12 Ocak 930"
+   },
+   {
+    "alan": "kesinlik",
+    "eski": null,
+    "yeni": "gun"
+   }
+  ],
+  "kaynak": "TDV Mekke md. (tam gövde): «Karmatîler, 317 (930) yılında hac mevsiminde Mekke’ye baskın düzenlediler»; kron alıntısı TDV Muktedir-Billâh «8 Zilhicce 317’de (12 Ocak 930)» (tam gövdeyle doğrulanmadı)",
+  "tanik": "",
+  "gerekce": "Aynı olay; şehir yıl (317 H ∩ 930 ilk günü = 930-01-01, hicrî kurala uygun), kron günlü. Gün inceltmesi önerisi: 930-01-12 (çelişki değil, hassasiyet)."
+ },
+ {
+  "id": "osm2-osm#45",
+  "tur": "kronoloji",
+  "dosya": "data/olaylar_ortacag_ortadogu.js",
+  "anahtar": {
+   "b_oneki": "Karmatîler Mekke'yi işgal edip Hacerülesved'i",
+   "t_eski": "0929-02-14"
+  },
+  "degisiklik": [
+   {
+    "alan": "t",
+    "eski": "0929-02-14",
+    "yeni": "0930-01-12"
+   }
+  ],
+  "kaynak": "TDV Mekke md. (tam gövde): «317 (930) yılında hac mevsiminde»; TDV Abbâsîler (kron alıntısı): «929’da Mekke’yi işgal ederek»; TDV Muktedir-Billâh (kron alıntısı): «8 Zilhicce 317’de (12 Ocak 930)»",
+  "tanik": "",
+  "gerekce": "Aynı olay (Karmatî Mekke baskını) iki kron maddesi: #44 (930-01-12, gün) ve bu (929-02-14 = 317 H başı). TDV içi çelişki (Abbâsîler 929 ↔ Mekke/Karmatîler/Muktedir 930; Zilhicce 317 = Ocak 930 hesapla da 930). Günlü kaynak esas: 930-01-12; 929 beyanı ic_not'ta. Mükerrer olduğundan birleştirme de düş"
+ },
+ {
+  "id": "osm2-osm#46",
+  "tur": "kronoloji",
+  "dosya": "data/kronoloji_cok_once1281_ortadogu.js",
+  "anahtar": {
+   "b_oneki": "Mekke hutbeyi Fâtımîlerden Abbâsî halifesi ve",
+   "t_eski": "1069-01-01"
+  },
+  "degisiklik": [
+   {
+    "alan": "t",
+    "eski": "1069-01-01",
+    "yeni": "1069-10-20"
+   }
+  ],
+  "kaynak": "TDV Mekke md. (tam gövde): «Ebû Hâşim ... 462 (1069-70) yılında ... Abbâsî Halifesi Kāim-Biemrillâh ile»",
+  "tanik": "",
+  "gerekce": "Hicrî 462 = 1069-10-20…1070-10-08; kron t=1069-01-01 dışında → 1069-10-20 (şehir kaydı bu)."
+ },
+ {
+  "id": "osm2-osm#47",
+  "tur": "kronoloji",
+  "dosya": "data/olaylar_t5_1000b.js",
+  "anahtar": {
+   "b_oneki": "Mekke hutbesi Fâtımîlerden Abbâsî halifesi ve",
+   "t_eski": "1070-01-01"
+  },
+  "degisiklik": [
+   {
+    "alan": "t",
+    "eski": "1070-01-01",
+    "yeni": "1069-10-20"
+   }
+  ],
+  "kaynak": "TDV Mekke md. (tam gövde): «462 (1069-70) yılında»",
+  "tanik": "",
+  "gerekce": "Kaynak \"1069-70\" verir; kesişimin ilk günü 1069-10-20 (CLAUDE.md hicrî kural; 1070-01-01 yılın içinde ama ilk gün değil). #46 ile mükerrer olabilir."
+ },
+ {
+  "id": "osm2-osm#48",
+  "tur": "kronoloji",
+  "dosya": "data/kronoloji_cok_ms1_1000_ortadogu.js",
+  "anahtar": {
+   "b_oneki": "Hüseynîler Medine'ye yeniden hâkim oldu;",
+   "t_eski": "0969-01-02"
+  },
+  "degisiklik": [
+   {
+    "alan": "t",
+    "eski": "0969-01-02",
+    "yeni": "0969-01-01"
+   }
+  ],
+  "kaynak": "kron kaydının TDV alıntısı «358 (969) yılında tekrar Medine’ye hâkim olan Hüseynîler» (TDV Medine md. tam gövdeyle doğrulanmadı)",
+  "tanik": "",
+  "gerekce": "Hicrî 358 (968-11-25…969-11-13) ∩ 969 ilk günü = 969-01-01; kron 969-01-02 kuraldan 1 gün sapar (kozmetik; çelişki değil)."
+ },
+ {
+  "id": "osm2-osm#50",
+  "tur": "kronoloji",
+  "dosya": "data/olaylar_ortacag_ortadogu.js",
+  "anahtar": {
+   "b_oneki": "Ebû Tağlib Gazanfer Remle'de öldürüldü;",
+   "t_eski": "0979-07-29"
+  },
+  "degisiklik": [
+   {
+    "alan": "kesinlik",
+    "eski": "gun",
+    "yeni": "yil"
+   }
+  ],
+  "kaynak": "TDV Hamdânîler md. (tam gövde): «Müferric b. Dağfel’e yenilerek öldürüldü (369/979)»",
+  "tanik": "",
+  "gerekce": "Olay #49 ile aynı kaynak: yalnız hicrî yıl (369/979) var, gün yok; t=979-07-29 hicrî kural uyar ama kron kesinlik=\"gun\" kaynaksız → kesinlik \"yil\". Şehir olayı (Adudüddevle) farklı olay, çelişki yok."
+ },
+ {
+  "id": "osm2-osm#51",
+  "tur": "kronoloji",
+  "dosya": "data/olaylar_ek5.js",
+  "anahtar": {
+   "b_oneki": "Muş Karakoyunlu yönetiminden Timur'un idaresine",
+   "t_eski": "1387-01-30"
+  },
+  "degisiklik": [
+   {
+    "alan": "t",
+    "eski": "1387-01-30",
+    "yeni": "1387-01-22"
+   }
+  ],
+  "kaynak": "TDV Muş md. (tam gövde): «789’da (1387) Karakoyunlu topraklarına sahip olan Timur’un idaresi altına girdi»",
+  "tanik": "",
+  "gerekce": "Hicrî 789 başı = 1387-01-22 (Jülyen). Kron 1387-01-30 = aynı gün Gregoryen çevirisi (+8): Jülyen kuralı (1582 öncesi) ihlali → 1387-01-22."
+ },
+ {
+  "id": "osm2-osm#53",
+  "tur": "sehir_olay",
+  "dosya": "data/sehir_tarihce_osm.js",
+  "anahtar": {
+   "sehir_id": "qena",
+   "olay_t": "1250-05-04",
+   "b_oneki": "Turan Şah öldürüldü, Şecerüddür sultan;"
+  },
+  "degisiklik": [
+   {
+    "alan": "t",
+    "eski": "1250-05-04",
+    "yeni": "1250-04-30"
+   },
+   {
+    "alan": "gun",
+    "eski": null,
+    "yeni": "30 Nisan 1250"
+   },
+   {
+    "alan": "kesinlik",
+    "eski": null,
+    "yeni": "gun"
+   }
+  ],
+  "kaynak": "TDV Eyyûbîler md. (tam gövde): «30 Nisan 1250 tarihinde sultanı öldürdüler»; TDV Şecerüddür md. (tam gövde): «Turan Şah’ı öldürdüler ve Şecerüddürr’ü sultan seçtiler (30 Muharrem 648 / 4 Mayıs 1250)»; 3. kaynak Britannica (Aybak/Shajar ad-Durr): «killed him (April 30, 1250)»",
+  "tanik": "",
+  "gerekce": "TDV İÇ ÇELİŞKİ (Turan Şah'ın öldürülmesi: Eyyûbîler 30 Nisan ↔ Şecerüddür 4 Mayıs). Britannica 30 Nisan 1250'yi doğrular → Turan Şah'ın ölüm günü 30 Nisan; 4 Mayıs Şecerüddür'ün seçilişi olarak kalabilir. Şehir olayı \"Turan Şah öldürüldü\" ise 04-30'a çekilsin; ic_not'ta TDV Şecerüddür 4 Mayıs beyanı"
+ },
+ {
+  "id": "osm2-osm#54",
+  "tur": "sehir_olay",
+  "dosya": "data/sehir_tarihce_osm.js",
+  "anahtar": {
+   "sehir_id": "rodos-rhodes",
+   "olay_t": "-0304-01-01",
+   "b_oneki": "Demetrios Poliorketes'in kuşatması püskürtüldü;"
+  },
+  "degisiklik": [
+   {
+    "alan": "t",
+    "eski": "-0304-01-01",
+    "yeni": "-0303-01-01"
+   },
+   {
+    "alan": "gun",
+    "eski": null,
+    "yeni": "303 (MÖ 304)"
+   },
+   {
+    "alan": "kesinlik",
+    "eski": null,
+    "yeni": "yil"
+   }
+  ],
+  "kaynak": "TDV Rodos md. (tam gövde): «milâttan önce 305 yılındaki ... Demetrios’un saldırısına başarıyla karşı koydu»; Britannica Colossus of Rhodes: «raising of the siege of Rhodes (305–304 BCE)»; kron: Diodoros 20.99",
+  "tanik": "",
+  "gerekce": "TDV 305'i saldırının (kuşatmanın başlangıç) yılı olarak verir; kuşatmanın kalkışı/antlaşma MÖ 304 (Britannica 305–304, Diodoros 20.99). Şehir olayı \"kuşatma püskürtüldü / zafer anısına heykel\" = bitiş → MÖ 304 (= -0303). Kron doğru."
+ },
+ {
+  "id": "osm2-osm#56",
+  "tur": "kronoloji",
+  "dosya": "data/olaylar_ortacag_ortadogu.js",
+  "anahtar": {
+   "b_oneki": "Zeydî imam Abdullah b. Hamza San'a ve Dhamar'ı",
+   "t_eski": "1198-01-01"
+  },
+  "degisiklik": [
+   {
+    "alan": "t",
+    "eski": "1198-01-01",
+    "yeni": "1198-11-03"
+   }
+  ],
+  "kaynak": "kron kaydı ic_not'u: TDV Mansûr-Billâh «594 yılı sonunda veya 595 başında (1198 sonları) San‘a’ya girdi» (TDV Yemen: 595/1199); tam gövdeyle bu oturumda yeniden okunmadı",
+  "tanik": "",
+  "gerekce": "Kaynak \"1198 sonları / 595 başı\" der; 595 H = 1198-11-03…1199-10-22; kron t=1198-01-01 kaynağın yılı içinde ama \"sonları\"na ve hicrî kurala aykırı → 1198-11-03 (şehir kaydı). TDV içi 1198/1199 beyanı ic_not'ta var."
+ },
+ {
+  "id": "osm2-osm#58",
+  "tur": "kronoloji",
+  "dosya": "data/kronoloji_cok_once1281_iran.js",
+  "anahtar": {
+   "b_oneki": "Şebânkâre emîri Fazlûye Fars'taki Büveyhî",
+   "t_eski": "1056-01-01"
+  },
+  "degisiklik": [
+   {
+    "alan": "t",
+    "eski": "1056-01-01",
+    "yeni": "1056-03-21"
+   }
+  ],
+  "kaynak": "TDV Şîraz md. (tam gövde): «Şehir 448’de (1056) Fülâd Sütûn’u mağlûp ederek öldüren Şebânkâre Emîri Fazlûye’nin»; TDV Büveyhîler md. (tam gövde) hükümdar tablosu: «Fazlûye’nin hâkimiyeti ele geçirmesi 448 (1056)»",
+  "tanik": "",
+  "gerekce": "Kaynak hicrî 448 verir; 448 H = 1056-03-21…1057-03-09; kron t=1056-01-01 dışında → 1056-03-21 (şehir kaydı bu). İki kron maddesi (#58 kronoloji_cok_once1281_iran.js; #59 olaylar_ortacag_iran_turan.js)."
+ },
+ {
+  "id": "osm2-osm#59",
+  "tur": "kronoloji",
+  "dosya": "data/olaylar_ortacag_iran_turan.js",
+  "anahtar": {
+   "b_oneki": "Şebânkâre emîri Fazlûye Fülâd Sütûn'u öldürdü;",
+   "t_eski": "1056-01-01"
+  },
+  "degisiklik": [
+   {
+    "alan": "t",
+    "eski": "1056-01-01",
+    "yeni": "1056-03-21"
+   }
+  ],
+  "kaynak": "TDV Şîraz md. (tam gövde): «Şehir 448’de (1056) Fülâd Sütûn’u mağlûp ederek öldüren Şebânkâre Emîri Fazlûye’nin»; TDV Büveyhîler md. (tam gövde) hükümdar tablosu: «Fazlûye’nin hâkimiyeti ele geçirmesi 448 (1056)»",
+  "tanik": "",
+  "gerekce": "Kaynak hicrî 448 verir; 448 H = 1056-03-21…1057-03-09; kron t=1056-01-01 dışında → 1056-03-21 (şehir kaydı bu). İki kron maddesi (#58 kronoloji_cok_once1281_iran.js; #59 olaylar_ortacag_iran_turan.js)."
+ },
+ {
+  "id": "osm2-osm#60",
+  "tur": "kronoloji",
+  "dosya": "data/kronoloji_cok_once1281_iran.js",
+  "anahtar": {
+   "b_oneki": "Revvâdî Vehsûdân Tuğrul Bey'e itaat etti",
+   "t_eski": "1054-01-01"
+  },
+  "degisiklik": [
+   {
+    "alan": "t",
+    "eski": "1054-01-01",
+    "yeni": "1054-04-12"
+   }
+  ],
+  "kaynak": "TDV Tebriz md. alıntısı (kron kaydı): «Selçuklu hâkimiyetine girdi (446/1054)»; TDV Revvâdîler md. tam gövdeyle doğrulanmadı",
+  "tanik": "",
+  "gerekce": "Hicrî 446 = 1054-04-12…1055-03-31; kron t=1054-01-01 dışında → 1054-04-12 (şehir kaydı bu). İki kron maddesi (#60 kronoloji_cok_once1281_iran.js; #61 kronoloji_sinir_once1281_yerlesim_asya_iran.js)."
+ },
+ {
+  "id": "osm2-osm#61",
+  "tur": "kronoloji",
+  "dosya": "data/kronoloji_sinir_once1281_yerlesim_asya_iran.js",
+  "anahtar": {
+   "b_oneki": "Tuğrul Bey’e itaat eden Tebriz, Azerbaycan’da",
+   "t_eski": "1054-01-01"
+  },
+  "degisiklik": [
+   {
+    "alan": "t",
+    "eski": "1054-01-01",
+    "yeni": "1054-04-12"
+   }
+  ],
+  "kaynak": "TDV Tebriz md. alıntısı (kron kaydı): «Selçuklu hâkimiyetine girdi (446/1054)»; TDV Revvâdîler md. tam gövdeyle doğrulanmadı",
+  "tanik": "",
+  "gerekce": "Hicrî 446 = 1054-04-12…1055-03-31; kron t=1054-01-01 dışında → 1054-04-12 (şehir kaydı bu). İki kron maddesi (#60 kronoloji_cok_once1281_iran.js; #61 kronoloji_sinir_once1281_yerlesim_asya_iran.js)."
+ },
+ {
+  "id": "osm2-osm#62",
+  "tur": "sehir_olay",
+  "dosya": "data/sehir_tarihce_osm.js",
+  "anahtar": {
+   "sehir_id": "tripoli-2",
+   "olay_t": "1105-01-01",
+   "b_oneki": "Raymond de Saint-Gilles uzun kuşatma sırasında"
+  },
+  "degisiklik": [
+   {
+    "alan": "t",
+    "eski": "1105-01-01",
+    "yeni": "1105-02-28"
+   },
+   {
+    "alan": "gun",
+    "eski": null,
+    "yeni": "28 Şubat 1105"
+   },
+   {
+    "alan": "kesinlik",
+    "eski": null,
+    "yeni": "gun"
+   }
+  ],
+  "kaynak": "TDV Ammâroğulları md. (tam gövde): «Raymond 28 Şubat 1105 tarihinde ölünce yerine kuzeni Kont Guillaume Jourdain geçti»; TDV Trablusşam md.: «öldü (1105)»",
+  "tanik": "",
+  "gerekce": "Aynı olay; şehir yıl, TDV Ammâroğulları gün verir. Kron doğru."
+ },
+ {
+  "id": "k12k3-k12#2",
+  "tur": "kronoloji",
+  "dosya": "data/kronoloji_cok_dogu_500_1281.js",
+  "anahtar": {
+   "b_oneki": "Eftalit Prensi Tarhan Nîzek yabgunun desteğiyle",
+   "t_eski": "0710-01-01"
+  },
+  "degisiklik": [
+   {
+    "alan": "t",
+    "eski": "0710-01-01",
+    "yeni": "0709-01-01"
+   }
+  ],
+  "kaynak": "TDV Belh md. tam gövde: «709’da Vali Kuteybe b. Müslim’e karşı ayaklanan Eftalit Prensi Tarhan Nîzek Belh’i aldıysa da»; TDV Tohâristan md.: «Tarhan Nîzek Belh’i aldıysa da Kuteybe b. Müslim tarafından ortadan kaldırıldı (91/710)»",
+  "tanik": "",
+  "gerekce": "Belh'in ALINIŞI TDV Belh'te 709; Tohâristan'daki (91/710) Nîzek'in ORTADAN KALDIRILIŞINI tarihler (91 H = 709-11-09..710-10-28), kron maddesi iki olayı birleştirip 710 yazmış. Alınış için kron t=709 (yıl); Nîzek'in ölümü ayrı madde (bkz k12-#3, 710)"
+ },
+ {
+  "id": "k12k3-k12#6",
+  "tur": "sehir_olay",
+  "dosya": "data/sehir_tarihce_k12.js",
+  "anahtar": {
+   "sehir_id": "dali",
+   "olay_t": "1253-01-07",
+   "b_oneki": "Moğollar Ta-li'yi ele geçirir; künye geçişi"
+  },
+  "degisiklik": [
+   {
+    "alan": "t",
+    "eski": "1253-01-07",
+    "yeni": "1254-01-02"
+   },
+   {
+    "alan": "gun",
+    "eski": null,
+    "yeni": "2 Ocak 1254"
+   },
+   {
+    "alan": "kesinlik",
+    "eski": null,
+    "yeni": "gun"
+   }
+  ],
+  "kaynak": "Yuan shi juan 4: «十二月丙辰，軍薄大理城»; 癸丑 yılı 12. ay; 丙辰 günü = 1254-01-02 Jülyen (sexagenary hesap bu turda doğrulandı); Cœdès: «January 7, 1253»",
+  "tanik": "",
+  "gerekce": "Cœdès'in yılı (1253) Moğol seferi takvimiyle (1253 sonbaharında Daduhe; 癸丑 12. ay = Ara 1253/Oca 1254) uyuşmaz; 7 Ocak 1253 癸丑 yılına düşmez (壬子 yılı). Birincil kaynak günü: 丙辰 = 2 Ocak 1254 (şehre dayanma; Gao Xiang o gece kaçar, Möngke'nin kuvveti ertesi gün girer). Şehir olayı kron ile hizalanmal"
+ },
+ {
+  "id": "k12k3-k12#8",
+  "tur": "kronoloji",
+  "dosya": "data/kronoloji_sinir_dogu_500_1281.js",
+  "anahtar": {
+   "b_oneki": "Hanoi (Thăng Long): Ngô Quyền Kiều Công Tiễn'i",
+   "t_eski": "0939-01-01"
+  },
+  "degisiklik": [
+   {
+    "alan": "t",
+    "eski": "0939-01-01",
+    "yeni": "0938-01-01"
+   }
+  ],
+  "kaynak": "Zizhi tongjian j.281, 天福三年（938）冬十月: «權已殺公羨，據交州，引兵逆戰» (Han filosu yenilir, Hongcao ölür); Taylor 2013 (kron kaynağı: 939)",
+  "tanik": "",
+  "gerekce": "Zizhi tongjian Ngô Quyền'in Công Tiễn'i öldürüp Han donanmasını yenmesini 938 kışına (10. ay) koyar; kron t=939 yanlış (939 Ngô'nun kral ilanı). Kron t=938"
+ },
+ {
+  "id": "k12k3-k12#9",
+  "tur": "kronoloji",
+  "dosya": "data/kronoloji_sinir_antik_bizans_komsu.js",
+  "anahtar": {
+   "b_oneki": "Kâkûyî Alâüddevle Muhammed Hemedan'a yürüyüp",
+   "t_eski": "1023-01-01"
+  },
+  "degisiklik": [
+   {
+    "alan": "t",
+    "eski": "1023-01-01",
+    "yeni": "1023-03-26"
+   }
+  ],
+  "kaynak": "TDV Kâkûyîler md. tam gövde: «414’te (1023-24), … Hemedan’a yürüyen Alâüddevle Muhammed»",
+  "tanik": "",
+  "gerekce": "414 H = 1023-03-26…1024-03-14; kron t=1023-01-01 hicrî yılın dışında → hicrî ∩ 1023 ilk günü"
+ },
+ {
+  "id": "k12k3-k12#10",
+  "tur": "kronoloji",
+  "dosya": "data/kronoloji_cok_once1281_iran.js",
+  "anahtar": {
+   "b_oneki": "Kinkever Kalesi Selçuklulara teslim oldu;",
+   "t_eski": "1047-01-01"
+  },
+  "degisiklik": [
+   {
+    "alan": "t",
+    "eski": "1047-01-01",
+    "yeni": "1047-06-28"
+   }
+  ],
+  "kaynak": "TDV Kâkûyîler md. (şehir/kron kaynağı «439/1047»; hicrî yıl kuralı); bu turda 439/1047 cümlesi tam gövdede ayrıca aranmadı (Kinkever bölümü okundu)",
+  "tanik": "",
+  "gerekce": "439 H = 1047-06-28…1048-06-15; kron t=1047-01-01 hicrî yılın dışında → t=1047-06-28 (kron kaydının TDV alıntısına dayanır, tam gövde doğrulanmadı)"
+ },
+ {
+  "id": "k12k3-k12#11",
+  "tur": "kronoloji",
+  "dosya": "data/olaylar_ortacag_bekleyen_acik.js",
+  "anahtar": {
+   "b_oneki": "Kinkever Kalesi teslim olur; Hemedan doğrudan",
+   "t_eski": "1047-01-01"
+  },
+  "degisiklik": [
+   {
+    "alan": "t",
+    "eski": "1047-01-01",
+    "yeni": "1047-06-28"
+   }
+  ],
+  "kaynak": "aynı: TDV Kâkûyîler (439/1047)",
+  "tanik": "",
+  "gerekce": "k12-#10 ile aynı olay; kron t=1047-01-01 hicrî 439 dışında → 1047-06-28 (tam gövde doğrulanmadı)"
+ },
+ {
+  "id": "k12k3-k12#12",
+  "tur": "sehir_olay",
+  "dosya": "data/sehir_tarihce_k12.js",
+  "anahtar": {
+   "sehir_id": "isfahan",
+   "olay_t": "0934-12-11",
+   "b_oneki": "Büveyhî Rüknüddevle Hasan Isfahan'ı merkez"
+  },
+  "degisiklik": [
+   {
+    "alan": "t",
+    "eski": "0934-12-11",
+    "yeni": "0935-01-01"
+   },
+   {
+    "alan": "gun",
+    "eski": null,
+    "yeni": "323 H (935)"
+   },
+   {
+    "alan": "kesinlik",
+    "eski": null,
+    "yeni": "yil"
+   }
+  ],
+  "kaynak": "TDV İsfahan md. tam gövde: «Rüknüddevle Hasan b. Büveyh 323’ten (935) itibaren uzun bir süre burada yaşadı»",
+  "tanik": "",
+  "gerekce": "323 H = 934-12-11…935-11-29 ama kaynak milâdî yılı 935 verir → hicrî ∩ 935 ilk günü 935-01-01 (CLAUDE.md hicrî kuralı); şehir t=934-12-11 (hicrî yılın ilk günü) milâdî yılın dışına düşüyor; kron t=935-01-01 doğru"
+ },
+ {
+  "id": "k12k3-k12#16",
+  "tur": "sehir_olay",
+  "dosya": "data/sehir_tarihce_k12.js",
+  "anahtar": {
+   "sehir_id": "osaka",
+   "olay_t": "0645-01-01",
+   "b_oneki": "Kōtoku, başkenti Naniwa'ya taşır;"
+  },
+  "degisiklik": [
+   {
+    "alan": "t",
+    "eski": "0645-01-01",
+    "yeni": "0646-01-01"
+   },
+   {
+    "alan": "gun",
+    "eski": null,
+    "yeni": "646 (Taika 1/12/9 癸卯)"
+   },
+   {
+    "alan": "kesinlik",
+    "eski": null,
+    "yeni": "gun"
+   }
+  ],
+  "kaynak": "Nihon Shoki j.25: «冬十二月乙未朔癸卯，天皇遷都難波長柄豐碕。»; Kotobank 645年12月; 癸卯 günü = 0646-01-01 Jülyen (sexagenary hesap bu turda doğrulandı)",
+  "tanik": "",
+  "gerekce": "Taika 1/12/9 (癸卯) Jülyen 646-01-01; şehir kaydı 'Taika 1/12'yi 645 yazmış (Ara 645 kaynağı lunisolar yıl); takvim çevirisi yapılınca gün 646-01-01; kron doğru"
+ },
+ {
+  "id": "k12k3-k12#18",
+  "tur": "kronoloji",
+  "dosya": "data/kronoloji_sinir_dogu_500_1281.js",
+  "anahtar": {
+   "b_oneki": "Kuteybe b. Müslim Semerkant’ı kesin biçimde",
+   "t_eski": "0711-01-01"
+  },
+  "degisiklik": [
+   {
+    "alan": "t",
+    "eski": "0711-01-01",
+    "yeni": "0711-10-19"
+   }
+  ],
+  "kaynak": "TDV Semerkant md. tam gövde: «altı yıl süren şiddetli ve kanlı savaşların ardından kesin biçimde fethedildi (93/711)»",
+  "tanik": "",
+  "gerekce": "93 H = 711-10-19…712-10-06; ∩ 711 ilk günü 711-10-19; kron t=711-01-01 hicrî yılın dışında"
+ },
+ {
+  "id": "k12k3-k12#20",
+  "tur": "kronoloji",
+  "dosya": "data/kronoloji_cok_dogu_500_1281.js",
+  "anahtar": {
+   "b_oneki": "Batı Karahanlı Tamgaç Han İbrâhim Şâş'ı Doğu",
+   "t_eski": "1059-01-01"
+  },
+  "degisiklik": [
+   {
+    "alan": "t",
+    "eski": "1059-01-01",
+    "yeni": "1059-02-17"
+   }
+  ],
+  "kaynak": "TDV Karahanlılar md. tam gövde: «451 (1059) yılından itibaren Şâş, Îlâk, Tünhas ve Fergana’da basılan sikkelerde onun adı mevcuttur»",
+  "tanik": "",
+  "gerekce": "451 H = 1059-02-17…1060-02-05; kron t=1059-01-01 hicrî yılın dışında → 1059-02-17"
+ },
+ {
+  "id": "k12k3-k12#23",
+  "tur": "kronoloji",
+  "dosya": "data/kronoloji_cok_once1281_iran.js",
+  "anahtar": {
+   "b_oneki": "Ahmedîlî Alâeddin Merâga'yı İldenizli Ebû",
+   "t_eski": "1205-01-01"
+  },
+  "degisiklik": [
+   {
+    "alan": "t",
+    "eski": "1205-01-01",
+    "yeni": "1205-08-18"
+   }
+  ],
+  "kaynak": "TDV Urmiye md. tam gövde: «602 (1205-1206) yılında Merâga’ya karşılık Uşnu ve Urmiye’yi Atabeg Alâeddin’e verdiğini»; TDV Ahmedîlîler md. tam gövde: «Alâeddin 602 (1205-1206) yılında İldenizli Ebû Bekir’e karşı …»",
+  "tanik": "",
+  "gerekce": "aynı olay (Merâga↔Uşnu/Urmiye mübadelesi); 602 H = 1205-08-18…1206-08-07; kron t=1205-01-01 hicrî yılın dışında → 1205-08-18"
+ },
+ {
+  "id": "k12k3-k12#24",
+  "tur": "kronoloji",
+  "dosya": "data/kronoloji_cok_once1281_iran.js",
+  "anahtar": {
+   "b_oneki": "Kâkûyî Alâüddevle Yezd'i ele geçirip adına para",
+   "t_eski": "1030-01-01"
+  },
+  "degisiklik": [
+   {
+    "alan": "t",
+    "eski": "1030-01-01",
+    "yeni": "1030-01-09"
+   }
+  ],
+  "kaynak": "TDV Yezd md. tam gövde: «Yezd’i ele geçirerek kendi adına para bastırdı (421/1030)»",
+  "tanik": "",
+  "gerekce": "421 H = 1030-01-09…1030-12-28; kron 1030-01-01 hicrî yılın 8 gün öncesi → 1030-01-09"
+ },
+ {
+  "id": "k12k3-k12#25",
+  "tur": "sehir_olay",
+  "dosya": "data/sehir_tarihce_k12.js",
+  "anahtar": {
+   "sehir_id": "yezd",
+   "olay_t": "1141-08-06",
+   "b_oneki": "Kâkûyî Gerşâsb Katvân savaşında ölür, erkek"
+  },
+  "degisiklik": [
+   {
+    "alan": "t",
+    "eski": "1141-08-06",
+    "yeni": "1141-09-09"
+   },
+   {
+    "alan": "kesinlik",
+    "eski": null,
+    "yeni": "gun"
+   }
+  ],
+  "kaynak": "TDV Yezd md. tam gövde: «Katvân savaşında öldü (536/1141)»; TDV Karahıtaylar md.: «Katvân … (5 Safer 536 / 9 Eylül 1141)»",
+  "tanik": "",
+  "gerekce": "Gerşâsb Katvân savaşında öldü; savaş günü TDV Karahıtaylar'da açık (9 Eylül 1141; gün komşu maddeden, beyan edilmeli); şehir t=536 H ilk günü (6 Ağustos) savaştan 34 gün önce. Kron yıl hassasiyeti kalabilir"
+ },
+ {
+  "id": "k12k3-k3#6",
+  "tur": "kronoloji",
+  "dosya": "data/kronoloji_sinir_antik_roma.js",
+  "anahtar": {
+   "b_oneki": "Aquitania (Aquitania II): Vouillé sonrası Frank",
+   "t_eski": "0508-01-01"
+  },
+  "degisiklik": [
+   {
+    "alan": "t",
+    "eski": "0508-01-01",
+    "yeni": "0507-01-01"
+   }
+  ],
+  "kaynak": "Treccani 'Aquitania': «battaglia di Vouillé (507)»; kron kaynağı Treccani 'Visigoti' yalnız Vouillé 507. 508'i destekleyen kaynak yok (kron notu: atlas Toulouse zinciri vizigot 418-508 → atlas referans değildir). Treccani tam metni bu turda açılmadı: doğrulanamadı",
+  "tanik": "",
+  "gerekce": "aynı olay (Vouillé sonrası Frank hâkimiyeti); kron kaydının kendi kaynağı 507 der, 508 yalnız atlas zincirinden. Öneri: kron t=507 (yıl). DİKKAT: bu t, Aquitania dönem sınırı (d:) ile Değişmez 2 ilişkisi nedeniyle KASA'da dönem sınırıyla birlikte ele alınmalı"
+ },
+ {
+  "id": "k12k3-k3#12",
+  "tur": "kronoloji",
+  "dosya": "data/kronoloji_cok_ms1_1000_iber_balkan.js",
+  "anahtar": {
+   "b_oneki": "Midrârîler Fâtımî valisini ve muhafızlarını",
+   "t_eski": "0910-08-01"
+  },
+  "degisiklik": [
+   {
+    "alan": "t",
+    "eski": "0910-08-01",
+    "yeni": "0910-08-12"
+   }
+  ],
+  "kaynak": "TDV Sicilmâse md. tam gövde: «(6 Zilhicce 296 / 26 Ağustos 909)»; TDV Midrârîler md. tam gövde: «valiyi ve muhafızlarını öldürüp bölgeye tekrar hâkim oldular (Zilhicce 297 / Ağustos 910)»",
+  "tanik": "",
+  "gerekce": "FARKLI olay (Ebû Abdullah'ın işgali 909 ↔ Midrârî'lerin Fâtımî valiyi öldürüp dönmesi 910): çelişki değil. Ama kron t=0910-08-01, Zilhicce 297'nin (910-08-12…09-08) başlamasından ÖNCE: hicrî ay kuralı → Zilhicce 297 ∩ Ağustos 910 ilk günü 910-08-12"
+ },
+ {
+  "id": "k12k3-k3#13",
+  "tur": "kronoloji",
+  "dosya": "data/kronoloji_sinir_once1281_geriye.js",
+  "anahtar": {
+   "b_oneki": "Artvin, Tûs, Zerenc (Sîstan): büyük selçuklu",
+   "t_eski": "1157-01-01"
+  },
+  "degisiklik": [
+   {
+    "alan": "t",
+    "eski": "1157-01-01",
+    "yeni": "1157-02-13"
+   }
+  ],
+  "kaynak": "TDV Horasan md. tam gövde: «Sencer’in ölümünden (552/1157) sonra Oğuzlar’ın Horasan’daki tahribatı devam etti»; TDV Sencer md.: «(ö. 552/1157)» (gün yok); kron kaynağı TDV Artvin (1068; 1157'yi desteklemez)",
+  "tanik": "",
+  "gerekce": "aynı olay (Büyük Selçuklu hâkimiyetinin sonu); kron t=1157-01-01, 552 H (1157-02-13…) dışında; hicrî ∩ 1157 → 1157-02-13. UYARI: kron kaynağı Artvin md. bu olayı desteklemiyor; kaynağa TDV Horasan eklenmeli"
+ },
+ {
+  "id": "k12k3-k3#16",
+  "tur": "sehir_olay",
+  "dosya": "data/sehir_tarihce_k3_g1.js",
+  "anahtar": {
+   "sehir_id": "aleppo",
+   "olay_t": "1146-06-13",
+   "b_oneki": "Zengî'nin ölümü; Halep oğlu Nûreddin Mahmud'a,"
+  },
+  "degisiklik": [
+   {
+    "alan": "t",
+    "eski": "1146-06-13",
+    "yeni": "1146-09-14"
+   },
+   {
+    "alan": "gun",
+    "eski": null,
+    "yeni": "5 Rebîülâhir 541"
+   },
+   {
+    "alan": "kesinlik",
+    "eski": null,
+    "yeni": "gun"
+   }
+  ],
+  "kaynak": "TDV Nûreddin Mahmud Zengî md. tam gövde: «kölesi tarafından öldürülünce (5 Rebîülâhir 541 / 14 Eylül 1146)»",
+  "tanik": "",
+  "gerekce": "Şehir t=1146-06-13 (541 H ilk günü) yerine kaynağın açık günü 14 Eylül 1146; kron t=1146-01-01 yıl, kron kaynağı aynı günü taşıdığından kron da 1146-09-14'e çekilmeli (olaylar_ortacag_ortadogu.js)"
+ },
+ {
+  "id": "k12k3-k3#18",
+  "tur": "kronoloji",
+  "dosya": "data/olaylar_ortacag_ortadogu.js",
+  "anahtar": {
+   "b_oneki": "el-Melikü'z-Zâhir Gāzî Halep'e tayin edildi;",
+   "t_eski": "1186-01-01"
+  },
+  "degisiklik": [
+   {
+    "alan": "t",
+    "eski": "1186-01-01",
+    "yeni": "1186-03-24"
+   }
+  ],
+  "kaynak": "TDV Halep md. tam gövde: «el-Melikü’z-Zâhir tekrar Halep’e tayin edildi (582/1186)»",
+  "tanik": "",
+  "gerekce": "582 H = 1186-03-24…1187-03-12; kron t=1186-01-01 hicrî yılın dışında → 1186-03-24"
+ },
+ {
+  "id": "k12k3-k3#25",
+  "tur": "sehir_olay",
+  "dosya": "data/sehir_tarihce_k3_g2.js",
+  "anahtar": {
+   "sehir_id": "viyana",
+   "olay_t": "1156-09-18",
+   "b_oneki": "Privilegium minus: Avusturya Markı Dukalığa"
+  },
+  "degisiklik": [
+   {
+    "alan": "t",
+    "eski": "1156-09-18",
+    "yeni": "1156-09-17"
+   },
+   {
+    "alan": "gun",
+    "eski": null,
+    "yeni": "17 Eylül 1156"
+   },
+   {
+    "alan": "kesinlik",
+    "eski": null,
+    "yeni": "gun"
+   }
+  ],
+  "kaynak": "ADB 'Heinrich II. Jasomirgott': «Am 17. Sept. 1156 gab der Babenberger zu Regensburg dem Kaiser Baiern zurück»; Austria-Forum AEIOU 'Privilegium minus' (WebFetch): «dated September 17, 1156»; Wien Geschichte Wiki: 18 Eylül",
+  "tanik": "",
+  "gerekce": "İki bağımsız kaynak (ADB + AEIOU) 17 Eylül 1156; yalnız Wien Geschichte Wiki 18 Eylül der (Urkunde tarihi mi, düzenleme günü mü belirsiz). MGH DF I 151 açılmadı: doğrulanamadı. Çift teyit → şehir t=17 Eylül"
+ }
+]
