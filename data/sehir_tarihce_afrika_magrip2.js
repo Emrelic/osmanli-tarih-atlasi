@@ -673,11 +673,11 @@ window.SEHIR_TARIHCE_AFRIKA_MAGRIP2 = [
    },
    {
     "f": "1243-01-01",
-    "t": "1273-01-01",
+    "t": "1273-07-18",
     "d": "sebte-azefi",
     "kesinlik": "onyil",
     "kaynak": "TDV İslâm Ansiklopedisi, 'SEBTE' (İsmail Ceran), https://islamansiklopedisi.org.tr/sebte",
-    "ic_not": "Fakih Ebü'l-Kāsım Muhammed b. Ahmed el-Azefî ve donanma kumandanı Ebü'l-Abbas er-Rendâhî yönetiminde yaklaşık otuz yıl bağımsız Sebte. Bitiş 1273-01-01 ATLAS BAŞLANGICIDIR: TDV Merînî alışını 672'de (1273-74) verir; hicrî 672 ∩ 1273 kesişiminin ilk günü 1273-07-18 — atlas başlangıcı yaklaşık 6 ay erken (atlas düzelmeli). Künye YOK (kunye_yok): önerilen id 'sebte-azefi', ömür ~1243-1273.",
+    "ic_not": "Fakih Ebü'l-Kāsım Muhammed b. Ahmed el-Azefî ve donanma kumandanı Ebü'l-Abbas er-Rendâhî yönetiminde yaklaşık otuz yıl bağımsız Sebte. Bitiş 1273-07-18: TDV Merînî alışını 672'de (1273-74) verir; hicrî 672 ∩ 1273 kesişiminin ilk günü 1273-07-18 (atlas başlangıcı 17 Kasım 2026'da 1273-01-01'den bu güne taşındı, ATLAS-DUZELTME-1117 satır 9). Künye YOK (kunye_yok): önerilen id 'sebte-azefi', ömür ~1243-1273.",
     "kunye_yok": true
    }
   ],
@@ -865,7 +865,7 @@ window.SEHIR_TARIHCE_AFRIKA_MAGRIP2 = [
     "ic_not": "Olay Sebte şehrine değil çevresine aittir."
    }
   ],
-  "dikis_beyan": "Atlas Sebte (Ceuta) 1273-01-01'de 'merini' başlıyor; TDV Merînî alışını 672'de (1273-74) verir ve hicrî 672 ∩ 1273 kesişiminin ilk günü 1273-07-18dır — atlas başlangıcı yaklaşık 6 ay erken; atlas düzelince zincir ve olay birlikte taşınmalı. Yer tutucu olay yazılmadı.",
+  "dikis_beyan": "ÇÖZÜLDÜ (17 Kasım 2026, ATLAS-DUZELTME-1117 satır 9): atlas Sebte (Ceuta) 'merini' başlangıcı 1273-01-01'den 1273-07-18'e (hicrî 672 ∩ 1273 ilk günü) taşındı; zincirin son halkası (sebte-azefi) aynı güne uzatıldı. Eski beyan: Atlas Sebte (Ceuta) 1273-01-01'de 'merini' başlıyor; TDV Merînî alışını 672'de (1273-74) verir ve hicrî 672 ∩ 1273 kesişiminin ilk günü 1273-07-18dır — atlas başlangıcı yaklaşık 6 ay erken; atlas düzelince zincir ve olay birlikte taşınmalı. Yer tutucu olay yazılmadı.",
   "ic_not": "Zincir yalnız TDV SEBTE'ye dayanır. 711-931 arası BOŞLUK'tur (beyanlı); Fenike/Kartaca/Roma/Vandal/Bizans dönemleri TDV'de yılsızdır ve ilk.t'den önceye geçmez. Sufriyye (740) ve Gumâre/İdrîsî evresinin sıra/süresi TDV'de yok. Merînî dönemi (1273-1415) sonrası Portekiz/İspanya zinciri atlasa aittir ve bu dosyaya karışmaz."
  }
 ];
