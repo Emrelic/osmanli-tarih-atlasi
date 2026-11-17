@@ -52,8 +52,8 @@
  ],
  "_olcum": {
   "kaynak": "kutu/emeklilik.py",
-  "kosan": 14,
-  "z": "2026-10-16 01:01"
+  "kosan": 1,
+  "z": "2026-11-06 23:14"
  },
  "oturumlar": {
   "local_00691593-a2d5-460f-8d58-77df71e4dca9": {
@@ -692,6 +692,27 @@
    "takma_adlar": [
     "OPUS HAZIR KITA 81"
    ]
+  },
+  "local_0c128c38-7955-4962-a479-5994e9b506df": {
+   "ad": "Kırılmayla birlikte tarih taşıma (DUNYA-1102)",
+   "dizin": "D:\\atlas\\.claude\\worktrees\\vibrant-dubinsky-8999b5",
+   "gecmis": [],
+   "gorev": "",
+   "hal": "BOSTA",
+   "kimlik": "local_0c128c38-7955-4962-a479-5994e9b506df",
+   "kova": "gorevde",
+   "model": "?",
+   "nobetciler": [],
+   "olcum": {
+    "baglam": 232451,
+    "bosta_dk": 351,
+    "hukum": "🟡 İŞ BÖLÜNMELİ",
+    "istek": 602,
+    "rol": "isci",
+    "sebep": "iş bitmedi, 351 dk boşta, bağlam 232 K ≥ 216 K — kalan işi TAZE bir işçiye vermek daha ucuz",
+    "z": "2026-11-06 23:14"
+   },
+   "olcum_zamani": "2026-11-06 23:14"
   },
   "local_0c7e432f-f2b7-4510-9480-e305634b10ac": {
    "ad": "KD-ZAMAN-0920 · Değişmez 3 zaman penceresi (Opus)",
