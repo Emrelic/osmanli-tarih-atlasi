@@ -1197,7 +1197,9 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
   "lon": 74.59,
   "kat1900": 3,
   "adlar": [
-   "Bishkek"
+   "Bishkek",
+   "Frunze",
+   "Pishpek"
   ],
   "ilk": {
    "t": "1825-01-01",
@@ -1221,7 +1223,23 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
    }
   ],
   "olay": [],
-  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi. Kokand Hanlığı Bishkek KALESİNİ kurdu (şehrin çekirdeği); 1862 Rus ele geçirmesi aynı cümlede. Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01."
+  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi. Kokand Hanlığı Bishkek KALESİNİ kurdu (şehrin çekirdeği); 1862 Rus ele geçirmesi aynı cümlede. Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01.",
+  "ad_kaynak": [
+   {
+    "ad": "Frunze",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Bishkek' https://www.britannica.com/place/Bishkek",
+    "kanit": "Also known as: Frunze, Pishpek"
+   },
+   {
+    "ad": "Pishpek",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Bishkek' https://www.britannica.com/place/Bishkek",
+    "kanit": "Also known as: Frunze, Pishpek"
+   }
+  ]
  },
  {
   "id": "buhara-uz",
@@ -2689,7 +2707,8 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
   "lon": 78.392,
   "kat1900": 3,
   "adlar": [
-   "Karakol"
+   "Karakol",
+   "Przhevalsk"
   ],
   "ilk": {
    "t": "1869-01-01",
@@ -2713,7 +2732,16 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
    }
   ],
   "olay": [],
-  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi. özne The city = madde konusu. Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01."
+  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi. özne The city = madde konusu. Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01.",
+  "ad_kaynak": [
+   {
+    "ad": "Przhevalsk",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Karakol' https://www.britannica.com/place/Karakol",
+    "kanit": "Also known as: Przhevalsk"
+   }
+  ]
  },
  {
   "id": "karakurum-mn",
@@ -2731,7 +2759,10 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
    "Ordubalık",
    "Mubalık",
    "Каракорум",
-   "Дахолин"
+   "Дахолин",
+   "Har Horin",
+   "K’a-la-k’un-lun",
+   "Khara-khorin"
   ],
   "ilk": {
    "t": "1220-01-01",
@@ -2844,6 +2875,27 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
     "donem": null,
     "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Каракорум, города' https://ru.wikisource.org/wiki/ЭСБЕ/Каракорум, города",
     "kanit": "в лапидарных надписях, найденных близ монастыря Эрдени-цзу — Дахолин"
+   },
+   {
+    "ad": "Har Horin",
+    "dil": "mn",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Karakorum' https://www.britannica.com/place/Karakorum",
+    "kanit": "Also known as: Har Horin, K’a-la-k’un-lun, Khara-khorin"
+   },
+   {
+    "ad": "K’a-la-k’un-lun",
+    "dil": "zh",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Karakorum' https://www.britannica.com/place/Karakorum",
+    "kanit": "Also known as: Har Horin, K’a-la-k’un-lun, Khara-khorin"
+   },
+   {
+    "ad": "Khara-khorin",
+    "dil": "mn",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Karakorum' https://www.britannica.com/place/Karakorum",
+    "kanit": "Also known as: Har Horin, K’a-la-k’un-lun, Khara-khorin"
    }
   ],
   "adlar_kaynaksiz": [
@@ -3135,7 +3187,9 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
   "lon": 69.3936,
   "kat1900": 3,
   "adlar": [
-   "Kokshetau"
+   "Kokshetau",
+   "Kokčetav",
+   "Kokchetav"
   ],
   "ilk": {
    "t": "1824-01-01",
@@ -3150,7 +3204,23 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
   "bit": null,
   "sahip": [],
   "olay": [],
-  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi. Britannica yazımı 'Kökshetaü'. Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01. Atlas noktasi VAR ('Kökçetav (Kokçetav)'): atlas baslangici kaynak yilindan ONCE; sahip[] bos (atlas zinciri esas), atlas baslangici duzeltilmeli (KASA)."
+  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi. Britannica yazımı 'Kökshetaü'. Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01. Atlas noktasi VAR ('Kökçetav (Kokçetav)'): atlas baslangici kaynak yilindan ONCE; sahip[] bos (atlas zinciri esas), atlas baslangici duzeltilmeli (KASA).",
+  "ad_kaynak": [
+   {
+    "ad": "Kokčetav",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Kokshetau' https://www.britannica.com/place/Kokshetau",
+    "kanit": "Also known as: Kokčetav, Kokchetav"
+   },
+   {
+    "ad": "Kokchetav",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Kokshetau' https://www.britannica.com/place/Kokshetau",
+    "kanit": "Also known as: Kokčetav, Kokchetav"
+   }
+  ]
  },
  {
   "id": "kuca-cn",
@@ -4093,7 +4163,8 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
    "Yesi",
    "Türkistan (Hazret-i Türkistan)",
    "Türkistan",
-   "Hazret-i Türkistan"
+   "Hazret-i Türkistan",
+   "Turkestan"
   ],
   "ilk": {
    "t": "1396-01-01",
@@ -4140,6 +4211,13 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
     "donem": null,
     "kaynak": "TDV İslâm Ansiklopedisi 'TÜRKİSTAN' https://islamansiklopedisi.org.tr/turkistan",
     "kanit": "Ahmed Yesevî “Hazret-i Türkistan” adıyla anıldığı"
+   },
+   {
+    "ad": "Turkestan",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Turkistan' https://www.britannica.com/place/Turkistan",
+    "kanit": "Also known as: Turkestan"
    }
   ],
   "adlar_kaynaksiz": [
@@ -4220,7 +4298,10 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
    "Dihua",
    "Ürümçi",
    "Ürümqi",
-   "Ürümchi"
+   "Ürümchi",
+   "Urumchi",
+   "Wu-lu-mu-ch’i",
+   "Wulumuqi"
   ],
   "ilk": {
    "t": "1870-01-01",
@@ -4292,6 +4373,27 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
     "donem": null,
     "kaynak": "Encyclopaedia Britannica 'Ürümqi' https://www.britannica.com/place/Urumqi",
     "kanit": "Also known as: Ürümchi, Dihua, Urumchi, Urumqi"
+   },
+   {
+    "ad": "Urumchi",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Urumqi' https://www.britannica.com/place/Urumqi",
+    "kanit": "Also known as: Ürümchi, Dihua, Urumchi, Urumqi, Wu-lu-mu-ch’i, Wulumuqi"
+   },
+   {
+    "ad": "Wu-lu-mu-ch’i",
+    "dil": "zh",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Urumqi' https://www.britannica.com/place/Urumqi",
+    "kanit": "Also known as: Ürümchi, Dihua, Urumchi, Urumqi, Wu-lu-mu-ch’i, Wulumuqi"
+   },
+   {
+    "ad": "Wulumuqi",
+    "dil": "zh",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Urumqi' https://www.britannica.com/place/Urumqi",
+    "kanit": "Also known as: Ürümchi, Dihua, Urumchi, Urumqi, Wu-lu-mu-ch’i, Wulumuqi"
    }
   ],
   "adlar_kaynaksiz": [
@@ -4306,7 +4408,8 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
   "lon": 67.70628,
   "kat1900": 2,
   "adlar": [
-   "Zhezqazghan"
+   "Zhezqazghan",
+   "Dzhezkazgan"
   ],
   "ilk": {
    "t": "1938-01-01",
@@ -4321,6 +4424,15 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
   "bit": null,
   "sahip": [],
   "olay": [],
-  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi. özne The city = madde konusu. Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01."
+  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi. özne The city = madde konusu. Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01.",
+  "ad_kaynak": [
+   {
+    "ad": "Dzhezkazgan",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Zhezqazghan' https://www.britannica.com/place/Zhezqazghan",
+    "kanit": "Also known as: Dzhezkazgan, Zhezkazgan"
+   }
+  ]
  }
 ];

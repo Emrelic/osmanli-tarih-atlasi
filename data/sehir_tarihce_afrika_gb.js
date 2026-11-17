@@ -367,7 +367,9 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
   "kat1900": 2,
   "adlar": [
    "Benguela",
-   "Benguella"
+   "Benguella",
+   "São Félipe de Benguela",
+   "São Filipe de Benguela"
   ],
   "ilk": {
    "t": "1617-01-01",
@@ -396,7 +398,30 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
    }
   ],
   "olay": [],
-  "ic_not": "TEK KAYNAK. Tanik ozne zamir = madde konusu; baslik sehir. Gun kaynakta yok (yil), atlas baslangicina (1617-05-17) <=1 yil uzatildi (beyanli dikis); sahip dönemi atlasin ilk sahibi portekiz-angola ile ayni kunye olarak yazildi (kunye 1617'de acilmamis olabilir; hayalet uyarisi beklenir)."
+  "ic_not": "TEK KAYNAK. Tanik ozne zamir = madde konusu; baslik sehir. Gun kaynakta yok (yil), atlas baslangicina (1617-05-17) <=1 yil uzatildi (beyanli dikis); sahip dönemi atlasin ilk sahibi portekiz-angola ile ayni kunye olarak yazildi (kunye 1617'de acilmamis olabilir; hayalet uyarisi beklenir).",
+  "ad_kaynak": [
+   {
+    "ad": "Benguella",
+    "dil": "pt",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Benguela' https://www.britannica.com/place/Benguela",
+    "kanit": "Also known as: Benguella, São Félipe de Benguela, São Filipe de Benguela"
+   },
+   {
+    "ad": "São Félipe de Benguela",
+    "dil": "pt",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Benguela' https://www.britannica.com/place/Benguela",
+    "kanit": "Also known as: Benguella, São Félipe de Benguela, São Filipe de Benguela"
+   },
+   {
+    "ad": "São Filipe de Benguela",
+    "dil": "pt",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Benguela' https://www.britannica.com/place/Benguela",
+    "kanit": "Also known as: Benguella, São Félipe de Benguela, São Filipe de Benguela"
+   }
+  ]
  },
  {
   "id": "birnin-kebbi-ng-p3",
@@ -807,7 +832,16 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
    }
   ],
   "olay": [],
-  "ic_not": "P3-B16. Atlas noktası yok (3 km tarandı)."
+  "ic_not": "P3-B16. Atlas noktası yok (3 km tarandı).",
+  "ad_kaynak": [
+   {
+    "ad": "Hartley",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Chegutu' https://www.britannica.com/place/Chegutu",
+    "kanit": "Also known as: Hartley"
+   }
+  ]
  },
  {
   "id": "dakar-af-p9",
@@ -937,11 +971,17 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
     "donem": null,
     "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Дикоа' https://ru.wikisource.org/wiki/ЭСБЕ/Дикоа",
     "kanit": "Дикоа или Дигоа — г. в Борну"
+   },
+   {
+    "ad": "Dikoa",
+    "dil": "fr",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Dikwa' https://www.britannica.com/place/Dikwa",
+    "kanit": "Also known as: Dikoa"
    }
   ],
   "adlar_kaynaksiz": [
-   "Dikwa",
-   "Dikoa"
+   "Dikwa"
   ]
  },
  {
@@ -1176,7 +1216,16 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
   "bit": null,
   "sahip": [],
   "olay": [],
-  "ic_not": "TEK KAYNAK. Britannica gövdesinden (YZ özeti bloğu dışı). Atlas noktası yok. 1964 > 1900: 1900'e kadar zincir gerekmez (kuruluş sonrası). Not: encyclopedia.com (World Encyclopedia) 'First settled in the 1890s' der (yalnız on yıl; yıl yok, tanık değil); Gaberones köyü 1964 öncesi vardı — 1964 modern başkent şehrinin kuruluşudur. Sahip zinciri 1900 sonrası için yazılmadı (ülke dönemi atlas/devletler zincirinde)."
+  "ic_not": "TEK KAYNAK. Britannica gövdesinden (YZ özeti bloğu dışı). Atlas noktası yok. 1964 > 1900: 1900'e kadar zincir gerekmez (kuruluş sonrası). Not: encyclopedia.com (World Encyclopedia) 'First settled in the 1890s' der (yalnız on yıl; yıl yok, tanık değil); Gaberones köyü 1964 öncesi vardı — 1964 modern başkent şehrinin kuruluşudur. Sahip zinciri 1900 sonrası için yazılmadı (ülke dönemi atlas/devletler zincirinde).",
+  "ad_kaynak": [
+   {
+    "ad": "Gaberones",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Gaborone' https://www.britannica.com/place/Gaborone",
+    "kanit": "Also known as: Gaberones"
+   }
+  ]
  },
  {
   "id": "gao-ml",
@@ -1702,7 +1751,9 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
   "lon": 15.73917,
   "kat1900": 2,
   "adlar": [
-   "Huambo"
+   "Huambo",
+   "New Lisbon",
+   "Nova Lisboa"
   ],
   "ilk": {
    "t": "1912-01-01",
@@ -1717,7 +1768,23 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
   "bit": null,
   "sahip": [],
   "olay": [],
-  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi. özne The city = madde konusu. Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01. Atlas noktasi VAR ('Huambo (Wambu)'): atlas baslangici kaynak yilindan ONCE; sahip[] bos (atlas zinciri esas), atlas baslangici duzeltilmeli (KASA)."
+  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi. özne The city = madde konusu. Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01. Atlas noktasi VAR ('Huambo (Wambu)'): atlas baslangici kaynak yilindan ONCE; sahip[] bos (atlas zinciri esas), atlas baslangici duzeltilmeli (KASA).",
+  "ad_kaynak": [
+   {
+    "ad": "New Lisbon",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Huambo' https://www.britannica.com/place/Huambo",
+    "kanit": "Also known as: New Lisbon, Nova Lisboa"
+   },
+   {
+    "ad": "Nova Lisboa",
+    "dil": "pt",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Huambo' https://www.britannica.com/place/Huambo",
+    "kanit": "Also known as: New Lisbon, Nova Lisboa"
+   }
+  ]
  },
  {
   "id": "hwange-p13",
@@ -1945,7 +2012,16 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
    }
   ],
   "olay": [],
-  "ic_not": "TEK KAYNAK: Britannica. Özne zamir 'It' = madde konusu; başlık şehir. Kaynak kuruluş değil ADLANDIRMA yılını verir ('bir Alman kâşif'; adı kaynakta yok); nicelik ilk_anilis. Gün yok; YYYY-01-01 + yil. Atlas noktası yok. Zincir: kaynak sahip değişimi tarihi vermez (1895'te 'Belçikalılara' karşı isyan anılır, devlet geçişi yok) → __BOSLUK__ beyanlı."
+  "ic_not": "TEK KAYNAK: Britannica. Özne zamir 'It' = madde konusu; başlık şehir. Kaynak kuruluş değil ADLANDIRMA yılını verir ('bir Alman kâşif'; adı kaynakta yok); nicelik ilk_anilis. Gün yok; YYYY-01-01 + yil. Atlas noktası yok. Zincir: kaynak sahip değişimi tarihi vermez (1895'te 'Belçikalılara' karşı isyan anılır, devlet geçişi yok) → __BOSLUK__ beyanlı.",
+  "ad_kaynak": [
+   {
+    "ad": "Luluabourg",
+    "dil": "fr",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Kananga' https://www.britannica.com/place/Kananga",
+    "kanit": "Also known as: Luluabourg"
+   }
+  ]
  },
  {
   "id": "kano-ng",
@@ -2044,7 +2120,16 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
    }
   ],
   "olay": [],
-  "ic_not": "TEK KAYNAK: Britannica. Özne zamir 'It' = madde konusu; başlık şehir. Gün yok; YYYY-01-01 + yil. Atlas noktası yok. Zincir: kaynakta şehrin 1804-1900 sahip değişimi yok → __BOSLUK__ (şehir var, sahibi bu kaynakta bilinmiyor; beyanlı, yaklaşıklık yok). Britannica kuruluşu Batavya Cumhuriyeti görevlisine bağlar ama şehrin egemenliğini belirtmez."
+  "ic_not": "TEK KAYNAK: Britannica. Özne zamir 'It' = madde konusu; başlık şehir. Gün yok; YYYY-01-01 + yil. Atlas noktası yok. Zincir: kaynakta şehrin 1804-1900 sahip değişimi yok → __BOSLUK__ (şehir var, sahibi bu kaynakta bilinmiyor; beyanlı, yaklaşıklık yok). Britannica kuruluşu Batavya Cumhuriyeti görevlisine bağlar ama şehrin egemenliğini belirtmez.",
+  "ad_kaynak": [
+   {
+    "ad": "Uitenhage",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Kariega' https://www.britannica.com/place/Kariega",
+    "kanit": "Also known as: Uitenhage"
+   }
+  ]
  },
  {
   "id": "khami-p9",
@@ -2210,7 +2295,8 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
   "kat1900": 2,
   "adlar": [
    "Kisangani",
-   "Stanleyville"
+   "Stanleyville",
+   "Falls Station"
   ],
   "ilk": {
    "t": "1883-01-01",
@@ -2235,7 +2321,23 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
    }
   ],
   "olay": [],
-  "ic_not": "Tarihçe yalnız kuruluş yılı içerir; TEK KAYNAK."
+  "ic_not": "Tarihçe yalnız kuruluş yılı içerir; TEK KAYNAK.",
+  "ad_kaynak": [
+   {
+    "ad": "Falls Station",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Kisangani' https://www.britannica.com/place/Kisangani",
+    "kanit": "Also known as: Falls Station, Stanleyville"
+   },
+   {
+    "ad": "Stanleyville",
+    "dil": "fr",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Kisangani' https://www.britannica.com/place/Kisangani",
+    "kanit": "Also known as: Falls Station, Stanleyville"
+   }
+  ]
  },
  {
   "id": "konakri-af-p9",
@@ -2364,7 +2466,12 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
   "lon": 16.93333,
   "kat1900": 2,
   "adlar": [
-   "Kuito"
+   "Kuito",
+   "Bié",
+   "Bihé",
+   "Cuito",
+   "Silva Porto",
+   "Vila Salva Porto"
   ],
   "ilk": {
    "t": "1890-01-01",
@@ -2379,7 +2486,44 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
   "bit": null,
   "sahip": [],
   "olay": [],
-  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi.  Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01. Atlas noktasi VAR ('Kuito (Bié)'): atlas baslangici kaynak yilindan ONCE; sahip[] bos (atlas zinciri esas), atlas baslangici duzeltilmeli (KASA)."
+  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi.  Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01. Atlas noktasi VAR ('Kuito (Bié)'): atlas baslangici kaynak yilindan ONCE; sahip[] bos (atlas zinciri esas), atlas baslangici duzeltilmeli (KASA).",
+  "ad_kaynak": [
+   {
+    "ad": "Bié",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Kuito' https://www.britannica.com/place/Kuito",
+    "kanit": "Also known as: Bié, Bihé, Cuito, Silva Porto, Vila Salva Porto"
+   },
+   {
+    "ad": "Bihé",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Kuito' https://www.britannica.com/place/Kuito",
+    "kanit": "Also known as: Bié, Bihé, Cuito, Silva Porto, Vila Salva Porto"
+   },
+   {
+    "ad": "Cuito",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Kuito' https://www.britannica.com/place/Kuito",
+    "kanit": "Also known as: Bié, Bihé, Cuito, Silva Porto, Vila Salva Porto"
+   },
+   {
+    "ad": "Silva Porto",
+    "dil": "pt",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Kuito' https://www.britannica.com/place/Kuito",
+    "kanit": "Also known as: Bié, Bihé, Cuito, Silva Porto, Vila Salva Porto"
+   },
+   {
+    "ad": "Vila Salva Porto",
+    "dil": "pt",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Kuito' https://www.britannica.com/place/Kuito",
+    "kanit": "Also known as: Bié, Bihé, Cuito, Silva Porto, Vila Salva Porto"
+   }
+  ]
  },
  {
   "id": "kumbi-salih-af-p9",
@@ -2857,7 +3001,8 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
   "lon": 13.4925,
   "kat1900": 2,
   "adlar": [
-   "Lubango"
+   "Lubango",
+   "Sá da Bandeira"
   ],
   "ilk": {
    "t": "1885-01-01",
@@ -2872,7 +3017,16 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
   "bit": null,
   "sahip": [],
   "olay": [],
-  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi. özne The city = madde konusu. Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01. Atlas noktasi VAR ('Lubango'): atlas baslangici kaynak yilindan ONCE; sahip[] bos (atlas zinciri esas), atlas baslangici duzeltilmeli (KASA)."
+  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi. özne The city = madde konusu. Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01. Atlas noktasi VAR ('Lubango'): atlas baslangici kaynak yilindan ONCE; sahip[] bos (atlas zinciri esas), atlas baslangici duzeltilmeli (KASA).",
+  "ad_kaynak": [
+   {
+    "ad": "Sá da Bandeira",
+    "dil": "pt",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Lubango' https://www.britannica.com/place/Lubango",
+    "kanit": "Also known as: Sá da Bandeira"
+   }
+  ]
  },
  {
   "id": "makurdi-ng-p3o",
@@ -3320,7 +3474,16 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
     "tanik": "The present town was founded by British colonists in 1848"
    }
   ],
-  "ic_not": "TEK KAYNAK (Britannica gövdesinden, YZ özeti bloğu dışı: sayfa innerText'inde 'created from Britannica articles using AI' bloğu YOK, tanık makale giriş paragrafında includes() ile doğrulandı, 17 Kasım 2026; ikinci bağımsız kaynak aranıp bulunamadı: encyclopedia.com Columbia'da maddesi yok, SAHO yalnız misyon/bölüm yılı veriyor). Tanık cümlesinde şehir adı yok; özne 'The present town' = madde konusu; başlık şehir. Aynı kaynak şehri kısa süre Aliwal South diye anar. Dias 1488/da Gama 1497 anmaları koyla ilgilidir, şehir kuruluşu değildir (kullanılmadı); SAHO 'municipality 1852' sonraki olgudur. Gün yok; YYYY-01-01 + yil. Atlas noktası yok; zincir 1900-01-01'e __BOSLUK__ beyanlı. Britannica yalnız 'British colonists' der; devlet adı vermez."
+  "ic_not": "TEK KAYNAK (Britannica gövdesinden, YZ özeti bloğu dışı: sayfa innerText'inde 'created from Britannica articles using AI' bloğu YOK, tanık makale giriş paragrafında includes() ile doğrulandı, 17 Kasım 2026; ikinci bağımsız kaynak aranıp bulunamadı: encyclopedia.com Columbia'da maddesi yok, SAHO yalnız misyon/bölüm yılı veriyor). Tanık cümlesinde şehir adı yok; özne 'The present town' = madde konusu; başlık şehir. Aynı kaynak şehri kısa süre Aliwal South diye anar. Dias 1488/da Gama 1497 anmaları koyla ilgilidir, şehir kuruluşu değildir (kullanılmadı); SAHO 'municipality 1852' sonraki olgudur. Gün yok; YYYY-01-01 + yil. Atlas noktası yok; zincir 1900-01-01'e __BOSLUK__ beyanlı. Britannica yalnız 'British colonists' der; devlet adı vermez.",
+  "ad_kaynak": [
+   {
+    "ad": "Mosselbaai",
+    "dil": "af",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Mossel-Bay' https://www.britannica.com/place/Mossel-Bay",
+    "kanit": "Also known as: Mosselbaai"
+   }
+  ]
  },
  {
   "id": "mutare-p10",
@@ -3704,7 +3867,16 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
    }
   ],
   "olay": [],
-  "ic_not": "TEK KAYNAK: tek ansiklopedi cümlesi; 1884 arazi satın alma kuruluş değil. Atlas noktası yok."
+  "ic_not": "TEK KAYNAK: tek ansiklopedi cümlesi; 1884 arazi satın alma kuruluş değil. Atlas noktası yok.",
+  "ad_kaynak": [
+   {
+    "ad": "Pietersburg",
+    "dil": "af",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Polokwane' https://www.britannica.com/place/Polokwane",
+    "kanit": "Also known as: Pietersburg"
+   }
+  ]
  },
  {
   "id": "port-harcourt-ng-p3o",
@@ -3905,7 +4077,8 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
   "kat1900": 2,
   "adlar": [
    "King William's Town",
-   "Qonce"
+   "Qonce",
+   "King William’s Town"
   ],
   "ilk": {
    "t": "1826-01-01",
@@ -3930,7 +4103,16 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
    }
   ],
   "olay": [],
-  "ic_not": "TEK KAYNAK: tek ansiklopedi cümlesi. Atlas noktası yok."
+  "ic_not": "TEK KAYNAK: tek ansiklopedi cümlesi. Atlas noktası yok.",
+  "ad_kaynak": [
+   {
+    "ad": "King William’s Town",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Qonce' https://www.britannica.com/place/Qonce",
+    "kanit": "Also known as: King William’s Town"
+   }
+  ]
  },
  {
   "id": "quelimane-mz-p3",
@@ -4115,7 +4297,8 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
   "kat1900": 3,
   "adlar": [
    "Selukwe",
-   "Shurugwi"
+   "Shurugwi",
+   "Sebanga Poort"
   ],
   "ilk": {
    "t": "1899-01-01",
@@ -4149,7 +4332,23 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
     "tanik": "Shurugwi was established in 1899 by the British South Africa Company"
    }
   ],
-  "ic_not": "TEK KAYNAK: Britannica 'Shurugwi' (ad+yıl aynı cümlede; tanık makale gövdesinde innerText'te doğrulandı, YZ özeti bloğu dışı). İkinci akademik kaynak bulunamadı (encyclopedia.com gsearch'te madde yok). Gün yok, yıl hassasiyeti. Atlas noktası yok (3 km ve atlas_ilk_gunleri tarandı). B18.tsv notu '1896-97 Selukwe district' der; Britannica'ya göre kasaba kuruluşu 1899 (yerleşim=1899, bölge adı daha eskidir). Ad: Britannica 'Selukwe' adının yakın granit tepenin yerel Venda 'selukwe' (domuz ağılı) sözcüğünden türediğini söyler. | Britannica gövdesinden (YZ özeti bloğu dışı)"
+  "ic_not": "TEK KAYNAK: Britannica 'Shurugwi' (ad+yıl aynı cümlede; tanık makale gövdesinde innerText'te doğrulandı, YZ özeti bloğu dışı). İkinci akademik kaynak bulunamadı (encyclopedia.com gsearch'te madde yok). Gün yok, yıl hassasiyeti. Atlas noktası yok (3 km ve atlas_ilk_gunleri tarandı). B18.tsv notu '1896-97 Selukwe district' der; Britannica'ya göre kasaba kuruluşu 1899 (yerleşim=1899, bölge adı daha eskidir). Ad: Britannica 'Selukwe' adının yakın granit tepenin yerel Venda 'selukwe' (domuz ağılı) sözcüğünden türediğini söyler. | Britannica gövdesinden (YZ özeti bloğu dışı)",
+  "ad_kaynak": [
+   {
+    "ad": "Sebanga Poort",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Shurugwi' https://www.britannica.com/place/Shurugwi",
+    "kanit": "Also known as: Sebanga Poort, Selukwe"
+   },
+   {
+    "ad": "Selukwe",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Shurugwi' https://www.britannica.com/place/Shurugwi",
+    "kanit": "Also known as: Sebanga Poort, Selukwe"
+   }
+  ]
  },
  {
   "id": "sokoto-ng",
