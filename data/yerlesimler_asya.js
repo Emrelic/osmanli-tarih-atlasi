@@ -897,9 +897,9 @@ window.YERLESIMLER_ASYA = [
 
 // Bhopâl — Afgan asıllı Dost Muhammed Han 1707'den sonra kurdu; 1818'de
 // İngiliz himayesine giren prens devleti, hânedan 1949'a kadar sürdü.
-{ ad:"Bhopâl", tur:"sehir", lat:23.2590, lon:77.4130, g:0, k:1,kd:[{f:"1708-01-01",t:"1923-10-29",k:1,m:"Bhopâl"}], d:[],
-  kur:"1707-01-01",
-  s:[{f:"1707-01-01", t:"1949-06-01", d:"bhopal"},{f:"1949-06-01",t:"1956-11-01",d:"bhopal-eyaleti-1949",kaynak:"tsv künye bhopal-eyaleti-1949"},{f:"1956-11-01",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Britannica (ilgili devlet/ülke maddesi)"}] },
+{ ad:"Bhopâl", tur:"sehir", lat:23.2590, lon:77.4130, g:0, k:1,kd:[{f:"1728-01-01",t:"1923-10-29",k:1,m:"Bhopâl"}], d:[],
+  kur:"1728-01-01",
+  s:[{f:"1728-01-01", t:"1949-06-01", d:"bhopal", kesinlik:{f:"yil"}, kaynak:"kur/f 1707-01-01 → 1728-01-01, kd f 1708 → 1728 (ATLAS-DUZELTME-1117 satır 13): TDV İslâm Ansiklopedisi, «Bopal (şehir)» md. (Enver Konukçu), c. 6, 1992, s. 283-284 (islamansiklopedisi.org.tr/bopal--sehir, tam metin 16 Kasım 2026): «Bopal şehri 1728’de, devletin de bânisi olan Dost Muhammed Han tarafından kurulmuştur» — YIL hassasiyeti, gün yok. Eski 1707 kaynaksızdı (künye bhopal f 1708 DEVLETİN kuruluşudur, şehrin değil). BEYAN: 1708-1728 arası Bopal devleti atlasta bu noktayla temsil EDİLMİYOR (devletin o yıllardaki merkezi atlasta nokta değil) — künye ömrü noktasız kalan dilim (kanıt: data/sehir_tarihce_hint.js bhopal-in)"},{f:"1949-06-01",t:"1956-11-01",d:"bhopal-eyaleti-1949",kaynak:"tsv künye bhopal-eyaleti-1949"},{f:"1956-11-01",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Britannica (ilgili devlet/ülke maddesi)"}] },
 
 // Nagpûr — Bhonsle Maratha hânedanının merkezi; Gond krallığından 1743'te
 // alındı, 1853'te "lapse" doktriniyle ilhak edildi.
