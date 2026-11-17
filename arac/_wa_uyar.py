@@ -42,15 +42,30 @@ Emre uzaktayken ve GERÇEKTEN müdahalesi gerektiğinde:
    rapor tahtaya yazılır. Alarmı ucuzlatan, onu alarm olmaktan çıkarır.
 """
 import argparse
+import os
 import subprocess
 import sys
 import urllib.parse
+from pathlib import Path
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
 # Emre'nin kendi numarası — kendi kendine mesaj atar, başka kimseye DEĞİL.
-NUMARA = "905079477423"
+# Depo herkese açık olduğu için numara burada YAZILMAZ (17 Kasım 2026):
+# önce ATLAS_WA_NUMARA ortam değişkeni, yoksa git'e girmeyen arac/.wa_numara
+# dosyasının ilk satırı okunur.
+_NUMARA_DOSYASI = Path(__file__).with_name(".wa_numara")
+
+
+def _numara_oku():
+    n = os.environ.get("ATLAS_WA_NUMARA", "").strip()
+    if not n and _NUMARA_DOSYASI.exists():
+        n = _NUMARA_DOSYASI.read_text(encoding="utf-8").strip().splitlines()[0].strip()
+    return n
+
+
+NUMARA = _numara_oku()
 TAVAN = 900          # WhatsApp adres satırı çok uzun metni kesiyor
 
 
@@ -80,6 +95,11 @@ def main():
     ap.add_argument("--gonder", action="store_true",
                     help="sohbeti AC ve metni koy (yine de GONDERMEZ)")
     a = ap.parse_args()
+
+    if not a.numara:
+        print("NUMARA YOK — ATLAS_WA_NUMARA ortam degiskenini ya da")
+        print("arac/.wa_numara dosyasini (git'e girmez) doldur, ya da --numara ver.")
+        return 2
 
     adres = hazirla(a.metin, a.numara)
 
