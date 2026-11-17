@@ -928,7 +928,7 @@
     "kaynak": "TDV LAZKİYE"
    }
   ],
-  "ic_not": "Atlasta nokta yok (en yakın Antakya 81,7 km) ⇒ zincir 1900-01-01'e gider. Koordinat doğru (GeoNames 173576). İlk anılış: Fenike dönemi adı Ramitha (TDV) tarihsiz — başlangıç sayılmadı; Selevkos'un yeniden kuruluşu 'yeniden' olduğu için kur YAZILMADI (ilk_anilis, güvenli uç MÖ 281). Pleiades Laodicea ad Mare ölçülmedi. Hicrî kural nedeniyle 1188 ve 1287 günleri yıl içi ilk gündür (gerçek teslimler daha geç). Borçlu dilimler: 905-970 ve 1050-1086 (sahip bilinmiyor), 1098-1108 (Haçlı/Bizans çekişmesi). · koord: GeoNames 173576 (35.5313, 35.7909; geonames.org arama sayfası 16 Kasım 2026'da okundu — atlas tahmininden bağımsız)."
+  "ic_not": "Atlasta nokta yok (en yakın Antakya 81,7 km) ⇒ zincir 1900-01-01'e gider. Koordinat doğru (GeoNames 173576). İlk anılış: Fenike dönemi adı Ramitha (TDV) tarihsiz — başlangıç sayılmadı; Selevkos'un yeniden kuruluşu 'yeniden' olduğu için kur YAZILMADI (ilk_anilis, güvenli uç MÖ 281). Pleiades Laodicea ad Mare ölçülmedi. Hicrî kural nedeniyle 1188 ve 1287 günleri yıl içi ilk gündür (gerçek teslimler daha geç). Borçlu dilimler: 905-970 ve 1050-1086 (sahip bilinmiyor), 1098-1108 (Haçlı/Bizans çekişmesi). · koord: GeoNames 173576 (35.5313, 35.7909; geonames.org arama sayfası 16 Kasım 2026'da okundu — atlas tahmininden bağımsız). | TANIK: mevcut `ilk.tanik` TDV tam gövdesinde (maddenin konusu + açık atıf) doğrulandı (17 Kas 2026, tarayıcı)."
  },
  {
   "id": "muharraq",

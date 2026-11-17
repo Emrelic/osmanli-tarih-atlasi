@@ -55,7 +55,7 @@ window.SEHIR_TARIHCE_BALKANLAR_H = [
    "nicelik": "ilk_anilis",
    "kesinlik": "yil",
    "kaynak": "TDV İslâm Ansiklopedisi, NAKŞA maddesi (Feridun Emecen, c. 32, 2006, s. 332-333; https://islamansiklopedisi.org.tr/naksa; 16 Kas 2026'da okundu): MÖ 490'da Persler adaya saldırdı",
-   "tanik": "MÖ 490'da Persler adaya saldırdı (TDV özeti)"
+   "tanik": "Persler burayı milâttan önce 490’da yağmaladı ve on yıl boyunca idareleri altında tuttu."
   },
   "kur": null,
   "ark": null,
@@ -109,7 +109,7 @@ window.SEHIR_TARIHCE_BALKANLAR_H = [
     "kaynak": "TDV İslâm Ansiklopedisi, NAKŞA maddesi (https://islamansiklopedisi.org.tr/naksa; 16 Kas 2026'da okundu)"
    }
   ],
-  "ic_not": "KOORD: GeoNames 256632 (37°06′20.02″ N, 25°22′35.00″ E; 'Náxos', üçüncü derece idari bölüm merkezi), atlas tahmininden 1.1 km; sapma yok. KAYNAK BASAMAKLARI: ① TDV NAKŞA OKUNDU; üst basamaklar (İSAM/TTK/DergiPark/YÖK, Yunan akademik yayınları, Herodotos 5.28-34 / 6.96) BU PARTİDE YAPILMADI: Perseus sayfaları (Herodotos 5.28) metin vermedi, bu yüzden daha eski (MÖ 499 Aristagoras kuşatması gibi) tarihli tanık yazılamadı — ilk anılış daha eskiye gidebilir, BEYAN. ŞEHİR/ADA AYRIMI BEYANI: TDV maddesi adayı ve şehri birlikte ele alır; antik Naxos şehri ile atlas noktası (Naxos/Chora) arasındaki özdeşlik bu turda kaynakta okunmadı (GeoNames 256632 'seat of third-order administrative division'). 1205-1207 dilimi için yeni künye önerisi: sanudo-naksa. Atlasla çelişki yok (atlas 1207'de naksa-dukaligi)."
+  "ic_not": "KOORD: GeoNames 256632 (37°06′20.02″ N, 25°22′35.00″ E; 'Náxos', üçüncü derece idari bölüm merkezi), atlas tahmininden 1.1 km; sapma yok. KAYNAK BASAMAKLARI: ① TDV NAKŞA OKUNDU; üst basamaklar (İSAM/TTK/DergiPark/YÖK, Yunan akademik yayınları, Herodotos 5.28-34 / 6.96) BU PARTİDE YAPILMADI: Perseus sayfaları (Herodotos 5.28) metin vermedi, bu yüzden daha eski (MÖ 499 Aristagoras kuşatması gibi) tarihli tanık yazılamadı — ilk anılış daha eskiye gidebilir, BEYAN. ŞEHİR/ADA AYRIMI BEYANI: TDV maddesi adayı ve şehri birlikte ele alır; antik Naxos şehri ile atlas noktası (Naxos/Chora) arasındaki özdeşlik bu turda kaynakta okunmadı (GeoNames 256632 'seat of third-order administrative division'). 1205-1207 dilimi için yeni künye önerisi: sanudo-naksa. Atlasla çelişki yok (atlas 1207'de naksa-dukaligi). | TANIK: TDV tam gövdesinden birebir cümle/parça (17 Kas 2026, tarayıcı; yıl + şehir aynı cümlede ya da maddenin konusu şehre açık atıf)."
  },
  {
   "id": "uskudar-tr",

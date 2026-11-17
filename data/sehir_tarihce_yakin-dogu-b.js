@@ -842,7 +842,7 @@ window.SEHIR_TARIHCE_YAKIN_DOGU_B = [
    "t": "-0280-01-01",
    "gun": "MÖ 281 (MÖ 3. yüzyıl)",
    "nicelik": "kurulus",
-   "kesinlik": "yuzyil",
+   "kesinlik": "belirsiz",
    "kaynak": "Çelik, Ş., 'Silifke', TDV İslâm Ansiklopedisi, c.37 (İstanbul 2009), s.200-202, https://islamansiklopedisi.org.tr/silifke",
    "tanik": "I. Seleucus Nicator (m.ö. 312-281) tarafından kuruldu",
    "ic_not": "TDV başlığı 'Kuruluş (m.ö. III. yüzyıl)'; kurucu Seleukos Nikator'un saltanat aralığı MÖ 312-281 verilir, kuruluş yılı yok. Aralık son ucu (güvenli uç) MÖ 281 alındı (t=-0280). Seleukos'un saltanatının 312'de başlaması 'MÖ 3. yy' başlığıyla örtüşmez; kuruluş yılı belirsiz. Daha eski yazılı anılış bulunamadı (eski Kilikya/Hitit-Asur adı eşleşmeleri aranmadı). Modern şehre ≈ eşlenen antik Seleucia aynı yerdedir (TDV)."
@@ -963,7 +963,7 @@ window.SEHIR_TARIHCE_YAKIN_DOGU_B = [
     "kaynak": "Çelik, Ş., 'Silifke', TDV İslâm Ansiklopedisi, c.37 (İstanbul 2009), s.200-202, https://islamansiklopedisi.org.tr/silifke"
    }
   ],
-  "ic_not": "koord: GeoNames 300808 (Silifke, PPLA2) 36.3778/33.9344. ATLAS 'Silifke' noktası (36.309/33.938) bu koordinattan ≈7,6 km güneyde ve 3 km eşiğini aşar — atlas_ad bu yüzden null; atlas noktasının yeri şüpheli (atlas 1000 'bizans' iddiası ayrı denetlenmeli). Girdi tahmini 36.309/33.938 atlas noktasıyla aynıdır (referans değil). Kaynak sayısı: 1 (TDV Silifke). Antik Seleucia modern merkezde (aynı yerleşim, TDV). Üçüncü Haçlı Seferi/Barbarossa'nın ölümü (10 Haziran 1190, Göksu) TDV Silifke'de YOK; aranmadı. Zincirde kilikya-ermeni künyesi 1175-1199 arası hayalet."
+  "ic_not": "koord: GeoNames 300808 (Silifke, PPLA2) 36.3778/33.9344. ATLAS 'Silifke' noktası (36.309/33.938) bu koordinattan ≈7,6 km güneyde ve 3 km eşiğini aşar — atlas_ad bu yüzden null; atlas noktasının yeri şüpheli (atlas 1000 'bizans' iddiası ayrı denetlenmeli). Girdi tahmini 36.309/33.938 atlas noktasıyla aynıdır (referans değil). Kaynak sayısı: 1 (TDV Silifke). Antik Seleucia modern merkezde (aynı yerleşim, TDV). Üçüncü Haçlı Seferi/Barbarossa'nın ölümü (10 Haziran 1190, Göksu) TDV Silifke'de YOK; aranmadı. Zincirde kilikya-ermeni künyesi 1175-1199 arası hayalet. | TANIK KURALI (17 Kas 2026, EMRELİC): TDV tam gövdede yıl + şehir adı AYNI cümlede birebir bir cümle bulunamadı (yıl bu şehrin kuruluşunu değil kral/dönem sınırını gösteriyor ya da cümle bölünüyor); `ilk` kesinlik belirsiz sayılır."
  },
  {
   "id": "yarpuz-tr",
