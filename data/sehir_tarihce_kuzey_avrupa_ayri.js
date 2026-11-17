@@ -184,20 +184,22 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_AYRI = [
    "Vanha Vaasa"
   ],
   "ilk": {
+   "t": "1384-01-01",
+   "gun": "1384",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "belirsiz",
+   "kaynak": "Uppslagsverket Finland, 'Gamla Vasa', https://uppslagsverket.fi/sv/sok/view-170045-GamlaVasa",
+   "tanik": "Platsen var en gammal handelshamn, omnämnd redan 1384 (Korsholms slott).",
+   "ic_not": "EMRELIC kural/karar 17 Kasim 1116: ilk = kaynakli en erken yazili anilis; imtiyaz/sehir hakki/kale yeniden insasi kur ya da olay. 1384 liman yeri anılışıdır (yer adı Mustasaari; yerleşim ile yer adı ayrımı belirsiz): kesinlik 'belirsiz'. Cümlede şehir adı yok ('Platsen'; madde Gamla Vasa). Eski ilk.t 1606 (nicelik kurulus) kur'a taşındı. Önceki ic_not: ÇİFT TEYİT (iki genel ansiklopedi, akademik çift teyit DEĞİL): snl 'Vasa ble grunnlagt i 1606 av Karl 9 av Sverige'; snl: 'Den gamle byen Vasa lå opprinnelig ved kysten, i den nåværende Korsholm kommune' (landhevning kıyıdan kopardı). Gün kaynakta yok. Kuruluş eski yere aittir; lex/snl kuruluşun tam noktasını vermez, konum GeoNames 'Vanha Vaasa' (PPPLX) ile yaklaşıktır: BEYANLI YAKLAŞIKLIK. | TANIK DÜZELTME (UMIT 1116): iki cümlelik tanık (ad 2. cümlede, aynı paragraf) | 2. KAYNAK (bilimsel dernek ansiklopedisi): Uppslagsverket Finland, 'Gamla Vasa', https://uppslagsverket.fi/sv/sok/view-170045-GamlaVasa (17 Kasım 2026 okundu): 'Gamla Vasa, den del av Vasa, där staden först grundades 1606 och där den var belägen till 1852. Platsen var en gammal handelshamn, omnämnd redan 1384 (Korsholms slott). Den kallades Mustasaari (Mussor) fram till 1611, då den erhöll sina första privilegier och tilldelades namnet Vasa.' — 1606 kuruluş TEYİT. DİKKAT: yer 1384'te ticaret limanı olarak anılır (Mustasaari), ilk imtiyaz ve 'Vasa' adı 1611. ilk.t 1606 (nicelik kurulus) korundu; 1384 ilk_anilis ayrı karar. (UMIT 1116)"
+  },
+  "kur": {
    "t": "1606-01-01",
    "gun": "1606",
    "nicelik": "kurulus",
    "kesinlik": "yil",
    "kaynak": "Den Store Danske / lex.dk, 'Vaasa', https://lex.dk/Vaasa",
    "tanik": "Byen blev grundlagt i 1606 af Karl 9. Det gamle Vaasa nedbrændte totalt i 1852; ved genopbygningen flyttedes byen 7 km længere mod vest pga. stadig dårligere besejlingsforhold, forårsaget af landhævningen.",
-   "ic_not": "ÇİFT TEYİT (iki genel ansiklopedi, akademik çift teyit DEĞİL): snl 'Vasa ble grunnlagt i 1606 av Karl 9 av Sverige'; snl: 'Den gamle byen Vasa lå opprinnelig ved kysten, i den nåværende Korsholm kommune' (landhevning kıyıdan kopardı). Gün kaynakta yok. Kuruluş eski yere aittir; lex/snl kuruluşun tam noktasını vermez, konum GeoNames 'Vanha Vaasa' (PPPLX) ile yaklaşıktır: BEYANLI YAKLAŞIKLIK. | TANIK DÜZELTME (UMIT 1116): iki cümlelik tanık (ad 2. cümlede, aynı paragraf) | 2. KAYNAK (bilimsel dernek ansiklopedisi): Uppslagsverket Finland, 'Gamla Vasa', https://uppslagsverket.fi/sv/sok/view-170045-GamlaVasa (17 Kasım 2026 okundu): 'Gamla Vasa, den del av Vasa, där staden först grundades 1606 och där den var belägen till 1852. Platsen var en gammal handelshamn, omnämnd redan 1384 (Korsholms slott). Den kallades Mustasaari (Mussor) fram till 1611, då den erhöll sina första privilegier och tilldelades namnet Vasa.' — 1606 kuruluş TEYİT. DİKKAT: yer 1384'te ticaret limanı olarak anılır (Mustasaari), ilk imtiyaz ve 'Vasa' adı 1611. ilk.t 1606 (nicelik kurulus) korundu; 1384 ilk_anilis ayrı karar. (UMIT 1116)"
-  },
-  "kur": {
-   "t": "1606-01-01",
-   "gun": "1606",
-   "kesinlik": "yil",
-   "kaynak": "Den Store Danske / lex.dk, 'Vaasa', https://lex.dk/Vaasa",
-   "tanik": "Byen blev grundlagt i 1606 af Karl 9."
+   "ic_not": "Kuruluş 1606 (lex+snl+Uppslagsverket); 1611 ilk imtiyaz ve 'Vasa' adı."
   },
   "ark": null,
   "bit": {
@@ -210,12 +212,20 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_AYRI = [
   },
   "sahip": [
    {
-    "f": "1606-01-01",
+    "f": "1384-01-01",
+    "t": "1523-01-01",
+    "d": "isvec-birlik-oncesi",
+    "kesinlik": "yil",
+    "kaynak": "Uppslagsverket Finland, 'Gamla Vasa', https://uppslagsverket.fi/sv/sok/view-170045-GamlaVasa",
+    "ic_not": "BEYANLI YAKLAŞIKLIK: Korsholm kalesi (Mustasaari) İsveç Krallığı toprağıdır; kaynak 1384'te krallığı ayrıca söylemez. Künye isvec-birlik-oncesi (1000-1523-06-06). Sınır 1523-01-01: yıl başı, BEYANLI (kuzey_avrupa_1 Gävle emsali)."
+   },
+   {
+    "f": "1523-01-01",
     "t": "1809-09-17",
     "d": "isvec",
     "kesinlik": "yil",
     "kaynak": "Den Store Danske / lex.dk, 'Vaasa', https://lex.dk/Vaasa",
-    "ic_not": "Kaynak şehri 'Karl 9 tarafından kurulmuş' der (İsveç kralı); devlet = isvec künyesi. Bitiş: Hamina 17 Eylül 1809 (snl 'Finlands historie')."
+    "ic_not": "Kaynak şehri 'Karl 9 tarafından kurulmuş' der (İsveç kralı); devlet = isvec künyesi. Bitiş: Hamina 17 Eylül 1809 (snl 'Finlands historie'). | f 1523-01-01'e çekildi (yıl başı; lex 'Kalmarunionen' Gustav Vasa'nın 1523'te kral ilan edildiğini yazar, GÜN KAYNAKTA YOK; künye f 1523-06-06 atlas verisidir); önceki zincir isvec-birlik-oncesi."
    },
    {
     "f": "1809-09-17",
@@ -235,6 +245,13 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_AYRI = [
    }
   ],
   "olay": [
+   {
+    "t": "1523-01-01",
+    "gun": "1523",
+    "k": "diger",
+    "b": "Gustav Vasa İsveç kralı ilan edildi (Kalmar Birliği'nin sonu).",
+    "kaynak": "Den Store Danske / lex.dk, 'Kalmarunionen', https://lex.dk/Kalmarunionen"
+   },
    {
     "t": "1606-01-01",
     "gun": "1606",

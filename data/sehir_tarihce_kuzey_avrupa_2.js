@@ -16,10 +16,10 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_2 = [
    "t": "1599-01-01",
    "gun": "1500'ler (1599)",
    "nicelik": "ilk_anilis",
-   "kesinlik": "yuzyil",
+   "kesinlik": "belirsiz",
    "kaynak": "Den Store Danske / lex.dk, 'Akureyri', https://lex.dk/Akureyri",
    "tanik": "Danske og norske købmænd sejlede til området fra sidst i 1500-tallet., og Akureyri spillede en stor rolle under det danske handelsmonopol 1602-1788.",
-   "ic_not": "Yüzyıl-kesin: lex 'Danske og norske købmænd sejlede sidst i 1500-tallet til området' (güvenli uç 1599). Bu bir TÜCCAR SEFERİ tanığıdır, kent kuruluşu değil; kentin kendisi 1700'lerde bugünkü yerine taşınmış (lex). snl.no/Akureyri tarih içermez. TEK KAYNAK (genel ansiklopedi). Lex'in 'sonu 800'ler yerleşim izi' kentin kuzeyindedir, kent değil. | TANIK DÜZELTME (UMIT 1116): tanık aynı cümlede ad+yüzyıl taşır; ama içerik ticaret seferidir, kent kuruluşu değil"
+   "ic_not": "Yüzyıl-kesin: lex 'Danske og norske købmænd sejlede sidst i 1500-tallet til området' (güvenli uç 1599). Bu bir TÜCCAR SEFERİ tanığıdır, kent kuruluşu değil; kentin kendisi 1700'lerde bugünkü yerine taşınmış (lex). snl.no/Akureyri tarih içermez. TEK KAYNAK (genel ansiklopedi). Lex'in 'sonu 800'ler yerleşim izi' kentin kuzeyindedir, kent değil. | TANIK DÜZELTME (UMIT 1116): tanık aynı cümlede ad+yüzyıl taşır; ama içerik ticaret seferidir, kent kuruluşu değil | EMRELIC kural/karar 17 Kasim 1116: ilk = kaynakli en erken yazili anilis; imtiyaz/sehir hakki/kale yeniden insasi kur ya da olay. 1562 ilk anılış iddiası yalnız Vikipedi'de görüldü (tek dayanak olamaz, kullanılmadı); 1599 ticaret seferi tanığı kent anılışı değildir: DAYANAK ZAYIF, kesinlik 'belirsiz'. Akademik kaynak aranacak."
   },
   "kur": null,
   "ark": null,
@@ -650,12 +650,20 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_2 = [
    "t": "1827-01-01",
    "gun": "1827",
    "nicelik": "kurulus",
+   "kesinlik": "belirsiz",
+   "kaynak": "Store norske leksikon, 'Lillehammer', https://snl.no/Lillehammer",
+   "tanik": "Lillehammer fikk rettigheter som kjøpstad i 1827.",
+   "ic_not": "EMRELIC kural/karar 17 Kasim 1116: ilk = kaynakli en erken yazili anilis; imtiyaz/sehir hakki/kale yeniden insasi kur ya da olay. 1827 kjøpstad/kuruluş (kur'a da yazıldı); ilk anılış kaynakta BULUNAMADI, ilk.t yalnız yer tutucu, kesinlik 'belirsiz'. Önceki ic_not: ÇİFT TEYİT (yıl düzeyi): snl.no ve lex.dk aynı yılı verir. Ancak ikisi de genel ansiklopedidir; akademik/arşiv (runeberg, Riksarkivet, Arkivverket, SBL/NBL/DBL, Diplomatarium) üçüncü kaynak bu turda bulunamadı/okunamadı. lex 'Lillehammer blev anlagt i 1827 på østbredden af Mjøsa'. | 2. KAYNAK — GEVŞEK ÇELİŞKİ (karar gerekir): Jan Eivind Myhre, 'Byvekst og bygdemiljø', norgeshistorie.no (UiO), 2015, https://www.norgeshistorie.no/bygging-av-stat-og-nasjon/1403-byvekst-og-bygdemiljo.html (17 Kasım 2026 okundu): 'Den første innlandsbyen som fikk byrettigheter, var Kongsberg (1802), og rundt midten av århundret fulgte Lillehammer, Hamar, Hønefoss, Kongsvinger og Gjøvik.' — akademik kaynak Lillehammer'in şehir haklarını yaklaşık 'yüzyıl ortası'na koyar; 1827 yıl olarak teyit edilmedi. Yaklaşık ifade ve tek akademik kaynak: Hakemli karar eşiği yok, ilk.t 1827 korundu. (UMIT 1116 II. tur)"
+  },
+  "kur": {
+   "t": "1827-01-01",
+   "gun": "1827",
+   "nicelik": "kurulus",
    "kesinlik": "yil",
    "kaynak": "Store norske leksikon, 'Lillehammer', https://snl.no/Lillehammer",
    "tanik": "Lillehammer fikk rettigheter som kjøpstad i 1827.",
-   "ic_not": "ÇİFT TEYİT (yıl düzeyi): snl.no ve lex.dk aynı yılı verir. Ancak ikisi de genel ansiklopedidir; akademik/arşiv (runeberg, Riksarkivet, Arkivverket, SBL/NBL/DBL, Diplomatarium) üçüncü kaynak bu turda bulunamadı/okunamadı. lex 'Lillehammer blev anlagt i 1827 på østbredden af Mjøsa'. | 2. KAYNAK — GEVŞEK ÇELİŞKİ (karar gerekir): Jan Eivind Myhre, 'Byvekst og bygdemiljø', norgeshistorie.no (UiO), 2015, https://www.norgeshistorie.no/bygging-av-stat-og-nasjon/1403-byvekst-og-bygdemiljo.html (17 Kasım 2026 okundu): 'Den første innlandsbyen som fikk byrettigheter, var Kongsberg (1802), og rundt midten av århundret fulgte Lillehammer, Hamar, Hønefoss, Kongsvinger og Gjøvik.' — akademik kaynak Lillehammer'in şehir haklarını yaklaşık 'yüzyıl ortası'na koyar; 1827 yıl olarak teyit edilmedi. Yaklaşık ifade ve tek akademik kaynak: Hakemli karar eşiği yok, ilk.t 1827 korundu. (UMIT 1116 II. tur)"
+   "ic_not": "kjøpstad hakları 1827 (snl, lex 'anlagt i 1827'); Myhre (UiO 2015) 'yüzyıl ortası' der: gevşek çelişki."
   },
-  "kur": null,
   "ark": null,
   "bit": null,
   "sahip": [],
@@ -1135,13 +1143,13 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_2 = [
    "Östersund"
   ],
   "ilk": {
-   "t": "1786-01-01",
-   "gun": "1786",
+   "t": "1786-10-23",
+   "gun": "23 Ekim 1786",
    "nicelik": "kurulus",
-   "kesinlik": "yil",
-   "kaynak": "Store norske leksikon, 'Östersund', https://snl.no/Östersund",
-   "tanik": "Östersund ble grunnlagt i 1786, og har vært residensstad for landshøvdingen fra 1810.",
-   "ic_not": "TEK KAYNAK (snl; özetten). lex 'Den opstod i 1700-tallet' (yüzyıl düzeyi uyumlu, ÇİFT TEYİT yüzyıl). Kuruluş günü kaynaklarda yok. | TANIK DÜZELTME (UMIT 1116): önceki tanık İngilizce idi (ilk.kaynak snl Norveççe); snl cümlesi alındı | 2. KAYNAK (akademik, Riksarkivet): Beata Losman, Förvaltningshistorik, kap. 4 'Stadens styrelse och förvaltning', Riksarkivet (HTML 2005), https://forvaltningshistorik.riksarkivet.se/04_Stadens_Forvaltning.htm (17 Kasım 2026 okundu): 'Staden Östersund fick enligt fundationsbrevet 23/10 1786 en speciell styrelseform' — 1786 TEYİT; kuruluş belgesi (fundationsbrev) günü 23 Ekim 1786. Gün tek akademik kaynakta; ilk.t 1786-01-01 değiştirilmedi (gün yükseltmesi ayrı karar: sahip[0].f ile birlikte taşınmalı). (UMIT 1116)"
+   "kesinlik": "gun",
+   "kaynak": "Beata Losman, Förvaltningshistorik, kap. 4, Riksarkivet, https://forvaltningshistorik.riksarkivet.se/04_Stadens_Forvaltning.htm",
+   "tanik": "Staden Östersund fick enligt fundationsbrevet 23/10 1786 en speciell styrelseform",
+   "ic_not": "EMRELIC kural/karar 17 Kasim 1116: ilk = kaynakli en erken yazili anilis; imtiyaz/sehir hakki/kale yeniden insasi kur ya da olay. Kuruluş belgesi (fundationsbrev) günü 23/10 1786: gün yükseltildi (tek akademik kaynak, Riksarkivet; snl yalnız 1786 yılı). Gün Gregoryen/İsveç takvimi: 1753'te İsveç Gregoryene geçti, çevirme gerekmez. Önceki ilk: 1786-01-01 (snl). Önceki ic_not: TEK KAYNAK (snl; özetten). lex 'Den opstod i 1700-tallet' (yüzyıl düzeyi uyumlu, ÇİFT TEYİT yüzyıl). Kuruluş günü kaynaklarda yok. | TANIK DÜZELTME (UMIT 1116): önceki tanık İngilizce idi (ilk.kaynak snl Norveççe); snl cümlesi alındı | 2. KAYNAK (akademik, Riksarkivet): Beata Losman, Förvaltningshistorik, kap. 4 'Stadens styrelse och förvaltning', Riksarkivet (HTML 2005), https://forvaltningshistorik.riksarkivet.se/04_Stadens_Forvaltning.htm (17 Kasım 2026 okundu): 'Staden Östersund fick enligt fundationsbrevet 23/10 1786 en speciell styrelseform' — 1786 TEYİT; kuruluş belgesi (fundationsbrev) günü 23 Ekim 1786. Gün tek akademik kaynakta; ilk.t 1786-01-01 değiştirilmedi (gün yükseltmesi ayrı karar: sahip[0].f ile birlikte taşınmalı). (UMIT 1116)"
   },
   "kur": null,
   "ark": null,
@@ -1194,15 +1202,23 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_2 = [
    "Oulu"
   ],
   "ilk": {
+   "t": "1399-01-01",
+   "gun": "1300'ler (1399)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "belirsiz",
+   "kaynak": "Uppslagsverket Finland, 'Uleåborg', https://uppslagsverket.fi/sv/sok/view-170045-Uleaaborg",
+   "tanik": "Trakten kring Ule älvs mynning omnämns redan på 1300-t. som en mycket besökt marknadsplats, Ulahamn.",
+   "ic_not": "EMRELIC kural/karar 17 Kasim 1116: ilk = kaynakli en erken yazili anilis; imtiyaz/sehir hakki/kale yeniden insasi kur ya da olay. Ulahamn = Oulu'nun öncülü olarak yazılır (nehir ağzı pazar yeri); cümlede 'Uleåborg' adı yok, öncül ad Ulahamn: kesinlik 'belirsiz'. 1377'de 'Befästningen belägrades av novgoroderna' (aynı madde; Ulahamn'a bağı açık değil, kullanılmadı). 1605 kale yeniden inşası ve 1610 şehir imtiyazı olay; snl 1605'i şehir kuruluşu verir (kur). Eski ilk.t 1605. Tek akademik kaynak. Önceki ic_not: TEK KAYNAK (snl; lex 1605'i içermez, yalnız 'handelsplads for baglandet' ve 'borg afbrændt af russerne 1715'). | TANIK DÜZELTME (UMIT 1116): snl sayfa adı 'Uleåborg' (= Oulu); önceki tanık lex-Danca idi, ilk.kaynak snl; düzeltildi | 2. KAYNAK — KISMİ ÇELİŞKİ (karar gerekir): Uppslagsverket Finland, 'Uleåborg', https://uppslagsverket.fi/sv/sok/view-170045-Uleaaborg (17 Kasım 2026 okundu): '... uppfördes 1590 på Johan III:s befallning en vidlyftigare anläggning, som ... återuppbyggdes 1605 på order av Karl IX, delvis av sten.' ve 'Stadsprivilegier utfärdades 1610 för Uleåborg, ...'. Ayrıca: 'Trakten kring Ule älvs mynning omnämns redan på 1300-t. som en mycket besökt marknadsplats, Ulahamn' ve 'Befästningen belägrades 1377 av novgoroderna'. — 1605 burada KALE yeniden inşası, şehir imtiyazı 1610; snl 1605'i şehir kuruluşu + byrettigheter olarak verir. Hakemli karar: 1610'u veren ikinci bağımsız akademik kaynak bulunamadı (≥2 eşiği yok) → ilk.t 1605 korundu. Ulahamn 1300'ler / 1377 daha erken bir yer anılışıdır (ilk_anilis için ayrı karar). (UMIT 1116)"
+  },
+  "kur": {
    "t": "1605-01-01",
    "gun": "1605",
    "nicelik": "kurulus",
    "kesinlik": "yil",
    "kaynak": "Store norske leksikon, 'Oulu', https://snl.no/Oulu",
    "tanik": "Uleåborg fikk byrettigheter og ble grunnlagt i 1605 av Karl 9.",
-   "ic_not": "TEK KAYNAK (snl; lex 1605'i içermez, yalnız 'handelsplads for baglandet' ve 'borg afbrændt af russerne 1715'). | TANIK DÜZELTME (UMIT 1116): snl sayfa adı 'Uleåborg' (= Oulu); önceki tanık lex-Danca idi, ilk.kaynak snl; düzeltildi | 2. KAYNAK — KISMİ ÇELİŞKİ (karar gerekir): Uppslagsverket Finland, 'Uleåborg', https://uppslagsverket.fi/sv/sok/view-170045-Uleaaborg (17 Kasım 2026 okundu): '... uppfördes 1590 på Johan III:s befallning en vidlyftigare anläggning, som ... återuppbyggdes 1605 på order av Karl IX, delvis av sten.' ve 'Stadsprivilegier utfärdades 1610 för Uleåborg, ...'. Ayrıca: 'Trakten kring Ule älvs mynning omnämns redan på 1300-t. som en mycket besökt marknadsplats, Ulahamn' ve 'Befästningen belägrades 1377 av novgoroderna'. — 1605 burada KALE yeniden inşası, şehir imtiyazı 1610; snl 1605'i şehir kuruluşu + byrettigheter olarak verir. Hakemli karar: 1610'u veren ikinci bağımsız akademik kaynak bulunamadı (≥2 eşiği yok) → ilk.t 1605 korundu. Ulahamn 1300'ler / 1377 daha erken bir yer anılışıdır (ilk_anilis için ayrı karar). (UMIT 1116)"
+   "ic_not": "snl: şehir hakları + kuruluş 1605; Uppslagsverket: 1605 kale yeniden inşası, 1610 şehir imtiyazı (karar: olay)."
   },
-  "kur": null,
   "ark": null,
   "bit": null,
   "sahip": [],
@@ -1214,6 +1230,13 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_2 = [
     "b": "Oulu (Uleåborg) IX. Karl tarafından kurulur ve şehir hakkı alır.",
     "kaynak": "Store norske leksikon, 'Oulu', https://snl.no/Oulu",
     "ic_not": "TEK KAYNAK (snl)."
+   },
+   {
+    "t": "1610-01-01",
+    "gun": "1610",
+    "k": "kurulus",
+    "b": "Uleåborg'a şehir imtiyazı verildi.",
+    "kaynak": "Uppslagsverket Finland, 'Uleåborg', https://uppslagsverket.fi/sv/sok/view-170045-Uleaaborg"
    },
    {
     "t": "1715-01-01",
@@ -1770,7 +1793,7 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_2 = [
    "kesinlik": "yil",
    "kaynak": "Store norske leksikon, 'Umeå', https://snl.no/Umeå",
    "tanik": "Umeå ble by i 1622.",
-   "ic_not": "ÇİFT TEYİT (yıl düzeyi): snl.no ve lex.dk aynı yılı verir. Ancak ikisi de genel ansiklopedidir; akademik/arşiv (runeberg, Riksarkivet, Arkivverket, SBL/NBL/DBL, Diplomatarium) üçüncü kaynak bu turda bulunamadı/okunamadı. lex 'blev grundlagt i 1622'. lex 'kendes fra 1314 som vmu' bir NEHİR adıdır (Umeälv), yerleşim tanığı değil. | 2. KAYNAK (kurumsal): Riksantikvarieämbetet, Bebyggelseregistret (BeBR), Backens kyrka tarihçesi, https://bebyggelseregistret.raa.se/bbr2/anlaggning/visaHelaHistoriken.raa?anlaggningId=21300000003142&historikId=21000001916111 (17 Kasım 2026 okundu): 'Umeå stad anlades istället 1622 på Sandahemmanet 5 km nedströms, där älven fortfarande var segelbar.' — 1622 TEYİT (bugünkü yer). Not: RAÄ yayını (M. Peterson, PDF, OKUNMADI) arama özetine göre Umeå'ya 1588 imtiyazı verildiğini yazar (1500'lerde kilise yanında başarısız şehir denemesi) — ayrı karar. (UMIT 1116 II. tur)"
+   "ic_not": "ÇİFT TEYİT (yıl düzeyi): snl.no ve lex.dk aynı yılı verir. Ancak ikisi de genel ansiklopedidir; akademik/arşiv (runeberg, Riksarkivet, Arkivverket, SBL/NBL/DBL, Diplomatarium) üçüncü kaynak bu turda bulunamadı/okunamadı. lex 'blev grundlagt i 1622'. lex 'kendes fra 1314 som vmu' bir NEHİR adıdır (Umeälv), yerleşim tanığı değil. | 2. KAYNAK (kurumsal): Riksantikvarieämbetet, Bebyggelseregistret (BeBR), Backens kyrka tarihçesi, https://bebyggelseregistret.raa.se/bbr2/anlaggning/visaHelaHistoriken.raa?anlaggningId=21300000003142&historikId=21000001916111 (17 Kasım 2026 okundu): 'Umeå stad anlades istället 1622 på Sandahemmanet 5 km nedströms, där älven fortfarande var segelbar.' — 1622 TEYİT (bugünkü yer). Not: RAÄ yayını (M. Peterson, PDF, OKUNMADI) arama özetine göre Umeå'ya 1588 imtiyazı verildiğini yazar (1500'lerde kilise yanında başarısız şehir denemesi) — ayrı karar. (UMIT 1116 II. tur) | KARAR (EMRELIC 17 Kasim 1116): RAA PDF'i OKUNMADI (indirme yasagi); 1588 imtiyazi iddiasi arama ozetinden, dayanak yapilmadi; mevcut deger kalir."
   },
   "kur": null,
   "ark": null,
@@ -1945,28 +1968,35 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_2 = [
    "Västerås"
   ],
   "ilk": {
-   "t": "1164-01-01",
-   "gun": "1164",
+   "t": "1120-01-01",
+   "gun": "en geç 1120",
    "nicelik": "ilk_anilis",
    "kesinlik": "yil",
-   "kaynak": "Den Store Danske / lex.dk, 'Västerås', https://lex.dk/Västerås",
-   "tanik": "Västerås er under navnet Arosa nævnt som bispesæde i 1164",
-   "ic_not": "ÇELİŞKİ: snl 'Västerås' 'A bishopric is mentioned around 1120' (ca. 1120); lex 1164 (Arosa). Güvenli uç olarak kesin yıl 1164 alındı; 1120 'around' tek kaynak ve kesin olmadığından yazılmadı. TEK KAYNAK (lex) + çelişen genel ansiklopedi; akademik/arşiv teyit yok. | 2. KAYNAK (akademik, iki SBL maddesi) — ÇELİŞKİ SÜRÜYOR (karar gerekir): (1) Anders Winroth, 'Stephanus', SBL bd 33 (2007-2011) s. 372, https://sok.riksarkivet.se/sbl/Presentation.aspx?id=20148 (17 Kasım 2026 okundu): 'Den nye ärkebiskopen fick fyra lydbiskopar som residerade i Skara, Linköping, Strängnäs och Västerås.' (1164 bağlamı) — 1164'te Västerås piskopos oturağı TEYİT. (2) Y. Brilioth, 'David', SBL bd 10 (1931) s. 326, https://sok.riksarkivet.se/sbl/Presentation.aspx?id=17204: 'Västerås stifts upprättande (senast år 1120) är måhända att betrakta som en frukt av hans arbete.' — ≤1120 iddiası artık 1 akademik (SBL 1931) + 1 genel (snl 'around 1120') kaynağa dayanır; ikisi de kesin yıl değil ('senast'/'around'). Hakemli karar eşiği (≥2 bağımsız akademik) oluşmadı → ilk.t 1164 korundu. (UMIT 1116 II. tur)"
+   "kaynak": "Y. Brilioth, 'David', Svenskt biografiskt lexikon bd 10 (1931) s. 326, https://sok.riksarkivet.se/sbl/Presentation.aspx?id=17204",
+   "tanik": "Västerås stifts upprättande (senast år 1120) är måhända att betrakta som en frukt av hans arbete.",
+   "ic_not": "EMRELIC kural/karar 17 Kasim 1116: ilk = kaynakli en erken yazili anilis; imtiyaz/sehir hakki/kale yeniden insasi kur ya da olay. 'senast år 1120' = EN GEÇ 1120 (üst sınır), kesin yıl değil; Västerås piskoposluğu (stift) kurulması, cümle 'måhända' (belki) ifadeli: tarihin yılı belirsiz sayılmalıdır. snl 'around 1120' uyumlu (genel). 1164 'Arosa' piskopos oturağı (lex+SBL Stephanus) olay. Eski ilk.t 1164. Önceki ic_not: ÇELİŞKİ: snl 'Västerås' 'A bishopric is mentioned around 1120' (ca. 1120); lex 1164 (Arosa). Güvenli uç olarak kesin yıl 1164 alındı; 1120 'around' tek kaynak ve kesin olmadığından yazılmadı. TEK KAYNAK (lex) + çelişen genel ansiklopedi; akademik/arşiv teyit yok. | 2. KAYNAK (akademik, iki SBL maddesi) — ÇELİŞKİ SÜRÜYOR (karar gerekir): (1) Anders Winroth, 'Stephanus', SBL bd 33 (2007-2011) s. 372, https://sok.riksarkivet.se/sbl/Presentation.aspx?id=20148 (17 Kasım 2026 okundu): 'Den nye ärkebiskopen fick fyra lydbiskopar som residerade i Skara, Linköping, Strängnäs och Västerås.' (1164 bağlamı) — 1164'te Västerås piskopos oturağı TEYİT. (2) Y. Brilioth, 'David', SBL bd 10 (1931) s. 326, https://sok.riksarkivet.se/sbl/Presentation.aspx?id=17204: 'Västerås stifts upprättande (senast år 1120) är måhända att betrakta som en frukt av hans arbete.' — ≤1120 iddiası artık 1 akademik (SBL 1931) + 1 genel (snl 'around 1120') kaynağa dayanır; ikisi de kesin yıl değil ('senast'/'around'). Hakemli karar eşiği (≥2 bağımsız akademik) oluşmadı → ilk.t 1164 korundu. (UMIT 1116 II. tur)"
   },
   "kur": null,
   "ark": null,
   "bit": null,
   "sahip": [
    {
-    "f": "1164-01-01",
+    "f": "1120-01-01",
     "t": "1281-01-01",
     "d": "isvec-birlik-oncesi",
     "kesinlik": "yil",
     "kaynak": "Den Store Danske / lex.dk, 'Västerås', https://lex.dk/Västerås",
-    "ic_not": "BEYANLI YAKLAŞIKLIK: kaynak şehrin bağlı olduğu krallığı ayrıca söylemez; İsveç Krallığı (isvec-birlik-oncesi künyesi) toprağıdır. Atlas Västerås 1281'de isvec-birlik-oncesi ile başlıyor."
+    "ic_not": "BEYANLI YAKLAŞIKLIK: kaynak şehrin bağlı olduğu krallığı ayrıca söylemez; İsveç Krallığı (isvec-birlik-oncesi künyesi) toprağıdır. Atlas Västerås 1281'de isvec-birlik-oncesi ile başlıyor. | f 1120'ye çekildi (ilk.t); isvec-birlik-oncesi künyesi (f 1000) varsayımı beyanlı."
    }
   ],
   "olay": [
+   {
+    "t": "1164-01-01",
+    "gun": "1164",
+    "k": "diger",
+    "b": "Arosa (Västerås) piskopos oturağı olarak anılır (yeni Uppsala başpiskoposluğunun dört bağlı piskoposundan biri).",
+    "kaynak": "Den Store Danske / lex.dk, 'Västerås', https://lex.dk/Västerås"
+   },
    {
     "t": "1244-01-01",
     "gun": "1244",

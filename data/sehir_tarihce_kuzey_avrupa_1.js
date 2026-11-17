@@ -144,7 +144,7 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_1 = [
    "kesinlik": "yil",
    "kaynak": "Store norske leksikon, 'Drammen', https://snl.no/Drammen",
    "tanik": "Omkring 1600 omtales Bragernes som ladested, og i 1715 fikk ladestedene Bragernes og Strømsø hver for seg kjøpstadsrettigheter. I 1811 ble Bragernes og Strømsø slått sammen til kjøpstaden Drammen.",
-   "ic_not": "İLK ANILIŞ DEĞİL, en erken yazılı tanıklı STATÜ: snl 1715'te Bragernes ve Strømsø'ya kjøpstad hakkı verildiğini yazar; aynı madde yerleşimin 1500'lerde kereste yüzdürme/kerestehaneyle önemli olduğunu, Bragernes'in ~1600'de ladested sayıldığını söyler (yıl/yüzyıl tanığı, alıntı yok). Daha eski yazılı ilk anılış BULUNAMADI (sonraki tur: Trap Norge / Norsk lokalhistorisk). | TANIK DÜZELTME (UMIT 1116): iki cümlelik tanık: 1715 cümlesinde 'Drammen' adı yok (Bragernes/Strømsø ayrı kjøpstad), ad 2. cümlede (1811 birleşme); tek kaynak (snl; lex.dk/Drammen'de 1715 yok)"
+   "ic_not": "İLK ANILIŞ DEĞİL, en erken yazılı tanıklı STATÜ: snl 1715'te Bragernes ve Strømsø'ya kjøpstad hakkı verildiğini yazar; aynı madde yerleşimin 1500'lerde kereste yüzdürme/kerestehaneyle önemli olduğunu, Bragernes'in ~1600'de ladested sayıldığını söyler (yıl/yüzyıl tanığı, alıntı yok). Daha eski yazılı ilk anılış BULUNAMADI (sonraki tur: Trap Norge / Norsk lokalhistorisk). | TANIK DÜZELTME (UMIT 1116): iki cümlelik tanık: 1715 cümlesinde 'Drammen' adı yok (Bragernes/Strømsø ayrı kjøpstad), ad 2. cümlede (1811 birleşme); tek kaynak (snl; lex.dk/Drammen'de 1715 yok) | KARAR (EMRELIC 17 Kasim 1116): 1715 tek kaynak beyani kalir (akademik teyit bulunamadi)."
   },
   "kur": null,
   "ark": null,
@@ -1003,25 +1003,33 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_1 = [
    "Sorø"
   ],
   "ilk": {
+   "t": "1160-01-01",
+   "gun": "*1160 (kopya)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Trap Danmark 6. udg., 'Sorø', https://trap.lex.dk/Sorø",
+   "tanik": "Stednavnet Sorø er tidligst nævnt i *1160 (afskrift) i formen Sora.",
+   "ic_not": "EMRELIC kural/karar 17 Kasim 1116: ilk = kaynakli en erken yazili anilis; imtiyaz/sehir hakki/kale yeniden insasi kur ya da olay. Sorø yer adı (manastır yeri) *1160 (geç kopya), en eski orijinal belge 1227 (Trap). 1622 kasaba başlangıcı kur'a taşındı (eski ilk.t 1622). Tek akademik kaynak (Trap; Den Store Danske ile aynı Danmarks Stednavne verisine dayanır). Önceki ic_not: lex: 1161-71'de 'Soræ' adı yalnız Sorø Sø'nün (göl) adı olarak anılır, yerleşim değil; yeri kesin olmayan ad eşitlemesi başlangıç sayılmadı. Sorø Kloster'in kuruluş yılı lex sayfasında YOK (ikinci kaynak okunamadı). İlk yerleşim tanığı: 1622 kral emri (Klosterport dışında binalar). | TANIK DÜZELTME (UMIT 1116): iki cümlelik tanık (ad 1. cümlede, yıl 2. cümlede) | 2. KAYNAK ARANDI — KAPSAM FARKI (karar gerekir): Trap Danmark 6. udg., 'Sorø', https://trap.lex.dk/Sorø (17 Kasım 2026 okundu): 'Stednavnet Sorø er tidligst nævnt i *1160 (afskrift) i formen Sora.' ve 'Det ældste originaldokument fra 1227 har formen Sora.' — Trap yer adını 1160 (kopya) / 1227 (orijinal) verir; bu ad Sorø Manastırı'nın yeridir. lex ise manastır/akademi dışında 1622'den önce yerleşim olmadığını söyler. ilk.t 1622 kasaba başlangıcı olarak bırakıldı; manastır yerinin 1160/1227 anılışı ayrı karar (ilk_anilis tanımı) — tek akademik kaynak, Hakemli karar eşiği (≥2) yok. (UMIT 1116)"
+  },
+  "kur": {
    "t": "1622-01-01",
    "gun": "1622",
-   "nicelik": "ilk_anilis",
+   "nicelik": "kurulus",
    "kesinlik": "yil",
    "kaynak": "Den Store Danske / lex.dk, 'Sorø', https://lex.dk/Sorø",
    "tanik": "Byens historie er nært forbundet med Sorø Klosters og Sorø Akademis historie. Bortset fra disse har der næppe været bebyggelse i området, før Christian 4. i 1622 gav befaling om opførelse af otte store bygninger udenfor Klosterporten.",
-   "ic_not": "lex: 1161-71'de 'Soræ' adı yalnız Sorø Sø'nün (göl) adı olarak anılır, yerleşim değil; yeri kesin olmayan ad eşitlemesi başlangıç sayılmadı. Sorø Kloster'in kuruluş yılı lex sayfasında YOK (ikinci kaynak okunamadı). İlk yerleşim tanığı: 1622 kral emri (Klosterport dışında binalar). | TANIK DÜZELTME (UMIT 1116): iki cümlelik tanık (ad 1. cümlede, yıl 2. cümlede) | 2. KAYNAK ARANDI — KAPSAM FARKI (karar gerekir): Trap Danmark 6. udg., 'Sorø', https://trap.lex.dk/Sorø (17 Kasım 2026 okundu): 'Stednavnet Sorø er tidligst nævnt i *1160 (afskrift) i formen Sora.' ve 'Det ældste originaldokument fra 1227 har formen Sora.' — Trap yer adını 1160 (kopya) / 1227 (orijinal) verir; bu ad Sorø Manastırı'nın yeridir. lex ise manastır/akademi dışında 1622'den önce yerleşim olmadığını söyler. ilk.t 1622 kasaba başlangıcı olarak bırakıldı; manastır yerinin 1160/1227 anılışı ayrı karar (ilk_anilis tanımı) — tek akademik kaynak, Hakemli karar eşiği (≥2) yok. (UMIT 1116)"
+   "ic_not": "Kasaba başlangıcı: Christian IV 1622 emri (lex)."
   },
-  "kur": null,
   "ark": null,
   "bit": null,
   "sahip": [
    {
-    "f": "1622-01-01",
+    "f": "1160-01-01",
     "t": "1900-01-01",
     "d": "danimarka",
     "kesinlik": "yil",
     "kaynak": "Den Store Danske / lex.dk, 'Sorø', https://lex.dk/Sorø",
-    "ic_not": "BEYANLI YAKLAŞIKLIK: kaynak şehrin bağlı olduğu devleti ayrıca söylemez; Danimarka krallığının (danimarka künyesi) toprağıdır, kaynak kasabayı Danimarka kralının ayrıcalık/amt düzeninde anar."
+    "ic_not": "BEYANLI YAKLAŞIKLIK: kaynak şehrin bağlı olduğu devleti ayrıca söylemez; Danimarka krallığının (danimarka künyesi) toprağıdır, kaynak kasabayı Danimarka kralının ayrıcalık/amt düzeninde anar. | f 1160'a çekildi (ilk.t); 1160 için ayrı sahip tanığı yok, danimarka künyesi (f 0950) varsayımı beyanlı."
    }
   ],
   "olay": [
