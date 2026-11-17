@@ -301,7 +301,7 @@
    "nicelik": "ilk_anilis",
    "kesinlik": "belirsiz",
    "kaynak": "TDV İslâm Ansiklopedisi, NUSAYBIN maddesi (islamansiklopedisi.org.tr/nusaybin; 16 Kas 2026'da okundu)",
-   "tanik": "[TDV metninden özet, aynen alıntı değil] Asur kralı II. Adad-nirari (MÖ 912-889) dönemi: en eski anılış"
+   "tanik": "912-889) rastlanan Nusaybin, Basra körfezi üzerinden gelen yolların hiçbir doğal engelle karşılaşmadan ulaştığı, buradan itibaren ikiye ayrılıp Mezopotamya’yı Batı Anadolu’ya, Suriye limanlarına ve Diyarbakır havzasıyla Anadolu’nun başka noktalarına bağlayan bir mevkide yer alıyordu."
   },
   "kur": null,
   "ark": null,
@@ -393,7 +393,7 @@
    }
   ],
   "dikis_beyan": "Atlas 1183-06-11'de 'zengi-musul' ile başlıyor; TDV Artuklu→Zengî geçişine ve Selâhaddîn'e tarih vermiyor. Yer tutucu olay yazılmadı.",
-  "ic_not": "Sasanî 363 → 639 sürekliliği YAZILMADI (Herakleios dönemi Bizans'ın 628 sonrası dönüşü TDV'de yok). İlk anılış aralığının (912-889) güvenli ucu alındı. Koord: koord: GeoNames 303750 (37°04′13.01″ N, 41°12′52.74″ E), atlas tahmininden 0.8 km. Üst basamaklar: İSAM/TTK/DergiPark/YÖK taraması BU PARTİDE YAPILMADI (yalnız TDV maddesi + belirtilen Perseus metni okundu); çok kaynaklı teyit yok."
+  "ic_not": "Sasanî 363 → 639 sürekliliği YAZILMADI (Herakleios dönemi Bizans'ın 628 sonrası dönüşü TDV'de yok). İlk anılış aralığının (912-889) güvenli ucu alındı. Koord: koord: GeoNames 303750 (37°04′13.01″ N, 41°12′52.74″ E), atlas tahmininden 0.8 km. Üst basamaklar: İSAM/TTK/DergiPark/YÖK taraması BU PARTİDE YAPILMADI (yalnız TDV maddesi + belirtilen Perseus metni okundu); çok kaynaklı teyit yok. | TANIK: TDV tam gövdesinden birebir cümle/parça (17 Kas 2026, tarayıcı; yıl + şehir aynı cümlede ya da maddenin konusu şehre açık atıf)."
  },
  {
   "id": "katif-sa",

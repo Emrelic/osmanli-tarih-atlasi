@@ -57,7 +57,7 @@ window.SEHIR_TARIHCE_YAKIN_DOGU_C = [
     "kaynak": "TDV İslâm Ansiklopedisi, AKSARAY"
    }
   ],
-  "ic_not": "Zincir BOŞ bırakıldı: ilk.t (0017-01-01, Archelaos'un ölüm yılı = yeniden kuruluşun güvenli üst ucu, saltanat MÖ 36-MS 17 aralığında) atlas noktasının başlangıç gününe (0017-01-01) denk geliyor; atlas başlangıcından önce yazılı tanık bu kayıtta yok. Atlasın 0017 roma-imp başlangıcı bu çalışmada TDV'den teyit EDİLMEDİ (TDV Roma sahipliğinden söz etmiyor); atlas başlangıcı düzeltmesi gerekebilir. ARAŞTIRILMADI/BULUNAMADI: Garsaura'nın bu yeniden kuruluştan önceki yazılı anılışı (örn. antik coğrafyacılar) bu oturumda doğrulanamadı; TDV Hitit Kursaura eşitlemesini 'kabul edilmektedir' diye verir — yeri kesin olmayan eşitleme olduğu için başlangıç sayılmadı. Selçuklu fethi günü TDV'de yok. Koordinat: GeoNames 324496 (Aksaray PPPLA, 38°22'21\" K 34°01'31\" D); atlas tahminine ~1 km."
+  "ic_not": "Zincir BOŞ bırakıldı: ilk.t (0017-01-01, Archelaos'un ölüm yılı = yeniden kuruluşun güvenli üst ucu, saltanat MÖ 36-MS 17 aralığında) atlas noktasının başlangıç gününe (0017-01-01) denk geliyor; atlas başlangıcından önce yazılı tanık bu kayıtta yok. Atlasın 0017 roma-imp başlangıcı bu çalışmada TDV'den teyit EDİLMEDİ (TDV Roma sahipliğinden söz etmiyor); atlas başlangıcı düzeltmesi gerekebilir. ARAŞTIRILMADI/BULUNAMADI: Garsaura'nın bu yeniden kuruluştan önceki yazılı anılışı (örn. antik coğrafyacılar) bu oturumda doğrulanamadı; TDV Hitit Kursaura eşitlemesini 'kabul edilmektedir' diye verir — yeri kesin olmayan eşitleme olduğu için başlangıç sayılmadı. Selçuklu fethi günü TDV'de yok. Koordinat: GeoNames 324496 (Aksaray PPPLA, 38°22'21\" K 34°01'31\" D); atlas tahminine ~1 km. | TANIK KURALI (17 Kas 2026, EMRELİC): TDV tam gövdede yıl + şehir adı AYNI cümlede birebir bir cümle bulunamadı (yıl bu şehrin kuruluşunu değil kral/dönem sınırını gösteriyor ya da cümle bölünüyor); `ilk` kesinlik belirsiz sayılır."
  },
  {
   "id": "iskenderun-tr",
@@ -79,7 +79,7 @@ window.SEHIR_TARIHCE_YAKIN_DOGU_C = [
    "nicelik": "kurulus",
    "kesinlik": "yil",
    "kaynak": "TDV İslâm Ansiklopedisi, İSKENDERUN (islamansiklopedisi.org.tr/iskenderun)",
-   "tanik": "MÖ 333'te İskender adına Alexandreia olarak kuruldu (TDV özeti)"
+   "tanik": "İskenderun, milâttan önce 333 yılında Büyük İskender’in adına izâfe edilerek Alexandreia adıyla kuruldu."
   },
   "kur": null,
   "ark": null,
@@ -139,7 +139,7 @@ window.SEHIR_TARIHCE_YAKIN_DOGU_C = [
     "kaynak": "TDV İslâm Ansiklopedisi, ANTAKYA ('18 Mayıs 1268'de ... genel hücum') ve İSKENDERUN"
    }
   ],
-  "ic_not": "Zincir atlasın ilk gününde (1098-06-03 antakya-prinkipsligi) biter; sonrası atlas zincirine bırakıldı (1268 Memlûk olayı bilgi olarak yazıldı). TDV İskenderun'da 'MÖ 333 Alexandreia kuruluşu' yer alır; Myriandros (Fenike) ile aynı yer mi bitişik mi TDV'de kesin değil ('aynı yerde ya da yakınında') — antik yerleşim modern noktadan > 3 km ise ayrı kayıt olmalı; mesafe ölçülmedi, TDV modern şehri Alexandreia olarak ele alıyor. ARAŞTIRILMADI: DergiPark/TTK/yabancı akademik basamak. Koordinat: GeoNames 311111 (İskenderun PPPLA2, 36°35'14\" K 36°10'24\" D); atlas tahminine ~0,2 km. kat1900:3 görev şablonundan, 1900 idarî kademesi ölçülmedi."
+  "ic_not": "Zincir atlasın ilk gününde (1098-06-03 antakya-prinkipsligi) biter; sonrası atlas zincirine bırakıldı (1268 Memlûk olayı bilgi olarak yazıldı). TDV İskenderun'da 'MÖ 333 Alexandreia kuruluşu' yer alır; Myriandros (Fenike) ile aynı yer mi bitişik mi TDV'de kesin değil ('aynı yerde ya da yakınında') — antik yerleşim modern noktadan > 3 km ise ayrı kayıt olmalı; mesafe ölçülmedi, TDV modern şehri Alexandreia olarak ele alıyor. ARAŞTIRILMADI: DergiPark/TTK/yabancı akademik basamak. Koordinat: GeoNames 311111 (İskenderun PPPLA2, 36°35'14\" K 36°10'24\" D); atlas tahminine ~0,2 km. kat1900:3 görev şablonundan, 1900 idarî kademesi ölçülmedi. | TANIK: TDV tam gövdesinden birebir cümle/parça (17 Kas 2026, tarayıcı; yıl + şehir aynı cümlede ya da maddenin konusu şehre açık atıf)."
  },
  {
   "id": "mirbat-om",
@@ -182,7 +182,7 @@ window.SEHIR_TARIHCE_YAKIN_DOGU_C = [
    }
   ],
   "dikis_beyan": "Atlas 1281-01-01 'nebhani' der. TDV ZAFÂR komşu Zafâr'ın 678 (1279)'da Resûlîler'ce ilhak edildiğini söyler (Resûlî künyesi 1229'da başlar); Mirbât'ın 1281 sahibine dair tarihli tanık bulunamadı — atlasın 1281 başlangıcı kaynaksız ve komşu Zafâr kaydıyla çelişebilir.",
-  "ic_not": "İlk anılış tanığı yalnızca Ziyâdî hâkimiyet alanı sayımıdır (Mirbât şehir olarak anılıyor mu bilinmiyor); Mirbât'ın bugünkü Mirbât ile aynı yer olduğu TDV'de açık değil, atlas noktası bugünkü Mirbât'tır — bu eşitleme varsayımdır. Arkeolojik/Ibn al-Mujawir/Ibn Battuta tanıkları bu oturumda erişilebilir kaynaklarda doğrulanamadı (kaynak PDF'leri okunamadı). Koordinat: GeoNames 287218 (Mirbāţ PPPL, 16°59'47\" K 54°41'26\" D); atlas tahminine ~1 km. Komşu Zafâr (Al-Balid, GeoNames 289325, 17,0065 K 54,136 D) Salâle'den ~4,7 km — ayrı kayıt önerilir."
+  "ic_not": "İlk anılış tanığı yalnızca Ziyâdî hâkimiyet alanı sayımıdır (Mirbât şehir olarak anılıyor mu bilinmiyor); Mirbât'ın bugünkü Mirbât ile aynı yer olduğu TDV'de açık değil, atlas noktası bugünkü Mirbât'tır — bu eşitleme varsayımdır. Arkeolojik/Ibn al-Mujawir/Ibn Battuta tanıkları bu oturumda erişilebilir kaynaklarda doğrulanamadı (kaynak PDF'leri okunamadı). Koordinat: GeoNames 287218 (Mirbāţ PPPL, 16°59'47\" K 54°41'26\" D); atlas tahminine ~1 km. Komşu Zafâr (Al-Balid, GeoNames 289325, 17,0065 K 54,136 D) Salâle'den ~4,7 km — ayrı kayıt önerilir. | TANIK KURALI (17 Kas 2026, EMRELİC): TDV tam gövdede yıl + şehir adı AYNI cümlede birebir bir cümle bulunamadı (yıl bu şehrin kuruluşunu değil kral/dönem sınırını gösteriyor ya da cümle bölünüyor); `ilk` kesinlik belirsiz sayılır."
  },
  {
   "id": "uzunkopru-tr",
