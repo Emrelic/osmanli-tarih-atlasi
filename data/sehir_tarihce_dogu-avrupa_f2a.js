@@ -568,14 +568,14 @@ window.SEHIR_TARIHCE_DOGU_AVRUPA_F2A = [
    "nicelik": "kurulus",
    "kesinlik": "yil",
    "kaynak": "Encyclopaedia Britannica, 'Kaliningrad' maddesi (britannica.com/place/Kaliningrad; 17 Kas 2026 gömülü tarayıcıda okundu)",
-   "tanik": "the city was established around a fortress built in 1255 by the Teutonic Knights"
+   "tanik": "The old town of Königsberg (“King’s Mountain”) grew up around the fortress built in 1255 by the Teutonic Knights"
   },
   "kur": {
    "t": "1255-01-01",
    "gun": "1255",
    "kesinlik": "yil",
    "kaynak": "Encyclopaedia Britannica, 'Kaliningrad' maddesi (britannica.com/place/Kaliningrad; 17 Kas 2026 gömülü tarayıcıda okundu)",
-   "tanik": "the city was established around a fortress built in 1255 by the Teutonic Knights"
+   "tanik": "The old town of Königsberg (“King’s Mountain”) grew up around the fortress built in 1255 by the Teutonic Knights"
   },
   "ark": null,
   "bit": null,
