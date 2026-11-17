@@ -302,6 +302,41 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
   "ic_not": "Kaynak: TDV 'Endican' TAM METİN. Çift teyit YOK (İSAM/Barthold/Bosworth açılamadı). TDV: 'Tarihi IX. yüzyıla kadar giden bölgenin ismini İbn Havkal Endigân ... yazmış' — yüzyıl-düzeyi ve eser tarihi TDV'de verilmediğinden ilk.t olarak yalnız tarihlendirilebilen X. yy sonu Karahanlı sahipliği alındı (güvenli uç: 10. yüzyılın son yılı, t=0999). Atlas Endican'ı 0500'de fergana-dayuan ile başlatır; şehir tanığı X. yy sonudur → sahip:[] ve 'atlas başlangıcı düzeltilmeli' uyarısı beklenir. 1090, 1141, 1210, 1503, 1876 olayları atlas zincirinin kontrol tanığıdır (atlas zinciri esastır, burada zincir yok). TDV: 1375-76 Timur-Kamerüddin savaşında yağmalandı (hicrî 777), Kaydu Han'ın yeniden inşası (tarihsiz, ö. 1301) yazılmadı."
  },
  {
+  "id": "angren-uz-p13",
+  "ad": "Angren",
+  "atlas_ad": null,
+  "lat": 41.01667,
+  "lon": 70.14361,
+  "kat1900": null,
+  "adlar": [
+   "Angren"
+  ],
+  "ilk": {
+   "t": "1946-01-01",
+   "gun": "1946",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, «Angren» (Britannica Editors), https://www.britannica.com/place/Angren (tarayıcı sayfa okuma, 17 Kasım 2026)",
+   "tanik": "it was created in 1946 from mining settlements that had grown up"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1946-01-01",
+    "gun": "1946",
+    "k": "kurulus",
+    "b": "Angren Angren kömür havzasındaki maden yerleşimlerinden şehir olarak oluşturuldu (Britannica)",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, «Angren» (Britannica Editors), https://www.britannica.com/place/Angren (tarayıcı sayfa okuma, 17 Kasım 2026)",
+    "tanik": "it was created in 1946 from mining settlements that had grown up"
+   }
+  ],
+  "ic_not": "TEK KAYNAK (Britannica); ÇİFT TEYİT YOK. Özne zamiri 'it' = madde konusu Angren (cümlede şehir adı yok, beyan). İKİNCİ KAYNAK BAKILDI: Columbia 6th ed. 'Angren' (encyclopedia.com/reference/encyclopedias-almanacs-transcripts-and-maps/angren): 'The largest lignite-mining center in Central Asia, it was developed during and after World War II' — YIL VERMEZ, 1946'yı ne doğrular ne yalanlar (savaş sonrası dönemle uyumlu). BAĞIMSIZLIK ÖLÇÜMÜ: Britannica Inc. ve Columbia Univ. Press ayrı yayıncı, farklı cümle; yıl çifti oluşmadığından teyit sayılmadı. Savaş öncesi/sırasındaki 'maden yerleşimleri' ayrı olgudur, tarih verilmedi. SAHİP: kaynakta açık yok (SSCB/Özbek SSC kaynakta anılmaz), yazılmadı."
+ },
+ {
   "id": "askabat-tm",
   "ad": "Aşkabat",
   "atlas_ad": "Aşkabad",

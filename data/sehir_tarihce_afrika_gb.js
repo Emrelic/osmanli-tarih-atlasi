@@ -810,6 +810,42 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
   "ic_not": "ÇİFT TEYİT (LAB, 17 Kasım 2026; Britannica/ilk kaynaktan bağımsız ikinci kaynak): Oxford World Encyclopedia, «Harare», https://www.encyclopedia.com/places/africa/zimbabwe-political-geography/harare; includes() 17 Kas 2026 | tanık 2: \"Settled by Europeans in 1890 as Fort Salisbury\" | 1890 aynı (Britannica 'founded in 1890 ... Pioneer Column') || İLK KAYNAK (Britannica); çift teyit yok. Gün yok, yıl hassasiyeti. Tanık 'The city was founded in 1890 ... halted' (ilk 18 kelime; kısaltıldı). SAHİP/DİKİŞ: ingiliz-guney-rodezya 1890-01-01 → 1890-09-12 (atlas başlangıcı): gün kaynakta yok, atlas başlangıcına ≤1 yıl uzatıldı; kaynak yılı esas, 'f'/'t' kaynağın yıl ucudur, atlas başlangıcı kaynak değildir."
  },
  {
+  "id": "hwange-p13",
+  "ad": "Hwange",
+  "atlas_ad": null,
+  "lat": -18.36446,
+  "lon": 26.49877,
+  "kat1900": null,
+  "adlar": [
+   "Wankie",
+   "Hwange"
+  ],
+  "ilk": {
+   "t": "1903-01-01",
+   "gun": "1903",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "The Columbia Encyclopedia, 6th ed., 'Hwange' (Columbia University Press), encyclopedia.com/reference/encyclopedias-almanacs-transcripts-and-maps/hwange (tarayici fetch + includes(), 17 Kasim 2026)",
+   "tanik": "The city was founded in 1903 and named for a local chief."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1903-01-01",
+    "gun": "1903",
+    "k": "diger",
+    "b": "Hwange (eski adi Wankie) kuruldu; yerel bir sefin adini tasir",
+    "kesinlik": "yil",
+    "kaynak": "The Columbia Encyclopedia, 6th ed., 'Hwange' (Columbia University Press), encyclopedia.com/reference/encyclopedias-almanacs-transcripts-and-maps/hwange (tarayici fetch + includes(), 17 Kasim 2026)",
+    "tanik": "The city was founded in 1903 and named for a local chief."
+   }
+  ],
+  "ic_not": "IKI KAYNAK, DEGER UYUSMUYOR (cift teyit DEGIL). (1) Columbia 6th ed. 'Hwange': 'The city was founded in 1903 and named for a local chief.' (ozne 'the city' = madde basligi Hwange; ad ayni cumlede yok, madde basligi zamir gibi kabul edildi). (2) Encyclopaedia Britannica 'Hwange' (britannica.com/place/Hwange; includes() 17 Kasim 2026): 'It was founded about 1900 after the discovery of coal in the vicinity and was named for a local chief, Whanga' (ozne zamiri 'It'). Fark 1903 / 'about 1900': Britannica yaklasik ('about'), Columbia kesin yil verir; bagimsiz iki kaynak AYNI yili vermedigi icin hakemli karar kurali geregi kesin yil (Columbia 1903) secildi, Britannica'nin 'about 1900'u celiski degil yaklasiklik sayildi ve beyan edildi; en erken muhtemel tarih 1900 (zincir/atlas siniri 1900-01-01'e ters dusmez). BAGIMSIZLIK OLCUMU: ayri yayincilar (Columbia Univ. Press / Encyclopaedia Britannica Inc.); cumleler farkli (Columbia 'city...1903...named', Britannica 'about 1900 ... coal ... Whanga'); ikisi de kaynakcasiz madde, ortak dayanak gosterilmemis, kopya kanitina rastlanmadi; ancak kaynakcasizlik nedeniyle ortak soy kesin elenemez (bagimsizlik 'kopya kaniti yok' duzeyindedir). Gun yok, yil hassasiyeti. Atlas noktasi yok; ilk.t >= 1900 oldugu icin sahip zinciri yazilmadi (1903 sonrasi sahip kaynakta yok)."
+ },
+ {
   "id": "ibadan-p10",
   "ad": "Ibadan",
   "atlas_ad": null,
@@ -933,6 +969,41 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
   "sahip": [],
   "olay": [],
   "ic_not": "TEK KAYNAK (UNESCO). Kaynak Torwa hanedanının doğuşunu 1450-1650 ARALIĞINDA verir; güvenli uç (aralığın SON ucu, 1650) alındı. Aynı UNESCO sayfası 'Büyük Zimbabve başkenti 16. yy ortasında terk edildikten sonra gelişti' de der (iç tutarsızlık, yüzyıl). Atlas Khami'yi 1450-01-01'de 'torva' ile başlatır: bu kaynakla 1450 YALNIZ aralığın başı olarak desteklenir, gün/yıl tanığı değildir. Zincir yazılmadı (1650 ≥ atlas başlangıcı). Terk: '19. yüzyıl Ndebele akınları' yalnız yüzyıl — yazılmadı."
+ },
+ {
+  "id": "kikwit-p13",
+  "ad": "Kikwit",
+  "atlas_ad": "Kikwit",
+  "lat": -5.04098,
+  "lon": 18.81619,
+  "kat1900": null,
+  "adlar": [
+   "Kikwit"
+  ],
+  "ilk": {
+   "t": "1901-01-01",
+   "gun": "1901",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Kikwit' (Britannica editorleri), https://www.britannica.com/place/Kikwit (tarayici fetch + includes(), 17 Kasim 2026)",
+   "tanik": "European settlement of the site began in 1901"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1901-01-01",
+    "gun": "1901",
+    "k": "diger",
+    "b": "Kikwit yerinde Avrupali yerlesim basladi",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, 'Kikwit' (Britannica editorleri), https://www.britannica.com/place/Kikwit (tarayici fetch + includes(), 17 Kasim 2026)",
+    "tanik": "European settlement of the site began in 1901"
+   }
+  ],
+  "ic_not": "TEK KAYNAK (Britannica); cift teyit YOK: Columbia/Oxford/Universalis/encyclopedia.com'da Kikwit maddesi bulunamadi (slug taramasi bos). Tanik cumlesinde sehir adi yok, 'the site' madde basligi Kikwit'in yeridir (madde basligi ozne kabulu, beyan). Yil, Avrupali yerlesimin baslangicidir; sehrin kurulus gunu degil, nicelik ilk_anilis. Ayni maddede 'colonial administrative centre about 1910' yaklasik oldugu icin yazilmadi. ATLAS: atlas Kikwit'i 1896-01-01'de kongo-serbest-devleti ile baslatiyor; bu kaynak 1901 verir, 1896 DOGRULANAMADI (atlas baslangici kaynaksiz, KASA'ya bildirilir). Sahip zinciri yazilmadi: kaynakta sahip bilgisi yok."
  },
  {
   "id": "konakri-af-p9",

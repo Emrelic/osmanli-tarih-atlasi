@@ -2002,5 +2002,76 @@
    }
   ],
   "ic_not": "TEK KAYNAK (Britannica); çift teyit yok (Encyclopedia.com Ibadan sayfasında yıllı cümle okunamadı; UNESCO/Persée/Cambridge bu şehir için bulunmadı). Gün yok, yıl hassasiyeti. Tanık cümlesinde özne zamir/ad-gösterme = madde konusu; başlık şehir (koordinatör kararı, parti 9 ile aynı). Tam cümle: 'The town, whose Arabic name means “water sources,” was developed by the Spaniards in 1938 as the administrative, military, and European population centre of the former province.' 'Developed' kuruluş/geliştirme (kuruluş sözcüğü yok): nicelik kurulus kaynağın 'developed' ifadesine dayanır, kesin kuruluş günü bilinmiyor. Britannica ayrıca 1976 (İspanya çekilişi, Fas-Sahravi savaşı) anar (şehir olgusu değil). Sahip zinciri yazılmadı (kaynak 'İspanyollar' der, devlet/dönem vermez; 1938 > 1900)."
+ },
+ {
+  "id": "hwange-p13",
+  "ad": "Hwange",
+  "atlas_ad": null,
+  "lat": -18.36446,
+  "lon": 26.49877,
+  "kat1900": null,
+  "adlar": [
+   "Wankie",
+   "Hwange"
+  ],
+  "ilk": {
+   "t": "1903-01-01",
+   "gun": "1903",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "The Columbia Encyclopedia, 6th ed., 'Hwange' (Columbia University Press), encyclopedia.com/reference/encyclopedias-almanacs-transcripts-and-maps/hwange (tarayici fetch + includes(), 17 Kasim 2026)",
+   "tanik": "The city was founded in 1903 and named for a local chief."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1903-01-01",
+    "gun": "1903",
+    "k": "diger",
+    "b": "Hwange (eski adi Wankie) kuruldu; yerel bir sefin adini tasir",
+    "kesinlik": "yil",
+    "kaynak": "The Columbia Encyclopedia, 6th ed., 'Hwange' (Columbia University Press), encyclopedia.com/reference/encyclopedias-almanacs-transcripts-and-maps/hwange (tarayici fetch + includes(), 17 Kasim 2026)",
+    "tanik": "The city was founded in 1903 and named for a local chief."
+   }
+  ],
+  "ic_not": "IKI KAYNAK, DEGER UYUSMUYOR (cift teyit DEGIL). (1) Columbia 6th ed. 'Hwange': 'The city was founded in 1903 and named for a local chief.' (ozne 'the city' = madde basligi Hwange; ad ayni cumlede yok, madde basligi zamir gibi kabul edildi). (2) Encyclopaedia Britannica 'Hwange' (britannica.com/place/Hwange; includes() 17 Kasim 2026): 'It was founded about 1900 after the discovery of coal in the vicinity and was named for a local chief, Whanga' (ozne zamiri 'It'). Fark 1903 / 'about 1900': Britannica yaklasik ('about'), Columbia kesin yil verir; bagimsiz iki kaynak AYNI yili vermedigi icin hakemli karar kurali geregi kesin yil (Columbia 1903) secildi, Britannica'nin 'about 1900'u celiski degil yaklasiklik sayildi ve beyan edildi; en erken muhtemel tarih 1900 (zincir/atlas siniri 1900-01-01'e ters dusmez). BAGIMSIZLIK OLCUMU: ayri yayincilar (Columbia Univ. Press / Encyclopaedia Britannica Inc.); cumleler farkli (Columbia 'city...1903...named', Britannica 'about 1900 ... coal ... Whanga'); ikisi de kaynakcasiz madde, ortak dayanak gosterilmemis, kopya kanitina rastlanmadi; ancak kaynakcasizlik nedeniyle ortak soy kesin elenemez (bagimsizlik 'kopya kaniti yok' duzeyindedir). Gun yok, yil hassasiyeti. Atlas noktasi yok; ilk.t >= 1900 oldugu icin sahip zinciri yazilmadi (1903 sonrasi sahip kaynakta yok)."
+ },
+ {
+  "id": "kikwit-p13",
+  "ad": "Kikwit",
+  "atlas_ad": "Kikwit",
+  "lat": -5.04098,
+  "lon": 18.81619,
+  "kat1900": null,
+  "adlar": [
+   "Kikwit"
+  ],
+  "ilk": {
+   "t": "1901-01-01",
+   "gun": "1901",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Kikwit' (Britannica editorleri), https://www.britannica.com/place/Kikwit (tarayici fetch + includes(), 17 Kasim 2026)",
+   "tanik": "European settlement of the site began in 1901"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1901-01-01",
+    "gun": "1901",
+    "k": "diger",
+    "b": "Kikwit yerinde Avrupali yerlesim basladi",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, 'Kikwit' (Britannica editorleri), https://www.britannica.com/place/Kikwit (tarayici fetch + includes(), 17 Kasim 2026)",
+    "tanik": "European settlement of the site began in 1901"
+   }
+  ],
+  "ic_not": "TEK KAYNAK (Britannica); cift teyit YOK: Columbia/Oxford/Universalis/encyclopedia.com'da Kikwit maddesi bulunamadi (slug taramasi bos). Tanik cumlesinde sehir adi yok, 'the site' madde basligi Kikwit'in yeridir (madde basligi ozne kabulu, beyan). Yil, Avrupali yerlesimin baslangicidir; sehrin kurulus gunu degil, nicelik ilk_anilis. Ayni maddede 'colonial administrative centre about 1910' yaklasik oldugu icin yazilmadi. ATLAS: atlas Kikwit'i 1896-01-01'de kongo-serbest-devleti ile baslatiyor; bu kaynak 1901 verir, 1896 DOGRULANAMADI (atlas baslangici kaynaksiz, KASA'ya bildirilir). Sahip zinciri yazilmadi: kaynakta sahip bilgisi yok."
  }
 ]
