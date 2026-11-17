@@ -1,0 +1,180 @@
+id	bugun_var	bugun_ad	not
+cetinje	E		
+bucuresti	E		Bucuresci eski yazım
+beograd	E		
+athina	E		
+bjelovar	E		
+gospic	E		
+ogulin	E		
+osijek	E		Eszék = Osijek
+porec	E		Parenzo = Poreč
+pozega	E		
+rijeka	E		Fiume = Rijeka; aynı kent
+varazdin	E		
+vukovar	E		1991'de yıkılan kent aynı yerde yeniden inşa edildi
+zadar	E		Zara = Zadar
+zagreb	E		Agram = Zagreb
+bulunamadi	?		LISTE satır 17: birim merkezi 'bulunamadı' yazılmış; hangi şehir olduğu bilinmiyor, uydurma yapılmadı
+bulunamadi	?		LISTE satır 18: birim merkezi 'bulunamadı' yazılmış; hangi şehir olduğu bilinmiyor, uydurma yapılmadı
+bulunamadi	?		LISTE satır 19: birim merkezi 'bulunamadı' yazılmış; hangi şehir olduğu bilinmiyor, uydurma yapılmadı
+bulunamadi	?		LISTE satır 20: birim merkezi 'bulunamadı' yazılmış; hangi şehir olduğu bilinmiyor, uydurma yapılmadı
+bulunamadi	?		LISTE satır 21: birim merkezi 'bulunamadı' yazılmış; hangi şehir olduğu bilinmiyor, uydurma yapılmadı
+bulunamadi	?		LISTE satır 22: birim merkezi 'bulunamadı' yazılmış; hangi şehir olduğu bilinmiyor, uydurma yapılmadı
+bulunamadi	?		LISTE satır 23: birim merkezi 'bulunamadı' yazılmış; hangi şehir olduğu bilinmiyor, uydurma yapılmadı
+bulunamadi	?		LISTE satır 24: birim merkezi 'bulunamadı' yazılmış; hangi şehir olduğu bilinmiyor, uydurma yapılmadı
+aiud	D	Aiud	Nagyenyed (Macarca) → Aiud (1920)
+arad	E		
+bacau	E		
+bistrita	E		
+botosani	E		
+brasov	E		Orașul Stalin (1950-60) sonra Brașov'a döndü
+braila	E		
+buzau	E		
+barlad	E		
+caracal	E		
+carei	D	Carei	Nagykároly (Macarca) → Carei (1920)
+cluj-napoca	D	Cluj-Napoca	Kolozsvár (Macarca) → Cluj (1920) → Cluj-Napoca (1974)
+constanta	E		
+craiova	E		
+campulung	E		
+calarasi	E		
+dej	E		Dés = Dej
+deva	E		Déva = Deva (yazım)
+dorohoi	E		
+drobeta-turnu-severin	D	Drobeta-Turnu Severin	Turnu Severin → Drobeta-Turnu Severin (1972)
+dumbraveni	D	Dumbrăveni	Erzsébetváros (Macarca) → Dumbrăveni (1920)
+focsani	E		
+fagaras	E		
+falticeni	E		
+galati	E		
+giurgiu	E		
+husi	E		
+iasi	E		
+lugoj	E		Lugos = Lugoj
+miercurea-ciuc	D	Miercurea Ciuc	Csíkszereda (Macarca) → Miercurea Ciuc (1920)
+odorheiu-secuiesc	D	Odorheiu Secuiesc	Székelyudvarhely (Macarca) → Odorheiu Secuiesc (1920)
+oradea	E		Nagyvárad = Oradea
+piatra-neamt	E		Piatra → Piatra Neamț; 1900'de ad biçimi doğrulanmadı
+pitesti	E		
+ploiesti	E		
+roman	E		
+ramnicu-sarat	E		
+ramnicu-valcea	E		
+sfantu-gheorghe	D	Sfântu Gheorghe	Sepsiszentgyörgy (Macarca) → Sfântu Gheorghe (1920)
+sibiu	D	Sibiu	Nagyszeben/Hermannstadt → Sibiu (1920)
+sighetu-marmatiei	D	Sighetu Marmației	Máramarossziget (Macarca) → Sighetu Marmației (1920)
+sighisoara	E		
+slatina	E		
+tecuci	E		
+timisoara	E		Temesvár = Timișoara
+tulcea	E		
+turda	E		Torda = Turda (yazım)
+turnu-magurele	E		
+targoviste	E		
+targu-jiu	E		
+targu-mures	D	Târgu Mureș	Marosvásárhely (Macarca) → Târgu Mureș (1920)
+vaslui	E		
+zalau	E		Zilah = Zalău
+ljubljana	E		Laibach = Ljubljana
+bulunamadi	?		LISTE satır 79: birim merkezi 'bulunamadı' yazılmış; hangi şehir olduğu bilinmiyor, uydurma yapılmadı
+gornji-milanovac	E		
+kragujevac	E		
+krusevac	E		
+negotin	E		
+nis	E		
+pirot	E		
+pozarevac	E		
+prokuplje	E		
+smederevo	E		
+sombor	E		Zombor = Sombor
+uzice	E		Titovo Užice (1946-91) sonra Užice'ye döndü
+valjevo	E		
+vranje	E		
+zajecar	E		
+zrenjanin	D	Zrenjanin	Nagybecskerek → Petrovgrad (1935) → Zrenjanin (1946)
+cuprija	E		
+sabac	E		
+amfissa	E		
+argostoli	E		
+arta	E		
+chalkida	E		
+ermoupoli	E		
+gytheio	E		
+kalamata	E		
+karditsa	E		
+karpenisi	E		
+kerkyra	E		
+korinthos	E		Bugünkü Korinthos 1858 depreminden sonra Körfez kıyısında yeniden kurulan kent (1900 kenti ile aynı yerleşim); antik Korinthos yeri değil
+kyparissia	E		
+lamia	E		
+larisa	E		
+livadeia	E		
+mesolongi	E		
+nafplio	E		
+patra	E		
+pyrgos	E		
+sparti	E		
+trikala	E		
+tripoli	E		Tripolis (Peloponnesos) mevcut; UYARI: LISTE lat/lon (32.887, 13.187) Libya Trablus'una ait, yanlış koordinat. GeoNames 252601: 37°30'34.52\"N 22°22'43.79\"E
+volos	E		
+zakynthos	E		Şehir 1953 depreminde yıkıldı, aynı yerde yeniden kuruldu
+shkoder	E		
+banja-luka	E		
+bihac	E		
+mostar	E		
+sarajevo	E		
+travnik	E		
+tuzla	E		
+burgas	E		
+haskovo	E		
+kyustendil	E		
+lom	E		
+pazardzhik	E		
+pleven	E		
+plovdiv	E		
+razgrad	E		
+ruse	E		
+sevlievo	E		
+shumen	E		Kolarovgrad (1950-65) sonra Shumen'e döndü
+silistra	E		
+sliven	E		
+sofia	E		
+stara-zagora	E		
+svishtov	E		
+varna	E		Stalin (1949-56) sonra Varna'ya döndü
+veliko-tarnovo	E		
+vidin	E		
+vratsa	E		
+bulunamadi	?		LISTE satır 148: birim merkezi 'bulunamadı' yazılmış; hangi şehir olduğu bilinmiyor, uydurma yapılmadı
+bulunamadi	?		LISTE satır 149: birim merkezi 'bulunamadı' yazılmış; hangi şehir olduğu bilinmiyor, uydurma yapılmadı
+bitola	E		
+skopje	E		
+chania	E		
+heraklion	E		
+ioannina	E		
+neapoli-(lasithi)	E		
+rethymno	E		
+rodos-(rhodes)	E		
+samos-(vathy)	E		
+thessaloniki	E		
+vamos	E		
+berat	E		
+durres	E		
+elbasan	E		
+gjirokaster	E		
+korce	E		
+pljevlja	E		
+peja-(pec)	E		
+pristina	E		
+prizren	E		
+debar	E		
+sjenica	E		
+alexandroupoli	D	Alexandroupoli	Dedeağaç → Alexandroupoli (1920)
+chios	E		Sakız = Chios (adadaki şehir)
+drama	E		
+komotini	E		
+myrina	E		
+mytilene	E		
+preveza	E		
+serres	E		
+servia	E		

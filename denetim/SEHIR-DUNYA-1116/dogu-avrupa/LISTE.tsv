@@ -1,512 +1,545 @@
-id	kat	ulke	ad_1900	ad_modern	lat	lon	koord_kaynak	atlas_ad	atlas_km	tarihce_id	adlar_tarih_sirali	kaynak_1900	not
-kaliningrad	2	Rusya	Königsberg	Kaliningrad	54.71	20.512	atlas-yerlesim-ad-eslesmesi	Königsberg				statoids ude (Prusya Provinz tablosu)	ayrıca Regierungsbezirk Königsberg merkezi
-berehove	2	Ukrayna	Beregszász	Berehove								statoids uhu (64 comitate: County|Capital tablosu)	
-chernivtsi	2	Ukrayna	Czernowitz	Chernivtsi								statoids uat (A-M dönemi başkentleri)	
-lviv	2	Ukrayna	Lemberg	Lviv								statoids uat (A-M dönemi başkentleri)	
-uzhhorod	2	Ukrayna	Ungvár	Uzhhorod	48.6224	22.3023	atlas-yerlesim-ad-eslesmesi	Ungvár (Uzhhorod)				statoids uhu (64 comitate: County|Capital tablosu)	
-vynohradiv	2	Ukrayna	Nagyszőllős	Vynohradiv								statoids uhu (64 comitate: County|Capital tablosu)	
-gusev	3	Rusya	Gumbinnen	Gusev								territorial.de (Jehke) ostp.htm	merkez adı birim adından
-sankt-peterburg	1	Rusya	Sankt-Peterburg	Sankt-Peterburg								Statoids uru (Rus İmp. il tablosu); Demoscope 1897	aynı zamanda Sankt-Peterburg guberniyası ve uyezdi merkezi; kiril: Санкт-Петербург
-grodno	2	Belarus	Grodno	Grodno	53.6778	23.8297	atlas-yerlesim-ad-eslesmesi	Grodno				Statoids uru (Rus İmp. il tablosu)	kiril: Гродно
-minsk	2	Belarus	Minsk	Minsk	53.904	27.561	atlas-yerlesim-ad-eslesmesi	Minsk				Statoids uru (Rus İmp. il tablosu)	kiril: Минск
-mogilev	2	Belarus	Mogilev	Mogilev								Statoids uru (Rus İmp. il tablosu)	kiril: Могилев
-vitebsk	2	Belarus	Vitebsk	Vitebsk	55.191	30.206	atlas-yerlesim-ad-eslesmesi	Vitebsk				Statoids uru (Rus İmp. il tablosu)	kiril: Витебск
-tallinn	2	Estonya	Revel	Tallinn	59.437	24.754	atlas-yerlesim-ad-eslesmesi	Tallinn (Reval)		tallinn		Statoids uru (Rus İmp. il tablosu)	Estland; kiril: Ревель
-jelgava	2	Letonya	Mitava	Jelgava								Statoids uru (Rus İmp. il tablosu)	Kurland; aynı zamanda Doblen uyezdi merkezi (Demoscope: Добленский уезд - г. Митава); kiril: Митава
-riga	2	Letonya	Riga	Riga	56.949	24.105	atlas-yerlesim-ad-eslesmesi	Riga		riga		Statoids uru (Rus İmp. il tablosu)	Livland; kiril: Рига
-kaunas	2	Litvanya	Kovno	Kaunas	54.897	23.886	atlas-yerlesim-ad-eslesmesi	Kaunas		kaunas		Statoids uru (Rus İmp. il tablosu)	kiril: Ковно
-vilnius	2	Litvanya	Vilna	Vilnius	54.687	25.28	atlas-yerlesim-ad-eslesmesi	Vilnius		vilnius		Statoids uru (Rus İmp. il tablosu)	kiril: Вильна
-chisinau	2	Moldova	Kishinev	Chișinău	47.0105	28.8638	atlas-yerlesim-ad-eslesmesi	Kişinev (Chișinău)				Statoids uru (Rus İmp. il tablosu)	Besarabya; kiril: Кишинев
-aleksandrovsk-sakhalinsky	2	Rusya	Aleksandrovskiy post	Aleksandrovsk-Sakhalinsky								ESBE Сахалин; Demoscope 1897	"Sahalin adası (oblast değil, ada idaresi); ESBE: ""Админ. центром служит Александровский пост""; aynı zamanda Aleksandrovsk okrugu merkezi; kiril: Александровский пост"
-arkhangelsk	2	Rusya	Arkhangelsk	Arkhangelsk								Statoids uru (Rus İmp. il tablosu)	kiril: Архангельск
-astrakhan	2	Rusya	Astrakhan	Astrakhan								Statoids uru (Rus İmp. il tablosu)	kiril: Астрахань
-blagoveshchensk	2	Rusya	Blagoveshchensk	Blagoveshchensk								Statoids uru (Rus İmp. il tablosu); Demoscope 1897	Amur obl. uyezde bölünmez (Demoscope) — kat 3 yok; kiril: Благовещенск
-buynaksk	2	Rusya	Temir-Khan-Shura	Buynaksk								Statoids uru (Rus İmp. il tablosu)	Dağıstan obl.; kiril: Темир-Хан-Шура
-chita	2	Rusya	Chita	Chita								Statoids uru (Rus İmp. il tablosu)	Zabaykal; kiril: Чита
-kaluga	2	Rusya	Kaluga	Kaluga	54.513	36.261	atlas-yerlesim-ad-eslesmesi	Kaluga				Statoids uru (Rus İmp. il tablosu)	kiril: Калуга
-kazan	2	Rusya	Kazan	Kazan	55.796	49.106	atlas-yerlesim-ad-eslesmesi	Kazan		kazan		Statoids uru (Rus İmp. il tablosu)	kiril: Казань
-kirov	2	Rusya	Vyatka	Kirov	58.604	49.668	atlas-yerlesim-ad-eslesmesi	Hlınov (Vyatka)				Statoids uru (Rus İmp. il tablosu)	kiril: Вятка
-kostroma	2	Rusya	Kostroma	Kostroma	58.383	42.35	atlas-yerlesim-ad-eslesmesi	Galiç (Kostroma)				Statoids uru (Rus İmp. il tablosu)	kiril: Кострома
-krasnodar	2	Rusya	Ekaterinodar	Krasnodar								Statoids uru (Rus İmp. il tablosu)	Kuban obl.; kiril: Екатеринодар
-kursk	2	Rusya	Kursk	Kursk	51.7304	36.1926	atlas-yerlesim-ad-eslesmesi	Kursk				Statoids uru (Rus İmp. il tablosu)	kiril: Курск
-moskova	2	Rusya	Moskva	Moskova	55.756	37.617	atlas-yerlesim-ad-eslesmesi	Moskova		moskova		Statoids uru (Rus İmp. il tablosu)	kiril: Москва
-nizhny-novgorod	2	Rusya	Nizhniy Novgorod	Nizhny Novgorod								Statoids uru (Rus İmp. il tablosu)	kiril: Нижний Новгород
-novocherkassk	2	Rusya	Novocherkassk	Novocherkassk								Statoids uru (Rus İmp. il tablosu)	Don Kazak Oblastı; aynı zamanda Çerkassk okrugu merkezi; kiril: Новочеркасск
-novorossiysk	2	Rusya	Novorossiysk	Novorossiysk	59.547	-139.727	atlas-yerlesim-ad-eslesmesi	Yakutat (Novorossiysk)				Demoscope 1897 (Новороссийский уезд)	Karadeniz gub. (1896); il merkezi statoids tablosunda yok, ESBE maddesi merkez adı vermiyor — doğrulanmadı; kiril: Новороссийск
-orenburg	2	Rusya	Orenburg	Orenburg	51.768	55.097	atlas-yerlesim-ad-eslesmesi	Orenburg				Statoids uru (Rus İmp. il tablosu); ESBE Тургайская область	"ayrıca Turgay Oblastı idaresi Orenburg'da (ESBE: ""Областное правление ... помещается в Оренбурге""); Turgay ayrı satır yazılmadı; kiril: Оренбург"
-oryol	2	Rusya	Orel	Oryol	52.97	36.07	atlas-yerlesim-ad-eslesmesi	Orel				Statoids uru (Rus İmp. il tablosu)	kiril: Орел
-penza	2	Rusya	Penza	Penza	53.2	45.0	atlas-yerlesim-ad-eslesmesi	Penza				Statoids uru (Rus İmp. il tablosu)	kiril: Пенза
-perm	2	Rusya	Perm	Perm	58.01	56.229	atlas-yerlesim-ad-eslesmesi	Perm				Statoids uru (Rus İmp. il tablosu)	kiril: Пермь
-petrozavodsk	2	Rusya	Petrozavodsk	Petrozavodsk	61.789	34.351	atlas-yerlesim-ad-eslesmesi	Petrozavodsk				Statoids uru (Rus İmp. il tablosu)	Olonets; kiril: Петрозаводск
-pskov	2	Rusya	Pskov	Pskov	57.813	28.335	atlas-yerlesim-ad-eslesmesi	Pskov		pskov		Statoids uru (Rus İmp. il tablosu)	kiril: Псков
-ryazan	2	Rusya	Ryazan	Ryazan	54.625	39.736	atlas-yerlesim-ad-eslesmesi	Ryazan		ryazan		Statoids uru (Rus İmp. il tablosu)	kiril: Рязань
-samara	2	Rusya	Samara	Samara	53.2	50.15	atlas-yerlesim-ad-eslesmesi	Samara				Statoids uru (Rus İmp. il tablosu)	kiril: Самара
-saratov	2	Rusya	Saratov	Saratov	52.3167	45.3833	atlas-yerlesim-ad-eslesmesi	Petrovsk (Saratov)				Statoids uru (Rus İmp. il tablosu)	kiril: Саратов
-smolensk	2	Rusya	Smolensk	Smolensk	54.783	32.045	atlas-yerlesim-ad-eslesmesi	Smolensk				Statoids uru (Rus İmp. il tablosu)	kiril: Смоленск
-stavropol	2	Rusya	Stavropol	Stavropol	53.507	49.42	atlas-yerlesim-ad-eslesmesi	Stavropol (Volga)				Statoids uru (Rus İmp. il tablosu)	kiril: Ставрополь
-tambov	2	Rusya	Tambov	Tambov	52.721	41.452	atlas-yerlesim-ad-eslesmesi	Tambov				Statoids uru (Rus İmp. il tablosu)	kiril: Тамбов
-tula	2	Rusya	Tula	Tula	54.193	37.617	atlas-yerlesim-ad-eslesmesi	Tula				Statoids uru (Rus İmp. il tablosu)	kiril: Тула
-tver	2	Rusya	Tver	Tver	56.859	35.912	atlas-yerlesim-ad-eslesmesi	Tver		tver		Statoids uru (Rus İmp. il tablosu)	kiril: Тверь
-ufa	2	Rusya	Ufa	Ufa	54.738	55.972	atlas-yerlesim-ad-eslesmesi	Ufa		ufa		Statoids uru (Rus İmp. il tablosu)	kiril: Уфа
-ulyanovsk	2	Rusya	Simbirsk	Ulyanovsk	54.318	48.4	atlas-yerlesim-ad-eslesmesi	Simbirsk				Statoids uru (Rus İmp. il tablosu)	kiril: Симбирск
-veliky-novgorod	2	Rusya	Novgorod	Veliky Novgorod	58.521	31.271	atlas-yerlesim-ad-eslesmesi	Novgorod		novgorod		Statoids uru (Rus İmp. il tablosu)	kiril: Новгород
-vladikavkaz	2	Rusya	Vladikavkaz	Vladikavkaz	43.024	44.682	atlas-yerlesim-ad-eslesmesi	Vladikavkaz				Statoids uru (Rus İmp. il tablosu)	Terek obl.; kiril: Владикавказ
-vladimir	2	Rusya	Vladimir	Vladimir	56.129	40.407	atlas-yerlesim-ad-eslesmesi	Vladimir				Statoids uru (Rus İmp. il tablosu)	kiril: Владимир
-vologda	2	Rusya	Vologda	Vologda	59.22	39.891	atlas-yerlesim-ad-eslesmesi	Vologda				Statoids uru (Rus İmp. il tablosu)	kiril: Вологда
-voronezh	2	Rusya	Voronezh	Voronezh								Statoids uru (Rus İmp. il tablosu)	kiril: Воронеж
-vyborg	2	Rusya	Viborg	Vyborg	56.451	9.402	atlas-yerlesim-ad-eslesmesi	Viborg (Jutland)		viborg-dk		Statoids uru (Rus İmp. il tablosu); SYB1896 Finland	modern ülke Rusya
-yaroslavl	2	Rusya	Yaroslavl	Yaroslavl	57.626	39.894	atlas-yerlesim-ad-eslesmesi	Yaroslavl				Statoids uru (Rus İmp. il tablosu)	kiril: Ярославль
-chernihiv	2	Ukrayna	Chernigov	Chernihiv								Statoids uru (Rus İmp. il tablosu)	kiril: Чернигов
-dnipro	2	Ukrayna	Ekaterinoslav	Dnipro								Statoids uru (Rus İmp. il tablosu)	kiril: Екатеринослав
-kamianets-podilskyi	2	Ukrayna	Kamenets-Podolskiy	Kamianets-Podilskyi								Statoids uru (Rus İmp. il tablosu)	Podolya; kiril: Каменец-Подольский
-kharkiv	2	Ukrayna	Kharkov	Kharkiv								Statoids uru (Rus İmp. il tablosu)	kiril: Харьков
-kherson	2	Ukrayna	Kherson	Kherson								Statoids uru (Rus İmp. il tablosu)	kiril: Херсон
-kyiv	2	Ukrayna	Kiev	Kyiv	50.451	30.524	atlas-yerlesim-ad-eslesmesi	Kiev		kiev		Statoids uru (Rus İmp. il tablosu)	kiril: Киев
-poltava	2	Ukrayna	Poltava	Poltava	49.589	34.551	atlas-yerlesim-ad-eslesmesi	Poltava				Statoids uru (Rus İmp. il tablosu)	kiril: Полтава
-zhytomyr	2	Ukrayna	Zhitomir	Zhytomyr	50.262	28.679	atlas-yerlesim-ad-eslesmesi	Jitomir (Zhytomyr)				Statoids uru (Rus İmp. il tablosu)	Volın; kiril: Житомир
-simferopol	2	Ukrayna (Kırım)	Simferopol	Simferopol								Statoids uru (Rus İmp. il tablosu)	Tavrida; kiril: Симферополь
-ashmyany	3	Belarus	Oshmyany	Ashmyany								Demoscope 1897 (rus_gub_97 reg=4)	kiril: Ошмяны
-babruysk	3	Belarus	Bobruysk	Babruysk								Demoscope 1897 (rus_gub_97 reg=22)	kiril: Бобруйск
-barysaw	3	Belarus	Borisov	Barysaw								Demoscope 1897 (rus_gub_97 reg=22)	birimdeki öteki şehirler: Докшицы; kiril: Борисов
-brest	3	Belarus	Brest-Litovsk	Brest	48.39	-4.486	atlas-yerlesim-ad-eslesmesi	Brest				Demoscope 1897 (rus_gub_97 reg=11)	kiril: Брест-Литовск
-bykhaw	3	Belarus	Bykhov	Bykhaw								Demoscope 1897 (rus_gub_97 reg=23)	kiril: Быхов
-chavusy	3	Belarus	Chausy	Chavusy								Demoscope 1897 (rus_gub_97 reg=23)	kiril: Чаусы
-chervyen	3	Belarus	Igumen	Chervyen								Demoscope 1897 (rus_gub_97 reg=22)	kiril: Игумен
-cherykaw	3	Belarus	Cherikov	Cherykaw								Demoscope 1897 (rus_gub_97 reg=23)	kiril: Чериков
-dzisna	3	Belarus	Disna	Dzisna								Demoscope 1897 (rus_gub_97 reg=4)	birimdeki öteki şehirler: Друя; kiril: Дисна
-gomel	3	Belarus	Gomel	Gomel								Demoscope 1897 (rus_gub_97 reg=23)	kiril: Гомель
-haradok	3	Belarus	Gorodok	Haradok								Demoscope 1897 (rus_gub_97 reg=5)	kiril: Городок
-horki	3	Belarus	Gorki	Horki								Demoscope 1897 (rus_gub_97 reg=23)	birimdeki öteki şehirler: Копысь; kiril: Горки
-klimavichy	3	Belarus	Klimovichi	Klimavichy								Demoscope 1897 (rus_gub_97 reg=23)	kiril: Климовичи
-kobryn	3	Belarus	Kobrin	Kobryn								Demoscope 1897 (rus_gub_97 reg=11)	kiril: Кобрин
-lepel	3	Belarus	Lepel	Lepel								Demoscope 1897 (rus_gub_97 reg=5)	kiril: Лепель
-lida	3	Belarus	Lida	Lida								Demoscope 1897 (rus_gub_97 reg=4)	kiril: Лида
-mazyr	3	Belarus	Mozyr	Mazyr								Demoscope 1897 (rus_gub_97 reg=22)	kiril: Мозырь
-mstsislaw	3	Belarus	Mstislavl	Mstsislaw								Demoscope 1897 (rus_gub_97 reg=23)	kiril: Мстиславль
-navahrudak	3	Belarus	Novogrudok	Navahrudak								Demoscope 1897 (rus_gub_97 reg=22)	kiril: Новогрудок
-orsha	3	Belarus	Orsha	Orsha								Demoscope 1897 (rus_gub_97 reg=23)	birimdeki öteki şehirler: Бабиновичи; kiril: Орша
-pinsk	3	Belarus	Pinsk	Pinsk	52.115	26.103	atlas-yerlesim-ad-eslesmesi	Pinsk				Demoscope 1897 (rus_gub_97 reg=22)	kiril: Пинск
-polotsk	3	Belarus	Polotsk	Polotsk	55.485	28.786	atlas-yerlesim-ad-eslesmesi	Polotsk				Demoscope 1897 (rus_gub_97 reg=5)	kiril: Полоцк
-pruzhany	3	Belarus	Pruzhany	Pruzhany								Demoscope 1897 (rus_gub_97 reg=11)	kiril: Пружаны
-rahachow	3	Belarus	Rogachev	Rahachow								Demoscope 1897 (rus_gub_97 reg=23)	kiril: Рогачев
-rechytsa	3	Belarus	Rechitsa	Rechytsa								Demoscope 1897 (rus_gub_97 reg=22)	kiril: Речица
-slonim	3	Belarus	Slonim	Slonim								Demoscope 1897 (rus_gub_97 reg=11)	kiril: Слоним
-slutsk	3	Belarus	Slutsk	Slutsk								Demoscope 1897 (rus_gub_97 reg=22)	birimdeki öteki şehirler: Несвиж; kiril: Слуцк
-syanno	3	Belarus	Senno	Syanno								Demoscope 1897 (rus_gub_97 reg=23)	kiril: Сенно
-vawkavysk	3	Belarus	Volkovyssk	Vawkavysk								Demoscope 1897 (rus_gub_97 reg=11)	kiril: Волковысск
-verkhnyadzvinsk	3	Belarus	Drissa	Verkhnyadzvinsk								Demoscope 1897 (rus_gub_97 reg=5)	kiril: Дрисса
-vileyka	3	Belarus	Vileyka	Vileyka								Demoscope 1897 (rus_gub_97 reg=4)	birimdeki öteki şehirler: Радошковичи; kiril: Вилейка
-haapsalu	3	Estonya	Gapsal	Haapsalu								Demoscope 1897 (rus_gub_97 reg=49)	kiril: Гапсаль
-kuressaare	3	Estonya	Arensburg	Kuressaare								Demoscope 1897 (rus_gub_97 reg=21)	merkez adı birim adından farklı; kiril: Аренсбург
-paide	3	Estonya	Veysenshteyn	Paide								Demoscope 1897 (rus_gub_97 reg=49)	kiril: Вейсенштейн
-parnu	3	Estonya	Pernov	Pärnu	58.386	24.497	atlas-yerlesim-ad-eslesmesi	Pärnu				Demoscope 1897 (rus_gub_97 reg=21)	kiril: Пернов
-rakvere	3	Estonya	Vezenberg	Rakvere								Demoscope 1897 (rus_gub_97 reg=49)	kiril: Везенберг
-tartu	3	Estonya	Yurev	Tartu	58.378	26.729	atlas-yerlesim-ad-eslesmesi	Tartu (Dorpat)				Demoscope 1897 (rus_gub_97 reg=21)	kiril: Юрьев
-viljandi	3	Estonya	Fellin	Viljandi								Demoscope 1897 (rus_gub_97 reg=21)	kiril: Феллин
-voru	3	Estonya	Verro	Võru								Demoscope 1897 (rus_gub_97 reg=21)	kiril: Верро
-valga-/-valka	3	Estonya / Letonya	Valk	Valga / Valka								Demoscope 1897 (rus_gub_97 reg=21)	kiril: Валк
-aizpute	3	Letonya	Gazenpot	Aizpute								Demoscope 1897 (rus_gub_97 reg=19)	kiril: Газенпот
-bauska	3	Letonya	Bausk	Bauska								Demoscope 1897 (rus_gub_97 reg=19)	kiril: Бауск
-cesis	3	Letonya	Venden	Cēsis	57.312	25.274	atlas-yerlesim-ad-eslesmesi	Cēsis (Wenden)				Demoscope 1897 (rus_gub_97 reg=21)	kiril: Венден
-daugavpils	3	Letonya	Dvinsk	Daugavpils	55.875	26.536	atlas-yerlesim-ad-eslesmesi	Daugavpils (Dünaburg)				Demoscope 1897 (rus_gub_97 reg=5)	kiril: Двинск
-grobina	3	Letonya	Grobin	Grobiņa								Demoscope 1897 (rus_gub_97 reg=19)	birimdeki öteki şehirler: Либава; kiril: Гробин
-ilukste	3	Letonya	Illukst	Ilūkste								Demoscope 1897 (rus_gub_97 reg=19)	Demoscope yerleşim türü: мест.; kiril: Иллукст
-jaunjelgava	3	Letonya	Fridrikhshtadt	Jaunjelgava								Demoscope 1897 (rus_gub_97 reg=19)	birimdeki öteki şehirler: Якобштадт; kiril: Фридрихштадт
-kuldiga	3	Letonya	Goldingen	Kuldīga								Demoscope 1897 (rus_gub_97 reg=19)	kiril: Гольдинген
-ludza	3	Letonya	Lyutsin	Ludza								Demoscope 1897 (rus_gub_97 reg=5)	kiril: Люцин
-rezekne	3	Letonya	Rezhitsa	Rēzekne	56.51	27.333	atlas-yerlesim-ad-eslesmesi	Rēzekne (Rositten)				Demoscope 1897 (rus_gub_97 reg=5)	kiril: Режица
-talsi	3	Letonya	Talsen	Talsi								Demoscope 1897 (rus_gub_97 reg=19)	Demoscope yerleşim türü: мест.; kiril: Тальсен
-tukums	3	Letonya	Tukkum	Tukums								Demoscope 1897 (rus_gub_97 reg=19)	kiril: Туккум
-valmiera	3	Letonya	Volmar	Valmiera								Demoscope 1897 (rus_gub_97 reg=21)	birimdeki öteki şehirler: Лемзаль; kiril: Вольмар
-ventspils	3	Letonya	Vindava	Ventspils								Demoscope 1897 (rus_gub_97 reg=19)	birimdeki öteki şehirler: Пильтен; kiril: Виндава
-panevezys	3	Litvanya	Ponevezh	Panevėžys								Demoscope 1897 (rus_gub_97 reg=17)	kiril: Поневеж
-raseiniai	3	Litvanya	Rossieny	Raseiniai								Demoscope 1897 (rus_gub_97 reg=17)	kiril: Россиены
-telsiai	3	Litvanya	Telshi	Telšiai								Demoscope 1897 (rus_gub_97 reg=17)	kiril: Тельши
-trakai	3	Litvanya	Troki	Trakai								Demoscope 1897 (rus_gub_97 reg=4)	kiril: Троки
-ukmerge	3	Litvanya	Vilkomir	Ukmergė								Demoscope 1897 (rus_gub_97 reg=17)	kiril: Вилькомир
-zarasai	3	Litvanya	Novoaleksandrovsk	Zarasai								Demoscope 1897 (rus_gub_97 reg=17)	birimdeki öteki şehirler: Видзы; kiril: Новоалександровск
-siauliai	3	Litvanya	Shavli	Šiauliai	55.934	23.315	atlas-yerlesim-ad-eslesmesi	Šiauliai				Demoscope 1897 (rus_gub_97 reg=17)	birimdeki öteki şehirler: Шадов; kiril: Шавли
-svencionys	3	Litvanya	Sventsyany	Švenčionys								Demoscope 1897 (rus_gub_97 reg=4)	kiril: Свенцяны
-bender	3	Moldova	Bendery	Bender	46.831	29.481	atlas-yerlesim-ad-eslesmesi	Bender				Demoscope 1897 (rus_gub_97 reg=3)	kiril: Бендеры
-balti	3	Moldova	Beltsy	Bălți	47.7617	27.9289	atlas-yerlesim-ad-eslesmesi	Bălți				Demoscope 1897 (rus_gub_97 reg=3)	kiril: Бельцы
-orhei	3	Moldova	Orgeev	Orhei	47.383	28.823	atlas-yerlesim-ad-eslesmesi	Orhei				Demoscope 1897 (rus_gub_97 reg=3)	kiril: Оргеев
-soroca	3	Moldova	Soroki	Soroca	48.158	28.299	atlas-yerlesim-ad-eslesmesi	Soroka (Soroca)				Demoscope 1897 (rus_gub_97 reg=3)	kiril: Сороки
-tiraspol	3	Moldova (Transdinyester)	Tiraspol	Tiraspol	46.837	29.611	atlas-yerlesim-ad-eslesmesi	Tiraspol				Demoscope 1897 (rus_gub_97 reg=47)	birimdeki öteki şehirler: Григориполь, Дубоссары; kiril: Тирасполь
-bulunamadi	3	Rusya	bulunamadı									Demoscope 1897 (rus_gub_97 reg=2)	Demoscope: городов нет; kiril birim: Калмыцкая степь уезд; Kalmık halkı idaresi Astrahan'da oturur (doğrulanmadı)
-alatyr	3	Rusya	Alatyr	Alatyr								Demoscope 1897 (rus_gub_97 reg=39)	kiril: Алатырь
-aleksandrov	3	Rusya	Aleksandrov	Aleksandrov								Demoscope 1897 (rus_gub_97 reg=6)	kiril: Александров
-aleksin	3	Rusya	Aleksin	Aleksin								Demoscope 1897 (rus_gub_97 reg=44)	kiril: Алексин
-ardatov	3	Rusya	Ardatov	Ardatov								Demoscope 1897 (rus_gub_97 reg=25)	kiril: Ардатов · ayrıca rusya listesinde kat 3
-arzamas	3	Rusya	Arzamas	Arzamas	55.394	43.84	atlas-yerlesim-ad-eslesmesi	Arzamas				Demoscope 1897 (rus_gub_97 reg=25)	kiril: Арзамас
-atkarsk	3	Rusya	Atkarsk	Atkarsk								Demoscope 1897 (rus_gub_97 reg=38)	kiril: Аткарск
-balakhna	3	Rusya	Balakhna	Balakhna								Demoscope 1897 (rus_gub_97 reg=25)	kiril: Балахна
-balashov	3	Rusya	Balashov	Balashov								Demoscope 1897 (rus_gub_97 reg=38)	kiril: Балашов
-belebey	3	Rusya	Belebey	Belebey								Demoscope 1897 (rus_gub_97 reg=45)	kiril: Белебей
-belev	3	Rusya	Belev	Belev								Demoscope 1897 (rus_gub_97 reg=44)	kiril: Белев
-belgorod	3	Rusya	Belgorod	Belgorod	50.595	36.587	atlas-yerlesim-ad-eslesmesi	Belgorod				Demoscope 1897 (rus_gub_97 reg=20)	kiril: Белгород
-belinsky	3	Rusya	Chembarsk	Belinsky								Demoscope 1897 (rus_gub_97 reg=30)	kiril: Чембарск
-belozersk	3	Rusya	Belozersk	Belozersk	60.031	37.783	atlas-yerlesim-ad-eslesmesi	Belozersk				Demoscope 1897 (rus_gub_97 reg=26)	kiril: Белозерск
-belyy	3	Rusya	Belyy	Belyy								Demoscope 1897 (rus_gub_97 reg=40)	kiril: Белый
-bezhetsk	3	Rusya	Bezhetsk	Bezhetsk								Demoscope 1897 (rus_gub_97 reg=43)	kiril: Бежецк
-birsk	3	Rusya	Birsk	Birsk	55.415	55.542	atlas-yerlesim-ad-eslesmesi	Birsk				Demoscope 1897 (rus_gub_97 reg=45)	kiril: Бирск
-biryuch	3	Rusya	Biryuch	Biryuch								Demoscope 1897 (rus_gub_97 reg=9)	kiril: Бирюч
-bobrov	3	Rusya	Bobrov	Bobrov								Demoscope 1897 (rus_gub_97 reg=9)	kiril: Бобров
-bogoroditsk	3	Rusya	Bogoroditsk	Bogoroditsk								Demoscope 1897 (rus_gub_97 reg=44)	kiril: Богородицк
-boguchar	3	Rusya	Boguchar	Boguchar								Demoscope 1897 (rus_gub_97 reg=9)	kiril: Богучар
-bolgar	3	Rusya	Spassk	Bolgar	54.976	49.03	atlas-yerlesim-ad-eslesmesi	Bulgar (Bolgar)				Demoscope 1897 (rus_gub_97 reg=14)	kiril: Спасск
-bolkhov	3	Rusya	Bolkhov	Bolkhov								Demoscope 1897 (rus_gub_97 reg=29)	kiril: Болхов
-borisoglebsk	3	Rusya	Borisoglebsk	Borisoglebsk	51.3667	42.0833	atlas-yerlesim-ad-eslesmesi	Borisoglebsk				Demoscope 1897 (rus_gub_97 reg=42)	kiril: Борисоглебск
-borovichi	3	Rusya	Borovichi	Borovichi								Demoscope 1897 (rus_gub_97 reg=26)	kiril: Боровичи
-borovsk	3	Rusya	Borovsk	Borovsk								Demoscope 1897 (rus_gub_97 reg=15)	kiril: Боровск
-bronnitsy	3	Rusya	Bronnitsy	Bronnitsy								Demoscope 1897 (rus_gub_97 reg=24)	kiril: Бронницы
-bryansk	3	Rusya	Bryansk	Bryansk	53.2436	34.3639	atlas-yerlesim-ad-eslesmesi	Bryansk				Demoscope 1897 (rus_gub_97 reg=29)	kiril: Брянск
-bugulma	3	Rusya	Bugulma	Bugulma	54.536	52.797	atlas-yerlesim-ad-eslesmesi	Buğulma				Demoscope 1897 (rus_gub_97 reg=36)	kiril: Бугульма
-buguruslan	3	Rusya	Buguruslan	Buguruslan								Demoscope 1897 (rus_gub_97 reg=36)	birimdeki öteki şehirler: Сергиевск; kiril: Бугуруслан
-buinsk	3	Rusya	Buinsk	Buinsk	54.966	48.288	atlas-yerlesim-ad-eslesmesi	Buinsk				Demoscope 1897 (rus_gub_97 reg=39)	kiril: Буинск
-buy	3	Rusya	Buy	Buy								Demoscope 1897 (rus_gub_97 reg=18)	kiril: Буй
-buzuluk	3	Rusya	Buzuluk	Buzuluk	52.786	52.261	atlas-yerlesim-ad-eslesmesi	Buzuluk				Demoscope 1897 (rus_gub_97 reg=36)	kiril: Бузулук
-chaplygin	3	Rusya	Ranenburg	Chaplygin								Demoscope 1897 (rus_gub_97 reg=35)	kiril: Раненбург
-cheboksary	3	Rusya	Cheboksary	Cheboksary								Demoscope 1897 (rus_gub_97 reg=14)	kiril: Чебоксары
-chekalin	3	Rusya	Likhvin	Chekalin								Demoscope 1897 (rus_gub_97 reg=15)	kiril: Лихвин
-chelyabinsk	3	Rusya	Chelyabinsk	Chelyabinsk								Demoscope 1897 (rus_gub_97 reg=28)	kiril: Челябинск
-cherdyn	3	Rusya	Cherdyn	Cherdyn								Demoscope 1897 (rus_gub_97 reg=31)	kiril: Чердынь
-cherepovets	3	Rusya	Cherepovets	Cherepovets								Demoscope 1897 (rus_gub_97 reg=26)	kiril: Череповец
-chern	3	Rusya	Chern	Chern								Demoscope 1897 (rus_gub_97 reg=44)	kiril: Чернь
-chistopol	3	Rusya	Chistopol	Chistopol								Demoscope 1897 (rus_gub_97 reg=14)	kiril: Чистополь
-chukhloma	3	Rusya	Chukhloma	Chukhloma								Demoscope 1897 (rus_gub_97 reg=18)	kiril: Чухлома
-chyorny-yar	3	Rusya	Chernyy Yar	Chyorny Yar								Demoscope 1897 (rus_gub_97 reg=2)	kiril: Черный Яр
-danilov	3	Rusya	Danilov	Danilov								Demoscope 1897 (rus_gub_97 reg=50)	kiril: Данилов
-dankov	3	Rusya	Dankov	Dankov								Demoscope 1897 (rus_gub_97 reg=35)	kiril: Данков
-demidov	3	Rusya	Poreche	Demidov								Demoscope 1897 (rus_gub_97 reg=40)	kiril: Поречье
-demyansk	3	Rusya	Demyansk	Demyansk								Demoscope 1897 (rus_gub_97 reg=26)	kiril: Демянск
-dmitriev	3	Rusya	Dmitriev	Dmitriev								Demoscope 1897 (rus_gub_97 reg=20)	kiril: Дмитриев
-dmitrov	3	Rusya	Dmitrov	Dmitrov	56.344	37.521	atlas-yerlesim-ad-eslesmesi	Dmitrov				Demoscope 1897 (rus_gub_97 reg=24)	kiril: Дмитров
-dmitrovsk	3	Rusya	Dmitrovsk	Dmitrovsk								Demoscope 1897 (rus_gub_97 reg=29)	kiril: Дмитровск
-dorogobuzh	3	Rusya	Dorogobuzh	Dorogobuzh								Demoscope 1897 (rus_gub_97 reg=40)	kiril: Дорогобуж
-dukhovshchina	3	Rusya	Dukhovshchina	Dukhovshchina								Demoscope 1897 (rus_gub_97 reg=40)	kiril: Духовщина
-efremov	3	Rusya	Efremov	Efremov								Demoscope 1897 (rus_gub_97 reg=44)	kiril: Ефремов
-egorevsk	3	Rusya	Egorevsk	Egorevsk								Demoscope 1897 (rus_gub_97 reg=35)	kiril: Егорьевск
-elets	3	Rusya	Elets	Elets								Demoscope 1897 (rus_gub_97 reg=29)	kiril: Елец
-elnya	3	Rusya	Elnya	Elnya								Demoscope 1897 (rus_gub_97 reg=40)	kiril: Ельня
-epifan	3	Rusya	Epifan	Epifan								Demoscope 1897 (rus_gub_97 reg=44)	kiril: Епифань
-fatezh	3	Rusya	Fatezh	Fatezh								Demoscope 1897 (rus_gub_97 reg=20)	kiril: Фатеж
-gagarin	3	Rusya	Gzhatsk	Gagarin								Demoscope 1897 (rus_gub_97 reg=40)	kiril: Гжатск
-galich	3	Rusya	Galich	Galich								Demoscope 1897 (rus_gub_97 reg=18)	kiril: Галич
-gdov	3	Rusya	Gdov	Gdov								Demoscope 1897 (rus_gub_97 reg=37)	kiril: Гдов
-glazov	3	Rusya	Glazov	Glazov	58.139	52.66	atlas-yerlesim-ad-eslesmesi	Glazov				Demoscope 1897 (rus_gub_97 reg=10)	kiril: Глазов
-gorbatov	3	Rusya	Gorbatov	Gorbatov								Demoscope 1897 (rus_gub_97 reg=25)	kiril: Горбатов
-gorodishche	3	Rusya	Gorodishche	Gorodishche								Demoscope 1897 (rus_gub_97 reg=30)	kiril: Городище
-gorokhovets	3	Rusya	Gorokhovets	Gorokhovets								Demoscope 1897 (rus_gub_97 reg=6)	kiril: Гороховец
-grayvoron	3	Rusya	Grayvoron	Grayvoron								Demoscope 1897 (rus_gub_97 reg=20)	birimdeki öteki şehirler: Хотмыжск; kiril: Грайворон
-gryazovets	3	Rusya	Gryazovets	Gryazovets								Demoscope 1897 (rus_gub_97 reg=7)	kiril: Грязовец
-insar	3	Rusya	Insarsk	Insar								Demoscope 1897 (rus_gub_97 reg=30)	birimdeki öteki şehirler: Шишкеев; kiril: Инсарск
-kadnikov	3	Rusya	Kadnikov	Kadnikov								Demoscope 1897 (rus_gub_97 reg=7)	kiril: Кадников
-kalyazin	3	Rusya	Kalyazin	Kalyazin								Demoscope 1897 (rus_gub_97 reg=43)	kiril: Калязин
-kamensk-shakhtinsky	3	Rusya	Kamenskaya	Kamensk-Shakhtinsky								Demoscope 1897 (rus_gub_97 reg=12)	merkez adı birim adından farklı; Demoscope yerleşim türü: ст.; kiril: Каменская
-kamyshin	3	Rusya	Kamyshin	Kamyshin								Demoscope 1897 (rus_gub_97 reg=38)	kiril: Камышин
-kamyshlov	3	Rusya	Kamyshlov	Kamyshlov								Demoscope 1897 (rus_gub_97 reg=31)	kiril: Камышлов
-karachev	3	Rusya	Karachev	Karachev								Demoscope 1897 (rus_gub_97 reg=29)	kiril: Карачев
-kargopol	3	Rusya	Kargopol	Kargopol	61.507	38.945	atlas-yerlesim-ad-eslesmesi	Kargopol				Demoscope 1897 (rus_gub_97 reg=27)	kiril: Каргополь
-karsun	3	Rusya	Karsun	Karsun								Demoscope 1897 (rus_gub_97 reg=39)	"Demoscope satırı ""Корсунский уезд - г. Корсунь"" (yazım hatası; birim Карсунский) → Karsun; kiril: Корсунь"
-kashin	3	Rusya	Kashin	Kashin								Demoscope 1897 (rus_gub_97 reg=43)	kiril: Кашин
-kashira	3	Rusya	Kashira	Kashira								Demoscope 1897 (rus_gub_97 reg=44)	kiril: Кашира
-kasimov	3	Rusya	Kasimov	Kasimov	54.945	41.393	atlas-yerlesim-ad-eslesmesi	Kasimov		kasimov		Demoscope 1897 (rus_gub_97 reg=35)	kiril: Касимов
-kem	3	Rusya	Kem	Kem	64.951	34.594	atlas-yerlesim-ad-eslesmesi	Kem				Demoscope 1897 (rus_gub_97 reg=1)	kiril: Кемь
-kholm	3	Rusya	Kholm	Kholm	51.1431	23.4716	atlas-yerlesim-ad-eslesmesi	Chełm (Kholm)				Demoscope 1897 (rus_gub_97 reg=34)	kiril: Холм
-kholmogory	3	Rusya	Kholmogory	Kholmogory								Demoscope 1897 (rus_gub_97 reg=1)	kiril: Холмогоры
-khvalynsk	3	Rusya	Khvalynsk	Khvalynsk								Demoscope 1897 (rus_gub_97 reg=38)	kiril: Хвалынск
-kineshma	3	Rusya	Kineshma	Kineshma								Demoscope 1897 (rus_gub_97 reg=18)	kiril: Кинешма
-kingisepp	3	Rusya	Yamburg	Kingisepp								Demoscope 1897 (rus_gub_97 reg=37)	birimdeki öteki şehirler: Нарва; kiril: Ямбург
-kirillov	3	Rusya	Kirillov	Kirillov	59.858	38.376	atlas-yerlesim-ad-eslesmesi	Kirillov				Demoscope 1897 (rus_gub_97 reg=26)	kiril: Кириллов
-kirsanov	3	Rusya	Kirsanov	Kirsanov								Demoscope 1897 (rus_gub_97 reg=42)	kiril: Кирсанов
-klin	3	Rusya	Klin	Klin								Demoscope 1897 (rus_gub_97 reg=24)	kiril: Клин
-knyaginino	3	Rusya	Knyaginin	Knyaginino								Demoscope 1897 (rus_gub_97 reg=25)	birimdeki öteki şehirler: Перевоз; kiril: Княгинин
-kologriv	3	Rusya	Kologriv	Kologriv								Demoscope 1897 (rus_gub_97 reg=18)	kiril: Кологрив
-kolomna	3	Rusya	Kolomna	Kolomna	55.079	38.778	atlas-yerlesim-ad-eslesmesi	Kolomna				Demoscope 1897 (rus_gub_97 reg=24)	kiril: Коломна
-konstantinovsk	3	Rusya	Konstantinovskaya	Konstantinovsk								Demoscope 1897 (rus_gub_97 reg=12)	merkez adı birim adından farklı; Demoscope yerleşim türü: ст.; kiril: Константиновская
-korcheva-(sular-altinda;-konakovo-yakini)	3	Rusya	Korcheva	Korcheva (sular altında; Konakovo yakını)								Demoscope 1897 (rus_gub_97 reg=43)	kiril: Корчева
-korocha	3	Rusya	Korocha	Korocha								Demoscope 1897 (rus_gub_97 reg=20)	kiril: Короча
-korotoyak	3	Rusya	Korotoyak	Korotoyak								Demoscope 1897 (rus_gub_97 reg=9)	kiril: Коротояк
-kotelnich	3	Rusya	Kotelnich	Kotelnich								Demoscope 1897 (rus_gub_97 reg=10)	kiril: Котельнич
-kovrov	3	Rusya	Kovrov	Kovrov								Demoscope 1897 (rus_gub_97 reg=6)	kiril: Ковров
-kozelsk	3	Rusya	Kozelsk	Kozelsk								Demoscope 1897 (rus_gub_97 reg=15)	birimdeki öteki şehirler: Сухиничи; kiril: Козельск
-kozmodemyansk	3	Rusya	Kozmodemyansk	Kozmodemyansk	56.336	46.559	atlas-yerlesim-ad-eslesmesi	Kozmodemyansk				Demoscope 1897 (rus_gub_97 reg=14)	kiril: Козьмодемьянск
-krapivna	3	Rusya	Krapivna	Krapivna								Demoscope 1897 (rus_gub_97 reg=44)	kiril: Крапивна
-krasnoslobodsk	3	Rusya	Krasnoslobodsk	Krasnoslobodsk								Demoscope 1897 (rus_gub_97 reg=30)	birimdeki öteki şehirler: Троицк; kiril: Краснослободск
-krasnoufimsk	3	Rusya	Krasnoufimsk	Krasnoufimsk								Demoscope 1897 (rus_gub_97 reg=31)	kiril: Красноуфимск
-krasny-yar	3	Rusya	Krasnyy Yar	Krasny Yar								Demoscope 1897 (rus_gub_97 reg=2)	kiril: Красный Яр
-krasnyy	3	Rusya	Krasnyy	Krasnyy								Demoscope 1897 (rus_gub_97 reg=40)	kiril: Красный
-kresttsy	3	Rusya	Kresttsy	Kresttsy								Demoscope 1897 (rus_gub_97 reg=26)	kiril: Крестцы
-kromy	3	Rusya	Kromy	Kromy								Demoscope 1897 (rus_gub_97 reg=29)	kiril: Кромы
-kungur	3	Rusya	Kungur	Kungur	57.433	56.937	atlas-yerlesim-ad-eslesmesi	Kungur				Demoscope 1897 (rus_gub_97 reg=31)	kiril: Кунгур
-kurmysh	3	Rusya	Kurmysh	Kurmysh								Demoscope 1897 (rus_gub_97 reg=39)	kiril: Курмыш
-laishev	3	Rusya	Laishev	Laishev								Demoscope 1897 (rus_gub_97 reg=14)	kiril: Лаишев
-lebedyan	3	Rusya	Lebedyan	Lebedyan								Demoscope 1897 (rus_gub_97 reg=42)	kiril: Лебедянь
-lgov	3	Rusya	Lgov	Lgov								Demoscope 1897 (rus_gub_97 reg=20)	kiril: Льгов
-lipetsk	3	Rusya	Lipetsk	Lipetsk								Demoscope 1897 (rus_gub_97 reg=42)	kiril: Липецк
-livny	3	Rusya	Livny	Livny								Demoscope 1897 (rus_gub_97 reg=29)	kiril: Ливны
-lodeynoe-pole	3	Rusya	Lodeynoe Pole	Lodeynoe Pole								Demoscope 1897 (rus_gub_97 reg=27)	kiril: Лодейное Поле
-luga	3	Rusya	Luga	Luga								Demoscope 1897 (rus_gub_97 reg=37)	kiril: Луга
-lukoyanov	3	Rusya	Lukoyanov	Lukoyanov								Demoscope 1897 (rus_gub_97 reg=25)	birimdeki öteki şehirler: Починки; kiril: Лукоянов
-lyubim	3	Rusya	Lyubim	Lyubim								Demoscope 1897 (rus_gub_97 reg=50)	kiril: Любим
-makarev	3	Rusya	Makarev	Makarev								Demoscope 1897 (rus_gub_97 reg=18)	birimdeki öteki şehirler: Кадый, Унжа; kiril: Макарьев
-makaryevo	3	Rusya	Makarev	Makaryevo								Demoscope 1897 (rus_gub_97 reg=25)	kiril: Макарьев
-malmyzh	3	Rusya	Malmyzh	Malmyzh								Demoscope 1897 (rus_gub_97 reg=10)	kiril: Малмыж
-maloarkhangelsk	3	Rusya	Malo-Arkhangelsk	Maloarkhangelsk								Demoscope 1897 (rus_gub_97 reg=29)	kiril: Мало-Архангельск
-maloyaroslavets	3	Rusya	Maloyaroslavets	Maloyaroslavets								Demoscope 1897 (rus_gub_97 reg=15)	kiril: Малоярославец
-mamadysh	3	Rusya	Mamadysh	Mamadysh								Demoscope 1897 (rus_gub_97 reg=14)	kiril: Мамадыш
-medyn	3	Rusya	Medyn	Medyn								Demoscope 1897 (rus_gub_97 reg=15)	kiril: Медынь
-melenki	3	Rusya	Melenki	Melenki								Demoscope 1897 (rus_gub_97 reg=6)	kiril: Меленки
-menzelinsk	3	Rusya	Menzelinsk	Menzelinsk	55.727	53.1	atlas-yerlesim-ad-eslesmesi	Menzelinsk				Demoscope 1897 (rus_gub_97 reg=45)	kiril: Мензелинск
-meshchovsk	3	Rusya	Meshchovsk	Meshchovsk								Demoscope 1897 (rus_gub_97 reg=15)	birimdeki öteki şehirler: Серпейск; kiril: Мещовск
-mezen	3	Rusya	Mezen	Mezen	65.8447	44.2394	atlas-yerlesim-ad-eslesmesi	Mezen				Demoscope 1897 (rus_gub_97 reg=1)	kiril: Мезень
-mglin	3	Rusya	Mglin	Mglin								Demoscope 1897 (rus_gub_97 reg=48)	kiril: Мглин
-michurinsk	3	Rusya	Kozlov	Michurinsk								Demoscope 1897 (rus_gub_97 reg=42)	kiril: Козлов
-mikhaylov	3	Rusya	Mikhaylov	Mikhaylov								Demoscope 1897 (rus_gub_97 reg=35)	kiril: Михайлов
-mokshan	3	Rusya	Mokshany	Mokshan								Demoscope 1897 (rus_gub_97 reg=30)	kiril: Мокшаны
-mologa-(sular-altinda;-rybinsk-baraji)	3	Rusya	Mologa	Mologa (sular altında; Rybinsk Barajı)								Demoscope 1897 (rus_gub_97 reg=50)	kiril: Молога
-morshansk	3	Rusya	Morshansk	Morshansk								Demoscope 1897 (rus_gub_97 reg=42)	kiril: Моршанск
-mosalsk	3	Rusya	Mosalsk	Mosalsk								Demoscope 1897 (rus_gub_97 reg=15)	kiril: Мосальск
-mozhaysk	3	Rusya	Mozhaysk	Mozhaysk								Demoscope 1897 (rus_gub_97 reg=24)	kiril: Можайск
-mtsensk	3	Rusya	Mtsensk	Mtsensk								Demoscope 1897 (rus_gub_97 reg=29)	kiril: Мценск
-murom	3	Rusya	Murom	Murom	55.575	42.052	atlas-yerlesim-ad-eslesmesi	Murom				Demoscope 1897 (rus_gub_97 reg=6)	kiril: Муром
-myshkin	3	Rusya	Myshkin	Myshkin								Demoscope 1897 (rus_gub_97 reg=50)	kiril: Мышкин
-narovchat	3	Rusya	Narovchat	Narovchat								Demoscope 1897 (rus_gub_97 reg=30)	kiril: Наровчат
-nerekhta	3	Rusya	Nerekhta	Nerekhta								Demoscope 1897 (rus_gub_97 reg=18)	birimdeki öteki şehirler: Плес; kiril: Нерехта
-nevel	3	Rusya	Nevel	Nevel								Demoscope 1897 (rus_gub_97 reg=5)	kiril: Невель
-nikolsk	3	Rusya	Nikolsk	Nikolsk								Demoscope 1897 (rus_gub_97 reg=7)	kiril: Никольск
-nizhnedevitsk	3	Rusya	Nizhnedevitsk	Nizhnedevitsk								Demoscope 1897 (rus_gub_97 reg=9)	kiril: Нижнедевицк
-nizhny-chir	3	Rusya	Nizhne-Chirskaya	Nizhny Chir								Demoscope 1897 (rus_gub_97 reg=12)	merkez adı birim adından farklı; Demoscope yerleşim türü: ст.; kiril: Нижне-Чирская
-nizhny-lomov	3	Rusya	Nizhne-Lomov	Nizhny Lomov								Demoscope 1897 (rus_gub_97 reg=30)	birimdeki öteki şehirler: Верхне-Ломов; kiril: Нижне-Ломов
-noginsk	3	Rusya	Bogorodsk	Noginsk								Demoscope 1897 (rus_gub_97 reg=24)	kiril: Богородск
-nolinsk	3	Rusya	Nolinsk	Nolinsk								Demoscope 1897 (rus_gub_97 reg=10)	kiril: Нолинск
-novaya-ladoga	3	Rusya	Novaya Ladoga	Novaya Ladoga								Demoscope 1897 (rus_gub_97 reg=37)	kiril: Новая Ладога
-novokhopyorsk	3	Rusya	Novokhopersk	Novokhopyorsk								Demoscope 1897 (rus_gub_97 reg=9)	kiril: Новохоперск
-novorzhev	3	Rusya	Novorzhev	Novorzhev								Demoscope 1897 (rus_gub_97 reg=34)	kiril: Новоржев
-novosilsk	3	Rusya	Novosilsk	Novosilsk								Demoscope 1897 (rus_gub_97 reg=44)	kiril: Новосильск
-novouzensk	3	Rusya	Novouzensk	Novouzensk								Demoscope 1897 (rus_gub_97 reg=36)	kiril: Новоузенск
-novozybkov	3	Rusya	Novozybkov	Novozybkov								Demoscope 1897 (rus_gub_97 reg=48)	birimdeki öteki şehirler: Новое-Место; kiril: Новозыбков
-novyy-oskol	3	Rusya	Novyy Oskol	Novyy Oskol								Demoscope 1897 (rus_gub_97 reg=20)	kiril: Новый Оскол
-oboyan	3	Rusya	Oboyan	Oboyan								Demoscope 1897 (rus_gub_97 reg=20)	birimdeki öteki şehirler: Богатый; kiril: Обоянь
-odoev	3	Rusya	Odoev	Odoev								Demoscope 1897 (rus_gub_97 reg=44)	kiril: Одоев
-okhansk	3	Rusya	Okhansk	Okhansk								Demoscope 1897 (rus_gub_97 reg=31)	kiril: Оханск
-olonets	3	Rusya	Olonets	Olonets	60.977	32.972	atlas-yerlesim-ad-eslesmesi	Olonets				Demoscope 1897 (rus_gub_97 reg=27)	kiril: Олонец
-onega	3	Rusya	Onega	Onega	63.907	38.099	atlas-yerlesim-ad-eslesmesi	Onega				Demoscope 1897 (rus_gub_97 reg=1)	kiril: Онега
-opochka	3	Rusya	Opochka	Opochka								Demoscope 1897 (rus_gub_97 reg=34)	kiril: Опочка
-orlov	3	Rusya	Orlov	Orlov								Demoscope 1897 (rus_gub_97 reg=10)	kiril: Орлов
-orsk	3	Rusya	Orsk	Orsk	51.229	58.556	atlas-yerlesim-ad-eslesmesi	Orsk				Demoscope 1897 (rus_gub_97 reg=28)	kiril: Орск
-osa	3	Rusya	Osa	Osa								Demoscope 1897 (rus_gub_97 reg=31)	kiril: Оса
-ostashkov	3	Rusya	Ostashkov	Ostashkov								Demoscope 1897 (rus_gub_97 reg=43)	kiril: Осташков
-ostrogozhsk	3	Rusya	Ostrogozhsk	Ostrogozhsk								Demoscope 1897 (rus_gub_97 reg=9)	kiril: Острогожск
-ostrov	3	Rusya	Ostrov	Ostrov								Demoscope 1897 (rus_gub_97 reg=34)	kiril: Остров
-pavlovsk	3	Rusya	Pavlovsk	Pavlovsk								Demoscope 1897 (rus_gub_97 reg=9)	kiril: Павловск
-peremyshl	3	Rusya	Peremyshl	Peremyshl								Demoscope 1897 (rus_gub_97 reg=15)	birimdeki öteki şehirler: Воротынск; kiril: Перемышль
-pereslavl-zalessky	3	Rusya	Pereslavl	Pereslavl-Zalessky								Demoscope 1897 (rus_gub_97 reg=6)	kiril: Переславль
-peterhof	3	Rusya	Petergof	Peterhof								Demoscope 1897 (rus_gub_97 reg=37)	birimdeki öteki şehirler: Ораниенбаум, Кронштадт; kiril: Петергоф
-petrovsk	3	Rusya	Petrovsk	Petrovsk	52.3167	45.3833	atlas-yerlesim-ad-eslesmesi	Petrovsk (Saratov)				Demoscope 1897 (rus_gub_97 reg=38)	kiril: Петровск
-pinega	3	Rusya	Pinega	Pinega	64.7	43.392	atlas-yerlesim-ad-eslesmesi	Pinega				Demoscope 1897 (rus_gub_97 reg=1)	kiril: Пинега
-podolsk	3	Rusya	Podolsk	Podolsk								Demoscope 1897 (rus_gub_97 reg=24)	kiril: Подольск
-pokrov	3	Rusya	Pokrov	Pokrov								Demoscope 1897 (rus_gub_97 reg=6)	birimdeki öteki şehirler: Киржач; kiril: Покров
-porkhov	3	Rusya	Porkhov	Porkhov	57.767	29.557	atlas-yerlesim-ad-eslesmesi	Porkhov				Demoscope 1897 (rus_gub_97 reg=34)	kiril: Порхов
-poshekhonye-volodarsk	3	Rusya	Poshekhone	Poshekhonye-Volodarsk								Demoscope 1897 (rus_gub_97 reg=50)	kiril: Пошехонье
-povenets	3	Rusya	Povenets	Povenets								Demoscope 1897 (rus_gub_97 reg=27)	kiril: Повенец
-proletarsk	3	Rusya	Velikoknyazheskaya	Proletarsk								Demoscope 1897 (rus_gub_97 reg=12)	merkez adı birim adından farklı; Demoscope yerleşim türü: ст.; kiril: Великокняжеская
-pronsk	3	Rusya	Pronsk	Pronsk								Demoscope 1897 (rus_gub_97 reg=35)	kiril: Пронск
-pudozh	3	Rusya	Pudozh	Pudozh								Demoscope 1897 (rus_gub_97 reg=27)	kiril: Пудож
-pugachyov	3	Rusya	Nikolaevsk	Pugachyov								Demoscope 1897 (rus_gub_97 reg=36)	kiril: Николаевск
-pushkin	3	Rusya	Tsarskoe Selo	Pushkin								Demoscope 1897 (rus_gub_97 reg=37)	birimdeki öteki şehirler: Гатчина, Павловск; kiril: Царское Село
-romanovo-borisoglebsk	3	Rusya	Romanovo-Borisoglebsk	Romanovo-Borisoglebsk								Demoscope 1897 (rus_gub_97 reg=50)	kiril: Романово-Борисоглебск
-roslavl	3	Rusya	Roslavl	Roslavl								Demoscope 1897 (rus_gub_97 reg=40)	kiril: Рославль
-rostov	3	Rusya	Rostov	Rostov	47.236	39.712	atlas-yerlesim-ad-eslesmesi	Rostov (Don)				Demoscope 1897 (rus_gub_97 reg=50)	birimdeki öteki şehirler: Петровск; kiril: Ростов
-rostov-on-don	3	Rusya	Rostov-na-Donu	Rostov-on-Don								Demoscope 1897 (rus_gub_97 reg=12)	birimdeki öteki şehirler: Нахичевань; kiril: Ростов-на-Дону
-ruza	3	Rusya	Ruza	Ruza								Demoscope 1897 (rus_gub_97 reg=24)	kiril: Руза
-ryazhsk	3	Rusya	Ryazhsk	Ryazhsk								Demoscope 1897 (rus_gub_97 reg=35)	kiril: Ряжск
-rybinsk	3	Rusya	Rybinsk	Rybinsk								Demoscope 1897 (rus_gub_97 reg=50)	kiril: Рыбинск
-rylsk	3	Rusya	Rylsk	Rylsk								Demoscope 1897 (rus_gub_97 reg=20)	kiril: Рыльск
-rzhev	3	Rusya	Rzhev	Rzhev								Demoscope 1897 (rus_gub_97 reg=43)	kiril: Ржев
-sapozhok	3	Rusya	Sapozhok	Sapozhok								Demoscope 1897 (rus_gub_97 reg=35)	kiril: Сапожок
-saransk	3	Rusya	Saransk	Saransk								Demoscope 1897 (rus_gub_97 reg=30)	kiril: Саранск
-sarapul	3	Rusya	Sarapul	Sarapul	56.47	53.804	atlas-yerlesim-ad-eslesmesi	Sarapul				Demoscope 1897 (rus_gub_97 reg=10)	kiril: Сарапул
-sebezh	3	Rusya	Sebezh	Sebezh								Demoscope 1897 (rus_gub_97 reg=5)	kiril: Себеж
-semenov	3	Rusya	Semenov	Semenov								Demoscope 1897 (rus_gub_97 reg=25)	kiril: Семенов
-sengiley	3	Rusya	Sengiley	Sengiley								Demoscope 1897 (rus_gub_97 reg=39)	kiril: Сенгилей
-serafimovich	3	Rusya	Ust-Medveditskaya	Serafimovich								Demoscope 1897 (rus_gub_97 reg=12)	Demoscope yerleşim türü: ст.; kiril: Усть-Медведицкая
-serdobsk	3	Rusya	Serdobsk	Serdobsk								Demoscope 1897 (rus_gub_97 reg=38)	kiril: Сердобск
-sergach	3	Rusya	Sergach	Sergach								Demoscope 1897 (rus_gub_97 reg=25)	kiril: Сергач
-serpukhov	3	Rusya	Serpukhov	Serpukhov								Demoscope 1897 (rus_gub_97 reg=24)	kiril: Серпухов
-sevsk	3	Rusya	Sevsk	Sevsk								Demoscope 1897 (rus_gub_97 reg=29)	kiril: Севск
-shadrinsk	3	Rusya	Shadrinsk	Shadrinsk								Demoscope 1897 (rus_gub_97 reg=31)	birimdeki öteki şehirler: Далматов; kiril: Шадринск
-shatsk	3	Rusya	Shatsk	Shatsk								Demoscope 1897 (rus_gub_97 reg=42)	kiril: Шацк
-shchigry	3	Rusya	Shchigry	Shchigry								Demoscope 1897 (rus_gub_97 reg=20)	kiril: Щигры
-shenkursk	3	Rusya	Shenkursk	Shenkursk								Demoscope 1897 (rus_gub_97 reg=1)	kiril: Шенкурск
-shlisselburg	3	Rusya	Shlisselburg	Shlisselburg								Demoscope 1897 (rus_gub_97 reg=37)	kiril: Шлиссельбург
-shuya	3	Rusya	Shuya	Shuya								Demoscope 1897 (rus_gub_97 reg=6)	birimdeki öteki şehirler: Иваново-Вознесенск; kiril: Шуя
-skopin	3	Rusya	Skopin	Skopin								Demoscope 1897 (rus_gub_97 reg=35)	kiril: Скопин
-slobodskoy	3	Rusya	Slobodskoy	Slobodskoy	58.733	50.18	atlas-yerlesim-ad-eslesmesi	Slobodskoy				Demoscope 1897 (rus_gub_97 reg=10)	kiril: Слободской
-soligalich	3	Rusya	Soligalich	Soligalich								Demoscope 1897 (rus_gub_97 reg=18)	kiril: Солигалич
-solikamsk	3	Rusya	Solikamsk	Solikamsk	59.649	56.771	atlas-yerlesim-ad-eslesmesi	Solikamsk				Demoscope 1897 (rus_gub_97 reg=31)	birimdeki öteki şehirler: Дедюхин; kiril: Соликамск
-solvychegodsk	3	Rusya	Solvychegodsk	Solvychegodsk								Demoscope 1897 (rus_gub_97 reg=7)	birimdeki öteki şehirler: Красноборск; kiril: Сольвычегодск
-spassk-(penza-obl.)	3	Rusya	Spassk	Spassk (Penza obl.)								Demoscope 1897 (rus_gub_97 reg=42)	kiril: Спасск
-spassk-ryazansky	3	Rusya	Spassk	Spassk-Ryazansky								Demoscope 1897 (rus_gub_97 reg=35)	kiril: Спасск
-staraya-russa	3	Rusya	Staraya Russa	Staraya Russa	57.99	31.362	atlas-yerlesim-ad-eslesmesi	Staraya Russa				Demoscope 1897 (rus_gub_97 reg=26)	kiril: Старая Русса
-staritsa	3	Rusya	Staritsa	Staritsa								Demoscope 1897 (rus_gub_97 reg=43)	kiril: Старица
-starodub	3	Rusya	Starodub	Starodub								Demoscope 1897 (rus_gub_97 reg=48)	birimdeki öteki şehirler: Погар; kiril: Стародуб
-staryy-oskol	3	Rusya	Staryy Oskol	Staryy Oskol								Demoscope 1897 (rus_gub_97 reg=20)	kiril: Старый Оскол
-sterlitamak	3	Rusya	Sterlitamak	Sterlitamak	53.63	55.95	atlas-yerlesim-ad-eslesmesi	Sterlitamak				Demoscope 1897 (rus_gub_97 reg=45)	kiril: Стерлитамак
-sudogda	3	Rusya	Sudogda	Sudogda								Demoscope 1897 (rus_gub_97 reg=6)	kiril: Судогда
-sudzha	3	Rusya	Sudzha	Sudzha								Demoscope 1897 (rus_gub_97 reg=20)	birimdeki öteki şehirler: Мирополье; kiril: Суджа
-surazh	3	Rusya	Surazh	Surazh								Demoscope 1897 (rus_gub_97 reg=48)	kiril: Сураж
-suzdal	3	Rusya	Suzdal	Suzdal	56.419	40.449	atlas-yerlesim-ad-eslesmesi	Suzdal				Demoscope 1897 (rus_gub_97 reg=6)	kiril: Суздаль
-sviyazhsk	3	Rusya	Sviyazhsk	Sviyazhsk								Demoscope 1897 (rus_gub_97 reg=14)	kiril: Свияжск
-sychevka	3	Rusya	Sychevka	Sychevka								Demoscope 1897 (rus_gub_97 reg=40)	kiril: Сычевка
-syktyvkar	3	Rusya	Ust-Sysolsk	Syktyvkar								Demoscope 1897 (rus_gub_97 reg=7)	kiril: Усть-Сысольск
-syzran	3	Rusya	Syzran	Syzran	53.15	48.4667	atlas-yerlesim-ad-eslesmesi	Syzran				Demoscope 1897 (rus_gub_97 reg=39)	kiril: Сызрань
-taganrog	3	Rusya	Taganrog	Taganrog	47.237	38.897	atlas-yerlesim-ad-eslesmesi	Taganrog				Demoscope 1897 (rus_gub_97 reg=12)	kiril: Таганрог
-tarusa	3	Rusya	Tarusa	Tarusa								Demoscope 1897 (rus_gub_97 reg=15)	kiril: Таруса
-temnikov	3	Rusya	Temnikov	Temnikov	54.633	43.223	atlas-yerlesim-ad-eslesmesi	Temnikov				Demoscope 1897 (rus_gub_97 reg=42)	birimdeki öteki şehirler: Кадом; kiril: Темников
-tetyushi	3	Rusya	Tetyushi	Tetyushi								Demoscope 1897 (rus_gub_97 reg=14)	kiril: Тетюши
-tikhvin	3	Rusya	Tikhvin	Tikhvin								Demoscope 1897 (rus_gub_97 reg=26)	kiril: Тихвин
-tim	3	Rusya	Tim	Tim								Demoscope 1897 (rus_gub_97 reg=20)	kiril: Тим
-tolyatti	3	Rusya	Stavropol	Tolyatti	53.507	49.42	atlas-yerlesim-ad-eslesmesi	Stavropol (Volga)				Demoscope 1897 (rus_gub_97 reg=36)	kiril: Ставрополь
-toropets	3	Rusya	Toropets	Toropets								Demoscope 1897 (rus_gub_97 reg=34)	kiril: Торопец
-torzhok	3	Rusya	Torzhok	Torzhok								Demoscope 1897 (rus_gub_97 reg=43)	merkez adı birim adından farklı; kiril: Торжок
-totma	3	Rusya	Totma	Totma	59.973	42.759	atlas-yerlesim-ad-eslesmesi	Totma				Demoscope 1897 (rus_gub_97 reg=7)	kiril: Тотьма
-trubchevsk	3	Rusya	Trubchevsk	Trubchevsk								Demoscope 1897 (rus_gub_97 reg=29)	kiril: Трубчевск
-tsarev	3	Rusya	Tsarev	Tsarev	48.688	45.383	atlas-yerlesim-ad-eslesmesi	Yeni Saray (Tsarev)		yeni-saray-tsarev		Demoscope 1897 (rus_gub_97 reg=2)	kiril: Царев
-tsivilsk	3	Rusya	Tsivilsk	Tsivilsk								Demoscope 1897 (rus_gub_97 reg=14)	kiril: Цивильск
-uglich	3	Rusya	Uglich	Uglich	57.526	38.32	atlas-yerlesim-ad-eslesmesi	Uglich				Demoscope 1897 (rus_gub_97 reg=50)	kiril: Углич
-uryupinsk	3	Rusya	Uryupinskaya	Uryupinsk								Demoscope 1897 (rus_gub_97 reg=12)	merkez adı birim adından farklı; Demoscope yerleşim türü: ст.; kiril: Урюпинская
-urzhum	3	Rusya	Urzhum	Urzhum								Demoscope 1897 (rus_gub_97 reg=10)	kiril: Уржум
-usman	3	Rusya	Usman	Usman								Demoscope 1897 (rus_gub_97 reg=42)	kiril: Усмань
-ust-tsilma	3	Rusya	Ust-Tsilma	Ust-Tsilma	65.4392	52.1508	atlas-yerlesim-ad-eslesmesi	Ust-Tsilma				Demoscope 1897 (rus_gub_97 reg=1)	merkez adı birim adından farklı; Demoscope yerleşim türü: село; kiril: Усть-Цильма
-ustyuzhna	3	Rusya	Ustyuzhna	Ustyuzhna								Demoscope 1897 (rus_gub_97 reg=26)	kiril: Устюжна
-vadinsk	3	Rusya	Kerensk	Vadinsk								Demoscope 1897 (rus_gub_97 reg=30)	kiril: Керенск
-valday	3	Rusya	Valday	Valday								Demoscope 1897 (rus_gub_97 reg=26)	kiril: Валдай
-valuyki	3	Rusya	Valuyki	Valuyki								Demoscope 1897 (rus_gub_97 reg=9)	kiril: Валуйки
-varnavino	3	Rusya	Varnavin	Varnavino								Demoscope 1897 (rus_gub_97 reg=18)	kiril: Варнавин
-vasilsursk	3	Rusya	Vasilsursk	Vasilsursk								Demoscope 1897 (rus_gub_97 reg=25)	kiril: Васильсурск
-velikie-luki	3	Rusya	Velikie Luki	Velikie Luki								Demoscope 1897 (rus_gub_97 reg=34)	kiril: Великие Луки
-veliky-ustyug	3	Rusya	Velikiy Ustyug	Veliky Ustyug								Demoscope 1897 (rus_gub_97 reg=7)	birimdeki öteki şehirler: Лальск; kiril: Великий Устюг
-velizh	3	Rusya	Velizh	Velizh								Demoscope 1897 (rus_gub_97 reg=5)	kiril: Велиж
-velsk	3	Rusya	Velsk	Velsk	61.066	42.104	atlas-yerlesim-ad-eslesmesi	Velsk				Demoscope 1897 (rus_gub_97 reg=7)	kiril: Вельск
-venev	3	Rusya	Venev	Venev								Demoscope 1897 (rus_gub_97 reg=44)	kiril: Венев
-vereya	3	Rusya	Vereya	Vereya								Demoscope 1897 (rus_gub_97 reg=24)	kiril: Верея
-verkhneuralsk	3	Rusya	Verkhneuralskiy	Verkhneuralsk								Demoscope 1897 (rus_gub_97 reg=28)	kiril: Верхнеуральский
-verkhoture	3	Rusya	Verkhoture	Verkhoture								Demoscope 1897 (rus_gub_97 reg=31)	birimdeki öteki şehirler: Алопаевск; kiril: Верхотурье
-vesegonsk	3	Rusya	Vesegonsk	Vesegonsk								Demoscope 1897 (rus_gub_97 reg=43)	birimdeki öteki şehirler: Красный Холм; kiril: Весьегонск
-vetluga	3	Rusya	Vetluga	Vetluga	57.851	45.782	atlas-yerlesim-ad-eslesmesi	Vetluga				Demoscope 1897 (rus_gub_97 reg=18)	kiril: Ветлуга
-volgograd	3	Rusya	Tsaritsyn	Volgograd	48.708	44.514	atlas-yerlesim-ad-eslesmesi	Tsaritsyn				Demoscope 1897 (rus_gub_97 reg=38)	kiril: Царицын
-volokolamsk	3	Rusya	Volokolamsk	Volokolamsk	56.037	35.958	atlas-yerlesim-ad-eslesmesi	Volokolamsk				Demoscope 1897 (rus_gub_97 reg=24)	kiril: Волоколамск
-volsk	3	Rusya	Volsk	Volsk	52.045	47.387	atlas-yerlesim-ad-eslesmesi	Volsk				Demoscope 1897 (rus_gub_97 reg=38)	kiril: Вольск
-vyazma	3	Rusya	Vyazma	Vyazma								Demoscope 1897 (rus_gub_97 reg=40)	kiril: Вязьма
-vyazniki	3	Rusya	Vyazniki	Vyazniki								Demoscope 1897 (rus_gub_97 reg=6)	kiril: Вязники
-vyshny-volochyok	3	Rusya	Vyshniy Volochek	Vyshny Volochyok								Demoscope 1897 (rus_gub_97 reg=43)	kiril: Вышний Волочек
-vytegra	3	Rusya	Vytegra	Vytegra								Demoscope 1897 (rus_gub_97 reg=27)	kiril: Вытегра
-yadrin	3	Rusya	Yadrin	Yadrin								Demoscope 1897 (rus_gub_97 reg=14)	kiril: Ядрин
-yaransk	3	Rusya	Yaransk	Yaransk								Demoscope 1897 (rus_gub_97 reg=10)	birimdeki öteki şehirler: Царевосанчурск; kiril: Яранск
-yarensk	3	Rusya	Yarensk	Yarensk	62.166	49.098	atlas-yerlesim-ad-eslesmesi	Yarensk				Demoscope 1897 (rus_gub_97 reg=7)	kiril: Яренск
-yelabuga	3	Rusya	Elabuga	Yelabuga	55.763	52.061	atlas-yerlesim-ad-eslesmesi	Yelabuga				Demoscope 1897 (rus_gub_97 reg=10)	kiril: Елабуга
-yelatma	3	Rusya	Elatma	Yelatma								Demoscope 1897 (rus_gub_97 reg=42)	kiril: Елатьма
-yenotayevka	3	Rusya	Enotaevsk	Yenotayevka								Demoscope 1897 (rus_gub_97 reg=2)	kiril: Енотаевск
-yoshkar-ola	3	Rusya	Tsarevokokshaysk	Yoshkar-Ola								Demoscope 1897 (rus_gub_97 reg=14)	kiril: Царевококшайск
-yukhnov	3	Rusya	Yukhnov	Yukhnov								Demoscope 1897 (rus_gub_97 reg=40)	kiril: Юхнов
-yurevets	3	Rusya	Yurevets	Yurevets								Demoscope 1897 (rus_gub_97 reg=18)	birimdeki öteki şehirler: Лух; kiril: Юрьевец
-yuryev-polsky	3	Rusya	Yurev-Polskiy	Yuryev-Polsky								Demoscope 1897 (rus_gub_97 reg=6)	kiril: Юрьев-Польский
-zadonsk	3	Rusya	Zadonsk	Zadonsk								Demoscope 1897 (rus_gub_97 reg=9)	kiril: Задонск
-zaraysk	3	Rusya	Zaraysk	Zaraysk								Demoscope 1897 (rus_gub_97 reg=35)	kiril: Зарайск
-zemlyansk	3	Rusya	Zemlyansk	Zemlyansk								Demoscope 1897 (rus_gub_97 reg=9)	kiril: Землянск
-zhizdra	3	Rusya	Zhizdra	Zhizdra								Demoscope 1897 (rus_gub_97 reg=15)	kiril: Жиздра
-zlatoust	3	Rusya	Zlatoust	Zlatoust	55.17	59.67	atlas-yerlesim-ad-eslesmesi	Zlatoust				Demoscope 1897 (rus_gub_97 reg=45)	kiril: Златоуст
-zubtsov	3	Rusya	Zubtsov	Zubtsov								Demoscope 1897 (rus_gub_97 reg=43)	kiril: Зубцов
-zvenigorod	3	Rusya	Zvenigorod	Zvenigorod								Demoscope 1897 (rus_gub_97 reg=24)	birimdeki öteki şehirler: Воскресенск; kiril: Звенигород
-ananiv	3	Ukrayna	Ananev	Ananiv								Demoscope 1897 (rus_gub_97 reg=47)	kiril: Ананьев
-bakhmut	3	Ukrayna	Bakhmut	Bakhmut								Demoscope 1897 (rus_gub_97 reg=13)	kiril: Бахмут
-balta	3	Ukrayna	Balta	Balta	47.938	29.621	atlas-yerlesim-ad-eslesmesi	Balta				Demoscope 1897 (rus_gub_97 reg=32)	kiril: Балта
-berdychiv	3	Ukrayna	Berdichev	Berdychiv	49.894	28.582	atlas-yerlesim-ad-eslesmesi	Berdiçev (Berdychiv)				Demoscope 1897 (rus_gub_97 reg=16)	kiril: Бердичев
-bilhorod-dnistrovskyi	3	Ukrayna	Akkerman	Bilhorod-Dnistrovskyi								Demoscope 1897 (rus_gub_97 reg=3)	kiril: Аккерман
-bohodukhiv	3	Ukrayna	Bogodukhov	Bohodukhiv								Demoscope 1897 (rus_gub_97 reg=46)	birimdeki öteki şehirler: Краснокутск; kiril: Богодухов
-borzna	3	Ukrayna	Borzna	Borzna								Demoscope 1897 (rus_gub_97 reg=48)	kiril: Борзна
-bratslav	3	Ukrayna	Bratslav	Bratslav	48.823	28.938	atlas-yerlesim-ad-eslesmesi	Braslav (Bratslav)				Demoscope 1897 (rus_gub_97 reg=32)	kiril: Брацлав
-cherkasy	3	Ukrayna	Cherkassy	Cherkasy								Demoscope 1897 (rus_gub_97 reg=16)	kiril: Черкассы
-chyhyryn	3	Ukrayna	Chigirin	Chyhyryn								Demoscope 1897 (rus_gub_97 reg=16)	kiril: Чигирин
-dubno	3	Ukrayna	Dubno	Dubno								Demoscope 1897 (rus_gub_97 reg=8)	kiril: Дубно
-hadiach	3	Ukrayna	Gadyach	Hadiach								Demoscope 1897 (rus_gub_97 reg=33)	kiril: Гадяч
-haisyn	3	Ukrayna	Gaysin	Haisyn								Demoscope 1897 (rus_gub_97 reg=32)	kiril: Гайсин
-hlukhiv	3	Ukrayna	Glukhov	Hlukhiv								Demoscope 1897 (rus_gub_97 reg=48)	kiril: Глухов
-horodnia	3	Ukrayna	Gorodnya	Horodnia								Demoscope 1897 (rus_gub_97 reg=48)	kiril: Городня
-iziaslav	3	Ukrayna	Zaslavl	Iziaslav								Demoscope 1897 (rus_gub_97 reg=8)	kiril: Заславль
-izium	3	Ukrayna	Izyum	Izium	49.21	37.29	atlas-yerlesim-ad-eslesmesi	İzyum				Demoscope 1897 (rus_gub_97 reg=46)	birimdeki öteki şehirler: Славянск; kiril: Изюм
-izmail	3	Ukrayna	Izmail	Izmail								Demoscope 1897 (rus_gub_97 reg=3)	birimdeki öteki şehirler: Болград, Килия, Кагул, Рени; kiril: Измаил
-kaniv	3	Ukrayna	Kanev	Kaniv								Demoscope 1897 (rus_gub_97 reg=16)	kiril: Канев
-khmelnytskyi	3	Ukrayna	Proskurov	Khmelnytskyi								Demoscope 1897 (rus_gub_97 reg=32)	kiril: Проскуров
-khorol	3	Ukrayna	Khorol	Khorol								Demoscope 1897 (rus_gub_97 reg=33)	kiril: Хороль
-khotyn	3	Ukrayna	Khotin	Khotyn								Demoscope 1897 (rus_gub_97 reg=3)	kiril: Хотин
-kobeliaky	3	Ukrayna	Kobelyaki	Kobeliaky								Demoscope 1897 (rus_gub_97 reg=33)	kiril: Кобеляки
-konotop	3	Ukrayna	Konotop	Konotop								Demoscope 1897 (rus_gub_97 reg=48)	kiril: Конотоп
-kovel	3	Ukrayna	Kovel	Kovel	51.2153	24.7086	atlas-yerlesim-ad-eslesmesi	Kovel				Demoscope 1897 (rus_gub_97 reg=8)	kiril: Ковель
-kozelets	3	Ukrayna	Kozelets	Kozelets								Demoscope 1897 (rus_gub_97 reg=48)	kiril: Козелец
-krasnohrad	3	Ukrayna	Konstantinograd	Krasnohrad								Demoscope 1897 (rus_gub_97 reg=33)	kiril: Константиноград
-kremenchuk	3	Ukrayna	Kremenchug	Kremenchuk								Demoscope 1897 (rus_gub_97 reg=33)	birimdeki öteki şehirler: Градижск; kiril: Кременчуг
-kremenets	3	Ukrayna	Kremenets	Kremenets								Demoscope 1897 (rus_gub_97 reg=8)	kiril: Кременец
-krolevets	3	Ukrayna	Krolevets	Krolevets								Demoscope 1897 (rus_gub_97 reg=48)	birimdeki öteki şehirler: Короп; kiril: Кролевец
-kropyvnytskyi	3	Ukrayna	Elisavetgrad	Kropyvnytskyi								Demoscope 1897 (rus_gub_97 reg=47)	birimdeki öteki şehirler: Бобринец, Вознесенск, Новомиргород, Ольвиополь; kiril: Елисаветград
-kupiansk	3	Ukrayna	Kupyansk	Kupiansk								Demoscope 1897 (rus_gub_97 reg=46)	kiril: Купянск
-lebedyn	3	Ukrayna	Lebedin	Lebedyn								Demoscope 1897 (rus_gub_97 reg=46)	birimdeki öteki şehirler: Недригайлов; kiril: Лебедин
-letychiv	3	Ukrayna	Letichev	Letychiv								Demoscope 1897 (rus_gub_97 reg=32)	kiril: Летичев
-lityn	3	Ukrayna	Litin	Lityn								Demoscope 1897 (rus_gub_97 reg=32)	birimdeki öteki şehirler: Сальница, Хмельник; kiril: Литин
-lokhvytsia	3	Ukrayna	Lokhvitsa	Lokhvytsia								Demoscope 1897 (rus_gub_97 reg=33)	kiril: Лохвица
-lubny	3	Ukrayna	Lubny	Lubny								Demoscope 1897 (rus_gub_97 reg=33)	kiril: Лубны
-lutsk	3	Ukrayna	Lutsk	Lutsk	50.7472	25.3254	atlas-yerlesim-ad-eslesmesi	Lutsk (Łuck)				Demoscope 1897 (rus_gub_97 reg=8)	kiril: Луцк
-lypovets	3	Ukrayna	Lipovets	Lypovets								Demoscope 1897 (rus_gub_97 reg=16)	kiril: Липовец
-mariupol	3	Ukrayna	Mariupol	Mariupol	47.0971	37.5434	atlas-yerlesim-ad-eslesmesi	Mariupol				Demoscope 1897 (rus_gub_97 reg=13)	kiril: Мариуполь
-mohyliv-podilskyi	3	Ukrayna	Mogilev na Dnestre	Mohyliv-Podilskyi								Demoscope 1897 (rus_gub_97 reg=32)	birimdeki öteki şehirler: Бар; kiril: Могилев на Днестре
-myrhorod	3	Ukrayna	Mirgorod	Myrhorod								Demoscope 1897 (rus_gub_97 reg=33)	kiril: Миргород
-nizhyn	3	Ukrayna	Nezhin	Nizhyn								Demoscope 1897 (rus_gub_97 reg=48)	kiril: Нежин
-nova-ushytsia	3	Ukrayna	Novaya Ushitsa	Nova Ushytsia								Demoscope 1897 (rus_gub_97 reg=32)	merkez adı birim adından farklı; birimdeki öteki şehirler: Старая Ушица, Вербовец; kiril: Новая Ушица
-novhorod-siverskyi	3	Ukrayna	Novgorod-Severskiy	Novhorod-Siverskyi								Demoscope 1897 (rus_gub_97 reg=48)	kiril: Новгород-Северский
-odesa	3	Ukrayna	Odessa	Odesa	46.485	30.733	atlas-yerlesim-ad-eslesmesi	Hacıbey (Odessa)				Demoscope 1897 (rus_gub_97 reg=47)	birimdeki öteki şehirler: Маяки, Овидиополь, Очаков; kiril: Одесса
-okhtyrka	3	Ukrayna	Akhtyrka	Okhtyrka								Demoscope 1897 (rus_gub_97 reg=46)	kiril: Ахтырка
-oleksandriia	3	Ukrayna	Aleksandriya	Oleksandriia								Demoscope 1897 (rus_gub_97 reg=47)	birimdeki öteki şehirler: Новогеоргиевск; kiril: Александрия
-olhopil	3	Ukrayna	Olgopol	Olhopil								Demoscope 1897 (rus_gub_97 reg=32)	kiril: Ольгополь
-oster	3	Ukrayna	Oster	Oster								Demoscope 1897 (rus_gub_97 reg=48)	kiril: Остер
-ostroh	3	Ukrayna	Ostrog	Ostroh								Demoscope 1897 (rus_gub_97 reg=8)	kiril: Острог
-ovruch	3	Ukrayna	Ovruch	Ovruch								Demoscope 1897 (rus_gub_97 reg=8)	kiril: Овруч
-pavlohrad	3	Ukrayna	Pavlograd	Pavlohrad								Demoscope 1897 (rus_gub_97 reg=13)	kiril: Павлоград
-pereiaslav	3	Ukrayna	Pereyaslav	Pereiaslav								Demoscope 1897 (rus_gub_97 reg=33)	kiril: Переяслав
-pryluky	3	Ukrayna	Priluki	Pryluky								Demoscope 1897 (rus_gub_97 reg=33)	kiril: Прилуки
-putyvl	3	Ukrayna	Putivl	Putyvl	51.3364	33.8703	atlas-yerlesim-ad-eslesmesi	Putivl				Demoscope 1897 (rus_gub_97 reg=20)	kiril: Путивль
-pyriatyn	3	Ukrayna	Piryatin	Pyriatyn								Demoscope 1897 (rus_gub_97 reg=33)	kiril: Пирятин
-radomyshl	3	Ukrayna	Radomysl	Radomyshl								Demoscope 1897 (rus_gub_97 reg=16)	kiril: Радомысль
-rivne	3	Ukrayna	Rovno	Rivne	50.6199	26.2516	atlas-yerlesim-ad-eslesmesi	Rivne (Równe)				Demoscope 1897 (rus_gub_97 reg=8)	kiril: Ровно
-romny	3	Ukrayna	Romny	Romny								Demoscope 1897 (rus_gub_97 reg=33)	birimdeki öteki şehirler: Глинск; kiril: Ромны
-samar-(eski-novomoskovsk)	3	Ukrayna	Novomoskovsk	Samar (eski Novomoskovsk)								Demoscope 1897 (rus_gub_97 reg=13)	kiril: Новомосковск
-skvyra	3	Ukrayna	Skvira	Skvyra								Demoscope 1897 (rus_gub_97 reg=16)	kiril: Сквира
-slovianoserbsk	3	Ukrayna	Slavyanoserbsk	Slovianoserbsk								Demoscope 1897 (rus_gub_97 reg=13)	birimdeki öteki şehirler: Луганск; kiril: Славяносербск
-sosnytsia	3	Ukrayna	Sosnitsa	Sosnytsia								Demoscope 1897 (rus_gub_97 reg=48)	kiril: Сосница
-starobilsk	3	Ukrayna	Starobelsk	Starobilsk								Demoscope 1897 (rus_gub_97 reg=46)	kiril: Старобельск
-starokostiantyniv	3	Ukrayna	Starokonstantinov	Starokostiantyniv	49.755	27.212	atlas-yerlesim-ad-eslesmesi	Kostantinov (Starokostiantyniv)				Demoscope 1897 (rus_gub_97 reg=8)	kiril: Староконстантинов
-sumy	3	Ukrayna	Sumy	Sumy								Demoscope 1897 (rus_gub_97 reg=46)	birimdeki öteki şehirler: Белополье; kiril: Сумы
-tarashcha	3	Ukrayna	Tarashcha	Tarashcha								Demoscope 1897 (rus_gub_97 reg=16)	kiril: Тараща
-uman	3	Ukrayna	Uman	Uman	48.7484	30.2219	atlas-yerlesim-ad-eslesmesi	Uman				Demoscope 1897 (rus_gub_97 reg=16)	kiril: Умань
-valky	3	Ukrayna	Valki	Valky								Demoscope 1897 (rus_gub_97 reg=46)	kiril: Валки
-vasylkiv	3	Ukrayna	Vasilkov	Vasylkiv								Demoscope 1897 (rus_gub_97 reg=16)	kiril: Васильков
-verkhnodniprovsk	3	Ukrayna	Verkhnedneprovsk	Verkhnodniprovsk								Demoscope 1897 (rus_gub_97 reg=13)	kiril: Верхнеднепровск
-vinnytsia	3	Ukrayna	Vinnitsa	Vinnytsia	49.232	28.469	atlas-yerlesim-ad-eslesmesi	Vinnitsa (Vinnytsia)				Demoscope 1897 (rus_gub_97 reg=32)	kiril: Винница
-volodymyr	3	Ukrayna	Vladimir-Volynskiy	Volodymyr								Demoscope 1897 (rus_gub_97 reg=8)	kiril: Владимир-Волынский
-vovchansk	3	Ukrayna	Volchansk	Vovchansk								Demoscope 1897 (rus_gub_97 reg=46)	kiril: Волчанск
-yampil	3	Ukrayna	Yampol	Yampil								Demoscope 1897 (rus_gub_97 reg=32)	kiril: Ямполь
-zaporizhzhia	3	Ukrayna	Aleksandrovsk	Zaporizhzhia	50.9	142.16	atlas-yerlesim-ad-eslesmesi	Aleksandrovsk (Kuzey Sahalin)				Demoscope 1897 (rus_gub_97 reg=13)	kiril: Александровск
-zinkiv	3	Ukrayna	Zenkov	Zinkiv								Demoscope 1897 (rus_gub_97 reg=33)	kiril: Зеньков
-zmiiv	3	Ukrayna	Zmiev	Zmiiv								Demoscope 1897 (rus_gub_97 reg=46)	birimdeki öteki şehirler: Чугуев; kiril: Змиев
-zolotonosha	3	Ukrayna	Zolotonosha	Zolotonosha								Demoscope 1897 (rus_gub_97 reg=33)	kiril: Золотоноша
-zvenyhorodka	3	Ukrayna	Zvenigorodka	Zvenyhorodka								Demoscope 1897 (rus_gub_97 reg=16)	kiril: Звенигородка
-zviahel	3	Ukrayna	Novograd-Volynskiy	Zviahel								Demoscope 1897 (rus_gub_97 reg=8)	kiril: Новоград-Волынский
-berdiansk	3	Ukrayna (Kırım)	Berdyansk	Berdiansk	46.7558	36.7885	atlas-yerlesim-ad-eslesmesi	Berdyansk				Demoscope 1897 (rus_gub_97 reg=41)	birimdeki öteki şehirler: Ногайск, Орехов; kiril: Бердянск
-feodosiia	3	Ukrayna (Kırım)	Feodosiya	Feodosiia								Demoscope 1897 (rus_gub_97 reg=41)	birimdeki öteki şehirler: Старый Крым; kiril: Феодосия
-kerch	3	Ukrayna (Kırım)	Kerch	Kerch								Demoscope 1897 (rus_gub_97 reg=41)	birimdeki öteki şehirler: Еникале; kiril: Керчь
-melitopol	3	Ukrayna (Kırım)	Melitopol	Melitopol	46.8489	35.3675	atlas-yerlesim-ad-eslesmesi	Melitopol				Demoscope 1897 (rus_gub_97 reg=41)	kiril: Мелитополь
-oleshky	3	Ukrayna (Kırım)	Aleshki	Oleshky								Demoscope 1897 (rus_gub_97 reg=41)	merkez adı birim adından farklı; kiril: Алешки
-perekop-(harabe;-armiansk-yakini)	3	Ukrayna (Kırım)	Perekop	Perekop (harabe; Armiansk yakını)								Demoscope 1897 (rus_gub_97 reg=41)	kiril: Перекоп
-sevastopol	3	Ukrayna (Kırım)	Sevastopol	Sevastopol								Demoscope 1897 (rus_gub_97 reg=41)	birimdeki öteki şehirler: Балаклава; kiril: Севастополь
-yalta	3	Ukrayna (Kırım)	Yalta	Yalta	44.4952	34.1663	atlas-yerlesim-ad-eslesmesi	Yalta				Demoscope 1897 (rus_gub_97 reg=41)	kiril: Ялта
-yevpatoriia	3	Ukrayna (Kırım)	Evpatoriya	Yevpatoriia								Demoscope 1897 (rus_gub_97 reg=41)	kiril: Евпатория
+id	kat	ulke	ad_1900	ad_modern	lat	lon	koord_kaynak	atlas_ad	atlas_km	tarihce_id	adlar_tarih_sirali	kaynak_1900	not	bugun_var	bugun_ad	bugun_not	satir_turu
+kaliningrad	2	Rusya	Königsberg	Kaliningrad	54.71	20.512	atlas-yerlesim-ad-eslesmesi	Königsberg				statoids ude (Prusya Provinz tablosu)	ayrıca Regierungsbezirk Königsberg merkezi	D	Kaliningrad	Königsberg→Kaliningrad 1946	mevcut
+berehove	2	Ukrayna	Beregszász	Berehove								statoids uhu (64 comitate: County|Capital tablosu)		E		ad farkı dil/ekzonim (Almanca/Macarca/Lehçe/Rusça) farkı, yer aynı	mevcut
+chernivtsi	2	Ukrayna	Czernowitz	Chernivtsi								statoids uat (A-M dönemi başkentleri)		E		ad farkı dil/ekzonim (Almanca/Macarca/Lehçe/Rusça) farkı, yer aynı	mevcut
+lviv	2	Ukrayna	Lemberg	Lviv								statoids uat (A-M dönemi başkentleri)		E		ad farkı dil/ekzonim (Almanca/Macarca/Lehçe/Rusça) farkı, yer aynı	mevcut
+uzhhorod	2	Ukrayna	Ungvár	Uzhhorod	48.6224	22.3023	atlas-yerlesim-ad-eslesmesi	Ungvár (Uzhhorod)				statoids uhu (64 comitate: County|Capital tablosu)		E		ad farkı dil/ekzonim (Almanca/Macarca/Lehçe/Rusça) farkı, yer aynı	mevcut
+vynohradiv	2	Ukrayna	Nagyszőllős	Vynohradiv								statoids uhu (64 comitate: County|Capital tablosu)		E		ad farkı dil/ekzonim (Almanca/Macarca/Lehçe/Rusça) farkı, yer aynı	mevcut
+gusev	3	Rusya	Gumbinnen	Gusev								territorial.de (Jehke) ostp.htm	merkez adı birim adından	D	Gusev	Gumbinnen→Gusev 1946	mevcut
+sankt-peterburg	1	Rusya	Sankt-Peterburg	Sankt-Peterburg								Statoids uru (Rus İmp. il tablosu); Demoscope 1897	aynı zamanda Sankt-Peterburg guberniyası ve uyezdi merkezi; kiril: Санкт-Петербург	E		1900 adı = güncel ad (arada Petrograd 1914/Leningrad 1924)	mevcut
+grodno	2	Belarus	Grodno	Grodno	53.6778	23.8297	atlas-yerlesim-ad-eslesmesi	Grodno				Statoids uru (Rus İmp. il tablosu)	kiril: Гродно	E			mevcut
+minsk	2	Belarus	Minsk	Minsk	53.904	27.561	atlas-yerlesim-ad-eslesmesi	Minsk				Statoids uru (Rus İmp. il tablosu)	kiril: Минск	E			mevcut
+mogilev	2	Belarus	Mogilev	Mogilev								Statoids uru (Rus İmp. il tablosu)	kiril: Могилев	E		Mahilyow (Belarusça); Rusça Mogilev	mevcut
+vitebsk	2	Belarus	Vitebsk	Vitebsk	55.191	30.206	atlas-yerlesim-ad-eslesmesi	Vitebsk				Statoids uru (Rus İmp. il tablosu)	kiril: Витебск	E			mevcut
+tallinn	2	Estonya	Revel	Tallinn	59.437	24.754	atlas-yerlesim-ad-eslesmesi	Tallinn (Reval)		tallinn		Statoids uru (Rus İmp. il tablosu)	Estland; kiril: Ревель	E		ad farkı dil/ekzonim (Almanca/Macarca/Lehçe/Rusça) farkı, yer aynı	mevcut
+jelgava	2	Letonya	Mitava	Jelgava								Statoids uru (Rus İmp. il tablosu)	Kurland; aynı zamanda Doblen uyezdi merkezi (Demoscope: Добленский уезд - г. Митава); kiril: Митава	E		ad farkı dil/ekzonim (Almanca/Macarca/Lehçe/Rusça) farkı, yer aynı	mevcut
+riga	2	Letonya	Riga	Riga	56.949	24.105	atlas-yerlesim-ad-eslesmesi	Riga		riga		Statoids uru (Rus İmp. il tablosu)	Livland; kiril: Рига	E			mevcut
+kaunas	2	Litvanya	Kovno	Kaunas	54.897	23.886	atlas-yerlesim-ad-eslesmesi	Kaunas		kaunas		Statoids uru (Rus İmp. il tablosu)	kiril: Ковно	E		ad farkı dil/ekzonim (Almanca/Macarca/Lehçe/Rusça) farkı, yer aynı	mevcut
+vilnius	2	Litvanya	Vilna	Vilnius	54.687	25.28	atlas-yerlesim-ad-eslesmesi	Vilnius		vilnius		Statoids uru (Rus İmp. il tablosu)	kiril: Вильна	E		ad farkı dil/ekzonim (Almanca/Macarca/Lehçe/Rusça) farkı, yer aynı	mevcut
+chisinau	2	Moldova	Kishinev	Chișinău	47.0105	28.8638	atlas-yerlesim-ad-eslesmesi	Kişinev (Chișinău)				Statoids uru (Rus İmp. il tablosu)	Besarabya; kiril: Кишинев	E		ad farkı dil/ekzonim (Almanca/Macarca/Lehçe/Rusça) farkı, yer aynı	mevcut
+aleksandrovsk-sakhalinsky	2	Rusya	Aleksandrovskiy post	Aleksandrovsk-Sakhalinsky								ESBE Сахалин; Demoscope 1897	"Sahalin adası (oblast değil, ada idaresi); ESBE: ""Админ. центром служит Александровский пост""; aynı zamanda Aleksandrovsk okrugu merkezi; kiril: Александровский пост"	E			mevcut
+arkhangelsk	2	Rusya	Arkhangelsk	Arkhangelsk								Statoids uru (Rus İmp. il tablosu)	kiril: Архангельск	E			mevcut
+astrakhan	2	Rusya	Astrakhan	Astrakhan								Statoids uru (Rus İmp. il tablosu)	kiril: Астрахань	E			mevcut
+blagoveshchensk	2	Rusya	Blagoveshchensk	Blagoveshchensk								Statoids uru (Rus İmp. il tablosu); Demoscope 1897	Amur obl. uyezde bölünmez (Demoscope) — kat 3 yok; kiril: Благовещенск	E			mevcut
+buynaksk	2	Rusya	Temir-Khan-Shura	Buynaksk								Statoids uru (Rus İmp. il tablosu)	Dağıstan obl.; kiril: Темир-Хан-Шура	D	Buynaksk	Temir-Han-Şura→Buynaksk 1922	mevcut
+chita	2	Rusya	Chita	Chita								Statoids uru (Rus İmp. il tablosu)	Zabaykal; kiril: Чита	E			mevcut
+kaluga	2	Rusya	Kaluga	Kaluga	54.513	36.261	atlas-yerlesim-ad-eslesmesi	Kaluga				Statoids uru (Rus İmp. il tablosu)	kiril: Калуга	E			mevcut
+kazan	2	Rusya	Kazan	Kazan	55.796	49.106	atlas-yerlesim-ad-eslesmesi	Kazan		kazan		Statoids uru (Rus İmp. il tablosu)	kiril: Казань	E			mevcut
+kirov	2	Rusya	Vyatka	Kirov	58.604	49.668	atlas-yerlesim-ad-eslesmesi	Hlınov (Vyatka)				Statoids uru (Rus İmp. il tablosu)	kiril: Вятка	D	Kirov	Vyatka→Kirov 1934	mevcut
+kostroma	2	Rusya	Kostroma	Kostroma	58.383	42.35	atlas-yerlesim-ad-eslesmesi	Galiç (Kostroma)				Statoids uru (Rus İmp. il tablosu)	kiril: Кострома	E			mevcut
+krasnodar	2	Rusya	Ekaterinodar	Krasnodar								Statoids uru (Rus İmp. il tablosu)	Kuban obl.; kiril: Екатеринодар	D	Krasnodar	Yekaterinodar→Krasnodar 1920	mevcut
+kursk	2	Rusya	Kursk	Kursk	51.7304	36.1926	atlas-yerlesim-ad-eslesmesi	Kursk				Statoids uru (Rus İmp. il tablosu)	kiril: Курск	E			mevcut
+moskova	2	Rusya	Moskva	Moskova	55.756	37.617	atlas-yerlesim-ad-eslesmesi	Moskova		moskova		Statoids uru (Rus İmp. il tablosu)	kiril: Москва	E			mevcut
+nizhny-novgorod	2	Rusya	Nizhniy Novgorod	Nizhny Novgorod								Statoids uru (Rus İmp. il tablosu)	kiril: Нижний Новгород	E		Gorkiy 1932-1990 arası; bugün Nizhny Novgorod	mevcut
+novocherkassk	2	Rusya	Novocherkassk	Novocherkassk								Statoids uru (Rus İmp. il tablosu)	Don Kazak Oblastı; aynı zamanda Çerkassk okrugu merkezi; kiril: Новочеркасск	E			mevcut
+novorossiysk	2	Rusya	Novorossiysk	Novorossiysk	59.547	-139.727	atlas-yerlesim-ad-eslesmesi	Yakutat (Novorossiysk)				Demoscope 1897 (Новороссийский уезд)	Karadeniz gub. (1896); il merkezi statoids tablosunda yok, ESBE maddesi merkez adı vermiyor — doğrulanmadı; kiril: Новороссийск	E		KOORD UYARISI: lat/lon (59.547,-139.727) Alaska; Novorossiysk ~44.72,37.77	mevcut
+orenburg	2	Rusya	Orenburg	Orenburg	51.768	55.097	atlas-yerlesim-ad-eslesmesi	Orenburg				Statoids uru (Rus İmp. il tablosu); ESBE Тургайская область	"ayrıca Turgay Oblastı idaresi Orenburg'da (ESBE: ""Областное правление ... помещается в Оренбурге""); Turgay ayrı satır yazılmadı; kiril: Оренбург"	E			mevcut
+oryol	2	Rusya	Orel	Oryol	52.97	36.07	atlas-yerlesim-ad-eslesmesi	Orel				Statoids uru (Rus İmp. il tablosu)	kiril: Орел	E			mevcut
+penza	2	Rusya	Penza	Penza	53.2	45.0	atlas-yerlesim-ad-eslesmesi	Penza				Statoids uru (Rus İmp. il tablosu)	kiril: Пенза	E			mevcut
+perm	2	Rusya	Perm	Perm	58.01	56.229	atlas-yerlesim-ad-eslesmesi	Perm				Statoids uru (Rus İmp. il tablosu)	kiril: Пермь	E			mevcut
+petrozavodsk	2	Rusya	Petrozavodsk	Petrozavodsk	61.789	34.351	atlas-yerlesim-ad-eslesmesi	Petrozavodsk				Statoids uru (Rus İmp. il tablosu)	Olonets; kiril: Петрозаводск	E			mevcut
+pskov	2	Rusya	Pskov	Pskov	57.813	28.335	atlas-yerlesim-ad-eslesmesi	Pskov		pskov		Statoids uru (Rus İmp. il tablosu)	kiril: Псков	E			mevcut
+ryazan	2	Rusya	Ryazan	Ryazan	54.625	39.736	atlas-yerlesim-ad-eslesmesi	Ryazan		ryazan		Statoids uru (Rus İmp. il tablosu)	kiril: Рязань	E			mevcut
+samara	2	Rusya	Samara	Samara	53.2	50.15	atlas-yerlesim-ad-eslesmesi	Samara				Statoids uru (Rus İmp. il tablosu)	kiril: Самара	E		Kuybyshev 1935-1991 arası; bugün Samara	mevcut
+saratov	2	Rusya	Saratov	Saratov	52.3167	45.3833	atlas-yerlesim-ad-eslesmesi	Petrovsk (Saratov)				Statoids uru (Rus İmp. il tablosu)	kiril: Саратов	E		KOORD UYARISI: lat/lon (52.3167,45.3833) Petrovsk'a ait; Saratov ~51.53,46.03	mevcut
+smolensk	2	Rusya	Smolensk	Smolensk	54.783	32.045	atlas-yerlesim-ad-eslesmesi	Smolensk				Statoids uru (Rus İmp. il tablosu)	kiril: Смоленск	E			mevcut
+stavropol	2	Rusya	Stavropol	Stavropol	53.507	49.42	atlas-yerlesim-ad-eslesmesi	Stavropol (Volga)				Statoids uru (Rus İmp. il tablosu)	kiril: Ставрополь	E		KOORD UYARISI: lat/lon (53.507,49.42) Togliatti/Stavropol-Volzhsky'ye ait; Stavropol (Kafkasya) ~45.04,41.97	mevcut
+tambov	2	Rusya	Tambov	Tambov	52.721	41.452	atlas-yerlesim-ad-eslesmesi	Tambov				Statoids uru (Rus İmp. il tablosu)	kiril: Тамбов	E			mevcut
+tula	2	Rusya	Tula	Tula	54.193	37.617	atlas-yerlesim-ad-eslesmesi	Tula				Statoids uru (Rus İmp. il tablosu)	kiril: Тула	E			mevcut
+tver	2	Rusya	Tver	Tver	56.859	35.912	atlas-yerlesim-ad-eslesmesi	Tver		tver		Statoids uru (Rus İmp. il tablosu)	kiril: Тверь	E		Kalinin 1931-1990 arası; bugün Tver	mevcut
+ufa	2	Rusya	Ufa	Ufa	54.738	55.972	atlas-yerlesim-ad-eslesmesi	Ufa		ufa		Statoids uru (Rus İmp. il tablosu)	kiril: Уфа	E			mevcut
+ulyanovsk	2	Rusya	Simbirsk	Ulyanovsk	54.318	48.4	atlas-yerlesim-ad-eslesmesi	Simbirsk				Statoids uru (Rus İmp. il tablosu)	kiril: Симбирск	D	Ulyanovsk	Simbirsk→Ulyanovsk 1924	mevcut
+veliky-novgorod	2	Rusya	Novgorod	Veliky Novgorod	58.521	31.271	atlas-yerlesim-ad-eslesmesi	Novgorod		novgorod		Statoids uru (Rus İmp. il tablosu)	kiril: Новгород	D	Veliky Novgorod	Novgorod→Veliky Novgorod 1999	mevcut
+vladikavkaz	2	Rusya	Vladikavkaz	Vladikavkaz	43.024	44.682	atlas-yerlesim-ad-eslesmesi	Vladikavkaz				Statoids uru (Rus İmp. il tablosu)	Terek obl.; kiril: Владикавказ	E			mevcut
+vladimir	2	Rusya	Vladimir	Vladimir	56.129	40.407	atlas-yerlesim-ad-eslesmesi	Vladimir				Statoids uru (Rus İmp. il tablosu)	kiril: Владимир	E			mevcut
+vologda	2	Rusya	Vologda	Vologda	59.22	39.891	atlas-yerlesim-ad-eslesmesi	Vologda				Statoids uru (Rus İmp. il tablosu)	kiril: Вологда	E			mevcut
+voronezh	2	Rusya	Voronezh	Voronezh								Statoids uru (Rus İmp. il tablosu)	kiril: Воронеж	E			mevcut
+vyborg	2	Rusya	Viborg	Vyborg	56.451	9.402	atlas-yerlesim-ad-eslesmesi	Viborg (Jutland)		viborg-dk		Statoids uru (Rus İmp. il tablosu); SYB1896 Finland	modern ülke Rusya	E		KOORD UYARISI: lat/lon (56.451,9.402) Danimarka Viborg; Vyborg ~60.71,28.75. Viborg→Vyborg yalnız yazım; 1944'te SSCB'ye geçti	mevcut
+yaroslavl	2	Rusya	Yaroslavl	Yaroslavl	57.626	39.894	atlas-yerlesim-ad-eslesmesi	Yaroslavl				Statoids uru (Rus İmp. il tablosu)	kiril: Ярославль	E			mevcut
+chernihiv	2	Ukrayna	Chernigov	Chernihiv								Statoids uru (Rus İmp. il tablosu)	kiril: Чернигов	E			mevcut
+dnipro	2	Ukrayna	Ekaterinoslav	Dnipro								Statoids uru (Rus İmp. il tablosu)	kiril: Екатеринослав	D	Dnipro	Yekaterinoslav→Dnipropetrovsk 1926→Dnipro 2016	mevcut
+kamianets-podilskyi	2	Ukrayna	Kamenets-Podolskiy	Kamianets-Podilskyi								Statoids uru (Rus İmp. il tablosu)	Podolya; kiril: Каменец-Подольский	E			mevcut
+kharkiv	2	Ukrayna	Kharkov	Kharkiv								Statoids uru (Rus İmp. il tablosu)	kiril: Харьков	E			mevcut
+kherson	2	Ukrayna	Kherson	Kherson								Statoids uru (Rus İmp. il tablosu)	kiril: Херсон	E			mevcut
+kyiv	2	Ukrayna	Kiev	Kyiv	50.451	30.524	atlas-yerlesim-ad-eslesmesi	Kiev		kiev		Statoids uru (Rus İmp. il tablosu)	kiril: Киев	E		Rusça Kiev, Ukraynaca Kyiv	mevcut
+poltava	2	Ukrayna	Poltava	Poltava	49.589	34.551	atlas-yerlesim-ad-eslesmesi	Poltava				Statoids uru (Rus İmp. il tablosu)	kiril: Полтава	E			mevcut
+zhytomyr	2	Ukrayna	Zhitomir	Zhytomyr	50.262	28.679	atlas-yerlesim-ad-eslesmesi	Jitomir (Zhytomyr)				Statoids uru (Rus İmp. il tablosu)	Volın; kiril: Житомир	E			mevcut
+simferopol	2	Ukrayna (Kırım)	Simferopol	Simferopol								Statoids uru (Rus İmp. il tablosu)	Tavrida; kiril: Симферополь	E			mevcut
+ashmyany	3	Belarus	Oshmyany	Ashmyany								Demoscope 1897 (rus_gub_97 reg=4)	kiril: Ошмяны	E			mevcut
+babruysk	3	Belarus	Bobruysk	Babruysk								Demoscope 1897 (rus_gub_97 reg=22)	kiril: Бобруйск	E			mevcut
+barysaw	3	Belarus	Borisov	Barysaw								Demoscope 1897 (rus_gub_97 reg=22)	birimdeki öteki şehirler: Докшицы; kiril: Борисов	E			mevcut
+brest	3	Belarus	Brest-Litovsk	Brest	48.39	-4.486	atlas-yerlesim-ad-eslesmesi	Brest				Demoscope 1897 (rus_gub_97 reg=11)	kiril: Брест-Литовск	E		KOORD UYARISI: lat/lon (48.39,-4.486) Fransa Brest; Brest (Belarus) ~52.10,23.70	mevcut
+bykhaw	3	Belarus	Bykhov	Bykhaw								Demoscope 1897 (rus_gub_97 reg=23)	kiril: Быхов	E			mevcut
+chavusy	3	Belarus	Chausy	Chavusy								Demoscope 1897 (rus_gub_97 reg=23)	kiril: Чаусы	E			mevcut
+chervyen	3	Belarus	Igumen	Chervyen								Demoscope 1897 (rus_gub_97 reg=22)	kiril: Игумен	D	Chervyen	Igumen→Chervyen 1923	mevcut
+cherykaw	3	Belarus	Cherikov	Cherykaw								Demoscope 1897 (rus_gub_97 reg=23)	kiril: Чериков	E			mevcut
+dzisna	3	Belarus	Disna	Dzisna								Demoscope 1897 (rus_gub_97 reg=4)	birimdeki öteki şehirler: Друя; kiril: Дисна	E			mevcut
+gomel	3	Belarus	Gomel	Gomel								Demoscope 1897 (rus_gub_97 reg=23)	kiril: Гомель	E			mevcut
+haradok	3	Belarus	Gorodok	Haradok								Demoscope 1897 (rus_gub_97 reg=5)	kiril: Городок	E			mevcut
+horki	3	Belarus	Gorki	Horki								Demoscope 1897 (rus_gub_97 reg=23)	birimdeki öteki şehirler: Копысь; kiril: Горки	E			mevcut
+klimavichy	3	Belarus	Klimovichi	Klimavichy								Demoscope 1897 (rus_gub_97 reg=23)	kiril: Климовичи	E			mevcut
+kobryn	3	Belarus	Kobrin	Kobryn								Demoscope 1897 (rus_gub_97 reg=11)	kiril: Кобрин	E			mevcut
+lepel	3	Belarus	Lepel	Lepel								Demoscope 1897 (rus_gub_97 reg=5)	kiril: Лепель	E			mevcut
+lida	3	Belarus	Lida	Lida								Demoscope 1897 (rus_gub_97 reg=4)	kiril: Лида	E			mevcut
+mazyr	3	Belarus	Mozyr	Mazyr								Demoscope 1897 (rus_gub_97 reg=22)	kiril: Мозырь	E			mevcut
+mstsislaw	3	Belarus	Mstislavl	Mstsislaw								Demoscope 1897 (rus_gub_97 reg=23)	kiril: Мстиславль	E			mevcut
+navahrudak	3	Belarus	Novogrudok	Navahrudak								Demoscope 1897 (rus_gub_97 reg=22)	kiril: Новогрудок	E			mevcut
+orsha	3	Belarus	Orsha	Orsha								Demoscope 1897 (rus_gub_97 reg=23)	birimdeki öteki şehirler: Бабиновичи; kiril: Орша	E			mevcut
+pinsk	3	Belarus	Pinsk	Pinsk	52.115	26.103	atlas-yerlesim-ad-eslesmesi	Pinsk				Demoscope 1897 (rus_gub_97 reg=22)	kiril: Пинск	E			mevcut
+polotsk	3	Belarus	Polotsk	Polotsk	55.485	28.786	atlas-yerlesim-ad-eslesmesi	Polotsk				Demoscope 1897 (rus_gub_97 reg=5)	kiril: Полоцк	E			mevcut
+pruzhany	3	Belarus	Pruzhany	Pruzhany								Demoscope 1897 (rus_gub_97 reg=11)	kiril: Пружаны	E			mevcut
+rahachow	3	Belarus	Rogachev	Rahachow								Demoscope 1897 (rus_gub_97 reg=23)	kiril: Рогачев	E			mevcut
+rechytsa	3	Belarus	Rechitsa	Rechytsa								Demoscope 1897 (rus_gub_97 reg=22)	kiril: Речица	E			mevcut
+slonim	3	Belarus	Slonim	Slonim								Demoscope 1897 (rus_gub_97 reg=11)	kiril: Слоним	E			mevcut
+slutsk	3	Belarus	Slutsk	Slutsk								Demoscope 1897 (rus_gub_97 reg=22)	birimdeki öteki şehirler: Несвиж; kiril: Слуцк	E			mevcut
+syanno	3	Belarus	Senno	Syanno								Demoscope 1897 (rus_gub_97 reg=23)	kiril: Сенно	E			mevcut
+vawkavysk	3	Belarus	Volkovyssk	Vawkavysk								Demoscope 1897 (rus_gub_97 reg=11)	kiril: Волковысск	E			mevcut
+verkhnyadzvinsk	3	Belarus	Drissa	Verkhnyadzvinsk								Demoscope 1897 (rus_gub_97 reg=5)	kiril: Дрисса	D	Verkhnyadzvinsk	Drissa→Verkhnyadzvinsk 1962	mevcut
+vileyka	3	Belarus	Vileyka	Vileyka								Demoscope 1897 (rus_gub_97 reg=4)	birimdeki öteki şehirler: Радошковичи; kiril: Вилейка	E			mevcut
+haapsalu	3	Estonya	Gapsal	Haapsalu								Demoscope 1897 (rus_gub_97 reg=49)	kiril: Гапсаль	E		ad farkı dil/ekzonim (Almanca/Macarca/Lehçe/Rusça) farkı, yer aynı	mevcut
+kuressaare	3	Estonya	Arensburg	Kuressaare								Demoscope 1897 (rus_gub_97 reg=21)	merkez adı birim adından farklı; kiril: Аренсбург	E		Kingissepa 1952-1988 arası; 1900 adı Arensburg (Almanca); bugün Kuressaare	mevcut
+paide	3	Estonya	Veysenshteyn	Paide								Demoscope 1897 (rus_gub_97 reg=49)	kiril: Вейсенштейн	E		ad farkı dil/ekzonim (Almanca/Macarca/Lehçe/Rusça) farkı, yer aynı	mevcut
+parnu	3	Estonya	Pernov	Pärnu	58.386	24.497	atlas-yerlesim-ad-eslesmesi	Pärnu				Demoscope 1897 (rus_gub_97 reg=21)	kiril: Пернов	E		ad farkı dil/ekzonim (Almanca/Macarca/Lehçe/Rusça) farkı, yer aynı	mevcut
+rakvere	3	Estonya	Vezenberg	Rakvere								Demoscope 1897 (rus_gub_97 reg=49)	kiril: Везенберг	E		ad farkı dil/ekzonim (Almanca/Macarca/Lehçe/Rusça) farkı, yer aynı	mevcut
+tartu	3	Estonya	Yurev	Tartu	58.378	26.729	atlas-yerlesim-ad-eslesmesi	Tartu (Dorpat)				Demoscope 1897 (rus_gub_97 reg=21)	kiril: Юрьев	D	Tartu	Yurev (Rus. İmp. resmî adı; Dorpat)→Tartu 1918-19	mevcut
+viljandi	3	Estonya	Fellin	Viljandi								Demoscope 1897 (rus_gub_97 reg=21)	kiril: Феллин	E		ad farkı dil/ekzonim (Almanca/Macarca/Lehçe/Rusça) farkı, yer aynı	mevcut
+voru	3	Estonya	Verro	Võru								Demoscope 1897 (rus_gub_97 reg=21)	kiril: Верро	E		ad farkı dil/ekzonim (Almanca/Macarca/Lehçe/Rusça) farkı, yer aynı	mevcut
+valga-/-valka	3	Estonya / Letonya	Valk	Valga / Valka								Demoscope 1897 (rus_gub_97 reg=21)	kiril: Валк	E		ad farkı dil/ekzonim (Almanca/Macarca/Lehçe/Rusça) farkı, yer aynı	mevcut
+aizpute	3	Letonya	Gazenpot	Aizpute								Demoscope 1897 (rus_gub_97 reg=19)	kiril: Газенпот	E		ad farkı dil/ekzonim (Almanca/Macarca/Lehçe/Rusça) farkı, yer aynı	mevcut
+bauska	3	Letonya	Bausk	Bauska								Demoscope 1897 (rus_gub_97 reg=19)	kiril: Бауск	E		ad farkı dil/ekzonim (Almanca/Macarca/Lehçe/Rusça) farkı, yer aynı	mevcut
+cesis	3	Letonya	Venden	Cēsis	57.312	25.274	atlas-yerlesim-ad-eslesmesi	Cēsis (Wenden)				Demoscope 1897 (rus_gub_97 reg=21)	kiril: Венден	E		ad farkı dil/ekzonim (Almanca/Macarca/Lehçe/Rusça) farkı, yer aynı	mevcut
+daugavpils	3	Letonya	Dvinsk	Daugavpils	55.875	26.536	atlas-yerlesim-ad-eslesmesi	Daugavpils (Dünaburg)				Demoscope 1897 (rus_gub_97 reg=5)	kiril: Двинск	E		ad farkı dil/ekzonim (Almanca/Macarca/Lehçe/Rusça) farkı, yer aynı	mevcut
+grobina	3	Letonya	Grobin	Grobiņa								Demoscope 1897 (rus_gub_97 reg=19)	birimdeki öteki şehirler: Либава; kiril: Гробин	E		ad farkı dil/ekzonim (Almanca/Macarca/Lehçe/Rusça) farkı, yer aynı	mevcut
+ilukste	3	Letonya	Illukst	Ilūkste								Demoscope 1897 (rus_gub_97 reg=19)	Demoscope yerleşim türü: мест.; kiril: Иллукст	E		ad farkı dil/ekzonim (Almanca/Macarca/Lehçe/Rusça) farkı, yer aynı	mevcut
+jaunjelgava	3	Letonya	Fridrikhshtadt	Jaunjelgava								Demoscope 1897 (rus_gub_97 reg=19)	birimdeki öteki şehirler: Якобштадт; kiril: Фридрихштадт	E		ad farkı dil/ekzonim (Almanca/Macarca/Lehçe/Rusça) farkı, yer aynı	mevcut
+kuldiga	3	Letonya	Goldingen	Kuldīga								Demoscope 1897 (rus_gub_97 reg=19)	kiril: Гольдинген	E		ad farkı dil/ekzonim (Almanca/Macarca/Lehçe/Rusça) farkı, yer aynı	mevcut
+ludza	3	Letonya	Lyutsin	Ludza								Demoscope 1897 (rus_gub_97 reg=5)	kiril: Люцин	E		ad farkı dil/ekzonim (Almanca/Macarca/Lehçe/Rusça) farkı, yer aynı	mevcut
+rezekne	3	Letonya	Rezhitsa	Rēzekne	56.51	27.333	atlas-yerlesim-ad-eslesmesi	Rēzekne (Rositten)				Demoscope 1897 (rus_gub_97 reg=5)	kiril: Режица	E		ad farkı dil/ekzonim (Almanca/Macarca/Lehçe/Rusça) farkı, yer aynı	mevcut
+talsi	3	Letonya	Talsen	Talsi								Demoscope 1897 (rus_gub_97 reg=19)	Demoscope yerleşim türü: мест.; kiril: Тальсен	E		ad farkı dil/ekzonim (Almanca/Macarca/Lehçe/Rusça) farkı, yer aynı	mevcut
+tukums	3	Letonya	Tukkum	Tukums								Demoscope 1897 (rus_gub_97 reg=19)	kiril: Туккум	E		ad farkı dil/ekzonim (Almanca/Macarca/Lehçe/Rusça) farkı, yer aynı	mevcut
+valmiera	3	Letonya	Volmar	Valmiera								Demoscope 1897 (rus_gub_97 reg=21)	birimdeki öteki şehirler: Лемзаль; kiril: Вольмар	E		ad farkı dil/ekzonim (Almanca/Macarca/Lehçe/Rusça) farkı, yer aynı	mevcut
+ventspils	3	Letonya	Vindava	Ventspils								Demoscope 1897 (rus_gub_97 reg=19)	birimdeki öteki şehirler: Пильтен; kiril: Виндава	E		ad farkı dil/ekzonim (Almanca/Macarca/Lehçe/Rusça) farkı, yer aynı	mevcut
+panevezys	3	Litvanya	Ponevezh	Panevėžys								Demoscope 1897 (rus_gub_97 reg=17)	kiril: Поневеж	E		ad farkı dil/ekzonim (Almanca/Macarca/Lehçe/Rusça) farkı, yer aynı	mevcut
+raseiniai	3	Litvanya	Rossieny	Raseiniai								Demoscope 1897 (rus_gub_97 reg=17)	kiril: Россиены	E		ad farkı dil/ekzonim (Almanca/Macarca/Lehçe/Rusça) farkı, yer aynı	mevcut
+telsiai	3	Litvanya	Telshi	Telšiai								Demoscope 1897 (rus_gub_97 reg=17)	kiril: Тельши	E		ad farkı dil/ekzonim (Almanca/Macarca/Lehçe/Rusça) farkı, yer aynı	mevcut
+trakai	3	Litvanya	Troki	Trakai								Demoscope 1897 (rus_gub_97 reg=4)	kiril: Троки	E		ad farkı dil/ekzonim (Almanca/Macarca/Lehçe/Rusça) farkı, yer aynı	mevcut
+ukmerge	3	Litvanya	Vilkomir	Ukmergė								Demoscope 1897 (rus_gub_97 reg=17)	kiril: Вилькомир	E		ad farkı dil/ekzonim (Almanca/Macarca/Lehçe/Rusça) farkı, yer aynı	mevcut
+zarasai	3	Litvanya	Novoaleksandrovsk	Zarasai								Demoscope 1897 (rus_gub_97 reg=17)	birimdeki öteki şehirler: Видзы; kiril: Новоалександровск	D	Zarasai	Novoaleksandrovsk→Zarasai 1920'ler (Litvanya)	mevcut
+siauliai	3	Litvanya	Shavli	Šiauliai	55.934	23.315	atlas-yerlesim-ad-eslesmesi	Šiauliai				Demoscope 1897 (rus_gub_97 reg=17)	birimdeki öteki şehirler: Шадов; kiril: Шавли	E		ad farkı dil/ekzonim (Almanca/Macarca/Lehçe/Rusça) farkı, yer aynı	mevcut
+svencionys	3	Litvanya	Sventsyany	Švenčionys								Demoscope 1897 (rus_gub_97 reg=4)	kiril: Свенцяны	E		ad farkı dil/ekzonim (Almanca/Macarca/Lehçe/Rusça) farkı, yer aynı	mevcut
+bender	3	Moldova	Bendery	Bender	46.831	29.481	atlas-yerlesim-ad-eslesmesi	Bender				Demoscope 1897 (rus_gub_97 reg=3)	kiril: Бендеры	E		Bendery→Bender: yazım/dil farkı; Tighina (Romence) da kullanılır	mevcut
+balti	3	Moldova	Beltsy	Bălți	47.7617	27.9289	atlas-yerlesim-ad-eslesmesi	Bălți				Demoscope 1897 (rus_gub_97 reg=3)	kiril: Бельцы	E		ad farkı dil/ekzonim (Almanca/Macarca/Lehçe/Rusça) farkı, yer aynı	mevcut
+orhei	3	Moldova	Orgeev	Orhei	47.383	28.823	atlas-yerlesim-ad-eslesmesi	Orhei				Demoscope 1897 (rus_gub_97 reg=3)	kiril: Оргеев	E		ad farkı dil/ekzonim (Almanca/Macarca/Lehçe/Rusça) farkı, yer aynı	mevcut
+soroca	3	Moldova	Soroki	Soroca	48.158	28.299	atlas-yerlesim-ad-eslesmesi	Soroka (Soroca)				Demoscope 1897 (rus_gub_97 reg=3)	kiril: Сороки	E		ad farkı dil/ekzonim (Almanca/Macarca/Lehçe/Rusça) farkı, yer aynı	mevcut
+tiraspol	3	Moldova (Transdinyester)	Tiraspol	Tiraspol	46.837	29.611	atlas-yerlesim-ad-eslesmesi	Tiraspol				Demoscope 1897 (rus_gub_97 reg=47)	birimdeki öteki şehirler: Григориполь, Дубоссары; kiril: Тирасполь	E		ad farkı dil/ekzonim (Almanca/Macarca/Lehçe/Rusça) farkı, yer aynı	mevcut
+bulunamadi	3	Rusya	bulunamadı									Demoscope 1897 (rus_gub_97 reg=2)	Demoscope: городов нет; kiril birim: Калмыцкая степь уезд; Kalmık halkı idaresi Astrahan'da oturur (doğrulanmadı)	?		Yer tutucu satır (şehir değil: 'bulunamadı'); sınıflanamaz	mevcut
+alatyr	3	Rusya	Alatyr	Alatyr								Demoscope 1897 (rus_gub_97 reg=39)	kiril: Алатырь	E			mevcut
+aleksandrov	3	Rusya	Aleksandrov	Aleksandrov								Demoscope 1897 (rus_gub_97 reg=6)	kiril: Александров	E			mevcut
+aleksin	3	Rusya	Aleksin	Aleksin								Demoscope 1897 (rus_gub_97 reg=44)	kiril: Алексин	E			mevcut
+ardatov	3	Rusya	Ardatov	Ardatov								Demoscope 1897 (rus_gub_97 reg=25)	kiril: Ардатов · ayrıca rusya listesinde kat 3	E			mevcut
+arzamas	3	Rusya	Arzamas	Arzamas	55.394	43.84	atlas-yerlesim-ad-eslesmesi	Arzamas				Demoscope 1897 (rus_gub_97 reg=25)	kiril: Арзамас	E			mevcut
+atkarsk	3	Rusya	Atkarsk	Atkarsk								Demoscope 1897 (rus_gub_97 reg=38)	kiril: Аткарск	E			mevcut
+balakhna	3	Rusya	Balakhna	Balakhna								Demoscope 1897 (rus_gub_97 reg=25)	kiril: Балахна	E			mevcut
+balashov	3	Rusya	Balashov	Balashov								Demoscope 1897 (rus_gub_97 reg=38)	kiril: Балашов	E			mevcut
+belebey	3	Rusya	Belebey	Belebey								Demoscope 1897 (rus_gub_97 reg=45)	kiril: Белебей	E			mevcut
+belev	3	Rusya	Belev	Belev								Demoscope 1897 (rus_gub_97 reg=44)	kiril: Белев	E			mevcut
+belgorod	3	Rusya	Belgorod	Belgorod	50.595	36.587	atlas-yerlesim-ad-eslesmesi	Belgorod				Demoscope 1897 (rus_gub_97 reg=20)	kiril: Белгород	E			mevcut
+belinsky	3	Rusya	Chembarsk	Belinsky								Demoscope 1897 (rus_gub_97 reg=30)	kiril: Чембарск	D	Belinsky	Chembar→Belinsky 1948	mevcut
+belozersk	3	Rusya	Belozersk	Belozersk	60.031	37.783	atlas-yerlesim-ad-eslesmesi	Belozersk				Demoscope 1897 (rus_gub_97 reg=26)	kiril: Белозерск	E			mevcut
+belyy	3	Rusya	Belyy	Belyy								Demoscope 1897 (rus_gub_97 reg=40)	kiril: Белый	E			mevcut
+bezhetsk	3	Rusya	Bezhetsk	Bezhetsk								Demoscope 1897 (rus_gub_97 reg=43)	kiril: Бежецк	E			mevcut
+birsk	3	Rusya	Birsk	Birsk	55.415	55.542	atlas-yerlesim-ad-eslesmesi	Birsk				Demoscope 1897 (rus_gub_97 reg=45)	kiril: Бирск	E			mevcut
+biryuch	3	Rusya	Biryuch	Biryuch								Demoscope 1897 (rus_gub_97 reg=9)	kiril: Бирюч	E		Biryuch: 1958'de kırsal yerleşime indirildi, 2007'de ad geri verildi; bugün Belgorod Obl.'nda küçük yerleşim	mevcut
+bobrov	3	Rusya	Bobrov	Bobrov								Demoscope 1897 (rus_gub_97 reg=9)	kiril: Бобров	E			mevcut
+bogoroditsk	3	Rusya	Bogoroditsk	Bogoroditsk								Demoscope 1897 (rus_gub_97 reg=44)	kiril: Богородицк	E			mevcut
+boguchar	3	Rusya	Boguchar	Boguchar								Demoscope 1897 (rus_gub_97 reg=9)	kiril: Богучар	E			mevcut
+bolgar	3	Rusya	Spassk	Bolgar	54.976	49.03	atlas-yerlesim-ad-eslesmesi	Bulgar (Bolgar)				Demoscope 1897 (rus_gub_97 reg=14)	kiril: Спасск	D	Bolgar	Spassk→Bolgar 1991	mevcut
+bolkhov	3	Rusya	Bolkhov	Bolkhov								Demoscope 1897 (rus_gub_97 reg=29)	kiril: Болхов	E			mevcut
+borisoglebsk	3	Rusya	Borisoglebsk	Borisoglebsk	51.3667	42.0833	atlas-yerlesim-ad-eslesmesi	Borisoglebsk				Demoscope 1897 (rus_gub_97 reg=42)	kiril: Борисоглебск	E			mevcut
+borovichi	3	Rusya	Borovichi	Borovichi								Demoscope 1897 (rus_gub_97 reg=26)	kiril: Боровичи	E			mevcut
+borovsk	3	Rusya	Borovsk	Borovsk								Demoscope 1897 (rus_gub_97 reg=15)	kiril: Боровск	E			mevcut
+bronnitsy	3	Rusya	Bronnitsy	Bronnitsy								Demoscope 1897 (rus_gub_97 reg=24)	kiril: Бронницы	E			mevcut
+bryansk	3	Rusya	Bryansk	Bryansk	53.2436	34.3639	atlas-yerlesim-ad-eslesmesi	Bryansk				Demoscope 1897 (rus_gub_97 reg=29)	kiril: Брянск	E			mevcut
+bugulma	3	Rusya	Bugulma	Bugulma	54.536	52.797	atlas-yerlesim-ad-eslesmesi	Buğulma				Demoscope 1897 (rus_gub_97 reg=36)	kiril: Бугульма	E			mevcut
+buguruslan	3	Rusya	Buguruslan	Buguruslan								Demoscope 1897 (rus_gub_97 reg=36)	birimdeki öteki şehirler: Сергиевск; kiril: Бугуруслан	E			mevcut
+buinsk	3	Rusya	Buinsk	Buinsk	54.966	48.288	atlas-yerlesim-ad-eslesmesi	Buinsk				Demoscope 1897 (rus_gub_97 reg=39)	kiril: Буинск	E			mevcut
+buy	3	Rusya	Buy	Buy								Demoscope 1897 (rus_gub_97 reg=18)	kiril: Буй	E			mevcut
+buzuluk	3	Rusya	Buzuluk	Buzuluk	52.786	52.261	atlas-yerlesim-ad-eslesmesi	Buzuluk				Demoscope 1897 (rus_gub_97 reg=36)	kiril: Бузулук	E			mevcut
+chaplygin	3	Rusya	Ranenburg	Chaplygin								Demoscope 1897 (rus_gub_97 reg=35)	kiril: Раненбург	D	Chaplygin	Ranenburg→Chaplygin 1948	mevcut
+cheboksary	3	Rusya	Cheboksary	Cheboksary								Demoscope 1897 (rus_gub_97 reg=14)	kiril: Чебоксары	E			mevcut
+chekalin	3	Rusya	Likhvin	Chekalin								Demoscope 1897 (rus_gub_97 reg=15)	kiril: Лихвин	D	Chekalin	Likhvin→Chekalin 1944	mevcut
+chelyabinsk	3	Rusya	Chelyabinsk	Chelyabinsk								Demoscope 1897 (rus_gub_97 reg=28)	kiril: Челябинск	E			mevcut
+cherdyn	3	Rusya	Cherdyn	Cherdyn								Demoscope 1897 (rus_gub_97 reg=31)	kiril: Чердынь	E			mevcut
+cherepovets	3	Rusya	Cherepovets	Cherepovets								Demoscope 1897 (rus_gub_97 reg=26)	kiril: Череповец	E			mevcut
+chern	3	Rusya	Chern	Chern								Demoscope 1897 (rus_gub_97 reg=44)	kiril: Чернь	E			mevcut
+chistopol	3	Rusya	Chistopol	Chistopol								Demoscope 1897 (rus_gub_97 reg=14)	kiril: Чистополь	E			mevcut
+chukhloma	3	Rusya	Chukhloma	Chukhloma								Demoscope 1897 (rus_gub_97 reg=18)	kiril: Чухлома	E			mevcut
+chyorny-yar	3	Rusya	Chernyy Yar	Chyorny Yar								Demoscope 1897 (rus_gub_97 reg=2)	kiril: Черный Яр	E			mevcut
+danilov	3	Rusya	Danilov	Danilov								Demoscope 1897 (rus_gub_97 reg=50)	kiril: Данилов	E			mevcut
+dankov	3	Rusya	Dankov	Dankov								Demoscope 1897 (rus_gub_97 reg=35)	kiril: Данков	E			mevcut
+demidov	3	Rusya	Poreche	Demidov								Demoscope 1897 (rus_gub_97 reg=40)	kiril: Поречье	D	Demidov	Poreche→Demidov 1918	mevcut
+demyansk	3	Rusya	Demyansk	Demyansk								Demoscope 1897 (rus_gub_97 reg=26)	kiril: Демянск	E			mevcut
+dmitriev	3	Rusya	Dmitriev	Dmitriev								Demoscope 1897 (rus_gub_97 reg=20)	kiril: Дмитриев	E			mevcut
+dmitrov	3	Rusya	Dmitrov	Dmitrov	56.344	37.521	atlas-yerlesim-ad-eslesmesi	Dmitrov				Demoscope 1897 (rus_gub_97 reg=24)	kiril: Дмитров	E			mevcut
+dmitrovsk	3	Rusya	Dmitrovsk	Dmitrovsk								Demoscope 1897 (rus_gub_97 reg=29)	kiril: Дмитровск	E			mevcut
+dorogobuzh	3	Rusya	Dorogobuzh	Dorogobuzh								Demoscope 1897 (rus_gub_97 reg=40)	kiril: Дорогобуж	E			mevcut
+dukhovshchina	3	Rusya	Dukhovshchina	Dukhovshchina								Demoscope 1897 (rus_gub_97 reg=40)	kiril: Духовщина	E			mevcut
+efremov	3	Rusya	Efremov	Efremov								Demoscope 1897 (rus_gub_97 reg=44)	kiril: Ефремов	E			mevcut
+egorevsk	3	Rusya	Egorevsk	Egorevsk								Demoscope 1897 (rus_gub_97 reg=35)	kiril: Егорьевск	E			mevcut
+elets	3	Rusya	Elets	Elets								Demoscope 1897 (rus_gub_97 reg=29)	kiril: Елец	E			mevcut
+elnya	3	Rusya	Elnya	Elnya								Demoscope 1897 (rus_gub_97 reg=40)	kiril: Ельня	E			mevcut
+epifan	3	Rusya	Epifan	Epifan								Demoscope 1897 (rus_gub_97 reg=44)	kiril: Епифань	E			mevcut
+fatezh	3	Rusya	Fatezh	Fatezh								Demoscope 1897 (rus_gub_97 reg=20)	kiril: Фатеж	E			mevcut
+gagarin	3	Rusya	Gzhatsk	Gagarin								Demoscope 1897 (rus_gub_97 reg=40)	kiril: Гжатск	D	Gagarin	Gzhatsk→Gagarin 1968	mevcut
+galich	3	Rusya	Galich	Galich								Demoscope 1897 (rus_gub_97 reg=18)	kiril: Галич	E			mevcut
+gdov	3	Rusya	Gdov	Gdov								Demoscope 1897 (rus_gub_97 reg=37)	kiril: Гдов	E			mevcut
+glazov	3	Rusya	Glazov	Glazov	58.139	52.66	atlas-yerlesim-ad-eslesmesi	Glazov				Demoscope 1897 (rus_gub_97 reg=10)	kiril: Глазов	E			mevcut
+gorbatov	3	Rusya	Gorbatov	Gorbatov								Demoscope 1897 (rus_gub_97 reg=25)	kiril: Горбатов	E			mevcut
+gorodishche	3	Rusya	Gorodishche	Gorodishche								Demoscope 1897 (rus_gub_97 reg=30)	kiril: Городище	E			mevcut
+gorokhovets	3	Rusya	Gorokhovets	Gorokhovets								Demoscope 1897 (rus_gub_97 reg=6)	kiril: Гороховец	E			mevcut
+grayvoron	3	Rusya	Grayvoron	Grayvoron								Demoscope 1897 (rus_gub_97 reg=20)	birimdeki öteki şehirler: Хотмыжск; kiril: Грайворон	E			mevcut
+gryazovets	3	Rusya	Gryazovets	Gryazovets								Demoscope 1897 (rus_gub_97 reg=7)	kiril: Грязовец	E			mevcut
+insar	3	Rusya	Insarsk	Insar								Demoscope 1897 (rus_gub_97 reg=30)	birimdeki öteki şehirler: Шишкеев; kiril: Инсарск	E			mevcut
+kadnikov	3	Rusya	Kadnikov	Kadnikov								Demoscope 1897 (rus_gub_97 reg=7)	kiril: Кадников	E			mevcut
+kalyazin	3	Rusya	Kalyazin	Kalyazin								Demoscope 1897 (rus_gub_97 reg=43)	kiril: Калязин	E		Eski merkez Uglich Barajı'nda (1940) sular altında kaldı, kent kıyıda yeniden kuruldu (genel bilgi; doğrulanmadı)	mevcut
+kamensk-shakhtinsky	3	Rusya	Kamenskaya	Kamensk-Shakhtinsky								Demoscope 1897 (rus_gub_97 reg=12)	merkez adı birim adından farklı; Demoscope yerleşim türü: ст.; kiril: Каменская	D	Kamensk-Shakhtinsky	Kamenskaya (stanitsa)→Kamensk-Shakhtinsky (şehir 1927)	mevcut
+kamyshin	3	Rusya	Kamyshin	Kamyshin								Demoscope 1897 (rus_gub_97 reg=38)	kiril: Камышин	E			mevcut
+kamyshlov	3	Rusya	Kamyshlov	Kamyshlov								Demoscope 1897 (rus_gub_97 reg=31)	kiril: Камышлов	E			mevcut
+karachev	3	Rusya	Karachev	Karachev								Demoscope 1897 (rus_gub_97 reg=29)	kiril: Карачев	E			mevcut
+kargopol	3	Rusya	Kargopol	Kargopol	61.507	38.945	atlas-yerlesim-ad-eslesmesi	Kargopol				Demoscope 1897 (rus_gub_97 reg=27)	kiril: Каргополь	E			mevcut
+karsun	3	Rusya	Karsun	Karsun								Demoscope 1897 (rus_gub_97 reg=39)	"Demoscope satırı ""Корсунский уезд - г. Корсунь"" (yazım hatası; birim Карсунский) → Karsun; kiril: Корсунь"	E			mevcut
+kashin	3	Rusya	Kashin	Kashin								Demoscope 1897 (rus_gub_97 reg=43)	kiril: Кашин	E			mevcut
+kashira	3	Rusya	Kashira	Kashira								Demoscope 1897 (rus_gub_97 reg=44)	kiril: Кашира	E			mevcut
+kasimov	3	Rusya	Kasimov	Kasimov	54.945	41.393	atlas-yerlesim-ad-eslesmesi	Kasimov		kasimov		Demoscope 1897 (rus_gub_97 reg=35)	kiril: Касимов	E			mevcut
+kem	3	Rusya	Kem	Kem	64.951	34.594	atlas-yerlesim-ad-eslesmesi	Kem				Demoscope 1897 (rus_gub_97 reg=1)	kiril: Кемь	E			mevcut
+kholm	3	Rusya	Kholm	Kholm	51.1431	23.4716	atlas-yerlesim-ad-eslesmesi	Chełm (Kholm)				Demoscope 1897 (rus_gub_97 reg=34)	kiril: Холм	E		KOORD UYARISI: lat/lon (51.1431,23.4716) Polonya Chełm'e ait; Kholm (Novgorod Obl.) ~57.15,31.18	mevcut
+kholmogory	3	Rusya	Kholmogory	Kholmogory								Demoscope 1897 (rus_gub_97 reg=1)	kiril: Холмогоры	E			mevcut
+khvalynsk	3	Rusya	Khvalynsk	Khvalynsk								Demoscope 1897 (rus_gub_97 reg=38)	kiril: Хвалынск	E			mevcut
+kineshma	3	Rusya	Kineshma	Kineshma								Demoscope 1897 (rus_gub_97 reg=18)	kiril: Кинешма	E			mevcut
+kingisepp	3	Rusya	Yamburg	Kingisepp								Demoscope 1897 (rus_gub_97 reg=37)	birimdeki öteki şehirler: Нарва; kiril: Ямбург	D	Kingisepp	Yamburg→Kingisepp 1922	mevcut
+kirillov	3	Rusya	Kirillov	Kirillov	59.858	38.376	atlas-yerlesim-ad-eslesmesi	Kirillov				Demoscope 1897 (rus_gub_97 reg=26)	kiril: Кириллов	E			mevcut
+kirsanov	3	Rusya	Kirsanov	Kirsanov								Demoscope 1897 (rus_gub_97 reg=42)	kiril: Кирсанов	E			mevcut
+klin	3	Rusya	Klin	Klin								Demoscope 1897 (rus_gub_97 reg=24)	kiril: Клин	E			mevcut
+knyaginino	3	Rusya	Knyaginin	Knyaginino								Demoscope 1897 (rus_gub_97 reg=25)	birimdeki öteki şehirler: Перевоз; kiril: Княгинин	E			mevcut
+kologriv	3	Rusya	Kologriv	Kologriv								Demoscope 1897 (rus_gub_97 reg=18)	kiril: Кологрив	E			mevcut
+kolomna	3	Rusya	Kolomna	Kolomna	55.079	38.778	atlas-yerlesim-ad-eslesmesi	Kolomna				Demoscope 1897 (rus_gub_97 reg=24)	kiril: Коломна	E			mevcut
+konstantinovsk	3	Rusya	Konstantinovskaya	Konstantinovsk								Demoscope 1897 (rus_gub_97 reg=12)	merkez adı birim adından farklı; Demoscope yerleşim türü: ст.; kiril: Константиновская	E			mevcut
+korcheva-(sular-altinda;-konakovo-yakini)	3	Rusya	Korcheva	Korcheva (sular altında; Konakovo yakını)								Demoscope 1897 (rus_gub_97 reg=43)	kiril: Корчева	H		Ivankovo Barajı (Moskova Denizi) 1937'de sular altında kaldı (genel bilgi; kaynak aranmadı)	mevcut
+korocha	3	Rusya	Korocha	Korocha								Demoscope 1897 (rus_gub_97 reg=20)	kiril: Короча	E			mevcut
+korotoyak	3	Rusya	Korotoyak	Korotoyak								Demoscope 1897 (rus_gub_97 reg=9)	kiril: Коротояк	E			mevcut
+kotelnich	3	Rusya	Kotelnich	Kotelnich								Demoscope 1897 (rus_gub_97 reg=10)	kiril: Котельнич	E			mevcut
+kovrov	3	Rusya	Kovrov	Kovrov								Demoscope 1897 (rus_gub_97 reg=6)	kiril: Ковров	E			mevcut
+kozelsk	3	Rusya	Kozelsk	Kozelsk								Demoscope 1897 (rus_gub_97 reg=15)	birimdeki öteki şehirler: Сухиничи; kiril: Козельск	E			mevcut
+kozmodemyansk	3	Rusya	Kozmodemyansk	Kozmodemyansk	56.336	46.559	atlas-yerlesim-ad-eslesmesi	Kozmodemyansk				Demoscope 1897 (rus_gub_97 reg=14)	kiril: Козьмодемьянск	E			mevcut
+krapivna	3	Rusya	Krapivna	Krapivna								Demoscope 1897 (rus_gub_97 reg=44)	kiril: Крапивна	E			mevcut
+krasnoslobodsk	3	Rusya	Krasnoslobodsk	Krasnoslobodsk								Demoscope 1897 (rus_gub_97 reg=30)	birimdeki öteki şehirler: Троицк; kiril: Краснослободск	E			mevcut
+krasnoufimsk	3	Rusya	Krasnoufimsk	Krasnoufimsk								Demoscope 1897 (rus_gub_97 reg=31)	kiril: Красноуфимск	E			mevcut
+krasny-yar	3	Rusya	Krasnyy Yar	Krasny Yar								Demoscope 1897 (rus_gub_97 reg=2)	kiril: Красный Яр	E			mevcut
+krasnyy	3	Rusya	Krasnyy	Krasnyy								Demoscope 1897 (rus_gub_97 reg=40)	kiril: Красный	E			mevcut
+kresttsy	3	Rusya	Kresttsy	Kresttsy								Demoscope 1897 (rus_gub_97 reg=26)	kiril: Крестцы	E			mevcut
+kromy	3	Rusya	Kromy	Kromy								Demoscope 1897 (rus_gub_97 reg=29)	kiril: Кромы	E			mevcut
+kungur	3	Rusya	Kungur	Kungur	57.433	56.937	atlas-yerlesim-ad-eslesmesi	Kungur				Demoscope 1897 (rus_gub_97 reg=31)	kiril: Кунгур	E			mevcut
+kurmysh	3	Rusya	Kurmysh	Kurmysh								Demoscope 1897 (rus_gub_97 reg=39)	kiril: Курмыш	E			mevcut
+laishev	3	Rusya	Laishev	Laishev								Demoscope 1897 (rus_gub_97 reg=14)	kiril: Лаишев	E			mevcut
+lebedyan	3	Rusya	Lebedyan	Lebedyan								Demoscope 1897 (rus_gub_97 reg=42)	kiril: Лебедянь	E			mevcut
+lgov	3	Rusya	Lgov	Lgov								Demoscope 1897 (rus_gub_97 reg=20)	kiril: Льгов	E			mevcut
+lipetsk	3	Rusya	Lipetsk	Lipetsk								Demoscope 1897 (rus_gub_97 reg=42)	kiril: Липецк	E			mevcut
+livny	3	Rusya	Livny	Livny								Demoscope 1897 (rus_gub_97 reg=29)	kiril: Ливны	E			mevcut
+lodeynoe-pole	3	Rusya	Lodeynoe Pole	Lodeynoe Pole								Demoscope 1897 (rus_gub_97 reg=27)	kiril: Лодейное Поле	E			mevcut
+luga	3	Rusya	Luga	Luga								Demoscope 1897 (rus_gub_97 reg=37)	kiril: Луга	E			mevcut
+lukoyanov	3	Rusya	Lukoyanov	Lukoyanov								Demoscope 1897 (rus_gub_97 reg=25)	birimdeki öteki şehirler: Починки; kiril: Лукоянов	E			mevcut
+lyubim	3	Rusya	Lyubim	Lyubim								Demoscope 1897 (rus_gub_97 reg=50)	kiril: Любим	E			mevcut
+makarev	3	Rusya	Makarev	Makarev								Demoscope 1897 (rus_gub_97 reg=18)	birimdeki öteki şehirler: Кадый, Унжа; kiril: Макарьев	E		Olası mükerrer: 'makaryevo' satırıyla aynı yer (Makaryev, Kostroma Obl.) olabilir; doğrulanmadı	mevcut
+makaryevo	3	Rusya	Makarev	Makaryevo								Demoscope 1897 (rus_gub_97 reg=25)	kiril: Макарьев	E		Olası mükerrer: 'makarev' satırıyla aynı yer olabilir; doğrulanmadı	mevcut
+malmyzh	3	Rusya	Malmyzh	Malmyzh								Demoscope 1897 (rus_gub_97 reg=10)	kiril: Малмыж	E			mevcut
+maloarkhangelsk	3	Rusya	Malo-Arkhangelsk	Maloarkhangelsk								Demoscope 1897 (rus_gub_97 reg=29)	kiril: Мало-Архангельск	E			mevcut
+maloyaroslavets	3	Rusya	Maloyaroslavets	Maloyaroslavets								Demoscope 1897 (rus_gub_97 reg=15)	kiril: Малоярославец	E			mevcut
+mamadysh	3	Rusya	Mamadysh	Mamadysh								Demoscope 1897 (rus_gub_97 reg=14)	kiril: Мамадыш	E			mevcut
+medyn	3	Rusya	Medyn	Medyn								Demoscope 1897 (rus_gub_97 reg=15)	kiril: Медынь	E			mevcut
+melenki	3	Rusya	Melenki	Melenki								Demoscope 1897 (rus_gub_97 reg=6)	kiril: Меленки	E			mevcut
+menzelinsk	3	Rusya	Menzelinsk	Menzelinsk	55.727	53.1	atlas-yerlesim-ad-eslesmesi	Menzelinsk				Demoscope 1897 (rus_gub_97 reg=45)	kiril: Мензелинск	E			mevcut
+meshchovsk	3	Rusya	Meshchovsk	Meshchovsk								Demoscope 1897 (rus_gub_97 reg=15)	birimdeki öteki şehirler: Серпейск; kiril: Мещовск	E			mevcut
+mezen	3	Rusya	Mezen	Mezen	65.8447	44.2394	atlas-yerlesim-ad-eslesmesi	Mezen				Demoscope 1897 (rus_gub_97 reg=1)	kiril: Мезень	E			mevcut
+mglin	3	Rusya	Mglin	Mglin								Demoscope 1897 (rus_gub_97 reg=48)	kiril: Мглин	E			mevcut
+michurinsk	3	Rusya	Kozlov	Michurinsk								Demoscope 1897 (rus_gub_97 reg=42)	kiril: Козлов	D	Michurinsk	Kozlov→Michurinsk 1932	mevcut
+mikhaylov	3	Rusya	Mikhaylov	Mikhaylov								Demoscope 1897 (rus_gub_97 reg=35)	kiril: Михайлов	E			mevcut
+mokshan	3	Rusya	Mokshany	Mokshan								Demoscope 1897 (rus_gub_97 reg=30)	kiril: Мокшаны	E			mevcut
+mologa-(sular-altinda;-rybinsk-baraji)	3	Rusya	Mologa	Mologa (sular altında; Rybinsk Barajı)								Demoscope 1897 (rus_gub_97 reg=50)	kiril: Молога	H		Rybinsk Barajı 1941'de dolunca sular altında kaldı (genel bilgi; kaynak aranmadı)	mevcut
+morshansk	3	Rusya	Morshansk	Morshansk								Demoscope 1897 (rus_gub_97 reg=42)	kiril: Моршанск	E			mevcut
+mosalsk	3	Rusya	Mosalsk	Mosalsk								Demoscope 1897 (rus_gub_97 reg=15)	kiril: Мосальск	E			mevcut
+mozhaysk	3	Rusya	Mozhaysk	Mozhaysk								Demoscope 1897 (rus_gub_97 reg=24)	kiril: Можайск	E			mevcut
+mtsensk	3	Rusya	Mtsensk	Mtsensk								Demoscope 1897 (rus_gub_97 reg=29)	kiril: Мценск	E			mevcut
+murom	3	Rusya	Murom	Murom	55.575	42.052	atlas-yerlesim-ad-eslesmesi	Murom				Demoscope 1897 (rus_gub_97 reg=6)	kiril: Муром	E			mevcut
+myshkin	3	Rusya	Myshkin	Myshkin								Demoscope 1897 (rus_gub_97 reg=50)	kiril: Мышкин	E			mevcut
+narovchat	3	Rusya	Narovchat	Narovchat								Demoscope 1897 (rus_gub_97 reg=30)	kiril: Наровчат	E			mevcut
+nerekhta	3	Rusya	Nerekhta	Nerekhta								Demoscope 1897 (rus_gub_97 reg=18)	birimdeki öteki şehirler: Плес; kiril: Нерехта	E			mevcut
+nevel	3	Rusya	Nevel	Nevel								Demoscope 1897 (rus_gub_97 reg=5)	kiril: Невель	E			mevcut
+nikolsk	3	Rusya	Nikolsk	Nikolsk								Demoscope 1897 (rus_gub_97 reg=7)	kiril: Никольск	E			mevcut
+nizhnedevitsk	3	Rusya	Nizhnedevitsk	Nizhnedevitsk								Demoscope 1897 (rus_gub_97 reg=9)	kiril: Нижнедевицк	E			mevcut
+nizhny-chir	3	Rusya	Nizhne-Chirskaya	Nizhny Chir								Demoscope 1897 (rus_gub_97 reg=12)	merkez adı birim adından farklı; Demoscope yerleşim türü: ст.; kiril: Нижне-Чирская	E			mevcut
+nizhny-lomov	3	Rusya	Nizhne-Lomov	Nizhny Lomov								Demoscope 1897 (rus_gub_97 reg=30)	birimdeki öteki şehirler: Верхне-Ломов; kiril: Нижне-Ломов	E			mevcut
+noginsk	3	Rusya	Bogorodsk	Noginsk								Demoscope 1897 (rus_gub_97 reg=24)	kiril: Богородск	D	Noginsk	Bogorodsk→Noginsk 1930	mevcut
+nolinsk	3	Rusya	Nolinsk	Nolinsk								Demoscope 1897 (rus_gub_97 reg=10)	kiril: Нолинск	E			mevcut
+novaya-ladoga	3	Rusya	Novaya Ladoga	Novaya Ladoga								Demoscope 1897 (rus_gub_97 reg=37)	kiril: Новая Ладога	E			mevcut
+novokhopyorsk	3	Rusya	Novokhopersk	Novokhopyorsk								Demoscope 1897 (rus_gub_97 reg=9)	kiril: Новохоперск	E			mevcut
+novorzhev	3	Rusya	Novorzhev	Novorzhev								Demoscope 1897 (rus_gub_97 reg=34)	kiril: Новоржев	E			mevcut
+novosilsk	3	Rusya	Novosilsk	Novosilsk								Demoscope 1897 (rus_gub_97 reg=44)	kiril: Новосильск	E			mevcut
+novouzensk	3	Rusya	Novouzensk	Novouzensk								Demoscope 1897 (rus_gub_97 reg=36)	kiril: Новоузенск	E			mevcut
+novozybkov	3	Rusya	Novozybkov	Novozybkov								Demoscope 1897 (rus_gub_97 reg=48)	birimdeki öteki şehirler: Новое-Место; kiril: Новозыбков	E			mevcut
+novyy-oskol	3	Rusya	Novyy Oskol	Novyy Oskol								Demoscope 1897 (rus_gub_97 reg=20)	kiril: Новый Оскол	E			mevcut
+oboyan	3	Rusya	Oboyan	Oboyan								Demoscope 1897 (rus_gub_97 reg=20)	birimdeki öteki şehirler: Богатый; kiril: Обоянь	E			mevcut
+odoev	3	Rusya	Odoev	Odoev								Demoscope 1897 (rus_gub_97 reg=44)	kiril: Одоев	E			mevcut
+okhansk	3	Rusya	Okhansk	Okhansk								Demoscope 1897 (rus_gub_97 reg=31)	kiril: Оханск	E			mevcut
+olonets	3	Rusya	Olonets	Olonets	60.977	32.972	atlas-yerlesim-ad-eslesmesi	Olonets				Demoscope 1897 (rus_gub_97 reg=27)	kiril: Олонец	E			mevcut
+onega	3	Rusya	Onega	Onega	63.907	38.099	atlas-yerlesim-ad-eslesmesi	Onega				Demoscope 1897 (rus_gub_97 reg=1)	kiril: Онега	E			mevcut
+opochka	3	Rusya	Opochka	Opochka								Demoscope 1897 (rus_gub_97 reg=34)	kiril: Опочка	E			mevcut
+orlov	3	Rusya	Orlov	Orlov								Demoscope 1897 (rus_gub_97 reg=10)	kiril: Орлов	E			mevcut
+orsk	3	Rusya	Orsk	Orsk	51.229	58.556	atlas-yerlesim-ad-eslesmesi	Orsk				Demoscope 1897 (rus_gub_97 reg=28)	kiril: Орск	E			mevcut
+osa	3	Rusya	Osa	Osa								Demoscope 1897 (rus_gub_97 reg=31)	kiril: Оса	E			mevcut
+ostashkov	3	Rusya	Ostashkov	Ostashkov								Demoscope 1897 (rus_gub_97 reg=43)	kiril: Осташков	E			mevcut
+ostrogozhsk	3	Rusya	Ostrogozhsk	Ostrogozhsk								Demoscope 1897 (rus_gub_97 reg=9)	kiril: Острогожск	E			mevcut
+ostrov	3	Rusya	Ostrov	Ostrov								Demoscope 1897 (rus_gub_97 reg=34)	kiril: Остров	E			mevcut
+pavlovsk	3	Rusya	Pavlovsk	Pavlovsk								Demoscope 1897 (rus_gub_97 reg=9)	kiril: Павловск	E			mevcut
+peremyshl	3	Rusya	Peremyshl	Peremyshl								Demoscope 1897 (rus_gub_97 reg=15)	birimdeki öteki şehirler: Воротынск; kiril: Перемышль	E			mevcut
+pereslavl-zalessky	3	Rusya	Pereslavl	Pereslavl-Zalessky								Demoscope 1897 (rus_gub_97 reg=6)	kiril: Переславль	E			mevcut
+peterhof	3	Rusya	Petergof	Peterhof								Demoscope 1897 (rus_gub_97 reg=37)	birimdeki öteki şehirler: Ораниенбаум, Кронштадт; kiril: Петергоф	E		Petrodvorets 1944-1997 arası; bugün Peterhof	mevcut
+petrovsk	3	Rusya	Petrovsk	Petrovsk	52.3167	45.3833	atlas-yerlesim-ad-eslesmesi	Petrovsk (Saratov)				Demoscope 1897 (rus_gub_97 reg=38)	kiril: Петровск	E			mevcut
+pinega	3	Rusya	Pinega	Pinega	64.7	43.392	atlas-yerlesim-ad-eslesmesi	Pinega				Demoscope 1897 (rus_gub_97 reg=1)	kiril: Пинега	E			mevcut
+podolsk	3	Rusya	Podolsk	Podolsk								Demoscope 1897 (rus_gub_97 reg=24)	kiril: Подольск	E			mevcut
+pokrov	3	Rusya	Pokrov	Pokrov								Demoscope 1897 (rus_gub_97 reg=6)	birimdeki öteki şehirler: Киржач; kiril: Покров	E			mevcut
+porkhov	3	Rusya	Porkhov	Porkhov	57.767	29.557	atlas-yerlesim-ad-eslesmesi	Porkhov				Demoscope 1897 (rus_gub_97 reg=34)	kiril: Порхов	E			mevcut
+poshekhonye-volodarsk	3	Rusya	Poshekhone	Poshekhonye-Volodarsk								Demoscope 1897 (rus_gub_97 reg=50)	kiril: Пошехонье	E	Poshekhonye	Güncel resmî ad Poshekhonye (Poshekhonye-Volodarsk 1918-1992; Wikipedia, doğrulandı)	mevcut
+povenets	3	Rusya	Povenets	Povenets								Demoscope 1897 (rus_gub_97 reg=27)	kiril: Повенец	E			mevcut
+proletarsk	3	Rusya	Velikoknyazheskaya	Proletarsk								Demoscope 1897 (rus_gub_97 reg=12)	merkez adı birim adından farklı; Demoscope yerleşim türü: ст.; kiril: Великокняжеская	D	Proletarsk	Velikoknyazheskaya→Proletarsk (Sovyet dönemi)	mevcut
+pronsk	3	Rusya	Pronsk	Pronsk								Demoscope 1897 (rus_gub_97 reg=35)	kiril: Пронск	E			mevcut
+pudozh	3	Rusya	Pudozh	Pudozh								Demoscope 1897 (rus_gub_97 reg=27)	kiril: Пудож	E			mevcut
+pugachyov	3	Rusya	Nikolaevsk	Pugachyov								Demoscope 1897 (rus_gub_97 reg=36)	kiril: Николаевск	D	Pugachyov	Nikolaevsk→Pugachyov 1918	mevcut
+pushkin	3	Rusya	Tsarskoe Selo	Pushkin								Demoscope 1897 (rus_gub_97 reg=37)	birimdeki öteki şehirler: Гатчина, Павловск; kiril: Царское Село	D	Pushkin	Tsarskoe Selo→Detskoe Selo→Pushkin 1937	mevcut
+romanovo-borisoglebsk	3	Rusya	Romanovo-Borisoglebsk	Romanovo-Borisoglebsk								Demoscope 1897 (rus_gub_97 reg=50)	kiril: Романово-Борисоглебск	D	Tutayev	Romanov-Borisoglebsk→Tutayev 1918 (ad_modern sütunu eski ad)	mevcut
+roslavl	3	Rusya	Roslavl	Roslavl								Demoscope 1897 (rus_gub_97 reg=40)	kiril: Рославль	E			mevcut
+rostov	3	Rusya	Rostov	Rostov	47.236	39.712	atlas-yerlesim-ad-eslesmesi	Rostov (Don)				Demoscope 1897 (rus_gub_97 reg=50)	birimdeki öteki şehirler: Петровск; kiril: Ростов	E		KOORD UYARISI: lat/lon Rostov-na-Donu'ya ait; Rostov (Veliky) Yaroslavl ~57.2,39.4	mevcut
+rostov-on-don	3	Rusya	Rostov-na-Donu	Rostov-on-Don								Demoscope 1897 (rus_gub_97 reg=12)	birimdeki öteki şehirler: Нахичевань; kiril: Ростов-на-Дону	E			mevcut
+ruza	3	Rusya	Ruza	Ruza								Demoscope 1897 (rus_gub_97 reg=24)	kiril: Руза	E			mevcut
+ryazhsk	3	Rusya	Ryazhsk	Ryazhsk								Demoscope 1897 (rus_gub_97 reg=35)	kiril: Ряжск	E			mevcut
+rybinsk	3	Rusya	Rybinsk	Rybinsk								Demoscope 1897 (rus_gub_97 reg=50)	kiril: Рыбинск	E			mevcut
+rylsk	3	Rusya	Rylsk	Rylsk								Demoscope 1897 (rus_gub_97 reg=20)	kiril: Рыльск	E			mevcut
+rzhev	3	Rusya	Rzhev	Rzhev								Demoscope 1897 (rus_gub_97 reg=43)	kiril: Ржев	E			mevcut
+sapozhok	3	Rusya	Sapozhok	Sapozhok								Demoscope 1897 (rus_gub_97 reg=35)	kiril: Сапожок	E			mevcut
+saransk	3	Rusya	Saransk	Saransk								Demoscope 1897 (rus_gub_97 reg=30)	kiril: Саранск	E			mevcut
+sarapul	3	Rusya	Sarapul	Sarapul	56.47	53.804	atlas-yerlesim-ad-eslesmesi	Sarapul				Demoscope 1897 (rus_gub_97 reg=10)	kiril: Сарапул	E			mevcut
+sebezh	3	Rusya	Sebezh	Sebezh								Demoscope 1897 (rus_gub_97 reg=5)	kiril: Себеж	E			mevcut
+semenov	3	Rusya	Semenov	Semenov								Demoscope 1897 (rus_gub_97 reg=25)	kiril: Семенов	E			mevcut
+sengiley	3	Rusya	Sengiley	Sengiley								Demoscope 1897 (rus_gub_97 reg=39)	kiril: Сенгилей	E			mevcut
+serafimovich	3	Rusya	Ust-Medveditskaya	Serafimovich								Demoscope 1897 (rus_gub_97 reg=12)	Demoscope yerleşim türü: ст.; kiril: Усть-Медведицкая	D	Serafimovich	Ust-Medveditskaya→Serafimovich 1933	mevcut
+serdobsk	3	Rusya	Serdobsk	Serdobsk								Demoscope 1897 (rus_gub_97 reg=38)	kiril: Сердобск	E			mevcut
+sergach	3	Rusya	Sergach	Sergach								Demoscope 1897 (rus_gub_97 reg=25)	kiril: Сергач	E			mevcut
+serpukhov	3	Rusya	Serpukhov	Serpukhov								Demoscope 1897 (rus_gub_97 reg=24)	kiril: Серпухов	E			mevcut
+sevsk	3	Rusya	Sevsk	Sevsk								Demoscope 1897 (rus_gub_97 reg=29)	kiril: Севск	E			mevcut
+shadrinsk	3	Rusya	Shadrinsk	Shadrinsk								Demoscope 1897 (rus_gub_97 reg=31)	birimdeki öteki şehirler: Далматов; kiril: Шадринск	E			mevcut
+shatsk	3	Rusya	Shatsk	Shatsk								Demoscope 1897 (rus_gub_97 reg=42)	kiril: Шацк	E			mevcut
+shchigry	3	Rusya	Shchigry	Shchigry								Demoscope 1897 (rus_gub_97 reg=20)	kiril: Щигры	E			mevcut
+shenkursk	3	Rusya	Shenkursk	Shenkursk								Demoscope 1897 (rus_gub_97 reg=1)	kiril: Шенкурск	E			mevcut
+shlisselburg	3	Rusya	Shlisselburg	Shlisselburg								Demoscope 1897 (rus_gub_97 reg=37)	kiril: Шлиссельбург	E		Petrokrepost 1944-1992 arası; bugün Shlisselburg	mevcut
+shuya	3	Rusya	Shuya	Shuya								Demoscope 1897 (rus_gub_97 reg=6)	birimdeki öteki şehirler: Иваново-Вознесенск; kiril: Шуя	E			mevcut
+skopin	3	Rusya	Skopin	Skopin								Demoscope 1897 (rus_gub_97 reg=35)	kiril: Скопин	E			mevcut
+slobodskoy	3	Rusya	Slobodskoy	Slobodskoy	58.733	50.18	atlas-yerlesim-ad-eslesmesi	Slobodskoy				Demoscope 1897 (rus_gub_97 reg=10)	kiril: Слободской	E			mevcut
+soligalich	3	Rusya	Soligalich	Soligalich								Demoscope 1897 (rus_gub_97 reg=18)	kiril: Солигалич	E			mevcut
+solikamsk	3	Rusya	Solikamsk	Solikamsk	59.649	56.771	atlas-yerlesim-ad-eslesmesi	Solikamsk				Demoscope 1897 (rus_gub_97 reg=31)	birimdeki öteki şehirler: Дедюхин; kiril: Соликамск	E			mevcut
+solvychegodsk	3	Rusya	Solvychegodsk	Solvychegodsk								Demoscope 1897 (rus_gub_97 reg=7)	birimdeki öteki şehirler: Красноборск; kiril: Сольвычегодск	E			mevcut
+spassk-(penza-obl.)	3	Rusya	Spassk	Spassk (Penza obl.)								Demoscope 1897 (rus_gub_97 reg=42)	kiril: Спасск	E			mevcut
+spassk-ryazansky	3	Rusya	Spassk	Spassk-Ryazansky								Demoscope 1897 (rus_gub_97 reg=35)	kiril: Спасск	E			mevcut
+staraya-russa	3	Rusya	Staraya Russa	Staraya Russa	57.99	31.362	atlas-yerlesim-ad-eslesmesi	Staraya Russa				Demoscope 1897 (rus_gub_97 reg=26)	kiril: Старая Русса	E			mevcut
+staritsa	3	Rusya	Staritsa	Staritsa								Demoscope 1897 (rus_gub_97 reg=43)	kiril: Старица	E			mevcut
+starodub	3	Rusya	Starodub	Starodub								Demoscope 1897 (rus_gub_97 reg=48)	birimdeki öteki şehirler: Погар; kiril: Стародуб	E			mevcut
+staryy-oskol	3	Rusya	Staryy Oskol	Staryy Oskol								Demoscope 1897 (rus_gub_97 reg=20)	kiril: Старый Оскол	E			mevcut
+sterlitamak	3	Rusya	Sterlitamak	Sterlitamak	53.63	55.95	atlas-yerlesim-ad-eslesmesi	Sterlitamak				Demoscope 1897 (rus_gub_97 reg=45)	kiril: Стерлитамак	E			mevcut
+sudogda	3	Rusya	Sudogda	Sudogda								Demoscope 1897 (rus_gub_97 reg=6)	kiril: Судогда	E			mevcut
+sudzha	3	Rusya	Sudzha	Sudzha								Demoscope 1897 (rus_gub_97 reg=20)	birimdeki öteki şehirler: Мирополье; kiril: Суджа	E			mevcut
+surazh	3	Rusya	Surazh	Surazh								Demoscope 1897 (rus_gub_97 reg=48)	kiril: Сураж	E			mevcut
+suzdal	3	Rusya	Suzdal	Suzdal	56.419	40.449	atlas-yerlesim-ad-eslesmesi	Suzdal				Demoscope 1897 (rus_gub_97 reg=6)	kiril: Суздаль	E			mevcut
+sviyazhsk	3	Rusya	Sviyazhsk	Sviyazhsk								Demoscope 1897 (rus_gub_97 reg=14)	kiril: Свияжск	E			mevcut
+sychevka	3	Rusya	Sychevka	Sychevka								Demoscope 1897 (rus_gub_97 reg=40)	kiril: Сычевка	E			mevcut
+syktyvkar	3	Rusya	Ust-Sysolsk	Syktyvkar								Demoscope 1897 (rus_gub_97 reg=7)	kiril: Усть-Сысольск	D	Syktyvkar	Ust-Sysolsk→Syktyvkar 1930	mevcut
+syzran	3	Rusya	Syzran	Syzran	53.15	48.4667	atlas-yerlesim-ad-eslesmesi	Syzran				Demoscope 1897 (rus_gub_97 reg=39)	kiril: Сызрань	E			mevcut
+taganrog	3	Rusya	Taganrog	Taganrog	47.237	38.897	atlas-yerlesim-ad-eslesmesi	Taganrog				Demoscope 1897 (rus_gub_97 reg=12)	kiril: Таганрог	E			mevcut
+tarusa	3	Rusya	Tarusa	Tarusa								Demoscope 1897 (rus_gub_97 reg=15)	kiril: Таруса	E			mevcut
+temnikov	3	Rusya	Temnikov	Temnikov	54.633	43.223	atlas-yerlesim-ad-eslesmesi	Temnikov				Demoscope 1897 (rus_gub_97 reg=42)	birimdeki öteki şehirler: Кадом; kiril: Темников	E			mevcut
+tetyushi	3	Rusya	Tetyushi	Tetyushi								Demoscope 1897 (rus_gub_97 reg=14)	kiril: Тетюши	E			mevcut
+tikhvin	3	Rusya	Tikhvin	Tikhvin								Demoscope 1897 (rus_gub_97 reg=26)	kiril: Тихвин	E			mevcut
+tim	3	Rusya	Tim	Tim								Demoscope 1897 (rus_gub_97 reg=20)	kiril: Тим	E			mevcut
+tolyatti	3	Rusya	Stavropol	Tolyatti	53.507	49.42	atlas-yerlesim-ad-eslesmesi	Stavropol (Volga)				Demoscope 1897 (rus_gub_97 reg=36)	kiril: Ставрополь	D	Tolyatti	Stavropol (Volga)→Tolyatti 1964; eski Stavropol Kuybyshev Barajı'nda sular altında kaldı, kent yeni yerde kuruldu	mevcut
+toropets	3	Rusya	Toropets	Toropets								Demoscope 1897 (rus_gub_97 reg=34)	kiril: Торопец	E			mevcut
+torzhok	3	Rusya	Torzhok	Torzhok								Demoscope 1897 (rus_gub_97 reg=43)	merkez adı birim adından farklı; kiril: Торжок	E			mevcut
+totma	3	Rusya	Totma	Totma	59.973	42.759	atlas-yerlesim-ad-eslesmesi	Totma				Demoscope 1897 (rus_gub_97 reg=7)	kiril: Тотьма	E			mevcut
+trubchevsk	3	Rusya	Trubchevsk	Trubchevsk								Demoscope 1897 (rus_gub_97 reg=29)	kiril: Трубчевск	E			mevcut
+tsarev	3	Rusya	Tsarev	Tsarev	48.688	45.383	atlas-yerlesim-ad-eslesmesi	Yeni Saray (Tsarev)		yeni-saray-tsarev		Demoscope 1897 (rus_gub_97 reg=2)	kiril: Царев	E		Tsarev bugün Leninsk (Volgograd Obl.) ilçesinde köy; Leninsk önceki adı Prishib, Tsarev'in devamı DEĞİL (Wikidata/Wikipedia). KOORD UYARISI: lat/lon Leninsk'e ait	mevcut
+tsivilsk	3	Rusya	Tsivilsk	Tsivilsk								Demoscope 1897 (rus_gub_97 reg=14)	kiril: Цивильск	E			mevcut
+uglich	3	Rusya	Uglich	Uglich	57.526	38.32	atlas-yerlesim-ad-eslesmesi	Uglich				Demoscope 1897 (rus_gub_97 reg=50)	kiril: Углич	E			mevcut
+uryupinsk	3	Rusya	Uryupinskaya	Uryupinsk								Demoscope 1897 (rus_gub_97 reg=12)	merkez adı birim adından farklı; Demoscope yerleşim türü: ст.; kiril: Урюпинская	E			mevcut
+urzhum	3	Rusya	Urzhum	Urzhum								Demoscope 1897 (rus_gub_97 reg=10)	kiril: Уржум	E			mevcut
+usman	3	Rusya	Usman	Usman								Demoscope 1897 (rus_gub_97 reg=42)	kiril: Усмань	E			mevcut
+ust-tsilma	3	Rusya	Ust-Tsilma	Ust-Tsilma	65.4392	52.1508	atlas-yerlesim-ad-eslesmesi	Ust-Tsilma				Demoscope 1897 (rus_gub_97 reg=1)	merkez adı birim adından farklı; Demoscope yerleşim türü: село; kiril: Усть-Цильма	E			mevcut
+ustyuzhna	3	Rusya	Ustyuzhna	Ustyuzhna								Demoscope 1897 (rus_gub_97 reg=26)	kiril: Устюжна	E			mevcut
+vadinsk	3	Rusya	Kerensk	Vadinsk								Demoscope 1897 (rus_gub_97 reg=30)	kiril: Керенск	D	Vadinsk	Kerensk→Vadinsk (tarih kaynaklarda çelişkili: 1928/1940, doğrulanmadı)	mevcut
+valday	3	Rusya	Valday	Valday								Demoscope 1897 (rus_gub_97 reg=26)	kiril: Валдай	E			mevcut
+valuyki	3	Rusya	Valuyki	Valuyki								Demoscope 1897 (rus_gub_97 reg=9)	kiril: Валуйки	E			mevcut
+varnavino	3	Rusya	Varnavin	Varnavino								Demoscope 1897 (rus_gub_97 reg=18)	kiril: Варнавин	E			mevcut
+vasilsursk	3	Rusya	Vasilsursk	Vasilsursk								Demoscope 1897 (rus_gub_97 reg=25)	kiril: Васильсурск	E			mevcut
+velikie-luki	3	Rusya	Velikie Luki	Velikie Luki								Demoscope 1897 (rus_gub_97 reg=34)	kiril: Великие Луки	E			mevcut
+veliky-ustyug	3	Rusya	Velikiy Ustyug	Veliky Ustyug								Demoscope 1897 (rus_gub_97 reg=7)	birimdeki öteki şehirler: Лальск; kiril: Великий Устюг	E			mevcut
+velizh	3	Rusya	Velizh	Velizh								Demoscope 1897 (rus_gub_97 reg=5)	kiril: Велиж	E			mevcut
+velsk	3	Rusya	Velsk	Velsk	61.066	42.104	atlas-yerlesim-ad-eslesmesi	Velsk				Demoscope 1897 (rus_gub_97 reg=7)	kiril: Вельск	E			mevcut
+venev	3	Rusya	Venev	Venev								Demoscope 1897 (rus_gub_97 reg=44)	kiril: Венев	E			mevcut
+vereya	3	Rusya	Vereya	Vereya								Demoscope 1897 (rus_gub_97 reg=24)	kiril: Верея	E			mevcut
+verkhneuralsk	3	Rusya	Verkhneuralskiy	Verkhneuralsk								Demoscope 1897 (rus_gub_97 reg=28)	kiril: Верхнеуральский	E			mevcut
+verkhoture	3	Rusya	Verkhoture	Verkhoture								Demoscope 1897 (rus_gub_97 reg=31)	birimdeki öteki şehirler: Алопаевск; kiril: Верхотурье	E			mevcut
+vesegonsk	3	Rusya	Vesegonsk	Vesegonsk								Demoscope 1897 (rus_gub_97 reg=43)	birimdeki öteki şehirler: Красный Холм; kiril: Весьегонск	E			mevcut
+vetluga	3	Rusya	Vetluga	Vetluga	57.851	45.782	atlas-yerlesim-ad-eslesmesi	Vetluga				Demoscope 1897 (rus_gub_97 reg=18)	kiril: Ветлуга	E			mevcut
+volgograd	3	Rusya	Tsaritsyn	Volgograd	48.708	44.514	atlas-yerlesim-ad-eslesmesi	Tsaritsyn				Demoscope 1897 (rus_gub_97 reg=38)	kiril: Царицын	D	Volgograd	Tsaritsyn→Stalingrad 1925→Volgograd 1961	mevcut
+volokolamsk	3	Rusya	Volokolamsk	Volokolamsk	56.037	35.958	atlas-yerlesim-ad-eslesmesi	Volokolamsk				Demoscope 1897 (rus_gub_97 reg=24)	kiril: Волоколамск	E			mevcut
+volsk	3	Rusya	Volsk	Volsk	52.045	47.387	atlas-yerlesim-ad-eslesmesi	Volsk				Demoscope 1897 (rus_gub_97 reg=38)	kiril: Вольск	E			mevcut
+vyazma	3	Rusya	Vyazma	Vyazma								Demoscope 1897 (rus_gub_97 reg=40)	kiril: Вязьма	E			mevcut
+vyazniki	3	Rusya	Vyazniki	Vyazniki								Demoscope 1897 (rus_gub_97 reg=6)	kiril: Вязники	E			mevcut
+vyshny-volochyok	3	Rusya	Vyshniy Volochek	Vyshny Volochyok								Demoscope 1897 (rus_gub_97 reg=43)	kiril: Вышний Волочек	E			mevcut
+vytegra	3	Rusya	Vytegra	Vytegra								Demoscope 1897 (rus_gub_97 reg=27)	kiril: Вытегра	E			mevcut
+yadrin	3	Rusya	Yadrin	Yadrin								Demoscope 1897 (rus_gub_97 reg=14)	kiril: Ядрин	E			mevcut
+yaransk	3	Rusya	Yaransk	Yaransk								Demoscope 1897 (rus_gub_97 reg=10)	birimdeki öteki şehirler: Царевосанчурск; kiril: Яранск	E			mevcut
+yarensk	3	Rusya	Yarensk	Yarensk	62.166	49.098	atlas-yerlesim-ad-eslesmesi	Yarensk				Demoscope 1897 (rus_gub_97 reg=7)	kiril: Яренск	E			mevcut
+yelabuga	3	Rusya	Elabuga	Yelabuga	55.763	52.061	atlas-yerlesim-ad-eslesmesi	Yelabuga				Demoscope 1897 (rus_gub_97 reg=10)	kiril: Елабуга	E			mevcut
+yelatma	3	Rusya	Elatma	Yelatma								Demoscope 1897 (rus_gub_97 reg=42)	kiril: Елатьма	E			mevcut
+yenotayevka	3	Rusya	Enotaevsk	Yenotayevka								Demoscope 1897 (rus_gub_97 reg=2)	kiril: Енотаевск	E			mevcut
+yoshkar-ola	3	Rusya	Tsarevokokshaysk	Yoshkar-Ola								Demoscope 1897 (rus_gub_97 reg=14)	kiril: Царевококшайск	D	Yoshkar-Ola	Tsarevokokshaysk→Krasnokokshaysk 1919→Yoshkar-Ola 1927	mevcut
+yukhnov	3	Rusya	Yukhnov	Yukhnov								Demoscope 1897 (rus_gub_97 reg=40)	kiril: Юхнов	E			mevcut
+yurevets	3	Rusya	Yurevets	Yurevets								Demoscope 1897 (rus_gub_97 reg=18)	birimdeki öteki şehirler: Лух; kiril: Юрьевец	E			mevcut
+yuryev-polsky	3	Rusya	Yurev-Polskiy	Yuryev-Polsky								Demoscope 1897 (rus_gub_97 reg=6)	kiril: Юрьев-Польский	E			mevcut
+zadonsk	3	Rusya	Zadonsk	Zadonsk								Demoscope 1897 (rus_gub_97 reg=9)	kiril: Задонск	E			mevcut
+zaraysk	3	Rusya	Zaraysk	Zaraysk								Demoscope 1897 (rus_gub_97 reg=35)	kiril: Зарайск	E			mevcut
+zemlyansk	3	Rusya	Zemlyansk	Zemlyansk								Demoscope 1897 (rus_gub_97 reg=9)	kiril: Землянск	E			mevcut
+zhizdra	3	Rusya	Zhizdra	Zhizdra								Demoscope 1897 (rus_gub_97 reg=15)	kiril: Жиздра	E			mevcut
+zlatoust	3	Rusya	Zlatoust	Zlatoust	55.17	59.67	atlas-yerlesim-ad-eslesmesi	Zlatoust				Demoscope 1897 (rus_gub_97 reg=45)	kiril: Златоуст	E			mevcut
+zubtsov	3	Rusya	Zubtsov	Zubtsov								Demoscope 1897 (rus_gub_97 reg=43)	kiril: Зубцов	E			mevcut
+zvenigorod	3	Rusya	Zvenigorod	Zvenigorod								Demoscope 1897 (rus_gub_97 reg=24)	birimdeki öteki şehirler: Воскресенск; kiril: Звенигород	E			mevcut
+ananiv	3	Ukrayna	Ananev	Ananiv								Demoscope 1897 (rus_gub_97 reg=47)	kiril: Ананьев	E			mevcut
+bakhmut	3	Ukrayna	Bakhmut	Bakhmut								Demoscope 1897 (rus_gub_97 reg=13)	kiril: Бахмут	E		Artemovsk 1924-2016 arası; bugün Bakhmut	mevcut
+balta	3	Ukrayna	Balta	Balta	47.938	29.621	atlas-yerlesim-ad-eslesmesi	Balta				Demoscope 1897 (rus_gub_97 reg=32)	kiril: Балта	E			mevcut
+berdychiv	3	Ukrayna	Berdichev	Berdychiv	49.894	28.582	atlas-yerlesim-ad-eslesmesi	Berdiçev (Berdychiv)				Demoscope 1897 (rus_gub_97 reg=16)	kiril: Бердичев	E			mevcut
+bilhorod-dnistrovskyi	3	Ukrayna	Akkerman	Bilhorod-Dnistrovskyi								Demoscope 1897 (rus_gub_97 reg=3)	kiril: Аккерман	D	Bilhorod-Dnistrovskyi	Akkerman→Bilhorod-Dnistrovskyi 1944	mevcut
+bohodukhiv	3	Ukrayna	Bogodukhov	Bohodukhiv								Demoscope 1897 (rus_gub_97 reg=46)	birimdeki öteki şehirler: Краснокутск; kiril: Богодухов	E			mevcut
+borzna	3	Ukrayna	Borzna	Borzna								Demoscope 1897 (rus_gub_97 reg=48)	kiril: Борзна	E			mevcut
+bratslav	3	Ukrayna	Bratslav	Bratslav	48.823	28.938	atlas-yerlesim-ad-eslesmesi	Braslav (Bratslav)				Demoscope 1897 (rus_gub_97 reg=32)	kiril: Брацлав	E			mevcut
+cherkasy	3	Ukrayna	Cherkassy	Cherkasy								Demoscope 1897 (rus_gub_97 reg=16)	kiril: Черкассы	E			mevcut
+chyhyryn	3	Ukrayna	Chigirin	Chyhyryn								Demoscope 1897 (rus_gub_97 reg=16)	kiril: Чигирин	E			mevcut
+dubno	3	Ukrayna	Dubno	Dubno								Demoscope 1897 (rus_gub_97 reg=8)	kiril: Дубно	E			mevcut
+hadiach	3	Ukrayna	Gadyach	Hadiach								Demoscope 1897 (rus_gub_97 reg=33)	kiril: Гадяч	E			mevcut
+haisyn	3	Ukrayna	Gaysin	Haisyn								Demoscope 1897 (rus_gub_97 reg=32)	kiril: Гайсин	E			mevcut
+hlukhiv	3	Ukrayna	Glukhov	Hlukhiv								Demoscope 1897 (rus_gub_97 reg=48)	kiril: Глухов	E			mevcut
+horodnia	3	Ukrayna	Gorodnya	Horodnia								Demoscope 1897 (rus_gub_97 reg=48)	kiril: Городня	E			mevcut
+iziaslav	3	Ukrayna	Zaslavl	Iziaslav								Demoscope 1897 (rus_gub_97 reg=8)	kiril: Заславль	D	Iziaslav	Zaslavl→Iziaslav 1938	mevcut
+izium	3	Ukrayna	Izyum	Izium	49.21	37.29	atlas-yerlesim-ad-eslesmesi	İzyum				Demoscope 1897 (rus_gub_97 reg=46)	birimdeki öteki şehirler: Славянск; kiril: Изюм	E			mevcut
+izmail	3	Ukrayna	Izmail	Izmail								Demoscope 1897 (rus_gub_97 reg=3)	birimdeki öteki şehirler: Болград, Килия, Кагул, Рени; kiril: Измаил	E			mevcut
+kaniv	3	Ukrayna	Kanev	Kaniv								Demoscope 1897 (rus_gub_97 reg=16)	kiril: Канев	E			mevcut
+khmelnytskyi	3	Ukrayna	Proskurov	Khmelnytskyi								Demoscope 1897 (rus_gub_97 reg=32)	kiril: Проскуров	D	Khmelnytskyi	Proskurov→Khmelnytskyi 1954	mevcut
+khorol	3	Ukrayna	Khorol	Khorol								Demoscope 1897 (rus_gub_97 reg=33)	kiril: Хороль	E			mevcut
+khotyn	3	Ukrayna	Khotin	Khotyn								Demoscope 1897 (rus_gub_97 reg=3)	kiril: Хотин	E			mevcut
+kobeliaky	3	Ukrayna	Kobelyaki	Kobeliaky								Demoscope 1897 (rus_gub_97 reg=33)	kiril: Кобеляки	E			mevcut
+konotop	3	Ukrayna	Konotop	Konotop								Demoscope 1897 (rus_gub_97 reg=48)	kiril: Конотоп	E			mevcut
+kovel	3	Ukrayna	Kovel	Kovel	51.2153	24.7086	atlas-yerlesim-ad-eslesmesi	Kovel				Demoscope 1897 (rus_gub_97 reg=8)	kiril: Ковель	E			mevcut
+kozelets	3	Ukrayna	Kozelets	Kozelets								Demoscope 1897 (rus_gub_97 reg=48)	kiril: Козелец	E			mevcut
+krasnohrad	3	Ukrayna	Konstantinograd	Krasnohrad								Demoscope 1897 (rus_gub_97 reg=33)	kiril: Константиноград	D	Berestyn	Konstantinograd→Krasnohrad 1922→Berestyn (Rada, 19 Eylül 2024; kaynak: Kyiv Independent/Wikipedia, doğrulanmadı). ad_modern sütunu güncel değil	mevcut
+kremenchuk	3	Ukrayna	Kremenchug	Kremenchuk								Demoscope 1897 (rus_gub_97 reg=33)	birimdeki öteki şehirler: Градижск; kiril: Кременчуг	E			mevcut
+kremenets	3	Ukrayna	Kremenets	Kremenets								Demoscope 1897 (rus_gub_97 reg=8)	kiril: Кременец	E			mevcut
+krolevets	3	Ukrayna	Krolevets	Krolevets								Demoscope 1897 (rus_gub_97 reg=48)	birimdeki öteki şehirler: Короп; kiril: Кролевец	E			mevcut
+kropyvnytskyi	3	Ukrayna	Elisavetgrad	Kropyvnytskyi								Demoscope 1897 (rus_gub_97 reg=47)	birimdeki öteki şehirler: Бобринец, Вознесенск, Новомиргород, Ольвиополь; kiril: Елисаветград	D	Kropyvnytskyi	Elisavetgrad→Zinovievsk→Kirovo→Kirovohrad→Kropyvnytskyi 2016	mevcut
+kupiansk	3	Ukrayna	Kupyansk	Kupiansk								Demoscope 1897 (rus_gub_97 reg=46)	kiril: Купянск	E			mevcut
+lebedyn	3	Ukrayna	Lebedin	Lebedyn								Demoscope 1897 (rus_gub_97 reg=46)	birimdeki öteki şehirler: Недригайлов; kiril: Лебедин	E			mevcut
+letychiv	3	Ukrayna	Letichev	Letychiv								Demoscope 1897 (rus_gub_97 reg=32)	kiril: Летичев	E			mevcut
+lityn	3	Ukrayna	Litin	Lityn								Demoscope 1897 (rus_gub_97 reg=32)	birimdeki öteki şehirler: Сальница, Хмельник; kiril: Литин	E			mevcut
+lokhvytsia	3	Ukrayna	Lokhvitsa	Lokhvytsia								Demoscope 1897 (rus_gub_97 reg=33)	kiril: Лохвица	E			mevcut
+lubny	3	Ukrayna	Lubny	Lubny								Demoscope 1897 (rus_gub_97 reg=33)	kiril: Лубны	E			mevcut
+lutsk	3	Ukrayna	Lutsk	Lutsk	50.7472	25.3254	atlas-yerlesim-ad-eslesmesi	Lutsk (Łuck)				Demoscope 1897 (rus_gub_97 reg=8)	kiril: Луцк	E			mevcut
+lypovets	3	Ukrayna	Lipovets	Lypovets								Demoscope 1897 (rus_gub_97 reg=16)	kiril: Липовец	E			mevcut
+mariupol	3	Ukrayna	Mariupol	Mariupol	47.0971	37.5434	atlas-yerlesim-ad-eslesmesi	Mariupol				Demoscope 1897 (rus_gub_97 reg=13)	kiril: Мариуполь	E		Zhdanov 1948-1989 arası; bugün Mariupol	mevcut
+mohyliv-podilskyi	3	Ukrayna	Mogilev na Dnestre	Mohyliv-Podilskyi								Demoscope 1897 (rus_gub_97 reg=32)	birimdeki öteki şehirler: Бар; kiril: Могилев на Днестре	E			mevcut
+myrhorod	3	Ukrayna	Mirgorod	Myrhorod								Demoscope 1897 (rus_gub_97 reg=33)	kiril: Миргород	E			mevcut
+nizhyn	3	Ukrayna	Nezhin	Nizhyn								Demoscope 1897 (rus_gub_97 reg=48)	kiril: Нежин	E			mevcut
+nova-ushytsia	3	Ukrayna	Novaya Ushitsa	Nova Ushytsia								Demoscope 1897 (rus_gub_97 reg=32)	merkez adı birim adından farklı; birimdeki öteki şehirler: Старая Ушица, Вербовец; kiril: Новая Ушица	E			mevcut
+novhorod-siverskyi	3	Ukrayna	Novgorod-Severskiy	Novhorod-Siverskyi								Demoscope 1897 (rus_gub_97 reg=48)	kiril: Новгород-Северский	E			mevcut
+odesa	3	Ukrayna	Odessa	Odesa	46.485	30.733	atlas-yerlesim-ad-eslesmesi	Hacıbey (Odessa)				Demoscope 1897 (rus_gub_97 reg=47)	birimdeki öteki şehirler: Маяки, Овидиополь, Очаков; kiril: Одесса	E			mevcut
+okhtyrka	3	Ukrayna	Akhtyrka	Okhtyrka								Demoscope 1897 (rus_gub_97 reg=46)	kiril: Ахтырка	E			mevcut
+oleksandriia	3	Ukrayna	Aleksandriya	Oleksandriia								Demoscope 1897 (rus_gub_97 reg=47)	birimdeki öteki şehirler: Новогеоргиевск; kiril: Александрия	E			mevcut
+olhopil	3	Ukrayna	Olgopol	Olhopil								Demoscope 1897 (rus_gub_97 reg=32)	kiril: Ольгополь	E			mevcut
+oster	3	Ukrayna	Oster	Oster								Demoscope 1897 (rus_gub_97 reg=48)	kiril: Остер	E			mevcut
+ostroh	3	Ukrayna	Ostrog	Ostroh								Demoscope 1897 (rus_gub_97 reg=8)	kiril: Острог	E			mevcut
+ovruch	3	Ukrayna	Ovruch	Ovruch								Demoscope 1897 (rus_gub_97 reg=8)	kiril: Овруч	E			mevcut
+pavlohrad	3	Ukrayna	Pavlograd	Pavlohrad								Demoscope 1897 (rus_gub_97 reg=13)	kiril: Павлоград	E			mevcut
+pereiaslav	3	Ukrayna	Pereyaslav	Pereiaslav								Demoscope 1897 (rus_gub_97 reg=33)	kiril: Переяслав	E		Pereiaslav-Khmelnytskyi 1943-2019 arası; bugün Pereiaslav	mevcut
+pryluky	3	Ukrayna	Priluki	Pryluky								Demoscope 1897 (rus_gub_97 reg=33)	kiril: Прилуки	E			mevcut
+putyvl	3	Ukrayna	Putivl	Putyvl	51.3364	33.8703	atlas-yerlesim-ad-eslesmesi	Putivl				Demoscope 1897 (rus_gub_97 reg=20)	kiril: Путивль	E			mevcut
+pyriatyn	3	Ukrayna	Piryatin	Pyriatyn								Demoscope 1897 (rus_gub_97 reg=33)	kiril: Пирятин	E			mevcut
+radomyshl	3	Ukrayna	Radomysl	Radomyshl								Demoscope 1897 (rus_gub_97 reg=16)	kiril: Радомысль	E			mevcut
+rivne	3	Ukrayna	Rovno	Rivne	50.6199	26.2516	atlas-yerlesim-ad-eslesmesi	Rivne (Równe)				Demoscope 1897 (rus_gub_97 reg=8)	kiril: Ровно	E			mevcut
+romny	3	Ukrayna	Romny	Romny								Demoscope 1897 (rus_gub_97 reg=33)	birimdeki öteki şehirler: Глинск; kiril: Ромны	E			mevcut
+samar-(eski-novomoskovsk)	3	Ukrayna	Novomoskovsk	Samar (eski Novomoskovsk)								Demoscope 1897 (rus_gub_97 reg=13)	kiril: Новомосковск	D	Samar	Novomoskovsk→Samar (Rada, 19 Eylül 2024; kaynak: Kyiv Independent). ad_1900 Novomoskovsk, güncel Samar	mevcut
+skvyra	3	Ukrayna	Skvira	Skvyra								Demoscope 1897 (rus_gub_97 reg=16)	kiril: Сквира	E			mevcut
+slovianoserbsk	3	Ukrayna	Slavyanoserbsk	Slovianoserbsk								Demoscope 1897 (rus_gub_97 reg=13)	birimdeki öteki şehirler: Луганск; kiril: Славяносербск	E			mevcut
+sosnytsia	3	Ukrayna	Sosnitsa	Sosnytsia								Demoscope 1897 (rus_gub_97 reg=48)	kiril: Сосница	E			mevcut
+starobilsk	3	Ukrayna	Starobelsk	Starobilsk								Demoscope 1897 (rus_gub_97 reg=46)	kiril: Старобельск	E			mevcut
+starokostiantyniv	3	Ukrayna	Starokonstantinov	Starokostiantyniv	49.755	27.212	atlas-yerlesim-ad-eslesmesi	Kostantinov (Starokostiantyniv)				Demoscope 1897 (rus_gub_97 reg=8)	kiril: Староконстантинов	E			mevcut
+sumy	3	Ukrayna	Sumy	Sumy								Demoscope 1897 (rus_gub_97 reg=46)	birimdeki öteki şehirler: Белополье; kiril: Сумы	E			mevcut
+tarashcha	3	Ukrayna	Tarashcha	Tarashcha								Demoscope 1897 (rus_gub_97 reg=16)	kiril: Тараща	E			mevcut
+uman	3	Ukrayna	Uman	Uman	48.7484	30.2219	atlas-yerlesim-ad-eslesmesi	Uman				Demoscope 1897 (rus_gub_97 reg=16)	kiril: Умань	E			mevcut
+valky	3	Ukrayna	Valki	Valky								Demoscope 1897 (rus_gub_97 reg=46)	kiril: Валки	E			mevcut
+vasylkiv	3	Ukrayna	Vasilkov	Vasylkiv								Demoscope 1897 (rus_gub_97 reg=16)	kiril: Васильков	E			mevcut
+verkhnodniprovsk	3	Ukrayna	Verkhnedneprovsk	Verkhnodniprovsk								Demoscope 1897 (rus_gub_97 reg=13)	kiril: Верхнеднепровск	E			mevcut
+vinnytsia	3	Ukrayna	Vinnitsa	Vinnytsia	49.232	28.469	atlas-yerlesim-ad-eslesmesi	Vinnitsa (Vinnytsia)				Demoscope 1897 (rus_gub_97 reg=32)	kiril: Винница	E			mevcut
+volodymyr	3	Ukrayna	Vladimir-Volynskiy	Volodymyr								Demoscope 1897 (rus_gub_97 reg=8)	kiril: Владимир-Волынский	E			mevcut
+vovchansk	3	Ukrayna	Volchansk	Vovchansk								Demoscope 1897 (rus_gub_97 reg=46)	kiril: Волчанск	E			mevcut
+yampil	3	Ukrayna	Yampol	Yampil								Demoscope 1897 (rus_gub_97 reg=32)	kiril: Ямполь	E			mevcut
+zaporizhzhia	3	Ukrayna	Aleksandrovsk	Zaporizhzhia	50.9	142.16	atlas-yerlesim-ad-eslesmesi	Aleksandrovsk (Kuzey Sahalin)				Demoscope 1897 (rus_gub_97 reg=13)	kiril: Александровск	D	Zaporizhzhia	Aleksandrovsk→Zaporizhzhia 1921. KOORD UYARISI: lat/lon (50.9,142.16) Sahalin Aleksandrovsk'a ait, Zaporijya ~47.84,35.14	mevcut
+zinkiv	3	Ukrayna	Zenkov	Zinkiv								Demoscope 1897 (rus_gub_97 reg=33)	kiril: Зеньков	E			mevcut
+zmiiv	3	Ukrayna	Zmiev	Zmiiv								Demoscope 1897 (rus_gub_97 reg=46)	birimdeki öteki şehirler: Чугуев; kiril: Змиев	E			mevcut
+zolotonosha	3	Ukrayna	Zolotonosha	Zolotonosha								Demoscope 1897 (rus_gub_97 reg=33)	kiril: Золотоноша	E			mevcut
+zvenyhorodka	3	Ukrayna	Zvenigorodka	Zvenyhorodka								Demoscope 1897 (rus_gub_97 reg=16)	kiril: Звенигородка	E			mevcut
+zviahel	3	Ukrayna	Novograd-Volynskiy	Zviahel								Demoscope 1897 (rus_gub_97 reg=8)	kiril: Новоград-Волынский	D	Zviahel	Novograd-Volynskiy→Zviahel 2021	mevcut
+berdiansk	3	Ukrayna (Kırım)	Berdyansk	Berdiansk	46.7558	36.7885	atlas-yerlesim-ad-eslesmesi	Berdyansk				Demoscope 1897 (rus_gub_97 reg=41)	birimdeki öteki şehirler: Ногайск, Орехов; kiril: Бердянск	E			mevcut
+feodosiia	3	Ukrayna (Kırım)	Feodosiya	Feodosiia								Demoscope 1897 (rus_gub_97 reg=41)	birimdeki öteki şehirler: Старый Крым; kiril: Феодосия	E			mevcut
+kerch	3	Ukrayna (Kırım)	Kerch	Kerch								Demoscope 1897 (rus_gub_97 reg=41)	birimdeki öteki şehirler: Еникале; kiril: Керчь	E			mevcut
+melitopol	3	Ukrayna (Kırım)	Melitopol	Melitopol	46.8489	35.3675	atlas-yerlesim-ad-eslesmesi	Melitopol				Demoscope 1897 (rus_gub_97 reg=41)	kiril: Мелитополь	E			mevcut
+oleshky	3	Ukrayna (Kırım)	Aleshki	Oleshky								Demoscope 1897 (rus_gub_97 reg=41)	merkez adı birim adından farklı; kiril: Алешки	E		Tsyurupinsk 1928-2016 arası; bugün Oleshky	mevcut
+perekop-(harabe;-armiansk-yakini)	3	Ukrayna (Kırım)	Perekop	Perekop (harabe; Armiansk yakını)								Demoscope 1897 (rus_gub_97 reg=41)	kiril: Перекоп	H		Liste notunda harabe; şehir olarak mevcut değil (ayrıca doğrulanmadı)	mevcut
+sevastopol	3	Ukrayna (Kırım)	Sevastopol	Sevastopol								Demoscope 1897 (rus_gub_97 reg=41)	birimdeki öteki şehirler: Балаклава; kiril: Севастополь	E			mevcut
+yalta	3	Ukrayna (Kırım)	Yalta	Yalta	44.4952	34.1663	atlas-yerlesim-ad-eslesmesi	Yalta				Demoscope 1897 (rus_gub_97 reg=41)	kiril: Ялта	E			mevcut
+yevpatoriia	3	Ukrayna (Kırım)	Evpatoriya	Yevpatoriia								Demoscope 1897 (rus_gub_97 reg=41)	kiril: Евпатория	E			mevcut
+donetsk-ua	3	Ukrayna	Yuzovka	Donetsk	48.0230	37.8022	GeoNames 709717					GeoNames 709717; Donetsk oblast merkezi	Yuzovka→Stalino 1924→Donetsk 1961 (genel bilgi, doğrulanmadı); 1900'de Yuzovka; koord GeoNames sayfasından DMS: 48°01′22.80″ N, 37°48′08.06″ E	E			ek-modern-merkez
+ivano-frankivsk-ua	3	Ukrayna	Stanislav	Ivano-Frankivsk	48.9231	24.7125	GeoNames 707471					GeoNames 707471; Ivano-Frankivsk oblast merkezi	Stanislau/Stanisławów→Stanislav 1939→Ivano-Frankivsk 1962 (genel bilgi, doğrulanmadı); koord GeoNames sayfasından DMS: 48°55′23.23″ N, 24°42′44.93″ E	E			ek-modern-merkez
+luhansk-ua	3	Ukrayna	Lugansk	Luhansk	48.5681	39.3055	GeoNames 702658					GeoNames 702658; Luhansk oblast merkezi	Voroshilovgrad dönemleri 1935-58, 1970-90 (genel bilgi); koord GeoNames sayfasından DMS: 48°34′05.30″ N, 39°18′19.91″ E	E			ek-modern-merkez
+mykolaiv-ua	3	Ukrayna	Nikolaev	Mykolaiv	46.9763	31.9930	GeoNames 700569					GeoNames 700569; Mykolaiv oblast merkezi	GeoNames adı Mykolayiv; koord GeoNames sayfasından DMS: 46°58′34.50″ N, 31°59′34.66″ E	E			ek-modern-merkez
+ternopil-ua	3	Ukrayna	Tarnopol	Ternopil	49.5540	25.5907	GeoNames 691650					GeoNames 691650; Ternopil oblast merkezi	koord GeoNames sayfasından DMS: 49°33′14.54″ N, 25°35′26.41″ E	E			ek-modern-merkez
+cahul-md	3	Moldova	Kagul	Cahul	45.9046	28.1952	GeoNames 618456					GeoNames 618456; Cahul raion/il merkezi (güney)	1900 adı Rusça Kagul (genel bilgi); koord GeoNames sayfasından DMS: 45°54′16.42″ N, 28°11′42.58″ E	E			ek-modern-merkez
+comrat-md	3	Moldova	Komrat	Comrat	46.2949	28.6571	GeoNames 618405					GeoNames 618405; Gagauzya özerk bölge merkezi	1900 adı Rusça Komrat (genel bilgi); koord GeoNames sayfasından DMS: 46°17′41.57″ N, 28°39′25.67″ E	E			ek-modern-merkez
+klaipeda-lt	3	Litvanya	Memel	Klaipėda	55.7068	21.1391	GeoNames 598098					GeoNames 598098; Klaipėda apskritis merkezi	1900'de Prusya/Almanya'da (Memel); Litvanya'ya 1923; koord GeoNames sayfasından DMS: 55°42′24.48″ N, 21°08′20.83″ E	E			ek-modern-merkez
+alytus-lt	3	Litvanya	Olita	Alytus	54.3957	24.0389	GeoNames 601084					GeoNames 601084; Alytus apskritis merkezi	koord GeoNames sayfasından DMS: 54°23′44.66″ N, 24°02′19.86″ E	E			ek-modern-merkez
+marijampole-lt	3	Litvanya	Mariampol	Marijampolė	54.5579	23.3500	GeoNames 597231					GeoNames 597231; Marijampolė apskritis merkezi	Kapsukas 1955-1989 (genel bilgi); koord GeoNames sayfasından DMS: 54°33′28.33″ N, 23°21′00.14″ E	E			ek-modern-merkez
+taurage-lt	3	Litvanya	Tavrogi	Tauragė	55.2522	22.2897	GeoNames 593959					GeoNames 593959; Tauragė apskritis merkezi	1900 Rusça adı Tavrogi (genel bilgi, doğrulanmadı); koord GeoNames sayfasından DMS: 55°15′07.99″ N, 22°17′22.99″ E	E			ek-modern-merkez
+utena-lt	3	Litvanya	Utsyany	Utena	55.4978	25.6046	GeoNames 593672					GeoNames 593672; Utena apskritis merkezi	1900 Rusça adı doğrulanmadı; koord GeoNames sayfasından DMS: 55°29′52.08″ N, 25°36′16.63″ E	E			ek-modern-merkez
+narva-ee	3	Estonya	Narva	Narva	59.3772	28.1903	GeoNames 590031					GeoNames 590031; Ida-Viru maakond'da büyük kent (merkez Jõhvi)	koord GeoNames sayfasından DMS: 59°22′37.99″ N, 28°11′25.01″ E	E			ek-modern-merkez
+johvi-ee	3	Estonya	Yevve	Jõhvi	59.3592	27.4211	GeoNames 591893					GeoNames 591893; Ida-Viru maakond merkezi	1900 Rusça adı Yevve (genel bilgi, doğrulanmadı); koord GeoNames sayfasından DMS: 59°21′33.01″ N, 27°25′16.00″ E	E			ek-modern-merkez
+rapla-ee	3	Estonya		Rapla	59.0076	24.7939	GeoNames 589116					GeoNames 589116; Rapla maakond merkezi	koord GeoNames sayfasından DMS: 59°00′27.32″ N, 24°47′37.90″ E	E			ek-modern-merkez
+jogeva-ee	3	Estonya		Jõgeva	58.7467	26.3939	GeoNames 591902					GeoNames 591902; Jõgeva maakond merkezi	koord GeoNames sayfasından DMS: 58°44′48.01″ N, 26°23′38.00″ E	E			ek-modern-merkez
+polva-ee	3	Estonya		Põlva	58.0603	27.0694	GeoNames 589375					GeoNames 589375; Põlva maakond merkezi	koord GeoNames sayfasından DMS: 58°03′37.01″ N, 27°04′09.98″ E	E			ek-modern-merkez
+kardla-ee	3	Estonya		Kärdla	58.9978	22.7492	GeoNames 591632					GeoNames 591632; Hiiu maakond merkezi	koord GeoNames sayfasından DMS: 58°59′52.01″ N, 22°44′57.01″ E	E			ek-modern-merkez
+liepaja-lv	3	Letonya	Libava	Liepāja	56.5047	21.0109	GeoNames 457954					GeoNames 457954; Kurzeme bölgesi büyük şehri (Liepāja şehir)	koord GeoNames sayfasından DMS: 56°30′17.06″ N, 21°00′39.06″ E	E			ek-modern-merkez
+jurmala-lv	3	Letonya		Jūrmala	56.9680	23.7704	GeoNames 459201					GeoNames 459201; Jūrmala şehir (Riga bölgesi)	Bugünkü kent 1959'da birleştirilmiş sahil yerleşimlerinden; 1900'de tek yerleşim değil; koord GeoNames sayfasından DMS: 56°58′04.80″ N, 23°46′13.37″ E	E			ek-modern-merkez
+maykop-ru	3	Rusya	Maykop	Maykop	44.6079	40.1024	GeoNames 528293					GeoNames 528293; Adigey Cumhuriyeti merkezi	koord GeoNames sayfasından DMS: 44°36′28.40″ N, 40°06′08.71″ E	E			ek-modern-merkez
+grozny-ru	3	Rusya	Grozny	Grozny	43.3119	45.6889	GeoNames 558418					GeoNames 558418; Çeçenistan merkezi	koord GeoNames sayfasından DMS: 43°18′43.02″ N, 45°41′20.22″ E	E			ek-modern-merkez
+makhachkala-ru	3	Rusya	Petrovsk-Port	Makhachkala	42.9778	47.5003	GeoNames 532096					GeoNames 532096; Dağıstan merkezi	Petrovsk-Port→Makhachkala 1921 (genel bilgi, doğrulanmadı); koord GeoNames sayfasından DMS: 42°58′40.15″ N, 47°30′00.97″ E	E			ek-modern-merkez
+magas-ru	3	Rusya		Magas	43.2226	44.7726	GeoNames 6313621					GeoNames 6313621; İnguşetya merkezi	Yeni kent (1990'lar); 1900'de yok; eski merkez Nazran. 'O devirde var mıydı' sorgusu: yok; koord GeoNames sayfasından DMS: 43°13′21.25″ N, 44°46′21.40″ E	E			ek-modern-merkez
+nalchik-ru	3	Rusya	Nalchik	Nalchik	43.4981	43.6189	GeoNames 523523					GeoNames 523523; Kabardey-Balkar Cumhuriyeti merkezi	koord GeoNames sayfasından DMS: 43°29′53.02″ N, 43°37′08.00″ E	E			ek-modern-merkez
+elista-ru	3	Rusya	Elista	Elista	46.3079	44.2554	GeoNames 563514					GeoNames 563514; Kalmukya merkezi	1900'de küçük yerleşim (Elistinsky); doğrulanmadı; koord GeoNames sayfasından DMS: 46°18′28.58″ N, 44°15′19.33″ E	E			ek-modern-merkez
+cherkessk-ru	3	Rusya	Batalpashinskaya	Cherkessk	44.2238	42.0462	GeoNames 569154					GeoNames 569154; Karaçay-Çerkes Cumhuriyeti merkezi	Batalpashinskaya (stanitsa)→Cherkessk 1931 (genel bilgi, doğrulanmadı); koord GeoNames sayfasından DMS: 44°13′25.50″ N, 42°02′46.46″ E	E			ek-modern-merkez
+ivanovo-ru	3	Rusya	Ivanovo-Voznesensk	Ivanovo	56.9999	40.9726	GeoNames 555312					GeoNames 555312; Ivanovo oblast merkezi	Ivanovo-Voznesensk→Ivanovo 1932 (genel bilgi); koord GeoNames sayfasından DMS: 56°59′59.57″ N, 40°58′21.25″ E	E			ek-modern-merkez
+murmansk-ru	3	Rusya		Murmansk	68.9678	33.0992	GeoNames 524305					GeoNames 524305; Murmansk oblast merkezi	Kuruluş 1916; 1900'de yok; koord GeoNames sayfasından DMS: 68°58′04.01″ N, 33°05′57.19″ E	E			ek-modern-merkez
+naryan-mar-ru	3	Rusya		Naryan-Mar	67.6387	53.0037	GeoNames 523392					GeoNames 523392; Nenets Özerk Okrugu merkezi	1900'de yok/küçük (Beloshchelye; doğrulanmadı); koord GeoNames sayfasından DMS: 67°38′19.28″ N, 53°00′13.36″ E	E			ek-modern-merkez
+izhevsk-ru	3	Rusya	Izhevsk	Izhevsk	56.8522	53.1986	GeoNames 554840					GeoNames 554840; Udmurtya merkezi	Ustinov 1984-1987 (genel bilgi); koord GeoNames sayfasından DMS: 56°51′08.10″ N, 53°11′55.03″ E	E			ek-modern-merkez
+khanty-mansiysk-ru	3	Rusya	Samarovo	Khanty-Mansiysk	61.0019	69.0273	GeoNames 1503772					GeoNames 1503772; Hanti-Mansi Özerk Okrugu merkezi (Ural federal bölgesi)	Samarovo→Ostyako-Vogulsk 1930→Khanty-Mansiysk 1940 (genel bilgi, doğrulanmadı); koord GeoNames sayfasından DMS: 61°00′06.73″ N, 69°01′38.21″ E	E			ek-modern-merkez
+salekhard-ru	3	Rusya	Obdorsk	Salekhard	66.5337	66.6095	GeoNames 1493197					GeoNames 1493197; Yamal-Nenets Özerk Okrugu merkezi (Ural federal bölgesi)	Obdorsk→Salekhard 1933 (genel bilgi, doğrulanmadı); koord GeoNames sayfasından DMS: 66°32′01.43″ N, 66°36′34.38″ E	E			ek-modern-merkez
