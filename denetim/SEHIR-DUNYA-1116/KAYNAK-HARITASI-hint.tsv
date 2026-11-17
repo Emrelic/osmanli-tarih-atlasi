@@ -1,0 +1,23 @@
+ulke	dil	kaynak	tur	url	tam_govde	sehir_sorgulanabilir	ornek_sorgu	olcum_notu
+Hindistan	en	Imperial Gazetteer of India (DSAL, Chicago)	gazetteer	https://dsal.uchicago.edu/reference/gazetteer/	K	? (şehir girişi sayfası ölçülmedi)	dsal.uchicago.edu/reference/gazetteer/	ana sayfa açıldı (1 434 kr); şehir girişi tam gövdesi ölçülmedi — F2'de denenecek
+Hindistan	en	Sewell, A Forgotten Empire (Vijayanagar) — archive.org tam metin	monografi	https://archive.org/stream/forgottenempire00robe/forgottenempire00robe_djvu.txt	E	H (şehir arama yok; metinde ara)	sayfayı aç, innerText ara	884 536 kr; JS fetch 45 sn'yi aşar, sayfa olarak aç
+Hindistan	en	Majumdar (ed.), HCIP Vol. VI The Delhi Sultanate — archive.org	monografi	https://archive.org/stream/delhisultanate00bhar/delhisultanate00bhar_djvu.txt	E	H (metinde ara)	sayfayı aç, innerText ara	433 869 kr; ilk istek 504 verdi, yenilenince açıldı
+Hindistan	en	Majumdar (ed.), HCIP Vol. IV The Age of Imperial Kanauj — archive.org	monografi	https://archive.org/stream/ageofimperialkan04bhar/ageofimperialkan04bhar_djvu.txt	E	H (metinde ara)	—	ajanlar parti 4'te okudu; LAB karakter ölçümü yapmadı (okundu)
+Hindistan	en	Majumdar (ed.), HCIP Vol. V The Struggle for Empire — archive.org	monografi	https://archive.org/details/historycultureof0000unse_n2v6	H	—	—	ödünç/kısıtlı: tam metin 252 kr (okunamadı)
+Bangladeş	en	Banglapedia (Asiatic Society of Bangladesh)	ansiklopedi	https://en.banglapedia.org/index.php/<Ad>	E	E (/index.php/<Ad>)	en.banglapedia.org/index.php/Dhaka	86 950 kr (Dhaka)
+Hindistan/Pakistan/Bangladeş	fa/ar	Elliot & Dowson, History of India as Told by Its Own Historians; Ferishta; Barani	kronik neşri	archive.org	?	?	—	ölçülmedi (aday)
+Hindistan	en	Epigraphia Indica / Epigraphia Carnatica / ASI raporları	epigrafi	archive.org / indianculture.gov.in	?	?	—	ölçülmedi (aday; Bîcâpur/Bîdar/Golkonda 1281 öncesi ilk anılış için gerekli)
+Hindistan	en	Hooja, A History of Rajasthan; Tillotson, Jaipur Nama	monografi	(kitap)	?	—	—	web'de tam metin bulunamadı; Çitor/Udeypûr/Codhpûr/Caypûr için gerekli
+Sri Lanka	en	K. M. de Silva, A History of Sri Lanka; Paranavitana	monografi	(kitap)	?	—	—	ölçülmedi (aday; Kandy/Kotte/Dambadeniya için)
+Nepal	en	Regmi, Ancient Nepal; Slusser, Nepal Mandala	monografi	(kitap)	?	—	—	ölçülmedi (aday; Katmandu k12'de var)
+Maldivler	en	Maloney, People of the Maldive Islands; Bell, The Maldive Islands	monografi	archive.org	?	?	—	ölçülmedi (aday; Malé TDV'de şehre özgü tarih yok)
+Hindistan	en/fr/pt/nl	Sömürge arşivi neşirleri (Goa/Daman: Portekiz; Pondichéry/Karaikal/Mahé/Yanam: Fransız; Tranquebar: Danimarka; Serampore: Danimarka)	arşiv neşri	gallica.bnf.fr / archive.org	?	?	—	ölçülmedi (aday)
+(genel)	en	Encyclopaedia Britannica	ansiklopedi	https://www.britannica.com/place/<Ad>	E	E (/place/<Ad>; slug tahmini, 404 = slug yok)	britannica.com/place/Ahmedabad	13 404 kr (Ahmedabad); tek başına yetmez (CLAUDE.md çift teyit)
+(genel)	en	Encyclopaedia Iranica	ansiklopedi	https://www.iranicaonline.org/articles/<slug>	E	E (slug)	iranicaonline.org/articles/bukhara-i	8 529 kr (BUKHARA i); WebFetch 403 veriyordu, gömülü tarayıcıda açılıyor
+(genel)	tr	TDV İslâm Ansiklopedisi	ansiklopedi	https://islamansiklopedisi.org.tr/<slug>	E	E (arama /arama/?q=; madde BAŞLIĞI eşleşmesi şart)	islamansiklopedisi.org.tr/hucend	~7 400 kr madde gövdesi (Hucend); 429 riski: ≥10 sn aralık
+(genel)	en	UNESCO World Heritage Centre	kurumsal	https://whc.unesco.org/en/list/<no>	E	K (yalnız dünya mirası şehirleri)	whc.unesco.org/en/list/1551	14 806 kr (Historic City of Ahmadabad)
+(genel)	en	Cambridge Core (dergi/kitap)	dergi/monografi	https://www.cambridge.org/core	K	K (arama ölçülmedi)	cambridge.org/core/journals/journal-of-african-history	dergi sayfası 6 398 kr; makale/bölüm tam metni giriş/ücret isteyebilir
+(genel)	en	JSTOR	dergi	https://www.jstor.org	K	H (makale tam metni 'library access' ister)	jstor.org/journal/jafricanhistory	kısa 'Client Challenge' kendiliğinden geçti; dergi sayfası 2 456 kr; makale metni yok
+(genel)	en	Oxford Academic (OUP)	dergi/monografi	https://academic.oup.com	K	? 	academic.oup.com	ilk girişte Cloudflare 'Just a moment' (403), 10 sn bekleyince açıldı; ana sayfa 2 039 kr; makale metni ölçülmedi
+(genel)	fr	Persée	dergi arşivi	https://www.persee.fr	K	? 	persee.fr	ana sayfa 6 470 kr; Fransızca makale tam metni ölçülmedi
+(genel)	tr/en	DergiPark	dergi platformu	https://dergipark.org.tr	K	H (ARAMA CAPTCHA)	dergipark.org.tr/tr/pub/otam	dergi ana sayfası açılıyor (OTAM 3 968 kr); arama 'gerçek kişi doğrulaması' ister
