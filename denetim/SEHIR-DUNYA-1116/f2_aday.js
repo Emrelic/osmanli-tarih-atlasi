@@ -10,16 +10,17 @@ fs.readdirSync(path.join(KOK, 'data')).filter(function (f) { return /^sehir_tari
 var refs = ['origin/main'].concat(git('branch -r').split('\n').map(function (s) { return s.trim(); }).filter(function (s) { return /^origin\/sehir-.*-1116$/.test(s); }));
 refs.forEach(function (br) { try { git('ls-tree -r --name-only ' + br + ' data').split('\n').filter(function (s) { return /^data\/sehir_tarihce_.*\.js$/.test(s); }).forEach(function (d) { var ad = d.replace('data/', ''); if (!kaynaklar[ad]) { try { kaynaklar[ad] = git('show ' + br + ':' + d); } catch (e) {} } }); } catch (e) {} });
 var idx = {};
-Object.keys(kaynaklar).forEach(function (f) { var win = run(kaynaklar[f]); Object.keys(win).forEach(function (k) { if (!Array.isArray(win[k])) return; win[k].forEach(function (c) { if (!c || !c.id) return; [c.ad, c.atlas_ad].concat(c.adlar || []).forEach(function (n) { var z = norm(n); if (z.length > 2) (idx[z] = idx[z] || []).push(f); }); }); }); });
+Object.keys(kaynaklar).forEach(function (f) { var win = run(kaynaklar[f]); Object.keys(win).forEach(function (k) { if (!Array.isArray(win[k])) return; win[k].forEach(function (c) { if (!c || !c.id) return; [c.ad, c.atlas_ad].concat(c.adlar || []).forEach(function (n) { var z = norm(n); if (z.length > 2) (idx[z] = idx[z] || []).push({ f: f, lat: c.lat, lon: c.lon }); }); }); }); });
+function km(a, b, c, d) { var p = Math.PI / 180, x = Math.sin((c - a) * p / 2) ** 2 + Math.cos(a * p) * Math.cos(c * p) * Math.sin((d - b) * p / 2) ** 2; return 12742 * Math.asin(Math.sqrt(x)); }
 function tsv(dosya) { var t = fs.readFileSync(dosya, 'utf8').replace(/\r/g, '').split('\n'); var h = t[0].split('\t'); return t.slice(1).filter(Boolean).map(function (l) { var p = l.split('\t'), o = {}; h.forEach(function (k, i) { o[k] = p[i] || ''; }); return o; }); }
 var cikti = ['blok\toncelik\tad_modern\tad_1900\tmodern_ulke\tlat\tlon\tgiris\tkat\tkronoloji_madde\tnot_'], say = {};
 ['afrika-guney-bati', 'hint', 'orta-asya-mogolistan'].forEach(function (b) {
   tsv(path.join(D, b, 'LISTE.tsv')).forEach(function (x) {
     var adlar = [x.ad_1900, x.ad_modern, x.atlas_en_yakin].concat((x.adlar || '').split(/[;|]/)).map(norm).filter(function (z) { return z.length > 2; });
-    var var_ = adlar.some(function (z) { return idx[z]; }); if (var_) return;
+    var var_ = adlar.some(function (z) { return (idx[z] || []).some(function (e) { if (!x.lat || e.lat == null || e.lon == null) return true; return km(+x.lat, +x.lon, +e.lat, +e.lon) <= 30; }); }); if (var_) return;
     var p = (x.giris === 'atlas-k3' || x.giris === 'kronoloji' || x.kronoloji_madde) ? 'P1' : (x.giris === 'britannica-eksik' ? 'P2' : 'P3');
     say[b + ' ' + p] = (say[b + ' ' + p] || 0) + 1;
-    cikti.push([b, p, x.ad_modern || x.atlas_en_yakin + ' (atlas)', x.ad_1900, x.modern_ulke, x.lat, x.lon, x.giris, x.kat, x.kronoloji_madde.slice(0, 120), x.not_.slice(0, 100)].join('\t'));
+    cikti.push([b, p, x.ad_modern || x.atlas_en_yakin + ' (atlas)', x.ad_1900, x.modern_ulke, x.lat, x.lon, x.giris, x.kat, x.kronoloji_madde.slice(0, 120), (/Akra/.test(x.atlas_en_yakin) && +x.lat > 30 ? 'ETİKET: Irak Akre noktası (36.74,43.89); Accra DEĞİL. Kronoloji yer_id "Akra (Accra)" bu noktaya bağlı görünüyor → atlas bağlantı hatası olabilir; Accra için ayrı satır (Accra, P3). ' : '') + x.not_.slice(0, 100)].join('\t'));
   });
 });
 fs.writeFileSync(path.join(D, 'F2-ADAY.tsv'), cikti.join('\n') + '\n');
