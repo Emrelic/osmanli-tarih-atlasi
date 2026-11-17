@@ -1,0 +1,581 @@
+blok	ad	ulke	lat	lon	durum	eslesme_turu	eslesen_kayit
+afrika-kuzey-dogu	Addis Ababa	Etiyopya	9.02497	38.74689	BORC		
+afrika-kuzey-dogu	Cibuti	Cibuti	11.58901	43.14503	BORC		
+afrika-kuzey-dogu	Asmara	Eritre	15.33805	38.93184	KAYIT VAR	KOORD<=3km	Asmara@yerel:sehir_tarihce_k12.js (0.1 km)
+afrika-kuzey-dogu	Adwa	Etiyopya	14.16347	38.89924	BORC		
+afrika-kuzey-dogu	Debre Markos	Etiyopya	10.35000	37.73333	BORC		
+afrika-kuzey-dogu	Gondar	Etiyopya	12.60000	37.46667	KAYIT VAR	KOORD<=3km	Gondar@yerel:sehir_tarihce_k12.js (0.3 km)
+afrika-kuzey-dogu	Harar	Etiyopya	9.31387	42.11815	KAYIT VAR	KOORD<=3km	Harar@yerel:sehir_tarihce_k12.js (0.2 km)
+afrika-kuzey-dogu	Kismayo	Somali	-0.35817	42.54536	BORC		
+afrika-kuzey-dogu	Mogadişu	Somali	2.03711	45.34375	KAYIT VAR	KOORD<=3km	Mogadişu@yerel:sehir_tarihce_k12.js (0.2 km)
+afrika-kuzey-dogu	Berbera	Somali (Somaliland)	10.43959	45.01432	BORC		
+afrika-kuzey-dogu	Fès	Fas	34.03313	-5.00028	KAYIT VAR	KOORD<=3km	Fès@yerel:sehir_tarihce_afrika_magrip.js (0.0 km)
+afrika-kuzey-dogu	El Fasher	Sudan	13.62793	25.34936	KAYIT VAR	KOORD<=3km	El Fasher@yerel:sehir_tarihce_osm.js (0.0 km)
+afrika-kuzey-dogu	Algiers	Cezayir	36.73225	3.08746	KAYIT VAR	KOORD<=3km	Algiers@yerel:sehir_tarihce_afrika_magrip.js (0.0 km)
+afrika-kuzey-dogu	Constantine	Cezayir	36.36500	6.61472	KAYIT VAR	KOORD<=3km	Constantine@yerel:sehir_tarihce_afrika_magrip2.js (0.0 km)
+afrika-kuzey-dogu	Oran	Cezayir	35.69906	-0.63588	KAYIT VAR	KOORD<=3km	Oran@yerel:sehir_tarihce_afrika_magrip.js (0.0 km)
+afrika-kuzey-dogu	Benghazi	Libya	32.11486	20.06859	KAYIT VAR	KOORD<=3km	Benghazi@yerel:sehir_tarihce_afrika_magrip2.js (0.0 km)
+afrika-kuzey-dogu	Tripoli	Libya	32.88743	13.18733	KAYIT VAR	KOORD<=3km	Tripoli@yerel:sehir_tarihce_afrika_magrip.js (0.1 km)
+afrika-kuzey-dogu	Alexandria	Mısır	31.20176	29.91582	KAYIT VAR	KOORD<=3km	Iskenderiye'nin kurulusu@yerel:sehir_tarihce_arkeoloji_d3-misir-afrika.js (0.6 km)
+afrika-kuzey-dogu	Arish	Mısır	31.13159	33.79844	KAYIT VAR	KOORD<=3km	Arish@yerel:sehir_tarihce_osm.js (0.1 km)
+afrika-kuzey-dogu	Asyut	Mısır	27.18096	31.18368	KAYIT VAR	KOORD<=3km	Asyut@yerel:sehir_tarihce_osm.js (0.0 km)
+afrika-kuzey-dogu	Banha	Mısır	30.45980	31.18420	KAYIT VAR	KOORD<=3km	Banha@yerel:sehir_tarihce_osm.js (0.0 km)
+afrika-kuzey-dogu	Beni Suef	Mısır	29.07440	31.09790	KAYIT VAR	KOORD<=3km	Beni Suef@yerel:sehir_tarihce_osm.js (0.0 km)
+afrika-kuzey-dogu	Cairo	Mısır	30.06263	31.24967	KAYIT VAR	KOORD<=3km	Cairo@yerel:sehir_tarihce_k3_g1.js (0.1 km)
+afrika-kuzey-dogu	Damanhur	Mısır	31.03408	30.46823	KAYIT VAR	KOORD<=3km	Damanhur@yerel:sehir_tarihce_osm.js (0.0 km)
+afrika-kuzey-dogu	Damietta	Mısır	31.41650	31.81330	KAYIT VAR	KOORD<=3km	Damietta@yerel:sehir_tarihce_osm.js (0.1 km)
+afrika-kuzey-dogu	Faiyum	Mısır	29.30995	30.84180	KAYIT VAR	KOORD<=3km	Faiyum@yerel:sehir_tarihce_osm.js (0.0 km)
+afrika-kuzey-dogu	Girga	Mısır	26.33721	31.89295	KAYIT VAR	KOORD<=3km	Girga@yerel:sehir_tarihce_osm.js (0.0 km)
+afrika-kuzey-dogu	Giza	Mısır	30.00944	31.20861	KAYIT VAR	KOORD<=3km	Fustat@yerel:sehir_tarihce_afrika_misir.js (2.9 km)
+afrika-kuzey-dogu	Mansoura	Mısır	31.03637	31.38069	KAYIT VAR	KOORD<=3km	Mansoura@yerel:sehir_tarihce_osm.js (0.1 km)
+afrika-kuzey-dogu	Minya	Mısır	28.09190	30.75810	KAYIT VAR	KOORD<=3km	Minya@yerel:sehir_tarihce_osm.js (0.0 km)
+afrika-kuzey-dogu	Port Said	Mısır	31.26530	32.30190	KAYIT VAR	KOORD<=3km	Port Said@yerel:sehir_tarihce_osm.js (0.0 km)
+afrika-kuzey-dogu	Qena	Mısır	26.16420	32.72670	KAYIT VAR	KOORD<=3km	Qena@yerel:sehir_tarihce_osm.js (0.0 km)
+afrika-kuzey-dogu	Quseir	Mısır	26.10610	34.27720	KAYIT VAR	KOORD<=3km	Quseir@yerel:sehir_tarihce_osm.js (0.0 km)
+afrika-kuzey-dogu	Rosetta (Rashid)	Mısır	31.39951	30.41718	KAYIT VAR	KOORD<=3km	Rosetta (Rashid)@yerel:sehir_tarihce_osm.js (0.1 km)
+afrika-kuzey-dogu	Shibin el-Kom	Mısır	30.55258	31.00904	KAYIT VAR	KOORD<=3km	Shibin el-Kom@yerel:sehir_tarihce_osm.js (0.0 km)
+afrika-kuzey-dogu	Tanta	Mısır	30.78847	31.00192	KAYIT VAR	KOORD<=3km	Tanta@yerel:sehir_tarihce_osm.js (0.1 km)
+afrika-kuzey-dogu	Zagazig	Mısır	30.58768	31.50200	KAYIT VAR	KOORD<=3km	Zagazig@yerel:sehir_tarihce_osm.js (0.0 km)
+afrika-kuzey-dogu	Ed Damer	Sudan	17.59898	33.97205	KAYIT VAR	KOORD<=3km	Ed Damer@yerel:sehir_tarihce_osm.js (0.0 km)
+afrika-kuzey-dogu	El Obeid	Sudan	13.18421	30.21669	KAYIT VAR	KOORD<=3km	El Obeid@yerel:sehir_tarihce_osm.js (0.0 km)
+afrika-kuzey-dogu	Kassala	Sudan	15.45099	36.39998	KAYIT VAR	KOORD<=3km	Kassala@yerel:sehir_tarihce_osm.js (0.0 km)
+afrika-kuzey-dogu	Khartoum	Sudan	15.55177	32.53241	KAYIT VAR	KOORD<=3km	Khartoum@yerel:sehir_tarihce_osm.js (0.1 km)
+afrika-kuzey-dogu	Kodok	Sudan	9.88889	32.10944	KAYIT VAR	KOORD<=3km	Kodok@yerel:sehir_tarihce_osm.js (0.0 km)
+afrika-kuzey-dogu	Merowe	Sudan	18.47036	31.81126	KAYIT VAR	KOORD<=3km	Merowe@yerel:sehir_tarihce_osm.js (0.0 km)
+afrika-kuzey-dogu	Singa	Sudan	13.14830	33.93117	KAYIT VAR	KOORD<=3km	Singa@yerel:sehir_tarihce_osm.js (0.0 km)
+afrika-kuzey-dogu	Suakin	Sudan	19.10590	37.33210	KAYIT VAR	KOORD<=3km	Suakin@yerel:sehir_tarihce_osm.js (0.0 km)
+afrika-kuzey-dogu	Wadi Halfa	Sudan	21.79577	31.37129	KAYIT VAR	KOORD<=3km	Wadi Halfa@yerel:sehir_tarihce_osm.js (0.0 km)
+afrika-kuzey-dogu	Tunis	Tunus	36.81897	10.16579	KAYIT VAR	KOORD<=3km	Tunis@yerel:sehir_tarihce_afrika_magrip.js (0.0 km)
+afrika-kuzey-dogu	Annaba	Cezayir	36.90000	7.76667	KAYIT VAR	KOORD<=3km	Annaba@yerel:sehir_tarihce_afrika_magrip.js (0.0 km)
+afrika-kuzey-dogu	Aïn Sefra	Cezayir	32.75000	-0.58333	KAYIT VAR	KOORD<=3km	Aïn Sefra@yerel:sehir_tarihce_osm.js (0.0 km)
+afrika-kuzey-dogu	Batna	Cezayir	35.55597	6.17414	KAYIT VAR	KOORD<=3km	Batna@yerel:sehir_tarihce_osm.js (0.0 km)
+afrika-kuzey-dogu	Béjaïa	Cezayir	36.75587	5.08433	KAYIT VAR	KOORD<=3km	Béjaïa@yerel:sehir_tarihce_afrika_magrip.js (0.0 km)
+afrika-kuzey-dogu	Chlef	Cezayir	36.16525	1.33452	KAYIT VAR	KOORD<=3km	Chlef@yerel:sehir_tarihce_osm.js (0.1 km)
+afrika-kuzey-dogu	Guelma	Cezayir	36.46214	7.42608	KAYIT VAR	KOORD<=3km	Guelma@yerel:sehir_tarihce_osm.js (0.0 km)
+afrika-kuzey-dogu	Laghouat	Cezayir	33.80000	2.86514	KAYIT VAR	KOORD<=3km	Laghouat@yerel:sehir_tarihce_osm.js (0.0 km)
+afrika-kuzey-dogu	Mascara	Cezayir	35.39664	0.14027	KAYIT VAR	KOORD<=3km	Mascara@yerel:sehir_tarihce_osm.js (0.0 km)
+afrika-kuzey-dogu	Miliana	Cezayir	36.30554	2.22480	KAYIT VAR	KOORD<=3km	Miliana@yerel:sehir_tarihce_afrika_magrip.js (0.1 km)
+afrika-kuzey-dogu	Mostaganem	Cezayir	35.93115	0.08918	KAYIT VAR	KOORD<=3km	Mostaganem@yerel:sehir_tarihce_afrika_magrip2.js (0.0 km)
+afrika-kuzey-dogu	Médéa	Cezayir	36.26417	2.75393	KAYIT VAR	KOORD<=3km	Médéa@yerel:sehir_tarihce_afrika_magrip.js (0.0 km)
+afrika-kuzey-dogu	Sidi Bel Abbès	Cezayir	35.18994	-0.63085	KAYIT VAR	KOORD<=3km	Sidi Bel Abbès@yerel:sehir_tarihce_osm.js (0.0 km)
+afrika-kuzey-dogu	Skikda	Cezayir	36.87617	6.90921	KAYIT VAR	KOORD<=3km	Skikda@yerel:sehir_tarihce_osm.js (0.0 km)
+afrika-kuzey-dogu	Sétif	Cezayir	36.19112	5.41373	KAYIT VAR	KOORD<=3km	Sétif@yerel:sehir_tarihce_osm.js (0.0 km)
+afrika-kuzey-dogu	Tizi Ouzou	Cezayir	36.71182	4.04591	KAYIT VAR	KOORD<=3km	Tizi Ouzou@yerel:sehir_tarihce_osm.js (0.0 km)
+afrika-kuzey-dogu	Tlemcen	Cezayir	34.87833	-1.31500	KAYIT VAR	KOORD<=3km	Tlemcen@yerel:sehir_tarihce_afrika_magrip.js (0.0 km)
+afrika-kuzey-dogu	Khoms	Libya	32.64861	14.26191	KAYIT VAR	KOORD<=3km	Khoms@yerel:sehir_tarihce_osm.js (0.0 km)
+afrika-kuzey-dogu	Murzuk	Libya	25.91552	13.91839	KAYIT VAR	KOORD<=3km	Murzuk@yerel:sehir_tarihce_afrika_magrip2.js (0.1 km)
+afrika-kuzey-dogu	Yafran	Libya	32.06329	12.52859	KAYIT VAR	KOORD<=3km	Yafran@yerel:sehir_tarihce_osm.js (0.1 km)
+afrika-kuzey-dogu	Kayravan	Tunus	35.67810	10.09633	KAYIT VAR	KOORD<=3km	Kayravan (Kairouan)@yerel:sehir_tarihce_afrika_magrip.js (0.0 km)
+afrika-kuzey-dogu	Mehdiye	Tunus	35.50472	11.06222	KAYIT VAR	KOORD<=3km	Mehdiye (Mahdia)@yerel:sehir_tarihce_afrika_magrip.js (0.0 km)
+afrika-kuzey-dogu	Sfax	Tunus	34.74056	10.76028	KAYIT VAR	KOORD<=3km	Sfax@yerel:sehir_tarihce_afrika_magrip.js (0.1 km)
+afrika-kuzey-dogu	Susa (Sousse)	Tunus	35.82539	10.63699	KAYIT VAR	KOORD<=3km	Susa (Sousse)@yerel:sehir_tarihce_afrika_magrip.js (0.0 km)
+afrika-kuzey-dogu	Fustat	Mısır	30.00737	31.23927	KAYIT VAR	KOORD<=3km	Fustat@yerel:sehir_tarihce_afrika_misir.js (0.0 km)
+afrika-kuzey-dogu	Tanca	Fas	35.76727	-5.79975	KAYIT VAR	KOORD<=3km	Tanca@yerel:sehir_tarihce_afrika_magrip.js (0.0 km)
+afrika-kuzey-dogu	Sebte (Ceuta)	İspanya (Fas ç.)	35.88919	-5.32042	KAYIT VAR	KOORD<=3km	Ceuta@yerel:sehir_tarihce_afrika_magrip2.js (0.0 km)
+afrika-kuzey-dogu	Rabat	Fas	34.01325	-6.83255	KAYIT VAR	KOORD<=3km	Rabat@yerel:sehir_tarihce_afrika_magrip.js (0.0 km)
+afrika-kuzey-dogu	Meroe	Sudan	16.93779	33.71008	KAYIT VAR	AD<=25km	Kush krallığı — Meroe dönemi@yerel:sehir_tarihce_arkeoloji_misir-nil-sahra.js (4.4 km)
+afrika-kuzey-dogu	Dongola	Sudan	19.18163	30.47689	BORC		
+afrika-kuzey-dogu	Asvan (Aswan)	Mısır	24.09082	32.89942	KAYIT VAR	KOORD<=3km	Aswan@yerel:sehir_tarihce_afrika_misir.js (0.0 km)
+afrika-kuzey-dogu	Aksum	Etiyopya	14.12109	38.72337	KAYIT VAR	KOORD<=3km	Aksum@yerel:sehir_tarihce_k12.js (0.8 km)
+afrika-kuzey-dogu	Old Dongola (Dunkula, Makurya başkenti)	Sudan	18.22380	30.74312	BORC		
+kuzey-avrupa	London	Birleşik Krallık	51.50853	-0.12574	KAYIT VAR	KOORD<=3km	Londra@yerel:sehir_tarihce_k3_g2.js (0.2 km)
+kuzey-avrupa	Edinburgh	Birleşik Krallık	55.95206	-3.19648	KAYIT VAR	KOORD<=3km	Edinburg@yerel:sehir_tarihce_k12.js (0.5 km)
+kuzey-avrupa	Dublin	İrlanda	53.33306	-6.24889	KAYIT VAR	KOORD<=3km	Dublin@yerel:sehir_tarihce_k12.js (2.0 km)
+kuzey-avrupa	Reykjavík	İzlanda	64.13548	-21.89541	KAYIT VAR	KOORD<=3km	Reykjavík@yerel:sehir_tarihce_k12.js (2.6 km)
+kuzey-avrupa	Akureyri	İzlanda	65.68353	-18.08780	KAYIT VAR	KOORD<=3km	Akureyri@yerel:sehir_tarihce_kuzey_avrupa_2.js (0.1 km)
+kuzey-avrupa	Tórshavn	Faroe Adaları	62.00973	-6.77164	KAYIT VAR	KOORD<=3km	Tórshavn@yerel:sehir_tarihce_kuzey_avrupa_2.js (0.0 km)
+kuzey-avrupa	København	Danimarka	55.67594	12.56553	KAYIT VAR	KOORD<=3km	Kopenhag@yerel:sehir_tarihce_k12.js (0.2 km)
+kuzey-avrupa	Aalborg	Danimarka	57.04800	9.91870	KAYIT VAR	KOORD<=3km	Aalborg@yerel:sehir_tarihce_k3.js (0.0 km)
+kuzey-avrupa	Aarhus	Danimarka	56.15674	10.21076	KAYIT VAR	KOORD<=3km	Aarhus@yerel:sehir_tarihce_k3.js (0.1 km)
+kuzey-avrupa	Hillerød	Danimarka	55.92791	12.30081	KAYIT VAR	KOORD<=3km	Hillerød@yerel:sehir_tarihce_kuzey_avrupa_1.js (0.0 km)
+kuzey-avrupa	Hjørring	Danimarka	57.46417	9.98229	KAYIT VAR	KOORD<=3km	Hjørring@yerel:sehir_tarihce_kuzey_avrupa_1.js (0.0 km)
+kuzey-avrupa	Holbæk	Danimarka	55.71750	11.71279	KAYIT VAR	KOORD<=3km	Holbæk@yerel:sehir_tarihce_kuzey_avrupa_1.js (0.1 km)
+kuzey-avrupa	Maribo	Danimarka	54.77662	11.50017	KAYIT VAR	KOORD<=3km	Maribo@yerel:sehir_tarihce_kuzey_avrupa_1.js (0.0 km)
+kuzey-avrupa	Odense	Danimarka	55.39594	10.38831	KAYIT VAR	KOORD<=3km	Odense@yerel:sehir_tarihce_k3.js (0.0 km)
+kuzey-avrupa	Præstø	Danimarka	55.12374	12.04477	KAYIT VAR	KOORD<=3km	Præstø@yerel:sehir_tarihce_kuzey_avrupa_1.js (0.0 km)
+kuzey-avrupa	Randers	Danimarka	56.46070	10.03639	KAYIT VAR	KOORD<=3km	Randers@yerel:sehir_tarihce_kuzey_avrupa_1.js (0.0 km)
+kuzey-avrupa	Ribe	Danimarka	55.33051	8.76966	KAYIT VAR	KOORD<=3km	Ribe@yerel:sehir_tarihce_k3.js (0.4 km)
+kuzey-avrupa	Ringkøbing	Danimarka	56.09006	8.24402	KAYIT VAR	KOORD<=3km	Ringkøbing@yerel:sehir_tarihce_kuzey_avrupa_1.js (0.0 km)
+kuzey-avrupa	Rønne	Danimarka	55.10091	14.70664	KAYIT VAR	KOORD<=3km	Rønne (Bornholm)@yerel:sehir_tarihce_k3.js (0.3 km)
+kuzey-avrupa	Sorø	Danimarka	55.43184	11.55547	KAYIT VAR	KOORD<=3km	Sorø@yerel:sehir_tarihce_kuzey_avrupa_1.js (0.0 km)
+kuzey-avrupa	Svendborg	Danimarka	55.05982	10.60677	KAYIT VAR	KOORD<=3km	Svendborg@yerel:sehir_tarihce_kuzey_avrupa_1.js (0.0 km)
+kuzey-avrupa	Thisted	Danimarka	56.95523	8.69491	KAYIT VAR	KOORD<=3km	Thisted@yerel:sehir_tarihce_kuzey_avrupa_1.js (0.0 km)
+kuzey-avrupa	Vejle	Danimarka	55.70927	9.53570	KAYIT VAR	KOORD<=3km	Vejle@yerel:sehir_tarihce_kuzey_avrupa_1.js (0.0 km)
+kuzey-avrupa	Viborg	Danimarka	56.45319	9.40201	KAYIT VAR	KOORD<=3km	Viborg (Jutland)@yerel:sehir_tarihce_k3.js (0.2 km)
+kuzey-avrupa	Oslo	Norveç	59.91273	10.74609	KAYIT VAR	KOORD<=3km	Oslo@yerel:sehir_tarihce_k12.js (0.3 km)
+kuzey-avrupa	Arendal	Norveç	58.46151	8.77253	KAYIT VAR	KOORD<=3km	Arendal@yerel:sehir_tarihce_kuzey_avrupa_1.js (0.1 km)
+kuzey-avrupa	Bergen	Norveç	60.39299	5.32415	KAYIT VAR	KOORD<=3km	Bergen@yerel:sehir_tarihce_k12.js (0.0 km)
+kuzey-avrupa	Bodø	Norveç	67.28267	14.37513	KAYIT VAR	KOORD<=3km	Bodø@yerel:sehir_tarihce_kuzey_avrupa_2.js (0.0 km)
+kuzey-avrupa	Drammen	Norveç	59.74389	10.20449	KAYIT VAR	KOORD<=3km	Drammen@yerel:sehir_tarihce_kuzey_avrupa_1.js (0.0 km)
+kuzey-avrupa	Hamar	Norveç	60.79450	11.06798	KAYIT VAR	KOORD<=3km	Hamar@yerel:sehir_tarihce_kuzey_avrupa_2.js (0.1 km)
+kuzey-avrupa	Kristiansand	Norveç	58.14671	7.99560	KAYIT VAR	KOORD<=3km	Kristiansand@yerel:sehir_tarihce_kuzey_avrupa_2.js (0.0 km)
+kuzey-avrupa	Leikanger	Norveç	61.18561	6.80453	BORC		
+kuzey-avrupa	Lillehammer	Norveç	61.11514	10.46628	KAYIT VAR	KOORD<=3km	Lillehammer@yerel:sehir_tarihce_kuzey_avrupa_2.js (0.0 km)
+kuzey-avrupa	Molde	Norveç	62.73752	7.15912	KAYIT VAR	KOORD<=3km	Molde@yerel:sehir_tarihce_kuzey_avrupa_2.js (0.1 km)
+kuzey-avrupa	Moss	Norveç	59.43403	10.65771	KAYIT VAR	KOORD<=3km	Moss@yerel:sehir_tarihce_kuzey_avrupa_2.js (0.0 km)
+kuzey-avrupa	Skien	Norveç	59.20962	9.60897	KAYIT VAR	KOORD<=3km	Skien@yerel:sehir_tarihce_kuzey_avrupa_2.js (0.0 km)
+kuzey-avrupa	Stavanger	Norveç	58.97005	5.73332	KAYIT VAR	KOORD<=3km	Stavanger@yerel:sehir_tarihce_kuzey_avrupa_2.js (0.0 km)
+kuzey-avrupa	Steinkjer	Norveç	64.01487	11.49537	KAYIT VAR	KOORD<=3km	Steinkjer@yerel:sehir_tarihce_kuzey_avrupa_1.js (0.0 km)
+kuzey-avrupa	Tromsø	Norveç	69.64890	18.95508	KAYIT VAR	KOORD<=3km	Tromsø@yerel:sehir_tarihce_kuzey_avrupa_2.js (0.0 km)
+kuzey-avrupa	Trondheim	Norveç	63.43049	10.39506	KAYIT VAR	KOORD<=3km	Trondheim@yerel:sehir_tarihce_kuzey_avrupa_2.js (0.1 km)
+kuzey-avrupa	Tønsberg	Norveç	59.26754	10.40762	KAYIT VAR	KOORD<=3km	Tønsberg@yerel:sehir_tarihce_kuzey_avrupa_2.js (0.1 km)
+kuzey-avrupa	Vadsø	Norveç	70.07348	29.74943	KAYIT VAR	KOORD<=3km	Vadsø@yerel:sehir_tarihce_kuzey_avrupa_1.js (0.1 km)
+kuzey-avrupa	Stockholm	İsveç	59.32938	18.06871	KAYIT VAR	KOORD<=3km	Stokholm@yerel:sehir_tarihce_k12.js (0.3 km)
+kuzey-avrupa	Falun	İsveç	60.60357	15.62597	KAYIT VAR	KOORD<=3km	Falun@yerel:sehir_tarihce_kuzey_avrupa_2.js (0.0 km)
+kuzey-avrupa	Gävle	İsveç	60.67452	17.14174	KAYIT VAR	KOORD<=3km	Gävle@yerel:sehir_tarihce_kuzey_avrupa_1.js (0.1 km)
+kuzey-avrupa	Göteborg	İsveç	57.70716	11.96679	KAYIT VAR	KOORD<=3km	Göteborg@yerel:sehir_tarihce_kuzey_avrupa_2.js (0.0 km)
+kuzey-avrupa	Halmstad	İsveç	56.67446	12.85676	KAYIT VAR	KOORD<=3km	Halmstad@yerel:sehir_tarihce_k3.js (0.1 km)
+kuzey-avrupa	Härnösand	İsveç	62.63228	17.93794	KAYIT VAR	KOORD<=3km	Härnösand@yerel:sehir_tarihce_kuzey_avrupa_2.js (0.0 km)
+kuzey-avrupa	Jönköping	İsveç	57.78145	14.15618	KAYIT VAR	KOORD<=3km	Jönköping@yerel:sehir_tarihce_kuzey_avrupa_1.js (0.1 km)
+kuzey-avrupa	Kalmar	İsveç	56.66157	16.36163	KAYIT VAR	KOORD<=3km	Kalmar@yerel:sehir_tarihce_kuzey_avrupa_2.js (0.1 km)
+kuzey-avrupa	Karlskrona	İsveç	56.16156	15.58661	KAYIT VAR	KOORD<=3km	Karlskrona@yerel:sehir_tarihce_kuzey_avrupa_1.js (0.1 km)
+kuzey-avrupa	Karlstad	İsveç	59.37930	13.50357	KAYIT VAR	KOORD<=3km	Karlstad@yerel:sehir_tarihce_kuzey_avrupa_2.js (0.0 km)
+kuzey-avrupa	Kristianstad	İsveç	56.03129	14.15242	KAYIT VAR	KOORD<=3km	Kristianstad@yerel:sehir_tarihce_k3.js (0.0 km)
+kuzey-avrupa	Linköping	İsveç	58.41086	15.62157	KAYIT VAR	KOORD<=3km	Linköping@yerel:sehir_tarihce_kuzey_avrupa_2.js (0.0 km)
+kuzey-avrupa	Luleå	İsveç	65.58415	22.15465	KAYIT VAR	KOORD<=3km	Luleå@yerel:sehir_tarihce_kuzey_avrupa_2.js (0.0 km)
+kuzey-avrupa	Malmö	İsveç	55.60587	13.00073	KAYIT VAR	KOORD<=3km	Malmö@yerel:sehir_tarihce_k3.js (0.1 km)
+kuzey-avrupa	Mariestad	İsveç	58.70971	13.82367	KAYIT VAR	KOORD<=3km	Mariestad@yerel:sehir_tarihce_kuzey_avrupa_1.js (0.0 km)
+kuzey-avrupa	Nyköping	İsveç	58.75300	17.00788	KAYIT VAR	KOORD<=3km	Nyköping@yerel:sehir_tarihce_kuzey_avrupa_2.js (0.0 km)
+kuzey-avrupa	Umeå	İsveç	63.82842	20.25972	KAYIT VAR	KOORD<=3km	Umeå@yerel:sehir_tarihce_kuzey_avrupa_2.js (0.0 km)
+kuzey-avrupa	Uppsala	İsveç	59.85882	17.63889	KAYIT VAR	KOORD<=3km	Uppsala@yerel:sehir_tarihce_kuzey_avrupa_2.js (0.0 km)
+kuzey-avrupa	Visby	İsveç	57.64089	18.29602	KAYIT VAR	KOORD<=3km	Visby@yerel:sehir_tarihce_kuzey_avrupa_2.js (0.0 km)
+kuzey-avrupa	Vänersborg	İsveç	58.38075	12.32340	BORC		
+kuzey-avrupa	Västerås	İsveç	59.61617	16.55276	KAYIT VAR	KOORD<=3km	Västerås@yerel:sehir_tarihce_kuzey_avrupa_2.js (0.0 km)
+kuzey-avrupa	Växjö	İsveç	56.87767	14.80906	KAYIT VAR	KOORD<=3km	Växjö@yerel:sehir_tarihce_kuzey_avrupa_2.js (0.0 km)
+kuzey-avrupa	Örebro	İsveç	59.27412	15.20660	KAYIT VAR	KOORD<=3km	Örebro@yerel:sehir_tarihce_kuzey_avrupa_2.js (0.0 km)
+kuzey-avrupa	Östersund	İsveç	63.17920	14.63566	KAYIT VAR	KOORD<=3km	Östersund@yerel:sehir_tarihce_kuzey_avrupa_2.js (0.0 km)
+kuzey-avrupa	Helsinki	Finlandiya	60.16952	24.93545	KAYIT VAR	KOORD<=3km	Helsinki@yerel:sehir_tarihce_k12.js (0.2 km)
+kuzey-avrupa	Hämeenlinna	Finlandiya	60.99596	24.46434	KAYIT VAR	KOORD<=3km	Hämeenlinna@yerel:sehir_tarihce_kuzey_avrupa_2.js (0.0 km)
+kuzey-avrupa	Kuopio	Finlandiya	62.89238	27.67703	KAYIT VAR	KOORD<=3km	Kuopio@yerel:sehir_tarihce_kuzey_avrupa_2.js (0.0 km)
+kuzey-avrupa	Mikkeli	Finlandiya	61.68857	27.27227	KAYIT VAR	KOORD<=3km	Mikkeli@yerel:sehir_tarihce_kuzey_avrupa_2.js (0.0 km)
+kuzey-avrupa	Oulu	Finlandiya	65.01236	25.46816	KAYIT VAR	KOORD<=3km	Oulu@yerel:sehir_tarihce_kuzey_avrupa_2.js (0.0 km)
+kuzey-avrupa	Turku	Finlandiya	60.45148	22.26869	KAYIT VAR	KOORD<=3km	Turku@yerel:sehir_tarihce_kuzey_avrupa_2.js (0.1 km)
+kuzey-avrupa	Vaasa	Finlandiya	63.09600	21.61577	KAYIT VAR	KOORD<=3km	Vaasa@yerel:sehir_tarihce_kuzey_avrupa_2.js (0.0 km)
+kuzey-avrupa	Cardiff	Birleşik Krallık	51.48000	-3.18000	BORC		
+kuzey-avrupa	Belfast	Birleşik Krallık	54.59682	-5.92541	BORC		
+kuzey-avrupa	Derry	Birleşik Krallık	54.99810	-7.30934	BORC		
+kuzey-avrupa	Glasgow	Birleşik Krallık	55.86515	-4.25763	BORC		
+kuzey-avrupa	Perth	Birleşik Krallık	56.39522	-3.43139	BORC		
+kuzey-avrupa	Stirling	Birleşik Krallık	56.11903	-3.93682	BORC		
+kuzey-avrupa	Bristol	Birleşik Krallık	51.45523	-2.59665	BORC		
+kuzey-avrupa	Manchester	Birleşik Krallık	53.48095	-2.23743	BORC		
+kuzey-avrupa	Oxford	Birleşik Krallık	51.75222	-1.25596	BORC		
+kuzey-avrupa	Cambridge	Birleşik Krallık	52.20000	0.11667	KAYIT VAR	KOORD<=3km	Cambridge@yerel:sehir_tarihce_k3.js (0.6 km)
+kuzey-avrupa	Canterbury	Birleşik Krallık	51.27904	1.07992	BORC		
+kuzey-avrupa	York	Birleşik Krallık	53.95763	-1.08271	BORC		
+kuzey-avrupa	Winchester	Birleşik Krallık	51.06513	-1.31870	BORC		
+kuzey-avrupa	Lincoln	Birleşik Krallık	53.22683	-0.53792	BORC		
+kuzey-avrupa	Nottingham	Birleşik Krallık	52.95360	-1.15047	BORC		
+kuzey-avrupa	Shrewsbury	Birleşik Krallık	52.71009	-2.75208	BORC		
+kuzey-avrupa	Plymouth	Birleşik Krallık	50.37153	-4.14305	BORC		
+kuzey-avrupa	Portsmouth	Birleşik Krallık	50.79899	-1.09125	BORC		
+kuzey-avrupa	Southampton	Birleşik Krallık	50.90395	-1.40428	BORC		
+kuzey-avrupa	Dover	Birleşik Krallık	51.12598	1.31257	KAYIT VAR	KOORD<=3km	Dover@yerel:sehir_tarihce_k3.js (0.2 km)
+kuzey-avrupa	Hastings	Birleşik Krallık	50.85568	0.58009	BORC		
+kuzey-avrupa	Caernarfon	Birleşik Krallık	53.14126	-4.27016	BORC		
+kuzey-avrupa	Dumfries	Birleşik Krallık	55.06959	-3.61139	BORC		
+kuzey-avrupa	Newcastle upon Tyne	Birleşik Krallık	54.97328	-1.61396	BORC		
+kuzey-avrupa	Leeds	Birleşik Krallık	53.79648	-1.54785	BORC		
+kuzey-avrupa	Exeter	Birleşik Krallık	50.72360	-3.52751	BORC		
+kuzey-avrupa	Bath	Birleşik Krallık	51.37510	-2.36172	BORC		
+kuzey-avrupa	Chester	Birleşik Krallık	53.19050	-2.89189	BORC		
+kuzey-avrupa	Durham	Birleşik Krallık	54.77676	-1.57566	BORC		
+kuzey-avrupa	Lancaster	Birleşik Krallık	54.04649	-2.79988	BORC		
+kuzey-avrupa	Carlisle	Birleşik Krallık	54.89510	-2.93820	BORC		
+kuzey-avrupa	Worcester	Birleşik Krallık	52.18935	-2.22001	BORC		
+kuzey-avrupa	Gloucester	Birleşik Krallık	51.86568	-2.24310	BORC		
+kuzey-avrupa	Lindisfarne	Birleşik Krallık	55.67691	-1.79403	BORC		
+kuzey-avrupa	Iona	Birleşik Krallık	56.33139	-6.41533	BORC		
+kuzey-avrupa	Scone	Birleşik Krallık	56.41942	-3.40507	BORC		
+kuzey-avrupa	Falkirk	Birleşik Krallık	56.00210	-3.78535	BORC		
+kuzey-avrupa	Berwick-upon-Tweed	Birleşik Krallık	55.76868	-2.00537	BORC		
+kuzey-avrupa	Windsor	Birleşik Krallık	51.48333	-0.60000	BORC		
+kuzey-avrupa	Hereford	Birleşik Krallık	52.05684	-2.71482	BORC		
+kuzey-avrupa	Rochester	Birleşik Krallık	51.38764	0.50546	BORC		
+kuzey-avrupa	Colchester	Birleşik Krallık	51.88921	0.90421	BORC		
+kuzey-avrupa	Conwy	Birleşik Krallık	53.28077	-3.83039	BORC		
+kuzey-avrupa	Harlech	Birleşik Krallık	52.85941	-4.10831	BORC		
+kuzey-avrupa	Pembroke	Birleşik Krallık	51.67464	-4.91286	BORC		
+kuzey-avrupa	Kirkwall	Birleşik Krallık	58.98479	-2.95873	BORC		
+kuzey-avrupa	Northampton	Birleşik Krallık	52.25000	-0.88333	BORC		
+kuzey-avrupa	Warwick	Birleşik Krallık	52.28333	-1.58333	BORC		
+kuzey-avrupa	Tamworth	Birleşik Krallık	52.63399	-1.69587	BORC		
+kuzey-avrupa	Whitby	Birleşik Krallık	54.48774	-0.61498	BORC		
+kuzey-avrupa	Derby	Birleşik Krallık	52.92277	-1.47663	BORC		
+kuzey-avrupa	Cork	İrlanda	51.89797	-8.47061	BORC		
+kuzey-avrupa	Limerick	İrlanda	52.66472	-8.62306	BORC		
+kuzey-avrupa	Galway	İrlanda	53.27245	-9.05095	BORC		
+kuzey-avrupa	Waterford	İrlanda	52.25833	-7.11194	BORC		
+kuzey-avrupa	Kilkenny	İrlanda	52.65417	-7.25222	BORC		
+kuzey-avrupa	Wexford	İrlanda	52.33417	-6.45750	BORC		
+kuzey-avrupa	Donegal	İrlanda	54.65378	-8.11134	BORC		
+kuzey-avrupa	Drogheda	İrlanda	53.71889	-6.34778	BORC		
+kuzey-avrupa	Sligo	İrlanda	54.26969	-8.46943	BORC		
+kuzey-avrupa	Tralee	İrlanda	52.27042	-9.70264	BORC		
+kuzey-avrupa	Kinsale	İrlanda	51.70750	-8.53056	BORC		
+kuzey-avrupa	Queenstown (Cobh)	İrlanda	51.85046	-8.29480	BORC		
+kuzey-avrupa	Dún Laoghaire	İrlanda	53.29395	-6.13586	BORC		
+kuzey-avrupa	Tipperary	İrlanda	52.47333	-8.15583	BORC		
+kuzey-avrupa	Skálholt	İzlanda	64.12618	-20.52528	BORC		
+kuzey-avrupa	Hólar	İzlanda	65.73079	-19.11164	BORC		
+kuzey-avrupa	Þingvellir	İzlanda	64.25806	-21.12500	BORC		
+kuzey-avrupa	Fredrikstad	Norveç	59.21810	10.92980	BORC		
+kuzey-avrupa	Halden	Norveç	59.12478	11.38754	BORC		
+kuzey-avrupa	Narvik	Norveç	68.43838	17.42720	BORC		
+kuzey-avrupa	Kirkenes	Norveç	69.72706	30.04578	BORC		
+kuzey-avrupa	Haugesund	Norveç	59.41378	5.26800	BORC		
+kuzey-avrupa	Ålesund	Norveç	62.47225	6.15492	BORC		
+kuzey-avrupa	Kristiansund	Norveç	63.11045	7.72795	BORC		
+kuzey-avrupa	Trondheim Stiklestad	Norveç	63.79599	11.55877	BORC		
+kuzey-avrupa	Røros	Norveç	62.57468	11.38420	BORC		
+kuzey-avrupa	Lund	İsveç	55.70584	13.19321	BORC		
+kuzey-avrupa	Skara	İsveç	58.38659	13.43836	BORC		
+kuzey-avrupa	Strängnäs	İsveç	59.37741	17.03119	BORC		
+kuzey-avrupa	Norrköping	İsveç	58.59419	16.18260	BORC		
+kuzey-avrupa	Borås	İsveç	57.72101	12.94010	BORC		
+kuzey-avrupa	Kungälv	İsveç	57.87096	11.98054	BORC		
+kuzey-avrupa	Roskilde	Danimarka	55.64152	12.08035	BORC		
+kuzey-avrupa	Haderslev	Danimarka	55.24943	9.48771	BORC		
+kuzey-avrupa	Sønderborg	Danimarka	54.90896	9.78917	BORC		
+kuzey-avrupa	Tønder	Danimarka	54.93306	8.86674	BORC		
+kuzey-avrupa	Aabenraa	Danimarka	55.04434	9.41741	KAYIT VAR	KOORD<=3km	Aabenraa@yerel:sehir_tarihce_k3.js (0.0 km)
+kuzey-avrupa	Tampere	Finlandiya	61.49911	23.78712	BORC		
+kuzey-avrupa	Porvoo	Finlandiya	60.39233	25.66507	BORC		
+kuzey-avrupa	Savonlinna	Finlandiya	61.86990	28.87999	BORC		
+kuzey-avrupa	Hanko	Finlandiya	59.83333	22.95000	BORC		
+kuzey-avrupa	Pori	Finlandiya	61.48072	21.78518	BORC		
+kuzey-avrupa	Jyväskylä	Finlandiya	62.24147	25.72088	BORC		
+kuzey-avrupa	Tornio	Finlandiya	65.84811	24.14662	BORC		
+kuzey-avrupa	Rovaniemi	Finlandiya	66.49897	25.68867	BORC		
+kuzey-avrupa	Lappeenranta	Finlandiya	61.05871	28.18871	BORC		
+kuzey-avrupa	Hamina	Finlandiya	60.56974	27.19794	BORC		
+kuzey-avrupa	Joensuu	Finlandiya	62.60118	29.76316	BORC		
+kuzey-avrupa	Kokkola	Finlandiya	63.83847	23.13066	BORC		
+kuzey-avrupa	Igaliku (Garðar)	Grönland	60.98766	-45.42070	BORC		
+kuzey-avrupa	Klaksvík	Faroe Adaları	62.22655	-6.58901	BORC		
+kuzey-avrupa	Vágur	Faroe Adaları	61.47324	-6.81185	BORC		
+kuzey-avrupa	Longyearbyen	Svalbard/Jan Mayen	78.22334	15.64689	BORC		
+kuzey-avrupa-ayri	Gammelstad (Luleå kyrkby)	İsveç	65.63931	22.01145	KAYIT VAR	KOORD<=3km	Gammelstad (Luleå kyrkby)@yerel:sehir_tarihce_kuzey_avrupa_ayri.js (0.0 km)
+kuzey-avrupa-ayri	Gamla Uppsala	İsveç	59.89817	17.63386	KAYIT VAR	KOORD<=3km	Gamla Uppsala (Eski Uppsala)@yerel:sehir_tarihce_kuzey_avrupa_ayri.js (0.0 km)
+kuzey-avrupa-ayri	Vanha Vaasa (Eski Vaasa, Korsholm-Mustasaari)	Finlandiya	63.07051	21.72529	KAYIT VAR	KOORD<=3km	Eski Vaasa (Gamla Vasa / Vanha Vaasa, Korsholm-Mustasaari)@yerel:sehir_tarihce_kuzey_avrupa_ayri.js (0.1 km)
+iran-kafkasya-afganistan	Kabul	Afganistan	34.52813	69.17233	KAYIT VAR	KOORD<=3km	Kabul@yerel:sehir_tarihce_osm.js (0.0 km)
+iran-kafkasya-afganistan	Tehran	İran	35.69439	51.42151	KAYIT VAR	KOORD<=3km	Tehran@yerel:sehir_tarihce_osm.js (0.1 km)
+iran-kafkasya-afganistan	Faizabad	Afganistan	37.11664	70.58002	KAYIT VAR	KOORD<=3km	Fayzabad@yerel:sehir_tarihce_osm.js (0.0 km)
+iran-kafkasya-afganistan	Herat	Afganistan	34.34817	62.19967	KAYIT VAR	KOORD<=3km	Herat@yerel:sehir_tarihce_osm.js (0.0 km)
+iran-kafkasya-afganistan	Kandahar	Afganistan	31.61332	65.71013	KAYIT VAR	KOORD<=3km	Kandahar@yerel:sehir_tarihce_osm.js (0.0 km)
+iran-kafkasya-afganistan	Mazar-i Sharif	Afganistan	36.70904	67.11087	KAYIT VAR	KOORD<=3km	Mazar-i Sharif@yerel:sehir_tarihce_osm.js (0.0 km)
+iran-kafkasya-afganistan	Kerman	İran	30.28321	57.07879	KAYIT VAR	KOORD<=3km	Kerman@yerel:sehir_tarihce_osm.js (0.0 km)
+iran-kafkasya-afganistan	Khorramabad	İran	33.48778	48.35583	KAYIT VAR	KOORD<=3km	Khorramabad@yerel:sehir_tarihce_osm.js (0.0 km)
+iran-kafkasya-afganistan	Lar	İran	27.68336	54.34172	KAYIT VAR	KOORD<=3km	Lar@yerel:sehir_tarihce_osm.js (0.0 km)
+iran-kafkasya-afganistan	Mashhad	İran	36.29807	59.60567	KAYIT VAR	KOORD<=3km	Mashhad@yerel:sehir_tarihce_osm.js (0.0 km)
+iran-kafkasya-afganistan	Rasht	İran	37.27611	49.58862	KAYIT VAR	KOORD<=3km	Rasht@yerel:sehir_tarihce_osm.js (0.0 km)
+iran-kafkasya-afganistan	Sanandaj	İran	35.31495	46.99883	KAYIT VAR	KOORD<=3km	Sanandaj@yerel:sehir_tarihce_osm.js (0.0 km)
+iran-kafkasya-afganistan	Sari	İran	36.56332	53.06009	KAYIT VAR	KOORD<=3km	Sari@yerel:sehir_tarihce_osm.js (0.0 km)
+iran-kafkasya-afganistan	Shiraz	İran	29.61031	52.53113	KAYIT VAR	KOORD<=3km	Shiraz@yerel:sehir_tarihce_osm.js (0.0 km)
+iran-kafkasya-afganistan	Shushtar	İran	32.04972	48.84843	KAYIT VAR	KOORD<=3km	Shushtar@yerel:sehir_tarihce_osm.js (0.1 km)
+iran-kafkasya-afganistan	Tabriz	İran	38.08000	46.29190	KAYIT VAR	KOORD<=3km	Tabriz@yerel:sehir_tarihce_osm.js (0.0 km)
+iran-kafkasya-afganistan	Baku	Azerbaycan	40.37767	49.89201	BORC		
+iran-kafkasya-afganistan	Ganja	Azerbaycan	40.68157	46.36134	BORC		
+iran-kafkasya-afganistan	Yerevan	Ermenistan	40.17765	44.51260	KAYIT VAR	KOORD<=3km	Revan@yerel:sehir_tarihce_k12.js (0.6 km)
+iran-kafkasya-afganistan	Kutaisi	Gürcistan	42.26791	42.69459	KAYIT VAR	KOORD<=3km	Kutaisi@yerel:sehir_tarihce_k12.js (0.0 km)
+iran-kafkasya-afganistan	Tbilisi	Gürcistan	41.69143	44.83412	BORC		
+iran-kafkasya-afganistan	Isfahan	İran	32.65246	51.67462	KAYIT VAR	KOORD<=3km	Isfahan@yerel:sehir_tarihce_k12.js (0.6 km)
+iran-kafkasya-afganistan	Hamadan	İran	34.79922	48.51456	KAYIT VAR	KOORD<=3km	Ekbatana (Hamedan): Kyros'un Med başkentini alması@yerel:sehir_tarihce_arkeoloji_afrika-iran.js (0.2 km)
+iran-kafkasya-afganistan	Ray	İran	35.59354	51.43997	BORC		
+iran-kafkasya-afganistan	Qazvin	İran	36.26877	50.00410	KAYIT VAR	KOORD<=3km	Kazvin@yerel:sehir_tarihce_k12.js (0.0 km)
+iran-kafkasya-afganistan	Qom	İran	34.64010	50.87640	BORC		
+iran-kafkasya-afganistan	Kashan	İran	33.98237	51.42769	BORC		
+iran-kafkasya-afganistan	Yazd	İran	31.89722	54.36750	KAYIT VAR	KOORD<=3km	Yezd@yerel:sehir_tarihce_k12.js (0.4 km)
+iran-kafkasya-afganistan	Ahvaz	İran	31.31901	48.68420	BORC		
+iran-kafkasya-afganistan	Gorgan	İran	36.84270	54.44391	KAYIT VAR	KOORD<=3km	Esterâbâd (Gürgân)@yerel:sehir_tarihce_k3.js (1.0 km)
+iran-kafkasya-afganistan	Nishapur	İran	36.21329	58.79575	KAYIT VAR	KOORD<=3km	Nîşâbur@yerel:sehir_tarihce_k12.js (0.0 km)
+iran-kafkasya-afganistan	Tus	İran	36.48372	59.51882	KAYIT VAR	KOORD<=3km	Tûs@yerel:sehir_tarihce_k3.js (0.5 km)
+iran-kafkasya-afganistan	Zanjan	İran	36.67642	48.49628	KAYIT VAR	KOORD<=3km	Zencan@yerel:sehir_tarihce_k12.js (1.7 km)
+iran-kafkasya-afganistan	Ardabil	İran	38.24980	48.29330	KAYIT VAR	KOORD<=3km	Erdebil@yerel:sehir_tarihce_k12.js (0.1 km)
+iran-kafkasya-afganistan	Urmia	İran	37.55274	45.07605	KAYIT VAR	KOORD<=3km	Urmiye@yerel:sehir_tarihce_k12.js (0.0 km)
+iran-kafkasya-afganistan	Khoy	İran	38.55030	44.95210	BORC		
+iran-kafkasya-afganistan	Maragheh	İran	37.39206	46.23909	KAYIT VAR	KOORD<=3km	Merâga@yerel:sehir_tarihce_k12.js (0.4 km)
+iran-kafkasya-afganistan	Soltaniyeh	İran	36.43318	48.79471	KAYIT VAR	KOORD<=3km	Sultâniye@yerel:sehir_tarihce_k12.js (0.2 km)
+iran-kafkasya-afganistan	Bandar Abbas	İran	27.18650	56.28080	KAYIT VAR	KOORD<=3km	Bender Abbas (Gamrûn)@yerel:sehir_tarihce_k12.js (1.6 km)
+iran-kafkasya-afganistan	Bushehr	İran	28.96887	50.83657	BORC		
+iran-kafkasya-afganistan	Kermanshah	İran	34.31417	47.06500	BORC		
+iran-kafkasya-afganistan	Damghan	İran	36.16790	54.34292	KAYIT VAR	KOORD<=3km	Dâmgan (Dāmḡān)@yerel:sehir_tarihce_k3.js (0.5 km)
+iran-kafkasya-afganistan	Sabzevar	İran	36.21260	57.68191	KAYIT VAR	KOORD<=3km	Sebzevâr (Beyhak)@yerel:sehir_tarihce_k3.js (0.3 km)
+iran-kafkasya-afganistan	Persepolis	İran	29.93509	52.89065	BORC		
+iran-kafkasya-afganistan	Pasargad	İran	30.20340	53.18090	BORC		
+iran-kafkasya-afganistan	Susa	İran	32.19420	48.24360	KAYIT VAR	KOORD<=3km	Susa@yerel:sehir_tarihce_arkeoloji_d2-iran-orta-asya.js (1.3 km)
+iran-kafkasya-afganistan	Istakhr	İran	29.98083	52.90944	BORC		
+iran-kafkasya-afganistan	Firuzabad	İran	28.84459	52.57151	BORC		
+iran-kafkasya-afganistan	Bishapur	İran	29.77778	51.57083	BORC		
+iran-kafkasya-afganistan	Nahavand	İran	34.19088	48.37446	BORC		
+iran-kafkasya-afganistan	Borujerd	İran	33.89730	48.75160	BORC		
+iran-kafkasya-afganistan	Arak	İran	34.09493	49.69809	BORC		
+iran-kafkasya-afganistan	Maku	İran	39.28992	44.46035	BORC		
+iran-kafkasya-afganistan	Marand	İran	38.43290	45.77490	BORC		
+iran-kafkasya-afganistan	Ahar	İran	38.47740	47.06990	BORC		
+iran-kafkasya-afganistan	Sarab	İran	37.94080	47.53670	BORC		
+iran-kafkasya-afganistan	Khalkhal	İran	37.61837	48.52928	BORC		
+iran-kafkasya-afganistan	Salmas	İran	38.19730	44.76530	BORC		
+iran-kafkasya-afganistan	Alamut	İran	36.45000	50.58333	BORC		
+iran-kafkasya-afganistan	Lahijan	İran	37.20416	50.00919	KAYIT VAR	KOORD<=3km	Lâhîcan@yerel:sehir_tarihce_k12.js (0.6 km)
+iran-kafkasya-afganistan	Astara	İran	38.43084	48.86994	BORC		
+iran-kafkasya-afganistan	Bandar-e Anzali	İran	37.47318	49.45785	BORC		
+iran-kafkasya-afganistan	Julfa	İran	38.93788	45.63329	BORC		
+iran-kafkasya-afganistan	Qeshm	İran	26.94920	56.26910	BORC		
+iran-kafkasya-afganistan	Hormuz	İran	27.09500	56.45290	BORC		
+iran-kafkasya-afganistan	Jiroft	İran	28.67806	57.74056	BORC		
+iran-kafkasya-afganistan	Zabol	İran	31.03060	61.49490	BORC		
+iran-kafkasya-afganistan	Birjand	İran	32.86628	59.22114	BORC		
+iran-kafkasya-afganistan	Abadan	İran	30.33920	48.30430	BORC		
+iran-kafkasya-afganistan	Khorramshahr	İran	30.44079	48.18428	KAYIT VAR	KOORD<=3km	Muhammere@yerel:sehir_tarihce_k12.js (1.8 km)
+iran-kafkasya-afganistan	Saveh	İran	35.02130	50.35660	BORC		
+iran-kafkasya-afganistan	Amol	İran	36.46961	52.35072	KAYIT VAR	KOORD<=3km	Âmül@yerel:sehir_tarihce_k3.js (0.1 km)
+iran-kafkasya-afganistan	Babol	İran	36.55102	52.67860	KAYIT VAR	KOORD<=3km	Bârfurûş (Bâbol)@yerel:sehir_tarihce_k3.js (0.6 km)
+iran-kafkasya-afganistan	Kazerun	İran	29.61919	51.65350	BORC		
+iran-kafkasya-afganistan	Balkh	Afganistan	36.75635	66.89720	KAYIT VAR	KOORD<=3km	Belh@yerel:sehir_tarihce_k12.js (0.2 km)
+iran-kafkasya-afganistan	Ghazni	Afganistan	33.55391	68.42096	KAYIT VAR	KOORD<=3km	Gazne@yerel:sehir_tarihce_k12.js (0.4 km)
+iran-kafkasya-afganistan	Bamyan	Afganistan	34.82156	67.82734	BORC		
+iran-kafkasya-afganistan	Kunduz	Afganistan	36.72895	68.85700	BORC		
+iran-kafkasya-afganistan	Bust	Afganistan	31.59382	64.37161	BORC		
+iran-kafkasya-afganistan	Zaranj	Afganistan	30.95962	61.86037	KAYIT VAR	KOORD<=3km	Zerenc (Sîstan)@yerel:sehir_tarihce_k12.js (0.2 km)
+iran-kafkasya-afganistan	Chaghcharan	Afganistan	34.39637	64.51592	BORC		
+iran-kafkasya-afganistan	Sheberghan	Afganistan	36.66757	65.75290	BORC		
+iran-kafkasya-afganistan	Taloqan	Afganistan	36.73605	69.53451	BORC		
+iran-kafkasya-afganistan	Gardez	Afganistan	33.59744	69.22592	BORC		
+iran-kafkasya-afganistan	Farah	Afganistan	32.37451	62.11638	BORC		
+iran-kafkasya-afganistan	Batumi	Gürcistan	41.64077	41.63060	BORC		
+iran-kafkasya-afganistan	Poti	Gürcistan	42.14272	41.67384	BORC		
+iran-kafkasya-afganistan	Sukhumi	Gürcistan	43.00697	40.98930	BORC		
+iran-kafkasya-afganistan	Tskhinvali	Gürcistan	42.22764	43.96861	BORC		
+iran-kafkasya-afganistan	Gori	Gürcistan	41.98532	44.11290	BORC		
+iran-kafkasya-afganistan	Telavi	Gürcistan	41.91957	45.47002	BORC		
+iran-kafkasya-afganistan	Akhaltsikhe	Gürcistan	41.63952	42.98604	BORC		
+iran-kafkasya-afganistan	Akhalkalaki	Gürcistan	41.40514	43.48629	BORC		
+iran-kafkasya-afganistan	Zugdidi	Gürcistan	42.50840	41.86796	BORC		
+iran-kafkasya-afganistan	Gyumri	Ermenistan	40.79305	43.84635	BORC		
+iran-kafkasya-afganistan	Vagharshapat	Ermenistan	40.16557	44.29462	BORC		
+iran-kafkasya-afganistan	Dvin	Ermenistan	40.00384	44.57625	BORC		
+iran-kafkasya-afganistan	Kapan	Ermenistan	39.20762	46.40678	BORC		
+iran-kafkasya-afganistan	Artashat	Ermenistan	39.95484	44.54874	BORC		
+iran-kafkasya-afganistan	Gavar	Ermenistan	40.35398	45.12386	BORC		
+iran-kafkasya-afganistan	Norapat	Ermenistan	40.14172	44.03332	BORC		
+iran-kafkasya-afganistan	Shamakhi	Azerbaycan	40.63141	48.64137	KAYIT VAR	KOORD<=3km	Şamahı@yerel:sehir_tarihce_k12.js (0.1 km)
+iran-kafkasya-afganistan	Sheki	Azerbaycan	41.19194	47.17056	KAYIT VAR	KOORD<=3km	Şeki (Nuha)@yerel:sehir_tarihce_k12.js (0.0 km)
+iran-kafkasya-afganistan	Barda	Azerbaycan	40.37577	47.12619	KAYIT VAR	KOORD<=3km	Berde (Karabağ)@yerel:sehir_tarihce_k12.js (0.2 km)
+iran-kafkasya-afganistan	Nakhchivan	Azerbaycan	39.20889	45.41222	BORC		
+iran-kafkasya-afganistan	Shusha	Azerbaycan	39.76006	46.74989	KAYIT VAR	KOORD<=3km	Şuşa@yerel:sehir_tarihce_k12.js (0.5 km)
+iran-kafkasya-afganistan	Quba	Azerbaycan	41.36108	48.51341	BORC		
+iran-kafkasya-afganistan	Lankaran	Azerbaycan	38.75428	48.85062	BORC		
+iran-kafkasya-afganistan	Gabala	Azerbaycan	40.98139	47.84583	BORC		
+iran-kafkasya-afganistan	Khankendi	Azerbaycan	39.81770	46.75280	BORC		
+iran-kafkasya-afganistan	Ordubad	Azerbaycan	38.90961	46.02274	BORC		
+iran-kafkasya-afganistan	Salyan	Azerbaycan	39.59621	48.98479	BORC		
+iran-kafkasya-afganistan	Lahij	Azerbaycan	40.84618	48.38227	BORC		
+iran-kafkasya-afganistan	Lachin	Azerbaycan	39.63742	46.54977	BORC		
+iran-kafkasya-afganistan	Shabran	Azerbaycan	41.20117	48.98712	BORC		
+iran-kafkasya-afganistan	Beylagan	Azerbaycan	39.77556	47.61861	BORC		
+iran-kafkasya-ek	Dizful	İran	32.38114	48.40581	BORC		
+iran-kafkasya-ek	Semnan	İran	35.57691	53.39205	KAYIT VAR	KOORD<=3km	Simnân@yerel:sehir_tarihce_k12.js (0.4 km)
+iran-kafkasya-ek	Cündişapur (Gondeshapur)	İran	32.28047	48.51769	BORC		
+iran-kafkasya-ek	Kangavar	İran	34.50430	47.96530	BORC		
+iran-kafkasya-ek	Siraf	İran	27.66573	52.34616	BORC		
+iran-kafkasya-ek	Torbat-e Heydariyeh	İran	35.27401	59.21949	KAYIT VAR	KOORD<=3km	Turbet-i Haydariye (Zāva)@yerel:sehir_tarihce_k3.js (0.0 km)
+iran-kafkasya-ek	Jalalabad	Afganistan	34.42647	70.45153	BORC		
+iran-kafkasya-ek	Maymana	Afganistan	35.92139	64.78361	BORC		
+iran-kafkasya-ek	Leşker Gâh (Lashkari Bazar)	Afganistan	31.59566	64.41610	BORC		
+iran-kafkasya-ek	Bagram	Afganistan	34.96694	69.26500	BORC		
+iran-kafkasya-ek	Charikar	Afganistan	35.01361	69.17139	BORC		
+iran-kafkasya-ek	Mtskheta	Gürcistan	41.84514	44.71875	BORC		
+iran-kafkasya-ek	Rustavi	Gürcistan	41.56271	44.97870	BORC		
+iran-kafkasya-ek	Gonio	Gürcistan	41.56287	41.57332	BORC		
+iran-kafkasya-ek	Vardzia	Gürcistan	41.38024	43.28431	BORC		
+iran-kafkasya-ek	Uplistsikhe	Gürcistan	41.96553	44.17119	BORC		
+iran-kafkasya-ek	Gelati	Gürcistan	42.29720	42.76110	BORC		
+iran-kafkasya-ek	Garni	Ermenistan	40.11931	44.73442	BORC		
+adalar-ek	Mariehamn	Finlandiya (Åland)	60.09726	19.93481	KAYIT VAR	KOORD<=3km	Mariehamn@yerel:sehir_tarihce_adalar_ek.js (0.0 km)
+adalar-ek	Kastelholm	Finlandiya (Åland)	60.23387	20.07601	KAYIT VAR	KOORD<=3km	Kastelholm@yerel:sehir_tarihce_adalar_ek.js (0.0 km)
+adalar-ek	Sund	Finlandiya (Åland)	60.25000	20.11667	KAYIT VAR	KOORD<=3km	Kastelholm@yerel:sehir_tarihce_adalar_ek.js (2.9 km)
+adalar-ek	Saltvik	Finlandiya (Åland)	60.28333	20.05000	KAYIT VAR	KOORD<=3km	Saltvik@yerel:sehir_tarihce_adalar_ek.js (0.0 km)
+adalar-ek	Bomarsund	Finlandiya (Åland)	60.21234	20.24023	KAYIT VAR	KOORD<=3km	Bomarsund@yerel:sehir_tarihce_adalar_ek.js (0.0 km)
+adalar-ek	Antananarivo	Madagaskar	-18.91368	47.53613	BORC		
+adalar-ek	Toamasina	Madagaskar	-18.14920	49.40234	BORC		
+adalar-ek	Mahajanga	Madagaskar	-15.71667	46.31667	BORC		
+adalar-ek	Fianarantsoa	Madagaskar	-21.45267	47.08569	BORC		
+adalar-ek	Antsiranana	Madagaskar	-12.31732	49.29188	KAYIT VAR	KOORD<=3km	Antsiranana (Diego-Suarez)@yerel:sehir_tarihce_adalar_ek.js (0.0 km)
+adalar-ek	Toliara	Madagaskar	-23.35000	43.66667	BORC		
+adalar-ek	Ambohimanga	Madagaskar	-18.73333	47.56667	BORC		
+adalar-ek	Taolagnaro	Madagaskar	-25.03249	46.98329	KAYIT VAR	KOORD<=3km	Taolagnaro (Fort-Dauphin)@yerel:sehir_tarihce_adalar_ek.js (0.1 km)
+adalar-ek	Port Louis	Mauritius	-20.16194	57.49889	KAYIT VAR	KOORD<=3km	Port Louis@yerel:sehir_tarihce_adalar_ek.js (0.0 km)
+adalar-ek	Mahébourg	Mauritius	-20.40806	57.70000	BORC		
+adalar-ek	Saint-Denis	Réunion (Fransa)	-20.88231	55.45040	BORC		
+adalar-ek	Saint-Paul	Réunion (Fransa)	-21.00961	55.27134	BORC		
+adalar-ek	Saint-Pierre	Réunion (Fransa)	-21.33930	55.47811	BORC		
+adalar-ek	Victoria	Seyşeller	-4.62001	55.45501	BORC		
+adalar-ek	Moroni	Komorlar	-11.70216	43.25506	KAYIT VAR	KOORD<=3km	Moroni@yerel:sehir_tarihce_adalar_ek.js (0.0 km)
+adalar-ek	Dzaoudzi	Mayotte (Fransa)	-12.78339	45.25693	BORC		
+adalar-ek	Hadibu	Yemen (Sokotra)	12.64881	54.01895	BORC		
+adalar-ek	Stone Town (Zanzibar)	Tanzanya (Zanzibar)	-6.16176	39.19128	KAYIT VAR	KOORD<=3km	Zanzibar (Zengibar)@yerel:sehir_tarihce_k12.js (0.5 km)
+adalar-ek	Chake-Chake	Tanzanya (Pemba)	-5.24586	39.76659	BORC		
+adalar-ek	Wete	Tanzanya (Pemba)	-5.05589	39.72938	BORC		
+adalar-ek	Juba	Güney Sudan	4.85165	31.58247	BORC		
+adalar-ek	Malakal	Güney Sudan	9.53342	31.66049	BORC		
+adalar-ek	Wau	Güney Sudan	7.70111	27.98972	BORC		
+adalar-ek	Yei	Güney Sudan	4.09444	30.67639	BORC		
+adalar-ek	Rumbek	Güney Sudan	6.80619	29.67742	BORC		
+adalar-ek	Bor	Güney Sudan	6.20889	31.55861	BORC		
+adalar-ek	Torit	Güney Sudan	4.41177	32.57046	BORC		
+adalar-ek	Yambio	Güney Sudan	4.57083	28.39417	BORC		
+adalar-ek	Gondokoro	Güney Sudan	4.90244	31.66292	BORC		
+karayip-orta-amerika	Santo Domingo	Dominik Cumhuriyeti	18.47186	-69.89232	BORC		
+karayip-orta-amerika	San Salvador	El Salvador	13.68935	-89.18718	BORC		
+karayip-orta-amerika	Ciudad de Guatemala	Guatemala	14.64072	-90.51327	BORC		
+karayip-orta-amerika	Port-au-Prince	Haiti	18.54349	-72.33881	BORC		
+karayip-orta-amerika	Tegucigalpa	Honduras	14.08180	-87.20681	BORC		
+karayip-orta-amerika	San José	Kosta Rika	9.93388	-84.08489	BORC		
+karayip-orta-amerika	Managua	Nikaragua	12.13282	-86.25040	BORC		
+karayip-orta-amerika	San Juan	Porto Riko (ABD)	18.46633	-66.10572	BORC		
+karayip-orta-amerika	Charlotte Amalie	ABD Virgin Adaları	18.34190	-64.93070	BORC		
+karayip-orta-amerika	St. John's	Antigua ve Barbuda	17.12096	-61.84329	BORC		
+karayip-orta-amerika	Nassau	Bahamalar	25.05823	-77.34306	BORC		
+karayip-orta-amerika	Bridgetown	Barbados	13.10732	-59.62021	BORC		
+karayip-orta-amerika	Belize City	Belize	17.49952	-88.19756	BORC		
+karayip-orta-amerika	George Town	Cayman Adaları (Britanya)	19.28660	-81.37436	BORC		
+karayip-orta-amerika	Plymouth	Montserrat (Britanya)	16.70555	-62.21292	BORC		
+karayip-orta-amerika	Cockburn Town	Turks ve Caicos (Britanya)	21.46122	-71.14188	BORC		
+karayip-orta-amerika	Road Town	Britanya Virgin Adaları	18.42693	-64.62079	BORC		
+karayip-orta-amerika	Willemstad	Curaçao (Hollanda Krallığı)	12.12246	-68.88641	BORC		
+karayip-orta-amerika	Azua	Dominik Cumhuriyeti	18.45319	-70.73490	BORC		
+karayip-orta-amerika	Barahona	Dominik Cumhuriyeti	18.20861	-71.10068	BORC		
+karayip-orta-amerika	El Seibo	Dominik Cumhuriyeti	18.76484	-69.03991	BORC		
+karayip-orta-amerika	La Vega	Dominik Cumhuriyeti	19.22031	-70.53101	BORC		
+karayip-orta-amerika	Moca	Dominik Cumhuriyeti	19.39289	-70.52347	BORC		
+karayip-orta-amerika	Monte Cristi	Dominik Cumhuriyeti	19.84799	-71.64604	BORC		
+karayip-orta-amerika	Puerto Plata	Dominik Cumhuriyeti	19.79344	-70.68840	BORC		
+karayip-orta-amerika	Samaná	Dominik Cumhuriyeti	19.20404	-69.33407	BORC		
+karayip-orta-amerika	San Francisco de Macorís	Dominik Cumhuriyeti	19.29377	-70.25285	BORC		
+karayip-orta-amerika	San Pedro de Macorís	Dominik Cumhuriyeti	18.45390	-69.30864	BORC		
+karayip-orta-amerika	Santiago de los Caballeros	Dominik Cumhuriyeti	19.45036	-70.69085	BORC		
+karayip-orta-amerika	Roseau	Dominika	15.30174	-61.38808	BORC		
+karayip-orta-amerika	Ahuachapán	El Salvador	13.92403	-89.84344	BORC		
+karayip-orta-amerika	Chalatenango	El Salvador	14.04138	-88.93951	BORC		
+karayip-orta-amerika	Cojutepeque	El Salvador	13.71971	-88.93309	BORC		
+karayip-orta-amerika	La Unión	El Salvador	13.33915	-87.84328	BORC		
+karayip-orta-amerika	San Francisco Gotera	El Salvador	13.69408	-88.10407	BORC		
+karayip-orta-amerika	San Miguel	El Salvador	13.48261	-88.18211	BORC		
+karayip-orta-amerika	San Vicente	El Salvador	13.64114	-88.78459	BORC		
+karayip-orta-amerika	Santa Ana	El Salvador	13.98827	-89.55685	BORC		
+karayip-orta-amerika	Santa Tecla	El Salvador	13.67741	-89.28335	BORC		
+karayip-orta-amerika	Sensuntepeque	El Salvador	13.87583	-88.62727	BORC		
+karayip-orta-amerika	Sonsonate	El Salvador	13.71726	-89.72304	BORC		
+karayip-orta-amerika	Usulután	El Salvador	13.34467	-88.43994	BORC		
+karayip-orta-amerika	Zacatecoluca	El Salvador	13.50872	-88.87017	BORC		
+karayip-orta-amerika	St. George's	Grenada	12.05288	-61.75226	BORC		
+karayip-orta-amerika	Amatitlán	Guatemala	14.47740	-90.63489	BORC		
+karayip-orta-amerika	Antigua Guatemala	Guatemala	14.55636	-90.73320	BORC		
+karayip-orta-amerika	Chimaltenango	Guatemala	14.65881	-90.82160	BORC		
+karayip-orta-amerika	Chiquimula	Guatemala	14.80090	-89.54641	BORC		
+karayip-orta-amerika	Cobán	Guatemala	15.47025	-90.37455	BORC		
+karayip-orta-amerika	Cuilapa	Guatemala	14.27537	-90.29865	BORC		
+karayip-orta-amerika	Escuintla	Guatemala	14.30097	-90.78816	BORC		
+karayip-orta-amerika	Flores	Guatemala	16.92258	-89.89941	BORC		
+karayip-orta-amerika	Huehuetenango	Guatemala	15.32097	-91.47001	BORC		
+karayip-orta-amerika	Jalapa	Guatemala	14.63542	-89.99112	BORC		
+karayip-orta-amerika	Jutiapa	Guatemala	14.28491	-89.88798	BORC		
+karayip-orta-amerika	Livingston	Guatemala	15.82826	-88.75039	BORC		
+karayip-orta-amerika	Mazatenango	Guatemala	14.53412	-91.50311	BORC		
+karayip-orta-amerika	Quetzaltenango	Guatemala	14.84462	-91.52316	BORC		
+karayip-orta-amerika	Retalhuleu	Guatemala	14.53575	-91.67848	BORC		
+karayip-orta-amerika	Salamá	Guatemala	15.10210	-90.31906	BORC		
+karayip-orta-amerika	San Marcos	Guatemala	14.96437	-91.79486	BORC		
+karayip-orta-amerika	Santa Cruz del Quiché	Guatemala	15.02995	-91.14876	BORC		
+karayip-orta-amerika	Sololá	Guatemala	14.77070	-91.18344	BORC		
+karayip-orta-amerika	Totonicapán	Guatemala	14.91188	-91.36054	BORC		
+karayip-orta-amerika	Zacapa	Guatemala	14.96867	-89.52732	BORC		
+karayip-orta-amerika	Cap-Haïtien	Haiti	19.75938	-72.19815	BORC		
+karayip-orta-amerika	Gonaïves	Haiti	19.44755	-72.68928	BORC		
+karayip-orta-amerika	Les Cayes	Haiti	18.19199	-73.74948	BORC		
+karayip-orta-amerika	Port-de-Paix	Haiti	19.93984	-72.83037	BORC		
+karayip-orta-amerika	Choluteca	Honduras	13.30569	-87.17882	BORC		
+karayip-orta-amerika	Comayagua	Honduras	14.45577	-87.63968	BORC		
+karayip-orta-amerika	Gracias	Honduras	14.59065	-88.58612	BORC		
+karayip-orta-amerika	Juticalpa	Honduras	14.66438	-86.22246	BORC		
+karayip-orta-amerika	La Esperanza	Honduras	14.30158	-88.16725	BORC		
+karayip-orta-amerika	La Paz	Honduras	14.32124	-87.67589	BORC		
+karayip-orta-amerika	Nacaome	Honduras	13.53917	-87.48913	BORC		
+karayip-orta-amerika	Roatán	Honduras	16.31553	-86.53966	BORC		
+karayip-orta-amerika	San Pedro Sula	Honduras	15.50585	-88.02588	BORC		
+karayip-orta-amerika	Santa Bárbara	Honduras	14.92217	-88.23756	BORC		
+karayip-orta-amerika	Santa Rosa de Copán	Honduras	14.77388	-88.77560	BORC		
+karayip-orta-amerika	Trujillo	Honduras	15.91741	-85.95263	BORC		
+karayip-orta-amerika	Yoro	Honduras	15.13824	-87.12838	BORC		
+karayip-orta-amerika	Yuscarán	Honduras	13.94439	-86.85241	BORC		
+karayip-orta-amerika	Kingston	Jamaika	17.99702	-76.79358	BORC		
+karayip-orta-amerika	Alajuela	Kosta Rika	10.01723	-84.21275	BORC		
+karayip-orta-amerika	Cartago	Kosta Rika	9.86371	-83.91950	BORC		
+karayip-orta-amerika	Heredia	Kosta Rika	9.99872	-84.11587	BORC		
+karayip-orta-amerika	Liberia	Kosta Rika	10.63517	-85.43779	BORC		
+karayip-orta-amerika	Puerto Limón	Kosta Rika	9.99074	-83.03596	BORC		
+karayip-orta-amerika	Puntarenas	Kosta Rika	9.97691	-84.83790	BORC		
+karayip-orta-amerika	Camagüey	Küba	21.38083	-77.91694	BORC		
+karayip-orta-amerika	Havana	Küba	23.13302	-82.38304	BORC		
+karayip-orta-amerika	Matanzas	Küba	23.04388	-81.58284	BORC		
+karayip-orta-amerika	Pinar del Río	Küba	22.41649	-83.69657	BORC		
+karayip-orta-amerika	Santa Clara	Küba	22.40711	-79.96581	BORC		
+karayip-orta-amerika	Santiago de Cuba	Küba	20.02287	-75.82171	BORC		
+karayip-orta-amerika	Bluefields	Nikaragua	12.01292	-83.76449	BORC		
+karayip-orta-amerika	Chinandega	Nikaragua	12.62951	-87.13133	BORC		
+karayip-orta-amerika	Granada	Nikaragua	11.93062	-85.95368	BORC		
+karayip-orta-amerika	Juigalpa	Nikaragua	12.10591	-85.36549	BORC		
+karayip-orta-amerika	León	Nikaragua	12.43527	-86.87862	BORC		
+karayip-orta-amerika	Masaya	Nikaragua	11.97316	-86.09587	BORC		
+karayip-orta-amerika	Matagalpa	Nikaragua	12.92795	-85.91906	BORC		
+karayip-orta-amerika	Ocotal	Nikaragua	13.63222	-86.47399	BORC		
+karayip-orta-amerika	Rivas	Nikaragua	11.43977	-85.82749	BORC		
+karayip-orta-amerika	Panama City	Panama	8.99360	-79.51973	BORC		
+karayip-orta-amerika	Basseterre	St Kitts ve Nevis	17.29550	-62.72499	BORC		
+karayip-orta-amerika	Castries	St Lucia	13.99570	-61.00614	BORC		
+karayip-orta-amerika	Kingstown	St Vincent ve Grenadinler	13.15527	-61.22742	BORC		
+karayip-orta-amerika	Port of Spain	Trinidad ve Tobago	10.66668	-61.51889	BORC		
+karayip-orta-amerika	Baracoa	Küba	20.34801	-74.49714	BORC		
+karayip-orta-amerika	Guantánamo	Küba	20.14444	-75.20917	BORC		
+karayip-orta-amerika	Higüey	Dominik Cumhuriyeti	18.61501	-68.70798	BORC		
+karayip-orta-amerika	Dajabón	Dominik Cumhuriyeti	19.54811	-71.70821	BORC		
+karayip-orta-amerika	La Isabela (Luperón)	Dominik Cumhuriyeti	19.88959	-71.07905	BORC		
+karayip-orta-amerika	Tortuga (Île de la Tortue)	Haiti	20.05315	-72.79289	BORC		
+karayip-orta-amerika	Port Royal	Jamaika	17.93738	-76.84062	BORC		
+karayip-orta-amerika	Spanish Town	Jamaika	17.99107	-76.95742	BORC		
+karayip-orta-amerika	Speightstown	Barbados	13.25072	-59.64396	BORC		
+karayip-orta-amerika	Oistins	Barbados	13.07067	-59.54637	BORC		
+karayip-orta-amerika	Chaguaramas	Trinidad ve Tobago	10.68251	-61.64468	BORC		
+karayip-orta-amerika	Scarborough (Tobago)	Trinidad ve Tobago	11.18229	-60.73525	BORC		
+karayip-orta-amerika	Gouyave	Grenada	12.16462	-61.72965	BORC		
+karayip-orta-amerika	Grenville	Grenada	12.12278	-61.62498	BORC		
+karayip-orta-amerika	Hillsborough (Carriacou)	Grenada	12.48292	-61.45597	BORC		
+karayip-orta-amerika	Portsmouth (Dominika)	Dominika	15.58288	-61.45592	BORC		
+karayip-orta-amerika	Vieux Fort	St Lucia	13.71667	-60.95000	BORC		
+karayip-orta-amerika	Port Elizabeth (Bequia)	St Vincent ve Grenadinler	13.01102	-61.23548	BORC		
+karayip-orta-amerika	Codrington (Barbuda)	Antigua ve Barbuda	17.63940	-61.82437	BORC		
+karayip-orta-amerika	Charlestown (Nevis)	St Kitts ve Nevis	17.13333	-62.61667	BORC		
+karayip-orta-amerika	Kralendijk (Bonaire)	Bonaire (Hollanda)	12.15000	-68.26667	BORC		
+karayip-orta-amerika	Oranjestad (Aruba)	Aruba (Hollanda Krallığı)	12.52398	-70.02703	BORC		
+karayip-orta-amerika	Philipsburg	Sint Maarten (Hollanda Krallığı)	18.02600	-63.04582	BORC		
+karayip-orta-amerika	Christiansted	ABD Virgin Adaları	17.74681	-64.70557	BORC		
+karayip-orta-amerika	Balboa Heights	Panama	8.95000	-79.55000	BORC		
+karayip-orta-amerika	Colón (Cristóbal)	Panama	9.36025	-79.90019	BORC		
+karayip-orta-amerika	Amapala	Honduras	13.29222	-87.65389	BORC		
+karayip-orta-amerika	Tipitapa	Nikaragua	12.19732	-86.09706	BORC		
+karayip-orta-amerika	Corinto (Nikaragua)	Nikaragua	12.48250	-87.17304	BORC		
+karayip-orta-amerika	Izalco	El Salvador	13.74472	-89.67306	BORC		
+karayip-orta-amerika	Tikal	Guatemala	17.22205	-89.62354	KAYIT VAR	KOORD<=3km	Tikal: Eb seramik kompleksi (en erken iskan izi)@yerel:sehir_tarihce_arkeoloji_d3-amerika-pasifik.js (0.0 km)
+karayip-orta-amerika	Copán	Honduras	14.83936	-89.15583	BORC		
+karayip-orta-amerika	Quiriguá	Guatemala	15.27046	-89.04033	BORC		
+karayip-orta-amerika	Caracol (Belize)	Belize	16.76324	-89.11778	BORC		
+karayip-orta-amerika	Piedras Negras (Guatemala)	Guatemala	17.16869	-91.26019	BORC		
+karayip-orta-amerika	Dos Pilas	Guatemala	16.44059	-90.30593	BORC		
+karayip-orta-amerika	Ceibal (Seibal)	Guatemala	16.51073	-90.06192	KAYIT VAR	KOORD<=3km	Ceibal (Seibal, Pasion, Guatemala)@yerel:sehir_tarihce_arkeoloji_d2-afrika-amerika.js (0.2 km)
+karayip-orta-amerika	Nakbé	Guatemala	17.67991	-89.83516	KAYIT VAR	AD<=25km	Nakbe@yerel:sehir_tarihce_arkeoloji_amerika.js (3.6 km)
+karayip-orta-amerika	El Mirador	Guatemala	17.74967	-89.90413	KAYIT VAR	KOORD<=3km	El Mirador@yerel:sehir_tarihce_arkeoloji_amerika.js (1.8 km)
+karayip-orta-amerika	Kaminaljuyú	Guatemala	14.63126	-90.54847	KAYIT VAR	KOORD<=3km	Kaminaljuyu (Guatemala Vadisi): Providencia fazi / Gec Preklasik yukselis@yerel:sehir_tarihce_arkeoloji_d3-amerika-pasifik.js (0.2 km)
+karayip-orta-amerika	Q'umarkaj (Utatlán)	Guatemala	15.02346	-91.17188	BORC		
+karayip-orta-amerika	Zaculeu	Guatemala	15.33379	-91.49275	BORC		
+karayip-orta-amerika	La Blanca (San Marcos)	Guatemala	14.57889	-92.14137	KAYIT VAR	KOORD<=3km	La Blanca (San Marcos, Pasifik Guatemala): Orta Preklasik bolgesel merkez, Mound 1@yerel:sehir_tarihce_arkeoloji_d3-amerika-pasifik.js (1.8 km)
