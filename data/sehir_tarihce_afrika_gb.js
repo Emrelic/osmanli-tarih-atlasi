@@ -956,6 +956,31 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
   ]
  },
  {
+  "id": "durban-za-p3o",
+  "ad": "Durban",
+  "atlas_ad": "Durban",
+  "lat": -29.8579,
+  "lon": 31.0292,
+  "kat1900": 2,
+  "adlar": [
+   "Durban"
+  ],
+  "ilk": {
+   "t": "1835-01-01",
+   "gun": "1835",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Durban', https://www.britannica.com/place/Durban (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+   "tanik": "Founded in 1835, it was named for Sir Benjamin D’Urban"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [],
+  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi. özne zamir = madde konusu. Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01. Atlas noktasi VAR ('Durban'): atlas baslangici kaynak yilindan ONCE; sahip[] bos (atlas zinciri esas), atlas baslangici duzeltilmeli (KASA)."
+ },
+ {
   "id": "enugu-p9",
   "ad": "Enugu",
   "atlas_ad": "Enugu",
@@ -1856,6 +1881,31 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
   ]
  },
  {
+  "id": "karonga-mw-p3o",
+  "ad": "Karonga",
+  "atlas_ad": "Karonga",
+  "lat": -9.9333,
+  "lon": 33.9333,
+  "kat1900": 2,
+  "adlar": [
+   "Karonga"
+  ],
+  "ilk": {
+   "t": "1883-01-01",
+   "gun": "1883",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Karonga', https://www.britannica.com/place/Karonga (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+   "tanik": "the modern town, however, was founded with the opening of a British trading post there in 1883"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [],
+  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi. 'modern town' = çağdaş kasaba çekirdeği. Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01. Atlas noktasi VAR ('Karonga'): atlas baslangici kaynak yilindan ONCE; sahip[] bos (atlas zinciri esas), atlas baslangici duzeltilmeli (KASA)."
+ },
+ {
   "id": "khami-p9",
   "ad": "Khami",
   "atlas_ad": "Khami",
@@ -2318,6 +2368,31 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
   ]
  },
  {
+  "id": "kuruman-za-p3o",
+  "ad": "Kuruman",
+  "atlas_ad": "Kuruman",
+  "lat": -27.4635,
+  "lon": 23.4355,
+  "kat1900": 2,
+  "adlar": [
+   "Kuruman"
+  ],
+  "ilk": {
+   "t": "1885-01-01",
+   "gun": "1885",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Kuruman', https://www.britannica.com/place/Kuruman (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+   "tanik": "town founded, 1885; incorporated, 1916"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [],
+  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi. özne = madde konusu; 1821 misyon istasyonu ayrı (şehir değil). Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01. Atlas noktasi VAR ('Kuruman'): atlas baslangici kaynak yilindan ONCE; sahip[] bos (atlas zinciri esas), atlas baslangici duzeltilmeli (KASA)."
+ },
+ {
   "id": "laayoune-p10",
   "ad": "Laayoune",
   "atlas_ad": null,
@@ -2404,6 +2479,40 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
   "adlar_kaynaksiz": [
    "El-Ayûn"
   ]
+ },
+ {
+  "id": "ladysmith-za-p3o",
+  "ad": "Ladysmith",
+  "atlas_ad": null,
+  "lat": -28.5587,
+  "lon": 29.779,
+  "kat1900": 2,
+  "adlar": [
+   "Ladysmith"
+  ],
+  "ilk": {
+   "t": "1850-01-01",
+   "gun": "1850",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Ladysmith', https://www.britannica.com/place/Ladysmith (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+   "tanik": "Founded in 1850 after the British annexed the area"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1850-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, 'Ladysmith', https://www.britannica.com/place/Ladysmith (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+    "ic_not": "BOSLUK (atlas noktasi yok): Britannica govdesinde bu donem icin tarihli devlet sahibi cumlesi yok; beyansiz yaklasiklik yazilmadi."
+   }
+  ],
+  "olay": [],
+  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi. özne gizli = madde konusu (başlık şehir). Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01."
  },
  {
   "id": "libreville-p10",
