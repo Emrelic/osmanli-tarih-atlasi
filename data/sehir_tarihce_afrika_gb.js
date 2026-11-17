@@ -610,7 +610,13 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
   "kat1900": null,
   "adlar": [
    "Kevkev / Kukia (TDV: Kevkev Krallığı idarî merkezi; Kukia ayrı yer olarak anılır)",
-   "Gao"
+   "Gao",
+   "Kevkev",
+   "Kawkaw",
+   "Gogo",
+   "Kaukau",
+   "Kookou",
+   "Kankou"
   ],
   "ilk": {
    "t": "0700-01-01",
@@ -669,7 +675,65 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
     "kaynak": "TDV İslâm Ansiklopedisi, 'Gao' (Rıza Kurtuluş), c. 13, İstanbul 1996, s. 357, https://islamansiklopedisi.org.tr/gao"
    }
   ],
-  "ic_not": "Kaynak yalnız TDV Gao maddesi (Rıza Kurtuluş, c. 13) ve TDV Mali maddesi; çift teyit YOK. TDV Mali: 1430'da Tevârikler Gao'yu aldı; TDV Gao: 1324 Mali hâkimiyeti — ikisi de yıl hassasiyetinde. Atlas 0801'de __BOSLUK__ ile başlıyor ve künyeli sahip yazmıyor; 1324 sonrası zincir atlasın. TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Uyuşmayanlar: ALINTI DÜZELTİLDİ (kur.tanik): olgu doğru, önceki alıntı WebFetch özetinden/paraphrase idi; TDV gövdesindeki gerçek cümle yazıldı. Önceki notlardaki \"WebFetch özeti / tam metne karşı doğrulandı (tarayıcı) / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir."
+  "ic_not": "Kaynak yalnız TDV Gao maddesi (Rıza Kurtuluş, c. 13) ve TDV Mali maddesi; çift teyit YOK. TDV Mali: 1430'da Tevârikler Gao'yu aldı; TDV Gao: 1324 Mali hâkimiyeti — ikisi de yıl hassasiyetinde. Atlas 0801'de __BOSLUK__ ile başlıyor ve künyeli sahip yazmıyor; 1324 sonrası zincir atlasın. TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Uyuşmayanlar: ALINTI DÜZELTİLDİ (kur.tanik): olgu doğru, önceki alıntı WebFetch özetinden/paraphrase idi; TDV gövdesindeki gerçek cümle yazıldı. Önceki notlardaki \"WebFetch özeti / tam metne karşı doğrulandı (tarayıcı) / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir.",
+  "ad_kaynak": [
+   {
+    "ad": "Kevkev",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'GAO' https://islamansiklopedisi.org.tr/gao",
+    "kanit": "İslâm kaynaklarında adı Kevkev, Batı kaynaklarında Kawkaw, Gogo, Kaukau, Kookou, Kankou"
+   },
+   {
+    "ad": "Kawkaw",
+    "dil": "und",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'GAO' https://islamansiklopedisi.org.tr/gao",
+    "kanit": "İslâm kaynaklarında adı Kevkev, Batı kaynaklarında Kawkaw, Gogo, Kaukau, Kookou, Kankou"
+   },
+   {
+    "ad": "Gogo",
+    "dil": "und",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'GAO' https://islamansiklopedisi.org.tr/gao",
+    "kanit": "İslâm kaynaklarında adı Kevkev, Batı kaynaklarında Kawkaw, Gogo, Kaukau, Kookou, Kankou"
+   },
+   {
+    "ad": "Kaukau",
+    "dil": "und",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'GAO' https://islamansiklopedisi.org.tr/gao",
+    "kanit": "İslâm kaynaklarında adı Kevkev, Batı kaynaklarında Kawkaw, Gogo, Kaukau, Kookou, Kankou"
+   },
+   {
+    "ad": "Kookou",
+    "dil": "und",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'GAO' https://islamansiklopedisi.org.tr/gao",
+    "kanit": "İslâm kaynaklarında adı Kevkev, Batı kaynaklarında Kawkaw, Gogo, Kaukau, Kookou, Kankou"
+   },
+   {
+    "ad": "Kankou",
+    "dil": "und",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'GAO' https://islamansiklopedisi.org.tr/gao",
+    "kanit": "İslâm kaynaklarında adı Kevkev, Batı kaynaklarında Kawkaw, Gogo, Kaukau, Kookou, Kankou"
+   },
+   {
+    "ad": "Kawkaw",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Gao' https://www.britannica.com/place/Gao-Mali",
+    "kanit": "Gao Mali Ask Anything Homework Help Also known as: Kawkaw"
+   },
+   {
+    "ad": "Gao",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Gao' https://www.britannica.com/place/Gao-Mali",
+    "kanit": "Gao Mali Ask Anything Homework Help Also known as: Kawkaw"
+   }
+  ]
  },
  {
   "id": "gcuwa-p10",
@@ -1479,7 +1543,11 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
   "kat1900": 1,
   "adlar": [
    "Cape Mesurado (burun adı, TDV)",
-   "Monrovia (ABD Başkanı James Monroe adına, TDV)"
+   "Monrovia (ABD Başkanı James Monroe adına, TDV)",
+   "Cape Mesurado",
+   "Monrovia",
+   "Монровия",
+   "Мезурадо"
   ],
   "ilk": {
    "t": "1822-01-01",
@@ -1524,7 +1592,37 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
     "kaynak": "TDV İslâm Ansiklopedisi, 'Liberya' (Davut Dursun), c. 27, Ankara 2003, s. 173-174, https://islamansiklopedisi.org.tr/liberya"
    }
   ],
-  "ic_not": "Yalnız TDV Liberya maddesi; Monrovia'ya özel bir TDV maddesi yok. Cape Montserado satın alma (1821) ve 'Christopolis' adı kaynakla bağlanamadığı için yazılmadı. TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Uyuşmayanlar: ALINTI DÜZELTİLDİ (ilk.tanik): olgu doğru, önceki alıntı WebFetch özetinden/paraphrase idi; TDV gövdesindeki gerçek cümle yazıldı. Önceki notlardaki \"WebFetch özeti / tam metne karşı doğrulandı (tarayıcı) / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir."
+  "ic_not": "Yalnız TDV Liberya maddesi; Monrovia'ya özel bir TDV maddesi yok. Cape Montserado satın alma (1821) ve 'Christopolis' adı kaynakla bağlanamadığı için yazılmadı. TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Uyuşmayanlar: ALINTI DÜZELTİLDİ (ilk.tanik): olgu doğru, önceki alıntı WebFetch özetinden/paraphrase idi; TDV gövdesindeki gerçek cümle yazıldı. Önceki notlardaki \"WebFetch özeti / tam metne karşı doğrulandı (tarayıcı) / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir.",
+  "ad_kaynak": [
+   {
+    "ad": "Cape Mesurado",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'LİBERYA' https://islamansiklopedisi.org.tr/liberya",
+    "kanit": "ilk Amerikalı zenciler grubunu Cape Mesurado sahil kesimine yerleştirmeyi"
+   },
+   {
+    "ad": "Monrovia",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'LİBERYA' https://islamansiklopedisi.org.tr/liberya",
+    "kanit": "James Monroe’ya izâfeten Monrovia adı verildi"
+   },
+   {
+    "ad": "Монровия",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Монровия' https://ru.wikisource.org/wiki/ЭСБЕ/Монровия",
+    "kanit": "Монровия (Monrovia) — столица африк. негрит. республики Либерии"
+   },
+   {
+    "ad": "Мезурадо",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Монровия' https://ru.wikisource.org/wiki/ЭСБЕ/Монровия",
+    "kanit": "с гаванью на мысе Мезурадо"
+   }
+  ]
  },
  {
   "id": "mutare-p10",
@@ -1651,7 +1749,9 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
   "lon": 28.1878,
   "kat1900": 1,
   "adlar": [
-   "Pretoria"
+   "Pretoria",
+   "Tshwane",
+   "Претория"
   ],
   "ilk": {
    "t": "1855-01-01",
@@ -1710,7 +1810,30 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
     "kaynak": "SAHO, Pretoria Timeline 1800-2009"
    }
   ],
-  "ic_not": "Yalnız SAHO ve akademisyen (Pretorius) kaynaklarıyla yazıldı. 1900 Eylül'ünde bazı kaynaklar 'Pretoria ve Johannesburg işgali' der (muhtemelen resmî ilhak); 5 Haziran işgal günü Pretorius'a göredir, Eylül tarihi doğrulanmadı. Britannica 403 verdi. | Parti5 tanık kuralı (17 Kasım 2026): tanik cümleden birebir yenilendi [ilk]: SAHO Timeline 1800-2009 satırı; eski tanik ad/yıl içermiyordu"
+  "ic_not": "Yalnız SAHO ve akademisyen (Pretorius) kaynaklarıyla yazıldı. 1900 Eylül'ünde bazı kaynaklar 'Pretoria ve Johannesburg işgali' der (muhtemelen resmî ilhak); 5 Haziran işgal günü Pretorius'a göredir, Eylül tarihi doğrulanmadı. Britannica 403 verdi. | Parti5 tanık kuralı (17 Kasım 2026): tanik cümleden birebir yenilendi [ilk]: SAHO Timeline 1800-2009 satırı; eski tanik ad/yıl içermiyordu",
+  "ad_kaynak": [
+   {
+    "ad": "Pretoria",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Pretoria' https://www.britannica.com/place/Pretoria",
+    "kanit": "In 2000 Pretoria became part of the Tshwane Metropolitan Municipality"
+   },
+   {
+    "ad": "Tshwane",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Pretoria' https://www.britannica.com/place/Pretoria",
+    "kanit": "Also known as: Tshwane"
+   },
+   {
+    "ad": "Претория",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Претория' https://ru.wikisource.org/wiki/ЭСБЕ/Претория",
+    "kanit": "Претория — стол. бывш."
+   }
+  ]
  },
  {
   "id": "serowe-p9",
@@ -1745,7 +1868,11 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
   "lon": 5.234,
   "kat1900": null,
   "adlar": [
-   "Sokoto"
+   "Sokoto",
+   "Sakvato",
+   "Sakkwato",
+   "Sakata",
+   "Birnin Şeyhu da Bello"
   ],
   "ilk": {
    "t": "1804-01-01",
@@ -1806,7 +1933,44 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
     "kaynak": "TDV İslâm Ansiklopedisi, 'Sokoto' (Ahmet Kavas), c. 37, İstanbul 2009, s. 351-352, https://islamansiklopedisi.org.tr/sokoto"
    }
   ],
-  "ic_not": "Yalnız TDV; çift teyit yok. TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Uyuşmayanlar: ALINTI DÜZELTİLDİ (ilk.tanik): olgu doğru, önceki alıntı WebFetch özetinden/paraphrase idi; TDV gövdesindeki gerçek cümle yazıldı. Önceki notlardaki \"WebFetch özeti / tam metne karşı doğrulandı (tarayıcı) / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir. | Parti5 tanık kuralı (17 Kasım 2026): tanik cümleden birebir yenilendi [ilk]: TDV cümlesi başına ad eklendi"
+  "ic_not": "Yalnız TDV; çift teyit yok. TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Uyuşmayanlar: ALINTI DÜZELTİLDİ (ilk.tanik): olgu doğru, önceki alıntı WebFetch özetinden/paraphrase idi; TDV gövdesindeki gerçek cümle yazıldı. Önceki notlardaki \"WebFetch özeti / tam metne karşı doğrulandı (tarayıcı) / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir. | Parti5 tanık kuralı (17 Kasım 2026): tanik cümleden birebir yenilendi [ilk]: TDV cümlesi başına ad eklendi",
+  "ad_kaynak": [
+   {
+    "ad": "Sakvato",
+    "dil": "ha",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'SOKOTO' https://islamansiklopedisi.org.tr/sokoto",
+    "kanit": "adı Hevsâ dilinde Sakvato, Sakkwato ve Sakata olarak geçer"
+   },
+   {
+    "ad": "Sakkwato",
+    "dil": "ha",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'SOKOTO' https://islamansiklopedisi.org.tr/sokoto",
+    "kanit": "adı Hevsâ dilinde Sakvato, Sakkwato ve Sakata olarak geçer"
+   },
+   {
+    "ad": "Sakata",
+    "dil": "ha",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'SOKOTO' https://islamansiklopedisi.org.tr/sokoto",
+    "kanit": "adı Hevsâ dilinde Sakvato, Sakkwato ve Sakata olarak geçer"
+   },
+   {
+    "ad": "Birnin Şeyhu da Bello",
+    "dil": "und",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'SOKOTO' https://islamansiklopedisi.org.tr/sokoto",
+    "kanit": "Kurucularına nisbetle şehre Birnin Şeyhu da Bello da"
+   },
+   {
+    "ad": "Sokoto",
+    "dil": "tr",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'SOKOTO' https://islamansiklopedisi.org.tr/sokoto",
+    "kanit": "Nijerya’nın kuzeybatısında Nijer sınırına çok yakın bir yerde bulunan Sokoto’nun adı"
+   }
+  ]
  },
  {
   "id": "timbo-p10",

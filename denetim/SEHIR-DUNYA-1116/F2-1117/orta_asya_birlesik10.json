@@ -471,7 +471,14 @@
   "adlar": [
    "Huvâkand (Yâkūt)",
    "Huvâkend (İstahrî, İbn Havkal)",
-   "Hokand (Hukand)"
+   "Hokand (Hukand)",
+   "Huvâkand",
+   "Huvâkend",
+   "Hokand",
+   "Hukand",
+   "Khavakend",
+   "Qŭqon",
+   "Коканд"
   ],
   "ilk": {
    "t": "0999-01-01",
@@ -505,7 +512,58 @@
     "tanik": "ertesi yıl da ilhak edilmiştir (Şubat 1876)"
    }
   ],
-  "ic_not": "Tek kaynak TDV 'Hokand' (WebFetch özet aracı). Çift teyit yok. TDV kuruluş tarihi vermez: 'Şehrin ne zaman kurulduğu hakkında bir bilgi bulunmamakla beraber' (alıntı aracın verdiği); ilk anılış X. yy, güvenli uç 0999-01-01 (yuzyil). Hokand Hanlığı'nın 1710 başlangıcı ve Şahruh Bî TDV 'Hokand' maddesinde YOK (fetch sonucu: yalnız 'XVIII. yüzyılın ortalarından sonra Özbek Ming hânedanının' başşehri) → yazılmadı; atlas kd 1710 kaynak bu oturumda doğrulanamadı. Atlas 0500'de başladığı için sahip:[]. TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Önceki notlardaki \"WebFetch özeti / tam metne karşı doğrulandı (tarayıcı) / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir. | Parti5 tanık kuralı (17 Kasım 2026): kesinlik belirsiz'e indirildi (ad+yıl aynı cümlede birebir bulunamadı) [ilk]: madde konusu cümlesi: kaynak cümlesinde şehir adı yok (özne 'şehir/kasaba/burası' ya da madde başlığı), aynı cümlede ad+yıl bulunamadı ('buranın adının X. yüzyıl Arap coğrafyacılarının eserlerinde geçmesi'); kaynak ifadesi güncellendi Parti5 geri alma (koordinatör kararı): tanık cümlesi madde konusu şehre atıflı (madde: TDV İslâm Ansiklopedisi); ilk.kesinlik 'belirsiz' → 'yuzyil' geri alındı."
+  "ic_not": "Tek kaynak TDV 'Hokand' (WebFetch özet aracı). Çift teyit yok. TDV kuruluş tarihi vermez: 'Şehrin ne zaman kurulduğu hakkında bir bilgi bulunmamakla beraber' (alıntı aracın verdiği); ilk anılış X. yy, güvenli uç 0999-01-01 (yuzyil). Hokand Hanlığı'nın 1710 başlangıcı ve Şahruh Bî TDV 'Hokand' maddesinde YOK (fetch sonucu: yalnız 'XVIII. yüzyılın ortalarından sonra Özbek Ming hânedanının' başşehri) → yazılmadı; atlas kd 1710 kaynak bu oturumda doğrulanamadı. Atlas 0500'de başladığı için sahip:[]. TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Önceki notlardaki \"WebFetch özeti / tam metne karşı doğrulandı (tarayıcı) / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir. | Parti5 tanık kuralı (17 Kasım 2026): kesinlik belirsiz'e indirildi (ad+yıl aynı cümlede birebir bulunamadı) [ilk]: madde konusu cümlesi: kaynak cümlesinde şehir adı yok (özne 'şehir/kasaba/burası' ya da madde başlığı), aynı cümlede ad+yıl bulunamadı ('buranın adının X. yüzyıl Arap coğrafyacılarının eserlerinde geçmesi'); kaynak ifadesi güncellendi Parti5 geri alma (koordinatör kararı): tanık cümlesi madde konusu şehre atıflı (madde: TDV İslâm Ansiklopedisi); ilk.kesinlik 'belirsiz' → 'yuzyil' geri alındı.",
+  "ad_kaynak": [
+   {
+    "ad": "Huvâkand",
+    "dil": "ar",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'HOKAND' https://islamansiklopedisi.org.tr/hokand",
+    "kanit": "İslâm coğrafyacılarının Huvâkand (Yâkūt, II, 456) ve Huvâkend"
+   },
+   {
+    "ad": "Huvâkend",
+    "dil": "ar",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'HOKAND' https://islamansiklopedisi.org.tr/hokand",
+    "kanit": "İslâm coğrafyacılarının Huvâkand (Yâkūt, II, 456) ve Huvâkend"
+   },
+   {
+    "ad": "Hokand",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'HOKAND' https://islamansiklopedisi.org.tr/hokand",
+    "kanit": "isim daha sonra Hokand (Hukand) biçimini almıştır"
+   },
+   {
+    "ad": "Hukand",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'HOKAND' https://islamansiklopedisi.org.tr/hokand",
+    "kanit": "isim daha sonra Hokand (Hukand) biçimini almıştır"
+   },
+   {
+    "ad": "Khavakend",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Kokand' https://www.britannica.com/place/Kokand",
+    "kanit": "Also known as: Khavakend, Qŭqon"
+   },
+   {
+    "ad": "Qŭqon",
+    "dil": "uz",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Kokand' https://www.britannica.com/place/Kokand",
+    "kanit": "Also known as: Khavakend, Qŭqon"
+   },
+   {
+    "ad": "Коканд",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Коканд' https://ru.wikisource.org/wiki/ЭСБЕ/Коканд",
+    "kanit": "Коканд — уездный город Ферганской области"
+   }
+  ]
  },
  {
   "id": "hive-uz",
@@ -1025,7 +1083,9 @@
   "adlar": [
    "Genzek",
    "Gazne",
-   "Gaznîn"
+   "Gaznîn",
+   "Ghazna",
+   "Ghaznī"
   ],
   "ilk": {
    "t": "0701-01-01",
@@ -1121,7 +1181,44 @@
     "kaynak": "TDV İslâm Ansiklopedisi, «Gazne» md., https://islamansiklopedisi.org.tr/gazne (16 Kasım 2026'da okundu; tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026)): «(1839-1842) Gazne iki defa İngilizler tarafından işgal edildi»"
    }
   ],
-  "ic_not": "Kaynak: TDV 'Gazne' (tam metne karşı doğrulandı (tarayıcı)). Kısmî çift teyit (YALNIZ yıl, gün DEĞİL): Encyclopaedia Iranica 'Alptigin' maddesi 351/962 verir (web arama özeti; sayfa 403 olduğundan okunamadı); 351 H = Şubat 962-Ocak 963 ve TDV'nin 13 Zilhicce 351 = 12 Ocak 963'ü ile uyumlu; Iranica 'Ḡazni i' ayrıca 961/966 farkı anar (Bosworth, Ghaznavids atfıyla) — gün için TDV esastır. ilk: TDV'de en eski tarih 'VIII. yüzyıl başı' (Çinli seyyah Huei-ch'ao ziyareti); gün/yıl yok → yüzyıl kesinliği (t=0701 yüzyıl başı). Kuruluş TDV'de 'milâttan önce, arkeolojik kazılara göre' (yıl yok), kur yazılmadı. Atlas Gazne'yi 0500'de eftalit ile başlatır; 701 > 500 → sahip:[] (atlas zinciri esas), atlas 500-963 dilimi (eftalit→__BOSLUK__) TDV'de tarihsiz (Baktria/Yuezhi/Saka/Akhun; IX. yy Saffârî nüfuzu); Gazneli 963-1186 aralığı TDV'de var ('Gazneliler zamanında yaşadı (963-1186)'). Olay gün hesabı: 12 Ocak 963 ve 26 Ekim 965 TDV'nin verdiği Jülyen güneler; 545 H ∩ 1150-51: Hicrî→mîlâdî: TDV'nin verdiği mîlâdî yıl ile hicrî yılın kesişiminin ilk günü, tablo takvimiyle (Jülyen, ±1-2 gün); kesinlik yıl. 965 olayında öznenin Ebû Ali'den geri alma anlatımı özetleyiciden; TDV özet doğrulaması sınırlı. Alt bölge adı Zâbülistan bölge adıdır, şehir adı olarak yazılmadı. Sebük Tegin dönemi, Oğuz/Yıldız/Celâleddin vb. TDV'de tarihsiz — yazılmadı. TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Önceki notlardaki \"WebFetch özeti / tam metne karşı doğrulandı (tarayıcı) / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir."
+  "ic_not": "Kaynak: TDV 'Gazne' (tam metne karşı doğrulandı (tarayıcı)). Kısmî çift teyit (YALNIZ yıl, gün DEĞİL): Encyclopaedia Iranica 'Alptigin' maddesi 351/962 verir (web arama özeti; sayfa 403 olduğundan okunamadı); 351 H = Şubat 962-Ocak 963 ve TDV'nin 13 Zilhicce 351 = 12 Ocak 963'ü ile uyumlu; Iranica 'Ḡazni i' ayrıca 961/966 farkı anar (Bosworth, Ghaznavids atfıyla) — gün için TDV esastır. ilk: TDV'de en eski tarih 'VIII. yüzyıl başı' (Çinli seyyah Huei-ch'ao ziyareti); gün/yıl yok → yüzyıl kesinliği (t=0701 yüzyıl başı). Kuruluş TDV'de 'milâttan önce, arkeolojik kazılara göre' (yıl yok), kur yazılmadı. Atlas Gazne'yi 0500'de eftalit ile başlatır; 701 > 500 → sahip:[] (atlas zinciri esas), atlas 500-963 dilimi (eftalit→__BOSLUK__) TDV'de tarihsiz (Baktria/Yuezhi/Saka/Akhun; IX. yy Saffârî nüfuzu); Gazneli 963-1186 aralığı TDV'de var ('Gazneliler zamanında yaşadı (963-1186)'). Olay gün hesabı: 12 Ocak 963 ve 26 Ekim 965 TDV'nin verdiği Jülyen güneler; 545 H ∩ 1150-51: Hicrî→mîlâdî: TDV'nin verdiği mîlâdî yıl ile hicrî yılın kesişiminin ilk günü, tablo takvimiyle (Jülyen, ±1-2 gün); kesinlik yıl. 965 olayında öznenin Ebû Ali'den geri alma anlatımı özetleyiciden; TDV özet doğrulaması sınırlı. Alt bölge adı Zâbülistan bölge adıdır, şehir adı olarak yazılmadı. Sebük Tegin dönemi, Oğuz/Yıldız/Celâleddin vb. TDV'de tarihsiz — yazılmadı. TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Önceki notlardaki \"WebFetch özeti / tam metne karşı doğrulandı (tarayıcı) / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir.",
+  "ad_kaynak": [
+   {
+    "ad": "Genzek",
+    "dil": "und",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'GAZNE' https://islamansiklopedisi.org.tr/gazne",
+    "kanit": "Asıl adı Genzek olan şehir İslâm kaynaklarında Gazne ve Gaznîn"
+   },
+   {
+    "ad": "Gazne",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'GAZNE' https://islamansiklopedisi.org.tr/gazne",
+    "kanit": "Asıl adı Genzek olan şehir İslâm kaynaklarında Gazne ve Gaznîn"
+   },
+   {
+    "ad": "Gaznîn",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'GAZNE' https://islamansiklopedisi.org.tr/gazne",
+    "kanit": "Asıl adı Genzek olan şehir İslâm kaynaklarında Gazne ve Gaznîn"
+   },
+   {
+    "ad": "Ghazna",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Ghaznī' https://www.britannica.com/place/Ghazni",
+    "kanit": "Formerly: Ghazna"
+   },
+   {
+    "ad": "Ghaznī",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Ghaznī' https://www.britannica.com/place/Ghazni",
+    "kanit": "Ghaznī Introduction"
+   }
+  ]
  },
  {
   "id": "kabil-af",
@@ -1703,7 +1800,15 @@
    "Endigân (İbn Havkal)",
    "Endügân (Yâkūt)",
    "Andugân (Ebü’l-Fidâ)",
-   "Endican"
+   "Endican",
+   "Endigân",
+   "Endügân",
+   "Andugân",
+   "Andijon",
+   "Andižan",
+   "Andijan",
+   "Andizhan",
+   "Андижан"
   ],
   "ilk": {
    "t": "0999-01-01",
@@ -1773,7 +1878,72 @@
     "tanik": "1876 yılında Rusya Endican’ı ele geçirdiğinde nüfusu 30.000 civarında idi"
    }
   ],
-  "ic_not": "Kaynak: TDV 'Endican' TAM METİN. Çift teyit YOK (İSAM/Barthold/Bosworth açılamadı). TDV: 'Tarihi IX. yüzyıla kadar giden bölgenin ismini İbn Havkal Endigân ... yazmış' — yüzyıl-düzeyi ve eser tarihi TDV'de verilmediğinden ilk.t olarak yalnız tarihlendirilebilen X. yy sonu Karahanlı sahipliği alındı (güvenli uç: 10. yüzyılın son yılı, t=0999). Atlas Endican'ı 0500'de fergana-dayuan ile başlatır; şehir tanığı X. yy sonudur → sahip:[] ve 'atlas başlangıcı düzeltilmeli' uyarısı beklenir. 1090, 1141, 1210, 1503, 1876 olayları atlas zincirinin kontrol tanığıdır (atlas zinciri esastır, burada zincir yok). TDV: 1375-76 Timur-Kamerüddin savaşında yağmalandı (hicrî 777), Kaydu Han'ın yeniden inşası (tarihsiz, ö. 1301) yazılmadı."
+  "ic_not": "Kaynak: TDV 'Endican' TAM METİN. Çift teyit YOK (İSAM/Barthold/Bosworth açılamadı). TDV: 'Tarihi IX. yüzyıla kadar giden bölgenin ismini İbn Havkal Endigân ... yazmış' — yüzyıl-düzeyi ve eser tarihi TDV'de verilmediğinden ilk.t olarak yalnız tarihlendirilebilen X. yy sonu Karahanlı sahipliği alındı (güvenli uç: 10. yüzyılın son yılı, t=0999). Atlas Endican'ı 0500'de fergana-dayuan ile başlatır; şehir tanığı X. yy sonudur → sahip:[] ve 'atlas başlangıcı düzeltilmeli' uyarısı beklenir. 1090, 1141, 1210, 1503, 1876 olayları atlas zincirinin kontrol tanığıdır (atlas zinciri esastır, burada zincir yok). TDV: 1375-76 Timur-Kamerüddin savaşında yağmalandı (hicrî 777), Kaydu Han'ın yeniden inşası (tarihsiz, ö. 1301) yazılmadı.",
+  "ad_kaynak": [
+   {
+    "ad": "Endigân",
+    "dil": "ar",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'ENDİCAN' https://islamansiklopedisi.org.tr/endican",
+    "kanit": "ismini İbn Havkal Endigân, Yâkūt el-Hamevî Endügân"
+   },
+   {
+    "ad": "Endügân",
+    "dil": "ar",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'ENDİCAN' https://islamansiklopedisi.org.tr/endican",
+    "kanit": "ismini İbn Havkal Endigân, Yâkūt el-Hamevî Endügân"
+   },
+   {
+    "ad": "Andugân",
+    "dil": "ar",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'ENDİCAN' https://islamansiklopedisi.org.tr/endican",
+    "kanit": "Yâkūt el-Hamevî Endügân, Ebü’l-Fidâ Andugân şeklinde yazmış"
+   },
+   {
+    "ad": "Andijon",
+    "dil": "uz",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'ENDİCAN' https://islamansiklopedisi.org.tr/endican",
+    "kanit": "Endican eyaletinin (Andijon Oblasti) merkezidir"
+   },
+   {
+    "ad": "Andižan",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Andijon' https://www.britannica.com/place/Andijon",
+    "kanit": "Also known as: Andižan, Andijan, Andizhan"
+   },
+   {
+    "ad": "Andijan",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Andijon' https://www.britannica.com/place/Andijon",
+    "kanit": "Also known as: Andižan, Andijan, Andizhan"
+   },
+   {
+    "ad": "Andizhan",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Andijon' https://www.britannica.com/place/Andijon",
+    "kanit": "Also known as: Andižan, Andijan, Andizhan"
+   },
+   {
+    "ad": "Андижан",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Андижан' https://ru.wikisource.org/wiki/ЭСБЕ/Андижан",
+    "kanit": "Андижан — город в вост. части Ферганской обл."
+   },
+   {
+    "ad": "Endican",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'ENDİCAN' https://islamansiklopedisi.org.tr/endican",
+    "kanit": "Endican eyaletinin (Andijon Oblasti) merkezidir"
+   }
+  ]
  },
  {
   "id": "termez-uz",
@@ -1784,7 +1954,12 @@
   "kat1900": null,
   "adlar": [
    "Toprakkorgan (Rus sınır kalesi)",
-   "Tirmiz / Termez"
+   "Tirmiz / Termez",
+   "Tirmiz",
+   "Termiz",
+   "Türmiz",
+   "Termez",
+   "Термез"
   ],
   "ilk": {
    "t": "1894-01-01",
@@ -1824,7 +1999,51 @@
     "tanik": "1916’da Buhara-Tirmiz demiryolunun yapılmasıyla şehir gelişti ve nüfusu arttı"
    }
   ],
-  "ic_not": "Kaynak: TDV 'Tirmiz' TAM METİN (Abdullah Muhammedcanov). ANTİK/ESKİ YER KURALI: TDV eski Tirmiz'i (Emevî fethi 56/676, 704, Tirmizşahlar, 1220 Moğol tahribi, 1407 Halil Sultan tahkimi, XVI. yy Şeybânîler, 1646 Bâbürlüler, 1758 Mangıt) 'harabeler' olarak yeni şehirden 8 km uzakta anlatır; modern Termez Toprakkorgan çevresinde 1894'te doğdu. 8 km > 3 km → eski olgular BURADA YAZILMADI; ayrı kayıt (Eski Termez / Tirmiz harabeleri) önerilir (koordinatı ÖLÇÜLMEDİ). Atlas noktası (37.224, 67.278) modern şehirdir; TDV 8 km tarifini koordinatla ÖLÇMEDİM. Atlas Termez'i 1000-01-01'de __BOSLUK__ ile başlatır; modern şehir 1894'te kurulduğundan atlas başlangıcı düzeltilmeli/eski-yer kaydına devredilmeli (KASA'ya). Çift teyit YOK."
+  "ic_not": "Kaynak: TDV 'Tirmiz' TAM METİN (Abdullah Muhammedcanov). ANTİK/ESKİ YER KURALI: TDV eski Tirmiz'i (Emevî fethi 56/676, 704, Tirmizşahlar, 1220 Moğol tahribi, 1407 Halil Sultan tahkimi, XVI. yy Şeybânîler, 1646 Bâbürlüler, 1758 Mangıt) 'harabeler' olarak yeni şehirden 8 km uzakta anlatır; modern Termez Toprakkorgan çevresinde 1894'te doğdu. 8 km > 3 km → eski olgular BURADA YAZILMADI; ayrı kayıt (Eski Termez / Tirmiz harabeleri) önerilir (koordinatı ÖLÇÜLMEDİ). Atlas noktası (37.224, 67.278) modern şehirdir; TDV 8 km tarifini koordinatla ÖLÇMEDİM. Atlas Termez'i 1000-01-01'de __BOSLUK__ ile başlatır; modern şehir 1894'te kurulduğundan atlas başlangıcı düzeltilmeli/eski-yer kaydına devredilmeli (KASA'ya). Çift teyit YOK.",
+  "ad_kaynak": [
+   {
+    "ad": "Tirmiz",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'TİRMİZ' https://islamansiklopedisi.org.tr/tirmiz",
+    "kanit": "Tirmiz (Termiz, Türmiz) adı daha yaygın biçimde kullanılmıştır"
+   },
+   {
+    "ad": "Termiz",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'TİRMİZ' https://islamansiklopedisi.org.tr/tirmiz",
+    "kanit": "Tirmiz (Termiz, Türmiz) adı daha yaygın biçimde kullanılmıştır"
+   },
+   {
+    "ad": "Türmiz",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'TİRMİZ' https://islamansiklopedisi.org.tr/tirmiz",
+    "kanit": "Tirmiz (Termiz, Türmiz) adı daha yaygın biçimde kullanılmıştır"
+   },
+   {
+    "ad": "Termez",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'TİRMİZ' https://islamansiklopedisi.org.tr/tirmiz",
+    "kanit": "Tirmiz (Termez) şehrinin nüfusu"
+   },
+   {
+    "ad": "Termiz",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Termez' https://www.britannica.com/place/Termez",
+    "kanit": "Termez Uzbekistan Ask Anything Homework Help Also known as: Termiz"
+   },
+   {
+    "ad": "Термез",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Термез' https://ru.wikisource.org/wiki/ЭСБЕ/Термез",
+    "kanit": "Термез — древний город Средней Азии"
+   }
+  ]
  },
  {
   "id": "askabat-tm",
@@ -2355,7 +2574,11 @@
   "adlar": [
    "Yotkan (TDV: ilk ad)",
    "Hoten",
-   "Hotan"
+   "Hotan",
+   "Yotkan",
+   "Ho-t’ien",
+   "Khotan",
+   "Хотан"
   ],
   "ilk": {
    "t": "1100-01-01",
@@ -2434,7 +2657,51 @@
     "tanik": "1877’de Yâkub Beg’in ölümü üzerine Hoten Valisi Niyaz Beg bağımsızlığını ilân etti"
    }
   ],
-  "ic_not": "Kaynak: TDV tam gövde (tarayıcı), çift teyit YOK (ikinci akademik kaynak açılmadı). Tüm tanık alıntıları gövdede includes() ile birebir doğrulandı. ilk.t: TDV 'Gerdîzî (XI. yy) Hoten'in Çin sınırında büyük bir şehir olduğunu ... anlatır' — yüzyıl düzeyi, güvenli uç 1100-01-01. TDV ayrıca Hoten'in eski adının Yotkan olduğunu, MÖ II. yy Çin etkisini ve 8,5 km batıdaki harabelerde (modern Hoten'in 8,5 km batısı → >3 km; antik yer BU kayda alınmadı, ayrı kayıt önerilir) Budist kalıntıları söyler (tarihsiz). Yâkub Beg tarihinde TDV 1866 (Yâkub Beg md.) ve 1866-1867 (Hoten md.) der; 1866 alındı. 1877 olayı kısa süreli bağımsızlık ve Ekim 1877 geri alınış (zincir açmadı). Atlas Hotan'ı 500-01-01'de khotan ile başlatır (khotan künyesi 1006'ya kadar); TDV'nin 1100'deki tanığı atlas başlangıcından sonradır. Atlas bu noktayı 500-01-01'de başlatır; ilk.t sonra olduğundan sahip:[] (atlas zinciri esas), 'atlas başlangıcı düzeltilmeli' uyarısı beklenen davranıştır — TDV'de daha erken TARİHLİ tanık bulunamadı. | Parti5 tanık kuralı (17 Kasım 2026): tanik cümleden birebir yenilendi [ilk]: TDV cümlesi Hoten+Kücâ+V. (XI.) yüzyıl"
+  "ic_not": "Kaynak: TDV tam gövde (tarayıcı), çift teyit YOK (ikinci akademik kaynak açılmadı). Tüm tanık alıntıları gövdede includes() ile birebir doğrulandı. ilk.t: TDV 'Gerdîzî (XI. yy) Hoten'in Çin sınırında büyük bir şehir olduğunu ... anlatır' — yüzyıl düzeyi, güvenli uç 1100-01-01. TDV ayrıca Hoten'in eski adının Yotkan olduğunu, MÖ II. yy Çin etkisini ve 8,5 km batıdaki harabelerde (modern Hoten'in 8,5 km batısı → >3 km; antik yer BU kayda alınmadı, ayrı kayıt önerilir) Budist kalıntıları söyler (tarihsiz). Yâkub Beg tarihinde TDV 1866 (Yâkub Beg md.) ve 1866-1867 (Hoten md.) der; 1866 alındı. 1877 olayı kısa süreli bağımsızlık ve Ekim 1877 geri alınış (zincir açmadı). Atlas Hotan'ı 500-01-01'de khotan ile başlatır (khotan künyesi 1006'ya kadar); TDV'nin 1100'deki tanığı atlas başlangıcından sonradır. Atlas bu noktayı 500-01-01'de başlatır; ilk.t sonra olduğundan sahip:[] (atlas zinciri esas), 'atlas başlangıcı düzeltilmeli' uyarısı beklenen davranıştır — TDV'de daha erken TARİHLİ tanık bulunamadı. | Parti5 tanık kuralı (17 Kasım 2026): tanik cümleden birebir yenilendi [ilk]: TDV cümlesi Hoten+Kücâ+V. (XI.) yüzyıl",
+  "ad_kaynak": [
+   {
+    "ad": "Yotkan",
+    "dil": "und",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'HOTEN' https://islamansiklopedisi.org.tr/hoten",
+    "kanit": "İlk ismi Yotkan olan Hoten"
+   },
+   {
+    "ad": "Hoten",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'HOTEN' https://islamansiklopedisi.org.tr/hoten",
+    "kanit": "İlk ismi Yotkan olan Hoten"
+   },
+   {
+    "ad": "Hotan",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Hotan' https://www.britannica.com/place/Hotan",
+    "kanit": "Hotan China Ask Anything Homework Help Also known as: Ho-t’ien, Khotan"
+   },
+   {
+    "ad": "Ho-t’ien",
+    "dil": "zh",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Hotan' https://www.britannica.com/place/Hotan",
+    "kanit": "Hotan China Ask Anything Homework Help Also known as: Ho-t’ien, Khotan"
+   },
+   {
+    "ad": "Khotan",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Hotan' https://www.britannica.com/place/Hotan",
+    "kanit": "Hotan China Ask Anything Homework Help Also known as: Ho-t’ien, Khotan"
+   },
+   {
+    "ad": "Хотан",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "МЭСБЕ (Брокгауз-Ефрон) 'Хотан' https://ru.wikisource.org/wiki/МЭСБЕ/Хотан",
+    "kanit": "Хотан, оазис и гор. Вост. Туркестана в Китае"
+   }
+  ]
  },
  {
   "id": "kuca-cn",
@@ -2445,7 +2712,9 @@
   "kat1900": null,
   "adlar": [
    "Kücâ",
-   "Kuça"
+   "Kuça",
+   "Kuqa",
+   "K’u-ch’e"
   ],
   "ilk": {
    "t": "1100-01-01",
@@ -2470,7 +2739,30 @@
     "tanik": "1866’da Hoten’i, 1867’de Kuça’yı ele geçirdikten sonra 1868’de Turfan ve Kumul’u kendine bağladı"
    }
   ],
-  "ic_not": "Kaynak: TDV tam gövde (tarayıcı), çift teyit YOK (ikinci akademik kaynak açılmadı). Tüm tanık alıntıları gövdede includes() ile birebir doğrulandı. ilk.t: TDV «Hoten» md. Gerdîzî'nin (XI. yy müellifi) Hoten'in 'Çin sınırında büyük bir şehir olan Kücâ'ya' 15 günlük mesafede olduğunu yazdığını aktarır — yüzyıl düzeyi (güvenli uç 1100-01-01); alıntı Hoten'in mesafesi cümlesinden, Kücâ'nın 'büyük şehir' tanığıdır. TDV «Turfan» md.: Yâkub Beg 1867'de Kuça'yı ele geçirdi; «Yâkub Beg» md. Aksu-Kuça-Karaşehir alımını 1867 hükümdarlık ilanıyla birlikte verir. TDV'de 'Kuça' ayrı madde bulunamadı (arama noktaları: Kuça sorgusu alakasız). Atlas Kuça'yı 500-01-01'de kuca künyesiyle başlatır (kuca 649'da biter). Atlas bu noktayı 500-01-01'de başlatır; ilk.t sonra olduğundan sahip:[] (atlas zinciri esas), 'atlas başlangıcı düzeltilmeli' uyarısı beklenen davranıştır — TDV'de daha erken TARİHLİ tanık bulunamadı. | Parti5 tanık kuralı (17 Kasım 2026): tanik cümleden birebir yenilendi [ilk]: TDV cümlesi Kücâ+V. (XI.) yüzyıl (HOTEN maddesi)"
+  "ic_not": "Kaynak: TDV tam gövde (tarayıcı), çift teyit YOK (ikinci akademik kaynak açılmadı). Tüm tanık alıntıları gövdede includes() ile birebir doğrulandı. ilk.t: TDV «Hoten» md. Gerdîzî'nin (XI. yy müellifi) Hoten'in 'Çin sınırında büyük bir şehir olan Kücâ'ya' 15 günlük mesafede olduğunu yazdığını aktarır — yüzyıl düzeyi (güvenli uç 1100-01-01); alıntı Hoten'in mesafesi cümlesinden, Kücâ'nın 'büyük şehir' tanığıdır. TDV «Turfan» md.: Yâkub Beg 1867'de Kuça'yı ele geçirdi; «Yâkub Beg» md. Aksu-Kuça-Karaşehir alımını 1867 hükümdarlık ilanıyla birlikte verir. TDV'de 'Kuça' ayrı madde bulunamadı (arama noktaları: Kuça sorgusu alakasız). Atlas Kuça'yı 500-01-01'de kuca künyesiyle başlatır (kuca 649'da biter). Atlas bu noktayı 500-01-01'de başlatır; ilk.t sonra olduğundan sahip:[] (atlas zinciri esas), 'atlas başlangıcı düzeltilmeli' uyarısı beklenen davranıştır — TDV'de daha erken TARİHLİ tanık bulunamadı. | Parti5 tanık kuralı (17 Kasım 2026): tanik cümleden birebir yenilendi [ilk]: TDV cümlesi Kücâ+V. (XI.) yüzyıl (HOTEN maddesi)",
+  "ad_kaynak": [
+   {
+    "ad": "Kücâ",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'HOTEN' https://islamansiklopedisi.org.tr/hoten",
+    "kanit": "Gerdîzî ise Hoten’in Çin sınırında büyük bir şehir olan Kücâ’ya"
+   },
+   {
+    "ad": "Kuqa",
+    "dil": "zh",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Kucha' https://www.britannica.com/place/Kucha",
+    "kanit": "Kucha China Ask Anything Homework Help Also known as: K’u-ch’e, Kuqa"
+   },
+   {
+    "ad": "K’u-ch’e",
+    "dil": "zh",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Kucha' https://www.britannica.com/place/Kucha",
+    "kanit": "Kucha China Ask Anything Homework Help Also known as: K’u-ch’e, Kuqa"
+   }
+  ]
  },
  {
   "id": "hami-kumul-cn",
@@ -2681,7 +2973,9 @@
   "adlar": [
    "Yassı",
    "Yesi",
-   "Türkistan (Hazret-i Türkistan)"
+   "Türkistan (Hazret-i Türkistan)",
+   "Türkistan",
+   "Hazret-i Türkistan"
   ],
   "ilk": {
    "t": "1396-01-01",
@@ -2706,7 +3000,30 @@
     "tanik": "Ubeydullah (bazı kaynaklarda ise Abdullah) Sadr tarafından 1396 yılında çalışmalara başlanmış"
    }
   ],
-  "ic_not": "Kaynak: TDV tam gövde (tarayıcı), çift teyit YOK (ikinci akademik kaynak açılmadı). Tüm tanık alıntıları gövdede includes() ile birebir doğrulandı. ilk.t: Yassı/Türkistan şehrine özgü en erken TARİHLİ tanık külliye inşasıdır (1396); aynı madde şehrin XIV. yüzyılda Çağatay, Cucioğulları ve Timur arasında el değiştirdiğini söyler (yüzyıl düzeyi; sahip tarihi vermez, yazılmadı), Yâkût'tan (XIII. yy) bahseder. 1557-1583 Abdullah Kazan Han imarı (aralık), 1510 Şah İsmâil istilâsı (bölgesel) ve 1864 'Türkistan'ın Rusya'ya ilhakı' (şehir mi bölge mi belirsiz) yazılmadı. Atlas 1281'de cagatay ile başlatır. Atlas bu noktayı 1281-01-01'de başlatır; ilk.t sonra olduğundan sahip:[] (atlas zinciri esas), 'atlas başlangıcı düzeltilmeli' uyarısı beklenen davranıştır — TDV'de daha erken TARİHLİ tanık bulunamadı. | Parti5 tanık kuralı (17 Kasım 2026): kesinlik belirsiz'e indirildi (ad+yıl aynı cümlede birebir bulunamadı) [ilk]: madde konusu cümlesi: kaynak cümlesinde şehir adı yok (özne 'şehir/kasaba/burası' ya da madde başlığı), aynı cümlede ad+yıl bulunamadı (Ahmed Yesevî Külliyesi inşa tarihi 1396; şehir adı cümlede yok)"
+  "ic_not": "Kaynak: TDV tam gövde (tarayıcı), çift teyit YOK (ikinci akademik kaynak açılmadı). Tüm tanık alıntıları gövdede includes() ile birebir doğrulandı. ilk.t: Yassı/Türkistan şehrine özgü en erken TARİHLİ tanık külliye inşasıdır (1396); aynı madde şehrin XIV. yüzyılda Çağatay, Cucioğulları ve Timur arasında el değiştirdiğini söyler (yüzyıl düzeyi; sahip tarihi vermez, yazılmadı), Yâkût'tan (XIII. yy) bahseder. 1557-1583 Abdullah Kazan Han imarı (aralık), 1510 Şah İsmâil istilâsı (bölgesel) ve 1864 'Türkistan'ın Rusya'ya ilhakı' (şehir mi bölge mi belirsiz) yazılmadı. Atlas 1281'de cagatay ile başlatır. Atlas bu noktayı 1281-01-01'de başlatır; ilk.t sonra olduğundan sahip:[] (atlas zinciri esas), 'atlas başlangıcı düzeltilmeli' uyarısı beklenen davranıştır — TDV'de daha erken TARİHLİ tanık bulunamadı. | Parti5 tanık kuralı (17 Kasım 2026): kesinlik belirsiz'e indirildi (ad+yıl aynı cümlede birebir bulunamadı) [ilk]: madde konusu cümlesi: kaynak cümlesinde şehir adı yok (özne 'şehir/kasaba/burası' ya da madde başlığı), aynı cümlede ad+yıl bulunamadı (Ahmed Yesevî Külliyesi inşa tarihi 1396; şehir adı cümlede yok)",
+  "ad_kaynak": [
+   {
+    "ad": "Yesi",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'TÜRKİSTAN' https://islamansiklopedisi.org.tr/turkistan",
+    "kanit": "Türkistan ayrıca bugün Kazakistan’da bulunan Yesi şehrinin adıdır"
+   },
+   {
+    "ad": "Türkistan",
+    "dil": "tr",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'TÜRKİSTAN' https://islamansiklopedisi.org.tr/turkistan",
+    "kanit": "şehrin Türkistan adı buna bağlanmaktadır"
+   },
+   {
+    "ad": "Hazret-i Türkistan",
+    "dil": "tr",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'TÜRKİSTAN' https://islamansiklopedisi.org.tr/turkistan",
+    "kanit": "Ahmed Yesevî “Hazret-i Türkistan” adıyla anıldığı"
+   }
+  ]
  },
  {
   "id": "babadagi-ro",

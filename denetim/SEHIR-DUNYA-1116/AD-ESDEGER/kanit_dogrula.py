@@ -22,7 +22,9 @@ def sayfa(u, onbellek={}):
     onbellek[u] = t
     return t
 out = []
-for f in ('PILOT_A.json', 'PILOT_B.json'):
+GIRDI = sys.argv[1:] or ['PILOT_A.json', 'PILOT_B.json']          # örn: DALGA2_1.json
+CIKTI = os.environ.get('KANIT_CIKTI', 'KANIT-DOGRULAMA.tsv')
+for f in GIRDI:
     for s in json.load(open(os.path.join(D, f), encoding='utf-8')):
         for e in s['ad_kaynak']:
             m = re.search(r'https?://[^\s)\]]+', e.get('kaynak', ''))
@@ -34,7 +36,7 @@ for f in ('PILOT_A.json', 'PILOT_B.json'):
             if t is None: d = 'ERISILEMEDI'
             else: d = 'OK' if norm(e.get('kanit', '')) and norm(e['kanit']) in t else 'YOK'
             out.append([s['id'], e['ad'], e.get('dil', ''), u, d])
-with open(os.path.join(D, 'KANIT-DOGRULAMA.tsv'), 'w', encoding='utf-8', newline='') as fo:
+with open(os.path.join(D, CIKTI), 'w', encoding='utf-8', newline='') as fo:
     w = csv.writer(fo, delimiter='\t'); w.writerow(['id', 'ad', 'dil', 'kaynak_url', 'durum']); w.writerows(out)
 from collections import Counter
 print(Counter(r[4] for r in out))

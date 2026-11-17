@@ -438,7 +438,9 @@ window.SEHIR_TARIHCE_HINT = [
   "adlar": [
    "Vicayapura",
    "Bîcâpûr",
-   "Bijapur"
+   "Bijapur",
+   "Vijayapura",
+   "Биджапур"
   ],
   "ilk": {
    "t": "1489-01-01",
@@ -499,7 +501,44 @@ window.SEHIR_TARIHCE_HINT = [
     "tanik": "1760’ta 6 milyon rupi karşılığında Maratalar’a bırakıldı"
    }
   ],
-  "ic_not": "Kaynak: TDV 'Bîcâpûr' + 'Âdilşâhîler' TAM METİN (1489, 1636 ve 22 Eylül 1686 Âdilşâhîler maddesinden; 1724 ve 1760 Bîcâpûr maddesinden; Bîcâpûr maddesi 1489 ve 1686 yıllarını da verir, iki madde ve iki yazar tutarlı; ikisi de TDV olduğundan bağımsız çift teyit sayılmadı). Çift teyit YOK. Bîcâpûr maddesi: '1190 yılından itibaren bir asır Yadava Krallığı yönetimi altında kalan BÖLGE, 1294'te Alâeddin Halacî tarafından Delhi sultanı amcası adına fethedildi' — BÖLGE düzeyi; şehir/kale tarihlenmediği için ilk.t olarak alınmadı, atlasın 1281 yadava başlangıcıyla TDV bölge düzeyinde yaklaşık uyumludur (Yadava künyesi 1187-1318) → atlas başlangıcı şehir için TDV'de dayanaksız ('düzeltilmeli' uyarısı beklenir). ilk.t: şehre özgü ilk TARİHLİ olgu (1489). 1656-57 Evrengzîb muhasarası (1067), 1537 barış, 1514 savaş, 1688 veba, 1864 zincire bağlanmadı."
+  "ic_not": "Kaynak: TDV 'Bîcâpûr' + 'Âdilşâhîler' TAM METİN (1489, 1636 ve 22 Eylül 1686 Âdilşâhîler maddesinden; 1724 ve 1760 Bîcâpûr maddesinden; Bîcâpûr maddesi 1489 ve 1686 yıllarını da verir, iki madde ve iki yazar tutarlı; ikisi de TDV olduğundan bağımsız çift teyit sayılmadı). Çift teyit YOK. Bîcâpûr maddesi: '1190 yılından itibaren bir asır Yadava Krallığı yönetimi altında kalan BÖLGE, 1294'te Alâeddin Halacî tarafından Delhi sultanı amcası adına fethedildi' — BÖLGE düzeyi; şehir/kale tarihlenmediği için ilk.t olarak alınmadı, atlasın 1281 yadava başlangıcıyla TDV bölge düzeyinde yaklaşık uyumludur (Yadava künyesi 1187-1318) → atlas başlangıcı şehir için TDV'de dayanaksız ('düzeltilmeli' uyarısı beklenir). ilk.t: şehre özgü ilk TARİHLİ olgu (1489). 1656-57 Evrengzîb muhasarası (1067), 1537 barış, 1514 savaş, 1688 veba, 1864 zincire bağlanmadı.",
+  "ad_kaynak": [
+   {
+    "ad": "Vicayapura",
+    "dil": "sa",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'BÎCÂPÛR' https://islamansiklopedisi.org.tr/bicapur",
+    "kanit": "eski Vicayapura’dan gelmektedir"
+   },
+   {
+    "ad": "Bîcâpûr",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'BÎCÂPÛR' https://islamansiklopedisi.org.tr/bicapur",
+    "kanit": "Güney Hindistan’da Haydarâbâd’ın batısında bulunan Bîcâpûr’un adı"
+   },
+   {
+    "ad": "Bijapur",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Vijayapura (Bijapur)' https://www.britannica.com/place/Vijayapura",
+    "kanit": "Also called: Bijapur"
+   },
+   {
+    "ad": "Vijayapura",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Vijayapura (Bijapur)' https://www.britannica.com/place/Vijayapura",
+    "kanit": "Tomb of Gol Gumbaz, Vijayapura, Karnataka, India."
+   },
+   {
+    "ad": "Биджапур",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Биджапур' https://ru.wikisource.org/wiki/ЭСБЕ/Биджапур",
+    "kanit": "Биджапур — город в Британской Индии, в президентстве Бомбей"
+   }
+  ]
  },
  {
   "id": "bidar-in",
@@ -511,7 +550,8 @@ window.SEHIR_TARIHCE_HINT = [
   "adlar": [
    "Bîder",
    "Muhammedâbâd (1424-)",
-   "Bîdar"
+   "Bîdar",
+   "Muhammedâbâd"
   ],
   "ilk": {
    "t": "1322-01-01",
@@ -572,7 +612,23 @@ window.SEHIR_TARIHCE_HINT = [
     "tanik": "1067’de (1657) Bâbürlüler’in eline geçen şehir"
    }
   ],
-  "ic_not": "Kaynak: TDV 'Muhammedâbâd' TAM METİN (madde 'Bîder bk. Muhammedâbâd' ALIAS'ıdır; maddenin Dekken/Karnataka bölümü Bîder'i anlatır). Çift teyit YOK. Hicrî-milâdî eşlemeleri TDV'nin kendi parantezleridir (722=1322, 827=1424, 897=1492, 1028=1619, 1067=1657) — çeviri yapılmadı. ilk.t: şehre özgü EN ESKİ TARİHLİ olgu 1322 (fetih); önceki varlığı TDV'de yok. Atlas Bîdar'ı 1281'de kakatiya (künye 1163-1323) ile başlatır; 1322 fethi Muhammed b. Tuğluk (Delhi) tarafından, Kakatiya künyesinin 1323 bitişiyle uyumlu görünür ama TDV Bîder'in Kakatiya'ya ait olduğunu söylemez → atlas başlangıcı TDV'de dayanaksız ('düzeltilmeli' uyarısı beklenir). TDV: 1429 kale, 1472 Mahmûd-ı Gâvân medresesi, 1699 yıldırım, 1956 Meysûr eyaletine katılım zincire bağlanmadı."
+  "ic_not": "Kaynak: TDV 'Muhammedâbâd' TAM METİN (madde 'Bîder bk. Muhammedâbâd' ALIAS'ıdır; maddenin Dekken/Karnataka bölümü Bîder'i anlatır). Çift teyit YOK. Hicrî-milâdî eşlemeleri TDV'nin kendi parantezleridir (722=1322, 827=1424, 897=1492, 1028=1619, 1067=1657) — çeviri yapılmadı. ilk.t: şehre özgü EN ESKİ TARİHLİ olgu 1322 (fetih); önceki varlığı TDV'de yok. Atlas Bîdar'ı 1281'de kakatiya (künye 1163-1323) ile başlatır; 1322 fethi Muhammed b. Tuğluk (Delhi) tarafından, Kakatiya künyesinin 1323 bitişiyle uyumlu görünür ama TDV Bîder'in Kakatiya'ya ait olduğunu söylemez → atlas başlangıcı TDV'de dayanaksız ('düzeltilmeli' uyarısı beklenir). TDV: 1429 kale, 1472 Mahmûd-ı Gâvân medresesi, 1699 yıldırım, 1956 Meysûr eyaletine katılım zincire bağlanmadı.",
+  "ad_kaynak": [
+   {
+    "ad": "Bîder",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'MUHAMMEDÂBÂD' https://islamansiklopedisi.org.tr/muhammedabad",
+    "kanit": "günümüzde Bîder adıyla bilinmektedir"
+   },
+   {
+    "ad": "Muhammedâbâd",
+    "dil": "tr-osm",
+    "donem": "1424-",
+    "kaynak": "TDV İslâm Ansiklopedisi 'MUHAMMEDÂBÂD' https://islamansiklopedisi.org.tr/muhammedabad",
+    "kanit": "adını Muhammedâbâd olarak değiştirdi"
+   }
+  ]
  },
  {
   "id": "bikaner-p6",
@@ -1651,7 +1707,8 @@ window.SEHIR_TARIHCE_HINT = [
   "kat1900": null,
   "adlar": [
    "Gûlkünde",
-   "Golkonda"
+   "Golkonda",
+   "Голконда"
   ],
   "ilk": {
    "t": "1363-01-01",
@@ -1712,7 +1769,30 @@ window.SEHIR_TARIHCE_HINT = [
     "tanik": "14 Zilkade 1098’de (21 Eylül 1687) Bâbürlü Hükümdarı Evrengzîb tarafından"
    }
   ],
-  "ic_not": "Kaynak: TDV 'Gûlkünde' (Golkonda md. 'bk. Gûlkünde' yönlendirmesidir; ALIAS çözüldü) + 'Kutubşâhîler' TAM METİN. 1687-09-21 iki TDV maddesinde aynıdır (Gûlkünde ve Kutubşâhîler: 14 Zilkade 1098/21 Eylül 1687) — aynı yayının iç tutarlılığı, bağımsız çift teyit sayılmadı. Çift teyit YOK. ilk.t: TDV 'eski bir Hindu kalesi ... Varangal Racalığı'nın merkezi iken' der (tarihsiz); kaleye özgü EN ESKİ TARİHLİ olgu 1363. TDV 'Kutubşâhîler' 1496'da Sultan Kulı'nın Golkonda'ya sahip olduğunu, 'Gûlkünde' ise 1512 bağımsızlığını anlatır — iki ayrı olgu (valilik ve bağımsızlık), çelişki sayılmadı. Atlas Golkonda'yı 1281'de kakatiya (künye 1163-1323) ile başlatır: TDV Varangal=Kakatiya merkezini tarihsiz verir; 1363 öncesi için dayanak yok → atlas başlangıcı ('düzeltilmeli' uyarısı beklenir, KASA). Kutubşâhî tanıkları (Talikota 5 Ocak 1565 vb.) bölge olayıdır, yazılmadı. | Parti5 tanık kuralı (17 Kasım 2026): tanik cümleden birebir yenilendi [ilk]: TDV cümlesi ad+1363"
+  "ic_not": "Kaynak: TDV 'Gûlkünde' (Golkonda md. 'bk. Gûlkünde' yönlendirmesidir; ALIAS çözüldü) + 'Kutubşâhîler' TAM METİN. 1687-09-21 iki TDV maddesinde aynıdır (Gûlkünde ve Kutubşâhîler: 14 Zilkade 1098/21 Eylül 1687) — aynı yayının iç tutarlılığı, bağımsız çift teyit sayılmadı. Çift teyit YOK. ilk.t: TDV 'eski bir Hindu kalesi ... Varangal Racalığı'nın merkezi iken' der (tarihsiz); kaleye özgü EN ESKİ TARİHLİ olgu 1363. TDV 'Kutubşâhîler' 1496'da Sultan Kulı'nın Golkonda'ya sahip olduğunu, 'Gûlkünde' ise 1512 bağımsızlığını anlatır — iki ayrı olgu (valilik ve bağımsızlık), çelişki sayılmadı. Atlas Golkonda'yı 1281'de kakatiya (künye 1163-1323) ile başlatır: TDV Varangal=Kakatiya merkezini tarihsiz verir; 1363 öncesi için dayanak yok → atlas başlangıcı ('düzeltilmeli' uyarısı beklenir, KASA). Kutubşâhî tanıkları (Talikota 5 Ocak 1565 vb.) bölge olayıdır, yazılmadı. | Parti5 tanık kuralı (17 Kasım 2026): tanik cümleden birebir yenilendi [ilk]: TDV cümlesi ad+1363",
+  "ad_kaynak": [
+   {
+    "ad": "Gûlkünde",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'GÛLKÜNDE' https://islamansiklopedisi.org.tr/gulkunde",
+    "kanit": "Eski bir Hindu kalesi olan Gûlkünde (Golkonda)"
+   },
+   {
+    "ad": "Golkonda",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'GÛLKÜNDE' https://islamansiklopedisi.org.tr/gulkunde",
+    "kanit": "Eski bir Hindu kalesi olan Gûlkünde (Golkonda)"
+   },
+   {
+    "ad": "Голконда",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Голконда' https://ru.wikisource.org/wiki/ЭСБЕ/Голконда",
+    "kanit": "Голконда — крепость и развалины города"
+   }
+  ]
  },
  {
   "id": "gorakhpur-p6",
@@ -1754,7 +1834,8 @@ window.SEHIR_TARIHCE_HINT = [
   "kat1900": null,
   "adlar": [
    "Gevâliyâr",
-   "Gwalior"
+   "Gwalior",
+   "Гвалиор"
   ],
   "ilk": {
    "t": "1022-01-01",
@@ -1851,7 +1932,30 @@ window.SEHIR_TARIHCE_HINT = [
     "tanik": "1886 yılından itibaren Gevâliyâr Sindhia Mihraceliği’nin başşehri oldu"
    }
   ],
-  "ic_not": "Kaynak: TDV 'Gevâliyâr' TAM METİN. Çift teyit YOK (Nizami'nin atıfları, Cambridge History of India vb. açılamadı). ilk.t: TDV 'bölgenin ilk hâkimleri VI. yüzyılda Toramana ve oğlu Mihirkula' der (BÖLGE düzeyi, yüzyıl; kale/şehre bağlanmadı) — maddenin şehre/kaleye özgü EN ESKİ TARİHLİ olgusu 1022 kuşatmasıdır; Gevâliyâr'ın daha eski varlığı TDV'de tarihsiz (Gupta sonrası). Atlas Gvalyar'ı 0500'de alkhon ile başlatır; Toramana/Mihirkula (Alkhon) atlas iddiasıyla uyumludur ama TDV bunu şehre bağlamaz → sahip:[], 'atlas başlangıcı düzeltilmeli' uyarısı beklenir. TDV 1236-1240 Radıyye Begüm'ün gönderdiği ordu üzerine kalenin Cehâr Devâ'ya 'terkedilmesi' (yılı yazılmaz, aralık) ve 1251 Balaban hücumu, 'en az 1259'a kadar zaman zaman bağımsız' (sikkelerden) yazılmadı. 1518 Lûdî kuşatması ve Mân Singh'in elinden çıkışı kaynakta belirsiz anlatılır — zincire bağlanmadı. | Parti5 tanık kuralı (17 Kasım 2026): tanik cümleden birebir yenilendi [ilk]: TDV cümlesi ad+1022"
+  "ic_not": "Kaynak: TDV 'Gevâliyâr' TAM METİN. Çift teyit YOK (Nizami'nin atıfları, Cambridge History of India vb. açılamadı). ilk.t: TDV 'bölgenin ilk hâkimleri VI. yüzyılda Toramana ve oğlu Mihirkula' der (BÖLGE düzeyi, yüzyıl; kale/şehre bağlanmadı) — maddenin şehre/kaleye özgü EN ESKİ TARİHLİ olgusu 1022 kuşatmasıdır; Gevâliyâr'ın daha eski varlığı TDV'de tarihsiz (Gupta sonrası). Atlas Gvalyar'ı 0500'de alkhon ile başlatır; Toramana/Mihirkula (Alkhon) atlas iddiasıyla uyumludur ama TDV bunu şehre bağlamaz → sahip:[], 'atlas başlangıcı düzeltilmeli' uyarısı beklenir. TDV 1236-1240 Radıyye Begüm'ün gönderdiği ordu üzerine kalenin Cehâr Devâ'ya 'terkedilmesi' (yılı yazılmaz, aralık) ve 1251 Balaban hücumu, 'en az 1259'a kadar zaman zaman bağımsız' (sikkelerden) yazılmadı. 1518 Lûdî kuşatması ve Mân Singh'in elinden çıkışı kaynakta belirsiz anlatılır — zincire bağlanmadı. | Parti5 tanık kuralı (17 Kasım 2026): tanik cümleden birebir yenilendi [ilk]: TDV cümlesi ad+1022",
+  "ad_kaynak": [
+   {
+    "ad": "Gevâliyâr",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'GEVÂLİYÂR' https://islamansiklopedisi.org.tr/gevaliyar",
+    "kanit": "Gevâliyâr (Gwalior) Kalesi’ni kuşattı"
+   },
+   {
+    "ad": "Gwalior",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'GEVÂLİYÂR' https://islamansiklopedisi.org.tr/gevaliyar",
+    "kanit": "Gevâliyâr (Gwalior) Kalesi’ni kuşattı"
+   },
+   {
+    "ad": "Гвалиор",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Гвалиор, город' https://ru.wikisource.org/wiki/ЭСБЕ/Гвалиор, город",
+    "kanit": "Гвалиор (Gwalior) — главный город государства"
+   }
+  ]
  },
  {
   "id": "haydarabad-dekken-in",
@@ -2218,7 +2322,23 @@ window.SEHIR_TARIHCE_HINT = [
     "tanik": "The town was mentioned in 1293 by the Venetian traveler Marco Polo"
    }
   ],
-  "ic_not": "TEK KAYNAK her olay için (1293 Britannica, 1298 Majumdar VI). 1298 DOLAYLI YIL: tanık cümlesinde yıl yok; aynı bölümün başındaki 'In the latter half of 12 98, ‘Ala-ud-din sent an expedition under Ulugh Khan and Nusrat Khan to Gujarat' (OCR '12 98', dipnot 7; sayfa metninde doğrulandı) seferi tarihler; Cambay yağması bu seferin içinde (ikisi aynı paragrafta). Başka kaynaklar seferi 1299'a koyabilir (bu oturumda doğrulanmadı); gün bilinmiyor, kesinlik yil. Majumdar IV 'Stambha (modern Cambay)' Doğu Çalukya Vijayâditya II'nin yağması (9. yy, yılsız) ve Cambay Plates 930 (kitabenin Cambay'da düzenlendiği metinde belirtilmiyor) yazılmadı. Majumdar VI ayrıca 'Taghi ... plundered Cambay' (14. yy ortası, yılsız) der; yazılmadı. Atlas Kanbâyet'te 1281 (racput) başlıyor; atlas zinciri esastır, sahip yazılmadı. | Parti5 tanık kuralı (17 Kasım 2026): kesinlik belirsiz'e indirildi (ad+yıl aynı cümlede birebir bulunamadı) [ilk]: madde konusu cümlesi: kaynak cümlesinde şehir adı yok (özne 'şehir/kasaba/burası' ya da madde başlığı), aynı cümlede ad+yıl bulunamadı (Britannica 'The town was mentioned in 1293 by ... Marco Polo'; Khambhat/Cambay adı önceki cümlede) Parti5 geri alma (koordinatör kararı): tanık cümlesi madde konusu şehre atıflı (madde: Khambhat); ilk.kesinlik 'belirsiz' → 'yil' geri alındı."
+  "ic_not": "TEK KAYNAK her olay için (1293 Britannica, 1298 Majumdar VI). 1298 DOLAYLI YIL: tanık cümlesinde yıl yok; aynı bölümün başındaki 'In the latter half of 12 98, ‘Ala-ud-din sent an expedition under Ulugh Khan and Nusrat Khan to Gujarat' (OCR '12 98', dipnot 7; sayfa metninde doğrulandı) seferi tarihler; Cambay yağması bu seferin içinde (ikisi aynı paragrafta). Başka kaynaklar seferi 1299'a koyabilir (bu oturumda doğrulanmadı); gün bilinmiyor, kesinlik yil. Majumdar IV 'Stambha (modern Cambay)' Doğu Çalukya Vijayâditya II'nin yağması (9. yy, yılsız) ve Cambay Plates 930 (kitabenin Cambay'da düzenlendiği metinde belirtilmiyor) yazılmadı. Majumdar VI ayrıca 'Taghi ... plundered Cambay' (14. yy ortası, yılsız) der; yazılmadı. Atlas Kanbâyet'te 1281 (racput) başlıyor; atlas zinciri esastır, sahip yazılmadı. | Parti5 tanık kuralı (17 Kasım 2026): kesinlik belirsiz'e indirildi (ad+yıl aynı cümlede birebir bulunamadı) [ilk]: madde konusu cümlesi: kaynak cümlesinde şehir adı yok (özne 'şehir/kasaba/burası' ya da madde başlığı), aynı cümlede ad+yıl bulunamadı (Britannica 'The town was mentioned in 1293 by ... Marco Polo'; Khambhat/Cambay adı önceki cümlede) Parti5 geri alma (koordinatör kararı): tanık cümlesi madde konusu şehre atıflı (madde: Khambhat); ilk.kesinlik 'belirsiz' → 'yil' geri alındı.",
+  "ad_kaynak": [
+   {
+    "ad": "Cambay",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Khambhat' https://www.britannica.com/place/Khambhat",
+    "kanit": "Also known as: Cambay"
+   },
+   {
+    "ad": "Khambhat",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Khambhat' https://www.britannica.com/place/Khambhat",
+    "kanit": "It lies at the head of the Gulf of Khambhat (Cambay)"
+   }
+  ]
  },
  {
   "id": "kannauc-in-a3",
@@ -2229,7 +2349,11 @@ window.SEHIR_TARIHCE_HINT = [
   "kat1900": null,
   "adlar": [
    "Kannevc (TDV)",
-   "Kannauj"
+   "Kannauj",
+   "Kannevc",
+   "Cannauj",
+   "Kanauj",
+   "Kanyakubja"
   ],
   "ilk": {
    "t": "1018-12-20",
@@ -2254,7 +2378,44 @@ window.SEHIR_TARIHCE_HINT = [
     "tanik": "Sultanın asıl hedefi olan Kannevc ise 8 Şâban 409’da (20 Aralık 1018) fethedildi"
    }
   ],
-  "ic_not": "Tarih TDV'nin kendi milâdî karşılığıdır (hicrî 8 Şâban 409 = 20 Aralık 1018); ikinci akademik kaynak (çift teyit) bu oturumda açılmadı, TDV tek. Fetih bir akın/ele geçirme düzeyindedir: TDV Gazneli'nin şehri elde tuttuğunu ya da bir yönetici bıraktığını söylemez, bu yüzden Gazneli sahiplik dönemi AÇILMADI (süresi bilinmeyen ele geçirme kuralı) ve sahip:[] bırakıldı. Atlas Kannauc'u 0500-01-01'den __BOSLUK__ ile başlatır (ilk.t 1018 sonrasıdır, atlas zinciri esastır); atlasın ilk gerçek sahibi delhi-sultanligi'dir. Aynı TDV 'Tuğluklular' maddesi 794/1392'de Kannevc ve Dalmu'daki Hindular'ın cezalandırıldığını söyler (sefer, el değiştirme değil; yazılmadı). 1540 Kannevc Savaşı (TDV 'Şîr Şah'/'Bâbürlüler') şehrin olgusu değil savaş anılışı sayıldı, yazılmadı. TDV tam metin okumasında tanık alıntısı gövdeye karşı doğrulandı (16 Kasım 2026). ÇİFT TEYİT (yıl düzeyinde, iki bağımsız akademik kaynak daha; F3 çözüm 16 Kasım 2026, tarayıcı sayfa okuma): Majumdar HCIP IV «till A.D. 1018 when it was destroyed by Mahmud of Ghazni» ve Britannica «In 1018, however, it was razed by Maḥmūd of Ghazna»; gün (20 Aralık 1018) yalnız TDV Mahmûd-ı Gaznevî md.'ndedir."
+  "ic_not": "Tarih TDV'nin kendi milâdî karşılığıdır (hicrî 8 Şâban 409 = 20 Aralık 1018); ikinci akademik kaynak (çift teyit) bu oturumda açılmadı, TDV tek. Fetih bir akın/ele geçirme düzeyindedir: TDV Gazneli'nin şehri elde tuttuğunu ya da bir yönetici bıraktığını söylemez, bu yüzden Gazneli sahiplik dönemi AÇILMADI (süresi bilinmeyen ele geçirme kuralı) ve sahip:[] bırakıldı. Atlas Kannauc'u 0500-01-01'den __BOSLUK__ ile başlatır (ilk.t 1018 sonrasıdır, atlas zinciri esastır); atlasın ilk gerçek sahibi delhi-sultanligi'dir. Aynı TDV 'Tuğluklular' maddesi 794/1392'de Kannevc ve Dalmu'daki Hindular'ın cezalandırıldığını söyler (sefer, el değiştirme değil; yazılmadı). 1540 Kannevc Savaşı (TDV 'Şîr Şah'/'Bâbürlüler') şehrin olgusu değil savaş anılışı sayıldı, yazılmadı. TDV tam metin okumasında tanık alıntısı gövdeye karşı doğrulandı (16 Kasım 2026). ÇİFT TEYİT (yıl düzeyinde, iki bağımsız akademik kaynak daha; F3 çözüm 16 Kasım 2026, tarayıcı sayfa okuma): Majumdar HCIP IV «till A.D. 1018 when it was destroyed by Mahmud of Ghazni» ve Britannica «In 1018, however, it was razed by Maḥmūd of Ghazna»; gün (20 Aralık 1018) yalnız TDV Mahmûd-ı Gaznevî md.'ndedir.",
+  "ad_kaynak": [
+   {
+    "ad": "Kannevc",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'MAHMÛD-ı GAZNEVÎ' https://islamansiklopedisi.org.tr/mahmud-i-gaznevi",
+    "kanit": "Sultanın asıl hedefi olan Kannevc ise 8 Şâban 409’da"
+   },
+   {
+    "ad": "Cannauj",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Kannauj' https://www.britannica.com/place/Kannauj",
+    "kanit": "Also known as: Cannauj, Kanauj, Kanyakubja"
+   },
+   {
+    "ad": "Kanauj",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Kannauj' https://www.britannica.com/place/Kannauj",
+    "kanit": "Also known as: Cannauj, Kanauj, Kanyakubja"
+   },
+   {
+    "ad": "Kanyakubja",
+    "dil": "sa",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Kannauj' https://www.britannica.com/place/Kannauj",
+    "kanit": "Also known as: Cannauj, Kanauj, Kanyakubja"
+   },
+   {
+    "ad": "Kannauj",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Kannauj' https://www.britannica.com/place/Kannauj",
+    "kanit": "Kannauj India Ask Anything Homework Help Also known as: Cannauj"
+   }
+  ]
  },
  {
   "id": "kannur-in-p6",
@@ -2962,7 +3123,10 @@ window.SEHIR_TARIHCE_HINT = [
   "kat1900": null,
   "adlar": [
    "Mathura",
-   "Muttra"
+   "Muttra",
+   "Матхура",
+   "Муттра",
+   "Матура"
   ],
   "ilk": {
    "t": "1018-01-01",
@@ -3006,7 +3170,58 @@ window.SEHIR_TARIHCE_HINT = [
    }
   ],
   "dikis_beyan": "Atlas Mathura'yı 1281-01-01'de delhi-sultanligi ile başlatır; 1018→1281 arası sahip kaynağı bulunamadı (Majumdar V okunamadı), yer tutucu olay yazılmadı. ÇELİŞKİ: atlas 1803-10-17'de Marata dönemini kapatır, Britannica 'British rule in 1804' der.",
-  "ic_not": "TEK KAYNAK (Britannica). İlk anılış Mahmud'un yağması değil Britannica'nın en erken TARİHLİ olgusudur; Britannica Kuşan döneminde (1. yy) gelişen bir şehir olduğunu söyler (yılsız) — bu yazılmadı. 'Between 1500 and 1757 sacked four times' aralığı şehre özgü ama tek tek yıl vermediği için yazılmadı. Aralığın (1017-18) güvenli ucu 1018 alındı. Majumdar VI metninde Mathura geçmiyor (0 isabet)."
+  "ic_not": "TEK KAYNAK (Britannica). İlk anılış Mahmud'un yağması değil Britannica'nın en erken TARİHLİ olgusudur; Britannica Kuşan döneminde (1. yy) gelişen bir şehir olduğunu söyler (yılsız) — bu yazılmadı. 'Between 1500 and 1757 sacked four times' aralığı şehre özgü ama tek tek yıl vermediği için yazılmadı. Aralığın (1017-18) güvenli ucu 1018 alındı. Majumdar VI metninde Mathura geçmiyor (0 isabet).",
+  "ad_kaynak": [
+   {
+    "ad": "Mathûrâ",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'MAHMÛD-ı GAZNEVÎ' https://islamansiklopedisi.org.tr/mahmud-i-gaznevi",
+    "kanit": "bulunan Mathûrâ (Muttra) şehrine hâkim oldu"
+   },
+   {
+    "ad": "Muttra",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'MAHMÛD-ı GAZNEVÎ' https://islamansiklopedisi.org.tr/mahmud-i-gaznevi",
+    "kanit": "bulunan Mathûrâ (Muttra) şehrine hâkim oldu"
+   },
+   {
+    "ad": "Muttra",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Mathura' https://www.britannica.com/place/Mathura",
+    "kanit": "Mathura India Ask Anything Homework Help Also known as: Muttra"
+   },
+   {
+    "ad": "Mathura",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Mathura' https://www.britannica.com/place/Mathura",
+    "kanit": "Mathura India Ask Anything Homework Help Also known as: Muttra"
+   },
+   {
+    "ad": "Матхура",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Матхура' https://ru.wikisource.org/wiki/ЭСБЕ/Матхура",
+    "kanit": "Матхура (Mathurâ) — древний город Индии, один из семи священных"
+   },
+   {
+    "ad": "Муттра",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Матхура' https://ru.wikisource.org/wiki/ЭСБЕ/Матхура",
+    "kanit": "теперь называется Муттра, или Матура"
+   },
+   {
+    "ad": "Матура",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Матхура' https://ru.wikisource.org/wiki/ЭСБЕ/Матхура",
+    "kanit": "теперь называется Муттра, или Матура"
+   }
+  ]
  },
  {
   "id": "meysur-in-p6",
@@ -4074,7 +4289,23 @@ window.SEHIR_TARIHCE_HINT = [
     "tanik": "its capture in 1750 by the Sindhias, who made it their capital"
    }
   ],
-  "ic_not": "ÇİFT TEYİT YOK: 1235 ve 1750 yalnız Britannica (TEK KAYNAK); 1305 yalnız Majumdar VI (TEK KAYNAK). 1305 DOLAYLI YIL: tanık cümlesinde yıl yok; hemen önceki cümle 'took possession of the fort (November 24, 1305)' Mandu'nun düşüşünü verir, Uccayn'ın indirilmesi 'after the fall of Mandu' (sonra) — kesin gün bilinmediği için aralığın son ucu 1305-12-31 alındı (kesinlik yil). ATLAS/BORÇ: Britannica daha eski iddialar da verir (Avanti başkenti MÖ 6.-4. yy; 'Ashoka seat 2nd century BCE' — Aşoka MÖ 3. yy olduğundan Britannica'da yıl tutarsız görünüyor, KULLANILMADI; Gupta II. Çandragupta 400 CE). Bunlar atlasın başlangıcından (0140) önce/sonra yüzyıl düzeyindedir, sahip künyeleri (avanti, maurya, gupta) araştırılmadığı için zincire alınmadı; ilk = Batlamyus (atlas 0140'tan sonra) seçildi. Atlas Uccayn'da 1750 Sindhia dönemi ve 1235 İltutmış sahipliği için atlas zincirine bakılmalı (bu dosya atlas zincirine karışmaz)."
+  "ic_not": "ÇİFT TEYİT YOK: 1235 ve 1750 yalnız Britannica (TEK KAYNAK); 1305 yalnız Majumdar VI (TEK KAYNAK). 1305 DOLAYLI YIL: tanık cümlesinde yıl yok; hemen önceki cümle 'took possession of the fort (November 24, 1305)' Mandu'nun düşüşünü verir, Uccayn'ın indirilmesi 'after the fall of Mandu' (sonra) — kesin gün bilinmediği için aralığın son ucu 1305-12-31 alındı (kesinlik yil). ATLAS/BORÇ: Britannica daha eski iddialar da verir (Avanti başkenti MÖ 6.-4. yy; 'Ashoka seat 2nd century BCE' — Aşoka MÖ 3. yy olduğundan Britannica'da yıl tutarsız görünüyor, KULLANILMADI; Gupta II. Çandragupta 400 CE). Bunlar atlasın başlangıcından (0140) önce/sonra yüzyıl düzeyindedir, sahip künyeleri (avanti, maurya, gupta) araştırılmadığı için zincire alınmadı; ilk = Batlamyus (atlas 0140'tan sonra) seçildi. Atlas Uccayn'da 1750 Sindhia dönemi ve 1235 İltutmış sahipliği için atlas zincirine bakılmalı (bu dosya atlas zincirine karışmaz).",
+  "ad_kaynak": [
+   {
+    "ad": "Ozene",
+    "dil": "grc",
+    "donem": "0101-0200",
+    "kaynak": "Encyclopaedia Britannica 'Ujjain' https://www.britannica.com/place/Ujjain",
+    "kanit": "known to the Greek geographer Ptolemy in the 2nd century ce as Ozene"
+   },
+   {
+    "ad": "Ujjain",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Ujjain' https://www.britannica.com/place/Ujjain",
+    "kanit": "Ujjain is one of seven sacred Hindu cities."
+   }
+  ]
  },
  {
   "id": "yafna-lk-p6",
