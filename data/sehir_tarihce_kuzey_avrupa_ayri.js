@@ -36,19 +36,19 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_AYRI = [
   "sahip": [
    {
     "f": "0999-01-01",
-    "t": "1523-01-01",
+    "t": "1523-06-06",
     "d": "isvec-birlik-oncesi",
     "kesinlik": "yuzyil",
     "kaynak": "Den Store Danske / lex.dk, 'Uppsala', https://lex.dk/Uppsala",
-    "ic_not": "BEYANLI YAKLAŞIKLIK: kaynak devleti söylemez; Svealand merkezi, İsveç Krallığı (isvec-birlik-oncesi künyesi). Künye f 1000-01-01, dönem 999'dan başlar (hayalet uyarısı beklenir: künye başlangıcı 'pencere ucu' — künye tarafı düzeltilebilir)."
+    "ic_not": "BEYANLI YAKLAŞIKLIK: kaynak devleti söylemez; Svealand merkezi, İsveç Krallığı (isvec-birlik-oncesi künyesi). Künye f 1000-01-01, dönem 999'dan başlar (hayalet uyarısı beklenir: künye başlangıcı 'pencere ucu' — künye tarafı düzeltilebilir). | Bitis 1523-06-06 (SBL Gustav I, Strangnas riksdagi)."
    },
    {
-    "f": "1523-01-01",
+    "f": "1523-06-06",
     "t": "1900-01-01",
     "d": "isvec",
-    "kesinlik": "yil",
+    "kesinlik": "gun",
     "kaynak": "Den Store Danske / lex.dk, 'Kalmarunionen', https://lex.dk/Kalmarunionen",
-    "ic_not": "Sınır 1523: lex 'Kalmarunionen' Gustav Vasa'nın 1523'te kral ilan edildiğini yazar; GÜN KAYNAKTA YOK (künye f 1523-06-06 atlas verisidir) — yıl başına çekildi, BEYANLI (kuzey_avrupa_1 Gävle emsali). 1900-01-01: atlasta eşleşen nokta yok, zincir 1900'e uzatıldı."
+    "ic_not": "Sınır 1523: lex 'Kalmarunionen' Gustav Vasa'nın 1523'te kral ilan edildiğini yazar; GÜN KAYNAKTA YOK (künye f 1523-06-06 atlas verisidir) — yıl başına çekildi, BEYANLI (kuzey_avrupa_1 Gävle emsali). 1900-01-01: atlasta eşleşen nokta yok, zincir 1900'e uzatıldı. | SINIR GUNU (UMIT 17 Kasim 1116): 1523-01-01 yil-basi yaklasimi yerine 6 Haziran 1523 (SBL 'Gustav I': 'på riksdagen i Strängnäs 6 juni 1523 valdes till sv konung'); kunye f 1523-06-06 ile ayni gun."
    }
   ],
   "olay": [
@@ -88,13 +88,13 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_AYRI = [
     "ic_not": "lex 'Gamla Uppsala': 'i 1270'erne flyttet nogle kilometer ned ad åen' (on yıl); snl 'Gamla Uppsala' başpiskoposluk dönemi 1273'te bitirir. Tanık metni önceki kayıt (uppsala-se) üzerinden devralındı, snl sayfası bu oturumda yeniden okunmadı."
    },
    {
-    "t": "1523-01-01",
-    "gun": "1523",
+    "t": "1523-06-06",
+    "gun": "6 Haziran 1523",
     "k": "taht",
     "b": "Gustav Vasa İsveç kralı ilan edilir; Kalmar Birliği'nden ayrılış (künye geçişi).",
-    "kaynak": "Den Store Danske / lex.dk, 'Kalmarunionen', https://lex.dk/Kalmarunionen",
+    "kaynak": "Ivan Svalenius, 'Gustav I', Svenskt biografiskt lexikon bd 17 (1967-1969) s. 433, https://sok.riksarkivet.se/sbl/artikel/13315 | onceki: Den Store Danske / lex.dk, 'Kalmarunionen', https://lex.dk/Kalmarunionen",
     "tanik": "Gustav Vasa, der i 1523 lod sig udråbe som Sveriges konge.",
-    "ic_not": "Gün yok (yıl); künye geçişi isvec-birlik-oncesi → isvec. Tanık metni kuzey_avrupa_1 Gävle kaydından devralındı, bu oturumda yeniden okunmadı."
+    "ic_not": "Gün yok (yıl); künye geçişi isvec-birlik-oncesi → isvec. Tanık metni kuzey_avrupa_1 Gävle kaydından devralındı, bu oturumda yeniden okunmadı. Gun: SBL 'valdes till sv konung 6 juni 1523' (Strangnas riksdagi); onceki yil-basi yaklasimi duzeltildi."
    }
   ],
   "ic_not": "UPPSALA ile ilişki: bu kayıt 'uppsala-se' (59.859, 17.639) ≈4,5 km KUZEYDEKİ eski kült/yönetim merkezidir; kent işlevi 1273'te Östra Aros'a (bugünkü Uppsala) taşındı (> 3 km kuralı: ayrı kayıt). Koordinat: GeoNames sayfası, 'Gamla Uppsala' (P/PPLX) 59°53′53.41″ N, 17°38′01.90″ E (aynı adlı arkeolojik alan 59°53′59.06″ N, 17°37′55.31″ E, kilise 59°53′58.24″ N, 17°37′54.77″ E). Atlasta 'Uppsala' noktası 1000'den başlar (denetim notu: 3 km içinde varsayıldı ama gerçek mesafe ≈4,5 km, atlas başlangıcı Gamla Uppsala tarihiyle örtüşür); atlas_ad null bırakıldı. 1273 sonrası Gamla Uppsala kilise köyü/anıt alanı olarak sürer (şehir statüsü kaynakta ayrıca belirtilmez). snl 'Gamla Uppsala' 'Snorri'yi anmaz."
@@ -213,19 +213,19 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_AYRI = [
   "sahip": [
    {
     "f": "1384-01-01",
-    "t": "1523-01-01",
+    "t": "1523-06-06",
     "d": "isvec-birlik-oncesi",
     "kesinlik": "yil",
     "kaynak": "Uppslagsverket Finland, 'Gamla Vasa', https://uppslagsverket.fi/sv/sok/view-170045-GamlaVasa",
-    "ic_not": "BEYANLI YAKLAŞIKLIK: Korsholm kalesi (Mustasaari) İsveç Krallığı toprağıdır; kaynak 1384'te krallığı ayrıca söylemez. Künye isvec-birlik-oncesi (1000-1523-06-06). Sınır 1523-01-01: yıl başı, BEYANLI (kuzey_avrupa_1 Gävle emsali)."
+    "ic_not": "BEYANLI YAKLAŞIKLIK: Korsholm kalesi (Mustasaari) İsveç Krallığı toprağıdır; kaynak 1384'te krallığı ayrıca söylemez. Künye isvec-birlik-oncesi (1000-1523-06-06). Sınır 1523-01-01: yıl başı, BEYANLI (kuzey_avrupa_1 Gävle emsali). | Bitis 1523-06-06 (SBL Gustav I, Strangnas riksdagi)."
    },
    {
-    "f": "1523-01-01",
+    "f": "1523-06-06",
     "t": "1809-09-17",
     "d": "isvec",
-    "kesinlik": "yil",
+    "kesinlik": "gun",
     "kaynak": "Den Store Danske / lex.dk, 'Vaasa', https://lex.dk/Vaasa",
-    "ic_not": "Kaynak şehri 'Karl 9 tarafından kurulmuş' der (İsveç kralı); devlet = isvec künyesi. Bitiş: Hamina 17 Eylül 1809 (snl 'Finlands historie'). | f 1523-01-01'e çekildi (yıl başı; lex 'Kalmarunionen' Gustav Vasa'nın 1523'te kral ilan edildiğini yazar, GÜN KAYNAKTA YOK; künye f 1523-06-06 atlas verisidir); önceki zincir isvec-birlik-oncesi."
+    "ic_not": "Kaynak şehri 'Karl 9 tarafından kurulmuş' der (İsveç kralı); devlet = isvec künyesi. Bitiş: Hamina 17 Eylül 1809 (snl 'Finlands historie'). | f 1523-01-01'e çekildi (yıl başı; lex 'Kalmarunionen' Gustav Vasa'nın 1523'te kral ilan edildiğini yazar, GÜN KAYNAKTA YOK; künye f 1523-06-06 atlas verisidir); önceki zincir isvec-birlik-oncesi. | SINIR GUNU (UMIT 17 Kasim 1116): 1523-01-01 yil-basi yaklasimi yerine 6 Haziran 1523 (SBL 'Gustav I': 'på riksdagen i Strängnäs 6 juni 1523 valdes till sv konung'); kunye f 1523-06-06 ile ayni gun."
    },
    {
     "f": "1809-09-17",
@@ -246,11 +246,12 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_AYRI = [
   ],
   "olay": [
    {
-    "t": "1523-01-01",
-    "gun": "1523",
+    "t": "1523-06-06",
+    "gun": "6 Haziran 1523",
     "k": "diger",
     "b": "Gustav Vasa İsveç kralı ilan edildi (Kalmar Birliği'nin sonu).",
-    "kaynak": "Den Store Danske / lex.dk, 'Kalmarunionen', https://lex.dk/Kalmarunionen"
+    "kaynak": "Ivan Svalenius, 'Gustav I', Svenskt biografiskt lexikon bd 17 (1967-1969) s. 433, https://sok.riksarkivet.se/sbl/artikel/13315 | onceki: Den Store Danske / lex.dk, 'Kalmarunionen', https://lex.dk/Kalmarunionen",
+    "ic_not": " Gun: SBL 'valdes till sv konung 6 juni 1523' (Strangnas riksdagi); onceki yil-basi yaklasimi duzeltildi."
    },
    {
     "t": "1606-01-01",

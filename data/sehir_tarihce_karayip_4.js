@@ -18,7 +18,7 @@ window.SEHIR_TARIHCE_KARAYIP_4 = [
    "kesinlik": "yil",
    "kaynak": "The Columbia Encyclopedia, 6th ed. (Columbia University Press; genel başvuru eseri, hakemli değil), «Castries», https://www.encyclopedia.com/reference/encyclopedias-almanacs-transcripts-and-maps/castries (tam gövde okundu, 17 Kasım 2026) · Encyclopaedia Britannica, «Saint Lucia — History», https://www.britannica.com/place/Saint-Lucia/History (tam gövde okundu, 17 Kasım 2026)",
    "tanik": "Castries was founded by the French in 1650.",
-   "ic_not": "Tanık Columbia (genel başvuru, hakemli değil). Britannica Saint Lucia tarihi: 'A successful settlement was achieved in 1650 by the French from Martinique' (şehir adı yok) — yıl iki kaynakta uyumlu. Britannica şehir maddesinde tarih yok."
+   "ic_not": "Tanık Columbia (genel başvuru, hakemli değil). Britannica Saint Lucia tarihi: 'A successful settlement was achieved in 1650 by the French from Martinique' (şehir adı yok) — yıl iki kaynakta uyumlu. Britannica şehir maddesinde tarih yok. 2. TUR (17 Kasım 2026): Saint Lucia'nın UNESCO geçici listesi boş (statesparties/lc tarandı); başka akademik kaynak bu turda ARANMADI (zaman) → değişmedi."
   },
   "kur": {
    "t": "1650-01-01",
@@ -268,7 +268,7 @@ window.SEHIR_TARIHCE_KARAYIP_4 = [
    "kesinlik": "yil",
    "kaynak": "David L. Jickling, «Chinandega», Encyclopedia of Latin American History and Culture (ELAHC, Gale/Scribner; imzalı akademik madde), https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/chinandega (tam gövde okundu, 17 Kasım 2026)",
    "tanik": "In 1842 Chinandega served as the site of unsuccessful Central American unification talks among Honduras, El Salvador, and Nicaragua",
-   "ic_not": "TEK KAYNAK (ELAHC). Kuruluş yılı okunan kaynaklarda (ELAHC, Britannica) yok → ilk anılış alt sınırdır."
+   "ic_not": "TEK KAYNAK (ELAHC). Kuruluş yılı okunan kaynaklarda (ELAHC, Britannica) yok → ilk anılış alt sınırdır. 2. TUR (17 Kasım 2026): daha erken uç adayı — Nikaragua yasama kararnamesi '2 de setiembre de 1839' («Se concede el título de ciudad a las villas de Santa Ana de Chinandega, i San Fernando de Masaya»; arama özetinden) Chinandega'nın 1839'da zaten 'villa' olduğunu gösterir; metin yalnız PDF/indirme (sajurin.enriquebolanos.org, nicaragua.justia.com 'Descarga el documento') → OKUNMADI, sayılmadı; ilk değişmedi."
   },
   "kur": null,
   "ark": null,
@@ -350,7 +350,7 @@ window.SEHIR_TARIHCE_KARAYIP_4 = [
    "kesinlik": "yil",
    "kaynak": "Encyclopaedia Britannica, «Choluteca», https://www.britannica.com/place/Choluteca (tam gövde okundu, 17 Kasım 2026)",
    "tanik": "It was founded in 1522 as a mining centre and was given city status in 1845.",
-   "ic_not": "TEK KAYNAK (Britannica; ikinci bağımsız akademik kaynak bu turda bulunamadı). Zamir 'It' = madde konusu Choluteca (önceki cümlenin öznesi 'Choluteca, city, southern Honduras')."
+   "ic_not": "TEK KAYNAK (Britannica; ikinci bağımsız akademik kaynak bu turda bulunamadı). Zamir 'It' = madde konusu Choluteca (önceki cümlenin öznesi 'Choluteca, city, southern Honduras'). 2. TUR (17 Kasım 2026) — ÇELİŞKİ İŞARETİ, akademik kaynak OKUNMADI: arama özetlerinde Villa de Jerez de la Frontera de Choluteca için 1533 (R. E. Durón), 1534, 1535 (F. Lunardi; Cristóbal de la Cueva), 1540 (D. Stone), 1541 yılları ve 'en 1692 el cabildo obtuvo permiso para trasladarla a su ubicación actual' iddiası görüldü (yalnız wiki türevi / IAIP belge PDF'i / basın — sayılmadı). Tek akademik aday José Darío Izaguirre, «Las tierras de Don Jesús; Reforma y latifundio en Choluteca (1876-1891)», Revista de la Universidad (UNAH) 1, 2021, https://camjol.info/index.php/RU/article/view/14581 — yalnız PDF → OKUNMADI. Britannica 1522 değişmedi; 1692 taşınma doğrulanırsa 3 km kuralıyla bugünkü nokta 1692'den başlamalı (BEYAN)."
   },
   "kur": {
    "t": "1522-01-01",
@@ -544,7 +544,7 @@ window.SEHIR_TARIHCE_KARAYIP_4 = [
    "kesinlik": "yil",
    "kaynak": "Encyclopaedia Britannica, «Colón (Panama)», https://www.britannica.com/place/Colon-Panama (tam gövde okundu, 17 Kasım 2026)",
    "tanik": "Founded in 1850 at the Atlantic (northern) terminus of the original Panama Railroad (now the Panama Canal Railway), the settlement was first called Aspinwall",
-   "ic_not": "TEK KAYNAK (Britannica; ikinci bağımsız akademik kaynak bu turda bulunamadı). İlk ad Aspinwall aynı cümlede. ELAHC «Panama Railroad» 1850'de başlayan demiryolunun 1855'te 'the Atlantic port city of Colón'u bağladığını yazar (kuruluş yılı vermez)."
+   "ic_not": "TEK KAYNAK (Britannica; ikinci bağımsız akademik kaynak bu turda bulunamadı). İlk ad Aspinwall aynı cümlede. ELAHC «Panama Railroad» 1850'de başlayan demiryolunun 1855'te 'the Atlantic port city of Colón'u bağladığını yazar (kuruluş yılı vermez). 2. TUR (17 Kasım 2026): Library of Congress Federal Research Division, «Panama: A Country Study» — «The California Gold Rush and the Railroad», https://countrystudies.us/panama/5.htm (tam gövde okundu): 'The town that immediately sprang up to accommodate the railroad offices, warehouses, docks, and shops ... United States citizens named it Aspinwall ... but the Panamanians christened it Colón' — demiryolu sözleşmesini 1850'ye koyar ('a new contract so specifying was obtained in 1850') ama kasabanın yılını vermez → İKİNCİ KAYNAK YIL VERMİYOR (uyumlu, sayılmadı). Basında resmî gün tartışması: 12 Ekim 1850 (Panama vilayet meclisi adlandırma kararnamesi) ↔ 27 Şubat 1852 (belediye kutlaması) — La Estrella de Panamá / La Prensa köşe yazıları, akademik değil, sayılmadı."
   },
   "kur": {
    "t": "1850-01-01",
@@ -741,7 +741,7 @@ window.SEHIR_TARIHCE_KARAYIP_4 = [
    "kesinlik": "yil",
    "kaynak": "Virginia Garrard-Burnett, «Heredia», Encyclopedia of Latin American History and Culture (ELAHC, Gale/Scribner; imzalı akademik madde), https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/heredia (tam gövde okundu, 17 Kasım 2026)",
    "tanik": "By 1824, the town of Heredia had still fewer than four thousand inhabitants.",
-   "ic_not": "TEK KAYNAK (ELAHC). 'By 1824' → 1824 o tarihte var olduğunun tanığı (ilk anılış alt sınırı). Yerleşim '18. yy'da iskân edildi' (kur alanı, yüzyıl)."
+   "ic_not": "TEK KAYNAK (ELAHC). 'By 1824' → 1824 o tarihte var olduğunun tanığı (ilk anılış alt sınırı). Yerleşim '18. yy'da iskân edildi' (kur alanı, yüzyıl). 2. TUR (17 Kasım 2026): ikinci kaynak BULUNAMADI (okunabilir HTML yok). Arama özetlerinde Cubujuquí (Heredia) için 1706 / 1714 / 1717 kuruluş, 1734 parroquia ve 1763 villa unvanı görüldü — kaynaklar UCR «Herencia», «Revista Geológica de América Central», «Revista de Ciencias Sociales» PDF'leri → OKUNMADI, sayılmadı. İlk değişmedi; 18. yy başı tanıkları okunursa ilk 1824'ten çok daha erkene çekilmeli (BEYAN). Iván Molina Jiménez, Diálogos 22(2) 2021 (Redalyc HTML, okundu) Heredia'yı 1821 için anar: 'Cartago y Heredia (separada del Estado costarricense desde 1821)' — 1824'ten erken ilk anılış adayı ama cümle yıl+şehir tanıklığını ayrılma olayı için verir; ilk'e alınmadı (tek kaynak, yorum gerektirir)."
   },
   "kur": {
    "t": "1701-01-01",
@@ -828,7 +828,7 @@ window.SEHIR_TARIHCE_KARAYIP_4 = [
    "kesinlik": "belirsiz",
    "kaynak": "Encyclopaedia Britannica, «La Vega», https://www.britannica.com/place/La-Vega (tam gövde okundu, 17 Kasım 2026)",
    "tanik": "La Vega was moved to the bank of the Camú River after an earthquake in 1564.",
-   "ic_not": "TEK KAYNAK (Britannica; ikinci bağımsız akademik kaynak bu turda bulunamadı). Bugünkü yer (Camú kıyısı) 1564 depreminden SONRA kuruldu; taşınma yılı kaynakta YOK → 1564 alt sınır, kesinlik 'belirsiz'. 1495 kuruluşu Concepción kalesinin eteğinde (eski yer; uzaklık ölçülmedi, ayrı yer sayıldı) → 3 km kuralı: modern nokta 1564 sonrası başlar."
+   "ic_not": "TEK KAYNAK (Britannica; ikinci bağımsız akademik kaynak bu turda bulunamadı). Bugünkü yer (Camú kıyısı) 1564 depreminden SONRA kuruldu; taşınma yılı kaynakta YOK → 1564 alt sınır, kesinlik 'belirsiz'. 1495 kuruluşu Concepción kalesinin eteğinde (eski yer; uzaklık ölçülmedi, ayrı yer sayıldı) → 3 km kuralı: modern nokta 1564 sonrası başlar. 2. TUR (17 Kasım 2026): UNESCO WHC Tentative List «Archaeological and Historical National Park of Pueblo Viejo, La Vega» (ref. 1707, Dominik Cumhuriyeti, 2001), https://whc.unesco.org/en/tentativelists/1707/ (tam gövde okundu): 'La Concepción de la Vega began with the foundation of the fortress of the same name, built for Christopher Columbus in 1495 at the feet of the Sacred Hill.' + 'The Concepción's Villa acquired the city category in 1508' — ESKİ YER (Pueblo Viejo) için 1495 ÇİFT TEYİTLİ (Britannica + UNESCO TL); yeni yere taşınma yılı burada da YOK → modern noktanın ilk'i değişmedi, kesinlik 'belirsiz' kaldı."
   },
   "kur": null,
   "ark": null,
@@ -986,7 +986,7 @@ window.SEHIR_TARIHCE_KARAYIP_4 = [
    "kesinlik": "yil",
    "kaynak": "Encyclopaedia Britannica, «Les Cayes», https://www.britannica.com/place/Les-Cayes (tam gövde okundu, 17 Kasım 2026)",
    "tanik": "Founded in 1786, it was plagued by disease and pirates during colonial times.",
-   "ic_not": "TEK KAYNAK (Britannica; ikinci bağımsız akademik kaynak bu turda bulunamadı). Zamir 'it' = madde konusu Les Cayes (önceki cümle 'Les Cayes, town, southwestern Haiti'). İkinci kaynak (ELAHC/Columbia) bulunamadı."
+   "ic_not": "TEK KAYNAK (Britannica; ikinci bağımsız akademik kaynak bu turda bulunamadı). Zamir 'it' = madde konusu Les Cayes (önceki cümle 'Les Cayes, town, southwestern Haiti'). İkinci kaynak (ELAHC/Columbia) bulunamadı. 2. TUR (17 Kasım 2026) — 1786 ŞÜPHELİ, ÇELİŞKİ AÇIK: University of Maryland Libraries, «A Colony in Crisis: The Saint-Domingue Grain Shortage of 1789» (öğrenci çevirisi/küratörlü birincil kaynak projesi; hakemli değil), «Les Cayes», https://colonyincrisis.lib.umd.edu/2016/05/05/les-cayes/ (tam gövde okundu): Moreau de Saint-Méry'ye (1797) dayanarak 'Son plan a été approuvé par le roi en 1720' ve 'En 1751, il y avait 80 maisons aux Cayes, puis 329 en 1776 et 702 par 1797.'; aynı sayfa 1786'yı René Phelipeau'nun «Plan de la Ville des Cayes» haritasının yılı olarak verir → Britannica'nın 'Founded in 1786'sı muhtemelen plan yılıdır. Arama özetlerinde 1726 (Mösyö de la Lance) da geçti (yalnız wiki/gezi siteleri, sayılmadı). Akademik ikinci kaynak bulunamadığı için HAKEMLİ KARAR UYGULANMADI, t 1786 kaldı; ancak 1751 tanığı 'ilk = en erken kaynaklı anılış' bakımından daha erkendir → akademik teyit (Moreau de Saint-Méry neşri, Maurel & Taillemite 1958) bulunursa ilk 1751/1720'ye çekilmeli. EMRE'YE: kayıt tek kaynaklı ve büyük olasılıkla yanlış yıl taşıyor."
   },
   "kur": {
    "t": "1786-01-01",
@@ -1093,7 +1093,7 @@ window.SEHIR_TARIHCE_KARAYIP_4 = [
    "kesinlik": "yil",
    "kaynak": "Encyclopaedia Britannica, «Puerto Plata», https://www.britannica.com/place/Puerto-Plata (tam gövde okundu, 17 Kasım 2026)",
    "tanik": "Puerto Plata was founded in 1503 by Christopher Columbus.",
-   "ic_not": "TEK KAYNAK (Britannica; ikinci bağımsız akademik kaynak bu turda bulunamadı). Yıl ve şehir adı aynı cümlede."
+   "ic_not": "TEK KAYNAK (Britannica; ikinci bağımsız akademik kaynak bu turda bulunamadı). Yıl ve şehir adı aynı cümlede. 2. TUR (17 Kasım 2026) — ÇELİŞKİ, ÇÖZÜLMEDİ: (a) UNESCO WHC Tentative List «Historical Centre of Puerto Plata» (ref. 1708, Dominik Cumhuriyeti başvurusu, 2001), https://whc.unesco.org/en/tentativelists/1708/ (tam gövde okundu): 'The first village that Ovando decides found because it has better port conditions than Santo Domingo. ... He founded it in 1502. Six years later the Spanish Crown granted it the title of Villa and assigned it a coat of arms.' → kurucu Ovando, yıl 1502 (Britannica: Kolomb, 1503). (b) María Amelia Finke Brugal, «Historia de la provincia Puerto Plata», Revista ECOSUASD (UASD; hakemli) 28(22), 2021, s. 67-88, https://doi.org/10.51274/ecos.v28i22.pp67-88 — HTML galley https://revistas.uasd.edu.do/index.php/ecos/article/view/288/431 (tam gövde okundu): 'Después de la gran tormenta que, en 1502, “sumió al abismo la flota” española, el gobernador pobló el Puerto de Plata.' → kurucu vali (Ovando); cümle 1502'yi FIRTINAYA verir, iskân yılını açıkça vermez (1502 sonu ya da 1503 ile uyumlu). Sonuç: 1502 açıkça yalnız UNESCO TL'de → iki bağımsız kaynak aynı yılda BİRLEŞMİYOR, HAKEMLİ KARAR ÇIKMADI; t 1503 kaldı. Kurucu çelişkisi (Kolomb ↔ Ovando) beyan. 1508 villa unvanı ve armanın günü Finke Brugal'da: 'El real privilegio del 7 de diciembre de 1508, le da la condición de villa y escudo de armas.' (olay eklendi)."
   },
   "kur": {
    "t": "1503-01-01",
@@ -1107,10 +1107,32 @@ window.SEHIR_TARIHCE_KARAYIP_4 = [
   "sahip": [
    {
     "f": "1503-01-01",
+    "t": "1606-01-01",
+    "d": "ispanyol-santo-domingo",
+    "kesinlik": "yil",
+    "kaynak": "María Amelia Finke Brugal, «Historia de la provincia Puerto Plata», Revista ECOSUASD 28(22), 2021, s. 67-88, https://revistas.uasd.edu.do/index.php/ecos/article/view/288/431 (tam gövde okundu, 17 Kasım 2026) · Encyclopaedia Britannica, «Puerto Plata», https://www.britannica.com/place/Puerto-Plata (tam gövde okundu, 17 Kasım 2026)",
+    "ic_not": "2. TUR (17 Kasım 2026): ESKİ sahip[0] 1503→1795 tek dönemdi; Finke Brugal (hakemli) şehrin 1606 Kuzey şeridi boşaltmasında (devastaciones) kaldırıldığını ve 1736'da yeniden kurulduğunu yazar → dönem 1606'da KESİLDİ. Bitiş yalnız yıl: bölüm başlığı 'Despoblación de la franja Norte de la isla en 1606' + 'La orden de eliminar las poblaciones de Puerto Plata, La Yaguana (Leogane) y Bayaha (Fort Liberté), para terminar con el contrabando, fue totalmente desafortunada' (emrin uygulanma günü kaynakta yok). TEK AKADEMİK KAYNAK (Britannica süreklilik/terk söylemez). İspanyol Santo Domingo kolonisi (ABİ MERKEZ Santo Domingo zinciri)."
+   },
+   {
+    "f": "1606-01-01",
+    "t": "1736-07-22",
+    "d": "__YOK__",
+    "kesinlik": {
+     "f": "yil",
+     "t": "gun"
+    },
+    "kaynak": "María Amelia Finke Brugal, «Historia de la provincia Puerto Plata», Revista ECOSUASD 28(22), 2021, s. 67-88, https://revistas.uasd.edu.do/index.php/ecos/article/view/288/431 (tam gövde okundu, 17 Kasım 2026)",
+    "ic_not": "YERLEŞİM YOK (1606 boşaltma → 1736 yeniden iskân). Finke Brugal: 'En 1715 y en 1732, el Cabildo de Santiago solicitó volver a poblar Puerto Plata' ve 'Puerto Plata es fundada por segunda vez' başlığı altında Kaptan Tomás Lorenzo de Abreu'nun yeni iskânı; bir mektup 'haber dado principio a los trabajos de la nueva población de Puerto Plata, desde el día 22 del mes de julio próximo pasado' der (1736 bağlamı: 'En julio de 1736 se reportó que partió de Santiago “el Capitán Tomás Lorenzo de Abreu a dar principio a la población de Puerto de Plata'). Bitiş günü 22 Temmuz 1736 — TEK KAYNAK. Toprak bu dilimde komşu peteklere kalır."
+   },
+   {
+    "f": "1736-07-22",
     "t": "1795-01-01",
     "d": "ispanyol-santo-domingo",
-    "kesinlik": "gun",
-    "kaynak": "Encyclopaedia Britannica, «Santo Domingo» (Britannica editörleri), https://www.britannica.com/place/Santo-Domingo (tam gövde okundu, 17 Kasım 2026) · Encyclopaedia Britannica, «Dominican Republic» — History (Nancie L. González, Howard J. Wiarda), https://www.britannica.com/place/Dominican-Republic/Press-and-broadcasting (tam gövde okundu, 17 Kasım 2026)",
+    "kesinlik": {
+     "f": "gun",
+     "t": "yil"
+    },
+    "kaynak": "María Amelia Finke Brugal, «Historia de la provincia Puerto Plata», Revista ECOSUASD 28(22), 2021, https://revistas.uasd.edu.do/index.php/ecos/article/view/288/431 (başlangıç; tam gövde okundu, 17 Kasım 2026) · Encyclopaedia Britannica, «Santo Domingo» (Britannica editörleri), https://www.britannica.com/place/Santo-Domingo (tam gövde okundu, 17 Kasım 2026) · Encyclopaedia Britannica, «Dominican Republic» — History (Nancie L. González, Howard J. Wiarda), https://www.britannica.com/place/Dominican-Republic/Press-and-broadcasting (tam gövde okundu, 17 Kasım 2026)",
     "ic_not": "ZİNCİR Santo Domingo (koloni/cumhuriyet başkenti; kaynaklar ülke düzeyinde) kaydından (aynı kaynaklar) devralındı — ABİ MERKEZ: Santo Domingo (koloni/cumhuriyet başkenti; kaynaklar ülke düzeyinde); halka ülke/koloni düzeyindedir. TEK KAYNAK (Britannica; ikinci bağımsız akademik kaynak bu turda okunmadı). Bitiş yalnız yıl: Britannica 'From 1795 to 1809 Santo Domingo was under French domination' ve 'In 1795 Spain ceded the eastern two-thirds of Hispaniola to France'. Gün (Basel Antlaşması) ve fiilî Fransız teslim alışı bu kaynakta yok → 1795-01-01 yıl hassasiyeti. f = ilk.t 1496-08-04 (ELAHC günü; ESKİ f 1496-01-01). 2. KAYNAK (bitiş, 17 Kasım 2026): Suzanne Hiles Burkholder, «Basel, Treaty of (1795)», ELAHC, https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/basel-treaty-1795: 'Treaty of Basel (1795), an agreement between France and Spain that restored to Spain peninsular territory lost during the Franco-Spanish War (1793–1795) and gave France Santo Domingo.' → 1795 ÇİFT TEYİTLİ (yıl; gün kaynakta yok)."
    },
    {
@@ -1170,7 +1192,38 @@ window.SEHIR_TARIHCE_KARAYIP_4 = [
     "b": "Kristof Kolomb şehri kurar.",
     "kesinlik": "yil",
     "kaynak": "Encyclopaedia Britannica, «Puerto Plata», https://www.britannica.com/place/Puerto-Plata (tam gövde okundu, 17 Kasım 2026)",
-    "tanik": "Puerto Plata was founded in 1503 by Christopher Columbus."
+    "tanik": "Puerto Plata was founded in 1503 by Christopher Columbus.",
+    "ic_not": "ÇELİŞKİ (2. tur): UNESCO TL 1708 'He founded it in 1502' (kurucu Ovando); Finke Brugal 2021 kurucuyu vali (Ovando) gösterir, 1502 fırtınasından sonra (bkz. ilk.ic_not)."
+   },
+   {
+    "t": "1508-12-07",
+    "gun": "7 Aralık 1508",
+    "k": "idari",
+    "b": "Kraliyet ayrıcalığıyla Puerto Plata'ya villa unvanı ve arma verilir.",
+    "kesinlik": "gun",
+    "kaynak": "María Amelia Finke Brugal, «Historia de la provincia Puerto Plata», Revista ECOSUASD 28(22), 2021, s. 67-88, https://revistas.uasd.edu.do/index.php/ecos/article/view/288/431 (tam gövde okundu, 17 Kasım 2026) · UNESCO WHC Tentative List ref. 1708, https://whc.unesco.org/en/tentativelists/1708/ (tam gövde okundu, 17 Kasım 2026)",
+    "tanik": "El real privilegio del 7 de diciembre de 1508, le da la condición de villa y escudo de armas.",
+    "ic_not": "Gün tek kaynak (Finke Brugal; cümlenin öznesi önceki cümledeki Puerto de Plata). UNESCO TL 'Six years later the Spanish Crown granted it the title of Villa and assigned it a coat of arms' (1502+6 = 1508; yıl çift)."
+   },
+   {
+    "t": "1606-01-01",
+    "gun": "1606",
+    "k": "idari",
+    "b": "Kaçakçılığı önlemek için Kuzey şeridi boşaltılır; Puerto Plata halkı tahliye edilir, şehir terk edilir.",
+    "kesinlik": "yil",
+    "kaynak": "María Amelia Finke Brugal, «Historia de la provincia Puerto Plata», Revista ECOSUASD 28(22), 2021, s. 67-88, https://revistas.uasd.edu.do/index.php/ecos/article/view/288/431 (tam gövde okundu, 17 Kasım 2026)",
+    "tanik": "Despoblación de la franja Norte de la isla en 1606",
+    "ic_not": "Tanık bölüm başlığıdır; aynı bölüm: 'La orden de eliminar las poblaciones de Puerto Plata, La Yaguana (Leogane) y Bayaha (Fort Liberté), para terminar con el contrabando, fue totalmente desafortunada'. Gün yok. TEK KAYNAK."
+   },
+   {
+    "t": "1736-07-22",
+    "gun": "22 Temmuz 1736",
+    "k": "kurulus",
+    "b": "Kaptan Tomás Lorenzo de Abreu Santiago'dan getirdiği yerleşimcilerle Puerto Plata'yı ikinci kez kurar (Nuestra Señora de la Candelaria de Puerto Plata).",
+    "kesinlik": "gun",
+    "kaynak": "María Amelia Finke Brugal, «Historia de la provincia Puerto Plata», Revista ECOSUASD 28(22), 2021, s. 67-88, https://revistas.uasd.edu.do/index.php/ecos/article/view/288/431 (tam gövde okundu, 17 Kasım 2026)",
+    "tanik": "En julio de 1736 se reportó que partió de Santiago “el Capitán Tomás Lorenzo de Abreu a dar principio a la población de Puerto de Plata",
+    "ic_not": "Gün aynı paragraftaki mektuptan: 'haber dado principio a los trabajos de la nueva población de Puerto Plata, desde el día 22 del mes de julio próximo pasado'. TEK KAYNAK."
    },
    {
     "t": "1795-01-01",
@@ -1228,7 +1281,7 @@ window.SEHIR_TARIHCE_KARAYIP_4 = [
     "tanik": "The city has been the Dominican capital since the restoration of independence in 1865."
    }
   ],
-  "ic_not": "Atlasta nokta yok (öneri: 1503'ten, Santo Domingo zinciriyle). Şehrin kuruluştan sonra kesintisiz yaşayıp yaşamadığı okunan kaynakta YOK (Britannica şehir maddesi süreklilik ya da terk söylemez) → süreklilik varsayılmadı ama kesinti de yazılmadı (BEYAN). Britannica 'founded in 1503 by Christopher Columbus' der; kurucu/yıl ikinci kaynakla teyit edilmeli."
+  "ic_not": "Atlasta nokta yok (öneri: 1503'ten, Santo Domingo zinciriyle). 2. TUR (17 Kasım 2026): süreklilik sorusu Finke Brugal 2021 (ECOSUASD, hakemli) ile cevaplandı — 1606 boşaltma, 1606–1736 yerleşim YOK (__YOK__ dönemi), 22 Temmuz 1736 ikinci kuruluş; atlas noktası önerisi buna göre: 1503–1606 + 1736'dan sonra. (ESKİ beyan: süreklilik bilinmiyordu.) Britannica 'founded in 1503 by Christopher Columbus' der; kurucu/yıl ikinci kaynakla teyit edilmeli."
  },
  {
   "id": "roseau-dm",
@@ -1248,7 +1301,7 @@ window.SEHIR_TARIHCE_KARAYIP_4 = [
    "kesinlik": "yil",
    "kaynak": "Encyclopaedia Britannica, «Roseau», https://www.britannica.com/place/Roseau (tam gövde okundu, 17 Kasım 2026) · World Encyclopedia (Philip's; genel başvuru eseri, akademik değil — yalnız destek), «Roseau», https://www.encyclopedia.com/places/latin-america-and-caribbean/caribbean-political-geography/roseau (tam gövde okundu, 17 Kasım 2026)",
    "tanik": "Roseau, formerly called Charlotte Town, was burned by the French in 1805",
-   "ic_not": "Britannica + World Encyclopedia ('The city was burned by the French in 1805'; akademik değil). Kuruluş yılı okunan kaynaklarda yok → 1805 yalnız EN ERKEN kaynaklı anılış; atlasın 1763'ü daha erken (uyarı beklenir)."
+   "ic_not": "Britannica + World Encyclopedia ('The city was burned by the French in 1805'; akademik değil). Kuruluş yılı okunan kaynaklarda yok → 1805 yalnız EN ERKEN kaynaklı anılış; atlasın 1763'ü daha erken (uyarı beklenir). 2. TUR (17 Kasım 2026): Dominika UNESCO sayfası geçici liste için taranamadı (istek döngüsü tamamlanmadan bitti — OKUNMADI); başka akademik kaynak ARANMADI → değişmedi."
   },
   "kur": null,
   "ark": null,
@@ -1303,7 +1356,7 @@ window.SEHIR_TARIHCE_KARAYIP_4 = [
    "kesinlik": "belirsiz",
    "kaynak": "Encyclopaedia Britannica, «San Miguel (El Salvador)», https://www.britannica.com/place/San-Miguel-El-Salvador (tam gövde okundu, 17 Kasım 2026)",
    "tanik": "Founded in 1530 by Spanish settlers near the west bank of the Río Grande de San Miguel, the city was badly damaged by a severe earthquake in 1917.",
-   "ic_not": "TEK KAYNAK (Britannica; ikinci bağımsız akademik kaynak bu turda bulunamadı). Cümlenin öznesi 'the city' (madde konusu San Miguel); şehir adı aynı cümlede yalnız ırmak adında geçer → tanık kuralı tam karşılanmadı, kesinlik 'belirsiz'."
+   "ic_not": "TEK KAYNAK (Britannica; ikinci bağımsız akademik kaynak bu turda bulunamadı). Cümlenin öznesi 'the city' (madde konusu San Miguel); şehir adı aynı cümlede yalnız ırmak adında geçer → tanık kuralı tam karşılanmadı, kesinlik 'belirsiz'. 2. TUR (17 Kasım 2026): akademik ikinci kaynak BULUNAMADI; arama yalnız basın (elsalvador.com: 8 Mayıs 1530, Luis de Moscoso, 'San Miguel de la Frontera') ve wiki türevleri (21 Kasım 1530) verdi — sayılmadı. ELAHC «El Salvador» sayfası (encyclopedia.com) San Miguel için yıl vermiyor. Değişmedi."
   },
   "kur": {
    "t": "1530-01-01",
@@ -1408,42 +1461,34 @@ window.SEHIR_TARIHCE_KARAYIP_4 = [
    "Santa Clara"
   ],
   "ilk": {
-   "t": "1689-01-01",
-   "gun": "1689",
+   "t": "1689-07-15",
+   "gun": "15 Temmuz 1689",
    "nicelik": "kurulus",
-   "kesinlik": "yil",
-   "kaynak": "Encyclopaedia Britannica, «Santa Clara (Cuba)», https://www.britannica.com/place/Santa-Clara-Cuba (tam gövde okundu, 17 Kasım 2026)",
-   "tanik": "Santa Clara was founded in 1689 by families fleeing constant pirate threats in coastal Remedios",
-   "ic_not": "TEK KAYNAK (Britannica; ikinci bağımsız akademik kaynak bu turda bulunamadı). Yıl ve şehir adı aynı cümlede."
+   "kesinlik": "gun",
+   "kaynak": "Encyclopaedia Britannica, «Santa Clara (Cuba)», https://www.britannica.com/place/Santa-Clara-Cuba (tam gövde okundu, 17 Kasım 2026) · Lilian Esther Ruiz González & José Ramón Ruiz Hernández, «Médicos que incidieron en el conocimiento histórico y el arte villaclareños: una historia para contar», EDUMECENTRO (SciELO Cuba; hakemli) 12(1), 2020, s. 97-110, http://scielo.sld.cu/scielo.php?script=sci_arttext&pid=S2077-28742020000100097 (tam gövde okundu, 17 Kasım 2026)",
+   "tanik": "La ciudad de Santa Clara, actual capital de la provincia Villa Clara fue fundada el 15 de julio de 1689, a partir del éxodo de familias procedentes de Remedios que huían de los frecuentes ataques de corsarios y piratas a esa villa por su cercanía a la costa.",
+   "ic_not": "HAKEMLİ KARAR (2. tur, 17 Kasım 2026): ESKİ DEĞER 1689-01-01 (yil, tek kaynak Britannica). 2. KAYNAK: Ruiz González & Ruiz Hernández, EDUMECENTRO 2020 (SciELO Cuba; yazarlar Villa Clara İl Tarih Arşivi belgelerini kullandığını yazar): 'La ciudad de Santa Clara ... fue fundada el 15 de julio de 1689, a partir del éxodo de familias procedentes de Remedios' — Britannica 'Santa Clara was founded in 1689 by families fleeing constant pirate threats in coastal Remedios' ile YIL ve olay ÇİFT TEYİTLİ (bağımsız iki kaynak). GÜN 15 Temmuz TEK KAYNAK (EDUMECENTRO) → t 1689-07-15, kesinlik yil → gun (precedent: tegucigalpa-hn, ciudad-de-guatemala-gt). Gün atlas başlangıcıyla (1689-07-15) aynı → ESKİ sahip[0] (ispanya 1689-01-01→1689-07-15) sıfır uzunluğa düştüğü için KALDIRILDI; zincir boş (atlas = kuruluş günü). Aynı gün De Computis 26 (2017) «La Caja Real de la Villa de Santa Clara (Cuba)» özetinde de görüldü (Dialnet bağlantı hatası → OKUNMADI, sayılmadı)."
   },
   "kur": {
-   "t": "1689-01-01",
-   "gun": "1689",
-   "kesinlik": "yil",
-   "kaynak": "Encyclopaedia Britannica, «Santa Clara (Cuba)», https://www.britannica.com/place/Santa-Clara-Cuba (tam gövde okundu, 17 Kasım 2026)",
-   "tanik": "Santa Clara was founded in 1689"
+   "t": "1689-07-15",
+   "gun": "15 Temmuz 1689",
+   "kesinlik": "gun",
+   "kaynak": "Lilian Esther Ruiz González & José Ramón Ruiz Hernández, EDUMECENTRO 12(1), 2020, http://scielo.sld.cu/scielo.php?script=sci_arttext&pid=S2077-28742020000100097 (tam gövde okundu, 17 Kasım 2026) · Encyclopaedia Britannica, «Santa Clara (Cuba)», https://www.britannica.com/place/Santa-Clara-Cuba (tam gövde okundu, 17 Kasım 2026)",
+   "tanik": "fue fundada el 15 de julio de 1689"
   },
   "ark": null,
   "bit": null,
-  "sahip": [
-   {
-    "f": "1689-01-01",
-    "t": "1689-07-15",
-    "d": "ispanya",
-    "kesinlik": "yil",
-    "kaynak": "Encyclopaedia Britannica, «Santa Clara (Cuba)», https://www.britannica.com/place/Santa-Clara-Cuba (tam gövde okundu, 17 Kasım 2026)",
-    "ic_not": "TEK KAYNAK (Britannica; ikinci bağımsız akademik kaynak bu turda bulunamadı). İspanyol Küba'sında Remedios'tan gelen ailelerce kuruldu. Bitiş = atlas başlangıcı 1689-07-15 (ispanya; aynı sahip → dikiş yok). Atlasın 15 Temmuz günü okunan kaynakta yok."
-   }
-  ],
+  "sahip": [],
   "olay": [
    {
-    "t": "1689-01-01",
-    "gun": "1689",
+    "t": "1689-07-15",
+    "gun": "15 Temmuz 1689",
     "k": "kurulus",
     "b": "Korsan tehdidinden kaçan Remedios aileleri şehri eski yerli kasabası Cubanacán'ın yerinde kurar.",
-    "kesinlik": "yil",
-    "kaynak": "Encyclopaedia Britannica, «Santa Clara (Cuba)», https://www.britannica.com/place/Santa-Clara-Cuba (tam gövde okundu, 17 Kasım 2026)",
-    "tanik": "Santa Clara was founded in 1689 by families fleeing constant pirate threats in coastal Remedios"
+    "kesinlik": "gun",
+    "kaynak": "Encyclopaedia Britannica, «Santa Clara (Cuba)», https://www.britannica.com/place/Santa-Clara-Cuba (tam gövde okundu, 17 Kasım 2026) · Lilian Esther Ruiz González & José Ramón Ruiz Hernández, EDUMECENTRO 12(1), 2020, http://scielo.sld.cu/scielo.php?script=sci_arttext&pid=S2077-28742020000100097 (tam gövde okundu, 17 Kasım 2026)",
+    "tanik": "Santa Clara was founded in 1689 by families fleeing constant pirate threats in coastal Remedios",
+    "ic_not": "ESKİ t 1689-01-01 (yil). Gün EDUMECENTRO'dan (tek kaynak); yıl çift."
    },
    {
     "t": "1952-01-01",
@@ -1455,7 +1500,7 @@ window.SEHIR_TARIHCE_KARAYIP_4 = [
     "tanik": "The Central University of Las Villas was founded in Santa Clara in 1952"
    }
   ],
-  "ic_not": "Atlas 1689-07-15 (gün kaynaksız); kaynakta yalnız yıl. Olay sayısı 2 — Britannica maddesi kısa, ikinci kaynak (ELAHC/Columbia slug) bulunamadı."
+  "ic_not": "Atlas 1689-07-15 — 2. turda EDUMECENTRO 2020 bu günü kaynakla verdi (atlas günü artık kaynaklı, tek kaynak). Olay sayısı 2 — Britannica maddesi kısa; ELAHC/Columbia slug bulunamadı."
  },
  {
   "id": "spanish-town-jm",
@@ -1475,7 +1520,7 @@ window.SEHIR_TARIHCE_KARAYIP_4 = [
    "kesinlik": "onyil",
    "kaynak": "Encyclopaedia Britannica, «Spanish Town», https://www.britannica.com/place/Spanish-Town (tam gövde okundu, 17 Kasım 2026) · The Columbia Encyclopedia, 6th ed. (Columbia University Press; genel başvuru eseri, hakemli değil), «Spanish Town», https://www.encyclopedia.com/reference/encyclopedias-almanacs-transcripts-and-maps/spanish-town (tam gövde okundu, 17 Kasım 2026)",
    "tanik": "Probably laid out by Diego Columbus (c. 1523), it was originally called Santiago de la Vega",
-   "ic_not": "ÇELİŞKİ (çözülmedi): Britannica 'Probably ... (c. 1523)' ↔ Columbia 'Founded c.1525' ↔ Worldmark 'longest history of settlement (1534)' (akademik değil). İki 'circa' tarihi 1523–1525 aralığında; güvenli uç tartışmalı → kesinlik onyil. Zamir 'it' = madde konusu Spanish Town; eski ad Santiago de la Vega aynı cümlede."
+   "ic_not": "ÇELİŞKİ (çözülmedi): Britannica 'Probably ... (c. 1523)' ↔ Columbia 'Founded c.1525' ↔ Worldmark 'longest history of settlement (1534)' (akademik değil). İki 'circa' tarihi 1523–1525 aralığında; güvenli uç tartışmalı → kesinlik onyil. Zamir 'it' = madde konusu Spanish Town; eski ad Santiago de la Vega aynı cümlede. 2. TUR (17 Kasım 2026): 1534 İKİ BAĞIMSIZ KAYNAKTA, ama başka ân (başkentin / Sevilla la Nueva sakinlerinin taşınması): (a) UNESCO WHC Tentative List «Seville Heritage Park» (ref. 5431, Jamaika devleti başvurusu, 2009), https://whc.unesco.org/en/tentativelists/5431/ (tam gövde okundu): 'In 1534 the town of Sevilla la Nueva was relocated for a second time, to Villa de la Vega (Spanish Town) on the other side of the island.' (b) Encyclopaedia Britannica «Jamaica — History», https://www.britannica.com/place/Jamaica/History (görünür gövde, innerText): 'In 1534 the capital was moved to Villa de la Vega (later Santiago de la Vega), now called Spanish Town.' HAKEMLİ KARAR UYGULANMADI: 1534 kuruluşu değil taşınmayı tarihler ve c.1523/c.1525 erken yerleşim iddiasıyla çelişmez (Villa de la Vega taşınmadan önce var olabilir); 'ilk' en erken kaynaklı anılış kuralıyla 1523 (onyil) kaldı. c.1523 için ikinci akademik kaynak BULUNAMADI (Columbia hakemli değil). Atlasın 1534 başlangıcı artık iki kaynakla destekli (olay eklendi)."
   },
   "kur": {
    "t": "1523-01-01",
@@ -1493,7 +1538,7 @@ window.SEHIR_TARIHCE_KARAYIP_4 = [
     "d": "ispanya",
     "kesinlik": "onyil",
     "kaynak": "Encyclopaedia Britannica, «Spanish Town», https://www.britannica.com/place/Spanish-Town (tam gövde okundu, 17 Kasım 2026) · The Columbia Encyclopedia, 6th ed. (Columbia University Press; genel başvuru eseri, hakemli değil), «Spanish Town», https://www.encyclopedia.com/reference/encyclopedias-almanacs-transcripts-and-maps/spanish-town (tam gövde okundu, 17 Kasım 2026)",
-    "ic_not": "Kurucu Diego Colón (İspanyol Jamaika'sı). Bitiş = atlas başlangıcı 1534-01-01 (ispanya; atlas sahibiyle aynı → dikiş yok). Atlasın 1534 yılı yalnız Worldmark'ta ('longest history of settlement (1534)') geçiyor; akademik kaynakta yok."
+    "ic_not": "Kurucu Diego Colón (İspanyol Jamaika'sı). Bitiş = atlas başlangıcı 1534-01-01 (ispanya; atlas sahibiyle aynı → dikiş yok). Atlasın 1534 yılı ilk turda yalnız Worldmark'ta ('longest history of settlement (1534)') bulunmuştu; 2. TUR (17 Kasım 2026): UNESCO TL 5431 + Britannica «Jamaica — History» 1534'ü başkentin Villa de la Vega'ya taşınması olarak verir (olay[1]) → atlas başlangıcı 1534 iki kaynakla destekli (yıl; gün yok)."
    }
   ],
   "olay": [
@@ -1505,6 +1550,16 @@ window.SEHIR_TARIHCE_KARAYIP_4 = [
     "kesinlik": "onyil",
     "kaynak": "Encyclopaedia Britannica, «Spanish Town», https://www.britannica.com/place/Spanish-Town (tam gövde okundu, 17 Kasım 2026) · The Columbia Encyclopedia, 6th ed. (Columbia University Press; genel başvuru eseri, hakemli değil), «Spanish Town», https://www.encyclopedia.com/reference/encyclopedias-almanacs-transcripts-and-maps/spanish-town (tam gövde okundu, 17 Kasım 2026)",
     "tanik": "Probably laid out by Diego Columbus (c. 1523)"
+   },
+   {
+    "t": "1534-01-01",
+    "gun": "1534",
+    "k": "idari",
+    "b": "Sevilla la Nueva sakinleri ve Jamaika'nın İspanyol başkenti Villa de la Vega'ya (Spanish Town) taşınır.",
+    "kesinlik": "yil",
+    "kaynak": "UNESCO World Heritage Centre, Tentative List «Seville Heritage Park» (ref. 5431, Jamaika, 2009), https://whc.unesco.org/en/tentativelists/5431/ (tam gövde okundu, 17 Kasım 2026) · Encyclopaedia Britannica, «Jamaica — History», https://www.britannica.com/place/Jamaica/History (görünür gövde okundu, 17 Kasım 2026)",
+    "tanik": "In 1534 the town of Sevilla la Nueva was relocated for a second time, to Villa de la Vega (Spanish Town) on the other side of the island.",
+    "ic_not": "ÇİFT KAYNAK (bağımsız): Britannica 'In 1534 the capital was moved to Villa de la Vega (later Santiago de la Vega), now called Spanish Town.' Atlas başlangıcı (1534-01-01) bu yıla denk."
    },
    {
     "t": "1655-01-01",
@@ -1591,7 +1646,7 @@ window.SEHIR_TARIHCE_KARAYIP_4 = [
    "kesinlik": "yil",
    "kaynak": "Encyclopaedia Britannica, «Saint George’s (Grenada)», https://www.britannica.com/place/Saint-Georges (tam gövde okundu, 17 Kasım 2026) · Encyclopaedia Britannica, «Grenada — History», https://www.britannica.com/place/Grenada/History (tam gövde okundu, 17 Kasım 2026)",
    "tanik": "French settlers founded Saint George’s as a settlement in 1650",
-   "ic_not": "İki Britannica maddesi (şehir + Grenada tarihi: du Parquet 'established a settlement at St. George’s' 1650) — aynı yayınevi, bağımsız sayılmadı."
+   "ic_not": "İki Britannica maddesi (şehir + Grenada tarihi: du Parquet 'established a settlement at St. George’s' 1650) — aynı yayınevi, bağımsız sayılmadı. 2. TUR (17 Kasım 2026): UNESCO WHC Tentative List «St. George Historic District» (ref. 1924, Grenada, 2004), https://whc.unesco.org/en/tentativelists/1924/ ve «St. George Fortified System» (ref. 1926), https://whc.unesco.org/en/tentativelists/1926/ (ikisi de tam gövde okundu) KURULUŞ YILI VERMİYOR: 1924 'The planned part of the town was laid out on a grid system ... developed predominantly over the course of the eighteenth century' ve 'a municipal law that was passed after fires had razed the town in 1771 and 1775'; 1926 'a fort from the period of initial European settlement was already in existence ... Fort George from 1706 until 1710'. → 1650 için bağımsız ikinci kaynak BULUNAMADI (kısmi kalır). 1771 ve 1775 yangınları yeni olay adayı (eklenmedi)."
   },
   "kur": {
    "t": "1650-01-01",
