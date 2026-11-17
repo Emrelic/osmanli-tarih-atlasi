@@ -1204,8 +1204,9 @@ window.SEHIR_TARIHCE_GUNEY_AMERIKA_GUNEY = [
     "f": "1810-05-25",
     "t": "1900-01-01",
     "d": "arjantin-cumhuriyeti",
-    "kesinlik": "gun",
-    "kaynak": "Encyclopaedia Britannica, «May Revolution», https://www.britannica.com/event/May-Revolution (tarayıcı sayfa okuma, 17 Kasım 2026)"
+    "kesinlik": "belirsiz",
+    "kaynak": "Encyclopaedia Britannica, «May Revolution», https://www.britannica.com/event/May-Revolution (tarayıcı sayfa okuma, 17 Kasım 2026)",
+    "ic_not": "Kaynak sayfası (May Revolution) tam makale değil, Britannica YZ özetidir (Summary created from Britannica articles using AI); tanık makale gövdesinde yok, YZ metni kaynak olamaz. Alternatif gövde tanığı bulunamadı; hassasiyet belirsiz."
    }
   ],
   "olay": [
@@ -1219,13 +1220,14 @@ window.SEHIR_TARIHCE_GUNEY_AMERIKA_GUNEY = [
     "tanik": "the new viceroyalty (established in 1776) controlled an area previously under the administration of the Viceroyalty of Peru"
    },
    {
-    "t": "1810-05-25",
-    "gun": "25 Mayıs 1810",
+    "t": "1810-05-01",
+    "gun": "Mayıs 1810",
     "k": "diger",
     "b": "Mayıs Devrimi: Río de la Plata Valiliği yerine yerel yönetim (bölgesel olay)",
-    "kaynak": "Encyclopaedia Britannica, «May Revolution», https://www.britannica.com/event/May-Revolution (tarayıcı sayfa okuma, 17 Kasım 2026)",
-    "kesinlik": "gun",
-    "tanik": "The May Revolution in Argentina, beginning on May 25, 1810, marked a pivotal step toward independence from Spain."
+    "kaynak": "Encyclopaedia Britannica, 'Buenos Aires', https://www.britannica.com/place/Buenos-Aires (tarayıcı sayfa okuma, 17 Kasım 2026)",
+    "kesinlik": "ay",
+    "tanik": "The Pyramid of May (1811) marks the center of the square; it was constructed to commemorate the first anniversary of the May 1810 revolution, when Buenos Aires severed ties with Spain.",
+    "ic_not": "Önceki tanık (May Revolution sayfası) Britannica YZ özetinde (Quick Summary: Summary created from Britannica articles using AI) bulundu, makale gövdesinde değil; YZ metni kaynak olamaz. Gün (25 Mayıs) gövdede yok; Buenos Aires makalesi gövdesi yalnız Mayıs 1810 diyor, bu yüzden hassasiyet ay."
    },
    {
     "t": "1853-01-01",
@@ -1333,8 +1335,9 @@ window.SEHIR_TARIHCE_GUNEY_AMERIKA_GUNEY = [
     "f": "1810-05-25",
     "t": "1900-01-01",
     "d": "arjantin-cumhuriyeti",
-    "kesinlik": "gun",
-    "kaynak": "Encyclopaedia Britannica, «May Revolution», https://www.britannica.com/event/May-Revolution (tarayıcı sayfa okuma, 17 Kasım 2026)"
+    "kesinlik": "belirsiz",
+    "kaynak": "Encyclopaedia Britannica, «May Revolution», https://www.britannica.com/event/May-Revolution (tarayıcı sayfa okuma, 17 Kasım 2026)",
+    "ic_not": "Kaynak sayfası (May Revolution) tam makale değil, Britannica YZ özetidir (Summary created from Britannica articles using AI); tanık makale gövdesinde yok, YZ metni kaynak olamaz. Alternatif gövde tanığı bulunamadı; hassasiyet belirsiz."
    }
   ],
   "olay": [
@@ -1366,13 +1369,14 @@ window.SEHIR_TARIHCE_GUNEY_AMERIKA_GUNEY = [
     "tanik": "the new viceroyalty (established in 1776) controlled an area previously under the administration of the Viceroyalty of Peru"
    },
    {
-    "t": "1810-05-25",
-    "gun": "25 Mayıs 1810",
+    "t": "1810-05-01",
+    "gun": "Mayıs 1810",
     "k": "diger",
     "b": "Mayıs Devrimi: Río de la Plata Valiliği yerine yerel yönetim (bölgesel olay)",
-    "kaynak": "Encyclopaedia Britannica, «May Revolution», https://www.britannica.com/event/May-Revolution (tarayıcı sayfa okuma, 17 Kasım 2026)",
-    "kesinlik": "gun",
-    "tanik": "The May Revolution in Argentina, beginning on May 25, 1810, marked a pivotal step toward independence from Spain."
+    "kaynak": "Encyclopaedia Britannica, 'Buenos Aires', https://www.britannica.com/place/Buenos-Aires (tarayıcı sayfa okuma, 17 Kasım 2026)",
+    "kesinlik": "ay",
+    "tanik": "The Pyramid of May (1811) marks the center of the square; it was constructed to commemorate the first anniversary of the May 1810 revolution, when Buenos Aires severed ties with Spain.",
+    "ic_not": "Önceki tanık (May Revolution sayfası) Britannica YZ özetinde (Quick Summary: Summary created from Britannica articles using AI) bulundu, makale gövdesinde değil; YZ metni kaynak olamaz. Gün (25 Mayıs) gövdede yok; Buenos Aires makalesi gövdesi yalnız Mayıs 1810 diyor, bu yüzden hassasiyet ay."
    }
   ],
   "ic_not": "TEK KAYNAK (Britannica) — bağımsız ikinci akademik kaynak okunamadı/bulunamadı; çift teyit YOK. Kuruluş tartışmalı (kuruluş günü kaynakta yok; 'villa'/pago): Britannica 1689 villa, 1725 ad. Atlasta nokta yok; zincir 1900'e dek. ATLAS ÖNERİSİ: Rosario noktası eklenmeli."
@@ -1419,8 +1423,9 @@ window.SEHIR_TARIHCE_GUNEY_AMERIKA_GUNEY = [
     "f": "1810-05-25",
     "t": "1900-01-01",
     "d": "arjantin-cumhuriyeti",
-    "kesinlik": "gun",
-    "kaynak": "Encyclopaedia Britannica, «May Revolution», https://www.britannica.com/event/May-Revolution (tarayıcı sayfa okuma, 17 Kasım 2026)"
+    "kesinlik": "belirsiz",
+    "kaynak": "Encyclopaedia Britannica, «May Revolution», https://www.britannica.com/event/May-Revolution (tarayıcı sayfa okuma, 17 Kasım 2026)",
+    "ic_not": "Kaynak sayfası (May Revolution) tam makale değil, Britannica YZ özetidir (Summary created from Britannica articles using AI); tanık makale gövdesinde yok, YZ metni kaynak olamaz. Alternatif gövde tanığı bulunamadı; hassasiyet belirsiz."
    }
   ],
   "olay": [
@@ -1434,13 +1439,14 @@ window.SEHIR_TARIHCE_GUNEY_AMERIKA_GUNEY = [
     "tanik": "the new viceroyalty (established in 1776) controlled an area previously under the administration of the Viceroyalty of Peru"
    },
    {
-    "t": "1810-05-25",
-    "gun": "25 Mayıs 1810",
+    "t": "1810-05-01",
+    "gun": "Mayıs 1810",
     "k": "diger",
     "b": "Mayıs Devrimi: Río de la Plata Valiliği yerine yerel yönetim (bölgesel olay)",
-    "kaynak": "Encyclopaedia Britannica, «May Revolution», https://www.britannica.com/event/May-Revolution (tarayıcı sayfa okuma, 17 Kasım 2026)",
-    "kesinlik": "gun",
-    "tanik": "The May Revolution in Argentina, beginning on May 25, 1810, marked a pivotal step toward independence from Spain."
+    "kaynak": "Encyclopaedia Britannica, 'Buenos Aires', https://www.britannica.com/place/Buenos-Aires (tarayıcı sayfa okuma, 17 Kasım 2026)",
+    "kesinlik": "ay",
+    "tanik": "The Pyramid of May (1811) marks the center of the square; it was constructed to commemorate the first anniversary of the May 1810 revolution, when Buenos Aires severed ties with Spain.",
+    "ic_not": "Önceki tanık (May Revolution sayfası) Britannica YZ özetinde (Quick Summary: Summary created from Britannica articles using AI) bulundu, makale gövdesinde değil; YZ metni kaynak olamaz. Gün (25 Mayıs) gövdede yok; Buenos Aires makalesi gövdesi yalnız Mayıs 1810 diyor, bu yüzden hassasiyet ay."
    },
    {
     "t": "1813-01-01",
@@ -1494,8 +1500,9 @@ window.SEHIR_TARIHCE_GUNEY_AMERIKA_GUNEY = [
     "f": "1810-05-25",
     "t": "1900-01-01",
     "d": "arjantin-cumhuriyeti",
-    "kesinlik": "gun",
-    "kaynak": "Encyclopaedia Britannica, «May Revolution», https://www.britannica.com/event/May-Revolution (tarayıcı sayfa okuma, 17 Kasım 2026)"
+    "kesinlik": "belirsiz",
+    "kaynak": "Encyclopaedia Britannica, «May Revolution», https://www.britannica.com/event/May-Revolution (tarayıcı sayfa okuma, 17 Kasım 2026)",
+    "ic_not": "Kaynak sayfası (May Revolution) tam makale değil, Britannica YZ özetidir (Summary created from Britannica articles using AI); tanık makale gövdesinde yok, YZ metni kaynak olamaz. Alternatif gövde tanığı bulunamadı; hassasiyet belirsiz."
    }
   ],
   "olay": [
@@ -1518,13 +1525,14 @@ window.SEHIR_TARIHCE_GUNEY_AMERIKA_GUNEY = [
     "tanik": "the new viceroyalty (established in 1776) controlled an area previously under the administration of the Viceroyalty of Peru"
    },
    {
-    "t": "1810-05-25",
-    "gun": "25 Mayıs 1810",
+    "t": "1810-05-01",
+    "gun": "Mayıs 1810",
     "k": "diger",
     "b": "Mayıs Devrimi: Río de la Plata Valiliği yerine yerel yönetim (bölgesel olay)",
-    "kaynak": "Encyclopaedia Britannica, «May Revolution», https://www.britannica.com/event/May-Revolution (tarayıcı sayfa okuma, 17 Kasım 2026)",
-    "kesinlik": "gun",
-    "tanik": "The May Revolution in Argentina, beginning on May 25, 1810, marked a pivotal step toward independence from Spain."
+    "kaynak": "Encyclopaedia Britannica, 'Buenos Aires', https://www.britannica.com/place/Buenos-Aires (tarayıcı sayfa okuma, 17 Kasım 2026)",
+    "kesinlik": "ay",
+    "tanik": "The Pyramid of May (1811) marks the center of the square; it was constructed to commemorate the first anniversary of the May 1810 revolution, when Buenos Aires severed ties with Spain.",
+    "ic_not": "Önceki tanık (May Revolution sayfası) Britannica YZ özetinde (Quick Summary: Summary created from Britannica articles using AI) bulundu, makale gövdesinde değil; YZ metni kaynak olamaz. Gün (25 Mayıs) gövdede yok; Buenos Aires makalesi gövdesi yalnız Mayıs 1810 diyor, bu yüzden hassasiyet ay."
    }
   ],
   "ic_not": "TEK KAYNAK (Britannica) — bağımsız ikinci akademik kaynak okunamadı/bulunamadı; çift teyit YOK. Taşınma mesafesi 2 mil (≈ 3 km) — 3 km eşiğinde; antik yer ayrı kayıt ÖNERİLMEDİ (≤ 3 km). Atlasta 'San Juan' girişi başka şehir (1521). Cuyo 1776'ya dek Şili genel kaptanlığı idi (Britannica Mendoza) — zincirde sahip 'ispanya' olarak sadeleştirildi. ATLAS ÖNERİSİ: San Juan (Arjantin) noktası eklenmeli."
