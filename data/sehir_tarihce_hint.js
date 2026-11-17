@@ -347,6 +347,13 @@ window.SEHIR_TARIHCE_HINT = [
     "donem": null,
     "kaynak": "Oxford/Gale 'Bangalore' https://www.encyclopedia.com/places/asia/indian-political-geography/bangalore",
     "kanit": "Bangalore (Bangalur)"
+   },
+   {
+    "ad": "Bengaluru",
+    "dil": "kn",
+    "donem": "2006-",
+    "kaynak": "Encyclopaedia Britannica Students 'Bengaluru' https://kids.britannica.com/students/article/Bengaluru/273090 (arama özeti)",
+    "kanit": "officially changed in 2006 from Bangalore to Bengaluru"
    }
   ]
  },
@@ -938,6 +945,13 @@ window.SEHIR_TARIHCE_HINT = [
     "donem": null,
     "kaynak": "TDV İslâm Ansiklopedisi 'ÇİTAGONG' https://islamansiklopedisi.org.tr/citagong",
     "kanit": "“Porto Grando” (büyük liman) adıyla anılmıştır"
+   },
+   {
+    "ad": "Çitagong",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'ÇİTAGONG' https://islamansiklopedisi.org.tr/citagong",
+    "kanit": "ÇİTAGONG Bengladeş’te bir liman şehri ve idarî bölge"
    }
   ]
  },
@@ -954,7 +968,8 @@ window.SEHIR_TARIHCE_HINT = [
    "Dhaka",
    "Cihangirnagar",
    "Jahangirnagar",
-   "Dacca"
+   "Dacca",
+   "Dakka"
   ],
   "ilk": {
    "t": "1456-01-01",
@@ -1022,6 +1037,13 @@ window.SEHIR_TARIHCE_HINT = [
     "donem": "-1982",
     "kaynak": "Banglapedia 'Bangladesh' https://en.banglapedia.org/index.php/Bangladesh (arama özeti)",
     "kanit": "Dhaka (previously spelt Dacca)"
+   },
+   {
+    "ad": "Dakka",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'DAKKA' https://islamansiklopedisi.org.tr/dakka",
+    "kanit": "Bâbürlü yerleşim merkezi olarak görülen Dakka’nın tarihî kayıtları"
    }
   ]
  },
@@ -1116,7 +1138,9 @@ window.SEHIR_TARIHCE_HINT = [
    "Delhi",
    "Indraprastha",
    "Dehlü",
-   "Şahcihanâbâd"
+   "Şahcihanâbâd",
+   "Dilli",
+   "Dehli"
   ],
   "ilk": {
    "t": "0736-01-01",
@@ -1199,6 +1223,27 @@ window.SEHIR_TARIHCE_HINT = [
     "donem": null,
     "kaynak": "TDV İslâm Ansiklopedisi 'DELHİ' https://islamansiklopedisi.org.tr/delhi",
     "kanit": "orada Şahcihanâbâd adıyla yeni bir yerleşme merkezi"
+   },
+   {
+    "ad": "Dilli",
+    "dil": "hi",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Delhi' (arama özeti; sayfa 403) https://www.britannica.com/place/Delhi",
+    "kanit": "names by which the city has been known, including Delhi, Dehli, Dilli, and Dhilli"
+   },
+   {
+    "ad": "Dehli",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Delhi' (arama özeti; sayfa 403) https://www.britannica.com/place/Delhi",
+    "kanit": "including Delhi, Dehli, Dilli, and Dhilli"
+   },
+   {
+    "ad": "Delhi",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Delhi' (arama özeti; sayfa 403) https://www.britannica.com/place/Delhi",
+    "kanit": "including Delhi, Dehli, Dilli, and Dhilli"
    }
   ]
  },
@@ -2091,6 +2136,13 @@ window.SEHIR_TARIHCE_HINT = [
     "donem": "2001-",
     "kaynak": "Banglapedia 'Calcutta' https://en.banglapedia.org/index.php/Calcutta",
     "kanit": "Recently the name of the city has been changed to Kolkata."
+   },
+   {
+    "ad": "Kalküta",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'KALKÜTA' https://islamansiklopedisi.org.tr/kalkuta",
+    "kanit": "KALKÜTA Hindistan’da Batı Bengal eyaletinin merkezi"
    }
   ]
  },
@@ -2279,7 +2331,9 @@ window.SEHIR_TARIHCE_HINT = [
    "Crochey",
    "Krotchey",
    "Currachee",
-   "Kurrache"
+   "Kurrache",
+   "Kalachi-jo-Goth",
+   "Kurrachee"
   ],
   "ilk": {
    "t": "1795-01-01",
@@ -2365,6 +2419,27 @@ window.SEHIR_TARIHCE_HINT = [
     "donem": null,
     "kaynak": "TDV İslâm Ansiklopedisi 'KARAÇİ' https://islamansiklopedisi.org.tr/karaci",
     "kanit": "Caranjee, Crochey, Krotchey, Currachee ve Kurrache yazılışlarıyla geçen"
+   },
+   {
+    "ad": "Kalachi-jo-Goth",
+    "dil": "sd",
+    "donem": "18. yy",
+    "kaynak": "Encyclopaedia Britannica 'Karachi' (arama özeti; sayfa 403) https://www.britannica.com/place/Karachi",
+    "kanit": "in the 18th century it was known as Kalachi-jo-Goth"
+   },
+   {
+    "ad": "Kurrachee",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Karachi' (arama özeti; sayfa 403) https://www.britannica.com/place/Karachi",
+    "kanit": "variously called Caranjee, Crochey, Krotchey, Currachee, and Kurrachee"
+   },
+   {
+    "ad": "Karaçi",
+    "dil": "tr-osm",
+    "donem": null,
+    "kaynak": "TDV İslâm Ansiklopedisi 'KARAÇİ' https://islamansiklopedisi.org.tr/karaci",
+    "kanit": "KARAÇİ Pakistan’ın en büyük şehri"
    }
   ]
  },
@@ -2504,7 +2579,9 @@ window.SEHIR_TARIHCE_HINT = [
   "kat1900": 2,
   "adlar": [
    "Lahor",
-   "el-Ahvar"
+   "el-Ahvar",
+   "Lōhāwar",
+   "Lāhawr"
   ],
   "ilk": {
    "t": "0982-06-26",
@@ -2567,6 +2644,20 @@ window.SEHIR_TARIHCE_HINT = [
     "donem": null,
     "kaynak": "TDV İslâm Ansiklopedisi 'LAHOR' https://islamansiklopedisi.org.tr/lahor",
     "kanit": "Bennah ve el-Ahvar’a (Lahor’un Arapça şekli)"
+   },
+   {
+    "ad": "Lōhāwar",
+    "dil": "ur",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Lahore' (arama özeti; sayfa 403) https://www.britannica.com/place/Lahore",
+    "kanit": "Also known as: Lāhawr, Lōhāwar"
+   },
+   {
+    "ad": "Lāhawr",
+    "dil": "ur",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Lahore' (arama özeti; sayfa 403) https://www.britannica.com/place/Lahore",
+    "kanit": "Also known as: Lāhawr, Lōhāwar"
    }
   ]
  },

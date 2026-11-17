@@ -322,7 +322,9 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
   "kat1900": 2,
   "adlar": [
    "Kaap / Kaapstad (VOC dönemi Felemenkçe)",
-   "Cape Town"
+   "Cape Town",
+   "De Kaap",
+   "Kaapstad"
   ],
   "ilk": {
    "t": "1652-04-06",
@@ -381,7 +383,29 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
    }
   ],
   "ic_not": "20 şehir listesinden kaynaklı yazılabilenler: bu kayıt yalnız SAHO'ya dayanır (Britannica 403 verdi; TDV'de Cape Town maddesi sorgulanmadı). Zincir (cape-hollanda 1652 → cape-ingiliz 1795/1806 ...) atlasta zaten var; atlas başlangıcı düzeltilince bu dosyada zincir açılabilir. 1795/1803/1806 günleri teyitsiz (yalnız yıl). | Parti5 tanık kuralı (17 Kasım 2026): tanik cümleden birebir yenilendi [ilk]: ad+yıl SAHO 'The Dutch Settlement' cümlesi; 6 Nisan gün tanığı ('1652 6 April, Jan van Riebeeck, on board of the Drommedaris, arrives in Table Bay') Cape Town Timeline satırıdır, adı 'Table Bay' (Cape Town adı yok) -> ic_not'ta beyan; kesinlik gun korundu | Parti5 tanık kuralı (17 Kasım 2026): tanik cümleden birebir yenilendi [kur]: Cape Town Timeline (madde konusu); satır başında yıl+gün",
-  "ad_kaynak": []
+  "ad_kaynak": [
+   {
+    "ad": "De Kaap",
+    "dil": "nl",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Cape Town' https://www.britannica.com/place/Cape-Town",
+    "kanit": "Also known as: De Kaap, Kaapstad"
+   },
+   {
+    "ad": "Kaapstad",
+    "dil": "nl",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Cape Town' https://www.britannica.com/place/Cape-Town",
+    "kanit": "Also known as: De Kaap, Kaapstad"
+   },
+   {
+    "ad": "Cape Town",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Cape Town' https://www.britannica.com/place/Cape-Town",
+    "kanit": "The city of Cape Town had its origin in 1652"
+   }
+  ]
  },
  {
   "id": "dakar-af-p9",
@@ -913,7 +937,8 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
   "lon": 8.517,
   "kat1900": null,
   "adlar": [
-   "Kano"
+   "Kano",
+   "Kano City"
   ],
   "ilk": {
    "t": "1200-01-01",
@@ -945,7 +970,22 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
    }
   ],
   "ic_not": "Yalnız TDV Kano maddesi (Davut Dursun, c. 24); TDV İngiliz fethi için kesin yıl vermez (Emir Aliyu 1894-1903 dönemi), olay yazılmadı. Atlas başlangıcı (1000) için kaynak aranmalı. TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Uyuşmayanlar: ALINTI DÜZELTİLDİ (ilk.tanik): olgu doğru, önceki alıntı WebFetch özetinden/paraphrase idi; TDV gövdesindeki gerçek cümle yazıldı. Önceki notlardaki \"WebFetch özeti / tam metne karşı doğrulandı (tarayıcı) / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir.",
-  "ad_kaynak": []
+  "ad_kaynak": [
+   {
+    "ad": "Kano",
+    "dil": "ha",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Kano' https://www.britannica.com/place/Kano-Nigeria",
+    "kanit": "Kano, city, capital of Kano state, northern Nigeria"
+   },
+   {
+    "ad": "Kano City",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Kano' https://www.britannica.com/place/Kano-Nigeria",
+    "kanit": "Also known as: Kano City"
+   }
+  ]
  },
  {
   "id": "khami-p9",
@@ -1319,7 +1359,8 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
   "kat1900": 2,
   "adlar": [
    "Loanda",
-   "Luanda"
+   "Luanda",
+   "São Paulo de Luanda"
   ],
   "ilk": {
    "t": "1575-01-01",
@@ -1345,7 +1386,29 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
    }
   ],
   "ic_not": "HAKEMLİ KARAR (LAB, 17 Kasım 2026): Hakemli karar: Britannica 1576 (Novais'in kuruluşu); Columbia 'founded in 1575', Oxford 'first settled in 1575', Universalis (P. Vennetier) 'fondée en 1575', A. M. Caldeira (Rev. Tempo, Espaço e Linguagem, 2014) 'povoação fundada em 1575 ... ilha de Luanda'. Dört bağımsız kaynak 1575; seçim 1575 (yerleşme, Luanda Adası). 25 Ocak 1576 (anakara kuruluşu, geleneksel) beyan edilir, kuruluş yılı olarak yazılmaz. || TEK KAYNAK (Britannica). Atlas Luanda'yı 1575-01-01'de portekiz-angola ile başlatır; Britannica kuruluşu 1576 verir (atlas başlangıcı 1 yıl erken; 1576 ≥ atlas başlangıcı olduğundan zincir yazılmadı, sahip[] boş). İkinci bağımsız kaynak okunmadı.",
-  "ad_kaynak": []
+  "ad_kaynak": [
+   {
+    "ad": "São Paulo de Luanda",
+    "dil": "pt",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Luanda' https://www.britannica.com/place/Luanda",
+    "kanit": "Also known as: Loanda, São Paulo de Luanda"
+   },
+   {
+    "ad": "Loanda",
+    "dil": "pt",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Luanda' https://www.britannica.com/place/Luanda",
+    "kanit": "Also known as: Loanda, São Paulo de Luanda"
+   },
+   {
+    "ad": "Luanda",
+    "dil": "pt",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Luanda' https://www.britannica.com/place/Luanda",
+    "kanit": "Luanda, city, capital of Angola."
+   }
+  ]
  },
  {
   "id": "mapungubwe-p9",
@@ -1909,6 +1972,13 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
     "donem": null,
     "kaynak": "TDV İslâm Ansiklopedisi 'Tinbüktü' https://islamansiklopedisi.org.tr/tinbuktu",
     "kanit": "Fransızca’ya Tombouctou diye geçmiştir"
+   },
+   {
+    "ad": "Timbuktu",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Timbuktu' https://www.britannica.com/place/Timbuktu-Mali",
+    "kanit": "Timbuktu was named for an old woman left to oversee the camp"
    }
   ]
  },

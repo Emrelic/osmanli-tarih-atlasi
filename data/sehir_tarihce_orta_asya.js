@@ -95,7 +95,10 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
    "Verniy",
    "Alma Ata (1927)",
    "Almatı",
-   "Alma Ata"
+   "Alma Ata",
+   "Zailiyskoye",
+   "Verny",
+   "Almaty"
   ],
   "ilk": {
    "t": "1854-01-01",
@@ -175,6 +178,27 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
     "donem": "1927-",
     "kaynak": "TDV İslâm Ansiklopedisi 'Alma Ata' https://islamansiklopedisi.org.tr/alma-ata",
     "kanit": "1927’de resmen Alma Ata adını alan şehir"
+   },
+   {
+    "ad": "Zailiyskoye",
+    "dil": "ru",
+    "donem": "1854-1855",
+    "kaynak": "Encyclopaedia Britannica 'Almaty' https://www.britannica.com/place/Almaty-Kazakhstan",
+    "kanit": "military fortification of Zailiyskoye (renamed Verny in 1855)"
+   },
+   {
+    "ad": "Verny",
+    "dil": "ru",
+    "donem": "1855-1921",
+    "kaynak": "Encyclopaedia Britannica 'Almaty' https://www.britannica.com/place/Almaty-Kazakhstan",
+    "kanit": "Zailiyskoye (renamed Verny in 1855)"
+   },
+   {
+    "ad": "Almaty",
+    "dil": "kk",
+    "donem": "1991-",
+    "kaynak": "Encyclopaedia Britannica 'Almaty' https://www.britannica.com/place/Almaty-Kazakhstan",
+    "kanit": "name was changed from its Russian form, Alma-Ata, to its Kazakh form, Almaty"
    }
   ]
  },
@@ -436,7 +460,8 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
    "Akmolinsk",
    "Tselinograd",
    "Aqmola",
-   "Astana"
+   "Astana",
+   "Nur-Sultan"
   ],
   "ilk": {
    "t": "1824-01-01",
@@ -471,7 +496,43 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
    }
   ],
   "ic_not": "ÇİFT TEYİT (LAB, 17 Kasım 2026; Britannica/ilk kaynaktan bağımsız ikinci kaynak): The Columbia Encyclopedia 6th ed., «Astana», encyclopedia.com/reference/…/astana; includes() 17 Kas 2026 | tanık 2: \"The city was founded as a fortress in 1824\" | 1824 aynı (Britannica: Russian military outpost 1824) || İLK KAYNAK (Britannica; TDV/İSAM okunmadı). Atlas Akmola'yı 1281-01-01'de altinorda ile başlatır; 1824 ≥ atlas başlangıcı olduğundan zincir yazılmadı (sahip[] boş). Sahiplik: Britannica 'Russian military outpost' der, devlet künyesi bu cümleyle yazılmadı. Adlar: Akmolinsk (Britannica 'Tselinograd' ve 1992 'Aqmola' adı verir; 1998 Astana).",
-  "ad_kaynak": []
+  "ad_kaynak": [
+   {
+    "ad": "Akmolinsk",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Astana' https://www.britannica.com/place/Astana-Kazakhstan",
+    "kanit": "Also known as: Akmolinsk, Aqmola, Nur-Sultan, Tselinograd"
+   },
+   {
+    "ad": "Tselinograd",
+    "dil": "ru",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Astana' https://www.britannica.com/place/Astana-Kazakhstan",
+    "kanit": "Tselinograd was Russian for “City of the Virgin Lands”"
+   },
+   {
+    "ad": "Aqmola",
+    "dil": "kk",
+    "donem": "1992-1998",
+    "kaynak": "Encyclopaedia Britannica 'Astana' https://www.britannica.com/place/Astana-Kazakhstan",
+    "kanit": "name was changed to Aqmola (“White Grave”) in 1992"
+   },
+   {
+    "ad": "Astana",
+    "dil": "kk",
+    "donem": "1998-2019",
+    "kaynak": "Encyclopaedia Britannica 'Astana' https://www.britannica.com/place/Astana-Kazakhstan",
+    "kanit": "name was again changed, to Astana (“Capital”), the following year"
+   },
+   {
+    "ad": "Nur-Sultan",
+    "dil": "kk",
+    "donem": "2019-2022",
+    "kaynak": "Encyclopaedia Britannica 'Astana' https://www.britannica.com/place/Astana-Kazakhstan",
+    "kanit": "renamed Nur-Sultan in his honor"
+   }
+  ]
  },
  {
   "id": "babadagi-ro",
@@ -577,7 +638,10 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
    "Bāḥdi",
    "Bahdrî",
    "Bāḥtriş",
-   "Baktra"
+   "Baktra",
+   "Bactra",
+   "Bactra-Zariaspa",
+   "Vazīrābād"
   ],
   "ilk": {
    "t": "-0328-01-01",
@@ -737,6 +801,27 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
     "donem": null,
     "kaynak": "TDV İslâm Ansiklopedisi 'Belh' https://islamansiklopedisi.org.tr/belh",
     "kanit": "Bāḥtriş, Avesta’da Bāḥdi (Bahdrî) ve Grekçe’de Baktra"
+   },
+   {
+    "ad": "Bactra",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Balkh' https://www.britannica.com/place/Balkh",
+    "kanit": "city in Balkh province, in northern Afghanistan, that was formerly Bactra"
+   },
+   {
+    "ad": "Bactra-Zariaspa",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Balkh' https://www.britannica.com/place/Balkh",
+    "kanit": "Also known as: Bactra, Bactra-Zariaspa, Vazīrābād"
+   },
+   {
+    "ad": "Vazīrābād",
+    "dil": "fa",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Balkh' https://www.britannica.com/place/Balkh",
+    "kanit": "Also known as: Bactra, Bactra-Zariaspa, Vazīrābād"
    }
   ]
  },
@@ -751,7 +836,10 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
    "Pu-ha (Çin kaynakları, VII. yy)",
    "Buhara",
    "Nûmickes",
-   "Pu-ha"
+   "Pu-ha",
+   "Bukhoro",
+   "Buxoro",
+   "Bokhara"
   ],
   "ilk": {
    "t": "0630-01-01",
@@ -861,6 +949,27 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
     "donem": null,
     "kaynak": "TDV İslâm Ansiklopedisi 'Buhara' https://islamansiklopedisi.org.tr/buhara",
     "kanit": "Târîḫ-i Buḫârâ"
+   },
+   {
+    "ad": "Bukhoro",
+    "dil": "uz",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Bukhara' https://www.britannica.com/place/Bukhara",
+    "kanit": "Also known as: Bokhara, Buchara, Bukhoro, Buxoro"
+   },
+   {
+    "ad": "Buxoro",
+    "dil": "uz",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Bukhara' https://www.britannica.com/place/Bukhara",
+    "kanit": "Also known as: Bokhara, Buchara, Bukhoro, Buxoro"
+   },
+   {
+    "ad": "Bokhara",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Bukhara' https://www.britannica.com/place/Bukhara",
+    "kanit": "Also known as: Bokhara, Buchara, Bukhoro, Buxoro"
    }
   ]
  },
@@ -1113,7 +1222,9 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
    "Herat",
    "Haraiva",
    "Aria",
-   "Areia"
+   "Areia",
+   "Ariea",
+   "Harāt"
   ],
   "ilk": {
    "t": "0661-05-07",
@@ -1255,6 +1366,20 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
     "donem": null,
     "kaynak": "TDV İslâm Ansiklopedisi 'Herat' https://islamansiklopedisi.org.tr/herat",
     "kanit": "Avesta’da ve Grekçe metinlerde Aria, Areia şeklinde rastlanır"
+   },
+   {
+    "ad": "Ariea",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Herat' https://www.britannica.com/place/Herat-Afghanistan",
+    "kanit": "known in ancient times as Ariea (Old Persian: Haraiva)"
+   },
+   {
+    "ad": "Harāt",
+    "dil": "fa",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Herat' https://www.britannica.com/place/Herat-Afghanistan",
+    "kanit": "Also known as: Harāt"
    }
   ]
  },
@@ -1266,7 +1391,9 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
   "lon": 60.3639,
   "kat1900": 1,
   "adlar": [
-   "Hîve"
+   "Hîve",
+   "Khiva",
+   "Khiwa"
   ],
   "ilk": {
    "t": "0999-01-01",
@@ -1318,6 +1445,20 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
     "donem": null,
     "kaynak": "TDV İslâm Ansiklopedisi 'Hîve Hanlığı' https://islamansiklopedisi.org.tr/hive-hanligi",
     "kanit": "Hîve Hanlığı şeklinde geçer"
+   },
+   {
+    "ad": "Khiva",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Khiva' https://www.britannica.com/place/Khiva",
+    "kanit": "Khiva, city, south-central Uzbekistan."
+   },
+   {
+    "ad": "Khiwa",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Khiva' https://www.britannica.com/place/Khiva",
+    "kanit": "Also known as: Chiva, Jiva, Khiwa"
    }
   ]
  },
@@ -1611,7 +1752,8 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
    "Kaboura",
    "Kao-fu",
    "Kâbül",
-   "Kâbil"
+   "Kâbil",
+   "Kābol"
   ],
   "ilk": {
    "t": "0795-03-27",
@@ -1718,6 +1860,13 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
     "donem": null,
     "kaynak": "TDV İslâm Ansiklopedisi 'Kâbil (Afganistan)' https://islamansiklopedisi.org.tr/kabil--afganistan",
     "kanit": "(Türk ve Kâbul)"
+   },
+   {
+    "ad": "Kābol",
+    "dil": "fa",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Kabul' https://www.britannica.com/place/Kabul",
+    "kanit": "Also known as: Kābol"
    }
   ]
  },
@@ -1887,7 +2036,8 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
    "Şule",
    "Kâcgar",
    "Kâşhar",
-   "Kaşi"
+   "Kaşi",
+   "K’a-shih"
   ],
   "ilk": {
    "t": "0715-01-01",
@@ -2044,6 +2194,13 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
     "donem": null,
     "kaynak": "TDV İslâm Ansiklopedisi 'Kâşgar' https://islamansiklopedisi.org.tr/kasgar",
     "kanit": "Çince Kaşi; İslâm kaynaklarında Kâşgar, Kâcgar, Kâşhar"
+   },
+   {
+    "ad": "K’a-shih",
+    "dil": "zh",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Kashgar' https://www.britannica.com/place/Kashgar",
+    "kanit": "Also known as: K’a-shih, Kashi, Kaxgar"
    }
   ]
  },
@@ -2232,7 +2389,8 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
    "Maracanda",
    "K’ang",
    "Hsi-wan-chin",
-   "Semerḳand"
+   "Semerḳand",
+   "Samarqand"
   ],
   "ilk": {
    "t": "-0328-01-01",
@@ -2359,6 +2517,13 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
     "donem": null,
     "kaynak": "TDV İslâm Ansiklopedisi 'Semerkant' https://islamansiklopedisi.org.tr/semerkant",
     "kanit": "Târîḫu Semerḳand yazarı Abdurrahman b. Muhammed el-İdrîsî"
+   },
+   {
+    "ad": "Samarqand",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Samarkand' https://www.britannica.com/place/Samarkand-Uzbekistan",
+    "kanit": "Also known as: Maracanda, Samarqand"
    }
   ]
  },
@@ -2511,7 +2676,12 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
    "Çâç",
    "Şâş",
    "Binkes",
-   "Terken"
+   "Terken",
+   "Dzhadzh",
+   "Chachkent",
+   "Shashkent",
+   "Binkent",
+   "Tashkent"
   ],
   "ilk": {
    "t": "0713-01-01",
@@ -2615,6 +2785,41 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
     "donem": null,
     "kaynak": "TDV İslâm Ansiklopedisi 'Taşkent' https://islamansiklopedisi.org.tr/taskent",
     "kanit": "buraya Türkçe Taşkent denildiğini"
+   },
+   {
+    "ad": "Dzhadzh",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Tashkent' https://www.britannica.com/place/Tashkent",
+    "kanit": "variously known as Dzhadzh, Chachkent, Shashkent, and Binkent"
+   },
+   {
+    "ad": "Chachkent",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Tashkent' https://www.britannica.com/place/Tashkent",
+    "kanit": "variously known as Dzhadzh, Chachkent, Shashkent, and Binkent"
+   },
+   {
+    "ad": "Shashkent",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Tashkent' https://www.britannica.com/place/Tashkent",
+    "kanit": "variously known as Dzhadzh, Chachkent, Shashkent, and Binkent"
+   },
+   {
+    "ad": "Binkent",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Tashkent' https://www.britannica.com/place/Tashkent",
+    "kanit": "variously known as Dzhadzh, Chachkent, Shashkent, and Binkent"
+   },
+   {
+    "ad": "Tashkent",
+    "dil": "en",
+    "donem": "XI. yy",
+    "kaynak": "Encyclopaedia Britannica 'Tashkent' https://www.britannica.com/place/Tashkent",
+    "kanit": "the name Tashkent, which means “Stone Village” in Uzbek"
    }
   ]
  },
@@ -2753,7 +2958,9 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
    "Urumçi",
    "Tihua (TDV)",
    "Dihua",
-   "Ürümçi"
+   "Ürümçi",
+   "Ürümqi",
+   "Ürümchi"
   ],
   "ilk": {
    "t": "1870-01-01",
@@ -2804,6 +3011,27 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
     "donem": null,
     "kaynak": "TDV İslâm Ansiklopedisi 'Yâkub Beg' https://islamansiklopedisi.org.tr/yakub-beg",
     "kanit": "onları Urumçi’den uzaklaştırdı (1870)"
+   },
+   {
+    "ad": "Dihua",
+    "dil": "zh",
+    "donem": "1763- (kuruluş yılı; kaynak bitiş vermez)",
+    "kaynak": "Encyclopaedia Britannica 'Ürümqi' https://www.britannica.com/place/Urumqi",
+    "kanit": "in 1763 a Chinese city called Dihua was founded there"
+   },
+   {
+    "ad": "Ürümqi",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Ürümqi' https://www.britannica.com/place/Urumqi",
+    "kanit": "Ürümqi, city and capital of the Uygur Autonomous Region"
+   },
+   {
+    "ad": "Ürümchi",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Ürümqi' https://www.britannica.com/place/Urumqi",
+    "kanit": "Also known as: Ürümchi, Dihua, Urumchi, Urumqi"
    }
   ]
  }
