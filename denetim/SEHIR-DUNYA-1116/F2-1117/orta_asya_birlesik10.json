@@ -4098,5 +4098,39 @@
   "adlar_kaynaksiz": [
    "Angren"
   ]
+ },
+ {
+  "id": "fergana-uz-p3",
+  "ad": "Fergana",
+  "atlas_ad": null,
+  "lat": 40.3842,
+  "lon": 71.7843,
+  "kat1900": 2,
+  "adlar": [
+   "Fergana"
+  ],
+  "ilk": {
+   "t": "1877-01-01",
+   "gun": "1877",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Fergana' (Uzbekistan), https://www.britannica.com/place/Fergana-Uzbekistan (tarayıcıda okundu, 17 Kasım 2026)",
+   "tanik": "It was founded by the Russians in 1877"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1877-01-01",
+    "t": "1900-01-01",
+    "d": "rusya",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, 'Fergana' (Uzbekistan): «founded by the Russians in 1877 as the military and administrative centre of the province of Fergana, formed from the newly conquered khanate of Kokand»",
+    "ic_not": "Kurucu devlet Rusya (Çarlık); 1877'den 1900'e kaynakta el değiştirme yok."
+   }
+  ],
+  "olay": [],
+  "ic_not": "P3-B11. TEK KAYNAK. Britannica gövdesinden (YZ özeti bloğu dışı; sayfada 'Summary created' bloğu yok). Özne zamir 'It' = madde konusu; başlık şehir. Aynı cümlede şehir adı ('province of Fergana') + yıl var; tanık ≤15 kelime sınırı için cümlenin başı alındı. Atlas noktası yok: 'Fergana' (bolge, 40.644,71.643) ~30 km uzakta ve eski vadi bölgesi, 3 km eşleşmesi yok. Gün kaynakta yok: YYYY-01-01 + 'yil'."
  }
 ]

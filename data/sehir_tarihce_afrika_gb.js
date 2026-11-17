@@ -2,6 +2,76 @@
 // Motor/denetle/site OKUMAZ — araştırma birikimi. Elle düzenleme: JSON'u düzelt, yeniden üret.
 window.SEHIR_TARIHCE_AFRIKA_GB = [
  {
+  "id": "abeokuta-ng-p3",
+  "ad": "Abeokuta",
+  "atlas_ad": null,
+  "lat": 7.15571,
+  "lon": 3.34509,
+  "kat1900": 2,
+  "adlar": [
+   "Abeokuta"
+  ],
+  "ilk": {
+   "t": "1830-01-01",
+   "gun": "1830",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Abeokuta', https://www.britannica.com/place/Abeokuta (tarayıcıda okundu)",
+   "tanik": "Abeokuta (“Refuge Among Rocks”) was founded about 1830 by Sodeke",
+   "ic_not": "TEK KAYNAK. Britannica gövdesinden (YZ özeti bloğu dışı; sayfada 'Summary created' bloğu yok). Cümlede şehir adı + yıl var. Kaynak 'about 1830' diyor (yaklaşık): YYYY-01-01 + kesinlik 'yil'. İkinci bağımsız kaynak bu oturumda okunamadı."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1830-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, 'Abeokuta', https://www.britannica.com/place/Abeokuta",
+    "ic_not": "BOŞLUK (atlas noktası yok): Britannica Egba United Government (1893-1914) bağımsızlığını verir ama data/devletler.js'te karşılık id'si doğrulanmadı ve 1830-1893 arası devlet sahibi tarihli cümleyle verilmiyor; beyansız yaklaşıklık yazılmadı."
+   }
+  ],
+  "olay": [],
+  "ic_not": "P3-B12. Atlas noktası yok (3 km tarandı)."
+ },
+ {
+  "id": "abidjan-ci-p3",
+  "ad": "Abidjan",
+  "atlas_ad": null,
+  "lat": 5.35444,
+  "lon": -4.00167,
+  "kat1900": 2,
+  "adlar": [
+   "Abidjan"
+  ],
+  "ilk": {
+   "t": "1898-01-01",
+   "gun": "1898",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Abidjan', https://www.britannica.com/place/Abidjan (tarayıcıda okundu)",
+   "tanik": "A village in 1898, it became a town in 1903.",
+   "ic_not": "TEK KAYNAK. Britannica gövdesinden (YZ özeti bloğu dışı; sayfada 'Summary created' bloğu yok). Özne zamir = madde konusu; başlık şehir. 'Köy olarak 1898' ilk anılış/yerleşim yılı; gün yok: YYYY-01-01 + kesinlik 'yil'. İkinci bağımsız kaynak okunamadı."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1898-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, 'Abidjan', https://www.britannica.com/place/Abidjan",
+    "ic_not": "BOŞLUK (atlas noktası yok): okunan Britannica gövdesinde 1898-1900 için tarihli devlet sahibi cümlesi yok; beyansız yaklaşıklık yazılmadı."
+   }
+  ],
+  "olay": [],
+  "ic_not": "P3-B12. Atlas noktası yok (3 km tarandı)."
+ },
+ {
   "id": "agadez-ne",
   "ad": "Agadez",
   "atlas_ad": "Agadez",
@@ -3893,6 +3963,77 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
   ]
  },
  {
+  "id": "upington-za-p3",
+  "ad": "Upington",
+  "atlas_ad": null,
+  "lat": -28.4478,
+  "lon": 21.2561,
+  "kat1900": 2,
+  "adlar": [
+   "Upington",
+   "Olyvenhoutsdrift"
+  ],
+  "ilk": {
+   "t": "1870-01-01",
+   "gun": "1870",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "South African History Online, 'Upington, Northern Cape', https://sahistory.org.za/place/upington-northern-cape (tarayıcıda okundu)",
+   "tanik": "It was established on the bank of the Orange River in 1870.",
+   "ic_not": "TEK KAYNAK. Özne zamir 'It' = madde konusu; başlık şehir. Aynı sayfa misyon istasyonunu 1871 verir (kuruluş tanığı olarak 1870 cümlesi alındı); Britannica 1870'ler der (çelişmez)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1870-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "South African History Online, 'Upington, Northern Cape', https://sahistory.org.za/place/upington-northern-cape",
+    "ic_not": "BOŞLUK (atlas noktası yok): kaynak 1870-1900 sahibini tarihli cümleyle vermiyor (Cape Kolonisi bağı kaynakta tarihli cümleyle okunmadı); beyansız yaklaşıklık yazılmadı."
+   }
+  ],
+  "olay": [],
+  "ic_not": "P3-B10. Atlas noktası yok."
+ },
+ {
+  "id": "utrecht-za-p3",
+  "ad": "Utrecht (Natal)",
+  "atlas_ad": null,
+  "lat": -27.6586,
+  "lon": 30.3217,
+  "kat1900": 2,
+  "adlar": [
+   "Utrecht"
+  ],
+  "ilk": {
+   "t": "1852-01-01",
+   "gun": "1852",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "South African History Online, 'Utrecht', https://sahistory.org.za/place/utrecht (tarayıcıda okundu)",
+   "tanik": "The history of Utrecht in Natal began in 1852 when a group of Dutch Voortrekkers",
+   "ic_not": "TEK KAYNAK. Cümle yerleşimin tarihçesinin başlangıcını (Buffalo Nehri kıyısına yerleşme) verir; kasaba/belediye kuruluşu değil. Aynı sayfa 1854'te Utrecht Cumhuriyeti'nin kurulduğunu söyler. Hollanda Utrecht'i ile karıştırılmamalı (koordinat KwaZulu-Natal)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1852-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "South African History Online, 'Utrecht', https://sahistory.org.za/place/utrecht",
+    "ic_not": "BOŞLUK (atlas noktası yok): SAHO 1854 Utrecht Cumhuriyeti ve 1855 Transvaal tanımasını anar ama data/devletler.js'te karşılık id yok ve sonraki devirler (Transvaal'a katılış, 1903 Natal) bu oturumda okunmadı; beyanlı boşluk."
+   }
+  ],
+  "olay": [],
+  "ic_not": "P3-B10. Atlas noktası yok."
+ },
+ {
   "id": "valata-af-p9",
   "ad": "Valata",
   "atlas_ad": "Valata (Oualata)",
@@ -3933,6 +4074,112 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
    "Oualata",
    "Valata"
   ]
+ },
+ {
+  "id": "vryheid-za-p3",
+  "ad": "Vryheid",
+  "atlas_ad": null,
+  "lat": -27.7695,
+  "lon": 30.7917,
+  "kat1900": 2,
+  "adlar": [
+   "Vryheid"
+  ],
+  "ilk": {
+   "t": "1884-01-01",
+   "gun": "1884",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "South African History Online, 'Vryheid, Northern KwaZulu-Natal', https://sahistory.org.za/place/vryheid-northern-kwazulu-natal (tarayıcıda okundu)",
+   "tanik": "Founded in 1884, the Town was formed within an Area granted to early Voortrekker settlers",
+   "ic_not": "TEK KAYNAK. Özne zamir/'the Town' = madde konusu; başlık şehir. Aynı sayfa: 'On August 5, 1884 the Boers formed the Nieuwe Republiek (New Republic) with Vryheid as its Capital' (cumhuriyet kuruluş günü; kasaba kuruluş günü olarak alınmadı, gün kasaba için yok → yıl)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1884-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "South African History Online, 'Vryheid, Northern KwaZulu-Natal', https://sahistory.org.za/place/vryheid-northern-kwazulu-natal",
+    "ic_not": "BOŞLUK (atlas noktası yok): SAHO Vryheid'i Nieuwe Republiek başkenti (5 Ağustos 1884) olarak verir; data/devletler.js'te bu devletin id'si yok, sonraki devir (Transvaal 1888) bu oturumda kaynakla okunmadı. Beyanlı boşluk; yaklaşıklık yazılmadı."
+   }
+  ],
+  "olay": [],
+  "ic_not": "P3-B10. Atlas noktası yok."
+ },
+ {
+  "id": "wakkerstroom-za-p3",
+  "ad": "Wakkerstroom",
+  "atlas_ad": null,
+  "lat": -27.3549,
+  "lon": 30.1438,
+  "kat1900": 2,
+  "adlar": [
+   "Wakkerstroom",
+   "Marthinus-Wesselstroom"
+  ],
+  "ilk": {
+   "t": "1859-01-01",
+   "gun": "1859",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "South African History Online, 'Wakkerstroom', https://sahistory.org.za/place/wakkerstroom (tarayıcıda okundu)",
+   "tanik": "with the Town being officially established in 1859",
+   "ic_not": "TEK KAYNAK. Özne 'the Town' = madde konusu; başlık şehir. Aynı cümlede 1853 ilk beyaz yerleşimciler; resmî kuruluş 1859 alındı. Gün yok."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1859-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "South African History Online, 'Wakkerstroom', https://sahistory.org.za/place/wakkerstroom",
+    "ic_not": "BOŞLUK (atlas noktası yok): kaynak 1859-1900 sahibini tarihli cümleyle vermiyor; beyansız yaklaşıklık yazılmadı."
+   }
+  ],
+  "olay": [],
+  "ic_not": "P3-B10. Atlas noktası yok."
+ },
+ {
+  "id": "winburg-za-p3",
+  "ad": "Winburg",
+  "atlas_ad": null,
+  "lat": -28.518,
+  "lon": 27.0093,
+  "kat1900": 2,
+  "adlar": [
+   "Winburg"
+  ],
+  "ilk": {
+   "t": "1837-01-01",
+   "gun": "1837",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "South African History Online, 'Winburg', https://sahistory.org.za/place/winburg (tarayıcıda okundu)",
+   "tanik": "Winburg was founded in 1837, by Voortrekkers at the beginning of the Great Trek.",
+   "ic_not": "TEK KAYNAK. Cümlede şehir adı + yıl var. Gün kaynakta yok."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1837-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "South African History Online, 'Winburg', https://sahistory.org.za/place/winburg",
+    "ic_not": "BOŞLUK (atlas noktası yok): kaynak 1837-1900 sahibini tarihli cümleyle vermiyor; beyansız yaklaşıklık yazılmadı."
+   }
+  ],
+  "olay": [],
+  "ic_not": "P3-B10. Atlas noktası yok."
  },
  {
   "id": "windhoek-na",
@@ -4015,6 +4262,41 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
    "ǀAi-ǁGams (Nama)",
    "Otjomuise (Herero)"
   ]
+ },
+ {
+  "id": "worcester-za-p3",
+  "ad": "Worcester",
+  "atlas_ad": null,
+  "lat": -33.6465,
+  "lon": 19.4485,
+  "kat1900": 2,
+  "adlar": [
+   "Worcester"
+  ],
+  "ilk": {
+   "t": "1820-01-01",
+   "gun": "1820",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Worcester' (South Africa), https://www.britannica.com/place/Worcester-South-Africa (tarayıcıda okundu)",
+   "tanik": "Worcester was founded in 1820 and attained municipal status in 1842.",
+   "ic_not": "TEK KAYNAK. Britannica gövdesinden (YZ özeti bloğu dışı; sayfada 'Summary created' bloğu yok). Cümlede şehir adı + yıl var. Gün kaynakta yok: YYYY-01-01 + kesinlik 'yil'. İkinci bağımsız kaynak bulunamadı."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1820-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, 'Worcester' (South Africa), https://www.britannica.com/place/Worcester-South-Africa",
+    "ic_not": "BOŞLUK (atlas noktası yok): kaynak 1820-1900 arasında şehrin devlet sahibini doğrudan tarihli bir cümleyle vermiyor; beyansız yaklaşıklık yazılmadı."
+   }
+  ],
+  "olay": [],
+  "ic_not": "P3-B10. Atlas noktası yok (3 km tarandı)."
  },
  {
   "id": "yaunde-af-p9",
