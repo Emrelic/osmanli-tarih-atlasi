@@ -1,0 +1,8 @@
+bolge	id	ad	sorun	durum	kaynak_not
+yakin-dogu	qalqilya-ps / salfit-ps / jabalia-ps / hermel-lb	Qalqilya, Salfit, Jabalia, Hermel	koordinat bostu	DUZELTILDI 17 Kas (0ae4c6b05)	GeoNames sayfasi DMS
+dogu-avrupa	novorossiysk, saratov, stavropol, vyborg, brest, kholm, rostov, tsarev, zaporizhzhia, makarev, makaryevo	11 Rusya/Belarus/Ukrayna sehri	yanlis ulke/bolge ad cakismasi ya da bos koordinat	DUZELTILDI 17 Kas (0ae4c6b05)	GeoNames sayfasi DMS; Kuznetsk Sibirya listesinden DA listesine tasindi
+dogu-avrupa/sibirya	petropavlovsk-kamchatsky	Petropavlovsk-Kamchatsky	koordinat bostu	DUZELTILDI 17 Kas	GeoNames 2122104
+balkanlar	tripoli, krsko-si	Tripoli, Krsko	koordinat hatali/bos	DUZELTILDI 17 Kas	GeoNames 252601, 3197147
+balkanlar	istocno-sarajevo-ba	Istocno Sarajevo	koordinat bos; GeoNames sonuclarinda sehir noktasi secilemedi	ACIK	KOORD UYARISI LISTE notunda
+dogu-avrupa/sibirya	polyarny	Polyarny	satir kendi icinde celiskili (Sahalin Aleksandrovsk vs Murmansk Polyarny)	ACIK	yazilmadi
+hepsi	255 ek merkez	255 ek-modern-merkez satiri	ulke kaba kutusu (bbox) tarama: yalniz 1 sorun (Istocno Sarajevo bos)	TARANDI 17 Kas	KABA KONTROL: ulke kutusu; ayni adli baska ulke/eyalet secimi (Chhapra tipi) ulke icinde ise yakalanmaz; ulke ici yanlis nokta icin ayrica olcum yapilmadi
