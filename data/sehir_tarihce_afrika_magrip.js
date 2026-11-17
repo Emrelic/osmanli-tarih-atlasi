@@ -20,7 +20,7 @@ window.SEHIR_TARIHCE_AFRIKA_MAGRIP = [
    "kesinlik": "onyil",
    "kaynak": "Plinius, Naturalis Historia 5 (Latince metin: https://la.wikisource.org/wiki/Naturalis_Historia/Liber_V) 5.20",
    "tanik": "itemque a Vespasiano Imperatore eodem munere donatum Icosium",
-   "ic_not": "Plinius'un ithaf yılı MS 77, Vespasianus 69-79; Vespasianus'a atfedilen bir ayrıcalığı anlatan pasaj olduğundan güvenli uç Vespasianus'un ölümü (MS 79) alındı. Wikisource Latince metni aktarma bir transkripsiyondur; bu oturumda Perseus/TLL ile çapraz sınanmadı. Daha erken tanık (Strabon, Mela vb.) bu oturumda ARANMADI/doğrulanamadı; bu nedenle 'ilk anılış' ihtiyatlıdır. Koordinat GeoNames Algiers kaydıdır (36.73225, 3.08746); Icosium'un modern şehirle aynı yer olduğu Plinius metninden değil genel kabulden gelir, bu oturumda ayrıca kaynaklanmadı."
+   "ic_not": "Plinius'un ithaf yılı MS 77, Vespasianus 69-79; Vespasianus'a atfedilen bir ayrıcalığı anlatan pasaj olduğundan güvenli uç Vespasianus'un ölümü (MS 79) alındı. Wikisource Latince metni aktarma bir transkripsiyondur; bu oturumda Perseus/TLL ile çapraz sınanmadı. Daha erken tanık (Strabon, Mela vb.) bu oturumda ARANMADI/doğrulanamadı; bu nedenle 'ilk anılış' ihtiyatlıdır. Koordinat GeoNames Algiers kaydıdır (36.73225, 3.08746); Icosium'un modern şehirle aynı yer olduğu Plinius metninden değil genel kabulden gelir, bu oturumda ayrıca kaynaklanmadı. Tanık kontrolü: cümle şehir adını (Icosium) taşır, ama kaynakta sayısal yıl yoktur; tarih imparator adından (Vespasianus 69-79) türetilir. Bu yüzden kesinlik 'onyil' korunur, yıl kaynaktan okunmuş sayılmaz."
   },
   "kur": null,
   "ark": null,
@@ -172,8 +172,8 @@ window.SEHIR_TARIHCE_AFRIKA_MAGRIP = [
    "nicelik": "ilk_anilis",
    "kesinlik": "yil",
    "kaynak": "TDV İslâm Ansiklopedisi, 'BÛNE', https://islamansiklopedisi.org.tr/bune",
-   "tanik": "697: Hassân b. Nu'mân komutasındaki İslâm ordusu şehri fethetti",
-   "ic_not": "UYARI: bu 'ilk anılış' değil, bu oturumda doğrulanan EN ERKEN tarihli olgudur. TDV Bûne antik Hippo Regius'u (Fenike IX. yy., Kartaca, Numidya, Roma, Vandal 431) anar ama modern Bûne ile aynı yer olduğunu açıkça kurmaz; Plinius 5.22 'Hippo Regius' tanığı mevcuttur ancak Hippo harabesinin Annaba merkezine uzaklığı (≈3-4 km, ölçülmedi) kural gereği ayrı kayıt gerektirir. Antik Hippo ayrı kayıt olarak önerilir; modern Annaba için kuruluş tanığı bulunamadı."
+   "tanik": "Iustinianos’un 533’te tekrar Bizans hâkimiyetine soktuğu şehir 697 yılında Hassân b. Nu‘mân kumandasındaki İslâm ordusu tarafından fethedildi.",
+   "ic_not": "UYARI: bu 'ilk anılış' değil, bu oturumda doğrulanan EN ERKEN tarihli olgudur. TDV Bûne antik Hippo Regius'u (Fenike IX. yy., Kartaca, Numidya, Roma, Vandal 431) anar ama modern Bûne ile aynı yer olduğunu açıkça kurmaz; Plinius 5.22 'Hippo Regius' tanığı mevcuttur ancak Hippo harabesinin Annaba merkezine uzaklığı (≈3-4 km, ölçülmedi) kural gereği ayrı kayıt gerektirir. Antik Hippo ayrı kayıt olarak önerilir; modern Annaba için kuruluş tanığı bulunamadı. Tanık kontrolü: birebir TDV BÛNE cümlesi; yıl (697) cümlededir ama şehir adı aynı cümlede yoktur, 'şehir' diye geçer. Ad paragrafın başında (Bugünkü adı Annâbe olan şehir ... Bûne adı) açıkça verilir ve 431/533/697 cümlelerinde özne kesintisiz 'şehir'dir; ada en yakın cümle 4 cümle öncedir, iki cümlelik tanıkla kapatılamaz. | KARAR (EMRELIC/UMIT 17 Kasim 1116): madde konusu sehir, ozne zamir/anlati; tanik kabul, kesinlik kalir (LAB Hwange ortak kurali)."
   },
   "kur": null,
   "ark": null,
@@ -245,8 +245,8 @@ window.SEHIR_TARIHCE_AFRIKA_MAGRIP = [
    "nicelik": "kurulus",
    "kesinlik": "yil",
    "kaynak": "TDV İslâm Ansiklopedisi, 'BİCÂYE', https://islamansiklopedisi.org.tr/bicaye",
-   "tanik": "457/1065 Hammâdî hükümdarı Nâsır b. Alennâs Saldae'nin güneyinde yeni şehir kurdu",
-   "ic_not": "TDV: önce 'Nâsıriye' adı verildi, halk Bicâye adını sürdürdü; 461/1068-69'da başkent oldu. Antik Saldae (Vandal 439, Müslüman 708) yakın ama ayrı yerleşimdir (modern Béjaïa'dan ≈2-3 km, ölçülmedi)."
+   "tanik": "Hammâdî emîrlerinin beşincisi Nâsır b. Alennâs (1062-1089) Saldae’nin güneyine yeni bir şehir kurdu (457/1065) ve burasını kendine başkent yaptı (461/1068-69).",
+   "ic_not": "TDV: önce 'Nâsıriye' adı verildi, halk Bicâye adını sürdürdü; 461/1068-69'da başkent oldu. Antik Saldae (Vandal 439, Müslüman 708) yakın ama ayrı yerleşimdir (modern Béjaïa'dan ≈2-3 km, ölçülmedi). Tanık kontrolü: birebir TDV BİCÂYE cümlesi; yıl cümlede, ama Bicâye adı aynı cümlede değil ('yeni bir şehir'). Ad aynı paragrafta 4 cümle sonra ('halk ... Bicâye’yi kullanagelmiştir') gelir ve yeni şehir = Bicâye bağı kesintisizdir; iki cümlelik tanıkla kapatılamadı. | KARAR (EMRELIC/UMIT 17 Kasim 1116): madde konusu sehir, ozne zamir/anlati; tanik kabul, kesinlik kalir (LAB Hwange ortak kurali)."
   },
   "kur": null,
   "ark": null,
@@ -322,8 +322,8 @@ window.SEHIR_TARIHCE_AFRIKA_MAGRIP = [
    "nicelik": "kurulus",
    "kesinlik": "yil",
    "kaynak": "TDV İslâm Ansiklopedisi, 'FAS (Fes şehri)', https://islamansiklopedisi.org.tr/fas--fas",
-   "tanik": "172 (789) I. İdrîs nehrin sağ yakasında Medînetü Fâs'ı kurdu",
-   "ic_not": "TDV bunu 'bazı rivayetlere göre' diye hedge'ler; Ebû Ubeyd el-Bekrî Endülüs ve Karaviyyîn mahallelerinin kuruluşunu II. İdrîs zamanında 192/808 ve 193/809 diye verir. Aralık veren kaynakta güvenli uç alınırsa kuruluş 809'a kayabilir; TDV'nin ilk ifadesi 789 olduğundan o alındı, çelişki beyan edilir."
+   "tanik": "Bazı müellifler de şehrin yarısını I. İdrîs’in ırmağın sağ kıyısına ve 172’de (789) Medînetü Fâs adıyla, diğer yarısını da bundan yirmi yıl sonra oğlu II. İdrîs’in ırmağın sol kıyısına ve Aliyye adıyla kurduğunu ileri sürmektedirler.",
+   "ic_not": "TDV bunu 'bazı rivayetlere göre' diye hedge'ler; Ebû Ubeyd el-Bekrî Endülüs ve Karaviyyîn mahallelerinin kuruluşunu II. İdrîs zamanında 192/808 ve 193/809 diye verir. Aralık veren kaynakta güvenli uç alınırsa kuruluş 809'a kayabilir; TDV'nin ilk ifadesi 789 olduğundan o alındı, çelişki beyan edilir. Tanık TDV FAS tam gövdesinden birebir alındı (önceki tanık parafraz idi); cümle yıl (172/789) ve şehir adını (Medînetü Fâs) taşır. Bu bilgi 'bazı müellifler' rivayetidir; Bekrî'ye göre Endülüs/Karaviyyîn mahalleleri 192 (808) ve 193 (809), aynı maddenin bir önceki cümlesinde."
   },
   "kur": null,
   "ark": null,
@@ -453,8 +453,8 @@ window.SEHIR_TARIHCE_AFRIKA_MAGRIP = [
    "nicelik": "kurulus",
    "kesinlik": "yil",
    "kaynak": "TDV İslâm Ansiklopedisi, 'KAYREVAN', https://islamansiklopedisi.org.tr/kayrevan",
-   "tanik": "50 (670) Emevî valisi Ukbe b. Nâfi‘ şehri kurdu",
-   "ic_not": "Atlas Kayrevan'ı 0670-01-01'de emevi ile başlatıyor; ilk gün çakışır, bu yüzden zincir boş (ilk.t = atlas başlangıcı)."
+   "tanik": "Kayrevân / Kayruvân adı Farsça kārîvân / kârbân / kârvân (kervan, kafile) kelimesinin (Steingass, s. 947, 1003) “ordu, ordugâh” anlamını da kazandıktan sonra Arapçalaşmış şeklidir (Lane, VII, 2577). Şehre bu adın verilmesi, Emevîler’in İfrîkıye valisi Ukbe b. Nâfi‘ tarafından 50 (670) yılında, bölgede yaşayan halkı kontrol etmek ve gerçekleştirilen fetihlerin kalıcılığını sağlamak için ordunun bir hareket ve ikmal üssü olarak kurulması sebebiyledir.",
+   "ic_not": "Atlas Kayrevan'ı 0670-01-01'de emevi ile başlatıyor; ilk gün çakışır, bu yüzden zincir boş (ilk.t = atlas başlangıcı). İki cümlelik tanık: yıl (50/670) ikinci cümlede, şehir adı (Kayrevân) birinci cümlede; ikinci cümle 'Şehre' ile birinciye bağlanır (TDV KAYREVAN, madde girişi)."
   },
   "kur": null,
   "ark": null,
@@ -609,8 +609,8 @@ window.SEHIR_TARIHCE_AFRIKA_MAGRIP = [
    "nicelik": "kurulus",
    "kesinlik": "gun",
    "kaynak": "TDV İslâm Ansiklopedisi, 'MEHDİYE (Tunus)', https://islamansiklopedisi.org.tr/mehdiye--tunus",
-   "tanik": "921 (308 h.) Ubeydullah el-Mehdî şehri tamamladı",
-   "ic_not": "TDV şehrin 20 Şubat 921'de Fâtımî halifesi Ubeydullah el-Mehdî tarafından 'tamamlandığını' (inşasının bittiğini) söyler; 'kuruluş' günü olarak alındı, inşaatın başlangıcı farklı olabilir. Jülyen (1582 öncesi). Antik/Fenike kökenli (Pliny'deki Gightis vb.) yerleşim bu oturumda ilişkilendirilmedi."
+   "tanik": "İnşası 8 Şevval 308 (20 Şubat 921) tarihinde tamamlanan şehir Şiîler için güvenli bir sığınak olmuştu.",
+   "ic_not": "TDV şehrin 20 Şubat 921'de Fâtımî halifesi Ubeydullah el-Mehdî tarafından 'tamamlandığını' (inşasının bittiğini) söyler; 'kuruluş' günü olarak alındı, inşaatın başlangıcı farklı olabilir. Jülyen (1582 öncesi). Antik/Fenike kökenli (Pliny'deki Gightis vb.) yerleşim bu oturumda ilişkilendirilmedi. Tanık kontrolü: birebir TDV MEHDİYE cümlesi (gün 20 Şubat 921 cümlede); şehir adı aynı cümlede yok ('şehir'). Ad aynı paragrafta 4 cümle önce ('Mehdiye’nin temellerini attı', yılsız) geçer; aradaki cümleler adsız olduğundan iki cümlelik tanıkla kapatılamadı. Maddenin başka hiçbir cümlesi Mehdiye adı ile 308/921'i birlikte taşımaz. | KARAR (EMRELIC/UMIT 17 Kasim 1116): madde konusu sehir, ozne zamir/anlati; tanik kabul, kesinlik kalir (LAB Hwange ortak kurali)."
   },
   "kur": null,
   "ark": null,
@@ -801,8 +801,8 @@ window.SEHIR_TARIHCE_AFRIKA_MAGRIP = [
    "nicelik": "kurulus",
    "kesinlik": "yil",
    "kaynak": "TDV İslâm Ansiklopedisi, 'VEHRÂN', https://islamansiklopedisi.org.tr/vehran",
-   "tanik": "290 (903) Mağrâve kabilesi, Endülüs Emevî emîri adına kurdu",
-   "ic_not": "TDV: Endülüs Emevî hükümdarı Abdullah b. Muhammed'e hizmet eden Mağrâve kabilesi mensuplarınca kuruldu. Hicrî 290 = 902-12-?? ile 903 arasındadır; TDV'nin miladî yılı 903 alındı. Daha erken (Roma/Fenike) bir yerleşim kaynakta bulunamadı."
+   "tanik": "Vehrân, Endülüs Emevî Hükümdarı Abdullah b. Muhammed’in hizmetindeki Mağrâve kabilesi mensupları tarafından 290 (903) yılında kuruldu.",
+   "ic_not": "TDV: Endülüs Emevî hükümdarı Abdullah b. Muhammed'e hizmet eden Mağrâve kabilesi mensuplarınca kuruldu. Hicrî 290 = 902-12-?? ile 903 arasındadır; TDV'nin miladî yılı 903 alındı. Daha erken (Roma/Fenike) bir yerleşim kaynakta bulunamadı. Tanık TDV VEHRÂN tam gövdesinden birebir alındı; cümle şehir adı (Vehrân) ve yılı (290/903) taşır."
   },
   "kur": null,
   "ark": null,
@@ -990,8 +990,8 @@ window.SEHIR_TARIHCE_AFRIKA_MAGRIP = [
    "nicelik": "kurulus",
    "kesinlik": "yil",
    "kaynak": "TDV İslâm Ansiklopedisi, 'SEFÂKUS', https://islamansiklopedisi.org.tr/sefakus",
-   "tanik": "235/849 Ağlebî hükümdarı I. Muhammed zamanında kuruldu",
-   "ic_not": "TDV, Vandal (442) ve Bizans (533) ele geçirmelerini de anar; yani 849 öncesi bir yerleşim (antik Taparura) olabilir, ancak TDV '849'da kuruldu' der ve antik yerleşimle aynı yer olduğunu kurmaz. Antik tanık bu oturumda aranmadı. Kadı Ali b. Sâlim el-Cibinyânî Ulucami'yi yaptırıp şehri kerpiç surla çevirdi."
+   "tanik": "Bugünkü Sefâkus, Ağlebî Hükümdarı I. Muhammed zamanında 235’te (849), Roma dönemi yerleşim merkezlerinden Tâbârûra ve Tîne köylerinin yıkıntılarının bulunduğu yerde kuruldu.",
+   "ic_not": "TDV, Vandal (442) ve Bizans (533) ele geçirmelerini de anar; yani 849 öncesi bir yerleşim (antik Taparura) olabilir, ancak TDV '849'da kuruldu' der ve antik yerleşimle aynı yer olduğunu kurmaz. Antik tanık bu oturumda aranmadı. Kadı Ali b. Sâlim el-Cibinyânî Ulucami'yi yaptırıp şehri kerpiç surla çevirdi. Tanık TDV SEFÂKUS tam gövdesinden birebir alındı; cümle şehir adı (Sefâkus) ve yılı (235/849) taşır."
   },
   "kur": null,
   "ark": null,
@@ -1332,8 +1332,8 @@ window.SEHIR_TARIHCE_AFRIKA_MAGRIP = [
    "nicelik": "kurulus",
    "kesinlik": "yuzyil",
    "kaynak": "TDV İslâm Ansiklopedisi, 'TİLİMSÂN', https://islamansiklopedisi.org.tr/tilimsan",
-   "tanik": "II. yüzyılda Romalılar Agādîr'i kurup Pomaria adını verdi",
-   "ic_not": "TDV: Romalılar bugünkü şehrin yakınında Agādîr'i kurdu ('Pomaria'). Yer, modern Tilimsân'dan ayrı (Agādîr/Tagrart ikili yerleşimi) olabilir; mesafe ölçülmedi. Aralık veren kaynakta güvenli uç alındı (2. yüzyılın sonu, 0200). Atlasın 0040 roma-imp başlangıcı bu tarihten önce olduğundan kaynaksızdır; zincir yazılmadı."
+   "tanik": "Agādîr, Tagrart, Cidâr, Tilimsân ve Mansûre’den Tilimsân dışındakiler tarihî birer adlandırma şeklinde kalmıştır. En eski çağlardan beri yerleşim yeri olduğu anlaşılan bölgede Romalılar II. yüzyılda bugünkü şehrin yakınındaki Agādîr’i kurdular ve buraya Latince “bahçeler” anlamında Pomaria adını verdiler.",
+   "ic_not": "TDV: Romalılar bugünkü şehrin yakınında Agādîr'i kurdu ('Pomaria'). Yer, modern Tilimsân'dan ayrı (Agādîr/Tagrart ikili yerleşimi) olabilir; mesafe ölçülmedi. Aralık veren kaynakta güvenli uç alındı (2. yüzyılın sonu, 0200). Atlasın 0040 roma-imp başlangıcı bu tarihten önce olduğundan kaynaksızdır; zincir yazılmadı. İki cümlelik tanık: Tilimsân adı birinci cümlede, yüzyıl (II.) ikinci cümlede. Kaynak Agādîr'in 'bugünkü şehrin yakınında' kurulduğunu söyler; yani ikinci cümle aynı yerleşimi değil yakınındakini anlatır, bu belirsizlik yukarıdaki ic_not'ta zaten beyanlıdır."
   },
   "kur": null,
   "ark": null,
@@ -1474,14 +1474,22 @@ window.SEHIR_TARIHCE_AFRIKA_MAGRIP = [
   ],
   "ilk": {
    "t": "0643-01-01",
-   "gun": "643 (22 h.)",
+   "gun": "22 h. (643)",
    "nicelik": "ilk_anilis",
-   "kesinlik": "yil",
+   "kesinlik": "belirsiz",
    "kaynak": "TDV İslâm Ansiklopedisi, 'TRABLUSGARP', https://islamansiklopedisi.org.tr/trablusgarp",
-   "tanik": "643: Amr b. el-As bir aylık kuşatmanın ardından şehri fethetti",
-   "ic_not": "UYARI: bu 'ilk anılış' değil, bu oturumda doğrulanan EN ERKEN tarihli olgudur. Antik Oea (Fenike/Yunan/Roma) tanığı bulunamadı/doğrulanamadı (Plinius 5.25'in Wikisource metninde Oea geçmiyor; Tripolis adı kontrol edilemedi). İlk anılış ARANACAK. Atlasın -0045 roma-cumhuriyeti başlangıcı kaynaksızdır."
+   "tanik": "İslâm fetihleri sırasında Bizans hâkimiyetinde önemli bir liman şehri durumundaki Trablusgarp, Hz. Ömer döneminde Mısır fâtihi Amr b. Âs tarafından 22 (643) yılında bir aylık kuşatmanın ardından fethedildi.",
+   "ic_not": "UYARI: bu 'ilk anılış' değil, bu oturumda doğrulanan EN ERKEN tarihli olgudur. Antik Oea (Fenike/Yunan/Roma) tanığı bulunamadı/doğrulanamadı (Plinius 5.25'in Wikisource metninde Oea geçmiyor; Tripolis adı kontrol edilemedi). İlk anılış ARANACAK. Atlasın -0045 roma-cumhuriyeti başlangıcı kaynaksızdır. Tanık TDV TRABLUSGARP tam gövdesinden birebir cümle olarak alındı (önceki tanık kısaltmaydı; şehir adı eksikti). Not: aynı maddede daha erken tarihli bir cümle vardır: 'Trablusgarp şehri milâttan önce VII. yüzyılda burayı Oea diye isimlendiren Fenikeliler tarafından tesis edildi.' Bu kayıt bu görevde değiştirilmedi; ilk.t yeniden değerlendirilebilir. | KARAR (EMRELIC/UMIT 17 Kasim 1116): TDV kurulusu MO VII. yy. (Oea) verir, kur alanina yazildi. ilk.t 643 'ilk Arap fethi' = bilinen en erken YAZILI olgu, gercek ilk anilis degil; kesinlik 'belirsiz'. Gercek ilk anilis (antik Oea/Tripolis tanigi) aranacak."
   },
-  "kur": null,
+  "kur": {
+   "t": "-0600-01-01",
+   "gun": "MÖ 601",
+   "nicelik": "kurulus",
+   "kesinlik": "yuzyil",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'TRABLUSGARP', https://islamansiklopedisi.org.tr/trablusgarp",
+   "tanik": "Trablusgarp şehri milâttan önce VII. yüzyılda burayı Oea diye isimlendiren Fenikeliler tarafından tesis edildi.",
+   "ic_not": "TDV: MÖ VII. yy. (yüzyıl hassasiyeti; güvenli uç MÖ 601 = -0600). Fenike Oea. Sahip zinciri bu dönem için yazılmadı (kaynaklı devlet zinciri yok)."
+  },
   "ark": null,
   "bit": null,
   "sahip": [],

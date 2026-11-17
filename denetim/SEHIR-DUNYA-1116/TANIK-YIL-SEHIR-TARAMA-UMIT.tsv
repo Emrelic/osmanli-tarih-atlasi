@@ -1,0 +1,52 @@
+dosya	id	yol	eksik	kesinlik	ilk_t	tanik
+afrika_misir	aswan	ilk.tanik	TANIK YOK	yil	0640-01-01	
+afrika_misir	fustat	ilk.tanik	yil yok	yil	0643-01-01	eski Babilon civarında bölgedeki ilk İslâm şehri olan Fustat'ı kurdu
+afrika_magrip	algiers-dz	ilk.tanik	yil yok	onyil	0079-01-01	itemque a Vespasiano Imperatore eodem munere donatum Icosium
+afrika_magrip	annaba-dz	ilk.tanik	sehir adi yok	yil	0697-01-01	697: Hassân b. Nu'mân komutasındaki İslâm ordusu şehri fethetti
+afrika_magrip	bicaye-dz	ilk.tanik	sehir adi yok	yil	1065-01-01	457/1065 Hammâdî hükümdarı Nâsır b. Alennâs Saldae'nin güneyinde yeni şehir kurdu
+afrika_magrip	fes-ma	ilk.tanik	yil+sehir ayni cumlede degil	yil	0789-01-01	172 (789) I. İdrîs nehrin sağ yakasında Medînetü Fâs'ı kurdu
+afrika_magrip	kayravan-tn	ilk.tanik	sehir adi yok	yil	0670-01-01	50 (670) Emevî valisi Ukbe b. Nâfi‘ şehri kurdu
+afrika_magrip	mehdiye-tn	ilk.tanik	sehir adi yok	gun	0921-02-20	921 (308 h.) Ubeydullah el-Mehdî şehri tamamladı
+afrika_magrip	oran-dz	ilk.tanik	sehir adi yok	yil	0903-01-01	290 (903) Mağrâve kabilesi, Endülüs Emevî emîri adına kurdu
+afrika_magrip	rabat-ma	ilk.tanik	sehir adi yok	yil	1150-01-01	545 (1150) Abdülmü'min eski ribât yerinde askerî kamp kurdurdu
+afrika_magrip	sfax-tn	ilk.tanik	sehir adi yok	yil	0849-01-01	235/849 Ağlebî hükümdarı I. Muhammed zamanında kuruldu
+afrika_magrip	tanca-ma	ilk.tanik	yil yok	onyil	0079-01-01	nunc est Tingi, quondam ab Antaeo conditum
+afrika_magrip	tlemcen-dz	ilk.tanik	yil yok	yuzyil	0200-01-01	II. yüzyılda Romalılar Agādîr'i kurup Pomaria adını verdi
+afrika_magrip	tripoli-ly	ilk.tanik	sehir adi yok	yil	0643-01-01	643: Amr b. el-As bir aylık kuşatmanın ardından şehri fethetti
+afrika_magrip2	benghazi-ly	ilk.tanik	sehir adi yok	onyil	1470-01-01	Şehrin tekrar bir yerleşim merkezi olarak ortaya çıkmasının 1470 yıllarına rastladığı tahmin edilmektedir
+afrika_magrip2	constantine-dz	ilk.tanik	sehir adi yok	yil	0311-01-01	311 yılında geçirdiği büyük yıkımdan sonra burayı tekrar imar eden Roma İmparatoru
+afrika_magrip2	murzuk-ly	ilk.tanik	yil yok	yuzyil	1600-01-01	Bugünkü Merzûk'u kurarak merkez yapan evlâd-ı Muhammed
+adalar_ek	bomarsund-ax	ilk.tanik	sehir adi yok	yil	1830-01-01	själva byggandet kom i gång 1830
+adalar_ek	kastelholm-ax	ilk.tanik	sehir adi yok	yil	1388-01-01	omnämns första gången 1388
+adalar_ek	mariehamn-ax	ilk.tanik	sehir adi yok	yil	1861-01-01	blev stad 1861
+adalar_ek	saltvik-ax	ilk.tanik	sehir adi yok	yil	1322-01-01	Socken omtalas första gången 1322.
+kuzey_avrupa_1	drammen-no	ilk.tanik	TANIK YOK	yil	1715-01-01	
+kuzey_avrupa_1	karlskrona-se	ilk.tanik	yil+sehir ayni cumlede degil	yil	1680-01-01	Karlskrona blev anlagt af Karl 11. i 1680 som flådestation
+kuzey_avrupa_1	randers-dk	ilk.tanik	TANIK YOK	belirsiz	1086-01-01	
+kuzey_avrupa_1	soro-dk	ilk.tanik	sehir adi yok	yil	1622-01-01	Christian 4. i 1622 gav befaling om opførelse af otte store bygninger udenfor Klosterporten.
+kuzey_avrupa_1	svendborg-dk	ilk.tanik	sehir adi yok	yil	1229-01-01	"Byen nævnes første gang i 1229 i ""morgengavebrevet"""
+kuzey_avrupa_1	vadso-no	ilk.tanik	sehir adi yok	yuzyil	1599-01-01	Allerede på 1500-tallet var det her et stort fiskevær med egen kirke.
+kuzey_avrupa_2	akureyri-is	ilk.tanik	sehir adi yok	yuzyil	1599-01-01	sidst i 1500-tallet
+kuzey_avrupa_2	bodo-no	ilk.tanik	TANIK YOK	yil	1816-01-01	
+kuzey_avrupa_2	falun-se	ilk.tanik	sehir adi yok	yil	1641-01-01	fik først stadsprivilegier i 1641
+kuzey_avrupa_2	hamar-no	ilk.tanik	sehir adi yok	yil	1152-01-01	blev i 1152 bispesæde
+kuzey_avrupa_2	hameenlinna-fi	ilk.tanik	sehir adi yok	yuzyil	1299-01-01	der den eldste delen er fra 1200-tallet
+kuzey_avrupa_2	harnosand-se	ilk.tanik	sehir adi yok	yil	1585-01-01	Den blev grundlagt i 1585
+kuzey_avrupa_2	kalmar-se	ilk.tanik	sehir adi yok	belirsiz	1200-01-01	nævnes som by omkring 1200 med en fast borg
+kuzey_avrupa_2	karlstad-se	ilk.tanik	sehir adi yok	yil	1584-01-01	bebyggelsen fik i 1584 byprivilegier og navn af hertug Karl
+kuzey_avrupa_2	kuopio-fi	ilk.tanik	sehir adi yok	yil	1552-01-01	mellom 1549 og 1552
+kuzey_avrupa_2	linkoping-se	ilk.tanik	sehir adi yok	yuzyil	1199-01-01	Stedet blev et kirkeligt centrum i 1100-t.
+kuzey_avrupa_2	lulea-se	ilk.tanik	sehir adi yok	yil	1649-01-01	i 1649 udbyggede en ny bydel nærmere ved havet
+kuzey_avrupa_2	mikkeli-fi	ilk.tanik	sehir adi yok	yil	1838-01-01	byen ble kjøpstad fra 1838
+kuzey_avrupa_2	molde-no	ilk.tanik	TANIK YOK	yil	1742-01-01	
+kuzey_avrupa_2	moss-no	ilk.tanik	TANIK YOK	yil	1720-01-01	
+kuzey_avrupa_2	nykoping-se	ilk.tanik	TANIK YOK	onyil	1289-01-01	
+kuzey_avrupa_2	orebro-se	ilk.tanik	yil yok; sehir adi yok	yuzyil	1299-01-01	et befæstet tårn på stedet
+kuzey_avrupa_2	ostersund-se	ilk.tanik	sehir adi yok	yil	1786-01-01	The city was founded in 1786
+kuzey_avrupa_2	oulu-fi	ilk.tanik	sehir adi yok	yil	1605-01-01	ble grunnlagt i 1605 av Karl 9.
+kuzey_avrupa_2	skien-no	ilk.tanik	TANIK YOK	yil	1184-01-01	
+kuzey_avrupa_2	tonsberg-no	ilk.tanik	TANIK YOK	yuzyil	0999-01-01	
+kuzey_avrupa_2	trondheim-no	ilk.tanik	TANIK YOK	belirsiz	0997-01-01	
+kuzey_avrupa_2	turku-fi	ilk.tanik	sehir adi yok	yil	1229-01-01	The city was founded in 1229
+kuzey_avrupa_2	vaxjo-se	ilk.tanik	sehir adi yok	yil	1170-01-01	Som bispesæde fra 1170
+kuzey_avrupa_ayri	vanha-vaasa-fi	ilk.tanik	sehir adi yok	yil	1606-01-01	Byen blev grundlagt i 1606 af Karl 9.

@@ -16,7 +16,9 @@ window.SEHIR_TARIHCE_AFRIKA_MISIR = [
    "gun": "640",
    "nicelik": "ilk_anilis",
    "kesinlik": "yil",
-   "kaynak": "TDV ASVAN (İdris Bostan), TDV İslâm Ansiklopedisi c. 3, s. 506, https://islamansiklopedisi.org.tr/asvan: Müslümanların Mısır'ı fethiyle (640) Asvan Nûbe devletine karşı sınır kalesi oldu"
+   "kaynak": "TDV ASVAN (İdris Bostan), TDV İslâm Ansiklopedisi c. 3, s. 506, https://islamansiklopedisi.org.tr/asvan: Müslümanların Mısır'ı fethiyle (640) Asvan Nûbe devletine karşı sınır kalesi oldu",
+   "tanik": "Asvan Mısır’ın 640’ta müslümanlar tarafından fethinden sonra Nübye Devleti’ne karşı bir sınır kalesi oldu ve X. yüzyıla kadar Nübyeliler ile bedevî kabilelerin akınlarına mâruz kaldı.",
+   "ic_not": "Tanık (TANIK-YIL-SEHIR taraması): TDV ASVAN tam gövdesinden birebir eklendi; cümle şehir adı (Asvan) ve yılı (640) aynı cümlede taşır. 640 fetih yılıdır, Asvan'ın ilk anılışı değildir (aynı madde Strabon'u anar)."
   },
   "kur": null,
   "ark": null,
@@ -305,7 +307,8 @@ window.SEHIR_TARIHCE_AFRIKA_MISIR = [
    "nicelik": "kurulus",
    "kesinlik": "yil",
    "kaynak": "TDV KAHİRE 1. bölüm (Eymen Fuâd Seyyid), https://islamansiklopedisi.org.tr/kahire; hicrî 22 ∩ 643, çeviri: tablo takvimi, Jülyen (kesişimin ilk günü)",
-   "tanik": "eski Babilon civarında bölgedeki ilk İslâm şehri olan Fustat'ı kurdu"
+   "tanik": "Hz. Ömer zamanında Mısır’ı fetheden Amr b. Âs, eski Babilon civarında bölgedeki ilk İslâm şehri olan Fustat’ı kurdu (22/643).",
+   "ic_not": "Tanık TDV KAHİRE tam gövdesinden birebir cümle olarak yeniden alındı (önceki tanık cümlenin kısaltılmış parçasıydı; yıl parantezi eksikti)."
   },
   "kur": {
    "t": "0643-01-01",
