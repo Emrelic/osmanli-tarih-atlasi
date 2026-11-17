@@ -4768,7 +4768,8 @@ window.SEHIR_TARIHCE_OSM = [
    "nicelik": "ilk_anilis",
    "kesinlik": "yuzyil",
    "kaynak": "C. Peust, Die Toponyme vorarabischen Ursprungs im modernen Ägypten (GM Beihefte 8, Göttingen 2010) s. 91–92 (Ramzî II/3:155-157 aktarımı)",
-   "tanik": "seit dem 15. Jhdt. die heutige Schreibung gebraucht wird"
+   "tanik": "seit dem 15. Jhdt. die heutige Schreibung gebraucht wird",
+   "ic_not": "UMIT 17 Kasim 2026 ek tarama: M. Ramzi, el-Kamusu'l-cografi I ('Bufisiya' md., ar.wikisource) Tuhfe s.172'de 'Manfaswaih' yerlesimini teyit eder; Peust ile ayni kaynak zinciri; 'Bufisia' esitlemesi Ramzi'nin tarihsiz cikarimidir. 1281 oncesi TARIHLI tanik BULUNAMADI (ilk.t 1500 yuzyil duzeyi kalir). Atlas baslangicinin (1281) yeniden olculmesi KASA'da."
   },
   "kur": null,
   "ark": null,
@@ -11016,7 +11017,8 @@ window.SEHIR_TARIHCE_OSM = [
    "nicelik": "ilk_anilis",
    "kesinlik": "yil",
    "kaynak": "TDV HEVVÂRE (İ. Harekât – A. Kavas); hicrî 798 ∩ 1396, çeviri: tablo takvimi, Jülyen",
-   "tanik": "bölgeye Circe Hevvâreleri’nden bir grup askerle yeni nâib gönderildi"
+   "tanik": "bölgeye Circe Hevvâreleri’nden bir grup askerle yeni nâib gönderildi",
+   "ic_not": "UMIT 17 Kasim 2026: TDV HEVVARE 'Cirge Hevvareleri'ne yeni naib gonderildi' hicri 798 ∩ 1396 (hicri 798 ∩ miladi 1396 kesisiminin ilk gunu 1396-01-01, yil duzeyi); DOGU-BORC-4 raporuna gore TDV maddesi 1380 de anar (baglami bu oturumda yeniden okunmadi): ilk.t 1396 kaynakli en erken yazili tanik, kurulus degildir. Atlas baslangicinin (1281) 1380-1396 oncesi sahipsiz/yersiz kalan bolgesi KASA'da olculuyor; tarihcede yazilabilecek kaynakli sahip zinciri yok."
   },
   "kur": {
    "t": "1380-04-07",
@@ -24019,7 +24021,8 @@ window.SEHIR_TARIHCE_OSM = [
    "nicelik": "kurulus",
    "kesinlik": "gun",
    "kaynak": "TDV PORT SAİD (H. Görgün): çekirdek 1859'da kanal işçileri için kurulan baraka köyü; gün: EB1911 'Suez Canal' (Wikisource): inşaat 25 Nisan 1859'da başladı",
-   "tanik": "On the 25th of April 1859 the work of construction was formally begun"
+   "tanik": "On the 25th of April 1859 the work of construction was formally begun",
+   "ic_not": "UMIT 17 Kasim 2026: ilk.t 1859-04-25 = atlas baslangici ile ayni gun; zincir kural geregi bos, sorun yok. TDV PORT SAID cekirdegi 1859'da kanal iscileri icin kurulan baraka koyu olarak yazar."
   },
   "kur": {
    "t": "1859-04-25",
@@ -24597,7 +24600,8 @@ window.SEHIR_TARIHCE_OSM = [
    "nicelik": "kurulus",
    "kesinlik": "yil",
    "kaynak": "ARCE (American Research Center in Egypt), Quseir Fort projesi; Ch. Le Quesne, Quseir: An Ottoman and Napoleonic Fortress on the Red Sea Coast of Egypt (ARCE/AUC 2007) — kitap okunmadı",
-   "tanik": "the Ottomans founded a new harbor and fort in 1571"
+   "tanik": "the Ottomans founded a new harbor and fort in 1571",
+   "ic_not": "UMIT 17 Kasim 2026: ARCE/Le Quesne 'Ottomans founded a new harbor and fort in 1571' = Osmanli YENI liman ve kale (Kuseyr el-Cedid); Kuseyr el-Kadim (ortacag Mem. limani) yaklasik 8 km kuzeyde ayri yerlesimdir (KASA A'da olculuyor). 1571 kurulus tarihi yeni yerlesime aittir; atlas baslangicinin (1281) duzeltilmesi KASA'da; tarihcede yazilabilecek kaynakli zincir yok."
   },
   "kur": {
    "t": "1571-01-01",
@@ -27793,7 +27797,8 @@ window.SEHIR_TARIHCE_OSM = [
    "nicelik": "ilk_anilis",
    "kesinlik": "yil",
    "kaynak": "M. Ramzî, el-Kāmûsü'l-coğrafî li'l-bilâdi'l-Mısriyye, I. kısım (Arapça Vikikaynak metni), komşu köy maddeleri: 1897 nüfus sayımı coğrafya sözlüğünde 'Şibînülkûm merkezi' nahiyeleri",
-   "tanik": "القاموس الجغرافي لإحصاء سنة ۱۸۹۷ ضمن نواحي مركز شبين الكوم"
+   "tanik": "القاموس الجغرافي لإحصاء سنة ۱۸۹۷ ضمن نواحي مركز شبين الكوم",
+   "ic_not": "UMIT 17 Kasim 2026: 1897 = Ramzi'nin kamusunda 1897 sayim yilina atif; yerlesimin ilk anilisi DEGIL, yalniz en erken tarihli bu oturumda okunan tanik. 1281 oncesi tarihli tanik aranmadi (Ramzi II/2 yalniz PDF; indirme yasagi): BORC. Atlas baslangicinin yeniden olculmesi KASA'da."
   },
   "kur": null,
   "ark": null,
