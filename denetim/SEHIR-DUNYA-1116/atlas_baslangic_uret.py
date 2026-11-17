@@ -22,8 +22,10 @@ for f, ad in (('hint', 'hint'), ('orta_asya', 'orta-asya'), ('afrika_gb', 'afrik
         ilk = x['ilk']['t']
         try: fark = st.gun_no(atlas[a][0]) - st.gun_no(ilk)
         except Exception: continue
-        if fark > 400:   # >1 yıl (365 gün + artık yıl payı)
-            rows.append([ad, x['id'], a, atlas[a][0], atlas[a][1] or '', ilk, round(fark / 365.25, 1), x['ilk'].get('tanik', ''), x['ilk'].get('kaynak', '')[:200], teyit(x.get('ic_not')), 'yazılı kayıt (atlas başlangıcı geri çekilmeli)'])
+        if fark > 400:   # >1 yıl (365 gün + artık yıl payı): atlas kaynak yılından GEÇ başlıyor → atlas başlangıcı geri çekilmeli
+            rows.append([ad, x['id'], a, atlas[a][0], atlas[a][1] or '', ilk, round(fark / 365.25, 1), x['ilk'].get('tanik', ''), x['ilk'].get('kaynak', '')[:200], teyit(x.get('ic_not')), 'yazılı kayıt (YÖN: atlas GEÇ → atlas başlangıcı geri çekilmeli)'])
+        elif fark < -400:  # atlas kaynak yılından ÖNCE başlıyor: şehir henüz yokken atlasta görünüyor → atlas başlangıcı ileri alınmalı/doğrulanmalı
+            rows.append([ad, x['id'], a, atlas[a][0], atlas[a][1] or '', ilk, round(fark / 365.25, 1), x['ilk'].get('tanik', ''), x['ilk'].get('kaynak', '')[:200], teyit(x.get('ic_not')), 'yazılı kayıt (YÖN: atlas ERKEN → şehir kaynak yılından önce atlasta görünüyor; atlas başlangıcı doğrulanmalı/ileri alınmalı)'])
 EL = [  # (blok, ad, atlas_ad, kaynakli_yil, tanik, kaynak, teyit, not)
  ('afrika', 'Akra (Accra)', 'Akra (Accra)', "c.1565", "Accra Circa 1565, the Portuguese built a fort.", "W. W. Claridge, A History of the Gold Coast and Ashanti (1915), Appendix F (archive.org historyofgoldcoa00clarrich, OCR)", 'tek', "kale olgusu; 1578/1580/1583/1642 tanıkları var; atlas 1650 (hollanda) → 85 yıl"),
  ('afrika', 'Freetown', 'Freetown', "1787", "Britannica 'Freetown' (tanık X10 kaydı/borç notunda)", "Encyclopaedia Britannica «Freetown»", 'tek', "atlas 1792-03-11; 5 yıl; Sharp/Sierra Leone Company özel girişim, sahip kaynağı yok"),

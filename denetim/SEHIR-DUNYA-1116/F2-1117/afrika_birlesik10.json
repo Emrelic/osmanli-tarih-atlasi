@@ -4562,5 +4562,660 @@
    }
   ],
   "ic_not": "P3-B13. Atlas noktasi yok (3 km tarandi)."
+ },
+ {
+  "id": "chegutu-zw-p3",
+  "ad": "Chegutu",
+  "atlas_ad": null,
+  "lat": -18.1302,
+  "lon": 30.1407,
+  "kat1900": 3,
+  "adlar": [
+   "Chegutu",
+   "Hartley"
+  ],
+  "ilk": {
+   "t": "1891-01-01",
+   "gun": "1891",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Chegutu', https://www.britannica.com/place/Chegutu (tarayıcıda okundu)",
+   "tanik": "it was founded in 1891 on the Umfuli River",
+   "ic_not": "TEK KAYNAK. Britannica gövdesinden (YZ özeti bloğu dışı; sayfada 'Summary created' bloğu yok). Özne zamir = madde konusu; başlık şehir (cümle: 'Named originally for Henry Hartley, ... it was founded in 1891 on the Umfuli River but about 1900 was moved 18 miles (29 km) west'). Gün yok: YYYY-01-01 + kesinlik 'yil'. DİKKAT: kuruluş yeri Umfuli kıyısındaki ilk Hartley yerleşimidir; ~1900'de 29 km batıya taşınmıştır, verilen koordinat taşınan yerdir; süreklilik kaynağın 'it' öznesine dayanır."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1891-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, 'Chegutu', https://www.britannica.com/place/Chegutu",
+    "ic_not": "BOŞLUK (atlas noktası yok): okunan Britannica gövdesinde 1891-1900 için tarihli devlet sahibi cümlesi yok; beyansız yaklaşıklık yazılmadı."
+   }
+  ],
+  "olay": [],
+  "ic_not": "P3-B16. Atlas noktası yok (3 km tarandı)."
+ },
+ {
+  "id": "middelburg-za-p3",
+  "ad": "Middelburg (Transvaal)",
+  "atlas_ad": null,
+  "lat": -25.7751,
+  "lon": 29.4648,
+  "kat1900": 2,
+  "adlar": [
+   "Middelburg",
+   "Nazareth"
+  ],
+  "ilk": {
+   "t": "1866-01-01",
+   "gun": "1866",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "South African History Online, 'Middleburg, Mpumalanga', https://sahistory.org.za/place/middleburg-mpumalanga (tarayıcıda okundu)",
+   "tanik": "in 1866 the town of Nazareth was developed on it",
+   "ic_not": "TEK KAYNAK. Cümle: 'In 1864, The Dutch Reformed Church bought the farm of Sterkfontein and in 1866 the town of Nazareth was developed on it.' Hemen sonraki cümle: 'In 1872, Nazareth was then renamed Middelburg.' Madde konusu şehir Middelburg; cümlede Nazareth adı (aynı yer) + 1866 var. Gün yok: YYYY-01-01 + kesinlik 'yil'. İkinci bağımsız kaynak okunamadı (Britannica'da Middelburg sayfası yok)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1866-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "South African History Online, 'Middleburg, Mpumalanga', https://sahistory.org.za/place/middleburg-mpumalanga",
+    "ic_not": "BOŞLUK (atlas noktası yok; Middelburg kaydı Hollanda'dadır): okunan SAHO metni 1866-1900 için tarihli devlet sahibi cümlesi vermiyor; Güney Afrika Cumhuriyeti (transvaal) olması muhtemel ama kaynakla bağlanmadı, beyansız yaklaşıklık yazılmadı."
+   }
+  ],
+  "olay": [],
+  "ic_not": "P3-B16. Atlas noktası yok (3 km tarandı; Hollanda Middelburg'u ayrı yer)."
+ },
+ {
+  "id": "franceville-ga-p3",
+  "ad": "Franceville",
+  "atlas_ad": "Fransvil (Franceville)",
+  "lat": -1.63333,
+  "lon": 13.58357,
+  "kat1900": 2,
+  "adlar": [
+   "Franceville"
+  ],
+  "ilk": {
+   "t": "1880-01-01",
+   "gun": "1880",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, «Franceville» (Britannica Editors), https://www.britannica.com/place/Franceville (tarayıcı sayfa okuma, 17 Kasım 2026; gövde, YZ özeti bloğu dışı)",
+   "tanik": "The French explorer Pierre Savorgnan de Brazza founded it in 1880"
+  },
+  "kur": {
+   "t": "1880-01-01",
+   "gun": "1880",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, «Franceville», https://www.britannica.com/place/Franceville",
+   "tanik": "The French explorer Pierre Savorgnan de Brazza founded it in 1880"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1880-01-01",
+    "t": "1880-06-13",
+    "d": "fransa-cumhuriyet",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, «Franceville»: Fransız kâşif Brazza kurdu (devlet adı verilmez); dikiş: atlas ilk sahibiyle aynı künye",
+    "ic_not": "Beyanlı dikiş: gün kaynakta yok (yıl); atlas başlangıcına (1880-06-13) <=1 yıl uzatıldı. Kaynak 'Fransız kâşif' der, devlet adı vermez; künye atlasın ilk sahibinden alındı (atlas dayanak değildir, yalnız dikiş)."
+   }
+  ],
+  "olay": [],
+  "ic_not": "TEK KAYNAK. Britannica gövdesinden (YZ özeti bloğu dışı; innerText'te görünür makale metninde doğrulandı). Tanık özne zamir 'it' = madde konusu; başlık şehir. Gün kaynakta yok: YYYY-01-01 + yil. Atlas noktası VAR; atlas başlangıcı 1880-06-13 (atlas ayrı kaynak: Pourtier 1980 BAGF), kaynak yılı 1880 ile uyumlu, <=1 yıl dikiş. Atlas başlangıç adayı yok."
+ },
+ {
+  "id": "francistown-bw-p3",
+  "ad": "Francistown",
+  "atlas_ad": null,
+  "lat": -21.17,
+  "lon": 27.50778,
+  "kat1900": 2,
+  "adlar": [
+   "Francistown"
+  ],
+  "ilk": {
+   "t": "1897-01-01",
+   "gun": "1897",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, «Botswana» (Settlement patterns), https://www.britannica.com/place/Botswana/Religion (tarayıcı sayfa okuma, 17 Kasım 2026; gövde, YZ özeti bloğu dışı)",
+   "tanik": "Francistown (1897) and Lobatse (1902), originated as small urban centers on the railway"
+  },
+  "kur": {
+   "t": "1897-01-01",
+   "gun": "1897",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, «Botswana» (Settlement patterns)",
+   "tanik": "Francistown (1897) and Lobatse (1902), originated as small urban centers on the railway"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1897-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "BOŞLUK BEYANI: Encyclopaedia Britannica, «Botswana» (Settlement patterns) kuruluş yılını verir, egemen devleti vermez; VERI-YAPISI: sahibi bilinmiyorsa __BOSLUK__ + ic_not",
+    "ic_not": "Şehir kaynak yılından itibaren VAR, kaynak 1900'e kadar sahip vermiyor; beyansız yaklaşıklık yazılmadı."
+   }
+  ],
+  "olay": [],
+  "ic_not": "TEK KAYNAK. Britannica gövdesinden (YZ özeti bloğu dışı). Tanık cümlesinde şehir adı + yıl birlikte ('Francistown (1897)'); yıl 'originated' (demiryolu kasabası olarak doğuş) olarak okundu. Çelişki: Tati Concessions arazi satışı 1897 (Botswana Society; ikincil), Greenwood yayını altın kampını 1870'lere çeker — ikisi kuruluşa değil madencilik öncesine ait; seçilmedi. Gün yok; YYYY-01-01 + yil. Atlas noktası yok. Zincir: __BOSLUK__ beyanlı."
+ },
+ {
+  "id": "gaborone-bw-p3",
+  "ad": "Gaborone",
+  "atlas_ad": null,
+  "lat": -24.65451,
+  "lon": 25.90859,
+  "kat1900": 2,
+  "adlar": [
+   "Gaberones",
+   "Gaborone"
+  ],
+  "ilk": {
+   "t": "1964-01-01",
+   "gun": "1964",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, «Botswana» (Settlement patterns), https://www.britannica.com/place/Botswana/Religion (tarayıcı sayfa okuma, 17 Kasım 2026; gövde, YZ özeti bloğu dışı)",
+   "tanik": "Gaborone, the capital city, was founded in 1964"
+  },
+  "kur": {
+   "t": "1964-01-01",
+   "gun": "1964",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, «Botswana» (Settlement patterns)",
+   "tanik": "Gaborone, the capital city, was founded in 1964"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [],
+  "ic_not": "TEK KAYNAK. Britannica gövdesinden (YZ özeti bloğu dışı). Atlas noktası yok. 1964 > 1900: 1900'e kadar zincir gerekmez (kuruluş sonrası). Not: encyclopedia.com (World Encyclopedia) 'First settled in the 1890s' der (yalnız on yıl; yıl yok, tanık değil); Gaberones köyü 1964 öncesi vardı — 1964 modern başkent şehrinin kuruluşudur. Sahip zinciri 1900 sonrası için yazılmadı (ülke dönemi atlas/devletler zincirinde)."
+ },
+ {
+  "id": "georgetown-gm-p3",
+  "ad": "Georgetown (Janjanbureh)",
+  "atlas_ad": null,
+  "lat": 13.54039,
+  "lon": -14.76374,
+  "kat1900": 3,
+  "adlar": [
+   "Georgetown",
+   "Janjanbureh"
+  ],
+  "ilk": {
+   "t": "1823-01-01",
+   "gun": "1823",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, «Georgetown» (The Gambia), https://www.britannica.com/place/Georgetown-The-Gambia (tarayıcı sayfa okuma, 17 Kasım 2026; gövde, YZ özeti bloğu dışı)",
+   "tanik": "It was founded in 1823 by Captain Alexander Grant as a settlement for freed slaves"
+  },
+  "kur": {
+   "t": "1823-01-01",
+   "gun": "1823",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, «Georgetown» (The Gambia)",
+   "tanik": "It was founded in 1823 by Captain Alexander Grant as a settlement for freed slaves"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1823-01-01",
+    "t": "1900-01-01",
+    "d": "gambiya-kolonisi",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, «MacCarthy Island», https://www.britannica.com/place/MacCarthy-Island — 'It was ceded in 1823 to Captain Alexander Grant of the African Corps, who was acting for the British crown'",
+    "ic_not": "Britannica adayı Britanya Tacı adına devralınan adada kurulmuş gösterir; künye gambiya-kolonisi (devletler.js f 1816-08-23, t 1965-02-18). 1900'e kadar sahip değişimi kaynakta yok; kesintisiz süreklilik kaynaklı değil, künye ömrüne dayanır (beyan)."
+   }
+  ],
+  "olay": [],
+  "ic_not": "TEK KAYNAK (iki Britannica maddesi aynı yayıncı; çift teyit değil). Britannica gövdesinden (YZ özeti bloğu dışı). Tanık özne zamir 'It' = madde konusu; başlık şehir. Gün yok; YYYY-01-01 + yil. Atlas noktası yok (atlastaki 'Georgetown (Stabroek)' Guyana'dır, farklı yer; koordinatla ayrıldı). Kat1900 3 varsayım: lütfen LAB doğrulasın."
+ },
+ {
+  "id": "gweru-zw-p3",
+  "ad": "Gweru",
+  "atlas_ad": "Gveru",
+  "lat": -19.45,
+  "lon": 29.8167,
+  "kat1900": 3,
+  "adlar": [
+   "iKwelo",
+   "Gwelo",
+   "Gweru"
+  ],
+  "ilk": {
+   "t": "1894-01-01",
+   "gun": "1894",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, «Gweru» (Britannica editörleri), https://www.britannica.com/place/Gweru (tarayıcı sayfa okuma, 17 Kasım 2026; Britannica gövdesinden, YZ özeti bloğu dışı)",
+   "tanik": "The modern town, founded in 1894 as a military outpost"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1894-01-01",
+    "gun": "1894",
+    "k": "diger",
+    "b": "Modern Gweru (Gwelo) kasabası askerî karakol olarak kuruldu",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, «Gweru» (Britannica editörleri), https://www.britannica.com/place/Gweru (tarayıcı sayfa okuma, 17 Kasım 2026; Britannica gövdesinden, YZ özeti bloğu dışı)",
+    "tanik": "The modern town, founded in 1894 as a military outpost"
+   }
+  ],
+  "ic_not": "ÇİFT TEYİT: The Columbia Encyclopedia 6th ed., «Gweru», https://www.encyclopedia.com/reference/encyclopedias-almanacs-transcripts-and-maps/gweru (tarayıcı sayfa okuma, includes() 17 Kasım 2026) — tanık 2: \"Founded in 1894, it is an industrial, mining, and commercial center.\" Özne zamir = madde konusu; başlık şehir (iki kaynakta da). Bağımsızlık ölçümü: ayrı yayıncı (Encyclopaedia Britannica Inc. / Columbia University Press-Gale); cümleler farklı (Britannica 'military outpost' der, Columbia yalnız 'Founded in 1894'); ortak soy/kopya kanıtı bulunmadı; ikisi de kaynakçasız ansiklopedi maddesi, ortak birincil dayanak görünmüyor — ancak ikisi de aynı kolonyal anlatıdan (kuruluş 1894) beslenmiş olabilir, bu yüzden bağımsızlık 'makul', mutlak değil. Britannica: 'Gwelo/iKwelo' adı için 'The original Matabele settlement was named iKwelo'. Nicelik 'kurulus': 'modern town' 1894; eski Matabele yerleşimi ayrıdır. Gün yok, yıl hassasiyeti. ATLAS: atlas Gweru'yu 1894-01-01'de 'ingiliz-guney-rodezya' ile başlatır; kaynak yılı atlas başlangıcıyla aynı (kaynak gün vermez; devlet kaynak cümlelerinde yok, bu yüzden sahip[] boş, atlas zinciri esastır). | Britannica gövdesinden (YZ özeti bloğu dışı)",
+  "ad_kaynak": [
+   {
+    "ad": "Gweru",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Gweru' https://www.britannica.com/place/Gweru",
+    "kanit": "Gweru, town, central Zimbabwe, on the Gweru River."
+   },
+   {
+    "ad": "Gwelo",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "The Columbia Encyclopedia 6th ed. 'Gweru' (encyclopedia.com)",
+    "kanit": "Gweru (gwā´rōō), formerly Gwelo (gwā´lō), city"
+   }
+  ]
+ },
+ {
+  "id": "gwanda-zw-p3",
+  "ad": "Gwanda",
+  "atlas_ad": "Gvanda",
+  "lat": -20.9362,
+  "lon": 29.007,
+  "kat1900": 3,
+  "adlar": [
+   "Gwanda"
+  ],
+  "ilk": {
+   "t": "1900-01-01",
+   "gun": "1900",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, «Gwanda» (Britannica editörleri), https://www.britannica.com/place/Gwanda (tarayıcı sayfa okuma, 17 Kasım 2026; Britannica gövdesinden, YZ özeti bloğu dışı)",
+   "tanik": "Gwanda was founded in 1900, and its name derives from that of a nearby hill"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1900-01-01",
+    "gun": "1900",
+    "k": "diger",
+    "b": "Gwanda kasabası kuruldu (adı yakındaki Jahunda tepesinden)",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, «Gwanda» (Britannica editörleri), https://www.britannica.com/place/Gwanda (tarayıcı sayfa okuma, 17 Kasım 2026; Britannica gövdesinden, YZ özeti bloğu dışı)",
+    "tanik": "Gwanda was founded in 1900, and its name derives from that of a nearby hill"
+   }
+  ],
+  "ic_not": "TEK KAYNAK: Britannica 'Gwanda' (ad+yıl aynı cümlede). İkinci akademik kaynak bulunamadı (encyclopedia.com'da madde yok; WebSearch özetleri ve yerel gazete/blog sayfaları doğrulama sayılmadı). Gün yok, yıl hassasiyeti. ATLAS: atlas Gwanda'yı 1900-01-01'de 'ingiliz-guney-rodezya' ile başlatır = kaynak yılı; devlet kaynak cümlesinde yok, sahip[] boş (atlas zinciri esastır). Not: B17.tsv notu '1896-97 durum' der; kuruluş yılı Britannica'ya göre 1900. | Britannica gövdesinden (YZ özeti bloğu dışı)",
+  "ad_kaynak": [
+   {
+    "ad": "Gwanda",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Gwanda' https://www.britannica.com/place/Gwanda",
+    "kanit": "Gwanda, town, southern Zimbabwe."
+   }
+  ]
+ },
+ {
+  "id": "marondera-zw-p3",
+  "ad": "Marondera",
+  "atlas_ad": null,
+  "lat": -18.1853,
+  "lon": 31.5519,
+  "kat1900": 3,
+  "adlar": [
+   "Marondera"
+  ],
+  "ilk": {
+   "t": "1890-01-01",
+   "gun": "1890",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, «Marondera» (Britannica editörleri), https://www.britannica.com/place/Marondera (tarayıcı sayfa okuma, 17 Kasım 2026; Britannica gövdesinden, YZ özeti bloğu dışı)",
+   "tanik": "It originated in 1890 as a rest house on the road from Harare"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1890-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "ic_not": "BEYANLI BOŞLUK: Britannica 1890-1900 arasında şehrin hangi devletin toprağında olduğunu söylemez (yalnız yerel Barozwi şefi anılır); sahip uydurulmadı, yaklaşıklık yazılmadı.",
+    "kesinlik": "belirsiz",
+    "kaynak": "Encyclopaedia Britannica, «Marondera» — kaynakta 'şu devletin' beyanı yok",
+    "tanik": "It originated in 1890 as a rest house on the road from Harare"
+   }
+  ],
+  "olay": [
+   {
+    "t": "1890-01-01",
+    "gun": "1890",
+    "k": "diger",
+    "b": "Marondera, Harare-Mutare yolunda bir dinlenme evi olarak ortaya çıktı (adı yerel Barozwi şefi Marondera'dan)",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, «Marondera» (Britannica editörleri), https://www.britannica.com/place/Marondera (tarayıcı sayfa okuma, 17 Kasım 2026; Britannica gövdesinden, YZ özeti bloğu dışı)",
+    "tanik": "It originated in 1890 as a rest house on the road from Harare"
+   },
+   {
+    "t": "1896-01-01",
+    "gun": "1896",
+    "k": "diger",
+    "b": "Şona direnişinde yıkıldı; 6 km kuzeye, Harare-Beira demiryolu hattına taşındı",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, «Marondera» (Britannica editörleri), https://www.britannica.com/place/Marondera (tarayıcı sayfa okuma, 17 Kasım 2026; Britannica gövdesinden, YZ özeti bloğu dışı)",
+    "tanik": "Destroyed in the Shona resistance of 1896, it was moved 4 miles (6 km) north"
+   }
+  ],
+  "ic_not": "TEK KAYNAK: Britannica 'Marondera'. Tanıklar: özne zamir 'It' = madde konusu; başlık şehir (özne zamir = madde konusu; başlık şehir). Gün yok, yıl hassasiyeti. Atlas noktası YOK: zincir 1890-01-01'den 1900-01-01'e '__BOSLUK__' — Britannica yalnız 'Barozwi şefi' ve Britanya'nın Boer Savaşı'nda 'staging point' kullandığını söyler (1899-1902, dönem yarım), şehrin 1890-1900 arasında hangi devlete ait olduğuna dair 'şu yıl şu devletin' beyanı yok; BEYANLI BOŞLUK, yaklaşıklık yazılmadı (Britanya Güney Afrika Şirketi/Rodezya idaresi olasılığı kaynaksız, sahip olarak yazılmadı). 1896'da yer 6 km kuzeye taşındı (Britannica 4 mi); modern nokta (koordinat) taşınmış yeridir. Bölge Mashonaland (B17.tsv 'NC 1896-97' notu bu kaydın dayanağı değildir). | Britannica gövdesinden (YZ özeti bloğu dışı)",
+  "ad_kaynak": [
+   {
+    "ad": "Marondera",
+    "dil": "en",
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Marondera' https://www.britannica.com/place/Marondera",
+    "kanit": "Marondera, town, northeastern Zimbabwe."
+   }
+  ]
+ },
+ {
+  "id": "huambo-ao-p3o",
+  "ad": "Huambo",
+  "atlas_ad": "Huambo (Wambu)",
+  "lat": -12.77611,
+  "lon": 15.73917,
+  "kat1900": 2,
+  "adlar": [
+   "Huambo"
+  ],
+  "ilk": {
+   "t": "1912-01-01",
+   "gun": "1912",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Huambo', https://www.britannica.com/place/Huambo (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+   "tanik": "The city was founded in 1912 by Portuguese settlers and workers on the Benguela Railway"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [],
+  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi. özne The city = madde konusu. Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01. Atlas noktasi VAR ('Huambo (Wambu)'): atlas baslangici kaynak yilindan ONCE; sahip[] bos (atlas zinciri esas), atlas baslangici duzeltilmeli (KASA)."
+ },
+ {
+  "id": "kindia-gn-p3o",
+  "ad": "Kindia",
+  "atlas_ad": null,
+  "lat": 9.70643,
+  "lon": -13.38465,
+  "kat1900": 2,
+  "adlar": [
+   "Kindia"
+  ],
+  "ilk": {
+   "t": "1904-01-01",
+   "gun": "1904",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Kindia', https://www.britannica.com/place/Kindia (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+   "tanik": "Founded in 1904 as a collecting point on the railroad"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [],
+  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi. özne gizli = madde konusu (başlık şehir). Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01."
+ },
+ {
+  "id": "kuito-ao-p3o",
+  "ad": "Kuito",
+  "atlas_ad": "Kuito (Bié)",
+  "lat": -12.38333,
+  "lon": 16.93333,
+  "kat1900": 2,
+  "adlar": [
+   "Kuito"
+  ],
+  "ilk": {
+   "t": "1890-01-01",
+   "gun": "1890",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Kuito', https://www.britannica.com/place/Kuito (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+   "tanik": "Kuito, town (founded 1890), central Angola."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [],
+  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi.  Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01. Atlas noktasi VAR ('Kuito (Bié)'): atlas baslangici kaynak yilindan ONCE; sahip[] bos (atlas zinciri esas), atlas baslangici duzeltilmeli (KASA)."
+ },
+ {
+  "id": "lokoja-ng-p3o",
+  "ad": "Lokoja",
+  "atlas_ad": "Lokoca (Lokoja)",
+  "lat": 7.79688,
+  "lon": 6.74048,
+  "kat1900": 2,
+  "adlar": [
+   "Lokoja"
+  ],
+  "ilk": {
+   "t": "1860-01-01",
+   "gun": "1860",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Lokoja', https://www.britannica.com/place/Lokoja (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+   "tanik": "in 1860 the Scottish explorer William Balfour Baikie founded Lokoja"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [],
+  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi.  Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01. Atlas noktasi VAR ('Lokoca (Lokoja)'): atlas baslangici kaynak yilindan ONCE; sahip[] bos (atlas zinciri esas), atlas baslangici duzeltilmeli (KASA)."
+ },
+ {
+  "id": "lubango-ao-p3o",
+  "ad": "Lubango",
+  "atlas_ad": "Lubango",
+  "lat": -14.91717,
+  "lon": 13.4925,
+  "kat1900": 2,
+  "adlar": [
+   "Lubango"
+  ],
+  "ilk": {
+   "t": "1885-01-01",
+   "gun": "1885",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Lubango', https://www.britannica.com/place/Lubango (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+   "tanik": "The city was originally established in 1885 as a settlement for colonists"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [],
+  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi. özne The city = madde konusu. Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01. Atlas noktasi VAR ('Lubango'): atlas baslangici kaynak yilindan ONCE; sahip[] bos (atlas zinciri esas), atlas baslangici duzeltilmeli (KASA)."
+ },
+ {
+  "id": "mamou-gn-p3o",
+  "ad": "Mamou",
+  "atlas_ad": null,
+  "lat": 10.37546,
+  "lon": -12.09148,
+  "kat1900": 2,
+  "adlar": [
+   "Mamou"
+  ],
+  "ilk": {
+   "t": "1908-01-01",
+   "gun": "1908",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Mamou', https://www.britannica.com/place/Mamou (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+   "tanik": "Mamou was founded in 1908 as a collecting point on the railroad from Conakry"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [],
+  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi.  Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01."
+ },
+ {
+  "id": "mariental-na-p3o",
+  "ad": "Mariental",
+  "atlas_ad": "Mariental",
+  "lat": -24.62705,
+  "lon": 17.96471,
+  "kat1900": 2,
+  "adlar": [
+   "Mariental"
+  ],
+  "ilk": {
+   "t": "1912-01-01",
+   "gun": "1912",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Mariental', https://www.britannica.com/place/Mariental (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+   "tanik": "Mariental was founded in 1912 as a railway stop between Windhoek and Keetmanshoop"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [],
+  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi.  Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01. Atlas noktasi VAR ('Mariental'): atlas baslangici kaynak yilindan ONCE; sahip[] bos (atlas zinciri esas), atlas baslangici duzeltilmeli (KASA)."
+ },
+ {
+  "id": "port-harcourt-ng-p3o",
+  "ad": "Port Harcourt",
+  "atlas_ad": null,
+  "lat": 4.77742,
+  "lon": 7.0134,
+  "kat1900": 2,
+  "adlar": [
+   "Port Harcourt"
+  ],
+  "ilk": {
+   "t": "1912-01-01",
+   "gun": "1912",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Port Harcourt', https://www.britannica.com/place/Port-Harcourt (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+   "tanik": "Founded in 1912 in an area traditionally inhabited by the Ijo and Ikwere"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [],
+  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi. özne gizli = madde konusu (başlık şehir). Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01."
+ },
+ {
+  "id": "makurdi-ng-p3o",
+  "ad": "Makurdi",
+  "atlas_ad": "Makurdi",
+  "lat": 7.73375,
+  "lon": 8.52139,
+  "kat1900": 2,
+  "adlar": [
+   "Makurdi"
+  ],
+  "ilk": {
+   "t": "1927-01-01",
+   "gun": "1927",
+   "nicelik": "kurulus",
+   "kesinlik": "belirsiz",
+   "kaynak": "Encyclopaedia Britannica, 'Makurdi', https://www.britannica.com/place/Makurdi (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+   "tanik": "Founded about 1927 when the railroad from Port Harcourt"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [],
+  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi. kaynak 'about 1927' der: kesinlik belirsiz; özne gizli = madde konusu. Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01. Atlas noktasi VAR ('Makurdi'): atlas baslangici kaynak yilindan ONCE; sahip[] bos (atlas zinciri esas), atlas baslangici duzeltilmeli (KASA)."
+ },
+ {
+  "id": "shurugwi-zw-p3",
+  "ad": "Shurugwi",
+  "atlas_ad": null,
+  "lat": -19.6702,
+  "lon": 30.0059,
+  "kat1900": 3,
+  "adlar": [
+   "Selukwe",
+   "Shurugwi"
+  ],
+  "ilk": {
+   "t": "1899-01-01",
+   "gun": "1899",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, «Shurugwi» (Britannica editörleri), https://www.britannica.com/place/Shurugwi (tarayıcı sayfa okuma, 17 Kasım 2026; Britannica gövdesinden, YZ özeti bloğu dışı)",
+   "tanik": "Shurugwi was established in 1899 by the British South Africa Company"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1899-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, «Shurugwi», https://www.britannica.com/place/Shurugwi",
+    "ic_not": "BOŞLUK (atlas noktası yok): kaynak kuruluşu British South Africa Company ve Willoughby's Consolidated Company'ye bağlar (şirket; data/devletler.js'te devlet id'si değil); 1899-1900 için şehrin devlet sahibini veren tarihli cümle okunmadı. Beyanlı boşluk; yaklaşıklık yazılmadı."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1899-01-01",
+    "gun": "1899",
+    "k": "diger",
+    "b": "Shurugwi (Selukwe) kasabası British South Africa Company ve Willoughby's Consolidated Company tarafından kuruldu",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, «Shurugwi» (Britannica editörleri), https://www.britannica.com/place/Shurugwi (tarayıcı sayfa okuma, 17 Kasım 2026; Britannica gövdesinden, YZ özeti bloğu dışı)",
+    "tanik": "Shurugwi was established in 1899 by the British South Africa Company"
+   }
+  ],
+  "ic_not": "TEK KAYNAK: Britannica 'Shurugwi' (ad+yıl aynı cümlede; tanık makale gövdesinde innerText'te doğrulandı, YZ özeti bloğu dışı). İkinci akademik kaynak bulunamadı (encyclopedia.com gsearch'te madde yok). Gün yok, yıl hassasiyeti. Atlas noktası yok (3 km ve atlas_ilk_gunleri tarandı). B18.tsv notu '1896-97 Selukwe district' der; Britannica'ya göre kasaba kuruluşu 1899 (yerleşim=1899, bölge adı daha eskidir). Ad: Britannica 'Selukwe' adının yakın granit tepenin yerel Venda 'selukwe' (domuz ağılı) sözcüğünden türediğini söyler. | Britannica gövdesinden (YZ özeti bloğu dışı)"
  }
 ]

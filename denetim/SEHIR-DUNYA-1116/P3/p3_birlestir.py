@@ -15,11 +15,11 @@ for b in sys.argv[1:]:
     yol = D + 'P3/%s.json' % b
     if not os.path.exists(yol): continue
     kayit = json.load(open(yol, encoding='utf-8'))
-    tsv = list(csv.DictReader(open(D + 'P3/%s.tsv' % b, encoding='utf-8'), delimiter='\t'))
+    tsv = list(csv.DictReader(open(D + 'P3/%s.tsv' % b, encoding='utf-8'), delimiter='\t')) if os.path.exists(D + 'P3/%s.tsv' % b) else []
     for x in kayit:
         if x['id'] in idler: atlanan.append((b, x['id'], 'id var')); continue
-        blok = None
-        for r in tsv:
+        blok = x.pop('_blok', None)   # ön tarama kayıtları blok bilgisini taşır
+        for r in (tsv if blok is None else []):
             try:
                 if r['lat'] and km(float(r['lat']), float(r['lon']), float(x['lat']), float(x['lon'])) <= 3: blok = r['blok']; break
             except ValueError: pass

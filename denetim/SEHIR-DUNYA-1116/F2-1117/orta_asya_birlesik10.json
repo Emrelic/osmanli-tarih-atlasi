@@ -4202,5 +4202,123 @@
   ],
   "olay": [],
   "ic_not": "P3-B11. TEK KAYNAK. Britannica gövdesinden (YZ özeti bloğu dışı; 'Summary created' bloğu yok). Özne zamir 'it' = madde konusu; başlık şehir. Şehir adı alıntıdan önceki cümlede (madde girişi) geçer. Atlas noktası yok."
+ },
+ {
+  "id": "bishkek-kg-p3o",
+  "ad": "Bishkek",
+  "atlas_ad": null,
+  "lat": 42.87,
+  "lon": 74.59,
+  "kat1900": 3,
+  "adlar": [
+   "Bishkek"
+  ],
+  "ilk": {
+   "t": "1825-01-01",
+   "gun": "1825",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Bishkek', https://www.britannica.com/place/Bishkek (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+   "tanik": "In 1825 the Uzbek khanate of Kokand established on the site the fortress of Bishkek"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1825-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, 'Bishkek', https://www.britannica.com/place/Bishkek (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+    "ic_not": "BOSLUK (atlas noktasi yok): Britannica govdesinde bu donem icin tarihli devlet sahibi cumlesi yok; beyansiz yaklasiklik yazilmadi."
+   }
+  ],
+  "olay": [],
+  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi. Kokand Hanlığı Bishkek KALESİNİ kurdu (şehrin çekirdeği); 1862 Rus ele geçirmesi aynı cümlede. Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01."
+ },
+ {
+  "id": "karakol-kg-p3o",
+  "ad": "Karakol",
+  "atlas_ad": null,
+  "lat": 42.4905,
+  "lon": 78.392,
+  "kat1900": 3,
+  "adlar": [
+   "Karakol"
+  ],
+  "ilk": {
+   "t": "1869-01-01",
+   "gun": "1869",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Karakol', https://www.britannica.com/place/Karakol (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+   "tanik": "The city was founded in 1869 as a Russian military and administrative outpost"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1869-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, 'Karakol', https://www.britannica.com/place/Karakol (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+    "ic_not": "BOSLUK (atlas noktasi yok): Britannica govdesinde bu donem icin tarihli devlet sahibi cumlesi yok; beyansiz yaklasiklik yazilmadi."
+   }
+  ],
+  "olay": [],
+  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi. özne The city = madde konusu. Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01."
+ },
+ {
+  "id": "kokshetau-kz-p3o",
+  "ad": "Kokshetau",
+  "atlas_ad": "Kökçetav (Kokçetav)",
+  "lat": 53.2841,
+  "lon": 69.3936,
+  "kat1900": 3,
+  "adlar": [
+   "Kokshetau"
+  ],
+  "ilk": {
+   "t": "1824-01-01",
+   "gun": "1824",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Kokshetau', https://www.britannica.com/place/Kokshetau (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+   "tanik": "Kökshetaü was founded in 1824 as an administrative outpost"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [],
+  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi. Britannica yazımı 'Kökshetaü'. Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01. Atlas noktasi VAR ('Kökçetav (Kokçetav)'): atlas baslangici kaynak yilindan ONCE; sahip[] bos (atlas zinciri esas), atlas baslangici duzeltilmeli (KASA)."
+ },
+ {
+  "id": "zhezqazghan-kz-p3o",
+  "ad": "Zhezqazghan",
+  "atlas_ad": null,
+  "lat": 47.79411,
+  "lon": 67.70628,
+  "kat1900": 2,
+  "adlar": [
+   "Zhezqazghan"
+  ],
+  "ilk": {
+   "t": "1938-01-01",
+   "gun": "1938",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Zhezqazghan', https://www.britannica.com/place/Zhezqazghan (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+   "tanik": "The city was created in 1938 in connection with exploitation"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [],
+  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi. özne The city = madde konusu. Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01."
  }
 ]
