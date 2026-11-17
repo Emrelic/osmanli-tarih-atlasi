@@ -202,7 +202,7 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
    "nicelik": "kurulus",
    "kesinlik": "yil",
    "kaynak": "Encyclopaedia Britannica, «Central African Republic» (Britannica editörleri), https://www.britannica.com/place/Central-African-Republic (tarayıcı sayfa okuma, 17 Kasım 2026)",
-   "tanik": "Founded as a French trading post in 1889, Bangui has grown into a city"
+   "tanik": "The capital city of Bangui, founded as a French trading post in 1889"
   },
   "kur": null,
   "ark": null,
@@ -224,10 +224,10 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
     "b": "Bangui 1889'da Fransız ticaret karakolu olarak kuruldu",
     "kesinlik": "yil",
     "kaynak": "Encyclopaedia Britannica, «Central African Republic» (Britannica editörleri), https://www.britannica.com/place/Central-African-Republic (tarayıcı sayfa okuma, 17 Kasım 2026)",
-    "tanik": "Founded as a French trading post in 1889, Bangui has grown into a city"
+    "tanik": "The capital city of Bangui, founded as a French trading post in 1889"
    }
   ],
-  "ic_not": "ÇİFT TEYİT (LAB, 17 Kasım 2026; Britannica/ilk kaynaktan bağımsız ikinci kaynak): The Columbia Encyclopedia 6th ed., «Bangui», encyclopedia.com/reference/…/bangui; includes() 17 Kas 2026 | tanık 2: \"The city was founded in 1889\" | 1889 aynı (Britannica: French trading post 1889) || İLK KAYNAK (Britannica); çift teyit yok. Gün yok, yıl hassasiyeti. Britannica CAR md.: 'The capital city of Bangui, founded as a French trading post in 1889'. SAHİP/DİKİŞ: fransa-cumhuriyet 1889-01-01 → 1889-06-26 (atlas başlangıcı): gün kaynakta yok, atlas başlangıcına ≤1 yıl uzatıldı; kaynak yılı esas, 'f'/'t' kaynağın yıl ucudur, atlas başlangıcı kaynak değildir.",
+  "ic_not": "ÇİFT TEYİT (LAB, 17 Kasım 2026; Britannica/ilk kaynaktan bağımsız ikinci kaynak): The Columbia Encyclopedia 6th ed., «Bangui», encyclopedia.com/reference/…/bangui; includes() 17 Kas 2026 | tanık 2: \"The city was founded in 1889\" | 1889 aynı (Britannica: French trading post 1889) || İLK KAYNAK (Britannica); çift teyit yok. Gün yok, yıl hassasiyeti. Britannica CAR md.: 'The capital city of Bangui, founded as a French trading post in 1889'. SAHİP/DİKİŞ: fransa-cumhuriyet 1889-01-01 → 1889-06-26 (atlas başlangıcı): gün kaynakta yok, atlas başlangıcına ≤1 yıl uzatıldı; kaynak yılı esas, 'f'/'t' kaynağın yıl ucudur, atlas başlangıcı kaynak değildir. | BRITANNICA YZ-ÖZETİ DENETİMİ (LAB, 17 Kasım 2026): ilk.tanik önceden Britannica sayfasındaki YZ özeti (SSS) bloğundaydı/sayfada birebir yoktu (Founded as a French trading post in 1889, Bangui has grown into a city); Britannica makale gövdesinden alternatif tanıkla değiştirildi: \"The capital city of Bangui, founded as a French trading post in 1889\" | BRITANNICA YZ-ÖZETİ DENETİMİ (LAB, 17 Kasım 2026): olay[0].tanik önceden Britannica sayfasındaki YZ özeti (SSS) bloğundaydı/sayfada birebir yoktu (Founded as a French trading post in 1889, Bangui has grown into a city); Britannica makale gövdesinden alternatif tanıkla değiştirildi: \"The capital city of Bangui, founded as a French trading post in 1889\"",
   "ad_kaynak": [
    {
     "ad": "Bangui",
@@ -1918,7 +1918,7 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
    "nicelik": "kurulus",
    "kesinlik": "yil",
    "kaynak": "The Columbia Encyclopedia, 6th ed., 'Kroonstad' maddesi (encyclopedia.com), https://encyclopedia.com/reference/encyclopedias-almanacs-transcripts-and-maps/kroonstad ; Encyclopaedia Britannica, 'Kroonstad' (Britannica Editors), https://www.britannica.com/place/Kroonstad",
-   "tanik": "Kroonstad was founded in 1855.",
+   "tanik": "Founded in 1855, it served briefly as the Boer capital of the Orange Free State",
    "ic_not": "ÇİFT TEYİT. Birinci tanık Columbia 6th ed. (Kroonstad was founded in 1855.); ikinci tanık Britannica: 'Founded in 1855, it served briefly as the Boer capital of the Orange Free State' (özne zamir = madde konusu; başlık şehir). Bağımsızlık: ayrı yayıncı (Columbia Univ. Press/Gale-encyclopedia.com vs Britannica); cümleler farklı; ikisi de kısa ansiklopedi maddesi, kaynakçasız; ortak birincil dayanak kanıtı bulunamadı (kopya kanıtı yok, ancak aynı tipte ikincil derleme olduğundan bağımsızlık zayıf-orta). Sahip: kaynakta devlet adı yok; BOŞLUK beyanlı."
   },
   "kur": null,
@@ -1935,7 +1935,7 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
    }
   ],
   "olay": [],
-  "ic_not": "Tarihçe yalnız kuruluş yılı içerir; ÇİFT TEYİT."
+  "ic_not": "Tarihçe yalnız kuruluş yılı içerir; ÇİFT TEYİT. | BRITANNICA YZ-ÖZETİ DENETİMİ (LAB, 17 Kasım 2026): ilk.tanik önceden Britannica sayfasındaki YZ özeti (SSS) bloğundaydı/sayfada birebir yoktu (Kroonstad was founded in 1855.); Britannica makale gövdesinden alternatif tanıkla değiştirildi: \"Founded in 1855, it served briefly as the Boer capital of the Orange Free State\""
  },
  {
   "id": "kumbi-salih-af-p9",
