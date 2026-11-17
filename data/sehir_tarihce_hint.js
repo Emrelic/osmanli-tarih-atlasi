@@ -2640,19 +2640,19 @@ window.SEHIR_TARIHCE_HINT = [
    "Mîrat"
   ],
   "ilk": {
-   "t": "1192-01-01",
-   "gun": "1192",
+   "t": "1203-01-01",
+   "gun": "1203",
    "nicelik": "ilk_anilis",
    "kesinlik": "yil",
-   "kaynak": "The Columbia Encyclopedia 6th ed., «Meerut» (encyclopedia.com, 17 Kasım 2026); teyit: Minhâc-ı Sirâc Cûzcânî, Tabakât-ı Nâsırî, in Elliot & Dowson, History of India II (archive.org): Mirat Tarain sonrası aynı yıl (588 H./1192) alındı",
-   "tanik": "Meerut was conquered by Muslims in 1192"
+   "kaynak": "TDV İslâm Ansiklopedisi, 'AYBEG, Kutbüddin', https://islamansiklopedisi.org.tr/aybeg-kutbuddin (17 Kasım 2026'da okundu; tarayıcı tam gövde): Aybeg 1192-1203 arasında Meerut'u iktâları arasına kattı",
+   "tanik": "1192-1203 yılları arasında ise Meerut, Ecmîr, Delhi, Kol, Thankir"
   },
   "kur": null,
   "ark": null,
   "bit": null,
   "sahip": [
    {
-    "f": "1192-01-01",
+    "f": "1203-01-01",
     "t": "1206-06-25",
     "d": "gurlu",
     "kesinlik": {
@@ -2683,7 +2683,7 @@ window.SEHIR_TARIHCE_HINT = [
     "kaynak": "TDV 'AYBEG, Kutbüddin', https://islamansiklopedisi.org.tr/aybeg-kutbuddin (tarayıcı tam gövde): 'Sultan Muizzüddin’in ölümü üzerine “Kutbüddin” unvanıyla 25 Haziran 1206’da Lahor’da tahta çıktı'"
    }
   ],
-  "ic_not": "HAKEMLİ KARAR (LAB, 17 Kasım 2026): Hakem notu (17 Kas 2026): TDV 'AYBEG' '1192-1203 yılları arasında ise Meerut, Ecmîr, Delhi...' Aybeg'in iktâ edindiği genel aralıktır, Meerut'un fethini tarihlemez; aralık ucu (1203) Meerut için kullanılamaz. Meerut'un Gurlu eline geçişi: Columbia 'conquered by Muslims in 1192' + Minhâc-ı Sirâc, Tabakât-ı Nâsırî (Elliot & Dowson II, s.~297: Tarain 588 H./1192 sonrası aynı yıl Aybeg 'Mirat conquered'; aynı eserin biyografi pasajı 587 H./1191 der) + Hasan Nizâmî, Tâcü'l-me'âsir ('Capture of Mirat', yılsız). Seçilen: 1192 (hicrî 587/588 beyanı, ±1 yıl). 1203 Meerut'a özgü değil, bırakıldı. || Tek kaynak (TDV Aybeg maddesi): çift teyit bulunamadı. TDV 'Meerut' şehir maddesi yok (arama 'meerut' Aybeg/Cüzcânî/Bâre Seyyidleri vb. maddeleri döndürdü; Cüzcânî ve Bâre Seyyidleri'nde Meerut yalnız bibliyografya basım yeri). 'Meerut' burada iktâ (idarî birim) olarak anılır; şehir mi bölge mi olduğu TDV'de ayrılmaz — yer-ad eşleşmesi beyanlıdır (Meerut ≈ Mîrat). Firûz Şah Tuğluk'un Asoka sütununu Mîrat'tan Delhi'ye taşıması (Majumdar VI, yıl bu cümlede yok) yazılmadı. Atlas Mîrat'ı 1281'de delhi-sultanligi ile başlatır; bu zincir 1203'e kadar geriye uzanır: atlas başlangıcının 1203'e çekilmesi önerisi (Meerut Sultanlık/Gurlu iktâsı olarak 1203'te var)."
+  "ic_not": "HAKEMLİ KARAR (LAB, 17 Kasım 2026; EMRELİC itirazıyla revize): TDV değeri 1203 KALIR (ilk yıl = TDV'nin 1192-1203 aralığının üst ucu; aralık iktâ edinme tarihidir, fetih tarihi değildir). İKİNCİ ADAY 1192: Columbia 6th ed. \"Meerut was conquered by Muslims in 1192\" ve Minhâc-ı Sirâc Cûzcânî, Tabakât-ı Nâsırî (Elliot&Dowson II) Mirat Tarain sonrası aynı yıl (588 H./1192; aynı eserin başka pasajı 587 H./1191) — Columbia büyük olasılıkla Minhâc'a dayandığından ikisi BAĞIMSIZ iki kaynak sayılmadı; Minhâc'a dayanmayan üçüncü akademik kaynak (örn. P. Jackson, The Delhi Sultanate; Cambridge History of India III) bulunursa 1192'ye çekilmeli. || Tek kaynak (TDV Aybeg maddesi): çift teyit bulunamadı. TDV 'Meerut' şehir maddesi yok (arama 'meerut' Aybeg/Cüzcânî/Bâre Seyyidleri vb. maddeleri döndürdü; Cüzcânî ve Bâre Seyyidleri'nde Meerut yalnız bibliyografya basım yeri). 'Meerut' burada iktâ (idarî birim) olarak anılır; şehir mi bölge mi olduğu TDV'de ayrılmaz — yer-ad eşleşmesi beyanlıdır (Meerut ≈ Mîrat). Firûz Şah Tuğluk'un Asoka sütununu Mîrat'tan Delhi'ye taşıması (Majumdar VI, yıl bu cümlede yok) yazılmadı. Atlas Mîrat'ı 1281'de delhi-sultanligi ile başlatır; bu zincir 1203'e kadar geriye uzanır: atlas başlangıcının 1203'e çekilmesi önerisi (Meerut Sultanlık/Gurlu iktâsı olarak 1203'te var)."
  },
  {
   "id": "multan-pk",
