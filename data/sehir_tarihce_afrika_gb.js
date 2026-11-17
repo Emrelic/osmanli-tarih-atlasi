@@ -122,7 +122,7 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
     "tanik": "Founded as a French trading post in 1889, Bangui has grown into a city"
    }
   ],
-  "ic_not": "TEK KAYNAK (Britannica); çift teyit yok. Gün yok, yıl hassasiyeti. Britannica CAR md.: 'The capital city of Bangui, founded as a French trading post in 1889'. SAHİP/DİKİŞ: fransa-cumhuriyet 1889-01-01 → 1889-06-26 (atlas başlangıcı): gün kaynakta yok, atlas başlangıcına ≤1 yıl uzatıldı; kaynak yılı esas, 'f'/'t' kaynağın yıl ucudur, atlas başlangıcı kaynak değildir."
+  "ic_not": "ÇİFT TEYİT (LAB, 17 Kasım 2026; Britannica/ilk kaynaktan bağımsız ikinci kaynak): The Columbia Encyclopedia 6th ed., «Bangui», encyclopedia.com/reference/…/bangui; includes() 17 Kas 2026 | tanık 2: \"The city was founded in 1889\" | 1889 aynı (Britannica: French trading post 1889) || İLK KAYNAK (Britannica); çift teyit yok. Gün yok, yıl hassasiyeti. Britannica CAR md.: 'The capital city of Bangui, founded as a French trading post in 1889'. SAHİP/DİKİŞ: fransa-cumhuriyet 1889-01-01 → 1889-06-26 (atlas başlangıcı): gün kaynakta yok, atlas başlangıcına ≤1 yıl uzatıldı; kaynak yılı esas, 'f'/'t' kaynağın yıl ucudur, atlas başlangıcı kaynak değildir."
  },
  {
   "id": "banjul-p10",
@@ -175,7 +175,7 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
     "tanik": "The name was changed to Banjul in 1973"
    }
   ],
-  "ic_not": "TEK KAYNAK (Britannica); çift teyit yok. Gün yok, yıl hassasiyeti. Özne 'It' = Banjul maddesinin konusu (Bathurst). Devam: 'to establish a military post on the river to suppress the slave trade'. Britannica: 1965'te şehir statüsü, adı 1973'te Banjul oldu. SAHİP/DİKİŞ: ingiltere 1816-01-01 → 1816-04-23 (atlas başlangıcı): gün kaynakta yok, atlas başlangıcına ≤1 yıl uzatıldı; kaynak yılı esas, 'f'/'t' kaynağın yıl ucudur, atlas başlangıcı kaynak değildir."
+  "ic_not": "ÇİFT TEYİT (LAB, 17 Kasım 2026; Britannica/ilk kaynaktan bağımsız ikinci kaynak): Columbia Encyclopedia 6th ed. «Banjul» + Oxford World Encyclopedia «Banjul», encyclopedia.com; includes() 17 Kas 2026 | tanık 2: \"The city was founded by the British on the site of an anchorage in 1816\" | 1816 aynı (iki ek kaynak da 1816) || İLK KAYNAK (Britannica); çift teyit yok. Gün yok, yıl hassasiyeti. Özne 'It' = Banjul maddesinin konusu (Bathurst). Devam: 'to establish a military post on the river to suppress the slave trade'. Britannica: 1965'te şehir statüsü, adı 1973'te Banjul oldu. SAHİP/DİKİŞ: ingiltere 1816-01-01 → 1816-04-23 (atlas başlangıcı): gün kaynakta yok, atlas başlangıcına ≤1 yıl uzatıldı; kaynak yılı esas, 'f'/'t' kaynağın yıl ucudur, atlas başlangıcı kaynak değildir."
  },
  {
   "id": "bissau-p10",
@@ -220,7 +220,7 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
     "tanik": "In 1941 it replaced Bolama as the capital"
    }
   ],
-  "ic_not": "TEK KAYNAK (Britannica); çift teyit yok. Gün yok, yıl hassasiyeti. Özne 'It' = Bissau. Atlas noktası 1974'te başlıyor; 1687-1974 sahip zinciri kaynaklanamadı (sahip[] boş, borç değil beyan)."
+  "ic_not": "ÇİFT TEYİT (LAB, 17 Kasım 2026; Britannica/ilk kaynaktan bağımsız ikinci kaynak): Columbia Encyclopedia 6th ed. «Bissau» (reference/…/bissau) + Oxford World Encyclopedia «Bissau» (environment/…/bissau), encyclopedia.com; includes() 17 Kas 2026 | tanık 2: \"The city was founded in 1687 by the Portuguese as a fortified port and trading center\" | 1687 aynı; iki ayrı yayın (Columbia ve Oxford) 1687 verir => toplam 3 kaynak || İLK KAYNAK (Britannica); çift teyit yok. Gün yok, yıl hassasiyeti. Özne 'It' = Bissau. Atlas noktası 1974'te başlıyor; 1687-1974 sahip zinciri kaynaklanamadı (sahip[] boş, borç değil beyan)."
  },
  {
   "id": "bloemfontein-za",
@@ -423,7 +423,7 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
     "tanik": "Dakar was founded in 1857 when the French built a fort"
    }
   ],
-  "ic_not": "TEK KAYNAK (Britannica); çift teyit yok (TDV sitesi 17 Kasım 2026'da 503 verdi, okunamadı). Gün yok, yıl hassasiyeti. Adın dakhar (Wolof, demirhindi) köyünden geldiği ve Lebu köyü anılır; yıllı tanık yok. Sahip: yalnız yıl (1857/1888) kaynaklıdır; atlas noktası aynı yılın ayrıntılı gününden (1857-05-25) başlar, zincir bu güne kadar uzatıldı (dikiş, atlas aynı sahiple sürer); gün kaynakta yok."
+  "ic_not": "ÇİFT TEYİT (LAB, 17 Kasım 2026; Britannica/ilk kaynaktan bağımsız ikinci kaynak): Oxford World Encyclopedia (OUP), «Dakar», https://www.encyclopedia.com/places/africa/senegal-political-geography/dakar; includes() 17 Kas 2026 | tanık 2: \"Founded in 1857 as a French fort\" | 1857 aynı || İLK KAYNAK (Britannica); çift teyit yok (TDV sitesi 17 Kasım 2026'da 503 verdi, okunamadı). Gün yok, yıl hassasiyeti. Adın dakhar (Wolof, demirhindi) köyünden geldiği ve Lebu köyü anılır; yıllı tanık yok. Sahip: yalnız yıl (1857/1888) kaynaklıdır; atlas noktası aynı yılın ayrıntılı gününden (1857-05-25) başlar, zincir bu güne kadar uzatıldı (dikiş, atlas aynı sahiple sürer); gün kaynakta yok."
  },
  {
   "id": "dikwa-af-p9",
@@ -574,7 +574,7 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
     "tanik": "Enugu served briefly (May–October 1967) as the provisional capital of the secessionist Republic of Biafra"
    }
   ],
-  "ic_not": "TEK KAYNAK (Britannica). 1967-05-01 ayın ilk gününe genişletilmiş AY hassasiyetidir (kaynak ay verir); Biafra'nın bağımsızlık ilanı 1967-05-30 aynı sayfada (Biafra bölümü) okunmuştur, atlas dikişi 1967-05-30 ile ±30 gün içindedir. 'Kuruluş' niceliği: 'owes its existence to the discovery of coal' (kömür keşfi 1909) — kuruluş günü kaynakta yok."
+  "ic_not": "ÇİFT TEYİT (LAB, 17 Kasım 2026; Britannica/ilk kaynaktan bağımsız ikinci kaynak): The Columbia Encyclopedia 6th ed., «Enugu», https://www.encyclopedia.com/reference/encyclopedias-almanacs-transcripts-and-maps/enugu; includes() 17 Kas 2026 | tanık 2: \"Enugu developed as a mining town after the discovery of coal in 1909\" | 1909 aynı (kömürün keşfi); kuruluş=kömür keşfi yılı || İLK KAYNAK (Britannica). 1967-05-01 ayın ilk gününe genişletilmiş AY hassasiyetidir (kaynak ay verir); Biafra'nın bağımsızlık ilanı 1967-05-30 aynı sayfada (Biafra bölümü) okunmuştur, atlas dikişi 1967-05-30 ile ±30 gün içindedir. 'Kuruluş' niceliği: 'owes its existence to the discovery of coal' (kömür keşfi 1909) — kuruluş günü kaynakta yok."
  },
  {
   "id": "gao-ml",
@@ -807,7 +807,7 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
     "tanik": "It was chartered as a city in 1935"
    }
   ],
-  "ic_not": "TEK KAYNAK (Britannica); çift teyit yok. Gün yok, yıl hassasiyeti. Tanık 'The city was founded in 1890 ... halted' (ilk 18 kelime; kısaltıldı). SAHİP/DİKİŞ: ingiliz-guney-rodezya 1890-01-01 → 1890-09-12 (atlas başlangıcı): gün kaynakta yok, atlas başlangıcına ≤1 yıl uzatıldı; kaynak yılı esas, 'f'/'t' kaynağın yıl ucudur, atlas başlangıcı kaynak değildir."
+  "ic_not": "ÇİFT TEYİT (LAB, 17 Kasım 2026; Britannica/ilk kaynaktan bağımsız ikinci kaynak): Oxford World Encyclopedia, «Harare», https://www.encyclopedia.com/places/africa/zimbabwe-political-geography/harare; includes() 17 Kas 2026 | tanık 2: \"Settled by Europeans in 1890 as Fort Salisbury\" | 1890 aynı (Britannica 'founded in 1890 ... Pioneer Column') || İLK KAYNAK (Britannica); çift teyit yok. Gün yok, yıl hassasiyeti. Tanık 'The city was founded in 1890 ... halted' (ilk 18 kelime; kısaltıldı). SAHİP/DİKİŞ: ingiliz-guney-rodezya 1890-01-01 → 1890-09-12 (atlas başlangıcı): gün kaynakta yok, atlas başlangıcına ≤1 yıl uzatıldı; kaynak yılı esas, 'f'/'t' kaynağın yıl ucudur, atlas başlangıcı kaynak değildir."
  },
  {
   "id": "ibadan-p10",
@@ -985,7 +985,7 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
     "tanik": "Subsequently it became capital of the protectorate of Rivières du Sud (1891)"
    }
   ],
-  "ic_not": "TEK KAYNAK (Britannica); çift teyit yok (TDV sitesi 17 Kasım 2026'da 503 verdi, okunamadı). Gün yok, yıl hassasiyeti. Sahip: 'Founded by the French' ⇒ fransa-cumhuriyet 1884-01-01 → 1885-01-01 (atlas noktasının başlangıcı; dikiş — atlas aynı sahiple sürer, sahip değişimi yok). Kuruluş yılı 1884 kaynaklı; 1885 bitişi yalnız atlas başlangıcıdır (kaynak değil)."
+  "ic_not": "ÇİFT TEYİT (LAB, 17 Kasım 2026; Britannica/ilk kaynaktan bağımsız ikinci kaynak): Oxford World Encyclopedia, «Conakry», encyclopedia.com/environment/…/conakry; Columbia «Conakry» ek; includes() 17 Kas 2026 | tanık 2: \"Founded in 1884, it is a major port\" | 1884 aynı (Britannica 'Founded by the French in 1884') || İLK KAYNAK (Britannica); çift teyit yok (TDV sitesi 17 Kasım 2026'da 503 verdi, okunamadı). Gün yok, yıl hassasiyeti. Sahip: 'Founded by the French' ⇒ fransa-cumhuriyet 1884-01-01 → 1885-01-01 (atlas noktasının başlangıcı; dikiş — atlas aynı sahiple sürer, sahip değişimi yok). Kuruluş yılı 1884 kaynaklı; 1885 bitişi yalnız atlas başlangıcıdır (kaynak değil)."
  },
  {
   "id": "kumbi-salih-af-p9",
@@ -1022,7 +1022,7 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
     "tanik": "after many battles, seized Kumbi in 1076"
    }
   ],
-  "ic_not": "TEK KAYNAK (Britannica); çift teyit yok (TDV sitesi 17 Kasım 2026'da 503 verdi, okunamadı). Gün yok, yıl hassasiyeti. Cümlenin öznesi bir önceki cümle parçasında Abū Bakr'dır (Ghana md.: 'Abū Bakr ... took Audaghost in 1054 and, after many battles, seized Kumbi in 1076'). Britannica 'Kumbi' maddesi 'Ghana'nın son başkenti, 1240 öncesi 15.000+ nüfus' der (yıl=1240 yalnız zirve sınırı, olay değil). Ghana md.: 11. yy başkenti Kumbi ile 'geçici olarak özdeşleştirilmiştir' (arkeologlarca). TDV Gâne özdeşliği 'kesin değil' (önceki parti). Zincir yazılmadı. ATLAS: atlas noktası 701'de başlıyor; bu kaynaklarla 701 doğrulanamaz."
+  "ic_not": "ÇİFT TEYİT (LAB, 17 Kasım 2026; Britannica/ilk kaynaktan bağımsız ikinci kaynak): Gale, World Eras (Medieval Islamic/West Africa), «The Economic Context for State Building» (kaynakça: Levtzion, Ancient Ghana and Mali 1973; Mauny 1961), https://www.encyclopedia.com/history/news-wires-white-papers-and-books/economic-context-state-building; ayrıca «Abu Bakr Ibn Umar» (kaynak: Ajayi-Crowder, History of West Africa), aynı site; tarayıcı fetch + includes() 17 Kas 2026 | tanık 2: \"in 1076 they destroyed Kumbi Saleh, the capital city of Ghana\" | 1076 = ilk kaynak (Britannica 'Ghana': seized Kumbi in 1076); iki madde de 1076 || İLK KAYNAK (Britannica); çift teyit yok (TDV sitesi 17 Kasım 2026'da 503 verdi, okunamadı). Gün yok, yıl hassasiyeti. Cümlenin öznesi bir önceki cümle parçasında Abū Bakr'dır (Ghana md.: 'Abū Bakr ... took Audaghost in 1054 and, after many battles, seized Kumbi in 1076'). Britannica 'Kumbi' maddesi 'Ghana'nın son başkenti, 1240 öncesi 15.000+ nüfus' der (yıl=1240 yalnız zirve sınırı, olay değil). Ghana md.: 11. yy başkenti Kumbi ile 'geçici olarak özdeşleştirilmiştir' (arkeologlarca). TDV Gâne özdeşliği 'kesin değil' (önceki parti). Zincir yazılmadı. ATLAS: atlas noktası 701'de başlıyor; bu kaynaklarla 701 doğrulanamaz."
  },
  {
   "id": "laayoune-p10",
@@ -1235,7 +1235,7 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
     "tanik": "Selected as the colonial capital of German Togoland in 1897"
    }
   ],
-  "ic_not": "TEK KAYNAK (Britannica); çift teyit yok. Gün yok, yıl hassasiyeti. Britannica Togo md. aynı olguyu verir ('Lomé was selected as the colonial capital of German Togoland in 1897'; aynı yayıncı). Kuruluş yılı verilmiyor; nicelik ilk_anilis."
+  "ic_not": "ÇİFT TEYİT (LAB, 17 Kasım 2026; Britannica/ilk kaynaktan bağımsız ikinci kaynak): Columbia Encyclopedia 6th ed. «Lomé» + Oxford World Encyclopedia «Lomé», encyclopedia.com; includes() 17 Kas 2026 | tanık 2: \"Lomé was a small village until 1897, when it became the capital of the German colony of Togo\" | 1897 aynı (Alman Togo başkenti); ilk anılış değil başkent yapılma yılı, iki kaynak da aynı olguyu 1897'ye bağlar || İLK KAYNAK (Britannica); çift teyit yok. Gün yok, yıl hassasiyeti. Britannica Togo md. aynı olguyu verir ('Lomé was selected as the colonial capital of German Togoland in 1897'; aynı yayıncı). Kuruluş yılı verilmiyor; nicelik ilk_anilis."
  },
  {
   "id": "luanda-p9",
@@ -1331,7 +1331,7 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
     "tanik": "In 1869 the chief of the Sotho (Basotho) nation, Moshoeshoe, founded the town"
    }
   ],
-  "ic_not": "TEK KAYNAK (Britannica). Gün yok, yıl hassasiyeti. ATLAS: atlas Maseru'yu 1822-01-01'de 'basuto' ile başlatır — şehir kaynağa göre 1869'da kurulduğundan 1822 başlangıcı ŞEHİR için yanlış/kaynaksız görünüyor (belki bölge iddiası): KASA'ya 'başlangıç 1869 olmalı' önerisi. 1868-03-12 atlas 'basuto' bitişi (İngiliz himayesi) ile 1869 kuruluş sırası da kontrol edilmeli. | Parti5 tanık kuralı (17 Kasım 2026): kesinlik belirsiz'e indirildi (ad+yıl aynı cümlede birebir bulunamadı) [ilk]: madde konusu cümlesi: kaynak cümlesinde şehir adı yok (özne 'şehir/kasaba/burası' ya da madde başlığı), aynı cümlede ad+yıl bulunamadı (Britannica 'In 1869 the chief of the Sotho ... founded the town') Parti5 geri alma (koordinatör kararı): tanık cümlesi madde konusu şehre atıflı (madde: Maseru); ilk.kesinlik 'belirsiz' → 'yil' geri alındı."
+  "ic_not": "ÇİFT TEYİT (LAB, 17 Kasım 2026; Britannica/ilk kaynaktan bağımsız ikinci kaynak): The Columbia Encyclopedia 6th ed., «Maseru», encyclopedia.com/reference/…/maseru; includes() 17 Kas 2026 | tanık 2: \"made the capital of the Basuto people by Moshoeshoe I, their paramount chief, in 1869\" | 1869 aynı; Columbia 'başkent yapıldı 1869' der, Britannica 'kurdu 1869' der — olgu farkı: kuruluş yerine başkent ilanı; yıl aynı || İLK KAYNAK (Britannica). Gün yok, yıl hassasiyeti. ATLAS: atlas Maseru'yu 1822-01-01'de 'basuto' ile başlatır — şehir kaynağa göre 1869'da kurulduğundan 1822 başlangıcı ŞEHİR için yanlış/kaynaksız görünüyor (belki bölge iddiası): KASA'ya 'başlangıç 1869 olmalı' önerisi. 1868-03-12 atlas 'basuto' bitişi (İngiliz himayesi) ile 1869 kuruluş sırası da kontrol edilmeli. | Parti5 tanık kuralı (17 Kasım 2026): kesinlik belirsiz'e indirildi (ad+yıl aynı cümlede birebir bulunamadı) [ilk]: madde konusu cümlesi: kaynak cümlesinde şehir adı yok (özne 'şehir/kasaba/burası' ya da madde başlığı), aynı cümlede ad+yıl bulunamadı (Britannica 'In 1869 the chief of the Sotho ... founded the town') Parti5 geri alma (koordinatör kararı): tanık cümlesi madde konusu şehre atıflı (madde: Maseru); ilk.kesinlik 'belirsiz' → 'yil' geri alındı."
  },
  {
   "id": "monrovia-lr",
@@ -1433,7 +1433,7 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
     "tanik": "It was declared a municipality in 1914"
    }
   ],
-  "ic_not": "TEK KAYNAK (Britannica); çift teyit yok. Gün yok, yıl hassasiyeti. Özne 'It' = Mutare. Yerleşim sonradan iki kez taşındı (Britannica) — koordinat bugünkü kenti gösterir."
+  "ic_not": "ÇİFT TEYİT (LAB, 17 Kasım 2026; Britannica/ilk kaynaktan bağımsız ikinci kaynak): The Columbia Encyclopedia 6th ed., «Mutare», https://www.encyclopedia.com/reference/encyclopedias-almanacs-transcripts-and-maps/mutare; includes() 17 Kas 2026 | tanık 2: \"Founded in 1890, Mutare grew after the coming (1899) of the railroad\" | 1890 aynı (Britannica 'Fort Umtali built by prospectors in 1890') || İLK KAYNAK (Britannica); çift teyit yok. Gün yok, yıl hassasiyeti. Özne 'It' = Mutare. Yerleşim sonradan iki kez taşındı (Britannica) — koordinat bugünkü kenti gösterir."
  },
  {
   "id": "ndjamena-af-p9",
@@ -1469,7 +1469,7 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
     "tanik": "The city was founded in 1900 across the Chari River from Fort-Fureau"
    }
   ],
-  "ic_not": "TEK KAYNAK (Britannica); çift teyit yok (TDV sitesi 17 Kasım 2026'da 503 verdi, okunamadı). Gün yok, yıl hassasiyeti. Sahip: Fransız sömürge birlikleri adına Fort-Lamy adıyla kuruldu; Fransız egemenliğinin sonu Britannica'da 'Chad'in 1960 bağımsızlığı' (aynı maddede 'it remained a small Kotoko settlement until after Chad’s independence in 1960'). Atlas başlangıç günü zincir sonu (dikiş); olay.t atlas gününe eşitlendi."
+  "ic_not": "ÇİFT TEYİT (LAB, 17 Kasım 2026; Britannica/ilk kaynaktan bağımsız ikinci kaynak): The Columbia Encyclopedia 6th ed., «Ndjamena», encyclopedia.com/reference/…/ndjamena; includes() 17 Kas 2026 | tanık 2: \"The city was founded as Fort-Lamy by the French in 1900\" | 1900 aynı || İLK KAYNAK (Britannica); çift teyit yok (TDV sitesi 17 Kasım 2026'da 503 verdi, okunamadı). Gün yok, yıl hassasiyeti. Sahip: Fransız sömürge birlikleri adına Fort-Lamy adıyla kuruldu; Fransız egemenliğinin sonu Britannica'da 'Chad'in 1960 bağımsızlığı' (aynı maddede 'it remained a small Kotoko settlement until after Chad’s independence in 1960'). Atlas başlangıç günü zincir sonu (dikiş); olay.t atlas gününe eşitlendi."
  },
  {
   "id": "okrika-p10",
@@ -1920,7 +1920,7 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
     "tanik": "Founded in 1888 during the period of the German protectorate, Yaoundé"
    }
   ],
-  "ic_not": "TEK KAYNAK (Britannica); çift teyit yok (TDV sitesi 17 Kasım 2026'da 503 verdi, okunamadı). Gün yok, yıl hassasiyeti. Britannica ayrıca 1915 Belçika işgali, 1922 Fransız Kamerun başkenti, 1960 hükümet merkezi der; atlas noktası bu sonrası kendi zincirinde taşır, bu dosya karışmaz. Sahip: yalnız yıl (1857/1888) kaynaklıdır; atlas noktası aynı yılın ayrıntılı gününden (1888-11-30) başlar, zincir bu güne kadar uzatıldı (dikiş, atlas aynı sahiple sürer); gün kaynakta yok."
+  "ic_not": "ÇİFT TEYİT (LAB, 17 Kasım 2026; Britannica/ilk kaynaktan bağımsız ikinci kaynak): The Columbia Encyclopedia 6th ed., «Yaoundé», encyclopedia.com/reference/…/yaounde; includes() 17 Kas 2026 | tanık 2: \"Yaoundé was founded in 1888 by German traders as a base for tapping the ivory trade\" | 1888 aynı || İLK KAYNAK (Britannica); çift teyit yok (TDV sitesi 17 Kasım 2026'da 503 verdi, okunamadı). Gün yok, yıl hassasiyeti. Britannica ayrıca 1915 Belçika işgali, 1922 Fransız Kamerun başkenti, 1960 hükümet merkezi der; atlas noktası bu sonrası kendi zincirinde taşır, bu dosya karışmaz. Sahip: yalnız yıl (1857/1888) kaynaklıdır; atlas noktası aynı yılın ayrıntılı gününden (1888-11-30) başlar, zincir bu güne kadar uzatıldı (dikiş, atlas aynı sahiple sürer); gün kaynakta yok."
  },
  {
   "id": "yola-ng",
@@ -2003,6 +2003,6 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
     "tanik": "The city was occupied by French troops in 1899"
    }
   ],
-  "ic_not": "TEK KAYNAK (Britannica); çift teyit yok. Gün yok, yıl hassasiyeti. Zincir (sahip) YAZILMADI: kaynak 'şu yer şu devletin' biçiminde sahip/dönem günü vermiyor. Britannica 'XVIII. yüzyılda kurulan Müslüman hanedanın başkenti' der (yüzyıl; kayıt açılmadı); yıllı ilk tanık 1899 işgalidir, bu yüzden nicelik ilk_anilis ve 1899 YALNIZ yıllı en erken tanıktır, şehrin gerçek ilk anılışı daha eskidir. ATLAS: kronoloji maddesi 1960 — başlangıç iddiası bu kaynakta doğrulanamadı."
+  "ic_not": "ÇİFT TEYİT (LAB, 17 Kasım 2026; Britannica/ilk kaynaktan bağımsız ikinci kaynak): The Columbia Encyclopedia 6th ed., «Zinder», https://www.encyclopedia.com/reference/encyclopedias-almanacs-transcripts-and-maps/zinder; includes() 17 Kas 2026 | tanık 2: \"Zinder was conquered by the French in 1899\" | 1899 aynı (ilk: Britannica 'occupied by French troops in 1899') || İLK KAYNAK (Britannica); çift teyit yok. Gün yok, yıl hassasiyeti. Zincir (sahip) YAZILMADI: kaynak 'şu yer şu devletin' biçiminde sahip/dönem günü vermiyor. Britannica 'XVIII. yüzyılda kurulan Müslüman hanedanın başkenti' der (yüzyıl; kayıt açılmadı); yıllı ilk tanık 1899 işgalidir, bu yüzden nicelik ilk_anilis ve 1899 YALNIZ yıllı en erken tanıktır, şehrin gerçek ilk anılışı daha eskidir. ATLAS: kronoloji maddesi 1960 — başlangıç iddiası bu kaynakta doğrulanamadı."
  }
 ];
