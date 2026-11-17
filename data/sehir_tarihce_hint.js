@@ -1,6 +1,6 @@
-// ŞEHİR TARİHÇESİ — HINT · üretici: arac/sehir_tarihce.py · şema: VERI-YAPISI.md
+// ŞEHİR TARİHÇESİ — SEHIR_TARIHCE_HINT · üretici: arac/sehir_tarihce.py · şema: VERI-YAPISI.md
 // Motor/denetle/site OKUMAZ — araştırma birikimi. Elle düzenleme: JSON'u düzelt, yeniden üret.
-window.SEHIR_TARIHCE_HINT = [
+window.SEHIR_TARIHCE_SEHIR_TARIHCE_HINT = [
  {
   "id": "agra-in",
   "ad": "Agra",
@@ -616,6 +616,52 @@ window.SEHIR_TARIHCE_HINT = [
   "ic_not": "Tek kaynak (Majumdar IV): çift teyit bulunamadı (Britannica 'Bharuch' maddesi yalnız Gujarat Sultanlığı'na katılma, 1572 Babür ilhakı, 1685 Marathalar, 1782/1803 İngilizler tarihlerini verir: şehir anılışı daha geç; TDV'de şehir maddesi yok). Daha eski anılışlar (örn. Periplus'un Barygaza'sı, MS I. yy) bu oturumda okunamadı, yazılmadı — 756 'bulunan en erken YAZILI tanık' olarak alındı, şehrin gerçek ilk anılışı değildir; Periplus metni ayrıca aranmalı. Majumdar IV cümlesi bir Rashtrakuta-Pratihara bağlamında geçer; şehir olgusu 'Broach'un yöneticisi' anılışıdır."
  },
  {
+  "id": "calandhar-in-p8b",
+  "ad": "Jalandhar",
+  "atlas_ad": "Câlandhar (Jalandhar)",
+  "lat": 31.326,
+  "lon": 75.576,
+  "kat1900": 3,
+  "adlar": [
+   "Jalandhara",
+   "Jullundur",
+   "Jalandhar"
+  ],
+  "ilk": {
+   "t": "1088-01-01",
+   "gun": "1088",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "The Sikh Encyclopedia (thesikhencyclopedia.com), 'Hoshiarpur' ilçe maddesi (https://thesikhencyclopedia.com/hoshiarpur): ilçe gazetteer anlatısının İngilizce metni; ayrıca Imperial Gazetteer of India (1908-09) c.13 s.194 'Hoshiarpur District' (DSAL OCR 'io88'), 17 Kasım 2026 okundu",
+   "tanik": "on the fall of Jalandhar in 1088 AD"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1088-01-01",
+    "t": "1281-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "bulunamadı",
+    "ic_not": "1088 (Jalandhar'ın düşüşü) ile atlas başlangıcı (1281-01-01, delhi-sultanligi) arasındaki sahip zinciri bu oturumda kaynakla bağlanamadı (Gazneli/Gurlu/Delhi dönemi Jalandhar'a özgü tarihli sahip cümlesi yok); beyanlı boşluk."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1088-01-01",
+    "gun": "1088",
+    "k": "fetih",
+    "b": "Jalandhar'ın düşüşü; ova muhtemelen (probably) Müslüman hâkimiyetine girdi, tepeler Hindu reislerde kaldı",
+    "kesinlik": "yil",
+    "kaynak": "The Sikh Encyclopedia (thesikhencyclopedia.com), 'Hoshiarpur' ilçe maddesi (https://thesikhencyclopedia.com/hoshiarpur): ilçe gazetteer anlatısının İngilizce metni; ayrıca Imperial Gazetteer of India (1908-09) c.13 s.194 'Hoshiarpur District' (DSAL OCR 'io88'), 17 Kasım 2026 okundu"
+   }
+  ],
+  "ic_not": "TEK KÖKEN: Imperial Gazetteer c.13 s.194 OCR'ı 'io88' idi; OCR olmayan metin (Sikh Encyclopedia Hoshiarpur maddesi, ilçe gazetteer'ine dayanır) 'plain probably came under the Muhammadan rule on the fall of Jalandhar in 1088 AD' yazar: rakam 1088 olarak OCR'sız doğrulandı (rakam bozulması sorunu çözüldü) ama BAĞIMSIZ ikinci kaynak DEĞİL (aynı gazetteer anlatısı; şair Lalman'a atfeder: İbrahim (Gazneli) 1059-1099). Yazı bir akademik hakemli kaynak değildir; 'probably' beyanı korundu; Gazneli İbrahim'in Jalandhar'ı 1088'de alması bağımsız akademik kaynakla (Majumdar VI / Bosworth, The Later Ghaznavids) teyit edilmeden kesin sayılmamalı. Cavac benzeri sayfalardaki '1070 civarı' iddiası güvenilmez site, kullanılmadı. Aynı sitenin Jalandhar maddesindeki 1297 (Dua'nın Jalandhar yakınında yenilgisi) yazılmadı: yazarı/dayanağı belirsiz. sahip[] yazılmadı (1088 ile atlas başlangıcı arasında kaynaklı zincir yok; atlas ilk günü ayrıca denetlenmeli).",
+  "dikis_beyan": "1088 (Jalandhar'ın düşüşü) ile atlas başlangıcı (1281-01-01, delhi-sultanligi) arasındaki sahip zinciri bu oturumda kaynakla bağlanamadı (Gazneli/Gurlu/Delhi dönemi Jalandhar'a özgü tarihli sahip cümlesi yok); beyanlı boşluk."
+ },
+ {
   "id": "caul-in-a3",
   "ad": "Çaul",
   "atlas_ad": "Çaul (Chaul)",
@@ -928,6 +974,41 @@ window.SEHIR_TARIHCE_HINT = [
   ],
   "dikis_beyan": "Atlas Daman'ı 1559-02-02'de portekiz-hindistani-goa ile başlatır (kur:1559-02-02, IGI atfı atlasın kendi kaydı); Britannica 1559 cümlesi site tarafından kesik olduğu için okunamadı; yer tutucu olay yazılmadı.",
   "ic_not": "TEK KAYNAK (Britannica, kesik metin). 1531 olgusu şehrin yağmalanmasıdır (yerleşimin 1531'den önce var olduğunu ima eder: 'sacked and burned … subsequently rebuilt'). Atlas künye önerisi: Daman 1531 yağmasından önceki sahip (Gücerat Sultanlığı, künye gucerat-sultanligi 1407-1573 mevcut) bu kaynakta açıkça yazılmadı; Sewell'de Daman geçmez. Boşluk doldurma merdiveni: Britannica ve Majumdar okundu; TDV 'Diû' ve IGI XI 'Daman' (atlasın kaynağı) bu oturumda okunmadı: borç."
+ },
+ {
+  "id": "dambadeniya-in-p8",
+  "ad": "Dambadeniya",
+  "atlas_ad": "Dambadeniya",
+  "lat": 7.3675,
+  "lon": 80.1497,
+  "kat1900": 3,
+  "adlar": [
+   "Dambadeniya",
+   "Dambadeṇiya"
+  ],
+  "ilk": {
+   "t": "1255-01-01",
+   "gun": "1255",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Dambadeṇiya dynasty' maddesi, https://www.britannica.com/topic/Dambadeniya-dynasty, tarayicida tam metin okundu 17 Kasim 2026",
+   "tanik": "from 1255 to about 1330 whose seat was at Dambadeṇiya"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1280-01-01",
+    "gun": "yaklasik 1280",
+    "k": "diger",
+    "b": "Dambadeniya yaklasik 1280'den itibaren baskent olmaktan cikti (Britannica: 'from about 1280 Dambadeṇiya ceased as the capital')",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, 'Dambadeṇiya dynasty' maddesi, https://www.britannica.com/topic/Dambadeniya-dynasty, 17 Kasim 2026"
+   }
+  ],
+  "ic_not": "TEK KAYNAK (Britannica); bagimsiz ikinci akademik kaynak bulunamadi/okunmadi (Geiger, Culavamsa II archive.org tam metni okundu: Dambadeni/Jambuddoni'yi anar, 'Now Dambadeniya' dipnotu, ama yil vermez; Culavamsa yilsiz). 1255 Britannica'nin hanedanin 'tum Seylan'a hukmetme' baslangicidir; ayni maddede 1232'de 'guney Seylan'da resmen iktidara gelis' (sehir adi cumlede yok, yazilmadi) ve Parakramabahu II (1236-70) 'Dambadeniya kingdom' (Britannica, Parakramabahu II / Sri Lanka). Aralikli kaynakta guvenli uc alindi; sehrin gercek ilk tanigi 1232-1255 arasinda olabilir, ilk anilis TEK kaynaktan 1255 yazildi. Sahip: kaynak 'Dambadeniya krallik/hanedani' der; devletler.js'te uygun kimlik dogrulanmadigindan sahip bos birakildi, hanedan/krallik kimligi onerisi: Dambadeniya Krallığı (1232-~1340). Ayni koordinat/ad: GeoNames Dambadeniya PPL 7.3675,80.1497 (atlas noktasina 1.8 km)."
  },
  {
   "id": "delhi-in",
@@ -1638,6 +1719,58 @@ window.SEHIR_TARIHCE_HINT = [
   "ic_not": "TDV Haydarâbâd maddesi yalnız yıl verir (kuruluş günü yok). Atlas ilk sahiplik 1591-01-01 (golkonda); TDV 1590-1591 aralığındaki 1591 ucu ile örtüşür. 1724 Nizam dönemi atlasta 1724-10-11 (günlü) — bu dosya günü doğrulayamadı, olay yıl hassasiyetinde yazıldı. Enver Konukçu maddesinin metni bu oturumda özet olarak okundu (WebFetch özeti), ilgili cümleler birebir değil paraphrase: sayfa numaraları sayfa üstbilgisinden. Başka akademik kaynakla çift teyit yapılamadı (Iranica 'Hyderabad' 403/erişilemedi). TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Uyuşmayanlar: ALINTI DÜZELTİLDİ (ilk.tanik): olgu doğru, önceki alıntı WebFetch özetinden/paraphrase idi; TDV gövdesindeki gerçek cümle yazıldı. Önceki notlardaki \"WebFetch özeti / tam metne karşı doğrulandı (tarayıcı) / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir. | Parti5 tanık kuralı (17 Kasım 2026): kesinlik belirsiz'e indirildi (ad+yıl aynı cümlede birebir bulunamadı) [ilk]: madde konusu cümlesi: kaynak cümlesinde şehir adı yok (özne 'şehir/kasaba/burası' ya da madde başlığı), aynı cümlede ad+yıl bulunamadı ('Yeni başşehrin kuruluş hazırlıkları 1590 yılında tamamlandı') Parti5 geri alma (koordinatör kararı): tanık cümlesi madde konusu şehre atıflı (madde: TDV İslâm Ansiklopedisi); ilk.kesinlik 'belirsiz' → 'yil' geri alındı."
  },
  {
+  "id": "hugli-in-p8b",
+  "ad": "Hooghly",
+  "atlas_ad": "Hûglî (Hooghly)",
+  "lat": 22.897,
+  "lon": 88.39,
+  "kat1900": 3,
+  "adlar": [
+   "Hugli",
+   "Hooghly",
+   "Hughli"
+  ],
+  "ilk": {
+   "t": "1579-01-01",
+   "gun": "1579",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Banglapedia: National Encyclopedia of Bangladesh (Asiatic Society of Bangladesh, 2. baskı 2012), https://en.banglapedia.org/index.php/Hughli,_City (yazar: Md Akhtaruzzaman; kaynakça: J. J. A. Campos, History of the Portuguese in Bengal, Calcutta 1919; J. N. Sarkar (ed.), History of Bengal II, Dhaka 1976), tarayıcı dışı sayfa okuması, 17 Kasım 2026, tam sayfa metni okundu ve tanık includes() ile doğrulandı",
+   "tanik": "official establishment of a Portuguese colony at Hughli (in 1579 AD)"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1632-09-15",
+    "gun": "1632-09-15",
+    "k": "fetih",
+    "b": "Kâsım Han Cüveynî Hugli'yi 20 Haziran 1632'de kuşattı, 15 Eylül'de Portekizlilerden aldı",
+    "kesinlik": "gun",
+    "kaynak": "Banglapedia: National Encyclopedia of Bangladesh (Asiatic Society of Bangladesh, 2. baskı 2012), https://en.banglapedia.org/index.php/Hughli,_City (yazar: Md Akhtaruzzaman; kaynakça: J. J. A. Campos, History of the Portuguese in Bengal, Calcutta 1919; J. N. Sarkar (ed.), History of Bengal II, Dhaka 1976), tarayıcı dışı sayfa okuması, 17 Kasım 2026, tam sayfa metni okundu ve tanık includes() ile doğrulandı"
+   },
+   {
+    "t": "1651-01-01",
+    "gun": "1651",
+    "k": "diger",
+    "b": "İngiliz Doğu Hindistan Şirketi Hugli'de fabrika kurdu",
+    "kesinlik": "yil",
+    "kaynak": "Banglapedia: National Encyclopedia of Bangladesh (Asiatic Society of Bangladesh, 2. baskı 2012), https://en.banglapedia.org/index.php/Hughli,_City (yazar: Md Akhtaruzzaman; kaynakça: J. J. A. Campos, History of the Portuguese in Bengal, Calcutta 1919; J. N. Sarkar (ed.), History of Bengal II, Dhaka 1976), tarayıcı dışı sayfa okuması, 17 Kasım 2026, tam sayfa metni okundu ve tanık includes() ile doğrulandı"
+   },
+   {
+    "t": "1757-01-10",
+    "gun": "1757-01-10",
+    "k": "fetih",
+    "b": "Hugli şehri İngilizlerce basıldı, yağmalandı ve yakıldı",
+    "kesinlik": "gun",
+    "kaynak": "Banglapedia: National Encyclopedia of Bangladesh (Asiatic Society of Bangladesh, 2. baskı 2012), https://en.banglapedia.org/index.php/Hughli,_City (yazar: Md Akhtaruzzaman; kaynakça: J. J. A. Campos, History of the Portuguese in Bengal, Calcutta 1919; J. N. Sarkar (ed.), History of Bengal II, Dhaka 1976), tarayıcı dışı sayfa okuması, 17 Kasım 2026, tam sayfa metni okundu ve tanık includes() ile doğrulandı"
+   }
+  ],
+  "ic_not": "TEK KAYNAK (Banglapedia; imzalı madde, kaynakça Campos 1919 ve Sarkar). ÇELİŞKİ: Imperial Gazetteer (DSAL, OCR) c.13 s.173/176 Hooghly'nin 1537'de Portekizlilerce kurulduğunu yazar; DSAL c.8 s.39 OCR'ı '1637' okur (rakam bozulması). Banglapedia ise 1565 öncesi Hugli'de (Bhagirathi kıyısı) Portekiz yerleşimi bulunmadığını, Mayıs 1578'de Pedro Tavares'in Ekber'den şehir kurma izni aldığını ve resmî kuruluşun 1579 olduğunu yazar. İki tarihin neden ayrıştığı (örn. 1537 = Satgaon çevresindeki erken Portekiz varlığı) bu oturumda kaynakla doğrulanmadı. Hakemli karar için üçüncü bir bağımsız akademik kaynak okunamadı (Britannica 1911 'Hugli' sayfası Wikisource'ta yok, studylight Cloudflare engelli); bu yüzden 1579 (resmî kuruluş, Banglapedia) yazıldı, 1537 çelişkisi burada beyan edilir ve ikinci bir kaynakla kesinleştirilmelidir. Kesinlik yıl; 1579 içinde ay/gün yok. Olaylar aynı maddedeki 'Qasim Khan laid siege on Hughli on 20 June 1632 and captured it on 15 September' (yıl 1632 aynı cümlede), 'English east india company established their factory at Hughli in 1651', 'port city of Hughli was stormed, sacked, plundered and burnt by the English on 10 January 1757' cümleleridir. sahip[] yazılmadı."
+ },
+ {
   "id": "indor-p6",
   "ad": "İndor (Indore)",
   "atlas_ad": "İndor (Indore)",
@@ -2234,6 +2367,32 @@ window.SEHIR_TARIHCE_HINT = [
   ],
   "ic_not": "Kaynak: TDV 'Leknev' TAM METİN. Çift teyit YOK. ilk.t: 'bilinen tarihi XIII. yüzyılın başlarına kadar gider' — 'başlarına' için yüzyıl hassasiyeti, aralığın güvenli ucu (1233) alındı (1201-1233). Atlas Leknev'i 1281'de delhi-sultanligi ile başlatır; TDV Delhi Sultanlığı hâkimiyetini yalnız Şarkî döneminden (1394-1478) SONRA anlatır → atlasın 1281 iddiası TDV'de dayanaksızdır (dikis_beyan). TDV: 1784 Bârâ İmambârâ, 1479 tarihli Şeyh Muhammed Türbesi mimari tanıktır, zincire bağlanmadı.",
   "dikis_beyan": "Atlas Leknev'i 1281-01-01'de delhi-sultanligi ile başlatır; TDV 'Leknev' maddesi 1233-1281 arasını ve Delhi Sultanlığı'nın XIII. yy hâkimiyetini tarihli vermez (Delhi Sultanlığı'na geçiş Şarkî dönemi 1394-1478'den 'sonra'); kaynak bulunamadı, yer tutucu olay yazılmadı."
+ },
+ {
+  "id": "ludhiyana-in-p8b",
+  "ad": "Ludhiana",
+  "atlas_ad": "Ludhiyana",
+  "lat": 30.901,
+  "lon": 75.857,
+  "kat1900": 3,
+  "adlar": [
+   "Lodiana",
+   "Ludhiana"
+  ],
+  "ilk": {
+   "t": "1480-01-01",
+   "gun": "1480",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 11. baskı (1911), cilt 17, s.112, 'Ludhiana' maddesi (Wikisource temiz transkripsiyonu: https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Ludhiana); kaynakça: Ludhiana District Gazetteer (Lahore 1907); tarayıcı dışı sayfa okuması, 17 Kasım 2026, tam sayfa metni okundu ve tanık includes() ile doğrulandı",
+   "tanik": "The town of Ludhiana was founded in 1480 by two of the Lodi race"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [],
+  "ic_not": "TEK KAYNAK (Britannica 1911, Ludhiana District Gazetteer 1907'ye dayanır). Önceki parti: Imperial Gazetteer OCR'ı 'founded in \"481' (ilk hane kayıp) idi ve 1481 olarak tahmin edilmişti; OCR'sız temiz metin 1480 verir, 1480 yazıldı (1481 tahmini düşer). Aynı maddede 'Sayyid dynasty about 1445' ilçenin Raikot Raisleri'ne fief verilişi (şehir olgusu değil, 'about'), yazılmadı. İki Lodi kurucunun adı bu metinde yok. Çift teyit YOK (Gazetteer ve Britannica aynı anlatı çizgisi); Majumdar VI Yusuf/Nihang Han ~1480 anısı bu oturumda okunmadı. Atlas Ludhiyana'yı 1526 sonrası başlatıyorsa ilk.t (1480) onun öncesidir: atlas başlangıcı Lodi (Delhi Sultanlığı) künyesiyle ayrıca denetlenmeli. sahip[] yazılmadı."
  },
  {
   "id": "mahe-in-p6",
@@ -3177,6 +3336,58 @@ window.SEHIR_TARIHCE_HINT = [
    }
   ],
   "ic_not": "TEK KAYNAK (Imperial Gazetteer; OCR). Çift teyit: Britannica sayfası/TDV/Majumdar bu oturumda ilgili yılı vermedi ya da 404 döndü; bağımsız ikinci kaynak bulunamadı. 790'da yıkım kaydı şehrin o yıl VAR olduğunu gösterir; kuruluş tanığı değildir (kur yok). Aynı maddede tarihsiz rivayet: Raja Sala/Salivahan kurucu (efsane, yazılmadı). Metindeki 'A. n. 790' OCR okuması; 790 olarak okundu, sayfa görüntüsü (V22 nesne 341) doğrulanamadı (ekran görüntüsü alınamadı). Cümle 'the fort and city' der; atıf, madde başlığı Sialkot Town olduğu için kabul edildi. Aynı eserde Sakala=Sialkot özdeşleştirmesi (c.2 s.81, c.22 s.335 'recently been suggested') tartışmalı olduğundan ilk anılış sayılmadı. ÖLÇÜLDÜ: atlas noktası 0500-01-01'de 'alkhon' ile başlıyor (denetim/atlas_ilk_gunleri, 17 Kasım 2026)."
+ },
+ {
+  "id": "sonargaon-in-p8b",
+  "ad": "Sonargaon",
+  "atlas_ad": "Sonârgâon",
+  "lat": 23.646,
+  "lon": 90.599,
+  "kat1900": 3,
+  "adlar": [
+   "Sonargaon",
+   "Svarnagrama",
+   "Suvarnagrama"
+  ],
+  "ilk": {
+   "t": "1270-01-01",
+   "gun": "1270 (probably)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Banglapedia: National Encyclopedia of Bangladesh (Asiatic Society of Bangladesh, 2. baskı 2012), https://en.banglapedia.org/index.php/Sonargaon (yazar: Muazzam Hussain Khan; kaynakça: M. H. Khan, Thousand Years of Sonargaon, Dhaka 2009), tarayıcı dışı sayfa okuması, 17 Kasım 2026, tam sayfa metni okundu ve tanık includes() ile doğrulandı",
+   "tanik": "who came to Sonargaon probably in 1270 AD"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1338-01-01",
+    "gun": "1338",
+    "k": "diger",
+    "b": "Sonargaon, Fahreddin Mübârek Şah'ın kurduğu Bengal'in ilk bağımsız sultanlığının başkenti oldu",
+    "kesinlik": "yil",
+    "kaynak": "Banglapedia: National Encyclopedia of Bangladesh (Asiatic Society of Bangladesh, 2. baskı 2012), https://en.banglapedia.org/index.php/Sonargaon (yazar: Muazzam Hussain Khan; kaynakça: M. H. Khan, Thousand Years of Sonargaon, Dhaka 2009), tarayıcı dışı sayfa okuması, 17 Kasım 2026, tam sayfa metni okundu ve tanık includes() ile doğrulandı"
+   },
+   {
+    "t": "1352-01-01",
+    "gun": "1352",
+    "k": "fetih",
+    "b": "Fahreddin hanedanı Şemseddin İlyas Şah'ın eline düştü; Sonargaon bu tarihten sonra taşra metropolü oldu",
+    "kesinlik": "yil",
+    "kaynak": "Banglapedia: National Encyclopedia of Bangladesh (Asiatic Society of Bangladesh, 2. baskı 2012), https://en.banglapedia.org/index.php/Sonargaon (yazar: Muazzam Hussain Khan; kaynakça: M. H. Khan, Thousand Years of Sonargaon, Dhaka 2009), tarayıcı dışı sayfa okuması, 17 Kasım 2026, tam sayfa metni okundu ve tanık includes() ile doğrulandı"
+   },
+   {
+    "t": "1611-01-01",
+    "gun": "1611",
+    "k": "fetih",
+    "b": "Musa Han'ın Babürlülerce yenilmesiyle Sonargaon siyasî önemini yitirdi; Bengal subesinin bir sarkarının merkezi olarak kaldı",
+    "kesinlik": "yil",
+    "kaynak": "Banglapedia: National Encyclopedia of Bangladesh (Asiatic Society of Bangladesh, 2. baskı 2012), https://en.banglapedia.org/index.php/Sonargaon (yazar: Muazzam Hussain Khan; kaynakça: M. H. Khan, Thousand Years of Sonargaon, Dhaka 2009), tarayıcı dışı sayfa okuması, 17 Kasım 2026, tam sayfa metni okundu ve tanık includes() ile doğrulandı"
+   }
+  ],
+  "ic_not": "TEK KAYNAK (Banglapedia; imzalı madde, akademik ansiklopedi; DSAL Imperial Gazetteer 1296 cümlesinin OCR'sız karşılığı bulunamadı, o yüzden 1296 yazılmadı). ilk.t=1270: Banglapedia 'Maulana Şerefeddin Ebû Tevvâme Buhârî Sonargaon'a muhtemelen (probably) 1270'te geldi, hankâh ve medrese kurdu' der; 'probably' belirsizliği ic_not'ta beyan edilir, kesinlik yıl. Bu, şehrin o yıl VAR olduğu ve Müslüman ilim merkezi taşıdığı tanığıdır (kuruluş değil). Aynı maddede Sonargaon'un Vanga krallığı başkenti oluşu 'presumably 1260'lar' (varsayım, yıl yok) ve 'Hindu yönetiminin sonu (1302)' verilir; yazılmadı. Madde ayrıca ilk Müslüman valiyi Bahâdur Şah'ın bağımsızlığı (tarihsiz) ve 1338 öncesi 'bir on yıl' Tuğluk doğu eyaleti merkezi der; tarihsiz oldukları için yazılmadı. Çift teyit YOK. Aynı şehir için parti 4'te Majumdar VI'dan 1328 (728 H.) kaydı vardır (sonargaon-in-p4/A.json); bu kayıt çelişmez, daha geç bir anılıştır; birleştirmede en erken ilk=1270 alınır (probably beyanıyla), 1328 olaydır. 1338: 'The most glorious period of Sonargaon began in 1338 AD' cümlesi; 1352: 'fall of the house of Fakhruddin in the hands of shamsuddin iliyas shah in 1352 AD' (Sonargaon adı önceki cümlelerde); 1611: 'After the fall of musa khan (1611) in the hands of the Mughals, Sonargaon lost its political pre-eminence'. sahip[] yazılmadı (devlet kimlikleri için ayrı doğrulama gerekir)."
  },
  {
   "id": "tranquebar-in-p7",
