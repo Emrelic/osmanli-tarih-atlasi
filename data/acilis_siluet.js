@@ -112,19 +112,18 @@ window.ACILIS_SILUET = {
   function etiket(o) { return kacis(o.ad) + (o.yil ? " · " + kacis(o.yil) : ""); }
   function harita(o, buyuk) {
     var ad = etiket(o), fs = ad.length > 24 ? 7.6 : (ad.length > 18 ? 8.6 : 9.8);
-    if (o.dunya) {  // sömürge imparatorluğu: dünya zemini üstünde
+    // Emre, 17 Kas: haritalar dörtgen içinde DEĞİL, yalnız harita olarak saçılır —
+    // bölge zemini ve dünya zemini çizilmez (üretici zemini hâlâ yazar, burada kullanılmaz).
+    if (o.dunya) {  // sömürge imparatorluğu: dünya ölçeğinde, zeminsiz
       return uri("<svg xmlns='" + NS + "' viewBox='0 0 360 204'>" +
-        "<rect x='0' y='0' width='360' height='180' rx='10' fill='#14304a'/>" +
-        "<path d='" + V.kara + "' fill='#3d5a74'/>" +
-        "<path d='" + o.yol + "' fill='" + o.renk + "' stroke='white' stroke-width='.7' stroke-linejoin='round'/>" +
+        "<path d='" + o.yol + "' fill='rgba(0,0,0,.45)' transform='translate(2 2.6)'/>" +
+        "<path d='" + o.yol + "' fill='" + o.renk + "' stroke='white' stroke-width='.9' stroke-linejoin='round'/>" +
         "<text x='180' y='199' text-anchor='middle' font-family='Georgia,serif' font-size='17' fill='white'>" + ad + "</text></svg>");
     }
-    var zemin = o.zemin ? "<rect x='0' y='0' width='100' height='100' rx='7' fill='#14304a'/>" +
-                          "<path d='" + o.zemin + "' fill='#3d5a74'/>" : "";
-    var golge = o.zemin ? "" : "<path d='" + o.yol + "' fill='rgba(0,0,0,.4)' transform='translate(1.3 1.8)'/>";
+    var golge = "<path d='" + o.yol + "' fill='rgba(0,0,0,.4)' transform='translate(1.3 1.8)'/>";
     // Gölge SVG'nin İÇİNDE: CSS filter uçan katmanda her kare yeniden hesaplanıyordu (0929 ölçümü).
-    return uri("<svg xmlns='" + NS + "' viewBox='0 0 100 116'>" + zemin + golge +
-      "<path d='" + o.yol + "' fill='" + o.renk + "' stroke='white' stroke-width='" + (o.zemin ? .8 : 1.2) + "' stroke-linejoin='round'/>" +
+    return uri("<svg xmlns='" + NS + "' viewBox='0 0 100 116'>" + golge +
+      "<path d='" + o.yol + "' fill='" + o.renk + "' stroke='white' stroke-width='" + (o.zemin ? 1 : 1.2) + "' stroke-linejoin='round'/>" +
       "<text x='50' y='112' text-anchor='middle' font-family='Georgia,serif' font-size='" + (buyuk ? 9.8 : fs) +
       "' fill='white'>" + ad + "</text></svg>");
   }
