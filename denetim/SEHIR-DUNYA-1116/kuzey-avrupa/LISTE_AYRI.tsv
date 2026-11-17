@@ -1,4 +1,4 @@
-kaynak_liste	kat	ad_modern	ad_1900	ulke	lat	lon	koord_kaynak	atlas_aday	kron_anma	tarihce_var
-ayri-kayit-onerisi	-	Gammelstad (Luleå kyrkby)	Gammelstad	İsveç	65.63931	22.01145	GeoNames sayfa okuması (search.html, P/PPPL): 65°38′21.52″ N, 22°00′41.22″ E	yok	0	ayri
-ayri-kayit-onerisi	-	Gamla Uppsala	Gamla Uppsala	İsveç	59.89817	17.63386	GeoNames sayfa okuması (search.html, P/PPLX): 59°53′53.41″ N, 17°38′01.90″ E	yok (atlas 'Uppsala' 4,5 km)	0	ayri
-ayri-kayit-onerisi	-	Vanha Vaasa (Eski Vaasa, Korsholm-Mustasaari)	Gamla Vasa	Finlandiya	63.07051	21.72529	GeoNames sayfa okuması (search.html, P/PPPLX): 63°04′13.84″ N, 21°43′31.04″ E	yok (atlas 'Vaasa' 6 km)	0	ayri
+kaynak_liste	kat	ad_modern	ad_1900	ulke	lat	lon	koord_kaynak	atlas_aday	kron_anma	tarihce_var	not	bugun_var	bugun_ad	bugun_kaynak
+ayri-kayit-onerisi	-	Gammelstad (Luleå kyrkby)	Gammelstad	İsveç	65.63931	22.01145	GeoNames sayfa okuması (search.html, P/PPPL): 65°38′21.52″ N, 22°00′41.22″ E	yok	0	ayri		E	Gammelstad (Luleå kyrkby)	GeoNames 606072 Gammelstad (PPL, 0.0 km)
+ayri-kayit-onerisi	-	Gamla Uppsala	Gamla Uppsala	İsveç	59.89817	17.63386	GeoNames sayfa okuması (search.html, P/PPLX): 59°53′53.41″ N, 17°38′01.90″ E	yok (atlas 'Uppsala' 4,5 km)	0	ayri		H		GeoNames 2712993 Gamla Uppsala (PPLX = Uppsala içi semt/köy; ADM3 0.2 km); eski şehir işlevi sona erdi, şehir Uppsala (PPLA 2666199, ~4,5 km); yer terk değil ama şehir olarak yok
+ayri-kayit-onerisi	-	Vanha Vaasa (Eski Vaasa, Korsholm-Mustasaari)	Gamla Vasa	Finlandiya	63.07051	21.72529	GeoNames sayfa okuması (search.html, P/PPPLX): 63°04′13.84″ N, 21°43′31.04″ E	yok (atlas 'Vaasa' 6 km)	0	ayri		D	Vaasa	GeoNames 842856 Vanha Vaasa (PPLX, semt, 0.0 km); şehir merkezi Vaasa PPLA 632978 yeni yerde; eski yerleşim yerinde şehir yok
