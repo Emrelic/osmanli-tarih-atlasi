@@ -1,5 +1,5 @@
-// ŞEHİR TARİHÇESİ — KUZEY_AMERIKA_2 · üretici: arac/sehir_tarihce.py · şema: VERI-YAPISI.md
-// Motor/denetle/site OKUMAZ — araştırma birikimi. Elle düzenleme: JSON'u düzelt, yeniden üret.
+// ŞEHİR TARİHÇESİ — KUZEY_AMERIKA_2 · üretici: arac/sehir_tarihce.py · şema: VERI-YAPISI.md
+// Motor/denetle/site OKUMAZ — araştırma birikimi. Elle düzenleme: JSON'u düzelt, yeniden üret.
 window.SEHIR_TARIHCE_KUZEY_AMERIKA_2 = [
  {
   "id": "albany-us",
@@ -779,81 +779,6 @@ window.SEHIR_TARIHCE_KUZEY_AMERIKA_2 = [
    }
   ],
   "ic_not": "KAYNAK ÇELİŞKİSİ (ic_not): NPS (A Short History of Jamestown) 'On May 13' seçildi der; Historic Jamestowne (Preservation Virginia) 'On May 14, 1607 ... landed' der. İki kaynak bağımsız değil (aynı site ortak yönetim); NPS (kamu kurumu, kronoloji_ingiltere/ Oxford Companion 13 Mayıs ile uyumlu) esas alındı: 13 Mayıs. ATLAS ÇELİŞKİSİ: atlas kur 1607-05-23, kaynaklı gün 1607-05-13 (NPS) / 14 (HJ). Britannica «Jamestown» tam makale değil, YZ özeti ('May 14') → DAYANAK ALINMADI. Zincir 1607-05-13 → atlas 05-23 ingiltere."
- },
- {
-  "id": "los-adaes-us",
-  "ad": "Los Adaes",
-  "atlas_ad": null,
-  "lat": 31.74,
-  "lon": -93.36,
-  "kat1900": 2,
-  "adlar": [
-   "Presidio Nuestra Señora del Pilar de los Adaes",
-   "Los Adaes"
-  ],
-  "ilk": {
-   "t": "1721-01-01",
-   "gun": "1721",
-   "nicelik": "kurulus",
-   "kesinlik": "yil",
-   "kaynak": "Handbook of Texas Online (TSHA), «Los Adaes», https://www.tshaonline.org/handbook/entries/los-adaes (sayfa gövdesi okundu, 17 Kasım 2026) ; ikinci kaynak: 64 Parishes (Louisiana Endowment for the Humanities), «Los Adaes», https://www.64parishes.org/entry/los-adaes (sayfa gövdesi okundu, 17 Kasım 2026)",
-   "tanik": "His expedition established the presidio and reoccupied the mission at Los Adaes in 1721"
-  },
-  "kur": null,
-  "ark": null,
-  "bit": {
-   "t": "1773-06-01",
-   "gun": "Haziran 1773",
-   "kesinlik": "ay",
-   "kaynak": "Handbook of Texas Online (TSHA), «Los Adaes», https://www.tshaonline.org/handbook/entries/los-adaes (sayfa gövdesi okundu, 17 Kasım 2026)"
-  },
-  "sahip": [
-   {
-    "f": "1721-01-01",
-    "t": "1773-06-01",
-    "d": "ispanya",
-    "kesinlik": "yil",
-    "kaynak": "Handbook of Texas Online (TSHA), «Los Adaes», https://www.tshaonline.org/handbook/entries/los-adaes (sayfa gövdesi okundu, 17 Kasım 2026) (İspanyol Teksas eyaletinin presidiosu/başkenti)"
-   },
-   {
-    "f": "1773-06-01",
-    "t": "1900-01-01",
-    "d": "__BILINMIYOR__",
-    "kesinlik": "ay",
-    "kaynak": "Handbook of Texas Online (TSHA), «Los Adaes», https://www.tshaonline.org/handbook/entries/los-adaes (sayfa gövdesi okundu, 17 Kasım 2026)",
-    "ic_not": "1773'te garnizon ve misyon boşaltıldı (TSHA); sonrasında yerleşimin varlığı/sahibi kaynakta yok — F3'te arkeolojik/Louisiana kaynakları (Los Adaes State Historic Site) aranmalı."
-   }
-  ],
-  "olay": [
-   {
-    "t": "1729-01-01",
-    "gun": "1729",
-    "k": "diger",
-    "b": "Los Adaes İspanyol Teksas eyaletinin başkenti ilan edildi (başkentlik 1729-1770: 64 Parishes; 1773'e kadar: TSHA)",
-    "kesinlik": "yil",
-    "kaynak": "Handbook of Texas Online (TSHA), «Los Adaes», https://www.tshaonline.org/handbook/entries/los-adaes (sayfa gövdesi okundu, 17 Kasım 2026)",
-    "tanik": "The Viceroy's Regulation of that year designated Los Adaes as the capital of Texas."
-   },
-   {
-    "t": "1772-01-01",
-    "gun": "1772",
-    "k": "diger",
-    "b": "Kraliyet Nizamnamesi Los Adaes'in terk edilmesini ve başkentin San Antonio de Béxar'a taşınmasını emretti",
-    "kesinlik": "yil",
-    "kaynak": "Handbook of Texas Online (TSHA), «Los Adaes», https://www.tshaonline.org/handbook/entries/los-adaes (sayfa gövdesi okundu, 17 Kasım 2026)",
-    "tanik": "the Spanish crown issued the Royal Regulation of 1772"
-   },
-   {
-    "t": "1773-06-01",
-    "gun": "Haziran 1773",
-    "k": "kayip",
-    "b": "Los Adaes'in ~500 kişilik nüfusu kısa sürede yerinden edildi",
-    "kesinlik": "ay",
-    "kaynak": "Handbook of Texas Online (TSHA), «Los Adaes», https://www.tshaonline.org/handbook/entries/los-adaes (sayfa gövdesi okundu, 17 Kasım 2026)",
-    "tanik": "After painfully short notice in June 1773"
-   }
-  ],
-  "ic_not": "Atlas'ta Los Adaes yok (atlas_ad null). ÇİFT TEYİT: TSHA ve 64 Parishes presidio'nun 1721'de Aguayo seferiyle kurulduğunu söyler (64 Parishes: 'In 1721 the Spanish built a presidio'). 64 Parishes başkentliği 1729-1770 verir, TSHA Royal Regulation 1772 + terk 1773; çelişki: başkentlik bitişi 1770 (64P) vs 1772/73 (TSHA) → ic_not'ta beyan; terk için TSHA (1773-06) esas. Zincir: 1773'ten sonrası __BILINMIYOR__. Coğrafya: Robeline, Natchitoches Parish, Louisiana (bugünkü ABD)."
  },
  {
   "id": "montgomery-us",

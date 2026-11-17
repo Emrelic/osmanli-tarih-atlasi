@@ -1,5 +1,5 @@
-// ŞEHİR TARİHÇESİ — K12 · üretici: arac/sehir_tarihce.py · şema: VERI-YAPISI.md
-// Motor/denetle/site OKUMAZ — araştırma birikimi. Elle düzenleme: JSON'u düzelt, yeniden üret.
+// ŞEHİR TARİHÇESİ — K12 · üretici: arac/sehir_tarihce.py · şema: VERI-YAPISI.md
+// Motor/denetle/site OKUMAZ — araştırma birikimi. Elle düzenleme: JSON'u düzelt, yeniden üret.
 window.SEHIR_TARIHCE_K12 = [
  {
   "id": "abomey",
@@ -23168,7 +23168,7 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "Çift teyit yok. Atlas düzeltme önerisi: atlas 'ryukyu' 1281-01-01'den Şuri'yi veriyor; bu oturumda Shuri'ye 1393'ten önce tanık bulunamadı (Chūzan Seikan/Chūzan Seifu açılmadı: Wikisource'ta yok). Zincir boş bırakıldı. Not: sayfa Naha'yı 'Ukishima'da balıkçı köyü' sayar; modern Şuri (Shuri kalesi) noktası kullanıldı."
  },
  {
-  "id": "susa",
+  "id": "susa-karabag",
   "ad": "Şuşa",
   "atlas_ad": "Şuşa",
   "lat": 39.7558,

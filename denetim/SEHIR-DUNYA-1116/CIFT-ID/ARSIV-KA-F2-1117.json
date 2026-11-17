@@ -1,0 +1,174 @@
+[
+ {
+  "id": "austin-us",
+  "dusen_dosya": "kuzey_amerika_3",
+  "dusen_kayit": {
+   "id": "austin-us",
+   "ad": "Austin",
+   "atlas_ad": null,
+   "lat": 30.267,
+   "lon": -97.743,
+   "kat1900": 2,
+   "adlar": [
+    "Waterloo",
+    "Austin"
+   ],
+   "ilk": {
+    "t": "1839-01-01",
+    "gun": "1839",
+    "nicelik": "kurulus",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, «Austin (Texas)» (Britannica Editors), https://www.britannica.com/place/Austin-Texas (tam gövde okundu, 17 Kasım 2026)",
+    "tanik": "In 1839 it was selected by scouts as the site for the permanent capital of the Republic of Texas and renamed to honour Stephen F. Austin, father of the republic."
+   },
+   "kur": null,
+   "ark": null,
+   "bit": null,
+   "sahip": [
+    {
+     "f": "1839-01-01",
+     "t": "1846-02-19",
+     "d": "texas-cumhuriyeti",
+     "kesinlik": "yil",
+     "kaynak": "Encyclopaedia Britannica, «Austin (Texas)» (Britannica Editors), https://www.britannica.com/place/Austin-Texas (tam gövde okundu, 17 Kasım 2026) + Handbook of Texas Online (TSHA), «Austin (Travis County)», https://www.tshaonline.org/handbook/entries/austin-tx-travis-county (okundu, 17 Kasım 2026; alıntı WebFetch aracının sayfadan çıkarımıdır, tam gövde değil)",
+     "kunye_yok": true,
+     "ic_not": "Önerilen künye id 'texas-cumhuriyeti' (Teksas Cumhuriyeti). Bu kaynaklarla yalnız Austin'in cumhuriyet başkenti olduğu 1839'dan ABD'ye devir gününe (HoT: 19 Şubat 1846) kadar dilim yazıldı; cumhuriyetin genel ömrü (1836-03 → 1846-02) bu dosyada kaynaklanmadı. Kaynak: Britannica 'capital of the Republic of Texas' (1839); HoT 'formal transfer of authority from the republic to the state' (19 Şubat 1846)."
+    },
+    {
+     "f": "1846-02-19",
+     "t": "1900-01-01",
+     "d": "abd",
+     "kesinlik": "gun",
+     "kaynak": "Handbook of Texas Online (TSHA), «Austin (Travis County)», https://www.tshaonline.org/handbook/entries/austin-tx-travis-county (okundu, 17 Kasım 2026; alıntı WebFetch aracının sayfadan çıkarımıdır, tam gövde değil) (devir günü)"
+    }
+   ],
+   "olay": [
+    {
+     "t": "1839-01-01",
+     "gun": "Ocak 1839",
+     "k": "idari",
+     "b": "Teksas Kongresi'nin atadığı komisyon batı sınırında bir yer seçti (Waterloo köyü ve çevresi)",
+     "kesinlik": "ay",
+     "kaynak": "Handbook of Texas Online (TSHA), «Austin (Travis County)», https://www.tshaonline.org/handbook/entries/austin-tx-travis-county (okundu, 17 Kasım 2026; alıntı WebFetch aracının sayfadan çıkarımıdır, tam gövde değil)",
+     "tanik": "A site-selection commission appointed by the Texas Congress in January 1839 chose a site on the western frontier"
+    },
+    {
+     "t": "1839-08-01",
+     "gun": "1 Ağustos 1839",
+     "k": "idari",
+     "b": "İlk şehir parsellerinin açık artırması (yıl alıntıda yok, bağlamdan 1839)",
+     "kesinlik": "ay",
+     "kaynak": "Handbook of Texas Online (TSHA), «Austin (Travis County)», https://www.tshaonline.org/handbook/entries/austin-tx-travis-county (okundu, 17 Kasım 2026; alıntı WebFetch aracının sayfadan çıkarımıdır, tam gövde değil)",
+     "tanik": "The first auction of city lots took place on August 1."
+    },
+    {
+     "t": "1842-01-01",
+     "gun": "1842",
+     "k": "kayip",
+     "b": "Meksika istilası tehdidiyle hükûmet Austin'den Houston'a taşındı; Austin halkı 'Arşiv Savaşı'nda kayıtları alıkoydu",
+     "kesinlik": "yil",
+     "kaynak": "Encyclopaedia Britannica, «Austin (Texas)» (Britannica Editors), https://www.britannica.com/place/Austin-Texas (tam gövde okundu, 17 Kasım 2026)",
+     "tanik": "When Mexican invasion threatened Texas in 1842, the government moved to Houston, but the town’s citizens, determined to keep Austin the capital, staged the so-called Archive War, forcibly retaining government records."
+    },
+    {
+     "t": "1845-01-01",
+     "gun": "1845",
+     "k": "idari",
+     "b": "Hükûmet Austin'e döndü; Britannica aynı yıl Teksas'ın ABD'ye kabulünü bildirir",
+     "kesinlik": "yil",
+     "kaynak": "Encyclopaedia Britannica, «Austin (Texas)» (Britannica Editors), https://www.britannica.com/place/Austin-Texas (tam gövde okundu, 17 Kasım 2026)",
+     "tanik": "The government returned to Austin in 1845, the year in which Texas was admitted to the United States."
+    },
+    {
+     "t": "1846-02-19",
+     "gun": "19 Şubat 1846",
+     "k": "ilhak",
+     "b": "Cumhuriyetten ABD eyaletine yetki devri; Austin resmen eyalet başkenti",
+     "kesinlik": "gun",
+     "kaynak": "Handbook of Texas Online (TSHA), «Austin (Travis County)», https://www.tshaonline.org/handbook/entries/austin-tx-travis-county (okundu, 17 Kasım 2026; alıntı WebFetch aracının sayfadan çıkarımıdır, tam gövde değil)",
+     "tanik": "Austin officially became the state capital on February 19, 1846"
+    }
+   ],
+   "ic_not": "ÇELİŞKİ (beyan): Britannica Teksas'ın ABD'ye 1845'te kabulünü söyler; HoT eyalet yetki devrini 19 Şubat 1846 verir. Zincir devri HoT'un gün verdiği tarihle yazıldı (annexation 29 Aralık 1845 gibi üçüncü kaynak OKUNMADI). Waterloo'nun ilk yerleşim yılı iki kaynakta yok → adlara alındı ama tarihsiz. 1861-65 Konfederasyon dönemi kaynaklanmadı (zincir ABD'de kesintisiz yazıldı: dolaylı, beyan). Atlasta Austin noktası YOK. Çift kaynak: Britannica + HoT (iki ayrı yayıncı)."
+  }
+ },
+ {
+  "id": "los-adaes-us",
+  "dusen_dosya": "kuzey_amerika_2",
+  "dusen_kayit": {
+   "id": "los-adaes-us",
+   "ad": "Los Adaes",
+   "atlas_ad": null,
+   "lat": 31.74,
+   "lon": -93.36,
+   "kat1900": 2,
+   "adlar": [
+    "Presidio Nuestra Señora del Pilar de los Adaes",
+    "Los Adaes"
+   ],
+   "ilk": {
+    "t": "1721-01-01",
+    "gun": "1721",
+    "nicelik": "kurulus",
+    "kesinlik": "yil",
+    "kaynak": "Handbook of Texas Online (TSHA), «Los Adaes», https://www.tshaonline.org/handbook/entries/los-adaes (sayfa gövdesi okundu, 17 Kasım 2026) ; ikinci kaynak: 64 Parishes (Louisiana Endowment for the Humanities), «Los Adaes», https://www.64parishes.org/entry/los-adaes (sayfa gövdesi okundu, 17 Kasım 2026)",
+    "tanik": "His expedition established the presidio and reoccupied the mission at Los Adaes in 1721"
+   },
+   "kur": null,
+   "ark": null,
+   "bit": {
+    "t": "1773-06-01",
+    "gun": "Haziran 1773",
+    "kesinlik": "ay",
+    "kaynak": "Handbook of Texas Online (TSHA), «Los Adaes», https://www.tshaonline.org/handbook/entries/los-adaes (sayfa gövdesi okundu, 17 Kasım 2026)"
+   },
+   "sahip": [
+    {
+     "f": "1721-01-01",
+     "t": "1773-06-01",
+     "d": "ispanya",
+     "kesinlik": "yil",
+     "kaynak": "Handbook of Texas Online (TSHA), «Los Adaes», https://www.tshaonline.org/handbook/entries/los-adaes (sayfa gövdesi okundu, 17 Kasım 2026) (İspanyol Teksas eyaletinin presidiosu/başkenti)"
+    },
+    {
+     "f": "1773-06-01",
+     "t": "1900-01-01",
+     "d": "__BILINMIYOR__",
+     "kesinlik": "ay",
+     "kaynak": "Handbook of Texas Online (TSHA), «Los Adaes», https://www.tshaonline.org/handbook/entries/los-adaes (sayfa gövdesi okundu, 17 Kasım 2026)",
+     "ic_not": "1773'te garnizon ve misyon boşaltıldı (TSHA); sonrasında yerleşimin varlığı/sahibi kaynakta yok — F3'te arkeolojik/Louisiana kaynakları (Los Adaes State Historic Site) aranmalı."
+    }
+   ],
+   "olay": [
+    {
+     "t": "1729-01-01",
+     "gun": "1729",
+     "k": "diger",
+     "b": "Los Adaes İspanyol Teksas eyaletinin başkenti ilan edildi (başkentlik 1729-1770: 64 Parishes; 1773'e kadar: TSHA)",
+     "kesinlik": "yil",
+     "kaynak": "Handbook of Texas Online (TSHA), «Los Adaes», https://www.tshaonline.org/handbook/entries/los-adaes (sayfa gövdesi okundu, 17 Kasım 2026)",
+     "tanik": "The Viceroy's Regulation of that year designated Los Adaes as the capital of Texas."
+    },
+    {
+     "t": "1772-01-01",
+     "gun": "1772",
+     "k": "diger",
+     "b": "Kraliyet Nizamnamesi Los Adaes'in terk edilmesini ve başkentin San Antonio de Béxar'a taşınmasını emretti",
+     "kesinlik": "yil",
+     "kaynak": "Handbook of Texas Online (TSHA), «Los Adaes», https://www.tshaonline.org/handbook/entries/los-adaes (sayfa gövdesi okundu, 17 Kasım 2026)",
+     "tanik": "the Spanish crown issued the Royal Regulation of 1772"
+    },
+    {
+     "t": "1773-06-01",
+     "gun": "Haziran 1773",
+     "k": "kayip",
+     "b": "Los Adaes'in ~500 kişilik nüfusu kısa sürede yerinden edildi",
+     "kesinlik": "ay",
+     "kaynak": "Handbook of Texas Online (TSHA), «Los Adaes», https://www.tshaonline.org/handbook/entries/los-adaes (sayfa gövdesi okundu, 17 Kasım 2026)",
+     "tanik": "After painfully short notice in June 1773"
+    }
+   ],
+   "ic_not": "Atlas'ta Los Adaes yok (atlas_ad null). ÇİFT TEYİT: TSHA ve 64 Parishes presidio'nun 1721'de Aguayo seferiyle kurulduğunu söyler (64 Parishes: 'In 1721 the Spanish built a presidio'). 64 Parishes başkentliği 1729-1770 verir, TSHA Royal Regulation 1772 + terk 1773; çelişki: başkentlik bitişi 1770 (64P) vs 1772/73 (TSHA) → ic_not'ta beyan; terk için TSHA (1773-06) esas. Zincir: 1773'ten sonrası __BILINMIYOR__. Coğrafya: Robeline, Natchitoches Parish, Louisiana (bugünkü ABD)."
+  }
+ }
+]

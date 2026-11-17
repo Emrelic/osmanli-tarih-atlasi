@@ -1,5 +1,5 @@
-// ŞEHİR TARİHÇESİ — K3 · üretici: arac/sehir_tarihce.py · şema: VERI-YAPISI.md
-// Motor/denetle/site OKUMAZ — araştırma birikimi. Elle düzenleme: JSON'u düzelt, yeniden üret.
+// ŞEHİR TARİHÇESİ — K3 · üretici: arac/sehir_tarihce.py · şema: VERI-YAPISI.md
+// Motor/denetle/site OKUMAZ — araştırma birikimi. Elle düzenleme: JSON'u düzelt, yeniden üret.
 window.SEHIR_TARIHCE_K3 = [
  {
   "id": "a-coruna-es",
@@ -27967,12 +27967,65 @@ window.SEHIR_TARIHCE_K3 = [
     "tanik": "ribâtın bulunduğu yerde bir ordugâh kurulmasını emretti"
    },
    {
+    "t": "1184-01-01",
+    "gun": "1184-1199",
+    "k": "kurulus",
+    "b": "Ebû Yûsuf el-Mansûr dönemi (1184-1199) şehrin asıl kuruluş ve imar programı: bugün hâlâ ayakta kalan surlar ve Hassan Camii (tamamlanmadı).",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'RABAT', https://islamansiklopedisi.org.tr/rabat",
+    "ic_not": "Aralığın ilk yılı."
+   },
+   {
+    "t": "1212-01-01",
+    "gun": "1212 (609 h.)",
+    "k": "savas",
+    "b": "Muvahhidler İkāb'da yenildi; bundan sonra Rabat gerilemeye başladı.",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'RABAT', https://islamansiklopedisi.org.tr/rabat"
+   },
+   {
     "t": "1251-03-26",
     "gun": "649 H / 1251",
     "k": "fetih",
     "b": "Merînî Ebû Yahyâ Ebû Bekir Rabat ve Selâ'yı ele geçirir (atlas dilimi; bilgi amaçlı).",
     "kaynak": "TDV RABAT ; TDV İslâm Ansiklopedisi, MERÎNÎLER, https://islamansiklopedisi.org.tr/meriniler",
     "tanik": "Rabat ve Selâ’yı ele geçirdi"
+   },
+   {
+    "t": "1609-01-01",
+    "gun": "1609-1614",
+    "k": "diger",
+    "b": "Endülüs'ten sürülen Müslümanlar Rabat ve Selâ'ya yerleştirildi.",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'RABAT', https://islamansiklopedisi.org.tr/rabat",
+    "ic_not": "Aralığın ilk yılı."
+   },
+   {
+    "t": "1757-01-01",
+    "gun": "1757-1790",
+    "k": "idari",
+    "b": "III. Muhammed Rabat'ı üçüncü başkent yaptı, saray yaptırdı.",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'RABAT', https://islamansiklopedisi.org.tr/rabat",
+    "ic_not": "Aralığın ilk yılı."
+   },
+   {
+    "t": "1911-07-19",
+    "gun": "19 Temmuz 1911",
+    "k": "isgal",
+    "b": "Fransız kuvvetleri Rabat ve Selâ'yı işgal etti.",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'RABAT', https://islamansiklopedisi.org.tr/rabat"
+   },
+   {
+    "t": "1912-01-01",
+    "gun": "1912",
+    "k": "idari",
+    "b": "Mareşal Lyautey idarî merkezi Fes'ten Rabat'a taşıdı; Rabat Fransız himayesinin başkenti oldu.",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'RABAT', https://islamansiklopedisi.org.tr/rabat",
+    "ic_not": "Gün yok; himaye antlaşması günü ayrı olay."
+   },
+   {
+    "t": "1912-03-30",
+    "gun": "30 Mart 1912",
+    "k": "antlasma",
+    "b": "Fransa ile Fas arasında koruma (himaye) antlaşması imzalandı.",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'FAS (Fes şehri)', https://islamansiklopedisi.org.tr/fas--fas"
    }
   ],
   "ic_not": "Rabat: ilk = kuruluş (TDV) 545/1150 → atlas 'muvahhidler' 1150-01-01 başlangıcıyla UYARI (ilk.t atlas başlangıcından sonra; zincir boş). Kaynak sayısı: TDV tek (EI² 'al-Ribāṭ' Brill 202/paywall; Britannica 403; UNESCO sayfası kullanılmadı). Çift teyit YOK. ATLAS: Rabat f 1150-01-01 → 1150-04-30. Sala/Chellah (antik) ayrı karar için işaretli."
