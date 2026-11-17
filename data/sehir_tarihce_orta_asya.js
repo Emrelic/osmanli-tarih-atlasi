@@ -120,6 +120,42 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
   ]
  },
  {
+  "id": "aktobe-kz-p3",
+  "ad": "Aktobe",
+  "atlas_ad": null,
+  "lat": 50.2797,
+  "lon": 57.2072,
+  "kat1900": 3,
+  "adlar": [
+   "Aktyube",
+   "Aktyubinsk",
+   "Aktobe"
+  ],
+  "ilk": {
+   "t": "1869-01-01",
+   "gun": "1869",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Aqtöbe' (Kazakhstan), https://www.britannica.com/place/Aqtobe-Kazakhstan (tarayıcıda okundu, 17 Kasım 2026)",
+   "tanik": "It was founded in 1869 as Aktyube (“White Hill”), a small Russian fort"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1869-01-01",
+    "t": "1900-01-01",
+    "d": "rusya",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, 'Aqtöbe' (Kazakhstan): «a small Russian fort»; 1891'de uyezd merkezi",
+    "ic_not": "Kaynak kuruluşu 'Russian fort' olarak verir; Rusya Çarlığı sahibi olarak yazıldı, 1900'e kadar el değiştirme yok."
+   }
+  ],
+  "olay": [],
+  "ic_not": "P3-B11. TEK KAYNAK. Britannica gövdesinden (YZ özeti bloğu dışı; 'Summary created' bloğu yok). Özne zamir 'It' = madde konusu; başlık şehir. Ad Britannica'da 'Aqtöbe', eski ad Aktyubinsk. Atlas noktası yok (Aktobe/Aktyubinsk adıyla tarandı). WebSearch özeti e-history.kz'de 28 Mayıs 1869 gününü anar ama sayfa bu oturumda okunmadı; gün yazılmadı."
+ },
+ {
   "id": "almalik-cn",
   "ad": "Almalık",
   "atlas_ad": "Almalık (Almalığ)",
@@ -811,6 +847,40 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
     "kanit": "renamed Nur-Sultan in his honor"
    }
   ]
+ },
+ {
+  "id": "atbasar-kz-p3",
+  "ad": "Atbasar",
+  "atlas_ad": null,
+  "lat": 51.8085,
+  "lon": 68.3582,
+  "kat1900": 3,
+  "adlar": [
+   "Atbasar"
+  ],
+  "ilk": {
+   "t": "1846-01-01",
+   "gun": "1846",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Atbasar', https://www.britannica.com/place/Atbasar (tarayıcıda okundu, 17 Kasım 2026)",
+   "tanik": "Founded as a Cossack settlement in 1846, it became known for its annual fair"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1846-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, 'Atbasar'",
+    "ic_not": "BOŞLUK (atlas noktası yok): Britannica 'Cossack settlement' der, devlet adı vermez; beyansız yaklaşıklık yazılmadı."
+   }
+  ],
+  "olay": [],
+  "ic_not": "P3-B11. TEK KAYNAK. Britannica gövdesinden (YZ özeti bloğu dışı; 'Summary created' bloğu yok). Özne zamir 'it' = madde konusu; başlık şehir. Şehir adı alıntıdan önceki cümlede (madde girişi) geçer. Atlas noktası yok."
  },
  {
   "id": "babadagi-ro",

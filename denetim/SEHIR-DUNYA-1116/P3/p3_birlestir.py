@@ -23,7 +23,12 @@ for b in sys.argv[1:]:
             try:
                 if r['lat'] and km(float(r['lat']), float(r['lon']), float(x['lat']), float(x['lon'])) <= 3: blok = r['blok']; break
             except ValueError: pass
-        if blok not in HEDEF: atlanan.append((b, x['id'], 'blok bulunamadı')); continue
+        if blok not in HEDEF:   # parti satırı dışı kayıt: id'deki ülke koduna göre
+            ks = x['id'].split('-')
+            if any(c in ks for c in ('kz', 'uz', 'tm', 'tj', 'kg', 'mn', 'af', 'cn', 'ru')): blok = 'orta-asya-mogolistan'
+            elif any(c in ks for c in ('in', 'pk', 'bd', 'lk', 'np', 'bt', 'mv')): blok = 'hint'
+            else: blok = 'afrika-guney-bati'
+            if blok not in HEDEF: atlanan.append((b, x['id'], 'blok bulunamadı')); continue
         veri[blok].append(x); idler.add(x['id']); toplam[blok] += 1
 for k, v in HEDEF.items(): json.dump(veri[k], open(v, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
 print('eklenen', toplam, '| atlanan', atlanan, '| toplam kayıt', {k: len(v) for k, v in veri.items()})
