@@ -15,6 +15,9 @@ CLAUDE.md 'Kaynak kuralı' (Hakemli karar dahil) · VERI-YAPISI.md satır ~953-1
 - Şehir adı çakışması (Kudüs/Kudus; Haydarâbâd Sind/Dekken; Lagos Algarve/Eko) riski olan yerleri koordinatla ayır (lat/lon verilen koordinat esastır).
 - id: <ad-slug>-<ülke kodu>-p3 (ASCII, küçük harf, tire). Alanlar: id, ad, atlas_ad (varsa atlas_en_yakın, yoksa null), lat, lon, kat1900 (kat sütunu), adlar, ilk{t,gun,nicelik,kesinlik,kaynak,tanik}, kur, ark, bit, sahip[], olay[], ic_not.
 
+## 🔴 BRITANNICA: YZ ÖZETİ KAYNAK DEĞİLDİR (EMRELİC, 17 Kasım)
+Britannica sayfalarında 'Summary created from Britannica articles using AI' (ya da benzeri 'AI summary') bloğu bulunur; makale gövdesi paywall/kesikse alıntı bu YZ özetinden alınmış olabilir. CLAUDE.md: YZ metni kaynak olamaz. Alıntı YALNIZ gerçek makale gövdesinden alınır: sayfada bu blok başlığı varsa alıntının bloğun İÇİNDE olmadığını doğrula (blok metnini ayır ve alıntıyı yalnız kalan gövdede ara). Gövdede bulunamayan alıntı ad_kaynak/ilk.tanik'e GİRMEZ (kayıt yazma ya da kesinlik 'belirsiz'). ic_not'a 'Britannica gövdesinden (YZ özeti bloğu dışı)' yaz.
+
 ## Verim ipuçları (B01-B02: 2/44 yazıldı; nedeni 'Britannica slug 404 → vazgeçildi' ve 'arama yapılmadı')
 - 404 slug'ta VAZGEÇME: WebSearch/WebFetch ile '<şehir> <ülke> founded' araştırıp çıkan encyclopedia.com (Columbia 6th ed.: 'founded in YYYY' kalıbı), Britannica place sayfası, SAHO (sahistory.org.za; Güney Afrika kasabaları), DACB (Togo/Gana/Nijerya misyon kasabaları), TDV, Universalis, Banglapedia, DSAL Imperial Gazetteer arama sayfalarına ulaş; URL'yi arama sonucundan al, tahmin etme; sonra TARAYICIDA oku ve tanığı includes() ile doğrula.
 - Küçük kolonyal kasabalarda kuruluş yılı çoğu zaman Columbia/SAHO/Encyclopedia of Africa 'founded in/established in YYYY' cümlesindedir; şehir adı cümlede yoksa madde-konusu zamir kuralını uygula.
