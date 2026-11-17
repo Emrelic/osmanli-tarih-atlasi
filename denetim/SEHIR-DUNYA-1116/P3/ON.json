@@ -1,0 +1,734 @@
+[
+ {
+  "id": "hisar-in-p3o",
+  "ad": "Hisar",
+  "atlas_ad": "Hisâr-ı Fîrûze",
+  "lat": 29.1539,
+  "lon": 75.7229,
+  "kat1900": 3,
+  "adlar": [
+   "Hisar"
+  ],
+  "ilk": {
+   "t": "1356-01-01",
+   "gun": "1356",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Hisar', https://www.britannica.com/place/Hisar (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+   "tanik": "Hisar was founded in 1356 by Fīrūz Shah Tughluq"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [],
+  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi.  Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01. Atlas noktasi VAR ('Hisâr-ı Fîrûze'): atlas baslangici kaynak yilindan ONCE; sahip[] bos (atlas zinciri esas), atlas baslangici duzeltilmeli (KASA).",
+  "_blok": "hint"
+ },
+ {
+  "id": "jacobabad-pk-p3o",
+  "ad": "Jacobabad",
+  "atlas_ad": null,
+  "lat": 28.2819,
+  "lon": 68.4376,
+  "kat1900": 3,
+  "adlar": [
+   "Jacobabad"
+  ],
+  "ilk": {
+   "t": "1847-01-01",
+   "gun": "1847",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Jacobabad', https://www.britannica.com/place/Jacobabad (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+   "tanik": "It was founded in 1847 on the site of the village of Khānghar"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1847-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, 'Jacobabad', https://www.britannica.com/place/Jacobabad (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+    "ic_not": "BOSLUK (atlas noktasi yok): Britannica govdesinde bu donem icin tarihli devlet sahibi cumlesi yok; beyansiz yaklasiklik yazilmadi."
+   }
+  ],
+  "olay": [],
+  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi. özne zamir = madde konusu. Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01.",
+  "_blok": "hint"
+ },
+ {
+  "id": "moradabad-in-p3o",
+  "ad": "Moradabad",
+  "atlas_ad": null,
+  "lat": 28.8389,
+  "lon": 78.7768,
+  "kat1900": 3,
+  "adlar": [
+   "Moradabad"
+  ],
+  "ilk": {
+   "t": "1625-01-01",
+   "gun": "1625",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Moradabad', https://www.britannica.com/place/Moradabad (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+   "tanik": "Moradabad was founded in 1625 by Rustam Khan, a Mughal general"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1625-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, 'Moradabad', https://www.britannica.com/place/Moradabad (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+    "ic_not": "BOSLUK (atlas noktasi yok): Britannica govdesinde bu donem icin tarihli devlet sahibi cumlesi yok; beyansiz yaklasiklik yazilmadi."
+   }
+  ],
+  "olay": [],
+  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi.  Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01.",
+  "_blok": "hint"
+ },
+ {
+  "id": "muzaffarnagar-in-p3o",
+  "ad": "Muzaffarnagar",
+  "atlas_ad": null,
+  "lat": 29.4709,
+  "lon": 77.7033,
+  "kat1900": 3,
+  "adlar": [
+   "Muzaffarnagar"
+  ],
+  "ilk": {
+   "t": "1633-01-01",
+   "gun": "1633",
+   "nicelik": "kurulus",
+   "kesinlik": "belirsiz",
+   "kaynak": "Encyclopaedia Britannica, 'Muzaffarnagar', https://www.britannica.com/place/Muzaffarnagar (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+   "tanik": "Muzaffarnagar was founded about 1633 by the Mughal nobleman"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1633-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, 'Muzaffarnagar', https://www.britannica.com/place/Muzaffarnagar (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+    "ic_not": "BOSLUK (atlas noktasi yok): Britannica govdesinde bu donem icin tarihli devlet sahibi cumlesi yok; beyansiz yaklasiklik yazilmadi."
+   }
+  ],
+  "olay": [],
+  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi. kaynak 'about 1633' der: kesinlik belirsiz. Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01.",
+  "_blok": "hint"
+ },
+ {
+  "id": "nainital-in-p3o",
+  "ad": "Nainital",
+  "atlas_ad": null,
+  "lat": 29.3974,
+  "lon": 79.4469,
+  "kat1900": 3,
+  "adlar": [
+   "Nainital"
+  ],
+  "ilk": {
+   "t": "1841-01-01",
+   "gun": "1841",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Nainital', https://www.britannica.com/place/Nainital (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+   "tanik": "Nainital, founded in 1841, is a popular resort"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1841-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, 'Nainital', https://www.britannica.com/place/Nainital (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+    "ic_not": "BOSLUK (atlas noktasi yok): Britannica govdesinde bu donem icin tarihli devlet sahibi cumlesi yok; beyansiz yaklasiklik yazilmadi."
+   }
+  ],
+  "olay": [],
+  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi.  Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01.",
+  "_blok": "hint"
+ },
+ {
+  "id": "sagar-in-p3o",
+  "ad": "Sagar",
+  "atlas_ad": null,
+  "lat": 14.165,
+  "lon": 75.029,
+  "kat1900": 3,
+  "adlar": [
+   "Sagar"
+  ],
+  "ilk": {
+   "t": "1660-01-01",
+   "gun": "1660",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Sagar', https://www.britannica.com/place/Sagar (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+   "tanik": "Sagar was founded by Udan Singh in 1660"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1660-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, 'Sagar', https://www.britannica.com/place/Sagar (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+    "ic_not": "BOSLUK (atlas noktasi yok): Britannica govdesinde bu donem icin tarihli devlet sahibi cumlesi yok; beyansiz yaklasiklik yazilmadi."
+   }
+  ],
+  "olay": [],
+  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi.  Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01.",
+  "_blok": "hint"
+ },
+ {
+  "id": "saharanpur-in-p3o",
+  "ad": "Saharanpur",
+  "atlas_ad": null,
+  "lat": 29.9679,
+  "lon": 77.5452,
+  "kat1900": 3,
+  "adlar": [
+   "Saharanpur"
+  ],
+  "ilk": {
+   "t": "1340-01-01",
+   "gun": "1340",
+   "nicelik": "kurulus",
+   "kesinlik": "belirsiz",
+   "kaynak": "Encyclopaedia Britannica, 'Saharanpur', https://www.britannica.com/place/Saharanpur (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+   "tanik": "Saharanpur was founded about 1340 and is named for Shah Haran Chishti"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1340-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, 'Saharanpur', https://www.britannica.com/place/Saharanpur (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+    "ic_not": "BOSLUK (atlas noktasi yok): Britannica govdesinde bu donem icin tarihli devlet sahibi cumlesi yok; beyansiz yaklasiklik yazilmadi."
+   }
+  ],
+  "olay": [],
+  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi. kaynak 'about 1340' der: kesinlik belirsiz. Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01.",
+  "_blok": "hint"
+ },
+ {
+  "id": "sahiwal-pk-p3o",
+  "ad": "Sahiwal",
+  "atlas_ad": null,
+  "lat": 30.6659,
+  "lon": 73.1019,
+  "kat1900": 3,
+  "adlar": [
+   "Sahiwal"
+  ],
+  "ilk": {
+   "t": "1865-01-01",
+   "gun": "1865",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Sahiwal', https://www.britannica.com/place/Sahiwal (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+   "tanik": "The city was founded in 1865 and was named for Sir Robert Montgomery"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1865-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, 'Sahiwal', https://www.britannica.com/place/Sahiwal (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+    "ic_not": "BOSLUK (atlas noktasi yok): Britannica govdesinde bu donem icin tarihli devlet sahibi cumlesi yok; beyansiz yaklasiklik yazilmadi."
+   }
+  ],
+  "olay": [],
+  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi. özne zamir/The city = madde konusu. Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01.",
+  "_blok": "hint"
+ },
+ {
+  "id": "seoni-in-p3o",
+  "ad": "Seoni",
+  "atlas_ad": null,
+  "lat": 22.085,
+  "lon": 79.5504,
+  "kat1900": 3,
+  "adlar": [
+   "Seoni"
+  ],
+  "ilk": {
+   "t": "1774-01-01",
+   "gun": "1774",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Seoni', https://www.britannica.com/place/Seoni (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+   "tanik": "Seoni was founded in 1774."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1774-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, 'Seoni', https://www.britannica.com/place/Seoni (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+    "ic_not": "BOSLUK (atlas noktasi yok): Britannica govdesinde bu donem icin tarihli devlet sahibi cumlesi yok; beyansiz yaklasiklik yazilmadi."
+   }
+  ],
+  "olay": [],
+  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi.  Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01.",
+  "_blok": "hint"
+ },
+ {
+  "id": "shahjahanpur-in-p3o",
+  "ad": "Shahjahanpur",
+  "atlas_ad": null,
+  "lat": 27.9974,
+  "lon": 76.4491,
+  "kat1900": 3,
+  "adlar": [
+   "Shahjahanpur"
+  ],
+  "ilk": {
+   "t": "1647-01-01",
+   "gun": "1647",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Shahjahanpur', https://www.britannica.com/place/Shahjahanpur (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+   "tanik": "The city was founded in 1647 and named for the Mughal emperor Shah Jahān"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1647-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, 'Shahjahanpur', https://www.britannica.com/place/Shahjahanpur (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+    "ic_not": "BOSLUK (atlas noktasi yok): Britannica govdesinde bu donem icin tarihli devlet sahibi cumlesi yok; beyansiz yaklasiklik yazilmadi."
+   }
+  ],
+  "olay": [],
+  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi. özne The city = madde konusu. Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01.",
+  "_blok": "hint"
+ },
+ {
+  "id": "udhagamandalam-in-p3o",
+  "ad": "Udhagamandalam",
+  "atlas_ad": null,
+  "lat": 11.4134,
+  "lon": 76.6952,
+  "kat1900": 3,
+  "adlar": [
+   "Udhagamandalam"
+  ],
+  "ilk": {
+   "t": "1821-01-01",
+   "gun": "1821",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Udhagamandalam', https://www.britannica.com/place/Udhagamandalam (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+   "tanik": "It was founded by the British in 1821 and used as the official government summer headquarters"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1821-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, 'Udhagamandalam', https://www.britannica.com/place/Udhagamandalam (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+    "ic_not": "BOSLUK (atlas noktasi yok): Britannica govdesinde bu donem icin tarihli devlet sahibi cumlesi yok; beyansiz yaklasiklik yazilmadi."
+   }
+  ],
+  "olay": [],
+  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi. özne zamir = madde konusu. Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01.",
+  "_blok": "hint"
+ },
+ {
+  "id": "bishkek-kg-p3o",
+  "ad": "Bishkek",
+  "atlas_ad": null,
+  "lat": 42.87,
+  "lon": 74.59,
+  "kat1900": 3,
+  "adlar": [
+   "Bishkek"
+  ],
+  "ilk": {
+   "t": "1825-01-01",
+   "gun": "1825",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Bishkek', https://www.britannica.com/place/Bishkek (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+   "tanik": "In 1825 the Uzbek khanate of Kokand established on the site the fortress of Bishkek"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1825-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, 'Bishkek', https://www.britannica.com/place/Bishkek (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+    "ic_not": "BOSLUK (atlas noktasi yok): Britannica govdesinde bu donem icin tarihli devlet sahibi cumlesi yok; beyansiz yaklasiklik yazilmadi."
+   }
+  ],
+  "olay": [],
+  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi. Kokand Hanlığı Bishkek KALESİNİ kurdu (şehrin çekirdeği); 1862 Rus ele geçirmesi aynı cümlede. Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01.",
+  "_blok": "orta-asya-mogolistan"
+ },
+ {
+  "id": "karakol-kg-p3o",
+  "ad": "Karakol",
+  "atlas_ad": null,
+  "lat": 42.4905,
+  "lon": 78.392,
+  "kat1900": 3,
+  "adlar": [
+   "Karakol"
+  ],
+  "ilk": {
+   "t": "1869-01-01",
+   "gun": "1869",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Karakol', https://www.britannica.com/place/Karakol (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+   "tanik": "The city was founded in 1869 as a Russian military and administrative outpost"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1869-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, 'Karakol', https://www.britannica.com/place/Karakol (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+    "ic_not": "BOSLUK (atlas noktasi yok): Britannica govdesinde bu donem icin tarihli devlet sahibi cumlesi yok; beyansiz yaklasiklik yazilmadi."
+   }
+  ],
+  "olay": [],
+  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi. özne The city = madde konusu. Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01.",
+  "_blok": "orta-asya-mogolistan"
+ },
+ {
+  "id": "kokshetau-kz-p3o",
+  "ad": "Kokshetau",
+  "atlas_ad": "Kökçetav (Kokçetav)",
+  "lat": 53.2841,
+  "lon": 69.3936,
+  "kat1900": 3,
+  "adlar": [
+   "Kokshetau"
+  ],
+  "ilk": {
+   "t": "1824-01-01",
+   "gun": "1824",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Kokshetau', https://www.britannica.com/place/Kokshetau (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+   "tanik": "Kökshetaü was founded in 1824 as an administrative outpost"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [],
+  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi. Britannica yazımı 'Kökshetaü'. Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01. Atlas noktasi VAR ('Kökçetav (Kokçetav)'): atlas baslangici kaynak yilindan ONCE; sahip[] bos (atlas zinciri esas), atlas baslangici duzeltilmeli (KASA).",
+  "_blok": "orta-asya-mogolistan"
+ },
+ {
+  "id": "zhezqazghan-kz-p3o",
+  "ad": "Zhezqazghan",
+  "atlas_ad": null,
+  "lat": 47.79411,
+  "lon": 67.70628,
+  "kat1900": 2,
+  "adlar": [
+   "Zhezqazghan"
+  ],
+  "ilk": {
+   "t": "1938-01-01",
+   "gun": "1938",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Zhezqazghan', https://www.britannica.com/place/Zhezqazghan (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+   "tanik": "The city was created in 1938 in connection with exploitation"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [],
+  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi. özne The city = madde konusu. Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01.",
+  "_blok": "orta-asya-mogolistan"
+ },
+ {
+  "id": "huambo-ao-p3o",
+  "ad": "Huambo",
+  "atlas_ad": "Huambo (Wambu)",
+  "lat": -12.77611,
+  "lon": 15.73917,
+  "kat1900": 2,
+  "adlar": [
+   "Huambo"
+  ],
+  "ilk": {
+   "t": "1912-01-01",
+   "gun": "1912",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Huambo', https://www.britannica.com/place/Huambo (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+   "tanik": "The city was founded in 1912 by Portuguese settlers and workers on the Benguela Railway"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [],
+  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi. özne The city = madde konusu. Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01. Atlas noktasi VAR ('Huambo (Wambu)'): atlas baslangici kaynak yilindan ONCE; sahip[] bos (atlas zinciri esas), atlas baslangici duzeltilmeli (KASA).",
+  "_blok": "afrika-guney-bati"
+ },
+ {
+  "id": "kindia-gn-p3o",
+  "ad": "Kindia",
+  "atlas_ad": null,
+  "lat": 9.70643,
+  "lon": -13.38465,
+  "kat1900": 2,
+  "adlar": [
+   "Kindia"
+  ],
+  "ilk": {
+   "t": "1904-01-01",
+   "gun": "1904",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Kindia', https://www.britannica.com/place/Kindia (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+   "tanik": "Founded in 1904 as a collecting point on the railroad"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [],
+  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi. özne gizli = madde konusu (başlık şehir). Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01.",
+  "_blok": "afrika-guney-bati"
+ },
+ {
+  "id": "kuito-ao-p3o",
+  "ad": "Kuito",
+  "atlas_ad": "Kuito (Bié)",
+  "lat": -12.38333,
+  "lon": 16.93333,
+  "kat1900": 2,
+  "adlar": [
+   "Kuito"
+  ],
+  "ilk": {
+   "t": "1890-01-01",
+   "gun": "1890",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Kuito', https://www.britannica.com/place/Kuito (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+   "tanik": "Kuito, town (founded 1890), central Angola."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [],
+  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi.  Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01. Atlas noktasi VAR ('Kuito (Bié)'): atlas baslangici kaynak yilindan ONCE; sahip[] bos (atlas zinciri esas), atlas baslangici duzeltilmeli (KASA).",
+  "_blok": "afrika-guney-bati"
+ },
+ {
+  "id": "lokoja-ng-p3o",
+  "ad": "Lokoja",
+  "atlas_ad": "Lokoca (Lokoja)",
+  "lat": 7.79688,
+  "lon": 6.74048,
+  "kat1900": 2,
+  "adlar": [
+   "Lokoja"
+  ],
+  "ilk": {
+   "t": "1860-01-01",
+   "gun": "1860",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Lokoja', https://www.britannica.com/place/Lokoja (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+   "tanik": "in 1860 the Scottish explorer William Balfour Baikie founded Lokoja"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [],
+  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi.  Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01. Atlas noktasi VAR ('Lokoca (Lokoja)'): atlas baslangici kaynak yilindan ONCE; sahip[] bos (atlas zinciri esas), atlas baslangici duzeltilmeli (KASA).",
+  "_blok": "afrika-guney-bati"
+ },
+ {
+  "id": "lubango-ao-p3o",
+  "ad": "Lubango",
+  "atlas_ad": "Lubango",
+  "lat": -14.91717,
+  "lon": 13.4925,
+  "kat1900": 2,
+  "adlar": [
+   "Lubango"
+  ],
+  "ilk": {
+   "t": "1885-01-01",
+   "gun": "1885",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Lubango', https://www.britannica.com/place/Lubango (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+   "tanik": "The city was originally established in 1885 as a settlement for colonists"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [],
+  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi. özne The city = madde konusu. Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01. Atlas noktasi VAR ('Lubango'): atlas baslangici kaynak yilindan ONCE; sahip[] bos (atlas zinciri esas), atlas baslangici duzeltilmeli (KASA).",
+  "_blok": "afrika-guney-bati"
+ },
+ {
+  "id": "mamou-gn-p3o",
+  "ad": "Mamou",
+  "atlas_ad": null,
+  "lat": 10.37546,
+  "lon": -12.09148,
+  "kat1900": 2,
+  "adlar": [
+   "Mamou"
+  ],
+  "ilk": {
+   "t": "1908-01-01",
+   "gun": "1908",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Mamou', https://www.britannica.com/place/Mamou (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+   "tanik": "Mamou was founded in 1908 as a collecting point on the railroad from Conakry"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [],
+  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi.  Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01.",
+  "_blok": "afrika-guney-bati"
+ },
+ {
+  "id": "mariental-na-p3o",
+  "ad": "Mariental",
+  "atlas_ad": "Mariental",
+  "lat": -24.62705,
+  "lon": 17.96471,
+  "kat1900": 2,
+  "adlar": [
+   "Mariental"
+  ],
+  "ilk": {
+   "t": "1912-01-01",
+   "gun": "1912",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Mariental', https://www.britannica.com/place/Mariental (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+   "tanik": "Mariental was founded in 1912 as a railway stop between Windhoek and Keetmanshoop"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [],
+  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi.  Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01. Atlas noktasi VAR ('Mariental'): atlas baslangici kaynak yilindan ONCE; sahip[] bos (atlas zinciri esas), atlas baslangici duzeltilmeli (KASA).",
+  "_blok": "afrika-guney-bati"
+ },
+ {
+  "id": "port-harcourt-ng-p3o",
+  "ad": "Port Harcourt",
+  "atlas_ad": null,
+  "lat": 4.77742,
+  "lon": 7.0134,
+  "kat1900": 2,
+  "adlar": [
+   "Port Harcourt"
+  ],
+  "ilk": {
+   "t": "1912-01-01",
+   "gun": "1912",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Port Harcourt', https://www.britannica.com/place/Port-Harcourt (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+   "tanik": "Founded in 1912 in an area traditionally inhabited by the Ijo and Ikwere"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [],
+  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi. özne gizli = madde konusu (başlık şehir). Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01.",
+  "_blok": "afrika-guney-bati"
+ },
+ {
+  "id": "makurdi-ng-p3o",
+  "ad": "Makurdi",
+  "atlas_ad": "Makurdi",
+  "lat": 7.73375,
+  "lon": 8.52139,
+  "kat1900": 2,
+  "adlar": [
+   "Makurdi"
+  ],
+  "ilk": {
+   "t": "1927-01-01",
+   "gun": "1927",
+   "nicelik": "kurulus",
+   "kesinlik": "belirsiz",
+   "kaynak": "Encyclopaedia Britannica, 'Makurdi', https://www.britannica.com/place/Makurdi (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+   "tanik": "Founded about 1927 when the railroad from Port Harcourt"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [],
+  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi. kaynak 'about 1927' der: kesinlik belirsiz; özne gizli = madde konusu. Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01. Atlas noktasi VAR ('Makurdi'): atlas baslangici kaynak yilindan ONCE; sahip[] bos (atlas zinciri esas), atlas baslangici duzeltilmeli (KASA).",
+  "_blok": "afrika-guney-bati"
+ }
+]

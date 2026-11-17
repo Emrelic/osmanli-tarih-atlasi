@@ -1,0 +1,68 @@
+[
+ {
+  "id": "abbottabad-pk-p3",
+  "ad": "Abbottabad",
+  "atlas_ad": null,
+  "lat": 34.1463,
+  "lon": 73.2117,
+  "kat1900": 3,
+  "adlar": ["Abbottabad"],
+  "ilk": {
+   "t": "1853-01-01",
+   "gun": "1853",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Abbottabad', https://www.britannica.com/place/Abbottabad (tarayicida okundu)",
+   "tanik": "It was founded in 1853 and named after Maj. James Abbott",
+   "ic_not": "TEK KAYNAK. Britannica govdesinden (YZ ozeti blogu disi; sayfada 'Summary created' blogu yok; alinti document.body.innerText'te gorunur makale govdesinde includes() ile dogrulandi). Ozne zamir = madde konusu; baslik sehir. Gun yok: YYYY-01-01 + kesinlik 'yil'."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1853-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, 'Abbottabad', https://www.britannica.com/place/Abbottabad",
+    "ic_not": "BOSLUK (atlas noktasi yok): okunan Britannica govdesinde 1853-1900 icin tarihli devlet sahibi cumlesi yok (yalniz 'first British deputy commissioner of the region'); beyansiz yaklasiklik yazilmadi."
+   }
+  ],
+  "olay": [],
+  "ic_not": "P3-B19. Atlas noktasi yok (3 km tarandi; atlas_ilk_gunleri'nde ad yok)."
+ },
+ {
+  "id": "azamgarh-in-p3",
+  "ad": "Azamgarh",
+  "atlas_ad": null,
+  "lat": 26.0683,
+  "lon": 83.1836,
+  "kat1900": 3,
+  "adlar": ["Azamgarh"],
+  "ilk": {
+   "t": "1665-01-01",
+   "gun": "1665",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Azamgarh', https://www.britannica.com/place/Azamgarh (tarayicida okundu)",
+   "tanik": "Azamgarh was founded in 1665 by",
+   "ic_not": "TEK KAYNAK. Britannica govdesinden (YZ ozeti blogu disi; sayfada 'Summary created' blogu yok). Cumle: 'Azamgarh was founded in 1665 by A'zam Khan, a local chief for whom it is named.' Gun yok: YYYY-01-01 + kesinlik 'yil'."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1665-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, 'Azamgarh', https://www.britannica.com/place/Azamgarh",
+    "ic_not": "BOSLUK (atlas noktasi yok): okunan Britannica govdesinde 1665-1900 icin tarihli devlet sahibi cumlesi yok; beyansiz yaklasiklik yazilmadi."
+   }
+  ],
+  "olay": [],
+  "ic_not": "P3-B19. Atlas noktasi yok (3 km tarandi; atlas_ilk_gunleri'nde ad yok)."
+ }
+]

@@ -1695,6 +1695,31 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
   ]
  },
  {
+  "id": "huambo-ao-p3o",
+  "ad": "Huambo",
+  "atlas_ad": "Huambo (Wambu)",
+  "lat": -12.77611,
+  "lon": 15.73917,
+  "kat1900": 2,
+  "adlar": [
+   "Huambo"
+  ],
+  "ilk": {
+   "t": "1912-01-01",
+   "gun": "1912",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Huambo', https://www.britannica.com/place/Huambo (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+   "tanik": "The city was founded in 1912 by Portuguese settlers and workers on the Benguela Railway"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [],
+  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi. özne The city = madde konusu. Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01. Atlas noktasi VAR ('Huambo (Wambu)'): atlas baslangici kaynak yilindan ONCE; sahip[] bos (atlas zinciri esas), atlas baslangici duzeltilmeli (KASA)."
+ },
+ {
   "id": "hwange-p13",
   "ad": "Hwange",
   "atlas_ad": null,
@@ -2152,6 +2177,31 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
   "ic_not": "Tarihçe yalnız kuruluş yılı içerir; TEK KAYNAK."
  },
  {
+  "id": "kindia-gn-p3o",
+  "ad": "Kindia",
+  "atlas_ad": null,
+  "lat": 9.70643,
+  "lon": -13.38465,
+  "kat1900": 2,
+  "adlar": [
+   "Kindia"
+  ],
+  "ilk": {
+   "t": "1904-01-01",
+   "gun": "1904",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Kindia', https://www.britannica.com/place/Kindia (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+   "tanik": "Founded in 1904 as a collecting point on the railroad"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [],
+  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi. özne gizli = madde konusu (başlık şehir). Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01."
+ },
+ {
   "id": "kisangani-cd-p3",
   "ad": "Kisangani",
   "atlas_ad": null,
@@ -2305,6 +2355,31 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
   ],
   "olay": [],
   "ic_not": "Tarihçe yalnız kuruluş yılı içerir; ÇİFT TEYİT. | BRITANNICA YZ-ÖZETİ DENETİMİ (LAB, 17 Kasım 2026): ilk.tanik önceden Britannica sayfasındaki YZ özeti (SSS) bloğundaydı/sayfada birebir yoktu (Kroonstad was founded in 1855.); Britannica makale gövdesinden alternatif tanıkla değiştirildi: \"Founded in 1855, it served briefly as the Boer capital of the Orange Free State\""
+ },
+ {
+  "id": "kuito-ao-p3o",
+  "ad": "Kuito",
+  "atlas_ad": "Kuito (Bié)",
+  "lat": -12.38333,
+  "lon": 16.93333,
+  "kat1900": 2,
+  "adlar": [
+   "Kuito"
+  ],
+  "ilk": {
+   "t": "1890-01-01",
+   "gun": "1890",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Kuito', https://www.britannica.com/place/Kuito (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+   "tanik": "Kuito, town (founded 1890), central Angola."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [],
+  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi.  Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01. Atlas noktasi VAR ('Kuito (Bié)'): atlas baslangici kaynak yilindan ONCE; sahip[] bos (atlas zinciri esas), atlas baslangici duzeltilmeli (KASA)."
  },
  {
   "id": "kumbi-salih-af-p9",
@@ -2631,6 +2706,31 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
   ]
  },
  {
+  "id": "lokoja-ng-p3o",
+  "ad": "Lokoja",
+  "atlas_ad": "Lokoca (Lokoja)",
+  "lat": 7.79688,
+  "lon": 6.74048,
+  "kat1900": 2,
+  "adlar": [
+   "Lokoja"
+  ],
+  "ilk": {
+   "t": "1860-01-01",
+   "gun": "1860",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Lokoja', https://www.britannica.com/place/Lokoja (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+   "tanik": "in 1860 the Scottish explorer William Balfour Baikie founded Lokoja"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [],
+  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi.  Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01. Atlas noktasi VAR ('Lokoca (Lokoja)'): atlas baslangici kaynak yilindan ONCE; sahip[] bos (atlas zinciri esas), atlas baslangici duzeltilmeli (KASA)."
+ },
+ {
   "id": "lome-p10",
   "ad": "Lomé",
   "atlas_ad": "Lomé",
@@ -2750,6 +2850,81 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
   ]
  },
  {
+  "id": "lubango-ao-p3o",
+  "ad": "Lubango",
+  "atlas_ad": "Lubango",
+  "lat": -14.91717,
+  "lon": 13.4925,
+  "kat1900": 2,
+  "adlar": [
+   "Lubango"
+  ],
+  "ilk": {
+   "t": "1885-01-01",
+   "gun": "1885",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Lubango', https://www.britannica.com/place/Lubango (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+   "tanik": "The city was originally established in 1885 as a settlement for colonists"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [],
+  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi. özne The city = madde konusu. Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01. Atlas noktasi VAR ('Lubango'): atlas baslangici kaynak yilindan ONCE; sahip[] bos (atlas zinciri esas), atlas baslangici duzeltilmeli (KASA)."
+ },
+ {
+  "id": "makurdi-ng-p3o",
+  "ad": "Makurdi",
+  "atlas_ad": "Makurdi",
+  "lat": 7.73375,
+  "lon": 8.52139,
+  "kat1900": 2,
+  "adlar": [
+   "Makurdi"
+  ],
+  "ilk": {
+   "t": "1927-01-01",
+   "gun": "1927",
+   "nicelik": "kurulus",
+   "kesinlik": "belirsiz",
+   "kaynak": "Encyclopaedia Britannica, 'Makurdi', https://www.britannica.com/place/Makurdi (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+   "tanik": "Founded about 1927 when the railroad from Port Harcourt"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [],
+  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi. kaynak 'about 1927' der: kesinlik belirsiz; özne gizli = madde konusu. Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01. Atlas noktasi VAR ('Makurdi'): atlas baslangici kaynak yilindan ONCE; sahip[] bos (atlas zinciri esas), atlas baslangici duzeltilmeli (KASA)."
+ },
+ {
+  "id": "mamou-gn-p3o",
+  "ad": "Mamou",
+  "atlas_ad": null,
+  "lat": 10.37546,
+  "lon": -12.09148,
+  "kat1900": 2,
+  "adlar": [
+   "Mamou"
+  ],
+  "ilk": {
+   "t": "1908-01-01",
+   "gun": "1908",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Mamou', https://www.britannica.com/place/Mamou (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+   "tanik": "Mamou was founded in 1908 as a collecting point on the railroad from Conakry"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [],
+  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi.  Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01."
+ },
+ {
   "id": "mapungubwe-p9",
   "ad": "Mapungubwe",
   "atlas_ad": "Mapungubwe",
@@ -2798,6 +2973,31 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
     "kanit": "Paysage culturel de Mapungubwe Mapungubwe est adossé à la frontière"
    }
   ]
+ },
+ {
+  "id": "mariental-na-p3o",
+  "ad": "Mariental",
+  "atlas_ad": "Mariental",
+  "lat": -24.62705,
+  "lon": 17.96471,
+  "kat1900": 2,
+  "adlar": [
+   "Mariental"
+  ],
+  "ilk": {
+   "t": "1912-01-01",
+   "gun": "1912",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Mariental', https://www.britannica.com/place/Mariental (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+   "tanik": "Mariental was founded in 1912 as a railway stop between Windhoek and Keetmanshoop"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [],
+  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi.  Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01. Atlas noktasi VAR ('Mariental'): atlas baslangici kaynak yilindan ONCE; sahip[] bos (atlas zinciri esas), atlas baslangici duzeltilmeli (KASA)."
  },
  {
   "id": "marondera-zw-p3",
@@ -3507,6 +3707,31 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
   "ic_not": "TEK KAYNAK: tek ansiklopedi cümlesi; 1884 arazi satın alma kuruluş değil. Atlas noktası yok."
  },
  {
+  "id": "port-harcourt-ng-p3o",
+  "ad": "Port Harcourt",
+  "atlas_ad": null,
+  "lat": 4.77742,
+  "lon": 7.0134,
+  "kat1900": 2,
+  "adlar": [
+   "Port Harcourt"
+  ],
+  "ilk": {
+   "t": "1912-01-01",
+   "gun": "1912",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Port Harcourt', https://www.britannica.com/place/Port-Harcourt (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+   "tanik": "Founded in 1912 in an area traditionally inhabited by the Ijo and Ikwere"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [],
+  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi. özne gizli = madde konusu (başlık şehir). Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01."
+ },
+ {
   "id": "potchefstroom-za-p3",
   "ad": "Potchefstroom",
   "atlas_ad": null,
@@ -3880,6 +4105,51 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
     "kanit": "Serowe, village, east-central Botswana."
    }
   ]
+ },
+ {
+  "id": "shurugwi-zw-p3",
+  "ad": "Shurugwi",
+  "atlas_ad": null,
+  "lat": -19.6702,
+  "lon": 30.0059,
+  "kat1900": 3,
+  "adlar": [
+   "Selukwe",
+   "Shurugwi"
+  ],
+  "ilk": {
+   "t": "1899-01-01",
+   "gun": "1899",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, «Shurugwi» (Britannica editörleri), https://www.britannica.com/place/Shurugwi (tarayıcı sayfa okuma, 17 Kasım 2026; Britannica gövdesinden, YZ özeti bloğu dışı)",
+   "tanik": "Shurugwi was established in 1899 by the British South Africa Company"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1899-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, «Shurugwi», https://www.britannica.com/place/Shurugwi",
+    "ic_not": "BOŞLUK (atlas noktası yok): kaynak kuruluşu British South Africa Company ve Willoughby's Consolidated Company'ye bağlar (şirket; data/devletler.js'te devlet id'si değil); 1899-1900 için şehrin devlet sahibini veren tarihli cümle okunmadı. Beyanlı boşluk; yaklaşıklık yazılmadı."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1899-01-01",
+    "gun": "1899",
+    "k": "diger",
+    "b": "Shurugwi (Selukwe) kasabası British South Africa Company ve Willoughby's Consolidated Company tarafından kuruldu",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, «Shurugwi» (Britannica editörleri), https://www.britannica.com/place/Shurugwi (tarayıcı sayfa okuma, 17 Kasım 2026; Britannica gövdesinden, YZ özeti bloğu dışı)",
+    "tanik": "Shurugwi was established in 1899 by the British South Africa Company"
+   }
+  ],
+  "ic_not": "TEK KAYNAK: Britannica 'Shurugwi' (ad+yıl aynı cümlede; tanık makale gövdesinde innerText'te doğrulandı, YZ özeti bloğu dışı). İkinci akademik kaynak bulunamadı (encyclopedia.com gsearch'te madde yok). Gün yok, yıl hassasiyeti. Atlas noktası yok (3 km ve atlas_ilk_gunleri tarandı). B18.tsv notu '1896-97 Selukwe district' der; Britannica'ya göre kasaba kuruluşu 1899 (yerleşim=1899, bölge adı daha eskidir). Ad: Britannica 'Selukwe' adının yakın granit tepenin yerel Venda 'selukwe' (domuz ağılı) sözcüğünden türediğini söyler. | Britannica gövdesinden (YZ özeti bloğu dışı)"
  },
  {
   "id": "sokoto-ng",

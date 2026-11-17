@@ -2,6 +2,41 @@
 // Motor/denetle/site OKUMAZ — araştırma birikimi. Elle düzenleme: JSON'u düzelt, yeniden üret.
 window.SEHIR_TARIHCE_HINT = [
  {
+  "id": "abbottabad-pk-p3",
+  "ad": "Abbottabad",
+  "atlas_ad": null,
+  "lat": 34.1463,
+  "lon": 73.2117,
+  "kat1900": 3,
+  "adlar": [
+   "Abbottabad"
+  ],
+  "ilk": {
+   "t": "1853-01-01",
+   "gun": "1853",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Abbottabad', https://www.britannica.com/place/Abbottabad (tarayicida okundu)",
+   "tanik": "It was founded in 1853 and named after Maj. James Abbott",
+   "ic_not": "TEK KAYNAK. Britannica govdesinden (YZ ozeti blogu disi; sayfada 'Summary created' blogu yok; alinti document.body.innerText'te gorunur makale govdesinde includes() ile dogrulandi). Ozne zamir = madde konusu; baslik sehir. Gun yok: YYYY-01-01 + kesinlik 'yil'."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1853-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, 'Abbottabad', https://www.britannica.com/place/Abbottabad",
+    "ic_not": "BOSLUK (atlas noktasi yok): okunan Britannica govdesinde 1853-1900 icin tarihli devlet sahibi cumlesi yok (yalniz 'first British deputy commissioner of the region'); beyansiz yaklasiklik yazilmadi."
+   }
+  ],
+  "olay": [],
+  "ic_not": "P3-B19. Atlas noktasi yok (3 km tarandi; atlas_ilk_gunleri'nde ad yok)."
+ },
+ {
   "id": "agra-in",
   "ad": "Agra",
   "atlas_ad": "Agra",
@@ -225,6 +260,41 @@ window.SEHIR_TARIHCE_HINT = [
   ]
  },
  {
+  "id": "azamgarh-in-p3",
+  "ad": "Azamgarh",
+  "atlas_ad": null,
+  "lat": 26.0683,
+  "lon": 83.1836,
+  "kat1900": 3,
+  "adlar": [
+   "Azamgarh"
+  ],
+  "ilk": {
+   "t": "1665-01-01",
+   "gun": "1665",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Azamgarh', https://www.britannica.com/place/Azamgarh (tarayicida okundu)",
+   "tanik": "Azamgarh was founded in 1665 by",
+   "ic_not": "TEK KAYNAK. Britannica govdesinden (YZ ozeti blogu disi; sayfada 'Summary created' blogu yok). Cumle: 'Azamgarh was founded in 1665 by A'zam Khan, a local chief for whom it is named.' Gun yok: YYYY-01-01 + kesinlik 'yil'."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1665-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, 'Azamgarh', https://www.britannica.com/place/Azamgarh",
+    "ic_not": "BOSLUK (atlas noktasi yok): okunan Britannica govdesinde 1665-1900 icin tarihli devlet sahibi cumlesi yok; beyansiz yaklasiklik yazilmadi."
+   }
+  ],
+  "olay": [],
+  "ic_not": "P3-B19. Atlas noktasi yok (3 km tarandi; atlas_ilk_gunleri'nde ad yok)."
+ },
+ {
   "id": "bahavelpur-pk",
   "ad": "Bahâvelpûr",
   "atlas_ad": "Bahâvelpûr",
@@ -429,6 +499,133 @@ window.SEHIR_TARIHCE_HINT = [
   "adlar_kaynaksiz": [
    "Bangalore"
   ]
+ },
+ {
+  "id": "bannu-pk-p3",
+  "ad": "Bannu",
+  "atlas_ad": "Bannu (Edwardesabad)",
+  "lat": 32.9853,
+  "lon": 70.604,
+  "kat1900": 3,
+  "adlar": [
+   "Bannu",
+   "Dalipnagar",
+   "Edwardesabad"
+  ],
+  "ilk": {
+   "t": "1848-01-01",
+   "gun": "1848",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Bannu', https://www.britannica.com/place/Bannu (tarayicida okundu, 17 Kasim 2026)",
+   "tanik": "the town was named Dalipnagar (1848) and then Edwardesabad (1869)"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [],
+  "ic_not": "TEK KAYNAK. Britannica govdesinden (YZ ozeti blogu disi; sayfada 'Summary created' blogu yok). Ozne 'the town' = madde konusu; baslik sehir. Ayni maddede 'Founded in 1848 by Lieut. (later Sir) Herbert Edwardes as a military base' (askeri ussun kurulusu). Ad 1903'te Bannu oldu (Britannica). Gun kaynakta yok: YYYY-01-01 + kesinlik 'yil'. Atlas noktasi 'Bannu (Edwardesabad)' 1848-01-01'de basliyor = ilk.t; dikis gerekmiyor, sahip[] bos (atlas zinciri atlasta). Ikinci bagimsiz kaynak okunmadi. P3-B20."
+ },
+ {
+  "id": "bareilly-in-p3",
+  "ad": "Bareilly",
+  "atlas_ad": null,
+  "lat": 28.3668,
+  "lon": 79.4317,
+  "kat1900": 3,
+  "adlar": [
+   "Bareilly"
+  ],
+  "ilk": {
+   "t": "1537-01-01",
+   "gun": "1537",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Bareilly', https://www.britannica.com/place/Bareilly (tarayicida okundu, 17 Kasim 2026)",
+   "tanik": "The city, founded in 1537, was built largely by the Mughal governor Makrand Ray."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1537-01-01",
+    "t": "1774-01-01",
+    "d": "babur-imparatorlugu",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, 'Bareilly': 'built largely by the Mughal governor Makrand Ray' (1537)",
+    "ic_not": "BEYANLI YAKLASIKLIK: kaynak yalniz kurulusta (1537) Mughal valisini soyler; 1774'e kadar sahip degisimi kaynakta yok, dolayisiyla dönem Mughal egemenligi surdu varsayimiyla 1774'e kadar uzatildi (Sur interregnumu 1540-55 ve Rohilla donemi kaynakta anilmiyor; atlas noktasi yok, atlas karismiyor)."
+   },
+   {
+    "f": "1774-01-01",
+    "t": "1801-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, 'Bareilly': 'In 1774, during the Rohilla War, the ruler of Oudh (Ayodhya) conquered the area with British aid'",
+    "ic_not": "BOSLUK: kaynak Oudh (Avadh) hakiminin 1774'te bolgeyi fethettigini soyler; data/devletler.js'te Avadh/Oudh kimligi yok; beyansiz yaklasiklik yazilmadi."
+   },
+   {
+    "f": "1801-01-01",
+    "t": "1900-01-01",
+    "d": "ingiliz-hindistani",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, 'Bareilly': 'Bareilly was ceded to the British in 1801'",
+    "ic_not": "Kaynak 1801 Ingiliz devri der (gun yok); ingiliz-hindistani kunyesi 1757-1947 icinde."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1774-01-01",
+    "gun": "1774",
+    "k": "diger",
+    "b": "Rohilla Savasi'nda Oudh hakimi bolgeyi Ingiliz yardimiyla fethetti (gun kaynakta yok)",
+    "kaynak": "Britannica, 'Bareilly': 'In 1774, during the Rohilla War, the ruler of Oudh (Ayodhya) conquered the area with British aid'"
+   },
+   {
+    "t": "1801-01-01",
+    "gun": "1801",
+    "k": "diger",
+    "b": "Bareilly Ingilizlere devredildi (gun kaynakta yok)",
+    "kaynak": "Britannica, 'Bareilly': 'and Bareilly was ceded to the British in 1801'"
+   }
+  ],
+  "ic_not": "TEK KAYNAK. Britannica govdesinden (YZ ozeti blogu disi; sayfada 'Summary created' blogu yok). Cumlede ad yok; 'The city' = madde konusu, baslik sehir (ozne zamir = madde konusu). Gun kaynakta yok: YYYY-01-01 + kesinlik 'yil'. Atlas noktasi yok (3 km tarandi; en yakin Koil 142 km). P3-B20."
+ },
+ {
+  "id": "beawar-in-p3",
+  "ad": "Beawar",
+  "atlas_ad": null,
+  "lat": 26.1012,
+  "lon": 74.3203,
+  "kat1900": 3,
+  "adlar": [
+   "Beawar",
+   "Nayanagar"
+  ],
+  "ilk": {
+   "t": "1835-01-01",
+   "gun": "1835",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Beawar', https://www.britannica.com/place/Beawar (tarayicida okundu, 17 Kasim 2026)",
+   "tanik": "Formerly also called Nayanagar, the city was founded in 1835"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1835-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, 'Beawar'",
+    "ic_not": "BOSLUK (atlas noktasi yok): Britannica Beawar maddesi 1835 kurulusundan sonra devlet sahibi tarihli cumle vermez (Ajmer bolgesine ait 1818 Ingiliz devri bolge cumlesidir, sehir olgusu degildir); beyansiz yaklasiklik yazilmadi."
+   }
+  ],
+  "olay": [],
+  "ic_not": "TEK KAYNAK. Britannica govdesinden (YZ ozeti blogu disi; sayfada 'Summary created' blogu yok). Cumlede 'the city' = madde konusu, baslik sehir (ozne zamir = madde konusu); eski ad Nayanagar ayni cumlede. Gun kaynakta yok: YYYY-01-01 + kesinlik 'yil'. Atlas noktasi yok (3 km tarandi; en yakin Ajmer 50 km). P3-B20."
  },
  {
   "id": "bhagalpur-in-p7",
@@ -768,6 +965,41 @@ window.SEHIR_TARIHCE_HINT = [
   "adlar_kaynaksiz": [
    "Bikaner"
   ]
+ },
+ {
+  "id": "bogura-bd-p3",
+  "ad": "Bogura",
+  "atlas_ad": null,
+  "lat": 24.851,
+  "lon": 89.3711,
+  "kat1900": 3,
+  "adlar": [
+   "Bogra",
+   "Bogura"
+  ],
+  "ilk": {
+   "t": "1850-01-01",
+   "gun": "1850",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Banglapedia, 'Bogra District' (Administration), https://en.banglapedia.org/index.php/Bogra_District (tarayicida okundu, 17 Kasim 2026)",
+   "tanik": "Bogra town founded in 1850."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1850-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Banglapedia, 'Bogra District'",
+    "ic_not": "BOSLUK (atlas noktasi yok): kaynak 1850 kurulusunu verir, devlet sahibi cumlesi yok; beyansiz yaklasiklik yazilmadi."
+   }
+  ],
+  "olay": [],
+  "ic_not": "TEK KAYNAK. Banglapedia (Asiatic Society of Bangladesh, akademik ansiklopedi) 'Bogra District' maddesi; sehir adi + yil ayni cumlede. Britannica 'Bogra' yalniz belediye 1876 verir (kurulus degil), celiski yok. Gun kaynakta yok: YYYY-01-01 + kesinlik 'yil'. Atlas noktasi yok (3 km tarandi; en yakin Gaur 125 km). P3-B20."
  },
  {
   "id": "broac-p6",
@@ -1439,6 +1671,52 @@ window.SEHIR_TARIHCE_HINT = [
    "Dambadeniya",
    "Dambadeṇiya"
   ]
+ },
+ {
+  "id": "darjeeling-in-p3",
+  "ad": "Darjeeling",
+  "atlas_ad": null,
+  "lat": 27.0333,
+  "lon": 88.2667,
+  "kat1900": 3,
+  "adlar": [
+   "Darjeeling",
+   "Darjiling",
+   "Dorje-ling"
+  ],
+  "ilk": {
+   "t": "1835-01-01",
+   "gun": "1835",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, «Darjeeling» md. (Britannica Editors), https://www.britannica.com/place/Darjeeling-India, tarayıcı sayfa okuma, 17 Kasım 2026",
+   "tanik": "Darjeeling was ceded by the raja of Sikkim to the British in 1835"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1835-01-01",
+    "t": "1900-01-01",
+    "d": "ingiliz-hindistani",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, «Darjeeling» md.: «Darjeeling was ceded by the raja of Sikkim to the British in 1835»",
+    "ic_not": "Britannica 'the British' der (Doğu Hindistan Şirketi dönemi); devlet kimliği atlasın ingiliz-hindistani künyesi (1757-1947) olarak eşlendi. 1835-1900 arası el değiştirme tanığı yok; 1900-01-01 zincirin kapanış sınırıdır."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1835-01-01",
+    "gun": "1835",
+    "k": "devir",
+    "b": "Darjeeling Sikkim rajası tarafından İngilizlere devredildi; İngiliz askerleri için sağlıklaştırma (sanatoryum) yeri olarak geliştirildi",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, «Darjeeling» md., https://www.britannica.com/place/Darjeeling-India, tarayıcı sayfa okuma, 17 Kasım 2026",
+    "tanik": "Darjeeling was ceded by the raja of Sikkim to the British in 1835"
+   }
+  ],
+  "ic_not": "TEK KAYNAK (Britannica gövdesinden, YZ özeti bloğu dışı; alıntı sayfanın görünür makale gövdesinde includes() ile doğrulandı). Atlas noktası YOK (data/yerlesimler*.js içinde Darjeeling/Darjiling yok), bu yüzden zincir ilk anılıştan 1900-01-01'e kuruldu. 1835 yerleşimin kuruluşu değil, yerin İngilizlere devir yılıdır; ilk_anilis olarak en erken yıllı olgudur. Britannica ayrıca belediye 1850 verir (yazılmadı: belediye yılı kuruluş değildir). Encyclopedia.com/Columbia Darjeeling maddesi devir yılını vermez; ikinci bağımsız kaynak teyidi yok."
  },
  {
   "id": "delhi-in",
@@ -2466,6 +2744,31 @@ window.SEHIR_TARIHCE_HINT = [
   ]
  },
  {
+  "id": "hisar-in-p3o",
+  "ad": "Hisar",
+  "atlas_ad": "Hisâr-ı Fîrûze",
+  "lat": 29.1539,
+  "lon": 75.7229,
+  "kat1900": 3,
+  "adlar": [
+   "Hisar"
+  ],
+  "ilk": {
+   "t": "1356-01-01",
+   "gun": "1356",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Hisar', https://www.britannica.com/place/Hisar (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+   "tanik": "Hisar was founded in 1356 by Fīrūz Shah Tughluq"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [],
+  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi.  Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01. Atlas noktasi VAR ('Hisâr-ı Fîrûze'): atlas baslangici kaynak yilindan ONCE; sahip[] bos (atlas zinciri esas), atlas baslangici duzeltilmeli (KASA)."
+ },
+ {
   "id": "hugli-in-p8b",
   "ad": "Hooghly",
   "atlas_ad": "Hûglî (Hooghly)",
@@ -2625,6 +2928,40 @@ window.SEHIR_TARIHCE_HINT = [
   "adlar_kaynaksiz": [
    "Indore"
   ]
+ },
+ {
+  "id": "jacobabad-pk-p3o",
+  "ad": "Jacobabad",
+  "atlas_ad": null,
+  "lat": 28.2819,
+  "lon": 68.4376,
+  "kat1900": 3,
+  "adlar": [
+   "Jacobabad"
+  ],
+  "ilk": {
+   "t": "1847-01-01",
+   "gun": "1847",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Jacobabad', https://www.britannica.com/place/Jacobabad (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+   "tanik": "It was founded in 1847 on the site of the village of Khānghar"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1847-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, 'Jacobabad', https://www.britannica.com/place/Jacobabad (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+    "ic_not": "BOSLUK (atlas noktasi yok): Britannica govdesinde bu donem icin tarihli devlet sahibi cumlesi yok; beyansiz yaklasiklik yazilmadi."
+   }
+  ],
+  "olay": [],
+  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi. özne zamir = madde konusu. Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01."
  },
  {
   "id": "kalkuta-in",
@@ -4119,6 +4456,40 @@ window.SEHIR_TARIHCE_HINT = [
   ]
  },
  {
+  "id": "moradabad-in-p3o",
+  "ad": "Moradabad",
+  "atlas_ad": null,
+  "lat": 28.8389,
+  "lon": 78.7768,
+  "kat1900": 3,
+  "adlar": [
+   "Moradabad"
+  ],
+  "ilk": {
+   "t": "1625-01-01",
+   "gun": "1625",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Moradabad', https://www.britannica.com/place/Moradabad (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+   "tanik": "Moradabad was founded in 1625 by Rustam Khan, a Mughal general"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1625-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, 'Moradabad', https://www.britannica.com/place/Moradabad (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+    "ic_not": "BOSLUK (atlas noktasi yok): Britannica govdesinde bu donem icin tarihli devlet sahibi cumlesi yok; beyansiz yaklasiklik yazilmadi."
+   }
+  ],
+  "olay": [],
+  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi.  Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01."
+ },
+ {
   "id": "multan-pk",
   "ad": "Multan",
   "atlas_ad": "Multan",
@@ -4328,6 +4699,40 @@ window.SEHIR_TARIHCE_HINT = [
   ]
  },
  {
+  "id": "muzaffarnagar-in-p3o",
+  "ad": "Muzaffarnagar",
+  "atlas_ad": null,
+  "lat": 29.4709,
+  "lon": 77.7033,
+  "kat1900": 3,
+  "adlar": [
+   "Muzaffarnagar"
+  ],
+  "ilk": {
+   "t": "1633-01-01",
+   "gun": "1633",
+   "nicelik": "kurulus",
+   "kesinlik": "belirsiz",
+   "kaynak": "Encyclopaedia Britannica, 'Muzaffarnagar', https://www.britannica.com/place/Muzaffarnagar (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+   "tanik": "Muzaffarnagar was founded about 1633 by the Mughal nobleman"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1633-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, 'Muzaffarnagar', https://www.britannica.com/place/Muzaffarnagar (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+    "ic_not": "BOSLUK (atlas noktasi yok): Britannica govdesinde bu donem icin tarihli devlet sahibi cumlesi yok; beyansiz yaklasiklik yazilmadi."
+   }
+  ],
+  "olay": [],
+  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi. kaynak 'about 1633' der: kesinlik belirsiz. Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01."
+ },
+ {
   "id": "nagapatnam-in-p7",
   "ad": "Nagapattinam",
   "atlas_ad": "Nagapatnam",
@@ -4423,6 +4828,40 @@ window.SEHIR_TARIHCE_HINT = [
    "Nagapattanam",
    "Choramandel (Portekizce)"
   ]
+ },
+ {
+  "id": "nainital-in-p3o",
+  "ad": "Nainital",
+  "atlas_ad": null,
+  "lat": 29.3974,
+  "lon": 79.4469,
+  "kat1900": 3,
+  "adlar": [
+   "Nainital"
+  ],
+  "ilk": {
+   "t": "1841-01-01",
+   "gun": "1841",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Nainital', https://www.britannica.com/place/Nainital (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+   "tanik": "Nainital, founded in 1841, is a popular resort"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1841-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, 'Nainital', https://www.britannica.com/place/Nainital (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+    "ic_not": "BOSLUK (atlas noktasi yok): Britannica govdesinde bu donem icin tarihli devlet sahibi cumlesi yok; beyansiz yaklasiklik yazilmadi."
+   }
+  ],
+  "olay": [],
+  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi.  Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01."
  },
  {
   "id": "panipat-in-p7",
@@ -4971,6 +5410,108 @@ window.SEHIR_TARIHCE_HINT = [
   ]
  },
  {
+  "id": "sagar-in-p3o",
+  "ad": "Sagar",
+  "atlas_ad": null,
+  "lat": 14.165,
+  "lon": 75.029,
+  "kat1900": 3,
+  "adlar": [
+   "Sagar"
+  ],
+  "ilk": {
+   "t": "1660-01-01",
+   "gun": "1660",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Sagar', https://www.britannica.com/place/Sagar (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+   "tanik": "Sagar was founded by Udan Singh in 1660"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1660-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, 'Sagar', https://www.britannica.com/place/Sagar (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+    "ic_not": "BOSLUK (atlas noktasi yok): Britannica govdesinde bu donem icin tarihli devlet sahibi cumlesi yok; beyansiz yaklasiklik yazilmadi."
+   }
+  ],
+  "olay": [],
+  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi.  Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01."
+ },
+ {
+  "id": "saharanpur-in-p3o",
+  "ad": "Saharanpur",
+  "atlas_ad": null,
+  "lat": 29.9679,
+  "lon": 77.5452,
+  "kat1900": 3,
+  "adlar": [
+   "Saharanpur"
+  ],
+  "ilk": {
+   "t": "1340-01-01",
+   "gun": "1340",
+   "nicelik": "kurulus",
+   "kesinlik": "belirsiz",
+   "kaynak": "Encyclopaedia Britannica, 'Saharanpur', https://www.britannica.com/place/Saharanpur (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+   "tanik": "Saharanpur was founded about 1340 and is named for Shah Haran Chishti"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1340-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, 'Saharanpur', https://www.britannica.com/place/Saharanpur (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+    "ic_not": "BOSLUK (atlas noktasi yok): Britannica govdesinde bu donem icin tarihli devlet sahibi cumlesi yok; beyansiz yaklasiklik yazilmadi."
+   }
+  ],
+  "olay": [],
+  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi. kaynak 'about 1340' der: kesinlik belirsiz. Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01."
+ },
+ {
+  "id": "sahiwal-pk-p3o",
+  "ad": "Sahiwal",
+  "atlas_ad": null,
+  "lat": 30.6659,
+  "lon": 73.1019,
+  "kat1900": 3,
+  "adlar": [
+   "Sahiwal"
+  ],
+  "ilk": {
+   "t": "1865-01-01",
+   "gun": "1865",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Sahiwal', https://www.britannica.com/place/Sahiwal (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+   "tanik": "The city was founded in 1865 and was named for Sir Robert Montgomery"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1865-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, 'Sahiwal', https://www.britannica.com/place/Sahiwal (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+    "ic_not": "BOSLUK (atlas noktasi yok): Britannica govdesinde bu donem icin tarihli devlet sahibi cumlesi yok; beyansiz yaklasiklik yazilmadi."
+   }
+  ],
+  "olay": [],
+  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi. özne zamir/The city = madde konusu. Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01."
+ },
+ {
   "id": "satara-in-p7",
   "ad": "Satara",
   "atlas_ad": "Satâra",
@@ -5027,6 +5568,40 @@ window.SEHIR_TARIHCE_HINT = [
     "kanit": "Sind, Keşmir, Asam, Peşâver, Satara, Cihansi ve Magpûr"
    }
   ]
+ },
+ {
+  "id": "seoni-in-p3o",
+  "ad": "Seoni",
+  "atlas_ad": null,
+  "lat": 22.085,
+  "lon": 79.5504,
+  "kat1900": 3,
+  "adlar": [
+   "Seoni"
+  ],
+  "ilk": {
+   "t": "1774-01-01",
+   "gun": "1774",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Seoni', https://www.britannica.com/place/Seoni (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+   "tanik": "Seoni was founded in 1774."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1774-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, 'Seoni', https://www.britannica.com/place/Seoni (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+    "ic_not": "BOSLUK (atlas noktasi yok): Britannica govdesinde bu donem icin tarihli devlet sahibi cumlesi yok; beyansiz yaklasiklik yazilmadi."
+   }
+  ],
+  "olay": [],
+  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi.  Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01."
  },
  {
   "id": "serampore-in-p6",
@@ -5110,6 +5685,40 @@ window.SEHIR_TARIHCE_HINT = [
     "kanit": "Also known as: Frederiksnagar, Serampur, Srirampur"
    }
   ]
+ },
+ {
+  "id": "shahjahanpur-in-p3o",
+  "ad": "Shahjahanpur",
+  "atlas_ad": null,
+  "lat": 27.9974,
+  "lon": 76.4491,
+  "kat1900": 3,
+  "adlar": [
+   "Shahjahanpur"
+  ],
+  "ilk": {
+   "t": "1647-01-01",
+   "gun": "1647",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Shahjahanpur', https://www.britannica.com/place/Shahjahanpur (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+   "tanik": "The city was founded in 1647 and named for the Mughal emperor Shah Jahān"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1647-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, 'Shahjahanpur', https://www.britannica.com/place/Shahjahanpur (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+    "ic_not": "BOSLUK (atlas noktasi yok): Britannica govdesinde bu donem icin tarihli devlet sahibi cumlesi yok; beyansiz yaklasiklik yazilmadi."
+   }
+  ],
+  "olay": [],
+  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi. özne The city = madde konusu. Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01."
  },
  {
   "id": "sikarpur-p6",
@@ -5528,6 +6137,40 @@ window.SEHIR_TARIHCE_HINT = [
   "adlar_kaynaksiz": [
    "Ujjayini"
   ]
+ },
+ {
+  "id": "udhagamandalam-in-p3o",
+  "ad": "Udhagamandalam",
+  "atlas_ad": null,
+  "lat": 11.4134,
+  "lon": 76.6952,
+  "kat1900": 3,
+  "adlar": [
+   "Udhagamandalam"
+  ],
+  "ilk": {
+   "t": "1821-01-01",
+   "gun": "1821",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Udhagamandalam', https://www.britannica.com/place/Udhagamandalam (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+   "tanik": "It was founded by the British in 1821 and used as the official government summer headquarters"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1821-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, 'Udhagamandalam', https://www.britannica.com/place/Udhagamandalam (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+    "ic_not": "BOSLUK (atlas noktasi yok): Britannica govdesinde bu donem icin tarihli devlet sahibi cumlesi yok; beyansiz yaklasiklik yazilmadi."
+   }
+  ],
+  "olay": [],
+  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi. özne zamir = madde konusu. Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01."
  },
  {
   "id": "yafna-lk-p6",
