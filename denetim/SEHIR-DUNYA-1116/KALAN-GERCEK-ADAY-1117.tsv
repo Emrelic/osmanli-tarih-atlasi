@@ -1,0 +1,133 @@
+bolge	id	kat	ulke	ad_1900	lat	lon	satir_turu
+yakin-dogu	maden-(elazig)	3	Türkiye	Ergani Madeni	38.714	39.245	mevcut
+yakin-dogu	bulunamadi-(genc/bingol-yoresi)	3	Türkiye	Gernik			mevcut
+yakin-dogu	batman-tr	3	Türkiye		37.8874	41.1322	ek-modern-merkez
+yakin-dogu	hasakah-sy	3	Suriye		36.5024	40.7477	ek-modern-merkez
+yakin-dogu	idlib-sy	3	Suriye		35.9306	36.6339	ek-modern-merkez
+yakin-dogu	suwayda-sy	3	Suriye		32.7090	36.5695	ek-modern-merkez
+yakin-dogu	quneitra-sy	3	Suriye		33.1260	35.8246	ek-modern-merkez
+yakin-dogu	douma-sy	3	Suriye		33.5718	36.4027	ek-modern-merkez
+yakin-dogu	diwaniyah-iq	3	Irak		31.9929	44.9255	ek-modern-merkez
+yakin-dogu	kut-iq	3	Irak		32.5128	45.8182	ek-modern-merkez
+yakin-dogu	dohuk-iq	3	Irak		36.8661	42.9879	ek-modern-merkez
+yakin-dogu	baqubah-iq	3	Irak		33.7540	44.6052	ek-modern-merkez
+yakin-dogu	ramadi-iq	3	Irak		33.4206	43.3078	ek-modern-merkez
+yakin-dogu	samawah-iq	3	Irak		31.3320	45.2944	ek-modern-merkez
+yakin-dogu	zarqa-jo	3	Ürdün		32.0728	36.0880	ek-modern-merkez
+yakin-dogu	mafraq-jo	3	Ürdün		32.3429	36.2080	ek-modern-merkez
+yakin-dogu	tafilah-jo	3	Ürdün		30.8375	35.6044	ek-modern-merkez
+yakin-dogu	beersheba-il	3	İsrail		31.2518	34.7913	ek-modern-merkez
+yakin-dogu	khan-yunis-ps	3	Filistin		31.3402	34.3063	ek-modern-merkez
+yakin-dogu	deir-al-balah-ps	3	Filistin		31.4183	34.3493	ek-modern-merkez
+yakin-dogu	tubas-ps	3	Filistin		32.3209	35.3699	ek-modern-merkez
+yakin-dogu	ramallah-ps	3	Filistin		31.8996	35.2042	ek-modern-merkez
+yakin-dogu	tulkarm-ps	3	Filistin		32.3116	35.0269	ek-modern-merkez
+yakin-dogu	qalqilya-ps	3	Filistin		32.1897	34.9706	ek-modern-merkez
+yakin-dogu	salfit-ps	3	Filistin		32.0837	35.1808	ek-modern-merkez
+yakin-dogu	jabalia-ps	3	Filistin		31.5272	34.4835	ek-modern-merkez
+yakin-dogu	dammam-sa	3	Suudi Arabistan		26.4344	50.1033	ek-modern-merkez
+yakin-dogu	buraydah-sa	3	Suudi Arabistan		26.3260	43.9750	ek-modern-merkez
+yakin-dogu	sakaka-sa	3	Suudi Arabistan		29.9697	40.2064	ek-modern-merkez
+yakin-dogu	arar-sa	3	Suudi Arabistan		30.9753	41.0381	ek-modern-merkez
+yakin-dogu	al-bahah-sa	3	Suudi Arabistan		20.0129	41.4677	ek-modern-merkez
+yakin-dogu	al-ain-ae	3	BAE		24.1917	55.7606	ek-modern-merkez
+yakin-dogu	salalah-om	3	Umman		17.0150	54.0924	ek-modern-merkez
+yakin-dogu	sur-om	3	Umman		22.5667	59.5289	ek-modern-merkez
+yakin-dogu	khasab-om	3	Umman		26.1799	56.2477	ek-modern-merkez
+yakin-dogu	amran-ye	3	Yemen		15.6594	43.9438	ek-modern-merkez
+yakin-dogu	dhamar-ye	3	Yemen		14.5427	44.4051	ek-modern-merkez
+yakin-dogu	ibb-ye	3	Yemen		13.9667	44.1833	ek-modern-merkez
+yakin-dogu	hajjah-ye	3	Yemen		15.6943	43.6058	ek-modern-merkez
+yakin-dogu	al-bayda-ye	3	Yemen		13.9852	45.5727	ek-modern-merkez
+yakin-dogu	zinjibar-ye	3	Yemen		13.1287	45.3807	ek-modern-merkez
+yakin-dogu	ataq-ye	3	Yemen		14.5377	46.8319	ek-modern-merkez
+yakin-dogu	al-mahwit-ye	3	Yemen		15.4701	43.5448	ek-modern-merkez
+yakin-dogu	al-hazm-ye	3	Yemen		16.1641	44.7769	ek-modern-merkez
+yakin-dogu	ad-dali-ye	3	Yemen		13.6957	44.7314	ek-modern-merkez
+yakin-dogu	hadibu-ye	3	Yemen		12.6488	54.0189	ek-modern-merkez
+yakin-dogu	al-ghaydah-ye	3	Yemen		16.2079	52.1760	ek-modern-merkez
+yakin-dogu	al-jabin-ye	3	Yemen		14.7039	43.5992	ek-modern-merkez
+yakin-dogu	zahle-lb	3	Lübnan		33.8468	35.9020	ek-modern-merkez
+yakin-dogu	nabatieh-lb	3	Lübnan		33.3772	35.4838	ek-modern-merkez
+yakin-dogu	halba-lb	3	Lübnan		34.5428	36.0797	ek-modern-merkez
+yakin-dogu	jounieh-lb	3	Lübnan		33.9808	35.6178	ek-modern-merkez
+yakin-dogu	hermel-lb	3	Lübnan		34.3942	36.3847	ek-modern-merkez
+yakin-dogu	morphou-cy	3	Kıbrıs		35.1987	32.9934	ek-modern-merkez
+balkanlar	bucuresti	1	Romanya	Bucuresci			mevcut
+balkanlar	beograd	1	Sırbistan	Beograd			mevcut
+balkanlar	athina	1	Yunanistan	Athenai			mevcut
+balkanlar	rijeka	2	Hırvatistan	Fiume			mevcut
+balkanlar	bulunamadi	2	Karadağ	bulunamadı			mevcut
+balkanlar	bulunamadi	2	Karadağ	bulunamadı			mevcut
+balkanlar	bulunamadi	2	Karadağ	bulunamadı			mevcut
+balkanlar	bulunamadi	2	Karadağ	bulunamadı			mevcut
+balkanlar	bulunamadi	2	Karadağ	bulunamadı			mevcut
+balkanlar	bulunamadi	2	Karadağ	bulunamadı			mevcut
+balkanlar	bulunamadi	2	Karadağ	bulunamadı			mevcut
+balkanlar	bulunamadi	2	Karadağ	bulunamadı			mevcut
+balkanlar	aiud	2	Romanya	Nagyenyed			mevcut
+balkanlar	braila	2	Romanya	Brăila			mevcut
+balkanlar	barlad	2	Romanya	Bârlad	46.23	27.667	mevcut
+balkanlar	caracal	2	Romanya	Caracal			mevcut
+balkanlar	dej	2	Romanya	Dés			mevcut
+balkanlar	dorohoi	2	Romanya	Dorohoi	47.9594	26.3978	mevcut
+balkanlar	dumbraveni	2	Romanya	Erzsébetváros			mevcut
+balkanlar	focsani	2	Romanya	Focșani			mevcut
+balkanlar	falticeni	2	Romanya	Fălticeni			mevcut
+balkanlar	husi	2	Romanya	Huși			mevcut
+balkanlar	iasi	2	Romanya	Iași			mevcut
+balkanlar	lugoj	2	Romanya	Lugos	45.688	21.903	mevcut
+balkanlar	miercurea-ciuc	2	Romanya	Csíkszereda			mevcut
+balkanlar	odorheiu-secuiesc	2	Romanya	Székelyudvarhely			mevcut
+balkanlar	ramnicu-sarat	2	Romanya	Râmnicu Sărat	45.383	27.056	mevcut
+balkanlar	sfantu-gheorghe	2	Romanya	Sepsiszentgyörgy			mevcut
+balkanlar	sighetu-marmatiei	2	Romanya	Máramarossziget			mevcut
+balkanlar	slatina	2	Romanya	Slatina	44.427	24.371	mevcut
+balkanlar	tecuci	2	Romanya	Tecuci			mevcut
+balkanlar	turda	2	Romanya	Torda			mevcut
+balkanlar	turnu-magurele	2	Romanya	Turnu Măgurele			mevcut
+balkanlar	zalau	2	Romanya	Zilah			mevcut
+balkanlar	bulunamadi	2	Sırbistan	bulunamadı			mevcut
+balkanlar	negotin	2	Sırbistan	Negotin			mevcut
+balkanlar	smederevo	2	Sırbistan	Smederevo			mevcut
+balkanlar	zajecar	2	Sırbistan	Zaječar			mevcut
+balkanlar	cuprija	2	Sırbistan	Ćuprija	43.9275	21.37	mevcut
+balkanlar	amfissa	2	Yunanistan	Amfissa			mevcut
+balkanlar	chalkida	2	Yunanistan	Chalkis			mevcut
+balkanlar	gytheio	2	Yunanistan	Gytheion			mevcut
+balkanlar	karditsa	2	Yunanistan	Karditsa			mevcut
+balkanlar	karpenisi	2	Yunanistan	Karpenisi			mevcut
+balkanlar	kerkyra	2	Yunanistan	Kerkyra			mevcut
+balkanlar	korinthos	2	Yunanistan	Korinthos			mevcut
+balkanlar	kyparissia	2	Yunanistan	Kyparissia			mevcut
+balkanlar	larisa	2	Yunanistan	Larisa			mevcut
+balkanlar	livadeia	2	Yunanistan	Livadia			mevcut
+balkanlar	mesolongi	2	Yunanistan	Mesolongi			mevcut
+balkanlar	nafplio	2	Yunanistan	Nafplion			mevcut
+balkanlar	patra	2	Yunanistan	Patrai			mevcut
+balkanlar	pyrgos	2	Yunanistan	Pyrgos			mevcut
+balkanlar	trikala	2	Yunanistan	Trikala			mevcut
+balkanlar	bulunamadi	2	Bulgaristan	bulunamadı			mevcut
+balkanlar	bulunamadi	2	Bulgaristan	bulunamadı			mevcut
+balkanlar	slobozia-ro	3	Romanya		44.5647	27.3633	ek-modern-merkez
+balkanlar	alexandria-ro	3	Romanya		43.9833	25.3333	ek-modern-merkez
+balkanlar	smolyan-bg	3	Bulgaristan		41.5744	24.7120	ek-modern-merkez
+balkanlar	montana-bg	3	Bulgaristan		43.4128	23.2217	ek-modern-merkez
+balkanlar	kozani-gr	3	Yunanistan		40.2993	21.7898	ek-modern-merkez
+balkanlar	cacak-rs	3	Sırbistan		43.8914	20.3497	ek-modern-merkez
+balkanlar	bor-rs	3	Sırbistan		44.0749	22.0959	ek-modern-merkez
+balkanlar	orasje-ba	3	Bosna-Hersek		45.0337	18.6933	ek-modern-merkez
+balkanlar	siroki-brijeg-ba	3	Bosna-Hersek		43.3829	17.5942	ek-modern-merkez
+balkanlar	istocno-sarajevo-ba	3	Bosna-Hersek				ek-modern-merkez
+balkanlar	fier-al	3	Arnavutluk		40.7251	19.5582	ek-modern-merkez
+balkanlar	peshkopi-al	3	Arnavutluk		41.6850	20.4286	ek-modern-merkez
+balkanlar	kukes-al	3	Arnavutluk		42.0769	20.4219	ek-modern-merkez
+balkanlar	bijelo-polje-me	3	Karadağ		43.0383	19.7476	ek-modern-merkez
+balkanlar	murska-sobota-si	3	Slovenya		46.6626	16.1664	ek-modern-merkez
+balkanlar	trbovlje-si	3	Slovenya		46.1541	15.0518	ek-modern-merkez
+balkanlar	gjilan-xk	3	Kosova		42.4605	21.4699	ek-modern-merkez
+balkanlar	ferizaj-xk	3	Kosova		42.3706	21.1553	ek-modern-merkez
+dogu-avrupa	kostroma	2	Rusya	Kostroma	58.383	42.35	mevcut
+dogu-avrupa	bulunamadi	3	Rusya	bulunamadı			mevcut
+dogu-avrupa-sib	bulunamadi	3	Rusya	bulunamadı			mevcut
+dogu-avrupa-sib	bulunamadi	3	Rusya	bulunamadı			mevcut
