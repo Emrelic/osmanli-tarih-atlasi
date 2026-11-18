@@ -11504,6 +11504,15 @@ document.getElementById("btn-dizin").addEventListener("click", function () {
   dizinPencere.classList.remove("gizli");
   dizinDoldur("kisiler");
 });
+// SEO-STATIK-1117 (18 Kasım 2026): `📜 Yüzyıllar` statik dizine gider. Statik sayfalar yalnız
+// Türkçe ve İngilizce üretildi (arac/statik_sayfa.js); İngilizce arayüz en/history/'ye, öteki
+// diller Türkçe dizine (orada da her madde haritada açılır). Dil tıklama anında okunur.
+(function () {
+  var a = document.getElementById("btn-yuzyillar");
+  if (a) a.addEventListener("click", function () {
+    if (document.documentElement.lang === "en") a.setAttribute("href", "en/history/");
+  });
+})();
 document.getElementById("dizin-kapat").addEventListener("click", function () {
   dizinPencere.classList.add("gizli");
 });
