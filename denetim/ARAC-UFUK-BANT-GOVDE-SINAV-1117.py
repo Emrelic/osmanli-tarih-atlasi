@@ -70,6 +70,9 @@ if src.count(_ic3) != 1:
     raise SystemExit("seyrelt çapası %d kez geçti — alet güncellenmeli" % src.count(_ic3))
 src = src.replace(_ic3, (
     "import dolgu as _dgx\n"
+    "_HAL_OLD = list(DEV_HALKA)\n"
+    "_PARCA_OLD = [list(_k) for _k in DEV_PARCA]\n"
+    "_DON_OLD = _don\n"
     "_PRE_SEY = {}\n"
     "for _d in DEVLET_KAYIT:\n"
     "    for _q in _d['dnm']:\n"
@@ -183,6 +186,13 @@ if TUM:
                 else:
                     sinif.append("%g→%g: GERÇEK-İHLAL (komşu örtüşmesi %s)" % (
                         sira[i], sira[i + 1], "%%%.0f" % (100 * r) if r is not None else "?"))
+                    # kayıp parçaların yeri (nedeni bulmak için): en büyük 3 parça km² + kutu
+                    _e1, _e2 = _BANT_GEO.get((sira[i],) + k), _BANT_GEO.get((sira[i + 1],) + k)
+                    if _e1 is not None and _e2 is not None:
+                        _ky = _e1[0].difference(_e2[0])
+                        _ps = sorted(getattr(_ky, "geoms", [_ky]), key=lambda x: -x.area)[:3]
+                        sinif.append("kayıp parça: " + "; ".join(
+                            "%.0f km² %s" % (NS["_ham_km2"](x), tuple(round(v, 2) for v in x.bounds)) for x in _ps))
             gercek = any("GERÇEK" in x for x in sinif)
             ih += 1 if gercek else 0
             ih_komsu += 0 if gercek else 1
@@ -190,6 +200,23 @@ if TUM:
         print("  %-26s %s  %s %s" % (k[0], k[1],
               " / ".join("%.0f" % x if x is not None else "YOK" for x in vs), etiket))
     print("  monotonluk GERÇEK ihlal: %d · komşu-genişledi (ihlal sayılmaz, ayrı rapor): %d" % (ih, ih_komsu))
+
+# ⑥ SEYRELT TARAMASI: seyrelt-öncesi ↔ sonrası alan oranı (tüm taban devlet-dönemleri)
+_sn, _s5, _s1, _lst = 0, 0, 0, []
+for _k, _pv in NS["_PRE_SEY"].items():
+    _tv = tab.get(_k)
+    if _tv is None or _pv < 100:
+        continue
+    _sn += 1
+    _r = abs(_tv / _pv - 1.0)
+    if _r > 0.05:
+        _s5 += 1
+        _lst.append((abs(_tv - _pv), _k, _pv, _tv))
+    if _r > 0.01:
+        _s1 += 1
+print("\n⑥ SEYRELT TARAMASI: %d devlet-dönem · oran sapması >%%1: %d · >%%5: %d" % (_sn, _s1, _s5))
+for _x in sorted(_lst, reverse=True)[:25]:
+    print("   %-26s %s  öncesi %9.0f  sonrası %9.0f  (%+.1f%%)" % (_x[1][0], _x[1][1], _x[2], _x[3], 100 * (_x[3] / _x[2] - 1)))
 
 # ④ GÜN TABLOSU: --gunler 0001-01-01,-0100-06-15 → o günü kapsayan her dönem için taban/<=5/<=7/<=10
 if a.gunler:
@@ -229,6 +256,22 @@ if a.tani:
                     if _q["f"] == f and _q.get("g"):
                         _post = dolgu._coz(_q["g"], NS["DEV_HALKA"], NS["DEV_PARCA"])
         if _pre is not None and _post is not None and abs(km(_pre) - km(_post)) > 2000:
+            # halka düzeyi tanı: eski/yeni halka, köşe sayısı, işaretli alan, aslı mı, donmuş köşe sayısı
+            from shapely.geometry import Polygon as _PGx
+            for _d in NS["DEVLET_KAYIT"]:
+                if _d["id"] != did:
+                    continue
+                for _q in _d["dnm"]:
+                    if _q["f"] != f:
+                        continue
+                    for _pj in _q["g"]:
+                        _old, _new = NS["_PARCA_OLD"][_pj], NS["DEV_PARCA"][_pj]
+                        for _o, _n in zip(_old, _new):
+                            _ro, _rn = NS["_HAL_OLD"][_o], NS["DEV_HALKA"][_n]
+                            _don = sum(1 for _c in _ro if (round(_c[0], 6), round(_c[1], 6)) in NS["_DON_OLD"])
+                            print("      halka parça %d: köşe %d→%d  alan(deg²) %.3f→%.3f  aslı=%s  donmuş köşe=%d  eski basit=%s yeni basit=%s" % (
+                                _pj, len(_ro), len(_rn), _PGx(_ro).area, _PGx(_rn).area, _rn is _ro or _rn == _ro, _don,
+                                _PGx(_ro).exterior.is_simple, _PGx(_rn).exterior.is_simple))
             _kayip = _pre.difference(_post)
             _parc = sorted(getattr(_kayip, "geoms", [_kayip]), key=lambda x: -x.area)[:3]
             print("      ↳ SEYRELT KAYBI %.0f km²: pre %d parça → post %d parça; en büyük kayıp parçalar (km², kutu): %s" % (

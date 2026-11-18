@@ -1072,8 +1072,12 @@ def js_yaz(yol, kayitlar, havuz, izi=None, ek_yorum=""):
 # ═══════════════════════════════════════════════════════════════════════════
 # ⑥ KOŞU İÇİNDEN ÇAĞRI — Emre'nin "TEK KOŞU" şartı
 # ═══════════════════════════════════════════════════════════════════════════
-def kosudan(araliklar, kara, cikti, ilerleme=None, kesit_sinir=0):
+def kosudan(araliklar, kara, cikti, ilerleme=None, kesit_sinir=0, ufuk_gun=None):
     """`uret_petek.py` A çıktısını yazdıktan SONRA bunu çağırır.
+
+    ufuk_gun (UFUK-BANT-1117, Emre kararı: dolgu bantla değişir): verilirse kapanış yarıçapı
+    `r = ufuk_gun × 40,32 / 2` km olur (5 → 100,8 · 7 → 141,1 · 10 → 201,6). Önbellek anahtarına
+    `r_km` girdiği için üç yarıçap birbirini bozmaz. None ⇒ modül varsayılanı (UFUK_GUN).
 
     araliklar : [(f, t, kim, geometri)] — A'nın BELLEKTEKİ gövdeleri.
                 Dosyadan okumaz: aynı koşudur, geometri zaten elde.
@@ -1083,6 +1087,8 @@ def kosudan(araliklar, kara, cikti, ilerleme=None, kesit_sinir=0):
     Döner: (kayit_sayisi, dosya_boyutu, cins_sayac, sure)
     """
     t0 = time.time()
+    _ug = UFUK_GUN if ufuk_gun is None else float(ufuk_gun)
+    _r_km = (YARICAP_KM if ufuk_gun is None else _ug * KM_GUN / 2.0)
     kara_hazir = KaraIndeks(kara) if kara is not None else None
     tarihler = sorted({a[0] for a in araliklar}, key=_gk)
     if kesit_sinir:
@@ -1094,7 +1100,7 @@ def kosudan(araliklar, kara, cikti, ilerleme=None, kesit_sinir=0):
         # Önbellek anahtarı = aralık indeksi (bkz. `_TALEP_ONB` başlığı).
         govdeler = [(kim, g, _ai) for _ai, (f, t, kim, g)
                     in enumerate(araliklar) if _gk(f) <= _gk(a) < _gk(t)]
-        parcalar, _rapor = kesit_dolgu(govdeler, kara, kara_hazir)
+        parcalar, _rapor = kesit_dolgu(govdeler, kara, kara_hazir, r_km=_r_km)
         bitis = tarihler[n] if n < len(tarihler) else "9999-12-31"
         yeni = [{"f": a, "t": bitis, "k": pc["kim"], "c": pc["cins"],
                  "p": [havuz.ekle(x) for x in _parcalar(pc["g"])]}
@@ -1103,7 +1109,7 @@ def kosudan(araliklar, kara, cikti, ilerleme=None, kesit_sinir=0):
         if ilerleme is not None:
             ilerleme(n, len(tarihler), a, len(parcalar))
     boy = js_yaz(cikti, kayitlar, havuz,
-                 izi={"ufuk_gun": UFUK_GUN, "yaricap_km": YARICAP_KM,
+                 izi={"ufuk_gun": _ug, "yaricap_km": _r_km,
                       "esik_km2": ESIK_KM2,
                       "kesit": len(tarihler)})
     return len(kayitlar), boy, cins_sayac, time.time() - t0
