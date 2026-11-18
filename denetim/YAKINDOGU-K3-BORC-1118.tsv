@@ -1,0 +1,42 @@
+id	ad	ulke	lat	lon	arama_sonucu
+bulunamadi-(genc/bingol-yoresi)	bulunamadı (Genç/Bingöl yöresi)	Türkiye			TDV arama 'Gernik': eşleşme yok; 'Genç' bugünkü karşılık doğrulanmadı (LISTE notu: Darahini/Genç olabilir) — ad eşleşmediği için YAZILMADI
+hasakah-sy	Hasakah	Suriye	36.5024	40.7477	TDV arama 'Haseke/Hasake': eşleşme yok; KAMIŞLI/KÜRTLER md.'de 'Haseke' yalnız bugünkü Kürt şehirleri listesinde (tarihsiz, modern)
+douma-sy	Douma	Suriye	33.5718	36.4027	TDV arama 'Duma': 215 eşleşme, hepsi alakasız (Duman, Dumas, Rus Duması); Dûmâ şehri TDV'de bulunamadı
+diwaniyah-iq	Diwaniyah	Irak	31.9929	44.9255	TDV arama 'Divaniye': 9 eşleşme; BAĞDAT md. 'Bağdat vilâyeti sadece Dîvâniye ve Kerbelâ’dan ibaret kaldı' (tarihsiz; şehir mi sancak mı belirsiz), IRAK md. muhafaza listesi, Dîvâniye mebusu (İTTİHAT ve TERAKKÎ) — şehir adı kesin okunmuyor, tarihli şehir tanığı yok
+baqubah-iq	Baqubah	Irak	33.7540	44.6052	TDV arama 'Bakûbe': eşleşme yok; IRAK md. muhafaza merkezleri tablosunda Ba‘kūbâ (modern, tarihsiz)
+ramadi-iq	Ramadi	Irak	33.4206	43.3078	TDV arama 'Remâdî': 22 eşleşme, çoğu râvi nisbesi; ENBÂR md. yalnız 'Bugünkü Remâdî dolaylarında' (Enbâr farklı yer, Remâdî'nin kendi tanığı değil)
+samawah-iq	Samawah	Irak	31.3320	45.2944	TDV arama 'Semâve': 11 eşleşme; Semâve 'çöl/bölge' (MÜTENEBBÎ, KELB, MÜNTEFİḲ) ya da modern muhafaza; şehir tarihli tanığı yok
+mafraq-jo	Mafraq	Ürdün	32.3429	36.2080	TDV arama 'Mefrak': 5 eşleşme; BELKĀ md. isim sayımı (tarihsiz bölge adı), ÜRDÜN md. 'Mefrak-Maan hattı' coğrafî; şehir tarihli tanığı yok
+khan-yunis-ps	Khan Yunis	Filistin	31.3402	34.3063	TDV arama 'Han Yunus': 728 alakasız eşleşme (Hanefî/Yûnus); GAZZE md. tam metninde Han Yûnus geçmiyor
+deir-al-balah-ps	Deir al-Balah	Filistin	31.4183	34.3493	TDV arama 'Deyrülbelah': eşleşme yok; GAZZE md. tam metninde geçmiyor
+tubas-ps	Tubas	Filistin	32.3209	35.3699	TDV arama 'Tubas': 2 eşleşme (TÛBÂ cennet ağacı) alakasız
+ramallah-ps	Ramallah	Filistin	31.8996	35.2042	TDV arama 'Remallah': eşleşme yok; BATI ŞERİA md. önemli şehirler listesi (tarihsiz), NABLUS md. ticarî bağlar (tarihsiz) — şehir kendi tarihli tanığı yok
+tulkarm-ps	Tulkarm	Filistin	32.3116	35.0269	TDV arama 'Tulkerim': eşleşme yok; BATI ŞERİA md. 'Tülkerm' sınır cümlesi (1948-49 sonrası bölge tanımı, şehir tanığı değil)
+qalqilya-ps	Qalqilya	Filistin	32.1897	34.9706	TDV arama 'Kalkiliye': eşleşme yok; BATI ŞERİA md. 'Kalkilya' yalnız Yeşil Hat mesafe cümlesi
+salfit-ps	Salfit	Filistin	32.0837	35.1808	TDV arama 'Selfit': eşleşme yok
+jabalia-ps	Jabalia	Filistin	31.5272	34.4835	TDV arama 'Cebaliye': eşleşme yok; GAZZE md. tam metninde geçmiyor
+dammam-sa	Dammam	Suudi Arabistan	26.4344	50.1033	TDV arama 'Demmam' 429 ile çekilemedi (çekilemedi ≠ yok); SUUDİ ARABİSTAN md. yalnız modern nüfus listesi/demiryolu (Riyad-Demmâm, 2008 tah.), tarihli kuruluş/ilk anış yok
+buraydah-sa	Buraydah	Suudi Arabistan	26.3260	43.9750	TDV arama 'Büreyde': 34 eşleşme, hepsi şahıs (sahâbî Büreyde b. Husayb); SUUDİ ARABİSTAN md. modern nüfus listesi; şehir tarihli tanığı yok
+sakaka-sa	Sakaka	Suudi Arabistan	29.9697	40.2064	TDV arama 'Sekâkā': eşleşme yok; ülke md. tam metninde geçmiyor
+arar-sa	Arar	Suudi Arabistan	30.9753	41.0381	TDV arama 'Ar‘ar' çekilemedi; SUUDİ ARABİSTAN md. tam metninde Arar şehri geçmiyor (rastlanan eşleşmeler alakasız)
+al-bahah-sa	Al Bahah	Suudi Arabistan	20.0129	41.4677	TDV arama 'Bâha' alakasız; SUUDİ ARABİSTAN md. tam metninde Bâha şehri yok
+al-ain-ae	Al Ain	BAE	24.1917	55.7606	BİRLEŞİK ARAP EMİRLİKLERİ md. tam metni: 'Ayn şehri' yalnız modern kültür merkezi/üniversite (açılışı 1977); kuruluş/ilk anılış/sahiplik zinciri tanığı yok; TDV 'ayn--abu-dabi' slug araması: yalnız İbn Ebü'l-Hadîd'de 'Aynı' (alakasız)
+salalah-om	Salalah	Umman	17.0150	54.0924	TDV arama 'Salale': 2 eşleşme (UMAN md. modern şehir listesi; ZAFÂR md. 'Salâle şehri yakınındadır' — Zafâr/Belîd ayrı yerleşim, antik yer >3 km kuralı); Salâle'nin kendi tarihli tanığı yok
+sur-om	Sur	Umman	22.5667	59.5289	UMAN md. tam metni: Sûr geçmiyor ('Sûr' TDV'de Lübnan Sûr'u için ayrı md.); kaynakta okunan Umman Sûr tanığı yok
+khasab-om	Khasab	Umman	26.1799	56.2477	UMAN/BİRLEŞİK ARAP EMİRLİKLERİ md. tam metin: yalnız Müsendem yarımadası/muhafazası; Hasab şehri geçmiyor
+amran-ye	Amran	Yemen	15.6594	43.9438	YEMEN md. tam metni: 'ʿAmrân' geçmiyor; tarihli tanık yok
+ibb-ye	Ibb	Yemen	13.9667	44.1833	YEMEN md. tam metni: İbb geçmiyor
+hajjah-ye	Hajjah	Yemen	15.6943	43.6058	YEMEN md.: 'el-Melikü’l-Müeyyed Dâvûd zamanında Hacce bölgesini de topraklarına kattılar (698/1299)' — bölge adı, şehir kesin okunmuyor (Hacce bölgesi ≠ Hajjah şehri); YAZILMADI
+al-bayda-ye	Al Bayda	Yemen	13.9852	45.5727	YEMEN md.: 'Beydâ' Maîn dönemi şehirleri sayımında (Berâkış, Athlula, Beycân, Beydâ…) — modern Al Bayda ile aynı yer mi kesin okunmuyor; tarihsiz; YAZILMADI
+zinjibar-ye	Zinjibar	Yemen	13.1287	45.3807	YEMEN md. tam metni: Zincibâr geçmiyor
+ataq-ye	Ataq	Yemen	14.5377	46.8319	YEMEN/HADRAMUT md. tam metni: Ataq/Şabve merkezi geçmiyor
+al-mahwit-ye	Al Mahwit	Yemen	15.4701	43.5448	YEMEN md. tam metni: Mahvît geçmiyor
+al-hazm-ye	Al Hazm	Yemen	16.1641	44.7769	YEMEN md. tam metni: Hazm geçmiyor
+ad-dali-ye	Ad Dali'	Yemen	13.6957	44.7314	YEMEN md. tam metni: Dâli‘ geçmiyor
+hadibu-ye	Hadibu	Yemen	12.6488	54.0189	TDV arama 'Sokotra': yalnız ada (ARABİSTAN, KORSAN, PORTEKİZ md. anışları); Hadibu şehri adıyla geçmiyor; ada tanığı şehir tanığı sayılmaz
+al-ghaydah-ye	Al Ghaydah	Yemen	16.2079	52.1760	YEMEN/HADRAMUT md. tam metni: Ğaydâ geçmiyor
+al-jabin-ye	Al Jabin	Yemen	14.7039	43.5992	YEMEN md. tam metni: Câbin geçmiyor; LISTE notu: Reyme muhafaza merkezi olduğu kontrol edilmedi
+nabatieh-lb	Nabatieh	Lübnan	33.3772	35.4838	TDV arama 'Nebatiye': 1 eşleşme (İBNÜ’l-BAYTÂR'da 'en-Nebâtî' nisbesi) alakasız; LÜBNAN md. tam metni: Nebatiye geçmiyor
+halba-lb	Halba	Lübnan	34.5428	36.0797	TDV arama 'Halba': eşleşme yok
+hermel-lb	Hermel	Lübnan	34.3942	36.3847	TDV arama 'Hirmil': eşleşme yok
+morphou-cy	Morphou	Kıbrıs	35.1987	32.9934	KIBRIS md. tam metni: yalnız 'Güzelyurt (Omorfo) ovası' coğrafî; şehir tarihli tanığı yok
