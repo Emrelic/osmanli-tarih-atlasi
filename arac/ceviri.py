@@ -132,7 +132,7 @@ BEKLENEN_CEVIRI_EKSIK = {
     "de": {"arayuz": 0, "devlet": 0, "olay": 0},
     "pt": {"arayuz": 0, "devlet": 0, "olay": 0},
     "ru": {"arayuz": 0, "devlet": 0, "olay": 0},
-    "fa": {"arayuz": 0, "devlet": 0, "olay": 5139},  # 18 Kasım 2026 (LAB 17): Farsça, tavan kalan borç
+    "fa": {"arayuz": 0, "devlet": 0, "olay": 2539},  # 18 Kasım 2026 (LAB 17): Farsça, tavan kalan borç
     "fr": {"arayuz": 0, "devlet": 0, "olay": 0},
     "zh": {"arayuz": 0, "devlet": 0, "olay": 4169},
 }

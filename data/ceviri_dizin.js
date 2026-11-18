@@ -340,6 +340,26 @@ window.CEVIRI_DIZIN = {
    [
     "ceviri_fa_devlet.js",
     "8fc25ac8"
+   ],
+   [
+    "ceviri_fa_olay_01.js",
+    "d695cd4c"
+   ],
+   [
+    "ceviri_fa_olay_02.js",
+    "ceeb72d5"
+   ],
+   [
+    "ceviri_fa_olay_03.js",
+    "dfd0ff71"
+   ],
+   [
+    "ceviri_fa_olay_04.js",
+    "b196089c"
+   ],
+   [
+    "ceviri_fa_olay_05.js",
+    "42fd85f1"
    ]
   ]
  }
