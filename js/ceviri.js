@@ -149,7 +149,9 @@
     var m = A[k];
     if (m == null) return null;
     var i = 0;
-    return m.replace(/#/g, function () { return sayilar[i++] || "#"; });
+    // "#N" (N=1..9) = Türkçe kaynaktaki N. sayı (yıl-ay-gün gibi dil-doğal sıra, ör. "#2年3月#1日");
+    // düz "#" sırayla dolar. İndeksli yer tutucu yoksa eski sıralı davranış aynen (18 Kasım 2026).
+    return m.replace(/#([1-9])?/g, function (_, n) { return (n ? sayilar[n - 1] : sayilar[i++]) || "#"; });
   }
   var ATLA = { SCRIPT: 1, STYLE: 1, TEXTAREA: 1, CODE: 1, PRE: 1 };
   var NITELIK = ["title", "placeholder", "aria-label", "data-ipucu"];

@@ -663,4 +663,22 @@
     yonlendir();
   }
   basla();
+
+  // YAPIM AŞAMASINDADIR penceresi (Emre, 18 Kasım 2026) — oturum başına bir kez.
+  (function yapim() {
+    var pen = document.getElementById("yapim-pencere");
+    var tm = document.getElementById("yapim-tamam");
+    if (!pen || !tm || /[?&]gelistirici=1/.test(location.search)) return;
+    try { if (sessionStorage.getItem("yapimGoruldu") === "1") return; } catch (e) { /* göster */ }
+    function kapa() {
+      try { sessionStorage.setItem("yapimGoruldu", "1"); } catch (e) { /* özel pencere */ }
+      pen.hidden = true;
+      document.removeEventListener("keydown", tus);
+    }
+    function tus(ev) { if (ev.key === "Escape") kapa(); }
+    pen.hidden = false;
+    tm.addEventListener("click", kapa);
+    document.addEventListener("keydown", tus);
+    try { tm.focus(); } catch (e) { /* odak */ }
+  })();
 })();
