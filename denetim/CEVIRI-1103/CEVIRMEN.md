@@ -179,6 +179,22 @@ Büyük girdide çıktıyı tek Write ile yazamıyorsan parçalara böl: `<girdi
      3. **Yerleşik ad yoksa** Türkçe ad Latin harfle kalır. Örnekler: Böğürdelen, Güvercinlik. Türkçe adın Kiril harf çevirisi (Яныккале, Сырпсындыгы gibi) **yazılmaz**.
      4. **Kişi lakapları:** yerleşik Rusça karşılık varsa o kullanılır. Örnek: Kazıklı Voyvoda → «Влад Цепеш (Колосажатель)». Yoksa lakap Latin harfle kalır.
      5. **Hanedan / beylik adları:** devlet adı dosyasındaki karşılık kullanılır. Örnekler: Teke → «Текеогуллары» değil, devlet listesindeki biçim. Karşılık yoksa Latin harfle kalır.
+3f. **Bengalce (bn) ölçüsü** (LAB 17, 18 Kasım 2026): Bangladeş/Batı Bengal akademik tarih yazımı (Banglapedia,
+   *Bangla Academy* sözlüğü, Bengalce tarih ders kitapları). Standart yazı Bengalcesi (সাধু değil চলিত ভাষা), düğme
+   dili kısa ("দেখান", "বন্ধ করুন"). Bengal alfabesi; **rakamlar Batı rakamı (0-9)** — Bengalce rakam (০-৯)
+   KULLANILMAZ (`#` şablonları ve rakam denetimi rakamla çalışır). Cümle sonu «।» (dari) yerine nokta
+   KULLANMA: Bengalce cümle sonu «।» olabilir ama kaynakta nokta varsa «।» ile değiştir, yer tutucu/rakam bozulmasın.
+   - অটোমান সাম্রাজ্য; সুলতান; উজির-ই-আজম (প্রধান উজির); জ্যানিসারি (ইয়েনিচেরি); সানজাক; তিমার.
+   - 1453 öncesi কনস্টান্টিনোপল, sonrası ইস্তানবুল. এডির্ন (Edirne), বেলগ্রেড, ভিয়েনা, ওয়ালাচিয়া, মলদোভা,
+     ট্রান্সিলভানিয়া, ক্রিমিয়ান খানাত, মামলুক, সেলজুক, সাফাভি, ভেনিস, পবিত্র রোমান সাম্রাজ্য.
+   - Kişiler: দ্বিতীয় মেহমেদ (Mehmed II), প্রথম বায়েজিদ, সুলায়মান (আইনদাতা/মহান yalnız lakap varsa), মুরাদ, সেলিম.
+     Hint-Bengal tarihinin yerleşik adları (মুঘল, শের শাহ, আকবর, সিরাজউদ্দৌলা, পলাশীর যুদ্ধ) Bengalce yaygın yazımıyla.
+   - **Miladi ay adları:** জানুয়ারি, ফেব্রুয়ারি, মার্চ, এপ্রিল, মে, জুন, জুলাই, আগস্ট, সেপ্টেম্বর, অক্টোবর,
+     নভেম্বর, ডিসেম্বর. Tarih şablonu **gün-ay-yıl** ("29 মে 1453") — Türkçedeki sıra aynen; Hicrî/Bengalce
+     takvim ayrı iştir. MÖ → «খ্রিস্টপূর্ব», MS → «খ্রিস্টাব্দ». Yüzyıl: «15শ শতক» yerine «পঞ্চদশ শতক» (yazıyla) ya da «15 শতক».
+   - Ad muhafazakârlığı: kişi/yer adları Bengalce yaygın yazımıyla; emin değilsen Latin/Türkçe yazımı bırak,
+     **ajan transliterasyonu UYDURMA**. Latin harfli kaynak adı (TDV, URL, Shaw) aynen kalır.
+   - `#` yer tutucularının sayısı ve sırası kaynakla aynı kalır.
 4. Kod, kimlik, dosya yolu, değişken adı gibi görünen ya da çevrilemeyen öğeyi AYNEN bırak.
 5. Arayüz metni kısa ve düğme diliyle: "Göster" → "Show", "Kapat" → "Close". Cümle parçası
    gelirse parça olarak çevir (bir cümlenin ortası olabilir; büyük/küçük harfi koru).
