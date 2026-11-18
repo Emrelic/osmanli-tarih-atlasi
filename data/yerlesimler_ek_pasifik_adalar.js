@@ -15,10 +15,10 @@ window.YERLESIMLER_EK_PASIFIK_ADALAR = [
   s:[{f:"1000-01-01", t:"1899-10-12", d:"__BOSLUK__", kaynak:"BOŞLUK BEYANI (kaynak: bulunamadı): bu noktanın 1899-10-12 tarihinden önceki sahibi atlasta kaynakla yazılı DEĞİL; kayıttaki kasitli_bosluk / bos / neden beyanı geçerlidir, toprak komşu peteğe itilmez. f 1000-01-01 UFUK SINIR İŞARETİDİR (uydurma başlangıç değil); t = bu kaydın ilk kaynaklı dönemi."},
      {f:"1899-10-12",t:"1914-10-01",d:"almanya"},{f:"1914-10-01",t:"1947-07-18",d:"meiji-japonya",kaynak:"DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Eski Japon manda adalari (Saipan, Pohnpei, Jaluit) ABD yonetiminde BM Pasifik Adalari Vesayet Bolgesi oldu» (1947-07-18, taraf kolu) kaynağı — UN Security Council Resolution 21 (1947); UN Trusteeship Council, Trust Territory of the Pacific Islands (un.org/en/events/trusteeshipcouncil); Office of the Historian · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil"},{f:"1947-07-18",t:"1981-01-01",d:"pasifik-adalari-vesayet-toprak",kaynak:"BM vesayeti 1947-07-18"},{f:"1981-01-01",t:"2000-12-31",d:"palau",kaynak:"palau künyesi f 1981-01-01; Proclamation 6726 (59 FR 49777)"}] },
 
-{ ad:"Port Vila (Efate)", tur:"liman", lat:-17.7334, lon:168.3273, g:1, k:1,
-  kasitli_bosluk:true, bos:"veri-yok",
-  neden:"Yeni Hebridler (Anglo-Fransız Kondominyumu, 1906-1980) ve Vanuatu (1980-) için atlasta künye ve BOYALAR anahtarı YOK; ada Nouméa/Tulagi peteğine emilmesin diye beyanlı boşluk. Künye + boya kimliği Emre kararı (tuz).",
-  kaynak:"Convention between the UK and France respecting the New Hebrides, imza 20 Ekim 1906, onay belgeleri değişimi 9 Ocak 1907 (UK Treaty Series 1907 No. 3, treaties.fcdo.gov.uk/data/Library2/pdf/1907-TS0003.pdf) — yürürlük günü belirsiz, künye f kararı bekliyor. Bağımsızlık 30 Temmuz 1980: birincil belge (UNTS/Anayasa) bulunamadı, yalnız ikincil kaynak. 1906 öncesi: kaynak aranmadı [taranmadı].",
-  d:[], s:[{f:"1000-01-01", t:"2000-12-31", d:"__BOSLUK__", kaynak:"BOŞLUK BEYANI (kaynak: bulunamadı): Port Vila için atlasta künye ve BOYALAR anahtarı YOK (Yeni Hebridler Kondominyumu 1906-1980 ve Vanuatu 1980-); bu noktanın hiçbir dönemi için kaynaklı sahip yazılı DEĞİL. Kayıttaki kasitli_bosluk / bos / neden beyanı geçerlidir, ada komşu peteğe itilmez. Künye + boya kimliği Emre kararı (tuz) bekliyor. f 1000-01-01 UFUK SINIR İŞARETİDİR, t = 2000-12-31 atlas sonu; her ikisi de uydurma tarih değil, beyan sınırıdır."}] },
+// 🔁 MÜKERRER BİRLEŞTİRME (ASIRET-DEVLETSIZ-DERLEME-1118, 18 Kasım 2026): burada duran
+// "Port Vila (Efate)" kaydı (bos:"veri-yok", 1000-2000 __BOSLUK__) yerlesimler_a78_okyanusya.js
+// "Port Vila" kaydıyla AYNI koordinattaydı (-17.7334,168.3273; 0 km) ve onunla ÇELİŞİYORDU:
+// orada vanuatu-topluluklari → yeni-hebridler-kondominyumu → vanuatu zinciri kaynaklı yazılı.
+// "künye YOK" gerekçesi bayattı. Kayıt kaldırıldı; 1906 Sözleşmesi kaynağı a78 kaydının ic_not'una taşındı.
 
 ];

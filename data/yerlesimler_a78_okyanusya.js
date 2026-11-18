@@ -370,6 +370,7 @@ window.YERLESIMLER_A78_OKYANUSYA = [
 // ----------------------------------------------------------------------
 
 { ad:"Port Vila", tur:"liman", lat:-17.7334, lon:168.3273, g:1, k:1,
+  ic_not:"MÜKERRER BİRLEŞTİRME (ASIRET-DEVLETSIZ-DERLEME-1118): yerlesimler_ek_pasifik_adalar.js 'Port Vila (Efate)' (aynı koordinat, bos:veri-yok, 1000-2000 __BOSLUK__) bu kayda katıldı. Ondan taşınan kaynak: Convention between the UK and France respecting the New Hebrides, imza 20 Ekim 1906, onay belgeleri değişimi 9 Ocak 1907 (UK Treaty Series 1907 No. 3, treaties.fcdo.gov.uk/data/Library2/pdf/1907-TS0003.pdf) — yürürlük günü belirsiz.",
   
   
   kaynak:"Yeni Hebridler Kondominyumu: UK Parlamentosu antlaşma kaydı (20 Ekim 1906, arama özeti) ve ANU Press (Woodward, A Political Memoir of the Anglo-French Condominium of the New Hebrides); Vanuatu bağımsızlığı: Office of the Historian, Vanuatu (history.state.gov/countries/vanuatu) — sayfa AÇILDI: «gained its independence on July 30, 1980».",
