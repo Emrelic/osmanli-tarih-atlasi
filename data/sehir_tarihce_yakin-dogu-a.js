@@ -1,5 +1,5 @@
-// ŞEHİR TARİHÇESİ — YAKIN_DOGU_A · üretici: arac/sehir_tarihce.py · şema: VERI-YAPISI.md
-// Motor/denetle/site OKUMAZ — araştırma birikimi. Elle düzenleme: JSON'u düzelt, yeniden üret.
+// ŞEHİR TARİHÇESİ — YAKIN_DOGU_A · üretici: arac/sehir_tarihce.py · şema: VERI-YAPISI.md
+// Motor/denetle/site OKUMAZ — araştırma birikimi. Elle düzenleme: JSON'u düzelt, yeniden üret.
 window.SEHIR_TARIHCE_YAKIN_DOGU_A = [
  {
   "id": "abu-dhabi",
@@ -255,7 +255,8 @@ window.SEHIR_TARIHCE_YAKIN_DOGU_A = [
     "gun": "Ocak 1059",
     "k": "fetih",
     "b": "Besâsîrî Bağdat'a girip Fâtımî halifesi adına hutbe okuttu",
-    "kaynak": "TDV BESÂSÎRÎ"
+    "kaynak": "TDV BESÂSÎRÎ",
+    "ic_not": "HAKEM13 (LAB, 17 Kasım 2026): TDV 'Ocak 1059' doğu yakası/Rusâfa hutbesi/halife esiri olgularına uyar; Bağdat'a GİRİŞ 27 Aralık 1058 (İbnü'l-Esîr, Richards 2002). Besâsîrî'nin Bağdat'a girişi: TDV Besâsîrî '(Ocak 1059)' ile atlas kronoloji kaydı 27 Aralık 1058 çelişir. İbnü'l-Esîr (Richards 2002, Annals of the Saljuq Turks, yıl 450): Pazar 8 Zilkâde 450/27 Aralık 1058 giriş ve Mansûr Camii'nde Fâtımî hutbesi; Richards dipnotu: İbnü'l-Cevzî (Mir'at) 6 Zilkâde/25 Aralık; doğu yakasına geçiş 16 Zilkâde/4 Ocak 1059, Rusâfa hutbesi ~8 Ocak 1059; Kâim'in esir alınması 29-30 Zilkâde sırası (~17-18 Ocak 1059); Cambridge History of Iran V (Bosworth) 'sonu 450/1058 sonu'. Bağımsız ikinci gün teyidi çıkmadı (İbnü'l-Cevzî doğrudan, Iranica, Britannica okunmadı). Seçim: giriş 1058-12-27 (Jülyen); 'Cuma hutbesi' ve 'halifeyi esir aldı' ifadeleri bu güne ait değildir: halife esiri Ocak 1059 (TDV 'Ocak 1059' bu olguya uyar)."
    },
    {
     "t": "1059-12-14",

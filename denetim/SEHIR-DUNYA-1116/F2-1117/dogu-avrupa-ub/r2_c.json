@@ -1,0 +1,767 @@
+[
+ {
+  "id": "ostroh",
+  "ad": "Ostroh",
+  "atlas_ad": null,
+  "lat": 50.329,
+  "lon": 26.5211,
+  "kat1900": 3,
+  "adlar": [
+   "Ostrog",
+   "Ostroh"
+  ],
+  "ilk": {
+   "t": "1100-01-01",
+   "gun": "1100",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Ostroh' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)",
+   "tanik": "It is first mentioned in the Hypatian Chronicle under the year 1100."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1100-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Ostroh' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)",
+    "ic_not": "BEYANLI BOŞLUK: kaynak ilk anılışı/olayları verir ama sahip zincirini günlü tanıkla vermez (çok sahipli bölge); sahip yazılmadı."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1100-01-01",
+    "gun": "1100",
+    "k": "diger",
+    "b": "Ostroh Hypatian Chronicle'da ilk kez anıldı",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Ostroh' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   },
+   {
+    "t": "1386-01-01",
+    "gun": "1386",
+    "k": "idari",
+    "b": "Ostroh Ostrozky ailesinin mülkü oldu (kale, kültürel merkez)",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Ostroh' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   }
+  ],
+  "ic_not": "Koordinat GeoNames. TEK KAYNAK; ikinci bağımsız akademik kaynak bu turda okunmadı/bulunamadı (çift teyit YOK)."
+ },
+ {
+  "id": "ovruch",
+  "ad": "Ovruch",
+  "atlas_ad": null,
+  "lat": 51.3274,
+  "lon": 28.8017,
+  "kat1900": 3,
+  "adlar": [
+   "Vruchyi",
+   "Ovruch"
+  ],
+  "ilk": {
+   "t": "0946-01-01",
+   "gun": "946",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Ovruch' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)",
+   "tanik": "It is first mentioned in the chronicles under the year 946 as Vruchyi, a Derevlianian settlement."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0946-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Ovruch' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)",
+    "ic_not": "BEYANLI BOŞLUK: kaynak ilk anılışı/olayları verir ama sahip zincirini günlü tanıkla vermez (çok sahipli bölge); sahip yazılmadı."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0946-01-01",
+    "gun": "946",
+    "k": "diger",
+    "b": "Vruchyi adıyla (Drevlyan yerleşimi) kroniklerde ilk kez anıldı",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Ovruch' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   }
+  ],
+  "ic_not": "Koordinat GeoNames. TEK KAYNAK; ikinci bağımsız akademik kaynak bu turda okunmadı/bulunamadı (çift teyit YOK)."
+ },
+ {
+  "id": "pryluky",
+  "ad": "Pryluky",
+  "atlas_ad": null,
+  "lat": 50.5953,
+  "lon": 32.3838,
+  "kat1900": 3,
+  "adlar": [
+   "Priluki",
+   "Pryluky"
+  ],
+  "ilk": {
+   "t": "1092-01-01",
+   "gun": "1092",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Pryluky' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)",
+   "tanik": "It was first mentioned, as a fortress, in the Hypatian Chronicle under the year 1092."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1092-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Pryluky' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)",
+    "ic_not": "BEYANLI BOŞLUK: kaynak ilk anılışı/olayları verir ama sahip zincirini günlü tanıkla vermez (çok sahipli bölge); sahip yazılmadı."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1092-01-01",
+    "gun": "1092",
+    "k": "diger",
+    "b": "Pryluky kale olarak Hypatian Chronicle'da ilk kez anıldı",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Pryluky' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   },
+   {
+    "t": "1569-01-01",
+    "gun": "1569",
+    "k": "diger",
+    "b": "Pryluky Litvanya Büyük Dükalığı'ndan Polonya Ortak Cumhuriyeti'ne geçti (EoU: 15. yy Hlynsky prensleri yeniden inşa etti)",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Pryluky' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   }
+  ],
+  "ic_not": "EoU: 15. yy Hlynsky prensleri yeniden kurdu, Litvanya (tarihsiz) → 1569 Polonya. Koordinat GeoNames. TEK KAYNAK; ikinci bağımsız akademik kaynak bu turda okunmadı/bulunamadı (çift teyit YOK)."
+ },
+ {
+  "id": "okhtyrka",
+  "ad": "Okhtyrka",
+  "atlas_ad": null,
+  "lat": 50.3085,
+  "lon": 34.8947,
+  "kat1900": 3,
+  "adlar": [
+   "Akhtyrka",
+   "Okhtyrka"
+  ],
+  "ilk": {
+   "t": "1641-01-01",
+   "gun": "1641",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Okhtyrka' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)",
+   "tanik": "The city was founded in 1641 and was an administrative center of Okhtyrka regiment in 1655–1765."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1641-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Okhtyrka' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)",
+    "ic_not": "BEYANLI BOŞLUK: kaynak ilk anılışı/olayları verir ama sahip zincirini günlü tanıkla vermez (çok sahipli bölge); sahip yazılmadı."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1641-01-01",
+    "gun": "1641",
+    "k": "kurulus",
+    "b": "Okhtyrka kuruldu",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Okhtyrka' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   },
+   {
+    "t": "1655-01-01",
+    "gun": "1655",
+    "k": "idari",
+    "b": "Okhtyrka alayı idarî merkezi (1655-1765)",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Okhtyrka' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   }
+  ],
+  "ic_not": "Koordinat GeoNames. TEK KAYNAK; ikinci bağımsız akademik kaynak bu turda okunmadı/bulunamadı (çift teyit YOK)."
+ },
+ {
+  "id": "parnu",
+  "ad": "Pärnu",
+  "atlas_ad": "Pärnu",
+  "lat": 58.386,
+  "lon": 24.497,
+  "kat1900": 3,
+  "adlar": [
+   "Pernau",
+   "Pernov",
+   "Pärnu"
+  ],
+  "ilk": {
+   "t": "1251-01-01",
+   "gun": "1251",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Pärnu' maddesi (britannica.com/place/Parnu; 17 Kas 2026 gömülü tarayıcıda okundu)",
+   "tanik": "First mentioned in 1251 as a member of the Hanseatic League, Pärnu was successively controlled by the Teutonic Knights"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1251-01-01",
+    "t": "1281-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, 'Pärnu' maddesi (britannica.com/place/Parnu; 17 Kas 2026 gömülü tarayıcıda okundu)",
+    "ic_not": "BEYANLI BOŞLUK: Britannica Teutonik Şövalyeler, Polonya, İsveç, Rusya'nın 'sırayla' denetlediğini tarihsiz söyler; 1251-1281 sahibi günlü tanıkla yok."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1251-01-01",
+    "gun": "1251",
+    "k": "diger",
+    "b": "Pärnu Hansa Birliği üyesi olarak ilk kez anıldı",
+    "kaynak": "Encyclopaedia Britannica, 'Pärnu' maddesi (britannica.com/place/Parnu; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   }
+  ],
+  "ic_not": "Britannica'nın '1251 Hansa üyesi' ifadesi anakronik görünebilir (Hansa 1358'de örgütlenir) ama tanık cümle aynen alındı; yalnız ilk anılış yılı olarak kullanıldı. TEK KAYNAK; ikinci bağımsız akademik kaynak bu turda okunmadı/bulunamadı (çift teyit YOK).",
+  "dikis_beyan": "Atlas 1281-01-01 'livonya-tarikati': Britannica Teutonik Şövalyeler denetimini söyler (tarihsiz); 1281 günü ve Livonya Tarikatı künyesi kaynakta doğrulanmadı."
+ },
+ {
+  "id": "cesis",
+  "ad": "Cēsis",
+  "atlas_ad": "Cēsis (Wenden)",
+  "lat": 57.312,
+  "lon": 25.274,
+  "kat1900": 3,
+  "adlar": [
+   "Wenden",
+   "Venden",
+   "Cēsis"
+  ],
+  "ilk": {
+   "t": "1206-01-01",
+   "gun": "1206",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Cēsis' maddesi (britannica.com/place/Cesis; 17 Kas 2026 gömülü tarayıcıda okundu)",
+   "tanik": "It is an old city, first mentioned in documents in 1206, and its castle dates from 1207."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1206-01-01",
+    "t": "1281-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, 'Cēsis' maddesi (britannica.com/place/Cesis; 17 Kas 2026 gömülü tarayıcıda okundu)",
+    "ic_not": "BEYANLI BOŞLUK: kaynak kalenin 1207'den olduğunu söyler, sahibini (Kılıç Kardeşler/Livonya Tarikatı) bu cümlelerde vermez."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1206-01-01",
+    "gun": "1206",
+    "k": "diger",
+    "b": "Cēsis belgelerde ilk kez anıldı",
+    "kaynak": "Encyclopaedia Britannica, 'Cēsis' maddesi (britannica.com/place/Cesis; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   },
+   {
+    "t": "1207-01-01",
+    "gun": "1207",
+    "k": "kurulus",
+    "b": "Cēsis kalesi (tarihlenen yıl)",
+    "kaynak": "Encyclopaedia Britannica, 'Cēsis' maddesi (britannica.com/place/Cesis; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   }
+  ],
+  "ic_not": "Çift teyit YOK. 1206 'belgelerde ilk anılış'.",
+  "dikis_beyan": "Atlas 1281-01-01 'livonya-tarikati': Britannica kale 1207'den der, sahibi vermez; 1281 günü kaynaksız."
+ },
+ {
+  "id": "liepaja-lv",
+  "ad": "Liepāja",
+  "atlas_ad": null,
+  "lat": 56.5047,
+  "lon": 21.0109,
+  "kat1900": 3,
+  "adlar": [
+   "Libau",
+   "Libava",
+   "Liepāja"
+  ],
+  "ilk": {
+   "t": "1253-01-01",
+   "gun": "1253",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Liepāja' maddesi (britannica.com/place/Liepaja; 17 Kas 2026 gömülü tarayıcıda okundu)",
+   "tanik": "First recorded in 1253, when it was a small Kurish settlement, Liepāja was the site of a fortress"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1253-01-01",
+    "t": "1795-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, 'Liepāja' maddesi (britannica.com/place/Liepaja; 17 Kas 2026 gömülü tarayıcıda okundu)",
+    "ic_not": "BEYANLI BOŞLUK: Britannica Töton Tarikatı kalesi (1263), 1701 İsveç ele geçirmesi, savaş sonunda Polonya sahipliği (tarihsiz) verir; 1253-1795 çok sahipli zincir günlü tanıkla yok."
+   },
+   {
+    "f": "1795-01-01",
+    "t": "1900-01-01",
+    "d": "rusya",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, 'Liepāja' maddesi (britannica.com/place/Liepaja; 17 Kas 2026 gömülü tarayıcıda okundu)",
+    "ic_not": "Britannica: Polonya'nın Üçüncü Taksimi'nde (1795) Rusya aldı; gün yok (YYYY-01-01)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1253-01-01",
+    "gun": "1253",
+    "k": "diger",
+    "b": "Liepāja küçük Kur yerleşimi olarak ilk kez kaydedildi",
+    "kaynak": "Encyclopaedia Britannica, 'Liepāja' maddesi (britannica.com/place/Liepaja; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   },
+   {
+    "t": "1263-01-01",
+    "gun": "1263",
+    "k": "kurulus",
+    "b": "Töton Tarikatı şövalyeleri kale yaptı",
+    "kaynak": "Encyclopaedia Britannica, 'Liepāja' maddesi (britannica.com/place/Liepaja; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   },
+   {
+    "t": "1625-01-01",
+    "gun": "1625",
+    "k": "idari",
+    "b": "Liepāja kasaba hakkı aldı",
+    "kaynak": "Encyclopaedia Britannica, 'Liepāja' maddesi (britannica.com/place/Liepaja; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   },
+   {
+    "t": "1701-01-01",
+    "gun": "1701",
+    "k": "isgal",
+    "b": "Büyük Kuzey Savaşı'nda İsveç Kralı XII. Karl Liepāja'yı ele geçirdi; savaşın sonunda şehir Polonya'nın elindeydi",
+    "kaynak": "Encyclopaedia Britannica, 'Liepāja' maddesi (britannica.com/place/Liepaja; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   },
+   {
+    "t": "1795-01-01",
+    "gun": "1795",
+    "k": "fetih",
+    "b": "Polonya'nın Üçüncü Taksimi'nde Rusya Liepāja'yı aldı",
+    "kaynak": "Encyclopaedia Britannica, 'Liepāja' maddesi (britannica.com/place/Liepaja; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   }
+  ],
+  "ic_not": "ek-modern-merkez. Çift teyit YOK. Koordinat GeoNames (56.5047, 21.0109); Treccani 'Liepāja' maddesi okundu ama tarihli ilk cümle içermiyor."
+ },
+ {
+  "id": "pinsk",
+  "ad": "Pinsk",
+  "atlas_ad": "Pinsk",
+  "lat": 52.115,
+  "lon": 26.103,
+  "kat1900": 3,
+  "adlar": [
+   "Pinsk"
+  ],
+  "ilk": {
+   "t": "1097-01-01",
+   "gun": "1097",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Pinsk' maddesi (britannica.com/place/Pinsk; 17 Kas 2026 gömülü tarayıcıda okundu)",
+   "tanik": "Pinsk was first mentioned in 1097 and was the seat of a Russian princedom."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1097-01-01",
+    "t": "1281-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, 'Pinsk' maddesi (britannica.com/place/Pinsk; 17 Kas 2026 gömülü tarayıcıda okundu)",
+    "ic_not": "BEYANLI BOŞLUK: Britannica 'Rus prensliği merkezi' der (tek künye adı yok); Litvanya egemenliği 13.-16. yy tarihsiz."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1097-01-01",
+    "gun": "1097",
+    "k": "diger",
+    "b": "Pinsk ilk kez anıldı; bir Rus prensliğinin merkezi",
+    "kaynak": "Encyclopaedia Britannica, 'Pinsk' maddesi (britannica.com/place/Pinsk; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   },
+   {
+    "t": "1569-01-01",
+    "gun": "1569",
+    "k": "diger",
+    "b": "Pinsk Polonya egemenliğine geçti (Britannica: Polonya 1569-1793)",
+    "kaynak": "Encyclopaedia Britannica, 'Pinsk' maddesi (britannica.com/place/Pinsk; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   },
+   {
+    "t": "1793-01-01",
+    "gun": "1793",
+    "k": "fetih",
+    "b": "Pinsk Rusya'ya geçti (Britannica: Rus 1793-Birinci Dünya Savaşı)",
+    "kaynak": "Encyclopaedia Britannica, 'Pinsk' maddesi (britannica.com/place/Pinsk; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   }
+  ],
+  "ic_not": "Britannica: Litvanya (13.-16. yy), Polonya (1569-1793), Rus (1793-I. Dünya Savaşı), Polonya (1920-39), Sovyet. Tek kaynak.",
+  "dikis_beyan": "Atlas 1281-01-01 'litvanya-buyuk-dukalik': Britannica 'Lithuanian (13th–16th century)' ile çelişmez ama başlangıç günü kaynaksız; 1097-1281 BOŞLUK beyanlı."
+ },
+ {
+  "id": "siauliai",
+  "ad": "Šiauliai",
+  "atlas_ad": "Šiauliai",
+  "lat": 55.934,
+  "lon": 23.315,
+  "kat1900": 3,
+  "adlar": [
+   "Saule",
+   "Soule",
+   "Šiauliai",
+   "Shavli"
+  ],
+  "ilk": {
+   "t": "1236-01-01",
+   "gun": "1236",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "belirsiz",
+   "kaynak": "Encyclopaedia Britannica, 'Šiauliai' maddesi (britannica.com/place/Siauliai; 17 Kas 2026 gömülü tarayıcıda okundu)",
+   "tanik": "The city, dating from at least the 13th century, may be identical with the “Saule” where a major military confrontation took place in 1236"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1236-01-01",
+    "gun": "1236",
+    "k": "savas",
+    "b": "Saule (Šiauliai?) savaşı: Litvanyalılar ile Kılıç Kardeşleri arasında büyük çarpışma",
+    "kaynak": "Encyclopaedia Britannica, 'Šiauliai' maddesi (britannica.com/place/Siauliai; 17 Kas 2026 gömülü tarayıcıda okundu); Visuotinė lietuvių enciklopedija, 'Šiauliai' maddesi (vle.lt/straipsnis/siauliai/; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   }
+  ],
+  "ic_not": "ÇİFT KAYNAK (belirsiz): Britannica 'may be identical with Saule ... 1236' ve VLE: ad 'neaišku, ar tai gyvenvietė, ar teritorija' (yerleşim mi bölge mi belirsiz), '1236 Šiaulių (Saulės) mūšį' aprarken ilk anılır; VLE: 'Kaip žemė pirmąkart paminėta 1254'. Atlas noktası 'Šiauliai' 1236-01-01'de başlıyor = ilk.t (sahibi __BOSLUK__); zincir yazılmadı. Savaş günü okunan kaynaklarda yok → olay YYYY-01-01."
+ },
+ {
+  "id": "panevezys",
+  "ad": "Panevėžys",
+  "atlas_ad": null,
+  "lat": 55.7319,
+  "lon": 24.3598,
+  "kat1900": 3,
+  "adlar": [
+   "Ponevezh",
+   "Ponevezys",
+   "Panevėžys"
+  ],
+  "ilk": {
+   "t": "1503-01-01",
+   "gun": "1503",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Panevėžys' maddesi (britannica.com/place/Panevezys; 17 Kas 2026 gömülü tarayıcıda okundu)",
+   "tanik": "First mentioned in 1503, it was chartered as a district town in 1842 and became a regional economic centre."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1503-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, 'Panevėžys' maddesi (britannica.com/place/Panevezys; 17 Kas 2026 gömülü tarayıcıda okundu)",
+    "ic_not": "BEYANLI BOŞLUK: kaynak ilk anılışı/olayları verir ama sahip zincirini günlü tanıkla vermez (çok sahipli bölge); sahip yazılmadı."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1503-01-01",
+    "gun": "1503",
+    "k": "diger",
+    "b": "Panevėžys ilk kez anıldı",
+    "kaynak": "Encyclopaedia Britannica, 'Panevėžys' maddesi (britannica.com/place/Panevezys; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   },
+   {
+    "t": "1842-01-01",
+    "gun": "1842",
+    "k": "idari",
+    "b": "Panevėžys ilçe (uyezd) kasabası statüsü aldı",
+    "kaynak": "Encyclopaedia Britannica, 'Panevėžys' maddesi (britannica.com/place/Panevezys; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   }
+  ],
+  "ic_not": "ek-modern-merkez. Koordinat GeoNames. VLE 'Panevėžys' maddesi okundu ama tarihçe bölümü sayfa gövdesinde yoktu (okunamadı). TEK KAYNAK; ikinci bağımsız akademik kaynak bu turda okunmadı/bulunamadı (çift teyit YOK)."
+ },
+ {
+  "id": "orsha",
+  "ad": "Orsha",
+  "atlas_ad": null,
+  "lat": 54.5136,
+  "lon": 30.4036,
+  "kat1900": 3,
+  "adlar": [
+   "Orsha"
+  ],
+  "ilk": {
+   "t": "1067-01-01",
+   "gun": "1067",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Orsha' maddesi (britannica.com/place/Orsha; 17 Kas 2026 gömülü tarayıcıda okundu)",
+   "tanik": "First mentioned in 1067, Orsha has always been a major focus of trade routes and has frequently been attacked and destroyed."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1067-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, 'Orsha' maddesi (britannica.com/place/Orsha; 17 Kas 2026 gömülü tarayıcıda okundu)",
+    "ic_not": "BEYANLI BOŞLUK: kaynak ilk anılışı/olayları verir ama sahip zincirini günlü tanıkla vermez (çok sahipli bölge); sahip yazılmadı."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1067-01-01",
+    "gun": "1067",
+    "k": "diger",
+    "b": "Orsha ilk kez anıldı",
+    "kaynak": "Encyclopaedia Britannica, 'Orsha' maddesi (britannica.com/place/Orsha; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   }
+  ],
+  "ic_not": "Koordinat GeoNames. TEK KAYNAK; ikinci bağımsız akademik kaynak bu turda okunmadı/bulunamadı (çift teyit YOK)."
+ },
+ {
+  "id": "narva-ee",
+  "ad": "Narva",
+  "atlas_ad": null,
+  "lat": 59.3772,
+  "lon": 28.1903,
+  "kat1900": 3,
+  "adlar": [
+   "Narva"
+  ],
+  "ilk": {
+   "t": "1223-01-01",
+   "gun": "1223",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Treccani, Enciclopedia on line, 'Narva' maddesi (treccani.it/enciclopedia/narva/; 17 Kas 2026 gömülü tarayıcıda okundu)",
+   "tanik": "Fondata dai Danesi nel 1223, per la sua importanza strategica fu contesa tra i re di Svezia e i cavalieri Portaspada"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1223-01-01",
+    "t": "1558-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia on line, 'Narva' maddesi (treccani.it/enciclopedia/narva/; 17 Kas 2026 gömülü tarayıcıda okundu)",
+    "ic_not": "BEYANLI BOŞLUK: Treccani Danimarkalılar'ın kurduğunu ve İsveç kralları ile Kılıç Kardeşleri arasında 'çekişildiğini' (tarihsiz) söyler; 1223-1558 sahibi günlü tanıkla yok."
+   },
+   {
+    "f": "1558-01-01",
+    "t": "1581-01-01",
+    "d": "rusya",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia on line, 'Narva' maddesi (treccani.it/enciclopedia/narva/; 17 Kas 2026 gömülü tarayıcıda okundu); Encyclopaedia Britannica, 'Narva' maddesi (britannica.com/place/Narva; 17 Kas 2026 gömülü tarayıcıda okundu)",
+    "ic_not": "ÇİFT TEYİT: Treccani 'conquistata nel 1558 da Ivan IV e ripresa dagli Svedesi nel 1581'; Britannica 'Occupied first by Russia (1558–81) and then by Sweden'. Künye rusya 1547'den."
+   },
+   {
+    "f": "1581-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia on line, 'Narva' maddesi (treccani.it/enciclopedia/narva/; 17 Kas 2026 gömülü tarayıcıda okundu); Encyclopaedia Britannica, 'Narva' maddesi (britannica.com/place/Narva; 17 Kas 2026 gömülü tarayıcıda okundu)",
+    "ic_not": "BEYANLI BOŞLUK: İsveç 1581'de geri aldı; Büyük Petro 1700'de yenildi, sonra kuşatmayla Rusya için geri aldı (Britannica, yıl okunan metinde yok); İsveç→Rusya geçiş günü/yılı okunmadığı için 1581-1900 sahibi yazılmadı."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1223-01-01",
+    "gun": "1223",
+    "k": "kurulus",
+    "b": "Narva Danimarkalılarca kuruldu",
+    "kaynak": "Treccani, Enciclopedia on line, 'Narva' maddesi (treccani.it/enciclopedia/narva/; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   },
+   {
+    "t": "1558-01-01",
+    "gun": "1558",
+    "k": "fetih",
+    "b": "IV. İvan Narva'yı fethetti",
+    "kaynak": "Treccani, Enciclopedia on line, 'Narva' maddesi (treccani.it/enciclopedia/narva/; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   },
+   {
+    "t": "1581-01-01",
+    "gun": "1581",
+    "k": "fetih",
+    "b": "İsveçliler Narva'yı geri aldı",
+    "kaynak": "Treccani, Enciclopedia on line, 'Narva' maddesi (treccani.it/enciclopedia/narva/; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   },
+   {
+    "t": "1700-01-01",
+    "gun": "1700",
+    "k": "savas",
+    "b": "Narva Muharebesi: XII. Karl komutasındaki İsveç ordusu Büyük Petro'nun ordusunu yendi",
+    "kaynak": "Encyclopaedia Britannica, 'Narva' maddesi (britannica.com/place/Narva; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   }
+  ],
+  "ic_not": "ÇİFT TEYİT (1558-1581 için Treccani ve Britannica); kuruluş (1223) tek kaynak Treccani. ek-modern-merkez. Koordinat GeoNames."
+ },
+ {
+  "id": "mogilev",
+  "ad": "Mogilev",
+  "atlas_ad": null,
+  "lat": 53.9088,
+  "lon": 30.3404,
+  "kat1900": 2,
+  "adlar": [
+   "Mogilëv",
+   "Mogilev",
+   "Mahilyow"
+  ],
+  "ilk": {
+   "t": "1200-01-01",
+   "gun": "12. yüzyıl",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yuzyil",
+   "kaynak": "Treccani, Enciclopedia on line, 'Mogilëv' maddesi (treccani.it/enciclopedia/mogilev/; 17 Kas 2026 gömülü tarayıcıda okundu)",
+   "tanik": "Di antica ma incerta origine, nel 12° sec. M. appartenne ai principi di Vitebsk"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1200-01-01",
+    "t": "1772-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia on line, 'Mogilëv' maddesi (treccani.it/enciclopedia/mogilev/; 17 Kas 2026 gömülü tarayıcıda okundu)",
+    "ic_not": "BEYANLI BOŞLUK: Treccani Vitebsk prenslerine, sonra Litvanya'ya (tarihsiz), 1526 şehir statüsü; 1200-1772 sahibi günlü/künyeli tanıkla yok (Polonya-Litvanya 1569 sonrası da tarihli cümle yok)."
+   },
+   {
+    "f": "1772-01-01",
+    "t": "1900-01-01",
+    "d": "rusya",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia on line, 'Mogilëv' maddesi (treccani.it/enciclopedia/mogilev/; 17 Kas 2026 gömülü tarayıcıda okundu)",
+    "ic_not": "Treccani: 1772 ilk Polonya taksiminde II. Katerina imparatorluğuna ilhak edildi; gün yok."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1526-01-01",
+    "gun": "1526",
+    "k": "idari",
+    "b": "Mogilev şehir unvanı aldı",
+    "kaynak": "Treccani, Enciclopedia on line, 'Mogilëv' maddesi (treccani.it/enciclopedia/mogilev/; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   },
+   {
+    "t": "1561-01-01",
+    "gun": "1561",
+    "k": "idari",
+    "b": "II. Sigismund Augustus Mogilev'e belediye hakları ve pazar/fuar ayrıcalıkları verdi",
+    "kaynak": "Treccani, Enciclopedia on line, 'Mogilëv' maddesi (treccani.it/enciclopedia/mogilev/; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   },
+   {
+    "t": "1772-01-01",
+    "gun": "1772",
+    "k": "fetih",
+    "b": "İlk Polonya Taksimi'yle Mogilev II. Katerina imparatorluğuna ilhak edildi",
+    "kaynak": "Treccani, Enciclopedia on line, 'Mogilëv' maddesi (treccani.it/enciclopedia/mogilev/; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   }
+  ],
+  "ic_not": "Aralık veren kaynakta (12° sec.) güvenli uç 1200-01-01 alındı; 'incerta origine' → kesinlik yuzyil. Treccani tek kaynak. Koordinat GeoNames (Mogilev/Mahilyow BY)."
+ },
+ {
+  "id": "tiraspol",
+  "ad": "Tiraspol",
+  "atlas_ad": "Tiraspol",
+  "lat": 46.837,
+  "lon": 29.611,
+  "kat1900": 3,
+  "adlar": [
+   "Tiraspol"
+  ],
+  "ilk": {
+   "t": "1795-01-01",
+   "gun": "1795",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Tiraspol' maddesi (britannica.com/place/Tiraspol; 17 Kas 2026 gömülü tarayıcıda okundu)",
+   "tanik": "It was founded by Russia in 1795 alongside a fortress built in 1792"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1795-01-01",
+    "t": "1990-09-02",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, 'Tiraspol' maddesi (britannica.com/place/Tiraspol; 17 Kas 2026 gömülü tarayıcıda okundu)",
+    "ic_not": "BEYANLI BOŞLUK: Britannica Rusya'nın kurduğunu, 1924-1940 Moldova ÖSSC başkenti olduğunu, 1941 Alman işgali ve 1944 Sovyet geri alışını verir; 1795-1990 arası sahip zinciri (Rusya→Romanya 1918-40?→SSCB→Transdinyester) günlü tanıkla yazılmadı."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1795-01-01",
+    "gun": "1795",
+    "k": "kurulus",
+    "b": "Tiraspol Rusya tarafından 1792'de yapılan kale yanında kuruldu",
+    "kaynak": "Encyclopaedia Britannica, 'Tiraspol' maddesi (britannica.com/place/Tiraspol; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   },
+   {
+    "t": "1924-01-01",
+    "gun": "1924",
+    "k": "idari",
+    "b": "Tiraspol Moldova Özerk SSC'nin başkenti oldu (1924-1940; Ukrayna toprağında)",
+    "kaynak": "Encyclopaedia Britannica, 'Tiraspol' maddesi (britannica.com/place/Tiraspol; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   },
+   {
+    "t": "1941-01-01",
+    "gun": "1941",
+    "k": "isgal",
+    "b": "Alman kuvvetleri Tiraspol'ü işgal etti",
+    "kaynak": "Encyclopaedia Britannica, 'Tiraspol' maddesi (britannica.com/place/Tiraspol; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   },
+   {
+    "t": "1944-01-01",
+    "gun": "1944",
+    "k": "fetih",
+    "b": "Sovyetler Tiraspol'ü geri aldı",
+    "kaynak": "Encyclopaedia Britannica, 'Tiraspol' maddesi (britannica.com/place/Tiraspol; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   }
+  ],
+  "ic_not": "Tek kaynak. Koordinat LISTE'den.",
+  "dikis_beyan": "Atlas 1990-09-02 'transdinyester' başlangıcı: önceki 1795-1990 zinciri kaynaklı yazılmadı (BOŞLUK beyanlı)."
+ }
+]

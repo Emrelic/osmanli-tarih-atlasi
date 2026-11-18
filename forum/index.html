@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kahvehane — KRONOATLAS Forumu</title>
+<!-- FORUM F1 (17 Kasım 2026). Ayrı sayfa: atlasın çeviri denetimine (index.html + js/*.js)
+     girmez; F1 yalnız Türkçe. Veri Supabase'te (forum/ayar.js: adres + anon anahtar).
+     Güvenlik RLS kurallarındadır: supabase/forum_f1.sql. -->
+<meta name="description" content="KRONOATLAS tarih forumu: harita ve kronoloji üzerine sohbet.">
+<meta name="theme-color" content="#5c1020">
+<meta name="robots" content="noindex">
+<link rel="icon" type="image/svg+xml" href="../assets/ikon.svg">
+<link rel="stylesheet" href="forum.css?v=f1a">
+</head>
+<body>
+<header id="forum-ust">
+  <a class="atlasa-don" href="../" title="Haritaya geri dön">← Atlasa dön</a>
+  <a class="forum-marka" href="#/">KRONOATLAS <span>Kahvehane</span></a>
+  <nav id="oturum-alani" aria-live="polite"></nav>
+</header>
+<main id="forum-govde" tabindex="-1">
+  <p class="bilgi">Yükleniyor…</p>
+</main>
+<footer id="forum-alt">
+  KRONOATLAS Kahvehane · deneme sürümü (F1) · Saygılı ve kaynaklı tartışma esastır.
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.js"
+        integrity="sha384-0w2KAL2YHP6wKOkUDzkCDGgVvfmHnj02DHeQ6XcHOgTfFsGyonKOpShMH1x6nk9o"
+        crossorigin="anonymous"></script>
+<script src="ayar.js?v=f1a"></script>
+<script src="forum.js?v=f1a"></script>
+</body>
+</html>

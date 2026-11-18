@@ -1,0 +1,798 @@
+[
+ {
+  "id": "dubno",
+  "ad": "Dubno",
+  "atlas_ad": null,
+  "lat": 50.4075,
+  "lon": 25.7624,
+  "kat1900": 3,
+  "adlar": [
+   "Duben",
+   "Dubno"
+  ],
+  "ilk": {
+   "t": "1100-01-01",
+   "gun": "1100",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Dubno' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)",
+   "tanik": "It was first mentioned in 1100 as the village of Duben."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1100-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Dubno' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)",
+    "ic_not": "BEYANLI BOŞLUK: kaynak ilk anılışı/olayları verir ama ilk anılıştan 1900'e sahip zincirini (çok sahipli: Litvanya/Polonya/Kazak Hetmanlığı/Rusya) günlü tanıkla vermez; sahip yazılmadı."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1100-01-01",
+    "gun": "1100",
+    "k": "diger",
+    "b": "Dubno Duben köyü olarak ilk kez anıldı",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Dubno' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   },
+   {
+    "t": "1498-01-01",
+    "gun": "1498",
+    "k": "idari",
+    "b": "Dubno'ya Magdeburg hukuku verildi; Ostrozky prenslerinin denetimine girdi",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Dubno' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   }
+  ],
+  "ic_not": "Koordinat GeoNames (17 Kas 2026). TEK KAYNAK; ikinci bağımsız akademik kaynak bu turda okunmadı/bulunamadı (çift teyit YOK)."
+ },
+ {
+  "id": "nizhyn",
+  "ad": "Nizhyn",
+  "atlas_ad": null,
+  "lat": 51.0477,
+  "lon": 31.8884,
+  "kat1900": 3,
+  "adlar": [
+   "Unenezh",
+   "Unenizh",
+   "Nezhin",
+   "Nizhyn"
+  ],
+  "ilk": {
+   "t": "1147-01-01",
+   "gun": "1147",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Nizhyn' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)",
+   "tanik": "It is first mentioned as Unenezh or Unenizh under the year 1147 in the Hypatian Chronicle."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1147-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Nizhyn' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)",
+    "ic_not": "BEYANLI BOŞLUK: kaynak ilk anılışı/olayları verir ama ilk anılıştan 1900'e sahip zincirini (çok sahipli: Litvanya/Polonya/Kazak Hetmanlığı/Rusya) günlü tanıkla vermez; sahip yazılmadı."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1147-01-01",
+    "gun": "1147",
+    "k": "diger",
+    "b": "Nizhyn Unenezh adıyla Hypatian Chronicle'da ilk kez anıldı",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Nizhyn' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   }
+  ],
+  "ic_not": "Koordinat GeoNames (17 Kas 2026). TEK KAYNAK; ikinci bağımsız akademik kaynak bu turda okunmadı/bulunamadı (çift teyit YOK)."
+ },
+ {
+  "id": "kremenets",
+  "ad": "Kremenets",
+  "atlas_ad": null,
+  "lat": 50.0986,
+  "lon": 25.7279,
+  "kat1900": 3,
+  "adlar": [
+   "Kremenets"
+  ],
+  "ilk": {
+   "t": "1226-01-01",
+   "gun": "1226",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Kremenets' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)",
+   "tanik": "Kremenets was first mentioned in the Hypatian Chronicle under the year 1226."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1226-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Kremenets' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)",
+    "ic_not": "BEYANLI BOŞLUK: kaynak ilk anılışı/olayları verir ama ilk anılıştan 1900'e sahip zincirini (çok sahipli: Litvanya/Polonya/Kazak Hetmanlığı/Rusya) günlü tanıkla vermez; sahip yazılmadı."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1226-01-01",
+    "gun": "1226",
+    "k": "diger",
+    "b": "Kremenets Hypatian Chronicle'da ilk kez anıldı",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Kremenets' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   },
+   {
+    "t": "1633-01-01",
+    "gun": "1633",
+    "k": "kurulus",
+    "b": "Ortodoks Epifani Manastırı kuruldu",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Kremenets' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   }
+  ],
+  "ic_not": "EoU: Ostra Hora'daki Paleolitik yerleşim üzerinde yer alır (3 km içinde olup olmadığı belirtilmedi; kuruluş yazılı tanıkla 1226). Koordinat GeoNames. TEK KAYNAK; ikinci bağımsız akademik kaynak bu turda okunmadı/bulunamadı (çift teyit YOK)."
+ },
+ {
+  "id": "romny",
+  "ad": "Romny",
+  "atlas_ad": null,
+  "lat": 50.7403,
+  "lon": 33.4952,
+  "kat1900": 3,
+  "adlar": [
+   "Romny"
+  ],
+  "ilk": {
+   "t": "1096-01-01",
+   "gun": "1096",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Romny' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)",
+   "tanik": "It was first mentioned, as a border fortress of Kyivan Rus’, in the Laurentian Chronicle under the year 1096."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1096-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Romny' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)",
+    "ic_not": "BEYANLI BOŞLUK: kaynak ilk anılışı/olayları verir ama ilk anılıştan 1900'e sahip zincirini (çok sahipli: Litvanya/Polonya/Kazak Hetmanlığı/Rusya) günlü tanıkla vermez; sahip yazılmadı."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1096-01-01",
+    "gun": "1096",
+    "k": "diger",
+    "b": "Romny Kyiv Rusu'nun sınır kalesi olarak Laurentian Chronicle'da ilk kez anıldı",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Romny' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   }
+  ],
+  "ic_not": "1096'da Kyiv Rusu sınır kalesi (kiev-rusu künyesi 1240-12-06'ya kadar) ama Romny'nin 1240'a kadar Rus sahipliği tarihsiz/kesintisiz tanıkla verilmedi; zincir yazılmadı. Koordinat GeoNames. TEK KAYNAK; ikinci bağımsız akademik kaynak bu turda okunmadı/bulunamadı (çift teyit YOK)."
+ },
+ {
+  "id": "khmelnytskyi",
+  "ad": "Khmelnytskyi",
+  "atlas_ad": null,
+  "lat": 49.4183,
+  "lon": 26.9794,
+  "kat1900": 3,
+  "adlar": [
+   "Ploskyriv",
+   "Płoskirów",
+   "Proskurov",
+   "Khmelnytskyi"
+  ],
+  "ilk": {
+   "t": "1493-01-01",
+   "gun": "1493",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Khmelnytskyi' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)",
+   "tanik": "First mentioned as the Polish royal outpost of Ploskyriv (Polish: Płoskirów) in 1493, it was fortified in the 16th century."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1493-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Khmelnytskyi' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)",
+    "ic_not": "BEYANLI BOŞLUK: kaynak ilk anılışı/olayları verir ama ilk anılıştan 1900'e sahip zincirini (çok sahipli: Litvanya/Polonya/Kazak Hetmanlığı/Rusya) günlü tanıkla vermez; sahip yazılmadı."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1493-01-01",
+    "gun": "1493",
+    "k": "diger",
+    "b": "Ploskyriv Polonya kraliyet karakolu olarak ilk kez anıldı",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Khmelnytskyi' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   }
+  ],
+  "ic_not": "1493'te 'Polish royal outpost' (polonya-erken künyesi 1569-07-01'e kadar) ancak sonraki zincir (Lehistan, Kazak Hetmanlığı, Rusya) kaynakta yok; BOŞLUK. Koordinat GeoNames. TEK KAYNAK; ikinci bağımsız akademik kaynak bu turda okunmadı/bulunamadı (çift teyit YOK)."
+ },
+ {
+  "id": "konotop",
+  "ad": "Konotop",
+  "atlas_ad": null,
+  "lat": 51.2325,
+  "lon": 33.2004,
+  "kat1900": 3,
+  "adlar": [
+   "Konotop"
+  ],
+  "ilk": {
+   "t": "1634-01-01",
+   "gun": "1634",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Konotop' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)",
+   "tanik": "Konotop was first mentioned in a historical document in 1634."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1634-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Konotop' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)",
+    "ic_not": "BEYANLI BOŞLUK: kaynak ilk anılışı/olayları verir ama ilk anılıştan 1900'e sahip zincirini (çok sahipli: Litvanya/Polonya/Kazak Hetmanlığı/Rusya) günlü tanıkla vermez; sahip yazılmadı."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1634-01-01",
+    "gun": "1634",
+    "k": "diger",
+    "b": "Konotop tarihî bir belgede ilk kez anıldı",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Konotop' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   }
+  ],
+  "ic_not": "Koordinat GeoNames. TEK KAYNAK; ikinci bağımsız akademik kaynak bu turda okunmadı/bulunamadı (çift teyit YOK)."
+ },
+ {
+  "id": "kremenchuk",
+  "ad": "Kremenchuk",
+  "atlas_ad": null,
+  "lat": 49.0625,
+  "lon": 33.4048,
+  "kat1900": 3,
+  "adlar": [
+   "Kremenchug",
+   "Kremenchuk"
+  ],
+  "ilk": {
+   "t": "1571-01-01",
+   "gun": "1571",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Kremenchuk' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)",
+   "tanik": "Kremenchuk was founded in 1571."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1571-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Kremenchuk' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)",
+    "ic_not": "BEYANLI BOŞLUK: kaynak ilk anılışı/olayları verir ama ilk anılıştan 1900'e sahip zincirini (çok sahipli: Litvanya/Polonya/Kazak Hetmanlığı/Rusya) günlü tanıkla vermez; sahip yazılmadı."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1571-01-01",
+    "gun": "1571",
+    "k": "kurulus",
+    "b": "Kremenchuk kuruldu",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Kremenchuk' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   },
+   {
+    "t": "1596-01-01",
+    "gun": "1596",
+    "k": "kurulus",
+    "b": "Polonya kalesi yapıldı",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Kremenchuk' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   }
+  ],
+  "ic_not": "EoU: sağ kıyıdaki yerleşim 1796'ya kadar ayrı bir kasaba olan Kriukiv'du (ayrı yerleşim, bu kayda karıştırılmadı). 1596 Polonya kalesi Polonya egemenliğine işaret eder ama dönem günlü tanıkla yazılmadı. Koordinat GeoNames. TEK KAYNAK; ikinci bağımsız akademik kaynak bu turda okunmadı/bulunamadı (çift teyit YOK)."
+ },
+ {
+  "id": "bakhmut",
+  "ad": "Bakhmut",
+  "atlas_ad": null,
+  "lat": 48.5942,
+  "lon": 37.9989,
+  "kat1900": 3,
+  "adlar": [
+   "Bakhmut"
+  ],
+  "ilk": {
+   "t": "1571-01-01",
+   "gun": "1571",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Bakhmut' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)",
+   "tanik": "Mention of Bakhmut dates from 1571, when the Bakhmut guard (or Bakhmut Cossacks), on contract with the government in Moscow"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1571-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Bakhmut' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)",
+    "ic_not": "BEYANLI BOŞLUK: kaynak ilk anılışı/olayları verir ama ilk anılıştan 1900'e sahip zincirini (çok sahipli: Litvanya/Polonya/Kazak Hetmanlığı/Rusya) günlü tanıkla vermez; sahip yazılmadı."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1571-01-01",
+    "gun": "1571",
+    "k": "diger",
+    "b": "Bakhmut nöbetçileri (Bakhmut Kazakları) Moskova hükümetiyle sözleşmeyle bölgeyi devriyeyle koruyordu (ilk anılış)",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Bakhmut' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   },
+   {
+    "t": "1703-01-01",
+    "gun": "1703",
+    "k": "kurulus",
+    "b": "Izium alayı Kazakları Bakhmut kalesini inşa etti",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Bakhmut' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   }
+  ],
+  "ic_not": "Moskova hükümeti sözleşmesi Rus (rusya) bağlılığına işaret eder; BOŞLUK korundu çünkü topraktaki egemenlik cümlesi yok. Koordinat GeoNames. TEK KAYNAK; ikinci bağımsız akademik kaynak bu turda okunmadı/bulunamadı (çift teyit YOK)."
+ },
+ {
+  "id": "bohodukhiv",
+  "ad": "Bohodukhiv",
+  "atlas_ad": null,
+  "lat": 50.1615,
+  "lon": 35.5237,
+  "kat1900": 3,
+  "adlar": [
+   "Diakiv",
+   "Bohodukhiv",
+   "Bogodukhov"
+  ],
+  "ilk": {
+   "t": "1571-01-01",
+   "gun": "1571",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Bohodukhiv' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)",
+   "tanik": "It was first mentioned in 1571 as Diakiv citadel, a defense post against Tatar raids."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1571-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Bohodukhiv' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)",
+    "ic_not": "BEYANLI BOŞLUK: kaynak ilk anılışı/olayları verir ama ilk anılıştan 1900'e sahip zincirini (çok sahipli: Litvanya/Polonya/Kazak Hetmanlığı/Rusya) günlü tanıkla vermez; sahip yazılmadı."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1571-01-01",
+    "gun": "1571",
+    "k": "diger",
+    "b": "Diakiv kalesi (Tatar akınlarına karşı savunma karakolu) olarak ilk kez anıldı",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Bohodukhiv' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   },
+   {
+    "t": "1662-01-01",
+    "gun": "1662",
+    "k": "kurulus",
+    "b": "Bohodukhiv kalesi yapıldı",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Bohodukhiv' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   }
+  ],
+  "ic_not": "Koordinat GeoNames. TEK KAYNAK; ikinci bağımsız akademik kaynak bu turda okunmadı/bulunamadı (çift teyit YOK)."
+ },
+ {
+  "id": "zolotonosha",
+  "ad": "Zolotonosha",
+  "atlas_ad": null,
+  "lat": 49.6693,
+  "lon": 32.0364,
+  "kat1900": 3,
+  "adlar": [
+   "Zolotonosha"
+  ],
+  "ilk": {
+   "t": "1576-01-01",
+   "gun": "1576",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Zolotonosha' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)",
+   "tanik": "It was first mentioned in a document in 1576, as a fortified town."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1576-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Zolotonosha' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)",
+    "ic_not": "BEYANLI BOŞLUK: kaynak ilk anılışı/olayları verir ama ilk anılıştan 1900'e sahip zincirini (çok sahipli: Litvanya/Polonya/Kazak Hetmanlığı/Rusya) günlü tanıkla vermez; sahip yazılmadı."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1576-01-01",
+    "gun": "1576",
+    "k": "diger",
+    "b": "Zolotonosha belgede surlu kasaba olarak ilk kez anıldı",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Zolotonosha' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   }
+  ],
+  "ic_not": "Koordinat GeoNames. TEK KAYNAK; ikinci bağımsız akademik kaynak bu turda okunmadı/bulunamadı (çift teyit YOK)."
+ },
+ {
+  "id": "sumy",
+  "ad": "Sumy",
+  "atlas_ad": null,
+  "lat": 50.9174,
+  "lon": 34.7991,
+  "kat1900": 3,
+  "adlar": [
+   "Sumy"
+  ],
+  "ilk": {
+   "t": "1652-01-01",
+   "gun": "1652",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Sumy' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)",
+   "tanik": "It was founded in 1652 by peasants and Cossacks from Bila Tserkva regiment in Right-Bank Ukraine led by Colonel Herasym Kondratiev."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1652-01-01",
+    "t": "1900-01-01",
+    "d": "rusya",
+    "kesinlik": "yil",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Sumy' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)",
+    "ic_not": "BEYANLI YAKLAŞIKLIK: EoU yeni yerleşimin 'Muscovite voivode' tarafından tahkim edildiğini söyler (Rus yönetimi); 1652-1900 boyunca Rus egemenliği başka kaynakla cümle cümle doğrulanmadı."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1652-01-01",
+    "gun": "1652",
+    "k": "kurulus",
+    "b": "Sumy Bila Tserkva alayından köylü ve Kazaklarca kuruldu; kısa sürede Moskova voyvodası tahkim etti",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Sumy' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   }
+  ],
+  "ic_not": "Kuruluş EoU (1652). TEK KAYNAK; ikinci bağımsız akademik kaynak bu turda okunmadı/bulunamadı (çift teyit YOK). Koordinat GeoNames."
+ },
+ {
+  "id": "kropyvnytskyi",
+  "ad": "Kropyvnytskyi",
+  "atlas_ad": null,
+  "lat": 48.5083,
+  "lon": 32.2662,
+  "kat1900": 3,
+  "adlar": [
+   "Saint Elizabeth Fortress",
+   "Yelysavethrad",
+   "Elisavetgrad",
+   "Kropyvnytskyi"
+  ],
+  "ilk": {
+   "t": "1754-01-01",
+   "gun": "1754",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Kropyvnytskyi' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)",
+   "tanik": "The city was founded in 1754 on Zaporozhian Cossack territory as the Saint Elizabeth Fortress"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1754-01-01",
+    "t": "1900-01-01",
+    "d": "rusya",
+    "kesinlik": "yil",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Kropyvnytskyi' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)",
+    "ic_not": "BEYANLI YAKLAŞIKLIK: kale Rus İmparatorluğu'nun güney sınırını korumak için yapıldı (EoU); arazi 'Zaporozhian Cossack territory' (zaporojye künyesi 1775-06-16'ya kadar) olarak anılır — sahiplik Zaporog Sich'i ile Rus İmparatorluğu arasında ayrıştırılmadı."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1754-01-01",
+    "gun": "1754",
+    "k": "kurulus",
+    "b": "Aziz Elizabeth Kalesi Zaporog Kazak topraklarında kuruldu",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Kropyvnytskyi' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   },
+   {
+    "t": "1775-01-01",
+    "gun": "1775",
+    "k": "idari",
+    "b": "Kalenin çevresinde büyüyen kasaba Yelysavethrad adını aldı",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Kropyvnytskyi' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   }
+  ],
+  "ic_not": "Kuruluş EoU (1754). TEK KAYNAK; ikinci bağımsız akademik kaynak bu turda okunmadı/bulunamadı (çift teyit YOK). Koordinat GeoNames. Atlas önerisi: sahiplik 1754-1775 zaporojye/rusya ayrımı kaynakla çözülmeli."
+ },
+ {
+  "id": "zaporizhzhia",
+  "ad": "Zaporizhzhia",
+  "atlas_ad": null,
+  "lat": 47.8517,
+  "lon": 35.1171,
+  "kat1900": 2,
+  "adlar": [
+   "Oleksandrivske (Aleksandrovsk)",
+   "Aleksandrovsk",
+   "Zaporizhzhia"
+  ],
+  "ilk": {
+   "t": "1770-01-01",
+   "gun": "1770",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Zaporizhia' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)",
+   "tanik": "The city grew up around Oleksandrivske fortress, which was built in 1770"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1770-01-01",
+    "t": "1900-01-01",
+    "d": "rusya",
+    "kesinlik": "yil",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Zaporizhia' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)",
+    "ic_not": "BEYANLI YAKLAŞIKLIK: kale Kırım Hanlığı'na karşı Dnipro Hattı'nın halkasıydı (EoU: Rus savunma hattı); Rus egemenliği cümlesi yok, Zaporog Sich'i topraklarıyla ilişki ayrıştırılmadı."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1770-01-01",
+    "gun": "1770",
+    "k": "kurulus",
+    "b": "Oleksandrivske kalesi yapıldı (şehir çevresinde büyüdü)",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Zaporizhia' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   },
+   {
+    "t": "1783-01-01",
+    "gun": "1783",
+    "k": "diger",
+    "b": "Rusya'nın Kırım'ı ilhakından sonra kale askerî önemini kaybetti",
+    "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Zaporizhia' maddesi (encyclopediaofukraine.com; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   }
+  ],
+  "ic_not": "LISTE EŞLEŞME HATASI: LISTE atlas_ad 'Aleksandrovsk (Kuzey Sahalin)' (atlas 1875) yanlış — Zaporizhzhia'nın 1900 adı Aleksandrovsk; Sahalin noktası ayrı yer. atlas_ad bu yüzden null yazıldı; zincir 1900'e uzatıldı. Kuruluş EoU (1770). TEK KAYNAK; ikinci bağımsız akademik kaynak bu turda okunmadı/bulunamadı (çift teyit YOK). Koordinat LISTE'den (47.8517, 35.1171)."
+ },
+ {
+  "id": "feodosiia",
+  "ad": "Feodosiia (Kefe)",
+  "atlas_ad": null,
+  "lat": 45.032,
+  "lon": 35.3815,
+  "kat1900": 3,
+  "adlar": [
+   "Kefe",
+   "Caffa",
+   "Feodosiya",
+   "Feodosiia"
+  ],
+  "ilk": {
+   "t": "1266-01-01",
+   "gun": "1266 civarı",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "belirsiz",
+   "kaynak": "TDV İslâm Ansiklopedisi, KEFE maddesi (islamansiklopedisi.org.tr/kefe; 17 Kas 2026 gömülü tarayıcıda okundu)",
+   "tanik": "Altın Orda’dan yerleşme izni almak suretiyle Kefe’ye gelen Cenevizliler (1266 yılı civarı) Altın Orda’nın zayıflamasından istifade ederek buraya hâkim oldular."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1266-01-01",
+    "t": "1475-06-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, KEFE maddesi (islamansiklopedisi.org.tr/kefe; 17 Kas 2026 gömülü tarayıcıda okundu)",
+    "ic_not": "BEYANLI BOŞLUK: TDV Kefe'nin Altın Orda idaresi içinde olduğunu, 1266 civarı Cenevizliler'in izinle geldiğini, 1341-1348 surlarla tahkim ettiklerini, 1434'te Hacı Giray'ın hukuken hâkim olduğunu verir; defacto/dejure sahip değişimleri (Altın Orda→Ceneviz→Kırım Han'ı) günlü tek bir kesintisiz zincir oluşturmaz."
+   },
+   {
+    "f": "1475-06-01",
+    "t": "1783-01-01",
+    "d": "osmanli",
+    "kesinlik": "ay",
+    "kaynak": "TDV İslâm Ansiklopedisi, KEFE maddesi (islamansiklopedisi.org.tr/kefe; 17 Kas 2026 gömülü tarayıcıda okundu)",
+    "ic_not": "TDV: Gedik Ahmed Paşa donanması Kefe'yi Safer 880 / Haziran 1475'te fethetti (gün yok → ayın 1'i; BEYANLI). 1771 ve 1777 Rus işgalleri geçici (dönem açılmadı); Kırım Hanlığı Osmanlı himayesinde."
+   },
+   {
+    "f": "1783-01-01",
+    "t": "1900-01-01",
+    "d": "rusya",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, KEFE maddesi (islamansiklopedisi.org.tr/kefe; 17 Kas 2026 gömülü tarayıcıda okundu)",
+    "ic_not": "TDV: 1783'te Kefe kesin olarak Rus hâkimiyeti altına girdi."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1266-01-01",
+    "gun": "1266 civarı",
+    "k": "diger",
+    "b": "Cenevizliler Altın Orda izniyle Kefe'ye geldi (yaklaşık)",
+    "kaynak": "TDV İslâm Ansiklopedisi, KEFE maddesi (islamansiklopedisi.org.tr/kefe; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   },
+   {
+    "t": "1434-01-01",
+    "gun": "1434",
+    "k": "antlasma",
+    "b": "Hacı Giray Cenevizliler'i bozguna uğrattı; antlaşmayla Kefe'nin hukuken hâkimi oldu",
+    "kaynak": "TDV İslâm Ansiklopedisi, KEFE maddesi (islamansiklopedisi.org.tr/kefe; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   },
+   {
+    "t": "1475-06-01",
+    "gun": "Haziran 1475",
+    "k": "fetih",
+    "b": "Gedik Ahmed Paşa Kefe'yi fethetti (Safer 880)",
+    "kaynak": "TDV İslâm Ansiklopedisi, KEFE maddesi (islamansiklopedisi.org.tr/kefe; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   },
+   {
+    "t": "1771-01-01",
+    "gun": "1771",
+    "k": "isgal",
+    "b": "Rus işgali (1768 savaşı) — geçici",
+    "kaynak": "TDV İslâm Ansiklopedisi, KEFE maddesi (islamansiklopedisi.org.tr/kefe; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   },
+   {
+    "t": "1777-01-01",
+    "gun": "1777",
+    "k": "isgal",
+    "b": "İkinci Rus işgali; Ruslar anlaşmaya rağmen şehri elde tuttu",
+    "kaynak": "TDV İslâm Ansiklopedisi, KEFE maddesi (islamansiklopedisi.org.tr/kefe; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   },
+   {
+    "t": "1783-01-01",
+    "gun": "1783",
+    "k": "fetih",
+    "b": "Kefe kesin olarak Rus hâkimiyetine girdi",
+    "kaynak": "TDV İslâm Ansiklopedisi, KEFE maddesi (islamansiklopedisi.org.tr/kefe; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   }
+  ],
+  "ic_not": "TDV tek kaynak. ilk.t 1266 (güvenli uç; 'civarı' → kesinlik belirsiz). Antik Theodosia ayrı kayıt (modern şehirle süreklilik bu turda kaynaklanmadı). Fetih günü: TDV 'Haziran 1475'. Koordinat GeoNames (Feodosiya, 17 Kas 2026)."
+ },
+ {
+  "id": "bilhorod-dnistrovskyi",
+  "ad": "Bilhorod-Dnistrovskyi (Akkirman)",
+  "atlas_ad": null,
+  "lat": 46.1948,
+  "lon": 30.3483,
+  "kat1900": 3,
+  "adlar": [
+   "Akça Kirman",
+   "Akkirman",
+   "Akkerman",
+   "Belgorod-Dnestrovski",
+   "Bilhorod-Dnistrovskyi"
+  ],
+  "ilk": {
+   "t": "1241-01-01",
+   "gun": "1241",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, AKKİRMAN maddesi (islamansiklopedisi.org.tr/akkirman; 17 Kas 2026 gömülü tarayıcıda okundu)",
+   "tanik": "1241 yılında Moğollar’ın hâkimiyetine geçen Akkirman, XIV. yüzyılda Cenevizliler’in idaresine girdi"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1241-01-01",
+    "t": "1484-08-04",
+    "d": "__BOSLUK__",
+    "kesinlik": "gun",
+    "kaynak": "TDV İslâm Ansiklopedisi, AKKİRMAN maddesi (islamansiklopedisi.org.tr/akkirman; 17 Kas 2026 gömülü tarayıcıda okundu)",
+    "ic_not": "BEYANLI BOŞLUK: TDV 1241 Moğol hâkimiyetini, XIV. yy Ceneviz idaresini (tarihsiz), 1455'te Boğdan'ın Osmanlı hâkimiyetini tanımasını ve 1484 Osmanlı fethini verir; ara sahipler günlü kesintisiz zincir oluşturmaz."
+   },
+   {
+    "f": "1484-08-04",
+    "t": "1812-01-01",
+    "d": "osmanli",
+    "kesinlik": "gun",
+    "kaynak": "TDV İslâm Ansiklopedisi, AKKİRMAN maddesi (islamansiklopedisi.org.tr/akkirman; 17 Kas 2026 gömülü tarayıcıda okundu)",
+    "ic_not": "TDV: Bayezid devrinde Boğdanlılar'dan alındı (4 Ağustos 1484); 1593'te Özü eyaletine ilhak. Bitiş 1812: Bükreş Antlaşması (TDV HOTİN: Dinyester-Boh/Besarabya arası Rusya'ya bırakıldı) — Akkirman'ın bu arazide olması çıkarımdır (BEYANLI)."
+   },
+   {
+    "f": "1812-01-01",
+    "t": "1900-01-01",
+    "d": "rusya",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, AKKİRMAN maddesi (islamansiklopedisi.org.tr/akkirman; 17 Kas 2026 gömülü tarayıcıda okundu)",
+    "ic_not": "1812'den sonra Rus egemenliği; TDV Akkirman maddesi 1826 Akkirman Antlaşması'nın Rus şehrinde imzalandığını ve 1917'de Rus Çarlığı yıkılınca muhtariyet kazandığını verir."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1241-01-01",
+    "gun": "1241",
+    "k": "fetih",
+    "b": "Akkirman Moğol hâkimiyetine geçti",
+    "kaynak": "TDV İslâm Ansiklopedisi, AKKİRMAN maddesi (islamansiklopedisi.org.tr/akkirman; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   },
+   {
+    "t": "1484-08-04",
+    "gun": "4 Ağustos 1484",
+    "k": "fetih",
+    "b": "Bayezid devrinde Akkirman Boğdanlılar'dan alındı; bütün Karadeniz sahilleri Osmanlı hâkimiyetine girdi",
+    "kaynak": "TDV İslâm Ansiklopedisi, AKKİRMAN maddesi (islamansiklopedisi.org.tr/akkirman; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   },
+   {
+    "t": "1593-01-01",
+    "gun": "1593",
+    "k": "idari",
+    "b": "Akkirman sancağı yeni kurulan Özü eyaletine ilhak edildi",
+    "kaynak": "TDV İslâm Ansiklopedisi, AKKİRMAN maddesi (islamansiklopedisi.org.tr/akkirman; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   },
+   {
+    "t": "1812-01-01",
+    "gun": "1812",
+    "k": "antlasma",
+    "b": "Bükreş Antlaşması ile Besarabya (Dinyester-Boh arası) Rusya'ya bırakıldı (TDV HOTİN maddesi; Akkirman maddesinde yıl yok)",
+    "kaynak": "TDV İslâm Ansiklopedisi, HOTİN maddesi (islamansiklopedisi.org.tr/hotin; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   },
+   {
+    "t": "1826-10-07",
+    "gun": "7 Ekim 1826",
+    "k": "antlasma",
+    "b": "Akkirman Antlaşması imzalandı (Sırbistan muhtariyeti, Balkanlar'da Rus nüfuzu)",
+    "kaynak": "TDV İslâm Ansiklopedisi, AKKİRMAN maddesi (islamansiklopedisi.org.tr/akkirman; 17 Kas 2026 gömülü tarayıcıda okundu)"
+   }
+  ],
+  "ic_not": "TDV tek kaynak (Akkirman maddesi tam gövde okundu); TDV 'Akça Kirman' adı için Ebü'l-Fidâ'ya atıf verir. 1241 'Moğol hâkimiyeti' ilk tarihli ifadedir, daha erken (antik Tyras/Maurocastro) kayıt bu yerleşimle süreklilik kaynaklanmadığı için yazılmadı. Osmanlı fetih günü kesin (4 Ağustos 1484; TDV). Koordinat GeoNames."
+ }
+]

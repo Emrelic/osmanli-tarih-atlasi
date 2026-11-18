@@ -11,7 +11,7 @@
   atlasın ölçü verisi değildir; atlasın kendi sınırları için haritanın kendisine bakılır.
 - Kara zemini ve küre dokusu: Natural Earth 10m land (kamu malı).
 
-## Portreler (`portreler.jpg`, 38 yüz, 8 sütunlu tabaka)
+## Portreler (`portreler.webp`, 8 sütunlu tabaka)
 Kaynak: Wikimedia Commons. Kamu malı olmayan eserler **CC BY-SA**; yüz kırpması bu
 eserlerden uyarlamadır ve aynı lisansla paylaşılır.
 
@@ -55,9 +55,80 @@ eserlerden uyarlamadır ve aynı lisansla paylaşılır.
 | Büyük İskender | Alexander_Mosaic_detail_of_Alexander_the_Great_(3x4_cropped).jpg | Kamu malı | |
 | Cengiz Han | YuanEmperorAlbumGenghisPortrait.jpg | Kamu malı | |
 | Kubilay Han | YuanEmperorAlbumKhubilaiPortrait.jpg | Kamu malı | |
+| Shakespeare | Shakespeare.jpg | Kamu malı | John Taylor (atf.) |
+| Jeanne d'Arc | Ingres coronation charles vii.jpg | Kamu malı | J.-A.-D. Ingres |
+| Vasco da Gama | Vasco da Gama - 1838.png | Kamu malı | António Manuel da Fonseca |
+| Denizci Henrique | Henry the Navigator1.jpg | Kamu malı | Nuno Gonçalves |
+| Kangxi | Portrait of the Kangxi Emperor in Court Dress.jpg | Kamu malı | Qing saray ressamı |
+| I. Şah Abbas | Shah abbas I by Bishn Das.jpg | Kamu malı | Bişan Das |
+| Şah İsmail | Portrait of Shah Ismail I. Inscribed "Ismael Sophy Rex Pers". Painted by Cristofano dell'Altissimo, dated 1552-1568.jpg | Kamu malı | Cristofano dell'Altissimo |
+| Hz. Muhammed (adı, hat) | Muhammad (name).png | CC BY 3.0 | Morgan Phoenix |
+| Hz. İsa | Christ Pantocrator Deesis mosaic Hagia Sophia.jpg | Kamu malı | Ayasofya Deesis mozaiği |
+| Hz. Musa | Moses Icon Sinai 13th century detail.jpg | Kamu malı | Sina, Ayia Ekaterini ikonu |
+| Buda | Gandhara Buddha (tnm).jpeg | Kamu malı | Gandhara heykeli, Tokyo Ulusal Müzesi |
+| Konfüçyüs | Confucius Tang Dynasty.jpg | Kamu malı | Wu Daozi ardılı taş baskı |
+| Martin Luther | Lucas Cranach d.Ä. - Martin Luther, 1528 (Veste Coburg).jpg | Kamu malı | Lucas Cranach (Yaşlı) |
+
+**Tarih duvarı ekleri (17 Kas 2026).** Dosya adı, lisans ve eser sahibi üreticideki `PORTRE`
+listesindedir (`arac/acilis_uret.py`; lisans Commons'tan okundu). Kamu malı olmayan tek ek:
+Nefertiti büstü fotoğrafı — CC BY-SA 3.0, Philip Pikart. Ekler: Maria Theresia, Aristoteles,
+Kopernik, II. Abdülhamid, Osman Gazi, Yavuz Sultan Selim, Selahaddin Eyyûbî, Tutankamon
+maskesi, Nefertiti, Platon, Homeros, Michelangelo, Galileo, Kolomb, Newton, Darwin, Şarlman,
+Pasteur, Voltaire, Descartes, Gutenberg, Beethoven, Bach, Mozart, Tolstoy, Rembrandt,
+Jefferson, Edison, Meiji, Gustav Adolf, Hannibal, Mansa Musa, Kossuth, San Martín, Bolívar,
+Emir Abdülkadir (Lao Tzu ve II. Menelik bekliyor — aşağıya bak). Kişi seçiminde yardımcı referans: M. H. Hart, *The 100*
+(1992). Siyasî gerekçeyle alınmadı: Hitler, Stalin, Lenin, Mao, Marx.
+
+Portreler dikey 3:4 kırpılır (baş + omuz, pencere resmin dışına taşmaz); tabaka WebP,
+hücre 120×160 (duvarda vitrin büyütmesi 2,3×). Hz. Muhammed tasvir edilmez: adının hat
+yazısı parşömen üstünde gösterilir.
 
 Dosya sayfası: `https://commons.wikimedia.org/wiki/File:<dosya adı>`.
 
+## Amblemler (`amblemler.webp`, 8 sütunlu saydam tabaka, hücre 128)
+Tarih duvarı ekleri (17 Kas 2026): Yunanistan, İran, Suudi Arabistan, Moğolistan, Hollanda,
+Polonya, Macaristan, Arjantin, Venezuela, Kolombiya, Peru, Kanada, Kore, Cezayir, Habeşistan,
+Güney Afrika, Azerbaycan, Kazakistan, Özbekistan, Türkmenistan, Kırgızistan, Endonezya,
+Pakistan, Bangladeş, Nijerya, Vietnam, Filipinler bayrakları — Commons 17 Kas akşamı 429
+(istek engeli) verdiği için **flag-icons 7.2.3** (MIT, `cdn.jsdelivr.net/npm/flag-icons`; bayrak
+tasarımları kamu malı) 4:3 SVG'lerinden başsız Chrome ile PNG'ye çevrildi.
+Osmanlı arması (1882–1922), Faravahar, Japon krizantem mührü ile Lao Tzu ve II. Menelik
+portreleri üreticide tanımlı ama Commons engeli yüzünden **henüz inmedi**; üretici
+`--indirme-yok` ile koşturuldu, bu karolar atlandı. Engel kalkınca düz `py arac/acilis_uret.py`
+(Lao Tzu ve Menelik için PORTRE'ye satır eklenerek) onları da ekler.
+
+Kaynak: Wikimedia Commons; lisans, üretim sırasında Commons'tan okundu (17 Kasım 2026).
+Bugünün devletleri için bayrak, tarihî devletler için devrine ait arma/tuğra/sancak.
+Siyah tek renk çizimler (tuğra, ankh, VOC, Aşoka) altın renge boyandı; Reichsadler ve Rus
+arması parşömen yuvarlak üstüne kondu — bu uyarlamalar aynı lisansla paylaşılır.
+
+| Öğe | Amblem | Commons dosyası | Lisans |
+|---|---|---|---|
+| Bugünün 14 devleti | bayrak | Flag of Turkey.svg, Flag of the United Kingdom.svg, Flag of France.svg, Flag of Spain.svg, Flag of Germany.svg, Flag of Italy.svg, Flag of Russia.svg, Flag of the People's Republic of China.svg, Flag of India.svg, Flag of Egypt.svg, Flag of the United States.svg, Flag of Mexico.svg, Flag of Japan.svg, Flag of Brazil.svg | Kamu malı |
+| Osmanlı | Kanunî'nin tuğrası | Tughra of Suleiman I the Magnificent.svg | Kamu malı |
+| Roma | SPQR | SPQR.svg | Kamu malı |
+| İskender | Vergina güneşi | Vergina sun.svg | Kamu malı |
+| Bizans | Palaiologos çift başlı kartalı | Palaiologos-Dynasty-Eagle.svg | Kamu malı |
+| Britanya | kraliyet arması | Royal Coat of Arms of the United Kingdom.svg | CC BY-SA 3.0 (Sodacan) |
+| Ahameniş | Kiros'un sancağı | Standard of Cyrus the Great (Achaemenid Empire).svg | Kamu malı |
+| Rus İmp. | küçük arma | Lesser Coat of Arms of Russian Empire.svg | Kamu malı |
+| İspanyol | Burgonya haçı | Flag of Cross of Burgundy.svg | Kamu malı |
+| Fransız | zambaklar (France Ancien) | Blason pays fr FranceAncien.svg | Kamu malı |
+| Qing | ejder bayrağı | Flag of China (1889–1912).svg | Kamu malı |
+| Alman İmp. | Reichsadler | Wappen Deutsches Reich - Reichsadler 1889.svg | Kamu malı |
+| Avusturya-Macaristan | arma | Coat of arms of Austria-Hungary (1914).svg | Kamu malı |
+| Eski Mısır | ankh | Ankh.svg | Kamu malı |
+| Kartaca | Tanit işareti | Tanit-Symbol.svg | Kamu malı |
+| Lehistan-Litvanya | arma | Coat of Arms of the Polish-Lithuanian Commonwealth.svg | CC BY-SA 3.0 (Avalokitesvara) |
+| İsveç | büyük arma | Great coat of arms of Sweden.svg | Kamu malı |
+| Portekiz | bayrak (1707) | Flag of Portugal (1707).svg | Kamu malı |
+| Hollanda | VOC damgası | VOC.svg | Kamu malı |
+| Maurya | Aşoka aslan başlığı (Hindistan arması çizimi) | Emblem of India.svg | Kamu malı |
+
+**Alınmayanlar:** Göktürk, Moğol, Emevî, Abbâsî, Selçuklu, Timurlu, Babür, Safevî
+"bayrakları" — Commons'taki çizimler kaynaksız sonradan temsiller; Kiev Rus, Aztek, İnka için
+uygun dosya bulunamadı.
+
 **Elenenler:** Kiros (madde görseli modern kabartma, CC BY-SA, portre değil) ·
-Hârûnürreşîd (yalnız sikke) · Konfüçyüs (Han fresko, 112 px'te okunmuyor) ·
+Hârûnürreşîd (yalnız sikke) · Konfüçyüs'ün Han freskosu (okunmuyor; yerine Tang taş baskısı alındı) ·
 I. Dârâ (kabartma, okunmuyor) · Mao (siyasî; Emre'ye sorulmadan eklenmedi).

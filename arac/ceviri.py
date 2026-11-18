@@ -120,6 +120,10 @@ DILLER = [("tr", "Türkçe"), ("en", "English"), ("ar", "العربية"), ("es"
 # — ÖLÇÜM: LAB F3 yamaları (64 yama; hicrî yıl kuralı + gün kesinleştirme) kronoloji maddelerinin t değerini değiştirdi;
 # çeviri olay kimliği <dizi>:<t>:<sıra> olduğundan çevrilmiş dillerde eski kimlik yetim, yeni kimlik eksik: olay eksik en/ar/es/de 430->442,
 # pt 1543->1553; bayat en/ar/es/de 113->116, pt 92->95 (fr/ru aynı). Çeviri işi site bitince (Emre, 13 Kasım).
+# 17 Kasım 2026 (KASA 17, tavan AÇILDI: önce ölç, aç, raporla): arayüz eksik 79 -> 80 her dilde = +1 yeni gün kalıbı;
+# kaynak: kapı 5 birleşimi (lab-yama-1117 ve/veya umit-17-kasim kronoloji metni); tek kalıp ayrıca izole edilmedi. Eski: arayüz 79.
+# 18 Kasım 2026 (ceviri-79-1118): IZOLE EDILDI — +1 arayüz kalıbı "# Temmuz # (# Şâban #)" (olaylar_2s_1019.js gün: 6 Temmuz 969 (17 Şâban 358));
+# 7 dile çevrildi, arayüz tavanı 80 -> 79.
 BEKLENEN_CEVIRI_EKSIK = {
     "en": {"arayuz": 79, "devlet": 24, "olay": 442},
     "ar": {"arayuz": 79, "devlet": 24, "olay": 442},

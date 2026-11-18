@@ -1,0 +1,217 @@
+[
+ {
+  "id": "zakynthos",
+  "ad": "Zakynthos",
+  "atlas_ad": null,
+  "lat": 37.7802,
+  "lon": 20.8956,
+  "kat1900": 2,
+  "adlar": [
+   "Irie",
+   "Zacinto",
+   "Zante",
+   "Zakynthos"
+  ],
+  "ilk": {
+   "t": "-0454-01-01",
+   "gun": "MÖ 455",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Treccani, Enciclopedia on line, 'Zante' (treccani.it/enciclopedia/zante/; 17 Kas 2026 gomulu tarayicida okundu)",
+   "tanik": "Z., prima chiamata Irie, dal 455 a.C. e per tutta la guerra del Peloponneso, fu nell’orbita ateniese"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "-0454-01-01",
+    "t": "1484-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "Treccani, Enciclopedia on line, 'Zante' (treccani.it/enciclopedia/zante/; 17 Kas 2026 gomulu tarayicida okundu)",
+    "ic_not": "Treccani: Atina cevresi, Sparta, Makedon 217, Roma 191, Bizans, 1185 Margheritone da Brindisi, Orsini 1194-1328, Tocco 1328-1484: zincir kunyesiz kuruldu."
+   },
+   {
+    "f": "1484-01-01",
+    "t": "1797-01-01",
+    "d": "venedik",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia on line, 'Zante' (treccani.it/enciclopedia/zante/; 17 Kas 2026 gomulu tarayicida okundu)",
+    "ic_not": "Treccani: 'ceduta a Venezia, che la tenne fino al 1797'."
+   },
+   {
+    "f": "1797-01-01",
+    "t": "1863-11-14",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia on line, 'Zante' (treccani.it/enciclopedia/zante/; 17 Kas 2026 gomulu tarayicida okundu)",
+    "ic_not": "Treccani: 1797 Fransa, 1800 Yedi Ada Cumhuriyeti (Rus himayesi), 1809 Ion Adalari Birligi Devletleri (Ingiliz himayesi): kunye kontrol edilmedi."
+   },
+   {
+    "f": "1863-11-14",
+    "t": "1900-01-01",
+    "d": "yunanistan",
+    "kesinlik": "gun",
+    "kaynak": "Treccani, Enciclopedia on line, 'Zante' (treccani.it/enciclopedia/zante/; 17 Kas 2026 gomulu tarayicida okundu)",
+    "ic_not": "Treccani: 14 Kasim 1863 antlasmasi."
+   }
+  ],
+  "olay": [
+   {
+    "t": "-0454-01-01",
+    "gun": "MÖ 455",
+    "k": "diger",
+    "b": "Zakynthos (once 'Irie') MO 455'ten Peloponnes Savasi boyunca Atina'nin etki alaninda",
+    "kaynak": "Treccani, Enciclopedia on line, 'Zante' (treccani.it/enciclopedia/zante/; 17 Kas 2026 gomulu tarayicida okundu)"
+   },
+   {
+    "t": "1484-01-01",
+    "gun": "1484",
+    "k": "diger",
+    "b": "Tocco ailesinden Venedik'e devredildi (Venedik 1797'ye kadar tuttu)",
+    "kaynak": "Treccani, Enciclopedia on line, 'Zante' (treccani.it/enciclopedia/zante/; 17 Kas 2026 gomulu tarayicida okundu)"
+   },
+   {
+    "t": "1797-01-01",
+    "gun": "1797",
+    "k": "antlasma",
+    "b": "Campoformio Antlasmasi ile Fransizlara verildi",
+    "kaynak": "Treccani, Enciclopedia on line, 'Zante' (treccani.it/enciclopedia/zante/; 17 Kas 2026 gomulu tarayicida okundu)"
+   },
+   {
+    "t": "1800-01-01",
+    "gun": "1800",
+    "k": "diger",
+    "b": "Rus himayesindeki Yedi Ada Cumhuriyeti'ne katildi",
+    "kaynak": "Treccani, Enciclopedia on line, 'Zante' (treccani.it/enciclopedia/zante/; 17 Kas 2026 gomulu tarayicida okundu)"
+   },
+   {
+    "t": "1809-01-01",
+    "gun": "1809",
+    "k": "diger",
+    "b": "Ingiliz himayesindeki Ion Adalari Birligi Devletleri'ne gecti",
+    "kaynak": "Treccani, Enciclopedia on line, 'Zante' (treccani.it/enciclopedia/zante/; 17 Kas 2026 gomulu tarayicida okundu)"
+   },
+   {
+    "t": "1863-11-14",
+    "gun": "14 Kasim 1863",
+    "k": "antlasma",
+    "b": "14 Kasim 1863 antlasmasiyla diger adalarla birlikte Yunanistan'a katildi",
+    "kaynak": "Treccani, Enciclopedia on line, 'Zante' (treccani.it/enciclopedia/zante/; 17 Kas 2026 gomulu tarayicida okundu)"
+   }
+  ],
+  "ic_not": "TEK KAYNAK (Treccani; madde 'Zante' ADA maddesidir: 'Z.' hem ada hem baskent Zakynthos kasabasi: 'Il capoluogo è Z.'; sahiplik ada duzeyi, sehir ayni sahipte kabul edildi -> TANIK KURALI: sehir/ada ayrimi kaynakta yok). Zincir kaynakli: Atina cevresi MO 455 -> Sparta -> Makedon 217 -> Roma 191 -> Bizans -> 1185 Margheritone -> Orsini 1194-1328 -> Tocco 1328-1484 -> Venedik 1484-1797 -> Fransa 1797 -> Yedi Ada 1800 -> Ion Adalari 1809 -> Yunanistan 1863-11-14 (gun kaynakta). Yalniz Venedik (1484-1797) ve Yunanistan (1863-) kunyeli; 1797-1863 arasi BOSLUK (Fransiz/Rus/Ingiliz himayesi kunyeleri kontrol edilmedi). Atlas noktasi/kunyesi bu turda kontrol edilmedi (LISTE atlas_ad bos). koord: GeoNames arama sayfasi 17 Kas 2026'da okundu."
+ },
+ {
+  "id": "kerkyra",
+  "ad": "Kerkyra",
+  "atlas_ad": null,
+  "lat": 39.6244,
+  "lon": 19.9202,
+  "kat1900": 2,
+  "adlar": [
+   "Corcira",
+   "Kerkyra",
+   "Corfù",
+   "Korfu"
+  ],
+  "ilk": {
+   "t": "-0700-01-01",
+   "gun": "MÖ 8. yy",
+   "nicelik": "kurulus",
+   "kesinlik": "yuzyil",
+   "kaynak": "Treccani, Enciclopedia on line, 'Corfù' (treccani.it/enciclopedia/corfu/; 17 Kas 2026 gomulu tarayicida okundu)",
+   "tanik": "È l’antica Corcira, identificata con la mitica isola dei Feaci, colonizzata dai Corinzi nell’8° sec. a.C."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "-0700-01-01",
+    "t": "1401-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "Treccani, Enciclopedia on line, 'Corfù' (treccani.it/enciclopedia/corfu/; 17 Kas 2026 gomulu tarayicida okundu)",
+    "ic_not": "Treccani: Korinth kolonisi, bagimsiz, Roma, Bizans, 1204 Haclilar, 1214 Epir despotlugu, 1259 Manfredi, 1267 Anjou: kunyeli zincir kurulmadi."
+   },
+   {
+    "f": "1401-01-01",
+    "t": "1797-01-01",
+    "d": "venedik",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia on line, 'Corfù' (treccani.it/enciclopedia/corfu/; 17 Kas 2026 gomulu tarayicida okundu)",
+    "ic_not": "Treccani: 'Venezia la occupò nel 1401'; 1797 Fransizlar."
+   },
+   {
+    "f": "1797-01-01",
+    "t": "1864-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia on line, 'Corfù' (treccani.it/enciclopedia/corfu/; 17 Kas 2026 gomulu tarayicida okundu)",
+    "ic_not": "Treccani: 1797 Fransa, 1799 Rus-Turk, 1807 Fransa, 1809-64 Ingiliz: kunye kontrol edilmedi."
+   },
+   {
+    "f": "1864-01-01",
+    "t": "1900-01-01",
+    "d": "yunanistan",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia on line, 'Corfù' (treccani.it/enciclopedia/corfu/; 17 Kas 2026 gomulu tarayicida okundu)",
+    "ic_not": "Treccani: 'fu ceduta alla Grecia insieme alle altre isole Ionie' (1864; gun kaynakta yok; Zakynthos 14 Kasim 1863 verir: Treccani ic celiskisi, 1863/1864)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "-0432-01-01",
+    "gun": "MÖ 433",
+    "k": "savas",
+    "b": "Korkyra Sibota'da Korinthos'a yenildi",
+    "kaynak": "Treccani, Enciclopedia on line, 'Corfù' (treccani.it/enciclopedia/corfu/; 17 Kas 2026 gomulu tarayicida okundu)"
+   },
+   {
+    "t": "1204-01-01",
+    "gun": "1204",
+    "k": "fetih",
+    "b": "Konstantiniyye Haclilarin eline gecince Korfu Mikhail I Angelos Komnenos'a gecti; 1214'te Epir despotlugu",
+    "kaynak": "Treccani, Enciclopedia on line, 'Corfù' (treccani.it/enciclopedia/corfu/; 17 Kas 2026 gomulu tarayicida okundu)"
+   },
+   {
+    "t": "1267-01-01",
+    "gun": "1267",
+    "k": "diger",
+    "b": "Korfu Manfredi'den Anjou'lu Karl'a gecti",
+    "kaynak": "Treccani, Enciclopedia on line, 'Corfù' (treccani.it/enciclopedia/corfu/; 17 Kas 2026 gomulu tarayicida okundu)"
+   },
+   {
+    "t": "1401-01-01",
+    "gun": "1401",
+    "k": "fetih",
+    "b": "Venedik Korfu'yu isgal etti ve Turklere karsi savundu",
+    "kaynak": "Treccani, Enciclopedia on line, 'Corfù' (treccani.it/enciclopedia/corfu/; 17 Kas 2026 gomulu tarayicida okundu)"
+   },
+   {
+    "t": "1797-01-01",
+    "gun": "1797",
+    "k": "fetih",
+    "b": "Korfu Fransizlarca fethedildi (1799 Rus-Turk kuvvetleri, 1807 yeniden Fransa)",
+    "kaynak": "Treccani, Enciclopedia on line, 'Corfù' (treccani.it/enciclopedia/corfu/; 17 Kas 2026 gomulu tarayicida okundu)"
+   },
+   {
+    "t": "1809-01-01",
+    "gun": "1809-1864",
+    "k": "diger",
+    "b": "Ingiliz hakimiyeti 1809-1864",
+    "kaynak": "Treccani, Enciclopedia on line, 'Corfù' (treccani.it/enciclopedia/corfu/; 17 Kas 2026 gomulu tarayicida okundu)"
+   },
+   {
+    "t": "1864-01-01",
+    "gun": "1864",
+    "k": "diger",
+    "b": "Korfu diger Ion adalariyla birlikte Yunanistan'a verildi",
+    "kaynak": "Treccani, Enciclopedia on line, 'Corfù' (treccani.it/enciclopedia/corfu/; 17 Kas 2026 gomulu tarayicida okundu)"
+   }
+  ],
+  "ic_not": "TEK KAYNAK (Treccani; madde 'Corfu' ADA maddesidir; sehir ayni isim ve ayni sahip kabul edildi, TANIK KURALI). Kuruluş: antik Korkyra 8. yy MO Korinthli koloni (sehir ve ada ayni isim: sehrin modern noktasi antik sit ile ayni olmayabilir: Treccani 'Della citta greca rimangono parti delle mura...': ayni yer kabul). 'Corcira'/'Corfu' adlari Treccani. Zincir: Korinth -> bagimsiz -> Roma -> Bizans -> 1204 Haclilar/Angelos 1214 Epir -> 1259 Manfredi -> 1267 Anjou -> 1401 Venedik -> 1797 Fransa/1799 Rus-Turk/1807 Fransa -> 1809-1864 Ingiliz -> 1864 Yunanistan. Kunyeli kisimlar: Venedik 1401-1797 ve Yunanistan 1864-; 1797-1864 BOSLUK. Atlas noktasi/kunyesi bu turda kontrol edilmedi (LISTE atlas_ad bos). koord: GeoNames arama sayfasi 17 Kas 2026'da okundu."
+ }
+]

@@ -1,5 +1,5 @@
-// ŞEHİR TARİHÇESİ — DOGU_AVRUPA_K · üretici: arac/sehir_tarihce.py · şema: VERI-YAPISI.md
-// Motor/denetle/site OKUMAZ — araştırma birikimi. Elle düzenleme: JSON'u düzelt, yeniden üret.
+// ŞEHİR TARİHÇESİ — DOGU_AVRUPA_K · üretici: arac/sehir_tarihce.py · şema: VERI-YAPISI.md
+// Motor/denetle/site OKUMAZ — araştırma birikimi. Elle düzenleme: JSON'u düzelt, yeniden üret.
 window.SEHIR_TARIHCE_DOGU_AVRUPA_K = [
  {
   "id": "arhangelsk-ru",
@@ -55,86 +55,6 @@ window.SEHIR_TARIHCE_DOGU_AVRUPA_K = [
    }
   ],
   "ic_not": "KURULUŞ 1584 (Columbia Encyclopedia; ikinci bağımsız kaynak okunamadı — Britannica 403). Zincir YAZILMADI: ilk.t 1584 atlas başlangıcından (1281-01-01) sonra; ATLAS BAŞLANGICI DÜZELTİLMELİ — atlas 1281'den itibaren Novgorod sahipliği yazıyor, oysa şehir 1584'te kuruldu (Columbia: eskiden 'Norse settlement' tarihsiz, aynı noktalık doğrulanmadı). Not: Columbia 'Once the site of a Norse settlement' diyor, tarihsiz, kullanılmadı. Çevre yer Holmogori (Kholmogory) ayrı yerleşimdir. Denenen basamaklar: TDV (aranmadı: kuzey Rusya yeri, TDV'de madde beklenmez), Columbia Encyclopedia (okundu), Britannica (403, okunamadı). Bulunamadı: kuruluş günü (Rus kaynaklarında 1584 yılı verilir, gün okunmadı). koord: GeoNames 581049 (64°32′45.96″N 40°33′06.59″E), atlas tahmininden 0,8 km. Tanık alıntısı okuyucu aracın verdiği metin parçasıdır."
- },
- {
-  "id": "askabad-tm",
-  "ad": "Aşkabad",
-  "atlas_ad": "Aşkabad",
-  "lat": 37.95,
-  "lon": 58.383,
-  "kat1900": 3,
-  "adlar": [
-   "Aşkabad (Aşkābâd, Ashkhabad, Ашхабад)",
-   "Poltoratsk (Полторацк, 1919-1927)",
-   "Aşgabat (Türkmence)"
-  ],
-  "ilk": {
-   "t": "1881-01-01",
-   "gun": "1881",
-   "nicelik": "kurulus",
-   "kesinlik": "yil",
-   "kaynak": "TDV İslâm Ansiklopedisi, AŞKABAD maddesi (Sargon Erdem; islamansiklopedisi.org.tr/askabad); Columbia Encyclopedia, Ashgabat maddesi (encyclopedia.com): 'Ashgabat was founded in 1881 as a fortress'",
-   "tanik": "bölgenin 1881’de Ruslar tarafından ele geçirilmesinden sonra şehir haline getirilmiştir."
-  },
-  "kur": null,
-  "ark": null,
-  "bit": null,
-  "sahip": [
-   {
-    "f": "1881-01-01",
-    "t": "1881-01-30",
-    "d": "turkmen",
-    "kesinlik": "yil",
-    "kaynak": "TDV AŞKABAD (S. Erdem): bölgede Ahal Teke vahalarının en önemli obası vardı; 1881'de Ruslarca alınıp şehir yapıldı",
-    "ic_not": "Bu kısa dilim yalnız kuruluş yılının yıl hassasiyetinden (1881-01-01) atlasın başlangıç günüyle (1881-01-30) arasını köprüler; Rus ele geçirme günü kaynakta okunmadı. Türkmen künyesi (turkmen) devletler.js'te 1600-1884."
-   }
-  ],
-  "olay": [
-   {
-    "t": "1881-01-01",
-    "gun": "1881",
-    "k": "fetih",
-    "b": "Bölge Ruslarca ele geçirildi; kale kurulup şehir doğdu, Zakaspi (Transcaspia) eyaletinin merkezi oldu",
-    "kaynak": "TDV AŞKABAD maddesi (Sargon Erdem); Columbia Encyclopedia, Ashgabat maddesi"
-   },
-   {
-    "t": "1917-12-01",
-    "gun": "Aralık 1917",
-    "k": "diger",
-    "b": "Bolşevik yönetim kuruldu",
-    "kaynak": "TDV AŞKABAD maddesi (Sargon Erdem)"
-   },
-   {
-    "t": "1918-07-01",
-    "gun": "Temmuz 1918",
-    "k": "diger",
-    "b": "Karşı devrimcilerin eline geçti; Kızıl Ordu kısa süre sonra geri aldı",
-    "kaynak": "TDV AŞKABAD maddesi (Sargon Erdem)"
-   },
-   {
-    "t": "1924-01-01",
-    "gun": "1924",
-    "k": "diger",
-    "b": "Türkmen SSC'nin başkenti oldu",
-    "kaynak": "TDV AŞKABAD maddesi (Sargon Erdem)"
-   },
-   {
-    "t": "1927-01-01",
-    "gun": "1927",
-    "k": "diger",
-    "b": "Poltoratsk adı Aşkabad'a geri döndü",
-    "kaynak": "TDV AŞKABAD maddesi (Sargon Erdem)"
-   },
-   {
-    "t": "1948-01-01",
-    "gun": "1948",
-    "k": "diger",
-    "b": "Büyük depremle tamamen yıkıldı",
-    "kaynak": "TDV AŞKABAD maddesi (Sargon Erdem)"
-   }
-  ],
-  "dikis_beyan": "Atlas 1881-01-30 'rusya' yazıyor (ele geçirme günü); TDV yalnız '1881'de Ruslarca ele geçirildi' der, gün vermez; 1881-01-30 için tarihli tanık bulunamadı, yer tutucu olay yazılmadı.",
-  "ic_not": "KURULUŞ: TDV 'Aşkabad' maddesi şehrin 1881'deki Rus ele geçirmesinden sonra şehir hâline getirildiğini söyler; öncesi Ahal Teke vahasının en önemli obasıdır (tarihsiz; ilk anılış alınamadı). 1881 öncesi oba için tarihli kaynak bulunamadı (TDV'nin ad geçen ilk tarihi 1881). Columbia'da Poltoratsk 1919-1927; TDV adın Bolşevik yönetim sonrası değiştiğini ve 1927'de geri döndüğünü yazar (yıl 1919 TDV'de yok). GEÇİŞ/ÇELİŞKİ: atlas '1881-01-30 rusya' (Gökdepe düşüşü civarı; gün kaynaksız). Denenen: TDV (okundu), Columbia (okundu), Treccani (başarısız). koord: GeoNames 162183 (37°57′00.00″N 58°22′59.99″E), atlas tahmininden 0,3 km. | TANIK: TDV tam gövdesinden birebir cümle (16 Kas 2026, tarayıcı; yıl+şehir aynı cümlede ya da maddenin konusu şehre açık atıf)."
  },
  {
   "id": "azak-ru",

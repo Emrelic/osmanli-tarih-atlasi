@@ -355,56 +355,6 @@ window.SEHIR_TARIHCE_ONDEN_1 = [
   ]
  },
  {
-  "id": "colon-pa",
-  "ad": "Colón",
-  "atlas_ad": "Cristóbal (Colón limanı, Kanal Bölgesi)",
-  "lat": 9.36025,
-  "lon": -79.90019,
-  "kat1900": 3,
-  "adlar": [
-   "Aspinwall",
-   "Colón"
-  ],
-  "ilk": {
-   "t": "1850-01-01",
-   "gun": "1850",
-   "nicelik": "kurulus",
-   "kesinlik": "yil",
-   "kaynak": "Encyclopaedia Britannica, 'Colón', https://www.britannica.com/place/Colon-Panama (tarayıcıda okundu 17 Kasım 2026; görünür makale gövdesi, YZ-SSS bloğu dışı)",
-   "tanik": "Founded in 1850 at the Atlantic (northern) terminus of the original Panama Railroad",
-   "ic_not": "Özne örtük = 'the settlement' (madde konusu); cümle demiryolu ucunda kuruluşu söyler. TEK KAYNAK (Britannica; ucuz ön tarama, çift teyit aranmadı). Tanık sayfa metninde birebir doğrulandı (includes)."
-  },
-  "kur": {
-   "t": "1850-01-01",
-   "gun": "1850",
-   "kesinlik": "yil",
-   "kaynak": "Encyclopaedia Britannica, 'Colón', https://www.britannica.com/place/Colon-Panama (tarayıcıda okundu 17 Kasım 2026; görünür makale gövdesi, YZ-SSS bloğu dışı)",
-   "tanik": "Founded in 1850 at the Atlantic (northern) terminus of the original Panama Railroad"
-  },
-  "ark": null,
-  "bit": null,
-  "sahip": [
-   {
-    "f": "1850-01-01",
-    "t": "1904-02-26",
-    "d": "__BOSLUK__",
-    "kesinlik": "belirsiz",
-    "kaynak": "bulunamadı (sahip araştırılmadı; Britannica sayfası yalnız kuruluş yılını verir)",
-    "ic_not": "Sahibi bu kayıtta bilinmiyor (Britannica sahiplik zinciri vermez; ucuz ön tarama): __BOSLUK__ — kuruluştan atlas başlangıcına (1904-02-26) sahip kaynakla belirlenmedi. Beyansız yaklaşıklık yazılmadı."
-   }
-  ],
-  "olay": [
-   {
-    "t": "1850-01-01",
-    "gun": "1850",
-    "k": "kurulus",
-    "b": "Yerleşim Panama Demiryolu'nun Atlantik ucunda kuruldu; ilk adı Aspinwall idi.",
-    "kaynak": "Encyclopaedia Britannica, 'Colón', https://www.britannica.com/place/Colon-Panama (tarayıcıda okundu 17 Kasım 2026; görünür makale gövdesi, YZ-SSS bloğu dışı)"
-   }
-  ],
-  "dikis_beyan": "Atlas 'Cristóbal (Colón limanı, Kanal Bölgesi)' 1904-02-26'da panama-kanali-bolgesi ile başlıyor; kuruluş 1850 ile atlas başlangıcı arası sahip kaynakla bilinmiyor (__BOSLUK__); atlasın başlangıç iddiası bu kayıtta kaynaklanmadı."
- },
- {
   "id": "copan-hn",
   "ad": "Copán",
   "atlas_ad": "Copán",

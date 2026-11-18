@@ -321,7 +321,9 @@
   "adlar": [
    "Ajayameru",
    "Ecmîr",
-   "Ajmer"
+   "Ajmer",
+   "Ajmere",
+   "Ajmir"
   ],
   "ilk": {
    "t": "0682-01-01",
@@ -377,6 +379,22 @@
     "donem": null,
     "kaynak": "TDV İslâm Ansiklopedisi 'ECMÎR' https://islamansiklopedisi.org.tr/ecmir",
     "kanit": "adına Ajayameru şeklinde rastlanan"
+   },
+   {
+    "ad": "Ajmere",
+    "dil": null,
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Ajmer' https://www.britannica.com/place/Ajmer",
+    "kanit": "Also known as: Ajmere, Ajmir",
+    "dil_belirsiz": true
+   },
+   {
+    "ad": "Ajmir",
+    "dil": null,
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Ajmer' https://www.britannica.com/place/Ajmer",
+    "kanit": "Also known as: Ajmere, Ajmir",
+    "dil_belirsiz": true
    }
   ],
   "adlar_kaynaksiz": [
@@ -5704,7 +5722,8 @@
   "lon": 75.7229,
   "kat1900": 3,
   "adlar": [
-   "Hisar"
+   "Hisar",
+   "Hissar"
   ],
   "ilk": {
    "t": "1356-01-01",
@@ -5719,7 +5738,17 @@
   "bit": null,
   "sahip": [],
   "olay": [],
-  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi.  Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01. Atlas noktasi VAR ('Hisâr-ı Fîrûze'): atlas baslangici kaynak yilindan ONCE; sahip[] bos (atlas zinciri esas), atlas baslangici duzeltilmeli (KASA)."
+  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi.  Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01. Atlas noktasi VAR ('Hisâr-ı Fîrûze'): atlas baslangici kaynak yilindan ONCE; sahip[] bos (atlas zinciri esas), atlas baslangici duzeltilmeli (KASA).",
+  "ad_kaynak": [
+   {
+    "ad": "Hissar",
+    "dil": null,
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Hisar' https://www.britannica.com/place/Hisar",
+    "kanit": "Also known as: Hissar",
+    "dil_belirsiz": true
+   }
+  ]
  },
  {
   "id": "jacobabad-pk-p3o",
@@ -5831,7 +5860,8 @@
   "lon": 79.4469,
   "kat1900": 3,
   "adlar": [
-   "Nainital"
+   "Nainital",
+   "Naini Tal"
   ],
   "ilk": {
    "t": "1841-01-01",
@@ -5855,7 +5885,17 @@
    }
   ],
   "olay": [],
-  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi.  Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01."
+  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi.  Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01.",
+  "ad_kaynak": [
+   {
+    "ad": "Naini Tal",
+    "dil": null,
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Nainital' https://www.britannica.com/place/Nainital",
+    "kanit": "Also known as: Naini Tal",
+    "dil_belirsiz": true
+   }
+  ]
  },
  {
   "id": "sagar-in-p3o",
@@ -5865,7 +5905,8 @@
   "lon": 78.739,
   "kat1900": 3,
   "adlar": [
-   "Sagar"
+   "Sagar",
+   "Saugor"
   ],
   "ilk": {
    "t": "1660-01-01",
@@ -5889,7 +5930,17 @@
    }
   ],
   "olay": [],
-  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi.  Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01. | KOORD düzeltildi (17 Kasım): önceki koordinat aynı adlı başka yer; GeoNames 'Sagar' PPL pop 274556, Madhya Pradesh (1900 Saugor)"
+  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi.  Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01. | KOORD düzeltildi (17 Kasım): önceki koordinat aynı adlı başka yer; GeoNames 'Sagar' PPL pop 274556, Madhya Pradesh (1900 Saugor)",
+  "ad_kaynak": [
+   {
+    "ad": "Saugor",
+    "dil": null,
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Sagar' https://www.britannica.com/place/Sagar",
+    "kanit": "Also known as: Saugor",
+    "dil_belirsiz": true
+   }
+  ]
  },
  {
   "id": "saharanpur-in-p3o",
@@ -5933,7 +5984,8 @@
   "lon": 73.1019,
   "kat1900": 3,
   "adlar": [
-   "Sahiwal"
+   "Sahiwal",
+   "Montgomery"
   ],
   "ilk": {
    "t": "1865-01-01",
@@ -5957,7 +6009,17 @@
    }
   ],
   "olay": [],
-  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi. özne zamir/The city = madde konusu. Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01."
+  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi. özne zamir/The city = madde konusu. Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01.",
+  "ad_kaynak": [
+   {
+    "ad": "Montgomery",
+    "dil": null,
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Sahiwal' https://www.britannica.com/place/Sahiwal",
+    "kanit": "Also known as: Montgomery",
+    "dil_belirsiz": true
+   }
+  ]
  },
  {
   "id": "seoni-in-p3o",
@@ -6035,7 +6097,10 @@
   "lon": 76.6952,
   "kat1900": 3,
   "adlar": [
-   "Udhagamandalam"
+   "Udhagamandalam",
+   "Ootacamund",
+   "Ooty",
+   "Uthagamandalam"
   ],
   "ilk": {
    "t": "1821-01-01",
@@ -6059,7 +6124,33 @@
    }
   ],
   "olay": [],
-  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi. özne zamir = madde konusu. Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01."
+  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi. özne zamir = madde konusu. Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01.",
+  "ad_kaynak": [
+   {
+    "ad": "Ootacamund",
+    "dil": null,
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Udhagamandalam' https://www.britannica.com/place/Udhagamandalam",
+    "kanit": "Also known as: Ootacamund, Ooty, Uthagamandalam",
+    "dil_belirsiz": true
+   },
+   {
+    "ad": "Ooty",
+    "dil": null,
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Udhagamandalam' https://www.britannica.com/place/Udhagamandalam",
+    "kanit": "Also known as: Ootacamund, Ooty, Uthagamandalam",
+    "dil_belirsiz": true
+   },
+   {
+    "ad": "Uthagamandalam",
+    "dil": null,
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Udhagamandalam' https://www.britannica.com/place/Udhagamandalam",
+    "kanit": "Also known as: Ootacamund, Ooty, Uthagamandalam",
+    "dil_belirsiz": true
+   }
+  ]
  },
  {
   "id": "bannu-pk-p3",
@@ -6071,7 +6162,9 @@
   "adlar": [
    "Bannu",
    "Dalipnagar",
-   "Edwardesabad"
+   "Edwardesabad",
+   "Dalīpnagar",
+   "Edwardesābād"
   ],
   "ilk": {
    "t": "1848-01-01",
@@ -6086,7 +6179,25 @@
   "bit": null,
   "sahip": [],
   "olay": [],
-  "ic_not": "TEK KAYNAK. Britannica govdesinden (YZ ozeti blogu disi; sayfada 'Summary created' blogu yok). Ozne 'the town' = madde konusu; baslik sehir. Ayni maddede 'Founded in 1848 by Lieut. (later Sir) Herbert Edwardes as a military base' (askeri ussun kurulusu). Ad 1903'te Bannu oldu (Britannica). Gun kaynakta yok: YYYY-01-01 + kesinlik 'yil'. Atlas noktasi 'Bannu (Edwardesabad)' 1848-01-01'de basliyor = ilk.t; dikis gerekmiyor, sahip[] bos (atlas zinciri atlasta). Ikinci bagimsiz kaynak okunmadi. P3-B20."
+  "ic_not": "TEK KAYNAK. Britannica govdesinden (YZ ozeti blogu disi; sayfada 'Summary created' blogu yok). Ozne 'the town' = madde konusu; baslik sehir. Ayni maddede 'Founded in 1848 by Lieut. (later Sir) Herbert Edwardes as a military base' (askeri ussun kurulusu). Ad 1903'te Bannu oldu (Britannica). Gun kaynakta yok: YYYY-01-01 + kesinlik 'yil'. Atlas noktasi 'Bannu (Edwardesabad)' 1848-01-01'de basliyor = ilk.t; dikis gerekmiyor, sahip[] bos (atlas zinciri atlasta). Ikinci bagimsiz kaynak okunmadi. P3-B20.",
+  "ad_kaynak": [
+   {
+    "ad": "Dalīpnagar",
+    "dil": null,
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Bannu' https://www.britannica.com/place/Bannu",
+    "kanit": "Also known as: Dalīpnagar, Edwardesābād",
+    "dil_belirsiz": true
+   },
+   {
+    "ad": "Edwardesābād",
+    "dil": null,
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Bannu' https://www.britannica.com/place/Bannu",
+    "kanit": "Also known as: Dalīpnagar, Edwardesābād",
+    "dil_belirsiz": true
+   }
+  ]
  },
  {
   "id": "bareilly-in-p3",
@@ -6186,7 +6297,17 @@
    }
   ],
   "olay": [],
-  "ic_not": "TEK KAYNAK. Britannica govdesinden (YZ ozeti blogu disi; sayfada 'Summary created' blogu yok). Cumlede 'the city' = madde konusu, baslik sehir (ozne zamir = madde konusu); eski ad Nayanagar ayni cumlede. Gun kaynakta yok: YYYY-01-01 + kesinlik 'yil'. Atlas noktasi yok (3 km tarandi; en yakin Ajmer 50 km). P3-B20."
+  "ic_not": "TEK KAYNAK. Britannica govdesinden (YZ ozeti blogu disi; sayfada 'Summary created' blogu yok). Cumlede 'the city' = madde konusu, baslik sehir (ozne zamir = madde konusu); eski ad Nayanagar ayni cumlede. Gun kaynakta yok: YYYY-01-01 + kesinlik 'yil'. Atlas noktasi yok (3 km tarandi; en yakin Ajmer 50 km). P3-B20.",
+  "ad_kaynak": [
+   {
+    "ad": "Nayanagar",
+    "dil": null,
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Beawar' https://www.britannica.com/place/Beawar",
+    "kanit": "Also known as: Nayanagar",
+    "dil_belirsiz": true
+   }
+  ]
  },
  {
   "id": "bogura-bd-p3",
@@ -6233,7 +6354,8 @@
   "adlar": [
    "Darjeeling",
    "Darjiling",
-   "Dorje-ling"
+   "Dorje-ling",
+   "Dārjiling"
   ],
   "ilk": {
    "t": "1835-01-01",
@@ -6267,6 +6389,41 @@
     "tanik": "Darjeeling was ceded by the raja of Sikkim to the British in 1835"
    }
   ],
-  "ic_not": "TEK KAYNAK (Britannica gövdesinden, YZ özeti bloğu dışı; alıntı sayfanın görünür makale gövdesinde includes() ile doğrulandı). Atlas noktası YOK (data/yerlesimler*.js içinde Darjeeling/Darjiling yok), bu yüzden zincir ilk anılıştan 1900-01-01'e kuruldu. 1835 yerleşimin kuruluşu değil, yerin İngilizlere devir yılıdır; ilk_anilis olarak en erken yıllı olgudur. Britannica ayrıca belediye 1850 verir (yazılmadı: belediye yılı kuruluş değildir). Encyclopedia.com/Columbia Darjeeling maddesi devir yılını vermez; ikinci bağımsız kaynak teyidi yok."
+  "ic_not": "TEK KAYNAK (Britannica gövdesinden, YZ özeti bloğu dışı; alıntı sayfanın görünür makale gövdesinde includes() ile doğrulandı). Atlas noktası YOK (data/yerlesimler*.js içinde Darjeeling/Darjiling yok), bu yüzden zincir ilk anılıştan 1900-01-01'e kuruldu. 1835 yerleşimin kuruluşu değil, yerin İngilizlere devir yılıdır; ilk_anilis olarak en erken yıllı olgudur. Britannica ayrıca belediye 1850 verir (yazılmadı: belediye yılı kuruluş değildir). Encyclopedia.com/Columbia Darjeeling maddesi devir yılını vermez; ikinci bağımsız kaynak teyidi yok.",
+  "ad_kaynak": [
+   {
+    "ad": "Dārjiling",
+    "dil": null,
+    "donem": null,
+    "kaynak": "Encyclopaedia Britannica 'Darjeeling' https://www.britannica.com/place/Darjeeling",
+    "kanit": "Also known as: Dārjiling",
+    "dil_belirsiz": true
+   }
+  ]
+ },
+ {
+  "id": "kathmandu-np-p3o",
+  "ad": "Kathmandu",
+  "atlas_ad": "Katmandu",
+  "lat": 27.7017,
+  "lon": 85.3206,
+  "kat1900": 1,
+  "adlar": [
+   "Kathmandu"
+  ],
+  "ilk": {
+   "t": "0723-01-01",
+   "gun": "723",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Kathmandu', https://www.britannica.com/place/Kathmandu (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+   "tanik": "It was founded in 723 by Raja Gunakamadeva."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [],
+  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi. özne zamir = madde konusu. Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01. Atlas noktasi VAR ('Katmandu'): atlas baslangici kaynak yilindan ONCE; sahip[] bos (atlas zinciri esas), atlas baslangici duzeltilmeli (KASA)."
  }
 ]

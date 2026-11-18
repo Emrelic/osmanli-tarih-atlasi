@@ -1,0 +1,76 @@
+// ŞEHİR TARİHÇESİ — YAKIN_DOGU · üretici: arac/sehir_tarihce.py · şema: VERI-YAPISI.md
+// Motor/denetle/site OKUMAZ — araştırma birikimi. Elle düzenleme: JSON'u düzelt, yeniden üret.
+window.SEHIR_TARIHCE_YAKIN_DOGU = [
+ {
+  "id": "osmaniye-tr",
+  "ad": "Osmaniye",
+  "atlas_ad": null,
+  "lat": 37.0742,
+  "lon": 36.2478,
+  "kat1900": 3,
+  "adlar": [
+   "Kınık",
+   "İsneyn",
+   "Hacı Osmanlı",
+   "Osmaniye"
+  ],
+  "ilk": {
+   "t": "1865-01-01",
+   "gun": "1865",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "TDV Islam Ansiklopedisi, OSMANİYE (Yılmaz Kurt), 2007, https://islamansiklopedisi.org.tr/osmaniye (17 Kas 2026 gomulu tarayicida okundu)",
+   "tanik": "Nitekim 1865’te aşiretlerin yerleştirilmesi için Hassa, İslâhiye, İzziye ve Osmaniye kasabaları kuruldu."
+  },
+  "kur": {
+   "t": "1865-01-01",
+   "gun": "1865",
+   "kesinlik": "yil",
+   "kaynak": "TDV Islam Ansiklopedisi, OSMANİYE (Yılmaz Kurt), 2007, https://islamansiklopedisi.org.tr/osmaniye (17 Kas 2026 gomulu tarayicida okundu)",
+   "tanik": "Nitekim 1865’te aşiretlerin yerleştirilmesi için Hassa, İslâhiye, İzziye ve Osmaniye kasabaları kuruldu."
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1865-01-01",
+    "t": "1900-01-01",
+    "d": "osmanli",
+    "kesinlik": "yil",
+    "kaynak": "TDV Islam Ansiklopedisi, OSMANİYE (Yılmaz Kurt), 2007, https://islamansiklopedisi.org.tr/osmaniye (17 Kas 2026 gomulu tarayicida okundu)",
+    "ic_not": "TDV: 1865 Payas sancagi kazasi; 1891-92 Cebelibozkurt sancagi; 1908 Cebelibereket merkezi: Osmanli surekli."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1865-01-01",
+    "gun": "1865",
+    "k": "kurulus",
+    "b": "Asiretlerin iskani icin Osmaniye kasabasi ve kazasi kuruldu (Hacı Osmanlı koyu merkez; Payas sancagina bagli)",
+    "kaynak": "TDV Islam Ansiklopedisi, OSMANİYE (Yılmaz Kurt), 2007, https://islamansiklopedisi.org.tr/osmaniye (17 Kas 2026 gomulu tarayicida okundu)"
+   },
+   {
+    "t": "1908-01-01",
+    "gun": "1908",
+    "k": "diger",
+    "b": "Osmaniye Cebelibereket sancaginin merkezi oldu (once Yarpuz)",
+    "kaynak": "TDV Islam Ansiklopedisi, OSMANİYE (Yılmaz Kurt), 2007, https://islamansiklopedisi.org.tr/osmaniye (17 Kas 2026 gomulu tarayicida okundu)"
+   },
+   {
+    "t": "1918-12-23",
+    "gun": "23 Aralik 1918",
+    "k": "fetih",
+    "b": "Osmaniye Fransizlar tarafindan isgal edildi",
+    "kaynak": "TDV Islam Ansiklopedisi, OSMANİYE (Yılmaz Kurt), 2007, https://islamansiklopedisi.org.tr/osmaniye (17 Kas 2026 gomulu tarayicida okundu)"
+   },
+   {
+    "t": "1920-11-01",
+    "gun": "1 Kasim 1920",
+    "k": "savas",
+    "b": "Milli kuvvetler Kanligecit'te Fransiz tumenine agir kayip verdirdi",
+    "kaynak": "TDV Islam Ansiklopedisi, OSMANİYE (Yılmaz Kurt), 2007, https://islamansiklopedisi.org.tr/osmaniye (17 Kas 2026 gomulu tarayicida okundu)"
+   }
+  ],
+  "ic_not": "TEK KAYNAK (TDV). ONCEKI YERLESIM: TDV 'Kinik' kasabasi (yaklasik 905-906 / 1500-1501'de ortaya cikmis; 927/1521 144 nefer) Osmaniye'nin ilk cekirdegi sayilir, Evliya Celebi 1672 'Isneyn' pazari; XVIII. yy'da dagilip terk edilmis (TDV 'muhtemelen'); modern Osmaniye 1865'te Haci Osmanli koyu etrafinda kuruldu, sonra pazar yerine tasindi: Kinik ile modern nokta ayni yer mi TDV'de kesin degil -> ilk.t 1865 (kesin kurulus), Kinik 1500-1501 olay degil ic_not. Ramazanogullari (1353), 1516 Osmanli katilimi bolge duzeyi. Sahip: osmanli 1865-1900 (kasaba kurulusundan itibaren Osmanli kazasi). Atlas noktasi/kunyesi bu turda kontrol edilmedi (LISTE ek-modern-merkez, atlas_ad bos). koord: GeoNames arama sayfasi 17 Kas 2026'da okundu."
+ }
+];

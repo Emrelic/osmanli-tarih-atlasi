@@ -72,11 +72,10 @@ window.SEHIR_TARIHCE_BALKANLAR_H = [
    {
     "f": "1205-01-01",
     "t": "1207-01-01",
-    "d": "sanudo-naksa",
-    "kunye_yok": true,
+    "d": "naksa-dukaligi",
     "kesinlik": "yil",
     "kaynak": "TDV İslâm Ansiklopedisi, NAKŞA maddesi (https://islamansiklopedisi.org.tr/naksa; 16 Kas 2026'da okundu): Marco Sanudo 1205'te adayı ele geçirdi, 1207'de Nakşa dükü unvanını aldı",
-    "ic_not": "KÜNYE YOK: Marco Sanudo'nun şahsî fethi (1205-1207) ayrı künye açılmadı (atlas naksa-dukaligi künyesi 1207-01-01'de başlar; atlas bu iki yılı bilerek yazmaz — kendi kaydında 'Sanudo'nun şahsî zaptı YAZILMADI' der). Önerilen id: sanudo-naksa, ömür 1205-1207. 1204 Latin İstanbul İmparatorluğu'nun kuruluşu ile bağlantı TDV: 'Haçlı Seferi sırasında İstanbul'da Latin İmparatorluğu kurulunca'. Atlas zincirinin başı: naksa-dukaligi 1207-01-01."
+    "ic_not": "AYNI POLITY (EMRELIC karari 17 Kas 2026): sanudo-naksa ayrı kimlik DEĞİL, naksa-dukaligi'ne çevrildi; künye f 1207-01-01 değişmedi (TDV 1205 ele geçirme/1207 dük unvanı der, kuruluş günü vermez; künye ömrüyle 1205-1207 arası beyanlı aşım). Eski not: Marco Sanudo'nun şahsî fethi (1205-1207) ayrı künye açılmadı (atlas naksa-dukaligi künyesi 1207-01-01'de başlar; atlas bu iki yılı bilerek yazmaz — kendi kaydında 'Sanudo'nun şahsî zaptı YAZILMADI' der). Önerilen id: sanudo-naksa, ömür 1205-1207. 1204 Latin İstanbul İmparatorluğu'nun kuruluşu ile bağlantı TDV: 'Haçlı Seferi sırasında İstanbul'da Latin İmparatorluğu kurulunca'. Atlas zincirinin başı: naksa-dukaligi 1207-01-01."
    }
   ],
   "olay": [

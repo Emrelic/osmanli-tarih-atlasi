@@ -1,0 +1,272 @@
+[
+ {
+  "id": "beograd",
+  "ad": "Beograd",
+  "atlas_ad": null,
+  "lat": 44.804,
+  "lon": 20.4651,
+  "kat1900": 1,
+  "adlar": [
+   "Singidun",
+   "Singidunum",
+   "Bellogradensis",
+   "Alba Bulgarica",
+   "Nándor-Fejérvár",
+   "Belgrado de Schiavonia",
+   "Beograd"
+  ],
+  "ilk": {
+   "t": "-0200-01-01",
+   "gun": "MÖ 3. yy",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yuzyil",
+   "kaynak": "Hrvatska enciklopedija, 'Beograd' (enciklopedija.hr/clanak/beograd; 17 Kas 2026 gomulu tarayicida okundu)",
+   "tanik": "Keltski Singidun (III. st. pr. Kr.), poslije rimskog osvajanja u vrijeme cara Augusta zvan Singidunum"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "-0200-01-01",
+    "t": "1521-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "Hrvatska enciklopedija, 'Beograd' (enciklopedija.hr/clanak/beograd; 17 Kas 2026 gomulu tarayicida okundu)",
+    "ic_not": "HE: Kelt Singidun, Roma (municipium 139, koloni 269), Bizans (VI. yy), Avar/Sloven, Bulgar (IX-X), Makedon (Samuil), Bizans 1018, Macar, Bulgar 1230, Macar 1232, Sirp 1284, Macar 1319, Stefan Lazarevic 1402, Macar 1427-1521: kunyeli zincir kurulmadi."
+   },
+   {
+    "f": "1521-01-01",
+    "t": "1688-01-01",
+    "d": "osmanli",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija, 'Beograd' (enciklopedija.hr/clanak/beograd; 17 Kas 2026 gomulu tarayicida okundu)"
+   },
+   {
+    "f": "1688-01-01",
+    "t": "1690-01-01",
+    "d": "habsburg",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija, 'Beograd' (enciklopedija.hr/clanak/beograd; 17 Kas 2026 gomulu tarayicida okundu)"
+   },
+   {
+    "f": "1690-01-01",
+    "t": "1717-01-01",
+    "d": "osmanli",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija, 'Beograd' (enciklopedija.hr/clanak/beograd; 17 Kas 2026 gomulu tarayicida okundu)"
+   },
+   {
+    "f": "1717-01-01",
+    "t": "1739-01-01",
+    "d": "habsburg",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija, 'Beograd' (enciklopedija.hr/clanak/beograd; 17 Kas 2026 gomulu tarayicida okundu)",
+    "ic_not": "HE: 1717 Prens Eugen aldi; 1718 Pasarofca ile Beograd ve kuzey Sirbistan Avusturya'ya (yil 1717 fetih esas)."
+   },
+   {
+    "f": "1739-01-01",
+    "t": "1789-01-01",
+    "d": "osmanli",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija, 'Beograd' (enciklopedija.hr/clanak/beograd; 17 Kas 2026 gomulu tarayicida okundu)"
+   },
+   {
+    "f": "1789-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "Hrvatska enciklopedija, 'Beograd' (enciklopedija.hr/clanak/beograd; 17 Kas 2026 gomulu tarayicida okundu)",
+    "ic_not": "HE: 1789 Avusturya geri aldi (kalici degil); XIX. yy basi Sirp ayaklanmacilarin merkezi (Praviteljstvujusci sovjet); sonraki sahip sirasi (Osmanli/Sirbistan Prensligi) bu parcada okunmadi."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0139-01-01",
+    "gun": "139",
+    "k": "diger",
+    "b": "Singidunum municipium (belediye) oldu; 269'dan sonra Roma kolonisi",
+    "kaynak": "Hrvatska enciklopedija, 'Beograd' (enciklopedija.hr/clanak/beograd; 17 Kas 2026 gomulu tarayicida okundu)"
+   },
+   {
+    "t": "0878-01-01",
+    "gun": "878",
+    "k": "diger",
+    "b": "Beograd ilk kez Slav adiyla anildi (episcopatus Bellogradensis, piskoposluk merkezi)",
+    "kaynak": "Hrvatska enciklopedija, 'Beograd' (enciklopedija.hr/clanak/beograd; 17 Kas 2026 gomulu tarayicida okundu)"
+   },
+   {
+    "t": "1018-01-01",
+    "gun": "1018",
+    "k": "fetih",
+    "b": "Beograd Bizans hakimiyetine girdi (XII. yy son on yillarina kadar)",
+    "kaynak": "Hrvatska enciklopedija, 'Beograd' (enciklopedija.hr/clanak/beograd; 17 Kas 2026 gomulu tarayicida okundu)"
+   },
+   {
+    "t": "1284-01-01",
+    "gun": "1284",
+    "k": "diger",
+    "b": "Beograd ilk kez Sirp hukumdarlarin eline gecti",
+    "kaynak": "Hrvatska enciklopedija, 'Beograd' (enciklopedija.hr/clanak/beograd; 17 Kas 2026 gomulu tarayicida okundu)"
+   },
+   {
+    "t": "1402-01-01",
+    "gun": "1402",
+    "k": "diger",
+    "b": "Macarlar Beograd'i Despot Stefan Lazarevic'e verdi; Stefan baskent yapti",
+    "kaynak": "Hrvatska enciklopedija, 'Beograd' (enciklopedija.hr/clanak/beograd; 17 Kas 2026 gomulu tarayicida okundu)"
+   },
+   {
+    "t": "1456-01-01",
+    "gun": "1456",
+    "k": "savas",
+    "b": "Hunyadi, Szilagyi ve Kapistran Beograd'i Osmanli kusatmasina karsi savundu",
+    "kaynak": "Hrvatska enciklopedija, 'Beograd' (enciklopedija.hr/clanak/beograd; 17 Kas 2026 gomulu tarayicida okundu)"
+   },
+   {
+    "t": "1521-01-01",
+    "gun": "1521",
+    "k": "fetih",
+    "b": "Kanuni Sultan Suleyman Beograd'i fethetti; Semendire sancakbeyligi merkezi",
+    "kaynak": "Hrvatska enciklopedija, 'Beograd' (enciklopedija.hr/clanak/beograd; 17 Kas 2026 gomulu tarayicida okundu)"
+   },
+   {
+    "t": "1688-01-01",
+    "gun": "1688",
+    "k": "fetih",
+    "b": "Avusturya ordusu Bavyera Elektoru Maximilian Emanuel komutasinda Beograd'i aldi",
+    "kaynak": "Hrvatska enciklopedija, 'Beograd' (enciklopedija.hr/clanak/beograd; 17 Kas 2026 gomulu tarayicida okundu)"
+   },
+   {
+    "t": "1690-01-01",
+    "gun": "1690",
+    "k": "fetih",
+    "b": "Osmanlilar Beograd'i yeniden aldi",
+    "kaynak": "Hrvatska enciklopedija, 'Beograd' (enciklopedija.hr/clanak/beograd; 17 Kas 2026 gomulu tarayicida okundu)"
+   },
+   {
+    "t": "1717-01-01",
+    "gun": "1717",
+    "k": "fetih",
+    "b": "Prens Eugen Beograd'i aldi (1718 Pasarofca ile Avusturya'ya gecti)",
+    "kaynak": "Hrvatska enciklopedija, 'Beograd' (enciklopedija.hr/clanak/beograd; 17 Kas 2026 gomulu tarayicida okundu)"
+   },
+   {
+    "t": "1739-01-01",
+    "gun": "1739",
+    "k": "antlasma",
+    "b": "Belgrad Antlasmasi: Beograd Osmanli Devleti'ne iade edildi",
+    "kaynak": "Hrvatska enciklopedija, 'Beograd' (enciklopedija.hr/clanak/beograd; 17 Kas 2026 gomulu tarayicida okundu)"
+   },
+   {
+    "t": "1789-01-01",
+    "gun": "1789",
+    "k": "fetih",
+    "b": "Avusturya ordusu Beograd'i yeniden aldi (kalici olmadi)",
+    "kaynak": "Hrvatska enciklopedija, 'Beograd' (enciklopedija.hr/clanak/beograd; 17 Kas 2026 gomulu tarayicida okundu)"
+   }
+  ],
+  "ic_not": "KAYNAK: HE (ana). Treccani 'Belgrado': Osmanli 1521 ilk fetih, Habsburg 1739 Belgrad Barisi (ayni yil, bagimsiz): kismi CIFT TEYIT (1521 Osmanli, 1739 Belgrad Barisi). TANIK KURALI: HE ilk anilisi 'Keltski Singidun (III. st. pr. Kr.)' diye veriyor, yazili/arkeolojik ayrimi yok; ilk.t MO 3. yy sonu (guvenli uc). Slav adi 878. Zincir: BOSLUK (MO 3. yy-1521: Kelt, Roma, Bizans, Bulgar, Macar, Sirp el degistirmeleri; gunsuz) -> Osmanli 1521-1688 -> Habsburg 1688-1690 -> Osmanli 1690-1717 -> Habsburg 1717-1739 -> Osmanli 1739-1789 -> BOSLUK 1789-1900 (1789 Avusturya geri aldi; 1804 Sirp ayaklanmasi, Praviteljstvujusci sovjet: sonraki sahip sirasi bu kaynakta yarim; kunyeli zincir kurulmadi). HE 'Beogradska tvrdava 1717-39 antik/ortacag kale uzerine yapildi'. Yil hassasiyeti, gun yok. Atlas noktasi/kunyesi bu turda kontrol edilmedi (LISTE atlas_ad bos). koord: GeoNames arama sayfasi 17 Kas 2026'da okundu.",
+  "ad_kaynak": "HE: Singidun/Singidunum, Bellogradensis (878), Alba Bulgarica, Nandor-Alba (Nandor-Fejervar), Alba Graeca, Belgrado de Schiavonia."
+ },
+ {
+  "id": "deva",
+  "ad": "Deva",
+  "atlas_ad": null,
+  "lat": 45.8833,
+  "lon": 22.9,
+  "kat1900": 2,
+  "adlar": [
+   "Déva",
+   "Deva"
+  ],
+  "ilk": {
+   "t": "1300-01-01",
+   "gun": "13. yy",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yuzyil",
+   "kaynak": "Encyclopaedia Britannica, 'Deva' maddesi (britannica.com/place/Deva-Romania; 17 Kas 2026 gomulu tarayicida makale govdesi okundu)",
+   "tanik": "Atop the hill are the ruins of a citadel, built in the 13th century at the time of the Mongol invasions."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1300-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "Encyclopaedia Britannica, 'Deva' maddesi (britannica.com/place/Deva-Romania; 17 Kas 2026 gomulu tarayicida makale govdesi okundu)",
+    "ic_not": "Britannica sahip bilgisi vermez (Erdel/Macar Krallik); zincir kurulmadi."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1300-01-01",
+    "gun": "13. yy",
+    "k": "kurulus",
+    "b": "Deva kalesi Mogol akinlari sirasinda 13. yy'da yapildi (Britannica)",
+    "kaynak": "Encyclopaedia Britannica, 'Deva' maddesi (britannica.com/place/Deva-Romania; 17 Kas 2026 gomulu tarayicida makale govdesi okundu)"
+   }
+  ],
+  "ic_not": "TEK KAYNAK (Britannica; fetched yalnizca 'Deva-Romania' maddesi gövdesi). TANIK KURALI: Britannica kale yapimi 13. yy; sehir adi cumlede yok ('Atop the hill'); sehir 13.-14. yy'da kalenin golgesinde buyudu (Britannica). Kale 19. yy basinda cephanelik patlamasiyla yikildi (yil yok). Macar Krallik/Erdel; kaynakta sahip yok. Atlas noktasi/kunyesi bu turda kontrol edilmedi (LISTE atlas_ad bos). koord: GeoNames arama sayfasi 17 Kas 2026'da okundu."
+ },
+ {
+  "id": "campulung",
+  "ad": "Câmpulung",
+  "atlas_ad": null,
+  "lat": 45.269,
+  "lon": 25.045,
+  "kat1900": 2,
+  "adlar": [
+   "Câmpulung",
+   "Cimpulung"
+  ],
+  "ilk": {
+   "t": "1400-01-01",
+   "gun": "14. yy",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yuzyil",
+   "kaynak": "Encyclopaedia Britannica, 'Câmpulung' maddesi (britannica.com/place/Campulung; 17 Kas 2026 gomulu tarayicida makale govdesi okundu)",
+   "tanik": "Câmpulung was the first capital of the feudal state of Walachia until succeeded by Curtea de Argeș in the 14th century."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1400-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "Encyclopaedia Britannica, 'Câmpulung' maddesi (britannica.com/place/Campulung; 17 Kas 2026 gomulu tarayicida makale govdesi okundu)",
+    "ic_not": "Britannica: Eflak devleti ilk baskenti (14. yy'a kadar); sahip gecisleri kaynakta yok: zincir kurulmadi."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1215-01-01",
+    "gun": "1215",
+    "k": "kurulus",
+    "b": "Negru Voda Manastiri (Britannica 'built in 1215'; yerel gelenek)",
+    "kaynak": "Encyclopaedia Britannica, 'Câmpulung' maddesi (britannica.com/place/Campulung; 17 Kas 2026 gomulu tarayicida makale govdesi okundu)"
+   },
+   {
+    "t": "1635-01-01",
+    "gun": "1635",
+    "k": "kurulus",
+    "b": "Prens Matei Basarab Prens Evi'ni yaptirdi (1635)",
+    "kaynak": "Encyclopaedia Britannica, 'Câmpulung' maddesi (britannica.com/place/Campulung; 17 Kas 2026 gomulu tarayicida makale govdesi okundu)"
+   },
+   {
+    "t": "1674-01-01",
+    "gun": "1674",
+    "k": "diger",
+    "b": "Bir prensin vatandaslara tanidigi imtiyazlar 'Yemin Haci'na yazildi (1674)",
+    "kaynak": "Encyclopaedia Britannica, 'Câmpulung' maddesi (britannica.com/place/Campulung; 17 Kas 2026 gomulu tarayicida makale govdesi okundu)"
+   }
+  ],
+  "ic_not": "TEK KAYNAK (Britannica). TANIK KURALI: Britannica 'first capital of Walachia until succeeded by Curtea de Arges in the 14th century' der; ilk.t 14. yy sonu (guvenli uc), asil ilk anilis (daha eski) bu kaynakta yok. 'Negru Voda Manastiri 1215' Eflak devleti kurulusundan (14. yy) onceki yil: Britannica ifadesi geleneksel (olay kurulus 1215 'iddia'). 'Cimpulung' LISTE ad. Koord LISTE (45.269, 25.045); GeoNames 'Campulung' ilk sonucu Moldovenesc (ayri sehir, kullanilmadi). Sahip: Eflak (kunyeli 'eflak'); gecis gunu yok. Atlas noktasi/kunyesi bu turda kontrol edilmedi (LISTE atlas_ad bos)."
+ }
+]

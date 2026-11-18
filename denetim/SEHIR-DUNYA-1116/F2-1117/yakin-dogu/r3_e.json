@@ -1,0 +1,52 @@
+[
+ {
+  "id": "daraa-sy",
+  "ad": "Daraa",
+  "atlas_ad": null,
+  "lat": 32.6189,
+  "lon": 36.1021,
+  "kat1900": 3,
+  "adlar": [
+   "Dar‘a",
+   "Daraa"
+  ],
+  "ilk": {
+   "t": "1253-01-01",
+   "gun": "1253",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Daraa' maddesi (britannica.com/place/Daraa; 17 Kas 2026 gomulu tarayicida makale govdesi okundu)",
+   "tanik": "The town contains ruins from the Greco-Roman period and a mosque built in 1253."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1253-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "Encyclopaedia Britannica, 'Daraa' maddesi (britannica.com/place/Daraa; 17 Kas 2026 gomulu tarayicida makale govdesi okundu)",
+    "ic_not": "Britannica sahip zinciri vermez; Hawran bolgesi: zincir kurulmadi."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1253-01-01",
+    "gun": "1253",
+    "k": "kurulus",
+    "b": "Daraa'da cami yapildi (1253; Britannica)",
+    "kaynak": "Encyclopaedia Britannica, 'Daraa' maddesi (britannica.com/place/Daraa; 17 Kas 2026 gomulu tarayicida makale govdesi okundu)"
+   },
+   {
+    "t": "0636-01-01",
+    "gun": "636",
+    "k": "savas",
+    "b": "Yermuk Savasi (636) Daraa yakininda yapildi: Bizans ordusu yok edildi, Suriye Araplarca alindi (Britannica 'near the town')",
+    "kaynak": "Encyclopaedia Britannica, 'Daraa' maddesi (britannica.com/place/Daraa; 17 Kas 2026 gomulu tarayicida makale govdesi okundu)"
+   }
+  ],
+  "ic_not": "TEK KAYNAK (Britannica). TANIK KURALI: 1253 tarihli cami yerlesimin varligina en eski tarihli tanik; sehrin ilk anilisi degil (Greco-Roman kalintilar, Britannica: yil yok; Yermuk 636 'yakininda'). 636 olay: sehir degil bolge. Hawran bolgesi merkezi. TDV 'Der'a' aramasi sonuc vermedi ('TDV'de yok' DEGIL). Atlas noktasi/kunyesi kontrol edilmedi (LISTE ek-modern-merkez): zincir 1900-01-01'e kadar __BOSLUK__. koord: GeoNames arama sayfasi 17 Kas 2026'da okundu."
+ }
+]

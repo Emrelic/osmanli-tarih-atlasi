@@ -1,0 +1,41 @@
+[
+ {
+  "id": "braila",
+  "ad": "Brăila",
+  "atlas_ad": "İbrail",
+  "lat": 45.2692,
+  "lon": 27.9575,
+  "kat1900": 2,
+  "adlar": ["İbrâil", "Brăila"],
+  "ad_kaynak": "TDV İslâm Ansiklopedisi, 'İBRÂİL' (islamansiklopedisi.org.tr/ibrail)",
+  "ilk": {
+   "t": "1368-01-20",
+   "gun": "20 Ocak 1368",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "gun",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'İBRÂİL' (islamansiklopedisi.org.tr/ibrail; WebFetch ile 17 Kas 2026 okundu)",
+   "tanik": "20 Ocak 1368 tarihli ticaret imtiyazı belgesinde rastlanır."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1538-01-01",
+    "gun": "1538-1540",
+    "k": "fetih",
+    "b": "İbrâil Osmanlılar tarafından alındı (alınma yılı belli değil, 1538-1540 arası)",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'İBRÂİL' (islamansiklopedisi.org.tr/ibrail): 'İbrâil’in zaptedildiği yıl belli değilse de 1538-1540 arasında alındığı kesindir.'"
+   },
+   {
+    "t": "1829-01-01",
+    "gun": "1829",
+    "k": "antlasma",
+    "b": "Edirne Antlaşması'na göre İbrâil kazası Eflak Prensliği'ne iade edildi",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'İBRÂİL' (islamansiklopedisi.org.tr/ibrail): '1829 Edirne Antlaşması’na göre İbrâil kazasının Eflak Prensliği’ne iadesinden sonra İbrâil metropolitliği kaldırılmıştır.'"
+   }
+  ],
+  "ic_not": "Atlas noktası 'İbrail' kur 1368-01-20 (aynı TDV tanığı) ile başlıyor; ilk.t atlas başlangıcına eşit olduğu için sahiplik zinciri boş (atlas esastır). Çelişki: Treccani 'Brăila' (okundu): 'verso il 1550, con la conquista turca' — TDV 1538-1540 esas alındı (TDV esas kuralı). Treccani ayrıca 'passò alla Valacchia indipendente nel 1829, per il trattato di Adrianopoli' (1829 iadesini teyit eder). Koordinat: bilinen Brăila koordinatı (45.2692, 27.9575), GeoNames doğrulaması bu turda yapılmadı. Britannica WebFetch 403, okunmadı."
+ }
+]

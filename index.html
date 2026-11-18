@@ -41,8 +41,8 @@
 #hakkinda-pencere button { margin-top: 4px; padding: 6px 16px; border-radius: 6px; border: 1px solid #f3e6c8; background: #5c1020; color: #f3e6c8; cursor: pointer; font: 14px "Segoe UI", sans-serif; }
 </style>
 <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.24.0/dist/maplibre-gl.css">
-<script>window.SURUM="r16052";</script>
-<link rel="stylesheet" href="css/style.css?v=r245191504">
+<script>window.SURUM="r16140";</script>
+<link rel="stylesheet" href="css/style.css?v=r34512176">
 </head>
 <body>
 <!-- ERİŞİLEBİLİRLİK (LAB P5): görünmez <h1> + "haritaya geç" bağlantısı (yalnız odaklanınca görünür).
@@ -54,7 +54,7 @@
      SENKRON: perde öğeleri ilk boyamadan önce kurulmalı (denetim/ACILIS-ANIM-0929.md §3:
      yüklemeyi uzatmıyor, perde ~1,2 sn erken görünüyor). Bağlayan: UFUK-DUGME-0930
      (PAKET-0077A H-0002). Yüklenmezse css/style.css yedek küresi çalışır. -->
-<script src="data/acilis_siluet.js?v=r265037007"></script>
+<script src="data/acilis_siluet.js?v=r154016628"></script>
 <!-- 🏷️ KOŞU DAMGASI — app.js'ten ÖNCE yüklenmeli (app.js onu okuyup yazıyor).
      Dosya birkaç yüz bayt; pakete girmesine gerek yok, ve pakete GİRMEMELİ:
      paket bir koşuda değişmeyebilir, damga HER koşuda değişir. -->
@@ -108,6 +108,9 @@
     <!-- TANITIM (Emre, 7 Kasım 2026): turu sonradan açmak için — js/tanitim.js -->
     <button id="btn-tanitim" title="Bu site nasıl gezilir — tanıtım turu">ℹ Siteyi tanı</button>
     <button id="btn-dizin" title="Kişi, savaş ve antlaşma dizinleri">📚 Dizin</button>
+    <!-- FORUM F1 (17 Kasım 2026): Kahvehane — ayrı sayfa forum/ (Supabase). Herkese
+         açılana kadar YALNIZ geliştirici kipinde görünür (.yalniz-gelistirici). -->
+    <button id="btn-forum" class="yalniz-gelistirici" title="Kahvehane — tarih forumu" onclick="location.href='forum/'">💬 Forum</button>
     <!-- 🆕 ARAYUZ-0082 / H-0087 (30 Eylül 2026), Emre: "harita simgeleri ve
          gösterimleri ile ilgili olan butonu butonlar içine koysak haritada
          gözümüzün önünde olmasın" · "i harfi ilk gösterimde orada görünse ama
@@ -475,7 +478,7 @@
     <span id="git-grup">
     <input type="text" id="tarihe-git-giris"
            placeholder="tarihe git"
-           title="Örnek: 1453 · 1453-05-29 · 29.05.1453 · 29 Mayıs 1453 · Mayıs 1453 — yazıp Enter'a basın">
+           title="Örnek: 1453 · 29 Mayıs 1453 · 29.05.1453 · 1453-05-29 · Mayıs 1453 · 15 · 0 (milat) · -1236 ya da MÖ 1236 · -12000 — yazıp Enter'a basın">
     <span id="tarihe-git-durum"></span>
     <!-- 🆕 YER ARA (YER-ARAMA-KUTUSU-1006) — Emre, 6 Ekim 2026: "sene
          seçtiğimiz ve ilgili seneye gittiğimiz textboxun yanında olmalı şehir
@@ -1260,7 +1263,7 @@
      (tazeliği yayın kapısı sınar). İçindekiler:
        data/devirler.js
        data/devletler.js -->
-<script src="data/paket_05.js?v=r198816367"></script>
+<script src="data/paket_05.js?v=r145555560"></script>
 <!-- ÇOK SEKMELİ ARAYÜZ (20 Ağustos 2026, KOORDİNATÖR görevi) — devletlerin
      DERİN kronolojileri. `data/devletler.js`teki habsburg/rusya/lehistan
      künyeleri hâlâ eski/kısa listeyi taşıyor (14/15/12 madde, çoğu Osmanlı
@@ -1476,7 +1479,7 @@
        data/kronoloji_cok_ince_kuzey_amerika.js
        data/kronoloji_cok_kuzey_amerika_k2.js
        data/kronoloji_cok_ince_misir_orta_asya.js -->
-<script src="data/paket_31.js?v=r241312382"></script>
+<script src="data/paket_31.js?v=r4832477"></script>
 <!-- ▼ data/paket_32.js — aşağıdaki 4 dosya buraya PAKETLENDİ (arac/paketle.py).
      Sıra korunmuştur; uç uca ekleme klasik betiklerin anlamını
      değiştirmez. Kaynak değişirse: py arac/paketle.py yenile
@@ -1570,7 +1573,7 @@
        data/yerlesimler_ek4.js
        data/yerlesimler_ek5.js
        data/yerlesimler_ek6.js -->
-<script src="data/paket_13.js?v=r143855427"></script>
+<script src="data/paket_13.js?v=r33765353"></script>
 <!-- PARTİ 18-19 — koşu 9 ile bağlandı. `girdi.py` bu üçünü okuyor, yani
      PETEKLERİ haritada zaten var; index.html'e eklenmezse İŞARETÇİLERİ
      görünmez ve denetle_yayin haklı olarak "üretiliyor ama çizilmiyor" der.
@@ -1611,7 +1614,7 @@
        data/yerlesimler_ek27.js
        data/yerlesimler_ek28.js
        data/yerlesimler_ek29.js -->
-<script src="data/paket_14.js?v=r268208194"></script>
+<script src="data/paket_14.js?v=r102059113"></script>
 <!-- NOKTA EPİR, 22 Ağu 2026 — Parga'nın 3.701 km²'lik peteğini bölen iki nokta.
      `girdi.py`ye de eklendi; ikisi AYRI kapıdır (§5: bir dosya motorda olup
      arayüzde olmayabilir, bu sabah yedi kronoloji dosyası öyle kaybolmuştu). -->
@@ -1688,7 +1691,7 @@
        data/yerlesimler_ek31.js
        data/yerlesimler_0ee15e.js
        data/yerlesimler_e9353f.js -->
-<script src="data/paket_17.js?v=r94334914"></script>
+<script src="data/paket_17.js?v=r133311048"></script>
 <!-- 🔴 20 Ağustos 2026 — DÖRT DOSYA MOTORA BAĞLIYDI, TARAYICIYA DEĞİL.
      `arac/girdi.py`ye ekledim (`073df09`) ama BURAYA eklemeyi unuttum ⇒
      13 nokta haritada ÇİZİLİYOR ama dizinde/aramada/tıklamada YOK.
@@ -1787,7 +1790,7 @@
        data/yerlesimler_gamerika.js
        data/yerlesimler_kamerika.js
        data/yerlesimler_hint0912.js -->
-<script src="data/paket_22.js?v=r260007836"></script>
+<script src="data/paket_22.js?v=r176410793"></script>
 <!-- 🟢 SÎVA (Siwa) — paket 0043 · H-0017 · 12 Eylül 2026, KITA 13.
      TEK NOKTA, ve sayının düşüklüğü işin küçüklüğü değil TESPİTİN
      KENDİSİ: sevk 12 aday verdi, ONU ZATEN VERİDEYDİ (üçü 3 km
@@ -1850,7 +1853,7 @@
        data/yerlesimler_zincir64.js
        data/yerlesimler_sahne1108.js
        data/yerlesimler_ek_karayip_adalar.js -->
-<script src="data/paket_24.js?v=r13988141"></script>
+<script src="data/paket_24.js?v=r27003887"></script>
 <!-- ARKEOLOJİ KATMANI (MÖ 12000–3000), şartname denetim/ARKEOLOJI-KATMANI-SARTNAME-1018.md · yalnız olay: kronoloji motoru BESLEMİYOR, koşuyu etkilemez -->
 <!-- ▼ data/paket_33.js — aşağıdaki 11 dosya buraya PAKETLENDİ (arac/paketle.py).
      Sıra korunmuştur; uç uca ekleme klasik betiklerin anlamını
@@ -1867,7 +1870,7 @@
        data/kronoloji_cok_antik_akad.js
        data/kronoloji_cok_antik_sumer.js
        data/olay_taraf.js -->
-<script src="data/paket_33.js?v=r210201010"></script>
+<script src="data/paket_33.js?v=r146531709"></script>
   <!-- OLAY_TARAF: OLAYLAR* dış maddesi -> künye eşlemesi (Emre 10 Kasım 2026) -->
 
 <!-- ▼ data/paket_34.js — aşağıdaki 15 dosya buraya PAKETLENDİ (arac/paketle.py).
@@ -1963,7 +1966,7 @@
        data/olaylar_cinhindi_1115b.js
        data/olaylar_mogolistan_1115b.js
        data/olaylar_ortaasya_1115b.js -->
-<script src="data/paket_42.js?v=r31416456"></script>
+<script src="data/paket_42.js?v=r13750848"></script>
 <!-- GÖREV-DÜNYA-1102 hücre 1 (KASA, 2 Kasım 2026): Avrupa MÖ 3500–500 eksik maddeleri — window.OLAYLAR_DUNYA_AVRUPA_MO -->
 <script src="data/olaylar_dunya_avrupa_mo.js?v=r264080432"></script>
 <!-- GÖREV-DÜNYA-1102 hücre 2 (KASA, 2 Kasım 2026): Avrupa MÖ 500–MS 500 eksik maddeleri — window.OLAYLAR_DUNYA_AVRUPA2 -->
@@ -2395,9 +2398,9 @@
      app.js'ten HEMEN ÖNCE ve bütün data/*.js'ten SONRA: seçili dil Türkçe değilse
      data/ceviri_<dil>_*.js'i document.write ile araya ekler ve OLAYLAR*/DEVLETLER
      metnini app.js `olaylar`ı kurmadan çevirir. Türkçede hiçbir çeviri dosyası inmez. -->
-<script src="data/ceviri_dizin.js?v=r2168401"></script>
+<script src="data/ceviri_dizin.js?v=r232424086"></script>
 <script src="js/ceviri.js?v=r224473008"></script>
-<script src="js/app.js?v=r93430250"></script>
+<script src="js/app.js?v=r87281987"></script>
 <!-- A-F ALTI KADEME · D/E/F KATMANI + ANTLAŞMA HARİTASI (GORUNUM-ABCD-0916, D-KATMAN).
      Kosu 12 bitince baglandi (17 Eylul). d_katman.js app.js'ten SONRA — guncelle()'yi sarar. -->
 <!-- ▼ data/paket_28.js — aşağıdaki 10 dosya buraya PAKETLENDİ (arac/paketle.py).
@@ -2571,7 +2574,7 @@
 <script src="data/tur_siniflari.js?v=r197039638"></script>
   <!-- TUR SINIFLARI: tur -> ana tur (KRON-ALAN-1108) -->
 <script src="js/album.js?v=r82959085"></script>  <!-- ALBÜM düğmesi (DALGA-0059 H-0001) — obGoster sarmalar, app.js SONRASI -->
-<script src="js/tanitim.js?v=r263320864"></script>  <!-- TANITIM TURU — açılışta + ☰ Butonlar → ℹ Siteyi tanı; app.js SONRASI -->
+<script src="js/tanitim.js?v=r18226000"></script>  <!-- TANITIM TURU — açılışta + ☰ Butonlar → ℹ Siteyi tanı; app.js SONRASI -->
 <script src="data/acilis_tablosu.js?v=r262169018"></script>
   <!-- AÇILIŞ TABLOSU — ülke → devlet + gün + gerekçe (js/acilis.js okur) -->
 <script src="js/acilis.js?v=r148878349"></script>  <!-- AÇILIŞ MADDESİ (ACILIS-MADDESI-1110) — ülkeye göre odak + gün; ?acilis=XX dener, ?acilis=yok kapatır; app.js SONRASI -->
