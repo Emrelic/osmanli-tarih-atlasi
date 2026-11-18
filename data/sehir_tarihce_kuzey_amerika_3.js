@@ -909,9 +909,9 @@ window.SEHIR_TARIHCE_KUZEY_AMERIKA_3 = [
     "t": "1804-01-01",
     "gun": "1804",
     "k": "savas",
-    "b": "Rus-Tlingit çatışması: Sitka Muharebesi (NPS: 1804 Sitka Savaşı ile ilgili yerleri korur); Rus-Amerikan Şirketi merkezi Kodiak'tan taşındı",
+    "b": "1804 Sitka Muharebesi (Rus-Tlingit çatışması; NPS yalnız 1804 Muharebesi'nin varlığını ve yılını destekler, ayrıntı okunmadı)",
     "kesinlik": "yil",
-    "kaynak": "U.S. National Park Service, Sitka NHP «History & Culture», https://www.nps.gov/sitk/learn/historyculture/index.htm (okundu, 17 Kasım 2026; alıntı WebFetch aracının sayfadan çıkarımıdır, tam gövde değil) + Encyclopaedia Britannica, «Sitka (Alaska)» (Britannica Editors), https://www.britannica.com/place/Sitka (tam gövde okundu, 17 Kasım 2026)",
+    "kaynak": "U.S. National Park Service, Sitka NHP «History & Culture», https://www.nps.gov/sitk/learn/historyculture/index.htm (okundu, 17 Kasım 2026; alıntı WebFetch aracının sayfadan çıkarımıdır, tam gövde değil)",
     "tanik": "preserves historically and culturally significant sites and artifacts related to the 1804 Battle of Sitka"
    },
    {
