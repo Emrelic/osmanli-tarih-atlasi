@@ -847,9 +847,9 @@ window.YERLESIMLER_AMERIKA = [
 //    girdisinin altındaki not, aşağıda).
 // k gerekçesi: büyük Pueblo yerleşimleri — k:1
 
-{ ad:"Oraibi (Hopi, Üçüncü Mesa)", tur:"koy", lat:35.8908, lon:-110.6289, g:1, k:1,
+{ ad:"Oraibi (Hopi, Üçüncü Mesa)", kur:"1150-01-01", kesinlik:"yil", tur:"koy", lat:35.8908, lon:-110.6289, g:1, k:1,
   kasitli_bosluk:true, bos:"devletsiz",
-  neden:"Hopi, 1680 Pueblo İsyanı'ndan sonra İspanyol misyonerleri kalıcı olarak GERİ ALMADI (1700'de Awatovi'yi bu yüzden kendi elleriyle yıktılar). Weber (1992) Hopi'nin 1821'e kadar fiilen bağımsız kaldığını açıkça yazıyor.",
+  neden:"ILK-GECIS-1118 (sahne kuralı, Emre 18 Kasım 2026) · kur: KURULUŞ (kaynak kuruluşu tarihliyor). Tanık: Oraibi ve Walpi 12. yy ortasına kadar kurulmuştu. — SAH Archipedia, Old Oraibi / Walpi (sah-archipedia.org/node/7928); Britannica 'Oraibi' c. 1150 <https://sah-archipedia.org/node/7928> · Not: Tur 2: SAH Archipedia (akademik mimarlık tarihi veritabanı) 'mid-twelfth century'; Wikipedia 1100 civarı/öncesi, ulusal sicil 1150. Kazı/dendro raporu bulunamadı. ‖ ÖNCEKİ NEDEN: Hopi, 1680 Pueblo İsyanı'ndan sonra İspanyol misyonerleri kalıcı olarak GERİ ALMADI (1700'de Awatovi'yi bu yüzden kendi elleriyle yıktılar). Weber (1992) Hopi'nin 1821'e kadar fiilen bağımsız kaldığını açıkça yazıyor.",
   s:[] },
 // kaynak: David J. Weber, "The Spanish Frontier in North America" (1992), s. 79-81.
 
