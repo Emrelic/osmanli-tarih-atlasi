@@ -512,44 +512,44 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_9 = [
    "Nuuk"
   ],
   "ilk": {
-   "t": "1721-01-01",
-   "gun": "1721",
+   "t": "1728-01-01",
+   "gun": "1728",
    "nicelik": "kurulus",
    "kesinlik": "yil",
-   "kaynak": "Encyclopaedia Britannica, 'Nuuk', https://www.britannica.com/place/Nuuk (tarayıcıda okundu; görünür makale gövdesi, YZ-SSS bloğu dışı)",
-   "tanik": "The modern town dates from 1721, when Hans Egede, a Norwegian missionary, founded a colony",
-   "ic_not": "ÇELİŞKİ (kayıt değişmedi): Lex, 'Nuuk', https://lex.dk/Nuuk ve Den Store Danske 'Håbets koloni' — Hans Egede 1721'de Håbets Ø'de koloni kurar; yer terk edilip 1728'de bugünkü Nuuk burnuna (Godthåb) taşınır; lex.dk şehrin kuruluşunu 1728 verir. Britannica 1721. Farklı olaylar (ilk koloni / bugünkü yer), çözülmedi (19 Kas 2026). Üçüncü kaynak arandı: Store norske leksikon (snl.no/Nuuk) şehir 1728, Håbets Ø kolonisi 1721 ayrımını lex.dk ile aynı verir; akademik (Danmarkshistorien/Arktisk Institut) kaynak bulunamadı, belirleyici değil, kayıt değişmedi. Aynı sitede 10. yy Norse Vesterbygden yerleşimi anılır (yıl yok); bugünkü şehir 1721 ile tarihlenir. Danimarka-Norveç kolonisi. (UMIT 1119)"
+   "kaynak": "Lex (Den Store Danske), 'Nuuk', https://lex.dk/Nuuk; Store norske leksikon, 'Nuuk', https://snl.no/Nuuk (iki bağımsız ulusal ansiklopedi; Britannica 1721 ile farklı olayı tarihler, ic_not)",
+   "tanik": "Byen blev grundlagt i 1728",
+   "ic_not": "KARAR (EMRELİC 19, 19 Kas 2026): şehir olarak 1728 (Godthåb; iki ulusal ansiklopedi + yerleşimin bugünkü yere taşınması); 1721 Håbets Ø (Kangeq) ayrı yer/ilk koloni, bu kayıtta şehir kuruluşu sayılmadı. Lex tanığı: 'Byen blev grundlagt i 1728'; 'Missionæren Hans Egede ankom til området i 1721 og slog sig ned på Kangeq (Haabets Ø)... Placeringen var ikke optimal og blev opgivet til fordel for kolonien Godthåb i 1728.' Britannica 1721 'The modern town dates from 1721, when Hans Egede... founded a colony' (aynı yerleşimi 1721'e bağlar). Önceki ÇELİŞKİ notu: Lex, 'Nuuk', https://lex.dk/Nuuk ve Den Store Danske 'Håbets koloni' — Hans Egede 1721'de Håbets Ø'de koloni kurar; yer terk edilip 1728'de bugünkü Nuuk burnuna (Godthåb) taşınır; lex.dk şehrin kuruluşunu 1728 verir. Britannica 1721. Farklı olaylar (ilk koloni / bugünkü yer), çözülmedi (19 Kas 2026). Üçüncü kaynak arandı: Store norske leksikon (snl.no/Nuuk) şehir 1728, Håbets Ø kolonisi 1721 ayrımını lex.dk ile aynı verir; akademik (Danmarkshistorien/Arktisk Institut) kaynak bulunamadı, belirleyici değil, kayıt değişmedi. Aynı sitede 10. yy Norse Vesterbygden yerleşimi anılır (yıl yok); bugünkü şehir 1721 ile tarihlenir. Danimarka-Norveç kolonisi. (UMIT 1119)"
   },
   "kur": {
-   "t": "1721-01-01",
-   "gun": "1721",
+   "t": "1728-01-01",
+   "gun": "1728",
    "kesinlik": "yil",
-   "kaynak": "Encyclopaedia Britannica, 'Nuuk', https://www.britannica.com/place/Nuuk (tarayıcıda okundu; görünür makale gövdesi, YZ-SSS bloğu dışı)",
-   "tanik": "The modern town dates from 1721, when Hans Egede, a Norwegian missionary, founded a colony"
+   "kaynak": "Lex (Den Store Danske), 'Nuuk', https://lex.dk/Nuuk",
+   "tanik": "Byen blev grundlagt i 1728"
   },
   "ark": null,
   "bit": null,
   "sahip": [
    {
-    "f": "1721-01-01",
+    "f": "1728-01-01",
     "t": "1900-01-01",
     "d": "danimarka",
     "kesinlik": {
      "f": "yil",
      "t": "gun"
     },
-    "kaynak": "Encyclopaedia Britannica, 'Nuuk', https://www.britannica.com/place/Nuuk (tarayıcıda okundu; görünür makale gövdesi, YZ-SSS bloğu dışı)",
+    "kaynak": "Lex (Den Store Danske), 'Nuuk', https://lex.dk/Nuuk",
     "ic_not": "Sahip zinciri tek devlet: danimarka (yerleşimin o devirdeki egemeni). Atlasta nokta yok (ad+3 km tarandı) → zincir 1900'e. Ara egemenlik değişimi kaynakta okunmadı."
    }
   ],
   "olay": [
    {
-    "t": "1721-01-01",
-    "gun": "1721",
+    "t": "1728-01-01",
+    "gun": "1728",
     "k": "kurulus",
-    "b": "Hans Egede Nuuk yakınında koloni kurar (bugünkü şehrin başlangıcı).",
-    "kaynak": "Encyclopaedia Britannica, 'Nuuk', https://www.britannica.com/place/Nuuk (tarayıcıda okundu; görünür makale gövdesi, YZ-SSS bloğu dışı)",
-    "tanik": "The modern town dates from 1721, when Hans Egede, a Norwegian missionary, founded a colony"
+    "b": "Nuuk (Godthåb) bugünkü yerinde kurulur.",
+    "kaynak": "Lex (Den Store Danske), 'Nuuk', https://lex.dk/Nuuk",
+    "tanik": "Byen blev grundlagt i 1728"
    }
   ],
   "ic_not": "tarihce_var iki yönlü: eşleşme yok; atlasta nokta yok. (UMIT 1119)"
