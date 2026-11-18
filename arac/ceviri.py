@@ -309,7 +309,10 @@ def dizin_yaz():
         for tur in TURLER:
             for yol in dosyalar(kod, tur):
                 with open(yol, "rb") as f:
-                    liste.append([os.path.basename(yol), hashlib.sha1(f.read()).hexdigest()[:8]])
+                    # satır sonu normalleştirilir: CRLF'li (autocrlf) ve LF'li çalışma kopyası aynı
+                    # özeti versin, yoksa her makine/worktree dizini boşuna değiştirir (çatışma).
+                    icerik = f.read().replace(b"\r\n", b"\n")
+                    liste.append([os.path.basename(yol), hashlib.sha1(icerik).hexdigest()[:8]])
         if liste:
             var.append({"kod": kod, "ad": ad}); dosya[kod] = liste
     with open(DIZIN, "w", encoding="utf-8", newline="\n") as f:

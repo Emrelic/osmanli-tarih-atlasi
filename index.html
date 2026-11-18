@@ -51,7 +51,7 @@
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
 <link rel="icon" type="image/svg+xml" href="assets/ikon.svg">
 <link rel="manifest" href="manifest.webmanifest">
-<script src="js/marka.js"></script>
+<script src="js/marka.js?v=r149271239"></script>
 <style>
 /* KRONOATLAS P3/P4 (16 Kasım 2026) — küçük, tek yerde; style.css'e dokunmaz. */
 .yalniz-okuyucu { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
@@ -69,7 +69,7 @@
 </style>
 <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.24.0/dist/maplibre-gl.css">
 <script>window.SURUM="r0";</script>
-<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/style.css?v=r76862872">
 </head>
 <body>
 <!-- ERİŞİLEBİLİRLİK (LAB P5): görünmez <h1> + "haritaya geç" bağlantısı (yalnız odaklanınca görünür).
@@ -81,7 +81,7 @@
      SENKRON: perde öğeleri ilk boyamadan önce kurulmalı (denetim/ACILIS-ANIM-0929.md §3:
      yüklemeyi uzatmıyor, perde ~1,2 sn erken görünüyor). Bağlayan: UFUK-DUGME-0930
      (PAKET-0077A H-0002). Yüklenmezse css/style.css yedek küresi çalışır. -->
-<script src="data/acilis_siluet.js?v=r154016628"></script>
+<script src="data/acilis_siluet.js?v=r124397546"></script>
 <!-- 🏷️ KOŞU DAMGASI — app.js'ten ÖNCE yüklenmeli (app.js onu okuyup yazıyor).
      Dosya birkaç yüz bayt; pakete girmesine gerek yok, ve pakete GİRMEMELİ:
      paket bir koşuda değişmeyebilir, damga HER koşuda değişir. -->
@@ -1264,7 +1264,7 @@
      (tazeliği yayın kapısı sınar). İçindekiler:
        data/devirler.js
        data/devletler.js -->
-<script src="data/paket_05.js"></script>
+<script src="data/paket_05.js?v=r24827778"></script>
 <!-- ÇOK SEKMELİ ARAYÜZ (20 Ağustos 2026, KOORDİNATÖR görevi) — devletlerin
      DERİN kronolojileri. `data/devletler.js`teki habsburg/rusya/lehistan
      künyeleri hâlâ eski/kısa listeyi taşıyor (14/15/12 madde, çoğu Osmanlı
@@ -1692,7 +1692,7 @@
        data/yerlesimler_ek31.js
        data/yerlesimler_0ee15e.js
        data/yerlesimler_e9353f.js -->
-<script src="data/paket_17.js"></script>
+<script src="data/paket_17.js?v=r222348044"></script>
 <!-- 🔴 20 Ağustos 2026 — DÖRT DOSYA MOTORA BAĞLIYDI, TARAYICIYA DEĞİL.
      `arac/girdi.py`ye ekledim (`073df09`) ama BURAYA eklemeyi unuttum ⇒
      13 nokta haritada ÇİZİLİYOR ama dizinde/aramada/tıklamada YOK.
@@ -1791,7 +1791,7 @@
        data/yerlesimler_gamerika.js
        data/yerlesimler_kamerika.js
        data/yerlesimler_hint0912.js -->
-<script src="data/paket_22.js"></script>
+<script src="data/paket_22.js?v=r165663457"></script>
 <!-- 🟢 SÎVA (Siwa) — paket 0043 · H-0017 · 12 Eylül 2026, KITA 13.
      TEK NOKTA, ve sayının düşüklüğü işin küçüklüğü değil TESPİTİN
      KENDİSİ: sevk 12 aday verdi, ONU ZATEN VERİDEYDİ (üçü 3 km
@@ -1854,7 +1854,7 @@
        data/yerlesimler_zincir64.js
        data/yerlesimler_sahne1108.js
        data/yerlesimler_ek_karayip_adalar.js -->
-<script src="data/paket_24.js"></script>
+<script src="data/paket_24.js?v=r60528605"></script>
 <!-- ARKEOLOJİ KATMANI (MÖ 12000–3000), şartname denetim/ARKEOLOJI-KATMANI-SARTNAME-1018.md · yalnız olay: kronoloji motoru BESLEMİYOR, koşuyu etkilemez -->
 <!-- ▼ data/paket_33.js — aşağıdaki 11 dosya buraya PAKETLENDİ (arac/paketle.py).
      Sıra korunmuştur; uç uca ekleme klasik betiklerin anlamını
@@ -2169,7 +2169,7 @@
      (kodla.py yay kendiliğinden yeniler). Sınav: kodla.py dilim-sina data <hedef>.
      Eski yol: ?parca=0 ya da bu satır yoksa tam havuz eskisi gibi iner. -->
 <script src="data/parca_manifest.js?v=r238809722"></script>
-<script src="js/geo_coz.js?v=r103657046"></script>
+<script src="js/geo_coz.js?v=r245190231"></script>
 <script src="data/sehirler.js?v=r21470183"></script>
 <!-- Ⓑ DOLGU KATMANI (arac/dolgu.py) — window.DOLGU + DOLGU_PARCALAR +
      DOLGU_PARCA_HALKA. Üretilmemişse dosya YOKTUR ve yükleyici satırı
@@ -2388,7 +2388,7 @@
      Tablo (data/kaynak_guven.js) + hesaplayıcı (js/kaynak_damga.js) app.js'ten ÖNCE durmalı:
      app.js `olaylar`ı ve künye kronolojilerini kurarken süzgeç olarak çağırır. -->
 <script src="data/kaynak_guven.js?v=r217209898"></script>
-<script src="js/kaynak_damga.js?v=r238823548"></script>
+<script src="js/kaynak_damga.js?v=r261291561"></script>
 <!-- ODAK-ZOOM-1016 — saf hesap (DOM'suz), app.js'ten ÖNCE: `window.ODAK_ZOOM`. -->
 <script src="js/odak_zoom.js?v=r126728536"></script>
 <script src="data/kronoloji_sinir_italya_1115b.js?v=r11328197"></script>
@@ -2399,9 +2399,9 @@
      app.js'ten HEMEN ÖNCE ve bütün data/*.js'ten SONRA: seçili dil Türkçe değilse
      data/ceviri_<dil>_*.js'i document.write ile araya ekler ve OLAYLAR*/DEVLETLER
      metnini app.js `olaylar`ı kurmadan çevirir. Türkçede hiçbir çeviri dosyası inmez. -->
-<script src="data/ceviri_dizin.js"></script>
-<script src="js/ceviri.js"></script>
-<script src="js/app.js"></script>
+<script src="data/ceviri_dizin.js?v=r123681115"></script>
+<script src="js/ceviri.js?v=r107806367"></script>
+<script src="js/app.js?v=r20673751"></script>
 <!-- A-F ALTI KADEME · D/E/F KATMANI + ANTLAŞMA HARİTASI (GORUNUM-ABCD-0916, D-KATMAN).
      Kosu 12 bitince baglandi (17 Eylul). d_katman.js app.js'ten SONRA — guncelle()'yi sarar. -->
 <!-- ▼ data/paket_28.js — aşağıdaki 10 dosya buraya PAKETLENDİ (arac/paketle.py).

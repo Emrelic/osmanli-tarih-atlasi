@@ -65,6 +65,7 @@ URETILEN_DESEN = ("data/*parca*.js", "data/*_ust.js", "data/bolgeler.js",
                   "data/bolge_pencere.js", "data/devirler.js")
 # Rebase çatışmasında KAPININ çözdüğü üretilmiş dosyalar (paketle.py + surum_damgala.py çıktısı).
 PAKET_DESEN = ("data/paket_*.js", "data/paket_kunye.json")
+CEVIRI_DIZIN = "data/ceviri_dizin.js"   # çeviri dosyalarının özeti — üretilmiş, kapı yeniden hesaplar
 # STATİK SAYFALAR (SEO-STATIK-1117, Emre 18 Kasım 2026: "push kapısı"): `node arac/statik_sayfa.js`
 # çıktısı. Veriden türer ⇒ rebase çatışmasında origin tarafı alınır, sonra kapı yeniden üretir.
 STATIK_ONEK = ("m/", "en/m/", "en/history/", "tarih/", "devlet/", "kisi/", "sehir/")
@@ -343,7 +344,7 @@ def rebase_cozumlu(hedef="origin/main", autostash=False):
                                        capture_output=True, text=True, encoding="utf-8", errors="replace")
                 continue
             raise Olculemedi("rebase durdu ama çözülmemiş dosya yok:\n" + (r.stdout + r.stderr)[-400:])
-        gercek = [f for f in u if not (paket_mi(f) or f == INDEX or statik_mi(f))]
+        gercek = [f for f in u if not (paket_mi(f) or f == INDEX or f == CEVIRI_DIZIN or statik_mi(f))]
         if gercek:
             git("rebase", "--abort", kontrol=False)
             raise Catisma("GERÇEK VERİ ÇATIŞMASI (rebase geri alındı): " + ", ".join(gercek[:8])
@@ -370,7 +371,11 @@ def rebase_cozumlu(hedef="origin/main", autostash=False):
 def uretilmisleri_yenile():
     """`paketle.py yenile` + `surum_damgala.py`; değişen ÜRETİLMİŞ dosyaları (yalnız onları)
     son commit'e amend eder. → amend edilen dosya sayısı."""
-    for ad, komut in (("paketle.py yenile", [PY, "arac/paketle.py", "yenile"]),
+    # ceviri_dizin.js çeviri dosyalarının özetidir — iki oturum aynı dil dosyasına yazınca
+    # çatışır (18 Kasım 2026, iki kez); origin tarafı alınır, burada yeniden hesaplanır.
+    for ad, komut in (("ceviri dizin", [PY, "-c", "import sys; sys.path.insert(0, 'arac'); "
+                                                  "import ceviri; ceviri.dizin_yaz()"]),
+                      ("paketle.py yenile", [PY, "arac/paketle.py", "yenile"]),
                       ("surum_damgala.py", [PY, "arac/surum_damgala.py"])):
         k = kos(ad, komut, KOK)
         if k != 0:
@@ -378,7 +383,7 @@ def uretilmisleri_yenile():
     degisen = []
     for s in git("status", "--porcelain", "--untracked-files=no").stdout.splitlines():
         yol = s[3:].strip().strip('"')
-        if not (paket_mi(yol) or yol == INDEX):
+        if not (paket_mi(yol) or yol == INDEX or yol == CEVIRI_DIZIN):
             continue
         sayi = git("diff", "--numstat", "--", yol).stdout.split("\t")
         if len(sayi) >= 2 and sayi[0] == "0" and sayi[1] == "0":
