@@ -99,6 +99,36 @@ portreleri üreticide tanımlı ama Commons engeli yüzünden **henüz inmedi**;
 **18 Kas:** portre ve amblem önbelleği eski worktree'yle silindi; üretici `--tabaka-koru` ile
 koşturuldu (depodaki iki tabaka aynen kalır, boş amblem hücreleri karosuz). Eksik beşi eklemek
 için önce bütün önbelleğin yeniden inmesi gerekir (~150 Commons isteği).
+**19 Kas:** `--tabaka-koru` ARTIMLI oldu: dolu hücre taşınır, boş/yeni hücre indirilip çizilir.
+Osmanlı arması, Faravahar ve krizantem mührü bu yolla indi (Commons lisansı üretim çıktısında).
+II. Menelik: asıl dosya (379 px) 429'a takıldı; Commons'un hazır 330 px küçük resmi indi.
+
+## Yeni portreler (19 Kas — Emre: "siyasi liderleri de indir; Timur, Babür Şah, Şah Cihan, Lao Tzu, Menelik")
+| Kişi | Commons dosyası | Lisans |
+|---|---|---|
+| Hitler | Bundesarchiv Bild 183-S33882, Adolf Hitler retouched.jpg | CC BY-SA 3.0 de (Bundesarchiv) |
+| Stalin | Joseph Stalin, circa 1942 (cropped).jpg | Kamu malı |
+| Lenin | Lenin in 1920 (3x4 cropped).jpg | Kamu malı |
+| Mao Zedong | Mao Zedong 1950 Portrait (3x4 cropped).jpg | Kamu malı |
+| Karl Marx | Karl Marx by John Jabez Edwin Mayall 1875 - Restored & Adjusted (3x4 cropped b).png | Kamu malı |
+| Timur | Timur, 1630 artist, India.jpg (Babür minyatürü) | Kamu malı |
+| Babür Şah | Idealized portrait of Babur (1483-1530), painted in 1605-1615 in India (British Museum 1921,1011,0.3).jpg | Kamu malı |
+| Şah Cihan | "Shah Jahan on a Terrace, Holding a Pendant Set With His Portrait", Folio from the Shah Jahan Album MET DT5167.jpg (Chitarman) | CC0 (MET) |
+| Lao Tzu | Lao Tzu - Project Gutenberg eText 15250.jpg | Kamu malı |
+| II. Menelik | Negus of ethiopia menelik ii 1 (1).jpg | CC0 |
+
+## Simge yapılar ve eserler (`tablolar.webp`, beyaz kartpostal kenarı)
+| Simge | Commons dosyası | Lisans · fotoğrafçı |
+|---|---|---|
+| Ayasofya | Hagia Sophia Mars 2013.jpg | CC BY-SA 3.0 · Arild Vågen |
+| Kâbe | The Kaaba during Hajj - edited.jpg | CC BY-SA 4.0 · Adli Wahid (düzenleme Basile Morin) |
+| Giza piramitleri | All Gizah Pyramids.jpg | CC BY-SA 2.0 · Ricardo Liberato |
+| Çin Seddi | 20090529 Great Wall 8185.jpg | CC BY-SA 3.0 · Jakub Hałun |
+| Tac Mahal | Taj Mahal (Edited).jpeg | CC BY-SA 4.0 · Yann (düzenleme Jim Carter) |
+| Kolezyum | Colosseum in Rome, Italy - April 2007.jpg | CC BY-SA 2.5 · Diliff |
+| Göbeklitepe | Göbekli Tepe, Urfa.jpg | CC BY-SA 3.0 · Teomancimit |
+| Selçuklu çift başlı kartalı (İnce Minareli Medrese Müzesi, Konya) | Ince Minare Medrese Museum double headed eagle 2855.jpg | CC BY-SA 4.0 · Dosseman |
+| Hitit güneş kursu (Anadolu Medeniyetleri Müzesi) | Museum of Anatolian Civilizations025 kopie.jpg | CC BY 2.5 · Georges Jansoone (JoJan) |
 
 ## Hz. Muhammed — Ayasofya levhası (portre tabakasında yuvarlak hücre)
 Emre (18 Kas): "Hz. Muhammed'in ismini hat sanatıyla, Ayasofya'daki örneği üzerinden yuvarlak

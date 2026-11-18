@@ -92,5 +92,15 @@ Fatih + Kanunî, Roma'dan en az 5 imparator, her milletten 1-2 kişi).
   altın halka. Portre tabakası `--tabaka-koru` + yama ile yeniden kodlandı (248 → 224 KB;
   öteki 86 yüz ikinci kez WebP q74'ten geçti — gözle fark görülmedi). Sınama: vitrinde ve
   bölmede yuvarlak, konsol temiz.
+- **Önce en popülerler + yeni kişi/simge (19 Kas, Emre):** "animasyon en popüler harita, resim,
+  kişi ve sembolleri fırlatarak başlasın" ⇒ üreticide `ONCE` (36 karo: Türkiye, Atatürk,
+  Hz. Muhammed, Osmanlı, Fatih, Hz. İsa, Roma, Kanunî, Napolyon, İskender, Cengiz… + Ayasofya,
+  piramitler, Çin Seddi, Tac Mahal, Kolezyum, Kâbe) bu sırayla ilk fırlar (~2,6 sn), sonra millet
+  turları. Popülerler bölümünde kurucu en çok 3 ileri bakar (sıra korunur). Yeni: Hitler, Stalin,
+  Lenin, Mao, Marx, Timur, Babür, Şah Cihan, Lao Tzu, II. Menelik; 9 simge fotoğrafı;
+  Osmanlı arması, Faravahar, krizantem. `--tabaka-koru` artımlı (boş hücre testi ortalama+sapma:
+  WebP kırıntısı tepe 77'ye çıkıyordu, eski test Hitler hücresini dolu sanmıştı — yakalandı).
+  Sınama 1400×860: 199 karo (Menelik sonra eklendi → 200), ilk 36 karo ONCE sırasında, duvar
+  6,1 sn, çakışma 0. Tabakalar: portre 248 KB (97), amblem 189 KB (63), tablo/simge 91 KB (20).
 - **Ölçülmedi:** tam sitede yükleme süresine etkisi (worktree'de üretilmiş veri yok);
   push kapısının `denetle_yayin` sınavı sitenin açılışını koşturur.
