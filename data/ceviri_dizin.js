@@ -27,6 +27,10 @@ window.CEVIRI_DIZIN = {
    "ad": "Русский"
   },
   {
+   "kod": "hi",
+   "ad": "हिन्दी"
+  },
+  {
    "kod": "pt",
    "ad": "Português"
   },
@@ -39,7 +43,7 @@ window.CEVIRI_DIZIN = {
   "en": [
    [
     "ceviri_en_arayuz.js",
-    "2dd5ef02"
+    "7271ebf4"
    ],
    [
     "ceviri_en_devlet.js",
@@ -73,7 +77,7 @@ window.CEVIRI_DIZIN = {
   "ar": [
    [
     "ceviri_ar_arayuz.js",
-    "9dad8f5f"
+    "8d0927f0"
    ],
    [
     "ceviri_ar_devlet.js",
@@ -111,7 +115,7 @@ window.CEVIRI_DIZIN = {
   "es": [
    [
     "ceviri_es_arayuz.js",
-    "f64d4bd9"
+    "8475361b"
    ],
    [
     "ceviri_es_devlet.js",
@@ -145,7 +149,7 @@ window.CEVIRI_DIZIN = {
   "fr": [
    [
     "ceviri_fr_arayuz.js",
-    "b3c81077"
+    "04eaaff8"
    ],
    [
     "ceviri_fr_devlet.js",
@@ -159,7 +163,7 @@ window.CEVIRI_DIZIN = {
   "ru": [
    [
     "ceviri_ru_arayuz.js",
-    "698367bc"
+    "59b549d0"
    ],
    [
     "ceviri_ru_devlet.js",
@@ -182,10 +186,68 @@ window.CEVIRI_DIZIN = {
     "50a74ff3"
    ]
   ],
+  "hi": [
+   [
+    "ceviri_hi_arayuz.js",
+    "ed754f7e"
+   ],
+   [
+    "ceviri_hi_devlet.js",
+    "31bb66e2"
+   ],
+   [
+    "ceviri_hi_olay_01.js",
+    "90b550cd"
+   ],
+   [
+    "ceviri_hi_olay_02.js",
+    "a325e2c2"
+   ],
+   [
+    "ceviri_hi_olay_03.js",
+    "a803183e"
+   ],
+   [
+    "ceviri_hi_olay_04.js",
+    "f3b4e80a"
+   ],
+   [
+    "ceviri_hi_olay_05.js",
+    "1a0a2823"
+   ],
+   [
+    "ceviri_hi_olay_06.js",
+    "51cea5a7"
+   ],
+   [
+    "ceviri_hi_olay_07.js",
+    "dd2f85f7"
+   ],
+   [
+    "ceviri_hi_olay_08.js",
+    "533cdbee"
+   ],
+   [
+    "ceviri_hi_olay_09.js",
+    "b51edd5b"
+   ],
+   [
+    "ceviri_hi_olay_10.js",
+    "b69700f0"
+   ],
+   [
+    "ceviri_hi_olay_11.js",
+    "22f6fba3"
+   ],
+   [
+    "ceviri_hi_olay_12.js",
+    "9c2661a1"
+   ]
+  ],
   "pt": [
    [
     "ceviri_pt_arayuz.js",
-    "16e54216"
+    "e125abb2"
    ],
    [
     "ceviri_pt_devlet.js",
@@ -215,7 +277,7 @@ window.CEVIRI_DIZIN = {
   "de": [
    [
     "ceviri_de_arayuz.js",
-    "d66cff08"
+    "17a2f155"
    ],
    [
     "ceviri_de_devlet.js",
