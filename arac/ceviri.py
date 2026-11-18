@@ -131,7 +131,7 @@ BEKLENEN_CEVIRI_EKSIK = {
     "es": {"arayuz": 79, "devlet": 27, "olay": 442},
     "de": {"arayuz": 79, "devlet": 27, "olay": 442},
     "pt": {"arayuz": 79, "devlet": 27, "olay": 1553},
-    "ru": {"arayuz": 79, "devlet": 27, "olay": 3635},
+    "ru": {"arayuz": 0, "devlet": 0, "olay": 0},  # 18 Kasım 2026 (LAB 17): ru tamamlandı, tavan 0'a indi
     "fr": {"arayuz": 79, "devlet": 27, "olay": 4535},
 }
 # 13 Kasım 2026 (KASA batch 15): bayat olay en/ar/es/de 71→72 (ÖLÇÜM) — UMIT p08 / EMRELİC ant17 ana maddelere `antlasma_id` yazdı
@@ -142,7 +142,7 @@ BEKLENEN_CEVIRI_BAYAT = {
     "es": {"arayuz": 0, "devlet": 1, "olay": 116},
     "de": {"arayuz": 0, "devlet": 1, "olay": 116},
     "pt": {"arayuz": 0, "devlet": 1, "olay": 95},
-    "ru": {"arayuz": 0, "devlet": 1, "olay": 63},
+    "ru": {"arayuz": 0, "devlet": 0, "olay": 0},
     "fr": {"arayuz": 0, "devlet": 1, "olay": 26},
 }
 
