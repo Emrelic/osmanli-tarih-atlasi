@@ -37,6 +37,10 @@ window.CEVIRI_DIZIN = {
   {
    "kod": "de",
    "ad": "Deutsch"
+  },
+  {
+   "kod": "ja",
+   "ad": "日本語"
   }
  ],
  "dosyalar": {
@@ -249,11 +253,15 @@ window.CEVIRI_DIZIN = {
    ],
    [
     "ceviri_zh_olay_01.js",
-    "7ae839fa"
+    "cbebde5d"
    ],
    [
     "ceviri_zh_olay_02.js",
-    "55863af1"
+    "13545a9f"
+   ],
+   [
+    "ceviri_zh_olay_03.js",
+    "c96c28e1"
    ]
   ],
   "pt": [
@@ -326,6 +334,28 @@ window.CEVIRI_DIZIN = {
    [
     "ceviri_de_olay_07.js",
     "857907c0"
+   ]
+  ],
+  "ja": [
+   [
+    "ceviri_ja_arayuz.js",
+    "90ce9e96"
+   ],
+   [
+    "ceviri_ja_devlet.js",
+    "b344014a"
+   ],
+   [
+    "ceviri_ja_olay_01.js",
+    "b94e8136"
+   ],
+   [
+    "ceviri_ja_olay_02.js",
+    "b0faa5e9"
+   ],
+   [
+    "ceviri_ja_olay_03.js",
+    "b4723563"
    ]
   ]
  }
