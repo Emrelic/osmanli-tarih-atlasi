@@ -127,7 +127,7 @@ DILLER = [("tr", "Türkçe"), ("en", "English"), ("ar", "العربية"), ("es"
 # 18 Kasım 2026 (KASA 17, tavan AÇILDI: önce ölç, aç, raporla): devlet eksik 24 -> 27 her 7 dilde (texas mükerrer künye silinince 28 -> 27) = boyalar +3 yeni künye (devletler.js); çeviri işi site bitince.
 BEKLENEN_CEVIRI_EKSIK = {
     "en": {"arayuz": 79, "devlet": 27, "olay": 442},
-    "ar": {"arayuz": 79, "devlet": 27, "olay": 442},
+    "ar": {"arayuz": 0, "devlet": 0, "olay": 0},
     "es": {"arayuz": 79, "devlet": 27, "olay": 442},
     "de": {"arayuz": 79, "devlet": 27, "olay": 442},
     "pt": {"arayuz": 79, "devlet": 27, "olay": 1553},
@@ -138,7 +138,7 @@ BEKLENEN_CEVIRI_EKSIK = {
 # (Zitvatorok/Buçaş/Vasvar/İstanbul 1700, Yergöğü, İngiliz 1799). Kaynak ölçüldü; çeviri işi site bitince (Emre, 13 Kasım).
 BEKLENEN_CEVIRI_BAYAT = {
     "en": {"arayuz": 0, "devlet": 1, "olay": 116},
-    "ar": {"arayuz": 0, "devlet": 1, "olay": 116},
+    "ar": {"arayuz": 0, "devlet": 0, "olay": 0},
     "es": {"arayuz": 0, "devlet": 1, "olay": 116},
     "de": {"arayuz": 0, "devlet": 1, "olay": 116},
     "pt": {"arayuz": 0, "devlet": 1, "olay": 95},
