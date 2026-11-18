@@ -29525,6 +29525,53 @@ window.DEVLETLER = [
   halef:[], kronoloji:[
     { odak_yer:["Salt Lake City"], t:"1851-04-04", tur:"son", b:"Genel Meclis Brigham Young'ın önerisiyle Deseret Devleti'ni feshetti; yasaları 4 Ekim 1851'de Utah Bölgesi meclisince yeniden kabul edildi.", kaynak:"Utah History to Go, «Deseret»" }
   ] },
+
+// ═══ D1 KÜNYE PARTİSİ (18 Kasım 2026, d1-kunye-1118): devletsiz topluluk/halk sahası künyeleri — id = BOYALAR anahtarı; yerleşim s: bağlaması BU işte yapılmadı ═══
+{ id:"maori-iwi", ad:"Māori İwi Toplulukları (1835 Öncesi, Aotearoa)", tur:"devlet", bolge:"okyanusya",
+  f:"1281-01-01", t:"1835-10-28", baskent:"—", boya_gerekli:true,
+  ic_not_f:"f = ATLAS UFKU, kuruluş yılı DEĞİL. Wilmshurst, Hunt, Lipo & Anderson, PNAS 108(5) 2011: Doğu Polinezya'nın geri kalanına tek büyük dalga ~1190-1290 (arama özeti okundu; Yeni Zelanda'ya özgü aralık metinden doğrulanamadı, bir RNZ haberi 1210-1385 diyor). Yerleşme yılı bilinmiyor, yıl uydurulmadı.",
+  ic_not_t:"28 Ekim 1835 = yeni-zelanda-birlesik-kabileler künyesinin f günü (He Whakaputanga; DigitalNZ 32375930 / Archives NZ IA9-1). Gün komşudan, zincirleme devralma yok. 1835 sonrası Kuzey Ada'nın kuzeyi o künyeye geçer; Kuzey Ada'nın geri kalanı ve Güney Ada 1840 sonrası yeni-zelanda künyesine kadar boşluk kalır — bu künye onu KAPATMAZ (beyanlı).",
+  ozet:"1835 öncesi Aotearoa'da merkezî devlet kurmayan, iwi/hapū düzeyinde örgütlenmiş Māori toplulukları. Kuzey Ada'nın kuzeyinde 28 Ekim 1835'te Birleşik Kabileler Konfederasyonu ortaya çıktı.",
+  kaynak:"Wilmshurst vd., «High-precision radiocarbon dating shows recent and rapid initial human colonization of East Polynesia», PNAS 108(5):1815-1820 (2011) (arama özeti okundu); DigitalNZ kaydı 32375930 (Archives New Zealand IA9-1).",
+  kronoloji:[
+    { odak_yer:["Waitangi (Bay of Islands)"], t:"1835-10-28", tur:"son", b:"He Whakaputanga imzalandı; Kuzey Māori rangatira Birleşik Kabileler adıyla kolektif egemenlik ilan etti (iwi sahası bu günde Kuzey Ada'nın kuzeyinde konfederasyona bıraktı)", kaynak:"DigitalNZ 32375930 (Archives New Zealand IA9-1); gün komşudan: yeni-zelanda-birlesik-kabileler f" }
+  ] },
+{ id:"nauru-kabileleri", ad:"Nauru On İki Aşireti (Alman İlhakı Öncesi)", tur:"devlet", bolge:"okyanusya",
+  f:"1281-01-01", t:"1888-01-01", baskent:"—", boya_gerekli:true,
+  ic_not_f:"f = ATLAS UFKU, kuruluş yılı DEĞİL; yerleşme tarihi kaynakla okunmadı.",
+  ic_not_t:"YIL: Almanya Nauru'yu 1888'de ilhak etti (NLA «German colonies in the Pacific» sayfası okundu: 1888; bildiri tarihi 14 Nisan 1888, Marshall Adaları Himayesi'ne bağlandı). GÜN ÇELİŞKİLİ: 14 Nisan (bildiri), 16 Nisan (işgal), Ekim 1888 (resmî tören) — son ikisi Vikipedi düzeyinde, akademik teyit YOK ⇒ yıl yazıldı, gün yazılmadı.",
+  ozet:"Nauru'da Alman ilhakından önce on iki aşiret düzeninde, merkezî devlet olmaksızın yaşayan topluluklar. 1888'de Almanya adayı ilhak etti.",
+  kaynak:"National Library of Australia, «German colonies in the Pacific» (library.gov.au/research/guides-and-resources/guides-selected-collections/german-colonies-pacific) — sayfa AÇILDI: Nauru annexed 1888; proclamation 14 April 1888.",
+  kronoloji:[
+    { odak_yer:["Nauru (Yaren)"], t:"1888-01-01", tur:"son", b:"Almanya Nauru'yu ilhak edip Marshall Adaları Himayesi'ne kattı (gün çelişkili: 14 Nisan / 16 Nisan / Ekim 1888)", kaynak:"NLA «German colonies in the Pacific»" }
+  ] },
+{ id:"marshall-irojlari", ad:"Marshall Adaları İroj (Şef) Toplulukları (Alman İlhakı Öncesi)", tur:"devlet", bolge:"okyanusya",
+  f:"1281-01-01", t:"1885-01-01", baskent:"—", boya_gerekli:true,
+  ic_not_f:"f = ATLAS UFKU, kuruluş yılı DEĞİL.",
+  ic_not_t:"YIL: Almanya Marshall Adaları'nı 1885'te ilhak etti (NLA «German colonies in the Pacific» okundu). Gün OKUNMADI, yazılmadı.",
+  ozet:"Marshall Adaları'nda soy şefleri (irooj) altında örgütlenmiş, merkezî devleti olmayan atol toplulukları. 1885'te Almanya adaları ilhak etti.",
+  kaynak:"National Library of Australia, «German colonies in the Pacific» (library.gov.au/research/guides-and-resources/guides-selected-collections/german-colonies-pacific) — sayfa AÇILDI: Marshall Islands annexed 1885.",
+  kronoloji:[
+    { odak_yer:["Jaluit (Jabor)"], t:"1885-01-01", tur:"son", b:"Almanya Marshall Adaları'nı ilhak etti (gün bulunamadı)", kaynak:"NLA «German colonies in the Pacific»" }
+  ] },
+{ id:"vanuatu-topluluklari", ad:"Yeni Hebridler (Vanuatu) Ada Toplulukları (Kondominyum Öncesi)", tur:"devlet", bolge:"okyanusya",
+  f:"1281-01-01", t:"1906-10-20", baskent:"—", boya_gerekli:true,
+  ic_not_f:"f = ATLAS UFKU, kuruluş yılı DEĞİL.",
+  ic_not_t:"20 Ekim 1906: İngiltere-Fransa Yeni Hebridler Sözleşmesi imzası (UK Parliament treaties kaydı api.parliament.uk/uk-treaties/treaties/8196 ve 1908 TS 3 arama sonuçlarında göründü; metin AÇILMADI, gün arama özetinden ⇒ TEK KAYNAK, çift teyit yok). Bu bir EGEMENLİK İDDİASI günüdür; adalarda fiilî denetim sonradan yayıldı. 1887-1906 Anglo-Fransız Ortak Deniz Komisyonu dönemi künyeye alınmadı.",
+  ozet:"Yeni Hebridler'de köy ve ada düzeyinde, merkezî devleti olmayan Melanezya toplulukları. 1906 İngiliz-Fransız sözleşmesi ortak yönetim kurdu.",
+  kaynak:"Convention between the United Kingdom and France concerning the New Hebrides, 20 Ekim 1906 (api.parliament.uk/uk-treaties/treaties/8196; treaties.fcdo.gov.uk 1908-TS0003) — metin okunmadı, gün arama özetinden.",
+  kronoloji:[
+    { odak_yer:["Port Vila"], t:"1906-10-20", tur:"antlasma", b:"İngiltere-Fransa Yeni Hebridler Sözleşmesi imzalandı; ortak egemenlik (kondominyum) iddiası", kaynak:"UK Treaty Series 1908 No.3 (tek kaynak, metin okunmadı)" }
+  ] },
+{ id:"pampa-patagonya-halklari", ad:"Pampa ve Patagonya Halkları (Tehuelche · Puelche · Pampa; Arjantin Tarafı)", tur:"devlet", bolge:"guney-amerika",
+  f:"1281-01-01", t:"1885-01-01", baskent:"—", boya_gerekli:true,
+  ic_not_f:"f = ATLAS UFKU, kuruluş yılı DEĞİL.",
+  ic_not_t:"YIL: Arjantin'in 1878-1885 Çöl Seferi serisi (resmî Arjantin hükûmet sayfası casarosada.gob.ar: seri 1878-1885; ana sefer 1879) — bitiş YILI olarak 1885 alındı. Larson (2023) ve Vezub/Healey çalışmaları (Project MUSE 884196 özeti okundu) resmî anlatıyı Mapuche/Tehuelche cacique gözünden tersine çevirir; GÜN YOK. Sayhueque'nin 1885 teslimi yalnız partizan kaynakta ⇒ kullanılmadı. KAPSAM: yalnız Arjantin tarafı; And'ın Şili yanı (Araucanía 1861-1883 vb.) ve Ateş Toprağı (Selk'nam) bu künyeye YAZILMADI.",
+  ozet:"Arjantin Pampa'sı ve Patagonya'sında atlı avcı ve göçebe topluluklar (Tehuelche, Puelche, Pampa). 1878-1885 Çöl Seferleri ile Arjantin devleti bu bozkırları denetimine aldı.",
+  kaynak:"Arjantin Cumhurbaşkanlığı, «145 years since the desert campaign» (casarosada.gob.ar/international/latest-news/50443-145-years-since-the-desert-campaign) — arama özetinde okundu, sayfa tam açılmadı; Project MUSE 884196 (Larson 2023 kitap incelemesi) özeti. HSAI c.1 çerçevesi (Steward ed., BAE Bulletin 143). TDV kapsamıyor.",
+  kronoloji:[
+    { odak_yer:["Leubucó (Leuvucó, La Pampa)"], t:"1885-01-01", tur:"son", b:"Arjantin Çöl Seferleri serisi (1878-1885) sona erdi; Pampa ve Patagonya halkları devlet denetimine girdi (gün yok)", kaynak:"casarosada.gob.ar «145 years since the desert campaign» (arama özeti)" }
+  ] },
 ];
 
 ;

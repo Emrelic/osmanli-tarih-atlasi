@@ -194,8 +194,8 @@ targovishte-bg	3	Bulgaristan		Targovishte	43.2512	26.5722	GeoNames 726174 (DMS 4
 blagoevgrad-bg	3	Bulgaristan		Blagoevgrad	42.0146	23.0980	GeoNames 733191 (DMS 42°00′52.45″ N, 23°05′52.94″ E)			blagoevgrad-bg		GeoNames 733191	oblast merkezi (Yukarı Cuma)	E			ek-modern-merkez
 yambol-bg	3	Bulgaristan		Yambol	42.4824	26.5001	GeoNames 725578 (DMS 42°28′56.75″ N, 26°30′00.22″ E)			yambol-bg		GeoNames 725578	oblast merkezi (Yanbolu)	E			ek-modern-merkez
 smolyan-bg	3	Bulgaristan		Smolyan	41.5744	24.7120	GeoNames 727030 (DMS 41°34′27.80″ N, 24°42′43.34″ E)					GeoNames 727030	oblast merkezi (Paşmaklı)	E			ek-modern-merkez
-montana-bg	3	Bulgaristan		Montana	43.4128	23.2217	GeoNames 729114 (DMS 43°24′46.26″ N, 23°13′18.26″ E)					GeoNames 729114	oblast merkezi (eski Mihaylovgrad; Ferdinand)	E			ek-modern-merkez
-kozani-gr	3	Yunanistan		Kozani	40.2993	21.7898	GeoNames 735563 (DMS 40°17′57.52″ N, 21°47′23.42″ E)					GeoNames 735563	Batı Makedonya periferi merkezi (Kozana)	E			ek-modern-merkez
+montana-bg	3	Bulgaristan		Montana	43.4128	23.2217	GeoNames 729114 (DMS 43°24′46.26″ N, 23°13′18.26″ E)			montana-bg		GeoNames 729114	oblast merkezi (eski Mihaylovgrad; Ferdinand)	E			ek-modern-merkez
+kozani-gr	3	Yunanistan		Kozani	40.2993	21.7898	GeoNames 735563 (DMS 40°17′57.52″ N, 21°47′23.42″ E)			kozani-gr		GeoNames 735563	Batı Makedonya periferi merkezi (Kozana)	E			ek-modern-merkez
 kavala-gr	3	Yunanistan		Kavala	40.9396	24.4069	GeoNames 735861 (DMS 40°56′22.52″ N, 24°24′24.73″ E)			kavala-gr		GeoNames 735861	nomos merkezi (Kavala)	E			ek-modern-merkez
 piraeus-gr	3	Yunanistan		Piraeus	37.9420	23.6462	GeoNames 255274 (DMS 37°56′31.31″ N, 23°38′46.28″ E)			piraeus-gr		GeoNames 255274	Pire; Attika ilçe merkezi	E			ek-modern-merkez
 split-hr	3	Hırvatistan		Split	43.5089	16.4392	GeoNames 3190261 (DMS 43°30′32.08″ N, 16°26′20.94″ E)			split-hr		GeoNames 3190261	županija merkezi (İspalato)	E			ek-modern-merkez
@@ -211,7 +211,7 @@ pazin-hr	3	Hırvatistan		Pazin	45.2392	13.9395	GeoNames 3193561 (DMS 45°14′21
 virovitica-hr	3	Hırvatistan		Virovitica	45.8345	17.3855	GeoNames 3187694 (DMS 45°50′04.13″ N, 17°23′07.98″ E)			virovitica-hr		GeoNames 3187694	županija merkezi	E			ek-modern-merkez
 krapina-hr	3	Hırvatistan		Krapina	46.1608	15.8737	GeoNames 3197369 (DMS 46°09′38.74″ N, 15°52′25.32″ E)			krapina-hr		GeoNames 3197369	Krapina-Zagorje županija merkezi	E			ek-modern-merkez
 novi-sad-rs	3	Sırbistan		Novi Sad	45.2517	19.8369	GeoNames 3194360 (DMS 45°15′06.01″ N, 19°50′12.98″ E)			petrovaradin-hu		GeoNames 3194360	Güney Bačka okrug merkezi; Voyvodina özerk bölge merkezi	E			ek-modern-merkez
-cacak-rs	3	Sırbistan		Čačak	43.8914	20.3497	GeoNames 792078 (DMS 43°53′29.00″ N, 20°20′58.99″ E)					GeoNames 792078	Moravica okrug merkezi	E			ek-modern-merkez
+cacak-rs	3	Sırbistan		Čačak	43.8914	20.3497	GeoNames 792078 (DMS 43°53′29.00″ N, 20°20′58.99″ E)			cacak-rs		GeoNames 792078	Moravica okrug merkezi	E			ek-modern-merkez
 leskovac-rs	3	Sırbistan		Leskovac	42.9981	21.9461	GeoNames 788709 (DMS 42°59′53.02″ N, 21°56′46.00″ E)			leskovac-rs		GeoNames 788709	Jablanica okrug merkezi	E			ek-modern-merkez
 subotica-rs	3	Sırbistan		Subotica	46.1000	19.6667	GeoNames 3189595 (DMS 46°06′00.00″ N, 19°40′00.01″ E)			subotica-rs		GeoNames 3189595	Kuzey Bačka okrug merkezi; GeoNames koordinatı dakikaya yuvarlanmış	E			ek-modern-merkez
 kraljevo-rs	3	Sırbistan		Kraljevo	43.7258	20.6894	GeoNames 789107 (DMS 43°43′32.99″ N, 20°41′21.98″ E)			kraljevo-rs		GeoNames 789107	Raška okrug merkezi	E			ek-modern-merkez
@@ -260,7 +260,7 @@ kranj-si	3	Slovenya		Kranj	46.2389	14.3556	GeoNames 3197378 (DMS 46°14′19.93�
 nova-gorica-si	3	Slovenya		Nova Gorica	45.9560	13.6484	GeoNames 3194452 (DMS 45°57′21.74″ N, 13°38′54.13″ E)			nova-gorica-si		GeoNames 3194452	Goriška bölge merkezi	E			ek-modern-merkez
 koper-si	3	Slovenya		Koper	45.5482	13.7296	GeoNames 3197753 (DMS 45°32′53.52″ N, 13°43′46.67″ E)			koper-si		GeoNames 3197753	Obalno-kraška bölge merkezi	E			ek-modern-merkez
 novo-mesto-si	3	Slovenya		Novo Mesto	45.8040	15.1689	GeoNames 3194351 (DMS 45°48′14.29″ N, 15°10′07.90″ E)			novo-mesto-si		GeoNames 3194351	Jugovzhodna Slovenija bölge merkezi	E			ek-modern-merkez
-murska-sobota-si	3	Slovenya		Murska Sobota	46.6626	16.1664	GeoNames 3194648 (DMS 46°39′45.50″ N, 16°09′59.15″ E)					GeoNames 3194648	Pomurska bölge merkezi	E			ek-modern-merkez
+murska-sobota-si	3	Slovenya		Murska Sobota	46.6626	16.1664	GeoNames 3194648 (DMS 46°39′45.50″ N, 16°09′59.15″ E)			murska-sobota-si		GeoNames 3194648	Pomurska bölge merkezi	E			ek-modern-merkez
 trbovlje-si	3	Slovenya		Trbovlje	46.1541	15.0518	GeoNames 3188915 (DMS 46°09′14.76″ N, 15°03′06.41″ E)					GeoNames 3188915	Zasavska bölge büyük şehri	E			ek-modern-merkez
 slovenj-gradec-si	3	Slovenya		Slovenj Gradec	46.5109	15.0838	GeoNames 3190536 (DMS 46°30′39.17″ N, 15°05′01.57″ E)			slovenj-gradec-si		GeoNames 3190536	Koroška bölge merkezi	E			ek-modern-merkez
 postojna-si	3	Slovenya		Postojna	45.7743	14.2153	GeoNames 3192673 (DMS 45°46′27.66″ N, 14°12′55.01″ E)			postojna-si		GeoNames 3192673	Primorsko-notranjska bölge merkezi	E			ek-modern-merkez

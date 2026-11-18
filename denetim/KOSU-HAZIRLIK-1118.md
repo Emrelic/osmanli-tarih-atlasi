@@ -1,7 +1,9 @@
 # KOŞU HAZIRLIK — 18 Kasım 2026 (KASA 17 ölçümü)
 
-**Koşu bilgisi:** `main` **7bcbf15a (ve sonrası)** · **Temp dışında** bir klasörden · **21 Kasım 19:00'dan sonra** ·
-**HAVVA'da** (`py arac/uret_petek.py`, 7-8 saat; önce `KOSU-YAYIN.md`). Koşu başlatma KASA'nın işi değildir.
+**Koşu bilgisi:** 🔴 **KOŞU YALNIZ EMRE'NİN AÇIK EMRİYLE başlar** (Emre emri, 18 Kasım 2026; EMRELİC 17 ilettiyse aktarıldı).
+Kimse — HAVVA, KASA, başka oturum — Emre söylemeden koşuyu ya da koşu zincirini tetiklemez; kapı/denetle/yayın işleri sürer.
+Emre emri verirse: `main` (en güncel) · **Temp dışında** bir klasörden · **HAVVA'da** (`py arac/uret_petek.py`, 7-8 saat; önce `KOSU-YAYIN.md`).
+Tarih kısıtı (21 Kasım 19:00) artık kendi başına koşu izni DEĞİLDİR.
 
 ## Ölçümler (kendi ağacımda `origin/main` 7bcbf15a; makine KASA)
 | Kalem | Sonuç |
