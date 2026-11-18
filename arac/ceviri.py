@@ -125,10 +125,10 @@ DILLER = [("tr", "Türkçe"), ("en", "English"), ("ar", "العربية"), ("es"
 # 18 Kasım 2026 (ceviri-79-1118): IZOLE EDILDI — +1 arayüz kalıbı "# Temmuz # (# Şâban #)" (olaylar_2s_1019.js gün: 6 Temmuz 969 (17 Şâban 358));
 # 7 dile çevrildi, arayüz tavanı 80 -> 79.
 # 18 Kasım 2026 (KASA 17, tavan AÇILDI: önce ölç, aç, raporla): devlet eksik 24 -> 27 her 7 dilde (texas mükerrer künye silinince 28 -> 27) = boyalar +3 yeni künye (devletler.js); çeviri işi site bitince.
+# 18 Kasim 2026 (ceviri-es-1118): Ispanyolca (es) TAMAMLANDI - arayuz 79, devlet 28, olay 558 madde cevrildi; es tavani 0 (liste disi). Eski: eksik 79/27/442, bayat devlet 1 olay 116.
 BEKLENEN_CEVIRI_EKSIK = {
     "en": {"arayuz": 79, "devlet": 27, "olay": 442},
     "ar": {"arayuz": 79, "devlet": 27, "olay": 442},
-    "es": {"arayuz": 79, "devlet": 27, "olay": 442},
     "de": {"arayuz": 79, "devlet": 27, "olay": 442},
     "pt": {"arayuz": 79, "devlet": 27, "olay": 1553},
     "ru": {"arayuz": 79, "devlet": 27, "olay": 3635},
@@ -139,7 +139,6 @@ BEKLENEN_CEVIRI_EKSIK = {
 BEKLENEN_CEVIRI_BAYAT = {
     "en": {"arayuz": 0, "devlet": 1, "olay": 116},
     "ar": {"arayuz": 0, "devlet": 1, "olay": 116},
-    "es": {"arayuz": 0, "devlet": 1, "olay": 116},
     "de": {"arayuz": 0, "devlet": 1, "olay": 116},
     "pt": {"arayuz": 0, "devlet": 1, "olay": 95},
     "ru": {"arayuz": 0, "devlet": 1, "olay": 63},
