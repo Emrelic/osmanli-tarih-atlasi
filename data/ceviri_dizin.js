@@ -505,7 +505,7 @@ window.CEVIRI_DIZIN = {
    ],
    [
     "ceviri_pl_devlet.js",
-    "7ccaeea2"
+    "440632cb"
    ]
   ]
  }
