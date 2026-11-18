@@ -96,6 +96,30 @@ Osmanlı arması (1882–1922), Faravahar, Japon krizantem mührü ile Lao Tzu v
 portreleri üreticide tanımlı ama Commons engeli yüzünden **henüz inmedi**; üretici
 `--indirme-yok` ile koşturuldu, bu karolar atlandı. Engel kalkınca düz `py arac/acilis_uret.py`
 (Lao Tzu ve Menelik için PORTRE'ye satır eklenerek) onları da ekler.
+**18 Kas:** portre ve amblem önbelleği eski worktree'yle silindi; üretici `--tabaka-koru` ile
+koşturuldu (depodaki iki tabaka aynen kalır, boş amblem hücreleri karosuz). Eksik beşi eklemek
+için önce bütün önbelleğin yeniden inmesi gerekir (~150 Commons isteği).
+
+## Ünlü tablolar (`tablolar.webp`, 8 sütun, hücre 160×120, altın çerçeve tabakada)
+Emre (17-18 Kas): haritası olmayan millete "bayrak + kişi + ünlü tablo". Ortadan 4:3 kırpılır.
+
+| Millet | Eser | Ressam | Commons dosyası | Lisans |
+|---|---|---|---|---|
+| Macar | Honfoglalás (Árpád ayrıntısı), 1893 | Munkácsy Mihály | MunkácsyHonfoglalásPM.jpg | Kamu malı |
+| Moğol | Moğol-Çin savaşı (1211), Câmiu't-tevârîh minyatürü | Sayf al-Vâhidî, Herat | Bataille entre mongols & chinois (1211).jpeg | Kamu malı |
+| Kore | İnwang Dağı yağmurdan sonra (İnwangjesaekdo), 1751 | Jeong Seon | Inwangjesaekdo.jpg | Kamu malı |
+| Peru | Atahualpa'nın cenazesi, 1867 | Luis Montero | Luis Montero - The Funerals of Inca Atahualpa - Google Art Project.jpg | Kamu malı |
+| Arjantin | La vuelta del malón, 1892 | Ángel Della Valle | Ángel DELLA Valle - La vuelta del malón - Google Art Project (cropped).jpg | Kamu malı |
+| Kanada | The Jack Pine, 1916-17 | Tom Thomson | Tom Thomson - The Jack Pine 1916.jpg | Kamu malı |
+| Venezuela | Miranda La Carraca'da, 1896 | Arturo Michelena | Miranda en la Carraca by Arturo Michelena.jpg | Kamu malı |
+| Kolombiya | Boyacá Muharebesi | Martín Tovar y Tovar | Batalla de Boyaca de Martin Tovar y Tovar.jpg | Kamu malı |
+| Cezayir | Cezayirli Kadınlar, 1834 | Eugène Delacroix | Eugène Delacroix - Les Femmes d'Alger dans leur appartement, 1834.jpg | Kamu malı |
+| Habeş | Adwa Muharebesi (~1940, kenar çerçevesi kırpıldı) | adı bilinmeyen Habeş ressam | Ethiopian painting, Battle of Adwa, 1896.jpg | CC BY-SA 4.0 (fotoğraf, Commons) |
+| Güney Afrika | Kap'ta bir kasaba (Sleepy town in the Cape), 1929 | J. H. Pierneef | JH Pierneef - Sleepy town in the Cape 1929.jpg | Kamu malı |
+
+Notlar: Boyacá tablosunun ressamı Venezuelalıdır (Kolombiya'nın bağımsızlık savaşı). Cezayir
+tablosu bir Fransız Oryantalist eseridir; Cezayirli ressam (ör. Racim, ö. 1975) henüz kamu malı
+değil. Pierneef'in 1934 sonrası işleri ABD'de hâlâ telifli olabilir; 1929 eseri seçildi.
 
 Kaynak: Wikimedia Commons; lisans, üretim sırasında Commons'tan okundu (17 Kasım 2026).
 Bugünün devletleri için bayrak, tarihî devletler için devrine ait arma/tuğra/sancak.

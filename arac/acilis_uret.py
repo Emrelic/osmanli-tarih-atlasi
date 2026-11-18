@@ -145,7 +145,7 @@ MILLETLER = [  # (ad, boylam, enlem, karolar)
     ("Hint", 78.0, 22.0, ["h:IND", "k:gandi", "h:mau", "k:buda", "h:bab", "k:ekber"]),
     ("Mısır", 31.2, 27.0, ["h:EGY", "h:mis", "k:ramses", "k:kleopatra", "k:tutankamon", "k:nefertiti"]),
     ("Yunan", 22.0, 39.0, ["h:GRC", "h:isk", "k:iskender", "k:aristoteles", "k:platon", "k:homeros"]),
-    ("Moğol", 105.0, 47.0, ["h:mog", "k:cengiz", "s:MNG", "k:kubilay", "h:alt", "h:tim"]),
+    ("Moğol", 105.0, 47.0, ["h:mog", "k:cengiz", "s:MNG", "t:mogol", "k:kubilay", "h:alt", "h:tim"]),
     ("Bizans", 29.0, 41.0, ["h:biz", "k:justinianus", "k:isa", "k:theodora"]),
     ("İspanyol", -3.7, 40.4, ["h:ESP", "h:isp", "k:isabel", "k:felipe2"]),
     ("Amerikan", -98.0, 39.0, ["h:USA", "k:washington", "k:lincoln", "k:jefferson", "k:edison"]),
@@ -155,18 +155,18 @@ MILLETLER = [  # (ad, boylam, enlem, karolar)
     ("Hollanda", 5.3, 52.1, ["h:hol", "s:NLD", "k:rembrandt"]),
     ("Avusturya", 16.4, 48.2, ["h:avm", "k:mariaterezya", "k:mozart"]),
     ("Leh", 21.0, 52.2, ["h:leh", "k:kopernik", "s:POL"]),
-    ("Macar", 19.0, 47.5, ["s:HUN", "k:kossuth"]),
+    ("Macar", 19.0, 47.5, ["s:HUN", "t:honfoglalas", "k:kossuth"]),
     ("İsveç", 18.0, 59.3, ["h:isv", "k:gustavadolf"]),
     ("Meksika", -99.1, 19.4, ["h:MEX", "h:azt", "k:juarez", "k:zapata"]),
     ("Brezilya", -47.9, -15.8, ["h:BRA", "k:pedro2"]),
-    ("Arjantin", -58.4, -34.6, ["s:ARG", "k:sanmartin"]),
-    ("Venezuela · Kolombiya", -66.9, 10.5, ["k:bolivar", "s:VEN", "s:COL"]),
-    ("Peru", -72.0, -13.5, ["h:ink", "s:PER"]),
-    ("Kanada", -75.7, 45.4, ["s:CAN"]),
-    ("Kore", 127.0, 37.5, ["s:KOR"]),
-    ("Cezayir", 3.0, 36.7, ["s:DZA", "k:abdulkadir"]),
-    ("Habeş", 38.7, 9.0, ["s:ETH", "k:menelik"]),
-    ("Güney Afrika", 28.0, -26.0, ["s:ZAF"]),
+    ("Arjantin", -58.4, -34.6, ["s:ARG", "k:sanmartin", "t:malon"]),
+    ("Venezuela · Kolombiya", -66.9, 10.5, ["k:bolivar", "s:VEN", "s:COL", "t:miranda", "t:boyaca"]),
+    ("Peru", -72.0, -13.5, ["h:ink", "s:PER", "t:atahualpa"]),
+    ("Kanada", -75.7, 45.4, ["s:CAN", "t:jackpine"]),
+    ("Kore", 127.0, 37.5, ["s:KOR", "t:inwang"]),
+    ("Cezayir", 3.0, 36.7, ["s:DZA", "k:abdulkadir", "t:cezayirli"]),
+    ("Habeş", 38.7, 9.0, ["s:ETH", "t:adwa", "k:menelik"]),
+    ("Güney Afrika", 28.0, -26.0, ["s:ZAF", "t:pierneef"]),
     ("Kartaca", 10.3, 36.85, ["h:kar", "k:hannibal"]),
     ("Batı Afrika", -8.0, 13.0, ["k:mansamusa", "h:mal", "h:son"]),
     ("Türk dünyası", 69.0, 41.0, ["s:AZE", "s:KAZ", "s:UZB", "s:TKM", "s:KGZ"]),
@@ -252,6 +252,30 @@ AMBLEM = [
     ("PHL", "Filipinler", "Flag of the Philippines.svg", "Kamu malı", ""),
 ]
 AM = os.path.join(KOK, "veri-kaynak", "acilis-amblem")
+# ── ÜNLÜ TABLOLAR (Emre, 17-18 Kas: "harita değil tablo demek istemiştim" — haritası
+# olmayan 11 millete "bayrak + kişi + ünlü tablo"). Hepsi Commons; kamu malı (ressamın
+# ölümünden 70+ yıl) ya da tablonun fotoğrafı CC BY-SA. Hücre 4:3, altın çerçeve tabakada.
+# (anahtar, eser adı, ressam, Commons dosyası, lisans, fotoğraf sahibi (CC için),
+#  kırpma (x0, y0, x1, y1 — 0-1 oran; None = ortadan 4:3))
+TABLO = [
+    ("honfoglalas", "Honfoglalás", "Munkácsy", "MunkácsyHonfoglalásPM.jpg", "Kamu malı", "", None),
+    ("mogol", "Moğol süvarileri", "Câmiu't-tevârîh", "Bataille entre mongols & chinois (1211).jpeg", "Kamu malı", "", None),
+    ("inwang", "İnwang Dağı", "Jeong Seon", "Inwangjesaekdo.jpg", "Kamu malı", "", None),
+    ("atahualpa", "Atahualpa'nın cenazesi", "Luis Montero", "Luis Montero - The Funerals of Inca Atahualpa - Google Art Project.jpg", "Kamu malı", "", None),
+    ("malon", "La vuelta del malón", "Della Valle", "Ángel DELLA Valle - La vuelta del malón - Google Art Project (cropped).jpg", "Kamu malı", "", None),
+    ("jackpine", "The Jack Pine", "Tom Thomson", "Tom Thomson - The Jack Pine 1916.jpg", "Kamu malı", "", None),
+    ("miranda", "Miranda La Carraca'da", "Michelena", "Miranda en la Carraca by Arturo Michelena.jpg", "Kamu malı", "", None),
+    ("boyaca", "Boyacá Muharebesi", "Tovar y Tovar", "Batalla de Boyaca de Martin Tovar y Tovar.jpg", "Kamu malı", "", None),
+    ("cezayirli", "Cezayirli Kadınlar", "Delacroix", "Eugène Delacroix - Les Femmes d'Alger dans leur appartement, 1834.jpg", "Kamu malı", "", None),
+    ("adwa", "Adwa Muharebesi", "Habeş ressam", "Ethiopian painting, Battle of Adwa, 1896.jpg", "CC BY-SA 4.0", "Commons", (.06, .07, .94, .93)),
+    ("pierneef", "Kap'ta bir kasaba", "Pierneef", "JH Pierneef - Sleepy town in the Cape 1929.jpg", "Kamu malı", "", None),
+]
+TB = os.path.join(KOK, "veri-kaynak", "acilis-tablo")
+TSPRITE = os.path.join(KOK, "img", "acilis", "tablolar.webp")
+TW, TH = 160, 120
+# --tabaka-koru: portre ve amblem tabakaları depodakiyle kalır (önbellek bu makinede yoksa
+# Commons'tan ~150 görseli yeniden indirmemek için). PORTRE/AMBLEM sırası değişmediyse güvenli.
+KORU = "--tabaka-koru" in sys.argv
 ASPRITE = os.path.join(KOK, "img", "acilis", "amblemler.webp")
 AHUCRE = 128          # duvarda vitrin büyütmesi (2,3×) bulanık olmasın
 # --indirme-yok: önbellekte olmayan amblem indirilmez, karosu atlanır (Commons 429 verirken
@@ -451,6 +475,13 @@ def portreler():
     """Commons'tan indirir (önbellek), yüzü kırpar, tek JPEG tabakası yazar."""
     from PIL import Image
     import urllib.parse
+    if KORU and os.path.exists(SPRITE):
+        from PIL import Image as _I
+        w, h = _I.open(SPRITE).size
+        if h // HUCRE_Y * SUTUN < len(PORTRE):
+            raise SystemExit("--tabaka-koru: portre tabakası PORTRE listesinden küçük — tam üretim gerekir")
+        print("portre tabakası KORUNDU (%d B)" % os.path.getsize(SPRITE))
+        return
     os.makedirs(PR, exist_ok=True)
     os.makedirs(os.path.dirname(SPRITE), exist_ok=True)
     n = len(PORTRE)
@@ -504,9 +535,18 @@ def amblemler():
     Lisansı Commons'tan okur ve listedekiyle karşılaştırır ('?' = henüz okunmadı)."""
     from PIL import Image
     import urllib.parse
-    os.makedirs(AM, exist_ok=True)
     n = len(AMBLEM)
     eksik = set()
+    if KORU and os.path.exists(ASPRITE):   # boş hücre = eksik amblem
+        tab = Image.open(ASPRITE).convert("RGBA")
+        for i, a in enumerate(AMBLEM):
+            x0, y0 = (i % SUTUN) * AHUCRE, (i // SUTUN) * AHUCRE
+            # komşunun gömülü gölgesi hücreye birkaç soluk piksel taşır (ölçüldü: alfa ≤ 22): boş say
+            if y0 >= tab.height or tab.crop((x0, y0, x0 + AHUCRE, y0 + AHUCRE)).getchannel("A").getextrema()[1] < 100:
+                eksik.add(a[0])
+        print("amblem tabakası KORUNDU (%d B) · boş hücre: %s" % (os.path.getsize(ASPRITE), " ".join(sorted(eksik))))
+        return eksik
+    os.makedirs(AM, exist_ok=True)
     tab = Image.new("RGBA", (SUTUN * AHUCRE, ((n + SUTUN - 1) // SUTUN) * AHUCRE), (0, 0, 0, 0))
     for i, (k, ad, dosya, lis, eser) in enumerate(AMBLEM):
         # Windows dosya adında büyük/küçük harf ayırmaz: "rus" ile "RUS" aynı dosyaya düşüyordu
@@ -567,6 +607,61 @@ def amblemler():
     print("amblem tabakası: %d amblem, %d B%s" % (n - len(eksik), os.path.getsize(ASPRITE),
                                                   (" · EKSİK (atlandı): " + " ".join(sorted(eksik))) if eksik else ""))
     return eksik
+
+
+def commons_indir(dosya, hedef, genislik):
+    """Commons küçük resmini indirir (429'da bekleyip yeniden dener); lisans bilgisini döndürür."""
+    import urllib.parse
+    q = urllib.parse.urlencode({"action": "query", "format": "json", "prop": "imageinfo",
+                                "iiprop": "url|extmetadata", "iiurlwidth": genislik, "titles": "File:" + dosya})
+    for den in range(6):
+        try:
+            r = json.load(urllib.request.urlopen(urllib.request.Request(
+                "https://commons.wikimedia.org/w/api.php?" + q, headers=UA), timeout=60))
+            ii = list(r["query"]["pages"].values())[0]["imageinfo"][0]
+            veri = urllib.request.urlopen(urllib.request.Request(ii.get("thumburl") or ii["url"], headers=UA), timeout=60).read()
+            break
+        except urllib.error.HTTPError as e:
+            if e.code != 429 or den == 5:
+                raise
+            time.sleep(15 * (den + 1))
+    open(hedef, "wb").write(veri)
+    em = ii.get("extmetadata", {})
+    return em.get("LicenseShortName", {}).get("value"), re.sub("<[^>]+>", "", em.get("Artist", {}).get("value", ""))[:80]
+
+
+def tablolar():
+    """Ünlü tablolar: 4:3 kırpılır, altın çerçeve tabakaya çizilir, tek WebP."""
+    from PIL import Image, ImageDraw
+    os.makedirs(TB, exist_ok=True)
+    n = len(TABLO)
+    tab = Image.new("RGB", (SUTUN * TW, ((n + SUTUN - 1) // SUTUN) * TH), (24, 24, 24))
+    for i, (k, ad, ressam, dosya, lis, eser, kirp) in enumerate(TABLO):
+        p = os.path.join(TB, k + ".jpg")
+        if not os.path.exists(p):
+            l, a = commons_indir(dosya, p, 640)
+            print("tablo %-11s %s · Commons lisansı: %s · %s" % (k, dosya, l, a))
+            time.sleep(3)
+        im = Image.open(p).convert("RGB")
+        W, H = im.size
+        if kirp:
+            im = im.crop((int(kirp[0] * W), int(kirp[1] * H), int(kirp[2] * W), int(kirp[3] * H)))
+            W, H = im.size
+        # ortadan 4:3 (fazlası iki yandan / alt-üstten eşit kesilir)
+        if W / H > TW / TH:
+            gw = H * TW / TH
+            im = im.crop((int((W - gw) / 2), 0, int((W + gw) / 2), H))
+        else:
+            gh = W * TH / TW
+            im = im.crop((0, int((H - gh) / 2), W, int((H + gh) / 2)))
+        c = im.resize((TW, TH), Image.LANCZOS)
+        d = ImageDraw.Draw(c)   # altın çerçeve: dış koyu, orta altın, iç ince koyu
+        d.rectangle((0, 0, TW - 1, TH - 1), outline=(92, 66, 18), width=2)
+        d.rectangle((2, 2, TW - 3, TH - 3), outline=(212, 172, 76), width=4)
+        d.rectangle((6, 6, TW - 7, TH - 7), outline=(120, 88, 30), width=1)
+        tab.paste(c, ((i % SUTUN) * TW, (i // SUTUN) * TH))
+    tab.save(TSPRITE, "WEBP", quality=78, method=6)
+    print("tablo tabakası: %d tablo, %d B" % (n, os.path.getsize(TSPRITE)))
 
 
 def ozet(yol):
@@ -640,6 +735,8 @@ def main():
 
     eksik_amb = amblemler()
     portreler()
+    tablolar()
+    TI = {t[0]: i for i, t in enumerate(TABLO)}
     AI = {a[0]: i for i, a in enumerate(AMBLEM) if a[0] not in eksik_amb}
     for o in ogeler:
         if o["k"] in AI:
@@ -664,6 +761,8 @@ def main():
                     print("UYARI portresi yok, karo atlandı:", ak)
                     continue
                 x = {"t": "k", "i": PI[ak]}
+            elif tur == "t":
+                x = {"t": "t", "i": TI[ak]}
             else:
                 if ak not in AI:
                     print("UYARI amblemi yok, karo atlandı:", ak)
@@ -685,6 +784,8 @@ def main():
             "  portre: " + js({"url": "img/acilis/portreler.webp?v=" + ozet(SPRITE), "hucre": HUCRE, "yuk": HUCRE_Y, "sutun": SUTUN}) + ",\n"
             "  kisiler: " + js(kisiler) + ",\n"
             "  amblem: " + js({"url": "img/acilis/amblemler.webp?v=" + ozet(ASPRITE), "hucre": AHUCRE, "sutun": SUTUN}) + ",\n"
+            "  tablo: " + js({"url": "img/acilis/tablolar.webp?v=" + ozet(TSPRITE), "en": TW, "boy": TH, "sutun": SUTUN,
+                              "eser": [{"ad": t[1], "ressam": t[2]} for t in TABLO]}) + ",\n"
             "  final: " + js({k: final[k] for k in ("ad", "yil", "renk", "yol")}) + ",\n"
             "  milletler: [\n" + ",\n".join("    " + js(m) for m in milletler) + "\n  ]\n};\n"
             "/* <<< VERI */")

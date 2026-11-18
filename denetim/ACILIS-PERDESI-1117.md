@@ -74,5 +74,18 @@ Fatih + Kanunî, Roma'dan en az 5 imparator, her milletten 1-2 kişi).
   arası çakışma 0; 375×812 — 24 bölme, 8,2 sn'de dolu, çakışma 0. Konsol temiz; `acilisBitir`
   perdeyi ve Türkiye finalini DOM'dan kaldırıyor. Portre tabakası WebP 120×160 (248 KB, 87
   kişi), amblem 128 hücre (169 KB, 60). Commons 429: 3 simge + 2 portre bekliyor (KAYNAK.md).
+- **HIZLANDIRMA + TABLOLAR (18 Kas, Emre: "daha hızlı dağıtılsın, açılma uzun sürüyor; site
+  hızlı açılıyorsa kartlar da hızlı dağılmalı" + 11 millete ünlü tablo):** aralık sabit 280 ms
+  yerine 240 ms'den ×0,88 ile 55 ms'ye iner; ilk karolar uzun vitrin (380/420/540 ms, 2,3×),
+  10. karodan sonra kısa (260/130/360 ms, 1,6×). Aynı anda ~9 karo havada; vitrin çakışmasın diye
+  bölme, havadaki karoların yönünden EN UZAK açıdakiler arasından seçilir (eski sağ/sol nöbeti
+  yerine). Tabakalar betiğin ilk satırında istenir. Ölçüm (sınama sayfası): 1400×860 duvar
+  **6,1 sn'de** dolu (eski 22,7), 16 anda oturan karo çakışması 0, 178 karo; 375×812 **3,2 sn**
+  (eski 8,2), çakışma 0; konsol temiz; `acilisBitir` perdeyi kaldırıyor. Tablolar: 11 eser,
+  `img/acilis/tablolar.webp` 51 KB (künye KAYNAK.md).
+  **Site açılışı (yayın, başsız Chrome, yazılım çizimi — mutlak süre şişkin):** perde kurulumu
+  2,0 sn (soğuk) / 0,85 sn (sıcak); `atlas-hazir` 20,7 sn (soğuk) / 19,2 sn (sıcak); 203 istek,
+  11,7 MB aktarım, ~46 MB JS çözülüyor; DOMContentLoaded 18,5 sn — açılışı belirleyen perde
+  değil, veri paketlerinin ayrıştırılması.
 - **Ölçülmedi:** tam sitede yükleme süresine etkisi (worktree'de üretilmiş veri yok);
   push kapısının `denetle_yayin` sınavı sitenin açılışını koşturur.

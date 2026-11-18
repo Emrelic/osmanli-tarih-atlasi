@@ -3538,11 +3538,16 @@ html.acilis-js::after, html.acilis-js body::before { display: none; }
   border-radius: .2em; background-color: #2a2a2a;
   box-shadow: 0 0 0 .2em #efe6d2, 0 .3em .7em .2em rgba(0,0,0,.55);
 }
+#acilis .acilis-tablo {
+  /* Emre, 18 Kas: ünlü tablolar — çerçeve tabakada çizili, burada yalnız gölge */
+  background-color: #2a2a2a; box-shadow: 0 .3em .7em .2em rgba(0,0,0,.55);
+}
 #acilis .acilis-karo span {
   display: block; margin: .25em -2em 0; color: #f3ead7; white-space: nowrap;
   font-weight: 600; font-family: Georgia, "Times New Roman", serif; line-height: 1.15;
   text-shadow: 0 .1em .2em #000, 0 0 .4em #000;
 }
+#acilis .acilis-karo span small { display: block; font-size: .82em; font-weight: 400; font-style: italic; color: #e3d3a8; }
 #acilis .acilis-kivilcim {
   position: absolute; z-index: 3; width: 28px; height: 28px; border-radius: 50%;
   border: 2px solid #fff; box-sizing: border-box; opacity: 0;
