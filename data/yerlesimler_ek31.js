@@ -81,7 +81,7 @@ window.YERLESIMLER_EK31 = [
 //   Değişmez 2 `s:` sınırlarına bakmıyor, ama koordinatör isterse ölçerim.
 // kaynak: TDV `sibir-hanligi` (ad ve hanlık çizgisi) — koordinat için
 //   özdeşleştirme, kuruluş yılı bulunamadı
-{ ad:"Abalak", tur:"kale", lat:58.129, lon:68.594, g:0, k:4,
+{ ad:"Abalak", tur:"kale", lat:58.129, lon:68.594, g:0, k:4, m:"Tobolsk (İsker)", kaynak:"ABİ MERKEZ: Tobolsk (İsker) — 2 günden yakın (Emre ölçütü: kesin bağ); DEM yürüyüşü 0.5 gün (motor ölçeği: gün = 8 saat × 5,04 km/saat), ikinci aday Tümen (Çimgi-Tura) 6.1 gün; kaynakta idarî bağ bulunamadı. BEYANLI YAKLAŞIKLIK (denetim/ABI-MERKEZ-K4-1118.md)",
   s:[{f:"1281-01-01",t:"1430-01-01",d:"altinorda"},
      {f:"1430-01-01",t:"1598-08-20",d:"sibir-hanligi"},
      {f:"1598-08-20",t:"1917-03-15",d:"rusya",kaynak:"DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «II. Nikolay tahttan çekildi, Rusya yönetimi Geçici Hükümet'e geçti (Mitau, Goldingen, Ani, Mestia, Zugdidi dahil)» (1917-03-15, taraf kolu) kaynağı — Abdication of Nicholas II, https://www.prlib.ru/en/node/683263 ; https://alphahistory.com/russianrevolution/abdication-of-nicholas-ii-1917/ ; Özel Transkafkasya Komitesi (Mart 1917) · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil"},
@@ -96,7 +96,7 @@ window.YERLESIMLER_EK31 = [
 //   belirsizliği ~onlarca km, yüzlerce km değil — ve bölge bugün
 //   noktasız. Ama kesinliği Abalak'tan DÜŞÜK, ve bunu kayda geçiyorum.
 // kaynak: TDV `sibir-hanligi` (ad) — özdeşleştirme (Ust-İşim) DOĞRULANAMADI
-{ ad:"Kızıl-Tura", tur:"kale", lat:57.700, lon:71.170, g:0, k:4,
+{ ad:"Kızıl-Tura", tur:"kale", lat:57.700, lon:71.170, g:0, k:4, m:"Tobolsk (İsker)", kaynak:"ABİ MERKEZ: Tobolsk (İsker) — 2-5 gün, coğrafî birliktelik (ikinci aday en az 1 gün uzak, sahiplik uyumu en az %90); DEM yürüyüşü 4.9 gün (motor ölçeği: gün = 8 saat × 5,04 km/saat), ikinci aday Petropavlovsk (Kızılcar) 8.7 gün; kaynakta idarî bağ bulunamadı. BEYANLI YAKLAŞIKLIK (denetim/ABI-MERKEZ-K4-1118.md)",
   s:[{f:"1281-01-01",t:"1430-01-01",d:"altinorda"},
      {f:"1430-01-01",t:"1598-08-20",d:"sibir-hanligi"},
      {f:"1598-08-20",t:"1917-03-15",d:"rusya",kaynak:"DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «II. Nikolay tahttan çekildi, Rusya yönetimi Geçici Hükümet'e geçti (Mitau, Goldingen, Ani, Mestia, Zugdidi dahil)» (1917-03-15, taraf kolu) kaynağı — Abdication of Nicholas II, https://www.prlib.ru/en/node/683263 ; https://alphahistory.com/russianrevolution/abdication-of-nicholas-ii-1917/ ; Özel Transkafkasya Komitesi (Mart 1917) · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil"},
