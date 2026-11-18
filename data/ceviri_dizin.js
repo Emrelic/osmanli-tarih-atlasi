@@ -501,7 +501,7 @@ window.CEVIRI_DIZIN = {
   "id": [
    [
     "ceviri_id_olay.js",
-    "9cbbc715"
+    "1a90ae9c"
    ]
   ]
  }
