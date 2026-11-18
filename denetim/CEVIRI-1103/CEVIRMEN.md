@@ -179,6 +179,23 @@ Büyük girdide çıktıyı tek Write ile yazamıyorsan parçalara böl: `<girdi
      3. **Yerleşik ad yoksa** Türkçe ad Latin harfle kalır. Örnekler: Böğürdelen, Güvercinlik. Türkçe adın Kiril harf çevirisi (Яныккале, Сырпсындыгы gibi) **yazılmaz**.
      4. **Kişi lakapları:** yerleşik Rusça karşılık varsa o kullanılır. Örnek: Kazıklı Voyvoda → «Влад Цепеш (Колосажатель)». Yoksa lakap Latin harfle kalır.
      5. **Hanedan / beylik adları:** devlet adı dosyasındaki karşılık kullanılır. Örnekler: Teke → «Текеогуллары» değil, devlet listesindeki biçim. Karşılık yoksa Latin harfle kalır.
+3d. **Japonca (ja) ölçüsü** (LAB 17, 18 Kasım 2026): Japon akademik tarih yazımı (世界史 ders kitabı ve
+   岩波・山川 yayınları, 『岩波イスラーム辞典』, 『世界歴史大系』 kullanımı). Üslup だ・である調 (düz, akademik);
+   düğme dili kısa ("表示", "閉じる"). Yerleşik adlar katakana/kanji ile yazılır:
+   - オスマン帝国; スルタン; 大宰相; イェニチェリ; ベイレルベイ; サンジャク; ティマール; デヴシルメ; カーディー;
+     シェイヒュルイスラーム.
+   - 1453 öncesi コンスタンティノープル, sonrası イスタンブル. Edirne: 征服前 アドリアノープル, sonra エディルネ.
+     ベオグラード, ウィーン, モレア, ルメリア, ワラキア, モルダヴィア, トランシルヴァニア, クリム・ハン国,
+     マムルーク朝, セルジューク朝, サファヴィー朝, アク・コユンル, カラ・コユンル, ヴェネツィア,
+     神聖ローマ帝国.
+   - Kişiler: メフメト2世, バヤジト1世, スレイマン1世, ムラト, セリム; Batılılar yerleşik Japon yazımıyla
+     (カール5世, ピョートル1世). Çin/Kore/Japon kişi ve yer adları KANJİ ile (Türkçe metindeki Latin
+     yazımdan kanjiye çevirmek yalnız adın kanjisi kesin biliniyorsa; emin değilsen Türkçe/Latin yazımı bırak,
+     katakana UYDURMA).
+   - Rakamlar Batı rakamı (1453年5月29日); `#` şablonları rakam yer tutucusudur, sayısı ve sırası korunur.
+     M.Ö. → 紀元前, M.S. → 紀元. Yüzyıl: 15世紀. Hükümdar sıra numarası Arap rakamı + 世 (メフメト2世).
+   - Hicrî/Jülyen vb. etiketler aynen çevrilir (ヒジュラ暦, ユリウス暦, グレゴリオ暦). Tırnak 「…」.
+   - Latin harfli kısaltma, kaynak adı (TDV, Shaw), URL aynen kalır. Uydurma ad üretme.
 4. Kod, kimlik, dosya yolu, değişken adı gibi görünen ya da çevrilemeyen öğeyi AYNEN bırak.
 5. Arayüz metni kısa ve düğme diliyle: "Göster" → "Show", "Kapat" → "Close". Cümle parçası
    gelirse parça olarak çevir (bir cümlenin ortası olabilir; büyük/küçük harfi koru).

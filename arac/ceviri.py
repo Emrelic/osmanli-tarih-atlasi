@@ -134,7 +134,7 @@ BEKLENEN_CEVIRI_EKSIK = {
     "ru": {"arayuz": 79, "devlet": 27, "olay": 3635},
     "fr": {"arayuz": 79, "devlet": 27, "olay": 4535},
     # 18 Kasım 2026: ja SIFIRDAN başlatıldı (tavan açılmadı; başlangıç eksik = ölçüm: 1859/2292/5139), arayüz 200 çevrildi.
-    "ja": {"arayuz": 1659, "devlet": 2292, "olay": 5139},
+    "ja": {"arayuz": 0, "devlet": 0, "olay": 4139},
 }
 # 13 Kasım 2026 (KASA batch 15): bayat olay en/ar/es/de 71→72 (ÖLÇÜM) — UMIT p08 / EMRELİC ant17 ana maddelere `antlasma_id` yazdı
 # (Zitvatorok/Buçaş/Vasvar/İstanbul 1700, Yergöğü, İngiliz 1799). Kaynak ölçüldü; çeviri işi site bitince (Emre, 13 Kasım).
