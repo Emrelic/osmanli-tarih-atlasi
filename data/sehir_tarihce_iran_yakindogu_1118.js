@@ -26,30 +26,6 @@ window.SEHIR_TARIHCE_IRAN_YAKINDOGU_1118 = [
   "ic_not": "TDV Irak md.: Ba‘kūbâ Diyâlâ muhafazasının idare merkezi (tablo); yıl yok. Gövde, madde sayfasından indirilen metinde aranarak okundu (özetleyici model kullanılmadı)."
  },
  {
-  "id": "balkanabat",
-  "ad": "Balkanabat (Nebitdağ)",
-  "atlas_ad": null,
-  "lat": 39.51075,
-  "lon": 54.36713,
-  "kat1900": 2,
-  "adlar": [
-   "Nebitdağ",
-   "Balkanabat"
-  ],
-  "kur": null,
-  "ark": null,
-  "bit": null,
-  "ilk": {
-   "nicelik": "tarihsiz_tanik",
-   "kaynak": "TDV İslâm Ansiklopedisi, «TÜRKMENİSTAN» md., https://islamansiklopedisi.org.tr/turkmenistan (madde sayfası tam metin olarak indirilip metin içinde aranarak okundu, 18 Kasım 2026)",
-   "tanik": "Kalitesi oldukça yüksek olan petrol Hazar’ın güneydoğu kıyıları ile Nebit dağı çevresinden çıkarılmaktadır.",
-   "ic_not": "tarihsiz tanık: TDV İslâm Ansiklopedisi, «TÜRKMENİSTAN» md., https://islamansiklopedisi.org.tr/turkmenistan (madde sayfası tam metin olarak indirilip metin içinde aranarak okundu, 18 Kasım 2026). Kaynak şehrin varlığına tarihsiz tanıklık eder (yıl vermiyor ya da yıl kuruluşu tarihlemiyor); t boş, yıl uydurulmadı; sınır/boyama kanıtı değil. TEK KAYNAK (çift teyit yok)."
-  },
-  "sahip": [],
-  "olay": [],
-  "ic_not": "TDV Türkmenistan md.: yalnız 'Nebit dağı çevresi' petrol bölgesi olarak anılır; şehir (Nebitdağ/Balkanabat) adı geçmez, EN ZAYIF tanıktır; mesafe/aynı yer kontrolü yapılmadı. Gövde, madde sayfasından indirilen metinde aranarak okundu (özetleyici model kullanılmadı)."
- },
- {
   "id": "buraydah",
   "ad": "Büreyde (Buraydah)",
   "atlas_ad": null,
@@ -130,7 +106,7 @@ window.SEHIR_TARIHCE_IRAN_YAKINDOGU_1118 = [
     "kaynak": "TDV İslâm Ansiklopedisi, «ÖZBEKİSTAN» md., https://islamansiklopedisi.org.tr/ozbekistan (madde sayfası tam metin olarak indirilip metin içinde aranarak okundu, 18 Kasım 2026)"
    }
   ],
-  "ic_not": "TDV Özbekistan md.: 1916'da Cizzah'ta halk ayaklanması; ilk anılış değil, kuruluş bulunamadı. Gövde, madde sayfasından indirilen metinde aranarak okundu (özetleyici model kullanılmadı)."
+  "ic_not": "TDV Özbekistan md.: 1916'da Cizzah'ta halk ayaklanması; ilk anılış değil, kuruluş bulunamadı. Takvim: kaynak tarihi yıl/ay düzeyinde, Jülyen/Gregoryen dönüşümü yok; 1918 öncesi Rusya tarihlerinde yıl dışı gün teyidi yapılmadı. Gövde, madde sayfasından indirilen metinde aranarak okundu (özetleyici model kullanılmadı)."
  },
  {
   "id": "dammam",
@@ -374,26 +350,24 @@ window.SEHIR_TARIHCE_IRAN_YAKINDOGU_1118 = [
   "ark": null,
   "bit": null,
   "ilk": {
-   "t": "1847-01-01",
-   "gun": "1847",
-   "nicelik": "kurulus",
-   "kesinlik": "yil",
+   "nicelik": "tarihsiz_tanik",
    "kaynak": "TDV İslâm Ansiklopedisi, «HÂRİZM» md., https://islamansiklopedisi.org.tr/harizm (madde sayfası tam metin olarak indirilip metin içinde aranarak okundu, 18 Kasım 2026)",
-   "tanik": "Ruslar 1847’de Hîve ve Hokand’ı tehdit amacıyla Kazalinsk Kalesi’ni inşa ettiler;"
+   "tanik": "Ruslar 1847’de Hîve ve Hokand’ı tehdit amacıyla Kazalinsk Kalesi’ni inşa ettiler;",
+   "ic_not": "tarihsiz tanık: TDV İslâm Ansiklopedisi, «HÂRİZM» md., https://islamansiklopedisi.org.tr/harizm (madde sayfası tam metin olarak indirilip metin içinde aranarak okundu, 18 Kasım 2026). Kaynak şehrin varlığına tarihsiz tanıklık eder (yıl vermiyor ya da yıl kuruluşu tarihlemiyor); t boş, yıl uydurulmadı; sınır/boyama kanıtı değil. TEK KAYNAK (çift teyit yok)."
   },
-  "sahip": [
+  "sahip": [],
+  "olay": [
    {
-    "f": "1847-01-01",
-    "t": "1900-01-01",
-    "d": "rusya",
+    "t": "1847-01-01",
+    "gun": "1847",
+    "k": "yapi",
+    "b": "Ruslar Hîve ve Hokand'ı tehdit amacıyla Kazalinsk Kalesi'ni inşa etti (kale inşası; şehir kuruluşu değil)",
     "kesinlik": "yil",
-    "kaynak": "TDV İslâm Ansiklopedisi, «HÂRİZM» md., https://islamansiklopedisi.org.tr/harizm (madde sayfası tam metin olarak indirilip metin içinde aranarak okundu, 18 Kasım 2026)",
     "tanik": "Ruslar 1847’de Hîve ve Hokand’ı tehdit amacıyla Kazalinsk Kalesi’ni inşa ettiler;",
-    "ic_not": "Sahiplik kalenin Ruslar tarafından inşasından çıkarılmıştır; 1900-01-01 zincir sonu konvansiyonudur (atlasta nokta yok)."
+    "kaynak": "TDV İslâm Ansiklopedisi, «HÂRİZM» md., https://islamansiklopedisi.org.tr/harizm (madde sayfası tam metin olarak indirilip metin içinde aranarak okundu, 18 Kasım 2026)"
    }
   ],
-  "olay": [],
-  "ic_not": "TDV Hârizm md.: Kazalinsk Kalesi 1847'de Ruslar'ca inşa edildi (ay/gün yok; yıl başı güvenli taban DEĞİL ama kaynak yıl verdiği için 01-01). Sahiplik: kaleyi inşa eden Rusya; 1900-01-01 zincir sonu konvansiyonu. Siriderya md. de Rus dönemi Aral gölü donanması demirleme yerini Kazalinsk diye anar. Tek kaynak. Gövde, madde sayfasından indirilen metinde aranarak okundu (özetleyici model kullanılmadı)."
+  "ic_not": "TDV Hârizm md.: yalnız KALE inşası 1847 (şehir kuruluşu değil; şehir kuruluşu/ilk anılış TDV'de bulunamadı), bu yüzden tarihsiz tanık + kale olayı. Tarih yıl düzeyinde; Rus Jülyen/Gregoryen farkı yılı değiştirmez (Ocak 1-12 kenar durumu dışında). Siriderya md. Rus dönemi Aral gölü donanması demirleme yerini Kazalinsk diye anar. Tek kaynak. Takvim: kaynak tarihi yıl/ay düzeyinde, Jülyen/Gregoryen dönüşümü yok; 1918 öncesi Rusya tarihlerinde yıl dışı gün teyidi yapılmadı. Gövde, madde sayfasından indirilen metinde aranarak okundu (özetleyici model kullanılmadı)."
  },
  {
   "id": "kizilarvat",
@@ -417,16 +391,16 @@ window.SEHIR_TARIHCE_IRAN_YAKINDOGU_1118 = [
   "sahip": [],
   "olay": [
    {
-    "t": "1877-05-12",
-    "gun": "12 Mayıs 1877",
+    "t": "1877-05-01",
+    "gun": "Mayıs 1877",
     "k": "savas",
     "b": "Rus ve Türkmen kuvvetleri arasındaki ilk ciddi muharebe Kızılarvat'ta oldu",
-    "kesinlik": "gun",
+    "kesinlik": "ay",
     "tanik": "12 Mayıs 1877’de Nur Verdi Han kumandasındaki Türkmen kuvvetleriyle Rus birlikleri arasında ilk ciddi muharebe Kızılarvat’ta meydana geldi.",
     "kaynak": "TDV İslâm Ansiklopedisi, «TÜRKMENİSTAN» md., https://islamansiklopedisi.org.tr/turkmenistan (madde sayfası tam metin olarak indirilip metin içinde aranarak okundu, 18 Kasım 2026)"
    }
   ],
-  "ic_not": "TDV Türkmenistan md.: 1877 baharında Rus harekâtı; Kızılarvat sınır kasabası, 12 Mayıs 1877'de Türkmen-Rus ilk ciddi muharebesi orada. Gün TDV'den, Jülyen/Gregoryen karşılığı doğrulanmadı (1582 sonrası Rusya Jülyen; takvim teyidi borç). Kuruluş tarihi bulunamadı. Gövde, madde sayfasından indirilen metinde aranarak okundu (özetleyici model kullanılmadı)."
+  "ic_not": "TDV Türkmenistan md.: 1877 baharında Rus harekâtı; kaynak '12 Mayıs 1877' der. Rusya 1877'de Jülyen kullandığından günün Jülyen mi Gregoryen mi olduğu TDV metninden anlaşılmıyor ve ikinci kaynakla doğrulanmadı; Jülyense Gregoryen karşılığı 24 Mayıs 1877 olur (+12). Yanlış güne kayma riskine karşı olay AY hassasiyetinde (1877-05) yazıldı; gün ve takvim teyidi borç. Kuruluş tarihi bulunamadı. Takvim: kaynak tarihi yıl/ay düzeyinde, Jülyen/Gregoryen dönüşümü yok; 1918 öncesi Rusya tarihlerinde yıl dışı gün teyidi yapılmadı. Gövde, madde sayfasından indirilen metinde aranarak okundu (özetleyici model kullanılmadı)."
  },
  {
   "id": "kizilorda",
@@ -695,7 +669,7 @@ window.SEHIR_TARIHCE_IRAN_YAKINDOGU_1118 = [
     "kaynak": "TDV İslâm Ansiklopedisi, «KIRGIZİSTAN» md., https://islamansiklopedisi.org.tr/kirgizistan (madde sayfası tam metin olarak indirilip metin içinde aranarak okundu, 18 Kasım 2026)"
    }
   ],
-  "ic_not": "TDV Kırgızistan md.: Oş yöresi ipekli dokumacılığı ile tarihî çağlardan beri ünlü (tarihsiz). 1885 isyanı olay olarak yazıldı; ilk anılış değildir, ilk anılış TDV'de bulunamadı. Gövde, madde sayfasından indirilen metinde aranarak okundu (özetleyici model kullanılmadı)."
+  "ic_not": "TDV Kırgızistan md.: Oş yöresi ipekli dokumacılığı ile tarihî çağlardan beri ünlü (tarihsiz). 1885 isyanı olay olarak yazıldı; ilk anılış değildir, ilk anılış TDV'de bulunamadı. Takvim: kaynak tarihi yıl/ay düzeyinde, Jülyen/Gregoryen dönüşümü yok; 1918 öncesi Rusya tarihlerinde yıl dışı gün teyidi yapılmadı. Gövde, madde sayfasından indirilen metinde aranarak okundu (özetleyici model kullanılmadı)."
  },
  {
   "id": "oskemen",
