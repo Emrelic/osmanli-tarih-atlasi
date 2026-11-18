@@ -502,6 +502,10 @@ window.CEVIRI_DIZIN = {
    [
     "ceviri_id_arayuz.js",
     "b3f89f62"
+   ],
+   [
+    "ceviri_id_devlet.js",
+    "883285cb"
    ]
   ]
  }
