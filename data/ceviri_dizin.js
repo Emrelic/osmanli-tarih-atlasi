@@ -27,6 +27,10 @@ window.CEVIRI_DIZIN = {
    "ad": "Русский"
   },
   {
+   "kod": "zh",
+   "ad": "中文"
+  },
+  {
    "kod": "pt",
    "ad": "Português"
   },
@@ -244,6 +248,12 @@ window.CEVIRI_DIZIN = {
    [
     "ceviri_de_olay_06.js",
     "7bf0f17a"
+   ]
+  ],
+  "zh": [
+   [
+    "ceviri_zh_arayuz.js",
+    "5f73233d"
    ]
   ]
  }
