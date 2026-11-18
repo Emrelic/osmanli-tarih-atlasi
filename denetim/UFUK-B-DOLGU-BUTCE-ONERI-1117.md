@@ -74,6 +74,36 @@ kuralı için bu ölçüm yetmez — **önce tam dünya kesitinde 5 gün/7 gün/
 **Seçenek 3 — bugünkü hâl (tek 10 gün).** Maliyet sıfır; ama 5/7 gün seçilince gövde ile dolgu bütçesi
 uyuşmaz (§3-3). Önerilmez.
 
+## 4b. KARAR (EMRELİC): bantla değişen dolgu — maliyet ölçümü, uygulanmadı (18 Kasım)
+
+Karar: dolgu 5/7/10 ayrı, r = gün × 40,32 / 2. Kod hazırlığı yapıldı: `arac/dolgu.py kosudan(..., ufuk_gun=)`
+(davranış değişmez; None ⇒ eski). Önbellek anahtarında `r_km` olduğu için üç yarıçap ayrı çalışır.
+`uret_petek.py` B dolgu bloğuna eklenecek döngü **dala UYGULANMADI** (aşağıdaki maliyet nedeniyle):
+
+```
+for _bg in (5, 7):      # 10 günlük = mevcut data/dolgu.js
+    _bn, _bb, _bc, _bs = _bdolgu.kosudan(_b_ar, KARA, os.path.join(KOK, "data", f"dolgu_{_bg}g.js"),
+        kesit_sinir=int(os.environ.get("MOTOR_DOLGU_KESIT", "0") or "0"), ufuk_gun=float(_bg))
+```
+
+Ölçüm: `arac/dolgu.py`, eski tam çıktı (`C:\atlas\data`, 2104 kesit / 4862 aralık), kesit 1500-01-01
+(252 gövde), ÖNBELLEKSİZ (`MOTOR_ONBELLEK_KAPALI=1`), tek kesit, bu makine:
+
+| yarıçap | kesit süresi | kapanış | çekişme | çıktı (1 kesit) |
+|---|---|---|---|---|
+| 10 gün (201,6 km) | 521,8 sn | 271 | 105 | (yazılmadı; ölçüm yarıda kesildi) |
+| 7 gün (141,1 km) | 397,7 sn | 228 | 86 | 703 KB (948 kayıt) |
+| 5 gün (100,8 km) | 353,7 sn | 207 | 79 | 592 KB (916 kayıt) |
+
+- Ek iki geçiş = (397,7 + 353,7) / 521,8 ≈ **+%144** (mevcut 10 günlük dolgunun süresine eklenir).
+- Tam inşa: `MOTOR_B_DOLGU` **varsayılan KAPALI** ⇒ 7-8 saatlik harita koşusuna etkisi şimdilik %0; dolgu açıksa
+  ek yük dolgunun kendi süresinin ≥%144'ü — tam inşanın +%10'unu (≈45 dk) çok aşar (tek soğuk kesit 6-9 dk).
+- Disk: kesit başına 0,6-0,7 MB (soğuk, birleştirmeden önce); tam dosya boyutu ölçülmedi. Yarıçap büyüdükçe
+  kayıt sayısı da artıyor (916 → 948 → ?).
+- Ölçülemedi: önbellekli (sıcak) tam koşu süresi ve disk MB'ı; tek kesitten ekstrapolasyon yalnız alt sınır.
+- **Koşu öncesi girmeli mi: HAYIR** (dolgu açılmadıkça koşuyu etkilemez, açılırsa +%144 dolgu süresi).
+  Koşudan sonra, HAVVA'da dolgu geçişi sırasında yapılabilir; `ufuk_gun` parametresi hazır.
+
 ## 5. Ölçülmeyen / sınırlar
 
 - İki kutu, her biri **tek gün**. Çok devletli tam dünya kesiti yok → mutlak km² değil oran/yön okunmalı.

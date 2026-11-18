@@ -6832,11 +6832,17 @@ def seyrelt(halka_hav, parca_hav, kayitlar, don_kose, tol, sayac=None):
         for q in r:
             # R1 — uretecle AYNI kuanta (don_kose_kur, yukarida).
             if (round(q[0], 6), round(q[1], 6)) in don_kose:
+                # 🔴 UFUK-BANT-1117 (seyrelt kök neden, Zeyyani 1281 −20.135 km²): koşu
+                #    [önceki_donmuş, a1..ak] — burada SON köşe (ak) eskiden `[:-1]` ile
+                #    SESSİZCE atılıyordu (DP yalnız ara köşeleri atar, uçları korur).
+                #    Donmuş köşeye bitişik her halka köşesi tolerans bakılmadan düşüyordu;
+                #    uzun kenarlı halkada (çöl/dikdörtgen blok) alan kaybı %5-30'a çıkıyor.
+                #    Sınav: kare, tek donmuş köşe → üçgen oluyordu (denetim/ARAC-UFUK-BANT-GOVDE-SINAV).
                 if len(run) > 2:
                     cs.extend([list(x) for x in
-                               _LS(run).simplify(tol, preserve_topology=koru).coords][:-1])
+                               _LS(run).simplify(tol, preserve_topology=koru).coords])
                 elif run:
-                    cs.extend(run[:-1])
+                    cs.extend(run)
                 run = []
                 cs.append(q)
             else:
