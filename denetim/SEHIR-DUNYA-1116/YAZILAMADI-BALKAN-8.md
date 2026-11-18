@@ -30,3 +30,13 @@ Yöntem/kaynak: TDV (curl; arama sayfası curl ile çalışıyor ama 429 hız s�
 - Huși: ER 'Istorie' cümlesi ("Prima atestare documentară a Huşiului datează din 1441") alındı.
 - Atlas başlangıcından (1281-01-01) SONRA ilk.t çıkan 5 şehir (atlas başlangıcı düzeltilmeli uyarısı): Dorohoi 1407-10-06, Karditsa 1570, Mesolongi 1642, Râmnicu Sărat 1439-09-08, Turnu Măgurele 1387.
 - Larisa/Karpenisi/Kozani/Čačak/Montana/Murska Sobota tarihsiz tanık olarak yazıldı (sahip:[]).
+
+
+## KASA 17 karari (18 Kasim 2026): wiki-tabanli tek kaynak, dalindan cikarildi
+
+Caracal, Dorohoi (ilk 1407-10-06), Falticeni, Ramnicu Sarat (1439-09-08), Miercurea Ciuc, Turnu Magurele (1387): tek dayanak Enciclopedia Romaniei 'Atestare' kutusu (wiki tabanli; CLAUDE.md: Vikipedi tek dayanak olamaz). Tek kaynak wiki, akademik kaynak aranacak (Romen tarih dergileri, Istoria Romaniei, DergiPark, TIB). Karditsa 1570 ve Mesolongi 1642 atlas-baslangic adaylari ayri degerlendirilir.
+
+
+## KASA 17 karari (18 Kasim 2026): wiki-tabanli tek kaynak, dalindan cikarildi
+
+Husi (ayni kaynakin Istorie cumlesi), Caracal, Dorohoi (ilk 1407-10-06), Falticeni, Ramnicu Sarat (1439-09-08), Miercurea Ciuc, Turnu Magurele (1387): tek dayanak Enciclopedia Romaniei 'Atestare' kutusu (wiki tabanli; CLAUDE.md: Vikipedi tek dayanak olamaz). Tek kaynak wiki, akademik kaynak aranacak (Romen tarih dergileri, Istoria Romaniei, DergiPark, TIB). Karditsa 1570 ve Mesolongi 1642 atlas-baslangic adaylari ayri degerlendirilir.
