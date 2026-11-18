@@ -1,0 +1,864 @@
+{
+ "aciklama": "ASIRET-DEVLETSIZ-DERLEME-1118 alt ajan çıktısı (sonnet, web araması). okundu:false olan tanıklık DAYANAK DEĞİLDİR; aday listesidir.",
+ "kayitlar": [
+  {
+   "ad": "Tamanrasset",
+   "topluluk": "Kel Ahaggar (Ahaggar Tuareg konfederasyonu)",
+   "konfederasyon": true,
+   "bilesenler": "bulunamadı (kaynakta okunmadı; asil Kel Ghela + haraçgüzar İmrad/Dağ Tuaregleri yapısı Encyclopaedia of Islam 'Ahaggar' maddesinde aranmalı)",
+   "bolge": "Ahaggar (Hoggar) yaylası, Orta Sahra",
+   "tanikliklar": [
+    {
+     "yil": 1902,
+     "ne": "Tit Muharebesi, Fransızlar Hoggar'a girer, Kel Ahaggar Fransız egemenliğini kabul eder (yalnız ikincil/vikipedi türevi sonuçlarda; akademik kaynak okunmadı)",
+     "kaynak": "akademik kaynak okunmadı; aday: Encyclopaedia of Islam (2nd ed.) 'Ahaggar'/'Tuareg'; Keenan, The Tuareg: People of Ahaggar",
+     "okundu": false
+    }
+   ],
+   "sonuc": "bulunamadi",
+   "aciklama": "Atlas notundaki 'yaklaşık 1750'den itibaren teşkilatlı' iddiasını akademik kaynakla doğrulayamadım; yalnız Vikipedi türevleri 1750 diyor (kullanılamaz, bir kaynak 200'lü yıllar da diyor: çelişki). Tek tutarlı ucu 1902 (Fransız fethi), bu da ikincil kaynakta. Önerilen aday kaynaklar: Keenan 1977, Lhote, EI2 'Ahaggar'. Okunmadı."
+  },
+  {
+   "ad": "Tibesti",
+   "topluluk": "Tubu (Teda) / Derde yönetimi",
+   "konfederasyon": false,
+   "bilesenler": "",
+   "bolge": "Tibesti dağları, kuzey Çad / güney Libya",
+   "tanikliklar": [
+    {
+     "yil": 1907,
+     "ne": "Derde, Fransız baskınlarına karşı Osmanlılardan yardım ister; Osmanlı Tibesti'de birkaç garnizon kurar, 1911-12'de Libya'nın İtalya'ya bırakılmasıyla çekilir (Vikipedi 'Derde' maddesi üzerinden; birincil akademik metin okunmadı)",
+     "kaynak": "aday: Zaborski, 'Tubu', Encyclopaedia of Islam; Journal of African History 'The Libyan Connection: Settlement, War and Other Entanglements in Northern Chad' (Cambridge, 2015) - içeriği okunmadı",
+     "okundu": false
+    }
+   ],
+   "sonuc": "bulunamadi",
+   "aciklama": "UYARI: atlas gerekçesi 'Osmanlı Trablusgarp hiç ulaşmadı' diyor; arama sonuçları Osmanlı'nın 1560 temasından ve 1907-1912 Tibesti garnizonlarından söz ediyor (ikincil, doğrulanmadı). Bu nedenle 'devlet denetimi dışında' ifadesi 1907-1912 için çelişkili olabilir. Akademik tanıklık yılı kesinleştirilemedi."
+  },
+  {
+   "ad": "Hoggar",
+   "topluluk": "Kel Ahaggar (Ahaggar Tuareg konfederasyonu)",
+   "konfederasyon": true,
+   "bilesenler": "bulunamadı (okunmadı)",
+   "bolge": "Ahaggar yaylası",
+   "tanikliklar": [
+    {
+     "yil": 1902,
+     "ne": "Tit Muharebesi ve Fransız egemenliği (ikincil kaynaklarda; akademik doğrulama yok)",
+     "kaynak": "aday: Keenan, The Tuareg: People of Ahaggar; EI2 'Ahaggar'",
+     "okundu": false
+    }
+   ],
+   "sonuc": "bulunamadi",
+   "aciklama": "Tamanrasset ile aynı araştırma; 1750 ve 1902 yılları yalnız Vikipedi türevlerinde göründü, akademik kaynak okunmadı."
+  },
+  {
+   "ad": "Karakum",
+   "topluluk": "Türkmen boyları (Teke, Yomut, Salur, Ersarı, Çavdur)",
+   "konfederasyon": false,
+   "bilesenler": "kayıtta sayılan boylar; kaynak yeniden okunmadı",
+   "bolge": "Karakum çölü kenarları (Ahal, Merv, Balhan, Mangışlak)",
+   "tanikliklar": [
+    {
+     "yil": 1511,
+     "ne": "Arabşâhîler 917/1511 sonrası Hârizm'in batı ve güneyindeki Türkmenleri bağımlı kılar",
+     "kaynak": "EIr ʿARABŠĀHĪ (Bregel, EIr II/3, 1986, s.243-245), kayıtta zaten var; yeniden okunmadı",
+     "okundu": false
+    },
+    {
+     "yil": 1860,
+     "ne": "1860-1884 Türkmenler müstakil yaşadı",
+     "kaynak": "TDV 'Türkmenistan', kayıtta zaten var; yeniden okunmadı",
+     "okundu": false
+    },
+    {
+     "yil": 1884,
+     "ne": "Merv'in Rus işgali, Teke direnişi biter (ikincil kaynaklar: Teke 1884'te Merv'de teslim; Hîve 1870'lerde Ahal-Teke/Merv üzerinde iddia kurdu, Tomsk Üniv. dergisi)",
+     "kaynak": "journals.tsu.ru (Vestnik TSU); akademik teyit okunmadı",
+     "okundu": false
+    }
+   ],
+   "sonuc": "yalniz-yuzyil",
+   "aciklama": "Kaynağın verdiği yıl ucu: 1511 (Hîve tâbiliği başlangıcı), 1860-1884 müstakillik, 1884 Rus fethi. Çölün içine adıyla yıl veren cümle bulunamadı. Önerilen pencere yalnız 1860-1884 için güvenli: 1835-1934 değil, kaynak yılı 1860/1884 → pencere 1835-1934 olur; yine de 1884 sonrası Rus denetimi var, pencere 1884'te kesilmeli (yorum)."
+  },
+  {
+   "ad": "Somali çölü",
+   "topluluk": "Somali klanları (Darod, Hawiye vb.)",
+   "konfederasyon": false,
+   "bilesenler": "",
+   "bolge": "Somali iç platosu (Haud ve çevresi)",
+   "tanikliklar": [],
+   "sonuc": "bulunamadi",
+   "aciklama": "Yıl veren akademik cümle bulunamadı. Aday: I.M. Lewis, A Modern History of Somalia; Lewis, A Pastoral Democracy (1961). Okunmadı."
+  },
+  {
+   "ad": "Ogaden",
+   "topluluk": "Ogaden klanı (Darod) ve Somali klanları",
+   "konfederasyon": false,
+   "bilesenler": "",
+   "bolge": "Ogaden, doğu Etiyopya",
+   "tanikliklar": [
+    {
+     "yil": 1887,
+     "ne": "Menelik Harar'ı alır; Ogaden'e Etiyopya baskınları 1890-1900 arasında sürer; Ras Makonnen ordusu 1890'da Imi yakınında yenilir (Vikipedi türevi; akademik kaynak okunmadı)",
+     "kaynak": "aday: Lewis, A Modern History of Somalia; Marcus, The Life and Times of Menelik II; okunmadı",
+     "okundu": false
+    }
+   ],
+   "sonuc": "bulunamadi",
+   "aciklama": "1880'lerin sonuna kadar Etiyopya denetimi olmadığı ikincil kaynaklarda geçiyor; yıl hakemli kaynakta doğrulanamadı. Atlas gerekçesindeki 1915 Lij Iyasu iddiası ve HRW 2008 kaynağı akademik değildir."
+  },
+  {
+   "ad": "Uzboy",
+   "topluluk": "Türkmen boyları (Yomut, Ersarı, Teke vb.)",
+   "konfederasyon": false,
+   "bilesenler": "",
+   "bolge": "Uzboy kuru nehir yatağı, Hazar-Hârizm arası",
+   "tanikliklar": [],
+   "sonuc": "bulunamadi",
+   "aciklama": "Uzboy adıyla yıl veren kaynak bulunamadı. Karakum kaydındaki Türkmen kaynakları (EIr Arabşâhî, EIr Khiva, TDV Türkmenler) coğrafî çıkarımla kullanılabilir ama adı geçmez."
+  },
+  {
+   "ad": "Üstyurt platosu (batı)",
+   "topluluk": "Türkmen boyları (ve 19. yy'da Kazak/Karakalpak göçerleri)",
+   "konfederasyon": false,
+   "bilesenler": "",
+   "bolge": "Üstyurt platosu, Hârizm'in batısı",
+   "tanikliklar": [
+    {
+     "yil": 1511,
+     "ne": "Arabşâhîler 917/1511 sonrası Hârizm'in batı ve güneyindeki Türkmenleri bağımlı kılar (Üstyurt adı geçmez)",
+     "kaynak": "EIr ʿARABŠĀHĪ (Bregel, 1986, s.243-245), kayıtta var; yeniden okunmadı",
+     "okundu": false
+    }
+   ],
+   "sonuc": "bulunamadi",
+   "aciklama": "Üstyurt adıyla tanıklık bulunamadı; kayıttaki mevcut kaynaklar adı taşımıyor (D208 uyarısı geçerli)."
+  },
+  {
+   "ad": "Üstyurt platosu (doğu)",
+   "topluluk": "Türkmen boyları",
+   "konfederasyon": false,
+   "bilesenler": "",
+   "bolge": "Üstyurt doğusu",
+   "tanikliklar": [],
+   "sonuc": "bulunamadi",
+   "aciklama": "Batı Üstyurt ile aynı; adıyla tanıklık yok."
+  },
+  {
+   "ad": "Vâdî Sirhân",
+   "topluluk": "Anaze konfederasyonu (Ruvale, Veld Ali); Sirhan aşireti",
+   "konfederasyon": true,
+   "bilesenler": "Anaze: Veld Ali (kuzey), Ruvale (Suriye çölü), Beşir (yarımada) (Cambridge bölümü, Anaze'nin bileşenleri olarak anıldığı belirtiliyor, kitap künyesi doğrulanamadı)",
+   "bolge": "Vâdî Sirhân, Cevf'ten Suriye Çölü'ne",
+   "tanikliklar": [
+    {
+     "yil": 1850,
+     "ne": "19. yy'ın çoğunda Osmanlı'nın Selt güneyi ve yarımadanın çoğu üzerinde denetimi yoktu; çöl Anaze kabilelerince domine edilirdi (yıl verilmemiş, 'çoğu 19. yy')",
+     "kaynak": "Cambridge book part CBO9781844657827A014 (künyesi okunmadı)",
+     "okundu": false
+    },
+    {
+     "yil": 1910,
+     "ne": "Ruvale Osmanlı otoritesine 1910 seferinden sonra bir miktar saygı gösterir (Handbook of Arabia I, 1917, qdl.qa)",
+     "kaynak": "Handbook of Arabia Vol. I (1917), qdl.qa/archive/81055/vdc_100037114037",
+     "okundu": false
+    }
+   ],
+   "sonuc": "yalniz-yuzyil",
+   "aciklama": "Yalnız '19. yy' düzeyinde. Tek yıl: 1910 Osmanlı seferi sonrası kısmi saygı. Aday: Lorimer Gazetteer, Musil 'The Manners and Customs of the Rwala Bedouins' (1928); doğrudan okunmadı."
+  },
+  {
+   "ad": "Hamâd (Bâdiyetü'ş-Şâm içi)",
+   "topluluk": "Anaze (Ruvale), Şammar",
+   "konfederasyon": true,
+   "bilesenler": "Anaze alt kolları (yukarıya bakın)",
+   "bolge": "Suriye Çölü iç kısmı",
+   "tanikliklar": [],
+   "sonuc": "bulunamadi",
+   "aciklama": "Hamâd adıyla yıllı tanıklık bulunamadı. Sirhân kaydındaki Anaze kaynakları genel çerçeve verir."
+  },
+  {
+   "ad": "Widyân (el-Widyân)",
+   "topluluk": "Anaze/Şammar (kayıtta) ",
+   "konfederasyon": false,
+   "bilesenler": "",
+   "bolge": "Necef güneybatısı çöl",
+   "tanikliklar": [],
+   "sonuc": "bulunamadi",
+   "aciklama": "Mevcut kaynak USGS petrol jeolojisi bülteni: aşiret tanıklığı DEĞİL, coğrafî tarif. Aşiret kanıtı için aday: Lorimer Gazetteer, Handbook of Mesopotamia (1918, qdl.qa). Okunmadı."
+  },
+  {
+   "ad": "Nuhayb (Nukhayb)",
+   "topluluk": "Şammar / Anaze",
+   "konfederasyon": false,
+   "bilesenler": "",
+   "bolge": "Irak batı çölü, Darb Zübeyde üzerinde",
+   "tanikliklar": [],
+   "sonuc": "bulunamadi",
+   "aciklama": "Osmanlı dönemine özgü doğrudan akademik kaynak bulunamadı (kayıttaki beyan doğru). Aday: Handbook of Mesopotamia (1918), Lorimer."
+  },
+  {
+   "ad": "Kufra (el-Cûf)",
+   "topluluk": "Sünûsî tarikatı; Zuvaye ve Tubu aşiretleri",
+   "konfederasyon": false,
+   "bilesenler": "",
+   "bolge": "Kufra vahaları, güneydoğu Libya",
+   "tanikliklar": [
+    {
+     "yil": 1895,
+     "ne": "Muhammed el-Mehdî es-Sünûsî merkezini Cağbûb'dan Kufra'ya taşır (1894 diyen kaynak da var; çelişki)",
+     "kaynak": "ikincil: countrystudies.us (LoC Libya Country Study), fanack.com; akademik kaynak aday: Evans-Pritchard, The Sanusi of Cyrenaica (1949); okunmadı",
+     "okundu": false
+    },
+    {
+     "yil": 1856,
+     "ne": "Cağbûb Sünûsî merkezi (1855 diyen kaynak da var)",
+     "kaynak": "ikincil; aynı",
+     "okundu": false
+    }
+   ],
+   "sonuc": "bulunamadi",
+   "aciklama": "1894/1895 Kufra'ya taşınma ikincil kaynaklarda tutarlı; hakemli kaynakla okunamadı (EI2 'Sanūsiyya', TDV 'Senûsîler' denenmeli). Kayıttaki '19. yy ortası' iddiası Cağbûb'a uyar, Kufra'ya değil: Kufra için ilk tanıklık yılı 1895 görünüyor."
+  },
+  {
+   "ad": "Oraibi (Hopi, Üçüncü Mesa)",
+   "topluluk": "Hopi (Hopisinom)",
+   "konfederasyon": false,
+   "bilesenler": "",
+   "bolge": "Kuzey Arizona, Hopi mesaları",
+   "tanikliklar": [
+    {
+     "yil": 1680,
+     "ne": "Pueblo İsyanı; İspanyollar Rio Grande'ye 1692'de döner ama Hopi ülkesinde kalıcı mevcudiyet kuramaz",
+     "kaynak": "encyclopedia.com Hopi girdileri (Handbook-türevi ikincil); akademik kaynak okunmadı",
+     "okundu": false
+    },
+    {
+     "yil": 1700,
+     "ne": "Awatovi, Walpi ve Oraibi şeflerince yıkılır (1700/1701 kaynaklara göre değişir); İspanyol misyonculuğu biter, Awatovi hiç iskân edilmez",
+     "kaynak": "encyclopedia.com, sah-archipedia.org; ehillerman.unm.edu; akademik: Brew (1949) Awatovi, Weber (1992) Spanish Frontier - okunmadı",
+     "okundu": false
+    }
+   ],
+   "sonuc": "tarihlendi",
+   "aciklama": "Yıl uçları 1680 ve 1700/1701 (ikincil, çelişki: 1700 vs 1701). Weber 1992'nin '1821'e kadar bağımsız' cümlesini doğrulayamadım (okunmadı). Akademik kaynakla teyit önerilir (Handbook of North American Indians vol.9 Southwest, Hopi bölümü)."
+  },
+  {
+   "ad": "Yeni Gine İç Yaylaları (Merkez — Mount Hagen)",
+   "topluluk": "Hagen çevresi yayla halkları (Melpa, Kuman vb.)",
+   "konfederasyon": false,
+   "bilesenler": "",
+   "bolge": "Batı Yayla, Papua Yeni Gine",
+   "tanikliklar": [],
+   "sonuc": "bulunamadi",
+   "aciklama": "Aramada Hagen ilk temas yılı (1933, Leahy kardeşler) çıkmadı; bu yıl bilgi olarak biliniyor ama okunmuş kaynağa dayanmıyor. Aday: Strathern, Ongka/Melpa çalışmaları; Connolly & Anderson, First Contact (1987); Radford/ANU Press. Okunmadı."
+  },
+  {
+   "ad": "Yeni Gine İç Yaylaları (Batı — Baliem Vadisi)",
+   "topluluk": "Dani (Lani)",
+   "konfederasyon": false,
+   "bilesenler": "",
+   "bolge": "Baliem Vadisi, Papua Dağlık",
+   "tanikliklar": [
+    {
+     "yil": 1938,
+     "ne": "Archbold seferi vadiyi havadan keşfeder (21 veya 23 Haziran 1938 kaynağa göre), Ağustos 1938'de kara ekipleri girer",
+     "kaynak": "ikincil: Archbold Expeditions özetleri (vikipedi türevi); akademik aday: Archbold, Rand & Brass 1942 Bull. AMNH 79; Heider, The Dani of West Irian",
+     "okundu": false
+    }
+   ],
+   "sonuc": "bulunamadi",
+   "aciklama": "Yalnız 1938 ilk temas yılı; 'devletsiz' tanıklığı için sömürge öncesi dönemde temas olmadığı yıl bilinmediği için pencere anlamlı değil. Akademik okunmadı."
+  },
+  {
+   "ad": "Yeni Gine İç Kesimi (Kuzey — Sepik Havzası)",
+   "topluluk": "Sepik halkları (Iatmul, Abelam vb.)",
+   "konfederasyon": false,
+   "bilesenler": "",
+   "bolge": "Sepik havzası",
+   "tanikliklar": [],
+   "sonuc": "bulunamadi",
+   "aciklama": "Aramada Sepik'e ait kaynak çıkmadı. Aday: Bateson, Naven (1936), Whitehouse/Gewertz. Okunmadı."
+  },
+  {
+   "ad": "Yeni Gine İç Kesimi (Güney — Fly Nehri Bataklıkları)",
+   "topluluk": "Fly nehri halkları (Kiwai, Marind-anim, Kiwai vb.)",
+   "konfederasyon": false,
+   "bilesenler": "",
+   "bolge": "Fly nehri bataklıkları",
+   "tanikliklar": [
+    {
+     "yil": 1936,
+     "ne": "Archbold 2. seferi 1936-37'de Daru, Fly ve Palmer nehirlerinde çalışır (keşif tarihi, devletsizlik tanıklığı değil)",
+     "kaynak": "ikincil; Archbold özetleri",
+     "okundu": false
+    }
+   ],
+   "sonuc": "bulunamadi",
+   "aciklama": "Devletsizliği yıllı tanıklayan akademik kaynak bulunamadı."
+  },
+  {
+   "ad": "Yakut toprakları (Orta Lena)",
+   "topluluk": "Yakutlar (Saha), uruglar; en kuvvetlisi Namaslar",
+   "konfederasyon": false,
+   "bilesenler": "uruğlar/'con'lar, her birinin başında toyon; tümünün başında 'ulu toyon' (TDV)",
+   "bolge": "Lena havzası, Orta Lena",
+   "tanikliklar": [
+    {
+     "yil": 1632,
+     "ne": "25 Eylül 1632'de Ruslar Orta Lena'da Lena Kalesi'ni kurar; 'hemen hemen bütün Lena havzası boyunca yarı uruğlar halinde yaşıyordu', her uruğun kendi toyonu var, hepsinin başında ulu toyon, en kuvvetli uruğ Namaslar (kaynakta 1620 tarihi geçmez)",
+     "kaynak": "TDV İslâm Ansiklopedisi 'Yakutlar' (islamansiklopedisi.org.tr/yakutlar), bu oturumda okundu",
+     "okundu": true
+    }
+   ],
+   "sonuc": "tarihlendi",
+   "aciklama": "Kaynağın verdiği tek yıl 1632. Önerilen pencere 1607-1682 (−25/+50). Uyarı: 1632 sonrası Rus kalesi var; 'Rus öncesi' durumun yılı ise XIII. yy göçü genel ifadesidir, yıl yok. TDV'nin kendi içinde 1620'ye atıf yok."
+  },
+  {
+   "ad": "Anadır (Anadyrsk)",
+   "topluluk": "Çukçiler (Luoravetlan), Koryaklar",
+   "konfederasyon": false,
+   "bilesenler": "",
+   "bolge": "Anadır havzası, Çukotka",
+   "tanikliklar": [
+    {
+     "yil": 1649,
+     "ne": "Anadyrsk kalesi/kışlağı kurulur (Dejnev'in kışlağı, ikincil kaynaklarda)",
+     "kaynak": "ikincil ansiklopedik girdiler (Vikipedi türevi); akademik: Forsyth, A History of the Peoples of Siberia (1992) - okunmadı",
+     "okundu": false
+    },
+    {
+     "yil": 1764,
+     "ne": "II. Katerina hükümeti Anadyrsk'ın terkini emreder; Çukçilerden haraç alınması kârlı değildi",
+     "kaynak": "aynı ikincil kaynaklar",
+     "okundu": false
+    }
+   ],
+   "sonuc": "bulunamadi",
+   "aciklama": "UYARI: 'haraç hiç ödenmedi' ifadesi kaynaklarda daha zayıf ('yasak reddedildi, Pavlutsky seferlerine rağmen boyun eğmediler'); 1822 yasasında Çukçiler 'yarı bağımsız' sayıldı. Akademik doğrulama için Forsyth 1992, Vakhtin ve Bogoraz çalışmaları denenmeli. Okunmadı."
+  },
+  {
+   "ad": "Yap",
+   "topluluk": "Yapese (Gagil-Tamil-Rull köy ittifakları, sawei haraç ağı)",
+   "konfederasyon": false,
+   "bilesenler": "Gagil, Tamil, Rull ittifak ağı; sawei: dış adalar haraç ağı (Gagil bölgesinde Gatchapar ve Wanyan köyleri)",
+   "bolge": "Yap adaları ve dış atollar",
+   "tanikliklar": [
+    {
+     "yil": 1100,
+     "ne": "sawei ağının '12. yy'a kadar uzandığı' (Berg, Journal of Pacific History, 1992; 950 diyen Vikipedi iddiası çelişir)",
+     "kaynak": "Berg 1992 JPH; ikincil özet, okunmadı; aday: Lingenfelter, Yap: Political Leadership and Culture Change in an Island Society (1975); ANU Press 'Political Relationship Between Yap and the Outer Islands' (press-files.anu.edu.au)",
+     "okundu": false
+    }
+   ],
+   "sonuc": "yalniz-yuzyil",
+   "aciklama": "Sawei ağı '12. yy' (yıl değil, yüzyıl); Almanlar 1899 yılından itibaren Yap'ı denetledi (bilgi, kaynak okunmadı). Pencere için akademik yıl tanıklığı yok."
+  },
+  {
+   "ad": "Bau (Fiji Konfederasyonları)",
+   "topluluk": "Kubuna (Bau) / Burebasaga (Rewa) / Tovata konfederasyonları",
+   "konfederasyon": true,
+   "bilesenler": "Kubuna=Bau çevresi; Burebasaga=Rewa çevresi (Tanoa Visawaqa'nın fethettiği); Tovata=1867'de Cakaudrove/Lau/Bua çevresi şeflerince kurulan (Fiji Times'a göre Levuka 1865 konfederasyonuna güvenmeyenlerce)",
+   "bolge": "Doğu Fiji / Viti Levu doğusu (Bau adası, Rewa deltası), Vanua Levu, Lau",
+   "tanikliklar": [
+    {
+     "yil": 1843,
+     "ne": "Bau (Vunivalu Cakobau) ile Rewa arasında 1843-1855 savaşı başlar; Tonga donanması (Taufa'ahau, Ma'afu) Bau'yu kurtarır",
+     "kaynak": "Museum of Archaeology and Anthropology Cambridge, 'Fiji Chiefdoms' https://maa.cam.ac.uk/fiji-chiefdoms",
+     "okundu": true
+    },
+    {
+     "yil": 1865,
+     "ne": "Viti Konfederasyonu (Bau, Bua, Cakaudrove, Lakeba, Macuata, Naduri) Cakobau başkanlığında kurulur",
+     "kaynak": "Fiji Times 'The lead-up to cession' https://www.fijitimes.com.fj/?p=883889 (gazete; ikincil, yalnız arama özetinden)",
+     "okundu": false
+    },
+    {
+     "yil": 1867,
+     "ne": "Tovata konfederasyonu kurulur; 1865 birliği Bau Krallığı ve Lau Konfederasyonu'na bölünür",
+     "kaynak": "Fiji Times (aynı) — akademik teyit gerekir (Derrick, A History of Fiji, 1946; Routledge, Matanitu, USP 1985 okunmadı)",
+     "okundu": false
+    },
+    {
+     "yil": 1871,
+     "ne": "Cakobau Tui Viti unvanını alır (kaynaklar 1871 diyor)",
+     "kaynak": "MAA Cambridge (okundu) + Fiji Times",
+     "okundu": true
+    },
+    {
+     "yil": 1874,
+     "ne": "Cession Deed 10 Ekim 1874: İngiliz ilhakı, devletsiz dönem biter",
+     "kaynak": "Fiji Times 'Signing of the Deed of Cession' https://www.fijitimes.com.fj/?p=887802",
+     "okundu": false
+    }
+   ],
+   "sonuc": "tarihlendi",
+   "aciklama": "Kayıttaki iddia (1874'e dek üç konfederasyon, merkezî tek devlet yok) genel olarak doğrulanıyor ama 1867-1871'de Cakobau 'Bau Krallığı/Tui Viti' kurdu: bu ayrı bir devlet kaydı (Kingdom of Fiji) olarak ele alınmalı, aşiret/devletsiz sayılması 1867-1874'te tartışmalı. Pencere: ilk güvenilir yıl 1843 -> 1818..; son tanıklık 1874 (+50 => atlas bunu 1874'te kesmeli, çünkü ilhak sürüyor). Akademik birincil (Derrick, Routledge, Scarr 'Fragments of Empire' 1967) OKUNMADI; yukarıdaki tanıklıkların çoğu gazete/müze sayfası."
+  },
+  {
+   "ad": "Yeni Gine Merkezî Yaylaları",
+   "topluluk": "Ekari (Mee) / Paniai-Wissel Gölleri halkları; Kapauku",
+   "konfederasyon": false,
+   "bilesenler": "",
+   "bolge": "Paniai-Wissel Gölleri çevresi (lat -3.5, lon 135.5 civarı)",
+   "tanikliklar": [
+    {
+     "yil": 1936,
+     "ne": "Wissel Gölleri bir pilot tarafından havadan keşfedildi (dış dünyanın ilk bilgisi)",
+     "kaynak": "Dani/Baliem makalelerinin Wissel notu (arama özeti, Vikipedi-aynası) — Pospisil, The Kapauku Papuans (1958) ve Hollanda Yeni Gine Sefer Raporları okunmadı",
+     "okundu": false
+    },
+    {
+     "yil": 1938,
+     "ne": "Archbold seferi 21/23 Haziran 1938'de Baliem 'Grand Valley'i keşfeder; yaylalar yoğun nüfuslu, devlet denetimi dışı",
+     "kaynak": "Richard Archbold sefer raporları (arama özeti) — Archbold & Rand, Results of the Archbold Expeditions No.41 (1942), okunmadı",
+     "okundu": false
+    },
+    {
+     "yil": 1930,
+     "ne": "Doğu yaylalarında Leahy/Dwyer yürüyüşü, 1933'te Wahgi vadisi: yaylaların nüfuslu olduğu ilk kez anlaşıldı (PNG tarafı)",
+     "kaynak": "Connolly & Anderson, First Contact (1987) / NFSA sayfası https://www.nfsa.gov.au/collection/curated/first-contact-guns-and-pigs",
+     "okundu": false
+    }
+   ],
+   "sonuc": "bulunamadi",
+   "aciklama": "Bu iç kesim için noktaya özgü akademik tanıklık bulunamadı. Hollanda tarafında ilk bilinen temas yılı 1936-1938 (Wissel/Baliem). Bu bir 'tanıklık' değil, 'devlet denetimi 1938'e dek yok' üst sınırıdır. 1938 öncesi için önerilen kaynak: Hollanda Yeni Gine Bestuursmemories; Pospisil 1958; Ballard (ANU) Papua tarihi. Aynı bulgu Merkezî Yaylalar 2/3/4/5 için de geçerli."
+  },
+  {
+   "ad": "Yeni Gine Merkezî Yaylaları 2",
+   "topluluk": "Yukarı Fly / Star Dağları çevresi Ok-Min halkları (olasılık; kaynaksız)",
+   "konfederasyon": false,
+   "bilesenler": "",
+   "bolge": "Fly nehri üst havzası / Star Dağları",
+   "tanikliklar": [
+    {
+     "yil": 1938,
+     "ne": "Hollanda Yeni Gine yaylalarına ilk havadan/yer keşfi 1936-1938; Star Dağları'nda yer teması çok daha geç",
+     "kaynak": "Merkezî Yaylaları 1 ile aynı (okunmadı)",
+     "okundu": false
+    }
+   ],
+   "sonuc": "bulunamadi",
+   "aciklama": "Merkezî Yaylalar 1'le aynı: noktaya özgü kaynak yok. Star Dağları Ok halklarıyla temas 1950'ler (Hollanda 1959 seferi) — bu bilgi okunmadı, doğrulanmalı."
+  },
+  {
+   "ad": "Louisiade-Milne takımadası",
+   "topluluk": "Misima, Sudest (Tagula), Rossel adaları Austronezyen toplulukları (klan/köy temelli)",
+   "konfederasyon": false,
+   "bilesenler": "",
+   "bolge": "Louisiade Takımadası, Milne Bay",
+   "tanikliklar": [
+    {
+     "yil": 1888,
+     "ne": "4 Eylül 1888'de British New Guinea resmen ilhak edilir; 1888 sonunda Misima'da altın bulunur, MacGregor Louisiade Goldfield'ı ilan eder",
+     "kaynak": "Misima Island (Vikipedi aynası) ve ANU Press kronolojisi https://press-files.anu.edu.au/downloads/press/p347033/html/chronology.xhtml?page=8 — yalnız arama özeti",
+     "okundu": false
+    }
+   ],
+   "sonuc": "bulunamadi",
+   "aciklama": "Torres (1606) ve D'Entrecasteaux (1793) ziyaretleri bu aramada doğrulanamadı. 1888 devletsizliğin biteceği tarihtir, tanıklık yılı değil. Önerilen: Battaglia/Damon (Kula), Macintyre; Lepowsky; Nelson, 'Black, White and Gold' (ANU Press 1976)."
+  },
+  {
+   "ad": "Yeni Kaledonya iç kesimi",
+   "topluluk": "Kanak şefliği toplulukları (grande chefferie / petite chefferie)",
+   "konfederasyon": false,
+   "bilesenler": "",
+   "bolge": "Grande Terre iç kesimi",
+   "tanikliklar": [
+    {
+     "yil": 1774,
+     "ne": "Cook 4 Eylül 1774'te adayı görür; Melanezya nüfusu kaydedilir",
+     "kaynak": "Herodote.net https://www.herodote.net/24_septembre_1853-evenement-18530924.php (popüler site; zayıf)",
+     "okundu": false
+    },
+    {
+     "yil": 1853,
+     "ne": "24 Eylül 1853 Fransa ilhakı (Despointes)",
+     "kaynak": "aynı + Vikipedi '1878 Kanak revolt' (kullanılmaz)",
+     "okundu": false
+    },
+    {
+     "yil": 1878,
+     "ne": "Ataï İsyanı: Kanaklar rezervlere sürülür, isyan Eylül 1878'de bastırılır — iç kesim fiilen o zamana dek Kanak denetiminde",
+     "kaynak": "Asia Pacific Report https://asiapacificreport.nz/?p=33482 (gazete; zayıf)",
+     "okundu": false
+    }
+   ],
+   "sonuc": "bulunamadi",
+   "aciklama": "Yalnız zayıf kaynaklardan 1853 ilhak / 1878 isyan yılları görüldü; akademik tanıklık okunmadı. Önerilen: Saussol, L'héritage: essai sur le problème foncier mélanésien en Nouvelle-Calédonie (Société des Océanistes 1979); Dauphiné, Les Kanak/Ataï; Connell. 1853 sonrası kıyı Fransız, iç kesim 1878'e dek fiilen şeflikli; atlasın pencere mantığı için 1774 -25 / 1878 +50 gibi pencere önerilemez, kaynak gerek."
+  },
+  {
+   "ad": "Aru-Tanimbar adaları",
+   "topluluk": "Tanimbar (Yamdena) toplulukları: köy/klan; Tanimbar-Kei kültür alanı",
+   "konfederasyon": false,
+   "bilesenler": "",
+   "bolge": "Tanimbar adaları (lat -7.5, lon 131.5: Yamdena/Selaru)",
+   "tanikliklar": [
+    {
+     "yil": 1629,
+     "ne": "Hollandalılar Tanimbar'ı ziyaret eder",
+     "kaynak": "Britannica 'Tanimbar Islands' https://britannica.com/EBchecked/topic/582566/Tanimbar-Islands (ikincil; arama özeti)",
+     "okundu": false
+    },
+    {
+     "yil": 1639,
+     "ne": "Hollanda iddiası (kâğıt üzerinde)",
+     "kaynak": "aynı",
+     "okundu": false
+    },
+    {
+     "yil": 1900,
+     "ne": "Hollanda yönetimi adalarda fiilen 1900'de kurulur",
+     "kaynak": "aynı",
+     "okundu": false
+    }
+   ],
+   "sonuc": "bulunamadi",
+   "aciklama": "Britannica tek başına yeterli değil; akademik teyit yok. 1639-1900 arası 'iddia var, yönetim yok' görünüyor. Önerilen: Drabbe, Het Leven van den Tanémbarees (1940); McKinnon, From a Shattered Sun (Tanimbar, 1991); Hägerdal 2020."
+  },
+  {
+   "ad": "Yeni Gine Merkezî Yaylaları 3",
+   "topluluk": "Papua güneydoğu yaylaları / Kikori-Purari havzası toplulukları (olasılık)",
+   "konfederasyon": false,
+   "bilesenler": "",
+   "bolge": "Güneydoğu Yeni Gine iç kesimi (lat -7.5, lon 145.5)",
+   "tanikliklar": [
+    {
+     "yil": 1930,
+     "ne": "Leahy/Dwyer Doğu Yaylaları yürüyüşü; 1933 Wahgi vadisi",
+     "kaynak": "NFSA First Contact https://www.nfsa.gov.au/collection/curated/first-contact-guns-and-pigs (arama özeti)",
+     "okundu": false
+    }
+   ],
+   "sonuc": "bulunamadi",
+   "aciklama": "Noktaya özgü kaynak yok. İngiliz Yeni Gine 1888'den beri kıyıda idareydi; iç kesim 1930'lara dek temassız. Önerilen: Hides, Papuan Wonderland (1936); Gammage."
+  },
+  {
+   "ad": "Aru-Tanimbar adaları 2",
+   "topluluk": "Aru adaları halkları (Dobo ticaret limanı çevresi)",
+   "konfederasyon": false,
+   "bilesenler": "",
+   "bolge": "Aru takımadası",
+   "tanikliklar": [
+    {
+     "yil": 1905,
+     "ne": "Rangga Rasyid tezinin kapsamı: 'Pearls and Colonial State-Making in the Aru Islands, Southern Maluku (1824-1905)' — sömürge devlet inşası bu dönemde",
+     "kaynak": "Rasyid, MA tezi, University of Washington https://digital.lib.washington.edu/researchworks/bitstreams/e881c111-dcfa-43d2-8a91-b22a3b688e3f/download (yalnız başlık; PDF okunamadı)",
+     "okundu": false
+    }
+   ],
+   "sonuc": "bulunamadi",
+   "aciklama": "Aru, Banda/Ternate-Tidore ve VOC ile ticari bağlıydı; devlet denetimi dönemi tezin 1824-1905 aralığıdır ama içerik okunamadı. Önerilen: Hägerdal, 'On the margins of colonialism: contact zones in the Aru Islands', The European Legacy 2020; Spyer, The Memory of Trade (Aru, 2000)."
+  },
+  {
+   "ad": "Yeni Gine Merkezî Yaylaları 4",
+   "topluluk": "Star Dağları/Sibil çevresi Ok halkları (olasılık)",
+   "konfederasyon": false,
+   "bilesenler": "",
+   "bolge": "Merkez dağlar, Star Dağları",
+   "tanikliklar": [],
+   "sonuc": "bulunamadi",
+   "aciklama": "Aranmadı: noktaya özgü kaynak bulunamadı. Ok halkları ile ilk temas 20. yy ortası (okunmadı)."
+  },
+  {
+   "ad": "Yeni Britanya iç kesimi",
+   "topluluk": "Baining, Nakanai, Tolai (kıyı), iç dağ toplulukları",
+   "konfederasyon": false,
+   "bilesenler": "",
+   "bolge": "Yeni Britanya (Gazelle yarımadası ve iç kesim)",
+   "tanikliklar": [
+    {
+     "yil": 1700,
+     "ne": "Dampier adayı 27 Şubat 1700'de ziyaret eder (Avrupalı ilk bilinen)",
+     "kaynak": "Britannica 'New Britain' https://www.britannica.com/EBchecked/topic/411183/New-Britain (arama özeti)",
+     "okundu": false
+    },
+    {
+     "yil": 1884,
+     "ne": "Almanya Kasım 1884'te Bismarck Takımadaları himayesini ilan eder; iç kesim keşfedilmez",
+     "kaynak": "aynı",
+     "okundu": false
+    }
+   ],
+   "sonuc": "bulunamadi",
+   "aciklama": "İç kesimde akademik tanıklık yok. Önerilen: Epstein (Tolai), Chowning; Sack & Clark, German New Guinea."
+  },
+  {
+   "ad": "Yeni Gine Batı (Kuş Başı / Vogelkop)",
+   "topluluk": "Arfak, Maybrat, Meyah, Moi, Mpur, Hatam toplulukları",
+   "konfederasyon": false,
+   "bilesenler": "",
+   "bolge": "Kuş Başı yarımadası iç kesimi",
+   "tanikliklar": [
+    {
+     "yil": 1716,
+     "ne": "Hollanda kaydı: Tidore Sultanı Kuş Başı'nın bir kısmını egemenliğinde sayıyor, ancak Papualar bu iddiayı tanımıyor",
+     "kaynak": "Sydney University Press (açık erişim kitap) https://open.sydneyuniversitypress.com.au/9781743325445/pfp-sultans-suzerains-and-the-colonial-division-of-new-guinea.html (arama özeti; yazar/bölüm sayfası okunmadı)",
+     "okundu": false
+    },
+    {
+     "yil": 1898,
+     "ne": "Hollanda Manokwari karakolu (kıyı)",
+     "kaynak": "doğrulanmadı",
+     "okundu": false
+    }
+   ],
+   "sonuc": "bulunamadi",
+   "aciklama": "Tidore'nin nominal iddiası 1667/1780 VOC anlaşmalarıyla Hollanda protektoralığı altında; iç kesim fiilen bağımsız. 1716 yılı doğrudan tanıklık olarak (pre-sömürge) değerli ama okunmadı; önerilen: Sydney UP kitabı (Sultans, Suzerains and the Colonial Division of New Guinea), Brill/KITLV Raja Ampat çalışmaları (Hollanda Yeni Gine Bestuursmemories)."
+  },
+  {
+   "ad": "Yeni Gine Merkezî Yaylaları 5",
+   "topluluk": "Paniai-Wissel Gölleri çevresi Ekari (Mee) / Kapauku",
+   "konfederasyon": false,
+   "bilesenler": "",
+   "bolge": "Paniai Gölü çevresi (lat -3.5, lon 136.5)",
+   "tanikliklar": [
+    {
+     "yil": 1936,
+     "ne": "Wissel Gölleri havadan keşfi",
+     "kaynak": "Merkezî Yaylalar 1 ile aynı (okunmadı)",
+     "okundu": false
+    }
+   ],
+   "sonuc": "bulunamadi",
+   "aciklama": "Merkezî Yaylalar 1 ile aynı; Pospisil'in Kapauku çalışması (1958) ve 1938-39 Hollanda patrolleri kaynak adayı. Doğrulanmadı."
+  },
+  {
+   "ad": "Yeni Gine Batı (Kuş Başı / Vogelkop) 2",
+   "topluluk": "Raja Ampat/Sorong kıyısı Maya, Moi toplulukları (Tidore etkisinde)",
+   "konfederasyon": false,
+   "bilesenler": "",
+   "bolge": "Sorong-Raja Ampat (lat -0.5, lon 130.5)",
+   "tanikliklar": [
+    {
+     "yil": 1667,
+     "ne": "Tidore, VOC'a protektora olur (Raja Ampat Tidore'ye bağlı sayılır)",
+     "kaynak": "Sydney UP arama özeti (okunmadı) + Vikipedi aynası (kullanılmaz)",
+     "okundu": false
+    },
+    {
+     "yil": 1780,
+     "ne": "Tidore VOC vasalı",
+     "kaynak": "aynı",
+     "okundu": false
+    }
+   ],
+   "sonuc": "bulunamadi",
+   "aciklama": "UYARI: bu nokta Raja Ampat kıyısına düşüyor; Tidore'nin nominal denetimi (sömürge devletince kabul edilen) bu bölgede devletsizlik iddiasını zayıflatır. Önerilen kaynak: Sydney UP kitabı; Andaya, The World of Maluku (1993)."
+  },
+  {
+   "ad": "Beyan K7.5 B62.5",
+   "topluluk": "Ye'kuana (Yekwana, Maquiritare) ve Panare; Caura-Aro",
+   "konfederasyon": false,
+   "bilesenler": "",
+   "bolge": "Caura nehri ve Aro, Orinoco güneyi",
+   "tanikliklar": [
+    {
+     "yil": 1744,
+     "ne": "Ye'kuana'ya ilk kez Cizvit Manuel Román atıf yapar",
+     "kaynak": "Vikipedi aynası (kullanılmaz); asıl kaynak: de Civrieux, Los Caribes y la conquista de la Guayana (1976) / Arvelo-Jiménez, okunmadı",
+     "okundu": false
+    }
+   ],
+   "sonuc": "bulunamadi",
+   "aciklama": "Sınırlı: 1744 yalnız ikinci el. Ye'kuana-Sanema savaşı 1930'lar (Caracas Chronicles, popüler; kullanılmaz). Angostura 1764 (kayıtta kaynaksız). Önerilen: de Civrieux; Arvelo-Jiménez 1971; Hames; Colchester."
+  },
+  {
+   "ad": "Beyan K7.5 B60.5",
+   "topluluk": "Akawaio (Kapon) ve Arekuna-Pemon; Cuyuní/Mazaruni",
+   "konfederasyon": false,
+   "bilesenler": "",
+   "bolge": "Yukarı Cuyuní/yukarı Mazaruni",
+   "tanikliklar": [
+    {
+     "yil": 1750,
+     "ne": "'Guaica' (Akawaio, bazen Kamarakoto-Pemon) yukarı Cuyuní havzasında 18. yy ortası misyon kayıtlarında geçer",
+     "kaynak": "Antropológica (Caracas) no78, 1992, https://biblat.unam.mx/hevila/AntropologicaCaracas/1992/no78/2.pdf (arama özeti; sayfa okunmadı)",
+     "okundu": false
+    }
+   ],
+   "sonuc": "yalniz-yuzyil",
+   "aciklama": "Kaynak '18. yy ortası' diyor (yorum: ~1750); yıl kaynakta yok. Anglikan misyonlarına geçiş 19. yy ikinci yarısı. Nüfus Pemon grubunda tarihlenebilen: Thomas 1982."
+  },
+  {
+   "ad": "Beyan K4.5 B62.5",
+   "topluluk": "Pemon (Arekuna, Kamarakoto, Taurepan); Gran Sabana",
+   "konfederasyon": false,
+   "bilesenler": "Pemon alt grupları: Arekuna, Kamarakoto, Taurepan (Encyclopedia of World Cultures)",
+   "bolge": "Gran Sabana, Caroní-Carún-aşağı Paragua vadileri, güneydoğu Bolívar",
+   "tanikliklar": [
+    {
+     "yil": 1770,
+     "ne": "1770'lerde Caroní bölgesi Pemon arasında akın/çatışma haberleri",
+     "kaynak": "Encyclopedia of World Cultures 'Pemon' (Encyclopedia.com) https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/pemon-0 (atıf: Thomas, Order without Government, 1982; Koch-Grünberg 1916-28)",
+     "okundu": true
+    },
+    {
+     "yil": 1817,
+     "ne": "İspanyol misyonları çöker, baskı azalır",
+     "kaynak": "aynı",
+     "okundu": true
+    },
+    {
+     "yil": 1900,
+     "ne": "1900 öncesi çevre dağlar Pemon'u dış müdahaleden büyük ölçüde korur; 1900 sonrası sürekli temas",
+     "kaynak": "aynı",
+     "okundu": true
+    }
+   ],
+   "sonuc": "tarihlendi",
+   "aciklama": "Yılları ikincil ansiklopedi (Encyclopedia of World Cultures, Thomas 1982'ye dayanır) veriyor; Thomas'ın kendisi okunmadı. Roraima'da 19. yy akınları; Schomburgk (1838) bu kaynakta yok. Pencere: 1770..1817 doğrulanmış, 1900 'öncesi' bir bant (yıl değil). Kayıttaki 'komşu desenden' ifadesi artık Thomas 1982'ye bağlanabilir ama kamarakoto/arekuna ayrımı için doğrulama gerek."
+  },
+  {
+   "ad": "Mushuau-nipi (Indian House Lake)",
+   "topluluk": "Mushuau Innu / Naskapi (George River karibu sürüsünü izleyen avcılar)",
+   "konfederasyon": false,
+   "bilesenler": "",
+   "bolge": "Kuzey Labrador-Quebec, George Nehri karibu geçidi (56. enlem)",
+   "tanikliklar": [
+    {
+     "yil": 1916,
+     "ne": "Eski Davis Inlet'te Naskapi yerleşimi kaydedilir; karibu sürüleri küçülür, geleneksel yaşam tehdit altında",
+     "kaynak": "Naskapi Nation / atlas-ling.ca özeti https://resources.atlas-ling.ca/?p=1217 (arama özeti, zayıf)",
+     "okundu": false
+    }
+   ],
+   "sonuc": "bulunamadi",
+   "aciklama": "HNAI c.6 (Smithsonian, Subarctic, 1981) okunmadı. Kayda dayanak 'bulunamadı'. Önerilen: Henriksen, Hunters in the Barrens (1973); Loring, Indian House Lake arkeolojisi; Boutet, An Innu-Naskapi Ethnohistorical Geography (MUN tezi, https://research.library.mun.ca/6087/1/Boutet_Jean-Sebastien.pdf — bu tez adayı okunmadı)."
+  },
+  {
+   "ad": "Wintu (Yukarı Sacramento)",
+   "topluluk": "Wintu (Wintun) bantları",
+   "konfederasyon": false,
+   "bilesenler": "",
+   "bolge": "Yukarı Sacramento vadisi, Shasta çevresi",
+   "tanikliklar": [
+    {
+     "yil": 1833,
+     "ne": "1830-1833 ateşli hastalık/sıtma salgını (Hudson's Bay Company/John Work kaflileri) yukarı ve orta Sacramento vadisi nüfusunun yaklaşık dörtte üçünü öldürür; Wintun burada yaşıyor ve Avrupalı ticaret ağlarıyla temas halinde",
+     "kaynak": "S. F. Cook, 'The Epidemic of 1830-1833 in California and Oregon', Univ. of California Publications in American Archaeology and Ethnology 43(3), 1955 (https://digicoll.lib.berkeley.edu/record/82971/files/ucp043-004.pdf) — arama özeti; EBSCO Research Starters 'Wintun'",
+     "okundu": false
+    },
+    {
+     "yil": 1832,
+     "ne": "John Work'ün 1832 sonu günlüğü Feather River'da ateş benzeri hastalığı not eder",
+     "kaynak": "Cook 1955 aracılığıyla (arama özeti)",
+     "okundu": false
+    },
+    {
+     "yil": 1850,
+     "ne": "ABD eyalet olarak 9 Eylül 1850'de kurulur (kayıtta zaten var)",
+     "kaynak": "kayıt gövdesi",
+     "okundu": false
+    }
+   ],
+   "sonuc": "tarihlendi",
+   "aciklama": "1830-33 civarı Wintu varlığı + devlet dışı. Smithsonian HNAI c.8 (Wintu maddesi, Du Bois/ Lapena) okunmadı; yıllar Cook 1955'in özetine dayanır. 1848 Altın Hücumu sonrası nüfus çöker. İspanyol/Meksika Kaliforniya'sı yukarı Sacramento'ya uzanmadı (okunmadı, bilgi)."
+  },
+  {
+   "ad": "Pecos Pueblo (Cicuye)",
+   "topluluk": "Pecos (Cicuye) Pueblo — Towa konuşan, bağımsız şehir-devlet",
+   "konfederasyon": false,
+   "bilesenler": "",
+   "bolge": "Rio Pecos üst vadisi, Yeni Meksika",
+   "tanikliklar": [
+    {
+     "yil": 1540,
+     "ne": "Alvarado'nun ilk ziyareti 1540 sonbahar (Coronado 1541 bahar ve eylül): Cicuye, yaklaşık yüz siyaseten bağımsız Pueblo topluluğundan biri, 2000+ nüfuslu en doğudaki şehir-devlet",
+     "kaynak": "J. L. Kessell, Kiva, Cross, and Crown: The Pecos Indians and New Mexico 1540-1840, NPS 1979, bölüm 1 https://npshistory.com/publications/kessell/kiva-cross-crown/chap1.htm",
+     "okundu": true
+    },
+    {
+     "yil": 1541,
+     "ne": "Coronado'nun kendi ziyareti",
+     "kaynak": "Kessell, aynı",
+     "okundu": true
+    }
+   ],
+   "sonuc": "tarihlendi",
+   "aciklama": "1540-41 sağlam ve okundu. Oñate 1598 Kessell bölümünde okunmadı (bölüm başlığı 'Oñate's Disenchantment 1595-1617'). Misyon 1620'ler: doğrulanmadı. Pecos Pueblo 1838'de terk edilir (NPS El Palacio özetleri; son sakinler Jémez'e). Pencere 1515..1590 doğrulanmış; 1598 Oñate Kessell sonraki bölümlerinden teyit edilebilir."
+  },
+  {
+   "ad": "Paquimé (Casas Grandes)",
+   "topluluk": "Paquimé / Casas Grandes (Medio dönemi) toplumu",
+   "konfederasyon": false,
+   "bilesenler": "",
+   "bolge": "Casas Grandes vadisi, kuzeybatı Chihuahua",
+   "tanikliklar": [
+    {
+     "yil": 1450,
+     "ne": "Paquimé yaklaşık 1450'de terk edilir (yangın/şiddet kanıtı: Whalen & Minnis; Di Peso 1974: saldırıyla yakıldı)",
+     "kaynak": "Whalen & Minnis, Casas Grandes and Its Hinterland (U. Arizona Press, 2001) / Ancient Paquimé and the Casas Grandes World (UA Press, 2017) / Archaeology Southwest (arama özeti); Di Peso, Casas Grandes (1974) s.320",
+     "okundu": false
+    },
+    {
+     "yil": 1300,
+     "ne": "Medio dönemi Whalen-Minnis radyometrik kronolojisinde Paquimé evresi sonu ~1300-1350 (Di Peso: Diablo evresi 1261-1340)",
+     "kaynak": "UNM Unit 11 / Whalen & Minnis (arama özeti)",
+     "okundu": false
+    }
+   ],
+   "sonuc": "tarihlendi",
+   "aciklama": "Whalen-Minnis ile Di Peso kronolojileri çelişiyor (Medio ~1200-1450 mi, 1060-1340 mı). Beyan edilmeli. 1450'den sonra bölgede merkezî siyasi yapı kurulmadığı kaynakta okunmadı; HNAI c.10 okunmadı. Önerilen: Whalen & Minnis 2001; Dean & Ravesloot."
+  },
+  {
+   "ad": "Tocobaga (Safety Harbor)",
+   "topluluk": "Tocobaga (Safety Harbor kültürü) reisliği",
+   "konfederasyon": false,
+   "bilesenler": "Tampa Körfezi çevresinde yirmiden fazla tapınak köyü (Mocoso, Uzita vb. ayrı konuşan komşular)",
+   "bolge": "Tampa Körfezi, Pinellas yarımadası",
+   "tanikliklar": [
+    {
+     "yil": 1567,
+     "ne": "Menéndez de Avilés ziyaret eder; 'Tocobaga' adı İspanyol belgelerinde ilk kez; ~1500 savaşçı toplayabilen baş reislik, 30 kişilik garnizon bırakılır",
+     "kaynak": "Trail of Florida's Indian Heritage https://www.trailoffloridasindianheritage.org/tocobaga-culture/ (eyalet yayını; Milanich/Hann birincil değil)",
+     "okundu": true
+    },
+    {
+     "yil": 1549,
+     "ne": "Fr. Luis Cáncer misyonu saldırıya uğrar, Cáncer öldürülür",
+     "kaynak": "aynı (Burnett, Florida's Past c.1 atfıyla)",
+     "okundu": true
+    },
+    {
+     "yil": 1763,
+     "ne": "İspanya Florida'yı bırakır; kalan son Tocobagalar İspanyollarla Küba'ya gider",
+     "kaynak": "aynı",
+     "okundu": true
+    },
+    {
+     "yil": 1528,
+     "ne": "Narváez'in bir çıkışı Safety Harbor'da çatışmış olabilir (iniş yeri tartışmalı: Bullen/Hann güney, Milanich Pinellas)",
+     "kaynak": "Milanich, Florida Indians and the Invasion from Europe (1995) / Hann (arama özeti; okunmadı)",
+     "okundu": false
+    }
+   ],
+   "sonuc": "tarihlendi",
+   "aciklama": "Kayıttaki 'datable bitiş yok' iddiası kısmen hatalı: eyalet yayını 1763 Küba göçünü veriyor (akademik teyit gerek: Hann, Indians of Central and South Florida 1513-1763, 2003). 1549 ve 1567 tanıklıkları sağlam, kayıtlı. Pencere: 1567 -> 1542..1617; 1549 -> 1524..1599; birleşik 1524..1617; 1763 sınır olarak tartışmalı."
+  },
+  {
+   "ad": "Vâdi'd-Devâsir",
+   "topluluk": "Devâsir (Dawasir) kabilesi; Dam emirliği",
+   "konfederasyon": false,
+   "bilesenler": "",
+   "bolge": "Vâdi'd-Devâsir (Widyan Dawasir), Necid güneyi",
+   "tanikliklar": [
+    {
+     "yil": 1908,
+     "ne": "Lorimer: Dam emîri Widyan Dawasir'in paramount chief'i; Suûd devletine 'but slightly attached'; dışarı denetimden bağımsız sayılırlar",
+     "kaynak": "J. G. Lorimer, Gazetteer of the Persian Gulf, Oman and Central Arabia II, 1908, s.397-405 (qdl.qa sayfaları https://qdl.qa/archive/81055/vdc_100023515713.0x000030) — sayfa 403 Forbidden; arama özetinde 'Wahhabis never interfered in internal affairs' kayıtlı",
+     "okundu": false
+    },
+    {
+     "yil": 1871,
+     "ne": "Lorimer: Vahhabi emîri Abdullah b. Faysal bazı Devâsir yerleşimlerini tahrip etti (Abdullah b. Faysal'ın hükümdarlığı: 1865-1871, atlas dışı bilgi)",
+     "kaynak": "Lorimer 1908 arama özeti (yıl kaynakta yazılı değil, tahmin)",
+     "okundu": false
+    }
+   ],
+   "sonuc": "tarihlendi",
+   "aciklama": "Tanıklık yılı Lorimer'in derleme dönemidir (~1905-1908). Kayıttaki 'hiçbir devlete bağlılık yılı yok' tespiti Lorimer'de 'zekât Suûd'a ödenmiş, Reşîdî üstünlüğünde kesilmiş' dediği halde yıl vermediğinden tutuyor. Vikipedi aynalarında 1845 Bahreyn göçü (kullanılmaz). Önerilen: Lorimer Vol. I Historical (1915) sf.1169 qdl.qa; TDV 'Devâsir' maddesi okunmadı; Encyclopaedia of Islam 'Dawasir'."
+  }
+ ]
+}
