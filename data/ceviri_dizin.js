@@ -501,7 +501,7 @@ window.CEVIRI_DIZIN = {
   "it": [
    [
     "ceviri_it_arayuz.js",
-    "a3eaf4a5"
+    "743a94a0"
    ]
   ]
  }
