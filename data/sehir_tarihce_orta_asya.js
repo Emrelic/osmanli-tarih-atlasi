@@ -1,5 +1,5 @@
-// ŞEHİR TARİHÇESİ — ORTA_ASYA · üretici: arac/sehir_tarihce.py · şema: VERI-YAPISI.md
-// Motor/denetle/site OKUMAZ — araştırma birikimi. Elle düzenleme: JSON'u düzelt, yeniden üret.
+// ŞEHİR TARİHÇESİ — ORTA_ASYA · üretici: arac/sehir_tarihce.py · şema: VERI-YAPISI.md
+// Motor/denetle/site OKUMAZ — araştırma birikimi. Elle düzenleme: JSON'u düzelt, yeniden üret.
 window.SEHIR_TARIHCE_ORTA_ASYA = [
  {
   "id": "akmescid-ua",
@@ -775,7 +775,16 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
   "kur": null,
   "ark": null,
   "bit": null,
-  "sahip": [],
+  "sahip": [
+   {
+    "f": "1824-01-01",
+    "t": "1830-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Şehir ilk.t 1824 (bkz. ilk.kaynak); atlas noktası Akmola'yı 1830-01-01'de rusya ile başlatır; 1824-1830 arası sahip kaynağı bulunamadı",
+    "ic_not": "6 yıllık boşluk, zorlanmış sahip yazılmadı (BOSLUK); 18 Kasım LAB 17: atlas başlangıcı 1830'a taşındığı için zincir boş kalıyordu."
+   }
+  ],
   "olay": [
    {
     "t": "1868-01-01",
@@ -833,7 +842,8 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
     "kaynak": "Encyclopaedia Britannica 'Astana' https://www.britannica.com/place/Astana-Kazakhstan",
     "kanit": "renamed Nur-Sultan in his honor"
    }
-  ]
+  ],
+  "dikis_beyan": "Atlas noktası geçişi (1830-01-01) için kaynaklı olay yok; kaynak yılı ile atlas başlangıcı arasındaki aralık BOSLUK olarak beyan edildi, yer tutucu olay yazılmadı (18 Kasım LAB 17)."
  },
  {
   "id": "atbasar-kz-p3",
@@ -1496,33 +1506,7 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
   "kur": null,
   "ark": null,
   "bit": null,
-  "sahip": [
-   {
-    "f": "0683-01-01",
-    "t": "1024-01-01",
-    "d": "__BOSLUK__",
-    "kesinlik": "yil",
-    "kaynak": "TDV İslâm Ansiklopedisi, «Hucend» md. (Rıza Kurtuluş), c. 18, 1998, s. 272-273, https://islamansiklopedisi.org.tr/hucend (TDV tam metin (tarayıcı), 16 Kasım 2026) — dilim için kaynaklı sahip zinciri bulunamadı",
-    "ic_not": "683'ten Karahanlı fethine (en geç 1024) kadar TDV Hucend'in sahip zincirini tarihli vermez: 680-683 sefer yenilgiyle biter (şehir Emevî'ye geçmedi), 722 'kesin fetih' Horasan valisi Saîd b. Amr el-Haraşî'nindir ama TDV maddede hâkim devlet adı yazmaz; Mühelleb'in hâkimiyeti ('99/717-18') hicrî-milâdî çeviri TDV'de kendi içinde tuhaftır (Mühelleb 702'de ölmüştür) — YAZILMADI. Emevî→Abbâsî→Sâmânî dizisi çıkarımdır, atlas kaydı dayanak olamaz; beyansız yaklaşıklık yazılmadı. Boşluk merdiveni: TDV okundu; Bosworth EI² 'Khudjand' (TDV bibliyografyasında) açılamadı."
-   },
-   {
-    "f": "1024-01-01",
-    "t": "1137-01-01",
-    "d": "karahanli",
-    "kesinlik": "onyil",
-    "kaynak": "TDV İslâm Ansiklopedisi, «Hucend» md. (Rıza Kurtuluş), c. 18, 1998, s. 272-273, https://islamansiklopedisi.org.tr/hucend (TDV tam metin (tarayıcı), 16 Kasım 2026)",
-    "tanik": "Hucend, Karahanlı Hükümdarı Arslan İlig (1015-1024) tarafından ele geçirildiğinde önemli bir şehirdi",
-    "ic_not": "f 'en geç' tanıktan: Arslan İlig'in hükümdarlık aralığı 1015-1024, ele geçirme günü/yılı TDV'de yok; güvenli uç 1024 alındı (daha erken olabilir; o zaman önceki BOŞLUK kısalır). t: TDV 1137'de Karahanlı Mahmûd b. Muhammed'i Hucend yakınında Karahıtayların yendiğini söyler; Karahıtay hâkimiyetinin şehre ne zaman geldiği YAZILMAZ. Karahanlı künyesi 1041'de biter (devletler.js); Batı Karahanlı (XI. yy ortası ayrılma, TDV: Hucend Doğu-Batı Karahanlı arasında sınırdır) aynı polity sürer → künye GENİŞLETME önerisi, hayalet uyarısı beklenen davranıştır."
-   },
-   {
-    "f": "1137-01-01",
-    "t": "1219-01-01",
-    "d": "__BOSLUK__",
-    "kesinlik": "yil",
-    "kaynak": "TDV İslâm Ansiklopedisi, «Hucend» md. (Rıza Kurtuluş), c. 18, 1998, s. 272-273, https://islamansiklopedisi.org.tr/hucend (TDV tam metin (tarayıcı), 16 Kasım 2026) — dilim için kaynaklı sahip bulunamadı",
-    "ic_not": "1137 Karahıtay zaferinden 1219 Moğol fethine kadar TDV şehrin hâkimini tarihli vermez ('Hucend Emîri Timur Melik' 1219'da anılır, hangi devletin emîri olduğu TDV'de yazılmaz: Hârizmşahlı olduğu çıkarımdır, yazılmadı)."
-   }
-  ],
+  "sahip": [],
   "olay": [
    {
     "t": "0683-01-01",
@@ -1606,7 +1590,7 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
     "tanik": "1866’da da kanlı çarpışmalar sonucunda Ruslar tarafından ele geçirildi"
    }
   ],
-  "ic_not": "Kaynak: TDV 'Hucend' TAM METİN (maddenin gövdesi okundu; 4.800 karakter). Çift teyit YOK: bibliyografyadaki Bosworth EI² 'Khudjand' ve Belâzürî/İbn Hurdâzbih/İstahrî açılamadı. ilk.t: 680-683 aralığı Yezîd b. Muâviye'nin halifelik yılları (TDV parantezi); ilk anılış için aralığın SON ucu 683 alındı. Hâkim zincirinin 1024 öncesi, 1137-1219 arası dilimleri kaynaksız → __BOSLUK__ (beyanlı). Atlas Hucend'i 1219-01-01'de mogol-imparatorlugu ile başlatır; 1219 olayı dikişi karşılar. TDV: 'Mühelleb b. Ebû Sufre ... (99/717-18)' ve 1875 Hokand direnişçilerinin kuşatması, 1886 Semerkant oblastı, 1929 Tacik SSC, 1936 Leninâbâd, 1991 adın geri alınması tarihli olgulardır, zincire bağlanmadı (1866 sonrası Rusya sahipliği atlasın zinciridir).",
+  "ic_not": "Kaynak: TDV 'Hucend' TAM METİN (maddenin gövdesi okundu; 4.800 karakter). Çift teyit YOK: bibliyografyadaki Bosworth EI² 'Khudjand' ve Belâzürî/İbn Hurdâzbih/İstahrî açılamadı. ilk.t: 680-683 aralığı Yezîd b. Muâviye'nin halifelik yılları (TDV parantezi); ilk anılış için aralığın SON ucu 683 alındı. Hâkim zincirinin 1024 öncesi, 1137-1219 arası dilimleri kaynaksız → __BOSLUK__ (beyanlı). Atlas Hucend'i 1219-01-01'de mogol-imparatorlugu ile başlatır; 1219 olayı dikişi karşılar. TDV: 'Mühelleb b. Ebû Sufre ... (99/717-18)' ve 1875 Hokand direnişçilerinin kuşatması, 1886 Semerkant oblastı, 1929 Tacik SSC, 1936 Leninâbâd, 1991 adın geri alınması tarihli olgulardır, zincire bağlanmadı (1866 sonrası Rusya sahipliği atlasın zinciridir). [18 Kasım LAB 17: atlas başlangıcı kaynak yılına çekildi (atlas ilk gün 0680-01-01, ilk sahip __BOSLUK__); aradaki kaynaklı zincir atlasa devredildi, sahip:[] yapıldı. Önceki zincir: 0683-01-01→1024-01-01 __BOSLUK__; 1024-01-01→1137-01-01 karahanli; 1137-01-01→1219-01-01 __BOSLUK__ — kaynak/ic_not metinleri JSON tarihçesinde (git 7f770ae5b)]",
   "ad_kaynak": [
    {
     "ad": "Hucend",

@@ -1,5 +1,5 @@
-// ŞEHİR TARİHÇESİ — HINT · üretici: arac/sehir_tarihce.py · şema: VERI-YAPISI.md
-// Motor/denetle/site OKUMAZ — araştırma birikimi. Elle düzenleme: JSON'u düzelt, yeniden üret.
+// ŞEHİR TARİHÇESİ — HINT · üretici: arac/sehir_tarihce.py · şema: VERI-YAPISI.md
+// Motor/denetle/site OKUMAZ — araştırma birikimi. Elle düzenleme: JSON'u düzelt, yeniden üret.
 window.SEHIR_TARIHCE_HINT = [
  {
   "id": "abbottabad-pk-p3",
@@ -350,19 +350,10 @@ window.SEHIR_TARIHCE_HINT = [
   "kur": null,
   "ark": null,
   "bit": null,
-  "sahip": [
-   {
-    "f": "0200-01-01",
-    "t": "0500-01-01",
-    "d": "__BOSLUK__",
-    "kesinlik": "yil",
-    "kaynak": "bulunamadı",
-    "ic_not": "Ptolemaios (MS 2. yy) ile atlasın kadamba-banavasi başlangıcı (500) arasında Gazetteer yalnız tarihsiz sıra verir (Andhrabhrityas of Banavasi → Ganga/Pallava → erken Kadamba, c.11 s.305): tarihli sahip dönemi yok."
-   }
-  ],
+  "sahip": [],
   "olay": [],
-  "ic_not": "TEK KAYNAK (Imperial Gazetteer; OCR). Çift teyit: Britannica sayfası/TDV/Majumdar bu oturumda ilgili yılı vermedi ya da 404 döndü; bağımsız ikinci kaynak bulunamadı. Ptolemaios'un 'Banaousi'si Banavasi olarak özdeşleştirilir (Gazetteer; kural 4 gereği cümle 'Kadamba kralları'nı da anar — ancak 'Banaousir of Ptolemy (second century A.D.)' doğrudan YER anılışıdır). c.6 s.346-347 'Banavasi' maddesi (ilk yer 'ancient city... capital of the Kadamba kings until the early part of the thirteenth century') şehrin Ptolemaios'ta anıldığını ve MÖ 3. yüzyılda Aşoka'nın Budist misyoner gönderdiği yerler arasında olduğunu 'is said to' ile söyler (MÖ 3. yüzyıl = rivayet, yazılı çağdaş tanık değil: alınmadı; güvenli uç ile en erken YAZILI tanık Ptolemaios 2. yy). ÖLÇÜLDÜ: atlas noktası 0500-01-01'de 'kadamba-banavasi' ile başlıyor (denetim/atlas_ilk_gunleri, 17 Kasım 2026).",
-  "dikis_beyan": "Ptolemaios (MS 2. yy) ile atlasın kadamba-banavasi başlangıcı (500) arasında Gazetteer yalnız tarihsiz sıra verir (Andhrabhrityas of Banavasi → Ganga/Pallava → erken Kadamba, c.11 s.305): tarihli sahip dönemi yok.",
+  "ic_not": "TEK KAYNAK (Imperial Gazetteer; OCR). Çift teyit: Britannica sayfası/TDV/Majumdar bu oturumda ilgili yılı vermedi ya da 404 döndü; bağımsız ikinci kaynak bulunamadı. Ptolemaios'un 'Banaousi'si Banavasi olarak özdeşleştirilir (Gazetteer; kural 4 gereği cümle 'Kadamba kralları'nı da anar — ancak 'Banaousir of Ptolemy (second century A.D.)' doğrudan YER anılışıdır). c.6 s.346-347 'Banavasi' maddesi (ilk yer 'ancient city... capital of the Kadamba kings until the early part of the thirteenth century') şehrin Ptolemaios'ta anıldığını ve MÖ 3. yüzyılda Aşoka'nın Budist misyoner gönderdiği yerler arasında olduğunu 'is said to' ile söyler (MÖ 3. yüzyıl = rivayet, yazılı çağdaş tanık değil: alınmadı; güvenli uç ile en erken YAZILI tanık Ptolemaios 2. yy). ÖLÇÜLDÜ: atlas noktası 0500-01-01'de 'kadamba-banavasi' ile başlıyor (denetim/atlas_ilk_gunleri, 17 Kasım 2026). [18 Kasım LAB 17: atlas başlangıcı kaynak yılına çekildi (atlas ilk gün 0200-01-01, ilk sahip satavahana); aradaki kaynaklı zincir atlasa devredildi, sahip:[] yapıldı. Önceki zincir: 0200-01-01→0500-01-01 __BOSLUK__ — kaynak/ic_not metinleri JSON tarihçesinde (git 7f770ae5b)]",
+  "dikis_beyan": "Atlas başlangıcı kaynak yılına çekildi; dikiş gerekmedi (bkz. ic_not).",
   "ad_kaynak": [
    {
     "ad": "Banavasi",
@@ -870,19 +861,10 @@ window.SEHIR_TARIHCE_HINT = [
   "kur": null,
   "ark": null,
   "bit": null,
-  "sahip": [
-   {
-    "f": "0756-01-01",
-    "t": "1281-01-01",
-    "d": "__BOSLUK__",
-    "kesinlik": "yil",
-    "kaynak": "Majumdar (ed.), HCIP Vol. IV (Age of Imperial Kanauj), archive.org metni: 'Bhartrivaddha, the Chahamana ruler of Broach, in A.D. 756' (yalnız 756 tanığı); 756-1281 arası Broach'a özgü sahip zinciri bulunamadı",
-    "ic_not": "756'da Broach'un Çahamana (Lâta/Bharukaccha kolu) hükümdarı Bhartrivaddha'dır; bu kol devletler.js'teki 'cahamana' (Şâkambharî/Ecmîr, 682-1192) künyesiyle AYNI olduğu kaynakta söylenmediği için künye bağlanmadı. 756'dan 1281'e (525 yıl) kadar Broach'u hangi hanedanın tuttuğu (Gurjara-Pratihara, Râştrakûta, Çaulukya/Gucerât) bu oturumda kaynakla bağlanamadı; uzun aralık olduğu için BOSLUK (zorlanmış zincir yazılmadı). Boşluk doldurma merdiveni: Majumdar IV okundu (Kutch'ta 833-842 Arap çekilmesi bağlamı Broach'a özgü değil); TDV 'GUCERÂT' maddesi tam gövde tarandı, şehri yıllı cümlede anmadı; ⑤ abi merkez adayı Anhilvâda/Patan (Çaulukya) — kaynakla bağlanmadı."
-   }
-  ],
+  "sahip": [],
   "olay": [],
-  "dikis_beyan": "Atlas Broaç'ı 1281-01-01'de racput ile başlatır; 756-1281 arası kaynaklı zincir bulunamadı (BOSLUK), 1281 için tanık bulunamadı, yer tutucu olay yazılmadı.",
-  "ic_not": "Tek kaynak (Majumdar IV): çift teyit bulunamadı (Britannica 'Bharuch' maddesi yalnız Gujarat Sultanlığı'na katılma, 1572 Babür ilhakı, 1685 Marathalar, 1782/1803 İngilizler tarihlerini verir: şehir anılışı daha geç; TDV'de şehir maddesi yok). Daha eski anılışlar (örn. Periplus'un Barygaza'sı, MS I. yy) bu oturumda okunamadı, yazılmadı — 756 'bulunan en erken YAZILI tanık' olarak alındı, şehrin gerçek ilk anılışı değildir; Periplus metni ayrıca aranmalı. Majumdar IV cümlesi bir Rashtrakuta-Pratihara bağlamında geçer; şehir olgusu 'Broach'un yöneticisi' anılışıdır.",
+  "dikis_beyan": "Atlas başlangıcı kaynak yılına çekildi; dikiş gerekmedi (bkz. ic_not).",
+  "ic_not": "Tek kaynak (Majumdar IV): çift teyit bulunamadı (Britannica 'Bharuch' maddesi yalnız Gujarat Sultanlığı'na katılma, 1572 Babür ilhakı, 1685 Marathalar, 1782/1803 İngilizler tarihlerini verir: şehir anılışı daha geç; TDV'de şehir maddesi yok). Daha eski anılışlar (örn. Periplus'un Barygaza'sı, MS I. yy) bu oturumda okunamadı, yazılmadı — 756 'bulunan en erken YAZILI tanık' olarak alındı, şehrin gerçek ilk anılışı değildir; Periplus metni ayrıca aranmalı. Majumdar IV cümlesi bir Rashtrakuta-Pratihara bağlamında geçer; şehir olgusu 'Broach'un yöneticisi' anılışıdır. [18 Kasım LAB 17: atlas başlangıcı kaynak yılına çekildi (atlas ilk gün 0050-01-01, ilk sahip sakalar-bati-satraplar); aradaki kaynaklı zincir atlasa devredildi, sahip:[] yapıldı. Önceki zincir: 0756-01-01→1281-01-01 __BOSLUK__ — kaynak/ic_not metinleri JSON tarihçesinde (git 7f770ae5b)]",
   "ad_kaynak": [
    {
     "ad": "Broach",
@@ -955,16 +937,7 @@ window.SEHIR_TARIHCE_HINT = [
   "kur": null,
   "ark": null,
   "bit": null,
-  "sahip": [
-   {
-    "f": "1088-01-01",
-    "t": "1281-01-01",
-    "d": "__BOSLUK__",
-    "kesinlik": "yil",
-    "kaynak": "bulunamadı",
-    "ic_not": "1088 (Jalandhar'ın düşüşü) ile atlas başlangıcı (1281-01-01, delhi-sultanligi) arasındaki sahip zinciri bu oturumda kaynakla bağlanamadı (Gazneli/Gurlu/Delhi dönemi Jalandhar'a özgü tarihli sahip cümlesi yok); beyanlı boşluk."
-   }
-  ],
+  "sahip": [],
   "olay": [
    {
     "t": "1088-01-01",
@@ -975,8 +948,8 @@ window.SEHIR_TARIHCE_HINT = [
     "kaynak": "The Sikh Encyclopedia (thesikhencyclopedia.com), 'Hoshiarpur' ilçe maddesi (https://thesikhencyclopedia.com/hoshiarpur): ilçe gazetteer anlatısının İngilizce metni; ayrıca Imperial Gazetteer of India (1908-09) c.13 s.194 'Hoshiarpur District' (DSAL OCR 'io88'), 17 Kasım 2026 okundu"
    }
   ],
-  "ic_not": "TEK KÖKEN: Imperial Gazetteer c.13 s.194 OCR'ı 'io88' idi; OCR olmayan metin (Sikh Encyclopedia Hoshiarpur maddesi, ilçe gazetteer'ine dayanır) 'plain probably came under the Muhammadan rule on the fall of Jalandhar in 1088 AD' yazar: rakam 1088 olarak OCR'sız doğrulandı (rakam bozulması sorunu çözüldü) ama BAĞIMSIZ ikinci kaynak DEĞİL (aynı gazetteer anlatısı; şair Lalman'a atfeder: İbrahim (Gazneli) 1059-1099). Yazı bir akademik hakemli kaynak değildir; 'probably' beyanı korundu; Gazneli İbrahim'in Jalandhar'ı 1088'de alması bağımsız akademik kaynakla (Majumdar VI / Bosworth, The Later Ghaznavids) teyit edilmeden kesin sayılmamalı. Cavac benzeri sayfalardaki '1070 civarı' iddiası güvenilmez site, kullanılmadı. Aynı sitenin Jalandhar maddesindeki 1297 (Dua'nın Jalandhar yakınında yenilgisi) yazılmadı: yazarı/dayanağı belirsiz. sahip[] yazılmadı (1088 ile atlas başlangıcı arasında kaynaklı zincir yok; atlas ilk günü ayrıca denetlenmeli).",
-  "dikis_beyan": "1088 (Jalandhar'ın düşüşü) ile atlas başlangıcı (1281-01-01, delhi-sultanligi) arasındaki sahip zinciri bu oturumda kaynakla bağlanamadı (Gazneli/Gurlu/Delhi dönemi Jalandhar'a özgü tarihli sahip cümlesi yok); beyanlı boşluk.",
+  "ic_not": "TEK KÖKEN: Imperial Gazetteer c.13 s.194 OCR'ı 'io88' idi; OCR olmayan metin (Sikh Encyclopedia Hoshiarpur maddesi, ilçe gazetteer'ine dayanır) 'plain probably came under the Muhammadan rule on the fall of Jalandhar in 1088 AD' yazar: rakam 1088 olarak OCR'sız doğrulandı (rakam bozulması sorunu çözüldü) ama BAĞIMSIZ ikinci kaynak DEĞİL (aynı gazetteer anlatısı; şair Lalman'a atfeder: İbrahim (Gazneli) 1059-1099). Yazı bir akademik hakemli kaynak değildir; 'probably' beyanı korundu; Gazneli İbrahim'in Jalandhar'ı 1088'de alması bağımsız akademik kaynakla (Majumdar VI / Bosworth, The Later Ghaznavids) teyit edilmeden kesin sayılmamalı. Cavac benzeri sayfalardaki '1070 civarı' iddiası güvenilmez site, kullanılmadı. Aynı sitenin Jalandhar maddesindeki 1297 (Dua'nın Jalandhar yakınında yenilgisi) yazılmadı: yazarı/dayanağı belirsiz. sahip[] yazılmadı (1088 ile atlas başlangıcı arasında kaynaklı zincir yok; atlas ilk günü ayrıca denetlenmeli). [18 Kasım LAB 17: atlas başlangıcı kaynak yılına çekildi (atlas ilk gün 0645-01-01, ilk sahip __BOSLUK__); aradaki kaynaklı zincir atlasa devredildi, sahip:[] yapıldı. Önceki zincir: 1088-01-01→1281-01-01 __BOSLUK__ — kaynak/ic_not metinleri JSON tarihçesinde (git 7f770ae5b)]",
+  "dikis_beyan": "Atlas başlangıcı kaynak yılına çekildi; dikiş gerekmedi (bkz. ic_not).",
   "ad_kaynak": [
    {
     "ad": "Jalandhar",
@@ -1031,16 +1004,7 @@ window.SEHIR_TARIHCE_HINT = [
   "kur": null,
   "ark": null,
   "bit": null,
-  "sahip": [
-   {
-    "f": "0915-01-01",
-    "t": "1281-01-01",
-    "d": "__BOSLUK__",
-    "kesinlik": "yil",
-    "kaynak": "bulunamadı (915-1281 arası Çaul'a özgü sahip zinciri TDV tam gövdesinde yok)",
-    "ic_not": "TDV 'Bombay' aynı bağlamda 'Râştrakûta hükümdarları (753-975) bunlar arasında idareciler tayin etmişlerdir' der (Çaul'daki müslüman cemaat için); bu, Râştrakûta üstünlüğüne işaret edebilir ama Çaul'un sahibini açıkça söylemez ve 975 sonrası için hiçbir şey vermez. Beyansız yaklaşıklık olmasın diye Râştrakûta dönemi AÇILMADI; 915-1281 __BOSLUK__ olarak bırakıldı (atlas 1281'de yadava ile başlar). Boşluk doldurma merdiveni: TDV tam gövde okundu; ikinci basamak (İSAM/DergiPark/Marathi-Konkan akademik kaynakları) bu oturumda taranmadı."
-   }
-  ],
+  "sahip": [],
   "olay": [
    {
     "t": "1569-01-01",
@@ -1052,8 +1016,8 @@ window.SEHIR_TARIHCE_HINT = [
     "tanik": "Goa ve Çaul limanlarını kuşattılarsa da başarı sağlayamadılar (1569)"
    }
   ],
-  "dikis_beyan": "Atlas Çaul'u 1281-01-01'de yadava ile başlatır; TDV'de 915-1281 arası sahip ve 1281 geçişi için tanık bulunamadı (TDV 'Bombay': Râştrakûta 753-975 tarihsiz idareci atar); yer tutucu olay yazılmadı.",
-  "ic_not": "İlk tanık Mes‘ûdî'nin 915'teki ziyaretine dayanır (TDV 'Bombay' md.; ikinci akademik kaynakla çift teyit yapılmadı). 'Sîmûr (Çaul)' eşitlemesini TDV kendisi yapar; Sîmûr/Çaul aynı yer kabul edildi (TDV'nin beyanı). Atlas başlangıcı 1281-01-01 yadava; kaynaklı ilk tanık (915) atlas başlangıcından ÖNCE olduğundan 915-1281 arası sahip zinciri __BOSLUK__ yazıldı (yadava künyesi 1187'de başlar ama 1281'e kadar Çaul'a bağlanan kaynak yok). Atlas yadava künyesini Çaul için 1281'den başlatır; çelişki değil, kaynaksız. 1569 olayı iki şehirli (Goa+Çaul) tek cümledir; Âdilşâhîler 'Goa ve Çaul limanları'nı kuşattı, kuşatma şehirleri alamadı (sahiplik değişmedi).",
+  "dikis_beyan": "Atlas başlangıcı kaynak yılına çekildi; dikiş gerekmedi (bkz. ic_not).",
+  "ic_not": "İlk tanık Mes‘ûdî'nin 915'teki ziyaretine dayanır (TDV 'Bombay' md.; ikinci akademik kaynakla çift teyit yapılmadı). 'Sîmûr (Çaul)' eşitlemesini TDV kendisi yapar; Sîmûr/Çaul aynı yer kabul edildi (TDV'nin beyanı). Atlas başlangıcı 1281-01-01 yadava; kaynaklı ilk tanık (915) atlas başlangıcından ÖNCE olduğundan 915-1281 arası sahip zinciri __BOSLUK__ yazıldı (yadava künyesi 1187'de başlar ama 1281'e kadar Çaul'a bağlanan kaynak yok). Atlas yadava künyesini Çaul için 1281'den başlatır; çelişki değil, kaynaksız. 1569 olayı iki şehirli (Goa+Çaul) tek cümledir; Âdilşâhîler 'Goa ve Çaul limanları'nı kuşattı, kuşatma şehirleri alamadı (sahiplik değişmedi). [18 Kasım LAB 17: atlas başlangıcı kaynak yılına çekildi (atlas ilk gün 0915-01-01, ilk sahip rastrakuta); aradaki kaynaklı zincir atlasa devredildi, sahip:[] yapıldı. Önceki zincir: 0915-01-01→1281-01-01 __BOSLUK__ — kaynak/ic_not metinleri JSON tarihçesinde (git 7f770ae5b)]",
   "ad_kaynak": [
    {
     "ad": "Çaul",
@@ -1091,18 +1055,9 @@ window.SEHIR_TARIHCE_HINT = [
   "kur": null,
   "ark": null,
   "bit": null,
-  "sahip": [
-   {
-    "f": "0920-01-01",
-    "t": "0950-01-01",
-    "d": "chamba",
-    "kesinlik": "yil",
-    "kaynak": "Imperial Gazetteer of India (Meyer/Burn/Cotton, 1908-09), DSAL (University of Chicago), https://dsal.uchicago.edu/reference/gazetteer/, c. 10, s. 130, 'Chamba State' maddesi; DSAL arama sonucu OCR metni olarak 17 Kasım 2026'da tarayıcıda okundu (sayfa görüntüsü okunmadı) — 'the town of Chamba built by Sahil Varma about 920' (Chamba hanedanı/devleti kenti)",
-    "ic_not": "Şehri kuran Sahil Varma Chamba hanedanının hükümdarıdır (aynı cümlenin öncülü: Marut/Meru Varma); künye 'chamba' (0550-1948) ile eşleştirildi. 920-950 arası ayrı bir sahip tanığı yok, dönem 'ilk tanıktan' atlas başlangıcına yazıldı."
-   }
-  ],
+  "sahip": [],
   "olay": [],
-  "ic_not": "TEK KAYNAK (Imperial Gazetteer; OCR). Çift teyit: Britannica sayfası/TDV/Majumdar bu oturumda ilgili yılı vermedi ya da 404 döndü; bağımsız ikinci kaynak bulunamadı. Cümle: 'Founded probably in the sixth century by Marut, a Surajbansi Rajput, who built Brahmapura, the modern Brahmaur, Chamba was extended by Meru Varma (680), and the town of Chamba built by Sahil Varma about 920.' 'about 920' yaklaşık ('civarı') — kesinlik 'yil' en yakın seçenek; gerçek belirsizlik ±birkaç yıl olabilir. 680 (Meru Varma genişlemesi) devlet/hanedan olgusudur (kural 4); olay olarak yazılmadı. Vogel, History of the Panjab Hill States (parti 6 borcu) bu oturumda erişilemedi. ÖLÇÜLDÜ: atlas noktası 0950-01-01'de 'chamba' ile başlıyor (denetim/atlas_ilk_gunleri, 17 Kasım 2026).",
+  "ic_not": "TEK KAYNAK (Imperial Gazetteer; OCR). Çift teyit: Britannica sayfası/TDV/Majumdar bu oturumda ilgili yılı vermedi ya da 404 döndü; bağımsız ikinci kaynak bulunamadı. Cümle: 'Founded probably in the sixth century by Marut, a Surajbansi Rajput, who built Brahmapura, the modern Brahmaur, Chamba was extended by Meru Varma (680), and the town of Chamba built by Sahil Varma about 920.' 'about 920' yaklaşık ('civarı') — kesinlik 'yil' en yakın seçenek; gerçek belirsizlik ±birkaç yıl olabilir. 680 (Meru Varma genişlemesi) devlet/hanedan olgusudur (kural 4); olay olarak yazılmadı. Vogel, History of the Panjab Hill States (parti 6 borcu) bu oturumda erişilemedi. ÖLÇÜLDÜ: atlas noktası 0950-01-01'de 'chamba' ile başlıyor (denetim/atlas_ilk_gunleri, 17 Kasım 2026). [18 Kasım LAB 17: atlas başlangıcı kaynak yılına çekildi (atlas ilk gün 0920-01-01, ilk sahip chamba); aradaki kaynaklı zincir atlasa devredildi, sahip:[] yapıldı. Önceki zincir: 0920-01-01→0950-01-01 chamba — kaynak/ic_not metinleri JSON tarihçesinde (git 7f770ae5b)]",
   "ad_kaynak": [
    {
     "ad": "Chamba",
@@ -1874,17 +1829,7 @@ window.SEHIR_TARIHCE_HINT = [
   },
   "ark": null,
   "bit": null,
-  "sahip": [
-   {
-    "f": "1119-01-01",
-    "t": "1150-01-01",
-    "d": "sena",
-    "kesinlik": "onyil",
-    "kaynak": "TDV İslâm Ansiklopedisi, «Leknevtî» md. (Azmi Özcan), EK-2. c., 2019, s. 154-155, https://islamansiklopedisi.org.tr/leknevti (TDV tam metin (tarayıcı), 16 Kasım 2026)",
-    "tanik": "Senâ hânedanına mensup Ballâl Sen (1108-1119) tarafından kurulan şehre Gavr (Gur) ve Cennetâbâd da denilir",
-    "ic_not": "Şehir Senâ hânedanından Ballâl Sen (1108-1119) tarafından kuruldu → sahip sena; f = kuruluş güvenli ucu (1119). TDV bu dilim için başka hâkim tanığı vermez; atlas 1150'de de sena ile başlar (aynı sahip, dikiş olay gerektirmez)."
-   }
-  ],
+  "sahip": [],
   "olay": [
    {
     "t": "1119-01-01",
@@ -1948,7 +1893,7 @@ window.SEHIR_TARIHCE_HINT = [
     "tanik": "1575’te Bâbürlüler tarafından tekrar eyalet merkezi haline getirilen şehir"
    }
   ],
-  "ic_not": "Kaynak: TDV 'Leknevtî' TAM METİN (madde başlığı Leknevtî; 'Gavr (Gur) ve Cennetâbâd da denilir' — Gaur ile aynı şehir, TDV eşitlemesi açık). Çift teyit YOK (Eaton, Banglapedia açılmadı). kur/ilk: Ballâl Sen'in hükümdarlık aralığı 1108-1119 (TDV parantezi) — kuruluş günü/yılı TDV'de yok; 'güvenli uç' 1119 alındı (daha erken olabilir). ÇELİŞKİ-benzeri: TDV ayrıca 'Leknevtî 594/1198 Bahtiyâr fethiyle tarihte ilk defa anılmaya başladı' der; bu AD (Leknevtî) için ilk anılıştır, Gavr kuruluşu (1108-1119) kuruluş olarak esas alındı; Gavr 1202'de 'küçük bir yerleşim yeri'. Atlas Gaur'u 1150'de sena ile başlatır; ilk.t 1119 < 1150 → atlas başlangıcı 1119'a çekilebilir (KASA). Sena künyesi 1095-1260. TDV: İlyasşâhîler (1345-1487) hâkimiyeti, merkezin Pandua'ya taşınması, 1704 Mürşidâbâd'a eyalet merkezi taşıması tarihleri zincire bağlanmadı (atlas zinciri esastır). || [MÜKERRER BİRLEŞTİRME 17 Kasım 2026: gaur-lakhnauti (sehir_tarihce_k12.js) kaydından] Gaur noktası = Gaur harabeleri (24.868, 88.133). Kuruluş TDV'ye (Ballâl Sen, 1108-1119) göre; aynı yer Banglapedia'ya göre 'ancient and medieval Bengal'in başkenti' (Lakhnauti maddesi) — daha eski Gauda adı ve Pala 'Ramavati' iddiaları tarihlenmedi. Adlar: Banglapedia: Lakshmanavati Müslüman yönetimde Lakhnauti oldu; TDV: Gavr/Gur ve Cennetâbâd da denir (Humâyûn 1538). Çelişki tablosu (ilk Müslüman fethi): TDV 594/1198 (bölge) ve 598/1202 (Gavr merkezi); Banglapedia 1204-05; Raverty 590 H (1194). Atlas: 1281 delhi-sultanligi dikişi TDV ile uyumlu (Delhi 1227'den beri). Atlas bit:1575/kd: 1340 bu dosyanın dışındadır.",
+  "ic_not": "Kaynak: TDV 'Leknevtî' TAM METİN (madde başlığı Leknevtî; 'Gavr (Gur) ve Cennetâbâd da denilir' — Gaur ile aynı şehir, TDV eşitlemesi açık). Çift teyit YOK (Eaton, Banglapedia açılmadı). kur/ilk: Ballâl Sen'in hükümdarlık aralığı 1108-1119 (TDV parantezi) — kuruluş günü/yılı TDV'de yok; 'güvenli uç' 1119 alındı (daha erken olabilir). ÇELİŞKİ-benzeri: TDV ayrıca 'Leknevtî 594/1198 Bahtiyâr fethiyle tarihte ilk defa anılmaya başladı' der; bu AD (Leknevtî) için ilk anılıştır, Gavr kuruluşu (1108-1119) kuruluş olarak esas alındı; Gavr 1202'de 'küçük bir yerleşim yeri'. Atlas Gaur'u 1150'de sena ile başlatır; ilk.t 1119 < 1150 → atlas başlangıcı 1119'a çekilebilir (KASA). Sena künyesi 1095-1260. TDV: İlyasşâhîler (1345-1487) hâkimiyeti, merkezin Pandua'ya taşınması, 1704 Mürşidâbâd'a eyalet merkezi taşıması tarihleri zincire bağlanmadı (atlas zinciri esastır). || [MÜKERRER BİRLEŞTİRME 17 Kasım 2026: gaur-lakhnauti (sehir_tarihce_k12.js) kaydından] Gaur noktası = Gaur harabeleri (24.868, 88.133). Kuruluş TDV'ye (Ballâl Sen, 1108-1119) göre; aynı yer Banglapedia'ya göre 'ancient and medieval Bengal'in başkenti' (Lakhnauti maddesi) — daha eski Gauda adı ve Pala 'Ramavati' iddiaları tarihlenmedi. Adlar: Banglapedia: Lakshmanavati Müslüman yönetimde Lakhnauti oldu; TDV: Gavr/Gur ve Cennetâbâd da denir (Humâyûn 1538). Çelişki tablosu (ilk Müslüman fethi): TDV 594/1198 (bölge) ve 598/1202 (Gavr merkezi); Banglapedia 1204-05; Raverty 590 H (1194). Atlas: 1281 delhi-sultanligi dikişi TDV ile uyumlu (Delhi 1227'den beri). Atlas bit:1575/kd: 1340 bu dosyanın dışındadır. [18 Kasım LAB 17: atlas başlangıcı kaynak yılına çekildi (atlas ilk gün 1119-01-01, ilk sahip sena); aradaki kaynaklı zincir atlasa devredildi, sahip:[] yapıldı. Önceki zincir: 1119-01-01→1150-01-01 sena — kaynak/ic_not metinleri JSON tarihçesinde (git 7f770ae5b)]",
   "ad_kaynak": [
    {
     "ad": "Gavr",
@@ -3348,16 +3293,7 @@ window.SEHIR_TARIHCE_HINT = [
   "kur": null,
   "ark": null,
   "bit": null,
-  "sahip": [
-   {
-    "f": "1233-01-01",
-    "t": "1281-01-01",
-    "d": "__BOSLUK__",
-    "kesinlik": "yuzyil",
-    "kaynak": "TDV İslâm Ansiklopedisi, «Leknev» md. (Azmi Özcan), c. 27, 2003, s. 133, https://islamansiklopedisi.org.tr/leknev (TDV tam metin (tarayıcı), 16 Kasım 2026) — dilim için sahip tanığı yok",
-    "ic_not": "TDV 1233 (XIII. yy başı) ile 1281 arası Leknev'in sahibini vermez; Delhi Sultanlığı'nın eline geçişi yalnız 1394-1478 Şarkî hâkimiyetinden SONRA anlatılır (tarihsiz)."
-   }
-  ],
+  "sahip": [],
   "olay": [
    {
     "t": "1394-01-01",
@@ -3422,8 +3358,8 @@ window.SEHIR_TARIHCE_HINT = [
     "tanik": "Aralık 1916’da burada imzalandı"
    }
   ],
-  "ic_not": "Kaynak: TDV 'Leknev' TAM METİN. Çift teyit YOK. ilk.t: 'bilinen tarihi XIII. yüzyılın başlarına kadar gider' — 'başlarına' için yüzyıl hassasiyeti, aralığın güvenli ucu (1233) alındı (1201-1233). Atlas Leknev'i 1281'de delhi-sultanligi ile başlatır; TDV Delhi Sultanlığı hâkimiyetini yalnız Şarkî döneminden (1394-1478) SONRA anlatır → atlasın 1281 iddiası TDV'de dayanaksızdır (dikis_beyan). TDV: 1784 Bârâ İmambârâ, 1479 tarihli Şeyh Muhammed Türbesi mimari tanıktır, zincire bağlanmadı. || [MÜKERRER BİRLEŞTİRME 17 Kasım 2026: lucknow (sehir_tarihce_k12.js) kaydından] ZİNCİR YOK (kural): güvenli uç ilk.t 1526 atlasın başlangıcından (1281-01-01) SONRA. ATLAS DÜZELTME ÖNERİSİ: atlas Lucknow'u 1281'den Delhi Sultanlığı (sonra Cavnpur, yine Delhi) olarak çiziyor; 1281-1517 arası Lucknow'un varlığına tanık bu oturumda bulunamadı (CHI III 'Daryabad, Lucknow ile Gonda arasında' coğrafi tarifini Şarkî Barbak Şah'ın ~1480'leri için kullanır — çağdaş anış değil, yazarın modern konum tarifidir; Lucknow'u anan Şarkî/Lûdî çağdaş kaynak metni açılamadı). Nokta ya 1518-1526'dan önce çizilmemeli ya da 'Awadh (Oudh) bölgesinin sahibi + beyan' kuralıyla yaklaşıklık olarak işaretlenmeli — karar Emre'nin. Gazetteer of Oudh: 'Not much was added to the city till the middle of the sixteenth century'. Lakshman efsanesi tarih içermiyor, kayda alınmadı. Nawab/Awadh başkenti (atlas kd 1722-1856) bu dosyanın dışındadır.",
-  "dikis_beyan": "Atlas Leknev'i 1281-01-01'de delhi-sultanligi ile başlatır; TDV 'Leknev' maddesi 1233-1281 arasını ve Delhi Sultanlığı'nın XIII. yy hâkimiyetini tarihli vermez (Delhi Sultanlığı'na geçiş Şarkî dönemi 1394-1478'den 'sonra'); kaynak bulunamadı, yer tutucu olay yazılmadı.",
+  "ic_not": "Kaynak: TDV 'Leknev' TAM METİN. Çift teyit YOK. ilk.t: 'bilinen tarihi XIII. yüzyılın başlarına kadar gider' — 'başlarına' için yüzyıl hassasiyeti, aralığın güvenli ucu (1233) alındı (1201-1233). Atlas Leknev'i 1281'de delhi-sultanligi ile başlatır; TDV Delhi Sultanlığı hâkimiyetini yalnız Şarkî döneminden (1394-1478) SONRA anlatır → atlasın 1281 iddiası TDV'de dayanaksızdır (dikis_beyan). TDV: 1784 Bârâ İmambârâ, 1479 tarihli Şeyh Muhammed Türbesi mimari tanıktır, zincire bağlanmadı. || [MÜKERRER BİRLEŞTİRME 17 Kasım 2026: lucknow (sehir_tarihce_k12.js) kaydından] ZİNCİR YOK (kural): güvenli uç ilk.t 1526 atlasın başlangıcından (1281-01-01) SONRA. ATLAS DÜZELTME ÖNERİSİ: atlas Lucknow'u 1281'den Delhi Sultanlığı (sonra Cavnpur, yine Delhi) olarak çiziyor; 1281-1517 arası Lucknow'un varlığına tanık bu oturumda bulunamadı (CHI III 'Daryabad, Lucknow ile Gonda arasında' coğrafi tarifini Şarkî Barbak Şah'ın ~1480'leri için kullanır — çağdaş anış değil, yazarın modern konum tarifidir; Lucknow'u anan Şarkî/Lûdî çağdaş kaynak metni açılamadı). Nokta ya 1518-1526'dan önce çizilmemeli ya da 'Awadh (Oudh) bölgesinin sahibi + beyan' kuralıyla yaklaşıklık olarak işaretlenmeli — karar Emre'nin. Gazetteer of Oudh: 'Not much was added to the city till the middle of the sixteenth century'. Lakshman efsanesi tarih içermiyor, kayda alınmadı. Nawab/Awadh başkenti (atlas kd 1722-1856) bu dosyanın dışındadır. [18 Kasım LAB 17: atlas başlangıcı kaynak yılına çekildi (atlas ilk gün 1233-01-01, ilk sahip delhi-memluk); aradaki kaynaklı zincir atlasa devredildi, sahip:[] yapıldı. Önceki zincir: 1233-01-01→1281-01-01 __BOSLUK__ — kaynak/ic_not metinleri JSON tarihçesinde (git 7f770ae5b)]",
+  "dikis_beyan": "Atlas başlangıcı kaynak yılına çekildi; dikiş gerekmedi (bkz. ic_not).",
   "ad_kaynak": [
    {
     "ad": "Leknev",
@@ -3775,16 +3711,7 @@ window.SEHIR_TARIHCE_HINT = [
   "kur": null,
   "ark": null,
   "bit": null,
-  "sahip": [
-   {
-    "f": "1018-01-01",
-    "t": "1281-01-01",
-    "d": "__BOSLUK__",
-    "kesinlik": "yil",
-    "kaynak": "bulunamadı (1018-1281 arası Mathura'ya özgü sahip kaynağı bu oturumda okunamadı)",
-    "ic_not": "Britannica yalnız Gazneli Mahmud'un 1017-18 yağmasını verir; sonrası için sahip tanığı yok. Majumdar IV 'Mathura'yı Jain tapınakları/Yadu yerleşimi bağlamında anar (tarihsiz). Boşluk doldurma merdiveninde TDV (Mahmud-ı Gaznevî: tarihsiz), Majumdar IV, Britannica okundu; Majumdar V (ödünç, okunamaz) ve Tomara/Çahamana kaynakları basamağı BORÇ."
-   }
-  ],
+  "sahip": [],
   "olay": [
    {
     "t": "1018-01-01",
@@ -3805,8 +3732,8 @@ window.SEHIR_TARIHCE_HINT = [
     "tanik": "The city fell under British rule in 1804"
    }
   ],
-  "dikis_beyan": "Atlas Mathura'yı 1281-01-01'de delhi-sultanligi ile başlatır; 1018→1281 arası sahip kaynağı bulunamadı (Majumdar V okunamadı), yer tutucu olay yazılmadı. ÇELİŞKİ: atlas 1803-10-17'de Marata dönemini kapatır, Britannica 'British rule in 1804' der.",
-  "ic_not": "TEK KAYNAK (Britannica). İlk anılış Mahmud'un yağması değil Britannica'nın en erken TARİHLİ olgusudur; Britannica Kuşan döneminde (1. yy) gelişen bir şehir olduğunu söyler (yılsız) — bu yazılmadı. 'Between 1500 and 1757 sacked four times' aralığı şehre özgü ama tek tek yıl vermediği için yazılmadı. Aralığın (1017-18) güvenli ucu 1018 alındı. Majumdar VI metninde Mathura geçmiyor (0 isabet).",
+  "dikis_beyan": "Atlas başlangıcı kaynak yılına çekildi; dikiş gerekmedi (bkz. ic_not).",
+  "ic_not": "TEK KAYNAK (Britannica). İlk anılış Mahmud'un yağması değil Britannica'nın en erken TARİHLİ olgusudur; Britannica Kuşan döneminde (1. yy) gelişen bir şehir olduğunu söyler (yılsız) — bu yazılmadı. 'Between 1500 and 1757 sacked four times' aralığı şehre özgü ama tek tek yıl vermediği için yazılmadı. Aralığın (1017-18) güvenli ucu 1018 alındı. Majumdar VI metninde Mathura geçmiyor (0 isabet). [18 Kasım LAB 17: atlas başlangıcı kaynak yılına çekildi (atlas ilk gün -0300-01-01, ilk sahip maurya); aradaki kaynaklı zincir atlasa devredildi, sahip:[] yapıldı. Önceki zincir: 1018-01-01→1281-01-01 __BOSLUK__ — kaynak/ic_not metinleri JSON tarihçesinde (git 7f770ae5b)]",
   "ad_kaynak": [
    {
     "ad": "Mathûrâ",
@@ -3946,30 +3873,7 @@ window.SEHIR_TARIHCE_HINT = [
   "kur": null,
   "ark": null,
   "bit": null,
-  "sahip": [
-   {
-    "f": "1203-01-01",
-    "t": "1206-06-25",
-    "d": "gurlu",
-    "kesinlik": {
-     "f": "yil",
-     "t": "gun"
-    },
-    "kaynak": "TDV 'AYBEG, Kutbüddin' (tarayıcı tam gövde): 'Gazne’de Gurlular’dan Muizzüddin Muhammed’in sarayına intisap etti' ve '1192-1203 yılları arasında ise Meerut, Ecmîr, Delhi, Kol, Thankir'",
-    "ic_not": "f güvenli uç: iktâ edinme aralığı 1192-1203, aralığın SON ucu (1203) alındı. Aybeg bu dönemde Gurlu hükümdarı Muizzüddin Muhammed'in mîrâhur/komutanıdır; iktâ'nın Gurlu adına tutulduğu TDV'nin anlatımından çıkarımdır (beyan). t = Aybeg'in sultan olduğu gün (olay)."
-   },
-   {
-    "f": "1206-06-25",
-    "t": "1281-01-01",
-    "d": "delhi-memluk",
-    "kesinlik": {
-     "f": "gun",
-     "t": "yil"
-    },
-    "kaynak": "TDV 'AYBEG, Kutbüddin': 'Kutbüddin” unvanıyla 25 Haziran 1206’da Lahor’da tahta çıktı'; Meerut'un Aybeg iktâları arasında sayılması (1192-1203)",
-    "ic_not": "1206-06-25 Delhi Sultanlığı'nın kuruluşu (künye delhi-memluk 1206-01-01; harita anahtarı delhi-sultanligi). Meerut Aybeg'in iktâlarından biri olduğundan Sultanlığa geçişi künye geçişi sayıldı. 1206-1281 arası Meerut'a özgü kaynak BULUNAMADI (Majumdar VI Meerut'u yalnız Timur anlatısında yıl vermeden anar: 'Tarmashirin ... assailed Meerut'; yazılmadı) — süreklilik Delhi Sultanlığı'nın 1281'deki atlas durumuyla örtüşür; Meerut'a özgü bir sahip değişikliği kanıtlanmadı, ara dönem kaynaksız sürekliliktir (beyan). Boşluk merdiveni: TDV okundu, Majumdar VI okundu."
-   }
-  ],
+  "sahip": [],
   "olay": [
    {
     "t": "1206-06-25",
@@ -3979,7 +3883,7 @@ window.SEHIR_TARIHCE_HINT = [
     "kaynak": "TDV 'AYBEG, Kutbüddin', https://islamansiklopedisi.org.tr/aybeg-kutbuddin (tarayıcı tam gövde): 'Sultan Muizzüddin’in ölümü üzerine “Kutbüddin” unvanıyla 25 Haziran 1206’da Lahor’da tahta çıktı'"
    }
   ],
-  "ic_not": "HAKEMLİ KARAR (LAB, 17 Kasım 2026; EMRELİC itirazıyla revize): TDV değeri 1203 KALIR (ilk yıl = TDV'nin 1192-1203 aralığının üst ucu; aralık iktâ edinme tarihidir, fetih tarihi değildir). İKİNCİ ADAY 1192: Columbia 6th ed. \"Meerut was conquered by Muslims in 1192\" ve Minhâc-ı Sirâc Cûzcânî, Tabakât-ı Nâsırî (Elliot&Dowson II) Mirat Tarain sonrası aynı yıl (588 H./1192; aynı eserin başka pasajı 587 H./1191) — Columbia büyük olasılıkla Minhâc'a dayandığından ikisi BAĞIMSIZ iki kaynak sayılmadı; Minhâc'a dayanmayan üçüncü akademik kaynak (örn. P. Jackson, The Delhi Sultanate; Cambridge History of India III) bulunursa 1192'ye çekilmeli. || Tek kaynak (TDV Aybeg maddesi): çift teyit bulunamadı. TDV 'Meerut' şehir maddesi yok (arama 'meerut' Aybeg/Cüzcânî/Bâre Seyyidleri vb. maddeleri döndürdü; Cüzcânî ve Bâre Seyyidleri'nde Meerut yalnız bibliyografya basım yeri). 'Meerut' burada iktâ (idarî birim) olarak anılır; şehir mi bölge mi olduğu TDV'de ayrılmaz — yer-ad eşleşmesi beyanlıdır (Meerut ≈ Mîrat). Firûz Şah Tuğluk'un Asoka sütununu Mîrat'tan Delhi'ye taşıması (Majumdar VI, yıl bu cümlede yok) yazılmadı. Atlas Mîrat'ı 1281'de delhi-sultanligi ile başlatır; bu zincir 1203'e kadar geriye uzanır: atlas başlangıcının 1203'e çekilmesi önerisi (Meerut Sultanlık/Gurlu iktâsı olarak 1203'te var).",
+  "ic_not": "HAKEMLİ KARAR (LAB, 17 Kasım 2026; EMRELİC itirazıyla revize): TDV değeri 1203 KALIR (ilk yıl = TDV'nin 1192-1203 aralığının üst ucu; aralık iktâ edinme tarihidir, fetih tarihi değildir). İKİNCİ ADAY 1192: Columbia 6th ed. \"Meerut was conquered by Muslims in 1192\" ve Minhâc-ı Sirâc Cûzcânî, Tabakât-ı Nâsırî (Elliot&Dowson II) Mirat Tarain sonrası aynı yıl (588 H./1192; aynı eserin başka pasajı 587 H./1191) — Columbia büyük olasılıkla Minhâc'a dayandığından ikisi BAĞIMSIZ iki kaynak sayılmadı; Minhâc'a dayanmayan üçüncü akademik kaynak (örn. P. Jackson, The Delhi Sultanate; Cambridge History of India III) bulunursa 1192'ye çekilmeli. || Tek kaynak (TDV Aybeg maddesi): çift teyit bulunamadı. TDV 'Meerut' şehir maddesi yok (arama 'meerut' Aybeg/Cüzcânî/Bâre Seyyidleri vb. maddeleri döndürdü; Cüzcânî ve Bâre Seyyidleri'nde Meerut yalnız bibliyografya basım yeri). 'Meerut' burada iktâ (idarî birim) olarak anılır; şehir mi bölge mi olduğu TDV'de ayrılmaz — yer-ad eşleşmesi beyanlıdır (Meerut ≈ Mîrat). Firûz Şah Tuğluk'un Asoka sütununu Mîrat'tan Delhi'ye taşıması (Majumdar VI, yıl bu cümlede yok) yazılmadı. Atlas Mîrat'ı 1281'de delhi-sultanligi ile başlatır; bu zincir 1203'e kadar geriye uzanır: atlas başlangıcının 1203'e çekilmesi önerisi (Meerut Sultanlık/Gurlu iktâsı olarak 1203'te var). [18 Kasım LAB 17: atlas başlangıcı kaynak yılına çekildi (atlas ilk gün 1203-01-01, ilk sahip gurlu); aradaki kaynaklı zincir atlasa devredildi, sahip:[] yapıldı. Önceki zincir: 1203-01-01→1206-06-25 gurlu; 1206-06-25→1281-01-01 delhi-memluk — kaynak/ic_not metinleri JSON tarihçesinde (git 7f770ae5b)]",
   "adlar_kaynaksiz": [
    "Meerut",
    "Mîrat"
@@ -4261,19 +4165,10 @@ window.SEHIR_TARIHCE_HINT = [
   "kur": null,
   "ark": null,
   "bit": null,
-  "sahip": [
-   {
-    "f": "0765-01-01",
-    "t": "0942-01-01",
-    "d": "__BOSLUK__",
-    "kesinlik": "yil",
-    "kaynak": "bulunamadı",
-    "ic_not": "765 (Vanaraja/Chavada kuruluşu) ile atlasın caulukya başlangıcı (942) arasında: Gazetteer 'a dynasty which endured for two centuries' der (c.5 s.381: Chavada hanedanı, Solankilerden önce); Chavada künyesi devletler.js'te yok ve tarihli dönem sınırı okunmadı — __BOSLUK__ beyanlı."
-   }
-  ],
+  "sahip": [],
   "olay": [],
-  "ic_not": "TEK KAYNAK (Imperial Gazetteer; OCR). Çift teyit: Britannica sayfası/TDV/Majumdar bu oturumda ilgili yılı vermedi ya da 404 döndü; bağımsız ikinci kaynak bulunamadı. Kaynak iki tarih verir (746 / 765); güvenli uç (aralığın SON ucu) 765 alındı. c.5 s.381 (Anhilvada maddesi) 'founded about A.D. 746-65 by a Chavada Rajput, Vanaraja'; c.2 s.22 'Jain Pattavalis' Vanaraja'nın Anhilwad'ı 746'da kurduğunu söyler (Jain rivayet derlemesi; ayrı bağımsız kaynak sayılmadı — aynı Gazetteer içinde). Kuruluş cümlesi 'In former times it was known as ANHILVADA or Anhilpur, and was founded about A.D. 746' — özne Patan Town'ın kendisidir (madde başlığı). Yerin Mahmud Gaznevî 1026 saldırısı (c.5 s.382) başka bir tanıktır, olay olarak yazılmadı. ÖLÇÜLDÜ: atlas noktası 0942-01-01'de 'caulukya' ile başlıyor (denetim/atlas_ilk_gunleri, 17 Kasım 2026).",
-  "dikis_beyan": "765 (Vanaraja/Chavada kuruluşu) ile atlasın caulukya başlangıcı (942) arasında: Gazetteer 'a dynasty which endured for two centuries' der (c.5 s.381: Chavada hanedanı, Solankilerden önce); Chavada künyesi devletler.js'te yok ve tarihli dönem sınırı okunmadı — __BOSLUK__ beyanlı.",
+  "ic_not": "TEK KAYNAK (Imperial Gazetteer; OCR). Çift teyit: Britannica sayfası/TDV/Majumdar bu oturumda ilgili yılı vermedi ya da 404 döndü; bağımsız ikinci kaynak bulunamadı. Kaynak iki tarih verir (746 / 765); güvenli uç (aralığın SON ucu) 765 alındı. c.5 s.381 (Anhilvada maddesi) 'founded about A.D. 746-65 by a Chavada Rajput, Vanaraja'; c.2 s.22 'Jain Pattavalis' Vanaraja'nın Anhilwad'ı 746'da kurduğunu söyler (Jain rivayet derlemesi; ayrı bağımsız kaynak sayılmadı — aynı Gazetteer içinde). Kuruluş cümlesi 'In former times it was known as ANHILVADA or Anhilpur, and was founded about A.D. 746' — özne Patan Town'ın kendisidir (madde başlığı). Yerin Mahmud Gaznevî 1026 saldırısı (c.5 s.382) başka bir tanıktır, olay olarak yazılmadı. ÖLÇÜLDÜ: atlas noktası 0942-01-01'de 'caulukya' ile başlıyor (denetim/atlas_ilk_gunleri, 17 Kasım 2026). [18 Kasım LAB 17: atlas başlangıcı kaynak yılına çekildi (atlas ilk gün 0765-01-01, ilk sahip __BOSLUK__); aradaki kaynaklı zincir atlasa devredildi, sahip:[] yapıldı. Önceki zincir: 0765-01-01→0942-01-01 __BOSLUK__ — kaynak/ic_not metinleri JSON tarihçesinde (git 7f770ae5b)]",
+  "dikis_beyan": "Atlas başlangıcı kaynak yılına çekildi; dikiş gerekmedi (bkz. ic_not).",
   "ad_kaynak": [
    {
     "ad": "Anhilvada",

@@ -1004,7 +1004,7 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
   "sahip": [
    {
     "f": "1909-01-01",
-    "t": "1967-05-30",
+    "t": "1915-01-01",
     "d": "__BOSLUK__",
     "kesinlik": "belirsiz",
     "kaynak": "Encyclopaedia Britannica, «Enugu» (tarayıcı sayfa okuma, 17 Kasım 2026)",
@@ -1031,7 +1031,7 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
     "tanik": "Enugu served briefly (May–October 1967) as the provisional capital of the secessionist Republic of Biafra"
    }
   ],
-  "ic_not": "ÇİFT TEYİT (LAB, 17 Kasım 2026; Britannica/ilk kaynaktan bağımsız ikinci kaynak): The Columbia Encyclopedia 6th ed., «Enugu», https://www.encyclopedia.com/reference/encyclopedias-almanacs-transcripts-and-maps/enugu; includes() 17 Kas 2026 | tanık 2: \"Enugu developed as a mining town after the discovery of coal in 1909\" | 1909 aynı (kömürün keşfi); kuruluş=kömür keşfi yılı || İLK KAYNAK (Britannica). 1967-05-01 ayın ilk gününe genişletilmiş AY hassasiyetidir (kaynak ay verir); Biafra'nın bağımsızlık ilanı 1967-05-30 aynı sayfada (Biafra bölümü) okunmuştur, atlas dikişi 1967-05-30 ile ±30 gün içindedir. 'Kuruluş' niceliği: 'owes its existence to the discovery of coal' (kömür keşfi 1909) — kuruluş günü kaynakta yok.",
+  "ic_not": "ÇİFT TEYİT (LAB, 17 Kasım 2026; Britannica/ilk kaynaktan bağımsız ikinci kaynak): The Columbia Encyclopedia 6th ed., «Enugu», https://www.encyclopedia.com/reference/encyclopedias-almanacs-transcripts-and-maps/enugu; includes() 17 Kas 2026 | tanık 2: \"Enugu developed as a mining town after the discovery of coal in 1909\" | 1909 aynı (kömürün keşfi); kuruluş=kömür keşfi yılı || İLK KAYNAK (Britannica). 1967-05-01 ayın ilk gününe genişletilmiş AY hassasiyetidir (kaynak ay verir); Biafra'nın bağımsızlık ilanı 1967-05-30 aynı sayfada (Biafra bölümü) okunmuştur, atlas dikişi 1967-05-30 ile ±30 gün içindedir. 'Kuruluş' niceliği: 'owes its existence to the discovery of coal' (kömür keşfi 1909) — kuruluş günü kaynakta yok. [18 Kasım LAB 17: boşluk atlas başlangıcında (1915-01-01) bitirildi; önceki bitiş 1967-05-30 atlasla çakışıyordu]",
   "ad_kaynak": [
    {
     "ad": "Enugu",
@@ -1040,7 +1040,8 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
     "kaynak": "Encyclopaedia Britannica 'Enugu' https://www.britannica.com/place/Enugu-Nigeria",
     "kanit": "Enugu, town, capital of Enugu state, southeastern Nigeria"
    }
-  ]
+  ],
+  "dikis_beyan": "Atlas noktası geçişi (1915-01-01) için kaynaklı olay yok; kaynak yılı ile atlas başlangıcı arasındaki aralık BOSLUK olarak beyan edildi, yer tutucu olay yazılmadı (18 Kasım LAB 17)."
  },
  {
   "id": "franceville-ga-p3",
@@ -4223,16 +4224,7 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
   "kur": null,
   "ark": null,
   "bit": null,
-  "sahip": [
-   {
-    "f": "1804-01-01",
-    "t": "1812-01-01",
-    "d": "sokoto",
-    "kesinlik": "yil",
-    "kaynak": "TDV İslâm Ansiklopedisi, 'Sokoto' (Ahmet Kavas), c. 37, İstanbul 2009, s. 351-352, https://islamansiklopedisi.org.tr/sokoto",
-    "ic_not": "Aynı sahip (Fulani cihad devleti / Sokoto) atlasın 1812 başlangıcıyla süreklidir; 1804-1812 arası devlet statüsü TDV'de 'üs' olarak geçer, künye ömrü 1804'ten."
-   }
-  ],
+  "sahip": [],
   "olay": [
    {
     "t": "1804-01-01",
@@ -4270,7 +4262,7 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
     "kaynak": "TDV İslâm Ansiklopedisi, 'Sokoto' (Ahmet Kavas), c. 37, İstanbul 2009, s. 351-352, https://islamansiklopedisi.org.tr/sokoto"
    }
   ],
-  "ic_not": "Yalnız TDV; çift teyit yok. TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Uyuşmayanlar: ALINTI DÜZELTİLDİ (ilk.tanik): olgu doğru, önceki alıntı WebFetch özetinden/paraphrase idi; TDV gövdesindeki gerçek cümle yazıldı. Önceki notlardaki \"WebFetch özeti / tam metne karşı doğrulandı (tarayıcı) / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir. | Parti5 tanık kuralı (17 Kasım 2026): tanik cümleden birebir yenilendi [ilk]: TDV cümlesi başına ad eklendi || [MÜKERRER BİRLEŞTİRME 17 Kasım 2026: sokoto (sehir_tarihce_k12.js) kaydından] ATLAS: Sokoto kur 1812 (halifeliğin ilanı); kasaba/karargâh 1804’ten beri var → atlas başlangıcı 1804’e çekilebilir (künye sokoto 1804).",
+  "ic_not": "Yalnız TDV; çift teyit yok. TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Uyuşmayanlar: ALINTI DÜZELTİLDİ (ilk.tanik): olgu doğru, önceki alıntı WebFetch özetinden/paraphrase idi; TDV gövdesindeki gerçek cümle yazıldı. Önceki notlardaki \"WebFetch özeti / tam metne karşı doğrulandı (tarayıcı) / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir. | Parti5 tanık kuralı (17 Kasım 2026): tanik cümleden birebir yenilendi [ilk]: TDV cümlesi başına ad eklendi || [MÜKERRER BİRLEŞTİRME 17 Kasım 2026: sokoto (sehir_tarihce_k12.js) kaydından] ATLAS: Sokoto kur 1812 (halifeliğin ilanı); kasaba/karargâh 1804’ten beri var → atlas başlangıcı 1804’e çekilebilir (künye sokoto 1804). [18 Kasım LAB 17: atlas başlangıcı kaynak yılına çekildi (atlas ilk gün 1804-01-01, ilk sahip sokoto); aradaki kaynaklı zincir atlasa devredildi, sahip:[] yapıldı. Önceki zincir: 1804-01-01→1812-01-01 sokoto — kaynak/ic_not metinleri JSON tarihçesinde (git 7f770ae5b)]",
   "ad_kaynak": [
    {
     "ad": "Sakvato",
@@ -5009,7 +5001,7 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
   "sahip": [
    {
     "f": "1837-01-01",
-    "t": "1890-10-18",
+    "t": "1840-01-01",
     "d": "__BOSLUK__",
     "kesinlik": "yil",
     "kaynak": "Klaus Dierks, Chronology of Namibian History, 1836-1838 (https://www.klausdierks.com/Chronology/10.htm) ve 1890 (https://www.klausdierks.com/Chronology/45.htm)",
@@ -5033,7 +5025,7 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
     "kaynak": "Klaus Dierks, Chronology of Namibian History, 1890, https://www.klausdierks.com/Chronology/45.htm"
    }
   ],
-  "ic_not": "ZAYIF KAYNAK ZİNCİRİ: yalnız Dierks kronolojisi (hakemli değil, ikincil derleme) okunabildi; Britannica 403 verdi, SAHO Windhoek sayfası okunmadı. Öneri: çift teyit için Lau (1987), 'Jan Jonker Afrikaner' / Dierks'in kaynakçası. Windhoek 'kuruluş' tarihi 18 Ekim 1890 (von François, yaygın anlatı) Dierks'e göre 'permanent settlement ~50 yıl önce' olduğundan kuruluş değil, Alman karargâh/kale tarihi alındı. Ad kaynakları: Dierks (1838: Otjomuise 'place of smoke'; Windhoek adı 12.08.1844'te ilk doğrulanır; Winterhoek (Tulbagh) kökeni tartışmalı). | Parti5 tanık kuralı (17 Kasım 2026): kesinlik belirsiz'e indirildi (ad+yıl aynı cümlede birebir bulunamadı) [ilk]: Dierks: '1836/37' giriş başlığı, 'Queen Adelaide’s Bath (present-day Windhoek)' sonraki cümle; yıl+ad aynı cümlede değil | Parti5 tanık kuralı (17 Kasım 2026): tanik cümleden birebir yenilendi [kur]: Dierks satırı: yıl satır başında, ad |Ai-||Gams (adlar)",
+  "ic_not": "ZAYIF KAYNAK ZİNCİRİ: yalnız Dierks kronolojisi (hakemli değil, ikincil derleme) okunabildi; Britannica 403 verdi, SAHO Windhoek sayfası okunmadı. Öneri: çift teyit için Lau (1987), 'Jan Jonker Afrikaner' / Dierks'in kaynakçası. Windhoek 'kuruluş' tarihi 18 Ekim 1890 (von François, yaygın anlatı) Dierks'e göre 'permanent settlement ~50 yıl önce' olduğundan kuruluş değil, Alman karargâh/kale tarihi alındı. Ad kaynakları: Dierks (1838: Otjomuise 'place of smoke'; Windhoek adı 12.08.1844'te ilk doğrulanır; Winterhoek (Tulbagh) kökeni tartışmalı). | Parti5 tanık kuralı (17 Kasım 2026): kesinlik belirsiz'e indirildi (ad+yıl aynı cümlede birebir bulunamadı) [ilk]: Dierks: '1836/37' giriş başlığı, 'Queen Adelaide’s Bath (present-day Windhoek)' sonraki cümle; yıl+ad aynı cümlede değil | Parti5 tanık kuralı (17 Kasım 2026): tanik cümleden birebir yenilendi [kur]: Dierks satırı: yıl satır başında, ad |Ai-||Gams (adlar) [18 Kasım LAB 17: boşluk atlas başlangıcında (1840-01-01) bitirildi; önceki bitiş 1890-10-18 atlasla çakışıyordu]",
   "ad_kaynak": [
    {
     "ad": "Windhoek",
@@ -5054,7 +5046,8 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
    "Queen Adelaide's Bath (1836/37 anılışı)",
    "ǀAi-ǁGams (Nama)",
    "Otjomuise (Herero)"
-  ]
+  ],
+  "dikis_beyan": "Atlas noktası geçişi (1840-01-01) için kaynaklı olay yok; kaynak yılı ile atlas başlangıcı arasındaki aralık BOSLUK olarak beyan edildi, yer tutucu olay yazılmadı (18 Kasım LAB 17)."
  },
  {
   "id": "worcester-za-p3",
