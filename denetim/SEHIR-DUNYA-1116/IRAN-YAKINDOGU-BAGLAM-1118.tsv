@@ -1,0 +1,15 @@
+ad	modern_ad	karar	tdv_baglam
+Uralsk	Oral	yazilmadi	TDV 'kazaklar': yalnız kaynakça ('Oral Art and Literature…', 'Oral Epics') — şehir anılışı değil
+Turgay	Torgay	yazilmadi	TDV 'kazakistan': Irgız ve Turgay NEHİRLERİ / 1838'de Kenesarı'nın Irgız-Turgay BÖLGELERİNİ geri alması — şehir değil, bölge; Irgiz de aynı cümlede
+Irgiz	Yrgyz	yazilmadi	aynı (nehir/bölge)
+Batken	Batken	yazilmadi	TDV 'kirgizistan': yalnız yedi oblast sayımı
+Tokmok	Tokmok	yazilmadi	TDV 'talas-savasi': 'Kao Sien-Chih, 748 yılında Tanrı dağlarının kuzeyindeki Tokmok'u alarak…' — 748 Çin ele geçirişi; yer = Tokmok civarı/Suyab, bugünkü Tokmak kentiyle özdeşliği TDV'de kurulmuyor (şehir kimliği belirsiz) → yazılmadı; ikinci akademik kaynak (Suyab/Tokmak) aranmalı
+Talas	Talas	yazilmadi	TDV 'kazakistan': Tarâz (Talas) 'VII.' yy ticaret merkezi (yüzyıl); 'kirgizistan': oblast adı. Talas (Kırgızistan) şehri ≠ Tarâz
+Sühbaatar	Sükhbaatar	yazilmadi	TDV 'mogolistan' taramasında ad geçmedi (regex 0)
+Altay (Şara Sume)	Şara Sume	yazilmadi	yalnız 'Altay' dağ/bölge adı
+Karaşar (Yanqi)	Yanqi	yazilmadi	TDV 'talas-savasi': 'Kuça, Karaşar, Hoten ve Kâşgar'ın işgaline' yılsız cümle (751 bağlamı, ama yıl bu cümlede yok)
+Suzak (Sozak)	Sozak	yazilmadi	TDV 'kazakistan': Abılay Han'ın Sayram, Çimkent, Suzak'ı yönetimine alması (XVIII. yy, yılsız)
+Fuzuli	Fuzuli	yazilmadi	TDV taramasında şehir anılışı yok (0 bağlam)
+Oğuz	Oğuz	yazilmadi	0 bağlam
+Beersheba	Beersheba	yazilmadi	0 bağlam (TDV 'filistin' taramasında Birüssebi/Beersheba yok)
+Amran	Amran	yazilmadi	0 bağlam
