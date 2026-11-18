@@ -397,7 +397,9 @@ window.ACILIS_SILUET = {
     yer(kv, cx + p.lx - 14, cy + p.ly - 14);
     sahne.appendChild(kv);
     kv.animate([{ transform: "scale(.2)", opacity: 1 }, { transform: "scale(2.4)", opacity: 0 }],
-               { duration: 560, delay: t, easing: "ease-out", fill: "both" });
+               // fill "forwards": "both" idi — gecikme boyunca ilk kare (küçük, opak halka)
+               // görünüyor, kürenin çevresinde 200 nokta bekliyordu (Emre, 19 Kas)
+               { duration: 560, delay: t, easing: "ease-out", fill: "forwards" });
   }
   function tr(x, y, s) { return "translate(" + x.toFixed(0) + "px," + y.toFixed(0) + "px) scale(" + s + ")"; }
   isler.forEach(function (is) {
