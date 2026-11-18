@@ -136,7 +136,7 @@ BEKLENEN_CEVIRI_EKSIK = {
     "fr": {"arayuz": 0, "devlet": 0, "olay": 0},
     "zh": {"arayuz": 0, "devlet": 0, "olay": 0},
     "ja": {"arayuz": 0, "devlet": 0, "olay": 0},
-    "id": {"arayuz": 1859, "devlet": 2315, "olay": 2899},
+    "id": {"arayuz": 1859, "devlet": 2315, "olay": 2829},
     "bn": {"arayuz": 1859, "devlet": 2315, "olay": 5139},
     "ur": {"arayuz": 1859, "devlet": 2315, "olay": 5139},
     "sw": {"arayuz": 1859, "devlet": 2315, "olay": 5139},
