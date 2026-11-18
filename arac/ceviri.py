@@ -36,7 +36,8 @@ DILLER = [("tr", "Türkçe"), ("en", "English"), ("ar", "العربية"), ("es"
           ("fr", "Français"), ("ru", "Русский"), ("zh", "中文"), ("hi", "हिन्दी"),
           ("pt", "Português"), ("de", "Deutsch"), ("ja", "日本語"), ("fa", "فارسی"),
           ("it", "Italiano"), ("ko", "한국어"), ("pl", "Polski"), ("nl", "Nederlands"),
-          ("el", "Ελληνικά")]
+          ("el", "Ελληνικά"), ("id", "Bahasa Indonesia"), ("bn", "বাংলা"), ("ur", "اردو"),
+          ("sw", "Kiswahili")]
 
 # TAVANLAR (CLAUDE.md "Tavanlar"): 4 Kasım 2026 ölçümü, birleşik dal. {dil: {tür: sayı}}.
 # Yalnız GERİLEME bloke eder; iyileşince aynı commit'te İNDİRİLİR, YÜKSELTİLMEZ (yeni Türkçe
@@ -135,6 +136,10 @@ BEKLENEN_CEVIRI_EKSIK = {
     "fr": {"arayuz": 0, "devlet": 0, "olay": 0},
     "zh": {"arayuz": 0, "devlet": 0, "olay": 0},
     "ja": {"arayuz": 0, "devlet": 0, "olay": 0},
+    "id": {"arayuz": 1859, "devlet": 2315, "olay": 5139},
+    "bn": {"arayuz": 1859, "devlet": 2315, "olay": 5139},
+    "ur": {"arayuz": 1859, "devlet": 2315, "olay": 5139},
+    "sw": {"arayuz": 1859, "devlet": 2315, "olay": 5139},
 }
 # 13 Kasım 2026 (KASA batch 15): bayat olay en/ar/es/de 71→72 (ÖLÇÜM) — UMIT p08 / EMRELİC ant17 ana maddelere `antlasma_id` yazdı
 # (Zitvatorok/Buçaş/Vasvar/İstanbul 1700, Yergöğü, İngiliz 1799). Kaynak ölçüldü; çeviri işi site bitince (Emre, 13 Kasım).
@@ -148,6 +153,10 @@ BEKLENEN_CEVIRI_BAYAT = {
     "fr": {"arayuz": 0, "devlet": 0, "olay": 0},
     "zh": {"arayuz": 0, "devlet": 0, "olay": 0},
     "ja": {"arayuz": 0, "devlet": 0, "olay": 0},
+    "id": {"arayuz": 0, "devlet": 0, "olay": 0},
+    "bn": {"arayuz": 0, "devlet": 0, "olay": 0},
+    "ur": {"arayuz": 0, "devlet": 0, "olay": 0},
+    "sw": {"arayuz": 0, "devlet": 0, "olay": 0},
 }
 
 
