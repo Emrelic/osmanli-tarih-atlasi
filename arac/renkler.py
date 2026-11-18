@@ -4699,6 +4699,12 @@ BOYALAR = {
     "bosna-sirp-cumhuriyeti": ("Sırp Cumhuriyeti (Republika Srpska)", "#fc12ae"),
     "bundela-orcha": ("Orchha (Bundela) Krallığı", "#de24de"),
     "charrua": ("Charrúa (Minuan · Guenoa)", "#a2cc24"),
+    # D1 künye partisi (18 Kasım 2026) — renk_olc --oner
+    "maori-iwi": ("Māori İwi Toplulukları (1835 Öncesi)", "#2442d8"),
+    "nauru-kabileleri": ("Nauru On İki Aşireti (Alman İlhakı Öncesi)", "#24ccd8"),
+    "marshall-irojlari": ("Marshall Adaları İroj Toplulukları", "#24d824"),
+    "vanuatu-topluluklari": ("Yeni Hebridler (Vanuatu) Toplulukları", "#24d86c"),
+    "pampa-patagonya-halklari": ("Pampa ve Patagonya Halkları (Arjantin Tarafı)", "#24d8ae"),
     "cin-sovyet-cumhuriyeti": ("Çin Sovyet Cumhuriyeti (Jiangxi)", "#5424cc"),
     "ciskei": ("Ciskei (Bantustan)", "#a224cc"),
     "daglik-karabag": ("Dağlık Karabağ Cumhuriyeti (Artsakh; fiilî)", "#2424c6"),
