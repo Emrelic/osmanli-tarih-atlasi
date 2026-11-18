@@ -49,6 +49,10 @@ window.CEVIRI_DIZIN = {
   {
    "kod": "fa",
    "ad": "فارسی"
+  },
+  {
+   "kod": "pl",
+   "ad": "Polski"
   }
  ],
  "dosyalar": {
@@ -492,6 +496,12 @@ window.CEVIRI_DIZIN = {
    [
     "ceviri_fa_olay_08.js",
     "6b40eed7"
+   ]
+  ],
+  "pl": [
+   [
+    "ceviri_pl_olay.js",
+    "e088c377"
    ]
   ]
  }
