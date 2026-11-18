@@ -1391,6 +1391,20 @@ function ufukAcik() {
   } catch (e) { return false; }  // katman henüz yok ⇒ kapalı
 }
 
+// 🔴 UFUK-BANT-1117 (Emre): 1281 ÖNCESİ günlerde taban 10 günlük MÖ bütçesiyle kurulur
+//    (MO_YURUYUS_GUN=10) ⇒ "5 gün" seçilince tabanı göstermek 10 günü göstermekti.
+//    Bu yüzden 5/7/10 SEÇİMİ (`ufukSecim`) kullanıcıdan, "bant çizilsin mi" kararı ZAMANDAN gelir:
+//      7/10            → hep o bant (eskisi gibi)
+//      5, gün < 1281   → ≤5 bandı (motor MÖ günlerinde 40 saatlik bandı AYRI hesaplar)
+//      5, gün ≥ 1281   → taban (A) — değişmez
+//    Döner: çizilecek bandın günü (5/7/10) ya da 0 (taban).
+var ufukSecim = 5;               // kullanıcının seçimi (düğme); katmanın açıklığı DEĞİL
+function ufukEtkin(t) {
+  if (ufukSecim > 5) return ufukSecim;
+  if (ufukSecim === 5 && typeof t === "number" && t < VERI_BASI) return 5;
+  return 0;
+}
+
 function ufukRozet(metin) {
   var rz = document.getElementById("kat-sayi-ufuk");
   if (rz) rz.textContent = metin;
@@ -1545,15 +1559,29 @@ function ufukTabanDegistir(gizle, zorla) {
 }
 
 function ufukGuncelle(t) {
-  if (!ufukVeri) return;
-  // Açıklık KATMANDAN okunur (bkz. `ufukAcik`) — kapalıysa imza sıfırlanır
-  // ki açıldığında kesit yeniden yazılsın (`dolguGuncelle` deseni).
-  if (!ufukAcik() || ufukGun <= 5) {
+  var gEtkin = ufukEtkin(t);           // UFUK-BANT-1117: seçim + zaman ⇒ çizilecek bant (0 = taban)
+  if (!gEtkin || ufukHata) {
+    // taban: katman gizli, imza sıfır. (ufukHata: yükleme başarısız ⇒ A'da kalınır.)
+    if (ufukAcik()) {
+      try { harita.setLayoutProperty("ufuk-bant-alan", "visibility", "none"); } catch (e) { /* katman yok */ }
+    }
     ufukImza = null;
     ufukTabanDegistir(false);          // 🔴 H-0013: bant yoksa taban AÇIKTIR
     return;
   }
-  var fs = [], imza = ufukGun + "|";
+  if (!ufukVeri) {
+    // 5 gün + 1281 öncesine ilk girişte (ya da yükleme sürerken) bant TEMBEL yüklenir.
+    if (!ufukYukleniyor) {            // yükleme sürerken her zaman adımı ikinci geri çağrı EKLEMEZ
+      ufukRozet("yükleniyor…");
+      ufukYukle(function () { try { ufukImza = null; ufukGuncelle(suanki); } catch (e) { /* stil hazır değil */ } });
+    }
+    return;
+  }
+  if (!ufukAcik()) {
+    try { harita.setLayoutProperty("ufuk-bant-alan", "visibility", "visible"); } catch (e) { /* katman yok */ }
+  }
+  ufukTabanDegistir(true);             // bant tabanın YERİNE geçer
+  var fs = [], imza = gEtkin + "|";
   // 🔴 HARITA-ON-YUZ-1010 — bantlar BİRİKİMLİDİR, artış halkası DEĞİL.
   //    Ölçüldü (4.902 kayıt × 3 bant, alan): adlar "<=5" "<=7" "<=10" ve
   //    <=7 alanı <=5'in ortanca 1,052 katı (yüzdelik 10: 1,000 · 90: 1,227);
@@ -1565,11 +1593,12 @@ function ufukGuncelle(t) {
   var secili = -1;
   for (var q = 0; q < ufukVeri.length; q++) {
     var gq = ufukVeri[q].gun;
-    if (gq > 5 && gq <= ufukGun && (secili < 0 || gq > ufukVeri[secili].gun)) secili = q;
+    if (gq >= 5 && gq <= gEtkin && (secili < 0 || gq > ufukVeri[secili].gun)) secili = q;
   }
   for (var k = 0; k < ufukVeri.length; k++) {
     var b = ufukVeri[k];
-    // Taban bandı (<=5) A'nın kendisidir, onu ÇİZMEYİZ — zaten haritada.
+    // 1281 SONRASI taban bandı (<=5) A'nın kendisidir ve `ufukEtkin` onu zaten istemez;
+    // 1281 ÖNCESİ ≤5 bandı tabandan (10 günlük) AYRIDIR ve çizilir.
     if (k !== secili) continue;
     var dnm = b.dnm || [];
     for (var i = 0; i < dnm.length; i++) {
@@ -1577,10 +1606,11 @@ function ufukGuncelle(t) {
       if (!aktifAralik(r.fi, r.ti, t)) continue;
       if (!r.ft) {
         r.ft = { type: "Feature",
-                 // 🎨 Devletin rengi BİR TIK AÇIK (`acikTon` — tek otorite).
-                 //    Eski hâl: DOLGU_RENK'in kendisi + opaklık 1 ⇒ bant A'dan
-                 //    AYIRT EDİLEMİYORDU, Emre'nin "koyu renk opak görünüm"ü.
-                 properties: { renk: acikTon(DOLGU_RENK[r.d] || "#8e0b22"), kim: r.d },
+                 // 🎨 UFUK-BANT-1117 (Emre): "renklendirme bant yüzünden DEĞİŞMEMELİ".
+                 //    Bant tabanın YERİNE geçer ve gövdesi taban hattından geçer ⇒ renk
+                 //    tabanın rengidir (`DOLGU_RENK`); `acikTon` (%20 açma) KALDIRILDI.
+                 //    Opaklık `SIYASI_KIP.*["ufuk-bant-alan"]` ifadesiyle tabanla aynı.
+                 properties: { renk: DOLGU_RENK[r.d] || "#8e0b22", kim: r.d },
                  geometry: parcaCoz(r.g, ufukHavuz, ufukParca) };
       }
       if (!r.ft.geometry || !r.ft.geometry.coordinates.length) continue;
@@ -1601,7 +1631,7 @@ function ufukGuncelle(t) {
 function ufukSecimEsitle() {
   var sec = document.getElementById("ufuk-segment");
   if (!sec) return;
-  var g = ufukAcik() ? ufukGun : 5;
+  var g = ufukSecim;                   // UFUK-BANT-1117: düğme KULLANICI SEÇİMİNİ gösterir (zamana göre değişen katman açıklığını değil)
   sec.querySelectorAll('input[name="ufuk-gun"]').forEach(function (r) {
     r.checked = (parseInt(r.value, 10) === g);
   });
@@ -1620,21 +1650,21 @@ function ufukSeciciKur() {
     if (!hedef || hedef.name !== "ufuk-gun") return;
     var istenen = parseInt(hedef.value, 10) || 5;
     function uygula(varMi) {
+      // UFUK-BANT-1117: seçim KAYDEDİLİR; bandın çizilip çizilmeyeceğine (7/10 her zaman;
+      // 5 yalnız 1281 öncesinde) `ufukGuncelle` → `ufukEtkin(suanki)` karar verir ve
+      // tabanı gizleme/geri getirme de orada (bant tabanın YERİNE geçer — H-0013).
+      // Yükleme başarısızsa (varMi=false) seçim 5'e döner ve sebep rozette durur.
+      ufukSecim = (varMi || istenen <= 5) ? istenen : 5;
       if (varMi && istenen > 5) ufukGun = istenen;
-      var ac = varMi && istenen > 5;
-      try {
-        harita.setLayoutProperty("ufuk-bant-alan", "visibility", ac ? "visible" : "none");
-      } catch (e) { /* katman henüz yok */ }
-      ufukTabanDegistir(ac);   // 🔴 H-0013 (ARAYUZ-BANT-TAM-1005): bant tabanın
-                               //    ÜSTÜNE değil, YERİNE geçer — taban gizlenir
       ufukImza = null;                 // kapanınca/açılınca kesit yeniden yazılsın
-      if (ac) { try { ufukGuncelle(suanki); } catch (e) {} }
-      else {
+      if (ufukEtkin(suanki) === 0) {
         try { harita.getSource("ufuk-bant").setData(bosVeri()); } catch (e) {}
         // Başarısız yüklemede SESSİZ geri dönüş YOK — sebep rozette durur.
         ufukRozet(istenen > 5 && ufukHata ? ufukHata : "");
       }
-      ufukSecimEsitle();               // düğme katmanın GERÇEK hâlini göstersin
+      try { ufukGuncelle(suanki); } catch (e) { /* stil hazır değil */ }
+      ufukSecimEsitle();               // düğme SEÇİMİ göstersin
+      try { dolguImza = null; dolguGuncelle(suanki); } catch (e) { /* stil hazır değil */ }
     }
     if (istenen <= 5) { uygula(true); return; }
     if (!ufukVeri && !ufukHata) ufukRozet("yükleniyor…");
@@ -1729,6 +1759,18 @@ function dolguGuncelle(t) {
            harita.getLayoutProperty("dolgu-b-alan", "visibility") !== "none";
   } catch (e) { acik = false; }
   if (!acik) { dolguImza = null; return; }
+  // 🔴 UFUK-BANT-1117: ufuk bandı (7/10) tabanın YERİNE geçer ve gövdesi zaten B dolgu
+  //    hattından (kapat/B1/B2/B3) geçmiş hâlde gelir ⇒ Ⓑ dolgu katmanı bandın ÜSTÜNE
+  //    binmesin (çift boyama). Bant kapanınca imza sıfırlanıp dolgu yeniden yazılır.
+  var bantta = false;
+  try { bantta = ufukEtkin(t) > 0 && !ufukHata; } catch (e) { bantta = false; }
+  if (bantta) {
+    if (dolguImza !== "BANT") {
+      dolguImza = "BANT";
+      try { harita.getSource("dolgu").setData(bosVeri()); } catch (e) { /* kaynak yok */ }
+    }
+    return;
+  }
   var fs = [], imza = "";
   for (var i = 0; i < dolgular.length; i++) {
     var r = dolgular[i];
@@ -2894,7 +2936,7 @@ harita.on("load", function () {
   harita.addSource("ufuk-bant", agirKaynak());
   harita.addLayer({ id: "ufuk-bant-alan", type: "fill", source: "ufuk-bant",
     layout: { visibility: "none" },
-    paint: { "fill-color": ["coalesce", ["get", "renk"], acikTon("#8e0b22")],
+    paint: { "fill-color": ["coalesce", ["get", "renk"], "#8e0b22"],
              "fill-opacity": 1 } }, "devlet-dolgu");
   harita.addLayer({ id: "devlet-cizgi", type: "line", source: "devlet",
     paint: { "line-color": ["get", "renk"], "line-width": 1.5, "line-opacity": 0.85 } });
@@ -4164,6 +4206,7 @@ harita.on("load", function () {
   try { performance.mark("atlas-hazir"); } catch (e) { /* eski tarayıcı */ }
   try { if (window.acilisBitir) window.acilisBitir(); } catch (e) { console.error("açılış perdesi kapatılamadı:", e); }
   try { tamEkranSor(); } catch (e) { console.error("tam ekran sorusu kurulamadı:", e); }  // ARAYUZ-0082 / H-0080
+  try { derinBaglantiUygula(); } catch (e) { console.error("[derin bağlantı]", e); }      // SEO-STATIK-1117
   aktifDonem = -1;
 
   // GÜVEN KUŞAKLARI (KITA 12 prototipi) — ekran görüntüsü almayı kolaylaştırmak
@@ -9478,6 +9521,37 @@ function baslikUrlOku() {
   var gecerli = window.SUZGEC.baslikEtiketleri();
   var secili = s.split(",").filter(function (g) { return gecerli.indexOf(g) >= 0; });
   return secili.length ? secili : null;
+}
+// SEO-STATIK-1117 (Emre, 17 Kasım 2026) — DERİN BAĞLANTI. Statik madde sayfalarının
+// (arac/statik_sayfa.js → m/*.html) "Haritada aç" düğmesi buraya gelir:
+//   ?madde=<DİZİ:t:n>&gun=<t>   madde kimliği js/ceviri.js ile aynı (dizi adı:t:aynı t'nin sırası)
+//   ?gun=YYYY-MM-DD             yalnız tarihe git (devlet/kişi sayfaları, ya da madde bulunamazsa)
+// Madde Osmanlı listesindeyse (`olaylar`) olayaGit ile açılır; değilse (KRONOLOJI_* dizileri
+// listede yok) o güne gidilir. `olaylar` kopyadır (Object.assign) → eşleşme t + Türkçe başlıkla.
+// Bir kez uygulanır; parametreler adres çubuğundan SİLİNMEZ (paylaşılan bağlantı aynı yere açılsın).
+function derinBaglantiUygula() {
+  var q = new URL(window.location.href).searchParams;
+  var mid = q.get("madde"), gun = q.get("gun");
+  if (!mid && !gun) return;
+  if (mid) {
+    var p = /^([A-Za-z0-9_]+):([+-]?\d+(?:-\d{2}){0,2}):(\d+)$/.exec(mid);
+    var dizi = p && Array.isArray(window[p[1]]) ? window[p[1]] : null;
+    if (dizi) {
+      var n = +p[3], kaynak = null;
+      for (var i = 0; i < dizi.length; i++) {
+        if (dizi[i] && dizi[i].t === p[2] && n-- === 0) { kaynak = dizi[i]; break; }
+      }
+      if (kaynak) {
+        var bas = kaynak.b_tr || kaynak.b;
+        for (var j = 0; j < olaylar.length; j++) {
+          var o = olaylar[j];
+          if (o.t === kaynak.t && (o.b_tr || o.b) === bas) { olayaGit(o, true, true); return; }
+        }
+        if (!gun) gun = kaynak.t;
+      }
+    }
+  }
+  if (gun && /^[+-]?\d+(-\d{2}){0,2}$/.test(gun)) tarihAyarla(gunIdx(gun));
 }
 function suzgecUrlOku() {
   var s = new URL(window.location.href).searchParams.get("konu");
@@ -20167,7 +20241,7 @@ function katmanSeciciKur() {
     //    gerçek — eşik koruması bu yeniden uygulamayı atlatırdı; stil geç
     //    yüklendiyse ilk seferde yakalanamayan katmanları da ikinci kez
     //    yakalar (`styledata` bu `uygula`yı yeniden tetikler).
-    try { ufukTabanDegistir(ufukAcik() && ufukGun > 5, true); } catch (e) { /* stil geç */ }
+    try { ufukTabanDegistir(ufukEtkin(suanki) > 0 && !ufukHata, true); } catch (e) { /* stil geç */ }
   }
 
   // 🔴 ALTLIK ÜÇ ŞIKLI SEÇİCİ (29 Eylül 2026) — `input[data-katman]`

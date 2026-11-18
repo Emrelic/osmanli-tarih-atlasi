@@ -274,6 +274,7 @@ Ceviri.ekle("ru","arayuz",{
 "# Temmuz # (# Cemâziyelâhir #)":["# июля # (# джумада ас-сани #)", "117e9575"],
 "# Temmuz # (# Zilkade # — TDV tebriz)":["# июля # (# зу-ль-каада # — TDV tebriz)", "e69a9738"],
 "# Temmuz # (# Şevval #)":["# июля # (# шавваля #)", "ab6aa597"],
+"# Temmuz # (# Şâban #)":["# июля # (# шаабана #)", "5013bb7f"],
 "# Temmuz # (Berlin Antlaşması)":["# июля # (Берлинский договор)", "7d8e5a8c"],
 "# Temmuz # (Dnepr ötesi # Temmuz)":["# июля # (за Днепром # июля)", "a33cc92a"],
 "# Temmuz # (Jülyen # Haziran)":["# июля # (# июня по юлианскому календарю)", "e37ad0bb"],

@@ -6,16 +6,43 @@
 <title>KRONOATLAS — Etkileşimli Tarih Atlası</title>
 <!-- KRONOATLAS (Emre onayı, 16 Kasım 2026): marka adı çevrilmez; alt başlık/açıklama dile göre
      js/marka.js'te çevrilir (ham HTML Türkçe — tarayıcı olmayan okuyucu bunu görür).
-     ALAN-ADI: og:url ve canonical şimdilik github.io; kronoatlas.com / kronoatlas.com.tr
-     bağlanınca (Emre DNS yapacak) İKİSİ DE yeni adrese çevrilecek. -->
+     ALAN-ADI (17 Kasım 2026, ölçüldü): CNAME = kronoatlas.com; github.io adresi 301 ile
+     kronoatlas.com'a yönleniyor ⇒ canonical, og:url, JSON-LD url, robots.txt ve sitemap
+     kronoatlas.com'u gösterir (yönlenen adresi canonical vermek Google'a çelişkili sinyaldir). -->
 <meta name="description" content="Zaman ilerledikçe devlet sınırlarının değiştiği, yanında kronoloji ve dönemin hükümdarının aktığı etkileşimli tarih atlası. Osmanlı 1281–1923 gün hassasiyetinde; dünya kapsamı kademeli genişliyor. Beta sürümü.">
+<!-- SEO-ANAHTAR (Emre, 17 Kasım 2026): Google meta keywords'ü okumaz (2009'dan beri); Yandex/Bing
+     vb. için duruyor. Google'ın okuduğu kelime alanı aşağıdaki JSON-LD "keywords"/"about"tur.
+     Gizli metne kelime doldurma YASAK (Google cezalandırır). Liste: kullanıcının verdiği başlıklar +
+     tarih konusunda çok aranan genel başlıklar (arama hacmi ÖLÇÜLMEDİ, genel bilgiden). -->
+<meta name="keywords" content="KRONOATLAS, tarih atlası, tarih haritası, tarihi harita, kronoloji, zaman çizelgesi, tarih, atlas, harita, dünya tarihi, Osmanlı tarihi, interaktif tarih haritası, history atlas, historical atlas, historical map, history map, chronology, timeline, world history, interactive history map, أطلس تاريخي, خريطة تاريخية, تاريخ, تسلسل زمني, atlas histórico, mapa histórico, historia, cronología, línea de tiempo, atlas historique, carte historique, histoire, chronologie, frise chronologique, исторический атлас, историческая карта, история, хронология, 历史地图, 历史地图集, 历史, 年表, ऐतिहासिक एटलस, ऐतिहासिक मानचित्र, इतिहास, कालक्रम, história, cronologia, linha do tempo, Geschichtsatlas, historische Karte, Geschichte, Zeitleiste, 歴史地図, 歴史地図帳, 歴史, اطلس تاریخی, نقشه تاریخی, گاه‌شماری, atlante storico, mappa storica, storia, 역사 지도, 역사 지도책, 역사, 연표, atlas historyczny, mapa historyczna, chronologia, historische atlas, historische kaart, geschiedenis, tijdlijn, ιστορικός άτλας, ιστορικός χάρτης, ιστορία, χρονολόγιο, Osmanlı İmparatorluğu, Ottoman Empire, Osmanlı padişahları, Ottoman sultans, İngiliz İmparatorluğu, British Empire, Fransa, France, İspanyol İmparatorluğu, Spanish Empire, Rus Çarlığı, Russian Empire, Bizans, Byzantine Empire, Prusya, Prussia, Almanya, Germany, Kutsal Roma İmparatorluğu, Holy Roman Empire, Habsburg, Avusturya-Macaristan, Austria-Hungary, Roma İmparatorluğu, Roman Empire, Pers İmparatorluğu, Persian Empire, Selçuklu, Seljuk Empire, Moğol İmparatorluğu, Mongol Empire, Abbasiler, Emeviler, Memlükler, Safeviler, Babür, Kanuni Sultan Süleyman, Suleiman the Magnificent, Fatih Sultan Mehmet, Mehmed the Conqueror, Yavuz Sultan Selim, Osman Gazi, Atatürk, Bismarck, Napolyon, Napoleon, Kraliçe Victoria, Queen Victoria, Maria Theresia, Maria Theresa, Büyük İskender, Alexander the Great, Cengiz Han, Genghis Khan, Timur, Jül Sezar, Julius Caesar, Kleopatra, Cleopatra, Sokrates, Socrates, Birinci Dünya Savaşı, World War I, İkinci Dünya Savaşı, World War II, Vestfalya Barışı, Peace of Westphalia, Waterloo, Battle of Waterloo, Napolyon Savaşları, Napoleonic Wars, İstanbul'un Fethi, Fall of Constantinople, Malazgirt, Mohaç, Viyana Kuşatması, Siege of Vienna, Çanakkale Savaşı, Gallipoli, Kurtuluş Savaşı, Lozan Antlaşması, Haçlı Seferleri, Crusades, Fransız İhtilali, French Revolution, Sanayi Devrimi, Industrial Revolution, Rönesans, Renaissance, Coğrafi Keşifler, Age of Discovery, Soğuk Savaş, Cold War, Orta Çağ, Middle Ages, İlk Çağ, antik çağ, ancient history, Antik Mısır, Ancient Egypt, Mezopotamya, Mesopotamia, Hititler, Hittites, Efes, Ephesus, Roma, Rome, Persepolis, Truva, Troy, Atina, Athens, Antik Yunan, Ancient Greece, İpek Yolu, Silk Road, Vikingler, Vikings">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "KRONOATLAS",
+  "alternateName": ["Tarih Atlası", "Osmanlı Tarih Atlası", "History Atlas"],
+  "url": "https://kronoatlas.com/",
+  "description": "Zaman ilerledikçe devlet sınırlarının değiştiği, yanında kronoloji ve dönemin hükümdarının aktığı etkileşimli tarih atlası. Interactive history atlas: borders change over time alongside a chronology and the reigning rulers.",
+  "inLanguage": ["tr", "en", "ar", "es", "fr", "ru", "pt", "de"],
+  "isAccessibleForFree": true,
+  "educationalUse": "history education",
+  "keywords": "tarih atlası, tarih haritası, kronoloji, zaman çizelgesi, dünya tarihi, Osmanlı tarihi, history atlas, historical map, chronology, timeline, world history, Ottoman Empire, Byzantine Empire, Roman Empire, British Empire, Russian Empire, Spanish Empire, Prussia, Germany, France, Suleiman the Magnificent, Mehmed the Conqueror, Bismarck, Napoleon, Queen Victoria, Maria Theresa, World War I, World War II, Peace of Westphalia, Battle of Waterloo, Socrates, Ephesus, Rome, Persepolis",
+  "about": [
+    {"@type": "Thing", "name": "Tarih / History"},
+    {"@type": "Thing", "name": "Kronoloji / Chronology"},
+    {"@type": "Thing", "name": "Tarih atlası / Historical atlas"},
+    {"@type": "Thing", "name": "Osmanlı İmparatorluğu / Ottoman Empire"},
+    {"@type": "Thing", "name": "Dünya tarihi / World history"}
+  ]
+}
+</script>
 <meta name="theme-color" content="#5c1020">
-<link rel="canonical" href="https://emrelic.github.io/osmanli-tarih-atlasi/">
+<link rel="canonical" href="https://kronoatlas.com/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="KRONOATLAS">
 <meta property="og:title" content="KRONOATLAS — Etkileşimli Tarih Atlası">
 <meta property="og:description" content="Zaman ilerledikçe devlet sınırlarının değiştiği, yanında kronoloji ve dönemin hükümdarının aktığı etkileşimli tarih atlası. Osmanlı 1281–1923 gün hassasiyetinde; dünya kapsamı kademeli genişliyor. Beta sürümü.">
-<meta property="og:url" content="https://emrelic.github.io/osmanli-tarih-atlasi/">
+<meta property="og:url" content="https://kronoatlas.com/">
 <meta property="og:locale" content="tr_TR">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="KRONOATLAS — Etkileşimli Tarih Atlası">
@@ -41,8 +68,8 @@
 #hakkinda-pencere button { margin-top: 4px; padding: 6px 16px; border-radius: 6px; border: 1px solid #f3e6c8; background: #5c1020; color: #f3e6c8; cursor: pointer; font: 14px "Segoe UI", sans-serif; }
 </style>
 <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.24.0/dist/maplibre-gl.css">
-<script>window.SURUM="r16114";</script>
-<link rel="stylesheet" href="css/style.css?v=r132893546">
+<script>window.SURUM="r16154";</script>
+<link rel="stylesheet" href="css/style.css?v=r34512176">
 </head>
 <body>
 <!-- ERİŞİLEBİLİRLİK (LAB P5): görünmez <h1> + "haritaya geç" bağlantısı (yalnız odaklanınca görünür).
@@ -54,7 +81,7 @@
      SENKRON: perde öğeleri ilk boyamadan önce kurulmalı (denetim/ACILIS-ANIM-0929.md §3:
      yüklemeyi uzatmıyor, perde ~1,2 sn erken görünüyor). Bağlayan: UFUK-DUGME-0930
      (PAKET-0077A H-0002). Yüklenmezse css/style.css yedek küresi çalışır. -->
-<script src="data/acilis_siluet.js?v=r128825633"></script>
+<script src="data/acilis_siluet.js?v=r154016628"></script>
 <!-- 🏷️ KOŞU DAMGASI — app.js'ten ÖNCE yüklenmeli (app.js onu okuyup yazıyor).
      Dosya birkaç yüz bayt; pakete girmesine gerek yok, ve pakete GİRMEMELİ:
      paket bir koşuda değişmeyebilir, damga HER koşuda değişir. -->
@@ -1573,7 +1600,7 @@
        data/yerlesimler_ek4.js
        data/yerlesimler_ek5.js
        data/yerlesimler_ek6.js -->
-<script src="data/paket_13.js?v=r163236084"></script>
+<script src="data/paket_13.js?v=r33765353"></script>
 <!-- PARTİ 18-19 — koşu 9 ile bağlandı. `girdi.py` bu üçünü okuyor, yani
      PETEKLERİ haritada zaten var; index.html'e eklenmezse İŞARETÇİLERİ
      görünmez ve denetle_yayin haklı olarak "üretiliyor ama çizilmiyor" der.
@@ -1614,7 +1641,7 @@
        data/yerlesimler_ek27.js
        data/yerlesimler_ek28.js
        data/yerlesimler_ek29.js -->
-<script src="data/paket_14.js?v=r268208194"></script>
+<script src="data/paket_14.js?v=r102059113"></script>
 <!-- NOKTA EPİR, 22 Ağu 2026 — Parga'nın 3.701 km²'lik peteğini bölen iki nokta.
      `girdi.py`ye de eklendi; ikisi AYRI kapıdır (§5: bir dosya motorda olup
      arayüzde olmayabilir, bu sabah yedi kronoloji dosyası öyle kaybolmuştu). -->
@@ -1691,7 +1718,7 @@
        data/yerlesimler_ek31.js
        data/yerlesimler_0ee15e.js
        data/yerlesimler_e9353f.js -->
-<script src="data/paket_17.js?v=r48267783"></script>
+<script src="data/paket_17.js?v=r133311048"></script>
 <!-- 🔴 20 Ağustos 2026 — DÖRT DOSYA MOTORA BAĞLIYDI, TARAYICIYA DEĞİL.
      `arac/girdi.py`ye ekledim (`073df09`) ama BURAYA eklemeyi unuttum ⇒
      13 nokta haritada ÇİZİLİYOR ama dizinde/aramada/tıklamada YOK.
@@ -1790,7 +1817,7 @@
        data/yerlesimler_gamerika.js
        data/yerlesimler_kamerika.js
        data/yerlesimler_hint0912.js -->
-<script src="data/paket_22.js?v=r254228960"></script>
+<script src="data/paket_22.js?v=r176410793"></script>
 <!-- 🟢 SÎVA (Siwa) — paket 0043 · H-0017 · 12 Eylül 2026, KITA 13.
      TEK NOKTA, ve sayının düşüklüğü işin küçüklüğü değil TESPİTİN
      KENDİSİ: sevk 12 aday verdi, ONU ZATEN VERİDEYDİ (üçü 3 km
@@ -1853,7 +1880,7 @@
        data/yerlesimler_zincir64.js
        data/yerlesimler_sahne1108.js
        data/yerlesimler_ek_karayip_adalar.js -->
-<script src="data/paket_24.js?v=r165538887"></script>
+<script src="data/paket_24.js?v=r27003887"></script>
 <!-- ARKEOLOJİ KATMANI (MÖ 12000–3000), şartname denetim/ARKEOLOJI-KATMANI-SARTNAME-1018.md · yalnız olay: kronoloji motoru BESLEMİYOR, koşuyu etkilemez -->
 <!-- ▼ data/paket_33.js — aşağıdaki 11 dosya buraya PAKETLENDİ (arac/paketle.py).
      Sıra korunmuştur; uç uca ekleme klasik betiklerin anlamını
@@ -2398,9 +2425,9 @@
      app.js'ten HEMEN ÖNCE ve bütün data/*.js'ten SONRA: seçili dil Türkçe değilse
      data/ceviri_<dil>_*.js'i document.write ile araya ekler ve OLAYLAR*/DEVLETLER
      metnini app.js `olaylar`ı kurmadan çevirir. Türkçede hiçbir çeviri dosyası inmez. -->
-<script src="data/ceviri_dizin.js?v=r72674419"></script>
+<script src="data/ceviri_dizin.js?v=r232424086"></script>
 <script src="js/ceviri.js?v=r224473008"></script>
-<script src="js/app.js?v=r87281987"></script>
+<script src="js/app.js?v=r58983993"></script>
 <!-- A-F ALTI KADEME · D/E/F KATMANI + ANTLAŞMA HARİTASI (GORUNUM-ABCD-0916, D-KATMAN).
      Kosu 12 bitince baglandi (17 Eylul). d_katman.js app.js'ten SONRA — guncelle()'yi sarar. -->
 <!-- ▼ data/paket_28.js — aşağıdaki 10 dosya buraya PAKETLENDİ (arac/paketle.py).

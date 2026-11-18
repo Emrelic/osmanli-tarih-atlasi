@@ -3137,6 +3137,31 @@ window.SEHIR_TARIHCE_HINT = [
   ]
  },
  {
+  "id": "kathmandu-np-p3o",
+  "ad": "Kathmandu",
+  "atlas_ad": "Katmandu",
+  "lat": 27.7017,
+  "lon": 85.3206,
+  "kat1900": 1,
+  "adlar": [
+   "Kathmandu"
+  ],
+  "ilk": {
+   "t": "0723-01-01",
+   "gun": "723",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Kathmandu', https://www.britannica.com/place/Kathmandu (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+   "tanik": "It was founded in 723 by Raja Gunakamadeva."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [],
+  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi. özne zamir = madde konusu. Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01. Atlas noktasi VAR ('Katmandu'): atlas baslangici kaynak yilindan ONCE; sahip[] bos (atlas zinciri esas), atlas baslangici duzeltilmeli (KASA)."
+ },
+ {
   "id": "kolam-in",
   "ad": "Kolam (Quilon)",
   "atlas_ad": "Kolam (Quilon)",

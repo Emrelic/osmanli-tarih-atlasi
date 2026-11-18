@@ -1,0 +1,22 @@
+/* ÜRETİLMİŞ — arac/statik_sayfa.js */
+:root { --zemin: #faf5ea; --metin: #2a0a10; --vurgu: #5c1020; --ince: #7a6a5a; --cizgi: #e3d6bd; --bag: #8a1c30; }
+@media (prefers-color-scheme: dark) { :root { --zemin: #1c0b0f; --metin: #f3e6c8; --vurgu: #f3e6c8; --ince: #bba98f; --cizgi: #4a2a30; --bag: #ffd98a; } }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--zemin); color: var(--metin); font: 17px/1.6 Georgia, "Times New Roman", serif; }
+header { display: flex; justify-content: space-between; align-items: center; padding: 10px 16px; background: #5c1020; }
+header a { color: #f3e6c8; text-decoration: none; font: 600 15px "Segoe UI", system-ui, sans-serif; }
+header .marka { letter-spacing: .12em; font-weight: 800; }
+main { max-width: 760px; margin: 0 auto; padding: 16px; }
+h1 { font-size: 1.7em; line-height: 1.25; margin: .4em 0; color: var(--vurgu); }
+h2 { font-size: 1.15em; margin-top: 1.6em; border-bottom: 1px solid var(--cizgi); padding-bottom: 4px; }
+a { color: var(--bag); }
+.kirinti { font: 13px "Segoe UI", system-ui, sans-serif; color: var(--ince); }
+.kirinti a { color: var(--ince); }
+.meta { font: 14px "Segoe UI", system-ui, sans-serif; color: var(--ince); display: flex; flex-wrap: wrap; gap: 6px 14px; }
+.tarih { font-weight: 600; color: var(--vurgu); white-space: nowrap; }
+.ac { display: inline-block; margin: 8px 0; padding: 8px 16px; border-radius: 6px; background: #5c1020; color: #f3e6c8; text-decoration: none; font: 600 15px "Segoe UI", system-ui, sans-serif; }
+.liste { padding-left: 1.1em; } .liste li { margin: 4px 0; } .liste small { color: var(--ince); }
+.kaynakca ul { font-size: 14px; word-break: break-word; }
+.gez { display: flex; justify-content: space-between; margin-top: 24px; font: 14px "Segoe UI", system-ui, sans-serif; }
+dl { display: grid; grid-template-columns: max-content 1fr; gap: 4px 14px; font-size: 15px; } dt { color: var(--ince); }
+footer { max-width: 760px; margin: 32px auto; padding: 16px; font: 13px "Segoe UI", system-ui, sans-serif; color: var(--ince); border-top: 1px solid var(--cizgi); }

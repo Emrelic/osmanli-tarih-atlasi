@@ -61,5 +61,18 @@ Fatih + Kanunî, Roma'dan en az 5 imparator, her milletten 1-2 kişi).
   Ölçüm (yere inmiş öğe kutuları, 0,5 sn arayla): 1400×860 — 42 bölme, 38 anda çakışma 0,
   en çok erteleme 30 ms; 375×812 — 12 bölme, 58 anda çakışma 0, kuyruk 11 sn uzuyor
   (dar ekranda bölme az; perde erken kalkarsa kuyruğun sonu görünmez — önem sırası korunur).
+- **TARİH DUVARI (aynı gün, Emre: "dünyadan kopup bize doğru zoom yapsın, kendini gösterip
+  küçülsün, rastgele boşluğa yerleşsin; boşluklar teker teker dolup bütün ekranı doldursun,
+  ortada dünya kalsın"):** karo = harita (+ üstünde bayrak/simge) · portre · simge. Ekran
+  96×112 (dar 72×88) bölmelik boşluksuz ızgara; küre + yazı şeridi delik. Karo kendi
+  boylamından fırlar, kürenin hemen dışında 2,3× vitrinde 420 ms durur, bölmesine iner;
+  art arda iki karo ekranın karşı yarılarına gider (vitrinler üst üste binmez). Karo vitrin
+  boyutunda kurulup bölmede 1/2,3 ölçekte durur (büyükken bulanık olmasın). Sıra:
+  üreticideki MILLETLER (40 millet), turla — her turda her milletten bir karo; ilk 3 karo
+  sabit, kalanı her açılışta karışır. Duvar dolunca en eski karo yerini yenisine bırakır.
+  Ölçüm: 1400×860 — 76 bölme, 167 karo, duvar 22,7. sn'de dolu, 88 anda oturan karolar
+  arası çakışma 0; 375×812 — 24 bölme, 8,2 sn'de dolu, çakışma 0. Konsol temiz; `acilisBitir`
+  perdeyi ve Türkiye finalini DOM'dan kaldırıyor. Portre tabakası WebP 120×160 (248 KB, 87
+  kişi), amblem 128 hücre (169 KB, 60). Commons 429: 3 simge + 2 portre bekliyor (KAYNAK.md).
 - **Ölçülmedi:** tam sitede yükleme süresine etkisi (worktree'de üretilmiş veri yok);
   push kapısının `denetle_yayin` sınavı sitenin açılışını koşturur.

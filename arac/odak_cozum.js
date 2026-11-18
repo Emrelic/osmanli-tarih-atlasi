@@ -122,6 +122,9 @@ function sahiplen(dosya) {
 }
 
 for (const m of HTML.matchAll(/<script([^>]*)>([\s\S]*?)<\/script>/g)) {
+  // SEO-STATIK-1117: <script type="application/ld+json"> JSON-LD'dir, JS değil — tarayıcı da koşturmaz.
+  const tm = m[1].match(/\btype\s*=\s*"([^"]*)"/i);
+  if (tm && !/^(text\/javascript|application\/javascript|module)$/i.test(tm[1].trim())) continue;
   const sm = m[1].match(/\bsrc="([^"?#]*)/);
   const src = sm ? sm[1] : null;
   if (src === "js/app.js") { appGoruldu = true; continue; }

@@ -22,8 +22,11 @@ YENİ KLASÖR gerekirse (ör. yeni bir `fonts/`) BURAYA eklenmeli; yoksa canlıd
 """
 import os, shutil, sys
 
-KOK_DOSYALAR = ["index.html", "sw.js", "manifest.webmanifest", "CNAME", "404.html"]
-KLASORLER = ["css", "js", "data", "assets", "forum"]   # forum/: Kahvehane F1 (17 Kasım 2026)
+KOK_DOSYALAR = ["index.html", "sw.js", "manifest.webmanifest", "CNAME", "404.html",
+                "robots.txt", "sitemap.xml"]          # SEO (17 Kasım 2026)
+KLASORLER = ["css", "js", "data", "assets", "forum",   # forum/: Kahvehane F1 (17 Kasım 2026)
+             # SEO-STATIK-1117: arac/statik_sayfa.js çıktısı (madde/devlet/kişi/şehir sayfaları, dizinler)
+             "m", "en", "tarih", "devlet", "kisi", "sehir"]
 ZORUNLU = ["index.html", "sw.js", "manifest.webmanifest", "css/style.css", "js/app.js", "assets/ikon.svg"]
 SINIR_MB = 900          # Pages sınırı 1 GB; 100 MB'lık pay
 TEK_DOSYA_MB = 95       # GitHub 100 MiB sert sınırı

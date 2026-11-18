@@ -987,7 +987,9 @@ Denetim ve JS üretimi: `py arac/sehir_tarihce.py denetle <dosya.js>` · `yaz <j
   Çıplak belirsiz ad (Haydarâbâd) parantezli atlas adıyla yazılır (`Haydarâbâd (Dekken)`).
   ⚠️ BİLİNEN KÖR NOKTA: `arac/ad_esanlam.sadelestir()` ASCII dışı yazıyı atar; Arapça/Devanagari/Bengal/Çince
   adlar `data/ad_esanlam.js` sözlük eşlemesinde çözülmez (boş dizeye düşer) — çözümleme ayrı bir iştir.
-- `ilk.nicelik`: `kurulus` | `ilk_anilis` | `arkeolojik`. Haritanın başlangıcı `ilk.t`dir ve
+- **Tarihsiz tanık** (Emre, 17 Kasım 2026; Roma vb. yıl vermeyen kaynak): `ilk:{nicelik:"tarihsiz_tanik", kaynak, ic_not:"tarihsiz tanık: <kaynak, sayfa>"}`,
+  `t` BOŞ (yıl uydurulmaz), `sahip:[]`. Yalnız tarihçe metni tanıktır; sınır/boyama kanıt sayılmaz. Denetim `sehir_tarihce.py`dedir (istisna kalıbı, tavan değil).
+- `ilk.nicelik`: `kurulus` | `ilk_anilis` | `arkeolojik` (| `tarihsiz_tanik`, yukarı). Haritanın başlangıcı `ilk.t`dir ve
   `sahip[0].f == ilk.t`. Öncelik: yazılı tanık (kuruluş ya da ilk anılış) varsa o; `arkeolojik` yalnız
   yazılı tanık HİÇ yoksa. İlk anılıştan `kur` TÜRETİLMEZ (yukarıda `kesinlik` sınırı).
 - Aralık veren kaynakta **güvenli uç** alınır (ilk anılış için aralığın SON ucu) ve `ic_not`a yazılır.
