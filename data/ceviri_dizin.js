@@ -336,6 +336,10 @@ window.CEVIRI_DIZIN = {
    [
     "ceviri_fa_arayuz.js",
     "839f835e"
+   ],
+   [
+    "ceviri_fa_devlet.js",
+    "8fc25ac8"
    ]
   ]
  }
