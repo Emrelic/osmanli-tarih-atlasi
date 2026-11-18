@@ -17512,6 +17512,33 @@ AYLAR.forEach(function (a, i) {
 // etmez). Döner: {gi: gün indeksi} ya da {hata: kullanıcıya gösterilecek metin}.
 // ⚠️ SESSİZ KALMA YASAK (görev şartı) — her ayrıştırılamayan girdi bir
 // `hata` metniyle döner, boş/undefined DÖNMEZ.
+// 🆕 TARIHE-GIT-BC-1118 — çağ ekleri sitenin 8 dilinde (Emre, 18 Kasım 2026: "Evet, yap").
+// Her ek harf grubu olarak yazılır; gruplar arasında nokta/tire/boşluk isteğe bağlıdır
+// ("bc" = "b.c." = "B. C."). Karşılaştırma _tgAscii(_tgKucuk(...)) üstünde: ö → o.
+// MÖ ekleri MS eklerinden ÖNCE denenir ("до н. э." "н. э."yi, "ق.م" "م"yi içerir).
+var _TG_CAG_MO = [
+  ["m", "o"],                                   // tr  MÖ · M.Ö.
+  ["b", "c", "e"], ["b", "c"],                  // en  BCE · BC · B.C.
+  ["v", "u", "z"], ["v", "chr"],                // de  v. u. Z. · v. Chr.
+  ["av", "j", "c"], ["av", "jc"],               // fr  av. J.-C.
+  ["a", "de", "c"], ["a", "e", "c"], ["a", "c"],// es/pt  a. de C. · a.e.c. · a. C.
+  ["до", "н", "э"],                             // ru  до н. э.
+  ["ق", "م"]                                    // ar  ق.م
+];
+var _TG_CAG_MS = [
+  ["m", "s"],                                   // tr  MS · M.S.
+  ["a", "d"], ["c", "e"],                       // en  AD · A.D. · CE
+  ["n", "u", "z"], ["n", "chr"],                // de  n. u. Z. · n. Chr.
+  ["apr", "j", "c"], ["ap", "j", "c"],          // fr  apr. J.-C.
+  ["d", "de", "c"], ["d", "c"],                 // es/pt  d. de C. · d. C.
+  ["н", "э"],                                   // ru  н. э.
+  ["م"]                                         // ar  م
+];
+var _TG_CAG_RX = (function () {
+  function kalip(gr) { return gr.join("[.\\- ]{0,3}") + "\\.?"; }
+  return new RegExp("(?:^|(?<=[\\d ]))(?:(" + _TG_CAG_MO.map(kalip).join("|") + ")|(" +
+                    _TG_CAG_MS.map(kalip).join("|") + "))[ ]?(?=[-\\d ]|$)");
+})();
 // 🆕 TARIHE-GIT-MO-1117 (Emre, 17 Kasım 2026: "gerek milat 0 senesine gerek -10
 // gerek -111 gerek -1236 gerek -12000 senesine gerek 15 gerek 123 gerek 1234
 // gerek 1912 senesine gidebilecek şekilde"). Yıl artık 1-5 hane ve İŞARETLİ:
@@ -17529,9 +17556,10 @@ function tarihMetniAyristir(ham) {
   var kucuk = _tgAscii(_tgKucuk(s));
   var mo = false, ms = false, cm;
   // Ek başta, ortada ya da sonda olabilir: "MÖ 1236" · "M.Ö.1236" · "1236 MÖ" · "29 Mayıs MÖ 1236".
-  // Ay adları ("Mayıs", "Mart") "m"den sonra harf aldığı için eşleşmez.
-  if ((cm = kucuk.match(/(?:^|(?<=[\d ]))m\.? ?([os])\.? ?(?=[-\d ]|$)/))) {
-    mo = cm[1] === "o"; ms = !mo;
+  // Ay adları ("Mayıs", "Mart") ekin ardından harf geldiği için eşleşmez (sağ sınır şartı).
+  // TARIHE-GIT-BC-1118: sitenin bütün dillerindeki kısaltmalar (_TG_CAG_RX, aşağıda).
+  if ((cm = _TG_CAG_RX.exec(kucuk))) {
+    mo = cm[1] != null; ms = !mo;
     s = (s.slice(0, cm.index) + " " + s.slice(cm.index + cm[0].length)).trim().replace(/\s+/g, " ");
   }
   if (!s) return { hata: "Yıl yazın. " + ORNEK };
