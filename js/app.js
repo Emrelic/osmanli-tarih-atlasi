@@ -17396,15 +17396,6 @@ function devirBilgiGuncelle() {
   if (!el) return;
   if (suanki >= VERI_BASI) { el.classList.add("gizli"); return; }
   var K = kureselKur(), bugun = K.gun[suanki];
-  var son = kureselKomsu(suanki, -1), sonra = kureselKomsu(suanki, 1);
-  function kayit(g) { var l = K.gun[g]; return l ? l[0] : null; }
-  function dugme(g, on) {
-    var k = kayit(g), b = document.createElement("button");
-    b.type = "button"; b.className = "devir-git";
-    b.textContent = on + " " + zamanTarihYazi(g) + " — " + (k.ad ? k.ad + ": " : "") + k.b;
-    b.addEventListener("click", function () { tarihAyarla(g); });
-    return b;
-  }
   el.textContent = "";
   var ust = document.createElement("div"); ust.className = "devir-ust";
   var dv = sahnedekiDevletler(suanki);
@@ -17418,8 +17409,6 @@ function devirBilgiGuncelle() {
       (bugun.length > 3 ? " · +" + (bugun.length - 3) : "");
     el.appendChild(ul);
   }
-  if (son != null) el.appendChild(dugme(son, "◀ son:"));
-  if (sonra != null) el.appendChild(dugme(sonra, "▶ sonraki:"));
   el.classList.remove("gizli");
 }
 function kronolojiYokUyarisi() {
