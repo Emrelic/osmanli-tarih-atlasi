@@ -12078,6 +12078,9 @@ var tepeDegisim = document.getElementById("tepe-degisim");
 function tepeEtiketGuncelle() {
   if (!donemEtiketi) return;
   var o = sonVurgulanan >= 0 ? olaylar[sonVurgulanan] : null;
+  // Osmanlı dışı bir devlet odaktayken tepe metni O devletin maddesidir (İstanbul'un Fethi kalmasın)
+  var _od = window.odakDevletMaddesi ? window.odakDevletMaddesi() : null;
+  if (_od) o = _od.b ? { b: _od.b, t: _od.t } : null;
   donemEtiketi.textContent = o ? o.b : "";
   donemEtiketi.title = o ? (idxYazi(gunIdx(o.t)) + " — " + o.b) : "";
   if (!tepeDegisim) return;
@@ -12129,6 +12132,7 @@ function kronolojiSeritGuncelle() {
 var obSonIndeks = -1;
 function obTazele() {
   if (!window.ZAMAN || !obPanel || obPanel.classList.contains("gizli")) return;
+  if (window.odakDevletMaddesi && window.odakDevletMaddesi()) return;   // Osmanlı dışı odak: kart devletin kendi maddesi
   var i = window.ZAMAN.suankiOlay(olaylar, suanki, function (k) {
     return !olayDom[k].classList.contains("suzuldu");   // süzülmüş maddeyi atla
   }, suankiOlayI);                            // aynı güne iki madde: H-0019
@@ -17362,7 +17366,8 @@ function kureselKur() {
     if (g < BASLANGIC || g > BITIS) return;
     (gun[g] || (gun[g] = [])).push({ b: b || "", ad: ad || "", t: ham, tur: tur });
   }
-  (olaylar || []).forEach(function (o) { ekle(o.t, o.b, "Osmanlı", "olay"); });
+  // Yabancı (kapsam:"dis") olay Osmanlı'nın değildir — "Osmanlı:" etiketi taşımaz.
+  (olaylar || []).forEach(function (o) { ekle(o.t, o.b, o.kapsam === "dis" ? "" : "Osmanlı", "olay"); });
   (window.DEVLETLER || []).forEach(function (d) {
     (d.kronoloji || []).forEach(function (m) { ekle(m.t, m.b, d.ad, "olay"); });
   });
@@ -18867,7 +18872,31 @@ function kronoTemsilEdiliyor(k, derin) {
     if (obPanel) {
       obPanel.classList.remove("gizli");
       var bas = document.getElementById("ob-baslik");
-      if (bas) bas.textContent = d.ad + " — " + (m.tur || "madde");
+      if (bas) bas.textContent = m.b || (d.ad + " — " + (m.tur || "madde"));
+      // 🔴 Emre (19 Kasım 2026): İngiltere kronolojisinden madde tıklanınca kart
+      // "İstanbul'un Fethi"nin tarihini (29 Mayıs 1453), portresini ve rozetini
+      // gösteriyordu — yalnız başlık/detay yazılıyor, öteki alanlar `obGoster`in
+      // son Osmanlı maddesinden BAYAT kalıyordu. Kart tek bütündür: BÜTÜN alanlar
+      // bu maddeden yazılır, Osmanlı'dan kalan görsel/şerit/özel kutu silinir.
+      var _tar = document.getElementById("ob-tarih");
+      if (_tar) _tar.textContent = kisaTarihYazi(m);
+      var _ag = document.getElementById("ob-ayni-gun");
+      if (_ag) _ag.innerHTML = "";
+      var _ozl = document.getElementById("ob-ozel");
+      if (_ozl) _ozl.innerHTML = "";
+      var _gor = document.getElementById("ob-gorsel");
+      if (_gor) _gor.innerHTML = '<span class="ob-rozet">' + (m.tur === "savas" ? "⚔" : m.tur === "antlasma" ? "📜" : "☾") + '</span>';
+      var _meta = document.getElementById("ob-meta");
+      if (_meta) {
+        _meta.innerHTML = "";
+        var _md = document.createElement("span"); _md.textContent = d.ad; _meta.appendChild(_md);
+        if (m.yer) { var _my = document.createElement("span"); _my.textContent = "📍 " + m.yer; _meta.appendChild(_my); }
+        if (m.tur) {
+          var _mk = document.createElement("span"); _mk.className = "ob-kat k-" + m.tur;
+          _mk.textContent = KATEGORI_AD[m.tur] || m.tur; _meta.appendChild(_mk);
+        }
+      }
+      try { maddeGorseliniGuncelle(kopyaMaddesi(d, m)); } catch (eMg) { var _mg = document.getElementById("ob-madde-gorsel"); if (_mg) _mg.innerHTML = ""; }
       // Çok devletli akış: sıradaki madde hangi devletin ise başlığın solunda o devletin
       // listedeki rozetiyle AYNI renk şeridi (üst madde ↔ sağ liste eşleşmesi göz önünde).
       if (bas) {
@@ -18875,7 +18904,7 @@ function kronoTemsilEdiliyor(k, derin) {
         bas.style.paddingLeft = EK_SECILI.length ? "6px" : "";
       }
       var det = document.getElementById("ob-detay");
-      if (det) det.textContent = kisaTarihYazi(m) + " · " + (m.b || "");
+      if (det) det.textContent = m.d || (kisaTarihYazi(m) + " · " + (m.b || ""));
       // 🆕 14 Eylül 2026 — PAKET-UI4 İŞ 3 (1.MURAT, M-3930 aksaklığı): ek okuma
       // akordeonu yalnız Osmanlı panelinde (obGoster) çiziliyordu; kuyruk
       // maddesine (KRONOLOJI_*) bağlanan kart — ör. "1571-01-01|Moskova"
@@ -19095,6 +19124,14 @@ function kronoTemsilEdiliyor(k, derin) {
     // 🌍 Dünyada satırı yalnız Osmanlı görünümünde (KARARLAR-1014 #43)
     try { if (dunyaSatirEl) dunyadaGuncelle(suanki); } catch (eDs) { console.error("[dünyada satırı]", eDs); }
   }
+
+  // Osmanlı dışı odak: üst başlık ve alt kart Osmanlı maddesini göstermemeli
+  // (Emre, 19 Kasım 2026). Dışarıdaki `tepeEtiketGuncelle`/`obTazele` bunu sorar.
+  window.odakDevletMaddesi = function () {
+    if (!ODAK || EK_SECILI.length) return null;     // Osmanlı odakta / çok devletli akışta eski davranış
+    var o = (sonVurgulananO >= 0) ? odakSirali[sonVurgulananO] : null;
+    return { b: o ? o.b : "", t: o ? o.t : "", gi: o ? o.gi : -1 };
+  };
 
   // ---- sarmalayıcılar ---------------------------------------------------
   var _padisahAsil = padisahGuncelle;
