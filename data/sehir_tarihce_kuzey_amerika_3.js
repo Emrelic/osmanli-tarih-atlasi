@@ -1312,11 +1312,10 @@ window.SEHIR_TARIHCE_KUZEY_AMERIKA_3 = [
    {
     "f": "1836-03-01",
     "t": "1846-02-19",
-    "d": "texas-cumhuriyeti",
+    "d": "teksas-cumhuriyeti",
     "kesinlik": "ay",
     "kaynak": "Handbook of Texas Online (TSHA), «Washington-on-the-Brazos», https://www.tshaonline.org/handbook/entries/washington-on-the-brazos-tx (okundu, 17 Kasım 2026; alıntı WebFetch aracının sayfadan çıkarımıdır, tam gövde değil) + Handbook of Texas Online (TSHA), «Austin (Travis County)», https://www.tshaonline.org/handbook/entries/austin-tx-travis-county (okundu, 17 Kasım 2026; alıntı WebFetch aracının sayfadan çıkarımıdır, tam gövde değil)",
-    "kunye_yok": true,
-    "ic_not": "Önerilen künye id 'texas-cumhuriyeti' (1836-03 → 1846-02-19; HoT Austin: 'formal transfer of authority from the republic to the state'). Künye henüz açılmadı."
+    "ic_not": "Künye teksas-cumhuriyeti t=1845-12-29 (ABD'ye katılma, TSHA); dönem 1846-02-19 devir törenine uzanır (HoT Austin: 'formal transfer of authority from the republic to the state') — aşım beyanlı."
    },
    {
     "f": "1846-02-19",
@@ -1417,11 +1416,10 @@ window.SEHIR_TARIHCE_KUZEY_AMERIKA_3 = [
    {
     "f": "1836-03-01",
     "t": "1846-02-19",
-    "d": "texas-cumhuriyeti",
+    "d": "teksas-cumhuriyeti",
     "kesinlik": "ay",
     "kaynak": "Handbook of Texas Online (TSHA), «San Felipe de Austin», https://www.tshaonline.org/handbook/entries/san-felipe-de-austin-tx (okundu, 17 Kasım 2026; alıntı WebFetch aracının sayfadan çıkarımıdır, tam gövde değil) + Handbook of Texas Online (TSHA), «Austin (Travis County)», https://www.tshaonline.org/handbook/entries/austin-tx-travis-county (okundu, 17 Kasım 2026; alıntı WebFetch aracının sayfadan çıkarımıdır, tam gövde değil)",
-    "kunye_yok": true,
-    "ic_not": "Önerilen künye id 'texas-cumhuriyeti'; 1836 sonrası yerleşimin sürekliliği (1836'da yakıldı) kaynaklanmadı, aşağıda ic_not'ta beyan."
+    "ic_not": "Künye teksas-cumhuriyeti t=1845-12-29 (ABD'ye katılma, TSHA); dönem 1846-02-19 devir törenine uzanır (HoT Austin) — aşım beyanlı. 1836 sonrası yerleşimin sürekliliği (1836'da yakıldı) kaynaklanmadı, aşağıda ic_not'ta beyan."
    },
    {
     "f": "1846-02-19",

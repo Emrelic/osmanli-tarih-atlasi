@@ -4265,7 +4265,6 @@ BOYALAR = {
     # BOYALAR-1117 (KUNYE-B madde 9-10) - renkler renk_olc --oner önerisi; komşu ölçümü koşu sonrası.
     "chuzan-krallik":          ("Chūzan Krallığı (Okinawa)",          "#242ad8"),
     "los-altos":               ("Los Altos Devleti (Guatemala)",      "#24c6d8"),
-    "texas-cumhuriyeti":       ("Teksas Cumhuriyeti",                 "#24d824"),
     "deseret":                 ("Deseret Devleti",                    "#24d85a"),
     # SESSIZ-BORC-2 19 Eyl 2026 (M-4612/M-4624) — sessiz borçtan veriye inen 4 kimlik;
     # `py arac/renk_olc.py --oner` önerisi (denetim/oneri-20260919-090639.txt).
