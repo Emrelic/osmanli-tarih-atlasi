@@ -44,15 +44,126 @@
     }
     return [new RegExp(ds.map(function (p) { return "(?:" + p + ")"; }).join("|"), bayrak)];
   }
-  var girdiler = T.kaynaklar.map(function (e) {
+  // HIZ-2 (18 Kasım 2026, açılış hızı): 35 bin benzersiz parça × 200 ifade = ~7 milyon
+  // RegExp.test açılışta 6-8 sn yiyordu (app.js guvensizKronolojiGizle). Her desenden,
+  // eşleşmenin İÇERMEK ZORUNDA olduğu en uzun ASCII harf dizisi (zorunlu dizi) çıkarılır;
+  // girdinin ifadesi yalnız parçada desenlerinden birinin zorunlu dizisi geçiyorsa sınanır.
+  // Ön süzgeç YALNIZ eler, kararı yine aynı ifade verir ⇒ sonuç birebir aynı. Zorunlu dizisi
+  // çıkarılamayan (üst düzey |, 3 harften kısa…) desenin girdisi her parçada sınanır.
+  // ASCII şartı: /i bayrağında ASCII olmayan harf ASCII harfe katlanmaz (ES Canonicalize),
+  // toLowerCase da ASCII'yi ASCII'ye, bitişik diziyi bitişik dizeye çevirir ⇒ süzgeç hiç kaçırmaz.
+  // Harf katlaması olmayan karakter (CJK, rakam, noktalama): /i bayrağında da yalnız kendini tutar.
+  function katlanmaz(ch) { return ch.toUpperCase() === ch && ch.toLowerCase() === ch; }
+  function zorunluDizi(p, harfDuyarsiz) {
+    var en = "", run = "", i = 0, n = p.length, c;
+    function bitir() { if (run.length > en.length) en = run; run = ""; }
+    function atla(ac, kapa) {                          // dengeli grup / sınıf sonuna atla
+      var d = 0;
+      for (; i < n; i++) {
+        c = p[i];
+        if (c === "\\") { i++; continue; }
+        if (ac === "[" ) { if (c === "]" && d++ >= 0) { i++; return true; } continue; }
+        if (c === "[") { i++; while (i < n && p[i] !== "]") { if (p[i] === "\\") i++; i++; } continue; }
+        if (c === ac) d++;
+        else if (c === kapa && --d === 0) { i++; return true; }
+      }
+      return false;
+    }
+    while (i < n) {
+      c = p[i];
+      var q = p[i + 1];
+      if (c === "|") return null;                       // üst düzey alternasyon
+      if (c === "(" || c === "[") {
+        bitir();
+        if (!atla(c, c === "(" ? ")" : "]")) return null;
+        if (p[i] === "?" || p[i] === "*" || p[i] === "+" || p[i] === "{") {
+          if (p[i] === "{") { while (i < n && p[i] !== "}") i++; }
+          i++;
+          if (p[i] === "?") i++;
+        }
+        continue;
+      }
+      var lit = null, adim = 1;
+      if (c === "\\") {
+        adim = 2;
+        if (q !== undefined && /[^A-Za-z0-9]/.test(q)) lit = q;   // \. \- \/ … düz karakter
+      } else if ("^$.?*+{}".indexOf(c) < 0) {
+        lit = c;
+      }
+      var nq = p[i + adim];
+      if (lit !== null && (lit.charCodeAt(0) < 128 || !harfDuyarsiz || katlanmaz(lit)) &&
+          !(nq === "?" || nq === "*" || nq === "{")) {
+        run += lit;
+        if (nq === "+") { bitir(); adim++; }
+      } else {
+        bitir();
+        if (nq === "?" || nq === "*" || nq === "+") adim++;
+        else if (nq === "{") { var j = p.indexOf("}", i + adim); adim = j < 0 ? n : j - i + 1; }
+      }
+      i += adim;
+    }
+    bitir();
+    return en.length >= 2 ? en : null;
+  }
+  var surekli = [];                                    // süzgeçsiz sınanan girdi sıraları
+  // İki kademeli dizin: ilk harfin kodu → (Int32Array) yuva; yuva → Map(ikinci harfin kodu →
+  // [[dizi, girdi sırası]]). Tek sayılı anahtar 2³¹'i aşıp Map'i yavaşlatıyordu (ölçüldü).
+  function yeniDizin() { return { ilk: typeof Int32Array === "function" ? new Int32Array(65536) : [], yuva: [null], n: 0 }; }
+  var dizinI = yeniDizin(), dizinD = yeniDizin();
+  // Desenleri dizine koyar; zorunlu dizisi çıkmayan desenleri (her parçada sınanacak "kalan") döndürür.
+  function dizinle(ds, bayrak, gi) {
+    var kalan = [];
+    ds.forEach(function (p) {
+      var d = typeof Map === "function" ? zorunluDizi(p, !!bayrak) : null;
+      if (d === null) { kalan.push(p); return; }
+      if (bayrak) d = d.toLowerCase();
+      var z = bayrak ? dizinI : dizinD, c0 = d.charCodeAt(0), k = ucuncu(d, 1);
+      if (!z.ilk[c0]) { z.ilk[c0] = z.yuva.length; z.yuva.push(new Map()); }
+      var m = z.yuva[z.ilk[c0]];
+      if (!m.has(k)) m.set(k, []);
+      m.get(k).push([d, gi]);
+      if (k < 0) m.ikiHarf = true;                   // bu başlangıç harfinde iki harfli dizi var
+      z.n++;
+    });
+    return kalan;
+  }
+  // İkinci kademenin anahtarı: 2. ve (varsa) 3. harf; 3. harf 11 bite katlanır (çakışma yalnız
+  // fazladan aday doğurur, startsWith eler). İki harfli dizinin anahtarı -1-c1 (3. harf yok).
+  function ucuncu(t, k) {
+    var c1 = t.charCodeAt(k);
+    return k + 1 < t.length ? c1 * 2048 + (t.charCodeAt(k + 1) & 2047) : -1 - c1;
+  }
+  function adayla(t, z, aday) {
+    var l, j, y, m, son = t.length - 1, ilk = z.ilk, yuva = z.yuva, im = aday.im;
+    for (var k = 0; k < son; k++) {
+      if (!(y = ilk[t.charCodeAt(k)])) continue;
+      m = yuva[y];
+      for (var tur = 0; tur < 2; tur++) {               // 3 harfli anahtar, sonra 2 harfli diziler
+        if (tur === 1 && !m.ikiHarf) break;
+        l = tur === 0 ? (k + 2 < t.length ? m.get(t.charCodeAt(k + 1) * 2048 + (t.charCodeAt(k + 2) & 2047)) : null)
+                      : m.get(-1 - t.charCodeAt(k + 1));
+        if (!l) continue;
+        for (j = 0; j < l.length; j++) {
+          if (!im[l[j][1]] && t.startsWith(l[j][0], k)) { im[l[j][1]] = 1; aday.l.push(l[j][1]); }
+        }
+      }
+    }
+  }
+  var girdiler = T.kaynaklar.map(function (e, gi) {
     if (e.kod === "TDV") tdvKademe = e.kademe;
     var rx = birlesik(e.desen || [], "i").concat(birlesik(e.desen_duyarli || [], ""));
-    return { kod: e.kod, kademe: e.kademe, genel: !!e.genel, rx: rx,
+    // rxKalan: zorunlu dizisi çıkmayan desenler — her parçada sınanır. Zorunlu dizilerinden biri
+    // parçada geçmiyorsa dizinli desenlerin hiçbiri tutamaz ⇒ girdinin cevabı = rxKalan'ın cevabı.
+    var rxKalan = birlesik(dizinle(e.desen || [], "i", gi), "i")
+      .concat(birlesik(dizinle(e.desen_duyarli || [], "", gi), ""));
+    if (rxKalan.length) surekli.push(gi);
+    return { kod: e.kod, kademe: e.kademe, genel: !!e.genel, rx: rx, rxKalan: rxKalan,
              sonra: e.yalniz_sonra || null, once: e.once_kademe || null,
              eserSil: e.eser_desen ? new RegExp(e.eser_sil, "ig") : null,
              eserDesen: e.eser_desen ? new RegExp(e.eser_desen, "i") : null,
              eserYok: e.eser_yok_kademe || null };
   });
+  var isaret = typeof Uint8Array === "function" ? new Uint8Array(girdiler.length) : [];  // tutanlar'ın aday işareti
 
   function metin(k) {
     if (k == null) return null;
@@ -72,10 +183,20 @@
   var tutanOnbellek = typeof Map === "function" ? new Map() : null;
   function tutanlar(s) {
     if (tutanOnbellek && tutanOnbellek.has(s)) return tutanOnbellek.get(s);
-    var r = girdiler.filter(function (g) {
-      for (var i = 0; i < g.rx.length; i++) if (g.rx[i].test(s)) return true;
-      return false;
-    });
+    // işaret 1 = zorunlu dizisi geçti → tam ifade; 2 = yalnız "kalan" desenler sınanır.
+    var aday = { im: isaret, l: [] }, i, j, g, rx, gi;
+    if (dizinI.n) adayla(s.toLowerCase(), dizinI, aday);
+    if (dizinD.n) adayla(s, dizinD, aday);
+    for (i = 0; i < surekli.length; i++) if (!isaret[surekli[i]]) { isaret[surekli[i]] = 2; aday.l.push(surekli[i]); }
+    aday.l.sort(function (a, b) { return a - b; });   // girdiler sırası korunur (eski filter ile aynı)
+    var r = [];
+    for (i = 0; i < aday.l.length; i++) {
+      gi = aday.l[i];
+      g = girdiler[gi];
+      rx = isaret[gi] === 1 ? g.rx : g.rxKalan;
+      isaret[gi] = 0;
+      for (j = 0; j < rx.length; j++) if (rx[j].test(s)) { r.push(g); break; }
+    }
     if (tutanOnbellek) tutanOnbellek.set(s, r);
     return r;
   }

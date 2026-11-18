@@ -5499,12 +5499,26 @@ var savaslar = savasKayitlariniTopla();
 // boşluk olan dönemlerde tek işaret ekranı kilitlemesin.
 var SAVAS_PENCERE_TABAN = 60;
 var SAVAS_PENCERE_TAVAN = 365;
+// HIZ (18 Kasım 2026, açılış): eski hâli her çağrıda bütün `olaylar`ı tarıyordu ve
+// sehirGuncelle onu madde başına çağırıyor (karesel; ilk karede 1,3 sn). "gi'den sonraki
+// en yakın olay günü" = sıralı gün dizisinde gi'den BÜYÜK ilk değer ⇒ ikili arama, sonuç
+// aynı (sayı olmayan/NaN gün eski döngüde de hiçbir zaman `d > 0` vermiyordu, atlanır).
+// `olaylar` bir kez kurulur; uzunluğu değişirse dizi yeniden kurulur.
+var _OLAY_GUNLERI = null;
 function sonrakiOlayaKadar(gi) {
-  var en = SAVAS_PENCERE_TAVAN;
-  for (var i = 0; i < olaylar.length; i++) {
-    var d = olaylar[i].gi - gi;
-    if (d > 0 && d < en) en = d;
+  if (!_OLAY_GUNLERI || _OLAY_GUNLERI.n !== olaylar.length) {
+    var a = [];
+    for (var i = 0; i < olaylar.length; i++) {
+      var g = olaylar[i].gi;
+      if (typeof g === "number" && g === g) a.push(g);
+    }
+    a.sort(function (x, y) { return x - y; });
+    _OLAY_GUNLERI = { n: olaylar.length, a: a };
   }
+  var dz = _OLAY_GUNLERI.a, lo = 0, hi = dz.length;
+  while (lo < hi) { var mid = (lo + hi) >> 1; if (dz[mid] > gi) hi = mid; else lo = mid + 1; }
+  var en = SAVAS_PENCERE_TAVAN;
+  if (lo < dz.length) { var d = dz[lo] - gi; if (d > 0 && d < en) en = d; }
   return Math.max(SAVAS_PENCERE_TABAN, en);
 }
 // Olay türüne göre simge (kullanıcı isteği):

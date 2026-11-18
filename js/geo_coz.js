@@ -525,10 +525,29 @@
       parcaGerek(y);
     };
     if (kok.addEventListener) {
-      kok.addEventListener("load", function () { setTimeout(pBasla, 0); });
+      kok.addEventListener("load", function () { ilkKareSonra(pBasla); });
     } else {
       pBasla();
     }
+  }
+
+  // AÇILIŞ HIZI (18 Kasım 2026): `load` haritanın kendisinden ÖNCE gelir (MapLibre stili
+  // ve karoları sonra biter). Parçalar `load`da istenince inip kanca (`__govdeYenile` +
+  // `__donemYenile` → bütün gövdeleri yeniden kur + guncelle) İLK KAREDEN ÖNCE koşuyordu:
+  // ölçüldü ~2,5 sn, atlas-hazir → ilk kare arası. Niyet "ilk boyamadan sonra" idi ⇒
+  // `atlas-hazir` (app.js harita kuruldu damgası, <html> sınıfı) + bir kare beklenir.
+  // Harita hiç kurulamazsa parçalar yine gelsin diye `load`dan 20 sn sonra beklemeden başlar.
+  function ilkKareSonra(fn) {
+    var bas = Date.now(), d = kok.document && kok.document.documentElement;
+    (function bak() {
+      var hazir = !d || !d.classList || d.classList.contains("atlas-hazir");
+      if (!hazir && Date.now() - bas < 20000) { setTimeout(bak, 100); return; }
+      var oldu = false;
+      function bir() { if (!oldu) { oldu = true; setTimeout(fn, 0); } }
+      // Gizli sekmede kare gelmez ⇒ 1 sn yedek.
+      if (hazir && kok.requestAnimationFrame) { kok.requestAnimationFrame(bir); setTimeout(bir, 1000); }
+      else bir();
+    })();
   }
 
   // DÖNEM KATMAN 1 — `donem_parca_on.js` varsa PARCALAR seyrek kurulur, tam havuz
