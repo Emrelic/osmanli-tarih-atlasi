@@ -365,11 +365,27 @@ window.CEVIRI_DIZIN = {
   "fa": [
    [
     "ceviri_fa_arayuz.js",
-    "839f835e"
+    "0d2eb84f"
    ],
    [
     "ceviri_fa_devlet.js",
-    "8fc25ac8"
+    "2ac190ed"
+   ],
+   [
+    "ceviri_fa_olay_01.js",
+    "e0131483"
+   ],
+   [
+    "ceviri_fa_olay_02.js",
+    "a7024128"
+   ],
+   [
+    "ceviri_fa_olay_03.js",
+    "43f39026"
+   ],
+   [
+    "ceviri_fa_olay_04.js",
+    "36f6b462"
    ]
   ]
  }
