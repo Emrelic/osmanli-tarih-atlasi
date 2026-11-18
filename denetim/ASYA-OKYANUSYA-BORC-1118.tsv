@@ -1,0 +1,969 @@
+bolge	kat	id	ad	modern_ad	ulke	lat	lon	sebep	denenen_kaynak
+hint	1		Punakha	Punakha	Butan	27.5914	89.8774	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	2		Amraoti	Amravati	Hindistan	20.9333	77.75	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	2		Chandernagor	Chandannagar	Hindistan	22.8622	88.368	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	2		Gangtok	Gangtok	Hindistan	27.3257	88.6122	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	2		Mercara	Madikeri	Hindistan	12.426	75.7382	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	2		Abu	Mount Abu	Hindistan	24.5937	72.7176	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	2		Nagpur	Nagpur	Hindistan	21.1463	79.0849	TDV madde başlığı yok / şehir için tarihli cümle yok; ikinci basamak (akademik) kaynak okunmadı	TDV arama: nagpur (18 Kasım 2026)
+hint	2		Nova Goa (Pangim)	Panaji	Hindistan	15.4957	73.8262	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	2		Port Blair	Port Blair	Hindistan	11.6661	92.7464	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	2		Pondichéry	Puducherry	Hindistan	11.9338	79.8298	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	2		Shillong	Shillong	Hindistan	25.5689	91.8831	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	2		Quetta	Quetta	Pakistan	30.1841	67.0014	TDV madde başlığı yok / şehir için tarihli cümle yok; ikinci basamak (akademik) kaynak okunmadı	TDV arama: kuetta (BELÛCİSTAN'da tarihli cümle yok) (18 Kasım 2026)
+hint	2		Badulla	Badulla	Sri Lanka	6.9802	81.0577	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	2		Colombo	Colombo	Sri Lanka	6.9355	79.8487	TDV madde başlığı yok / şehir için tarihli cümle yok; ikinci basamak (akademik) kaynak okunmadı	TDV arama: kolombo (SRİ LANKA ülke maddesi, şehir tarihi tarihli cümle sağlamadı) (18 Kasım 2026)
+hint	2		Galle	Galle	Sri Lanka	6.0461	80.2103	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	2		Kandy	Kandy	Sri Lanka	7.2906	80.6336	TDV madde başlığı yok / şehir için tarihli cümle yok; ikinci basamak (akademik) kaynak okunmadı	TDV arama: kandy (18 Kasım 2026)
+hint	2		Kurunegala	Kurunegala	Sri Lanka	7.4839	80.3683	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	2		Ratnapura	Ratnapura	Sri Lanka	6.6858	80.4036	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	2		Trincomalee	Trincomalee	Sri Lanka	8.5778	81.2289	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Barisal	Barishal	Bangladeş	22.705	90.3701	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Comilla	Cumilla	Bangladeş	23.4619	91.185	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Dinajpur	Dinajpur	Bangladeş	25.6274	88.6378	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Faridpur	Faridpur	Bangladeş	23.6061	89.8406	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Jessore	Jashore	Bangladeş	23.1697	89.2137	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Khulna	Khulna	Bangladeş	22.8098	89.5644	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Nasirabad	Mymensingh	Bangladeş	24.7564	90.4065	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Pabna	Pabna	Bangladeş	24.0064	89.2372	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Rampur Boalia	Rajshahi	Bangladeş	24.374	88.6011	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Rangamati	Rangamati	Bangladeş	22.6432	92.1919	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Rangpur	Rangpur	Bangladeş	25.7466	89.2517	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Sylhet	Sylhet	Bangladeş	24.899	91.872	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Aijal	Aizawl	Hindistan	23.7289	92.7179	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Akola	Akola	Hindistan	20.7096	76.9981	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Alibag	Alibag	Hindistan	18.6481	72.8758	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Aligarh	Aligarh	Hindistan	27.8815	78.0746	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Almora	Almora	Hindistan	29.5971	79.6591	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Ambala	Ambala	Hindistan	30.361	76.7978	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Anantapur	Anantapur	Hindistan	14.6778	77.6081	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Angul	Angul	Hindistan	20.8409	85.1019	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Arrah	Arrah	Hindistan	25.5563	84.6633	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Fyzabad	Ayodhya (Faizabad)	Hindistan	26.7991	82.2047	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Budaun	Badaun	Hindistan	28.0381	79.1267	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Berhampore	Baharampur	Hindistan	24.1047	88.2515	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Bahraich	Bahraich	Hindistan	27.5743	81.5947	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Burha	Balaghat	Hindistan	21.8156	80.1885	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Balasore	Balasore	Hindistan	21.4927	86.9335	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Bellary	Ballari	Hindistan	15.142	76.924	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Ballia	Ballia	Hindistan	25.4214	86.3144	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Banda	Banda	Hindistan	25.4776	80.3349	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Bankura	Bankura	Hindistan	23.2324	87.0716	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Nawabganj	Barabanki	Hindistan	26.9313	81.1984	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Burdwan	Bardhaman	Hindistan	23.2557	87.8569	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Basti	Basti	Hindistan	26.7882	82.7162	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Belgaum	Belagavi	Hindistan	15.8521	74.5045	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Badnur	Betul	Hindistan	21.9006	77.9023	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Bhandara	Bhandara	Hindistan	21.1682	79.6488	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Bijnor	Bijnor	Hindistan	29.373	78.1364	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Bilaspur	Bilaspur	Hindistan	22.08	82.1554	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Bulandshahr	Bulandshahr	Hindistan	28.4039	77.8577	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Buldana	Buldhana	Hindistan	20.5293	76.1846	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Chaibasa	Chaibasa	Hindistan	22.5504	85.8025	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Chanda	Chandrapur	Hindistan	19.951	79.295	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Chapra	Chhapra	Hindistan	25.78	84.747	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Chatrapur	Chhatrapur	Hindistan	19.3557	84.9836	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Chhindwara	Chhindwara	Hindistan	22.057	78.9396	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Chittoor	Chittoor	Hindistan	13.2105	79.0956	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Coimbatore	Coimbatore	Hindistan	11.0055	76.9661	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Cuddalore	Cuddalore	Hindistan	11.7562	79.7669	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Damoh	Damoh	Hindistan	23.8331	79.4419	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Darbhanga	Darbhanga	Hindistan	26.1522	85.8971	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Dehra	Dehradun	Hindistan	30.3244	78.0339	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Dharmsala	Dharamshala	Hindistan	32.2201	76.3201	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Dhubri	Dhubri	Hindistan	26.0186	89.9856	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Dhulia	Dhule	Hindistan	20.9013	74.7774	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Dibrugarh	Dibrugarh	Hindistan	27.4799	94.9084	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Dumka	Dumka	Hindistan	24.2678	87.2485	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		English Bazar	English Bazar (Malda)	Hindistan	25.0045	88.1457	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Etah	Etah	Hindistan	27.5588	78.6569	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Fatehgarh	Fatehgarh	Hindistan	27.3641	79.6311	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Fatehpur	Fatehpur	Hindistan	25.9277	80.8127	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Ferozepore	Firozpur	Hindistan	30.9257	74.6131	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Gaya	Gaya	Hindistan	24.7969	85.0038	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Ghazipur	Ghazipur	Hindistan	25.5833	83.5853	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Godhra	Godhra	Hindistan	22.7755	73.6149	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Gonda	Gonda	Hindistan	27.1318	81.9533	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Gurdaspur	Gurdaspur	Hindistan	32.0393	75.4032	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Gurgaon	Gurugram	Hindistan	28.4601	77.0263	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Hamirpur	Hamirpur	Hindistan	25.9553	80.1484	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Hardoi	Hardoi	Hindistan	27.3949	80.1316	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Hazaribagh	Hazaribagh	Hindistan	23.9924	85.3616	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Hoshiarpur	Hoshiarpur	Hindistan	31.5372	75.9127	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Howrah	Howrah	Hindistan	22.5769	88.3186	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Jubbulpore	Jabalpur	Hindistan	23.167	79.9501	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Jalpaiguri	Jalpaiguri	Hindistan	26.5167	88.7333	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Jhansi	Jhansi	Hindistan	25.4589	78.5799	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Cuddapah	Kadapa	Hindistan	14.48	78.8235	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Cocanada	Kakinada	Hindistan	16.9604	82.2381	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Cawnpore	Kanpur	Hindistan	26.4652	80.3498	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Karnal	Karnal	Hindistan	29.692	76.9845	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Karwar	Karwar	Hindistan	14.8136	74.1297	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Khandwa	Khandwa	Hindistan	21.8243	76.3509	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Kaira	Kheda	Hindistan	22.7522	72.6853	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Kohima	Kohima	Hindistan	25.6747	94.111	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Krishnagar	Krishnanagar	Hindistan	23.4058	88.4907	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Lakhimpur	Lakhimpur	Hindistan	27.9482	80.7793	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Mainpuri	Mainpuri	Hindistan	27.2286	79.0288	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Mandla	Mandla	Hindistan	22.5988	80.3712	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Daltonganj	Medininagar	Hindistan	24.0397	84.0658	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Midnapore	Medinipur	Hindistan	22.4211	87.3226	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Mirzapur	Mirzapur	Hindistan	25.1449	82.5653	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Motihari	Motihari	Hindistan	26.6486	84.9166	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Monghyr	Munger	Hindistan	25.3746	86.4745	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Muzaffarpur	Muzaffarpur	Hindistan	26.1226	85.3906	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Nowgong	Nagaon	Hindistan	26.35	92.6667	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Hoshangabad	Narmadapuram	Hindistan	22.7475	77.7274	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Narsinghpur	Narsinghpur	Hindistan	22.9494	79.1836	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Nasik	Nashik	Hindistan	19.9973	73.791	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Nellore	Nellore	Hindistan	14.4499	79.987	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Orai	Orai	Hindistan	25.9902	79.4533	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Pauri	Pauri	Hindistan	30.1529	78.7771	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Pilibhit	Pilibhit	Hindistan	28.6312	79.8044	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Bela (Partabgarh)	Pratapgarh	Hindistan	24.0322	74.7816	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Purnea	Purnia	Hindistan	25.7789	87.4742	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Purulia	Purulia	Hindistan	23.3306	86.363	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Rae Bareli	Raebareli	Hindistan	26.2309	81.2331	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Raipur	Raipur	Hindistan	21.2333	81.6333	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Ranchi	Ranchi	Hindistan	23.3432	85.3094	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Ratnagiri	Ratnagiri	Hindistan	16.9915	73.3102	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Rohtak	Rohtak	Hindistan	28.8945	76.5892	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Sambalpur	Sambalpur	Hindistan	21.4653	83.9757	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Simla	Shimla	Hindistan	31.1044	77.1666	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Silchar	Silchar	Hindistan	24.8273	92.7979	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Sitapur	Sitapur	Hindistan	27.5619	80.6826	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Sholapur	Solapur	Hindistan	17.6715	75.9104	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Sultanpur	Sultanpur	Hindistan	26.2579	82.0727	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Surat	Surat	Hindistan	21.1959	72.8302	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Suri	Suri	Hindistan	23.9081	87.5277	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Tezpur	Tezpur	Hindistan	26.6333	92.8	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Trichinopoly	Tiruchirappalli	Hindistan	10.8155	78.6965	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Tura	Tura	Hindistan	25.5142	90.2024	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Unao	Unnao	Hindistan	26.5471	80.4878	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Vizagapatam	Visakhapatnam	Hindistan	17.6801	83.2016	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Wardha	Wardha	Hindistan	20.7393	78.5978	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Basim	Washim	Hindistan	20.1113	77.133	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Yeotmal	Yavatmal	Hindistan	20.3932	78.132	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Dera Ghazi Khan	Dera Ghazi Khan	Pakistan	30.0459	70.6403	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Dera Ismail Khan	Dera Ismail Khan	Pakistan	31.8313	70.9017	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Gujranwala	Gujranwala	Pakistan	32.1557	74.187	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Gujrat	Gujrat	Pakistan	32.5742	74.0754	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Jhang	Jhang	Pakistan	31.3057	72.3259	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Jhelum	Jhelum	Pakistan	32.9345	73.731	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Kohat	Kohat	Pakistan	33.582	71.4493	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Muzaffargarh	Muzaffargarh	Pakistan	30.0726	71.1938	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Nushki	Nushki	Pakistan	29.5522	66.0229	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Peshawar	Peshawar	Pakistan	34.008	71.5785	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Shahpur	Shahpur	Pakistan	32.2682	72.4688	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Sibi	Sibi	Pakistan	29.543	67.8773	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Sukkur	Sukkur	Pakistan	27.7032	68.8589	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Umarkot	Umerkot	Pakistan	25.3633	69.7418	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3		Fort Sandeman	Zhob	Pakistan	31.3408	69.4493	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	2			Mahibadhoo	Maldivler	3.75713	72.96893	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	2			Hithadhoo	Maldivler	-0.6	73.08333	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	2			Naifaru	Maldivler	5.44438	73.36571	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	2			Felidhoo	Maldivler	3.47182	73.54699	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	2			Fonadhoo	Maldivler	1.83243	73.50257	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	2			Dhidhdhoo	Maldivler	6.88744	73.11402	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	2			Veymandoo	Maldivler	2.18772	73.09556	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	2			Muli	Maldivler	2.92167	73.58111	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	2			Ugoofaaru	Maldivler	5.66812	73.03017	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	2			Nilandhoo	Maldivler	3.05667	72.89	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	2			Kudahuvadhoo	Maldivler	2.67075	72.89437	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	2			Eydhafushi	Maldivler	5.10327	73.07078	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	2			Kulhudhuffushi	Maldivler	6.62207	73.06998	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	2			Funadhoo	Maldivler	6.15091	73.29013	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	2			Manadhoo	Maldivler	5.76687	73.4136	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	2			Male	Maldivler	4.17521	73.50916	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	2			Viligili	Maldivler	0.75906	73.43296	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	2			Thinadhoo	Maldivler	0.5306	72.99969	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	2			Fuvahmulah	Maldivler	-0.29878	73.42403	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	2			Itanagar	Hindistan	27.08694	93.60987	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	2			Dispur	Hindistan	26.13564	91.80069	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	2			Chandīgarh	Hindistan	30.73629	76.7884	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	2			Gāndhīnagar	Hindistan	23.21667	72.68333	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	2			Kargil	Hindistan	34.55765	76.12622	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	2			Kavaratti	Hindistan	10.56688	72.64203	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	2			Bhubaneshwar	Hindistan	20.27241	85.83385	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	2			Agartala	Hindistan	23.83605	91.27939	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	2			Dhankutā	Nepal	26.98333	87.33333	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	2			Janakpur	Nepal	26.72882	85.92628	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	2			Pokhara	Nepal	28.26689	83.96851	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	2			Birendranagar	Nepal	28.59669	81.61658	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	2			Dipayal	Nepal	29.26083	80.94	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	2			Paro	Butan	27.4305	89.41334	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	2			Tsimasham	Butan	27.0989	89.53604	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	2			Ha	Butan	27.46609	89.64191	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	2			Samtse	Butan	26.89903	89.09951	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	2			Tsirang	Butan	27.0219	90.12291	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	2			Daga	Butan	27.07529	89.87688	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	2			Wangdue Phodrang	Butan	27.48615	89.89915	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	2			Sarpang	Butan	26.86395	90.26745	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	2			Trongsa	Butan	27.5026	90.50716	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	2			Jakar	Butan	27.54918	90.7525	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	2			Shemgang	Butan	27.21689	90.65793	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	2			Tashi Yangtse	Butan	27.6116	91.498	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	2			Mongar	Butan	27.27471	91.23963	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	2			Pemagatshel	Butan	27.03795	91.40305	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	2			Lhuentse	Butan	27.66787	91.18393	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	2			Samdrup Jongkhar	Butan	26.80069	91.50519	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	2			Gasa	Butan	27.90372	89.72689	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	2			Gilgit	Pakistan	35.91869	74.31245	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	2			Muzaffarābād	Pakistan	34.37002	73.47082	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	2			Pārachinār	Pakistan	33.89968	70.10012	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3			Bhuc (Kutch)		23.242	69.667	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3			Haldighati		24.8921711	73.6978065	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3			Kolaçel (Colachel)		8.1786	77.2561	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3			Faisalabad	Pakistan	31.41554	73.08969	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3			Birganj	Nepal	27.01736	84.88047	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3			Nepalganj	Nepal	28.05	81.61667	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3			Polonnaruwa	Sri Lanka	7.93965	81.00274	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3			Thimphu	Butan	27.46609	89.64191	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+hint	3			Phuntsholing	Butan	26.85164	89.38837	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+orta-asya-mogolistan	2		Kobdo	Khovd	Moğolistan	48.0056	91.6419	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+orta-asya-mogolistan	2		Uliassutai	Uliastai	Moğolistan	47.7417	96.8444	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+orta-asya-mogolistan	2		Uralsk	Oral	Kazakistan	51.246	51.4256	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+orta-asya-mogolistan	2		Semipalatinsk	Semey	Kazakistan	50.4206	80.2502	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+orta-asya-mogolistan	3		Gurev	Atyrau	Kazakistan	47.1048	51.8843	TDV madde başlığı yok / şehir için tarihli cümle yok; ikinci basamak (akademik) kaynak okunmadı	TDV arama: gurev (18 Kasım 2026)
+orta-asya-mogolistan	3		Aleksandrovskiy fort	Fort-Shevchenko	Kazakistan	44.5065	50.2639	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+orta-asya-mogolistan	3		Kazalinsk	Kazaly	Kazakistan	45.7626	62.1033	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+orta-asya-mogolistan	3		Kustanay	Kostanay	Kazakistan	53.2144	63.6246	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+orta-asya-mogolistan	3		Perovsk	Kyzylorda	Kazakistan	44.8528	65.5092	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+orta-asya-mogolistan	3		Ust-Kamenogorsk	Oskemen	Kazakistan	49.9714	82.6059	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+orta-asya-mogolistan	3		Pavlodar	Pavlodar	Kazakistan	52.276	76.9688	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+orta-asya-mogolistan	3		Petropavlovsk	Petropavl	Kazakistan	54.8734	69.1506	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+orta-asya-mogolistan	3		Aulie-Ata	Taraz	Kazakistan	42.898	71.3733	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+orta-asya-mogolistan	3		Temir	Temir	Kazakistan	49.1428	57.1274	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+orta-asya-mogolistan	3		Turgay	Torgay	Kazakistan	49.6307	63.4903	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+orta-asya-mogolistan	3		Irgiz	Yrgyz	Kazakistan	48.6196	61.2607	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+orta-asya-mogolistan	3		Zaysan	Zaysan	Kazakistan	47.4666	84.8714	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+orta-asya-mogolistan	3		Dzharkent	Zharkent	Kazakistan	44.1662	80.0074	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+orta-asya-mogolistan	3		Osh	Osh	Kırgızistan	40.5283	72.7985	TDV madde başlığı yok / şehir için tarihli cümle yok; ikinci basamak (akademik) kaynak okunmadı	TDV arama: osh (18 Kasım 2026)
+orta-asya-mogolistan	3		Tedzhen	Tejen	Türkmenistan	37.3834	60.5055	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+orta-asya-mogolistan	3		Krasnovodsk	Türkmenbaşy	Türkmenistan	40.0222	52.9552	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+orta-asya-mogolistan	3		Dzhizak	Jizzakh	Özbekistan	40.1335	67.8296	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+orta-asya-mogolistan	3		Katta-Kurgan	Kattakurgan	Özbekistan	39.9055	66.2656	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+orta-asya-mogolistan	3		Namangan	Namangan	Özbekistan	40.9983	71.6726	TDV madde başlığı yok / şehir için tarihli cümle yok; ikinci basamak (akademik) kaynak okunmadı	TDV arama: nemengan (18 Kasım 2026)
+orta-asya-mogolistan	3		Wushih (Uch-Turfan)	Uqturpan	Çin	41.2146	79.2317	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+orta-asya-mogolistan	2			Aqtöbe	Kazakistan	49.46917	57.41865	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+orta-asya-mogolistan	2			Taldyqorghan	Kazakistan	45.01556	78.37389	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+orta-asya-mogolistan	2			Karagandy	Kazakistan	49.80187	73.10211	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+orta-asya-mogolistan	2			Aktau	Kazakistan	43.66105	51.17392	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+orta-asya-mogolistan	2			Baykonyr	Kazakistan	45.61667	63.31667	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+orta-asya-mogolistan	2			Batken	Kırgızistan	40.0604	70.81929	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+orta-asya-mogolistan	2			Tokmok	Kırgızistan	42.84194	75.30149	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+orta-asya-mogolistan	2			Naryn	Kırgızistan	41.4283	75.9957	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+orta-asya-mogolistan	2			Talas	Kırgızistan	42.52256	72.2417	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+orta-asya-mogolistan	2			Khorugh	Tacikistan	37.49039	71.55337	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+orta-asya-mogolistan	2			Qŭrghonteppa	Tacikistan	37.83654	68.77762	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+orta-asya-mogolistan	2			Navoiy	Özbekistan	40.08444	65.37917	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+orta-asya-mogolistan	2			Nukus	Özbekistan	42.45861	59.60576	TDV madde başlığı yok / şehir için tarihli cümle yok; ikinci basamak (akademik) kaynak okunmadı	TDV arama: nukus (18 Kasım 2026)
+orta-asya-mogolistan	2			Guliston	Özbekistan	40.49536	68.77542	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+orta-asya-mogolistan	2			Amir Timur	Özbekistan	41.01944	68.94083	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+orta-asya-mogolistan	2			Erdenet	Moğolistan	49.03333	104.08333	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+orta-asya-mogolistan	2			Darhan	Moğolistan	49.48667	105.92278	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+orta-asya-mogolistan	2			Mörön	Moğolistan	49.63417	100.1625	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+orta-asya-mogolistan	2			Ulaangom	Moğolistan	49.98111	92.06667	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+orta-asya-mogolistan	2			Dzuunmod	Moğolistan	47.70694	106.95278	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+orta-asya-mogolistan	2			Sühbaatar	Moğolistan	46.68056	113.27917	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+orta-asya-mogolistan	2			Dalandzadgad	Moğolistan	43.57083	104.425	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+orta-asya-mogolistan	2			Arvayheer	Moğolistan	46.26389	102.775	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+orta-asya-mogolistan	2			Mandalgovĭ	Moğolistan	45.7625	106.27083	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+orta-asya-mogolistan	2			Choybalsan	Moğolistan	48.07257	114.53264	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+orta-asya-mogolistan	2			Saynshand	Moğolistan	44.88239	110.11631	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+orta-asya-mogolistan	2			Choyr	Moğolistan	46.36111	108.36111	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+orta-asya-mogolistan	2			Bulgan	Moğolistan	48.8125	103.53472	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+orta-asya-mogolistan	2			Bayanhongor	Moğolistan	46.19444	100.71806	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+orta-asya-mogolistan	2			Ölgiy	Moğolistan	48.96833	89.9625	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+orta-asya-mogolistan	2			Tsetserleg	Moğolistan	47.475	101.45417	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+orta-asya-mogolistan	2			Balkanabat	Türkmenistan	39.51075	54.36713	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+orta-asya-mogolistan	2			Daşoguz	Türkmenistan	41.83625	59.96661	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+orta-asya-mogolistan	2			Türkmenabat	Türkmenistan	39.07328	63.57861	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+orta-asya-mogolistan	3			Küngrat		43.0833	58.8333	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+orta-asya-mogolistan	3			Kızılarvat		38.9833	56.2833	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+orta-asya-mogolistan	3			Külâb (Kulob)		37.91	69.78	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+orta-asya-mogolistan	3			Çöçek (Tarbagatay)		46.75	82.98	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+orta-asya-mogolistan	3			Altay (Şara Sume)		47.87	88.12	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+orta-asya-mogolistan	3			Karaşar (Yanqi)		42.06	86.57	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+orta-asya-mogolistan	3			Karkaralinsk (Karkaralı)		49.41	75.48	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+orta-asya-mogolistan	3			Ayagöz (Sergiopol)		47.96	80.43	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+orta-asya-mogolistan	3			Suzak (Sozak)		44.13	68.47	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+orta-asya-mogolistan	3			Ekibastuz	Kazakistan	51.72371	75.32287	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+orta-asya-mogolistan	3			Bekobod	Özbekistan	40.22083	69.26972	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+orta-asya-mogolistan	3			Tursunzoda	Tacikistan	38.51271	68.23163	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+orta-asya-mogolistan	3			Norak	Tacikistan	38.38917	69.32272	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+iran-kafkasya-afganistan	3			Karaj		35.83266	50.99155	TDV madde başlığı yok / şehir için tarihli cümle yok; ikinci basamak (akademik) kaynak okunmadı	TDV arama: Karaj (18 Kasım 2026)
+iran-kafkasya-afganistan	3			Shahr-e Kord		32.32612	50.8572	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+iran-kafkasya-afganistan	3			Yasuj		30.66824	51.58796	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+iran-kafkasya-afganistan	3			Ilam		33.6374	46.4227	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+iran-kafkasya-afganistan	3			Zahedan		29.4963	60.8629	TDV madde başlığı yok / şehir için tarihli cümle yok; ikinci basamak (akademik) kaynak okunmadı	TDV arama: zahidan (18 Kasım 2026)
+iran-kafkasya-afganistan	3			Khōst		33.33951	69.92041	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+iran-kafkasya-afganistan	3			Asadābād		34.87311	71.14697	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+iran-kafkasya-afganistan	3			Mehtar Lām		34.67139	70.20944	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+iran-kafkasya-afganistan	3			Pārūn		35.42064	70.92261	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+iran-kafkasya-afganistan	3			Nīlī		33.72178	66.13023	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+iran-kafkasya-afganistan	3			Qalāt		32.10575	66.90833	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+iran-kafkasya-afganistan	3			Tarinkot		32.62998	65.87806	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+iran-kafkasya-afganistan	3			Qala i Naw		34.98735	63.12891	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+iran-kafkasya-afganistan	3			Pul-e Khumrī		35.94458	68.71512	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+iran-kafkasya-afganistan	3			Aībak		36.26468	68.01551	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+iran-kafkasya-afganistan	3			Bāzārak		35.31292	69.51519	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+iran-kafkasya-afganistan	3			Pul-e ‘Alam		33.99529	69.02274	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+iran-kafkasya-afganistan	3			Ozurgeti		41.92336	42.00525	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+iran-kafkasya-afganistan	3			Ambrolauri		42.52322	43.14982	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+iran-kafkasya-afganistan	3			Vanadzor		40.8074	44.49704	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+iran-kafkasya-afganistan	3			Hrazdan		40.5169	44.75591	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+iran-kafkasya-afganistan	3			Yeghegnadzor		39.7644	45.33268	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+iran-kafkasya-afganistan	3			Ijevan		40.88037	45.14776	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+iran-kafkasya-afganistan	3			Ashtarak		40.2976	44.36152	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+iran-kafkasya-afganistan	3			Sumgayit		40.58972	49.66861	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+iran-kafkasya-afganistan	3			Mingachevir		40.76422	47.06227	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+iran-kafkasya-afganistan	3			Yevlakh		40.61832	47.15014	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+iran-kafkasya-afganistan	3			Aghdam		39.99096	46.92736	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+iran-kafkasya-afganistan	3			Fuzuli		39.60094	47.14529	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+iran-kafkasya-afganistan	3			Ismayilli		40.78485	48.15141	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+iran-kafkasya-afganistan	3			Zaqatala		41.6316	46.64479	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+iran-kafkasya-afganistan	3			Tovuz		40.99249	45.62838	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+iran-kafkasya-afganistan	3			Jalilabad		39.20963	48.49186	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+iran-kafkasya-afganistan	3			Imishli		39.87095	48.05995	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+iran-kafkasya-afganistan	3			Göyçay		40.65055	47.74219	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+iran-kafkasya-afganistan	3			Sabirabad		40.00869	48.47701	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+iran-kafkasya-afganistan	3			Aghstafa		41.11889	45.45389	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+iran-kafkasya-afganistan	3			Gazakh		41.09246	45.36561	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+iran-kafkasya-afganistan	3			Masally		39.03532	48.6654	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+iran-kafkasya-afganistan	3			Neftçala		39.3768	49.247	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+iran-kafkasya-afganistan	3			Oğuz		41.07128	47.46528	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+iran-kafkasya-afganistan	3			Kalbajar		40.10984	46.04446	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+iran-kafkasya-afganistan	3			Jabrayil		39.39917	47.02835	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+iran-kafkasya-afganistan	3			Zangilan		39.08371	46.65988	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+iran-kafkasya-afganistan	3			Khojaly		39.91361	46.79213	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+iran-kafkasya-afganistan	3			Naftalan		40.50821	46.8203	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+iran-kafkasya-afganistan	3			Mahmud-e Raqi		35.02298	69.35112	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+iran-kafkasya-afganistan	3			Maidan Shahr		34.39561	68.86618	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+iran-kafkasya-afganistan	3			Sharana		33.17568	68.73045	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+iran-kafkasya-afganistan	3			Sar-e Pol		36.21544	65.93249	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+iran-kafkasya-afganistan	3			Shirvan		39.93778	48.929	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+iran-kafkasya-afganistan	3			Khachmaz		41.46426	48.80565	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+iran-kafkasya-afganistan	3			Agdash		40.64699	47.4738	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+iran-kafkasya-afganistan	3			Hajigabul		40.03874	48.94286	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+iran-kafkasya-afganistan	3			Kurdamir		40.34257	48.15649	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+iran-kafkasya-afganistan	3			Shamkir		40.82975	46.0178	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+iran-kafkasya-afganistan	3			Bilasuvar		39.45833	48.545	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+iran-kafkasya-afganistan	3			Yardimli		38.90771	48.24052	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+iran-kafkasya-afganistan	3			Zardab		40.2184	47.71214	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+iran-kafkasya-afganistan	3			Balakan		41.72626	46.40478	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+iran-kafkasya-afganistan	3			Qakh		41.41826	46.92043	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+iran-kafkasya-afganistan	3			Aghjabadi		40.05015	47.45937	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+iran-kafkasya-afganistan	3			Gubadli		39.34441	46.58183	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+iran-kafkasya-afganistan	3			Maymana		35.92139	64.78361	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+iran-kafkasya-afganistan	3			Mtskheta		41.84514	44.71875	TDV madde başlığı yok / şehir için tarihli cümle yok; ikinci basamak (akademik) kaynak okunmadı	TDV arama: mtshketa (18 Kasım 2026)
+iran-kafkasya-afganistan	3			Rustavi		41.56271	44.9787	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+iran-kafkasya-afganistan	3			Lerik		38.77388	48.41497	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+iran-kafkasya-afganistan	3			Khirdalan		40.44808	49.75502	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+yakin-dogu	3	hasakah-sy		Hasakah		36.5024	40.7477	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+yakin-dogu	3	idlib-sy		Idlib		35.9306	36.6339	TDV madde başlığı yok / şehir için tarihli cümle yok; ikinci basamak (akademik) kaynak okunmadı	TDV arama: idlib (18 Kasım 2026)
+yakin-dogu	3	suwayda-sy		Suwayda		32.709	36.5695	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+yakin-dogu	3	quneitra-sy		Quneitra		33.126	35.8246	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+yakin-dogu	3	douma-sy		Douma		33.5718	36.4027	TDV madde başlığı yok / şehir için tarihli cümle yok; ikinci basamak (akademik) kaynak okunmadı	TDV arama: duma (18 Kasım 2026)
+yakin-dogu	3	diwaniyah-iq		Diwaniyah		31.9929	44.9255	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+yakin-dogu	3	dohuk-iq		Dohuk		36.8661	42.9879	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+yakin-dogu	3	baqubah-iq		Baqubah		33.754	44.6052	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+yakin-dogu	3	ramadi-iq		Ramadi		33.4206	43.3078	TDV madde başlığı yok / şehir için tarihli cümle yok; ikinci basamak (akademik) kaynak okunmadı	TDV arama: remadî (yalnız şair maddesi) (18 Kasım 2026)
+yakin-dogu	3	samawah-iq		Samawah		31.332	45.2944	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+yakin-dogu	3	zarqa-jo		Zarqa		32.0728	36.088	TDV madde başlığı yok / şehir için tarihli cümle yok; ikinci basamak (akademik) kaynak okunmadı	TDV arama: zerka (yalnız kişi maddeleri) (18 Kasım 2026)
+yakin-dogu	3	mafraq-jo		Mafraq		32.3429	36.208	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+yakin-dogu	3	tafilah-jo		Tafilah		30.8375	35.6044	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+yakin-dogu	3	beersheba-il		Beersheba		31.2518	34.7913	TDV madde başlığı yok / şehir için tarihli cümle yok; ikinci basamak (akademik) kaynak okunmadı	TDV arama: birüssebi (18 Kasım 2026)
+yakin-dogu	3	khan-yunis-ps		Khan Yunis		31.3402	34.3063	TDV madde başlığı yok / şehir için tarihli cümle yok; ikinci basamak (akademik) kaynak okunmadı	TDV arama: hanyunus + GAZZE maddesi (anılmıyor) (18 Kasım 2026)
+yakin-dogu	3	deir-al-balah-ps		Deir al-Balah		31.4183	34.3493	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+yakin-dogu	3	tubas-ps		Tubas		32.3209	35.3699	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+yakin-dogu	3	ramallah-ps		Ramallah		31.8996	35.2042	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+yakin-dogu	3	tulkarm-ps		Tulkarm		32.3116	35.0269	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+yakin-dogu	3	qalqilya-ps		Qalqilya		32.1897	34.9706	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+yakin-dogu	3	salfit-ps		Salfit		32.0837	35.1808	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+yakin-dogu	3	jabalia-ps		Jabalia		31.5272	34.4835	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+yakin-dogu	3	dammam-sa		Dammam		26.4344	50.1033	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+yakin-dogu	3	buraydah-sa		Buraydah		26.326	43.975	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+yakin-dogu	3	sakaka-sa		Sakaka		29.9697	40.2064	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+yakin-dogu	3	arar-sa		Arar		30.9753	41.0381	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+yakin-dogu	3	al-bahah-sa		Al Bahah		20.0129	41.4677	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+yakin-dogu	3	al-ain-ae		Al Ain		24.1917	55.7606	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+yakin-dogu	3	salalah-om		Salalah		17.015	54.0924	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+yakin-dogu	3	khasab-om		Khasab		26.1799	56.2477	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+yakin-dogu	3	amran-ye		Amran		15.6594	43.9438	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+yakin-dogu	3	dhamar-ye		Dhamar		14.5427	44.4051	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+yakin-dogu	3	ibb-ye		Ibb		13.9667	44.1833	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+yakin-dogu	3	hajjah-ye		Hajjah		15.6943	43.6058	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+yakin-dogu	3	al-bayda-ye		Al Bayda		13.9852	45.5727	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+yakin-dogu	3	zinjibar-ye		Zinjibar		13.1287	45.3807	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+yakin-dogu	3	ataq-ye		Ataq		14.5377	46.8319	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+yakin-dogu	3	al-mahwit-ye		Al Mahwit		15.4701	43.5448	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+yakin-dogu	3	al-hazm-ye		Al Hazm		16.1641	44.7769	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+yakin-dogu	3	ad-dali-ye		Ad Dali'		13.6957	44.7314	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+yakin-dogu	3	hadibu-ye		Hadibu		12.6488	54.0189	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+yakin-dogu	3	al-ghaydah-ye		Al Ghaydah		16.2079	52.176	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+yakin-dogu	3	al-jabin-ye		Al Jabin		14.7039	43.5992	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+yakin-dogu	3	zahle-lb		Zahle		33.8468	35.902	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+yakin-dogu	3	nabatieh-lb		Nabatieh		33.3772	35.4838	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+yakin-dogu	3	halba-lb		Halba		34.5428	36.0797	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+yakin-dogu	3	jounieh-lb		Jounieh		33.9808	35.6178	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+yakin-dogu	3	hermel-lb		Hermel		34.3942	36.3847	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+yakin-dogu	3	morphou-cy		Morphou		35.1987	32.9934	Kaynak araştırması yapılmadı (kapasite): önce TDV başlık araması, sonra akademik kaynak gerekir	yok
+okyanusya-gdasya	2	pekanbaru	Pekanbaru	Pekanbaru	Endonezya	0.507	101.447	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	tanjung-pinang	Tanjung Pinang	Tanjung Pinang	Endonezya	0.918	104.446	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	jambi	Jambi	Jambi	Endonezya	-1.61	103.613	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	pangkal-pinang	Pangkal Pinang	Pangkalpinang	Endonezya	-2.129	106.113	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	muntok	Muntok	Muntok	Endonezya	-2.06	105.163	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	tanjung-pandan	Tanjung Pandan	Tanjungpandan	Endonezya	-2.745	107.652	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	bengkulu	Bengkulu	Bengkulu	Endonezya	-3.8	102.256	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	bandar-lampung	Bandar Lampung	Bandar Lampung	Endonezya	-5.429	105.262	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	serang	Serang	Serang	Endonezya	-6.12	106.15	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	cirebon	Cirebon	Cirebon	Endonezya	-6.706	108.557	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	bogor	Bogor	Bogor	Endonezya	-6.595	106.817	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	sukabumi	Sukabumi	Sukabumi	Endonezya	-6.927	106.93	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	cianjur	Cianjur	Cianjur	Endonezya	-6.82	107.142	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	garut	Garut	Garut	Endonezya	-7.214	107.909	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	tasikmalaya	Tasikmalaya	Tasikmalaya	Endonezya	-7.327	108.22	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	purwakarta	Purwakarta	Purwakarta	Endonezya	-6.556	107.443	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	karawang	Karawang	Karawang	Endonezya	-6.306	107.307	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	bekasi	Bekasi	Bekasi	Endonezya	-6.234	106.992	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	tangerang	Tangerang	Tangerang	Endonezya	-6.178	106.63	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	depok	Depok	Depok	Endonezya	-6.403	106.794	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	semarang	Semarang	Semarang	Endonezya	-6.967	110.42	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	pati	Pati	Pati	Endonezya	-6.754	111.038	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	jepara	Jepara	Jepara	Endonezya	-6.588	110.668	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	rembang	Rembang	Rembang	Endonezya	-6.708	111.342	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	pekalongan	Pekalongan	Pekalongan	Endonezya	-6.889	109.675	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	tegal	Tegal	Tegal	Endonezya	-6.869	109.14	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	banyumas	Banyumas	Banyumas	Endonezya	-7.514	109.294	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	purwokerto	Purwokerto	Purwokerto	Endonezya	-7.424	109.239	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	cilacap	Cilacap	Cilacap	Endonezya	-7.727	109.01	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	kebumen	Kebumen	Kebumen	Endonezya	-7.668	109.652	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	purworejo	Purworejo	Purworejo	Endonezya	-7.714	110.006	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	wonosobo	Wonosobo	Wonosobo	Endonezya	-7.363	109.9	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	magelang	Magelang	Magelang	Endonezya	-7.47	110.218	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	borobudur	Borobudur	Borobudur	Endonezya	-7.608	110.204	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	prambanan	Prambanan	Prambanan	Endonezya	-7.752	110.491	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	salatiga	Salatiga	Salatiga	Endonezya	-7.332	110.494	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	klaten	Klaten	Klaten	Endonezya	-7.706	110.607	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	surakarta	Surakarta (Solo)	Surakarta (Solo)	Endonezya	-7.557	110.829	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	kartasura	Kartasura	Kartasura	Endonezya	-7.553	110.744	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	kotagede	Kotagede	Kotagede	Endonezya	-7.829	110.398	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	surabaya	Surabaya	Surabaya	Endonezya	-7.25	112.751	TDV madde başlığı yok / şehir için tarihli cümle yok; ikinci basamak (akademik) kaynak okunmadı	TDV arama: surabaya (18 Kasım 2026)
+okyanusya-gdasya	3	mojokerto	Mojokerto	Mojokerto	Endonezya	-7.473	112.434	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	malang	Malang	Malang	Endonezya	-7.983	112.631	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	kediri	Kediri	Kediri	Endonezya	-7.848	112.017	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	madiun	Madiun	Madiun	Endonezya	-7.63	111.523	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	pasuruan	Pasuruan	Pasuruan	Endonezya	-7.645	112.907	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	probolinggo	Probolinggo	Probolinggo	Endonezya	-7.754	113.215	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	bondowoso	Bondowoso	Bondowoso	Endonezya	-7.913	113.822	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	jember	Jember	Jember	Endonezya	-8.172	113.7	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	banyuwangi	Banyuwangi	Banyuwangi	Endonezya	-8.219	114.369	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	pamekasan	Pamekasan	Pamekasan	Endonezya	-7.158	113.475	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	sumenep	Sumenep	Sumenep	Endonezya	-7.006	113.867	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	bangkalan	Bangkalan	Bangkalan	Endonezya	-7.045	112.734	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	gresik	Gresik	Gresik	Endonezya	-7.155	112.656	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	sidoarjo	Sidoarjo	Sidoarjo	Endonezya	-7.447	112.718	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	jombang	Jombang	Jombang	Endonezya	-7.546	112.233	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	blitar	Blitar	Blitar	Endonezya	-8.098	112.165	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	tulungagung	Tulungagung	Tulungagung	Endonezya	-8.065	111.903	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	ponorogo	Ponorogo	Ponorogo	Endonezya	-7.866	111.463	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	denpasar	Denpasar	Denpasar	Endonezya	-8.656	115.217	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	singaraja	Singaraja	Singaraja	Endonezya	-8.112	115.088	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	semarapura	Semarapura (Klungkung)	Semarapura (Klungkung)	Endonezya	-8.531	115.403	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	gianyar	Gianyar	Gianyar	Endonezya	-8.541	115.325	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	amlapura	Amlapura (Karangasem)	Amlapura (Karangasem)	Endonezya	-8.453	115.612	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	tabanan	Tabanan	Tabanan	Endonezya	-8.54	115.125	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	mataram-lombok	Mataram (Lombok)	Mataram (Lombok)	Endonezya	-8.583	116.117	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	praya	Praya	Praya	Endonezya	-8.711	116.27	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	selong	Selong	Selong	Endonezya	-8.652	116.532	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	sumbawa-besar	Sumbawa Besar	Sumbawa Besar	Endonezya	-8.495	117.42	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	bima	Bima	Bima	Endonezya	-8.46	118.727	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	dompu	Dompu	Dompu	Endonezya	-8.536	118.463	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	kupang	Kupang	Kupang	Endonezya	-10.178	123.607	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	ende	Ende	Ende	Endonezya	-8.846	121.657	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	maumere	Maumere	Maumere	Endonezya	-8.619	122.212	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	ruteng	Ruteng	Ruteng	Endonezya	-8.61	120.462	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	larantuka	Larantuka	Larantuka	Endonezya	-8.34	122.988	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	labuan-bajo	Labuan Bajo	Labuan Bajo	Endonezya	-8.497	119.889	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	waingapu	Waingapu	Waingapu	Endonezya	-9.656	120.261	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	atambua	Atambua	Atambua	Endonezya	-9.106	124.892	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	kefamenanu	Kefamenanu	Kefamenanu	Endonezya	-9.447	124.478	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	pontianak	Pontianak	Pontianak	Endonezya	-0.027	109.343	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	singkawang	Singkawang	Singkawang	Endonezya	0.907	108.987	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	sambas	Sambas	Sambas	Endonezya	1.358	109.302	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	sintang	Sintang	Sintang	Endonezya	0.07	111.49	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	ketapang	Ketapang	Ketapang	Endonezya	-1.832	109.983	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	palangka-raya	Palangka Raya	Palangkaraya	Endonezya	-2.21	113.917	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	sampit	Sampit	Sampit	Endonezya	-2.54	112.953	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	pangkalan-bun	Pangkalan Bun	Pangkalan Bun	Endonezya	-2.683	111.625	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	banjarmasin	Banjarmasin	Banjarmasin	Endonezya	-3.319	114.591	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	martapura-kalsel	Martapura (Kalimantan)	Martapura (Kalimantan)	Endonezya	-3.413	114.842	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	amuntai	Amuntai	Amuntai	Endonezya	-2.417	115.25	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	kuala-kapuas	Kuala Kapuas	Kuala Kapuas	Endonezya	-3.001	114.386	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	samarinda	Samarinda	Samarinda	Endonezya	-0.502	117.154	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	tenggarong	Tenggarong	Tenggarong	Endonezya	-0.42	116.995	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	muara-kaman	Muara Kaman (Kutai Martadipura)	Muarakaman (Kutai Martadipura)	Endonezya	-0.183	116.717	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	balikpapan	Balikpapan	Balikpapan	Endonezya	-1.265	116.831	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	tarakan	Tarakan	Tarakan	Endonezya	3.3	117.633	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	tanjung-selor	Tanjung Selor	Tanjung Selor	Endonezya	2.838	117.366	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	tanjung-redeb	Tanjung Redeb	Tanjung Redeb	Endonezya	2.152	117.495	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	manado	Manado	Manado	Endonezya	1.475	124.842	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	tondano	Tondano	Tondano	Endonezya	1.302	124.909	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	bitung	Bitung	Bitung	Endonezya	1.44059	125.12824	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	gorontalo	Gorontalo	Gorontalo	Endonezya	0.543	123.059	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	palu	Palu	Palu	Endonezya	-0.895	119.87	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	poso	Poso	Poso	Endonezya	-1.391	120.752	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	luwuk	Luwuk	Luwuk	Endonezya	-0.951	122.789	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	mamuju	Mamuju	Mamuju	Endonezya	-2.675	118.889	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	sungguminasa	Sungguminasa (Gowa)	Sungguminasa (Gowa)	Endonezya	-5.2	119.45	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	watampone	Watampone (Bone)	Watampone (Bone)	Endonezya	-4.538	120.328	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	parepare	Parepare	Parepare	Endonezya	-4.014	119.623	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	palopo	Palopo	Palopo	Endonezya	-2.993	120.197	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	bulukumba	Bulukumba	Bulukumba	Endonezya	-5.553	120.193	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	kendari	Kendari	Kendari	Endonezya	-3.9778	122.51507	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	baubau	Baubau (Buton)	Baubau (Buton)	Endonezya	-5.47	122.63	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	ambon	Ambon	Ambon	Endonezya	-3.695	128.181	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	masohi	Masohi	Masohi	Endonezya	-3.29833	128.96882	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	tual	Tual	Tual	Endonezya	-5.638	132.752	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	banda-neira	Banda Neira	Banda Neira	Endonezya	-4.523	129.902	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	saumlaki	Saumlaki	Saumlaki	Endonezya	-7.983	131.3	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	namlea	Namlea	Namlea	Endonezya	-3.262	127.087	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	tidore	Tidore	Tidore	Endonezya	0.678	127.423	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	sofifi	Sofifi	Sofifi	Endonezya	0.737	127.567	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	labuha	Labuha (Bacan)	Labuha (Bacan)	Endonezya	-0.628	127.5	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	jailolo	Jailolo (Gilolo)	Jailolo (Gilolo)	Endonezya	1.063	127.48	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	jayapura	Jayapura	Jayapura	Endonezya	-2.533	140.717	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	manokwari	Manokwari	Manokwari	Endonezya	-0.862	134.062	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	sorong	Sorong	Sorong	Endonezya	-0.876	131.255	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	fakfak	Fakfak	Fakfak	Endonezya	-2.929	132.296	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	merauke	Merauke	Merauke	Endonezya	-8.493	140.403	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	nabire	Nabire	Nabire	Endonezya	-3.366	135.496	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	wamena	Wamena	Wamena	Endonezya	-4.095	138.943	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	biak	Biak	Biak	Endonezya	-1.18	136.08	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	serui	Serui	Serui	Endonezya	-1.88	136.24	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	timika	Timika	Timika	Endonezya	-4.546	136.887	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	lhokseumawe	Lhokseumawe	Lhokseumawe	Endonezya	5.18	97.14	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	sigli	Sigli	Sigli	Endonezya	5.38	95.96	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	meulaboh	Meulaboh	Meulaboh	Endonezya	4.14	96.13	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	peureulak	Peureulak (Perlak)	Peureulak (Perlak)	Endonezya	4.817	97.767	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	binjai	Binjai	Binjai	Endonezya	3.6	98.485	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	lubuk-pakam	Lubuk Pakam (Deli Serdang)	Lubuk Pakam (Deli Serdang)	Endonezya	3.553	98.881	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	pematangsiantar	Pematangsiantar	Pematangsiantar	Endonezya	2.96	99.06	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	sibolga	Sibolga	Sibolga	Endonezya	1.742	98.779	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	barus	Barus	Barus	Endonezya	2.003	98.391	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	bukittinggi	Bukittinggi	Bukittinggi	Endonezya	-0.305	100.369	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	batusangkar	Batusangkar (Pagaruyung)	Batusangkar (Pagaruyung)	Endonezya	-0.457	100.594	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	siak	Siak Sri Indrapura	Siak Sri Indrapura	Endonezya	0.801	102.047	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	muaro-jambi	Muaro Jambi	Muara Jambi	Endonezya	-1.475	103.667	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	lingga	Lingga	Lingga	Endonezya	-0.2	104.62	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	penyengat	Penyengat (Riau)	Penyengat (Riau)	Endonezya	0.923	104.425	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	lahat	Lahat	Lahat	Endonezya	-3.79	103.54	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	lubuklinggau	Lubuklinggau	Lubuklinggau	Endonezya	-3.3	102.86	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	kotabumi	Kotabumi	Kotabumi	Endonezya	-4.83	104.9	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	metro-lampung	Metro (Lampung)	Metro (Lampung)	Endonezya	-5.11	105.31	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	sungai-penuh	Sungai Penuh	Sungai Penuh	Endonezya	-2.063	101.391	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	1	putrajaya	Putrajaya	Putrajaya	Malezya	2.926	101.696	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	shah-alam	Shah Alam	Şah Alam	Malezya	3.073	101.518	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	klang	Klang	Klang	Malezya	3.044	101.446	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	kuala-selangor	Kuala Selangor	Kuala Selangor	Malezya	3.34	101.25	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	ipoh	Ipoh	Ipoh	Malezya	4.597	101.09	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	kuala-kangsar	Kuala Kangsar	Kuala Kangsar	Malezya	4.77	100.94	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	taiping	Taiping	Taiping	Malezya	4.85	100.74	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	alor-setar	Alor Setar	Alor Setar	Malezya	6.121	100.367	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	kangar	Kangar	Kangar	Malezya	6.44	100.2	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	kota-bharu	Kota Bharu	Kota Bharu	Malezya	6.133	102.239	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	kuala-terengganu	Kuala Terengganu	Kuala Terengganu	Malezya	5.33	103.14	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	kuantan	Kuantan	Kuantan	Malezya	3.8	103.33	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	pekan	Pekan	Pekan	Malezya	3.49	103.39	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	kuala-lipis	Kuala Lipis	Kuala Lipis	Malezya	4.185	102.05	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	seremban	Seremban	Seremban	Malezya	2.726	101.938	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	muar	Muar	Muar	Malezya	2.04	102.57	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	johor-bahru	Johor Bahru	Johor Bahru	Malezya	1.493	103.741	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	kota-tinggi	Kota Tinggi	Kota Tinggi	Malezya	1.73	103.9	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	sibu	Sibu	Sibu	Malezya	2.29	111.83	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	miri	Miri	Miri	Malezya	4.4	113.99	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	bintulu	Bintulu	Bintulu	Malezya	3.17	113.04	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	sandakan	Sandakan	Sandakan	Malezya	5.84	118.12	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	tawau	Tawau	Tawau	Malezya	4.244	117.891	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	labuan	Labuan (Victoria)	Labuan (Victoria)	Malezya	5.28	115.24	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	langkawi	Kuah (Langkawi)	Kuah (Langkawi)	Malezya	6.32	99.85	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	1	bandar-seri-begawan	Bandar Seri Begawan	Bandar Seri Begawan	Brunei	4.89	114.94	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	kota-batu	Kota Batu (Brunei)	Kota Batu (Brunei)	Brunei	4.879	114.967	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	kuala-belait	Kuala Belait	Kuala Belait	Brunei	4.58	114.19	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	tutong	Tutong	Tutong	Brunei	4.8	114.65	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	bangar	Bangar	Bangar	Brunei	4.714	115.072	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	quezon-city	Quezon City	Quezon City	Filipinler	14.676	121.044	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	davao	Davao City	Davao	Filipinler	7.073	125.613	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	zamboanga	Zamboanga City	Zamboanga	Filipinler	6.91	122.074	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	iloilo	Iloilo City	Iloilo	Filipinler	10.697	122.564	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	bacolod	Bacolod	Bacolod	Filipinler	10.676	122.951	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	cagayan-de-oro	Cagayan de Oro	Cagayan de Oro	Filipinler	8.477	124.646	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	tacloban	Tacloban	Tacloban	Filipinler	11.244	125.004	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	legazpi	Legazpi (Albay)	Legazpi (Albay)	Filipinler	13.139	123.744	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	naga	Naga (Camarines Sur)	Naga (Camarines Sur)	Filipinler	13.623	123.195	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	vigan	Vigan	Vigan	Filipinler	17.575	120.387	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	laoag	Laoag	Laoag	Filipinler	18.197	120.594	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	tuguegarao	Tuguegarao	Tuguegarao	Filipinler	17.613	121.727	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	san-fernando-la-union	San Fernando (La Union)	San Fernando (La Union)	Filipinler	16.616	120.316	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	san-fernando-pampanga	San Fernando (Pampanga)	San Fernando (Pampanga)	Filipinler	15.029	120.689	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	bacolor	Bacolor	Bacolor	Filipinler	14.999	120.649	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	baguio	Baguio	Baguio	Filipinler	16.402	120.596	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	la-trinidad	La Trinidad	La Trinidad	Filipinler	16.455	120.59	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	lingayen	Lingayen	Lingayen	Filipinler	16.022	120.232	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	tarlac	Tarlac City	Tarlac	Filipinler	15.475	120.596	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	cabanatuan	Cabanatuan	Cabanatuan	Filipinler	15.486	120.97	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	san-isidro-nueva-ecija	San Isidro (Nueva Ecija)	San Isidro (Nueva Ecija)	Filipinler	15.31	120.98	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	malolos	Malolos	Malolos	Filipinler	14.843	120.811	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	balanga	Balanga	Balanga	Filipinler	14.676	120.536	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	iba	Iba	Iba	Filipinler	15.327	119.978	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	cavite	Cavite City	Cavite	Filipinler	14.479	120.897	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	batangas	Batangas City	Batangas	Filipinler	13.756	121.058	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	calapan	Calapan	Calapan	Filipinler	13.411	121.18	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	tayabas	Tayabas	Tayabas	Filipinler	14.026	121.593	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	santa-cruz-laguna	Santa Cruz (Laguna)	Santa Cruz (Laguna)	Filipinler	14.28	121.416	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	infanta	Infanta	Infanta	Filipinler	14.74	121.65	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	morong	Morong	Morong	Filipinler	14.51	121.24	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	baler	Baler	Baler	Filipinler	15.759	121.562	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	basco	Basco	Basco	Filipinler	20.449	121.971	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	bangued	Bangued	Bangued	Filipinler	17.596	120.617	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	bayombong	Bayombong	Bayombong	Filipinler	16.483	121.149	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	ilagan	Ilagan	Ilagan	Filipinler	17.149	121.889	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	bontoc	Bontoc	Bontoc	Filipinler	17.088	120.977	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	cervantes	Cervantes	Cervantes	Filipinler	16.99	120.74	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	puerto-princesa	Puerto Princesa	Puerto Princesa	Filipinler	9.739	118.735	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	culion	Culion	Culion	Filipinler	11.855	119.99	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	romblon	Romblon	Romblon	Filipinler	12.578	122.269	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	masbate	Masbate City	Masbate	Filipinler	12.368	123.617	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	sorsogon	Sorsogon City	Sorsogon	Filipinler	12.974	124.005	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	catbalogan	Catbalogan	Catbalogan	Filipinler	11.775	124.886	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	tagbilaran	Tagbilaran	Tagbilaran	Filipinler	9.647	123.856	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	dumaguete	Dumaguete	Dumaguete	Filipinler	9.307	123.307	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	capiz	Roxas City (Capiz)	Roxas (Capiz)	Filipinler	11.585	122.751	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	san-jose-de-buenavista	San Jose de Buenavista	San Jose de Buenavista	Filipinler	10.746	121.941	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	jolo	Jolo	Jolo (Sulu)	Filipinler	6.05	121.002	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	maimbung	Maimbung	Maimbung	Filipinler	5.95	121	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	isabela-city	Isabela City	Isabela (Basilan)	Filipinler	6.704	121.971	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	cotabato	Cotabato City	Cotabato	Filipinler	7.223	124.246	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	marawi	Marawi	Marawi	Filipinler	8	124.29	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	iligan	Iligan	Iligan	Filipinler	8.228	124.245	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	butuan	Butuan	Butuan	Filipinler	8.949	125.541	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	surigao	Surigao City	Surigao	Filipinler	9.784	125.489	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	pagadian	Pagadian	Pagadian	Filipinler	7.826	123.437	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	dipolog	Dipolog	Dipolog	Filipinler	8.588	123.341	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	oroquieta	Oroquieta	Oroquieta	Filipinler	8.485	123.805	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	general-santos	General Santos	General Santos	Filipinler	6.113	125.172	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	koronadal	Koronadal	Koronadal	Filipinler	6.5	124.85	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	kidapawan	Kidapawan	Kidapawan	Filipinler	7.01	125.09	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	malaybalay	Malaybalay	Malaybalay	Filipinler	8.15	125.13	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	kalibo	Kalibo	Kalibo	Filipinler	11.705	122.364	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	borongan	Borongan	Borongan	Filipinler	11.608	125.434	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	tandag	Tandag	Tandag	Filipinler	9.08	126.2	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	lipa	Lipa	Lipa	Filipinler	13.941	121.163	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	pante-macassar	Pante Macassar (Oecusse)	Pante Makasar (Oecusse)	Doğu Timor	-9.2	124.38	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	baucau	Baucau	Baucau	Doğu Timor	-8.47	126.46	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	maliana	Maliana	Maliana	Doğu Timor	-8.99	125.22	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	suai	Suai	Suai	Doğu Timor	-9.31	125.26	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	manatuto	Manatuto	Manatuto	Doğu Timor	-8.51	126.02	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	lospalos	Lospalos	Lospalos	Doğu Timor	-8.52	127	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	viqueque	Viqueque	Viqueque	Doğu Timor	-8.86	126.37	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	aileu	Aileu	Aileu	Doğu Timor	-8.73	125.57	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	ermera	Ermera	Ermera	Doğu Timor	-8.75	125.4	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	liquica	Liquiçá	Liquiça	Doğu Timor	-8.59	125.34	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	ainaro	Ainaro	Ainaro	Doğu Timor	-9	125.52	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	same	Same (Manufahi)	Same (Manufahi)	Doğu Timor	-9	125.65	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	lifau	Lifau (Oecusse)	Lifau (Oecusse)	Doğu Timor	NaN	NaN	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	lae	Lae	Lae	Papua Yeni Gine	-6.73	146.99	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	madang	Madang	Madang	Papua Yeni Gine	-5.22	145.79	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	goroka	Goroka	Goroka	Papua Yeni Gine	-6.08	145.39	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	mount-hagen	Mount Hagen	Mount Hagen	Papua Yeni Gine	-5.86	144.23	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	wewak	Wewak	Wewak	Papua Yeni Gine	-3.55	143.63	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	kokopo	Kokopo (Herbertshöhe)	Kokopo (Herbertshöhe)	Papua Yeni Gine	-4.34	152.27	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	rabaul	Rabaul	Rabaul	Papua Yeni Gine	-4.2	152.17	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	kavieng	Kavieng	Kavieng	Papua Yeni Gine	-2.57	150.8	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	lorengau	Lorengau	Lorengau	Papua Yeni Gine	-2.02	147.27	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	kimbe	Kimbe	Kimbe	Papua Yeni Gine	-5.55	150.14	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	arawa	Arawa	Arawa	Papua Yeni Gine	-6.22	155.57	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	kieta	Kieta	Kieta	Papua Yeni Gine	-6.22	155.63	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	buka	Buka	Buka	Papua Yeni Gine	-5.43	154.67	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	alotau	Alotau	Alotau	Papua Yeni Gine	-10.31	150.45	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	samarai	Samarai	Samarai	Papua Yeni Gine	-10.61	150.66	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	popondetta	Popondetta	Popondetta	Papua Yeni Gine	-8.76	148.23	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	daru	Daru	Daru	Papua Yeni Gine	-9.08	143.2	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	kerema	Kerema	Kerema	Papua Yeni Gine	-7.96	145.77	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	mendi	Mendi	Mendi	Papua Yeni Gine	-6.15	143.65	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	wabag	Wabag	Wabag	Papua Yeni Gine	-5.49	143.72	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	kundiawa	Kundiawa	Kundiawa	Papua Yeni Gine	-6	144.97	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	vanimo	Vanimo	Vanimo	Papua Yeni Gine	-2.69	141.3	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	parramatta	Parramatta	Parramatta	Avustralya	-33.815	151.001	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	wollongong	Wollongong	Wollongong	Avustralya	-34.425	150.893	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	wagga-wagga	Wagga Wagga	Wagga Wagga	Avustralya	-35.117	147.37	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	dubbo	Dubbo	Dubbo	Avustralya	-32.243	148.605	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	armidale	Armidale	Armidale	Avustralya	-30.51	151.67	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	broken-hill	Broken Hill	Broken Hill	Avustralya	-31.953	141.453	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	geelong	Geelong	Geelong	Avustralya	-38.15	144.361	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	ballarat	Ballarat	Ballarat	Avustralya	-37.563	143.85	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	bendigo	Bendigo	Bendigo	Avustralya	-36.757	144.28	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	mildura	Mildura	Mildura	Avustralya	-34.19	142.16	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	townsville	Townsville	Townsville	Avustralya	-19.259	146.818	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	cairns	Cairns	Cairns	Avustralya	-16.92	145.77	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	rockhampton	Rockhampton	Rockhampton	Avustralya	-23.378	150.512	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	toowoomba	Toowoomba	Toowoomba	Avustralya	-27.564	151.954	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	mackay	Mackay	Mackay	Avustralya	-21.14	149.19	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	bundaberg	Bundaberg	Bundaberg	Avustralya	-24.866	152.351	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	thursday-island	Thursday Island	Thursday Island	Avustralya	-10.58	142.22	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	fremantle	Fremantle	Fremantle	Avustralya	-32.056	115.745	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	kalgoorlie	Kalgoorlie	Kalgoorlie	Avustralya	-30.749	121.466	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	geraldton	Geraldton	Geraldton	Avustralya	-28.777	114.615	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	broome	Broome	Broome	Avustralya	-17.962	122.236	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	port-hedland	Port Hedland	Port Hedland	Avustralya	-20.31	118.6	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	port-augusta	Port Augusta	Port Augusta	Avustralya	-32.494	137.767	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	port-lincoln	Port Lincoln	Port Lincoln	Avustralya	-34.721	135.859	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	mount-gambier	Mount Gambier	Mount Gambier	Avustralya	-37.83	140.78	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	coober-pedy	Coober Pedy	Coober Pedy	Avustralya	-29.01	134.75	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	launceston	Launceston	Launceston	Avustralya	-41.434	147.139	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	port-arthur	Port Arthur	Port Arthur	Avustralya	-43.146	147.85	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	burnie	Burnie	Burnie	Avustralya	-41.06	145.91	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	devonport-tas	Devonport (Tasmania)	Devonport (Tazmanya)	Avustralya	-41.18	146.35	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	katherine	Katherine	Katherine	Avustralya	-14.466	132.264	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	alice-springs	Alice Springs	Alice Springs	Avustralya	-23.698	133.881	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	tennant-creek	Tennant Creek	Tennant Creek	Avustralya	-19.65	134.19	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	kingston-norfolk	Kingston (Norfolk Island)	Kingston (Norfolk Adası)	Avustralya	-29.056	167.96	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	russell-kororareka	Russell (Kororāreka)	Russell (Kororareka)	Yeni Zelanda	-35.262	174.122	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	waitangi	Waitangi	Waitangi	Yeni Zelanda	-35.27	174.08	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	christchurch	Christchurch	Christchurch	Yeni Zelanda	-43.532	172.636	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	invercargill	Invercargill	Invercargill	Yeni Zelanda	-46.413	168.354	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	nelson-nz	Nelson (New Zealand)	Nelson (Yeni Zelanda)	Yeni Zelanda	-41.271	173.284	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	new-plymouth	New Plymouth	New Plymouth	Yeni Zelanda	-39.057	174.074	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	napier	Napier	Napier	Yeni Zelanda	-39.493	176.912	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	gisborne	Gisborne	Gisborne	Yeni Zelanda	-38.662	178.017	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	whanganui	Whanganui	Whanganui	Yeni Zelanda	-39.93	175.05	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	palmerston-north	Palmerston North	Palmerston North	Yeni Zelanda	-40.356	175.611	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	hamilton-nz	Hamilton (New Zealand)	Hamilton (Yeni Zelanda)	Yeni Zelanda	-37.787	175.279	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	tauranga	Tauranga	Tauranga	Yeni Zelanda	-37.687	176.165	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	rotorua	Rotorua	Rotorua	Yeni Zelanda	-38.137	176.249	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	taupo	Taupō	Taupo	Yeni Zelanda	-38.685	176.07	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	whangarei	Whangārei	Whangarei	Yeni Zelanda	-35.725	174.323	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	blenheim	Blenheim	Blenheim	Yeni Zelanda	-41.514	173.96	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	timaru	Timaru	Timaru	Yeni Zelanda	-44.397	171.255	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	hokitika	Hokitika	Hokitika	Yeni Zelanda	-42.72	170.97	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	greymouth	Greymouth	Greymouth	Yeni Zelanda	-42.45	171.21	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	queenstown-nz	Queenstown (New Zealand)	Queenstown (Yeni Zelanda)	Yeni Zelanda	-45.03	168.66	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	akaroa	Akaroa	Akaroa	Yeni Zelanda	-43.8	172.97	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	levuka	Levuka	Levuka	Fiji	-17.683	178.834	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	bau	Bau (Fiji)	Bau (Fiji)	Fiji	-17.867	178.6	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	nadi	Nadi	Nadi	Fiji	-17.8	177.42	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	lautoka	Lautoka	Lautoka	Fiji	-17.61	177.45	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	labasa	Labasa	Labasa	Fiji	-16.43	179.38	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	savusavu	Savusavu	Savusavu	Fiji	-16.78	179.33	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	1	apia	Apia	Apia	Samoa	-13.833	-171.759	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	salelologa	Salelologa	Salelologa	Samoa	-13.75	-172.19	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	asau	Asau	Asau	Samoa	-13.5	-172.62	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	1	pago-pago	Pago Pago	Pago Pago	Amerikan Samoası	-14.278	-170.703	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	1	nukualofa	Nuku'alofa	Nuku'alofa	Tonga	-21.139	-175.204	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	mua-lapaha	Mu'a (Lapaha)	Mu'a (Lapaha)	Tonga	-21.18	-175.13	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	neiafu	Neiafu	Neiafu	Tonga	-18.65	-173.98	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	pangai	Pangai	Pangai	Tonga	-19.8	-174.35	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	1	alofi	Alofi	Alofi	Niue	-19.056	-169.92	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	1	avarua	Avarua (Rarotonga)	Avarua (Rarotonga)	Cook Adaları	-21.207	-159.775	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	1	mata-utu	Mata-Utu	Mata-Utu	Wallis ve Futuna	-13.28	-176.17	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	1	funafuti	Funafuti	Funafuti	Tuvalu	-8.52	179.2	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	1	tarawa	Tarawa	Tarawa	Kiribati	1.451	173	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	banaba	Banaba (Ocean Island)	Banaba (Ocean Island)	Kiribati	-0.87	169.53	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	london-kiritimati	London (Kiritimati)	London (Kiritimati)	Kiribati	1.99	-157.47	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	1	yaren	Yaren	Yaren	Nauru	-0.547	166.921	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	1	majuro	Majuro	Majuro	Marshall Adaları	7.09	171.38	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	jaluit	Jaluit (Jabor)	Jaluit (Jabor)	Marshall Adaları	5.92	169.65	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	1	palikir	Palikir	Palikir	Mikronezya	6.92	158.16	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	kolonia	Kolonia (Pohnpei)	Kolonia (Pohnpei)	Mikronezya	6.96	158.21	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	weno-chuuk	Weno (Chuuk)	Weno (Chuuk)	Mikronezya	7.45	151.85	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	colonia-yap	Colonia (Yap)	Colonia (Yap)	Mikronezya	9.51	138.13	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	tofol	Tofol	Tofol	Mikronezya	5.326	163	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	1	hagatna	Hagåtña (Agaña)	Hagåtña (Agaña)	Guam	13.476	144.749	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	1	garapan	Garapan (Saipan)	Garapan (Saipan)	Kuzey Mariana Adaları	15.21	145.71	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	1	koror	Koror	Koror	Palau	7.34	134.48	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	1	ngerulmud	Ngerulmud	Ngerulmud	Palau	7.5	134.62	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	1	honiara	Honiara	Honiara	Solomon Adaları	-9.43	159.95	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	tulagi	Tulagi	Tulagi	Solomon Adaları	-9.1	160.15	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	gizo	Gizo	Gizo	Solomon Adaları	-8.1	156.84	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	auki	Auki	Auki	Solomon Adaları	-8.76	160.7	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	1	port-vila	Port Vila	Port Vila	Vanuatu	-17.734	168.322	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	luganville	Luganville	Luganville	Vanuatu	-15.51	167.17	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	isangel	Isangel	Isangel	Vanuatu	-19.55	169.27	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	kone	Koné	Koné	Yeni Kaledonya	-21.06	164.87	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	we-lifou	Wé (Lifou)	Wé (Lifou)	Yeni Kaledonya	-20.91	167.26	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	1	papeete	Papeete	Papeete	Fransız Polinezyası	-17.535	-149.57	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	uturoa	Uturoa	Uturoa	Fransız Polinezyası	-16.73	-151.44	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	taputapuatea	Taputapuatea	Taputapuatea	Fransız Polinezyası	-16.834	-151.347	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	taiohae	Taiohae	Taiohae	Fransız Polinezyası	-8.91	-140.1	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	1	honolulu	Honolulu	Honolulu	ABD (Hawaii)	21.307	-157.858	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	lahaina	Lahaina	Lahaina	ABD (Hawaii)	20.872	-156.68	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	kailua-kona	Kailua-Kona	Kailua-Kona	ABD (Hawaii)	19.64	-155.99	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	hilo	Hilo	Hilo	ABD (Hawaii)	19.72	-155.09	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	wailuku	Wailuku	Wailuku	ABD (Hawaii)	20.89	-156.5	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	2	lihue	Lihue	Lihue	ABD (Hawaii)	21.98	-159.37	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	1	adamstown	Adamstown (Pitcairn)	Adamstown (Pitcairn)	Pitcairn Adaları	-25.066	-130.1	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	hanga-roa	Hanga Roa (Easter Island)	Hanga Roa (Paskalya Adası)	Şili (Paskalya Adası)	-27.15	-109.43	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	batam	Batam	Batam	Endonezya	1.13	104.05	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	dumai	Dumai	Dumai	Endonezya	1.67	101.45	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	payakumbuh	Payakumbuh	Payakumbuh	Endonezya	-0.22	100.63	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	solok	Solok	Solok	Endonezya	-0.79	100.65	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	padangsidempuan	Padangsidempuan	Padangsidempuan	Endonezya	1.37	99.27	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	langsa	Langsa	Langsa	Endonezya	4.47	97.97	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	sabang	Sabang	Sabang	Endonezya	5.89	95.32	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	bontang	Bontang	Bontang	Endonezya	0.13	117.5	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	banjarbaru	Banjarbaru	Banjarbaru	Endonezya	-3.44	114.83	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	kotamobagu	Kotamobagu	Kotamobagu	Endonezya	0.73	124.32	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	kolaka	Kolaka	Kolaka	Endonezya	-4.05	121.6	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	majene	Majene	Majene	Endonezya	-3.54	118.97	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	cilegon	Cilegon	Cilegon	Endonezya	-6	106.02	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	cimahi	Cimahi	Cimahi	Endonezya	-6.87	107.54	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	bojonegoro	Bojonegoro	Bojonegoro	Endonezya	-7.15	111.88	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	tuban	Tuban	Tuban	Endonezya	-6.9	112.05	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	lumajang	Lumajang	Lumajang	Endonezya	-8.13	113.22	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	batu	Batu	Batu	Endonezya	-7.87	112.52	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	boyolali	Boyolali	Boyolali	Endonezya	-7.53	110.6	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	wonogiri	Wonogiri	Wonogiri	Endonezya	-7.81	110.92	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	pacitan	Pacitan	Pacitan	Endonezya	-8.2	111.1	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	lamongan	Lamongan	Lamongan	Endonezya	-7.12	112.41	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	sleman	Sleman	Sleman	Endonezya	-7.72	110.35	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	bantul	Bantul	Bantul	Endonezya	-7.89	110.33	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	wonosari-gunungkidul	Wonosari (Gunungkidul)	Wonosari (Gunungkidul)	Endonezya	-7.96	110.6	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	kendal	Kendal	Kendal	Endonezya	-6.92	110.2	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	brebes	Brebes	Brebes	Endonezya	-6.87	109.04	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	subang	Subang	Subang	Endonezya	-6.57	107.76	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	indramayu	Indramayu	Indramayu	Endonezya	-6.33	108.32	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	kuningan	Kuningan	Kuningan	Endonezya	-6.98	108.48	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	majalengka	Majalengka	Majalengka	Endonezya	-6.84	108.23	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	ciamis	Ciamis	Ciamis	Endonezya	-7.33	108.35	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	sumedang	Sumedang	Sumedang	Endonezya	-6.86	107.92	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	lembang	Lembang	Lembang	Endonezya	-6.81	107.62	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	singkil	Singkil	Singkil	Endonezya	2.29	97.79	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	sungailiat	Sungailiat	Sungailiat	Endonezya	-1.86	106.13	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	tanjung-balai-karimun	Tanjung Balai (Karimun)	Tanjung Balai (Karimun)	Endonezya	1	103.44	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	rantauprapat	Rantauprapat	Rantauprapat	Endonezya	2.1	99.83	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	kisaran	Kisaran	Kisaran	Endonezya	2.98	99.62	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	tebing-tinggi	Tebing Tinggi	Tebing Tinggi	Endonezya	3.33	99.16	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	prabumulih	Prabumulih	Prabumulih	Endonezya	-3.43	104.23	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	baturaja	Baturaja	Baturaja	Endonezya	-4.13	104.17	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	kuala-tungkal	Kuala Tungkal	Kuala Tungkal	Endonezya	-0.82	103.47	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	bangkinang	Bangkinang	Bangkinang	Endonezya	0.34	101.03	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	rengat	Rengat	Rengat	Endonezya	-0.37	102.54	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	teluk-kuantan	Teluk Kuantan	Teluk Kuantan	Endonezya	-0.44	101.54	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	ranai-natuna	Ranai (Natuna)	Ranai (Natuna)	Endonezya	3.95	108.38	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	teluk-intan	Teluk Intan	Teluk Intan	Malezya	4.02	101.02	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	sungai-petani	Sungai Petani	Sungai Petani	Malezya	5.65	100.49	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	batu-pahat	Batu Pahat	Batu Pahat	Malezya	1.85	102.93	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	kluang	Kluang	Kluang	Malezya	2.03	103.32	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	segamat	Segamat	Segamat	Malezya	2.51	102.82	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	temerloh	Temerloh	Temerloh	Malezya	3.45	102.42	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	bentong	Bentong	Bentong	Malezya	3.52	101.91	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	limbang	Limbang	Limbang	Malezya	4.75	115	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	kapit	Kapit	Kapit	Malezya	2.02	112.93	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	sri-aman	Sri Aman	Sri Aman	Malezya	1.24	111.46	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	lahad-datu	Lahad Datu	Lahad Datu	Malezya	5.03	118.33	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	keningau	Keningau	Keningau	Malezya	5.34	116.16	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	kudat	Kudat	Kudat	Malezya	6.89	116.84	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	semporna	Semporna	Semporna	Malezya	4.48	118.61	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	mukah	Mukah	Mukah	Malezya	2.9	112.09	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	sarikei	Sarikei	Sarikei	Malezya	2.13	111.52	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	kota-belud	Kota Belud	Kota Belud	Malezya	6.35	116.43	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	ranau	Ranau	Ranau	Malezya	5.95	116.66	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	jerantut	Jerantut	Jerantut	Malezya	3.94	102.36	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	jeli	Jeli	Jeli	Malezya	5.7	101.84	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	makati	Makati	Makati	Filipinler	14.55	121.02	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	pasig	Pasig	Pasig	Filipinler	14.576	121.085	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	caloocan	Caloocan	Caloocan	Filipinler	14.65	120.97	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	taguig	Taguig	Taguig	Filipinler	14.52	121.05	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	angeles	Angeles	Angeles	Filipinler	15.145	120.59	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	olongapo	Olongapo	Olongapo	Filipinler	14.83	120.28	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	san-jose-del-monte	San Jose del Monte	San Jose del Monte	Filipinler	14.81	121.05	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	lapu-lapu	Lapu-Lapu	Lapu-Lapu	Filipinler	10.31	123.95	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	ormoc	Ormoc	Ormoc	Filipinler	11	124.61	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	calbayog	Calbayog	Calbayog	Filipinler	12.07	124.6	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	lucena	Lucena	Lucena	Filipinler	13.94	121.62	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	antipolo	Antipolo	Antipolo	Filipinler	14.59	121.18	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	santiago-city	Santiago City	Santiago City	Filipinler	16.69	121.55	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	cauayan	Cauayan	Cauayan	Filipinler	16.93	121.77	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	dagupan	Dagupan	Dagupan	Filipinler	16.04	120.33	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	urdaneta	Urdaneta	Urdaneta	Filipinler	15.98	120.57	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	digos	Digos	Digos	Filipinler	6.75	125.36	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	mati	Mati	Mati	Filipinler	6.95	126.22	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	tagum	Tagum	Tagum	Filipinler	7.45	125.81	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	ozamiz	Ozamiz	Ozamiz	Filipinler	8.15	123.84	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	lamitan	Lamitan	Lamitan	Filipinler	6.65	122.13	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	tacurong	Tacurong	Tacurong	Filipinler	6.69	124.68	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	bislig	Bislig	Bislig	Filipinler	8.21	126.32	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	trece-martires	Trece Martires	Trece Martires	Filipinler	14.28	120.87	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	valencia-bukidnon	Valencia (Bukidnon)	Valencia (Bukidnon)	Filipinler	7.91	125.09	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	kabankalan	Kabankalan	Kabankalan	Filipinler	9.99	122.81	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	bago-negros	Bago (Negros)	Bago (Negros)	Filipinler	10.54	122.84	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	roxas-oriental-mindoro	Roxas (Oriental Mindoro)	Roxas (Oriental Mindoro)	Filipinler	12.59	121.52	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	gingoog	Gingoog	Gingoog	Filipinler	8.83	125.1	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	candon	Candon	Candon	Filipinler	17.19	120.45	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	alaminos	Alaminos	Alaminos	Filipinler	16.16	119.98	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	kiunga	Kiunga	Kiunga	Papua Yeni Gine	-6.12	141.29	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	bulolo	Bulolo	Bulolo	Papua Yeni Gine	-7.2	146.65	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	tari	Tari	Tari	Papua Yeni Gine	-5.85	142.95	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	aitape	Aitape	Aitape	Papua Yeni Gine	-3.14	142.35	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	wau	Wau	Wau	Papua Yeni Gine	-7.34	146.72	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	kainantu	Kainantu	Kainantu	Papua Yeni Gine	-6.29	145.87	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	namatanai	Namatanai	Namatanai	Papua Yeni Gine	-3.67	152.44	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	gold-coast	Gold Coast	Gold Coast	Avustralya	-28	153.4	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	sunshine-coast-maroochydore	Sunshine Coast (Maroochydore)	Sunshine Coast (Maroochydore)	Avustralya	-26.65	153.09	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	gladstone	Gladstone	Gladstone	Avustralya	-23.84	151.26	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	hervey-bay	Hervey Bay	Hervey Bay	Avustralya	-25.29	152.85	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	mount-isa	Mount Isa	Mount Isa	Avustralya	-20.73	139.49	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	gympie	Gympie	Gympie	Avustralya	-26.19	152.67	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	albury	Albury	Albury	Avustralya	-36.08	146.92	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	tamworth	Tamworth	Tamworth	Avustralya	-31.09	150.93	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	orange	Orange	Orange	Avustralya	-33.28	149.1	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	lismore	Lismore	Lismore	Avustralya	-28.81	153.28	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	coffs-harbour	Coffs Harbour	Coffs Harbour	Avustralya	-30.3	153.11	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	port-macquarie	Port Macquarie	Port Macquarie	Avustralya	-31.43	152.91	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	maitland	Maitland	Maitland	Avustralya	-32.73	151.55	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	goulburn	Goulburn	Goulburn	Avustralya	-34.75	149.72	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	griffith	Griffith	Griffith	Avustralya	-34.29	146.05	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	shepparton	Shepparton	Shepparton	Avustralya	-36.38	145.4	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	warrnambool	Warrnambool	Warrnambool	Avustralya	-38.38	142.48	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	horsham	Horsham	Horsham	Avustralya	-36.71	142.2	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	whyalla	Whyalla	Whyalla	Avustralya	-33.03	137.58	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	karratha	Karratha	Karratha	Avustralya	-20.74	116.85	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	bunbury	Bunbury	Bunbury	Avustralya	-33.33	115.64	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	esperance	Esperance	Esperance	Avustralya	-33.86	121.89	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	carnarvon	Carnarvon	Carnarvon	Avustralya	-24.88	113.66	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	kununurra	Kununurra	Kununurra	Avustralya	-15.77	128.74	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	nhulunbuy	Nhulunbuy	Nhulunbuy	Avustralya	-12.19	136.78	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	ulverstone	Ulverstone	Ulverstone	Avustralya	-41.16	146.17	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	wangaratta	Wangaratta	Wangaratta	Avustralya	-36.36	146.31	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	masterton	Masterton	Masterton	Yeni Zelanda	-40.95	175.66	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	porirua	Porirua	Porirua	Yeni Zelanda	-41.13	174.84	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	lower-hutt	Lower Hutt	Lower Hutt	Yeni Zelanda	-41.21	174.91	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	whakatane	Whakatane	Whakatane	Yeni Zelanda	-37.96	176.99	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	kerikeri	Kerikeri	Kerikeri	Yeni Zelanda	-35.23	173.95	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	thames	Thames	Thames	Yeni Zelanda	-37.14	175.54	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	oamaru	Oamaru	Oamaru	Yeni Zelanda	-45.1	170.97	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	gore	Gore	Gore	Yeni Zelanda	-46.1	168.94	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	westport	Westport	Westport	Yeni Zelanda	-41.75	171.6	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	ashburton	Ashburton	Ashburton	Yeni Zelanda	-43.9	171.75	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	wanaka	Wanaka	Wanaka	Yeni Zelanda	-44.7	169.14	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	te-anau	Te Anau	Te Anau	Yeni Zelanda	-45.41	167.72	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	picton	Picton	Picton	Yeni Zelanda	-41.29	174	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	levin	Levin	Levin	Yeni Zelanda	-40.62	175.28	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	taumarunui	Taumarunui	Taumarunui	Yeni Zelanda	-38.88	175.26	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	kaitaia	Kaitaia	Kaitaia	Yeni Zelanda	-35.11	173.26	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	cambridge-nz	Cambridge (NZ)	Cambridge (NZ)	Yeni Zelanda	-37.89	175.47	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	alexandra-nz	Alexandra (NZ)	Alexandra (NZ)	Yeni Zelanda	-45.25	169.39	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	sigatoka	Sigatoka	Sigatoka	Fiji	-18.14	177.5	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	ba	Ba	Ba	Fiji	-17.54	177.67	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	nausori	Nausori	Nausori	Fiji	-18.02	178.55	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	rakiraki	Rakiraki	Rakiraki	Fiji	-17.37	178.16	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	munda	Munda	Munda	Solomon Adaları	-8.32	157.26	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	kirakira	Kirakira	Kirakira	Solomon Adaları	-10.45	161.92	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	buala	Buala	Buala	Solomon Adaları	-8.13	159.59	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	sola	Sola	Sola	Vanuatu	-13.88	167.55	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	lakatoro	Lakatoro	Lakatoro	Vanuatu	-16.1	167.4	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	paita	Paita	Paita	Yeni Kaledonya (Fransa)	-22.14	166.36	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	poindimie	Poindimié	Poindimié	Yeni Kaledonya (Fransa)	-20.93	165.33	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	dumbea	Dumbéa	Dumbéa	Yeni Kaledonya (Fransa)	-22.16	166.44	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
+okyanusya-gdasya	3	fakaofo	Fakaofo	Fakaofo	Tokelau (Yeni Zelanda)	-9.37	-171.23	Kaynak araştırması yapılmadı (kapasite): TDV yer-başlığı çok büyük olasılıkla yok; yabancı akademik kaynak (Pasifik/GD Asya) gövdeden okunmadı	yok
