@@ -1385,10 +1385,20 @@ var ufukHata = null;             // "yok" | "biçim tanınmadı" | null
 var UFUK_BICIMLER = { kodlu: true, ham: true };
 var UFUK_DOSYALAR = ["data/ufuk_bantlari_ust.js", "data/ufuk_bant_parcalar.js"];
 
+// UFUK-KATMAN-YOK-1118: MapLibre 5 olmayan katmanda HATA FIRLATMAZ — konsola
+// "Cannot get style of non-existing layer" yazar ve undefined döner; try/catch
+// yakalamaz, "undefined !== 'none'" ⇒ katman yokken "açık" derdi. Yayında ölçüldü
+// (18 Kasım 2026): stil yüklenmeden çalışan guncelle() her açılışta bu hatayı
+// defalarca basıyordu. Önce katman var mı bakılır (dolguGuncelle'deki yol).
+function _katmanGorunurluk(id, deger) {
+  if (!harita.getLayer(id)) return false;
+  try { harita.setLayoutProperty(id, "visibility", deger); return true; } catch (e) { return false; }
+}
 function ufukAcik() {
+  if (!harita.getLayer("ufuk-bant-alan")) return false;  // katman henüz yok ⇒ kapalı
   try {
     return harita.getLayoutProperty("ufuk-bant-alan", "visibility") !== "none";
-  } catch (e) { return false; }  // katman henüz yok ⇒ kapalı
+  } catch (e) { return false; }
 }
 
 // 🔴 UFUK-BANT-1117 (Emre): 1281 ÖNCESİ günlerde taban 10 günlük MÖ bütçesiyle kurulur
@@ -1553,10 +1563,8 @@ function ufukTabanDegistir(gizle, zorla) {
   var kutu = document.querySelector('input[data-katman="siyasi"]');
   var siyasiAcik = !kutu || kutu.checked;          // kutu yoksa görür gibi davran
   for (var i = 0; i < UFUK_TABAN_KATMANLAR.length; i++) {
-    try {
-      harita.setLayoutProperty(UFUK_TABAN_KATMANLAR[i], "visibility",
-                               gizle ? "none" : (siyasiAcik ? "visible" : "none"));
-    } catch (e) { /* katman henüz yok — stil geç yüklenebilir */ }
+    // katman henüz yoksa atlanır — stil geç yüklenebilir (UFUK-KATMAN-YOK-1118)
+    _katmanGorunurluk(UFUK_TABAN_KATMANLAR[i], gizle ? "none" : (siyasiAcik ? "visible" : "none"));
   }
 }
 
@@ -1565,7 +1573,7 @@ function ufukGuncelle(t) {
   if (!gEtkin || ufukHata) {
     // taban: katman gizli, imza sıfır. (ufukHata: yükleme başarısız ⇒ A'da kalınır.)
     if (ufukAcik()) {
-      try { harita.setLayoutProperty("ufuk-bant-alan", "visibility", "none"); } catch (e) { /* katman yok */ }
+      _katmanGorunurluk("ufuk-bant-alan", "none");
     }
     ufukImza = null;
     ufukTabanDegistir(false);          // 🔴 H-0013: bant yoksa taban AÇIKTIR
@@ -1580,7 +1588,7 @@ function ufukGuncelle(t) {
     return;
   }
   if (!ufukAcik()) {
-    try { harita.setLayoutProperty("ufuk-bant-alan", "visibility", "visible"); } catch (e) { /* katman yok */ }
+    _katmanGorunurluk("ufuk-bant-alan", "visible");
   }
   ufukTabanDegistir(true);             // bant tabanın YERİNE geçer
   var fs = [], imza = gEtkin + "|";
@@ -1710,7 +1718,7 @@ function bVeriKapisi() {
       r.disabled = !varMi;
     });
     if (!varMi) {
-      try { harita.setLayoutProperty("ufuk-bant-alan", "visibility", "none"); } catch (e) {}
+      _katmanGorunurluk("ufuk-bant-alan", "none");
       ufukSecimEsitle();
     }
     // 🆕 12 Ekim 2026 — paket 0084 / H-0020 ③④ (P84-UFUK-BANT-KOD-1006 §3 BEYAN önerisi):
@@ -17523,7 +17531,9 @@ var _TG_CAG_MO = [
   ["av", "j", "c"], ["av", "jc"],               // fr  av. J.-C.
   ["a", "de", "c"], ["a", "e", "c"], ["a", "c"],// es/pt  a. de C. · a.e.c. · a. C.
   ["до", "н", "э"],                             // ru  до н. э.
-  ["ق", "م"]                                    // ar  ق.م
+  ["ق", "م"],                                   // ar  ق.م
+  ["公元前"], ["紀元前"],                         // zh/ja  公元前 · 紀元前
+  ["ई", "पू"]                                    // hi  ई.पू.
 ];
 var _TG_CAG_MS = [
   ["m", "s"],                                   // tr  MS · M.S.
@@ -17532,7 +17542,9 @@ var _TG_CAG_MS = [
   ["apr", "j", "c"], ["ap", "j", "c"],          // fr  apr. J.-C.
   ["d", "de", "c"], ["d", "c"],                 // es/pt  d. de C. · d. C.
   ["н", "э"],                                   // ru  н. э.
-  ["م"]                                         // ar  م
+  ["م"],                                        // ar  م
+  ["公元"], ["紀元"], ["西暦"],                   // zh/ja  公元 · 紀元 · 西暦
+  ["ईस्वी"], ["ई"]                                // hi  ईस्वी · ई.
 ];
 var _TG_CAG_RX = (function () {
   function kalip(gr) { return gr.join("[.\\- ]{0,3}") + "\\.?"; }
@@ -17550,7 +17562,8 @@ var _TG_CAG_RX = (function () {
 function tarihMetniAyristir(ham) {
   var s = String(ham == null ? "" : ham).trim().replace(/\s+/g, " ");
   if (!s) return { hata: "Bir tarih yazın." };
-  var ORNEK = "Örnek: 1453 · 29 Mayıs 1453 · 29.05.1453 · 1453-05-29 · 15 · 0 · -1236 · MÖ 12000";
+  s = s.replace(/(\d)\s?年/g, "$1 ").trim();   // zh/ja "公元前500年" · "1453年" → yıl eki düşer
+  var ORNEK ="Örnek: 1453 · 29 Mayıs 1453 · 29.05.1453 · 1453-05-29 · 15 · 0 · -1236 · MÖ 12000";
   // Çağ eki: baştaki ya da sondaki "MÖ"/"M.Ö."/"MS"/"M.S." (büyük-küçük, aksansız "MO").
   // _tgKucuk/_tgAscii harf başına tek harf verir ⇒ `kucuk` ile `s` aynı uzunlukta.
   var kucuk = _tgAscii(_tgKucuk(s));
