@@ -1,0 +1,158 @@
+dil	id	alan	hata_turu	ciddiyet	kaynak_parca	cevirideki_parca	aciklama
+ja	OLAYLAR_ORTACAG_IRAN_TURAN:0876-04-01:0		TEMIZ	0
+ja	OLAYLAR_ORTACAG_IBERYA_MAGRIB:1132-01-01:0		TEMIZ	0
+ja	OLAYLAR_ORTACAG_IRAN_TURAN:1240-01-01:0		TEMIZ	0
+ja	OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0979-01-01:0		TEMIZ	0
+ja	OLAYLAR_P0068B:1791-07-18:0		TEMIZ	0
+ja	OLAYLAR_ORTACAG_ORTADOGU:1320-02-28:0		TEMIZ	0
+ja	OLAYLAR_GEZGINLER:1500-05-01:0		TEMIZ	0
+ja	OLAYLAR_EK5:1517-09-10:0		TEMIZ	0
+ja	OLAYLAR_ARKEOLOJI_HINT:-1599-01-01:0		TEMIZ	0
+ja	OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:0957-01-01:0		TEMIZ	0
+ja	OLAYLAR_T5_1000A:1117-01-01:0		TEMIZ	0
+ja	OLAYLAR_P0057:1920-08-29:0		TEMIZ	0
+ja	OLAYLAR_ORTACAG_BOZKIR:1256-11-19:0	b	BICIM	2	Rükneddin Hûrşah	Rükneddin Hûrşah	Ismaili reisinin adi Japonca yazıya çevrilmeden Latin harfle kalmış (Fulagu ise フレグ yazılmış, tutarsız)
+ja	OLAYLAR_ORTACAG_BOZKIR:1256-11-19:0	d	BICIM	2	Rükneddin Hûrşah; Otçiğin Noyan	Rükneddin Hûrşah; Otçiğin Noyan	Iki ozel ad kana/kanji yerine Turkce Latin yazimla birakilmis
+ja	OLAYLAR_EK2:1657-10-06:0	d	BICIM	1	Keşfü'z-zunûn	（Keşfü'z-zunûn）	Japonca baslik yaninda Turkce Latin yazim kalintisi; ayrica ceviri 'zunun' sozcugunu 'şüphe' diye acmis, eserin tam adi degil
+ja	OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0629-01-01:0	d	BICIM	2	Başşehir Belencer'dir	首都はBelencerである	Belencer Latin harfle birakilmis (バランジャル vb. yazilmali)
+ja	OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0629-01-01:0	d	AD	1	Gürcistan	グルジア	supheli: guncel Japoncada ジョージア tercih edilir (eski ad)
+ru	OLAYLAR_ORTACAG_IRAN_TURAN:1093-01-01:0		TEMIZ	0
+ru	OLAYLAR_T5_1000A:1054-01-01:0		TEMIZ	0
+ru	OLAYLAR_EK16:1941-07-11:0		TEMIZ	0
+ru	OLAYLAR_T5_1000A:1118-05-06:0	d	ANLAM	1	halife tarafından sultan ilân edildi	был провозглашён халифом султаном	supheli: 'halife tarafindan sultan ilan edildi' yerine bicim 'halife-sultan ilan edildi' diye de okunabilir (belirsiz); ayrica 'iktâ ... şahne' 'икта шахне' ham aktarim
+ru	OLAYLAR_ANTIK_MISIR_NUBYA:-1498-01-01:0	d	BICIM	2	Ahmose-Pennekhbet ve Ahmose-Ebana	Ahmose-Pennekhbet и Ahmose-Ebana	Iki kisi adi Kiril metinde Latin harfle kalmis (Ахмос-Пеннехбет vb.)
+ru	OLAYLAR_ORTACAG_ORTADOGU:1174-01-01:0		TEMIZ	0
+ru	OLAYLAR_EK5:1881-12-20:0		TEMIZ	0
+ru	OLAYLAR_ANTIK_YAKIN_DOGU:-0137-01-01:0		TEMIZ	0
+ru	OLAYLAR_EK5:1640-02-09:0		TEMIZ	0
+ru	OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:0985-05-24:0	d	BICIM	2	Büveyhî Adudüddevle	бувайхида Adudüddevle	Hukumdar adi Latin harfle kalmis (Адуд ад-Даула)
+ru	OLAYLAR_EK6:1427-06-01:0	b	BICIM	2	Ordu ve Ünye	Орду и Ünye	Yer adi Latin harfle kalmis (Юнье)
+ru	OLAYLAR_EK6:1427-06-01:0	d	BICIM	2	Eskipazar	Eskipazar	Yer adi Latin harfle kalmis (Эскипазар)
+ru	OLAYLAR_EK6:1427-06-01:0	d	BICIM	1	Türkmen beyliği	Туркменское бейлик	Dilbilgisi: бейлик eril, 'Туркменский бейлик' olmali
+ru	OLAYLAR_EK5:1905-04-01:0		TEMIZ	0
+ru	OLAYLAR_P0917DUNYA:1916-02-24:0		TEMIZ	0
+ru	OLAYLAR_P0051:1585-01-01:0		TEMIZ	0
+ru	OLAYLAR_P0068B:1789-09-22:0	d	BICIM	1	TDV ismail maddesi; TDV akkirman	TDV ismail; TDV akkirman	Madde adlari Latin/slug olarak birakilmis (Измаил, Аккерман ile uyumsuz)
+fa	OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1282-04-11:0		TEMIZ	0
+fa	OLAYLAR_SENKRON_0930:1664-06-14:0		TEMIZ	0
+fa	OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1033-01-01:0		TEMIZ	0
+fa	OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1084-03-24:0		TEMIZ	0
+fa	OLAYLAR_GEZGINLER:1855-08-11:0	b	BICIM	2	Prome – Thayetmyo – Yenangyaung – Pagan – Amarapura	Prome – Thayetmyo – Yenangyaung – Pagan – Amarapura	Bes yer adi Latin harfle kalmis; Rangoon b'de رانگون diye cevrilmis, tutarsiz
+fa	OLAYLAR_GEZGINLER:1855-08-11:0	d	BICIM	2	Rangoon → Prome → Thayetmyo → Yenangyaung → Pagan → Amarapura	Rangoon ← Prome ← ... ← Amarapura	Tum guzergah adlari Latin harfle kalmis
+fa	OLAYLAR_P0056:1806-11-30:0	b	BICIM	2	Akkirman	Akkerman	Yer adi Farsca yazilmamis (Latin) ve yazim kaynaktan farkli
+fa	OLAYLAR_P0056:1806-11-30:0	d	BICIM	2	Dinyester; Kantakuzino; Besarabya; Akkirman	Dniester; Cantacuzino; Bessarabia; Akkerman	Dort ozel ad Latin harfle kalmis (دنیستر، کانتاکوزینو، بسارابیا، آکرمان)
+fa	OLAYLAR_ORTACAG_CIN:1126-01-19:0	b	BICIM	2	Huizong; Qinzong; Kaifeng	Huizong; Qinzong; Kaifeng	Cin adlari Latin harfle kalmis
+fa	OLAYLAR_ORTACAG_CIN:1126-01-19:0	d	BICIM	2	Jin; Daojun Huangdi; Zhao Huan; Chuigong; Longde	Jin; «Daojun Huangdi»; Zhao Huan; Chuigong; Longde	Birçok ozel ad ve unvan Latin harfle kalmis
+fa	OLAYLAR:1413-07-05:0		TEMIZ	0
+fa	OLAYLAR_2S_0919:1394-04-25:0		TEMIZ	0
+fa	OLAYLAR_EK:1430-10-09:0		TEMIZ	0
+fa	OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1153-03-29:0		TEMIZ	0
+fa	OLAYLAR_ANTIK_AKDENIZ:0442-01-01:0		TEMIZ	0
+fa	OLAYLAR_EK7:1836-06-01:0	d	ANLAM	2	yeni nezaretin ilk bakanlığına Mehmed Âkif Paşa getirildi	نخستین وزارت وزارت نو به محمد عاکف پاشا داده شد	Cümle bozuk/tekrarli ('vezaret vezaret'); 'ilk nazirlik' (نخستین وزیر) olmali. Ayrica 'TDV' Latin kalmis (hafif)
+fa	OLAYLAR_P0917KOSU13:1589-01-01:0		TEMIZ	0
+fa	OLAYLAR_FRANSA_KONTROL_1027:1798-03-15:0		TEMIZ	0
+hi	OLAYLAR_ARKEOLOJI_D3_MISIR_AFRIKA:-1479-01-01:0		TEMIZ	0
+hi	OLAYLAR_ARKEOLOJI_D3_ANADOLU_EGE:-1206-01-01:0		TEMIZ	0
+hi	OLAYLAR_OK106:1616-01-01:0		TEMIZ	0
+hi	OLAYLAR_ORTACAG_IRAN_TURAN:1204-01-01:2		TEMIZ	0
+hi	OLAYLAR_ARKEOLOJI_CIN:-7049-01-01:0		TEMIZ	0
+hi	OLAYLAR_ORTACAG_DOGU_GUNEYDOGU_ASYA:1185-12-21:3		TEMIZ	0
+hi	OLAYLAR_P0063:1736-05-02:0		TEMIZ	0
+hi	OLAYLAR_AMERIKA0920:1534-12-06:0		TEMIZ	0
+hi	OLAYLAR_H7_ASAMA:1618-09-10:0		TEMIZ	0
+hi	OLAYLAR_EK14:1566-09-30:0	d	AD	2	Kanunî	कानूनी	Kanuni Sultan Suleyman lakabi Hintce 'kanuni/vidhik' (legal) anlamli sozcukle yazilmis; 'कानूनी' yerine 'कानूनी सुलेमान' ya da 'क़ानूनी' lakabi acikca ad olarak verilmeli; anlam kaymasi
+hi	OLAYLAR_EK16:1941-07-09:0	d	BICIM	2	Kaynak: Pskov şehir kronolojisi, memorialmuseums.org «Memorials in Pskov» — arama özeti [özet].	Kaynak: Pskov şehir kronolojisi, memorialmuseums.org «Memorials in Pskov» — arama özeti [özet].	Kaynak satiri Turkce ve Latin harfle birakilmis, cevrilmemis
+hi	OLAYLAR_ARKEOLOJI_ZINCIR:-0910-01-01:0		TEMIZ	0
+hi	OLAYLAR_ORTACAG_BIZANS_BALKAN:0717-08-15:0	d	BICIM	1	180.000	180.000	Hint sayi bicimi 180.000 ondalik gibi okunur; 1,80,000 olmali (ayni parti 14'te 2,83,000 yazilmis, tutarsiz)
+hi	OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1053-01-01:0		TEMIZ	0
+hi	OLAYLAR_OK109:1920-06-04:0		TEMIZ	0
+zh	OLAYLAR_EK12:1814-02-04:0		TEMIZ	0
+zh	OLAYLAR_EK14:1555-06-01:0		TEMIZ	0
+zh	OLAYLAR_P0049:1587-01-01:0		TEMIZ	0
+zh	OLAYLAR_EK5:1853-11-11:0		TEMIZ	0
+zh	OLAYLAR_ARKEOLOJI_CIN:-5949-01-01:0		TEMIZ	0
+zh	OLAYLAR_ANTIK_AKDENIZ:-0289-01-01:0		TEMIZ	0
+zh	OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1212-01-01:0	d	ANLAM	1	Erzurum meliki amcası Tuğrul Şah	埃尔祖鲁姆马利克、叔父图格里勒沙	supheli: virgul 'Erzurum meliki' ile 'amcasi Tugrul Sah' iki ayri kisi gibi okutuyor (ayni kisi)
+zh	OLAYLAR_T5_1000A:1108-03-04:0		TEMIZ	0
+zh	OLAYLAR_ARKEOLOJI_AVRUPA:-2491-01-01:0		TEMIZ	0
+zh	OLAYLAR_GEZGINLER:1860-03-05:0	b	AD	1	Kabin Buri	甲武里	supheli: Kabin Buri icin 甲武里 kullanimi; yer adi dogrulanmali (Kanchanaburi ile karismis olabilir)
+zh	OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1100-01-01:0		TEMIZ	0
+zh	OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0965-08-16:0		TEMIZ	0
+zh	OLAYLAR_ANTIK_MISIR_NUBYA:-0331-01-01:0		TEMIZ	0
+zh	OLAYLAR_ARKEOLOJI_HINT:-1899-01-01:0		TEMIZ	0
+zh	OLAYLAR_EK2:1909-04-13:0		TEMIZ	0
+de	OLAYLAR_P0057:1920-07-20:0		TEMIZ				
+de	OLAYLAR_EK5:1381-04-01:0		TEMIZ				
+de	OLAYLAR_ORTACAG_IRAN_TURAN:1220-12-01:0		TEMIZ				
+de	OLAYLAR_EK7:1665-06-01:0		TEMIZ				
+de	OLAYLAR_EK2:1808-11-16:0		TEMIZ				
+de	OLAYLAR_EK2:1898-10-18:0		TEMIZ				
+de	OLAYLAR_ORTACAG_IBERYA_MAGRIB:1195-07-18:0		TEMIZ				
+de	OLAYLAR_ANTIK_YAKIN_DOGU:-0676-01-01:0		TEMIZ				
+de	OLAYLAR_EK20:1366-01-01:0		TEMIZ				
+de	OLAYLAR_SESSIZBORC0919:1918-11-12:0		TEMIZ				
+de	OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1104-05-07:0		TEMIZ				
+de	OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1142-01-01:0		TEMIZ				
+de	OLAYLAR_ARKEOLOJI_ZINCIR:-0085-01-01:0		TEMIZ				
+de	OLAYLAR:1918-10-30:0		TEMIZ				
+de	OLAYLAR_EK4:1840-11-03:0		TEMIZ				
+fr	OLAYLAR_2S0920:1955-11-23:0		TEMIZ				
+fr	OLAYLAR_P0049:1579-07-26:0		TEMIZ				
+fr	OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1193-05-18:0		TEMIZ				
+fr	OLAYLAR_EK:1357-08-01:0		TEMIZ				
+fr	OLAYLAR_KI117:1691-03-15:0		TEMIZ				
+fr	OLAYLAR_T5_1000A:1106-09-02:0		TEMIZ				
+fr	OLAYLAR_EK4:1805-05:0		TEMIZ				
+fr	OLAYLAR_T5_1000B:1076-01-01:0		TEMIZ				
+fr	OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0757-12-03:0		TEMIZ				
+fr	OLAYLAR_MISIR1801:1801-05-14:0		TEMIZ				
+fr	OLAYLAR_EK9:1843-01-01:0		TEMIZ				
+fr	OLAYLAR_EK5:1657-11-15:0		TEMIZ				
+fr	OLAYLAR_ORTACAG_IRAN_TURAN:1042-08-21:0		TEMIZ				
+fr	OLAYLAR_EK5:1592-06-19:0		TEMIZ				
+fr	OLAYLAR_ARKEOLOJI_D3_ITALYA_AVRUPA:-0669-01-01:0		TEMIZ				
+es	OLAYLAR_EK6:1913-03-06:0		TEMIZ				
+es	OLAYLAR_EK:1919-05-15:0		TEMIZ				
+es	OLAYLAR_GEZGINLER:1820-01-01:1		TEMIZ				
+es	OLAYLAR_KURULUS_GERI_1021:0670-01-01:0		TEMIZ				
+es	OLAYLAR_ANTIK_MISIR_NUBYA:-0024-01-01:0		TEMIZ				
+es	OLAYLAR_ANTIK_AKDENIZ:-0166-01-01:2		TEMIZ				
+es	OLAYLAR_ANTIK_YAKIN_DOGU:0496-01-01:0		TEMIZ				
+es	OLAYLAR_EK2:1851-01-01:0		TEMIZ				
+es	OLAYLAR_T5_1000A:1108-03-04:0	d	BICIM	1	Dübeys	Dübeys	İspanyolca metinde öteki adlar romanize (Uqba, Muhammad) iken bu ad Türkçe ü ile bırakılmış; Dubays olmalı (hafif tutarsızlık)
+es	OLAYLAR_ORTACAG_IBERYA_MAGRIB:1150-04-30:0		TEMIZ				
+es	OLAYLAR_T5_1000B:1260-09-03:0		TEMIZ				
+es	OLAYLAR_EK7:1523-06-27:0		TEMIZ				
+es	OLAYLAR_2S_0918:1809-10-14:0		TEMIZ				
+es	OLAYLAR_EK15:1901-02-21:0		TEMIZ				
+es	OLAYLAR_ARKEOLOJI_GECIS:-6899-01-01:0		TEMIZ				
+pt	OLAYLAR_EK16:1422-01-01:0		TEMIZ				
+pt	OLAYLAR_EK16:1891-02-19:0		TEMIZ				
+pt	OLAYLAR_ORTACAG_IRAN_TURAN:1246-01-01:0		TEMIZ				
+pt	OLAYLAR_ORTACAG_IRAN_TURAN:0923-04-21:0		TEMIZ				
+pt	OLAYLAR_T5_1000A:1262-01-01:0		TEMIZ				
+pt	OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1081-01-01:0		TEMIZ				
+pt	OLAYLAR_P0057:1921-06-28:0		TEMIZ				
+pt	OLAYLAR_T5_1000A:1071-01-01:1		TEMIZ				
+pt	OLAYLAR_ORTACAG_IRAN_TURAN:1128-01-01:0		TEMIZ				
+pt	OLAYLAR_ANTIK_AKDENIZ:-0315-01-01:1		TEMIZ				
+pt	OLAYLAR_KAMERIKA:1803-01-01:0		TEMIZ				
+pt	OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0751-01-01:0		TEMIZ				
+pt	OLAYLAR_EK5:1588-09-01:0		TEMIZ				
+pt	OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1272-01-01:0		TEMIZ				
+pt	OLAYLAR_DUNYA_AVRUPA_MO:-0544-01-01:0		TEMIZ				
+ar	OLAYLAR_ANTIK_YAKIN_DOGU:-0700-01-01:1		TEMIZ				
+ar	OLAYLAR_EK5:1905-09-01:0		TEMIZ				
+ar	OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1209-01-01:0	d	ANLAM	2	Carcassonne ve Béziers vikontlukları	كونتيتي قرقشونة وبيزييه	vikontluk (vicomté) yerine kontluk (كونتية) yazılmış; metnin devamında الفيكونتية kullanılıyor, iç tutarsızlık
+ar	OLAYLAR_EK17:1513-01-01:0		TEMIZ				
+ar	OLAYLAR_2S1019:1417-02-18:0		TEMIZ				
+ar	OLAYLAR_EK16:1714-03-07:0		TEMIZ				
+ar	OLAYLAR_2S1114D5:1923-07-24:0		TEMIZ				
+ar	OLAYLAR_ARKEOLOJI_D3_ITALYA_AVRUPA:-0507-01-01:0		TEMIZ				
+ar	OLAYLAR_ANTIK_AKDENIZ:-0109-01-01:0		TEMIZ				
+ar	OLAYLAR_GEZGINLER:1817-04-26:0	d	BICIM	1	Güzergâh: Cape Coast → Kumasi	المسار: Cape Coast ← Kumasi	Başlıkta Arapçaya çevrilen yer adları (كيب كوست، كوماسي) açıklamada Latin harfli bırakılmış; tutarsız
+ar	OLAYLAR_ORTACAG_IBERYA_MAGRIB:1229-11-20:0		TEMIZ				
+ar	OLAYLAR_AVMAC_B_1029:1527-11-03:0		TEMIZ				
+ar	OLAYLAR_EK5:1865-01-01:0	d	BICIM	1	sâlyâne	سالیانه	Farsça biçimli ی (ye) ve ه harfleriyle yazılmış, Arapça ي kullanılmalı (şüphe: terim bilinçli Farsça aktarım olabilir)
+ar	OLAYLAR_GEZGINLER:1820-10-31:0		TEMIZ				
+ar	OLAYLAR_P0063:1735-08-12:0		TEMIZ				
