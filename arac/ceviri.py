@@ -124,14 +124,15 @@ DILLER = [("tr", "Türkçe"), ("en", "English"), ("ar", "العربية"), ("es"
 # kaynak: kapı 5 birleşimi (lab-yama-1117 ve/veya umit-17-kasim kronoloji metni); tek kalıp ayrıca izole edilmedi. Eski: arayüz 79.
 # 18 Kasım 2026 (ceviri-79-1118): IZOLE EDILDI — +1 arayüz kalıbı "# Temmuz # (# Şâban #)" (olaylar_2s_1019.js gün: 6 Temmuz 969 (17 Şâban 358));
 # 7 dile çevrildi, arayüz tavanı 80 -> 79.
+# 18 Kasım 2026 (KASA 17, tavan AÇILDI: önce ölç, aç, raporla): devlet eksik 24 -> 28 her 7 dilde = boyalar-1117 +4 yeni künye (devletler.js); çeviri işi site bitince.
 BEKLENEN_CEVIRI_EKSIK = {
-    "en": {"arayuz": 79, "devlet": 24, "olay": 442},
-    "ar": {"arayuz": 79, "devlet": 24, "olay": 442},
-    "es": {"arayuz": 79, "devlet": 24, "olay": 442},
-    "de": {"arayuz": 79, "devlet": 24, "olay": 442},
-    "pt": {"arayuz": 79, "devlet": 24, "olay": 1553},
-    "ru": {"arayuz": 79, "devlet": 24, "olay": 3635},
-    "fr": {"arayuz": 79, "devlet": 24, "olay": 4535},
+    "en": {"arayuz": 79, "devlet": 28, "olay": 442},
+    "ar": {"arayuz": 79, "devlet": 28, "olay": 442},
+    "es": {"arayuz": 79, "devlet": 28, "olay": 442},
+    "de": {"arayuz": 79, "devlet": 28, "olay": 442},
+    "pt": {"arayuz": 79, "devlet": 28, "olay": 1553},
+    "ru": {"arayuz": 79, "devlet": 28, "olay": 3635},
+    "fr": {"arayuz": 79, "devlet": 28, "olay": 4535},
 }
 # 13 Kasım 2026 (KASA batch 15): bayat olay en/ar/es/de 71→72 (ÖLÇÜM) — UMIT p08 / EMRELİC ant17 ana maddelere `antlasma_id` yazdı
 # (Zitvatorok/Buçaş/Vasvar/İstanbul 1700, Yergöğü, İngiliz 1799). Kaynak ölçüldü; çeviri işi site bitince (Emre, 13 Kasım).
