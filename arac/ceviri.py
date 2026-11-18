@@ -136,15 +136,15 @@ BEKLENEN_CEVIRI_EKSIK = {
     "fr": {"arayuz": 0, "devlet": 0, "olay": 0},
     "zh": {"arayuz": 0, "devlet": 0, "olay": 0},
     "ja": {"arayuz": 0, "devlet": 0, "olay": 0},
-    "id": {"arayuz": 0, "devlet": 0, "olay": 2339},
+    "id": {"arayuz": 0, "devlet": 0, "olay": 0},
     "bn": {"arayuz": 0, "devlet": 0, "olay": 0},
-    "ur": {"arayuz": 0, "devlet": 0, "olay": 29},
+    "ur": {"arayuz": 0, "devlet": 0, "olay": 4},
     "sw": {"arayuz": 0, "devlet": 0, "olay": 0},
-    "it": {"arayuz": 0, "devlet": 0, "olay": 1584},
-    "pl": {"arayuz": 0, "devlet": 0, "olay": 239},
+    "it": {"arayuz": 0, "devlet": 0, "olay": 1},
+    "pl": {"arayuz": 0, "devlet": 0, "olay": 0},
     "nl": {"arayuz": 0, "devlet": 0, "olay": 0},
-    "el": {"arayuz": 0, "devlet": 0, "olay": 905},
-    "az": {"arayuz": 0, "devlet": 0, "olay": 4509},
+    "el": {"arayuz": 0, "devlet": 0, "olay": 280},
+    "az": {"arayuz": 0, "devlet": 0, "olay": 1},
 }
 # 13 Kasım 2026 (KASA batch 15): bayat olay en/ar/es/de 71→72 (ÖLÇÜM) — UMIT p08 / EMRELİC ant17 ana maddelere `antlasma_id` yazdı
 # (Zitvatorok/Buçaş/Vasvar/İstanbul 1700, Yergöğü, İngiliz 1799). Kaynak ölçüldü; çeviri işi site bitince (Emre, 13 Kasım).
