@@ -11,7 +11,7 @@
 <meta name="theme-color" content="#5c1020">
 <meta name="robots" content="noindex">
 <link rel="icon" type="image/svg+xml" href="../assets/ikon.svg">
-<link rel="stylesheet" href="forum.css?v=f1a">
+<link rel="stylesheet" href="forum.css?v=f1b">
 </head>
 <body>
 <header id="forum-ust">
@@ -24,11 +24,23 @@
 </main>
 <footer id="forum-alt">
   KRONOATLAS Kahvehane · deneme sürümü (F1) · Saygılı ve kaynaklı tartışma esastır.
+  <br>İletişim: <a href="mailto:iletisim.kronoatlas@gmail.com">iletisim.kronoatlas@gmail.com</a>
 </footer>
+<!-- YAPIM AŞAMASINDADIR (Emre, 18 Kasım 2026): Tamam ile kapanır, oturum başına bir kez
+     (sessionStorage "yapimGoruldu" — atlasla ortak). KALDIRMA: bu div'i sil. -->
+<div id="yapim-pencere" role="dialog" aria-modal="true" aria-labelledby="yapim-baslik" hidden>
+  <div class="yapim-kart">
+    <h2 id="yapim-baslik">🚧 Yapım aşamasındadır</h2>
+    <p>Kahvehane henüz yapım aşamasındadır. Üyelik ve bazı özellikler tam çalışmayabilir;
+       forumu kısa süre içinde herkese açacağız. Anlayışınız için teşekkür ederiz.</p>
+    <p>İletişim: <a href="mailto:iletisim.kronoatlas@gmail.com">iletisim.kronoatlas@gmail.com</a></p>
+    <button type="button" class="dugme vurgu" id="yapim-tamam">Tamam</button>
+  </div>
+</div>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.js"
         integrity="sha384-0w2KAL2YHP6wKOkUDzkCDGgVvfmHnj02DHeQ6XcHOgTfFsGyonKOpShMH1x6nk9o"
         crossorigin="anonymous"></script>
 <script src="ayar.js?v=f1a"></script>
-<script src="forum.js?v=f1a"></script>
+<script src="forum.js?v=f1b"></script>
 </body>
 </html>

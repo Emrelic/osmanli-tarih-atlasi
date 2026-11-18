@@ -51,6 +51,13 @@ a:hover { color: var(--koyu-kirmizi); }
 
 #forum-govde { flex: 1; width: 100%; max-width: 900px; margin: 0 auto; padding: 20px 16px 40px; outline: none; }
 #forum-alt { text-align: center; font-size: 13px; color: var(--soluk); padding: 16px; border-top: 1px solid var(--cizgi); }
+#forum-alt a { color: inherit; }
+/* Yapım aşamasındadır penceresi (18 Kasım 2026) */
+#yapim-pencere { position: fixed; inset: 0; z-index: 1000; display: flex; align-items: center; justify-content: center; background: rgba(0, 0, 0, .55); padding: 16px; }
+#yapim-pencere[hidden] { display: none; }
+#yapim-pencere .yapim-kart { max-width: 460px; background: var(--kagit); border: 1px solid var(--cizgi); border-radius: 12px; padding: 20px 24px; box-shadow: 0 8px 30px rgba(0, 0, 0, .35); }
+#yapim-pencere h2 { margin: 0 0 10px; font-size: 19px; }
+#yapim-pencere p { margin: 0 0 10px; line-height: 1.5; }
 
 h1 { font-size: 26px; margin: 8px 0 10px; color: var(--ust1); overflow-wrap: anywhere; }
 h2 { font-size: 18px; margin: 24px 0 10px; color: var(--ust1); }
