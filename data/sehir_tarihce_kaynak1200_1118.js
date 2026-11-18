@@ -48,31 +48,5 @@ window.SEHIR_TARIHCE_KAYNAK1200_1118 = [
   "sahip": [],
   "olay": [],
   "ic_not": "Kaynak taraması 1200-öncesi, 18 Kasım 2026. Pleiades yalnız dönem aralığı verir; kuruluş/ilk anılış yılı için Brill's New Pauly / Encyclopaedia of Islam / Iranica taranmadı (erişim sonrası bakılacak)."
- },
- {
-  "id": "taraz-kz",
-  "ad": "Taraz (Ṭarāz, Aulie-Ata)",
-  "atlas_ad": null,
-  "lat": 42.898,
-  "lon": 71.3733,
-  "kat1900": 3,
-  "adlar": [
-   "Ṭarāz",
-   "Talas",
-   "Aulie-Ata",
-   "Taraz"
-  ],
-  "ilk": {
-   "nicelik": "tarihsiz_tanik",
-   "kaynak": "W. Barthold, «Ṭarāẓ», Encyclopaedia of Islam, First Edition Online, Brill, brill.com (18 Kas 2026'da okundu)",
-   "tanik": "Arabic name for Talas, a river in Central Asia and the town on it probably near the modern Awliyā Atā. The town was of pre-Muḥammadan, presumably Soghdian origin",
-   "ic_not": "tarihsiz tanık: Barthold, «Ṭarāz», EI1 Online; kaynak yalnız 'İslâm öncesi, muhtemelen Soğd kökenli' diyor, yıl/yüzyıl vermiyor. Şehrin yeri kaynakta 'probably near' (modern Awliyā Atā'ya yakın), yani yer eşitlemesi kesin değil; başlangıç sayılmaz, yalnız tanık. Barthold'un «Awliyā-atā» maddesi Ṭarāz'ın 'tamamen yok olduğunu' (EI1) söyler: modern Taraz ile süreklilik ayrıca doğrulanmalı."
-  },
-  "kur": null,
-  "ark": null,
-  "bit": null,
-  "sahip": [],
-  "olay": [],
-  "ic_not": "Kaynak taraması 1200-öncesi, 18 Kasım 2026."
  }
 ];
