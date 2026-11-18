@@ -130,7 +130,7 @@ BEKLENEN_CEVIRI_EKSIK = {
     "ar": {"arayuz": 79, "devlet": 27, "olay": 442},
     "es": {"arayuz": 79, "devlet": 27, "olay": 442},
     "de": {"arayuz": 79, "devlet": 27, "olay": 442},
-    "pt": {"arayuz": 79, "devlet": 27, "olay": 1553},
+    "pt": {"arayuz": 0, "devlet": 0, "olay": 0},   # 18 Kasım 2026 (ceviri-pt-1118): pt tamamlandı, tavan 0'a indi
     "ru": {"arayuz": 79, "devlet": 27, "olay": 3635},
     "fr": {"arayuz": 79, "devlet": 27, "olay": 4535},
 }
@@ -141,7 +141,7 @@ BEKLENEN_CEVIRI_BAYAT = {
     "ar": {"arayuz": 0, "devlet": 1, "olay": 116},
     "es": {"arayuz": 0, "devlet": 1, "olay": 116},
     "de": {"arayuz": 0, "devlet": 1, "olay": 116},
-    "pt": {"arayuz": 0, "devlet": 1, "olay": 95},
+    "pt": {"arayuz": 0, "devlet": 0, "olay": 0},
     "ru": {"arayuz": 0, "devlet": 1, "olay": 63},
     "fr": {"arayuz": 0, "devlet": 1, "olay": 26},
 }
