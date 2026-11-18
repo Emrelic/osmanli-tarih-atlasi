@@ -117,7 +117,7 @@ aksaray-tr	3	Türkiye		Aksaray	38.3726	34.0254	GeoNames 324496 (DMS 38°22′21.
 ardahan-tr	3	Türkiye		Ardahan	41.1087	42.7022	GeoNames 751952 (DMS 41°06′31.36″ N, 42°42′07.99″ E)			ardahan-tr		GeoNames 751952	il merkezi	E			ek-modern-merkez
 artvin-tr	3	Türkiye		Artvin	41.1816	41.8217	GeoNames 751817 (DMS 41°10′53.80″ N, 41°49′18.19″ E)			artvin-tr		GeoNames 751817	il merkezi	E			ek-modern-merkez
 bartin-tr	3	Türkiye		Bartın	41.6358	32.3375	GeoNames 751057 (DMS 41°38′08.99″ N, 32°20′15.00″ E)			bartin-tr		GeoNames 751057	il merkezi	E			ek-modern-merkez
-batman-tr	3	Türkiye		Batman	37.8874	41.1322	GeoNames 321836 (DMS 37°53′14.57″ N, 41°07′55.96″ E)					GeoNames 321836	il merkezi	E			ek-modern-merkez
+batman-tr	3	Türkiye		Batman	37.8874	41.1322	GeoNames 321836 (DMS 37°53′14.57″ N, 41°07′55.96″ E)			batman		GeoNames 321836	il merkezi	E			ek-modern-merkez
 bayburt-tr	3	Türkiye		Bayburt	40.2563	40.2229	GeoNames 750938 (DMS 40°15′22.72″ N, 40°13′22.40″ E)			bayburt-tr		GeoNames 750938	il merkezi	E			ek-modern-merkez
 bingol-tr	3	Türkiye		Bingöl	38.8847	40.4939	GeoNames 321082 (DMS 38°53′04.99″ N, 40°29′38.00″ E)			bingol-tr		GeoNames 321082	il merkezi	E			ek-modern-merkez
 duzce-tr	3	Türkiye		Düzce	40.8389	31.1639	GeoNames 747764 (DMS 40°50′20.00″ N, 31°09′50.00″ E)			duzce-tr		GeoNames 747764	il merkezi	E			ek-modern-merkez
@@ -152,7 +152,7 @@ douma-sy	3	Suriye		Douma	33.5718	36.4027	GeoNames 170592 (DMS 33°34′18.30″ 
 erbil-iq	3	Irak		Erbil	36.1912	44.0094	GeoNames 95446 (DMS 36°11′28.21″ N, 44°00′33.95″ E)			erbil-iq		GeoNames 95446	vilayet merkezi (Erbil)	E			ek-modern-merkez
 najaf-iq	3	Irak		Najaf	32.0259	44.3463	GeoNames 98860 (DMS 32°01′33.38″ N, 44°20′46.50″ E)			najaf-iq		GeoNames 98860	vilayet merkezi	E			ek-modern-merkez
 diwaniyah-iq	3	Irak		Diwaniyah	31.9929	44.9255	GeoNames 99762 (DMS 31°59′34.40″ N, 44°55′31.87″ E)					GeoNames 99762	Kadisiye vilayet merkezi (GeoNames Al Diwaniyah)	E			ek-modern-merkez
-kut-iq	3	Irak		Kut	32.5128	45.8182	GeoNames 99131 (DMS 32°30′46.08″ N, 45°49′05.41″ E)					GeoNames 99131	Vasıt vilayet merkezi (GeoNames Al-Kut)	E			ek-modern-merkez
+kut-iq	3	Irak		Kut	32.5128	45.8182	GeoNames 99131 (DMS 32°30′46.08″ N, 45°49′05.41″ E)			kutulamare		GeoNames 99131	Vasıt vilayet merkezi (GeoNames Al-Kut)	E			ek-modern-merkez
 dohuk-iq	3	Irak		Dohuk	36.8661	42.9879	GeoNames 96994 (DMS 36°51′57.89″ N, 42°59′16.44″ E)					GeoNames 96994	vilayet merkezi (GeoNames Dihok)	E			ek-modern-merkez
 baqubah-iq	3	Irak		Baqubah	33.7540	44.6052	GeoNames 97990 (DMS 33°45′14.51″ N, 44°36′18.65″ E)					GeoNames 97990	Diyala vilayet merkezi	E			ek-modern-merkez
 ramadi-iq	3	Irak		Ramadi	33.4206	43.3078	GeoNames 98717 (DMS 33°25′14.02″ N, 43°18′28.01″ E)					GeoNames 98717	Enbar vilayet merkezi	E			ek-modern-merkez
