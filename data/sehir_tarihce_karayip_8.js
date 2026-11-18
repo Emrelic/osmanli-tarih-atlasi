@@ -1,6 +1,6 @@
 // ŞEHİR TARİHÇESİ — KARAYIP · üretici: arac/sehir_tarihce.py · şema: VERI-YAPISI.md
 // Motor/denetle/site OKUMAZ — araştırma birikimi. Elle düzenleme: JSON'u düzelt, yeniden üret.
-window.SEHIR_TARIHCE_KARAYIP = [
+window.SEHIR_TARIHCE_KARAYIP_8 = [
  {
   "id": "arecibo-pr",
   "ad": "Arecibo",
