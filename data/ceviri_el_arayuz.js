@@ -1227,7 +1227,7 @@ Ceviri.ekle("el","arayuz",{
 "Sultanlıklar":["Σουλτανάτα", "98a9ab51"],
 "Suriye ve Irak":["Συρία και Ιράκ", "97685e62"],
 "Sözlük: js/app.js STATU_YAZI · tanım: arac/girdi.py:#":["Λεξικό: js/app.js STATU_YAZI · ορισμός: arac/girdi.py:#", "b2f1f3e9"],
-"Söğüt":["Σöğüt", "4cbaf823"],
+"Söğüt":["Σογούτ", "4cbaf823"],
 "Sürükleyerek kaydırın, fare tekerleğiyle (ya da iki parmakla) yakınlaşın.":["Σύρετε για μετακίνηση, με τη ροδέλα του ποντικιού (ή με δύο δάχτυλα) μεγεθύνετε.", "8335e833"],
 "Sürükleyerek zamanda serbestçe gezin; harita bıraktığınız günü gösterir.":["Περιηγηθείτε ελεύθερα στον χρόνο σύροντας· ο χάρτης δείχνει την ημέρα που αφήσατε.", "90e0290b"],
 "Sütunun başlığıdır. Yanındaki sayaç, şu an kaçıncı maddede olduğunuzu ve listede toplam kaç madde bulunduğunu gösterir.":["Είναι ο τίτλος της στήλης. Ο μετρητής δίπλα δείχνει σε ποιο στοιχείο βρίσκεστε τώρα και πόσα στοιχεία έχει συνολικά η λίστα.", "112f4983"],
