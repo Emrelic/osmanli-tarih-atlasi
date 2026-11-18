@@ -1400,8 +1400,10 @@ function ufukAcik() {
 //    Döner: çizilecek bandın günü (5/7/10) ya da 0 (taban).
 var ufukSecim = 5;               // kullanıcının seçimi (düğme); katmanın açıklığı DEĞİL
 function ufukEtkin(t) {
-  if (ufukSecim > 5) return ufukSecim;
-  if (ufukSecim === 5 && typeof t === "number" && t < VERI_BASI) return 5;
+  // 🔴 MOTOR-YAMA-5GUN-B-1118 (Emre, 18 Kasım 2026, karar 9): TEK HARİTA. 5/7/10 düğmesi kalktı;
+  //    taban her çağda 5 günlük yürüyüştür ⇒ ufuk bandı HİÇ çizilmez (0 = taban). Aşağıdaki bant
+  //    kodu (ufukYukle/ufukGuncelle) ölü ama zararsızdır: `ufukGuncelle` ilk satırda taban yoluna
+  //    çıkar, bant dosyası hiç indirilmez.
   return 0;
 }
 
@@ -1784,22 +1786,17 @@ function dolguGuncelle(t) {
   try {
     harita.getSource("dolgu").setData({ type: "FeatureCollection", features: fs });
   } catch (e) { /* kaynak henüz kurulmadı — stil geç yüklenebilir */ }
-  var rozet = document.getElementById("kat-sayi-dolgu");
-  if (rozet) {
-    rozet.textContent = fs.length ? fs.length : "0";
-    // 🔴 22 Ekim 2026 — dolgu YALNIZ üretildiği tarih aralığını kapsar (şimdilik
-    // 1281 öncesi). Kapsam dışında "0" yazmak "dolgu gerek yok" sanılırdı;
-    // oysa veri HENÜZ ÜRETİLMEDİ. Kapsamın sonunu veri söyler (azami `ti`).
-    var kapsamSon = 0, kapsamYazi = "";
-    for (var ki = 0; ki < dolgular.length; ki++) {
-      if (dolgular[ki].ti > kapsamSon) { kapsamSon = dolgular[ki].ti; kapsamYazi = dolgular[ki].t; }
-    }
-    if (!fs.length && t >= kapsamSon) {
-      rozet.textContent = "—";
-      rozet.title = "Bu tarih için dolgu henüz hazırlanmadı (şimdilik yalnız " +
-        kapsamYazi + " öncesi)";
-    } else { rozet.title = ""; }
-  }
+  // MOTOR-YAMA-5GUN-B-1118 (Emre, karar 9): "yalnız 1281 öncesi" kapsam kısıtı/rozeti KALKTI —
+  // dolgu bütün zamanlar için aynı katmandır; anahtar da rozet de yok (index.html).
+}
+
+// MOTOR-YAMA-5GUN-B-1118 — dolgu katmanı HEP AÇIK: kutu yok, bu yüzden veri açılışta (tembel dosya)
+// indirilir ve inince o günün kesiti yazılır. Dosya yoksa/inmezse atlas A görünümünde çalışır
+// (`window.DOLGU || []`); konsola `dolguVerisiYukle` yazar.
+function dolguHepAcik() {
+  dolguVerisiYukle(function (ok) {
+    if (ok) { try { dolguImza = null; dolguGuncelle(suanki); } catch (e) { /* stil hazır değil */ } }
+  });
 }
 
 // ═══════════════════════════════════════════════════════════════════════
@@ -3139,12 +3136,13 @@ harita.on("load", function () {
   // ⚠️ YUMUŞAK KİPTE (⑤) A'nın opaklığı da düşüyor; o kipte fark azalır.
   //    Bilerek: yumuşak kip zaten "coğrafya alttan görünsün" demek.
   harita.addSource("dolgu", agirKaynak());
+  // MOTOR-YAMA-5GUN-B-1118 (Emre, karar 9): dolgu katmanı HEP AÇIK (anahtar kalktı).
   harita.addLayer({ id: "dolgu-b-alan", type: "fill", source: "dolgu",
-    layout: { visibility: "none" },
+    layout: { visibility: "visible" },
     paint: { "fill-color": ["coalesce", ["get", "renk"], "#8e0b22"],
              "fill-opacity": 0.72 } });
   harita.addLayer({ id: "dolgu-b-kenar", type: "line", source: "dolgu",
-    layout: { visibility: "none", "line-join": "round" },
+    layout: { visibility: "visible", "line-join": "round" },
     paint: { "line-color": ["coalesce", ["get", "renk"], "#8e0b22"],
              "line-width": 1, "line-opacity": 0.55,
              "line-dasharray": [2, 2] } });
@@ -3812,6 +3810,7 @@ harita.on("load", function () {
   // kusuru siteyi açılmaz kılmamalı.
   try { ufukSeciciKur(); } catch (e) { console.error("Ⓑ ufuk seçicisi kurulamadı:", e); }
   try { bVeriKapisi(); } catch (e) { console.error("Ⓑ veri kapısı kurulamadı:", e); }
+  try { dolguHepAcik(); } catch (e) { console.error("Ⓑ dolgu yüklenemedi:", e); }   // 5GUN-B-1118: dolgu hep açık
 
   var lejant = document.createElement("div");
   lejant.className = "lejant";
