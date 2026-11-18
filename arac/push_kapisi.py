@@ -422,29 +422,26 @@ def statik_yenile():
         yol = kayit[3:]
         if yol and statik_mi(yol):
             degisen.append(yol)
-    # satır sonu gürültüsünü ayıkla (yalnız değişmiş takipli dosyalarda anlamlı)
-    gercek = []
-    for yol in degisen:
-        if os.path.exists(os.path.join(KOK, yol)) and \
-           git("ls-files", "--error-unmatch", "--", yol, kontrol=False).returncode == 0:
-            sayi = git("diff", "--numstat", "--", yol).stdout.split("\t")
-            if len(sayi) >= 2 and sayi[0] == "0" and sayi[1] == "0":
-                git("checkout", "--", yol)
-                continue
-        gercek.append(yol)
-    if gercek:
-        # 21 bin yola kadar: komut satırı sınırına takılmasın diye NUL ayraçlı yol dosyası
-        fd, yollar = tempfile.mkstemp(prefix="atlas-statik-", suffix=".txt")
-        try:
-            with os.fdopen(fd, "wb") as f:
-                f.write(b"\0".join(y.encode("utf-8") for y in gercek))
-            git("add", "-A", "--pathspec-from-file=" + yollar, "--pathspec-file-nul")
-            git("commit", "--amend", "--no-edit", "--quiet")
-        finally:
-            os.remove(yollar)
-        print("   statik sayfalar yenilendi ve amend edildi: %d dosya" % len(gercek))
-    else:
+    if not degisen:
         print("   statik sayfalar güncel (değişen yok)")
+        return 0
+    # Tek `git add`: yalnız satır sonu farklı dosyalar (status'ta 21 bine kadar "M") içerik olarak
+    # index'le aynıdır, add sonrası sahnelenmiş fark vermez. Dosya başına git çağırmak saatler
+    # sürüyordu (18 Kasım 2026: 21 447 dosya, 1 sa 45 dk'da bitmedi). 21 bin yol komut satırına
+    # sığmaz → NUL ayraçlı yol dosyası.
+    fd, yollar = tempfile.mkstemp(prefix="atlas-statik-", suffix=".txt")
+    try:
+        with os.fdopen(fd, "wb") as f:
+            f.write(b"\0".join(y.encode("utf-8") for y in degisen))
+        git("add", "-A", "--pathspec-from-file=" + yollar, "--pathspec-file-nul")
+    finally:
+        os.remove(yollar)
+    gercek = [s for s in git("diff", "--cached", "--name-only", "-z").stdout.split("\0") if s]
+    if not gercek:
+        print("   statik sayfalar güncel (yalnız satır sonu farkı vardı)")
+        return 0
+    git("commit", "--amend", "--no-edit", "--quiet")
+    print("   statik sayfalar yenilendi ve amend edildi: %d dosya" % len(gercek))
     return len(gercek)
 
 
