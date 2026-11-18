@@ -108,7 +108,24 @@ PAYLASIM_NOKTA_TAVAN = int(os.environ.get("MOTOR_DOLGU_NOKTA_TAVAN", "400"))
 # gerekçe: `difference` ile üretilen parça gövdeye DEĞMEZ, tampon şart.
 TEMAS = 0.02
 
-CINSLER = ("bosluk", "koridor", "enklav-bag", "paylasim")
+# ═══════════════════════════════════════════════════════════════════════════
+# MOTOR-YAMA-5GUN-B-1118 (Emre 18 Kasım 2026) — üç yeni girdi, hepsi çağıran
+# tarafın `kosudan(...)` ile verdiği KESİT BAĞLAMIDIR (modül sabiti değil):
+#   izgara : sürtünmeli paylaşım — `_YR_SAHIP` ızgarası + o günün yerleşim→devlet haritası
+#   duvar  : {kim: geometri} — C/D/E/F antlaşma hattının KARŞI yakası; o devletin dolgusu oraya geçmez
+#   engel  : MultiPoint — sahnede kabile/devletsiz yerleşimler; içlerinde olan devlet-içi delik DOLDURULMAZ
+# Üçü de None ise davranış YAMADAN ÖNCEKİ ile aynıdır (Voronoi paylaşım · duvarsız · yalnız kapanış).
+# Bağlam `kesit_dolgu` girişinde yazılır (tek iş parçacıklı); önbellek anahtarına GİRER.
+# ═══════════════════════════════════════════════════════════════════════════
+SURTUNME = os.environ.get("MOTOR_DOLGU_SURTUNME", "1") != "0"
+DELIK_KURALI = os.environ.get("MOTOR_DOLGU_DELIK", "1") != "0"
+_CTX = {"izgara": None, "duvar": None, "engel": None, "kara_hazir": None, "kara": None}
+# Koşu sonunda uret_petek.py basar. `duvar_gecen_*` = duvar uygulandıktan sonra HÂLÂ duvarın içinde
+# kalan dolgu (kabul ölçütü: 0). `surtunme`/`voronoi` = paylaşımın hangi yoldan çıktığı.
+SAYAC = {"duvar_kesilen_km2": 0.0, "duvar_gecen_n": 0, "duvar_gecen_km2": 0.0,
+         "delik_km2": 0.0, "delik_n": 0, "delik_engelli_n": 0, "surtunme": 0, "voronoi": 0}
+
+CINSLER =("bosluk", "koridor", "enklav-bag", "paylasim")
 # Hesap yolu: "devlet" (birim = tek devlet + 1 sıçrama, ÖNBELLEKLİ) ·
 # "butun" (eski tek parça hesap). İkincisi üretim için DEĞİL, bit bit
 # aynılık sınavının karşı tarafı içindir (M-4848 ②. şart).
@@ -179,7 +196,7 @@ _SINA_KAYDIR = os.environ.get("MOTOR_DOLGU_SINA_KAYDIR", "")
 #    eklenince indeksler kayar) `difference` zincirinin kayan nokta sonucu
 #    değişebilirdi ⇒ önbellekten okunan ile yeniden hesaplanan AYRIŞIRDI.
 #    Sıralama bunu yapısal olarak kapatıyor.
-KURAL_SURUM = "dolgu-kural-2"
+KURAL_SURUM = "dolgu-kural-3"      # 1118: sürtünmeli paylaşım · hat duvarı · devlet-içi delik
 _ONB_TUZ = json.dumps({
     "surum": KURAL_SURUM,
     "modul": _hlo.sha256(io.open(os.path.abspath(__file__), "rb").read()).hexdigest(),
@@ -188,7 +205,8 @@ _ONB_TUZ = json.dumps({
               "deniz_esik_km2": DENIZ_ESIK_KM2, "koridor": KORIDOR_KURALI,
               "kaba_tol": KABA_TOL, "sade_tol": SADE_TOL, "temas": TEMAS,
               "paylasim_adim_km": PAYLASIM_ADIM_KM,
-              "paylasim_nokta_tavan": PAYLASIM_NOKTA_TAVAN},
+              "paylasim_nokta_tavan": PAYLASIM_NOKTA_TAVAN,
+              "surtunme": SURTUNME, "delik": DELIK_KURALI},
 }, sort_keys=True, ensure_ascii=False)
 _ONB = _mob.Onbellek(
     os.path.join(os.environ.get("MOTOR_ONBELLEK_DIZIN")
@@ -396,6 +414,55 @@ def _talep(g, kara_hazir, kara, r_km):
 # ═══════════════════════════════════════════════════════════════════════════
 # ② PAYLAŞIM — birden çok devletin istediği alan
 # ═══════════════════════════════════════════════════════════════════════════
+def _paylas_surtunme(alan, adaylar, izg):
+    """SÜRTÜNMELİ paylaşım (MOTOR-YAMA-5GUN-B-1118). `izg` = {"sahip": ny×nx int32 (satır 0 GÜNEY;
+    Dijkstra sahibi yerleşim indeksi, −1 karar yok), "x0","y0","adim", "kim": {yerleşim: devlet}}.
+
+    Her ızgara hücresi, sürtünmeli en yakın yerleşiminin DEVLETİ iki adaydan biriyse o adaya gider.
+    Sahibi üçüncü devlet / sahipsiz olan hücre, en yakın ETİKETLİ hücrenin (iki aday arasından)
+    etiketini alır — "aday yalnız temas eden iki devlet". Bölme tek ızgaradan türediği için iki
+    taraf (i ve j) aynı çizgiyi üretir; parçalar ortak kenarı bit bit paylaşır (boşluk/bindirme yok).
+    Döner: [(kim, parça)] ya da None (hiç etiketli hücre yoksa → çağıran Voronoi'ye düşer)."""
+    import numpy as np
+    import rasterio.features as rfe
+    from rasterio.transform import Affine
+    from scipy import ndimage as ndi
+    sahip = izg["sahip"]
+    x0, y0, ad, kimj = izg["x0"], izg["y0"], izg["adim"], izg["kim"]
+    ny, nx = sahip.shape
+    bx0, by0, bx1, by1 = alan.bounds
+    i0 = max(0, int(math.floor((bx0 - x0) / ad)) - 1)
+    i1 = min(nx, int(math.ceil((bx1 - x0) / ad)) + 1)
+    b0 = max(0, int(math.floor((by0 - y0) / ad)) - 1)
+    b1 = min(ny, int(math.ceil((by1 - y0) / ad)) + 1)
+    if i1 <= i0 or b1 <= b0:
+        return None
+    win = np.flipud(sahip[b0:b1, i0:i1])           # rasterio: satır 0 KUZEY
+    k1, k2 = adaylar[0][0], adaylar[1][0]
+    u = np.unique(win)
+    lut = np.array([(1 if kimj.get(int(j)) == k1 else 2 if kimj.get(int(j)) == k2 else 0)
+                    if j >= 0 else 0 for j in u], dtype=np.uint8)
+    lab = lut[np.searchsorted(u, win)]
+    bilinen = lab > 0
+    if not bilinen.any():
+        return None
+    if not bilinen.all():
+        idx = ndi.distance_transform_edt(~bilinen, return_distances=False, return_indices=True)
+        lab = lab[idx[0], idx[1]]
+    tr = Affine(ad, 0.0, x0 + i0 * ad, 0.0, -ad, y0 + b1 * ad)
+    kova = {1: [], 2: []}
+    for _gj, v in rfe.shapes(lab, transform=tr, connectivity=4):
+        kova[int(v)].append(shape(_gj))
+    out = []
+    for v, kim in ((1, k1), (2, k2)):
+        if not kova[v]:
+            continue
+        par = _temiz(unary_union(kova[v]).intersection(alan))
+        if not par.is_empty:
+            out.append((kim, par))
+    return out or None
+
+
 def _paylas(alan, adaylar):
     """`alan`ı, `adaylar` = [(kim, govde), ...] arasında EN YAKIN GÖVDE
     ölçütüyle böler.
@@ -410,6 +477,20 @@ def _paylas(alan, adaylar):
     """
     if len(adaylar) == 1:
         return [(adaylar[0][0], alan)]
+    # MOTOR-YAMA-5GUN-B-1118 (karar 8): iki devlet arası sahipsiz toprak SÜRTÜNMELİ bölüşülür —
+    # her hücre `_YR_SAHIP` ızgarasındaki (sürtünmeli en yakın yerleşim) sahibine gider; aday
+    # YALNIZ temas eden iki devlettir. Izgara yoksa / etiket bulunamazsa eski kuşuçuşu Voronoi.
+    _izg = _CTX.get("izgara")
+    if SURTUNME and _izg is not None and len(adaylar) == 2:
+        try:
+            _r = _paylas_surtunme(alan, adaylar, _izg)
+        except Exception:
+            _yut("paylas:surtunme (Voronoi'ye düştü)")
+            _r = None
+        if _r:
+            SAYAC["surtunme"] += 1
+            return _r
+        SAYAC["voronoi"] += 1
     lat = alan.centroid.y
     adim = _derece(PAYLASIM_ADIM_KM, lat)
     # 🔴 BELLEK: `alan` ham kıyı ayrıntısıyla (on binlerce köşe) 200 km tamponlanınca
@@ -582,6 +663,21 @@ def _cins(parca, govde, a_tampon):
 #    ⚠️ Bu denklikler yazılı duruyor ki biri kodu değiştirince neyin
 #      bozulduğunu bilsin: ①/② kırılırsa anahtar EKSİK girdi taşır ve
 #      önbellek SESSİZCE bayat sonuç verir.
+def _ctx_oz(kim, adlar):
+    """MOTOR-YAMA-5GUN-B-1118: devlet düzeyi önbellek anahtarının KESİT-BAĞLAMI payı. Sonuç; ızgara
+    (paylaşımın sahipleri: bu devlet + 1 sıçrama komşunun o günkü yerleşim kümesi), kendi hat
+    duvarı ve delik engelleri (sahnedeki kabile/devletsiz noktalar) ile değişir — üçü de anahtarda."""
+    izg, dv, en = _CTX.get("izgara"), _CTX.get("duvar"), _CTX.get("engel")
+    iz = ""
+    if izg is not None:
+        d_oz = izg.get("devlet_oz") or {}
+        iz = izg.get("grid_oz", "") + ":" + ",".join(
+            "%s=%s" % (d, d_oz.get(d, "-")) for d in sorted(set(adlar) | {kim}))
+    du = _oz(dv.get(kim)) if dv and dv.get(kim) is not None else "-"
+    eo = _oz(en) if en is not None else "-"
+    return "ctx|%s|%s|%s" % (iz, du, eo)
+
+
 def _yol_devlet(govdeler, ham, rapor, kara_oz, r_km, g_agac, g_liste):
     """Her devletin dolgu parçalarını AYRI AYRI ve önbellekli üretir."""
     n = len(govdeler)
@@ -621,25 +717,28 @@ def _yol_devlet(govdeler, ham, rapor, kara_oz, r_km, g_agac, g_liste):
             "dolgu2_devlet", kara_oz, "%.4f" % r_km,
             "%s=%s" % (kim, _oz(g)),
             "|".join("%s=%s" % (govdeler[j][0], _oz(govdeler[j][1]))
-                     for j in _cevre))
+                     for j in _cevre),
+            _ctx_oz(kim, [govdeler[j][0] for j in _cevre]))
         var, deger = _ONB.oku("dolgu2_devlet", an)
         if var:
-            ps, eng, km2t = deger
+            ps, eng, km2t, kes = deger
             parcalar.extend(ps)
             rapor["engellendi"].extend(eng)
             rapor["talep_km2"] += km2t
+            SAYAC["duvar_kesilen_km2"] += kes
             continue
 
         _t0 = time.time()
-        ps, eng, km2t = _devlet_hesap(i, kim, g, ham, govdeler, kb, kt,
-                                      g_liste, rapor)
+        ps, eng, km2t, kes = _devlet_hesap(i, kim, g, ham, govdeler, kb, kt,
+                                           g_liste, rapor)
+        SAYAC["duvar_kesilen_km2"] += kes
         if os.environ.get("MOTOR_DOLGU_IZ") == "1":
             import psutil
             print("      [devlet] %-30s %6.1f sn · komşu gövde %3d talep %3d · "
                   "RSS %.1f GB" % (kim, time.time() - _t0, len(kb), len(kt),
                                    psutil.Process().memory_info().rss / 2**30),
                   flush=True)
-        _ONB.yaz("dolgu2_devlet", an, (ps, eng, km2t))
+        _ONB.yaz("dolgu2_devlet", an, (ps, eng, km2t, kes))
         parcalar.extend(ps)
         rapor["engellendi"].extend(eng)
         rapor["talep_km2"] += km2t
@@ -664,8 +763,15 @@ def _devlet_hesap(i, kim, g, ham, govdeler, kb, kt, g_liste, rapor):
         if not engel.is_empty and _km2(engel) >= ESIK_KM2:
             eng_liste.append((kim, round(_km2(engel), 1)))
         t = _temiz(t.difference(B))
+    # MOTOR-YAMA-5GUN-B-1118 (karar 8): devlet içi delik BOYUTTAN BAĞIMSIZ kapanır. Kapanış (`_talep`)
+    # yalnız ≤2r (≈403 km) boşluğu kapatır; gövdenin kendi iç halkası (delik) ondan büyükse açık
+    # kalırdı. Şart: delikte başka devlet gövdesi (B) ve sahnede kabile/devletsiz yerleşim YOK.
+    if DELIK_KURALI:
+        _dl = _delik_talebi(g, B)
+        if not _dl.is_empty:
+            t = _temiz(unary_union([t, _dl])) if not t.is_empty else _dl
     if t.is_empty:
-        return [], eng_liste, 0.0
+        return [], eng_liste, 0.0, 0.0
     km2t = _km2(t)
 
     # ── ÇEKİŞME — ①/② denklikleriyle, yalnız ham_j okunarak ────────────
@@ -732,6 +838,24 @@ def _devlet_hesap(i, kim, g, ham, govdeler, kb, kt, g_liste, rapor):
         return v
 
     ps = []
+    # MOTOR-YAMA-5GUN-B-1118 (karar 7): antlaşma hattı (C/D/E/F) DUVARDIR — bu devletin dolgusu hattın
+    # KARŞI yakasına geçmez. Duvar yalnız kendi alanından çıkarılır; karşı taraf kendi hesabında
+    # o toprağı (hattın kendi yakası) alabilir.
+    _dv = (_CTX.get("duvar") or {}).get(kim)
+    _kesilen = 0.0
+    if _dv is not None and not _dv.is_empty:
+        _yeni = []
+        for alan, zorla in atamalar:
+            try:
+                if alan.intersects(_dv):
+                    _a2 = _temiz(alan.difference(_dv))
+                    _kesilen += max(0.0, _km2(alan) - _km2(_a2))
+                    alan = _a2
+            except Exception:
+                _yut("duvar:fark (duvarsız devam)")
+            if not alan.is_empty:
+                _yeni.append((alan, zorla))
+        atamalar = _yeni
     for alan, zorla in atamalar:
         for p in _parcalar(alan):
             if _km2(p) < ESIK_KM2:
@@ -749,10 +873,59 @@ def _devlet_hesap(i, kim, g, ham, govdeler, kb, kt, g_liste, rapor):
             rapor["yazilan_km2"] += _km2(p2)
             ps.append({"kim": kim, "cins": c, "g": p2})
     rapor["sn_cins"] += time.time() - _sn
-    return ps, eng_liste, km2t
+    return ps, eng_liste, km2t, _kesilen
 
 
-def kesit_dolgu(govdeler, kara=None, kara_hazir=None, r_km=None):
+def _delik_talebi(g, B):
+    """`g`nin iç halkaları (delikleri) — boyutu SORULMAZ. Atlanan delik: içinde başka devlet gövdesi
+    (`B`, alanı ≥ ESIK_KM2) ya da sahnede kabile/devletsiz yerleşim (`_CTX["engel"]`) olan. Kara
+    maskesi uygulanır (göl/deniz deliği dolmaz); `g`nin kendisi çıkarılır."""
+    adaylar = []
+    engel = _CTX.get("engel")
+    for p in _parcalar(g):
+        for r in p.interiors:
+            try:
+                h = _temiz(Polygon(r))
+            except Exception:
+                _yut("delik:halka (atlandı)")
+                continue
+            if h.is_empty:
+                continue
+            if not B.is_empty:
+                try:
+                    if h.intersects(B) and _km2(_temiz(h.intersection(B))) >= ESIK_KM2:
+                        SAYAC["delik_engelli_n"] += 1
+                        continue
+                except Exception:
+                    _yut("delik:B_kesisim (delik atlandı)")
+                    continue
+            if engel is not None and not engel.is_empty and h.intersects(engel):
+                SAYAC["delik_engelli_n"] += 1
+                continue
+            adaylar.append(h)
+    if not adaylar:
+        return Polygon()
+    try:
+        d = _temiz(unary_union(adaylar))
+        d = _temiz(d.difference(g))
+        if d.is_empty:
+            return Polygon()
+        kh, kr = _CTX.get("kara_hazir"), _CTX.get("kara")
+        if kh is not None:
+            d = kh.kes(d)
+        elif kr is not None:
+            d = _temiz(d.intersection(kr))
+    except Exception:
+        _yut("delik:birlesim (delikler atlandı)")
+        return Polygon()
+    if d.is_empty:
+        return Polygon()
+    SAYAC["delik_n"] += 1
+    SAYAC["delik_km2"] += _km2(d)
+    return d
+
+
+def kesit_dolgu(govdeler, kara=None, kara_hazir=None, r_km=None, izgara=None, duvar=None, engel=None):
     """Bir kesitteki (tek tarih) bütün A gövdelerinden dolgu parçaları üretir.
 
     govdeler : [(kim, shapely geometrisi)] — kim = devlet kimliği (boya anahtarı)
@@ -761,6 +934,10 @@ def kesit_dolgu(govdeler, kara=None, kara_hazir=None, r_km=None):
         rapor    = {"engellendi": [(kim, km2)], "talep_km2": …, "yazilan_km2": …}
     """
     r_km = YARICAP_KM if r_km is None else r_km
+    # MOTOR-YAMA-5GUN-B-1118: kesit bağlamı (bkz. modül başındaki blok). `izgara` yoksa Voronoi,
+    # `duvar` yoksa duvarsız, `engel` yoksa her delik adaydır.
+    _CTX["izgara"], _CTX["duvar"], _CTX["engel"] = izgara, duvar, engel
+    _CTX["kara_hazir"], _CTX["kara"] = kara_hazir, kara
     # Girdi ikili (kim, g) ya da üçlü (kim, g, önbellek_anahtarı) olabilir.
     _gir = [(x[0], _temiz(x[1]), (x[2] if len(x) > 2 else None))
             for x in govdeler]
@@ -790,7 +967,9 @@ def kesit_dolgu(govdeler, kara=None, kara_hazir=None, r_km=None):
     #    doğrulardı (boş küme her öngörüyü doğrular ailesinin yeni üyesi).
     _kesit_an = _ONB.anahtar(
         "dolgu2_kesit", YOL, _kara_oz, "%.4f" % r_km,
-        "|".join("%s=%s" % (k, _oz(g)) for k, g in govdeler))
+        "|".join("%s=%s" % (k, _oz(g)) for k, g in govdeler),
+        _ctx_oz("", sorted({k for k, _g in govdeler})),
+        "|".join("%s=%s" % (k, _oz(v)) for k, v in sorted((duvar or {}).items())))
     _var, _deger = _ONB.oku("dolgu2_kesit", _kesit_an)
     if _var:
         _p, _r = _deger
@@ -880,6 +1059,25 @@ def kesit_dolgu(govdeler, kara=None, kara_hazir=None, r_km=None):
     if YOL == "devlet":
         parcalar = _yol_devlet(govdeler, ham, rapor, _kara_oz, r_km,
                                _g_agac, _g_liste)
+        # MOTOR-YAMA-5GUN-B-1118 KABUL SAYACI: duvar uygulandıktan sonra hâlâ duvarın içinde kalan
+        # dolgu. Sıfır olmalı; sıfır değilse parça ADIYLA basılır (sessiz geçmez). Bu sayaç `rapor`da
+        # taşınır ⇒ önbellekten gelen kesitte de sayılır.
+        rapor["duvar_gecen_n"], rapor["duvar_gecen_km2"] = 0, 0.0
+        if duvar:
+            for pc in parcalar:
+                dv = duvar.get(pc["kim"])
+                if dv is None or dv.is_empty:
+                    continue
+                try:
+                    ic = _km2(_temiz(pc["g"].intersection(dv))) if pc["g"].intersects(dv) else 0.0
+                except Exception:
+                    _yut("duvar:sayac (sayılamadı)")
+                    continue
+                if ic >= 1.0:
+                    rapor["duvar_gecen_n"] += 1
+                    rapor["duvar_gecen_km2"] += ic
+                    print("      [DUVAR AŞILDI] %s %s %.1f km²" % (pc["kim"], pc["cins"], ic),
+                          flush=True)
         _ONB.yaz("dolgu2_kesit", _kesit_an, (parcalar, rapor))
         return parcalar, rapor
 
@@ -1072,13 +1270,17 @@ def js_yaz(yol, kayitlar, havuz, izi=None, ek_yorum=""):
 # ═══════════════════════════════════════════════════════════════════════════
 # ⑥ KOŞU İÇİNDEN ÇAĞRI — Emre'nin "TEK KOŞU" şartı
 # ═══════════════════════════════════════════════════════════════════════════
-def kosudan(araliklar, kara, cikti, ilerleme=None, kesit_sinir=0, ufuk_gun=None):
+def kosudan(araliklar, kara, cikti, ilerleme=None, kesit_sinir=0, ufuk_gun=None,
+            izgara_fn=None, duvar_fn=None, engel_fn=None):
     """`uret_petek.py` A çıktısını yazdıktan SONRA bunu çağırır.
 
     ufuk_gun (UFUK-BANT-1117, Emre kararı: dolgu bantla değişir): verilirse kapanış yarıçapı
     `r = ufuk_gun × 40,32 / 2` km olur (5 → 100,8 · 7 → 141,1 · 10 → 201,6). Önbellek anahtarına
     `r_km` girdiği için üç yarıçap birbirini bozmaz. None ⇒ modül varsayılanı (UFUK_GUN).
 
+    izgara_fn / duvar_fn / engel_fn (MOTOR-YAMA-5GUN-B-1118): kesit günü `a` verilince sırasıyla
+      sürtünmeli paylaşım ızgarası · {kim: hat duvarı} · delik engeli (MultiPoint) döndüren işlevler
+      (`uret_petek.py` verir). None ⇒ o kural kapalı (yamadan önceki davranış).
     araliklar : [(f, t, kim, geometri)] — A'nın BELLEKTEKİ gövdeleri.
                 Dosyadan okumaz: aynı koşudur, geometri zaten elde.
     🔴 A'YA HİÇ DOKUNMAZ: girdi salt okunur, çıktı AYRI dosyadır. Bu işlev
@@ -1100,7 +1302,13 @@ def kosudan(araliklar, kara, cikti, ilerleme=None, kesit_sinir=0, ufuk_gun=None)
         # Önbellek anahtarı = aralık indeksi (bkz. `_TALEP_ONB` başlığı).
         govdeler = [(kim, g, _ai) for _ai, (f, t, kim, g)
                     in enumerate(araliklar) if _gk(f) <= _gk(a) < _gk(t)]
-        parcalar, _rapor = kesit_dolgu(govdeler, kara, kara_hazir, r_km=_r_km)
+        parcalar, _rapor = kesit_dolgu(
+            govdeler, kara, kara_hazir, r_km=_r_km,
+            izgara=izgara_fn(a) if izgara_fn else None,
+            duvar=duvar_fn(a) if duvar_fn else None,
+            engel=engel_fn(a) if engel_fn else None)
+        SAYAC["duvar_gecen_n"] += _rapor.get("duvar_gecen_n", 0)
+        SAYAC["duvar_gecen_km2"] += _rapor.get("duvar_gecen_km2", 0.0)
         bitis = tarihler[n] if n < len(tarihler) else "9999-12-31"
         yeni = [{"f": a, "t": bitis, "k": pc["kim"], "c": pc["cins"],
                  "p": [havuz.ekle(x) for x in _parcalar(pc["g"])]}

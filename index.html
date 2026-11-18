@@ -226,39 +226,10 @@
            Kip: js/gelistirici.js · gizleyen kural css/style.css `.yalniz-gelistirici`. -->
       <div class="secici-satir yalniz-gelistirici"><button type="button" id="rotus-teklif-dugme"
         title="Haritaya tıklayarak poligon çiz · çift tık / Enter bitirir · Esc iptal · Backspace son noktayı siler">✏️ Rötuş teklif et</button><em id="rotus-teklif-durum"></em></div>
-      <!-- ⑥ Ⓑ UFUK — üç şıklı SEGMENT (UFUK-DUGME-0930, 30 Eylül 2026).
-           Emre: "5 gün 7 gün 10 günlük veri elimizde olsun ve bir switch ile
-           görüntüyü değiştirebilmek istiyorum." Açık/kapalıyı KATMAN söyler
-           (app.js ufukAcik), düğme kendi hâlini tutmaz; radyolarda data-katman
-           YOK ⇒ tek denetleyici bu grup.
-           🔴 YARIM YAYINA DAYANIKLI: kimlik bilerek "ufuk-segment" (eski app.js
-              "ufuk-sec" arar, bulamaz, `if (!sec) return;` ile çıkar) ve 7/10
-              VARSAYILAN disabled — onları yalnız veri kapısı (bVeriKapisi) açar.
-              Eski app.js ile bu dosya yan yana gelirse düğme pasif durur, site
-              AÇILIR. 30 Eylül'de yarım yayın siteyi açılmaz kılmıştı. -->
-      <div class="secici-satir ufuk-satir"><span>⑥ Ⓑ Ufuk (yürüyüş)</span>
-        <span id="ufuk-segment" class="ufuk-segment" role="radiogroup" aria-label="Yürüyüş ufku">
-          <label><input type="radio" name="ufuk-gun" value="5" checked><b>5 gün</b></label>
-          <label><input type="radio" name="ufuk-gun" value="7" disabled><b>7</b></label>
-          <label><input type="radio" name="ufuk-gun" value="10" disabled><b>10</b></label>
-        </span><em id="kat-sayi-ufuk"></em></div>
-      <!-- ⑥b Ⓑ DOLGU (B-GORUNUM-0072): A = sürtünmeli yürüyüş haritası
-           (bugünkü yayın), B = A + dolgu. VARSAYILAN KAPALI — B bir SEÇENEK.
-           Verisi üretilmemişse rozet "—" yazar ("katman yok" ile "veri
-           üretilmemiş" ayırt edilebilir kalsın).
-           🔴 YERİ KASITLI — 11 Ekim 2026, Emre: *"5-7-10 ayarının YANINA B
-              görünümünü de ekleyelim."* Ufuk seçicisinin HEMEN ALTINDA, ama
-              onun `.secici-satir`ının İÇİNDE DEĞİL. Ölçüldü (`app.js:1269`
-              `bVeriKapisi`): `lb2 = sec.closest(".secici-satir")` ve BANT
-              verisi yoksa O SATIRIN TAMAMI `b-pasif` oluyor. Dolgu etiketi
-              o satırın içinde olsaydı, BANT eksikliği DOLGU anahtarını da
-              soluklaştırırdı — oysa ikisi ayrı dosyaya bakar
-              (`ufuk_bantlari_ust.js` ↔ `dolgu.js`). İki BAĞIMSIZ koşul tek
-              GÖRSEL HÂLİ paylaşırdı ve kullanıcı "dolgu yok" sanardı.
-              📌 Bir yerleştirme kararı da bir SÖZLEŞMEDİR: DOM'da yan yana
-                durmak, CSS'te aynı kaderi paylaşmak demektir. ⇒ Görsel olarak
-                yan yana, KADER olarak AYRI. Aynı satıra ÇEKMEYİN. -->
-      <label><input type="checkbox" data-katman="dolgu"> <span>⑥b Ⓑ Dolgu (B görünümü)</span><em id="kat-sayi-dolgu"></em></label>
+      <!-- ⑥ Ⓑ UFUK (5/7/10) ve ⑥b Ⓑ DOLGU düğmeleri KALDIRILDI — Emre, 18 Kasım 2026 (karar 9):
+           tek harita = 5 gün + B dolgusu, bütün zamanlarda aynı. Dolgu katmanı HEP AÇIK (app.js
+           dolguHepAcik); ufuk bandı seçeneği yok (ufukEtkin hep 0). Eski düğmelerin tasarım
+           notları git geçmişinde. -->
       <!-- ⑦ RENK ÜSLUBU — görünürlük değil KİP. 4 Eylül 2026, Emre: "şimdiki
            renk tarzı da korunsun ama eski soft renk tarzını da getirelim,
            coğrafya görünsün." İşaretsiz = SERT. Bedeli app.js SIYASI_KIP'te. -->

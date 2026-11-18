@@ -75,6 +75,18 @@ py arac/surum_damgala.py  # index.html'deki ?v=rNN damgasını yükselt
   MOTOR_YURUYUS_SAAT=40 MOTOR_UFUK_BANT=40,56,80 MOTOR_COL_UFUK_SAAT=0 MOTOR_SUREC_ISCI=2
   MOTOR_DEVAM=1 MOTOR_SINIR_KISIT=1 MOTOR_COL_GIRINTI_KAPALI=1`
   🆕 KOŞU 31 (1 Kasım 2026) bayrak listesi (aşağıdaki ⏳ yamalar uygulandı, bayrakları bunlar): yukarıdakilere EK `MOTOR_KOMSU_KUR_BOL=1 MOTOR_YAKA_KILIDI=1 MOTOR_KISTAK_KOPRU=1 MOTOR_KUR_DEVIR=1 MOTOR_KUSATMA_BILESEN=1 MOTOR_TOHUM_YAKA=1`. Yeni worktree'de `veri-kaynak/yukseklik/*.tif` (gitignored, 781 MB) başka koşu klasöründen kopyalanmadan motor "EĞİM DEM YOK" diye durur. İnişte `kodla yay donem` bayat `donem_parca_on.js` yüzünden kendi çıktısını siler: önce yazımı kapısız yapıp `kodla.py on-dilim-donem data` koşturmak gerekti.
+  🆕 **TEK HARİTA — 5 GÜN + B DOLGUSU, BÜTÜN ÇAĞLARDA AYNI** (Emre, 18 Kasım 2026; `denetim/YAMA-TASARIMI-5GUN-B-1118.md`,
+  kod `motor-yama-5gun-b-1118` dalında). **Bir sonraki TAM İNŞANIN bayrak listesi** (yukarıdaki `MOTOR_UFUK_BANT=40,56,80`
+  YERİNE `40` konur; bu bölümdeki ⏳/🏺 satırlarındaki öteki bayraklar aynen kalır):
+  `MOTOR_MO_SINIR=9999-12-31 MOTOR_MO_YURUYUS_GUN=5 MOTOR_MO_PUAN_KAPISI=0 MOTOR_PUAN_KAPALI=1 MOTOR_TARIH_BASI_MERKEZ=1
+  MOTOR_UFUK_BANT=40 MOTOR_B_DOLGU=1 MOTOR_DOLGU_UFUK_GUN=10 MOTOR_DOLGU_KAPALI=1`
+  (`MOTOR_COL_UFUK_SAAT=0` ve `MOTOR_COL_GIRINTI_KAPALI=1` zaten listede). Anlamı: her gün tek kural kümesi (MÖ kuralları her
+  çağa) · yürüyüş tavanı 5 gün = 40 sa (`MO_SAAT == YURUYUS_SAAT` ⇒ ayrı bant gerekmez; farklı olursa `MOTOR_UFUK_BANT`ta
+  bulunmak ZORUNDA ve artık koşunun BAŞINDA SystemExit verir) · puan kapısı kapalı · merkez kuralı her çağda (abi-merkez işi
+  bitince `0`) · dolgu her çağda, kapanış yarıçapı 201,6 km (10 gün) · ekleyici kapı pasif. `MOTOR_SINIR_KISIT=1` ŞART: dolgu
+  hat duvarını aynı `d_sinirlar` verisinden kurar (yoksa log "DOLGU DUVARI: KAPALI" der). Kod değişiklikleri (motor tuzu ⇒ tam
+  inşa 7-8 sa): `SINIR_KISIT_SINIF=("C","D","E","F")` · `B2_ENKLAV_KM=400` · dolgu sürtünmeli paylaşım · hat duvarı ·
+  devlet-içi delik. Koşu logunda `Ⓑ dolgu DUVAR: aşan 0 parça (kabul: 0)` satırı ARANIR. Koşuyu YALNIZ Emre emreder.
   🆕 KOŞU 26 (15 Ekim 2026, Emre): `MOTOR_SINIR_KISIT=1` — D/E/F egemenlik hattı gövdenin kesin kısıtı (işgal/fiilî hat HARİÇ, Osmanlı taraflı hatlar bu sürümde HARİÇ); `MOTOR_COL_GIRINTI_KAPALI=1` — M-BC C (çöl girintisi) kapalı, Libya binmesi arttığı için.
   ⏳ BEKLEYEN YAMA (17 Ekim 2026, Emre onayı — not #7): `denetim/MOTOR-YAKA-KILIDI-1017.diff` bir sonraki TAM İNŞADA uygulanır (`git apply`, temiz sınandı) ve bayrağa `MOTOR_YAKA_KILIDI=1` eklenir. Örtü aşamasında yaslanan hattın öte yakasına düşen nokta, ham hücresi o yüzün sahibi değilse yüzü almaz (Zimnicea'nın Tuna güneyindeki ~700 km² üçgeni). Logda `🔒 YAKA KİLİDİ` satırı düşen noktaları sayar. Uygulanınca bu satır bayrak listesine taşınır.
   🏺 MÖ KATMANI (MO-MOTOR-1020, 21 Ekim 2026) — kod `main`de, bir sonraki TAM İNŞADA devreye girer; varsayılanlar bayrak

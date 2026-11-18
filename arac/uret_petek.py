@@ -520,7 +520,10 @@ SINIR_KISIT =os.environ.get("MOTOR_SINIR_KISIT") == "1"
 SINIR_KISIT_KM = float(os.environ.get("MOTOR_SINIR_KISIT_KM", "80") or "80")
 SINIR_KISIT_DEGME_KM = 1.0          # = denetle.py D8_DEGME (hatta değme bandı)
 SINIR_KISIT_DEGME_KM2 = 2.0         # parça hatta en az ~2 km boyunca değmeli (nokta teması SAYILMAZ)
-SINIR_KISIT_SINIF = ("D", "E", "F")  # = denetle.py D8_SINIF (C/YOK kısıt DEĞİL)
+# MOTOR-YAMA-5GUN-B-1118 (Emre kararı 7): antlaşma hattı sınıfları C + D + E + F DUVARDIR.
+# ⚠️ Artık denetle.py D8_SINIF ("D","E","F") ile AYNI DEĞİL: motor C'yi de kısıt sayar, Değişmez 8
+#    ölçümü C'yi (ayrı karar) henüz saymaz. YOK sınıfı kısıt DEĞİLDİR.
+SINIR_KISIT_SINIF = ("C", "D", "E", "F")
 SINIR_KISIT_KUYRUK_KM = 400.0       # koridor ötesi kuyruk zarfı (puan halkasının dışı = 400 km)
 _SK_HAM, _SK_IZ, _SK_TABI = [], {}, {}
 if SINIR_KISIT:
@@ -1277,6 +1280,17 @@ if MERKEZ_KURALI not in ("0", "1", "mo"):
     raise SystemExit(f"MOTOR_TARIH_BASI_MERKEZ '0'|'1'|'mo' olmalı — gelen: {MERKEZ_KURALI!r}")
 print(f"  🏺 MÖ katmanı: sınır {MO_SINIR} · tavan {MO_YURUYUS_GUN:g} gün ({MO_SAAT:g} saat) · "
       f"merkez kuralı '{MERKEZ_KURALI}' · k0 merkez {'SAYILIR' if MERKEZ_K0 else 'sayılmaz'}")
+# MOTOR-YAMA-5GUN-B-1118: "MÖ tavanı bant listesinde OLMALI" şartı KOŞUNUN BAŞINDA sınanır (eskiden
+# yalnız ilk MÖ günü işlenirken, saatler sonra patlardı). MO_SAAT = YURUYUS_SAAT (tek harita: 5 gün) ise
+# ayrı bant gerekmez; farklıysa MOTOR_UFUK_BANT'ta bulunmak ZORUNDA.
+if MOTOR_YURUYUS and abs(MO_SAAT - YURUYUS_SAAT) > 1e-9:
+    _ub_erken = {float(x) for x in (os.environ.get("MOTOR_UFUK_BANT") or "").replace(" ", "").split(",") if x}
+    if MO_SAAT not in _ub_erken:
+        raise SystemExit(f"🏺 MÖ tavanı {MO_SAAT:g} saat ama MOTOR_UFUK_BANT={sorted(_ub_erken)} içinde YOK — "
+                         f"MOTOR_UFUK_BANT'a {MO_SAAT:g} ekle ya da MOTOR_MO_YURUYUS_GUN={YURUYUS_SAAT / 8:g} ver.")
+if MOTOR_YURUYUS and MO_SINIR >= "9999" and abs(MO_SAAT - YURUYUS_SAAT) > 1e-9:
+    print(f"  ⚠️ MO_SINIR={MO_SINIR} (her çağ MÖ kuralı) ama MO_SAAT {MO_SAAT:g} ≠ YURUYUS_SAAT {YURUYUS_SAAT:g}: "
+          f"tek harita için MOTOR_MO_YURUYUS_GUN={YURUYUS_SAAT / 8:g} olmalı")
 if MOTOR_YURUYUS:
     print(f"  🚶 MOTOR_YURUYUS=1 — kara-kara sınırı yürüyüş süresiyle "
           f"(bütçe {YURUYUS_SAAT:g} saat). Bu koşunun damgasına yazılır.")
@@ -3605,7 +3619,7 @@ _KARA_HAZIR = prep(KARA)     # bir kez hazırlanır; B2'nin deniz sınavı bunu 
 #   orada Eflak · Kırım · Dubrovnik gerçekten ayrı parçalar ve aralarındaki
 #   toprak Osmanlı olduğu için `covers` testini geçiyorlardı. Birleşik
 #   gövdede ayrı parça bile değiller.
-B2_ENKLAV_KM = 250.0        # Emre: "karasal" · ölçülen en uzak vaka 223 km
+B2_ENKLAV_KM = 400.0        # Emre 18 Kasım 2026 (karar 8): karasal eksklav birleşmesi 400 km (eskiden 250; ölçülen en uzak vaka 223 km)
 # 🏝 BTB KAPISIYLA BAĞI — uyarı burada, çünkü sabit BURADA tanımlı (kapının
 # kendisi ~1000 satır YUKARIDA, `_BTB`). Emre'nin muafiyeti *"iki yanda aynı
 # devlete ait yerleşim varsa eksklav birleştirme ile birleşsin"* bu tavana
@@ -8590,7 +8604,7 @@ def _onb_parca_anahtar(katman, gruplar, aktif, pe, engel=None):
     Döner: (anahtar, [kanonik sıralı grup indeksleri …]).
     R NİÇİN YETER (hesabın en uzağa uzanan okuması B2'nin `_TUM_AGAC.nearest`):
       bant ucu n1 gövde sınırında ⇒ bir parçaya ≤0,15° (kapat yarıçapı);
-      bant ≤250 km (B2_ENKLAV_KM) ⇒ derece uzayında ≤ `hat` (en yüksek enlemde);
+      bant ≤B2_ENKLAV_KM (400 km) ⇒ derece uzayında ≤ `hat` (en yüksek enlemde);
       parçanın sahibi noktası parçanın kutusuna ≤ dmax ⇒ en yakın yerleşim
       ≤ hat + 0,15 + dmax. B2 bandı ≤3° geniş, B3 kapaması 0,45°·4 kutu — hepsi
       R'nin içinde. Tarih anahtara GİRMEZ: `_puan_bolgesi` günü okumuyor.
@@ -8618,8 +8632,9 @@ def _onb_parca_anahtar(katman, gruplar, aktif, pe, engel=None):
         cevre = b"-"
     else:
         lat_max = min(89.0, max(abs(y0), abs(y1)) + 1.0)
-        hat = math.hypot(250.0 / (111.32 * max(0.15, math.cos(math.radians(lat_max)))),
-                         250.0 / 110.574)
+        # MOTOR-YAMA-5GUN-B-1118: 250 sabit kodu B2_ENKLAV_KM'ye bağlandı (B2 400 km oldu; R dar kalırsa önbellek BAYAT döner).
+        hat = math.hypot(B2_ENKLAV_KM / (111.32 * max(0.15, math.cos(math.radians(lat_max)))),
+                         B2_ENKLAV_KM / 110.574)
         R = max(hat + 0.15 + dmax, hat + 3.15, 0.45 * 4 + 0.15) + 0.5
         aks = aktif if isinstance(aktif, (set, frozenset)) else set(aktif)
         q = sorted(int(t) for t in _TUM_AGAC.query(box(x0 - R, y0 - R, x1 + R, y1 + R)))
@@ -10154,6 +10169,146 @@ if _BANT_HAM and len(_BANT_HAM) > 1 and _bant_kayit:
 #    bir sayı DEĞİL, ölçülmemiş olmasıdır: B-4 maliyet ölçümü dar dilimde
 #    yapıldı, tam koşudaki maliyeti (≈2.000 kesit) HENÜZ ONAYLANMADI.
 #    Koşuyu başlatan (Oturum 0) açar. "Kapalı" hâlde bu blok bir `if` kadardır.
+# ═══════════════════════════════════════════════════════════════════════════
+# MOTOR-YAMA-5GUN-B-1118 (Emre 18 Kasım 2026, "MOTOR YAMASINI UYGULAMAMIZ LAZIM") — dolguya üç girdi.
+# Hepsi `arac/dolgu.py kosudan(...)`a İŞLEV olarak verilir; A'ya dokunmaz (A bitmiştir).
+#   ① `_dg_izgara(a)`  sürtünmeli paylaşım: `_YR_SAHIP` ızgarası + o günün yerleşim→devlet haritası
+#   ② `_dg_duvar(a)`   C/D/E/F hattının KARŞI yakası (o devletin dolgusu oraya geçemez)
+#   ③ `_dg_engel(a)`   sahnedeki kabile/devletsiz noktalar (içlerindeki devlet-içi delik dolmaz)
+# ② için hat kaynağı A'nın kısıt hattıyla AYNI `_SK_HAM` (d_sinirlar) ve AYNI sınıf kümesi
+# (`SINIR_KISIT_SINIF`), AYNI yaka geometrisi (tek yanlı tampon + `_sk_aff` km uzayı). FARK: A'nın
+# "Osmanlı taraf (v1 kapsam dışı)" kuralı dolguda UYGULANMAZ — Osmanlı hatları da duvardır.
+# `MOTOR_SINIR_KISIT=1` değilse hat verisi yüklenmez ⇒ duvar YOK (ve log söyler).
+# ═══════════════════════════════════════════════════════════════════════════
+_DG_DUVAR_KM = 250.0        # dolgu yarıçapı ≤201,6 km (10 gün) ⇒ 250 km karşı-yaka tamponu yeter
+_DG_HATLAR = None
+_DG_DUVAR_EZBER = {}
+_DG_GRID_OZ = None
+
+
+def _dg_bk(p):
+    """Hat tarafı / yerleşim sahibi → dolgunun `kim` anahtarı (OSMANLI ya da boya kimliği)."""
+    if p in ("osmanli", "OSMANLI"):
+        return "OSMANLI"
+    if p in BOYALAR:
+        return p
+    _alt = _HARITA_ALT.get(p)
+    return _alt if _alt in BOYALAR else p
+
+
+def _dg_duvar_hazirla():
+    """Duvar hatlarını BİR KEZ kurar: [{f,t,ks,kg,sol_ham,sag_ham,id,yaka:{ks: sol yaka, kg: sağ yaka}}]."""
+    global _DG_HATLAR
+    if _DG_HATLAR is not None:
+        return _DG_HATLAR
+    _DG_HATLAR = []
+    if not SINIR_KISIT:
+        print("  🧱 DOLGU DUVARI: KAPALI — MOTOR_SINIR_KISIT=1 değil, hat verisi yüklenmedi")
+        return _DG_HATLAR
+    _atla = {}
+    for r in _SK_HAM:
+        _sn = r.get("sinif") or r.get("kategori") or "?"
+        if _sn not in SINIR_KISIT_SINIF:
+            _atla["sınıf kısıt değil"] = _atla.get("sınıf kısıt değil", 0) + 1
+            continue
+        _tf = r.get("taraflar") or []
+        _sol = r.get("sol_taraf")
+        if len(_tf) != 2 or not _sol or _sol not in _tf or _tf[0] == _tf[1]:
+            _atla["iki taraflı değil / sol_taraf boş"] = _atla.get("iki taraflı değil / sol_taraf boş", 0) + 1
+            continue
+        _sag = _tf[1] if _tf[0] == _sol else _tf[0]
+        _ks, _kg = _dg_bk(_sol), _dg_bk(_sag)
+        if _ks == _kg:
+            _atla["aynı taraf"] = _atla.get("aynı taraf", 0) + 1
+            continue
+        _f, _t = _sk_pad(r.get("f") or "-9999"), _sk_pad(r.get("t") or "9999")
+        if gn(_t) <= gn(_f):
+            _atla["ters pencere"] = _atla.get("ters pencere", 0) + 1
+            continue
+        _h = r["hat"]
+        _p = _h if isinstance(_h[0][0], list) else [_h]
+        _p = [q for q in _p if len(q) >= 2]
+        if not _p:
+            _atla["geometri yok"] = _atla.get("geometri yok", 0) + 1
+            continue
+        _xs = [q[0] for p in _p for q in p]
+        _ys = [q[1] for p in _p for q in p]
+        _lon0, _lat0 = (min(_xs) + max(_xs)) / 2, (min(_ys) + max(_ys)) / 2
+        _ka = 111.32 * math.cos(math.radians(_lat0))
+        _M = [_ka, 0, 0, 111.32, -_lon0 * _ka, -_lat0 * 111.32]
+        _Mi = [1 / _M[0], 0, 0, 1 / _M[3], -_M[4] / _M[0], -_M[5] / _M[3]]
+        try:
+            def _tp(w):
+                return temiz(unary_union([temiz(_sk_aff(LineString(q), _M).buffer(w, single_sided=True))
+                                          for q in _p]))
+            _sy = temiz(_sk_aff(_tp(_DG_DUVAR_KM), _Mi))       # hattın SOL yakası (sol_taraf'ın)
+            _gy = temiz(_sk_aff(_tp(-_DG_DUVAR_KM), _Mi))      # hattın SAĞ yakası
+        except Exception as _e:
+            _atla["geometri hatası"] = _atla.get("geometri hatası", 0) + 1
+            print(f"  ⚠️ DOLGU DUVARI: {r.get('id')} KURULAMADI ({type(_e).__name__}: {str(_e)[:80]})")
+            continue
+        _DG_HATLAR.append({"id": r.get("id"), "f": _f, "t": _t, "ks": _ks, "kg": _kg,
+                           "sol_ham": _sol, "sag_ham": _sag, "yaka": {_ks: _sy, _kg: _gy}})
+    print(f"  🧱 DOLGU DUVARI: {len(_DG_HATLAR)} hat ({'+'.join(SINIR_KISIT_SINIF)}) · "
+          f"Osmanlı taraflı {sum(1 for L in _DG_HATLAR if 'OSMANLI' in (L['ks'], L['kg']))} · elenen: "
+          + (" · ".join(f"{k} {v}" for k, v in sorted(_atla.items())) or "yok"))
+    return _DG_HATLAR
+
+
+def _dg_duvar(a):
+    """`a` günü geçerli hatlardan {kim: geometri}: kim'in dolgusunun GEÇEMEYECEĞİ (hattın karşı) yaka.
+    A'nın `_sk_aktif_hatlar` süzgeciyle aynı: iki taraftan biri Osmanlı'ya TÂBİ ise hat o gün yok."""
+    hl = _dg_duvar_hazirla()
+    if not hl:
+        return None
+    ak = tuple(i for i, L in enumerate(hl)
+               if gn(L["f"]) <= gn(a) < gn(L["t"])
+               and not _sk_tabi_mi(L["sol_ham"], a) and not _sk_tabi_mi(L["sag_ham"], a))
+    if not ak:
+        return None
+    v = _DG_DUVAR_EZBER.get(ak)
+    if v is None:
+        per = {}
+        for i in ak:
+            L = hl[i]
+            per.setdefault(L["ks"], []).append(L["yaka"][L["kg"]])
+            per.setdefault(L["kg"], []).append(L["yaka"][L["ks"]])
+        v = {k: temiz(unary_union(gs)) for k, gs in per.items()}
+        if len(_DG_DUVAR_EZBER) > 400:
+            _DG_DUVAR_EZBER.clear()
+        _DG_DUVAR_EZBER[ak] = v
+    return v
+
+
+def _dg_izgara(a):
+    """Sürtünmeli paylaşım bağlamı (bkz. `dolgu._paylas_surtunme`). Yürüyüş ızgarası yoksa None."""
+    global _DG_GRID_OZ
+    if _YR_SAHIP is None:
+        return None
+    if _DG_GRID_OZ is None:
+        import hashlib as _hl
+        _DG_GRID_OZ = _hl.sha1(_YR_SAHIP.tobytes()).hexdigest()[:16]
+    import hashlib as _hl
+    kim = {j: _dg_bk(d) for j, d in _gun_sahipleri(a).items()}
+    gr = {}
+    for j in sorted(kim):
+        gr.setdefault(kim[j], []).append(j)
+    d_oz = {d: _hl.sha1(repr(js).encode()).hexdigest()[:12] for d, js in gr.items()}
+    return {"sahip": _YR_SAHIP, "x0": _kvx0, "y0": _kvy0, "adim": KV_ADIM, "kim": kim,
+            "grid_oz": _DG_GRID_OZ, "devlet_oz": d_oz}
+
+
+def _dg_engel(a):
+    """Sahnede olan, o gün sahibi OLMAYAN kabile/devletsiz noktalar (delik doldurmayı engeller).
+    Sahne kuralı motorun kendisidir (`_mo_gunu` → `_mo_sahne_disi`); kur:/bit:'i olmayan aşiret
+    sahnede sayılmaz (Emre kararı 6: yıl penceresi veri işi, B6)."""
+    sd = _mo_sahne_disi(a) if _mo_gunu(a) else set()
+    sh = _gun_sahipleri(a)
+    pts = [noktalar[j] for j, y in enumerate(YERLER)
+           if y.get("bos") in ("kabile", "devletsiz") and j not in sd and j not in sh]
+    return MultiPoint(pts) if pts else None
+
+
 if os.environ.get("MOTOR_B_DOLGU") == "1":
     asama("Ⓑ dolgu katmanı (B görünümü)")
     try:
@@ -10171,11 +10326,20 @@ if os.environ.get("MOTOR_B_DOLGU") == "1":
                                   _bdolgu._coz(_p["g"], DEV_HALKA, DEV_PARCA)))
         _b_n, _b_boy, _b_cins, _b_sn = _bdolgu.kosudan(
             _b_ar, KARA, os.path.join(KOK, "data", "dolgu.js"),
-            kesit_sinir=int(os.environ.get("MOTOR_DOLGU_KESIT", "0") or "0"))
+            kesit_sinir=int(os.environ.get("MOTOR_DOLGU_KESIT", "0") or "0"),
+            # MOTOR-YAMA-5GUN-B-1118: sürtünmeli paylaşım · C/D/E/F hat duvarı · delik engeli
+            izgara_fn=_dg_izgara, duvar_fn=_dg_duvar, engel_fn=_dg_engel)
         print(f"  Ⓑ dolgu → data/dolgu.js ({_b_boy//1024} KB, {_b_n} kayıt, "
               f"{_b_sn:.0f} sn) · "
               + " · ".join(f"{_c} {_b_cins.get(_c, 0)}" for _c in _bdolgu.CINSLER))
         # UFUK-BANT-1117 (madde 3): dolgu.py'nin sessiz yutmaları — 0 da basılır.
+        # MOTOR-YAMA-5GUN-B-1118 KABUL SATIRLARI — "duvar aşan dolgu" 0 olmalı; 0 da BASILIR.
+        _dgs = _bdolgu.SAYAC
+        print(f"  Ⓑ dolgu DUVAR: aşan {_dgs['duvar_gecen_n']} parça / {_dgs['duvar_gecen_km2']:.0f} km² "
+              f"(kabul: 0) · duvarın kestiği {_dgs['duvar_kesilen_km2']:.0f} km² · "
+              f"paylaşım: sürtünmeli {_dgs['surtunme']} / Voronoi'ye düşen {_dgs['voronoi']} · "
+              f"devlet-içi delik: {_dgs['delik_n']} devlet-kesit / {_dgs['delik_km2']:.0f} km² "
+              f"(engelli delik {_dgs['delik_engelli_n']})  [önbellekten gelen kesitlerde son üçü 0 sayılır]")
         print("  Ⓑ dolgu SESSİZ YUTMA: "
               + (", ".join(f"{k}={v}" for k, v in sorted(_bdolgu.YUTMA.items()))
                  if _bdolgu.YUTMA else "0 (hiçbiri tetiklenmedi)"))
