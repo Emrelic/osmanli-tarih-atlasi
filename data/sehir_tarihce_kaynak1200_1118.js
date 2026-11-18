@@ -2,6 +2,30 @@
 // Motor/denetle/site OKUMAZ — araştırma birikimi. Elle düzenleme: JSON'u düzelt, yeniden üret.
 window.SEHIR_TARIHCE_KAYNAK1200_1118 = [
  {
+  "id": "nasik-in",
+  "ad": "Nasik (Nasika)",
+  "atlas_ad": null,
+  "lat": 19.9975,
+  "lon": 73.7898,
+  "kat1900": 3,
+  "adlar": [
+   "Nasika",
+   "Nasik"
+  ],
+  "ilk": {
+   "nicelik": "tarihsiz_tanik",
+   "kaynak": "Brill's New Pauly Online, «Nasica» md., [2] (Karl-Ludwig Elvers, Klaus Karttunen); aynı madde Der Neue Pauly Online «Nasika» (Karttunen), brill.com (18 Kas 2026'da okundu)",
+   "tanik": "Town in western India to the east of the river Namades (Narmada) (Ptol. 7,1,6). Probably present-day Nāsik",
+   "ic_not": "tarihsiz tanık: Brill's New Pauly «Nasica» [2] ve Der Neue Pauly «Nasika»; kaynak yalnız Ptolemaios, Geographia 7,1,6 atfı veriyor, yıl/yüzyıl vermiyor ve kuruluşu tarihlemiyor. Nasika=Nasik eşitlemesi kaynakta 'wohl/probably' (kesin değil); bu yüzden başlangıç sayılmaz, yalnız tanık. t boş, yıl uydurulmadı."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [],
+  "ic_not": "Kaynak taraması 1200-öncesi, 18 Kasım 2026. Pleiades 'Nasika' kaydı (BAtlas 5 C3, M. U. Erdosy) de var ama tarih metni yok."
+ },
+ {
   "id": "pesaver-pk",
   "ad": "Peşaver (Purushapura)",
   "atlas_ad": null,
