@@ -133,6 +133,7 @@ BEKLENEN_CEVIRI_EKSIK = {
     "pt": {"arayuz": 0, "devlet": 0, "olay": 0},
     "ru": {"arayuz": 0, "devlet": 0, "olay": 0},
     "fr": {"arayuz": 0, "devlet": 0, "olay": 0},
+    "zh": {"arayuz": 0, "devlet": 0, "olay": 4169},
 }
 # 13 Kasım 2026 (KASA batch 15): bayat olay en/ar/es/de 71→72 (ÖLÇÜM) — UMIT p08 / EMRELİC ant17 ana maddelere `antlasma_id` yazdı
 # (Zitvatorok/Buçaş/Vasvar/İstanbul 1700, Yergöğü, İngiliz 1799). Kaynak ölçüldü; çeviri işi site bitince (Emre, 13 Kasım).
@@ -144,6 +145,7 @@ BEKLENEN_CEVIRI_BAYAT = {
     "pt": {"arayuz": 0, "devlet": 0, "olay": 0},
     "ru": {"arayuz": 0, "devlet": 0, "olay": 0},
     "fr": {"arayuz": 0, "devlet": 0, "olay": 0},
+    "zh": {"arayuz": 0, "devlet": 0, "olay": 0},
 }
 
 
