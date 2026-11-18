@@ -501,11 +501,11 @@ window.CEVIRI_DIZIN = {
   "it": [
    [
     "ceviri_it_olay_01.js",
-    "85700af0"
+    "0411f282"
    ],
    [
     "ceviri_it_olay_02.js",
-    "b4a7bcea"
+    "8cc451c4"
    ]
   ]
  }
