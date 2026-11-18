@@ -270,6 +270,18 @@ TABLO = [
     ("adwa", "Adwa Muharebesi", "Habeş ressam", "Ethiopian painting, Battle of Adwa, 1896.jpg", "CC BY-SA 4.0", "Commons", (.06, .07, .94, .93)),
     ("pierneef", "Kap'ta bir kasaba", "Pierneef", "JH Pierneef - Sleepy town in the Cape 1929.jpg", "Kamu malı", "", None),
 ]
+# ── YUVARLAK LEVHA (Emre, 18 Kas: "Hz. Muhammed'in ismini hat sanatıyla, Ayasofya'daki örneği
+# üzerinden yuvarlak gösterimle"). Ayasofya'nın büyük levhası (Kazasker Mustafa İzzet Efendi,
+# 19. yy) fotoğraftan alınır. Fotoğraf levhayı yandan ve hafif eğik görür (elips): dış altın
+# kenarın 16 noktasına elips uydurulur (cv2.fitEllipse, 18 Kas), afin dönüşümle elips tam
+# DAİREYE çevrilir = cepheden görünüm. Portre tabakasındaki hücrenin ÜST KARESİNE yazılır;
+# karo yuvarlak gösterilir.
+# anahtar → (Commons dosyası, lisans, fotoğraf sahibi,
+#            elips (merkez x, merkez y, yatay eksen, dikey eksen — görüntü GENİŞLİĞİNE oran; açı °))
+LEVHA = {
+    "muhammed": ("Hagia Sophia - Muhammad, Allah, Abu Bakr.jpg", "CC BY-SA 3.0", "Rabe!",
+                 (553.6 / 3840, 1635.1 / 3840, 519.4 / 3840, 699.4 / 3840, 2.53)),
+}
 TB = os.path.join(KOK, "veri-kaynak", "acilis-tablo")
 TSPRITE = os.path.join(KOK, "img", "acilis", "tablolar.webp")
 TW, TH = 160, 120
@@ -630,6 +642,41 @@ def commons_indir(dosya, hedef, genislik):
     return em.get("LicenseShortName", {}).get("value"), re.sub("<[^>]+>", "", em.get("Artist", {}).get("value", ""))[:80]
 
 
+def levhalar():
+    """LEVHA'daki kişilerin portre hücresini yuvarlak levhayla yeniden yazar (tabaka yamalanır)."""
+    from PIL import Image, ImageDraw
+    os.makedirs(PR, exist_ok=True)
+    PI = {p[0]: i for i, p in enumerate(PORTRE)}
+    tab = Image.open(SPRITE).convert("RGB")
+    for k, (dosya, lis, eser, (ex, ey, ea, eb, aci)) in LEVHA.items():
+        p = os.path.join(PR, k + "-levha.jpg")
+        if not os.path.exists(p):
+            l, a = commons_indir(dosya, p, 3840)
+            print("levha %s %s · Commons lisansı: %s · %s" % (k, dosya, l, a))
+        im = Image.open(p).convert("RGB")
+        W = im.width
+        S4 = HUCRE * 4   # 4 kat büyük çiz, sonra küçült (kenar yumuşak)
+        # çıktı (u, v) → kaynak: elips merkezi + döndürülmüş (eksen/2 · birim daire) — afin
+        r, c0 = S4 / 2 - 6, S4 / 2
+        ca, sa = math.cos(math.radians(aci)), math.sin(math.radians(aci))
+        ax, by = ea * W / 2 / r, eb * W / 2 / r
+        A, B, D, E = ca * ax, -sa * by, sa * ax, ca * by
+        cx, cy = ex * W, ey * W
+        d = im.transform((S4, S4), Image.AFFINE, (A, B, cx - A * c0 - B * c0, D, E, cy - D * c0 - E * c0),
+                         resample=Image.BICUBIC)
+        m = Image.new("L", (S4, S4), 0)
+        ImageDraw.Draw(m).ellipse((6, 6, S4 - 7, S4 - 7), fill=255)
+        c = Image.new("RGB", (S4, S4), (24, 24, 24))
+        c.paste(d, (0, 0), m)
+        c = c.resize((HUCRE, HUCRE), Image.LANCZOS)
+        i = PI[k]
+        hx, hy = (i % SUTUN) * HUCRE, (i // SUTUN) * HUCRE_Y
+        tab.paste(Image.new("RGB", (HUCRE, HUCRE_Y), (24, 24, 24)), (hx, hy))
+        tab.paste(c, (hx, hy))
+    tab.save(SPRITE, "WEBP", quality=74, method=6)
+    print("levha yaması: %s · portre tabakası %d B" % (" ".join(LEVHA), os.path.getsize(SPRITE)))
+
+
 def tablolar():
     """Ünlü tablolar: 4:3 kırpılır, altın çerçeve tabakaya çizilir, tek WebP."""
     from PIL import Image, ImageDraw
@@ -735,6 +782,7 @@ def main():
 
     eksik_amb = amblemler()
     portreler()
+    levhalar()
     tablolar()
     TI = {t[0]: i for i, t in enumerate(TABLO)}
     AI = {a[0]: i for i, a in enumerate(AMBLEM) if a[0] not in eksik_amb}
@@ -776,7 +824,7 @@ def main():
     bos_k = [p[0] for p in PORTRE if "k:" + p[0] not in kullanilan]
     if bos_k:
         print("UYARI duvarda olmayan portre:", bos_k)
-    kisiler = [{"ad": p[1]} for p in PORTRE]
+    kisiler = [dict({"ad": p[1]}, **({"yuvarlak": 1} if p[0] in LEVHA else {})) for p in PORTRE]
     blok = ("/* >>> VERI (uretildi: arac/acilis_uret.py) — ELLE DUZENLEME */\n"
             "window.ACILIS_SILUET = {\n"
             "  kure: " + js(kara_kure) + ",\n"

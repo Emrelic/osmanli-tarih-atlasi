@@ -87,5 +87,10 @@ Fatih + Kanunî, Roma'dan en az 5 imparator, her milletten 1-2 kişi).
   2,0 sn (soğuk) / 0,85 sn (sıcak); `atlas-hazir` 20,7 sn (soğuk) / 19,2 sn (sıcak); 203 istek,
   11,7 MB aktarım, ~46 MB JS çözülüyor; DOMContentLoaded 18,5 sn — açılışı belirleyen perde
   değil, veri paketlerinin ayrıştırılması.
+- **Ayasofya levhası (18 Kas, Emre):** Hz. Muhammed karosu artık Ayasofya'daki büyük levha —
+  fotoğraftaki elips afin dönüşümle daireye çevrildi (cepheden), karo yuvarlak (83 px, dar 63),
+  altın halka. Portre tabakası `--tabaka-koru` + yama ile yeniden kodlandı (248 → 224 KB;
+  öteki 86 yüz ikinci kez WebP q74'ten geçti — gözle fark görülmedi). Sınama: vitrinde ve
+  bölmede yuvarlak, konsol temiz.
 - **Ölçülmedi:** tam sitede yükleme süresine etkisi (worktree'de üretilmiş veri yok);
   push kapısının `denetle_yayin` sınavı sitenin açılışını koşturur.

@@ -3538,6 +3538,11 @@ html.acilis-js::after, html.acilis-js body::before { display: none; }
   border-radius: .2em; background-color: #2a2a2a;
   box-shadow: 0 0 0 .2em #efe6d2, 0 .3em .7em .2em rgba(0,0,0,.55);
 }
+#acilis .acilis-levha {
+  /* Emre, 18 Kas: Hz. Muhammed — Ayasofya levhası, yuvarlak (altın halka tabakada) */
+  border-radius: 50%; background-color: #1b2a22;
+  box-shadow: 0 0 0 .12em #c9a227, 0 .3em .8em .2em rgba(0,0,0,.6);
+}
 #acilis .acilis-tablo {
   /* Emre, 18 Kas: ünlü tablolar — çerçeve tabakada çizili, burada yalnız gölge */
   background-color: #2a2a2a; box-shadow: 0 .3em .7em .2em rgba(0,0,0,.55);

@@ -100,6 +100,14 @@ portreleri üreticide tanımlı ama Commons engeli yüzünden **henüz inmedi**;
 koşturuldu (depodaki iki tabaka aynen kalır, boş amblem hücreleri karosuz). Eksik beşi eklemek
 için önce bütün önbelleğin yeniden inmesi gerekir (~150 Commons isteği).
 
+## Hz. Muhammed — Ayasofya levhası (portre tabakasında yuvarlak hücre)
+Emre (18 Kas): "Hz. Muhammed'in ismini hat sanatıyla, Ayasofya'daki örneği üzerinden yuvarlak
+gösterimle." Kazasker Mustafa İzzet Efendi'nin büyük levhası (19. yy). Kaynak fotoğraf:
+`Hagia Sophia - Muhammad, Allah, Abu Bakr.jpg` — **CC BY-SA 3.0, Rabe!** (Commons). Cepheden
+çekilmiş yüksek çözünürlüklü fotoğraf bulunamadı (en düzgünü 238 px); fotoğraftaki elips dış
+altın kenara uydurulup (16 nokta, cv2.fitEllipse) afin dönüşümle daireye çevrildi = cepheden
+görünüm. Eski hat (`crop None`) hücresinin yerine yazılır (`LEVHA`, `levhalar()`).
+
 ## Ünlü tablolar (`tablolar.webp`, 8 sütun, hücre 160×120, altın çerçeve tabakada)
 Emre (17-18 Kas): haritası olmayan millete "bayrak + kişi + ünlü tablo". Ortadan 4:3 kırpılır.
 
