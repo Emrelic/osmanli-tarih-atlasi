@@ -170,11 +170,11 @@
     },
     {
      "yol": "data/devletler.js",
-     "sha": "8747874447cb9574",
-     "bayt": 6346048
+     "sha": "c9845c2232d4a0d6",
+     "bayt": 6344292
     }
    ],
-   "bayt": 6578797
+   "bayt": 6577041
   },
   {
    "paket": "data/paket_06.js",
@@ -474,8 +474,8 @@
     },
     {
      "yol": "data/yerlesimler_halef_1946.js",
-     "sha": "731d6f4dcf9f921a",
-     "bayt": 116123
+     "sha": "470ae53e497c5bbd",
+     "bayt": 118292
     },
     {
      "yol": "data/kronoloji_sinir_antik_roma.js",
@@ -498,7 +498,7 @@
      "bayt": 17249
     }
    ],
-   "bayt": 3757696
+   "bayt": 3759188
   },
   {
    "paket": "data/paket_10.js",
@@ -708,8 +708,8 @@
    "kaynak": [
     {
      "yol": "data/yerlesimler.js",
-     "sha": "d3d896ee399b21ac",
-     "bayt": 2993518
+     "sha": "6e76e910fbf3f213",
+     "bayt": 2995797
     },
     {
      "yol": "data/yerlesimler_afrika.js",
@@ -723,8 +723,8 @@
     },
     {
      "yol": "data/yerlesimler_asya.js",
-     "sha": "4cde0c5dcb424f98",
-     "bayt": 1387780
+     "sha": "01960559e85e8af0",
+     "bayt": 1402638
     },
     {
      "yol": "data/yerlesimler_ek.js",
@@ -772,7 +772,7 @@
      "bayt": 26238
     }
    ],
-   "bayt": 1314713
+   "bayt": 1324252
   },
   {
    "paket": "data/paket_14.js",
@@ -804,8 +804,8 @@
     },
     {
      "yol": "data/yerlesimler_ek15.js",
-     "sha": "dd8536a6d5a693af",
-     "bayt": 49205
+     "sha": "024ce7d073cd0881",
+     "bayt": 51490
     },
     {
      "yol": "data/yerlesimler_ek17.js",
@@ -928,7 +928,7 @@
      "bayt": 404141
     }
    ],
-   "bayt": 478373
+   "bayt": 479480
   },
   {
    "paket": "data/paket_15.js",
@@ -1293,11 +1293,11 @@
     },
     {
      "yol": "data/yerlesimler_afrika2.js",
-     "sha": "e27cbb0cf9e7756f",
-     "bayt": 499178
+     "sha": "3419c885e35ff16b",
+     "bayt": 501597
     }
    ],
-   "bayt": 220787
+   "bayt": 222270
   },
   {
    "paket": "data/paket_24.js",
@@ -1339,8 +1339,8 @@
     },
     {
      "yol": "data/yerlesimler_dogu_500_1281.js",
-     "sha": "6bf86aaabb58780e",
-     "bayt": 172397
+     "sha": "5b38bc680676d91d",
+     "bayt": 175672
     },
     {
      "yol": "data/yerlesimler_ek_atlantik_adalar.js",
@@ -1483,7 +1483,7 @@
      "bayt": 10147
     }
    ],
-   "bayt": 742655
+   "bayt": 743928
   },
   {
    "paket": "data/paket_25.js",

@@ -29517,15 +29517,6 @@ window.DEVLETLER = [
     { odak_yer:["Quetzaltenango"], t:"1838-01-01", tur:"kurulus", b:"Quetzaltenango merkezli Los Altos devleti kuruldu (yalnız yıl teyitli; gün teyitsiz).", kaynak:"ELAHC, «Quetzaltenango» (1838–1840)" },
     { odak_yer:["Quetzaltenango"], t:"1840-01-01", tur:"son", b:"Carrera Los Altos'u zorla Guatemala'ya kattı (yalnız yıl teyitli; gün teyitsiz).", kaynak:"ELAHC, «Quetzaltenango»: «forcefully reincorporated into Guatemala ... in 1840»" }
   ] },
-{ id:"texas-cumhuriyeti", ad:"Teksas Cumhuriyeti", tur:"cumhuriyet", bolge:"kuzey-amerika",
-  f:"1836-03-02", t:"1846-02-19", baskent:"Austin",
-  ozet:"Meksika'dan 2 Mart 1836 bağımsızlık bildirgesiyle doğan cumhuriyet; 19 Şubat 1846'da ilk eyalet meclisinin toplanmasıyla ABD eyaleti oldu.",
-  kaynak:"Handbook of Texas Online (TSHA), «Republic of Texas», https://www.tshaonline.org/handbook/entries/republic-of-texas (okundu, 18 Kasım 2026): «March 2, the delegates unanimously adopted Childress's suggestion for independence. Thus was born the Republic of Texas»; «existence had spanned nine years, eleven months, and seventeen days»; «The First Legislature convened in Austin on February 19, 1846»",
-  ic_not:"f=2 Mart 1836 (HoT). t=19 Şubat 1846: HoT'un belirttiği süre (9 yıl 11 ay 17 gün) 2 Mart 1836'dan 19 Şubat 1846'ya denk gelir; o gün cumhuriyet bayrağı indirildi. Polk'un eyalet kabul yasasını imzası 29 Aralık 1845 AYRI bir olgudur, künye ömrü olarak alınmadı. Tek kaynak okundu; TSL kronolojisiyle bağımsız çift teyit yapılmadı. DİKKAT: atlas yerleşim dönemleri f=1836-03-01 (ay hassasiyeti) taşıyor — künye f'i 1 gün sonra; denetle uyarırsa o dönemler 03-02'ye çekilmeli.",
-  halef:[], kronoloji:[
-    { odak_yer:["Washington-on-the-Brazos"], t:"1836-03-02", tur:"kurulus", b:"Washington-on-the-Brazos'ta delegeler bağımsızlık bildirgesini oybirliğiyle kabul etti; Teksas Cumhuriyeti doğdu.", kaynak:"Handbook of Texas Online, «Republic of Texas»" },
-    { odak_yer:["Austin"], t:"1846-02-19", tur:"son", b:"Austin'de ilk eyalet yasama meclisi toplandı, cumhuriyet bayrağı indirildi; Teksas ABD eyaleti oldu.", kaynak:"Handbook of Texas Online, «Republic of Texas»" }
-  ] },
 { id:"deseret", ad:"Deseret Devleti (Mormon geçici hükûmeti)", tur:"devlet", bolge:"kuzey-amerika",
   f:"1849-01-01", t:"1851-04-04", baskent:"Great Salt Lake City",
   ozet:"Mormon yerleşimcilerin 1849'da kurduğu, ABD tarafından tanınmayan geçici hükûmet; Kongre Eylül 1850'de Utah Bölgesi'ni kurdu, genel meclis 4 Nisan 1851'de devleti feshetti.",
