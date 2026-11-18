@@ -179,6 +179,26 @@ Büyük girdide çıktıyı tek Write ile yazamıyorsan parçalara böl: `<girdi
      3. **Yerleşik ad yoksa** Türkçe ad Latin harfle kalır. Örnekler: Böğürdelen, Güvercinlik. Türkçe adın Kiril harf çevirisi (Яныккале, Сырпсындыгы gibi) **yazılmaz**.
      4. **Kişi lakapları:** yerleşik Rusça karşılık varsa o kullanılır. Örnek: Kazıklı Voyvoda → «Влад Цепеш (Колосажатель)». Yoksa lakap Latin harfle kalır.
      5. **Hanedan / beylik adları:** devlet adı dosyasındaki karşılık kullanılır. Örnekler: Teke → «Текеогуллары» değil, devlet listesindeki biçim. Karşılık yoksa Latin harfle kalır.
+3e. **Farsça (fa) ölçüsü** (LAB 17, 18 Kasım 2026): İran akademik tarih yazımı (*Dâneşnâme-ye Cehân-e Eslâm*,
+   *Dâ'erat al-Ma'âref-e Bozorg-e Eslâmi*, Farsça *Encyclopaedia Iranica* çevirileri, Osmanlı/Safevî tarihi
+   üniversite yayınları). Modern yazı Farsçası (resmî-akademik), düğme dili kısa ("نمایش", "بستن").
+   Fars alfabesi harfleri kullanılır (ی ک — Arapça ي ك DEĞİL); yarım boşluk (ZWNJ, U+200C) birleşik
+   sözcüklerde ("می‌شود", "روم‌ایلی"). Yazı sağdan sola; **rakamlar Batı rakamı (0-9)**, Fars/Doğu Arap rakamı
+   (۰-۹) KULLANILMAZ: `#` şablonları ve rakam denetimi rakamla çalışır. Tırnak «…».
+   - امپراتوری عثمانی; سلطان; صدراعظم; ینی‌چری; بیلربیگی; سنجق; تیمار; دوشیرمه; قاضی; شیخ‌الاسلام.
+   - 1453 öncesi قسطنطنیه, sonrası استانبول. Edirne: fetihten önce ادرنه (Osmanlı adı; Adrianopolis bağlamı
+     آدریانوپل), بلگراد, وین, موره, روم‌ایلی, والاکی (افلاق), مولداوی (بغدان), ترانسیلوانیا (ارْدل),
+     خانات کریمه, ممالیک, سلجوقیان, صفویان, آق‌قویونلو, قره‌قویونلو, ونیز, امپراتوری مقدس روم.
+   - Kişiler: محمد دوم (فاتح yalnız metin lakabı veriyorsa), بایزید یکم, سلیمان (قانونی yalnız lakap varsa),
+     مراد, سلیم; Safevî/Kaçar/Akkoyunlu hükümdarları Fars akademik yazımıyla (شاه اسماعیل, شاه عباس, تیمور).
+     Hükümdar sıra numarası Fars kelime sırası: «محمد دوم», «سلیم اول» (veya یکم/دوم).
+   - **Miladi ay adları** (Fars yazımı): ژانویه، فوریه، مارس، آوریل، مه، ژوئن، ژوئیه، اوت، سپتامبر، اکتبر،
+     نوامبر، دسامبر. Tarih şablonu **gün-ay-yıl** ("29 مه 1453") — Türkçedeki sıra aynen; Hicrî/Şemsî takvim
+     ayrı iştir, miladi tutulur. MÖ → «پیش از میلاد», MS → «میلادی». Yüzyıl: «سدهٔ 15» veya «قرن 15».
+   - Ad muhafazakârlığı: kişi/yer adları Farsça YAYGIN yazımıyla (Latin harfli kaynak adı TDV, Shaw, URL
+     aynen kalır); emin değilsen Türkçe/Latin yazımı bırak, **ajan bilgisiyle uydurma yazım yapma**.
+     Arap kökenli İslâmî adlar Farsçada yerleşik biçimiyle (ابن بطوطه, صلاح‌الدین ایوبی).
+   - `#` yer tutucularının sayısı ve sırası kaynakla aynı kalır (RTL'de de mantıksal sıra aynı).
 4. Kod, kimlik, dosya yolu, değişken adı gibi görünen ya da çevrilemeyen öğeyi AYNEN bırak.
 5. Arayüz metni kısa ve düğme diliyle: "Göster" → "Show", "Kapat" → "Close". Cümle parçası
    gelirse parça olarak çevir (bir cümlenin ortası olabilir; büyük/küçük harfi koru).
