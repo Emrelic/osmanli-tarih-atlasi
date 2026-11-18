@@ -18,7 +18,7 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_9 = [
    "kesinlik": "yil",
    "kaynak": "Encyclopaedia Britannica, 'Esbjerg', https://www.britannica.com/place/Esbjerg (tarayıcıda okundu; görünür makale gövdesi, YZ-SSS bloğu dışı)",
    "tanik": "Founded in 1868, after the loss of North Slesvig (Schleswig) to Germany",
-   "ic_not": "TEK KAYNAK (Britannica; ikinci bağımsız kaynak aranmadı/okunmadı). Özne zamir = madde konusu. 1874 liman, 1899 kasaba hakkı sonraki olaylardır, yazılmadı. (UMIT 1119)"
+   "ic_not": "ÇİFT TEYİT (yıl; 1868 liman kararı): Danmarkshistorien/Lex, 'Esbjerg', https://danmarkshistorien.lex.dk/Esbjerg — Rigsdagen 1868'de liman kurulmasını kararlaştırır, Esbjerg bunun sonucu doğar (liman fiilen 1873/1874; lex.dk sayfaları arasında 1873-1874 farkı var). Britannica ile birlikte iki kaynak. Özne zamir = madde konusu. 1874 liman, 1899 kasaba hakkı sonraki olaylardır, yazılmadı. (UMIT 1119; ikinci kaynak 19 Kas 2026)"
   },
   "kur": {
    "t": "1868-01-01",
@@ -71,7 +71,7 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_9 = [
    "kesinlik": "yil",
    "kaynak": "Encyclopaedia Britannica, 'Fredericia', https://www.britannica.com/place/Fredericia (tarayıcıda okundu; görünür makale gövdesi, YZ-SSS bloğu dışı)",
    "tanik": "Founded and chartered in 1650 by Frederick III as a fortress to defend Jutland",
-   "ic_not": "TEK KAYNAK (Britannica; ikinci bağımsız kaynak aranmadı/okunmadı). Özne zamir = madde konusu. 1849 kuşatması sonraki olay. (UMIT 1119)"
+   "ic_not": "ÇİFT TEYİT: Danmarkshistorien/Lex, 'Fredericia', https://danmarkshistorien.lex.dk/Fredericia — 1650'de Bers Odde'de kale olarak kurulur, aynı yıl köpstad hakları verilir (ikinci kaynak 19 Kas 2026). Özne zamir = madde konusu. 1849 kuşatması sonraki olay. (UMIT 1119)"
   },
   "kur": {
    "t": "1650-01-01",
@@ -124,7 +124,7 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_9 = [
    "kesinlik": "yil",
    "kaynak": "Encyclopaedia Britannica, 'Holstebro', https://www.britannica.com/place/Holstebro (tarayıcıda okundu; görünür makale gövdesi, YZ-SSS bloğu dışı)",
    "tanik": "First mentioned in 1274, most of old Holstebro was destroyed by fires",
-   "ic_not": "TEK KAYNAK (Britannica; ikinci bağımsız kaynak aranmadı/okunmadı). Kaynaktaki 'First mentioned' ilk anılıştır; kuruluş yılı değil. (UMIT 1119)"
+   "ic_not": "ÇİFT TEYİT: Danmarkshistorien/Lex, 'Holstebro', https://danmarkshistorien.lex.dk/Holstebro — 'Byen nævnes første gang i 1274 og havde allerede da købstadstatus' (19 Kas 2026). Kaynaktaki 'First mentioned' ilk anılıştır; kuruluş yılı değil. (UMIT 1119)"
   },
   "kur": null,
   "ark": null,
@@ -171,7 +171,7 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_9 = [
    "kesinlik": "yil",
    "kaynak": "Encyclopaedia Britannica, 'Horsens', https://www.britannica.com/place/Horsens (tarayıcıda okundu; görünür makale gövdesi, YZ-SSS bloğu dışı)",
    "tanik": "The port received its first market charter in 1442",
-   "ic_not": "TEK KAYNAK (Britannica; ikinci bağımsız kaynak aranmadı/okunmadı). Kaynaktaki en erken yıllı kayıt ilk pazar imtiyazıdır; kuruluş yılı değil. Özne 'the port' = madde konusu. (UMIT 1119)"
+   "ic_not": "ÇİFT TEYİT: Trap Danmark 5. udg., 'Horsens', https://trap5.lex.dk/by/horsens-skanderborg-amt/ (lex.dk) — 'Byens ældst kendte privilegium stammer fra 29/11 1442' (19 Kas 2026). Kaynaktaki en erken yıllı kayıt ilk pazar imtiyazıdır; kuruluş yılı değil. Özne 'the port' = madde konusu. (UMIT 1119)"
   },
   "kur": null,
   "ark": null,
@@ -218,7 +218,7 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_9 = [
    "kesinlik": "yil",
    "kaynak": "Encyclopaedia Britannica, 'Ilulissat', https://www.britannica.com/place/Ilulissat (tarayıcıda okundu; görünür makale gövdesi, YZ-SSS bloğu dışı)",
    "tanik": "The town’s first permanent houses were built by Danes in 1741",
-   "ic_not": "TEK KAYNAK (Britannica; ikinci bağımsız kaynak aranmadı/okunmadı). Önceden Grönlandlı yerleşim vardı (yıl yok). Danimarka-Norveç kolonisi. (UMIT 1119)"
+   "ic_not": "ÇİFT TEYİT: Lex (Den Store Danske), 'Ilulissat', https://lex.dk/Ilulissat — tüccar Jacob Severin 1741'de ilk ticaret istasyonunu kurar. UYARI: Danmarkshistorien aynı yerleşimi 'Jakobshavn (anlagt 1739)' diye tarihler; kaynaklar arası 1739/1741 farkı, kayıt değişmedi (19 Kas 2026). Önceden Grönlandlı yerleşim vardı (yıl yok). Danimarka-Norveç kolonisi. (UMIT 1119)"
   },
   "kur": {
    "t": "1741-01-01",
@@ -271,7 +271,7 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_9 = [
    "kesinlik": "yil",
    "kaynak": "Encyclopaedia Britannica, 'Ipswich', https://www.britannica.com/place/Ipswich-England (tarayıcıda okundu; görünür makale gövdesi, YZ-SSS bloğu dışı)",
    "tanik": "In 1200 King John granted the town its first charter",
-   "ic_not": "TEK KAYNAK (Britannica; ikinci bağımsız kaynak aranmadı/okunmadı). Kaynaktaki en erken yıllı kayıt ilk imtiyazdır; daha eski yıllı kayıt bu kaynakta okunmadı. Özne 'the town' = madde konusu. (UMIT 1119)"
+   "ic_not": "ÇİFT TEYİT (dolaylı): British History Online, Ipswich 1317 Inspeximus transkripsiyonu (Edward II) — daha önceki bir charter '25 Mayıs, 1 John (1200)' tarihli anılır, https://www.british-history.ac.uk (arama sonucu; sayfa tam okunmadı) (19 Kas 2026). Kaynaktaki en erken yıllı kayıt ilk imtiyazdır; daha eski yıllı kayıt bu kaynakta okunmadı. Özne 'the town' = madde konusu. (UMIT 1119)"
   },
   "kur": null,
   "ark": null,
@@ -318,7 +318,7 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_9 = [
    "kesinlik": "yil",
    "kaynak": "Encyclopaedia Britannica, 'Kiruna', https://www.britannica.com/place/Kiruna (tarayıcıda okundu; görünür makale gövdesi, YZ-SSS bloğu dışı)",
    "tanik": "Kiruna was founded in 1899 with the extension of the railroad from Gällivare",
-   "ic_not": "TEK KAYNAK (Britannica; ikinci bağımsız kaynak aranmadı/okunmadı). 1908 belediye statüsü sonraki olay, yazılmadı. (UMIT 1119)"
+   "ic_not": "TEK KAYNAK (akademik ikinci kaynak bulunamadı). Not: Vikipedi (sayılmaz) Hallman şehir planının 27 Nisan 1900'de onaylandığını ve Kiruna adının o zaman resmîleştiğini, hazırlık işlerinin 1897'de başladığını söyler; Riksarkivet/NE doğrulaması okunamadı, kayıt değişmedi (19 Kas 2026). 1908 belediye statüsü sonraki olay, yazılmadı. (UMIT 1119)"
   },
   "kur": {
    "t": "1899-01-01",
@@ -424,7 +424,7 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_9 = [
    "kesinlik": "yil",
    "kaynak": "Encyclopaedia Britannica, 'Liverpool', https://www.britannica.com/place/Liverpool-England (tarayıcıda okundu; görünür makale gövdesi, YZ-SSS bloğu dışı)",
    "tanik": "history of Liverpool is 1207, when King John of England granted a charter",
-   "ic_not": "TEK KAYNAK (Britannica; ikinci bağımsız kaynak aranmadı/okunmadı). Kaynak 1207'yi 'Liverpool tarihinin ilk önemli tarihi' diye verir; daha eski yıllı kayıt okunmadı → kuruluş yılı değil, en erken kaynaklı yıl. (UMIT 1119)"
+   "ic_not": "ÇİFT TEYİT: Victoria County History, Lancashire vol. 4, 'West Derby hundred: The City of Liverpool' / 'Liverpool: The castle and development of the town', https://www.british-history.ac.uk/vch/lancs/vol4/pp4-36 — John 23 Ağustos 1207'de Liverpool'u geri alır, beş gün sonra vill'i borough yapan 'charter' çıkar (19 Kas 2026). Kaynak 1207'yi 'Liverpool tarihinin ilk önemli tarihi' diye verir; daha eski yıllı kayıt okunmadı → kuruluş yılı değil, en erken kaynaklı yıl. (UMIT 1119)"
   },
   "kur": null,
   "ark": null,
@@ -471,7 +471,7 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_9 = [
    "kesinlik": "yil",
    "kaynak": "Encyclopaedia Britannica, 'Nakskov', https://www.britannica.com/place/Nakskov (tarayıcıda okundu; görünür makale gövdesi, YZ-SSS bloğu dışı)",
    "tanik": "Founded as a market centre in the early 13th century (chartered 1266)",
-   "ic_not": "TEK KAYNAK (Britannica; ikinci bağımsız kaynak aranmadı/okunmadı). Kuruluş '13. yüzyıl başı' (yüzyıl hassasiyeti, yıl yok → uydurulmadı); kaynaktaki en erken YILLI kayıt 1266 imtiyazı. (UMIT 1119)"
+   "ic_not": "ÇİFT TEYİT (1266): Lex, 'Nakskov', https://lex.dk/Nakskov — en eski korunmuş köpstad imtiyazları 1266 (19 Kas 2026). Kuruluş '13. yüzyıl başı' (yüzyıl hassasiyeti, yıl yok → uydurulmadı); kaynaktaki en erken YILLI kayıt 1266 imtiyazı. (UMIT 1119)"
   },
   "kur": null,
   "ark": null,
@@ -518,7 +518,7 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_9 = [
    "kesinlik": "yil",
    "kaynak": "Encyclopaedia Britannica, 'Nuuk', https://www.britannica.com/place/Nuuk (tarayıcıda okundu; görünür makale gövdesi, YZ-SSS bloğu dışı)",
    "tanik": "The modern town dates from 1721, when Hans Egede, a Norwegian missionary, founded a colony",
-   "ic_not": "TEK KAYNAK (Britannica; ikinci bağımsız kaynak aranmadı/okunmadı). Aynı sitede 10. yy Norse Vesterbygden yerleşimi anılır (yıl yok); bugünkü şehir 1721 ile tarihlenir. Danimarka-Norveç kolonisi. (UMIT 1119)"
+   "ic_not": "ÇELİŞKİ (kayıt değişmedi): Lex, 'Nuuk', https://lex.dk/Nuuk ve Den Store Danske 'Håbets koloni' — Hans Egede 1721'de Håbets Ø'de koloni kurar; yer terk edilip 1728'de bugünkü Nuuk burnuna (Godthåb) taşınır; lex.dk şehrin kuruluşunu 1728 verir. Britannica 1721. Farklı olaylar (ilk koloni / bugünkü yer), çözülmedi (19 Kas 2026). Aynı sitede 10. yy Norse Vesterbygden yerleşimi anılır (yıl yok); bugünkü şehir 1721 ile tarihlenir. Danimarka-Norveç kolonisi. (UMIT 1119)"
   },
   "kur": {
    "t": "1721-01-01",
@@ -571,7 +571,7 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_9 = [
    "kesinlik": "yil",
    "kaynak": "Encyclopaedia Britannica, 'Preston', https://www.britannica.com/place/Preston-England (tarayıcıda okundu; görünür makale gövdesi, YZ-SSS bloğu dışı)",
    "tanik": "By the 1086 Domesday survey, Preston had become an important market town",
-   "ic_not": "TEK KAYNAK (Britannica; ikinci bağımsız kaynak aranmadı/okunmadı). Kaynaktaki en erken yıllı kayıt Domesday (1086); ilk kraliyet imtiyazı 1179 (ayrı olay). (UMIT 1119)"
+   "ic_not": "KISMİ TEYİT: Open Domesday, 'Preston' (Amounderness), https://opendomesday.org/place/SD5429/preston/ — 1086 kaydı var (kral William tenant-in-chief; 1066'da Earl Tosti); kayıt seyrek/kısmen 'waste', 'önemli pazar kasabası' nitelemesi desteklenmedi (19 Kas 2026). Kaynaktaki en erken yıllı kayıt Domesday (1086); ilk kraliyet imtiyazı 1179 (ayrı olay). (UMIT 1119)"
   },
   "kur": null,
   "ark": null,
@@ -618,7 +618,7 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_9 = [
    "kesinlik": "yil",
    "kaynak": "Encyclopaedia Britannica, 'Qaqortoq', https://www.britannica.com/place/Qaqortoq (tarayıcıda okundu; görünür makale gövdesi, YZ-SSS bloğu dışı)",
    "tanik": "Founded in 1755 by Anders Olsen, a Norwegian merchant",
-   "ic_not": "TEK KAYNAK (Britannica; ikinci bağımsız kaynak aranmadı/okunmadı). Özne zamir = madde konusu. Danimarka-Norveç kolonisi. (UMIT 1119)"
+   "ic_not": "ÇELİŞKİ (kayıt değişmedi): Lex (Den Store Danske), 'Qaqortoq', https://lex.dk/Qaqortoq — 'blev grundlagt som koloni i 1775 under navnet Julianehåb' (Anders Olsen, 1775 öncesi ticaret faaliyeti ayrı olabilir); Britannica 1755. İki kaynak çelişir, çözülmedi (19 Kas 2026). (Eski not:) TEK KAYNAK (Britannica; ikinci bağımsız kaynak aranmadı/okunmadı). Özne zamir = madde konusu. Danimarka-Norveç kolonisi. (UMIT 1119)"
   },
   "kur": {
    "t": "1755-01-01",
@@ -671,7 +671,7 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_9 = [
    "kesinlik": "yil",
    "kaynak": "Encyclopaedia Britannica, 'Silkeborg', https://www.britannica.com/place/Silkeborg (tarayıcıda okundu; görünür makale gövdesi, YZ-SSS bloğu dışı)",
    "tanik": "The present city, dating from 1845 (chartered 1900)",
-   "ic_not": "TEK KAYNAK (Britannica; ikinci bağımsız kaynak aranmadı/okunmadı). 'dating from 1845' ifadesi kuruluş yılı olarak okundu; kasaba hakkı 1900 ayrı olay, yazılmadı. (UMIT 1119)"
+   "ic_not": "ÇİFT TEYİT: Trap Danmark 5. udg., 'Silkeborg', https://trap5.lex.dk/by/silkeborg-skanderborg-amt/ — kâğıt fabrikası 1 Ocak 1845'te açılır, handelsplads 15/12 1845 ve 8/1 1846 kraliyet kararlarıyla kurulur (19 Kas 2026). 'dating from 1845' ifadesi kuruluş yılı olarak okundu; kasaba hakkı 1900 ayrı olay, yazılmadı. (UMIT 1119)"
   },
   "kur": {
    "t": "1845-01-01",
@@ -724,7 +724,7 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_9 = [
    "kesinlik": "yil",
    "kaynak": "Encyclopaedia Britannica, 'Sisimiut', https://www.britannica.com/place/Sisimiut (tarayıcıda okundu; görünür makale gövdesi, YZ-SSS bloğu dışı)",
    "tanik": "The Danish settled the site in 1764",
-   "ic_not": "TEK KAYNAK (Britannica; ikinci bağımsız kaynak aranmadı/okunmadı). 1773 kilise inşası sonraki olay. Danimarka-Norveç kolonisi. (UMIT 1119)"
+   "ic_not": "ÇİFT TEYİT (yıl, bugünkü yer): Lex, 'Sisimiut', https://lex.dk/Sisimiut — Holsteinsborg kolonisi 1756'da Ukiivik adasında kurulur, 1764'te bugünkü yere taşınır (19 Kas 2026). 1756 ayrı olay, kayıt değişmedi. 1773 kilise inşası sonraki olay. Danimarka-Norveç kolonisi. (UMIT 1119)"
   },
   "kur": {
    "t": "1764-01-01",
@@ -777,7 +777,7 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_9 = [
    "kesinlik": "yil",
    "kaynak": "Encyclopaedia Britannica, 'Skagen', https://www.britannica.com/place/Skagen (tarayıcıda okundu; görünür makale gövdesi, YZ-SSS bloğu dışı)",
    "tanik": "Chartered in 1413, it is one of the principal fishing centres in Denmark",
-   "ic_not": "TEK KAYNAK (Britannica; ikinci bağımsız kaynak aranmadı/okunmadı). Özne zamir = madde konusu. Kaynaktaki en erken yıllı kayıt imtiyazdır; kuruluş yılı değil. (UMIT 1119)"
+   "ic_not": "ÇİFT TEYİT: Danmarkshistorien/Lex, 'Skagen', https://danmarkshistorien.lex.dk/Skagen — 1413'te köpstad ayrıcalıkları (19 Kas 2026). Özne zamir = madde konusu. Kaynaktaki en erken yıllı kayıt imtiyazdır; kuruluş yılı değil. (UMIT 1119)"
   },
   "kur": null,
   "ark": null,
@@ -824,7 +824,7 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_9 = [
    "kesinlik": "yil",
    "kaynak": "Encyclopaedia Britannica, 'Skive', https://www.britannica.com/place/Skive (tarayıcıda okundu; görünür makale gövdesi, YZ-SSS bloğu dışı)",
    "tanik": "It was mentioned in the 13th century and chartered in 1326",
-   "ic_not": "TEK KAYNAK (Britannica; ikinci bağımsız kaynak aranmadı/okunmadı). Özne zamir = madde konusu. 13. yy anılışı yüzyıl hassasiyetinde (yıl yok → uydurulmadı); en erken YILLI kayıt 1326 imtiyazı. (UMIT 1119)"
+   "ic_not": "KISMİ TEYİT: Danmarkshistorien/Lex, 'Skive', https://danmarkshistorien.lex.dk/Skive — şehir muhtemelen 1100'lerde kurulmuş; köpstad hakkının tarihi bilinmez, 1326 tarihli bir imtiyaz mektubu o tarihte köpstad olduğunu gösterir (yıl en geç tarih) (19 Kas 2026). Özne zamir = madde konusu. 13. yy anılışı yüzyıl hassasiyetinde (yıl yok → uydurulmadı); en erken YILLI kayıt 1326 imtiyazı. (UMIT 1119)"
   },
   "kur": null,
   "ark": null,
@@ -871,7 +871,7 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_9 = [
    "kesinlik": "yil",
    "kaynak": "Encyclopaedia Britannica, 'Slagelse', https://www.britannica.com/place/Slagelse (tarayıcıda okundu; görünür makale gövdesi, YZ-SSS bloğu dışı)",
    "tanik": "One of the oldest towns in Denmark (chartered 1288)",
-   "ic_not": "TEK KAYNAK (Britannica; ikinci bağımsız kaynak aranmadı/okunmadı). Kaynaktaki en erken yıllı kayıt kasaba imtiyazıdır (kuruluş yılı değil); Ortaçağ'da zengin ticaret merkezi denir, yıl verilmez. (UMIT 1119)"
+   "ic_not": "ÇİFT TEYİT (1288) + AYRI NOT: Lex, 'Slagelse', https://lex.dk/Slagelse — en eski köpstad imtiyazları 1288; Danmarkshistorien ise 'Erik Klipping 1280'de köpstad statüsü verdi' der (statü 1280 / en eski korunmuş imtiyaz 1288 farkı; kayıt değişmedi) (19 Kas 2026). Kaynaktaki en erken yıllı kayıt kasaba imtiyazıdır (kuruluş yılı değil); Ortaçağ'da zengin ticaret merkezi denir, yıl verilmez. (UMIT 1119)"
   },
   "kur": null,
   "ark": null,
@@ -1018,7 +1018,7 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_9 = [
    "kesinlik": "yil",
    "kaynak": "Encyclopaedia Britannica, 'Wakefield', https://www.britannica.com/place/Wakefield-England (tarayıcıda okundu; görünür makale gövdesi, YZ-SSS bloğu dışı)",
    "tanik": "Wakefield was originally the chief locality ... still a royal manor in 1086",
-   "ic_not": "TEK KAYNAK (Britannica; ikinci bağımsız kaynak aranmadı/okunmadı). Kaynaktaki en erken yıllı kayıt 1086 (kaynak cümlesi ara bölümü '...' ile atlandı). (UMIT 1119)"
+   "ic_not": "ÇİFT TEYİT: Open Domesday, 'Wakefield', https://opendomesday.org/place/SE3320/wakefield/ — 1086'da kral William lord/tenant-in-chief, 1066'da Edward (19 Kas 2026). Kaynaktaki en erken yıllı kayıt 1086 (kaynak cümlesi ara bölümü '...' ile atlandı). (UMIT 1119)"
   },
   "kur": null,
   "ark": null,
