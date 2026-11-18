@@ -1064,6 +1064,11 @@ def main():
         yol = ham.split("?")[0].split("#")[0].lstrip("./")
         if not yol:
             continue
+        # SEO-STATIK-1117 (18 Kasım 2026): `href="tarih/"` bir KLASÖR bağlantısıdır; sunucu
+        # `tarih/index.html`i döner. Klasörün kendisi git'te "izlenen dosya" olamaz — sorulacak
+        # olan index.html'in izlenip izlenmediğidir (yoksa yayında gerçekten 404).
+        if yol.endswith("/"):
+            yol += "index.html"
         tam = os.path.join(KOK, yol.replace("/", os.sep))
         if not os.path.exists(tam):
             yoklar.append(ham)

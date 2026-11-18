@@ -29,7 +29,10 @@ const KOK = path.resolve(arg("--kok", "."));
 const TEMEL = arg("--temel", "https://kronoatlas.com/");
 const KURU = process.argv.includes("--kuru");
 const CIKTI = path.resolve(arg("--cikti", KOK));
-const BUGUN = new Date().toISOString().slice(0, 10);
+// `lastmod` YOK (18 Kasım 2026): her koşuda bugünün tarihi bütün sitemap'i değiştiriyordu; push
+// kapısı üreticiyi her veri push'unda koşturur ⇒ çıktı BELİRLENİMCİ olmalı (aynı veri → aynı bayt).
+// --kati: yükleme uyarısı varsa HİÇ yazmadan çıkış 2 (kapı eksik veriyle sayfa silmesin).
+const KATI = process.argv.includes("--kati");
 const MIN_D = 150;
 
 // ---------------------------------------------------------------- veri yükle
@@ -190,6 +193,7 @@ function kaynakcaHtml(KD, kaynak, t, dil) {
 function main() {
   const { w, CEV, hata } = yukle();
   if (hata.length) console.error("YÜKLEME UYARISI:\n  " + hata.join("\n  "));
+  if (hata.length && KATI) { console.error("--kati: yükleme uyarısı var, hiçbir şey yazılmadı"); process.exitCode = 2; return; }
   const KD = w.KaynakDamga || null;
   const en = (CEV.en && CEV.en.olay) || {}, enDevlet = (CEV.en && CEV.en.devlet) || {};
   const cikti = new Map();                       // yol → içerik
@@ -445,7 +449,7 @@ footer { max-width: 760px; margin: 32px auto; padding: 16px; font: 13px "Segoe U
   if (urller.length > 50000) throw new Error(`sitemap ${urller.length} URL — 50.000 sınırı aşıldı, sitemap dizini gerekir`);
   yaz("sitemap.xml", `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-${urller.map(u => `  <url><loc>${esc(TEMEL + u)}</loc><lastmod>${BUGUN}</lastmod>${u === "" ? "<priority>1.0</priority>" : ""}</url>`).join("\n")}
+${urller.map(u => `  <url><loc>${esc(TEMEL + u)}</loc>${u === "" ? "<priority>1.0</priority>" : ""}</url>`).join("\n")}
 </urlset>
 `);
 

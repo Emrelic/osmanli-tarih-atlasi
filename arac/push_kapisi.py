@@ -20,6 +20,12 @@ YERİNE bu kapı geçer: kişi değil, KAPI. Sıra:
      `paketle.py yenile` + `surum_damgala.py` yeniden koşar ve sonuç son commit'e AMEND edilir
      (rebase sonrası damga her zaman yeniden artırılır). GERÇEK veri çatışması
      (yerlesimler*.js vb.) ⇒ rebase geri alınır, kilit bırakılır, ÇIKIŞ 4 (ÇATIŞMA).
+     🆕 STATİK SAYFALAR (SEO-STATIK-1117, Emre 18 Kasım 2026): itilen commit'ler statik
+     sayfa girdisine (kaynak data/*.js — motor çıktısı ve paket hariç · js/kaynak_damga.js ·
+     arac/statik_sayfa.js) dokunuyorsa — rebase olsun olmasın — `node arac/statik_sayfa.js
+     --kati` (~5 dk) koşar, değişen m/ en/ tarih/ devlet/ kisi/ sehir/ css/statik.css
+     sitemap.xml son commit'e AMEND edilir. Bu dosyaların rebase çatışmasında origin tarafı
+     alınır (yeniden üretileceği için). Üretici düşerse ÇIKIŞ 2 (ÖLÇÜLEMEDİ).
   ③ itilecek dosya listesi:
        · TUZ dosyası (uret_petek · renkler · girdi · motor_onbellek) ⇒ `--tuz-onay`
          şart: koşu HAVVA'da sürüyor olabilir ve BU MAKİNE onu GÖREMEZ (§9.1 ④)
@@ -59,6 +65,14 @@ URETILEN_DESEN = ("data/*parca*.js", "data/*_ust.js", "data/bolgeler.js",
                   "data/bolge_pencere.js", "data/devirler.js")
 # Rebase çatışmasında KAPININ çözdüğü üretilmiş dosyalar (paketle.py + surum_damgala.py çıktısı).
 PAKET_DESEN = ("data/paket_*.js", "data/paket_kunye.json")
+# STATİK SAYFALAR (SEO-STATIK-1117, Emre 18 Kasım 2026: "push kapısı"): `node arac/statik_sayfa.js`
+# çıktısı. Veriden türer ⇒ rebase çatışmasında origin tarafı alınır, sonra kapı yeniden üretir.
+STATIK_ONEK = ("m/", "en/m/", "en/history/", "tarih/", "devlet/", "kisi/", "sehir/")
+STATIK_DOSYA = ("css/statik.css", "sitemap.xml")
+# Üreticinin GİRDİSİ: index.html'in yüklediği data/ (motor çıktısı hariç) + kaynak damgası + üretici.
+# index.html BİLEREK YOK: hemen her push'ta ?v= damgası yüzünden değişir (her push 5 dk uzardı);
+# index.html'e yeni veri dosyası bağlanınca o data/*.js de aynı push'ta gelir ve tetikler.
+STATIK_GIRDI_EK = ("js/kaynak_damga.js", "arac/statik_sayfa.js")
 INDEX = "index.html"
 SITE_ONEK = ("index.html", "js/", "css/", "data/", "assets/")
 CAKISMA_DESEN = re.compile(rb"^(?:<{7}|>{7})(?: |\r?$)", re.M)
@@ -329,7 +343,7 @@ def rebase_cozumlu(hedef="origin/main", autostash=False):
                                        capture_output=True, text=True, encoding="utf-8", errors="replace")
                 continue
             raise Olculemedi("rebase durdu ama çözülmemiş dosya yok:\n" + (r.stdout + r.stderr)[-400:])
-        gercek = [f for f in u if not (paket_mi(f) or f == INDEX)]
+        gercek = [f for f in u if not (paket_mi(f) or f == INDEX or statik_mi(f))]
         if gercek:
             git("rebase", "--abort", kontrol=False)
             raise Catisma("GERÇEK VERİ ÇATIŞMASI (rebase geri alındı): " + ", ".join(gercek[:8])
@@ -376,6 +390,62 @@ def uretilmisleri_yenile():
         git("commit", "--amend", "--no-edit", "--quiet", "--", *degisen)
         print("   üretilmiş dosyalar yenilendi ve amend edildi: %d dosya" % len(degisen))
     return len(degisen)
+
+
+def statik_mi(yol):
+    return yol.startswith(STATIK_ONEK) or yol in STATIK_DOSYA
+
+
+def statik_girdisi_mi(yol):
+    """Statik sayfaları etkileyebilen dosya mı? (motor çıktısı ve paketler hariç: paketler
+    kaynak data/*.js'ten türer, kaynak zaten sayılır)."""
+    if yol in STATIK_GIRDI_EK:
+        return True
+    if not (yol.startswith("data/") and yol.endswith(".js")) or paket_mi(yol) or uretilen_mi(yol):
+        return False
+    if yol.startswith("data/ceviri_"):          # üretici yalnız İngilizce olay/devlet çevirisini okur
+        return bool(re.match(r"data/ceviri_en_(olay|devlet)", yol))
+    return True
+
+
+def statik_yenile():
+    """`node arac/statik_sayfa.js --kati`; değişen/yeni/silinen statik dosyaları son commit'e amend
+    eder. → amend edilen dosya sayısı. Üretici düşerse ÖLÇÜLEMEDİ (eksik veriyle sayfa silinmez:
+    --kati yükleme uyarısında hiçbir şey yazmaz)."""
+    k = kos("statik_sayfa.js --kati", ["node", "arac/statik_sayfa.js", "--kati"], KOK)
+    if k != 0:
+        raise Olculemedi("statik_sayfa.js çıkış %d — statik sayfalar yenilenemedi" % k)
+    degisen = []
+    por = git("status", "--porcelain", "-z", "--untracked-files=all", "--",
+              *[o.rstrip("/") for o in STATIK_ONEK], *STATIK_DOSYA).stdout
+    for kayit in por.split("\0"):
+        yol = kayit[3:]
+        if yol and statik_mi(yol):
+            degisen.append(yol)
+    # satır sonu gürültüsünü ayıkla (yalnız değişmiş takipli dosyalarda anlamlı)
+    gercek = []
+    for yol in degisen:
+        if os.path.exists(os.path.join(KOK, yol)) and \
+           git("ls-files", "--error-unmatch", "--", yol, kontrol=False).returncode == 0:
+            sayi = git("diff", "--numstat", "--", yol).stdout.split("\t")
+            if len(sayi) >= 2 and sayi[0] == "0" and sayi[1] == "0":
+                git("checkout", "--", yol)
+                continue
+        gercek.append(yol)
+    if gercek:
+        # 21 bin yola kadar: komut satırı sınırına takılmasın diye NUL ayraçlı yol dosyası
+        fd, yollar = tempfile.mkstemp(prefix="atlas-statik-", suffix=".txt")
+        try:
+            with os.fdopen(fd, "wb") as f:
+                f.write(b"\0".join(y.encode("utf-8") for y in gercek))
+            git("add", "-A", "--pathspec-from-file=" + yollar, "--pathspec-file-nul")
+            git("commit", "--amend", "--no-edit", "--quiet")
+        finally:
+            os.remove(yollar)
+        print("   statik sayfalar yenilendi ve amend edildi: %d dosya" % len(gercek))
+    else:
+        print("   statik sayfalar güncel (değişen yok)")
+    return len(gercek)
 
 
 def damga_yaz():
@@ -429,6 +499,12 @@ def tur(ar):
         # damga commit sayısına bağlı: rebase sonrası yeniden artırılır; paketler yeni tabandan türer
         print("   rebase sonrası üretilmiş dosyalar yenileniyor (paketle + sürüm damgası)")
         if uretilmisleri_yenile():
+            dosyalar = [f for f in git("diff", "--name-only", "origin/main", "HEAD").stdout.splitlines() if f]
+    # STATİK SAYFALAR: girdisi değiştiyse (ya da rebase'te statik çatışması çözüldüyse) yeniden üret.
+    # Rebase'siz push'ta da koşar — oturum üreticiyi unutsa bile sayfalar haritanın gerisinde kalmaz.
+    if any(statik_girdisi_mi(f) for f in dosyalar) or any(statik_mi(f) for f in cozulen):
+        print("   statik sayfa girdisi değişti → statik_sayfa.js (~5 dk)")
+        if statik_yenile():
             dosyalar = [f for f in git("diff", "--name-only", "origin/main", "HEAD").stdout.splitlines() if f]
     if any(f.startswith(SITE_ONEK) for f in dosyalar):
         if damga_yaz():
