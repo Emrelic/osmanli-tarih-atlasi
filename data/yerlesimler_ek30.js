@@ -31,13 +31,10 @@ window.YERLESIMLER_EK30 = [
 // DEĞİL (kaynak susmuyor, açıkça klan/akrabalık temelli örgütlenme
 // tarif ediyor).
 
-{ ad:"Avustralya İç Kesimi (Orta — Arrernte bölgesi)", tur:"bolge", lat:-23.70, lon:133.88, g:0, k:0,
-  d:[], kasitli_bosluk:true, bos:"kabile",
-  neden:"AIATSIS (Australian Institute of Aboriginal and Torres Strait Islander Studies), Aborijin toplumlarını tanımlarken merkezî bir devlet değil, klan/soy grupları ve akrabalık yükümlülükleriyle örgütlenmiş yüzlerce ayrı dil/topluluk grubu tarif ediyor (aiatsis.gov.au, 'Map of Indigenous Australia'; 'Our Societies', lryb.aiatsis.gov.au) — 1788 İngiliz sömürgeleşmesine kadar kıtada merkezî bir siyasi otorite kaydı yok." },
+{ ad:"Avustralya İç Kesimi (Orta — Arrernte bölgesi)", tur:"bolge", lat:-23.70, lon:133.88, g:0, k:0, s:[{f:"1281-01-01",t:"2000-12-31",d:"orta-avustralya-aborijin",kaynak:"ZİNCİR/KÜNYE (D1-KUNYE-1118): `orta-avustralya-aborijin` künyesi (devletler.js; f 1281 ATLAS UFKU, kuruluş yılı DEĞİL). BEYANLI YAKLAŞIKLIK: nokta bir topluluk/halk alanını temsil eder. Önceki beyan gerekçesi: AIATSIS (Australian Institute of Aboriginal and Torres Strait Islander Studies), Aborijin toplumlarını tanımlarken merkezî bir devlet değil, klan/soy grupları ve akrabalık yükümlülükleriyle örgütlenmiş yüzlerce ayrı dil/topluluk grubu tarif ediyor (aiatsis.gov.au, 'Map of Indigenous Australia'; 'Our Societies', lryb.aiatsis.gov.au) — 1788 İngiliz sömürgeleşmesine kadar kıtada merkezî bir siyasi otorite kaydı yok."}] },
 
 { ad:"Aotearoa Māori Yerleşimi (Kuzey Adası içi)", tur:"bolge", lat:-38.10, lon:176.20, g:0, k:0,
-  kur:"1300-01-01", d:[], kasitli_bosluk:true, bos:"kabile",
-  neden:"Te Ara Encyclopedia of New Zealand, 'Māori arrival and settlement' (teara.govt.nz/en/history/page-1) ve 'When was New Zealand first settled?' (teara.govt.nz/en/when-was-new-zealand-first-settled) — Doğu Polinezya'dan gelen yerleşimciler ~1300 CE civarında kalıcı yerleşim kurdu; toplum iwi/hapū (soy/akraba grubu) temelliydi, 1840 Waitangi Antlaşması'na kadar merkezî bir devlet yapısı oluşmadı." },
+  kur:"1300-01-01", s:[{f:"1300-01-01",t:"1840-02-06",d:"maori-iwi",kesinlik:{f:"yuzyil",t:"yil"},kaynak:"ZİNCİR/KÜNYE (D1-KUNYE-1118): `maori-iwi` künyesi (devletler.js; f 1281 ATLAS UFKU, kuruluş yılı DEĞİL). BEYANLI YAKLAŞIKLIK: nokta bir topluluk/halk alanını temsil eder. Önceki beyan gerekçesi: Te Ara Encyclopedia of New Zealand, 'Māori arrival and settlement' (teara.govt.nz/en/history/page-1) ve 'When was New Zealand first settled?' (teara.govt.nz/en/when-was-new-zealand-first-settled) — Doğu Polinezya'dan gelen yerleşimciler ~1300 CE civarında kalıcı yerleşim kurdu; toplum iwi/hapū (soy/akraba grubu) temelliydi, 1840 Waitangi Antlaşması'na kadar merkezî bir devlet yapısı oluşmadı. Yerleşim kaydı kur:1300-01-01 taşıdığı için dönem f=kur."},{f:"1840-02-06",t:"2000-12-31",d:"yeni-zelanda",kaynak:"ZİNCİR/KÜNYE (D1-KUNYE-1118): `yeni-zelanda` künyesi f 1840-02-06 (Waitangi Antlaşması). Kuzey Ada iç kesimi/Güney Ada için 1840 sonrası fiilî denetim ölçülmedi — BEYANLI YAKLAŞIKLIK: egemenlik iddiası zincirdir."}] },
 
 { ad:"Yap", tur:"bolge", lat:9.5167, lon:138.1333, g:0, k:0,
   d:[], kasitli_bosluk:true, bos:"kabile",
@@ -82,25 +79,14 @@ window.YERLESIMLER_EK30 = [
 
 // Güney Ada — Kuzey Ada'dan AYRI temsil (iki ada, tek nokta ikisini birden yutardı)
 { ad:"Te Waipounamu Māori Yerleşimi (Güney Ada içi)", tur:"bolge", lat:-44.00, lon:170.50, g:0, k:0,
-  kur:"1300-01-01", d:[], kasitli_bosluk:true, bos:"kabile",
-  neden:"Te Ara Encyclopedia of New Zealand, aynı kaynak (Māori arrival and settlement) — Güney Ada (Te Waipounamu), Kuzey Ada ile aynı ~1300 CE yerleşim dalgasının parçasıydı ama coğrafi olarak ayrı, farklı iwi (Ngāi Tahu vb.) tarafından iskân edildi; 1840'a kadar merkezî devlet yoktu." },
+  kur:"1300-01-01", s:[{f:"1300-01-01",t:"1840-02-06",d:"maori-iwi",kesinlik:{f:"yuzyil",t:"yil"},kaynak:"ZİNCİR/KÜNYE (D1-KUNYE-1118): `maori-iwi` künyesi (devletler.js; f 1281 ATLAS UFKU, kuruluş yılı DEĞİL). BEYANLI YAKLAŞIKLIK: nokta bir topluluk/halk alanını temsil eder. Önceki beyan gerekçesi: Te Ara Encyclopedia of New Zealand, aynı kaynak (Māori arrival and settlement) — Güney Ada (Te Waipounamu), Kuzey Ada ile aynı ~1300 CE yerleşim dalgasının parçasıydı ama coğrafi olarak ayrı, farklı iwi (Ngāi Tahu vb.) tarafından iskân edildi; 1840'a kadar merkezî devlet yoktu. Yerleşim kaydı kur:1300-01-01 taşıdığı için dönem f=kur."},{f:"1840-02-06",t:"2000-12-31",d:"yeni-zelanda",kaynak:"ZİNCİR/KÜNYE (D1-KUNYE-1118): `yeni-zelanda` künyesi f 1840-02-06 (Waitangi Antlaşması). Kuzey Ada iç kesimi/Güney Ada için 1840 sonrası fiilî denetim ölçülmedi — BEYANLI YAKLAŞIKLIK: egemenlik iddiası zincirdir."}] },
 
 // Avustralya — beş ek bölgesel kabile dolgusu (AIATSIS harita düzeyi, Merkez zaten vardı)
-{ ad:"Avustralya İç Kesimi (Kuzeybatı — Kimberley)", tur:"bolge", lat:-16.50, lon:126.00, g:0, k:0,
-  d:[], kasitli_bosluk:true, bos:"kabile",
-  neden:"AIATSIS, 'Map of Indigenous Australia' — Kimberley bölgesi, çok sayıda ayrı dil/klan grubunun (Worrorra, Ngarinyin, Bardi vb.) yaşadığı, merkezî devlet yapısı hiç oluşmamış bir bölgedir." },
-{ ad:"Avustralya İç Kesimi (Kuzey — Arnhem Land)", tur:"bolge", lat:-13.00, lon:133.50, g:0, k:0,
-  d:[], kasitli_bosluk:true, bos:"kabile",
-  neden:"AIATSIS, 'Map of Indigenous Australia' — Arnhem Land (Yolŋu halkları ve komşuları), klan/soy temelli örgütlenmiş, sömürge dönemine kadar dışarıyla sınırlı temas kurmuş bir bölgedir; merkezî devlet yok." },
-{ ad:"Avustralya İç Kesimi (Kuzeydoğu — Cape York)", tur:"bolge", lat:-14.50, lon:143.50, g:0, k:0,
-  d:[], kasitli_bosluk:true, bos:"kabile",
-  neden:"AIATSIS, 'Map of Indigenous Australia' — Cape York Yarımadası, çok sayıda ayrı dil grubunun yaşadığı, merkezî devlet yapısı olmayan bir bölgedir." },
-{ ad:"Avustralya İç Kesimi (Güney — Nullarbor/Güneybatı)", tur:"bolge", lat:-31.50, lon:129.00, g:0, k:0,
-  d:[], kasitli_bosluk:true, bos:"kabile",
-  neden:"AIATSIS, 'Map of Indigenous Australia' — Nullarbor Düzlüğü ve güneybatı kıyısı (Mirning, Nyoongar vb.), merkezî devlet yapısı olmayan, klan temelli topluluklardır." },
-{ ad:"Tazmanya (Aborijin Tazmanyalılar)", tur:"bolge", lat:-42.00, lon:147.00, g:0, k:0,
-  d:[], kasitli_bosluk:true, bos:"kabile",
-  neden:"AIATSIS — Tazmanya, ~10.000 yıl önce deniz seviyesi yükselince anakaradan ayrı kalmış, kendi ayrı dil/kültür gruplarına sahip Aborijin Tazmanyalılar tarafından iskân edilmiştir; 1803 İngiliz yerleşimine kadar merkezî devlet yok." },
+{ ad:"Avustralya İç Kesimi (Kuzeybatı — Kimberley)", tur:"bolge", lat:-16.50, lon:126.00, g:0, k:0, s:[{f:"1281-01-01",t:"2000-12-31",d:"kimberley-aborijin",kaynak:"ZİNCİR/KÜNYE (D1-KUNYE-1118): `kimberley-aborijin` künyesi (devletler.js; f 1281 ATLAS UFKU, kuruluş yılı DEĞİL). BEYANLI YAKLAŞIKLIK: nokta bir topluluk/halk alanını temsil eder. Önceki beyan gerekçesi: AIATSIS, 'Map of Indigenous Australia' — Kimberley bölgesi, çok sayıda ayrı dil/klan grubunun (Worrorra, Ngarinyin, Bardi vb.) yaşadığı, merkezî devlet yapısı hiç oluşmamış bir bölgedir."}] },
+{ ad:"Avustralya İç Kesimi (Kuzey — Arnhem Land)", tur:"bolge", lat:-13.00, lon:133.50, g:0, k:0, s:[{f:"1281-01-01",t:"2000-12-31",d:"yolngu-aborijin",kaynak:"ZİNCİR/KÜNYE (D1-KUNYE-1118): `yolngu-aborijin` künyesi (devletler.js; f 1281 ATLAS UFKU, kuruluş yılı DEĞİL). BEYANLI YAKLAŞIKLIK: nokta bir topluluk/halk alanını temsil eder. Önceki beyan gerekçesi: AIATSIS, 'Map of Indigenous Australia' — Arnhem Land (Yolŋu halkları ve komşuları), klan/soy temelli örgütlenmiş, sömürge dönemine kadar dışarıyla sınırlı temas kurmuş bir bölgedir; merkezî devlet yok."}] },
+{ ad:"Avustralya İç Kesimi (Kuzeydoğu — Cape York)", tur:"bolge", lat:-14.50, lon:143.50, g:0, k:0, s:[{f:"1281-01-01",t:"2000-12-31",d:"cape-york-aborijin",kaynak:"ZİNCİR/KÜNYE (D1-KUNYE-1118): `cape-york-aborijin` künyesi (devletler.js; f 1281 ATLAS UFKU, kuruluş yılı DEĞİL). BEYANLI YAKLAŞIKLIK: nokta bir topluluk/halk alanını temsil eder. Önceki beyan gerekçesi: AIATSIS, 'Map of Indigenous Australia' — Cape York Yarımadası, çok sayıda ayrı dil grubunun yaşadığı, merkezî devlet yapısı olmayan bir bölgedir."}] },
+{ ad:"Avustralya İç Kesimi (Güney — Nullarbor/Güneybatı)", tur:"bolge", lat:-31.50, lon:129.00, g:0, k:0, s:[{f:"1281-01-01",t:"2000-12-31",d:"guney-avustralya-aborijin",kaynak:"ZİNCİR/KÜNYE (D1-KUNYE-1118): `guney-avustralya-aborijin` künyesi (devletler.js; f 1281 ATLAS UFKU, kuruluş yılı DEĞİL). BEYANLI YAKLAŞIKLIK: nokta bir topluluk/halk alanını temsil eder. Önceki beyan gerekçesi: AIATSIS, 'Map of Indigenous Australia' — Nullarbor Düzlüğü ve güneybatı kıyısı (Mirning, Nyoongar vb.), merkezî devlet yapısı olmayan, klan temelli topluluklardır."}] },
+{ ad:"Tazmanya (Aborijin Tazmanyalılar)", tur:"bolge", lat:-42.00, lon:147.00, g:0, k:0, s:[{f:"1281-01-01",t:"2000-12-31",d:"tazmanya-aborijinleri",kaynak:"ZİNCİR/KÜNYE (D1-KUNYE-1118): `tazmanya-aborijinleri` künyesi (devletler.js; f 1281 ATLAS UFKU, kuruluş yılı DEĞİL). BEYANLI YAKLAŞIKLIK: nokta bir topluluk/halk alanını temsil eder. Önceki beyan gerekçesi: AIATSIS — Tazmanya, ~10.000 yıl önce deniz seviyesi yükselince anakaradan ayrı kalmış, kendi ayrı dil/kültür gruplarına sahip Aborijin Tazmanyalılar tarafından iskân edilmiştir; 1803 İngiliz yerleşimine kadar merkezî devlet yok."}] },
 
 // Sömürge şehirleri — 1281-1923 arası doğan yeni yerler, kur: ile (M-0213)
 { ad:"Hobart", tur:"sehir", lat:-42.8821, lon:147.3272, g:1, k:1,
