@@ -518,7 +518,7 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_9 = [
    "kesinlik": "yil",
    "kaynak": "Encyclopaedia Britannica, 'Nuuk', https://www.britannica.com/place/Nuuk (tarayıcıda okundu; görünür makale gövdesi, YZ-SSS bloğu dışı)",
    "tanik": "The modern town dates from 1721, when Hans Egede, a Norwegian missionary, founded a colony",
-   "ic_not": "ÇELİŞKİ (kayıt değişmedi): Lex, 'Nuuk', https://lex.dk/Nuuk ve Den Store Danske 'Håbets koloni' — Hans Egede 1721'de Håbets Ø'de koloni kurar; yer terk edilip 1728'de bugünkü Nuuk burnuna (Godthåb) taşınır; lex.dk şehrin kuruluşunu 1728 verir. Britannica 1721. Farklı olaylar (ilk koloni / bugünkü yer), çözülmedi (19 Kas 2026). Aynı sitede 10. yy Norse Vesterbygden yerleşimi anılır (yıl yok); bugünkü şehir 1721 ile tarihlenir. Danimarka-Norveç kolonisi. (UMIT 1119)"
+   "ic_not": "ÇELİŞKİ (kayıt değişmedi): Lex, 'Nuuk', https://lex.dk/Nuuk ve Den Store Danske 'Håbets koloni' — Hans Egede 1721'de Håbets Ø'de koloni kurar; yer terk edilip 1728'de bugünkü Nuuk burnuna (Godthåb) taşınır; lex.dk şehrin kuruluşunu 1728 verir. Britannica 1721. Farklı olaylar (ilk koloni / bugünkü yer), çözülmedi (19 Kas 2026). Üçüncü kaynak arandı: Store norske leksikon (snl.no/Nuuk) şehir 1728, Håbets Ø kolonisi 1721 ayrımını lex.dk ile aynı verir; akademik (Danmarkshistorien/Arktisk Institut) kaynak bulunamadı, belirleyici değil, kayıt değişmedi. Aynı sitede 10. yy Norse Vesterbygden yerleşimi anılır (yıl yok); bugünkü şehir 1721 ile tarihlenir. Danimarka-Norveç kolonisi. (UMIT 1119)"
   },
   "kur": {
    "t": "1721-01-01",
@@ -612,44 +612,44 @@ window.SEHIR_TARIHCE_KUZEY_AVRUPA_9 = [
    "Qaqortoq"
   ],
   "ilk": {
-   "t": "1755-01-01",
-   "gun": "1755",
+   "t": "1775-01-01",
+   "gun": "1775",
    "nicelik": "kurulus",
    "kesinlik": "yil",
-   "kaynak": "Encyclopaedia Britannica, 'Qaqortoq', https://www.britannica.com/place/Qaqortoq (tarayıcıda okundu; görünür makale gövdesi, YZ-SSS bloğu dışı)",
-   "tanik": "Founded in 1755 by Anders Olsen, a Norwegian merchant",
-   "ic_not": "ÇELİŞKİ (kayıt değişmedi): Lex (Den Store Danske), 'Qaqortoq', https://lex.dk/Qaqortoq — 'blev grundlagt som koloni i 1775 under navnet Julianehåb' (Anders Olsen, 1775 öncesi ticaret faaliyeti ayrı olabilir); Britannica 1755. İki kaynak çelişir, çözülmedi (19 Kas 2026). (Eski not:) TEK KAYNAK (Britannica; ikinci bağımsız kaynak aranmadı/okunmadı). Özne zamir = madde konusu. Danimarka-Norveç kolonisi. (UMIT 1119)"
+   "kaynak": "Lex (Den Store Danske), 'Qaqortoq', https://lex.dk/Qaqortoq; Store norske leksikon, 'Qaqortoq', https://snl.no/Qaqortoq (iki bağımsız ulusal ansiklopedi; Britannica 1755 ile çelişir, ic_not)",
+   "tanik": "blev grundlagt som koloni i 1775 under navnet Julianehåb",
+   "ic_not": "HAKEMLİ KARAR (EMRELİC 19 kuralı, 19 Kas 2026): İki bağımsız ulusal ansiklopedi 1775 der — Lex (Den Store Danske) 'blev grundlagt som koloni i 1775 under navnet Julianehåb'; Store norske leksikon 'Stedet ble grunnlagt i 1775 av handelsmann Anders Olsen fra Senja'. Britannica 'Founded in 1755 by Anders Olsen, a Norwegian merchant' (1755; muhtemelen Olsen'in 1755'teki Sukkertoppen görevine karışıyor) iki kaynağa karşı yenik sayıldı; yıl 1755 → 1775'e çevrildi. Danmarkshistorien/Arktisk Institut/Nationalmuseet'te sayfa bulunamadı; SNL/Lex akademik makale değil genel ulusal ansiklopedi (bu zayıflık beyanlıdır). Danimarka-Norveç kolonisi. (UMIT 1119)"
   },
   "kur": {
-   "t": "1755-01-01",
-   "gun": "1755",
+   "t": "1775-01-01",
+   "gun": "1775",
    "kesinlik": "yil",
-   "kaynak": "Encyclopaedia Britannica, 'Qaqortoq', https://www.britannica.com/place/Qaqortoq (tarayıcıda okundu; görünür makale gövdesi, YZ-SSS bloğu dışı)",
-   "tanik": "Founded in 1755 by Anders Olsen, a Norwegian merchant"
+   "kaynak": "Lex (Den Store Danske), 'Qaqortoq', https://lex.dk/Qaqortoq; Store norske leksikon, 'Qaqortoq', https://snl.no/Qaqortoq",
+   "tanik": "blev grundlagt som koloni i 1775 under navnet Julianehåb"
   },
   "ark": null,
   "bit": null,
   "sahip": [
    {
-    "f": "1755-01-01",
+    "f": "1775-01-01",
     "t": "1900-01-01",
     "d": "danimarka",
     "kesinlik": {
      "f": "yil",
      "t": "gun"
     },
-    "kaynak": "Encyclopaedia Britannica, 'Qaqortoq', https://www.britannica.com/place/Qaqortoq (tarayıcıda okundu; görünür makale gövdesi, YZ-SSS bloğu dışı)",
+    "kaynak": "Lex (Den Store Danske), 'Qaqortoq', https://lex.dk/Qaqortoq",
     "ic_not": "Sahip zinciri tek devlet: danimarka (yerleşimin o devirdeki egemeni). Atlasta nokta yok (ad+3 km tarandı) → zincir 1900'e. Ara egemenlik değişimi kaynakta okunmadı."
    }
   ],
   "olay": [
    {
-    "t": "1755-01-01",
-    "gun": "1755",
+    "t": "1775-01-01",
+    "gun": "1775",
     "k": "kurulus",
-    "b": "Anders Olsen Qaqortoq'u kurar.",
-    "kaynak": "Encyclopaedia Britannica, 'Qaqortoq', https://www.britannica.com/place/Qaqortoq (tarayıcıda okundu; görünür makale gövdesi, YZ-SSS bloğu dışı)",
-    "tanik": "Founded in 1755 by Anders Olsen, a Norwegian merchant"
+    "b": "Qaqortoq (Julianehåb) koloni olarak kurulur.",
+    "kaynak": "Lex (Den Store Danske), 'Qaqortoq', https://lex.dk/Qaqortoq",
+    "tanik": "blev grundlagt som koloni i 1775 under navnet Julianehåb"
    }
   ],
   "ic_not": "tarihce_var iki yönlü: eşleşme yok; atlasta nokta yok. (UMIT 1119)"
