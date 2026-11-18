@@ -133,7 +133,7 @@ BEKLENEN_CEVIRI_EKSIK = {
     "pt": {"arayuz": 0, "devlet": 0, "olay": 0},
     "ru": {"arayuz": 0, "devlet": 0, "olay": 0},
     "fr": {"arayuz": 0, "devlet": 0, "olay": 0},
-    "zh": {"arayuz": 0, "devlet": 0, "olay": 1649},
+    "zh": {"arayuz": 0, "devlet": 0, "olay": 0},
     "ja": {"arayuz": 0, "devlet": 0, "olay": 0},
 }
 # 13 Kasım 2026 (KASA batch 15): bayat olay en/ar/es/de 71→72 (ÖLÇÜM) — UMIT p08 / EMRELİC ant17 ana maddelere `antlasma_id` yazdı
