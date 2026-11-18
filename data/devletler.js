@@ -29513,6 +29513,6 @@ window.DEVLETLER = [
   kaynak:"Utah History to Go (Utah Division of State History), «Deseret», Utah History Encyclopedia (1994), https://historytogo.utah.gov/post/deseret/ (arama özetinden okundu, 18 Kasım 2026): «the General Assembly dissolved the State of Deseret on 4 April 1851»; «name given to the region for which the Mormon pioneers sought territorial status in 1849 and to the quasi government that they carried on for the next two years»",
   ic_not:"TEK KAYNAK (Utah Devlet Tarih Dairesi, Utah History Encyclopedia); sayfa gövdesi doğrudan çekilemedi (HTTP 403), metin arama özetinden — gövde okunmadı. f yalnız yıl (1849; ay/gün teyitsiz) → 1849-01-01 yıl temsili. t=4 Nisan 1851 fesih günü; Kongre'nin Utah Bölgesi'ni kurması Eylül 1850 ve atanmış yöneticilerin göreve başlaması ilkbahar 1851 AYRI olgulardır. KCET 28 Mart 1851 der (akademik değil) — çelişki beyanlı, TDV dışı basamakta kaldı. Atlas kullanımı: şimdilik hiçbir dönemde yok (künye önden açıldı).",
   halef:[], kronoloji:[
-    { odak_yer:["Great Salt Lake City"], t:"1851-04-04", tur:"son", b:"Genel Meclis Brigham Young'ın önerisiyle Deseret Devleti'ni feshetti; yasaları 4 Ekim 1851'de Utah Bölgesi meclisince yeniden kabul edildi.", kaynak:"Utah History to Go, «Deseret»" }
+    { odak_yer:["Salt Lake City"], t:"1851-04-04", tur:"son", b:"Genel Meclis Brigham Young'ın önerisiyle Deseret Devleti'ni feshetti; yasaları 4 Ekim 1851'de Utah Bölgesi meclisince yeniden kabul edildi.", kaynak:"Utah History to Go, «Deseret»" }
   ] },
 ];
