@@ -645,13 +645,30 @@ window.YERLESIMLER_DOGU_500_1281 = [
   "lon": 75.0177,
   "g": 1,
   "k": 3,
+  "kur": "0200-01-01",
+  "kesinlik": "yuzyil",
+  "neden": "kur: KURULUŞ DEĞİL, İLK YAZILI TANIK — görünme için ALT SINIR (ATLAS-GEC-C3-1118): Uthara Suvrathan, «A Fragmentary Brahmi Inscription from Banavasi», Purāttatva 43 (2013), s. 247-251 (zenodo.org/records/3934027, okundu): «Two other well-known inscriptions using the Brahmi script (and Prakrit language) have been found in Banavasi. The first is a 2nd century AD inscription that commemorates the queen of the King Vashishthiputra Shiva Sri Satakarni.» (atıf: Murthy et al. 1997: 27) · Imperial Gazetteer of India (DSAL, okundu 18 Kasım 2026) c.14 s.356: «the Banaousir of the Greek geographer Ptolemy (second century A.D.)» → şehir en geç MS 2. yüzyılda VARDI (yüzyıl hassasiyeti; 2. yy sonu = 0200 güvenli üst sınır, kuruluş daha eski/tarihsiz). Daha eski adaylar KULLANILMADI: Dipavamsa/Mahavamsa'daki Aşoka misyoneri rivayeti (MÖ 3. yy; metin sonradan yazılmış, Suvrathan 2013: arkeolojik kanıt belirsiz) ve BGRS 2 parçalı Brahmi yazıtı (paleografik 'son yüzyıl MÖ ya da ilk yüzyıllar MS', tahmini, Murthy kişisel iletişim).",
   "s": [
    {
-    "f": "0500-01-01",
+    "f": "0200-01-01",
+    "t": "0220-01-01",
+    "d": "satavahana",
+    "kesinlik": "yuzyil",
+    "kaynak": "ATLAS-GEC-C3-1118: Suvrathan 2013 (Purāttatva 43, s. 247-251; okundu): Banavasi'de MS 2. yy Brahmi yazıtı «commemorates the queen of the King Vashishthiputra Shiva Sri Satakarni» (Satavahana kral adı; Murthy et al. 1997: 27) · The Imperial Gazetteer of India, c.8 s.279 (DSAL, okundu 18 Kasım 2026): «The kingdom of his rivals, the Sâtavâhanas, stretched across the Peninsula from sea to sea … and on the west from the Damanganga to Vanavasi (Banavâsi) in Kanara» · BEYANLI YAKLAŞIKLIK: t = satavahana künye sonu kronoloji maddesi (0220-01-01, hanedanın MS 3. yy başında sonu); Satavahana egemenliğinin Banavasi'de 2. yy öncesi başlangıcı kaynakta YOK, f güvenli üst sınırdır"
+   },
+   {
+    "f": "0220-01-01",
+    "t": "0340-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yuzyil",
+    "kaynak": "BOŞLUK BEYANI (ATLAS-GEC-C3-1118): Suvrathan 2013 (Purāttatva 43; okundu): MS 3. yy Naga taşı yazıtı Banavasi'de «Chutu king, Vishnuskanda Satakarni»'nın kızı Nagashri'nin tank/vihara/Naga yaptırdığını kaydeder (Murthy et al. 1997: 29-30) — Çutu (Chutu) hanedanı atlas künyelerinde / renkler.py BOYALAR'da YOK ⇒ boş bırakıldı; Imperial Gazetteer c.11 s.305: «The Andhrabhrityas of Banavasi were succeeded by the Ganga or the Pallava kings» tarihsiz. Çutu tarihli süre ve ABİ MERKEZ kaynakta yok. BORÇ: Çutu künyesi + BOYALAR girişi (motor dosyası, bu görevde dokunulmadı)."
+   },
+   {
+    "f": "0340-01-01",
     "t": "0610-01-01",
     "d": "kadamba-banavasi",
     "kesinlik": "onyil",
-    "kaynak": "SAHİP kadamba-banavasi: DOGU-500-1281 BOŞLUK BEYANI geri yazıldı (ZINCIR-ORTA, 24 Ekim 2026; boya durumu denetim/ILERLEME-BOYA-BEKLEYEN-ORTA.tsv) — dayanak aşağıdadır · R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. III: The Classical Age, Bharatiya Vidya Bhavan, Bombay 1954 (archive.org: classicalage03bhar, tam metin okundu), «Dynasties of South India»: \"and carved out a principality for himself with its capital at Banavasi\" | R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. III: The Classical Age, Bharatiya Vidya Bhavan, Bombay 1954 (archive.org: classicalage03bhar, tam metin okundu), «Dynasties of South India»: \"tried to re-establish the independence of his dynasty, but was overpowered by Pulakesin II, who besieged Banavasi\" | f=0500-01-01 UFUK SINIR İŞARETİDİR (kuruluş c.340-370); t=0610: Pulakesin II kuşatması/Bhogivarman ölümü c.606-610 (ONYIL). BEYANLI YAKLAŞIKLIK: 565'ten (Ajavarman) Chalukya vasalı olan dönem Kadamba kaydında bırakıldı; 610 sonrası Chalukya (kimlik başka kümede)."
+    "kaynak": "SAHİP kadamba-banavasi (ATLAS-GEC-C3-1118: f 0500 → 0340 geri çekildi — Majumdar III, «Dynasties of South India»: Mayurasarman «probably ruled from c. A.D. 340-370» ve «carved out a principality for himself with its capital at Banavasi»; Banavasi kuruluştan beri başkenttir, onyıl hassasiyeti; kadamba-banavasi künye f 0340 + 0340 kuruluş maddesi) · DOGU-500-1281 BOŞLUK BEYANI geri yazıldı (ZINCIR-ORTA, 24 Ekim 2026; boya durumu denetim/ILERLEME-BOYA-BEKLEYEN-ORTA.tsv) — dayanak aşağıdadır · eski not: f=0500-01-01 UFUK SINIR İŞARETİYDİ; SAHİP kadamba-banavasi: DOGU-500-1281 BOŞLUK BEYANI geri yazıldı (ZINCIR-ORTA, 24 Ekim 2026; boya durumu denetim/ILERLEME-BOYA-BEKLEYEN-ORTA.tsv) — dayanak aşağıdadır · R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. III: The Classical Age, Bharatiya Vidya Bhavan, Bombay 1954 (archive.org: classicalage03bhar, tam metin okundu), «Dynasties of South India»: \"and carved out a principality for himself with its capital at Banavasi\" | R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. III: The Classical Age, Bharatiya Vidya Bhavan, Bombay 1954 (archive.org: classicalage03bhar, tam metin okundu), «Dynasties of South India»: \"tried to re-establish the independence of his dynasty, but was overpowered by Pulakesin II, who besieged Banavasi\" | f=0500-01-01 UFUK SINIR İŞARETİDİR (kuruluş c.340-370); t=0610: Pulakesin II kuşatması/Bhogivarman ölümü c.606-610 (ONYIL). BEYANLI YAKLAŞIKLIK: 565'ten (Ajavarman) Chalukya vasalı olan dönem Kadamba kaydında bırakıldı; 610 sonrası Chalukya (kimlik başka kümede)."
    },
    {
     "f": "0610-01-01",
