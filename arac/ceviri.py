@@ -138,13 +138,13 @@ BEKLENEN_CEVIRI_EKSIK = {
     "ja": {"arayuz": 0, "devlet": 0, "olay": 0},
     "id": {"arayuz": 0, "devlet": 0, "olay": 0},
     "bn": {"arayuz": 0, "devlet": 0, "olay": 0},
-    "ur": {"arayuz": 0, "devlet": 0, "olay": 4},
+    "ur": {"arayuz": 0, "devlet": 0, "olay": 0},
     "sw": {"arayuz": 0, "devlet": 0, "olay": 0},
-    "it": {"arayuz": 0, "devlet": 0, "olay": 1},
+    "it": {"arayuz": 0, "devlet": 0, "olay": 0},
     "pl": {"arayuz": 0, "devlet": 0, "olay": 0},
     "nl": {"arayuz": 0, "devlet": 0, "olay": 0},
-    "el": {"arayuz": 0, "devlet": 0, "olay": 280},
-    "az": {"arayuz": 0, "devlet": 0, "olay": 1},
+    "el": {"arayuz": 0, "devlet": 0, "olay": 140},
+    "az": {"arayuz": 0, "devlet": 0, "olay": 0},
 }
 # 13 Kasım 2026 (KASA batch 15): bayat olay en/ar/es/de 71→72 (ÖLÇÜM) — UMIT p08 / EMRELİC ant17 ana maddelere `antlasma_id` yazdı
 # (Zitvatorok/Buçaş/Vasvar/İstanbul 1700, Yergöğü, İngiliz 1799). Kaynak ölçüldü; çeviri işi site bitince (Emre, 13 Kasım).
@@ -165,7 +165,7 @@ BEKLENEN_CEVIRI_BAYAT = {
     "it": {"arayuz": 0, "devlet": 0, "olay": 0},
     "pl": {"arayuz": 0, "devlet": 0, "olay": 0},
     "nl": {"arayuz": 0, "devlet": 0, "olay": 0},
-    "el": {"arayuz": 0, "devlet": 0, "olay": 0},
+    "el": {"arayuz": 0, "devlet": 0, "olay": 140},
     "az": {"arayuz": 0, "devlet": 0, "olay": 0},
 }
 
