@@ -3103,6 +3103,40 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
   ]
  },
  {
+  "id": "masvingo-zw-p3o",
+  "ad": "Masvingo",
+  "atlas_ad": null,
+  "lat": -20.0637,
+  "lon": 30.8277,
+  "kat1900": 3,
+  "adlar": [
+   "Masvingo"
+  ],
+  "ilk": {
+   "t": "1890-01-01",
+   "gun": "1890",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Masvingo', https://www.britannica.com/place/Masvingo (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+   "tanik": "It was founded in 1890 near the Macheke and Mshangashe rivers"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1890-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, 'Masvingo', https://www.britannica.com/place/Masvingo (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+    "ic_not": "BOSLUK (atlas noktasi yok): Britannica govdesinde bu donem icin tarihli devlet sahibi cumlesi yok; beyansiz yaklasiklik yazilmadi."
+   }
+  ],
+  "olay": [],
+  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi. özne zamir = madde konusu. Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01."
+ },
+ {
   "id": "middelburg-za-p3",
   "ad": "Middelburg (Transvaal)",
   "atlas_ad": null,

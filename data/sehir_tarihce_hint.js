@@ -238,6 +238,40 @@ window.SEHIR_TARIHCE_HINT = [
   "ic_not": "P3-B19. Atlas noktasi yok (3 km tarandi; atlas_ilk_gunleri'nde ad yok)."
  },
  {
+  "id": "baharampur-in-p3o",
+  "ad": "Baharampur",
+  "atlas_ad": null,
+  "lat": 24.1047,
+  "lon": 88.2515,
+  "kat1900": 3,
+  "adlar": [
+   "Baharampur"
+  ],
+  "ilk": {
+   "t": "1757-01-01",
+   "gun": "1757",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Baharampur', https://www.britannica.com/place/Baharampur (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+   "tanik": "Berhampore was founded and fortified in 1757 by the British East India Company"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1757-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, 'Baharampur', https://www.britannica.com/place/Baharampur (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+    "ic_not": "BOSLUK (atlas noktasi yok): Britannica govdesinde bu donem icin tarihli devlet sahibi cumlesi yok; beyansiz yaklasiklik yazilmadi."
+   }
+  ],
+  "olay": [],
+  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi. özne Berhampore = Baharampur (Britannica başlığı). Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01."
+ },
+ {
   "id": "bahavelpur-pk",
   "ad": "Bahâvelpûr",
   "atlas_ad": "Bahâvelpûr",
@@ -1718,6 +1752,40 @@ window.SEHIR_TARIHCE_HINT = [
   "adlar_kaynaksiz": [
    "Khirki (TDV: Khirki'yi (Evrengâbâd))"
   ]
+ },
+ {
+  "id": "fatehgarh-in-p3o",
+  "ad": "Fatehgarh",
+  "atlas_ad": null,
+  "lat": 27.3641,
+  "lon": 79.6311,
+  "kat1900": 3,
+  "adlar": [
+   "Fatehgarh"
+  ],
+  "ilk": {
+   "t": "1714-01-01",
+   "gun": "1714",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Fatehgarh', https://www.britannica.com/place/Fatehgarh (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+   "tanik": "Fatehgarh also was founded about 1714, when a fort was built on the site"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1714-01-01",
+    "t": "1900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Britannica, 'Fatehgarh', https://www.britannica.com/place/Fatehgarh (tarayicida okundu; gorunur makale govdesi, YZ-SSS blogu disi)",
+    "ic_not": "BOSLUK (atlas noktasi yok): Britannica govdesinde bu donem icin tarihli devlet sahibi cumlesi yok; beyansiz yaklasiklik yazilmadi."
+   }
+  ],
+  "olay": [],
+  "ic_not": "P3-ON-TARAMA (LAB, 17 Kasim 2026). TEK KAYNAK (Britannica). Tanik Britannica /place/ sayfasinin GORUNUR makale govdesinden (FAQ/accordion/YZ-SSS disi) birebir; tarayici on taramasi. 'about 1714' = yaklaşık yıl; kale yapımı ile birlikte. Atlas noktasi yok (3 km tarandi). Gun yok: YYYY-01-01."
  },
  {
   "id": "gauhati-in-p7",
