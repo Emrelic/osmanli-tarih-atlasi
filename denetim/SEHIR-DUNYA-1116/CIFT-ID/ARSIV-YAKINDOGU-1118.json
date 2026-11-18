@@ -1,0 +1,60 @@
+[
+ {
+  "dosya": "yakindogu_k3_1118",
+  "neden": "ayni id iran_yakindogu_1118'de var (kapi 19'da main'e girdi)",
+  "kayit": {
+   "id": "dohuk",
+   "ad": "Dohuk (Dıhok)",
+   "atlas_ad": null,
+   "lat": 36.8661,
+   "lon": 42.9879,
+   "kat1900": 3,
+   "adlar": [
+    "Dıhok",
+    "Dohuk"
+   ],
+   "ilk": {
+    "t": "1910-01-01",
+    "gun": "1892-1910",
+    "nicelik": "ilk_anilis",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «MUSUL» md. (Sâmî es-Sakkâr; Ahmet Gündüz; Uğur Sipahioğlu), https://islamansiklopedisi.org.tr/musul--irak (tam metin curl ile indirilip betikle tarandı, 18 Kasım 2026)",
+    "tanik": "1892-1910 yılları arasında Musul vilâyeti Musul, Kerkük ve Süleymaniye sancaklarından oluşmaktaydı. Musul sancağının kazaları Akra, Zibar, Dıhok, Zaho, Sincar ve İmâdiye’dir."
+   },
+   "kur": null,
+   "ark": null,
+   "bit": null,
+   "sahip": [],
+   "olay": [],
+   "ic_not": "Aralık veren kaynakta güvenli uç alındı (VERI-YAPISI: ilk anılış için aralığın SON ucu): 1910. Gerçek ilk anılış çok daha eskidir; 1900 sonrası olduğundan sahip zinciri yazılmadı. Kaza adı 'Dıhok' (Dohuk) yazımıyla okundu. Çift teyit YOK."
+  }
+ },
+ {
+  "dosya": "yakindogu_k3_1118",
+  "neden": "ayni id iran_yakindogu_1118'de var (kapi 19'da main'e girdi)",
+  "kayit": {
+   "id": "idlib",
+   "ad": "İdlib (Idlib)",
+   "atlas_ad": null,
+   "lat": 35.9306,
+   "lon": 36.6339,
+   "kat1900": 3,
+   "adlar": [
+    "İdlib",
+    "Idlib"
+   ],
+   "ilk": {
+    "nicelik": "tarihsiz_tanik",
+    "kaynak": "TDV İslâm Ansiklopedisi, «SURİYE» md. (Cemalettin Şahin), https://islamansiklopedisi.org.tr/suriye (tam metin curl ile indirilip betikle tarandı, 18 Kasım 2026)",
+    "tanik": "Selçuklu ve Atabekler’in yanı sıra Eyyûbî, Memlük ve Osmanlı idaresinde Dımaşk, Halep, Hama, Humus, Busrâ, Müzeyrib, Kutayfe, İdlib, Lazkiye gibi yerleşim merkezlerinde sivil yapılarla vakıf eserleri tesis edilmiştir.",
+    "ic_not": "tarihsiz tanık: TDV «SURİYE» md.: Selçuklu-Atabek-Eyyûbî-Memlük-Osmanlı dönemlerinde İdlib'de sivil yapılar/vakıf eserleri tesis edildiği söylenir, tarih verilmez. «MAARRETÜNNU‘MÂN» md. günümüzde İdlib muhafazasına bağlı kaza merkezi olduğunu söyler (Ekim 1918 İngiliz işgali ve Fransızlara bırakılış İdlib'e değil Maarretünnu‘mân'a aittir)."
+   },
+   "kur": null,
+   "ark": null,
+   "bit": null,
+   "sahip": [],
+   "olay": [],
+   "ic_not": "Tarih verilmediği için ilk/sahip yazılmadı."
+  }
+ }
+]
