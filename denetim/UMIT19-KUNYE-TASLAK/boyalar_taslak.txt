@@ -1,0 +1,9 @@
+# arac/renkler.py BOYALAR taslağı — YALNIZ almanya-nazi künyesi açılırsa. renkler.py DEĞİŞTİRİLMEDİ.
+# Biçim (renkler.py'den okundu): "<harita-anahtarı>": ("Görünen ad", "#rrggbb"),
+# Mevcut: "almanya": ("Kutsal Roma / Almanya", "#78d028")  (satır 1762)
+# Önerilen satır — #b5443c paletteki 2064 benzersiz hex'te YOK (denetlendi: set üyeliği False);
+# renk açıklık tabanı L*>=59 kuralı (renkler.py ACIKLIK_TABANI_L) için orta-açık kırmızımsı ton seçildi;
+# komşu ΔE (Polonya GH #e406e4, Sovyet, Fransa #00297c, Yugoslavya #00695c) ÖLÇÜLMEDİ -> `py arac/renk_olc.py` şart.
+    "almanya-nazi": ("Almanya — Üçüncü Reich", "#b5443c"),
+
+# SEÇENEK B (önerilen, künye açılmazsa): HİÇBİR satır gerekmez; Belgrad 1944-10-06/20 dilimi mevcut "almanya" anahtarı (#78d028) ile boyanır.
