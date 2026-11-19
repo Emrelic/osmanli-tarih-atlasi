@@ -1,0 +1,183 @@
+{
+ "kod": "CY",
+ "ad": "Kıbrıs",
+ "kisiler": [
+  {
+   "anahtar": "makarios",
+   "ad": "III. Makarios",
+   "rol": "başpiskopos, ilk cumhurbaşkanı",
+   "dosya": "Makarios III and Robert F. Wagner NYWTS cropped.jpg",
+   "lisans": "Public domain",
+   "yazar": "New York World-Telegram and the Sun staff photogra",
+   "en": 821,
+   "boy": 1184,
+   "not": "fotoğraf, 1950'ler"
+  },
+  {
+   "anahtar": "zenon",
+   "ad": "Kitionlu Zenon",
+   "rol": "Stoa filozofu",
+   "dosya": "Zeno of Citium bust, Farnese collection (Naples).jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Yair-haklai",
+   "en": 834,
+   "boy": 1607,
+   "not": "Farnese büstü"
+  },
+  {
+   "anahtar": "cornaro",
+   "ad": "Caterina Cornaro",
+   "rol": "Kıbrıs kraliçesi",
+   "dosya": "Caterina Cornaro by Gentile Bellini.jpg",
+   "lisans": "Public domain",
+   "yazar": "Gentile Bellini",
+   "en": 2268,
+   "boy": 2900,
+   "not": "Gentile Bellini'ye atfedilen portre"
+  },
+  {
+   "anahtar": "lusignan",
+   "ad": "I. Pierre de Lusignan",
+   "rol": "Kıbrıs kralı",
+   "dosya": "Pierre 1er de Lusignan.jpg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 780,
+   "boy": 1000,
+   "not": "sonradan yapılmış portre"
+  },
+  {
+   "anahtar": "fazilkucuk",
+   "ad": "Dr. Fazıl Küçük",
+   "rol": "Kıbrıs Türk lideri",
+   "dosya": "Bundesarchiv B 145 Bild-F014934-0068, Fazil Kutschuk.jpg",
+   "lisans": "CC BY-SA 3.0 de",
+   "yazar": "Ludwig Wegmann",
+   "en": 504,
+   "boy": 776,
+   "not": "Bundesarchiv fotoğrafı"
+  },
+  {
+   "anahtar": "denktas",
+   "ad": "Rauf Denktaş",
+   "rol": "Kıbrıs Türk lideri",
+   "dosya": "Rauf Denktash.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "",
+   "en": 493,
+   "boy": 640,
+   "not": "fotoğraf"
+  },
+  {
+   "anahtar": "grivas",
+   "ad": "Georgios Grivas",
+   "rol": "EOKA komutanı",
+   "dosya": "Kolonel Grivas, Bestanddeelnr 920-8717.jpg",
+   "lisans": "CC0",
+   "yazar": "Anefo",
+   "en": 2657,
+   "boy": 3484,
+   "not": "Anefo fotoğrafı; tartışmalı figür, sona konur"
+  }
+ ],
+ "simgeler": [
+  {
+   "anahtar": "CY_bayrak",
+   "ad": "Kıbrıs bayrağı",
+   "tur": "bayrak",
+   "dosya": "Flag of Cyprus.svg",
+   "lisans": "Public domain",
+   "yazar": "İsmet Güney, SVG by User:Vzb83~commonswiki",
+   "en": 1200,
+   "boy": 800
+  },
+  {
+   "anahtar": "CY_arma",
+   "ad": "Kıbrıs arması",
+   "tur": "arma",
+   "dosya": "Coat of arms of Cyprus (2006).svg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Borb, modified by User:Di (they-them)",
+   "en": 532,
+   "boy": 537
+  },
+  {
+   "anahtar": "CY_harita",
+   "ad": "Lüzinyan Kıbrıs Krallığı · 1400",
+   "tur": "harita",
+   "hb_yil": "1400",
+   "hb_ad": "Cyprus",
+   "not": "küçük; ada ölçeği"
+  },
+  {
+   "anahtar": "CY_kykkos",
+   "ad": "Kykkos Manastırı",
+   "tur": "yapi",
+   "dosya": "Kykkos Monastery.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Dickelbers",
+   "en": 4416,
+   "boy": 3312
+  },
+  {
+   "anahtar": "CY_halasultan",
+   "ad": "Hala Sultan Tekkesi",
+   "tur": "yapi",
+   "dosya": "Hala Sultan Tekke.jpg",
+   "lisans": "CC BY 2.0",
+   "yazar": "Son of Groucho",
+   "en": 4288,
+   "boy": 2848
+  },
+  {
+   "anahtar": "CY_girne",
+   "ad": "Girne Kalesi",
+   "tur": "yapi",
+   "dosya": "Kyrenia Castle.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Hizirardacan",
+   "en": 6016,
+   "boy": 3384
+  },
+  {
+   "anahtar": "CY_petra",
+   "ad": "Afrodit'in Kayası (Petra tou Romiou)",
+   "tur": "diger",
+   "dosya": "Petra tou romiou 5.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "This photo was taken by Anton Zelenov.\nPlease cred",
+   "en": 5153,
+   "boy": 3435
+  },
+  {
+   "anahtar": "CY_kourion",
+   "ad": "Kourion Tiyatrosu",
+   "tur": "yapi",
+   "dosya": "Roman theatre at Kourion Cyprus.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Don Christie",
+   "en": 4917,
+   "boy": 3253
+  },
+  {
+   "anahtar": "CY_selimiye",
+   "ad": "Selimiye Camii, Lefkoşa",
+   "tur": "yapi",
+   "dosya": "Selimiye Mosque, Nicosia, Cyprus 02.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Michal Klajban",
+   "en": 3519,
+   "boy": 5110
+  },
+  {
+   "anahtar": "CY_baf",
+   "ad": "Baf mozaikleri (Dionysos'un doğuşu)",
+   "tur": "eser",
+   "dosya": "Birth of Dionysos - House of Aion - Paphos Archaeological Park.jpg",
+   "lisans": "CC BY 2.0",
+   "yazar": "George M. Groutas from Dali, Nicosia, Cyprus",
+   "en": 3872,
+   "boy": 2592
+  }
+ ]
+}

@@ -1,0 +1,193 @@
+{
+ "kod": "AR",
+ "ad": "Arjantin",
+ "kisiler": [
+  {
+   "anahtar": "sanmartin",
+   "ad": "San Martín",
+   "rol": "bağımsızlık önderi",
+   "mevcut": "sanmartin"
+  },
+  {
+   "anahtar": "belgrano",
+   "ad": "Manuel Belgrano",
+   "rol": "bağımsızlık önderi, bayrağın yaratıcısı",
+   "dosya": "Retrato del Gral. Manuel Belgrano - Atribuído a Francois Casimir Carbonnier.jpg",
+   "lisans": "Public domain",
+   "yazar": "Attributed to Casimir Carbonnier",
+   "en": 2000,
+   "boy": 2422
+  },
+  {
+   "anahtar": "sarmiento",
+   "ad": "Sarmiento",
+   "rol": "devlet başkanı, eğitimci",
+   "dosya": "Domingo Faustino Sarmiento.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "en": 534,
+   "boy": 691
+  },
+  {
+   "anahtar": "rosas",
+   "ad": "Juan Manuel de Rosas",
+   "rol": "federal lider",
+   "dosya": "Juan Manuel de Rosas.jpg",
+   "lisans": "Public domain",
+   "yazar": "Cayetano Descalzi",
+   "en": 697,
+   "boy": 900
+  },
+  {
+   "anahtar": "roca",
+   "ad": "Julio A. Roca",
+   "rol": "devlet başkanı, general",
+   "dosya": "Julio roca portrait-new.png",
+   "lisans": "Public domain",
+   "yazar": "Unknown photographer",
+   "en": 1656,
+   "boy": 2400
+  },
+  {
+   "anahtar": "evita",
+   "ad": "Eva Perón",
+   "rol": "siyasetçi, hayırsever",
+   "dosya": "Eva Perón.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "en": 438,
+   "boy": 626
+  },
+  {
+   "anahtar": "peron",
+   "ad": "Juan Domingo Perón",
+   "rol": "devlet başkanı",
+   "dosya": "Juan Domingo Perón.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "en": 1597,
+   "boy": 2233
+  },
+  {
+   "anahtar": "borges",
+   "ad": "Jorge Luis Borges",
+   "rol": "yazar",
+   "dosya": "Jorge Luis Borges 1951, by Grete Stern.jpg",
+   "lisans": "Public domain",
+   "yazar": "Grete Stern",
+   "en": 1410,
+   "boy": 2008
+  },
+  {
+   "anahtar": "mitre",
+   "ad": "Bartolomé Mitre",
+   "rol": "devlet başkanı, tarihçi",
+   "dosya": "Bartolomé Mitre.jpg",
+   "lisans": "Public domain",
+   "yazar": "Luis de Servi (1863-1945)",
+   "en": 524,
+   "boy": 641
+  },
+  {
+   "anahtar": "alberdi",
+   "ad": "Juan Bautista Alberdi",
+   "rol": "hukukçu, anayasa mimarı",
+   "dosya": "Juan Bautista Alberdi color.jpg",
+   "lisans": "Public domain",
+   "yazar": "William George Helsby (1828–1891)",
+   "en": 1470,
+   "boy": 1589
+  }
+ ],
+ "simgeler": [
+  {
+   "anahtar": "AR_bayrak",
+   "ad": "Arjantin bayrağı",
+   "tur": "bayrak",
+   "mevcut": "ARG"
+  },
+  {
+   "anahtar": "AR_arma",
+   "ad": "Arjantin arması",
+   "tur": "arma",
+   "dosya": "Coat of arms of Argentina.svg",
+   "lisans": "Public domain",
+   "yazar": "Dexxter, based on the official National Symbol and on the before work by Tonyjeff. The sun",
+   "en": 744,
+   "boy": 1052
+  },
+  {
+   "anahtar": "AR_belgrano",
+   "ad": "Belgrano bayrağı (1812)",
+   "tur": "bayrak",
+   "dosya": "Flag of Belgrano (1812).svg",
+   "lisans": "Public domain",
+   "yazar": "Manuel Belgrano, according to [1] (vector graphics by Guilherme Paula)",
+   "en": 900,
+   "boy": 600
+  },
+  {
+   "anahtar": "AR_casarosada",
+   "ad": "Casa Rosada",
+   "tur": "yapi",
+   "dosya": "Casa Rosada.jpg",
+   "lisans": "CC BY 2.0",
+   "yazar": "Andrew Currie",
+   "en": 1800,
+   "boy": 1200
+  },
+  {
+   "anahtar": "AR_obelisco",
+   "ad": "Buenos Aires Obeliski",
+   "tur": "yapi",
+   "dosya": "Obelisco de Buenos Aires, with traffic lights.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Vicpics",
+   "en": 1200,
+   "boy": 1249
+  },
+  {
+   "anahtar": "AR_moreno",
+   "ad": "Perito Moreno Buzulu",
+   "tur": "yapi",
+   "dosya": "Perito Moreno Glacier Patagonia Argentina Luca Galuzzi 2005.JPG",
+   "lisans": "CC BY-SA 2.5",
+   "yazar": "Luca Galuzzi (Lucag)",
+   "en": 2000,
+   "boy": 1333
+  },
+  {
+   "anahtar": "AR_cabildo",
+   "ad": "Cabildo (Buenos Aires)",
+   "tur": "yapi",
+   "dosya": "Cabildo de Buenos Aires.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Alix21170",
+   "en": 3264,
+   "boy": 2448
+  },
+  {
+   "anahtar": "AR_colon",
+   "ad": "Colón Tiyatrosu",
+   "tur": "yapi",
+   "dosya": "Teatro Colón.jpg",
+   "lisans": "CC BY 2.0",
+   "yazar": "Marcus Guimarães",
+   "en": 3888,
+   "boy": 2592
+  },
+  {
+   "anahtar": "AR_malon",
+   "ad": "La vuelta del malón",
+   "tur": "eser",
+   "mevcut": "malon"
+  },
+  {
+   "anahtar": "AR_harita",
+   "ad": "Arjantin · 1914",
+   "tur": "harita",
+   "hb_yil": "1914",
+   "hb_ad": "Argentina"
+  }
+ ]
+}

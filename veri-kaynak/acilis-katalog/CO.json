@@ -1,0 +1,201 @@
+{
+ "kod": "CO",
+ "ad": "Kolombiya",
+ "kisiler": [
+  {
+   "anahtar": "bolivar",
+   "ad": "Simón Bolívar",
+   "rol": "kurtarıcı",
+   "mevcut": "bolivar"
+  },
+  {
+   "anahtar": "santander",
+   "ad": "Francisco de Paula Santander",
+   "rol": "devlet adamı, general",
+   "dosya": "Francisco de Paula Santander - Museo Nacional de Colombia.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unidentified painter",
+   "en": 1849,
+   "boy": 2342
+  },
+  {
+   "anahtar": "narino",
+   "ad": "Antonio Nariño",
+   "rol": "bağımsızlık öncüsü",
+   "dosya": "Antonio Nariño por José María Espinosa.jpg",
+   "lisans": "Public domain",
+   "yazar": "José María Espinosa Prieto",
+   "en": 2574,
+   "boy": 3879
+  },
+  {
+   "anahtar": "policarpa",
+   "ad": "Policarpa Salavarrieta",
+   "rol": "bağımsızlık kahramanı",
+   "dosya": "Policarpa Salabarrieta.jpg",
+   "lisans": "Public domain",
+   "yazar": "José María Espinosa Prieto",
+   "en": 743,
+   "boy": 944
+  },
+  {
+   "anahtar": "garciamarquez",
+   "ad": "Gabriel García Márquez",
+   "rol": "yazar, Nobel",
+   "dosya": "Gabriel Garcia Marquez.jpg",
+   "lisans": "CC BY-SA 2.0",
+   "yazar": "Jose Lara",
+   "en": 427,
+   "boy": 640
+  },
+  {
+   "anahtar": "mutis",
+   "ad": "José Celestino Mutis",
+   "rol": "botanikçi",
+   "dosya": "José Celestino Mutis.jpg",
+   "lisans": "CC BY 4.0",
+   "yazar": "Oil painting by R. Cristobal, canvas 122 x 92.6 cm",
+   "en": 2067,
+   "boy": 2736
+  },
+  {
+   "anahtar": "caldas",
+   "ad": "Francisco José de Caldas",
+   "rol": "bilim insanı",
+   "dosya": "Francisco José de Caldas.jpg",
+   "lisans": "Public domain",
+   "yazar": "Rodríguez",
+   "en": 418,
+   "boy": 600
+  },
+  {
+   "anahtar": "gaitan",
+   "ad": "Jorge Eliécer Gaitán",
+   "rol": "siyasetçi",
+   "dosya": "Jorge Eliécer Gaitán (1936).jpg",
+   "lisans": "Public domain",
+   "yazar": "Revista Credencial Historia",
+   "en": 330,
+   "boy": 417,
+   "not": "düşük çözünürlük (330x417)"
+  },
+  {
+   "anahtar": "uribe",
+   "ad": "Rafael Uribe Uribe",
+   "rol": "general, siyasetçi",
+   "dosya": "'Rafael Uribe Uribe' (1915) by Francisco Antonio Cano Cardona - Museo de Antioquia - Medellín - Colombia 2024.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "José Luiz",
+   "en": 1199,
+   "boy": 1529,
+   "not": "Francisco Antonio Cano portresi (1915)"
+  },
+  {
+   "anahtar": "quesada",
+   "ad": "Gonzalo Jiménez de Quesada",
+   "rol": "fatih, Bogotá'nın kurucusu",
+   "dosya": "Gonzalo Jiménez de Quesada.png",
+   "lisans": "Public domain",
+   "yazar": "Uncredited",
+   "en": 2042,
+   "boy": 3012,
+   "not": "kaynağı belirsiz çizim/portre",
+   "kirp": [
+    4.7,
+    3.3,
+    0.3
+   ]
+  }
+ ],
+ "simgeler": [
+  {
+   "anahtar": "CO_bayrak",
+   "ad": "Kolombiya bayrağı",
+   "tur": "bayrak",
+   "mevcut": "COL"
+  },
+  {
+   "anahtar": "CO_arma",
+   "ad": "Kolombiya arması",
+   "tur": "arma",
+   "dosya": "Coat of arms of Colombia.svg",
+   "lisans": "Public domain",
+   "yazar": "See File history below for details.",
+   "en": 1134,
+   "boy": 1153
+  },
+  {
+   "anahtar": "CO_boyaca",
+   "ad": "Boyacá Muharebesi",
+   "tur": "eser",
+   "mevcut": "boyaca"
+  },
+  {
+   "anahtar": "CO_cartagena",
+   "ad": "Cartagena surları",
+   "tur": "yapi",
+   "dosya": "City walls of Cartagena 02.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Bernard Gagnon",
+   "en": 5037,
+   "boy": 3358
+  },
+  {
+   "anahtar": "CO_muisca",
+   "ad": "Muisca salı (El Dorado)",
+   "tur": "eser",
+   "dosya": "Balsa Muisca BOG 03 2018 8506.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Mariordo (Mario Roberto Durán Ortiz)",
+   "en": 4200,
+   "boy": 2806
+  },
+  {
+   "anahtar": "CO_poporo",
+   "ad": "Quimbaya poporosu",
+   "tur": "eser",
+   "dosya": "Poporo quimbaya museo del oro.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Rivera Guzman Cristian Santiago",
+   "en": 3120,
+   "boy": 4160
+  },
+  {
+   "anahtar": "CO_lajas",
+   "ad": "Las Lajas Kutsal Alanı",
+   "tur": "yapi",
+   "dosya": "Santuario de las Lajas.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Jimena Espinoza Muñoz",
+   "en": 1600,
+   "boy": 1200
+  },
+  {
+   "anahtar": "CO_capitolio",
+   "ad": "Bogotá Capitolio ve Bolívar Meydanı",
+   "tur": "yapi",
+   "dosya": "Plaza de Bolívar Bogotá.jpg",
+   "lisans": "CC0",
+   "yazar": "Guaiquerí",
+   "en": 4160,
+   "boy": 3120
+  },
+  {
+   "anahtar": "CO_sanagustin",
+   "ad": "San Agustín Arkeoloji Parkı",
+   "tur": "yapi",
+   "dosya": "Stone god statue - The San Agustín Archaeological Park (4934797755).jpg",
+   "lisans": "CC BY 2.0",
+   "yazar": "Jorge Láscar from Australia",
+   "en": 4288,
+   "boy": 2848
+  },
+  {
+   "anahtar": "CO_harita",
+   "ad": "Yeni Granada Genel Valiliği · 1783",
+   "tur": "harita",
+   "hb_yil": "1783",
+   "hb_ad": "Viceroyalty of New Granada"
+  }
+ ]
+}

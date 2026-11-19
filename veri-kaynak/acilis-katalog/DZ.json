@@ -1,0 +1,207 @@
+{
+ "kod": "DZ",
+ "ad": "Cezayir",
+ "kisiler": [
+  {
+   "anahtar": "abdulkadir",
+   "ad": "Emir Abdülkadir",
+   "rol": "direniş önderi, devlet kurucusu",
+   "mevcut": "abdulkadir"
+  },
+  {
+   "anahtar": "masinissa",
+   "ad": "Massinissa",
+   "rol": "Numidya kralı",
+   "dosya": "Bust of Masinissa - Capitoline Museum.png",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "en": 640,
+   "boy": 775,
+   "not": "Capitoline Müzesi büstü"
+  },
+  {
+   "anahtar": "augustinus",
+   "ad": "Hippo'lu Augustinus",
+   "rol": "kilise babası, filozof",
+   "dosya": "Saint Augustine by Philippe de Champaigne.jpg",
+   "lisans": "Public domain",
+   "yazar": "Philippe de Champaigne",
+   "en": 3135,
+   "boy": 4000,
+   "not": "Philippe de Champaigne; Tagaste (Suk Ahras) doğumlu"
+  },
+  {
+   "anahtar": "kahina",
+   "ad": "Dihya (Kahina)",
+   "rol": "Berberî kraliçe",
+   "dosya": "Statue of Dyhia in Khenchela (Algeria) (cropped).jpg",
+   "lisans": "CC BY-SA 1.0",
+   "yazar": "Mascula_mai_2009_081.jpg: Numide05\nderivative work: Ghezaltar (talk)",
+   "en": 738,
+   "boy": 1163,
+   "not": "Hanşala heykeli"
+  },
+  {
+   "anahtar": "juba2",
+   "ad": "II. Juba",
+   "rol": "Mauretania kralı (Cherchell)",
+   "dosya": "Juba II of Mauretania Ny Carlsberg Glyptotek IN1591.jpg",
+   "lisans": "Public domain",
+   "yazar": "Marie-Lan Nguyen",
+   "en": 3750,
+   "boy": 5000,
+   "not": "Ny Carlsberg Glyptotek büstü"
+  },
+  {
+   "anahtar": "fatma",
+   "ad": "Lalla Fatma N'Soumer",
+   "rol": "Kabil direniş önderi",
+   "dosya": "Portrait-Fatma N'Soumer (cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": "Henri Félix Emmanuel Philippoteaux",
+   "en": 2700,
+   "boy": 2553,
+   "not": "Philippoteaux portresi"
+  },
+  {
+   "anahtar": "benbadis",
+   "ad": "Abdülhamid İbn Bâdîs",
+   "rol": "âlim, Cezayir Ulemâ Cemiyeti kurucusu",
+   "dosya": "عبد-الحميد-إبن-باديس.jpg",
+   "lisans": "Public domain",
+   "yazar": "Riad Salih",
+   "en": 677,
+   "boy": 932
+  },
+  {
+   "anahtar": "messali",
+   "ad": "Messali Hadj",
+   "rol": "bağımsızlık hareketinin babası",
+   "dosya": "Messali Hadj Messali Clean.jpg",
+   "lisans": "Public domain",
+   "yazar": "Maccc",
+   "en": 390,
+   "boy": 529
+  },
+  {
+   "anahtar": "benbella",
+   "ad": "Ahmed Ben Bella",
+   "rol": "ilk cumhurbaşkanı",
+   "dosya": "Ahmed Ben Bella aux USA, oct.1962 (cropped) (2).jpg",
+   "lisans": "Public domain",
+   "yazar": "aziz3d",
+   "en": 609,
+   "boy": 796
+  },
+  {
+   "anahtar": "boumediene",
+   "ad": "Houari Boumediene",
+   "rol": "cumhurbaşkanı",
+   "dosya": "Houari Boumediene's Portrait.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "en": 414,
+   "boy": 550
+  }
+ ],
+ "simgeler": [
+  {
+   "anahtar": "DZA",
+   "ad": "Cezayir bayrağı",
+   "mevcut": "DZA",
+   "tur": "bayrak"
+  },
+  {
+   "anahtar": "DZ_arma",
+   "ad": "Cezayir arması",
+   "tur": "arma",
+   "dosya": "National Emblem of Algeria (bronze effect).svg",
+   "lisans": "Public domain",
+   "yazar": "Original: Government of Algeria Vector:  User:SilverBullet X.",
+   "en": 984,
+   "boy": 984
+  },
+  {
+   "anahtar": "DZ_harita",
+   "ad": "Zeyyânîler (Tilimsan Devleti) · 1500",
+   "tur": "harita",
+   "hb_yil": "1500",
+   "hb_ad": "Zayyanid Caliphate"
+  },
+  {
+   "anahtar": "DZ_timgad",
+   "ad": "Timgad",
+   "tur": "yapi",
+   "dosya": "Timgad (15685889550).jpg",
+   "lisans": "CC BY-SA 2.0",
+   "yazar": "Dan Sloan",
+   "en": 4912,
+   "boy": 3264,
+   "not": "Roma kenti, UNESCO"
+  },
+  {
+   "anahtar": "DZ_cemile",
+   "ad": "Cemîle",
+   "tur": "yapi",
+   "dosya": "Roman Ruins of Djemila in Sétif, Algeria.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Alioueche Mokhtar",
+   "en": 4288,
+   "boy": 2848,
+   "not": "Roma kenti, UNESCO"
+  },
+  {
+   "anahtar": "DZ_tipasa",
+   "ad": "Tipasa",
+   "tur": "yapi",
+   "dosya": "View of Tipasa 01.jpg",
+   "lisans": "CC BY 4.0",
+   "yazar": "Bernard Gagnon",
+   "en": 6529,
+   "boy": 4353
+  },
+  {
+   "anahtar": "DZ_kasbah",
+   "ad": "Cezayir Kasbah'ı",
+   "tur": "yapi",
+   "dosya": "AlgerCasbah.jpg",
+   "lisans": "CC BY-SA 2.0",
+   "yazar": "toufik Lerari",
+   "en": 3744,
+   "boy": 5188,
+   "not": "UNESCO"
+  },
+  {
+   "anahtar": "DZ_sehitler",
+   "ad": "Şehitler Anıtı",
+   "tur": "yapi",
+   "dosya": "Martyrs Memorial. Algiers, Algeria.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Boumediene15",
+   "en": 4608,
+   "boy": 3456
+  },
+  {
+   "anahtar": "DZ_cezayir_cami",
+   "ad": "Cezayir Ulu Camii (Camiü'l-Cezâir)",
+   "tur": "yapi",
+   "dosya": "Grande Mosquée d'Alger.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Askelaadden",
+   "en": 960,
+   "boy": 1280,
+   "not": "dünyanın en yüksek minaresi"
+  },
+  {
+   "anahtar": "DZ_mzab",
+   "ad": "Mzab Vadisi · Gardaya",
+   "tur": "yapi",
+   "dosya": "Panoramic view of Ksar Ghardaïa, Algeria 2006.jpg",
+   "lisans": "Public domain",
+   "yazar": "Addounya (original uploader at en.wikipedia)",
+   "en": 1981,
+   "boy": 900,
+   "not": "UNESCO"
+  }
+ ]
+}

@@ -1,0 +1,202 @@
+{
+ "kod": "CA",
+ "ad": "Kanada",
+ "kisiler": [
+  {
+   "anahtar": "macdonald",
+   "ad": "John A. Macdonald",
+   "rol": "kurucu başbakan",
+   "dosya": "John A. Macdonald, 1863.jpg",
+   "lisans": "Public domain",
+   "yazar": "William Notman, 1863.",
+   "en": 2844,
+   "boy": 4000
+  },
+  {
+   "anahtar": "laurier",
+   "ad": "Wilfrid Laurier",
+   "rol": "başbakan",
+   "dosya": "Wilfrid Laurier.jpg",
+   "lisans": "Public domain",
+   "yazar": "The original uploader was ChrisM at German Wikipedia.",
+   "en": 201,
+   "boy": 301,
+   "not": "düşük çözünürlük (201x301)"
+  },
+  {
+   "anahtar": "cartier",
+   "ad": "Jacques Cartier",
+   "rol": "kâşif",
+   "dosya": "Jacques Cartier.jpg",
+   "lisans": "Public domain",
+   "yazar": "After Théophile Hamel",
+   "en": 360,
+   "boy": 480,
+   "not": "düşük çözünürlük (360x480)"
+  },
+  {
+   "anahtar": "riel",
+   "ad": "Louis Riel",
+   "rol": "Métis önderi",
+   "dosya": "Louis Riel.jpg",
+   "lisans": "Public domain",
+   "yazar": "Photographer: I. Bennetto & Co. (Israel Bennetto, 1860-1946[2])(possibly) Engraver: Oc",
+   "en": 386,
+   "boy": 496,
+   "not": "düşük çözünürlük (386x496)"
+  },
+  {
+   "anahtar": "brant",
+   "ad": "Joseph Brant",
+   "rol": "Mohawk önderi",
+   "dosya": "Joseph Brant painting by George Romney 1776.jpg",
+   "lisans": "Public domain",
+   "yazar": "George Romney",
+   "en": 968,
+   "boy": 1200
+  },
+  {
+   "anahtar": "brock",
+   "ad": "Isaac Brock",
+   "rol": "general",
+   "dosya": "Portrait painting of Sir Isaac Brock, KB (HS85-10-9833).jpg",
+   "lisans": "Public domain",
+   "yazar": "John W.L. Forster",
+   "en": 3307,
+   "boy": 4128,
+   "not": "Kanada Ulusal Arşivi portre tablosu"
+  },
+  {
+   "anahtar": "banting",
+   "ad": "Frederick Banting",
+   "rol": "bilim insanı, insülin",
+   "dosya": "Frederick Grant Banting. Photograph by Pringle & Booth Ltd. Wellcome V0028646.jpg",
+   "lisans": "CC BY 4.0",
+   "yazar": "",
+   "en": 2400,
+   "boy": 3022
+  },
+  {
+   "anahtar": "bell",
+   "ad": "Alexander Graham Bell",
+   "rol": "mucit",
+   "dosya": "Alexander Graham Bell.jpg",
+   "lisans": "Public domain",
+   "yazar": "Moffett Studio",
+   "en": 480,
+   "boy": 624
+  },
+  {
+   "anahtar": "pearson",
+   "ad": "Lester Pearson",
+   "rol": "başbakan, Nobel Barış",
+   "dosya": "Lester B. Pearson.jpg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 500,
+   "boy": 374
+  },
+  {
+   "anahtar": "cartiergeorge",
+   "ad": "George-Étienne Cartier",
+   "rol": "Konfederasyon babası",
+   "dosya": "George-Étienne Cartier.jpg",
+   "lisans": "Public domain",
+   "yazar": "Notman & Son",
+   "en": 339,
+   "boy": 480,
+   "not": "düşük çözünürlük (339x480)"
+  }
+ ],
+ "simgeler": [
+  {
+   "anahtar": "CA_bayrak",
+   "ad": "Kanada bayrağı",
+   "tur": "bayrak",
+   "mevcut": "CAN"
+  },
+  {
+   "anahtar": "CA_arma",
+   "ad": "Kanada arması",
+   "tur": "arma",
+   "dosya": "Royal Coat of arms of Canada.svg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "",
+   "en": 512,
+   "boy": 706
+  },
+  {
+   "anahtar": "CA_ensign",
+   "ad": "Kanada Kırmızı Sancağı",
+   "tur": "bayrak",
+   "dosya": "Flag of Canada (1957–1965).svg",
+   "lisans": "Public domain",
+   "yazar": "Denelson83",
+   "en": 1200,
+   "boy": 600
+  },
+  {
+   "anahtar": "CA_parlamento",
+   "ad": "Parlamento Tepesi (Ottawa)",
+   "tur": "yapi",
+   "dosya": "Parliament Hill, Ottawa.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "David Samuel, User:Hellodavey1902",
+   "en": 6008,
+   "boy": 3792
+  },
+  {
+   "anahtar": "CA_cn",
+   "ad": "CN Kulesi",
+   "tur": "yapi",
+   "dosya": "Toronto - ON - CN Tower bei Nacht.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Wladyslaw Sojka",
+   "en": 2380,
+   "boy": 3861
+  },
+  {
+   "anahtar": "CA_frontenac",
+   "ad": "Château Frontenac",
+   "tur": "yapi",
+   "dosya": "Chateau Frontenac at dusk in Quebec City.jpg",
+   "lisans": "CC0",
+   "yazar": "Wilfredor",
+   "en": 7541,
+   "boy": 5091
+  },
+  {
+   "anahtar": "CA_niagara",
+   "ad": "Niagara Şelalesi",
+   "tur": "yapi",
+   "dosya": "Canadian Niagara Wonder at Horseshoe Falls , Ontario in 2017.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Pierre André",
+   "en": 3664,
+   "boy": 2203
+  },
+  {
+   "anahtar": "CA_wolfe",
+   "ad": "General Wolfe'un Ölümü",
+   "tur": "eser",
+   "dosya": "The Death of General Wolfe B.West,1770.jpg",
+   "lisans": "Public domain",
+   "yazar": "Benjamin West",
+   "en": 3456,
+   "boy": 2304
+  },
+  {
+   "anahtar": "CA_jackpine",
+   "ad": "The Jack Pine",
+   "tur": "eser",
+   "mevcut": "jackpine"
+  },
+  {
+   "anahtar": "CA_harita",
+   "ad": "Kanada Dominyonu · 1914",
+   "tur": "harita",
+   "hb_yil": "1914",
+   "hb_ad": "Canada"
+  }
+ ]
+}

@@ -1,0 +1,222 @@
+{
+ "kod": "KE",
+ "ad": "Kenya",
+ "kisiler": [
+  {
+   "anahtar": "kenyatta",
+   "ad": "Jomo Kenyatta",
+   "rol": "kurucu cumhurbaşkanı",
+   "dosya": "Jomo Kenyatta (cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": "Photography department - Government Press Office",
+   "en": 537,
+   "boy": 760
+  },
+  {
+   "anahtar": "maathai",
+   "ad": "Wangari Maathai",
+   "rol": "çevreci, Nobel Barış",
+   "dosya": "Wangari Maathai.jpg",
+   "lisans": "CC BY 2.0",
+   "yazar": "Demosh",
+   "en": 742,
+   "boy": 1200,
+   "kirp": [
+    3.6,
+    3.6,
+    0.3
+   ]
+  },
+  {
+   "anahtar": "mboya",
+   "ad": "Tom Mboya",
+   "rol": "sendikacı, bağımsızlık önderi",
+   "dosya": "Tom Mboya 1962 (cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": "Israeli GPO photographer",
+   "en": 455,
+   "boy": 707
+  },
+  {
+   "anahtar": "odinga",
+   "ad": "Oginga Odinga",
+   "rol": "bağımsızlık önderi, ilk başkan yardımcısı",
+   "dosya": "Jaramogi Oginga Odinga.jpg",
+   "lisans": "Public domain",
+   "yazar": "Photo Division, Government of India",
+   "en": 881,
+   "boy": 606,
+   "not": "1953 Delhi radyo fotoğrafı, yatay"
+  },
+  {
+   "anahtar": "keino",
+   "ad": "Kipchoge Keino",
+   "rol": "olimpiyat şampiyonu atlet",
+   "dosya": "Kipchoge Keino c1968.jpg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 480,
+   "boy": 598
+  },
+  {
+   "anahtar": "ngugi",
+   "ad": "Ngũgĩ wa Thiong'o",
+   "rol": "yazar",
+   "dosya": "Ngugi wa Thiong'o - Festivaletteratura 2012.JPG",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Niccolò Caranti",
+   "en": 2068,
+   "boy": 2902
+  },
+  {
+   "anahtar": "moi",
+   "ad": "Daniel arap Moi",
+   "rol": "ikinci cumhurbaşkanı",
+   "dosya": "Daniel arap Moi 1979b.jpg",
+   "lisans": "CC BY-SA 3.0 nl",
+   "yazar": "Croes, Rob C. / Anefo",
+   "en": 1926,
+   "boy": 2568
+  },
+  {
+   "anahtar": "kibaki",
+   "ad": "Mwai Kibaki",
+   "rol": "üçüncü cumhurbaşkanı",
+   "dosya": "Mwai Kibaki (cropped).jpg",
+   "lisans": "OGL v1.0",
+   "yazar": "Foreign and Commonwealth Office",
+   "en": 2001,
+   "boy": 2728
+  },
+  {
+   "anahtar": "leakey",
+   "ad": "Richard Leakey",
+   "rol": "paleoantropolog, Turkana Çocuğu",
+   "dosya": "Richard Leakey.jpg",
+   "lisans": "CC BY-SA 2.0",
+   "yazar": "Ed Schipul",
+   "en": 4000,
+   "boy": 2665
+  },
+  {
+   "anahtar": "kipchoge",
+   "ad": "Eliud Kipchoge",
+   "rol": "maraton rekortmeni",
+   "dosya": "Eliud Kipchoge.jpg",
+   "lisans": "CC BY 2.0",
+   "yazar": "The Wolf at Flickr.com",
+   "en": 1024,
+   "boy": 683,
+   "not": "yatay"
+  },
+  {
+   "anahtar": "lenana",
+   "ad": "Lenana (Maasai Laibon)",
+   "rol": "Maasai önderi",
+   "dosya": "Lenana maasai medicine man.jpeg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 2952,
+   "boy": 1836,
+   "not": "yatay tarihî fotoğraf",
+   "yedek": true
+  },
+  {
+   "anahtar": "raila",
+   "ad": "Raila Odinga",
+   "rol": "muhalefet lideri, başbakan",
+   "dosya": "Raila Odinga in 2017.jpg",
+   "lisans": "CC BY 2.0",
+   "yazar": "Chatham House",
+   "en": 1785,
+   "boy": 2065,
+   "yedek": true
+  }
+ ],
+ "simgeler": [
+  {
+   "anahtar": "KE_bayrak",
+   "ad": "Kenya bayrağı",
+   "tur": "bayrak",
+   "dosya": "Flag of Kenya.svg",
+   "lisans": "Public domain",
+   "yazar": "User:Pumbaa80",
+   "en": 900,
+   "boy": 600
+  },
+  {
+   "anahtar": "KE_arma",
+   "ad": "Kenya arması",
+   "tur": "arma",
+   "dosya": "Coat of arms of Kenya (Official).svg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Ashiriz",
+   "en": 738,
+   "boy": 695
+  },
+  {
+   "anahtar": "KE_fortjesus",
+   "ad": "Fort Jesus, Mombasa",
+   "tur": "yapi",
+   "dosya": "Fort Jesus, Mombasa1.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Chris huh",
+   "en": 1920,
+   "boy": 2560,
+   "not": "Portekiz kalesi 1593"
+  },
+  {
+   "anahtar": "KE_gedi",
+   "ad": "Gedi harabeleri (Büyük Cami)",
+   "tur": "yapi",
+   "dosya": "Great Mosque of Gede.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Mgiganteus",
+   "en": 1984,
+   "boy": 1488,
+   "not": "Swahili şehri, 13-17. yy"
+  },
+  {
+   "anahtar": "KE_lamu",
+   "ad": "Lamu Eski Kenti",
+   "tur": "yapi",
+   "dosya": "Lamu old town street.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Mzein04",
+   "en": 6000,
+   "boy": 4000
+  },
+  {
+   "anahtar": "KE_mtkenya",
+   "ad": "Kenya Dağı",
+   "tur": "yapi",
+   "dosya": "Mount kenya.JPG",
+   "lisans": "CC BY-SA 2.5 nl",
+   "yazar": "Ruud Zwart",
+   "en": 3008,
+   "boy": 2000,
+   "not": "doğal anıt"
+  },
+  {
+   "anahtar": "KE_turkana",
+   "ad": "Turkana Çocuğu (Homo erectus)",
+   "tur": "eser",
+   "dosya": "Niño de Turkana - Museo Nacional de Nairobi.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "ProtoplasmaKid",
+   "en": 3072,
+   "boy": 4080
+  },
+  {
+   "anahtar": "KE_mara",
+   "ad": "Maasai Mara",
+   "tur": "yapi",
+   "dosya": "Masai Mara National Park, Kenya (476045565).jpg",
+   "lisans": "CC BY-SA 2.0",
+   "yazar": "ryan harvey from Portland, OR",
+   "en": 2560,
+   "boy": 1920,
+   "not": "doğal anıt"
+  }
+ ]
+}

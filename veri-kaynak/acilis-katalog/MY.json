@@ -1,0 +1,212 @@
+{
+ "kod": "MY",
+ "ad": "Malezya",
+ "kisiler": [
+  {
+   "anahtar": "tunku",
+   "ad": "Tunku Abdul Rahman",
+   "rol": "bağımsızlığın babası, ilk başbakan",
+   "dosya": "Tunku Abd. Rahman in Holland (cropped 4to3 portrait).jpg",
+   "lisans": "CC0",
+   "yazar": "Harry Pot for Anefo",
+   "en": 1274,
+   "boy": 1700,
+   "not": "1960 Anefo fotoğrafı"
+  },
+  {
+   "anahtar": "razak",
+   "ad": "Tun Abdul Razak",
+   "rol": "başbakan",
+   "dosya": "Tun Abdul Razak Official Portrait.jpg",
+   "lisans": "Public domain",
+   "yazar": "Malaysian Government",
+   "en": 664,
+   "boy": 700
+  },
+  {
+   "anahtar": "mahathir",
+   "ad": "Mahathir Mohamad",
+   "rol": "başbakan",
+   "dosya": "Mahathir Mohamad in 1985.jpg",
+   "lisans": "Public domain",
+   "yazar": "National Archive of Republic of Indonesia",
+   "en": 737,
+   "boy": 640
+  },
+  {
+   "anahtar": "tanchenglock",
+   "ad": "Tan Cheng Lock",
+   "rol": "siyasetçi, MCA kurucusu",
+   "dosya": "Tan Cheng Lock.jpg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 843,
+   "boy": 1353
+  },
+  {
+   "anahtar": "onnjaafar",
+   "ad": "Dato' Onn Jaafar",
+   "rol": "UMNO kurucusu",
+   "dosya": "Onn jaafar.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "en": 300,
+   "boy": 376,
+   "not": "küçük çözünürlük"
+  },
+  {
+   "anahtar": "abubakar",
+   "ad": "Sultan Ebubekir (Johor)",
+   "rol": "modern Johor'un kurucusu",
+   "dosya": "Johor-AbuBakar.jpg",
+   "lisans": "Public domain",
+   "yazar": "The original uploader was Mr Tan at English Wikipedia.",
+   "en": 250,
+   "boy": 331,
+   "not": "küçük çözünürlük"
+  },
+  {
+   "anahtar": "ibrahim",
+   "ad": "Sultan İbrahim (Johor)",
+   "rol": "Johor sultanı",
+   "dosya": "Johor-Ibrahim.jpg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 250,
+   "boy": 330,
+   "not": "küçük çözünürlük"
+  },
+  {
+   "anahtar": "abdulsamad",
+   "ad": "Sultan Abdül Samed (Selangor)",
+   "rol": "Selangor sultanı",
+   "dosya": "Sultan Abdul Samad of Selangor.JPG",
+   "lisans": "Public domain",
+   "yazar": "Mdzafri",
+   "en": 227,
+   "boy": 295,
+   "not": "küçük çözünürlük"
+  },
+  {
+   "anahtar": "parameswara",
+   "ad": "Parameswara",
+   "rol": "Malaka'nın kurucusu",
+   "dosya": "Retrato de Parameswara.jpg",
+   "lisans": "Public domain",
+   "yazar": "L joo.",
+   "en": 363,
+   "boy": 500,
+   "not": "sonradan yapılmış çizim; dönem portresi yok"
+  }
+ ],
+ "simgeler": [
+  {
+   "anahtar": "MY_bayrak",
+   "ad": "Malezya bayrağı",
+   "tur": "bayrak",
+   "dosya": "Flag of Malaysia.svg",
+   "lisans": "Public domain",
+   "yazar": "MapGrid (old version SKopp, Zscout370  and  Ranking Update)",
+   "en": 1200,
+   "boy": 600
+  },
+  {
+   "anahtar": "MY_arma",
+   "ad": "Malezya devlet arması",
+   "tur": "arma",
+   "dosya": "Coat of arms of Malaysia.svg",
+   "lisans": "Public domain",
+   "yazar": "This vector image includes elements that have been taken or ",
+   "en": 1024,
+   "boy": 768
+  },
+  {
+   "anahtar": "MY_harita",
+   "ad": "Malaka Sultanlığı · 1500",
+   "tur": "harita",
+   "hb_yil": "1500",
+   "hb_ad": "Malacca"
+  },
+  {
+   "anahtar": "MY_petronas",
+   "ad": "Petronas Kuleleri",
+   "tur": "yapi",
+   "dosya": "Petronas Twin Towers.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Tilal.abubakr",
+   "en": 2592,
+   "boy": 1936
+  },
+  {
+   "anahtar": "MY_abdulsamad",
+   "ad": "Sultan Abdül Samed Binası (Kuala Lumpur)",
+   "tur": "yapi",
+   "dosya": "Kuala Lumpur Malaysia Sultan-Abdul-Samad-Building-05.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "CEphoto, Uwe Aranas",
+   "en": 5391,
+   "boy": 3563
+  },
+  {
+   "anahtar": "MY_batucaves",
+   "ad": "Batu Mağaraları",
+   "tur": "yapi",
+   "dosya": "Gombak Selangor Batu-Caves-01.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "CEphoto, Uwe Aranas",
+   "en": 3796,
+   "boy": 5694
+  },
+  {
+   "anahtar": "MY_afamosa",
+   "ad": "A Famosa (Malaka)",
+   "tur": "yapi",
+   "dosya": "Melaka Malaysia A-Famosa-01.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "CEphoto, Uwe Aranas",
+   "en": 4550,
+   "boy": 3516
+  },
+  {
+   "anahtar": "MY_ulusalcami",
+   "ad": "Ulusal Cami (Kuala Lumpur)",
+   "tur": "yapi",
+   "dosya": "Kuala Lumpur Malaysia National-Mosque-01.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "CEphoto, Uwe Aranas",
+   "en": 3679,
+   "boy": 2843
+  },
+  {
+   "anahtar": "MY_stadthuys",
+   "ad": "Stadthuys (Malaka)",
+   "tur": "yapi",
+   "dosya": "Melaka Malaysia Stadthuys-01.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "CEphoto, Uwe Aranas",
+   "en": 5159,
+   "boy": 3439
+  },
+  {
+   "anahtar": "MY_kinabalu",
+   "ad": "Kinabalu Dağı",
+   "tur": "diger",
+   "dosya": "St. John's Peak Mount Kinabalu 3.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "kallerna",
+   "en": 6000,
+   "boy": 3000
+  },
+  {
+   "anahtar": "MY_keklok",
+   "ad": "Kek Lok Si Tapınağı (Penang)",
+   "tur": "yapi",
+   "dosya": "Penang Malaysia Kek-Lok-Si-Temple-03.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "CEphoto, Uwe Aranas",
+   "en": 4941,
+   "boy": 3755,
+   "ek": true
+  }
+ ]
+}

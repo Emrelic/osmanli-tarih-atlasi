@@ -1,0 +1,274 @@
+{
+ "kod": "ZA",
+ "ad": "Güney Afrika",
+ "kisiler": [
+  {
+   "anahtar": "mandela",
+   "ad": "Nelson Mandela",
+   "rol": "apartheid karşıtı önder, ilk siyah cumhurbaşkanı",
+   "dosya": "Nelson Mandela-2008 (edit).jpg",
+   "lisans": "CC BY 2.0",
+   "yazar": "South Africa The Good News",
+   "en": 657,
+   "boy": 778
+  },
+  {
+   "anahtar": "tutu",
+   "ad": "Desmond Tutu",
+   "rol": "başpiskopos, Nobel Barış",
+   "dosya": "Archbishop-Tutu-medium.jpg",
+   "lisans": "Public domain",
+   "yazar": "Benny Gool",
+   "en": 1152,
+   "boy": 1728,
+   "kirp": [
+    5.3,
+    4.0,
+    0.3
+   ]
+  },
+  {
+   "anahtar": "luthuli",
+   "ad": "Albert Luthuli",
+   "rol": "ANC başkanı, Nobel Barış",
+   "dosya": "LuthuliPortrait.jpg",
+   "lisans": "Public domain",
+   "yazar": "Eli Weisberg",
+   "en": 1242,
+   "boy": 1750,
+   "kirp": [
+    3.5,
+    4.0,
+    0.35
+   ]
+  },
+  {
+   "anahtar": "tambo",
+   "ad": "Oliver Tambo",
+   "rol": "ANC lideri",
+   "dosya": "Oliver Tambo (1981).jpg",
+   "lisans": "CC BY-SA 3.0 nl",
+   "yazar": "Rob Croes for Anefo",
+   "en": 860,
+   "boy": 1147
+  },
+  {
+   "anahtar": "shaka",
+   "ad": "Shaka Zulu",
+   "rol": "Zulu kralı, komutan",
+   "dosya": "KingShaka.jpg",
+   "lisans": "Public domain",
+   "yazar": "James King",
+   "en": 740,
+   "boy": 1000,
+   "not": "James King çizimi (1824) — dönemin tek tanıklığı"
+  },
+  {
+   "anahtar": "cetshwayo",
+   "ad": "Cetshwayo",
+   "rol": "Zulu kralı (Anglo-Zulu Savaşı)",
+   "dosya": "Cetshwayo ka Mpande.jpg",
+   "lisans": "Public domain",
+   "yazar": "\"Photographed by Alex. Bassano, 25, Old Bond Street\"",
+   "en": 1544,
+   "boy": 2220
+  },
+  {
+   "anahtar": "smuts",
+   "ad": "Jan Smuts",
+   "rol": "başbakan, devlet adamı",
+   "dosya": "Jan Christiaan Smuts.jpg",
+   "lisans": "Public domain",
+   "yazar": "Harris & Ewing, photographer",
+   "en": 772,
+   "boy": 955
+  },
+  {
+   "anahtar": "kruger",
+   "ad": "Paul Kruger",
+   "rol": "Transvaal cumhurbaşkanı",
+   "dosya": "Paul Kruger Cropped.png",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 1290,
+   "boy": 1614
+  },
+  {
+   "anahtar": "plaatje",
+   "ad": "Sol Plaatje",
+   "rol": "ANC kurucusu, yazar",
+   "dosya": "Sol Plaatje 002.jpg",
+   "lisans": "Public domain",
+   "yazar": "Anonymous",
+   "en": 204,
+   "boy": 228
+  },
+  {
+   "anahtar": "makeba",
+   "ad": "Miriam Makeba",
+   "rol": "şarkıcı, Mama Africa",
+   "dosya": "Miriam Makeba (1969).jpg",
+   "lisans": "Public domain",
+   "yazar": "Rob Mieremet",
+   "en": 2174,
+   "boy": 2174
+  },
+  {
+   "anahtar": "sisulu",
+   "ad": "Walter Sisulu",
+   "rol": "ANC lideri",
+   "dosya": "Walter Sisulu 1991 (cropped).jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Commonwealth of Learning (COL)",
+   "en": 629,
+   "boy": 860,
+   "yedek": true
+  },
+  {
+   "anahtar": "botha",
+   "ad": "Louis Botha",
+   "rol": "Güney Afrika Birliği'nin ilk başbakanı",
+   "dosya": "General Louis Botha, Union of South Africa.jpg",
+   "lisans": "Public domain",
+   "yazar": "The Marion daily mirror. (Marion, Ohio), 06 June 1910. Chron",
+   "en": 1401,
+   "boy": 2050,
+   "yedek": true
+  },
+  {
+   "anahtar": "rhodes",
+   "ad": "Cecil Rhodes",
+   "rol": "sömürgeci iş adamı (tartışmalı)",
+   "dosya": "Cecil Rhodes last portrait.jpg",
+   "lisans": "Public domain",
+   "yazar": "William Thomas Stead",
+   "en": 1580,
+   "boy": 2115,
+   "not": "tartışmalı; sıra sonunda",
+   "yedek": true
+  }
+ ],
+ "simgeler": [
+  {
+   "anahtar": "ZA_bayrak",
+   "ad": "Güney Afrika bayrağı",
+   "tur": "bayrak",
+   "mevcut": "ZAF"
+  },
+  {
+   "anahtar": "ZA_arma",
+   "ad": "Güney Afrika arması",
+   "tur": "arma",
+   "dosya": "Coat of arms of South Africa (heraldic).svg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Echando una mano",
+   "en": 1191,
+   "boy": 1528
+  },
+  {
+   "anahtar": "ZA_harita",
+   "ad": "Zulu Krallığı · 1880",
+   "tur": "harita",
+   "hb_yil": "1880",
+   "hb_ad": "Zululand"
+  },
+  {
+   "anahtar": "ZA_transvaal",
+   "ad": "Transvaal Cumhuriyeti bayrağı (Vierkleur)",
+   "tur": "bayrak",
+   "dosya": "Flag of Transvaal.svg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Himasaram",
+   "en": 1200,
+   "boy": 800,
+   "not": "1857-1902 Güney Afrika Cumhuriyeti'nin gerçek bayrağı"
+  },
+  {
+   "anahtar": "ZA_ofs",
+   "ad": "Orange Özgür Devleti bayrağı",
+   "tur": "bayrak",
+   "dosya": "Flag of the Orange Free State.svg",
+   "lisans": "Public domain",
+   "yazar": "David Benbennick wrote this file",
+   "en": 420,
+   "boy": 280
+  },
+  {
+   "anahtar": "ZA_tablemtn",
+   "ad": "Masa Dağı",
+   "tur": "yapi",
+   "dosya": "Table Mountain Cape Town.jpg",
+   "lisans": "CC BY 2.0",
+   "yazar": "Tracy Hunter",
+   "en": 3852,
+   "boy": 2792
+  },
+  {
+   "anahtar": "ZA_voortrekker",
+   "ad": "Voortrekker Anıtı",
+   "tur": "yapi",
+   "dosya": "Voortrekker Monument.jpg",
+   "lisans": "Public domain",
+   "yazar": "John Walker, Images of Africa Taken from de-Wikipedia, where",
+   "en": 1536,
+   "boy": 2048
+  },
+  {
+   "anahtar": "ZA_union",
+   "ad": "Union Buildings, Pretoria",
+   "tur": "yapi",
+   "dosya": "Union Buildings Pretoria 05.jpg",
+   "lisans": "CC BY 4.0",
+   "yazar": "Ruby D-Brown",
+   "en": 4032,
+   "boy": 3024
+  },
+  {
+   "anahtar": "ZA_castle",
+   "ad": "İyi Umut Kalesi",
+   "tur": "yapi",
+   "dosya": "Castle of Good Hope, Cape Town 01.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Bernard Gagnon",
+   "en": 3908,
+   "boy": 2606
+  },
+  {
+   "anahtar": "ZA_robben",
+   "ad": "Robben Adası cezaevi (Mandela)",
+   "tur": "yapi",
+   "dosya": "Maximum Security Prison, Robben Island (02).jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Moheen Reeyad",
+   "en": 3872,
+   "boy": 2574
+  },
+  {
+   "anahtar": "ZA_rhino",
+   "ad": "Mapungubwe altın gergedanı",
+   "tur": "eser",
+   "dosya": "UP rhino.JPG",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Sian Tiley-Nel",
+   "en": 800,
+   "boy": 571,
+   "not": "~1220-1290 Mapungubwe krallığı"
+  },
+  {
+   "anahtar": "ZA_cullinan",
+   "ad": "Cullinan elması (ham)",
+   "tur": "eser",
+   "dosya": "Cullinan diamond rough.jpg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 300,
+   "boy": 400
+  },
+  {
+   "anahtar": "ZA_pierneef",
+   "ad": "Kap'ta bir kasaba (Pierneef)",
+   "tur": "eser",
+   "mevcut": "pierneef"
+  }
+ ]
+}

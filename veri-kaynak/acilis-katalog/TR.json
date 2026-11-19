@@ -1,0 +1,208 @@
+{
+ "kod": "TR",
+ "ad": "Türkiye",
+ "kisiler": [
+  {
+   "anahtar": "ataturk",
+   "ad": "Atatürk",
+   "rol": "kurucu, devlet adamı",
+   "mevcut": "ataturk"
+  },
+  {
+   "anahtar": "fatih",
+   "ad": "Fatih Sultan Mehmed",
+   "rol": "fatih, hükümdar",
+   "mevcut": "fatih"
+  },
+  {
+   "anahtar": "kanuni",
+   "ad": "Kanunî Sultan Süleyman",
+   "rol": "hükümdar",
+   "mevcut": "kanuni"
+  },
+  {
+   "anahtar": "sinan",
+   "ad": "Mimar Sinan",
+   "rol": "mimar",
+   "dosya": "Türk ve İslam Eserleri Müzesi Mimar Sinan in 2024 6032.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Dosseman",
+   "en": 1067,
+   "boy": 1600,
+   "not": "TİEM sergi portresi; yüz görünürlüğü gözle doğrulanmadı"
+  },
+  {
+   "anahtar": "yavuz",
+   "ad": "Yavuz Sultan Selim",
+   "rol": "hükümdar",
+   "mevcut": "yavuz"
+  },
+  {
+   "anahtar": "osmangazi",
+   "ad": "Osman Gazi",
+   "rol": "devlet kurucusu",
+   "mevcut": "osmangazi"
+  },
+  {
+   "anahtar": "alparslan",
+   "ad": "Sultan Alp Arslan",
+   "rol": "Büyük Selçuklu hükümdarı",
+   "dosya": "Sultan Alp Arslan miniature.(ReĢîdü‟d-dîn, Cami‟ü‟t-Tevârih, TSMK, Hazine, nr. 1654, vr. 202) Detail.jpg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 1294,
+   "boy": 1504,
+   "not": "Câmiu't-Tevârîh minyatürü (Topkapı), detay"
+  },
+  {
+   "anahtar": "barbaros",
+   "ad": "Barbaros Hayreddin Paşa",
+   "rol": "denizci, kaptan-ı derya",
+   "dosya": "Hayreddin Barbarossa.jpg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 1638,
+   "boy": 2128
+  },
+  {
+   "anahtar": "abdulhamid2",
+   "ad": "II. Abdülhamid",
+   "rol": "hükümdar",
+   "mevcut": "abdulhamid2"
+  },
+  {
+   "anahtar": "inonu",
+   "ad": "İsmet İnönü",
+   "rol": "devlet adamı, komutan",
+   "dosya": "Inonu Ismet (cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 549,
+   "boy": 724
+  }
+ ],
+ "simgeler": [
+  {
+   "anahtar": "TR_bayrak",
+   "ad": "Türk bayrağı",
+   "tur": "bayrak",
+   "dosya": "Flag of Turkey.svg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 1200,
+   "boy": 800
+  },
+  {
+   "anahtar": "TR_harita",
+   "ad": "Osmanlı İmparatorluğu · 1683 dolayı",
+   "tur": "harita",
+   "mevcut": "osm"
+  },
+  {
+   "anahtar": "TR_tugra",
+   "ad": "Kanunî'nin tuğrası",
+   "tur": "muhur",
+   "mevcut": "osm"
+  },
+  {
+   "anahtar": "TR_osmarma",
+   "ad": "Osmanlı arması",
+   "tur": "arma",
+   "mevcut": "osmarma"
+  },
+  {
+   "anahtar": "ayasofya",
+   "ad": "Ayasofya",
+   "tur": "yapi",
+   "mevcut": "ayasofya"
+  },
+  {
+   "anahtar": "TR_sultanahmet",
+   "ad": "Sultanahmet Camii",
+   "tur": "yapi",
+   "dosya": "Exterior of Sultan Ahmed I Mosque in Istanbul, Turkey 002.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Moonik",
+   "en": 4238,
+   "boy": 2766
+  },
+  {
+   "anahtar": "TR_suleymaniye",
+   "ad": "Süleymaniye Camii",
+   "tur": "yapi",
+   "dosya": "Süleymaniye Mosque.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "İhsan Deniz Kılıçoğlu",
+   "en": 5184,
+   "boy": 3456
+  },
+  {
+   "anahtar": "TR_selimiye",
+   "ad": "Selimiye Camii",
+   "tur": "yapi",
+   "dosya": "Selimiye Mosque Edirne.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Liselottediehl",
+   "en": 5566,
+   "boy": 3713
+  },
+  {
+   "anahtar": "TR_topkapi",
+   "ad": "Topkapı Sarayı",
+   "tur": "yapi",
+   "dosya": "Topkapı Palace.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Roarting",
+   "en": 4608,
+   "boy": 3456
+  },
+  {
+   "anahtar": "gobeklitepe",
+   "ad": "Göbeklitepe",
+   "tur": "yapi",
+   "mevcut": "gobeklitepe"
+  },
+  {
+   "anahtar": "TR_anitkabir",
+   "ad": "Anıtkabir",
+   "tur": "yapi",
+   "dosya": "Anıtkabir.jpg",
+   "lisans": "CC0",
+   "yazar": "Mkiman",
+   "en": 4928,
+   "boy": 3264
+  },
+  {
+   "anahtar": "TR_nemrut",
+   "ad": "Nemrut Dağı",
+   "tur": "yapi",
+   "dosya": "Nemrut Dağı.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Ahmet battal",
+   "en": 4000,
+   "boy": 2250
+  },
+  {
+   "anahtar": "TR_efes",
+   "ad": "Efes Celsus Kütüphanesi",
+   "tur": "yapi",
+   "dosya": "Efes Celsus Kütüphanesi.jpg",
+   "lisans": "CC0",
+   "yazar": "Hamdigumus",
+   "en": 3456,
+   "boy": 5184
+  },
+  {
+   "anahtar": "selcuklukartal",
+   "ad": "Selçuklu çift başlı kartalı",
+   "tur": "arma",
+   "mevcut": "selcuklukartal"
+  },
+  {
+   "anahtar": "hititkursu",
+   "ad": "Hitit güneş kursu",
+   "tur": "eser",
+   "mevcut": "hititkursu"
+  }
+ ]
+}

@@ -1,0 +1,210 @@
+{
+ "kod": "DK",
+ "ad": "Danimarka",
+ "kisiler": [
+  {
+   "anahtar": "knud",
+   "ad": "Büyük Knud (Canute)",
+   "rol": "kral, Kuzey Denizi imparatorluğu",
+   "dosya": "Knut syni.jpg",
+   "lisans": "Public domain",
+   "yazar": "AnonymousUnknown author",
+   "en": 626,
+   "boy": 743,
+   "not": "ortaçağ minyatürü"
+  },
+  {
+   "anahtar": "andersen",
+   "ad": "Hans Christian Andersen",
+   "rol": "masal yazarı",
+   "dosya": "Hans Christian Andersen by Thora Hallager 1869.jpg",
+   "lisans": "Public domain",
+   "yazar": "Thora Hallager",
+   "en": 1409,
+   "boy": 2149
+  },
+  {
+   "anahtar": "tycho",
+   "ad": "Tycho Brahe",
+   "rol": "astronom",
+   "dosya": "Tycho Brahe.JPG",
+   "lisans": "Public domain",
+   "yazar": "Eduard Ender (1822-1883)",
+   "en": 1081,
+   "boy": 1600
+  },
+  {
+   "anahtar": "margrete",
+   "ad": "I. Margrete",
+   "rol": "kraliçe, Kalmar Birliği'nin kurucusu",
+   "dosya": "Margaret of Denmark, Norway & Sweden (1389) effigy 2010 (1).jpg",
+   "lisans": "Public domain",
+   "yazar": "Jacob Truedson Demitz for Ristesson",
+   "en": 666,
+   "boy": 886,
+   "not": "mezar heykeli (effigy) fotoğrafı; dönem portresi yok"
+  },
+  {
+   "anahtar": "kierkegaard",
+   "ad": "Søren Kierkegaard",
+   "rol": "filozof",
+   "dosya": "Christian Olavius Zeuthen - Søren Kierkegaard som café-gæst - 1843.png",
+   "lisans": "Public domain",
+   "yazar": "Christian Olavius Zeuthen (1812-1890)",
+   "en": 827,
+   "boy": 692,
+   "not": "dönem çizimi (1843)"
+  },
+  {
+   "anahtar": "bohr",
+   "ad": "Niels Bohr",
+   "rol": "fizikçi, atom modeli",
+   "dosya": "Niels Bohr - LOC - ggbain - 35303.jpg",
+   "lisans": "Public domain",
+   "yazar": "Bain News Service, publisher Restored by: Bammesk",
+   "en": 3415,
+   "boy": 4723
+  },
+  {
+   "anahtar": "christian4",
+   "ad": "IV. Christian",
+   "rol": "kral, şehir kurucu",
+   "dosya": "Christian IV Pieter Isaacsz 1614.jpg",
+   "lisans": "Public domain",
+   "yazar": "Pieter Isaacsz",
+   "en": 3201,
+   "boy": 4222
+  },
+  {
+   "anahtar": "valdemar",
+   "ad": "II. Valdemar (Zafer)",
+   "rol": "kral, Baltık imparatorluğu",
+   "dosya": "Valdemar Sejr (kongefrisen).jpg",
+   "lisans": "CC BY 3.0",
+   "yazar": "Orf3us",
+   "en": 2316,
+   "boy": 2970,
+   "not": "Ringsted kilisesi fresk (ortaçağ)"
+  },
+  {
+   "anahtar": "thorvaldsen",
+   "ad": "Bertel Thorvaldsen",
+   "rol": "heykeltıraş",
+   "dosya": "Bertel Thorvaldsen, Eckersberg, 1814.jpg",
+   "lisans": "Public domain",
+   "yazar": "Christoffer Wilhelm Eckersberg",
+   "en": 568,
+   "boy": 700
+  },
+  {
+   "anahtar": "orsted",
+   "ad": "Hans Christian Ørsted",
+   "rol": "fizikçi, elektromanyetizma",
+   "dosya": "C.A. Jensen - Portrait of the Physicist Hans Christian Ørsted - KMS8176 - Statens Museum for Kunst.jpg",
+   "lisans": "Public domain",
+   "yazar": "Christian Albrecht Jensen",
+   "en": 2126,
+   "boy": 2807
+  }
+ ],
+ "simgeler": [
+  {
+   "anahtar": "DK_bayrak",
+   "ad": "Danimarka bayrağı (Dannebrog)",
+   "tur": "bayrak",
+   "dosya": "Flag of Denmark.svg",
+   "lisans": "Public domain",
+   "yazar": "Madden and others",
+   "en": 512,
+   "boy": 387,
+   "not": "dünyanın en eski sürekli kullanılan bayrağı"
+  },
+  {
+   "anahtar": "DK_arma",
+   "ad": "Danimarka kraliyet arması",
+   "tur": "arma",
+   "dosya": "Royal coat of arms of Denmark (2024).svg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Di (they-them)",
+   "en": 992,
+   "boy": 1177
+  },
+  {
+   "anahtar": "DK_harita",
+   "ad": "Danimarka Krallığı · 1200",
+   "tur": "harita",
+   "hb_yil": "1200",
+   "hb_ad": "Denmark"
+  },
+  {
+   "anahtar": "DK_jelling",
+   "ad": "Jelling rün taşları",
+   "tur": "eser",
+   "dosya": "Jelling, viking stone, July 2015.jpg",
+   "lisans": "CC0",
+   "yazar": "Szilas",
+   "en": 3168,
+   "boy": 4752
+  },
+  {
+   "anahtar": "DK_horns",
+   "ad": "Gallehus altın boynuzları",
+   "tur": "eser",
+   "dosya": "Copenhagen - Nationalmuseet - Golden horns of Gallehus.JPG",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Lestat (Jan Mehlich)",
+   "en": 2542,
+   "boy": 1695
+  },
+  {
+   "anahtar": "DK_kronborg",
+   "ad": "Kronborg Şatosu",
+   "tur": "yapi",
+   "dosya": "Kronborg Castle Helsingør 1.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "kallerna",
+   "en": 5200,
+   "boy": 3400
+  },
+  {
+   "anahtar": "DK_rosenborg",
+   "ad": "Rosenborg Şatosu",
+   "tur": "yapi",
+   "dosya": "Rosenborg Castle Copenhagen 2.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "kallerna",
+   "en": 3600,
+   "boy": 5200
+  },
+  {
+   "anahtar": "DK_roskilde",
+   "ad": "Roskilde Katedrali",
+   "tur": "yapi",
+   "dosya": "Facade Roskilde cathedral Denmark.jpg",
+   "lisans": "CC0",
+   "yazar": "Jebulon",
+   "en": 4216,
+   "boy": 5440
+  },
+  {
+   "anahtar": "DK_mermaid",
+   "ad": "Küçük Deniz Kızı heykeli",
+   "tur": "eser",
+   "dosya": "The Little Mermaid home.jpg",
+   "lisans": "CC BY 2.0",
+   "yazar": "klndonnelly",
+   "en": 2048,
+   "boy": 1365
+  },
+  {
+   "anahtar": "DK_nyhavn",
+   "ad": "Nyhavn, Kopenhag",
+   "tur": "yapi",
+   "dosya": "Kopenhagen (DK), Nyhavn -- 2017 -- 1711.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Dietmar Rabich",
+   "en": 5136,
+   "boy": 3424
+  }
+ ]
+}

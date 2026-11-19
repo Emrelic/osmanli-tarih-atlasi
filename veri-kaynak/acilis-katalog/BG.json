@@ -1,0 +1,216 @@
+{
+ "kod": "BG",
+ "ad": "Bulgaristan",
+ "kisiler": [
+  {
+   "anahtar": "simeon",
+   "ad": "Çar I. Simeon",
+   "rol": "Birinci Bulgar Çarlığı'nın zirvesi",
+   "dosya": "SimeonHungariansRadzivillChronicleFol14r.jpg",
+   "lisans": "Public domain",
+   "yazar": "from the Middle Ages, unknown",
+   "en": 1216,
+   "boy": 643,
+   "not": "Radziwiłł Kroniği minyatürü (savaş sahnesi); portre değil, dönem sonrası tasvir"
+  },
+  {
+   "anahtar": "krum",
+   "ad": "Han Krum",
+   "rol": "Bulgar hanı",
+   "dosya": "Krum33.jpg",
+   "lisans": "Public domain",
+   "yazar": "Manasias",
+   "en": 577,
+   "boy": 810,
+   "not": "Manasses Kroniği minyatürü (14. yy)"
+  },
+  {
+   "anahtar": "levski",
+   "ad": "Vasil Levski",
+   "rol": "devrimci, ulusal kahraman",
+   "dosya": "BASA-600K-1-1865-15-Vasil Levski-retouched.jpeg",
+   "lisans": "Public domain",
+   "yazar": "File:BASA-600K-1-1865-15-Vasil Levski.jpeg: Unknow",
+   "en": 594,
+   "boy": 821,
+   "not": "1860'lar fotoğrafı"
+  },
+  {
+   "anahtar": "botev",
+   "ad": "Hristo Botev",
+   "rol": "şair, devrimci",
+   "dosya": "Hristo-Botev-circa-1875.jpg",
+   "lisans": "Public domain",
+   "yazar": "Bilinmeyen",
+   "en": 571,
+   "boy": 845,
+   "not": "1875 fotoğrafı"
+  },
+  {
+   "anahtar": "paisiy",
+   "ad": "Hilandarlı Paisiy",
+   "rol": "tarihçi, Ulusal Uyanış'ın öncüsü",
+   "dosya": "Паисий Хиляндарски.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "TraceurEmil",
+   "en": 2304,
+   "boy": 3072,
+   "not": "Paisiy portresi; görsel türü gözle doğrulanmadı"
+  },
+  {
+   "anahtar": "vazov",
+   "ad": "İvan Vazov",
+   "rol": "ulusal şair, yazar",
+   "dosya": "Ivan Vazov Coloured Improved.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Rundevuk",
+   "en": 900,
+   "boy": 1200,
+   "not": "fotoğraf"
+  },
+  {
+   "anahtar": "ivanaleksandar",
+   "ad": "Çar İvan Aleksandar",
+   "rol": "İkinci Bulgar Çarlığı",
+   "dosya": "Ivan ALexander.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Asenovec1186",
+   "en": 302,
+   "boy": 394,
+   "not": "Tetraevangelion portresi (14. yy); düşük çözünürlük"
+  },
+  {
+   "anahtar": "ferdinand",
+   "ad": "I. Ferdinand",
+   "rol": "çar (1908 bağımsızlık)",
+   "dosya": "Zar Ferdinand Bulgarien.jpg",
+   "lisans": "Public domain",
+   "yazar": "Bilinmeyen",
+   "en": 1024,
+   "boy": 1505,
+   "not": "fotoğraf"
+  },
+  {
+   "anahtar": "boris3",
+   "ad": "III. Boris",
+   "rol": "çar",
+   "dosya": "BASA-3K-7-342-28-Boris III of Bulgaria.jpeg",
+   "lisans": "Public domain",
+   "yazar": "Dimitar Karastoyanov",
+   "en": 1911,
+   "boy": 2543,
+   "not": "fotoğraf"
+  },
+  {
+   "anahtar": "stambolov",
+   "ad": "Stefan Stambolov",
+   "rol": "başbakan, devlet adamı",
+   "dosya": "Stefan Stambolov by Georgi Danchov Zografina.jpg",
+   "lisans": "Public domain",
+   "yazar": "Georgi Danchov",
+   "en": 350,
+   "boy": 480,
+   "not": "portre (düşük çözünürlük)"
+  }
+ ],
+ "simgeler": [
+  {
+   "anahtar": "BG_bayrak",
+   "ad": "Bulgaristan bayrağı",
+   "tur": "bayrak",
+   "dosya": "Flag of Bulgaria.svg",
+   "lisans": "Public domain",
+   "yazar": "SKopp",
+   "en": 1000,
+   "boy": 600
+  },
+  {
+   "anahtar": "BG_arma",
+   "ad": "Bulgaristan arması",
+   "tur": "arma",
+   "dosya": "Coat of arms of Bulgaria.svg",
+   "lisans": "Public domain",
+   "yazar": "Пакко",
+   "en": 864,
+   "boy": 725
+  },
+  {
+   "anahtar": "BG_rila",
+   "ad": "Rila Manastırı",
+   "tur": "yapi",
+   "dosya": "Rila Monastery, August 2013.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Raggatt2000",
+   "en": 3690,
+   "boy": 2460
+  },
+  {
+   "anahtar": "BG_madara",
+   "ad": "Madara Atlısı",
+   "tur": "eser",
+   "not": "8. yy kaya kabartması",
+   "dosya": "Madara Rider 2016.jpg",
+   "en": 2048,
+   "boy": 1536,
+   "lisans": "CC BY-SA 4.0"
+  },
+  {
+   "anahtar": "BG_nevski",
+   "ad": "Aleksandır Nevski Katedrali",
+   "tur": "yapi",
+   "dosya": "Catedral de Alejandro Nevski -- 2019 -- Sofía, Bulgaria.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Jose Ligero Loarte",
+   "en": 5917,
+   "boy": 3945
+  },
+  {
+   "anahtar": "BG_nesebar",
+   "ad": "Nesebar",
+   "tur": "yapi",
+   "dosya": "Nessebar lead collage.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "NightBlade151",
+   "en": 1553,
+   "boy": 2000
+  },
+  {
+   "anahtar": "BG_boyana",
+   "ad": "Boyana Kilisesi",
+   "tur": "yapi",
+   "dosya": "Boyana Church 2 TB.JPG",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Todor Bozhinov / Тодор Божинов",
+   "en": 3648,
+   "boy": 2736
+  },
+  {
+   "anahtar": "BG_panagyurishte",
+   "ad": "Panagyurişte Hazinesi",
+   "tur": "eser",
+   "dosya": "Sofia - Panagyurishte Thracian Gold Treasure.jpg",
+   "lisans": "CC BY 2.0",
+   "yazar": "Ann Wuyts",
+   "en": 3000,
+   "boy": 2000
+  },
+  {
+   "anahtar": "BG_tsarevets",
+   "ad": "Tsarevets Kalesi (Veliko Tırnovo)",
+   "tur": "yapi",
+   "dosya": "Tsarevets - Veliko Tarnovo - 2.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "MrPanyGoff",
+   "en": 2778,
+   "boy": 2000
+  },
+  {
+   "anahtar": "BG_harita",
+   "ad": "Birinci Bulgar Çarlığı · 900",
+   "tur": "harita",
+   "hb_yil": "900",
+   "hb_ad": "Bulgars",
+   "not": "Simeon dönemi; haritada NAME 'Bulgars' (Volga Bulgars ayrı kayıt)"
+  }
+ ]
+}

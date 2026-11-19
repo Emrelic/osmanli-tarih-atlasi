@@ -1,0 +1,178 @@
+{
+ "kod": "MN",
+ "ad": "Moğolistan",
+ "kisiler": [
+  {
+   "anahtar": "cengiz",
+   "ad": "Cengiz Han",
+   "rol": "kurucu, komutan",
+   "mevcut": "cengiz"
+  },
+  {
+   "anahtar": "kubilay",
+   "ad": "Kubilay Han",
+   "rol": "hükümdar",
+   "mevcut": "kubilay"
+  },
+  {
+   "anahtar": "hulagu",
+   "ad": "Hülâgû Han",
+   "rol": "İlhanlı kurucusu",
+   "dosya": "Hulagu Khan.jpg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 830,
+   "boy": 1241
+  },
+  {
+   "anahtar": "batu",
+   "ad": "Batu Han",
+   "rol": "Altın Orda kurucusu",
+   "dosya": "Batu Khan.png",
+   "lisans": "CC BY 2.5",
+   "yazar": "unknown",
+   "en": 1206,
+   "boy": 1166
+  },
+  {
+   "anahtar": "mongke",
+   "ad": "Möngke Han",
+   "rol": "hükümdar",
+   "dosya": "Möngke Khan.jpg",
+   "lisans": "CC0",
+   "yazar": "Abdullâh Sultân (atelier). Shîrâz",
+   "en": 205,
+   "boy": 273,
+   "not": "Düşük çözünürlük"
+  },
+  {
+   "anahtar": "bogd",
+   "ad": "Bogd Han",
+   "rol": "dinî-siyasî lider",
+   "dosya": "Bogd Khan.jpg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 588,
+   "boy": 805
+  },
+  {
+   "anahtar": "suhbaatar",
+   "ad": "Damdin Sühebaatar",
+   "rol": "devrimci komutan",
+   "dosya": "Sukhbaatar.jpg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 502,
+   "boy": 512
+  },
+  {
+   "anahtar": "altan",
+   "ad": "Altan Han",
+   "rol": "Tümed hükümdarı",
+   "dosya": "Altan Khan.png",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "SY",
+   "en": 1126,
+   "boy": 795,
+   "not": "çağdaş çizim",
+   "cikar": "dosya harita, portresi bulunamadı"
+  },
+  {
+   "anahtar": "zanabazar",
+   "ad": "Zanabazar",
+   "rol": "heykeltıraş, din önderi",
+   "dosya": "Zanabanzar self-portrait.jpg",
+   "lisans": "Public domain",
+   "yazar": "FunkMonk",
+   "en": 1922,
+   "boy": 1038,
+   "not": "heykel fotoğrafı (yatay)",
+   "eski_dosya": "Zanabazar.jpg"
+  }
+ ],
+ "simgeler": [
+  {
+   "anahtar": "MN_bayrak",
+   "ad": "Moğolistan bayrağı",
+   "tur": "bayrak",
+   "mevcut": "MNG"
+  },
+  {
+   "anahtar": "MN_soyombo",
+   "ad": "Soyombo simgesi",
+   "tur": "arma",
+   "dosya": "Soyombo symbol.svg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Latebird",
+   "en": 400,
+   "boy": 347
+  },
+  {
+   "anahtar": "MN_harita",
+   "ad": "Moğol İmparatorluğu · 1279",
+   "tur": "harita",
+   "mevcut": "mog"
+  },
+  {
+   "anahtar": "MN_paiza",
+   "ad": "Moğol paiza'sı",
+   "tur": "muhur",
+   "dosya": "Paiza.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "DavideBogniFerrante",
+   "en": 1904,
+   "boy": 1981,
+   "cikar": "görsel seçilemiyor"
+  },
+  {
+   "anahtar": "MN_erdenezuu",
+   "ad": "Erdene Zuu Manastırı",
+   "tur": "yapi",
+   "dosya": "Erdene Zuu Monastery.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Виктор Пинчук",
+   "en": 877,
+   "boy": 585
+  },
+  {
+   "anahtar": "MN_gandan",
+   "ad": "Gandan Manastırı",
+   "tur": "yapi",
+   "dosya": "Gandan Monastery.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Zazaa Mongolia",
+   "en": 1800,
+   "boy": 1198
+  },
+  {
+   "anahtar": "MN_karakurum",
+   "ad": "Karakurum",
+   "tur": "yapi",
+   "dosya": "Karakorum.jpg",
+   "lisans": "CC BY 2.5",
+   "yazar": "Original uploader was Exsanguinator at en.wikipedia",
+   "en": 2848,
+   "boy": 2136
+  },
+  {
+   "anahtar": "MN_bogdsaray",
+   "ad": "Bogd Han Kışlık Sarayı",
+   "tur": "yapi",
+   "dosya": "Winter Palace of the Bogd Khan.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Chongkian",
+   "en": 3377,
+   "boy": 2533
+  },
+  {
+   "anahtar": "MN_ger",
+   "ad": "Moğol gerı (yurt)",
+   "tur": "eser",
+   "dosya": "Ger.jpg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 600,
+   "boy": 450
+  }
+ ]
+}

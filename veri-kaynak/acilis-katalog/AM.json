@@ -1,0 +1,217 @@
+{
+ "kod": "AM",
+ "ad": "Ermenistan",
+ "kisiler": [
+  {
+   "anahtar": "tigran",
+   "ad": "Büyük Tigran",
+   "rol": "kral, Ermeni İmparatorluğu",
+   "dosya": "Coin of Tigranes II the Great, Antioch mint.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Classical Numismatic Group; [1]",
+   "en": 392,
+   "boy": 383,
+   "not": "dönemin sikkesi (Antakya darphanesi)"
+  },
+  {
+   "anahtar": "mashtots",
+   "ad": "Mesrop Maştots",
+   "rol": "Ermeni alfabesinin mucidi",
+   "dosya": "Mesrop Mashtots 1882 painting.jpg",
+   "lisans": "Public domain",
+   "yazar": "Stepanos Nersisyan (1815-84)",
+   "en": 836,
+   "boy": 1024,
+   "not": "Nersisyan, 1882 resmi"
+  },
+  {
+   "anahtar": "gregory",
+   "ad": "Aydınlatıcı Krikor",
+   "rol": "Ermeni Kilisesi'nin kurucusu",
+   "dosya": "Gregory the Illuminator Aghtamar bas relief.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "User:Dosseman",
+   "en": 1389,
+   "boy": 3287,
+   "not": "Ahtamar Kilisesi kabartması (10. yy)",
+   "cikar": "kabartma seçilemiyor"
+  },
+  {
+   "anahtar": "komitas",
+   "ad": "Komitas",
+   "rol": "besteci, etnomüzikolog",
+   "dosya": "Komitas 1902.jpg",
+   "lisans": "Public domain",
+   "yazar": "Bilinmeyen",
+   "en": 389,
+   "boy": 458,
+   "not": "1902 fotoğrafı"
+  },
+  {
+   "anahtar": "khachaturian",
+   "ad": "Aram Haçaturyan",
+   "rol": "besteci",
+   "dosya": "Aram Khachaturian 1971.jpg",
+   "lisans": "CC BY-SA 3.0 nl",
+   "yazar": "Mieremet, Rob / Anefo",
+   "en": 1096,
+   "boy": 1146,
+   "not": "1971 fotoğrafı; CC BY-SA 3.0 nl"
+  },
+  {
+   "anahtar": "aivazovsky",
+   "ad": "Ayvazovski",
+   "rol": "ressam (denizci)",
+   "dosya": "Aivazovsky - Self-portrait 1874 (cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": "Ivan Aivazovsky",
+   "en": 746,
+   "boy": 995,
+   "not": "kendi portresi, 1874"
+  },
+  {
+   "anahtar": "sayatnova",
+   "ad": "Sayat-Nova",
+   "rol": "aşık, şair",
+   "dosya": "Sayat-Nova 1964.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Eduard Isabekyan",
+   "en": 3079,
+   "boy": 3814,
+   "not": "ölümünden sonra yapılmış tasvir; görsel türü gözle doğrulanmadı"
+  },
+  {
+   "anahtar": "tumanyan",
+   "ad": "Hovhannes Tumanyan",
+   "rol": "ulusal şair",
+   "dosya": "Tumanyan (2).jpg",
+   "lisans": "Public domain",
+   "yazar": "Bilinmeyen",
+   "en": 743,
+   "boy": 971,
+   "not": "fotoğraf"
+  },
+  {
+   "anahtar": "andranik",
+   "ad": "General Andranik",
+   "rol": "komutan, ulusal kahraman",
+   "dosya": "Andranik Ozanyan.jpg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 939,
+   "boy": 1785,
+   "not": "fotoğraf"
+  },
+  {
+   "anahtar": "aznavour",
+   "ad": "Charles Aznavour",
+   "rol": "şarkıcı (Ermeni asıllı)",
+   "dosya": "Charles Aznavour 1961.jpg",
+   "lisans": "CC0",
+   "yazar": "Joop van Bilsen for Anefo",
+   "en": 760,
+   "boy": 1058,
+   "not": "1961 fotoğrafı; CC0"
+  }
+ ],
+ "simgeler": [
+  {
+   "anahtar": "AM_bayrak",
+   "ad": "Ermenistan bayrağı",
+   "tur": "bayrak",
+   "dosya": "Flag of Armenia.svg",
+   "lisans": "Public domain",
+   "yazar": "Original: Stepan Malkhasyants Vector:  SKopp",
+   "en": 1200,
+   "boy": 600
+  },
+  {
+   "anahtar": "AM_arma",
+   "ad": "Ermenistan arması",
+   "tur": "arma",
+   "dosya": "Coat of arms of Armenia.svg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 412,
+   "boy": 396
+  },
+  {
+   "anahtar": "AM_ararat",
+   "ad": "Ağrı Dağı ve Hor Virap",
+   "tur": "yapi",
+   "dosya": "Mount Ararat and the Yerevan skyline in spring (50mm).jpg",
+   "lisans": "CC BY 4.0",
+   "yazar": "Սէրուժ Ուրիշեան (Serouj Ourishian)",
+   "en": 5184,
+   "boy": 3456
+  },
+  {
+   "anahtar": "AM_geghard",
+   "ad": "Geghard Manastırı",
+   "tur": "yapi",
+   "dosya": "Monasterio de Geghard, Armenia, 2016-10-02, DD 63.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Diego Delso",
+   "en": 7939,
+   "boy": 5177
+  },
+  {
+   "anahtar": "AM_etchmiadzin",
+   "ad": "Eçmiadzin Katedrali",
+   "tur": "yapi",
+   "dosya": "Etchmiadzin 2025-3.jpg",
+   "lisans": "CC BY 4.0",
+   "yazar": "Yerevantsi",
+   "en": 4080,
+   "boy": 3072
+  },
+  {
+   "anahtar": "AM_tatev",
+   "ad": "Tatev Manastırı",
+   "tur": "yapi",
+   "dosya": "-2025.05 Татевский монастырь 1.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Well-read MountainMan",
+   "en": 3024,
+   "boy": 4032
+  },
+  {
+   "anahtar": "AM_matenadaran",
+   "ad": "Matenadaran",
+   "tur": "yapi",
+   "dosya": "Matenadaran, Yerevan, Armenia (Մատենադարանб, 2026).jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Petar Milošević",
+   "en": 7126,
+   "boy": 5191
+  },
+  {
+   "anahtar": "AM_sevan",
+   "ad": "Sevanavank",
+   "tur": "yapi",
+   "dosya": "Սևանի վանական համալիր ՄԲ 29.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Beko",
+   "en": 6000,
+   "boy": 4000
+  },
+  {
+   "anahtar": "AM_tigran_sikke",
+   "ad": "Büyük Tigran sikkesi",
+   "tur": "eser",
+   "dosya": "Coin of Tigranes II the Great, Antioch mint.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Classical Numismatic Group; [1]",
+   "en": 392,
+   "boy": 383
+  },
+  {
+   "anahtar": "AM_harita",
+   "ad": "Ermenistan · İ.Ö. 1",
+   "tur": "harita",
+   "hb_yil": "bc1",
+   "hb_ad": "Armenia",
+   "not": "Tigran'ın imparatorluğu (İ.Ö. 83-69) için dataset yılı yok; bc1 en yakın kayıt"
+  }
+ ]
+}

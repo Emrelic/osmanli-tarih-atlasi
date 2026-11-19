@@ -1,0 +1,232 @@
+{
+ "kod": "IN",
+ "ad": "Hindistan",
+ "kisiler": [
+  {
+   "anahtar": "gandi",
+   "ad": "Gandi",
+   "rol": "bağımsızlık önderi",
+   "mevcut": "gandi"
+  },
+  {
+   "anahtar": "ekber",
+   "ad": "Ekber Şah",
+   "rol": "Babür hükümdarı",
+   "mevcut": "ekber"
+  },
+  {
+   "anahtar": "nehru",
+   "ad": "Cevahirlal Nehru",
+   "rol": "devlet adamı, ilk başbakan",
+   "dosya": "Portrait of Jawaharlal Nehru in 1942.JPG",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "en": 606,
+   "boy": 761,
+   "not": "1942 fotoğrafı"
+  },
+  {
+   "anahtar": "tagore",
+   "ad": "Rabindranath Tagore",
+   "rol": "şair, Nobel ödüllü yazar",
+   "dosya": "Rabindranath Tagore in 1909.jpg",
+   "lisans": "Public domain",
+   "yazar": "Generalstabens litografiska anstalt",
+   "en": 1071,
+   "boy": 1500,
+   "not": "1909 baskı/fotoğraf"
+  },
+  {
+   "anahtar": "ambedkar",
+   "ad": "B. R. Ambedkar",
+   "rol": "hukukçu, anayasa mimarı",
+   "dosya": "Dr. Bhimrao Ambedkar.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "en": 1229,
+   "boy": 1600
+  },
+  {
+   "anahtar": "vivekananda",
+   "ad": "Swami Vivekananda",
+   "rol": "din önderi, filozof",
+   "dosya": "Swami Vivekananda 1893 Scanned Image.jpg",
+   "lisans": "Public domain",
+   "yazar": "Thomas Harrison",
+   "en": 1312,
+   "boy": 1910,
+   "not": "Chicago 1893, Thomas Harrison"
+  },
+  {
+   "anahtar": "sivaji",
+   "ad": "Şivaji",
+   "rol": "Marata hükümdarı",
+   "dosya": "Shivaji British Museum.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "en": 1775,
+   "boy": 2500,
+   "not": "dönemine yakın minyatür (British Museum)",
+   "kirp": [
+    5.0,
+    3.2,
+    0.12
+   ]
+  },
+  {
+   "anahtar": "ramanujan",
+   "ad": "Srinivasa Ramanujan",
+   "rol": "matematikçi",
+   "dosya": "Srinivasa Ramanujan- Add. MS a947.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "en": 3288,
+   "boy": 4517,
+   "not": "Trinity College arşiv fotoğrafı"
+  },
+  {
+   "anahtar": "bose",
+   "ad": "Subhas Chandra Bose",
+   "rol": "bağımsızlık önderi",
+   "dosya": "Subhas-chandra-bose 0.jpg",
+   "lisans": "CC BY 4.0",
+   "yazar": "Rajni",
+   "en": 747,
+   "boy": 1200,
+   "not": "fotoğraf (CC BY 4.0); göz kontrolü önerilir"
+  },
+  {
+   "anahtar": "sahcihan",
+   "ad": "Şah Cihan",
+   "rol": "Babür hükümdarı, Tac Mahal'in yaptırıcısı",
+   "mevcut": "sahcihan"
+  },
+  {
+   "anahtar": "aurangzeb",
+   "ad": "Evrengzib",
+   "rol": "Babür hükümdarı (ek)",
+   "dosya": "Aurangzeb (r. 1658-1707).jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "en": 2476,
+   "boy": 3200,
+   "not": "dönem minyatürü; imparatorluğun en geniş sınırı"
+  }
+ ],
+ "simgeler": [
+  {
+   "anahtar": "IN_bayrak",
+   "ad": "Hindistan bayrağı",
+   "tur": "bayrak",
+   "mevcut": "IND"
+  },
+  {
+   "anahtar": "IN_arma",
+   "ad": "Aşoka aslan başlıklı devlet arması",
+   "tur": "arma",
+   "mevcut": "mau"
+  },
+  {
+   "anahtar": "tacmahal",
+   "ad": "Tac Mahal",
+   "tur": "yapi",
+   "mevcut": "tacmahal"
+  },
+  {
+   "anahtar": "IN_harita",
+   "ad": "Babür İmparatorluğu · 1700",
+   "tur": "harita",
+   "hb_yil": "1700",
+   "hb_ad": "Mughal Empire",
+   "mevcut": "bab"
+  },
+  {
+   "anahtar": "IN_kutub",
+   "ad": "Kutub Minar",
+   "tur": "yapi",
+   "dosya": "Qutb Minar with Neem Tree.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Shikhers",
+   "en": 3000,
+   "boy": 4500
+  },
+  {
+   "anahtar": "IN_altintapinak",
+   "ad": "Altın Tapınak (Harmandir Sahib)",
+   "tur": "yapi",
+   "dosya": "Hamandir Sahib (Golden Temple).jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "This picture has been taken by Oleg Yunakov. Contact e-mail:",
+   "en": 5184,
+   "boy": 3456
+  },
+  {
+   "anahtar": "IN_sanchi",
+   "ad": "Sanchi Stupası",
+   "tur": "yapi",
+   "dosya": "Stupa 1, Sanchi 02.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Bernard Gagnon",
+   "en": 4953,
+   "boy": 3302
+  },
+  {
+   "anahtar": "IN_humayun",
+   "ad": "Hümayun Türbesi",
+   "tur": "yapi",
+   "dosya": "Humayun's Tomb, Delhi 1.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Naveen R Gowda",
+   "en": 4008,
+   "boy": 5344
+  },
+  {
+   "anahtar": "IN_aslanbaslik",
+   "ad": "Sarnath Aşoka aslan başlığı",
+   "tur": "eser",
+   "dosya": "Lion Capital of Ashoka 3.jpg",
+   "lisans": "CC0",
+   "yazar": "Apurv013",
+   "en": 2704,
+   "boy": 2028
+  },
+  {
+   "anahtar": "IN_nataraja",
+   "ad": "Çola dönemi Nataraja bronzu",
+   "tur": "eser",
+   "dosya": "Nataraja, Chola period bronze, 11th century, Government Museum, Chennai.jpg",
+   "lisans": "CC BY 2.0",
+   "yazar": "Richard Mortel from Riyadh, Saudi Arabia",
+   "en": 6000,
+   "boy": 3998
+  },
+  {
+   "anahtar": "IN_konark",
+   "ad": "Konarak Güneş Tapınağı",
+   "tur": "yapi",
+   "dosya": "Sun Temple Main Structure, Konark, Orissa.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Subhrajyoti07",
+   "en": 3494,
+   "boy": 4514,
+   "ek": true
+  },
+  {
+   "anahtar": "IN_harita_maurya",
+   "ad": "Maurya İmparatorluğu · MÖ 200",
+   "tur": "harita",
+   "hb_yil": "bc200",
+   "hb_ad": "Mauryan Empire",
+   "mevcut": "mau",
+   "ek": true
+  },
+  {
+   "anahtar": "IN_harita_gupta",
+   "ad": "Gupta İmparatorluğu · 400",
+   "tur": "harita",
+   "hb_yil": "400",
+   "hb_ad": "Gupta Empire",
+   "ek": true
+  }
+ ]
+}

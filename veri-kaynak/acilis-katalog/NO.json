@@ -1,0 +1,226 @@
+{
+ "kod": "NO",
+ "ad": "Norveç",
+ "kisiler": [
+  {
+   "anahtar": "olavii",
+   "ad": "II. Olav (Aziz Olav)",
+   "rol": "kral, Norveç'in vaftizcisi",
+   "dosya": "SaintOlaf.jpg",
+   "lisans": "Public domain",
+   "yazar": "Pius Welonsky (1893)",
+   "en": 352,
+   "boy": 612,
+   "not": "1893 çizimi; dönem portresi yok"
+  },
+  {
+   "anahtar": "hardrada",
+   "ad": "Harald Hardrada",
+   "rol": "Viking kralı",
+   "dosya": "Harald III of Norway.jpg",
+   "lisans": "Public domain",
+   "yazar": "AnonymousUnknown author",
+   "en": 350,
+   "boy": 339,
+   "not": "ortaçağ minyatürü; küçük çözünürlük",
+   "cikar": "dosya kumaş deseni"
+  },
+  {
+   "anahtar": "fairhair",
+   "ad": "Harald Hårfagre",
+   "rol": "Norveç'in ilk birleştirici kralı",
+   "dosya": "Flateyjarbok Haraldr Halfdan.jpg",
+   "lisans": "Public domain",
+   "yazar": "Tokle",
+   "en": 750,
+   "boy": 558,
+   "not": "Flateyjarbók el yazması (14. yy) minyatürü"
+  },
+  {
+   "anahtar": "leif",
+   "ad": "Leif Erikson",
+   "rol": "Viking kaşif, Kuzey Amerika'yı bulan",
+   "dosya": "Christian Krohg - Leiv Eirikson discovering America - Google Art Project.jpg",
+   "lisans": "Public domain",
+   "yazar": "Christian Krohg",
+   "en": 6912,
+   "boy": 4594,
+   "not": "Krohg 1893 tablosu; dönem portresi yok"
+  },
+  {
+   "anahtar": "eirik",
+   "ad": "Kızıl Erik",
+   "rol": "Viking kaşif, Grönland'ın kurucusu",
+   "dosya": "Eric the Red.png",
+   "lisans": "Public domain",
+   "yazar": "Arngrímur Jónsson",
+   "en": 339,
+   "boy": 480,
+   "not": "Arngrímur Jónsson 1688 çizimi"
+  },
+  {
+   "anahtar": "ibsen",
+   "ad": "Henrik Ibsen",
+   "rol": "oyun yazarı",
+   "dosya": "Henrik Ibsen av Eilif Peterssen 1895.jpg",
+   "lisans": "Public domain",
+   "yazar": "Eilif Peterssen",
+   "en": 768,
+   "boy": 938,
+   "kirp": [
+    4.8,
+    1.6,
+    0.2
+   ]
+  },
+  {
+   "anahtar": "grieg",
+   "ad": "Edvard Grieg",
+   "rol": "besteci",
+   "dosya": "Hans Heyerdahl - Portrett av Edvard Grieg - Oslo Museum - OB.00036.jpg",
+   "lisans": "CC BY 4.0",
+   "yazar": "Hans Heyerdahl",
+   "en": 2182,
+   "boy": 3000
+  },
+  {
+   "anahtar": "munch",
+   "ad": "Edvard Munch",
+   "rol": "ressam",
+   "dosya": "Edvard Munch - Self-Portrait with Cigarette - NG.M.00470 - National Museum of Art, Architecture and Design.jpg",
+   "lisans": "Public domain",
+   "yazar": "Edvard Munch",
+   "en": 3048,
+   "boy": 4000,
+   "kirp": [
+    4.9,
+    2.0,
+    0.14
+   ]
+  },
+  {
+   "anahtar": "nansen",
+   "ad": "Fridtjof Nansen",
+   "rol": "kutup kaşifi, insancıl, Nobel Barış",
+   "dosya": "Fridtjof Nansen LOC 03377u-3.jpg",
+   "lisans": "Public domain",
+   "yazar": "Henry Van der Weyde",
+   "en": 3472,
+   "boy": 4960
+  },
+  {
+   "anahtar": "amundsen",
+   "ad": "Roald Amundsen",
+   "rol": "kutup kaşifi, Güney Kutbu'na ilk varan",
+   "dosya": "Roald Amundsen2.jpg",
+   "lisans": "Public domain",
+   "yazar": "Lomen Bros.",
+   "en": 2011,
+   "boy": 3100,
+   "kirp": [
+    4.7,
+    1.7,
+    0.12
+   ]
+  }
+ ],
+ "simgeler": [
+  {
+   "anahtar": "NO_bayrak",
+   "ad": "Norveç bayrağı",
+   "tur": "bayrak",
+   "dosya": "Flag of Norway.svg",
+   "lisans": "Public domain",
+   "yazar": "Original: Fredrik Meltzer Vector: Gutten på Hemsen",
+   "en": 512,
+   "boy": 372
+  },
+  {
+   "anahtar": "NO_arma",
+   "ad": "Norveç arması",
+   "tur": "arma",
+   "dosya": "Coat of arms of Norway.svg",
+   "lisans": "Public domain",
+   "yazar": "Emblazonment by Sverre Morken (1992), redrawn by Jonas Madsen Rogne (2023) on be",
+   "en": 512,
+   "boy": 909
+  },
+  {
+   "anahtar": "NO_harita",
+   "ad": "Norveç Krallığı · 1200",
+   "tur": "harita",
+   "hb_yil": "1200",
+   "hb_ad": "Norway"
+  },
+  {
+   "anahtar": "NO_oseberg",
+   "ad": "Oseberg Viking gemisi",
+   "tur": "eser",
+   "dosya": "Oseberg Ship - Viking Ship Museum (Oslo).jpg",
+   "lisans": "CC BY 2.0",
+   "yazar": "Larry Lamsa",
+   "en": 5584,
+   "boy": 3723
+  },
+  {
+   "anahtar": "NO_gokstad",
+   "ad": "Gokstad Viking gemisi",
+   "tur": "eser",
+   "dosya": "Gokstad Ship June 2012.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Colgill",
+   "en": 3117,
+   "boy": 3000
+  },
+  {
+   "anahtar": "NO_nidaros",
+   "ad": "Nidaros Katedrali",
+   "tur": "yapi",
+   "dosya": "Die Nidaros Kathedrale in Trondheim. 05.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Holger Uwe Schmitt",
+   "en": 3543,
+   "boy": 4134
+  },
+  {
+   "anahtar": "NO_urnes",
+   "ad": "Urnes ahşap kilisesi",
+   "tur": "yapi",
+   "dosya": "Urnes Stave Church from north.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Bjørn Erik Pedersen",
+   "en": 6016,
+   "boy": 4000
+  },
+  {
+   "anahtar": "NO_borgund",
+   "ad": "Borgund ahşap kilisesi",
+   "tur": "yapi",
+   "dosya": "Borgund Stave Church in Lærdalen, 2013 June.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Ximonic (Simo Räsänen)",
+   "en": 2260,
+   "boy": 3500
+  },
+  {
+   "anahtar": "NO_scream",
+   "ad": "Çığlık (Edvard Munch)",
+   "tur": "eser",
+   "dosya": "Edvard Munch, 1893, The Scream, oil, tempera and pastel on cardboard, 91 x 73 cm, National Gallery of Norway.jpg",
+   "lisans": "Public domain",
+   "yazar": "Edvard Munch",
+   "en": 3223,
+   "boy": 4000
+  },
+  {
+   "anahtar": "NO_bryggen",
+   "ad": "Bryggen, Bergen",
+   "tur": "yapi",
+   "dosya": "Fassaden in Bryggen, Bergen N.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "JoachimKohler-HB",
+   "en": 4500,
+   "boy": 3000
+  }
+ ]
+}

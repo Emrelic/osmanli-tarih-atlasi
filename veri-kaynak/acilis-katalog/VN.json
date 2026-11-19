@@ -1,0 +1,239 @@
+{
+ "kod": "VN",
+ "ad": "Vietnam",
+ "kisiler": [
+  {
+   "anahtar": "homin",
+   "ad": "Hô Şi Minh",
+   "rol": "devrimci, kurucu",
+   "dosya": "Ho Chi Minh - 1946 Portrait.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "en": 1918,
+   "boy": 2560,
+   "not": "1946 fotoğrafı"
+  },
+  {
+   "anahtar": "tranhungdao",
+   "ad": "Trần Hưng Đạo",
+   "rol": "komutan (Moğollara karşı)",
+   "dosya": "Statue of Tran Hung Dao at Me Linh Square.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Bùi Thụy Đào Nguyên",
+   "en": 2736,
+   "boy": 3648,
+   "not": "heykel fotoğrafı; dönem portresi yok",
+   "kirp": [
+    4.6,
+    2.6,
+    0.1
+   ]
+  },
+  {
+   "anahtar": "quangtrung",
+   "ad": "Quang Trung (Nguyễn Huệ)",
+   "rol": "Tây Sơn hükümdarı",
+   "dosya": "Quang Trung (Nguyen Hue, 1753-1792) (9735335538).jpg",
+   "lisans": "CC0",
+   "yazar": "Gary Todd from Xinzheng, China",
+   "en": 2304,
+   "boy": 3456,
+   "not": "heykel fotoğrafı; dönem portresi yok"
+  },
+  {
+   "anahtar": "nguyentrai",
+   "ad": "Nguyễn Trãi",
+   "rol": "devlet adamı, şair",
+   "dosya": "Nguyen Trai.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "en": 1280,
+   "boy": 1906,
+   "not": "sonradan yapılmış portre",
+   "kirp": [
+    5.3,
+    2.6,
+    0.12
+   ]
+  },
+  {
+   "anahtar": "lythuongkiet",
+   "ad": "Lý Thường Kiệt",
+   "rol": "komutan",
+   "dosya": "Tuong Ly Thuong Kiet, DNQT.jpg",
+   "lisans": "Public domain",
+   "yazar": "Tân  (trả lời)",
+   "en": 1793,
+   "boy": 1958,
+   "not": "heykel fotoğrafı"
+  },
+  {
+   "anahtar": "phanboichau",
+   "ad": "Phan Bội Châu",
+   "rol": "bağımsızlık önderi",
+   "dosya": "Phan Boi Chau.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "en": 225,
+   "boy": 304,
+   "not": "küçük çözünürlük"
+  },
+  {
+   "anahtar": "phanchautrinh",
+   "ad": "Phan Châu Trinh",
+   "rol": "reformcu",
+   "dosya": "Phan Chau Trinh.jpg",
+   "lisans": "Public domain",
+   "yazar": "Khánh Ký",
+   "en": 1280,
+   "boy": 2037
+  },
+  {
+   "anahtar": "tuduc",
+   "ad": "Tự Đức",
+   "rol": "Nguyễn imparatoru",
+   "dosya": "Portrait of Emperor Tự Đức.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "en": 1446,
+   "boy": 1423
+  },
+  {
+   "anahtar": "hamnghi",
+   "ad": "Hàm Nghi",
+   "rol": "Nguyễn imparatoru, direnişçi",
+   "dosya": "Emperor Ham Nghi.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "en": 1902,
+   "boy": 2688
+  },
+  {
+   "anahtar": "duytan",
+   "ad": "Duy Tân",
+   "rol": "Nguyễn imparatoru, direnişçi",
+   "dosya": "Duy Tân Emperor.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "en": 1148,
+   "boy": 1600
+  },
+  {
+   "anahtar": "baodai",
+   "ad": "Bảo Đại",
+   "rol": "son imparator (ek)",
+   "dosya": "Bao Dai 1926.jpg",
+   "lisans": "Public domain",
+   "yazar": "Agence de presse Meurisse",
+   "en": 4430,
+   "boy": 5682,
+   "not": "1926 Meurisse fotoğrafı; tartışmalı"
+  }
+ ],
+ "simgeler": [
+  {
+   "anahtar": "VN_bayrak",
+   "ad": "Vietnam bayrağı",
+   "tur": "bayrak",
+   "mevcut": "VNM"
+  },
+  {
+   "anahtar": "VN_arma",
+   "ad": "Vietnam devlet arması",
+   "tur": "arma",
+   "dosya": "Emblem of Vietnam.svg",
+   "lisans": "Public domain",
+   "yazar": "Bùi Trang Chước",
+   "en": 519,
+   "boy": 529
+  },
+  {
+   "anahtar": "VN_harita",
+   "ad": "Đại Việt · 1500 (Lê hanedanı)",
+   "tur": "harita",
+   "hb_yil": "1500",
+   "hb_ad": "Đại Việt"
+  },
+  {
+   "anahtar": "VN_hue",
+   "ad": "Hue İmparatorluk Şehri (1932 havadan)",
+   "tur": "yapi",
+   "dosya": "Hué, 1932 – La Ville Impériale – Vue aérienne.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "en": 3235,
+   "boy": 2371
+  },
+  {
+   "anahtar": "VN_edebiyat",
+   "ad": "Edebiyat Tapınağı (Hanoi)",
+   "tur": "yapi",
+   "dosya": "Main gate of the Temple of Literature, Hanoi, Vietnam, 20240123 0929 3068.jpg",
+   "lisans": "CC BY 4.0",
+   "yazar": "Jakub Hałun",
+   "en": 5568,
+   "boy": 3716
+  },
+  {
+   "anahtar": "VN_tekdirek",
+   "ad": "Tek Direkli Pagoda (Hanoi)",
+   "tur": "yapi",
+   "dosya": "One Pillar Pagoda, Hanoi, Vietnam, 20240123 1122 3219.jpg",
+   "lisans": "CC BY 4.0",
+   "yazar": "Jakub Hałun",
+   "en": 3212,
+   "boy": 4812
+  },
+  {
+   "anahtar": "VN_halong",
+   "ad": "Ha Long Körfezi",
+   "tur": "diger",
+   "dosya": "Halong Bay in Vietnam.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Thomas Hirsch / User:Ravn",
+   "en": 1600,
+   "boy": 1200
+  },
+  {
+   "anahtar": "VN_dongson",
+   "ad": "Đông Sơn bronz davulu",
+   "tur": "eser",
+   "dosya": "Dong Son Bronze Drum 19.jpg",
+   "lisans": "CC0",
+   "yazar": "Gary Todd",
+   "en": 5184,
+   "boy": 3456
+  },
+  {
+   "anahtar": "VN_hoian",
+   "ad": "Hội An Antik Kenti",
+   "tur": "yapi",
+   "dosya": "Hội An, Ancient Town, 2020-01 CN-06.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Steffen Schmitz (more photos)",
+   "en": 4592,
+   "boy": 2954
+  },
+  {
+   "anahtar": "VN_myson",
+   "ad": "Mỹ Sơn Tapınakları",
+   "tur": "yapi",
+   "dosya": "My Son Sanctuary Vietnam 06.jpg",
+   "lisans": "CC BY 4.0",
+   "yazar": "Philip Nalangan",
+   "en": 3264,
+   "boy": 2448
+  },
+  {
+   "anahtar": "VN_thienmu",
+   "ad": "Thiên Mụ Pagodası (Hue)",
+   "tur": "yapi",
+   "dosya": "Hue Vietnam Thien-Mu-Temple-and-Pagoda-01.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "CEphoto, Uwe Aranas",
+   "en": 4251,
+   "boy": 2834,
+   "ek": true
+  }
+ ]
+}

@@ -1,0 +1,201 @@
+{
+ "kod": "HU",
+ "ad": "Macaristan",
+ "kisiler": [
+  {
+   "anahtar": "istvan",
+   "ad": "Aziz İstván",
+   "rol": "ilk kral, devlet kurucusu",
+   "dosya": "Portrayal of Stephen I, King of Hungary on the coronation pall.jpg",
+   "lisans": "Public domain",
+   "yazar": "Bilinmeyen",
+   "en": 953,
+   "boy": 1280,
+   "not": "taç giyme örtüsü (1031) üzerindeki dönem tasviri"
+  },
+  {
+   "anahtar": "hunyadi",
+   "ad": "Hunyadi János",
+   "rol": "naip, Osmanlı'ya karşı komutan",
+   "dosya": "John Hunyadi (Chronica Hungarorum).jpg",
+   "lisans": "Public domain",
+   "yazar": "János Thuróczy",
+   "en": 922,
+   "boy": 1050,
+   "not": "Thuróczy kroniğinden minyatür"
+  },
+  {
+   "anahtar": "matyas",
+   "ad": "Matyas Korvin",
+   "rol": "kral",
+   "dosya": "Andrea Mantegna - King Matthias Corvinus of Hungary.jpg",
+   "lisans": "Public domain",
+   "yazar": "Andrea Mantegna",
+   "en": 752,
+   "boy": 960,
+   "not": "Mantegna atfı"
+  },
+  {
+   "anahtar": "kossuth",
+   "ad": "Kossuth Lajos",
+   "rol": "1848 devrimci önderi",
+   "mevcut": "kossuth"
+  },
+  {
+   "anahtar": "szechenyi",
+   "ad": "Széchenyi István",
+   "rol": "reformcu devlet adamı",
+   "dosya": "Gróf Széchenyi István.jpg",
+   "lisans": "Public domain",
+   "yazar": "Miklós Barabás",
+   "en": 700,
+   "boy": 893,
+   "not": "Barabás portresi"
+  },
+  {
+   "anahtar": "petofi",
+   "ad": "Petőfi Sándor",
+   "rol": "şair, 1848 devrimcisi",
+   "dosya": "Barabás Petőfi.jpg",
+   "lisans": "Public domain",
+   "yazar": "Miklós Barabás",
+   "en": 1848,
+   "boy": 2852,
+   "not": "Barabás/Orlai portresi"
+  },
+  {
+   "anahtar": "liszt",
+   "ad": "Franz Liszt",
+   "rol": "besteci, piyanist",
+   "dosya": "Franz Liszt by Herman Biow- 1843.png",
+   "lisans": "Public domain",
+   "yazar": "Herman Biow",
+   "en": 656,
+   "boy": 802,
+   "not": "1843 dagerotipi"
+  },
+  {
+   "anahtar": "rakoczi",
+   "ad": "II. Rákóczi Ferenc",
+   "rol": "prens, bağımsızlık önderi",
+   "dosya": "II. Rákóczi Ferenc Mányoki.jpg",
+   "lisans": "Public domain",
+   "yazar": "Ádám Mányoki",
+   "en": 971,
+   "boy": 1200,
+   "not": "Mányoki portresi"
+  },
+  {
+   "anahtar": "semmelweis",
+   "ad": "Semmelweis Ignác",
+   "rol": "hekim, 'anneleri kurtaran'",
+   "dosya": "Borsos & Doctor Semmelweis Ignác cropped.jpg",
+   "lisans": "Public domain",
+   "yazar": "József Borsos / Albert Doctor",
+   "en": 1658,
+   "boy": 1722,
+   "not": "Borsos portresi"
+  },
+  {
+   "anahtar": "bartok",
+   "ad": "Bartók Béla",
+   "rol": "besteci, etnomüzikolog",
+   "dosya": "Bartók Béla 1927.jpg",
+   "lisans": "Public domain",
+   "yazar": "Bilinmeyen",
+   "en": 411,
+   "boy": 379,
+   "not": "fotoğraf (düşük çözünürlük)"
+  }
+ ],
+ "simgeler": [
+  {
+   "anahtar": "HU_bayrak",
+   "ad": "Macaristan bayrağı",
+   "tur": "bayrak",
+   "mevcut": "HUN",
+   "mevcut_liste": "AMBLEM"
+  },
+  {
+   "anahtar": "HU_arma",
+   "ad": "Macaristan arması",
+   "tur": "arma",
+   "dosya": "Coat of arms of Hungary.svg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 1000,
+   "boy": 2130
+  },
+  {
+   "anahtar": "HU_parlamento",
+   "ad": "Macaristan Parlamentosu",
+   "tur": "yapi",
+   "dosya": "Hungarian Parliament Building from across the Danube, 2025-01-11.jpg",
+   "lisans": "CC BY 4.0",
+   "yazar": "Kilyann Le Hen",
+   "en": 4731,
+   "boy": 2649
+  },
+  {
+   "anahtar": "HU_buda",
+   "ad": "Buda Kalesi / Kraliyet Sarayı",
+   "tur": "yapi",
+   "dosya": "Budavári Palota, ABCDEF épület.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Varius",
+   "en": 3568,
+   "boy": 2408
+  },
+  {
+   "anahtar": "HU_zincir",
+   "ad": "Széchenyi Zincir Köprüsü",
+   "tur": "yapi",
+   "dosya": "Széchenyi Chain Bridge in Budapest at night.jpg",
+   "lisans": "CC0",
+   "yazar": "Wilfredor",
+   "en": 3580,
+   "boy": 2000
+  },
+  {
+   "anahtar": "HU_tac",
+   "ad": "Kutsal Macar Tacı",
+   "tur": "eser",
+   "dosya": "A Szent Korona elölről 2.jpg",
+   "lisans": "Public domain",
+   "yazar": "hu:Szerkesztő:Tolfavi (a  kép szerzője; feltöltő a",
+   "en": 1500,
+   "boy": 1750
+  },
+  {
+   "anahtar": "HU_halasz",
+   "ad": "Balıkçı Tabyası",
+   "tur": "yapi",
+   "dosya": "Halászbástya 2017.jpg",
+   "lisans": "CC BY 2.0",
+   "yazar": "Brian Adamson",
+   "en": 3456,
+   "boy": 4608
+  },
+  {
+   "anahtar": "HU_honfoglalas",
+   "ad": "Honfoglalás (Macarların vatan edinişi)",
+   "tur": "eser",
+   "mevcut": "honfoglalas",
+   "mevcut_liste": "TABLO"
+  },
+  {
+   "anahtar": "HU_harita_kral",
+   "ad": "Macaristan Krallığı · 1400",
+   "tur": "harita",
+   "hb_yil": "1400",
+   "hb_ad": "Kingdom of Hungary"
+  },
+  {
+   "anahtar": "HU_harita_avm",
+   "ad": "Avusturya-Macaristan · 1900",
+   "tur": "harita",
+   "mevcut": "avm",
+   "mevcut_liste": "TARIH"
+  }
+ ]
+}

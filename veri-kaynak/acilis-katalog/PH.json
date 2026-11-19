@@ -1,0 +1,245 @@
+{
+ "kod": "PH",
+ "ad": "Filipinler",
+ "kisiler": [
+  {
+   "anahtar": "rizal",
+   "ad": "José Rizal",
+   "rol": "ulusal kahraman, yazar",
+   "dosya": "Portrait of José Rizal (1883).jpg",
+   "lisans": "Public domain",
+   "yazar": "PhiliptheNumber1",
+   "en": 1479,
+   "boy": 2075,
+   "not": "1883 yağlıboya portre"
+  },
+  {
+   "anahtar": "bonifacio",
+   "ad": "Andrés Bonifacio",
+   "rol": "Katipunan önderi",
+   "dosya": "Andrés Bonifacio photo (cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": "Chofre y Cia (now Cacho Hermanos Inc.)",
+   "en": 1420,
+   "boy": 1792,
+   "not": "dönem fotoğrafı"
+  },
+  {
+   "anahtar": "aguinaldo",
+   "ad": "Emilio Aguinaldo",
+   "rol": "ilk cumhurbaşkanı",
+   "dosya": "Emilio Aguinaldo ca. 1919 (Restored) (cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": "Harris &amp; Ewing Photo Studio",
+   "en": 4574,
+   "boy": 6374
+  },
+  {
+   "anahtar": "mabini",
+   "ad": "Apolinario Mabini",
+   "rol": "devrim kuramcısı",
+   "dosya": "A mabini.jpg",
+   "lisans": "Public domain",
+   "yazar": "National Historical Commission",
+   "en": 1088,
+   "boy": 1600
+  },
+  {
+   "anahtar": "delpilar",
+   "ad": "Marcelo H. del Pilar",
+   "rol": "yazar, propagandacı",
+   "dosya": "Marcelo Hilario del Pilar y Gatmaitán (1850-1896) portrait.jpg",
+   "lisans": "Public domain",
+   "yazar": "Cropped by MartyWilliams",
+   "en": 650,
+   "boy": 790
+  },
+  {
+   "anahtar": "quezon",
+   "ad": "Manuel Quezon",
+   "rol": "Commonwealth başkanı",
+   "dosya": "Manuel L. Quezon (November 1942) (cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": "Farm Security Administration - Office of War Information",
+   "en": 1610,
+   "boy": 2142
+  },
+  {
+   "anahtar": "magsaysay",
+   "ad": "Ramon Magsaysay",
+   "rol": "cumhurbaşkanı",
+   "dosya": "Ramon Magsaysay Official Malacañan Portrait.jpg",
+   "lisans": "Public domain",
+   "yazar": "Portrait by Antonio Garcia Llamas (1912–1999); uploaded by t",
+   "en": 960,
+   "boy": 1245
+  },
+  {
+   "anahtar": "osmena",
+   "ad": "Sergio Osmeña",
+   "rol": "cumhurbaşkanı",
+   "dosya": "Sergio Osmeña Official Malacañan Portrait.jpg",
+   "lisans": "Public domain",
+   "yazar": "Portrait by Fernando Amorsolo (1892–1972); uploaded by the o",
+   "en": 960,
+   "boy": 1352
+  },
+  {
+   "anahtar": "gregoriodelpilar",
+   "ad": "Gregorio del Pilar",
+   "rol": "genç general",
+   "dosya": "Gregorio del Pilar.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown photographer",
+   "en": 767,
+   "boy": 1393
+  },
+  {
+   "anahtar": "coryaquino",
+   "ad": "Corazon Aquino",
+   "rol": "cumhurbaşkanı, 1986 Halk Gücü",
+   "dosya": "Corazon Aquino 1986.jpg",
+   "lisans": "Public domain",
+   "yazar": "Airman Gerald B. Johnson",
+   "en": 894,
+   "boy": 1192
+  },
+  {
+   "anahtar": "melchora",
+   "ad": "Melchora Aquino (Tandang Sora)",
+   "rol": "Katipunan destekçisi (ek)",
+   "dosya": "Melchora Aquino de Ramos.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "en": 968,
+   "boy": 1160
+  },
+  {
+   "anahtar": "laurel",
+   "ad": "José P. Laurel",
+   "rol": "cumhurbaşkanı (ek)",
+   "dosya": "President Jose P. Laurel portrait.jpg",
+   "lisans": "Public domain",
+   "yazar": "National Library of the Philippines (distributed by Philippi",
+   "en": 710,
+   "boy": 1024,
+   "not": "tartışmalı (Japon işgali dönemi)"
+  }
+ ],
+ "simgeler": [
+  {
+   "anahtar": "PH_bayrak",
+   "ad": "Filipinler bayrağı",
+   "tur": "bayrak",
+   "mevcut": "PHL"
+  },
+  {
+   "anahtar": "PH_arma",
+   "ad": "Filipinler devlet arması",
+   "tur": "arma",
+   "dosya": "Coat of arms of the Philippines.svg",
+   "lisans": "Public domain",
+   "yazar": "Galo Ocampo",
+   "en": 512,
+   "boy": 568
+  },
+  {
+   "anahtar": "PH_harita",
+   "ad": "Filipinler · 1500 (Fetih öncesi)",
+   "tur": "harita",
+   "hb_yil": "1500",
+   "hb_ad": "Philippines"
+  },
+  {
+   "anahtar": "PH_pirinc",
+   "ad": "Banaue pirinç terasları",
+   "tur": "diger",
+   "dosya": "Banaue Rice Terraces.jpg",
+   "lisans": "Public domain",
+   "yazar": "Bangaliboy at English Wikipedia",
+   "en": 2272,
+   "boy": 1704
+  },
+  {
+   "anahtar": "PH_intramuros",
+   "ad": "Intramuros (Manila)",
+   "tur": "yapi",
+   "dosya": "Manila, Intramuros, Philippines.jpg",
+   "lisans": "CC BY 4.0",
+   "yazar": "Vyacheslav Argenberg",
+   "en": 4000,
+   "boy": 2667
+  },
+  {
+   "anahtar": "PH_rizalanit",
+   "ad": "Rizal Anıtı (Manila)",
+   "tur": "yapi",
+   "dosya": "Jose Rizal National Monument.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Adamdaley",
+   "en": 6000,
+   "boy": 3224
+  },
+  {
+   "anahtar": "PH_cikolata",
+   "ad": "Çikolata Tepeleri (Bohol)",
+   "tur": "diger",
+   "dosya": "Chocolate Hills Bohol 2.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Lady01v",
+   "en": 4032,
+   "boy": 3024
+  },
+  {
+   "anahtar": "PH_sanagustin",
+   "ad": "San Agustin Kilisesi (Manila)",
+   "tur": "yapi",
+   "dosya": "San Agustin Church, May 2025.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "BiancaBrazal",
+   "en": 4000,
+   "boy": 3000
+  },
+  {
+   "anahtar": "PH_spoliarium",
+   "ad": "Spoliarium (Juan Luna)",
+   "tur": "eser",
+   "dosya": "Juan Luna Spoliarium.jpg",
+   "lisans": "Public domain",
+   "yazar": "Juan Luna",
+   "en": 1931,
+   "boy": 1079
+  },
+  {
+   "anahtar": "PH_tara",
+   "ad": "Agusan Altın Tara'sı",
+   "tur": "eser",
+   "dosya": "Filippine, provincia di agusan, immagine hindu, statuetta in oro massiccio, xiii secolo.jpg",
+   "lisans": "CC BY 3.0",
+   "yazar": "Sailko",
+   "en": 1536,
+   "boy": 2472
+  },
+  {
+   "anahtar": "PH_katipunan",
+   "ad": "Katipunan devrim bayrakları",
+   "tur": "bayrak",
+   "dosya": "Philippine revolution flag pugadlawin.svg",
+   "lisans": "Public domain",
+   "yazar": "Philippine_revolution_flag_pugadlawin.png: seav based on des",
+   "en": 250,
+   "boy": 150
+  },
+  {
+   "anahtar": "PH_mayon",
+   "ad": "Mayon Yanardağı",
+   "tur": "diger",
+   "dosya": "Mayon Volcano and the Sleeping Lion.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Chrizluminario",
+   "en": 3888,
+   "boy": 2592,
+   "ek": true
+  }
+ ]
+}

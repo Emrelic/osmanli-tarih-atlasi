@@ -1,0 +1,193 @@
+{
+ "kod": "MX",
+ "ad": "Meksika",
+ "kisiler": [
+  {
+   "anahtar": "juarez",
+   "ad": "Benito Juárez",
+   "rol": "devlet adamı",
+   "mevcut": "juarez"
+  },
+  {
+   "anahtar": "zapata",
+   "ad": "Emiliano Zapata",
+   "rol": "devrimci",
+   "mevcut": "zapata"
+  },
+  {
+   "anahtar": "hidalgo",
+   "ad": "Miguel Hidalgo",
+   "rol": "bağımsızlık önderi",
+   "dosya": "Miguel Hidalgo.jpg",
+   "lisans": "Public domain",
+   "yazar": "It appears that Luis Garcés is the lithographer. (L. Garcés is visible at lower right, and",
+   "en": 1015,
+   "boy": 1247
+  },
+  {
+   "anahtar": "moctezuma",
+   "ad": "II. Moctezuma",
+   "rol": "Aztek imparatoru",
+   "dosya": "Moctezuma II.jpg",
+   "lisans": "Public domain",
+   "yazar": "N. Mathew",
+   "en": 537,
+   "boy": 756
+  },
+  {
+   "anahtar": "sorjuana",
+   "ad": "Sor Juana Inés de la Cruz",
+   "rol": "şair, düşünür",
+   "dosya": "Sor Juana Inés de la Cruz (1772).jpg",
+   "lisans": "Public domain",
+   "yazar": "Andrés de Islas",
+   "en": 768,
+   "boy": 968
+  },
+  {
+   "anahtar": "morelos",
+   "ad": "José María Morelos",
+   "rol": "bağımsızlık önderi",
+   "dosya": "Retrato de Morelos, 1813.png",
+   "lisans": "Public domain",
+   "yazar": "Unidentified engraver",
+   "en": 924,
+   "boy": 1200
+  },
+  {
+   "anahtar": "villa",
+   "ad": "Pancho Villa",
+   "rol": "devrimci komutan",
+   "dosya": "Portrait of \"Pancho\" Villa.jpg",
+   "lisans": "Public domain",
+   "yazar": "José Cortina",
+   "en": 1280,
+   "boy": 720,
+   "eski_dosya": "Pancho Villa.jpg"
+  },
+  {
+   "anahtar": "kahlo",
+   "ad": "Frida Kahlo",
+   "rol": "ressam",
+   "dosya": "Frida Kahlo, by Guillermo Kahlo.jpg",
+   "lisans": "Public domain",
+   "yazar": "Guillermo Kahlo",
+   "en": 1197,
+   "boy": 1795
+  },
+  {
+   "anahtar": "pakal",
+   "ad": "K'inich Janaab' Pakal",
+   "rol": "Maya kralı (Palenque)",
+   "dosya": "Maya Jade Mask & Burial Artifacts of Kinich Hanab Pakal, Ruler of Palenque, 615-683 AD.jpg",
+   "lisans": "CC0",
+   "yazar": "Gary Todd",
+   "en": 5184,
+   "boy": 3456,
+   "not": "portre yok; Palenque'deki mezarından yeşim maske (eser fotoğrafı)"
+  },
+  {
+   "anahtar": "diaz",
+   "ad": "Porfirio Díaz",
+   "rol": "devlet başkanı (tartışmalı)",
+   "dosya": "Porfirio Díaz en uniforme.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "en": 1951,
+   "boy": 3000,
+   "not": "tartışmalı ama ağırlığı büyük; listenin sonuna konuldu"
+  }
+ ],
+ "simgeler": [
+  {
+   "anahtar": "MX_bayrak",
+   "ad": "Meksika bayrağı",
+   "tur": "bayrak",
+   "mevcut": "MEX"
+  },
+  {
+   "anahtar": "MX_arma",
+   "ad": "Meksika arması",
+   "tur": "arma",
+   "dosya": "Coat of arms of Mexico.svg",
+   "lisans": "Public domain",
+   "yazar": "Omar Alejandro Covarrubias Neri based on the arms by Francisco Eppens Helguera (1968) and",
+   "en": 579,
+   "boy": 525
+  },
+  {
+   "anahtar": "MX_azt",
+   "ad": "Aztek İmparatorluğu · 1500",
+   "tur": "harita",
+   "hb_yil": "1500",
+   "hb_ad": "Aztec Empire"
+  },
+  {
+   "anahtar": "MX_maya",
+   "ad": "Maya şehir devletleri · 800",
+   "tur": "harita",
+   "hb_yil": "800",
+   "hb_ad": "Maya city-states"
+  },
+  {
+   "anahtar": "MX_chichen",
+   "ad": "Chichén Itzá",
+   "tur": "yapi",
+   "dosya": "Chichen Itza 3.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Daniel Schwen",
+   "en": 9771,
+   "boy": 5197
+  },
+  {
+   "anahtar": "MX_teotihuacan",
+   "ad": "Teotihuacan",
+   "tur": "yapi",
+   "dosya": "Teotihuacan Pyramid of the Sun.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "John Deckinga",
+   "en": 1568,
+   "boy": 1080
+  },
+  {
+   "anahtar": "MX_gunes",
+   "ad": "Aztek Güneş Taşı",
+   "tur": "eser",
+   "dosya": "Aztec calendar stone.jpg",
+   "lisans": "Public domain",
+   "yazar": "No machine-readable author provided. SeRgioo assumed (based on copyright claims).",
+   "en": 596,
+   "boy": 447
+  },
+  {
+   "anahtar": "MX_mendoza",
+   "ad": "Mendoza Kodeksi — Tenochtitlan'ın kuruluşu",
+   "tur": "eser",
+   "dosya": "Codex Mendoza folio 2r.jpg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 736,
+   "boy": 1077
+  },
+  {
+   "anahtar": "MX_palenque",
+   "ad": "Palenque",
+   "tur": "yapi",
+   "dosya": "Palenque Temple of Inscriptions.JPG",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Strobilomyces",
+   "en": 2048,
+   "boy": 1536
+  },
+  {
+   "anahtar": "MX_bellasartes",
+   "ad": "Güzel Sanatlar Sarayı",
+   "tur": "yapi",
+   "dosya": "Palacio de Bellas Artes.jpg",
+   "lisans": "CC BY 2.0",
+   "yazar": "Carolina López",
+   "en": 3808,
+   "boy": 3027
+  }
+ ]
+}

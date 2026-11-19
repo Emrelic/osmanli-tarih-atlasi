@@ -1,0 +1,211 @@
+{
+ "kod": "SY",
+ "ad": "Suriye · Şam",
+ "kisiler": [
+  {
+   "anahtar": "selahaddin",
+   "ad": "Selahaddin Eyyûbî",
+   "rol": "sultan, komutan (Şam'da gömülü)",
+   "mevcut": "selahaddin"
+  },
+  {
+   "anahtar": "zenobya",
+   "ad": "Zenobya",
+   "rol": "Palmira kraliçesi",
+   "dosya": "Antoninianus of Zenobia (obverse).png",
+   "lisans": "CC BY-SA 2.5",
+   "yazar": "CNG",
+   "en": 398,
+   "boy": 406,
+   "not": "kendi adına bastırdığı sikke"
+  },
+  {
+   "anahtar": "faysal1",
+   "ad": "I. Faysal",
+   "rol": "Suriye kralı (1920), sonra Irak kralı",
+   "dosya": "Faisal I of Iraq by Laszlo.jpg",
+   "lisans": "Public domain",
+   "yazar": "Philip de László",
+   "en": 797,
+   "boy": 1000,
+   "not": "Philip de László portresi"
+  },
+  {
+   "anahtar": "abdulmelik",
+   "ad": "Abdülmelik b. Mervân",
+   "rol": "Emevî halifesi",
+   "dosya": "First Umayyad gold dinar, Caliph Abd al-Malik, 695 CE.jpg",
+   "lisans": "Public domain",
+   "yazar": "PHGCOM",
+   "en": 1173,
+   "boy": 1161,
+   "not": "'ayakta halife' dinarı, 695"
+  },
+  {
+   "anahtar": "juliadomna",
+   "ad": "Julia Domna",
+   "rol": "Emesa'lı Roma imparatoriçesi",
+   "dosya": "Julia Domna (Julia Pia), inv. 2210, Roman - Braccio Nuovo, Museo Chiaramonti - Vatican Museums - DSC00897.jpg",
+   "lisans": "Public domain",
+   "yazar": "Daderot",
+   "en": 3382,
+   "boy": 5472,
+   "not": "Vatikan Müzesi büstü"
+  },
+  {
+   "anahtar": "filipus",
+   "ad": "Arap Philippus",
+   "rol": "Şahba doğumlu Roma imparatoru",
+   "dosya": "Portrait of Philip the Arab. Saint-Petersburg, The State Hermitage Museum (cropped).jpg",
+   "lisans": "CC BY-SA 2.0",
+   "yazar": "Sergey Sosnovskiy from Saint-Petersburg, Russia",
+   "en": 1284,
+   "boy": 1588,
+   "not": "Hermitage büstü"
+  },
+  {
+   "anahtar": "atras",
+   "ad": "Sultan el-Atraş",
+   "rol": "Büyük Suriye İsyanı'nın lideri",
+   "dosya": "Sultan Pasha Al-Atrash2.jpg",
+   "lisans": "Public domain",
+   "yazar": "American Colony (Jerusalem) Photography Dept. (photographer unnamed)",
+   "en": 2448,
+   "boy": 3632,
+   "not": "American Colony fotoğrafı"
+  },
+  {
+   "anahtar": "azma",
+   "ad": "Yusuf el-Azme",
+   "rol": "Meysalûn Savaşı kahramanı",
+   "dosya": "Yusuf al-Azma.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "en": 365,
+   "boy": 450
+  },
+  {
+   "anahtar": "kuvvetli",
+   "ad": "Şükrü el-Kuvvetli",
+   "rol": "bağımsız Suriye'nin cumhurbaşkanı",
+   "dosya": "Portrait of Shukri al-Quwatli in 1943 (3x4 cropped).jpeg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "en": 385,
+   "boy": 499
+  },
+  {
+   "anahtar": "esed",
+   "ad": "Hafız Esed",
+   "rol": "devlet başkanı (tartışmalı)",
+   "dosya": "Hafez al-Assad official portrait (precise crop)(2).jpg",
+   "lisans": "Public domain",
+   "yazar": "Government of Syria",
+   "en": 765,
+   "boy": 1014,
+   "not": "tartışmalı; listenin sonunda"
+  }
+ ],
+ "simgeler": [
+  {
+   "anahtar": "SY_bayrak",
+   "ad": "Suriye bayrağı",
+   "tur": "bayrak",
+   "dosya": "Flag of Syria (2025-).svg",
+   "lisans": "Public domain",
+   "yazar": "Modification by AnonMoos of PD image File:Flag of Syria (1930–1958, 1961–1963).s",
+   "en": 900,
+   "boy": 600,
+   "not": "güncel bayrak (2025)"
+  },
+  {
+   "anahtar": "SY_arma",
+   "ad": "Suriye arması",
+   "tur": "arma",
+   "dosya": "Emblem of Syria (2025–present).svg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 638,
+   "boy": 479,
+   "not": "güncel arma (2025)"
+  },
+  {
+   "anahtar": "eme",
+   "ad": "Emevî Halifeliği · 700",
+   "tur": "harita",
+   "mevcut": "eme"
+  },
+  {
+   "anahtar": "SY_emevi",
+   "ad": "Emevî Camii (Şam)",
+   "tur": "yapi",
+   "dosya": "Umayyad Mosque, Damascus.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Bernard Gagnon",
+   "en": 3056,
+   "boy": 2054
+  },
+  {
+   "anahtar": "SY_palmira",
+   "ad": "Palmira",
+   "tur": "yapi",
+   "dosya": "Palmyra 03.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Bernard Gagnon",
+   "en": 3260,
+   "boy": 2201,
+   "not": "UNESCO; Zenobya'nın şehri"
+  },
+  {
+   "anahtar": "SY_bel",
+   "ad": "Bel Tapınağı (Palmira)",
+   "tur": "yapi",
+   "dosya": "The Temple of Bel.JPG",
+   "lisans": "Attribution",
+   "yazar": "haitham alfalah",
+   "en": 3264,
+   "boy": 2448
+  },
+  {
+   "anahtar": "SY_krak",
+   "ad": "Krak des Chevaliers",
+   "tur": "yapi",
+   "dosya": "KRAK DES CHEVALIERS - GAR - 6-00.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Gianfranco Gazzetti",
+   "en": 6532,
+   "boy": 4376,
+   "not": "Haçlı kalesi"
+  },
+  {
+   "anahtar": "SY_halep",
+   "ad": "Halep Kalesi",
+   "tur": "yapi",
+   "dosya": "Citadel of Aleppo.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Memorino",
+   "en": 1709,
+   "boy": 836
+  },
+  {
+   "anahtar": "SY_busra",
+   "ad": "Busra Roma tiyatrosu",
+   "tur": "yapi",
+   "dosya": "Bosra square.jpg",
+   "lisans": "CC BY 2.0",
+   "yazar": "upyernoz",
+   "en": 1536,
+   "boy": 1024
+  },
+  {
+   "anahtar": "SY_hazine",
+   "ad": "Emevî Camii Hazine Kubbesi",
+   "tur": "yapi",
+   "dosya": "Umayyad Mosque-Dome of the Treasury.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "No machine-readable author provided. Heretiq assumed (based on copyright claims)",
+   "en": 1536,
+   "boy": 2048
+  }
+ ]
+}

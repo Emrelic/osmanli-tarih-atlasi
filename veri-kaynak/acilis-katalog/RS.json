@@ -1,0 +1,221 @@
+{
+ "kod": "RS",
+ "ad": "Sırbistan",
+ "kisiler": [
+  {
+   "anahtar": "dusan",
+   "ad": "Çar Stefan Duşan",
+   "rol": "Sırp Çarlığı kurucusu",
+   "dosya": "Car Dušan, Manastir Lesnovo, XIV vek, Makedonija.jpg",
+   "lisans": "Public domain",
+   "yazar": "Bilinmeyen",
+   "en": 500,
+   "boy": 686,
+   "not": "Lesnovo Manastırı freski (14. yy)"
+  },
+  {
+   "anahtar": "sava",
+   "ad": "Aziz Sava",
+   "rol": "Sırp Kilisesi'nin kurucusu",
+   "dosya": "Saint Sava, Patriarchate of Peć (2).jpg",
+   "lisans": "Public domain",
+   "yazar": "Bilinmeyen",
+   "en": 391,
+   "boy": 491,
+   "not": "Peć Patrikhanesi freski"
+  },
+  {
+   "anahtar": "nemanja",
+   "ad": "Stefan Nemanja",
+   "rol": "Nemanjić hanedanı kurucusu",
+   "dosya": "Stefan Nemanja.jpg",
+   "lisans": "Public domain",
+   "yazar": "Bilinmeyen",
+   "en": 900,
+   "boy": 1329,
+   "not": "freski",
+   "kirp": [
+    3.2,
+    1.6,
+    0.12
+   ]
+  },
+  {
+   "anahtar": "lazar",
+   "ad": "Prens Lazar",
+   "rol": "Kosova Savaşı'nın önderi",
+   "dosya": "Prince Lazar (Ravanica Monastery).jpg",
+   "lisans": "Public domain",
+   "yazar": "Bilinmeyen",
+   "en": 199,
+   "boy": 300,
+   "not": "Ravanica Manastırı freski"
+  },
+  {
+   "anahtar": "karadjordje",
+   "ad": "Karađorđe",
+   "rol": "Birinci Sırp Ayaklanması önderi",
+   "dosya": "Karađorđe Petrović, by Vladimir Borovikovsky, 1816.jpg",
+   "lisans": "Public domain",
+   "yazar": "Vladimir Borovikovsky",
+   "en": 1024,
+   "boy": 1430,
+   "not": "Borovikovski portresi, 1816"
+  },
+  {
+   "anahtar": "milos",
+   "ad": "Miloš Obrenović",
+   "rol": "Sırbistan prensi",
+   "dosya": "Miloš Obrenović 1848.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unidentified painter",
+   "en": 495,
+   "boy": 702,
+   "not": "dönem portresi"
+  },
+  {
+   "anahtar": "tesla",
+   "ad": "Nikola Tesla",
+   "rol": "mucit, elektrik mühendisi",
+   "dosya": "Tesla circa 1890.jpeg",
+   "lisans": "Public domain",
+   "yazar": "Napoleon Sarony",
+   "en": 940,
+   "boy": 1260,
+   "not": "Sarony fotoğrafı"
+  },
+  {
+   "anahtar": "pupin",
+   "ad": "Mihajlo Pupin",
+   "rol": "fizikçi, mucit",
+   "dosya": "Mihajlo Pupin.jpg",
+   "lisans": "Public domain",
+   "yazar": "N. A.\n\n(Life time: N. A.)",
+   "en": 318,
+   "boy": 424,
+   "not": "fotoğraf (düşük çözünürlük)"
+  },
+  {
+   "anahtar": "milankovic",
+   "ad": "Milutin Milanković",
+   "rol": "jeofizikçi, iklim bilimci",
+   "dosya": "Milutin Milanković 2.jpg",
+   "lisans": "Public domain",
+   "yazar": "Bilinmeyen",
+   "en": 270,
+   "boy": 360,
+   "not": "fotoğraf (düşük çözünürlük)"
+  },
+  {
+   "anahtar": "andric",
+   "ad": "İvo Andriç",
+   "rol": "yazar, Nobel",
+   "dosya": "S. Kragujevic, Ivo Andric, 1961 (3x4 cropped).jpg",
+   "lisans": "CC BY-SA 3.0 rs",
+   "yazar": "Stevan Kragujević",
+   "en": 1037,
+   "boy": 1382,
+   "not": "Kragujević fotoğrafı, 1961"
+  }
+ ],
+ "simgeler": [
+  {
+   "anahtar": "RS_bayrak",
+   "ad": "Sırbistan bayrağı",
+   "tur": "bayrak",
+   "dosya": "Flag of Serbia.svg",
+   "lisans": "Public domain",
+   "yazar": "See File history below for details.",
+   "en": 1350,
+   "boy": 900
+  },
+  {
+   "anahtar": "RS_arma",
+   "ad": "Sırbistan arması",
+   "tur": "arma",
+   "dosya": "Coat of arms of Serbia.svg",
+   "lisans": "Public domain",
+   "yazar": "upload: User:Rokerismoravee",
+   "en": 736,
+   "boy": 917
+  },
+  {
+   "anahtar": "RS_nemanjic",
+   "ad": "Nemanjić hanedanı çift başlı kartalı",
+   "tur": "arma",
+   "dosya": "Coat of Arms of Nemanjić Dynasty.svg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "CarJunakaCg",
+   "en": 623,
+   "boy": 790
+  },
+  {
+   "anahtar": "RS_studenica",
+   "ad": "Studenica Manastırı",
+   "tur": "yapi",
+   "dosya": "Manastir Studenica, Bogorodičina crkva sa ulaznim portalom.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "DjordjeMarkovic",
+   "en": 6000,
+   "boy": 4000
+  },
+  {
+   "anahtar": "RS_gracanica",
+   "ad": "Gračanica Manastırı",
+   "tur": "yapi",
+   "dosya": "Gračanica Monastery, 2013-1.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Sasa Micic",
+   "en": 4280,
+   "boy": 2830
+  },
+  {
+   "anahtar": "RS_kalemegdan",
+   "ad": "Belgrad Kalesi (Kalemegdan)",
+   "tur": "yapi",
+   "dosya": "P037152-661920 - Belgrade fortress stand at the downtown of Belgrade.jpg",
+   "lisans": "CC BY 4.0",
+   "yazar": "Oliver Bunic",
+   "en": 5514,
+   "boy": 3419
+  },
+  {
+   "anahtar": "RS_hilandar",
+   "ad": "Hilandar Manastırı",
+   "tur": "yapi",
+   "dosya": "View of the Hilandar monastery, Mount Athos, Greece.jpg",
+   "lisans": "CC BY 3.0",
+   "yazar": "Саша Шљукић",
+   "en": 3648,
+   "boy": 2736
+  },
+  {
+   "anahtar": "RS_hram",
+   "ad": "Aziz Sava Tapınağı (Belgrad)",
+   "tur": "yapi",
+   "dosya": "Hram svetog save beograd 0005 (edited).jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Npps90",
+   "en": 4319,
+   "boy": 3606
+  },
+  {
+   "anahtar": "RS_kosovo",
+   "ad": "Kosova Muharebesi (Stefanović, 1870)",
+   "tur": "eser",
+   "dosya": "Battle of Kosovo, Adam Stefanović, 1870.jpg",
+   "lisans": "Public domain",
+   "yazar": "Adam Stefanović",
+   "en": 1255,
+   "boy": 750
+  },
+  {
+   "anahtar": "RS_harita",
+   "ad": "Sırbistan · 1279",
+   "tur": "harita",
+   "hb_yil": "1279",
+   "hb_ad": "Serbia",
+   "not": "Duşan dönemi (1350) için dataset yılı yok; en yakın 1279 ve 1300 (Serbia yalnız 1279'da kayıtlı)"
+  }
+ ]
+}

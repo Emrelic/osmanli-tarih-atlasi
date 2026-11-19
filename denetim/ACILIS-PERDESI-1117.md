@@ -102,5 +102,40 @@ Fatih + Kanunî, Roma'dan en az 5 imparator, her milletten 1-2 kişi).
   WebP kırıntısı tepe 77'ye çıkıyordu, eski test Hitler hücresini dolu sanmıştı — yakalandı).
   Sınama 1400×860: 199 karo (Menelik sonra eklendi → 200), ilk 36 karo ONCE sırasında, duvar
   6,1 sn, çakışma 0. Tabakalar: portre 248 KB (97), amblem 189 KB (63), tablo/simge 91 KB (20).
+- **Kıvılcım noktaları (19 Kas, Emre):** kürenin çevresindeki ufak noktalar, fırlama anındaki
+  kıvılcım halkalarının `fill:"backwards"` yüzünden başlangıçtan beri görünmesiydi; artık yalnız
+  kendi anında (`forwards`).
+- **Ziyaretçinin milleti önce (ACILIS-ULKE-1119, 19 Kas, Emre):** "her milletin 10 kişi + 10
+  simgesi; site ziyaretçinin devletinin dilinde açılsın; perde önce o milletin 20 görselini, sonra
+  komşu/rakiplerden 20'sini, sonra dünyanın en önemlilerini fırlatsın; yeteri kadar görsel
+  çıkmazsa ne kadar çıkarsa o kadar."
+  - **Ülke:** `data/acilis_ulke.js` (üretici `arac/acilis_ulke.py`) sayfanın başında saat
+    diliminden (IANA → ülke, 268 dilim) ya da tarayıcı dilinin bölgesinden ülkeyi bulur
+    (`?ulke=XX` sınama için). 105 ülkenin dil sırası (`DIL_GRUP`: eski Sovyet Türk
+    cumhuriyetleri ru+tr, Mağrip ar+fr, Güney Afrika en…), 48 akraba (paketi olmayan ülke en
+    yakın paketi alır), 74 komşu satırı.
+  - **Dil:** `js/ceviri.js` sırası `?dil` > kayıtlı seçim > ziyaretçi ülkesinin ilk mevcut dili
+    (KAYDEDİLMEZ) > tr. Sınama: DZ → ar (sağdan sola), TM → ru.
+  - **Paketler:** `arac/acilis_millet.py` 74 milletin kataloğundan (`veri-kaynak/acilis-katalog/
+    <KOD>.json`, Commons dosya adları API ile doğrulanmış; araştırma 9 alt ajan) kişi 120×160,
+    bayrak/arma 128 saydam, yapı/eser 160×120 hücreli tek WebP tabaka + `data/acilis_m/<KOD>.js`.
+    Ziyaretçinin paketi senkron yüklenir; perde sırası ① paket ② komşular (20, dar ekranda 12)
+    ③ `ONCE` ④ turlar. Paketteki `t:"b"` dünya setindeki hazır karoyu adıyla çağırır
+    (Suudi paketinde Hz. Muhammed levhası).
+  - **Gözle denetim:** 74 paket temas tabakasında tek tek bakıldı; yüz bulucunun sahte küçük
+    yüze yakınlaştığı 44 portreye elle kırpma yazıldı (Einstein, Dante, Zwingli, Sejong…); içeriği
+    yanlış çıkan dosyalardan 5'i değiştirildi (Korkunç İvan, Pancho Villa, Zanabazar, İkbal,
+    Nevâî — "Alisher Navoi.jpg" metro istasyonuydu), 12'si `cikar:` ile düştü (liste
+    `img/acilis/m/KAYNAK.md` sonunda).
+  - **Sınama (başsız Chrome):** SA 1400×860 — ilk karo Hz. Muhammed levhası, sonra 18 Suudi
+    karosu, sonra komşular (EG IQ IR TR SY); US — ABD sonra Meksika/Kanada/Britanya/Fransa;
+    375×812 TR ve KZ — doğru sıra, taşma yok. AT (önceki sınama): 20 paket + 20 komşu (DE HU
+    IT TR Bizans).
 - **Ölçülmedi:** tam sitede yükleme süresine etkisi (worktree'de üretilmiş veri yok);
   push kapısının `denetle_yayin` sınavı sitenin açılışını koşturur.
+- **Bulunamadı / borç:** Commons bu IP'yi 19 Kas öğleden sonra tamamen 429'la kesti (küçük resim
+  sunucusu dahil). İnemeyen 17 görsel (Nâdir Şah, Truganini, Ahundzade, Babek, I. Leopold,
+  İvan Aleksandar, Tiradentes, Laurier, O'Higgins, Allende, Danquah, Sâdî, Onn Jaafar, Abdul
+  Samad, Niyazov, Urdaneta, Madara Atlısı) + 5 yeni dosya pakette yok; engel kalkınca
+  `py arac/acilis_millet.py` (istekler arası 6 sn) yalnız eksikleri indirir. KZ (2 kişi), TM (1),
+  KG (3), AZ (5) ince — ikinci araştırma turu gerekiyor.

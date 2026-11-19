@@ -1,0 +1,244 @@
+{
+ "kod": "IE",
+ "ad": "İrlanda",
+ "kisiler": [
+  {
+   "anahtar": "patrick",
+   "ad": "Aziz Patrick",
+   "rol": "din önderi",
+   "dosya": "Christchurch cathedral Dublin - Baptistery stained glass (St Patrick).jpg",
+   "lisans": "Public domain",
+   "yazar": "ManuRoquette",
+   "en": 2976,
+   "boy": 3968,
+   "not": "vitray (Christ Church Katedrali, Dublin); dönemin portresi yok",
+   "cikar": "vitray çok küçük"
+  },
+  {
+   "anahtar": "brianboru",
+   "ad": "Brian Boru",
+   "rol": "hükümdar",
+   "dosya": "Brian Boru Front Piece 1723.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "en": 639,
+   "boy": 893,
+   "not": "1723 tarihli gravür frontispis — dönemine yakın değil, ama tek PD görsel",
+   "kirp": [
+    4.9,
+    1.9,
+    0.1
+   ]
+  },
+  {
+   "anahtar": "oconnell",
+   "ad": "Daniel O'Connell",
+   "rol": "devlet adamı",
+   "dosya": "Portrait of Daniel O'Connell (1775-1847) (by Stephen Catterson Smith the Elder).jpg",
+   "lisans": "Public domain",
+   "yazar": "Stephen Catterson Smith",
+   "en": 512,
+   "boy": 639
+  },
+  {
+   "anahtar": "collins",
+   "ad": "Michael Collins",
+   "rol": "devrimci, devlet adamı",
+   "dosya": "Michael Collins 1922.jpg",
+   "lisans": "Public domain",
+   "yazar": "Agence de presse Meurisse",
+   "en": 5059,
+   "boy": 7000
+  },
+  {
+   "anahtar": "devalera",
+   "ad": "Éamon de Valera",
+   "rol": "devlet adamı",
+   "dosya": "Éamon de Valera - LCCN2016860668 (cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": "Harris & Ewing, photographer",
+   "en": 3857,
+   "boy": 5140
+  },
+  {
+   "anahtar": "swift",
+   "ad": "Jonathan Swift",
+   "rol": "yazar",
+   "dosya": "Jervas-JonathanSwift.jpg",
+   "lisans": "Public domain",
+   "yazar": "Charles Jervas",
+   "en": 400,
+   "boy": 495
+  },
+  {
+   "anahtar": "wilde",
+   "ad": "Oscar Wilde",
+   "rol": "yazar",
+   "dosya": "Oscar Wilde by Napoleon Sarony, 1882.jpg",
+   "lisans": "Public domain",
+   "yazar": "Napoleon Sarony",
+   "en": 2186,
+   "boy": 3655
+  },
+  {
+   "anahtar": "joyce",
+   "ad": "James Joyce",
+   "rol": "yazar",
+   "dosya": "James Joyce by Alex Ehrenzweig, 1915 restored.jpg",
+   "lisans": "Public domain",
+   "yazar": "James_Joyce_by_Alex_Ehrenzweig,_1915.jpg: Alex Ehrenzweig",
+   "en": 918,
+   "boy": 1513
+  },
+  {
+   "anahtar": "yeats",
+   "ad": "W. B. Yeats",
+   "rol": "şair",
+   "dosya": "William Butler Yeats by George Charles Beresford.jpg",
+   "lisans": "Public domain",
+   "yazar": "George Charles Beresford",
+   "en": 1076,
+   "boy": 1536
+  },
+  {
+   "anahtar": "wolfetone",
+   "ad": "Wolfe Tone",
+   "rol": "devrimci",
+   "dosya": "Theobald Wolfe Tone.jpg",
+   "lisans": "Public domain",
+   "yazar": "T. W. Huffam",
+   "en": 1190,
+   "boy": 1592
+  },
+  {
+   "anahtar": "parnell",
+   "ad": "Charles Stewart Parnell",
+   "rol": "devlet adamı",
+   "dosya": "Charles Stewart Parnell - Brady-Handy.jpg",
+   "lisans": "Public domain",
+   "yazar": "Mathew Benjamin Brady / Levin Corbin Handy",
+   "en": 3232,
+   "boy": 4059
+  },
+  {
+   "anahtar": "boyle",
+   "ad": "Robert Boyle",
+   "rol": "bilim insanı",
+   "dosya": "Robert Boyle 0001.jpg",
+   "lisans": "Public domain",
+   "yazar": "Johann Kerseboom",
+   "en": 523,
+   "boy": 663
+  }
+ ],
+ "simgeler": [
+  {
+   "anahtar": "IE_bayrak",
+   "ad": "İrlanda bayrağı",
+   "tur": "bayrak",
+   "dosya": "Flag of Ireland.svg",
+   "lisans": "Public domain",
+   "yazar": "Éire",
+   "en": 1200,
+   "boy": 600
+  },
+  {
+   "anahtar": "IE_arma",
+   "ad": "İrlanda arması",
+   "tur": "arma",
+   "dosya": "Coat of arms of Ireland.svg",
+   "lisans": "Public domain",
+   "yazar": "Setanta Saki",
+   "en": 640,
+   "boy": 830
+  },
+  {
+   "anahtar": "IE_kells",
+   "ad": "Kells Kitabı",
+   "tur": "eser",
+   "dosya": "KellsFol032vChristEnthroned.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unattributed",
+   "en": 1484,
+   "boy": 1934
+  },
+  {
+   "anahtar": "IE_newgrange",
+   "ad": "Newgrange",
+   "tur": "yapi",
+   "dosya": "Newgrange Entrance.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "© Kenia de Aguiar Ribeiro",
+   "en": 640,
+   "boy": 420
+  },
+  {
+   "anahtar": "IE_moher",
+   "ad": "Moher Kayalıkları",
+   "tur": "yapi",
+   "dosya": "Ireland Cliffs of Moher BW 2025-09-11 14-27-51.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Berthold Werner",
+   "en": 6016,
+   "boy": 3384
+  },
+  {
+   "anahtar": "IE_cashel",
+   "ad": "Cashel Kayası",
+   "tur": "yapi",
+   "dosya": "Rock of Cashel.jpg",
+   "lisans": "Public domain",
+   "yazar": "Matpib",
+   "en": 1722,
+   "boy": 1158
+  },
+  {
+   "anahtar": "IE_ardagh",
+   "ad": "Ardagh Kadehi",
+   "tur": "eser",
+   "dosya": "Ardagh chalice.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Created by Kglavin",
+   "en": 1058,
+   "boy": 852
+  },
+  {
+   "anahtar": "IE_tara",
+   "ad": "Tara Broşu",
+   "tur": "eser",
+   "dosya": "Tara Brooch (reverse).jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Ceoil",
+   "en": 4032,
+   "boy": 3024
+  },
+  {
+   "anahtar": "IE_celtic",
+   "ad": "Muiredach Yüksek Haçı",
+   "tur": "eser",
+   "dosya": "Monasterboice - Muiredach's Cross - east.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Otter at Dutch Wikipedia",
+   "en": 700,
+   "boy": 1101,
+   "not": "Muiredach Yüksek Haçı, Monasterboice (doğu yüzü)"
+  },
+  {
+   "anahtar": "IE_trinity",
+   "ad": "Trinity College Uzun Oda",
+   "tur": "yapi",
+   "dosya": "Long Room Interior, Trinity College Dublin, Ireland - Diliff.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Diliff",
+   "en": 9000,
+   "boy": 6796
+  },
+  {
+   "anahtar": "IE_harita",
+   "ad": "İrlanda Krallığı · 1800",
+   "tur": "harita",
+   "hb_yil": "1800",
+   "hb_ad": "Kingdom of Ireland"
+  }
+ ]
+}

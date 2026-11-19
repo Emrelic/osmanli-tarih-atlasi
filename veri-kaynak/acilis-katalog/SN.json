@@ -1,0 +1,228 @@
+{
+ "kod": "SN",
+ "ad": "Senegal",
+ "kisiler": [
+  {
+   "anahtar": "senghor",
+   "ad": "Léopold Sédar Senghor",
+   "rol": "ilk cumhurbaşkanı, şair, Négritude",
+   "dosya": "Léopold Sédar Senghor.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Bundesarchiv_B_145_Bild-F011981-0003,_Frankfurt-Main,_Staats",
+   "en": 284,
+   "boy": 348
+  },
+  {
+   "anahtar": "diop",
+   "ad": "Cheikh Anta Diop",
+   "rol": "tarihçi, bilim insanı",
+   "dosya": "Cheikh Anta Diop, late 1940s.jpg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 241,
+   "boy": 383
+  },
+  {
+   "anahtar": "bamba",
+   "ad": "Cheikh Ahmadou Bamba",
+   "rol": "Muridiyye tarikatının kurucusu",
+   "dosya": "Cheikh Ahmadou Bamba 1918.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown photographer",
+   "en": 1280,
+   "boy": 1280,
+   "not": "tek bilinen fotoğraf: yüzü örtülü",
+   "cikar": "dosya kartpostal tabakası"
+  },
+  {
+   "anahtar": "diagne",
+   "ad": "Blaise Diagne",
+   "rol": "ilk siyah Fransız milletvekili",
+   "dosya": "Blaise Diagne-1921.jpg",
+   "lisans": "Public domain",
+   "yazar": "Agence Meurisse (domaine public, voir fiche détaillée Gallic",
+   "en": 499,
+   "boy": 686
+  },
+  {
+   "anahtar": "sembene",
+   "ad": "Ousmane Sembène",
+   "rol": "yazar, 'Afrika sinemasının babası'",
+   "dosya": "Ousmane Sembène (1987) by Guenter Prust.jpg",
+   "lisans": "CC BY 3.0",
+   "yazar": "Günter Prust",
+   "en": 201,
+   "boy": 250,
+   "not": "küçük çözünürlük 201x250"
+  },
+  {
+   "anahtar": "mariamaba",
+   "ad": "Mariama Bâ",
+   "rol": "yazar",
+   "dosya": "Mariama Bâ vers 1958 Unesco Domaine public.jpg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 407,
+   "boy": 542
+  },
+  {
+   "anahtar": "gueye",
+   "ad": "Lamine Guèye",
+   "rol": "siyasetçi, hukukçu",
+   "dosya": "Amadou Lamine-Guèye en 1946.jpg",
+   "lisans": "Public domain",
+   "yazar": "Anonymous (Keystone-France)",
+   "en": 440,
+   "boy": 573
+  },
+  {
+   "anahtar": "ndour",
+   "ad": "Youssou N'Dour",
+   "rol": "müzisyen, bakan",
+   "dosya": "Youssou N'Dour.jpg",
+   "lisans": "CC BY 3.0",
+   "yazar": "Marc Ras",
+   "en": 872,
+   "boy": 1106
+  },
+  {
+   "anahtar": "diouf",
+   "ad": "Abdou Diouf",
+   "rol": "cumhurbaşkanı",
+   "dosya": "Le président du Sénégal Abdou Diouf en 1988.jpg",
+   "lisans": "CC BY 3.0",
+   "yazar": "Roland Godefroy",
+   "en": 1696,
+   "boy": 1168
+  },
+  {
+   "anahtar": "wade",
+   "ad": "Abdoulaye Wade",
+   "rol": "cumhurbaşkanı",
+   "dosya": "Abdoulaye Wade.jpg",
+   "lisans": "CC BY-SA 2.0",
+   "yazar": "World Economic Forum from Cologny, Switzerland",
+   "en": 1995,
+   "boy": 2864,
+   "kirp": [
+    4.4,
+    3.2,
+    0.2
+   ]
+  },
+  {
+   "anahtar": "sadio",
+   "ad": "Sadio Mané",
+   "rol": "futbolcu",
+   "dosya": "Sadio Mané.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Steindy (talk) 18:26, 7 October 2013 (UTC)",
+   "en": 2000,
+   "boy": 2856,
+   "yedek": true
+  },
+  {
+   "anahtar": "dia",
+   "ad": "Mamadou Dia",
+   "rol": "bağımsızlık başbakanı",
+   "dosya": "Mamadou Dia 1962.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Bruno Christophe",
+   "en": 150,
+   "boy": 192,
+   "not": "küçük çözünürlük",
+   "yedek": true
+  }
+ ],
+ "simgeler": [
+  {
+   "anahtar": "SN_bayrak",
+   "ad": "Senegal bayrağı",
+   "tur": "bayrak",
+   "dosya": "Flag of Senegal.svg",
+   "lisans": "Public domain",
+   "yazar": "Original upload by Nightstallion",
+   "en": 900,
+   "boy": 600
+  },
+  {
+   "anahtar": "SN_arma",
+   "ad": "Senegal arması",
+   "tur": "arma",
+   "dosya": "Coat of arms of Senegal.svg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Commons",
+   "en": 914,
+   "boy": 1085
+  },
+  {
+   "anahtar": "SN_harita",
+   "ad": "Senegal krallıkları (Volof/Kayor) · 1700",
+   "tur": "harita",
+   "hb_yil": "1700",
+   "hb_ad": "Senegal",
+   "not": "hb 'Senegal' kutusu; Volof ülkeleri bölgesi"
+  },
+  {
+   "anahtar": "SN_goree",
+   "ad": "Gorée Adası, Kölelik Evi",
+   "tur": "yapi",
+   "dosya": "A balcony of the House of Slaves in Gorée.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Issathiome",
+   "en": 2901,
+   "boy": 3862
+  },
+  {
+   "anahtar": "SN_renaissance",
+   "ad": "Afrika Rönesansı Anıtı",
+   "tur": "yapi",
+   "dosya": "African Renaissance Monument (5502494604).jpg",
+   "lisans": "CC BY 2.0",
+   "yazar": "Jeff Attaway",
+   "en": 3041,
+   "boy": 2281
+  },
+  {
+   "anahtar": "SN_touba",
+   "ad": "Touba Büyük Camii",
+   "tur": "yapi",
+   "dosya": "The Grande Mosquée de Touba.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Issathiome",
+   "en": 3065,
+   "boy": 4080
+  },
+  {
+   "anahtar": "SN_faidherbe",
+   "ad": "Faidherbe Köprüsü, Saint-Louis",
+   "tur": "yapi",
+   "dosya": "PontFaidherbe.JPG",
+   "lisans": "Public domain",
+   "yazar": "Ji-Elle",
+   "en": 1767,
+   "boy": 1185
+  },
+  {
+   "anahtar": "SN_wassu",
+   "ad": "Senegambiya taş daireleri (Wassu)",
+   "tur": "yapi",
+   "dosya": "Wassu stone circle.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Ikiwaner",
+   "en": 3888,
+   "boy": 2592
+  },
+  {
+   "anahtar": "SN_retba",
+   "ad": "Retba Gölü (Pembe Göl)",
+   "tur": "yapi",
+   "dosya": "Lac Rose in Senegal.jpg",
+   "lisans": "CC BY-SA 2.0",
+   "yazar": "Arnault",
+   "en": 2048,
+   "boy": 1536,
+   "not": "doğal anıt"
+  }
+ ]
+}

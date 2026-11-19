@@ -1,0 +1,215 @@
+{
+ "kod": "IL",
+ "ad": "İsrail · İbrânî",
+ "kisiler": [
+  {
+   "anahtar": "musa",
+   "ad": "Hz. Musa",
+   "rol": "peygamber, Tevrat'ın tebliğcisi",
+   "mevcut": "musa"
+  },
+  {
+   "anahtar": "davud",
+   "ad": "Hz. Davud",
+   "rol": "İsrail kralı",
+   "dosya": "King David, the King of Israel.jpg",
+   "lisans": "Public domain",
+   "yazar": "Gerard van Honthorst",
+   "en": 2686,
+   "boy": 3761,
+   "not": "Gerard van Honthorst"
+  },
+  {
+   "anahtar": "suleyman",
+   "ad": "Hz. Süleyman",
+   "rol": "İsrail kralı",
+   "dosya": "Simeon Solomon, King Solomon, 1872 or 1874, NGA 76152 (cropped).jpg",
+   "lisans": "CC0",
+   "yazar": "Simeon Solomon",
+   "en": 1543,
+   "boy": 2055,
+   "not": "Simeon Solomon (1872-74)"
+  },
+  {
+   "anahtar": "isa",
+   "ad": "Hz. İsa",
+   "rol": "peygamber",
+   "mevcut": "isa"
+  },
+  {
+   "anahtar": "yesaya",
+   "ad": "Yeşaya",
+   "rol": "peygamber",
+   "dosya": "Jesaja (Michelangelo).jpg",
+   "lisans": "Public domain",
+   "yazar": "Michelangelo",
+   "en": 1500,
+   "boy": 2182,
+   "not": "Michelangelo, Sistina Şapeli",
+   "kirp": [
+    5.0,
+    1.5,
+    0.15
+   ]
+  },
+  {
+   "anahtar": "maimonides",
+   "ad": "Musa b. Meymun (Maimonides)",
+   "rol": "hekim, filozof, hahambaşı",
+   "dosya": "Portrait of Moses Maimonides in Thesaurus antiquitatum sacrarum.tif",
+   "lisans": "Public domain",
+   "yazar": "Blaisio Ugolino",
+   "en": 1264,
+   "boy": 717,
+   "not": "Ugolino gravürü (1744)",
+   "kirp": [
+    5.0,
+    4.8,
+    0.12
+   ]
+  },
+  {
+   "anahtar": "herzl",
+   "ad": "Theodor Herzl",
+   "rol": "siyonizmin kurucusu",
+   "dosya": "Theodor Herzl (3x4 cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": "Carl Pietzner",
+   "en": 1567,
+   "boy": 2084,
+   "not": "Carl Pietzner"
+  },
+  {
+   "anahtar": "bengurion",
+   "ad": "David Ben-Gurion",
+   "rol": "kurucu başbakan",
+   "dosya": "David Ben-Gurion (D597-087).jpg",
+   "lisans": "Public domain",
+   "yazar": "Fritz Cohen",
+   "en": 2048,
+   "boy": 2796,
+   "not": "Fritz Cohen"
+  },
+  {
+   "anahtar": "golda",
+   "ad": "Golda Meir",
+   "rol": "başbakan",
+   "dosya": "Golda Meir (1964) cropped.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Willem van de Poll",
+   "en": 981,
+   "boy": 1160
+  },
+  {
+   "anahtar": "weizmann",
+   "ad": "Chaim Weizmann",
+   "rol": "kimyager, ilk cumhurbaşkanı",
+   "dosya": "Flickr - Government Press Office (GPO) - President Chaim Weizmann (retouched).jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Hugo Mendelson",
+   "en": 2052,
+   "boy": 3066
+  }
+ ],
+ "simgeler": [
+  {
+   "anahtar": "IL_bayrak",
+   "ad": "İsrail bayrağı",
+   "tur": "bayrak",
+   "dosya": "Flag of Israel.svg",
+   "lisans": "Public domain",
+   "yazar": "Israel Belkind and Fanny Abramovitch (original)\n“The Provisional Council of Stat",
+   "en": 1100,
+   "boy": 800
+  },
+  {
+   "anahtar": "IL_arma",
+   "ad": "İsrail arması",
+   "tur": "arma",
+   "dosya": "Emblem of Israel.svg",
+   "lisans": "Public domain",
+   "yazar": "Original design by Max and Gabriel Shamir; Tonyjeff, based on national symbol.",
+   "en": 863,
+   "boy": 1071
+  },
+  {
+   "anahtar": "IL_harita",
+   "ad": "Davud ve Süleyman Krallığı · MÖ 1000",
+   "tur": "harita",
+   "hb_yil": "bc1000",
+   "hb_ad": "Kingdom of David and Solomon"
+  },
+  {
+   "anahtar": "IL_agla",
+   "ad": "Ağlama Duvarı",
+   "tur": "yapi",
+   "dosya": "Westernwall2.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Golasso",
+   "en": 2592,
+   "boy": 1944
+  },
+  {
+   "anahtar": "IL_kubbe",
+   "ad": "Kubbetüs-Sahra",
+   "tur": "yapi",
+   "dosya": "Jerusalem DomeoftheRock J65 (cropped).JPG",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Ludvig14",
+   "en": 4260,
+   "boy": 2874
+  },
+  {
+   "anahtar": "IL_masada",
+   "ad": "Masada",
+   "tur": "yapi",
+   "dosya": "Israel-2013-Aerial 21-Masada.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Godot13",
+   "en": 3755,
+   "boy": 5000
+  },
+  {
+   "anahtar": "IL_tapinak",
+   "ad": "Kudüs'te İkinci Tapınak modeli",
+   "tur": "diger",
+   "dosya": "Jerusalem Modell BW 2.JPG",
+   "lisans": "Public domain",
+   "yazar": "Berthold Werner",
+   "en": 3867,
+   "boy": 2222,
+   "not": "Kutsal Toprak Modeli"
+  },
+  {
+   "anahtar": "IL_menora",
+   "ad": "Menora",
+   "tur": "eser",
+   "dosya": "Menorah 0307.jpg",
+   "lisans": "Public domain",
+   "yazar": "ariely",
+   "en": 1193,
+   "boy": 1687
+  },
+  {
+   "anahtar": "IL_kabir",
+   "ad": "Kutsal Kabir Kilisesi",
+   "tur": "yapi",
+   "dosya": "Church of the Holy Sepulchre by Gerd Eichmann (cropped).jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Gerd Eichmann",
+   "en": 3107,
+   "boy": 2024
+  },
+  {
+   "anahtar": "IL_halep",
+   "ad": "Halep Mushafı (Aleppo Codex)",
+   "tur": "eser",
+   "dosya": "Aleppo Codex Joshua 1 1.jpg",
+   "lisans": "Public domain",
+   "yazar": "see en:Aleppo Codex; scanned by http://www.aleppocodex.org",
+   "en": 728,
+   "boy": 356,
+   "not": "Tanah'ın en eski tam nüshası, 10. yy"
+  }
+ ]
+}

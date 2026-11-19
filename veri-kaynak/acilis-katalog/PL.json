@@ -1,0 +1,208 @@
+{
+ "kod": "PL",
+ "ad": "Polonya",
+ "kisiler": [
+  {
+   "anahtar": "kopernik",
+   "ad": "Kopernik",
+   "rol": "astronom",
+   "mevcut": "kopernik"
+  },
+  {
+   "anahtar": "chopin",
+   "ad": "Chopin",
+   "rol": "besteci, piyanist",
+   "dosya": "Frederic Chopin photo.jpeg",
+   "lisans": "Public domain",
+   "yazar": "Louis-Auguste Bisson",
+   "en": 1180,
+   "boy": 1664,
+   "not": "Bisson daguerreotipi/fotoğrafı"
+  },
+  {
+   "anahtar": "curie",
+   "ad": "Marie Curie",
+   "rol": "fizikçi, kimyager (iki Nobel)",
+   "dosya": "Marie Curie c. 1920s.jpg",
+   "lisans": "Public domain",
+   "yazar": "Henri Manuel",
+   "en": 1549,
+   "boy": 2105,
+   "not": "fotoğraf"
+  },
+  {
+   "anahtar": "sobieski",
+   "ad": "III. Jan Sobieski",
+   "rol": "kral, Viyana'nın kurtarıcısı",
+   "dosya": "Schultz John III Sobieski.jpg",
+   "lisans": "Public domain",
+   "yazar": "Attributed to Daniel Schultz / Possibly Andreas St",
+   "en": 1825,
+   "boy": 2253,
+   "not": "dönem portresi"
+  },
+  {
+   "anahtar": "kosciuszko",
+   "ad": "Tadeusz Kościuszko",
+   "rol": "komutan, ayaklanma önderi",
+   "dosya": "Karl G Schweikart - Tadeusz Kościuszko (ÖaL).jpg",
+   "lisans": "Public domain",
+   "yazar": "Karl Gottlieb Schweikart",
+   "en": 980,
+   "boy": 1297,
+   "not": "Schweikart portresi"
+  },
+  {
+   "anahtar": "kazimierz",
+   "ad": "Büyük Kazimierz",
+   "rol": "kral",
+   "dosya": "Leopold Loeffler - Portret Kazimierza Wielkiego 1864.jpg",
+   "lisans": "Public domain",
+   "yazar": "Leopold Loeffler",
+   "en": 909,
+   "boy": 1453,
+   "not": "Loeffler, 1864 — sonradan yapılmış tanınmış portre"
+  },
+  {
+   "anahtar": "mickiewicz",
+   "ad": "Adam Mickiewicz",
+   "rol": "ulusal şair",
+   "dosya": "Adam Mickiewicz według dagerotypu paryskiego z 1842 roku.jpg",
+   "lisans": "Public domain",
+   "yazar": "Bilinmeyen",
+   "en": 606,
+   "boy": 740,
+   "not": "1842 dagerotipi"
+  },
+  {
+   "anahtar": "jagiello",
+   "ad": "II. Władysław Jagiełło",
+   "rol": "kral, Grunwald galibi",
+   "dosya": "Jogaila (Władysław II).jpg",
+   "lisans": "Public domain",
+   "yazar": "Bilinmeyen",
+   "en": 1080,
+   "boy": 1351,
+   "kirp": [
+    4.4,
+    4.0,
+    0.25
+   ]
+  },
+  {
+   "anahtar": "pilsudski",
+   "ad": "Józef Piłsudski",
+   "rol": "devlet başkanı, komutan",
+   "dosya": "Józef Piłsudski (-1930).jpg",
+   "lisans": "Public domain",
+   "yazar": "Bilinmeyen",
+   "en": 1200,
+   "boy": 1649,
+   "not": "fotoğraf"
+  },
+  {
+   "anahtar": "jp2",
+   "ad": "II. Jean Paul (Karol Wojtyła)",
+   "rol": "papa",
+   "dosya": "ADAMELLO - PAPA - Giovanni Paolo II - panoramio (cropped).jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Gregorini Demetrio",
+   "en": 762,
+   "boy": 889,
+   "not": "fotoğraf; CC BY-SA"
+  }
+ ],
+ "simgeler": [
+  {
+   "anahtar": "PL_bayrak",
+   "ad": "Polonya bayrağı",
+   "tur": "bayrak",
+   "mevcut": "POL",
+   "mevcut_liste": "AMBLEM"
+  },
+  {
+   "anahtar": "PL_arma",
+   "ad": "Polonya beyaz kartalı (arma)",
+   "tur": "arma",
+   "dosya": "Herb Polski.svg",
+   "lisans": "Public domain",
+   "yazar": "Zygmunt Kamiński / Andrzej Heidrich",
+   "en": 3158,
+   "boy": 3716
+  },
+  {
+   "anahtar": "PL_leh_arma",
+   "ad": "Lehistan-Litvanya arması",
+   "tur": "arma",
+   "mevcut": "leh",
+   "mevcut_liste": "AMBLEM"
+  },
+  {
+   "anahtar": "PL_wawel",
+   "ad": "Wawel Kalesi",
+   "tur": "yapi",
+   "dosya": "Wawel (4).jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Monika Towiańska",
+   "en": 4032,
+   "boy": 3024
+  },
+  {
+   "anahtar": "PL_malbork",
+   "ad": "Malbork (Marienburg) Kalesi",
+   "tur": "yapi",
+   "dosya": "Zespół Zamku Krzyżackiego MALBORK 01.jpg",
+   "lisans": "CC BY-SA 3.0 pl",
+   "yazar": "Gregy",
+   "en": 1300,
+   "boy": 822
+  },
+  {
+   "anahtar": "PL_grunwald",
+   "ad": "Grunwald Muharebesi (Matejko)",
+   "tur": "eser",
+   "dosya": "Jan Matejko, Bitwa pod Grunwaldem.jpg",
+   "lisans": "Public domain",
+   "yazar": "Jan Matejko",
+   "en": 11788,
+   "boy": 5235
+  },
+  {
+   "anahtar": "PL_hold",
+   "ad": "Prusya Hürmeti (Matejko)",
+   "tur": "eser",
+   "dosya": "Prussian Homage.jpg",
+   "lisans": "Public domain",
+   "yazar": "Jan Matejko",
+   "en": 1195,
+   "boy": 593
+  },
+  {
+   "anahtar": "PL_sukiennice",
+   "ad": "Krakow Sukiennice (Kumaş Salonu)",
+   "tur": "yapi",
+   "dosya": "20200516 Sukiennice w Krakowie 0909 9963.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Jakub Hałun",
+   "en": 5758,
+   "boy": 3062
+  },
+  {
+   "anahtar": "PL_wieliczka",
+   "ad": "Wieliczka Tuz Madeni",
+   "tur": "yapi",
+   "dosya": "Αλατωρυχεία Βιελίτσκα 5021.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "C messier",
+   "en": 4443,
+   "boy": 2962
+  },
+  {
+   "anahtar": "PL_harita_leh",
+   "ad": "Lehistan-Litvanya · 1600",
+   "tur": "harita",
+   "mevcut": "leh",
+   "mevcut_liste": "TARIH"
+  }
+ ]
+}

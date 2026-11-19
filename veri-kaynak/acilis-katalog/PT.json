@@ -1,0 +1,203 @@
+{
+ "kod": "PT",
+ "ad": "Portekiz",
+ "kisiler": [
+  {
+   "anahtar": "henrique",
+   "ad": "Denizci Henrique",
+   "rol": "prens, keşif organizatörü",
+   "mevcut": "henrique"
+  },
+  {
+   "anahtar": "vasco",
+   "ad": "Vasco da Gama",
+   "rol": "denizci",
+   "mevcut": "vasco"
+  },
+  {
+   "anahtar": "camoes",
+   "ad": "Camões",
+   "rol": "şair",
+   "dosya": "Camões por Fernão Gomes.jpg",
+   "lisans": "Public domain",
+   "yazar": "Fernão Gomes",
+   "en": 2287,
+   "boy": 3298,
+   "not": "Fernão Gomes'e atfedilen"
+  },
+  {
+   "anahtar": "magalhaes",
+   "ad": "Macellan (Magalhães)",
+   "rol": "denizci",
+   "dosya": "Retrato de Hernando de Magallanes.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown artistUnknown artist",
+   "en": 1029,
+   "boy": 1298,
+   "not": "sonradan yapılmış portre"
+  },
+  {
+   "anahtar": "cabral",
+   "ad": "Pedro Álvares Cabral",
+   "rol": "denizci, Brezilya'nın keşfi",
+   "dosya": "Portrait of Pedro Alvares Cabral.jpg",
+   "lisans": "Public domain",
+   "yazar": "Artist: J. da Cunha; Engraver: J. Abrantes (from s",
+   "en": 1892,
+   "boy": 2839,
+   "not": "gravür"
+  },
+  {
+   "anahtar": "afonso1",
+   "ad": "I. Afonso (Afonso Henriques)",
+   "rol": "ilk Portekiz kralı",
+   "dosya": "Retrato de D. Afonso Henriques (Santuário da Senhora do Castelo, Coruche).png",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "RickMorais",
+   "en": 1186,
+   "boy": 1451,
+   "not": "sonradan yapılmış portre"
+  },
+  {
+   "anahtar": "joao2",
+   "ad": "II. João",
+   "rol": "kral",
+   "dosya": "D. João II – Museu de Marinha.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Antônio Menendez",
+   "en": 1362,
+   "boy": 2048,
+   "not": "Portekiz okulu portre"
+  },
+  {
+   "anahtar": "manuel1",
+   "ad": "I. Manuel",
+   "rol": "kral",
+   "dosya": "Portrait of King Manuel I, Belem Collection.JPG",
+   "lisans": "Public domain",
+   "yazar": "Henrique Ferreira",
+   "en": 1719,
+   "boy": 2692,
+   "not": "sonradan yapılmış portre"
+  },
+  {
+   "anahtar": "pombal",
+   "ad": "Marquês de Pombal",
+   "rol": "devlet adamı",
+   "dosya": "Marquês de Pombal, Universidade de Coimbra.png",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "en": 1103,
+   "boy": 1301,
+   "not": "van Loo çevresi"
+  },
+  {
+   "anahtar": "pessoa",
+   "ad": "Fernando Pessoa",
+   "rol": "şair",
+   "dosya": "Pessoa chapeu.jpg",
+   "lisans": "Public domain",
+   "yazar": "Template:Cavalão",
+   "en": 1084,
+   "boy": 1513,
+   "not": "fotoğraf"
+  }
+ ],
+ "simgeler": [
+  {
+   "anahtar": "PT_bayrak",
+   "ad": "Portekiz bayrağı",
+   "tur": "bayrak",
+   "dosya": "Flag of Portugal.svg",
+   "lisans": "Public domain",
+   "yazar": "Original: Columbano Bordalo Pinheiro (1910; generi",
+   "en": 600,
+   "boy": 400
+  },
+  {
+   "anahtar": "PT_arma",
+   "ad": "Portekiz arması",
+   "tur": "arma",
+   "dosya": "Coat of arms of Portugal.svg",
+   "lisans": "Public domain",
+   "yazar": "Tonyjeff, based on national symbol",
+   "en": 760,
+   "boy": 554
+  },
+  {
+   "anahtar": "PT_harita",
+   "ad": "Portekiz İmparatorluğu · 1650",
+   "tur": "harita",
+   "mevcut": "por",
+   "hb_yil": "1650",
+   "hb_ad": "Portugal",
+   "not": "TARIH 'por' zaten 1650 kullanıyor; sömürgeler 'Portuguese .*' ayrı özne"
+  },
+  {
+   "anahtar": "PT_1707",
+   "ad": "Portekiz bayrağı (1707)",
+   "tur": "bayrak",
+   "mevcut": "por"
+  },
+  {
+   "anahtar": "PT_belem",
+   "ad": "Belém Kulesi",
+   "tur": "yapi",
+   "dosya": "Torre de Belém.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Christiane Abele",
+   "en": 640,
+   "boy": 480
+  },
+  {
+   "anahtar": "PT_jeronimos",
+   "ad": "Jerónimos Manastırı",
+   "tur": "yapi",
+   "dosya": "Mosteiro dos Jerónimos.jpg",
+   "lisans": "CC BY 2.0",
+   "yazar": "Vic Lic",
+   "en": 2288,
+   "boy": 1712
+  },
+  {
+   "anahtar": "PT_batalha",
+   "ad": "Batalha Manastırı",
+   "tur": "yapi",
+   "dosya": "Batalha Monastery.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Donald Scott Lee",
+   "en": 4000,
+   "boy": 6016
+  },
+  {
+   "anahtar": "PT_pena",
+   "ad": "Pena Sarayı",
+   "tur": "yapi",
+   "dosya": "Palácio da Pena.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "No machine-readable author provided. Ana Couto~com",
+   "en": 640,
+   "boy": 480
+  },
+  {
+   "anahtar": "PT_dluis",
+   "ad": "Dom Luís I Köprüsü, Porto",
+   "tur": "yapi",
+   "dosya": "Ponte Dom Luis I Porto.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Vysotsky",
+   "en": 2816,
+   "boy": 2112
+  },
+  {
+   "anahtar": "PT_1830",
+   "ad": "Portekiz krallık bayrağı (1830–1910)",
+   "tur": "bayrak",
+   "dosya": "Flag of Portugal (1830–1910).svg",
+   "lisans": "Public domain",
+   "yazar": "Tonyjeff, based on ancient national symbol.",
+   "en": 2100,
+   "boy": 1400
+  }
+ ]
+}

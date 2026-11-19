@@ -1,0 +1,102 @@
+{
+ "kod": "TM",
+ "ad": "Türkmenistan",
+ "kisiler": [
+  {
+   "anahtar": "niyazov",
+   "ad": "Saparmurat Niyazov (Türkmenbaşı)",
+   "rol": "devlet başkanı (tartışmalı)",
+   "dosya": "Saparmurat Niyazov.jpg",
+   "lisans": "CC BY 4.0",
+   "yazar": "Russian Presidential Press and Information Office; Crop by U",
+   "en": 265,
+   "boy": 329,
+   "not": "Rusya Devlet Başkanlığı fotoğrafı, kırpılmış"
+  },
+  {
+   "anahtar": "berdimuhamedow",
+   "ad": "Gurbanguly Berdimuhamedow",
+   "rol": "devlet başkanı (tartışmalı)",
+   "dosya": "Gurbanguly Berdimuhamedow.jpg",
+   "lisans": "CC BY 4.0",
+   "yazar": "Фото пресс-службы Президента России",
+   "en": 469,
+   "boy": 706
+  }
+ ],
+ "simgeler": [
+  {
+   "anahtar": "TM_bayrak",
+   "ad": "Türkmenistan bayrağı",
+   "tur": "bayrak",
+   "mevcut": "TKM"
+  },
+  {
+   "anahtar": "TM_arma",
+   "ad": "Türkmenistan arması",
+   "tur": "arma",
+   "dosya": "Coat of arms of Turkmenistan.svg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 531,
+   "boy": 531
+  },
+  {
+   "anahtar": "TM_harita",
+   "ad": "Büyük Selçuklu Devleti · 1100",
+   "tur": "harita",
+   "hb_yil": "1100",
+   "hb_ad": "Seljuk Empire"
+  },
+  {
+   "anahtar": "TM_nisa",
+   "ad": "Nisa Kalesi",
+   "tur": "yapi",
+   "dosya": "Nisa Fortress.jpg",
+   "lisans": "CC BY 2.0",
+   "yazar": "David Stanley",
+   "en": 1024,
+   "boy": 768
+  },
+  {
+   "anahtar": "TM_merv",
+   "ad": "Merv",
+   "tur": "yapi",
+   "dosya": "Merv.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Carol Magalow",
+   "en": 898,
+   "boy": 681
+  },
+  {
+   "anahtar": "TM_sencer",
+   "ad": "Sultan Sencer Türbesi",
+   "tur": "yapi",
+   "dosya": "Sultan Sanjar mausoleum.jpg",
+   "lisans": "CC BY-SA 2.0",
+   "yazar": "Peretz Partensky",
+   "en": 1200,
+   "boy": 900
+  },
+  {
+   "anahtar": "TM_gokdepe",
+   "ad": "Gökdepe Kuşatması (Karazin)",
+   "tur": "eser",
+   "dosya": "Siege of Geok Tepe.jpg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 3549,
+   "boy": 1764
+  },
+  {
+   "anahtar": "TM_hali",
+   "ad": "Türkmen halısı",
+   "tur": "eser",
+   "dosya": "Turkmen rug.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "MOJIBARA68",
+   "en": 5472,
+   "boy": 3648
+  }
+ ]
+}

@@ -1,0 +1,197 @@
+{
+ "kod": "JP",
+ "ad": "Japonya",
+ "kisiler": [
+  {
+   "anahtar": "meiji",
+   "ad": "İmparator Meiji",
+   "rol": "imparator, modernleşme",
+   "mevcut": "meiji"
+  },
+  {
+   "anahtar": "ieyasu",
+   "ad": "Tokugawa Ieyasu",
+   "rol": "şogun, Edo şogunluğunun kurucusu",
+   "mevcut": "ieyasu"
+  },
+  {
+   "anahtar": "nobunaga",
+   "ad": "Oda Nobunaga",
+   "rol": "savaş ağası, birleştirici",
+   "mevcut": "nobunaga"
+  },
+  {
+   "anahtar": "hideyoshi",
+   "ad": "Toyotomi Hideyoshi",
+   "rol": "savaş ağası, birleştirici",
+   "dosya": "Toyotomi Hideyoshi (Kodaiji).jpg",
+   "lisans": "Public domain",
+   "yazar": "Kanō Mitsunobu",
+   "en": 1000,
+   "boy": 1806,
+   "not": "Kanō Mitsunobu, Kōdai-ji portresi (dönemine yakın)"
+  },
+  {
+   "anahtar": "shotoku",
+   "ad": "Prens Şotoku",
+   "rol": "naip prens, Budizm'in yayıcısı",
+   "dosya": "Anonymous - Prince Shotoku Taishi - y1947-344 - Princeton University Art Museum.jpg",
+   "lisans": "Public domain",
+   "yazar": "anonymous",
+   "en": 884,
+   "boy": 2000,
+   "not": "sonradan yapılmış (Muromachi/Edo) geleneksel portre; dönem portresi yok"
+  },
+  {
+   "anahtar": "yoritomo",
+   "ad": "Minamoto no Yoritomo",
+   "rol": "ilk şogun, Kamakura şogunluğu",
+   "dosya": "Minamoto no Yoritomo.jpg",
+   "lisans": "Public domain",
+   "yazar": "Fujiwara no Takanobu",
+   "en": 1584,
+   "boy": 1974,
+   "not": "Fujiwara no Takanobu'ya atfedilen Jingo-ji portresi",
+   "kirp": [
+    4.8,
+    2.0,
+    0.1
+   ]
+  },
+  {
+   "anahtar": "murasaki",
+   "ad": "Murasaki Şikibu",
+   "rol": "yazar, Genji Monogatari",
+   "dosya": "Murasaki-Shikibu-composing-Genji-Monogatari.png",
+   "lisans": "Public domain",
+   "yazar": "Tosa Mitsuoki (1617 - 1691)",
+   "en": 1817,
+   "boy": 1458,
+   "not": "Tosa Mitsuoki (17. yy) tablosu; sonradan"
+  },
+  {
+   "anahtar": "hokusai",
+   "ad": "Katsushika Hokusai",
+   "rol": "ukiyo-e sanatçısı",
+   "dosya": "Hokusai as an old man.jpg",
+   "lisans": "CC0",
+   "yazar": "missing name",
+   "en": 4200,
+   "boy": 8717,
+   "not": "yaşlı Hokusai portresi/çizimi"
+  },
+  {
+   "anahtar": "ryoma",
+   "ad": "Sakamoto Ryōma",
+   "rol": "Meiji öncesi reformcu samuray",
+   "dosya": "Sakamoto Ryoma.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "en": 1024,
+   "boy": 1312,
+   "not": "dönem fotoğrafı"
+  },
+  {
+   "anahtar": "ito",
+   "ad": "İtō Hirobumi",
+   "rol": "ilk başbakan, anayasa mimarı",
+   "dosya": "ITŌ Hirobumi.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "en": 1024,
+   "boy": 1392,
+   "not": "dönem fotoğrafı"
+  }
+ ],
+ "simgeler": [
+  {
+   "anahtar": "JP_bayrak",
+   "ad": "Japonya bayrağı",
+   "tur": "bayrak",
+   "mevcut": "JPN"
+  },
+  {
+   "anahtar": "JP_krizantem",
+   "ad": "İmparatorluk krizantem mührü",
+   "tur": "muhur",
+   "mevcut": "krizantem"
+  },
+  {
+   "anahtar": "JP_harita",
+   "ad": "Tokugawa Şogunluğu · 1650",
+   "tur": "harita",
+   "hb_yil": "1650",
+   "hb_ad": "Tokugawa shogunate"
+  },
+  {
+   "anahtar": "JP_himeji",
+   "ad": "Himeji Kalesi",
+   "tur": "yapi",
+   "dosya": "Himeji castle in may 2015.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Nikos Kitsakis",
+   "en": 5632,
+   "boy": 3754
+  },
+  {
+   "anahtar": "JP_dalga",
+   "ad": "Kanagawa Açıklarında Büyük Dalga (Hokusai)",
+   "tur": "eser",
+   "dosya": "Katsushika Hokusai - The Great Wave off the Coast of Kanagawa LCCN2008660568.jpg",
+   "lisans": "Public domain",
+   "yazar": "Katsushika, Hokusai, 1760-1849, artist",
+   "en": 8561,
+   "boy": 6037
+  },
+  {
+   "anahtar": "JP_fushimi",
+   "ad": "Fushimi Inari Tapınağı",
+   "tur": "yapi",
+   "dosya": "Fushimiinari-taisha, naihaiden-1.jpg",
+   "lisans": "CC0",
+   "yazar": "Saigen Jiro",
+   "en": 6002,
+   "boy": 3978
+  },
+  {
+   "anahtar": "JP_kinkakuji",
+   "ad": "Kinkaku-ji (Altın Köşk)",
+   "tur": "yapi",
+   "dosya": "Water reflection of Kinkaku-ji Temple a sunny day, Kyoto, Japan.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Basile Morin",
+   "en": 5928,
+   "boy": 3335
+  },
+  {
+   "anahtar": "JP_itsukushima",
+   "ad": "Itsukushima Tapınağı torii kapısı",
+   "tur": "yapi",
+   "dosya": "Itsukushima Gate.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "JordyMeow",
+   "en": 4200,
+   "boy": 2803
+  },
+  {
+   "anahtar": "JP_daibutsu",
+   "ad": "Kamakura Büyük Buda'sı",
+   "tur": "eser",
+   "dosya": "230128 Kamakura Daibutsu Japan01s3.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "663highland",
+   "en": 6000,
+   "boy": 4000
+  },
+  {
+   "anahtar": "JP_todaiji",
+   "ad": "Tōdai-ji Büyük Buda Salonu",
+   "tur": "yapi",
+   "dosya": "Daibutsu-den in Todaiji Nara02bs3200.jpg",
+   "lisans": "CC BY 2.5",
+   "yazar": "663highland",
+   "en": 3200,
+   "boy": 2130
+  }
+ ]
+}

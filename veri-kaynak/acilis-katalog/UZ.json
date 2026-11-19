@@ -1,0 +1,200 @@
+{
+ "kod": "UZ",
+ "ad": "Özbekistan",
+ "kisiler": [
+  {
+   "anahtar": "timur",
+   "ad": "Timur",
+   "rol": "hükümdar, komutan",
+   "mevcut": "timur"
+  },
+  {
+   "anahtar": "ulugbey",
+   "ad": "Uluğ Bey",
+   "rol": "hükümdar, astronom",
+   "dosya": "Ulugbek.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Pitadzi",
+   "en": 2448,
+   "boy": 3264,
+   "not": "heykel/çağdaş görsel olabilir; gözle doğrulanmadı"
+  },
+  {
+   "anahtar": "ibnsina",
+   "ad": "İbn Sînâ",
+   "rol": "hekim, filozof",
+   "dosya": "Avicenna.jpg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 301,
+   "boy": 467,
+   "not": "Düşük çözünürlük"
+  },
+  {
+   "anahtar": "sheybani",
+   "ad": "Muhammed Şeybânî Han",
+   "rol": "Özbek Hanlığı kurucusu",
+   "dosya": "Muhammad Shaybani.jpg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 1508,
+   "boy": 1772,
+   "not": "Behzad minyatürü"
+  },
+  {
+   "anahtar": "harezmi",
+   "ad": "Harezmî",
+   "rol": "matematikçi",
+   "dosya": "Al-Khwarizmi.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Muntadher Saleh",
+   "en": 2158,
+   "boy": 3023,
+   "not": "çağdaş anıt/sanat eseri olabilir; gözle doğrulanmadı"
+  },
+  {
+   "anahtar": "biruni",
+   "ad": "Bîrûnî",
+   "rol": "bilim insanı",
+   "dosya": "Al-Biruni.jpg",
+   "lisans": "CC BY 4.0",
+   "yazar": "Muntadher Saleh",
+   "en": 2944,
+   "boy": 3993,
+   "not": "çağdaş anıt/sanat eseri olabilir; gözle doğrulanmadı"
+  },
+  {
+   "anahtar": "nevai",
+   "ad": "Ali Şîr Nevâî",
+   "rol": "şair, devlet adamı",
+   "dosya": "File-0111Navoii.jpeg",
+   "lisans": "Public domain",
+   "yazar": "Medinabegim",
+   "en": 2250,
+   "boy": 4000,
+   "not": "anıt fotoğrafı olabilir; gözle doğrulanmadı",
+   "eski_dosya": "Alisher Navoi.jpg"
+  },
+  {
+   "anahtar": "babur",
+   "ad": "Babür Şah (Fergana'lı)",
+   "rol": "hükümdar, yazar",
+   "mevcut": "babur"
+  },
+  {
+   "anahtar": "karimov",
+   "ad": "İslam Kerimov",
+   "rol": "devlet başkanı (tartışmalı)",
+   "dosya": "Islam Karimov (cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 912,
+   "boy": 1216
+  }
+ ],
+ "simgeler": [
+  {
+   "anahtar": "UZ_bayrak",
+   "ad": "Özbekistan bayrağı",
+   "tur": "bayrak",
+   "mevcut": "UZB"
+  },
+  {
+   "anahtar": "UZ_arma",
+   "ad": "Özbekistan arması",
+   "tur": "arma",
+   "dosya": "Emblem of Uzbekistan.svg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 678,
+   "boy": 714
+  },
+  {
+   "anahtar": "UZ_harita",
+   "ad": "Timurlu İmparatorluğu · 1400",
+   "tur": "harita",
+   "hb_yil": "1400",
+   "hb_ad": "Timurid Empire"
+  },
+  {
+   "anahtar": "UZ_registan",
+   "ad": "Registan Meydanı",
+   "tur": "yapi",
+   "dosya": "Registan Samarkand.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Euyasik",
+   "en": 2048,
+   "boy": 1536
+  },
+  {
+   "anahtar": "UZ_guremir",
+   "ad": "Gûr-ı Emîr",
+   "tur": "yapi",
+   "dosya": "Gur Emir.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Iaa2023",
+   "en": 5920,
+   "boy": 4000
+  },
+  {
+   "anahtar": "UZ_sahizinde",
+   "ad": "Şah-ı Zinde",
+   "tur": "yapi",
+   "dosya": "Shah-i-Zinda.jpg",
+   "lisans": "CC BY-SA 3.0 de",
+   "yazar": "Vaurien",
+   "en": 3200,
+   "boy": 2400
+  },
+  {
+   "anahtar": "UZ_kalyan",
+   "ad": "Kalyan Minaresi (Buhara)",
+   "tur": "yapi",
+   "dosya": "Kalyan Minaret.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Airil anuar",
+   "en": 1600,
+   "boy": 1200
+  },
+  {
+   "anahtar": "UZ_hive",
+   "ad": "İçan Kale (Hîve)",
+   "tur": "yapi",
+   "dosya": "Itchan Kala.jpg",
+   "lisans": "CC BY 4.0",
+   "yazar": "Официальный веб-сайт Агентства культурного наследия Республи",
+   "en": 1100,
+   "boy": 754
+  },
+  {
+   "anahtar": "UZ_bibihanim",
+   "ad": "Bibi Hanım Camii",
+   "tur": "yapi",
+   "dosya": "Bibi-Khanym Mosque.jpg",
+   "lisans": "CC BY-SA 2.5",
+   "yazar": "Alaexis",
+   "en": 2077,
+   "boy": 1505
+  },
+  {
+   "anahtar": "UZ_rasathane",
+   "ad": "Uluğ Bey Rasathanesi",
+   "tur": "yapi",
+   "dosya": "Ulugbek Observatory.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Zilaxiago",
+   "en": 1620,
+   "boy": 1080
+  },
+  {
+   "anahtar": "UZ_samani",
+   "ad": "Samanîler Türbesi",
+   "tur": "yapi",
+   "dosya": "Samanid Mausoleum.jpg",
+   "lisans": "CC BY 3.0",
+   "yazar": "Nikolaus, edit by Petar Milošević",
+   "en": 1328,
+   "boy": 1595
+  }
+ ]
+}

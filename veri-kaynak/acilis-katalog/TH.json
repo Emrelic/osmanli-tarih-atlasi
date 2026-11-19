@@ -1,0 +1,220 @@
+{
+ "kod": "TH",
+ "ad": "Tayland",
+ "kisiler": [
+  {
+   "anahtar": "chulalongkorn",
+   "ad": "V. Rama (Chulalongkorn)",
+   "rol": "kral, modernleştirici",
+   "dosya": "King Chulalongkorn portrait photograph.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "en": 955,
+   "boy": 1197
+  },
+  {
+   "anahtar": "mongkut",
+   "ad": "IV. Rama (Mongkut)",
+   "rol": "kral",
+   "dosya": "King Rama IV of Siam (Mongkut) Portrait.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "en": 3600,
+   "boy": 5400
+  },
+  {
+   "anahtar": "naresuan",
+   "ad": "Büyük Naresuan",
+   "rol": "Ayutthaya kralı",
+   "dosya": "KingNU.jpg",
+   "lisans": "Public domain",
+   "yazar": "Mixvasuvadh at Thai Wikipedia",
+   "en": 463,
+   "boy": 699,
+   "not": "sonradan yapılmış resim"
+  },
+  {
+   "anahtar": "ramkhamhaeng",
+   "ad": "Ramkhamhaeng",
+   "rol": "Sukhothai kralı",
+   "dosya": "Ramkhamhaeng the Great.jpg",
+   "lisans": "Public domain",
+   "yazar": "Ananda",
+   "en": 469,
+   "boy": 765,
+   "not": "sonradan yapılmış resim"
+  },
+  {
+   "anahtar": "taksin",
+   "ad": "Taksin",
+   "rol": "Thonburi kralı",
+   "dosya": "King Taksin of Thonburi Portrait Painting.png",
+   "lisans": "Public domain",
+   "yazar": "Italian artist or a disciple of a Jesuit.",
+   "en": 1200,
+   "boy": 1714,
+   "not": "dönem portresi (Avrupalı sanatçı/çırağı)"
+  },
+  {
+   "anahtar": "narai",
+   "ad": "Büyük Narai",
+   "rol": "Ayutthaya kralı",
+   "dosya": "King Narai of Siam on Throne True Portrait c1686.jpg",
+   "lisans": "Public domain",
+   "yazar": "Many authors",
+   "en": 3141,
+   "boy": 4769,
+   "not": "1686 dönem portresi"
+  },
+  {
+   "anahtar": "rama1",
+   "ad": "I. Rama (Yodfa Chulalok)",
+   "rol": "Chakri hanedanı kurucusu",
+   "dosya": "King Rama I of Siam (Yodfa Chulalok) Portrait.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "en": 2000,
+   "boy": 3001
+  },
+  {
+   "anahtar": "bhumibol",
+   "ad": "Bhumibol Adulyadej (IX. Rama)",
+   "rol": "kral",
+   "dosya": "Bhumibol Adulyadej.jpg",
+   "lisans": "Public domain",
+   "yazar": "Office of the Prime Minister",
+   "en": 2550,
+   "boy": 3500
+  },
+  {
+   "anahtar": "vajiravudh",
+   "ad": "VI. Rama (Vajiravudh)",
+   "rol": "kral, yazar",
+   "dosya": "Vajiravudh Portrait (King Rama VI of Siam).jpg",
+   "lisans": "Public domain",
+   "yazar": "Phra Soralak Likhit (1875-1958)",
+   "en": 2550,
+   "boy": 3750
+  },
+  {
+   "anahtar": "pridi",
+   "ad": "Pridi Banomyong",
+   "rol": "devlet adamı, 1932 devriminin önderi",
+   "dosya": "Pridi Banomyong in 1945.jpg",
+   "lisans": "Public domain",
+   "yazar": "ไม่ทราบ",
+   "en": 890,
+   "boy": 1192
+  },
+  {
+   "anahtar": "phibun",
+   "ad": "Plaek Phibunsongkhram",
+   "rol": "başbakan (ek)",
+   "dosya": "Field Marshal Plaek Phibunsongkhram.jpg",
+   "lisans": "Public domain",
+   "yazar": "Ministry of Defence of Thailand",
+   "en": 948,
+   "boy": 1270,
+   "not": "tartışmalı"
+  }
+ ],
+ "simgeler": [
+  {
+   "anahtar": "TH_bayrak",
+   "ad": "Tayland bayrağı",
+   "tur": "bayrak",
+   "dosya": "Flag of Thailand.svg",
+   "lisans": "Public domain",
+   "yazar": "Zscout370",
+   "en": 900,
+   "boy": 600
+  },
+  {
+   "anahtar": "TH_arma",
+   "ad": "Garuda (Tayland devlet arması)",
+   "tur": "arma",
+   "dosya": "Emblem of Thailand.svg",
+   "lisans": "Public domain",
+   "yazar": "Sodacan",
+   "en": 374,
+   "boy": 398
+  },
+  {
+   "anahtar": "TH_harita",
+   "ad": "Ayutthaya Krallığı · 1600",
+   "tur": "harita",
+   "hb_yil": "1600",
+   "hb_ad": "Ayutthaya"
+  },
+  {
+   "anahtar": "TH_watarun",
+   "ad": "Wat Arun (Bangkok)",
+   "tur": "yapi",
+   "dosya": "Templo Wat Arun, Bangkok, Tailandia, 2013-08-22, DD 30.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Diego Delso",
+   "en": 4837,
+   "boy": 3231
+  },
+  {
+   "anahtar": "TH_mahathat",
+   "ad": "Wat Mahathat (Ayutthaya)",
+   "tur": "yapi",
+   "dosya": "Templo Mahathat, Ayutthaya, Tailandia, 2013-08-23, DD 06.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Diego Delso",
+   "en": 5366,
+   "boy": 3578
+  },
+  {
+   "anahtar": "TH_sarayi",
+   "ad": "Büyük Saray ve Zümrüt Buda Tapınağı",
+   "tur": "yapi",
+   "dosya": "Temple of the Emerald Buddha.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Nawit science",
+   "en": 4705,
+   "boy": 3141
+  },
+  {
+   "anahtar": "TH_sukhothai",
+   "ad": "Sukhothai Tarihî Parkı",
+   "tur": "yapi",
+   "dosya": "Sukhothai Historical Park Thailand.jpg",
+   "lisans": "CC BY 4.0",
+   "yazar": "Philip Nalangan",
+   "en": 3872,
+   "boy": 2592
+  },
+  {
+   "anahtar": "TH_watpho",
+   "ad": "Wat Pho (Bangkok)",
+   "tur": "yapi",
+   "dosya": "Wat Pho, Bangkok, Tailandia, 2013-08-22, DD 37.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Diego Delso",
+   "en": 4886,
+   "boy": 3055
+  },
+  {
+   "anahtar": "TH_doisuthep",
+   "ad": "Wat Phra That Doi Suthep",
+   "tur": "yapi",
+   "dosya": "Doi suthep steps.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Sgroey",
+   "en": 4272,
+   "boy": 2848
+  },
+  {
+   "anahtar": "TH_banchiang",
+   "ad": "Ban Chiang boyalı seramik",
+   "tur": "eser",
+   "dosya": "Neolithic Pottery from Ban Chiang. Bangkok National Museum, b082.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Michael Gunther",
+   "en": 1456,
+   "boy": 1794
+  }
+ ]
+}

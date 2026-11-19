@@ -1,0 +1,209 @@
+{
+ "kod": "GH",
+ "ad": "Gana (Aşanti dahil)",
+ "kisiler": [
+  {
+   "anahtar": "nkrumah",
+   "ad": "Kwame Nkrumah",
+   "rol": "bağımsızlığın önderi, ilk cumhurbaşkanı",
+   "dosya": "Kwame Nkrumah (JFKWHP-AR6409-A).jpg",
+   "lisans": "Public domain",
+   "yazar": "Abbie Rowe",
+   "en": 320,
+   "boy": 480,
+   "not": "küçük çözünürlük 320x480"
+  },
+  {
+   "anahtar": "annan",
+   "ad": "Kofi Annan",
+   "rol": "BM Genel Sekreteri, Nobel Barış",
+   "dosya": "Kofi Annan.jpg",
+   "lisans": "CC BY 3.0 br",
+   "yazar": "Ricardo Stuckert/ABr",
+   "en": 480,
+   "boy": 640
+  },
+  {
+   "anahtar": "danquah",
+   "ad": "J. B. Danquah",
+   "rol": "bağımsızlık önderi, Altın Sahil'in Gana adını önerdi",
+   "dosya": "A portrait of Dr. J. B Danquah.png",
+   "lisans": "Public domain",
+   "yazar": "Daily Service Newspaper",
+   "en": 284,
+   "boy": 375
+  },
+  {
+   "anahtar": "aggrey",
+   "ad": "Kwegyir Aggrey",
+   "rol": "eğitimci, Pan-Afrikanist",
+   "dosya": "Columbia edu portrait of James Emman Kwegyir Aggrey.jpg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 183,
+   "boy": 276,
+   "not": "küçük çözünürlük"
+  },
+  {
+   "anahtar": "amo",
+   "ad": "Anton Wilhelm Amo",
+   "rol": "18. yy filozofu (Almanya'da ilk Afrikalı akademisyen)",
+   "dosya": "Sketch portrait of Anton Wilhelm Amo (c. 1703 – c. 1759).jpg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 225,
+   "boy": 300,
+   "not": "dönemin çizimi"
+  },
+  {
+   "anahtar": "prempeh2",
+   "ad": "II. Prempeh (Asantehene)",
+   "rol": "Aşanti kralı",
+   "dosya": "PrempehII.jpg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 1187,
+   "boy": 1571
+  },
+  {
+   "anahtar": "rawlings",
+   "ad": "Jerry Rawlings",
+   "rol": "devlet başkanı",
+   "dosya": "Jerry Rawlings 2011 (cropped).jpg",
+   "lisans": "CC0",
+   "yazar": "AMISOM Public Information",
+   "en": 1148,
+   "boy": 1609
+  },
+  {
+   "anahtar": "kufuor",
+   "ad": "John Kufuor",
+   "rol": "cumhurbaşkanı",
+   "dosya": "John Kufuor 1-1.jpg",
+   "lisans": "Public domain",
+   "yazar": "Gregory Jones",
+   "en": 2500,
+   "boy": 3000
+  },
+  {
+   "anahtar": "aidoo",
+   "ad": "Ama Ata Aidoo",
+   "rol": "yazar",
+   "dosya": "Ama Ata Aidoo (2016).png",
+   "lisans": "CC BY 3.0",
+   "yazar": "RUTV Journalism Rhodes University",
+   "en": 273,
+   "boy": 365
+  },
+  {
+   "anahtar": "abedipele",
+   "ad": "Abedi Pele",
+   "rol": "futbolcu",
+   "dosya": "Abedi Pele 2007.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Christophe95",
+   "en": 250,
+   "boy": 408
+  }
+ ],
+ "simgeler": [
+  {
+   "anahtar": "GH_bayrak",
+   "ad": "Gana bayrağı",
+   "tur": "bayrak",
+   "dosya": "Flag of Ghana.svg",
+   "lisans": "Public domain",
+   "yazar": "Theodosia Okoh",
+   "en": 900,
+   "boy": 600
+  },
+  {
+   "anahtar": "GH_arma",
+   "ad": "Gana arması",
+   "tur": "arma",
+   "dosya": "Coat of arms of Ghana.svg",
+   "lisans": "Public domain",
+   "yazar": "Sodacan",
+   "en": 720,
+   "boy": 600
+  },
+  {
+   "anahtar": "GH_harita",
+   "ad": "Aşanti İmparatorluğu · 1800",
+   "tur": "harita",
+   "hb_yil": "1800",
+   "hb_ad": "Asante"
+  },
+  {
+   "anahtar": "GH_golden",
+   "ad": "Altın Taht (Sika Dwa Kofi), Aşanti",
+   "tur": "eser",
+   "dosya": "Golden stool 31 January 1935.jpg",
+   "lisans": "Public domain",
+   "yazar": "UK gov",
+   "en": 474,
+   "boy": 458,
+   "not": "1935 tarihli fotoğraf"
+  },
+  {
+   "anahtar": "GH_kente",
+   "ad": "Kente kumaşı",
+   "tur": "eser",
+   "dosya": "Different Kente cloth, Tafi, Volta region.jpg",
+   "lisans": "CC0",
+   "yazar": "Warmglow",
+   "en": 3572,
+   "boy": 2838
+  },
+  {
+   "anahtar": "GH_elmina",
+   "ad": "Elmina Kalesi",
+   "tur": "yapi",
+   "dosya": "Elmina Castle - Ghana.jpg",
+   "lisans": "CC BY-SA 2.0",
+   "yazar": "Damien Halleux Radermecker",
+   "en": 6300,
+   "boy": 4200
+  },
+  {
+   "anahtar": "GH_capecoast",
+   "ad": "Cape Coast Kalesi",
+   "tur": "yapi",
+   "dosya": "Cape Coast Castle, Cape Coast, Ghana.JPG",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Rjruiziii",
+   "en": 1600,
+   "boy": 1201
+  },
+  {
+   "anahtar": "GH_arch",
+   "ad": "Bağımsızlık Kemeri, Black Star Meydanı",
+   "tur": "yapi",
+   "dosya": "Independence Arch, Accra.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Celestinesucess",
+   "en": 3024,
+   "boy": 4032
+  },
+  {
+   "anahtar": "GH_mausoleum",
+   "ad": "Kwame Nkrumah Anıt Mezarı",
+   "tur": "yapi",
+   "dosya": "Kwame Nkrumah Memorial Park & Mausoleum 6.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Fquasie",
+   "en": 3000,
+   "boy": 2000
+  },
+  {
+   "anahtar": "GH_bayrak1964",
+   "ad": "Gana bayrağı (1964-1966, Nkrumah dönemi)",
+   "tur": "bayrak",
+   "dosya": "Flag of Ghana (1964–1966).svg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 900,
+   "boy": 600
+  }
+ ]
+}

@@ -1,0 +1,207 @@
+{
+ "kod": "BD",
+ "ad": "Bangladeş",
+ "kisiler": [
+  {
+   "anahtar": "mujib",
+   "ad": "Şeyh Mücibür Rahman",
+   "rol": "kurucu, Bangabandhu",
+   "dosya": "Official Portrait of Bangabandhu Sheikh Mujibur Rahman.jpg",
+   "lisans": "Public domain",
+   "yazar": "Press Information Department",
+   "en": 1807,
+   "boy": 2221,
+   "not": "resmî portre"
+  },
+  {
+   "anahtar": "tagore",
+   "ad": "Rabindranath Tagore",
+   "rol": "şair, Nobel ödüllü yazar",
+   "dosya": "Rabindranath Tagore in 1909.jpg",
+   "lisans": "Public domain",
+   "yazar": "Generalstabens litografiska anstalt",
+   "en": 1071,
+   "boy": 1500,
+   "not": "Hindistan ile ortak; Bangladeş milli marşının sözleri"
+  },
+  {
+   "anahtar": "nazrul",
+   "ad": "Kazi Nazrul İslam",
+   "rol": "ulusal şair",
+   "dosya": "Nazrul.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown photographer",
+   "en": 333,
+   "boy": 448,
+   "not": "fotoğraf"
+  },
+  {
+   "anahtar": "bhashani",
+   "ad": "Mevlânâ Bhaşani",
+   "rol": "siyasetçi",
+   "dosya": "Maulana-bhashani.jpg",
+   "lisans": "Public domain",
+   "yazar": "Ermoshkin",
+   "en": 475,
+   "boy": 482
+  },
+  {
+   "anahtar": "rokeya",
+   "ad": "Begüm Rokeya",
+   "rol": "yazar, kadın hakları öncüsü",
+   "dosya": "Rokeya Sakhawat Hussain.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "en": 512,
+   "boy": 957
+  },
+  {
+   "anahtar": "jcbose",
+   "ad": "Jagadish Chandra Bose",
+   "rol": "bilim insanı",
+   "dosya": "J. C. Bose (1907).jpg",
+   "lisans": "Public domain",
+   "yazar": "w:Patrick Geddes",
+   "en": 1200,
+   "boy": 1516,
+   "not": "Patrick Geddes fotoğrafı, 1907"
+  },
+  {
+   "anahtar": "fazlulhuq",
+   "ad": "A. K. Fazlul Huq",
+   "rol": "Bengal başbakanı",
+   "dosya": "A k fazlul hoque.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "en": 1198,
+   "boy": 1600
+  },
+  {
+   "anahtar": "zainul",
+   "ad": "Zeynül Abedin",
+   "rol": "ressam",
+   "dosya": "Zainul Abedin.jpg",
+   "lisans": "Public domain",
+   "yazar": "Prof. Rafiqul Islam",
+   "en": 414,
+   "boy": 494,
+   "not": "küçük çözünürlük"
+  },
+  {
+   "anahtar": "zia",
+   "ad": "Ziaur Rahman",
+   "rol": "devlet başkanı",
+   "dosya": "Ziaur Rahman 1979.jpg",
+   "lisans": "CC0",
+   "yazar": "Croes, Rob C. / Anefo",
+   "en": 1230,
+   "boy": 1640,
+   "not": "tartışmalı"
+  },
+  {
+   "anahtar": "yunus",
+   "ad": "Muhammed Yunus",
+   "rol": "iktisatçı, Nobel Barış Ödülü",
+   "dosya": "Muhammad Yunus - 2013 (portrait).jpg",
+   "lisans": "CC BY 2.0",
+   "yazar": "University of Salford Press Office",
+   "en": 1831,
+   "boy": 2745
+  }
+ ],
+ "simgeler": [
+  {
+   "anahtar": "BD_bayrak",
+   "ad": "Bangladeş bayrağı",
+   "tur": "bayrak",
+   "mevcut": "BGD"
+  },
+  {
+   "anahtar": "BD_arma",
+   "ad": "Bangladeş devlet arması",
+   "tur": "arma",
+   "dosya": "National Emblem of Bangladesh.svg",
+   "lisans": "CC0",
+   "yazar": "Mojo.bangladesh",
+   "en": 501,
+   "boy": 501
+  },
+  {
+   "anahtar": "BD_harita",
+   "ad": "Bengal Sultanlığı · 1500",
+   "tur": "harita",
+   "hb_yil": "1500",
+   "hb_ad": "Bengal"
+  },
+  {
+   "anahtar": "BD_lalbagh",
+   "ad": "Lalbağ Kalesi (Dakka)",
+   "tur": "yapi",
+   "dosya": "Dhaka Lalbagh Fort 5.JPG",
+   "lisans": "Public domain",
+   "yazar": "No machine-readable author provided. Shmunmun assumed (based",
+   "en": 1280,
+   "boy": 960
+  },
+  {
+   "anahtar": "BD_altmisgumbed",
+   "ad": "Altmış Kubbeli Cami (Bagerhat)",
+   "tur": "yapi",
+   "dosya": "Sixty Dome Mosque at Bagerhat (7).jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Anup Sadi",
+   "en": 6000,
+   "boy": 4000
+  },
+  {
+   "anahtar": "BD_paharpur",
+   "ad": "Somapura Mahavihara (Paharpur)",
+   "tur": "yapi",
+   "dosya": "Aerial view of Somapura Mahavihara.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Md. Ahsanul Haque Nayem",
+   "en": 5331,
+   "boy": 3589
+  },
+  {
+   "anahtar": "BD_sangsad",
+   "ad": "Millet Meclisi Binası (Dakka)",
+   "tur": "yapi",
+   "dosya": "National Assembly of Bangladesh, Jatiyo Sangsad Bhaban, 2008, 5.JPG",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Lykantrop",
+   "en": 3264,
+   "boy": 2448
+  },
+  {
+   "anahtar": "BD_sehitminar",
+   "ad": "Merkezî Şehit Anıtı (Dakka)",
+   "tur": "yapi",
+   "dosya": "Central Shaheed Minar - Dhaka Medical College Campus - Dhaka 2015-05-31 2585.JPG",
+   "lisans": "CC BY 3.0",
+   "yazar": "Biswarup Ganguly",
+   "en": 5705,
+   "boy": 3793
+  },
+  {
+   "anahtar": "BD_ahsanmanzil",
+   "ad": "Ahsan Manzil",
+   "tur": "yapi",
+   "dosya": "Ahsan Manzil-Front View.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Mahbub Hossain Shaheed (mahosha)",
+   "en": 2512,
+   "boy": 1678
+  },
+  {
+   "anahtar": "BD_kantajew",
+   "ad": "Kantajew Tapınağı (Dinajpur)",
+   "tur": "yapi",
+   "dosya": "Kantajew Temple, Dinajpur, Bangladesh, early 18th century (1).jpg",
+   "lisans": "CC BY 4.0",
+   "yazar": "Richard Mortel",
+   "en": 4000,
+   "boy": 2252
+  }
+ ]
+}

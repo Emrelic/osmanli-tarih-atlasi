@@ -1,0 +1,281 @@
+{
+ "kod": "NZ",
+ "ad": "Yeni Zelanda",
+ "kisiler": [
+  {
+   "anahtar": "hillary",
+   "ad": "Edmund Hillary",
+   "rol": "Everest'in ilk fatihlerinden",
+   "dosya": "Sir Edmund Hillary 1958.jpg",
+   "lisans": "CC BY 4.0",
+   "yazar": "Photographer unidentified",
+   "en": 2019,
+   "boy": 2500
+  },
+  {
+   "anahtar": "rutherford",
+   "ad": "Ernest Rutherford",
+   "rol": "atom çekirdeğinin kâşifi, Nobel",
+   "dosya": "Ernest Rutherford 1908.jpg",
+   "lisans": "Public domain",
+   "yazar": "Bain News Service, publisher",
+   "en": 3227,
+   "boy": 4288
+  },
+  {
+   "anahtar": "sheppard",
+   "ad": "Kate Sheppard",
+   "rol": "kadınlara oy hakkı hareketi (1893)",
+   "dosya": "Kate Sheppard.jpg",
+   "lisans": "Public domain",
+   "yazar": "H. H. Clifford, see https://collection.canterburymuseum.com/",
+   "en": 800,
+   "boy": 1124
+  },
+  {
+   "anahtar": "seddon",
+   "ad": "Richard Seddon",
+   "rol": "başbakan",
+   "dosya": "Richard Seddon portrait 1905.jpg",
+   "lisans": "Public domain",
+   "yazar": "Herman John Schmidt",
+   "en": 2505,
+   "boy": 3454,
+   "kirp": [
+    5.0,
+    1.6,
+    0.1
+   ]
+  },
+  {
+   "anahtar": "savage",
+   "ad": "Michael Joseph Savage",
+   "rol": "ilk İşçi Partisi başbakanı",
+   "dosya": "Michael Joseph Savage.jpg",
+   "lisans": "Public domain",
+   "yazar": "Herman John Schmidt  1872-1959 [1]",
+   "en": 3747,
+   "boy": 4959
+  },
+  {
+   "anahtar": "mansfield",
+   "ad": "Katherine Mansfield",
+   "rol": "yazar",
+   "dosya": "Katherine Mansfield (no signature).jpg",
+   "lisans": "Public domain",
+   "yazar": "Original:  UnknownUnknown  Derivative work:  Carnby",
+   "en": 550,
+   "boy": 880
+  },
+  {
+   "anahtar": "hone",
+   "ad": "Hone Heke",
+   "rol": "Ngāpuhi şefi, bayrak direği savaşı",
+   "dosya": "HoneHeke1845.jpg",
+   "lisans": "Public domain",
+   "yazar": "Merrett, Joseph Jenner, 1816?-1854",
+   "en": 2391,
+   "boy": 4308
+  },
+  {
+   "anahtar": "rauparaha",
+   "ad": "Te Rauparaha",
+   "rol": "Ngāti Toa şefi",
+   "dosya": "Te Rauparaha.jpg",
+   "lisans": "Public domain",
+   "yazar": "From William Tyrone Power's \"Sketches in New Zealand with pe",
+   "en": 530,
+   "boy": 578,
+   "not": "W. T. Power taslağı"
+  },
+  {
+   "anahtar": "tawhiao",
+   "ad": "Tāwhiao",
+   "rol": "ikinci Māori Kralı",
+   "dosya": "TawhiaoNLA.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown. Part of the photograph album of the Boileau family'",
+   "en": 2379,
+   "boy": 3071
+  },
+  {
+   "anahtar": "ngata",
+   "ad": "Apirana Ngata",
+   "rol": "Māori siyasetçi, âlim",
+   "dosya": "Āpirana Ngata.jpg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 342,
+   "boy": 431
+  },
+  {
+   "anahtar": "cook",
+   "ad": "James Cook",
+   "rol": "kâşif (1769)",
+   "dosya": "Captainjamescookportrait.jpg",
+   "lisans": "Public domain",
+   "yazar": "Nathaniel Dance-Holland",
+   "en": 6131,
+   "boy": 7692,
+   "not": "Nathaniel Dance portresi",
+   "yedek": true
+  },
+  {
+   "anahtar": "hongi",
+   "ad": "Hongi Hika",
+   "rol": "Ngāpuhi şefi",
+   "dosya": "Hongi Hika.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "S. Percy Smith",
+   "en": 470,
+   "boy": 720,
+   "yedek": true
+  },
+  {
+   "anahtar": "tekooti",
+   "ad": "Te Kooti",
+   "rol": "Ringatū hareketi önderi",
+   "dosya": "Te Kooti - portrait (Battles of the nineteenth century, 1901).jpg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 609,
+   "boy": 665,
+   "yedek": true
+  },
+  {
+   "anahtar": "tamihana",
+   "ad": "Wiremu Tamihana",
+   "rol": "Māori Kral hareketinin kurucusu",
+   "dosya": "Wiremu Tamihana.jpg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 531,
+   "boy": 859,
+   "yedek": true
+  },
+  {
+   "anahtar": "tepuea",
+   "ad": "Te Puea Hērangi",
+   "rol": "Waikato önderi",
+   "dosya": "Te Puea Hērangi.webp",
+   "lisans": "Public domain",
+   "yazar": "William A Price",
+   "en": 504,
+   "boy": 700,
+   "yedek": true
+  }
+ ],
+ "simgeler": [
+  {
+   "anahtar": "NZ_bayrak",
+   "ad": "Yeni Zelanda bayrağı",
+   "tur": "bayrak",
+   "dosya": "Flag of New Zealand.svg",
+   "lisans": "Public domain",
+   "yazar": "Original: Albert Hastings Markham Vector:  Zscout370, Hugh J",
+   "en": 1200,
+   "boy": 600
+  },
+  {
+   "anahtar": "NZ_arma",
+   "ad": "Yeni Zelanda arması",
+   "tur": "arma",
+   "dosya": "Coat of arms of New Zealand.svg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Sodacan",
+   "en": 725,
+   "boy": 699
+  },
+  {
+   "anahtar": "NZ_harita",
+   "ad": "Yeni Zelanda Dominyonu · 1914",
+   "tur": "harita",
+   "hb_yil": "1914",
+   "hb_ad": "New Zealand"
+  },
+  {
+   "anahtar": "NZ_bagimsiz",
+   "ad": "Birleşik Maori Kabileleri bayrağı (1835)",
+   "tur": "bayrak",
+   "dosya": "Flag of the United Tribes of New Zealand.svg",
+   "lisans": "CC BY-SA 2.5",
+   "yazar": "No machine-readable author provided. Greentubing assumed (ba",
+   "en": 600,
+   "boy": 300,
+   "not": "1835 Bağımsızlık Bildirgesi'nin gerçek bayrağı"
+  },
+  {
+   "anahtar": "NZ_tino",
+   "ad": "Tino rangatiratanga bayrağı",
+   "tur": "bayrak",
+   "dosya": "Tino Rangatiratanga flag against sky 2024.jpg",
+   "lisans": "CC BY 4.0",
+   "yazar": "RobbieIanMorrison",
+   "en": 5000,
+   "boy": 2700,
+   "not": "Māori egemenlik bayrağı (1990), fotoğraf"
+  },
+  {
+   "anahtar": "NZ_waitangi",
+   "ad": "Waitangi Antlaşması (1840)",
+   "tur": "eser",
+   "dosya": "Treatyofwaitangi.jpg",
+   "lisans": "Public domain",
+   "yazar": "William Hobson, James Freeman, and James Busby (English vers",
+   "en": 3091,
+   "boy": 5788
+  },
+  {
+   "anahtar": "NZ_treatyhouse",
+   "ad": "Waitangi Antlaşma Evi",
+   "tur": "yapi",
+   "dosya": "00 27 0577 Waitangi, New Zealand - Treaty House.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "W. Bulach",
+   "en": 3168,
+   "boy": 2112
+  },
+  {
+   "anahtar": "NZ_aoraki",
+   "ad": "Aoraki / Cook Dağı",
+   "tur": "yapi",
+   "dosya": "Mt Cook LC0247.jpg",
+   "lisans": "CC BY-SA 3.0 de",
+   "yazar": "Jörg Hempel",
+   "en": 2000,
+   "boy": 2000,
+   "not": "doğal anıt"
+  },
+  {
+   "anahtar": "NZ_milford",
+   "ad": "Milford Sound",
+   "tur": "yapi",
+   "dosya": "Milford Sound in Fiordland National Park 01.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Krzysztof Golik",
+   "en": 4030,
+   "boy": 2687,
+   "not": "doğal anıt"
+  },
+  {
+   "anahtar": "NZ_heitiki",
+   "ad": "Hei-tiki (Māori jade kolye)",
+   "tur": "eser",
+   "dosya": "Hei-tiki at BM.jpg",
+   "lisans": "CC0",
+   "yazar": "Jononmac46",
+   "en": 1080,
+   "boy": 810
+  },
+  {
+   "anahtar": "NZ_skytower",
+   "ad": "Sky Tower, Auckland",
+   "tur": "yapi",
+   "dosya": "Sky Tower Auckland 01.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Krzysztof Golik",
+   "en": 2151,
+   "boy": 4503
+  }
+ ]
+}

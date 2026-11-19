@@ -1,0 +1,240 @@
+{
+ "kod": "ET",
+ "ad": "Etiyopya (Habeşistan, Aksum dahil)",
+ "kisiler": [
+  {
+   "anahtar": "haileselassie",
+   "ad": "Haile Selassie",
+   "rol": "imparator, son Habeş hükümdarı",
+   "dosya": "Haile Selassie in full dress (cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": "unknown; according to [1] and [2] an official portrait of wh",
+   "en": 600,
+   "boy": 800
+  },
+  {
+   "anahtar": "menelik",
+   "ad": "II. Menelik",
+   "rol": "imparator, Adva zaferi",
+   "mevcut": "menelik"
+  },
+  {
+   "anahtar": "tewodros",
+   "ad": "II. Tewodros",
+   "rol": "imparator, modern Etiyopya'nın birleştiricisi",
+   "dosya": "Tewodros II of Ethiopia in the 1860s.jpg",
+   "lisans": "Public domain",
+   "yazar": "Étienne Neurdein",
+   "en": 488,
+   "boy": 800
+  },
+  {
+   "anahtar": "yohannes",
+   "ad": "IV. Yohannes",
+   "rol": "imparator",
+   "dosya": "Yohannes IV Tigray.jpg",
+   "lisans": "Public domain",
+   "yazar": "Samuel Tigrai",
+   "en": 1045,
+   "boy": 2048,
+   "kirp": [
+    4.9,
+    3.6,
+    0.12
+   ]
+  },
+  {
+   "anahtar": "taytu",
+   "ad": "İmparatoriçe Taytu Betul",
+   "rol": "Adva'nın stratejisti, Addis Ababa'nın kurucusu",
+   "dosya": "Taytu Betul.jpg",
+   "lisans": "Public domain",
+   "yazar": "Le Petit Journal - H. Meyer",
+   "en": 3734,
+   "boy": 5433
+  },
+  {
+   "anahtar": "makonnen",
+   "ad": "Ras Makonnen",
+   "rol": "devlet adamı, Adva komutanı",
+   "dosya": "Ras Mäkonnen (Wäldä-Mika'él) (1852-1906).jpg",
+   "lisans": "Public domain",
+   "yazar": "James Lafayette",
+   "en": 600,
+   "boy": 754
+  },
+  {
+   "anahtar": "alula",
+   "ad": "Ras Alula",
+   "rol": "komutan, Dogali ve Gundet galibi",
+   "dosya": "Ras Alula.jpg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 414,
+   "boy": 640
+  },
+  {
+   "anahtar": "zewditu",
+   "ad": "İmparatoriçe Zewditu",
+   "rol": "ilk kadın imparatoriçe (hükümdar)",
+   "dosya": "Zewditu I.jpg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 395,
+   "boy": 608
+  },
+  {
+   "anahtar": "iyasu",
+   "ad": "V. İyasu",
+   "rol": "veliaht-imparator",
+   "dosya": "Lij Iyasu 1914.png",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 1434,
+   "boy": 1878
+  },
+  {
+   "anahtar": "bikila",
+   "ad": "Abebe Bikila",
+   "rol": "maratoncu, olimpiyat şampiyonu",
+   "dosya": "Abebe Bikila 1968c.jpg",
+   "lisans": "CC0",
+   "yazar": "Jack de Nijs for Anefo",
+   "en": 789,
+   "boy": 972
+  },
+  {
+   "anahtar": "zarayaqob",
+   "ad": "Zara Yaqob",
+   "rol": "15. yy imparatoru, Haçlı-Aksum geleneği",
+   "dosya": "Zara Yacob.png",
+   "lisans": "CC0",
+   "yazar": "Unknown painter 17th century",
+   "en": 1027,
+   "boy": 725,
+   "not": "17. yy Habeş resmi",
+   "yedek": true
+  },
+  {
+   "anahtar": "gebrselassie",
+   "ad": "Haile Gebrselassie",
+   "rol": "uzun mesafe koşucusu",
+   "dosya": "Haile Gebrselassie en 2009.jpg",
+   "lisans": "GFDL",
+   "yazar": "Erik van Leeuwen",
+   "en": 518,
+   "boy": 640,
+   "yedek": true
+  }
+ ],
+ "simgeler": [
+  {
+   "anahtar": "ET_bayrak",
+   "ad": "Etiyopya bayrağı",
+   "tur": "bayrak",
+   "mevcut": "ETH"
+  },
+  {
+   "anahtar": "ET_arma",
+   "ad": "Etiyopya arması",
+   "tur": "arma",
+   "dosya": "Emblem of Ethiopia.svg",
+   "lisans": "Public domain",
+   "yazar": "IvY88",
+   "en": 600,
+   "boy": 600
+  },
+  {
+   "anahtar": "ET_impArma",
+   "ad": "Habeş İmparatorluk arması (Haile Selassie)",
+   "tur": "arma",
+   "dosya": "Imperial coat of arms of Ethiopia (Haile Selassie).svg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Commons",
+   "en": 1094,
+   "boy": 1221
+  },
+  {
+   "anahtar": "ET_bayrak1897",
+   "ad": "Habeş İmparatorluğu bayrağı (1897-1974)",
+   "tur": "bayrak",
+   "dosya": "Flag of Ethiopia (1897–1974).svg",
+   "lisans": "Public domain",
+   "yazar": "Oren neu dag",
+   "en": 900,
+   "boy": 600
+  },
+  {
+   "anahtar": "ET_harita",
+   "ad": "Etiyopya İmparatorluğu · 1900 (II. Menelik)",
+   "tur": "harita",
+   "hb_yil": "1900",
+   "hb_ad": "Ethiopia"
+  },
+  {
+   "anahtar": "ET_aksum",
+   "ad": "Aksum Krallığı · 500",
+   "tur": "harita",
+   "hb_yil": "500",
+   "hb_ad": "Axum",
+   "not": "Aksum dahil"
+  },
+  {
+   "anahtar": "ET_adwa",
+   "ad": "Adva Muharebesi (tablo)",
+   "tur": "eser",
+   "mevcut": "adwa"
+  },
+  {
+   "anahtar": "ET_lalibela",
+   "ad": "Lalibela, Aziz Giyorgis Kilisesi",
+   "tur": "yapi",
+   "dosya": "Bete Giyorgis 03.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Bernard Gagnon",
+   "en": 2372,
+   "boy": 3057
+  },
+  {
+   "anahtar": "ET_aksumstel",
+   "ad": "Aksum dikili taşı (3 numaralı, Ezana devri)",
+   "tur": "yapi",
+   "dosya": "Aksum, stele 3 detta di re ezana, l'unica mai crollata 01.jpg",
+   "lisans": "CC BY 3.0",
+   "yazar": "Sailko",
+   "en": 3648,
+   "boy": 5472
+  },
+  {
+   "anahtar": "ET_fasil",
+   "ad": "Gondar, Fasilides Sarayı",
+   "tur": "yapi",
+   "dosya": "Fasilides Palace 02.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Bernard Gagnon",
+   "en": 2209,
+   "boy": 1611
+  },
+  {
+   "anahtar": "ET_ezana",
+   "ad": "Kral Ezana'nın altın sikkesi",
+   "tur": "eser",
+   "dosya": "Ezana gold coin with cross. British Museum. 1921,0316.1.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Ismoon (talk) 21:55, 6 February 2020 (UTC)",
+   "en": 650,
+   "boy": 650,
+   "not": "Aksum'un Hristiyanlığa geçişi (4. yy) sikkelerde"
+  },
+  {
+   "anahtar": "ET_lucy",
+   "ad": "Lucy (Australopithecus afarensis)",
+   "tur": "eser",
+   "dosya": "Lucy (Australopithecus) National Museum of Ethiopia.jpg",
+   "lisans": "CC BY 3.0 pl",
+   "yazar": "Radosław Botev",
+   "en": 3000,
+   "boy": 4000
+  }
+ ]
+}

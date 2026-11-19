@@ -1,0 +1,212 @@
+{
+ "kod": "RO",
+ "ad": "Romanya",
+ "kisiler": [
+  {
+   "anahtar": "stefan",
+   "ad": "Büyük Ştefan",
+   "rol": "Boğdan voyvodası",
+   "dosya": "Ştefan cel Mare (Stephen the Great) 1488, Voroneţ Monastery.jpg",
+   "lisans": "CC0",
+   "yazar": "Ninhursag3",
+   "en": 438,
+   "boy": 1031,
+   "not": "Voroneţ Manastırı fresk adak tasviri (1488)"
+  },
+  {
+   "anahtar": "vlad",
+   "ad": "Kazıklı Voyvoda (Vlad Țepeş)",
+   "rol": "Eflak voyvodası",
+   "dosya": "Vlad Ţepeş, the Impaler, Prince of Wallachia (1456-1462) (died 1477).jpg",
+   "lisans": "Public domain",
+   "yazar": "AnonymousUnknown author",
+   "en": 3698,
+   "boy": 4660,
+   "not": "Ambras portresi"
+  },
+  {
+   "anahtar": "mihai",
+   "ad": "Mihai Viteazul (Mihail)",
+   "rol": "Eflak voyvodası, ilk birleştirici",
+   "dosya": "MihaiViteazul.jpg",
+   "lisans": "Public domain",
+   "yazar": "Aegidius Sadeler",
+   "en": 2000,
+   "boy": 2471,
+   "not": "Sadeler gravürü, dönem"
+  },
+  {
+   "anahtar": "cuza",
+   "ad": "Alexandru Ioan Cuza",
+   "rol": "birleşik Prenslikler hükümdarı",
+   "dosya": "Alexandru Ioan Cuza - Photo by Carol Popp de Szathmáry.jpg",
+   "lisans": "Public domain",
+   "yazar": "Carol Szathmari",
+   "en": 2443,
+   "boy": 3763,
+   "not": "Szathmári fotoğrafı"
+  },
+  {
+   "anahtar": "carol1",
+   "ad": "I. Carol",
+   "rol": "kral",
+   "dosya": "Carol I of Romania edited.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown photographer",
+   "en": 1248,
+   "boy": 1669,
+   "not": "fotoğraf"
+  },
+  {
+   "anahtar": "eminescu",
+   "ad": "Mihai Eminescu",
+   "rol": "ulusal şair",
+   "dosya": "Eminescu.jpg",
+   "lisans": "Public domain",
+   "yazar": "Jan Tomas",
+   "en": 800,
+   "boy": 1126,
+   "not": "fotoğraf"
+  },
+  {
+   "anahtar": "brancusi",
+   "ad": "Constantin Brâncuși",
+   "rol": "heykeltıraş",
+   "dosya": "Edward Steichen - Brancusi.jpg",
+   "lisans": "Public domain",
+   "yazar": "Edward Steichen",
+   "en": 1012,
+   "boy": 1256,
+   "not": "Steichen fotoğrafı"
+  },
+  {
+   "anahtar": "enescu",
+   "ad": "George Enescu",
+   "rol": "besteci, kemancı",
+   "dosya": "George-Enesco crop.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown",
+   "en": 1308,
+   "boy": 1130,
+   "not": "fotoğraf"
+  },
+  {
+   "anahtar": "cantemir",
+   "ad": "Dimitrie Cantemir",
+   "rol": "Boğdan voyvodası, Osmanlı müzik/tarih yazarı",
+   "dosya": "Dimitrie Cantemir - Portrait from Descriptio Moldaviae, 1716 (crop).jpg",
+   "lisans": "Public domain",
+   "yazar": "Bilinmeyen",
+   "en": 2847,
+   "boy": 3505,
+   "not": "Descriptio Moldaviae (1716) portresi"
+  },
+  {
+   "anahtar": "ferdinand",
+   "ad": "I. Ferdinand",
+   "rol": "Büyük Romanya kralı",
+   "dosya": "Regele Ferdinand I al României (1915).jpg",
+   "lisans": "Public domain",
+   "yazar": "Gustav Liersch & Co.",
+   "en": 1414,
+   "boy": 1988,
+   "not": "1915 fotoğrafı"
+  }
+ ],
+ "simgeler": [
+  {
+   "anahtar": "RO_bayrak",
+   "ad": "Romanya bayrağı",
+   "tur": "bayrak",
+   "dosya": "Flag of Romania.svg",
+   "lisans": "Public domain",
+   "yazar": "AdiJapan",
+   "en": 600,
+   "boy": 400
+  },
+  {
+   "anahtar": "RO_arma",
+   "ad": "Romanya arması",
+   "tur": "arma",
+   "dosya": "Coat of arms of Romania.svg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 670,
+   "boy": 970
+  },
+  {
+   "anahtar": "RO_peles",
+   "ad": "Peleș Şatosu",
+   "tur": "yapi",
+   "dosya": "01 Chateau Peles.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Myrabella",
+   "en": 3986,
+   "boy": 2848
+  },
+  {
+   "anahtar": "RO_bran",
+   "ad": "Bran Şatosu",
+   "tur": "yapi",
+   "dosya": "Castelul Bran2.jpg",
+   "lisans": "CC BY-SA 3.0 ro",
+   "yazar": "Dobre Cezar",
+   "en": 3791,
+   "boy": 2516
+  },
+  {
+   "anahtar": "RO_parlamento",
+   "ad": "Parlamento Sarayı (Bükreş)",
+   "tur": "yapi",
+   "dosya": "Palace of the Parliament in Bucharest (51878975552).jpg",
+   "lisans": "CC BY-SA 2.0",
+   "yazar": "William John Gauthier from Denmark",
+   "en": 5184,
+   "boy": 3456
+  },
+  {
+   "anahtar": "RO_voronet",
+   "ad": "Voroneţ Manastırı",
+   "tur": "yapi",
+   "dosya": "Voronet Intrare.JPG",
+   "lisans": "Public domain",
+   "yazar": "Dstefanescu",
+   "en": 3008,
+   "boy": 2000
+  },
+  {
+   "anahtar": "RO_ateneu",
+   "ad": "Romen Atheneumu",
+   "tur": "yapi",
+   "dosya": "Ateneo Rumano, Bucarest, Rumanía, 2016-05-29, DD 73.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Diego Delso",
+   "en": 6592,
+   "boy": 4963
+  },
+  {
+   "anahtar": "RO_turgu",
+   "ad": "Târgoviște Chindia Kulesi",
+   "tur": "yapi",
+   "dosya": "TurnulChindiei.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "CristianChirita",
+   "en": 1185,
+   "boy": 1293
+  },
+  {
+   "anahtar": "RO_harita",
+   "ad": "Büyük Romanya · 1920",
+   "tur": "harita",
+   "hb_yil": "1920",
+   "hb_ad": "Romania"
+  },
+  {
+   "anahtar": "RO_harita_dacia",
+   "ad": "Dakya · İ.Ö. 1",
+   "tur": "harita",
+   "hb_yil": "bc1",
+   "hb_ad": "Dacia"
+  }
+ ]
+}

@@ -1,0 +1,234 @@
+{
+ "kod": "BE",
+ "ad": "Belçika",
+ "kisiler": [
+  {
+   "anahtar": "leopold2",
+   "ad": "II. Leopold",
+   "rol": "hükümdar",
+   "dosya": "Leopold II of Belgium.jpg",
+   "lisans": "Public domain",
+   "yazar": "AnonymousUnknown author",
+   "en": 389,
+   "boy": 564,
+   "cikar": "dosya Kongo karikatürü"
+  },
+  {
+   "anahtar": "leopold1",
+   "ad": "I. Leopold",
+   "rol": "hükümdar",
+   "dosya": "Leopold I of Belgium.jpg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 259,
+   "boy": 343,
+   "not": "küçük çözünürlük (259x343)"
+  },
+  {
+   "anahtar": "karl5",
+   "ad": "V. Karl",
+   "rol": "hükümdar",
+   "dosya": "Titian - Emperor Charles V at Mühlberg - WGA22965.jpg",
+   "lisans": "Public domain",
+   "yazar": "Titian",
+   "en": 1178,
+   "boy": 1400,
+   "not": "Tiziano, Mühlberg'de V. Karl (atlı portre; yüz net)"
+  },
+  {
+   "anahtar": "mercator",
+   "ad": "Gerardus Mercator",
+   "rol": "coğrafyacı",
+   "dosya": "Gerardus Mercator.jpg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 590,
+   "boy": 698
+  },
+  {
+   "anahtar": "vesalius",
+   "ad": "Andreas Vesalius",
+   "rol": "hekim, bilim insanı",
+   "dosya": "Vesalius Fabrica portrait.jpg",
+   "lisans": "Public domain",
+   "yazar": "Attributed to Jan van Calcar",
+   "en": 736,
+   "boy": 1022
+  },
+  {
+   "anahtar": "rubens",
+   "ad": "Peter Paul Rubens",
+   "rol": "ressam",
+   "dosya": "Peter Paul Rubens - Self-Portrait - WGA20380.jpg",
+   "lisans": "Public domain",
+   "yazar": "Peter Paul Rubens",
+   "en": 2588,
+   "boy": 3508
+  },
+  {
+   "anahtar": "vaneyck",
+   "ad": "Jan van Eyck",
+   "rol": "ressam",
+   "dosya": "Portrait of a Man in a Turban (Jan van Eyck).jpg",
+   "lisans": "Public domain",
+   "yazar": "Jan van Eyck",
+   "en": 2024,
+   "boy": 2746,
+   "not": "sanatçının otoportresi sayılan 'Türbanlı Adam' (1433)"
+  },
+  {
+   "anahtar": "sax",
+   "ad": "Adolphe Sax",
+   "rol": "müzisyen, mucit",
+   "dosya": "Adolphe Sax.jpg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 739,
+   "boy": 1267
+  },
+  {
+   "anahtar": "vandyck",
+   "ad": "Anthony van Dyck",
+   "rol": "ressam",
+   "dosya": "Sir Anthony van Dyck - Self-portrait.jpg",
+   "lisans": "Public domain",
+   "yazar": "Anthony van Dyck",
+   "en": 1257,
+   "boy": 1593,
+   "kirp": [
+    6.0,
+    3.2,
+    0.2
+   ]
+  },
+  {
+   "anahtar": "bouillon",
+   "ad": "Godefroy de Bouillon",
+   "rol": "komutan",
+   "dosya": "Godefroy de Bouillon.jpg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 482,
+   "boy": 800
+  },
+  {
+   "anahtar": "albert1",
+   "ad": "I. Albert",
+   "rol": "hükümdar",
+   "dosya": "Albert I of Belgium.jpg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 828,
+   "boy": 1126
+  }
+ ],
+ "simgeler": [
+  {
+   "anahtar": "BE_bayrak",
+   "ad": "Belçika bayrağı",
+   "tur": "bayrak",
+   "dosya": "Flag of Belgium.svg",
+   "lisans": "Public domain",
+   "yazar": "Dbenbenn and others",
+   "en": 900,
+   "boy": 780
+  },
+  {
+   "anahtar": "BE_arma",
+   "ad": "Belçika arması",
+   "tur": "arma",
+   "dosya": "Middle coat of arms of Belgium.svg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Sodacan",
+   "en": 972,
+   "boy": 1089
+  },
+  {
+   "anahtar": "BE_manneken",
+   "ad": "Manneken Pis",
+   "tur": "yapi",
+   "dosya": "Manneken-Pis Brussels.jpg",
+   "lisans": "CC BY 4.0",
+   "yazar": "acediscovery",
+   "en": 2800,
+   "boy": 2381
+  },
+  {
+   "anahtar": "BE_atomium",
+   "ad": "Atomium",
+   "tur": "yapi",
+   "dosya": "Atomium.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Dudva",
+   "en": 2700,
+   "boy": 3000
+  },
+  {
+   "anahtar": "BE_grandplace",
+   "ad": "Brüksel Grand-Place",
+   "tur": "yapi",
+   "dosya": "Grand Place, Brussels.jpg",
+   "lisans": "CC BY 4.0",
+   "yazar": "acediscovery",
+   "en": 3984,
+   "boy": 2988
+  },
+  {
+   "anahtar": "BE_gent",
+   "ad": "Gent Sunağı",
+   "tur": "eser",
+   "dosya": "Lamgods open.jpg",
+   "lisans": "Public domain",
+   "yazar": "Jan van Eyck / Presumably Hubert van Eyck",
+   "en": 6265,
+   "boy": 4581
+  },
+  {
+   "anahtar": "BE_belfort",
+   "ad": "Brugge Çan Kulesi",
+   "tur": "yapi",
+   "dosya": "Belfry of Bruges.jpg",
+   "lisans": "CC BY 4.0",
+   "yazar": "Arthurious",
+   "en": 4000,
+   "boy": 6000
+  },
+  {
+   "anahtar": "BE_waterloo",
+   "ad": "Waterloo Aslan Tepesi",
+   "tur": "yapi",
+   "dosya": "Lion's Mound.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Flocci Nivis",
+   "en": 6016,
+   "boy": 4016
+  },
+  {
+   "anahtar": "BE_ieper",
+   "ad": "Ypres Kumaşçılar Salonu",
+   "tur": "yapi",
+   "dosya": "Lakenhallen Ieper.jpg",
+   "lisans": "CC0",
+   "yazar": "Isabelvdb",
+   "en": 4000,
+   "boy": 3000
+  },
+  {
+   "anahtar": "BE_adalet",
+   "ad": "Brüksel Adalet Sarayı",
+   "tur": "yapi",
+   "dosya": "Palais de Justice de Bruxelles.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Daniel baise",
+   "en": 1200,
+   "boy": 814
+  },
+  {
+   "anahtar": "BE_harita",
+   "ad": "Habsburg Hollandası · 1600",
+   "tur": "harita",
+   "hb_yil": "1600",
+   "hb_ad": "Habsburg Netherlands"
+  }
+ ]
+}

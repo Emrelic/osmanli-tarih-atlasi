@@ -1,0 +1,199 @@
+{
+ "kod": "BR",
+ "ad": "Brezilya",
+ "kisiler": [
+  {
+   "anahtar": "pedro2",
+   "ad": "II. Pedro",
+   "rol": "imparator",
+   "mevcut": "pedro2"
+  },
+  {
+   "anahtar": "pedro1",
+   "ad": "I. Pedro",
+   "rol": "bağımsızlık imparatoru",
+   "dosya": "Pedro I of Brazil 1830.jpg",
+   "lisans": "Public domain",
+   "yazar": "Simplício Rodrigues de Sá",
+   "en": 2328,
+   "boy": 3104
+  },
+  {
+   "anahtar": "tiradentes",
+   "ad": "Tiradentes",
+   "rol": "bağımsızlık şehidi",
+   "dosya": "Tiradentes.jpg",
+   "lisans": "Public domain",
+   "yazar": "Foto do retrato oficial de Tiradentes pintado por Alberto Delpino",
+   "en": 326,
+   "boy": 400,
+   "not": "düşük çözünürlük (326x400)"
+  },
+  {
+   "anahtar": "isabel",
+   "ad": "Prenses Isabel",
+   "rol": "kölelik karşıtı naibe",
+   "dosya": "Isabel Princess Imperial of Brazil circa 1887.jpg",
+   "lisans": "Public domain",
+   "yazar": "Insley Pacheco (1830-1912)",
+   "en": 944,
+   "boy": 1341
+  },
+  {
+   "anahtar": "bonifacio",
+   "ad": "José Bonifácio",
+   "rol": "bağımsızlığın patriği",
+   "dosya": "Jose bonifacio de andrada.jpg",
+   "lisans": "Public domain",
+   "yazar": "Oscar Pereira da Silva",
+   "en": 972,
+   "boy": 1269
+  },
+  {
+   "anahtar": "machado",
+   "ad": "Machado de Assis",
+   "rol": "yazar",
+   "dosya": "Machado de Assis 1904.jpg",
+   "lisans": "Public domain",
+   "yazar": "UnknownUnknown",
+   "en": 2258,
+   "boy": 2783
+  },
+  {
+   "anahtar": "santosdumont",
+   "ad": "Santos-Dumont",
+   "rol": "havacılık öncüsü",
+   "dosya": "Alberto Santos-Dumont by Nadar.jpg",
+   "lisans": "Public domain",
+   "yazar": "Nadar",
+   "en": 2362,
+   "boy": 3388
+  },
+  {
+   "anahtar": "vargas",
+   "ad": "Getúlio Vargas",
+   "rol": "devlet başkanı",
+   "dosya": "Getúlio Vargas.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Presidência da República",
+   "en": 772,
+   "boy": 1084
+  },
+  {
+   "anahtar": "oswaldo",
+   "ad": "Oswaldo Cruz",
+   "rol": "hekim, halk sağlığı öncüsü",
+   "dosya": "Retrato de Oswaldo Cruz sentado, Casa de Oswaldo Cruz (BR RJCOC FO-01-02-08).jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "en": 1134,
+   "boy": 1500,
+   "not": "oturur portre fotoğrafı (Casa de Oswaldo Cruz)"
+  },
+  {
+   "anahtar": "joao6",
+   "ad": "VI. João",
+   "rol": "Portekiz-Brezilya kralı",
+   "dosya": "Jean-Baptiste Debret - Retrato de Dom João VI (MNBA) - cores compensadas.jpg",
+   "lisans": "Public domain",
+   "yazar": "Jean-Baptiste Debret",
+   "en": 1456,
+   "boy": 2121
+  }
+ ],
+ "simgeler": [
+  {
+   "anahtar": "BR_bayrak",
+   "ad": "Brezilya bayrağı",
+   "tur": "bayrak",
+   "mevcut": "BRA"
+  },
+  {
+   "anahtar": "BR_arma",
+   "ad": "Brezilya arması",
+   "tur": "arma",
+   "dosya": "Coat of arms of Brazil.svg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 512,
+   "boy": 515
+  },
+  {
+   "anahtar": "BR_imparatorluk",
+   "ad": "Brezilya İmparatorluğu bayrağı",
+   "tur": "bayrak",
+   "dosya": "Flag of Brazil (1853-1889).svg",
+   "lisans": "Public domain",
+   "yazar": "This vector image includes elements that have been taken or adapted from this file:",
+   "en": 1500,
+   "boy": 1000
+  },
+  {
+   "anahtar": "BR_cristo",
+   "ad": "Kurtarıcı İsa Heykeli",
+   "tur": "yapi",
+   "dosya": "Christ the Redeemer - Cristo Redentor.jpg",
+   "lisans": "CC BY-SA 3.0 de",
+   "yazar": "Arne Müseler",
+   "en": 2497,
+   "boy": 3744
+  },
+  {
+   "anahtar": "BR_katedral",
+   "ad": "Brasília Katedrali",
+   "tur": "yapi",
+   "dosya": "Catedral Metropolitana de Brasília na esplanada.jpg",
+   "lisans": "CC0",
+   "yazar": "Adeilton O. de Souza",
+   "en": 4624,
+   "boy": 2080
+  },
+  {
+   "anahtar": "BR_amazonas",
+   "ad": "Amazonas Tiyatrosu",
+   "tur": "yapi",
+   "dosya": "Teatro Amazonas.jpg",
+   "lisans": "CC BY 2.5",
+   "yazar": "H. Langos (User:hl)",
+   "en": 1693,
+   "boy": 1270
+  },
+  {
+   "anahtar": "BR_iguacu",
+   "ad": "Iguaçu Şelaleleri",
+   "tur": "yapi",
+   "dosya": "00 1838 Iguazu Falls from the Brazilian side.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "W. Bulach",
+   "en": 3300,
+   "boy": 2200
+  },
+  {
+   "anahtar": "BR_ozgurluk",
+   "ad": "Bağımsızlık ya da Ölüm (Pedro Américo)",
+   "tur": "eser",
+   "dosya": "Pedro Américo - Independência ou Morte - Google Art Project.jpg",
+   "lisans": "Public domain",
+   "yazar": "Pedro Américo",
+   "en": 34130,
+   "boy": 18254
+  },
+  {
+   "anahtar": "BR_harita",
+   "ad": "Brezilya İmparatorluğu · 1880",
+   "tur": "harita",
+   "hb_yil": "1880",
+   "hb_ad": "Kingdom of Brazil"
+  },
+  {
+   "anahtar": "BR_congresso",
+   "ad": "Ulusal Kongre Sarayı (Brasília)",
+   "tur": "yapi",
+   "dosya": "Congresso Nacional Brasileiro.JPG",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Acarlos01.sc",
+   "en": 3264,
+   "boy": 2448
+  }
+ ]
+}

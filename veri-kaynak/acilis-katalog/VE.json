@@ -1,0 +1,202 @@
+{
+ "kod": "VE",
+ "ad": "Venezuela",
+ "kisiler": [
+  {
+   "anahtar": "bolivar",
+   "ad": "Simón Bolívar",
+   "rol": "kurtarıcı",
+   "mevcut": "bolivar"
+  },
+  {
+   "anahtar": "miranda",
+   "ad": "Francisco de Miranda",
+   "rol": "öncü, general",
+   "dosya": "Francisco de Miranda - Emilio Mauri.jpg",
+   "lisans": "Public domain",
+   "yazar": "Emilio Jacinto Mauri",
+   "en": 700,
+   "boy": 833,
+   "not": "Emilio Mauri portresi (sonradan yapılmış, tanınmış)"
+  },
+  {
+   "anahtar": "sucre",
+   "ad": "Antonio José de Sucre",
+   "rol": "general",
+   "dosya": "Antonio José de Sucre - Presidente de Bolivia.png",
+   "lisans": "Public domain",
+   "yazar": "Pedro Querejazu Leyton",
+   "en": 559,
+   "boy": 865,
+   "kirp": [
+    5.1,
+    1.4,
+    0.1
+   ]
+  },
+  {
+   "anahtar": "paez",
+   "ad": "José Antonio Páez",
+   "rol": "general, devlet başkanı",
+   "dosya": "José Antonio Páez.jpg",
+   "lisans": "Public domain",
+   "yazar": "Arturo Santana",
+   "en": 1800,
+   "boy": 2296
+  },
+  {
+   "anahtar": "bello",
+   "ad": "Andrés Bello",
+   "rol": "şair, dilbilimci, hukukçu",
+   "dosya": "Andrés Bello.jpg",
+   "lisans": "Public domain",
+   "yazar": "Raymond Monvoisin",
+   "en": 1698,
+   "boy": 2048
+  },
+  {
+   "anahtar": "urdaneta",
+   "ad": "Rafael Urdaneta",
+   "rol": "general",
+   "dosya": "Rafael Urdaneta.jpg",
+   "lisans": "Public domain",
+   "yazar": "Antonio Rodríguez (?-1898)",
+   "en": 175,
+   "boy": 261,
+   "not": "düşük çözünürlük (175x261)"
+  },
+  {
+   "anahtar": "rodriguez",
+   "ad": "Simón Rodríguez",
+   "rol": "eğitimci, Bolívar'ın hocası",
+   "dosya": "Simón Rodríguez 4.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "en": 2715,
+   "boy": 3202
+  },
+  {
+   "anahtar": "carreno",
+   "ad": "Teresa Carreño",
+   "rol": "piyanist, besteci",
+   "dosya": "Teresa Carreño at the piano.jpg",
+   "lisans": "Public domain",
+   "yazar": "George Grantham Bain Collection (Library of Congress) Restored by Adam Cuerden",
+   "en": 3065,
+   "boy": 4494
+  },
+  {
+   "anahtar": "guzman",
+   "ad": "Antonio Guzmán Blanco",
+   "rol": "devlet başkanı",
+   "dosya": "Guzman Blanco, Antonio, Gallica, Nadar.jpg",
+   "lisans": "Public domain",
+   "yazar": "Nadar",
+   "en": 2400,
+   "boy": 3396
+  },
+  {
+   "anahtar": "chavez",
+   "ad": "Hugo Chávez",
+   "rol": "devlet başkanı",
+   "dosya": "Hugo Chávez.jpg",
+   "lisans": "CC BY-SA 2.0",
+   "yazar": "Walter Vargas from San Cristóbal, Venezuela",
+   "en": 4098,
+   "boy": 3166,
+   "cikar": "dosya kalabalık miting fotoğrafı"
+  }
+ ],
+ "simgeler": [
+  {
+   "anahtar": "VE_bayrak",
+   "ad": "Venezuela bayrağı",
+   "tur": "bayrak",
+   "mevcut": "VEN"
+  },
+  {
+   "anahtar": "VE_arma",
+   "ad": "Venezuela arması",
+   "tur": "arma",
+   "dosya": "Coat of arms of Venezuela.svg",
+   "lisans": "Public domain",
+   "yazar": "Various, see File history below for details.",
+   "en": 512,
+   "boy": 558
+  },
+  {
+   "anahtar": "VE_miranda",
+   "ad": "Miranda'nın bayrağı (1806)",
+   "tur": "bayrak",
+   "dosya": "Flag of Miranda.svg",
+   "lisans": "Public domain",
+   "yazar": "Jitcji from Taiwan.",
+   "en": 900,
+   "boy": 600
+  },
+  {
+   "anahtar": "VE_melek",
+   "ad": "Melek Şelalesi",
+   "tur": "yapi",
+   "dosya": "Salto Angel.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Sankirumi",
+   "en": 960,
+   "boy": 640
+  },
+  {
+   "anahtar": "VE_roraima",
+   "ad": "Roraima Dağı",
+   "tur": "yapi",
+   "dosya": "Monte Roraima e Kukenan Tepui no retorno a casa.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Ney Teixeira de Freitas Guimarães Filho",
+   "en": 5467,
+   "boy": 3644
+  },
+  {
+   "anahtar": "VE_capitolio",
+   "ad": "Federal Legislatif Saray (Caracas)",
+   "tur": "yapi",
+   "dosya": "Capitolio Caracas Centro.JPG",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Ricardo Juliao",
+   "en": 2448,
+   "boy": 3264
+  },
+  {
+   "anahtar": "VE_carabobo",
+   "ad": "Carabobo Muharebesi (Tovar y Tovar)",
+   "tur": "eser",
+   "dosya": "Batalla de Carabobo.JPG",
+   "lisans": "Public domain",
+   "yazar": "Martin Tovar y Tovar",
+   "en": 1024,
+   "boy": 498,
+   "not": "Tovar y Tovar tablosunun fotoğrafı olduğu teyit edilmeli"
+  },
+  {
+   "anahtar": "VE_miranda_tablo",
+   "ad": "La Carraca'da Miranda",
+   "tur": "eser",
+   "mevcut": "miranda"
+  },
+  {
+   "anahtar": "VE_panteon",
+   "ad": "Ulusal Pantheon",
+   "tur": "yapi",
+   "dosya": "Panteón Nacional, Caracas..JPG",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "María Eva Castillo",
+   "en": 4272,
+   "boy": 2848
+  },
+  {
+   "anahtar": "VE_harita",
+   "ad": "Venezuela · 1914",
+   "tur": "harita",
+   "hb_yil": "1914",
+   "hb_ad": "Venezuela"
+  }
+ ]
+}

@@ -1,0 +1,227 @@
+{
+ "kod": "CZ",
+ "ad": "Çekya",
+ "kisiler": [
+  {
+   "anahtar": "karel4",
+   "ad": "IV. Karel",
+   "rol": "Bohemya kralı, Kutsal Roma imparatoru",
+   "dosya": "Charles IV-John Ocko votive picture-fragment.jpg",
+   "lisans": "Public domain",
+   "yazar": "Circle of Theodoric of Prague",
+   "en": 2045,
+   "boy": 3043,
+   "not": "Jan Očko'nun adak tablosu (14. yy) parçası"
+  },
+  {
+   "anahtar": "hus",
+   "ad": "Jan Hus",
+   "rol": "din reformcusu",
+   "dosya": "Stimmer Jan Hus.jpg",
+   "lisans": "Public domain",
+   "yazar": "Christoph Murer 1587",
+   "en": 720,
+   "boy": 1168,
+   "not": "Murer, 1587 gravürü"
+  },
+  {
+   "anahtar": "komensky",
+   "ad": "Komenius",
+   "rol": "eğitimci, filozof",
+   "dosya": "Jan Amos Comenius (Komensky) (1592-1670). Tsjechisch humanist en pedagoog. Als voorganger van de Moravische of Boheemse Broedergemeente verdreven en sedert 1656 gevestigd te Amsterdam Rijksmuseum SK-A-2161.jpeg",
+   "lisans": "Public domain",
+   "yazar": "Jürgen Ovens",
+   "en": 2169,
+   "boy": 2500,
+   "not": "Jürgen Ovens portresi"
+  },
+  {
+   "anahtar": "masaryk",
+   "ad": "T. G. Masaryk",
+   "rol": "Çekoslovakya'nın kurucu cumhurbaşkanı",
+   "dosya": "Tomáš Garrigue Masaryk 1925.PNG",
+   "lisans": "Public domain",
+   "yazar": "Bilinmeyen",
+   "en": 637,
+   "boy": 828,
+   "not": "fotoğraf"
+  },
+  {
+   "anahtar": "dvorak",
+   "ad": "Antonín Dvořák",
+   "rol": "besteci",
+   "dosya": "Dvorak.jpg",
+   "lisans": "Public domain",
+   "yazar": "Bilinmeyen",
+   "en": 2100,
+   "boy": 2600,
+   "not": "fotoğraf"
+  },
+  {
+   "anahtar": "smetana",
+   "ad": "Bedřich Smetana",
+   "rol": "besteci",
+   "dosya": "Smetana LCCN2014716851 (cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": "Bain News Service, publisher",
+   "en": 3173,
+   "boy": 4123,
+   "not": "fotoğraf"
+  },
+  {
+   "anahtar": "mendel",
+   "ad": "Gregor Mendel",
+   "rol": "genetiğin kurucusu",
+   "dosya": "Gregor Mendel 2.jpg",
+   "lisans": "Public domain",
+   "yazar": "Bilinmeyen",
+   "en": 1000,
+   "boy": 1357,
+   "not": "fotoğraf"
+  },
+  {
+   "anahtar": "kafka",
+   "ad": "Franz Kafka",
+   "rol": "yazar",
+   "dosya": "Franz Kafka, 1923.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown photographer",
+   "en": 1992,
+   "boy": 2656,
+   "not": "1923 fotoğrafı"
+  },
+  {
+   "anahtar": "havel",
+   "ad": "Václav Havel",
+   "rol": "oyun yazarı, cumhurbaşkanı",
+   "dosya": "Vaclav Havel.jpg",
+   "lisans": "CC BY-SA 2.0",
+   "yazar": "Kingkongphoto & www.celebrity-photos.com from Laur",
+   "en": 1500,
+   "boy": 2209,
+   "not": "fotoğraf; CC BY-SA"
+  },
+  {
+   "anahtar": "podebrady",
+   "ad": "Podiebradlı Jiří",
+   "rol": "Bohemya kralı (Hussit)",
+   "dosya": "Georg of Podebrady.jpg",
+   "lisans": "Public domain",
+   "yazar": "Bilinmeyen",
+   "en": 274,
+   "boy": 370,
+   "not": "gravür (düşük çözünürlük)",
+   "kirp": [
+    5.3,
+    2.3,
+    0.12
+   ]
+  }
+ ],
+ "simgeler": [
+  {
+   "anahtar": "CZ_bayrak",
+   "ad": "Çekya bayrağı",
+   "tur": "bayrak",
+   "dosya": "Flag of the Czech Republic.svg",
+   "lisans": "Public domain",
+   "yazar": "Jaroslav Kursa",
+   "en": 900,
+   "boy": 600
+  },
+  {
+   "anahtar": "CZ_arma",
+   "ad": "Çekya büyük arması",
+   "tur": "arma",
+   "dosya": "Coat of arms of the Czech Republic.svg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 1171,
+   "boy": 1403
+  },
+  {
+   "anahtar": "CZ_bohemya",
+   "ad": "Bohemya Krallığı arması",
+   "tur": "arma",
+   "dosya": "Coat of arms of the Kingdom of Bohemia2.svg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Coat of arms: Coat of arms of the Kingdom of Bohem",
+   "en": 512,
+   "boy": 640
+  },
+  {
+   "anahtar": "CZ_prag",
+   "ad": "Prag Kalesi / Hradčany",
+   "tur": "yapi",
+   "dosya": "Hradčany panorama.jpg",
+   "lisans": "Public domain",
+   "yazar": "Bilinmeyen",
+   "en": 2057,
+   "boy": 1236
+  },
+  {
+   "anahtar": "CZ_karlov",
+   "ad": "Karlova (Charles) Köprüsü",
+   "tur": "yapi",
+   "dosya": "Prague 07-2016 view from Lesser Town Tower of Charles Bridge img3.jpg",
+   "lisans": "FAL",
+   "yazar": "A.Savin",
+   "en": 4555,
+   "boy": 3037
+  },
+  {
+   "anahtar": "CZ_saat",
+   "ad": "Prag Astronomik Saati",
+   "tur": "yapi",
+   "dosya": "Astronomical Clock (8341899828).jpg",
+   "lisans": "CC BY 2.0",
+   "yazar": "Steve Collis from Melbourne, Australia",
+   "en": 1068,
+   "boy": 1600
+  },
+  {
+   "anahtar": "CZ_vitus",
+   "ad": "Aziz Vitus Katedrali",
+   "tur": "yapi",
+   "dosya": "PragueCathedral03.jpg",
+   "lisans": "CC BY 2.5",
+   "yazar": "MathKnight   and Zachi Evenor",
+   "en": 2116,
+   "boy": 1575
+  },
+  {
+   "anahtar": "CZ_kutna",
+   "ad": "Kutná Hora Aziz Barbara Kilisesi",
+   "tur": "yapi",
+   "dosya": "Saint Barbara Kutna Hora 2010 3.jpg",
+   "lisans": "CC0",
+   "yazar": "Perituss",
+   "en": 5184,
+   "boy": 3456
+  },
+  {
+   "anahtar": "CZ_csk",
+   "ad": "Çekoslovakya bayrağı",
+   "tur": "bayrak",
+   "dosya": "Flag of Czechoslovakia.svg",
+   "lisans": "Public domain",
+   "yazar": "Jaroslav Kursa",
+   "en": 900,
+   "boy": 600
+  },
+  {
+   "anahtar": "CZ_harita",
+   "ad": "Çekoslovakya · 1938",
+   "tur": "harita",
+   "hb_yil": "1938",
+   "hb_ad": "Czechoslovakia"
+  },
+  {
+   "anahtar": "CZ_harita_morava",
+   "ad": "Büyük Moravya · 900",
+   "tur": "harita",
+   "hb_yil": "900",
+   "hb_ad": "Great Moravia"
+  }
+ ]
+}

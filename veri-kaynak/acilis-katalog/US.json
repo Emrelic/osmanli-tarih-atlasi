@@ -1,0 +1,185 @@
+{
+ "kod": "US",
+ "ad": "ABD",
+ "kisiler": [
+  {
+   "anahtar": "washington",
+   "ad": "Washington",
+   "rol": "kurucu, ilk başkan",
+   "mevcut": "washington"
+  },
+  {
+   "anahtar": "lincoln",
+   "ad": "Lincoln",
+   "rol": "başkan, köleliğin kaldırıcısı",
+   "mevcut": "lincoln"
+  },
+  {
+   "anahtar": "jefferson",
+   "ad": "Jefferson",
+   "rol": "Bağımsızlık Bildirgesi yazarı",
+   "mevcut": "jefferson"
+  },
+  {
+   "anahtar": "franklin",
+   "ad": "Benjamin Franklin",
+   "rol": "kurucu, bilim insanı, yazar",
+   "dosya": "Joseph Siffrein Duplessis - Benjamin Franklin - Google Art Project.jpg",
+   "lisans": "Public domain",
+   "yazar": "Joseph-Siffred Duplessis",
+   "en": 3249,
+   "boy": 4000
+  },
+  {
+   "anahtar": "edison",
+   "ad": "Edison",
+   "rol": "mucit",
+   "mevcut": "edison"
+  },
+  {
+   "anahtar": "froosevelt",
+   "ad": "Franklin D. Roosevelt",
+   "rol": "devlet adamı",
+   "dosya": "FDR in 1933.jpg",
+   "lisans": "Public domain",
+   "yazar": "Elias Goldensky",
+   "en": 2488,
+   "boy": 2928
+  },
+  {
+   "anahtar": "troosevelt",
+   "ad": "Theodore Roosevelt",
+   "rol": "devlet adamı",
+   "dosya": "Theodore Roosevelt by the Pach Bros.jpg",
+   "lisans": "Public domain",
+   "yazar": "Adam Cuerden",
+   "en": 3067,
+   "boy": 3659
+  },
+  {
+   "anahtar": "mlk",
+   "ad": "Martin Luther King",
+   "rol": "sivil haklar önderi",
+   "dosya": "Martin Luther King, Jr..jpg",
+   "lisans": "Public domain",
+   "yazar": "Bernie Faingold",
+   "en": 992,
+   "boy": 1488
+  },
+  {
+   "anahtar": "twain",
+   "ad": "Mark Twain",
+   "rol": "yazar",
+   "dosya": "Mark Twain by AF Bradley.jpg",
+   "lisans": "Public domain",
+   "yazar": "A.F. Bradley, New York",
+   "en": 756,
+   "boy": 1061
+  },
+  {
+   "anahtar": "douglass",
+   "ad": "Frederick Douglass",
+   "rol": "köleliğe karşı önder, yazar",
+   "dosya": "Frederick Douglass (circa 1879).jpg",
+   "lisans": "Public domain",
+   "yazar": "George Kendall Warren",
+   "en": 2089,
+   "boy": 3000
+  }
+ ],
+ "simgeler": [
+  {
+   "anahtar": "US_bayrak",
+   "ad": "ABD bayrağı",
+   "tur": "bayrak",
+   "mevcut": "USA"
+  },
+  {
+   "anahtar": "US_arma",
+   "ad": "ABD Büyük Mührü",
+   "tur": "arma",
+   "dosya": "Great Seal of the United States (obverse).svg",
+   "lisans": "Public domain",
+   "yazar": "U.S. Government",
+   "en": 600,
+   "boy": 600
+  },
+  {
+   "anahtar": "US_gadsden",
+   "ad": "Gadsden bayrağı (1775)",
+   "tur": "bayrak",
+   "dosya": "Gadsden flag.svg",
+   "lisans": "Public domain",
+   "yazar": "Christopher Gadsden (1724–1805), Lexicon, Vikrum",
+   "en": 900,
+   "boy": 600
+  },
+  {
+   "anahtar": "US_ozgurluk",
+   "ad": "Özgürlük Heykeli",
+   "tur": "yapi",
+   "dosya": "Statue of Liberty 7.jpg",
+   "lisans": "Public domain",
+   "yazar": "Elcobbola",
+   "en": 1464,
+   "boy": 2022
+  },
+  {
+   "anahtar": "US_rushmore",
+   "ad": "Rushmore Dağı",
+   "tur": "yapi",
+   "dosya": "Mount Rushmore detail view (100MP).jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Thomas Wolf, www.foto-tw.de",
+   "en": 12128,
+   "boy": 8246
+  },
+  {
+   "anahtar": "US_kapitol",
+   "ad": "ABD Kongre Binası",
+   "tur": "yapi",
+   "dosya": "United States Capitol - west front.jpg",
+   "lisans": "Public domain",
+   "yazar": "Architect of the Capitol",
+   "en": 3000,
+   "boy": 1556
+  },
+  {
+   "anahtar": "US_lincolnanit",
+   "ad": "Lincoln Anıtı",
+   "tur": "yapi",
+   "dosya": "Lincoln Memorial.jpg",
+   "lisans": "CC BY-SA 2.0",
+   "yazar": "Jeff Kubina",
+   "en": 3008,
+   "boy": 2000
+  },
+  {
+   "anahtar": "US_bildirge",
+   "ad": "Bağımsızlık Bildirgesi (Trumbull)",
+   "tur": "eser",
+   "dosya": "Declaration of Independence (1819), by John Trumbull.jpg",
+   "lisans": "Public domain",
+   "yazar": "John Trumbull",
+   "en": 3000,
+   "boy": 1970
+  },
+  {
+   "anahtar": "US_delaware",
+   "ad": "Washington Delaware'i geçerken",
+   "tur": "eser",
+   "dosya": "Washington Crossing the Delaware by Emanuel Leutze, MMA-NYC, 1851.jpg",
+   "lisans": "Public domain",
+   "yazar": "Emanuel Leutze",
+   "en": 6004,
+   "boy": 3847
+  },
+  {
+   "anahtar": "US_harita",
+   "ad": "Amerika Birleşik Devletleri · 1914",
+   "tur": "harita",
+   "hb_yil": "1914",
+   "hb_ad": "United States"
+  }
+ ]
+}

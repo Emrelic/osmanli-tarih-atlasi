@@ -1,0 +1,187 @@
+{
+ "kod": "RU",
+ "ad": "Rusya",
+ "kisiler": [
+  {
+   "anahtar": "petro",
+   "ad": "I. Petro",
+   "rol": "çar, reformcu",
+   "mevcut": "petro"
+  },
+  {
+   "anahtar": "katerina",
+   "ad": "II. Katerina",
+   "rol": "imparatoriçe",
+   "mevcut": "katerina"
+  },
+  {
+   "anahtar": "pushkin",
+   "ad": "Puşkin",
+   "rol": "şair, yazar",
+   "dosya": "Orest Kiprensky - Портрет поэта А.С.Пушкина - Google Art Project.jpg",
+   "lisans": "Public domain",
+   "yazar": "Orest Kiprensky",
+   "en": 3455,
+   "boy": 4000,
+   "not": "Kiprenski, 1827 — tanınmış dönem portresi"
+  },
+  {
+   "anahtar": "tolstoy",
+   "ad": "Tolstoy",
+   "rol": "yazar",
+   "mevcut": "tolstoy"
+  },
+  {
+   "anahtar": "mendeleyev",
+   "ad": "Mendeleyev",
+   "rol": "kimyager",
+   "dosya": "Dmitri Mendeleev.jpg",
+   "lisans": "Public domain",
+   "yazar": "Original:  Bilinmeyen\nUpload:  G",
+   "en": 1453,
+   "boy": 2000,
+   "not": "periyodik tablonun mucidi; fotoğraf"
+  },
+  {
+   "anahtar": "ivan4",
+   "ad": "Korkunç İvan",
+   "rol": "çar, devlet kurucusu",
+   "dosya": "Vasnetsov Ioann 4 detail 02.jpg",
+   "lisans": "Public domain",
+   "yazar": "Bilinmeyen",
+   "en": 644,
+   "boy": 873,
+   "not": "hayattayken yapılmış portre (17. yy kopyası); tartışmalı ama ağırlığı büyük",
+   "eski_dosya": "Lifetime portrait of Ivan the Terrible.jpg"
+  },
+  {
+   "anahtar": "dostoyevski",
+   "ad": "Dostoyevski",
+   "rol": "yazar",
+   "dosya": "Vasily Perov - Портрет Ф.М.Достоевского - Google Art Project.jpg",
+   "lisans": "Public domain",
+   "yazar": "Vasily Perov",
+   "en": 3200,
+   "boy": 4000,
+   "not": "Perov, 1872"
+  },
+  {
+   "anahtar": "lomonosov",
+   "ad": "Lomonosov",
+   "rol": "bilim insanı, şair",
+   "dosya": "M.V. Lomonosov by L.Miropolskiy after G.C.Prenner (1787, RAN).jpg",
+   "lisans": "Public domain",
+   "yazar": "After Georg Caspar Prenner",
+   "en": 597,
+   "boy": 800,
+   "not": "Prenner'den sonradan gravür"
+  },
+  {
+   "anahtar": "lenin",
+   "ad": "Lenin",
+   "rol": "devrimci, devlet adamı",
+   "mevcut": "lenin"
+  },
+  {
+   "anahtar": "gagarin",
+   "ad": "Gagarin",
+   "rol": "kozmonot",
+   "dosya": "Yuri Gagarin with awards (cropped) 2.jpg",
+   "lisans": "CC BY 4.0",
+   "yazar": "Александр Моклецов / СовИнформБюро",
+   "en": 1331,
+   "boy": 1775,
+   "not": "ilk insanlı uzay uçuşu; fotoğraf"
+  }
+ ],
+ "simgeler": [
+  {
+   "anahtar": "RU_bayrak",
+   "ad": "Rusya bayrağı",
+   "tur": "bayrak",
+   "mevcut": "RUS",
+   "mevcut_liste": "AMBLEM"
+  },
+  {
+   "anahtar": "RU_cift_kartal",
+   "ad": "Rus çift başlı kartalı",
+   "tur": "arma",
+   "mevcut": "rus",
+   "mevcut_liste": "AMBLEM"
+  },
+  {
+   "anahtar": "RU_arma",
+   "ad": "Rusya Federasyonu arması",
+   "tur": "arma",
+   "dosya": "Coat of Arms of the Russian Federation.svg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 466,
+   "boy": 551
+  },
+  {
+   "anahtar": "RU_vasil",
+   "ad": "Aziz Vasil Katedrali",
+   "tur": "yapi",
+   "dosya": "Saint Basil's Cathedral in Moscow.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Tsy1980",
+   "en": 2000,
+   "boy": 2218
+  },
+  {
+   "anahtar": "RU_kremlin",
+   "ad": "Moskova Kremlin'i",
+   "tur": "yapi",
+   "dosya": "Moscow Kremlin (8281675670).jpg",
+   "lisans": "CC BY 2.0",
+   "yazar": "Pavel Kazachkov from Moscow, Russia",
+   "en": 2961,
+   "boy": 1986
+  },
+  {
+   "anahtar": "RU_kis",
+   "ad": "Kış Sarayı (Ermitaj)",
+   "tur": "yapi",
+   "dosya": "RUS-2016-Aerial-SPB-Winter Palace (crop).jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Godot13",
+   "en": 4420,
+   "boy": 2623
+  },
+  {
+   "anahtar": "RU_sscb",
+   "ad": "SSCB bayrağı",
+   "tur": "bayrak",
+   "dosya": "Flag of the Soviet Union.svg",
+   "lisans": "Public domain",
+   "yazar": "СССР",
+   "en": 1200,
+   "boy": 600
+  },
+  {
+   "anahtar": "RU_sscbarma",
+   "ad": "SSCB arması",
+   "tur": "arma",
+   "dosya": "Coat of arms of the Soviet Union.svg",
+   "lisans": "Public domain",
+   "yazar": "Madden, reworked by F l a n k e r",
+   "en": 908,
+   "boy": 945
+  },
+  {
+   "anahtar": "RU_harita_sscb",
+   "ad": "Sovyetler Birliği · 1945",
+   "tur": "harita",
+   "hb_yil": "1945",
+   "hb_ad": "USSR"
+  },
+  {
+   "anahtar": "RU_harita_imp",
+   "ad": "Rus İmparatorluğu · 1914",
+   "tur": "harita",
+   "mevcut": "rus",
+   "mevcut_liste": "TARIH"
+  }
+ ]
+}

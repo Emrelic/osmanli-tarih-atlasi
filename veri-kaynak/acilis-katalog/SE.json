@@ -1,0 +1,214 @@
+{
+ "kod": "SE",
+ "ad": "İsveç",
+ "kisiler": [
+  {
+   "anahtar": "gustavvasa",
+   "ad": "I. Gustav Vasa",
+   "rol": "kral, modern İsveç'in kurucusu",
+   "dosya": "Gustav Vasa by Jacob Binck (copy after a lost original).jpg",
+   "lisans": "CC0",
+   "yazar": "Gotogo",
+   "en": 1782,
+   "boy": 2309,
+   "not": "Jacob Binck'in kayıp orijinalinden kopya"
+  },
+  {
+   "anahtar": "gustavadolf",
+   "ad": "II. Gustav Adolf",
+   "rol": "kral, komutan",
+   "mevcut": "gustavadolf"
+  },
+  {
+   "anahtar": "karl12",
+   "ad": "XII. Karl",
+   "rol": "kral, komutan",
+   "dosya": "David von Krafft - King Charles XII of Sweden 002.jpg",
+   "lisans": "Public domain",
+   "yazar": "David von Krafft",
+   "en": 3281,
+   "boy": 3416,
+   "kirp": [
+    5.3,
+    1.3,
+    0.08
+   ]
+  },
+  {
+   "anahtar": "kristina",
+   "ad": "Kraliçe Kristina",
+   "rol": "kraliçe, bilgelik koruyucusu",
+   "dosya": "Queen Christina (Sébastien Bourdon) - Nationalmuseum - 18075FXD.jpg",
+   "lisans": "Public domain",
+   "yazar": "Sébastien Bourdon",
+   "en": 2773,
+   "boy": 3543
+  },
+  {
+   "anahtar": "linne",
+   "ad": "Carl von Linné",
+   "rol": "doğa bilimci, sınıflandırmanın babası",
+   "dosya": "Carl von Linné.jpg",
+   "lisans": "Public domain",
+   "yazar": "Alexander Roslin",
+   "en": 1938,
+   "boy": 2342
+  },
+  {
+   "anahtar": "nobel",
+   "ad": "Alfred Nobel",
+   "rol": "mucit, Nobel ödüllerinin kurucusu",
+   "dosya": "AlfredNobel2.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "en": 1660,
+   "boy": 2102
+  },
+  {
+   "anahtar": "bernadotte",
+   "ad": "XIV. Karl Johan (Bernadotte)",
+   "rol": "Fransa mareşali, İsveç kralı",
+   "dosya": "Bernadotte (Charles-Jean), PA00431.jpg",
+   "lisans": "Public domain",
+   "yazar": "Karl Johan XIV, king of Sweden and Norway (1763-1844) (depicted)",
+   "en": 1407,
+   "boy": 1958,
+   "kirp": [
+    4.7,
+    2.4,
+    0.18
+   ]
+  },
+  {
+   "anahtar": "strindberg",
+   "ad": "August Strindberg",
+   "rol": "yazar, oyun yazarı",
+   "dosya": "August Strindberg (Björkman 1912).jpg",
+   "lisans": "Public domain",
+   "yazar": "possibly by Herman Anderson (1856−?)",
+   "en": 1310,
+   "boy": 1820
+  },
+  {
+   "anahtar": "hammarskjold",
+   "ad": "Dag Hammarskjöld",
+   "rol": "BM Genel Sekreteri",
+   "dosya": "Dag Hammarskjöld.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "en": 2442,
+   "boy": 3462,
+   "kirp": [
+    5.0,
+    2.0,
+    0.22
+   ]
+  },
+  {
+   "anahtar": "lagerlof",
+   "ad": "Selma Lagerlöf",
+   "rol": "yazar, Nobel Edebiyat Ödülü",
+   "dosya": "Selma Lagerlof (1908), painted by Carl Larsson.jpg",
+   "lisans": "Public domain",
+   "yazar": "Carl Larsson",
+   "en": 560,
+   "boy": 775,
+   "not": "Carl Larsson portresi (1908)"
+  }
+ ],
+ "simgeler": [
+  {
+   "anahtar": "SE_bayrak",
+   "ad": "İsveç bayrağı",
+   "tur": "bayrak",
+   "dosya": "Flag of Sweden.svg",
+   "lisans": "Public domain",
+   "yazar": "Jon Harald Søby and others.",
+   "en": 1600,
+   "boy": 1000
+  },
+  {
+   "anahtar": "SE_arma",
+   "ad": "İsveç büyük arması",
+   "tur": "arma",
+   "mevcut": "isv"
+  },
+  {
+   "anahtar": "SE_harita",
+   "ad": "İsveç İmparatorluğu · 1650",
+   "tur": "harita",
+   "hb_yil": "1650",
+   "hb_ad": "Sweden"
+  },
+  {
+   "anahtar": "SE_trekronor",
+   "ad": "Tre Kronor (Üç Taç)",
+   "tur": "arma",
+   "dosya": "Three Crowns of Sweden (Tre Kronor).svg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Sodacan (HapHaxion &amp; GeMet)",
+   "en": 512,
+   "boy": 392
+  },
+  {
+   "anahtar": "SE_kucukarma",
+   "ad": "İsveç küçük arması",
+   "tur": "arma",
+   "dosya": "Lesser coat of arms of Sweden.svg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Ssolbergj",
+   "en": 452,
+   "boy": 748
+  },
+  {
+   "anahtar": "SE_vasa",
+   "ad": "Vasa savaş gemisi",
+   "tur": "eser",
+   "dosya": "Stern of the Vasa ship, Vasa Museum, Stockholm, Sweden julesvernex2-2.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Jules Verne Times Two",
+   "en": 6230,
+   "boy": 4142
+  },
+  {
+   "anahtar": "SE_saray",
+   "ad": "Stockholm Sarayı",
+   "tur": "yapi",
+   "dosya": "Stockholms slott December 2012.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Arild Vågen",
+   "en": 3771,
+   "boy": 2121
+  },
+  {
+   "anahtar": "SE_stadshus",
+   "ad": "Stockholm Belediye Binası",
+   "tur": "yapi",
+   "dosya": "Stockholms Stadshuset City Hall Stockholm 2016 02.jpg",
+   "lisans": "CC BY 4.0",
+   "yazar": "Julian Herzog (Website)",
+   "en": 5248,
+   "boy": 3503
+  },
+  {
+   "anahtar": "SE_drottningholm",
+   "ad": "Drottningholm Sarayı",
+   "tur": "yapi",
+   "dosya": "Drottningholm Palace (by Pudelek) 1.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Pudelek",
+   "en": 3607,
+   "boy": 2155
+  },
+  {
+   "anahtar": "SE_karl12",
+   "ad": "XII. Karl'ın cenazesinin getirilişi (Cederström)",
+   "tur": "eser",
+   "dosya": "Bringing Home the Body of King Karl XII of Sweden (Gustaf Cederström) - Nationalmuseum - 18366.tif",
+   "lisans": "Public domain",
+   "yazar": "Gustaf Cederström",
+   "en": 4073,
+   "boy": 2896
+  }
+ ]
+}

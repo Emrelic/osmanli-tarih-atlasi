@@ -1,0 +1,203 @@
+{
+ "kod": "TN",
+ "ad": "Tunus · Kartaca",
+ "kisiler": [
+  {
+   "anahtar": "hannibal",
+   "ad": "Hannibal",
+   "rol": "Kartaca komutanı",
+   "mevcut": "hannibal"
+  },
+  {
+   "anahtar": "ibnhaldun",
+   "ad": "İbn Haldun",
+   "rol": "tarihçi, sosyolojinin öncüsü",
+   "dosya": "Statue d'Ibn Khaldoun - تمثال ابن خلدون - Statue of Ibn Khaldun.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Sami Mlouhi",
+   "en": 3456,
+   "boy": 5184,
+   "not": "Tunus'taki heykel (modern)"
+  },
+  {
+   "anahtar": "hamilkar",
+   "ad": "Hamilkar Barka",
+   "rol": "Kartaca komutanı, Hannibal'in babası",
+   "dosya": "Amilcare Barca (Ritratto).jpg",
+   "lisans": "Public domain",
+   "yazar": "Max Karl Baldamus",
+   "en": 993,
+   "boy": 1299,
+   "not": "Max Karl Baldamus çizimi"
+  },
+  {
+   "anahtar": "dido",
+   "ad": "Dido (Elissa)",
+   "rol": "Kartaca'nın efsanevî kurucusu",
+   "dosya": "Affresco romano - Enea e di (cropped).jpg",
+   "lisans": "Attribution",
+   "yazar": "Stefano Bolognini",
+   "en": 1000,
+   "boy": 1200,
+   "not": "Roma fresk (Pompeii): Aeneas ve Dido",
+   "cikar": "çıplak fresk — açılış perdesine uygun değil"
+  },
+  {
+   "anahtar": "burgiba",
+   "ad": "Habib Burgiba",
+   "rol": "kurucu cumhurbaşkanı",
+   "dosya": "Habib Bourguiba portrait4 (cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": "Habib Osman",
+   "en": 1316,
+   "boy": 1755
+  },
+  {
+   "anahtar": "sofonisba",
+   "ad": "Sofonisba",
+   "rol": "Kartaca soylusu",
+   "dosya": "Simone-cantarini---Sofonisba.jpg",
+   "lisans": "Public domain",
+   "yazar": "SIMONE CANTARINI",
+   "en": 800,
+   "boy": 1068,
+   "not": "Simone Cantarini tablosu"
+  },
+  {
+   "anahtar": "tertullianus",
+   "ad": "Tertullianus",
+   "rol": "kilise babası",
+   "dosya": "Tertullian2.png",
+   "lisans": "Public domain",
+   "yazar": "André Thevet",
+   "en": 1670,
+   "boy": 2041,
+   "not": "André Thevet gravürü"
+  },
+  {
+   "anahtar": "kiprianus",
+   "ad": "Kartaca'lı Kyprianos",
+   "rol": "piskopos, kilise babası",
+   "dosya": "Cyprian von Karthago2.jpg",
+   "lisans": "Public domain",
+   "yazar": "The original uploader was Bwag at German Wikipedia.",
+   "en": 258,
+   "boy": 327
+  },
+  {
+   "anahtar": "ahmedbey",
+   "ad": "I. Ahmed Bey",
+   "rol": "Tunus Beyi, reformcu",
+   "dosya": "10.Ahmed I Bey (1837-1855).jpg",
+   "lisans": "CC0",
+   "yazar": "Charles-Philippe Larivière",
+   "en": 1151,
+   "boy": 1866,
+   "not": "Larivière tablosu"
+  },
+  {
+   "anahtar": "sabbi",
+   "ad": "Ebu'l-Kasım eş-Şâbbî",
+   "rol": "şair",
+   "dosya": "Abo Al Qassim Al Shabbi.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "en": 352,
+   "boy": 550
+  }
+ ],
+ "simgeler": [
+  {
+   "anahtar": "TN_bayrak",
+   "ad": "Tunus bayrağı",
+   "tur": "bayrak",
+   "dosya": "Flag of Tunisia.svg",
+   "lisans": "Public domain",
+   "yazar": "Various Wikimedia Commons' contributors",
+   "en": 1200,
+   "boy": 800
+  },
+  {
+   "anahtar": "TN_arma",
+   "ad": "Tunus arması",
+   "tur": "arma",
+   "dosya": "Coat of arms of Tunisia.svg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "FXXX",
+   "en": 618,
+   "boy": 975
+  },
+  {
+   "anahtar": "kar",
+   "ad": "Tanit işareti",
+   "tur": "arma",
+   "mevcut": "kar",
+   "not": "mevcut 'kar' amblemi (Tanit)"
+  },
+  {
+   "anahtar": "kar_harita",
+   "ad": "Kartaca · MÖ 300",
+   "tur": "harita",
+   "mevcut": "kar",
+   "not": "mevcut TARIH 'kar' haritası"
+  },
+  {
+   "anahtar": "TN_harita",
+   "ad": "Hafsîler · 1300",
+   "tur": "harita",
+   "hb_yil": "1300",
+   "hb_ad": "Hafsid Caliphate"
+  },
+  {
+   "anahtar": "TN_kayrevan",
+   "ad": "Kayrevan Ulu Camii (Sîdî Ukbe)",
+   "tur": "yapi",
+   "dosya": "Great Mosque of Kairouan Panorama - Grande Mosquée de Kairouan Panorama.jpg",
+   "lisans": "CC BY-SA 2.0",
+   "yazar": "MAREK SZAREJKO from CLONMEL, IRELAND  -  POLAND",
+   "en": 1024,
+   "boy": 709
+  },
+  {
+   "anahtar": "TN_elcem",
+   "ad": "El Cem Amfitiyatrosu",
+   "tur": "yapi",
+   "dosya": "The Amphitheatre of El Jem, built around AD 238 in Thysdrus in Africa Proconsularis, the estimated capacity is 35,000, Tunisia.jpg",
+   "lisans": "CC BY-SA 2.0",
+   "yazar": "Carole Raddato",
+   "en": 6016,
+   "boy": 4016
+  },
+  {
+   "anahtar": "TN_antonin",
+   "ad": "Kartaca · Antoninus Hamamları",
+   "tur": "yapi",
+   "dosya": "Antonine Baths.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Bernard Gagnon",
+   "en": 1809,
+   "boy": 1341
+  },
+  {
+   "anahtar": "TN_dougga",
+   "ad": "Dougga",
+   "tur": "yapi",
+   "dosya": "Dougga, Beja.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Emna Trabelsi",
+   "en": 4403,
+   "boy": 3265,
+   "not": "UNESCO"
+  },
+  {
+   "anahtar": "TN_zeytune",
+   "ad": "Zeytûne Camii (Tunus)",
+   "tur": "yapi",
+   "dosya": "Minaret et patio de la mosquée Zitouna au centre de la Médina de Tunis.jpg",
+   "lisans": "CC BY-SA 2.0",
+   "yazar": "T A",
+   "en": 4212,
+   "boy": 2760
+  }
+ ]
+}

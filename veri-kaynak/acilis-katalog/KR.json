@@ -1,0 +1,227 @@
+{
+ "kod": "KR",
+ "ad": "Kore",
+ "kisiler": [
+  {
+   "anahtar": "sejong",
+   "ad": "Büyük Sejong",
+   "rol": "Joseon kralı, Hangul'un yaratıcısı",
+   "dosya": "세종대왕 어진.png",
+   "lisans": "CC0",
+   "yazar": "세종대왕사가독서기념사업회",
+   "en": 4267,
+   "boy": 6013,
+   "not": "modern yapım ‘ojin’ (hayalî) portre; dönem portresi yoktur — CC0",
+   "kirp": [
+    5.0,
+    1.9,
+    0.13
+   ]
+  },
+  {
+   "anahtar": "yisunsin",
+   "ad": "Amiral Yi Sun-sin",
+   "rol": "amiral, Japon istilasının kahramanı",
+   "dosya": "Bust of Yi Sun-sin 01.jpg",
+   "lisans": "KOGL Type 1",
+   "yazar": "Unknown, War Memorial of Korea",
+   "en": 2000,
+   "boy": 3000,
+   "not": "BÜST (heykel) fotoğrafı; serbest lisanslı portre yok — KOGL Type 1"
+  },
+  {
+   "anahtar": "taejo",
+   "ad": "Yi Seong-gye (Taejo)",
+   "rol": "Joseon hanedanının kurucusu",
+   "dosya": "King Taejo Yi 02.jpg",
+   "lisans": "Public domain",
+   "yazar": "Jo Jung-muk(?-?), Pak Gijun(?-?), Baek Eunbae(1820-?), Yu Suk(1827-1873)",
+   "en": 650,
+   "boy": 928,
+   "not": "1872 kopyası resmî ojin portresi"
+  },
+  {
+   "anahtar": "kimyusin",
+   "ad": "Kim Yu-sin",
+   "rol": "Silla generali, birleştirici",
+   "dosya": "진주 남악서원 김유신 초상.gif",
+   "lisans": "Public domain",
+   "yazar": "Chae Yong-sin",
+   "en": 800,
+   "boy": 1192,
+   "not": "sonradan yapılmış (Chae Yong-sin) portre"
+  },
+  {
+   "anahtar": "gojong",
+   "ad": "Gojong",
+   "rol": "Kore İmparatorluğu'nun ilk imparatoru",
+   "dosya": "Gojong of the Korean Empire 02.jpg",
+   "lisans": "Public domain",
+   "yazar": "This photo was taken in 1907.",
+   "en": 1260,
+   "boy": 1851,
+   "not": "dönem fotoğrafı"
+  },
+  {
+   "anahtar": "ahn",
+   "ad": "An Jung-geun",
+   "rol": "bağımsızlık savaşçısı",
+   "dosya": "An Jung-geun.JPG",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "en": 393,
+   "boy": 500,
+   "not": "dönem fotoğrafı"
+  },
+  {
+   "anahtar": "jeongyak",
+   "ad": "Jeong Yak-yong (Dasan)",
+   "rol": "Silhak filozofu, bilgin",
+   "dosya": "Jeong Yak-yong.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "en": 2539,
+   "boy": 4386,
+   "not": "sonradan yapılmış portre",
+   "kirp": [
+    4.2,
+    2.0,
+    0.13
+   ]
+  },
+  {
+   "anahtar": "yihwang",
+   "ad": "Yi Hwang (Toegye)",
+   "rol": "Neo-Konfüçyüsçü filozof",
+   "dosya": "Statue of Yi Hwang.jpg",
+   "lisans": "CC BY-SA 2.0 kr",
+   "yazar": "Integral",
+   "en": 592,
+   "boy": 1047,
+   "not": "HEYKEL fotoğrafı; serbest portre bulunamadı — CC BY-SA 2.0 kr",
+   "kirp": [
+    4.9,
+    1.3,
+    0.1
+   ]
+  },
+  {
+   "anahtar": "yugwansun",
+   "ad": "Yu Gwan-sun",
+   "rol": "bağımsızlık hareketi (1 Mart 1919) sembolü",
+   "dosya": "Ryu Gwan-sun.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "en": 970,
+   "boy": 1339,
+   "not": "dönem fotoğrafı"
+  },
+  {
+   "anahtar": "wanggeon",
+   "ad": "Wang Geon (Goryeo Taejo)",
+   "rol": "Goryeo'nun kurucusu",
+   "dosya": "WangGeon.jpg",
+   "lisans": "Attribution",
+   "yazar": "[2]",
+   "en": 155,
+   "boy": 191,
+   "not": "küçük çözünürlük (155x191); sonradan yapılmış portre"
+  }
+ ],
+ "simgeler": [
+  {
+   "anahtar": "KR_bayrak",
+   "ad": "Güney Kore bayrağı (Taegukgi)",
+   "tur": "bayrak",
+   "dosya": "Flag of South Korea.svg",
+   "lisans": "Public domain",
+   "yazar": "Original: Government of the Republic of Korea Vector: Great Brightstar and other",
+   "en": 900,
+   "boy": 600
+  },
+  {
+   "anahtar": "KR_arma",
+   "ad": "Güney Kore arması",
+   "tur": "arma",
+   "dosya": "Emblem of South Korea.svg",
+   "lisans": "Public domain",
+   "yazar": "Government of the Republic of Korea",
+   "en": 352,
+   "boy": 354
+  },
+  {
+   "anahtar": "KR_bayrak1882",
+   "ad": "Kore bayrağı · 1882–1910 (Taegukgi)",
+   "tur": "bayrak",
+   "dosya": "Flag of Korea (1882–1910).svg",
+   "lisans": "Public domain",
+   "yazar": "Daniil Ivanov",
+   "en": 600,
+   "boy": 400,
+   "not": "gerçek tarihî bayrak (1882 Taegukgi)"
+  },
+  {
+   "anahtar": "KR_harita",
+   "ad": "Koguryo · 500",
+   "tur": "harita",
+   "hb_yil": "500",
+   "hb_ad": "Koguryo"
+  },
+  {
+   "anahtar": "KR_gyeongbok",
+   "ad": "Gyeongbokgung Sarayı · Geunjeongjeon",
+   "tur": "yapi",
+   "dosya": "Gyeongbokgung Geunjeongjeon.jpg",
+   "lisans": "CC BY-SA 2.0",
+   "yazar": "Craig Nagy",
+   "en": 2016,
+   "boy": 1512
+  },
+  {
+   "anahtar": "KR_bulguksa",
+   "ad": "Bulguksa Tapınağı",
+   "tur": "yapi",
+   "dosya": "Geungnakjeon, Bulguksa 01.jpg",
+   "lisans": "CC0",
+   "yazar": "Bernard Gagnon",
+   "en": 5098,
+   "boy": 3392
+  },
+  {
+   "anahtar": "KR_seokguram",
+   "ad": "Seokguram Mağarası Budası",
+   "tur": "eser",
+   "dosya": "Front view of Buddha at Seokguram.jpg",
+   "lisans": "KOGL Type 1",
+   "yazar": "Cultural Heritage Administration",
+   "en": 1816,
+   "boy": 1187
+  },
+  {
+   "anahtar": "KR_haeinsa",
+   "ad": "Haeinsa Tapınağı (Tripitaka Koreana)",
+   "tur": "yapi",
+   "dosya": "Haeinsa Temple 01.jpg",
+   "lisans": "CC0",
+   "yazar": "Bernard Gagnon",
+   "en": 3942,
+   "boy": 2268
+  },
+  {
+   "anahtar": "KR_hunmin",
+   "ad": "Hunminjeongeum (Hangul'un ilk el yazması)",
+   "tur": "eser",
+   "dosya": "Hunminjeongum.jpg",
+   "lisans": "Public domain",
+   "yazar": "Sejong the Great of Joseon",
+   "en": 626,
+   "boy": 710
+  },
+  {
+   "anahtar": "KR_inwang",
+   "ad": "İnwang Dağı (Jeong Seon)",
+   "tur": "eser",
+   "mevcut": "inwang"
+  }
+ ]
+}

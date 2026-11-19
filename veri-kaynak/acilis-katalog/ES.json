@@ -1,0 +1,198 @@
+{
+ "kod": "ES",
+ "ad": "İspanya",
+ "kisiler": [
+  {
+   "anahtar": "isabel",
+   "ad": "I. Isabel",
+   "rol": "Kastilya kraliçesi",
+   "mevcut": "isabel"
+  },
+  {
+   "anahtar": "carlos5",
+   "ad": "V. Carlos",
+   "rol": "imparator, kral",
+   "dosya": "Emperor Charles V seated (Titian).jpg",
+   "lisans": "Public domain",
+   "yazar": "Titian",
+   "en": 1197,
+   "boy": 2048,
+   "not": "Titian"
+  },
+  {
+   "anahtar": "cervantes",
+   "ad": "Cervantes",
+   "rol": "yazar",
+   "dosya": "Cervantes Jáuregui.jpg",
+   "lisans": "Public domain",
+   "yazar": "Attributed to Juan de Jáuregui",
+   "en": 1443,
+   "boy": 1893,
+   "not": "Jáuregui'ye atfedilen"
+  },
+  {
+   "anahtar": "felipe2",
+   "ad": "II. Felipe",
+   "rol": "kral",
+   "mevcut": "felipe2"
+  },
+  {
+   "anahtar": "velazquez",
+   "ad": "Velázquez",
+   "rol": "ressam",
+   "dosya": "Autorretrato de Velazquez.jpg",
+   "lisans": "Public domain",
+   "yazar": "Diego Velázquez",
+   "en": 1074,
+   "boy": 1122,
+   "not": "otoportre"
+  },
+  {
+   "anahtar": "goya",
+   "ad": "Goya",
+   "rol": "ressam",
+   "dosya": "Vicente López Portaña - el pintor Francisco de Goya.jpg",
+   "lisans": "Public domain",
+   "yazar": "Vicente López Portaña",
+   "en": 1556,
+   "boy": 1920,
+   "not": "Vicente López, 1826"
+  },
+  {
+   "anahtar": "fernando",
+   "ad": "II. Fernando",
+   "rol": "Aragon kralı",
+   "dosya": "Ferdinand of Aragon.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "en": 430,
+   "boy": 600,
+   "not": "anonim"
+  },
+  {
+   "anahtar": "picasso",
+   "ad": "Pablo Picasso",
+   "rol": "ressam",
+   "dosya": "Pablo picasso 1.jpg",
+   "lisans": "Public domain",
+   "yazar": "Argentina. Revista Vea y Lea",
+   "en": 1079,
+   "boy": 1261,
+   "not": "fotoğraf"
+  },
+  {
+   "anahtar": "gaudi",
+   "ad": "Antoni Gaudí",
+   "rol": "mimar",
+   "dosya": "Antoni Gaudi 1878.jpg",
+   "lisans": "Public domain",
+   "yazar": "Pau Audouard Deglaire",
+   "en": 2076,
+   "boy": 2824,
+   "not": "fotoğraf, 1878"
+  },
+  {
+   "anahtar": "cortes",
+   "ad": "Hernán Cortés",
+   "rol": "fatih, komutan",
+   "dosya": "Hernán Cortés anónimo.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author\n\nUploaded by Barbudo ",
+   "en": 1376,
+   "boy": 1800,
+   "not": "anonim"
+  }
+ ],
+ "simgeler": [
+  {
+   "anahtar": "ES_bayrak",
+   "ad": "İspanya bayrağı",
+   "tur": "bayrak",
+   "mevcut": "ESP"
+  },
+  {
+   "anahtar": "ES_arma",
+   "ad": "İspanya arması",
+   "tur": "arma",
+   "dosya": "Escudo de España (mazonado).svg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 910,
+   "boy": 911
+  },
+  {
+   "anahtar": "ES_harita",
+   "ad": "İspanyol İmparatorluğu · 1600",
+   "tur": "harita",
+   "hb_yil": "1600",
+   "hb_ad": "Spain",
+   "not": "Habsburg devri; ayrıca Viceroyalty of New Spain, Portugal vb. ayrı özneler"
+  },
+  {
+   "anahtar": "ES_burgonya",
+   "ad": "Burgonya haçı",
+   "tur": "bayrak",
+   "mevcut": "isp"
+  },
+  {
+   "anahtar": "ES_alhambra",
+   "ad": "Elhamra",
+   "tur": "yapi",
+   "dosya": "Alhambra de Granada.jpg",
+   "lisans": "CC BY-SA 3.0 es",
+   "yazar": "MariaShadows",
+   "en": 3072,
+   "boy": 2048
+  },
+  {
+   "anahtar": "ES_sagrada",
+   "ad": "Sagrada Família",
+   "tur": "yapi",
+   "dosya": "Sagrada Familia 01.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Bernard Gagnon",
+   "en": 2188,
+   "boy": 1470
+  },
+  {
+   "anahtar": "ES_mezquita",
+   "ad": "Kurtuba Ulu Camii (Mezquita)",
+   "tur": "yapi",
+   "dosya": "Mezquita de Córdoba.jpg",
+   "lisans": "CC BY-SA 2.5",
+   "yazar": "Dolores María Macías Naranjo",
+   "en": 768,
+   "boy": 1024
+  },
+  {
+   "anahtar": "ES_escorial",
+   "ad": "El Escorial",
+   "tur": "yapi",
+   "dosya": "Monasterio de El Escorial en Madrid.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Zvonimir Stamenov",
+   "en": 5815,
+   "boy": 3877
+  },
+  {
+   "anahtar": "ES_meninas",
+   "ad": "Las Meninas",
+   "tur": "eser",
+   "dosya": "Las Meninas, by Diego Velázquez, from Prado in Google Earth.jpg",
+   "lisans": "Public domain",
+   "yazar": "Diego Velázquez",
+   "en": 26065,
+   "boy": 30000
+  },
+  {
+   "anahtar": "ES_alcazar",
+   "ad": "Sevilla Alcázarı",
+   "tur": "yapi",
+   "dosya": "Alcázar Seville April 2019-11.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Alvesgaspar",
+   "en": 6375,
+   "boy": 6375
+  }
+ ]
+}

@@ -1,0 +1,228 @@
+{
+ "kod": "NG",
+ "ad": "Nijerya",
+ "kisiler": [
+  {
+   "anahtar": "azikiwe",
+   "ad": "Nnamdi Azikiwe",
+   "rol": "ilk cumhurbaşkanı, bağımsızlık önderi",
+   "dosya": "Vintage Nnamdi Azikiwe.jpg",
+   "lisans": "CC0",
+   "yazar": "SusuGeo",
+   "en": 3120,
+   "boy": 4160
+  },
+  {
+   "anahtar": "awolowo",
+   "ad": "Obafemi Awolowo",
+   "rol": "devlet adamı, Yoruba önderi",
+   "dosya": "Obafemi Awolowo (portrait).jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Johnoye",
+   "en": 405,
+   "boy": 540,
+   "not": "küçük 405x540; açıklaması belirsiz — gözle bakılmadı"
+  },
+  {
+   "anahtar": "ahmadubello",
+   "ad": "Ahmadu Bello",
+   "rol": "Kuzey Bölgesi başbakanı, Sokoto Sardaunası",
+   "dosya": "Ahmadu Bello Premier of the Northern Region of Nigeria 1960 Oak Ridge (24578438519).jpg",
+   "lisans": "Public domain",
+   "yazar": "doe-oakridge",
+   "en": 7541,
+   "boy": 9436
+  },
+  {
+   "anahtar": "balewa",
+   "ad": "Abubakar Tafawa Balewa",
+   "rol": "ilk başbakan",
+   "dosya": "Abubakar Tafawa Balewa (1962).jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Abubakar",
+   "en": 420,
+   "boy": 600
+  },
+  {
+   "anahtar": "achebe",
+   "ad": "Chinua Achebe",
+   "rol": "romancı",
+   "dosya": "Chinua Achebe - vertical rectangle crop.jpg",
+   "lisans": "CC BY 3.0",
+   "yazar": "Photo taken by Stuart C. Shapiro. Crop by Sven Manguard",
+   "en": 681,
+   "boy": 917
+  },
+  {
+   "anahtar": "soyinka",
+   "ad": "Wole Soyinka",
+   "rol": "yazar, Nobel Edebiyat",
+   "dosya": "Wole Soyinka in 2018.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Frankie Fouganthin",
+   "en": 3523,
+   "boy": 3741
+  },
+  {
+   "anahtar": "fela",
+   "ad": "Fela Kuti",
+   "rol": "müzisyen, Afrobeat öncüsü",
+   "dosya": "Fela Kuti circa 1986.jpg",
+   "lisans": "Public domain",
+   "yazar": "Distributed by Celluloid Records",
+   "en": 836,
+   "boy": 1218
+  },
+  {
+   "anahtar": "macaulay",
+   "ad": "Herbert Macaulay",
+   "rol": "milliyetçi hareketin kurucusu",
+   "dosya": "Herbert Macaulay Portrait.jpg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 2700,
+   "boy": 4200
+  },
+  {
+   "anahtar": "ovonramwen",
+   "ad": "Ovonramwen (Benin Obası)",
+   "rol": "Benin hükümdarı, İngiliz işgaline direnen",
+   "dosya": "Oba-ovonramwen crop etc.jpg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 446,
+   "boy": 618
+  },
+  {
+   "anahtar": "funmilayo",
+   "ad": "Funmilayo Ransome-Kuti",
+   "rol": "kadın hakları öncüsü",
+   "dosya": "70 year old Funmilayo Ransome-Kuti on her birthday.png",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "UNESCO",
+   "en": 325,
+   "boy": 485
+  },
+  {
+   "anahtar": "jaja",
+   "ad": "Jaja (Opobo Kralı)",
+   "rol": "tüccar-kral",
+   "dosya": "Jaja of Opobo.jpg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 642,
+   "boy": 1146,
+   "yedek": true
+  },
+  {
+   "anahtar": "crowther",
+   "ad": "Samuel Ajayi Crowther",
+   "rol": "ilk Afrikalı Anglikan piskopos, Yoruba dilbilimci",
+   "dosya": "Bishop Samuel Ajayi Crowther A.png",
+   "lisans": "Public domain",
+   "yazar": "Ernest Edwards",
+   "en": 838,
+   "boy": 1146,
+   "yedek": true
+  }
+ ],
+ "simgeler": [
+  {
+   "anahtar": "NG_bayrak",
+   "ad": "Nijerya bayrağı",
+   "tur": "bayrak",
+   "mevcut": "NGA"
+  },
+  {
+   "anahtar": "NG_arma",
+   "ad": "Nijerya arması",
+   "tur": "arma",
+   "dosya": "Coat of arms of Nigeria.svg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Lumia1234",
+   "en": 1505,
+   "boy": 1276
+  },
+  {
+   "anahtar": "NG_harita",
+   "ad": "Sokoto Halifeliği · 1880",
+   "tur": "harita",
+   "hb_yil": "1880",
+   "hb_ad": "Sokoto Caliphate",
+   "not": "Fulani cihadı (Usman dan Fodio) ile kurulan; bugünkü Kuzey Nijerya"
+  },
+  {
+   "anahtar": "NG_ife",
+   "ad": "Ife kral başı (tunç)",
+   "tur": "eser",
+   "dosya": "British Museum Room 25 Head of a king Ife 17022019 5147.jpg",
+   "lisans": "CC0",
+   "yazar": "Vassil",
+   "en": 2268,
+   "boy": 3999
+  },
+  {
+   "anahtar": "NG_benin",
+   "ad": "Benin tunç levhası",
+   "tur": "eser",
+   "dosya": "Benin Bronze Plaque, Edo people. Benin, Nigeria, 16th century CE MAA Cambridge.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "SpeakingArch",
+   "en": 1200,
+   "boy": 2190,
+   "not": "geniş/panoramik oran"
+  },
+  {
+   "anahtar": "NG_nok",
+   "ad": "Nok terrakotta başı",
+   "tur": "eser",
+   "dosya": "Africa Nok Head Kimbell.jpg",
+   "lisans": "Public domain",
+   "yazar": "User:FA2010",
+   "en": 1685,
+   "boy": 2732
+  },
+  {
+   "anahtar": "NG_igbo",
+   "ad": "Igbo-Ukwu tunç kabı (9. yy)",
+   "tur": "eser",
+   "dosya": "9th century bronze ceremonial pot, Igbo-Ukwu, Nigeria.JPG",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Ochiwar",
+   "en": 1999,
+   "boy": 2393
+  },
+  {
+   "anahtar": "NG_kano",
+   "ad": "Kano Merkez Camii",
+   "tur": "yapi",
+   "dosya": "The Kano Central Mosque.jpg",
+   "lisans": "CC0",
+   "yazar": "Usmanmaifada",
+   "en": 4608,
+   "boy": 2240
+  },
+  {
+   "anahtar": "NG_zuma",
+   "ad": "Zuma Kayası",
+   "tur": "yapi",
+   "dosya": "Zuma Rock.jpg",
+   "lisans": "CC BY 2.0",
+   "yazar": "Jeff Attaway",
+   "en": 1024,
+   "boy": 539,
+   "not": "doğal anıt"
+  },
+  {
+   "anahtar": "NG_aso",
+   "ad": "Aso Kayası, Abuja",
+   "tur": "yapi",
+   "dosya": "Aso Rock Abuja.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Raymondjoe1986",
+   "en": 4128,
+   "boy": 3096,
+   "not": "doğal anıt; yönetim merkezinin arkasında"
+  }
+ ]
+}

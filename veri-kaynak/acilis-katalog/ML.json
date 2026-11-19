@@ -1,0 +1,220 @@
+{
+ "kod": "ML",
+ "ad": "Mali (Mali İmparatorluğu, Songhay — Batı Afrika vekili)",
+ "kisiler": [
+  {
+   "anahtar": "mansamusa",
+   "ad": "Mansa Musa",
+   "rol": "Mali imparatoru, hac yolculuğu",
+   "mevcut": "mansamusa"
+  },
+  {
+   "anahtar": "sundiata",
+   "ad": "Sundiata Keita",
+   "rol": "Mali İmparatorluğu'nun kurucusu",
+   "dosya": "Founderofthemali.jpg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 1053,
+   "boy": 722,
+   "not": "hayalî çizim, dönem portresi yok (PD)"
+  },
+  {
+   "anahtar": "umartall",
+   "ad": "El Hac Ömer Tall",
+   "rol": "Toucouleur İmparatorluğu kurucusu, Ségou",
+   "dosya": "Cheikh oumar Tall.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Abdeldabakh",
+   "en": 725,
+   "boy": 774,
+   "not": "Commons açıklaması: 'tek resmî fotoğraf' (CC BY-SA 4.0 yükleme)"
+  },
+  {
+   "anahtar": "samory",
+   "ad": "Samori Touré",
+   "rol": "Wassoulou İmparatorluğu kurucusu, Fransızlara direnen",
+   "dosya": "Almamy Samory Touré.jpg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 346,
+   "boy": 457
+  },
+  {
+   "anahtar": "modibo",
+   "ad": "Modibo Keïta",
+   "rol": "bağımsız Mali'nin ilk cumhurbaşkanı",
+   "dosya": "JFKWHP-KN-C18793-A (cropped2).jpg",
+   "lisans": "Public domain",
+   "yazar": "Robert LeRoy Knudsen",
+   "en": 552,
+   "boy": 737
+  },
+  {
+   "anahtar": "konare",
+   "ad": "Alpha Oumar Konaré",
+   "rol": "cumhurbaşkanı, tarihçi",
+   "dosya": "Alpha Oumar Konaré 1993.jpg",
+   "lisans": "CC BY 4.0",
+   "yazar": "European Communities",
+   "en": 360,
+   "boy": 480
+  },
+  {
+   "anahtar": "hampateba",
+   "ad": "Amadou Hampâté Bâ",
+   "rol": "yazar, sözlü gelenek bilgini",
+   "dosya": "Amadou Hampate Bah.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Bii.999",
+   "en": 1080,
+   "boy": 1920,
+   "not": "dikkat: dikey 1080x1920 amatör fotoğraf, poster/duvar resmi olabilir — gözle bakılmadı"
+  },
+  {
+   "anahtar": "alifarka",
+   "ad": "Ali Farka Touré",
+   "rol": "müzisyen",
+   "dosya": "Ali Farka Toure.jpg",
+   "lisans": "Public domain",
+   "yazar": "Tagles",
+   "en": 1781,
+   "boy": 2231
+  },
+  {
+   "anahtar": "salifkeita",
+   "ad": "Salif Keita",
+   "rol": "müzisyen, 'Afrika'nın Altın Sesi'",
+   "dosya": "Salif Keita - 52440868864.jpg",
+   "lisans": "CC BY 2.0",
+   "yazar": "John Leeson",
+   "en": 2304,
+   "boy": 2676
+  },
+  {
+   "anahtar": "att",
+   "ad": "Amadou Toumani Touré",
+   "rol": "cumhurbaşkanı",
+   "dosya": "Amadou Toure.jpg",
+   "lisans": "CC BY 2.5 br",
+   "yazar": "LulaAmadouToure.jpg: Antonio Cruz/ABr derivative work: Missi",
+   "en": 1845,
+   "boy": 2553,
+   "yedek": true
+  },
+  {
+   "anahtar": "toumani",
+   "ad": "Toumani Diabaté",
+   "rol": "kora ustası",
+   "dosya": "Toumani Diabaté.jpg",
+   "lisans": "CC BY-SA 2.0",
+   "yazar": "jbach",
+   "en": 441,
+   "boy": 640
+  }
+ ],
+ "simgeler": [
+  {
+   "anahtar": "ML_bayrak",
+   "ad": "Mali bayrağı",
+   "tur": "bayrak",
+   "dosya": "Flag of Mali.svg",
+   "lisans": "Public domain",
+   "yazar": "SKopp",
+   "en": 900,
+   "boy": 600
+  },
+  {
+   "anahtar": "ML_arma",
+   "ad": "Mali arması",
+   "tur": "arma",
+   "dosya": "Coat of arms of Mali.svg",
+   "lisans": "Public domain",
+   "yazar": "UnknownUnknown , vectorized by Perhelion",
+   "en": 601,
+   "boy": 601
+  },
+  {
+   "anahtar": "ML_harita_mali",
+   "ad": "Mali İmparatorluğu · 1300",
+   "tur": "harita",
+   "mevcut": "mal"
+  },
+  {
+   "anahtar": "ML_harita_songhay",
+   "ad": "Songhay İmparatorluğu · 1530",
+   "tur": "harita",
+   "mevcut": "son"
+  },
+  {
+   "anahtar": "ML_djenne",
+   "ad": "Djenné Büyük Camii",
+   "tur": "yapi",
+   "dosya": "Djenne great mud mosque.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Ruud Zwart",
+   "en": 2048,
+   "boy": 1362
+  },
+  {
+   "anahtar": "ML_djinguereber",
+   "ad": "Djinguereber Camii, Timbuktu",
+   "tur": "yapi",
+   "dosya": "Djinguereber Mosque, Timbuktu.jpg",
+   "lisans": "CC BY 2.0",
+   "yazar": "upyernoz",
+   "en": 2796,
+   "boy": 1804
+  },
+  {
+   "anahtar": "ML_sankore",
+   "ad": "Sankore Medresesi, Timbuktu",
+   "tur": "yapi",
+   "dosya": "Sankore Madrasah.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Dr. Ondřej Havelka (cestovatel)",
+   "en": 1899,
+   "boy": 2529
+  },
+  {
+   "anahtar": "ML_askia",
+   "ad": "Askia Mezarı, Gao",
+   "tur": "yapi",
+   "dosya": "Tombeau askia de loin.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Gio53",
+   "en": 3648,
+   "boy": 2736
+  },
+  {
+   "anahtar": "ML_astronomi",
+   "ad": "Timbuktu el yazması (astronomi tabloları)",
+   "tur": "eser",
+   "dosya": "Timbuktu-manuscripts-astronomy-tables.jpg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 1024,
+   "boy": 683
+  },
+  {
+   "anahtar": "ML_fattash",
+   "ad": "Tarîhu'l-Fettâş el yazması (Songhay tarihi)",
+   "tur": "eser",
+   "dosya": "Ta'rikh al-Fattash Mamma Haidara Library 34122 n01.jpg",
+   "lisans": "Public domain",
+   "yazar": "Marie-Lan Nguyen",
+   "en": 4602,
+   "boy": 5891
+  },
+  {
+   "anahtar": "ML_dogon",
+   "ad": "Dogon Ülkesi, Bandiagara",
+   "tur": "yapi",
+   "dosya": "Dogon Country, Bandiagara.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Dr. Ondřej Havelka (cestovatel)",
+   "en": 2000,
+   "boy": 1053
+  }
+ ]
+}

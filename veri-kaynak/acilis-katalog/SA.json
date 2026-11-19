@@ -1,0 +1,190 @@
+{
+ "kod": "SA",
+ "ad": "Suudi Arabistan · Arap Yarımadası",
+ "kisiler": [
+  {
+   "anahtar": "muhammed",
+   "ad": "Hz. Muhammed",
+   "rol": "peygamber, İslâm'ın kurucusu",
+   "mevcut": "muhammed"
+  },
+  {
+   "anahtar": "abdulaziz",
+   "ad": "Kral Abdülaziz (İbn Suud)",
+   "rol": "Suudi Arabistan'ın kurucusu",
+   "dosya": "Official Portrait of King Abdulaziz.jpg",
+   "lisans": "Public domain",
+   "yazar": "Saudi Press Agency",
+   "en": 1080,
+   "boy": 1302,
+   "not": "resmî portre"
+  },
+  {
+   "anahtar": "faysal",
+   "ad": "Kral Faysal",
+   "rol": "kral, devlet adamı",
+   "dosya": "King Faisal bin Abdulaziz (cropped)(b).jpg",
+   "lisans": "Public domain",
+   "yazar": "Louis Fabian Bachrach Jr.",
+   "en": 731,
+   "boy": 945,
+   "not": "Bachrach fotoğrafı"
+  },
+  {
+   "anahtar": "serifhuseyin",
+   "ad": "Şerif Hüseyin (Mekke Emîri)",
+   "rol": "Hicaz kralı, Arap İsyanı'nın başı",
+   "dosya": "Sharif Husayn.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "en": 852,
+   "boy": 1200,
+   "not": "dönem fotoğrafı"
+  },
+  {
+   "anahtar": "lawrence",
+   "ad": "Arabistanlı Lawrence",
+   "rol": "subay, Arap İsyanı danışmanı",
+   "dosya": "Portrait of Colonel T. E. Lawrence in Traditional Costume.jpg",
+   "lisans": "Public domain",
+   "yazar": "Lowell Thomas",
+   "en": 2943,
+   "boy": 4967,
+   "not": "Lowell Thomas, 1918-19; Arap kıyafetiyle"
+  },
+  {
+   "anahtar": "fahd",
+   "ad": "Kral Fahd",
+   "rol": "kral",
+   "dosya": "Fahd of Saudi Arabia Portrait (cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown Author",
+   "en": 610,
+   "boy": 794
+  },
+  {
+   "anahtar": "abdullah",
+   "ad": "Kral Abdullah",
+   "rol": "kral",
+   "dosya": "King Abdullah bin Abdul al-Saud January 2007.jpg",
+   "lisans": "Public domain",
+   "yazar": "Cherie A. Thurlby",
+   "en": 648,
+   "boy": 848
+  },
+  {
+   "anahtar": "salman",
+   "ad": "Kral Selman",
+   "rol": "kral",
+   "dosya": "Salman of Saudi Arabia - 2020 (49563590728) (cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": "Ron Przysucha / U.S. Department of State",
+   "en": 486,
+   "boy": 727
+  },
+  {
+   "anahtar": "mbs",
+   "ad": "Muhammed bin Selman",
+   "rol": "veliaht prens, başbakan",
+   "dosya": "الصورة الرسمية للأمير محمد بن سلمان بن عبدالعزيز آل سعود (مقصوصة).jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "وكالة الأنباء السعودية",
+   "en": 1585,
+   "boy": 1981,
+   "not": "resmî portre"
+  }
+ ],
+ "simgeler": [
+  {
+   "anahtar": "SAU",
+   "ad": "Suudi Arabistan bayrağı",
+   "mevcut": "SAU",
+   "tur": "bayrak"
+  },
+  {
+   "anahtar": "SA_arma",
+   "ad": "Suudi Arabistan arması",
+   "tur": "arma",
+   "dosya": "Emblem of Saudi Arabia.svg",
+   "lisans": "Public domain",
+   "yazar": "Anus kafm",
+   "en": 610,
+   "boy": 662
+  },
+  {
+   "anahtar": "kabe",
+   "ad": "Kâbe",
+   "mevcut": "kabe",
+   "tur": "yapi"
+  },
+  {
+   "anahtar": "eme",
+   "ad": "Emevî Halifeliği · 700",
+   "tur": "harita",
+   "mevcut": "eme"
+  },
+  {
+   "anahtar": "SA_nebevi",
+   "ad": "Mescid-i Nebevî",
+   "tur": "yapi",
+   "dosya": "Al Masjid an Nabawi 3.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Aymanzaid2",
+   "en": 5184,
+   "boy": 3456
+  },
+  {
+   "anahtar": "SA_haram",
+   "ad": "Mescid-i Haram",
+   "tur": "yapi",
+   "dosya": "Edited Great Mosque of Mecca1 5-2019-ccsa4.0 (cropped).jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Saudipics.com",
+   "en": 3081,
+   "boy": 2521
+  },
+  {
+   "anahtar": "SA_hicr",
+   "ad": "Hegra (Medâin-i Sâlih)",
+   "tur": "yapi",
+   "dosya": "27, Hegra (Mada'in Salih), Saudi Arabia.jpg",
+   "lisans": "CC BY-SA 2.0",
+   "yazar": "Following Hadrian",
+   "en": 6016,
+   "boy": 4016,
+   "not": "UNESCO; Nebatî mezarları"
+  },
+  {
+   "anahtar": "SA_kule",
+   "ad": "Mekke Saat Kulesi (Ebrac el-Beyt)",
+   "tur": "yapi",
+   "dosya": "Abraj Al Bait Tower 2017.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "King Eliot",
+   "en": 2213,
+   "boy": 2949
+  },
+  {
+   "anahtar": "SA_diriyye",
+   "ad": "Dirʻiyye · et-Turaif",
+   "tur": "yapi",
+   "dosya": "At-Turaif District in ad-Dir'iyah (5).jpg",
+   "lisans": "CC BY 3.0 pl",
+   "yazar": "Radosław Botev",
+   "en": 4000,
+   "boy": 3000,
+   "not": "Suudî devletinin ilk başkenti"
+  },
+  {
+   "anahtar": "SA_hac1886",
+   "ad": "Hac mevsiminde Kâbe (1886)",
+   "tur": "diger",
+   "dosya": "Kaaba during the Hajj - 1886.jpg",
+   "lisans": "Public domain",
+   "yazar": "Post of Switzerland",
+   "en": 1000,
+   "boy": 639,
+   "not": "tarihî fotoğraf"
+  }
+ ]
+}

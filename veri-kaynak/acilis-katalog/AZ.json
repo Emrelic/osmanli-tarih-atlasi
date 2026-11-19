@@ -1,0 +1,161 @@
+{
+ "kod": "AZ",
+ "ad": "Azerbaycan",
+ "kisiler": [
+  {
+   "anahtar": "ismail",
+   "ad": "Şah İsmail (Erdebil'li)",
+   "rol": "Safevî kurucusu, şair",
+   "mevcut": "ismail"
+  },
+  {
+   "anahtar": "hacibeyov",
+   "ad": "Üzeyir Hacıbeyov",
+   "rol": "besteci",
+   "dosya": "Üzeyir Hacıbəyov.jpg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 1383,
+   "boy": 1996
+  },
+  {
+   "anahtar": "resulzade",
+   "ad": "Mehmed Emin Resulzade",
+   "rol": "devlet kurucusu (ADC)",
+   "dosya": "Mahammad Amin Rasulzade 3.jpg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 709,
+   "boy": 886
+  },
+  {
+   "anahtar": "hheydar",
+   "ad": "Haydar Aliyev",
+   "rol": "devlet başkanı",
+   "dosya": "Heydar Aliyev.jpg",
+   "lisans": "CC BY 4.0",
+   "yazar": "Press Service of the President of the Republic of Azerbaijan",
+   "en": 5000,
+   "boy": 3506,
+   "not": "resmî devlet fotoğrafı; yatay"
+  },
+  {
+   "anahtar": "fuzuli",
+   "ad": "Fuzulî",
+   "rol": "şair",
+   "dosya": "Fuzuli.jpg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 150,
+   "boy": 200,
+   "not": "Düşük çözünürlük 150x200"
+  },
+  {
+   "anahtar": "ahundzade",
+   "ad": "Mirza Feth Ali Ahundzade",
+   "rol": "yazar, filozof",
+   "dosya": "Akhundov.jpg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 196,
+   "boy": 300,
+   "not": "Düşük çözünürlük 196x300"
+  },
+  {
+   "anahtar": "babek",
+   "ad": "Babek Hürremî",
+   "rol": "isyan önderi",
+   "dosya": "Babək.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Eyvazxan",
+   "en": 316,
+   "boy": 450,
+   "not": "çağdaş çizim/heykel olabilir; gözle doğrulanmadı"
+  }
+ ],
+ "simgeler": [
+  {
+   "anahtar": "AZ_bayrak",
+   "ad": "Azerbaycan bayrağı",
+   "tur": "bayrak",
+   "mevcut": "AZE"
+  },
+  {
+   "anahtar": "AZ_arma",
+   "ad": "Azerbaycan arması",
+   "tur": "arma",
+   "dosya": "Emblem of Azerbaijan.svg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 403,
+   "boy": 444
+  },
+  {
+   "anahtar": "AZ_harita",
+   "ad": "Akkoyunlu Devleti · 1500",
+   "tur": "harita",
+   "hb_yil": "1500",
+   "hb_ad": "Emirate of the White Sheep Turks"
+  },
+  {
+   "anahtar": "AZ_kizkalesi",
+   "ad": "Kız Kulesi (Bakü)",
+   "tur": "yapi",
+   "dosya": "Maiden Tower, Baku.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Interfase",
+   "en": 3000,
+   "boy": 4000
+  },
+  {
+   "anahtar": "AZ_sirvansah",
+   "ad": "Şirvanşahlar Sarayı",
+   "tur": "yapi",
+   "dosya": "Palace of the Shirvanshahs.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "İhsan Deniz Kılıçoğlu",
+   "en": 3456,
+   "boy": 2304
+  },
+  {
+   "anahtar": "AZ_sheki",
+   "ad": "Şeki Han Sarayı",
+   "tur": "yapi",
+   "dosya": "Sheki Khan Palace.jpg",
+   "lisans": "CC BY 4.0",
+   "yazar": "Rüfət Həsənli",
+   "en": 6016,
+   "boy": 4012
+  },
+  {
+   "anahtar": "AZ_atesgah",
+   "ad": "Bakü Ateşgâhı",
+   "tur": "yapi",
+   "dosya": "Ateshgah of Baku.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "AlixSaz",
+   "en": 3000,
+   "boy": 1968
+  },
+  {
+   "anahtar": "AZ_gobustan",
+   "ad": "Gobustan kaya resimleri",
+   "tur": "eser",
+   "dosya": "Gobustan.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Murad Уldar",
+   "en": 5184,
+   "boy": 3456
+  },
+  {
+   "anahtar": "AZ_flame",
+   "ad": "Alev Kuleleri",
+   "tur": "yapi",
+   "dosya": "Flame Towers.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Saidaa444",
+   "en": 3060,
+   "boy": 4080
+  }
+ ]
+}

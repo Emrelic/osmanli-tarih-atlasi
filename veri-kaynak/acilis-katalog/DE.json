@@ -1,0 +1,215 @@
+{
+ "kod": "DE",
+ "ad": "Almanya (Prusya, Kutsal Roma)",
+ "kisiler": [
+  {
+   "anahtar": "bismarck",
+   "ad": "Bismarck",
+   "rol": "devlet adamı",
+   "mevcut": "bismarck"
+  },
+  {
+   "anahtar": "friedrich",
+   "ad": "Büyük Friedrich",
+   "rol": "hükümdar",
+   "mevcut": "friedrich"
+  },
+  {
+   "anahtar": "luther",
+   "ad": "Martin Luther",
+   "rol": "din önderi",
+   "mevcut": "luther"
+  },
+  {
+   "anahtar": "goethe",
+   "ad": "Goethe",
+   "rol": "yazar, şair",
+   "dosya": "Goethe (Stieler 1828).jpg",
+   "lisans": "Public domain",
+   "yazar": "Joseph Karl Stieler",
+   "en": 1972,
+   "boy": 2432
+  },
+  {
+   "anahtar": "bach",
+   "ad": "Bach",
+   "rol": "besteci",
+   "mevcut": "bach"
+  },
+  {
+   "anahtar": "beethoven",
+   "ad": "Beethoven",
+   "rol": "besteci",
+   "mevcut": "beethoven"
+  },
+  {
+   "anahtar": "einstein",
+   "ad": "Albert Einstein",
+   "rol": "bilim insanı",
+   "dosya": "Einstein 1921 by F Schmutzer - restoration.jpg",
+   "lisans": "Public domain",
+   "yazar": "Ferdinand Schmutzer / Adam Cuerden",
+   "en": 2523,
+   "boy": 3313,
+   "kirp": [
+    5.3,
+    3.2,
+    0.13
+   ]
+  },
+  {
+   "anahtar": "kant",
+   "ad": "Immanuel Kant",
+   "rol": "filozof",
+   "dosya": "Immanuel Kant (painted portrait).jpg",
+   "lisans": "Public domain",
+   "yazar": "unbekannt, möglicherweise Elisabeth von Stägemann (Schule von Anton Graff)",
+   "en": 964,
+   "boy": 1388
+  },
+  {
+   "anahtar": "gutenberg",
+   "ad": "Gutenberg",
+   "rol": "mucit",
+   "mevcut": "gutenberg"
+  },
+  {
+   "anahtar": "marx",
+   "ad": "Karl Marx",
+   "rol": "filozof, iktisatçı",
+   "mevcut": "marx"
+  },
+  {
+   "anahtar": "barbarossa",
+   "ad": "I. Friedrich Barbarossa",
+   "rol": "hükümdar",
+   "dosya": "Barbarossa.jpg",
+   "lisans": "Public domain",
+   "yazar": "unknown illustrator",
+   "en": 591,
+   "boy": 800
+  },
+  {
+   "anahtar": "adenauer",
+   "ad": "Konrad Adenauer",
+   "rol": "devlet adamı",
+   "dosya": "Konrad Adenauer.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "EtNu1988",
+   "en": 1123,
+   "boy": 798
+  },
+  {
+   "anahtar": "hegel",
+   "ad": "Hegel",
+   "rol": "filozof",
+   "dosya": "Hegel portrait by Schlesinger 1831.jpg",
+   "lisans": "Public domain",
+   "yazar": "Jakob Schlesinger (1792-1855)",
+   "en": 452,
+   "boy": 572
+  }
+ ],
+ "simgeler": [
+  {
+   "anahtar": "DE_bayrak",
+   "ad": "Almanya bayrağı",
+   "tur": "bayrak",
+   "mevcut": "DEU"
+  },
+  {
+   "anahtar": "DE_arma",
+   "ad": "Almanya federal arması",
+   "tur": "arma",
+   "dosya": "Coat of arms of Germany.svg",
+   "lisans": "Public domain",
+   "yazar": "Karl-Tobias Schwab",
+   "en": 386,
+   "boy": 500
+  },
+  {
+   "anahtar": "DE_reichsadler",
+   "ad": "Reichsadler",
+   "tur": "arma",
+   "mevcut": "alm"
+  },
+  {
+   "anahtar": "DE_brandenburg",
+   "ad": "Brandenburg Kapısı",
+   "tur": "yapi",
+   "dosya": "Brandenburger Tor abends.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Thomas Wolf, www.foto-tw.de",
+   "en": 1920,
+   "boy": 1280
+  },
+  {
+   "anahtar": "DE_neuschwanstein",
+   "ad": "Neuschwanstein Şatosu",
+   "tur": "yapi",
+   "dosya": "Schloss Neuschwanstein 2013.jpg",
+   "lisans": "CC BY-SA 3.0 de",
+   "yazar": "Thomas Wolf, www.foto-tw.de",
+   "en": 5979,
+   "boy": 4468
+  },
+  {
+   "anahtar": "DE_koln",
+   "ad": "Köln Katedrali",
+   "tur": "yapi",
+   "dosya": "Cologne Cathedral.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "original by FJK71updated by Tetraktys",
+   "en": 480,
+   "boy": 640,
+   "not": "küçük çözünürlük (480x640)"
+  },
+  {
+   "anahtar": "DE_reichstag",
+   "ad": "Reichstag",
+   "tur": "yapi",
+   "dosya": "Reichstag building Berlin view from west before sunset.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Jürgen Matern",
+   "en": 8347,
+   "boy": 3157
+  },
+  {
+   "anahtar": "DE_prusya",
+   "ad": "Prusya bayrağı",
+   "tur": "bayrak",
+   "dosya": "Flag of Prussia (1892-1918).svg",
+   "lisans": "Attribution",
+   "yazar": "Drawing created by David Liuzzo",
+   "en": 900,
+   "boy": 540
+  },
+  {
+   "anahtar": "DE_gutenbergincil",
+   "ad": "Gutenberg İncili",
+   "tur": "eser",
+   "dosya": "Gutenberg Bible, Lenox Copy, New York Public Library, 2009. Pic 01.jpg",
+   "lisans": "CC BY-SA 2.0",
+   "yazar": "NYC Wanderer (Kevin Eng)",
+   "en": 1920,
+   "boy": 1200
+  },
+  {
+   "anahtar": "DE_sanssouci",
+   "ad": "Sanssouci Sarayı",
+   "tur": "yapi",
+   "dosya": "Schloss Sanssouci.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Sarah1888",
+   "en": 2592,
+   "boy": 1936
+  },
+  {
+   "anahtar": "DE_hre",
+   "ad": "Kutsal Roma İmparatorluğu · 1200",
+   "tur": "harita",
+   "hb_yil": "1200",
+   "hb_ad": "Holy Roman Empire"
+  }
+ ]
+}

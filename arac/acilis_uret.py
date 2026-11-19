@@ -187,6 +187,51 @@ MILLETLER = [  # (ad, boylam, enlem, karolar)
     ("Güney Asya", 75.0, 28.0, ["s:PAK", "s:BGD"]),
     ("Nijerya", 7.5, 9.1, ["s:NGA"]),
 ]
+# Millet → ülke kodları (ISO2): ziyaretçinin komşu/rakip milletleri bu kodlarla seçilir
+# (data/acilis_ulke.js KOMSU). Ziyaretçinin kendi milletinin satırları dünya sırasından düşer.
+MILLET_KOD = {
+    "Türk": "TR",
+    "Roma · İtalya": "IT",
+    "Arap · İslâm": "SA",
+    "İngiliz": "GB",
+    "Fransız": "FR",
+    "Çin": "CN",
+    "İran": "IR",
+    "Alman": "DE",
+    "Rus": "RU",
+    "Hint": "IN",
+    "Mısır": "EG",
+    "Yunan": "GR",
+    "Moğol": "MN",
+    "Bizans": "GR TR",
+    "İspanyol": "ES",
+    "Amerikan": "US",
+    "Japon": "JP",
+    "İbrânî": "IL",
+    "Portekiz": "PT",
+    "Hollanda": "NL",
+    "Avusturya": "AT",
+    "Leh": "PL",
+    "Macar": "HU",
+    "İsveç": "SE",
+    "Meksika": "MX",
+    "Brezilya": "BR",
+    "Arjantin": "AR",
+    "Venezuela · Kolombiya": "VE CO",
+    "Peru": "PE",
+    "Kanada": "CA",
+    "Kore": "KR",
+    "Cezayir": "DZ",
+    "Habeş": "ET",
+    "Güney Afrika": "ZA",
+    "Kartaca": "TN",
+    "Batı Afrika": "ML SN",
+    "Türk dünyası": "UZ KZ TM KG AZ",
+    "Güneydoğu Asya": "ID VN PH",
+    "Güney Asya": "PK BD",
+    "Nijerya": "NG",
+}
+
 # ── ÖNCE EN POPÜLERLER (Emre, 18-19 Kas: "animasyon en popüler harita, resim, kişi ve
 # sembolleri fırlatarak başlasın; site hızlı açılırsa en popülerler gösterilmiş olur").
 # Bu karolar bu sırayla İLK fırlar (~2,5 sn); ardından millet turları kalanlarla sürer.
@@ -320,6 +365,9 @@ TW, TH = 160, 120
 # --tabaka-koru: portre ve amblem tabakaları depodakiyle kalır (önbellek bu makinede yoksa
 # Commons'tan ~150 görseli yeniden indirmemek için). PORTRE/AMBLEM sırası değişmediyse güvenli.
 KORU = "--tabaka-koru" in sys.argv
+PORTRE_DEGISTI = True
+# --yenile=a,b: koruma kipinde bu anahtarların hücresi önbellekten yeniden çizilir (kırpma değişince)
+YENILE = set(next((a.split("=", 1)[1] for a in sys.argv if a.startswith("--yenile=")), "").split(",")) - {""}
 ASPRITE = os.path.join(KOK, "img", "acilis", "amblemler.webp")
 AHUCRE = 128          # duvarda vitrin büyütmesi (2,3×) bulanık olmasın
 # --indirme-yok: önbellekte olmayan amblem indirilmez, karosu atlanır (Commons 429 verirken
@@ -523,14 +571,14 @@ def portreler():
     os.makedirs(os.path.dirname(SPRITE), exist_ok=True)
     n = len(PORTRE)
     tab = Image.new("RGB", (SUTUN * HUCRE, ((n + SUTUN - 1) // SUTUN) * HUCRE_Y), (24, 24, 24))
-    # --tabaka-koru: ARTIMLI — depodaki tabakada dolu olan ve önbellekte asılı olmayan hücre
-    # aynen taşınır; boş ya da yeni hücre indirilip çizilir. (PORTRE yalnız SONA eklenmeli.)
+    # --tabaka-koru: ARTIMLI — depodaki tabakada dolu hücre aynen taşınır (--yenile= ile adı
+    # verilen hariç); boş ya da yeni hücre indirilip çizilir. (PORTRE yalnız SONA eklenmeli.)
     eski = Image.open(SPRITE).convert("RGB") if KORU and os.path.exists(SPRITE) else None
     korunan, eksik = 0, set()
     for i, (k, ad, dosya, lis, eser, kirp) in enumerate(PORTRE):
         p = os.path.join(PR, k + ".jpg")
         hx, hy = (i % SUTUN) * HUCRE, (i // SUTUN) * HUCRE_Y
-        if eski is not None and not os.path.exists(p) and hy + HUCRE_Y <= eski.height:
+        if eski is not None and k not in YENILE and hy + HUCRE_Y <= eski.height:
             hucre = eski.crop((hx, hy, hx + HUCRE, hy + HUCRE_Y))
             # boş hücre düz (24,24,24); WebP komşudan kırıntı taşır (ölçüldü: en çok 77) —
             # tepe değeri değil ortalama + sapma bakılır
@@ -585,6 +633,11 @@ def portreler():
         y0 = min(max(y - gh * 0.40, 0), H - gh)
         c = im.crop((int(x0), int(y0), int(x0 + gw), int(y0 + gh))).resize((HUCRE, HUCRE_Y), Image.LANCZOS)
         tab.paste(c, ((i % SUTUN) * HUCRE, (i // SUTUN) * HUCRE_Y))
+    global PORTRE_DEGISTI
+    PORTRE_DEGISTI = not (eski is not None and korunan == n - len(eksik) and eski.size == tab.size)
+    if not PORTRE_DEGISTI:   # hiçbir hücre değişmedi: yeniden sıkıştırma (kalite kaybı) yok
+        print("portre tabakası DEĞİŞMEDİ (%d yüz) — dosyaya dokunulmadı" % korunan)
+        return eksik
     tab.save(SPRITE, "WEBP", quality=74, method=6)   # 3:4 · 120×160 (vitrinde 2,3× büyür)
     print("portre tabakası: %d yüz (%d korundu), %d B" % (n - len(eksik), korunan, os.path.getsize(SPRITE)))
     return eksik
@@ -606,7 +659,7 @@ def amblemler():
         # Windows dosya adında büyük/küçük harf ayırmaz: "rus" ile "RUS" aynı dosyaya düşüyordu
         p = os.path.join(AM, k + ("-tarih" if k.islower() else "") + ".png")
         hx, hy = (i % SUTUN) * AHUCRE, (i // SUTUN) * AHUCRE
-        if eski is not None and not os.path.exists(p) and hy + AHUCRE <= eski.height:
+        if eski is not None and k not in YENILE and hy + AHUCRE <= eski.height:
             hucre = eski.crop((hx, hy, hx + AHUCRE, hy + AHUCRE))
             # komşunun gömülü gölgesi hücreye birkaç soluk piksel taşır (ölçüldü: alfa ≤ 22): boş say
             if hucre.getchannel("A").getextrema()[1] >= 100:
@@ -665,6 +718,9 @@ def amblemler():
         gt = gt.filter(ImageFilter.GaussianBlur(1.6))
         tab.alpha_composite(gt, (x0 - 3, y0 - 2))
         tab.alpha_composite(im, (x0, y0))
+    if eski is not None and korunan == n - len(eksik) and eski.size == tab.size:
+        print("amblem tabakası DEĞİŞMEDİ (%d) — dosyaya dokunulmadı" % korunan)
+        return eksik
     tab.save(ASPRITE, "WEBP", quality=82, method=6)
     print("amblem tabakası: %d amblem (%d korundu), %d B%s" % (n - len(eksik), korunan, os.path.getsize(ASPRITE),
                                                   (" · EKSİK (atlandı): " + " ".join(sorted(eksik))) if eksik else ""))
@@ -842,7 +898,8 @@ def main():
 
     eksik_amb = amblemler()
     eksik_p = portreler()
-    levhalar()
+    if PORTRE_DEGISTI:   # levha hücresi yeniden çizilir yalnız tabaka değiştiyse
+        levhalar()
     eksik_t = tablolar()
     TI = {t[0]: i for i, t in enumerate(TABLO) if t[0] not in eksik_t}
     PI = {p[0]: i for i, p in enumerate(PORTRE) if p[0] not in eksik_p}
@@ -855,7 +912,7 @@ def main():
     milletler, kullanilan = [], set()
     yerler = {}   # karo anahtarı → [millet sırası, karo sırası]
     for mad, mlon, mlat, karolar in MILLETLER:
-        m = {"ad": mad, "lon": mlon, "lat": mlat, "o": []}
+        m = {"ad": mad, "kod": MILLET_KOD[mad].split(), "lon": mlon, "lat": mlat, "o": []}
         for kr in karolar:
             tur, ak = kr.split(":")
             if tur == "h":
@@ -920,4 +977,5 @@ def main():
                                                                len(kisiler), len(s.encode("utf-8"))))
 
 
-main()
+if __name__ == "__main__":
+    main()

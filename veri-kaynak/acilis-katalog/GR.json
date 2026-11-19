@@ -1,0 +1,179 @@
+{
+ "kod": "GR",
+ "ad": "Yunanistan",
+ "kisiler": [
+  {
+   "anahtar": "iskender",
+   "ad": "Büyük İskender",
+   "rol": "kral, komutan",
+   "mevcut": "iskender"
+  },
+  {
+   "anahtar": "aristoteles",
+   "ad": "Aristoteles",
+   "rol": "filozof",
+   "mevcut": "aristoteles"
+  },
+  {
+   "anahtar": "platon",
+   "ad": "Platon",
+   "rol": "filozof",
+   "mevcut": "platon"
+  },
+  {
+   "anahtar": "sokrates",
+   "ad": "Sokrates",
+   "rol": "filozof",
+   "dosya": "Socrates Louvre.jpg",
+   "lisans": "Public domain",
+   "yazar": "Copy of Lysippos (?)",
+   "en": 1944,
+   "boy": 2592,
+   "not": "Roma devri kopya büstü (Louvre)"
+  },
+  {
+   "anahtar": "homeros",
+   "ad": "Homeros",
+   "rol": "şair",
+   "mevcut": "homeros"
+  },
+  {
+   "anahtar": "perikles",
+   "ad": "Perikles",
+   "rol": "Atina devlet adamı",
+   "dosya": "Pericles Pio-Clementino Inv269 n2.jpg",
+   "lisans": "Public domain",
+   "yazar": "Copy of Kresilas",
+   "en": 1300,
+   "boy": 1970,
+   "not": "Kresilas'ın kopya büstü (Vatikan)"
+  },
+  {
+   "anahtar": "justinianus",
+   "ad": "Justinianus",
+   "rol": "Bizans imparatoru",
+   "mevcut": "justinianus"
+  },
+  {
+   "anahtar": "hippokrates",
+   "ad": "Hipokrat",
+   "rol": "hekim",
+   "dosya": "Bust of Hippocrates Wellcome L0005203.jpg",
+   "lisans": "CC BY 4.0",
+   "yazar": "",
+   "en": 1081,
+   "boy": 1852,
+   "not": "büst"
+  },
+  {
+   "anahtar": "arsimet",
+   "ad": "Arşimet",
+   "rol": "matematikçi, mucit",
+   "dosya": "Domenico-Fetti Archimedes 1620.jpg",
+   "lisans": "Public domain",
+   "yazar": "Domenico Fetti",
+   "en": 1364,
+   "boy": 1818,
+   "not": "Fetti'nin hayalî portresi (1620)"
+  },
+  {
+   "anahtar": "kapodistrias",
+   "ad": "Ioannis Kapodistrias",
+   "rol": "ilk Yunan devlet başkanı",
+   "dosya": "Ioannis Kapodistrias (1776-1831).jpg",
+   "lisans": "Public domain",
+   "yazar": "The original uploader was Cédric Boissière at Fren",
+   "en": 442,
+   "boy": 599,
+   "not": "portre"
+  }
+ ],
+ "simgeler": [
+  {
+   "anahtar": "GR_bayrak",
+   "ad": "Yunanistan bayrağı",
+   "tur": "bayrak",
+   "mevcut": "GRC"
+  },
+  {
+   "anahtar": "GR_arma",
+   "ad": "Yunanistan arması",
+   "tur": "arma",
+   "dosya": "Coat of arms of Greece.svg",
+   "lisans": "Public domain",
+   "yazar": "File:Coat of Arms of Greece (Ministries).svg: Tony",
+   "en": 281,
+   "boy": 286
+  },
+  {
+   "anahtar": "GR_harita",
+   "ad": "Bizans İmparatorluğu · 1000",
+   "tur": "harita",
+   "hb_yil": "1000",
+   "hb_ad": "Byzantine Empire",
+   "not": "Bizans mirası; İskender haritası zaten 'isk'"
+  },
+  {
+   "anahtar": "GR_akropolis",
+   "ad": "Akropolis ve Parthenon",
+   "tur": "yapi",
+   "dosya": "Acropolis of Athens.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Yair Haklai",
+   "en": 3264,
+   "boy": 2448
+  },
+  {
+   "anahtar": "GR_vergina",
+   "ad": "Vergina güneşi",
+   "tur": "arma",
+   "mevcut": "isk"
+  },
+  {
+   "anahtar": "GR_bizkartal",
+   "ad": "Bizans çift başlı kartalı",
+   "tur": "arma",
+   "mevcut": "biz"
+  },
+  {
+   "anahtar": "GR_milo",
+   "ad": "Milo Venüsü",
+   "tur": "eser",
+   "dosya": "Venus de Milo Louvre Ma399 n4.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown artistUnknown artist",
+   "en": 2250,
+   "boy": 3775
+  },
+  {
+   "anahtar": "GR_nike",
+   "ad": "Samothrake Nike'si",
+   "tur": "eser",
+   "dosya": "Nike of Samothrake Louvre Ma2369 n4.jpg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 2300,
+   "boy": 3485
+  },
+  {
+   "anahtar": "GR_agamemnon",
+   "ad": "Agamemnon'un maskesi",
+   "tur": "eser",
+   "dosya": "Mask of Agamemnon.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "MegAlexandrou",
+   "en": 4209,
+   "boy": 2850
+  },
+  {
+   "anahtar": "GR_delphi",
+   "ad": "Delphi Tholos'u",
+   "tur": "yapi",
+   "dosya": "Delphi Tholos.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Benutzer:Stefan Volk",
+   "en": 1140,
+   "boy": 1692
+  }
+ ]
+}

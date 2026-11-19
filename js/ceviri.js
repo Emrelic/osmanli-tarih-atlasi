@@ -12,7 +12,8 @@
 // Türkçe asıl `b_tr`/`d_tr`/`ad_tr` alanında kalır (başlıkla eşleştiren
 // kodlar — antlaşma, sefer, geliştirici notu — Ceviri.trB(o) ile Türkçeye bakar).
 // Arayüz metni sözlükle (data/ceviri_<dil>_arayuz.js) DOM üzerinde çevrilir.
-// Dil seçimi: ?dil=en > localStorage "dil" > "tr". Değiştirmek sayfayı yeniler
+// Dil seçimi: ?dil=en > localStorage "dil" > ziyaretçinin ülkesinin dili (data/acilis_ulke.js,
+// kaydedilmez) > "tr". Değiştirmek sayfayı yeniler
 // (`olaylar` sayfa boyunca sabit bir dizi — app.js 8431).
 // ============================================================================
 (function () {
@@ -26,7 +27,15 @@
     try { p = new URLSearchParams(location.search).get("dil"); } catch (e) {}
     var kayitli = null;
     try { kayitli = localStorage.getItem("dil"); } catch (e) {}
-    var d = (p || kayitli || "tr").toLowerCase();
+    // ACILIS-ULKE-1119 (Emre, 19 Kas): adres ya da kayıtlı seçim yoksa ziyaretçinin ülkesinin
+    // dili (data/acilis_ulke.js: ülke → dil sırası; ilk VAR olan). Otomatik seçim KAYDEDİLMEZ.
+    var ulkeDili = null;
+    if (!p && !kayitli && window.ZIYARETCI && window.ZIYARETCI.diller) {
+      ulkeDili = window.ZIYARETCI.diller.filter(function (k) {
+        return DIZIN.diller.some(function (x) { return x.kod === k; });
+      })[0] || null;
+    }
+    var d = (p || kayitli || ulkeDili || "tr").toLowerCase();
     var var_mi = DIZIN.diller.some(function (x) { return x.kod === d; });
     if (!var_mi) d = "tr";
     if (p) { try { localStorage.setItem("dil", d); } catch (e) {} }

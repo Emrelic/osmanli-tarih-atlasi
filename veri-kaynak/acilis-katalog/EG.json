@@ -1,0 +1,191 @@
+{
+ "kod": "EG",
+ "ad": "Mısır",
+ "kisiler": [
+  {
+   "anahtar": "ramses",
+   "ad": "II. Ramses",
+   "rol": "firavun",
+   "mevcut": "ramses"
+  },
+  {
+   "anahtar": "kleopatra",
+   "ad": "Kleopatra",
+   "rol": "Ptolemaios hükümdarı",
+   "mevcut": "kleopatra"
+  },
+  {
+   "anahtar": "tutankamon",
+   "ad": "Tutankamon maskesi",
+   "rol": "firavun",
+   "mevcut": "tutankamon"
+  },
+  {
+   "anahtar": "kufu",
+   "ad": "Kheops (Khufu)",
+   "rol": "firavun, Büyük Piramit'in yaptırıcısı",
+   "dosya": "Statue of Khufu in the Cairo Egyptian Museum.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "UserPpPp",
+   "en": 975,
+   "boy": 1582,
+   "not": "Kahire Müzesi heykeli"
+  },
+  {
+   "anahtar": "nefertiti",
+   "ad": "Nefertiti",
+   "rol": "kraliçe",
+   "mevcut": "nefertiti"
+  },
+  {
+   "anahtar": "hatsepsut",
+   "ad": "Hatşepsut",
+   "rol": "kadın firavun",
+   "dosya": "Seated Statue of Hatshepsut MET Hatshepsut2012 (cropped).jpg",
+   "lisans": "CC0",
+   "yazar": "",
+   "en": 2458,
+   "boy": 3274,
+   "not": "Metropolitan Müzesi",
+   "kirp": [
+    4.9,
+    3.0,
+    0.2
+   ]
+  },
+  {
+   "anahtar": "selahaddin",
+   "ad": "Selahaddin Eyyûbî",
+   "rol": "sultan, komutan",
+   "mevcut": "selahaddin"
+  },
+  {
+   "anahtar": "mehmetali",
+   "ad": "Kavalalı Mehmed Ali Paşa",
+   "rol": "modern Mısır'ın kurucusu",
+   "dosya": "ModernEgypt, Muhammad Ali by Auguste Couder, BAP 17996.jpg",
+   "lisans": "Public domain",
+   "yazar": "Auguste Couder",
+   "en": 4638,
+   "boy": 5862,
+   "not": "Auguste Couder portresi"
+  },
+  {
+   "anahtar": "nasir",
+   "ad": "Cemal Abdünnâsır",
+   "rol": "cumhurbaşkanı",
+   "dosya": "Gamal Abdel Nasser Portrait 1962 (3x4 cropped).jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Stevan Kragujević",
+   "en": 1494,
+   "boy": 1982,
+   "not": "Stevan Kragujević"
+  },
+  {
+   "anahtar": "tutmosis3",
+   "ad": "III. Thutmose",
+   "rol": "firavun, komutan",
+   "dosya": "Luxor Museum, Egypt 49 (trim).jpg",
+   "lisans": "Public domain",
+   "yazar": "ولاء",
+   "en": 3909,
+   "boy": 5200,
+   "not": "Luksor Müzesi heykeli"
+  }
+ ],
+ "simgeler": [
+  {
+   "anahtar": "EGY",
+   "ad": "Mısır bayrağı",
+   "mevcut": "EGY",
+   "tur": "bayrak"
+  },
+  {
+   "anahtar": "EG_arma",
+   "ad": "Mısır arması",
+   "tur": "arma",
+   "dosya": "Coat of arms of Egypt (Official).svg",
+   "lisans": "Public domain",
+   "yazar": "Flag of Egypt (variant).svg: F l a n k e r from original Flag of Egypt.svg / der",
+   "en": 600,
+   "boy": 815
+  },
+  {
+   "anahtar": "mis",
+   "ad": "Eski Mısır (Yeni Krallık)",
+   "tur": "harita",
+   "mevcut": "mis"
+  },
+  {
+   "anahtar": "piramit",
+   "ad": "Giza piramitleri",
+   "mevcut": "piramit",
+   "tur": "yapi"
+  },
+  {
+   "anahtar": "EG_sfenks",
+   "ad": "Büyük Sfenks",
+   "tur": "yapi",
+   "dosya": "Sphinx with the third pyramid.jpg",
+   "lisans": "CC0",
+   "yazar": "Hesham Ebaid",
+   "en": 3872,
+   "boy": 2404
+  },
+  {
+   "anahtar": "EG_abusimbel",
+   "ad": "Ebu Simbel tapınağı",
+   "tur": "yapi",
+   "dosya": "Abu Simbel, façade of the Great Temple (6201194723).jpg",
+   "lisans": "CC BY 2.0",
+   "yazar": "Arian Zwegers from Brussels, Belgium",
+   "en": 1736,
+   "boy": 1172,
+   "not": "II. Ramses'in büyük tapınağı"
+  },
+  {
+   "anahtar": "EG_hatsepsut_tap",
+   "ad": "Hatşepsut Tapınağı",
+   "tur": "yapi",
+   "dosya": "Templo funerario de Hatshepsut, Luxor, Egipto, 2022-04-03, DD 13.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Diego Delso",
+   "en": 6856,
+   "boy": 4288,
+   "not": "Deyrülbahrî"
+  },
+  {
+   "anahtar": "EG_rosetta",
+   "ad": "Rosetta Taşı",
+   "tur": "eser",
+   "dosya": "Rosetta Stone.JPG",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Hans Hillewaert",
+   "en": 3665,
+   "boy": 4288,
+   "not": "British Museum"
+  },
+  {
+   "anahtar": "EG_narmer",
+   "ad": "Narmer Paleti",
+   "tur": "eser",
+   "dosya": "Narmer Palette.jpg",
+   "lisans": "Public domain",
+   "yazar": "anonymous",
+   "en": 2566,
+   "boy": 1808,
+   "not": "Mısır'ın birleştirilişi, ~MÖ 3100"
+  },
+  {
+   "anahtar": "EG_hunefer",
+   "ad": "Hunefer Ölüler Kitabı papirüsü",
+   "tur": "eser",
+   "dosya": "El pesado del corazón en el Papiro de Hunefer.jpg",
+   "lisans": "Public domain",
+   "yazar": "Hunefer",
+   "en": 1035,
+   "boy": 651,
+   "not": "kalbin tartılması"
+  }
+ ]
+}

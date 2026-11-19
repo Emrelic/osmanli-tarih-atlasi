@@ -1,0 +1,278 @@
+{
+ "kod": "AU",
+ "ad": "Avustralya",
+ "kisiler": [
+  {
+   "anahtar": "phillip",
+   "ad": "Arthur Phillip",
+   "rol": "ilk vali, Sidney'in kurucusu",
+   "dosya": "Arthur Phillip.jpg",
+   "lisans": "Public domain",
+   "yazar": "Francis Wheatley",
+   "en": 4800,
+   "boy": 6198
+  },
+  {
+   "anahtar": "barton",
+   "ad": "Edmund Barton",
+   "rol": "ilk başbakan, federasyonun mimarı",
+   "dosya": "Edmund Barton.jpg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 877,
+   "boy": 1146
+  },
+  {
+   "anahtar": "curtin",
+   "ad": "John Curtin",
+   "rol": "savaş başbakanı",
+   "dosya": "John Curtin 1938.jpg",
+   "lisans": "Public domain",
+   "yazar": "Alexander Collingridge (d. 1942)",
+   "en": 2863,
+   "boy": 3980
+  },
+  {
+   "anahtar": "monash",
+   "ad": "John Monash",
+   "rol": "general",
+   "dosya": "John Monash portrait.jpg",
+   "lisans": "Public domain",
+   "yazar": "Elliott & Fry",
+   "en": 446,
+   "boy": 654
+  },
+  {
+   "anahtar": "bradman",
+   "ad": "Don Bradman",
+   "rol": "kriket efsanesi",
+   "dosya": "Don Bradman autographed portrait.jpg",
+   "lisans": "Public domain",
+   "yazar": "National Library of Australia",
+   "en": 978,
+   "boy": 1259
+  },
+  {
+   "anahtar": "kelly",
+   "ad": "Ned Kelly",
+   "rol": "haydut, halk kahramanı",
+   "dosya": "Ned kelly 1874.jpg",
+   "lisans": "Public domain",
+   "yazar": "Charles Nettleton (attributed)",
+   "en": 1664,
+   "boy": 2148
+  },
+  {
+   "anahtar": "melba",
+   "ad": "Nellie Melba",
+   "rol": "opera sopranosu",
+   "dosya": "Nellie Melba.jpg",
+   "lisans": "No restrictions",
+   "yazar": "State Library of New South Wales collection from Australia",
+   "en": 522,
+   "boy": 640
+  },
+  {
+   "anahtar": "truganini",
+   "ad": "Truganini",
+   "rol": "Tasmanya Aborijin kadını, son Tasmanyalı sembolü",
+   "dosya": "Truganini.jpg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 183,
+   "boy": 250
+  },
+  {
+   "anahtar": "namatjira",
+   "ad": "Albert Namatjira",
+   "rol": "Aborijin ressam",
+   "dosya": "Albert Namatjira portrait.jpg",
+   "lisans": "Public domain",
+   "yazar": ".",
+   "en": 344,
+   "boy": 499
+  },
+  {
+   "anahtar": "mackillop",
+   "ad": "Mary MacKillop",
+   "rol": "azize, eğitimci",
+   "dosya": "Mary MacKillop.jpg",
+   "lisans": "Public domain",
+   "yazar": "N.N.",
+   "en": 486,
+   "boy": 600
+  },
+  {
+   "anahtar": "cook",
+   "ad": "James Cook",
+   "rol": "kâşif (1770 doğu kıyısı)",
+   "dosya": "Captainjamescookportrait.jpg",
+   "lisans": "Public domain",
+   "yazar": "Nathaniel Dance-Holland",
+   "en": 6131,
+   "boy": 7692,
+   "not": "Nathaniel Dance portresi",
+   "yedek": true
+  },
+  {
+   "anahtar": "menzies",
+   "ad": "Robert Menzies",
+   "rol": "uzun süreli başbakan",
+   "dosya": "Portrait Menzies 1950s.jpg",
+   "lisans": "Public domain",
+   "yazar": "National Library of Australia",
+   "en": 3702,
+   "boy": 4971,
+   "yedek": true
+  },
+  {
+   "anahtar": "macquarie",
+   "ad": "Lachlan Macquarie",
+   "rol": "vali",
+   "dosya": "Ln-Governor-Lachlan macquarie.jpg",
+   "lisans": "Public domain",
+   "yazar": "John Opie?",
+   "en": 820,
+   "boy": 993,
+   "yedek": true
+  },
+  {
+   "anahtar": "mawson",
+   "ad": "Douglas Mawson",
+   "rol": "Antarktika kâşifi",
+   "dosya": "Douglas Mawson.jpg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 212,
+   "boy": 337,
+   "not": "küçük çözünürlük",
+   "yedek": true
+  },
+  {
+   "anahtar": "florey",
+   "ad": "Howard Florey",
+   "rol": "penisilini geliştiren, Nobel",
+   "dosya": "Howard Florey.jpg",
+   "lisans": "CC BY 4.0",
+   "yazar": "Brigadier Sidney Smith",
+   "en": 1468,
+   "boy": 1804,
+   "yedek": true
+  },
+  {
+   "anahtar": "parkes",
+   "ad": "Henry Parkes",
+   "rol": "'federasyonun babası'",
+   "dosya": "Henryparkes.jpg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 467,
+   "boy": 612,
+   "yedek": true
+  }
+ ],
+ "simgeler": [
+  {
+   "anahtar": "AU_bayrak",
+   "ad": "Avustralya bayrağı",
+   "tur": "bayrak",
+   "dosya": "Flag of Australia.svg",
+   "lisans": "Public domain",
+   "yazar": "Original: Ivor Evans, Leslie John Hawkins, Egbert John Nutta",
+   "en": 1280,
+   "boy": 640
+  },
+  {
+   "anahtar": "AU_arma",
+   "ad": "Avustralya arması",
+   "tur": "arma",
+   "dosya": "Coat of arms of the Commonwealth of Australia.svg",
+   "lisans": "Public domain",
+   "yazar": "Sodacan",
+   "en": 512,
+   "boy": 397
+  },
+  {
+   "anahtar": "AU_harita",
+   "ad": "Avustralya Topluluğu · 1914",
+   "tur": "harita",
+   "hb_yil": "1914",
+   "hb_ad": "Australia"
+  },
+  {
+   "anahtar": "AU_aborijin",
+   "ad": "Aborijin bayrağı",
+   "tur": "bayrak",
+   "dosya": "Australian Aboriginal Flag.svg",
+   "lisans": "Copyrighted free use",
+   "yazar": "Original:  Harold Thomas; Vectorization:  Trisreed",
+   "en": 512,
+   "boy": 307,
+   "not": "lisans 'Copyrighted free use' (Commons'ta serbest kullanım)"
+  },
+  {
+   "anahtar": "AU_eureka",
+   "ad": "Eureka bayrağı (1854)",
+   "tur": "bayrak",
+   "dosya": "Eureka Flag.svg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 1000,
+   "boy": 650,
+   "not": "1854 Ballarat ayaklanmasının gerçek sancağı"
+  },
+  {
+   "anahtar": "AU_opera",
+   "ad": "Sidney Opera Binası",
+   "tur": "yapi",
+   "dosya": "Sydney Opera House - Dec 2008.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Diliff",
+   "en": 2544,
+   "boy": 1406
+  },
+  {
+   "anahtar": "AU_uluru",
+   "ad": "Uluru",
+   "tur": "yapi",
+   "dosya": "Uluru (Helicopter view)-crop.jpg",
+   "lisans": "Public domain",
+   "yazar": "User:Huntster",
+   "en": 2025,
+   "boy": 953,
+   "not": "doğal anıt"
+  },
+  {
+   "anahtar": "AU_bridge",
+   "ad": "Sidney Liman Köprüsü",
+   "tur": "yapi",
+   "dosya": "Sydney Harbour Bridge from Circular Quay.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "en": 4832,
+   "boy": 2202
+  },
+  {
+   "anahtar": "AU_parlamento",
+   "ad": "Birinci Federal Parlamento'nun açılışı (1901)",
+   "tur": "eser",
+   "dosya": "Opening of the first parliament.jpg",
+   "lisans": "Public domain",
+   "yazar": "Tom Roberts",
+   "en": 1200,
+   "boy": 718,
+   "not": "Tom Roberts tablosu"
+  },
+  {
+   "anahtar": "AU_reef",
+   "ad": "Büyük Set Resifi",
+   "tur": "yapi",
+   "dosya": "Great Barrier Reef Queensland Ank Kumar.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Ank Kumar",
+   "en": 6000,
+   "boy": 4000,
+   "not": "doğal anıt"
+  }
+ ]
+}

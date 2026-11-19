@@ -1,0 +1,205 @@
+{
+ "kod": "NL",
+ "ad": "Hollanda",
+ "kisiler": [
+  {
+   "anahtar": "rembrandt",
+   "ad": "Rembrandt",
+   "rol": "ressam",
+   "mevcut": "rembrandt"
+  },
+  {
+   "anahtar": "willem",
+   "ad": "Sessiz Willem (Orange)",
+   "rol": "devlet adamı, komutan",
+   "dosya": "Portrait of William of Orange in armour (Anthonis Mor).jpg",
+   "lisans": "Public domain",
+   "yazar": "Antonis Mor",
+   "en": 1586,
+   "boy": 2048,
+   "not": "Anthonis Mor"
+  },
+  {
+   "anahtar": "vangogh",
+   "ad": "Vincent van Gogh",
+   "rol": "ressam",
+   "dosya": "Vincent van Gogh - Self-Portrait - Google Art Project.jpg",
+   "lisans": "Public domain",
+   "yazar": "Vincent van Gogh",
+   "en": 3142,
+   "boy": 3820
+  },
+  {
+   "anahtar": "spinoza",
+   "ad": "Spinoza",
+   "rol": "filozof",
+   "dosya": "Spinoza.jpg",
+   "lisans": "Public domain",
+   "yazar": "anonymous",
+   "en": 1377,
+   "boy": 1600
+  },
+  {
+   "anahtar": "erasmus",
+   "ad": "Erasmus",
+   "rol": "hümanist, filozof",
+   "dosya": "Holbein-erasmus.jpg",
+   "lisans": "Public domain",
+   "yazar": "Hans Holbein the Younger",
+   "en": 1618,
+   "boy": 2290
+  },
+  {
+   "anahtar": "huygens",
+   "ad": "Christiaan Huygens",
+   "rol": "bilim insanı",
+   "dosya": "Christiaan Huygens-painting.jpeg",
+   "lisans": "Public domain",
+   "yazar": "Caspar Netscher",
+   "en": 1682,
+   "boy": 2204
+  },
+  {
+   "anahtar": "ruyter",
+   "ad": "Michiel de Ruyter",
+   "rol": "amiral",
+   "dosya": "Michiel de Ruyter.jpg",
+   "lisans": "Public domain",
+   "yazar": "Hugo Allardt",
+   "en": 1270,
+   "boy": 1680
+  },
+  {
+   "anahtar": "grotius",
+   "ad": "Hugo Grotius",
+   "rol": "hukukçu",
+   "dosya": "Hugo Grotius.jpg",
+   "lisans": "CC BY-SA 2.5",
+   "yazar": "Tenar80",
+   "en": 768,
+   "boy": 1024
+  },
+  {
+   "anahtar": "leeuwenhoek",
+   "ad": "Antonie van Leeuwenhoek",
+   "rol": "bilim insanı",
+   "dosya": "Antoni van Leeuwenhoek.png",
+   "lisans": "Public domain",
+   "yazar": "J. Verkolje",
+   "en": 379,
+   "boy": 435
+  },
+  {
+   "anahtar": "dewitt",
+   "ad": "Johan de Witt",
+   "rol": "devlet adamı",
+   "dosya": "Johan de Witt.jpg",
+   "lisans": "Public domain",
+   "yazar": "The original uploader was Dr. Manuel at German Wikipedia.",
+   "en": 485,
+   "boy": 677
+  },
+  {
+   "anahtar": "wilhelmina",
+   "ad": "Kraliçe Wilhelmina",
+   "rol": "hükümdar",
+   "dosya": "Wilhelmina of the Netherlands.jpg",
+   "lisans": "Public domain",
+   "yazar": "Herman Deutmann",
+   "en": 377,
+   "boy": 631,
+   "not": "eski fotoğraf, çözünürlük düşük (377x631)"
+  }
+ ],
+ "simgeler": [
+  {
+   "anahtar": "NL_bayrak",
+   "ad": "Hollanda bayrağı",
+   "tur": "bayrak",
+   "mevcut": "NLD"
+  },
+  {
+   "anahtar": "NL_voc",
+   "ad": "VOC damgası",
+   "tur": "muhur",
+   "mevcut": "hol"
+  },
+  {
+   "anahtar": "NL_arma",
+   "ad": "Hollanda arması",
+   "tur": "arma",
+   "dosya": "Royal Coat of Arms of the Netherlands.svg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Sodacan",
+   "en": 952,
+   "boy": 1045
+  },
+  {
+   "anahtar": "NL_nachtwacht",
+   "ad": "Gece Nöbeti",
+   "tur": "eser",
+   "dosya": "The Night Watch - HD.jpg",
+   "lisans": "Public domain",
+   "yazar": "Rembrandt",
+   "en": 57813,
+   "boy": 48438
+  },
+  {
+   "anahtar": "NL_inci",
+   "ad": "İnci Küpeli Kız",
+   "tur": "eser",
+   "dosya": "Meisje met de parel.jpg",
+   "lisans": "Public domain",
+   "yazar": "Johannes Vermeer",
+   "en": 4095,
+   "boy": 4794
+  },
+  {
+   "anahtar": "NL_kinderdijk",
+   "ad": "Kinderdijk yel değirmenleri",
+   "tur": "yapi",
+   "dosya": "Kinderdijk windmills.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Nachosan",
+   "en": 11762,
+   "boy": 1455,
+   "not": "panorama 8:1 — kırpma gerekir"
+  },
+  {
+   "anahtar": "NL_rijks",
+   "ad": "Rijksmuseum",
+   "tur": "yapi",
+   "dosya": "Rijksmuseum Amsterdam.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Markus Würfel",
+   "en": 2468,
+   "boy": 1314
+  },
+  {
+   "anahtar": "NL_kanal",
+   "ad": "Amsterdam kanalları",
+   "tur": "yapi",
+   "dosya": "Amsterdam Canals.jpg",
+   "lisans": "CC BY 2.0",
+   "yazar": "miketnorton",
+   "en": 4368,
+   "boy": 2912
+  },
+  {
+   "anahtar": "NL_aycicegi",
+   "ad": "Van Gogh Ay Çiçekleri",
+   "tur": "eser",
+   "dosya": "Vincent Willem van Gogh 127.jpg",
+   "lisans": "Public domain",
+   "yazar": "Vincent van Gogh",
+   "en": 3349,
+   "boy": 4226
+  },
+  {
+   "anahtar": "NL_harita",
+   "ad": "Hollanda Sömürge İmparatorluğu · 1700",
+   "tur": "harita",
+   "mevcut": "hol"
+  }
+ ]
+}

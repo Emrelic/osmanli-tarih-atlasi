@@ -1,0 +1,220 @@
+{
+ "kod": "IQ",
+ "ad": "Irak · Mezopotamya",
+ "kisiler": [
+  {
+   "anahtar": "hammurabi",
+   "ad": "Hammurabi",
+   "rol": "Babil kralı, kanun koyucu",
+   "dosya": "F0182 Louvre Code Hammourabi Bas-relief Sb8 rwk.jpg",
+   "lisans": "CC BY 3.0",
+   "yazar": "Mbzt",
+   "en": 3170,
+   "boy": 3500,
+   "not": "Hammurabi Kanunu steli üstündeki kabartma (Louvre)"
+  },
+  {
+   "anahtar": "faysal1",
+   "ad": "I. Faysal",
+   "rol": "Irak kralı",
+   "dosya": "Faisal I of Iraq by Laszlo.jpg",
+   "lisans": "Public domain",
+   "yazar": "Philip de László",
+   "en": 797,
+   "boy": 1000,
+   "not": "Philip de László portresi"
+  },
+  {
+   "anahtar": "mansur",
+   "ad": "Halife el-Mansûr",
+   "rol": "Abbâsî halifesi, Bağdat'ın kurucusu",
+   "dosya": "Abbāsid Caliph al-Manṣūr from the genealogy (silsilanāma), Cream of Histories (Zübdet-üt Tevarih, 1598).jpg",
+   "lisans": "Public domain",
+   "yazar": "1598 author",
+   "en": 1350,
+   "boy": 962,
+   "not": "Osmanlı Zübdetü't-Tevârîh minyatürü (1598)"
+  },
+  {
+   "anahtar": "ibnheysem",
+   "ad": "İbnü'l-Heysem",
+   "rol": "bilim insanı, optik",
+   "dosya": "Ibn al-Haytham crop.jpg",
+   "lisans": "Public domain",
+   "yazar": "Adolph Boÿ, engraved by Jeremias Falck. Used as the frontispiece to Johannes Hev",
+   "en": 710,
+   "boy": 939,
+   "not": "Adolph Boÿ gravürü"
+  },
+  {
+   "anahtar": "asurbanipal",
+   "ad": "Asurbanipal",
+   "rol": "Asur kralı, kütüphane kurucusu",
+   "dosya": "AshurbanipalKingOfAssyria.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "KeyolTranslater",
+   "en": 600,
+   "boy": 800
+  },
+  {
+   "anahtar": "gudea",
+   "ad": "Gudea",
+   "rol": "Lagaş şehir-kralı",
+   "dosya": "Gudea of Lagash Girsu.jpg",
+   "lisans": "Public domain",
+   "yazar": "Jastrow",
+   "en": 2600,
+   "boy": 3900,
+   "not": "kendi devrinin heykeli (Louvre)"
+  },
+  {
+   "anahtar": "enheduanna",
+   "ad": "Enheduanna",
+   "rol": "rahibe, ilk bilinen şair",
+   "dosya": "Enheduanna, daughter of Sargon of Akkad.jpg",
+   "lisans": "CC0",
+   "yazar": "Mefman00",
+   "en": 1138,
+   "boy": 2044,
+   "not": "Enheduanna kireçtaşı diski",
+   "cikar": "kabartma seçilemiyor"
+  },
+  {
+   "anahtar": "asurnasirpal",
+   "ad": "II. Asurnasirpal",
+   "rol": "Asur kralı",
+   "dosya": "Ashurnasipal with official.jpg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 1484,
+   "boy": 1500,
+   "not": "Nimrud kabartması"
+  },
+  {
+   "anahtar": "gertrudebell",
+   "ad": "Gertrude Bell",
+   "rol": "arkeolog, Irak devletinin kurucu danışmanı",
+   "dosya": "BellK 218 Gertrude Bell in Iraq in 1909 age 41.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "en": 2000,
+   "boy": 2647,
+   "not": "dönem fotoğrafı",
+   "kirp": [
+    5.2,
+    1.9,
+    0.1
+   ]
+  },
+  {
+   "anahtar": "saddam",
+   "ad": "Saddam Hüseyin",
+   "rol": "devlet başkanı (tartışmalı)",
+   "dosya": "Saddam Hussein 1979.jpg",
+   "lisans": "Public domain",
+   "yazar": "INA (Iraqi News Agency)",
+   "en": 780,
+   "boy": 1098,
+   "not": "tartışmalı; listenin sonunda"
+  }
+ ],
+ "simgeler": [
+  {
+   "anahtar": "IQ_bayrak",
+   "ad": "Irak bayrağı",
+   "tur": "bayrak",
+   "dosya": "Flag of Iraq.svg",
+   "lisans": "Public domain",
+   "yazar": "See File history below for details.",
+   "en": 900,
+   "boy": 600
+  },
+  {
+   "anahtar": "IQ_arma",
+   "ad": "Irak arması",
+   "tur": "arma",
+   "dosya": "Coat of arms of Iraq.svg",
+   "lisans": "Public domain",
+   "yazar": "Tonyjeff, Omar86, Kafka1  and  AnonMoos; AnonMoos, Militaryace",
+   "en": 570,
+   "boy": 787
+  },
+  {
+   "anahtar": "abb",
+   "ad": "Abbâsîler · 800",
+   "tur": "harita",
+   "mevcut": "abb"
+  },
+  {
+   "anahtar": "IQ_harita",
+   "ad": "Asur İmparatorluğu · MÖ 700",
+   "tur": "harita",
+   "hb_yil": "bc700",
+   "hb_ad": "Assyria"
+  },
+  {
+   "anahtar": "IQ_istar",
+   "ad": "İştar Kapısı",
+   "tur": "yapi",
+   "dosya": "Berlín, Museo de Pérgamo 05.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "LBM1948",
+   "en": 3628,
+   "boy": 2256,
+   "not": "Pergamon Müzesi'ndeki yeniden kuruluş"
+  },
+  {
+   "anahtar": "IQ_kanun",
+   "ad": "Hammurabi Kanunu steli",
+   "tur": "eser",
+   "dosya": "P1050763 Louvre code Hammurabi face rwk.JPG",
+   "lisans": "CC BY 3.0",
+   "yazar": "Mbzt",
+   "en": 1215,
+   "boy": 2000,
+   "not": "Louvre"
+  },
+  {
+   "anahtar": "IQ_ur",
+   "ad": "Ur Zigguratı",
+   "tur": "yapi",
+   "dosya": "Ziggarat of Ur 001.jpg",
+   "lisans": "Public domain",
+   "yazar": "Tla2006 at English Wikipedia",
+   "en": 3366,
+   "boy": 1468
+  },
+  {
+   "anahtar": "IQ_malviye",
+   "ad": "Samarra Ulu Camii · Malviye Minaresi",
+   "tur": "yapi",
+   "dosya": "Samrraa 05.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Fakhri Mahmood",
+   "en": 6000,
+   "boy": 4000
+  },
+  {
+   "anahtar": "IQ_tak",
+   "ad": "Tak-ı Kisrâ (Ktesifon)",
+   "tur": "yapi",
+   "dosya": "001125-TaqKasra-Iraq-IMG 7914-2.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Safa.daneshvar",
+   "en": 4500,
+   "boy": 3000,
+   "not": "Sâsânî sarayı"
+  },
+  {
+   "anahtar": "IQ_ur_standart",
+   "ad": "Ur Standardı",
+   "tur": "eser",
+   "dosya": "Denis Bourez - British Museum, London (8747049029) (2).jpg",
+   "lisans": "CC BY 2.0",
+   "yazar": "Denis Bourez from France",
+   "en": 4288,
+   "boy": 3216,
+   "not": "British Museum"
+  }
+ ]
+}

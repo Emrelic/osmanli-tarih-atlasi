@@ -83,6 +83,9 @@ veri-kaynak/historical-basemaps/
 veri-kaynak/acilis-portre/
 veri-kaynak/acilis-amblem/
 veri-kaynak/acilis-tablo/
+# Millet paketleri (ACILIS-ULKE-1119): katalog JSON'ları takipli, Commons görsel önbelleği
+# (~113 MB) değil — `py arac/acilis_millet.py` yeniden indirir.
+veri-kaynak/acilis-katalog/img/
 
 # ── denetim/ ÖNBELLEKLERİ — üretilmiş, yeniden üretilebilir ──────────
 # 🔴 Ve buraya YAZILMALARININ sebebi boyut değil GÖRÜNÜRLÜK:

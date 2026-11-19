@@ -1,0 +1,233 @@
+{
+ "kod": "ID",
+ "ad": "Endonezya",
+ "kisiler": [
+  {
+   "anahtar": "sukarno",
+   "ad": "Sukarno",
+   "rol": "kurucu, ilk cumhurbaşkanı",
+   "dosya": "Presiden Sukarno.jpg",
+   "lisans": "Public domain",
+   "yazar": "Onbekend/Anonymous",
+   "en": 3156,
+   "boy": 4557
+  },
+  {
+   "anahtar": "hatta",
+   "ad": "Muhammed Hatta",
+   "rol": "ilk başkan yardımcısı",
+   "dosya": "Mohammad Hatta.jpg",
+   "lisans": "Public domain",
+   "yazar": "Direktorat Jenderal Kekayaan Negara Kementerian Keuangan Rep",
+   "en": 965,
+   "boy": 1280
+  },
+  {
+   "anahtar": "diponegoro",
+   "ad": "Prens Diponegoro",
+   "rol": "Java Savaşı önderi",
+   "dosya": "Diponegoro.jpg",
+   "lisans": "Public domain",
+   "yazar": "Lithograph by C. C. A. Last in 1835 to an original pencil dr",
+   "en": 750,
+   "boy": 996,
+   "not": "1835 litografisi, kalem çizimden",
+   "kirp": [
+    4.8,
+    2.8,
+    0.14
+   ]
+  },
+  {
+   "anahtar": "kartini",
+   "ad": "R. A. Kartini",
+   "rol": "kadın hakları öncüsü",
+   "dosya": "COLLECTIE TROPENMUSEUM Portret van Raden Ajeng Kartini TMnr 10018776.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "fotografer tidak diketahui.",
+   "en": 534,
+   "boy": 700,
+   "not": "Tropenmuseum fotoğrafı"
+  },
+  {
+   "anahtar": "radensaleh",
+   "ad": "Raden Saleh",
+   "rol": "ressam",
+   "dosya": "Raden Saleh.jpg",
+   "lisans": "Public domain",
+   "yazar": "Attributed to Friedrich Carl Albert Schreuel / Attributed to",
+   "en": 4766,
+   "boy": 6060
+  },
+  {
+   "anahtar": "cutnyakdhien",
+   "ad": "Cut Nyak Dhien",
+   "rol": "Açe direniş önderi",
+   "dosya": "Cut Nyak Dhien portrait.jpg",
+   "lisans": "Public domain",
+   "yazar": "Bank of Indonesia",
+   "en": 810,
+   "boy": 945
+  },
+  {
+   "anahtar": "kihajar",
+   "ad": "Ki Hajar Dewantara",
+   "rol": "eğitimci",
+   "dosya": "Ki Hajar Dewantara colored.jpg",
+   "lisans": "Public domain",
+   "yazar": "\"Sjarat Mutlak Bagi Pendidikan: Kemerdekaan Nasional\" Mimbar",
+   "en": 739,
+   "boy": 1124
+  },
+  {
+   "anahtar": "sultanagung",
+   "ad": "Sultan Agung",
+   "rol": "Mataram sultanı",
+   "dosya": "Anyakrakusuma of Mataram.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Basuki Bawono",
+   "en": 720,
+   "boy": 868,
+   "not": "sonradan yapılmış resim; Commons CC BY-SA 3.0"
+  },
+  {
+   "anahtar": "gajahmada",
+   "ad": "Gajah Mada",
+   "rol": "Majapahit başvezir",
+   "dosya": "Gajah-Mada.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Gunawan Kartapranata (talk)",
+   "en": 604,
+   "boy": 666,
+   "not": "hayalî çizim (portre kalmamıştır); düşük öncelik"
+  },
+  {
+   "anahtar": "suharto",
+   "ad": "Suharto",
+   "rol": "ikinci cumhurbaşkanı",
+   "dosya": "President Suharto, 1993.jpg",
+   "lisans": "Public domain",
+   "yazar": "State Secretariat of the Republic of Indonesia",
+   "en": 1200,
+   "boy": 1537,
+   "not": "tartışmalı; sona konuldu"
+  },
+  {
+   "anahtar": "hasanuddin",
+   "ad": "Sultan Hasanuddin",
+   "rol": "Gova sultanı (ek)",
+   "dosya": "Sultan Hasanuddin.jpg",
+   "lisans": "Public domain",
+   "yazar": "Ahmad.baddawi",
+   "en": 273,
+   "boy": 375,
+   "not": "küçük çözünürlük"
+  }
+ ],
+ "simgeler": [
+  {
+   "anahtar": "ID_bayrak",
+   "ad": "Endonezya bayrağı",
+   "tur": "bayrak",
+   "mevcut": "IDN"
+  },
+  {
+   "anahtar": "ID_arma",
+   "ad": "Garuda Pancasila (devlet arması)",
+   "tur": "arma",
+   "dosya": "National emblem of Indonesia Garuda Pancasila.svg",
+   "lisans": "Public domain",
+   "yazar": "Gunawan Kartapranata",
+   "en": 512,
+   "boy": 550
+  },
+  {
+   "anahtar": "ID_surya",
+   "ad": "Surya Majapahit (Majapahit güneşi)",
+   "tur": "arma",
+   "dosya": "Surya Majapahit.svg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "RaphaelQS",
+   "en": 261,
+   "boy": 262
+  },
+  {
+   "anahtar": "ID_harita",
+   "ad": "Srivijaya İmparatorluğu · 1000",
+   "tur": "harita",
+   "hb_yil": "1000",
+   "hb_ad": "Srivijaya Empire"
+  },
+  {
+   "anahtar": "ID_borobudur",
+   "ad": "Borobudur",
+   "tur": "yapi",
+   "dosya": "Borobudur-Nothwest-view.jpg",
+   "lisans": "Public domain",
+   "yazar": "Gunawan Kartapranata",
+   "en": 2816,
+   "boy": 1108
+  },
+  {
+   "anahtar": "ID_prambanan",
+   "ad": "Prambanan",
+   "tur": "yapi",
+   "dosya": "Yogyakarta Indonesia Prambanan-temple-complex-02.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "CEphoto, Uwe Aranas",
+   "en": 5703,
+   "boy": 2658
+  },
+  {
+   "anahtar": "ID_monas",
+   "ad": "Ulusal Anıt (Monas)",
+   "tur": "yapi",
+   "dosya": "Monumen Nasional, Jakarta, Indonesia.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Ramayoni",
+   "en": 4160,
+   "boy": 2352
+  },
+  {
+   "anahtar": "ID_ulundanu",
+   "ad": "Pura Ulun Danu Bratan (Bali)",
+   "tur": "yapi",
+   "dosya": "Brantan Bali Pura-Ulun-Danu-Bratan-01.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "CEphoto, Uwe Aranas",
+   "en": 5097,
+   "boy": 3398
+  },
+  {
+   "anahtar": "ID_diponegoro",
+   "ad": "Diponegoro'nun Tutuklanması (Raden Saleh)",
+   "tur": "eser",
+   "dosya": "Raden Saleh - Diponegoro arrest.jpg",
+   "lisans": "Public domain",
+   "yazar": "Raden Saleh",
+   "en": 5255,
+   "boy": 3307
+  },
+  {
+   "anahtar": "ID_bromo",
+   "ad": "Bromo Yanardağı",
+   "tur": "diger",
+   "dosya": "Mount Bromo, Java, Indonesia, 20220820 0611 9485.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Jakub Hałun",
+   "en": 5087,
+   "boy": 3396
+  },
+  {
+   "anahtar": "ID_tanahlot",
+   "ad": "Tanah Lot (Bali)",
+   "tur": "yapi",
+   "dosya": "Tanah Lot, Bali, Indonesia, 20220827 1008 1159.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Jakub Hałun",
+   "en": 5854,
+   "boy": 3908,
+   "ek": true
+  }
+ ]
+}

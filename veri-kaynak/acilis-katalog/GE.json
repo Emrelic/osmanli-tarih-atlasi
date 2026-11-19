@@ -1,0 +1,216 @@
+{
+ "kod": "GE",
+ "ad": "Gürcistan",
+ "kisiler": [
+  {
+   "anahtar": "tamar",
+   "ad": "Kraliçe Tamar",
+   "rol": "kraliçe, Altın Çağ",
+   "dosya": "Betania Monastery, Tamar.jpg",
+   "lisans": "Public domain",
+   "yazar": "13th century painter",
+   "en": 2805,
+   "boy": 5142,
+   "not": "Betania Manastırı freski (13. yy)"
+  },
+  {
+   "anahtar": "davit4",
+   "ad": "IV. David (İnşaatçı)",
+   "rol": "kral",
+   "dosya": "David IV, detail from icon, St. Catherine Monastery.jpg",
+   "lisans": "Public domain",
+   "yazar": "Certain types of Egyptian works (official document",
+   "en": 616,
+   "boy": 919,
+   "not": "Gelati/Aziz Katerina ikonu detayı"
+  },
+  {
+   "anahtar": "rustaveli",
+   "ad": "Şota Rustaveli",
+   "rol": "şair",
+   "dosya": "Shota Rustaveli fresco in the Monastery of the Cross in Jerusalem.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "DerFuchs",
+   "en": 2218,
+   "boy": 2876,
+   "not": "Kudüs Haç Manastırı freski"
+  },
+  {
+   "anahtar": "erekle2",
+   "ad": "II. Erekle",
+   "rol": "Kartli-Kaheti kralı",
+   "dosya": "Heraclius II of Eastern Georgia crop.png",
+   "lisans": "Public domain",
+   "yazar": "UnknownUnknown \nderivative work: Carnby",
+   "en": 680,
+   "boy": 954,
+   "not": "portre"
+  },
+  {
+   "anahtar": "pirosmani",
+   "ad": "Niko Pirosmani",
+   "rol": "ressam",
+   "dosya": "Niko Pirosmani 1916.jpg",
+   "lisans": "Public domain",
+   "yazar": "Eduard Klar, 1861-1922\n\nfirst upload in de wikiped",
+   "en": 975,
+   "boy": 1200,
+   "not": "1916 fotoğrafı"
+  },
+  {
+   "anahtar": "ilia",
+   "ad": "İlia Çavçavadze",
+   "rol": "yazar, ulusal önder",
+   "dosya": "Ilia Tchavtchavadze.jpg",
+   "lisans": "Public domain",
+   "yazar": "Bilinmeyen",
+   "en": 800,
+   "boy": 1108,
+   "not": "fotoğraf"
+  },
+  {
+   "anahtar": "akaki",
+   "ad": "Akaki Tsereteli",
+   "rol": "şair",
+   "dosya": "Akaki Tsereteli in 1900s.png",
+   "lisans": "Public domain",
+   "yazar": "Unknown",
+   "en": 1498,
+   "boy": 2000,
+   "not": "1900'ler fotoğrafı"
+  },
+  {
+   "anahtar": "zhordania",
+   "ad": "Noe Jordania",
+   "rol": "Gürcistan Cumhuriyeti (1918) başkanı",
+   "dosya": "ნ. ჟორდანია.jpg",
+   "lisans": "Public domain",
+   "yazar": "Bilinmeyen",
+   "en": 775,
+   "boy": 1107,
+   "not": "fotoğraf"
+  },
+  {
+   "anahtar": "stalin",
+   "ad": "Stalin",
+   "rol": "Gürcü asıllı Sovyet lideri",
+   "mevcut": "stalin"
+  },
+  {
+   "anahtar": "balanchine",
+   "ad": "George Balanchine",
+   "rol": "koreograf (Gürcü asıllı)",
+   "dosya": "George Balanchine (1965).jpg",
+   "lisans": "CC BY-SA 3.0 nl",
+   "yazar": "Jack de Nijs for Anefo  / Anefo",
+   "en": 1095,
+   "boy": 1460,
+   "not": "1965 fotoğrafı; CC BY-SA 3.0 nl",
+   "kirp": [
+    4.9,
+    3.6,
+    0.3
+   ]
+  }
+ ],
+ "simgeler": [
+  {
+   "anahtar": "GE_bayrak",
+   "ad": "Gürcistan bayrağı",
+   "tur": "bayrak",
+   "dosya": "Flag of Georgia.svg",
+   "lisans": "Public domain",
+   "yazar": "Last update by MapGrid\n\nSKopp",
+   "en": 900,
+   "boy": 600
+  },
+  {
+   "anahtar": "GE_arma",
+   "ad": "Gürcistan arması",
+   "tur": "arma",
+   "dosya": "Coat of arms of Georgia.svg",
+   "lisans": "Public domain",
+   "yazar": "Mamuka Gongadze; SVG creator Vakhtang Jokhadze fro",
+   "en": 556,
+   "boy": 485
+  },
+  {
+   "anahtar": "GE_svetitskhoveli",
+   "ad": "Svetitskhoveli Katedrali",
+   "tur": "yapi",
+   "dosya": "Svetitskhoveli Cathedral 09.23 (3).jpg",
+   "lisans": "CC BY 4.0",
+   "yazar": "This Photo was taken by Supanut Arunoprayote.\n\nFee",
+   "en": 6532,
+   "boy": 4355
+  },
+  {
+   "anahtar": "GE_gelati",
+   "ad": "Gelati Manastırı",
+   "tur": "yapi",
+   "dosya": "Gelati Monastery 1.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Ihor Burliai",
+   "en": 1200,
+   "boy": 846
+  },
+  {
+   "anahtar": "GE_ananuri",
+   "ad": "Ananuri Kalesi",
+   "tur": "yapi",
+   "dosya": "Georgian Fortress Ananuri.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Vadim Tolbatov",
+   "en": 2048,
+   "boy": 1308
+  },
+  {
+   "anahtar": "GE_narikala",
+   "ad": "Narikala Kalesi (Tiflis)",
+   "tur": "yapi",
+   "dosya": "Tbilisi IMG 8846 1920.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Alexxx1979",
+   "en": 3421,
+   "boy": 1920
+  },
+  {
+   "anahtar": "GE_vardzia",
+   "ad": "Vardzia Mağara Şehri",
+   "tur": "yapi",
+   "dosya": "2025-05-25 Vardzia 9.jpg",
+   "lisans": "CC BY 4.0",
+   "yazar": "Alexkom000",
+   "en": 4934,
+   "boy": 3290
+  },
+  {
+   "anahtar": "GE_gergeti",
+   "ad": "Gergeti Teslis Kilisesi",
+   "tur": "yapi",
+   "dosya": "Gergeti Trinity Church 09.23.jpg",
+   "lisans": "CC BY 4.0",
+   "yazar": "This Photo was taken by Supanut Arunoprayote.\n\nFee",
+   "en": 6520,
+   "boy": 4347
+  },
+  {
+   "anahtar": "GE_bagrati",
+   "ad": "Bagrati Katedrali",
+   "tur": "yapi",
+   "dosya": "2014 Kutaisi, Katedra Bagrati (19).jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Marcin Konsek",
+   "en": 4752,
+   "boy": 3168
+  },
+  {
+   "anahtar": "GE_harita",
+   "ad": "Gürcistan Krallığı · 1200",
+   "tur": "harita",
+   "hb_yil": "1200",
+   "hb_ad": "Georgia",
+   "not": "Tamar dönemi"
+  }
+ ]
+}

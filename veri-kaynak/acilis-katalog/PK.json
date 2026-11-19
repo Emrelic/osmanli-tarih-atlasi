@@ -1,0 +1,248 @@
+{
+ "kod": "PK",
+ "ad": "Pakistan",
+ "kisiler": [
+  {
+   "anahtar": "jinnah",
+   "ad": "Muhammed Ali Cinnah",
+   "rol": "kurucu, Kâid-i Azam",
+   "dosya": "Muhammad Ali Jinnah.jpg",
+   "lisans": "Public domain",
+   "yazar": "Ministry of Information &amp; Broadcasting, Government of Pa",
+   "en": 1400,
+   "boy": 1860,
+   "not": "resmî portre"
+  },
+  {
+   "anahtar": "iqbal",
+   "ad": "Muhammed İkbal",
+   "rol": "şair, filozof",
+   "dosya": "Allama Iqbal.jpg",
+   "lisans": "Public domain",
+   "yazar": "Lady Ottoline Morrell",
+   "en": 999,
+   "boy": 768,
+   "not": "1935 fotoğraf (Ottoline Morrell)",
+   "eski_dosya": "Sir Muhammad Iqbal 1935 by Lady Ottoline Morrell.png"
+  },
+  {
+   "anahtar": "liaquat",
+   "ad": "Liyakat Ali Han",
+   "rol": "ilk başbakan",
+   "dosya": "Liaquat Ali Khan, Prime minister portrait.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "en": 714,
+   "boy": 1024
+  },
+  {
+   "anahtar": "salam",
+   "ad": "Abdüsselam",
+   "rol": "fizikçi, Nobel ödüllü",
+   "dosya": "Abdus Salam 1987 (cropped).jpg",
+   "lisans": "CC BY-SA 3.0 nl",
+   "yazar": "Molendijk, Bart / Anefo",
+   "en": 1383,
+   "boy": 1711,
+   "kirp": [
+    3.0,
+    3.0,
+    0.35
+   ]
+  },
+  {
+   "anahtar": "seyyidahmed",
+   "ad": "Seyyid Ahmed Han",
+   "rol": "eğitimci, düşünür",
+   "dosya": "Sir Syed Ahmad Khan.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Sufe",
+   "en": 2741,
+   "boy": 3220,
+   "not": "Hindistan ile ortak"
+  },
+  {
+   "anahtar": "edhi",
+   "ad": "Abdüssettar Edhi",
+   "rol": "hayırsever",
+   "dosya": "Abdul Sattar Edhi.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Hussain",
+   "en": 1856,
+   "boy": 2784
+  },
+  {
+   "anahtar": "ranjitsingh",
+   "ad": "Ranjit Singh",
+   "rol": "Sih hükümdarı (Lahor)",
+   "dosya": "Maharaja Ranjit Singh portrait.jpg",
+   "lisans": "Public domain",
+   "yazar": "AnonymousUnknown author",
+   "en": 2040,
+   "boy": 3256,
+   "not": "dönem portresi; Hindistan ile ortak",
+   "kirp": [
+    4.6,
+    2.5,
+    0.15
+   ]
+  },
+  {
+   "anahtar": "jauhar",
+   "ad": "Muhammed Ali Cevher",
+   "rol": "Hilâfet Hareketi önderi",
+   "dosya": "1920 Mohammad Ali Jauhar.jpg",
+   "lisans": "Public domain",
+   "yazar": "Auguste Léon",
+   "en": 1181,
+   "boy": 1575,
+   "not": "1920 Auguste Léon fotoğrafı; Hindistan ile ortak"
+  },
+  {
+   "anahtar": "bhutto",
+   "ad": "Zülfikar Ali Butto",
+   "rol": "devlet adamı",
+   "dosya": "Zulfikar Ali Bhutto Portrait.jpg",
+   "lisans": "Public domain",
+   "yazar": "Bernard Gotfryd",
+   "en": 656,
+   "boy": 932,
+   "not": "tartışmalı; sona yakın"
+  },
+  {
+   "anahtar": "benazir",
+   "ad": "Benazir Butto",
+   "rol": "başbakan, İslam dünyasının ilk kadın başbakanı",
+   "dosya": "Oliver Mark - Benazir Bhutto, Dubai 2006 (cropped).jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "",
+   "en": 1392,
+   "boy": 1737
+  }
+ ],
+ "simgeler": [
+  {
+   "anahtar": "PK_bayrak",
+   "ad": "Pakistan bayrağı",
+   "tur": "bayrak",
+   "mevcut": "PAK"
+  },
+  {
+   "anahtar": "PK_arma",
+   "ad": "Pakistan devlet arması",
+   "tur": "arma",
+   "dosya": "Emblem of Pakistan.svg",
+   "lisans": "Public domain",
+   "yazar": "Meraj Muhammad",
+   "en": 512,
+   "boy": 587
+  },
+  {
+   "anahtar": "PK_harita",
+   "ad": "Kuşan İmparatorluğu · 100 (Gandhara)",
+   "tur": "harita",
+   "hb_yil": "100",
+   "hb_ad": "Kushan Empire"
+  },
+  {
+   "anahtar": "PK_badshahi",
+   "ad": "Badşahi Camii (Lahor)",
+   "tur": "yapi",
+   "dosya": "Badshahi mosque of Lahore, Pakistan.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Zapata1000",
+   "en": 2558,
+   "boy": 1692
+  },
+  {
+   "anahtar": "PK_mohenjo",
+   "ad": "Mohenjo-Daro Büyük Hamam",
+   "tur": "yapi",
+   "dosya": "Great Bath of Mohenjo-daro.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Soban",
+   "en": 5184,
+   "boy": 3456
+  },
+  {
+   "anahtar": "PK_faisal",
+   "ad": "Faysal Camii (İslamabad)",
+   "tur": "yapi",
+   "dosya": "National Faisal Mosque Islamabad.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Marsmux",
+   "en": 4377,
+   "boy": 2918
+  },
+  {
+   "anahtar": "PK_lahorkalesi",
+   "ad": "Lahor Kalesi, Alamgiri Kapısı",
+   "tur": "yapi",
+   "dosya": "Alamgiri Gate of Lahore Fort 2024.jpg",
+   "lisans": "CC0",
+   "yazar": "ほっきー",
+   "en": 4032,
+   "boy": 3024
+  },
+  {
+   "anahtar": "PK_mazar",
+   "ad": "Kâid-i Azam Türbesi (Karaçi)",
+   "tur": "yapi",
+   "dosya": "Mazar-e-Quaid, or Jinnah Mausoleum in Karachi, Pakistan.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Jan Kranendonk (https://www.jankranendonk.nl)",
+   "en": 2816,
+   "boy": 1872
+  },
+  {
+   "anahtar": "PK_dansci",
+   "ad": "Mohenjo-Daro Dansçı Kız",
+   "tur": "eser",
+   "dosya": "Dancing girl of Mohenjo-daro.jpg",
+   "lisans": "CC0",
+   "yazar": "Gary Todd",
+   "en": 2257,
+   "boy": 3518
+  },
+  {
+   "anahtar": "PK_gandhara",
+   "ad": "Gandhara oturan Buda (Swat)",
+   "tur": "eser",
+   "dosya": "Labit - Sitting Buddha meditating - Swat Valley, Gandhara, Pakistan D. 70.1.2.jpg",
+   "lisans": "Public domain",
+   "yazar": "Didier Descouens",
+   "en": 5610,
+   "boy": 7833
+  },
+  {
+   "anahtar": "PK_shalimar",
+   "ad": "Şalimar Bahçeleri (Lahor)",
+   "tur": "yapi",
+   "dosya": "Shalimar Gardens @ Lahore (15624811212).jpg",
+   "lisans": "CC BY 2.0",
+   "yazar": "Guilhem Vellut from Annecy, France",
+   "en": 2976,
+   "boy": 3968,
+   "ek": true
+  },
+  {
+   "anahtar": "PK_rahip",
+   "ad": "Mohenjo-Daro Rahip-Kral",
+   "tur": "eser",
+   "dosya": "Mohenjo-daro Priesterkönig cropped.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Mamoon Mengal",
+   "en": 584,
+   "boy": 585,
+   "ek": true
+  },
+  {
+   "anahtar": "PK_harita_sih",
+   "ad": "Sih İmparatorluğu · 1800",
+   "tur": "harita",
+   "hb_yil": "1800",
+   "hb_ad": "Sikhs",
+   "ek": true
+  }
+ ]
+}

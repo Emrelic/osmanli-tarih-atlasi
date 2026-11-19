@@ -1,0 +1,212 @@
+{
+ "kod": "CL",
+ "ad": "Şili",
+ "kisiler": [
+  {
+   "anahtar": "ohiggins",
+   "ad": "Bernardo O'Higgins",
+   "rol": "kurucu, kurtarıcı",
+   "dosya": "Bernardo O'Higgins.jpg",
+   "lisans": "Public domain",
+   "yazar": "Pedro Subercaseaux",
+   "en": 254,
+   "boy": 400,
+   "not": "düşük çözünürlük (254x400)"
+  },
+  {
+   "anahtar": "prat",
+   "ad": "Arturo Prat",
+   "rol": "deniz subayı, ulusal kahraman",
+   "dosya": "Arturo Prat.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "en": 500,
+   "boy": 681
+  },
+  {
+   "anahtar": "mistral",
+   "ad": "Gabriela Mistral",
+   "rol": "şair, Nobel",
+   "dosya": "Gabriela Mistral.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "en": 428,
+   "boy": 529,
+   "kirp": [
+    4.1,
+    4.2,
+    0.2
+   ]
+  },
+  {
+   "anahtar": "neruda",
+   "ad": "Pablo Neruda",
+   "rol": "şair, Nobel",
+   "dosya": "Pablo Neruda 1963.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown (Mondadori Publishers)",
+   "en": 738,
+   "boy": 936
+  },
+  {
+   "anahtar": "portales",
+   "ad": "Diego Portales",
+   "rol": "devlet adamı",
+   "dosya": "Diego Portales.jpg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 500,
+   "boy": 695
+  },
+  {
+   "anahtar": "carrera",
+   "ad": "José Miguel Carrera",
+   "rol": "bağımsızlık önderi",
+   "dosya": "José Miguel Carrera.jpg",
+   "lisans": "Public domain",
+   "yazar": "Francisco Javier Mandiola",
+   "en": 657,
+   "boy": 925
+  },
+  {
+   "anahtar": "balmaceda",
+   "ad": "José Manuel Balmaceda",
+   "rol": "devlet başkanı",
+   "dosya": "José Manuel Balmaceda.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "en": 1012,
+   "boy": 1678
+  },
+  {
+   "anahtar": "allende",
+   "ad": "Salvador Allende",
+   "rol": "devlet başkanı",
+   "dosya": "Salvador Allende Gossens.jpg",
+   "lisans": "CC BY 3.0 cl",
+   "yazar": "Biblioteca del Congreso Nacional de Chile",
+   "en": 247,
+   "boy": 334,
+   "not": "düşük çözünürlük (247x334)"
+  },
+  {
+   "anahtar": "bulnes",
+   "ad": "Manuel Bulnes",
+   "rol": "general, devlet başkanı",
+   "dosya": "Manuel Bulnes.jpg",
+   "lisans": "Public domain",
+   "yazar": "Imágenes de la Universidad de Chile. Santiago : Eds. de la Univ. de Chile, 1977. 253 p.",
+   "en": 412,
+   "boy": 468
+  },
+  {
+   "anahtar": "valdivia",
+   "ad": "Pedro de Valdivia",
+   "rol": "fatih, Santiago'nun kurucusu",
+   "dosya": "Pedro de Valdivia 1891.png",
+   "lisans": "CC0",
+   "yazar": "Unknown authorUnknown author",
+   "en": 2318,
+   "boy": 3470
+  }
+ ],
+ "simgeler": [
+  {
+   "anahtar": "CL_bayrak",
+   "ad": "Şili bayrağı",
+   "tur": "bayrak",
+   "dosya": "Flag of Chile.svg",
+   "lisans": "Public domain",
+   "yazar": "See file history below for details.",
+   "en": 900,
+   "boy": 600
+  },
+  {
+   "anahtar": "CL_arma",
+   "ad": "Şili arması",
+   "tur": "arma",
+   "dosya": "Coat of arms of Chile.svg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 543,
+   "boy": 388
+  },
+  {
+   "anahtar": "CL_moai",
+   "ad": "Paskalya Adası Moai'leri",
+   "tur": "yapi",
+   "dosya": "Ahu Tongariki cropped.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Rivi",
+   "en": 2256,
+   "boy": 1500
+  },
+  {
+   "anahtar": "CL_paine",
+   "ad": "Torres del Paine",
+   "tur": "yapi",
+   "dosya": "Torres del Paine, Chile.jpg",
+   "lisans": "CC BY 2.0",
+   "yazar": "Corto Maltese 1999",
+   "en": 1024,
+   "boy": 681
+  },
+  {
+   "anahtar": "CL_moneda",
+   "ad": "La Moneda Sarayı",
+   "tur": "yapi",
+   "dosya": "Palacio de La Moneda.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Uzuqbo",
+   "en": 1200,
+   "boy": 800
+  },
+  {
+   "anahtar": "CL_valparaiso",
+   "ad": "Valparaíso",
+   "tur": "yapi",
+   "dosya": "Divisa Distrito Federal-Goiás.jpg",
+   "lisans": "CC BY 3.0 br",
+   "yazar": "Fábio Rodrigues Pozzebom/ABr",
+   "en": 2598,
+   "boy": 1772
+  },
+  {
+   "anahtar": "CL_maipu",
+   "ad": "Maipú Kucaklaşması (Subercaseaux)",
+   "tur": "eser",
+   "dosya": "Abrazo de Maipú.jpg",
+   "lisans": "Public domain",
+   "yazar": "Pedro Subercaseaux",
+   "en": 3423,
+   "boy": 2939
+  },
+  {
+   "anahtar": "CL_iquique",
+   "ad": "Iquique Deniz Savaşı (Somerscales)",
+   "tur": "eser",
+   "dosya": "Combate Naval Iquique-Thomas Somerscales.jpg",
+   "lisans": "Public domain",
+   "yazar": "Thomas Somerscales",
+   "en": 3307,
+   "boy": 2226
+  },
+  {
+   "anahtar": "CL_moai2",
+   "ad": "Rano Raraku moai ocağı",
+   "tur": "yapi",
+   "dosya": "Rano Raraku.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Makemake at de.wikipedia",
+   "en": 1511,
+   "boy": 1016
+  },
+  {
+   "anahtar": "CL_harita",
+   "ad": "Şili · 1914",
+   "tur": "harita",
+   "hb_yil": "1914",
+   "hb_ad": "Chile"
+  }
+ ]
+}

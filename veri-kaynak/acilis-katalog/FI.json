@@ -1,0 +1,211 @@
+{
+ "kod": "FI",
+ "ad": "Finlandiya",
+ "kisiler": [
+  {
+   "anahtar": "mannerheim",
+   "ad": "C. G. E. Mannerheim",
+   "rol": "mareşal, devlet başkanı",
+   "dosya": "Carl Gustaf Emil Mannerheim 1939.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "en": 640,
+   "boy": 820
+  },
+  {
+   "anahtar": "sibelius",
+   "ad": "Jean Sibelius",
+   "rol": "besteci",
+   "dosya": "Jean Sibelius, 1913.jpg",
+   "lisans": "Public domain",
+   "yazar": "fi:Daniel Nyblin (1856–1923)",
+   "en": 1872,
+   "boy": 2496
+  },
+  {
+   "anahtar": "lonnrot",
+   "ad": "Elias Lönnrot",
+   "rol": "Kalevala'nın derleyicisi",
+   "dosya": "Elias Lönnrot portrait.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "en": 600,
+   "boy": 681
+  },
+  {
+   "anahtar": "runeberg",
+   "ad": "Johan Ludvig Runeberg",
+   "rol": "ulusal şair",
+   "dosya": "Johan Ludvig Runeberg 1875.jpg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 342,
+   "boy": 444
+  },
+  {
+   "anahtar": "snellman",
+   "ad": "J. V. Snellman",
+   "rol": "filozof, ulusal uyanış önderi",
+   "dosya": "Johan Vilhelm Snellman by Reinhold.jpeg",
+   "lisans": "Public domain",
+   "yazar": "Bernhard Reinhold",
+   "en": 1292,
+   "boy": 1630
+  },
+  {
+   "anahtar": "kekkonen",
+   "ad": "Urho Kekkonen",
+   "rol": "devlet başkanı",
+   "dosya": "Urho-Kekkonen-1977-c.jpg",
+   "lisans": "CC BY 4.0",
+   "yazar": "AnonymousUnknown author / Kuvasiskot studio",
+   "en": 2599,
+   "boy": 3012,
+   "kirp": [
+    5.3,
+    4.0,
+    0.35
+   ]
+  },
+  {
+   "anahtar": "aalto",
+   "ad": "Alvar Aalto",
+   "rol": "mimar",
+   "dosya": "Alvar-Aalto-1969.jpg",
+   "lisans": "Public domain",
+   "yazar": "Hans Paul",
+   "en": 454,
+   "boy": 640
+  },
+  {
+   "anahtar": "gallen",
+   "ad": "Akseli Gallen-Kallela",
+   "rol": "ressam",
+   "dosya": "Akseli Gallen-Kallela - Self-portrait ’en face’.jpg",
+   "lisans": "Public domain",
+   "yazar": "Akseli Gallen-Kallela",
+   "en": 1186,
+   "boy": 1575
+  },
+  {
+   "anahtar": "stahlberg",
+   "ad": "K. J. Ståhlberg",
+   "rol": "ilk cumhurbaşkanı",
+   "dosya": "Presidentti K J Ståhlberg Kulosaaren kodissaan 1937 (HK19670603-29656).tif",
+   "lisans": "CC BY 4.0",
+   "yazar": "Aarne Pietinen Oy",
+   "en": 3508,
+   "boy": 5218,
+   "not": "TIF dosyası"
+  },
+  {
+   "anahtar": "paasikivi",
+   "ad": "J. K. Paasikivi",
+   "rol": "başbakan, cumhurbaşkanı",
+   "dosya": "Eero Järnefelt - Portrait of Juho Kusti Paasikivi.jpg",
+   "lisans": "Public domain",
+   "yazar": "Eero Järnefelt",
+   "en": 872,
+   "boy": 1000
+  }
+ ],
+ "simgeler": [
+  {
+   "anahtar": "FI_bayrak",
+   "ad": "Finlandiya bayrağı",
+   "tur": "bayrak",
+   "dosya": "Flag of Finland.svg",
+   "lisans": "Public domain",
+   "yazar": "Unknown",
+   "en": 1800,
+   "boy": 1100
+  },
+  {
+   "anahtar": "FI_arma",
+   "ad": "Finlandiya arması",
+   "tur": "arma",
+   "dosya": "Coat of arms of Finland.svg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 800,
+   "boy": 1000
+  },
+  {
+   "anahtar": "FI_harita",
+   "ad": "Finlandiya Büyük Dukalığı · 1914",
+   "tur": "harita",
+   "hb_yil": "1914",
+   "hb_ad": "Grand Duchy of Finland"
+  },
+  {
+   "anahtar": "FI_suomenlinna",
+   "ad": "Suomenlinna Kalesi",
+   "tur": "yapi",
+   "dosya": "Suomenlinna.jpg",
+   "lisans": "CC BY 2.0",
+   "yazar": "Michal Pise, Michal.Pise",
+   "en": 1810,
+   "boy": 1360
+  },
+  {
+   "anahtar": "FI_katedral",
+   "ad": "Helsinki Katedrali",
+   "tur": "yapi",
+   "dosya": "Lutheran Cathedral Helsinki.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Hans Hillewaert",
+   "en": 5786,
+   "boy": 6440
+  },
+  {
+   "anahtar": "FI_temppeliaukio",
+   "ad": "Temppeliaukio Kayalık Kilisesi",
+   "tur": "yapi",
+   "dosya": "Temppeliaukio Church 3.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Pertsaboy",
+   "en": 1054,
+   "boy": 791
+  },
+  {
+   "anahtar": "FI_olavinlinna",
+   "ad": "Olavinlinna Kalesi",
+   "tur": "yapi",
+   "dosya": "Savonlinna - Olavinlinna - 20120721205016.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Jouni Jurmu",
+   "en": 4000,
+   "boy": 3000
+  },
+  {
+   "anahtar": "FI_turku",
+   "ad": "Turku Kalesi",
+   "tur": "yapi",
+   "dosya": "Turku Castle, Turku, Finland.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Christian David",
+   "en": 8060,
+   "boy": 6045
+  },
+  {
+   "anahtar": "FI_sampo",
+   "ad": "Sampo'nun Savunması (Gallen-Kallela)",
+   "tur": "eser",
+   "dosya": "Sammon puolustus.jpg",
+   "lisans": "Public domain",
+   "yazar": "Akseli Gallen-Kallela",
+   "en": 1788,
+   "boy": 1758
+  },
+  {
+   "anahtar": "FI_aino",
+   "ad": "Aino Triptiği (Gallen-Kallela)",
+   "tur": "eser",
+   "dosya": "Akseli Gallen-Kallela - Aino Triptych (1889).jpg",
+   "lisans": "Public domain",
+   "yazar": "Akseli Gallen-Kallela",
+   "en": 4514,
+   "boy": 2552
+  }
+ ]
+}

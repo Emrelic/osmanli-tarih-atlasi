@@ -1,0 +1,208 @@
+{
+ "kod": "PE",
+ "ad": "Peru",
+ "kisiler": [
+  {
+   "anahtar": "pachacutec",
+   "ad": "Pachacuti",
+   "rol": "İnka imparatoru",
+   "dosya": "Brooklyn Museum - Pachacuti, Tenth Inca, 1 of 14 Portraits of Inca Kings (cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 1317,
+   "boy": 1437,
+   "not": "18. yy Cuzco okulu portre serisi (Brooklyn Müzesi)",
+   "kirp": [
+    4.7,
+    3.6,
+    0.1
+   ]
+  },
+  {
+   "anahtar": "atahualpa",
+   "ad": "Atahualpa",
+   "rol": "son İnka imparatoru",
+   "dosya": "Atahualpa.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "en": 200,
+   "boy": 290,
+   "not": "düşük çözünürlük (200x290)"
+  },
+  {
+   "anahtar": "tupacamaru",
+   "ad": "II. Túpac Amaru",
+   "rol": "isyan önderi",
+   "dosya": "Retrato de Tupac Amaru II en Quinta de los Libertadores en Pueblo Libre.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Futuropopular",
+   "en": 6000,
+   "boy": 4000,
+   "not": "Quinta de los Libertadores'teki portre tablosunun fotoğrafı"
+  },
+  {
+   "anahtar": "garcilaso",
+   "ad": "İnka Garcilaso de la Vega",
+   "rol": "tarihçi, yazar",
+   "dosya": "Inca Garcilaso 1879.jpg",
+   "lisans": "Public domain",
+   "yazar": "Carlos Penoso Sc.[1]",
+   "en": 354,
+   "boy": 503,
+   "not": "1879 baskı portre, düşük çözünürlük"
+  },
+  {
+   "anahtar": "manco",
+   "ad": "Manco Inca",
+   "rol": "İnka direnişinin önderi",
+   "dosya": "Guaman Poma de Ayala - Manco Inca.jpg",
+   "lisans": "Public domain",
+   "yazar": "Felipe Guamán Poma de Ayala, siglo XVII.",
+   "en": 691,
+   "boy": 1019,
+   "not": "Guaman Poma de Ayala'nın çağdaş vekâyinâme çizimi"
+  },
+  {
+   "anahtar": "castilla",
+   "ad": "Ramón Castilla",
+   "rol": "devlet başkanı",
+   "dosya": "Ramón Castilla Marquesado.jpg",
+   "lisans": "CC0",
+   "yazar": "Trabajo propio. Reproducción de un retrato del siglo XIX, de autor desconocido",
+   "en": 677,
+   "boy": 1129
+  },
+  {
+   "anahtar": "grau",
+   "ad": "Miguel Grau",
+   "rol": "amiral",
+   "dosya": "Miguel Grau Seminario.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "en": 700,
+   "boy": 975
+  },
+  {
+   "anahtar": "bolognesi",
+   "ad": "Francisco Bolognesi",
+   "rol": "albay, ulusal kahraman",
+   "dosya": "Francisco Bolognesi.jpg",
+   "lisans": "Public domain",
+   "yazar": "Daniel Hernández Morillo",
+   "en": 2355,
+   "boy": 3252
+  },
+  {
+   "anahtar": "vallejo",
+   "ad": "César Vallejo",
+   "rol": "şair",
+   "dosya": "Cesar vallejo 1929.jpg",
+   "lisans": "Public domain",
+   "yazar": "Juan Domingo Córdoba",
+   "en": 1322,
+   "boy": 1800
+  },
+  {
+   "anahtar": "rosa",
+   "ad": "Santa Rosa de Lima",
+   "rol": "azize, Amerika’nın ilk azizi",
+   "dosya": "Santa Rosa de Lima (Laso).jpg",
+   "lisans": "Public domain",
+   "yazar": "Francisco Laso",
+   "en": 2500,
+   "boy": 5153
+  }
+ ],
+ "simgeler": [
+  {
+   "anahtar": "PE_bayrak",
+   "ad": "Peru bayrağı",
+   "tur": "bayrak",
+   "mevcut": "PER"
+  },
+  {
+   "anahtar": "PE_arma",
+   "ad": "Peru arması",
+   "tur": "arma",
+   "dosya": "Escudo nacional del Perú.svg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 840,
+   "boy": 960
+  },
+  {
+   "anahtar": "PE_machu",
+   "ad": "Machu Picchu",
+   "tur": "yapi",
+   "dosya": "Machu Picchu, Peru.jpg",
+   "lisans": "CC BY-SA 2.0",
+   "yazar": "Pedro Szekely at https://www.flickr.com/photos/pedrosz/",
+   "en": 1600,
+   "boy": 1067
+  },
+  {
+   "anahtar": "PE_sacsayhuaman",
+   "ad": "Sacsayhuamán",
+   "tur": "yapi",
+   "dosya": "Sacsayhuaman, Cusco.jpg",
+   "lisans": "CC BY 2.0",
+   "yazar": "Hans Brian Brandsberg Berg",
+   "en": 3456,
+   "boy": 2304
+  },
+  {
+   "anahtar": "PE_nazca",
+   "ad": "Nazca çizgileri (kolibri)",
+   "tur": "eser",
+   "dosya": "Nazca Lines Hummingbird (cropped).jpg",
+   "lisans": "CC BY 3.0",
+   "yazar": "Unukorno",
+   "en": 1024,
+   "boy": 768
+  },
+  {
+   "anahtar": "PE_sipan",
+   "ad": "Sipán Efendisi altın eserleri",
+   "tur": "eser",
+   "dosya": "Tomb of Lord of Sipán 03.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Bernard Gagnon",
+   "en": 5184,
+   "boy": 3456,
+   "not": "Sipán Efendisi mezarı/buluntuları (müze)"
+  },
+  {
+   "anahtar": "PE_atahualpa_tablo",
+   "ad": "Atahualpa'nın cenazesi",
+   "tur": "eser",
+   "mevcut": "atahualpa"
+  },
+  {
+   "anahtar": "PE_chanchan",
+   "ad": "Chan Chan",
+   "tur": "yapi",
+   "dosya": "Chan Chan.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Виктор Пинчук",
+   "en": 880,
+   "boy": 660
+  },
+  {
+   "anahtar": "PE_harita",
+   "ad": "İnka İmparatorluğu · 1530",
+   "tur": "harita",
+   "hb_yil": "1530",
+   "hb_ad": "Inca Empire"
+  },
+  {
+   "anahtar": "PE_tumi",
+   "ad": "Tumi (Sicán töreni bıçağı)",
+   "tur": "eser",
+   "dosya": "Ceremonial Knife (Tumi) MET DP214165.jpg",
+   "lisans": "CC0",
+   "yazar": "",
+   "en": 2879,
+   "boy": 3842
+  }
+ ]
+}

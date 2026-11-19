@@ -1,0 +1,208 @@
+{
+ "kod": "FR",
+ "ad": "Fransa",
+ "kisiler": [
+  {
+   "anahtar": "napolyon",
+   "ad": "Napolyon",
+   "rol": "hükümdar, komutan",
+   "mevcut": "napolyon"
+  },
+  {
+   "anahtar": "louis14",
+   "ad": "XIV. Louis",
+   "rol": "hükümdar",
+   "mevcut": "louis14"
+  },
+  {
+   "anahtar": "jeanne",
+   "ad": "Jeanne d'Arc",
+   "rol": "komutan, aziz",
+   "mevcut": "jeanne"
+  },
+  {
+   "anahtar": "degaulle",
+   "ad": "Charles de Gaulle",
+   "rol": "devlet adamı, komutan",
+   "dosya": "De Gaulle-OWI.jpg",
+   "lisans": "Public domain",
+   "yazar": "Office of War Information, Overseas Picture Division. [1]",
+   "en": 2480,
+   "boy": 3663
+  },
+  {
+   "anahtar": "voltaire",
+   "ad": "Voltaire",
+   "rol": "filozof",
+   "mevcut": "voltaire"
+  },
+  {
+   "anahtar": "hugo",
+   "ad": "Victor Hugo",
+   "rol": "yazar",
+   "dosya": "Victor Hugo by Étienne Carjat 1876 - full.jpg",
+   "lisans": "Public domain",
+   "yazar": "Étienne Carjat",
+   "en": 2140,
+   "boy": 2632
+  },
+  {
+   "anahtar": "pasteur",
+   "ad": "Louis Pasteur",
+   "rol": "bilim insanı",
+   "mevcut": "pasteur"
+  },
+  {
+   "anahtar": "curie",
+   "ad": "Marie Curie",
+   "rol": "bilim insanı",
+   "dosya": "Marie Curie c. 1920s.jpg",
+   "lisans": "Public domain",
+   "yazar": "Henri Manuel",
+   "en": 1549,
+   "boy": 2105
+  },
+  {
+   "anahtar": "descartes",
+   "ad": "Descartes",
+   "rol": "filozof",
+   "mevcut": "descartes"
+  },
+  {
+   "anahtar": "sarlman",
+   "ad": "Şarlman",
+   "rol": "hükümdar",
+   "mevcut": "sarlman"
+  },
+  {
+   "anahtar": "richelieu",
+   "ad": "Kardinal Richelieu",
+   "rol": "devlet adamı",
+   "dosya": "Richelieu.jpg",
+   "lisans": "Public domain",
+   "yazar": "Claude Mellan",
+   "en": 1974,
+   "boy": 2202
+  },
+  {
+   "anahtar": "robespierre",
+   "ad": "Robespierre",
+   "rol": "devrimci",
+   "dosya": "Robespierre.jpg",
+   "lisans": "CC0",
+   "yazar": "Unidentified painter",
+   "en": 2426,
+   "boy": 3000
+  },
+  {
+   "anahtar": "rousseau",
+   "ad": "Jean-Jacques Rousseau",
+   "rol": "filozof",
+   "dosya": "Jean-Jacques Rousseau (painted portrait).jpg",
+   "lisans": "Public domain",
+   "yazar": "Maurice Quentin de La Tour",
+   "en": 1448,
+   "boy": 2016
+  }
+ ],
+ "simgeler": [
+  {
+   "anahtar": "FR_bayrak",
+   "ad": "Fransa bayrağı",
+   "tur": "bayrak",
+   "mevcut": "FRA"
+  },
+  {
+   "anahtar": "FR_arma",
+   "ad": "Fransız Krallığı zambakları",
+   "tur": "arma",
+   "mevcut": "fra"
+  },
+  {
+   "anahtar": "FR_eyfel",
+   "ad": "Eyfel Kulesi",
+   "tur": "yapi",
+   "dosya": "Tour Eiffel Wikimedia Commons.jpg",
+   "lisans": "Public domain",
+   "yazar": "Benh LIEU SONG",
+   "en": 2900,
+   "boy": 5367
+  },
+  {
+   "anahtar": "FR_notredame",
+   "ad": "Notre-Dame de Paris",
+   "tur": "yapi",
+   "dosya": "Notre Dame de Paris 2013-07-24.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "P e z i",
+   "en": 3348,
+   "boy": 4519
+  },
+  {
+   "anahtar": "FR_versailles",
+   "ad": "Versay Sarayı",
+   "tur": "yapi",
+   "dosya": "Chateau Versailles.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Ciptur",
+   "en": 1504,
+   "boy": 1000
+  },
+  {
+   "anahtar": "FR_zafer",
+   "ad": "Zafer Takı",
+   "tur": "yapi",
+   "dosya": "Arc de Triomphe, Paris 21 October 2010.jpg",
+   "lisans": "CC BY-SA 2.0",
+   "yazar": "Jiuguang Wang",
+   "en": 4192,
+   "boy": 3168
+  },
+  {
+   "anahtar": "FR_monalisa",
+   "ad": "Mona Lisa",
+   "tur": "eser",
+   "dosya": "Mona Lisa, by Leonardo da Vinci, from C2RMF retouched.jpg",
+   "lisans": "Public domain",
+   "yazar": "Leonardo da Vinci",
+   "en": 7479,
+   "boy": 11146
+  },
+  {
+   "anahtar": "FR_liberte",
+   "ad": "Halka Yol Gösteren Özgürlük",
+   "tur": "eser",
+   "dosya": "Eugène Delacroix - Le 28 Juillet. La Liberté guidant le peuple.jpg",
+   "lisans": "Public domain",
+   "yazar": "Eugène Delacroix",
+   "en": 5946,
+   "boy": 4771
+  },
+  {
+   "anahtar": "FR_montstmichel",
+   "ad": "Mont-Saint-Michel",
+   "tur": "yapi",
+   "dosya": "Mont Saint-Michel.jpg",
+   "lisans": "CC BY 2.5",
+   "yazar": "M.P. Tillema",
+   "en": 2048,
+   "boy": 1536
+  },
+  {
+   "anahtar": "FR_haklar",
+   "ad": "İnsan ve Yurttaş Hakları Bildirgesi",
+   "tur": "eser",
+   "dosya": "Declaration of the Rights of Man and of the Citizen in 1789.jpg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 3657,
+   "boy": 4636
+  },
+  {
+   "anahtar": "FR_harita",
+   "ad": "Fransız Sömürge İmparatorluğu · 1920",
+   "tur": "harita",
+   "mevcut": "fra"
+  }
+ ]
+}

@@ -1,0 +1,179 @@
+{
+ "kod": "CN",
+ "ad": "Çin",
+ "kisiler": [
+  {
+   "anahtar": "qin",
+   "ad": "Qin Shi Huang",
+   "rol": "ilk imparator, birleştirici",
+   "mevcut": "qin"
+  },
+  {
+   "anahtar": "konfucyus",
+   "ad": "Konfüçyüs",
+   "rol": "filozof",
+   "mevcut": "konfucyus"
+  },
+  {
+   "anahtar": "taizong",
+   "ad": "Tang Taizong",
+   "rol": "imparator, Tang'ın gerçek kurucusu",
+   "dosya": "TangTaizong.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown artistUnknown artist",
+   "en": 9717,
+   "boy": 20133,
+   "not": "Yan Liben'e atfedilen imparator portresi (Tang dönemi sanatçı çevresi)"
+  },
+  {
+   "anahtar": "kangxi",
+   "ad": "Kangxi",
+   "rol": "Qing imparatoru",
+   "mevcut": "kangxi"
+  },
+  {
+   "anahtar": "laotzu",
+   "ad": "Lao Tzu",
+   "rol": "filozof, Taoculuğun kurucusu",
+   "mevcut": "laotzu"
+  },
+  {
+   "anahtar": "zhuyuanzhang",
+   "ad": "Zhu Yuanzhang (Hongwu)",
+   "rol": "Ming hanedanının kurucusu",
+   "dosya": "Portrait assis de l'empereur Ming Taizu.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "en": 13906,
+   "boy": 22644,
+   "not": "Ming dönemi resmî oturur imparator portresi"
+  },
+  {
+   "anahtar": "wuzetian",
+   "ad": "Wu Zetian",
+   "rol": "tek kadın imparator",
+   "dosya": "則天大聖皇帝像圖.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "en": 1080,
+   "boy": 1212,
+   "not": "sonradan yapılmış geleneksel portre; dönem portresi yok"
+  },
+  {
+   "anahtar": "qianlong",
+   "ad": "Qianlong",
+   "rol": "Qing imparatoru",
+   "dosya": "Portrait of the Qianlong Emperor in Court Dress.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unidentified painter",
+   "en": 700,
+   "boy": 924,
+   "not": "Qing sarayı resmî portresi"
+  },
+  {
+   "anahtar": "sunyatsen",
+   "ad": "Sun Yat-sen",
+   "rol": "devrimci, Çin Cumhuriyeti'nin kurucusu",
+   "dosya": "孙中山肖像.jpg",
+   "lisans": "Public domain",
+   "yazar": "上海波尔照相馆",
+   "en": 1467,
+   "boy": 1925,
+   "not": "dönem fotoğrafı"
+  },
+  {
+   "anahtar": "mao",
+   "ad": "Mao Zedong",
+   "rol": "devrimci, ÇHC'nin kurucusu (tartışmalı)",
+   "mevcut": "mao"
+  }
+ ],
+ "simgeler": [
+  {
+   "anahtar": "CN_bayrak",
+   "ad": "Çin bayrağı",
+   "tur": "bayrak",
+   "mevcut": "CHN"
+  },
+  {
+   "anahtar": "CN_arma",
+   "ad": "Çin Halk Cumhuriyeti arması",
+   "tur": "arma",
+   "dosya": "National Emblem of the People's Republic of China.svg",
+   "lisans": "Public domain",
+   "yazar": "澳门特别行政区立法会 / Assembleia Legislativa da Região Administrativa Especial de Macau /",
+   "en": 512,
+   "boy": 556
+  },
+  {
+   "anahtar": "CN_harita",
+   "ad": "Qing İmparatorluğu · 1800",
+   "tur": "harita",
+   "hb_yil": "1800",
+   "hb_ad": "Qing Empire"
+  },
+  {
+   "anahtar": "cinseddi",
+   "ad": "Çin Seddi",
+   "tur": "yapi",
+   "mevcut": "cinseddi"
+  },
+  {
+   "anahtar": "CN_yasakli",
+   "ad": "Yasak Şehir · Yüce Uyum Salonu",
+   "tur": "yapi",
+   "dosya": "Hall of Supreme Harmony (20241127120000).jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "N509FZ",
+   "en": 7190,
+   "boy": 4793
+  },
+  {
+   "anahtar": "CN_terracotta",
+   "ad": "Terrakota Ordusu",
+   "tur": "eser",
+   "dosya": "Qin Shihuang Terracotta Army, Pit 1.jpg",
+   "lisans": "CC0",
+   "yazar": "Gary Todd",
+   "en": 1600,
+   "boy": 1200
+  },
+  {
+   "anahtar": "CN_qing_bayrak",
+   "ad": "Qing ejder bayrağı",
+   "tur": "bayrak",
+   "mevcut": "qng"
+  },
+  {
+   "anahtar": "CN_gokmabedi",
+   "ad": "Gök Mabedi",
+   "tur": "yapi",
+   "dosya": "Temple of Heaven 20160323 01.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Shujianyang",
+   "en": 2400,
+   "boy": 1597
+  },
+  {
+   "anahtar": "CN_qingming",
+   "ad": "Qingming Festivali'nde Nehir Boyunca (Zhang Zeduan)",
+   "tur": "eser",
+   "dosya": "Alongtheriver QingMing.jpg",
+   "lisans": "Public domain",
+   "yazar": "Zhang Zeduan",
+   "en": 38414,
+   "boy": 1800,
+   "not": "38414x1800 uzun tomar; kırpılarak kullanılır"
+  },
+  {
+   "anahtar": "CN_potala",
+   "ad": "Potala Sarayı",
+   "tur": "yapi",
+   "dosya": "Potala.jpg",
+   "lisans": "CC BY 2.5",
+   "yazar": "Ondřej Žváček",
+   "en": 2592,
+   "boy": 1728
+  }
+ ]
+}

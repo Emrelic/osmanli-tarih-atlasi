@@ -1,0 +1,215 @@
+{
+ "kod": "AT",
+ "ad": "Avusturya (Habsburg)",
+ "kisiler": [
+  {
+   "anahtar": "mariaterezya",
+   "ad": "Maria Theresia",
+   "rol": "hükümdar",
+   "mevcut": "mariaterezya"
+  },
+  {
+   "anahtar": "mozart",
+   "ad": "Mozart",
+   "rol": "besteci",
+   "mevcut": "mozart"
+  },
+  {
+   "anahtar": "franzjoseph",
+   "ad": "Franz Joseph",
+   "rol": "hükümdar",
+   "dosya": "Franz Joseph I of Austria.jpg",
+   "lisans": "Public domain",
+   "yazar": "Franz Schrotzberg",
+   "en": 1191,
+   "boy": 1600
+  },
+  {
+   "anahtar": "freud",
+   "ad": "Sigmund Freud",
+   "rol": "psikanalist",
+   "dosya": "Sigmund Freud, by Max Halberstadt (cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": "Max Halberstadt",
+   "en": 1647,
+   "boy": 2240
+  },
+  {
+   "anahtar": "klimt",
+   "ad": "Gustav Klimt",
+   "rol": "ressam",
+   "dosya": "Klimt.jpg",
+   "lisans": "Public domain",
+   "yazar": "Josef Anton Trčka",
+   "en": 780,
+   "boy": 997,
+   "not": "fotoğraf: Josef Anton Trčka"
+  },
+  {
+   "anahtar": "haydn",
+   "ad": "Joseph Haydn",
+   "rol": "besteci",
+   "dosya": "Joseph Haydn.jpg",
+   "lisans": "Public domain",
+   "yazar": "Thomas Hardy",
+   "en": 1000,
+   "boy": 1264
+  },
+  {
+   "anahtar": "schubert",
+   "ad": "Franz Schubert",
+   "rol": "besteci",
+   "dosya": "Franz Schubert by Wilhelm August Rieder 1875.jpg",
+   "lisans": "Public domain",
+   "yazar": "Wilhelm August Rieder",
+   "en": 2437,
+   "boy": 2906
+  },
+  {
+   "anahtar": "metternich",
+   "ad": "Metternich",
+   "rol": "devlet adamı",
+   "dosya": "Metternich by Lawrence.jpeg",
+   "lisans": "Public domain",
+   "yazar": "Thomas Lawrence",
+   "en": 1857,
+   "boy": 2482
+  },
+  {
+   "anahtar": "joseph2",
+   "ad": "II. Joseph",
+   "rol": "hükümdar",
+   "dosya": "Joseph II.jpg",
+   "lisans": "Public domain",
+   "yazar": "Joseph Hickel",
+   "en": 304,
+   "boy": 635,
+   "not": "küçük çözünürlük (304x635)"
+  },
+  {
+   "anahtar": "prenseugen",
+   "ad": "Savoyalı Prens Eugen",
+   "rol": "komutan",
+   "dosya": "Jacob van Schuppen - Prinz Eugen von Savoyen.jpeg",
+   "lisans": "Public domain",
+   "yazar": "Jacob van Schuppen",
+   "en": 2352,
+   "boy": 2904
+  },
+  {
+   "anahtar": "mendel",
+   "ad": "Gregor Mendel",
+   "rol": "bilim insanı",
+   "dosya": "Gregor Mendel.png",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "en": 300,
+   "boy": 304,
+   "not": "küçük çözünürlük (300x304)"
+  }
+ ],
+ "simgeler": [
+  {
+   "anahtar": "AT_bayrak",
+   "ad": "Avusturya bayrağı",
+   "tur": "bayrak",
+   "dosya": "Flag of Austria.svg",
+   "lisans": "Public domain",
+   "yazar": "Bundesministerium für Landesverteidigung",
+   "en": 900,
+   "boy": 600
+  },
+  {
+   "anahtar": "AT_arma",
+   "ad": "Avusturya arması",
+   "tur": "arma",
+   "dosya": "Coat of arms of Austria.svg",
+   "lisans": "Public domain",
+   "yazar": "David Liuzzo (Originalbeschreibung: „Bundesadler der Republik Österreich, Staats",
+   "en": 720,
+   "boy": 762
+  },
+  {
+   "anahtar": "AT_habsburg",
+   "ad": "Avusturya-Macaristan arması",
+   "tur": "arma",
+   "mevcut": "avm"
+  },
+  {
+   "anahtar": "AT_schonbrunn",
+   "ad": "Schönbrunn Sarayı",
+   "tur": "yapi",
+   "dosya": "Schönbrunn Palace.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Philipp Mayer",
+   "en": 2142,
+   "boy": 1193
+  },
+  {
+   "anahtar": "AT_hofburg",
+   "ad": "Hofburg",
+   "tur": "yapi",
+   "dosya": "Hofburg.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Lahcim n",
+   "en": 4608,
+   "boy": 3456
+  },
+  {
+   "anahtar": "AT_stephansdom",
+   "ad": "Viyana Aziz Stephan Katedrali",
+   "tur": "yapi",
+   "dosya": "Stephansdom.jpg",
+   "lisans": "CC BY 3.0",
+   "yazar": "Dezidor",
+   "en": 2112,
+   "boy": 2816
+  },
+  {
+   "anahtar": "AT_opera",
+   "ad": "Viyana Devlet Operası",
+   "tur": "yapi",
+   "dosya": "Wiener Staatsoper.jpg",
+   "lisans": "CC BY 2.0",
+   "yazar": "infraredhorsebite",
+   "en": 989,
+   "boy": 664
+  },
+  {
+   "anahtar": "AT_opucuk",
+   "ad": "Öpücük (Klimt)",
+   "tur": "eser",
+   "dosya": "Gustav Klimt 016.jpg",
+   "lisans": "Public domain",
+   "yazar": "Gustav Klimt",
+   "en": 1079,
+   "boy": 1080
+  },
+  {
+   "anahtar": "AT_belvedere",
+   "ad": "Belvedere Sarayı",
+   "tur": "yapi",
+   "dosya": "Schloss Belvedere.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "MSTravel",
+   "en": 613,
+   "boy": 460
+  },
+  {
+   "anahtar": "AT_hallstatt",
+   "ad": "Hallstatt",
+   "tur": "yapi",
+   "dosya": "Hallstatt.jpg",
+   "lisans": "CC BY-SA 3.0 at",
+   "yazar": "Himadri",
+   "en": 5184,
+   "boy": 3456
+  },
+  {
+   "anahtar": "AT_harita",
+   "ad": "Avusturya-Macaristan · 1900",
+   "tur": "harita",
+   "mevcut": "avm"
+  }
+ ]
+}

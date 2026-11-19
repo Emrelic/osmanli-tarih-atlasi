@@ -1,0 +1,93 @@
+{
+ "kod": "KZ",
+ "ad": "Kazakistan",
+ "kisiler": [
+  {
+   "anahtar": "farabi",
+   "ad": "Farabî",
+   "rol": "filozof, bilim insanı",
+   "dosya": "Al-Farabi.jpg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 662,
+   "boy": 699
+  },
+  {
+   "anahtar": "valihanov",
+   "ad": "Çokan Valihanov",
+   "rol": "bilim insanı, gezgin",
+   "dosya": "Valikhanov.jpg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 900,
+   "boy": 827
+  }
+ ],
+ "simgeler": [
+  {
+   "anahtar": "KZ_bayrak",
+   "ad": "Kazakistan bayrağı",
+   "tur": "bayrak",
+   "mevcut": "KAZ"
+  },
+  {
+   "anahtar": "KZ_arma",
+   "ad": "Kazakistan arması (1992-2014)",
+   "tur": "arma",
+   "dosya": "Emblem of Kazakhstan (1992-2014).svg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 400,
+   "boy": 400,
+   "not": "güncel arma dosyası doğrulanamadı; bu 1992-2014 gerçek devlet arması"
+  },
+  {
+   "anahtar": "KZ_harita",
+   "ad": "Kazak Hanlığı · 1600",
+   "tur": "harita",
+   "hb_yil": "1600",
+   "hb_ad": "Quazaq Khanate"
+  },
+  {
+   "anahtar": "KZ_yesevi",
+   "ad": "Hoca Ahmed Yesevi Türbesi",
+   "tur": "yapi",
+   "dosya": "Mausoleum of Khoja Ahmed Yasawi.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Adam Harangozó",
+   "en": 5818,
+   "boy": 3879
+  },
+  {
+   "anahtar": "KZ_baiterek",
+   "ad": "Baiterek",
+   "tur": "yapi",
+   "dosya": "Baiterek.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "אמר מר",
+   "en": 3024,
+   "boy": 4032
+  },
+  {
+   "anahtar": "KZ_shatyr",
+   "ad": "Han Şatır",
+   "tur": "yapi",
+   "dosya": "Khan Shatyr.jpg",
+   "lisans": "CC0",
+   "yazar": "Quarot",
+   "en": 6000,
+   "boy": 4000
+  },
+  {
+   "anahtar": "KZ_baykonur",
+   "ad": "Baykonur'dan Soyuz fırlatışı",
+   "tur": "diger",
+   "dosya": "Expedition 46 Launch (NHQ201512150015).jpg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 7360,
+   "boy": 4576,
+   "cikar": "fotoğraf mavi leke olarak çıkıyor"
+  }
+ ]
+}

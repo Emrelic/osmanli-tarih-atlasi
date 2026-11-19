@@ -1,0 +1,213 @@
+{
+ "kod": "IR",
+ "ad": "İran",
+ "kisiler": [
+  {
+   "anahtar": "ismail",
+   "ad": "Şah İsmail",
+   "rol": "Safevî kurucusu",
+   "mevcut": "ismail"
+  },
+  {
+   "anahtar": "abbas",
+   "ad": "I. Şah Abbas",
+   "rol": "hükümdar",
+   "mevcut": "abbas"
+  },
+  {
+   "anahtar": "nader",
+   "ad": "Nâdir Şah",
+   "rol": "hükümdar, komutan",
+   "dosya": "Painting, portrait of Nader Shah seated on a carpet, oil on canvas, probably Tehran, 1780s or 1790s.jpg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 1389,
+   "boy": 2232
+  },
+  {
+   "anahtar": "daryus",
+   "ad": "I. Darius",
+   "rol": "Ahameniş hükümdarı",
+   "dosya": "Darius I.jpg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 1920,
+   "boy": 2400,
+   "not": "kabartma/heykel olabilir; gözle doğrulanmadı",
+   "kirp": [
+    5.8,
+    2.4,
+    0.3
+   ]
+  },
+  {
+   "anahtar": "ardesir",
+   "ad": "I. Erdeşir",
+   "rol": "Sâsânî kurucusu",
+   "dosya": "Ardashir I of Persia.jpg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 409,
+   "boy": 545,
+   "not": "Düşük çözünürlük 409x545"
+  },
+  {
+   "anahtar": "kiros",
+   "ad": "Büyük Kiros",
+   "rol": "Ahameniş kurucusu",
+   "dosya": "Cyrus the Great.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Alireza Shakernia",
+   "en": 1024,
+   "boy": 668,
+   "not": "anıt/kabartma fotoğrafı olabilir; gözle doğrulanmadı"
+  },
+  {
+   "anahtar": "firdevsi",
+   "ad": "Firdevsî",
+   "rol": "şair",
+   "dosya": "Ferdowsi.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Mohsen.shakibafar",
+   "en": 3120,
+   "boy": 4160,
+   "not": "anıt fotoğrafı olabilir",
+   "cikar": "dosya türbe fotoğrafı, portre değil"
+  },
+  {
+   "anahtar": "musaddik",
+   "ad": "Muhammed Musaddık",
+   "rol": "başbakan",
+   "dosya": "Mossadegh.jpg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 572,
+   "boy": 744
+  },
+  {
+   "anahtar": "kerimhan",
+   "ad": "Kerim Han Zend",
+   "rol": "hükümdar",
+   "dosya": "Karim Khan Zand.jpg",
+   "lisans": "CC BY 4.0",
+   "yazar": "Behzad Ajdari",
+   "en": 1600,
+   "boy": 1124
+  },
+  {
+   "anahtar": "sadi",
+   "ad": "Sâdî-i Şîrâzî",
+   "rol": "şair",
+   "dosya": "Saadi.jpg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 206,
+   "boy": 334,
+   "not": "Düşük çözünürlük 206x334"
+  }
+ ],
+ "simgeler": [
+  {
+   "anahtar": "IR_bayrak",
+   "ad": "İran bayrağı",
+   "tur": "bayrak",
+   "mevcut": "IRN"
+  },
+  {
+   "anahtar": "IR_arma",
+   "ad": "İran arması",
+   "tur": "arma",
+   "dosya": "Emblem of Iran.svg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 500,
+   "boy": 492
+  },
+  {
+   "anahtar": "faravahar",
+   "ad": "Faravahar",
+   "tur": "arma",
+   "mevcut": "faravahar"
+  },
+  {
+   "anahtar": "IR_harita",
+   "ad": "Ahameniş İmparatorluğu · MÖ 500",
+   "tur": "harita",
+   "mevcut": "per"
+  },
+  {
+   "anahtar": "IR_persepolis",
+   "ad": "Persepolis · Bütün Milletler Kapısı",
+   "tur": "yapi",
+   "dosya": "Persepolis Gate of All Nations.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Shahrokhphoto",
+   "en": 3317,
+   "boy": 5000
+  },
+  {
+   "anahtar": "IR_nakshejahan",
+   "ad": "Nakş-ı Cihan Meydanı",
+   "tur": "yapi",
+   "dosya": "Naqsh-e Jahan Square, Isfahan.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Erfan Ghofrani",
+   "en": 8166,
+   "boy": 5242
+  },
+  {
+   "anahtar": "IR_cylinder",
+   "ad": "Kiros Silindiri",
+   "tur": "eser",
+   "dosya": "Cyrus Cylinder.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Photograph by Mike Peel (www.mikepeel.net). Modifications by",
+   "en": 3888,
+   "boy": 2592
+  },
+  {
+   "anahtar": "IR_nakshrustam",
+   "ad": "Nakş-ı Rüstem",
+   "tur": "yapi",
+   "dosya": "Naqsh-e Rustam.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Pastaitaken",
+   "en": 1024,
+   "boy": 768
+  },
+  {
+   "anahtar": "IR_bisutun",
+   "ad": "Bîsütun Yazıtı",
+   "tur": "eser",
+   "dosya": "Behistun inscription.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Mahdimanavimvi",
+   "en": 3000,
+   "boy": 2000
+  },
+  {
+   "anahtar": "IR_lutfullah",
+   "ad": "Şeyh Lütfullah Camii",
+   "tur": "yapi",
+   "dosya": "Sheikh Lotfollah Mosque.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Farahimanesh",
+   "en": 3856,
+   "boy": 2890
+  },
+  {
+   "anahtar": "IR_sasani",
+   "ad": "Sâsânî Devleti · 600",
+   "tur": "harita",
+   "hb_yil": "600",
+   "hb_ad": "Sasanian Empire"
+  },
+  {
+   "anahtar": "IR_safevi",
+   "ad": "Safevî Devleti · 1600",
+   "tur": "harita",
+   "hb_yil": "1600",
+   "hb_ad": "Safavid Empire"
+  }
+ ]
+}

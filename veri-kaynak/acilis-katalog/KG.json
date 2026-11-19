@@ -1,0 +1,91 @@
+{
+ "kod": "KG",
+ "ad": "Kırgızistan",
+ "kisiler": [
+  {
+   "anahtar": "aytmatov",
+   "ad": "Cengiz Aytmatov",
+   "rol": "yazar",
+   "dosya": "Chinghiz Aitmatov.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Original uploader was RuED at ru.wikipedia",
+   "en": 1056,
+   "boy": 1261,
+   "kirp": [
+    5.4,
+    3.2,
+    0.15
+   ]
+  },
+  {
+   "anahtar": "kurmancan",
+   "ad": "Kurmancan Datka",
+   "rol": "devlet kadını",
+   "dosya": "Kurmanjan Datka.jpg",
+   "lisans": "CC BY 4.0",
+   "yazar": "Isabelle Persson, Timothy Örbom",
+   "en": 350,
+   "boy": 495,
+   "not": "Düşük çözünürlük"
+  },
+  {
+   "anahtar": "kasgarli",
+   "ad": "Kâşgarlı Mahmud",
+   "rol": "dilbilimci",
+   "dosya": "Mahmud al-Kashgari.jpg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 660,
+   "boy": 849,
+   "not": "çağdaş çizim"
+  }
+ ],
+ "simgeler": [
+  {
+   "anahtar": "KG_bayrak",
+   "ad": "Kırgızistan bayrağı",
+   "tur": "bayrak",
+   "mevcut": "KGZ"
+  },
+  {
+   "anahtar": "KG_arma",
+   "ad": "Kırgızistan arması",
+   "tur": "arma",
+   "dosya": "Emblem of Kyrgyzstan.svg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 2008,
+   "boy": 2008
+  },
+  {
+   "anahtar": "KG_isikgol",
+   "ad": "Issık Göl",
+   "tur": "yapi",
+   "dosya": "Issyk-Kul.jpg",
+   "lisans": "CC BY-SA 2.0",
+   "yazar": "Ada Awa",
+   "en": 4032,
+   "boy": 3024
+  },
+  {
+   "anahtar": "KG_burana",
+   "ad": "Burana Kulesi",
+   "tur": "yapi",
+   "dosya": "Burana Tower.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Adam Harangozó",
+   "en": 5515,
+   "boy": 3676
+  },
+  {
+   "anahtar": "KG_yurt",
+   "ad": "Kırgız yurdu (Song-Köl)",
+   "tur": "eser",
+   "dosya": "Kyrgyzská jurta, Song-köl.jpg",
+   "lisans": "CC BY 2.5",
+   "yazar": "Ondřej Žváček",
+   "en": 3072,
+   "boy": 2304
+  }
+ ]
+}

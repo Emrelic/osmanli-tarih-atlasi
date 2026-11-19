@@ -1,0 +1,215 @@
+{
+ "kod": "CU",
+ "ad": "Küba",
+ "kisiler": [
+  {
+   "anahtar": "marti",
+   "ad": "José Martí",
+   "rol": "bağımsızlık önderi, şair",
+   "dosya": "José Martí (1853-1895).jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown artistUnknown artist",
+   "en": 770,
+   "boy": 1072
+  },
+  {
+   "anahtar": "cespedes",
+   "ad": "Carlos Manuel de Céspedes",
+   "rol": "bağımsızlık savaşı babası",
+   "dosya": "Carlos Manuel de Cespedes.jpg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 391,
+   "boy": 580,
+   "not": "düşük çözünürlük (391x580)"
+  },
+  {
+   "anahtar": "maceo",
+   "ad": "Antonio Maceo",
+   "rol": "general",
+   "dosya": "Antonio Maceo.jpg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 933,
+   "boy": 1239
+  },
+  {
+   "anahtar": "gomez",
+   "ad": "Máximo Gómez",
+   "rol": "başkomutan",
+   "dosya": "Retrato de Máximo Gómez 1899.jpg",
+   "lisans": "CC0",
+   "yazar": "Gómez de Mello, Jorge",
+   "en": 666,
+   "boy": 1023
+  },
+  {
+   "anahtar": "castro",
+   "ad": "Fidel Castro",
+   "rol": "devrimci, devlet başkanı",
+   "dosya": "Fidel Castro in Washington.jpg",
+   "lisans": "Public domain",
+   "yazar": "Fidel_Castro_-_MATS_Terminal_Washington_1959.png: Warren K. Leffler derivative work: Damie",
+   "en": 1454,
+   "boy": 1939,
+   "not": "1959 fotoğrafı"
+  },
+  {
+   "anahtar": "guevara",
+   "ad": "Che Guevara",
+   "rol": "devrimci",
+   "dosya": "Che Guevara.jpg",
+   "lisans": "Public domain",
+   "yazar": "René Burri (1933-2014)",
+   "en": 6000,
+   "boy": 4022,
+   "not": "Commons PD (US not renewed/Cuba) etiketli René Burri fotoğrafı; hukuki teyit önerilir"
+  },
+  {
+   "anahtar": "agramonte",
+   "ad": "Ignacio Agramonte",
+   "rol": "bağımsızlık komutanı",
+   "dosya": "Ignacio Agramonte Loynaz.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Unknown authorUnknown author",
+   "en": 260,
+   "boy": 239,
+   "not": "düşük çözünürlük (260x239)"
+  },
+  {
+   "anahtar": "capablanca",
+   "ad": "José Raúl Capablanca",
+   "rol": "satranç dünya şampiyonu",
+   "dosya": "Der Kubaner J. R. Capablanca 1922 J. Harkanyi.png",
+   "lisans": "Public domain",
+   "yazar": "Isidor Harkányi",
+   "en": 734,
+   "boy": 929,
+   "kirp": [
+    6.3,
+    2.5,
+    0.12
+   ]
+  },
+  {
+   "anahtar": "carpentier",
+   "ad": "Alejo Carpentier",
+   "rol": "yazar",
+   "dosya": "Alejo Carpentier c. 1955.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "en": 900,
+   "boy": 1319
+  },
+  {
+   "anahtar": "lam",
+   "ad": "Wifredo Lam",
+   "rol": "ressam",
+   "dosya": "Wifredo lam in his studio.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "en": 1131,
+   "boy": 645,
+   "not": "stüdyo fotoğrafı, yatay"
+  }
+ ],
+ "simgeler": [
+  {
+   "anahtar": "CU_bayrak",
+   "ad": "Küba bayrağı",
+   "tur": "bayrak",
+   "dosya": "Flag of Cuba.svg",
+   "lisans": "Public domain",
+   "yazar": "Miguel Teurbe Tolón and Narciso López",
+   "en": 1200,
+   "boy": 600
+  },
+  {
+   "anahtar": "CU_arma",
+   "ad": "Küba arması",
+   "tur": "arma",
+   "dosya": "Coat of arms of Cuba.svg",
+   "lisans": "Public domain",
+   "yazar": "Miguel Teurbe Tolón",
+   "en": 800,
+   "boy": 900
+  },
+  {
+   "anahtar": "CU_morro",
+   "ad": "Morro Kalesi (Havana)",
+   "tur": "yapi",
+   "dosya": "Castillo del Morro - Havana, Cuba.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Kate Perez",
+   "en": 6000,
+   "boy": 4000
+  },
+  {
+   "anahtar": "CU_capitolio",
+   "ad": "El Capitolio (Havana)",
+   "tur": "yapi",
+   "dosya": "El Capitolio, Havana.jpg",
+   "lisans": "CC BY-SA 2.5",
+   "yazar": "The original uploader was DirkvdM at English Wikipedia.",
+   "en": 2272,
+   "boy": 1704
+  },
+  {
+   "anahtar": "CU_trinidad",
+   "ad": "Trinidad Tarihî Merkezi",
+   "tur": "yapi",
+   "dosya": "Plaza Mayor, Trinidad, Cuba.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Marc-Lautenbacher",
+   "en": 5616,
+   "boy": 3744
+  },
+  {
+   "anahtar": "CU_katedral",
+   "ad": "Havana Katedrali",
+   "tur": "yapi",
+   "dosya": "Catedral de La Habana, Habana Vieja, Cuba. Agosto de 2016 08.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Yoeztudioz",
+   "en": 5184,
+   "boy": 3456
+  },
+  {
+   "anahtar": "CU_vinales",
+   "ad": "Viñales Vadisi",
+   "tur": "yapi",
+   "dosya": "Viñales Valley.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Severin.stalder",
+   "en": 4288,
+   "boy": 2412
+  },
+  {
+   "anahtar": "CU_realfuerza",
+   "ad": "Real Fuerza Kalesi",
+   "tur": "yapi",
+   "dosya": "Castillo de la Real Fuerza - Havana, Cuba.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Kate Perez",
+   "en": 6000,
+   "boy": 4000
+  },
+  {
+   "anahtar": "CU_isyan",
+   "ad": "Cuba Libre — Yara Çağrısı",
+   "tur": "eser",
+   "dosya": "Cry of Yara.jpg",
+   "lisans": "CC0",
+   "yazar": "Callelinea",
+   "en": 900,
+   "boy": 638
+  },
+  {
+   "anahtar": "CU_harita",
+   "ad": "Küba · 1914",
+   "tur": "harita",
+   "hb_yil": "1914",
+   "hb_ad": "Cuba"
+  }
+ ]
+}

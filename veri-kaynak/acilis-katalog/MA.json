@@ -1,0 +1,213 @@
+{
+ "kod": "MA",
+ "ad": "Fas",
+ "kisiler": [
+  {
+   "anahtar": "battuta",
+   "ad": "İbn Battûta",
+   "rol": "seyyah",
+   "dosya": "Handmade oil painting reproduction of Ibn Battuta in Egypt, a painting by Hippolyte Leon Benett..jpg",
+   "lisans": "Public domain",
+   "yazar": "Léon Benett",
+   "en": 498,
+   "boy": 718,
+   "not": "Léon Benett gravürü"
+  },
+  {
+   "anahtar": "mansur_saadi",
+   "ad": "Ahmed el-Mansûr (Saadî)",
+   "rol": "sultan",
+   "dosya": "Ahmad al-Mansur by André Thevet.png",
+   "lisans": "Public domain",
+   "yazar": "André Thevet",
+   "en": 2189,
+   "boy": 2685,
+   "not": "André Thevet gravürü"
+  },
+  {
+   "anahtar": "abdulmumin",
+   "ad": "Abdülmü'min (Muvahhid)",
+   "rol": "Muvahhid halifesi",
+   "dosya": "Abdalmumin ben ali nedroma statue.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Askelaadden",
+   "en": 1242,
+   "boy": 1346,
+   "not": "Nedroma heykeli (modern)"
+  },
+  {
+   "anahtar": "muhammed5",
+   "ad": "V. Muhammed",
+   "rol": "kral, bağımsızlığın lideri",
+   "dosya": "Mohammed V (1953).jpg",
+   "lisans": "CC0",
+   "yazar": "Fotograaf Onbekend / Anefo",
+   "en": 886,
+   "boy": 1182
+  },
+  {
+   "anahtar": "hasan2",
+   "ad": "II. Hasan",
+   "rol": "kral",
+   "dosya": "Hassan II (1983).jpg",
+   "lisans": "CC BY 4.0",
+   "yazar": "Christian Lambiotte",
+   "en": 649,
+   "boy": 911
+  },
+  {
+   "anahtar": "hasan1",
+   "ad": "I. Hasan",
+   "rol": "sultan",
+   "dosya": "Hassan I of Morocco.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "en": 1288,
+   "boy": 1916,
+   "not": "dönem fotoğrafı"
+  },
+  {
+   "anahtar": "abdulkerim",
+   "ad": "Muhammed Abdülkerim el-Hattâbî",
+   "rol": "Rif Cumhuriyeti lideri",
+   "dosya": "Abd el-Krim, portrait.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "en": 2592,
+   "boy": 3520
+  },
+  {
+   "anahtar": "idrisi",
+   "ad": "el-İdrîsî",
+   "rol": "coğrafyacı, harita çizeri",
+   "dosya": "Estatua de Al-Idrisi bajo el baluarte de los Mallorquines, Ceuta (5).jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Estatua_de_Al-Idrisi_bajo_el_baluarte_de_los_Mallorquines,_Ceuta_(3).jpg: Mario ",
+   "en": 1096,
+   "boy": 1624,
+   "not": "Ceuta'daki heykel (modern)"
+  },
+  {
+   "anahtar": "allalfasi",
+   "ad": "Allal el-Fâsî",
+   "rol": "milliyetçi, âlim",
+   "dosya": "Allal al-Fassi.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "en": 2431,
+   "boy": 3520
+  },
+  {
+   "anahtar": "benbarka",
+   "ad": "Mehdi Ben Barka",
+   "rol": "sol milliyetçi lider",
+   "dosya": "Mehdi Ben Barka Anefo.jpg",
+   "lisans": "CC0",
+   "yazar": "Unknown authorUnknown author",
+   "en": 954,
+   "boy": 1284
+  }
+ ],
+ "simgeler": [
+  {
+   "anahtar": "MA_bayrak",
+   "ad": "Fas bayrağı",
+   "tur": "bayrak",
+   "dosya": "Flag of Morocco.svg",
+   "lisans": "Public domain",
+   "yazar": "Denelson83, Zscout370",
+   "en": 900,
+   "boy": 600
+  },
+  {
+   "anahtar": "MA_arma",
+   "ad": "Fas arması",
+   "tur": "arma",
+   "dosya": "Coat of arms of Morocco.svg",
+   "lisans": "Public domain",
+   "yazar": "Government of Morocco",
+   "en": 854,
+   "boy": 874
+  },
+  {
+   "anahtar": "MA_harita",
+   "ad": "Muvahhidler · 1200",
+   "tur": "harita",
+   "hb_yil": "1200",
+   "hb_ad": "Almohad Caliphate"
+  },
+  {
+   "anahtar": "MA_hasan2cami",
+   "ad": "II. Hasan Camii (Kazablanka)",
+   "tur": "yapi",
+   "dosya": "Hassan II Mosque Plaza.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "FuriousYogi",
+   "en": 3872,
+   "boy": 2592
+  },
+  {
+   "anahtar": "MA_kutubiyye",
+   "ad": "Kütübiyye Camii (Marakeş)",
+   "tur": "yapi",
+   "dosya": "Marokko0112 (retouched).jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Rol1000",
+   "en": 2304,
+   "boy": 3072
+  },
+  {
+   "anahtar": "MA_hasankule",
+   "ad": "Hasan Kulesi (Rabat)",
+   "tur": "yapi",
+   "dosya": "Hassan Tower, Rabat, Marocco (صومعة حسان ).jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Petar Milošević",
+   "en": 3093,
+   "boy": 4232
+  },
+  {
+   "anahtar": "MA_karaviyyin",
+   "ad": "Karaviyyîn Üniversitesi (Fas)",
+   "tur": "yapi",
+   "dosya": "University of Al Qaraouiyine.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Abdel Hassouni",
+   "en": 1080,
+   "boy": 1143,
+   "not": "dünyanın en eski üniversitelerinden"
+  },
+  {
+   "anahtar": "MA_aitbenhaddu",
+   "ad": "Ait Benhaddu Ksar'ı",
+   "tur": "yapi",
+   "dosya": "Ksar Aït Benhaddou, Marocco (أيت بن حدو، المغرب, ⴰⵢⵜ ⵃⴰⴷⴷⵓ).jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Petar Milošević",
+   "en": 8160,
+   "boy": 5048,
+   "not": "UNESCO"
+  },
+  {
+   "anahtar": "MA_volubilis",
+   "ad": "Volubilis",
+   "tur": "yapi",
+   "dosya": "Volubilis Longshot II.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Subhros",
+   "en": 1920,
+   "boy": 1280,
+   "not": "Roma kenti, UNESCO"
+  },
+  {
+   "anahtar": "MA_bouinania",
+   "ad": "Bou İnâniyye Medresesi (Fas)",
+   "tur": "yapi",
+   "dosya": "Courtyard Minaret Bou Inania Fes Nov25 A7CR 09138-42 HDR3.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "This Photo was taken by Timothy A. Gonsalves.  Feel free to use my photos, but p",
+   "en": 5043,
+   "boy": 8592
+  }
+ ]
+}

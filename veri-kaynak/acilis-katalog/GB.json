@@ -1,0 +1,187 @@
+{
+ "kod": "GB",
+ "ad": "Birleşik Krallık",
+ "kisiler": [
+  {
+   "anahtar": "elizabeth",
+   "ad": "I. Elizabeth",
+   "rol": "hükümdar",
+   "mevcut": "elizabeth"
+  },
+  {
+   "anahtar": "victoria",
+   "ad": "Kraliçe Victoria",
+   "rol": "hükümdar",
+   "mevcut": "victoria"
+  },
+  {
+   "anahtar": "churchill",
+   "ad": "Winston Churchill",
+   "rol": "devlet adamı",
+   "dosya": "Sir Winston Churchill - 19086236948.jpg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 3052,
+   "boy": 3884
+  },
+  {
+   "anahtar": "shakespeare",
+   "ad": "Shakespeare",
+   "rol": "oyun yazarı, şair",
+   "mevcut": "shakespeare"
+  },
+  {
+   "anahtar": "newton",
+   "ad": "Isaac Newton",
+   "rol": "bilim insanı",
+   "mevcut": "newton"
+  },
+  {
+   "anahtar": "darwin",
+   "ad": "Charles Darwin",
+   "rol": "doğa bilimci",
+   "mevcut": "darwin"
+  },
+  {
+   "anahtar": "henry8",
+   "ad": "VIII. Henry",
+   "rol": "hükümdar",
+   "dosya": "Hans Holbein, the Younger, Around 1497-1543 - Portrait of Henry VIII of England - Google Art Project.jpg",
+   "lisans": "Public domain",
+   "yazar": "Hans Holbein the Younger",
+   "en": 2994,
+   "boy": 4203
+  },
+  {
+   "anahtar": "cromwell",
+   "ad": "Oliver Cromwell",
+   "rol": "devlet adamı, komutan",
+   "dosya": "Oliver Cromwell by Samuel Cooper.jpg",
+   "lisans": "Public domain",
+   "yazar": "After Samuel Cooper",
+   "en": 2400,
+   "boy": 2916
+  },
+  {
+   "anahtar": "nelson",
+   "ad": "Amiral Nelson",
+   "rol": "komutan",
+   "dosya": "Rear-Admiral Sir Horatio Nelson, 1758-1805.jpg",
+   "lisans": "FAL",
+   "yazar": "William Barnard / After Lemuel Francis Abbott",
+   "en": 560,
+   "boy": 923,
+   "not": "Abbott portresinden gravür/kopya (Barnard); lisans Free Art License"
+  },
+  {
+   "anahtar": "wellington",
+   "ad": "Wellington Dükü",
+   "rol": "komutan, devlet adamı",
+   "dosya": "Sir Thomas Lawrence - Arthur Wellesley, 1st Duke of Wellington - WM.1567-1948 - Apsley House.jpg",
+   "lisans": "Public domain",
+   "yazar": "Thomas Lawrence",
+   "en": 2342,
+   "boy": 3200
+  },
+  {
+   "anahtar": "dickens",
+   "ad": "Charles Dickens",
+   "rol": "yazar",
+   "dosya": "Dickens Gurney head.jpg",
+   "lisans": "Public domain",
+   "yazar": "Jeremiah Gurney",
+   "en": 814,
+   "boy": 1190
+  }
+ ],
+ "simgeler": [
+  {
+   "anahtar": "GB_bayrak",
+   "ad": "Birleşik Krallık bayrağı",
+   "tur": "bayrak",
+   "mevcut": "GBR"
+  },
+  {
+   "anahtar": "GB_arma",
+   "ad": "Britanya kraliyet arması",
+   "tur": "arma",
+   "mevcut": "ing"
+  },
+  {
+   "anahtar": "GB_bigben",
+   "ad": "Big Ben ve Westminster Sarayı",
+   "tur": "yapi",
+   "dosya": "Clock Tower - Palace of Westminster, London - May 2007.jpg",
+   "lisans": "CC BY 2.5",
+   "yazar": "Diliff",
+   "en": 2500,
+   "boy": 4986
+  },
+  {
+   "anahtar": "GB_tower",
+   "ad": "Tower Köprüsü",
+   "tur": "yapi",
+   "dosya": "Tower Bridge from Shad Thames.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Colin",
+   "en": 15287,
+   "boy": 7643
+  },
+  {
+   "anahtar": "GB_stonehenge",
+   "ad": "Stonehenge",
+   "tur": "yapi",
+   "dosya": "Stonehenge2007 07 30.jpg",
+   "lisans": "CC BY 2.0",
+   "yazar": "garethwiscombe",
+   "en": 2816,
+   "boy": 2112
+  },
+  {
+   "anahtar": "GB_magnacarta",
+   "ad": "Magna Carta (1215)",
+   "tur": "eser",
+   "dosya": "Magna Carta (British Library Cotton MS Augustus II.106).jpg",
+   "lisans": "Public domain",
+   "yazar": "Original authors were the barons and King John of England. Uploaded by Earthsoun",
+   "en": 7200,
+   "boy": 4800
+  },
+  {
+   "anahtar": "GB_westminster",
+   "ad": "Westminster Abbey",
+   "tur": "yapi",
+   "dosya": "Westminster Abbey - 02.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Carlos Delgado",
+   "en": 2800,
+   "boy": 2100
+  },
+  {
+   "anahtar": "GB_rosetta",
+   "ad": "Rozetta Taşı",
+   "tur": "eser",
+   "dosya": "Rosetta Stone.JPG",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Hans Hillewaert",
+   "en": 3665,
+   "boy": 4288
+  },
+  {
+   "anahtar": "GB_tudor",
+   "ad": "Tudor gülü",
+   "tur": "arma",
+   "dosya": "Tudor rose.svg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Ipankonin",
+   "en": 272,
+   "boy": 260
+  },
+  {
+   "anahtar": "GB_harita",
+   "ad": "Britanya İmparatorluğu · 1914",
+   "tur": "harita",
+   "mevcut": "ing"
+  }
+ ]
+}

@@ -1,0 +1,214 @@
+{
+ "kod": "UA",
+ "ad": "Ukrayna",
+ "kisiler": [
+  {
+   "anahtar": "shevchenko",
+   "ad": "Taras Şevçenko",
+   "rol": "ulusal şair, ressam",
+   "dosya": "Т. Г. Шевченко. Квітень 1859.jpg",
+   "lisans": "Public domain",
+   "yazar": "Andrey Denyer",
+   "en": 819,
+   "boy": 1114,
+   "not": "1859 fotoğrafı"
+  },
+  {
+   "anahtar": "hmelnitski",
+   "ad": "Bogdan Hmelnitski",
+   "rol": "hetman, devlet kurucusu",
+   "dosya": "Bohdan Khmelnytsky.jpg",
+   "lisans": "Public domain",
+   "yazar": "Bilinmeyen",
+   "en": 1544,
+   "boy": 2000,
+   "not": "dönem portresine dayanan tanınmış resim"
+  },
+  {
+   "anahtar": "yaroslav",
+   "ad": "Bilge Yaroslav",
+   "rol": "Kiev Rus büyük knezi",
+   "dosya": "Yaroslav the Wise.jpg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 768,
+   "boy": 1000,
+   "not": "17. yy Çarlık Unvanlığı (Titulyarnik) minyatürü; ölümünden sonra yapılmış, tanınmış"
+  },
+  {
+   "anahtar": "volodymyr",
+   "ad": "Büyük Volodimir",
+   "rol": "Kiev Rus knezi, Hristiyanlığı kabul",
+   "dosya": "Coin of Vladimir the Great.JPG",
+   "lisans": "Public domain",
+   "yazar": "Влад Федченко",
+   "en": 328,
+   "boy": 317,
+   "not": "dönemin parası (1000 civarı) üzerindeki portre"
+  },
+  {
+   "anahtar": "mazepa",
+   "ad": "İvan Mazepa",
+   "rol": "hetman",
+   "dosya": "Iwan Mazepa crop.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Martin Bernigeroth (de)",
+   "en": 730,
+   "boy": 926,
+   "not": "Bernigeroth gravürü"
+  },
+  {
+   "anahtar": "franko",
+   "ad": "İvan Franko",
+   "rol": "şair, yazar",
+   "dosya": "Іван Франко.jpg",
+   "lisans": "Public domain",
+   "yazar": "Edward Trzemeski",
+   "en": 1083,
+   "boy": 1684,
+   "not": "fotoğraf"
+  },
+  {
+   "anahtar": "lesya",
+   "ad": "Lesya Ukrainka",
+   "rol": "şair, oyun yazarı",
+   "dosya": "Lesya Ukrainka portrait.jpg",
+   "lisans": "Public domain",
+   "yazar": "н.",
+   "en": 1297,
+   "boy": 2061,
+   "not": "fotoğraf"
+  },
+  {
+   "anahtar": "hrushevsky",
+   "ad": "Mihaylo Hruşevski",
+   "rol": "tarihçi, UNR cumhurbaşkanı",
+   "dosya": "Hrushevskyi Mykhailo XX.jpg",
+   "lisans": "Public domain",
+   "yazar": "Bilinmeyen",
+   "en": 640,
+   "boy": 1003,
+   "not": "fotoğraf"
+  },
+  {
+   "anahtar": "skovoroda",
+   "ad": "Hryhoriy Skovoroda",
+   "rol": "filozof",
+   "dosya": "Hryhoriy Skovoroda.jpg",
+   "lisans": "Public domain",
+   "yazar": "portrait by unknown author",
+   "en": 516,
+   "boy": 700,
+   "not": "18. yy portresi"
+  },
+  {
+   "anahtar": "hurrem",
+   "ad": "Hürrem Sultan (Roxelana)",
+   "rol": "Osmanlı haseki sultanı, Ukrayna asıllı",
+   "dosya": "Titian - Portrait of a Woman (La Sultana Rossa).jpg",
+   "lisans": "Public domain",
+   "yazar": "Workshop of Titian",
+   "en": 684,
+   "boy": 875,
+   "not": "'La Sultana Rossa' — Tiziano atölyesi; Hürrem olduğu geleneksel olarak kabul edilir"
+  }
+ ],
+ "simgeler": [
+  {
+   "anahtar": "UA_bayrak",
+   "ad": "Ukrayna bayrağı",
+   "tur": "bayrak",
+   "dosya": "Flag of Ukraine.svg",
+   "lisans": "Public domain",
+   "yazar": "Government of Ukraine",
+   "en": 1200,
+   "boy": 800
+  },
+  {
+   "anahtar": "UA_arma",
+   "ad": "Ukrayna tarağı (Tryzub) arması",
+   "tur": "arma",
+   "dosya": "Coat of arms of Ukraine.svg",
+   "lisans": "Public domain",
+   "yazar": "Alex Khristov\nDesign: Vasyl Krychevsky (1873–1952)",
+   "en": 330,
+   "boy": 461
+  },
+  {
+   "anahtar": "UA_sofya",
+   "ad": "Kiev Aziz Sofya Katedrali",
+   "tur": "yapi",
+   "dosya": "80-391-0151 Kyiv St.Sophia's Cathedral RB 18 2 (cropped).jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Rbrechko",
+   "en": 4800,
+   "boy": 3603
+  },
+  {
+   "anahtar": "UA_lavra",
+   "ad": "Kiev Pecerska Lavra",
+   "tur": "yapi",
+   "dosya": "Лавра.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Falin",
+   "en": 4830,
+   "boy": 3034
+  },
+  {
+   "anahtar": "UA_repin",
+   "ad": "Zaporog Kazaklarının Sultan'a mektubu (Repin)",
+   "tur": "eser",
+   "mevcut_liste": "AMBLEM",
+   "dosya": "Ilja Jefimowitsch Repin - Reply of the Zaporozhian Cossacks - Yorck.jpg",
+   "en": 4122,
+   "boy": 2437,
+   "lisans": "Public domain",
+   "not": "Osmanlı sultanına cevap yazan Kazaklar; tanınmış tablo"
+  },
+  {
+   "anahtar": "UA_hotin",
+   "ad": "Hotin Kalesi",
+   "tur": "yapi",
+   "mevcut_liste": "AMBLEM",
+   "dosya": "73-250-0001 Khotyn Fortress RB.jpg",
+   "en": 3000,
+   "boy": 1993,
+   "lisans": "CC BY-SA 4.0",
+   "not": "Osmanlı-Lehistan-Kazak savaşlarının sahnesi"
+  },
+  {
+   "anahtar": "UA_altinkapi",
+   "ad": "Kiev Altın Kapı",
+   "tur": "yapi",
+   "dosya": "Golden Gate Kiev 2018 G1.jpg",
+   "lisans": "Public domain",
+   "yazar": "George Chernilevsky",
+   "en": 5120,
+   "boy": 3616
+  },
+  {
+   "anahtar": "UA_lviv",
+   "ad": "Lviv Opera ve Bale Tiyatrosu",
+   "tur": "yapi",
+   "dosya": "Lviv Theatre of Opera and Ballet.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Salvatore Babones",
+   "en": 5152,
+   "boy": 3864
+  },
+  {
+   "anahtar": "UA_harita_kiev",
+   "ad": "Kiev Rus · 1000",
+   "tur": "harita",
+   "hb_yil": "1000",
+   "hb_ad": "Kyivan Rus"
+  },
+  {
+   "anahtar": "UA_harita_kie",
+   "ad": "Kiev Rus · 1100",
+   "tur": "harita",
+   "mevcut": "kie",
+   "mevcut_liste": "TARIH"
+  }
+ ]
+}

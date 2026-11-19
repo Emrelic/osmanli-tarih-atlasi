@@ -1,0 +1,231 @@
+{
+ "kod": "CH",
+ "ad": "İsviçre",
+ "kisiler": [
+  {
+   "anahtar": "zwingli",
+   "ad": "Ulrich Zwingli",
+   "rol": "din önderi",
+   "dosya": "Huldrych Zwingli.jpg",
+   "lisans": "Public domain",
+   "yazar": "unbekannt nach Hans Asper",
+   "en": 608,
+   "boy": 752,
+   "kirp": [
+    6.0,
+    2.6,
+    0.2
+   ]
+  },
+  {
+   "anahtar": "calvin",
+   "ad": "Jean Calvin",
+   "rol": "din önderi",
+   "dosya": "John Calvin by Holbein.jpg",
+   "lisans": "Public domain",
+   "yazar": "anonyme (autrefois attributé à Hans Holbien d. J.)",
+   "en": 2943,
+   "boy": 3766
+  },
+  {
+   "anahtar": "rousseauch",
+   "ad": "Jean-Jacques Rousseau",
+   "rol": "filozof",
+   "dosya": "Jean-Jacques Rousseau (painted portrait).jpg",
+   "lisans": "Public domain",
+   "yazar": "Maurice Quentin de La Tour",
+   "en": 1448,
+   "boy": 2016,
+   "not": "Cenevre doğumlu; Fransa listesindeki 'rousseau' ile aynı görsel"
+  },
+  {
+   "anahtar": "euler",
+   "ad": "Leonhard Euler",
+   "rol": "matematikçi",
+   "dosya": "Leonhard Euler by Handmann .png",
+   "lisans": "Public domain",
+   "yazar": "Jakob Emanuel Handmann",
+   "en": 579,
+   "boy": 755
+  },
+  {
+   "anahtar": "paracelsus",
+   "ad": "Paracelsus",
+   "rol": "hekim",
+   "dosya": "Paracelsus.jpg",
+   "lisans": "Public domain",
+   "yazar": "After Quinten Metsys",
+   "en": 2802,
+   "boy": 3737
+  },
+  {
+   "anahtar": "dunant",
+   "ad": "Henry Dunant",
+   "rol": "Kızılhaç kurucusu",
+   "dosya": "Henry Dunant.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Benedict Wydooghe",
+   "en": 3096,
+   "boy": 4128
+  },
+  {
+   "anahtar": "jung",
+   "ad": "Carl Gustav Jung",
+   "rol": "psikolog",
+   "dosya": "Carl Gustav Jung.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "en": 493,
+   "boy": 768
+  },
+  {
+   "anahtar": "pestalozzi",
+   "ad": "Pestalozzi",
+   "rol": "eğitimci",
+   "dosya": "Johann Heinrich Pestalozzi.jpg",
+   "lisans": "Public domain",
+   "yazar": "",
+   "en": 405,
+   "boy": 600
+  },
+  {
+   "anahtar": "dufour",
+   "ad": "Guillaume-Henri Dufour",
+   "rol": "komutan, mühendis",
+   "dosya": "Guillaume-Henri Dufour.jpg",
+   "lisans": "Public domain",
+   "yazar": "Carl Friedrich Irminger",
+   "en": 480,
+   "boy": 617
+  },
+  {
+   "anahtar": "nikolausflue",
+   "ad": "Niklaus von Flüe",
+   "rol": "din önderi",
+   "dosya": "Bruder Klaus.jpg",
+   "lisans": "Public domain",
+   "yazar": "unknown, upload Adrian Michael",
+   "en": 855,
+   "boy": 1045
+  },
+  {
+   "anahtar": "bernoulli",
+   "ad": "Daniel Bernoulli",
+   "rol": "matematikçi",
+   "dosya": "Daniel Bernoulli 001.jpg",
+   "lisans": "Public domain",
+   "yazar": "Johann Jakob Haid / Johann Rudolf Huber",
+   "en": 613,
+   "boy": 1000
+  }
+ ],
+ "simgeler": [
+  {
+   "anahtar": "CH_bayrak",
+   "ad": "İsviçre bayrağı",
+   "tur": "bayrak",
+   "dosya": "Flag of Switzerland.svg",
+   "lisans": "Public domain",
+   "yazar": "Original: Unknown",
+   "en": 512,
+   "boy": 512
+  },
+  {
+   "anahtar": "CH_arma",
+   "ad": "İsviçre arması",
+   "tur": "arma",
+   "dosya": "Coat of arms of Switzerland.svg",
+   "lisans": "Public domain",
+   "yazar": "Redo by User:-xfi-",
+   "en": 604,
+   "boy": 669
+  },
+  {
+   "anahtar": "CH_matterhorn",
+   "ad": "Matterhorn",
+   "tur": "yapi",
+   "dosya": "Matterhorn from Domhütte - 2.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Photo: chil, on Camptocamp.org",
+   "en": 1610,
+   "boy": 1073
+  },
+  {
+   "anahtar": "CH_chillon",
+   "ad": "Chillon Şatosu",
+   "tur": "yapi",
+   "dosya": "Chillon Castle.jpg",
+   "lisans": "CC BY-SA 2.0",
+   "yazar": "Eric Hill",
+   "en": 3799,
+   "boy": 2622
+  },
+  {
+   "anahtar": "CH_kapel",
+   "ad": "Luzern Kapellbrücke",
+   "tur": "yapi",
+   "dosya": "Kapellbrücke.jpg",
+   "lisans": "CC BY 2.0",
+   "yazar": "bigbirdz",
+   "en": 3984,
+   "boy": 2656
+  },
+  {
+   "anahtar": "CH_bundesbrief",
+   "ad": "1291 Federal Antlaşma",
+   "tur": "eser",
+   "dosya": "Bundesbrief.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "en": 1030,
+   "boy": 908
+  },
+  {
+   "anahtar": "CH_jetdeau",
+   "ad": "Cenevre Jet d'Eau",
+   "tur": "yapi",
+   "dosya": "Jet d'Eau Geneva.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Boschtjan",
+   "en": 2288,
+   "boy": 1712
+  },
+  {
+   "anahtar": "CH_aslan",
+   "ad": "Luzern Ölen Aslan Anıtı",
+   "tur": "yapi",
+   "dosya": "Löwendenkmal Luzern.jpg",
+   "lisans": "CC BY 3.0",
+   "yazar": "Leiju",
+   "en": 3000,
+   "boy": 1996
+  },
+  {
+   "anahtar": "CH_aletsch",
+   "ad": "Aletsch Buzulu",
+   "tur": "yapi",
+   "dosya": "Aletsch Glacier.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Photograph by Mike Peel (www.mikepeel.net).",
+   "en": 2560,
+   "boy": 1920
+  },
+  {
+   "anahtar": "CH_kizilhac",
+   "ad": "Kızılhaç bayrağı",
+   "tur": "bayrak",
+   "dosya": "Flag of the Red Cross.svg",
+   "lisans": "Public domain",
+   "yazar": "Louis Appia and Henri Dufour",
+   "en": 900,
+   "boy": 600
+  },
+  {
+   "anahtar": "CH_harita",
+   "ad": "İsviçre Konfederasyonu · 1500",
+   "tur": "harita",
+   "hb_yil": "1500",
+   "hb_ad": "Swiss Confederation"
+  }
+ ]
+}

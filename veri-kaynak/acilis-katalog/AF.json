@@ -1,0 +1,266 @@
+{
+ "kod": "AF",
+ "ad": "Afganistan",
+ "kisiler": [
+  {
+   "anahtar": "durrani",
+   "ad": "Ahmed Şah Dürrani",
+   "rol": "Dürrani İmparatorluğu kurucusu",
+   "dosya": "Portrait of Ahmad Shah Durrani.jpg",
+   "lisans": "Public domain",
+   "yazar": "Original drawing by ’Abd al-Ghafur Breshna, this painting by",
+   "en": 420,
+   "boy": 600,
+   "not": "Abdülğafur Breşna çizimi"
+  },
+  {
+   "anahtar": "mahmud",
+   "ad": "Gazneli Mahmud",
+   "rol": "Gazneli hükümdarı",
+   "dosya": "Mahmud of Ghazni and supplicant old woman.jpg",
+   "lisans": "Public domain",
+   "yazar": "anonymous",
+   "en": 385,
+   "boy": 575,
+   "not": "dönem minyatürü, küçük çözünürlük"
+  },
+  {
+   "anahtar": "rumi",
+   "ad": "Mevlânâ Celâleddîn-i Rûmî",
+   "rol": "şair, mutasavvıf (Belh doğumlu)",
+   "dosya": "مولانا اثر حسین بهزاد (cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": "Hossein Behzad",
+   "en": 624,
+   "boy": 697,
+   "not": "Hüseyin Behzad minyatürü; Türkiye ile ortak"
+  },
+  {
+   "anahtar": "dostmuhammed",
+   "ad": "Dost Muhammed Han",
+   "rol": "emir",
+   "dosya": "Dost Mohammad Khan of Kabul.png",
+   "lisans": "Public domain",
+   "yazar": "Godfrey Vigne",
+   "en": 1505,
+   "boy": 1977,
+   "not": "Godfrey Vigne çizimi, 1830'lar",
+   "kirp": [
+    4.8,
+    2.7,
+    0.16
+   ]
+  },
+  {
+   "anahtar": "amanullah",
+   "ad": "Amanullah Han",
+   "rol": "kral, reformcu",
+   "dosya": "Emir of Afghan (Aman Allah) (CNews) - btv1b53123463g.jpg",
+   "lisans": "Public domain",
+   "yazar": "Agence Rol",
+   "en": 6155,
+   "boy": 8580,
+   "not": "1920'ler fotoğrafı (Agence Rol)"
+  },
+  {
+   "anahtar": "abdurrahman",
+   "ad": "Abdurrahman Han",
+   "rol": "emir, 'Demir Emir'",
+   "dosya": "Portrait of Abdur Rahman Khan of Afghanistan.jpg",
+   "lisans": "Public domain",
+   "yazar": "John Alfred Gray",
+   "en": 465,
+   "boy": 640
+  },
+  {
+   "anahtar": "sherali",
+   "ad": "Şir Ali Han",
+   "rol": "emir",
+   "dosya": "Sher Ali (1825-1879) Amir of Afghanistan, photographed in 1869 by John Burke.jpg",
+   "lisans": "Public domain",
+   "yazar": "John Burke / Adam Cuerden",
+   "en": 2378,
+   "boy": 2880,
+   "not": "John Burke fotoğrafı, 1869"
+  },
+  {
+   "anahtar": "zahirsah",
+   "ad": "Zahir Şah",
+   "rol": "kral",
+   "dosya": "Portrait of King Zahir Shah of Afghanistan in 1963.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "en": 1240,
+   "boy": 1600
+  },
+  {
+   "anahtar": "nadirsah",
+   "ad": "Nadir Şah",
+   "rol": "kral",
+   "dosya": "Mohammed Nadir Shah.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "en": 317,
+   "boy": 477
+  },
+  {
+   "anahtar": "vezirekber",
+   "ad": "Vezir Ekber Han",
+   "rol": "komutan",
+   "dosya": "Mohammad Akbar Khan.jpg",
+   "lisans": "Public domain",
+   "yazar": "Vincent Eyre",
+   "en": 416,
+   "boy": 600,
+   "not": "Vincent Eyre çizimi, 1840'lar"
+  },
+  {
+   "anahtar": "habibullah",
+   "ad": "Habibullah Han",
+   "rol": "emir (ek)",
+   "dosya": "Habibullah Khan.jpg",
+   "lisans": "Public domain",
+   "yazar": "Afghan government",
+   "en": 329,
+   "boy": 556
+  },
+  {
+   "anahtar": "sahsuca",
+   "ad": "Şah Şüca Dürrani",
+   "rol": "Dürrani hükümdarı (ek)",
+   "dosya": "Shah Shuja Durrani 1835.png",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "en": 791,
+   "boy": 960
+  }
+ ],
+ "simgeler": [
+  {
+   "anahtar": "AF_bayrak",
+   "ad": "Afganistan bayrağı (2013–2021)",
+   "tur": "bayrak",
+   "dosya": "Flag of Afghanistan (2013–2021).svg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "en": 900,
+   "boy": 600
+  },
+  {
+   "anahtar": "AF_bayrak1931",
+   "ad": "Afganistan bayrağı (1931–1973, krallık)",
+   "tur": "bayrak",
+   "dosya": "Flag of Afghanistan (1931–1973).svg",
+   "lisans": "Public domain",
+   "yazar": "Orange Tuesday at en.wikipedia.",
+   "en": 900,
+   "boy": 600
+  },
+  {
+   "anahtar": "AF_arma",
+   "ad": "Afganistan arması (2013–2021)",
+   "tur": "arma",
+   "dosya": "Emblem of Afghanistan (2013–2021) (variant).svg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Sodacan This W3C-unspecified vector image was created with I",
+   "en": 486,
+   "boy": 500
+  },
+  {
+   "anahtar": "AF_harita",
+   "ad": "Gazneliler · 1000",
+   "tur": "harita",
+   "hb_yil": "1000",
+   "hb_ad": "Ghaznavid Emirate"
+  },
+  {
+   "anahtar": "AF_bamiyan",
+   "ad": "Bamiyan Budaları (yıkımdan önce)",
+   "tur": "yapi",
+   "dosya": "Taller Buddha of Bamiyan before and after destruction.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Buddha Bamiyan 1963.jpg: UNESCO/A Lezine; Original uploader ",
+   "en": 987,
+   "boy": 814
+  },
+  {
+   "anahtar": "AF_mavicami",
+   "ad": "Mezar-ı Şerif Mavi Camii",
+   "tur": "yapi",
+   "dosya": "Blue Mosque (general view), Mazar-i Sharif, Afghanistan.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Saeedeh Joshaghani et al.",
+   "en": 924,
+   "boy": 534
+  },
+  {
+   "anahtar": "AF_cam",
+   "ad": "Cam Minaresi",
+   "tur": "yapi",
+   "dosya": "Minaret Jam ghor Afghanistan.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "AhmadElhan",
+   "en": 3072,
+   "boy": 2304
+  },
+  {
+   "anahtar": "AF_herat",
+   "ad": "Herat Kalesi",
+   "tur": "yapi",
+   "dosya": "The Citadel of Herat.JPG",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Indiana jo",
+   "en": 2736,
+   "boy": 1824
+  },
+  {
+   "anahtar": "AF_herat_cuma",
+   "ad": "Herat Cuma Camii",
+   "tur": "yapi",
+   "dosya": "Herat Masjidi Jami courtyard.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Sven Dirks, Wien",
+   "en": 1680,
+   "boy": 1080
+  },
+  {
+   "anahtar": "AF_tilyatepe",
+   "ad": "Tillya Tepe altın taç",
+   "tur": "eser",
+   "dosya": "TillyaTepeCrown.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Artacoana",
+   "en": 1299,
+   "boy": 1096
+  },
+  {
+   "anahtar": "AF_gazne",
+   "ad": "Gazne minareleri",
+   "tur": "yapi",
+   "dosya": "Robert Sale - Citadel and Fortress of Ghuznee with the Minarets - GAC 11421.jpg",
+   "lisans": "Public domain",
+   "yazar": "William Louis Walton",
+   "en": 1393,
+   "boy": 975
+  },
+  {
+   "anahtar": "AF_babur",
+   "ad": "Babür Bahçesi (Kabil)",
+   "tur": "yapi",
+   "dosya": "Bagh-e Babur 2015.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Danial f4",
+   "en": 2000,
+   "boy": 1909,
+   "ek": true
+  },
+  {
+   "anahtar": "AF_harita_durrani",
+   "ad": "Dürrani Afganistanı · 1783",
+   "tur": "harita",
+   "hb_yil": "1783",
+   "hb_ad": "Afghanistan",
+   "ek": true
+  }
+ ]
+}

@@ -1,0 +1,179 @@
+{
+ "kod": "IT",
+ "ad": "İtalya",
+ "kisiler": [
+  {
+   "anahtar": "leonardo",
+   "ad": "Leonardo da Vinci",
+   "rol": "ressam, mucit, bilim insanı",
+   "mevcut": "leonardo"
+  },
+  {
+   "anahtar": "sezar",
+   "ad": "Jül Sezar",
+   "rol": "komutan, devlet adamı",
+   "mevcut": "sezar"
+  },
+  {
+   "anahtar": "michelangelo",
+   "ad": "Michelangelo",
+   "rol": "heykeltıraş, ressam, mimar",
+   "mevcut": "michelangelo"
+  },
+  {
+   "anahtar": "dante",
+   "ad": "Dante Alighieri",
+   "rol": "şair",
+   "dosya": "Dante Alighieri's portrait by Sandro Botticelli.jpg",
+   "lisans": "Public domain",
+   "yazar": "After Sandro Botticelli",
+   "en": 850,
+   "boy": 1296,
+   "not": "Botticelli'ye atfedilen, sonradan yapılmış tanınmış portre",
+   "kirp": [
+    2.8,
+    2.6,
+    0.3
+   ]
+  },
+  {
+   "anahtar": "augustus",
+   "ad": "Augustus",
+   "rol": "ilk Roma imparatoru",
+   "mevcut": "augustus"
+  },
+  {
+   "anahtar": "galileo",
+   "ad": "Galileo Galilei",
+   "rol": "bilim insanı",
+   "mevcut": "galileo"
+  },
+  {
+   "anahtar": "raffaello",
+   "ad": "Raffaello",
+   "rol": "ressam, mimar",
+   "dosya": "Raffaello Sanzio.jpg",
+   "lisans": "Public domain",
+   "yazar": "Raphael",
+   "en": 3898,
+   "boy": 5315,
+   "not": "kendi otoportresi"
+  },
+  {
+   "anahtar": "machiavelli",
+   "ad": "Machiavelli",
+   "rol": "devlet adamı, düşünür",
+   "dosya": "Portrait of Niccolò Machiavelli by Santi di Tito.jpg",
+   "lisans": "Public domain",
+   "yazar": "Santi di Tito",
+   "en": 1244,
+   "boy": 1600,
+   "not": "Santi di Tito, Palazzo Vecchio"
+  },
+  {
+   "anahtar": "garibaldi",
+   "ad": "Garibaldi",
+   "rol": "komutan, birliğin kahramanı",
+   "mevcut": "garibaldi"
+  },
+  {
+   "anahtar": "marcopolo",
+   "ad": "Marco Polo",
+   "rol": "tüccar, seyyah",
+   "dosya": "Marco Polo Mosaic from Palazzo Tursi.jpg",
+   "lisans": "Public domain",
+   "yazar": "Salviati",
+   "en": 1024,
+   "boy": 1286,
+   "not": "Salviati mozaiği (Palazzo Tursi, Cenova), sonradan yapılmış"
+  }
+ ],
+ "simgeler": [
+  {
+   "anahtar": "IT_bayrak",
+   "ad": "İtalya bayrağı",
+   "tur": "bayrak",
+   "mevcut": "ITA"
+  },
+  {
+   "anahtar": "IT_arma",
+   "ad": "İtalya devlet amblemi",
+   "tur": "arma",
+   "dosya": "Emblem of Italy.svg",
+   "lisans": "Public domain",
+   "yazar": "F l a n k e r from the original paint of Paolo Pas",
+   "en": 710,
+   "boy": 808
+  },
+  {
+   "anahtar": "IT_harita",
+   "ad": "Roma İmparatorluğu · Traianus devri",
+   "tur": "harita",
+   "hb_yil": "100",
+   "hb_ad": "Roman Empire",
+   "not": "en geniş sınır MS 117; en yakın dilim 100"
+  },
+  {
+   "anahtar": "IT_spqr",
+   "ad": "SPQR",
+   "tur": "muhur",
+   "mevcut": "rom"
+  },
+  {
+   "anahtar": "IT_kolezyum",
+   "ad": "Kolezyum",
+   "tur": "yapi",
+   "mevcut": "kolezyum"
+  },
+  {
+   "anahtar": "IT_pantheon",
+   "ad": "Pantheon",
+   "tur": "yapi",
+   "dosya": "Pantheon Rome.jpg",
+   "lisans": "Public domain",
+   "yazar": "No machine-readable author provided. AlMare assume",
+   "en": 1600,
+   "boy": 1200
+  },
+  {
+   "anahtar": "IT_pisa",
+   "ad": "Pisa Kulesi",
+   "tur": "yapi",
+   "dosya": "Leaning Tower of Pisa.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Softeis",
+   "en": 750,
+   "boy": 1000
+  },
+  {
+   "anahtar": "IT_david",
+   "ad": "Michelangelo'nun Davud'u",
+   "tur": "eser",
+   "dosya": "Michelangelo's David 2015.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Livioandronico2013",
+   "en": 2388,
+   "boy": 3824
+  },
+  {
+   "anahtar": "IT_monalisa",
+   "ad": "Mona Lisa",
+   "tur": "eser",
+   "dosya": "Mona Lisa, by Leonardo da Vinci, from C2RMF retouched.jpg",
+   "lisans": "Public domain",
+   "yazar": "Leonardo da Vinci",
+   "en": 7479,
+   "boy": 11146
+  },
+  {
+   "anahtar": "IT_venus",
+   "ad": "Venüs'ün Doğuşu",
+   "tur": "eser",
+   "dosya": "Sandro Botticelli 046.jpg",
+   "lisans": "Public domain",
+   "yazar": "Sandro Botticelli",
+   "en": 2048,
+   "boy": 1322
+  }
+ ]
+}
