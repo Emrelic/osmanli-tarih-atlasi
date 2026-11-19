@@ -1,0 +1,109 @@
+[
+  {
+    "konu": "1a) Muaskar (Mascara) 1841-05-30 - Fransa girisi",
+    "sinif": "oneri",
+    "yerlesimler": [
+      {"yer": "Muaskar", "dosya": "data/yerlesimler_afrika.js", "eski_sinir": "1841-05-30 (atlasta ZATEN var)", "yeni_sinir": "1841-05-30 (degisiklik yok; kaynak eklenebilir)", "once_sahip": "abdulkadir", "sonra_sahip": "fransa-cumhuriyet"}
+    ],
+    "kaynak": "Camille Rousset, La Conquete de l'Algerie 1841-1857, t.I (Plon 1889), s.35 (archive.org/stream/laconqutedelal00rous/laconqutedelal00rous_djvu.txt): «Il ne tenta pas plus serieusement de defendre Mascara qu'il n'avait defendu Takdemt. L'armee y arriva le 30 mai. La ville, absolument deserte, n'etait heureusement pas detruite.» Yil: ayni bolum s.32-35, Bugeaud Takdemt seferi 18 mayis (Takdemt 25-26 mayis), t.I bolum IV basinda 'mars 1841' gonderi; yil 1841 bolum duzeninden (cumle gunu 30 mai, yili metin icinde cumlede yok - bolum/sira cikarimi). Not: 'arriva' = ordunun girisi; Rousset s.37-45 garnizon birakildigini ve La Moriciere'in Temmuz 1841'de Mascara'da oldugunu yazar (kalici isgal).",
+    "ic_not": "Atlas kaydi (abdulkadir t 1841-05-30 / fransa-cumhuriyet f 1841-05-30) Rousset ile TUTARLI. Yeni sinir onerisi yok. Kaynak alanina Rousset s.35 eklenirse tanikli olur. Yil, cumlede degil bolum duzeninden okundu (beyan).",
+    "kunye_kontrol": "abdulkadir f 1832-11-22 t 1847-12-23 icinde; fransa-cumhuriyet f 1792-09-22 (acik uc) icinde."
+  },
+  {
+    "konu": "1b) Dellis (Dellys) 1844-05-08 - Fransa girisi",
+    "sinif": "oneri",
+    "yerlesimler": [
+      {"yer": "Dellîs", "dosya": "data/yerlesimler_afrika.js", "eski_sinir": "1844-03-04 (yuvarlama; abdulkadir t / fransa-cumhuriyet f)", "yeni_sinir": "1844-05-08", "once_sahip": "abdulkadir", "sonra_sahip": "fransa-cumhuriyet"}
+    ],
+    "kaynak": "Rousset t.I s.293-294 (laconqutedelal00rous_djvu.txt): «il mena l'autre [colonne] a Dellys, petite ville maritime, situee a sept lieues de distance, au nord-est. Il y arriva le 8 mai ; une flottille de bateaux a vapeur, venus d'Alger, l'y attendait avec un chargement de vivres.» ... «Le marechal y laissa une garnison de deux cent cinquante hommes et reprit, le 11, le chemin de Bordj-Mnaiel.» Yil 1844: s.292 «En 1844, il meditait une grande operation... Dellys» + bolum VI basligi 'Occupation de Dellys' + 'marechal Bugeaud' (mareşal 1843) + s.299-300 (Flissa teslimi 23 mai, Bugeaud 26 mai Dellys'ten denize cikti).",
+    "ic_not": "8 mayis = Bugeaud'nun girisi; 11 mayis'ta 250 kisilik garnizon birakildi (kalici isgal). Oneri f=1844-05-08. Dikkat: Kronolojide Dellys icin 1844-03-04 civari madde varsa +-30 gun kurali (Degismez 2) 1844-05-08'e tasinmali; atlastaki 1844-03-04 aslinda Biskra'nin gunu (Rousset s.272-273: Aumale Biskra'da 4 Mart 1844 - yuvarlama). Sahiplik oncesi: Rousset Dellys'te Abd-el-Kader'in degil Kabilya (Ben-Salem halifeligi) etkisi gosterir; atlas 'abdulkadir' kaydi yakin tahmin - BEYAN onerilir.",
+    "kunye_kontrol": "abdulkadir t 1847-12-23 icinde; fransa-cumhuriyet acik uc."
+  },
+  {
+    "konu": "1c) Tebessa (Tebesse) 1842-05-31 Negrier sutunu",
+    "sinif": "celiski",
+    "yerlesimler": [
+      {"yer": "Tebesse", "dosya": "data/yerlesimler_afrika.js", "eski_sinir": "1844-03-04 (v: konstantin-beyligi t; s: fransa-cumhuriyet f)", "yeni_sinir": "1842-05-31 (YALNIZ giris/ziyaret; kalici statu icin kaynak yok - uygulanmasi onerilmez)", "once_sahip": "konstantin-beyligi (v)", "sonra_sahip": "fransa-cumhuriyet"}
+    ],
+    "kaynak": "Rousset t.I s.250-251: «Parti, le 27 mai, d'Ain-Babouch avec trois mille hommes, le general arriva, le 31 au soir, sous les murs de Tebessa. ... bientot les couleurs francaises flotterent au-dessus de l'antique Theveste» ; Negrier raporu: «les clefs de leur ville; je les pris au nom du Roi.» Sonra «le general venait de reprendre, le 3 juin, la direction du nord». Yil 1842: s.246 «la campagne de 1842 en eut un peu davantage. Dans le mois de mai...» (ayni 'troisieme operation du mois de mai'). t.II (laconqutedelal02rous) 'Arrive sous Tebessa sans coup ferir' Randon, yil 1845 civari: yeniden sutun gerektirmis, yani 1842 kalici isgal degil.",
+    "ic_not": "CELISKI: kolon 5 gun kaldi, anahtarlar teslim edildi, 3 Haziran'da kuzeye donuldu; garnizon bilgisi yok. Atlasta 'Konstantin beyligi vassal 1830-1844' de tarihsel olarak sorunlu (Ahmed Bey 1837'de Konstantin'i kaybetti), ama Tebessa'nin kalici Fransiz idaresinin gunu Rousset'ten cikmiyor. 1842-05-31 'giris' olayidir, devir degil; atlas 'fransa f' olarak yazarsa Degismez 3 riski. Oneri: kronolojiye 1842-05-31 'Negrier Tebessa'ya girdi, teslim' maddesi (olay) ve sinir 1844-03-04 yuvarlamasi icin AYRI kaynak (Biskra gunu degil Tebessa kalici garnizon gunu - TDV/ doktora tezi) aranmali.",
+    "kunye_kontrol": "konstantin-beyligi f 1830-07-05 t 1844-03-04 (kunye ucu = yuvarlama gunu); fransa-cumhuriyet acik uc."
+  },
+  {
+    "konu": "1d) Mesile, Bu Saade, Ayn Temusent, Suk Ahras, Hansele, Ayn Beyda 1844-03-04 yuvarlamasi",
+    "sinif": "dogrulanamadi",
+    "yerlesimler": [
+      {"yer": "Mesîle", "dosya": "data/yerlesimler_afrika.js", "eski_sinir": "1844-03-04", "yeni_sinir": "dogrulanamadi", "once_sahip": "abdulkadir", "sonra_sahip": "fransa-cumhuriyet"},
+      {"yer": "Bû Sa'âde", "dosya": "data/yerlesimler_afrika.js", "eski_sinir": "1844-03-04", "yeni_sinir": "dogrulanamadi", "once_sahip": "abdulkadir", "sonra_sahip": "fransa-cumhuriyet"},
+      {"yer": "Ayn Temûşent", "dosya": "data/yerlesimler_afrika.js", "eski_sinir": "1844-03-04", "yeni_sinir": "dogrulanamadi", "once_sahip": "abdulkadir", "sonra_sahip": "fransa-cumhuriyet"},
+      {"yer": "Sûk Ahrâs", "dosya": "data/yerlesimler_afrika.js", "eski_sinir": "1844-03-04", "yeni_sinir": "dogrulanamadi", "once_sahip": "konstantin-beyligi (v)", "sonra_sahip": "fransa-cumhuriyet"},
+      {"yer": "Hanşele (Khenchela)", "dosya": "data/yerlesimler_h2_kuzeyafrika.js", "eski_sinir": "1844-03-04", "yeni_sinir": "dogrulanamadi", "once_sahip": "konstantin-beyligi (v)", "sonra_sahip": "fransa-cumhuriyet"},
+      {"yer": "Aynı Beydâ", "dosya": "data/yerlesimler_h2_kuzeyafrika.js", "eski_sinir": "1844-03-04", "yeni_sinir": "dogrulanamadi", "once_sahip": "konstantin-beyligi (v)", "sonra_sahip": "fransa-cumhuriyet"}
+    ],
+    "kaynak": "Rousset t.I-II taranmistir; bu yerler icin gun yok. Ilgili bulgular: Msila: 11 Haziran 1841 Negrier 'entra sans coup ferir' (s.244) - akin, garnizon yok, Mokrani otoritesi yeniden kuruldu (Mesîle icin kalici devir DEGIL). Bou-Sada: Sillegue 'le 20 octobre ... ouvrit sans difficulte ses portes' (s.259; 'course de police') - gecici. Ain-Beida: t.II'de 1845'te Fransiz 'poste' var (Harakta ve Nemencha 5 haziranda kusatti) - kuruluş gunu yok. Ain-Temouchent: t.II'de 1845'te Fransiz poste var - gun yok. Souk-Ahras, Khenchela: Rousset'te gun yok. 4 Mart 1844 = Biskra'ya Aumale girisi (Rousset s.272 civari, atlas Biskra sinirinin de kaynagi).",
+    "ic_not": "Bu 6 yer icin 1844-03-04 Biskra gununden yuvarlamadir; Rousset ne destekler ne curutur. Her yer icin ayri (TDV/ DergiPark/ doktora tezi) kaynak gerekir; Mesile ve Bu Saade icin Rousset 1841-42 akinlarini gosterdigi halde bunlar kalici devir degildir - atlasi 1841/42'ye cekmeyin.",
+    "kunye_kontrol": "n/a (degisiklik onerilmiyor)."
+  },
+  {
+    "konu": "2a) Mostar 1945-02-14",
+    "sinif": "oneri",
+    "yerlesimler": [
+      {"yer": "Mostar", "dosya": "data/yerlesimler.js", "eski_sinir": "1945-05-06", "yeni_sinir": "1945-02-14", "once_sahip": "hirvatistan-bagimsiz", "sonra_sahip": "yugoslavya"}
+    ],
+    "kaynak": "Vladimir Šumanović, «Pitanje autentičnosti izvješća 8. dalmatinskog korpusa Generalštabu Jugoslavenske armije od 25. veljače 1945. o Mostarskoj operaciji», Časopis za suvremenu povijest (ČSP) 50/1 (2018), s.143-161, DOI 10.22586/csp.v50i1.38 (hrcak.srce.hr/file/295135; PyMuPDF ile dizin okundu). s.143: «Zauzimanjem Drežnice 16. veljače 1945. završena je Mostarska operacija, u kojoj su postrojbe Narodnooslobodilačke vojske Jugoslavije (NOVJ) zauzele čitav prostor Hercegovine uz iznimku Konjica i manjih mjesta u njegovoj okolici.» s.145 (PDF s.3): «Nakon zauzimanja Mostara, odnosno nakon 14. veljače likvidirano je sedam mostarskih franjevaca...»",
+    "ic_not": "Tanik DOLAYLI: 'zauzimanje Mostara, odnosno (yani) 14. veljace' - cumle Mostar'in zaptini 14 Subat'a baglar ama gunu acik cumle olarak vermez ('sonrasi' okunabilir); ikinci bagimsiz kaynak (orn. Zbornik NOR, Grahovac 'Mostarska operacija' 1986 veya TDV/HE) bulunursa 'cift teyit' yazilir, aksi halde BEYANLI. Hrvatska enciklopedija «Mostar» (enciklopedija.hr/clanak/mostar): «Nakon oslobodenja 1944. priključen je Bosni i Hercegovini» - YIL ÇELİŞKİSİ: HE 1944, ČSP 1945-02-14 (Mostar operasyonu 27 Ocak-16 Subat 1945); ČSP birincil askeri belgeleri tartisan hakemli makale, HE yil cumlesi bagimsiz kaynaga dayanmiyor: 1945 tercih, celiski ic_not'ta iki kaynakla beyan. NDH kunye t 1945-05-08 icinde; 1945-02-14 NDH'nin suren varligiyla celisir degil (kentin kaybi). Kronoloji: 1945-05-06 civari Mostar maddesi varsa Degismez 2 geregi 1945-02-14'e tasinmali/yeni madde.",
+    "kunye_kontrol": "hirvatistan-bagimsiz f 1941-04-10 t 1945-05-08 (14 Sub icinde); yugoslavya t 1945-11-29 icinde."
+  },
+  {
+    "konu": "2b) Blagay (Blagaj) 1945-02-14 (Mostar gununden, abi merkez)",
+    "sinif": "oneri",
+    "yerlesimler": [
+      {"yer": "Blagay", "dosya": "data/yerlesimler_zincir64.js", "eski_sinir": "1945-05-06", "yeni_sinir": "1945-02-14 (BEYANLI YAKLASIKLIK, ABI MERKEZ: Mostar 11,4 km; kaynak zaten 'gun komsudan: Mostar')", "once_sahip": "hirvatistan-bagimsiz", "sonra_sahip": "yugoslavya"}
+    ],
+    "kaynak": "Blagay'in kendi gunu ČSP makalesinde YOK (metinde Blagaj gecmiyor). Mostar gunu kaynagi: Šumanović, ČSP 50/1 (2018) s.143-145 (bkz. 2a). Atlas Blagay zinciri zaten 'ABI MERKEZ Mostar - gun komsudan'.",
+    "ic_not": "Zincir Mostar'dan devralindigi icin Mostar duzeltilirse Blagay da ayni gune cekilmeli (tutarlilik). Blagaj'in kendi gunu icin ayri kaynak bulunmadi.",
+    "kunye_kontrol": "hirvatistan-bagimsiz t 1945-05-08, yugoslavya t 1945-11-29 icinde."
+  },
+  {
+    "konu": "2c) Bijeljina ve Orasje 1945-05-31",
+    "sinif": "dogrulanamadi",
+    "yerlesimler": [
+      {"yer": "Bijeljina", "dosya": "data/yerlesimler_halef_1946.js", "eski_sinir": "1945-05-31 (hirvatistan-bagimsiz t / yugoslavya f; 'komsu Tuzla emsali')", "yeni_sinir": "dogrulanamadi", "once_sahip": "hirvatistan-bagimsiz", "sonra_sahip": "yugoslavya"},
+      {"yer": "Orašje", "dosya": "data/yerlesimler_halef_1946.js", "eski_sinir": "1945-05-31", "yeni_sinir": "dogrulanamadi", "once_sahip": "hirvatistan-bagimsiz", "sonra_sahip": "yugoslavya"}
+    ],
+    "kaynak": "ČSP makalesi yalnizca Hercegovina/Mostar operasyonunu kapsar; Bijeljina/Orasje yok. HE 'bijeljina' ve 'orasje' maddelerinde (enciklopedija.hr) 1941-45 gunu yok. Not: atlas 05-31 (Tuzla emsali) 05-06'dan farkli; Mostar 05-06 degil 02-14 oldugundan bu iki yer Mostar'dan turetilemez (Bijeljina NE Bosna, Orasje Posavina: farkli cephe).",
+    "ic_not": "Kaynak bulunamadi; atlas 'emsal' kaydi korunur (beyanli). Onerilen aday kaynaklar: Zbornik NOR IV/ 3. Armija ve 2. Korpus (Bijeljina), HE 'Narodnooslobodilacki rat' - bu turda okunmadi.",
+    "kunye_kontrol": "n/a"
+  },
+  {
+    "konu": "3) Gumru (Aleksandropol) 1918-05-16 Turk ordulari kontrolu",
+    "sinif": "celiski",
+    "yerlesimler": [
+      {"yer": "Gümrü (Aleksandropol)", "dosya": "data/yerlesimler_ek26.js", "eski_sinir": "1918-05-15 (transkafkasya t / d f)", "yeni_sinir": "1918-05-16 (Bal) - TDV kazim-karabekir '15 Mayis'ta Gumru'ye girdi' ile celisir", "once_sahip": "transkafkasya", "sonra_sahip": "osmanli (d)"}
+    ],
+    "kaynak": "Halil Bal, «Brest-Litovsk Antlasmasi'ndan Sonra Turkiye ve Ermeniler», DergiPark https://dergipark.org.tr/en/download/article-file/9913 (27 s., dergi adi PDF'den okunamadi), baslik «Gümrü (16 Mayıs 1918) ve Karakilise'nin (27 Mayıs 1918) Zaptı», s.46 (PDF s.22; dergi s.25'ten baslar): «15 Mayıs 1918 akşama doğru Gümrü'den gelen bir heyet teslim şartlarını görüşmek ve şehri boşaltmak için zaman istemişti. Gümrü ve civarı 16 Mayıs 1918'de Türk orduları tarafından kontrol altına alındı.» (PyMuPDF ile gövdeden birebir.) Mondros: Bal s.48-49: 30 Ekim 1918 Mutareke 11. madde, 'Kars ve Ardahan Ermeniler tarafindan yeniden isgal edildi' - Gumru'ye ozgu 4 Aralik 1918 gunu YOK.",
+    "ic_not": "CELISKI: atlas f=1918-05-15 (TDV kazim-karabekir 'giris'); Bal ayrintili: 15 Mayis aksami heyet geldi, 16 Mayis kontrol. Kural: TDV celiskide esas; ancak TDV 'girdi' (giris) der, Bal 'kontrol altina alindi' (devir) - iki ayri anlam, ic_not'ta iki kaynakla beyan; devir gunu icin 05-16 onerilir, TDV 05-15 okumasi ic_not'a. Kapanis 1918-12-04 (Igdir komsusundan) Bal'da dogrulanamadi: Bal yalniz Mondros 30 Ekim 1918 ve geri cekilme baslangicini verir. Ermenistan DC kunye f 1918-05-28: 1918-12-04 oncesi Gumru 05-28..12-04 arasi hangi sahip? atlas d (Osmanli) 05-15..12-04 yazar; Batum Antlasmasi (4 Haz 1918) sonrasi Osmanli askerî kontrolu - kunye catismasi degil ama kaynak teyit borcu.",
+    "kunye_kontrol": "transkafkasya f 1917-11-07 t 1918-05-28 (kunye ucu 28 Mayis; atlas yerlesim t 05-15 -> 05-16 kunyenin icinde); ermenistan-demokratik-cumhuriyeti f 1918-05-28 t 1920-12-02."
+  },
+  {
+    "konu": "4) Rudnik / Takova Osmanli gecisi 1458 (atlas 1459-06-20)",
+    "sinif": "celiski",
+    "yerlesimler": [
+      {"yer": "Rudnik", "dosya": "data/yerlesimler_ek29.js", "eski_sinir": "1459-06-20 (sirp-despotlugu t / d f)", "yeni_sinir": "1458 yili (Rudnik zaptedildi; gun/ay yok)", "once_sahip": "sirp-despotlugu", "sonra_sahip": "osmanli (d)"},
+      {"yer": "Takova (Takovo)", "dosya": "data/yerlesimler_sahne1108.js", "eski_sinir": "1459-06-20 (ABI MERKEZ Rudnik)", "yeni_sinir": "Rudnik'i izler; kendi kaynagi yok", "once_sahip": "sirp-despotlugu", "sonra_sahip": "osmanli (d)"}
+    ],
+    "kaynak": "TDV Islam Ansiklopedisi «Mahmud Pasa» (Tekindag) https://islamansiklopedisi.org.tr/mahmud-pasa: «862'de (1458) Sırp meselesinin halledilmesiyle görevlendirildi. ... Reseva ve Kuruca gibi kaleleri aldı. Semendire'yi ele geçiremediyse de Ostrovica ve Rudnik'i zaptetti, Güvercinlik (Golubac) Kalesi'ni alıp (Ramazan 862 / Temmuz 1458) Macaristan'a akıncılar gönderdi ve ardından Üsküp'te bulunan padişahın yanına döndü.» Karsilastirma TDV «Semendire»: «Osmanlılar 862 (1458) ilkbaharında Bela Stena, Resava, Viševac ve Žrnov (Avala) kalelerini aldılar, fakat ... Semendire ... hâkim olamadılar»; «20 Haziran 1459'da Lazar Brankoviç'in dul eşi Helena kaleyi Osmanlılar'a teslim etti.» (TDV rudnik maddesi yok.)",
+    "ic_not": "CELISKI (yil): TDV 'mahmud-pasa' Rudnik'in zaptini 1458 yazar (gun yok; Golubac Ramazan 862 = 3 Temmuz-1 Agustos 1458'den once siralanir ama tarihlenmez); atlas Rudnik/Takova'yi Semendire'nin 20 Haziran 1459'una baglamis (kaynak DEVRALMA/Semendire). Rudnik, Semendire ve Golubac TDV'de ayri ifadelerle ayri olaylar; Rudnik icin 1459-06-20 yanlis kaynaga dayanir. Kural geregi gun yoksa YYYY-01-01: 1458-01-01 YAZILMAZ cunku kaynak ilkbahar/yaz seferini verir ve sinira bagli (Rudnik d.f ayni zamanda kronoloji sinir maddesine bagli ise 'yalniz yil teyitli; gun teyitsiz' notuyla kalir). ONERI: Rudnik/Takova d.f = 1458-01-01 + 'yalniz yil teyitli; gun teyitsiz', sirp-despotlugu t kunye 1459-06-20 (Semendire) oldugundan despotluk donemi 1458-01-01'de biter - kunye kisaltma gerekmez (devlet 1459'a kadar surer; yerlesim donemi kunyeden kisa olabilir). Ayrica 1458 Osmanli tutusu Semendire dusene dek istikrarsiz (Rudnik'in 1459'a kadar el degistirip degistirmedigi TDV'de yok) - bu bir 'Osmanli elinde'/'tartismali' ara donemi olabilir: karar UMIT'in.",
+    "kunye_kontrol": "sirp-despotlugu f 1402-01-01 t 1459-06-20; Rudnik s donemi 1444-08-15..1459-06-20 kunye icinde; 1458 oneri donemi kunye icinde kisaltma (t 1458)."
+  },
+  {
+    "konu": "5) Maan 1918-09-27 (hicaz-kralligi f) / TDV 1916 yazi",
+    "sinif": "celiski",
+    "yerlesimler": [
+      {"yer": "Maan", "dosya": "data/yerlesimler.js", "eski_sinir": "1918-09-27 (d t / hicaz-kralligi f)", "yeni_sinir": "korunur (TDV 1916 yazi ifadesi atlas sinirini desteklemez ama 1918 icin TDV urdun ayri destek verir)", "once_sahip": "osmanli (d)", "sonra_sahip": "hicaz-kralligi"}
+    ],
+    "kaynak": "TDV «Maan» https://islamansiklopedisi.org.tr/maan: «I. Dünya Savaşı sırasında 1915 yılı Ocak ayında Maan'da toplanan Osmanlı kuvvetleri ... Fakat 1916 yazında Osmanlı Devleti'ne karşı isyan eden Mekke Emîri Şerîf Hüseyin ve oğulları Ali, Abdullah, Faysal burayı ele geçirip bir üs olarak kullandılar...». TDV «Ürdün» https://islamansiklopedisi.org.tr/urdun: «Lawrence'ın kışkırtmasıyla Huveytât kabilesine bağlı gruplar Osmanlı birliklerini Maan'da yenip Akabe'yi (1917), Faysal'a bağlı kuvvetler de Maan'ı tahrip ederek (1918) 23 Eylül'de Salt'ı, 25 Eylül'de Amman'ı ele geçirdiler. Böylece 1918 yılı sonunda Ürdün, Osmanlı Devleti'nin hâkimiyetinden çıktı...»",
+    "ic_not": "TDV KENDI ICINDE CELISIR: 'maan' = 1916 yazi (Serif Huseyin ele gecirdi), 'urdun' = Maan 1918'de Faysal kuvvetlerince tahrip, Salt 23 Eyl, Amman 25 Eyl 1918, Urdun 'yil sonunda' Osmanli hakimiyetinden cikti. Hicaz demiryolu ve Maan garnizonu 1918 Eylul'e kadar Osmanli elinde (TDV urdun Akabe 1917 ama Maan 1918) - 1916 ifadesi atlas sinirini cürütmez, 1918 donemiyle celisir ve 'maan' maddesinin ozet cumlesi hatali/belirsiz gorunur. Atlas 1918-09-27 icin TDV'de GUN YOK (Salt 23, Amman 25 Eylul verilmis; 27 Eylul Maan icin kaynakli degil). ic_not'a iki TDV cumlesi birlikte yazilmali; gun icin ek kaynak gerekli (Maan'in Eylul 1918 sonundaki durumu: Jemal Pasa Mersinli kuvvetleri geri cekilme/ teslim). 1916 okumasi uygulanmaz.",
+    "kunye_kontrol": "hicaz-kralligi f 1916-06-10 (yerlesim f 1918-09-27 kunye icinde)."
+  }
+]
