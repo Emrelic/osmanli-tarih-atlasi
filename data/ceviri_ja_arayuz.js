@@ -1241,6 +1241,7 @@ Ceviri.ekle("ja","arayuz",{
 "Sohum kuzeydoğusu (Abhazya ↔ Kabartay): şeridin # km içinde yerleşim noktası yok — boşluk veri eksiği değil, sırttır (yerlesimler_ek#.js beyanı, # Ekim #).":["スフミ北東部（アブハジア ↔ カバルダ）：帯の #1 km 以内に居住地点がない — 空白はデータ不足ではなく尾根である（yerlesimler_ek#2.js の宣言、#3 10月 #4）。", "e4ba9c76"],
 "Son uçuşun akıcılığı":["直近の飛行の滑らかさ", "fe9d00aa"],
 "Sonbahar #":["秋 #", "96efc9f0"],
+"Sonbahar # [yalnız yıl teyitli; gün teyitsiz]":["#年秋 [年のみ確認；日は未確認]", "75cae2d9"],
 "Sonraki olaya git":["次の出来事へ移動", "ddd31d36"],
 "Sonrası ·":["以後 ·", "4f777ebb"],
 "Sonuç ve etkisi":["結果と影響", "84bce782"],

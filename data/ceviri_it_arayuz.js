@@ -1239,6 +1239,7 @@ Ceviri.ekle("it","arayuz",{
 "Sohum kuzeydoğusu (Abhazya ↔ Kabartay): şeridin # km içinde yerleşim noktası yok — boşluk veri eksiği değil, sırttır (yerlesimler_ek#.js beyanı, # Ekim #).":["Nord-est di Sukhumi (Abcasia ↔ Cabardia): entro # km dalla fascia non c'è alcun insediamento — il vuoto non è una carenza di dati, è la dorsale montuosa (dichiarazione di yerlesimler_ek#.js, # ottobre #).", "e4ba9c76"],
 "Son uçuşun akıcılığı":["Fluidità dell'ultimo volo", "fe9d00aa"],
 "Sonbahar #":["Autunno #", "96efc9f0"],
+"Sonbahar # [yalnız yıl teyitli; gün teyitsiz]":["Autunno # [solo l'anno confermato; giorno non confermato]", "75cae2d9"],
 "Sonraki olaya git":["Vai all'evento successivo", "ddd31d36"],
 "Sonrası ·":["Dopo ·", "4f777ebb"],
 "Sonuç ve etkisi":["Esito ed effetto", "84bce782"],

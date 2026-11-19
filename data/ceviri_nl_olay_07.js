@@ -1,6 +1,11 @@
 /* ÇEVİRİ nl · olay — arac/ceviri.py ile YAZILDI, elle düzenleme: py arac/ceviri.py uygula.
    Kayıt: id → [metin, kaynak_ozet] (olayda alan başına). Tasarım: denetim/CEVIRI-1103/TASARIM.md */
 Ceviri.ekle("nl","olay",{
+"OLAYLAR_T5_1000B:1176-09-17:0":{"b": ["Na Myriokephalon ontruimde Byzantium Dorylaion", "24aef255"], "d": ["Na de nederlaag bij Myriokephalon liet Manuel krachtens het verdrag de versterking van Dorylaion slopen en de stad ontruimen; de Turken begonnen deze plek Eskişehir te noemen.", "d56a7724"]},
+"OLAYLAR_T5_1000B:1178-01-01:0":{"b": ["Amasya werd bij het Seltsjoekse grondgebied gevoegd", "cf56b964"], "d": ["Kilij Arslan II voegde de Danishmendidische gebieden (inclusief Amasya) bij het Seltsjoekse land.", "ddbb98aa"]},
+"OLAYLAR_T5_1000B:1187-01-01:0":{"b": ["De broers Asen namen Noord-Bulgarije in; Byzantium erkende de Tweede Bulgaarse Staat", "ff0554e9"], "d": ["De broers Petar en Asen namen met Koemaanse steun Noord-Bulgarije opnieuw in; met de vrede van 1187 erkende Byzantium de Tweede Bulgaarse Staat.", "fc165cbf"]},
+"OLAYLAR_T5_1000B:1189-01-01:0":{"b": ["Servië consolideerde zijn heerschappij in Zeta", "794c821d"], "d": ["In 1189 consolideerde Servië zijn heerschappij over Zeta (inclusief de kust van Kotor); aan Zeta werd een bijzondere status verleend.", "5f16f312"]},
+"OLAYLAR_T5_1000B:1192-01-01:0":{"b": ["Guy de Lusignan kocht Cyprus, Nicosia werd hoofdstad", "11017aea"], "d": ["Guy de Lusignan kocht het eiland van de Tempeliers en maakte Nicosia tot hoofdstad.", "b6494b99"]},
 "OLAYLAR_T5_1000B:1201-03-01:0":{"b": ["Kaloyan nam Varna in", "1237fe7f"], "d": ["De Bulgaren onder tsaar Kaloyan namen in maart 1201 Varna van Byzantium; de stad bleef in de 13e-14e eeuw binnen de grenzen van de Bulgaarse staat.", "b60444f8"]},
 "OLAYLAR_T5_1000B:1202-01-01:0":{"b": ["Nishapur werd definitief bij de Khwarazmshahs gevoegd", "fa4a6cd2"], "d": ["Ala ad-Din Muhammad b. Tekish voegde de stad definitief bij het gebied van de Khwarazmshahs.", "58cb9059"]},
 "OLAYLAR_T5_1000B:1204-04-13:0":{"b": ["Het schiereiland Gallipoli kwam onder Latijns bestuur", "27308f59"], "d": ["Na de Vierde Kruistocht kwamen Gallipoli en omgeving in 1204 onder het bestuur van de Latijnen.", "48b977ad"]},

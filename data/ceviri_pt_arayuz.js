@@ -1313,6 +1313,7 @@ Ceviri.ekle("pt","arayuz",{
 "Sohum kuzeydoğusu (Abhazya ↔ Kabartay): şeridin # km içinde yerleşim noktası yok — boşluk veri eksiği değil, sırttır (yerlesimler_ek#.js beyanı, # Ekim #).":["Nordeste de Sukhumi (Abecásia ↔ Cabárdia): não há ponto de povoamento a menos de # km da faixa — o vazio não é falta de dados, é uma cordilheira (declaração de yerlesimler_ek#.js, # de outubro de #).", "e4ba9c76"],
 "Son uçuşun akıcılığı":["Fluidez do último voo", "fe9d00aa"],
 "Sonbahar #":["outono de #", "96efc9f0"],
+"Sonbahar # [yalnız yıl teyitli; gün teyitsiz]":["Outono de # [apenas o ano confirmado; dia não confirmado]", "75cae2d9"],
 "Sonraki olaya git":["Ir para o evento seguinte", "ddd31d36"],
 "Sonrası ·":["Depois ·", "4f777ebb"],
 "Sonuç ve etkisi":["Resultado e efeito", "84bce782"],

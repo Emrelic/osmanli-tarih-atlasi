@@ -1239,6 +1239,7 @@ Ceviri.ekle("nl","arayuz",{
 "Sohum kuzeydoğusu (Abhazya ↔ Kabartay): şeridin # km içinde yerleşim noktası yok — boşluk veri eksiği değil, sırttır (yerlesimler_ek#.js beyanı, # Ekim #).":["Noordoosten van Soechoemi (Abchazië ↔ Kabardië): binnen # km van de strook is er geen nederzetting — de leemte is geen gegevenstekort maar de bergkam (verklaring in yerlesimler_ek#.js, # oktober #).", "e4ba9c76"],
 "Son uçuşun akıcılığı":["Vloeiendheid van de laatste vlucht", "fe9d00aa"],
 "Sonbahar #":["Herfst #", "96efc9f0"],
+"Sonbahar # [yalnız yıl teyitli; gün teyitsiz]":["Herfst # [alleen het jaar bevestigd; dag onbevestigd]", "75cae2d9"],
 "Sonraki olaya git":["Ga naar de volgende gebeurtenis", "ddd31d36"],
 "Sonrası ·":["Daarna ·", "4f777ebb"],
 "Sonuç ve etkisi":["Uitkomst en effect", "84bce782"],

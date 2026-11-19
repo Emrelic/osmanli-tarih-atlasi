@@ -1239,6 +1239,7 @@ Ceviri.ekle("sw","arayuz",{
 "Sohum kuzeydoğusu (Abhazya ↔ Kabartay): şeridin # km içinde yerleşim noktası yok — boşluk veri eksiği değil, sırttır (yerlesimler_ek#.js beyanı, # Ekim #).":["Kaskazini-mashariki mwa Sukhumi (Abkhazia ↔ Kabardia): ndani ya km # za utepe hakuna nukta ya makazi — pengo si upungufu wa data, ni mgongo wa mlima (tamko la yerlesimler_ek#.js, # Oktoba #).", "e4ba9c76"],
 "Son uçuşun akıcılığı":["Ulaini wa safari ya mwisho", "fe9d00aa"],
 "Sonbahar #":["Vuli #", "96efc9f0"],
+"Sonbahar # [yalnız yıl teyitli; gün teyitsiz]":["Vuli # [mwaka tu umethibitishwa; siku haijathibitishwa]", "75cae2d9"],
 "Sonraki olaya git":["Nenda kwenye tukio linalofuata", "ddd31d36"],
 "Sonrası ·":["Baada yake ·", "4f777ebb"],
 "Sonuç ve etkisi":["Matokeo na athari", "84bce782"],

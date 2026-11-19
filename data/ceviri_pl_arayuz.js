@@ -1239,6 +1239,7 @@ Ceviri.ekle("pl","arayuz",{
 "Sohum kuzeydoğusu (Abhazya ↔ Kabartay): şeridin # km içinde yerleşim noktası yok — boşluk veri eksiği değil, sırttır (yerlesimler_ek#.js beyanı, # Ekim #).":["Północny wschód od Suchumi (Abchazja ↔ Kabardia): w pasie # km nie ma osad — luka nie jest brakiem danych, lecz grzbietem górskim (deklaracja yerlesimler_ek#.js, # października #).", "e4ba9c76"],
 "Son uçuşun akıcılığı":["Płynność ostatniego lotu", "fe9d00aa"],
 "Sonbahar #":["Jesień #", "96efc9f0"],
+"Sonbahar # [yalnız yıl teyitli; gün teyitsiz]":["Jesień # [potwierdzony tylko rok; dzień niepotwierdzony]", "75cae2d9"],
 "Sonraki olaya git":["Przejdź do następnego wydarzenia", "ddd31d36"],
 "Sonrası ·":["Po ·", "4f777ebb"],
 "Sonuç ve etkisi":["Wynik i skutki", "84bce782"],

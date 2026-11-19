@@ -1241,6 +1241,7 @@ Ceviri.ekle("fa","arayuz",{
 "Sohum kuzeydoğusu (Abhazya ↔ Kabartay): şeridin # km içinde yerleşim noktası yok — boşluk veri eksiği değil, sırttır (yerlesimler_ek#.js beyanı, # Ekim #).":["شمال‌شرق سوخومی (آبخازیا ↔ کاباردا): در نوار # km هیچ نقطهٔ سکونتی نیست — خلأ کمبود داده نیست، رشته‌کوه است (اعلام yerlesimler_ek#.js، # اکتبر #).", "e4ba9c76"],
 "Son uçuşun akıcılığı":["روانی آخرین پرواز", "fe9d00aa"],
 "Sonbahar #":["پاییز #", "96efc9f0"],
+"Sonbahar # [yalnız yıl teyitli; gün teyitsiz]":["پاییز # [فقط سال تأیید شده؛ روز تأیید نشده]", "75cae2d9"],
 "Sonraki olaya git":["برو به رویداد بعدی", "ddd31d36"],
 "Sonrası ·":["پس از آن ·", "4f777ebb"],
 "Sonuç ve etkisi":["نتیجه و تأثیر", "84bce782"],
