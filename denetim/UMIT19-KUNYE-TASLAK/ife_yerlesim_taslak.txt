@@ -1,0 +1,18 @@
+# İFE (Ile-Ife) yerleşim taslağı — dosya: data/yerlesimler_e9353f.js satır 348 (ad:"İfe (Ile-Ife)"). Dosyaya YAZILMADI.
+MEVCUT: { ad:"İfe (Ile-Ife)", tur:"sehir", lat:7.467, lon:4.567, g:0, k:3, s:[], d:[], v:[], bos:"veri-yok", neden:"kunye-yok — ... KOORDINATORE ISTEK: ife kunyesi." }
+  (kur: alanı YOK; s: boş; bos:"veri-yok" + neden ile tüm süre sahipsiz.)
+
+ÖNERİLEN (ife-kralligi künyesi devletler.js'e girdikten SONRA; bos: ve neden: satırları KALKAR):
+{ ad:"İfe (Ile-Ife)", tur:"sehir", lat:7.467, lon:4.567, g:0, k:3,
+  kur:"1001-01-01",
+  s:[{f:"1001-01-01", t:"1888-01-01", d:"ife-kralligi", kaynak:"Britannica Ile-Ife; Oyo (Nijerya) — bkz. künye kaynak/ic_not_f/ic_not_t"},
+     {f:"1888-01-01", t:"1960-10-01", d:"ingiltere", kaynak:"Britannica Oyo (Nijerya): 1888 anlaşması Yorubaland'i İngiliz korumasına aldı; 1960-10-01 = ingiliz-nijerya künye t (TDV nijerya)"},
+     {f:"1960-10-01", t:"2000-12-31", d:"nijerya", kaynak:"TDV nijerya (1 Ekim 1960 bağımsızlık); ingiliz-nijerya/nijerya künye uçları"}],
+  d:[], v:[] },
+
+NOTLAR:
+ - Koloni dönemi d: "ingiltere" (harita anahtarı), ardıl "nijerya": İbadan ve Kumasi kayıtlarındaki örüntü. d:"ingiliz-nijerya" (harita:"ingiltere") de geçerli.
+ - kur:"1001-01-01" yüzyıl-başı çapasıdır (beyan künye ic_not_f'te). Atlas 1281'de başladığından s: ilk dönemi f:"1281-01-01" ile de yazılabilir (Oyo-İle gibi kur künyeden bağlı).
+ - İbadan 1893-08-15'te İngiliz'e geçer, İfe 1888'de: iki ayrı kaynaklı uç; 1888-1893 arası komşu renkleri farklı görünür (beyanlı belirsizlik).
+ - Oyo-İle (oyo-imparatorlugu 1400-1836) ile örtüşme siyasî değil: ayrı petek, ayrı devlet.
+ - Değişmez 2: 1888-01-01 kırılması için künye kronolojisindeki "son" maddesi (±30 gün) yeterli; 1960-10-01 için ingiliz-nijerya/nijerya kronolojisinde zaten madde var (ölçülmedi, doğrulanmalı).
