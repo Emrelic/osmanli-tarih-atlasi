@@ -9903,19 +9903,59 @@ function aramaSonucYaz(gorunen) {
   }
   var el = document.getElementById("kr-ara-sonuc");
   if (!el) return;
-  if (!aramaAcikMi()) { el.textContent = ""; el.className = ""; return; }
+  // 🆕 19 Kasım 2026 — Emre: "gelişmiş ara butonuna basılıp orada metin eklendiği zaman bu
+  // filtrelenmiş olma hali ekranda bir yerde görülmeli." Eskiden pencere kapanınca ölçütler
+  // HİÇBİR YERDE yazmıyordu (basit kutu boş, yalnız soluk bir sayı) ⇒ liste eksik görünüp
+  // sebebi okunamıyordu. Artık: ⋯ düğmesi ölçüt sayısıyla renklenir ve sonuç satırı
+  // ölçütleri, bağlacı, sayıyı ve "✕ Aramayı kaldır" düğmesini taşıyan bir şerit olur.
+  var gelOlc = aramaOlcutler.filter(function (o) { return String(o.metin || "").trim() !== ""; });
+  var gBtn = document.getElementById("kr-ara-gelismis");
+  if (gBtn) {
+    gBtn.classList.toggle("aktif", gelOlc.length > 0);
+    gBtn.textContent = gelOlc.length ? "⋯ " + gelOlc.length : "⋯";
+  }
+  if (!aramaAcikMi()) { el.innerHTML = ""; el.className = ""; return; }
   // 🔴 SIFIR SONUÇ SESSİZ GEÇMEZ. Boş bir liste "veri yok" ile "hepsi
   //    süzüldü"yü ayırt ettirmez; kullanıcı atlası bozuk sanır. Bu satır
   //    farkı söyler — ve süzgeç de açıksa onu da söyler, çünkü sonucu
   //    daraltan arama olmayabilir.
   var ek = (suzgecSecim || toprakSecim || baslikSecim || sehirKronGizli) ? " · konu süzgeci de açık" : "";
-  if (!gorunen) {
-    el.className = "bos";
-    el.textContent = "eşleşen madde yok" + ek;
-  } else {
-    el.className = "";
-    el.textContent = gorunen + " madde eşleşti" + ek;
+  el.innerHTML = "";
+  el.className = "suzuluyor" + (gorunen ? "" : " bos");
+  var bas = document.createElement("span");
+  bas.className = "kr-ara-rozet";
+  bas.textContent = "🔎 SÜZÜLÜYOR";
+  el.appendChild(bas);
+  var tarif = [];
+  var kutuMetin = (document.getElementById("kr-ara") || {}).value || "";
+  if (aramaTerimler.length && kutuMetin.trim()) tarif.push("«" + kutuMetin.trim() + "»");
+  var bag = aramaBaglac === "veya" ? " VEYA " : " VE ";
+  if (gelOlc.length) tarif.push(gelOlc.map(function (o) { return "«" + String(o.metin).trim() + "»"; }).join(bag));
+  var ac = document.createElement("span");
+  ac.className = "kr-ara-tarif";
+  ac.textContent = tarif.join(" + ") + " — " + (gorunen ? gorunen + " madde eşleşti" : "eşleşen madde yok") + ek;
+  el.appendChild(ac);
+  if (gelOlc.length) {
+    var duz = document.createElement("button");
+    duz.type = "button";
+    duz.className = "kr-ara-dugme";
+    duz.textContent = "Düzenle";
+    duz.addEventListener("click", function () { var g = document.getElementById("kr-ara-gelismis"); if (g) g.click(); });
+    el.appendChild(duz);
   }
+  var sil = document.createElement("button");
+  sil.type = "button";
+  sil.className = "kr-ara-dugme";
+  sil.textContent = "✕ Aramayı kaldır";
+  sil.addEventListener("click", function () {
+    var k = document.getElementById("kr-ara");
+    if (k) k.value = "";
+    aramaTerimler = [];
+    aramaAdresSorgu = "";
+    var t = document.getElementById("arama-temizle");
+    if (t) t.click(); else { aramaOlcutler.length = 0; suzgecUygula(); }
+  });
+  el.appendChild(sil);
 }
 
 (function aramaKur() {
@@ -18493,10 +18533,7 @@ function kronoTemsilEdiliyor(k, derin) {
   // zaten `kunye` (DEVLETLER) üzerinden dinamik.
   var OSMANLI_SYNTH = { id: "osmanli", ad: "Osmanlı", harita: "osmanli" };
   var EK_SECILI = [];                          // seçili ek devlet id'leri, SIRALI
-  var ekDunyaSel = document.getElementById("ek-dunya-esik");
-  var ekYalnizDisKutu = document.getElementById("ek-yalniz-dis");
-  var EK_DUNYA_ESIK = ekDunyaSel ? +ekDunyaSel.value : 4;
-  var EK_YALNIZ_DIS = ekYalnizDisKutu ? ekYalnizDisKutu.checked : false;
+  var ekYalnizDisKutu = document.getElementById("ek-yalniz-dis");   // ⚙ ayar penceresinde, devlet başına
 
   // Sabit bir renk seti + bilinmeyen id için deterministik üretim (hash→HSL);
   // yeni bir devlet eklenince elle renk atamak GEREKMEZ.
@@ -18529,10 +18566,16 @@ function kronoTemsilEdiliyor(k, derin) {
 
   // 🔎 Emre (25 Ekim 2026): arama kutusu listeyi süzer. Kelimelerin HEPSİ
   // adda (ya da id'de) geçmeli; `trKatla` ile "osmanli" = "Osmanlı".
+  // 19 Kasım 2026: "yalnız seçilenler" anahtarı — seçimi gözden geçirip tek tek çıkarmak için.
+  var YALNIZ_SECILI = false;
   function gorunenSatirlar() {
     var kelimeler = trKatla((secAra && secAra.value || "").trim()).split(/\s+/).filter(Boolean);
-    if (!kelimeler.length) return tumSatirlar();
-    return tumSatirlar().filter(function (d) {
+    var taban = tumSatirlar();
+    if (YALNIZ_SECILI) taban = taban.filter(function (d) {
+      return d.id === (ODAK ? ODAK.id : "osmanli") || EK_SECILI.indexOf(d.id) >= 0;
+    });
+    if (!kelimeler.length) return taban;
+    return taban.filter(function (d) {
       var hedef = trKatla(d.ad) + " " + d.id;
       return kelimeler.every(function (k) { return hedef.indexOf(k) >= 0; });
     });
@@ -18550,7 +18593,7 @@ function kronoTemsilEdiliyor(k, derin) {
     if (!secTumu) return;
     var ids = tumuSecilebilir();
     var hepsi = ids.length && ids.every(function (id) { return EK_SECILI.indexOf(id) >= 0; });
-    secTumu.textContent = hepsi ? "☐ Seçimi kaldır" : "☑ Tümünü seç";
+    secTumu.textContent = (hepsi ? "☐ Görünenleri çıkar" : "☑ Görünenlerin hepsini ekle") + " (" + ids.length + ")";
     secTumu.disabled = !ids.length;
     secTumu.title = hepsi
       ? "Görünen " + ids.length + " kronolojiyi havuzdan çıkarır."
@@ -18732,7 +18775,43 @@ function kronoTemsilEdiliyor(k, derin) {
     guncelle();
   }
 
-  function panelKapat() { if (secPanel) secPanel.classList.add("gizli"); }
+  // ---- PENCERE: arka planı karartan örtü + ortada belirgin pencere (Emre, 19 Kasım 2026:
+  // "açılan pencerenin bir alt menünün üstünde açılmış ek pencere olduğu belli olmalı; şu
+  // anda silik ve unutulunca kalıyor, kronoloji maddeleri görünmüyor"). Pencere ve ⚙ ayar
+  // penceresi <body>'ye taşınır: `#yanpanel-ust`un yığın bağlamında kalsalar örtü haritayı
+  // kaplayamazdı. Kapatma: ✓ Tamam · × · Esc · örtüye tık.
+  var secOrtu = document.getElementById("devlet-secici-ortu");
+  [secOrtu, secPanel, ayarPenEl()].forEach(function (el) { if (el) document.body.appendChild(el); });
+  function ayarPenEl() { return document.getElementById("kr-ayar-pencere"); }
+  function ortuGuncelle() {
+    if (!secOrtu) return;
+    var ap = ayarPenEl();
+    var acik = (secPanel && !secPanel.classList.contains("gizli")) || (ap && !ap.classList.contains("gizli"));
+    secOrtu.classList.toggle("gizli", !acik);
+    secOrtu.classList.toggle("ust", !!(ap && !ap.classList.contains("gizli")));
+  }
+  function panelAc() {
+    if (!secPanel) return;
+    panelDoldur();
+    secPanel.classList.remove("gizli");
+    ortuGuncelle();
+    if (secAra) setTimeout(function () { secAra.focus(); }, 0);
+  }
+  function panelKapat() {
+    if (typeof ayarKapat === "function") ayarKapat();
+    if (secPanel) secPanel.classList.add("gizli");
+    ortuGuncelle();
+  }
+  if (secOrtu) secOrtu.addEventListener("click", function () {
+    var ap = ayarPenEl();
+    if (ap && !ap.classList.contains("gizli")) ayarKapat(); else panelKapat();
+  });
+  document.addEventListener("keydown", function (ev) {
+    if (ev.key !== "Escape") return;
+    var ap = ayarPenEl();
+    if (ap && !ap.classList.contains("gizli")) { ayarKapat(); ev.stopPropagation(); }
+    else if (secPanel && !secPanel.classList.contains("gizli")) { panelKapat(); ev.stopPropagation(); }
+  }, true);
 
   // ---- HAVUZ: odak + ekler, her birinin yanında 🗺 kutusu -----------------
   // İki yerde aynı çizim: seçici panelinin üstü (`#devlet-secici-havuz`) ve kronoloji
@@ -18776,7 +18855,19 @@ function kronoTemsilEdiliyor(k, derin) {
       hk.addEventListener("change", function () { haritaAyarla(s.id, hk.checked); });
       hl.appendChild(hk);
       hl.appendChild(document.createTextNode(" 🗺"));
-      oge.appendChild(rol); oge.appendChild(ad); oge.appendChild(hl);
+      // ⚙ bu satıra özgü kronoloji ayarı + kaç madde görünecek
+      var sy = devletSayim(s.id);
+      var say = document.createElement("span");
+      say.className = "dsh-say" + (AYAR[s.id] ? " ozel" : "");
+      say.textContent = sy.kalan === sy.toplam ? sy.toplam + " md." : sy.kalan + "/" + sy.toplam + " md.";
+      say.setAttribute("data-ipucu", "Bu ayarla görünen madde / devletin bütün maddeleri");
+      var ay = document.createElement("button");
+      ay.type = "button";
+      ay.className = "dsh-ayar" + (AYAR[s.id] ? " ozel" : "");
+      ay.textContent = "⚙";
+      ay.setAttribute("data-ipucu", "Bu devletin kronolojisinde hangi maddeler görünsün (önem, konu, dış olaylar).");
+      ay.addEventListener("click", function (ev) { ev.stopPropagation(); ayarAc(s.id); });
+      oge.appendChild(rol); oge.appendChild(ad); oge.appendChild(say); oge.appendChild(ay); oge.appendChild(hl);
       if (!s.odak) {
         var x = document.createElement("button");
         x.type = "button";
@@ -18810,7 +18901,33 @@ function kronoTemsilEdiliyor(k, derin) {
         EK_SECILI.forEach(function (id) { if (hepsi) delete HARITA_ACIK[id]; else HARITA_ACIK[id] = true; });
         havuzlariCiz();
       });
-      kap.appendChild(tb);
+      var alt = document.createElement("div");
+      alt.className = "dsh-alt";
+      alt.appendChild(tb);
+      if (EK_SECILI.length > 1) {
+        var ta = document.createElement("button");
+        ta.type = "button";
+        ta.className = "dsh-toplu";
+        ta.textContent = "⚙ Bütün ekleri ayarla";
+        ta.setAttribute("data-ipucu", "Tek ayarı seçili bütün ek devletlere birlikte uygular.");
+        ta.addEventListener("click", function (ev) { ev.stopPropagation(); ayarAc("__ekler__"); });
+        alt.appendChild(ta);
+      }
+      if (!serit) {
+        var tm = document.createElement("button");
+        tm.type = "button";
+        tm.className = "dsh-toplu";
+        tm.textContent = "✕ Ekleri temizle";
+        tm.setAttribute("data-ipucu", "Bütün ek devletleri çıkarır; odak kalır.");
+        tm.addEventListener("click", function (ev) {
+          ev.stopPropagation();
+          EK_SECILI.forEach(function (id) { delete HARITA_ACIK[id]; });
+          EK_SECILI.length = 0;
+          panelDoldur(); render(); guncelle();
+        });
+        alt.appendChild(tm);
+      }
+      kap.appendChild(alt);
     } else if (!serit) {
       var bos = document.createElement("div");
       bos.className = "dsh-bos";
@@ -18844,7 +18961,7 @@ function kronoTemsilEdiliyor(k, derin) {
     dunyaBtn.type = "button";
     dunyaBtn.className = "dss-hizli" + (dunyaHepsi ? " secili" : "");
     dunyaBtn.textContent = dunyaHepsi ? "🌍 Tüm dünya seçili — kaldır" : "🌍 Tüm dünya kronolojisi";
-    dunyaBtn.setAttribute("data-ipucu", "Bütün devletlerin kronolojilerini listeye katar; ek devletlerde yalnız aşağıdaki dünya önemi eşiğini geçen maddeler görünür.");
+    dunyaBtn.setAttribute("data-ipucu", "Bütün devletlerin kronolojilerini EK olarak katar; eklerde ⚙ ayarındaki önem eşiği (varsayılan 4+) geçerli.");
     dunyaBtn.addEventListener("click", function (ev) {
       if (secAra && secAra.value) secAra.value = "";
       if (typeof agirAdim === "function") agirAdim(ev, tumunuSec); else tumunuSec();
@@ -18859,6 +18976,13 @@ function kronoTemsilEdiliyor(k, derin) {
       sif.addEventListener("click", function () { satirTikla("__sifirla__"); });
       ustSira.appendChild(sif);
     }
+    var yalnizBtn = document.createElement("button");
+    yalnizBtn.type = "button";
+    yalnizBtn.className = "dss-hizli" + (YALNIZ_SECILI ? " secili" : "");
+    yalnizBtn.textContent = YALNIZ_SECILI ? "☰ Bütün devletleri göster" : "✓ Yalnız seçilenleri göster";
+    yalnizBtn.setAttribute("data-ipucu", "Listeyi seçtiğiniz devletlerle sınırlar — seçimi gözden geçirip tek tek çıkarmak için.");
+    yalnizBtn.addEventListener("click", function () { YALNIZ_SECILI = !YALNIZ_SECILI; panelDoldur(); });
+    ustSira.appendChild(yalnizBtn);
     secListe.appendChild(ustSira);
     tumuDugmeYaz();
     var gorunen = gorunenSatirlar();
@@ -18911,18 +19035,11 @@ function kronoTemsilEdiliyor(k, derin) {
   }
   if (secButon && secPanel) secButon.addEventListener("click", function (ev) {
     ev.stopPropagation();
-    secPanel.classList.toggle("gizli");
-    if (secAra && !secPanel.classList.contains("gizli")) secAra.focus();
+    if (secPanel.classList.contains("gizli")) panelAc(); else panelKapat();
   });
   if (secTamam) secTamam.addEventListener("click", panelKapat);
-  // Panel dışına tık kapatır (çoklu seçimde her tık paneli açık bıraktığı için kapatma yolu şart).
-  document.addEventListener("mousedown", function (ev) {
-    if (!secPanel || secPanel.classList.contains("gizli")) return;
-    var kok = document.getElementById("devlet-secici");
-    if (kok && kok.contains(ev.target)) return;
-    if (ev.target && ev.target.closest && ev.target.closest("#ipucu, .ipucu, [role=tooltip]")) return;
-    panelKapat();
-  });
+  var secX = document.getElementById("devlet-secici-x");
+  if (secX) secX.addEventListener("click", panelKapat);
   if (secAra) {
     secAra.addEventListener("input", function () {
       panelDoldur();
@@ -18939,62 +19056,179 @@ function kronoTemsilEdiliyor(k, derin) {
     });
   }
   if (secTumu) secTumu.addEventListener("click", tumunuSec);
-  if (ekDunyaSel) ekDunyaSel.addEventListener("change", function () {
-    EK_DUNYA_ESIK = +ekDunyaSel.value; render();
-  });
-  if (ekYalnizDisKutu) ekYalnizDisKutu.addEventListener("change", function () {
-    EK_YALNIZ_DIS = ekYalnizDisKutu.checked; render();
-  });
 
-  // 🔴 BU BLOK BURADA DURUYOR VE YERİ TESADÜF DEĞİL — bir kez AŞAĞIDA
-  // yazıldı ve KUSUR ÜRETTİ. `var` hoisting yüzünden JS hata VERMEDİ;
-  // aşağıdaki dinleyici bloğu `undefined` üzerine bağlandı, hiçbir
-  // dinleyici kurulmadı ve `odakKonuKur()` ilk `if`inde sessizce döndü.
-  // Tarayıcıda ölçüldü: `konuKutucuk: 0 · ozet: ""` — panel EKRANDA
-  // duruyordu, hiçbir şey yapmıyordu. ⇒ Bildirimler KULLANIMDAN ÖNCE.
-  // 🔴🔴 ODAK SÜZGECİ — Emre'nin 10 Eylül 2026 tarifi, ve bir KURALI KALDIRIYOR.
-  // Bu bloğun 21 Ağustos'taki kilit kuralı şuydu: *"ODAK'ın kendi kronolojisi
-  // HER ZAMAN TAM gösterilir — süzgeç YOK. EK devletler süzülür."* Emre o
-  // ayrımı kaldırdı: *"kişi bir devlet seçtiği zaman o devletin kronolojisini
-  // ÇALIŞTIRMADAN ÖNCE bu ayarları yapmalı."*
-  // ⚠️ ÜÇ VARSAYILAN DA 1 — AÇILIŞTA HİÇBİR MADDE GİZLENMEZ.
-  //   🔴 VE BU SATIR BİR KEZ YANLIŞ YAZILDI. İlk hâlinde `bolge`/`dunya`
-  //   varsayılanı 4'tü ve burada *"açılışta davranış birebir eskisi gibi"*
-  //   yazıyordu. TARAYICIDA ÖLÇÜLDÜ, YALAN ÇIKTI: İngiltere kronolojisi
-  //   270 madde, açılışta 251 çiziliyordu — 19 dış madde SESSİZCE
-  //   gizleniyordu ve panel hiç açılmasa kullanıcı bunu göremezdi.
-  //   ⇒ Varsayılanlar 1'e çekildi; "standart" eşikler (3/4/4) bir ÖNAYAR
-  //     olarak sunulacak, VARSAYILAN olarak DEĞİL. Bir süzgecin varsayılanı,
-  //     kullanıcı onu hiç açmamışken bir şeyi gizlememelidir.
-  //   (Sınandı: `denetim/SINAV-ONEM-SUZGEC-0910.js` ② — eşik 1'de
-  //    4838/4838 madde geçiyor; tarayıcıda 270/270.)
-  // 🔴 Mantık BURADA DEĞİL `js/suzgec.js`te: o dosya DOM'a dokunmuyor ve
-  //   node'da GERÇEK VERİYLE sınanabiliyor. Buradaki iş yalnız KONTROLDEN
-  //   OKUMAK. (`suzgec.js`in kendi gerekçesi: *"tarayıcıda doğrulanacak
-  //   yalnız ince bir arayüz katmanı kalır"*.)
+  // =======================================================================
+  // ⚙ DEVLET BAŞINA KRONOLOJİ AYARI — Emre (19 Kasım 2026): "hem odak devletlerin
+  // kronolojilerinde ne görüneceği buradan ayarlanmalı hem de ek devletlerin kronoloji
+  // ayarları … odak veya ek devlet olarak yazan satırda yanda bir ayar butonu olmalı ve bu
+  // ayar butonuna basınca açılan pencerede ayarlanmalı."
+  // Eskiden odak için TEK takım (#odak-* · 10 Eylül paneli) ve bütün ekler için TEK eşik
+  // (#ek-dunya-esik) vardı. 🔴 ÖLÇÜLDÜ (19 Kasım, tarayıcı, çalışma anı verisi): 34.047 künye
+  // maddesinin 22.290'ı puanlı, 11.757'si (%35) PUANSIZ; ek eşiği puansız maddeyi hiç
+  // süzmüyordu ("puansızları göster" açıkken hepsi geçiyordu) ve kullanıcı bunu göremiyordu.
+  // ⇒ Her devletin KENDİ ayarı (`AYAR[id]`); odak ve ek AYNI süzgeçten (`SUZGEC.onemSuz`)
+  //   geçer, yalnız varsayılanları farklı. Puansız madde sayısı ayar penceresinde BEYAN edilir.
+  // ⚠️ VARS_ODAK hiçbir maddeyi gizlemez (10 Eylül dersi: "bir süzgecin varsayılanı, kullanıcı
+  //   onu hiç açmamışken bir şeyi gizlememelidir"). VARS_EK eski ek eşiğinin (4) karşılığı.
+  var VARS_ODAK = { ic: 1, bolge: 1, dunya: 0, puansiz: true, yalnizDis: false, konu: null };
+  var VARS_EK   = { ic: 4, bolge: 4, dunya: 4, puansiz: true, yalnizDis: false, konu: null };
+  var AYAR = {};                               // id → kullanıcının ayarı (yoksa rolün varsayılanı)
+  function ayarOf(id) {
+    return AYAR[id] || (id === odakSahibiId() ? VARS_ODAK : VARS_EK);
+  }
+  // Osmanlı odakta ama kendi ayarı var ⇒ Osmanlı listesi de süzülmüş birleşik yoldan çizilir
+  // (`osmanliListesineDon` DOM'u olduğu gibi geri takar, önem süzgeci bilmez).
+  function osmanliOzel() { return !ODAK && !!AYAR.osmanli; }
+  function cokluMu() { return EK_SECILI.length > 0 || osmanliOzel(); }
+
+  function devletMaddeleri(id) {
+    if (id === "osmanli") return olaylar;
+    var d = bul(id);
+    return (d && d.kronoloji) || [];
+  }
+  // Süzgeç modülü yüklenmemişse HİÇBİR ŞEY SÜZÜLMEZ — eksik modül sessizce KAYBETMEZ.
+  function suzDevlet(maddeler, id) {
+    if (!window.SUZGEC || !window.SUZGEC.onemSuz) return maddeler;
+    var a = ayarOf(id);
+    // 🏺 Arkeoloji maddeleri hep `kapsam:"dis"` + `bolge:1`: önem süzgeci hepsini silerdi.
+    var cikti = (id === "arkeoloji") ? maddeler.slice() : window.SUZGEC.onemSuz(maddeler, a);
+    if (a.yalnizDis) cikti = cikti.filter(function (m) { return m.kapsam === "dis"; });
+    if (sehirKronGizli) cikti = cikti.filter(function (m) { return !sehirKronMadde(m); });
+    if (a.konu && a.konu.length)
+      cikti = cikti.filter(function (m) { return a.konu.indexOf(window.SUZGEC.maddeGrubu(m)) >= 0; });
+    return cikti;
+  }
+  function odakSuz(maddeler) { return suzDevlet(maddeler, odakSahibiId()); }
+  // Havuz satırı için: "488 / 625" — kaç madde görünecek
+  // Osmanlı maddeleri önce kendi konu süzgecinden (`suzulduMu`) geçer — birleşik liste de öyle
+  // topluyor; sayım listeyle AYNI yoldan yapılmazsa özet ile liste ayrışır (ölçüldü: 60 ≠ 45).
+  function suzmeTabani(id) {
+    if (id !== "osmanli") return devletMaddeleri(id);
+    return olaylar.filter(function (m, oi) { return !suzulduMu(oi); });
+  }
+  function devletSayim(id) {
+    var k = devletMaddeleri(id);
+    if (id === "osmanli" && !osmanliOzel() && id === odakSahibiId()) return { kalan: k.length, toplam: k.length };
+    return { kalan: suzDevlet(suzmeTabani(id), id).length, toplam: k.length };
+  }
+
+  // ---- ⚙ AYAR PENCERESİ --------------------------------------------------
+  // Tek pencere, hedefi değişir: bir devlet id'si ya da "__ekler__" (bütün ek devletler).
+  var ayarPen = document.getElementById("kr-ayar-pencere");
+  var ayarBaslikEl = document.getElementById("kr-ayar-baslik");
+  var ayarRolEl = document.getElementById("kr-ayar-rol");
+  var ayarTumEkBtn = document.getElementById("kr-ayar-tum-ek");
   var odakIcSel = document.getElementById("odak-ic-esik");
   var odakBolgeSel = document.getElementById("odak-bolge-esik");
   var odakDunyaSel = document.getElementById("odak-dunya-esik");
   var odakPuansizKutu = document.getElementById("odak-puansiz");
   var odakKonuKutu = document.getElementById("odak-suzgec-konu");
   var odakOzetEl = document.getElementById("odak-suzgec-ozet");
-  var ODAK_KONU = null;                     // null = konu süzmesi YOK
+  var AYAR_HEDEF = null;
+  function hedefIdleri() {
+    if (!AYAR_HEDEF) return [];
+    return AYAR_HEDEF === "__ekler__" ? EK_SECILI.slice() : [AYAR_HEDEF];
+  }
+  function kontrollereYaz(a) {
+    if (odakIcSel) odakIcSel.value = String(a.ic);
+    if (odakBolgeSel) odakBolgeSel.value = String(a.bolge);
+    if (odakDunyaSel) odakDunyaSel.value = String(a.dunya);
+    if (odakPuansizKutu) odakPuansizKutu.checked = !!a.puansiz;
+    if (ekYalnizDisKutu) ekYalnizDisKutu.checked = !!a.yalnizDis;
+    if (odakKonuKutu) [].forEach.call(odakKonuKutu.querySelectorAll("input"), function (k) {
+      k.checked = !a.konu || a.konu.indexOf(k.value) >= 0;
+    });
+  }
+  function kontroldenOku() {
+    var konu = null;
+    if (odakKonuKutu && window.SUZGEC) {
+      var secili = [].slice.call(odakKonuKutu.querySelectorAll("input:checked")).map(function (x) { return x.value; });
+      // Hepsi seçiliyse süzme YOK — "hepsi açık" ile "hepsini tek tek seçtim" aynı sonucu vermeli.
+      konu = (secili.length === window.SUZGEC.KONU_GRUPLARI.length) ? null : secili;
+    }
+    return {
+      ic: odakIcSel ? +odakIcSel.value : 1,
+      bolge: odakBolgeSel ? +odakBolgeSel.value : 1,
+      dunya: odakDunyaSel ? +odakDunyaSel.value : 0,
+      puansiz: odakPuansizKutu ? odakPuansizKutu.checked : true,
+      yalnizDis: ekYalnizDisKutu ? ekYalnizDisKutu.checked : false,
+      konu: konu
+    };
+  }
+  function ayarAc(id) {
+    if (!ayarPen) return;
+    AYAR_HEDEF = id;
+    var ilk = id === "__ekler__" ? EK_SECILI[0] : id;
+    kontrollereYaz(ayarOf(ilk));
+    var d = id === "__ekler__" ? null : devletKaydi(id);
+    if (ayarBaslikEl) ayarBaslikEl.textContent = id === "__ekler__"
+      ? "⚙ Bütün ek devletler (" + EK_SECILI.length + ")" : "⚙ " + (d ? d.ad : id);
+    if (ayarRolEl) ayarRolEl.textContent = id === "__ekler__"
+      ? "Buradaki ayar bütün ek devletlere birlikte uygulanır."
+      : id === odakSahibiId() ? "ODAK devlet — kronoloji, kart ve harita bu devlette."
+      : "EK devlet — kronolojisi odakla birlikte akar.";
+    if (ayarTumEkBtn) ayarTumEkBtn.classList.toggle("gizli",
+      id === "__ekler__" || EK_SECILI.indexOf(id) < 0 || EK_SECILI.length < 2);
+    ayarPen.classList.remove("gizli");
+    ortuGuncelle();
+    ayarOzetYaz();
+  }
+  function ayarKapat() {
+    AYAR_HEDEF = null;
+    if (ayarPen) ayarPen.classList.add("gizli");
+    ortuGuncelle();
+  }
+  function ayarUygula(a) {
+    hedefIdleri().forEach(function (id) {
+      AYAR[id] = { ic: a.ic, bolge: a.bolge, dunya: a.dunya, puansiz: a.puansiz,
+                   yalnizDis: a.yalnizDis, konu: a.konu ? a.konu.slice() : null };
+    });
+    render(); havuzlariCiz(); ayarOzetYaz(); guncelle();
+  }
+  function ayarDegisti() { ayarUygula(kontroldenOku()); }
+  [odakIcSel, odakBolgeSel, odakDunyaSel, odakPuansizKutu, ekYalnizDisKutu].forEach(function (el) {
+    if (el) el.addEventListener("change", ayarDegisti);
+  });
+  // Önayarlar: tek tıkla üç eşik birden (Emre'nin "standart eşikler önayar olarak sunulsun" notu, 10 Eylül)
+  var ONAYAR = { hepsi: { ic: 1, bolge: 1, dunya: 0 }, onemli: { ic: 4, bolge: 4, dunya: 4 }, donum: { ic: 5, bolge: 5, dunya: 5 } };
+  [].forEach.call(document.querySelectorAll("[data-onayar]"), function (b) {
+    b.addEventListener("click", function () {
+      var o = ONAYAR[b.getAttribute("data-onayar")];
+      if (!o) return;
+      var a = kontroldenOku();
+      a.ic = o.ic; a.bolge = o.bolge; a.dunya = o.dunya;
+      kontrollereYaz(a);
+      ayarUygula(a);
+    });
+  });
+  var ayarSifirBtn = document.getElementById("kr-ayar-sifirla");
+  if (ayarSifirBtn) ayarSifirBtn.addEventListener("click", function () {
+    hedefIdleri().forEach(function (id) { delete AYAR[id]; });
+    var ilk = AYAR_HEDEF === "__ekler__" ? EK_SECILI[0] : AYAR_HEDEF;
+    if (ilk) kontrollereYaz(ayarOf(ilk));
+    render(); havuzlariCiz(); ayarOzetYaz(); guncelle();
+  });
+  if (ayarTumEkBtn) ayarTumEkBtn.addEventListener("click", function () {
+    var a = kontroldenOku();
+    AYAR_HEDEF = "__ekler__";
+    ayarUygula(a);
+    ayarAc("__ekler__");
+  });
+  var ayarTamamBtn = document.getElementById("kr-ayar-tamam");
+  if (ayarTamamBtn) ayarTamamBtn.addEventListener("click", ayarKapat);
+  var ayarXBtn = document.getElementById("kr-ayar-x");
+  if (ayarXBtn) ayarXBtn.addEventListener("click", ayarKapat);
+
   var odakSehirKronKutu = document.getElementById("odak-sehir-kron");
   if (odakSehirKronKutu) {
     odakSehirKronKutu.checked = !sehirKronGizli;
     sehirKronKutular.push(odakSehirKronKutu);
     odakSehirKronKutu.addEventListener("change", function () { sehirKronAyarla(!odakSehirKronKutu.checked); });
-    sehirKronDinleyici.push(function () { render(); odakOzetYaz(); });
+    sehirKronDinleyici.push(function () { render(); ayarOzetYaz(); havuzlariCiz(); });
   }
 
-  // ---- ODAK SÜZGECİ: kontroller → yeniden çizim -------------------------
-  [odakIcSel, odakBolgeSel, odakDunyaSel, odakPuansizKutu].forEach(function (el) {
-    if (el) el.addEventListener("change", function () { render(); odakOzetYaz(); });
-  });
-
-  // Konu kutucukları — `SUZGEC.KONU_GRUPLARI`dan ÜRETİLİR, elle yazılmaz.
-  // 📌 Gerekçe `suzgec.js`in kendi uyarısı: yeni bir grup eklenince burası
-  // DEĞİŞMEMELİ, yoksa liste iki yerde tanımlanır ve sessizce ayrışır.
+  // Konu kutucukları — `SUZGEC.KONU_GRUPLARI`dan ÜRETİLİR, elle yazılmaz (liste iki yerde
+  // tanımlanırsa sessizce ayrışır — `suzgec.js`in kendi uyarısı).
   (function odakKonuKur() {
     if (!odakKonuKutu || !window.SUZGEC) return;
     window.SUZGEC.KONU_GRUPLARI.forEach(function (g) {
@@ -19002,93 +19236,38 @@ function kronoTemsilEdiliyor(k, derin) {
       lab.className = "ek-konu-oge";
       var kt = document.createElement("input");
       kt.type = "checkbox"; kt.checked = true; kt.value = g.id;
-      kt.addEventListener("change", function () {
-        var secili = [].slice.call(odakKonuKutu.querySelectorAll("input:checked"))
-          .map(function (x) { return x.value; });
-        // Hepsi seçiliyse süzme YOK — "hepsi açık" ile "hepsini tek tek
-        // seçtim" aynı sonucu vermeli, ve `null` daha ucuz.
-        ODAK_KONU = (secili.length === window.SUZGEC.KONU_GRUPLARI.length)
-          ? null : secili;
-        render(); odakOzetYaz();
-      });
+      kt.addEventListener("change", ayarDegisti);
       lab.appendChild(kt);
       lab.appendChild(document.createTextNode(" " + g.ad));
       odakKonuKutu.appendChild(lab);
     });
   })();
 
-  // 🔴 AÇILIŞTA BİR KEZ — yoksa özet satırı, kullanıcı bir ayara DOKUNANA
-  // kadar BOŞ durur. Boş bir dürüstlük satırı, olmayan bir dürüstlük
-  // satırıyla aynı şeydir: Osmanlı seçiliyken "bu panel buraya uygulanmıyor"
-  // uyarısı tam da HİÇ DOKUNULMAMIŞKEN okunmalı.
-  // (Ölçüldü: ilk sınavda `OSMANLI_OZETI: ""` çıktı.)
-  odakOzetYaz();
-
-  // 🔴 ÖZET DÜRÜSTLÜK SATIRI — panelin en önemli parçası bu.
-  // İki şeyi AÇIKÇA söyler, çünkü ikisi de sessiz kalırsa yalan olur:
-  //   ① kaç madde PUANSIZ (ölçülmemiş — "önemsiz" değil, `D015`)
-  //   ② kaç dış madde `bolge` yerine `onem` VEKİLİYLE karar gördü
-  //      (`bolge` alanı veride henüz yok — 10 Eylül: 2 madde)
-  function odakOzetYaz() {
+  // 🔴 ÖZET DÜRÜSTLÜK SATIRI — ayarın sonucunu SAYIYLA söyler: kaç madde kalıyor, kaçı
+  // PUANSIZ (ölçülmemiş — "önemsiz" değil, D015), kaç dış madde `bolge` yerine `onem`
+  // vekiliyle karar gördü. Uygulanmayan yerde sayı BASILMAZ.
+  function ayarOzetYaz() {
     if (!odakOzetEl || !window.SUZGEC || !window.SUZGEC.onemSay) return;
-    // 🔴🔴 ODAK YOKKEN SÜZGEÇ UYGULANMIYOR — VE BUNU SÖYLEMEK ZORUNDA.
-    // Bu satır bir kez YALAN SÖYLEDİ ve ekran görüntüsünde yakalandı:
-    // Osmanlı seçiliyken özet *"1308 / 1316 madde"* yazıyordu, oysa
-    // `osmanliListesineDon()` süzgeçten GEÇMİYOR ve listede 1316 satırın
-    // 1316'sı duruyordu. Yani panel, UYGULANMAYAN bir süzmeyi
-    // RAPORLUYORDU — `§1.5`in "sayaç ile üretim ayrışırsa kimse fark
-    // etmez" sınıfının birebir aynısı, ve burada sayacı ben yazmıştım.
-    // ⇒ Uygulanmayan yerde sayı BASILMAZ, SEBEP yazılır.
-    if (!ODAK) {
-      var so = window.SUZGEC.onemSay(olaylar);
-      odakOzetEl.textContent = "⚠️ Bu panel SEÇİLEN DEVLETİN kronolojisini "
-        + "süzer. Osmanlı zaman çizgisine UYGULANMIYOR — " + olaylar.length
-        + " maddenin " + so.puansiz + "'i puansız (ölçüldü); orada ayrı "
-        + "bir konu süzgeci ve ⚙ Ayarlar'daki \"Dış olaylar\" eşiği "
-        + "(" + so.dis + " dış madde) çalışıyor. Bir devlet seç.";
-      return;
-    }
-    var kaynak = ODAK.kronoloji;
-    var s = window.SUZGEC.onemSay(kaynak);
-    var kalan = odakSuz(kaynak).length;
-    var satir = kalan + " / " + s.toplam + " madde";
-    if (s.puansiz) satir += " · ⚠️ " + s.puansiz + " madde PUANSIZ" +
-      (odakPuansizKutu && odakPuansizKutu.checked ? " (gösteriliyor)" : " (GİZLİ)");
-    if (s.bolgeVekil) satir += " · ⚠️ " + s.bolgeVekil +
-      " dış madde `bolge` yerine `onem` vekiliyle süzüldü";
+    var ids = hedefIdleri();
+    if (!ids.length) { odakOzetEl.textContent = ""; return; }
+    var kalan = 0, toplam = 0, puansiz = 0, vekil = 0, konuGizli = 0;
+    ids.forEach(function (id) {
+      var k = devletMaddeleri(id);
+      var taban = suzmeTabani(id);
+      var s = window.SUZGEC.onemSay(k);
+      toplam += k.length; puansiz += s.puansiz; vekil += s.bolgeVekil;
+      konuGizli += k.length - taban.length;
+      kalan += suzDevlet(taban, id).length;
+    });
+    var a = ayarOf(ids[0]);
+    var satir = "Bu ayarla " + kalan + " / " + toplam + " madde görünür";
+    if (konuGizli) satir += " · " + konuGizli + " madde kronoloji sütunundaki konu süzgeciyle gizli";
+    if (puansiz) satir += " · ⚠️ " + puansiz + " madde PUANSIZ — önem eşiği onları süzemez" +
+      (a.puansiz ? " (gösteriliyor)" : " (gizli)");
+    if (vekil) satir += " · " + vekil + " dış maddede `bolge` puanı yok, `onem` kullanıldı";
     odakOzetEl.textContent = satir;
   }
-
-  // ---- BİRLEŞİK LİSTE — ODAK'ın tamamı + EK devletlerin süzülmüşü --------
-  // ⚠️ Süzme YALNIZ ek maddelere uygulanır (kilit kural). `m.dunya` yoksa
-  // `m.onem`e, o da yoksa 3'e düşer — koordinatörün istediği "eksik alana
-  // dayanıklı" davranış (dosyalar M-0873 şemasına GEÇİŞ hâlinde).
-
-  function odakAyar() {
-    return {
-      ic: odakIcSel ? +odakIcSel.value : 1,
-      bolge: odakBolgeSel ? +odakBolgeSel.value : 4,
-      dunya: odakDunyaSel ? +odakDunyaSel.value : 4,
-      puansiz: odakPuansizKutu ? odakPuansizKutu.checked : true
-    };
-  }
-
-  // Süzgeç modülü yüklenmemişse HİÇBİR ŞEY SÜZÜLMEZ — `app.js:4606`daki
-  // mevcut davranışın aynısı: eksik modül sessizce KAYBETMEZ, sessizce
-  // SÜZMEZ. (Ters tercih 4838 maddeyi yok ederdi.)
-  function odakSuz(maddeler) {
-    if (!window.SUZGEC || !window.SUZGEC.onemSuz) return maddeler;
-    // 🏺 Arkeoloji künyesinin maddeleri hep `kapsam:"dis"` + `bolge:1`: bölge eşiği (varsayılan 4)
-    // hepsini silerdi. Bu künyede önem süzgeci uygulanmaz.
-    var cikti = (ODAK && ODAK.id === "arkeoloji") ? maddeler.slice()
-                : window.SUZGEC.onemSuz(maddeler, odakAyar());
-    if (sehirKronGizli) cikti = cikti.filter(function (m) { return !sehirKronMadde(m); });
-    if (ODAK_KONU && ODAK_KONU.length)
-      cikti = cikti.filter(function (m) {
-        return ODAK_KONU.indexOf(window.SUZGEC.maddeGrubu(m)) >= 0;
-      });
-    return cikti;
-  }
+  function odakOzetYaz() { ayarOzetYaz(); }
 
   // 🆕 10 Kasım 2026 (Emre): "bölgesel 5 / dünya 5 ayarı yapıldığında … 5 önemdeki olaylar
   // [seçili devletle] beraber araya dağıtılmış şekilde gösterime girecek; tüm dünya için geçerli."
@@ -19168,7 +19347,8 @@ function kronoTemsilEdiliyor(k, derin) {
 
   function birlesikTopla() {
     var out = [];
-    var odakKaynak = ODAK ? ODAK.kronoloji : olaylar;   // `olaylar`: Osmanlı'nın 821 maddesi
+    // Osmanlı odakta: önce kendi konu süzgeci (`suzulduMu`), sonra ⚙ önem ayarı
+    var odakKaynak = ODAK ? ODAK.kronoloji : olaylar.filter(function (m, oi) { return !suzulduMu(oi); });
     var odakSahibi = ODAK || OSMANLI_SYNTH;
     odakKaynak = odakSuz(odakKaynak);
     odakKaynak.forEach(function (m) {
@@ -19183,28 +19363,18 @@ function kronoTemsilEdiliyor(k, derin) {
         // H-79:16 — Osmanlı EK. `dunya`/`kapsam` alanları Osmanlı maddelerinde
         // YOK (yukarıdaki ölçüm) ⇒ EK eşiği UYGULANAMAZ; uydurma puan yerine
         // Osmanlı'nın KENDİ süzgeci (`suzulduMu`, ⚙ konu/toprak) uygulanır.
-        olaylar.forEach(function (m, oi) {
-          if (suzulduMu(oi)) return;
+        // 19 Kasım 2026: Osmanlı maddeleri tam puanlı (5.136/5.136) ⇒ ek ⚙ ayarı uygulanır,
+        // üstüne Osmanlı'nın kendi konu süzgeci (`suzulduMu`).
+        var _osGec = suzDevlet(olaylar.filter(function (m, oi) { return !suzulduMu(oi); }), "osmanli");
+        _osGec.forEach(function (m) {
           out.push({ gi: m.gi, t: m.t, b: m.b, d: OSMANLI_SYNTH, m: m, odak: false });
         });
         return;
       }
       var d = bul(id);
       if (!d || !d.kronoloji) return;
-      d.kronoloji.forEach(function (m) {
-        // 🆕 ZAMAN-GENİŞ-1008 (sürüm 4, Z7 bulgusu) — PUANSIZ madde (dunya da
-        // onem de yok) eskiden 3 sayılıp varsayılan eşik 4'te GİZLENİYORDU:
-        // künye içi 3.088 maddenin hiçbiri puanlı değil, hepsi EK'te görünmüyordu.
-        // Uydurma puan yerine "puansız" sayılır ve mevcut puansız kutusuna
-        // (`#odak-puansiz`, odak süzgeciyle AYNI anahtar) bağlanır.
-        var puansiz = m.dunya == null && m.onem == null;
-        if (puansiz) {
-          if (odakPuansizKutu && !odakPuansizKutu.checked) return;
-        } else {
-          var dunya = m.dunya != null ? m.dunya : m.onem;
-          if (dunya < EK_DUNYA_ESIK) return;
-        }
-        if (EK_YALNIZ_DIS && m.kapsam !== "dis") return;
+      // ⚙ devlet başına ayar (19 Kasım 2026) — eski tek ek eşiği (#ek-dunya-esik) kalktı
+      suzDevlet(d.kronoloji, id).forEach(function (m) {
         out.push({ gi: gunIdx(m.t), t: m.t, b: m.b, d: d, m: m, odak: false });
       });
     });
@@ -19220,7 +19390,7 @@ function kronoTemsilEdiliyor(k, derin) {
   // Gezilen liste EKRANDAKİ listedir: ek varsa birleşik havuz, yoksa odak
   // devletin süzülmüş listesi, ikisi de yoksa null (⇒ eski Osmanlı yolu).
   function gezListesi() {
-    if (EK_SECILI.length) return birlesikListe;
+    if (cokluMu()) return birlesikListe;
     return ODAK ? odakSirali : null;
   }
   var gezI = -1, gezSuanki = null;
@@ -19722,7 +19892,7 @@ function kronoTemsilEdiliyor(k, derin) {
     // 🔴 19 Kasım 2026 — kamera artık BURADA oynamaz: `render()` ek devlet ekleyince, süzgeç
     // değişince de koşuyordu ve her seferinde haritayı odak devletin gövdesine geri sıçratıyordu.
     // Odak devlet görünümüne uçuş yalnız odak GERÇEKTEN değişince (`satirTikla` → `odakGorunumuneUc`).
-    if (EK_SECILI.length) {
+    if (cokluMu()) {
       if (ODAK) kartCiz(ODAK);
       else _padisahAsil(suanki);
       birlesikCiz();
@@ -19743,7 +19913,7 @@ function kronoTemsilEdiliyor(k, derin) {
     // ONUN maddesidir. Eskiden burada hep null dönüyordu; ek devlet maddesi uçuşsuz açılınca
     // (🗺 kapalı) `obTazele` kartı hemen o günün Osmanlı maddesiyle eziyordu (ölçüldü:
     // Pavia 1525-02-24 → kartta "Mısır'da Hain Ahmed Paşa isyanı").
-    if (EK_SECILI.length) {
+    if (cokluMu()) {
       var _bi = (gezI >= 0 && gezSuanki === suanki) ? gezI : sonVurgulananB;
       var _bo = (_bi >= 0 && _bi < birlesikListe.length) ? birlesikListe[_bi] : null;
       if (!_bo || !_bo.d || _bo.d.id === "osmanli") return null;
@@ -19757,13 +19927,13 @@ function kronoTemsilEdiliyor(k, derin) {
   // ---- sarmalayıcılar ---------------------------------------------------
   var _padisahAsil = padisahGuncelle;
   padisahGuncelle = function (t) {
-    if (EK_SECILI.length) return ODAK ? kartCiz(ODAK) : _padisahAsil(t);
+    if (cokluMu()) return ODAK ? kartCiz(ODAK) : _padisahAsil(t);
     if (!ODAK) return _padisahAsil(t);
     kartCiz(ODAK);
   };
   var _olaylarAsil = olaylarGuncelle;
   olaylarGuncelle = function (t) {
-    if (EK_SECILI.length) { birlesikGuncelle(t); return; }
+    if (cokluMu()) { birlesikGuncelle(t); return; }
     if (!ODAK) return _olaylarAsil(t);
     // odaklı listede "geçmiş" vurgusu + "şimdiki" satır (⏭ ile gezilen madde
     // görünür olsun). `odakSirali` ÇİZİLEN listedir — indeks eşlemesi güvenli.
@@ -19951,7 +20121,7 @@ var IPUCU_EK = [
   ["#ayar-kirpma-adet", "Kırpma sayısı: öncesi→sonrası gösteriminin kaç kez tekrarlanacağı."],
   ["#ayar-irtifa", "İrtifa: orta mesafeli geçişlerde kameranın ne kadar yükseleceği; kısa/uzun geçişte kendiliğinden ayarlanır."],
   // ── ③ devlet paneli (10) ───────────────────────────────────────────────
-  ["#ek-yalniz-dis", "İşaretliyse ek devletlerden yalnız dış ilişkilerle ilgili maddeler havuza girer."],
+  ["#ek-yalniz-dis", "İşaretliyse bu devletten yalnız dış ilişkilerle ilgili maddeler gelir."],
   ["#odak-puansiz", "Önem puanı henüz verilmemiş maddeler: işaretliyse gösterilir, değilse gizlenir."],
   ["#devlet-secici-panel summary", "Seçtiğiniz devletin kronolojisini önem ve konuya göre süzme ayarları."],
   ["#odak-suzgec-konu input", function (el) {
