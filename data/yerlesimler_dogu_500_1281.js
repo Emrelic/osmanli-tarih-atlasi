@@ -271,6 +271,7 @@ window.YERLESIMLER_DOGU_500_1281 = [
   "lon": 128.269,
   "g": 2,
   "k": 4,
+  "m": "Taegu (Daegu)",
   "s": [
    {
     "f": "0500-01-01",
@@ -323,7 +324,7 @@ window.YERLESIMLER_DOGU_500_1281 = [
    }
   ],
   "not": "Daegaya başkenti (Goryeosa j.57 «高靈郡本大伽倻國...新羅眞興王滅之»). kur yazılmadı (ilk tarihli yazılı tanık 479, Nan Qi shu: 加羅國 — Daegaya özdeşliği açık değil). Zincir 1281-01-01'de biter.",
-  "kaynak": "koordinat: Wikidata Q50207 Goryeong County (35.73028, 128.26889) + OpenStreetMap Nominatim 'Goryeong-eup' (35.7331, 128.2688; 35.7294, 128.2714); iki tanık 1 km içinde (GeoNames cities1000'de kayıt yok)"
+  "kaynak": "koordinat: Wikidata Q50207 Goryeong County (35.73028, 128.26889) + OpenStreetMap Nominatim 'Goryeong-eup' (35.7331, 128.2688; 35.7294, 128.2714); iki tanık 1 km içinde (GeoNames cities1000'de kayıt yok) · ABİ MERKEZ: Taegu (Daegu) — 2 günden yakın (Emre ölçütü: kesin bağ); DEM yürüyüşü 1.1 gün (motor ölçeği: gün = 8 saat × 5,04 km/saat), ikinci aday Sangju (Sangju, 尙州) 2.4 gün; kaynakta idarî bağ bulunamadı. BEYANLI YAKLAŞIKLIK (denetim/ABI-MERKEZ-K4-1118.md)"
  },
  {
   "ad": "Sabi (Buyeo)",
@@ -986,6 +987,7 @@ window.YERLESIMLER_DOGU_500_1281 = [
   "lon": 71.6833,
   "g": 1,
   "k": 4,
+  "m": "Dholka",
   "s": [
    {
     "f": "0801-01-01",
@@ -1045,7 +1047,7 @@ window.YERLESIMLER_DOGU_500_1281 = [
    }
   ],
   "not": "Vardhamana = modern Wadhwan (Majumdar IV). kur yazılmadı: ilk tarihli tanık 783 (\"territories to the west of Vardhamana\"), şehir adı tanığı dolaylı.",
-  "kaynak": "koordinat: Wikidata Q1023682 Wadhwan (22.7, 71.68333) + OSM Nominatim node 1705164307 Wadhwan City (22.7028, 71.67239); 1.2 km."
+  "kaynak": "koordinat: Wikidata Q1023682 Wadhwan (22.7, 71.68333) + OSM Nominatim node 1705164307 Wadhwan City (22.7028, 71.67239); 1.2 km. · ABİ MERKEZ: Dholka — 2 günden yakın (Emre ölçütü: kesin bağ); DEM yürüyüşü 1.9 gün (motor ölçeği: gün = 8 saat × 5,04 km/saat), ikinci aday Ahmedâbâd 2.5 gün; kaynakta idarî bağ bulunamadı. BEYANLI YAKLAŞIKLIK (denetim/ABI-MERKEZ-K4-1118.md)"
  },
  {
   "ad": "Dambadeniya",

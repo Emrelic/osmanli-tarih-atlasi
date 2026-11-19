@@ -741,7 +741,7 @@ window.YERLESIMLER_AFRIKA = [
   s:[{f:"1281-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-29",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-29",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 // Sudan sınırındaki geçit; 1889 Mehdî-Habeş savaşının sahnesi.
-{ ad:"Metemma", tur:"kale", lat:12.968, lon:36.155, g:0, k:4,
+{ ad:"Metemma", tur:"kale", lat:12.968, lon:36.155, g:0, k:4, m:"Gondar", kaynak:"ABİ MERKEZ: Gondar — 2-5 gün, coğrafî birliktelik (ikinci aday en az 1 gün uzak, sahiplik uyumu en az %90); DEM yürüyüşü 4.9 gün (motor ölçeği: gün = 8 saat × 5,04 km/saat), ikinci aday Debârek 6.5 gün; kaynakta idarî bağ bulunamadı. BEYANLI YAKLAŞIKLIK (denetim/ABI-MERKEZ-K4-1118.md)",
   s:[{f:"1281-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-29",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-29",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 { ad:"Dese", tur:"sehir", lat:11.133, lon:39.633, g:0, k:3,
