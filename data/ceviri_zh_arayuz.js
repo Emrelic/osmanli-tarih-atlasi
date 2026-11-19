@@ -350,6 +350,7 @@ Ceviri.ekle("zh","arayuz",{
 "# [yalnız yıl teyitli; TDV «Karamanoğulları» Nisan # der, okunan akademik kaynaklarda gün yok; ÇELİŞKİ-#: merkez toprakların ilhakı #, beyliğin siyasi sonu için bkz. karaman künye ic_not_t]":["#［仅年份经证实；TDV“卡拉曼奥卢”称4月#，所读学术史料中无日期；矛盾-#：中心领土的兼并为#，关于侯国政治上的终结见karaman künye ic_not_t］", "de549d73"],
 "# [yalnız yıl teyitli; gün teyitsiz]":["#［仅年份经证实；日期未经证实］", "640d015f"],
 "# [yalnız yıl teyitli; gün teyitsiz] (sefer Temmuz #'te başladı)":["#［仅年份经证实；日期未经证实］（战役于7月#日开始）", "e301edc1"],
+"# [yalnız yıl; «dört yıl sonra» ifadesinden türetildi]":["# [仅年份；由“四年后”的措辞推得]", "487ef0d2"],
 "# [yalnız yıl]":["#［仅年份］", "0d6d3b49"],
 "# baharı — kaynak gün vermiyor":["#年春季——史料未给出日期", "21306921"],
 "# başları":["#年初", "2d532281"],

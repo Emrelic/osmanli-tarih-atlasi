@@ -350,6 +350,7 @@ Ceviri.ekle("sw","arayuz",{
 "# [yalnız yıl teyitli; TDV «Karamanoğulları» Nisan # der, okunan akademik kaynaklarda gün yok; ÇELİŞKİ-#: merkez toprakların ilhakı #, beyliğin siyasi sonu için bkz. karaman künye ic_not_t]":["# [mwaka tu umethibitishwa; TDV «Karamanoğulları» inasema Aprili #, katika vyanzo vya kitaaluma vilivyosomwa hakuna siku; MGOGORO-#: kunyakuliwa kwa ardhi za kati #, kwa mwisho wa kisiasa wa beylik angalia karaman künye ic_not_t]", "de549d73"],
 "# [yalnız yıl teyitli; gün teyitsiz]":["# [mwaka tu umethibitishwa; siku haijathibitishwa]", "640d015f"],
 "# [yalnız yıl teyitli; gün teyitsiz] (sefer Temmuz #'te başladı)":["# [mwaka tu umethibitishwa; siku haijathibitishwa] (kampeni ilianza Julai #)", "e301edc1"],
+"# [yalnız yıl; «dört yıl sonra» ifadesinden türetildi]":["# [mwaka tu; umetokana na usemi «miaka minne baadaye»]", "487ef0d2"],
 "# [yalnız yıl]":["# [mwaka tu]", "0d6d3b49"],
 "# baharı — kaynak gün vermiyor":["Masika ya # — chanzo hakitoi siku", "21306921"],
 "# başları":["Mwanzoni mwa #", "2d532281"],

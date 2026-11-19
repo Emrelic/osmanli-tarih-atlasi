@@ -350,6 +350,7 @@ Ceviri.ekle("ja","arayuz",{
 "# [yalnız yıl teyitli; TDV «Karamanoğulları» Nisan # der, okunan akademik kaynaklarda gün yok; ÇELİŞKİ-#: merkez toprakların ilhakı #, beyliğin siyasi sonu için bkz. karaman künye ic_not_t]":["#1 [年のみ確認済み; TDV「Karamanoğulları」は4月#2日とするが、読んだ学術的史料には日がない; 矛盾-#3: 中心領土の併合は#4、侯国の政治的終焉については karaman künye ic_not_t を参照]", "de549d73"],
 "# [yalnız yıl teyitli; gün teyitsiz]":["# [年のみ確認済み; 日は未確認]", "640d015f"],
 "# [yalnız yıl teyitli; gün teyitsiz] (sefer Temmuz #'te başladı)":["#1 [年のみ確認済み; 日は未確認](遠征は7月#2日に開始)", "e301edc1"],
+"# [yalnız yıl; «dört yıl sonra» ifadesinden türetildi]":["# [年のみ；「四年後」という表現から導出]", "487ef0d2"],
 "# [yalnız yıl]":["# [年のみ]", "0d6d3b49"],
 "# baharı — kaynak gün vermiyor":["#年春 — 史料は日を記さない", "21306921"],
 "# başları":["#年初頭", "2d532281"],
