@@ -1566,8 +1566,8 @@
     },
     {
      "yol": "data/olaylar_p0068b.js",
-     "sha": "9875a5c8e3649199",
-     "bayt": 32970
+     "sha": "c6d24c08222ccd5c",
+     "bayt": 33263
     },
     {
      "yol": "data/olaylar_p0065.js",
@@ -1655,7 +1655,7 @@
      "bayt": 225751
     }
    ],
-   "bayt": 562550
+   "bayt": 562584
   },
   {
    "paket": "data/paket_27.js",
