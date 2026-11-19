@@ -200,8 +200,7 @@ window.OLAYLAR_EK8 = [
   "kaynak": "limni",
   "duygu": [
    "🎉"
-  ]
- },
+  ], "ic_not_d": "[Mükerrer birleştirme 19 Kasım 2026 — silinen kayıt «Limni'nin Venedik'ten geri alınışı» (olaylar_ek5.js); d: Temmuz 1656'da Venedik'in aldığı Limni, Kasım 1657'de Osmanlı'ya geri döndü. · ic_not: Gün TDV limni'de yok (yalnız Kasım 1657); 15. gün atlas kaydından, kaynaksız. Düzeltme: gün kaynağı bulunursa hem dönem hem madde güncellenmeli.]" },
  {
   "t": "1688-09-11",
   "b": "Knin'in Venedik'e kaybı — 166 yıllık Dalmaçya sınır kalesi düştü",
@@ -327,7 +326,6 @@ window.OLAYLAR_EK8 = [
 
 { onem:3, dunya:1, bolge_onem:3, puan_s:"v2", bolge:1, t:"1793-01-01", tur:"hukumdar", etiket:["hanedan-degisimi","konu-kisiler","konu-hanedan"], kapsam:"dis", b:"Timur Şah'ın ölümü, Zaman Şah'ın cülûsu (Dürrânî Devleti)", yer_kon:[34.528,69.172], gun:"1793", yer:"Kabil", kisiler:"Timur Şah (öldü), Zaman Şah (tahta çıktı)", d:"Yirmi yılı aşkın süre ülkeyi içeriden konsolide eden Timur Şah'ın ölümüyle, Kandehar-Herat-Kabil valisi üç kardeş taht için çekişti; başkenti elinde tutan Kabil valisi Zaman Şah 20 Mayıs 1793'te şah oldu. Bu veraset krizi, hânedanın parçalanma sürecinin fiilen başlangıcıdır.", ic_not_d:"(Not: tarih önceki bir taslakta 18 Mayıs 1793 — Timur Şah'ın ölüm günü — olarak yanlış girilmişti; madde metni zaten Zaman Şah'ın CÜLÛSUNU anlatıyordu, tarih metinle 20 Mayıs'a hizalandı — bkz. denetim/PAKET-DALGA2-0911.json ②.)", kaynak:"TDV İslâm Ansiklopedisi, «Afganistan» https://islamansiklopedisi.org.tr/afganistan — «Timur Şah’ın ölümü üzerine (1793), yerine geçen oğlu Zaman Şah’ın» ; TDV, afganistan (gövde okundu, KAYNAK-DOGRULA 19 Eyl 2026) — AYNEN: «Timur Şah'ın ölümü üzerine (1793), yerine geçen oğlu Zaman Şah'ın yedi yıllık iktidar döneminde…» (YIL). Dikkat: 20 Mayıs GÜNÜ TDV'de ve akademik kaynakta BULUNAMADI — gün yalnız Wikipedia 'Zaman Shah Durrani'de; New World Encyclopedia (Wikipedia türevi) ve Wikipedia dayanak olarak KALDIRILDI. TDV 'ahmed-sah-durrani' maddesi bu olayı kapsamıyor (önceki not).", ic_not_t:"gün yalnız güvensiz kaynakta: 1793-05-20 (gun: «20 Mayıs 1793»); güvenilir kaynağın tarihi: 1793; 14 Ekim 2026 Emre kararıyla yıla indirildi (TEYIT-KARAR-1014)" },
 
-{ onem:4, dunya:2, bolge_onem:3, puan_s:"v2", bolge:1, t:"1920-04-26", tur:"kurulus", etiket:["idari","hanedan-degisimi","konu-siyasi","konu-idari","konu-hanedan"], kapsam:"dis", b:"Hârizm Halk Cumhuriyeti ilan edildi", yer_kon:[41.3783,60.3639], gun:"26 Nisan 1920", yer:"Hive", kisiler:"-", d:"1917 Ekim İhtilâli sonrası Hive Hanı'nın devrilmesinin ardından Hârizm Halk Cumhuriyeti ilân edildi.", kaynak:"harizm (TDV — CANLI, madde gövdesinde birebir tarih)" },
 
 { onem:3, dunya:1, bolge_onem:2, puan_s:"v2", bolge:1, t:"1921-09-05", tur:"siyaset", etiket:["idari","konu-siyasi","konu-idari"], kapsam:"dis", b:"Hârizm Sovyet Sosyalist Cumhuriyeti'ne dönüşüm", yer_kon:[41.3783,60.3639], gun:"5 Eylül 1921", yer:"Hive", kisiler:"-", d:"Ülke, adını ve statüsünü değiştirerek Hârizm Sovyet Sosyalist Cumhuriyeti oldu; idari-yasal yapı Sovyet sistemine göre yeniden düzenlendi.", kaynak:"harizm (TDV — CANLI, madde gövdesinde birebir tarih)" },
 

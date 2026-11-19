@@ -4346,8 +4346,9 @@ BILINEN_AYRI = {
     #   Üçü de olaylar_ek8.js'te, üçü de ayrı olay. KITA 14 ve KITA 15 bu
     #   iki çifti günlerdir "baştan vardı, benimle ilgisiz" diye not
     #   ediyordu — kimseye ait değildi, o yüzden kimse kapatmadı.
-    ("Hârizm Halk Cumhuriyeti ilan edildi",
-     "Buhara Halk Sovyet Cumhuriyeti ilan edildi"),
+    # 19 Kasım 2026 (LAB 19, mükerrer birleştirme #597): "Hârizm Halk Cumhuriyeti ilan
+    # edildi" olaylar_ek8.js kaydı, kronoloji_sinir_zincir_1281sonra_1024.js'teki
+    # Hârizm kaydına birleştirildi (silindi); eşi bu istisna artık ölü, çifti silindi.
     ("Buhara Halk Sovyet Cumhuriyeti ilan edildi",
      "Buhara Halk Sovyet Cumhuriyeti yeni anayasası kabul edildi"),
     # 17 Eylül 2026 · UYGULA-2 (M-4308) — 1736-39 savaşı, BAŞLIK KALIBI sınıfı:

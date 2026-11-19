@@ -40,11 +40,6 @@ window.OLAYLAR_P0917TARAF = [
   d:"Bulgaristan'ın Osmanlı yanında savaşa girmesinden kısa süre önce Sofya'da imzalanan sözleşme, 1913 İstanbul Antlaşması'nın çizdiği Osmanlı-Bulgar sınırını düzeltti. Hattın Doğu Trakya kesimi 1921'de Neuilly komisyonunca yeniden işaretlenip Lozan'da teyit edildi.",
   kaynak:"IBS No. 49 Bulgaria-Turkey (1965) s.10-12 — 'signed at Sofia, August 24 (September 6), 1915'", duygu:["🤝"] },
 
-{ onem:2, dunya:1, bolge_onem:2, puan_s:"v2", tur:"antlasma", kapsam:"ic", t:"1886-01-01", kesinlik:"yil", k:"antlasma", etiket:["antlasma","diplomasi","konu-diplomasi"],
-  b:"Fransız-Osmanlı düzenlemesi — Tunus ile Trablusgarp arasındaki sınırın kıyı kesimi çizildi",
-  gun:"1886 (gün kaynakta yok)", yer:"Tunus-Trablusgarp sınırı", yer_id:"", yer_kon:[33.1485, 11.5676], ic_not_yer:"yer_kon = Ras Ecdir (Ra's Ajdir) kıyı ucu — GeoNames koordinatı. IBS 121 (1972) s.2-3: 1886 hattı 'from the Mediterranean inland for a limited distance'; 1910 sözleşmesi hattı 'shall start at Ras Adjedir [Ra's Ajdir], on the Mediterranean'. 1886 metninin kendisi okunamadı: Ras Ecdir 1886 ucu olarak KAYNAKTA ADIYLA GEÇMEZ, kamera/işaret noktasıdır (sınırın kıyıdaki tek ucu). Yerleşim noktası AÇILMADI (petek değişmesin). KUTU-VERI-1015 B 0076/H-0082", kisiler:"",
-  d:"Tunus'un 1881'de Fransız himayesine girmesinden beş yıl sonra Fransa ile Osmanlı Devleti, Tunus ile Trablusgarp vilayeti arasındaki sınırı Akdeniz kıyısından başlayarak kısa bir mesafe boyunca belirledi. Kaynak yalnız yılı veriyor; hattın koordinatları bilinmiyor.",
-  kaynak:"IBS 121 (1972) s.2 ('An agreement in 1886 between France and Turkey delimited a boundary ... for a limited distance')", duygu:["🤝"] },
 
 { onem:2, dunya:1, bolge_onem:2, puan_s:"v2", tur:"antlasma", kapsam:"ic", t:"1892-01-01", kesinlik:"yil", k:"antlasma", etiket:["antlasma","diplomasi","konu-diplomasi"],
   b:"İkinci Fransız-Osmanlı düzenlemesi — Tunus-Trablusgarp sınırı Gadames'e kadar uzatıldı",

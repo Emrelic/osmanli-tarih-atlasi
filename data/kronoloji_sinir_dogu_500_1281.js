@@ -187,29 +187,6 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
   "sinir_id": []
  },
  {
-  "t": "0502-04-30",
-  "devlet": "liang-guney",
-  "taraflar": [
-   "liang-guney",
-   "guney-qi"
-  ],
-  "b": "Xiao Yan Nanjiao'da tahta çıktı: Jiankang Liang'in başkenti oldu",
-  "tur": "toprak-kazanc",
-  "onem": 2,
-  "dunya": 1,
-  "kapsam": "dis",
-  "yer": "Jiankang (Nanjing) · Nanking (Nanjing) · Jiangling (Jingzhou) · Jingzhou",
-  "yer_id": "Nanking (Nanjing)",
-  "etiket": [
-   "toprak-degisimi",
-   "konu-askeri",
-   "dogu-500-1281"
-  ],
-  "d": "Xiao Yan He Di'nin feragatini alıp Nanjiao'da imparator ilan edildi ve Liang hanedanını kurdu; Jiankang Güney Qi'den Liang'e geçti. ‖ Güney Qi He Di'nin 501'de Jiangling'de rakip imparator ilan edildiği şehir, Xiao Yan'ın tahta çıkışıyla Liang topraklarına katıldı.",
-  "kaynak": "Xiao Zixian, Nan Qi shu (6. yy.), juan 8 «Hedi ji»: «丙辰，禪位梁王 … 夏四月 … 丁卯，梁王奉帝為巴陵王» — https://zh.wikisource.org/wiki/南齊書/卷8 (bu oturumda okundu) | «天監元年夏四月丙寅，高祖即皇帝位於南郊» (DEVLET_LISTESI kaydından; Liang shu juan 2 bu oturumda çekildi, satır grep ile ayrıca aranmadı) ‖ Xiao Zixian, Nan Qi shu (6. yy.), juan 8 «Hedi ji»: «丙辰，禪位梁王 … 夏四月 … 丁卯，梁王奉帝為巴陵王» — https://zh.wikisource.org/wiki/南齊書/卷8 (bu oturumda okundu) | Jiangling'e özgü devir kaydı yok; devlet düzeyi (BEYANLI YAKLAŞIKLIK)",
-  "sinir_id": []
- },
- {
   "t": "0557-11-16",
   "devlet": "chen",
   "taraflar": [
@@ -419,32 +396,6 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
   "gun": "755 (Tianbao 14), 12. ay, ganzhi 丁酉 (Jülyen 756-01-18)",
   "kesinlik": "gun",
   "ic_not": "ÇELİŞKİ: aynı eserin juan 10’u «十二月丁未，陷東京» der (丁酉 = 756-01-18, 丁未 = 756-01-28); juan 9 seçildi. Çin ay-güneş takvimi → Jülyen (1582 öncesi Jülyen kalır): 755 12. ay (Jülyen 756 Ocak). Yan’ın resmî ilanı (756 1. ay) bu günden sonradır: künye f=0756-01-01 Luoyang’ın düşüşünden önce başlar — Luoyang dilimi An Lushan’ın askerî egemenliğini (devlet adı sonradan) \"an-lushan-yan\" olarak yazar (BEYANLI).",
-  "sinir_id": []
- },
- {
-  "t": "0757-12-03",
-  "devlet": "an-lushan-yan",
-  "taraflar": [
-   "tang",
-   "an-lushan-yan"
-  ],
-  "b": "Luoyang: Tang ordusu (Guangping Prensi) Luoyang’ı geri aldı",
-  "tur": "toprak-kayip",
-  "onem": 2,
-  "dunya": 1,
-  "kapsam": "dis",
-  "yer": "Luoyang",
-  "yer_id": "Luoyang",
-  "etiket": [
-   "toprak-degisimi",
-   "konu-askeri",
-   "dogu-500-1281"
-  ],
-  "d": "Guangping Prensi Li Chu komutasındaki Tang–Uygur ordusu Shaanxian’da (Shaanzhou) isyancıları yenip Luoyang’a girdi; An Qingxu Hebei’ye kaçtı. Luoyang geçici olarak Tang’a döndü. (Luoyang sahibi an-lushan-yan → tang) ‖ Luoyang yerleşiminin s: zincirinde sahip an-lushan-yan iken 0757-01-01 itibarıyla Tang oldu (kuyrukcin yama dilimi). Ayrıntı ve kaynak aşağıdadır.",
-  "kaynak": "Jiu Tang shu, juan 10 «Suzong ji» (zh.wikisource.org/wiki/舊唐書/卷10; okundu): «庚申，安慶緒與其黨奔河北。壬戌，廣平王入東京，…» ‖ Jiu Tang shu, juan 10 «Suzong ji» (zh.wikisource.org/wiki/舊唐書/卷10): 「庚申，安慶緒與其黨奔河北。壬戌，廣平王入東京，…」 (Luoyang Tang'a döndü; gün/ay yok: YYYY-01-01 kuralı) ‖ BİTİŞ: Jiu Tang shu, juan 200 shang «Shi Siming»: 「九月，寇汴州，…又陷洛陽，與太尉光弼相拒。」 (759-09-26). BÖLÜNEN Tang dilimi (cin2 an-lushan-yan 756-01-18→757-01-01 ve 759-09-26→762-11-20 arasındaki aralık). ‖ GÜN: Jiu Tang shu, juan 10 (zh.wikisource.org/wiki/舊唐書/卷10, 23.10.2026 okundu): 至德二載「冬十月乙巳朔」…「壬戌，廣平王入東京，陳兵天津橋南」",
-  "gun": "3 Aralık 757 (Jülyen; Zhide 2, 10. ay 18. gün, 壬戌)",
-  "kesinlik": "gun",
-  "ic_not": "Yıl 757 (Zhide 2); ay/gün: 壬戌 günü Jülyen 757-10-04 ya da 757-12-03’e düşer (hesap ay numaralandırması Tang takvimiyle ±1 ay uyuşmadı); YYYY-01-01 kuralı (yil hassasiyeti). ‖ SINIR-GUN-1023: t 0757-01-01 → 0757-12-03. Takvim: Jiu Tang shu ayı açıkça verir (冬十月乙巳朔); 壬戌 o ayın 18. günü = Jülyen 757-12-03 (JDN gün-ganzhi; 10. ay 小雪'yi taşımalı ⇒ ay başı 757-11-16, 757-09-17 değil). Önceki ic_not'taki ±1 ay belirsizliği bu ay başlığıyla kapandı; tabloyla çapraz kontrol yapılamadı.",
   "sinir_id": []
  },
  {
@@ -2142,34 +2093,6 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
   "ic_not": "BEYANLI YAKLAŞIKLIK: Samguk sagi j.50 olayı 天祐元年 (904) yılına koyar; Gung Ye'nin ülke adı Majin 904 (künyede Taebong). Hubaekje'nin sonraki Gongju hâkimiyeti dilim olarak yazılmadı (bkz. Gongju BOŞLUK dilimi)."
  },
  {
-  "t": "0936-09-26",
-  "devlet": "goryeo",
-  "taraflar": [
-   "goryeo",
-   "hubaekje",
-   "silla"
-  ],
-  "b": "Concu (Jeonju): Sonraki Baekje (Hubaekje) → Goryeo",
-  "tur": "toprak-kazanc",
-  "onem": 2,
-  "dunya": 1,
-  "kapsam": "dis",
-  "yer": "Concu (Jeonju) · Sabi (Buyeo) · Kongcu (Gongju)",
-  "yer_id": "Concu (Jeonju)",
-  "etiket": [
-   "toprak-degisimi",
-   "konu-askeri",
-   "dogu-500-1281"
-  ],
-  "d": "Concu (Jeonju) Sonraki Baekje (Hubaekje)'dan Goryeo'e geçti. Goryeo, Iljecheon Savaşı'nda Sonraki Baekje'yi yendi; Wansan (Jeonju) dahil Baekje toprakları Goryeo'ya geçti. ‖ Sabi (Buyeo) Silla'dan Goryeo'e geçti. Goryeo, Iljecheon Savaşı'nda Sonraki Baekje'yi yendi; Wansan (Jeonju) dahil Baekje toprakları Goryeo'ya geçti. ‖ Kongcu (Gongju) sahipsiz (boşluk)'dan Goryeo'e geçti. Goryeo, Iljecheon Savaşı'nda Sonraki Baekje'yi yendi; Wansan (Jeonju) dahil Baekje toprakları Goryeo'ya geçti.",
-  "kaynak": "Goryeosa (Jeong Inji vd.) 卷二 (zh.wikisource.org/wiki/高麗史/卷二, okundu): «秋九月，王率三軍，至天安府合兵，進次一善郡，神劒以兵逆之。甲午，隔一利川而陣» · Goryeosa (Jeong Inji vd.) 卷五十七 (zh.wikisource.org/wiki/高麗史/卷五十七, okundu): «後甄萱，立都於州，太祖滅之，改安南都護府。» ‖ Goryeosa (Jeong Inji vd.) 卷二 (zh.wikisource.org/wiki/高麗史/卷二, okundu): «秋九月，王率三軍，至天安府合兵，進次一善郡，神劒以兵逆之。甲午，隔一利川而陣» · Goryeosa (Jeong Inji vd.) 卷五十七 (zh.wikisource.org/wiki/高麗史/卷五十七, okundu): «後甄萱，立都於州，太祖滅之，改安南都護府。» · Goryeosa (Jeong Inji vd.) 卷五十六 (zh.wikisource.org/wiki/高麗史/卷五十六, okundu): «唐師旣去，新羅盡得百濟舊地。» · BEYANLI YAKLAŞIKLIK (ABİ MERKEZ: Jeonju/Wansan): Sabi (Buyeo) 900-936 arasında Hubaekje'ye bağlı sayılmadı (kaynakta Sabi için Hubaekje kaydı yok); Silla'dan Goryeo'ya geçiş Hubaekje'nin çöküşü (936-09) alındı. Hubaekje dilimi yazılamadı: Sabi'nin 892-936 arası sahibi kaynakta açık değil. ‖ Goryeosa (Jeong Inji vd.) 卷二 (zh.wikisource.org/wiki/高麗史/卷二, okundu): «秋九月，王率三軍，至天安府合兵，進次一善郡，神劒以兵逆之。甲午，隔一利川而陣» · Goryeosa (Jeong Inji vd.) 卷五十七 (zh.wikisource.org/wiki/高麗史/卷五十七, okundu): «後甄萱，立都於州，太祖滅之，改安南都護府。» · Goryeosa (Jeong Inji vd.) 卷五十六 (zh.wikisource.org/wiki/高麗史/卷五十六, okundu): «公州本百濟熊川，文周王，自漢城，徙都之，至聖王，又移都南扶餘。新羅與唐，夾攻滅之，唐置熊津都督府，留兵鎭之。唐師旣去，新羅盡有其地。» · BEYANLI YAKLAŞIKLIK: Hubaekje'nin 936'da Goryeo'ya geçişi ülke çapındaydı; Goryeosa j.56: Gongju Taejo 23'te (940) Goryeo adıyla yeniden adlandırıldı (kayıt 940 Goryeo hâkimiyetini gösterir).",
-  "gun": "ay hassasiyeti (gün yok)",
-  "kesinlik": "ay",
-  "sinir_id": [],
-  "ic_not": "KORE-JAPONYA 29 Ekim 2026: gün 0936-09-01 (ay başı) → 0936-09-26: Goryeosa 太祖 19/9/甲午 Iljecheon savaşı ve Sin-geom'un teslimi [O]; ay çevirisi şüpheli (astronomik hesap 閏7 verir → 甲午=936-11-25) fakat ZZTJ 卷280 aynı yıl 閏11 kaydeder [O], bu 09-26'yı destekler. Künye t = 0936-09-01 (ay hassasiyeti; KOJA_REF). Goryeosa Taejo 19 9. ay 甲午 = 936-09-26 (Iljecheon). Dilim sınırı künye t'si olan ay başına konuldu (en çok 25 gün erken).",
-  "ic_not_takvim": "Jülyen: 936 (Taejo 19) 9. ay 甲午 = 936-09-26; Jülyen; sexagenary gün işareti + ortalama yeniay hesabı (±1 gün), KOJA_RAPOR2.md ile aynı sonuç"
- },
- {
   "t": "0900-01-01",
   "devlet": "hubaekje",
   "taraflar": [
@@ -2396,59 +2319,6 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
   "kesinlik": "yil",
   "sinir_id": [],
   "ic_not": "Samguk sagi Munmu 11 (671); Soburi = Sabi (Samguk sagi j.36 ve Goryeosa 'Buyeo-gun'). Gün yok: yıl."
- },
- {
-  "t": "1135-01-19",
-  "devlet": "daewi-myocheong",
-  "taraflar": [
-   "daewi-myocheong",
-   "goryeo"
-  ],
-  "b": "Seogyeong (Pyongyang) Daewi isyan devletine geçti",
-  "tur": "toprak-kazanc",
-  "onem": 3,
-  "dunya": 1,
-  "kapsam": "dis",
-  "yer": "Pyongyang",
-  "yer_id": "Pyongyang",
-  "etiket": [
-   "toprak-degisimi",
-   "konu-askeri",
-   "dogu-500-1281"
-  ],
-  "d": "Myocheong ve Jo Gwang Seogyeong'de Goryeo'ya başkaldırıp Daewi devletini ilan etti.",
-  "kaynak": "Goryeosa j.127 Yeoljeon 40 ve j.16 — zh.wikisource.org/wiki/高麗史/卷一百二十七 ve /卷十六 (ms1 künyesinde okundu): «十三年春正月乙巳朔…戊申，妙淸、柳旵…以西京反»; «國號大爲，建元天開»",
-  "gun": "Injong 13. yıl 1. ay 4. gün (戊申)",
-  "kesinlik": "gun",
-  "sinir_id": [],
-  "ic_not": "Daewi künyesi (KUNYE_MS1_DALINDA) ve kuruluş maddesi ms1 dalındadır; burada yalnız yerleşim devri kaydedilir.",
-  "ic_not_takvim": "Ay-günes takvimi gün adı (ganzhi) 戊申 -> Jülyen 1135-01-19 (JDN hesabı, sınama: 乙巳 = 960-02-04; 戊申 = 1135-01-19 KOJA_REF ile uyumlu); Gregoryen karsiligi 1135-01-26"
- },
- {
-  "t": "1136-03-23",
-  "devlet": "goryeo",
-  "taraflar": [
-   "goryeo",
-   "daewi-myocheong"
-  ],
-  "b": "Seogyeong (Pyongyang) Kim Bu-sik tarafından alınıp Goryeo'ya döndü",
-  "tur": "toprak-kazanc",
-  "onem": 3,
-  "dunya": 1,
-  "kapsam": "dis",
-  "yer": "Pyongyang",
-  "yer_id": "Pyongyang",
-  "etiket": [
-   "toprak-degisimi",
-   "konu-askeri",
-   "dogu-500-1281"
-  ],
-  "d": "Kim Bu-sik Seogyeong'i aldı, Jo Gwang kendini yaktı; şehir Goryeo idaresine döndü.",
-  "kaynak": "Goryeosa j.16 Injong 13-14 — zh.wikisource.org/wiki/高麗史/卷十六 (okundu): «十四年…二月…丁巳，金富軾會諸軍，攻西京，城陷，趙匡自焚死。»",
-  "gun": "Injong 14. yıl 2. ay 丁巳",
-  "kesinlik": "gun",
-  "sinir_id": [],
-  "ic_not_takvim": "Ay-günes takvimi gün adı (ganzhi) 丁巳 -> Jülyen 1136-03-23 (JDN hesabı, sınama: 乙巳 = 960-02-04; 戊申 = 1135-01-19 KOJA_REF ile uyumlu); Gregoryen karsiligi 1136-03-30"
  },
  {
   "t": "1270-11-17",
@@ -2838,32 +2708,6 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
   "kesinlik": "yil",
   "sinir_id": [],
   "ic_not": "Aralık ilk yılı alındı; kaynakta 'merkezi Jambi' ifadesi."
- },
- {
-  "t": "0689-01-01",
-  "devlet": "srivijaya",
-  "taraflar": [
-   "srivijaya",
-   "melayu-jambi"
-  ],
-  "b": "Jambi: Malayu Srivijaya tarafından yutuldu (689-692)",
-  "tur": "toprak-kayip",
-  "onem": 2,
-  "dunya": 1,
-  "kapsam": "dis",
-  "yer": "Jambi",
-  "yer_id": "Jambi",
-  "etiket": [
-   "toprak-degisimi",
-   "konu-askeri",
-   "dogu-500-1281"
-  ],
-  "d": "I-ching Malayu'nun 689-692 arasında Shih-li-fo-shih (Srivijaya) tarafından yutulduğunu bildirir; 683-86 yazıtları Jambi havzasının Srivijaya'ca fethini anlatır.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm V-7: «between 689 and 692 Malayu was absorbed by Shih-li-fo-shih (Srivijaya)»",
-  "gun": "689-692 aralığı; ilk yıl",
-  "kesinlik": "yil",
-  "sinir_id": [],
-  "ic_not": "Aralık ilk yılı alındı."
  },
  {
   "t": "0802-01-01",
@@ -5405,31 +5249,6 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
   "sinir_id": []
  },
  {
-  "t": "0582-01-01",
-  "devlet": "dogu-gokturk",
-  "taraflar": [
-   "dogu-gokturk",
-   "gokturk-1",
-   "bati-gokturk"
-  ],
-  "b": "Göktürk kağanlığı ikiye bölündü; Ötüken Doğu Göktürk’te kaldı",
-  "tur": "toprak-kazanc",
-  "onem": 3,
-  "dunya": 1,
-  "kapsam": "dis",
-  "yer": "Orhun vadisi · Karakurum · Semerkant",
-  "yer_id": "Karakurum",
-  "etiket": [
-   "toprak-degisimi",
-   "konu-askeri",
-   "dogu-500-1281"
-  ],
-  "d": "Orhun vadisi (atlas yerleşimi «Karakurum») 0582-01-01 gününde dogu-gokturk egemenliğine geçti: Göktürk kağanlığı ikiye bölündü; Ötüken Doğu Göktürk’te kaldı. ‖ Semerkant (atlas yerleşimi «Semerkant») 0582-01-01 gününde bati-gokturk egemenliğine geçti: Göktürk bölünmesinde Semerkant Batı Göktürk’e kaldı.",
-  "kaynak": "Zhou shu (Linghu Defen vd., 636) juan 50 «Tujue» (Wikisource 周書/卷50, bu oturumda okundu): «可汗恆處於都斤山» — https://zh.wikisource.org/wiki/周書/卷50 | 582 bölünmesi: atlas kronolojisi (bu oturumda kaynak açılmadı; atıf). f=582 yıl hassasiyeti; t=gün (aşağıda). BEYANLI YAKLAŞIKLIK (Ötüken). ‖ TDV İslâm Ansiklopedisi, «Semerkant» md., https://islamansiklopedisi.org.tr/semerkant (bu oturumda okundu): «659’da Batı Göktürk Devleti’nin yıkılmasının ardından şehir Çinliler’in hâkimiyeti altına girdi» | BEYAN: bati-gokturk künyesi (main) t=0630-01-01; TDV Semerkant ve TDV Tohâristan (657-658) Batı Göktürk’ün 657-659’a kadar sürdüğünü söyler → künye t düzeltme önerisi RAPOR’da. Bölünme yılı 582 bu oturumda kaynakta okunmadı (atlas; atıf).",
-  "sinir_id": [],
-  "kesinlik": "yil"
- },
- {
   "t": "0630-05-02",
   "devlet": "xueyantuo",
   "taraflar": [
@@ -5645,29 +5464,6 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
   "kesinlik": "yil"
  },
  {
-  "t": "0732-01-01",
-  "devlet": "hazar",
-  "taraflar": [
-   "hazar"
-  ],
-  "b": "Mervân b. Muhammed’in seferiyle «yeni Hazar başşehri» İtil (İdil ağzı) tanıklandı; bölge Hazar Kağanlığı’nda",
-  "tur": "toprak-kazanc",
-  "onem": 3,
-  "dunya": 1,
-  "kapsam": "dis",
-  "yer": "İtil (İdil ağzı)",
-  "yer_id": "Astrahan",
-  "etiket": [
-   "toprak-degisimi",
-   "konu-askeri",
-   "dogu-500-1281"
-  ],
-  "d": "İtil (İdil ağzı) (atlas yerleşimi «Astrahan») 0732-01-01 gününde hazar egemenliğine geçti: Mervân b. Muhammed’in seferiyle «yeni Hazar başşehri» İtil (İdil ağzı) tanıklandı; bölge Hazar Kağanlığı’nda.",
-  "kaynak": "ABİ MERKEZ: İtil — TDV İslâm Ansiklopedisi, «Hazarlar» md., https://islamansiklopedisi.org.tr/hazarlar (bu oturumda okundu): «732’de Azerbaycan-İrmîniye valiliğine getirilen Mervân b. Muhammed 40.000 kişilik bir ordu ile Hazarlar üzerine büyük bir sefer yaptı … 150.000 kişilik bir ordu ile iki koldan yeni Hazar başşehri İdil’e ilerledi» | «Daha sonra İslâm ordularının baskısıyla idare merkezinin taşındığı İdil nehrinin ağzında» | «965’te hakanın Hârizmliler’e sığınması» | BEYANLI YAKLAŞIKLIK: İtil’in kesin yeri bilinmiyor (Astrahan yakınları); 732 = ilk TARİHLİ tanık, kuruluş değil. t=0965-01-01 yıl; 965-1281 arası bu kümenin işi değil.",
-  "sinir_id": [],
-  "kesinlik": "yil"
- },
- {
   "t": "0735-01-01",
   "devlet": "semerkant-ihsid",
   "taraflar": [
@@ -5865,32 +5661,6 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
   "sinir_id": []
  },
  {
-  "t": "0840-01-01",
-  "devlet": "kirgiz-yenisey",
-  "taraflar": [
-   "kirgiz-yenisey",
-   "uygur"
-  ],
-  "b": "Karakurum: Kırgızlar Ordubalık’ı yıkıp Ötüken’e hâkim oldu",
-  "tur": "toprak-kazanc",
-  "onem": 2,
-  "dunya": 1,
-  "kapsam": "dis",
-  "yer": "Karakurum",
-  "yer_id": "Karakurum",
-  "etiket": [
-   "toprak-degisimi",
-   "konu-askeri",
-   "dogu-500-1281"
-  ],
-  "d": "Karakurum yerleşiminin s: zincirinde sahip Uygur Kağanlığı iken 0840-01-01 itibarıyla Yenisey Kırgız Kağanlığı oldu (kuyruk2a birleşik önek dilimi). Gerekçe ve kaynak aşağıdadır.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Kırgızlar» md., https://islamansiklopedisi.org.tr/kirgizlar (22.10.2026'da okundu): «Ancak 840’ta şiddetli bir hücumla Uygur Devleti’ni yıkarak Ötüken’de kendi hâkimiyetlerini kurdular, fakat burada fazla kalamadılar.» | TDV İslâm Ansiklopedisi, «Karakorum» md., https://islamansiklopedisi.org.tr/karakorum (22.10.2026'da okundu): «Uygur Devleti’nin yıkılmasıyla birlikte terkedilmiş ve X. yüzyılda tamamen harabe haline gelmiştir.» | BEYAN: Ordubalık (Uygur başşehri) 840’tan sonra terk edildi; atlas noktası Orhun vadisini temsil eder. t=920-01-01: TDV Kırgızlar’da Kitanların bütün Moğolistan’ı alış yılı.",
-  "gun": "0840-01-01 (kaynak ifadesine göre yıl düzeyi)",
-  "kesinlik": "yil",
-  "ic_not": "BEYANLI YAKLAŞIKLIK/BOŞLUK içerir (kaynak alanına bak). kuyruk2a birleşik önek dilimi devri.",
-  "sinir_id": []
- },
- {
   "t": "0995-01-01",
   "devlet": "memuni-harezm",
   "taraflar": [
@@ -5964,32 +5734,6 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
   "gun": "gün",
   "kesinlik": "gun",
   "ic_not": "8 Ramazan 431 Cuma / 23 Mayıs 1040 TDV'de iki takvimle verilir (tablo çevirisi aynı gün). Selçuklu hâkimiyeti şehir düzeyinde Dandanakan sonrası taksimle başladı.",
-  "sinir_id": []
- },
- {
-  "t": "0992-05-07",
-  "devlet": "karahanli",
-  "taraflar": [
-   "karahanli",
-   "samani"
-  ],
-  "b": "Hârun Buğra Han Sâmânî başşehri Buhara'yı aldı; emîr şehri terk etti",
-  "tur": "toprak-kazanc",
-  "onem": 2,
-  "dunya": 1,
-  "kapsam": "dis",
-  "yer": "Buhara",
-  "yer_id": "Buhara",
-  "etiket": [
-   "toprak-degisimi",
-   "konu-askeri",
-   "dogu-500-1281"
-  ],
-  "d": "Karahanlı Hârun Buğra Han Mâverâünnehir'e yürüyüp Buhara'yı ele geçirdi (Rebîülevvel 382); Sâmânî emîri II. Nûh şehirden ayrıldı.",
-  "kaynak": "TDV İslâm Ansiklopedisi, Aydın Usta, \"Sâmânîler\" md., 2009, https://islamansiklopedisi.org.tr/samaniler («Hârun Buğra Han harekete geçip Buhara’yı ele geçirdi (Rebîülevvel 382 / Mayıs 992).») (bu oturumda okundu)",
-  "gun": "ay (gün çevrilmiş)",
-  "kesinlik": "ay",
-  "ic_not_takvim": "Hicrî tarih tabloyla (aritmetik hicrî takvim, Jülyen) çevrildi; ±1 gün belirsizdir. Kaynak yalnız hicrî yıl/ay ve milâdî yıl/ay verdiği için hicrî aralık ∩ kaynağın milâdî ayı kesişiminin ilk günü alındı.",
   "sinir_id": []
  },
  {
@@ -8691,32 +8435,6 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
  },
  {
   "t": "0920-01-01",
-  "devlet": "liao-hanedani",
-  "taraflar": [
-   "liao-hanedani",
-   "kirgiz-yenisey"
-  ],
-  "b": "Karakurum: Kitanlar bütün Moğolistan’ı alıp Kırgızları Ötüken’den sürdü",
-  "tur": "toprak-kazanc",
-  "onem": 2,
-  "dunya": 1,
-  "kapsam": "dis",
-  "yer": "Karakurum",
-  "yer_id": "Karakurum",
-  "etiket": [
-   "toprak-degisimi",
-   "konu-askeri",
-   "dogu-500-1281"
-  ],
-  "d": "Karakurum yerleşiminin s: zincirinde sahip Yenisey Kırgız Kağanlığı iken 0920-01-01 itibarıyla Liao Hanedanı oldu (kuyruk2a birleşik önek dilimi). Gerekçe ve kaynak aşağıdadır.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Kırgızlar» md., https://islamansiklopedisi.org.tr/kirgizlar (22.10.2026'da okundu): «920’de bütün Moğolistan’ı ele geçiren K’i-tanlar, Kırgızlar’ı Ötüken bölgesinden çıkarıp eski yurtlarına sürdüler.» | BEYANLI YAKLAŞIKLIK: Kitan (Liao) hâkimiyetinin Orhun vadisindeki fiilî gücü (kabile vasalları, garnizonlar) TDV’de ayrıntılandırılmaz; liao künyesi f=0916-01-01, t=1125-01-01 (Liao’nun sonu). f=0920-01-01 TDV Kırgızlar yıl.",
-  "gun": "0920-01-01 (kaynak ifadesine göre yıl düzeyi)",
-  "kesinlik": "yil",
-  "ic_not": "BEYANLI YAKLAŞIKLIK/BOŞLUK içerir (kaynak alanına bak). kuyruk2a birleşik önek dilimi devri.",
-  "sinir_id": []
- },
- {
-  "t": "0920-01-01",
   "devlet": "idil-bulgar",
   "taraflar": [
    "idil-bulgar"
@@ -10530,32 +10248,6 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
   "kesinlik": "gun",
   "sinir_id": [],
   "ic_not": "Ceylon Independence Act 1947 'appointed day'i Order in Council ile belirler (legislation.gov.uk Geo6/11-12/7 s.5); gün TDV'den."
- },
- {
-  "t": "1968-11-11",
-  "devlet": "maldivler-cumhuriyeti",
-  "taraflar": [
-   "maldivler-cumhuriyeti",
-   "maldivler-sultanligi"
-  ],
-  "b": "Maldivler Cumhuriyeti Malé'yi Maldiv Sultanlığı'dan devraldı — Malé",
-  "tur": "toprak-kazanc",
-  "onem": 2,
-  "dunya": 1,
-  "kapsam": "dis",
-  "yer": "Malé",
-  "yer_id": "Malé",
-  "etiket": [
-   "toprak-degisimi",
-   "konu-siyasi",
-   "dogu-kuyruk-1281-2000",
-   "kuyruk-dogrulandi"
-  ],
-  "d": "Malé yerleşiminin sahibi Maldiv Sultanlığı iken Maldivler Cumhuriyeti oldu. Gün/yıl hassasiyeti: gun.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Maldivler» (https://islamansiklopedisi.org.tr/maldivler): “1968 yılında yapılan referandumla cumhuriyet yeniden ilân edildi ve İbrâhim Nâsır cumhurbaşkanı oldu.” ; Office of the President of the Maldives, «President Al Ameer Ibrahim Nasir», https://presidency.gov.mv/PO/FormerPresident/6: “Ibrahim Nasir was sworn in as the first president of republic of the Maldives on 11 November 1968.” (“President from 11 November 1968 to 10 November 1978”) | t=2000-12-31 yalnız ufuk işareti",
-  "kesinlik": "gun",
-  "sinir_id": [],
-  "ic_not": "TDV yalnız yıl (1968) verir; gün Cumhurbaşkanlığı Ofisi resmî sayfasından (yemin günü); referandum günü (15 Mart 1968) açılan akademik kaynakta okunmadı."
  },
  {
   "t": "1338-01-01",

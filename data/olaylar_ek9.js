@@ -316,11 +316,6 @@ window.OLAYLAR_EK9 = [
   d:"Kitchener'ın topçu ve makineli tüfekle donanmış İngiliz-Mısır ordusu 2 Eylül 1898'de Ümmüdurman önünde Halife Abdullah et-Teâyişî'nin kuvvetlerini birkaç saatte dağıttı. Ertesi gün Hartum'a girildi ve on üç yıl önce Gordon'un öldürüldüğü sarayda bayrak çekildi. Mehdî devletinin başkenti düştü; Halife 1899 sonunda takip harekâtında öldürüldü. Fiilî hâkimiyet bu tarihte el değiştirir — 19 Ocak 1899 ise idarenin hukukî çerçevesini kuran antlaşmadır. Mehdî devletinin bu yenilgisiyle Dârfûr (El-Fâşir, Nyala, Cenîne, Kutum vd.) Ali Dinar’ın yeniden kurduğu Dârfûr Sultanlığı’na geçti.",
   kaynak:"sudan · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): TDV İslâm Ansiklopedisi, 'Sudan' ve 'Dârfûr' (islamansiklopedisi.org.tr/sudan, /darfur)", duygu:["🎉","😔"], yer_id:"Hartum" },
 
-{ onem:4, dunya:1, bolge_onem:3, puan_s:"v2", tur:"antlasma", kapsam:"ic", t:"1899-01-19", k:"antlasma", etiket:["antlasma","diplomasi","konu-diplomasi"],
-  b:"Kondominyum Antlaşması — Sudan'ın İngiliz-Mısır ortak idaresi",
-  gun:"19 Ocak 1899", yer:"Kahire · Sudan", kisiler:"Lord Cromer, Butros Gali Paşa",
-  d:"Ümmüdurman'dan dört ay sonra Kahire'de imzalanan antlaşma Sudan'ı 'Anglo-Mısır Sudanı' adıyla iki devletin ortak idaresine bağladı: iki bayrak birlikte çekilecek, genel vali hidiv tarafından İngiltere'nin muvafakatiyle atanacaktı. Uygulamada idare tamamen İngilizlerin elindeydi. Osmanlı Devleti, Sudan üzerindeki haklarının Mısır üzerinden kendisine ait olduğunu ileri sürerek antlaşmaya taraf olmadı ve tanımadı; ama fiilen dışarıda kaldı. Bu antlaşmayla 22. paralelin güneyindeki Sudan toprakları (Dongola, Hartum, Sennar, Kordofan, Sevakin kıyısı vd.) İngiliz-Mısır ortak idaresine (İngiliz-Mısır Sudanı) geçti.",
-  kaynak:"sudan · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): TDV İslâm Ansiklopedisi, 'Sudan' (islamansiklopedisi.org.tr/sudan); 1899 Anglo-Mısır Sudan Antlaşması metni md. I (en.wikisource.org/wiki/Sudan_Convention_(1899))", duygu:["🤝"], yer_id:"Kahire" },
 
 // ---------------------------------------------------------------------------
 // K) KIZILDENİZ — md.44, Zeyla'nın yanlış maddeye bağlanması

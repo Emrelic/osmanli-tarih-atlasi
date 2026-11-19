@@ -13,35 +13,6 @@ window.OLAYLAR_ARKEOLOJI_D2_CIN_DOGU_ASYA = [
   "kaynak_turu": "yazili",
   "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «a formal imperial polity of the Xiongnu that dominated the Inner Asian steppes from 209 BC to 91 AD». YAZILI TARİH (Han kaynakları), arkeolojik 14C değil. Yazarlar tarihlemenin 'Xiongnu'nun tanımına bağlı' olduğunu söyler. Moğolistan 2011'de 209 MÖ kuruluşunun 2220. yılını kutladı (aynı giriş). Gnecchi-Ruscone vd. 2025, PNAS 122(9):e2418485122 (en, PMC11892651): imparatorluğun 'en parlak dönemi ca. 200 MÖ–100 MS' — dönem tanımı farklı (zirve). Shiji/Hanshu birincil metnine ctext sitesinden ulaşılamadı (bot engeli)."
  },
- { onem:5, dunya:4, bolge_onem:5, puan_s:"v2","kapsam": "dis", "bolge": 1, 
-  "t": "-0220-01-01",
-  "k": "fetih",
-  "b": "Qin'in Çin'i birleştirmesi (Qin Shi Huangdi): Qin altı devleti birleştirir (gelenek 221)",
-  "gun": "MÖ 221",
-  "yer": "秦统一六国 / 皇帝称号 / Luoyang / Çengdu (Chengdu) / Xi'an (Chang'an)",
-  "d": "Qin Kralı Ying Zheng, Qi'nin fethiyle 26. yıl (221 MÖ) altı devleti birleştirdi ve 'Huangdi' (İmparator) unvanını ilan etti.",
-  "kaynak": "Liu Rui (刘瑞, CASS Arkeoloji Enstitüsü), 「秦五大夫翳刻石纪年与时代」, Chinese Social Sciences Today, 19 Eylül 2025 · https://www.cssn.cn/skgz/bwyc/202509/t20250919_5916301.shtml",
-  "kesinlik": "yil",
-  "kaynak_turu": "yazili",
-  "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «秦王嬴政在二十六年（前221年）完成统一六国大业». YAZILI GELENEK: Shiji 'Qin Shihuang benji' ('初并天下') anlatısından türer; Liu Rui makalesinin başlığı Wudafu Yi taş kitabesinin 'not earlier than 221' sınırını tartışır. Qin'in 230–221 arası fetih sırası ve 'Baiyue seferi' ayrıdır (arama özetinde). Shiji birincil metnine ctext.org'dan bot engeli yüzünden ulaşılamadı; Bai Qi–Wang Jian biyografisindeki 'Qin Shihuang 26. yıl' ifadesi yalnız arama özetinde görüldü. Başka bağımsız kaynakla kısıtlı.",
-  "odak_yer": [
-   "Luoyang",
-   "Çengdu (Chengdu)",
-   "Xi'an (Chang'an)"
-  ]
- },
- { onem:5, dunya:3, bolge_onem:4, puan_s:"v2", tur:"kurulus","kapsam": "dis", "bolge": 1, "odak_yer":["Luoyang","Haojing (Fenghao, Xi'an yakını)"],
-  "t": "-0769-01-01",
-  "k": "kurulus",
-  "b": "Doğu Zhou'nun başlangıcı (Ping Kralı'nın doğuya taşınması): Doğu Zhou: Ping Wang Luoyi'ye taşınır (gelenek 770)",
-  "gun": "MÖ 770",
-  "yer": "东周 / 平王东迁",
-  "d": "Western Zhou'nun çöküşü ve Ping Kralı'nın Luoyi'ye (Wangcheng) taşınmasıyla geleneksel olarak Doğu Zhou / Bahar-Güz dönemi başlar.",
-  "kaynak": "Xu Zhaofeng (徐昭峰), Guangming Daily, 9 Şubat 2012, s.11 (Teori·Tarih) · https://epaper.gmw.cn/gmrb/html/2012-02/09/nw.D110000gmrb_20120209_3-11.htm",
-  "kesinlik": "yil",
-  "kaynak_turu": "yazili",
-  "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «公元前770年，周平王“辟戎寇”，东迁洛邑，定都王城». YAZILI GELENEK (Shiji): 770 MÖ geleneksel başlangıç; Shiji 'Liuguo nianbiao' 770'den başlar diye aktarılır (Jingzhou Üniv. Kütüphanesi, 15.05.2024 — ikincil aktarım, Shiji metni okunmadı). ÇELİŞKİ: Xia-Shang-Zhou Projesi Western Zhou'nun sonunu 771 MÖ koyar (Han Han, Guangming Daily 24.08.2022: 'Batı Zhou ... 1046–771'); 1 yıl fark yazılı/gelenek ile proje kronolojisi arasında kayıtlı. Kesin tarihli yazılı kronolojinin başı 841 MÖ (Gonghe 1. yıl; Shiji 'Shi'er zhuhou nianbiao') ve öncesi proje hesabıdır. Xinian (Tsinghua) el yazması farklı bir iki kral sırası önerir (yalnız arama özetinde, okunmadı)."
- },
  { onem:4, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "odak_yer": [
    "Sanxingdui"

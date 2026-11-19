@@ -1,0 +1,1099 @@
+    [kişi!kralli] -134  -1349-01-01  Şuppiluliuma I Hitit tahtına çıktı; Yeni Krallık dön
+           -1349-01-01  Ugarit (Ras Şamra): Ugarit Krallığı dönemi başlar
+    [kişi!kartac] -081  -0813-01-01  Kartaca'nın geleneksel kuruluşu (Timaios: MÖ 814/813
+           -0813-01-01  Karthago: Kartaca (Pön) Devleti dönemi başlar
+    [kişi!dogu,luoyi',ping] -076  -0769-01-01  Doğu Zhou'nun başlangıcı (Ping Kralı'nın doğuya taşı
+           -0769-01-01  Zhou Kralı Ping başkenti Luoyi'ye (Luoyang) taşıdı: 
+    [başlık] -073  -0732-01-01  Sirakuza Korintli Archias tarafından kuruldu
+           -0732-01-01  Korkyra (Kerkyra), Korintliler tarafından kuruldu
+    [kişi!asarha] -067  -0670-01-01  Asarhaddon Mısır'a girip Memphis'i aldı; Taharka gün
+           -0670-01-01  Asarhaddon Mısır’ı fethetti (MÖ 671)
+    [kişi!kralli,yahuda] -058  -0585-01-01  Kudüs yıkıldı, Süleyman Mâbedi yandı; Yahuda Krallığ
+           -0585-01-01  Kudüs: Yahuda Krallığı dönemi sona erer
+    [başlık] -053  -0534-01-01  Alalia Deniz Savaşı: Etrüskler ve Kartacalılar Fokai
+           -0534-01-01  Alalia Deniz Savaşı: Fokaia'lılar Korsika'yı terk et
+    [kişi!ahamen,impara,pers] -051  -0517-01-01  Persepolis: Ahamenis (Pers) Imparatorlugu dönemi baş
+           -0517-01-01  Ahameniş Darius Gandhara'yı fethetti: Taksila bölges
+    [kişi!himera,kartac] -040  -0408-01-01  Hannibal Mago Selinus ve Himera'yı yıktı: Kartaca ba
+           -0408-01-01  Kartacalılar Himera'yı neredeyse tamamen yıktı (MÖ 4
+    [kişi!kartac] -040  -0408-01-01  Hannibal Mago Selinus ve Himera'yı yıktı: Kartaca ba
+           -0408-01-01  Kartacalılar Selinous'u yıktı (MÖ 409)
+    [başlık] -040  -0402-01-01  Zhou Kralı Weilie Han hanedanını lord olarak tanıdı:
+           -0402-01-01  Zhou Kralı Weilie Wei hanedanını lord olarak tanıdı:
+    [başlık] -040  -0402-01-01  Zhou Kralı Weilie Han hanedanını lord olarak tanıdı:
+           -0402-01-01  Zhou Kralı Weilie Zhao hanedanını lord olarak tanıdı
+    [başlık] -040  -0402-01-01  Zhou Kralı Weilie Wei hanedanını lord olarak tanıdı:
+           -0402-01-01  Zhou Kralı Weilie Zhao hanedanını lord olarak tanıdı
+    [kişi!makedo] -035  -0358-01-01  II. Philippos Makedonya kralı oldu
+           -0358-01-01  II. Filippos Makedonya tahtına çıktı (MÖ 359)
+    [kişi!cumhur,roma] -033  -0337-01-01  Capua: Roma Cumhuriyeti dönemi başlar
+           -0337-01-01  Latium: Latium düzenlendi (Latin Savaşı sonu): bölge
+    [başlık] -033  -0330-10-22  Babil, Uruk: Ahamenis (Pers) Imparatorlugu → Buyuk I
+           -0329-01-01  Ekbatana, Hemedan: Ahamenis (Pers) Imparatorlugu → B
+    [başlık] -031  -0310-01-01  Babil, Uruk: Buyuk Iskender Imparatorlugu (Argead no
+           -0309-01-01  Pasargad, Susa: Buyuk Iskender Imparatorlugu (Argead
+    [kişi!aleksa,argead] -030  -0309-01-01  IV. Aleksandros annesi Roxane ile öldürüldü; Argead 
+           -0309-01-01  Pasargad, Susa: Buyuk Iskender Imparatorlugu (Argead
+    [başlık] -029  -0293-01-01  Demetrios Poliorketes Makedonya kralı ilan edildi
+           -0292-01-01  Demetrios Poliorketes kendini Makedonya kralı ilân e
+    [başlık] -028  -0289-01-01  Samnium Roma'ya katıldı: Üçüncü Samnit Savaşı sona e
+           -0289-01-01  Samnium ve Sallentina: Samnit Savaşları sona erdi: S
+    [kişi!antiok,selevk] -028  -0280-01-01  Selevkos I Ptolemaios Keraunos tarafından öldürüldü;
+           -0280-01-01  Antiokhos I Selevkos tahtına geçti (MÖ 281)
+    [başlık] -028  -0280-01-01  Etruria, Latium vetus ve Campania: Tarquinia yenildi
+           -0280-01-01  Tarquinia, MÖ 281'deki kesin yenilgiden sonra Roma'n
+    [kişi!akhaia,birlig] -027  -0279-01-01  Akhaia Birliği yeniden kuruldu: Patrai, Dyme, Tritai
+           -0279-01-01  Akhaia Birliği MÖ 280-270 arasında yeniden kuruldu; 
+    [başlık] -027  -0275-01-01  Antigonos Gonatas Makedonya kralı oldu: Antigonid ha
+           -0275-01-01  Antigonos Gonatas Makedonya kralı oldu; Antigonid Ma
+    [kişi!diodot,greko-,kralli] -024  -0249-01-01  Baktriya satrapı Diodotos Selevkos’tan ayrıldı; Grek
+           -0249-01-01  Bactria valisi Diodotus Seleukos yönetiminden ayrıld
+    [başlık] -023  -0237-01-01  Roma Sardinya ve Korsika'yı Kartaca'dan aldı
+           -0237-01-01  Sardinia: Sardinia Roma'ya geçti (Kartaca tanıdı)
+    [kişi!huangd] -022  -0220-01-01  Qin'in Çin'i birleştirmesi (Qin Shi Huangdi): Qin al
+           -0220-01-01  Qin Wang Zheng 26. yılında altı devleti birleştirdi,
+    [kişi!cumhur,roma,siraku] -021  -0211-01-01  Sirakuza, Syrakusai: Sirakuza (Syrakousai) → Roma Cu
+           -0211-01-01  Sicilia: Sirakuza düştü: doğu Sicilya Roma Cumhuriye
+    [kişi!akraga] -020  -0209-01-01  Sicilia: Akragas Roma'nın eline geçti
+           -0209-01-01  Roma Akragas'ı aldı (MÖ 210)
+    [başlık] -020  -0205-01-01  Zhang Han Yong Kralı oldu, başkent Feiqiu: Feiqiu (X
+           -0204-01-01  Han Feiqiu'yu aldı, Zhang Han öldü: Feiqiu Yong Kral
+    [kişi!bati] -020  -0201-01-01  Han hanedanının kuruluşu - Liu Bang'ın imparator ila
+           -0201-01-01  Xiang Ji öldürüldü, Batı Chu çöktü: Pengcheng Han Ha
+    [başlık] -019  -0196-01-01  Kynoskephalai: Roma V. Philippos'u yendi; Makedonya 
+           -0196-01-01  Kynoskephalai’da Roma lejyonları Makedonya’yı yendi 
+    [kişi!roma] -019  -0196-01-01  Hispania'da iki Roma eyaleti kuruldu: Citerior ve Ul
+           -0196-01-01  Kynoskephalai’da Roma lejyonları Makedonya’yı yendi 
+    [kişi!akhaia,birlig,sparta] -019  -0191-01-01  Sparta Akhaia Birliği'ne katıldı: Philopoimen Nabis 
+           -0191-01-01  Sparta Akhaia Birliği’ne girmeye zorlandı (MÖ 192)
+    [başlık] -016  -0167-01-01  Perseus Pydna’da yenildi; Antigonid Makedonya sona e
+           -0167-06-22  Pydna: Aemilius Paullus Perseus'u yendi; Antigonid k
+    [kişi!rodos',roma] -016  -0166-01-01  Roma Rodos'a Likya ve Karya'dan valilerini çekmesini
+           -0166-01-01  Roma Lykia ve Karia'yı Rodos'tan aldı; Delos serbest
+    [kişi!akhaia,birlig] -014  -0145-01-01  Akhaia Savaşı: Akhaia Birliği Roma'ya yenildi, birli
+           -0145-01-01  Korinthos’un düşmesiyle Akhaia Birliği sona erdi (MÖ
+    [kişi!korint] -014  -0145-01-01  Korint: Korint dönemi sona erer
+           -0145-01-01  Korinthos’un düşmesiyle Akhaia Birliği sona erdi (MÖ
+    [kişi!roma] -007  -0073-01-01  Kyrene Roma eyaleti yapıldı (Cyrenaica)
+           -0073-01-01  Bithynia et Pontus (Bithynia kısmı) eyaleti: Bursa, 
+    [kişi!pompei] -006  -0063-01-01  Pompeius Kommagene'yi Roma'nın dostu ve müttefiki ol
+           -0063-01-01  Pompeius Seleukos Devleti’ni sona erdirdi: Şam Roma 
+    [kişi!bithyn,pontus] -006  -0062-01-01  Pompeius Bithynia ile Pontus'un batısını birleştirip
+           -0062-01-01  Bithynia et Pontus (Bithynia kısmı) eyaleti: Karaden
+    [kişi!kibris,roma] -005  -0057-01-01  Roma Kıbrıs'ı Ptolemaios'tan alıp ilhak etti; Cato a
+           -0057-01-01  Kıbrıs Roma hâkimiyetine girdi: Lefkoşa, Girne, Tuzl
+    [kişi!africa,nova] -004  -0045-01-01  Thapsus: Caesar Juba I'i yendi; Doğu Numidia Africa 
+           -0045-01-01  Africa Nova (MÖ 46): batı Tunus şehirleri Roma Cumhu
+    [kişi!roma] -002  -0029-01-01  Roma Misiri'nin basi - Octavian Iskenderiye'yi alir:
+           -0029-01-01  Mısır (Aegyptus) Roma hâkimiyetine girdi
+    [kişi!raetia] -001  -0014-01-01  Raetia ve Noricum Roma'ya katıldı: Tiberius ve Drusu
+           -0014-01-01  Raetia: Roma eyaleti oldu
+    [kişi!noricu,roma'y] -001  -0014-01-01  Raetia ve Noricum Roma'ya katıldı: Tiberius ve Drusu
+           -0014-01-01  Noricum: Roma'ya boyun eğdi, Roma eyaleti oldu
+    [kişi!han'da,mang,wang] 0009  0009-01-10  Wang Mang tahta çıktı: Dunhuang ve Zhangye (Ganzhou)
+           0009-01-10  Wang Mang Yüksek Tapınak'ta altın sandık vasiyetini 
+    [kişi!britan] 0043  0043-01-01  Claudius Britannia'yı işgal etti
+           0043-01-01  Britannia: Roma eyaleti oldu
+    [kişi!roma,trakya] 0046  0046-01-01  Roma Trakya'yı eyalet yaptı: Odris hanedanı sona erd
+           0046-01-01  Thracia eyaleti: Trakya Roma İmparatorluğu’na katıld
+    [kişi!konsta] 0330  0330-05-11  Konstantinopolis Bizans (Doğu Roma) başşehri olarak 
+           0330-05-11  Konstantinopolis törenle açıldı; imparatorluğun merk
+    [başlık] 0385  0385-07-24  Hâkimiyet değişimi — Chang'an (Xi'an): Önceki Qin (前
+           0386-05-15  Hâkimiyet değişimi — Chang'an (Xi'an): Batı Yan (西燕,
+    [kişi!arcadi,dogu,theodo] 0395  0395-01-17  I. Theodosius öldü; imparatorluk kalıcı olarak ikiye
+           0395-01-17  İzmit Theodosius’un ölümüyle Doğu Roma (Arcadius) pa
+    [kişi!arcadi,dogu,theodo] 0395  0395-01-17  I. Theodosius öldü; imparatorluk kalıcı olarak ikiye
+           0395-01-17  Bergama Theodosius’un ölümüyle Doğu Roma (Arcadius) 
+    [kişi!arcadi,dogu,theodo] 0395  0395-01-17  I. Theodosius öldü; imparatorluk kalıcı olarak ikiye
+           0395-01-17  Sinop Theodosius’un ölümüyle Doğu Roma (Arcadius) pa
+    [kişi!arcadi,dogu,theodo] 0395  0395-01-17  I. Theodosius öldü; imparatorluk kalıcı olarak ikiye
+           0395-01-17  Atina Theodosius’un ölümüyle Doğu Roma (Arcadius) pa
+    [kişi!arcadi,dogu,theodo] 0395  0395-01-17  I. Theodosius öldü; imparatorluk kalıcı olarak ikiye
+           0395-01-17  Şam Theodosius’un ölümüyle Doğu Roma (Arcadius) payı
+    [kişi!arcadi,dogu,theodo] 0395  0395-01-17  I. Theodosius öldü; imparatorluk kalıcı olarak ikiye
+           0395-01-17  Kudüs Theodosius’un ölümüyle Doğu Roma (Arcadius) pa
+    [kişi!theodo] 0395  0395-01-17  I. Theodosius öldü; imparatorluk kalıcı olarak ikiye
+           0395-01-17  Marsilya Theodosius’un ölümüyle Batı Roma (Honorius)
+    [kişi!theodo] 0395  0395-01-17  I. Theodosius öldü; imparatorluk kalıcı olarak ikiye
+           0395-01-17  Sirakuza Theodosius’un ölümüyle Batı Roma (Honorius)
+    [kişi!theodo] 0395  0395-01-17  I. Theodosius öldü; imparatorluk kalıcı olarak ikiye
+           0395-01-17  Messina Theodosius’un ölümüyle Batı Roma (Honorius) 
+    [kişi!arcadi,dogu,theodo] 0395  0395-01-17  I. Theodosius öldü; imparatorluk kalıcı olarak ikiye
+           0395-01-17  Antakya Theodosius’un ölümüyle Doğu Roma (Arcadius) 
+    [kişi!arcadi,dogu,theodo] 0395  0395-01-17  I. Theodosius öldü; imparatorluk kalıcı olarak ikiye
+           0395-01-17  Halep Theodosius’un ölümüyle Doğu Roma (Arcadius) pa
+    [kişi!arcadi,dogu,theodo] 0395  0395-01-17  I. Theodosius öldü; imparatorluk kalıcı olarak ikiye
+           0395-01-17  Hama Theodosius’un ölümüyle Doğu Roma (Arcadius) pay
+    [kişi!arcadi,dogu,theodo] 0395  0395-01-17  I. Theodosius öldü; imparatorluk kalıcı olarak ikiye
+           0395-01-17  Humus Theodosius’un ölümüyle Doğu Roma (Arcadius) pa
+    [kişi!arcadi,dogu,theodo] 0395  0395-01-17  I. Theodosius öldü; imparatorluk kalıcı olarak ikiye
+           0395-01-17  Beyrut Theodosius’un ölümüyle Doğu Roma (Arcadius) p
+    [kişi!arcadi,dogu,theodo] 0395  0395-01-17  I. Theodosius öldü; imparatorluk kalıcı olarak ikiye
+           0395-01-17  Sayda Theodosius’un ölümüyle Doğu Roma (Arcadius) pa
+    [kişi!arcadi,dogu,theodo] 0395  0395-01-17  I. Theodosius öldü; imparatorluk kalıcı olarak ikiye
+           0395-01-17  Selanik Theodosius’un ölümüyle Doğu Roma (Arcadius) 
+    [kişi!arcadi,dogu,theodo] 0395  0395-01-17  I. Theodosius öldü; imparatorluk kalıcı olarak ikiye
+           0395-01-17  Hanya Theodosius’un ölümüyle Doğu Roma (Arcadius) pa
+    [kişi!arcadi,dogu,theodo] 0395  0395-01-17  I. Theodosius öldü; imparatorluk kalıcı olarak ikiye
+           0395-01-17  Kıbrıs Theodosius’un ölümüyle Doğu Roma (Arcadius) p
+    [kişi!arcadi,dogu,misir] 0395  0395-01-17  I. Theodosius öldü; imparatorluk kalıcı olarak ikiye
+           0395-01-17  Mısır (Aegyptus) Theodosius’un ölümüyle Doğu Roma (A
+    [kişi!arcadi,dogu,theodo] 0395  0395-01-17  I. Theodosius öldü; imparatorluk kalıcı olarak ikiye
+           0395-01-17  Girit Theodosius’un ölümüyle Doğu Roma (Arcadius) pa
+    [kişi!arcadi,dogu,theodo] 0395  0395-01-17  I. Theodosius öldü; imparatorluk kalıcı olarak ikiye
+           0395-01-17  Makedonya Theodosius’un ölümüyle Doğu Roma (Arcadius
+    [kişi!arcadi,dogu,theodo] 0395  0395-01-17  I. Theodosius öldü; imparatorluk kalıcı olarak ikiye
+           0395-01-17  Asia eyaletinde Manisa, İzmir, Aydın, Alaşehir, Akhi
+    [kişi!arcadi,dogu,theodo] 0395  0395-01-17  I. Theodosius öldü; imparatorluk kalıcı olarak ikiye
+           0395-01-17  Bithynia et Pontus (Bithynia kısmı) eyaletinde Bursa
+    [kişi!arcadi,dogu,theodo] 0395  0395-01-17  I. Theodosius öldü; imparatorluk kalıcı olarak ikiye
+           0395-01-17  Galatia eyaletinde Konya, Yalvaç, Uluborlu, Eğirdir,
+    [kişi!arcadi,dogu,theodo] 0395  0395-01-17  I. Theodosius öldü; imparatorluk kalıcı olarak ikiye
+           0395-01-17  Cappadocia eyaletinde Aksaray Theodosius’un ölümüyle
+    [kişi!arcadi,dogu,theodo] 0395  0395-01-17  I. Theodosius öldü; imparatorluk kalıcı olarak ikiye
+           0395-01-17  Lycia et Pamphylia eyaletinde Antalya, Kaş (Antiphel
+    [kişi!arcadi,dogu,theodo] 0395  0395-01-17  I. Theodosius öldü; imparatorluk kalıcı olarak ikiye
+           0395-01-17  Pontus Polemoniacus eyaletinde Trabzon, Giresun, Riz
+    [kişi!arcadi,dogu,theodo] 0395  0395-01-17  I. Theodosius öldü; imparatorluk kalıcı olarak ikiye
+           0395-01-17  Cilicia (Pedias) eyaletinde Tarsus, Adana, Misis (Ya
+    [kişi!arcadi,dogu,theodo] 0395  0395-01-17  I. Theodosius öldü; imparatorluk kalıcı olarak ikiye
+           0395-01-17  Asia (Frigya) eyaletinde Kütahya Theodosius’un ölümü
+    [kişi!arcadi,dogu,theodo] 0395  0395-01-17  I. Theodosius öldü; imparatorluk kalıcı olarak ikiye
+           0395-01-17  Galatia (Paflagonya) eyaletinde Çankırı Theodosius’u
+    [kişi!arcadi,dogu,theodo] 0395  0395-01-17  I. Theodosius öldü; imparatorluk kalıcı olarak ikiye
+           0395-01-17  Thracia Theodosius’un ölümüyle Doğu Roma (Arcadius) 
+    [kişi!arcadi,dogu,theodo] 0395  0395-01-17  I. Theodosius öldü; imparatorluk kalıcı olarak ikiye
+           0395-01-17  Moesia Theodosius’un ölümüyle Doğu Roma (Arcadius) p
+    [kişi!arcadi,dogu,theodo] 0395  0395-01-17  I. Theodosius öldü; imparatorluk kalıcı olarak ikiye
+           0395-01-17  Achaea (Epirus dâhil) Theodosius’un ölümüyle Doğu Ro
+    [kişi!theodo] 0395  0395-01-17  I. Theodosius öldü; imparatorluk kalıcı olarak ikiye
+           0395-01-17  Dalmatia (Hırvatistan kıyısı) Theodosius’un ölümüyle
+    [kişi!arcadi,dogu,theodo] 0395  0395-01-17  I. Theodosius öldü; imparatorluk kalıcı olarak ikiye
+           0395-01-17  Dalmatia (Doğu payı) Theodosius’un ölümüyle Doğu Rom
+    [kişi!theodo] 0395  0395-01-17  I. Theodosius öldü; imparatorluk kalıcı olarak ikiye
+           0395-01-17  Africa Theodosius’un ölümüyle Batı Roma (Honorius) p
+    [kişi!theodo] 0395  0395-01-17  I. Theodosius öldü; imparatorluk kalıcı olarak ikiye
+           0395-01-17  Numidia Theodosius’un ölümüyle Batı Roma (Honorius) 
+    [kişi!theodo] 0395  0395-01-17  I. Theodosius öldü; imparatorluk kalıcı olarak ikiye
+           0395-01-17  Tripolitania Theodosius’un ölümüyle Batı Roma (Honor
+    [kişi!theodo] 0395  0395-01-17  I. Theodosius öldü; imparatorluk kalıcı olarak ikiye
+           0395-01-17  Mauretania Theodosius’un ölümüyle Batı Roma (Honoriu
+    [kişi!theodo] 0395  0395-01-17  I. Theodosius öldü; imparatorluk kalıcı olarak ikiye
+           0395-01-17  Gallia Narbonensis: Theodosius'un ölümüyle Batı Roma
+    [kişi!theodo] 0395  0395-01-17  I. Theodosius öldü; imparatorluk kalıcı olarak ikiye
+           0395-01-17  Aquitania: Theodosius'un ölümüyle Batı Roma (Honoriu
+    [kişi!theodo] 0395  0395-01-17  I. Theodosius öldü; imparatorluk kalıcı olarak ikiye
+           0395-01-17  Gallia Lugdunensis: Theodosius'un ölümüyle Batı Roma
+    [kişi!theodo] 0395  0395-01-17  I. Theodosius öldü; imparatorluk kalıcı olarak ikiye
+           0395-01-17  Gallia Belgica: Theodosius'un ölümüyle Batı Roma (Ho
+    [kişi!theodo] 0395  0395-01-17  I. Theodosius öldü; imparatorluk kalıcı olarak ikiye
+           0395-01-17  Raetia: Theodosius'un ölümüyle Batı Roma (Honorius) 
+    [kişi!theodo] 0395  0395-01-17  I. Theodosius öldü; imparatorluk kalıcı olarak ikiye
+           0395-01-17  Noricum: Theodosius'un ölümüyle Batı Roma (Honorius)
+    [kişi!theodo] 0395  0395-01-17  I. Theodosius öldü; imparatorluk kalıcı olarak ikiye
+           0395-01-17  Hispania Baetica: Theodosius'un ölümüyle Batı Roma (
+    [kişi!theodo] 0395  0395-01-17  I. Theodosius öldü; imparatorluk kalıcı olarak ikiye
+           0395-01-17  Hispania Lusitania: Theodosius'un ölümüyle Batı Roma
+    [kişi!theodo] 0395  0395-01-17  I. Theodosius öldü; imparatorluk kalıcı olarak ikiye
+           0395-01-17  Hispania Tarraconensis: Theodosius'un ölümüyle Batı 
+    [kişi!theodo] 0395  0395-01-17  I. Theodosius öldü; imparatorluk kalıcı olarak ikiye
+           0395-01-17  Britannia: Theodosius'un ölümüyle Batı Roma (Honoriu
+    [kişi!theodo] 0395  0395-01-17  I. Theodosius öldü; imparatorluk kalıcı olarak ikiye
+           0395-01-17  Latium: Theodosius'un ölümüyle Batı Roma payına düşt
+    [kişi!theodo] 0395  0395-01-17  I. Theodosius öldü; imparatorluk kalıcı olarak ikiye
+           0395-01-17  Picenum ve Umbria: Theodosius'un ölümüyle Batı Roma 
+    [kişi!theodo] 0395  0395-01-17  I. Theodosius öldü; imparatorluk kalıcı olarak ikiye
+           0395-01-17  Picenum ve Umbria: Theodosius'un ölümüyle Batı Roma 
+    [kişi!theodo] 0395  0395-01-17  I. Theodosius öldü; imparatorluk kalıcı olarak ikiye
+           0395-01-17  Etruria, Latium vetus ve Campania: Theodosius'un ölü
+    [kişi!theodo] 0395  0395-01-17  I. Theodosius öldü; imparatorluk kalıcı olarak ikiye
+           0395-01-17  Etruria, Latium vetus ve Campania: Theodosius'un ölü
+    [kişi!theodo] 0395  0395-01-17  I. Theodosius öldü; imparatorluk kalıcı olarak ikiye
+           0395-01-17  Samnium ve Sallentina: Theodosius'un ölümüyle Batı R
+    [kişi!theodo] 0395  0395-01-17  I. Theodosius öldü; imparatorluk kalıcı olarak ikiye
+           0395-01-17  Samnium ve Sallentina: Theodosius'un ölümüyle Batı R
+    [kişi!theodo] 0395  0395-01-17  I. Theodosius öldü; imparatorluk kalıcı olarak ikiye
+           0395-01-17  Cisalpina ve Venetia: Theodosius'un ölümüyle Batı Ro
+    [kişi!theodo] 0395  0395-01-17  I. Theodosius öldü; imparatorluk kalıcı olarak ikiye
+           0395-01-17  Sicilia: Theodosius'un ölümüyle Batı Roma payına düş
+    [kişi!theodo] 0395  0395-01-17  I. Theodosius öldü; imparatorluk kalıcı olarak ikiye
+           0395-01-17  Sicilia: Theodosius'un ölümüyle Batı Roma payına düş
+    [kişi!theodo] 0395  0395-01-17  I. Theodosius öldü; imparatorluk kalıcı olarak ikiye
+           0395-01-17  Sicilia: Theodosius'un ölümüyle Batı Roma payına düş
+    [kişi!theodo] 0395  0395-01-17  I. Theodosius öldü; imparatorluk kalıcı olarak ikiye
+           0395-01-17  Sardinia: Theodosius'un ölümüyle Batı Roma payına dü
+    [kişi!dunhua] 0400  0400-01-01  Dunhuang: Kuzey Liang (北涼) → sahipsiz aralık
+           0400-01-01  Faxian Dunhuang'dan Taklamakan'ı geçip Hotan'a yürüy
+    [kişi!clovis,frankl,soisso] 0486  0486-01-01  Clovis Soissons Savaşı'nda Syagrius'u yener; Somme g
+           0486-01-01  Siagrius Soissons’ta Clovis’in Franklarına yenildi (
+    [kişi!jianka] 0502  0502-04-30  Hanedan/rejim değişimi — Nanjing (Jiankang), Changsh
+           0502-04-30  Xiao Yan Nanjiao'da tahta çıktı: Jiankang Liang'in b
+    [kişi!chang',kuzey] 0557  0557-02-15  Hanedan/rejim değişimi — Chang'an (Xi'an): Batı Wei 
+           0557-02-15  Yuwen Jue tahta çıktı: Chang'an Kuzey Zhou'nun başke
+    [kişi!goktur] 0582  0582-01-01  Tardu Batı Göktürk Devleti'nin bağımsızlığını ilân e
+           0582-01-01  Göktürk kağanlığı ikiye bölündü; Ötüken Doğu Göktürk
+    [kişi!chang'] 0617  0617-12-12  Li Yuan'ın orduları Sui başkenti Daxing'i (Chang'an)
+           0617-12-12  Hanedan/rejim değişimi — Chang'an (Xi'an): Sui Haned
+    [kişi!dogu,goktur] 0630  0630-01-01  Doğu Göktürk Devleti Çinliler tarafından ortadan kal
+           0630-01-01  Xueyantuo han Yi'nan Doğu Göktürkler'in yıkılışının 
+    [başlık] 0682  0682-04-23  Kedukan Bukit yazıtı: Sriwijaya kralı 23 Nisan 682'd
+           0682-04-23  Kedukan Bukit yazıtı: Srivicaya kralı Palembang'dan 
+    [kişi!malayu] 0689  0689-01-01  Malayu (Jambi) Sriwijaya'ya katıldı (689-692 arasınd
+           0689-01-01  Jambi: Malayu Srivijaya tarafından yutuldu (689-692)
+    [başlık] 0719  0719-01-01  Narbonne: Arap (Emevî) fethi, Septimania'da Vizigot 
+           0719-01-01  Septimania: Arap fethiyle Vizigot Krallığı'nın son t
+    [başlık] 0732  0732-01-01  Mervân b. Muhammed'in seferinde Hazar başşehri İdil 
+           0732-01-01  Mervân b. Muhammed’in seferiyle «yeni Hazar başşehri
+    [kişi!chang'] 0756  0756-07-14  Xuanzong Chang'an'dan Shu'ya (Sichuan) kaçtı
+           0756-07-14  Hâkimiyet değişimi — Chang'an (Xi'an): Tang Hanedani
+    [kişi!chang'] 0757  0757-11-14  Xiangji Tapınağı muharebesi: Tang-Uygur ordusu Chang
+           0757-11-14  Hâkimiyet değişimi — Chang'an (Xi'an): an-lushan-yan
+    [kişi!luoyan,tang] 0757  0757-12-03  Tang ordusu Luoyang'a girdi (757): Doğu Başkent isya
+           0757-12-03  Luoyang: Tang ordusu (Guangping Prensi) Luoyang’ı ge
+    [başlık] 0761  0761-01-01  Abbâsî tayinli Muhammed b. Eş‘as Kayrevan’ı aldı
+           0761-08-07  Abbâsî komutanı Muhammed b. Eş'as Kayrevan'ı zaptett
+    [kişi!nakhon,thamma] 0775  0775-01-01  Ligor (Nakhon Si Thammarat) steli: Sriwijaya kralı M
+           0775-01-01  Nakhon Si Thammarat: srivijaya egemenliği başladı
+    [kişi!edirne,krum] 0813  0813-01-01  Han Krum Edirne’yi aldı
+           0813-01-01  Edirne ve Dimetoka: Krum aldı, Bizans hâkimiyeti bey
+    [başlık] 0827  0827-01-01  Sicilia: Müslüman Sicilya fethi başladı (827), Mazar
+           0827-04-02  Ağlebî-Euphemios donanması Mâzere'yi (Mazara del Val
+    [başlık] 0827  0827-04-02  Ağlebî-Euphemios donanması Mâzere'yi (Mazara del Val
+           0827-06-14  Esed b. Furât ve Euphemios'un donanması Mâzere'de Bi
+    [kişi!filibe,malami] 0831  0831-01-01  Malamir döneminde Filibe Bulgar devletine katıldı
+           0831-01-01  Kuzey Trakya (Filibe, Eski Zağra): Malamir Filibe'yi
+    [başlık] 0831  0831-02-18  Palermo Ağlebî Müslümanlarına teslim oldu
+           0831-09-12  Palermo Müslümanlara teslim oldu.
+    [kişi!karaku,kirgiz,ötuken] 0840  0840-01-01  Yenisey Kırgızları Uygur Devleti'ni yıktı: Ötüken (K
+           0840-01-01  Karakurum: Kırgızlar Ordubalık’ı yıkıp Ötüken’e hâki
+    [kişi!ahmed,misir',tolun] 0868  0868-09-15  Ahmed b. Tolun vali vekili olarak Mısır'a girdi; Tol
+           0868-09-15  Ahmed b. Tolun Mısır'a girdi: Mısır Abbâsî valiliğin
+    [kişi!chang',huang] 0881  0881-01-08  Xizong Chang'an'dan kaçtı; Huang Chao'nun öncüleri ş
+           0881-01-08  Hâkimiyet değişimi — Chang'an (Xi'an): Tang Hanedani
+    [kişi!pecene,tuna] 0895  0895-03-02  Peçenekler Ten (Don) ile Tuna arasındaki bozkırı hâk
+           0895-03-02  Peçenekler Bulgar Kralı Simeon'un müttefiki olarak M
+    [kişi!abbasi,fustat,toluno] 0905  0905-01-11  Şeybân b. Ahmed teslim oldu, Abbâsî ordusu Fustat'a 
+           0905-01-11  Abbâsî ordusu Fustat'a girdi: Tolunoğulları sona erd
+    [kişi!tang] 0907  0907-06-01  Tang hanedanı sona erdi: Aidi tahtı Zhu Wen'e devret
+           0907-06-01  Hanedan/rejim değişimi — Chang'an (Xi'an): Tang Hane
+    [kişi!karaku,kirgiz,kitanl] 0920  0920-01-01  Kıtanlar Kırgızları Ötüken'den çıkardı: Karakurum (O
+           0920-01-01  Karakurum: Kitanlar bütün Moğolistan’ı alıp Kırgızla
+    [kişi!bulgar] 0922  0922-05-12  İbn Fadlân İdil Bulgar hanının karargâhına varıyor
+           0922-05-12  Abbâsî elçi heyeti İdil Bulgar hanının karargâhına u
+    [kişi!goryeo,hubaek] 0936  0936-09-26  Ilicheon'da Goryeo, Hubaekje ordusunu yendi; Sin-geo
+           0936-09-26  Concu (Jeonju): Sonraki Baekje (Hubaekje) → Goryeo
+    [kişi!guney,yang] 0937  0937-11-10  Hâkimiyet değişimi — Nanjing (Jiankang): Wu (Yang Wu
+           0937-11-10  Xu Gao Jinling'de imparator oldu; Yang Wu'dan Güney 
+    [başlık] 0946  0946-08-30  Hâkimiyet değişimi — Fuzhou: Min Krallığı → Weiwu Or
+           0947-01-01  Hâkimiyet değişimi — Fuzhou: Weiwu Ordusu Rejimi (威武
+    [kişi!fuzhou,wuyue] 0947  0947-01-01  Hâkimiyet değişimi — Fuzhou: Weiwu Ordusu Rejimi (威武
+           0947-01-01  Fuzhou: sahip Güney Tang → Wuyue
+    [başlık] 0951  0951-11-17  Hâkimiyet değişimi — Changsha: Chu (Ma Chu) Krallığı
+           0952-11-04  Hâkimiyet değişimi — Changsha: Güney Tang (Nan Tang)
+    [kişi!lechfe,macar] 0955  0955-08-10  Lechfeld Savaşı: I. Otto Macar akınına son verir
+           0955-08-10  Lechfeld: Macar akınları Alman Kralı I. Otto'ya yeni
+    [kişi!misis,tarsus] 0965  0965-01-01  Nikephoros Phokas Misis ve Tarsus'u işgal etti (354/
+           0965-01-01  Bizans Tarsus’u geri aldı; Adana ve Misis Tarsus zin
+    [kişi!cevher,fustat,misir'] 0969  0969-07-06  Fâtımîler Mısır'ı aldı: Cevher es-Sıkıllî Fustat'a g
+           0969-07-06  Kumandan Cevher es-Sıkıllî Fustat'a girerek Mısır'ı 
+    [başlık] 0990  0990-03-31  Ukaylîler Musul'u ele geçirdi — Musul Ukaylî hânedan
+           0990-03-31  Ebü'z-Zevvâd Musul'u aldı; Ukaylî hânedanı kuruldu
+    [kişi!bugra,buhara,harun] 0992  0992-05-07  Karahanlı Hârun Buğra Han Buhara'yı ele geçirdi
+           0992-05-07  Hârun Buğra Han Sâmânî başşehri Buhara'yı aldı; emîr
+    [başlık] 0992  0992-08-18  II. Nûh Selçuklu Türkmenleri'nin yardımıyla Buhara'y
+           0992-08-18  II. Nûh Selçuklu Türkmenlerinin yardımıyla Buhara'ya
+    [kişi!airlan] 1019  1019-01-01  Airlangga resmen Doğu Cava kralı olarak taç giydi (1
+           1019-01-01  Surabaya: Airlangga taç giydi, yetkisi Surabaya-Pasu
+    [kişi!belens] 1021  1021-01-01  Âmirîler hânedanı merkezi Belensiye olmak üzere kuru
+           1021-01-01  Belensiye merkezli Âmirî tâife emirliği kuruldu (102
+    [başlık] 1028  1028-01-01  Tangut Yuanhao Ganzhou'yu aldı: Zhangye (Ganzhou) Uy
+           1028-01-01  Zhangye (Ganzhou): Li Yuanhao Ganzhou’yu (Zhangye) U
+    [kişi!aversa,drengo,kontlu] 1030  1030-01-01  Aversa Kontluğu kuruldu: Rainulf Drengot Norman kont
+           1030-01-01  Rainolfo Drengot Aversa topraklarını elde etti: Aver
+    [kişi!cehver,kurtub] 1031  1031-01-01  Kurtuba Cehverîler idaresinde cumhuriyet oldu (1031-
+           1031-01-01  Kurtuba’da Emevî hânedanı sona erdi, şehir Cehverîle
+    [kişi!xining] 1032  1032-01-01  Gusiluo Qingtang'a (Xining) yerleşti: Xining Tsongkh
+           1032-01-01  Xining: tsongkha egemenliği başladı
+    [başlık] 1080  1080-06-18  Ukaylî Müslim b. Kureyş Halep'e girdi; Mirdâsî hâkim
+           1080-10-01  Müslim b. Kureyş Halep iç kalesini alıp Mirdâsîler'i
+    [kişi!suleym,tarsus] 1082  1082-01-01  Anadolu Selçuklu kurucusu I. Süleyman Şah Tarsus'u f
+           1082-01-01  Süleyman Şah Tarsus’u fethetti: Bizans dilimi sona e
+    [kişi!antaky,suleym] 1084  1084-12-12  Kutalmışoğlu Süleyman Şah Antakya'yı Bizans'tan aldı
+           1084-12-12  Süleyman Şah Antakya'yı ele geçirdi; kale 12 Ocak 10
+    [başlık] 1085  1085-01-01  Bitlis Dilmaçoğlu Mehmed Bey'e iktâ edildi: Dilmaçoğ
+           1085-04-29  Sultan Melikşah Bitlis ve yöresini Dilmaçoğlu Mehmed
+    [başlık] 1086  1086-06-04  Süleyman b. Kutalmış Aynüseylem'de yenilip öldü; Ant
+           1086-06-04  Aynüseylem Savaşı: Süleyman Şah Suriye Selçuklu hükü
+    [kişi!belens,díaz,rodrig] 1094  1094-01-01  Rodrigo Díaz de Vivar (Cid) Belensiye'yi ele geçirdi
+           1094-01-01  El Cid (Rodrigo Díaz) Belensiye’yi aldı, Âmirî emirl
+    [kişi!berkya,tutus] 1095  1095-02-26  Berkyaruk Rey civarındaki savaşta amcası Suriye Selç
+           1095-02-26  Tutuş, Rey yakınında Dâşilû'da Berkyaruk'a karşı sav
+    [kişi!bizans,iznik] 1097  1097-06-19  İznik Haçlılara teslim oldu; Selçuklu merkezi Konya'
+           1097-06-19  İznik Bizans'a teslim edildi
+    [başlık] 1098  1098-06-03  Haçlılar Antakya'yı aldı — Antakya Prinkepsliği kuru
+           1098-06-03  Haçlılar Antakya'yı aldı; Bohemund Antakya Prinkepsl
+    [başlık] 1102  1102-01-01  Murâbıtlar Belensiye'yi zaptetti
+           1102-01-01  Murâbıtlar Belensiye’yi Ximena’dan aldı (1102)
+    [kişi!xining] 1104  1104-05-08  Song Qingtang'ı (Shanzhou, Xining) geri aldı: Xining
+           1104-05-08  Xining: song hanedanı (çin) hâkimiyeti başladı (önce
+    [başlık] 1110  1110-01-01  Beyrut Haçlı Kudüs Krallığı'nın eline geçti
+           1110-01-01  Beyrut: kudüs haçlı krallığı hâkimiyeti başladı (önc
+    [başlık] 1110  1110-01-01  Sarakusta (Zaragoza) Murâbıtlar'a geçti; Hûdî istikl
+           1110-01-01  Sarakusta halkı Murâbıtları davet etti: Hûdîlerin is
+    [başlık] 1123  1123-01-04  Pekin (Hanbalık): liao hanedanı (kitan / hıtay) → ji
+           1123-05-07  Pekin (Hanbalık): jin hanedanı (jurchen, kuzey çin) 
+    [başlık] 1124  1124-01-01  Dânişmendli Emîr Gazi Malatya'yı teslim aldı; Elbist
+           1124-06-13  Emîr Gazi uzun kuşatmanın ardından Malatya'yı teslim
+    [başlık] 1135  1135-01-19  Myocheong Seogyeong'de (Pyongyang) ayaklandı: Pyongy
+           1135-01-19  Seogyeong (Pyongyang) Daewi isyan devletine geçti
+    [kişi!goryeo,pyongy,seogye] 1136  1136-03-23  Kim Pu-sik Seogyeong'i (Pyongyang) aldı, Jo Gwang ke
+           1136-03-23  Seogyeong (Pyongyang) Kim Bu-sik tarafından alınıp G
+    [başlık] 1148  1148-01-01  Muvahhidler Kurtuba'yı aldı
+           1148-01-01  Kurtuba Muvahhidler’in eline geçti (1148)
+    [kişi!girnat,muvahh] 1156  1156-01-01  Gırnata Muvahhid yönetimine girdi
+           1156-01-01  Gırnata Muvahhidler’e teslim oldu (551/1156)
+    [kişi!eyyubi,turans] 1174  1174-01-01  Turanşah Yemen'i fetheder, Eyyûbî Yemen kolu başlar
+           1174-01-01  Turanşah'ın Eyyûbî kuvvetleri Zebîd'i aldı, Mehdî Ab
+    [başlık] 1175  1175-07-22  Eyyûbîler Aden'i fethetti, Aden'deki Zürey'î hâkimiy
+           1175-07-22  Eyyûbîler Aden'i aldı, Zürey‘îler sona erdi
+    [başlık] 1184  1184-04-14  Meyyâfârikīn: artukoğulları (artuklu beyliği) → ahla
+           1185-04-04  Meyyâfârikīn: ahlatşahlar (sökmenliler, şâh-i ermenl
+    [başlık] 1191  1191-01-01  Meyyâfârikīn: eyyûbî sultanlığı → artukoğulları (art
+           1192-01-01  Meyyâfârikīn: artukoğulları (artuklu beyliği) → eyyû
+    [başlık] 1202  1202-06-25  Saltuklu hâkimiyeti sona erince Bayburt Anadolu Selç
+           1202-06-25  Bayburt: saltuklular (saltukoğulları) → anadolu (tür
+    [kişi!pasinl] 1202  1202-06-25  Saltuklu hâkimiyeti sona erince Pasinler yöresi Anad
+           1202-06-25  Pasinler (Hasankale): saltuklular (saltukoğulları) h
+    [kişi!zara] 1202  1202-11-15  Dördüncü Haçlı Seferi Zadar’ı (Zara) aldı ve yağmala
+           1202-11-15  Zadar (Zara): venedik cumhuriyeti hâkimiyeti başladı
+    [kişi!antaly,giyase,keyhus] 1207  1207-03-05  Gıyâseddin Keyhusrev Antalya'yı fethetti — Selçuklul
+           1207-03-05  I. Gıyâseddin Keyhusrev Antalya'yı Latin idaresinden
+    [kişi!alaedd,gazne',muhamm] 1215  1215-01-01  Alâeddin Muhammed Gazne'yi aldı ve oğlu Celâleddin'e
+           1215-01-01  Hârizmşah Alâeddin Muhammed Gazne'yi aldı; Gurlu hân
+    [kişi!antaly,ertoku,izzedd] 1216  1216-01-22  İzzeddin Keykâvus Antalya'yı Kıbrıslılardan geri ald
+           1216-01-22  İzzeddin Keykâvus Antalya'yı yeniden fethedip valili
+    [başlık] 1228  1228-01-01  Seyfüddevle İbn Hûd Mürsiye'de Muvahhidler'e karşı a
+           1228-01-01  Mürsiye’de Muhammed b. Yûsuf b. Hûd Muvahhidler’e ka
+    [başlık] 1230  1230-04-01  Ahlat: eyyûbî sultanlığı → hârizmşahlar (anuştegin h
+           1231-01-01  Ahlat: hârizmşahlar (anuştegin hânedanı) hâkimiyeti 
+    [başlık] 1235  1235-01-01  Harran: eyyûbî sultanlığı → anadolu (türkiye) selçuk
+           1236-01-01  Harran: anadolu (türkiye) selçuklu devleti hâkimiyet
+    [başlık] 1260  1260-01-01  Harran: ilhanlı devleti hâkimiyeti başladı (öncesi k
+           1261-01-01  Harran: ilhanlı devleti hâkimiyeti sona erdi (devral
+    [kişi!hebrid,iskocy,norvec] 1266  1266-07-02  Norveç kralı Hebridleri ve Man'ı 4000 mark karşılığı
+           1266-07-02  Perth Antlaşması: Norveç, Man Adası ve Hebridler'i İ
+    [kişi!baybar,yafa'y] 1268  1268-03-08  Baybars Yafa'yı Haçlılardan aldı — Kudüs Krallığı'nı
+           1268-03-08  Baybars Yafa'yı aldı
+    [başlık] 1268  1268-05-18  Baybars Antakya'yı aldı — Antakya Prinkepsliği'nin s
+           1268-05-18  Baybars Antakya'yı aldı; Antakya Prinkepsliği sona e
+    [başlık] 1282  1282-03-30  Mazara del Vallo, Taormina: sicilya krallığı (norman
+           1282-08-30  Mazara del Vallo, Taormina: sicilya krallığı (aragon
+    [kişi!emirli,evfat,şuve'y] 1285  1285-01-01  Ömer Veleşma'ın oğlu Ali, Şüve'yi topraklarına katar
+           1285-01-01  Evfât Emirliği kuruldu: Ali, Şüve'yi katıp Adel'i (Z
+    [kişi!kiev,litvan] 1362  1362-01-01  Kiev Prensliği Litvanya egemenliğine geçti
+           1362-01-01  Kiev Litvanya'ya geçti: Gediminoğulları'nın Kiev Kne
+    [başlık] 1363  1363-01-01  Charles Thopia Kruya'ya hâkim oldu
+           1363-01-01  Charles Thopia Kruya'ya hâkim oldu (1363)
+    [kişi!habsbu,margar,maulta] 1363  1363-01-26  Margarete Maultasch Tirol'ü Habsburglara devretti: I
+           1363-01-26  Tirol Kontluğu Habsburglara geçti
+    [başlık] 1392  1392-01-01  Draç (Durrës) Thopia'dan Venedik'e geçti
+           1392-01-01  Draç, Thopia hanedanından Venedik'e bırakıldı
+    [kişi!bayezi,istanb,yildir] 1394  1394-01-01  İstanbul'un sıkı kuşatması başladı (abluka ~1387'den
+           1394-01-01  Yıldırım Bayezid İstanbul'u yeniden sıkı bir kuşatma
+    [kişi!kadiko] 1402  1402-07-28  Kadıköy: bizans (doğu roma) imparatorluğu hâkimiyeti
+           1402-07-28  Kadıköy: Osmanlı hâkimiyeti sona erdi — «1352’de Ven
+    [kişi!mehmed,musa,çelebi] 1413  1413-07-05  Çelebi Mehmed birliği yeniden kurdu
+           1413-07-05  Çamurlu Savaşı — birliğin yeniden kurulması
+    [başlık] 1415  1415-01-01  Son sultan Sâdeddin, Zeyla adasına sığındıysa da kıs
+           1415-01-01  Sâdeddin Zeyla'da öldürüldü: Evfât Emirliği sona erd
+    [başlık] 1450  1450-01-01  Karagve krallığı kuruldu
+           1450-01-01  Torva krallığı Khami'de kuruldu
+    [kişi!hanlig,kāsim,moskov] 1452  1452-01-01  Kasım Hanlığı kuruldu: Kasımov (Kāsım, Gorodets Meşç
+           1452-01-01  Kāsım Hanlığı Moskova topraklarında Oka kıyısında ku
+    [başlık] 1485  1485-01-01  Tver Büyük Knezliği Moskova'ya katıldı
+           1485-09-12  Tver Büyük Knezliği Moskova'ya katıldı — III. İvan ş
+    [başlık] 1500  1500-04-12  Son Görz kontu Leonhard öldü — Lienz ve Puster vadis
+           1500-04-12  Görz Kontu Leonhard Lienz'de öldü: Görz mülkleri (Li
+    [kişi!moskov,çernig] 1503  1503-04-02  Moskova-Litvanya Mütarekesi — Çernigov-Seversk bölge
+           1503-04-02  Moskova ateşkesi: Çernigov-Seversk toprakları Moskov
+    [başlık] 1519  1519-08-16  Cortés'in 1519 yürüyüşü (Cempoala – Tlaxcala – Cholu
+           1519-08-16  Cortés'in 1519 yürüyüşü — Bernal Díaz'ın anlatımı (C
+    [kişi!portek] 1521  1521-01-01  Portekiz'in Bahreyn'i alışı — Cebrî hâkimiyetinin so
+           1521-01-01  Ali Mugâyet Şah Portekizlilere karşı Açe Sultanlığı'
+    [kişi!portek,sultan] 1521  1521-01-01  Ali Mugâyet Şah Portekizlilere karşı Açe Sultanlığı'
+           1521-01-01  Portekizliler Pasai'yi aldı, Samudra-Pasai Sultanlığ
+    [kişi!bagirm] 1522  1522-01-01  Bagirmi Sultanlığı kuruldu
+           1522-01-01  Kenkâ halkı Bagirmi sultanlığını kurdu
+    [kişi!bregen,habsbu] 1523  1523-01-01  Bregenz'in ikinci yarısı Arşidük Ferdinand'a satıldı
+           1523-01-01  Bregenz Habsburg'a geçti: Hugo XVII Montfort-Bregenz
+    [başlık] 1535  1535-04-17  Yeni İspanya Genel Valiliği kuruldu
+           1535-04-17  İlk genel vali Antonio de Mendoza atanıp Yeni İspany
+    [kişi!reis,seydi] 1553  1553-12-07  Seydi Ali Reis'in Hint yolculuğu
+           1553-12-07  Seydi Ali Reis Halep'ten Basra filosunu devralmaya ç
+    [kişi!ashika,muroma,nobuna] 1573  1573-01-01  Oda Nobunaga son Ashikaga şogunu Yoshiaki'yi Kyoto'd
+           1573-01-01  Nobunaga, Makishima'da Ashikaga Yoshiaki'yi surgun e
+    [başlık] 1600  1600-01-01  Ovambo krallıkları teşekkül etti
+           1600-01-01  Ngonde krallığı teşekkül etti
+    [başlık] 1600  1600-01-01  Ovambo krallıkları teşekkül etti
+           1600-01-01  Luyi (Lozi) krallığı teşekkül etti
+    [başlık] 1600  1600-01-01  Ngonde krallığı teşekkül etti
+           1600-01-01  Luyi (Lozi) krallığı teşekkül etti
+    [kişi!mehmed] 1603  1603-12-20  Yeni Cami inşaatının III. Mehmed'in ölümü üzerine du
+           1603-12-20  III. Mehmed'in vefatı ve I. Ahmed'in cülûsu
+    [kişi!evliya,çelebi] 1640  1640-01-01  Evliya Çelebi'nin ilk seyahatine çıkması — Seyahatnâ
+           1640-01-01  Evliya Çelebi İstanbul dışına ilk gezisi olarak Burs
+    [kişi!azak,evliya,çelebi] 1641  1641-01-01  Evliya Trabzon'a, oradan Anapa ve Azak seferine gitt
+           1641-01-01  Evliya Bahçesaray'da kışladı, Azak fethine katıldı, 
+    [başlık] 1657  1657-11-15  Limni'nin Venedik'ten geri alınışı
+           1657-11-15  Limni ve Semadirek'in geri alınışı
+    [başlık] 1663  1663-01-01  Evliya Fâzıl Ahmed Paşa'nın Avusturya seferine katıl
+           1663-04-13  Uyvar seferi başladı — Fâzıl Ahmed Paşa Edirne'den A
+    [başlık] 1681  1681-01-01  Fâtıma Sultan Bike'nin ölümüyle Kāsım Hanlığı tarihe
+           1681-01-01  Kāsım Hanlığı tarihe karıştı
+    [kişi!antlas,karlof] 1699  1699-01-26  Karlofça Antlaşması — ilk büyük toprak kaybı
+           1699-01-26  Karlofça Antlaşması: Kamaniçe, Bar (Podolya) ve Sağ 
+    [kişi!louis,mehmed,yirmis] 1721  1721-03-21  Mehmed Efendi'nin XV. Louis tarafından kabulü
+           1721-03-21  Elçi Tuileries Sarayı'nda XV. Louis tarafından kabul
+    [kişi!istanb,mehmed,yirmis] 1721  1721-10-08  Mehmed Efendi'nin İstanbul'a dönüşü
+           1721-10-08  Heyet 8 Ekim 1721'de İstanbul'a döndü (TDV)
+    [kişi!antlas,peters,rusya'] 1723  1723-09-23  Petersburg Antlaşması — Tahmasb'ın elçisi Hazar kıyı
+           1723-09-23  Petersburg Antlaşması: Derbend, Bakü ve Hazar'ın gün
+    [başlık] 1732  1732-01-01  Reşt Antlaşması — Rusya Gîlân, Mâzenderân ve Esterâb
+           1732-01-01  Reşt Antlaşması: Rusya Hazar kıyısındaki toprakların
+    [başlık] 1768  1768-08-26  Endeavour, Venüs geçişini gözlemek için Plymouth'tan
+           1769-06-03  Tahiti'de Venüs geçişi gözlemleniyor
+    [başlık] 1769  1769-09-19  Habeş yaylası (Masavva – Adua – Aksum)
+           1770-01-10  Habeş yaylası (Aksum – Gondar)
+    [kişi!avustu,birinc,rusya] 1772  1772-08-05  Polonya'nın Birinci Paylaşımı — Rusya ve Avusturya'y
+           1772-08-05  Birinci Taksim: Avusturya Galiçya'yı (Lvov, Haliç, Y
+    [başlık] 1781  1781-01-28  İngilizler Wilmington'ı (Kuzey Karolina) işgal etti
+           1781-11-18  İngilizler Wilmington'ı tahliye etti
+    [kişi!selim] 1789  1789-04-07  III. Selim ve Nizâm-ı Cedîd
+           1789-04-07  III. Selim tahta çıktı
+    [başlık] 1792  1792-09-02  Verdun: fransa krallığı → prusya krallığı
+           1792-10-01  Verdun: prusya krallığı → fransa (1792 sonrası — cum
+    [kişi!ücuncu] 1795  1795-10-24  Polonya'nın Üçüncü Paylaşımı — devletin tamamen orta
+           1795-10-24  Üçüncü Taksim: Lehistan-Litvanya Birliği ortadan kal
+    [başlık] 1797  1797-05-12  Venedik Cumhuriyeti'nin sonu — Büyük Meclis kendini 
+           1797-05-12  Venedik Cumhuriyeti sona erdi: Büyük Konsey kendini 
+    [başlık] 1799  1799-01-03  Osmanlı-Rus Savunma İttifakı — Fransa'ya karşı ortak
+           1799-01-21  Osmanlı-İki Sicilya (Napoli) Savunma İttifakı — Fran
+    [kişi!antlas,gulist,kafkas] 1813  1813-10-24  Gülistan Antlaşması — Kafkasya'nın büyük kısmı kaybe
+           1813-10-24  Gülistan Antlaşması: Kafkasya'daki hanlıklar Rusya'y
+    [kişi!ingili,sugaul] 1816  1816-03-04  Sugauli ile Kali'nin batısı İngiliz idaresine geçti 
+           1816-03-04  Sugauli Antlaşması yürürlükte — Nepal ovalarını İngi
+    [kişi!cochra,sibiry,tobols] 1820  1820-01-01  Kazan – Perm – Yekaterinburg – Tümen – Tobolsk (Coch
+           1820-01-01  Tobolsk – İşim – Omsk – Semipalatinsk – Ust-Kamenogo
+    [kişi!cochra,sibiry,yolu] 1820  1820-01-01  Kazan – Perm – Yekaterinburg – Tümen – Tobolsk (Coch
+           1820-01-01  Tomsk – Açinsk – Krasnoyarsk – Kansk – İrkutsk (Büyü
+    [kişi!cochra] 1820  1820-01-01  Kazan – Perm – Yekaterinburg – Tümen – Tobolsk (Coch
+           1820-01-01  İrkutsk – Kirensk (Kirenga) – Vitim – Olekminsk – Ya
+    [kişi!cochra,sibiry,tomsk] 1820  1820-01-01  Tobolsk – İşim – Omsk – Semipalatinsk – Ust-Kamenogo
+           1820-01-01  Tomsk – Açinsk – Krasnoyarsk – Kansk – İrkutsk (Büyü
+    [kişi!cochra,irkuts] 1820  1820-01-01  Tomsk – Açinsk – Krasnoyarsk – Kansk – İrkutsk (Büyü
+           1820-01-01  İrkutsk – Kirensk (Kirenga) – Vitim – Olekminsk – Ya
+    [başlık] 1820  1820-10-31  Yakutsk – Srednekolimsk – Nijnekolimsk (Cochrane, Ko
+           1821-01-01  Nijnekolimsk – Srednekolimsk – Ohotsk (Cochrane, Kol
+    [başlık] 1828  1828-02-22  Türkmençay Antlaşması: Revan ve Talış'ın Rusya'ya ge
+           1828-02-22  Türkmençay Antlaşması: Revan ve Nahçıvan Rusya'ya, A
+    [kişi!avustu,serbes] 1846  1846-11-11  Krakov Serbest Şehri kaldırıldı, Avusturya'ya katıld
+           1846-11-11  Avusturya Kraków Serbest Şehri'ni ilhak etti
+    [kişi!kanada] 1870  1870-07-15  Rupert's Land Kanada'ya devredildi — 49. paralel sın
+           1870-07-15  Kuzey-Batı Toprakları Kanada'ya geçti — Alaska sınır
+    [kişi!ahmed,grandu,muhtar] 1877  1877-04-24  93 Harbi (1877–78 Osmanlı-Rus Savaşı)
+           1877-04-24  Rusya'nın savaş ilânı — Doksanüç Harbi'nin başlaması
+    [kişi!genera,urabi,wolsel] 1882  1882-09-13  Mısır'ın İngiliz işgali
+           1882-09-13  Tel el-Kebîr Muharebesi — Urâbî ordusunun dağılması
+    [kişi!gine'n,yeni] 1884  1884-01-01  Almanya, Yeni Gine'nin kuzey kiyisini ilhak etti (14
+           1884-01-01  Ingiltere, Yeni Gine'nin guney kiyisinda himaye ilan
+    [başlık] 1886  1886-01-01  Fransız-Osmanlı düzenlemesi — Tunus ile Trablusgarp 
+           1886-01-01  Fransız–Osmanlı düzenlemesi — Tunus ile Trablusgarp 
+    [başlık] 1889  1889-11-15  Brezilya'da cumhuriyet ilan edildi — 1872 Paraguay s
+           1889-11-15  Brezilya'da cumhuriyet ilan edildi — Peru ile Tabati
+    [başlık] 1891  1891-06-20  Londra Sözleşmesi — Borneo'da Hollanda–İngiliz sınır
+           1891-06-20  Londra Sözleşmesi — Sarawak ile Hollanda Borneosu ar
+    [kişi!fransi] 1892  1892-01-01  İkinci Fransız-Osmanlı düzenlemesi — Tunus-Trablusga
+           1892-01-01  Fransız-Liberya Sözleşmesi — Cavalla nehri Fildişi S
+    [başlık] 1892  1892-01-01  İkinci Fransız-Osmanlı düzenlemesi — Tunus-Trablusga
+           1892-01-01  Fransız–Osmanlı düzenlemesi — Tunus–Trablusgarp sını
+    [kişi!fransi] 1892  1892-01-01  Fransız-Liberya Sözleşmesi — Cavalla nehri Fildişi S
+           1892-01-01  Fransız–Osmanlı düzenlemesi — Tunus–Trablusgarp sını
+    [kişi!pamir] 1895  1895-03-11  İngiliz–Rus Pamir notaları — Afgan–Rus sınırı Zorkul
+           1895-03-11  Pamir notaları — Vahan koridorunun doğu ucu Çin sını
+    [kişi!pamir'] 1895  1895-03-11  İngiliz–Rus Pamir notaları — Afgan–Rus sınırı Zorkul
+           1895-03-11  Pamir'de Rus–Çin sınırı antlaşmasız kaldı
+    [başlık] 1895  1895-05-23  Formosa Cumhuriyeti ilan edildi: Taipei ve Tainan Ja
+           1895-06-07  Japon birlikleri Taipei'ye girdi: Taipei Formosa Cum
+    [başlık] 1899  1899-01-19  Kondominyum Antlaşması — Sudan'ın İngiliz-Mısır orta
+           1899-01-19  Anglo-Mısır Kondominyum Antlaşması — İngiliz Sudanı 
+    [başlık] 1906  1906-10-01  Refah Anlaşması — Osmanlı ile Mısır Hidivliği arasın
+           1906-10-01  Refah Anlaşması — Osmanlı ile Mısır Hidivliği arasın
+    [kişi!bulgar] 1908  1908-10-05  Bulgaristan'ın bağımsızlığı ve Bosna'nın ilhakı
+           1908-10-05  Bulgaristan bağımsızlığını ilan etti — Romanya ile s
+    [kişi!bulgar] 1908  1908-10-05  Bulgaristan'ın bağımsızlığı ve Bosna'nın ilhakı
+           1908-10-05  Bulgaristan bağımsızlığını ilan etti — Osmanlı-Bulga
+    [kişi!bulgar] 1908  1908-10-05  Bulgaristan bağımsızlığını ilan etti — Romanya ile s
+           1908-10-05  Bulgaristan bağımsızlığını ilan etti — Osmanlı-Bulga
+    [başlık] 1909  1909-04-19  İstanbul'da Türk-Bulgar Protokolü — Osmanlı Bulgaris
+           1909-04-19  İstanbul'da Türk-Bulgar Protokolü — Osmanlı Bulgaris
+    [başlık] 1910  1910-05-19  Trablus Sözleşmesi — Tunus ile Trablusgarp vilayeti 
+           1910-05-19  Trablus Sözleşmesi — Tunus ile Trablusgarp vilayeti 
+    [kişi!antlas,italya] 1912  1912-10-18  Uşi Antlaşması: Trablusgarp ve Bingazi'nin İtalya'ya
+           1912-10-18  Uşi Antlaşması — Libya'nın Tunus ve Cezayir sınırlar
+    [başlık] 1913  1913-08-10  Bükreş Antlaşması: Yunanistan–Sırbistan sınırı doğdu
+           1913-08-10  Bükreş Antlaşması: Yunanistan–Bulgaristan sınırı Bel
+    [kişi!istanb,protok] 1913  1913-11-17  İstanbul Protokolü — Türk-İran sınırının tahdidi
+           1913-11-17  İstanbul Protokolü: Osmanlı–İran sınırı ayrıntılı ol
+    [başlık] 1913  1913-11-17  İstanbul Protokolü — Türk-İran sınırının tahdidi
+           1913-11-17  İstanbul Protokolü — Türk-İran sınırının tahdidi
+    [kişi!istanb,protok] 1913  1913-11-17  İstanbul Protokolü: Osmanlı–İran sınırı ayrıntılı ol
+           1913-11-17  İstanbul Protokolü — Türk-İran sınırının tahdidi
+    [başlık] 1914  1914-12-18  Mısır'ın İngiliz himayesine alınarak sultanlık ilan 
+           1914-12-18  İngiliz himayesi ilan edildi — Mısır Sultanlığı kuru
+    [başlık] 1915  1915-09-06  Sofya Sözleşmesi — Osmanlı-Bulgar sınırının düzeltil
+           1915-09-06  Sofya Sözleşmesi — Osmanlı-Bulgar sınırının düzeltil
+    [başlık] 1917  1917-11-07  Ekim Devrimi — Bolşevikler Rusya Geçici Hükûmeti'ni 
+           1917-11-07  Ekim Devrimi: Bolşevikler Petrograd'da iktidarı ele 
+    [başlık] 1917  1917-11-27  Hokand'da Türkistan (Hokand) Muhtariyeti ilan edildi
+           1918-01-31  Bolşevik kuvvetleri Türkistan (Hokand) Muhtariyeti'n
+    [kişi!giusti,italya,villa] 1918  1918-11-03  Villa Giusti Mütarekesi — Avusturya-Macaristan silâh
+           1918-11-03  Villa Giusti Ateşkesi — Güney Tirol'ün Brenner'e kad
+    [kişi!cumhur,halk,macari] 1918  1918-11-16  Macar Millî Konseyi Macaristan Halk Cumhuriyeti'ni i
+           1918-11-16  Macaristan Halk Cumhuriyeti ilan edildi: Büyük Ulusa
+    [kişi!kralli,sirp-h] 1918  1918-12-01  Sırp-Hırvat-Sloven Krallığı ile Büyük Romanya'nın ku
+           1918-12-01  Sırp-Hırvat-Sloven Krallığı kuruldu — Yunanistan'ın 
+    [başlık] 1918  1918-12-14  Direktuvar Kiev'i aldı: Hetman rejimi çöktü, UNR yen
+           1919-12-16  Bolşevikler Kiev'i yeniden aldı
+    [başlık] 1919  1919-01-01  Bolşevikler Vilnius'a girdi, Litvanya hükûmeti Kauna
+           1919-01-05  Kızıl Ordu Vilnius'a girdi — Litvanya hükûmeti şehri
+    [başlık] 1919  1919-02-05  Bolşevikler Kiev'i yeniden ele geçirdi
+           1919-12-16  Bolşevikler Kiev'i yeniden aldı
+    [başlık] 1919  1919-04-12  Kars'ın İngiliz işgali — Cenûb-ı Garbî Kafkas Hükûme
+           1919-04-12  Kars İngiliz işgaline uğradı; Cenûb-ı Garbî Kafkas H
+    [başlık] 1919  1919-09-10  Saint-Germain Antlaşması — Avusturya'nın küçülüşü hu
+           1920-07-16  Saint-Germain Antlaşması yürürlüğe girdi: Avusturya–
+    [kişi!misis,misis:,osmanl] 1919  1919-11-01  Misis: Osmanlı Devleti hâkimiyeti sona erdi (Fransız
+           1919-11-01  Misis: Osmanlı hâkimiyeti sona erdi — «XIX. yüzyılda
+    [kişi!guney,italya] 1920  1920-01-01  Saint-Germain Antlaşması yürürlüğe girdi — Güney Tir
+           1920-01-01  Güney Tirol'le birlikte eski Avusturya–İsviçre sınır
+    [başlık] 1920  1920-01-01  Saint-Germain Antlaşması yürürlüğe girdi — Güney Tir
+           1920-07-16  Saint-Germain Antlaşması yürürlüğe girdi: Avusturya–
+    [kişi!antlas,versay] 1920  1920-01-10  Versay Antlaşması yürürlüğe girdi — Alsas-Loren huku
+           1920-01-10  Versay Antlaşması ile Eupen-Malmedy ve Tarafsız More
+    [kişi!antlas,versay] 1920  1920-01-10  Versay Antlaşması yürürlüğe girdi — Alsas-Loren huku
+           1920-01-10  Versay Antlaşması yürürlüğe girdi: Almanya–Polonya s
+    [kişi!antlas,versay] 1920  1920-01-10  Versay Antlaşması yürürlüğe girdi — Alsas-Loren huku
+           1920-01-10  Versay Antlaşması: Almanya–Çekoslovakya sınırı ve Hl
+    [kişi!antlas,versay] 1920  1920-01-10  Versay Antlaşması ile Eupen-Malmedy ve Tarafsız More
+           1920-01-10  Versay Antlaşması yürürlüğe girdi: Almanya–Polonya s
+    [kişi!antlas,versay] 1920  1920-01-10  Versay Antlaşması ile Eupen-Malmedy ve Tarafsız More
+           1920-01-10  Versay Antlaşması: Almanya–Çekoslovakya sınırı ve Hl
+    [başlık] 1920  1920-01-10  Versay Antlaşması yürürlüğe girdi: Almanya–Polonya s
+           1920-01-10  Versay Antlaşması: Almanya–Çekoslovakya sınırı ve Hl
+    [başlık] 1920  1920-01-10  Versay Antlaşması yürürlüğe girdi: Almanya–Polonya s
+           1920-07-16  Saint-Germain Antlaşması yürürlüğe girdi: Avusturya–
+    [kişi!kemal,mustaf] 1920  1920-04-23  TBMM'nin açılışı ve Sevr
+           1920-04-23  Türkiye Büyük Millet Meclisi'nin açılışı
+    [başlık] 1920  1920-04-26  Hârizm Halk Cumhuriyeti ilan edildi
+           1920-04-26  Hârizm Halk Cumhuriyeti ilân edildi
+    [başlık] 1920  1920-04-26  Hârizm Halk Cumhuriyeti ilân edildi
+           1920-10-08  Buhara Halk Sovyet Cumhuriyeti ilan edildi
+    [kişi!filist] 1920  1920-07-01  Filistin'de İngiliz sivil manda idaresi kuruldu — Os
+           1920-07-01  Filistin'de sivil manda yönetimi — Refah (1906) hatt
+    [başlık] 1920  1920-07-16  Saint-Germain Antlaşması yürürlüğe girdi: Avusturya–
+           1920-07-16  Saint-Germain: Avusturya–SHS sınırı (Steiermark kesi
+    [başlık] 1920  1920-07-16  Saint-Germain Antlaşması yürürlüğe girdi: Avusturya–
+           1921-04-30  Riga Antlaşması yürürlüğe girdi: Polonya–Sovyet sını
+    [başlık] 1920  1920-07-16  Saint-Germain Antlaşması yürürlüğe girdi: Avusturya–
+           1921-07-26  Trianon Antlaşması yürürlüğe girdi: Macaristan–Çekos
+    [kişi!litvan,orta,vilniu] 1920  1920-10-12  Żeligowski Orta Litvanya'yı ilan etti — Vilnius Polo
+           1920-10-12  Żeligowski Vilnius'u aldı: Orta Litvanya Cumhuriyeti
+    [başlık] 1920  1920-11-15  Danzig Serbest Şehri Milletler Cemiyeti koruması alt
+           1920-11-15  Danzig Serbest Şehri kuruldu
+    [kişi!cemiye,millet] 1920  1920-12-17  Milletler Cemiyeti Konseyi Güneybatı Afrika'yı Güney
+           1920-12-17  Milletler Cemiyeti, eski Alman Yeni Ginesi'nin C-man
+    [başlık] 1920  1920-12-31  Tartu Barışı yürürlüğe girdi — Petsamo Finlandiya'ya
+           1920-12-31  Tartu Barışı (Finlandiya) yürürlüğe girdi: Petsamo F
+    [kişi!antlas,triano] 1921  1921-07-26  Trianon Antlaşması yürürlüğe girdi: Macaristan–Çekos
+           1921-07-26  Trianon Antlaşması: Burgenland Avusturya'ya
+    [kişi!antlas,triano] 1921  1921-07-26  Trianon Antlaşması: Burgenland Avusturya'ya
+           1921-07-26  Trianon Antlaşması: Macaristan–Romanya sınırı
+    [kişi!antlas,triano] 1921  1921-07-26  Trianon Antlaşması: Burgenland Avusturya'ya
+           1921-07-26  Trianon Antlaşması: Macaristan–SHS sınırı
+    [kişi!antlas,kars] 1921  1921-10-13  Kars Antlaşması
+           1921-10-13  Kars Antlaşması — doğu sınırının Kafkas cumhuriyetle
+    [kişi!kralli,misir] 1922  1922-03-15  Mısır Krallığı ilan edildi — Sultan Ahmed Fuâd kral 
+           1922-03-15  Mısır Krallığı ilân edildi — Sudan kondominyumunun M
+    [kişi!kralli,misir] 1922  1922-03-15  Mısır Krallığı ilan edildi — Sultan Ahmed Fuâd kral 
+           1922-03-15  Mısır Krallığı ilân edildi — Refah–Taba hattının Mıs
+    [başlık] 1922  1922-03-15  Mısır Krallığı ilân edildi — Sudan kondominyumunun M
+           1922-03-15  Mısır Krallığı ilân edildi — Refah–Taba hattının Mıs
+    [başlık] 1922  1922-03-24  Orta Litvanya Polonya'ya katıldı — Vilnius Polonya'n
+           1922-03-24  Orta Litvanya Polonya'ya katıldı: Vilnius Polonya'da
+    [başlık] 1922  1922-07-20  Milletler Cemiyeti Konseyi Kamerun'un Fransız/İngili
+           1922-07-20  Milletler Cemiyeti Konseyi Tanganyika'nın İngiliz B-
+    [kişi!b-mand,cemiye,konsey] 1922  1922-07-20  Milletler Cemiyeti Konseyi Kamerun'un Fransız/İngili
+           1922-07-20  Milletler Cemiyeti Konseyi Ruanda-Urundi'nin Belçika
+    [başlık] 1922  1922-07-20  Milletler Cemiyeti Konseyi Kamerun'un Fransız/İngili
+           1922-07-20  Milletler Cemiyeti Konseyi Togo'nun İngiliz ve Frans
+    [başlık] 1922  1922-07-20  Milletler Cemiyeti Konseyi Tanganyika'nın İngiliz B-
+           1922-07-20  Milletler Cemiyeti Konseyi Ruanda-Urundi'nin Belçika
+    [başlık] 1922  1922-07-20  Milletler Cemiyeti Konseyi Tanganyika'nın İngiliz B-
+           1922-07-20  Milletler Cemiyeti Konseyi Togo'nun İngiliz ve Frans
+    [kişi!b-mand,cemiye,konsey] 1922  1922-07-20  Milletler Cemiyeti Konseyi Ruanda-Urundi'nin Belçika
+           1922-07-20  Milletler Cemiyeti Konseyi Togo'nun İngiliz ve Frans
+    [başlık] 1923  1923-02-07  Büyükelçiler Konferansı Çekoslovakya–Romanya sınırın
+           1923-03-15  Büyükelçiler Konferansı Polonya'nın doğu sınırlarını
+    [kişi!buyuke,konfer,polony] 1923  1923-03-15  Büyükelçiler Konferansı Polonya'nın doğu sınırlarını
+           1923-03-15  Büyükelçiler Konferansı Vilnius'u Polonya'ya bıraktı
+    [kişi!antlas,lozan] 1923  1923-07-24  Lozan Antlaşması
+           1923-07-24  Lozan Antlaşması — Patmos İtalya'ya bırakıldı, Ege a
+    [kişi!antlas,lozan] 1923  1923-07-24  Lozan Antlaşması
+           1923-07-24  Lozan Antlaşması — Türk-Yunan sınırı Meriç ve Karaağ
+    [kişi!antlas,lozan] 1923  1923-07-24  Lozan Antlaşması
+           1923-07-24  Lozan Antlaşması — Türk-Bulgar sınırının teyidi
+    [kişi!cumhur] 1923  1923-10-29  Cumhuriyet'in ilanı
+           1923-10-29  Türkiye Cumhuriyeti ilân edildi: TBMM hükümeti Türki
+    [kişi!ahlat,meyyaf] 1923  1923-10-29  Ahlat, Meyyâfârikīn: türkiye büyük millet meclisi hü
+           1923-10-29  Ahlat, Harran, Kadıköy, Meyyâfârikīn, Sart, Sis: Cum
+    [kişi!cumhur,halk,harizm] 1924  1924-01-01  Hârizm SSC ve Buhara Halk Sovyet Cumhuriyeti'nin mil
+           1924-01-01  Hârizm Halk Cumhuriyeti'ne son verildi; topraklar Öz
+    [başlık] 1933  1933-11-12  Kaşgar'da Doğu Türkistan İslâm Cumhuriyeti ilan edil
+           1934-03-21  Doğu Türkistan İslâm Cumhuriyeti Kaşgar'dan çekildi:
+    [başlık] 1939  1939-09-19  Kızıl Ordu Vilnius'u işgal etti
+           1939-09-19  Sovyetler Vilnius'u işgal etti
+    [kişi!litvan,vilniu] 1939  1939-10-28  Litvanya Vilnius'u devraldı — Sovyet-Litvanya karşıl
+           1939-10-28  Vilnius Litvanya'ya devredildi: Litvanya birlikleri 
+    [başlık] 1941  1941-07-01  Romanya Çernovitz'i (Kuzey Bukovina) yeniden işgal e
+           1941-07-05  Romen ordusu Çernovitz'e girdi — Kuzey Bukovina yeni
+    [kişi!sovyet,çernov] 1944  1944-03-29  Kızıl Ordu Çernovitz'i geri aldı — Kuzey Bukovina ve
+           1944-03-29  Sovyet Ordusu Çernovitz'e ikinci kez girdi
+    [başlık] 1946  1946-04-01  Malaya Birliği kuruldu: Federe Malay Devletleri'nin 
+           1946-04-01  Malaya Birligi kuruldu; Federe olmayan Malay devletl
+    [başlık] 1946  1946-04-01  Malaya Birliği kuruldu: Federe Malay Devletleri'nin 
+           1946-04-01  Malaya Birligi kuruldu; Federe Malay Devletleri ile 
+    [kişi!borneo,koloni,kuzey] 1946  1946-07-15  Kuzey Borneo Şirketi yönetimi sona erdi: Sandakan, K
+           1946-07-15  Kuzey Borneo Taç Kolonisi kuruldu; Britanya Kuzey Bo
+    [kişi!maldiv] 1968  1968-11-11  Maldivler Cumhuriyeti Malé'yi Maldiv Sultanlığı'dan 
+           1968-11-11  Maldivler'de cumhuriyet yeniden ilân edildi: İbrâhim
+    [başlık] 1996  1996-08-14  Hırvat Herzeg-Bosna Cumhuriyeti Cenevre bildirgesiyl
+           1996-08-31  Herzeg-Bosna'nın HVO idaresi sona erdi; işlevleri Fe
+    → gerçekten ayrı olaylarsa denetle.py'deki BILINEN_AYRI kümesine ekle
+            i 145 çift ZAYIF ölçütte (aynı kişi + ±3 gün, AYRI gün) — İHLAL DEĞİL, yukarıdaki listeyle KARIŞTIRMA
+              [kişi:kralli] -0929-01-01  Süleyman'ın krallığı bölündü; Yeroboam I kuzeyde
+              -0929-01-01  Kudüs: Yahuda Krallığı dönemi başlar
+              [kişi:zhou] -0770-01-01  Kral You, Shen Marki ile Quanrong'un saldırısınd
+              -0770-01-01  Zhou Kralı Ping Qin Xiang Gong'u lord yaptı ve Q
+              [kişi:asur] -0716-01-01  II. Sargon Karkemiş'i aldı; Pisiris'in krallığı 
+              -0716-01-01  Cerablus, Karkamış: Yeni Asur Imparatorlugu döne
+              [kişi:asur] -0663-01-01  XXVI. Hanedan başladı: I. Psamtik Sais'te Asur v
+              -0663-01-01  Tantamani Kush'tan inip Teb ve Memphis'i yeniden
+              [kişi:assur] -0613-01-01  Kyaksares ile Nabopolassar Aşşur önünde ittifak 
+              -0613-01-01  Aşşur (Eski Asur dönemi belge başlangıcı ve MÖ 6
+              [kişi:kyros] -0546-01-01  Kroisos Halys'i aştı, Pteria'yı aldı; Kyros ile 
+              -0546-01-01  Sardes — Pers'in ele geçirmesi: Pers kralı Kyros
+              [kişi:impara,pers] -0545-01-01  Pasargad: Ahamenis (Pers) Imparatorlugu dönemi b
+              -0545-01-01  Kyros Lidya'yı yendi; Anadolu Pers İmparatorluğu
+              [kişi:savasi] -0545-01-01  Pallene Savaşı: Peisistratos Atina'da kalıcı tir
+              -0545-01-01  Thyrea (Champions) Savaşı: Sparta Argos'u yendi,
+              [kişi:philip] -0337-01-01  Korint Birliği kuruldu: Yunan kentleri II. Phili
+              -0337-01-01  Khaironeia: Philippos Atina ve Teb ordusunu yene
+              [kişi:birlig] -0337-01-01  Korint Birliği kuruldu: Yunan kentleri II. Phili
+              -0337-01-01  Latin Birliği dağıtıldı: Latium Roma'ya bağlandı
+              [kişi:iskend] -0333-01-01  Batı Anadolu kıyısı İskender'e geçti: Efes, Mile
+              -0333-01-01  Granikos Savaşı: İskender Pers satraplarını yend
+              [kişi:iskend] -0331-01-01  İskender Mısır'a girdi; Pers satrapı Mazakes tes
+              -0331-01-01  Sur kuşatması: İskender, adadaki kenti dolgu yol
+              [kişi:iskend] -0331-01-01  İskender Mısır'a girdi; Pers satrapı Mazakes tes
+              -0331-01-01  Iskenderiye'nin kurulusu: İskenderiye kurulur (g
+              [kişi:iskend] -0331-01-01  Sur kuşatması: İskender, adadaki kenti dolgu yol
+              -0331-01-01  Iskenderiye'nin kurulusu: İskenderiye kurulur (g
+              [kişi:babil,iskend] -0330-10-22  İskender Babil'e girdi; Mazaios şehri teslim ett
+              -0330-10-22  Babil, Uruk: Ahamenis (Pers) Imparatorlugu → Buy
+              [kişi:persep] -0329-01-01  İskender Persepolis'e ulaştı; şehir ve hazine Ma
+              -0329-01-01  Persepolis saraylarının yakılması (Nisan)
+              [kişi:ahamen,impara] -0329-01-01  Ahameniş İmparatorluğu / Kyros II'nin Persis kra
+              -0329-01-01  Ekbatana, Hemedan: Ahamenis (Pers) Imparatorlugu
+              [kişi:iskend] -0325-01-01  Hydaspes: Poros yenildi; Pencap İskender'e bağla
+              -0325-01-01  Hyphasis (Beas) kıyısında ordu ilerlemeyi reddet
+              [kişi:iskend] -0325-01-01  Hydaspes: Poros yenildi; Pencap İskender'e bağla
+              -0325-01-01  Nanda hanedanı (Magadha): Dhana-Nanda Magadha'da
+              [kişi:iskend] -0325-01-01  Hyphasis (Beas) kıyısında ordu ilerlemeyi reddet
+              -0325-01-01  Nanda hanedanı (Magadha): Dhana-Nanda Magadha'da
+              [kişi:seleuk] -0311-01-01  Gazze Muharebesi: Ptolemaios ve Seleukos Demetri
+              -0311-01-01  Ekbatana, Hemedan: Seleukos Nikator hâkimiyeti b
+              [kişi:seleuk] -0311-01-01  Ekbatana, Hemedan: Seleukos Nikator hâkimiyeti b
+              -0311-01-01  Seleukos I Babil’i alıp Selevkos Çağı’nın temeli
+              [kişi:selevk] -0304-01-01  Selevkos I Dicle üzerinde Seleukeia'yı kurdu
+              -0304-01-01  Selevkos I Hindistan'da Çandragupta Maurya ile a
+              [kişi:lysima] -0300-01-01  Lysimakhos hazinesini Bergama'ya koydu; Philetai
+              -0300-01-01  İpsos Savaşı: Selevkos ve Lysimakhos Antigonos'u
+              [kişi:ipsos,suriye] -0300-01-01  Ipsos sonrası Ptolemaios Koile-Suriye'yi işgal e
+              -0300-01-01  İpsos Savaşı: Selevkos ve Lysimakhos Antigonos'u
+              [kişi:roma] -0217-01-01  Roma ordusu Hispania'ya çıktı: Emporion'da ilk R
+              -0217-01-01  Cremona: Roma kolonisi/municipium olarak Roma çe
+              [kişi:roma] -0196-01-01  Kynoskephalai: Roma V. Philippos'u yendi; Makedo
+              -0196-01-01  Hispania'da iki Roma eyaleti kuruldu: Citerior v
+              [kişi:roma'n] -0188-01-01  Manlius Vulso Galat boylarını yendi: Galatların 
+              -0188-01-01  Aitolia Roma ile barış yaptı: Ambrakia ve Oiniad
+              [kişi:roma] -0188-01-01  Aitolia Roma ile barış yaptı: Ambrakia ve Oiniad
+              -0188-01-01  Bolonya: Roma kolonisi/municipium olarak Roma çe
+              [kişi:apamei] -0187-01-01  Apameia Barışı: Eumenes II Bergama'ya Trakya Khe
+              -0187-01-01  Apameia Antlaşması: Selevkos Toros Dağları’nın b
+              [kişi:apamei] -0187-01-01  Apameia Barışı: Rodos Likya ve Karia'nın güneyin
+              -0187-01-01  Apameia Antlaşması: Selevkos Toros Dağları’nın b
+              [kişi:roma] -0167-01-01  «Eleusis Günü»: Roma elçisi Popilius Laenas IV. 
+              -0167-01-01  Selanik Roma hâkimiyetine girdi
+              [kişi:roma] -0166-01-01  Roma Rodos'a Likya ve Karya'dan valilerini çekme
+              -0166-01-01  Makedonya Roma tarafından dört özerk bölgeye (me
+              [kişi:makedo] -0147-01-01  Andriskos isyanı: Makedonya krallığı kısa süre y
+              -0147-01-01  Makedonya eyaleti: Serez, Kavala, Manastır, Ohri
+              [kişi:savasi] -0145-01-01  Akhaia Savaşı: Akhaia Birliği Roma'ya yenildi, b
+              -0145-01-01  Üçüncü Pön Savaşı sona erdi: Kartaca yıkıldı, Af
+              [kişi:pompei] -0062-01-01  Pompeius Bithynia ile Pontus'un batısını birleşt
+              -0062-01-01  Pompeius Kudüs’ü işgal etti: şehir Roma hâkimiye
+              [kişi:africa,nova] -0045-01-01  Thapsus: Caesar Juba I'i yendi; Doğu Numidia Afr
+              -0045-01-01  Numidya Africa Nova olarak Roma hâkimiyetine gir
+              [kişi:antoni] -0035-01-01  Antonius Archelaos'u Kappadokia kralı yaptı
+              -0035-01-01  Antonius Kleopatra'ya Kıbrıs, Fenike, Koile-Suri
+              [kişi:roma] 0009-01-01  Teutoburg Ormanı: Varus'un üç lejyonu yok edildi
+              0009-01-01  Pannonia ayrı bir Roma eyaleti olarak örgütlendi
+              [kişi:roma] 0009-01-01  Teutoburg Ormanı: Varus'un üç lejyonu yok edildi
+              0009-01-01  Pannonia: Pannonia–Dalmatia isyanı bastırıldı, P
+              [kişi:part] 0224-04-28  Hürmüzgân Savaşı: Erdeşîr Part hükümdarı V. Erde
+              0224-04-28  Babil, Dura-Europos, Ekbatana, Hemedan, Ktesipho
+              [kişi:theodo] 0395-01-17  I. Theodosius öldü; imparatorluk kalıcı olarak i
+              0395-01-17  Ren sınırı (Germania Inferior/Superior): Theodos
+              [kişi:chen,jianka] 0557-11-16  Hanedan/rejim değişimi — Nanjing (Jiankang), Fuz
+              0557-11-16  Chen Baxian tahta çıktı: Jiankang Chen'in başken
+              [kişi:langob] 0572-01-01  Cisalpina ve Venetia: Lombard (Langobard) Krallı
+              0572-01-01  Pavia üç yıllık kuşatmadan sonra Alboin'e açıldı
+              [kişi:goktur] 0630-01-01  Doğu Göktürk Devleti Çinliler tarafından ortadan
+              0630-01-01  Tohâristan yabgusu Tardu Hiuen-Tsang'ı ağırladı:
+              [kişi:angkor,jayava] 0802-01-01  II. Jayavarman Kulen tepesinde (Mahendraparvata)
+              0802-01-01  Angkor (Siem Reap): Chenla künyesi sonu; Jayavar
+              [kişi:messin] 0843-01-01  Messina fethedildi; Sicilya-İtalya arasındaki Me
+              0843-01-01  Messina teslim oldu.
+              [kişi:chang',chao,huang] 0883-05-18  Li Keyong'un ordusu Chang'an'a girdi; Huang Chao
+              0883-05-20  Hâkimiyet değişimi — Chang'an (Xi'an): Büyük Qi 
+              [kişi:astrah] 0965-01-01  Hazar hakanı Hârizmliler'e sığındı: Astrahan yör
+              0965-01-01  Astrahan: İtil’in 965’te düşmesiyle İdil ağzında
+              [kişi:công] 1009-01-01  Lý Công Uẩn Lê hanedanının ardından tahta çıktı;
+              1009-01-01  Hanoi (Thăng Long): Lý Công Uẩn Lê Đĩnh'in ölümü
+              [kişi:ahmed] 1019-01-01  Ahmed b. Hasan Arslan İlig Muhammed'in başşehri 
+              1019-01-01  Cafer'in ardından Ahmed el-Kelbî Sicilya emiri o
+              [kişi:cenevr] 1032-01-01  Burgonya (Arles) Krallığı'nın son kralı III. Rud
+              1032-01-01  Cenevre: almanya (kutsal roma 962-1806) hâkimiye
+              [kişi:airlan] 1037-01-01  Airlangga düşmanlarını yenip Doğu Cava'nın tahtı
+              1037-01-01  Malang: Airlangga fethi tamamladı, doğuda Kahuri
+              [kişi:isfaha] 1051-05-15  Ferâmurz bir yıllık kuşatmadan sonra İsfahan'ı S
+              1051-05-15  Tuğrul Bey İsfahan'ı ülkesine kattı
+              [kişi:ibrahi] 1059-02-17  İbrâhim b. Muhammed Yinal Tegin tarafından öldür
+              1059-02-17  Gazneli İbrâhim ile Çağrı Bey arasında barış ant
+              [kişi:messin] 1061-01-01  Kont Roger Messina'yı ele geçirdi (1061)
+              1061-01-01  Messina: I. Ruggero şehri ağabeyi Robert Guiscar
+              [kişi:merake] 1062-01-14  Murâbıtlar Merakeş şehrini kurdu
+              1062-01-15  Ebû Bekir b. Ömer Merakeş şehrinin inşasına başl
+              [kişi:alpars,ani'yi] 1064-01-01  Sultan Alparslan Ani'yi fethetti ve şehrin idare
+              1064-01-01  Alparslan Bizans'a tâbi Arpaçayı kıyısındaki Ani
+              [kişi:alpars] 1064-01-01  Alparslan Bizans'a tâbi Arpaçayı kıyısındaki Ani
+              1064-01-01  Alparslan Nahcıvan şahlığına son verdi
+              [kişi:meliks] 1092-01-01  Melikşah'ın ölümünü öğrenen Tutuş sultanlığını i
+              1092-01-01  Sultan Melikşah'ın ölümü üzerine Mekke'de hutbe 
+              [kişi:nizari] 1094-12-29  Müstansır-Billâh öldü; vezir Efdal Müsta'lî'yi h
+              1095-01-01  Nizâr İskenderiye hapsinde öldürülür (488/1095);
+              [kişi:tutus'] 1095-02-26  Berkyaruk Rey civarındaki savaşta amcası Suriye 
+              1095-02-26  Tutuş'un ölümüyle devlet ikiye ayrıldı: oğlu Rıd
+              [kişi:floran] 1115-01-01  Kontes Matilda'nın ölümünden sonra Floransa komü
+              1115-01-01  Floransa: floransa cumhuriyeti hâkimiyeti başlad
+              [kişi:tilims] 1145-06-23  Muvahhidler Tilimsân'ı aldı
+              1145-06-24  Abdülmü'min Tilimsân'ın surlarını yıktı
+              [kişi:afonso,henriq,lizbon] 1147-10-24  Afonso Henriques Lizbon'u (Üşbûne) aldı; şehir y
+              1147-10-25  Portekiz Kralı Afonso Henriques Lizbon'u haçlıla
+              [kişi:aksara] 1170-09-14  II. Kılıcarslan Aksaray'ı yeniden inşa ettirip D
+              1170-09-14  Aksaray: anadolu (türkiye) selçuklu devleti hâki
+              [kişi:miryok] 1176-09-17  Miryokefalon Savaşı: II. Kılıcarslan Manuel Komn
+              1176-09-17  Miryokefalon sonrası Bizans Dorylaion'u boşalttı
+              [kişi:eyyubi,halep',selaha] 1183-06-11  İmâdüddin Zengî Halep'i başka şehirler karşılığı
+              1183-06-12  Selâhaddîn-i Eyyûbî Halep'i aldı; Zengîler'in Ha
+              [kişi:kamaku] 1185-01-01  Genpei Savaşı'nın 1185'te Minamoto zaferiyle bit
+              1185-01-01  Kamakura: japonya — heian dönemi imparatorluk sa
+              [kişi:hittin,selaha] 1187-07-04  Selâhaddin Hıttîn'de Haçlı ordusunu yok etti (sa
+              1187-07-05  Hıttîn'in ardından Selâhaddin Taberiye'yi (Tiber
+              [kişi:akka,hacli,seferi] 1191-07-11  Akkâ garnizonu şehri Haçlılar'a teslim etti (III
+              1191-07-12  Akka, Üçüncü Haçlı Seferi kuvvetlerinin eline ge
+              [kişi:harizm] 1194-01-01  Tekiş Rey yakınında II. Tuğrul'u yenip öldürdü; 
+              1194-01-01  Hemedan Hârizmşahlar'ın hâkimiyetine girdi
+              [kişi:mogol] 1218-01-01  Otrar'da 450 kişilik Moğol kervanı öldürüldü; Al
+              1218-01-01  Cebe Noyan Küçlüğ'ün Karahıtay topraklarını aldı
+              [kişi:gurgen] 1221-01-01  Moğollar Hârizm'in başkenti Gürgenç'i (Ürgenç) z
+              1221-01-01  Gürgenç kuşatmayı birkaç ay savundu ve düştü; şe
+              [kişi:izmit] 1228-01-01  İzmit yeniden Bizans (İznik İmparatorluğu) hâkim
+              1228-01-01  İzmit: latin istanbul imparatorluğu → iznik (las
+              [kişi:keykav] 1246-01-01  Devlet adamları Uluborlu meliki İzzeddin Keykâvu
+              1246-01-01  II. Keyhusrev öldü; oğlu II. Keykâvus tahta çıka
+              [kişi:birman] 1287-01-01  Moğollar Pagan'ı ele geçirdi; Birman krallığı ge
+              1287-01-01  Wareru Aşağı Birmanya'da Mon bağımsızlığını yeni
+              [kişi:memluk] 1291-07-14  Memlükler Sûr'u aldı; Haçlı kıyı devleti (Kudüs 
+              1291-07-14  Sûr (Tyre) Memlüklere teslim oldu — Haçlıların S
+              [kişi:kralli] 1300-01-01  Teke(Tio) halkına ait küçük siyasi birimler 14.y
+              1300-01-01  Kintu hanedanı Buganda Krallığı'nı kurdu
+              [kişi:delhi,sultan] 1318-01-01  Mübârek Şah Halacî Devâgirî'yi ve Marata ülkesin
+              1318-01-01  Delhi Sultanlığı Kalyani'yi Yadava Hanedanı'dan 
+              [kişi:iznik',orhan] 1331-03-02  İznik'in fethi
+              1331-03-03  İznik'te ilk Osmanlı medresesinin kurulması
+              [kişi:hoysal] 1343-01-01  III. Ballala Ma'bar sultanınca öldürüldü, Hoysal
+              1343-01-01  Hoysala Hanedanı egemenliği sona erdi; yerin sah
+              [kişi:murad] 1362-03  I. Murad tahta çıktı
+              1362-03-01  Orhan Gazi'nin vefatı — beylikten devlete geçen 
+              [kişi:brunei,sultan] 1405-01-01  Awang Alak Betatar Müslüman olup Brunei Sultanlı
+              1405-01-01  Muhammed Şah Brunei Sultanlığı'nı başlattı: Brun
+              [kişi:fatih,mehmed] 1453-05-29  İstanbul'un Fethi
+              1453-06-01  Fatih Sultan Mehmed'in Okmeydanı'nı okçulara tah
+              [kişi:bartol,dias] 1488-02-03  Dias Afrika'nın güney ucunu dönmüş olarak Mossel
+              1488-02-03  Mürettebat ilerlemeyi reddediyor; Dias geri dönü
+              [kişi:halep,selim,yavuz] 1516-08-28  Halep, Rakka ve Deyrizor'un Osmanlı hâkimiyetine
+              1516-08-29  Halep Gökmeydan'da Abbâsî Halifesi III. Mütevekk
+              [kişi:selim,tomanb,yavuz] 1517-01-22  Ridaniye — Mısır'ın fethi ve hilâfet
+              1517-01-24  Osmanlı birliklerinin Kahire'ye ilk girişi
+              [kişi:kahire,selim,tomanb] 1517-01-24  Osmanlı birliklerinin Kahire'ye ilk girişi
+              1517-01-27  Tomanbay'ın Kahire baskını ve üç gün süren sokak
+              [kişi:kahire,muteve,selim] 1517-09-10  Yavuz Sultan Selim'in Kahire'den ayrılışı ve Hay
+              1517-09-11  Kahire Abbâsî hilâfetinin sona ermesi — 'devir t
+              [kişi:sultan] 1527-01-01  Demak Sultanlığı'nın Majapahit'i yıkıp Cava kıyı
+              1527-01-01  Behmenî Sultanlığı sona erdi, Dekken beş sultanl
+              [kişi:kanuni] 1534-01-01  Matrakçı Nasuh'un Irakeyn seferi güzergâhını Bey
+              1534-01-01  Kanunî – Hürrem Sultan nikâhı
+              [kişi:ibrahi,makbul] 1534-06-01  Kars çevresinin bütünleşmesi: Şüregel, Arpaçay v
+              1534-06-01  Kars'ın alınması ve kuzeydoğu sınırının açılması
+              [kişi:murad] 1578-01-02  III. Murad'ın Hünernâme'nin yazılması için ferma
+              1578-01-02  İran seferine karar — Tahmasb'ın ölümüyle sarsıl
+              [kişi:ahmed] 1603-12-20  III. Mehmed'in vefatı ve I. Ahmed'in cülûsu
+              1603-12-23  Kardeş katli geleneğinin fiilen sona ermesi
+              [kişi:halha] 1691-05-29  Dolon Nor toplantısı: Halha hanları Kangxi'ye ba
+              1691-05-30  Qing Halha yedi hoşununu 49 Moğol bayrağıyla ayn
+              [kişi:suleym] 1691-06-22  II. Süleyman'ın vefatı
+              1691-06-23  II. Ahmed'in tahta çıkışı
+              [kişi:baltac,mehmed] 1711-07-19  Prut Zaferi
+              1711-07-21  Baltacı Mehmed Paşa ve Çariçe Katerina rivayeti
+              [kişi:baltac,mehmed,petro] 1711-07-19  Prut Zaferi
+              1711-07-21  Prut Antlaşması — Azak ve Taygan'ın geri alınmas
+              [kişi:mehmed,yirmis,çelebi] 1720-10-07  Yirmisekiz Çelebi Mehmed Efendi Fransa elçisi ol
+              1720-10-08  Paris'e büyükelçi: Yirmisekiz Mehmed Çelebi
+              [kişi:savasi] 1788-01-01  Rus Ukrayna ordusunun Mogilev'de Dinyester'i geç
+              1788-01-01  Drežnik'in Avusturya'ca zaptı — Dubica Savaşı'nı
+              [kişi:abdulh] 1789-04-07  I. Abdülhamid Özi'nin düşüş haberini okurken fel
+              1789-04-07  III. Selim tahta çıktı
+              [kişi:coburg,mutare,prens] 1790-09-19  Yergöğü Mütarekesi — Avusturya cephesinde silahl
+              1790-09-21  Yergöğü Mütarekesi'nin Coburg tarafından imzalan
+              [kişi:ahmed,prens,repnin] 1791-08-08  Kalas'ta Vâsıf Efendi ile Prens Repnin arasında 
+              1791-08-11  Kalas (Galaç) Mütarekesi — Rusya ile sekiz aylık
+              [kişi:pasa'n,selim] 1792-05-03  Koca Yûsuf Paşa'nın azli ve Trabzon valiliğine t
+              1792-05-04  Melek Mehmed Paşa'nın sadârete tayini — ıslahat 
+              [kişi:mustaf] 1807-05-29  III. Selim tahttan indirildi
+              1807-05-29  IV. Mustafa tahta çıktı
+              [kişi:aleksa,bonapa,napoly] 1807-07-07  Tilsit — Yedi Ada Cumhuriyeti'nin üzerindeki Rus
+              1807-07-09  Tilsit Antlaşması — Prusya topraklarının yarısın
+              [kişi:mustaf] 1808-07-28  III. Selim öldürüldü
+              1808-07-28  II. Mahmud tahta çıktı
+              [kişi:alemda,mustaf] 1808-11-16  Alemdar Mustafa Paşa'nın ölümü
+              1808-11-17  IV. Mustafa'nın boğularak öldürülmesi
+              [kişi:cochra] 1820-01-01  Tobolsk – İşim – Omsk – Semipalatinsk – Ust-Kame
+              1820-01-01  İrkutsk – Kirensk (Kirenga) – Vitim – Olekminsk 
+              [kişi:mahmud] 1826-06-15  Vak'a-i Hayriyye — Yeniçeri Ocağı kaldırıldı
+              1826-06-18  Asâkir-i Mansûre-i Muhammediyye kuruldu
+              [kişi:mahmud] 1826-06-18  Asâkir-i Mansûre-i Muhammediyye kuruldu
+              1826-06-19  Bektaşî tarikatı kapatıldı
+              [kişi:mahmud] 1839-06-28  II. Mahmud'un ölümü
+              1839-07-01  Abdülmecid'in cülûsu ve II. Mahmud'un cenazesi
+              [kişi:abdulh,midhat] 1876-12-23  Kanûn-ı Esâsî — I. Meşrutiyet
+              1876-12-23  Tersane Konferansı: büyük devletlerin Balkan ref
+              [kişi:hareke,huseyi,husnu] 1909-04-24  Hareket Ordusu'nun İstanbul'a girişi
+              1909-04-27  Hareket Ordusu ve II. Abdülhamid'in hal'i: V. Me
+              [kişi:ordusu] 1912-10-22  Priştine'nin Sırp ordusunun eline geçmesi
+              1912-10-23  Şark Ordusu'nun bozgunu ve Çatalca hattına çekil
+              [kişi:kielce] 1914-08-12  Piłsudski'nin strzelcy birlikleri Kielce'ye gird
+              1914-08-13  Ruslar Kielce'yi geri aldı
+              [kişi:amiral,enver,soucho] 1914-10-29  Karadeniz Baskını: Osmanlı donanmasının Rus lima
+              1914-11-01  I. Dünya Savaşı'na giriş
+              [kişi:misir'] 1914-12-18  Mısır'ın İngiliz himayesine alınarak sultanlık i
+              1914-12-18  İngiltere Mısır'da Osmanlı hükümranlığını kaldır
+              [kişi:osmanl,remle:] 1917-01-01  Remle: Osmanlı Devleti → ingiltere / büyük brita
+              1917-01-01  Remle: Osmanlı hâkimiyeti sona erdi — «Yavuz Sul
+              [kişi:habsbu] 1918-10-28  Çekoslovakya'nın bağımsızlık ilânı — Habsburg mi
+              1918-10-29  Sloven-Hırvat-Sırp Devleti'nin ilânı — Hırvat Sa
+              [kişi:habsbu] 1918-10-28  Çekoslovakya'nın bağımsızlık ilânı — Habsburg mi
+              1918-10-30  Avusturya Cumhuriyeti'nin kuruluşu — Habsburg mi
+              [kişi:habsbu] 1918-10-29  Sloven-Hırvat-Sırp Devleti'nin ilânı — Hırvat Sa
+              1918-10-30  Avusturya Cumhuriyeti'nin kuruluşu — Habsburg mi
+              [kişi:italya] 1918-11-03  Villa Giusti Ateşkesi — Güney Tirol'ün Brenner'e
+              1918-11-05  Pula İtalyan işgaline geçti — Avusturya-Macarist
+              [kişi:avustu,impara,karl] 1918-11-11  İmparator I. Karl devlet işlerine katılmaktan va
+              1918-11-12  Avusturya Cumhuriyeti'nin ilânı — Habsburg monar
+              [kişi:károly,macari,mihály] 1918-11-13  Karl'ın Eckartsau bildirisi: Macaristan devlet i
+              1918-11-16  Macar Millî Konseyi Macaristan Halk Cumhuriyeti'
+              [kişi:macari] 1918-11-13  Karl'ın Eckartsau bildirisi: Macaristan devlet i
+              1918-11-16  Macaristan Halk Cumhuriyeti ilan edildi: Büyük U
+              [kişi:kralli] 1918-12-01  Sırp-Hırvat-Sloven Krallığı ile Büyük Romanya'nı
+              1918-12-01  Danimarka-İzlanda Birlik Yasası yürürlüğe girdi:
+              [kişi:çekosl] 1918-12-29  Çekoslovak birlikleri Košice'yi (Kassa) aldı
+              1919-01-01  Çekoslovakya Alman Bohemyası ve Güney Moravya'yı
+              [kişi:vilniu] 1919-04-19  Piłsudski'nin ordusu Bolşevikleri Vilnius'tan çı
+              1919-04-21  Polonya kuvvetleri Vilnius'u (Wilno) Sovyetlerde
+              [kişi:antlas] 1919-06-28  Versailles Antlaşması — Alsas-Loren'in Fransa'ya
+              1919-06-28  Versay Antlaşması (md. 119): Almanya denizaşırı 
+              [kişi:galicy] 1919-08-27  Romanya Pokutya'yı boşalttı: Polonya ile temas e
+              1919-08-30  UNR ve Galiçya birlikleri Bolşevikleri Kiev'den 
+              [kişi:antlas] 1920-01-01  Saint-Germain Antlaşması yürürlüğe girdi — Güney
+              1920-01-01  Neuilly Antlaşması'nın Bulgaristan–SHS sınırı: Ç
+              [kişi:almany] 1920-01-10  Versay Antlaşması yürürlüğe girdi: Almanya–Polon
+              1920-01-10  Danzig Müttefik emanetine geçti: Almanya şehirde
+              [kişi:almany] 1920-01-10  Versay Antlaşması yürürlüğe girdi: Almanya–Polon
+              1920-01-10  Memel Müttefik emanetine geçti: Almanya bölgeden
+              [kişi:almany] 1920-01-10  Danzig Müttefik emanetine geçti: Almanya şehirde
+              1920-01-10  Versay Antlaşması: Almanya–Çekoslovakya sınırı v
+              [kişi:almany] 1920-01-10  Versay Antlaşması: Almanya–Çekoslovakya sınırı v
+              1920-01-10  Memel Müttefik emanetine geçti: Almanya bölgeden
+              [kişi:cumhur] 1920-04-26  Hârizm Halk Cumhuriyeti ilan edildi
+              1920-04-27  Kızıl Ordu Azerbaycan'ı işgal etti — Demokratik 
+              [kişi:triano] 1920-06-04  Trianon Antlaşması — Macaristan toprağının üçte 
+              1920-06-04  Banat bölüşüldü, Temeşvar Romanya'ya bırakıldı (
+              [kişi:faysal,fransi,suriye] 1920-07-24  Han Meyselûn — Faysal dönemi bitti, Suriye Frans
+              1920-07-25  Fransızlar Şam'a girerek Faysal yönetimine son v
+              [kişi:serbes] 1920-11-12  Rapallo Antlaşması — İtalya ile SHS Krallığı ara
+              1920-11-15  Danzig Serbest Şehri Milletler Cemiyeti koruması
+              [kişi:serbes] 1920-11-12  Rapallo Antlaşması — İtalya ile SHS Krallığı ara
+              1920-11-15  Danzig Serbest Şehri kuruldu
+              [kişi:kemal,mustaf] 1922-08-26  Büyük Taarruz başladı
+              1922-08-27  Afyon'un kurtuluşu
+              [kişi:alman,anschl,avustu] 1938-03-12  Alman birlikleri Avusturya'ya girdi — Anschluss 
+              1938-03-13  Avusturya Anschluss ile Alman Reich'ına katıldı 
+              [kişi:federa,rusya,sscb] 1991-12-25  Gorbaçov SSCB Devlet Başkanlığı'ndan istifa etti
+              1991-12-26  SSCB Yüksek Sovyeti Cumhuriyetler Konseyi 142-N 
+            i 63 çift ÖNEK ölçütünde (ortak kök var ama 6-harf kırpma öldürüyor) — ihlal DEĞİL, gözden geçirme
+              0.600  1962-10-01  BM Geçici İdaresi (UNTEA) Batı Yeni Gine'de 
+                     1963-05-01  UNTEA Batı Yeni Gine idaresini Endonezya'ya 
+              0.600  1102-01-01  Murâbıtlar Belensiye'yi zaptetti
+                     1102-05-05  Belensiye (Valensiya) Murâbıtlar tarafından 
+              0.545  1919-06-28  Versailles Antlaşması — Alsas-Loren'in Frans
+                     1920-01-10  Versay Antlaşması yürürlüğe girdi — Alsas-Lo
+              0.500  1846-11-11  Krakov Serbest Şehri kaldırıldı, Avusturya'y
+                     1846-11-11  Avusturya Kraków Serbest Şehri'ni ilhak etti
+              0.500  1723-09-23  Petersburg Antlaşması — Tahmasb'ın elçisi Ha
+                     1723-09-23  Petersburg Antlaşması: Derbend, Bakü ve Haza
+              0.500  1553-12-01  Kaptan-ı derya Pîrî Reis idam edildi
+                     1554-01-01  Pîrî Reis'in idamı
+              0.500  1099-07-15  Haçlılar Kudüs'ü Fâtımîlerden aldı; Kudüs Kr
+                     1099-07-15  Remle: fâtımî devleti → kudüs haçlı krallığı
+              0.500  1099-07-15  Haçlılar Kudüs'ü Fâtımîlerden aldı; Kudüs Kr
+                     1099-07-15  Nablus: fâtımî devleti → kudüs haçlı krallığ
+              0.500  -0769-01-01 Doğu Zhou'nun başlangıcı (Ping Kralı'nın doğ
+                     -0769-01-01 Zhou Kralı Ping başkenti Luoyi'ye (Luoyang) 
+              0.455  1922-07-20  Milletler Cemiyeti Konseyi Ruanda-Urundi'nin
+                     1922-07-20  Milletler Cemiyeti Konseyi Togo'nun İngiliz 
+              0.455  1922-07-20  Milletler Cemiyeti Konseyi Kamerun'un Fransı
+                     1922-07-20  Milletler Cemiyeti Konseyi Ruanda-Urundi'nin
+              0.455  1881-03-26  Romanya Krallığı ilan edildi — Prenslik Kral
+                     1882-03-06  Sırbistan Krallığı'nın ilânı — eski Osmanlı 
+              0.444  1645-01-01  Evliya Çelebi Girit seferine katıldı, Hanya'
+                     1645-08-22  Girit seferinin başlaması ve Hanya'nın fethi
+              0.444  1516-01-01  Remle, Şeyzer: memlûk sultanlığı → Osmanlı D
+                     1516-08-24  Misis, Sis: memlûk sultanlığı → Osmanlı Devl
+              0.444  1021-01-01  Âmirîler hânedanı merkezi Belensiye olmak üz
+                     1021-01-01  Belensiye merkezli Âmirî tâife emirliği kuru
+              0.444  0486-01-01  Gallia Lugdunensis: Siagrius'un yenilişinden
+                     0486-01-01  Siagrius Soissons’ta Clovis’in Franklarına y
+              0.444  0486-01-01  Gallia Belgica: Siagrius'un yenilişinden son
+                     0486-01-01  Siagrius Soissons’ta Clovis’in Franklarına y
+              0.429  1945-01-19  Kızıl Ordu Łódź'u kurtardı
+                     1945-04-30  Kızıl Ordu Ostrava'yı aldı — Çek Silezyası'n
+              0.429  1944-07-27  Daugavpils Kızıl Ordu'ca kurtarıldı
+                     1945-04-30  Kızıl Ordu Ostrava'yı aldı — Çek Silezyası'n
+              0.429  1941-06-23  Almanya Grodno'yu isgal etti
+                     1941-09-19  Almanlar Kiev'i işgal etti (Reichskommissari
+              0.429  1918-12-01  Sırp-Hırvat-Sloven Krallığı ile Büyük Romany
+                     1918-12-01  Sırp-Hırvat-Sloven Krallığı kuruldu — Yunani
+              0.429  1798-07-21  Piramitler Muharebesi ve Kahire'nin Fransızl
+                     1798-10-23  Preveze'nin Fransızlardan alınışı — Nikopoli
+              0.429  1516-08-28  Halep, Rakka ve Deyrizor'un Osmanlı hâkimiye
+                     1516-09-27  Şam'ın (Dımaşk) Osmanlı hâkimiyetine girişi
+              0.429  1147-10-24  Afonso Henriques Lizbon'u (Üşbûne) aldı; şeh
+                     1147-10-25  Portekiz Kralı Afonso Henriques Lizbon'u haç
+              0.429  0902-01-01  Sicilia: Taormina düştü (902), ağlebî
+                     0902-08-01  Taormina düştü: Bizans’ın Sicilya’daki son k
+              0.429  -2050-01-01 Birinci Ara Dönem: sona erer
+                     -2049-01-01 Liangzhu: sahip dönemi sona erer — Liangzhu 
+              0.417  1204-01-01  Mikael Angelos Epiros Despotluğu’nu kurdu; Y
+                     1204-04-13  Epir Despotluğu kuruldu — Yanya merkez oldu,
+              0.400  1944-07-01  Sovyet ordusu Almanları Białystok'tan çıkard
+                     1945-04-04  Sovyet ordusu Macaristan'ı Alman denetiminde
+              0.400  1917-05-01  Muş Rus işgalinden kesin olarak kurtarıldı
+                     1918-02-24  Trabzon'un Rus işgalinden kurtuluşu
+              0.400  1815-06-09  Viyana Nihai Senedi: Hasselt, Sint-Truiden, 
+                     1815-06-09  Viyana Nihai Senedi: Lüksemburg Büyük Dükalı
+              0.400  1059-01-01  Besâsîrî Bağdat'ı ele geçirip hutbeyi Fâtımî
+                     1060-01-08  Tuğrul Bey halifeyi Bağdat'a geri getirdi; F
+              0.400  -0315-01-01 Kassandros Thebai'yi yeniden kurdurdu
+                     -0314-01-01 Kassandros Selanik'i kurdu
+              0.400  -0249-01-01 Baktriya satrapı Diodotos Selevkos’tan ayrıl
+                     -0249-01-01 Bactria valisi Diodotus Seleukos yönetiminde
+              0.385  1922-03-15  Mısır Krallığı ilan edildi — Sultan Ahmed Fu
+                     1922-03-15  Mısır Krallığı ilân edildi — Sudan kondominy
+              0.385  1920-07-24  Han Meyselûn — Faysal dönemi bitti, Suriye F
+                     1920-07-25  Fransızlar Şam'a girerek Faysal yönetimine s
+              0.385  1920-03-30  Tartu Barışı yürürlüğe girdi: Estonya–Sovyet
+                     1920-12-31  Tartu Barışı yürürlüğe girdi — Petsamo Finla
+              0.385  1919-08-04  Romanya ordusu Budapeşte'ye girdi — Kun'un k
+                     1919-11-16  Horthy'nin Millî Ordusu Budapeşte'ye girdi —
+              0.375  1944-07-27  Rēzekne Kızıl Ordu'ca alındı — Letonya'nın d
+                     1945-01-19  Kızıl Ordu Łódź'u kurtardı
+              0.375  1944-07-27  Rēzekne Kızıl Ordu'ca alındı — Letonya'nın d
+                     1944-07-27  Daugavpils Kızıl Ordu'ca kurtarıldı
+              0.375  1944-01-20  Novgorod Kızıl Ordu'ca kurtarıldı
+                     1944-07-27  Rēzekne Kızıl Ordu'ca alındı — Letonya'nın d
+              0.375  1944-01-05  Kızıl Ordu Berdiçev'i kurtardı
+                     1944-07-27  Rēzekne Kızıl Ordu'ca alındı — Letonya'nın d
+              0.375  1943-11-26  Gomel Kızıl Ordu'ca kurtarıldı
+                     1944-07-27  Rēzekne Kızıl Ordu'ca alındı — Letonya'nın d
+              0.375  1943-09-25  Smolensk Kızıl Ordu'ca kurtarıldı
+                     1944-07-27  Rēzekne Kızıl Ordu'ca alındı — Letonya'nın d
+              0.375  1941-06-23  Almanya Brest-Litovsk'u isgal etti
+                     1941-09-19  Almanlar Kiev'i işgal etti (Reichskommissari
+              0.375  1920-07-01  Filistin'de İngiliz sivil manda idaresi kuru
+                     1920-07-01  Filistin'de sivil manda yönetimi — Refah (19
+              0.375  1918-03-03  Brest-Litovsk Antlaşması: Kars, Ardahan ve B
+                     1918-04-14  Batum'un geri alınışı
+              0.375  1642-11-24  Tasman Van Diemen's Land'i (Tasmanya) görüyo
+                     1642-12-13  Tasman Yeni Zelanda'yı (Staten Landt) görüyo
+              0.375  1516-09-26  Trablusşam ve Hama'nın Osmanlı idaresine gir
+                     1516-12-28  Şeria'nın doğusu: Amman'ın Osmanlı idaresine
+              0.375  1412-10-01  İnceğiz Savaşı — Çelebi Mehmed'in ilk Rumeli
+                     1413-07-05  Çelebi Mehmed birliği yeniden kurdu
+              0.375  1130-12-25  II. Roger Palermo'da Sicilya kralı olarak ta
+                     1131-01-01  Amalfi, II. Roger'in Sicilya Krallığı'na kat
+              0.375  0868-09-15  Ahmed b. Tolun vali vekili olarak Mısır'a gi
+                     0868-09-15  Ahmed b. Tolun Mısır'a girdi: Mısır Abbâsî v
+              0.364  1923-03-15  Büyükelçiler Konferansı Polonya'nın doğu sın
+                     1923-03-15  Büyükelçiler Konferansı Vilnius'u Polonya'ya
+              0.364  1921-10-13  Venedik Protokolü — Macaristan Burgenland'ı 
+                     1922-01-01  Sopron plebisit bölgesi Macaristan'a devredi
+              0.364  1739-10-03  Niş Antlaşması — Rusya ile barış, Azak'ın ta
+                     1739-12-12  Rusya ile barışın ahidnamesi: Kabartay taraf
+              0.364  1736-03-24  Rusya Azak ve Kırım üzerine yürüdü — Osmanlı
+                     1736-05-02  Rusya ile savaş kararı — Azak'a Rus saldırıs
+              0.364  1252-08-24  Ketboğa Noyan'ın öncü birlikleri Karakurum'd
+                     1253-04-24  Hülâgû Karakurum'dan İran ve Yakındoğu sefer
+              0.364  1030-01-01  Aversa Kontluğu kuruldu: Rainulf Drengot Nor
+                     1030-01-01  Rainolfo Drengot Aversa topraklarını elde et
+              0.364  0955-08-10  Lechfeld Savaşı: I. Otto Macar akınına son v
+                     0955-08-10  Lechfeld: Macar akınları Alman Kralı I. Otto
+              0.357  1949-07-01  Travankur ve Koçin devletleri birleşir; Trav
+                     1949-10-15  Manipur Devleti Hindistan Birliği'ne katılır
+              0.357  1922-03-15  Mısır Krallığı ilan edildi — Sultan Ahmed Fu
+                     1922-03-15  Mısır Krallığı ilân edildi — Refah–Taba hatt
+              0.357  1895-05-23  Formosa Cumhuriyeti ilan edildi: Taipei ve T
+                     1895-10-21  Tainan düştü: Formosa Cumhuriyeti sona erdi,
+              0.353  1287-01-01  Moğollar Pagan'ı ele geçirdi; Birman krallığ
+                     1287-01-01  Pagan Çin-Moğol birlikleri tarafından alındı
+              0.353  1128-01-01  Papa II. Honorius, Benevento'da Roger'i Apul
+                     1128-08-22  Apulya Dükalığı (Salerno) II. Roger'in elind

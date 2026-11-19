@@ -43,7 +43,7 @@ window.OLAYLAR_P0058 = [
   yer_id:"İstanbul",
   kisiler:"Yıldırım Bayezid, II. Manuel",
   d:"1391'den beri aralıklarla abluka altında tutulan İstanbul, 1394 ilkbaharında Yıldırım Bayezid tarafından yeniden sıkı bir kuşatmaya alındı. 1371'den beri Osmanlı'ya haraç ödeyen ve askerî yardım gönderen Bizans ile ilişki böylece açık düşmanlığa döndü. Kuşatma, Timur tehlikesinin belirmesi ve 1402 Ankara Savaşı'yla kaldırıldı.",
-  ic_not_d:"TDV `bayezid-i`: 'yedi yıldır abluka altında tuttuğu İstanbul'u 1394 ilkbaharında yeniden sıkı bir kuşatma altına aldı'. TDV `bizans`: 1371 zaferinden sonra Bizans 'haraç ödemeyi ve Osmanlı ordusunda hizmeti kabul ediyorlardı'. Bu madde YAMA-ANADOLU-0914.json Bizans haraçgüzâr penceresi A'nın KAPANIŞ günü içindir. ⚠️ 'ilkbahar' yıl başına yuvarlandı (§4: en kaba güvenli düzey) — kopuşu 2-5 ay ERKEN gösterir; bildirildi.",
+  ic_not_d:"TDV `bayezid-i`: 'yedi yıldır abluka altında tuttuğu İstanbul'u 1394 ilkbaharında yeniden sıkı bir kuşatma altına aldı'. TDV `bizans`: 1371 zaferinden sonra Bizans 'haraç ödemeyi ve Osmanlı ordusunda hizmeti kabul ediyorlardı'. Bu madde YAMA-ANADOLU-0914.json Bizans haraçgüzâr penceresi A'nın KAPANIŞ günü içindir. ⚠️ 'ilkbahar' yıl başına yuvarlandı (§4: en kaba güvenli düzey) — kopuşu 2-5 ay ERKEN gösterir; bildirildi. [Mükerrer birleştirme 19 Kasım 2026 — silinen kayıt «İstanbul'un sıkı kuşatması başladı (abluka ~1387'den beri)» (olaylar_ek.js); d: Yıldırım Bayezid, İstanbul'u aralıklarla on yıl boyunca abluka altında tuttu; şehir ancak Timur'un yaklaşması sayesinde kurtuldu.]",
   kaynak:"bayezid-i · bizans" },
 
 // ── 1424-02-22 · II. Murad–Bizans barışı: Bizans yeniden haraçgüzâr ─────
