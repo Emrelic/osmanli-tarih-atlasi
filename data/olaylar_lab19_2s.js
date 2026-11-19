@@ -862,7 +862,7 @@ window.OLAYLAR_LAB19_2S_P6 = [
   puan_s:"v2",
   kapsam:"dis",
   etiket:["isgal","cezayir-isgali","konu-askeri"],
-  yer_id:"Dellis",
+  yer_id:"Dellîs",
   b:"Fransız birlikleri Dellîs'e girdi ve garnizon bıraktı",
   gun:"8 Mayıs 1844",
   yer:"Dellîs (Dellys)",
