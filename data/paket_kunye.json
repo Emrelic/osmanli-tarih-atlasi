@@ -36,7 +36,7 @@
     },
     {
      "yol": "data/olaylar_ek5.js",
-     "sha": "8d0c2966a22d3500",
+     "sha": "eabe27564741750d",
      "bayt": 488510
     },
     {
@@ -274,8 +274,8 @@
     },
     {
      "yol": "data/kronoloji_sinir_avrupa_orta.js",
-     "sha": "49357ca9f8136a1c",
-     "bayt": 85860
+     "sha": "2785e21ccf061c8d",
+     "bayt": 85891
     },
     {
      "yol": "data/kronoloji_sinir_avrupa_bati.js",
@@ -354,8 +354,8 @@
     },
     {
      "yol": "data/kronoloji_sinir_nokta2.js",
-     "sha": "45b787d1d612c540",
-     "bayt": 120457
+     "sha": "3ccbc3cc586cbe27",
+     "bayt": 120475
     },
     {
      "yol": "data/kronoloji_sinir_once1281_yerlesim_asya_iran.js",
@@ -384,13 +384,13 @@
     },
     {
      "yol": "data/kronoloji_sinir_asya_zincir_1024.js",
-     "sha": "cfb2a145798a6942",
-     "bayt": 116360
+     "sha": "d92b52130123a062",
+     "bayt": 116414
     },
     {
      "yol": "data/kronoloji_sinir_asya3_1024.js",
-     "sha": "960ce200942aef6a",
-     "bayt": 34093
+     "sha": "12e9e600299e295c",
+     "bayt": 34108
     },
     {
      "yol": "data/kronoloji_sinir_dogu_500_1281.js",
@@ -414,8 +414,8 @@
     },
     {
      "yol": "data/kronoloji_sinir_zincir_avrupa_h.js",
-     "sha": "12510f11bdf94776",
-     "bayt": 31506
+     "sha": "a9dce68657a27bf1",
+     "bayt": 31519
     },
     {
      "yol": "data/kronoloji_sinir_zincir_antik2_1024.js",
@@ -479,8 +479,8 @@
     },
     {
      "yol": "data/kronoloji_sinir_antik_roma.js",
-     "sha": "cc545684af555410",
-     "bayt": 333450
+     "sha": "1278829d19b7be7e",
+     "bayt": 333586
     },
     {
      "yol": "data/kronoloji_sinir_antik_hitit.js",
@@ -498,7 +498,7 @@
      "bayt": 17249
     }
    ],
-   "bayt": 3728966
+   "bayt": 3729228
   },
   {
    "paket": "data/paket_10.js",
@@ -2164,8 +2164,8 @@
    "kaynak": [
     {
      "yol": "data/olaylar_t5_1000a.js",
-     "sha": "1ee07e02d85765f1",
-     "bayt": 59689
+     "sha": "b6634ed63b7f2c77",
+     "bayt": 60471
     },
     {
      "yol": "data/olaylar_t5_1000b.js",
@@ -2269,8 +2269,8 @@
     },
     {
      "yol": "data/olaylar_ortacag_bekleyen_acik.js",
-     "sha": "fe0c8494ce9473d0",
-     "bayt": 160546
+     "sha": "918431b2b37a8c77",
+     "bayt": 160732
     },
     {
      "yol": "data/olaylar_kunfuze_1016.js",
@@ -2278,7 +2278,7 @@
      "bayt": 6294
     }
    ],
-   "bayt": 1409193
+   "bayt": 1409619
   },
   {
    "paket": "data/paket_34.js",
@@ -2416,11 +2416,11 @@
     },
     {
      "yol": "data/olay_taraf.js",
-     "sha": "b1bbd9e509c4cc60",
-     "bayt": 287381
+     "sha": "53481c17bc828b62",
+     "bayt": 287976
     }
    ],
-   "bayt": 504973
+   "bayt": 505568
   },
   {
    "paket": "data/paket_31.js",
