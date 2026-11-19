@@ -1332,6 +1332,7 @@ Ceviri.ekle("en","arayuz",{
 "Sohum kuzeydoğusu (Abhazya ↔ Kabartay): şeridin # km içinde yerleşim noktası yok — boşluk veri eksiği değil, sırttır (yerlesimler_ek#.js beyanı, # Ekim #).":["Northeast of Sukhumi (Abkhazia ↔ Kabarda): there is no settlement point within # km of the strip — the gap is not a data deficiency, it is a ridge (declaration in yerlesimler_ek#.js, # October #).", "e4ba9c76"],
 "Son uçuşun akıcılığı":["Smoothness of the last flight", "fe9d00aa"],
 "Sonbahar #":["Autumn #", "96efc9f0"],
+"Sonbahar # [yalnız yıl teyitli; gün teyitsiz]":["Autumn # [year confirmed only; day unconfirmed]", "75cae2d9"],
 "Sonraki olaya git":["Go to next event", "ddd31d36"],
 "Sonrası ·":["After ·", "4f777ebb"],
 "Sonuç ve etkisi":["Result and effect", "84bce782"],

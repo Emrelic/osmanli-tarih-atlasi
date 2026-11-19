@@ -1241,6 +1241,7 @@ Ceviri.ekle("hi","arayuz",{
 "Sohum kuzeydoğusu (Abhazya ↔ Kabartay): şeridin # km içinde yerleşim noktası yok — boşluk veri eksiği değil, sırttır (yerlesimler_ek#.js beyanı, # Ekim #).":["सुखुमी का उत्तर-पूर्व (अबख़ाज़िया ↔ काबार्डा): पट्टी के # किमी के भीतर कोई बस्ती-बिंदु नहीं है — रिक्ति डेटा की कमी नहीं, पर्वत-श्रेणी है (yerlesimler_ek#.js घोषणा, # अक्टूबर #)।", "e4ba9c76"],
 "Son uçuşun akıcılığı":["पिछली उड़ान की सहजता", "fe9d00aa"],
 "Sonbahar #":["शरद #", "96efc9f0"],
+"Sonbahar # [yalnız yıl teyitli; gün teyitsiz]":["# की शरद ऋतु [केवल वर्ष पुष्ट; दिन अपुष्ट]", "75cae2d9"],
 "Sonraki olaya git":["अगली घटना पर जाएँ", "ddd31d36"],
 "Sonrası ·":["इसके बाद ·", "4f777ebb"],
 "Sonuç ve etkisi":["परिणाम और प्रभाव", "84bce782"],

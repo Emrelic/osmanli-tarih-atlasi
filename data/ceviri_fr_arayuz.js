@@ -1332,6 +1332,7 @@ Ceviri.ekle("fr","arayuz",{
 "Sohum kuzeydoğusu (Abhazya ↔ Kabartay): şeridin # km içinde yerleşim noktası yok — boşluk veri eksiği değil, sırttır (yerlesimler_ek#.js beyanı, # Ekim #).":["Nord-est de Soukhoumi (Abkhazie ↔ Kabardie) : aucun point de peuplement dans les # km de la bande — la lacune n'est pas un manque de données, c'est la crête (déclaration de yerlesimler_ek#.js, # octobre #).", "e4ba9c76"],
 "Son uçuşun akıcılığı":["Fluidité du dernier vol", "fe9d00aa"],
 "Sonbahar #":["Automne #", "96efc9f0"],
+"Sonbahar # [yalnız yıl teyitli; gün teyitsiz]":["Automne # [année seule confirmée ; jour non confirmé]", "75cae2d9"],
 "Sonraki olaya git":["Aller à l'événement suivant", "ddd31d36"],
 "Sonrası ·":["Après ·", "4f777ebb"],
 "Sonuç ve etkisi":["Issue et effet", "84bce782"],

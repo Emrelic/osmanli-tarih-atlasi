@@ -1269,6 +1269,7 @@ Ceviri.ekle("ru","arayuz",{
 "Sohum kuzeydoğusu (Abhazya ↔ Kabartay): şeridin # km içinde yerleşim noktası yok — boşluk veri eksiği değil, sırttır (yerlesimler_ek#.js beyanı, # Ekim #).":["Северо-восток Сухума (Абхазия ↔ Кабарда): в полосе # км нет ни одного населённого пункта — пустота не пробел в данных, а хребет (оговорка в yerlesimler_ek#.js, # октября #).", "e4ba9c76"],
 "Son uçuşun akıcılığı":["Плавность последнего перелёта", "fe9d00aa"],
 "Sonbahar #":["осень #", "96efc9f0"],
+"Sonbahar # [yalnız yıl teyitli; gün teyitsiz]":["Осень # [подтверждён только год; день не подтверждён]", "75cae2d9"],
 "Sonraki olaya git":["Перейти к следующему событию", "ddd31d36"],
 "Sonrası ·":["После ·", "4f777ebb"],
 "Sonuç ve etkisi":["Итог и влияние", "84bce782"],

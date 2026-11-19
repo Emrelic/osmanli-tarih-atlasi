@@ -1239,6 +1239,7 @@ Ceviri.ekle("el","arayuz",{
 "Sohum kuzeydoğusu (Abhazya ↔ Kabartay): şeridin # km içinde yerleşim noktası yok — boşluk veri eksiği değil, sırttır (yerlesimler_ek#.js beyanı, # Ekim #).":["Βορειοανατολικά του Σοχούμι (Αμπχαζία ↔ Καμπαρντιά): δεν υπάρχει οικισμός σε # χλμ εντός της λωρίδας — το κενό δεν είναι έλλειψη δεδομένων, είναι κορυφογραμμή (δήλωση του yerlesimler_ek#.js, # Οκτωβρίου #).", "e4ba9c76"],
 "Son uçuşun akıcılığı":["Ομαλότητα της τελευταίας πτήσης", "fe9d00aa"],
 "Sonbahar #":["Φθινόπωρο #", "96efc9f0"],
+"Sonbahar # [yalnız yıl teyitli; gün teyitsiz]":["Φθινόπωρο # [επιβεβαιωμένο μόνο το έτος· η ημέρα δεν έχει επιβεβαιωθεί]", "75cae2d9"],
 "Sonraki olaya git":["Μετάβαση στο επόμενο γεγονός", "ddd31d36"],
 "Sonrası ·":["Μετά ·", "4f777ebb"],
 "Sonuç ve etkisi":["Αποτέλεσμα και επίδραση", "84bce782"],

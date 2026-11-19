@@ -1239,6 +1239,7 @@ Ceviri.ekle("id","arayuz",{
 "Sohum kuzeydoğusu (Abhazya ↔ Kabartay): şeridin # km içinde yerleşim noktası yok — boşluk veri eksiği değil, sırttır (yerlesimler_ek#.js beyanı, # Ekim #).":["Timur laut Sukhumi (Abkhazia ↔ Kabardia): tidak ada permukiman dalam # km dari pita — kekosongan bukan kekurangan data, melainkan punggung gunung (pernyataan yerlesimler_ek#.js, # Oktober #).", "e4ba9c76"],
 "Son uçuşun akıcılığı":["Kelancaran penerbangan terakhir", "fe9d00aa"],
 "Sonbahar #":["Musim gugur #", "96efc9f0"],
+"Sonbahar # [yalnız yıl teyitli; gün teyitsiz]":["Musim gugur # [hanya tahun yang terkonfirmasi; hari belum dikonfirmasi]", "75cae2d9"],
 "Sonraki olaya git":["Pergi ke peristiwa berikutnya", "ddd31d36"],
 "Sonrası ·":["Setelahnya ·", "4f777ebb"],
 "Sonuç ve etkisi":["Hasil dan dampaknya", "84bce782"],
