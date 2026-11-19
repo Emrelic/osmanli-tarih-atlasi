@@ -36,7 +36,7 @@ DILLER = [("tr", "Türkçe"), ("en", "English"), ("ar", "العربية"), ("es"
           ("fr", "Français"), ("ru", "Русский"), ("zh", "中文"), ("hi", "हिन्दी"),
           ("pt", "Português"), ("de", "Deutsch"), ("ja", "日本語"), ("fa", "فارسی"),
           ("it", "Italiano"), ("ko", "한국어"), ("pl", "Polski"), ("nl", "Nederlands"),
-          ("el", "Ελληνικά")]
+          ("el", "Ελληνικά"), ("sw", "Kiswahili")]
 
 # TAVANLAR (CLAUDE.md "Tavanlar"): 4 Kasım 2026 ölçümü, birleşik dal. {dil: {tür: sayı}}.
 # Yalnız GERİLEME bloke eder; iyileşince aynı commit'te İNDİRİLİR, YÜKSELTİLMEZ (yeni Türkçe
@@ -221,7 +221,7 @@ ONEK = re.compile(r'^\s*Ceviri\.ekle\("([a-z]+)","([a-z]+)",', re.S)
 
 
 def dosyalar(dil, tur):
-    d = re.compile(r"^ceviri_%s_%s(_\d+)?\.js$" % (dil, tur))
+    d = re.compile(r"^ceviri_%s_%s(_[A-Z])?(_\d+)?\.js$" % (dil, tur))
     return sorted(os.path.join(DATA, f) for f in os.listdir(DATA) if d.match(f))
 
 
