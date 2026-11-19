@@ -1,6 +1,12 @@
 /* ÇEVİRİ nl · olay — arac/ceviri.py ile YAZILDI, elle düzenleme: py arac/ceviri.py uygula.
    Kayıt: id → [metin, kaynak_ozet] (olayda alan başına). Tasarım: denetim/CEVIRI-1103/TASARIM.md */
 Ceviri.ekle("nl","olay",{
+"OLAYLAR_T5_1000B:1201-03-01:0":{"b": ["Kaloyan nam Varna in", "1237fe7f"], "d": ["De Bulgaren onder tsaar Kaloyan namen in maart 1201 Varna van Byzantium; de stad bleef in de 13e-14e eeuw binnen de grenzen van de Bulgaarse staat.", "b60444f8"]},
+"OLAYLAR_T5_1000B:1202-01-01:0":{"b": ["Nishapur werd definitief bij de Khwarazmshahs gevoegd", "fa4a6cd2"], "d": ["Ala ad-Din Muhammad b. Tekish voegde de stad definitief bij het gebied van de Khwarazmshahs.", "58cb9059"]},
+"OLAYLAR_T5_1000B:1204-04-13:0":{"b": ["Het schiereiland Gallipoli kwam onder Latijns bestuur", "27308f59"], "d": ["Na de Vierde Kruistocht kwamen Gallipoli en omgeving in 1204 onder het bestuur van de Latijnen.", "48b977ad"]},
+"OLAYLAR_T5_1000B:1204-04-13:1":{"b": ["Het Despotaat Epirus werd gesticht — Ioannina werd centrum, Lepanto ging naar het despotaat", "d7966877"], "d": ["Na de Vierde Kruistocht stichtte Michael Angelos het Despotaat Epirus; Ioannina werd het centrum van het despotaat, Lepanto bleef ook binnen het gebied van het despotaat.", "632eac4c"]},
+"OLAYLAR_T5_1000B:1204-08-12:0":{"b": ["Kreta werd aan Venetië verkocht", "f1760e84"], "d": ["Markies Bonifatius van Monferrato liet met de overeenkomst van 12 augustus 1204 Kreta voor 100.000 zilverstukken aan Venetië over.", "cdb2570d"]},
+"OLAYLAR_T5_1000B:1219-01-01:0":{"b": ["Mansura werd gesticht", "342a6f47"], "d": ["Al-Malik al-Kamil stichtte Mansura als legerkamp tegen de kruisvaarders die Damietta bezetten.", "35189819"]},
 "OLAYLAR_T5_1000B:1221-04-10:0":{"b": ["De Mongolen namen Nishapur in", "0e73f075"], "d": ["De stad werd door de Mongoolse invasie verwoest.", "be55c768"]},
 "OLAYLAR_T5_1000B:1229-01-01:0":{"b": ["De Rasulid Nur ad-Din Umar bracht Jemen onder zijn bestuur", "ee1ec7ab"], "d": ["Na de dood van al-Mas'ud, de laatste Ayyubid van Jemen, kwam Nur ad-Din Umar aan de macht in Jemen.", "02cf9719"]},
 "OLAYLAR_T5_1000B:1235-01-01:0":{"b": ["De keizer van Nicea Vatatzes heroverde Gallipoli", "a6936e33"], "d": ["De keizer van Nicea, Ioannes III Vatatzes, heroverde Gallipoli op de Latijnen (1235).", "184a089e"]},

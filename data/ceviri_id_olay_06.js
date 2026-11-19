@@ -1,6 +1,10 @@
 /* ÇEVİRİ id · olay — arac/ceviri.py ile YAZILDI, elle düzenleme: py arac/ceviri.py uygula.
    Kayıt: id → [metin, kaynak_ozet] (olayda alan başına). Tasarım: denetim/CEVIRI-1103/TASARIM.md */
 Ceviri.ekle("id","olay",{
+"OLAYLAR_ORTACAG_ORTADOGU:0960-03-03:0":{"b": ["Unujur wafat; saudaranya Ali b. Muhammad mengambil alih pemerintahan, pengaruh Kafur berlanjut (349/960; hari pertama tahun Hijriah).", "6582f950"], "d": ["Unujur wafat; saudaranya Ali b. Muhammad mengambil alih pemerintahan, pengaruh Kafur berlanjut (349/960; hari pertama tahun Hijriah).", "6582f950"]},
+"OLAYLAR_ORTACAG_ORTADOGU:0962-12-01:0":{"b": ["Nikephoros Phokas menyerbu dan menghancurkan Aleppo (Dzulqa'dah 351 / Desember 962); kota lama tidak pulih.", "fa8cd514"], "d": ["Nikephoros Phokas menyerbu dan menghancurkan Aleppo (Dzulqa'dah 351 / Desember 962); kota lama tidak pulih.", "fa8cd514"]},
+"OLAYLAR_ORTACAG_ORTADOGU:0964-01-19:0":{"b": ["Mu'izzuddawla kembali menduduki Mosul dan menyerahkan pemerintahan kepada Abu Taghlib Ghadanfar (353/964).", "56b74254"], "d": ["Mu'izzuddawla kembali menduduki Mosul dan menyerahkan pemerintahan kepada Abu Taghlib Ghadanfar (353/964).", "56b74254"]},
+"OLAYLAR_ORTACAG_ORTADOGU:0966-01-01:0":{"b": ["Ali b. Muhammad wafat (355/966).", "5a3fd81b"], "d": ["Ali b. Muhammad wafat (355/966).", "5a3fd81b"]},
 "OLAYLAR_ORTACAG_ORTADOGU:0967-02-08:0":{"b": ["Sayfuddawla wafat di Aleppo; digantikan putranya Abu al-Ma'ali Sa'duddawla.", "31e30b1c"], "d": ["Sayfuddawla wafat di Aleppo; digantikan putranya Abu al-Ma'ali Sa'duddawla.", "31e30b1c"]},
 "OLAYLAR_ORTACAG_ORTADOGU:0968-01-01:0":{"b": ["Kafur wafat; Ahmad b. Ali dibaiat (357/968).", "3a2104b1"], "d": ["Kafur wafat; Ahmad b. Ali dibaiat (357/968).", "3a2104b1"]},
 "OLAYLAR_ORTACAG_ORTADOGU:0969-01-01:0":{"b": ["Nasiruddawla wafat di Ardumusht (Rabiul Awal 358, Januari-Februari 969).", "b7c263cf"], "d": ["Nasiruddawla wafat di Ardumusht (Rabiul Awal 358, Januari-Februari 969).", "b7c263cf"]},
