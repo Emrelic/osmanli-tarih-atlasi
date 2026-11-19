@@ -1,0 +1,8 @@
+# arac/renkler.py BOYALAR sözlüğüne eklenecek satır (renkler.py DEĞİŞTİRİLMEDİ — motor tuzu, koşu 40 bitene kadar yasak).
+# Anahtar = devletler.js id (oyo-imparatorlugu satırı gibi; künyede harita: alanı gerekmez).
+    "ife-kralligi":           ("İfe Krallığı (Ile-Ife, Yoruba)", "#24d2d8"),
+# Renk: py arac/renk_olc.py --oner ife-kralligi çıktısı (19 Kasım 2026): #24d2d8, L* 82.0, en yakın engel dE 56.7.
+# UYARI: İfe noktasında henüz s: yok => komşuluk ölçülemedi ("0 komşu, 2 renkli engel"); yalnız altlık/Osmanlı ikilisine
+# göre ölçüldü. Komşu paletler: oyo #d47028, ibadan #1e9642, benin-kralligi #4028d4, dahomey #d42870, sokoto #2860d4.
+# s: yazıldıktan sonra renk_olc.py --dogrula ile komşu dE yeniden ölçülmeli.
+# ingiliz-nijerya/ingiltere zaten boyalı (#fc7200); ek boya gerekmez.
