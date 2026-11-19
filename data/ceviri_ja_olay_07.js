@@ -1,6 +1,8 @@
 /* ÇEVİRİ ja · olay — arac/ceviri.py ile YAZILDI, elle düzenleme: py arac/ceviri.py uygula.
    Kayıt: id → [metin, kaynak_ozet] (olayda alan başına). Tasarım: denetim/CEVIRI-1103/TASARIM.md */
 Ceviri.ekle("ja","olay",{
+"OLAYLAR_ORTACAG_ORTADOGU:1108-08-25:0":{"b": ["バグダードからセルジューク朝の援助を得られなかったFahrülmülkはダマスクスに戻った。", "57e7acb9"], "d": ["バグダードからセルジューク朝の援助を得られなかったFahrülmülkはダマスクスに戻った。", "57e7acb9"]},
+"OLAYLAR_ORTACAG_ORTADOGU:1113-12-10:0":{"b": ["リドワーンがアレッポで死去した。子のEbû Şücâ Alparslanが跡を継いだ（ヒジュラ暦507年ジュマーダー・アル=アーヒラ月28日）。", "84597e75"], "d": ["リドワーンがアレッポで死去した。子のEbû Şücâ Alparslanが跡を継いだ（ヒジュラ暦507年ジュマーダー・アル=アーヒラ月28日）。", "84597e75"]},
 "OLAYLAR_ORTACAG_ORTADOGU:1117-01-01:0":{"b": ["マルディンのアルトゥク朝の君主イルガーズィーがアレッポの支配者となった：シリア・セルジューク朝のアレッポ系は終わった", "a33fde9d"], "d": ["マルディンのアルトゥク朝の君主イルガーズィーがアレッポの支配者となった：シリア・セルジューク朝のアレッポ系は終わった", "a33fde9d"]},
 "OLAYLAR_ORTACAG_ORTADOGU:1118-01-01:0":{"b": ["ボードゥアン1世の死去を受けて、エデッサ伯ボードゥアン・デュ・ブールがエルサレム王に選ばれた（1118年春）。", "02e855ca"], "d": ["ボードゥアン1世の死去を受けて、エデッサ伯ボードゥアン・デュ・ブールがエルサレム王に選ばれた（1118年春）。", "02e855ca"]},
 "OLAYLAR_ORTACAG_ORTADOGU:1119-01-01:0":{"b": ["ジョスランが伯国の統治を引き受けた（1119年秋）。", "47cc2acf"], "d": ["ジョスランが伯国の統治を引き受けた（1119年秋）。", "47cc2acf"]},

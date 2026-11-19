@@ -1670,6 +1670,7 @@ Ceviri.ekle("bn","arayuz",{
 "Şubat":["ফেব্রুয়ারি", "e77340f0"],
 "Şubat #":["ফেব্রুয়ারি #", "1fc887a9"],
 "Şubat # (TDV ay verir, gün bilinmiyor)":["ফেব্রুয়ারি # (TDV মাস দেয়, দিন অজানা)", "6371ca48"],
+"Şubat # (ay hassasiyeti; geçiş günü kaynakta yok)":["ফেব্রুয়ারি # (মাসভিত্তিক নির্ভুলতা; উৎসে স্থানান্তরের দিন নেই)", "0452f975"],
 "Şubat # (gün kaynakta yok)":["ফেব্রুয়ারি # (দিন সূত্রে নেই)", "d4d75725"],
 "Şubat # (kaynak AY hassasiyetinde; gün vermiyor)":["ফেব্রুয়ারি # (সূত্র মাস-স্তরের; দিন দেয় না)", "64d55b93"],
 "Şubat-Mart #":["ফেব্রুয়ারি-মার্চ #", "74c6cd06"],

@@ -1738,6 +1738,7 @@ Ceviri.ekle("ru","arayuz",{
 "Şubat":["Февраль", "e77340f0"],
 "Şubat #":["февраль #", "1fc887a9"],
 "Şubat # (TDV ay verir, gün bilinmiyor)":["февраль # (TDV даёт месяц, день неизвестен)", "6371ca48"],
+"Şubat # (ay hassasiyeti; geçiş günü kaynakta yok)":["Февраль # (точность до месяца; дня перехода в источнике нет)", "0452f975"],
 "Şubat # (gün kaynakta yok)":["февраль # (день в источнике не указан)", "d4d75725"],
 "Şubat # (kaynak AY hassasiyetinde; gün vermiyor)":["февраль # (источник с точностью до МЕСЯЦА; дня не даёт)", "64d55b93"],
 "Şubat-Mart #":["февраль–март #", "74c6cd06"],

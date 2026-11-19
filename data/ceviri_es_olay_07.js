@@ -1,6 +1,11 @@
 /* ÇEVİRİ es · olay — arac/ceviri.py ile YAZILDI, elle düzenleme: py arac/ceviri.py uygula.
    Kayıt: id → [metin, kaynak_ozet] (olayda alan başına). Tasarım: denetim/CEVIRI-1103/TASARIM.md */
 Ceviri.ekle("es","olay",{
+"OLAYLAR_T5_1000A:1100-01-01:0":{"b": ["Niksar bajo la soberanía de los danishmendíes — testimonio fechado de la fuente", "81181870"], "d": ["La fuente muestra la ciudad de Niksar bajo la administración de los danishmendíes en esta fecha; la posesión anterior no está fechada en la fuente (el atlas deja en blanco lo anterior a esta fecha).", "c1463e88"]},
+"OLAYLAR_T5_1000A:1102-09-18:0":{"b": ["El danishmendí Gümüştegin Gazi tomó Malatya", "87f1166c"], "d": ["Gümüştegin Gazi se apoderó de Malatya al término de un asedio.", "2d0e9668"]},
+"OLAYLAR_T5_1000A:1106-09-02:0":{"b": ["Kılıç Arslan I recibió la entrega de Malatya", "eca366d5"], "d": ["Tras la muerte de Gümüştegin, Kılıç Arslan I incorporó Malatya a las tierras selyúcidas con un asedio de más de dos meses.", "69bdbc2c"]},
+"OLAYLAR_T5_1000A:1108-03-04:0":{"b": ["El mazyadí Sadaka murió en Nu'maniye, Hilla pasó a los selyúcidas", "e5ecea7c"], "d": ["Muhammad Tapar derrotó a Sadaka; su hijo Dübeys fue capturado y no se le permitió volver a Hilla.", "be1e2910"]},
+"OLAYLAR_T5_1000A:1111-01-01:0":{"b": ["İlarslan recuperó Elbistan de Tancredo", "923962c2"], "d": ["İlarslan, atabeg del melik de Malatya Tuğrul Arslan, recuperó Elbistan, que había tomado Tancredo, príncipe de Antioquía.", "ce0754bd"]},
 "OLAYLAR_T5_1000A:1112-01-01:0":{"b": ["El artuquí Belek dominó Harput", "83425a6e"], "d": ["Belek ibn Behrâm, nieto de Artuk Bey, se hizo dueño de Harput y fundó su beylicato con sede en Palu.", "ff838897"]},
 "OLAYLAR_T5_1000A:1116-01-01:0":{"b": ["Niğde bajo la soberanía del Estado selyúcida de Anatolia (Turquía) — testimonio fechado de la fuente", "dfb24c4b"], "d": ["La fuente muestra la ciudad de Niğde bajo la administración del Estado selyúcida de Anatolia (Turquía) en esta fecha; la posesión anterior no está fechada en la fuente (el atlas deja en blanco lo anterior a esta fecha).", "477146f3"]},
 "OLAYLAR_T5_1000A:1117-01-01:0":{"b": ["Dübeys volvió a Hilla", "9bc0e03a"], "d": ["Tras la muerte de Muhammad Tapar, Dübeys pudo ir a Hilla en tiempos del sultán selyúcida del Irak, Mahmud.", "d9aec87c"]},
