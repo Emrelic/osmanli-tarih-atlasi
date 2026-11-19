@@ -350,6 +350,7 @@ Ceviri.ekle("it","arayuz",{
 "# [yalnız yıl teyitli; TDV «Karamanoğulları» Nisan # der, okunan akademik kaynaklarda gün yok; ÇELİŞKİ-#: merkez toprakların ilhakı #, beyliğin siyasi sonu için bkz. karaman künye ic_not_t]":["# [solo l'anno è confermato; il TDV «Karamanoğulları» dice aprile #, nelle fonti accademiche lette non c'è il giorno; CONTRADDIZIONE-#: annessione dei territori centrali #, per la fine politica del beylicato vedi karaman künye ic_not_t]", "de549d73"],
 "# [yalnız yıl teyitli; gün teyitsiz]":["# [solo l'anno è confermato; giorno non confermato]", "640d015f"],
 "# [yalnız yıl teyitli; gün teyitsiz] (sefer Temmuz #'te başladı)":["# [solo l'anno è confermato; giorno non confermato] (la campagna iniziò a luglio #)", "e301edc1"],
+"# [yalnız yıl; «dört yıl sonra» ifadesinden türetildi]":["# [solo l'anno; ricavato dall'espressione «quattro anni dopo»]", "487ef0d2"],
 "# [yalnız yıl]":["# [solo l'anno]", "0d6d3b49"],
 "# baharı — kaynak gün vermiyor":["primavera del # — la fonte non dà il giorno", "21306921"],
 "# başları":["inizio del #", "2d532281"],

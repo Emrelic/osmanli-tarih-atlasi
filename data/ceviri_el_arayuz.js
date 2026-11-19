@@ -350,6 +350,7 @@ Ceviri.ekle("el","arayuz",{
 "# [yalnız yıl teyitli; TDV «Karamanoğulları» Nisan # der, okunan akademik kaynaklarda gün yok; ÇELİŞKİ-#: merkez toprakların ilhakı #, beyliğin siyasi sonu için bkz. karaman künye ic_not_t]":["# [επιβεβαιωμένο μόνο το έτος· το TDV «Karamanoğulları» λέει Απρίλιο #, στις ακαδημαϊκές πηγές που διαβάστηκαν δεν υπάρχει ημέρα· ΑΝΤΙΦΑΣΗ-#: προσάρτηση των κεντρικών εδαφών #, για το πολιτικό τέλος του μπεηλικιού βλ. karaman künye ic_not_t]", "de549d73"],
 "# [yalnız yıl teyitli; gün teyitsiz]":["# [επιβεβαιωμένο μόνο το έτος· η ημέρα δεν έχει επιβεβαιωθεί]", "640d015f"],
 "# [yalnız yıl teyitli; gün teyitsiz] (sefer Temmuz #'te başladı)":["# [επιβεβαιωμένο μόνο το έτος· η ημέρα δεν έχει επιβεβαιωθεί] (η εκστρατεία άρχισε τον Ιούλιο #)", "e301edc1"],
+"# [yalnız yıl; «dört yıl sonra» ifadesinden türetildi]":["# [μόνο το έτος· προέκυψε από την έκφραση «τέσσερα χρόνια αργότερα»]", "487ef0d2"],
 "# [yalnız yıl]":["# [μόνο το έτος]", "0d6d3b49"],
 "# baharı — kaynak gün vermiyor":["# άνοιξη — η πηγή δεν δίνει ημέρα", "21306921"],
 "# başları":["# αρχές", "2d532281"],

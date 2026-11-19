@@ -350,6 +350,7 @@ Ceviri.ekle("az","arayuz",{
 "# [yalnız yıl teyitli; TDV «Karamanoğulları» Nisan # der, okunan akademik kaynaklarda gün yok; ÇELİŞKİ-#: merkez toprakların ilhakı #, beyliğin siyasi sonu için bkz. karaman künye ic_not_t]":["# [yalnız il təsdiqlidir; TDV «Qaramanoğulları» Aprel # deyir, oxunan akademik mənbələrdə gün yoxdur; ZİDDİYYƏT-#: mərkəz torpaqların ilhaqı #, bəyliyin siyasi sonu üçün bax karaman künye ic_not_t]", "de549d73"],
 "# [yalnız yıl teyitli; gün teyitsiz]":["# [yalnız il təsdiqlidir; gün təsdiqsiz]", "640d015f"],
 "# [yalnız yıl teyitli; gün teyitsiz] (sefer Temmuz #'te başladı)":["# [yalnız il təsdiqlidir; gün təsdiqsiz] (yürüş İyul #-də başladı)", "e301edc1"],
+"# [yalnız yıl; «dört yıl sonra» ifadesinden türetildi]":["# [yalnız il; «dörd il sonra» ifadəsindən çıxarılıb]", "487ef0d2"],
 "# [yalnız yıl]":["# [yalnız il]", "0d6d3b49"],
 "# baharı — kaynak gün vermiyor":["# yazı — mənbə gün vermir", "21306921"],
 "# başları":["# əvvəlləri", "2d532281"],

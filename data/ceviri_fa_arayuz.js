@@ -350,6 +350,7 @@ Ceviri.ekle("fa","arayuz",{
 "# [yalnız yıl teyitli; TDV «Karamanoğulları» Nisan # der, okunan akademik kaynaklarda gün yok; ÇELİŞKİ-#: merkez toprakların ilhakı #, beyliğin siyasi sonu için bkz. karaman künye ic_not_t]":["# [فقط سال تأیید شده؛ TDV «Karamanoğulları» آوریل # می‌گوید، در منابع دانشگاهی خوانده‌شده روز نیست؛ تعارض-#: الحاق سرزمین‌های مرکزی #، برای پایان سیاسی بیگلیک نک. karaman künye ic_not_t]", "de549d73"],
 "# [yalnız yıl teyitli; gün teyitsiz]":["# [فقط سال تأیید شده؛ روز تأیید نشده]", "640d015f"],
 "# [yalnız yıl teyitli; gün teyitsiz] (sefer Temmuz #'te başladı)":["# [فقط سال تأیید شده؛ روز تأیید نشده] (لشکرکشی در ژوئیه # آغاز شد)", "e301edc1"],
+"# [yalnız yıl; «dört yıl sonra» ifadesinden türetildi]":["# [فقط سال؛ برگرفته از عبارت «چهار سال بعد»]", "487ef0d2"],
 "# [yalnız yıl]":["# [فقط سال]", "0d6d3b49"],
 "# baharı — kaynak gün vermiyor":["بهار # — منبع روز نمی‌دهد", "21306921"],
 "# başları":["اوایل #", "2d532281"],
