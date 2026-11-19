@@ -2164,8 +2164,8 @@
    "kaynak": [
     {
      "yol": "data/olaylar_t5_1000a.js",
-     "sha": "b6634ed63b7f2c77",
-     "bayt": 60471
+     "sha": "35d3e4c1587ac53d",
+     "bayt": 61432
     },
     {
      "yol": "data/olaylar_t5_1000b.js",
@@ -2269,8 +2269,8 @@
     },
     {
      "yol": "data/olaylar_ortacag_bekleyen_acik.js",
-     "sha": "b6e2c3f017d760dc",
-     "bayt": 159596
+     "sha": "f4cd0f9462579e1a",
+     "bayt": 161691
     },
     {
      "yol": "data/olaylar_kunfuze_1016.js",
