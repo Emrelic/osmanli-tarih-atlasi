@@ -223,7 +223,7 @@ BEKLENEN_YERLESIM = 4299   # 968 -> 4299, 6 Ekim 2026 (ÖLÇÜLDÜ, yazmadan hem
 # 16 EKIM 2026 (DENETIM-K27-1016, Emre karari KARARLAR-EMRE-1015 #13, commit d98dffc38): 310 -> 312 —
 #    Bise + Vadi'd-Devasir (yerlesimler_nokta_ortadogu_0917.js) BEYANLI BOS NOKTA (kasitli_bosluk:true).
 #    Olcum: 1c belgeli 306 -> 308 (TAM +2), BELGESIZ 4 -> 4 (tavan 4) ⇒ ikisi de BELGELI, yeni delik YOK.
-BEKLENEN_SAHIPSIZ = 210  # 18 KASIM 2026 (D1-KUNYE-1118, iyilesme, olculdu): 296 -> 210 = d1 kunye partisi 86 s:/d: donemi baglandi · ONCESI: 18 KASIM 2026 (D1-OKYGDA-1118, iyilesme): 305 -> 296 = Hilo, Lahaina (hawaii-seflikleri), Papeete (tahiti), Avarua (rarotonga), Hagatna+Garapan (chamorro), Hawaii Adalari+Rapa Nui (kunye halk sahasi), Beyan G31.5 B56.5 (charrua) · ONCESI: 17 KASIM 2026 (KASA, iyilesme): 306 -> 305 = Hadramut 1281-1881 kaynakli (umit-17-kasim 2fa1a6ba0) · ONCESI:14 KASIM 2026 (KASA batch 17, tam denetle olcumu): 312 -> 306 · ONCESI: 8 KASIM 2026 (ZINCIR-64, tavan onayi sorulmaz + sonradan rapor): 311 -> 312 (+1) = Menfûha (zincir64): 1281-1744 bos:devletsiz BELGELI (ABI MERKEZ Riyad ile ayni karar; 1c tavanina girmez, belgeli) · 29 EKIM 2026: 312 -> 311 (olculdu: tam denetle 5400 yerlesim, 311 sahipsiz; Mbandaka 1883-85, Antananarivo, Mapungubwe dilimleri kaynakla dolduruldu) · 13 EYLUL 2026: 314 -> 324, on BELGELI beyan (asagida adiyla) · 15 EKIM: +1 Hamade-i Hamra (m.13) · 16 EKIM: +2 Bise/Vadi'd-Devasir (#13)
+BEKLENEN_SAHIPSIZ = 207  # 19 KASIM 2026 (KASA 19, iyilesme, tam denetle olcumu, UMIT 19 sahipsiz merdiveni): 210 -> 207 · ONCESI: 18 KASIM 2026 (D1-KUNYE-1118, iyilesme, olculdu): 296 -> 210 = d1 kunye partisi 86 s:/d: donemi baglandi · ONCESI: 18 KASIM 2026 (D1-OKYGDA-1118, iyilesme): 305 -> 296 = Hilo, Lahaina (hawaii-seflikleri), Papeete (tahiti), Avarua (rarotonga), Hagatna+Garapan (chamorro), Hawaii Adalari+Rapa Nui (kunye halk sahasi), Beyan G31.5 B56.5 (charrua) · ONCESI: 17 KASIM 2026 (KASA, iyilesme): 306 -> 305 = Hadramut 1281-1881 kaynakli (umit-17-kasim 2fa1a6ba0) · ONCESI:14 KASIM 2026 (KASA batch 17, tam denetle olcumu): 312 -> 306 · ONCESI: 8 KASIM 2026 (ZINCIR-64, tavan onayi sorulmaz + sonradan rapor): 311 -> 312 (+1) = Menfûha (zincir64): 1281-1744 bos:devletsiz BELGELI (ABI MERKEZ Riyad ile ayni karar; 1c tavanina girmez, belgeli) · 29 EKIM 2026: 312 -> 311 (olculdu: tam denetle 5400 yerlesim, 311 sahipsiz; Mbandaka 1883-85, Antananarivo, Mapungubwe dilimleri kaynakla dolduruldu) · 13 EYLUL 2026: 314 -> 324, on BELGELI beyan (asagida adiyla) · 15 EKIM: +1 Hamade-i Hamra (m.13) · 16 EKIM: +2 Bise/Vadi'd-Devasir (#13)
 # 🔴 314 -> 324, 13 EYLUL 2026 (1.MURAT, kosu 10 SURERKEN — denetle.py motor_izi'nde DEGIL)
 #    OLCUM, TAHMIN DEGIL: ayni alet c104b61'de (sabitin 314'e cekildigi commit)
 #    ayri worktree'de kosturuldu -> TAM 314 (saglama tuttu), sonra iki ad
@@ -323,7 +323,7 @@ BEKLENEN_SAHIPSIZ = 210  # 18 KASIM 2026 (D1-KUNYE-1118, iyilesme, olculdu): 296
 # Timbuktu 11. yy'dan beri var, Agadez ~1449 Aïr Sultanlığı'nın merkezi.
 # ⚠️ Tavanı burada bırakmak GEVŞEK olurdu: aradaki 22 puanlık gerçek
 # regresyon görünmez olurdu (aletin kendi çift yönlü uyarısı).
-BEKLENEN_BELGESIZ = 2  # 14 KASIM 2026 (KASA batch 17, tam denetle olcumu): 4 -> 2 · ONCESI: 10 EYLUL 2026: 7 -> 4, aletin KENDI uyarisi
+BEKLENEN_BELGESIZ = 0  # 19 KASIM 2026 (KASA 19, iyilesme, tam denetle olcumu): 2 -> 0 · ONCESI: 14 KASIM 2026 (KASA batch 17, tam denetle olcumu): 4 -> 2 · ONCESI: 10 EYLUL 2026: 7 -> 4, aletin KENDI uyarisi
 # 🔴 Aradaki 3 puanlik gercek regresyon GORUNMEZ olurdu. Bkz.
 #    BEKLENEN_SAHIPSIZ'in yanindaki not — ayni turda uc tavan birden
 #    sikilastirildi (sahipsiz 315->314 · belgesiz 7->4 · enklav 661->650).
@@ -1404,7 +1404,6 @@ BEYAN_EDILEN_BOSLUK = {
     # (1818-1862) ve `tekrur` (1862-1893) dönemlerini yazmıştı, boşluk
     # 193 yıldan 118 yıla inmişti. ⇒ Beyan listesinin kendisi de bayatlar
     # ve bunu SÖYLEYEN bir dal olmadan bayatlığı görünmez.
-    ("Cenne (Djenné)", "1700-01-01", "1818-01-01"),
     ("Cenne (Djenné)", "1591-04-13", "1596-01-01"),
     # Poti (Faş Kalesi) 1640-1724 — POSTIT-104 (Emre, a seçeneği): TDV fas--gurcistan
     # kalenin 1640'ta İmereti/Guria/Megrelya birlikleriyle yıkıldığını söyler, yıkanların
