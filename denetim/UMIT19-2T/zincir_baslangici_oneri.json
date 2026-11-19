@@ -1,0 +1,139 @@
+[
+  {
+    "yer": "Sebte (Ceuta)",
+    "mevcut_ilk_donem": "1273-07-18 merini (s0)",
+    "donemler": [
+      {
+        "f": "0931-01-24", "t": "1016-06-10", "d": "endulus-emevi", "kesinlik": "yil", "guven": "yaklasik-beyanli (t ucu)",
+        "kaynak": "TDV sebte (https://islamansiklopedisi.org.tr/sebte): «Fâtımîler’in Mağrib’in büyük kısmını alarak Sebte’ye yöneldikleri bir sırada III. Abdurrahman tarafından gönderilen Endülüs Emevî donanması Sebte’yi ele geçirdi (319/931).» · «Bu mücadele, Endülüs’e geçen Sebte Valisi Ali b. Hammûd’un Endülüs Emevî Halifesi Süleyman b. Hakem’i idam ettirip Hammûdîler’i kurmasına kadar sürdü (Muharrem 407 / Haziran 1016).» (ikisi tarayıcıdan okundu, includes doğrulandı)",
+        "ic_not": "f: hicrî 319 (tablo takvimi, Jülyen: 931-01-24..932-01-12) ∩ mîlâdî 931 → kesişimin ilk günü 931-01-24; YIL hassasiyeti, gün TDV'de yok. t: TDV Sebte için 'Hammûdî hâkimiyetine geçti' günü vermez; Emevî-Fâtımî mücadelesinin Ali b. Hammûd'un Süleyman'ı idam ettirip Hammûdîler'i kurduğu 'Muharrem 407 / Haziran 1016' ile bittiğini söyler: 1 Muharrem 407 = 1016-06-10 (tablo, Jülyen; kaynağın 'Haziran 1016' ayıyla tutuyor). BEYANLI YAKLAŞIKLIK: Sebte'nin fiilen Hammûdî eline geçiş günü kaynaksız. Künye endulus-emevi f 0756-05-15 / t 1031-01-01 içinde. 931 öncesi (Sufrî Hâricîler 122/740, İdrîsîler'e itaat, tarihsiz) YAZILMADI."
+      },
+      {
+        "f": "1016-06-10", "t": "1084-05-10", "d": "__BOSLUK__", "kesinlik": "yil", "guven": "beyanli-bosluk",
+        "kaynak": "TDV sebte: «Hammûdîler’i tasfiye ederek Sebte’nin idaresini eline geçiren Sükût el-Bergavâtî, Abbâsîler’e bağlılığını bildirdi (453/1061).» — Hammûdîler / Sükût el-Bergavâtî için devletler.js'te künye YOK (yalnız malaga-hammudiler, Malaga'ya ait); 453/1061 Abbâsî bağlılığı nominal.",
+        "ic_not": "BEYANLI BOŞLUK: Hammûdî-Bergavâtî dönemi künyesiz; Abbâsî bağlılığı (453/1061) şehrin sahibi sayılmadı. Abi merkez adayı yok (Hammûdîler künyesiz). Karar: künye açılırsa (Hammûdîler / Bergavâtîler) dilim yazılır."
+      },
+      {
+        "f": "1084-05-10", "t": "1147-03-23", "d": "murabitlar", "kesinlik": "yil", "guven": "kesin-yil (iki bağımsız TDV maddesi)",
+        "kaynak": "TDV sebte: «Şehir 477’de (1084) Murâbıtlar’ın eline geçti.» · TDV murabitlar (https://islamansiklopedisi.org.tr/murabitlar): «Daha sonra Sebte’ye (Ceuta) hâkim oldu (477/1084).» (ikisi tarayıcıdan okundu, includes doğrulandı; çift teyit)",
+        "ic_not": "f: hicrî 477 (1084-05-10..1085-04-28) ∩ mîlâdî 1084 → ilk gün 1084-05-10 (1 Muharrem 477, tablo takvimi, Jülyen); YIL hassasiyeti. t: murabitlar künye t 1147-03-23 ile sınırlandı (künye aşımı yazılmadı). TDV Sebte'nin Murâbıt hânedanından Yahyâ b. Yûsuf b. Tâşfîn'i vali tayin ettirdiğini söyler (541/1146-47 sonrası) — künye t'den sonra sürdüğü için boşluk bırakıldı."
+      },
+      {
+        "f": "1147-03-23", "t": "1148-05-22", "d": "__BOSLUK__", "kesinlik": "yil", "guven": "beyanli-bosluk",
+        "kaynak": "TDV sebte: «Fakat daha fazla direnemeyen ve Kādî İyâz’ı Abdülmü’min’e göndererek bağlılıklarını bildiren Sebteliler (541/1146-47) bir yıl sonra tekrar isyan ettiler. Kādî İyâz’ı bu defa İbn Gāniye’ye yollayıp Murâbıt hânedanından Yahyâ b. Yûsuf b. Tâşfîn’in Sebte’ye vali tayin edilmesini sağladılar.»",
+        "ic_not": "BEYANLI BOŞLUK: Murâbıt künyesi 1147-03-23'te bitiyor, Sebte'de Murâbıt hânedanından vali Yahyâ b. Yûsuf 1148'e dek tutundu (TDV) — künye t genişletme kararı (aynı polity sürüyor mu) ayrı iş; genişletilirse murabitlar t 1148-05-22 ve bu dilim murabitlar'a katılır. Muvahhid bağlılığı (541) şehrin ele geçmesi değil."
+      },
+      {
+        "f": "1148-05-22", "t": "1232-01-01", "d": "muvahhidler", "kesinlik": "yil", "guven": "kesin-yil",
+        "kaynak": "TDV sebte: «Ancak Abdülmü’min’in 543 (1148) yılında Sebte’ye girmesiyle şehir kalıcı bir şekilde Muvahhidler’in hâkimiyetine geçti.» · «Sebte, Muvahhidler’in yıkılışının ardından 1232’den itibaren kısa bir süre Endülüs’ün büyük bölümünü hâkimiyeti altına alan Muhammed b. Yûsuf b. Hûd’un egemenliğinde kaldı.» (tarayıcıdan okundu, includes doğrulandı)",
+        "ic_not": "f: hicrî 543 (1148-05-22..1149-05-10) ∩ 1148 → ilk gün 1148-05-22 (tablo, Jülyen); YIL hassasiyeti. t: '1232'den itibaren' → 1232-01-01 YIL hassasiyeti (ay/gün yok). muvahhidler künye f 1130 / t 1269 içinde."
+      },
+      {
+        "f": "1232-01-01", "t": "1273-07-18", "d": "__BOSLUK__", "kesinlik": "yil", "guven": "beyanli-bosluk",
+        "kaynak": "TDV sebte: 1232'den İbn Hûd egemenliği; «Daha sonra Sebteliler saygın bir tüccar olan Yâneştî’yi başlarına geçirerek bağımsızlıklarını ilân ettiler.» (632/1234-35); iki yıl sonra yeniden Muvahhidler'e bağlılık; «Şehrin valisi İbn Halâs el-Belensî’nin Ebû Zekeriyyâ Yahyâ’ya itaatini bildirmesiyle Sebte bu defa Hafsîler’in nüfuz alanına girdi (640/1242-43).»; sonra el-Azefî «yaklaşık otuz yıl bağımsız olarak hüküm sürdü» → Merînî 672'de (1273-74).",
+        "ic_not": "BEYANLI BOŞLUK: İbn Hûd, Yâneştî, el-Azefî yerel yönetimleri künyesiz; Hafsî 'nüfuz alanı' (1242-43) sahiplik değil. Mevcut s0 ic_not'unda 'öncül uç' beyanı zaten var; bu satır onu dilim olarak yazar. Künye açılırsa (Azefî Sebte Emirliği) dilimler yazılabilir; yıl uçları: 1232, 1234-35, ~1236-37, 1242-43."
+      }
+    ],
+    "bulunamadi": "(a) 0931 öncesi: Bizans (VI. yy), Müslüman fethi (92/711, Julianos ittifakı), Sufrî Hâricîler 122/740, Macakis'in İdrîsîler'e itaati — TDV'de gün/yıl var ama dönem uçları ya tarihsiz ya künye (endulus-emevi f 756) öncesi; yazılmadı. (b) 1016-1084 Hammûdîler/Bergavâtîler künyesiz. (c) 1232-1273 yerel yönetimler künyesiz. (d) Britannica/EI ikinci kaynak okunmadı (TDV tek ansiklopedi; Sebte için iki ayrı TDV maddesi: sebte+murabitlar çift teyit yalnız 1084 ucunda).",
+    "sinirlar": [
+      "0931-01-24: Sebte Endülüs Emevî ele geçirişi (yıl; ±30 gün madde gerekir)",
+      "1016-06-10: Sebte Emevî→Hammûdî (yaklaşık; kayıt ancak künye açılırsa anlamlı — boşluğa geçiş; ±30 gün madde gerekir)",
+      "1084-05-10: Murâbıtların Sebte'yi alışı (Değişmez 2: ±30 gün madde gerekir)",
+      "1147-03-23: Murâbıt künye sonu / Sebte boşluğa girişi",
+      "1148-05-22: Abdülmü'min'in Sebte'ye girişi, Muvahhid hâkimiyeti",
+      "1232-01-01: İbn Hûd egemenliği başı / Muvahhid sonu"
+    ]
+  },
+  {
+    "yer": "Tiflis",
+    "mevcut_ilk_donem": "1260-01-01 gurcistan (s0)",
+    "donemler": [
+      {
+        "f": "0833-01-01", "t": "1046-01-01", "d": "tiflis-emirligi", "kesinlik": "yil", "guven": "833-852 kesin-yil; 852-1046 yaklasik-beyanli",
+        "kaynak": "TDV tiflis (https://islamansiklopedisi.org.tr/tiflis): «Abbâsîler’in ilk döneminde Tiflis’te İshak b. İsmâil bir İslâm emirliği kurdu ve Halife Mütevekkil-Alellah devrine kadar devam etti (833-852).» · «Boğa, İshak ve oğlunu esir alıp öldürttü (238/852).» · «Böylece Tiflis’te İslâm emirliği sona erdi ve müslümanların bölgedeki etkinlikleri azalmaya başladı.» · «Ca‘fer b. Ali ve halefleri Abbâsî halifeleri adına para bastırdı ve onları metbû tanıdı.» · «1046’da Tiflis Emîri Ca‘fer’in ölümü üzerine Tiflisliler IV. Bagrat’ı çağırdı ve şehri ona teslim ettiler.» (tarayıcıdan okundu, includes doğrulandı)",
+        "ic_not": "f 833: kaynak yalnız milâdî yıl verir → 0833-01-01 YIL hassasiyeti. 852: hicrî 238 (852-06-23..853-06-11) ∩ 852 → 852-06-23. DİKKAT: TDV 852'de emirliğin 'sona erdiğini' söyler, sonra Benî Ca'fer valileri (Ca'fer b. Ali, Emîr Ca'fer) 1046'ya dek görünür; KASA'nın devletler.js tiflis-emirligi ic_not'u 'kesintisiz tek emirlik mi' kararını Emre'ye bırakmıştı. Bu dilim kesintisiz emirlik varsayar (BEYANLI YAKLAŞIKLIK, 852-1046). ALTERNATİF (kesin okunan kadar): bu dilimi t 0852-06-23'te kes, 852-06-23..1046-01-01 'beyanlı boşluk' bırak. 1046: yıl hassasiyeti. Künye tiflis-emirligi f 0650 t 1122 içinde. 833 öncesi (645-46 İslâm hâkimiyeti, Hazar/Emevî mücadeleleri, 683-764) YAZILMADI."
+      },
+      {
+        "f": "1046-01-01", "t": "1068-01-01", "d": "gurcistan", "kesinlik": "yil", "guven": "kesin-yil (1046 ucu); 1068 ucu yaklasik",
+        "kaynak": "TDV tiflis: «1046’da Tiflis Emîri Ca‘fer’in ölümü üzerine Tiflisliler IV. Bagrat’ı çağırdı ve şehri ona teslim ettiler.» · «1068’de Alparslan ve müttefikleri Tiflis ve Kartli’yi yerle bir ettiler. Ağır kış şartları Alparslan’ı Gürcistan’ı terketmeye zorlarken Tiflis ve Rustavi’yi Gence Sultanı Fazlûn’a verdi.»",
+        "ic_not": "YIL hassasiyeti. 1032 Liparit-İvane'nin Emîr Ca'fer'i esir alışı ve Bagrat'ın serbest bırakması sahiplik değiştirmez. t 1068: Alparslan'ın Tiflis'i Fazlûn'a vermesi (yıl); TDV günü/ayı vermez. Künye gurcistan f 1008 / t 1801-09-24 içinde; BOYALAR'da var."
+      },
+      {
+        "f": "1068-01-01", "t": "1121-01-01", "d": "tiflis-emirligi", "kesinlik": "yil", "guven": "yaklasik-beyanli",
+        "kaynak": "TDV tiflis: «Bagrat, Alparslan’ın çekilmesinden sonra Emîr Fazlûn ve ordusunu yenip Tiflis’e girdi ve burayı belli miktarda vergi ödemek şartıyla emîrin mirasçılarına bıraktı.» · «Ancak II. Giorgi zamanında (1072-1089) Kartli tekrar Selçuklu hâkimiyetine girdi.» · «II. David … 1118’den itibaren Gürcistan’a getirdi ve onların yardımıyla 1121’de Tiflis’teki Selçuklu hâkimiyetine son verdi; Benî Ca‘fer ailesi de buradan sürüldü.»",
+        "ic_not": "BEYANLI YAKLAŞIKLIK: TDV 1068'den sonra şehri emîr mirasçılarının (vergi karşılığı) elinde, II. Giorgi (1072-1089) döneminden itibaren de 'Selçuklu hâkimiyeti' altında anlatır; iki evrenin sınırı (hangi yıl Selçuklu'ya geçti) TDV'de YOK. Bu dilim emirliği sahip yazar (Selçuklu üstlüğü tâbilik olarak gösterilmez; Emre #13 kararı). ALTERNATİF: 1089-01-01'den (II. Giorgi'nin son yılı) 1121-01-01'e buyuk-selcuklu (künye f 1038 / t 1157 içinde) — ancak 1089 'dönemin sonu' olduğundan başlangıç kaynaksız; ZORLA kapatılmadı. t 1121: TDV (esas); Britannica 'Tbilisi' (tarayıcıda okundu) 1122 der: «In 1122 David IV (the Builder) of Georgia captured Tbilisi» — çelişki: TDV esas, 1121; mevcut madde 1121-01-01 (data/olaylar_ortacag_bekleyen_acik.js:117) ile tutuyor, Didgori 1121-08-12 ayrı madde. tiflis-emirligi künye t 1122-01-01 içinde."
+      },
+      {
+        "f": "1121-01-01", "t": "1230-01-01", "d": "gurcistan", "kesinlik": "yil", "guven": "kesin-yil (1121 ucu); 1230 ucu yil",
+        "kaynak": "TDV tiflis: «II. David … 1121’de Tiflis’teki Selçuklu hâkimiyetine son verdi; Benî Ca‘fer ailesi de buradan sürüldü. Tiflis, Kraliçe Tamara zamanında en görkemli dönemini yaşadı.» · «627’de (1230) tekrar şehri zaptetti.»",
+        "ic_not": "f: yıl hassasiyeti, bkz. önceki dilim (TDV 1121 / Britannica 1122). t: Celâleddin Hârizmşah 627 (1230) zaptı; hicrî 627 = 1229-11-20..1230-11-09 ∩ 1230 → 1230-01-01 YIL hassasiyeti. Celâleddin'in 'Rebîülâhir 624 (Nisan 1227)' ilk ele geçirişi TDV'ye göre 'hâkimiyeti kısa sürdü' (bitişi tarihsiz) → YAZILMADI, beyanlı: 1227-1230 Gürcü hâkimiyeti sürdü varsayıldı (TDV 'kısa sürdü' der, kimin elinde kaldığı yazmaz). Not: TDV'nin 624 hicrî yılı Nisan 1227'ye değil 1225'e (622) denk geldiğinden bu ilk ele geçiriş tarihi ayrıca şüpheli. gurcistan künye içinde."
+      },
+      {
+        "f": "1230-01-01", "t": "1231-01-01", "d": "harizmsah", "kesinlik": "yil", "guven": "yil-yakin",
+        "kaynak": "TDV tiflis: «627’de (1230) tekrar şehri zaptetti. 1231’de şehirde Moğol idaresi kuruldu.»",
+        "ic_not": "YIL hassasiyeti; iki uç da yıl. harizmsah künye t 1231-01-01 ile bu dilimin t'si birebir (künye aşmaz). Kısa dilim: yıl-ayrımı tek bir kaynağa dayanır; Celâleddin'in öldürülmesi (1231) ayrı."
+      },
+      {
+        "f": "1231-01-01", "t": "1260-01-01", "d": "mogol-imparatorlugu", "kesinlik": "yil", "guven": "kesin-yil (1231 ucu); 1260 ucu mevcut s0 f'si",
+        "kaynak": "TDV tiflis: «1231’de şehirde Moğol idaresi kuruldu. İlhanlılar döneminde buranın hâkimiyeti Gürcüler’e bırakıldı.»",
+        "ic_not": "f YIL hassasiyeti. Britannica 'Tbilisi': «in 1234 it fell to the Mongols» — çelişki: TDV esas (1231), 1234 ic_not'ta iki kaynağıyla beyan edilir. t 1260-01-01: mogol-imparatorlugu künye t 1260 ve mevcut s0.f (P4-KUME5: gurcistan, ufuk işareti) ile birebir. TDV İlhanlı dönemini 'Gürcüler'e bırakıldı' diye anlatır, gün/yıl yok (mevcut s0 beyanıyla uyumlu)."
+      }
+    ],
+    "bulunamadi": "(a) 0833 öncesi: Pers (523), Bizans-Türk (628), Hazar yağması (629), Arap fethi (25/645-46, TDV), Emevî/Hazar mücadeleleri (683-764): künyeler (tiflis-emirligi f 650) ile TDV (645-46) çelişkili, yazılmadı. (b) 852-1046 emirliğin kesintisizliği (üstte beyan). (c) 1068-1121 evresinde emirlik/Selçuklu ayrımı kaynaksız. (d) Celâleddin Hârizmşah'ın 1227 ilk ele geçirişi: tarihi çelişkili (624 hicrî ≠ Nisan 1227), bitişi yok. (e) Encyclopaedia Iranica / EI Tiflis maddesi tarayıcıdan açılamadı (iranicaonline slug 404): ikinci akademik kaynak yalnız Britannica 'Tbilisi' (1122 ve 1234 çelişkileri). (f) 1260 sonrası zincir mevcut, tarama dışı.",
+    "sinirlar": [
+      "0833-01-01: İshak b. İsmâil emirliği başı (yıl; künye kronolojisinde 0833 maddesi var — ±30 gün kontrol)",
+      "0852-06-23 (ya da 0852-01-01): Boğa İshak'ı yener, emirlik sona erer (TDV 238/852; künye maddesi 0852-01-01 — ±30 gün DIŞINDA kalabilir)",
+      "1046-01-01: Emîr Ca'fer ölür, Tiflis Bagrat IV'e teslim (madde gerekir; yıl)",
+      "1068-01-01: Alparslan Tiflis'i Fazlûn'a verir (künye kronolojisi 1068-01-01 maddesi var)",
+      "1121-01-01: David Tiflis'teki Selçuklu hâkimiyetine son verir (madde VAR: olaylar_ortacag_bekleyen_acik.js:117)",
+      "1230-01-01: Celâleddin Hârizmşah Tiflis'i yeniden alır (madde gerekir)",
+      "1231-01-01: Tiflis'te Moğol idaresi kurulur (madde gerekir)",
+      "1260-01-01: mevcut s0 başı (gurcistan) — ayrı iş"
+    ]
+  },
+  {
+    "yer": "Tunus",
+    "mevcut_ilk_donem": "1229-01-01 hafsi (s0)",
+    "donemler": [
+      {
+        "f": "0800-02-01", "t": "0909-03-18", "d": "aglebi", "kesinlik": "yil", "guven": "kesin-yil (f); t künye gününden (gün komşudan)",
+        "kaynak": "TDV tunus--tunus (https://islamansiklopedisi.org.tr/tunus--tunus, şehir maddesi; 'tunus' ülke maddesidir, tarih içermez): «184 (800) yılından itibaren Ağlebîler’in idaresine bırakılan Tunus bu hânedanın Kayrevan’dan sonra ikinci önemli şehri oldu.» · «Tunus, Ağlebîler’in ardından Fâtımîler’in hâkimiyetine geçti.» (tarayıcıdan okundu, includes doğrulandı) · Britannica 'Tunis': «It became the capital city under the Aghlabids (800–909)».",
+        "ic_not": "f: hicrî 184 (800-02-01..801-01-20, tablo, Jülyen) ∩ 800 → ilk gün 800-02-01; YIL hassasiyeti. t: TDV Aglebî→Fâtımî geçişinin günü VERMEZ; 909-03-18 aglebi künye t'sinden devralındı ('gün komşudan: aglebi künyesi'; kaynak ayrıca doğrulanmadı) — istenirse yıl hassasiyeti 0909-01-01 yazılır. 945'te Ebû Yezîd en-Nükkârî'nin Tunus'u işgal ve tahribi (334/945) sahiplik değiştirmediği için yazılmadı."
+      },
+      {
+        "f": "0909-03-18", "t": "1054-01-01", "d": "fatimi", "kesinlik": "yil", "guven": "yaklasik-beyanli",
+        "kaynak": "TDV tunus--tunus: «Tunus, Ağlebîler’in ardından Fâtımîler’in hâkimiyetine geçti.» · «441 (1049) veya 443’te (1051) Kayrevan Valisi Muiz b. Bâdîs’in Fâtımîler’den ayrılıp Bağdat’taki Abbâsî halifesine tâbi olması bölgeye büyük sıkıntılar getirdi. Fâtımîler’in sevkettiği Benî Hilâl ile Benî Süleym kabilelerinin saldırıları sırasında 1054’te Benî Hilâl’in Riyâh kolundan Abîd b. Ebü’l-Gays, Tunus şehrini ele geçirdi.»",
+        "ic_not": "BEYANLI YAKLAŞIKLIK: Fâtımî hâkimiyeti 909'dan sonra TDV'de dönem sonu belirtilmeden anlatılır; Zîrîler (972'den Fâtımî valisi; 1049/1051'de Abbâsî'ye tâbi) için TDV tunus/ziriler/hammadiler maddeleri Tunus şehrini ayrıca sahiplenmez (ziriler maddesinde 'Tunus' geçmez). Zîrî/Fâtımî vali-bağımsız ayrımı yazılmadı: tâbilik gösterilmez, sahip Fâtımî sayıldı. Uç 1054: yıl hassasiyeti (1054-01-01); hicrî verilmedi. ALTERNATİF: dilimi 972-01-01'de kesip 972-1054'ü beyanlı boşluk bırakmak (ziriler f 972 künyesi içinde). fatimi künye f 0909 / t 1171-09-13 içinde."
+      },
+      {
+        "f": "1054-01-01", "t": "1062-01-15", "d": "__BOSLUK__", "kesinlik": "yil", "guven": "beyanli-bosluk",
+        "kaynak": "TDV tunus--tunus: «1054’te Benî Hilâl’in Riyâh kolundan Abîd b. Ebü’l-Gays, Tunus şehrini ele geçirdi. Onun zulmünden kaçan şehir halkı Kal‘atü Benî Hammâd’da hüküm süren Hammâdî emîrine sığındı.»",
+        "ic_not": "BEYANLI BOŞLUK: Abîd b. Ebü'l-Gays (Benî Hilâl'in Riyâh kolu) 1054'te şehri alıp 1062'ye dek elinde tuttu; künyesi yok (Hammâdî valisi Abdülhak b. Horasân tayini tarihsiz). hammadiler künyesi f 1015 / t 1152-04-08 var ama TDV Tunus'un Hammâdî toprağı olduğunu söylemez, yazılmadı."
+      },
+      {
+        "f": "1062-01-15", "t": "1158-11-04", "d": "tunus-benihorasan", "kesinlik": "yil", "guven": "kesin-yil (f); t gun kaynakli",
+        "kaynak": "TDV tunus--tunus: «Hammâdî Emîri Nâsır b. Alennâs’ın vali tayin ettiği Abdülhak b. Abdülazîz b. Horasân’ın 454’te (1062) bağımsızlığını ilân etmesiyle Tunus’ta Horasânîler dönemi başladı.» · «şehir yaklaşık bir asır Horasânîler’in başşehri olarak kaldı (1062-1159).» · «Burası 1128-1148 yılları arasında zaman zaman Hammâdîler’in ve Zîrîler’in eline geçtiyse de Horasânîler varlıklarını devam ettirdiler.» · «Tunus şehri 553 (1158) yılında Horasânî hânedanına son veren Muvahhidler’in eline geçti» · TDV abdulmumin-el-kumi: «Abdülmü’min 4 Kasım 1158’de Tunus’u zaptetti.»",
+        "ic_not": "f: hicrî 454 (1062-01-15..1063-01-03, tablo, Jülyen) ∩ mîlâdî 1062 → ilk gün 1062-01-15 (künye f 1062-01-01 içinde); YIL hassasiyeti. t: 4 Kasım 1158 TDV abdulmumin-el-kumi'den GÜN (Jülyen; 'Muvahhidler 553 (1158)' ile tutuyor; TDV tunus--tunus '1062-1159' der, aradaki ~2 ay fark künye t 1159-01-01 > 1158-11-04 içinde kalır). 1128-1148 geçici Hammâdî/Zîrî ele geçirişleri ile 1066 ve 1098 Temîm b. Muiz ele geçirişleri ('kısa aralıklarla') yazılmadı — TDV Horasânî varlığının sürdüğünü söyler. Normanlar (1148, Mehdiye/Kābis/Sfaks) Tunus şehrini almadı (TDV: Horasânîler sürdü): norman-ifrikiye YAZILMADI."
+      },
+      {
+        "f": "1158-11-04", "t": "1228-06-29", "d": "muvahhidler", "kesinlik": "gun", "guven": "kesin-gun (iki uç); arada Gâniye istilâsı beyanli",
+        "kaynak": "TDV abdulmumin-el-kumi: «Abdülmü’min 4 Kasım 1158’de Tunus’u zaptetti.» · TDV tunus--tunus: «Tunus şehri 553 (1158) yılında Horasânî hânedanına son veren Muvahhidler’in eline geçti ve İfrîkıye bölgesinin idarî merkezi yapıldı.» · TDV hafsiler (https://islamansiklopedisi.org.tr/hafsiler): «Bir müddet sonra kardeşi Ebû Zekeriyyâ Tunus üzerine yürüdü ve 24 Receb 625 (29 Haziran 1228) tarihinde şehre girip Ebû Muhammed Abdullah’ı oradan uzaklaştırmak suretiyle İfrîkıye’nin tamamına hâkim oldu.»",
+        "ic_not": "f gün TDV (Jülyen, abdulmumin-el-kumi) + tunus--tunus 553/1158 çift teyit (yıl). t: 24 Receb 625 = 1228-06-29 (hicrî tablo ile tam tutuyor; TDV 'tarihinde' diyerek miladî günü de verir). muvahhidler künye f 1130 / t 1269 içinde. BEYANLI: Yahyâ b. Gâniye (TDV ganiye-beni-ganiye) 'Daha sonra Tunus’u istilâ ederek halkı 100.000 dinar vergi ödemek zorunda bıraktı' (~1203 öncesi, tarihsiz) ve Muvahhidler 'Tunus’u ve Mehdiye’yi geri aldı … Tunus’a vali tayin etti (603/1206-1207)' → Tunus'un Gâniye'de bulunduğu aralık (başı tarihsiz, sonu 603/1206-07) yazılmadı; Muvahhid kesintisiz sayıldı (ganiyeler künye f 1126-02-03 / t 1237-08-31 var). Ayrıca TDV: 582/1186'da Muvahhid Tunus'a ulaştı, Gâniye Cerîd'i (güney) aldı, Tunus Muvahhid'de kaldı; 621/1224 Yahyâ b. Gâniye 'Güney Tunus'ta' (ülke) hüküm sürdü — şehir için değil. Hafsî Ebû Muhammed Abdullah 1226'dan İfrîkıye valisi (Muvahhid valisi)."
+      },
+      {
+        "f": "1228-06-29", "t": "1229-01-01", "d": "hafsi", "kesinlik": "gun", "guven": "kesin-gun",
+        "kaynak": "TDV hafsiler: «Bir müddet sonra kardeşi Ebû Zekeriyyâ Tunus üzerine yürüdü ve 24 Receb 625 (29 Haziran 1228) tarihinde şehre girip Ebû Muhammed Abdullah’ı oradan uzaklaştırmak suretiyle İfrîkıye’nin tamamına hâkim oldu.» · TDV tunus--tunus: «Muvahhidler’in yıkılışı üzerine onlara ait topraklarda kurulan üç devletten biri olan Hafsîler de Tunus şehrini merkez edindiler (625/1228).»",
+        "ic_not": "BİRLEŞTİR: mevcut s0 (hafsi f 1229-01-01 .. 1534-09-22) ile aynı d; bu satır yalnız mevcut s0.f 1229-01-01 → 1228-06-29 geri çekilmesidir (aradaki dilim ayrı yazılmaz). hafsi künye f 1228-01-01 / t 1574-09-13 içinde. TDV hafsiler: Ebû Zekeriyyâ bağımsızlığını 627 başında (Aralık 1229) ilân etti (hutbeyi Muvahhid adına kesti); künye 1228'den başlar — Tunus'un fiilî Hafsî yönetimi 1228-06-29. Britannica 'Tunis' Hafsîleri 1236'dan sayar (çelişki: TDV esas). Mevcut s0 kaynak alanındaki '1158 Muvahhid · 1184 Benî Gâniye' zinciri notuyla uyumlu."
+      }
+    ],
+    "bulunamadi": "(a) 0800 öncesi: Kartaca/Roma (MÖ 146), Vandal (440), Bizans (535-?), Hassân b. Nu'mân 82/701 ile 'kalıcı İslâm hâkimiyeti' (TDV; bizans-afrika-eksarhligi künyesi t 698 ile TDV 701 arası ÇELİŞKİ), Emevî/Abbâsî (valiler 116/734) — Emevî/Abbâsî geçiş günü Tunus için TDV'de yok. (b) 909-1054 Fâtımî/Zîrî ayrımı: TDV Tunus şehri için vermez (Zîrî maddesinde Tunus geçmez). (c) 1054-1062 Benî Hilâl/Abîd künyesiz (boşluk). (d) Gâniye'nin Tunus'u ele geçirdiği aralık (~1203'e dek, 603/1206-07 geri alış) başlangıcı tarihsiz — yazılmadı. (e) Normanlar 1148-1158: TDV Tunus'ta Horasânîler sürdü der; yazılmadı. (f) Encyclopaedia of Islam açık metin okunmadı; ikinci kaynak yalnız Britannica 'Tunis' (Aglebî 800-909 teyit; Hafsî 1236 çelişkisi).",
+    "sinirlar": [
+      "0800-02-01: Tunus Ağlebî idaresine geçer (yıl; ±30 gün madde gerekir)",
+      "0909-03-18: Ağlebî→Fâtımî (künye gününden; madde gerekir ±30 gün)",
+      "1054-01-01: Abîd b. Ebü'l-Gays Tunus'u alır, Fâtımî→boşluk (yıl; madde gerekir)",
+      "1062-01-15: Horasânî bağımsızlığı (454/1062; madde gerekir)",
+      "1158-11-04: Abdülmü'min Tunus'u zaptetti (gün kaynaktan; madde gerekir)",
+      "1228-06-29: Ebû Zekeriyyâ Tunus'a girer, Muvahhid→Hafsî (gün kaynaktan; madde gerekir; mevcut s0.f 1229-01-01 buna çekilir)"
+    ]
+  }
+]

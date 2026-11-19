@@ -1,0 +1,114 @@
+[
+  {
+    "yer": "Gondokoro",
+    "sinif": "devlet_zinciri",
+    "oneri": "s: [{f:\"1871-05-26\", t:\"1885-01-26\", d:\"turk-misir-sudani\", kesinlik:{f:\"gun\", t:\"gun (künye ucu)\"}}]. 1285-1871 beyanlı boşluk korunur (yerleşimin kuruluş yılı kaynaklanmadı, kur: yazılmaz). 1885-01-26 sonrası: Emin'in Ekvatoria'sı için künye yok → boşluk.",
+    "kaynak": "Samuel W. Baker, Ismailia (1874), Ch. VIII 'Official Annexation' — Gutenberg/archive.org ismailia03607gut (ismla10.txt): «I intended, formally and officially, to annex the country to Egypt. On May 26, 1871, all was in order. A flag-staff about eighty feet high had been neatly erected ... The troops ... marched from the station at Gondokoro at 6 A.M.» · «The formality of reading the official proclamation, describing the annexation of the country to Egypt in the name of the Khedive, then took place at the foot of the flag-staff. At the termination of the last sentence, the Ottoman flag was quickly run up by the halyards». Bitiş desteği: Emin Pasha in Central Africa (1888, Eng. çev.; archive.org dli.ministry.12343), 1885 sonu Emin mektubu: «I am therefore inclined to make arrangements for the evacuation of Ladé and Gondokoro, to collect the men together in Rejaf» (istasyon 1885 sonunda hâlâ Mısır elinde). Atlas künyesi turk-misir-sudani t 1885-01-26 ile çelişki: Gondokoro bundan sonra da Emin'in elinde; t'yi künyeye hizalamak beyanlı yaklaşıklıktır.",
+    "kunye_kontrol": "turk-misir-sudani f 1821-01-01 t 1885-01-26, BOYALAR'da var; 1871-05-26 künye içinde. Değişmez 2: 1871-05-26 kırılması için ±30 gün kronoloji maddesi gerekir (Baker, Ismailia Ch. VIII — gün birincil metinde yazılı). 'Yerleşim 1871'de Mısır'a katıldı' maddesi atlasta YOK (grep olaylar*/kronoloji_sinir*: Gondokoro 0 kayıt).",
+    "not": "Kaynak türü: katılımcı birincil tanık (Baker), akademik ikinci kaynak YOK → 'çift teyit' yazılmaz. TDV 'sudan' Gondokoro'yu zaten anmıyor (önceki tur). ④: yerleşim 1871'de var (Baker: eski Avusturya misyon istasyonu + 'the station at Gondokoro'); öncesi (Avusturya misyonu 1850'ler) için yıl okunmadı. Abi merkez gerekmedi (doğrudan sahiplik tanığı var)."
+  },
+  {
+    "yer": "Deym Zübeyr",
+    "sinif": "devlet_zinciri",
+    "oneri": "KISMİ: s: [{f:\"1873-11-22\", d:\"turk-misir-sudani\", t:\"BELİRSİZ — (1883-08-20, 1885-01-06] aralığında; gün okunmadı\"}] ardından d:\"mehdi\" (f 1881-03-01 künye içinde). t günü kaynaklanmadan yazılmamalı; Lupton'un Mahdî'ye teslim günü okunamadı. Zübeyr'in dönemi 'Hidiv adına atanmış özerk yönetici': fiilî sahiplik niteliği Emre kararı. 1285-1873 beyanlı boşluk korunur.",
+    "kaynak": "(a) Zübeyr'in kendi anlatımı, çev. H.C. Jackson, Black Ivory and White (1913; archive.org blackivorywhiteo00jackrich): «A reply came on the twenty second of November 1873, as follows : — «We have placed your letter before His Highness the Khedive who thanks you for your loyalty and approves of your desire to put beneath his sway the country you have conquered ... Furthermore he appoints you to administer the country on condition you pay to his treasury an annual revenue of £15,000»; yerleşim: «At Deim Zubeir, which he made the seat of his autocratic Government» (Jackson). (b) Emin Pasha in Central Africa (1888; dli.ministry.12343) indeks: «Dem Soliman (Suleiman), formerly known as Dem Zibér (Zibér’s town), (7° 38’ N. 26° 32’ E.)» (=atlas Deym Zübeyr); Lupton mektubu 20 Ağustos 1883: «determined to attack us at Dem Sebayr (Dem Zibér) as soon as Hareef is over» (garnizon hâlâ Mısır/Lupton'da); Emin 6 Ocak 1885: «Keremallah is in Dem Zibér; thousands of Arabs ... from Kordofan are with him» (Mahdî emiri); indeks: «Lupton-Bey (... appointed Governor of Bahr-el-Ghazal in 1881; he surrendered to the Mahdi)».",
+    "kunye_kontrol": "turk-misir-sudani f 1821-01-01 t 1885-01-26 (BOYALAR'da var); mehdi f 1881-03-01 t 1898-09-02 (BOYALAR'da var). 1873-11-22 künye içinde. Değişmez 2: 1873-11-22 için kronoloji maddesi yok (atlasta yalnız 1874-11-02 Darfur ilhakı maddesi var, Zübeyr'i anar; ±30 gün DIŞINDA); Mahdî'ye geçiş günü de maddesiz.",
+    "not": "Yetersiz: (1) Mısır'ın Bahrülgazâl'e hâkimiyeti 1873'te Zübeyr aracılığıyla; Zübeyr 1876'da Kahire'de alıkonuldu — sonraki Gessi/Lupton dönemi (1877-84) için Deym Zübeyr'in fiilen Mısır'da kaldığı gün/yıl bu kaynaklarda yok. (2) Zübeyr anlatımı Jackson çevirisidir; akademik ikinci kaynak okunmadı. Öneri ancak (1) 'Hidiv adına atanmış' beyanıyla ve (2) t aralığı beyanıyla uygulanabilir; aksi hâlde BULUNAMADI sayılır."
+  },
+  {
+    "yer": "Valata (Oualata)",
+    "sinif": "devlet_zinciri",
+    "oneri": "s ekle: {f:\"1480-01-01\", t:\"1591-04-13\", d:\"songhay-imparatorlugu\", kesinlik:{f:\"yil\", t:\"gun (künye ucu; Valata'nın Songhay'dan çıkışı kaynaklanmadı)\"}}. 1430-1480 beyanlı boşluk (TDV: Tevârik 1430; Tuareg künyesi yok) ve 1591 sonrası beyanlı boşluk korunur.",
+    "kaynak": "John O. Hunwick, Timbuktu and the Songhay Empire (Brill 2003; archive.org john-o.-hunwick-timbuktu-and-the-songhay-empire-al-sa-dis-ta-rikh-al-sudan-down-, djvu.txt), Giriş: «Songhay was, at that time, little more than a lingua franca whose currency resulted from the incorporation of the cities mentioned into an expanded Songhay state from the 1460s» (şehirler: Walata, Timbuktu, Jenne, Gao — Leo Africanus'ta); «The only competition was from the Mossi of Yatenga, who attacked Walata in 1480, but were defeated by Sunni ʿAli as they withdrew.» Leo Africanus (Hunwick çevirisi): «The chief who governs them pays tribute to the king of Timbuktu» (Hunwick dn.27: 'highly unlikely, unless Leo is referring to some kind of administrative cadre'). Önceki dönem: Hunwick dn.25: İbn Battûta 1352'de Walata'yı «politically within the orbit of Mali» buluyor.",
+    "kunye_kontrol": "songhay-imparatorlugu f 1464-01-01 t 1591-04-13 (BOYALAR'da var); 1480 künye içinde. mali-imparatorlugu atlas s'si 1281-1430; Hunwick Mali yörüngesini 1352'de teyit eder ama 1430'da Tevârik'e geçişi (TDV) Hunwick'te okunmadı. Değişmez 2: yıl-hassasiyetli sınır (1480-01-01) için kronoloji maddesi 'Sunnî Ali Mossi saldırısını Walata'da püskürttü, Walata Songhay ağı' gerekir; maddede kaynak Hunwick giriş.",
+    "not": "BEYANLI YAKLAŞIKLIK: Hunwick Walata'nın 'katılma günü'nü vermez; 1480 Songhay'ın Walata'da fiilî varlığına tanık olan ilk yıl (ihtiyatlı); 'from the 1460s' daha erken başlatabilir (f 1464 künye ucuna kadar). Walata'nın Tondibi'de (1591) Songhay'dan kopup kopmadığı okunmadı; Hunwick-TS'nin Fas fethi bölümünde Walata halkının Timbuktu'da Mevlay Ahmed'e biat ettiği anılır (gün: 23. Salı) ama bu Walata'nın Fas'a bağlandığını göstermez → Fas künyesi ÖNERİLMEZ. İkinci akademik kaynak (Levtzion, Ancient Ghana and Mali; Cleaveland 2002 Walata monografisi) paywall/okunmadı."
+  },
+  {
+    "yer": "Apia",
+    "sinif": "devlet_zinciri",
+    "oneri": "KOŞULLU (Emre künye kararı): s ekle {f:\"1881-03-19\", t:\"1889-06-14\", d:\"samoa-kralligi\"} — ancak künyenin f ucu 1889-06-14'ten 1881-03-19'a GENİŞLETİLMEDEN uygulanamaz (hayalet devlet). Alternatif: yeni künye (Malietoa Laupepa Krallığı 1881-1889). 1285-1881 bulunamadı. Güven: orta-düşük.",
+    "kaynak": "R.L. Stevenson, A Footnote to History (1892; Gutenberg 536, archive.org afootnotetohisto00536gut), Bölüm I: «In 1881, Laupepa, the present king, held the three names of Malietoa, Natoaitele, and Tamasoalii ... Laupepa was crowned, March 19th» ; Apia: «he is in the Eleele Sa, the “Forbidden Soil,” or Neutral Territory of the treaties ... this, the only port and place of business in the kingdom, collects and administers its own revenue ... by white councillors and under the supervision of white consuls»; «the tripartite municipality of Apia». Stevenson dönem tanığı, akademik değil; Gilson (Samoa 1830-1900, archive.org samoa1830to1900p0000gils) ÖDÜNÇ-KİLİTLİ, search-inside yok → OKUNMADI.",
+    "kunye_kontrol": "samoa-kralligi f 1889-06-14 t 1900-04-17 (BOYALAR'da var): 1881-03-19 künye DIŞINDA → künye genişletme/yeni künye şart. Stevenson 1881-1889 'kral' sürekliliğini sorgular (rakip kıral adayları Tamasese/Mataafa; 1887-88 Alman destekli Tamasese rejimi) — kesintisiz zincir DEĞİL. Değişmez 2: 1881-03-19 için kronoloji maddesi yok.",
+    "not": "Apia için ④ cevap: yerleşim/liman var (Stevenson: tek liman ve ticaret merkezi; 'municipality' 1879 anlaşmasından Stevenson'da yıl yok → okunmadı). ⑤ abi merkez uygulanamaz (kendisi merkez). 1830-1881 arası Samoa için Gilson okunamadığından önerilemedi."
+  },
+  {
+    "yer": "Pago Pago",
+    "sinif": "bulunamadi",
+    "oneri": "Öneri yok (1285-1889 beyanlı boşluk kalır). Zayıf aday, ÖNERİLMEDİ: Apia ile aynı koşullu samoa-kralligi uzatması 1881/1887-1889 için.",
+    "kaynak": "Stevenson, A Footnote to History: Laupepa'nın 1887 veda sözü «Tuamasanga, farewell! Manono and family, farewell! So, also, Salafai, Tutuila, Aana, and Atua, farewell!»; Brandeis (Tamasese rejimi) Ocak 1888: «Aua and Fangatonga, districts in Tutuila, having made a difficulty, Brandeis is down at the island ... fines the recalcitrant districts in three hundred dollars». Pago Pago limanının kendisi (Pango-Pango) yalnız fırtına sığınağı olarak anılır; bölgesel siyasi bağ cümlesi yok. Turner, Samoa a Hundred Years Ago (1884; archive.org samoaahundredye00turngoog): Tutuila yalnız ad kökeni efsanesinde. Gilson/Kramer okunmadı.",
+    "kunye_kontrol": "samoa-kralligi f 1889-06-14; Tutuila'nın 1881-1889 Malietoa/Tamasese yönetimi altındaki 'sahipliği' kaynakta dolaylı → atama çıkarım olur, yapılmadı.",
+    "not": "④ yer (Pago Pago limanı/Tutuila köyü) var — kuruluş yılı bulunamadı. ⑤ abi merkez: Manu'a/Upolu bağı Stevenson'da dolaylı; yazılmaz."
+  },
+  {
+    "yer": "Tarawa (Bairiki)",
+    "sinif": "okunmadi",
+    "oneri": "Öneri yok. 1285-1892 beyanlı boşluk korunur.",
+    "kaynak": "Açık metin bulunamadı/okunmadı: Colonial Reports 1914 Gilbert & Ellice (archive.org colonial-reports-1914-855) tarihçe bölümü okunmadı; Mahaffy 1909 raporu (india.history.resource.106628) okunmadı; Stevenson In the South Seas (Gilbert bölümleri: Butaritari/Apemama) Tarawa'nın siyasi durumunu veren cümle için TARANMADI. Maude/Macdonald akademik monografileri çevrimiçi okunamadı.",
+    "kunye_kontrol": "ön-sömürge Gilbert polity'si için devletler.js'te künye yok (kiribati f 1979); nauru-kabileleri emsali var ama kaynaklı 'Gilbert maneaba/unimane' birimi bu turda doğrulanmadı.",
+    "not": "Kaynak türü: Pasifik adası; Tarawa'da yerleşim 1285'te var (Gilbertese yerleşimi, tarihsel) — kırpma yok; abi merkez yok. Ön-1892 için 'okunmadı' (Polynesian/Gilbertese akademik kaynak paywall)."
+  },
+  {
+    "yer": "Banaba (Ocean Island)",
+    "sinif": "okunmadi",
+    "oneri": "Öneri yok. 1285-1900 beyanlı boşluk korunur.",
+    "kaynak": "Bu turda Banaba'ya özgü okunabilir açık metin bulunamadı (archive.org başlık araması 'Ocean Island Banaba' yalnız bir radyo-amatör kaydı döndürdü). Colonial Reports 1914/1934 G&E ve Mahaffy 1909 raporu okunmadı.",
+    "kunye_kontrol": "Ön-1900 Banaba için künye yok; nauru-kabileleri komşu emsal (Nauru On İki Aşireti) ama Banaba'yı kapsadığı kaynakta yok → atama çıkarım.",
+    "not": "④ yerleşim var (Banabalılar; Britannica: 1804'te görüldü). ⑤ yok."
+  },
+  {
+    "yer": "Funafuti",
+    "sinif": "okunmadi",
+    "oneri": "Öneri yok. 1285-1892 beyanlı boşluk korunur.",
+    "kaynak": "Açık metin bulunamadı: Colonial Reports 1914 G&E tarihçe bölümü okunmadı; Mahaffy 1909 raporu okunmadı; Butler 1878 (Whitmee, Ellice Adaları) biyoloji makalesi, siyasi içerik yok.",
+    "kunye_kontrol": "Ellice Adaları için ön-1892 künye yok (tuvalu f 1978). Tui Tonga imparatorluğu (tui-tonga-imparatorlugu t 1845) Ellice'e uzandığına dair kaynak okunmadı → atanmaz.",
+    "not": "④ yerleşim var (atol yerleşik). ⑤ yok."
+  },
+  {
+    "yer": "Daru",
+    "sinif": "bulunamadi",
+    "oneri": "Öneri yok. 1285-1884-11-06 beyanlı boşluk korunur; mevcut s (1884-11-06→1906-09-01 ingiltere) korunur.",
+    "kaynak": "J.H.P. Murray, Papua; or British New Guinea (1912; archive.org bub_gb_55YBAAAAMAAJ): «the Island of Daru, the site of the Government station for the Western Division»; «The Serdang and the Merrie England met at Daru on October 31st, and the Honourable G. C. Murray, R.M., of the Western Division» (1900). İstasyon kuruluş yılı Murray'da YOK; AHS 56(4) 2024 gövdesi okunamadı.",
+    "kunye_kontrol": "ingiltere (British New Guinea himayesi) mevcut; 1884-1906 dönemi atlasta zaten var. Ön-1884 Daru Adası'nda (Kiwai Papualıları) devlet yok; künye açma ayrı karar.",
+    "not": "④ yerleşim: Daru adası 1900'de hükümet istasyonu; 1884 öncesi yerleşim yeri olarak kuruluşu bulunamadı. ⑤ yok."
+  },
+  {
+    "yer": "Vanimo",
+    "sinif": "bulunamadi",
+    "oneri": "Öneri yok. 1285-1884 beyanlı boşluk; mevcut Alman dönemi s korunur.",
+    "kaynak": "Açık metin bulunamadı: archive.org'da 'Vanimo/Wanimo/Angriffshafen' başlığıyla yalnız dil listesi ve Vikipedi PDF'leri çıktı; Mackenzie, The Australians at Rabaul (AWM) önceki turda (1915-16 var olduğunu gösterdi) — kuruluş yılı yok.",
+    "kunye_kontrol": "almanya (1884-11-03→1914-09-17) mevcut; Vanimo'nun 1884'te fiilen Alman Yeni Gine'sine girdiği kaynakla gösterilmedi (önceki tur 'komşudan gün' beyanıyla yazdı).",
+    "not": "④ 1884 öncesi yerleşim kaynaksız → kur: yazılamaz; kırpma da kaynaksız (yerleşim ön-1884'te yoktu denemez). ⑤ yok."
+  },
+  {
+    "yer": "Tumbes",
+    "sinif": "bulunamadi",
+    "oneri": "Öneri yok. 1285-1470 beyanlı boşluk korunur (Chimú ataması yapılmaz). DİKKAT: mevcut inka-imparatorlugu f 1470-01-01 Cieza ile çelişebilir (aşağıda).",
+    "kaynak": "Pedro de Cieza de León, Crónica del Perú I (Markham çev. 1864; archive.org travelsofpedrode33ciez): «Huayna Ccapac had made himself master of the province of the Guancavilcas and of Tumbez» ve «he reached Tumbez, where a fortress was built by his order, although some Indians say that this edifice is more ancient»; ayrıca «in ancient times they waged fierce wars with those of Tumbez» (Puna ile). Chimú bağı Cieza'da YOK. Rostworowski/Hyslop okunmadı (paywall/arama bulunamadı).",
+    "kunye_kontrol": "inka-imparatorlugu f 1438 (BOYALAR'da var); atlasın Tumbes inka f 1470-01-01 (Britannica Chimú 1465-70) ile Cieza'nın Tumbes'i Huayna Capac'a (Tupac Yupanqui'ye değil) bağlaması uyuşmuyor — Huayna Capac tahtı Cieza/Markham'da 1493 sonrasıdır → atlas f 1470 kontrol edilmeli (Hemming okunmadı: ödünç-kilitli).",
+    "not": "④ yerleşim var (Cieza: yoğun nüfuslu vadi, balıkçılık/ticaretle zengin). ⑤ abi merkez: Chan Chan bağı kaynakta yok → önerilmez."
+  },
+  {
+    "yer": "Cajamarca",
+    "sinif": "bulunamadi",
+    "oneri": "Öneri yok. 1285-1465 beyanlı boşluk korunur; Chimú ataması YAPILMAZ.",
+    "kaynak": "Cieza de León (Markham çev. 1864; archive.org travelsofpedrode33ciez): «The natives of Caxamarca state that they were much esteemed by their neighbours before the Yncas subdued them, and that they had their temples and places of worship in the loftier parts of the mountains. Some of them say that they were first subdued by the Ynca Yupanqui, others that it was not so, but that his son Tupac Ynca Yupanqui first conquered them.» — yerel bağımsız şeflik (Chimú vasallığı yok). Markham'ın notu fethi «about 1380 A.D.» (Capac Yupanqui, Garcilaso'ya dayanır; editör notu, Cieza metni değil).",
+    "kunye_kontrol": "inka-imparatorlugu f 1438-01-01; atlasın Cajamarca inka f 1465-01-01 (Britannica Chimú) Cieza'da yıl verilmediğinden doğrulanamaz; Markham notu (~1380, Pachacuti öncesi) atlas künye ucundan (1438) önce — çelişki, kontrol gerekli. Yerel Cajamarca şefliği için künye YOK.",
+    "not": "④ yerleşim var (Cieza: tapınaklar, lordlar). ⑤ abi merkez: kaynak yok. Salomon/Hemming/Rostworowski okunmadı (ödünç-kilitli/paywall)."
+  },
+  {
+    "yer": "Quito",
+    "sinif": "bulunamadi",
+    "oneri": "Öneri yok. 1285-1487 beyanlı boşluk korunur; mevcut inka-imparatorlugu f 1487 Markham'ın dipnotuyla uyumlu.",
+    "kaynak": "Cieza de León (Markham çev. 1864; archive.org travelsofpedrode33ciez), Markham dipnotu: «Before the country of Quito was conquered by the Yncas, it was governed by native kings called Scyris. The Ynca Tupac Yupanqui first extended his dominion beyond the frontiers of Quito, and Huayna Ccapac completed the conquest in 1487.»; ancak aynı çevirmen Giriş'te: «all this information respecting the early inhabitants of Quito ... is derived from Velasco, who wrote only in the end of the last century. In truth, there are scarcely any reliable facts» ve Cieza: «the natives called these royal and noble buildings Quito, whence the city took its name» (şehir adı İnka yapılarından).",
+    "kunye_kontrol": "Quitu-Cara/Scyri krallığı için künye YOK; kaynak (Velasco) güvenilmez → künye açılmaz. Salomon, Native Lords of Quito (archive.org nativelordsofqui0000salo) ve Hemming ödünç-kilitli, search-inside yok → OKUNMADI.",
+    "not": "④ DİKKAT: Cieza yerleşimin adını İnka yapılarından türetir; İnka-öncesi Quito yerleşimi kaynakla DOĞRULANMADI (Britannica: 'market center and political frontier'). Salomon okunana kadar kırpma/künye yok."
+  },
+  {
+    "yer": "Niani",
+    "sinif": "bulunamadi",
+    "oneri": "Öneri yok. 1670 sonrası beyanlı boşluk korunur. UYARI: mevcut mali-imparatorlugu 1281-1670 s'si Hunwick'in şüphesine açık.",
+    "kaynak": "Hunwick, Timbuktu and the Songhay Empire (2003), Giriş dn.23: «It is clear that this royal residence cannot have been as distant as the alleged ‘capital’ of Mali at Niani-on-Sankarani, just within the borders of the present-day Republic of Guinea.» ve dn.14: «It is doubtful that such an army could have reached the ‘capital’ of Niani-sur-Sankarani described in Filipowiak (1979)». 1670 sonrası Niani/Kangaba için Hunwick sessiz (TS 1613 ile biter). Levtzion (Ancient Ghana and Mali, 1973) ve Niane okunamadı.",
+    "kunye_kontrol": "mali-imparatorlugu t 1670-01-01 (BOYALAR'da var); bambara künyesi (Segu/Kaarta) Niani'ye bağlı değil (kaynak yok); ardıl künye (Kangaba/Keita, Samori) devletler.js'te yok.",
+    "not": "Önemli bulgu: Niani'nin (Sankarani) 14. yy. Mali başkenti olduğu iddiası akademik olarak tartışmalı (Hunwick); atlasın Niani 1281-1670 mali kaydı bu açıdan gözden geçirilmeli. ⑤ abi merkez (Kangaba/Siguiri) kaynaklanamadı."
+  }
+]
