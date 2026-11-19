@@ -161,4 +161,7 @@ bölümüne taşınır (tarih + kanıt: commit/dal).
 |---|---|---|
 | 19.11 | 20 aktif dilde çeviri borcu 0 (olay/devlet/arayüz) | HAVVA ve LAB ölçümü, `ceviri.py denetim` açık borç 0; yetim temizliği `cfbb53a7` |
 | 19.11 | 14 `worktree-agent-*` dalının `main`'de olduğu doğrulandı | HAVVA git cherry 16/16 |
+| 19.11 | `main`'e inenler (KASA kapısı): 9 denetim raporu dalı (79b1ed2c4) · lab19-kapsam-listesi (2f066b207) · ceviri-yetim-temizle (cfbb53a7) · asiret-devletsiz-1118 (23ec3e42, 630 nokta) · **lab19-2s-1119b + umit-19-yerlesim-kur-1119-c @c24b05723 (59ce255c; denetle 0, denetle_yayin 0)** | KASA bildirimi |
+| 19.11 | HAVVA: 15 commit'siz + 14 commit'li agent-* worktree temizliği (WIP dalları origin'de) | HAVVA raporu |
+| 19.11 | Birleşik parti red kökü: LAB `yer_id='Dellis'` ↔ yerleşim adı 'Dellîs' (aksan); düzeltildi, LAB'e aksan kuralı verildi | KASA tanısı, ee20284fb |
 | 19.11 | LAB mükerrer birleştirme (99→96 silme) bağımsız doğrulandı | HAVVA: çeviri kaybı yok, taraf eksiği 2 → düzeltildi (Petersburg/Reşt) |
