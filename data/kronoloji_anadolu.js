@@ -1823,9 +1823,9 @@ window.KRONOLOJI_ANADOLU = [
 
 { taraflar:["kilikya-ermeni"], t:"1375-04-14", b:"Memlûk fethiyle krallık sona erdi", tur:"son",
   onem:5, dunya:3, kapsam:"dis", etiket:["son", "Memluk", "Sis", "konu-siyasi"],
-  yer_id:"",
-  d:"Memlûk Sultanlığı'nın son büyük seferi karşısında başkent Sis düştü ve son kral VI. Levon esir alındı; Kilikya Ermeni Krallığı 176 yıllık varlığının ardından tarihe karıştı. Kralın Kahire'deki esareti ve sonraki Avrupa'ya sürgünü bu çöküşün doğrudan sonucudur.",
-  kaynak:"Bournoutian, A Concise History of the Armenian People (2006)", yer_kon:[37.4522,35.8283] },
+  yer:"Sis (Kozan), Kadirli", yer_id:"",
+  d:"Memlûk Sultanlığı'nın son büyük seferi karşısında başkent Sis düştü ve son kral VI. Levon esir alındı; Kilikya Ermeni Krallığı 176 yıllık varlığının ardından tarihe karıştı. Kralın Kahire'deki esareti ve sonraki Avrupa'ya sürgünü bu çöküşün doğrudan sonucudur. Aynı tarihte elden çıkan diğer yerleşim: Kadirli.",
+  kaynak:"Bournoutian, A Concise History of the Armenian People (2006)", ic_not_d:"LAB19-2S-P2: Sis (Kozan) için TDV misis (yerleşim kaydındaki alıntı): «Memlükler 1375'te başşehir Sîs'i ele geçirip Kilikya Ermeni Krallığı'na son verdiler». Kadirli adıyla anılmaz; ABİ MERKEZ Sis (26 km), BEYANLI YAKLAŞIKLIK. 04-14 günü Sis kaydından devralınmıştır, bu oturumda gün teyit edilmedi.", yer_kon:[37.4522,35.8283] },
 
 { t:"1375-06-01", b:"Kilikya Ermenilerinin Kıbrıs'a göçü", tur:"sosyal",
   onem:3, dunya:1, kapsam:"dis", etiket:["göç", "Kıbrıs", "diaspora", "konu-sosyal", "konu-demografi"],

@@ -50,7 +50,7 @@ window.OLAYLAR_ILIRYA0072 = [
 { tur:"antlasma", bolge:3, t:"1806-02-01", k:"antlasma", onem:3, dunya:3, kapsam:"dis", yer_id:"Zadar (Zara)",
   b:"Dalmaçya'nın Fransız idaresine geçişi — Pojun (Bratislava) Antlaşması'nın uygulanması",
   gun:"Şubat 1806 (kaynak AY hassasiyetinde; gün vermiyor)",
-  yer:"Zadar (Zara), Split (Spalato), Şibenik (Sebenico), Knin, Nadin, Vrana (Urana), Sin (Sinj), Klis, Pag (Pago), Uzunada (Dugi Otok), Brakya (Brač), Hvar (Lesina), Vis (Lissa), Korçula (Kurzola), Mliyet (Mljet), Dalmaçya",
+  yer:"Zadar (Zara), Split (Spalato), Şibenik (Sebenico), Knin, Nadin, Vrana (Urana), Sin (Sinj), Klis, Pag (Pago), Uzunada (Dugi Otok), Brakya (Brač), Hvar (Lesina), Vis (Lissa), Korçula (Kurzola), Mliyet (Mljet), Trogir (Traù), Dalmaçya",
   kisiler:"Napolyon Bonapart, Vicenzo Dandolo",
   etiket:["siyaset","toprak-kayip","konu-siyasi"],
   d:"26 Aralık 1805 Pojun (Bratislava/Pressburg) Antlaşması Avusturya'yı İstriya, Dalmaçya ve bütün Adriyatik adalarından vazgeçmeye zorladı. Fransa idareyi Şubat 1806'da fiilen devraldı; Zadar genel proveditör merkezi olarak kaldı ve 1806-1810 arasında bu görevi Venedikli Vicenzo Dandolo yürüttü. Dalmaçya 1809 Schönbrunn Antlaşması'ndan sonra İlirya Eyaletleri'ne katıldı. 1797'den beri süren ilk Avusturya idaresi böylece sona erdi — atlasta bu dönem bugüne kadar kesintisiz Avusturya görünüyordu.",

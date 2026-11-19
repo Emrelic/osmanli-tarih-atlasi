@@ -135,7 +135,7 @@ window.OLAYLAR_ARKEOLOJI_D3_HINT_CIN = [
   "k": "fetih",
   "b": "Zhou'nun Shang'ı fethi (Muye) - tarih çelişkisi: Zhou Shang'ı yener (1046; kaynaklar 1045/1044/1040/1050 diyor)",
   "gun": "MÖ 1046",
-  "yer": "武王伐紂 / 牧野之戰 / 周 / 豐鎬 / 商",
+  "yer": "武王伐紂 / 牧野之戰 / 周 / 豐鎬 / 商 / Haojing (Fenghao, Xi'an yakını)",
   "d": "Kral Wu'nun Shang'a karşı zaferi (Muye) ve Zhou hanedanının kuruluşu; hakemli literatürde tarih 1050/1046/1045/1044/1040 arasında çelişkilidir.",
   "kaynak": "Pankenier D.W. 1992, 'The Bamboo Annals Revisited ... Part 1', BSOAS 55(2):272-297 · https://www.jstor.org/stable/619624 (PDF metin Lehigh: https://www.lehigh.edu/~dwp0/Assets/images/bambooannals1.pdf)",
   "kesinlik": "yil",
