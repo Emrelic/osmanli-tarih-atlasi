@@ -98,13 +98,6 @@ window.OLAYLAR_P0049 = [
 //   ⚠️ Beş maddede harita KIPIRDAMAZ: atlas Kars · Ardahan · Artvin · Antalya
 //   için 1919-1921 işgal/Ermeni dönemini taşımıyor — madde kaynaklı, eksik
 //   olan yerleşim tarafı (B, YAMA-A3-0913.json).
-{ onem:3, dunya:1, bolge_onem:3, puan_s:"v2", kapsam:"ic", t:"1919-04-12", k:"kayip", etiket:["isgal","toprak-kayip","konu-askeri"],
-  b:"Kars'ın İngiliz işgali — Cenûb-ı Garbî Kafkas Hükûmeti dağıtıldı",
-  gun:"12 Nisan 1919",
-  ic_not_gun:"TDV kars '12 Nisan 1919', TDV ahiska '13 Nisan 1919' — bir günlük ayrışma, şehir maddesi esas alındı. Yerleşim tarafı 13 Ekim 2026'da indi: Kars grubu Osmanlı d: 1918-04-25→1919-04-30 (Cenûb-ı Garbî Kafkas/İngiliz dönemi künyesiz, d: ile temsil), ardından Ermeni idaresi.",
-  yer:"Kars", yer_id:"Kars", kisiler:"",
-  d:"Mondros Mütarekesi'nin 1914 sınırlarına çekilme hükmü gereği Osmanlı ordusu Kars'ı boşaltmıştı. Bölge halkı Ermeni ve Gürcü saldırılarına karşı 5 Kasım 1918'de Kars İslâm Şûrası'nı kurdu ve Ocak 1919'daki kongreyle bunu Cenûb-ı Garbî Kafkas Hükûmet-i Muvakkate-i Milliyesi'ne dönüştürdü. TDV'nin Kars maddesine göre İngilizler 12 Nisan 1919'da Kars'ı işgal edip bu hükümeti dağıttı, üyelerini tutuklayarak sürgüne gönderdi ve şehrin denetimini Ermenilere bıraktı.",
-  kaynak:"kars · ahiska" },
 
 { onem:3, dunya:1, bolge_onem:2, puan_s:"v2", kapsam:"ic", t:"1919-04-29", k:"kayip", etiket:["isgal","toprak-kayip","konu-askeri"],
   b:"Antalya'nın İtalyan işgali",

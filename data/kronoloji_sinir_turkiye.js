@@ -66,7 +66,7 @@ window.KRONOLOJI_SINIR_TURKIYE = [
   b:"Kars Antlaşması — doğu sınırının Kafkas cumhuriyetleriyle teyidi", tur:"antlasma", onem:4, dunya:2, kapsam:"dis", yer_id:"Kars",
   etiket:["antlasma","sinir","konu-siyasi"],
   d:"TBMM Hükûmeti, Sovyet Rusya'nın katılımıyla Ermenistan, Gürcistan ve Azerbaycan sovyet cumhuriyetleriyle Moskova Antlaşması'nın sınırını teyit eden antlaşmayı imzaladı. Kars bu antlaşmayla Türkiye sınırları içinde kaldı. Bu olayla Sarp (Karadeniz kıyısındaki sınır başı) Türkiye'ye geçti.",
-  kaynak:"TDV kars · TDV agri: '16 Mart 1921 Moskova ve 13 Ekim 1921 Kars antlaşmalarıyla' · IBS No. 29 s.6 · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): International Boundary Study No. 29, Turkey–U.S.S.R. (library.law.fsu.edu/.../ibs029.pdf) — açıldı, okundu · TDV 'Kars' ve 'Ağrı' (maddenin kaynağı)" },
+  kaynak:"TDV kars · TDV agri: '16 Mart 1921 Moskova ve 13 Ekim 1921 Kars antlaşmalarıyla' · IBS No. 29 s.6 · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): International Boundary Study No. 29, Turkey–U.S.S.R. (library.law.fsu.edu/.../ibs029.pdf) — açıldı, okundu · TDV 'Kars' ve 'Ağrı' (maddenin kaynağı)", yer:"Kars", kisiler:"Kâzım Karabekir", gun:"13 Ekim 1921", bolge_onem:3 },
 
 { t:"1921-10-20", devlet:"tbmm-turkiye", taraflar:["tbmm-turkiye","suriye-lubnan-mandasi"], hat:"d1923-tr-sy-dogu",
   b:"Ankara İtilafnamesi — Türkiye-Suriye sınırının tarifi", tur:"antlasma", onem:4, dunya:3, kapsam:"dis", yer_id:"Ankara",

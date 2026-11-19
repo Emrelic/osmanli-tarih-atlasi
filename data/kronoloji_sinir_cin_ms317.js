@@ -252,7 +252,7 @@ window.KRONOLOJI_SINIR_CIN_MS317 = [
   "onem": 2,
   "dunya": 2,
   "kapsam": "dis",
-  "yer": "Nanjing (Jiankang), Changsha, Fuzhou",
+  "yer": "Nanjing (Jiankang), Changsha, Fuzhou, Jiangling (Jingzhou)",
   "yer_id": "Nanking (Nanjing)",
   "etiket": [
    "toprak-degisimi",
@@ -260,7 +260,7 @@ window.KRONOLOJI_SINIR_CIN_MS317 = [
    "cin-ms317"
   ],
   "d": "Standart tarih metinlerinde tanıklı gün: 30 Nisan 502 (Jülyen; ganzhi 丙寅). Nanjing (Jiankang), Changsha, Fuzhou: Guney Qi → Liang (Guney Hanedani). Şehir başına dönem kaynağı ve açıklamalar ilgili yerleşimin s: kaynak alanındadır.",
-  "kaynak": "南齊書 卷2 高帝紀下, https://zh.wikisource.org/wiki/南齊書/卷2; 梁書 卷2 武帝紀中, https://zh.wikisource.org/wiki/梁書/卷02 ; 梁書 卷2 武帝紀中, https://zh.wikisource.org/wiki/梁書/卷02; 陳書 卷2 高祖紀下, https://zh.wikisource.org/wiki/陳書/卷2 ; Nan Qi Shu 2 (Gaodi ji xia), zh.wikisource.org/wiki/南齊書/卷2 ; Liang Shu 2 (Wudi ji zhong), zh.wikisource.org/wiki/梁書/卷02 ; Liang Shu 2 (Wudi ji zhong), zh.wikisource.org/wiki/梁書/卷02 ; Chen Shu 2 (Gaozu ji xia), zh.wikisource.org/wiki/陳書/卷2 ; Liang Shu 2 (Wu di ji zhong) https://zh.wikisource.org/wiki/梁書/卷02 ; Chen Shu 2 (Gao zu xia) https://zh.wikisource.org/wiki/陳書/卷2 ; Chen Shu 35 (Chen Baoying zhuan) https://zh.wikisource.org/wiki/陳書/卷35 (standart tarih metinleri, zh.wikisource neşirleri)",
+  "kaynak": "Xiao Zixian, Nan Qi shu, juan 8 «Hedi ji» (zh.wikisource.org/wiki/南齊書/卷8; Jiangling Liang topraklarına katıldı: Jiangling için özgü devir kaydı yok, devlet düzeyi BEYANLI YAKLAŞIKLIK) ; 南齊書 卷2 高帝紀下, https://zh.wikisource.org/wiki/南齊書/卷2; 梁書 卷2 武帝紀中, https://zh.wikisource.org/wiki/梁書/卷02 ; 梁書 卷2 武帝紀中, https://zh.wikisource.org/wiki/梁書/卷02; 陳書 卷2 高祖紀下, https://zh.wikisource.org/wiki/陳書/卷2 ; Nan Qi Shu 2 (Gaodi ji xia), zh.wikisource.org/wiki/南齊書/卷2 ; Liang Shu 2 (Wudi ji zhong), zh.wikisource.org/wiki/梁書/卷02 ; Liang Shu 2 (Wudi ji zhong), zh.wikisource.org/wiki/梁書/卷02 ; Chen Shu 2 (Gaozu ji xia), zh.wikisource.org/wiki/陳書/卷2 ; Liang Shu 2 (Wu di ji zhong) https://zh.wikisource.org/wiki/梁書/卷02 ; Chen Shu 2 (Gao zu xia) https://zh.wikisource.org/wiki/陳書/卷2 ; Chen Shu 35 (Chen Baoying zhuan) https://zh.wikisource.org/wiki/陳書/卷35 (standart tarih metinleri, zh.wikisource neşirleri)",
   "gun": "30 Nisan 502 (Jülyen; ganzhi 丙寅)",
   "kesinlik": "gun",
   "sinir_id": [],
@@ -292,33 +292,6 @@ window.KRONOLOJI_SINIR_CIN_MS317 = [
   "kesinlik": "ay",
   "sinir_id": [],
   "ic_not": "CIN2-MS317: sınır maddesi; dönem uçları k12 tarihçe birikiminden alındı ve ganzhi/JDN tutarlılığı betikle sınandı."
- },
- {
-  "t": "0557-02-15",
-  "devlet": "kuzey-zhou",
-  "taraflar": [
-   "bati-wei",
-   "kuzey-zhou"
-  ],
-  "b": "Hanedan/rejim değişimi — Chang'an (Xi'an): Batı Wei Hanedanı → Kuzey Zhou Hanedanı",
-  "tur": "siyaset",
-  "onem": 2,
-  "dunya": 2,
-  "kapsam": "dis",
-  "yer": "Chang'an (Xi'an)",
-  "yer_id": "Xi'an (Chang'an)",
-  "etiket": [
-   "toprak-degisimi",
-   "konu-askeri",
-   "cin-ms317"
-  ],
-  "d": "Standart tarih metinlerinde tanıklı gün: 15 Şubat 557 (Jülyen; ganzhi 辛丑). Chang'an (Xi'an): Batı Wei Hanedanı → Kuzey Zhou Hanedanı. Şehir başına dönem kaynağı ve açıklamalar ilgili yerleşimin s: kaynak alanındadır.",
-  "kaynak": "Zhou shu 1 · Zhou shu 3 (周書/卷03) ; Zhou shu 3 · Sui shu 1 (隋書/卷01) (standart tarih metinleri, zh.wikisource neşirleri)",
-  "gun": "15 Şubat 557 (Jülyen; ganzhi 辛丑)",
-  "kesinlik": "gun",
-  "sinir_id": [],
-  "ic_not": "CIN2-MS317: sınır maddesi; dönem uçları k12 tarihçe birikiminden alındı ve ganzhi/JDN tutarlılığı betikle sınandı.",
-  "ic_not_takvim": "ic_not_takvim: Çin ay-güneş takvimi ganzhi gün adı 辛丑 → Jülyen 0557-02-15 (JDN hesabı; ganzhi/JDN tutarlılığı sınandı; sınama: 乙卯 = 220-11-25, 丁酉 = 311-07-13) = Gregoryen 0557-02-17; 1582 öncesi gün Jülyen kalır"
  },
  {
   "t": "0557-11-16",
@@ -904,33 +877,6 @@ window.KRONOLOJI_SINIR_CIN_MS317 = [
   "sinir_id": [],
   "ic_not": "CIN2-MS317: sınır maddesi; dönem uçları k12 tarihçe birikiminden alındı ve ganzhi/JDN tutarlılığı betikle sınandı.",
   "ic_not_takvim": "ic_not_takvim: Çin ay-güneş takvimi ganzhi gün adı 辛巳 → Jülyen 0937-01-11 (JDN hesabı; ganzhi/JDN tutarlılığı sınandı; sınama: 乙卯 = 220-11-25, 丁酉 = 311-07-13) = Gregoryen 0937-01-16; 1582 öncesi gün Jülyen kalır"
- },
- {
-  "t": "0937-11-10",
-  "devlet": "guney-tang",
-  "taraflar": [
-   "yang-wu",
-   "guney-tang"
-  ],
-  "b": "Hâkimiyet değişimi — Nanjing (Jiankang): Wu (Yang Wu) Krallığı → Güney Tang (Nan Tang) Krallığı",
-  "tur": "fetih",
-  "onem": 1,
-  "dunya": 1,
-  "kapsam": "dis",
-  "yer": "Nanjing (Jiankang)",
-  "yer_id": "Nanking (Nanjing)",
-  "etiket": [
-   "toprak-degisimi",
-   "konu-askeri",
-   "cin-ms317"
-  ],
-  "d": "Standart tarih metinlerinde tanıklı gün: 10 Kasım 937 (Jülyen; ganzhi 甲申). Nanjing (Jiankang): Wu (Yang Wu) Krallığı → Güney Tang (Nan Tang) Krallığı. Şehir başına dönem kaynağı ve açıklamalar ilgili yerleşimin s: kaynak alanındadır.",
-  "kaynak": "資治通鑑 卷263 (Sima Guang, 1084), https://zh.wikisource.org/wiki/資治通鑑/卷263; 新五代史 卷61 吳世家, https://zh.wikisource.org/wiki/新五代史/卷61; 資治通鑑 卷281 (Sima Guang, 1084), https://zh.wikisource.org/wiki/資治通鑑/卷281 ; 資治通鑑 卷281 (Sima Guang, 1084), https://zh.wikisource.org/wiki/資治通鑑/卷281; 宋史 卷3 太祖紀三, https://zh.wikisource.org/wiki/宋史/卷003 (standart tarih metinleri, zh.wikisource neşirleri)",
-  "gun": "10 Kasım 937 (Jülyen; ganzhi 甲申)",
-  "kesinlik": "gun",
-  "sinir_id": [],
-  "ic_not": "CIN2-MS317: sınır maddesi; dönem uçları k12 tarihçe birikiminden alındı ve ganzhi/JDN tutarlılığı betikle sınandı.",
-  "ic_not_takvim": "ic_not_takvim: Çin ay-güneş takvimi ganzhi gün adı 甲申 → Jülyen 0937-11-10 (JDN hesabı; ganzhi/JDN tutarlılığı sınandı; sınama: 乙卯 = 220-11-25, 丁酉 = 311-07-13) = Gregoryen 0937-11-15; 1582 öncesi gün Jülyen kalır"
  },
  {
   "t": "0946-08-30",

@@ -113,11 +113,6 @@ window.OLAYLAR_EK12 = [
   d:"Tilsit barışıyla (9 Temmuz 1807) Prusya'dan ayrılıp Fransız koruması altında serbest şehir yapılan Danzig'i Napolyon'un kuvvetleri 1813 kuşatmasından sonra terk etti. 2 Ocak – 4 Şubat 1814 arasında şehirde Rus-Prusya ikili iktidarı sürdü; Çar Aleksandr'ın Danzig ve Vistül ağzını alma planından vazgeçmesiyle şehir Prusya idaresine geçti.",
   kaynak:"Gedanopedia (Encyklopedia Gdańska), 'WOLNE MIASTO GDAŃSK, 1807–1815' AYNEN: 'Po opuszczeniu przez wojska napoleońskie miasta na krótko, między 2 stycznia a 4 lutego 1814, doszło w nim do dwuwładzy.' · 'Sytuację wyjaśniło wycofanie się z końcem stycznia 1814 cara Aleksandra I z planów zajęcia przez Rosję Gdańska i ujścia Wisły.' · kuruluş: '… traktatów … francusko-pruskiego z 9 VII 1807 zawartych w Tylży …'" },
 
-{ onem:3, dunya:2, bolge_onem:3, puan_s:"v2", bolge:1, t:"1920-11-15", k:"siyaset", kapsam:"dis", etiket:["siyaset","konu-siyasi"],
-  b:"Danzig Serbest Şehri Milletler Cemiyeti koruması altında kuruldu",
-  gun:"15 Kasım 1920", yer:"Danzig (Gdańsk)", yer_id:"Gdansk",
-  d:"Versay Antlaşması'yla Almanya'dan ayrılan Danzig, 10 Ocak 1920'den itibaren müttefik büyük devletlerin geçiş idaresinde kaldı; 15 Kasım 1920'de Milletler Cemiyeti'nin koruması altında Polonya ile gümrük birliği içindeki serbest şehir olarak kuruldu.",
-  kaynak:"Gedanopedia (Encyklopedia Gdańska), 'WOLNE MIASTO GDAŃSK, 1920–1939' AYNEN: 'Od 10 I do 15 XI 1920, w okresie przejściowym, II WMG znajdowało się pod zarządem głównych mocarstw sprzymierzonych.' · '9 I 1920 podpisano protokół przejęcia Gdańska przez aliantów, w wyniku którego Niemcy straciły wszelkie prawa na jego obszarze.'" },
 
 { onem:3, dunya:2, bolge_onem:3, puan_s:"v2", bolge:1, t:"1815-05-03", k:"siyaset", kapsam:"dis", etiket:["siyaset","diplomasi","konu-diplomasi"],
   b:"Viyana'da Krakov serbest, bağımsız ve tarafsız şehir ilân edildi",
@@ -126,12 +121,6 @@ window.OLAYLAR_EK12 = [
   d:"Viyana Kongresi'nde Rusya, Avusturya ve Prusya, Krakov şehrini çevresiyle birlikte üç devletin koruması altında serbest bir devlet yaptı; Viyana Nihai Senedi bu düzeni tescil etti.",
   kaynak:"P. Cichoń, 'The Free City of Kraków in the Regional Security Policies of its Neighbouring States', Krakowskie Studia z Historii Państwa i Prawa 12/4 (2019), s. 523-535, doi:10.4467/20844131KS.19.025.11643: Avusturya, Prusya ve Rusya'nın 'additional treaty signed on 3 May 1815' ile Krakov serbest, bağımsız ve tarafsız şehir oldu ; Encyclopædia Britannica 1911, 'Cracow' (Wikisource) AYNEN: 'by the Final Act of the congress signed at Vienna in 1815, \"the town of Cracow, with its territory, is declared to be for ever a free, independent and strictly neutral city, under the protection of Russia, Austria and Prussia.\"' · gün: Hertslet No. 14 (künyeden)" },
 
-{ onem:3, dunya:2, bolge_onem:3, puan_s:"v2", bolge:1, t:"1846-11-11", k:"siyaset", kapsam:"dis", etiket:["siyaset","diplomasi","konu-diplomasi"],
-  b:"Krakov Serbest Şehri kaldırıldı, Avusturya'ya katıldı",
-  gun:"11 Kasım 1846", ic_not_gun:"EB1911 yalnız 'November 1846' veriyor; gün künye krakow-serbest-sehri'nin kaynağından (Hertslet No. 202, Avusturya imparatorunun ilhak beyannamesi) — bu turda yeniden okunmadı.",
-  yer:"Krakov", yer_id:"Krakov",
-  d:"Şubat 1846 Krakov ayaklanmasını bahane eden Rusya, Avusturya ve Prusya, Viyana'daki konferansta serbest şehri kaldırıp Avusturya topraklarına katmaya karar verdi; İngiltere ve Fransa'nın itirazları sonuç vermedi.",
-  kaynak:"Tomasz Kargol, 'Włączenie Krakowa do Austrii w 1846 r. w świetle wybranych tytułów prasy austriackiej i niemieckiej', Historia Slavorum Occidentis 23 (2023), s. 179 vd., doi:10.15804/hso230306 — «manifesty cesarza austriackiego Ferdynanda I z 11 listopada 1846 r. i feldmarszałka Heinricha Castiglionego z 16 listopada 1846 r.»", ic_not_d:"DUNYA-1102 hücre 6 (KASA, 2 Kasım 2026): teyit tek kaynak. Önceki kaynak (Encyclopædia Britannica 1911, «Cracow» https://en.wikisource.org/wiki/1911_Encyc) dayanak olamaz, değiştirildi. Üç tarih ayrı olayları belirtir: 6 Kasım 1846 üç hükümetin 3 Mayıs 1815 ek antlaşmasını feshedip şehri Avusturya'ya katma kararı; 11 Kasım 1846 İmparator I. Ferdinand'ın katılma manifestosu (atlasın t'si bu); 16 Kasım 1846 Castiglione'nin Krakov'da ilanı/fiilî devir. Atlas 11 Kasım'ı tutabilir; harita değişimi manifesto ile mi ilanla mı olacağı bir yorum meselesi. Eski kaynak Britannica 1911 yalnız yıl veriyordu." },
 
 { onem:3, dunya:2, bolge_onem:3, puan_s:"v2", bolge:1, t:"1893-01-01", k:"fetih", kapsam:"dis", etiket:["askeri","konu-askeri"],
   b:"Bornu, Râbih b. Zübeyr'in hâkimiyetine girdi",

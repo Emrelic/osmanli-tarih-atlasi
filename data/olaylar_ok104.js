@@ -65,12 +65,6 @@ window.OLAYLAR_OK104 = [
 
 // ── POST-IT #4 · Draç 1392 — Venedik. Yıl: Sufflay (Medieval Albania) + Men of Empire (Venedik tarafı);
 // TDV drac yılsız. Gün teyitsiz → 1392-01-01.
-{ onem:2, dunya:1, bolge_onem:2, puan_s:"v2", kapsam:"dis", bolge:3, t:"1392-01-01", k:"siyaset", etiket:["toprak-kazanc","diplomasi","konu-siyasi"],
-  b:"Draç (Durrës) Thopia'dan Venedik'e geçti",
-  gun:"1392", yer:"Draç", yer_id:"Draç",
-  kisiler:"George Thopia",
-  d:"Charles Thopia'nın 1368'de aldığı Draç'ı oğlu George Thopia 1392'de Venedik'e bıraktı (TDV Draç: 'Thopia’nın oğlu George tarafından Venedik’e bırakıldı', yılsız); Venedik şehrin statülerini Ağustos 1392'de onayladı. Venedik, Draç'ı 1501'de Osmanlılar alana kadar elinde tuttu. Yalnız yıl bilinir; gün teyitsizdir.",
-  kaynak:"drac", duygu:["😐"] },
 
 // ── DRAC-1018 · Draç 1304 — Anjou'ya dönüş. TDV drac/arnavutluk bu aralığı anlatmaz;
 // yıl: Europange / Angevin Studies 'Albania presentation'. Gün teyitsiz → 1304-01-01.
