@@ -298,6 +298,7 @@
          DUPLICATE id AÇMAMAK için tekrar edilmedi (bkz. #olay-akisi h2). -->
     <!-- ARAYUZ-0082 / H-0087 — sürüm damgası üst çubuktan BURAYA indi
          (kendi satırında, sağa yaslı dipnot). Değeri yine js/app.js yazar. -->
+    <span id="ustbar-alan" title="O anki toprak alanı ve tarihteki zirveye oranı"></span>
     <span id="surum-etiketi" title="Yayın sürümü (git commit sayacı)"></span>
     <!-- 🏷️ KOŞU DAMGASI (Emre, 5 Ekim 2026) — sürümün YANINDA, ayrı span.
          Niçin ayrı: yayın numarası (rNNNN) her commit'te artar, koşu numarası
@@ -338,7 +339,11 @@
        onun üstüne geçti). Etiket id'si DEĞİŞTİ (`ustbar-alan`) çünkü artık
        başka bir konteynerde/başka bir stil ailesinde; js/app.js'teki iki
        `getElementById("alan-goster")` çağrısı da `ustbar-alan`'a çevrildi. -->
-  <span id="ustbar-alan" title="O anki toprak alanı ve tarihteki zirveye oranı"></span>
+  <!-- 🔴 19 Kasım 2026 — Emre: "site başlığındaki zirvenin yüzde şu kadarı yazısını
+       buton penceresinin içine koyalım şimdilik." `#ustbar-alan` buradan KALKTI
+       (üst çubuk sadeleşti) ve `#menu-butonlar`ın İÇİNE, sürüm damgasının hemen
+       üstüne taşındı (aşağıda, `#surum-etiketi`nin yanında). Id aynı —
+       js/app.js `getElementById("ustbar-alan")` ile yazıyor, dokunulmadı. -->
   <!-- 🆕 2 Eylül 2026 — kuyruk ⑤/②, Emre'nin bugünkü kararı: p2/H-0010'da
        kaldırılan "Hakkında" (proje künyesi + BEKLEYENLER tablosu) GERİ
        GELMİYOR — yalnız MİNİMAL bir sürüm damgası. Değer BURADA elle

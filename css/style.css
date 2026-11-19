@@ -2645,8 +2645,19 @@ span.ob-madde-gorsel-kaynak { color: #6b5a33; border-bottom: none; font-style: i
   margin-left: 4px;
 }
 #ustbar-alan:empty { display: none; }
-/* Dar ekranda çubuk kalabalıklaşmasın — yıl ve dönem etiketi önceliği alır. */
-@media (max-width: 720px) { #ustbar-alan { display: none; } }
+/* 19 Kasım 2026 — Emre: "zirvenin yüzde şu kadarı yazısını buton penceresinin
+   içine koyalım." `#ustbar-alan` artık `#menu-butonlar`ın içinde: kendi
+   satırında (sürüm damgasının üstü), sağa yaslı, koyu üst çubuk değil krem
+   pencere zemini üzerinde — altın rengi yerine okunur kahve. Dar ekranda da
+   menü açılınca görünür (üst çubukta gizleyen eski kural kaldırıldı). */
+#menu-butonlar #ustbar-alan {
+  flex: 1 0 100%;
+  text-align: right;
+  margin: 4px 0 0;
+  color: #5a4630;
+  opacity: 1;
+  white-space: normal;
+}
 
 /* Konu süzgeci (PLAN-ETIKET §8) — kronoloji listesinin üstünde, KAPALI açılır.
    Varsayılan kapalı: süzgeç bir araç, atlasın kendisi değil; açık dursaydı
