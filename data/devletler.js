@@ -2184,7 +2184,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"eretna", ad:"Eretna Beyliği", tur:"beylik", bolge:"anadolu",
-  f:"1335-01-01", t:"1381-01-01", baskent:"Sivas → Kayseri", harita:"eretna",
+  f:"1335-01-01", t:"1381-03-28", ic_not_t:"UMIT 19 KASIM · 19 Kas 2026 (EMRELİC 19 onayı): t 1381-01-01 → 1381-03-28. TDV KÂDÎ BURHÂNEDDİN: «Sivas’ta hükümdarlığını ilân etti (783/1381)», «Böylece Eretnaoğulları Beyliği’ne son veren Kadı Burhâneddin»; hicrî 783 = 1381-03-28..1382-03-17, kesişimin ilk günü 1381-03-28 (yıl hassasiyeti, gün teyitsiz, BEYANLI). 14 Zilkade 782 / 9 Şubat 1381 nâib tayinidir (hükümdarlık ilânı değil).", baskent:"Sivas → Kayseri", harita:"eretna",
   ozet:"İlhanlı valiliğinden doğan, Orta Anadolu'yu Sivas-Kayseri ekseninde yöneten beylik; Kadı Burhâneddin'in iktidarı ele geçirmesiyle sona erdi. (kaynak: TDV, madde: eretnaogullari)",
   kaynak:"eretnaogullari",
   kronoloji:[
@@ -2195,7 +2195,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"burhaneddin", ad:"Kadı Burhâneddin Devleti (Sivas)", tur:"devlet", bolge:"anadolu",
-  f:"1381-01-01", t:"1398-07-15", baskent:"Sivas", harita:"burhaneddin",
+  f:"1381-03-28", ic_not_f:"UMIT 19 KASIM · 19 Kas 2026 (EMRELİC 19 onayı): f 1381-01-01 → 1381-03-28 (eretna t ile aynı gün; TDV KÂDÎ BURHÂNEDDİN: «Sivas’ta hükümdarlığını ilân etti (783/1381)»; hicrî 783 ilk günü 1381-03-28, yıl hassasiyeti, BEYANLI).", t:"1398-07-15", baskent:"Sivas", harita:"burhaneddin",
   ozet:"Eretna beyliğinin vezirinin kurduğu, Karamanoğulları-Akkoyunlu-Osmanlı arasında sıkışan kısa ömürlü devlet; kurucusunun savaş meydanında ölümüyle çöktü. (kaynak: TDV, madde: kadi-burhaneddin)",
   kaynak:"kadi-burhaneddin",
   kronoloji:[
@@ -12972,9 +12972,9 @@ window.DEVLETLER = [
   ]
 },
 { id:"ukayli", ad:"Ukaylîler", tur:"emirlik", bolge:"mezopotamya",
-  f:"0990-03-31", t:"1096-01-01", baskent:"Musul", boya_gerekli:true,
+  f:"0990-03-31", t:"1096-11-01", baskent:"Musul", boya_gerekli:true,
   ic_not_f:"[19 Ekim 2026 kunye turu] TDV ukayliler: 'Musul'u ele gecirdi (380/990)' — hicri 380 ∩ 990 kesisiminin ilk gunu 0990-03-31 (tablo, ±1-2 gun). | ONCEKI BEYAN: TDV ukayliler: \"Cezîretü İbn Ömer ve Beled’i de alan Ebü’z-Zevvâd, Ebû Tâhir İbrâhim ve oğlunu öldürüp Musul’u ele geçirdi (380/990) ve Musul’da Büveyhîler’e bağlı Ukaylîler hânedanı kuruldu.\" Gün yok → 0990-01-01.",
-  ic_not_t:"TDV ukayliler: \"… Ukaylîler’in Musul’daki hâkimiyeti böylece sona erdi (Zilkade 489 / Kasım 1096).\" Ay biliniyor, gün yok → 1096-01-01, gun: Kasım 1096. Ca‘ber-Rakka kolu 564'te (1169) Zengîler tarafından kaldırıldı — künye t'si Musul koluna göredir (bkz. notlar).",
+  ic_not_t:"UMIT 19 KASIM · 19 Kas 2026 (EMRELİC 19 onayı): t 1096-01-01 → 1096-11-01. TDV UKAYLÎLER: «Ukaylîler’in Musul’daki hâkimiyeti böylece sona erdi (Zilkade 489 / Kasım 1096).»; Zilkade 489 = 1096-10-21..1096-11-19, 'Kasım 1096' ile kesişimin ilk günü 1096-11-01 (ay hassasiyeti, gün teyitsiz, BEYANLI). Cezîre kolları künye dışı. · ÖNCEKİ NOT: TDV ukayliler: \"… Ukaylîler’in Musul’daki hâkimiyeti böylece sona erdi (Zilkade 489 / Kasım 1096).\" Ay biliniyor, gün yok → 1096-01-01, gun: Kasım 1096. Ca‘ber-Rakka kolu 564'te (1169) Zengîler tarafından kaldırıldı — künye t'si Musul koluna göredir (bkz. notlar).",
   ozet:"Musul merkezli, Irak, el-Cezîre ve Kuzey Suriye'de hüküm süren Arap (Benî Ukayl) hânedanı. Önce Büveyhîler'e, sonra Selçuklular'a tâbi oldu; Musul hâkimiyeti 1096'da Kürboğa'nın şehri almasıyla bitti, küçük kolları XII. yüzyıla kadar sürdü.",
   kaynak:"TDV: ukayliler (UKAYLÎLER)",
   kronoloji:[
@@ -13800,11 +13800,11 @@ window.DEVLETLER = [
   ]
 },
 { id:"apulya-dukaligi", ad:"Apulya ve Calabria Dükalığı (Norman)", tur:"dukalik", bolge:"italya",
-  f:"1059-01-01", t:"1128-01-01", baskent:"Melfi, sonra Salerno", boya_gerekli:true,
+  f:"1059-01-01", t:"1128-08-22", baskent:"Melfi, sonra Salerno", boya_gerekli:true,
   alinti_f:"ingrandita poi con le conquiste di Roberto il Guiscardo e trasformata in ducato di Puglia e Calabria (1059)",
   alinti_t:"Morto (1127) il duca Guglielmo senza eredi, R. avanzò i suoi diritti;",
   ic_not_f:"Kaynak yalnız yıl verir. \"Melfi\" (Ağustos 1059 Melfi konsili) adı açılan Treccani maddelerinde GEÇMİYOR; yalnız \"papaca dük tanındı (1059)\" okunuyor. 1042 Apulya kontluğu (Treccani Altavilla) öncül yapıdır; istenirse f 1042'ye genişletilebilir (aynı hanedan, aynı toprak çekirdeği).",
-  ic_not_t:"Dük Guillaume 1127'de mirassız öldü; Treccani Ruggero II: papa dükalığı ona 1128'de vermek zorunda kaldı (\"lo stesso pontefice dovette concedergli il ducato (1128)\"). t=1128-01-01 yıl hassasiyetinde (gün bilinmiyor). Görevde önerilen 1130 değil 1128 seçildi çünkü sicilya-kralligi künyesi Sicilya Kontluğunu da kapsıyor (aşağıda): toprak 1128'de aynı hükümdarın (II. Roger) eline geçti.",
+  ic_not_t:"UMIT 19 KASIM · 19 Kas 2026 (EMRELİC 19 onayı): t 1128-01-01 → 1128-08-22. Treccani DBI «Ruggero II re di Sicilia»: «Il 22 agosto 1128, presso Benevento, Ruggero fu investito del Ducato di Puglia, Calabria e Sicilia dal papa» (kaynak günü, Jülyen, 1582 öncesi). Salerno'yu Ruggero 1127 yazında fiilen aldı (gün yok); hukukî devir günü sınır seçildi, 1127 fiilî ele geçiriş beyanlı. Treccani'deki '1227' ölüm tarihi yazım hatası (1127). · ÖNCEKİ NOT: Dük Guillaume 1127'de mirassız öldü; Treccani Ruggero II: papa dükalığı ona 1128'de vermek zorunda kaldı (\"lo stesso pontefice dovette concedergli il ducato (1128)\"). t=1128-01-01 yıl hassasiyetinde (gün bilinmiyor). Görevde önerilen 1130 değil 1128 seçildi çünkü sicilya-kralligi künyesi Sicilya Kontluğunu da kapsıyor (aşağıda): toprak 1128'de aynı hükümdarın (II. Roger) eline geçti.",
   ozet:"Hauteville (Altavilla) Normanlarının Güney İtalya'daki dükalığı; Robert Guiscard 1059'da papaca dük tanındı, 1127'de soyu tükenince dükalık Sicilya kontu II. Roger'e geçti.",
   kaynak:"Treccani Enciclopedia on line — 'Altavilla' — https://www.treccani.it/enciclopedia/altavilla/ · Treccani Enciclopedia on line — 'Ruggero II re di Sicilia' — https://www.treccani.it/enciclopedia/ruggero-ii-re-di-sicilia/",
   kronoloji:[
@@ -17375,7 +17375,7 @@ window.DEVLETLER = [
     { odak_yer:["Dublin"], t:"1922-01-07", tur:"antlasma", b:"İkinci Dáil antlaşmayı dar farkla onayladı.", kaynak:"https://en.wikipedia.org/wiki/D%C3%A1il_%C3%89ireann_(Irish_Republic)" },
     { odak_yer:["Dublin"], t:"1922-12-06", tur:"son", b:"İrlanda Serbest Devleti kuruldu (26 ilçe); Kuzey İrlanda ayrıldı.", kaynak:"https://en.wikipedia.org/wiki/Irish_Free_State + https://en.wikipedia.org/wiki/Anglo-Irish_Treaty" }
   ] },
-{ id:"sevilla-abbadiler", ad:"Abbâdîler (Sevilla Taifası)", tur:"taifa-emirligi", bolge:"iberya", f:"1023-01-01", t:"1091-01-01", baskent:"Sevilla", ozet:"Kadı İbn Abbâd'ın 1023'te bağımsızlık ilanıyla kurulan, Mu'temid ile sona eren hânedan.", kaynak:"TDV İslâm Ansiklopedisi 'Abbâdîler' (H. D. Yıldız): 1023-1091", kronoloji:[
+{ id:"sevilla-abbadiler", ad:"Abbâdîler (Sevilla Taifası)", tur:"taifa-emirligi", bolge:"iberya", f:"1023-01-01", t:"1091-02-23", ic_not_t:"UMIT 19 KASIM · 19 Kas 2026 (EMRELİC 19 onayı): t 1091-01-01 → 1091-02-23. TDV İŞBÎLİYE: «484’te (1091) Murâbıtlar’ın eline geçen İşbîliye»; hicrî 484 = 1091-02-23..1092-02-12 (tablo takvimi, Jülyen), kaynağın mîlâdî yılı 1091 ile kesişimin ilk günü 1091-02-23 (yıl hassasiyeti, gün teyitsiz, BEYANLI). Önceki 1091-01-01 yıl-temsîlîydi; Sevilla yerleşim dönemi geçişi (abbadiler→murabitlar) aynı güne çekildi.", baskent:"Sevilla", ozet:"Kadı İbn Abbâd'ın 1023'te bağımsızlık ilanıyla kurulan, Mu'temid ile sona eren hânedan.", kaynak:"TDV İslâm Ansiklopedisi 'Abbâdîler' (H. D. Yıldız): 1023-1091", kronoloji:[
     { odak_yer:["Sevilla"], t:"1023-01-01", tur:"kurulus", b:"Muhammed b. Abbâd Sevilla'da bağımsızlığını ilan etti.", kaynak:"TDV İslâm Ansiklopedisi 'Abbâdîler' (islamansiklopedisi.org.tr/abbadiler)" },
     { odak_yer:["Sevilla"], t:"1042-01-01", tur:"hukumdar", b:"Muhammed b. Abbâd öldü; Mu'tazıd Abbâd dönemi başladı.", kaynak:"TDV İslâm Ansiklopedisi 'Abbâdîler' (islamansiklopedisi.org.tr/abbadiler)" },
     { odak_yer:["Sevilla"], t:"1053-01-01", tur:"toprak-kazanc", b:"Mu'tazıd küçük Berberî hânedanlarını boyunduruk altına aldı.", kaynak:"TDV İslâm Ansiklopedisi 'Abbâdîler' (islamansiklopedisi.org.tr/abbadiler)" },
