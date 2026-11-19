@@ -14152,9 +14152,9 @@ window.DEVLETLER = [
   ]
 },
 { id:"seddadiler-gence", ad:"Şeddâdîler (Gence/Arrân kolu)", tur:"emirlik", bolge:"kafkasya",
-  f:"0951-01-01", t:"1075-01-01", baskent:"Dvin, 971'den Gence", boya_gerekli:true,
+  f:"0951-01-01", t:"1075-08-16", baskent:"Dvin, 971'den Gence", boya_gerekli:true,
   ic_not_f:"TDV yıl verir (951). Iranica SHADDADIDS (tarayıcıda birebir): 'to establish himself in Dvin in Armenia ... in about 951'. Gün yok. Iranica'ya göre Gence 969 ya da 970'te alındı (TDV 360/971) — kronolojide TDV.",
-  ic_not_t:"TDV '468/1075-76'; Iranica SHADDADIDS (tarayıcıda birebir): 'Sav Tegin, who seized the region by force from Fażlun in 1075, ending the dynasty’s reign.' Milâdî yıl Iranica'dan. Gün yok.",
+  ic_not_t:"UMIT 19 KASIM · 19 Kas 2026 (EMRELİC 19 yönergesi, 5'li liste): t 1075-01-01 → 1075-08-16. TDV ŞEDDÂDÎLER: «Sultan Melikşah’ın emîrlerinden Savtegin’in Arrân’ı zaptetmesi üzerine (468/1075-76) bölge Selçuklu idaresine girdi»; hicrî 468 = 1075-08-16..1076-08-03 (tablo takvimi, Jülyen), kaynağın mîlâdî yılı 1075 ile kesişimin ilk günü 1075-08-16 (yıl hassasiyeti, gün teyitsiz, BEYANLI). ÇELİŞKİ: TDV GENCE şehirde Melikşah’ın 1076'da muvakkaten aldığını, kesin Selçuklu hâkimiyetini 1088'e koyar; muhafazakâr alternatif t 1088 (karar Emre'nin). ÖNCEKİ NOT: TDV '468/1075-76'; Iranica SHADDADIDS (tarayıcıda birebir): 'Sav Tegin, who seized the region by force from Fażlun in 1075, ending the dynasty’s reign.' Milâdî yıl Iranica'dan. Gün yok.",
   alinti_dogrulama:"birebir",
   ozet:"Muhammed b. Şeddâd'ın 951'de Dvin'de kurduğu, 971'de Gence'yi alarak Arrân'a yayılan Kürt asıllı hânedan; 1054'te Tuğrul Bey'e tâbi oldu, Melikşah'ın emîri Savtegin'in Arrân'ı zaptıyla sona erdi.",
   kaynak:"TDV: seddadiler (ŞEDDÂDÎLER, G. Öğün Bezer); Encyclopaedia Iranica, A. Peacock, 'SHADDADIDS' — https://www.iranicaonline.org/articles/shaddadids/",
