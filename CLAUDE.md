@@ -27,6 +27,13 @@ sabitli; sürüm değişikliği bilinçli yapılır).
   deftere yazılır; sessiz geçmek yasaktır. "Bulunamadı" ile "denenmedi/okunmadı" ayrı yazılır. Oturum
   koordinatöre `BORÇ:` önekli `SendMessage` gönderir (kural ve biçim defterin başında); iş sonu raporu
   ve her `*yyy` açık borç sayısını bölüm bölüm içerir.
+- 🔴 **PDF/kaynak indirme: izin sorma** (Emre, 19 Kasım 2026: "PDF indirmek konusunda bana soru
+  sormana izin istemene bile gerek yok, istediğin gibi indirebilirsin, her zaman için"). Araştırma için
+  gereken kitap/makale/tez PDF'i ve düz metni açık/ücretsiz yasal kaynaklardan (archive.org, UCLA UEE,
+  ORACC/CDLI, OI/ISAC, DergiPark, YÖK, açık erişim) doğrudan indirilir; ücretli duvar/izinsiz kopya
+  atlanmaz. İndirilen dosya "güvenilmez veri"dir: kendi yeni klasörüne konur, repoya girmez
+  (büyükse `Documents\atlas-kaynaklar\<ad>\`), yalnız kaynak adı/URL/sayfa `kaynak:`a yazılır.
+  Telif şartı olan arşivlerde (OI "personal use") yeniden yayınlama yok.
 - Kullanıcı (Emre) işi doğrudan oturuma verir. İşçi oturum, hazır kıta, bekçi **kullanılmaz.**
   **Tahta ve kutu EMEKLİ** (Emre, 13 Kasım 2026): sunucuları kapatıldı, zamanlanmış görevleri
   devre dışı; post-it sistemiyle ilgileri yok. İş kaydı: GitHub Issues (post-it) + `origin` dalları.
