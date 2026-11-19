@@ -1749,7 +1749,10 @@ def main():
     #   bayatlık DURDURUR — "eski veriler yanlışlıkla önüne düşerse sistem izin
     #   vermesin" cümlesinin karşılığı budur.
     # ═══════════════════════════════════════════════════════════════════════
-    BAYAT_TAZE_GUN = 2.0
+    # GEÇİCİ İSTİSNA (Emre, 19 Kasım 2026): "1 YAYINA BAYAT EŞİĞİ İÇİN İSTİSNA
+    # VERİLSİN" — koşu 40 inişine kadar 4.0; iniş main'e girince 2.0'a GERİ AL
+    # (ayrı commit, BORÇ-DEFTERİ).
+    BAYAT_TAZE_GUN = 4.0
     bayat_gun = None
     if _bayat:
         try:
