@@ -21,6 +21,12 @@ sabitli; sürüm değişikliği bilinçli yapılır).
 - 🔴 **İşe başlamadan önce kendi worktree'ne geç:** dosya değiştirecek her oturum ilk iş
   `EnterWorktree` aracını işin kısa adıyla çağırır (`.claude/worktrees/<ad>/`, `origin/main`den
   yeni dal). Yalnız okuyan/soru cevaplayan oturum geçmez. Ayrıntı: "Worktree" bölümü.
+- 🔴 **Borç defteri: `BORC-DEFTERI.md`** (Emre, 19 Kasım 2026). Bulunamayan/okunamayan (paywall, şifre,
+  403/404) kaynak, teyit edilemeyen veri, mesai/RAM yüzünden durdurulan ya da yarım kalan iş (tam denetle,
+  koşu, ajan turu, push), hata verip yapılamayan iş ve **Emre'den cevap bekleyen her karar/izin/soru**
+  deftere yazılır; sessiz geçmek yasaktır. "Bulunamadı" ile "denenmedi/okunmadı" ayrı yazılır. Oturum
+  koordinatöre `BORÇ:` önekli `SendMessage` gönderir (kural ve biçim defterin başında); iş sonu raporu
+  ve her `*yyy` açık borç sayısını bölüm bölüm içerir.
 - Kullanıcı (Emre) işi doğrudan oturuma verir. İşçi oturum, hazır kıta, bekçi **kullanılmaz.**
   **Tahta ve kutu EMEKLİ** (Emre, 13 Kasım 2026): sunucuları kapatıldı, zamanlanmış görevleri
   devre dışı; post-it sistemiyle ilgileri yok. İş kaydı: GitHub Issues (post-it) + `origin` dalları.
