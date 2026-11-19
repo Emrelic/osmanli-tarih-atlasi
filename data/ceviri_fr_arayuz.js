@@ -1831,6 +1831,7 @@ Ceviri.ekle("fr","arayuz",{
 "Şubat":["février", "e77340f0"],
 "Şubat #":["février #", "1fc887a9"],
 "Şubat # (TDV ay verir, gün bilinmiyor)":["février # (le TDV donne le mois, jour inconnu)", "6371ca48"],
+"Şubat # (ay hassasiyeti; geçiş günü kaynakta yok)":["février # (précision au mois ; le jour du passage est absent de la source)", "0452f975"],
 "Şubat # (gün belirsiz)":["février # (jour incertain)", "ebe8a3e4"],
 "Şubat # (gün kaynakta yok)":["février # (jour absent de la source)", "d4d75725"],
 "Şubat # (kaynak AY hassasiyetinde; gün vermiyor)":["février # (source à la précision du MOIS ; ne donne pas le jour)", "64d55b93"],

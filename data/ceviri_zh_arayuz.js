@@ -1675,6 +1675,7 @@ Ceviri.ekle("zh","arayuz",{
 "Şubat":["2月", "e77340f0"],
 "Şubat #":["#年2月", "1fc887a9"],
 "Şubat # (TDV ay verir, gün bilinmiyor)":["#年2月（TDV给出月份，日期不详）", "6371ca48"],
+"Şubat # (ay hassasiyeti; geçiş günü kaynakta yok)":["# 2月 (精确到月;过渡日期史料中无)", "0452f975"],
 "Şubat # (gün kaynakta yok)":["#年2月（史料无日期）", "d4d75725"],
 "Şubat # (kaynak AY hassasiyetinde; gün vermiyor)":["#年2月（史料为月份精度；未给出日期）", "64d55b93"],
 "Şubat-Mart #":["#年2月—3月", "74c6cd06"],

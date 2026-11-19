@@ -1671,6 +1671,7 @@ Ceviri.ekle("ur","arayuz",{
 "Şubat":["فروری", "e77340f0"],
 "Şubat #":["فروری #", "1fc887a9"],
 "Şubat # (TDV ay verir, gün bilinmiyor)":["فروری # (TDV ماہ دیتا ہے، دن معلوم نہیں)", "6371ca48"],
+"Şubat # (ay hassasiyeti; geçiş günü kaynakta yok)":["# فروری (مہینے کی درستگی؛ منتقلی کا دن ماخذ میں نہیں)", "0452f975"],
 "Şubat # (gün kaynakta yok)":["فروری # (دن ماخذ میں نہیں)", "d4d75725"],
 "Şubat # (kaynak AY hassasiyetinde; gün vermiyor)":["فروری # (ماخذ ماہ کی درستی پر ہے؛ دن نہیں دیتا)", "64d55b93"],
 "Şubat-Mart #":["فروری-مارچ #", "74c6cd06"],
