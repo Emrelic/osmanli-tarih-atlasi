@@ -61,7 +61,9 @@ sabitli; sürüm değişikliği bilinçli yapılır).
   **HAVVA** koşu + iniş (iniş push'unu kendisi yapar, KASA'dan sıra alır) · **KASA** birleştirme
   + push kapısı + genel koordinasyon (içerik yazmaz; `main`e push yalnız buradan) · **EMRELİC**
   araştırma + yazma ana hattı (kısıtsız) · **UMIT** araştırma + yazma hafif hattı (mesaide
-  Claude+Python ≤%25) · **LAB** denetleme (bağımsız göz) + Emre'nin mesai ekranı. Yazan makine
+  Claude+Python ≤%25; **Emre 19 Kasım 2026: UMIT yalnız araştırma ve yazma yapar — tam denetle,
+  paketle, damga, rebase, push kapısı ve `main`e itme KASA'da**; UMIT dalı düz `git push origin
+  <dal>` ile iter) · **LAB** denetleme (bağımsız göz) + Emre'nin mesai ekranı. Yazan makine
   işini dalda commit'ler, `origin`e iter (main'e değil), dal adını KASA'ya bildirir. Komuta
   zinciri: KASA'nın günlük koordinasyon oturumu → her makinenin günlük oturumu → o makinedeki
   öteki oturumlar. Post-it oturumları araştırma + yazma makinelerinde (UMIT, EMRELİC) açılır.
