@@ -126,37 +126,79 @@
 #ob-kaynakca .kc-b { color: #1565c0; }
 #ob-kaynakca .kc-k, #ob-kaynakca .kc-n, #ob-kaynakca .kc-yok-sinif { color: #6d6d6d; }
 #ob-kaynakca .kc-c { color: #c62828; }
-/* ARAYUZ-0077-B · H-79:16 — devlet seçicide "↺ Yalnız Osmanlı" sıfırlama satırı */
-.devlet-secici-satir.dss-sifirla { font-style: italic; border-bottom: 1px solid var(--altin); }
-/* ACILIS-MADDESI-1110 — "🌍 Tüm dünya kronolojisi" satırı: seçicinin en üstünde, belirgin. */
-.devlet-secici-satir.dss-dunya { font-weight: 600; border-bottom: 1px solid var(--altin); }
-/* Emre 27 Eyl: "ek devlet ilan edemiyorum" — rol artık görünür düğmeden */
-.dss-havuz {
-  position: sticky; top: 0; z-index: 1;
-  display: flex; flex-wrap: wrap; gap: 4px; align-items: center;
-  padding: 6px; background: var(--panel-koyu); border-bottom: 1px solid var(--altin);
-  font-size: 12px;
-  /* Emre 26 Ekim: "6-7 devletten sonra liste görünmez oluyor". ÖLÇÜLDÜ: havuz
-     sticky ve SINIRSIZ büyüyordu; 220 px'lik listenin içinde 10 çipte 201 px,
-     11'de tamamı ⇒ görünen satır 0. Artık 72 px'te durur, kendi içinde kayar;
-     altta satır alanı HER ZAMAN kalır. */
-  max-height: 72px; overflow-y: auto; overscroll-behavior: contain;
+/* ---------- SEÇİCİ v3 (Emre, 19 Kasım 2026) — havuz: odak + ekler, her birinde 🗺 ----------
+   Aynı çizim iki yerde: panelin üstü (#devlet-secici-havuz) ve kronoloji listesinin üstü
+   (#kr-akis-serit). Emre 26 Ekim: "6-7 devletten sonra liste görünmez oluyor" — havuz
+   kendi içinde kayar (max-height), altta liste alanı HER ZAMAN kalır. */
+#devlet-secici-havuz, #kr-akis-serit {
+  display: flex; flex-direction: column; gap: 3px;
+  max-height: 150px; overflow-y: auto; overscroll-behavior: contain;
 }
-.dss-cip {
-  display: inline-flex; align-items: center; gap: 2px;
-  padding: 1px 6px; border: 1px solid var(--altin); border-radius: 10px; background: var(--panel);
+#devlet-secici-havuz {
+  padding: 6px; margin-bottom: 6px;
+  background: var(--panel-koyu); border: 1px solid #d8c9a3; border-radius: 6px;
 }
-.dss-cip-odak { font-weight: 700; }
-.dss-cip-x { border: 0; background: none; cursor: pointer; font: inherit; color: var(--metin); padding: 0 2px; }
-.dss-havuz-bos { opacity: .7; font-style: italic; }
-.dss-nasil { padding: 4px 6px; font-size: 11px; opacity: .8; }
-.devlet-secici-satir .dss-ek {
-  margin-left: 6px; flex: 0 0 auto; cursor: pointer;
-  font: 600 11px Georgia, serif; padding: 1px 6px;
-  border: 1px solid var(--altin); border-radius: 3px; background: var(--panel); color: var(--metin);
+#kr-akis-serit { max-height: 110px; padding: 4px 6px; border-bottom: 1px solid #d8c9a3; }
+#kr-akis-serit:empty { display: none; }
+.dsh-oge {
+  display: flex; align-items: center; gap: 6px;
+  padding: 3px 6px; background: #fffdf6;
+  border: 1px solid #e6dcc0; border-left: 5px solid var(--altin); border-radius: 4px;
+  font-size: 12px; min-width: 0;
 }
-.devlet-secici-satir .dss-ek.secili { background: var(--altin); color: #fff; }
-.devlet-secici-satir .dss-ek:disabled { opacity: .35; cursor: default; }
+.dsh-odak { background: #fbe9b0; font-weight: 700; }
+.dsh-rol {
+  flex: 0 0 auto; font-size: 9px; font-weight: 700; letter-spacing: .4px;
+  padding: 1px 5px; border-radius: 3px; color: #fff; background: #2e7d32;
+}
+.dsh-odak .dsh-rol { background: #8e0b22; }
+.dsh-ad { flex: 1 1 auto; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.dsh-yil { font-weight: 400; font-size: 10.5px; color: #7a6a4a; margin-left: 6px; }
+.dsh-harita {
+  flex: 0 0 auto; display: inline-flex; align-items: center; gap: 2px;
+  font-size: 12px; cursor: pointer; padding: 0 4px; border-radius: 3px; font-weight: 400;
+}
+.dsh-harita:hover { background: #f0e6c8; }
+.dsh-harita input { margin: 0; cursor: pointer; }
+.dsh-harita input:disabled { cursor: default; }
+.dsh-x {
+  flex: 0 0 auto; border: 0; background: none; cursor: pointer;
+  font: 700 14px/1 Georgia, serif; color: #8e0b22; padding: 0 3px;
+}
+.dsh-x:hover { color: #c62828; }
+.dsh-toplu {
+  align-self: flex-start; margin-top: 2px; font-size: 11px; padding: 2px 8px; cursor: pointer;
+  border: 1px solid var(--altin); border-radius: 10px; background: var(--panel); color: var(--metin);
+}
+.dsh-toplu:hover { background: #ffe9a8; }
+.dsh-bos { font-size: 11px; font-style: italic; opacity: .75; padding: 2px; }
+/* Liste üstü: hızlı düğmeler (🌍 tüm dünya · ↺ yalnız Osmanlı) ve sütun başlığı */
+.dss-ust-sira { display: flex; flex-wrap: wrap; gap: 4px; padding: 3px 2px 5px; border-bottom: 1px solid #e6dcc0; margin-bottom: 2px; }
+.dss-hizli {
+  font-size: 11px; padding: 2px 8px; cursor: pointer; font-weight: 600;
+  border: 1px solid var(--altin); border-radius: 10px; background: var(--panel-koyu); color: var(--metin);
+}
+.dss-hizli:hover { background: #ffe9a8; }
+.dss-hizli.secili { background: var(--altin); color: #fff; }
+#devlet-secici-liste-baslik {
+  display: flex; gap: 6px; padding: 0 4px 2px; font-size: 10px; color: #7a6a4a;
+}
+#devlet-secici-liste-baslik span:nth-child(1) { width: 34px; }
+#devlet-secici-liste-baslik span:nth-child(2) { width: 22px; }
+.devlet-secici-satir .dss-radyo, .devlet-secici-satir .dss-kutu { margin: 0; flex: 0 0 auto; cursor: pointer; }
+.devlet-secici-satir .dss-radyo { margin: 0 8px 0 10px; accent-color: #8e0b22; }
+.devlet-secici-satir .dss-kutu { margin-right: 6px; accent-color: #2e7d32; }
+.devlet-secici-satir .dss-kutu:disabled { opacity: .3; cursor: default; }
+.dss-bilgi { flex: 0 0 auto; font-size: 10.5px; color: #7a6a4a; white-space: nowrap; }
+#devlet-secici-alt {
+  position: sticky; bottom: -5px; display: flex; justify-content: flex-end;
+  margin: 6px -7px -5px; padding: 6px 7px; background: #fffdf6; border-top: 1px solid #d8c9a3;
+}
+#devlet-secici-tamam {
+  font-size: 12px; font-weight: 700; padding: 4px 14px; cursor: pointer;
+  border: 1px solid #8e0b22; border-radius: 5px; background: #8e0b22; color: #fff;
+}
+#devlet-secici-tamam:hover { background: #a8142d; }
 
 /* 🔴 `overflow: hidden` HTML'DE DE OLMALI — yalnız body'de yetmiyor.
    Kullanıcı (7 Ağustos 2026): "sayfada bir bozukluk var, butonlar
@@ -880,6 +922,8 @@ body {
   border-radius: 6px;
   font-size: 11.5px;
   box-shadow: 0 6px 16px rgba(0,0,0,0.3);
+  /* v3: panel uzun (havuz + liste + süzgeçler) — ekrandan taşmasın, kendi içinde kaysın */
+  max-height: calc(100vh - 90px); overflow-y: auto; overscroll-behavior: contain;
 }
 #devlet-secici-panel.gizli { display: none; }
 /* 🔝 ÜST SATIR — Emre (25 Ekim 2026): kronoloji seçici · konu süzgeci · uçuş
@@ -911,7 +955,7 @@ body {
    kaydırma sınandı: 1453 · 1683 · 1914'e atlamada satır görünür kaldı. */
 #olay-listesi > .olay { content-visibility: auto; contain-intrinsic-size: auto 40px; }
 .devlet-secici-satir { content-visibility: auto; contain-intrinsic-size: auto 24px; }
-#devlet-secici-liste { max-height: 220px; overflow-y: auto; }
+#devlet-secici-liste { max-height: min(340px, 42vh); overflow-y: auto; border: 1px solid #e6dcc0; border-radius: 4px; }
 #devlet-secici-ara-satir { display: flex; gap: 4px; margin-bottom: 4px; }
 #devlet-secici-ara {
   flex: 1; min-width: 0;
@@ -927,7 +971,8 @@ body {
 .dss-bulunamadi { padding: 6px; font-style: italic; opacity: .75; }
 .devlet-secici-satir {
   display: flex; align-items: center; gap: 5px;
-  padding: 3px 4px; border-radius: 4px; cursor: pointer;
+  padding: 4px 6px 4px 0; border-radius: 0; cursor: pointer;
+  border-bottom: 1px solid #f1ead6;
 }
 .devlet-secici-satir:hover { background: #f0e6c8; }
 .devlet-secici-satir.secili-odak { background: #fbe9b0; font-weight: bold; }
