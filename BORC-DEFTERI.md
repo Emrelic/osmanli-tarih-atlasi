@@ -98,7 +98,7 @@ bölümüne taşınır (tarih + kanıt: commit/dal).
 | D4 | 19.11 | LAB 19 | Paralel yazım kazası | hi/pt/de olay dosyalarında ~1600 kayıt kaybolmuştu, commit'ten geri yüklendi, HAVVA bağımsız doğruladı (kalıcı kayıp yok). Ders: çeviri dosyalarına paralel yazım yok. | KAPANDI (kayıt) |
 | D5 | 19.11 | KASA | abi-merkez-k4 `denetle_yayin` ✗ | önce PAKET BAYAT (KASA paketleri yeniledi), sonra YAYIN BAYAT 2.43 gün | BEYANLI → C3 |
 | D6 | 19.11 | EMRELİC | `ilk-gecis-1118-r2` denetle ölçülemedi | alt ajanın denetle'si 1 sa 40 dk koştu, ben sonlandırdım (çıkış 1 yapay); kapı ölçümü esas | KAPIDA ÖLÇÜLECEK |
-| D7 | 19.11 | HAVVA | Dünkü HAVVA bayat istisnası repoda kayıtsız | KASA taradı: yerel/uncommitted ya da sözlü. Biçimi HAVVA'ya soruldu. | SORULDU |
+| D7 | 19.11 | HAVVA | Dünkü HAVVA bayat istisnası repoda kayıtsız | KASA taradı: yerel/uncommitted ya da sözlü. HAVVA 19 ve HAVVA 17 de bulamadı (HAVVA 17: 'bu oturumda istisna almadım; yalnız 27 Eki kaydı var, o zaman çıkış yolu yeni koşuydu'). Emre'nin 19.11 sözü ("istisna verilsin") geçerli açık izin; dünkü istisnanın hangi oturumda/biçimde verildiği Emre'ye sorulabilir. | KAYITSIZ — Emre'nin bugünkü sözü esas |
 
 ## E. YAZILIM / ARAÇ İŞİ
 
