@@ -1,0 +1,119 @@
+[
+ {"sira":36,"sinif":"kaynak_yok",
+  "yerlesimler":[
+   {"yer":"Burgaz (Burgas)","dosya":"data/yerlesimler_ek29.js","eski_sinir":"s bulgar-carligi t 1371-09-26 / d f 1371-09-26","yeni_sinir":"DEGISMEZ (kaynak yok)","once_sahip":"bulgar-carligi","sonra_sahip":"osmanli"},
+   {"yer":"Malak Dervent (Lalkovo)","dosya":"data/yerlesimler_sinir_kuzey.js","eski_sinir":"s bulgar-carligi t 1371-09-26 / d f 1371-09-26","yeni_sinir":"DEGISMEZ; ama bkz. ic_not (TDV 1369 yil, komsu Elhova/Yanbolu ile celiski)","once_sahip":"bulgar-carligi","sonra_sahip":"osmanli"},
+   {"yer":"Umur Fakih (Fakia)","dosya":"data/yerlesimler_sinir_kuzey.js","eski_sinir":"s bulgar-carligi t 1371-09-26 / d f 1371-09-26","yeni_sinir":"DEGISMEZ (kaynak yok)","once_sahip":"bulgar-carligi","sonra_sahip":"osmanli"}],
+  "kaynak":"TDV murad-i, BIREBIR (includes dogrulandi): «Timurtaş, Kızılcaağaç Yenicesi ve Yanbolu’yu alıp» (Tunca vadisi, 'herhalde 1369 bahar ve yazı'; YIL) — https://islamansiklopedisi.org.tr/murad-i · TDV yanbolu (atlas kaydinda alintili): Yanbolu 1373 ihtimali yuksek.",
+  "ic_not":"Burgaz/Umur Fakih/Malak Dervent icin 1371-09-26'yi (Cirmen gunu) gosteren hicbir tanik bulunamadi; atlas kaydi zaten 'Burgaz'in Osmanli'ya gecis yili kaynakta BULUNAMADI' diyor. Cirmen maddesi (olaylar_ek.js:23) KENDISI 'dolaysiz fetih degil, vasallasma dalgasi' diyor ve yeri Meric vadisi/Makedonya-Rodop; Burgaz/Tunca vadisini anmaz => madde bu uc yerlesimi KAPATAMAZ. TDV murad-i Tunca vadisinde (Elhovo, Yanbolu) 1369 (YIL) der; komsu Elhova d 1369-01-01 yazili, Yanbolu 1373 -> Malak Dervent/Umur Fakih'in 1371-09-26'si komsularla da tutarsiz. Oneri yok: ya Cirmen gunu 'yaklasiklik' diye beyan edilir (kaynak_yok) ya da akademik Bulgar/Osmanli kaynagi (Imber/Inalcik/Burgaz tarihi) bulunana dek BOSLUK/beyan korunur.",
+  "madde_t_degisim":null,"kunye_kontrol":"bulgar-carligi/osmanli: degisiklik onerilmedi"},
+
+ {"sira":43,"sinif":"kaynak_yok",
+  "yerlesimler":[
+   {"yer":"Alasonya (Elassona)","dosya":"data/yerlesimler_ek29.js","eski_sinir":"s katalan t 1388-05-02 / s __BOSLUK__ f 1388-05-02","yeni_sinir":"DEGISMEZ","once_sahip":"katalan","sonra_sahip":"__BOSLUK__"},
+   {"yer":"Dömeke","dosya":"data/yerlesimler_zincir64.js","eski_sinir":"s katalan t 1388-05-02 / s bizans f 1388-05-02","yeni_sinir":"DEGISMEZ","once_sahip":"katalan","sonra_sahip":"bizans"},
+   {"yer":"Golos (Volos)","dosya":"data/yerlesimler_ek29.js","eski_sinir":"s katalan t 1388-05-02 / s __BOSLUK__ f 1388-05-02","yeni_sinir":"DEGISMEZ","once_sahip":"katalan","sonra_sahip":"__BOSLUK__"}],
+  "kaynak":"TDV tesalya, BIREBIR: «Doğu ovası Gazi Evrenos Bey tarafından 1386-1387 kışında fethedildi.» ve «Alexis Angelos Philanthropenos Tesalya’nın idaresini üstlendi (1370-1390). Onun ardından yerine Manuel Angelos geçti (1390-1393).» — https://islamansiklopedisi.org.tr/tesalya · TDV alasonya, BIREBIR: «Gazi Evrenos tarafından 790-791’de (1388-1389) alınmış olmalıdır» — https://islamansiklopedisi.org.tr/alasonya",
+  "ic_not":"1388-05-02 Nerio Acciaiuoli'nin Atina/Akropolis'i almasi (kronoloji_atina_dukaligi.js:66 + kronoloji_katalan.js:54, yer_id Atina). Bu gun Katalan kunyesinin sonudur; Alasonya/Golos/Domeke'nin Katalan idaresinde olduguna dair hicbir tanik yok (zincir 'BEYAN bolge: Tirhala/Yenisehir', TDV tesalya Katalan/Arnavut isgalini Larissa-dogu ovasinin 1315'ten itibaren BOSALMASI olarak anlatir, idare Philanthropenos/Angelos'tadir). Maddeler Thessalia'yi anmaz => 2s kapanmaz ve kapatilmamali. TDV tesalya/alasonya dogu Tesalya'nin Osmanli'ya gecisini 1386-87 kisi (Evrenos) / 1388-89 (olmalidir) verir; atlas 1394-01-01 yaziyor => asil sorun Katalan/BOSLUK/bizans zincirinin kendisi (YIL cakismasi, gun yok). Oneri YAPILMADI: yeni sahip/gun icin gun-hassasiyetli tanik bulunamadi (Setton/Bakker okunamadi). Yeni kayit gerekirse: d f '1387-01-01' YIL (TDV tesalya, Evrenos 1386-87 kisi) + ic_not hicri/yil beyani — EMRELIC karari.",
+  "madde_t_degisim":null,"kunye_kontrol":"katalan t 1388-05-02 (kunye sonu); osmanli f 1299.. ici — oneri uygulanirsa ayrica olculmeli"},
+
+ {"sira":48,"sinif":"kaynak_yok",
+  "yerlesimler":[
+   {"yer":"Beykoz","dosya":"data/yerlesimler_ek23.js","eski_sinir":"s bizans t 1395-08-01 / d f 1395-08-01 (v haracguzar 1372..1395-08-01)","yeni_sinir":"DEGISMEZ","once_sahip":"bizans","sonra_sahip":"osmanli"}],
+  "kaynak":"TDV anadoluhisari, BIREBIR: «Nişancı Mehmed Paşa’ya göre ise burası 797’de (1394-95) yapılmıştır.» ; «Âşıkpaşazâde’ye göre bu ilk kısmın inşa tarihi 793’tür (1390-91).» — https://islamansiklopedisi.org.tr/anadoluhisari",
+  "ic_not":"Madde olaylar_ek.js:120 'Anadolu Hisarı'nın yapımı' t 1395-08-01 ama kendi gun alani '1395 dolayı' (yani gun yok, 08-01 uydurma/yil temsili) ve metni yalniz Bogaz'i anar; Beykoz'u anmaz. TDV iki tarih verir (1390-91 / 1394-95) ve Anadoluhisari'nin yapimi Beykoz'un Osmanli'ya gecisini DEGIL, Bogaz kontrolunu anlatir; Beykoz'un Bizans'tan Osmanli'ya gecisi icin TDV'de (beykoz slug'i bos govde; Sile/Kocaeli) tanik bulunamadi. Anadolu Hisari yerlesiminin kendi d 1395-08-01'i de ayni zayif gune dayanir. Oneri yok.",
+  "madde_t_degisim":"Madde 'Anadolu Hisarı'nın yapımı' t:1395-08-01 -> kesinlik:\"yil\" eklenmeli (gun kaynakta yok; TDV 1394-95 [Nişancı Mehmed Paşa] veya 1390-91 [Âşıkpaşazâde] aralik); Beykoz/Anadolu Hisari kirilmasi 'yil temsili' kalir.",
+  "kunye_kontrol":"bizans/osmanli: degisiklik onerilmedi"},
+
+ {"sira":57,"sinif":"kaynak_yok",
+  "yerlesimler":[
+   {"yer":"Ayasaranda (Sarandë)","dosya":"data/yerlesimler_epir.js","eski_sinir":"s bizans t 1430-10-09 / v Arvanid sancagi f 1430-10-09 t 1537-08-25","yeni_sinir":"DEGISMEZ","once_sahip":"bizans","sonra_sahip":"vassal arvanid-sancagi (nominal)"}],
+  "kaynak":"TDV yanya, BIREBIR: «Bizans tarihçisi Sphrantzes’e (Sfrancis) göre Yanya 1430’un Ekim ayında “Türkler’in Beylerbeyi” Sinan Paşa’ya teslim oldu.» — https://islamansiklopedisi.org.tr/yanya (TDV ayasaranda: bos govde, bulunamadi)",
+  "ic_not":"Yanya 1430-10 AY tanigi (gun TDV'de yok; maddedeki 9 Ekim baska kaynaktan olmali). Sarandë/Ayasaranda'nin Yanya ile birlikte teslimine dair tanik yok; yerlesimin kendisi 'nominal tabiiyet' (v) ve madde yer_id Yanya (Epir) Sarandë'yi anmaz. 'v' kirilmasi icin 2s sartini saglayacak yer eklemesi CIKARIM olur. Oneri yok; kayit Arvanid sancagi/Inalcik tahrir nesri bulunana dek beyanli yaklasiklik.",
+  "madde_t_degisim":null,"kunye_kontrol":"-"},
+
+ {"sira":58,"sinif":"oneri",
+  "yerlesimler":[
+   {"yer":"Takova (Takovo)","dosya":"data/yerlesimler_sahne1108.js","eski_sinir":"s sirp-despotlugu t 1439-08-27 / d f 1439-08-27 t 1444-08-15","yeni_sinir":"AYNI (kirilma gunu degismez)","once_sahip":"sirp-despotlugu","sonra_sahip":"osmanli"}],
+  "kaynak":"TDV semendire, BIREBIR: «Topların kullanıldığı üç aylık bir kuşatmanın ardından şehir Osmanlılar tarafından alındı (16 Rebîülevvel 843 / 27 Ağustos 1439).» ve «15 Ağustos 1444’te Haçlı ordularının tehdidi altındaki II. Murad, Đurađ ile barış yaptı; ona yirmi dört önemli kalesiyle birlikte Semendire’yi» (iade) — https://islamansiklopedisi.org.tr/semendire",
+  "ic_not":"Madde olaylar_ek.js:127 'Semendire'nin ilk alınışı' (27 Ağustos 1439) ve olaylar_2s_1019.js:542 zaten ayni gunde; yer listesi Rudnik/Kragujevac/Çaçak/Valjevo vb. sayiyor, Takova'yi sayAMIYOR (Takovo, Rudnik-Çaçak-Kragujevac arasi). Oneri: madde `yer:` alanina 'Takova (Takovo)' ekle (yerlesim gun/sahip kaydi degismez). Takova'nin kendisi hakkinda TDV tanigi YOK — zincir 'ABİ MERKEZ: Rudnik' (BEYANLI YAKLASIKLIK) ile kalir; Rudnik'in 1439 tanigi da TDV semendire'de adiyla gecmez, madde metni (Sirbistan ilk kez ilhak) esastir. GUVEN DUSUK: Rudnik zinciri sahsen teyit edilmedi (bkz. sira 63).",
+  "madde_t_degisim":"yok (gun ayni); yalniz yer listesine 'Takova (Takovo)' eklenir","kunye_kontrol":"sirp-despotlugu f 1402-01-01 t 1459-06-20 icinde; osmanli — olculdu, tamam"},
+
+ {"sira":60,"sinif":"oneri",
+  "yerlesimler":[
+   {"yer":"Bozbaba (Ay Strati)","dosya":"data/yerlesimler.js","eski_sinir":"s bizans t 1453-05-29 / v (vassal) f 1453-05-29 t 1479-01-25","yeni_sinir":"AYNI","once_sahip":"bizans","sonra_sahip":"osmanli (v, Limni zinciri)"},
+   {"yer":"Alonisos","dosya":"data/yerlesimler.js","eski_sinir":"s bizans t 1453-05-29 / s venedik f 1453-05-29 t 1538-08-01","yeni_sinir":"DEGISMEZ (kaynak yok)","once_sahip":"bizans","sonra_sahip":"venedik"},
+   {"yer":"Batnoz (Patmos)","dosya":"data/yerlesimler.js","eski_sinir":"s bizans t 1453-05-29 / s rodos-sovalyeleri f 1453-05-29 t 1522-12-21","yeni_sinir":"DEGISMEZ (kaynak yok)","once_sahip":"bizans","sonra_sahip":"rodos-sovalyeleri"}],
+  "kaynak":"Bozbaba icin (Limni bagli adasi): TDV limni, BIREBIR: «1453’te İstanbul’un fethinin hemen ardından Limni Osmanlı idaresi altına girdi.» — https://islamansiklopedisi.org.tr/limni . Batnoz/Alonisos: TDV rodos 'on bir adayı daha kontrollerine aldılar' der ama Patmos'u 1453 ile baglamaz; TDV barbaros-hayreddin-pasa Iskiros/Sporad adalarinin 1538'de VENEDIK'ten alindigini söyler, 1453 bir gecis tanigi YOK.",
+  "ic_not":"Bozbaba: oneri — madde 'İstanbul'un Fethi' (olaylar.js:40) yer listesine 'Limni, Bozbaba (Ay Strati)' eklenmesi YA DA ayri dated madde 'Limni Osmanlı idaresine girdi' (t 1453-05-29, kesinlik 'ay': TDV 'hemen ardından' gun vermez) yazilmasi; kaynak yukaridaki TDV limni; ic_not'a 'ABİ MERKEZ: Limni (adanin bagli adasi, TDV limni)' yazilir. Alonisos/Batnoz: 1453-05-29 gunu Bizans'in bu adalari elinde tuttugu da, Venedik/Rodos'a gectigi de kaynakli degil (Constantinople gunu yaklasiklik olarak kullanilmis) => kaynak_yok; beyan gerekir. Dorduncu birim (tsv '(4)') adlarla eslesmedi — 5 yerlesim ayni gunde ve maddelerce kapaniyor (Limni, Bozcaada, Imroz, Iskiros, Iskopelos, Iskiathos ayni kategoride).",
+  "madde_t_degisim":"yok (gun ayni) — yalniz yer listesine Limni/Bozbaba",
+  "kunye_kontrol":"osmanli/bizans: icinde"},
+
+ {"sira":63,"sinif":"kaynak_yok",
+  "yerlesimler":[
+   {"yer":"Takova (Takovo)","dosya":"data/yerlesimler_sahne1108.js","eski_sinir":"s sirp-despotlugu t 1459-06-20 / d f 1459-06-20 t 1717-08-18","yeni_sinir":"DEGISMEZ; Rudnik zinciri icin yil kontrolu gerekli","once_sahip":"sirp-despotlugu","sonra_sahip":"osmanli"}],
+  "kaynak":"TDV semendire, BIREBIR: «20 Haziran 1459’da Lazar Brankoviç’in dul eşi Helena kaleyi Osmanlılar’a teslim etti.» (Semendire) — https://islamansiklopedisi.org.tr/semendire · TDV mahmud-pasa, BIREBIR: «Semendire’yi ele geçiremediyse de Ostrovica ve Rudnik’i zaptetti» (1458, Golubac Temmuz 1458'den once/ayni sefer) — https://islamansiklopedisi.org.tr/mahmud-pasa",
+  "ic_not":"CELISKI: TDV mahmud-pasa Rudnik'i 1458'de (YIL, gun yok) Osmanli'ya gecirir; atlas Rudnik ve Takova 1459-06-20 yaziyor (Semendire gunu). Takova'nin kendi tanigi yok (abi merkez Rudnik). Semendire madde (olaylar_ek.js:51) Rudnik'i anar ama Takova'yi anmaz. Kaynakli duzeltme gunu yok => ONERI YOK; Rudnik zinciri (yerlesimler_ek29.js) 1458 YIL teyidi + Takova'nin madde yer listesine eklenmesi birlikte EMRELIC karari. Takova 1459-06-20'yi dogrulayan bagimsiz tanik BULUNAMADI.",
+  "madde_t_degisim":null,"kunye_kontrol":"sirp-despotlugu t 1459-06-20 (kunye bu gunle bitiyor; 1458 icin kunye t kisalmaz — Semendire/Golubac 1459 guzergahi)"},
+
+ {"sira":78,"sinif":"kaynak_yok",
+  "yerlesimler":[
+   {"yer":"Seyûn (Sayvan)","dosya":"data/yerlesimler_nokta_ortadogu_0917.js","eski_sinir":"v Kesiri reisleri (tabi) t 1635-10-22 / s kesiri-sultanligi f 1635-10-22 t 1659-01-01","yeni_sinir":"DEGISMEZ","once_sahip":"kesiri-sultanligi (v, Osmanli tabi)","sonra_sahip":"kesiri-sultanligi (s)"}],
+  "kaynak":"TDV yemen: Muha'dan ayrilis 22 Ekim 1635 (madde kaynagi: «Mustafa Bey, 10 Cemâziyelevvel 1045’te (22 Ekim 1635) … Muhâ’dan ayrıldı») — https://islamansiklopedisi.org.tr/yemen ; TDV hadramut: Hadramut 1538'de Yemen'e bagli sancak olarak teskilatlandi, idare Kesiri reislerindeydi; 1635 anilmaz (includes ile dogrulanamayan ifade quote edilmedi).",
+  "ic_not":"Seyun'daki 'v tabi' -> 's bagimsiz' degisimi Muha'nin tahliyesine BAGLANMIS (Hadramut Yemen sancagi), ama TDV ne Hadramut'un 1635'te Kesiri'ye kaldigini ne de gunu soyler (Kizildeniz/Tihame degil, Hint Okyanusu kiyisi). Madde olaylar_ek6.js:56 yer_id Moha ve 'Moha, Yemen'; kronoloji_arabistan.js:179 'Kizildeniz'in dogu kiyisi' der, Hadramut'u anmaz. 2s kapatmak icin yer eklemek CIKARIM olur. Serjeant/Wilkinson okunamadi. Oneri yok.",
+  "madde_t_degisim":null,"kunye_kontrol":"-"},
+
+ {"sira":81,"sinif":"kaynak_yok",
+  "yerlesimler":[
+   {"yer":"Edinburg","dosya":"data/yerlesimler.js","eski_sinir":"s iskocya t 1650-09-13 / s ingiltere f 1650-09-13 t 1660-06-08","yeni_sinir":"DEGISMEZ","once_sahip":"iskocya","sonra_sahip":"ingiltere"}],
+  "kaynak":"Oxford Companion to British History, «Dunbar, battle of» (encyclopedia.com, govde okundu): Cromwell 2 Eylul'de Dunbar'da kusatildi, ertesi gun (O.S. 3 Eylul = 13 Eylul Gregoryen) Leslie'yi yendi — Edinburgh'dan SOZ ETMEZ. archontology.org (madde kaynagi): Tender of Union 4/14 Subat 1652'de Edinburgh Mercat Cross'ta ilan edildi.",
+  "ic_not":"Dunbar maddesi (kronoloji_ingiltere.js:1721) Edinburgh'u anmaz ve yer_id bos; Dunbar'dan sonra Edinburgh'un Ingiliz idaresine gectigine dair bu turda tanik okunamadi (Britannica/encyclopedia.com Edinburgh sayfalari acilamadi). Atlasin ayni donemde Glasgow/Aberdeen/Inverness/Perth/Dumfries zincirleri Ingiltere'ye 1652-02-14 (Tender of Union) ile geciyor; Edinburgh'un 1650-09-13'u ayrik. Iki yol: (a) Edinburgh f/t 1652-02-14'e cekilir — kronoloji_ingiltere.js:1977 Tender maddesi Edinburgh'u adiyla anar, 2s kendiliginden kapanir (ama 1650-52 fiili isgali kaynaklanmali); (b) 1650-09 isgali korunur, madde 'Cromwell Edinburgh'a girdi' (Firth, Cromwell: kaynak OKUNMADI) yazilir. Kaynakli secim yapilamadi => kaynak_yok; (a) icin EMRELIC karari beklenir.",
+  "madde_t_degisim":"yok","kunye_kontrol":"ingiltere/iskocya: degisiklik onerilmedi"},
+
+ {"sira":82,"sinif":"kaynak_yok",
+  "yerlesimler":[
+   {"yer":"Edinburg","dosya":"data/yerlesimler.js","eski_sinir":"s ingiltere t 1660-06-08 / s iskocya f 1660-06-08 t 1707-05-12","yeni_sinir":"DEGISMEZ","once_sahip":"ingiltere","sonra_sahip":"iskocya"}],
+  "kaynak":"Hutton, Europe 1450-1789 (encyclopedia.com «Charles II (England)»), madde kaynagi: «on his thirtieth birthday, 29 May 1660, when he entered London» (29 Mayis O.S. = 8 Haziran 1660 Gregoryen) — Edinburgh/Iskocya'dan soz etmez.",
+  "ic_not":"Restorasyon maddesi (kronoloji_ingiltere.js:633) Londra'da; Iskocya idaresi iadesi (Commonwealth'in Iskocya'yi birakmasi, II. Charles'in Iskocya krali olarak taninmasi) metinde yok. Glasgow, Aberdeen, Inverness, Perth, Dumfries ayni 1660-06-08 kirilmasini tasir (tsv'de yalniz Edinburgh isaretli). Iskocya'nin 1660'ta ayri idareye donusunu gosteren ayri akademik tanik (Mackie / Hutton) OKUNAMADI. Madde yer/taraf eklemesi cikarim olurdu.",
+  "madde_t_degisim":null,"kunye_kontrol":"-"},
+
+ {"sira":85,"sinif":"kaynak_yok",
+  "yerlesimler":[
+   {"yer":"Kilindoni (Mafia Adası)","dosya":"bkz. data/yerlesimler_*.js (Mafia)","eski_sinir":"s ... t 1698-12-13 / s umman-zengibar f 1698-12-13","yeni_sinir":"DEGISMEZ","once_sahip":"?","sonra_sahip":"umman-zengibar"},
+   {"yer":"Lindi","dosya":"data/yerlesimler_afrika2.js","eski_sinir":"s svahili-sehirleri t 1698-12-13 / s umman-zengibar f 1698-12-13 t 1890-11-04","yeni_sinir":"DEGISMEZ","once_sahip":"svahili-sehirleri","sonra_sahip":"umman-zengibar"},
+   {"yer":"Mikindani","dosya":"data/yerlesimler_afrika2.js","eski_sinir":"s svahili-sehirleri t 1698-12-13 / s umman-zengibar f 1698-12-13 t 1890-11-04","yeni_sinir":"DEGISMEZ","once_sahip":"svahili-sehirleri","sonra_sahip":"umman-zengibar"}],
+  "kaynak":"TDV zengibar: Zengibar/Kilve/Pate/Mombasa kendi hanedanlari; Umman'a gecis 1698/1699 TDV'de ANILMAZ (zengibar govdesinde 1698/1699 aranadi, bos). Madde: kronoloji_dogu_afrika.js:910 (Fort Jesus, yer_id Mombasa) ve kronoloji_cok_senkron_0930.js:281.",
+  "ic_not":"Maddeler Mombasa/Svahili kiyisini genel anlatiyor; Lindi/Mikindani (guney Tanzanya, Kilwa-Lindi hinterlandi) ve Mafia Adası'nin 1698-12-13'te Umman hakimiyetine girdigi tanik yok — Umman'in guney Svahili kiyisina fiili yayilimi (Kilwa vb.) Pouwels/Sheriff'te daha gec ve kademeli olabilir (OKUNAMADI). Atlas ayni gunu Zengibar, Mombasa, Malindi, Pate, Lamu, Bagamoyo, Tanga, Pangani, Kilwa icin de kullaniyor (bunlar maddelerin yer listesi ile kapaniyor; bu uc degil). Oneri yok.",
+  "madde_t_degisim":null,"kunye_kontrol":"-"},
+
+ {"sira":89,"sinif":"oneri",
+  "yerlesimler":[
+   {"yer":"Mahmudâbâd","dosya":"data/yerlesimler.js","eski_sinir":"s rusya t 1732-02-01 / s safevi f 1732-02-01 t 1736-03-08","yeni_sinir":"s rusya t 1735-03-21 / s safevi f 1735-03-21 t 1736-03-08","once_sahip":"rusya","sonra_sahip":"safevi"}],
+  "kaynak":"TDV sirvan, BIREBIR: «Bakü ile beraber Şirvan’ın sahil kesiminin Ruslar’da kalması» (1724 İstanbul Muahedesi sonrasi) — https://islamansiklopedisi.org.tr/sirvan · atlas madde olaylar_ek7.js:211 (t 1735-03-21, Gence Antlaşması; kaynak: dagistan (TDV) + BRE Гянджинский трактат 1735 (10(21) Mart)): «Rus idaresindeki Salyan ve Şâbüran da bu geri çekilmeyle İran tarafına döner (… haritada Gence günü kullanılır — beyanlı yaklaşıklık).»",
+  "ic_not":"Mahmudâbâd (39.38 K / 49.24 D, Kura-Salyan/Neftçala kiyisi) 1723'ten beri Rusya'da; 1732-02-01 (Rešt: Gîlân/Mâzenderân/Esterâbâd iadesi) Hazar'in GUNEY kiyisini ilgilendirir, Salyan-Mahmudabad sahilini DEGIL (Rešt maddesi kendisi 'Derbend ile Bakü şimdilik Rus elinde kaldı' der; sahil Gence 1735'te doner). Reşt maddesinin gun alani 'gün (21 Ocak/1 Şubat 1732) yalniz zayif kaynak — yıl' diyor. Oneri: Mahmudâbâd'in Rusya->Safevi gecisini 1735-03-21'e (Gence gunu) tasi, Salyan/Şâbüran ile ayni beyanli yaklasiklik; Gence maddesi yer listesine 'Mahmudâbâd' eklenir => 2s kapanir. Karsit kontrol: 1735-03-21..1736-03-08 safevi (kunye safevi t 1736-03-08 icinde). Beyanli yaklasiklik, kaynakta Mahmudabad adi yok.",
+  "madde_t_degisim":"yok; olaylar_ek7.js:211 madde yer listesine 'Mahmudâbâd' ve ic_not'una 'Salyan/Şâbüran ile birlikte, Gence günü — beyanlı yaklaşıklık' eklenir",
+  "kunye_kontrol":"rusya f 1547 t 1917 ve safevi f 1501 t 1736-03-08: 1735-03-21 ikisinin icinde, olculdu"},
+
+ {"sira":94,"sinif":"kaynak_yok",
+  "yerlesimler":[
+   {"yer":"Bedir","dosya":"data/yerlesimler_ok107.js","eski_sinir":"d f 1517-07-06 t 1805-07-20 / s suud-birinci f 1805-07-20 t 1811-11-01","yeni_sinir":"DEGISMEZ","once_sahip":"osmanli","sonra_sahip":"suud-birinci"},
+   {"yer":"Yenbu","dosya":"data/yerlesimler.js","eski_sinir":"d f 1517-07-06 t 1805-07-20 / s suud-birinci f 1805-07-20 t 1811-10-01","yeni_sinir":"DEGISMEZ","once_sahip":"osmanli","sonra_sahip":"suud-birinci"}],
+  "kaynak":"TDV yenbu, BIREBIR: «Mısır Valisi Kavalalı Mehmed Ali Paşa’nın oğulları Tosun ve İbrâhim paşaların öncülüğünde Yenbu‘ tekrar Osmanlı egemenliğine sokuldu (1811).» — https://islamansiklopedisi.org.tr/yenbu · TDV vehhabilik: «1803-1805 yılları arasında Tâif, Mekke ve Medine ele geçirildi.» — https://islamansiklopedisi.org.tr/vehhabilik (Bedir maddesi Vehhabi'yi anmaz)",
+  "ic_not":"TDV Yenbu'nun Vehhabi altina girisini YIL bile vermez (Mekke 1803 sonrasi 'burayi hedef aldilar'); bitis 1811 YIL. Atlasin baslangic 1805-07-20'si icin tanik yok; en yakin madde 'Bâbıâli oldubittiyi kabul etti: Mısır...' (31 g) Mehmed Ali ile ilgili, Hicaz'i anmaz. Gun kaynaksiz => ya yila (kesinlik) dusurulur ya Burckhardt 1831 okunana dek beyan. Bedir icin TDV yoktur. Oneri yok.",
+  "madde_t_degisim":null,"kunye_kontrol":"suud-birinci f 1744-01-01 t 1818-09-09 icinde"},
+
+ {"sira":97,"sinif":"kaynak_yok",
+  "yerlesimler":[
+   {"yer":"Nieuwpoort","dosya":"data/yerlesimler_sahne1108.js","eski_sinir":"s fransa-cumhuriyet t 1814-02-02 / s hollanda f 1814-02-02 t 1830-10-04","yeni_sinir":"DEGISMEZ","once_sahip":"fransa-cumhuriyet","sonra_sahip":"hollanda"}],
+  "kaynak":"kaynak yok: Terneuzen/Encyclopedie van Zeeland Nieuwpoort'u (Belcika kiyisi) kapsamaz.",
+  "ic_not":"Madde kronoloji_sinir_benelux.js:60 (2 Subat 1814, Muttefikler Bruksel'e girdi) KENDI kaynagi yalniz 'Wikipedia Provisional Government of Belgium · ikincil' (Vikipedi tek dayanak olamaz) ve 14 adli yerlesimi sayiyor; Nieuwpoort listede yok. Muttefiklerin Nieuwpoort'a giris gunu tanikli degil (Brüksel 2 Şubat, Gent 4 Şubat; kiyi sonra). Madde yer listesine Nieuwpoort eklemek maddenin gununu Nieuwpoort icin dogrulamaz. Oneri: akademik Belcika kaynagi (Blok, Algemene Geschiedenis der Nederlanden / ANS) okununca Nieuwpoort'a ozgu gun; o zamana kadar yaklasiklik beyani.",
+  "madde_t_degisim":"Madde kaynagi Vikipedi tek dayanak: akademik kaynakla (TDV 'Belçika'/Belgian Revolution kaynaklari, ANS) guclendirilmeli","kunye_kontrol":"fransa-cumhuriyet/hollanda: degisiklik onerilmedi"},
+
+ {"sira":98,"sinif":"oneri",
+  "yerlesimler":[
+   {"yer":"Hâil","dosya":"data/yerlesimler.js","eski_sinir":"s suud-birinci t 1818-09-01 (kesinlik ay) / s hail-ibn-ali f 1818-09-01","yeni_sinir":"AYNI (gun degismez, kesinlik 'ay' kalir)","once_sahip":"suud-birinci","sonra_sahip":"hail-ibn-ali"}],
+  "kaynak":"TDV residiler, BIREBIR: «1818’de Mehmed Ali Paşa kuvvetleri Dir‘iye’ye hâkim olunca Cebelişemmer bölgesi Suûdî hâkimiyetinden çıktı.» — https://islamansiklopedisi.org.tr/residiler · TDV diriye, BIREBIR: «İbrâhim Paşa … şehri 1818 Eylülünde ele geçirdi» — https://islamansiklopedisi.org.tr/diriye",
+  "ic_not":"Madde: 'Dir'iye düştü — ilk Suûdî Devleti sona erdi' (olaylar_ek4.js:101, t 1818-09-09; kronoloji_misir.js:126 ayni gun). Hâil kirilmasi 1818-09-01 (ay), maddeden 8 gun once: ±30 gun icinde. 2s acigi yer/taraf eksigi: madde yeri 'Dir'iye, Necid', Cebelişemmer/Hâil'i anmiyor. Oneri: iki maddenin `yer:` alanina 'Hâil (Cebelişemmer)' ve d metnine 'Cebelişemmer bölgesi (Hâil) de Suûdî hâkimiyetinden çıktı (TDV residiler)' eklenir => 2s kapanir. Hâil gunu 1818-09-01 AY hassasiyetinde kalir; kunye suud-birinci t 1818-09-09 (Hâil'in cikisi bu gunden sonra da olabilir — 'ayin 1'i' ay hassasiyetidir).",
+  "madde_t_degisim":"yok; yalniz yer listesi + d metni (iki dosya: data/olaylar_ek4.js:101 ve data/kronoloji_misir.js:126)",
+  "kunye_kontrol":"suud-birinci f 1744-01-01 t 1818-09-09 ve hail-ibn-ali f 1779-01-01 t 1835-01-01: 1818-09-01 ikisinin icinde, olculdu"}
+]
