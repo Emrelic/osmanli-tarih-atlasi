@@ -1,6 +1,7 @@
 /* ÇEVİRİ es · olay — arac/ceviri.py ile YAZILDI, elle düzenleme: py arac/ceviri.py uygula.
    Kayıt: id → [metin, kaynak_ozet] (olayda alan başına). Tasarım: denetim/CEVIRI-1103/TASARIM.md */
 Ceviri.ekle("es","olay",{
+"OLAYLAR_T5_1000B:1187-01-01:0":{"b": ["Los hermanos Asen tomaron el norte de Bulgaria; Bizancio reconoció el Segundo Estado búlgaro", "ff0554e9"], "d": ["Los hermanos Petar y Asen, con apoyo cumano, recuperaron el norte de Bulgaria; con la paz de 1187 Bizancio reconoció el Segundo Estado búlgaro.", "fc165cbf"]},
 "OLAYLAR_T5_1000B:1189-01-01:0":{"b": ["Serbia afianzó su dominio en Zeta", "794c821d"], "d": ["En 1189 Serbia afianzó su dominio sobre Zeta (incluida la costa de Kotor); se reconoció a Zeta un estatuto especial.", "5f16f312"]},
 "OLAYLAR_T5_1000B:1192-01-01:0":{"b": ["Guido de Lusignan compró Chipre; Nicosia se convirtió en capital", "11017aea"], "d": ["Guido de Lusignan compró la isla a los templarios y convirtió Nicosia en capital.", "b6494b99"]},
 "OLAYLAR_T5_1000B:1201-03-01:0":{"b": ["Kaloyán se apoderó de Varna", "1237fe7f"], "d": ["Los búlgaros, bajo el mando del zar Kaloyán, tomaron Varna a Bizancio en marzo de 1201; la ciudad permaneció dentro de las fronteras del Estado búlgaro en los siglos XIII-XIV.", "b60444f8"]},
