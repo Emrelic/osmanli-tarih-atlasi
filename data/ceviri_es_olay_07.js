@@ -1,6 +1,9 @@
 /* ÇEVİRİ es · olay — arac/ceviri.py ile YAZILDI, elle düzenleme: py arac/ceviri.py uygula.
    Kayıt: id → [metin, kaynak_ozet] (olayda alan başına). Tasarım: denetim/CEVIRI-1103/TASARIM.md */
 Ceviri.ekle("es","olay",{
+"OLAYLAR_T5_1000A:1205-01-01:0":{"b": ["El ildeguizí Abu Bakr tomó Maraga", "03faed10"], "d": ["El ahmadilí Ala al-Din Körpearslan se vio obligado a ceder la fortaleza de Maraga al atabeg ildeguizí Abu Bakr.", "742aae78"]},
+"OLAYLAR_T5_1000A:1206-01-01:0":{"b": ["Los selyúcidas conquistaron Denizli y Honaz", "1053ccc8"], "d": ["Durante el segundo sultanato de Gıyaseddin Keyhusrev I, Denizli y Honaz pasaron a los selyúcidas (las fuentes bizantinas dan 1196; la ficha de los selyúcidas dice 603/1207).", "c102dae3"]},
+"OLAYLAR_T5_1000A:1208-07-16:0":{"b": ["Giyaseddin Keyhusrev I volvió a incorporar Maraş a los selyúcidas", "91b1544e"], "d": ["Keyhusrev organizó una campaña contra los armenios e incorporó Maraş a las tierras selyúcidas.", "5ffaa2f3"]},
 "OLAYLAR_T5_1000A:1211-01-01:0":{"b": ["Kastamonu bajo dominio de los Çobanoğulları — testimonio fechado de la fuente", "10b682ba"], "d": ["La fuente muestra la ciudad de Kastamonu bajo la administración de los Çobanoğulları en esta fecha; la posesión anterior no está fechada en la fuente (el atlas deja en blanco el período previo a esta fecha).", "1cdb9e90"]},
 "OLAYLAR_T5_1000A:1214-11-02:0":{"b": ["İzzeddin Keykâvus I conquistó Sinope", "463ea2b9"], "d": ["El sultán selyúcida İzzeddin Keykâvus I tomó Sinope a los Comnenos de Trebisonda.", "0a71d5c6"]},
 "OLAYLAR_T5_1000A:1222-01-01:0":{"b": ["Alaeddin Keykubad I tomó Kalonoros (Alaiye)", "5a4d6ac2"], "d": ["La fortaleza de Kalonoros, al este de Antalya, fue tomada por los selyúcidas, reconstruida y recibió el nombre de Alaiye (la ficha de Alanya dice 1221).", "a00756da"]},

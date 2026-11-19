@@ -1,6 +1,9 @@
 /* ÇEVİRİ nl · olay — arac/ceviri.py ile YAZILDI, elle düzenleme: py arac/ceviri.py uygula.
    Kayıt: id → [metin, kaynak_ozet] (olayda alan başına). Tasarım: denetim/CEVIRI-1103/TASARIM.md */
 Ceviri.ekle("nl","olay",{
+"OLAYLAR_T5_1000B:1104-06-06:0":{"b": ["Tughtekin stichtte het Atabegaat van Damascus", "f26729c0"], "d": ["Na de dood van Duqaq stichtte de atabeg Tughtekin de dynastie van de Buriden.", "ac9e7419"]},
+"OLAYLAR_T5_1000B:1150-01-01:0":{"b": ["De Almohaden namen Meknes in", "ee976b41"], "d": ["Na lang verzet kwam de stad onder Almohadische heerschappij en werd geplunderd.", "4924b727"]},
+"OLAYLAR_T5_1000B:1154-04-25:0":{"b": ["Nur ad-Din Zengi nam Damascus in", "a4fd8b58"], "d": ["Nur ad-Din Mahmud bracht Damascus onder zijn heerschappij.", "f87fe7de"]},
 "OLAYLAR_T5_1000B:1171-09-13:0":{"b": ["Het Fatimidische bestuur in Egypte kwam ten einde, de Ayyubiden kwamen aan de macht — Alexandrië, Fayoum en Mekka (Hidjaz)", "1c565534"], "d": ["Met het vizierschap van Saladin en de dood van de Fatimidische kalief al-Adid (567/1171) ging Egypte over naar de Ayyubiden; Alexandrië en Fayoum kwamen onder Ayyubidisch bestuur. De dag staat niet in de bron — overgenomen van het einde van de Fatimidische registratie (de dag van de registratie is geen bron). Ook de Hidjaz kwam onder Ayyubidisch bestuur; de opperheerschappij over Mekka ging van de Fatimiden over naar de Ayyubiden (opperheerschappijmodel van Emre #23).", "191ac5be"]},
 "OLAYLAR_T5_1000B:1174-01-01:0":{"b": ["Saladin nam Damascus in", "dfdb11ce"], "d": ["Na de dood van Nur ad-Din ging de stad over naar Saladin al-Ayyubi.", "a20855b8"]},
 "OLAYLAR_T5_1000B:1176-09-17:0":{"b": ["Na Myriokephalon ontruimde Byzantium Dorylaion", "24aef255"], "d": ["Na de nederlaag bij Myriokephalon liet Manuel krachtens het verdrag de versterking van Dorylaion slopen en de stad ontruimen; de Turken begonnen deze plek Eskişehir te noemen.", "d56a7724"]},
