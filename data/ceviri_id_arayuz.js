@@ -408,6 +408,7 @@ Ceviri.ekle("id","arayuz",{
 "# Şubat # (kaynaklarda #-# Şubat)":["# Februari # (dalam sumber #-# Februari)", "9ef85632"],
 "# Şubat # (vefat) – # Şubat # (cülûs)":["# Februari # (wafat) – # Februari # (naik takhta)", "1b919d59"],
 "# Şubat # (ölüm); taç giyme # Mart #":["# Februari # (kematian); penobatan # Maret #", "d8bfe3f3"],
+"# Şubat # [dolaylı tanık: «nakon #. veljače»]":["# Februari # [kesaksian tidak langsung: «nakon #. veljače»]", "65f1f577"],
 "# Şâban # (# Temmuz #) kuruluş, # Nisan # Masavva'nın alınışı":["# Syaban # (# Juli #) pendirian, # April # perebutan Masawa", "3c16b45f"],
 "# Şâban # / # Aralık # Pazartesi akşamı (Selânikî: # Ramazan / # Aralık)":["# Syaban # / # Desember # Senin malam (Selânikî: # Ramadan / # Desember)", "5e63cf59"],
 "# Şâban # / # Ekim #":["# Syaban # / # Oktober #", "c737ed97"],

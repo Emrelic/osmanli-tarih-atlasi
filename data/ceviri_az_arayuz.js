@@ -408,6 +408,7 @@ Ceviri.ekle("az","arayuz",{
 "# Şubat # (kaynaklarda #-# Şubat)":["# Fevral # (mənbələrdə #-# Fevral)", "9ef85632"],
 "# Şubat # (vefat) – # Şubat # (cülûs)":["# Fevral # (vəfat) – # Fevral # (cülus)", "1b919d59"],
 "# Şubat # (ölüm); taç giyme # Mart #":["# Fevral # (ölüm); tac qoyma # Mart #", "d8bfe3f3"],
+"# Şubat # [dolaylı tanık: «nakon #. veljače»]":["# fevral # [dolayı şahidlik: «nakon #. veljače»]", "65f1f577"],
 "# Şâban # (# Temmuz #) kuruluş, # Nisan # Masavva'nın alınışı":["# Şaban # (# İyul #) qurulma, # Aprel # Masavvanın alınması", "3c16b45f"],
 "# Şâban # / # Aralık # Pazartesi akşamı (Selânikî: # Ramazan / # Aralık)":["# Şaban # / # Dekabr # bazar ertəsi axşamı (Səlaniki: # Ramazan / # Dekabr)", "5e63cf59"],
 "# Şâban # / # Ekim #":["# Şaban # / # Oktyabr #", "c737ed97"],

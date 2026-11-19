@@ -408,6 +408,7 @@ Ceviri.ekle("nl","arayuz",{
 "# Şubat # (kaynaklarda #-# Şubat)":["# februari # (bronnen: #-# februari)", "9ef85632"],
 "# Şubat # (vefat) – # Şubat # (cülûs)":["# februari # (overlijden) – # februari # (troonsbestijging)", "1b919d59"],
 "# Şubat # (ölüm); taç giyme # Mart #":["# februari # (dood); kroning # maart #", "d8bfe3f3"],
+"# Şubat # [dolaylı tanık: «nakon #. veljače»]":["# februari # [indirect getuigenis: „nakon #. veljače”]", "65f1f577"],
 "# Şâban # (# Temmuz #) kuruluş, # Nisan # Masavva'nın alınışı":["# Sha'ban # (# juli #) stichting, # april # verovering van Massawa", "3c16b45f"],
 "# Şâban # / # Aralık # Pazartesi akşamı (Selânikî: # Ramazan / # Aralık)":["# Sha'ban # / # december # maandagavond (Selânikî: # Ramadan / # december)", "5e63cf59"],
 "# Şâban # / # Ekim #":["# Sha'ban # / # oktober #", "c737ed97"],

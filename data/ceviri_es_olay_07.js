@@ -1,6 +1,9 @@
 /* ÇEVİRİ es · olay — arac/ceviri.py ile YAZILDI, elle düzenleme: py arac/ceviri.py uygula.
    Kayıt: id → [metin, kaynak_ozet] (olayda alan başına). Tasarım: denetim/CEVIRI-1103/TASARIM.md */
 Ceviri.ekle("es","olay",{
+"OLAYLAR_T5_1000B:1150-01-01:0":{"b": ["Los almohades tomaron Mequinez", "ee976b41"], "d": ["Tras una larga resistencia, la ciudad entró bajo el dominio almohade y fue saqueada.", "4924b727"]},
+"OLAYLAR_T5_1000B:1154-04-25:0":{"b": ["Nur al-Din Zengi tomó Damasco", "a4fd8b58"], "d": ["Nur al-Din Mahmud sometió Damasco a su dominio.", "f87fe7de"]},
+"OLAYLAR_T5_1000B:1171-09-13:0":{"b": ["Terminó la administración fatimí en Egipto y los ayyubíes tomaron el poder — Alejandría, Fayún y La Meca (Hiyaz)", "1c565534"], "d": ["Con el visirato de Saladino y la muerte del califa fatimí al-Adid (567/1171), Egipto pasó a los ayyubíes; Alejandría y Fayún entraron bajo la administración ayyubí. El día no figura en la fuente — se tomó del final de la ficha fatimí (el día de la ficha no es fuente). El Hiyaz también entró bajo la administración ayyubí; la soberanía de La Meca pasó de los fatimíes a los ayyubíes (modelo de soberanía de Emre #23).", "191ac5be"]},
 "OLAYLAR_T5_1000B:1174-01-01:0":{"b": ["Saladino tomó Damasco", "dfdb11ce"], "d": ["Tras la muerte de Nur al-Din, la ciudad pasó a Saladino (Salah al-Din al-Ayyubi).", "a20855b8"]},
 "OLAYLAR_T5_1000B:1176-09-17:0":{"b": ["Tras Miriocéfalo, Bizancio evacuó Dorileo", "24aef255"], "d": ["Tras la derrota de Miriocéfalo, Manuel, conforme al tratado, derribó las fortificaciones de Dorileo y evacuó la ciudad; los turcos empezaron a llamarla Eskişehir.", "d56a7724"]},
 "OLAYLAR_T5_1000B:1178-01-01:0":{"b": ["Amasya fue incorporada a las tierras selyúcidas", "cf56b964"], "d": ["Kılıçarslan II incorporó los territorios danishmendíes (Amasya incluida) al país selyúcida.", "ddbb98aa"]},

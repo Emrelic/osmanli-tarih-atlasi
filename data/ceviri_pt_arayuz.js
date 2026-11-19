@@ -422,6 +422,7 @@ Ceviri.ekle("pt","arayuz",{
 "# Şubat # (kaynaklarda #-# Şubat)":["# de fevereiro de # (nas fontes #-# de fevereiro)", "9ef85632"],
 "# Şubat # (vefat) – # Şubat # (cülûs)":["# de fevereiro de # (falecimento) – # de fevereiro de # (ascensão ao trono)", "1b919d59"],
 "# Şubat # (ölüm); taç giyme # Mart #":["# de fevereiro de # (morte); coroação a # de março de #", "d8bfe3f3"],
+"# Şubat # [dolaylı tanık: «nakon #. veljače»]":["# fevereiro # [testemunho indireto: «nakon #. veljače»]", "65f1f577"],
 "# Şâban # (# Temmuz #) kuruluş, # Nisan # Masavva'nın alınışı":["# Şâban # (# de julho de #) fundação, # de abril de # tomada de Masavva", "3c16b45f"],
 "# Şâban # / # Aralık # Pazartesi akşamı (Selânikî: # Ramazan / # Aralık)":["# Şâban # / # de dezembro de # segunda-feira à tarde (Selânikî: # Ramazan / # de dezembro)", "5e63cf59"],
 "# Şâban # / # Ekim #":["# Şâban # / # de outubro de #", "c737ed97"],
