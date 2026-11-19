@@ -2269,8 +2269,8 @@
     },
     {
      "yol": "data/olaylar_ortacag_bekleyen_acik.js",
-     "sha": "918431b2b37a8c77",
-     "bayt": 160732
+     "sha": "b6e2c3f017d760dc",
+     "bayt": 159596
     },
     {
      "yol": "data/olaylar_kunfuze_1016.js",
@@ -2278,7 +2278,7 @@
      "bayt": 6294
     }
    ],
-   "bayt": 1409619
+   "bayt": 1408715
   },
   {
    "paket": "data/paket_34.js",
@@ -2416,11 +2416,11 @@
     },
     {
      "yol": "data/olay_taraf.js",
-     "sha": "53481c17bc828b62",
-     "bayt": 287976
+     "sha": "990c5a43145532d0",
+     "bayt": 288182
     }
    ],
-   "bayt": 505568
+   "bayt": 505774
   },
   {
    "paket": "data/paket_31.js",

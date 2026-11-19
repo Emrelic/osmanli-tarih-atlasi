@@ -1,6 +1,12 @@
 /* ÇEVİRİ es · olay — arac/ceviri.py ile YAZILDI, elle düzenleme: py arac/ceviri.py uygula.
    Kayıt: id → [metin, kaynak_ozet] (olayda alan başına). Tasarım: denetim/CEVIRI-1103/TASARIM.md */
 Ceviri.ekle("es","olay",{
+"OLAYLAR_T5_1000B:1189-01-01:0":{"b": ["Serbia afianzó su dominio en Zeta", "794c821d"], "d": ["En 1189 Serbia afianzó su dominio sobre Zeta (incluida la costa de Kotor); se reconoció a Zeta un estatuto especial.", "5f16f312"]},
+"OLAYLAR_T5_1000B:1192-01-01:0":{"b": ["Guido de Lusignan compró Chipre; Nicosia se convirtió en capital", "11017aea"], "d": ["Guido de Lusignan compró la isla a los templarios y convirtió Nicosia en capital.", "b6494b99"]},
+"OLAYLAR_T5_1000B:1201-03-01:0":{"b": ["Kaloyán se apoderó de Varna", "1237fe7f"], "d": ["Los búlgaros, bajo el mando del zar Kaloyán, tomaron Varna a Bizancio en marzo de 1201; la ciudad permaneció dentro de las fronteras del Estado búlgaro en los siglos XIII-XIV.", "b60444f8"]},
+"OLAYLAR_T5_1000B:1202-01-01:0":{"b": ["Nishapur fue incorporada definitivamente a los jorezmshahs", "fa4a6cd2"], "d": ["Ala al-Din Muhammad b. Tekish incorporó definitivamente la ciudad a las tierras jorezmshahs.", "58cb9059"]},
+"OLAYLAR_T5_1000B:1204-04-13:0":{"b": ["La península de Galípoli entró bajo administración latina", "27308f59"], "d": ["Tras la Cuarta Cruzada, Galípoli y su comarca pasaron en 1204 a la administración de los latinos.", "48b977ad"]},
+"OLAYLAR_T5_1000B:1204-04-13:1":{"b": ["Se fundó el Despotado de Epiro — Yánina se convirtió en el centro, Lepanto pasó al despotado", "d7966877"], "d": ["Tras la Cuarta Cruzada, Miguel Ángelo fundó el Despotado de Epiro; Yánina se convirtió en el centro del despotado, y Lepanto también quedó dentro de los territorios del despotado.", "632eac4c"]},
 "OLAYLAR_T5_1000B:1204-08-12:0":{"b": ["Creta fue vendida a Venecia", "f1760e84"], "d": ["El marqués Bonifacio de Montferrato cedió Creta a Venecia por 100.000 de plata mediante el acuerdo del 12 de agosto de 1204.", "cdb2570d"]},
 "OLAYLAR_T5_1000B:1219-01-01:0":{"b": ["Se fundó Mansura", "342a6f47"], "d": ["Al-Malik al-Kamil fundó Mansura como campamento frente a los cruzados que habían ocupado Damieta.", "35189819"]},
 "OLAYLAR_T5_1000B:1221-04-10:0":{"b": ["Los mongoles tomaron Nishapur", "0e73f075"], "d": ["La ciudad fue destruida por la invasión mongola.", "be55c768"]},
