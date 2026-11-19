@@ -1,0 +1,40 @@
+1	0569-09-04	Alboin Milano'ya girdi	yerlesimler.js:Milano	0569-09-04 (bizans t = langobard f; Verona 0568'de kalir)	langobard	CMH II (Hartmann, ch.VII) okunmadi
+2	0708-01-01	Tanca ele gecirildi (Musa b. Nusayr)	yerlesimler.js:Tanca	0708-01-01 (hicri 89 ∩ 708 ilk gun, yil)	emevi	TDV tarik-b-ziyad okunmadi; BOSLUK 0429->0708 beyanli kalir
+3	0708-11-20	Kuteybe Buhara'yi teslim aldi	yerlesimler_ek14.js:Buhara	0708-11-20 (hicri 90 ilk gun, yil) veya madde t 0709-01-01'e	emevi	TDV kuteybe-b-muslim okunmadi
+4	0714-01-01	Mesleme Derbend'i aldi	yerlesimler.js:Derbend	0714-01-01 (yil)	emevi	TDV hazarlar (okunmadi); sonrasi BEYANLI BOSLUK
+5	0809-01-01	Han Krum Sofya'yi aldi	yerlesimler.js:Sofya	0809-01-01 (yil)	birinci-bulgar	TDV bulgaristan/sofya okunmadi
+6	0878-05-21	Araplar Sirakuza'yi aldi	yerlesimler.js:Sirakuza	0878-05-21	aglebi	CMH IV okunmadi
+7	0886-01-01	Alfred Londra'yi Danimarkalilardan aldi	yerlesimler.js:Londra	0886-01-01 (yil)	wessex	Oxford Companion okunmadi; sahip B
+8	0902-08-01	Taormina dustu	yerlesimler_ms1_1281_yeni.js:Taormina	0902-08-01	aglebi	CMH IV; kronoloji_sinir_antik_roma.js:280 maddesi t 0902-01-01 -> 0902-08-01 (LAB)
+9	0934-01-01	Bizans Malatya'yi aldi	yerlesimler.js:Eski Malatya	0934-01-01 (yil)	bizans	TDV bizans okunmadi
+10	0943-01-01	Merzuban Azerbaycan/Arran/Irminiye	yerlesimler.js:Erdebil	0943-01-01 (hicri 331 ∩ 943)	musafiri	TDV musafiriler okunmadi
+11	0943-01-01	Vesmgir Rey'i Ruknuddevle'ye kaptirir	yerlesimler_once1281_yt_ortadogu.js:Rey	0943-01-01	buveyhi	TDV ziyariler okunmadi, tek dayanak
+12	0960-01-01	Fatimiler Fas ve Sicilmase'yi aldi	yerlesimler.js:Fas (Fez)	0960-03-03 (hicri 349 ∩ 960)	fatimi	TDV magrave OKUNDU; madde t 0960-01-01 -> 0960-03-03 (LAB); Sicilmase yerlesimi yok
+13	0965-08-16	Tarsus Bizans'a teslim	yerlesimler.js:Tarsus	0965-08-16	bizans	CMH IV (Hussey 1966) okunmadi
+14	0971-04-13	Tzimiskes Buyuk Preslav'i aldi	yerlesimler_ms1_1281_yeni.js:Preslav	0971-04-13	bizans	CMH IV okunmadi
+15	0992-01-01	Harun Bugra Han Semerkant'i aldi	yerlesimler_ek14.js:Semerkant	0992-01-01 (karahanli; samani t = 0992-01-01, tekrar samani f 0992-08-18)	karahanli	TDV karahanlilar okunmadi; BEYANLI YAKLASIKLIK
+16	0993-02-26	Ziri b. Atiyye Fas'i geri aldi	yerlesimler.js:Fas (Fez)	0993-02-26 (hicri 383 ∩ 993)	magrave-fas	TDV magrave OKUNDU; Vecde yerlesimi yok
+17	0997-01-01	Fahruddevle olur; Sellar Ibrahim Zencan...	yerlesimler.js:Zencan	0997-01-01 (hicri 387 ∩ 997)	musafiri	TDV musafiriler okunmadi; Ebher/Suhreverd/Tarum yok
+18	1051-05-15	Feramurz Isfahan'i Selcuklulara teslim etti / Tugrul Bey Isfahan'i kattı	yerlesimler.js:Isfahan	1007-01-01 (kakuyi); 1051-05-15 (buyuk-selcuklu, Muharrem 443)	kakuyi, buyuk-selcuklu	TDV kakuyiler OKUNDU
+19	1069-10-20	Mekke hutbesi Abbasi/Alparslan adina	yerlesimler.js:Mekke	1069-10-20 (fatimi t + buyuk-selcuklu f) veya madde 1070-01-01	buyuk-selcuklu	TDV mekke yil hassasiyeti
+20	1075-08-16	Savtegin Arran'i zapt, Seddadi Gence kolu sona erdi	yerlesimler.js:Gence	1075-08-16 (hicri 468 ∩ 1075)	buyuk-selcuklu	TDV seddadiler; seddadiler-gence kunyesi t 1075-01-01
+21	1077-07-25	Yusuf b. Tasfin Tanca'yi aldi	yerlesimler.js:Tanca	1077-07-25 (hicri 470 ∩ 1077)	murabitlar	TDV murabitlar
+22	1084-05-10	Murabitlar Sebte'ye hakim oldu	yerlesimler_ek3.js:Sebte (Ceuta)	1084-05-10 (hicri 477 ∩ 1084)	murabitlar	TDV murabitlar
+23	1091-02-23	Murabitlar Isbiliye'yi aldi	yerlesimler.js:Sevilla	1091-02-23	murabitlar	TDV isbiliye; sevilla-abbadiler kunye t da 1091-02-23
+24	1096-11-01	Kurboga Musul'u aldi	yerlesimler.js:Musul	1096-11-01	buyuk-selcuklu	TDV ukayliler; ukayli kunye t da
+25	1121-01-01	David Tiflis'teki Selcuklu hakimiyetine son verdi	yerlesimler.js:Tiflis	1121-01-01 (yil)	gurcistan	TDV tiflis; 1121-1260 bosluk
+26	1123-03-01	Ani Gurcu David'e teslim	yerlesimler_ms1_1281_yeni.js:Ani	1123-01-01 (yil)	gurcistan	TDV seddadiler; bitis <=1130 beyanli
+27	1124-06-13	Emir Gazi Malatya'yi teslim aldi	yerlesimler.js:Eski Malatya	1124-06-13	danismendli	TDV danismendliler; TDV mesud-i 10 Aralik celiski
+28	1128-08-22	Apulya Dukaligi (Salerno) II. Roger'in elinde	yerlesimler_nokta2.js:Salerno (+Taranto, Bari, Melfi)	1128-08-22	sicilya-kralligi	Treccani DBI okunmadi
+29	1146-04-28	Abdulmumin Fas'i zapt	yerlesimler.js:Fas (Fez)	1146-04-28	muvahhidler	TDV abdulmumin-el-kumi (541 icel celiski)
+30	1150-04-30	Sultan Mesud Hille'yi Salarkerd'e verdi	yerlesimler.js:Hille	1150-04-30 (hicri 545 ∩ 1150)	irak-selcuklu	TDV mezyediler
+31	1158-11-04	Abdulmumin Tunus'u zapt	yerlesimler.js:Tunus	1158-11-04	muvahhidler	TDV abdulmumin-el-kumi
+32	1208-07-16	Herat Harizmsahlar'a gecti	yerlesimler_ek16.js:Herat	1208-07-16 (hicri 605 ∩ 1208)	harizmsah	TDV herat
+33	1208-07-16	Keyhusrev Maras'i tekrar Selcuklu'ya katti	yerlesimler.js:Maras	1208-07-16	selcuklu	TDV kahramanmaras
+34	1228-06-29	Ebu Zekeriyya el-Hafsi Tunus'a girdi	yerlesimler.js:Tunus	1228-06-29	hafsi	TDV hafsiler
+35	1240-07-23	II. Giyaseddin Keyhusrev Amid'i zapt	yerlesimler.js:Diyarbakir	1240-07-23 (eyyubi t = selcuklu f; hicri 638, yil)	selcuklu	TDV diyarbakir okunmadi
+36	1244-10-20	Kudus Haclilardan geri alindi	yerlesimler.js:Kudus	1244-10-20 veya 1244-07-11 (TDV ic celiski, karar)	eyyubi	TDV kudus OKUNDU; madde yer_id Gazze -> Kudus (LAB)
+37	1251-03-26	Merinîler Rabat ve Sela'yi aldi	yerlesimler.js:Rabat	1251-03-26 (hicri 649)	merini	TDV rabat; Sela TDV 1248 celiskisi
+38	1381-10-01	Eretna Beyligi'nin sonu / Kadi Burhaneddin	yerlesimler.js:Sivas	1381-03-28 (hicri 783 ilk gun) veya "sonbahar" teyidi	burhaneddin	TDV kadi-burhaneddin; madde t de ayni
+39	1811-10-01	Yenbu teslim alindi	yerlesimler.js:Yenbu	1811-10-01 (UMIT UYGULADI)	misir-kavalali	Burckhardt (II, 1831)
+40	1906-04-13	Ibn Suud Residi emirini yendi: Kasim Suudilere gecti	yerlesimler.js:Burayda, Uneyze	1906-04-13	suud-ucuncu	TDV abdulaziz-b-suud; sammar t = 1906-04-13 (1902-01-15 Riyad icindir)

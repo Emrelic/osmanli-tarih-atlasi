@@ -1,0 +1,319 @@
+[
+ {
+  "sira": 3,
+  "madde": "Mithridates Asia eyaletini işgal etti; Efes Vespers",
+  "t": "-0087-01-01",
+  "sinif": "oneri",
+  "oneriler": [
+   {
+    "yer": "Ayasuluk (Selçuk)",
+    "dosya": "data/yerlesimler*.js (Ayasuluk kaydı; tarihçe dosyası sehir_tarihce_osm / yerlesim kaynağına bak)",
+    "degisiklik": "roma-cumhuriyeti [-0132→-0087-01-01], pontus [-0087-01-01→-0084-01-01], roma-cumhuriyeti [-0084-01-01→-0026-01-16] (mevcut iki roma dönemi -0132>-0128 + -0128>-0026 birleştirilip -0087'de bölünür)",
+    "kaynak": "Appianos, Mithridatika 21 (Perseus, Horace White çev.): «After appointing satraps over the various nations he proceeded to Magnesia, Ephesus, and Mitylene, all of which received him gladly.» — https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0230:text=Mith.:chapter=3; Mith. 23: «The Ephesians tore fugitives, who had taken refuge in the temple of Artemis, from the very images of the goddess and slew them.» — https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0230:text=Mith.:chapter=4; geri dönüş (-0084): Mith. 55 Sulla şartı «if he will remove his garrison from all places except those that he held before the outbreak of hostilities» — https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0230:text=Mith.:chapter=8 ve «Archelaus at once withdrew his garrison from all the places he held» — https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0230:text=Mith.:chapter=8. Yıl: antik metin MÖ yıl yazmaz; Perseus Appian kenar notu Mith. 11 'B.C. 88' (savaşın başlangıcı, https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0230:text=Mith.:chapter=2), MÖ 85 Dardanos dönüşü tanıkta yok → madde -0084 tarihi maddenin kendi kaydından, tanıksız.",
+    "kunye_kontrol": "pontus -0280→-0062 içinde ✓"
+   },
+   {
+    "yer": "Bergama",
+    "dosya": "aynı",
+    "degisiklik": "roma-cumhuriyeti [-0132→-0087], pontus [-0087→-0084], roma-cumhuriyeti [-0084→-0026]",
+    "kaynak": "Appianos Mith. 21: «Finally, at Pergamus, Mithridates poured molten gold down his throat» — https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0230:text=Mith.:chapter=3 (Mithridates Pergamon'da, yani hâkim); dönüş için yukarıdaki Mith. 55 tanıkları.",
+    "kunye_kontrol": "✓"
+   }
+  ],
+  "not": "İzmir (Smyrna) Roma'ya sadık kaldı iddiası tanıkta yok: önerilmedi. -0084 (MÖ 85) dönüş yılı Perseus Appian metninde yazılı değil; yalnız Sulla'nın 'ilk sınıra dön' şartı ve Arkhelaos'un garnizon çekmesi tanıklı. Tarih Britannica/akademik ikincil kaynakla (Dardanos 85) hâlâ teyit edilmeli."
+ },
+ {
+  "sira": 4,
+  "madde": "Ptolemaios Apion Kyrene'yi Roma'ya vasiyet etti",
+  "t": "-0095-01-01",
+  "sinif": "oneri",
+  "oneriler": [
+   {
+    "yer": "Beyzâ (Kirene)",
+    "dosya": "Beyzâ (Kirene) kaydı (s:[] pre-1281 boş)",
+    "degisiklik": "ptolemai [-0321-01-01→-0095-01-01] (Apion kolu dâhil; seçenek (a)), __BOSLUK__ beyanlı [-0095-01-01→-0073-01-01] (Roma mirası kabul etti ama 22 yıl yönetmedi), roma-cumhuriyeti [-0073→-0026-01-16]",
+    "kaynak": "Britannica 'Ptolemy Apion' (https://www.britannica.com/biography/Ptolemy-Apion): «Ptolemy Apion (flourished c. 116–96 bc) was a ruler of Cyrenaica who separated it from Egypt and in his will bequeathed the country to Rome.» ve «Rome, after it accepted the bequest, did not administer the region for another 22 years.» (96+22 → MÖ 74 = -0073). Livy Per. 70 AÇILAMADI (LacusCurtius/Perseus'ta yok).",
+    "kunye_kontrol": "ptolemai -0322-06-10→-0029 ✓; roma ✓; kyrene künyesi -0630→-0095 Ptolemaios dönemini de kapsıyor: Apion'un 116'dan ayrı krallığı için kyrene'yi -0095'e kadar sürdürmek (seçenek b) de savunulabilir — karar 25. madde ile birlikte"
+   }
+  ],
+  "not": "Britannica Cyrenaica: «Cyrenaica itself became a Roman province in combination with Crete in 67 bc» — eyalet örgütlenmesi -0066, -0073 fiilî yönetim; sahiplik tarihi için kaynak ayrımı ic_not'ta beyan edilmeli."
+ },
+ {
+  "sira": 6,
+  "madde": "V. Pairisades krallığı VI. Mithridates'e bıraktı: Bosporos Pontus'a bağlandı",
+  "t": "-0108-01-01",
+  "sinif": "oneri",
+  "oneriler": [
+   {
+    "yer": "Kerç",
+    "dosya": "Kerç kaydı (s:[] boş)",
+    "degisiklik": "bosporos-krallik [-0437→-0108-01-01], pontus [-0108-01-01→-0062-01-01], bosporos-krallik [-0062-01-01→0370-01-01]",
+    "kaynak": "Strabon 7.4.4, Pantikapaion (Kerç) (LacusCurtius, H.L. Jones çev., https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/7D*.html): «The last of these monarchs also bore the name Parisades, but he was unable to hold out against the barbarians, who kept exacting greater tribute than before, and he therefore gave over the sovereignty to Mithridates Eupator.» (not işaretçisi 241 sökülmüş). Dönüş (-0062): Appianos Mith. 114 «to Pharnaces, Bosporus» — https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0230:text=Mith.:chapter=17 (Pompeius Pharnakes'e Bosporos'u verdi). Yıl tanıkta yok (MÖ 63 Pompeius = -0062 maddenin kendi kaydı).",
+    "kunye_kontrol": "bosporos -0437→0370 ✓, pontus -0280→-0062 ✓"
+   }
+  ],
+  "not": "Strabon: «since the time of Mithridates the kingdom has been subject to the Romans» — Pharnakes dönüşü Strabon'da yok, Appianos'ta var (Roma müttefik kralı olarak: yarı-bağımsız, mesru sayılabilir). -0108 (MÖ 109/8) Pairisades devri yılı tanıkta yok."
+ },
+ {
+  "sira": 7,
+  "madde": "Narbo Martius kuruldu: Gallia Transalpina Roma eyaleti oldu",
+  "t": "-0117-01-01",
+  "sinif": "oneri",
+  "oneriler": [
+   {
+    "yer": "Narbonne",
+    "dosya": "Narbonne kaydı",
+    "degisiklik": "s: roma-cumhuriyeti f -0121-01-01 → -0117-01-01 (kuruluş MÖ 118; önceki Volcae Tectosages künyesiz → -0117 öncesi beyanlı boşluk)",
+    "kaynak": "Velleius Paterculus 1.15.5 (LacusCurtius, F.W. Shipley çev., https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Velleius_Paterculus/1*.html): «A colony was established at Narbo Martius in Gaul about one hundred and forty-six years ago in the consulship of Porcius and Marcius.» (çevirmen notu 51: «118 B.C.») ; Britannica Narbonne (https://www.britannica.com/place/Narbonne): «Narbonne was the site of Narbo Martius (Narbo), the first colony founded by the Romans in Gaul (118 bce)».",
+    "kunye_kontrol": "roma-cumhuriyeti ✓"
+   }
+  ],
+  "not": "Alternatif: -0121 (MÖ 122/121 Allobrogica fethi) kalsın ve yalnız kuruluş maddesi sınıflansın; hangi olayın sahiplik olduğu karar. Colony kuruluşu = yerleşim kuruluşu, Roma toprağı oluşu sahiplik değişimi sayılabilir."
+ },
+ {
+  "sira": 14,
+  "madde": "Capua Roma'ya düştü",
+  "t": "-0210-01-01",
+  "sinif": "mesru",
+  "oneriler": [],
+  "not": "Kartaca dönemi ÖNERİLMEZ: «he thanked the Capuans for preferring his friendship to alliance with Rome» (Livy 23.10.2, https://www.perseus.tufts.edu/hopper/text?doc=Liv.+23.10) = ittifak, Kartaca toprağı değil (Capua özerk kaldı; vasallık/ittifak sahiplik değişimi değil). Düşüş: «the rest of the population of Capua were sold as slaves. The question now was what was to be done with the city and its territory.» (Livy 26.16.6, https://www.perseus.tufts.edu/hopper/text?doc=Liv.+26.16) ve «Appius Claudius died immediately after the surrender of Capua» (aynı bölüm). Mevcut zincir roma-cumhuriyeti -0337→-0026 doğru; özerklik kaybı (MÖ 211) sahiplik değil statü değişimi — madde yalnız kronolojide kalır. Yıl (MÖ 211 / -0210) Perseus Livy metninde yazılı değil."
+ },
+ {
+  "sira": 16,
+  "madde": "Mediolanum Roma'ya düştü",
+  "t": "-0221-01-01",
+  "sinif": "oneri",
+  "oneriler": [
+   {
+    "yer": "Milano",
+    "dosya": "Milano kaydı (zincir -0026'dan başlıyor)",
+    "degisiklik": "__BOSLUK__ beyanlı (İnsubres künyesiz) [önceki], roma-cumhuriyeti [-0221-01-01→-0026-01-16]",
+    "kaynak": "Polybios 2.34 (Perseus, Shuckburgh çev., kenar notu «B. C. 222», https://www.perseus.tufts.edu/hopper/text?doc=Plb.+2.34): «Gnaeus followed them, wasting the country as he went, and took Mediolanum by assault. At this the chiefs of the Insubres, despairing of safety, made a complete and absolute submission to Rome.» ; Plutarkhos Marcellus 7.5 (https://www.perseus.tufts.edu/hopper/text?doc=Plut.+Marc.+7): «Mediolanum was taken, the Gauls themselves surrendered the rest of their cities at the disposition of the Romans.»",
+    "kunye_kontrol": "roma-cumhuriyeti ✓; İnsubres künyesi yok → sol uç beyanlı boşluk"
+   }
+  ],
+  "not": "Mediolanum MÖ 222; Cisalpina eyalet düzeni sonra (maddenin kendi notu). Polybios 'submission' diyor: fiilî Roma hâkimiyeti, eyalet statüsü ayrı."
+ },
+ {
+  "sira": 17,
+  "madde": "Akhaia Birliği Akrokorinth'i Antigonos Doson'a verdi",
+  "t": "-0223-01-01",
+  "sinif": "oneri",
+  "oneriler": [
+   {
+    "yer": "Korint",
+    "dosya": "Korint kaydı (şimdi tek korint -0799→-0145)",
+    "degisiklik": "antigonid-makedonya [önceki →-0242-01-01], akhaia-birligi [-0242-01-01→-0223-01-01], antigonid-makedonya [-0223-01-01→-0196-01-01], akhaia-birligi [-0196-01-01→-0145-01-01] (17. ve 19. madde birlikte; Korint'in -0275 öncesi/önceki 'korint' dönemi kapsam dışı — kaynakta Gonatas tarihi okunmadı)",
+    "kaynak": "Polybios 2.52 (https://www.perseus.tufts.edu/hopper/text?doc=Plb.+2.52): «as the Achaeans were in actual possession of the Acrocorinthus, he made his peace with the royal family of Macedonia by offering it to Antigonus»; Polybios 2.54: «and took over the Acrocorinthus; and, without wasting time there, pushed on in his enterprise and entered Argos.»; -0196: Livius 33.34 (https://www.perseus.tufts.edu/hopper/text?doc=Liv.+33.34): «Corinth, Triphylia and Heraea-also in the Peloponnesus-were restored to the Achaean league.»; -0242: Plutarkhos Aratos 24 (https://www.perseus.tufts.edu/hopper/text?doc=Plut.+Arat.+24): «Acrocorinthus, too, was garrisoned by the Achaeans with four hundred men-at-arms». Yıllar metinde yazılı değil (Perseus Aratos 16 notu «In 243 B.C.»).",
+    "kunye_kontrol": "akhaia -0279→-0145 ✓; antigonid -0275→-0167 ✓"
+   }
+  ],
+  "not": "Korint künyesi polis ömrü; 'korint' sahibi yerine Makedon/Akhaia yazmak karar. Livius 33.34 komisyon kararıdır (MÖ 196/195 kışı); Flamininus ilanı MÖ 196 — -0196 ucu komisyon tarihine göre ±1 yıl."
+ },
+ {
+  "sira": 18,
+  "madde": "Aegates: Sicilya ilk Roma eyaleti oldu",
+  "t": "-0240-01-01",
+  "sinif": "oneri",
+  "oneriler": [
+   {
+    "yer": "Trapani",
+    "dosya": "Trapani kaydı (roma -0226'dan)",
+    "degisiklik": "kartaca [-0260→-0240-01-01], roma-cumhuriyeti [-0240-01-01→-0026-01-16] (şimdi roma f -0226-01-01)",
+    "kaynak": "Polybios 1.62 (Perseus, Shuckburgh çev., kenar notu «B, C, 242», https://www.perseus.tufts.edu/hopper/text?doc=Plb.+1.62): antlaşma metni «The Carthaginians shall evacuate the whole of Sicily» ; 1.63: antlaşma sertleştirilip «extended the evacuation of Sicily to all islands lying between Sicily and Italy». Drepana'nın adı bu bölümde geçmiyor: bütün Sicilya tahliyesi üzerinden dolaylı.",
+    "kunye_kontrol": "kartaca ✓, roma ✓"
+   }
+  ],
+  "not": "YIL ÇELİŞKİSİ: Perseus kenar notu 242, madde -0240 (MÖ 241, Aegates 10 Mart): bir yıl fark — antik kaynak kenar notu çevirmen kronolojisidir; madde kendi gününü korur. Roma'nın Sicilya'yı eyalet yapması MÖ 227 (Trapani f -0226) ayrı olay; -0240'ta sahiplik 'Kartaca→Roma' tahliye anlaşmasıyla başlar. Palermo/Sirakuza zaten tutarlı."
+ },
+ {
+  "sira": 19,
+  "madde": "Aratos Akrokorinth'i bastı",
+  "t": "-0242-01-01",
+  "sinif": "oneri",
+  "oneriler": [
+   {
+    "yer": "Korint",
+    "dosya": "Korint kaydı (17. madde ile aynı zincir)",
+    "degisiklik": "17. madde zinciri: ... antigonid-makedonya [önceki →-0242-01-01], akhaia-birligi [-0242-01-01→-0223-01-01] ...",
+    "kaynak": "Plutarkhos Aratos 16 (https://www.perseus.tufts.edu/hopper/text?doc=Plut.+Arat.+16): «he set on foot the enterprise for the recovery of Acrocorinthus ... purposing to drive from that stronghold what held all Hellas in a common subjection,—the Macedonian garrison.» (alıntı sıkıştırılmış: «purposing to drive from that stronghold what held all Hellas in a common subjection,—the Macedonian garrison.»; çevirmen notu «In 243 B.C., two years later.»); Aratos 24: «Megara seceded from Antigonus and attached herself to Aratus; Troezen and Epidaurus were enrolled in the Achaean League».",
+    "kunye_kontrol": "akhaia -0279→-0145 ✓"
+   }
+  ],
+  "not": "17. madde önerisiyle kapanır (akhaia-birligi f -0242-01-01). Yıl: Plutarkhos çevirmeninin notu 243 (madde -0242 = MÖ 243 ✓)."
+ },
+ {
+  "sira": 21,
+  "madde": "Volsinii düştü",
+  "t": "-0263-01-01",
+  "sinif": "oneri",
+  "oneriler": [
+   {
+    "yer": "Volsinii (Orvieto)",
+    "dosya": "Volsinii (Orvieto) kaydı (s:[] boş)",
+    "degisiklik": "etrusk-sehir-devletleri [-0574→-0263-01-01], roma-cumhuriyeti [-0263-01-01→-0026-01-16]",
+    "kaynak": "Britannica 'Bolsena' (https://www.britannica.com/place/Bolsena): «After the latter was razed by the Romans in 265 bc, the inhabitants moved to another site, perhaps at modern Orvieto.» (latter = Volsinii). Ek: Plinius NH 34.16 (https://www.perseus.tufts.edu/hopper/text?doc=Plin.+Nat.+34.16): «reproached us with having pillaged the city of Volsinii for the sake of the two thousand statues which it contained».",
+    "kunye_kontrol": "etrusk -0574→-0088 ✓"
+   }
+  ],
+  "not": "YIL ÇELİŞKİSİ: Britannica MÖ 265, madde -0263 (MÖ 264, Cary-Scullard); Smith DGRG (Perseus) 280 der. -0264/-0263 arasında karar gerekir; iki kaynak beyanı ic_not'a. Not: yıkılan Etrüsk Volsinii Bolsena'dadır, 'Volsinii (Orvieto)' kaydı yeni Roma-sonrası yerleşime denk gelir (Britannica: 'perhaps at modern Orvieto') — bu yüzden Orvieto kaydına -0263 öncesi Etrüsk sahipliği yazmak yerleşim tanımını zorlar."
+ },
+ {
+  "sira": 22,
+  "madde": "Lysimakhos Pyrrhos'u Makedonya'dan çıkardı",
+  "t": "-0284-01-01",
+  "sinif": "oneri",
+  "oneriler": [
+   {
+    "yer": "Pella",
+    "dosya": "Pella kaydı",
+    "degisiklik": "makedonya-krallik [-0412→-0284-01-01], lizimakhos [-0284-01-01→-0280-01-01] (-0280 sonrası ve antigonid -0275 uçları bu tanıkla desteklenmedi, mevcut kayda dokunulmaz)",
+    "kaynak": "Plutarkhos Pyrrhos 12 (Perseus, Perrin çev., https://www.perseus.tufts.edu/hopper/text?doc=Plut.+Pyrrh.+12): «Lysimachus, who now felt himself secure, and had nothing on his hands, at once set out against Pyrrhus.» ; «Pyrrhus took alarm and departed with his Epeirots and allied forces, thus losing Macedonia precisely as he got it.» Yıl tanıkta yok (-0284 = MÖ 285, maddenin kendi kaydı).",
+    "kunye_kontrol": "lizimakhos -0305→-0280 ✓"
+   },
+   {
+    "yer": "Aigai (Vergina)",
+    "dosya": "Aigai kaydı",
+    "degisiklik": "Pella ile aynı",
+    "kaynak": "aynı",
+    "kunye_kontrol": "✓"
+   },
+   {
+    "yer": "Selanik",
+    "dosya": "Selanik kaydı",
+    "degisiklik": "aynı (şimdi makedonya-krallik -0315→-0167 tek parça)",
+    "kaynak": "aynı",
+    "kunye_kontrol": "✓"
+   }
+  ],
+  "not": "Plutarkhos 12.1: Pyrrhos ile Lysimakhos önce Makedonya'yı bölüştü (sonra Lysimakhos tam hâkim): bölüşüm yılı (-0286, 23. madde) ile ilişkili; Pella/Aigai/Selanik'in tam hangi yarıda kaldığı tanıkta yok — Edessa'daki Pyrrhos kampı Lysimakhos'un fiilî hâkimiyetine dayanak."
+ },
+ {
+  "sira": 25,
+  "madde": "Ptolemaios Kirene'yi Mısır'a kattı",
+  "t": "-0321-01-01",
+  "sinif": "oneri",
+  "oneriler": [
+   {
+    "yer": "Beyzâ (Kirene)",
+    "dosya": "Beyzâ (Kirene) kaydı (4. madde ile aynı zincir)",
+    "degisiklik": "4. madde zinciri: ptolemai [-0321-01-01→-0095-01-01]",
+    "kaynak": "Strabon 17.3.21 (Perseus, Hamilton-Falconer çev., https://www.perseus.tufts.edu/hopper/text?doc=Strab.+17.3.21): «it was attacked [successfully] by the Macedonians, (who had conquered Egypt, and thus increased their power,) under the command of Thibron the murderer of Harpalus» ; Britannica 'Ptolemy I Soter' (https://www.britannica.com/biography/Ptolemy-I-Soter): «Ptolemy was confirmed in possession of Egypt and Cyrene.» (Triparadisos paylaşımı). Diodoros 18.19-21 Perseus'ta İngilizce yok.",
+    "kunye_kontrol": "ptolemai -0322-06-10→-0029 ✓"
+   }
+  ],
+  "not": "KISMİ TANIK / YIL: Strabon çevirmeninin kenar notu «B. C. 330» (Thibron MÖ 322'dir; çevirmen notu hatalı görünüyor), Britannica Triparadisos'u tarihlemiyor. -0321 (MÖ 322) için doğrudan yıl+yer cümlesi bulunamadı; olay (Makedon/Ptolemaios fethi) tanıklı, yıl ikincil."
+ },
+ {
+  "sira": 26,
+  "madde": "Krannon: Lamia Savaşı kaybedildi; Atina'ya Makedon garnizonu girdi",
+  "t": "-0321-09-05",
+  "sinif": "oneri",
+  "oneriler": [
+   {
+    "yer": "Atina",
+    "dosya": "Atina kaydı (atina-demokrasisi→-0337, BOSLUK -0337→-0085)",
+    "degisiklik": "makedonya-krallik [-0321-09-05→-0306-01-01] (Demetrios Poliorketes kurtuluşu MÖ 307); öncesi (korint-birligi [-0336→-0321-01-01] künye t≠gün) kaynakta okunmadı, A önerisinin o kısmı tanıksız",
+    "kaynak": "Plutarkhos Phokion 28 (https://www.perseus.tufts.edu/hopper/text?doc=Plut.+Phoc.+28): «Thus the Athenians were obliged to receive a Macedonian garrison, which was under the command of Menyllus, an equitable man and a friend of Phocion.» (garnizon 20 Boëdromion = Eylül, Eleusis Mysteria sırasında); Phokion 26: «and there was another pitched battle at Crannon.» ; son uç: Plutarkhos Demetrios 8 (https://www.perseus.tufts.edu/hopper/text?doc=Plut.+Demetr.+8): «where Demetrius the Phalerean was administering the affairs of the city for Cassander and a garrison was set in Munychia» + çevirmen notu «May-June, 307 B.C.» (Thargelion).",
+    "kunye_kontrol": "makedonya -0699→-0167 ✓"
+   }
+  ],
+  "not": "Boşluk -0337→-0321 sahibi (Hellen Birliği mi Makedonya mı) tanıkta yok: karar. Plutarkhos garnizonu Boëdromion'da (Eylül) verir; -0321-09-05 günü maddenin kendi kaydı, tanık ayı doğrular, gün doğrulanmadı."
+ },
+ {
+  "sira": 31,
+  "madde": "Thebai İskender'in emriyle yıkıldı",
+  "t": "-0334-01-01",
+  "sinif": "oneri",
+  "oneriler": [
+   {
+    "yer": "İstefe (Tebai)",
+    "dosya": "İstefe kaydı (zincir -0026'dan)",
+    "degisiklik": "boiotia-birligi [-0378→-0337], makedonya-krallik [-0337→-0334-01-01], __BOSLUK__ beyanlı (yıkık) [-0334→...]; (-0315 yeniden kuruluş sahibi ve roma [-0167→-0026] kaynaksız: ÖNERİLMEDİ)",
+    "kaynak": "Diodoros 17.14.1 (Perseus, Oldfather çev., https://www.perseus.tufts.edu/hopper/text?doc=Diod.+17.14.1): «put before the common council the question what should be done with the city of the Thebans» ; 17.14.4: «The king, in accordance with the decree of the council, destroyed the city». -0337 garnizon: Diodoros 16.87.3 (https://www.perseus.tufts.edu/hopper/text?doc=Diod.+16.87.3): «With the Boeotian she concluded peace but maintained a garrison in Thebes.» Yıl tanıkta yok (MÖ 335 = -0334 maddenin kendi kaydı).",
+    "kunye_kontrol": "boiotia -0378→-0337 ✓, makedonya ✓"
+   }
+  ],
+  "not": "Yeniden kuruluş MÖ 316 (Kassandros) Diodoros 19'da, Perseus İngilizcesi yok → okunamadı."
+ },
+ {
+  "sira": 32,
+  "madde": "Philippos Trakya'yı Odris hanedanıyla birlikte boyunduruğa aldı",
+  "t": "-0340-01-01",
+  "sinif": "oneri",
+  "oneriler": [
+   {
+    "yer": "Filibe",
+    "dosya": "Filibe kaydı (makedonya -0341→-0305)",
+    "degisiklik": "odris [-0479→-0340-01-01], makedonya-krallik [-0340-01-01→-0305-01-01] (şimdi f -0341)",
+    "kaynak": "Diodoros 16.71.2 (Perseus, Oldfather çev., https://www.perseus.tufts.edu/hopper/text?doc=Diod.+16.71.2): «He overcame the Thracians in several battles and imposed on the conquered barbarians the payment of a tithe to the Macedonians, and by founding strong cities at key places made it impossible for the Thracians to commit any outrages in the future.» ; Plinius NH 4.18 (https://www.perseus.tufts.edu/hopper/text?doc=Plin.+Nat.+4.18): «first called Poneropolis, afterwards Philippopolis from the name of its founder» (çevirmen dipnot numaraları sökülmüş; Philippos kurucu).",
+    "kunye_kontrol": "odris -0479→0046 ✓"
+   }
+  ],
+  "not": "Diodoros haraç (tithe) der: Odris kralı vasal sayılıp -0340'ta fiilî toprak değişimi olmayabilir; Filibe'nin (Philippopolis) Philippos tarafından kuruluşu Plinius'ta yer alır, kuruluş yılı tanıkta yok (maddenin notu: tartışmalı). Öneri yalnız kuruluştan sonraki Makedon dönemi için güçlü."
+ },
+ {
+  "sira": 37,
+  "madde": "Philippos Amphipolis'i Atina'dan aldı",
+  "t": "-0356-01-01",
+  "sinif": "oneri",
+  "oneriler": [
+   {
+    "yer": "Amphipolis (Amfípolis)",
+    "dosya": "Amphipolis kaydı (s:[])",
+    "degisiklik": "__BOSLUK__ beyanlı (özerk polis) [önceki], makedonya-krallik [-0356-01-01→-0167-01-01]",
+    "kaynak": "Diodoros 16.8.2 (Perseus, Oldfather çev., https://www.perseus.tufts.edu/hopper/text?doc=Diod.+16.8.2): «he obtained the mastery of the city and exiled those who were disaffected toward him»; öncesi özerklik: Diodoros 16.3.3 (https://www.perseus.tufts.edu/hopper/text?doc=Diod.+16.3.3): «he voluntarily withdrew from the city, after first making it autonomous.» (Philippos'un öncülü/aynı yıllar). Yıl tanıkta yok.",
+    "kunye_kontrol": "makedonya ✓"
+   }
+  ],
+  "not": "Atina'dan alma ifadesi: Diodoros Atina'yı anmaz; Atina iddiaya sahipti ama şehir özerkti (Diodoros 16.3.3 + çevirmen notu) → madde 'Atina'dan' düzeltme adayı."
+ },
+ {
+  "sira": 39,
+  "madde": "Messenia Sparta'dan ayrıldı",
+  "t": "-0369-01-01",
+  "sinif": "kaynak_yok",
+  "oneriler": [],
+  "not": "denenen: Diodoros 15.66.1 (Perseus İngilizce): «he sought out the remnants of the Messenians, and registering as citizens any others who so wished he founded Messene again, making it a populous city.» + «Messene, which for many years had remained stripped of its inhabitants by the Lacedaemonians» — Messene'nin yeniden kuruluşunu doğrular ama Kyparissía/Modon'un Sparta'dan ayrılışı tanıkta yok; Pausanias 4.26-27 okunmadı. Kyparissía için yer+olay tanığı bulunamadı → sinif kaynak_yok kaldı."
+ },
+ {
+  "sira": 40,
+  "madde": "Pelopidas Teb'i kurtardı; Sparta garnizonu Kadmeia'dan atıldı",
+  "t": "-0378-01-01",
+  "sinif": "oneri",
+  "oneriler": [
+   {
+    "yer": "İstefe (Tebai)",
+    "dosya": "İstefe kaydı",
+    "degisiklik": "sparta [-0381→-0378-01-01], boiotia-birligi [-0378-01-01→-0337] (31. madde ile birlikte)",
+    "kaynak": "Plutarkhos Pelopidas 13 (Perseus, Perrin çev., https://www.perseus.tufts.edu/hopper/text?doc=Plut.+Pel.+13): «Pelopidas at once blockaded the acropolis and assaulted it on every side, being anxious to drive out the Lacedaemonians and free the Cadmeia before an army came up from Sparta.» ; «when the men had surrendered conditionally and had been allowed to depart» ; Boiotia: «elected boeotarch, or governor of Boeotia». Yıl tanıkta yok.",
+    "kunye_kontrol": "boiotia f -0378-01-01 = madde ✓; sparta ✓"
+   }
+  ],
+  "not": ""
+ },
+ {
+  "sira": 44,
+  "madde": "Dareios İstros'u aşıp İskit seferine çıktı; Trakya Pers satraplığına katıldı",
+  "t": "-0512-01-01",
+  "sinif": "oneri",
+  "oneriler": [
+   {
+    "yer": "İstanbul",
+    "dosya": "İstanbul kaydı (byzantion-polis -0658→0073)",
+    "degisiklik": "byzantion-polis [-0658→-0512-01-01], ahamenis [-0512-01-01→-0478-01-01], byzantion-polis [-0478→0073]",
+    "kaynak": "Herodotos 5.26.1 (Perseus, Godley çev., https://www.perseus.tufts.edu/hopper/text?doc=Hdt.+5.26.1): «He captured Byzantium, Calchedon, Antandrus in the Troad, and Lamponium» (Otanes, Megabazos'un halefi); dönüş: Thukydides 1.94.2 (Hobbes çev., https://www.perseus.tufts.edu/hopper/text?doc=Thuc.+1.94.2): «and afterwards, under the same commander, came before Byzantium, which they besieged and won.» (Pausanias 'commander'). Yıllar tanıkta yok.",
+    "kunye_kontrol": "ahamenis -0549→-0329 ✓"
+   }
+  ],
+  "not": "Byzantion'un Pers'e geçiş yılı (513/512 mi 511/10 mu) belirsiz: Herodotos 5.26'daki Otanes fethi İskit seferinden SONRA ve Megabazos'tan sonra, madde -0512 ile uyumlu olmayabilir (yıl ±2). Thukydides 1.94 Bizans'ın alınışını anlatır, MÖ 478 yılı metinde yok."
+ },
+ {
+  "sira": 45,
+  "madde": "Kroisos Lidya tahtına çıktı; Efes ve İyonya Rum kentlerini haraca bağladı",
+  "t": "-0559-01-01",
+  "sinif": "mesru",
+  "oneriler": [],
+  "not": "Kroisos Efes'i kuşattı (Hdt. 1.26) ve İyonya kentlerini haraca bağladı: Herodotos 1.27.1 (Perseus, Godley çev., https://www.perseus.tufts.edu/hopper/text?doc=Hdt.+1.27.1): «Then, when he had subjugated all the Asiatic Greeks of the mainland and made them tributary to him». Haraç/vasallık sahiplik değişimi değildir (Efes polis yönetimi korundu) → Ayasuluk zincirine lidya eklenmez, madde yalnız kronolojide. Yıl (MÖ 560-547 aralığı) tanıkta yok."
+ }
+]
