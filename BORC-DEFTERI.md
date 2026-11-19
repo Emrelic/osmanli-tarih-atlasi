@@ -40,6 +40,7 @@ bölümüne taşınır (tarih + kanıt: commit/dal).
 | A13 | 19.11 | HAVVA 19 | **HAVVA'da sanal bellek (pagefile) 48 GB sabit + chrome kapat** (C34): koşu 40 RAM'i büyüyor, tahmini bellek (commit) tükenmesi ≈19:00–19:30, koşu bitişi ≈22:30–02:00 → çökme riski. Sistem ayarı, Emre yapar (ya da HAVVA oturumuna açıkça izin verir). | AÇIK — ACİL |
 | A11 | 19.11 | EMRELİC 19 | Sonraki 10 çeviri dili (ko vi BCS uz ro bg sq hu hy ka) | Emre 19.11: "diğer dilleri daha sonraya bırakacağız". Başlamaz; C25 (KRONOLOJI_* kapsamı) ile birlikte yeniden gündeme gelecek. | ERTELENDİ (Emre kararı) |
 | A12 | 19.11 | EMRELİC 19 | Sonnet mi Opus mu çeviri | Emre sordu (19.11). Cevap Emre'ye verildi; kalite ölçümü (aynı 40 madde iki modelle, geri-çeviri karşılaştırması) önerildi, Emre'den onay bekleyen karar yok ama ölçüm yapılmadı. | ÖLÇÜLMEDİ — C25 ile |
+| A14 | 19.11 | Bulut oturumu | Künye zinciri: B9 ve B11 onayı | Claude önerisi: Kutsal Roma→Almanya (Habsburg kopan); Çin birleşik hanedanlar zinciri, ara dönemler kopan; B12 Babür asıl ardılsız. Ayrıntı `KARARLAR-ZINCIR-1119.md`. 1949 ÇHC/Tayvan çatalı ayrı karar. | AÇIK |
 
 ## B. KAYNAK / ERİŞİM ENGELİ (bulunamadı · okunamadı · paywall · şifre · hata)
 

@@ -73,6 +73,12 @@ sabitli; sürüm değişikliği bilinçli yapılır).
   surum_damgala / push_kapisi KOŞTURMAZ; düzeltmeyi `git push origin HEAD:refs/heads/postit-<no>` ile
   iter, cevaba dal adını yazar, KASA'ya bildirir (`.claude/skills/postit/SKILL.md` 0. adım).
   Dal bir günden uzun yaşamaz; post-it yalnız `not.py al` ile alan oturumda çözülür.
+- 🔴 **Bulut oturumları** (Emre, 19 Kasım 2026; ayrıntı `KASA-BULUT-DALLARI.md`): claude.ai/code
+  oturumu **yazma makinesi kipindedir**: yalnız `claude/<ad>` dalına commit + push eder; `main`e push,
+  `push_kapisi`, tam `denetle`, `paketle`, `surum_damgala`, koşu, üretilmiş dosyalar ve PR YOKTUR.
+  Bulut kilitleri görmez; başka makinenin dosyasına yazmaz. Bitmeden commit + push şart (konteyner
+  geçici); push 403 ise GitHub bağlantısı Emre'den istenir. KASA `origin/claude/*` dallarını ayrı
+  worktree'de inceler, push kapısından geçirir, dalı siler; bir günden eski bulut dalı Emre'ye bildirilir.
 - 🔴 **Koşu biter bitmez iniş ve yayın** (Emre, 1 Kasım 2026): koşu bitince aynı oturum
   beklemeden `KOSU-YAYIN.md` iniş zincirini başlatır ve push kapısına kadar götürür; kimseden
   onay beklemez. (Koşu 31: bitiş 05:13, iniş 12:50 — 7,5 saat boş geçti.)
