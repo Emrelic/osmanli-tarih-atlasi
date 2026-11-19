@@ -75,7 +75,7 @@ window.YERLESIMLER_0EE15E = [
 
 { ad:"Buenos Aires", tur:"sehir", lat:-34.6037, lon:-58.3816, g:2, k:1, kur:"1580-01-01",
   s:[{f:"1580-01-01",t:"1810-05-25",d:"ispanya"},
-     {f:"1810-05-25",t:"2000-12-31",d:"arjantin-cumhuriyeti"}] },
+     {f:"1810-05-25",t:"2000-12-31",d:"arjantin-cumhuriyeti",kaynak:"UMIT 19 KASIM kaynak turu · Britannica /place/Argentina https://www.britannica.com/place/Argentina : \"Argentina’s path to independence began with the May Revolution of 1810, when leaders in Buenos Aires established a local government in place of Spanish colonial rule.\" Ayni sayfa: \"representatives meeting at the Congress of Tucumán formally declared independence from Spain on July 9, 1816\". Britannica /place/Buenos-Aires/History: \"in 1776, as part of the Bourbon monarchy’s broad reform effort, Buenos Aires was named the capital of the new Viceroyalty of the Río de la Plata.\" Tek yayinci (Britannica). BEYANLI YAKLASIKLIK: 1810 yerel hukumet kurulusu (gun 25 Mayis bu cumlede yok); resmi bagimsizlik beyani 1816-07-09; atlas f=1810-05-25 'arjantin-cumhuriyeti' kaynakta dogrudan desteklenmiyor. · [yaklasik]"}] },
 // kaynak: TDV İslâm Ansiklopedisi "arjantin" md., II. TARİH (Rıza Kurtuluş) —
 //         1536 Pedro de Mendoza kuruluşu yerli direnciyle terk edildi, 1580'de
 //         yeniden inşa (kur: bu yüzden 1580). 1810-05-25 Mayıs Devrimi —
