@@ -409,6 +409,7 @@ Ceviri.ekle("ja","arayuz",{
 "# Şubat # (kaynaklarda #-# Şubat)":["#2年2月#1日(史料では2月#3-#4日)", "9ef85632"],
 "# Şubat # (vefat) – # Şubat # (cülûs)":["#2年2月#1日(死去) – #4年2月#3日(即位)", "1b919d59"],
 "# Şubat # (ölüm); taç giyme # Mart #":["#2年2月#1日(死去); 戴冠 #4年3月#3日", "d8bfe3f3"],
+"# Şubat # [dolaylı tanık: «nakon #. veljače»]":["# 2月 # [間接的な証言：「nakon #. veljače」]", "65f1f577"],
 "# Şâban # (# Temmuz #) kuruluş, # Nisan # Masavva'nın alınışı":["#2年シャアバーン月#1日(#4年7月#3日#6年)成立、4月#5日 マッサワの占領", "3c16b45f"],
 "# Şâban # / # Aralık # Pazartesi akşamı (Selânikî: # Ramazan / # Aralık)":["#2年シャアバーン月#1日 / #4年12月#3日 月曜日の夕方(Selânikî: ラマダーン月#5日 / 12月#6日)", "5e63cf59"],
 "# Şâban # / # Ekim #":["#2年シャアバーン月#1日 / #4年10月#3日", "c737ed97"],
