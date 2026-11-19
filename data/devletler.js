@@ -2844,14 +2844,16 @@ window.DEVLETLER = [
   ]
 },
 { id:"aiz", ad:"Âiz Emirliği (Ebhâ / Asîr)", tur:"devlet", bolge:"arabistan",
-  f:"1918-10-30", t:"1920-01-01", baskent:"Ebhâ", harita:"aiz",
-  ozet:"Mondros Mütarekesi'yle Osmanlı'nın Asîr'den çekilmesinin ardından Ebhâ yaylasında Hasan b. Muhammed Âiz'in kurduğu kısa ömürlü emirlik; ailenin bölgedeki nüfuzu 1840'lardan beri sürüyordu, Abdülazîz b. Suûd'un fethiyle sona erdi. (kaynak: TDV, madde: asir--suudi-arabistan)",
+  f:"1918-10-30", t:"1919-02-01", baskent:"Ebhâ", harita:"aiz",
+  ic_not_t:"UMIT 19 KASIM · 19 Kas 2026 (EMRELİC 19 + LAB 19 kararı, TDV günü esas): t 1920-01-01 → 1919-02-01. TDV EBHÂ (M. L. Bilge, islamansiklopedisi.org.tr/ebha, tarayıcıda gövdeden okundu): «Ekim 1918-Şubat 1919 tarihleri arasında Osmanlı Devleti’nin Ebhâ’dan çekilmesiyle bölgede bir otorite boşluğu doğdu ... Önce eski Âiz ailesi hâkimiyeti ele geçirdiyse de hemen arkasından Muhammed b. Ali el-İdrîsî bölgeye hâkim oldu.» Âiz'den İdrîsî'ye geçiş günü kaynakta YOK; aralığın sonu (Şubat 1919) alındı, ay hassasiyeti, BEYANLI YAKLAŞIKLIK. Eski t (1920-01-01) TDV asir--suudi-arabistan'daki Abdülazîz fethi anlatısından geliyordu; TDV ebha ile çelişir, TDV ebha esas (çelişki iki kaynağıyla beyan).",
+  ozet:"Mondros Mütarekesi'yle Osmanlı'nın Asîr'den çekilmesinin ardından Ebhâ yaylasında Hasan b. Muhammed Âiz'in kurduğu kısa ömürlü emirlik; ailenin bölgedeki nüfuzu 1840'lardan beri sürüyordu. TDV EBHÂ: Ekim 1918-Şubat 1919 arasındaki otorite boşluğunda önce Âiz ailesi hâkimiyeti ele geçirdi, hemen arkasından Muhammed b. Ali el-İdrîsî bölgeye hâkim oldu; Suûdîler 1922'de hâkimiyetlerini ilân etti. (kaynak: TDV, madde: ebha; eski kaynak: asir--suudi-arabistan)",
   kaynak:"ebha",
   kronoloji:[
     { odak_yer:["Ebha"], t:"1866-01-01", tur:"hukumdar", b:"Muhammed b. Âiz, Osmanlı tarafından \"ümerâ emiri\" tanınarak ailenin Asîr'deki nüfuzu perçinlendi" },
     { odak_yer:["Ebha"], t:"1871-01-01", tur:"savas", b:"Redif Paşa'nın seferiyle Osmanlı doğrudan idareyi yeniden kurdu, emirlik bir mutasarrıflığa dönüştü" },
     { odak_yer:["Ebha"], t:"1918-10-30", tur:"kurulus", b:"Mondros Mütarekesi'yle Osmanlı çekildi, Hasan b. Muhammed Âiz Ebhâ'da fiilî bağımsız emirliğini kurdu" },
-    { odak_yer:["Ebha"], t:"1920-01-01", tur:"son", b:"Abdülazîz b. Suûd, Ebhâ'yı zaptederek Asîr yaylasını Suûdî topraklarına kattı" }
+    { odak_yer:["Ebha"], t:"1919-02-01", tur:"son", b:"Âiz hâkimiyeti sona erdi; Muhammed b. Ali el-İdrîsî Ebhâ'ya hâkim oldu (TDV ebha: Ekim 1918-Şubat 1919 otorite boşluğu; geçiş günü kaynakta yok, aralık sonu)" },
+    { odak_yer:["Ebha"], t:"1922-01-01", tur:"toprak-kazanc", b:"Suûdîler'in emîri Abdülazîz, oğlu Faysal'ı bölgeye göndererek Ebhâ üzerinde hâkimiyetini ilân etti (TDV ebha: 1922; yıl hassasiyeti)" }
   ]
 },
 

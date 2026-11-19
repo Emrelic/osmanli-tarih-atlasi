@@ -1,0 +1,101 @@
+ad	dosya	satir	mevcut sorun
+BIRINCIL: Belgrad	data/yerlesimler.js	562	1944-10-06->1944-10-20 Alman Wehrmacht denetimi (Belgrad Taarruzu 1944-10-20'de bitti) ama dilim yugoslavya sayiliyor; KUNYE GEREKMEZ: almanya (mevcut, t 1945-06-05) bu 14 gunu kapsar. Oneri: s: nedic ..1944-10-06 | almanya 1944-10-06->1944-10-20 | yugoslavya 1944-10-20->1945-11-29 (+ 1944-10-20 kronoloji maddesi sart, Degismez 2)
+BIRINCIL: Belgrad Kalesi (Kalemegdan)	data/yerlesimler.js	564	Belgrad'in ikizi; ayni 14 gun yugoslavya sayiliyor; ayni duzeltme
+BIRINCIL: Kragujevac	data/yerlesimler.js	2499	sirbistan-nedic 1944-10-06'da bitiyor, 1944-10-06->1945-11-29 yugoslavya; Kragujevac Belgrad'dan once (Eyl-Ekim 1944) Partizanlarca alindi mi OLCULMEDI - bu satir yalniz kontrol adayi
+Bucas	data/yerlesimler_zincir64.js	28	Kunye GEREKMEZ: 1941-07-05->1944-07-27 polonya-genel-hukumeti (f 1939-10-06) zaten Alman idaresini kapsar. Sorun yalniz: GG'ye resmi katilis 1941-08-01 (Galiciya Bolgesi); 07-05->08-01 Wehrmacht idaresi; BEYANLI YAKLASIKLIK zaten kayitli. Is yok.
+Selanik	data/yerlesimler.js	481	almanya 1941-04-09->1944-10-01: 1933-45 Reich donemi; almanya-nazi acilirsa d: almanya-nazi olur
+Atina	data/yerlesimler.js	495	almanya 1941-04-27->1944-10-12: 1933-45 Reich donemi; almanya-nazi acilirsa d: almanya-nazi olur
+Belgrad	data/yerlesimler.js	562	sirbistan-nedic 1941-08-29->1944-10-06
+Belgrad	data/yerlesimler.js	562	yugoslavya 1944-10-06->1945-11-29
+Belgrad	data/yerlesimler.js	562	yugoslavya-federal 1945-11-29->1992-04-27
+Belgrad Kalesi (Kalemegdan)	data/yerlesimler.js	564	sirbistan-nedic 1941-08-29->1944-10-06
+Belgrad Kalesi (Kalemegdan)	data/yerlesimler.js	564	yugoslavya 1944-10-06->1945-11-29
+Belgrad Kalesi (Kalemegdan)	data/yerlesimler.js	564	yugoslavya-federal 1945-11-29->1992-04-27
+Viyana	data/yerlesimler.js	1156	almanya 1938-03-13->1945-04-27: 1933-45 Reich donemi; almanya-nazi acilirsa d: almanya-nazi olur
+Graz	data/yerlesimler.js	1157	almanya 1938-03-13->1945-04-27: 1933-45 Reich donemi; almanya-nazi acilirsa d: almanya-nazi olur
+Harkov	data/yerlesimler.js	1170	almanya 1941-10-25->1943-02-16: 1933-45 Reich donemi; almanya-nazi acilirsa d: almanya-nazi olur
+Harkov	data/yerlesimler.js	1170	almanya 1943-03-15->1943-08-23: 1933-45 Reich donemi; almanya-nazi acilirsa d: almanya-nazi olur
+Amsterdam	data/yerlesimler.js	1214	almanya 1940-05-15->1945-05-05: 1933-45 Reich donemi; almanya-nazi acilirsa d: almanya-nazi olur
+Berlin	data/yerlesimler.js	1240	almanya 1871-01-18->1945-06-05: 1933-01-30 oncesine/sonrasina BOLUNUR (yalniz almanya-nazi acilirsa)
+Hamburg	data/yerlesimler.js	1241	almanya 1281-01-01->1945-06-05: 1933-01-30 oncesine/sonrasina BOLUNUR (yalniz almanya-nazi acilirsa)
+Münih	data/yerlesimler.js	1242	almanya 1918-11-08->1945-06-05: 1933-01-30 oncesine/sonrasina BOLUNUR (yalniz almanya-nazi acilirsa)
+Frankfurt	data/yerlesimler.js	1243	almanya 1281-01-01->1945-06-05: 1933-01-30 oncesine/sonrasina BOLUNUR (yalniz almanya-nazi acilirsa)
+Köln	data/yerlesimler.js	1244	almanya 1871-01-18->1945-06-05: 1933-01-30 oncesine/sonrasina BOLUNUR (yalniz almanya-nazi acilirsa)
+Dresden	data/yerlesimler.js	1245	almanya 1918-11-13->1945-06-05: 1933-01-30 oncesine/sonrasina BOLUNUR (yalniz almanya-nazi acilirsa)
+Łódź	data/yerlesimler.js	1252	almanya 1939-10-06->1945-01-19: 1933-45 Reich donemi; almanya-nazi acilirsa d: almanya-nazi olur
+Breslau (Wrocław)	data/yerlesimler.js	1264	almanya 1871-01-18->1945-06-05: 1933-01-30 oncesine/sonrasina BOLUNUR (yalniz almanya-nazi acilirsa)
+Liegnitz (Legnica)	data/yerlesimler.js	1265	almanya 1871-01-18->1945-06-05: 1933-01-30 oncesine/sonrasina BOLUNUR (yalniz almanya-nazi acilirsa)
+Oppeln (Opole)	data/yerlesimler.js	1266	almanya 1871-01-18->1945-06-05: 1933-01-30 oncesine/sonrasina BOLUNUR (yalniz almanya-nazi acilirsa)
+Glatz (Kłodzko)	data/yerlesimler.js	1267	almanya 1871-01-18->1945-06-05: 1933-01-30 oncesine/sonrasina BOLUNUR (yalniz almanya-nazi acilirsa)
+Gleiwitz (Gliwice)	data/yerlesimler.js	1268	almanya 1871-01-18->1945-06-05: 1933-01-30 oncesine/sonrasina BOLUNUR (yalniz almanya-nazi acilirsa)
+Kattowitz (Katowice)	data/yerlesimler.js	1269	almanya 1939-10-06->1945-01-17: 1933-45 Reich donemi; almanya-nazi acilirsa d: almanya-nazi olur
+Jeseník (Freiwaldau)	data/yerlesimler.js	1271	almanya 1938-10-01->1945-05-09: 1933-45 Reich donemi; almanya-nazi acilirsa d: almanya-nazi olur
+Königsberg	data/yerlesimler.js	1279	almanya 1871-01-18->1945-08-02: 1933-01-30 oncesine/sonrasina BOLUNUR (yalniz almanya-nazi acilirsa)
+Gdansk	data/yerlesimler.js	1280	almanya 1939-09-01->1945-03-30: 1933-45 Reich donemi; almanya-nazi acilirsa d: almanya-nazi olur
+Novgorod	data/yerlesimler.js	1289	almanya 1941-08-19->1944-01-20: 1933-45 Reich donemi; almanya-nazi acilirsa d: almanya-nazi olur
+Smolensk	data/yerlesimler.js	1291	almanya 1941-07-16->1943-09-25: 1933-45 Reich donemi; almanya-nazi acilirsa d: almanya-nazi olur
+Kragujevac	data/yerlesimler.js	2499	sirbistan-nedic 1941-08-29->1944-10-06
+Kragujevac	data/yerlesimler.js	2499	yugoslavya 1944-10-06->1945-11-29
+Kragujevac	data/yerlesimler.js	2499	yugoslavya-federal 1945-11-29->1992-04-27
+Arlon	data/yerlesimler_a78_avrupa.js	141	almanya 1940-05-28->1944-09-10: 1933-45 Reich donemi; almanya-nazi acilirsa d: almanya-nazi olur
+Liepāja (Libau)	data/yerlesimler_a78_avrupa.js	164	almanya 1944-10-13->1945-05-08: 1933-45 Reich donemi; almanya-nazi acilirsa d: almanya-nazi olur
+Ventspils (Windau)	data/yerlesimler_a78_avrupa.js	165	almanya 1944-10-13->1945-05-08: 1933-45 Reich donemi; almanya-nazi acilirsa d: almanya-nazi olur
+Metz	data/yerlesimler_avrupa.js	219	almanya 1940-08-02->1944-11-22: 1933-45 Reich donemi; almanya-nazi acilirsa d: almanya-nazi olur
+Strazburg	data/yerlesimler_avrupa.js	222	almanya 1940-08-02->1944-11-23: 1933-45 Reich donemi; almanya-nazi acilirsa d: almanya-nazi olur
+Colmar	data/yerlesimler_avrupa.js	223	almanya 1940-08-02->1945-02-02: 1933-45 Reich donemi; almanya-nazi acilirsa d: almanya-nazi olur
+Mulhouse	data/yerlesimler_avrupa.js	225	almanya 1940-08-02->1944-11-20: 1933-45 Reich donemi; almanya-nazi acilirsa d: almanya-nazi olur
+Flensburg	data/yerlesimler_avrupa.js	337	almanya 1864-10-30->1945-06-05: 1933-01-30 oncesine/sonrasina BOLUNUR (yalniz almanya-nazi acilirsa)
+Rotterdam	data/yerlesimler_avrupa.js	387	almanya 1940-05-14->1945-05-05: 1933-45 Reich donemi; almanya-nazi acilirsa d: almanya-nazi olur
+Utrecht	data/yerlesimler_avrupa.js	388	almanya 1940-05-15->1945-05-05: 1933-45 Reich donemi; almanya-nazi acilirsa d: almanya-nazi olur
+Groningen	data/yerlesimler_avrupa.js	389	almanya 1940-05-15->1945-04-16: 1933-45 Reich donemi; almanya-nazi acilirsa d: almanya-nazi olur
+Leeuwarden	data/yerlesimler_avrupa.js	390	almanya 1940-05-15->1945-04-15: 1933-45 Reich donemi; almanya-nazi acilirsa d: almanya-nazi olur
+Nijmegen	data/yerlesimler_avrupa.js	391	almanya 1940-05-15->1944-09-20: 1933-45 Reich donemi; almanya-nazi acilirsa d: almanya-nazi olur
+Middelburg	data/yerlesimler_avrupa.js	392	almanya 1940-05-17->1944-11-06: 1933-45 Reich donemi; almanya-nazi acilirsa d: almanya-nazi olur
+Leiden	data/yerlesimler_avrupa.js	393	almanya 1940-05-15->1945-05-05: 1933-45 Reich donemi; almanya-nazi acilirsa d: almanya-nazi olur
+Delft	data/yerlesimler_avrupa.js	394	almanya 1940-05-15->1945-05-05: 1933-45 Reich donemi; almanya-nazi acilirsa d: almanya-nazi olur
+Arnhem	data/yerlesimler_avrupa.js	395	almanya 1940-05-15->1945-04-14: 1933-45 Reich donemi; almanya-nazi acilirsa d: almanya-nazi olur
+Maastricht	data/yerlesimler_avrupa.js	399	almanya 1940-05-10->1944-09-14: 1933-45 Reich donemi; almanya-nazi acilirsa d: almanya-nazi olur
+Brüj (Brugge)	data/yerlesimler_avrupa.js	405	almanya 1940-05-28->1944-09-12: 1933-45 Reich donemi; almanya-nazi acilirsa d: almanya-nazi olur
+Gent	data/yerlesimler_avrupa.js	406	almanya 1940-05-28->1944-09-06: 1933-45 Reich donemi; almanya-nazi acilirsa d: almanya-nazi olur
+Ypres	data/yerlesimler_avrupa.js	407	almanya 1940-05-28->1944-09-07: 1933-45 Reich donemi; almanya-nazi acilirsa d: almanya-nazi olur
+Anvers (Antwerpen)	data/yerlesimler_avrupa.js	408	almanya 1940-05-18->1944-09-04: 1933-45 Reich donemi; almanya-nazi acilirsa d: almanya-nazi olur
+Brüksel	data/yerlesimler_avrupa.js	409	almanya 1940-05-17->1944-09-03: 1933-45 Reich donemi; almanya-nazi acilirsa d: almanya-nazi olur
+Namur	data/yerlesimler_avrupa.js	410	almanya 1940-05-28->1944-09-06: 1933-45 Reich donemi; almanya-nazi acilirsa d: almanya-nazi olur
+Mons	data/yerlesimler_avrupa.js	411	almanya 1940-05-28->1944-09-02: 1933-45 Reich donemi; almanya-nazi acilirsa d: almanya-nazi olur
+Tournai	data/yerlesimler_avrupa.js	413	almanya 1940-05-28->1944-09-02: 1933-45 Reich donemi; almanya-nazi acilirsa d: almanya-nazi olur
+Liège	data/yerlesimler_avrupa.js	415	almanya 1940-05-28->1944-09-08: 1933-45 Reich donemi; almanya-nazi acilirsa d: almanya-nazi olur
+Hasselt	data/yerlesimler_avrupa.js	416	almanya 1940-05-28->1944-09-07: 1933-45 Reich donemi; almanya-nazi acilirsa d: almanya-nazi olur
+Sint-Truiden	data/yerlesimler_avrupa.js	417	almanya 1940-05-28->1944-09-08: 1933-45 Reich donemi; almanya-nazi acilirsa d: almanya-nazi olur
+Huy	data/yerlesimler_avrupa.js	418	almanya 1940-05-28->1944-09-07: 1933-45 Reich donemi; almanya-nazi acilirsa d: almanya-nazi olur
+Eupen	data/yerlesimler_avrupa.js	421	almanya 1940-05-18->1944-09-11: 1933-45 Reich donemi; almanya-nazi acilirsa d: almanya-nazi olur
+Malmedy	data/yerlesimler_avrupa.js	422	almanya 1940-05-18->1944-09-12: 1933-45 Reich donemi; almanya-nazi acilirsa d: almanya-nazi olur
+Lüksemburg	data/yerlesimler_avrupa.js	424	almanya 1940-05-10->1944-09-10: 1933-45 Reich donemi; almanya-nazi acilirsa d: almanya-nazi olur
+Lübeck	data/yerlesimler_avrupa.js	428	almanya 1937-04-01->1945-06-05: 1933-45 Reich donemi; almanya-nazi acilirsa d: almanya-nazi olur
+Kiel	data/yerlesimler_avrupa.js	430	almanya 1864-10-30->1945-06-05: 1933-01-30 oncesine/sonrasina BOLUNUR (yalniz almanya-nazi acilirsa)
+Rostock	data/yerlesimler_avrupa.js	431	almanya 1281-01-01->1945-06-05: 1933-01-30 oncesine/sonrasina BOLUNUR (yalniz almanya-nazi acilirsa)
+Stettin (Szczecin)	data/yerlesimler_avrupa.js	434	almanya 1871-01-18->1945-06-05: 1933-01-30 oncesine/sonrasina BOLUNUR (yalniz almanya-nazi acilirsa)
+Stralsund	data/yerlesimler_avrupa.js	435	almanya 1815-06-09->1945-06-05: 1933-01-30 oncesine/sonrasina BOLUNUR (yalniz almanya-nazi acilirsa)
+Hannover	data/yerlesimler_avrupa.js	436	almanya 1871-01-18->1945-06-05: 1933-01-30 oncesine/sonrasina BOLUNUR (yalniz almanya-nazi acilirsa)
+Münster	data/yerlesimler_avrupa.js	437	almanya 1871-01-18->1945-06-05: 1933-01-30 oncesine/sonrasina BOLUNUR (yalniz almanya-nazi acilirsa)
+Dortmund	data/yerlesimler_avrupa.js	438	almanya 1871-01-18->1945-06-05: 1933-01-30 oncesine/sonrasina BOLUNUR (yalniz almanya-nazi acilirsa)
+Aachen	data/yerlesimler_avrupa.js	439	almanya 1871-01-18->1945-06-05: 1933-01-30 oncesine/sonrasina BOLUNUR (yalniz almanya-nazi acilirsa)
+Koblenz	data/yerlesimler_avrupa.js	441	almanya 1871-01-18->1945-06-05: 1933-01-30 oncesine/sonrasina BOLUNUR (yalniz almanya-nazi acilirsa)
+Düsseldorf	data/yerlesimler_avrupa.js	442	almanya 1871-01-18->1945-06-05: 1933-01-30 oncesine/sonrasina BOLUNUR (yalniz almanya-nazi acilirsa)
+Saarbrücken	data/yerlesimler_avrupa.js	443	almanya 1935-03-01->1945-06-05: 1933-45 Reich donemi; almanya-nazi acilirsa d: almanya-nazi olur
+Trier	data/yerlesimler_avrupa.js	444	almanya 1871-01-18->1945-06-05: 1933-01-30 oncesine/sonrasina BOLUNUR (yalniz almanya-nazi acilirsa)
+Mainz	data/yerlesimler_avrupa.js	445	almanya 1281-01-01->1945-06-05: 1933-01-30 oncesine/sonrasina BOLUNUR (yalniz almanya-nazi acilirsa)
+Kassel	data/yerlesimler_avrupa.js	446	almanya 1567-03-31->1945-06-05: 1933-01-30 oncesine/sonrasina BOLUNUR (yalniz almanya-nazi acilirsa)
+Magdeburg	data/yerlesimler_avrupa.js	447	almanya 1871-01-18->1945-06-05: 1933-01-30 oncesine/sonrasina BOLUNUR (yalniz almanya-nazi acilirsa)
+Leipzig	data/yerlesimler_avrupa.js	448	almanya 1918-11-13->1945-06-05: 1933-01-30 oncesine/sonrasina BOLUNUR (yalniz almanya-nazi acilirsa)
+Erfurt	data/yerlesimler_avrupa.js	449	almanya 1871-01-18->1945-06-05: 1933-01-30 oncesine/sonrasina BOLUNUR (yalniz almanya-nazi acilirsa)
+Würzburg	data/yerlesimler_avrupa.js	450	almanya 1281-01-01->1945-06-05: 1933-01-30 oncesine/sonrasina BOLUNUR (yalniz almanya-nazi acilirsa)
+Nürnberg	data/yerlesimler_avrupa.js	451	almanya 1281-01-01->1945-06-05: 1933-01-30 oncesine/sonrasina BOLUNUR (yalniz almanya-nazi acilirsa)
+Regensburg	data/yerlesimler_avrupa.js	452	almanya 1281-01-01->1945-06-05: 1933-01-30 oncesine/sonrasina BOLUNUR (yalniz almanya-nazi acilirsa)
+Augsburg	data/yerlesimler_avrupa.js	453	almanya 1281-01-01->1945-06-05: 1933-01-30 oncesine/sonrasina BOLUNUR (yalniz almanya-nazi acilirsa)
+Ulm	data/yerlesimler_avrupa.js	454	almanya 1281-01-01->1945-06-05: 1933-01-30 oncesine/sonrasina BOLUNUR (yalniz almanya-nazi acilirsa)
+Stuttgart	data/yerlesimler_avrupa.js	455	almanya 1918-11-30->1945-06-05: 1933-01-30 oncesine/sonrasina BOLUNUR (yalniz almanya-nazi acilirsa)
+Freiburg	data/yerlesimler_avrupa.js	456	almanya 1805-12-26->1945-06-05: 1933-01-30 oncesine/sonrasina BOLUNUR (yalniz almanya-nazi acilirsa)
+Konstanz	data/yerlesimler_avrupa.js	457	almanya 1805-12-26->1945-06-05: 1933-01-30 oncesine/sonrasina BOLUNUR (yalniz almanya-nazi acilirsa)
+Villach	data/yerlesimler_avrupa.js	493	almanya 1938-03-13->1945-04-27: 1933-45 Reich donemi; almanya-nazi acilirsa d: almanya-nazi olur
+Enschede	data/yerlesimler_avrupa.js	569	almanya 1940-05-15->1945-04-01: 1933-45 Reich donemi; almanya-nazi acilirsa d: almanya-nazi olur
+Leuven	data/yerlesimler_once1281_yt_avrupa.js	326	almanya 1940-05-28->1944-09-04: 1933-45 Reich donemi; almanya-nazi acilirsa d: almanya-nazi olur

@@ -1,0 +1,21 @@
+// UMIT19 KUNYE TASLAGI — SECENEKLI (onerilen: UYGULAMA). Ayrintı: RAPOR.md
+// data/devletler.js'e EKLENMEDI. Ancak Emre "Nazi Almanyasi ayri kunye olsun" derse eklenir.
+// ONEMLI: `almanya` kunyesi ZATEN f 0962-02-02 t 1945-06-05 ve 1933-45 Reich'i kapsiyor
+// (ic_not_t: "'Nazi Almanyasi' AYRI KUNYE ACILMADI: ayni polity (Reich) — §3.5 ② sinifi").
+// Bu taslak acilirsa `almanya` t'si 1933-01-30'a cekilmeli ve 37 yerlesimin donemi bolunmeli.
+
+{ id:"almanya-nazi", ad:"Almanya — Üçüncü Reich (Nasyonal Sosyalist Almanya)", tur:"devlet", bolge:"orta-avrupa", harita:"almanya-nazi",
+  f:"1933-01-30", t:"1945-06-05",
+  ic_not_f:"f 1933-01-30: Hindenburg'un Hitler'i şansölye ataması (USHMM 'hitler-appointed-chancellor': 'German President Paul von Hindenburg appoints Nazi Party leader Adolf Hitler as chancellor of Germany.'; atlas kronolojisi almanya künyesinde aynı gün/aynı kaynak). Bu gün REJİM değişiminin başlangıcını tarihler, polity'nin hukukî sonunu değil: Weimar anayasası hiç resmen kaldırılmadı; 1933-03-23 Yetki Yasası (Ermächtigungsgesetz) ve 1934-08-02 (Führer ve Reichskanzler birleşmesi) ALTERNATİF adaylardır — ikisinin gün/ kaynak teyidi bu taslakta YAPILMADI [gün teyitsiz].",
+  ic_not_t:"t 1945-06-05: Berlin Deklarasyonu — Müttefikler 'hereby assume supreme authority with respect to Germany' (AVALON wwii/ger01, 'BERLIN, GERMANY, June 5, 1945'); mevcut almanya künyesi ve almanya-muttefik-isgali f=1945-06-05 ile birebir kenetlenir (boşluk/çakışma 0). ALTERNATİFLER REDDEDİLDİ: 1945-05-08 koşulsuz teslim (AVALON wwii/gs11: 'cease active operations at 2301 hours Central European time on 8th May 1945') → 28 gün sahipsiz harita; 1945-05-23 Flensburg hükûmetinin tutuklanması → 13 gün boşluk.",
+  baskent:"Berlin",
+  ozet:"Hitler'in 30 Ocak 1933'te şansölye atanmasıyla başlayan tek-parti diktatörlüğü; Anschluss (1938), Sudet (1938), Polonya'nın işgali (1939) ve savaş fetihleriyle genişledi. 8 Mayıs 1945'te teslim oldu, 5 Haziran 1945'te Müttefikler yüce otoriteyi üstlendi — ardılı [[almanya-muttefik-isgali]]. Öncülü Weimar dönemi [[almanya]].",
+  kaynak:"USHMM 'Hitler appointed chancellor' (https://encyclopedia.ushmm.org) ; AVALON Project wwii/ger01 (Berlin Deklarasyonu 5 Haziran 1945) ; AVALON wwii/gs11 (teslim belgesi). TDV 'Almanya' maddesi bu turda OKUNMADI — TDV esas olduğundan çelişki halinde TDV'ye göre düzeltilmeli. Vikipedi dayanak değil.",
+  kronoloji:[
+    { odak_yer:["Berlin"], t:"1933-01-30", tur:"kurulus", b:"Hindenburg Hitler'i şansölye atadı — Nasyonal Sosyalist rejimin başlangıcı", kaynak:"USHMM hitler-appointed-chancellor: 'German President Paul von Hindenburg appoints Nazi Party leader Adolf Hitler as chancellor of Germany.'" },
+    { odak_yer:["Berlin"], t:"1945-06-05", tur:"son", b:"Berlin Deklarasyonu: Müttefikler Almanya'da yüce otoriteyi üstlendi", kaynak:"AVALON wwii/ger01: 'hereby assume supreme authority with respect to Germany'" }
+  ] },
+
+// ÖNCÜL DARALTMA (taslak uygulanırsa `almanya` künyesinin f/t satırı): t:"1945-06-05" -> t:"1933-01-30"
+// ve almanya künyesinin 1933-01-30 / 1945-05-08 / 1945-04-30 / 1945-05-02 / 1945-05-23 kronoloji maddeleri
+// almanya-nazi'ye taşınır (Değişmez 2: her kırılmanın ±30 günü içinde madde şart).
