@@ -69,7 +69,7 @@
 </style>
 <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.24.0/dist/maplibre-gl.css">
 <script>window.SURUM="r16356";</script>
-<link rel="stylesheet" href="css/style.css?v=r76862872">
+<link rel="stylesheet" href="css/style.css?v=r206329365">
 </head>
 <body>
 <!-- ERİŞİLEBİLİRLİK (LAB P5): görünmez <h1> + "haritaya geç" bağlantısı (yalnız odaklanınca görünür).
@@ -575,20 +575,28 @@
                    title="Devlet adına göre süzer · Enter: ilk eşleşeni ODAK yap">
             <button type="button" id="devlet-secici-tumu">☑ Tümünü seç</button>
           </div>
+          <!-- 🆕 19 Kasım 2026 (Emre) — SEÇİCİ v3: üstte seçilenler (odak + ekler, her birinin
+               yanında 🗺 harita kutusu), altta liste: ◉ odak yap · ☐ ek ekle. Çizim js/app.js
+               `havuzCiz` (aynı çizim kronoloji listesinin üstünde `#kr-akis-serit`te de). -->
+          <div id="devlet-secici-havuz"></div>
+          <div id="devlet-secici-liste-baslik"><span>◉ odak</span><span>☐ ek</span><span>devlet · yıllar · madde</span></div>
           <div id="devlet-secici-liste"></div>
-          <label class="ek-ayar-satir">
-            Ek devletlerde dünya önemi ≥
-            <select id="ek-dunya-esik" title="Yalnız bu değerin ÜSTÜNDEKİ dünya öneminde maddeler eklenir">
-              <option value="1">1 (hepsi)</option>
-              <option value="2">2</option>
-              <option value="3">3</option>
-              <option value="4" selected>4</option>
-              <option value="5">5 (yalnız dönüm noktaları)</option>
-            </select>
-          </label>
-          <label class="ek-ayar-satir">
-            <input type="checkbox" id="ek-yalniz-dis"> ek devletlerde yalnız dış mesele maddeleri
-          </label>
+          <details class="ek-ayar-grup">
+            <summary>🎚 Ek devletlerden hangi maddeler gelsin?</summary>
+            <label class="ek-ayar-satir">
+              Ek devletlerde dünya önemi ≥
+              <select id="ek-dunya-esik" title="Yalnız bu değerin ÜSTÜNDEKİ dünya öneminde maddeler eklenir">
+                <option value="1">1 (hepsi)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4" selected>4</option>
+                <option value="5">5 (yalnız dönüm noktaları)</option>
+              </select>
+            </label>
+            <label class="ek-ayar-satir">
+              <input type="checkbox" id="ek-yalniz-dis"> ek devletlerde yalnız dış mesele maddeleri
+            </label>
+          </details>
           <!-- 🔴🔴 ODAK SÜZGECİ — Emre'nin 10 Eylül 2026 tarifi, ve BİR
                KURALI KALDIRIYOR. Buranın üstündeki iki ayar YALNIZ EK
                devletlere işliyordu; kayıtlı kural şuydu: *"ODAK'ın kendi
@@ -665,6 +673,9 @@
             <div id="odak-suzgec-konu" class="ek-ayar-satir ek-konu-kutu"></div>
             <div id="odak-suzgec-ozet" class="ek-ayar-ozet"></div>
           </details>
+          <div id="devlet-secici-alt">
+            <button type="button" id="devlet-secici-tamam">✓ Tamam</button>
+          </div>
         </div>
       </div>
       <!-- KONTROL-YERLESIMI-1110 — `#ucus-grup` buradan footer'a indi (kamera
@@ -738,6 +749,10 @@
            çıkar. Ayrıca kopyalama düğmesini de o taşıyor: sağ tıkı olmayan
            dokunmatik cihazda özellik başka türlü ERİŞİLEMEZ olurdu. -->
       <div id="kr-secim"></div>
+      <!-- 🆕 19 Kasım 2026 (Emre): birden çok devlet akarken hangi devletin maddesinde
+           haritanın oynadığı listenin başında, devletin yanındaki 🗺 kutusuyla seçilir.
+           Yalnız ek devlet varken dolar (`:empty` boşken yer kaplamaz). -->
+      <div id="kr-akis-serit"></div>
       <div id="olay-listesi"></div>
     </section>
     <!-- Olay bilgi paneli: haritanın üzerinde değil, kronolojinin ALTINDA -->
@@ -2404,9 +2419,9 @@
      app.js'ten HEMEN ÖNCE ve bütün data/*.js'ten SONRA: seçili dil Türkçe değilse
      data/ceviri_<dil>_*.js'i document.write ile araya ekler ve OLAYLAR*/DEVLETLER
      metnini app.js `olaylar`ı kurmadan çevirir. Türkçede hiçbir çeviri dosyası inmez. -->
-<script src="data/ceviri_dizin.js?v=r245344861"></script>
+<script src="data/ceviri_dizin.js?v=r64905648"></script>
 <script src="js/ceviri.js?v=r20159993"></script>
-<script src="js/app.js?v=r135444260"></script>
+<script src="js/app.js?v=r71684670"></script>
 <!-- A-F ALTI KADEME · D/E/F KATMANI + ANTLAŞMA HARİTASI (GORUNUM-ABCD-0916, D-KATMAN).
      Kosu 12 bitince baglandi (17 Eylul). d_katman.js app.js'ten SONRA — guncelle()'yi sarar. -->
 <!-- ▼ data/paket_28.js — aşağıdaki 10 dosya buraya PAKETLENDİ (arac/paketle.py).
