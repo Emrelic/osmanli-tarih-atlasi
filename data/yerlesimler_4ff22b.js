@@ -82,7 +82,7 @@ window.YERLESIMLER_4FF22B = [
   // ⚠️ TDV'de madde YOK ve bu ÖLÇÜLDÜ: hawaii · honolulu · havai = 302.
   //   `§4` kırmızı çizgisi gereği dayanak AKADEMİK ve künyede yazılı.
   {
-    ad: "Honolulu",
+    ad: "Honolulu", kur:"1794-01-01", kesinlik:"yil", neden:"UMIT 19 KASIM · kur: KURULUŞ DEĞİL, İLK YAZILI TANIK — haritada görünme için ALT SINIR (Şırnak kalıbı, Emre kararı 14 Ekim 2026). Britannica Honolulu: «Overlooked by Captain James Cook and other early explorers, the harbour with its outlet through the reef of Nuuanu Stream and sheltered by Sand Island was entered by Captain William Brown in 1794.» Avrupalı gemi girişi yerleşimin iskânını göstermez; 1285→1794 yerleşim varlığı kaynakta yok, dönem YAZILMADI; hawaii-seflikleri künyesi alternatifi kanıtsız olduğundan önerilmedi.",
     // 🔴 MÜKERRER `s:` VE `kaynak:` KALDIRILDI — 10 Eylül 2026.
     //   Bu obje ikisini de İKİ KEZ taşıyordu; JS SONUNCUYU alır.
     //   Düşen `s:` yalnız `abd` 1898→1923 taşıyordu, yani 1795-1898
