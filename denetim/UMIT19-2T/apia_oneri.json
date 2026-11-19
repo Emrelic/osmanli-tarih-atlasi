@@ -1,0 +1,15 @@
+{
+ "kunye_degisim": {
+  "id": "samoa-kralligi",
+  "alan": "f",
+  "eski": "1889-06-14",
+  "yeni": "ONERI: kunye f DEGISMESIN (1889-06-14 kalsin). Ihtiyatli alternatif: 1881-03-19 (yalniz Laupepa'nin tekrar taninma gunu; kesintili polity)",
+  "kaynak": "Te Papa, German-Pacific relations: the precolonial period (tepapa.govt.nz/german-pacific-relations-the-precolonial-period), tarayicida birebir okundu: «A Sāmoan national government had been formed with a joint kingship shared between Malietoa Laupepa and Tupua Pulepule. In 1875, American agent Albert Steinberger, established himself as Prime Minister and sole kingship was afforded to Malietoa Laupepa.» ve «Malietoa Laupepa’s kingship ended in 1879 and he was replaced by Malietoa Talavou. Laupepa was once again recognised as King by Germany, Britain, and America in 1881.» Britannica 'Samoa' (History), tarayicida birebir: Samoans' attempts to establish a national government were frustrated by the settlers and powers; 1830'da Malietoa Vainu'upo «had just conquered all of Samoa» (kunye degil, kisa sureli fetih). Gun 1881-03-19: onceki tur Stevenson, A Footnote to History (bu turda yeniden okunmadi).",
+  "ic_not": "Ulusal hukumet en erken 1875 (yil, gun yok; Te Papa), ama KESINTILI: 1879 Talavou, 1887-89 Alman destekli Tamasese ve Amerikan destekli Mata'afa rakip hukumetleri. 1285-1880 icin kunye kuracak kaynak yok: Britannica ulusal hukumetin kurulamadigini soyluyor, tafa'ifa/Malietoa unvani siyasi birlik kanitlamaz. Berlin Senedi 1889 birincil metin gunu f olarak kalir. 1881-03-19 genisletmesi yapilirsa ic_not'ta 'Laupepa 1879-81 arasi tahttan, 1887-89 surgun, rakip hukumetler' beyan edilmeli."
+ },
+ "yerlesim_donemleri": [
+  {"yer": "Apia", "f": "1881-03-19", "t": "1889-06-14", "d": "samoa-kralligi", "kaynak": "YALNIZ kunye f 1881-03-19'a cekilirse; Stevenson (onceki tur, gun birebir) + Te Papa 1881. Aksi halde Apia 1285-1889 beyanli bosluk kalir: 1889 oncesi kesintisiz ulusal polity yok (Britannica)."},
+  {"yer": "Pago Pago", "f": "1881-03-19", "t": "1889-06-14", "d": "samoa-kralligi", "kaynak": "ZAYIF, yazilmamasi onerilir: Samoa hukumetinin Tutuila'yi 1881-89 fiilen yonettigi bu turda kanitlanmadi (1878 ABD antlasmasi Pago Pago sefiyle ayri, Britannica)."}
+ ],
+ "olcum": "devletler.js: samoa-kralligi f 1889-06-14 t 1900-04-17 (ic_not_f: Berlin Senedi imza gunu, birincil metin). Oncul kunye yok (grep samoa: yalniz samoa-kralligi, amerikan-samoasi f 1900-04-17, bagimsiz-samoa 1962). Ardil: Apia yerlesimi samoa-kralligi 1889-06-14..1900-03-01 sonra alman donemi (kunye t 1900-04-17, en gec uc, ic_not_t beyanli); Pago Pago samoa-kralligi..1900-04-17 -> amerikan-samoasi f 1900-04-17: cakisma yok. f 1881-03-19'a cekilirse oncul cakisma yok, kunye omru uzar. Degismez 4 arac ile KOSTURULMADI (veri dosyasina dokunulmadi) — olculmedi."
+}
