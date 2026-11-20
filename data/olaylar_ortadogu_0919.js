@@ -22,7 +22,7 @@
 window.OLAYLAR_ORTADOGU_0919 = [
 
 // ── 1. TÂİF ÇEVRESİ VEHHÂBÎ NÜFUZUNA GİRDİ (1801) ─────────────────────
-{ t:"1801-01-01", kesinlik:"yil", b:"Tâif çevresi kabileleri Vehhâbî nüfuzuna girdi — Türabe ve Hurma Mekke Şerifliği'nden koptu", tur:"toprak-kayip", onem:3, dunya:2, kapsam:"ic", yer_id:"Türabe",
+{ t:"1801-01-01", kesinlik:"yil", b:"Tâif çevresi kabileleri Vehhâbî nüfuzuna girdi — Türabe ve Hurma Mekke Şerifliği'nden koptu", tur:"toprak-kayip", onem:3, dunya:2, kapsam:"ic", yer_id:"Türabe", odak_yer:["Türabe","Hurma (Tâif doğusu)"],
   gun:"1801 (kaynak yalnız yıl veriyor)", yer:"Tâif çevresi (Türabe, Hurma)",
   etiket:["toprak-kayip","konu-siyasi","konu-din"],
   d:"Mekke Şerifi Gālib'e bağlı Tâif çevresindeki kabileler 1801'de Vehhâbî nüfuzuna girdi; Dir'iye emîri onları Şerif'in eniştesi ve düşmanı olan bedevî şeyhi Osman el-Mudâyifî'nin idaresine verdi. Doğudaki Türabe ve Hurma vahaları da bu kuşakta Suûdî tarafına geçti. Bu, Vehhâbîlerin Şubat 1803'te Tâif'i ve ardından Mekke'yi almasının öncülüydü.",
@@ -36,7 +36,7 @@ window.OLAYLAR_ORTADOGU_0919 = [
   kaynak:"Lorimer, Gazetteer I/1 (1915) s.1085 (D4-ORTADOGU '1086' yazmıştı; tam metinde sayfa başlığı 1085): 'the Egyptian garrisons had been obliged to retire from Bishah, Ranyah and Turabah. In August 1816 Ibrahim Pasha … left Cairo' — çekilişin yılı çıkarımla 1816 (Tosun'un 7 Kasım 1815 dönüşü ile Ağustos 1816 arası); kaynak yıl yazmıyor, sıralama veriyor" },
 
 // ── 3. MISIR GARNİZONU HARC'TAN ÇEKİLDİ (13 AĞUSTOS 1819) ─────────────
-{ t:"1819-08-13", b:"Mısır garnizonu Harc'taki Süleymiye'den çekilip Menfûha'ya ulaştı — Necid'in güneyi başsız kaldı", tur:"toprak-kayip", onem:3, dunya:2, kapsam:"ic", yer_id:"Dilem (Harc)", odak_yer:["Dilem (Harc)","Menfûha"],
+{ t:"1819-08-13", b:"Mısır garnizonu Harc'taki Süleymiye'den çekilip Menfûha'ya ulaştı — Necid'in güneyi başsız kaldı", tur:"toprak-kayip", onem:3, dunya:2, kapsam:"ic", yer_id:"Dilem (Harc)", odak_yer:["Dilem (Harc)","Menfûha","Havta (Havtat Benî Temîm)"],
   gun:"13 Ağustos 1819", yer:"Harc (Süleymiye, Dilem), Menfûha, Eflâc, Leylâ, Havta",
   etiket:["askeri","toprak-kayip","konu-askeri"],
   d:"Dir'iye'nin yıkılışından sonra İbrâhim Paşa'nın Harc'taki Süleymiye'ye koyduğu Mısır karakolu, Paşa'nın geri çekilme emriyle yola çıkmadan önce Dilem'in dört şeyhini bir ziyafette öldürttü ve bedevîlerce kuşatıldı. Kurtarılan garnizon 13 Ağustos 1819'da Menfûha'ya ulaştı ve Kasîm'e yürüyüş başladı. Necid'in güneyinde merkezî bir otorite kalmadı; Suûd ailesinin girişimleri 1824'e kadar sonuç vermedi.",
