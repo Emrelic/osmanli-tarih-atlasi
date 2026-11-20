@@ -47,7 +47,7 @@
 window.OLAYLAR_ILIRYA0072 = [
 
 // ── 1806 Şubat · Dalmaçya Fransız idaresine geçti ────────────────────
-{ tur:"antlasma", bolge:3, t:"1806-02-01", k:"antlasma", onem:3, dunya:3, kapsam:"dis", yer_id:"Zadar (Zara)",
+{ tur:"antlasma", bolge:3, t:"1806-02-01", k:"antlasma", onem:3, dunya:3, kapsam:"dis", yer_id:"Zadar (Zara)", odak_yer:["Zadar (Zara)","Nadin"],
   b:"Dalmaçya'nın Fransız idaresine geçişi — Pojun (Bratislava) Antlaşması'nın uygulanması",
   gun:"Şubat 1806 (kaynak AY hassasiyetinde; gün vermiyor)",
   yer:"Zadar (Zara), Split (Spalato), Şibenik (Sebenico), Knin, Nadin, Vrana (Urana), Sin (Sinj), Klis, Pag (Pago), Uzunada (Dugi Otok), Brakya (Brač), Hvar (Lesina), Vis (Lissa), Korçula (Kurzola), Mliyet (Mljet), Trogir (Traù), Dalmaçya",
@@ -69,7 +69,7 @@ window.OLAYLAR_ILIRYA0072 = [
   ic_not_d:"⚠️ ÇELİŞKİ BEYANI: Cres kendi maddesinde \"francuska (1805-14) uprava\", Rab kendi maddesinde \"1805. bio priključen Napoleonovim Ilirskim pokrajinama\" diyor. Rab'ınki ANAKRONİK — aynı yayıncının `ilirske-pokrajine` maddesi eyaletleri 1809'da kurar. Üç adadan YALNIZ Krk'ın anlatısı kendi içinde ve `ilirske-pokrajine` ile tutarlı; bu yüzden bölgesel model Krk'tan alındı ve fark burada YAZILDI." },
 
 // ── 1813 · Avusturya İlirya'yı ve Dalmaçya'yı geri aldı ──────────────
-{ tur:"savas", bolge:2, t:"1813-01-01", k:"savas", onem:3, dunya:3, kapsam:"dis", yer_id:"Zadar (Zara)",
+{ tur:"savas", bolge:2, t:"1813-01-01", k:"savas", onem:3, dunya:3, kapsam:"dis", yer_id:"Zadar (Zara)", odak_yer:["Zadar (Zara)","Nadin","Sisak"],
   b:"Avusturya'nın İlirya Eyaletleri'ni ve Dalmaçya'yı geri alması — Napolyon idaresinin sonu",
   gun:"1813 (kaynaklar YIL hassasiyetinde; \"potkraj 1813\" = 1813 sonu)",
   yer:"Zadar (Zara), Split (Spalato), Şibenik (Sebenico), Knin, Nadin, Vrana (Urana), Sin (Sinj), Klis, Pag (Pago), Uzunada (Dugi Otok), Brakya (Brač), Hvar (Lesina), Vis (Lissa), Korçula (Kurzola), Mliyet (Mljet), Krk (Veglia), Cres (Cherso), Rab (Arbe), Karlovac, Sisak, Gospić, Udbina, Drežnik (Drežnik Grad), Cetin (Cetingrad), Kostayniçe (Kostajnica), Ljubljana, İlirya Eyaletleri, Dalmaçya",

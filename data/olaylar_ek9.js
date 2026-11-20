@@ -308,7 +308,7 @@ window.OLAYLAR_EK9 = [
   b:"Dongola'nın geri alınışı — Nil boyu seferinin başlaması",
   gun:"23 Eylül 1896", yer:"Dongola, Kerma, Nil'in üçüncü çağlayanı", kisiler:"Herbert Kitchener, Abdullah b. Muhammed et-Teâyişî",
   d:"İtalyanların Adua'da yenilmesinden sonra İngiltere, Mısır ordusunu Kitchener kumandasında Nil boyunca güneye yürüttü. Demiryolu çölde ilerledikçe ikmal sorunu çözüldü ve Dongola vilâyeti 23 Eylül 1896'da geri alındı. On bir yıllık Mehdî idaresi burada sona erdi; sefer iki yıl daha sürerek Ümmüdurman'a ulaşacaktı.", ic_not_d:"Atlasta Dongola'nın Mehdî döneminin bu tarihte bitmesi gerekir — bugün Hartum'la aynı güne (1899) bağlı görünüyor.",
-  kaynak:"sudan", duygu:["🎉"], yer_id:"Dongola" },
+  kaynak:"sudan", duygu:["🎉"], yer_id:"Dongola", odak_yer:["Dongola","Kerma"] },
 
 { onem:5, dunya:2, bolge_onem:4, puan_s:"v2", tur:"savas", kapsam:"ic", t:"1898-09-02", k:"fetih", etiket:["toprak-kazanc","savas","konu-askeri"],
   b:"Ümmüdurman Muharebesi — Mehdî devletinin yıkılışı",
@@ -325,7 +325,7 @@ window.OLAYLAR_EK9 = [
   b:"Zeyla ve Somali sahilinin İngiliz idaresine geçişi",
   gun:"1884", yer:"Zeyla, Berbera, Bulhar, Somali sahili", kisiler:"Hidiv Tevfik, Aden siyasî mukimi",
   d:"Mehdî ayaklanması Mısır'ın Sudan ve Kızıldeniz garnizonlarını çökertince Kahire, Habeş kıyısındaki uzak karakollarını boşaltmak zorunda kaldı. Aden'deki İngiliz idaresi 1884'te Zeyla ve Berbera'ya asker çıkardı; ertesi yıl Somali kabile reisleriyle himaye antlaşmaları imzalanarak İngiliz Somalilandı kuruldu. 1559'dan beri Habeş eyaletine bağlı olan Zeyla böylece elden çıktı.", ic_not_d:"Denetim bu kırılmayı aynı güne düşen 'Reji İdaresi' maddesiyle eşleştiriyordu; bu madde o eşleşmeyi düzeltir. Günü doğrulanamadığı için yıl hassasiyetinde yazılmıştır.",
-  kaynak:"aden", duygu:["😔"], yer_id:"Zeyla" },
+  kaynak:"aden", duygu:["😔"], yer_id:"Zeyla", odak_yer:["Zeyla","Bulhar"] },
 
 // ---------------------------------------------------------------------------
 // L) TUNUS — md.51, işgalin ikinci adımı

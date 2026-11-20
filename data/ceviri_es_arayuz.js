@@ -1017,6 +1017,7 @@ Ceviri.ekle("es","arayuz",{
 "Mayıs # [yalnız yıl-ay teyitli; gün teyitsiz]":["mayo de # [solo año y mes confirmados; día sin confirmar]", "4ab7232d"],
 "Mayıs # başı":["principios de mayo de #", "8985fa43"],
 "Mayıs # başı (berat; Dük VI. Heinrich'in ölümü Nisan #) — gün kaynakta yok":["principios de mayo de # (berat; muerte del duque Enrique VI en abril de #) — el día no figura en la fuente", "7b57c087"],
+"Mayıs # başı [yalnız ay teyitli; gün teyitsiz]":["Principios de mayo # [solo se confirma el mes; el día no está confirmado]", "7c70f88c"],
 "Mayıs # sonu":["finales de mayo de #", "a55b5c42"],
 "Metin (detay)":["Texto (detalle)", "47a9253c"],
 "Meydan savaşı":["Batalla campal", "cc1a62c9"],

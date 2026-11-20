@@ -969,6 +969,7 @@ Ceviri.ekle("hi","arayuz",{
 "Mayıs # [yalnız yıl-ay teyitli; gün teyitsiz]":["मई # [केवल वर्ष-माह अपुष्ट; दिन अपुष्ट]", "4ab7232d"],
 "Mayıs # başı":["मई # का आरंभ", "8985fa43"],
 "Mayıs # başı (berat; Dük VI. Heinrich'in ölümü Nisan #) — gün kaynakta yok":["मई # का आरंभ (बेरात; ड्यूक हाइनरिख षष्ठ की मृत्यु अप्रैल #) — दिन स्रोत में नहीं", "7b57c087"],
+"Mayıs # başı [yalnız ay teyitli; gün teyitsiz]":["मई # की शुरुआत [केवल माह की पुष्टि; दिन की पुष्टि नहीं]", "7c70f88c"],
 "Mayıs # sonu":["मई # का अंत", "a55b5c42"],
 "Metin (detay)":["पाठ (विवरण)", "47a9253c"],
 "Meydan savaşı":["खुली लड़ाई", "cc1a62c9"],

@@ -1033,6 +1033,7 @@ Ceviri.ekle("fr","arayuz",{
 "Mayıs # [yalnız yıl-ay teyitli; gün teyitsiz]":["mai # [seuls l'année et le mois sont confirmés ; jour non confirmé]", "4ab7232d"],
 "Mayıs # başı":["début mai #", "8985fa43"],
 "Mayıs # başı (berat; Dük VI. Heinrich'in ölümü Nisan #) — gün kaynakta yok":["début mai # (berat ; mort du duc Henri VI en avril #) — jour absent de la source", "7b57c087"],
+"Mayıs # başı [yalnız ay teyitli; gün teyitsiz]":["Début mai # [seul le mois est confirmé ; le jour n'est pas confirmé]", "7c70f88c"],
 "Mayıs # sonu":["fin mai #", "a55b5c42"],
 "Mayıs MÖ #":["mai # av. J.-C.", "b7d81369"],
 "Metin (detay)":["Texte (détail)", "47a9253c"],

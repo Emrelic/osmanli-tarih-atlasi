@@ -75,7 +75,7 @@ window.KRONOLOJI_COK_INCE_GUNEY_ASYA = [
     ic_not_kaynak:"eser bu oturumda açılmadı; olay ve gün standart literatürde ihtilafsız",
     taraflar:["maratha"], etiket:["konu-siyasi"] },
   { onem:4, dunya:1, bolge_onem:3, puan_s:"v2", t:"1713-01-01", k:"siyasi",tur:"siyasi", b:"Bâlâjî Vişvanâth peşva oldu, Maratha devletinde peşvalık dönemi başladı",
-    gun:"(kaynak yıl verir)", yer:"Satara", yer_id:"Pûne (Poona)",
+    gun:"(kaynak yıl verir)", yer:"Satara", yer_id:"Pûne (Poona)", odak_yer:["Pûne (Poona)","Satâra"],
     kisiler:"Bâlâjî Vişvanâth · Şâhû",
     d:"Kral Şâhû'nun Bâlâjî Vişvanâth'ı peşva (başvezir) tayin etmesiyle fiilî iktidar Pune merkezli peşvalara geçti; makam onun soyunda babadan oğula intikal ederek Maratha genişlemesinin yönetim merkezi oldu.",
     kaynak:"Stewart Gordon, The Marathas 1600–1818 (The New Cambridge History of India II.4, Cambridge UP, 1993)",

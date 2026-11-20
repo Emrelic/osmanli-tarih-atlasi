@@ -794,7 +794,7 @@ window.OLAYLAR_LAB19_2S_P6 = [
   gun:"16 Haziran 1916",
   yer:"Cidde",
   d:"Şerîf Hüseyin'in Haziran 1916'da Mekke'de başlattığı isyanda 16 Haziran'da Cidde isyancıların eline geçti.",
-  ic_not_d:"LAB19 (19 Kasım 2026): TDV 'Şerîf Hüseyin' (Azmi Özcan, c. 38, s. 585-586) «16 Haziran’da Cidde, 17 Eylül’de Tâif düştü» cümlesinde yıl yazmaz, önceki cümledeki «Haziran 1916’da Mekke’de isyanı başlattı» bağlamından 1916 alınmıştır; TDV 'Cidde' (Mustafa L. Bilge) ele geçirme gününü vermez. Râbiğ için ayrı kaynak bulunamadı (atlas yerleşim kaydı Cidde gününü Râbiğ'e uygulamış, bkz. 2s belirsiz listesi).",
+  ic_not_d:"LAB19 (19 Kasım 2026): TDV 'Şerîf Hüseyin' (Azmi Özcan, c. 38, s. 585-586) «16 Haziran’da Cidde, 17 Eylül’de Tâif düştü» cümlesinde yıl yazmaz, önceki cümledeki «Haziran 1916’da Mekke’de isyanı başlattı» bağlamından 1916 alınmıştır; TDV 'Cidde' (Mustafa L. Bilge) ele geçirme gününü vermez. Râbiğ için ayrı kaynak bulunamadı (atlas yerleşim kaydı Cidde gününü Râbiğ'e uygulamış, bkz. 2s belirsiz listesi). 20 Kasım 2026 EK: 16 Haziran CİDDE günüdür, Râbiğ'in değil — George Antonius, The Arab Awakening (1938) s.199: Cidde garnizonu «surrendered on the 16th of June» (EMRELİC arşiv turu; bu oturumda ayrıca okunmadı). Râbiğ'in kendi günü bulunamadı (ikincil kaynaklar 'Temmuz sonu'); Râbiğ yerleşim kırılması ay hassasiyetine (Temmuz 1916) alınır.",
   kaynak:"TDV İslâm Ansiklopedisi, «Şerîf Hüseyin» (https://islamansiklopedisi.org.tr/serif-huseyin; 19.11.2026 okundu): «16 Haziran’da Cidde, 17 Eylül’de Tâif düştü.» · hassasiyet: GÜN" },
 
 { t:"1916-09-17",

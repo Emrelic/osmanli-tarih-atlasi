@@ -180,7 +180,7 @@ window.OLAYLAR_2S0920 = [
   kaynak:"TDV `azerbaycan` — AYNEN: \"27 Nisan 1920'de Azerbaycan'ı işgal eden Kızıl Ordu parlamento ve hükümeti feshederek Azerbaycan Demokratik Cumhuriyeti'ne son verdi\" · hassasiyet: GÜN · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): TDV İslâm Ansiklopedisi, 'Azerbaycan'" },
 
 // ── 1920 · Meyselûn ──────────────────────────────────────────────────
-{ tur:"savas", bolge:3, t:"1920-07-24", k:"savas", onem:4, dunya:4, kapsam:"dis", yer_id:"Şam",
+{ tur:"savas", bolge:3, t:"1920-07-24", k:"savas", onem:4, dunya:4, kapsam:"dis", yer_id:"Şam", odak_yer:["Şam","İskenderun"],
   b:"Han Meyselûn — Faysal dönemi bitti, Suriye Fransız mandasına geçti",
   gun:"24 Temmuz 1920",
   yer:"Şam, Halep, Beyrut, Humus, Hama, Antakya, İskenderun, Deyrizor, Rakka, Münbiç, Cerablus, Azez (A'zâz), Ayn el-Arab (Kobani), Malikiye (Derik), Tedmür (Palmyra), Trablusşam, Sayda, Sûr (Tyre), Ba'lebek (Baalbek), Deyrülkamer (Dayr al-Kamer)",
@@ -239,7 +239,7 @@ window.OLAYLAR_2S0920 = [
   ic_not_d:"Atlas kırılması 1941-05-03; kaynak günle UYUŞUYOR. Tek OKUNAN kaynak SIstory'dir; Gazzetta/Normattiva doğrulaması okunamadı. Başka bir kaynağın (World Statesmen) 5 Mayıs vermesi akademik değildir, dikkate alınmadı." },
 
 // ── 1941 · Habeşistan'ın dönüşü ─────────────────────────────────────
-{ tur:"kurtulus", bolge:1, t:"1941-05-05", k:"kurtulus", onem:4, dunya:3, kapsam:"dis", yer_id:"Sokota",
+{ tur:"kurtulus", bolge:1, t:"1941-05-05", k:"kurtulus", onem:4, dunya:3, kapsam:"dis", yer_id:"Sokota", odak_yer:["Sokota","Asella","Asosa","Ağere Maryam","Gimbî","Moyale","Negele Borana"],
   b:"Haile Selassie Addis Ababa'ya döndü — Habeşistan İtalyan Doğu Afrikası'ndan ayrıldı",
   gun:"5 Mayıs 1941",
   yer:"Sokota, Gimbî, Asella, Ağere Maryam, Moyale, Vukro, Negele Borana, Asosa",

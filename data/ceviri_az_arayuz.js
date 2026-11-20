@@ -967,6 +967,7 @@ Ceviri.ekle("az","arayuz",{
 "Mayıs # [yalnız yıl-ay teyitli; gün teyitsiz]":["May # [yalnız il-ay təsdiqlidir; gün təsdiqsiz]", "4ab7232d"],
 "Mayıs # başı":["May # başı", "8985fa43"],
 "Mayıs # başı (berat; Dük VI. Heinrich'in ölümü Nisan #) — gün kaynakta yok":["May # başı (bərat; Hersoq VI Heinrichin ölümü Aprel #) — gün mənbədə yoxdur", "7b57c087"],
+"Mayıs # başı [yalnız ay teyitli; gün teyitsiz]":["Mayın əvvəli # [yalnız ay təsdiqlənib; gün təsdiqlənməyib]", "7c70f88c"],
 "Mayıs # sonu":["May # sonu", "a55b5c42"],
 "Metin (detay)":["Mətn (təfərrüat)", "47a9253c"],
 "Meydan savaşı":["Meydan döyüşü", "cc1a62c9"],

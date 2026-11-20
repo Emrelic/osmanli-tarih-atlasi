@@ -967,6 +967,7 @@ Ceviri.ekle("pl","arayuz",{
 "Mayıs # [yalnız yıl-ay teyitli; gün teyitsiz]":["Maj # [potwierdzony tylko rok i miesiąc; dzień niepotwierdzony]", "4ab7232d"],
 "Mayıs # başı":["Początek maja #", "8985fa43"],
 "Mayıs # başı (berat; Dük VI. Heinrich'in ölümü Nisan #) — gün kaynakta yok":["Początek maja # (berat; śmierć księcia Henryka VI w kwietniu #) — dnia brak w źródle", "7b57c087"],
+"Mayıs # başı [yalnız ay teyitli; gün teyitsiz]":["Początek maja # [potwierdzony tylko miesiąc; dzień niepotwierdzony]", "7c70f88c"],
 "Mayıs # sonu":["Koniec maja #", "a55b5c42"],
 "Metin (detay)":["Tekst (szczegóły)", "47a9253c"],
 "Meydan savaşı":["Bitwa polowa", "cc1a62c9"],

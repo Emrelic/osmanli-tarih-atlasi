@@ -991,6 +991,7 @@ Ceviri.ekle("ru","arayuz",{
 "Mayıs # [yalnız yıl-ay teyitli; gün teyitsiz]":["май # [подтверждены только год и месяц; день не подтверждён]", "4ab7232d"],
 "Mayıs # başı":["начало мая #", "8985fa43"],
 "Mayıs # başı (berat; Dük VI. Heinrich'in ölümü Nisan #) — gün kaynakta yok":["Начало мая # (берат; смерть герцога Генриха VI в апреле #) — день в источнике не указан", "7b57c087"],
+"Mayıs # başı [yalnız ay teyitli; gün teyitsiz]":["Начало мая # [подтверждён только месяц; день не подтверждён]", "7c70f88c"],
 "Mayıs # sonu":["конец мая #", "a55b5c42"],
 "Metin (detay)":["Текст (подробно)", "47a9253c"],
 "Meydan savaşı":["Полевое сражение", "cc1a62c9"],

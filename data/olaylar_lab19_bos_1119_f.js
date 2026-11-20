@@ -14,7 +14,7 @@ window.OLAYLAR_LAB19_BOS_1119_F = [
   puan_s:"v2",
   kapsam:"dis",
   etiket:["konu-siyasi"],
-  yer_id:"Taos Pueblo",
+  yer_id:"Taos Pueblo", odak_yer:["Taos Pueblo"],
   b:"Pueblo İsyanı başladı: Taos, Picuris ve öteki Pueblo köyleri İspanyolları ve rahipleri hedef aldı",
   gun:"10 Ağustos 1680",
   yer:"Taos Pueblo",

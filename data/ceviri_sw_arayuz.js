@@ -967,6 +967,7 @@ Ceviri.ekle("sw","arayuz",{
 "Mayıs # [yalnız yıl-ay teyitli; gün teyitsiz]":["Mei # [mwaka-mwezi tu umethibitishwa; siku haijathibitishwa]", "4ab7232d"],
 "Mayıs # başı":["Mwanzoni mwa Mei #", "8985fa43"],
 "Mayıs # başı (berat; Dük VI. Heinrich'in ölümü Nisan #) — gün kaynakta yok":["Mwanzoni mwa Mei # (berat; kifo cha Duke Heinrich VI Aprili #) — siku haipo katika chanzo", "7b57c087"],
+"Mayıs # başı [yalnız ay teyitli; gün teyitsiz]":["Mwanzoni mwa Mei # [mwezi tu ndio umethibitishwa; siku haijathibitishwa]", "7c70f88c"],
 "Mayıs # sonu":["Mwishoni mwa Mei #", "a55b5c42"],
 "Metin (detay)":["Maandishi (maelezo)", "47a9253c"],
 "Meydan savaşı":["Vita vya uwanjani", "cc1a62c9"],

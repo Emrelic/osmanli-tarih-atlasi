@@ -969,6 +969,7 @@ Ceviri.ekle("zh","arayuz",{
 "Mayıs # [yalnız yıl-ay teyitli; gün teyitsiz]":["#年5月［仅年月经证实；日期未经证实］", "4ab7232d"],
 "Mayıs # başı":["#年5月初", "8985fa43"],
 "Mayıs # başı (berat; Dük VI. Heinrich'in ölümü Nisan #) — gün kaynakta yok":["#年5月初（敕书；亨利六世公爵逝于4月#）——史料无日期", "7b57c087"],
+"Mayıs # başı [yalnız ay teyitli; gün teyitsiz]":["5月初 # [仅月份已确认；具体日期未确认]", "7c70f88c"],
 "Mayıs # sonu":["#年5月末", "a55b5c42"],
 "Metin (detay)":["正文（详情）", "47a9253c"],
 "Meydan savaşı":["野战", "cc1a62c9"],

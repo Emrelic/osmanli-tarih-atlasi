@@ -1033,6 +1033,7 @@ Ceviri.ekle("ar","arayuz",{
 "Mayıs # [yalnız yıl-ay teyitli; gün teyitsiz]":["مايو # [السنة والشهر فقط مؤكدان؛ اليوم غير مؤكد]", "4ab7232d"],
 "Mayıs # başı":["أوائل مايو #", "8985fa43"],
 "Mayıs # başı (berat; Dük VI. Heinrich'in ölümü Nisan #) — gün kaynakta yok":["أوائل مايو # (براءة؛ وفاة الدوق هاينريش السادس في أبريل #) — اليوم غير مذكور في المصدر", "7b57c087"],
+"Mayıs # başı [yalnız ay teyitli; gün teyitsiz]":["أوائل مايو # [الشهر فقط مؤكَّد؛ اليوم غير مؤكَّد]", "7c70f88c"],
 "Mayıs # sonu":["أواخر مايو #", "a55b5c42"],
 "Mayıs MÖ #":["مايو # ق.م", "b7d81369"],
 "Metin (detay)":["النص (التفاصيل)", "47a9253c"],

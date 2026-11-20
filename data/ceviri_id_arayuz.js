@@ -967,6 +967,7 @@ Ceviri.ekle("id","arayuz",{
 "Mayıs # [yalnız yıl-ay teyitli; gün teyitsiz]":["Mei # [hanya tahun-bulan yang terkonfirmasi; hari belum terkonfirmasi]", "4ab7232d"],
 "Mayıs # başı":["Awal Mei #", "8985fa43"],
 "Mayıs # başı (berat; Dük VI. Heinrich'in ölümü Nisan #) — gün kaynakta yok":["Awal Mei # (berat; wafatnya Adipati Heinrich VI pada April #) — hari tidak ada dalam sumber", "7b57c087"],
+"Mayıs # başı [yalnız ay teyitli; gün teyitsiz]":["Awal Mei # [hanya bulan yang terkonfirmasi; hari belum terkonfirmasi]", "7c70f88c"],
 "Mayıs # sonu":["Akhir Mei #", "a55b5c42"],
 "Metin (detay)":["Teks (rincian)", "47a9253c"],
 "Meydan savaşı":["Pertempuran terbuka", "cc1a62c9"],
