@@ -1,7 +1,6 @@
 /* ÇEVİRİ zh · olay — arac/ceviri.py ile YAZILDI, elle düzenleme: py arac/ceviri.py uygula.
    Kayıt: id → [metin, kaynak_ozet] (olayda alan başına). Tasarım: denetim/CEVIRI-1103/TASARIM.md */
 Ceviri.ekle("zh","olay",{
-"OLAYLAR_ARKEOLOJI_GECIS:-3249-01-01:0":{"b": ["河姆渡：所有者时期结束——河姆渡文化", "ab8b124f"], "d": ["河姆渡各点的 s: 所有权序列中，这一端点来自所属条目（河姆渡文化）的 f/t 界限，或来自地点的 kur:/bit: 端点；条目及其出处见 data/devletler.js。这不是独立的历史事件，而是时期端点记录（不变式 2 的范围）。", "f13891fd"]},
 "OLAYLAR_ARKEOLOJI_GECIS:-3819-01-01:0":{"b": ["阿瑙：所有者时期结束——阿瑙IA（前纳马兹加/梅阿纳阶段，科佩特山）", "fee73a90"], "d": ["阿瑙各点的 s: 所有权序列中，这一端点来自所属条目（阿瑙IA（前纳马兹加/梅阿纳阶段，科佩特山））的 f/t 界限，或来自地点的 kur:/bit: 端点；条目及其出处见 data/devletler.js。这不是独立的历史事件，而是时期端点记录（不变式 2 的范围）。", "b580e1d2"]},
 "OLAYLAR_ARKEOLOJI_GECIS:-4199-01-01:0":{"b": ["埃什-沙赫奈卜：所有者时期结束——沙赫纳卜新石器时代（中苏丹）", "fa845200"], "d": ["埃什-沙赫奈卜各点的 s: 所有权序列中，这一端点来自所属条目（沙赫纳卜新石器时代（中苏丹））的 f/t 界限，或来自地点的 kur:/bit: 端点；条目及其出处见 data/devletler.js。这不是独立的历史事件，而是时期端点记录（不变式 2 的范围）。", "77c08962"]},
 "OLAYLAR_ARKEOLOJI_GECIS:-4723-01-01:0":{"b": ["梅赫尔格尔：所有者时期结束——梅赫尔格尔新石器时代（卡奇平原，俾路支）", "c681fcc5"], "d": ["梅赫尔格尔各点的 s: 所有权序列中，这一端点来自所属条目（梅赫尔格尔新石器时代（卡奇平原，俾路支））的 f/t 界限，或来自地点的 kur:/bit: 端点；条目及其出处见 data/devletler.js。这不是独立的历史事件，而是时期端点记录（不变式 2 的范围）。", "52c5c57d"]},

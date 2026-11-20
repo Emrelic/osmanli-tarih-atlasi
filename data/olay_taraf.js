@@ -725,7 +725,6 @@ window.OLAY_TARAF = {
  "0298-01-01|Nisibis (Nusaybin) Antlaşması: Galerius Narseh’i yendi; Dicle ötesi toprak Roma’ya geçti": ["roma-imp","sasani"],
  "0304-01-01|Çengdu (Chengdu): sahipsiz aralık → Cheng-Han (成漢)": ["cheng-han"],
  "0309-01-01|II. Şapur doğuşundan itibaren Sasani tahtına çıktı (309-379)": ["sasani"],
- "0330-05-11|Konstantinopolis Bizans (Doğu Roma) başşehri olarak açıldı": ["bizans","roma-imp"],
  "0347-01-01|Çengdu (Chengdu): Cheng-Han (成漢) dönemi sona erer": ["cheng-han"],
  "0349-01-01|Aksum kralı Ezana Kush'u yendi; Meroe krallığı sona erdi (c. MS 350)": ["aksum","kush-krallik"],
  "0349-01-01|Meroe: sahip dönemi sona erer — Kus (Napata–Meroe) Krallığı": ["kush-krallik"],
@@ -977,7 +976,6 @@ window.OLAY_TARAF = {
  "0992-01-01|Hârun Buğra Han Semerkant'ı aldı; Karahanlılar Mâverâünnehir'e ilk kez girdi": ["karahanli","samani"],
  "0992-05-07|Karahanlı Hârun Buğra Han Buhara'yı ele geçirdi": ["karahanli","samani"],
  "0992-05-25|Mieszko I öldü; oğlu Bolesław Chrobry birliği yeniden sağladı": ["polonya-erken"],
- "0992-08-18|II. Nûh Selçuklu Türkmenleri'nin yardımıyla Buhara'ya yeniden hâkim oldu": ["samani"],
  "0994-03-01|Li Shun'un isyancıları Chengdu'yu aldı (Wang Xiaobo-Li Shun ayaklanması)": ["song"],
  "0996-01-25|Sebük Tegin aracılığıyla yapılan anlaşmayla Siriderya sahası Katvân'a kadar Karahanlılar'da kaldı; Fâik Semerkant valisi oldu": ["karahanli","samani","gazneli"],
  "0997-01-01|Géza'nın ardından oğlu István Büyük Prens oldu": ["macar-prensligi"],
@@ -2503,7 +2501,7 @@ window.OLAY_TARAF = {
  "536-12-09|Belisarios Roma'ya girdi: Roma Ostrogot yönetiminden Bizans'a geçti": ["bizans","dogu-got"],
  // 🏷 10 Kasım 2026 (KRON-ETIKET): dünya eşiğini geçip sahibi yazılmamış 10 dış madde — ana listede
  // çıplak "🌍 Dünya" çipi taşıyor ve hiçbir künye kronolojisine inmiyordu. Sahip künye, pencere içinde.
- "0330-05-11|Konstantinopolis törenle açıldı; imparatorluğun merkezi fiilen doğuya kaydı": ["roma-imp"],
+ "0330-05-11|Konstantinopolis törenle açıldı; imparatorluğun merkezi fiilen doğuya kaydı": ["roma-imp","bizans"],
  "0749-11-28|Kûfe'de Ebü'l-Abbas'a biat edildi; Abbâsî hilâfeti kuruldu": ["abbasi"],
  "0911-01-01|Saint-Clair-sur-Epte Antlaşması: Basit Charles Normanlara bugünkü Normandiya'yı bırakır": ["normandiya"],
  "0945-12-19|Büveyhî Ahmed (Muizzüddevle) Bağdat'a girdi; şehir Büveyhî hâkimiyetine geçti": ["buveyhi","abbasi"],
