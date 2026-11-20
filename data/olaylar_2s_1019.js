@@ -24,24 +24,6 @@
 // =====================================================================
 
 window.OLAYLAR_2S1019 = [
-{ bolge:1, t:"0330-05-11",
-  k:"siyaset",
-  onem:2,
-  dunya:3,
-  kapsam:"dis",
-  yer_id:"İstanbul",
-  b:"Konstantinopolis Bizans (Doğu Roma) başşehri olarak açıldı",
-  gun:"11 Mayıs 330",
-  yer:"İstanbul",
-  kisiler:"I. Constantinus",
-  etiket:["siyaset"],
-  d:"Constantinus'un yeniden kurdurduğu Byzantion, günlerce süren törenlerle imparatorluğun yeni başşehri olarak açıldı. Atlasın Bizans (Doğu Roma) kaydı İstanbul'da bu günle başlar.",
-  kaynak:"TDV `istanbul` — AYNEN: \"Meydanlar imparatorluğun çeşitli yerlerinden getirilen sanat eserleriyle süslendi ve nihayet 11 Mayıs 330’da günlerce süren eğlenceler içinde şehrin resmî açılış töreni yapıldı.\" · hassasiyet: GÜN" },
-
-
-
-
-
 { bolge:1, t:"1207-03-05",
   k:"fetih",
   onem:3,

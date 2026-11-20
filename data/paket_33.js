@@ -3,53 +3,3755 @@
    Kaynağı değiştirdiysen: py arac/paketle.py yenile
    Tazelik kapıda sınanır: py arac/paketle.py sina */
 /* ==== data/olaylar_arkeoloji_pilot.js ==== */
-// data/olaylar_arkeoloji_pilot.js — paketle.py İNCELTTİ: ic_not* alanları yayına gitmez (kaynak dosya değişmedi)
-window.OLAYLAR_ARKEOLOJI_PILOT = [{"onem":3,"dunya":2,"bolge_onem":3,"puan_s":"v2","tur":"kurulus","kapsam":"dis","bolge":1,"t":"-12154-01-01","yer_id":"Ain Mallaha (Eynan)","k":"kurulus","etiket":["arkeoloji"],"b":"Ain Mallaha (Eynan): Erken Natufiyen yerleşiminin ilk tarihli kanıtı","gun":"MÖ 12240–12070 arası (orta nokta MÖ 12155)","yer":"Ain Mallaha / Eynan (Hule Gölü, Hulah Vadisi)","d":"Natufiyen avcı-toplayıcıların yarı gömülü yapılardan oluşan yerleşimi; mezar (Locus 239) kömür örneği tarihi.","kaynak":"Valla vd., «Eynan (Ain Mallaha)», Quaternary of the Levant (2017), Valla vd. 2007 raporuna atfen: GifA-70014 (12250±60 BP) = 12240–12070 cal BC (%68,2)","kaynak_turu":"arkeoloji","kesinlik":"yuzyil","aralik":{"bas":"-12239-01-01","son":"-12069-01-01","guven":"68.2","tur":"kalibre-14C"}},{"onem":4,"dunya":3,"bolge_onem":3,"puan_s":"v2","tur":"kurulus","kapsam":"dis","bolge":1,"t":"-9528-01-01","yer_id":"Göbekli Tepe","k":"kurulus","etiket":["arkeoloji"],"b":"Göbekli Tepe: Çevre D'nin (Tabaka III) duvar sıvası tarihi — anıtsal yapılaşmanın tarihli kanıtı","gun":"MÖ 9745–9314 arası (orta nokta MÖ 9529)","yer":"Göbekli Tepe (Şanlıurfa)","d":"T biçimli dikilitaşlı dairesel yapıların (Tabaka III, PPNA) tarihlenebilen en doğrudan örneği duvar sıvasıdır; dolgu örnekleri yalnız yıkım sonrası alt sınırdır.","kaynak":"DAI Göbekli Tepe Araştırma Projesi, «How old is it? Dating Göbekli Tepe» (dainst.blog/the-tepe-telegrams, 22.06.2016): Enclosure D duvar sıvası KIA-44149 (9984±42 14C-BP) = 9745–9314 cal BC (%95,4)","kaynak_turu":"arkeoloji","kesinlik":"yuzyil","aralik":{"bas":"-9744-01-01","son":"-9313-01-01","guven":"95.4","tur":"kalibre-14C"}},{"onem":3,"dunya":2,"bolge_onem":2,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-7999-01-01","yer_id":"Göbekli Tepe","k":"kayip","etiket":["arkeoloji"],"b":"Göbekli Tepe terk edilir (orta PPNB sonrası)","gun":"MÖ 8000 civarı","yer":"Göbekli Tepe (Şanlıurfa)","d":"Ok uçlarına göre yer orta PPNB'den sonra terk edildi; kaynak kalibre aralık vermiyor.","kaynak":"DAI Göbekli Tepe Araştırma Projesi, aynı yazı: terk «orta PPNB sonrası, yaklaşık MÖ 8000» (kalibre aralık verilmemiş)","kaynak_turu":"arkeoloji","kesinlik":"yuzyil"},{"onem":3,"dunya":2,"bolge_onem":3,"puan_s":"v2","tur":"kurulus","kapsam":"dis","bolge":1,"t":"-9299-01-01","yer_id":"Eriha (Tell es-Sultan)","k":"kurulus","etiket":["arkeoloji"],"b":"Eriha (Tell es-Sultan): en erken PPN tabakasının (Stage IV/IVA) radyokarbon tarihleri başlar","gun":"MÖ 9300 (tarihli en erken uç; ALT SINIR)","yer":"Eriha / Tell es-Sultan (Filistin)","d":"Natufiyen izleri daha eskidir (aynı sayfada «11170–10980 BC» kalibrasyonu belirsiz); yerleşik PPN tabakası tarihleri MÖ 9300'de başlar.","kaynak":"PPND (Platform for Neolithic Radiocarbon Dates, exoriente.org, Jericho/Tell es-Sultan sayfası): «en erken PPN tarihleri Stage IV/IVA; toplamları 9300–8700 BC»","kaynak_turu":"arkeoloji","kesinlik":"yuzyil","aralik":{"bas":"-9299-01-01","son":"-8699-01-01","guven":"toplam","tur":"donem-toplami"}},{"onem":3,"dunya":2,"bolge_onem":3,"puan_s":"v2","tur":"kurulus","kapsam":"dis","bolge":1,"t":"-7099-01-01","yer_id":"Çatalhöyük","k":"kurulus","etiket":["arkeoloji"],"b":"Çatalhöyük Doğu Höyük'te yerleşim başlar","gun":"MÖ 7100 civarı","yer":"Çatalhöyük (Konya Ovası)","d":"Bayes modeli yerleşimin başlangıcını önceki tahminlerden ~200 yıl geriye (daha geç) çekti.","kaynak":"Bayliss vd. 2015, Journal of World Prehistory 28(1): Bayes kronolojisi ile yerleşimin başlangıcı MÖ 7100 (kronoloji önceki tahminden ~200 yıl geç) — başlangıç değeri ikincil aktarımla okundu","kaynak_turu":"arkeoloji","kesinlik":"yuzyil"},{"onem":3,"dunya":2,"bolge_onem":2,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-5999-01-01","yer_id":"Çatalhöyük","k":"kayip","etiket":["arkeoloji"],"b":"Çatalhöyük Doğu Höyük'te yerleşim faaliyeti sona erer","gun":"MÖ 6000'den hemen sonra","yer":"Çatalhöyük (Konya Ovası)","d":"56 AMS tarihi: faaliyet MÖ 6000 cal BC'den hemen sonra biter; Neolitik gömü birkaç on yıl sonra kesilir.","kaynak":"Marciniak vd. 2015, Antiquity 89(343): 56 AMS tarihi — Doğu Höyük'te yerleşim faaliyeti «MÖ 6000 cal BC'den hemen sonra» sona erer","kaynak_turu":"arkeoloji","kesinlik":"yuzyil"},{"onem":3,"dunya":2,"bolge_onem":2,"puan_s":"v2","tur":"kurulus","kapsam":"dis","bolge":1,"odak_yer":["Jiahu"],"t":"-6999-01-01","k":"kurulus","etiket":["arkeoloji"],"b":"Jiahu (Henan): yerleşim başlar","gun":"MÖ 7000 civarı","yer":"Jiahu (Wuyang, Henan, Çin)","d":"Üç evreli yerleşim; en eski bölümün çanak çömleği MÖ 7000–6600 arasına tarihlenir.","kaynak":"Zhang, Harbottle, Wang, Kong 1999, Nature 401 (doi 10.1038/43865): Jiahu yerleşimi yaklaşık MÖ 7000–5700 (kalibrasyon durumu özette belirtilmemiş)","kaynak_turu":"arkeoloji","kesinlik":"yuzyil","aralik":{"bas":"-6999-01-01","son":"-5699-01-01","guven":"belirsiz","tur":"yerlesim-suresi"}},{"onem":2,"dunya":1,"bolge_onem":2,"puan_s":"v2","kapsam":"dis","bolge":1,"odak_yer":["Jiahu"],"t":"-5699-01-01","k":"kayip","etiket":["arkeoloji"],"b":"Jiahu yerleşiminin sonu","gun":"MÖ 5700 civarı","yer":"Jiahu (Wuyang, Henan, Çin)","d":"Üçüncü evre MÖ 6200–5700.","kaynak":"Zhang, Harbottle, Wang, Kong 1999, Nature 401 (doi 10.1038/43865): Jiahu yerleşimi yaklaşık MÖ 7000–5700 (kalibrasyon durumu özette belirtilmemiş) (bir başka yayında bitiş 5500: Frontiers ek tablosu)","kaynak_turu":"arkeoloji","kesinlik":"yuzyil"},{"onem":3,"dunya":2,"bolge_onem":3,"puan_s":"v2","tur":"kurulus","kapsam":"dis","bolge":1,"odak_yer":["Mehrgarh"],"t":"-5049-01-01","k":"kurulus","etiket":["arkeoloji"],"b":"Mehrgarh (Belucistan): aseramik Neolitik mezarlık dizisi başlar","gun":"MÖ 5200–4900 arası (orta nokta MÖ 5050)","yer":"Mehrgarh (Belucistan, Pakistan)","d":"Diş minesi AMS tarihleri mezarlığın başlangıcını MÖ 5200–4900'e koyar; çanak çömlek (IIA) MÖ 4650'den sonra.","kaynak":"Vidale vd. 2025, «New radiocarbon dates of human tooth enamel reveal a late appearance of farming life in the Indus Valley» (PubMed 40234596): aseramik mezarlığın başlangıcı MÖ 5200–4900","kaynak_turu":"arkeoloji","kesinlik":"yuzyil","aralik":{"bas":"-5199-01-01","son":"-4899-01-01","guven":"belirsiz","tur":"kalibre-14C"}},{"onem":3,"dunya":2,"bolge_onem":3,"puan_s":"v2","tur":"kurulus","kapsam":"dis","bolge":1,"odak_yer":["Harappa"],"t":"-3299-01-01","k":"kurulus","etiket":["arkeoloji"],"b":"Harappa: Ravi evresi (Dönem 1) başlar — Hint vadisi öncesi dönem","gun":"MÖ 3300 civarı","yer":"Harappa (Pencap, Pakistan)","d":"HARP kronolojisi Dönem 1'i MÖ 3300–~2800 verir; aynı sitede başka tablolar 3700 ve >3500 başlangıcı verir.","kaynak":"Harappa Archaeological Research Project (harappa.com/beas/chronology; Kenoyer): Period 1, Ravi evresi, MÖ 3300 – yaklaşık MÖ 2800","kaynak_turu":"arkeoloji","kesinlik":"yuzyil"},{"onem":3,"dunya":2,"bolge_onem":3,"puan_s":"v2","tur":"kurulus","kapsam":"dis","bolge":1,"odak_yer":["Varna"],"t":"-4555-01-01","k":"kurulus","etiket":["arkeoloji"],"b":"Varna nekropolü (Bulgaristan): altın buluntulu mezarlık başlar","gun":"MÖ 4596–4516 arası (orta nokta MÖ 4556)","yer":"Varna (Karadeniz kıyısı, Bulgaristan)","d":"Dünyanın en eski işlenmiş altın hazinelerinden birini veren Geç Bakır Çağı mezarlığı.","kaynak":"Higham vd. 2018, Radiocarbon (Varna mezarlığı, 71 AMS tarihi, 53 mezar): mezarlık faaliyeti 4596–4516 cal BC'de başlar, 4427–4341 cal BC'de biter (%95,4)","kaynak_turu":"arkeoloji","kesinlik":"onyil","aralik":{"bas":"-4595-01-01","son":"-4515-01-01","guven":"95.4","tur":"kalibre-14C"}},{"onem":2,"dunya":1,"bolge_onem":2,"puan_s":"v2","kapsam":"dis","bolge":1,"odak_yer":["Varna"],"t":"-4383-01-01","k":"kayip","etiket":["arkeoloji"],"b":"Varna nekropolünde mezar faaliyeti sona erer","gun":"MÖ 4427–4341 arası (orta nokta MÖ 4384)","yer":"Varna (Karadeniz kıyısı, Bulgaristan)","d":"Mezarlık toplam ~120–260 yıl kullanıldı.","kaynak":"Higham vd. 2018, Radiocarbon (Varna mezarlığı, 71 AMS tarihi, 53 mezar): mezarlık faaliyeti 4596–4516 cal BC'de başlar, 4427–4341 cal BC'de biter (%95,4)","kaynak_turu":"arkeoloji","kesinlik":"onyil","aralik":{"bas":"-4426-01-01","son":"-4340-01-01","guven":"95.4","tur":"kalibre-14C"}},{"onem":3,"dunya":2,"bolge_onem":3,"puan_s":"v2","tur":"kurulus","kapsam":"dis","bolge":1,"odak_yer":["Mısır"],"t":"-4376-01-01","k":"kurulus","etiket":["arkeoloji"],"b":"Mısır: Badari kültürü başlar (Nil Vadisi, Yukarı Mısır)","gun":"MÖ 4489–4266 arası (orta nokta MÖ 4377)","yer":"Badari (Asyut, Yukarı Mısır)","d":"Bayes modeli Badari başlangıcını MÖ 4489–4266 arasına koyar; Mısır'ın devlet öncesi dönemidir.","kaynak":"Dee vd. 2013, Proc. R. Soc. A 469 (doi 10.1098/rspa.2013.0395), Tablo 1: Badari başlangıcı 4489–4266 BCE (%95)","kaynak_turu":"arkeoloji","kesinlik":"yuzyil","aralik":{"bas":"-4488-01-01","son":"-4265-01-01","guven":"95","tur":"kalibre-14C"}},{"onem":5,"dunya":3,"bolge_onem":4,"puan_s":"v2","tur":"kurulus","kapsam":"dis","bolge":1,"odak_yer":["Mısır"],"t":"-3125-01-01","k":"kurulus","etiket":["arkeoloji"],"b":"Mısır birleşir: Aha'nın tahta çıkışı (arkeolojik-radyokarbon tarihleme)","gun":"MÖ 3218–3035 arası (orta nokta MÖ 3126)","yer":"Mısır (Yukarı ve Aşağı Mısır)","d":"Bayes modeli: %68 aralığı 3111–3045 (ortanca 3085); %95 aralığı 3218–3035.","kaynak":"Dee vd. 2013, aynı makale: Mısır'ın kuruluşu (Aha'nın tahta çıkışı) 3111–3045 BCE (%68; %95 aralığı 3218–3035)","kaynak_turu":"arkeoloji","kesinlik":"yuzyil","aralik":{"bas":"-3217-01-01","son":"-3034-01-01","guven":"95","tur":"kalibre-14C"}}];
+// ARKEOLOJİ KATMANI — PİLOT (MÖ 12000–3000) · ARKEOLOJI-KATMANI-ŞARTNAME-1018 · 18 Ekim 2026
+// Üretici: denetim/ARKEOLOJI-PILOT-URETICI-1018.py. DALDA TUT: negatif yıl kapısı (arac/gun.py) bağlanmadan main'e itilmez.
+// index.html'e <script> satırı EKLENMEDİ ⇒ site yüklemez. Her madde kaynak_turu:"arkeoloji" + aralık/orta-nokta beyanı taşır.
+window.OLAYLAR_ARKEOLOJI_PILOT = [
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2", tur:"kurulus","kapsam": "dis", "bolge": 1, 
+  "t": "-12154-01-01",
+  "yer_id": "Ain Mallaha (Eynan)",
+  "k": "kurulus",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "b": "Ain Mallaha (Eynan): Erken Natufiyen yerleşiminin ilk tarihli kanıtı",
+  "gun": "MÖ 12240–12070 arası (orta nokta MÖ 12155)",
+  "yer": "Ain Mallaha / Eynan (Hule Gölü, Hulah Vadisi)",
+  "d": "Natufiyen avcı-toplayıcıların yarı gömülü yapılardan oluşan yerleşimi; mezar (Locus 239) kömür örneği tarihi.",
+  "kaynak": "Valla vd., «Eynan (Ain Mallaha)», Quaternary of the Levant (2017), Valla vd. 2007 raporuna atfen: GifA-70014 (12250±60 BP) = 12240–12070 cal BC (%68,2)",
+  "kaynak_turu": "arkeoloji",
+  "kesinlik": "yuzyil",
+  "aralik": {
+   "bas": "-12239-01-01",
+   "son": "-12069-01-01",
+   "guven": "68.2",
+   "tur": "kalibre-14C"
+  },
+  "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 12240–12070 (kaynağın verdiği uçlar); orta nokta MÖ 12155 = astronomik -1215. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Yalnız %68,2 aralığı okundu (%95,4 verilmemiş); birincil rapor okunmadı, aktarım ikincil. UFUK ihlali: MÖ 12155, ufuk olan MÖ 12000'den 155 yıl önce."
+ },
+ { onem:4, dunya:3, bolge_onem:3, puan_s:"v2", tur:"kurulus","kapsam": "dis", "bolge": 1, 
+  "t": "-9528-01-01",
+  "yer_id": "Göbekli Tepe",
+  "k": "kurulus",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "b": "Göbekli Tepe: Çevre D'nin (Tabaka III) duvar sıvası tarihi — anıtsal yapılaşmanın tarihli kanıtı",
+  "gun": "MÖ 9745–9314 arası (orta nokta MÖ 9529)",
+  "yer": "Göbekli Tepe (Şanlıurfa)",
+  "d": "T biçimli dikilitaşlı dairesel yapıların (Tabaka III, PPNA) tarihlenebilen en doğrudan örneği duvar sıvasıdır; dolgu örnekleri yalnız yıkım sonrası alt sınırdır.",
+  "kaynak": "DAI Göbekli Tepe Araştırma Projesi, «How old is it? Dating Göbekli Tepe» (dainst.blog/the-tepe-telegrams, 22.06.2016): Enclosure D duvar sıvası KIA-44149 (9984±42 14C-BP) = 9745–9314 cal BC (%95,4)",
+  "kaynak_turu": "arkeoloji",
+  "kesinlik": "yuzyil",
+  "aralik": {
+   "bas": "-9744-01-01",
+   "son": "-9313-01-01",
+   "guven": "95.4",
+   "tur": "kalibre-14C"
+  },
+  "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 9745–9314 (kaynağın verdiği uçlar); orta nokta MÖ 9529 = astronomik -9528. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Sıva, doğrudan yapı malzemesidir (dolgu değil); dolgu örneği UGAMS-10798 (9127–8763 cal BC) yalnız terminus ante quem. Bu kayıt KURULUŞ değil, ilk tarihli kanıttır."
+ },
+ { onem:3, dunya:2, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-7999-01-01",
+  "yer_id": "Göbekli Tepe",
+  "k": "kayip",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "b": "Göbekli Tepe terk edilir (orta PPNB sonrası)",
+  "gun": "MÖ 8000 civarı",
+  "yer": "Göbekli Tepe (Şanlıurfa)",
+  "d": "Ok uçlarına göre yer orta PPNB'den sonra terk edildi; kaynak kalibre aralık vermiyor.",
+  "kaynak": "DAI Göbekli Tepe Araştırma Projesi, aynı yazı: terk «orta PPNB sonrası, yaklaşık MÖ 8000» (kalibre aralık verilmemiş)",
+  "kaynak_turu": "arkeoloji",
+  "kesinlik": "yuzyil",
+  "ic_not_d": "TEK DEĞER: kaynak «yaklaşık MÖ 8000» der, aralık yok → orta nokta kuralı UYGULANMAZ; uç beyanı yok."
+ },
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2", tur:"kurulus","kapsam": "dis", "bolge": 1, 
+  "t": "-9299-01-01",
+  "yer_id": "Eriha (Tell es-Sultan)",
+  "k": "kurulus",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "b": "Eriha (Tell es-Sultan): en erken PPN tabakasının (Stage IV/IVA) radyokarbon tarihleri başlar",
+  "gun": "MÖ 9300 (tarihli en erken uç; ALT SINIR)",
+  "yer": "Eriha / Tell es-Sultan (Filistin)",
+  "d": "Natufiyen izleri daha eskidir (aynı sayfada «11170–10980 BC» kalibrasyonu belirsiz); yerleşik PPN tabakası tarihleri MÖ 9300'de başlar.",
+  "kaynak": "PPND (Platform for Neolithic Radiocarbon Dates, exoriente.org, Jericho/Tell es-Sultan sayfası): «en erken PPN tarihleri Stage IV/IVA; toplamları 9300–8700 BC»",
+  "kaynak_turu": "arkeoloji",
+  "kesinlik": "yuzyil",
+  "aralik": {
+   "bas": "-9299-01-01",
+   "son": "-8699-01-01",
+   "guven": "toplam",
+   "tur": "donem-toplami"
+  },
+  "ic_not_d": "DÖNEM TOPLAMI aralığı (MÖ 9300–8700) = tabakanın süresini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en erken uç (ALT SINIR) yazıldı. Kule inşasının başlangıcı sayfada YOK («açık soru»); kule kaydı yazılmadı. PPND bir veri tabanıdır, birincil kazı yayını (Kenyon, Bar-Yosef, Nigro) okunmadı."
+ },
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2", tur:"kurulus","kapsam": "dis", "bolge": 1, 
+  "t": "-7099-01-01",
+  "yer_id": "Çatalhöyük",
+  "k": "kurulus",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "b": "Çatalhöyük Doğu Höyük'te yerleşim başlar",
+  "gun": "MÖ 7100 civarı",
+  "yer": "Çatalhöyük (Konya Ovası)",
+  "d": "Bayes modeli yerleşimin başlangıcını önceki tahminlerden ~200 yıl geriye (daha geç) çekti.",
+  "kaynak": "Bayliss vd. 2015, Journal of World Prehistory 28(1): Bayes kronolojisi ile yerleşimin başlangıcı MÖ 7100 (kronoloji önceki tahminden ~200 yıl geç) — başlangıç değeri ikincil aktarımla okundu",
+  "kaynak_turu": "arkeoloji",
+  "kesinlik": "yuzyil",
+  "ic_not_d": "TEK DEĞER MÖ 7100 (kaynak aralık vermiyor). Bu değer ikincil bir aktarımdan; Bayliss vd. tam metni (ücretli) okunmadı."
+ },
+ { onem:3, dunya:2, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-5999-01-01",
+  "yer_id": "Çatalhöyük",
+  "k": "kayip",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "b": "Çatalhöyük Doğu Höyük'te yerleşim faaliyeti sona erer",
+  "gun": "MÖ 6000'den hemen sonra",
+  "yer": "Çatalhöyük (Konya Ovası)",
+  "d": "56 AMS tarihi: faaliyet MÖ 6000 cal BC'den hemen sonra biter; Neolitik gömü birkaç on yıl sonra kesilir.",
+  "kaynak": "Marciniak vd. 2015, Antiquity 89(343): 56 AMS tarihi — Doğu Höyük'te yerleşim faaliyeti «MÖ 6000 cal BC'den hemen sonra» sona erer",
+  "kaynak_turu": "arkeoloji",
+  "kesinlik": "yuzyil",
+  "ic_not_d": "TEK DEĞER (aralık yok): «hemen sonrası» = en erken sınır MÖ 6000 yazıldı (bit için EN ERKEN uç, gerçek bitiş birkaç on yıl geç olabilir)."
+ },
+ { onem:3, dunya:2, bolge_onem:2, puan_s:"v2", tur:"kurulus","kapsam": "dis", "bolge": 1, 
+  "odak_yer": [
+   "Jiahu"
+  ],
+  "t": "-6999-01-01",
+  "k": "kurulus",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "b": "Jiahu (Henan): yerleşim başlar",
+  "gun": "MÖ 7000 civarı",
+  "yer": "Jiahu (Wuyang, Henan, Çin)",
+  "d": "Üç evreli yerleşim; en eski bölümün çanak çömleği MÖ 7000–6600 arasına tarihlenir.",
+  "kaynak": "Zhang, Harbottle, Wang, Kong 1999, Nature 401 (doi 10.1038/43865): Jiahu yerleşimi yaklaşık MÖ 7000–5700 (kalibrasyon durumu özette belirtilmemiş)",
+  "kaynak_turu": "arkeoloji",
+  "kesinlik": "yuzyil",
+  "aralik": {
+   "bas": "-6999-01-01",
+   "son": "-5699-01-01",
+   "guven": "belirsiz",
+   "tur": "yerlesim-suresi"
+  },
+  "ic_not_d": "Kaynak yerleşimin TOPLAM süresini (7000–5700) verir; orta nokta alınmaz, başlangıç ucu yazılır. Kalibre mi ham 14C mi belirsiz → «kalibrasyon belirsiz» beyanı."
+ },
+ { onem:2, dunya:1, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "odak_yer": [
+   "Jiahu"
+  ],
+  "t": "-5699-01-01",
+  "k": "kayip",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "b": "Jiahu yerleşiminin sonu",
+  "gun": "MÖ 5700 civarı",
+  "yer": "Jiahu (Wuyang, Henan, Çin)",
+  "d": "Üçüncü evre MÖ 6200–5700.",
+  "kaynak": "Zhang, Harbottle, Wang, Kong 1999, Nature 401 (doi 10.1038/43865): Jiahu yerleşimi yaklaşık MÖ 7000–5700 (kalibrasyon durumu özette belirtilmemiş) (bir başka yayında bitiş 5500: Frontiers ek tablosu)",
+  "kaynak_turu": "arkeoloji",
+  "kesinlik": "yuzyil",
+  "ic_not_d": "TEK DEĞER (aralık yok): Bitiş için iki kaynak çelişir (5700 / 5500); Nature 1999 esas alındı."
+ },
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2", tur:"kurulus","kapsam": "dis", "bolge": 1, 
+  "odak_yer": [
+   "Mehrgarh"
+  ],
+  "t": "-5049-01-01",
+  "k": "kurulus",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "b": "Mehrgarh (Belucistan): aseramik Neolitik mezarlık dizisi başlar",
+  "gun": "MÖ 5200–4900 arası (orta nokta MÖ 5050)",
+  "yer": "Mehrgarh (Belucistan, Pakistan)",
+  "d": "Diş minesi AMS tarihleri mezarlığın başlangıcını MÖ 5200–4900'e koyar; çanak çömlek (IIA) MÖ 4650'den sonra.",
+  "kaynak": "Vidale vd. 2025, «New radiocarbon dates of human tooth enamel reveal a late appearance of farming life in the Indus Valley» (PubMed 40234596): aseramik mezarlığın başlangıcı MÖ 5200–4900",
+  "kaynak_turu": "arkeoloji",
+  "kesinlik": "yuzyil",
+  "aralik": {
+   "bas": "-5199-01-01",
+   "son": "-4899-01-01",
+   "guven": "belirsiz",
+   "tur": "kalibre-14C"
+  },
+  "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 5200–4900 (kaynağın verdiği uçlar); orta nokta MÖ 5050 = astronomik -5049. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. ÇELİŞKİ: Jarrige-dönemi yayınlarda Dönem I «MÖ 7000 öncesi–5500» (aynı kaynak özeti); 2025 çalışması bunu kök kütlesi bozulmasıyla çarpık sayıyor. Burada yerleşimin kuruluşu değil, mezarlığın tarihli ilk kanıtı yazıldı (yerleşim daha eski olabilir)."
+ },
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2", tur:"kurulus","kapsam": "dis", "bolge": 1, 
+  "odak_yer": [
+   "Harappa"
+  ],
+  "t": "-3299-01-01",
+  "k": "kurulus",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "b": "Harappa: Ravi evresi (Dönem 1) başlar — Hint vadisi öncesi dönem",
+  "gun": "MÖ 3300 civarı",
+  "yer": "Harappa (Pencap, Pakistan)",
+  "d": "HARP kronolojisi Dönem 1'i MÖ 3300–~2800 verir; aynı sitede başka tablolar 3700 ve >3500 başlangıcı verir.",
+  "kaynak": "Harappa Archaeological Research Project (harappa.com/beas/chronology; Kenoyer): Period 1, Ravi evresi, MÖ 3300 – yaklaşık MÖ 2800",
+  "kaynak_turu": "arkeoloji",
+  "kesinlik": "yuzyil",
+  "ic_not_d": "TEK DEĞER (aralık yok): KAYNAK ÇELİŞKİSİ: en sık anılan MÖ 3300 yazıldı; alternatifler 3700 / >3500 (aynı site, farklı yayın). Tek değer; orta nokta alınmaz."
+ },
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2", tur:"kurulus","kapsam": "dis", "bolge": 1, 
+  "odak_yer": [
+   "Varna"
+  ],
+  "t": "-4555-01-01",
+  "k": "kurulus",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "b": "Varna nekropolü (Bulgaristan): altın buluntulu mezarlık başlar",
+  "gun": "MÖ 4596–4516 arası (orta nokta MÖ 4556)",
+  "yer": "Varna (Karadeniz kıyısı, Bulgaristan)",
+  "d": "Dünyanın en eski işlenmiş altın hazinelerinden birini veren Geç Bakır Çağı mezarlığı.",
+  "kaynak": "Higham vd. 2018, Radiocarbon (Varna mezarlığı, 71 AMS tarihi, 53 mezar): mezarlık faaliyeti 4596–4516 cal BC'de başlar, 4427–4341 cal BC'de biter (%95,4)",
+  "kaynak_turu": "arkeoloji",
+  "kesinlik": "onyil",
+  "aralik": {
+   "bas": "-4595-01-01",
+   "son": "-4515-01-01",
+   "guven": "95.4",
+   "tur": "kalibre-14C"
+  },
+  "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 4596–4516 (kaynağın verdiği uçlar); orta nokta MÖ 4556 = astronomik -4555. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Başlangıç belirsizliği için kaynağın %95,4 aralığı kullanıldı."
+ },
+ { onem:2, dunya:1, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "odak_yer": [
+   "Varna"
+  ],
+  "t": "-4383-01-01",
+  "k": "kayip",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "b": "Varna nekropolünde mezar faaliyeti sona erer",
+  "gun": "MÖ 4427–4341 arası (orta nokta MÖ 4384)",
+  "yer": "Varna (Karadeniz kıyısı, Bulgaristan)",
+  "d": "Mezarlık toplam ~120–260 yıl kullanıldı.",
+  "kaynak": "Higham vd. 2018, Radiocarbon (Varna mezarlığı, 71 AMS tarihi, 53 mezar): mezarlık faaliyeti 4596–4516 cal BC'de başlar, 4427–4341 cal BC'de biter (%95,4)",
+  "kaynak_turu": "arkeoloji",
+  "kesinlik": "onyil",
+  "aralik": {
+   "bas": "-4426-01-01",
+   "son": "-4340-01-01",
+   "guven": "95.4",
+   "tur": "kalibre-14C"
+  },
+  "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 4427–4341 (kaynağın verdiği uçlar); orta nokta MÖ 4384 = astronomik -4383. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Bitiş belirsizliği için kaynağın %95,4 aralığı."
+ },
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2", tur:"kurulus","kapsam": "dis", "bolge": 1,  "odak_yer":["Mısır"], 
+  "t": "-4376-01-01",
+  "k": "kurulus",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "b": "Mısır: Badari kültürü başlar (Nil Vadisi, Yukarı Mısır)",
+  "gun": "MÖ 4489–4266 arası (orta nokta MÖ 4377)",
+  "yer": "Badari (Asyut, Yukarı Mısır)",
+  "d": "Bayes modeli Badari başlangıcını MÖ 4489–4266 arasına koyar; Mısır'ın devlet öncesi dönemidir.",
+  "kaynak": "Dee vd. 2013, Proc. R. Soc. A 469 (doi 10.1098/rspa.2013.0395), Tablo 1: Badari başlangıcı 4489–4266 BCE (%95)",
+  "kaynak_turu": "arkeoloji",
+  "kesinlik": "yuzyil",
+  "aralik": {
+   "bas": "-4488-01-01",
+   "son": "-4265-01-01",
+   "guven": "95",
+   "tur": "kalibre-14C"
+  },
+  "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 4489–4266 (kaynağın verdiği uçlar); orta nokta MÖ 4377 = astronomik -4376. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Yarım yıl çıktı (4377,5) → daha geç yıla yuvarlandı. TEYİT 20 Ekim 2026: Tablo 1 değerleri (Badarian başlangıç 4489–4266, %95) PMC3780825 tam metninden (Dee vd. 2013, Proc. R. Soc. A 469, Tablo 1) doğrudan okundu; birincil makale okundu."
+ },
+ { onem:5, dunya:3, bolge_onem:4, puan_s:"v2", tur:"kurulus","kapsam": "dis", "bolge": 1,  "odak_yer":["Mısır"], 
+  "t": "-3125-01-01",
+  "k": "kurulus",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "b": "Mısır birleşir: Aha'nın tahta çıkışı (arkeolojik-radyokarbon tarihleme)",
+  "gun": "MÖ 3218–3035 arası (orta nokta MÖ 3126)",
+  "yer": "Mısır (Yukarı ve Aşağı Mısır)",
+  "d": "Bayes modeli: %68 aralığı 3111–3045 (ortanca 3085); %95 aralığı 3218–3035.",
+  "kaynak": "Dee vd. 2013, aynı makale: Mısır'ın kuruluşu (Aha'nın tahta çıkışı) 3111–3045 BCE (%68; %95 aralığı 3218–3035)",
+  "kaynak_turu": "arkeoloji",
+  "kesinlik": "yuzyil",
+  "aralik": {
+   "bas": "-3217-01-01",
+   "son": "-3034-01-01",
+   "guven": "95",
+   "tur": "kalibre-14C"
+  },
+  "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 3218–3035 (kaynağın verdiği uçlar); orta nokta MÖ 3126 = astronomik -3125. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. En geniş verilen güven düzeyi (%95) kullanıldı. TEYİT 20 Ekim 2026: Aha 3218–3035 (%95) ve 3111–3045 (%68) Tablo 1'den (PMC3780825) doğrudan okundu. ⚠️ ATLAS ÇELİŞKİSİ: `devletler.js` misir-erken-hanedan f=-3099 (MÖ 3100, Shaw 2000); bu kayıt −3125 verir. Künye DEĞİŞTİRİLMEDİ — künye-kayma kararı Emre'nin (iki ucu ölç).",
+  "odak_yer": [
+   "Mısır"
+  ]
+ }
+];
 
 ;
 /* ==== data/olaylar_arkeoloji_d3-amerika-pasifik.js ==== */
-// data/olaylar_arkeoloji_d3-amerika-pasifik.js — paketle.py İNCELTTİ: ic_not* alanları yayına gitmez (kaynak dosya değişmedi)
-window.OLAYLAR_ARKEOLOJI_D3_AMERIKA_PASIFIK = [{"onem":3,"dunya":2,"bolge_onem":2,"puan_s":"v2","kapsam":"dis","bolge":1,"odak_yer":["Paracas"],"t":"-0039-01-01","k":"kayip","b":"Paracas kültürü (Paracas/Ica alt bölgesi): Geç Paracas sona erer","gun":"MÖ 40 civarı","yer":"Cultura Paracas","d":"Güney Peru kıyısı Paracas/Ica, Palpa ve Nasca alt bölgelerinde Paracas maddi kültürü; kuzey (Palpa/Ica) merkezli yayılım güneye.","kaynak":"Conlee C.A., Contreras D.A., Peters A.H., Vaughn K.J. 2024, 'Reconsidering chronologies and cultural change on the south coast of Peru: A compilation and analysis of radiocarbon dates from Nasca, Ica, and Paracas', Quaternary International 703:97-111, doi:10.1016/j.quaint.2024.06.014 (İngilizce; 770 14C tarihi, Bayes faz modelleri, 95% HPDI, onluğa yuvarlanmış) — Late Paracas Paracas/Ica HPDI: 600–40 BCE · https://par.nsf.gov/servlets/purl/10559191","kesinlik":"yuzyil","etiket":["arkeoloji"],"kaynak_turu":"arkeoloji"},{"onem":2,"dunya":1,"bolge_onem":2,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-0099-01-01","yer_id":"Kaminaljuyú","k":"kayip","b":"Kaminaljuyu (Guatemala Vadisi): Providencia fazi / Gec Preklasik yukselis: Providencia evresi sona erer","gun":"MÖ 100 civarı","yer":"Kaminaljuyú","d":"Kaminaljuyu'da Las Charcas fazinin sonu ile Providencia fazinin baslangici (~MO 350) Orta-Gec Preklasik sinirina denk geliyor; Providencia ~MO 350-100/75, ardindan Verbena-Arenal (Terminal Preklasik) fazlarinda nufus ve insaat patlamasi. Inomata vd. 2014 ve 2020 kronolojisi Shook & Popenoe de Hatch (1999) geleneksel tarihlerini 300-400 yil gec tarihe kaydirdi.","kaynak":"Inomata 2015, Una revision cronologica de Kaminaljuyu y sus implicaciones, XXVIII Simposio de Investigaciones Arqueologicas en Guatemala 2014 (ed. Arroyo, Mendez, Paiz), Museo Nacional de Arqueologia y Etnologia, pp. 1167-1172: 'Providencia ... fechandose para 350 a 100/1 AC' (Providencia = Gec Preklasik); Arroyo vd. 2020 ozeti: Providencia-Verbena gecisi ~75 BC · https://www.mesoweb.com/Simposio/pdf/28/Inomata.2015.pdf","kesinlik":"yuzyil","etiket":["arkeoloji"],"kaynak_turu":"arkeoloji"},{"onem":2,"dunya":1,"bolge_onem":2,"puan_s":"v2","tur":"kurulus","kapsam":"dis","bolge":1,"odak_yer":["La Centinela"],"t":"-0141-01-01","k":"kurulus","b":"Topará geleneği (Jahuay, Chincha): Topará: Jahuay iskânı başlar","gun":"MÖ 220–65 arası (orta nokta MÖ 142)","yer":"Tradición Topará","d":"En eski kabul edilen Topará yerleşimi Jahuay'ın modellenmiş başlangıcı; Paracas anıtsal merkezlerinin ritüel kapatılmasından sonra.","kaynak":"Osborn A., Hundman B., Weinberg E., Espino Huaman J. 2023, 'Reassessing the chronology of Topará emergence and Paracas decline on the Peruvian south coast: a Bayesian approach', Radiocarbon 65(4):930-952, doi:10.1017/RDC.2023.67 (İngilizce) · https://www.cambridge.org/core/journals/radiocarbon/article/reassessing-the-chronology-of-topara-emergence-and-paracas-decline-on-the-peruvian-south-coast-a-bayesian-approach/BEDE7A4161A7E529D0FCBA99D58A5524","kesinlik":"yuzyil","etiket":["arkeoloji"],"kaynak_turu":"arkeoloji","aralik":{"bas":"-0219-01-01","son":"-0064-01-01","guven":"95.4","tur":"kalibre-14C"}},{"onem":3,"dunya":2,"bolge_onem":3,"puan_s":"v2","kapsam":"dis","bolge":1,"odak_yer":["Kerulen (Çoybalsan)","Urga (Ulan Batur)"],"t":"-0340-01-01","k":"kayip","b":"Levha Mezar (Slab Grave) kulturu, Mogolistan: Slab Grave gömüleri sona erer (medyan)","gun":"MÖ 341 civarı","yer":"Slab Grave culture / Плиточные могилы, Mongolia","d":"Levha tasli dikdortgen mezarlarla taninan Erken Demir Cagi kulturu; sekilli mezar geleneginden cikar, Geyik Tasi-Hirigsuur kompleksinin yerini alir (genetik olarak nufus degisimi). Geyik taslari ve hirigsuur taslari levha mezar yapiminda yeniden kullanilmistir.","kaynak":"Taylor W, Wilkin S, Wright J, Dee M, Erdene M, Clark J, Tuvshinjargal T, Bayarsaikhan J, Fitzhugh WW, Boivin N 2019, 'Radiocarbon dating and cultural dynamics across Mongolia's early pastoral transition', PLoS ONE 14(11): e0224241 (Ingilizce, PMC6834239), Bayesci OxCal modeli · https://pmc.ncbi.nlm.nih.gov/articles/PMC6834239/","kesinlik":"yuzyil","etiket":["arkeoloji"],"kaynak_turu":"arkeoloji"},{"onem":3,"dunya":1,"bolge_onem":2,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-0349-01-01","yer_id":"Kaminaljuyú","k":"gelisme","b":"Kaminaljuyu (Guatemala Vadisi): Providencia fazi / Gec Preklasik yukselis: Kaminaljuyú: Providencia evresi","gun":"MÖ 350 civarı","yer":"Kaminaljuyú","d":"Kaminaljuyu'da Las Charcas fazinin sonu ile Providencia fazinin baslangici (~MO 350) Orta-Gec Preklasik sinirina denk geliyor; Providencia ~MO 350-100/75, ardindan Verbena-Arenal (Terminal Preklasik) fazlarinda nufus ve insaat patlamasi. Inomata vd. 2014 ve 2020 kronolojisi Shook & Popenoe de Hatch (1999) geleneksel tarihlerini 300-400 yil gec tarihe kaydirdi.","kaynak":"Arroyo, Inomata, Aju, Estrada, Nasu & Aoyama 2020, Refining Kaminaljuyu Chronology: New Radiocarbon Dates, Bayesian Analysis, and Ceramics Studies, Latin American Antiquity 31(3): 477-497, doi:10.1017/laq.2020.49 (ozet sayfasi; 108 14C tarihi): Las Charcas-Providencia gecisi ~350 BC · https://www.cambridge.org/core/journals/latin-american-antiquity/article/refining-kaminaljuyu-chronology-new-radiocarbon-dates-bayesian-analysis-and-ceramics-studies/E5A934155D3C9D2E5143B61FE87068F7","kesinlik":"yuzyil","etiket":["arkeoloji"],"kaynak_turu":"arkeoloji"},{"onem":3,"dunya":2,"bolge_onem":2,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-0499-01-01","yer_id":"San José Mogote","k":"kayip","b":"San Jose Mogote: koy yerlesimi ve Rosario sonrasi toren merkezinin terki: Rosario evresi sonu: nüfusun çoğu Monte Albán'a gider","gun":"MÖ 500 civarı","yer":"San Jose Mogote / Monte Albán","d":"San Jose Mogote Vadi'de (Oaxaca, Etla kolu) Tierras Largas fazinda (1500-1150 b.c.) en az 7 ha'lik koy; Rosario fazinda 18-23 koyluk bir grubun sefligi merkezi. Rosario sonunda nufusun ~%95'i Monte Alban'in kurulusuna katilmak uzere gitti; Mound 1'deki 40 ha'lik merkez Monte Alban II basina (MO 100) kadar terk.","kaynak":"Marcus & Flannery 2005, FAMSI (ayni rapor): 'At the end of the Rosario phase, an estimated 95% of the population of San Jose Mogote left to participate in the founding of Monte Alban'; Erken Monte Alban I = 500-300 B.C. (rapordaki buyuk harf B.C. = dendrokalibre notasyonu); 40 ha'lik toren/torensel merkez Monte Alban I boyunca terk; Feature 77 komur AMS Beta-179880 2440+-40 BP, 2-sigma kalibre 770-400 B.C. · https://www.ancientamericas.org/sites/default/files/03006Marcus01.pdf","kesinlik":"yuzyil","etiket":["arkeoloji"],"kaynak_turu":"arkeoloji"},{"onem":2,"dunya":1,"bolge_onem":2,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-0599-01-01","yer_id":"La Blanca","k":"kayip","b":"La Blanca (San Marcos, Pasifik Guatemala): Orta Preklasik bolgesel merkez, Mound 1: La Blanca'nın gerilemesi","gun":"MÖ 600 civarı","yer":"La Blanca","d":"La Blanca, Ojo de Agua (Chiapas) Erken Preklasik siyasi merkezinin cokusunden sonra Orta Preklasik'te (Conchas fazi, MO ~900-600) yaklasik 300 yil bolgesel merkez oldu; zirvede 200 ha'dan buyuk, 25 m yuksekliginde Mound 1 (Mezoamerika'nin en eski piramit tapinaklarindan biri) ile. ~MO 600'de nedeni bilinmeden geriledi.","kaynak":"Love 2006, FAMSI raporu s. 4: 'La Blanca ... maintained its prominence for over 300 years, until it declined at about 600 B.C. for unknown reasons'; Conchas fazi 900-600 B.C. (Conchas A-B 900-800, C 800-700, D 700-600) · https://www.ancientamericas.org/sites/default/files/05051Love01.pdf","kesinlik":"yuzyil","etiket":["arkeoloji"],"kaynak_turu":"arkeoloji"},{"onem":2,"dunya":1,"bolge_onem":2,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-0742-01-01","yer_id":"Nukuleka","k":"kayip","b":"Nukuleka (ilk Lapita kiyilanisi), Tongatapu: Tongatapu Lapita evresi sona erer","gun":"MÖ 753–733 arası (orta nokta MÖ 743)","yer":"Nukuleka, Tongatapu, Tonga","d":"Nukuleka, Tonga'da ve Polinezya'da ilk Lapita ayak basisinin yeridir (bati tipi Lapita seramigi yalniz burada). Lapita evresi Tongatapu'da kisa surer (~129-158 yil) ve Polinezya Duz Seramigi'ne gecer.","kaynak":"Burley vd. 2015, PLoS ONE 10(3): e0120795 - Bayesci ortak model, Tongatapu Lapita evresi bitisi · https://pmc.ncbi.nlm.nih.gov/articles/PMC4370570/","kesinlik":"onyil","etiket":["arkeoloji"],"kaynak_turu":"arkeoloji","aralik":{"bas":"-0752-01-01","son":"-0732-01-01","guven":"68.2","tur":"kalibre-14C"}},{"onem":2,"dunya":1,"bolge_onem":2,"puan_s":"v2","tur":"kurulus","kapsam":"dis","bolge":1,"odak_yer":["Tonalá"],"t":"-0749-01-01","k":"kurulus","b":"Izapa (Chiapas): Orta Formatif krallik baskenti ve ilk beyaz kil yuzey: Izapa: Orta Formatif iskânı","gun":"MÖ 750 (ALT SINIR; yerlesim-suresi MÖ 750–300)","yer":"Izapa","d":"Izapa, Orta Formatif'in ikinci yarisinda (MO 750-300 cal) bir krallik baskenti olarak kuruldu. Escalon fazinda (750-500 cal BC) Mound 30a'nin altinda beyaz kil yuzey yapildi; Guillen fazinda (300-100 cal BC, Gec Formatif) Mound 62'de inşaat ve stel dikimi suruyor; E-grubu Orta Formatif sonunda kuruldu, Guillen'de genisledi.","kaynak":"Rosenswig, Culleton, Kennett, Lieske, Mendelsohn & Nunez-Cortes 2018, The Early Izapa Kingdom: Recent Excavations, New Dating and Middle Formative Ceramic Analyses, Ancient Mesoamerica 29 (Special Issue 2): 373-393, doi:10.1017/S0956536118000135 (ozet; 10 yeni AMS tarihi, Izapa Regional Settlement Project 2012) · https://www.cambridge.org/core/journals/ancient-mesoamerica/article/early-izapa-kingdom-recent-excavations-new-dating-and-middle-formative-ceramic-analyses/3CA97C8AFF8E2678A22A503A23A78833","kesinlik":"yuzyil","etiket":["arkeoloji"],"kaynak_turu":"arkeoloji","aralik":{"bas":"-0749-01-01","son":"-0299-01-01","guven":"belirsiz (yayin ozeti 'cal BC' diyor; olasilik duzeyi ozette yok)","tur":"yerlesim-suresi"}},{"onem":2,"dunya":1,"bolge_onem":2,"puan_s":"v2","kapsam":"dis","bolge":1,"odak_yer":["Paracas"],"t":"-0789-01-01","k":"gelisme","b":"Paracas kültürü (Paracas/Ica alt bölgesi): Paracas kültürü (Ica) yerleşik düzeyine ulaşır","gun":"MÖ 790 civarı","yer":"Cultura Paracas","d":"Güney Peru kıyısı Paracas/Ica, Palpa ve Nasca alt bölgelerinde Paracas maddi kültürü; kuzey (Palpa/Ica) merkezli yayılım güneye.","kaynak":"Conlee C.A., Contreras D.A., Peters A.H., Vaughn K.J. 2024, 'Reconsidering chronologies and cultural change on the south coast of Peru: A compilation and analysis of radiocarbon dates from Nasca, Ica, and Paracas', Quaternary International 703:97-111, doi:10.1016/j.quaint.2024.06.014 (İngilizce; 770 14C tarihi, Bayes faz modelleri, 95% HPDI, onluğa yuvarlanmış) · https://par.nsf.gov/servlets/purl/10559191","kesinlik":"yuzyil","etiket":["arkeoloji"],"kaynak_turu":"arkeoloji"},{"onem":2,"dunya":1,"bolge_onem":1,"puan_s":"v2","kapsam":"dis","bolge":1,"odak_yer":["Tikal"],"t":"-0799-01-01","k":"ilk_anilis","b":"Tikal: Eb seramik kompleksi (en erken iskan izi): Tikal: Eb seramik kompleksi (ilk iskân)","gun":"MÖ 800 (ALT SINIR; donem-toplami MÖ 800–600)","yer":"Tikal","d":"Tikal'de en erken seramik kompleksi Eb (MO 800-600) Kuzey Akropolis'te ana kayaya acilmis bir cukurda bulunur; yani yerlesim izi Maya ovalarinda Orta Preklasik baslarina uzanir. Tzec 600-350, Chuen 350 MO-MS 1.","kaynak":"Culbert, T. Patrick 1999, La secuencia ceramica Preclasica en Tikal y la Acropolis del Norte, XII Simposio de Investigaciones Arqueologicas en Guatemala 1998 (ed. Laporte & Escobedo), Museo Nacional de Arqueologia y Etnologia, Guatemala, pp. 63-74, Figura 1 'Complejos ceramicos en Tikal - fechas' · https://www.mesoweb.com/Simposio/pdf/12/Culbert.1999.pdf","kesinlik":"yuzyil","etiket":["arkeoloji"],"kaynak_turu":"arkeoloji","aralik":{"bas":"-0799-01-01","son":"-0599-01-01","guven":"belirsiz (seramik kompleks tarihi; kalibre mi degil mi kaynakta belirtilmemis)","tur":"donem-toplami"}},{"onem":1,"dunya":1,"bolge_onem":1,"puan_s":"v2","kapsam":"dis","bolge":1,"odak_yer":["Cajamarca"],"t":"-0799-01-01","k":"kayip","b":"Pampa de las Hamacas töreni merkezleri (Jequetepeque, Formatif): Töreni merkezler terk edilir","gun":"MÖ 800 (ALT SINIR; donem-toplami MÖ 800–550)","yer":"Complejo Hamacas, Pampa de las Hamacas, Tembladera","d":"Jequetepeque orta vadisinde Formatif tören merkezleri dizisi; merkezlerin yeri zamanla doğuya kayar. Hamacas fazı 1500-1250, Tembladera 1250-800 (terk ~800), Lechuzas 800-550 cal BC.","kaynak":"Tsurumi E. 2008, 'La secuencia cronológica de los centros ceremoniales de la Pampa de las Hamacas y Tembladera, valle medio de Jequetepeque', Boletín de Arqueología PUCP 12:141-169 (İspanyolca; OxCal 4.0.1, kalibre) — Lechuzas fazı (Geç Formatif) 800-550; Tembladera merkezleri ~800'de terk · https://revistas.pucp.edu.pe/index.php/boletindearqueologia/article/download/964/931","kesinlik":"yuzyil","etiket":["arkeoloji"],"kaynak_turu":"arkeoloji","aralik":{"bas":"-0799-01-01","son":"-0549-01-01","guven":"belirsiz","tur":"donem-toplami"}},{"onem":1,"dunya":1,"bolge_onem":1,"puan_s":"v2","kapsam":"dis","bolge":1,"odak_yer":["Tepeaca"],"t":"-0849-01-01","k":"kayip","b":"Ajalpan evresi (Tehuacán Vadisi): sona erer","gun":"MÖ 850 civarı","yer":"Ajalpan phase (Tehuacán Vadisi)","d":"Tehuacán Vadisi'nde Formatif dönem evresi (Purrón'u izler, Santa María'dan önce); kaynakta 'Ajalpan' yerleşiminden tek 14C örneği (Zone H, I-929) modelde tutulmuştur.","kaynak":"Somerville A.D. vd. 2026, 'Multi-isotope analysis of mammal bones provides environmental context for the adoption of agriculture in the Tehuacan Valley of Mexico', Science Advances 12(10):eadw9222, doi:10.1126/sciadv.adw9222, Tablo 1 + Supplementary Text · https://pmc.ncbi.nlm.nih.gov/articles/PMC12959416/","kesinlik":"yuzyil","etiket":["arkeoloji"],"kaynak_turu":"arkeoloji"},{"onem":2,"dunya":1,"bolge_onem":2,"puan_s":"v2","kapsam":"dis","bolge":1,"odak_yer":["Apia"],"t":"-0864-01-01","k":"ilk_anilis","b":"Mulifanua (Lapita sitesi), Upolu, Samoa: Mulifanua: Samoa'da Lapita iskânı","gun":"MÖ 930–800 arası (orta nokta MÖ 865)","yer":"Mulifanua (SU-17-1), 'Upolu, Samoa","d":"Samoa'da (Upolu) yerel yapimli klasik dentate-damgali Lapita seramigi Mulifanua'da bulunur; Lapita'nin dogu uc noktalarindan biri.","kaynak":"Petchey F, Kirch PV 2019, 'The importance of shell: Redating of the To'aga site (Ofu Island, Manu'a) and a revised chronology for the Lapita to Polynesian Plainware transition in Tonga and Samoa', PLoS ONE 14(9): e0211990 (Ingilizce, PMC) - Mulifanua tarihlerini aktarir · https://pmc.ncbi.nlm.nih.gov/articles/PMC6728074/","kesinlik":"yuzyil","etiket":["arkeoloji"],"kaynak_turu":"arkeoloji","aralik":{"bas":"-0929-01-01","son":"-0799-01-01","guven":"68.2","tur":"kalibre-14C"}},{"onem":3,"dunya":2,"bolge_onem":3,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-0887-01-01","yer_id":"Nukuleka","k":"ilk_anilis","b":"Nukuleka (ilk Lapita kiyilanisi), Tongatapu: Nukuleka: Tonga'nın ilk Lapita iskânı","gun":"MÖ 896–880 arası (orta nokta MÖ 888)","yer":"Nukuleka, Tongatapu, Tonga","d":"Nukuleka, Tonga'da ve Polinezya'da ilk Lapita ayak basisinin yeridir (bati tipi Lapita seramigi yalniz burada). Lapita evresi Tongatapu'da kisa surer (~129-158 yil) ve Polinezya Duz Seramigi'ne gecer.","kaynak":"Burley D, Edinborough K, Weisler M, Zhao J-X 2015, 'Bayesian modeling and chronological precision for Polynesian settlement of Tonga', PLoS ONE 10(3): e0120795 (Ingilizce, PMC acik metin); U/Th 11-36 mercan eseri (Burley, Weisler, Zhao 2012) · https://pmc.ncbi.nlm.nih.gov/articles/PMC4370570/","kesinlik":"onyil","etiket":["arkeoloji"],"kaynak_turu":"arkeoloji","aralik":{"bas":"-0895-01-01","son":"-0879-01-01","guven":"95.4 (2 sigma)","tur":"kalibre-14C"}},{"onem":2,"dunya":1,"bolge_onem":2,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-0999-01-01","yer_id":"La Blanca","k":"gelisme","b":"La Blanca (San Marcos, Pasifik Guatemala): Orta Preklasik bolgesel merkez, Mound 1: La Blanca: anıtsal merkezin yükselişi","gun":"MÖ 1000 civarı","yer":"La Blanca","d":"La Blanca, Ojo de Agua (Chiapas) Erken Preklasik siyasi merkezinin cokusunden sonra Orta Preklasik'te (Conchas fazi, MO ~900-600) yaklasik 300 yil bolgesel merkez oldu; zirvede 200 ha'dan buyuk, 25 m yuksekliginde Mound 1 (Mezoamerika'nin en eski piramit tapinaklarindan biri) ile. ~MO 600'de nedeni bilinmeden geriledi.","kaynak":"Love, Michael 2006 (FAMSI, Julia Guernsey katkisiyla), The Context and Associations of Monument 3 from La Blanca, Guatemala, FAMSI raporu (arastirma yili 2005), s. 4-5; 'Mound 1, built at around 900 B.C. (1000 cal B.C.)' (Love vd. 2005'e atif) · https://www.ancientamericas.org/sites/default/files/05051Love01.pdf","kesinlik":"yuzyil","etiket":["arkeoloji"],"kaynak_turu":"arkeoloji"},{"onem":2,"dunya":1,"bolge_onem":2,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-1009-01-01","yer_id":"Sechín Alto","k":"kayip","b":"Sechín Alto: Sechín Alto: en geç Haldas tarihi","gun":"MÖ 1100–920 arası (orta nokta MÖ 1010)","yer":"Sechín Alto (Casma vadisi)","d":"Casma vadisinde Moxeke/Haldas dönemi büyük tören kompleksi; bilinen en eski yapılar ~MÖ 1600-1400, Moxeke B boyalı cephe ~1450/1400, Haldas dönemi (1400-1000) tarihleri ~1100-920'ye uzanır.","kaynak":"Bischof H. 2009, 'Los periodos Arcaico Tardío, Arcaico Final y Formativo Temprano en el valle de Casma: evidencias e hipótesis', Boletín de Arqueología PUCP 13:9-54 (İspanyolca; tüm 14C 1 sigma, IntCal04/Calib5 kalibre, 'a.C. [calib.]' biçiminde — dipnot 1) · https://revistas.pucp.edu.pe/index.php/boletindearqueologia/article/download/977/944","kesinlik":"yuzyil","etiket":["arkeoloji"],"kaynak_turu":"arkeoloji","aralik":{"bas":"-1099-01-01","son":"-0919-01-01","guven":"68.2","tur":"kalibre-14C"}},{"onem":3,"dunya":2,"bolge_onem":2,"puan_s":"v2","kapsam":"dis","bolge":1,"odak_yer":["Kerulen (Çoybalsan)","Urga (Ulan Batur)"],"t":"-1099-01-01","k":"gelisme","b":"Levha Mezar (Slab Grave) kulturu, Mogolistan: Slab Grave kültürü başlar","gun":"MÖ 1100 civarı","yer":"Slab Grave culture / Плиточные могилы, Mongolia","d":"Levha tasli dikdortgen mezarlarla taninan Erken Demir Cagi kulturu; sekilli mezar geleneginden cikar, Geyik Tasi-Hirigsuur kompleksinin yerini alir (genetik olarak nufus degisimi). Geyik taslari ve hirigsuur taslari levha mezar yapiminda yeniden kullanilmistir.","kaynak":"Nat Commun 2025, 'Slab Grave expansion disrupted long co-existence of distinct Bronze Age herders in central Mongolia', doi:10.1038/s41467-025-63789-1 (Ingilizce, PMC12462455) - giris/ozet kronolojisi · https://pmc.ncbi.nlm.nih.gov/articles/PMC12462455/","kesinlik":"yuzyil","etiket":["arkeoloji"],"kaynak_turu":"arkeoloji"},{"onem":1,"dunya":1,"bolge_onem":1,"puan_s":"v2","kapsam":"dis","bolge":1,"odak_yer":["Kotosh"],"t":"-1129-01-01","k":"kayip","b":"Waira-jirca seramik evresi (Huánuco havzası, Jancao): Wairajirca seramiği sona erer","gun":"MÖ 1200–1060 arası (orta nokta MÖ 1130)","yer":"Fase Wairajirca","d":"Huánuco havzasında Waira-jirca çanak çömlek geleneği, Jancao'da beş evre (I-V) olarak modellenir; yazarlar bu evreleri geç 18. yy – geç 12. yy cal BC'ye koyar.","kaynak":"Kanezaki Y., Omori T., Tsurumi E. 2021, 'Emergence and Development of Pottery in the Andean Early Formative Period: New Insights from an Improved Wairajirca Pottery Chronology at the Jancao Site in the Huánuco Region, Peru', Latin American Antiquity 32(2):239-254, doi:10.1017/laq.2020.89 (İngilizce, açık erişim CC-BY; OxCal Bayes, SHCal13, tablo 1: 68.2/95.4%) — Tablo 1 'End Wairajirca V': 68.2% 1185–1110, 95.4% 1200–1060, medyan 1140 · https://www.cambridge.org/core/services/aop-cambridge-core/content/view/E1B4D46CA57056B02E9004DAE9358D1F/S1045663520000899a.pdf","kesinlik":"yuzyil","etiket":["arkeoloji"],"kaynak_turu":"arkeoloji","aralik":{"bas":"-1199-01-01","son":"-1059-01-01","guven":"95.4","tur":"kalibre-14C"}},{"onem":2,"dunya":1,"bolge_onem":2,"puan_s":"v2","kapsam":"dis","bolge":1,"odak_yer":["Kavieng (Käwieng)"],"t":"-1284-01-01","k":"ilk_anilis","b":"Talepakemalai (ECA), Eloaua Adasi, Mussau: Talepakemalai (Mussau) Lapita iskânı","gun":"MÖ 1510–1060 arası (orta nokta MÖ 1285)","yer":"Talepakemalai (site ECA), Eloaua Island, Mussau Islands, Papua New Guinea","d":"Mussau'daki Talepakemalai (ECA) en eski ve cesitli Lapita seramik toplulugunu veren kazi alanidir; seramigin ilk gorunusu Bayesci modelde MO ~1510-1060 arasina oturur.","kaynak":"Cochrane EE, Rieth TM, Filimoehala D 2021, 'The first quantitative assessment of radiocarbon chronologies for initial pottery in Island Southeast Asia and western Near Oceania', PLoS ONE 16(6): e0251407, doi:10.1371/journal.pone.0251407 (Ingilizce, PMC acik metin; Bayesci OxCal modeli, site ECA) · https://pmc.ncbi.nlm.nih.gov/articles/PMC8171956/","kesinlik":"yuzyil","etiket":["arkeoloji"],"kaynak_turu":"arkeoloji","aralik":{"bas":"-1509-01-01","son":"-1059-01-01","guven":"95.4","tur":"kalibre-14C"}},{"onem":1,"dunya":1,"bolge_onem":1,"puan_s":"v2","kapsam":"dis","bolge":1,"odak_yer":["Tepeaca"],"t":"-1299-01-01","k":"gelisme","b":"Ajalpan evresi (Tehuacán Vadisi): Tehuacán: Ajalpan evresi","gun":"MÖ 1300 (ALT SINIR; donem-toplami MÖ 1300–850)","yer":"Ajalpan phase (Tehuacán Vadisi) / Purrón phase (Tehuacán Vadisi)","d":"Tehuacán Vadisi'nde Formatif dönem evresi (Purrón'u izler, Santa María'dan önce); kaynakta 'Ajalpan' yerleşiminden tek 14C örneği (Zone H, I-929) modelde tutulmuştur.","kaynak":"Somerville A.D. vd. 2026, 'Multi-isotope analysis of mammal bones provides environmental context for the adoption of agriculture in the Tehuacan Valley of Mexico', Science Advances 12(10):eadw9222, doi:10.1126/sciadv.adw9222, Tablo 1 + Supplementary Text · https://pmc.ncbi.nlm.nih.gov/articles/PMC12959416/","kesinlik":"yuzyil","etiket":["arkeoloji"],"kaynak_turu":"arkeoloji","aralik":{"bas":"-1299-01-01","son":"-0849-01-01","guven":"belirsiz (kaynak 'approx.' diyor; OxCal modelinden yuvarlanmış)","tur":"donem-toplami"}},{"onem":2,"dunya":1,"bolge_onem":2,"puan_s":"v2","kapsam":"dis","bolge":1,"odak_yer":["Herbertshöhe (Kokopo) — Rabaul","Kavieng (Käwieng)"],"t":"-1324-01-01","k":"ilk_anilis","b":"Kamgot (Erken Lapita yerlesmesi), Babase Adasi, Anir Adalari: Kamgot (Anir) erken Lapita iskânı","gun":"MÖ 1440–1210 arası (orta nokta MÖ 1325)","yer":"Kamgot, Babase Island, Anir Group, New Ireland Province, Papua New Guinea","d":"Anir adalarinda lagun kenarinda (kazik evli) Erken Lapita yerlesmesi; domuz ve kopek getirilmis ekonomi (Horrocks vd. 2024 parazit yumurtalariyla dogruluyor).","kaynak":"Summerhayes GR, Szabo K, Leavesley M, Gaffney D 2019, 'Kamgot at the lagoon's edge: Site position and resource use of an Early Lapita site in Near Oceania', in Debating Lapita, Terra Australis 52, ANU Press, s. 89-107 (Ingilizce, acik erisim PDF); TP 1 Layer 2 spit 9 kömür Wk-7563 · https://doi.org/10.22459/ta52.2019.04","kesinlik":"yuzyil","etiket":["arkeoloji"],"kaynak_turu":"arkeoloji","aralik":{"bas":"-1439-01-01","son":"-1209-01-01","guven":"95.4","tur":"kalibre-14C"}},{"onem":3,"dunya":2,"bolge_onem":2,"puan_s":"v2","kapsam":"dis","bolge":1,"odak_yer":["Mörön (Hövsgöl)","Urga (Ulan Batur)"],"t":"-1346-01-01","k":"gelisme","b":"Geyik Tasi-Hirigsuur Kompleksi (Deer Stone-Khirigsuur Complex), Mogolistan: Hirigsuur (Geyik Taşı) mezar anıtları başlar","gun":"MÖ 1430–1265 arası (orta nokta MÖ 1347)","yer":"Deer Stone-Khirigsuur Complex (DSKC) / Буга-хиригсуурский комплекс, Mongolia","d":"Dikili geyik tasi anitlari ve kare/yuvarlak tas cevreli hirigsuur mezar-anitlari; ca. MO 1200'den itibaren atlar bu anitlarin ayrilmaz parcasi olur (binicilik izi).","kaynak":"Taylor W vd. 2019, PLoS ONE 14(11): e0224241 (Ingilizce, PMC6834239) - Bayesci OxCal modeli, 'Khirigsuur' baslangic siniri (insan kemigi) · https://pmc.ncbi.nlm.nih.gov/articles/PMC6834239/","kesinlik":"yuzyil","etiket":["arkeoloji"],"kaynak_turu":"arkeoloji","aralik":{"bas":"-1429-01-01","son":"-1264-01-01","guven":"68.2 (1 sigma)","tur":"kalibre-14C"}},{"onem":3,"dunya":2,"bolge_onem":3,"puan_s":"v2","tur":"kurulus","kapsam":"dis","bolge":1,"odak_yer":["Herbertshöhe (Kokopo) — Rabaul","Kavieng (Käwieng)"],"t":"-1449-01-01","k":"kurulus","b":"Lapita kulturu - Bismarck Takimadalari baslangici: Lapita Bismarck Takımadaları'nda ortaya çıkar","gun":"MÖ 1500–1400 arası (orta nokta MÖ 1450)","yer":"Lapita Cultural Complex, Bismarck Archipelago","d":"Dentate-stamped (disli damgali) Lapita ceramigi Bismarck Takimadalari'nda ortaya cikar; buradan guneydogu yone Uzak Okyanusya'ya dagilir.","kaynak":"Specht J 2007, 'Small islands in the big picture: the formative period of Lapita in the Bismarck Archipelago', in Bedford S, Sand C, Connaughton SP (eds), Oceanic Explorations: Lapita and Western Pacific Settlement, Terra Australis 26, ANU Press (Ingilizce, acik erisim PDF) · https://doi.org/10.22459/ta26.2007.03","kesinlik":"onyil","etiket":["arkeoloji"],"kaynak_turu":"arkeoloji","aralik":{"bas":"-1499-01-01","son":"-1399-01-01","guven":"belirsiz (kaynak '2 sigma' CALIB 5.0.1 kalibrasyonuna dayanan gozden gecirilmis tarih araligi; yuzde verilmiyor)","tur":"kalibre-14C"}},{"onem":1,"dunya":1,"bolge_onem":1,"puan_s":"v2","kapsam":"dis","bolge":1,"odak_yer":["Krasnoyarsk"],"t":"-14961-01-01","k":"ilk_anilis","b":"Afontova Gora-2 (AG-2), Yenisey, Krasnoyarsk yakini: Afontova Gora-2: Üst Paleolitik Sibirya iskânı (ufuk dışı)","gun":"MÖ 15125–14800 arası (orta nokta MÖ 14962)","yer":"Афонтова Гора-2, Afontova Gora-2, Krasnoyarsk, Russia","d":"Yenisey kiyisinda Ust Paleolitik Afontova Gora kompleksinin AG-2 bireyi; MA-1 ile benzer genetik imza - Son Buzul Maksimumu boyunca Sibirya'nin isgal altinda oldugunu gosterir.","kaynak":"Raghavan M vd. 2014, Nature 505: 87-91, doi:10.1038/nature12736 (PMC4105016) - AG-2 insan kemigi AMS 14C · https://pmc.ncbi.nlm.nih.gov/articles/PMC4105016/","kesinlik":"yuzyil","etiket":["arkeoloji"],"kaynak_turu":"arkeoloji","aralik":{"bas":"-15124-01-01","son":"-14799-01-01","guven":"belirsiz (yuzde yok)","tur":"kalibre-14C"}},{"onem":1,"dunya":1,"bolge_onem":1,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-1499-01-01","k":"gelisme","b":"Pampa de las Hamacas töreni merkezleri (Jequetepeque, Formatif): Hamacas evresi başlar (Jequetepeque)","gun":"MÖ 1500 (ALT SINIR; donem-toplami MÖ 1500–1250)","yer":"Complejo Hamacas, Pampa de las Hamacas, Tembladera / Susa","d":"Jequetepeque orta vadisinde Formatif tören merkezleri dizisi; merkezlerin yeri zamanla doğuya kayar. Hamacas fazı 1500-1250, Tembladera 1250-800 (terk ~800), Lechuzas 800-550 cal BC.","kaynak":"Tsurumi E. 2008, 'La secuencia cronológica de los centros ceremoniales de la Pampa de las Hamacas y Tembladera, valle medio de Jequetepeque', Boletín de Arqueología PUCP 12:141-169 (İspanyolca; OxCal 4.0.1, kalibre) · https://revistas.pucp.edu.pe/index.php/boletindearqueologia/article/download/964/931","kesinlik":"yuzyil","etiket":["arkeoloji"],"kaynak_turu":"arkeoloji","aralik":{"bas":"-1499-01-01","son":"-1249-01-01","guven":"belirsiz","tur":"donem-toplami"},"odak_yer":["Susa"]},{"onem":1,"dunya":1,"bolge_onem":1,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-1509-01-01","yer_id":"Sechín Alto","k":"gelisme","b":"Sechín Alto: Sechín Alto: Haldas öncesi iskân","gun":"MÖ 1690–1330 arası (orta nokta MÖ 1510)","yer":"Sechín Alto (Casma vadisi)","d":"Casma vadisinde Moxeke/Haldas dönemi büyük tören kompleksi; bilinen en eski yapılar ~MÖ 1600-1400, Moxeke B boyalı cephe ~1450/1400, Haldas dönemi (1400-1000) tarihleri ~1100-920'ye uzanır.","kaynak":"Bischof H. 2009, 'Los periodos Arcaico Tardío, Arcaico Final y Formativo Temprano en el valle de Casma: evidencias e hipótesis', Boletín de Arqueología PUCP 13:9-54 (İspanyolca; tüm 14C 1 sigma, IntCal04/Calib5 kalibre, 'a.C. [calib.]' biçiminde — dipnot 1) · https://revistas.pucp.edu.pe/index.php/boletindearqueologia/article/download/977/944","kesinlik":"yuzyil","etiket":["arkeoloji"],"kaynak_turu":"arkeoloji","aralik":{"bas":"-1689-01-01","son":"-1329-01-01","guven":"68.2","tur":"kalibre-14C"}},{"onem":1,"dunya":1,"bolge_onem":1,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-1549-01-01","yer_id":"Sechín Bajo","k":"kayip","b":"Sechín Bajo: Sechín Bajo'da Formatif iskân sona erer","gun":"MÖ 1550 (ALT SINIR; yerlesim-suresi MÖ 1550–1470)","yer":"Sechín Bajo (Casma vadisi)","d":"Casma vadisinde batık dairesel plazalı en eski anıtsal kerpiç mimarî; ~MÖ 3400'den inşa dizisi, Formatif işgal MÖ 1550-1470 civarında sona erer.","kaynak":"Bischof H. 2009, 'Los periodos Arcaico Tardío, Arcaico Final y Formativo Temprano en el valle de Casma: evidencias e hipótesis', Boletín de Arqueología PUCP 13:9-54 (İspanyolca; tüm 14C 1 sigma, IntCal04/Calib5 kalibre, 'a.C. [calib.]' biçiminde — dipnot 1) · https://revistas.pucp.edu.pe/index.php/boletindearqueologia/article/download/977/944","kesinlik":"yuzyil","etiket":["arkeoloji"],"kaynak_turu":"arkeoloji","aralik":{"bas":"-1549-01-01","son":"-1469-01-01","guven":"68.2","tur":"yerlesim-suresi"}},{"onem":2,"dunya":1,"bolge_onem":2,"puan_s":"v2","tur":"kurulus","kapsam":"dis","bolge":1,"t":"-1624-01-01","yer_id":"San José Mogote","k":"kurulus","b":"San Jose Mogote: koy yerlesimi ve Rosario sonrasi toren merkezinin terki: San José Mogote köyü kurulur","gun":"MÖ 1730–1520 arası (orta nokta MÖ 1625)","yer":"San Jose Mogote","d":"San Jose Mogote Vadi'de (Oaxaca, Etla kolu) Tierras Largas fazinda (1500-1150 b.c.) en az 7 ha'lik koy; Rosario fazinda 18-23 koyluk bir grubun sefligi merkezi. Rosario sonunda nufusun ~%95'i Monte Alban'in kurulusuna katilmak uzere gitti; Mound 1'deki 40 ha'lik merkez Monte Alban II basina (MO 100) kadar terk.","kaynak":"Marcus & Flannery 2005, The Radiocarbon Dating of Public Buildings and Ritual Features in the Ancient Valley of Oaxaca, FAMSI Raporu (Beta Analytic AMS): Structure 3 (Tierras Largas fazi 'Men's House'), Beta-190313, 3350+-40 BP, 2-sigma kalibre 1730-1520 B.C. · https://www.ancientamericas.org/sites/default/files/03006Marcus01.pdf","kesinlik":"yuzyil","etiket":["arkeoloji"],"kaynak_turu":"arkeoloji","aralik":{"bas":"-1729-01-01","son":"-1519-01-01","guven":"95.4 (2 sigma)","tur":"kalibre-14C"}},{"onem":2,"dunya":1,"bolge_onem":1,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-1649-01-01","yer_id":"Cerro Sechín","k":"kayip","b":"Cerro Sechín: Cerro Sechín dönemi sona erer","gun":"MÖ 1650 civarı","yer":"Cerro Sechín (Casma vadisi)","d":"Casma vadisinde merkezî platform (faz 1-4) ve kabartmalı taş cephe; en eski tarihli örnekler MÖ 2400-2040 civarı; röliflerin örtüldüğü dolgu tabakaları MÖ ~1740-1433.","kaynak":"Bischof H. 2009, 'Los periodos Arcaico Tardío, Arcaico Final y Formativo Temprano en el valle de Casma: evidencias e hipótesis', Boletín de Arqueología PUCP 13:9-54 (İspanyolca; tüm 14C 1 sigma, IntCal04/Calib5 kalibre, 'a.C. [calib.]' biçiminde — dipnot 1) · https://revistas.pucp.edu.pe/index.php/boletindearqueologia/article/download/977/944","kesinlik":"yuzyil","etiket":["arkeoloji"],"kaynak_turu":"arkeoloji"},{"onem":1,"dunya":1,"bolge_onem":1,"puan_s":"v2","tur":"kurulus","kapsam":"dis","bolge":1,"odak_yer":["Kotosh"],"t":"-1769-01-01","k":"kurulus","b":"Waira-jirca seramik evresi (Huánuco havzası, Jancao): Wairajirca seramiği başlar (Jancao)","gun":"MÖ 1915–1625 arası (orta nokta MÖ 1770)","yer":"Fase Wairajirca","d":"Huánuco havzasında Waira-jirca çanak çömlek geleneği, Jancao'da beş evre (I-V) olarak modellenir; yazarlar bu evreleri geç 18. yy – geç 12. yy cal BC'ye koyar.","kaynak":"Kanezaki Y., Omori T., Tsurumi E. 2021, 'Emergence and Development of Pottery in the Andean Early Formative Period: New Insights from an Improved Wairajirca Pottery Chronology at the Jancao Site in the Huánuco Region, Peru', Latin American Antiquity 32(2):239-254, doi:10.1017/laq.2020.89 (İngilizce, açık erişim CC-BY; OxCal Bayes, SHCal13, tablo 1: 68.2/95.4%) — Tablo 1 'Start Wairajirca I': 68.2% 1790–1665, 95.4% 1915–1625, medyan 1735 · https://www.cambridge.org/core/services/aop-cambridge-core/content/view/E1B4D46CA57056B02E9004DAE9358D1F/S1045663520000899a.pdf","kesinlik":"yuzyil","etiket":["arkeoloji"],"kaynak_turu":"arkeoloji","aralik":{"bas":"-1914-01-01","son":"-1624-01-01","guven":"95.4","tur":"kalibre-14C"}},{"onem":2,"dunya":2,"bolge_onem":2,"puan_s":"v2","kapsam":"dis","bolge":1,"odak_yer":["İrkutsk"],"t":"-22206-01-01","k":"ilk_anilis","b":"Mal'ta (Belaya Nehri, Baykal yakini) - MA-1 bireyi: Mal'ta (MA-1): Üst Paleolitik Sibirya iskânı (ufuk dışı)","gun":"MÖ 22473–21941 arası (orta nokta MÖ 22207)","yer":"Мальта, Mal'ta, Usolsky District, Irkutsk Oblast, Russia","d":"Mal'ta Ust Paleolitik yerlesmesi; ~30 antropomorf Venus figurini (kaynak) ve MA-1 (humerus, eski DNA) ile taninir.","kaynak":"Raghavan M vd. 2014, 'Upper Palaeolithic Siberian genome reveals dual ancestry of Native Americans', Nature 505: 87-91, doi:10.1038/nature12736 (Ingilizce, PMC4105016) - MA-1 insan kemigi AMS 14C · https://pmc.ncbi.nlm.nih.gov/articles/PMC4105016/","kesinlik":"yuzyil","etiket":["arkeoloji"],"kaynak_turu":"arkeoloji","aralik":{"bas":"-22472-01-01","son":"-21940-01-01","guven":"belirsiz (yuzde yok)","tur":"kalibre-14C"}},{"onem":2,"dunya":1,"bolge_onem":1,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-2269-01-01","yer_id":"Cerro Sechín","k":"gelisme","b":"Cerro Sechín: Cerro Sechín: en eski kalibre tarihler","gun":"MÖ 2400–2140 arası (orta nokta MÖ 2270)","yer":"Cerro Sechín (Casma vadisi)","d":"Casma vadisinde merkezî platform (faz 1-4) ve kabartmalı taş cephe; en eski tarihli örnekler MÖ 2400-2040 civarı; röliflerin örtüldüğü dolgu tabakaları MÖ ~1740-1433.","kaynak":"Bischof H. 2009, 'Los periodos Arcaico Tardío, Arcaico Final y Formativo Temprano en el valle de Casma: evidencias e hipótesis', Boletín de Arqueología PUCP 13:9-54 (İspanyolca; tüm 14C 1 sigma, IntCal04/Calib5 kalibre, 'a.C. [calib.]' biçiminde — dipnot 1) · https://revistas.pucp.edu.pe/index.php/boletindearqueologia/article/download/977/944","kesinlik":"yuzyil","etiket":["arkeoloji"],"kaynak_turu":"arkeoloji","aralik":{"bas":"-2399-01-01","son":"-2139-01-01","guven":"68.2","tur":"kalibre-14C"}},{"onem":1,"dunya":1,"bolge_onem":1,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-2599-01-01","k":"gelisme","b":"Purrón evresi (Tehuacán Vadisi): Tehuacán: Purrón evresi","gun":"MÖ 2600 (ALT SINIR; donem-toplami MÖ 2600–1300)","yer":"Purrón phase (Tehuacán Vadisi) / Dholavira","d":"Tehuacán Vadisi'nde Formatif dönemin ilk evresi (Ajalpan'dan önce); kaynak onu 'karma bahçecilik-toplayıcılık-avcılık, yarı yerleşik' diye niteler.","kaynak":"Somerville A.D. vd. 2026, 'Multi-isotope analysis of mammal bones provides environmental context for the adoption of agriculture in the Tehuacan Valley of Mexico', Science Advances 12(10):eadw9222, doi:10.1126/sciadv.adw9222, Tablo 1 + Supplementary Text · https://pmc.ncbi.nlm.nih.gov/articles/PMC12959416/","kesinlik":"yuzyil","etiket":["arkeoloji"],"kaynak_turu":"arkeoloji","aralik":{"bas":"-2599-01-01","son":"-1299-01-01","guven":"belirsiz (kaynak 'approx.' diyor; OxCal modelinden yuvarlanmış)","tur":"donem-toplami"},"odak_yer":["Dholavira"]},{"onem":2,"dunya":1,"bolge_onem":2,"puan_s":"v2","tur":"kurulus","kapsam":"dis","bolge":1,"t":"-3399-01-01","yer_id":"Sechín Bajo","k":"kurulus","b":"Sechín Bajo: Sechín Bajo: Geç Arkaik iskân başlar","gun":"MÖ 3400 (ALT SINIR; donem-toplami MÖ 3400–2950)","yer":"Sechín Bajo (Casma vadisi)","d":"Casma vadisinde batık dairesel plazalı en eski anıtsal kerpiç mimarî; ~MÖ 3400'den inşa dizisi, Formatif işgal MÖ 1550-1470 civarında sona erer.","kaynak":"Bischof H. 2009, 'Los periodos Arcaico Tardío, Arcaico Final y Formativo Temprano en el valle de Casma: evidencias e hipótesis', Boletín de Arqueología PUCP 13:9-54 (İspanyolca; tüm 14C 1 sigma, IntCal04/Calib5 kalibre, 'a.C. [calib.]' biçiminde — dipnot 1) · https://revistas.pucp.edu.pe/index.php/boletindearqueologia/article/download/977/944","kesinlik":"yuzyil","etiket":["arkeoloji"],"kaynak_turu":"arkeoloji","aralik":{"bas":"-3399-01-01","son":"-2949-01-01","guven":"68.2","tur":"donem-toplami"}},{"onem":1,"dunya":1,"bolge_onem":1,"puan_s":"v2","kapsam":"dis","bolge":1,"odak_yer":["Tepeaca"],"t":"-4349-01-01","k":"kayip","b":"Coxcatlán evresi (Tehuacán Vadisi): sona erer","gun":"MÖ 4350 civarı","yer":"Coxcatlán phase (Tehuacán Vadisi)","d":"Tehuacán Vadisi'nde Erken Holosen El Riego'yu izleyen, Abejas'tan önceki evre; Coxcatlán, Purrón ve San Marcos mağaralarından 14C örnekleriyle modellenir.","kaynak":"Somerville A.D. vd. 2026, 'Multi-isotope analysis of mammal bones provides environmental context for the adoption of agriculture in the Tehuacan Valley of Mexico', Science Advances 12(10):eadw9222, doi:10.1126/sciadv.adw9222, Tablo 1 + Supplementary Text · https://pmc.ncbi.nlm.nih.gov/articles/PMC12959416/","kesinlik":"yuzyil","etiket":["arkeoloji"],"kaynak_turu":"arkeoloji"},{"onem":2,"dunya":1,"bolge_onem":2,"puan_s":"v2","kapsam":"dis","bolge":1,"odak_yer":["Tepeaca"],"t":"-5949-01-01","k":"gelisme","b":"Coxcatlán evresi (Tehuacán Vadisi): Tehuacán: Coxcatlán evresi","gun":"MÖ 5950 (ALT SINIR; donem-toplami MÖ 5950–4350)","yer":"Coxcatlán phase (Tehuacán Vadisi)","d":"Tehuacán Vadisi'nde Erken Holosen El Riego'yu izleyen, Abejas'tan önceki evre; Coxcatlán, Purrón ve San Marcos mağaralarından 14C örnekleriyle modellenir.","kaynak":"Somerville A.D. vd. 2026, 'Multi-isotope analysis of mammal bones provides environmental context for the adoption of agriculture in the Tehuacan Valley of Mexico', Science Advances 12(10):eadw9222, doi:10.1126/sciadv.adw9222, Tablo 1 + Supplementary Text · https://pmc.ncbi.nlm.nih.gov/articles/PMC12959416/","kesinlik":"yuzyil","etiket":["arkeoloji"],"kaynak_turu":"arkeoloji","aralik":{"bas":"-5949-01-01","son":"-4349-01-01","guven":"belirsiz (kaynak 'approx.' diyor; OxCal modelinden yuvarlanmış)","tur":"donem-toplami"}}];
+// ARKEOLOJİ KATMANI — Amerikalar, Pasifik/Okyanusya, Avustralya, Sibirya/Mogolistan (d3-amerika-pasifik) · ARKEOLOJI-KATMANI-SARTNAME-1018 · üretici denetim/arkeoloji_uret_1020.py · 20 Ekim 2026
+// Girdi: denetim/arastirma/d3-amerika-pasifik.json. Her tarih kaynaktan; orta nokta/alt sınır/tek değer beyanı ic_not_d'de. Üretilmiştir: elle düzenleme, JSON'u düzelt.
+window.OLAYLAR_ARKEOLOJI_D3_AMERIKA_PASIFIK = [
+ { onem:3, dunya:2, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "odak_yer": [
+   "Paracas"
+  ],
+  "t": "-0039-01-01",
+  "k": "kayip",
+  "b": "Paracas kültürü (Paracas/Ica alt bölgesi): Geç Paracas sona erer",
+  "gun": "MÖ 40 civarı",
+  "yer": "Cultura Paracas",
+  "d": "Güney Peru kıyısı Paracas/Ica, Palpa ve Nasca alt bölgelerinde Paracas maddi kültürü; kuzey (Palpa/Ica) merkezli yayılım güneye.",
+  "kaynak": "Conlee C.A., Contreras D.A., Peters A.H., Vaughn K.J. 2024, 'Reconsidering chronologies and cultural change on the south coast of Peru: A compilation and analysis of radiocarbon dates from Nasca, Ica, and Paracas', Quaternary International 703:97-111, doi:10.1016/j.quaint.2024.06.014 (İngilizce; 770 14C tarihi, Bayes faz modelleri, 95% HPDI, onluğa yuvarlanmış) — Late Paracas Paracas/Ica HPDI: 600–40 BCE · https://par.nsf.gov/servlets/purl/10559191",
+  "kesinlik": "yuzyil",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "kaynak_turu": "arkeoloji",
+  "ic_not_d": "TEK DEĞER MÖ 40 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynaktan okunan: «Late Paracas: 600–40 BCE». ÖNCEKİ DALGA 'bulunamadı'sını (Paracas) çözer. bas_mo=790: Paracas/Ica alt bölgesi Early Paracas 95% HPDI başlangıcı (790-440 BCE); bit=40: Late Paracas HPDI üst ucu (600-40 BCE). Yazarlar HPDI'ların 'dönem sınırı önerisi DEĞİL', tarihli üretim/kullanım örneklerinin en erken-en geç aralığı olduğunu söyler. ALT BÖLGE ÇELİŞKİSİ: Palpa Early Paracas 1150-350 BCE, Middle 520-370, Late 380-170 BCE (Early Paracas Palpa'da daha erken); Ica'da Middle Paracas 790-420 BCE. Özet cümlesi 'ca. 900 BCE' kuruluşu verir (Palpa'ya dayalı). Tek değer seçilemez; üç kaydı birlikte oku. Cavernas/Necrópolis ayrımı için Wari Kayan (Necropolis) ayrı kayıtta."
+ },
+ { onem:2, dunya:1, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-0099-01-01",
+  "yer_id": "Kaminaljuyú",
+  "k": "kayip",
+  "b": "Kaminaljuyu (Guatemala Vadisi): Providencia fazi / Gec Preklasik yukselis: Providencia evresi sona erer",
+  "gun": "MÖ 100 civarı",
+  "yer": "Kaminaljuyú",
+  "d": "Kaminaljuyu'da Las Charcas fazinin sonu ile Providencia fazinin baslangici (~MO 350) Orta-Gec Preklasik sinirina denk geliyor; Providencia ~MO 350-100/75, ardindan Verbena-Arenal (Terminal Preklasik) fazlarinda nufus ve insaat patlamasi. Inomata vd. 2014 ve 2020 kronolojisi Shook & Popenoe de Hatch (1999) geleneksel tarihlerini 300-400 yil gec tarihe kaydirdi.",
+  "kaynak": "Inomata 2015, Una revision cronologica de Kaminaljuyu y sus implicaciones, XXVIII Simposio de Investigaciones Arqueologicas en Guatemala 2014 (ed. Arroyo, Mendez, Paiz), Museo Nacional de Arqueologia y Etnologia, pp. 1167-1172: 'Providencia ... fechandose para 350 a 100/1 AC' (Providencia = Gec Preklasik); Arroyo vd. 2020 ozeti: Providencia-Verbena gecisi ~75 BC · https://www.mesoweb.com/Simposio/pdf/28/Inomata.2015.pdf",
+  "kesinlik": "yuzyil",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "kaynak_turu": "arkeoloji",
+  "ic_not_d": "TEK DEĞER MÖ 100 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynaktan okunan: «fechándose para 350 a 100/1 AC». CIFT TEYIT (kismen): 350 BC gecisi iki bagimsiz-degil-ama-ayri yayinda ayni: Arroyo vd. 2020 (EN, ozet) ve Inomata 2015 (ES, tam metin, 'Las Charcas tardia 600 a 350 AC, Providencia 350 a 100/1 AC'). Ikisi ayni grubun (Inomata, Arroyo) urunu; 'bagimsiz' sayilmaz, bu yuzden ic_not'ta 'ayni grup' olarak anildi. UYARI: bit alani iki kaynak arasi: Inomata 2015 'Providencia 350-100/1 AC' vs Arroyo 2020 ozeti 'Providencia-Verbena ~75 BC'; ikisi de yazarlarin kendi Bayes modelinden, aralik degil tek deger. Kaminaljuyu'nun KURULUS/ilk iskan tarihi bu kaynaklarda yok (Erken-Orta Preklasik Las Charcas baslangici okunamadi); 2020 makalesi kapali (Unpaywall closed) - tam metin kutuphane_gerekli. Karsit gorus: Love 2017, Latin American Antiquity (okunmadi): Verbena-Arenal doruk tarihlemesine temkin."
+ },
+ { onem:2, dunya:1, bolge_onem:2, puan_s:"v2", tur:"kurulus","kapsam": "dis", "bolge": 1, "odak_yer":["La Centinela"],
+  "t": "-0141-01-01",
+  "k": "kurulus",
+  "b": "Topará geleneği (Jahuay, Chincha): Topará: Jahuay iskânı başlar",
+  "gun": "MÖ 220–65 arası (orta nokta MÖ 142)",
+  "yer": "Tradición Topará",
+  "d": "En eski kabul edilen Topará yerleşimi Jahuay'ın modellenmiş başlangıcı; Paracas anıtsal merkezlerinin ritüel kapatılmasından sonra.",
+  "kaynak": "Osborn A., Hundman B., Weinberg E., Espino Huaman J. 2023, 'Reassessing the chronology of Topará emergence and Paracas decline on the Peruvian south coast: a Bayesian approach', Radiocarbon 65(4):930-952, doi:10.1017/RDC.2023.67 (İngilizce) · https://www.cambridge.org/core/journals/radiocarbon/article/reassessing-the-chronology-of-topara-emergence-and-paracas-decline-on-the-peruvian-south-coast-a-bayesian-approach/BEDE7A4161A7E529D0FCBA99D58A5524",
+  "kesinlik": "yuzyil",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "kaynak_turu": "arkeoloji",
+  "aralik": {
+   "bas": "-0219-01-01",
+   "son": "-0064-01-01",
+   "guven": "95.4",
+   "tur": "kalibre-14C"
+  },
+  "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 220–65 (kaynağın verdiği uçlar); orta nokta MÖ 142 = astronomik -0141. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: 95.4. Kaynaktan okunan: «median start occupation date for Jahuay was 130 BC (220–65 cal BC, 95.4% hpd)». Bu, Jahuay SİTE başlangıcı (tek yerleşim). Sayfa metni WebFetch ile okundu; tablolar (Tablo 2-4) görüntü olduğundan okunamadı, yalnız metindeki cümleler alındı. Aynı çalışma: Cerro del Gentil (Paracas, Chincha) son sınırı 350-205 cal BC (%92.9 hpd, medyan ~295 BC) ve Cerro del Gentil sonu ile Jahuay başlangıcı arası ~165 yıl (30-255, %95.4) — Topará'nın Paracas'ı yıkan işgalci olmadığı, ondan SONRA çıktığı iddiası. Conlee vd. 2024'e göre Paracas/Ica'da Late Paracas HPDI 600-40 BCE ve Topará Late Paracas/Erken Nasca ile birlikte var olmuştur (alt bölgeye göre kısmen çakışma) — iki çalışma Paracas sonu konusunda tam uyuşmuyor, uç seçilmedi."
+ },
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, "odak_yer":["Kerulen (Çoybalsan)","Urga (Ulan Batur)"],
+  "t": "-0340-01-01",
+  "k": "kayip",
+  "b": "Levha Mezar (Slab Grave) kulturu, Mogolistan: Slab Grave gömüleri sona erer (medyan)",
+  "gun": "MÖ 341 civarı",
+  "yer": "Slab Grave culture / Плиточные могилы, Mongolia",
+  "d": "Levha tasli dikdortgen mezarlarla taninan Erken Demir Cagi kulturu; sekilli mezar geleneginden cikar, Geyik Tasi-Hirigsuur kompleksinin yerini alir (genetik olarak nufus degisimi). Geyik taslari ve hirigsuur taslari levha mezar yapiminda yeniden kullanilmistir.",
+  "kaynak": "Taylor W, Wilkin S, Wright J, Dee M, Erdene M, Clark J, Tuvshinjargal T, Bayarsaikhan J, Fitzhugh WW, Boivin N 2019, 'Radiocarbon dating and cultural dynamics across Mongolia's early pastoral transition', PLoS ONE 14(11): e0224241 (Ingilizce, PMC6834239), Bayesci OxCal modeli · https://pmc.ncbi.nlm.nih.gov/articles/PMC6834239/",
+  "kesinlik": "yuzyil",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "kaynak_turu": "arkeoloji",
+  "ic_not_d": "TEK DEĞER MÖ 341 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynaktan okunan: «Slab Burials persist until the end of the 1st millenium BC (341 BCE median end boundary date).». UYARI: kur 'ca. 1100' bir genel donem ozeti (genetik makalenin girisi), kalibre Bayesci baslangic siniri DEGIL; Taylor vd. 2019'da Slab Burial baslangic siniri metinde sayisal verilmedi (yalnizca grafikte/Ek Tablo S2'de) - kutuphane_gerekli degil, S2 Table acik erisimli ek dosya, bu oturumda acilmadi. Taylor vd. bitisi medyan 341 BCE verir (baslangic ve bitis ucunda 400 BCE ozet ile ~60 yil fark: iki kaynak, ikisi de beyan edilir; ortasi alinmadi). Taylor: Slab Burial, hirigsuur (%97) ve Sagsai (%97) mezarlarindan sonra gelir. Nat Commun makalesi Erken Demir Cagi'ni ca. 1000-300 BCE diye tanimlar. Yalnizca insan kemigi tarihleri; hayvan kemigi tarihleri birkac yuzyil farkli cikar (kaynak, Zazzo vd. kirlenme uyarisini aktarir)."
+ },
+ { onem:3, dunya:1, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-0349-01-01",
+  "yer_id": "Kaminaljuyú",
+  "k": "gelisme",
+  "b": "Kaminaljuyu (Guatemala Vadisi): Providencia fazi / Gec Preklasik yukselis: Kaminaljuyú: Providencia evresi",
+  "gun": "MÖ 350 civarı",
+  "yer": "Kaminaljuyú",
+  "d": "Kaminaljuyu'da Las Charcas fazinin sonu ile Providencia fazinin baslangici (~MO 350) Orta-Gec Preklasik sinirina denk geliyor; Providencia ~MO 350-100/75, ardindan Verbena-Arenal (Terminal Preklasik) fazlarinda nufus ve insaat patlamasi. Inomata vd. 2014 ve 2020 kronolojisi Shook & Popenoe de Hatch (1999) geleneksel tarihlerini 300-400 yil gec tarihe kaydirdi.",
+  "kaynak": "Arroyo, Inomata, Aju, Estrada, Nasu & Aoyama 2020, Refining Kaminaljuyu Chronology: New Radiocarbon Dates, Bayesian Analysis, and Ceramics Studies, Latin American Antiquity 31(3): 477-497, doi:10.1017/laq.2020.49 (ozet sayfasi; 108 14C tarihi): Las Charcas-Providencia gecisi ~350 BC · https://www.cambridge.org/core/journals/latin-american-antiquity/article/refining-kaminaljuyu-chronology-new-radiocarbon-dates-bayesian-analysis-and-ceramics-studies/E5A934155D3C9D2E5143B61FE87068F7",
+  "kesinlik": "yuzyil",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "kaynak_turu": "arkeoloji",
+  "ic_not_d": "TEK DEĞER MÖ 350 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynaktan okunan: «Las Charcas-Providencia transition: around 350 BC». CIFT TEYIT (kismen): 350 BC gecisi iki bagimsiz-degil-ama-ayri yayinda ayni: Arroyo vd. 2020 (EN, ozet) ve Inomata 2015 (ES, tam metin, 'Las Charcas tardia 600 a 350 AC, Providencia 350 a 100/1 AC'). Ikisi ayni grubun (Inomata, Arroyo) urunu; 'bagimsiz' sayilmaz, bu yuzden ic_not'ta 'ayni grup' olarak anildi. UYARI: bit alani iki kaynak arasi: Inomata 2015 'Providencia 350-100/1 AC' vs Arroyo 2020 ozeti 'Providencia-Verbena ~75 BC'; ikisi de yazarlarin kendi Bayes modelinden, aralik degil tek deger. Kaminaljuyu'nun KURULUS/ilk iskan tarihi bu kaynaklarda yok (Erken-Orta Preklasik Las Charcas baslangici okunamadi); 2020 makalesi kapali (Unpaywall closed) - tam metin kutuphane_gerekli. Karsit gorus: Love 2017, Latin American Antiquity (okunmadi): Verbena-Arenal doruk tarihlemesine temkin."
+ },
+ { onem:3, dunya:2, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-0499-01-01",
+  "yer_id": "San José Mogote",
+  "k": "kayip",
+  "b": "San Jose Mogote: koy yerlesimi ve Rosario sonrasi toren merkezinin terki: Rosario evresi sonu: nüfusun çoğu Monte Albán'a gider",
+  "gun": "MÖ 500 civarı",
+  "yer": "San Jose Mogote / Monte Albán",
+  "d": "San Jose Mogote Vadi'de (Oaxaca, Etla kolu) Tierras Largas fazinda (1500-1150 b.c.) en az 7 ha'lik koy; Rosario fazinda 18-23 koyluk bir grubun sefligi merkezi. Rosario sonunda nufusun ~%95'i Monte Alban'in kurulusuna katilmak uzere gitti; Mound 1'deki 40 ha'lik merkez Monte Alban II basina (MO 100) kadar terk.",
+  "kaynak": "Marcus & Flannery 2005, FAMSI (ayni rapor): 'At the end of the Rosario phase, an estimated 95% of the population of San Jose Mogote left to participate in the founding of Monte Alban'; Erken Monte Alban I = 500-300 B.C. (rapordaki buyuk harf B.C. = dendrokalibre notasyonu); 40 ha'lik toren/torensel merkez Monte Alban I boyunca terk; Feature 77 komur AMS Beta-179880 2440+-40 BP, 2-sigma kalibre 770-400 B.C. · https://www.ancientamericas.org/sites/default/files/03006Marcus01.pdf",
+  "kesinlik": "yuzyil",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "kaynak_turu": "arkeoloji",
+  "ic_not_d": "TEK DEĞER MÖ 500 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynaktan okunan: «an estimated 95% of the population of San José Mogote left to participate in the founding of Monte Albán». UYARI 1: kur blogu 'kurulus' degil, kalibre 14C ile tarihlenmis EN ERKEN KOY MIMARISIDIR (Structure 3: 1730-1520; Structure 12: 1720-1560; Structure 15: 1630-1440 cal BC, hepsi 2 sigma); 'kurulus' metni kalibresiz 'before 1600 b.c.' (kucuk harf b.c. = kalibresiz) olarak yaziliyor, o yuzden YAZILMADI. Structure 5 Michigan-2372 1940-1140 cal BC genis (+-160). UYARI 2: bit.bas_mo=500 faz sinirdir, tek bir olay degil; rapor 'Monte Alban Period I (500-100 b.c.)' kucuk harfle de yaziyor, yani 500 sinirinin kalibre mi kalibresiz mi oldugu raporda tutarsiz; kalibre ucu icin Feature 77 (770-400 cal) bunu 95%'te kapsiyor. Dolayisiyla bit.guven belirsiz. Cifte kayit: onceki dalgadaki 'san-jose-mogote-tapinak-yangin' (Yapi 28, 820-500 cal BC) baska olaydir; FAMSI raporunda ayni yapi Beta-177624 2550+-60 BP 820-550 B.C. (PNAS 2003 Tablo 1 ise 820-500) - kucuk fark kaynaktan kaynaga, PNAS'in sayfasi onceki dalgada okundu. Rosario fazi tapinak platformu (Yapi 19) Beta-179876 2560+-180 BP 1110-350 B.C. (cok genis)."
+ },
+ { onem:2, dunya:1, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-0599-01-01",
+  "yer_id": "La Blanca",
+  "k": "kayip",
+  "b": "La Blanca (San Marcos, Pasifik Guatemala): Orta Preklasik bolgesel merkez, Mound 1: La Blanca'nın gerilemesi",
+  "gun": "MÖ 600 civarı",
+  "yer": "La Blanca",
+  "d": "La Blanca, Ojo de Agua (Chiapas) Erken Preklasik siyasi merkezinin cokusunden sonra Orta Preklasik'te (Conchas fazi, MO ~900-600) yaklasik 300 yil bolgesel merkez oldu; zirvede 200 ha'dan buyuk, 25 m yuksekliginde Mound 1 (Mezoamerika'nin en eski piramit tapinaklarindan biri) ile. ~MO 600'de nedeni bilinmeden geriledi.",
+  "kaynak": "Love 2006, FAMSI raporu s. 4: 'La Blanca ... maintained its prominence for over 300 years, until it declined at about 600 B.C. for unknown reasons'; Conchas fazi 900-600 B.C. (Conchas A-B 900-800, C 800-700, D 700-600) · https://www.ancientamericas.org/sites/default/files/05051Love01.pdf",
+  "kesinlik": "yuzyil",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "kaynak_turu": "arkeoloji",
+  "ic_not_d": "TEK DEĞER MÖ 600 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynaktan okunan: «maintained its prominence for over 300 years, until it declined at about 600 B.C. for unknown reasons». UYARI: Rapor 'B.C.' yazimini kalibre/kalibresiz ayirmiyor; Mound 1 icin 'around 900 B.C. (1000 cal B.C.)' diyerek 900'un kalibresiz oldugunu ima ediyor, bu durumda Conchas 900-600 B.C. araligi da kalibresiz olabilir ve kalibre karsiligi ~100-200 yil daha erkendir; bu yuzden yalniz acik 'cal' etiketli 1000 degeri 'kur.bas_mo' olarak alindi, 'bit' belirsiz. Tikal/Ceibal ile ayni cag (Ceibal E-grubu ~950). Cevrim yapilmadi. Love 2002 monografisi (NWAF) okunmadi (kutuphane_gerekli)."
+ },
+ { onem:2, dunya:1, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-0742-01-01",
+  "yer_id": "Nukuleka",
+  "k": "kayip",
+  "b": "Nukuleka (ilk Lapita kiyilanisi), Tongatapu: Tongatapu Lapita evresi sona erer",
+  "gun": "MÖ 753–733 arası (orta nokta MÖ 743)",
+  "yer": "Nukuleka, Tongatapu, Tonga",
+  "d": "Nukuleka, Tonga'da ve Polinezya'da ilk Lapita ayak basisinin yeridir (bati tipi Lapita seramigi yalniz burada). Lapita evresi Tongatapu'da kisa surer (~129-158 yil) ve Polinezya Duz Seramigi'ne gecer.",
+  "kaynak": "Burley vd. 2015, PLoS ONE 10(3): e0120795 - Bayesci ortak model, Tongatapu Lapita evresi bitisi · https://pmc.ncbi.nlm.nih.gov/articles/PMC4370570/",
+  "kesinlik": "onyil",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "kaynak_turu": "arkeoloji",
+  "aralik": {
+   "bas": "-0752-01-01",
+   "son": "-0732-01-01",
+   "guven": "68.2",
+   "tur": "kalibre-14C"
+  },
+  "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 753–733 (kaynağın verdiği uçlar); orta nokta MÖ 743 = astronomik -0742. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: 68.2. Kaynaktan okunan: «For Tongatapu, the end date is 2703–2683 cal BP at 68.2% probability with the duration of the Lapita phase being 129–158 years.». bit blogu SITENIN bitisi degil, Tongatapu'daki Lapita (dentate seramik) EVRESININ bitisidir ve yalniz iki sitelik modele dayanir (kaynak kendisi bu cekinceyi koyuyor). Bayesci Tongatapu baslangic sinir tahmini %68.2'de 2863-2835 cal BP (MO 913-885) - U/Th tarihiyle neredeyse ayni. Ha'apai ve Va'vau icin %68.2 araliklari 2772-2716 ve 2805-2680 cal BP. Tonga Duz Seramik evresi 2350 cal BP'den sonra sona erer (Burley vd. 2018, PLoS ONE 13(2): e0193166, PMC5825035). cal BP->MO: BP-1950, bu oturumda. U/Th tarihi karbon-14 degil; 'kalibre-14C' etiketi bilerek kullanilmadi."
+ },
+ { onem:2, dunya:1, bolge_onem:2, puan_s:"v2", tur:"kurulus","kapsam": "dis", "bolge": 1,  "odak_yer":["Tonalá"], 
+  "t": "-0749-01-01",
+  "k": "kurulus",
+  "b": "Izapa (Chiapas): Orta Formatif krallik baskenti ve ilk beyaz kil yuzey: Izapa: Orta Formatif iskânı",
+  "gun": "MÖ 750 (ALT SINIR; yerlesim-suresi MÖ 750–300)",
+  "yer": "Izapa",
+  "d": "Izapa, Orta Formatif'in ikinci yarisinda (MO 750-300 cal) bir krallik baskenti olarak kuruldu. Escalon fazinda (750-500 cal BC) Mound 30a'nin altinda beyaz kil yuzey yapildi; Guillen fazinda (300-100 cal BC, Gec Formatif) Mound 62'de inşaat ve stel dikimi suruyor; E-grubu Orta Formatif sonunda kuruldu, Guillen'de genisledi.",
+  "kaynak": "Rosenswig, Culleton, Kennett, Lieske, Mendelsohn & Nunez-Cortes 2018, The Early Izapa Kingdom: Recent Excavations, New Dating and Middle Formative Ceramic Analyses, Ancient Mesoamerica 29 (Special Issue 2): 373-393, doi:10.1017/S0956536118000135 (ozet; 10 yeni AMS tarihi, Izapa Regional Settlement Project 2012) · https://www.cambridge.org/core/journals/ancient-mesoamerica/article/early-izapa-kingdom-recent-excavations-new-dating-and-middle-formative-ceramic-analyses/3CA97C8AFF8E2678A22A503A23A78833",
+  "kesinlik": "yuzyil",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "kaynak_turu": "arkeoloji",
+  "aralik": {
+   "bas": "-0749-01-01",
+   "son": "-0299-01-01",
+   "guven": "belirsiz (yayin ozeti 'cal BC' diyor; olasilik duzeyi ozette yok)",
+   "tur": "yerlesim-suresi"
+  },
+  "ic_not_d": "yerlesim-suresi aralığı (MÖ 750–300) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynaktan okunan: «capital of a kingdom during the second half of the Middle Formative period (750-300 cal b.c.)». Yalniz Cambridge ozet sayfasi okundu (tam metin kapali; Unpaywall oa_status=closed). Escalon 750-500, Guillen 300-100, Escalon+Frontera+Guillen toplam 750-100 cal BC; Frontera icin ayri aralik ozette yok; Cuadros/Jocotal/Ocos (Erken Formatif) fazlari ozette yok, o yuzden Izapa'nin Erken Formatif iskani YAZILMADI. Terminal Formatif Itstapa MS 100-300 cal. 'bit' yok: Izapa Terminal Formatif ve sonrasinda surer. Ikinci kaynak (Latin American Antiquity, Izapa Formatif-Klasik gecis kronolojisi) yalniz arama ozeti, okunmadi."
+ },
+ { onem:2, dunya:1, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "odak_yer": [
+   "Paracas"
+  ],
+  "t": "-0789-01-01",
+  "k": "gelisme",
+  "b": "Paracas kültürü (Paracas/Ica alt bölgesi): Paracas kültürü (Ica) yerleşik düzeyine ulaşır",
+  "gun": "MÖ 790 civarı",
+  "yer": "Cultura Paracas",
+  "d": "Güney Peru kıyısı Paracas/Ica, Palpa ve Nasca alt bölgelerinde Paracas maddi kültürü; kuzey (Palpa/Ica) merkezli yayılım güneye.",
+  "kaynak": "Conlee C.A., Contreras D.A., Peters A.H., Vaughn K.J. 2024, 'Reconsidering chronologies and cultural change on the south coast of Peru: A compilation and analysis of radiocarbon dates from Nasca, Ica, and Paracas', Quaternary International 703:97-111, doi:10.1016/j.quaint.2024.06.014 (İngilizce; 770 14C tarihi, Bayes faz modelleri, 95% HPDI, onluğa yuvarlanmış) · https://par.nsf.gov/servlets/purl/10559191",
+  "kesinlik": "yuzyil",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "kaynak_turu": "arkeoloji",
+  "ic_not_d": "TEK DEĞER MÖ 790 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynaktan okunan: «the Paracas culture was established ca. 900 BCE and cultural development was first focused in the north and then spread south». ÖNCEKİ DALGA 'bulunamadı'sını (Paracas) çözer. bas_mo=790: Paracas/Ica alt bölgesi Early Paracas 95% HPDI başlangıcı (790-440 BCE); bit=40: Late Paracas HPDI üst ucu (600-40 BCE). Yazarlar HPDI'ların 'dönem sınırı önerisi DEĞİL', tarihli üretim/kullanım örneklerinin en erken-en geç aralığı olduğunu söyler. ALT BÖLGE ÇELİŞKİSİ: Palpa Early Paracas 1150-350 BCE, Middle 520-370, Late 380-170 BCE (Early Paracas Palpa'da daha erken); Ica'da Middle Paracas 790-420 BCE. Özet cümlesi 'ca. 900 BCE' kuruluşu verir (Palpa'ya dayalı). Tek değer seçilemez; üç kaydı birlikte oku. Cavernas/Necrópolis ayrımı için Wari Kayan (Necropolis) ayrı kayıtta."
+ },
+ { onem:2, dunya:1, bolge_onem:1, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "odak_yer": [
+   "Tikal"
+  ],
+  "t": "-0799-01-01",
+  "k": "ilk_anilis",
+  "b": "Tikal: Eb seramik kompleksi (en erken iskan izi): Tikal: Eb seramik kompleksi (ilk iskân)",
+  "gun": "MÖ 800 (ALT SINIR; donem-toplami MÖ 800–600)",
+  "yer": "Tikal",
+  "d": "Tikal'de en erken seramik kompleksi Eb (MO 800-600) Kuzey Akropolis'te ana kayaya acilmis bir cukurda bulunur; yani yerlesim izi Maya ovalarinda Orta Preklasik baslarina uzanir. Tzec 600-350, Chuen 350 MO-MS 1.",
+  "kaynak": "Culbert, T. Patrick 1999, La secuencia ceramica Preclasica en Tikal y la Acropolis del Norte, XII Simposio de Investigaciones Arqueologicas en Guatemala 1998 (ed. Laporte & Escobedo), Museo Nacional de Arqueologia y Etnologia, Guatemala, pp. 63-74, Figura 1 'Complejos ceramicos en Tikal - fechas' · https://www.mesoweb.com/Simposio/pdf/12/Culbert.1999.pdf",
+  "kesinlik": "yuzyil",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "kaynak_turu": "arkeoloji",
+  "aralik": {
+   "bas": "-0799-01-01",
+   "son": "-0599-01-01",
+   "guven": "belirsiz (seramik kompleks tarihi; kalibre mi degil mi kaynakta belirtilmemis)",
+   "tur": "donem-toplami"
+  },
+  "ic_not_d": "donem-toplami aralığı (MÖ 800–600) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynaktan okunan: «Eb 800-600 AC». UYARI: Bu bir seramik-kompleks tarihidir, kalibre 14C ARALIGI DEGILDIR; kaynak 'AC' (a.C.) yaziyor, kalibrasyon durumunu belirtmiyor. Istenen 'Erken Preklasik (MO >1000) kalibre iskan' bulunamadi (bulunamadi listesine bakiniz). Culbert 'kazilar Kuzey Akropolis'te gec Eb ve Tzec'in yalniz tesadufen karisik tiestolarla temsil edildigini; kesintisiz seramik dizisinin Chuen'le basladigini' yaziyor: yani Eb'in ilk iskan oldugu (mekansal) kanitli degil. Karsilastirma: Ceibal E-grubu ~MO 950 (Inomata 2015), Eb ile ayni cag."
+ },
+ { onem:1, dunya:1, bolge_onem:1, puan_s:"v2","kapsam": "dis", "bolge": 1, "odak_yer":["Cajamarca"],
+  "t": "-0799-01-01",
+  "k": "kayip",
+  "b": "Pampa de las Hamacas töreni merkezleri (Jequetepeque, Formatif): Töreni merkezler terk edilir",
+  "gun": "MÖ 800 (ALT SINIR; donem-toplami MÖ 800–550)",
+  "yer": "Complejo Hamacas, Pampa de las Hamacas, Tembladera",
+  "d": "Jequetepeque orta vadisinde Formatif tören merkezleri dizisi; merkezlerin yeri zamanla doğuya kayar. Hamacas fazı 1500-1250, Tembladera 1250-800 (terk ~800), Lechuzas 800-550 cal BC.",
+  "kaynak": "Tsurumi E. 2008, 'La secuencia cronológica de los centros ceremoniales de la Pampa de las Hamacas y Tembladera, valle medio de Jequetepeque', Boletín de Arqueología PUCP 12:141-169 (İspanyolca; OxCal 4.0.1, kalibre) — Lechuzas fazı (Geç Formatif) 800-550; Tembladera merkezleri ~800'de terk · https://revistas.pucp.edu.pe/index.php/boletindearqueologia/article/download/964/931",
+  "kesinlik": "yuzyil",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "kaynak_turu": "arkeoloji",
+  "aralik": {
+   "bas": "-0799-01-01",
+   "son": "-0549-01-01",
+   "guven": "belirsiz",
+   "tur": "donem-toplami"
+  },
+  "ic_not_d": "donem-toplami aralığı (MÖ 800–550) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «Alrededor de 800 a.C. (calib.) todos los centros ceremoniales de la fase Tembladera fueron abandonados». CUPISNIQUE HEDEFİNİN KISMİ KARŞILIĞI: makale 'Cupisnique' etiketini yalnız 'Cupisnique Clásico' kaplarından bahsederken kullanır; Hamacas fazı kalibre başlangıcı için yazar ~1500 cal BC'yi 'yuvarlama' olarak önerir (Hamacas 1: 1450-1350, Hamacas 2: 1350-1250, Tembladera 1: 1250-1000, Tembladera 2: 1000-800 cal BC). Montegrande'nin TL (termolüminesans) tarihi ~1800 cal BC (Ulbert 1994 atfı, ikincil) — daha erken, kullanılmadı. Güven düzeyi (σ) makale metninde belirtilmemiş. Cupisnique için başka sayılar (1500-1000 / 1200-800 / 2000-200 MÖ) yalnız arama özetlerinde, kalibrasyonu belirsiz — YAZILMADI."
+ },
+ { onem:1, dunya:1, bolge_onem:1, puan_s:"v2","kapsam": "dis", "bolge": 1, "odak_yer":["Tepeaca"],
+  "t": "-0849-01-01",
+  "k": "kayip",
+  "b": "Ajalpan evresi (Tehuacán Vadisi): sona erer",
+  "gun": "MÖ 850 civarı",
+  "yer": "Ajalpan phase (Tehuacán Vadisi)",
+  "d": "Tehuacán Vadisi'nde Formatif dönem evresi (Purrón'u izler, Santa María'dan önce); kaynakta 'Ajalpan' yerleşiminden tek 14C örneği (Zone H, I-929) modelde tutulmuştur.",
+  "kaynak": "Somerville A.D. vd. 2026, 'Multi-isotope analysis of mammal bones provides environmental context for the adoption of agriculture in the Tehuacan Valley of Mexico', Science Advances 12(10):eadw9222, doi:10.1126/sciadv.adw9222, Tablo 1 + Supplementary Text · https://pmc.ncbi.nlm.nih.gov/articles/PMC12959416/",
+  "kesinlik": "yuzyil",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "kaynak_turu": "arkeoloji",
+  "ic_not_d": "TEK DEĞER MÖ 850 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynaktan okunan: «Our estimate for the Ajalpan phase (3250-2800 cal BP) begins 600 years later and ends 150 years later». ÇELİŞKİ (iki kronoloji, ikisi de beyan): revize Bayesian model = 3250-2800 cal BP; geleneksel Johnson & MacNeish dizisi = 3850-2950 cal BP. Supplementary Text'e göre 'Tablo 1' önceki çalışmalardan sentezlenmiş ve yeni Bayesian modelle bilgilendirilmiş yaklaşık değerler; ham OxCal sınır dağılımları (Data S1.xlsx) bu oturumda okunmadı (zip HTML döndü). Geleneksel dizinin aslı (Johnson & MacNeish, ref. 38) bu oturumda açılmadı, değerler Somerville vd. aktarımıdır. Tek yayın; çift teyit YOK. 'bit' = evre sonu."
+ },
+ { onem:2, dunya:1, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, "odak_yer":["Apia"],
+  "t": "-0864-01-01",
+  "k": "ilk_anilis",
+  "b": "Mulifanua (Lapita sitesi), Upolu, Samoa: Mulifanua: Samoa'da Lapita iskânı",
+  "gun": "MÖ 930–800 arası (orta nokta MÖ 865)",
+  "yer": "Mulifanua (SU-17-1), 'Upolu, Samoa",
+  "d": "Samoa'da (Upolu) yerel yapimli klasik dentate-damgali Lapita seramigi Mulifanua'da bulunur; Lapita'nin dogu uc noktalarindan biri.",
+  "kaynak": "Petchey F, Kirch PV 2019, 'The importance of shell: Redating of the To'aga site (Ofu Island, Manu'a) and a revised chronology for the Lapita to Polynesian Plainware transition in Tonga and Samoa', PLoS ONE 14(9): e0211990 (Ingilizce, PMC) - Mulifanua tarihlerini aktarir · https://pmc.ncbi.nlm.nih.gov/articles/PMC6728074/",
+  "kesinlik": "yuzyil",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "kaynak_turu": "arkeoloji",
+  "aralik": {
+   "bas": "-0929-01-01",
+   "son": "-0799-01-01",
+   "guven": "68.2",
+   "tur": "kalibre-14C"
+  },
+  "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 930–800 (kaynağın verdiği uçlar); orta nokta MÖ 865 = astronomik -0864. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: 68.2. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «produced a combined date of 2880–2750 cal BP». Tarih %68 olasilikla verilmis (kaynak: 'reported here at 68% probability') ve dredging atigindan alinan kabuk-kemik numunelerinin birlesik tarihidir; kaynak kendisi 'tam tarih ve sure sorunlu' diyor (kazi disi, yer bozuk). Ikincil aktarim (Petchey & Kirch 2019); birincil tarih yayini (kendi ref. 16) acilmadi. Ayni kaynak: To'aga (Ofu, Manu'a) ilk kullanim 2785-2607 cal BP (%68, MO 835-657, Polinezya Duz Seramigi baslangici); 'Aoa (Tutuila) benzer erken kömür tarihleri verir ama dentate seramik yok. Lapita Tonga ve Samoa'da ~2900-2750 BP'de dogu ucuna ulasir (kaynak ozeti). cal BP->MO: BP-1950, bu oturumda."
+ },
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-0887-01-01",
+  "yer_id": "Nukuleka",
+  "k": "ilk_anilis",
+  "b": "Nukuleka (ilk Lapita kiyilanisi), Tongatapu: Nukuleka: Tonga'nın ilk Lapita iskânı",
+  "gun": "MÖ 896–880 arası (orta nokta MÖ 888)",
+  "yer": "Nukuleka, Tongatapu, Tonga",
+  "d": "Nukuleka, Tonga'da ve Polinezya'da ilk Lapita ayak basisinin yeridir (bati tipi Lapita seramigi yalniz burada). Lapita evresi Tongatapu'da kisa surer (~129-158 yil) ve Polinezya Duz Seramigi'ne gecer.",
+  "kaynak": "Burley D, Edinborough K, Weisler M, Zhao J-X 2015, 'Bayesian modeling and chronological precision for Polynesian settlement of Tonga', PLoS ONE 10(3): e0120795 (Ingilizce, PMC acik metin); U/Th 11-36 mercan eseri (Burley, Weisler, Zhao 2012) · https://pmc.ncbi.nlm.nih.gov/articles/PMC4370570/",
+  "kesinlik": "onyil",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "kaynak_turu": "arkeoloji",
+  "aralik": {
+   "bas": "-0895-01-01",
+   "son": "-0879-01-01",
+   "guven": "95.4 (2 sigma)",
+   "tur": "kalibre-14C"
+  },
+  "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 896–880 (kaynağın verdiği uçlar); orta nokta MÖ 888 = astronomik -0887. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: 95.4 (2 sigma). Kaynaktan okunan: «The U/Th age interval of 2846–2830 cal BP (2σ)(U/Th 11–36) provides a measure of 16 years within which this landfall seemingly occurred.». bit blogu SITENIN bitisi degil, Tongatapu'daki Lapita (dentate seramik) EVRESININ bitisidir ve yalniz iki sitelik modele dayanir (kaynak kendisi bu cekinceyi koyuyor). Bayesci Tongatapu baslangic sinir tahmini %68.2'de 2863-2835 cal BP (MO 913-885) - U/Th tarihiyle neredeyse ayni. Ha'apai ve Va'vau icin %68.2 araliklari 2772-2716 ve 2805-2680 cal BP. Tonga Duz Seramik evresi 2350 cal BP'den sonra sona erer (Burley vd. 2018, PLoS ONE 13(2): e0193166, PMC5825035). cal BP->MO: BP-1950, bu oturumda. U/Th tarihi karbon-14 degil; 'kalibre-14C' etiketi bilerek kullanilmadi."
+ },
+ { onem:2, dunya:1, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-0999-01-01",
+  "yer_id": "La Blanca",
+  "k": "gelisme",
+  "b": "La Blanca (San Marcos, Pasifik Guatemala): Orta Preklasik bolgesel merkez, Mound 1: La Blanca: anıtsal merkezin yükselişi",
+  "gun": "MÖ 1000 civarı",
+  "yer": "La Blanca",
+  "d": "La Blanca, Ojo de Agua (Chiapas) Erken Preklasik siyasi merkezinin cokusunden sonra Orta Preklasik'te (Conchas fazi, MO ~900-600) yaklasik 300 yil bolgesel merkez oldu; zirvede 200 ha'dan buyuk, 25 m yuksekliginde Mound 1 (Mezoamerika'nin en eski piramit tapinaklarindan biri) ile. ~MO 600'de nedeni bilinmeden geriledi.",
+  "kaynak": "Love, Michael 2006 (FAMSI, Julia Guernsey katkisiyla), The Context and Associations of Monument 3 from La Blanca, Guatemala, FAMSI raporu (arastirma yili 2005), s. 4-5; 'Mound 1, built at around 900 B.C. (1000 cal B.C.)' (Love vd. 2005'e atif) · https://www.ancientamericas.org/sites/default/files/05051Love01.pdf",
+  "kesinlik": "yuzyil",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "kaynak_turu": "arkeoloji",
+  "ic_not_d": "TEK DEĞER MÖ 1000 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynaktan okunan: «Mound 1, built at around 900 B.C. (1000 cal B.C.), was one of the first pyramidal temples in Mesoamerica». UYARI: Rapor 'B.C.' yazimini kalibre/kalibresiz ayirmiyor; Mound 1 icin 'around 900 B.C. (1000 cal B.C.)' diyerek 900'un kalibresiz oldugunu ima ediyor, bu durumda Conchas 900-600 B.C. araligi da kalibresiz olabilir ve kalibre karsiligi ~100-200 yil daha erkendir; bu yuzden yalniz acik 'cal' etiketli 1000 degeri 'kur.bas_mo' olarak alindi, 'bit' belirsiz. Tikal/Ceibal ile ayni cag (Ceibal E-grubu ~950). Cevrim yapilmadi. Love 2002 monografisi (NWAF) okunmadi (kutuphane_gerekli)."
+ },
+ { onem:2, dunya:1, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-1009-01-01",
+  "yer_id": "Sechín Alto",
+  "k": "kayip",
+  "b": "Sechín Alto: Sechín Alto: en geç Haldas tarihi",
+  "gun": "MÖ 1100–920 arası (orta nokta MÖ 1010)",
+  "yer": "Sechín Alto (Casma vadisi)",
+  "d": "Casma vadisinde Moxeke/Haldas dönemi büyük tören kompleksi; bilinen en eski yapılar ~MÖ 1600-1400, Moxeke B boyalı cephe ~1450/1400, Haldas dönemi (1400-1000) tarihleri ~1100-920'ye uzanır.",
+  "kaynak": "Bischof H. 2009, 'Los periodos Arcaico Tardío, Arcaico Final y Formativo Temprano en el valle de Casma: evidencias e hipótesis', Boletín de Arqueología PUCP 13:9-54 (İspanyolca; tüm 14C 1 sigma, IntCal04/Calib5 kalibre, 'a.C. [calib.]' biçiminde — dipnot 1) · https://revistas.pucp.edu.pe/index.php/boletindearqueologia/article/download/977/944",
+  "kesinlik": "yuzyil",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "kaynak_turu": "arkeoloji",
+  "aralik": {
+   "bas": "-1099-01-01",
+   "son": "-0919-01-01",
+   "guven": "68.2",
+   "tur": "kalibre-14C"
+  },
+  "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 1100–920 (kaynağın verdiği uçlar); orta nokta MÖ 1010 = astronomik -1009. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: 68.2. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «El ensayo más reciente atribuido al Periodo Haldas en Sechín Alto, Beta-150765, señala el intervalo 1100-920 a.C. (calib.)». ÖNCEKİ DALGA 'bulunamadı'sını çözer. kur/bit: bilinen en eski yapıların dolgu örnekleri ile Haldas dönemine atfedilen en genç örnek (1σ) — kuruluş/terk tarihi DEĞİL; çekirdek adobe kütlesinin yaşı belirlenmemiş (Bischof: 'no ha sido determinada'). Pozorski & Pozorski 2005 (Bischof'un atfıyla) başlangıcı 1400 alır; Bischof Haldas başlangıcı 1400'ü 'tal vez algo tardía' sayar. Çelişki (diller arası değil, okullar arası): Pozorskiler Moxeke/Casma seramiğini ~2150 cal BC'ye çeker, Bischof ~1650'ye (Bischof 'Periodo Inicial' çerçevesini aşılmış sayar)."
+ },
+ { onem:3, dunya:2, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, "odak_yer":["Kerulen (Çoybalsan)","Urga (Ulan Batur)"],
+  "t": "-1099-01-01",
+  "k": "gelisme",
+  "b": "Levha Mezar (Slab Grave) kulturu, Mogolistan: Slab Grave kültürü başlar",
+  "gun": "MÖ 1100 civarı",
+  "yer": "Slab Grave culture / Плиточные могилы, Mongolia",
+  "d": "Levha tasli dikdortgen mezarlarla taninan Erken Demir Cagi kulturu; sekilli mezar geleneginden cikar, Geyik Tasi-Hirigsuur kompleksinin yerini alir (genetik olarak nufus degisimi). Geyik taslari ve hirigsuur taslari levha mezar yapiminda yeniden kullanilmistir.",
+  "kaynak": "Nat Commun 2025, 'Slab Grave expansion disrupted long co-existence of distinct Bronze Age herders in central Mongolia', doi:10.1038/s41467-025-63789-1 (Ingilizce, PMC12462455) - giris/ozet kronolojisi · https://pmc.ncbi.nlm.nih.gov/articles/PMC12462455/",
+  "kesinlik": "yuzyil",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "kaynak_turu": "arkeoloji",
+  "ic_not_d": "TEK DEĞER MÖ 1100 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «The Slab Grave culture (ca. 1100-400 BCE) emerged from the figure-shaped graves in eastern and southern Mongolia». UYARI: kur 'ca. 1100' bir genel donem ozeti (genetik makalenin girisi), kalibre Bayesci baslangic siniri DEGIL; Taylor vd. 2019'da Slab Burial baslangic siniri metinde sayisal verilmedi (yalnizca grafikte/Ek Tablo S2'de) - kutuphane_gerekli degil, S2 Table acik erisimli ek dosya, bu oturumda acilmadi. Taylor vd. bitisi medyan 341 BCE verir (baslangic ve bitis ucunda 400 BCE ozet ile ~60 yil fark: iki kaynak, ikisi de beyan edilir; ortasi alinmadi). Taylor: Slab Burial, hirigsuur (%97) ve Sagsai (%97) mezarlarindan sonra gelir. Nat Commun makalesi Erken Demir Cagi'ni ca. 1000-300 BCE diye tanimlar. Yalnizca insan kemigi tarihleri; hayvan kemigi tarihleri birkac yuzyil farkli cikar (kaynak, Zazzo vd. kirlenme uyarisini aktarir)."
+ },
+ { onem:1, dunya:1, bolge_onem:1, puan_s:"v2","kapsam": "dis", "bolge": 1, "odak_yer":["Kotosh"],
+  "t": "-1129-01-01",
+  "k": "kayip",
+  "b": "Waira-jirca seramik evresi (Huánuco havzası, Jancao): Wairajirca seramiği sona erer",
+  "gun": "MÖ 1200–1060 arası (orta nokta MÖ 1130)",
+  "yer": "Fase Wairajirca",
+  "d": "Huánuco havzasında Waira-jirca çanak çömlek geleneği, Jancao'da beş evre (I-V) olarak modellenir; yazarlar bu evreleri geç 18. yy – geç 12. yy cal BC'ye koyar.",
+  "kaynak": "Kanezaki Y., Omori T., Tsurumi E. 2021, 'Emergence and Development of Pottery in the Andean Early Formative Period: New Insights from an Improved Wairajirca Pottery Chronology at the Jancao Site in the Huánuco Region, Peru', Latin American Antiquity 32(2):239-254, doi:10.1017/laq.2020.89 (İngilizce, açık erişim CC-BY; OxCal Bayes, SHCal13, tablo 1: 68.2/95.4%) — Tablo 1 'End Wairajirca V': 68.2% 1185–1110, 95.4% 1200–1060, medyan 1140 · https://www.cambridge.org/core/services/aop-cambridge-core/content/view/E1B4D46CA57056B02E9004DAE9358D1F/S1045663520000899a.pdf",
+  "kesinlik": "yuzyil",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "kaynak_turu": "arkeoloji",
+  "aralik": {
+   "bas": "-1199-01-01",
+   "son": "-1059-01-01",
+   "guven": "95.4",
+   "tur": "kalibre-14C"
+  },
+  "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 1200–1060 (kaynağın verdiği uçlar); orta nokta MÖ 1130 = astronomik -1129. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: 95.4. Kaynaktan okunan: «End Wairajirca V 1185–1110 1200–1060 1140». ÖNCEKİ DALGA 'bulunamadı'sını (Kotosh Mito / Waira-jirca) KISMEN çözer: bu, Jancao SİTESİNDEKİ Waira-jirca seramik sekansıdır (17 kömür örneği), Kotosh tip-yerleşiminin kendi Waira-jirca evresi değildir. Sınırlar OxCal 'Boundary' değerleridir (medyan: I 1735 → V sonu 1140); evre süreleri 80-170 yıl. Yazarlar Kotosh sekansı ile karşılaştırma yapar. KOTOSH MİTO (seramiksiz, Waira-jirca'dan ÖNCE): kalibre aralığı bulunamadı — bkz. bulunamadi. Onuki 2014 (Senri Ethnol. Stud. 89:105-122, İspanyolca, açık) Mito evresinin 'alrededor de 2000 a.C.' beş sitesinden bahseder ama kalibrasyon belirtmez (yazılmadı)."
+ },
+ { onem:2, dunya:1, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, "odak_yer":["Kavieng (Käwieng)"],
+  "t": "-1284-01-01",
+  "k": "ilk_anilis",
+  "b": "Talepakemalai (ECA), Eloaua Adasi, Mussau: Talepakemalai (Mussau) Lapita iskânı",
+  "gun": "MÖ 1510–1060 arası (orta nokta MÖ 1285)",
+  "yer": "Talepakemalai (site ECA), Eloaua Island, Mussau Islands, Papua New Guinea",
+  "d": "Mussau'daki Talepakemalai (ECA) en eski ve cesitli Lapita seramik toplulugunu veren kazi alanidir; seramigin ilk gorunusu Bayesci modelde MO ~1510-1060 arasina oturur.",
+  "kaynak": "Cochrane EE, Rieth TM, Filimoehala D 2021, 'The first quantitative assessment of radiocarbon chronologies for initial pottery in Island Southeast Asia and western Near Oceania', PLoS ONE 16(6): e0251407, doi:10.1371/journal.pone.0251407 (Ingilizce, PMC acik metin; Bayesci OxCal modeli, site ECA) · https://pmc.ncbi.nlm.nih.gov/articles/PMC8171956/",
+  "kesinlik": "yuzyil",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "kaynak_turu": "arkeoloji",
+  "aralik": {
+   "bas": "-1509-01-01",
+   "son": "-1059-01-01",
+   "guven": "95.4",
+   "tur": "kalibre-14C"
+  },
+  "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 1510–1060 (kaynağın verdiği uçlar); orta nokta MÖ 1285 = astronomik -1284. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: 95.4. Kaynaktan okunan: «Twenty determinations from site ECA on Eloaua provide a date for the initial appearance of ceramics sometime between 3460–3010 cal BP (95.4%)». Aralik 'seramigin ilk gorunusu' modelidir (olay-zamani belirsizligi); yerlesmenin kurulus yili degildir. Adanin tum Eloaua modeli (ECA+ECB, 23 olcum): 3470-3010 cal BP; %68.2: ECA 3330-3080 cal BP. Kirch'in nitel tarihi (>=3300, belki ~3450 cal BP) Bayesci araligin icindedir (kaynak boyle belirtiyor). Birincil kaynak Kirch & Hunt 1988 (Radiocarbon 30:161-169) ve Kirch 2001/2021 Mussau cildi acilamadi (Anubis/JSTOR) -> kutuphane_gerekli. cal BP->MO: BP-1950, bu oturumda. 'ECA = Talepakemalai' eslesmesi Kirch'in Mussau cildi basliklarindan (Crossref: 'Macrobotanical Remains from Talepakemalai (Site ECA)') okundu."
+ },
+ { onem:1, dunya:1, bolge_onem:1, puan_s:"v2","kapsam": "dis", "bolge": 1, "odak_yer":["Tepeaca"],
+  "t": "-1299-01-01",
+  "k": "gelisme",
+  "b": "Ajalpan evresi (Tehuacán Vadisi): Tehuacán: Ajalpan evresi",
+  "gun": "MÖ 1300 (ALT SINIR; donem-toplami MÖ 1300–850)",
+  "yer": "Ajalpan phase (Tehuacán Vadisi) / Purrón phase (Tehuacán Vadisi)",
+  "d": "Tehuacán Vadisi'nde Formatif dönem evresi (Purrón'u izler, Santa María'dan önce); kaynakta 'Ajalpan' yerleşiminden tek 14C örneği (Zone H, I-929) modelde tutulmuştur.",
+  "kaynak": "Somerville A.D. vd. 2026, 'Multi-isotope analysis of mammal bones provides environmental context for the adoption of agriculture in the Tehuacan Valley of Mexico', Science Advances 12(10):eadw9222, doi:10.1126/sciadv.adw9222, Tablo 1 + Supplementary Text · https://pmc.ncbi.nlm.nih.gov/articles/PMC12959416/",
+  "kesinlik": "yuzyil",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "kaynak_turu": "arkeoloji",
+  "aralik": {
+   "bas": "-1299-01-01",
+   "son": "-0849-01-01",
+   "guven": "belirsiz (kaynak 'approx.' diyor; OxCal modelinden yuvarlanmış)",
+   "tur": "donem-toplami"
+  },
+  "ic_not_d": "donem-toplami aralığı (MÖ 1300–850) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynaktan okunan: «Ajalpan 3250-2800 cal BP = 1300-850 BC (Tablo 1)». ÇELİŞKİ (iki kronoloji, ikisi de beyan): revize Bayesian model = 3250-2800 cal BP; geleneksel Johnson & MacNeish dizisi = 3850-2950 cal BP. Supplementary Text'e göre 'Tablo 1' önceki çalışmalardan sentezlenmiş ve yeni Bayesian modelle bilgilendirilmiş yaklaşık değerler; ham OxCal sınır dağılımları (Data S1.xlsx) bu oturumda okunmadı (zip HTML döndü). Geleneksel dizinin aslı (Johnson & MacNeish, ref. 38) bu oturumda açılmadı, değerler Somerville vd. aktarımıdır. Tek yayın; çift teyit YOK. 'bit' = evre sonu."
+ },
+ { onem:2, dunya:1, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, "odak_yer":["Herbertshöhe (Kokopo) — Rabaul","Kavieng (Käwieng)"],
+  "t": "-1324-01-01",
+  "k": "ilk_anilis",
+  "b": "Kamgot (Erken Lapita yerlesmesi), Babase Adasi, Anir Adalari: Kamgot (Anir) erken Lapita iskânı",
+  "gun": "MÖ 1440–1210 arası (orta nokta MÖ 1325)",
+  "yer": "Kamgot, Babase Island, Anir Group, New Ireland Province, Papua New Guinea",
+  "d": "Anir adalarinda lagun kenarinda (kazik evli) Erken Lapita yerlesmesi; domuz ve kopek getirilmis ekonomi (Horrocks vd. 2024 parazit yumurtalariyla dogruluyor).",
+  "kaynak": "Summerhayes GR, Szabo K, Leavesley M, Gaffney D 2019, 'Kamgot at the lagoon's edge: Site position and resource use of an Early Lapita site in Near Oceania', in Debating Lapita, Terra Australis 52, ANU Press, s. 89-107 (Ingilizce, acik erisim PDF); TP 1 Layer 2 spit 9 kömür Wk-7563 · https://doi.org/10.22459/ta52.2019.04",
+  "kesinlik": "yuzyil",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "kaynak_turu": "arkeoloji",
+  "aralik": {
+   "bas": "-1439-01-01",
+   "son": "-1209-01-01",
+   "guven": "95.4",
+   "tur": "kalibre-14C"
+  },
+  "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 1440–1210 (kaynağın verdiği uçlar); orta nokta MÖ 1325 = astronomik -1324. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: 95.4. Kaynaktan okunan: «3075±45 BP (charcoal Wk–7563) ... These calibrate to 3390–3160 cal. BP and 3450–3100 cal. BP at 95.4 per cent probability respectively.». bas_mo 1440 / son_mo 1210 = en eski kisa omurlu (kömür) numunenin %95.4 araligi (3390-3160 cal BP). Aynı katmanin eslestirilmis DENIZ KABUGU tarihi 3450-3100 cal BP (MO 1500-1150) verir ama kaynaklar kabuk icin yerel DeltaR duzeltmesi sorunundan soz eder (Specht 2007), bu yuzden kömür esas alindi. Ikinci eslesmis cift: kömür 3360-3080, kabuk 3350-2980 cal BP (%95.4). Layer 2 tabanindan (TP 20) findik kabugu 3160-2990 cal BP; devam eden isgal 2920-2790 ve 2740-2500 cal BP (MO ~970-840 ve ~790-550) - bunlar yerlesmenin bitisi DEGIL, sonraki isgal tarihleridir; bit bilinmiyor. Erken Lapita 'evre' toplami (Summerhayes 2010 / Horrocks 2024) 3300-3000 cal BP = MO 1350-1050; bu bir evre toplamidir, kur ile karistirilmamali. cal BP->MO: BP-1950, bu oturumda. Birincil yayin Summerhayes 2001 (kömür/kabuk laboratuvar kayitlari) bu oturumda acilmadi."
+ },
+ { onem:3, dunya:2, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, "odak_yer":["Mörön (Hövsgöl)","Urga (Ulan Batur)"],
+  "t": "-1346-01-01",
+  "k": "gelisme",
+  "b": "Geyik Tasi-Hirigsuur Kompleksi (Deer Stone-Khirigsuur Complex), Mogolistan: Hirigsuur (Geyik Taşı) mezar anıtları başlar",
+  "gun": "MÖ 1430–1265 arası (orta nokta MÖ 1347)",
+  "yer": "Deer Stone-Khirigsuur Complex (DSKC) / Буга-хиригсуурский комплекс, Mongolia",
+  "d": "Dikili geyik tasi anitlari ve kare/yuvarlak tas cevreli hirigsuur mezar-anitlari; ca. MO 1200'den itibaren atlar bu anitlarin ayrilmaz parcasi olur (binicilik izi).",
+  "kaynak": "Taylor W vd. 2019, PLoS ONE 14(11): e0224241 (Ingilizce, PMC6834239) - Bayesci OxCal modeli, 'Khirigsuur' baslangic siniri (insan kemigi) · https://pmc.ncbi.nlm.nih.gov/articles/PMC6834239/",
+  "kesinlik": "yuzyil",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "kaynak_turu": "arkeoloji",
+  "aralik": {
+   "bas": "-1429-01-01",
+   "son": "-1264-01-01",
+   "guven": "68.2 (1 sigma)",
+   "tur": "kalibre-14C"
+  },
+  "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 1430–1265 (kaynağın verdiği uçlar); orta nokta MÖ 1347 = astronomik -1346. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: 68.2 (1 sigma). Kaynaktan okunan: «Khirigsuur (1430–1265 cal. BCE, 1 sigma range)». Rakam yalniz HIRIGSUUR baslangic siniridir (1 sigma, %68.2 - %95.4 degil); geyik tasinin (stel) kendisi dogrudan karbon-14 ile tarihlenemez, kaynak 'geyik tasi + hirigsuur' bir kultur ufku olarak ele alinir ('often, though not universally, considered a single cultural horizon'). Ayni kaynakta Sekilli mezar baslangici 1989-1453 cal BCE, Ulaanzuukh 1501-1434, D-sekilli 1732-1031 (1 sigma) ve Baitag baslangici 1145-940 cal BCE. Hirigsuur BITIS siniri sayisal olarak metinde verilmedi (Ek Tablo S2/grafik); bit null. At kemigi tarihlerinin sığ gömüt kirlenmesinden etkilenebilecegi uyarisi kaynakta (Zazzo vd.). Genetik makale Slab Grave'in DSKC'nin yerini aldigini soyler; kesin tarih verilmemis."
+ },
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2", tur:"kurulus","kapsam": "dis", "bolge": 1, "odak_yer":["Herbertshöhe (Kokopo) — Rabaul","Kavieng (Käwieng)"],
+  "t": "-1449-01-01",
+  "k": "kurulus",
+  "b": "Lapita kulturu - Bismarck Takimadalari baslangici: Lapita Bismarck Takımadaları'nda ortaya çıkar",
+  "gun": "MÖ 1500–1400 arası (orta nokta MÖ 1450)",
+  "yer": "Lapita Cultural Complex, Bismarck Archipelago",
+  "d": "Dentate-stamped (disli damgali) Lapita ceramigi Bismarck Takimadalari'nda ortaya cikar; buradan guneydogu yone Uzak Okyanusya'ya dagilir.",
+  "kaynak": "Specht J 2007, 'Small islands in the big picture: the formative period of Lapita in the Bismarck Archipelago', in Bedford S, Sand C, Connaughton SP (eds), Oceanic Explorations: Lapita and Western Pacific Settlement, Terra Australis 26, ANU Press (Ingilizce, acik erisim PDF) · https://doi.org/10.22459/ta26.2007.03",
+  "kesinlik": "onyil",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "kaynak_turu": "arkeoloji",
+  "aralik": {
+   "bas": "-1499-01-01",
+   "son": "-1399-01-01",
+   "guven": "belirsiz (kaynak '2 sigma' CALIB 5.0.1 kalibrasyonuna dayanan gozden gecirilmis tarih araligi; yuzde verilmiyor)",
+   "tur": "kalibre-14C"
+  },
+  "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 1500–1400 (kaynağın verdiği uçlar); orta nokta MÖ 1450 = astronomik -1449. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: belirsiz (kaynak '2 sigma' CALIB 5.0.1 kalibrasyonuna dayanan gozden gecirilmis tarih araligi; yuzde verilmiyor). Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «offer a revised date of 3450-3350 cal. BP for the appearance of Lapita pottery that replaces the 3300-3200 cal. BP date». Tarih tartismalidir ve kaynaktan kaynaga degisir: Specht 2007 ozel olarak ESKI 3300-3200 cal BP tarihini 3450-3350 cal BP'ye cekiyor; ayni metin Kirch ve Hunt 1988'in 3550 cal BP, Green/Summerhayes'in ~3500 cal BP onerdigini aktariyor (ikincil aktarim, birincil makaleye ulasilamadi - kutuphane_gerekli). Cochrane vd. 2021 Bayesci modeli (Mussau ECA, %95.4) 3460-3010 cal BP veriyor, yani Specht araligi ile cakisiyor. Horrocks vd. 2024 (J Helminthology 98:e8) 'Erken Lapita' birinci yerlesme evresini 3300-3000 cal BP diye anar (Summerhayes 2010'dan aktarma) - evre toplami. Haritada tek bir yil degil ~MO 1500-1100 'bulaniklik' olarak kullanilmali. Kayit 'tek olay' degil, 'ortaya cikis tahmini araligi'dir. cal BP->MO: BP-1950, bu oturumda."
+ },
+ { onem:1, dunya:1, bolge_onem:1, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "odak_yer": [
+   "Krasnoyarsk"
+  ],
+  "t": "-14961-01-01",
+  "k": "ilk_anilis",
+  "b": "Afontova Gora-2 (AG-2), Yenisey, Krasnoyarsk yakini: Afontova Gora-2: Üst Paleolitik Sibirya iskânı (ufuk dışı)",
+  "gun": "MÖ 15125–14800 arası (orta nokta MÖ 14962)",
+  "yer": "Афонтова Гора-2, Afontova Gora-2, Krasnoyarsk, Russia",
+  "d": "Yenisey kiyisinda Ust Paleolitik Afontova Gora kompleksinin AG-2 bireyi; MA-1 ile benzer genetik imza - Son Buzul Maksimumu boyunca Sibirya'nin isgal altinda oldugunu gosterir.",
+  "kaynak": "Raghavan M vd. 2014, Nature 505: 87-91, doi:10.1038/nature12736 (PMC4105016) - AG-2 insan kemigi AMS 14C · https://pmc.ncbi.nlm.nih.gov/articles/PMC4105016/",
+  "kesinlik": "yuzyil",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "kaynak_turu": "arkeoloji",
+  "aralik": {
+   "bas": "-15124-01-01",
+   "son": "-14799-01-01",
+   "guven": "belirsiz (yuzde yok)",
+   "tur": "kalibre-14C"
+  },
+  "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 15125–14800 (kaynağın verdiği uçlar); orta nokta MÖ 14962 = astronomik -1496. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: belirsiz (yuzde yok). UFUK DIŞI: MÖ 14962, ufuk MÖ 12000'den 2962 yıl önce; tarih aynen tutuldu (harita f'i ufka kenetlenir, varsayılan — Emre değiştirebilir). Kaynaktan okunan: «or 17,075–16,750 cal. bp for AG-2». UFUK DISI: MO ~15 bin; MO 12000 sinirindan once. Tek bireyin dogrudan AMS tarihidir. 'Afontova Gora-3 (AG-3)' icin ayri kalibre yas bu oturumda okunmadi (Sikora vd. 2019 / Yu vd. 2020 yalnizca 'yaklasik 17 ka' olarak anilir, Nature 2023 PMC10247382'de) - bulunamadi listesine bakin. cal BP->MO: BP-1950, bu oturumda."
+ },
+ { onem:1, dunya:1, bolge_onem:1, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-1499-01-01",
+  "k": "gelisme",
+  "b": "Pampa de las Hamacas töreni merkezleri (Jequetepeque, Formatif): Hamacas evresi başlar (Jequetepeque)",
+  "gun": "MÖ 1500 (ALT SINIR; donem-toplami MÖ 1500–1250)",
+  "yer": "Complejo Hamacas, Pampa de las Hamacas, Tembladera / Susa",
+  "d": "Jequetepeque orta vadisinde Formatif tören merkezleri dizisi; merkezlerin yeri zamanla doğuya kayar. Hamacas fazı 1500-1250, Tembladera 1250-800 (terk ~800), Lechuzas 800-550 cal BC.",
+  "kaynak": "Tsurumi E. 2008, 'La secuencia cronológica de los centros ceremoniales de la Pampa de las Hamacas y Tembladera, valle medio de Jequetepeque', Boletín de Arqueología PUCP 12:141-169 (İspanyolca; OxCal 4.0.1, kalibre) · https://revistas.pucp.edu.pe/index.php/boletindearqueologia/article/download/964/931",
+  "kesinlik": "yuzyil",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "kaynak_turu": "arkeoloji",
+  "aralik": {
+   "bas": "-1499-01-01",
+   "son": "-1249-01-01",
+   "guven": "belirsiz",
+   "tur": "donem-toplami"
+  },
+  "ic_not_d": "donem-toplami aralığı (MÖ 1500–1250) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «Hamacas (1500-1250 a.C. [calib.]), Tembladera (1250-800 a.C. [calib.]) y Lechuzas (800-550 a.C. [calib.])». CUPISNIQUE HEDEFİNİN KISMİ KARŞILIĞI: makale 'Cupisnique' etiketini yalnız 'Cupisnique Clásico' kaplarından bahsederken kullanır; Hamacas fazı kalibre başlangıcı için yazar ~1500 cal BC'yi 'yuvarlama' olarak önerir (Hamacas 1: 1450-1350, Hamacas 2: 1350-1250, Tembladera 1: 1250-1000, Tembladera 2: 1000-800 cal BC). Montegrande'nin TL (termolüminesans) tarihi ~1800 cal BC (Ulbert 1994 atfı, ikincil) — daha erken, kullanılmadı. Güven düzeyi (σ) makale metninde belirtilmemiş. Cupisnique için başka sayılar (1500-1000 / 1200-800 / 2000-200 MÖ) yalnız arama özetlerinde, kalibrasyonu belirsiz — YAZILMADI.",
+  "odak_yer": [
+   "Susa"
+  ]
+ },
+ { onem:1, dunya:1, bolge_onem:1, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-1509-01-01",
+  "yer_id": "Sechín Alto",
+  "k": "gelisme",
+  "b": "Sechín Alto: Sechín Alto: Haldas öncesi iskân",
+  "gun": "MÖ 1690–1330 arası (orta nokta MÖ 1510)",
+  "yer": "Sechín Alto (Casma vadisi)",
+  "d": "Casma vadisinde Moxeke/Haldas dönemi büyük tören kompleksi; bilinen en eski yapılar ~MÖ 1600-1400, Moxeke B boyalı cephe ~1450/1400, Haldas dönemi (1400-1000) tarihleri ~1100-920'ye uzanır.",
+  "kaynak": "Bischof H. 2009, 'Los periodos Arcaico Tardío, Arcaico Final y Formativo Temprano en el valle de Casma: evidencias e hipótesis', Boletín de Arqueología PUCP 13:9-54 (İspanyolca; tüm 14C 1 sigma, IntCal04/Calib5 kalibre, 'a.C. [calib.]' biçiminde — dipnot 1) · https://revistas.pucp.edu.pe/index.php/boletindearqueologia/article/download/977/944",
+  "kesinlik": "yuzyil",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "kaynak_turu": "arkeoloji",
+  "aralik": {
+   "bas": "-1689-01-01",
+   "son": "-1329-01-01",
+   "guven": "68.2",
+   "tur": "kalibre-14C"
+  },
+  "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 1690–1330 (kaynağın verdiği uçlar); orta nokta MÖ 1510 = astronomik -1509. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: 68.2. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «siete muestras radiocarbónicas indican el lapso de c. 1600 a 1400 a.C., entre los ensayos Beta-172352 (1690-1530 a.C. [calib.]) y Beta-150767 (1470-1330 a.C. [calib.]». ÖNCEKİ DALGA 'bulunamadı'sını çözer. kur/bit: bilinen en eski yapıların dolgu örnekleri ile Haldas dönemine atfedilen en genç örnek (1σ) — kuruluş/terk tarihi DEĞİL; çekirdek adobe kütlesinin yaşı belirlenmemiş (Bischof: 'no ha sido determinada'). Pozorski & Pozorski 2005 (Bischof'un atfıyla) başlangıcı 1400 alır; Bischof Haldas başlangıcı 1400'ü 'tal vez algo tardía' sayar. Çelişki (diller arası değil, okullar arası): Pozorskiler Moxeke/Casma seramiğini ~2150 cal BC'ye çeker, Bischof ~1650'ye (Bischof 'Periodo Inicial' çerçevesini aşılmış sayar)."
+ },
+ { onem:1, dunya:1, bolge_onem:1, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-1549-01-01",
+  "yer_id": "Sechín Bajo",
+  "k": "kayip",
+  "b": "Sechín Bajo: Sechín Bajo'da Formatif iskân sona erer",
+  "gun": "MÖ 1550 (ALT SINIR; yerlesim-suresi MÖ 1550–1470)",
+  "yer": "Sechín Bajo (Casma vadisi)",
+  "d": "Casma vadisinde batık dairesel plazalı en eski anıtsal kerpiç mimarî; ~MÖ 3400'den inşa dizisi, Formatif işgal MÖ 1550-1470 civarında sona erer.",
+  "kaynak": "Bischof H. 2009, 'Los periodos Arcaico Tardío, Arcaico Final y Formativo Temprano en el valle de Casma: evidencias e hipótesis', Boletín de Arqueología PUCP 13:9-54 (İspanyolca; tüm 14C 1 sigma, IntCal04/Calib5 kalibre, 'a.C. [calib.]' biçiminde — dipnot 1) · https://revistas.pucp.edu.pe/index.php/boletindearqueologia/article/download/977/944",
+  "kesinlik": "yuzyil",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "kaynak_turu": "arkeoloji",
+  "aralik": {
+   "bas": "-1549-01-01",
+   "son": "-1469-01-01",
+   "guven": "68.2",
+   "tur": "yerlesim-suresi"
+  },
+  "ic_not_d": "yerlesim-suresi aralığı (MÖ 1550–1470) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «Sechín Bajo, cuya ocupación formativa termina en el periodo 1550-1470 a.C. (calib.)». ÖNCEKİ DALGA 'bulunamadı'sını çözer. 3400-2950: Bischof'un 10 Sechín Bajo analizinin kapsadığı aralık (alt sınır tahmini; 1σ — dipnot 1). Bischof dipnot 2: kuruluşa dair iki dayanak 'moluscos' (deniz kabuğu) ölçümleri olduğundan rezervuar etkisi sorusu var (dipnotun devamı okunmadı). İKİNCİ KAYNAK (kalitatif çift teyit): Fuchs vd. (Boletín de Arqueología PUCP) batık dairesel plazaya ait üç tarihi 'cuarto milenio a.C.' ve ilk insan varlığını 'quinto milenio a.C.' yerleştirir; tablo (Tabla 1) PDF çıkarımında satır-sütun eşleşmesi bozuk olduğundan sayısal değer alınmadı. Vikipedi (tek dayanak olamaz) ~MÖ 3500 plaza / ~3600 friz diyor: Bischof'la 100-200 yıl fark; Bischof esas alındı (hakemli, kalibre açık). Bit: Formatif işgal sonu; yapıların terk/sonu tarihi değil 'Haldas Punteado'nun yokluğu' ile çıkarılmış sıralama."
+ },
+ { onem:2, dunya:1, bolge_onem:2, puan_s:"v2", tur:"kurulus","kapsam": "dis", "bolge": 1, 
+  "t": "-1624-01-01",
+  "yer_id": "San José Mogote",
+  "k": "kurulus",
+  "b": "San Jose Mogote: koy yerlesimi ve Rosario sonrasi toren merkezinin terki: San José Mogote köyü kurulur",
+  "gun": "MÖ 1730–1520 arası (orta nokta MÖ 1625)",
+  "yer": "San Jose Mogote",
+  "d": "San Jose Mogote Vadi'de (Oaxaca, Etla kolu) Tierras Largas fazinda (1500-1150 b.c.) en az 7 ha'lik koy; Rosario fazinda 18-23 koyluk bir grubun sefligi merkezi. Rosario sonunda nufusun ~%95'i Monte Alban'in kurulusuna katilmak uzere gitti; Mound 1'deki 40 ha'lik merkez Monte Alban II basina (MO 100) kadar terk.",
+  "kaynak": "Marcus & Flannery 2005, The Radiocarbon Dating of Public Buildings and Ritual Features in the Ancient Valley of Oaxaca, FAMSI Raporu (Beta Analytic AMS): Structure 3 (Tierras Largas fazi 'Men's House'), Beta-190313, 3350+-40 BP, 2-sigma kalibre 1730-1520 B.C. · https://www.ancientamericas.org/sites/default/files/03006Marcus01.pdf",
+  "kesinlik": "yuzyil",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "kaynak_turu": "arkeoloji",
+  "aralik": {
+   "bas": "-1729-01-01",
+   "son": "-1519-01-01",
+   "guven": "95.4 (2 sigma)",
+   "tur": "kalibre-14C"
+  },
+  "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 1730–1520 (kaynağın verdiği uçlar); orta nokta MÖ 1625 = astronomik -1624. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: 95.4 (2 sigma). Kaynaktan okunan: «San José Mogote was founded prior to 1600 b.c., and by the Tierras Largas phase (1500-1150 b.c.) had grown to at least 7 ha». UYARI 1: kur blogu 'kurulus' degil, kalibre 14C ile tarihlenmis EN ERKEN KOY MIMARISIDIR (Structure 3: 1730-1520; Structure 12: 1720-1560; Structure 15: 1630-1440 cal BC, hepsi 2 sigma); 'kurulus' metni kalibresiz 'before 1600 b.c.' (kucuk harf b.c. = kalibresiz) olarak yaziliyor, o yuzden YAZILMADI. Structure 5 Michigan-2372 1940-1140 cal BC genis (+-160). UYARI 2: bit.bas_mo=500 faz sinirdir, tek bir olay degil; rapor 'Monte Alban Period I (500-100 b.c.)' kucuk harfle de yaziyor, yani 500 sinirinin kalibre mi kalibresiz mi oldugu raporda tutarsiz; kalibre ucu icin Feature 77 (770-400 cal) bunu 95%'te kapsiyor. Dolayisiyla bit.guven belirsiz. Cifte kayit: onceki dalgadaki 'san-jose-mogote-tapinak-yangin' (Yapi 28, 820-500 cal BC) baska olaydir; FAMSI raporunda ayni yapi Beta-177624 2550+-60 BP 820-550 B.C. (PNAS 2003 Tablo 1 ise 820-500) - kucuk fark kaynaktan kaynaga, PNAS'in sayfasi onceki dalgada okundu. Rosario fazi tapinak platformu (Yapi 19) Beta-179876 2560+-180 BP 1110-350 B.C. (cok genis)."
+ },
+ { onem:2, dunya:1, bolge_onem:1, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-1649-01-01",
+  "yer_id": "Cerro Sechín",
+  "k": "kayip",
+  "b": "Cerro Sechín: Cerro Sechín dönemi sona erer",
+  "gun": "MÖ 1650 civarı",
+  "yer": "Cerro Sechín (Casma vadisi)",
+  "d": "Casma vadisinde merkezî platform (faz 1-4) ve kabartmalı taş cephe; en eski tarihli örnekler MÖ 2400-2040 civarı; röliflerin örtüldüğü dolgu tabakaları MÖ ~1740-1433.",
+  "kaynak": "Bischof H. 2009, 'Los periodos Arcaico Tardío, Arcaico Final y Formativo Temprano en el valle de Casma: evidencias e hipótesis', Boletín de Arqueología PUCP 13:9-54 (İspanyolca; tüm 14C 1 sigma, IntCal04/Calib5 kalibre, 'a.C. [calib.]' biçiminde — dipnot 1) · https://revistas.pucp.edu.pe/index.php/boletindearqueologia/article/download/977/944",
+  "kesinlik": "yuzyil",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "kaynak_turu": "arkeoloji",
+  "ic_not_d": "TEK DEĞER MÖ 1650 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «Su límite superior se fijó alrededor de 1650 a.C. (calib.), cuando apareció la primera cerámica en la región de Casma». ÖNCEKİ DALGA 'bulunamadı'sını çözer (Cerro Sechín için). kur: yerleşimin kuruluşu DEĞİL, en eski tarihli iki örnek (Hd-6959 faz 4 öncesi/içi, Hd-6958 faz 1), 1σ; Bischof 'inşa evre 1-4 ve sanatı' tarihler olarak MÖ 3. binyıl sonuna kadar uzandığını söyler. bit=1650 Sechín Dönemi'nin kaynaklı üst sınırı (Casma'da ilk seramik); rölif cephesinin örtülmesi 1σ: Hd-11291 1740-1562, Hd-11290 1682-1531, Hd-11292 1529-1433 (Fuchs 1997 atfı). Fuchs 1997'ye göre Cerro Sechín anıtsal işgali ~3300 BP (ham) dolaylarında biter — ham BP yazılmadı, Bischof'un kalibre değeri esas. Sonraki yeniden yapı ~1300 cal BC (Hd-11312 1502-1317; Hd-11373 1305-1052)."
+ },
+ { onem:1, dunya:1, bolge_onem:1, puan_s:"v2", tur:"kurulus","kapsam": "dis", "bolge": 1, "odak_yer":["Kotosh"],
+  "t": "-1769-01-01",
+  "k": "kurulus",
+  "b": "Waira-jirca seramik evresi (Huánuco havzası, Jancao): Wairajirca seramiği başlar (Jancao)",
+  "gun": "MÖ 1915–1625 arası (orta nokta MÖ 1770)",
+  "yer": "Fase Wairajirca",
+  "d": "Huánuco havzasında Waira-jirca çanak çömlek geleneği, Jancao'da beş evre (I-V) olarak modellenir; yazarlar bu evreleri geç 18. yy – geç 12. yy cal BC'ye koyar.",
+  "kaynak": "Kanezaki Y., Omori T., Tsurumi E. 2021, 'Emergence and Development of Pottery in the Andean Early Formative Period: New Insights from an Improved Wairajirca Pottery Chronology at the Jancao Site in the Huánuco Region, Peru', Latin American Antiquity 32(2):239-254, doi:10.1017/laq.2020.89 (İngilizce, açık erişim CC-BY; OxCal Bayes, SHCal13, tablo 1: 68.2/95.4%) — Tablo 1 'Start Wairajirca I': 68.2% 1790–1665, 95.4% 1915–1625, medyan 1735 · https://www.cambridge.org/core/services/aop-cambridge-core/content/view/E1B4D46CA57056B02E9004DAE9358D1F/S1045663520000899a.pdf",
+  "kesinlik": "yuzyil",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "kaynak_turu": "arkeoloji",
+  "aralik": {
+   "bas": "-1914-01-01",
+   "son": "-1624-01-01",
+   "guven": "95.4",
+   "tur": "kalibre-14C"
+  },
+  "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 1915–1625 (kaynağın verdiği uçlar); orta nokta MÖ 1770 = astronomik -1769. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: 95.4. Kaynaktan okunan: «Start Wairajirca I 1790–1665 1915–1625 1735». ÖNCEKİ DALGA 'bulunamadı'sını (Kotosh Mito / Waira-jirca) KISMEN çözer: bu, Jancao SİTESİNDEKİ Waira-jirca seramik sekansıdır (17 kömür örneği), Kotosh tip-yerleşiminin kendi Waira-jirca evresi değildir. Sınırlar OxCal 'Boundary' değerleridir (medyan: I 1735 → V sonu 1140); evre süreleri 80-170 yıl. Yazarlar Kotosh sekansı ile karşılaştırma yapar. KOTOSH MİTO (seramiksiz, Waira-jirca'dan ÖNCE): kalibre aralığı bulunamadı — bkz. bulunamadi. Onuki 2014 (Senri Ethnol. Stud. 89:105-122, İspanyolca, açık) Mito evresinin 'alrededor de 2000 a.C.' beş sitesinden bahseder ama kalibrasyon belirtmez (yazılmadı)."
+ },
+ { onem:2, dunya:2, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, "odak_yer":["İrkutsk"],
+  "t": "-22206-01-01",
+  "k": "ilk_anilis",
+  "b": "Mal'ta (Belaya Nehri, Baykal yakini) - MA-1 bireyi: Mal'ta (MA-1): Üst Paleolitik Sibirya iskânı (ufuk dışı)",
+  "gun": "MÖ 22473–21941 arası (orta nokta MÖ 22207)",
+  "yer": "Мальта, Mal'ta, Usolsky District, Irkutsk Oblast, Russia",
+  "d": "Mal'ta Ust Paleolitik yerlesmesi; ~30 antropomorf Venus figurini (kaynak) ve MA-1 (humerus, eski DNA) ile taninir.",
+  "kaynak": "Raghavan M vd. 2014, 'Upper Palaeolithic Siberian genome reveals dual ancestry of Native Americans', Nature 505: 87-91, doi:10.1038/nature12736 (Ingilizce, PMC4105016) - MA-1 insan kemigi AMS 14C · https://pmc.ncbi.nlm.nih.gov/articles/PMC4105016/",
+  "kesinlik": "yuzyil",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "kaynak_turu": "arkeoloji",
+  "aralik": {
+   "bas": "-22472-01-01",
+   "son": "-21940-01-01",
+   "guven": "belirsiz (yuzde yok)",
+   "tur": "kalibre-14C"
+  },
+  "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 22473–21941 (kaynağın verdiği uçlar); orta nokta MÖ 22207 = astronomik -2220. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: belirsiz (yuzde yok). UFUK DIŞI: MÖ 22207, ufuk MÖ 12000'den 10207 yıl önce; tarih aynen tutuldu (harita f'i ufka kenetlenir, varsayılan — Emre değiştirebilir). Kaynaktan okunan: «or 24,423–23,891 calendar years before present (cal. bp)». UFUK DISI: bu tarih MO 12000 sinirindan cok once (MO ~22 bin); haritaya konup konmayacagi karari sizde. Tarih TEK bireyin dogrudan AMS tarihidir (kalibre aralik kaynaktan, BP-1950 oturum donusumu), yerlesmenin kullanim suresi degil. Kalibrasyon yuzdesi makale ana metninde yok (Ek Bilgi 2'de olabilir; ek dosya bu oturumda acilmadi). 'Mal'ta-Buret' kultur' adi yalnizca Wikidata etiketi (bagimsiz akademik kaynak okunmadi)."
+ },
+ { onem:2, dunya:1, bolge_onem:1, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-2269-01-01",
+  "yer_id": "Cerro Sechín",
+  "k": "gelisme",
+  "b": "Cerro Sechín: Cerro Sechín: en eski kalibre tarihler",
+  "gun": "MÖ 2400–2140 arası (orta nokta MÖ 2270)",
+  "yer": "Cerro Sechín (Casma vadisi)",
+  "d": "Casma vadisinde merkezî platform (faz 1-4) ve kabartmalı taş cephe; en eski tarihli örnekler MÖ 2400-2040 civarı; röliflerin örtüldüğü dolgu tabakaları MÖ ~1740-1433.",
+  "kaynak": "Bischof H. 2009, 'Los periodos Arcaico Tardío, Arcaico Final y Formativo Temprano en el valle de Casma: evidencias e hipótesis', Boletín de Arqueología PUCP 13:9-54 (İspanyolca; tüm 14C 1 sigma, IntCal04/Calib5 kalibre, 'a.C. [calib.]' biçiminde — dipnot 1) · https://revistas.pucp.edu.pe/index.php/boletindearqueologia/article/download/977/944",
+  "kesinlik": "yuzyil",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "kaynak_turu": "arkeoloji",
+  "aralik": {
+   "bas": "-2399-01-01",
+   "son": "-2139-01-01",
+   "guven": "68.2",
+   "tur": "kalibre-14C"
+  },
+  "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 2400–2140 (kaynağın verdiği uçlar); orta nokta MÖ 2270 = astronomik -2269. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: 68.2. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «Hd-6959, 2400-2140 a.C. [calib.]; Hd-6958, 2210-2040 a.C. [calib.]». ÖNCEKİ DALGA 'bulunamadı'sını çözer (Cerro Sechín için). kur: yerleşimin kuruluşu DEĞİL, en eski tarihli iki örnek (Hd-6959 faz 4 öncesi/içi, Hd-6958 faz 1), 1σ; Bischof 'inşa evre 1-4 ve sanatı' tarihler olarak MÖ 3. binyıl sonuna kadar uzandığını söyler. bit=1650 Sechín Dönemi'nin kaynaklı üst sınırı (Casma'da ilk seramik); rölif cephesinin örtülmesi 1σ: Hd-11291 1740-1562, Hd-11290 1682-1531, Hd-11292 1529-1433 (Fuchs 1997 atfı). Fuchs 1997'ye göre Cerro Sechín anıtsal işgali ~3300 BP (ham) dolaylarında biter — ham BP yazılmadı, Bischof'un kalibre değeri esas. Sonraki yeniden yapı ~1300 cal BC (Hd-11312 1502-1317; Hd-11373 1305-1052)."
+ },
+ { onem:1, dunya:1, bolge_onem:1, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-2599-01-01",
+  "k": "gelisme",
+  "b": "Purrón evresi (Tehuacán Vadisi): Tehuacán: Purrón evresi",
+  "gun": "MÖ 2600 (ALT SINIR; donem-toplami MÖ 2600–1300)",
+  "yer": "Purrón phase (Tehuacán Vadisi) / Dholavira",
+  "d": "Tehuacán Vadisi'nde Formatif dönemin ilk evresi (Ajalpan'dan önce); kaynak onu 'karma bahçecilik-toplayıcılık-avcılık, yarı yerleşik' diye niteler.",
+  "kaynak": "Somerville A.D. vd. 2026, 'Multi-isotope analysis of mammal bones provides environmental context for the adoption of agriculture in the Tehuacan Valley of Mexico', Science Advances 12(10):eadw9222, doi:10.1126/sciadv.adw9222, Tablo 1 + Supplementary Text · https://pmc.ncbi.nlm.nih.gov/articles/PMC12959416/",
+  "kesinlik": "yuzyil",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "kaynak_turu": "arkeoloji",
+  "aralik": {
+   "bas": "-2599-01-01",
+   "son": "-1299-01-01",
+   "guven": "belirsiz (kaynak 'approx.' diyor; OxCal modelinden yuvarlanmış)",
+   "tur": "donem-toplami"
+  },
+  "ic_not_d": "donem-toplami aralığı (MÖ 2600–1300) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynaktan okunan: «Purron 4550-3250 cal BP = 2600-1300 BC (Tablo 1)». ÇELİŞKİ (iki kronoloji, ikisi de beyan): revize Bayesian model = 4550-3250 cal BP; geleneksel Johnson & MacNeish dizisi = 4800-3850 cal BP. Supplementary Text'e göre 'Tablo 1' önceki çalışmalardan sentezlenmiş ve yeni Bayesian modelle bilgilendirilmiş yaklaşık değerler; ham OxCal sınır dağılımları (Data S1.xlsx) bu oturumda okunmadı (zip HTML döndü). Geleneksel dizinin aslı (Johnson & MacNeish, ref. 38) bu oturumda açılmadı, değerler Somerville vd. aktarımıdır. Tek yayın; çift teyit YOK. 'bit' = evre sonu.",
+  "odak_yer": [
+   "Dholavira"
+  ]
+ },
+ { onem:2, dunya:1, bolge_onem:2, puan_s:"v2", tur:"kurulus","kapsam": "dis", "bolge": 1, 
+  "t": "-3399-01-01",
+  "yer_id": "Sechín Bajo",
+  "k": "kurulus",
+  "b": "Sechín Bajo: Sechín Bajo: Geç Arkaik iskân başlar",
+  "gun": "MÖ 3400 (ALT SINIR; donem-toplami MÖ 3400–2950)",
+  "yer": "Sechín Bajo (Casma vadisi)",
+  "d": "Casma vadisinde batık dairesel plazalı en eski anıtsal kerpiç mimarî; ~MÖ 3400'den inşa dizisi, Formatif işgal MÖ 1550-1470 civarında sona erer.",
+  "kaynak": "Bischof H. 2009, 'Los periodos Arcaico Tardío, Arcaico Final y Formativo Temprano en el valle de Casma: evidencias e hipótesis', Boletín de Arqueología PUCP 13:9-54 (İspanyolca; tüm 14C 1 sigma, IntCal04/Calib5 kalibre, 'a.C. [calib.]' biçiminde — dipnot 1) · https://revistas.pucp.edu.pe/index.php/boletindearqueologia/article/download/977/944",
+  "kesinlik": "yuzyil",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "kaynak_turu": "arkeoloji",
+  "aralik": {
+   "bas": "-3399-01-01",
+   "son": "-2949-01-01",
+   "guven": "68.2",
+   "tur": "donem-toplami"
+  },
+  "ic_not_d": "donem-toplami aralığı (MÖ 3400–2950) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «los 10 ensayos de radiocarbono de Sechín Bajo, que cubren el periodo de 3400-2950 a.C. (calib.), indican el límite inferior del Periodo Sechín». ÖNCEKİ DALGA 'bulunamadı'sını çözer. 3400-2950: Bischof'un 10 Sechín Bajo analizinin kapsadığı aralık (alt sınır tahmini; 1σ — dipnot 1). Bischof dipnot 2: kuruluşa dair iki dayanak 'moluscos' (deniz kabuğu) ölçümleri olduğundan rezervuar etkisi sorusu var (dipnotun devamı okunmadı). İKİNCİ KAYNAK (kalitatif çift teyit): Fuchs vd. (Boletín de Arqueología PUCP) batık dairesel plazaya ait üç tarihi 'cuarto milenio a.C.' ve ilk insan varlığını 'quinto milenio a.C.' yerleştirir; tablo (Tabla 1) PDF çıkarımında satır-sütun eşleşmesi bozuk olduğundan sayısal değer alınmadı. Vikipedi (tek dayanak olamaz) ~MÖ 3500 plaza / ~3600 friz diyor: Bischof'la 100-200 yıl fark; Bischof esas alındı (hakemli, kalibre açık). Bit: Formatif işgal sonu; yapıların terk/sonu tarihi değil 'Haldas Punteado'nun yokluğu' ile çıkarılmış sıralama."
+ },
+ { onem:1, dunya:1, bolge_onem:1, puan_s:"v2","kapsam": "dis", "bolge": 1, "odak_yer":["Tepeaca"],
+  "t": "-4349-01-01",
+  "k": "kayip",
+  "b": "Coxcatlán evresi (Tehuacán Vadisi): sona erer",
+  "gun": "MÖ 4350 civarı",
+  "yer": "Coxcatlán phase (Tehuacán Vadisi)",
+  "d": "Tehuacán Vadisi'nde Erken Holosen El Riego'yu izleyen, Abejas'tan önceki evre; Coxcatlán, Purrón ve San Marcos mağaralarından 14C örnekleriyle modellenir.",
+  "kaynak": "Somerville A.D. vd. 2026, 'Multi-isotope analysis of mammal bones provides environmental context for the adoption of agriculture in the Tehuacan Valley of Mexico', Science Advances 12(10):eadw9222, doi:10.1126/sciadv.adw9222, Tablo 1 + Supplementary Text · https://pmc.ncbi.nlm.nih.gov/articles/PMC12959416/",
+  "kesinlik": "yuzyil",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "kaynak_turu": "arkeoloji",
+  "ic_not_d": "TEK DEĞER MÖ 4350 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynaktan okunan: «our model for the Coxcatlan phase (7900-6300 cal BP) begins 150 years earlier and ends 200 years earlier than the traditional estimate». ÇELİŞKİ (iki kronoloji, ikisi de beyan): revize Bayesian model = 7900-6300 cal BP; geleneksel Johnson & MacNeish dizisi = 7750-6100 cal BP. Supplementary Text'e göre 'Tablo 1' önceki çalışmalardan sentezlenmiş ve yeni Bayesian modelle bilgilendirilmiş yaklaşık değerler; ham OxCal sınır dağılımları (Data S1.xlsx) bu oturumda okunmadı (zip HTML döndü). Geleneksel dizinin aslı (Johnson & MacNeish, ref. 38) bu oturumda açılmadı, değerler Somerville vd. aktarımıdır. Tek yayın; çift teyit YOK. 'bit' = evre sonu."
+ },
+ { onem:2, dunya:1, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, "odak_yer":["Tepeaca"],
+  "t": "-5949-01-01",
+  "k": "gelisme",
+  "b": "Coxcatlán evresi (Tehuacán Vadisi): Tehuacán: Coxcatlán evresi",
+  "gun": "MÖ 5950 (ALT SINIR; donem-toplami MÖ 5950–4350)",
+  "yer": "Coxcatlán phase (Tehuacán Vadisi)",
+  "d": "Tehuacán Vadisi'nde Erken Holosen El Riego'yu izleyen, Abejas'tan önceki evre; Coxcatlán, Purrón ve San Marcos mağaralarından 14C örnekleriyle modellenir.",
+  "kaynak": "Somerville A.D. vd. 2026, 'Multi-isotope analysis of mammal bones provides environmental context for the adoption of agriculture in the Tehuacan Valley of Mexico', Science Advances 12(10):eadw9222, doi:10.1126/sciadv.adw9222, Tablo 1 + Supplementary Text · https://pmc.ncbi.nlm.nih.gov/articles/PMC12959416/",
+  "kesinlik": "yuzyil",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "kaynak_turu": "arkeoloji",
+  "aralik": {
+   "bas": "-5949-01-01",
+   "son": "-4349-01-01",
+   "guven": "belirsiz (kaynak 'approx.' diyor; OxCal modelinden yuvarlanmış)",
+   "tur": "donem-toplami"
+  },
+  "ic_not_d": "donem-toplami aralığı (MÖ 5950–4350) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynaktan okunan: «Coxcatlan 7900-6300 cal BP = 5950-4350 BC (Tablo 1 satırı)». ÇELİŞKİ (iki kronoloji, ikisi de beyan): revize Bayesian model = 7900-6300 cal BP; geleneksel Johnson & MacNeish dizisi = 7750-6100 cal BP. Supplementary Text'e göre 'Tablo 1' önceki çalışmalardan sentezlenmiş ve yeni Bayesian modelle bilgilendirilmiş yaklaşık değerler; ham OxCal sınır dağılımları (Data S1.xlsx) bu oturumda okunmadı (zip HTML döndü). Geleneksel dizinin aslı (Johnson & MacNeish, ref. 38) bu oturumda açılmadı, değerler Somerville vd. aktarımıdır. Tek yayın; çift teyit YOK. 'bit' = evre sonu."
+ }
+];
 
 ;
 /* ==== data/olaylar_arkeoloji_d3-hint-cin.js ==== */
-// data/olaylar_arkeoloji_d3-hint-cin.js — paketle.py İNCELTTİ: ic_not* alanları yayına gitmez (kaynak dosya değişmedi)
-window.OLAYLAR_ARKEOLOJI_D3_HINT_CIN = [{"onem":5,"dunya":3,"bolge_onem":5,"puan_s":"v2","kapsam":"dis","bolge":1,"odak_yer":["Patna (Azîmâbâd)"],"t":"-0183-01-01","k":"kayip","b":"Maurya İmparatorluğu: Maurya hanedanı sona erer","gun":"MÖ 184","yer":"Maurya (Magadha; başkent Pataliputra)","d":"Chandragupta (c. MÖ 321-297), Bindusara (25/27/28 yıl), Aşoka; hanedan Puranik 137 yıl toplamıyla c. MÖ 184'te Brihadratha'nın Pushyamitra tarafından öldürülmesiyle biter (Shunga dönemi).","kaynak":"Aynı eser: Puranik 137 yıllık dönem toplamı, hanedan sonu 'c. 184 B.C.', ardından Pushyamitra (Shunga) · https://archive.org/download/cambridgehistory01raps/cambridgehistory01raps_djvu.txt","kesinlik":"yil","kaynak_turu":"yazili"},{"onem":5,"dunya":4,"bolge_onem":5,"puan_s":"v2","tur":"kurulus","kapsam":"dis","bolge":1,"t":"-0201-01-01","k":"kurulus","b":"Han hanedanının kuruluşu - Liu Bang'ın imparator ilanı (MÖ 202): Batı Han hanedanı kurulur","gun":"MÖ 202","yer":"漢高祖 / 劉邦即皇帝位 / Xi'an (Chang'an)","d":"Çu-Han savaşının ardından Liu Bang, Han 5. yılında imparatorluk unvanını aldı; Batı Han dönemi 202'den başlatılır.","kaynak":"Tong C.F. 2025, Early China 48:133-162, doi:10.1017/eac.2025.10032 ('Western Han dynasty (202 BCE-9 CE)') · https://www.cambridge.org/core/services/aop-cambridge-core/content/view/88CAA846820D79FE59DE99630ADB3528/S0362502825100321a.pdf/div-class-title-the-emergence-of-logistics-networks-and-financial-administration-during-the-qin-conquest-230-221-bce-div.pdf","kesinlik":"yil","kaynak_turu":"yazili","odak_yer":["Xi'an (Chang'an)"]},{"onem":4,"dunya":3,"bolge_onem":4,"puan_s":"v2","kapsam":"dis","bolge":1,"odak_yer":["Patna (Azîmâbâd)"],"t":"-0236-01-01","k":"kayip","b":"Aşoka'nın saltanatı ve XIII. Kaya Fermanı senkronizması: Aşoka ölür","gun":"MÖ 237","yer":"Aśoka; Rock Edict XIII","d":"Aşoka'nın saltanatı: CHI 1922'ye göre katılım ≤274, taç giyme ≤270, Kalinga fethi ≤262, ölüm 237/236 MÖ. XIII. Kaya Fermanı beş Helenistik kralı (Antiochos, Ptolemaios, Antigonos, Magas, İskender) canlı sayar; CHI Magas'ın 258'de ölümünden dolayı fermanı 'yaklaşık 258-257 MÖ'ya, geçici olarak, yerleştirir.","kaynak":"Aynı tablo: 'death 237 or 236 b.c. ?' (soru işaretli) · https://archive.org/download/cambridgehistory01raps/cambridgehistory01raps_djvu.txt","kesinlik":"yil","kaynak_turu":"yazili"},{"onem":4,"dunya":3,"bolge_onem":4,"puan_s":"v2","kapsam":"dis","bolge":1,"odak_yer":["Patna (Azîmâbâd)"],"t":"-0273-01-01","k":"gelisme","b":"Aşoka'nın saltanatı ve XIII. Kaya Fermanı senkronizması: Aşoka tahta çıkar","gun":"MÖ 274","yer":"Aśoka; Rock Edict XIII","d":"Aşoka'nın saltanatı: CHI 1922'ye göre katılım ≤274, taç giyme ≤270, Kalinga fethi ≤262, ölüm 237/236 MÖ. XIII. Kaya Fermanı beş Helenistik kralı (Antiochos, Ptolemaios, Antigonos, Magas, İskender) canlı sayar; CHI Magas'ın 258'de ölümünden dolayı fermanı 'yaklaşık 258-257 MÖ'ya, geçici olarak, yerleştirir.","kaynak":"Rapson 1922, Cambridge History of India vol. I, Aşoka Kronolojisi tablosu (s. 503 civarı): 'Aşoka 274-237 b.c., katılım en geç 274, taç giyme en geç 270'; OCR metni 'AQoka' diye bozuk · https://archive.org/download/cambridgehistory01raps/cambridgehistory01raps_djvu.txt","kesinlik":"yil","kaynak_turu":"yazili"},{"onem":5,"dunya":3,"bolge_onem":5,"puan_s":"v2","tur":"kurulus","kapsam":"dis","bolge":1,"odak_yer":["Patna (Azîmâbâd)"],"t":"-0320-01-01","k":"kurulus","b":"Maurya İmparatorluğu: Maurya İmparatorluğu: Chandragupta dönemi başlar","gun":"MÖ 321","yer":"Maurya (Magadha; başkent Pataliputra) / Nanda; Dhana Nanda","d":"Chandragupta (c. MÖ 321-297), Bindusara (25/27/28 yıl), Aşoka; hanedan Puranik 137 yıl toplamıyla c. MÖ 184'te Brihadratha'nın Pushyamitra tarafından öldürülmesiyle biter (Shunga dönemi).","kaynak":"Rapson 1922, Cambridge History of India vol. I, giriş özeti ve Maurya hanedanı kronoloji tablosu: 'Chandragupta 321-297 b.c.' · https://archive.org/download/cambridgehistory01raps/cambridgehistory01raps_djvu.txt","kesinlik":"yil","kaynak_turu":"yazili"},{"onem":3,"dunya":2,"bolge_onem":3,"puan_s":"v2","kapsam":"dis","bolge":1,"odak_yer":["Patna (Azîmâbâd)"],"t":"-0325-01-01","k":"gelisme","b":"Nanda hanedanı (Magadha): Dhana-Nanda Magadha'da (İskender çağı)","gun":"MÖ 326","yer":"Nanda; Dhana Nanda","d":"Dokuz Nanda (Mahapadma ve sekiz oğlu) Magadha'da; sonuncusu (Dhana Nanda) MÖ 326'da tahtta; MÖ ~321'de egemenlik Maurya'ya geçer. Kuruluş tarihi kaynakta verilmiyor.","kaynak":"Rapson 1922, Cambridge History of India vol. I (Nanda dönemi, 'Dhana-nanda'), İskender'in Hyphasis dönüşü senkronizmi; kuruluş (Mahapadma) tarihi kaynakta YOK (yalnız 'toplam 100 yıl' Puranik süre) · https://archive.org/download/cambridgehistory01raps/cambridgehistory01raps_djvu.txt","kesinlik":"yil","kaynak_turu":"yazili"},{"onem":3,"dunya":2,"bolge_onem":2,"puan_s":"v2","kapsam":"dis","bolge":1,"odak_yer":["Qufu"],"t":"-0480-01-01","k":"kayip","b":"Chunqiu (Bahar ve Güz Yıllıkları) kaydının başlangıcı: Chunqiu dönemi sona erer","gun":"MÖ 481","yer":"春秋 / 魯隱公元年","d":"Lu devletinin Chunqiu yıllığı Duke Yin'in 1. yılında (722) başlar ve Duke Ai'nin 14. yılında (481) biter; 'Bahar-Güz dönemi' adı bu metne dayanır.","kaynak":"Eno R. (ders metni, IU) · https://scholarworks.iu.edu/iuswrrest/api/core/bitstreams/3e3491dd-2ce0-458d-90ec-61999c088387/content","kesinlik":"yil","kaynak_turu":"yazili"},{"onem":4,"dunya":3,"bolge_onem":4,"puan_s":"v2","kapsam":"dis","bolge":1,"odak_yer":["Cambridge"],"t":"-0482-01-01","k":"ilk_anilis","b":"Buda'nın parinirvana tarihi (kronoloji dayanağı): Buda'nın parinirvanası (Cambridge History tarihi)","gun":"MÖ 483 civarı","yer":"Buddha parinirvāṇa","d":"CHI (1922) Buda'nın ölümünü, Ceylon vakayinamelerindeki 218 yıllık aralığı Aşoka'ya ekleyerek ~MÖ 483'e yerleştirir ve bunu 'geçici' sayar.","kaynak":"Rapson 1922, Cambridge History of India vol. I (Geiger/Mahavamsa tablosu: doğum 563, 'Attains nirvana 483') · https://archive.org/download/cambridgehistory01raps/cambridgehistory01raps_djvu.txt","kesinlik":"yuzyil","etiket":["arkeoloji"],"kaynak_turu":"arkeoloji"},{"onem":4,"dunya":2,"bolge_onem":3,"puan_s":"v2","kapsam":"dis","bolge":1,"odak_yer":["Rajagriha (Rājgīr)"],"t":"-0542-01-01","k":"gelisme","b":"Magadha yükselişi (Bimbisara ve Ajatashatru): Bimbisara Magadha tahtına çıkar","gun":"MÖ 543","yer":"Magadha; Bimbisāra, Ajātaśatru","d":"Cambridge History of India (1922) Sinhala vakayinamelerine dayalı Geiger kronolojisiyle Bimbisara'nın 543-491, Ajatashatru'nun 491-459 MÖ hüküm sürdüğünü verir; Magadha'nın yükselişi Anga'nın fethiyle (Bimbisara, c. MÖ 600) başlar, Kashi-Kosala-Videha üstünlüğü Ajatashatru'ya atfedilir.","kaynak":"Rapson E.J. (ed.) 1922, The Cambridge History of India vol. I (Ancient India), bölüm 'Buddhism and the early Buddhist chronology' içindeki Geiger/Mahavamsa kronoloji tablosu (Bimbisara: ilk sayfa 'accession 543, death 491'); Cambridge, İngilizce, archive.org djvu OCR'dan okundu. ESKİ (1922) kaynaktır, modern yeniden tarihleme için aşağıya bak · https://archive.org/download/cambridgehistory01raps/cambridgehistory01raps_djvu.txt","kesinlik":"yil","kaynak_turu":"yazili"},{"onem":3,"dunya":2,"bolge_onem":2,"puan_s":"v2","kapsam":"dis","bolge":1,"odak_yer":["Qufu"],"t":"-0721-01-01","k":"ilk_anilis","b":"Chunqiu (Bahar ve Güz Yıllıkları) kaydının başlangıcı: Chunqiu dönemi başlar","gun":"MÖ 722","yer":"春秋 / 魯隱公元年","d":"Lu devletinin Chunqiu yıllığı Duke Yin'in 1. yılında (722) başlar ve Duke Ai'nin 14. yılında (481) biter; 'Bahar-Güz dönemi' adı bu metne dayanır.","kaynak":"Ning Dengguo 2023, Guangming Daily 24.07.2023 (722); Eno R., Indiana Univ. History G380 ders metni 4.12 (722-481) · https://news.gmw.cn/2023-07/24/content_36716000.htm","kesinlik":"yil","kaynak_turu":"yazili"},{"onem":5,"dunya":3,"bolge_onem":5,"puan_s":"v2","kapsam":"dis","bolge":1,"odak_yer":["Haojing (Fenghao, Xi'an yakını)","Qi İlçesi (Zhaoge)"],"t":"-1045-01-01","k":"fetih","b":"Zhou'nun Shang'ı fethi (Muye) - tarih çelişkisi: Zhou Shang'ı yener (1046; kaynaklar 1045/1044/1040/1050 diyor)","gun":"MÖ 1046","yer":"武王伐紂 / 牧野之戰 / 周 / 豐鎬 / 商 / Haojing (Fenghao, Xi'an yakını)","d":"Kral Wu'nun Shang'a karşı zaferi (Muye) ve Zhou hanedanının kuruluşu; hakemli literatürde tarih 1050/1046/1045/1044/1040 arasında çelişkilidir.","kaynak":"Pankenier D.W. 1992, 'The Bamboo Annals Revisited ... Part 1', BSOAS 55(2):272-297 · https://www.jstor.org/stable/619624 (PDF metin Lehigh: https://www.lehigh.edu/~dwp0/Assets/images/bambooannals1.pdf)","kesinlik":"yil","kaynak_turu":"yazili"},{"onem":3,"dunya":2,"bolge_onem":3,"puan_s":"v2","tur":"kurulus","kapsam":"dis","bolge":1,"odak_yer":["Seul (Hanyang)","Pusan"],"t":"-1299-01-01","k":"kurulus","b":"Mumun dönemi başlangıcı (pirinç/Bronz Çağı) - kalibre karşılaştırma: Mumun dönemi başlar (Kore)","gun":"MÖ 1300 (ALT SINIR; donem-toplami MÖ 1300–400)","yer":"무문토기시대 / 빗살무늬토기시대 / Chulmun","d":"Mumun dönemi; pirinç + darı tarımı, yerleşim düzeninin topyekûn değişimi.","kaynak":"Kim J., Park J. 2020, Evolutionary Human Sciences (doi:10.1017/ehs.2020.13) · https://pmc.ncbi.nlm.nih.gov/articles/PMC10427441/","kesinlik":"yuzyil","etiket":["arkeoloji"],"kaynak_turu":"arkeoloji","aralik":{"bas":"-1299-01-01","son":"-0399-01-01","guven":"belirsiz","tur":"donem-toplami"}},{"onem":2,"dunya":1,"bolge_onem":2,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-1499-01-01","yer_id":"Dholavira","k":"kayip","b":"Dholavira: Dholavira Aşama VII sona erer","gun":"MÖ 1500 (ALT SINIR; donem-toplami MÖ 1500–1450)","yer":"Dholavira (ધોળાવીરા)","d":"Kachchh (Khadir adası) Harappa kenti; UNESCO/ASI şemasına göre c. MÖ 3000'de başlayan, 7 aşamalı yaklaşık 1.500 yıllık iskân; Aşama VII (MÖ ~1500-1450) kentsel nitelik taşımayan son yerleşim, sonrasında hiç iskân edilmemiş.","kaynak":"Aynı ICOMOS değerlendirmesi, Aşama VII (Stage VII) tanımı; dönem-toplamı, tek olay kalibre aralığı değil · https://whc.unesco.org/document/189324","kesinlik":"yuzyil","etiket":["arkeoloji"],"kaynak_turu":"arkeoloji","aralik":{"bas":"-1499-01-01","son":"-1449-01-01","guven":"belirsiz","tur":"donem-toplami"}},{"onem":4,"dunya":3,"bolge_onem":4,"puan_s":"v2","tur":"kurulus","kapsam":"dis","bolge":1,"odak_yer":["Yinxu"],"t":"-1499-01-01","k":"kurulus","b":"Shang hanedan/dönem sınırları (Erligang-Yinxu çerçevesi): Shang dönemi başlar (14C modeli)","gun":"MÖ 1500 civarı","yer":"商","d":"Shang'ın başlangıcı için iki değer: ~1500 (Sci Rep 2018, Erligang Zhengzhou) ve ~1600 (Dönemlendirme Projesi; önceki dalga, Guangming Daily/Lee 2007). Son: Zhou fethi 1046 (Li 2002) ile 14C ~1041.","kaynak":"Liu R., Rawson J., Pollard A.M. 2018, Scientific Reports 8:11770 (doi:10.1038/s41598-018-30275-2), Özet: 'the Shang period (ca. 1500–1046 BC)'; ayrıca Erligang (Zhengzhou) ca. 1500-1300, Yinxu II ca. 1200-1046 · https://pmc.ncbi.nlm.nih.gov/articles/PMC6079070/","kesinlik":"yuzyil","etiket":["arkeoloji"],"kaynak_turu":"arkeoloji"},{"onem":2,"dunya":1,"bolge_onem":2,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-1999-01-01","yer_id":"Lothal","k":"kayip","b":"Lothal: Lothal'in gerilemesi","gun":"MÖ 2000 civarı","yer":"Lothal (લોથલ)","d":"Gujarat kıyısında Harappa liman/üretim kenti; Rao'ya göre Harappalılar c. MÖ 2450'de buraya geldi; kalibre TF tarihleri Olgun Harappa evresini ~MÖ 2650-2200 arasına, Geç Harappa (B) evresini ~MÖ 2315-1865 arasına koyar.","kaynak":"Kirk 1975 görüşü, Kanungo vd. 2024'ün aktarımıyla (ikincil); Lothal Geç Harappa (B) 14C zarfı için aşağıda ic_not · https://doi.org/10.1017/RDC.2024.119","kesinlik":"yuzyil","etiket":["arkeoloji"],"kaynak_turu":"arkeoloji"},{"onem":2,"dunya":1,"bolge_onem":2,"puan_s":"v2","tur":"kurulus","kapsam":"dis","bolge":1,"t":"-2449-01-01","yer_id":"Lothal","k":"kurulus","b":"Lothal: Lothal iskânı başlar","gun":"MÖ 2450 civarı","yer":"Lothal (લોથલ)","d":"Gujarat kıyısında Harappa liman/üretim kenti; Rao'ya göre Harappalılar c. MÖ 2450'de buraya geldi; kalibre TF tarihleri Olgun Harappa evresini ~MÖ 2650-2200 arasına, Geç Harappa (B) evresini ~MÖ 2315-1865 arasına koyar.","kaynak":"S.R. Rao 1962, Further excavations at Lothal, Lalit Kala 11:15 (Kanungo vd. 2024 üzerinden dolaylı alıntı); aynı yerde kalibre 14C ortalamaları 2452-2366 MÖ. Kanungo A.K. vd. 2024, 'Luminescence and radiocarbon chronology of Bhagatrav...', Radiocarbon, doi:10.1017/RDC.2024.119, Tablo 1 (kalibre değerler Possehl 1989'dan olduğu gibi aktarılmış, yeniden hesaplanmamış - dipnot 7) · https://doi.org/10.1017/RDC.2024.119","kesinlik":"yuzyil","etiket":["arkeoloji"],"kaynak_turu":"arkeoloji"},{"onem":2,"dunya":1,"bolge_onem":2,"puan_s":"v2","tur":"kurulus","kapsam":"dis","bolge":1,"t":"-2999-01-01","yer_id":"Dholavira","k":"kurulus","b":"Dholavira: Dholavira iskânı başlar","gun":"MÖ 3000 civarı","yer":"Dholavira (ધોળાવીરા)","d":"Kachchh (Khadir adası) Harappa kenti; UNESCO/ASI şemasına göre c. MÖ 3000'de başlayan, 7 aşamalı yaklaşık 1.500 yıllık iskân; Aşama VII (MÖ ~1500-1450) kentsel nitelik taşımayan son yerleşim, sonrasında hiç iskân edilmemiş.","kaynak":"UNESCO WHC Dossier 1645 Dholavira: A Harappan City, ICOMOS Advisory Body Evaluation (belge 189324, 2021; Hindistan/ASI başvurusuna dayanır), Basic data + Brief description; ayrıca whc.unesco.org/en/list/1645 Criterion (iii) metni · https://whc.unesco.org/document/189324","kesinlik":"yuzyil","etiket":["arkeoloji"],"kaynak_turu":"arkeoloji"},{"onem":2,"dunya":1,"bolge_onem":2,"puan_s":"v2","kapsam":"dis","bolge":1,"odak_yer":["Longcheng (Chaoyang)","Chifeng (Ulanhad)"],"t":"-2999-01-01","k":"kayip","b":"Hongshan kültürü / Niuheliang: Niuheliang dönemi sona erer","gun":"MÖ 3000 civarı","yer":"红山文化 / 牛河梁","d":"Batı Liao bölgesinde Neolitik Hongshan kültürü; Niuheliang tören kompleksi.","kaynak":"Aynı · https://pmc.ncbi.nlm.nih.gov/articles/PMC10427276/","kesinlik":"yuzyil","etiket":["arkeoloji"],"kaynak_turu":"arkeoloji"},{"onem":1,"dunya":1,"bolge_onem":1,"puan_s":"v2","kapsam":"dis","bolge":1,"odak_yer":["Jiangzhai (Yangshao, Banpo evresi halka hendekli köy)"],"t":"-3999-01-01","k":"kayip","b":"Jiangzhai (Yangshao, Banpo evresi halka hendekli köy): sona erer","gun":"MÖ 4000 civarı","yer":"姜寨遗址","d":"Yangshao kültüründe halka hendekli köy; izotop derlemesinde 20 birey örneklenmiş.","kaynak":"Aynı (Tablo 1) · https://pmc.ncbi.nlm.nih.gov/articles/PMC7641357/","kesinlik":"yuzyil","etiket":["arkeoloji"],"kaynak_turu":"arkeoloji"},{"onem":1,"dunya":1,"bolge_onem":1,"puan_s":"v2","kapsam":"dis","bolge":1,"odak_yer":["Banpo (Yangshao, Banpo evresi)"],"t":"-4299-01-01","k":"kayip","b":"Banpo (Yangshao, Banpo evresi): sona erer","gun":"MÖ 4300 civarı","yer":"半坡遗址","d":"Yangshao kültürünün Banpo evresi köyü; tablodaki 'tahmini tarih' sütunu, izotop örneklerinin geldiği yerleşimin kültürel evresine verilen cal BC aralığıdır.","kaynak":"Aynı (Tablo 1) · https://pmc.ncbi.nlm.nih.gov/articles/PMC7641357/","kesinlik":"yuzyil","etiket":["arkeoloji"],"kaynak_turu":"arkeoloji"},{"onem":3,"dunya":2,"bolge_onem":3,"puan_s":"v2","kapsam":"dis","bolge":1,"odak_yer":["Longcheng (Chaoyang)","Chifeng (Ulanhad)"],"t":"-4499-01-01","k":"gelisme","b":"Hongshan kültürü / Niuheliang: Hongshan (Niuheliang) dönemi başlar","gun":"MÖ 4500 civarı","yer":"红山文化 / 牛河梁","d":"Batı Liao bölgesinde Neolitik Hongshan kültürü; Niuheliang tören kompleksi.","kaynak":"Nelson S., Zhushchikhovskaya I., Li T., Hudson M., Robbeets M. 2020, Evolutionary Human Sciences 2:e5 (doi:10.1017/ehs.2020.4), Şekil 2 alt yazısı: '7, Niuheliang (4500–3000 BCE)' · https://pmc.ncbi.nlm.nih.gov/articles/PMC10427276/","kesinlik":"yuzyil","etiket":["arkeoloji"],"kaynak_turu":"arkeoloji"},{"onem":2,"dunya":1,"bolge_onem":2,"puan_s":"v2","kapsam":"dis","bolge":1,"odak_yer":["Banpo (Yangshao, Banpo evresi)"],"t":"-4799-01-01","k":"gelisme","b":"Banpo (Yangshao, Banpo evresi): Banpo yerleşimi (Yangshao)","gun":"MÖ 4800 civarı","yer":"半坡遗址","d":"Yangshao kültürünün Banpo evresi köyü; tablodaki 'tahmini tarih' sütunu, izotop örneklerinin geldiği yerleşimin kültürel evresine verilen cal BC aralığıdır.","kaynak":"Liu X., Reid R. 2020, PLOS ONE 15(11):e0240930, Tablo 1 (Banpo: 'Estimated dates (cal. BC/AD)' sütunu; doi:10.1371/journal.pone.0240930) · https://pmc.ncbi.nlm.nih.gov/articles/PMC7641357/","kesinlik":"yuzyil","etiket":["arkeoloji"],"kaynak_turu":"arkeoloji"},{"onem":2,"dunya":1,"bolge_onem":2,"puan_s":"v2","kapsam":"dis","bolge":1,"odak_yer":["Jiangzhai (Yangshao, Banpo evresi halka hendekli köy)"],"t":"-4899-01-01","k":"gelisme","b":"Jiangzhai (Yangshao, Banpo evresi halka hendekli köy): Jiangzhai yerleşimi (Yangshao)","gun":"MÖ 4900 civarı","yer":"姜寨遗址","d":"Yangshao kültüründe halka hendekli köy; izotop derlemesinde 20 birey örneklenmiş.","kaynak":"Liu X., Reid R. 2020, PLOS ONE 15(11):e0240930, Tablo 1 (Jiangzhai 'Estimated dates (cal. BC/AD)') · https://pmc.ncbi.nlm.nih.gov/articles/PMC7641357/","kesinlik":"yuzyil","etiket":["arkeoloji"],"kaynak_turu":"arkeoloji"},{"onem":3,"dunya":2,"bolge_onem":3,"puan_s":"v2","kapsam":"dis","bolge":1,"odak_yer":["Seul (Hanyang)","Pusan"],"t":"-5999-01-01","k":"gelisme","b":"Chulmun dönemi (Kore Neolitiği): Chulmun dönemi başlar (Kore)","gun":"MÖ 6000 civarı","yer":"빗살무늬토기시대 / Chulmun","d":"Kore'de çanak çömlekli avcı-toplayıcı-balıkçı dönem; Chulmun/Mumun geçişi ani ve bölgesel ölçekte.","kaynak":"Kim J., Park J. 2020, Evolutionary Human Sciences 2:e13 (doi:10.1017/ehs.2020.13), 'Introduction of millet to Korea' bölümü · https://pmc.ncbi.nlm.nih.gov/articles/PMC10427441/","kesinlik":"yuzyil","etiket":["arkeoloji"],"kaynak_turu":"arkeoloji"}];
+// ARKEOLOJİ KATMANI — Hint alt kıtası + Çin/Doğu Asya (3. dalga) (d3-hint-cin) · ARKEOLOJI-KATMANI-SARTNAME-1018 · üretici denetim/arkeoloji_uret_1020.py · 20 Ekim 2026
+// Girdi: denetim/arastirma/d3-hint-cin.json. Her tarih kaynaktan; orta nokta/alt sınır/tek değer beyanı ic_not_d'de. Üretilmiştir: elle düzenleme, JSON'u düzelt.
+window.OLAYLAR_ARKEOLOJI_D3_HINT_CIN = [
+ { onem:5, dunya:3, bolge_onem:5, puan_s:"v2","kapsam": "dis", "bolge": 1, "odak_yer":["Patna (Azîmâbâd)"],
+  "t": "-0183-01-01",
+  "k": "kayip",
+  "b": "Maurya İmparatorluğu: Maurya hanedanı sona erer",
+  "gun": "MÖ 184",
+  "yer": "Maurya (Magadha; başkent Pataliputra)",
+  "d": "Chandragupta (c. MÖ 321-297), Bindusara (25/27/28 yıl), Aşoka; hanedan Puranik 137 yıl toplamıyla c. MÖ 184'te Brihadratha'nın Pushyamitra tarafından öldürülmesiyle biter (Shunga dönemi).",
+  "kaynak": "Aynı eser: Puranik 137 yıllık dönem toplamı, hanedan sonu 'c. 184 B.C.', ardından Pushyamitra (Shunga) · https://archive.org/download/cambridgehistory01raps/cambridgehistory01raps_djvu.txt",
+  "kesinlik": "yil",
+  "kaynak_turu": "yazili",
+  "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «the Maurya dynasty lasted for 137 years ; that is to say, it is supposed to have come to an end c. 184 B.C.». kur.son_mo = Chandragupta'nın iktidarının sonu (297), hanedanın değil; hanedan sonu 'bit' içinde (184). Bu kaynak 1922 tarihli; modern literatürde (Thapar, Falk) Chandragupta ~321/317 aralığı, Aşoka ~268-232 kullanılıyor ama bu oturumda hakemli modern kaynağın tam metni OKUNAMADI. Aynı 321'e ikinci tanık: Bhattasali 1932 JRAS 64(2) '322-321' (önceki dalgada özet okundu) - ikisi de aynı geleneksel hesaba dayandığı için 'bağımsız çift teyit' sayılmaz. Jain tarihi 313/312, Charpentier hipotezi 325 başlangıç; çelişki beyan edildi. Histos 2015 (Fauconnier, 'Ex Occidente Imperium') açık erişimli PDF indirildi ama rakamlar yazı tipi nedeniyle metinde kayıp (yılların hiçbiri okunamadı), dayanak yapılmadı."
+ },
+ { onem:5, dunya:4, bolge_onem:5, puan_s:"v2", tur:"kurulus","kapsam": "dis", "bolge": 1, 
+  "t": "-0201-01-01",
+  "k": "kurulus",
+  "b": "Han hanedanının kuruluşu - Liu Bang'ın imparator ilanı (MÖ 202): Batı Han hanedanı kurulur",
+  "gun": "MÖ 202",
+  "yer": "漢高祖 / 劉邦即皇帝位 / Xi'an (Chang'an)",
+  "d": "Çu-Han savaşının ardından Liu Bang, Han 5. yılında imparatorluk unvanını aldı; Batı Han dönemi 202'den başlatılır.",
+  "kaynak": "Tong C.F. 2025, Early China 48:133-162, doi:10.1017/eac.2025.10032 ('Western Han dynasty (202 BCE-9 CE)') · https://www.cambridge.org/core/services/aop-cambridge-core/content/view/88CAA846820D79FE59DE99630ADB3528/S0362502825100321a.pdf/div-class-title-the-emergence-of-logistics-networks-and-financial-administration-during-the-qin-conquest-230-221-bce-div.pdf",
+  "kesinlik": "yil",
+  "kaynak_turu": "yazili",
+  "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynaktan okunan: «the Western Han dynasty (202 BCE-9 CE)». Birincil: Shiji 8 (Wikisource metni) 'Han 5. yıl' altında: '甲午，乃即皇帝位汜水之陽'; ay etiketi bu oturumda doğrulanmadı. GÜN ÇELİŞKİSİ (yalnız basında): Guangming/Zhonghua Dushubao 2019 (Zhang Yanqian): '公元前202年2月3日，刘邦在定陶称帝'; Baidu Baike/arama özeti 28 Şubat verir (dayanak değil, açılan akademik kaynak değil). Gün için akademik kaynak (Cambridge History of China 1, Loewe; Bielenstein) ulaşılamadı: 202 YIL hassasiyetinde kalır. 'Han 5. yıl = 202' Han yıl sayımının Liu Bang'ın 206 'Han Kralı' yılından başlaması (ZZTJ 高帝元年 = 前206) ile tutarlıdır (benim aritmetiğim).",
+  "odak_yer": [
+   "Xi'an (Chang'an)"
+  ]
+ },
+ { onem:4, dunya:3, bolge_onem:4, puan_s:"v2","kapsam": "dis", "bolge": 1, "odak_yer":["Patna (Azîmâbâd)"],
+  "t": "-0236-01-01",
+  "k": "kayip",
+  "b": "Aşoka'nın saltanatı ve XIII. Kaya Fermanı senkronizması: Aşoka ölür",
+  "gun": "MÖ 237",
+  "yer": "Aśoka; Rock Edict XIII",
+  "d": "Aşoka'nın saltanatı: CHI 1922'ye göre katılım ≤274, taç giyme ≤270, Kalinga fethi ≤262, ölüm 237/236 MÖ. XIII. Kaya Fermanı beş Helenistik kralı (Antiochos, Ptolemaios, Antigonos, Magas, İskender) canlı sayar; CHI Magas'ın 258'de ölümünden dolayı fermanı 'yaklaşık 258-257 MÖ'ya, geçici olarak, yerleştirir.",
+  "kaynak": "Aynı tablo: 'death 237 or 236 b.c. ?' (soru işaretli) · https://archive.org/download/cambridgehistory01raps/cambridgehistory01raps_djvu.txt",
+  "kesinlik": "yil",
+  "kaynak_turu": "yazili",
+  "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «death 237 or 236 b.c. ?». Senkronizma: CHI ferman XIII'ü '258-7 geçici tarih' ve 14. yıl varsayımıyla taç giymeyi en geç 270'e çeker. ÇELİŞKİ (kaynak 2): Charpentier J. 1931, 'Antiochus, King of the Yavanas', Bulletin of the School of Oriental Studies 6(2):303-321 (buddhism.lib.ntu.edu.tw tam metin okundu) Amtiyoka'yı Antiochos I (281-262/61) sayar ve fermanın yayın tarihi için 'en geç 261/260 MÖ' sınırını verir; alıntı 'Antiochus I (281-262/61 B.C.) and not Antiochus II (262/61-246 B.C.) is the Yavana king Amtiyoka'. Bu varsayımla Aşoka'nın katılımı 278-276'ya düşer (hipotez, 'working hypothesis' denir). Büyük çoğunluk Antiochos II'yi (261-246) kabul eder (Charpentier'in kendi aktardığı literatür). Modern 268/260 değerleri bu oturumda hakemli metinden okunamadı: kutuphane_gerekli (Falk 2006; Thapar 1997)."
+ },
+ { onem:4, dunya:3, bolge_onem:4, puan_s:"v2","kapsam": "dis", "bolge": 1, "odak_yer":["Patna (Azîmâbâd)"],
+  "t": "-0273-01-01",
+  "k": "gelisme",
+  "b": "Aşoka'nın saltanatı ve XIII. Kaya Fermanı senkronizması: Aşoka tahta çıkar",
+  "gun": "MÖ 274",
+  "yer": "Aśoka; Rock Edict XIII",
+  "d": "Aşoka'nın saltanatı: CHI 1922'ye göre katılım ≤274, taç giyme ≤270, Kalinga fethi ≤262, ölüm 237/236 MÖ. XIII. Kaya Fermanı beş Helenistik kralı (Antiochos, Ptolemaios, Antigonos, Magas, İskender) canlı sayar; CHI Magas'ın 258'de ölümünden dolayı fermanı 'yaklaşık 258-257 MÖ'ya, geçici olarak, yerleştirir.",
+  "kaynak": "Rapson 1922, Cambridge History of India vol. I, Aşoka Kronolojisi tablosu (s. 503 civarı): 'Aşoka 274-237 b.c., katılım en geç 274, taç giyme en geç 270'; OCR metni 'AQoka' diye bozuk · https://archive.org/download/cambridgehistory01raps/cambridgehistory01raps_djvu.txt",
+  "kesinlik": "yil",
+  "kaynak_turu": "yazili",
+  "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «Accession 274 b.c. at latest; coronation 270 B.c. at latest; conquest of Kaliiiga 262 b.c. at latest». Senkronizma: CHI ferman XIII'ü '258-7 geçici tarih' ve 14. yıl varsayımıyla taç giymeyi en geç 270'e çeker. ÇELİŞKİ (kaynak 2): Charpentier J. 1931, 'Antiochus, King of the Yavanas', Bulletin of the School of Oriental Studies 6(2):303-321 (buddhism.lib.ntu.edu.tw tam metin okundu) Amtiyoka'yı Antiochos I (281-262/61) sayar ve fermanın yayın tarihi için 'en geç 261/260 MÖ' sınırını verir; alıntı 'Antiochus I (281-262/61 B.C.) and not Antiochus II (262/61-246 B.C.) is the Yavana king Amtiyoka'. Bu varsayımla Aşoka'nın katılımı 278-276'ya düşer (hipotez, 'working hypothesis' denir). Büyük çoğunluk Antiochos II'yi (261-246) kabul eder (Charpentier'in kendi aktardığı literatür). Modern 268/260 değerleri bu oturumda hakemli metinden okunamadı: kutuphane_gerekli (Falk 2006; Thapar 1997)."
+ },
+ { onem:5, dunya:3, bolge_onem:5, puan_s:"v2", tur:"kurulus","kapsam": "dis", "bolge": 1, "odak_yer":["Patna (Azîmâbâd)"],
+  "t": "-0320-01-01",
+  "k": "kurulus",
+  "b": "Maurya İmparatorluğu: Maurya İmparatorluğu: Chandragupta dönemi başlar",
+  "gun": "MÖ 321",
+  "yer": "Maurya (Magadha; başkent Pataliputra) / Nanda; Dhana Nanda",
+  "d": "Chandragupta (c. MÖ 321-297), Bindusara (25/27/28 yıl), Aşoka; hanedan Puranik 137 yıl toplamıyla c. MÖ 184'te Brihadratha'nın Pushyamitra tarafından öldürülmesiyle biter (Shunga dönemi).",
+  "kaynak": "Rapson 1922, Cambridge History of India vol. I, giriş özeti ve Maurya hanedanı kronoloji tablosu: 'Chandragupta 321-297 b.c.' · https://archive.org/download/cambridgehistory01raps/cambridgehistory01raps_djvu.txt",
+  "kesinlik": "yil",
+  "kaynak_turu": "yazili",
+  "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «Chandragupta (c. 321-297 b.C.) the low-born son of Mura and the founder of the Maurya empire». kur.son_mo = Chandragupta'nın iktidarının sonu (297), hanedanın değil; hanedan sonu 'bit' içinde (184). Bu kaynak 1922 tarihli; modern literatürde (Thapar, Falk) Chandragupta ~321/317 aralığı, Aşoka ~268-232 kullanılıyor ama bu oturumda hakemli modern kaynağın tam metni OKUNAMADI. Aynı 321'e ikinci tanık: Bhattasali 1932 JRAS 64(2) '322-321' (önceki dalgada özet okundu) - ikisi de aynı geleneksel hesaba dayandığı için 'bağımsız çift teyit' sayılmaz. Jain tarihi 313/312, Charpentier hipotezi 325 başlangıç; çelişki beyan edildi. Histos 2015 (Fauconnier, 'Ex Occidente Imperium') açık erişimli PDF indirildi ama rakamlar yazı tipi nedeniyle metinde kayıp (yılların hiçbiri okunamadı), dayanak yapılmadı."
+ },
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, "odak_yer":["Patna (Azîmâbâd)"],
+  "t": "-0325-01-01",
+  "k": "gelisme",
+  "b": "Nanda hanedanı (Magadha): Dhana-Nanda Magadha'da (İskender çağı)",
+  "gun": "MÖ 326",
+  "yer": "Nanda; Dhana Nanda",
+  "d": "Dokuz Nanda (Mahapadma ve sekiz oğlu) Magadha'da; sonuncusu (Dhana Nanda) MÖ 326'da tahtta; MÖ ~321'de egemenlik Maurya'ya geçer. Kuruluş tarihi kaynakta verilmiyor.",
+  "kaynak": "Rapson 1922, Cambridge History of India vol. I (Nanda dönemi, 'Dhana-nanda'), İskender'in Hyphasis dönüşü senkronizmi; kuruluş (Mahapadma) tarihi kaynakta YOK (yalnız 'toplam 100 yıl' Puranik süre) · https://archive.org/download/cambridgehistory01raps/cambridgehistory01raps_djvu.txt",
+  "kesinlik": "yil",
+  "kaynak_turu": "yazili",
+  "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «was on the throne in 326 b.o., when Alexander the Great was obliged by the unwillingness of his army». 'bas_mo' bir kuruluş değil, 'MÖ 326'da tahtta olduğu' tanıklık tarihidir; kuruluş için dönem yazılmaz. Jain geleneği Chandragupta'nın iktidarını 313 (312) MÖ'ya koyar (CHI: 'The Jains put the date of Chandragupta's accession in 313 (312) B.C.'), Budist gelenekten 8 yıl geç; yani Nanda sonu için 321 ile 313/312 arasında iki gelenek vardır. Charpentier 1931 (BSOS 6:2, 303-321) ise Aşoka'yı geriden hesaplayıp Chandragupta'yı 327/325-303/301'e çıkarır (hipotez; ana akım dışı). Bhattasali 1932 (JRAS) 322-321'i 'sorgulanan çapa tarih' sayar (önceki dalga). Çift teyit YOK."
+ },
+ { onem:3, dunya:2, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, "odak_yer":["Qufu"],
+  "t": "-0480-01-01",
+  "k": "kayip",
+  "b": "Chunqiu (Bahar ve Güz Yıllıkları) kaydının başlangıcı: Chunqiu dönemi sona erer",
+  "gun": "MÖ 481",
+  "yer": "春秋 / 魯隱公元年",
+  "d": "Lu devletinin Chunqiu yıllığı Duke Yin'in 1. yılında (722) başlar ve Duke Ai'nin 14. yılında (481) biter; 'Bahar-Güz dönemi' adı bu metne dayanır.",
+  "kaynak": "Eno R. (ders metni, IU) · https://scholarworks.iu.edu/iuswrrest/api/core/bitstreams/3e3491dd-2ce0-458d-90ec-61999c088387/content",
+  "kesinlik": "yil",
+  "kaynak_turu": "yazili",
+  "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «from 722 B .C. to 481 B.C.». 722 SİYASİ BİR GEÇİŞ DEĞİL, Chunqiu METNİNİN başlangıcıdır; Doğu Zhou (770) ile 48 yıl fark vardır (Ning 2023: 722'de 'tianxia wudao' safhasına gerçek giriş). Milburn 2016 ve Tong 2025 Bahar-Güz dönemini 771/770'den başlatır (Tong 2025: 'Spring and Autumn period (c. 770-481 BCE)'). Bitiş için 481 dışında 464/476/475/453 aday dönem-sonları kaynaklarda dolaşır (arama özeti, dayanak değil). Hakemli İngilizce dergi makalesi bulunamadı; Eno ders metnidir (zayıf ikincil). Çift teyit: Ning 2023 (zh) + Eno (en) bağımsız iki kaynak ama ikisi de ikincil."
+ },
+ { onem:4, dunya:3, bolge_onem:4, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "odak_yer": [
+   "Cambridge"
+  ],
+  "t": "-0482-01-01",
+  "k": "ilk_anilis",
+  "b": "Buda'nın parinirvana tarihi (kronoloji dayanağı): Buda'nın parinirvanası (Cambridge History tarihi)",
+  "gun": "MÖ 483 civarı",
+  "yer": "Buddha parinirvāṇa",
+  "d": "CHI (1922) Buda'nın ölümünü, Ceylon vakayinamelerindeki 218 yıllık aralığı Aşoka'ya ekleyerek ~MÖ 483'e yerleştirir ve bunu 'geçici' sayar.",
+  "kaynak": "Rapson 1922, Cambridge History of India vol. I (Geiger/Mahavamsa tablosu: doğum 563, 'Attains nirvana 483') · https://archive.org/download/cambridgehistory01raps/cambridgehistory01raps_djvu.txt",
+  "kesinlik": "yuzyil",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "kaynak_turu": "arkeoloji",
+  "ic_not_d": "TEK DEĞER MÖ 483 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «The date 483 B.C. which is adopted in this History must still be regarded as provisional.». Tartışmalı tarih. 'Uzun/düzeltilmiş uzun' kronoloji (486/483) ile 'kısa' kronoloji (~MÖ 400 ve sonrası; Bechert ed. 1991-97 'Die Datierung des historischen Buddha') çatışır; bu oturumda Bechert cildi, Gombrich, Norman, Cousins metinleri OKUNAMADI (JIABS Heidelberg indirmesi Anubis/HTML döndü, OpenLearn 403). Turriff 2009 (Concordia MA tezi, ikincil) Sarao'nun 397 MÖ önerisini aktarır. Maurya/Magadha tarihlerinin bu yüzden iki seçenekli olduğu not edilmeli."
+ },
+ { onem:4, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, "odak_yer":["Rajagriha (Rājgīr)"],
+  "t": "-0542-01-01",
+  "k": "gelisme",
+  "b": "Magadha yükselişi (Bimbisara ve Ajatashatru): Bimbisara Magadha tahtına çıkar",
+  "gun": "MÖ 543",
+  "yer": "Magadha; Bimbisāra, Ajātaśatru",
+  "d": "Cambridge History of India (1922) Sinhala vakayinamelerine dayalı Geiger kronolojisiyle Bimbisara'nın 543-491, Ajatashatru'nun 491-459 MÖ hüküm sürdüğünü verir; Magadha'nın yükselişi Anga'nın fethiyle (Bimbisara, c. MÖ 600) başlar, Kashi-Kosala-Videha üstünlüğü Ajatashatru'ya atfedilir.",
+  "kaynak": "Rapson E.J. (ed.) 1922, The Cambridge History of India vol. I (Ancient India), bölüm 'Buddhism and the early Buddhist chronology' içindeki Geiger/Mahavamsa kronoloji tablosu (Bimbisara: ilk sayfa 'accession 543, death 491'); Cambridge, İngilizce, archive.org djvu OCR'dan okundu. ESKİ (1922) kaynaktır, modern yeniden tarihleme için aşağıya bak · https://archive.org/download/cambridgehistory01raps/cambridgehistory01raps_djvu.txt",
+  "kesinlik": "yil",
+  "kaynak_turu": "yazili",
+  "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «accession . . . 543 death ... 491 Ajata9atru's accession ... 491 ,, death ... 459». Kaynak içi tutarsızlık: aynı eser Anga fethini 'Bimbisara, c. 600 b.c.' (alıntı: 'The expansion began with the conquest of Anga (Monghyr and Bhagalpur in Bengal) by Bimbisara, c. 600 b.c.' - OCR 'Ahga') diye verir, tablo ise iktidar başlangıcını 543'e koyar. Kaynak, Brahman/Budist/Jain üç geleneğin uyuşmadığını ve Puranik reign süreleri (Bimbisara 28/38, Ajatashatru 25/27/28 yıl) metninin bozuk olduğunu belirtir; Geiger tablosunu 'en iyi çalışma hipotezi' sayar. Bu tablo Buda ölümünü 483'e bağlayan UZUN kronolojiye dayanır (aşağıdaki Buda kaydına bak); kısa kronoloji (Bechert) Bimbisara/Ajatashatru'yu ~60-100 yıl geç çeker, kaynağı okunamadı (Heidelberg JIABS Anubis, OpenLearn 403). Modern tek tarih verisi okunmadığından haritaya 'yaklaşık' beyanıyla girebilir."
+ },
+ { onem:3, dunya:2, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, "odak_yer":["Qufu"],
+  "t": "-0721-01-01",
+  "k": "ilk_anilis",
+  "b": "Chunqiu (Bahar ve Güz Yıllıkları) kaydının başlangıcı: Chunqiu dönemi başlar",
+  "gun": "MÖ 722",
+  "yer": "春秋 / 魯隱公元年",
+  "d": "Lu devletinin Chunqiu yıllığı Duke Yin'in 1. yılında (722) başlar ve Duke Ai'nin 14. yılında (481) biter; 'Bahar-Güz dönemi' adı bu metne dayanır.",
+  "kaynak": "Ning Dengguo 2023, Guangming Daily 24.07.2023 (722); Eno R., Indiana Univ. History G380 ders metni 4.12 (722-481) · https://news.gmw.cn/2023-07/24/content_36716000.htm",
+  "kesinlik": "yil",
+  "kaynak_turu": "yazili",
+  "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «鲁隐公元年（前722）». 722 SİYASİ BİR GEÇİŞ DEĞİL, Chunqiu METNİNİN başlangıcıdır; Doğu Zhou (770) ile 48 yıl fark vardır (Ning 2023: 722'de 'tianxia wudao' safhasına gerçek giriş). Milburn 2016 ve Tong 2025 Bahar-Güz dönemini 771/770'den başlatır (Tong 2025: 'Spring and Autumn period (c. 770-481 BCE)'). Bitiş için 481 dışında 464/476/475/453 aday dönem-sonları kaynaklarda dolaşır (arama özeti, dayanak değil). Hakemli İngilizce dergi makalesi bulunamadı; Eno ders metnidir (zayıf ikincil). Çift teyit: Ning 2023 (zh) + Eno (en) bağımsız iki kaynak ama ikisi de ikincil."
+ },
+ { onem:5, dunya:3, bolge_onem:5, puan_s:"v2","kapsam": "dis", "bolge": 1, "odak_yer":["Haojing (Fenghao, Xi'an yakını)","Qi İlçesi (Zhaoge)"],
+  "t": "-1045-01-01",
+  "k": "fetih",
+  "b": "Zhou'nun Shang'ı fethi (Muye) - tarih çelişkisi: Zhou Shang'ı yener (1046; kaynaklar 1045/1044/1040/1050 diyor)",
+  "gun": "MÖ 1046",
+  "yer": "武王伐紂 / 牧野之戰 / 周 / 豐鎬 / 商 / Haojing (Fenghao, Xi'an yakını)",
+  "d": "Kral Wu'nun Shang'a karşı zaferi (Muye) ve Zhou hanedanının kuruluşu; hakemli literatürde tarih 1050/1046/1045/1044/1040 arasında çelişkilidir.",
+  "kaynak": "Pankenier D.W. 1992, 'The Bamboo Annals Revisited ... Part 1', BSOAS 55(2):272-297 · https://www.jstor.org/stable/619624 (PDF metin Lehigh: https://www.lehigh.edu/~dwp0/Assets/images/bambooannals1.pdf)",
+  "kesinlik": "yil",
+  "kaynak_turu": "yazili",
+  "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynaktan okunan: «the Zhou 4th month in the year of the Conquest (April 26, 1046 B.C.». ÇELİŞKİ, ORTALANMADI. (a) Pankenier 1992: fetih yılı 1046 (4. ay yeni ay günü gengzi = 26 Nisan 1046, Yi Zhou shu 'Shi fu' ile). (b) Shaughnessy 1985/1991: 1045. (c) Nivison: 1040 (+ astronomik 'yuexiang' verilerine göre yalnız 1045 veya 1040 mümkün diyor). (d) Zhang P. 2023: sefer 1046, fetih 1044 (aynı Zhang 2023, 1045 ve 1027'yi anmaz). (e) BA geleneksel metin 1050. Atlas XSZ tek değer kullanacaksa 1046 (Pankenier+Proje) seçilip diğerleri ic_not'ta beyan edilmeli. 1027: bu oturumda KAYNAKTA FETİH TARİHİ olarak bulunamadı; Nivison 2011 yalnız BA'daki bir 'sui zai jiayin [1027]' not-etiketini anar (silinmesi gereken sonradan eklenti) - fetih adayı değildir. 1122 (geleneksel) bu oturumda okunan kaynakta yok."
+ },
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2", tur:"kurulus","kapsam": "dis", "bolge": 1, "odak_yer":["Seul (Hanyang)","Pusan"],
+  "t": "-1299-01-01",
+  "k": "kurulus",
+  "b": "Mumun dönemi başlangıcı (pirinç/Bronz Çağı) - kalibre karşılaştırma: Mumun dönemi başlar (Kore)",
+  "gun": "MÖ 1300 (ALT SINIR; donem-toplami MÖ 1300–400)",
+  "yer": "무문토기시대 / 빗살무늬토기시대 / Chulmun",
+  "d": "Mumun dönemi; pirinç + darı tarımı, yerleşim düzeninin topyekûn değişimi.",
+  "kaynak": "Kim J., Park J. 2020, Evolutionary Human Sciences (doi:10.1017/ehs.2020.13) · https://pmc.ncbi.nlm.nih.gov/articles/PMC10427441/",
+  "kesinlik": "yuzyil",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "kaynak_turu": "arkeoloji",
+  "aralik": {
+   "bas": "-1299-01-01",
+   "son": "-0399-01-01",
+   "guven": "belirsiz",
+   "tur": "donem-toplami"
+  },
+  "ic_not_d": "donem-toplami aralığı (MÖ 1300–400) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «the Mumun Period (1300–400 BCE) began». KALİBRE ALTERNATİF 1: Craig O. vd. 2025, PNAS 122(30):e2504414122 (doi:10.1073/pnas.2504414122, PMC12318219): pirinç Kore'de 'Early Mumun'da %90 HPDI 1677-1161 cal BCE ('although earlier dates have been proposed'). ALTERNATİF 2 (ham BP uyarılı): Kim & Bae 2010 geçiş ~2300 BC. Kim & Park 2020'nin 1300 değeri periyotlandırmadır; Hudson & Robbeets 2020 (önceki dalga) aynı 1300-400'ü verir - çift teyit sayılmaz (aynı gelenek, aynı alan). Korece kaynak (KCI/DBpia/earticle) tam metni bu oturumda alınamadı; bkz. kutuphane_gerekli."
+ },
+ { onem:2, dunya:1, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-1499-01-01",
+  "yer_id": "Dholavira",
+  "k": "kayip",
+  "b": "Dholavira: Dholavira Aşama VII sona erer",
+  "gun": "MÖ 1500 (ALT SINIR; donem-toplami MÖ 1500–1450)",
+  "yer": "Dholavira (ધોળાવીરા)",
+  "d": "Kachchh (Khadir adası) Harappa kenti; UNESCO/ASI şemasına göre c. MÖ 3000'de başlayan, 7 aşamalı yaklaşık 1.500 yıllık iskân; Aşama VII (MÖ ~1500-1450) kentsel nitelik taşımayan son yerleşim, sonrasında hiç iskân edilmemiş.",
+  "kaynak": "Aynı ICOMOS değerlendirmesi, Aşama VII (Stage VII) tanımı; dönem-toplamı, tek olay kalibre aralığı değil · https://whc.unesco.org/document/189324",
+  "kesinlik": "yuzyil",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "kaynak_turu": "arkeoloji",
+  "aralik": {
+   "bas": "-1499-01-01",
+   "son": "-1449-01-01",
+   "guven": "belirsiz",
+   "tur": "donem-toplami"
+  },
+  "ic_not_d": "donem-toplami aralığı (MÖ 1500–1450) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynak sınıfı: veri-tabani (birincil kazı yayını okunmadı). Kaynaktan okunan: «Stage VII (c. 1500-1450 BCE) shows the arrival of a new settler after 300 years of vacancy». AŞAMA TABLOSU (ICOMOS/UNESCO, ASI kaynaklı): I-III 3000-2500 (I: ~3000-2900, II: ~2900-2800, III: ~2800-2500); IV 2500-2100; V 2100-2000 (deprem, kısa terk); VI 1950-1800; VII 1500-1450; boşluklar 2000-1950 ve 1800-1500 MÖ. ÇELİŞKİ 1: Sengupta vd. (JQS, doi:10.1002/jqs.3178, Crossref özeti okundu, TAM METİN kapalı) yedi kültürel aşamadan arkeolojik karbonatların 14C tarihlemesiyle iskânın başlangıcını '~5500 yıl BP (pre-Harappan)', devamını '~3800 yıl BP'ye (Geç Harappa başı)' kadar verir: alıntı 'suggests the beginning of occupation at ~5500 years BP (pre-Harappan), continuation until ~3800 years BP'. Özette kalibre mi ham mı belirtilmemiş; kalibre varsayılırsa BP-1950 ile ~MÖ 3550 ve ~MÖ 1850 (bu oturumda hesap, onaylı değil). Bu, UNESCO c.3000'den ~550 yıl eski bir başlangıçtır ve haritaya yazılmadan tam metinle (Tablo) çözülmelidir. ÇELİŞKİ 2: Bisht'in orijinal ASI tablosu (Aşama I 2650-2550 ... VII 1650-1450) ve 'Aşama I 3500-3200' yeniden tarihlemesi yalnız Vikipedi/arama özeti aktarımıyla görüldü, dayanak yapılmadı. Çift teyit YOK: UNESCO dosyası ile Sengupta özeti uyuşmuyor."
+ },
+ { onem:4, dunya:3, bolge_onem:4, puan_s:"v2", tur:"kurulus","kapsam": "dis", "bolge": 1, 
+  "odak_yer": [
+   "Yinxu"
+  ],
+  "t": "-1499-01-01",
+  "k": "kurulus",
+  "b": "Shang hanedan/dönem sınırları (Erligang-Yinxu çerçevesi): Shang dönemi başlar (14C modeli)",
+  "gun": "MÖ 1500 civarı",
+  "yer": "商",
+  "d": "Shang'ın başlangıcı için iki değer: ~1500 (Sci Rep 2018, Erligang Zhengzhou) ve ~1600 (Dönemlendirme Projesi; önceki dalga, Guangming Daily/Lee 2007). Son: Zhou fethi 1046 (Li 2002) ile 14C ~1041.",
+  "kaynak": "Liu R., Rawson J., Pollard A.M. 2018, Scientific Reports 8:11770 (doi:10.1038/s41598-018-30275-2), Özet: 'the Shang period (ca. 1500–1046 BC)'; ayrıca Erligang (Zhengzhou) ca. 1500-1300, Yinxu II ca. 1200-1046 · https://pmc.ncbi.nlm.nih.gov/articles/PMC6079070/",
+  "kesinlik": "yuzyil",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "kaynak_turu": "arkeoloji",
+  "ic_not_d": "TEK DEĞER MÖ 1500 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «the Shang period (ca. 1500–1046 BC)». ÇELİŞKİ: başlangıç 1600 (proje, önceki dalga kayıtları) vs ~1500 (Sci Rep 2018, Fang 2022 Zhengzhou 1509). Tek seçmedim. Li X.Q. 2002 J. East Asian Archaeol. 4:1-4 (doi:10.1163/156852302322454585) ve Qiu S.H. 2002 Chinese Archaeology 2:6 (doi:10.1515/char.2002.2.1.6) açık değil -> kutuphane_gerekli. Bitiş: 1046 (Li 2002) ile 1041 (Liu K. vd. 2020, %68) arası ~5 yıl - çift teyit değil, farklı yöntemler; ikisi de Liu K. vd.'nin metninden okundu (Li 2002 ikinci elden)."
+ },
+ { onem:2, dunya:1, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-1999-01-01",
+  "yer_id": "Lothal",
+  "k": "kayip",
+  "b": "Lothal: Lothal'in gerilemesi",
+  "gun": "MÖ 2000 civarı",
+  "yer": "Lothal (લોથલ)",
+  "d": "Gujarat kıyısında Harappa liman/üretim kenti; Rao'ya göre Harappalılar c. MÖ 2450'de buraya geldi; kalibre TF tarihleri Olgun Harappa evresini ~MÖ 2650-2200 arasına, Geç Harappa (B) evresini ~MÖ 2315-1865 arasına koyar.",
+  "kaynak": "Kirk 1975 görüşü, Kanungo vd. 2024'ün aktarımıyla (ikincil); Lothal Geç Harappa (B) 14C zarfı için aşağıda ic_not · https://doi.org/10.1017/RDC.2024.119",
+  "kesinlik": "yuzyil",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "kaynak_turu": "arkeoloji",
+  "ic_not_d": "TEK DEĞER MÖ 2000 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «by 2000 BCE, the prosperity of Lothal was waning». Kanungo vd. 2024 Tablo 1 (Possehl 1989'dan, 'kalibre tarihler orijinal yayınlardaki gibi, yeniden hesaplanmadı'): Lothal B TF-19 3759±135 BP = 2315-1865 BC; TF-23 3816±105 BP = 2320-1959 BC (ortalamalar 2275, 2210, 2307 BC). Lothal A TF-22 vd.: 3850-4032 BP = 2340-1980 .. 2655-2185 BC (TF-136 en eski, 2655-2185); TF-135 3507±125 = 1950-1570 BC (aykırı). Tablo düzeni metin çıkarımında bozuk, A/B etiket eşleşmesi kesin değil; bu nedenle kayıt tek bir kalibre uç yerine Rao beyanı + ortalama olarak verildi. Rao'nun sel kuramı sonradan terk edilmiş (Herman 1996). Orijinal ASI Memoir 78 (Rao 1979/1984) OKUNAMADI; kalibre kaynak Possehl 1989 de okunamadı (kutuphane_gerekli). Khadkikar vd. 2004 (Antiquity 78) yalnız paleocoğrafya."
+ },
+ { onem:2, dunya:1, bolge_onem:2, puan_s:"v2", tur:"kurulus","kapsam": "dis", "bolge": 1, 
+  "t": "-2449-01-01",
+  "yer_id": "Lothal",
+  "k": "kurulus",
+  "b": "Lothal: Lothal iskânı başlar",
+  "gun": "MÖ 2450 civarı",
+  "yer": "Lothal (લોથલ)",
+  "d": "Gujarat kıyısında Harappa liman/üretim kenti; Rao'ya göre Harappalılar c. MÖ 2450'de buraya geldi; kalibre TF tarihleri Olgun Harappa evresini ~MÖ 2650-2200 arasına, Geç Harappa (B) evresini ~MÖ 2315-1865 arasına koyar.",
+  "kaynak": "S.R. Rao 1962, Further excavations at Lothal, Lalit Kala 11:15 (Kanungo vd. 2024 üzerinden dolaylı alıntı); aynı yerde kalibre 14C ortalamaları 2452-2366 MÖ. Kanungo A.K. vd. 2024, 'Luminescence and radiocarbon chronology of Bhagatrav...', Radiocarbon, doi:10.1017/RDC.2024.119, Tablo 1 (kalibre değerler Possehl 1989'dan olduğu gibi aktarılmış, yeniden hesaplanmamış - dipnot 7) · https://doi.org/10.1017/RDC.2024.119",
+  "kesinlik": "yuzyil",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "kaynak_turu": "arkeoloji",
+  "ic_not_d": "TEK DEĞER MÖ 2450 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «Average: 2452, 2427, 2395, 2374 and 2366 BC». Kanungo vd. 2024 Tablo 1 (Possehl 1989'dan, 'kalibre tarihler orijinal yayınlardaki gibi, yeniden hesaplanmadı'): Lothal B TF-19 3759±135 BP = 2315-1865 BC; TF-23 3816±105 BP = 2320-1959 BC (ortalamalar 2275, 2210, 2307 BC). Lothal A TF-22 vd.: 3850-4032 BP = 2340-1980 .. 2655-2185 BC (TF-136 en eski, 2655-2185); TF-135 3507±125 = 1950-1570 BC (aykırı). Tablo düzeni metin çıkarımında bozuk, A/B etiket eşleşmesi kesin değil; bu nedenle kayıt tek bir kalibre uç yerine Rao beyanı + ortalama olarak verildi. Rao'nun sel kuramı sonradan terk edilmiş (Herman 1996). Orijinal ASI Memoir 78 (Rao 1979/1984) OKUNAMADI; kalibre kaynak Possehl 1989 de okunamadı (kutuphane_gerekli). Khadkikar vd. 2004 (Antiquity 78) yalnız paleocoğrafya."
+ },
+ { onem:2, dunya:1, bolge_onem:2, puan_s:"v2", tur:"kurulus","kapsam": "dis", "bolge": 1, 
+  "t": "-2999-01-01",
+  "yer_id": "Dholavira",
+  "k": "kurulus",
+  "b": "Dholavira: Dholavira iskânı başlar",
+  "gun": "MÖ 3000 civarı",
+  "yer": "Dholavira (ધોળાવીરા)",
+  "d": "Kachchh (Khadir adası) Harappa kenti; UNESCO/ASI şemasına göre c. MÖ 3000'de başlayan, 7 aşamalı yaklaşık 1.500 yıllık iskân; Aşama VII (MÖ ~1500-1450) kentsel nitelik taşımayan son yerleşim, sonrasında hiç iskân edilmemiş.",
+  "kaynak": "UNESCO WHC Dossier 1645 Dholavira: A Harappan City, ICOMOS Advisory Body Evaluation (belge 189324, 2021; Hindistan/ASI başvurusuna dayanır), Basic data + Brief description; ayrıca whc.unesco.org/en/list/1645 Criterion (iii) metni · https://whc.unesco.org/document/189324",
+  "kesinlik": "yuzyil",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "kaynak_turu": "arkeoloji",
+  "ic_not_d": "TEK DEĞER MÖ 3000 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: veri-tabani (birincil kazı yayını okunmadı). Kaynaktan okunan: «The occupation of the site spans 1,500 years beginning in c. 3000 BCE, and is divided into 7 stages.». AŞAMA TABLOSU (ICOMOS/UNESCO, ASI kaynaklı): I-III 3000-2500 (I: ~3000-2900, II: ~2900-2800, III: ~2800-2500); IV 2500-2100; V 2100-2000 (deprem, kısa terk); VI 1950-1800; VII 1500-1450; boşluklar 2000-1950 ve 1800-1500 MÖ. ÇELİŞKİ 1: Sengupta vd. (JQS, doi:10.1002/jqs.3178, Crossref özeti okundu, TAM METİN kapalı) yedi kültürel aşamadan arkeolojik karbonatların 14C tarihlemesiyle iskânın başlangıcını '~5500 yıl BP (pre-Harappan)', devamını '~3800 yıl BP'ye (Geç Harappa başı)' kadar verir: alıntı 'suggests the beginning of occupation at ~5500 years BP (pre-Harappan), continuation until ~3800 years BP'. Özette kalibre mi ham mı belirtilmemiş; kalibre varsayılırsa BP-1950 ile ~MÖ 3550 ve ~MÖ 1850 (bu oturumda hesap, onaylı değil). Bu, UNESCO c.3000'den ~550 yıl eski bir başlangıçtır ve haritaya yazılmadan tam metinle (Tablo) çözülmelidir. ÇELİŞKİ 2: Bisht'in orijinal ASI tablosu (Aşama I 2650-2550 ... VII 1650-1450) ve 'Aşama I 3500-3200' yeniden tarihlemesi yalnız Vikipedi/arama özeti aktarımıyla görüldü, dayanak yapılmadı. Çift teyit YOK: UNESCO dosyası ile Sengupta özeti uyuşmuyor."
+ },
+ { onem:2, dunya:1, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, "odak_yer":["Longcheng (Chaoyang)","Chifeng (Ulanhad)"],
+  "t": "-2999-01-01",
+  "k": "kayip",
+  "b": "Hongshan kültürü / Niuheliang: Niuheliang dönemi sona erer",
+  "gun": "MÖ 3000 civarı",
+  "yer": "红山文化 / 牛河梁",
+  "d": "Batı Liao bölgesinde Neolitik Hongshan kültürü; Niuheliang tören kompleksi.",
+  "kaynak": "Aynı · https://pmc.ncbi.nlm.nih.gov/articles/PMC10427276/",
+  "kesinlik": "yuzyil",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "kaynak_turu": "arkeoloji",
+  "ic_not_d": "TEK DEĞER MÖ 3000 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «7, Niuheliang (4500–3000 BCE)». ZAYIF: site/kültür dönem aralığıdır (derleme şekil altyazısı), kalibre 14C tablosu DEĞİL. Başka akademik değer: Jeong (Korece dergi, Barun Academy of History, J. Korean History & Culture 2024, doi:10.55793/jkhc.2024.19.191, özet) Hongshan '4700 BCE - 3000 BCE' - makale Hongshan'ı Kore tarihine bağlayan yorum içerir, yalnız aralık değeri not edilir, dayanak sayılmadı. Hongshan Baiyinchanghan sitesi 4300-3900 (Liu & Reid 2020, Tablo 1). Niuheliang kalibre 14C tablosu (Drennan vd. Antiquity 2017; Zhang vd. J World Prehist 2013) açık erişimde değil -> kutuphane_gerekli."
+ },
+ { onem:1, dunya:1, bolge_onem:1, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "odak_yer": [
+   "Jiangzhai (Yangshao, Banpo evresi halka hendekli köy)"
+  ],
+  "t": "-3999-01-01",
+  "k": "kayip",
+  "b": "Jiangzhai (Yangshao, Banpo evresi halka hendekli köy): sona erer",
+  "gun": "MÖ 4000 civarı",
+  "yer": "姜寨遗址",
+  "d": "Yangshao kültüründe halka hendekli köy; izotop derlemesinde 20 birey örneklenmiş.",
+  "kaynak": "Aynı (Tablo 1) · https://pmc.ncbi.nlm.nih.gov/articles/PMC7641357/",
+  "kesinlik": "yuzyil",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "kaynak_turu": "arkeoloji",
+  "ic_not_d": "TEK DEĞER MÖ 4000 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «Jiangzhai 24 A Shaanxi Yangshao 4900–4000». ZAYIF/İKİNCİL (Banpo ile aynı uyarı): derleme tablosundaki tahmini tarih; Jiangzhai kazı raporunun kalibre 14C tablosu bu oturumda okunamadı. Aynı sütunda PLOS ONE kümesinde Banpo 4800-4300. Gedachuan (Frontiers Plant Sci 2022, PMC9362993) 'Banpo evresi batı Les Platosu'nda ~5600 BP'ye dek sürdü' der - Banpo/Jiangzhai değil, ayrı alan; yazılmadı."
+ },
+ { onem:1, dunya:1, bolge_onem:1, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "odak_yer": [
+   "Banpo (Yangshao, Banpo evresi)"
+  ],
+  "t": "-4299-01-01",
+  "k": "kayip",
+  "b": "Banpo (Yangshao, Banpo evresi): sona erer",
+  "gun": "MÖ 4300 civarı",
+  "yer": "半坡遗址",
+  "d": "Yangshao kültürünün Banpo evresi köyü; tablodaki 'tahmini tarih' sütunu, izotop örneklerinin geldiği yerleşimin kültürel evresine verilen cal BC aralığıdır.",
+  "kaynak": "Aynı (Tablo 1) · https://pmc.ncbi.nlm.nih.gov/articles/PMC7641357/",
+  "kesinlik": "yuzyil",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "kaynak_turu": "arkeoloji",
+  "ic_not_d": "TEK DEĞER MÖ 4300 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «Banpo 20 A Shaanxi Yangshao 4800–4300». ZAYIF/İKİNCİL. Değer, bir beslenme-izotopu derlemesinin tablosundaki 'tahmini tarih'tir (alt kaynak [42], bu oturumda açılmadı); Banpo'ya özgü kalibre 14C tablosu DEĞİLDİR. Önceki dalganın Frontiers Earth Sci 2021 'erken Yangshao 5000-4200' değeriyle çelişmez ama çift teyit sayılmaz. Aynı derlemede Jiangzhai (Yangshao) 4900-4000. Doğrulama için Banpo kazı raporu 14C tablosu gerekir (kutuphane_gerekli)."
+ },
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, "odak_yer":["Longcheng (Chaoyang)","Chifeng (Ulanhad)"],
+  "t": "-4499-01-01",
+  "k": "gelisme",
+  "b": "Hongshan kültürü / Niuheliang: Hongshan (Niuheliang) dönemi başlar",
+  "gun": "MÖ 4500 civarı",
+  "yer": "红山文化 / 牛河梁",
+  "d": "Batı Liao bölgesinde Neolitik Hongshan kültürü; Niuheliang tören kompleksi.",
+  "kaynak": "Nelson S., Zhushchikhovskaya I., Li T., Hudson M., Robbeets M. 2020, Evolutionary Human Sciences 2:e5 (doi:10.1017/ehs.2020.4), Şekil 2 alt yazısı: '7, Niuheliang (4500–3000 BCE)' · https://pmc.ncbi.nlm.nih.gov/articles/PMC10427276/",
+  "kesinlik": "yuzyil",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "kaynak_turu": "arkeoloji",
+  "ic_not_d": "TEK DEĞER MÖ 4500 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «7, Niuheliang (4500–3000 BCE)». ZAYIF: site/kültür dönem aralığıdır (derleme şekil altyazısı), kalibre 14C tablosu DEĞİL. Başka akademik değer: Jeong (Korece dergi, Barun Academy of History, J. Korean History & Culture 2024, doi:10.55793/jkhc.2024.19.191, özet) Hongshan '4700 BCE - 3000 BCE' - makale Hongshan'ı Kore tarihine bağlayan yorum içerir, yalnız aralık değeri not edilir, dayanak sayılmadı. Hongshan Baiyinchanghan sitesi 4300-3900 (Liu & Reid 2020, Tablo 1). Niuheliang kalibre 14C tablosu (Drennan vd. Antiquity 2017; Zhang vd. J World Prehist 2013) açık erişimde değil -> kutuphane_gerekli."
+ },
+ { onem:2, dunya:1, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "odak_yer": [
+   "Banpo (Yangshao, Banpo evresi)"
+  ],
+  "t": "-4799-01-01",
+  "k": "gelisme",
+  "b": "Banpo (Yangshao, Banpo evresi): Banpo yerleşimi (Yangshao)",
+  "gun": "MÖ 4800 civarı",
+  "yer": "半坡遗址",
+  "d": "Yangshao kültürünün Banpo evresi köyü; tablodaki 'tahmini tarih' sütunu, izotop örneklerinin geldiği yerleşimin kültürel evresine verilen cal BC aralığıdır.",
+  "kaynak": "Liu X., Reid R. 2020, PLOS ONE 15(11):e0240930, Tablo 1 (Banpo: 'Estimated dates (cal. BC/AD)' sütunu; doi:10.1371/journal.pone.0240930) · https://pmc.ncbi.nlm.nih.gov/articles/PMC7641357/",
+  "kesinlik": "yuzyil",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "kaynak_turu": "arkeoloji",
+  "ic_not_d": "TEK DEĞER MÖ 4800 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «Banpo 20 A Shaanxi Yangshao 4800–4300». ZAYIF/İKİNCİL. Değer, bir beslenme-izotopu derlemesinin tablosundaki 'tahmini tarih'tir (alt kaynak [42], bu oturumda açılmadı); Banpo'ya özgü kalibre 14C tablosu DEĞİLDİR. Önceki dalganın Frontiers Earth Sci 2021 'erken Yangshao 5000-4200' değeriyle çelişmez ama çift teyit sayılmaz. Aynı derlemede Jiangzhai (Yangshao) 4900-4000. Doğrulama için Banpo kazı raporu 14C tablosu gerekir (kutuphane_gerekli)."
+ },
+ { onem:2, dunya:1, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "odak_yer": [
+   "Jiangzhai (Yangshao, Banpo evresi halka hendekli köy)"
+  ],
+  "t": "-4899-01-01",
+  "k": "gelisme",
+  "b": "Jiangzhai (Yangshao, Banpo evresi halka hendekli köy): Jiangzhai yerleşimi (Yangshao)",
+  "gun": "MÖ 4900 civarı",
+  "yer": "姜寨遗址",
+  "d": "Yangshao kültüründe halka hendekli köy; izotop derlemesinde 20 birey örneklenmiş.",
+  "kaynak": "Liu X., Reid R. 2020, PLOS ONE 15(11):e0240930, Tablo 1 (Jiangzhai 'Estimated dates (cal. BC/AD)') · https://pmc.ncbi.nlm.nih.gov/articles/PMC7641357/",
+  "kesinlik": "yuzyil",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "kaynak_turu": "arkeoloji",
+  "ic_not_d": "TEK DEĞER MÖ 4900 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «Jiangzhai 24 A Shaanxi Yangshao 4900–4000». ZAYIF/İKİNCİL (Banpo ile aynı uyarı): derleme tablosundaki tahmini tarih; Jiangzhai kazı raporunun kalibre 14C tablosu bu oturumda okunamadı. Aynı sütunda PLOS ONE kümesinde Banpo 4800-4300. Gedachuan (Frontiers Plant Sci 2022, PMC9362993) 'Banpo evresi batı Les Platosu'nda ~5600 BP'ye dek sürdü' der - Banpo/Jiangzhai değil, ayrı alan; yazılmadı."
+ },
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, "odak_yer":["Seul (Hanyang)","Pusan"],
+  "t": "-5999-01-01",
+  "k": "gelisme",
+  "b": "Chulmun dönemi (Kore Neolitiği): Chulmun dönemi başlar (Kore)",
+  "gun": "MÖ 6000 civarı",
+  "yer": "빗살무늬토기시대 / Chulmun",
+  "d": "Kore'de çanak çömlekli avcı-toplayıcı-balıkçı dönem; Chulmun/Mumun geçişi ani ve bölgesel ölçekte.",
+  "kaynak": "Kim J., Park J. 2020, Evolutionary Human Sciences 2:e13 (doi:10.1017/ehs.2020.13), 'Introduction of millet to Korea' bölümü · https://pmc.ncbi.nlm.nih.gov/articles/PMC10427441/",
+  "kesinlik": "yuzyil",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "kaynak_turu": "arkeoloji",
+  "ic_not_d": "TEK DEĞER MÖ 6000 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «millet first appeared in the Chulmun Period (6000–1300 BCE)». Dönem sınırları geleneksel periyotlandırmadır (kalibre bir olay aralığı değil). Darı Kore'ye: Craig vd. 2025 PNAS 122(30), Bayes %90 HPDI 5772-3490 cal BCE (Orta Neolitik/Chulmun) - varış zamanı, dönem başı değil. Kim J.C. & Bae C.J. 2010 Radiocarbon 52(2-3):483-492 (doi:10.1017/S0033822200045513): Neolitik-Bronz geçişi 'as early as ~2300 BC' başlayıp 800-900 yıl sürdü; tabloda ham (kalibre edilmemiş) BP olduğundan sayılar yazılmadı, yalnız yazarların sonuç cümlesi not. Mumun başı Kim & Park'ta 1300 vs Kim & Bae'de ~2300'e uzanan erken geçiş: KORE İÇİ ÇELİŞKİ - tek seçilmedi."
+ }
+];
 
 ;
 /* ==== data/olaylar_arkeoloji_d3-misir-afrika.js ==== */
-// data/olaylar_arkeoloji_d3-misir-afrika.js — paketle.py İNCELTTİ: ic_not* alanları yayına gitmez (kaynak dosya değişmedi)
-window.OLAYLAR_ARKEOLOJI_D3_MISIR_AFRIKA = [{"onem":5,"dunya":4,"bolge_onem":5,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-0029-01-01","k":"fetih","b":"Roma Misiri'nin basi - Octavian Iskenderiye'yi alir: Roma Mısır'ı alır (Octavian)","gun":"MÖ 30","yer":"Aegyptus / İskenderiye","d":"30 MO Agustos: Octavian Iskenderiye'yi alir; resmi 'kratesis' 1 Thoth = 29 Agustos 30 MO'dan hesaplanir (18 gunluk Antonius cocuklari 'saltanati' ile kapatilarak).","kaynak":"Bowman AK. 'Egypt' in Cambridge Ancient History X (The Augustan Empire 43 BC-AD 69), 2. baski, Cambridge UP 1996 (cevrimici 28 Mart 2008) - sayfa numarasi okunamadi · https://www.cambridge.org/core/books/cambridge-ancient-history/egypt/C5873D3CD7ABF1F42AB65D9E45BC8168","kesinlik":"yil","kaynak_turu":"yazili","odak_yer":["İskenderiye"]},{"onem":4,"dunya":3,"bolge_onem":4,"puan_s":"v2","tur":"kurulus","kapsam":"dis","bolge":1,"odak_yer":["İskenderiye"],"t":"-0331-01-01","k":"kurulus","b":"Iskenderiye'nin kurulusu: İskenderiye kurulur (gelenek)","gun":"MÖ 332","yer":"Alexandreia / Alexandria","d":"Iskender Rhakotis yerlesimi yanina kenti kurar; gelenek 331 (nisan), bazi kaynaklar 332.","kaynak":"Pleiades 727070 Alexandria (aciklama alani) · https://pleiades.stoa.org/places/727070","kesinlik":"yil","kaynak_turu":"yazili"},{"onem":3,"dunya":2,"bolge_onem":3,"puan_s":"v2","kapsam":"dis","bolge":1,"odak_yer":["Kerma"],"t":"-1079-01-01","k":"kayip","b":"Nubya'nin Yeni Krallik Misir'i tarafindan fethi / Misir isgali (Kerma sonrasi): Nubya'da Mısır işgali sona erer","gun":"MÖ 1080 civarı","yer":"Egyptian Occupation of Kush","d":"Kerma krallıgi Yeni Krallik firavunlarinca fethedildi; kerma.ch fethi I. Thutmosis'e (1496-1483) atfeder, Misir etkisinin III. Kataraktin guneyinde ancak III. Thutmosis'te (1479-1424) hissedildigini belirtir.","kaynak":"Kerma arkeoloji misyonu (Mission archeologique suisse au Soudan / Univ. Geneve) resmi tarih sayfasi: 'Kingdom of Kerma' kronoloji, kerma.ch/en/history/ · https://kerma.ch/en/history/","kesinlik":"yuzyil","etiket":["arkeoloji"],"kaynak_turu":"arkeoloji"},{"onem":4,"dunya":2,"bolge_onem":4,"puan_s":"v2","kapsam":"dis","bolge":1,"odak_yer":["Kerma"],"t":"-1479-01-01","k":"fetih","b":"Nubya'nin Yeni Krallik Misir'i tarafindan fethi / Misir isgali (Kerma sonrasi): Nubya'da Mısır işgali başlar","gun":"MÖ 1480 civarı","yer":"Egyptian Occupation of Kush / Kerma Classique / Kerma Recent / Final","d":"Kerma krallıgi Yeni Krallik firavunlarinca fethedildi; kerma.ch fethi I. Thutmosis'e (1496-1483) atfeder, Misir etkisinin III. Kataraktin guneyinde ancak III. Thutmosis'te (1479-1424) hissedildigini belirtir.","kaynak":"Kerma arkeoloji misyonu (Mission archeologique suisse au Soudan / Univ. Geneve) resmi tarih sayfasi: 'Kingdom of Kerma' kronoloji, kerma.ch/en/history/ · https://kerma.ch/en/history/","kesinlik":"yuzyil","etiket":["arkeoloji"],"kaynak_turu":"arkeoloji"},{"onem":3,"dunya":2,"bolge_onem":3,"puan_s":"v2","kapsam":"dis","bolge":1,"odak_yer":["Aba"],"t":"-1499-01-01","k":"gelisme","b":"Nok Kulturu (Orta Nijerya): Nok Kültürü başlar","gun":"MÖ 1500 civarı","yer":"Nok culture","d":"Nok kulturu 1500-1 cal BC; terrakotta heykeller yalnizca 900 cal BC sonrasina ait.","kaynak":"Höhn A, Champion L, Neumann K, Franke G, Breunig P. 2022. A question of rite - pearl millet consumption at Nok culture sites, Nigeria (second/first millennium BC). Veg Hist Archaeobot, Giris (Breunig & Rupp 2016; Franke 2016a atfi). doi:10.1007/s00334-022-00902-0 (CC-BY) · https://link.springer.com/content/pdf/10.1007/s00334-022-00902-0.pdf","kesinlik":"yuzyil","etiket":["arkeoloji"],"kaynak_turu":"arkeoloji"},{"onem":4,"dunya":2,"bolge_onem":4,"puan_s":"v2","kapsam":"dis","bolge":1,"odak_yer":["Avaris"],"t":"-1531-01-01","k":"kayip","b":"Hiksoslarin Avaris'ten atilisi (Ahmose'nin Avaris fethi): Avaris Ahmose'ye geçer (Hiksos sonu)","gun":"MÖ 1532 civarı","yer":"Hyksos / 15. Hanedan - Avaris","d":"Ahmose'nin Avaris'i almasi Hiksos 15. Hanedan'in sonunu isaretler; Tell el-Dab'a'da bu 'sehrin buyuk olcude terk edilmesi' ile gorulur (Bietak 2023: tahrip/yanginlar yok, olasi teslimiyet).","kaynak":"Bruins HJ, van der Plicht J. 2025. The Minoan Thera eruption predates Pharaoh Ahmose. PLoS ONE (PMC12422448), Tablo (Ahmose II - tarihsel kronolojiler): 'Conquest Avaris, ca year 18: ca 1532 (Shaw 2000), ca 1521 (Hornung vd. 2006), ca 1506 (Krauss & Warburton)'; Bietak M. 2023, Avaris/Tell el-Dab'a, Osterreichs archaologische Forschung in Agypten nach 1945 (Abb. 23/84: 'DATUM LINE ... AHMOSE ~1530 BC', Almanca) · https://pmc.ncbi.nlm.nih.gov/articles/PMC12422448/","kesinlik":"yuzyil","etiket":["arkeoloji"],"kaynak_turu":"arkeoloji"},{"onem":3,"dunya":1,"bolge_onem":3,"puan_s":"v2","kapsam":"dis","bolge":1,"odak_yer":["Kerma"],"t":"-1749-01-01","k":"gelisme","b":"Klasik Kerma (Kerma Classique): Klasik Kerma başlar","gun":"MÖ 1750 civarı","yer":"Kerma Classique / Kerma Moyen","d":"Klasik Kerma (Kerma Classique) seramik kronolojisinde donem 1750-1480 MO (kerma.ch).","kaynak":"Kerma arkeoloji misyonu (Mission archeologique suisse au Soudan / Univ. Geneve) resmi tarih sayfasi: 'Kingdom of Kerma' kronoloji, kerma.ch/en/history/ · https://kerma.ch/en/history/","kesinlik":"yuzyil","etiket":["arkeoloji"],"kaynak_turu":"arkeoloji"},{"onem":1,"dunya":1,"bolge_onem":1,"puan_s":"v2","kapsam":"dis","bolge":1,"odak_yer":["Hierakonpolis HK11C (Naqada IC-IIB iskan)"],"t":"-3463-01-01","k":"kayip","b":"Hierakonpolis HK11C (Naqada IC-IIB iskan): HK11C iskânı sona erer (Naqada IIB/IIC)","gun":"MÖ 3562–3367 arası (orta nokta MÖ 3464)","yer":"Nekhen / Kom el-Ahmar","d":"HK11C Naqada IC-IIB boyunca surekli iskan goren Predinastik yerlesim; mutlak sinirlar Naqada fazlari uzerinden modellenmis gecis araliklaridir, HK11C'nin kendi modeli degildir.","kaynak":"Dee vd. 2013, Tablo 1: Naqada IIB/IIC gecisi (HK11 cop birikimi Naqada IIC'ye uzanir) · https://pmc.ncbi.nlm.nih.gov/articles/PMC3780825/","kesinlik":"yuzyil","etiket":["arkeoloji"],"kaynak_turu":"arkeoloji","aralik":{"bas":"-3561-01-01","son":"-3366-01-01","guven":"95","tur":"kalibre-14C"}},{"onem":2,"dunya":1,"bolge_onem":2,"puan_s":"v2","kapsam":"dis","bolge":1,"odak_yer":["Hierakonpolis HK11C (Naqada IC-IIB iskan)"],"t":"-3639-01-01","k":"gelisme","b":"Hierakonpolis HK11C (Naqada IC-IIB iskan): Hierakonpolis HK11C iskânı (Naqada IB/IC)","gun":"MÖ 3731–3550 arası (orta nokta MÖ 3640)","yer":"Nekhen / Kom el-Ahmar","d":"HK11C Naqada IC-IIB boyunca surekli iskan goren Predinastik yerlesim; mutlak sinirlar Naqada fazlari uzerinden modellenmis gecis araliklaridir, HK11C'nin kendi modeli degildir.","kaynak":"Dee vd. 2013 (Naqada IB/IC gecisi, model, Naqada alanlari: Naqada, Ballas, Abydos U, Naga ed-Der, Hierakonpolis); HK11'in Naqada IC-IIB atamasi: Friedman 2002 Cracow raporu (onceki dalgada okundu) · https://pmc.ncbi.nlm.nih.gov/articles/PMC3780825/","kesinlik":"yuzyil","etiket":["arkeoloji"],"kaynak_turu":"arkeoloji","aralik":{"bas":"-3730-01-01","son":"-3549-01-01","guven":"95","tur":"kalibre-14C"}},{"onem":3,"dunya":2,"bolge_onem":3,"puan_s":"v2","kapsam":"dis","bolge":1,"odak_yer":["Mopti"],"t":"-9249-01-01","k":"ilk_anilis","b":"Ounjougou (Ravin de la Mouche) - Afrika'nin en eski seramigi: Afrika'nın en erken çanak çömleği (Ounjougou)","gun":"MÖ 9250 civarı","yer":"Ounjougou, Mali","d":"HA1 biriminde kucuk bifasyal ok uclu litik endustriyle iliskili ilk seramik parcalari; ustteki HA2 tortusu terminus ante quem verir: 9758+-70 BP (ETH-28746) ve 9510+-70 BP (ETH-31279).","kaynak":"Huysecom E vd. 2009. The emergence of pottery in Africa during the tenth millennium cal BC: new evidence from Ounjougou (Mali). Antiquity 83(322):905-917 - baslik; 'before 9400 cal BC' ifadesi ARAMA/depo OZETINDEN alindi, makale SAYFASI ACILAMADI (Cambridge 500); Rotunno & Crema 2025 (PMC12494898) metninde: 'pottery as early as 11,200 cal BP' [24] · https://pmc.ncbi.nlm.nih.gov/articles/PMC12494898/","kesinlik":"yuzyil","etiket":["arkeoloji"],"kaynak_turu":"arkeoloji"},{"onem":3,"dunya":2,"bolge_onem":3,"puan_s":"v2","kapsam":"dis","bolge":1,"odak_yer":["Aba"],"t":"0000-01-01","k":"kayip","b":"Nok Kulturu (Orta Nijerya): Nok Kültürü sona erer","gun":"MÖ 1 civarı","yer":"Nok culture","d":"Nok kulturu 1500-1 cal BC; terrakotta heykeller yalnizca 900 cal BC sonrasina ait.","kaynak":"Ayni makale (ozet ve giris): 'dated 1500-1 cal bc'; 'ceramic styles continuity between 1500 cal bc and the turn of the common era (Franke 2016b)' · https://link.springer.com/content/pdf/10.1007/s00334-022-00902-0.pdf","kesinlik":"yuzyil","etiket":["arkeoloji"],"kaynak_turu":"arkeoloji"}];
+// ARKEOLOJİ KATMANI — Misir, Nubya, Sahra, Sahra-alti Afrika (d3-misir-afrika) · ARKEOLOJI-KATMANI-SARTNAME-1018 · üretici denetim/arkeoloji_uret_1020.py · 20 Ekim 2026
+// Girdi: denetim/arastirma/d3-misir-afrika.json. Her tarih kaynaktan; orta nokta/alt sınır/tek değer beyanı ic_not_d'de. Üretilmiştir: elle düzenleme, JSON'u düzelt.
+window.OLAYLAR_ARKEOLOJI_D3_MISIR_AFRIKA = [
+ { onem:5, dunya:4, bolge_onem:5, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-0029-01-01",
+  "k": "fetih",
+  "b": "Roma Misiri'nin basi - Octavian Iskenderiye'yi alir: Roma Mısır'ı alır (Octavian)",
+  "gun": "MÖ 30",
+  "yer": "Aegyptus / İskenderiye",
+  "d": "30 MO Agustos: Octavian Iskenderiye'yi alir; resmi 'kratesis' 1 Thoth = 29 Agustos 30 MO'dan hesaplanir (18 gunluk Antonius cocuklari 'saltanati' ile kapatilarak).",
+  "kaynak": "Bowman AK. 'Egypt' in Cambridge Ancient History X (The Augustan Empire 43 BC-AD 69), 2. baski, Cambridge UP 1996 (cevrimici 28 Mart 2008) - sayfa numarasi okunamadi · https://www.cambridge.org/core/books/cambridge-ancient-history/egypt/C5873D3CD7ABF1F42AB65D9E45BC8168",
+  "kesinlik": "yil",
+  "kaynak_turu": "yazili",
+  "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «In August of 30 B.C. ... Octavian had pursued Cleopatra and Mark Antony to Egypt». Alinti: 'settled on the first day of the new Egyptian year (1 Thoth = 29 August)' (CAH X, Bowman). Iskenderiye'nin alinma gunu (1 Agustos) bu sayfada degil; yalnizca 'Agustos 30 MO' okundu.",
+  "odak_yer": [
+   "İskenderiye"
+  ]
+ },
+ { onem:4, dunya:3, bolge_onem:4, puan_s:"v2", tur:"kurulus","kapsam": "dis", "bolge": 1, 
+  "odak_yer": [
+   "İskenderiye"
+  ],
+  "t": "-0331-01-01",
+  "k": "kurulus",
+  "b": "Iskenderiye'nin kurulusu: İskenderiye kurulur (gelenek)",
+  "gun": "MÖ 332",
+  "yer": "Alexandreia / Alexandria",
+  "d": "Iskender Rhakotis yerlesimi yanina kenti kurar; gelenek 331 (nisan), bazi kaynaklar 332.",
+  "kaynak": "Pleiades 727070 Alexandria (aciklama alani) · https://pleiades.stoa.org/places/727070",
+  "kesinlik": "yil",
+  "kaynak_turu": "yazili",
+  "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynak sınıfı: veri-tabani (birincil kazı yayını okunmadı). Kaynaktan okunan: «The ancient port city in Egypt's Nile Delta, founded by Alexander the Great in 332/331 BCE.». Brif 'MO 331 gelenegi' dedi; Pleiades 332/331 verir. Kuruluşun gunu icin birincil Arrian 3.1.5 / Plutarkhos okunmadi. Sehrin ilk sahibi Iskender (Makedon) -> MO 323 sonrasi Ptolemaios; baslangic MO 305/304 (kral unvani) icin okunmus kaynak yok (Caneva 2019 Aegyptus 99 Cloudflare 403) -> kutuphane_gerekli."
+ },
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "odak_yer": [
+   "Kerma"
+  ],
+  "t": "-1079-01-01",
+  "k": "kayip",
+  "b": "Nubya'nin Yeni Krallik Misir'i tarafindan fethi / Misir isgali (Kerma sonrasi): Nubya'da Mısır işgali sona erer",
+  "gun": "MÖ 1080 civarı",
+  "yer": "Egyptian Occupation of Kush",
+  "d": "Kerma krallıgi Yeni Krallik firavunlarinca fethedildi; kerma.ch fethi I. Thutmosis'e (1496-1483) atfeder, Misir etkisinin III. Kataraktin guneyinde ancak III. Thutmosis'te (1479-1424) hissedildigini belirtir.",
+  "kaynak": "Kerma arkeoloji misyonu (Mission archeologique suisse au Soudan / Univ. Geneve) resmi tarih sayfasi: 'Kingdom of Kerma' kronoloji, kerma.ch/en/history/ · https://kerma.ch/en/history/",
+  "kesinlik": "yuzyil",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "kaynak_turu": "arkeoloji",
+  "ic_not_d": "TEK DEĞER MÖ 1080 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynaktan okunan: «Egyptian Occupation, 1480-1080 B.C.». Sayfa kendi iclerinde tutarsiz: Final Kerma 1480-1450 ile Misir isgalinin 1480 baslangici cakisir; I. Thutmosis 1496-1483 isgal basindan once biter. Bronk Ramsey 2010 (95% hpd): III. Thutmosis tahta cikisi 1498-1474 (Shaw/Hornung okullari 1479/1479). Yeni Krallik SONU/Ucuncu Ara Donem basi icin okunmus kaynak yok: Bronk Ramsey 2010 yalnizca XX. Hanedan'in kral cikislarini verir (Ramses XI cikisi 95%: 1116-1090) - dinastinin bitisi DEGIL."
+ },
+ { onem:4, dunya:2, bolge_onem:4, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "odak_yer": [
+   "Kerma"
+  ],
+  "t": "-1479-01-01",
+  "k": "fetih",
+  "b": "Nubya'nin Yeni Krallik Misir'i tarafindan fethi / Misir isgali (Kerma sonrasi): Nubya'da Mısır işgali başlar",
+  "gun": "MÖ 1480 civarı",
+  "yer": "Egyptian Occupation of Kush / Kerma Classique / Kerma Recent / Final",
+  "d": "Kerma krallıgi Yeni Krallik firavunlarinca fethedildi; kerma.ch fethi I. Thutmosis'e (1496-1483) atfeder, Misir etkisinin III. Kataraktin guneyinde ancak III. Thutmosis'te (1479-1424) hissedildigini belirtir.",
+  "kaynak": "Kerma arkeoloji misyonu (Mission archeologique suisse au Soudan / Univ. Geneve) resmi tarih sayfasi: 'Kingdom of Kerma' kronoloji, kerma.ch/en/history/ · https://kerma.ch/en/history/",
+  "kesinlik": "yuzyil",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "kaynak_turu": "arkeoloji",
+  "ic_not_d": "TEK DEĞER MÖ 1480 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynaktan okunan: «Egyptian Occupation, 1480-1080 B.C. 'Conquest of Nubia by the Egyptian pharaohs of the New Kingdom.'». Sayfa kendi iclerinde tutarsiz: Final Kerma 1480-1450 ile Misir isgalinin 1480 baslangici cakisir; I. Thutmosis 1496-1483 isgal basindan once biter. Bronk Ramsey 2010 (95% hpd): III. Thutmosis tahta cikisi 1498-1474 (Shaw/Hornung okullari 1479/1479). Yeni Krallik SONU/Ucuncu Ara Donem basi icin okunmus kaynak yok: Bronk Ramsey 2010 yalnizca XX. Hanedan'in kral cikislarini verir (Ramses XI cikisi 95%: 1116-1090) - dinastinin bitisi DEGIL."
+ },
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1,  "odak_yer":["Aba"], 
+  "t": "-1499-01-01",
+  "k": "gelisme",
+  "b": "Nok Kulturu (Orta Nijerya): Nok Kültürü başlar",
+  "gun": "MÖ 1500 civarı",
+  "yer": "Nok culture",
+  "d": "Nok kulturu 1500-1 cal BC; terrakotta heykeller yalnizca 900 cal BC sonrasina ait.",
+  "kaynak": "Höhn A, Champion L, Neumann K, Franke G, Breunig P. 2022. A question of rite - pearl millet consumption at Nok culture sites, Nigeria (second/first millennium BC). Veg Hist Archaeobot, Giris (Breunig & Rupp 2016; Franke 2016a atfi). doi:10.1007/s00334-022-00902-0 (CC-BY) · https://link.springer.com/content/pdf/10.1007/s00334-022-00902-0.pdf",
+  "kesinlik": "yuzyil",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "kaynak_turu": "arkeoloji",
+  "ic_not_d": "TEK DEĞER MÖ 1500 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «the Nok culture of central Nigeria (1500-1 cal bc; Breunig and Rupp 2016; Franke 2016a)». Birincil kaynak Franke 2016 (J African Archaeol 14(3):257-289) ve Frankfurt tezi (Potsherds in Time, docId 42210) bot korumasiyla okunamadi -> kutuphane/yerel erisim gerekli. Faz sinirlari (3 faz, 7 seramik grubu) sayisal okunamadi; yalnizca butun kultur ucu ve '900 cal BC' terrakotta esigi. Aynı makale ayni donemde Gajiganna 1800-800, Kintampo 2100-1400, Tichitt ~2000 cal BC verir."
+ },
+ { onem:4, dunya:2, bolge_onem:4, puan_s:"v2","kapsam": "dis", "bolge": 1,  "odak_yer":["Avaris"], 
+  "t": "-1531-01-01",
+  "k": "kayip",
+  "b": "Hiksoslarin Avaris'ten atilisi (Ahmose'nin Avaris fethi): Avaris Ahmose'ye geçer (Hiksos sonu)",
+  "gun": "MÖ 1532 civarı",
+  "yer": "Hyksos / 15. Hanedan - Avaris",
+  "d": "Ahmose'nin Avaris'i almasi Hiksos 15. Hanedan'in sonunu isaretler; Tell el-Dab'a'da bu 'sehrin buyuk olcude terk edilmesi' ile gorulur (Bietak 2023: tahrip/yanginlar yok, olasi teslimiyet).",
+  "kaynak": "Bruins HJ, van der Plicht J. 2025. The Minoan Thera eruption predates Pharaoh Ahmose. PLoS ONE (PMC12422448), Tablo (Ahmose II - tarihsel kronolojiler): 'Conquest Avaris, ca year 18: ca 1532 (Shaw 2000), ca 1521 (Hornung vd. 2006), ca 1506 (Krauss & Warburton)'; Bietak M. 2023, Avaris/Tell el-Dab'a, Osterreichs archaologische Forschung in Agypten nach 1945 (Abb. 23/84: 'DATUM LINE ... AHMOSE ~1530 BC', Almanca) · https://pmc.ncbi.nlm.nih.gov/articles/PMC12422448/",
+  "kesinlik": "yuzyil",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "kaynak_turu": "arkeoloji",
+  "ic_not_d": "TEK DEĞER MÖ 1532 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «Conquest Avaris, ca year 18 ... ca 1532 ... ca 1530 ... ca 1521 ... ca 1506». BIRBIRINE UYMAYAN OKULLAR: Shaw ca 1532; Schneider ca 1530; Hornung vd. ca 1521; Krauss & Warburton ca 1506 (Bruins 2025 tablosu: sutun hizalamasi metin cikarimidir, Wente 1552, Breasted 1562). Bietak 2023 'Hyksos sonu ca. 1530 BC' (Abb.). BASLANGIC (15. Hanedan kurulusu / Hiksos'un Avaris'te gucu alisi) kaynakli bulunamadi: Bietak 2024 (Chronos, Aegis 26, 57-81, 'The Timespan of Hyksos Rule', stratigrafik 105-112 yil, arama ozetinden - OKUNMADI) -> kutuphane_gerekli. Kutschera vd. 2012 (Radiocarbon 54) 14C'si ~120 yil daha yaşli Tell el-Dab'a tarihleri verir (arama ozeti); grafik, sayisal tablo okunamadi."
+ },
+ { onem:3, dunya:1, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "odak_yer": [
+   "Kerma"
+  ],
+  "t": "-1749-01-01",
+  "k": "gelisme",
+  "b": "Klasik Kerma (Kerma Classique): Klasik Kerma başlar",
+  "gun": "MÖ 1750 civarı",
+  "yer": "Kerma Classique / Kerma Moyen",
+  "d": "Klasik Kerma (Kerma Classique) seramik kronolojisinde donem 1750-1480 MO (kerma.ch).",
+  "kaynak": "Kerma arkeoloji misyonu (Mission archeologique suisse au Soudan / Univ. Geneve) resmi tarih sayfasi: 'Kingdom of Kerma' kronoloji, kerma.ch/en/history/ · https://kerma.ch/en/history/",
+  "kesinlik": "yuzyil",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "kaynak_turu": "arkeoloji",
+  "ic_not_d": "TEK DEĞER MÖ 1750 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynaktan okunan: «Classic Kerma (circa 1750-1480 B.C.)». KRONOLOJI CELISKISI: kerma.ch Early Kerma 2450-2050; Honegger (Neuchatel, arama ozeti, sayfa ACILAMADI) Early 2550-2050 / Middle 2050-1750 / Classic 1750-1500; ucuncu bir yayin Classic 1750-1580 + Final 1580-1500 verir (arama ozeti, kullanilmadi). Hakemli/kalibre tablo (Bonnet 1999; Honegger 2005 Genava 53; Bonnet-Valbelle) icin tam metin okunamadi -> kutuphane_gerekli. Degerler kalibre 14C sınırı DEGIL, seramik donem adlandirma tarihleridir."
+ },
+ { onem:1, dunya:1, bolge_onem:1, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "odak_yer": [
+   "Hierakonpolis HK11C (Naqada IC-IIB iskan)"
+  ],
+  "t": "-3463-01-01",
+  "k": "kayip",
+  "b": "Hierakonpolis HK11C (Naqada IC-IIB iskan): HK11C iskânı sona erer (Naqada IIB/IIC)",
+  "gun": "MÖ 3562–3367 arası (orta nokta MÖ 3464)",
+  "yer": "Nekhen / Kom el-Ahmar",
+  "d": "HK11C Naqada IC-IIB boyunca surekli iskan goren Predinastik yerlesim; mutlak sinirlar Naqada fazlari uzerinden modellenmis gecis araliklaridir, HK11C'nin kendi modeli degildir.",
+  "kaynak": "Dee vd. 2013, Tablo 1: Naqada IIB/IIC gecisi (HK11 cop birikimi Naqada IIC'ye uzanir) · https://pmc.ncbi.nlm.nih.gov/articles/PMC3780825/",
+  "kesinlik": "yuzyil",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "kaynak_turu": "arkeoloji",
+  "aralik": {
+   "bas": "-3561-01-01",
+   "son": "-3366-01-01",
+   "guven": "95",
+   "tur": "kalibre-14C"
+  },
+  "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 3562–3367 (kaynağın verdiği uçlar); orta nokta MÖ 3464 = astronomik -3463. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: 95. Kaynaktan okunan: «IIB/IIC 3498 3413 (68%) 3562 3367 (95%)». UYARI: kur/bit HK11C'ye ozgu bir Bayes modeli DEGIL; Dee 2013 modelinde Hierakonpolis dortluden biridir ama faz sinirlari butun sahalar icin ortaktir; HK11C'nin IC-IIB atamasi gorece kronolojidir (Friedman). Yardimci veri (IntChron, VERI TABANI KALIBRASYONU, ham degil, ortalama +- sigma, 95.4 DEGIL): HK11 Lokalite 11c/11a komur/odun serisi: WIS-1151 -3517+-87 (Mound A Level 14), WIS-1152 -3695+-83 (Level 6), WIS-1153 -3576+-92, WIS-1168 -3486+-97, W-4353 -3480+-110, UW-104 -3488+-113, UW-105 -3485+-114; WIS-1181 odun -3278+-142 (sapma). Yani kaba MO ~3700-3350. Bunlar 1970-80 ham odun/komur dizisidir (eski-odun etkisi olasi) - sinir olarak kullanma. Burleigh 1983 kabuk (BM-1127A/B) HK33 'boyali mezar', ham 5000+-90 BP."
+ },
+ { onem:2, dunya:1, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "odak_yer": [
+   "Hierakonpolis HK11C (Naqada IC-IIB iskan)"
+  ],
+  "t": "-3639-01-01",
+  "k": "gelisme",
+  "b": "Hierakonpolis HK11C (Naqada IC-IIB iskan): Hierakonpolis HK11C iskânı (Naqada IB/IC)",
+  "gun": "MÖ 3731–3550 arası (orta nokta MÖ 3640)",
+  "yer": "Nekhen / Kom el-Ahmar",
+  "d": "HK11C Naqada IC-IIB boyunca surekli iskan goren Predinastik yerlesim; mutlak sinirlar Naqada fazlari uzerinden modellenmis gecis araliklaridir, HK11C'nin kendi modeli degildir.",
+  "kaynak": "Dee vd. 2013 (Naqada IB/IC gecisi, model, Naqada alanlari: Naqada, Ballas, Abydos U, Naga ed-Der, Hierakonpolis); HK11'in Naqada IC-IIB atamasi: Friedman 2002 Cracow raporu (onceki dalgada okundu) · https://pmc.ncbi.nlm.nih.gov/articles/PMC3780825/",
+  "kesinlik": "yuzyil",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "kaynak_turu": "arkeoloji",
+  "aralik": {
+   "bas": "-3730-01-01",
+   "son": "-3549-01-01",
+   "guven": "95",
+   "tur": "kalibre-14C"
+  },
+  "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 3731–3550 (kaynağın verdiği uçlar); orta nokta MÖ 3640 = astronomik -3639. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: 95. Kaynaktan okunan: «Naqada IB/IC 3690 3605 (68%) 3731 3550 (95%) [Tablo 1 satiri]». UYARI: kur/bit HK11C'ye ozgu bir Bayes modeli DEGIL; Dee 2013 modelinde Hierakonpolis dortluden biridir ama faz sinirlari butun sahalar icin ortaktir; HK11C'nin IC-IIB atamasi gorece kronolojidir (Friedman). Yardimci veri (IntChron, VERI TABANI KALIBRASYONU, ham degil, ortalama +- sigma, 95.4 DEGIL): HK11 Lokalite 11c/11a komur/odun serisi: WIS-1151 -3517+-87 (Mound A Level 14), WIS-1152 -3695+-83 (Level 6), WIS-1153 -3576+-92, WIS-1168 -3486+-97, W-4353 -3480+-110, UW-104 -3488+-113, UW-105 -3485+-114; WIS-1181 odun -3278+-142 (sapma). Yani kaba MO ~3700-3350. Bunlar 1970-80 ham odun/komur dizisidir (eski-odun etkisi olasi) - sinir olarak kullanma. Burleigh 1983 kabuk (BM-1127A/B) HK33 'boyali mezar', ham 5000+-90 BP."
+ },
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, "odak_yer":["Mopti"],
+  "t": "-9249-01-01",
+  "k": "ilk_anilis",
+  "b": "Ounjougou (Ravin de la Mouche) - Afrika'nin en eski seramigi: Afrika'nın en erken çanak çömleği (Ounjougou)",
+  "gun": "MÖ 9250 civarı",
+  "yer": "Ounjougou, Mali",
+  "d": "HA1 biriminde kucuk bifasyal ok uclu litik endustriyle iliskili ilk seramik parcalari; ustteki HA2 tortusu terminus ante quem verir: 9758+-70 BP (ETH-28746) ve 9510+-70 BP (ETH-31279).",
+  "kaynak": "Huysecom E vd. 2009. The emergence of pottery in Africa during the tenth millennium cal BC: new evidence from Ounjougou (Mali). Antiquity 83(322):905-917 - baslik; 'before 9400 cal BC' ifadesi ARAMA/depo OZETINDEN alindi, makale SAYFASI ACILAMADI (Cambridge 500); Rotunno & Crema 2025 (PMC12494898) metninde: 'pottery as early as 11,200 cal BP' [24] · https://pmc.ncbi.nlm.nih.gov/articles/PMC12494898/",
+  "kesinlik": "yuzyil",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "kaynak_turu": "arkeoloji",
+  "ic_not_d": "TEK DEĞER MÖ 9250 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «pottery as early as 11,200 cal BP». IKI DEGER: Antiquity 2009 ozeti 'before 9400 cal BC' (= >11350 cal BP, ozet arama sonucundan, sayfa okunmadi); Rotunno-Crema 2025 'as early as 11,200 cal BP' = MO 9250 (calBP-1950, bu oturumda). Fark ~150 yil; tek seçim: alt sinir olarak 9400 (Huysecom orijinali) tercih edilirse tam metin sart. Ham HA2 tarihleri (9758+-70 / 9510+-70 BP) HAM, kalibre degil -> sinir olarak yazilmadi."
+ },
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1,  "odak_yer":["Aba"], 
+  "t": "0000-01-01",
+  "k": "kayip",
+  "b": "Nok Kulturu (Orta Nijerya): Nok Kültürü sona erer",
+  "gun": "MÖ 1 civarı",
+  "yer": "Nok culture",
+  "d": "Nok kulturu 1500-1 cal BC; terrakotta heykeller yalnizca 900 cal BC sonrasina ait.",
+  "kaynak": "Ayni makale (ozet ve giris): 'dated 1500-1 cal bc'; 'ceramic styles continuity between 1500 cal bc and the turn of the common era (Franke 2016b)' · https://link.springer.com/content/pdf/10.1007/s00334-022-00902-0.pdf",
+  "kesinlik": "yuzyil",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "kaynak_turu": "arkeoloji",
+  "ic_not_d": "TEK DEĞER MÖ 1 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «dated 1500-1 cal bc ... terracotta sculptures ... only made during a limited period after 900 cal bc». Birincil kaynak Franke 2016 (J African Archaeol 14(3):257-289) ve Frankfurt tezi (Potsherds in Time, docId 42210) bot korumasiyla okunamadi -> kutuphane/yerel erisim gerekli. Faz sinirlari (3 faz, 7 seramik grubu) sayisal okunamadi; yalnizca butun kultur ucu ve '900 cal BC' terrakotta esigi. Aynı makale ayni donemde Gajiganna 1800-800, Kintampo 2100-1400, Tichitt ~2000 cal BC verir."
+ }
+];
 
 ;
 /* ==== data/olaylar_arkeoloji_d3-italya-avrupa.js ==== */
-// data/olaylar_arkeoloji_d3-italya-avrupa.js — paketle.py İNCELTTİ: ic_not* alanları yayına gitmez (kaynak dosya değişmedi)
-window.OLAYLAR_ARKEOLOJI_D3_ITALYA_AVRUPA = [{"onem":5,"dunya":4,"bolge_onem":5,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-0507-01-01","k":"gelisme","b":"Roma: Krallık -> Cumhuriyet (ilk konsüller) - YAZILI GELENEK: Roma: Krallık sona erer, Cumhuriyet (gelenek)","gun":"MÖ 508","yer":"Expulsio regum / primi consules / Roma","d":"Polybios ve Dionysios, Krallığın sona ermesini ve ilk konsülleri aynı yıla koyar; üç bağımsız iç hesap (Polybios/Xerxes, Dionysios/Galya sonrası 120 yıl, Dionysios/244 yıl krallık) MÖ 508'e çıkar.","kaynak":"Polybios 3.22.1-2 (Loeb 1922): ilk Roma-Kartaca antlaşması 'ilk konsüller' L. Iunius Brutus ve M. Horatius'un konsüllüğünde, 'Xerxes'in Yunanistan'a geçişinden 28 yıl önce'. MÖ sayısı = 480+28 HESAPTIR (480 değeri bu kaynakta yok). Dionysios 1.74.4: Galya istilasından (98. Olimpiyat 1. yıl) 120 yıl önce ilk konsüller Brutus ve Collatinus; krallık toplam 244 yıl (1.75.3) => 752-244=508 HESAP · https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Polybius/3*.html","kesinlik":"yil","kaynak_turu":"yazili","odak_yer":["Roma"]},{"onem":2,"dunya":2,"bolge_onem":2,"puan_s":"v2","kapsam":"dis","bolge":1,"odak_yer":["Regensburg"],"t":"-0669-01-01","k":"gelisme","b":"Hallstatt C -> D geçişi (Dietfurt Bayes modeli; geleneksel 616): Hallstatt C → D geçişi (14C modeli)","gun":"MÖ 685–655 arası (orta nokta MÖ 670)","yer":"Hallstatt C/D-Übergang","d":"Güney Almanya'da Ha C'den Ha D'ye geçiş, Dietfurt mezar dizisinin Bayes modeline göre 650 cal BC'den önce ve büyük olasılıkla 685-655 arasındadır; yaygın kabul edilenden onlarca yıl eski.","kaynak":"Rose H.A., Müller-Scheeßel N., Meadows J., Hamann C. 2022, Radiocarbon dating and Hallstatt chronology: a Bayesian chronological model for the burial sequence at Dietfurt an der Altmühl 'Tennisplatz', Bavaria, Archaeol Anthropol Sci 14:72, doi:10.1007/s12520-022-01542-1 · https://link.springer.com/10.1007/s12520-022-01542-1","kesinlik":"onyil","etiket":["arkeoloji"],"kaynak_turu":"arkeoloji","aralik":{"bas":"-0684-01-01","son":"-0654-01-01","guven":"68.3 (kaynak 95.4 için 'kesinlikle 650'den önce' der)","tur":"kalibre-14C"}},{"onem":4,"dunya":3,"bolge_onem":4,"puan_s":"v2","tur":"kurulus","kapsam":"dis","bolge":1,"odak_yer":["Roma"],"t":"-0751-01-01","k":"kurulus","b":"Roma'nın kuruluşu (YAZILI GELENEK tarihleri): Roma'nın kuruluşu (yazılı gelenek, Dionysios)","gun":"MÖ 752","yer":"Roma condita (traditio)","d":"Yazılı gelenek Roma'nın kuruluşunu Olimpiyat sayımıyla 7. Olimpiyat'ın 1. yılına (Cato, Dionysios) -yazarlar arası 7.1 ile 12.4 arası- koyar. Varro'nun 753'ü bu oturumda KAYNAKTAN okunmadı.","kaynak":"Dionysios of Halicarnassus, Roman Antiquities 1.74-75 (Loeb, E. Cary çevirisi; Thayer/LacusCurtius metni, kamu malı). MÖ sayısı: 1. Olimpiyat=776 varsayımıyla 776-24=752 HESAPTIR (bu oturumda), 776 değeri bu kaynakta yoktur · https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Dionysius_of_Halicarnassus/1D*.html","kesinlik":"yil","kaynak_turu":"yazili"},{"onem":4,"dunya":3,"bolge_onem":4,"puan_s":"v2","tur":"kurulus","kapsam":"dis","bolge":1,"odak_yer":["Karthago","Kartaca"],"t":"-0759-01-01","k":"kurulus","b":"Karthago - kuruluş geleneği 814/813 vs arkeolojik ~760: Kartaca: kesintisiz iskânın başı (arkeolojik)","gun":"MÖ 760 civarı","yer":"Qart-ḥadašt / Carthago","d":"Karthago'nun efsanevi kuruluşu (Elissa/Dido) 814-813; kentte kesintisiz iskân kazılarda yaklaşık MÖ 760'tan başlar, en eski mezarlar 8. yy ikinci yarısı; 8. yy nekropolü henüz bulunmadı.","kaynak":"Docter R.F. 2002-2003, The topography of archaic Carthage: preliminary results of recent excavations and some prospects, Talanta XXXIV-XXXV:113-134 (Hamburg/Amsterdam derin sondajı 'about 760 BC to about AD 700') · https://www.talanta.nl/wp-content/uploads/2015/02/TAL-34-35-2002-2003-art-6-pag-113-134.pdf","kesinlik":"yuzyil","etiket":["arkeoloji"],"kaynak_turu":"arkeoloji"},{"onem":2,"dunya":1,"bolge_onem":2,"puan_s":"v2","kapsam":"dis","bolge":1,"odak_yer":["Roma"],"t":"-0836-01-01","k":"gelisme","b":"Latium Vetus: Latial II -> III geçişi (geleneksel ~770 vs 14C yüksek kronoloji 850-825): Latium: Latial II → III geçişi (yüksek kronoloji)","gun":"MÖ 850–825 arası (orta nokta MÖ 837)","yer":"Fase laziale IIB -> III","d":"Orta İtalya (Latium Vetus) Erken Demir Çağı'nda Latial II'den III'e geçiş, geleneksel tipo-kronolojide ~MÖ 770; kısa ömürlü örneklerin (Fidene tohumları) 14C'si geçişi MÖ 9. yy üçüncü çeyreğine (850-825) çeker.","kaynak":"Nijboer A.J., van der Plicht J., Bietti Sestieri A.M., De Santis A. 1999-2000, A high chronology for the Early Iron Age in central Italy, Palaeohistoria 41/42 (Groningen), Epilogue · https://lcm2.web.rug.nl/wp-content/uploads/2018/03/Palaeohistoria-1999-2000-Nijboer-et-al-A-high-chronology.pdf","kesinlik":"onyil","etiket":["arkeoloji"],"kaynak_turu":"arkeoloji","aralik":{"bas":"-0849-01-01","son":"-0824-01-01","guven":"95.4 (Fidene kulübesi için yazarların 'en geç 820' sonucu)","tur":"kalibre-14C"}},{"onem":2,"dunya":1,"bolge_onem":2,"puan_s":"v2","kapsam":"dis","bolge":1,"odak_yer":["Selanik","Atina"],"t":"-0929-01-01","k":"gelisme","b":"Yunan Geometrik dönemi (14C ile yükseltilmiş mutlak tarihler): Orta Geometrik II başlar (Sindos 14C: geleneksel 800'e karşı 930)","gun":"MÖ 930 civarı","yer":"Γεωμετρική περίοδος","d":"Kuzey Yunanistan Sindos'ta stratigrafik hayvan-kemiği 14C serisi, Geometrik alt evrelerin geleneksel mutlak tarihlerini (Sicilya koloni tarihlerine dayalı) 100-150 yıl yukarı çekiyor; MG II başlangıcı 800 histBC yerine 930 calBC.","kaynak":"Gimatzidis S., Weninger B. 2020, Radiocarbon dating the Greek Protogeometric and Geometric periods: The evidence of Sindos, PLoS ONE 15(5):e0232906, doi:10.1371/journal.pone.0232906 (Orta Geometrik II başlangıcı, 'calBC') · https://pmc.ncbi.nlm.nih.gov/articles/PMC7252618/","kesinlik":"yuzyil","etiket":["arkeoloji"],"kaynak_turu":"arkeoloji"}];
+// ARKEOLOJİ KATMANI — İtalya, Yunan dünyası, Orta/Batı Avrupa, Britanya (3. dalga) (d3-italya-avrupa) · ARKEOLOJI-KATMANI-SARTNAME-1018 · üretici denetim/arkeoloji_uret_1020.py · 20 Ekim 2026
+// Girdi: denetim/arastirma/d3-italya-avrupa.json. Her tarih kaynaktan; orta nokta/alt sınır/tek değer beyanı ic_not_d'de. Üretilmiştir: elle düzenleme, JSON'u düzelt.
+window.OLAYLAR_ARKEOLOJI_D3_ITALYA_AVRUPA = [
+ { onem:5, dunya:4, bolge_onem:5, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-0507-01-01",
+  "k": "gelisme",
+  "b": "Roma: Krallık -> Cumhuriyet (ilk konsüller) - YAZILI GELENEK: Roma: Krallık sona erer, Cumhuriyet (gelenek)",
+  "gun": "MÖ 508",
+  "yer": "Expulsio regum / primi consules / Roma",
+  "d": "Polybios ve Dionysios, Krallığın sona ermesini ve ilk konsülleri aynı yıla koyar; üç bağımsız iç hesap (Polybios/Xerxes, Dionysios/Galya sonrası 120 yıl, Dionysios/244 yıl krallık) MÖ 508'e çıkar.",
+  "kaynak": "Polybios 3.22.1-2 (Loeb 1922): ilk Roma-Kartaca antlaşması 'ilk konsüller' L. Iunius Brutus ve M. Horatius'un konsüllüğünde, 'Xerxes'in Yunanistan'a geçişinden 28 yıl önce'. MÖ sayısı = 480+28 HESAPTIR (480 değeri bu kaynakta yok). Dionysios 1.74.4: Galya istilasından (98. Olimpiyat 1. yıl) 120 yıl önce ilk konsüller Brutus ve Collatinus; krallık toplam 244 yıl (1.75.3) => 752-244=508 HESAP · https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Polybius/3*.html",
+  "kesinlik": "yil",
+  "kaynak_turu": "yazili",
+  "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynaktan okunan: «dates from the consulship of Lucius Junius Brutus and Marcus Horatius, the first Consuls after the expulsion of the kings». Yaygın '509' (Varro fasti) bu oturumda KAYNAKTAN okunmadı; 508 hesaptır, bir yıllık konvansiyon farkı olabilir (Olimpiyat başı/sonu). Cornell 1995 (The Beginnings of Rome) kütüphane_gerekli.",
+  "odak_yer": [
+   "Roma"
+  ]
+ },
+ { onem:2, dunya:2, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, "odak_yer":["Regensburg"],
+  "t": "-0669-01-01",
+  "k": "gelisme",
+  "b": "Hallstatt C -> D geçişi (Dietfurt Bayes modeli; geleneksel 616): Hallstatt C → D geçişi (14C modeli)",
+  "gun": "MÖ 685–655 arası (orta nokta MÖ 670)",
+  "yer": "Hallstatt C/D-Übergang",
+  "d": "Güney Almanya'da Ha C'den Ha D'ye geçiş, Dietfurt mezar dizisinin Bayes modeline göre 650 cal BC'den önce ve büyük olasılıkla 685-655 arasındadır; yaygın kabul edilenden onlarca yıl eski.",
+  "kaynak": "Rose H.A., Müller-Scheeßel N., Meadows J., Hamann C. 2022, Radiocarbon dating and Hallstatt chronology: a Bayesian chronological model for the burial sequence at Dietfurt an der Altmühl 'Tennisplatz', Bavaria, Archaeol Anthropol Sci 14:72, doi:10.1007/s12520-022-01542-1 · https://link.springer.com/10.1007/s12520-022-01542-1",
+  "kesinlik": "onyil",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "kaynak_turu": "arkeoloji",
+  "aralik": {
+   "bas": "-0684-01-01",
+   "son": "-0654-01-01",
+   "guven": "68.3 (kaynak 95.4 için 'kesinlikle 650'den önce' der)",
+   "tur": "kalibre-14C"
+  },
+  "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 685–655 (kaynağın verdiği uçlar); orta nokta MÖ 670 = astronomik -0669. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: 68.3 (kaynak 95.4 için 'kesinlikle 650'den önce' der). Kaynaktan okunan: «the HaC-HaD transition almost certainly occurred before 650 cal BC, and most likely between 685 and 655 cal BC (68.3% probability)». ÇELİŞKİ (iki okul): geleneksel ~616 BC (Villingen-Schwenningen 'Magdalenenberg' Ha D1 dendro kesim tarihi; Friedrich & Hennig 1996, Parzinger 1989) vs 14C 685-655. Makale ayrıca 'Hallstatt dönemi c.800-450 BC' çerçevesini verir (Ha D3 / La Tène A sınırı olarak ~450 çerçeve bitişi). Bu çerçeve AYNI makalenin giriş ifadesidir; Ha D3/La Tène A sınırı için ayrı, dendro/14C'li bir kaynak BULUNAMADI. Kalibrasyon platosu 750-400 cal BC nedeniyle model yerel (Dietfurt) bir sonuçtur; coğrafi gecikme olasılığı makalede belirtilir."
+ },
+ { onem:4, dunya:3, bolge_onem:4, puan_s:"v2", tur:"kurulus","kapsam": "dis", "bolge": 1, "odak_yer":["Roma"],
+  "t": "-0751-01-01",
+  "k": "kurulus",
+  "b": "Roma'nın kuruluşu (YAZILI GELENEK tarihleri): Roma'nın kuruluşu (yazılı gelenek, Dionysios)",
+  "gun": "MÖ 752",
+  "yer": "Roma condita (traditio)",
+  "d": "Yazılı gelenek Roma'nın kuruluşunu Olimpiyat sayımıyla 7. Olimpiyat'ın 1. yılına (Cato, Dionysios) -yazarlar arası 7.1 ile 12.4 arası- koyar. Varro'nun 753'ü bu oturumda KAYNAKTAN okunmadı.",
+  "kaynak": "Dionysios of Halicarnassus, Roman Antiquities 1.74-75 (Loeb, E. Cary çevirisi; Thayer/LacusCurtius metni, kamu malı). MÖ sayısı: 1. Olimpiyat=776 varsayımıyla 776-24=752 HESAPTIR (bu oturumda), 776 değeri bu kaynakta yoktur · https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Dionysius_of_Halicarnassus/1D*.html",
+  "kesinlik": "yil",
+  "kaynak_turu": "yazili",
+  "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynaktan okunan: «founded Rome, in the beginning of the first year of the seventh Olympiad». GELENEK beyanı: bu kayıt arkeolojik başlangıç DEĞİLDİR. Arkeolojik başlangıç için bkz. wave-2 'latium-vetus-roma-colli-albani', 'roma-forum-nekropolu', 'fidene-kulubesi'. Palatino kulübeleri / Carandini (2. çeyrek 8. yy duvar iddiası) yalnız popüler/ikincil sayfalarda görüldü ve ALINMADI; Carandini 'La nascita di Roma' ve Cornell 1995 kütüphane_gerekli'de."
+ },
+ { onem:4, dunya:3, bolge_onem:4, puan_s:"v2", tur:"kurulus","kapsam": "dis", "bolge": 1, 
+  "odak_yer": [
+   "Karthago",
+   "Kartaca"
+  ],
+  "t": "-0759-01-01",
+  "k": "kurulus",
+  "b": "Karthago - kuruluş geleneği 814/813 vs arkeolojik ~760: Kartaca: kesintisiz iskânın başı (arkeolojik)",
+  "gun": "MÖ 760 civarı",
+  "yer": "Qart-ḥadašt / Carthago",
+  "d": "Karthago'nun efsanevi kuruluşu (Elissa/Dido) 814-813; kentte kesintisiz iskân kazılarda yaklaşık MÖ 760'tan başlar, en eski mezarlar 8. yy ikinci yarısı; 8. yy nekropolü henüz bulunmadı.",
+  "kaynak": "Docter R.F. 2002-2003, The topography of archaic Carthage: preliminary results of recent excavations and some prospects, Talanta XXXIV-XXXV:113-134 (Hamburg/Amsterdam derin sondajı 'about 760 BC to about AD 700') · https://www.talanta.nl/wp-content/uploads/2015/02/TAL-34-35-2002-2003-art-6-pag-113-134.pdf",
+  "kesinlik": "yuzyil",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "kaynak_turu": "arkeoloji",
+  "ic_not_d": "TEK DEĞER MÖ 760 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynaktan okunan: «This fieldwork has brought to light a more or less uninterrupted habitation history of about 1460 years (from about 760 BC to about AD 700)». Docter vd. 2008 (Beyond the Homeland, Peeters, ss.379-422) 14C: hayvan kemiği örnekleri 9.-8. yy cal BCE aralığı veriyor ve 'geleneksel kuruluş tarihiyle güvenilir bağ kurulamıyor' diyor - bu özet YALNIZ arama sonucundan görüldü, kitap bölümü okunamadı -> kutuphane_gerekli. Utica tohum 14C'si (Maraoui Telmini vd.) okunmadı."
+ },
+ { onem:2, dunya:1, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, "odak_yer":["Roma"],
+  "t": "-0836-01-01",
+  "k": "gelisme",
+  "b": "Latium Vetus: Latial II -> III geçişi (geleneksel ~770 vs 14C yüksek kronoloji 850-825): Latium: Latial II → III geçişi (yüksek kronoloji)",
+  "gun": "MÖ 850–825 arası (orta nokta MÖ 837)",
+  "yer": "Fase laziale IIB -> III",
+  "d": "Orta İtalya (Latium Vetus) Erken Demir Çağı'nda Latial II'den III'e geçiş, geleneksel tipo-kronolojide ~MÖ 770; kısa ömürlü örneklerin (Fidene tohumları) 14C'si geçişi MÖ 9. yy üçüncü çeyreğine (850-825) çeker.",
+  "kaynak": "Nijboer A.J., van der Plicht J., Bietti Sestieri A.M., De Santis A. 1999-2000, A high chronology for the Early Iron Age in central Italy, Palaeohistoria 41/42 (Groningen), Epilogue · https://lcm2.web.rug.nl/wp-content/uploads/2018/03/Palaeohistoria-1999-2000-Nijboer-et-al-A-high-chronology.pdf",
+  "kesinlik": "onyil",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "kaynak_turu": "arkeoloji",
+  "aralik": {
+   "bas": "-0849-01-01",
+   "son": "-0824-01-01",
+   "guven": "95.4 (Fidene kulübesi için yazarların 'en geç 820' sonucu)",
+   "tur": "kalibre-14C"
+  },
+  "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 850–825 (kaynağın verdiği uçlar); orta nokta MÖ 837 = astronomik -0836. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: 95.4 (Fidene kulübesi için yazarların 'en geç 820' sonucu). Kaynaktan okunan: «we propose to raise the absolute chronology for the transition from Latial period II to Latial period III by about 50 to 75 years, to the third quarter of the 9th century BC». ÇELİŞKİ (iki okul): geleneksel ~770 BC (Epilogue: 'Traditionally the transition from Latial period II to Latial period III is dated to around 770 BC') vs 14C 850-825. Makale ayrıca Yunan Geometrik (Thukydides çapalı) tarihlerinin değişmeden kalabileceğini, değişenin koloni bağlamı olduğunu söyler; Sindos (Gimatzidis & Weninger 2020) ile aynı yönde. OCR'li PDF'den okundu (Roma Latial II-III tablo sayısı doğrulandı: 'Castiglione' 3 aralık)."
+ },
+ { onem:2, dunya:1, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, "odak_yer":["Selanik","Atina"],
+  "t": "-0929-01-01",
+  "k": "gelisme",
+  "b": "Yunan Geometrik dönemi (14C ile yükseltilmiş mutlak tarihler): Orta Geometrik II başlar (Sindos 14C: geleneksel 800'e karşı 930)",
+  "gun": "MÖ 930 civarı",
+  "yer": "Γεωμετρική περίοδος",
+  "d": "Kuzey Yunanistan Sindos'ta stratigrafik hayvan-kemiği 14C serisi, Geometrik alt evrelerin geleneksel mutlak tarihlerini (Sicilya koloni tarihlerine dayalı) 100-150 yıl yukarı çekiyor; MG II başlangıcı 800 histBC yerine 930 calBC.",
+  "kaynak": "Gimatzidis S., Weninger B. 2020, Radiocarbon dating the Greek Protogeometric and Geometric periods: The evidence of Sindos, PLoS ONE 15(5):e0232906, doi:10.1371/journal.pone.0232906 (Orta Geometrik II başlangıcı, 'calBC') · https://pmc.ncbi.nlm.nih.gov/articles/PMC7252618/",
+  "kesinlik": "yuzyil",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "kaynak_turu": "arkeoloji",
+  "ic_not_d": "TEK DEĞER MÖ 930 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynaktan okunan: «Three 14C-determinations from phase 8 raise the beginning of Middle Geometric II from 800 histBC to 930 calBC». KRONOLOJİ OKULU ÇELİŞKİSİ: geleneksel (histBC, Coldstream/Sicilya kolonileri) vs 14C (calBC, Sindos). Makale, Sicilya kolonilerinin Thukydides tarihlerinin Geç Geometrik için çapa olarak kullanıldığını söyler (aynı zamanda İtalya'da Nijboer vd. 2000 'yüksek kronoloji' ile uyumlu). Atina/Korinth/Sparta için ayrı mutlak 14C yok; bu kayıt Kuzey Yunanistan (Sindos) bulgusudur, Atina'ya genellemesi makalede 'ima' düzeyindedir. Hakem sürecinden geçen ikincil tartışma (ör. geleneksel okulun cevabı) okunmadı."
+ }
+];
 
 ;
 /* ==== data/olaylar_arkeoloji_d3-anadolu-ege.js ==== */
-// data/olaylar_arkeoloji_d3-anadolu-ege.js — paketle.py İNCELTTİ: ic_not* alanları yayına gitmez (kaynak dosya değişmedi)
-window.OLAYLAR_ARKEOLOJI_D3_ANADOLU_EGE = [{"onem":4,"dunya":2,"bolge_onem":4,"puan_s":"v2","tur":"kurulus","kapsam":"dis","bolge":1,"odak_yer":["Eski Van"],"t":"-0899-01-01","k":"kurulus","b":"Urartu Krallığı (Tuşpa / Van): Urartu devleti oluşur (9. yy)","gun":"MÖ 900 (ALT SINIR; donem-toplami MÖ 900–801)","yer":"Biainili / Urartu","d":"Urartu devleti 9. yüzyıl MÖ'de oluşur. Aşur kaynaklarında III. Salmanasar'ın Arame ile savaşları; Sarduri I (Lutipri oğlu) Tuşpa'yı başkent yapar.","kaynak":"Grekyan Y. 2023, The Kingdom of Urartu, in Radner K., Moeller N., Potts D.T. (eds.), The Oxford History of the Ancient Near East IV: The Age of Assyria, Oxford University Press, s.769-864 (özet; bölüm 44.2.3 'Issues of chronology' okunamadı) · https://academic.oup.com/book/45752/chapter/398240136","kesinlik":"yuzyil","etiket":["arkeoloji"],"kaynak_turu":"arkeoloji","aralik":{"bas":"-0899-01-01","son":"-0800-01-01","guven":"belirsiz (kaynak yalnız 'ninth century bc' der)","tur":"donem-toplami"}},{"onem":4,"dunya":3,"bolge_onem":4,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-1190-01-01","yer_id":"Ugarit","k":"kayip","b":"Ugarit krallığı (Gibala/Tell Tweini) — Deniz Kavimleri yıkımı: Ugarit/Tell Tweini yıkılır (Deniz Kavimleri çağı)","gun":"MÖ 1192–1190 arası (orta nokta MÖ 1191)","yer":"Ugarit / Tell Tweini (Gibala)","d":"Kuzey Levant'ta (Gibala, Ugarit, Ras Ibn Hani, Tell Kazel) Tunç Çağı sonu yıkımları; 14C ağırlıklı ortalama (2962±14 BP) + KTU 1.78 güneş tutulması (21 Ocak 1192) çerçevesinde 1192-1190 cal BC.","kaynak":"Kaniewski D. vd. 2011, The Sea Peoples, from cuneiform tablets to carbon dating, PLoS One 6(6):e20232, doi:10.1371/journal.pone.0020232 · https://pmc.ncbi.nlm.nih.gov/articles/PMC3110627/","kesinlik":"yil","etiket":["arkeoloji"],"kaynak_turu":"arkeoloji","aralik":{"bas":"-1191-01-01","son":"-1189-01-01","guven":"belirsiz (yazar yorum aralığı; 1σ 1215-1190 veya 1180-1160'tan 1192-1190 en iyi uyum olarak seçildi)","tur":"kalibre-14C"}},{"onem":5,"dunya":3,"bolge_onem":5,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-1199-01-01","yer_id":"Hattuşa","k":"kayip","b":"Hattuşa'nın boşaltılması — 3. dalga okuma notu: Hattuşa terk edilir; Hitit İmparatorluğu çöker (yaklaşık 1200)","gun":"MÖ 1200","yer":"Ḫattuša / Gordion","d":"Merkezî idare Hattuşa'yı boşaltmış, şehir ancak SONRA yakılmıştır; kuraklık (1198-1196±3) çöküşün koşullarının parçası olabilir, kanıtlanmış nedensellik YOK.","kaynak":"Manning S.W., Kocik C., Lorentzen B., Sparks J.P. 2023, Severe multi-year drought coincident with Hittite collapse around 1198-1196 BC, Nature 614:719-724, doi:10.1038/s41586-022-05693-y · https://pmc.ncbi.nlm.nih.gov/articles/PMC9946833/","kesinlik":"yil","kaynak_turu":"yazili"},{"onem":3,"dunya":2,"bolge_onem":3,"puan_s":"v2","tur":"kurulus","kapsam":"dis","bolge":1,"odak_yer":["Hattuşa"],"t":"-1206-01-01","k":"kurulus","b":"II. Şuppiluliuma (son bilinen Hitit kralı) — tahta çıkışı: II. Şuppiluliuma tahta çıkar (son Hitit kralı)","gun":"MÖ 1207","yer":"Šuppiluliuma II","d":"Son bilinen Hitit kralının saltanatı ~1207 MÖ'de başlar; Hitit imparatorluğu ve merkezî idaresi 'around or shortly after 1200' çöker; terminus ante quem Ramses III yıl 8 (Medinet Habu).","kaynak":"Manning S.W., Kocik C., Lorentzen B., Sparks J.P. 2023, Severe multi-year drought coincident with Hittite collapse around 1198-1196 BC, Nature 614:719-724, doi:10.1038/s41586-022-05693-y · https://pmc.ncbi.nlm.nih.gov/articles/PMC9946833/","kesinlik":"yil","kaynak_turu":"yazili"},{"onem":4,"dunya":3,"bolge_onem":4,"puan_s":"v2","kapsam":"dis","bolge":1,"odak_yer":["Santorini"],"t":"-1583-01-01","k":"kayip","b":"Thera (Santorini) Minos patlaması — güncel Bayes modelleri: Thera (Santorini) patlaması — Manning 2022 modeli","gun":"MÖ 1609–1560 arası (orta nokta MÖ 1584)","yer":"Θήρα","d":"Patlama IntCal20 ile yeniden modellenmiş: 1606-1589 (68.3) / 1609-1560 (95.4). Bruins & van der Plicht 2025 (PLoS One, doi:10.1371/journal.pone.0330702) Manning'in 2024 modelini 1618-1584 (95.4) / 1612-1602 (68.3) diye aktarır ve patlamanın Ahmose'dan ESKİ olduğunu savunur.","kaynak":"Manning S.W. 2022, Second Intermediate Period date for the Thera (Santorini) eruption and historical implications, PLoS One 17(9):e0274835, doi:10.1371/journal.pone.0274835 (özet; Tablo 1A) · https://pmc.ncbi.nlm.nih.gov/articles/PMC9488803/","kesinlik":"onyil","etiket":["arkeoloji"],"kaynak_turu":"arkeoloji","aralik":{"bas":"-1608-01-01","son":"-1559-01-01","guven":"95.4","tur":"kalibre-14C"}},{"onem":4,"dunya":2,"bolge_onem":4,"puan_s":"v2","tur":"kurulus","kapsam":"dis","bolge":1,"t":"-1649-01-01","k":"kurulus","b":"Hitit Eski Krallığı — I. Hattusili saltanatı (Labarna): I. Hattusili dönemi (hMC geleneksel değer)","gun":"MÖ 1650","yer":"Ḫattušili I / Gordion / Hattuşa / Hattuşa (Boğazköy)","d":"I. Hattusili'nin geleneksel saltanatı hMC'de c. 1650-1620; başlangıç, Mursili'nin Babil 1595 verisinden iki 25 yıllık kuşak geriye sayılarak bulunur. Hitit krallığı Orta Tunç Çağı sonunda İç Anadolu'yu birleştirmiştir.","kaynak":"Herrmann V.R., Manning S.W., Morgan K.R., Soldi S., Schloen D. 2023, New evidence for Middle Bronze Age chronology from the Syro-Anatolian frontier, Antiquity 97(393):654-673, doi:10.15184/aqy.2023.30 · https://www.cambridge.org/core/product/014ABB912CC50181E0F06E074BE071A2/core-reader","kesinlik":"yil","kaynak_turu":"yazili","odak_yer":["Gordion","Hattuşa"]},{"onem":2,"dunya":1,"bolge_onem":2,"puan_s":"v2","kapsam":"dis","bolge":1,"odak_yer":["Truva yöresi (Tevfikiye)"],"t":"-1749-01-01","k":"kayip","b":"Troya V ve Troya VI başı (VIa): Troya V sonu / VI başı (uzlaşı değeri)","gun":"MÖ 1750 civarı","yer":"Troia V / VIa","d":"Troya V başlangıcı 1916-1877 cal BC aralığında; Troya V sonu / Troya VI başı için literatürde uzlaşı c. 1750 cal BC (Pavúk, Blum, Pernicka'ya atıfla).","kaynak":"Easton D., Weninger B. 2023, Troy III-V: new radiocarbon dates confirm a gap in Blegen's sequence, Documenta Praehistorica 50:396-408, doi:10.4312/dp.50.14 · https://journals.uni-lj.si/DocumentaPraehistorica/article/view/13525","kesinlik":"yuzyil","etiket":["arkeoloji"],"kaynak_turu":"arkeoloji"},{"onem":1,"dunya":1,"bolge_onem":1,"puan_s":"v2","kapsam":"dis","bolge":1,"odak_yer":["Truva yöresi (Tevfikiye)"],"t":"-1915-01-01","k":"gelisme","b":"Troya V ve Troya VI başı (VIa): Troya Va evresi (tek örnek)","gun":"MÖ 1916 (ALT SINIR; donem-toplami MÖ 1916–1877)","yer":"Troia V / VIa","d":"Troya V başlangıcı 1916-1877 cal BC aralığında; Troya V sonu / Troya VI başı için literatürde uzlaşı c. 1750 cal BC (Pavúk, Blum, Pernicka'ya atıfla).","kaynak":"Easton D., Weninger B. 2023, Troy III-V: new radiocarbon dates confirm a gap in Blegen's sequence, Documenta Praehistorica 50:396-408, doi:10.4312/dp.50.14 · https://journals.uni-lj.si/DocumentaPraehistorica/article/view/13525","kesinlik":"yuzyil","etiket":["arkeoloji"],"kaynak_turu":"arkeoloji","aralik":{"bas":"-1915-01-01","son":"-1876-01-01","guven":"belirsiz ('region' diye verilmiş; tek örnek Va için 1916±5, 1877±10)","tur":"donem-toplami"}},{"onem":1,"dunya":1,"bolge_onem":1,"puan_s":"v2","kapsam":"dis","bolge":1,"odak_yer":["Truva yöresi (Tevfikiye)"],"t":"-1929-01-01","k":"kayip","b":"Troya 'Proto-IV' (varsayım) ve Troya IV: Troya IV evresi sona erer (veya daha geç)","gun":"MÖ 1930 civarı","yer":"Troia IV","d":"Troya III ile IV arasında 110±20 yıllık boşluk (2170-2060) ve olası 'Proto-IV' evresi; Troya IV 2060±10'dan başlar, IVa 2060, IVc 2010±10, IV sonu en erken 1930±10.","kaynak":"Easton D., Weninger B. 2023, Troy III-V: new radiocarbon dates confirm a gap in Blegen's sequence, Documenta Praehistorica 50:396-408, doi:10.4312/dp.50.14 · https://journals.uni-lj.si/DocumentaPraehistorica/article/view/13525","kesinlik":"yuzyil","etiket":["arkeoloji"],"kaynak_turu":"arkeoloji"},{"onem":1,"dunya":1,"bolge_onem":1,"puan_s":"v2","kapsam":"dis","bolge":1,"odak_yer":["Truva yöresi (Tevfikiye)"],"t":"-2059-01-01","k":"gelisme","b":"Troya 'Proto-IV' (varsayım) ve Troya IV: Troya IV evresi başlar","gun":"MÖ 2060 civarı","yer":"Troia IV","d":"Troya III ile IV arasında 110±20 yıllık boşluk (2170-2060) ve olası 'Proto-IV' evresi; Troya IV 2060±10'dan başlar, IVa 2060, IVc 2010±10, IV sonu en erken 1930±10.","kaynak":"Easton D., Weninger B. 2023, Troy III-V: new radiocarbon dates confirm a gap in Blegen's sequence, Documenta Praehistorica 50:396-408, doi:10.4312/dp.50.14 · https://journals.uni-lj.si/DocumentaPraehistorica/article/view/13525","kesinlik":"yuzyil","etiket":["arkeoloji"],"kaynak_turu":"arkeoloji"},{"onem":1,"dunya":1,"bolge_onem":1,"puan_s":"v2","kapsam":"dis","bolge":1,"odak_yer":["Truva yöresi (Tevfikiye)"],"t":"-2169-01-01","k":"kayip","b":"Troya II sonu / Troya III (Erken Tunç Çağı): Troya III evresi sona erer","gun":"MÖ 2170 civarı","yer":"Troia II-III","d":"Cincinnati kazısı hayvan kemiği 14C-AMS (26 örnek), IntCal20 ile modellenmiş: Troya II/III geçişi 2267±10, Troya III bitişi 2170±10 cal BC.","kaynak":"Easton D., Weninger B. 2023, Troy III-V: new radiocarbon dates confirm a gap in Blegen's sequence, Documenta Praehistorica 50:396-408, doi:10.4312/dp.50.14 · https://journals.uni-lj.si/DocumentaPraehistorica/article/view/13525","kesinlik":"yuzyil","etiket":["arkeoloji"],"kaynak_turu":"arkeoloji"},{"onem":1,"dunya":1,"bolge_onem":1,"puan_s":"v2","kapsam":"dis","bolge":1,"odak_yer":["Truva yöresi (Tevfikiye)"],"t":"-2266-01-01","k":"gelisme","b":"Troya II sonu / Troya III (Erken Tunç Çağı): Troya III evresi başlar","gun":"MÖ 2267 civarı","yer":"Troia II-III","d":"Cincinnati kazısı hayvan kemiği 14C-AMS (26 örnek), IntCal20 ile modellenmiş: Troya II/III geçişi 2267±10, Troya III bitişi 2170±10 cal BC.","kaynak":"Easton D., Weninger B. 2023, Troy III-V: new radiocarbon dates confirm a gap in Blegen's sequence, Documenta Praehistorica 50:396-408, doi:10.4312/dp.50.14 · https://journals.uni-lj.si/DocumentaPraehistorica/article/view/13525","kesinlik":"yuzyil","etiket":["arkeoloji"],"kaynak_turu":"arkeoloji"},{"onem":2,"dunya":1,"bolge_onem":2,"puan_s":"v2","tur":"kurulus","kapsam":"dis","bolge":1,"odak_yer":["Truva yöresi (Tevfikiye)"],"t":"-2919-01-01","k":"kurulus","b":"Troya I (Hisarlık, Erken Tunç Çağı başı): Troya Ia evresi başlar (Weninger 1995)","gun":"MÖ 2920 civarı","yer":"Troia I / Hisarlık","d":"Troya Ia evresinin başlangıcı (apsidal taş temel) için dendro-kalibre 14C'den türetilmiş tarih; Troya I toplam 9 mimari evre (Ia-Ii), ortalama evre uzunluğu 50 yıl varsayımıyla.","kaynak":"Weninger B. 1995, Stratified 14C dates and ceramic chronologies: case studies for the Early Bronze Age at Troy (Turkey) and Ezero (Bulgaria), Radiocarbon 37(2):443-455 (s.450-454), doi:10.1017/S0033822200030927 · https://doi.org/10.1017/S0033822200030927","kesinlik":"yuzyil","etiket":["arkeoloji"],"kaynak_turu":"arkeoloji"},{"onem":3,"dunya":2,"bolge_onem":3,"puan_s":"v2","kapsam":"dis","bolge":1,"odak_yer":["Limasol"],"t":"-9149-01-01","k":"ilk_anilis","b":"Klimonas ve Shillourokambos (Kıbrıs, Erken Aseramik Neolitik): Kıbrıs'ta ilk yerleşik köyler (Klimonas)","gun":"MÖ 9150 (ALT SINIR; yerlesim-suresi MÖ 9150–8650)","yer":"Klimonas / Shillourokambos","d":"Klimonas'ta kurulu köylüler 11,100-10,600 yıl önce yaşıyordu (en yüksek olasılık 10.8-10.6 cal kyBP). Shillourokambos Erken A 10.4-10.0, Erken B-C 10.0-9.6, Orta A ~9.5 cal kyBP (Şek. 3 başlığı, karşılaştırma).","kaynak":"Vigne J.-D. vd. 2012, First wave of cultivators spread to Cyprus at least 10,600 y ago, PNAS 109(22):8445-8449, doi:10.1073/pnas.1201693109 (Klimonas, Tablo 1) · https://pmc.ncbi.nlm.nih.gov/articles/PMC3365171/","kesinlik":"yuzyil","etiket":["arkeoloji"],"kaynak_turu":"arkeoloji","aralik":{"bas":"-9149-01-01","son":"-8649-01-01","guven":"belirsiz (kaynak '11,100 ve 10,600 y ago' der; cal BP varsayımı, BP-1950 bu oturumda)","tur":"yerlesim-suresi"}}];
+// ARKEOLOJİ KATMANI — Anadolu / Ege / Kıbrıs / Levant-Hitit dünyası (3. dalga) (d3-anadolu-ege) · ARKEOLOJI-KATMANI-SARTNAME-1018 · üretici denetim/arkeoloji_uret_1020.py · 20 Ekim 2026
+// Girdi: denetim/arastirma/d3-anadolu-ege.json. Her tarih kaynaktan; orta nokta/alt sınır/tek değer beyanı ic_not_d'de. Üretilmiştir: elle düzenleme, JSON'u düzelt.
+window.OLAYLAR_ARKEOLOJI_D3_ANADOLU_EGE = [
+ { onem:4, dunya:2, bolge_onem:4, puan_s:"v2", tur:"kurulus","kapsam": "dis", "bolge": 1,  "odak_yer":["Eski Van"], 
+  "t": "-0899-01-01",
+  "k": "kurulus",
+  "b": "Urartu Krallığı (Tuşpa / Van): Urartu devleti oluşur (9. yy)",
+  "gun": "MÖ 900 (ALT SINIR; donem-toplami MÖ 900–801)",
+  "yer": "Biainili / Urartu",
+  "d": "Urartu devleti 9. yüzyıl MÖ'de oluşur. Aşur kaynaklarında III. Salmanasar'ın Arame ile savaşları; Sarduri I (Lutipri oğlu) Tuşpa'yı başkent yapar.",
+  "kaynak": "Grekyan Y. 2023, The Kingdom of Urartu, in Radner K., Moeller N., Potts D.T. (eds.), The Oxford History of the Ancient Near East IV: The Age of Assyria, Oxford University Press, s.769-864 (özet; bölüm 44.2.3 'Issues of chronology' okunamadı) · https://academic.oup.com/book/45752/chapter/398240136",
+  "kesinlik": "yuzyil",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "kaynak_turu": "arkeoloji",
+  "aralik": {
+   "bas": "-0899-01-01",
+   "son": "-0800-01-01",
+   "guven": "belirsiz (kaynak yalnız 'ninth century bc' der)",
+   "tur": "donem-toplami"
+  },
+  "ic_not_d": "donem-toplami aralığı (MÖ 900–801) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «This influential state was formed in the ninth century bc». ÇELİŞKİ / BELİRSİZLİK: TDV İslâm Ansiklopedisi 'Urartular' maddesi İÇİN madde sayfası açılamadı (islamansiklopedisi.org.tr/urartular arama sonuç sayfası döndü; Madde Başlıkları 0); yalnız başka maddelerde geçen kısa ifadeler: AĞRI maddesi 'm.ö. 900-600', ASYA maddesi 'Urartular (856-610)' — bunlar iki farklı sınır verir (kuruluş 900 mü 856 mı? son 600 mü 610 mu?) ve bu oturumda ilk elden madde sayfası okunmadı. Sarduri I tarihi için bakılan ikincil/popüler listelerde (Wikipedia 834-828; Met 840-830; worldhistory 835-825; Routledge 'Sarduri I (844-828)') AYRI aralıklar var; bunlar tek dayanak olamaz, YAZILMADI. Arame: Aşur eponim kronolojisi ~858-859 (Salmanasar III'ün tahta çıkış yılı) — hakemli kaynaktan okunamadı. Kuruluş ve düşüş tarihleri için kutuphane_gerekli."
+ },
+ { onem:4, dunya:3, bolge_onem:4, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-1190-01-01",
+  "yer_id": "Ugarit",
+  "k": "kayip",
+  "b": "Ugarit krallığı (Gibala/Tell Tweini) — Deniz Kavimleri yıkımı: Ugarit/Tell Tweini yıkılır (Deniz Kavimleri çağı)",
+  "gun": "MÖ 1192–1190 arası (orta nokta MÖ 1191)",
+  "yer": "Ugarit / Tell Tweini (Gibala)",
+  "d": "Kuzey Levant'ta (Gibala, Ugarit, Ras Ibn Hani, Tell Kazel) Tunç Çağı sonu yıkımları; 14C ağırlıklı ortalama (2962±14 BP) + KTU 1.78 güneş tutulması (21 Ocak 1192) çerçevesinde 1192-1190 cal BC.",
+  "kaynak": "Kaniewski D. vd. 2011, The Sea Peoples, from cuneiform tablets to carbon dating, PLoS One 6(6):e20232, doi:10.1371/journal.pone.0020232 · https://pmc.ncbi.nlm.nih.gov/articles/PMC3110627/",
+  "kesinlik": "yil",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "kaynak_turu": "arkeoloji",
+  "aralik": {
+   "bas": "-1191-01-01",
+   "son": "-1189-01-01",
+   "guven": "belirsiz (yazar yorum aralığı; 1σ 1215-1190 veya 1180-1160'tan 1192-1190 en iyi uyum olarak seçildi)",
+   "tur": "kalibre-14C"
+  },
+  "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 1192–1190 (kaynağın verdiği uçlar); orta nokta MÖ 1191 = astronomik -1190. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: belirsiz (yazar yorum aralığı; 1σ 1215-1190 veya 1180-1160'tan 1192-1190 en iyi uyum olarak seçildi). Kaynaktan okunan: «an absolute age range of 1192-1190 BC for terminal destructions». UYARI: 1192-1190 aralığı yazarların ASTRONOMİK çapa + 14C birleşiminden çıkardığı yorumdur; salt 14C 1σ aralığı 1215-1190 (%34) ve 1180-1160 (%26)'dır. Manning 2023 (Nature, Yöntem) Ugarit yıkımının geleneksel olarak ~1193-1186 aralığında savunulduğunu ve revize Ramses tarihleriyle ~11 yıl eskiye çekildiğini, bunun 'terminus post quem' olduğunu yazar. Ugarit son kralı Ammurapi ilk yıl 1215; Hatti Şuppiluliuma II ilk yıl 1210; Karkamış Talmi-Teşub 1220 (Kaniewski tablosu). Kıbrıs LC IIC-IIIA 1220-1190; Ana kara Yunanistan LH IIIB-IIIC Erken 1210-1175 (Kaniewski tablosu; o kaynağın aktarması, ilk elden doğrulanmadı)."
+ },
+ { onem:5, dunya:3, bolge_onem:5, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-1199-01-01",
+  "yer_id": "Hattuşa",
+  "k": "kayip",
+  "b": "Hattuşa'nın boşaltılması — 3. dalga okuma notu: Hattuşa terk edilir; Hitit İmparatorluğu çöker (yaklaşık 1200)",
+  "gun": "MÖ 1200",
+  "yer": "Ḫattuša / Gordion",
+  "d": "Merkezî idare Hattuşa'yı boşaltmış, şehir ancak SONRA yakılmıştır; kuraklık (1198-1196±3) çöküşün koşullarının parçası olabilir, kanıtlanmış nedensellik YOK.",
+  "kaynak": "Manning S.W., Kocik C., Lorentzen B., Sparks J.P. 2023, Severe multi-year drought coincident with Hittite collapse around 1198-1196 BC, Nature 614:719-724, doi:10.1038/s41586-022-05693-y · https://pmc.ncbi.nlm.nih.gov/articles/PMC9946833/",
+  "kesinlik": "yil",
+  "kaynak_turu": "yazili",
+  "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynaktan okunan: «Around or shortly after 1200 bc, the Hittite Empire and central administrative system collapsed.». 1. dalga kaydı 'hattusa-cokus' (1198-1196) KURAKLIK penceresidir, terk tarihi DEĞİLDİR; bu okuma onu doğrular ve netleştirir: atlas bitişi için ≈1200 (kaynağın ifadesi) kullanılmalı, 1198-1196 'kuraklık' diye etiketlenmeli. Aynı makale ('Discussion') nedensellik için 'lack the evidence' der. Terk tarihi yılı Seeher/Schachner'in DAI Boğazköy 14C veri setinde (repo.dainst.org) ve AA/MDOG'da — okunamadı (kutuphane_gerekli)."
+ },
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2", tur:"kurulus","kapsam": "dis", "bolge": 1, "odak_yer":["Hattuşa"],
+  "t": "-1206-01-01",
+  "k": "kurulus",
+  "b": "II. Şuppiluliuma (son bilinen Hitit kralı) — tahta çıkışı: II. Şuppiluliuma tahta çıkar (son Hitit kralı)",
+  "gun": "MÖ 1207",
+  "yer": "Šuppiluliuma II",
+  "d": "Son bilinen Hitit kralının saltanatı ~1207 MÖ'de başlar; Hitit imparatorluğu ve merkezî idaresi 'around or shortly after 1200' çöker; terminus ante quem Ramses III yıl 8 (Medinet Habu).",
+  "kaynak": "Manning S.W., Kocik C., Lorentzen B., Sparks J.P. 2023, Severe multi-year drought coincident with Hittite collapse around 1198-1196 BC, Nature 614:719-724, doi:10.1038/s41586-022-05693-y · https://pmc.ncbi.nlm.nih.gov/articles/PMC9946833/",
+  "kesinlik": "yil",
+  "kaynak_turu": "yazili",
+  "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynaktan okunan: «The reign of the last known king, Suppiluliuma II, began around 1207 bc». ÇELİŞKİ (iki kaynak): Manning vd. 2023 ~1207; Kaniewski vd. 2011 (PLoS One 6:e20232, tablo) II. Şuppiluliuma'nın ilk saltanat yılı = 1210. Fark 3 yıl; ikisi de Orta Kronoloji çerçevesi. Manning 2023'te Ramses II tahta çıkışı 'eski şemada 1279', 'revize şemada 1290' (aynı makalenin Yöntem bölümü) — Mısır kronolojisine bağlı kayma ~11 yıl. Tek seçilmedi; atlas Manning 2023'ü (hakemli Nature) esas alabilir, Kaniewski ikinci tanık."
+ },
+ { onem:4, dunya:3, bolge_onem:4, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "odak_yer": [
+   "Santorini"
+  ],
+  "t": "-1583-01-01",
+  "k": "kayip",
+  "b": "Thera (Santorini) Minos patlaması — güncel Bayes modelleri: Thera (Santorini) patlaması — Manning 2022 modeli",
+  "gun": "MÖ 1609–1560 arası (orta nokta MÖ 1584)",
+  "yer": "Θήρα",
+  "d": "Patlama IntCal20 ile yeniden modellenmiş: 1606-1589 (68.3) / 1609-1560 (95.4). Bruins & van der Plicht 2025 (PLoS One, doi:10.1371/journal.pone.0330702) Manning'in 2024 modelini 1618-1584 (95.4) / 1612-1602 (68.3) diye aktarır ve patlamanın Ahmose'dan ESKİ olduğunu savunur.",
+  "kaynak": "Manning S.W. 2022, Second Intermediate Period date for the Thera (Santorini) eruption and historical implications, PLoS One 17(9):e0274835, doi:10.1371/journal.pone.0274835 (özet; Tablo 1A) · https://pmc.ncbi.nlm.nih.gov/articles/PMC9488803/",
+  "kesinlik": "onyil",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "kaynak_turu": "arkeoloji",
+  "aralik": {
+   "bas": "-1608-01-01",
+   "son": "-1559-01-01",
+   "guven": "95.4",
+   "tur": "kalibre-14C"
+  },
+  "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 1609–1560 (kaynağın verdiği uçlar); orta nokta MÖ 1584 = astronomik -1583. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: 95.4. Kaynaktan okunan: «1606-1589 BCE (68.3%) and 1609-1560 BCE (95.4%)». ÇELİŞKİ: Manning (Hyksos/İkinci Ara Dönem, 16. yy başı) vs. Pearson vd. (16. yy MÖ, Ahmose ile bağlantı; Bruins-van der Plicht reddeder) vs. geleneksel Mısır-bağlı 1530-1500. 1. dalga kaydı 1627-1600 kullandı; üç model arasında 17. yy sonu/16. yy başı fark var. Girit için: Manning 2022 'LM IB yıkımları (Hanya, Myrtos-Pyrgos, Mochlos) 15. yy ortası, hem arkeoloji hem 14C' der — Knossos'un kendi yıkım tarihi bu makalede YOK."
+ },
+ { onem:4, dunya:2, bolge_onem:4, puan_s:"v2", tur:"kurulus","kapsam": "dis", "bolge": 1, 
+  "t": "-1649-01-01",
+  "k": "kurulus",
+  "b": "Hitit Eski Krallığı — I. Hattusili saltanatı (Labarna): I. Hattusili dönemi (hMC geleneksel değer)",
+  "gun": "MÖ 1650",
+  "yer": "Ḫattušili I / Gordion / Hattuşa / Hattuşa (Boğazköy)",
+  "d": "I. Hattusili'nin geleneksel saltanatı hMC'de c. 1650-1620; başlangıç, Mursili'nin Babil 1595 verisinden iki 25 yıllık kuşak geriye sayılarak bulunur. Hitit krallığı Orta Tunç Çağı sonunda İç Anadolu'yu birleştirmiştir.",
+  "kaynak": "Herrmann V.R., Manning S.W., Morgan K.R., Soldi S., Schloen D. 2023, New evidence for Middle Bronze Age chronology from the Syro-Anatolian frontier, Antiquity 97(393):654-673, doi:10.15184/aqy.2023.30 · https://www.cambridge.org/core/product/014ABB912CC50181E0F06E074BE071A2/core-reader",
+  "kesinlik": "yil",
+  "kaynak_turu": "yazili",
+  "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynaktan okunan: «conventionally, hMC c. 1650-1620 BC». UYARI: 1650 doğrudan ölçüm değil, kaynağın ifadesiyle 'reached simply by counting back two 25-year generations from Mursili's 1595 BC datum'. Aynı makalenin Zincirli 14C sonucu (yıkım c. 1632-1610) bu geleneksel tahmini 'doğrular' (zincirli-hattusili-i-yikimi kaydı, 1. dalga). Mursili I Babil: hMC/lMC 1595/1587 (veya 1602/1594); makale bunu Eski Hitit tarihinin Mezopotamya ile TEK doğrudan senkronizmi diye niteler. LABARNA / kuruluş hanedanı: makale 'öncül Hitit krallarının sırası ve ilişkileri belirsiz' der (Simon 2020, Kloekhorst 2021 atıfla) ve Labarna'yı TARİHLEMEZ — Labarna/Hattusili I 'kuruluşu' için mutlak tarih BULUNAMADI; kutuphane_gerekli. Kronoloji okulu: Orta (hMC/lMC); Kısa Kronolojide Mursili'nin Babil'i 1531'dir (arama özeti, ikincil; tam metin okunmadı).",
+  "odak_yer": [
+   "Gordion",
+   "Hattuşa"
+  ]
+ },
+ { onem:2, dunya:1, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, "odak_yer":["Truva yöresi (Tevfikiye)"],
+  "t": "-1749-01-01",
+  "k": "kayip",
+  "b": "Troya V ve Troya VI başı (VIa): Troya V sonu / VI başı (uzlaşı değeri)",
+  "gun": "MÖ 1750 civarı",
+  "yer": "Troia V / VIa",
+  "d": "Troya V başlangıcı 1916-1877 cal BC aralığında; Troya V sonu / Troya VI başı için literatürde uzlaşı c. 1750 cal BC (Pavúk, Blum, Pernicka'ya atıfla).",
+  "kaynak": "Easton D., Weninger B. 2023, Troy III-V: new radiocarbon dates confirm a gap in Blegen's sequence, Documenta Praehistorica 50:396-408, doi:10.4312/dp.50.14 · https://journals.uni-lj.si/DocumentaPraehistorica/article/view/13525",
+  "kesinlik": "yuzyil",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "kaynak_turu": "arkeoloji",
+  "ic_not_d": "TEK DEĞER MÖ 1750 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynaktan okunan: «c. 1750 cal BC for the end of Troy V/beginning of Troy VI». ÇELİŞKİ (aynı makalede): Easton-Weninger modeli VIa başlangıcı için 1820±20 cal BC verir; Pavúk (2014: 394-396, 404) 1780/1750 önerir, yazarlar bunu 'belki de daha olası' sayar. VIa'nın geç evresi 1714±13 cal BC (Pavúk 2020'nin Seramik Evre 1 sonu c. 1720 ile uyumlu). VIa için yalnız 3 kısa-ömürlü örnek var, model 'far from final'. Blegen VI başlangıcını c. 1900 BC koymuştu."
+ },
+ { onem:1, dunya:1, bolge_onem:1, puan_s:"v2","kapsam": "dis", "bolge": 1, "odak_yer":["Truva yöresi (Tevfikiye)"],
+  "t": "-1915-01-01",
+  "k": "gelisme",
+  "b": "Troya V ve Troya VI başı (VIa): Troya Va evresi (tek örnek)",
+  "gun": "MÖ 1916 (ALT SINIR; donem-toplami MÖ 1916–1877)",
+  "yer": "Troia V / VIa",
+  "d": "Troya V başlangıcı 1916-1877 cal BC aralığında; Troya V sonu / Troya VI başı için literatürde uzlaşı c. 1750 cal BC (Pavúk, Blum, Pernicka'ya atıfla).",
+  "kaynak": "Easton D., Weninger B. 2023, Troy III-V: new radiocarbon dates confirm a gap in Blegen's sequence, Documenta Praehistorica 50:396-408, doi:10.4312/dp.50.14 · https://journals.uni-lj.si/DocumentaPraehistorica/article/view/13525",
+  "kesinlik": "yuzyil",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "kaynak_turu": "arkeoloji",
+  "aralik": {
+   "bas": "-1915-01-01",
+   "son": "-1876-01-01",
+   "guven": "belirsiz ('region' diye verilmiş; tek örnek Va için 1916±5, 1877±10)",
+   "tur": "donem-toplami"
+  },
+  "ic_not_d": "donem-toplami aralığı (MÖ 1916–1877) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynaktan okunan: «it lies in the region 1916-1877 cal BC». ÇELİŞKİ (aynı makalede): Easton-Weninger modeli VIa başlangıcı için 1820±20 cal BC verir; Pavúk (2014: 394-396, 404) 1780/1750 önerir, yazarlar bunu 'belki de daha olası' sayar. VIa'nın geç evresi 1714±13 cal BC (Pavúk 2020'nin Seramik Evre 1 sonu c. 1720 ile uyumlu). VIa için yalnız 3 kısa-ömürlü örnek var, model 'far from final'. Blegen VI başlangıcını c. 1900 BC koymuştu."
+ },
+ { onem:1, dunya:1, bolge_onem:1, puan_s:"v2","kapsam": "dis", "bolge": 1, "odak_yer":["Truva yöresi (Tevfikiye)"],
+  "t": "-1929-01-01",
+  "k": "kayip",
+  "b": "Troya 'Proto-IV' (varsayım) ve Troya IV: Troya IV evresi sona erer (veya daha geç)",
+  "gun": "MÖ 1930 civarı",
+  "yer": "Troia IV",
+  "d": "Troya III ile IV arasında 110±20 yıllık boşluk (2170-2060) ve olası 'Proto-IV' evresi; Troya IV 2060±10'dan başlar, IVa 2060, IVc 2010±10, IV sonu en erken 1930±10.",
+  "kaynak": "Easton D., Weninger B. 2023, Troy III-V: new radiocarbon dates confirm a gap in Blegen's sequence, Documenta Praehistorica 50:396-408, doi:10.4312/dp.50.14 · https://journals.uni-lj.si/DocumentaPraehistorica/article/view/13525",
+  "kesinlik": "yuzyil",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "kaynak_turu": "arkeoloji",
+  "ic_not_d": "TEK DEĞER MÖ 1930 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynaktan okunan: «bringing the end of Troy IV to 1930±10 cal BC or later». 'Proto-IV' kazı bulgusuyla DOĞRUDAN doğrulanmamıştır (yazarlar 'plausible' der). Troya IV'ün 1990 sonrasına inmesi, EH III ile yaygın senkronizmaya aykırıdır; yazarlar buna itiraz eder (aynı makale, s.399)."
+ },
+ { onem:1, dunya:1, bolge_onem:1, puan_s:"v2","kapsam": "dis", "bolge": 1, "odak_yer":["Truva yöresi (Tevfikiye)"],
+  "t": "-2059-01-01",
+  "k": "gelisme",
+  "b": "Troya 'Proto-IV' (varsayım) ve Troya IV: Troya IV evresi başlar",
+  "gun": "MÖ 2060 civarı",
+  "yer": "Troia IV",
+  "d": "Troya III ile IV arasında 110±20 yıllık boşluk (2170-2060) ve olası 'Proto-IV' evresi; Troya IV 2060±10'dan başlar, IVa 2060, IVc 2010±10, IV sonu en erken 1930±10.",
+  "kaynak": "Easton D., Weninger B. 2023, Troy III-V: new radiocarbon dates confirm a gap in Blegen's sequence, Documenta Praehistorica 50:396-408, doi:10.4312/dp.50.14 · https://journals.uni-lj.si/DocumentaPraehistorica/article/view/13525",
+  "kesinlik": "yuzyil",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "kaynak_turu": "arkeoloji",
+  "ic_not_d": "TEK DEĞER MÖ 2060 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynaktan okunan: «Troy IV beginning 2060±10 cal BC». 'Proto-IV' kazı bulgusuyla DOĞRUDAN doğrulanmamıştır (yazarlar 'plausible' der). Troya IV'ün 1990 sonrasına inmesi, EH III ile yaygın senkronizmaya aykırıdır; yazarlar buna itiraz eder (aynı makale, s.399)."
+ },
+ { onem:1, dunya:1, bolge_onem:1, puan_s:"v2","kapsam": "dis", "bolge": 1, "odak_yer":["Truva yöresi (Tevfikiye)"],
+  "t": "-2169-01-01",
+  "k": "kayip",
+  "b": "Troya II sonu / Troya III (Erken Tunç Çağı): Troya III evresi sona erer",
+  "gun": "MÖ 2170 civarı",
+  "yer": "Troia II-III",
+  "d": "Cincinnati kazısı hayvan kemiği 14C-AMS (26 örnek), IntCal20 ile modellenmiş: Troya II/III geçişi 2267±10, Troya III bitişi 2170±10 cal BC.",
+  "kaynak": "Easton D., Weninger B. 2023, Troy III-V: new radiocarbon dates confirm a gap in Blegen's sequence, Documenta Praehistorica 50:396-408, doi:10.4312/dp.50.14 · https://journals.uni-lj.si/DocumentaPraehistorica/article/view/13525",
+  "kesinlik": "yuzyil",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "kaynak_turu": "arkeoloji",
+  "ic_not_d": "TEK DEĞER MÖ 2170 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynaktan okunan: «period ends 2170±10 cal BC, as already proposed». Tübingen şemasında Troya III başlangıcı c. 2340 cal BC'dir (aynı makale); fark yazarlarca belirtilir. 2170'in Tübingen/Blum 2012 ve Pernicka 2014 ile uyumlu olduğu yazılıdır. Hata değerleri ±10 yıla YUVARLANMIŞTIR (kaynak notu 2)."
+ },
+ { onem:1, dunya:1, bolge_onem:1, puan_s:"v2","kapsam": "dis", "bolge": 1, "odak_yer":["Truva yöresi (Tevfikiye)"],
+  "t": "-2266-01-01",
+  "k": "gelisme",
+  "b": "Troya II sonu / Troya III (Erken Tunç Çağı): Troya III evresi başlar",
+  "gun": "MÖ 2267 civarı",
+  "yer": "Troia II-III",
+  "d": "Cincinnati kazısı hayvan kemiği 14C-AMS (26 örnek), IntCal20 ile modellenmiş: Troya II/III geçişi 2267±10, Troya III bitişi 2170±10 cal BC.",
+  "kaynak": "Easton D., Weninger B. 2023, Troy III-V: new radiocarbon dates confirm a gap in Blegen's sequence, Documenta Praehistorica 50:396-408, doi:10.4312/dp.50.14 · https://journals.uni-lj.si/DocumentaPraehistorica/article/view/13525",
+  "kesinlik": "yuzyil",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "kaynak_turu": "arkeoloji",
+  "ic_not_d": "TEK DEĞER MÖ 2267 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynaktan okunan: «Troy III begins 2267±10 cal BC». Tübingen şemasında Troya III başlangıcı c. 2340 cal BC'dir (aynı makale); fark yazarlarca belirtilir. 2170'in Tübingen/Blum 2012 ve Pernicka 2014 ile uyumlu olduğu yazılıdır. Hata değerleri ±10 yıla YUVARLANMIŞTIR (kaynak notu 2)."
+ },
+ { onem:2, dunya:1, bolge_onem:2, puan_s:"v2", tur:"kurulus","kapsam": "dis", "bolge": 1, "odak_yer":["Truva yöresi (Tevfikiye)"],
+  "t": "-2919-01-01",
+  "k": "kurulus",
+  "b": "Troya I (Hisarlık, Erken Tunç Çağı başı): Troya Ia evresi başlar (Weninger 1995)",
+  "gun": "MÖ 2920 civarı",
+  "yer": "Troia I / Hisarlık",
+  "d": "Troya Ia evresinin başlangıcı (apsidal taş temel) için dendro-kalibre 14C'den türetilmiş tarih; Troya I toplam 9 mimari evre (Ia-Ii), ortalama evre uzunluğu 50 yıl varsayımıyla.",
+  "kaynak": "Weninger B. 1995, Stratified 14C dates and ceramic chronologies: case studies for the Early Bronze Age at Troy (Turkey) and Ezero (Bulgaria), Radiocarbon 37(2):443-455 (s.450-454), doi:10.1017/S0033822200030927 · https://doi.org/10.1017/S0033822200030927",
+  "kesinlik": "yuzyil",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "kaynak_turu": "arkeoloji",
+  "ic_not_d": "TEK DEĞER MÖ 2920 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynaktan okunan: «the age of Troy Ia can be narrowed down to ca. 2920 cal BC, simply on the basis of the 14C dates». Aynı makale Troya Ib/Ic için 226 halkalı yakılmış odundan dendro-wiggle-match 'cutting date' 2699±15 cal BC (±1 evre) verir (Korfmann & Kromer 1993, Studia Troica 3'ten aktarma; ilk elden okunmadı). Makale kendi eğri-eşleme sonucuyla bu seri arasında 20-100 yıl fark olduğunu, 'old wood' etkisiyle açıkladığını yazar. Troya Ia için tek-değer kaynağın kendi iddiasıdır, 14C kalibrasyon platosu nedeniyle ±50 yıl dolayı geçerlidir. Troya I'in BİTİŞ tarihi bu makalede sayı olarak okunamadı (Fig. 8 grafikte)."
+ },
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, "odak_yer":["Limasol"],
+  "t": "-9149-01-01",
+  "k": "ilk_anilis",
+  "b": "Klimonas ve Shillourokambos (Kıbrıs, Erken Aseramik Neolitik): Kıbrıs'ta ilk yerleşik köyler (Klimonas)",
+  "gun": "MÖ 9150 (ALT SINIR; yerlesim-suresi MÖ 9150–8650)",
+  "yer": "Klimonas / Shillourokambos",
+  "d": "Klimonas'ta kurulu köylüler 11,100-10,600 yıl önce yaşıyordu (en yüksek olasılık 10.8-10.6 cal kyBP). Shillourokambos Erken A 10.4-10.0, Erken B-C 10.0-9.6, Orta A ~9.5 cal kyBP (Şek. 3 başlığı, karşılaştırma).",
+  "kaynak": "Vigne J.-D. vd. 2012, First wave of cultivators spread to Cyprus at least 10,600 y ago, PNAS 109(22):8445-8449, doi:10.1073/pnas.1201693109 (Klimonas, Tablo 1) · https://pmc.ncbi.nlm.nih.gov/articles/PMC3365171/",
+  "kesinlik": "yuzyil",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "kaynak_turu": "arkeoloji",
+  "aralik": {
+   "bas": "-9149-01-01",
+   "son": "-8649-01-01",
+   "guven": "belirsiz (kaynak '11,100 ve 10,600 y ago' der; cal BP varsayımı, BP-1950 bu oturumda)",
+   "tur": "yerlesim-suresi"
+  },
+  "ic_not_d": "yerlesim-suresi aralığı (MÖ 9150–8650) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynaktan okunan: «established villagers were living on Cyprus between 11,100 and 10,600 y ago». UYARI: Makale tarihleri cal kyBP verir; MÖ'ye çevirisi BP-1950 aritmetiği, bu oturumda (bas 11,100->9150; son 10,600->8650). Bu bir 'y ago' ifadesidir, 2σ/1σ belirtilmemiş. 'Modellenmiş süre' (Bayesian) istenmişti: BULUNAMADI — bu makale model değil Tablo 1 14C kümesidir."
+ }
+];
 
 ;
 /* ==== data/olaylar_arkeoloji_zincir.js ==== */
-// data/olaylar_arkeoloji_zincir.js — paketle.py İNCELTTİ: ic_not* alanları yayına gitmez (kaynak dosya değişmedi)
-window.OLAYLAR_ARKEOLOJI_ZINCIR = [{"onem":4,"dunya":2,"bolge_onem":3,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-0026-01-01","k":"diger","b":"Roma, İskenderiye: Roma Cumhuriyeti → sahipsiz aralık","gun":"MÖ 27","yer":"Roma / İskenderiye / Iskenderiye / Atina / Bergama / Capua / Marsilya / Massalia / Pergamon / Sirakuza / Syrakusai / Veii","d":"Roma, İskenderiye noktalarında sahiplik Roma Cumhuriyeti'dan sahipsiz aralık'ya geçer. Kaynak geçiş bilgisi: Theodosius'un ölümü 17 Ocak 395 (Olybrius ve Probus konsüllüğü): Sokrates Scholastikos Kil. Tar. 5.26 (NPNF, newadvent.org/fathers/26015.htm); Marcellinus Comes s.a. 395: Arcadius ve Honorius imparatorluğu yalnız oturma yerleriyle bölünmüş olarak devralır.","kaynak":"Theodosius'un ölümü 17 Ocak 395 (Olybrius ve Probus konsüllüğü): Sokrates Scholastikos Kil. Tar. 5.26 (NPNF, newadvent.org/fathers/26015.htm); Marcellinus Comes s.a. 395: Arcadius ve Honorius imparatorluğu yalnız oturma yerleriyle bölünmüş olarak devralır.","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Roma","İskenderiye","Atina","Bergama","Capua","Marsilya","Sirakuza","Veii"]},{"onem":3,"dunya":2,"bolge_onem":3,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-0048-01-01","k":"diger","b":"Marsilya, Massalia: Massalia (Marsilya) → Roma Cumhuriyeti","gun":"MÖ 49","yer":"Marsilya / Massalia","d":"Marsilya, Massalia noktalarında sahiplik Massalia (Marsilya)'dan Roma Cumhuriyeti'ya geçer. Kaynak geçiş bilgisi: Caesar BC 2.22: şehir yenilince 'conservans' ve garnizon bırakıldı — özgür müttefik statüsünün sonu Roma denetimi.","kaynak":"Caesar BC 2.22: şehir yenilince 'conservans' ve garnizon bırakıldı — özgür müttefik statüsünün sonu Roma denetimi.","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Marsilya"]},{"onem":3,"dunya":2,"bolge_onem":3,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-0112-01-01","k":"diger","b":"Dura-Europos: Selevkos Imparatorlugu → Part (Arsakid) Imparatorlugu","gun":"MÖ 113","yer":"Dura-Europos","d":"Dura-Europos noktalarında sahiplik Selevkos Imparatorlugu'dan Part (Arsakid) Imparatorlugu'ya geçer. Kaynak geçiş bilgisi: Part fethi (ca. 113) | Kaynak: Leriche, P. & MacKenzie, D. N., \"Dura Europos\", Encyclopaedia Iranica VII/6, 1996 (rev. 2011); kurulus tarihi Leriche ozetinden (kavehfarrokh.com aynasi) | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/dura-europos | «Dura Europos was brought into the Iranian cultural sphere after the Parthian conquest in about 113 B.C.E.»","kaynak":"Part fethi (ca. 113) | Kaynak: Leriche, P. & MacKenzie, D. N., \"Dura Europos\", Encyclopaedia Iranica VII/6, 1996 (rev. 2011); kurulus tarihi Leriche ozetinden (kavehfarrokh.com aynasi) | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/dura-europos | «Dura Europos was brought into the Iranian cultural sphere after the Parthian conquest in about 113 B.C.E.»","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Dura-Europos"]},{"onem":4,"dunya":3,"bolge_onem":4,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-0132-01-01","k":"diger","b":"Bergama, Pergamon: Bergama (Attalos) Krallığı → Roma Cumhuriyeti","gun":"MÖ 133","yer":"Bergama / Pergamon","d":"Bergama, Pergamon noktalarında sahiplik Bergama (Attalos) Krallığı'dan Roma Cumhuriyeti'ya geçer. Kaynak geçiş bilgisi: Strabon 13.4.2: 'The Romans proclaimed the country a province, calling it Asia'.","kaynak":"Strabon 13.4.2: 'The Romans proclaimed the country a province, calling it Asia'.","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Bergama"]},{"onem":4,"dunya":3,"bolge_onem":4,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-0140-01-01","k":"diger","b":"Babil, Seleukeia (Dicle üzerinde), Uruk: Selevkos Imparatorlugu → Part (Arsakid) Imparatorlugu","gun":"MÖ 141","yer":"Babil / Seleukeia (Dicle üzerinde) / Uruk / Ktesiphon","d":"Babil, Seleukeia (Dicle üzerinde), Uruk noktalarında sahiplik Selevkos Imparatorlugu'dan Part (Arsakid) Imparatorlugu'ya geçer. Kaynak geçiş bilgisi: Mithradates I Temmuz 141'de Seleukeia'yı, Ekim 141'de Uruk'a ulaşır | Kaynak: Lendering, J., Livius.org: Mithradates I (Bagayasha sayfasi); dipnot: van der Spek 1997/8: 171 | https://livius.org/articles/person/bagayasha | «In July 141, he captured Seleucia and in October he reached Uruk in southern Babylonia.»","kaynak":"Mithradates I Temmuz 141'de Seleukeia'yı, Ekim 141'de Uruk'a ulaşır | Kaynak: Lendering, J., Livius.org: Mithradates I (Bagayasha sayfasi); dipnot: van der Spek 1997/8: 171 | https://livius.org/articles/person/bagayasha | «In July 141, he captured Seleucia and in October he reached Uruk in southern Babylonia.»","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Babil","Seleukeia","Uruk (Warka)","Ktesiphon"]},{"onem":3,"dunya":2,"bolge_onem":3,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-0147-01-01","k":"diger","b":"Ekbatana, Hemedan: Selevkos Imparatorlugu → Part (Arsakid) Imparatorlugu","gun":"MÖ 148","yer":"Ekbatana / Hemedan","d":"Ekbatana, Hemedan noktalarında sahiplik Selevkos Imparatorlugu'dan Part (Arsakid) Imparatorlugu'ya geçer. Kaynak geçiş bilgisi: Mithradates I Medya'yı fetheder (148; Justinus 41.6.7 aktarımı) | Kaynak: Lendering, J., Livius.org: Mithradates I (Bagayasha sayfasi); dipnot: van der Spek 1997/8: 171 | https://livius.org/articles/person/bagayasha | «Mithradates conquered Media in 148 BCE and appointed Bacasis as governor»","kaynak":"Mithradates I Medya'yı fetheder (148; Justinus 41.6.7 aktarımı) | Kaynak: Lendering, J., Livius.org: Mithradates I (Bagayasha sayfasi); dipnot: van der Spek 1997/8: 171 | https://livius.org/articles/person/bagayasha | «Mithradates conquered Media in 148 BCE and appointed Bacasis as governor»","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Hemedan"]},{"onem":4,"dunya":2,"bolge_onem":4,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-0206-01-01","k":"diger","b":"Xi'an (Chang'an): Qin Hanedanı (birleşik İmparatorluk) → sahipsiz aralık","gun":"MÖ 207","yer":"Xi'an (Chang'an)","d":"Xi'an (Chang'an) noktalarında sahiplik Qin Hanedanı (birleşik İmparatorluk)'dan sahipsiz aralık'ya geçer. Kaynak geçiş bilgisi: Shiji 6, Qin Shi Huang 26. yıl: 'ilk kez bütün ülkeyi birleştirdi' (devlet Qin kimliği değişimi; Chang'an/Xianyang Qin çekirdeğidir)","kaynak":"Shiji 6, Qin Shi Huang 26. yıl: 'ilk kez bütün ülkeyi birleştirdi' (devlet Qin kimliği değişimi; Chang'an/Xianyang Qin çekirdeğidir)","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Xi'an (Chang'an)"]},{"onem":4,"dunya":2,"bolge_onem":4,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-0211-01-01","k":"diger","b":"Sirakuza, Syrakusai: Sirakuza (Syrakousai) → Roma Cumhuriyeti","gun":"MÖ 212","yer":"Sirakuza / Syrakusai","d":"Sirakuza, Syrakusai noktalarında sahiplik Sirakuza (Syrakousai)'dan Roma Cumhuriyeti'ya geçer. Kaynak geçiş bilgisi: Livy 25.40: 'Marcellus captis Syracusis' Sicilya'yı düzenledi; Eutropius 3.14: Marcellus Sicilya'nın büyük bölümünü ve Syracusa'yı aldı.","kaynak":"Livy 25.40: 'Marcellus captis Syracusis' Sicilya'yı düzenledi; Eutropius 3.14: Marcellus Sicilya'nın büyük bölümünü ve Syracusa'yı aldı.","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Sirakuza"]},{"onem":4,"dunya":2,"bolge_onem":4,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-0310-01-01","k":"diger","b":"Babil, Uruk: Buyuk Iskender Imparatorlugu (Argead nominal) → Selevkos Imparatorlugu","gun":"MÖ 311","yer":"Babil / Uruk","d":"Babil, Uruk noktalarında sahiplik sahipsiz aralık'dan Selevkos Imparatorlugu'ya geçer. Kaynak geçiş bilgisi: Seleukos Babil'i geri alır (Mayıs 311); Seleukos Çağı bu tarihle başlar | Kaynak: Finkel, van der Spek, Pirngruber (BCHP 3, Diadochi Chronicle); Livius.org yeni okuma ve dipnotlari, Rev. iv.10' dipnotu | https://www.livius.org/sources/content/mesopotamian-chronicles-content/bchp-3-diadochi-chronicle/ | «Seleucus had recovered Babylon in May 311»","kaynak":"Finkel, van der Spek, Pirngruber, Babylonian Chronographic Texts from the Hellenistic Period (BCHP 3, Diadochi Chronicle, Rev. iv.10' notu) — metin livius.org'da okundu — «Seleucus had recovered Babylon in May 311 and was attacked by the satrap of Media»","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Babil","Uruk (Warka)"]},{"onem":3,"dunya":2,"bolge_onem":3,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-0311-01-01","k":"diger","b":"Ekbatana, Hemedan: Seleukos Nikator hâkimiyeti başlar (Medya)","gun":"MÖ 312","yer":"Ekbatana / Hemedan / Seleukeia (Dicle üzerinde)","d":"Ekbatana, Hemedan noktalarında sahiplik sahipsiz aralık'dan Selevkos Imparatorlugu'ya geçer. Kaynak geçiş bilgisi: Ekbatana Seleukos I Nikator'a (305-281) geçer | Kaynak: Brown, S. C., \"Ecbatana\", Encyclopaedia Iranica VIII/1, 1997 (rev. 2011) | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/ecbatana | «The city later fell to Seleucus I Nicator (305-281 B.C.E.)»","kaynak":"Ekbatana Seleukos I Nikator'a (305-281) geçer | Kaynak: Brown, S. C., \"Ecbatana\", Encyclopaedia Iranica VIII/1, 1997 (rev. 2011) | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/ecbatana | «The city later fell to Seleucus I Nicator (305-281 B.C.E.)»","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Hemedan"]},{"onem":3,"dunya":3,"bolge_onem":3,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-0309-01-01","k":"diger","b":"Pasargad, Susa: Buyuk Iskender Imparatorlugu (Argead nominal) → sahipsiz aralık; IV. Aleksandros öldürüldü","gun":"MÖ 310","yer":"Pasargad / Susa","d":"Argead krallığının son kralı IV. Aleksandros (MÖ 323-310) annesi Roxane ile birlikte öldürüldü; İskender İmparatorluğu künyesi bu yılla biter (künye t uzatıldı). Pasargad ve Susa'nın sonraki sahibi kaynaklanmadı. Babil, Uruk ve Hemedan bu tarihten önce Seleukos'a geçer.","kaynak":"Livius.org (J. Lendering), «Alexander IV» https://www.livius.org/articles/person/alexander-iv/ — «Roxane and the twelve year old Alexander were killed»","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Pasargad","Susa"]},{"onem":3,"dunya":2,"bolge_onem":3,"puan_s":"v2","kapsam":"dis","bolge":1,"odak_yer":["Ur (Tell al-Muqayyar)","Hemedan"],"t":"-0329-01-01","k":"diger","b":"Ekbatana, Hemedan: Ahamenis (Pers) Imparatorlugu → Buyuk Iskender Imparatorlugu (ANTIK-ISKENDER-1113-B)","gun":"MÖ 330","yer":"Ekbatana / Hemedan / Persepolis / Sippar / Ur","d":"Ekbatana, Hemedan noktalarında sahiplik Ahamenis (Pers) Imparatorlugu'dan sahipsiz aralık'ya geçer. Kaynak geçiş bilgisi: Nabonidus yıl 6 (550/549): Kyros II Astyages'i yener, Ekbatana'yı alır, hazinesini Anşan'a götürür | Kaynak: Brown, S. C., \"Ecbatana\", Encyclopaedia Iranica VIII/1, 1997 (rev. 2011) | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/ecbatana | «records that Cyrus II defeated Astyages, captured Ecbatana, and removed its treasury to Anshan»","kaynak":"Nabonidus yıl 6 (550/549): Kyros II Astyages'i yener, Ekbatana'yı alır, hazinesini Anşan'a götürür | Kaynak: Brown, S. C., \"Ecbatana\", Encyclopaedia Iranica VIII/1, 1997 (rev. 2011) | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/ecbatana | «records that Cyrus II defeated Astyages, captured Ecbatana, and removed its treasury to Anshan»","kaynak_turu":"yazili","kesinlik":"yil","yer_id":"Ur (Tell al-Muqayyar)"},{"onem":4,"dunya":4,"bolge_onem":5,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-0330-10-22","k":"diger","b":"Babil, Uruk: Ahamenis (Pers) Imparatorlugu → Buyuk Iskender Imparatorlugu","gun":"MÖ 331 (22 Ekim; Livius)","yer":"Babil / Uruk / Susa","d":"Babil, Uruk noktalarında sahiplik Ahamenis (Pers) Imparatorlugu'dan Buyuk Iskender Imparatorlugu'ya geçer. Kaynak geçiş bilgisi: İskender Babil'i alır (331); kaynak Livius özeti, Arrianos 3.16 okunmadı | Kaynak: Lendering, J., Livius.org: Babylon | https://www.livius.org/articles/place/babylon/ | «In 331, the Macedonian conqueror Alexander the Great, who was fighting a war against the Persians, captured Babylon»","kaynak":"Arrianos, Anabasis 3.15.7, 3.16.4 (Perseus, CC BY-SA) — «Ἀλέξανδρος δὲ παρελθὼν εἰς τὴν Βαβυλῶνα τὰ ἱερὰ, ἃ Ξέρξης καθεῖλεν, ἀνοικοδομεῖν προσέταξε»","kaynak_turu":"yazili","kesinlik":"gun","odak_yer":["Babil","Uruk (Warka)","Susa"]},{"onem":4,"dunya":2,"bolge_onem":3,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-0395-01-01","k":"diger","b":"Veii: Etrüsk Şehir Devletleri (Oniki Şehir Birliği) → Roma Cumhuriyeti","gun":"MÖ 396","yer":"Veii","d":"Veii noktalarında sahiplik Etrüsk Şehir Devletleri (Oniki Şehir Birliği)'dan Roma Cumhuriyeti'ya geçer. Kaynak geçiş bilgisi: Livy 5.22 (Roberts, Perseus 1999.02.0026): Veii'den tüm insani mal taşındıktan sonra Juno heykeli Roma'ya götürüldü; şehir alındı. MÖ yılı Livy'de yok (konsül/diktatör Camillus yılı Fasti ile eşleşir).","kaynak":"Livy 5.22 (Roberts, Perseus 1999.02.0026): Veii'den tüm insani mal taşındıktan sonra Juno heykeli Roma'ya götürüldü; şehir alındı. MÖ yılı Livy'de yok (konsül/diktatör Camillus yılı Fasti ile eşleşir).","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Veii"]},{"onem":3,"dunya":2,"bolge_onem":3,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-0403-01-01","k":"diger","b":"Memphis (Men-nefer / Mit Rahina): Ahamenis Misir'i (27. Hanedan, 1. Pers egemenligi) → sahipsiz aralık","gun":"MÖ 404","yer":"Memphis (Men-nefer / Mit Rahina)","d":"Memphis (Men-nefer / Mit Rahina) noktalarında sahiplik Ahamenis Misir'i (27. Hanedan, 1. Pers egemenligi)'dan sahipsiz aralık'ya geçer. Kaynak geçiş bilgisi: Pelusium savasi 525; Kambises ayin sonunda Misir kralı ilan edildi; 1. Pers hakimiyeti ~402'de bitti; \"Egypt was governed from Memphis by a satrap\" [Bresciani, Iranica Egypt i; Dandamayev, Iranica Cambyses]","kaynak":"Pelusium savasi 525; Kambises ayin sonunda Misir kralı ilan edildi; 1. Pers hakimiyeti ~402'de bitti; \"Egypt was governed from Memphis by a satrap\" [Bresciani, Iranica Egypt i; Dandamayev, Iranica Cambyses]","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Memphis"]},{"onem":3,"dunya":2,"bolge_onem":3,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-0677-01-01","k":"diger","b":"Ekbatana, Hemedan: sahipsiz aralık → Medya (Med) Krallığı","gun":"MÖ 678","yer":"Ekbatana / Hemedan","d":"Ekbatana, Hemedan noktalarında sahiplik sahipsiz aralık'dan Medya (Med) Krallığı'ya geçer. Kaynak geçiş bilgisi: Herodotos geleneği: Ekbatana Med başkenti olarak 8. yy sonlarında Deiokes'çe seçilir (Iranica: daha eski iskân için tarihsel/arkeolojik kanıt yok) | Kaynak: Brown, S. C., \"Ecbatana\", Encyclopaedia Iranica VIII/1, 1997 (rev. 2011) | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/ecbatana | «Ecbatana was chosen as the Median capital in the late 8th century B.C.E. by Deioces»","kaynak":"Herodotos geleneği: Ekbatana Med başkenti olarak 8. yy sonlarında Deiokes'çe seçilir (Iranica: daha eski iskân için tarihsel/arkeolojik kanıt yok) | Kaynak: Brown, S. C., \"Ecbatana\", Encyclopaedia Iranica VIII/1, 1997 (rev. 2011) | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/ecbatana | «Ecbatana was chosen as the Median capital in the late 8th century B.C.E. by Deioces»","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Hemedan"]},{"onem":3,"dunya":2,"bolge_onem":3,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-0709-01-01","k":"diger","b":"Babil: sahipsiz aralık → Yeni Asur Imparatorlugu","gun":"MÖ 710","yer":"Babil","d":"Babil noktalarında sahiplik sahipsiz aralık'dan Yeni Asur Imparatorlugu'ya geçer. Kaynak geçiş bilgisi: Sargon II Babil tahtına oturur (Marduk-apla-iddina yıl 12 = 710/709) | Kaynak: Grayson, A. K. 1975, Assyrian and Babylonian Chronicles, ABC 1 (Nabu-nasir > Esarhaddon); Livius.org ceviri-tasiyicisi, sütun ii.14 | https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-1b-from-nabu-nasir-to-esarhaddon/ | «Sargon ascended the throne in Babylon.»","kaynak":"Grayson, ABC 1 ii.9'-14', Livius çevirisi — «Sargon ascended the throne in Babylon.»","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Babil"]},{"onem":4,"dunya":2,"bolge_onem":4,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-0721-01-01","k":"diger","b":"Samiriye (Samaria / Sebaste): Israil Krallığı (Samiriye) → Yeni Asur Imparatorlugu","gun":"MÖ 722","yer":"Samiriye (Samaria / Sebaste)","d":"Samiriye (Samaria / Sebaste) noktalarında sahiplik Israil Krallığı (Samiriye)'dan Yeni Asur Imparatorlugu'ya geçer. Kaynak geçiş bilgisi: Samiriye'nin alinmasi 722; halk Halah/Gozan'a surgun [AEBP Israel]","kaynak":"Samiriye'nin alinmasi 722; halk Halah/Gozan'a surgun [AEBP Israel]","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Samiriye"]},{"onem":4,"dunya":2,"bolge_onem":4,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-0731-01-01","k":"diger","b":"Şam: Aram-Sam (Dimask) Krallığı → Yeni Asur Imparatorlugu","gun":"MÖ 732","yer":"Şam / Megiddo","d":"Şam noktalarında sahiplik Aram-Sam (Dimask) Krallığı'dan Yeni Asur Imparatorlugu'ya geçer. Kaynak geçiş bilgisi: ayni kaynak","kaynak":"ayni kaynak","kaynak_turu":"yazili","kesinlik":"yil","yer_id":"Şam"},{"onem":3,"dunya":2,"bolge_onem":3,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-0910-01-01","k":"diger","b":"Aşşur: sahipsiz aralık → Yeni Asur Imparatorlugu","gun":"MÖ 911","yer":"Aşşur / Ninova","d":"Aşşur noktalarında sahiplik sahipsiz aralık'dan Yeni Asur Imparatorlugu'ya geçer. Kaynak geçiş bilgisi: Aşşur-uballit I (ca. 1364-1328) ve Šuppiluliuma Mitanni'ye saldırır; Asur bağımsızlığını yeniden kazanır (Livius özeti) | Kaynak: Lendering, J., Livius.org: Assur | https://www.livius.org/articles/place/assur/ | «Assyria regained its independence»","kaynak":"Aşşur-uballit I (ca. 1364-1328) ve Šuppiluliuma Mitanni'ye saldırır; Asur bağımsızlığını yeniden kazanır (Livius özeti) | Kaynak: Lendering, J., Livius.org: Assur | https://www.livius.org/articles/place/assur/ | «Assyria regained its independence»","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Aşşur","Ninova"]},{"onem":3,"dunya":2,"bolge_onem":3,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-1099-01-01","k":"diger","b":"Susa: Orta Elam Krallığı (Kidinuid, Igehalkid, Sutrukid) → Yeni Elam Krallığı","gun":"MÖ 1100","yer":"Susa","d":"Susa noktalarında sahiplik Orta Elam Krallığı (Kidinuid, Igehalkid, Sutrukid)'dan Yeni Elam Krallığı'ya geçer. Kaynak geçiş bilgisi: Ur III çözülmesi: İbbi-Suen yıl 3 (MC 2024) doğu/kuzey eyaletleri (Eşnunna, Susa) ayrılır | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 131 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «in Ibbisuen year 3 (MC 2024) provinces in the east and north, including Eshnuna and Susa»","kaynak":"Ur III çözülmesi: İbbi-Suen yıl 3 (MC 2024) doğu/kuzey eyaletleri (Eşnunna, Susa) ayrılır | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 131 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «in Ibbisuen year 3 (MC 2024) provinces in the east and north, including Eshnuna and Susa»","kaynak_turu":"yazili","kesinlik":"onyil","odak_yer":["Susa"]},{"onem":3,"dunya":2,"bolge_onem":3,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-1154-01-01","k":"diger","b":"Nippur, Uruk, Ur: Kassit Babil Krallığı → sahipsiz aralık","gun":"MÖ 1155","yer":"Nippur / Uruk / Ur","d":"Nippur, Uruk, Ur noktalarında sahiplik Kassit Babil Krallığı'dan sahipsiz aralık'ya geçer. Kaynak geçiş bilgisi: Deniz Ülkesi Babilonya'ya katılır (ca. 1465; Brinkman 1972, Edens 1994) | Kaynak: Zadok, R., \"Kassites\", Encyclopaedia Iranica XVI/2, 2013, s. 113-118 (rev. 2015); kronoloji Boese 1982 / Brinkman 1986 | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/kassites | «was incorporated into Babylonia in ca. 1465 BCE»","kaynak":"Deniz Ülkesi Babilonya'ya katılır (ca. 1465; Brinkman 1972, Edens 1994) | Kaynak: Zadok, R., \"Kassites\", Encyclopaedia Iranica XVI/2, 2013, s. 113-118 (rev. 2015); kronoloji Boese 1982 / Brinkman 1986 | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/kassites | «was incorporated into Babylonia in ca. 1465 BCE»","kaynak_turu":"yazili","kesinlik":"yil","yer_id":"Ur (Tell al-Muqayyar)"},{"onem":3,"dunya":2,"bolge_onem":3,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-1209-01-01","k":"diger","b":"Babil: Orta Asur Imparatorlugu → sahipsiz aralık","gun":"MÖ 1210","yer":"Babil","d":"Babil noktalarında sahiplik Orta Asur Imparatorlugu'dan sahipsiz aralık'ya geçer. Kaynak geçiş bilgisi: KAYNAKLANMADI (başlangıç geçişi için bu oturumda kaynak yok)","kaynak":"KAYNAKLANMADI (başlangıç geçişi için bu oturumda kaynak yok)","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Babil"]},{"onem":4,"dunya":2,"bolge_onem":3,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-1219-01-01","k":"diger","b":"Babil: Kassit Babil Krallığı → Orta Asur Imparatorlugu","gun":"MÖ 1220","yer":"Babil","d":"Babil noktalarında sahiplik Kassit Babil Krallığı'dan Orta Asur Imparatorlugu'ya geçer. Kaynak geçiş bilgisi: Tukulti-Ninurta I (Asur) Kaştiliaş IV'ü (1227-20) tutsak eder; 1220'de bir yıl Babil kralı gibi davranır; kukla yöneticiler bir on yıl Babilonya'yı denetler | Kaynak: Zadok, R., \"Kassites\", Encyclopaedia Iranica XVI/2, 2013, s. 113-118 (rev. 2015); kronoloji Boese 1982 / Brinkman 1986 | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/kassites | «After acting as king of Babylon for a year (1220 BCE), Tukulti-Ninurta I appointed a succession of puppet rulers»","kaynak":"Tukulti-Ninurta I (Asur) Kaştiliaş IV'ü (1227-20) tutsak eder; 1220'de bir yıl Babil kralı gibi davranır; kukla yöneticiler bir on yıl Babilonya'yı denetler | Kaynak: Zadok, R., \"Kassites\", Encyclopaedia Iranica XVI/2, 2013, s. 113-118 (rev. 2015); kronoloji Boese 1982 / Brinkman 1986 | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/kassites | «After acting as king of Babylon for a year (1220 BCE), Tukulti-Ninurta I appointed a succession of puppet rulers»","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Babil"]},{"onem":3,"dunya":2,"bolge_onem":3,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-1464-01-01","k":"diger","b":"Uruk, Ur: sahipsiz aralık → Kassit Babil Krallığı","gun":"MÖ 1465","yer":"Uruk / Ur","d":"Uruk, Ur noktalarında sahiplik sahipsiz aralık'dan Kassit Babil Krallığı'ya geçer. Kaynak geçiş bilgisi: Deniz Ülkesi Babilonya'ya katılır (ca. 1465; Brinkman 1972, Edens 1994) | Kaynak: Zadok, R., \"Kassites\", Encyclopaedia Iranica XVI/2, 2013, s. 113-118 (rev. 2015); kronoloji Boese 1982 / Brinkman 1986 | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/kassites | «was incorporated into Babylonia in ca. 1465 BCE»","kaynak":"Deniz Ülkesi Babilonya'ya katılır (ca. 1465; Brinkman 1972, Edens 1994) | Kaynak: Zadok, R., \"Kassites\", Encyclopaedia Iranica XVI/2, 2013, s. 113-118 (rev. 2015); kronoloji Boese 1982 / Brinkman 1986 | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/kassites | «was incorporated into Babylonia in ca. 1465 BCE»","kaynak_turu":"yazili","kesinlik":"yil","yer_id":"Ur (Tell al-Muqayyar)"},{"onem":2,"dunya":1,"bolge_onem":2,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-1474-01-01","k":"diger","b":"Uruk: Birinci Deniz Ulkesi Hanedani → sahipsiz aralık","gun":"MÖ 1475","yer":"Uruk","d":"Uruk noktalarında sahiplik Birinci Deniz Ulkesi Hanedani'dan sahipsiz aralık'ya geçer. Kaynak geçiş bilgisi: MÖ 16. yy: Babilonya ikiye bölünür - kuzeyde Kassitler, güneyde Uruk, Ur ve Larsa'yı içeren Deniz Ülkesi | Kaynak: Zadok, R., \"Kassites\", Encyclopaedia Iranica XVI/2, 2013, s. 113-118 (rev. 2015); kronoloji Boese 1982 / Brinkman 1986 | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/kassites | «Babylonia was divided into two kingdoms, that of the Kassites in the north and the Sealand in the south, including Uruk, Ur, and Larsa»","kaynak":"MÖ 16. yy: Babilonya ikiye bölünür - kuzeyde Kassitler, güneyde Uruk, Ur ve Larsa'yı içeren Deniz Ülkesi | Kaynak: Zadok, R., \"Kassites\", Encyclopaedia Iranica XVI/2, 2013, s. 113-118 (rev. 2015); kronoloji Boese 1982 / Brinkman 1986 | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/kassites | «Babylonia was divided into two kingdoms, that of the Kassites in the north and the Sealand in the south, including Uruk, Ur, and Larsa»","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Uruk (Warka)"]},{"onem":3,"dunya":2,"bolge_onem":3,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-1499-01-01","k":"diger","b":"Kerma (Kerma / Doukki Gel): Kerma Krallığı (Klasik Kerma) → sahipsiz aralık","gun":"MÖ 1500","yer":"Kerma (Kerma / Doukki Gel)","d":"Kerma (Kerma / Doukki Gel) noktalarında sahiplik Kerma Krallığı (Klasik Kerma)'dan sahipsiz aralık'ya geçer. Kaynak geçiş bilgisi: Kerma.ch: Early Kerma 2450-2050 \"City founded\"; Middle 2050-1750; Classic 1750-1480","kaynak":"Kerma.ch: Early Kerma 2450-2050 \"City founded\"; Middle 2050-1750; Classic 1750-1480","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Kerma"]},{"onem":2,"dunya":1,"bolge_onem":2,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-1731-01-01","k":"diger","b":"Uruk: sahipsiz aralık → Birinci Deniz Ulkesi Hanedani","gun":"MÖ 1732","yer":"Uruk","d":"Uruk noktalarında sahiplik sahipsiz aralık'dan Birinci Deniz Ulkesi Hanedani'ya geçer. Kaynak geçiş bilgisi: MÖ 16. yy: Babilonya ikiye bölünür - kuzeyde Kassitler, güneyde Uruk, Ur ve Larsa'yı içeren Deniz Ülkesi | Kaynak: Zadok, R., \"Kassites\", Encyclopaedia Iranica XVI/2, 2013, s. 113-118 (rev. 2015); kronoloji Boese 1982 / Brinkman 1986 | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/kassites | «Babylonia was divided into two kingdoms, that of the Kassites in the north and the Sealand in the south, including Uruk, Ur, and Larsa»","kaynak":"MÖ 16. yy: Babilonya ikiye bölünür - kuzeyde Kassitler, güneyde Uruk, Ur ve Larsa'yı içeren Deniz Ülkesi | Kaynak: Zadok, R., \"Kassites\", Encyclopaedia Iranica XVI/2, 2013, s. 113-118 (rev. 2015); kronoloji Boese 1982 / Brinkman 1986 | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/kassites | «Babylonia was divided into two kingdoms, that of the Kassites in the north and the Sealand in the south, including Uruk, Ur, and Larsa»","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Uruk (Warka)"]},{"onem":4,"dunya":2,"bolge_onem":4,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-1760-01-01","k":"diger","b":"Mari: sahipsiz aralık → Eski Babil (Amorit) Krallığı","gun":"MÖ 1761","yer":"Mari","d":"Mari noktalarında sahiplik sahipsiz aralık'dan Eski Babil (Amorit) Krallığı'ya geçer. Kaynak geçiş bilgisi: Hammurabi yıl 32 (MC 1761): Mari yenilir | Kaynak: \"Hammurapi\", Encyclopaedia Judaica (Gale), encyclopedia.com uzerinden | https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/hammurapi | «Mari, in the 32nd»","kaynak":"Hammurabi yıl 32 (MC 1761): Mari yenilir | Kaynak: \"Hammurapi\", Encyclopaedia Judaica (Gale), encyclopedia.com uzerinden | https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/hammurapi | «Mari, in the 32nd»","kaynak_turu":"yazili","kesinlik":"onyil","odak_yer":["Mari"]},{"onem":4,"dunya":2,"bolge_onem":4,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-1762-01-01","k":"diger","b":"Ur: sahipsiz aralık → Eski Babil (Amorit) Krallığı","gun":"MÖ 1763","yer":"Ur / Uruk","d":"Ur noktalarında sahiplik sahipsiz aralık'dan Eski Babil (Amorit) Krallığı'ya geçer. Kaynak geçiş bilgisi: Hammurabi yıl 30 (MC 1763): Larsa kralı Rim-Sin yenilir; Larsa devleti biter (ARC Tablo 38: Rimsin 1822-1763) | Kaynak: \"Hammurapi\", Encyclopaedia Judaica (Gale), encyclopedia.com uzerinden | https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/hammurapi | «Rim-Sin of Larsa was defeated in the 30th year of Hammurapi's reign»","kaynak":"Hammurabi yıl 30 (MC 1763): Larsa kralı Rim-Sin yenilir; Larsa devleti biter (ARC Tablo 38: Rimsin 1822-1763) | Kaynak: \"Hammurapi\", Encyclopaedia Judaica (Gale), encyclopedia.com uzerinden | https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/hammurapi | «Rim-Sin of Larsa was defeated in the 30th year of Hammurapi's reign»","kaynak_turu":"yazili","kesinlik":"onyil","yer_id":"Ur (Tell al-Muqayyar)"},{"onem":3,"dunya":1,"bolge_onem":2,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-1801-01-01","k":"diger","b":"Uruk: sahipsiz aralık → Larsa Krallığı","gun":"MÖ 1802","yer":"Uruk","d":"Uruk noktalarında sahiplik sahipsiz aralık'dan Larsa Krallığı'ya geçer. Kaynak geçiş bilgisi: Rim-Sin I yıl 21 (MC 1802): Uruk yıkılır ve Larsa'ya katılır | Kaynak: CDLI Wiki, Year names of Rim-Sin I (Larsa), yıl 21 | https://web.archive.org/web/2024/https://cdli.ox.ac.uk/wiki/year_names_rim-sin | «(Rîm-Sîn) destroyed Uruk with the help of the strong weapon entrusted to him by Enlil»","kaynak":"Rim-Sin I yıl 21 (MC 1802): Uruk yıkılır ve Larsa'ya katılır | Kaynak: CDLI Wiki, Year names of Rim-Sin I (Larsa), yıl 21 | https://web.archive.org/web/2024/https://cdli.ox.ac.uk/wiki/year_names_rim-sin | «(Rîm-Sîn) destroyed Uruk with the help of the strong weapon entrusted to him by Enlil»","kaynak_turu":"yazili","kesinlik":"onyil","odak_yer":["Uruk (Warka)"]},{"onem":4,"dunya":2,"bolge_onem":4,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-1807-01-01","k":"diger","b":"Aşşur: Eski Asur Devleti (Assur sehir devleti) → Ust Mezopotamya Krallığı (Samsi-Adad I)","gun":"MÖ 1808","yer":"Aşşur","d":"Aşşur noktalarında sahiplik Eski Asur Devleti (Assur sehir devleti)'dan Ust Mezopotamya Krallığı (Samsi-Adad I)'ya geçer. Kaynak geçiş bilgisi: Šamši-Adad I Aşşur'un yöneticisi (ARC Tablo 38, Barjamovic vd. 2012 uyarlaması): MC 1808-1776 | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 133 Tablo 38 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «Shamshiadad I 1808-1776»","kaynak":"Šamši-Adad I Aşşur'un yöneticisi (ARC Tablo 38, Barjamovic vd. 2012 uyarlaması): MC 1808-1776 | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 133 Tablo 38 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «Shamshiadad I 1808-1776»","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Aşşur"]},{"onem":3,"dunya":2,"bolge_onem":3,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-1899-01-01","k":"diger","b":"Susa: Elam — Simaski Hanedani → Elam — Sukkalmah (Eparti) Hanedani","gun":"MÖ 1900","yer":"Susa","d":"Susa noktalarında sahiplik Elam — Simaski Hanedani'dan Elam — Sukkalmah (Eparti) Hanedani'ya geçer. Kaynak geçiş bilgisi: Ur III çözülmesi: İbbi-Suen yıl 3 (MC 2024) doğu/kuzey eyaletleri (Eşnunna, Susa) ayrılır | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 131 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «in Ibbisuen year 3 (MC 2024) provinces in the east and north, including Eshnuna and Susa»","kaynak":"Ur III çözülmesi: İbbi-Suen yıl 3 (MC 2024) doğu/kuzey eyaletleri (Eşnunna, Susa) ayrılır | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 131 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «in Ibbisuen year 3 (MC 2024) provinces in the east and north, including Eshnuna and Susa»","kaynak_turu":"yazili","kesinlik":"onyil","odak_yer":["Susa"]},{"onem":3,"dunya":1,"bolge_onem":2,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-2003-01-01","k":"diger","b":"Uruk, Ur: Larsa Krallığı → sahipsiz aralık","gun":"MÖ 2004","yer":"Uruk / Ur","d":"Uruk, Ur noktalarında sahiplik Larsa Krallığı'dan sahipsiz aralık'ya geçer. Kaynak geçiş bilgisi: Urnamma yıl 1 = MC 2110; Ur III devleti | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 131; Tablo 39 s. 136 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «Urnamma 18 years MC 2110-2093»","kaynak":"Urnamma yıl 1 = MC 2110; Ur III devleti | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 131; Tablo 39 s. 136 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «Urnamma 18 years MC 2110-2093»","kaynak_turu":"yazili","kesinlik":"onyil","yer_id":"Ur (Tell al-Muqayyar)"},{"onem":3,"dunya":2,"bolge_onem":3,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-2023-01-01","k":"diger","b":"Susa: Ur III (Ucuncu Ur Hanedani) → Elam — Simaski Hanedani","gun":"MÖ 2024","yer":"Susa / Aşşur","d":"Susa noktalarında sahiplik Ur III (Ucuncu Ur Hanedani)'dan Elam — Simaski Hanedani'ya geçer. Kaynak geçiş bilgisi: Ur III çözülmesi: İbbi-Suen yıl 3 (MC 2024) doğu/kuzey eyaletleri (Eşnunna, Susa) ayrılır | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 131 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «in Ibbisuen year 3 (MC 2024) provinces in the east and north, including Eshnuna and Susa»","kaynak":"Ur III çözülmesi: İbbi-Suen yıl 3 (MC 2024) doğu/kuzey eyaletleri (Eşnunna, Susa) ayrılır | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 131 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «in Ibbisuen year 3 (MC 2024) provinces in the east and north, including Eshnuna and Susa»","kaynak_turu":"yazili","kesinlik":"onyil","odak_yer":["Susa","Aşşur"]},{"onem":3,"dunya":2,"bolge_onem":3,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-2024-01-01","k":"diger","b":"Uruk, Ur: Ur III (Ucuncu Ur Hanedani) → Larsa Krallığı","gun":"MÖ 2025","yer":"Uruk / Ur","d":"Uruk, Ur noktalarında sahiplik Ur III (Ucuncu Ur Hanedani)'dan Larsa Krallığı'ya geçer. Kaynak geçiş bilgisi: MÖ 16. yy: Babilonya ikiye bölünür - kuzeyde Kassitler, güneyde Uruk, Ur ve Larsa'yı içeren Deniz Ülkesi | Kaynak: Zadok, R., \"Kassites\", Encyclopaedia Iranica XVI/2, 2013, s. 113-118 (rev. 2015); kronoloji Boese 1982 / Brinkman 1986 | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/kassites | «Babylonia was divided into two kingdoms, that of the Kassites in the north and the Sealand in the south, including Uruk, Ur, and Larsa»","kaynak":"MÖ 16. yy: Babilonya ikiye bölünür - kuzeyde Kassitler, güneyde Uruk, Ur ve Larsa'yı içeren Deniz Ülkesi | Kaynak: Zadok, R., \"Kassites\", Encyclopaedia Iranica XVI/2, 2013, s. 113-118 (rev. 2015); kronoloji Boese 1982 / Brinkman 1986 | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/kassites | «Babylonia was divided into two kingdoms, that of the Kassites in the north and the Sealand in the south, including Uruk, Ur, and Larsa»","kaynak_turu":"yazili","kesinlik":"yil","yer_id":"Ur (Tell al-Muqayyar)"},{"onem":3,"dunya":2,"bolge_onem":2,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-2111-01-01","k":"diger","b":"Uruk: Gutium (Gutiler) Hakimiyeti → sahipsiz aralık","gun":"MÖ 2112","yer":"Uruk / Umma / Aşşur / Susa","d":"Uruk noktalarında sahiplik Gutium (Gutiler) Hakimiyeti'dan sahipsiz aralık'ya geçer. Kaynak geçiş bilgisi: Uruk, Akad devletinden ayrılır: Şarkalişarri'nin (MC 2205-2181) geç yıllarında ya da biraz sonra | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 117 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «Uruk left the state of Akkad before Girsu, i.e. probably in the late years of Sharkalisharri, or slightly later»","kaynak":"Uruk, Akad devletinden ayrılır: Şarkalişarri'nin (MC 2205-2181) geç yıllarında ya da biraz sonra | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 117 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «Uruk left the state of Akkad before Girsu, i.e. probably in the late years of Sharkalisharri, or slightly later»","kaynak_turu":"yazili","kesinlik":"onyil","odak_yer":["Uruk (Warka)","Umma (Tell Jokha)","Aşşur","Susa"]},{"onem":3,"dunya":2,"bolge_onem":2,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-2143-01-01","k":"diger","b":"Girsu (Lagaş devletinin merkezi): sahipsiz aralık → Lagaş II. Dönemi (Ur-Baba, Gudea, Ur-Ningirsu)","gun":"MÖ 2144","yer":"Girsu (Lagaş devletinin merkezi)","d":"Girsu (Lagaş devletinin merkezi) noktalarında sahiplik sahipsiz aralık'dan Lagaş II. Dönemi (Ur-Baba, Gudea, Ur-Ningirsu)'ya geçer. Kaynak geçiş bilgisi: Girsu/Lagaş'ın Akad'dan bağımsızlaşması: Puzurmama ilk bağımsız hükümdar; \"karışıklık dönemi\" (Şarkalişarri sonrası, MC 2181-2177) | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 119 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «It is possible to date the beginning of independence to the period of confusion»","kaynak":"Girsu/Lagaş'ın Akad'dan bağımsızlaşması: Puzurmama ilk bağımsız hükümdar; \"karışıklık dönemi\" (Şarkalişarri sonrası, MC 2181-2177) | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 119 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «It is possible to date the beginning of independence to the period of confusion»","kaynak_turu":"yazili","kesinlik":"onyil","odak_yer":["Girsu (Tell Telloh)"]},{"onem":3,"dunya":2,"bolge_onem":2,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-2153-01-01","k":"diger","b":"Uruk: sahipsiz aralık → Gutium (Gutiler) Hakimiyeti","gun":"MÖ 2154","yer":"Uruk / Nippur / Ur / Umma","d":"Uruk noktalarında sahiplik sahipsiz aralık'dan Gutium (Gutiler) Hakimiyeti'ya geçer. Kaynak geçiş bilgisi: Uruk, Akad devletinden ayrılır: Şarkalişarri'nin (MC 2205-2181) geç yıllarında ya da biraz sonra | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 117 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «Uruk left the state of Akkad before Girsu, i.e. probably in the late years of Sharkalisharri, or slightly later»","kaynak":"Uruk, Akad devletinden ayrılır: Şarkalişarri'nin (MC 2205-2181) geç yıllarında ya da biraz sonra | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 117 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «Uruk left the state of Akkad before Girsu, i.e. probably in the late years of Sharkalisharri, or slightly later»","kaynak_turu":"yazili","kesinlik":"onyil","yer_id":"Ur (Tell al-Muqayyar)"},{"onem":4,"dunya":2,"bolge_onem":3,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-2299-01-01","k":"diger","b":"Umma, Ur: sahipsiz aralık → Akad Imparatorlugu","gun":"MÖ 2300","yer":"Umma / Ur / Nippur","d":"Umma, Ur noktalarında sahiplik sahipsiz aralık'dan Akad Imparatorlugu'ya geçer. Kaynak geçiş bilgisi: Sargon, Lugalzagesi'yi yener; Akad hakimiyeti Babilonya'nın güneyinde başlar (Tablo 39: \"Sargonic period beginning in Babylonia\" ca. 2300, MC; MC II ca. 2292) | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 90; Tablo 39 s. 136 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «he defeated Lugalzagesi of Uruk and thus became the only king of ","kaynak":"Sargon, Lugalzagesi'yi yener; Akad hakimiyeti Babilonya'nın güneyinde başlar (Tablo 39: \"Sargonic period beginning in Babylonia\" ca. 2300, MC; MC II ca. 2292) | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 90; Tablo 39 s. 136 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «he defeated Lugalzagesi of Uruk and thus became the only king of Sumer and Akkad»","kaynak_turu":"yazili","kesinlik":"onyil","yer_id":"Ur (Tell al-Muqayyar)"},{"onem":3,"dunya":2,"bolge_onem":2,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-2349-01-01","k":"diger","b":"Girsu (Lagaş devletinin merkezi): Lagas I. Hanedan (sehir devleti) → sahipsiz aralık","gun":"MÖ 2350","yer":"Girsu (Lagaş devletinin merkezi)","d":"Girsu (Lagaş devletinin merkezi) noktalarında sahiplik Lagas I. Hanedan (sehir devleti)'dan sahipsiz aralık'ya geçer. Kaynak geçiş bilgisi: Urnanshe (Lagaş I) Presargonik dönemin başlangıcıdır; Urnanshe yıl 1 -> Lugalzagesi yıl 25 arası ~175 yıl (alt tahmin); Tablo 39: ca. 2475-2300±30 (MC) | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 67, 84; Tablo 39 s. 136 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «The reign of Urnanshe marks the beginning of the Presargonic period»","kaynak":"Urnanshe (Lagaş I) Presargonik dönemin başlangıcıdır; Urnanshe yıl 1 -> Lugalzagesi yıl 25 arası ~175 yıl (alt tahmin); Tablo 39: ca. 2475-2300±30 (MC) | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 67, 84; Tablo 39 s. 136 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «The reign of Urnanshe marks the beginning of the Presargonic period»","kaynak_turu":"yazili","kesinlik":"onyil","odak_yer":["Girsu (Tell Telloh)"]},{"onem":5,"dunya":3,"bolge_onem":4,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"0009-01-10","k":"diger","b":"Wang Mang tahta çıktı: Dunhuang ve Zhangye (Ganzhou) Batı Han'dan sahipsiz aralığa geçti","gun":"10 Ocak 9 (Jülyen; 居攝三年/初始元年 11. ay 戊辰)","yer":"Dunhuang / Zhangye (Ganzhou)","d":"Wang Mang Han'ın Yüksek Tapınağı'nda altın sandık vasiyetini alıp tahta çıktı ve hanedanın adını Xin koydu; Batı Han sona erdi. Hexi koridorundaki Dunhuang ve Zhangye için Xin dönemine ait sahiplik kaynakta yazılı olmadığından bu noktalar sahipsiz aralığa geçer (beyanlı boşluk). Chang'an doğrudan Xin'e geçti (ayrı madde).","kaynak":"Ban Gu, Hanshu 99上 (zh.wikisource.org/wiki/漢書/卷099上, okundu) — «戊辰，莽至高廟拜受金匱神嬗。御王冠，謁太后，還坐未央宮前殿» ; «以戊辰直定，御王冠，即真天子位，定有天下之號曰新»; gün: arac/cin_gun.py (8. yıl 11. ay 戊辰 = 0009-01-10 J)","kaynak_turu":"yazili","kesinlik":"gun","odak_yer":["Dunhuang","Zhangye (Ganzhou)"]},{"onem":3,"dunya":2,"bolge_onem":3,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"0023-01-01","k":"diger","b":"Luoyang, Xi'an (Chang'an): sahipsiz aralık → Gengshi Rejimi (Xuan Han / Lulin)","gun":"MS 23","yer":"Luoyang / Xi'an (Chang'an)","d":"Luoyang, Xi'an (Chang'an) noktalarında sahiplik sahipsiz aralık'dan Gengshi Rejimi (Xuan Han / Lulin)'ya geçer. Kaynak geçiş bilgisi: Hou Han shu 11 (Liu Xuan): Chang'an'da Mang'a karşı ayaklanma; 9. ay Gongbin Jiu Mang'ı Jiantai'de öldürdü; Gengshi Luoyang'a gitti, Shentu Jian/Li Song Chang'an'dan ulaklık yolladı, 2. yıl (24) 2. ay Gengshi Luoyang'dan batıya (Chang'an) yürüdü. Son uç: Hou Han shu 1a, Jianwu 1 9. ay Chimei Chang'an'a girdi, Gengshi Gaoling'e kaçtı.","kaynak":"Hou Han shu 11 (Liu Xuan): Chang'an'da Mang'a karşı ayaklanma; 9. ay Gongbin Jiu Mang'ı Jiantai'de öldürdü; Gengshi Luoyang'a gitti, Shentu Jian/Li Song Chang'an'dan ulaklık yolladı, 2. yıl (24) 2. ay Gengshi Luoyang'dan batıya (Chang'an) yürüdü. Son uç: Hou Han shu 1a, Jianwu 1 9. ay Chimei Chang'an'a girdi, Gengshi Gaoling'e kaçtı.","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Luoyang","Xi'an (Chang'an)"]},{"onem":3,"dunya":1,"bolge_onem":2,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"0025-01-01","k":"diger","b":"Çengdu (Chengdu): sahipsiz aralık → Chengjia (成家, Gongsun Shu)","gun":"MS 25","yer":"Çengdu (Chengdu) / Xi'an (Chang'an)","d":"Çengdu (Chengdu) noktalarında sahiplik sahipsiz aralık'dan Chengjia (成家, Gongsun Shu)'ya geçer. Kaynak geçiş bilgisi: Hou Han shu 13 (Gongsun Shu): Gengshi döneminde 'Shu Wang' olup Chengdu'yu başkent yaptı; Jianwu 1 (MS 25) 4. ay imparator ilan etti; Jianwu 12'de sonu (Wu Han seferi, Chengdu kuşatması).","kaynak":"Hou Han shu 13 (Gongsun Shu): Gengshi döneminde 'Shu Wang' olup Chengdu'yu başkent yaptı; Jianwu 1 (MS 25) 4. ay imparator ilan etti; Jianwu 12'de sonu (Wu Han seferi, Chengdu kuşatması).","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Çengdu (Chengdu)","Xi'an (Chang'an)"]},{"onem":3,"dunya":2,"bolge_onem":3,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"0027-01-01","k":"diger","b":"Xi'an (Chang'an): Kızıl Kaşlılar Rejimi (Jianshi) → sahipsiz aralık","gun":"MS 27","yer":"Xi'an (Chang'an)","d":"Xi'an (Chang'an) noktalarında sahiplik Kızıl Kaşlılar Rejimi (Jianshi)'dan sahipsiz aralık'ya geçer. Kaynak geçiş bilgisi: Hou Han shu 1a, Jianwu 1: Chimei Chang'an'a girdi, saray yaktı; aynı ay Deng Yu Chang'an'a girip 11 imparatorun tabletlerini Gao Miao'ya götürdü (kısa süreli Han girişi). Chimei'nin Chang'an'dan çıkışı (künye t=0027) bu turda okunmadı.","kaynak":"Hou Han shu 1a, Jianwu 1: Chimei Chang'an'a girdi, saray yaktı; aynı ay Deng Yu Chang'an'a girip 11 imparatorun tabletlerini Gao Miao'ya götürdü (kısa süreli Han girişi). Chimei'nin Chang'an'dan çıkışı (künye t=0027) bu turda okunmadı.","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Xi'an (Chang'an)"]},{"onem":3,"dunya":2,"bolge_onem":3,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"0036-01-01","k":"diger","b":"Çengdu (Chengdu): Chengjia (成家, Gongsun Shu) → sahipsiz aralık","gun":"MS 36","yer":"Çengdu (Chengdu)","d":"Çengdu (Chengdu) noktalarında sahiplik Chengjia (成家, Gongsun Shu)'dan sahipsiz aralık'ya geçer. Kaynak geçiş bilgisi: Sanguozhi 32 (Xianzhu zhuan): Liu Bei Chengdu'yu onlarca gün kuşattı, Liu Zhang teslim oldu (Jian'an 19 = 214 başlığı); Zhangwu 1'de (221) imparator oldu. Son: Sanguozhi 28 (Deng Ai): Liu Shan imparatorluk mührünü gönderip teslim oldu, Ai Chengdu'ya girdi, Liu Shan prens ve ileri gelenlerle çıktı.","kaynak":"Sanguozhi 32 (Xianzhu zhuan): Liu Bei Chengdu'yu onlarca gün kuşattı, Liu Zhang teslim oldu (Jian'an 19 = 214 başlığı); Zhangwu 1'de (221) imparator oldu. Son: Sanguozhi 28 (Deng Ai): Liu Shan imparatorluk mührünü gönderip teslim oldu, Ai Chengdu'ya girdi, Liu Shan prens ve ileri gelenlerle çıktı.","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Çengdu (Chengdu)"]},{"onem":4,"dunya":2,"bolge_onem":4,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"0106-01-01","k":"diger","b":"Petra: Nabatiye Krallığı → Roma İmparatorluğu (Prinkipat-Dominat, birleşik)","gun":"MS 106","yer":"Petra","d":"Petra noktalarında sahiplik Nabatiye Krallığı'dan Roma İmparatorluğu (Prinkipat-Dominat, birleşik)'ya geçer. Kaynak geçiş bilgisi: ayni kaynak","kaynak":"ayni kaynak","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Petra"]},{"onem":4,"dunya":2,"bolge_onem":4,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"0221-01-01","k":"diger","b":"Çengdu (Chengdu): sahipsiz aralık → Shu Han","gun":"MS 221","yer":"Çengdu (Chengdu)","d":"Çengdu (Chengdu) noktalarında sahiplik sahipsiz aralık'dan Shu Han'ya geçer. Kaynak geçiş bilgisi: Sanguozhi 32 (Xianzhu zhuan): Liu Bei Chengdu'yu onlarca gün kuşattı, Liu Zhang teslim oldu (Jian'an 19 = 214 başlığı); Zhangwu 1'de (221) imparator oldu. Son: Sanguozhi 28 (Deng Ai): Liu Shan imparatorluk mührünü gönderip teslim oldu, Ai Chengdu'ya girdi, Liu Shan prens ve ileri gelenlerle çıktı.","kaynak":"Sanguozhi 32 (Xianzhu zhuan): Liu Bei Chengdu'yu onlarca gün kuşattı, Liu Zhang teslim oldu (Jian'an 19 = 214 başlığı); Zhangwu 1'de (221) imparator oldu. Son: Sanguozhi 28 (Deng Ai): Liu Shan imparatorluk mührünü gönderip teslim oldu, Ai Chengdu'ya girdi, Liu Shan prens ve ileri gelenlerle çıktı.","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Çengdu (Chengdu)"]},{"onem":4,"dunya":2,"bolge_onem":4,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"0263-01-01","k":"diger","b":"Çengdu (Chengdu): Shu Han → Cao Wei","gun":"MS 263","yer":"Çengdu (Chengdu)","d":"Çengdu (Chengdu) noktalarında sahiplik Shu Han'dan Cao Wei'ya geçer. Kaynak geçiş bilgisi: Sanguozhi 28: Deng Ai Chengdu'ya girdi, Liu Shan teslim — Chengdu fiilen Wei komutasında (sonra Zhong Hui/Deng Ai olayı). Son uç (Batı Jin 265, 'Sima Yan') okunmadı.","kaynak":"Sanguozhi 28: Deng Ai Chengdu'ya girdi, Liu Shan teslim — Chengdu fiilen Wei komutasında (sonra Zhong Hui/Deng Ai olayı). Son uç (Batı Jin 265, 'Sima Yan') okunmadı.","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Çengdu (Chengdu)"]},{"onem":3,"dunya":2,"bolge_onem":3,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"0304-01-01","k":"diger","b":"Çengdu (Chengdu): sahipsiz aralık → Cheng-Han (成漢)","gun":"MS 304","yer":"Çengdu (Chengdu)","d":"Çengdu (Chengdu) noktalarında sahiplik sahipsiz aralık'dan Cheng-Han (成漢)'ya geçer. Kaynak geçiş bilgisi: Jin shu 121 (Li Xiong): Luo Te kapıyı açıp Li Xiong'u içeri aldı, 'Chengdu'yu aldı'; Yongxing 1'de (304) 'Chengdu Wang' ilan etti. Son: Li Shi (Jiaming 2, 3. ay 17. gün) Huan Wen'e teslim mektubu.","kaynak":"Jin shu 121 (Li Xiong): Luo Te kapıyı açıp Li Xiong'u içeri aldı, 'Chengdu'yu aldı'; Yongxing 1'de (304) 'Chengdu Wang' ilan etti. Son: Li Shi (Jiaming 2, 3. ay 17. gün) Huan Wen'e teslim mektubu.","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Çengdu (Chengdu)"]},{"onem":3,"dunya":2,"bolge_onem":3,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"0351-01-01","k":"diger","b":"Xi'an (Chang'an): sahipsiz aralık → Önceki Qin (前秦)","gun":"MS 351","yer":"Xi'an (Chang'an)","d":"Xi'an (Chang'an) noktalarında sahiplik sahipsiz aralık'dan Önceki Qin (前秦)'ya geçer. Kaynak geçiş bilgisi: Jin shu 112 (Fu Jian/Fu Jiàn zaiji): Yonghe 7'de Fu Jian kendini Tianwang ilan edip Chang'an'da saray kurdu (Du Hong'un Chang'an'ı işgali sona erer).","kaynak":"Jin shu 112 (Fu Jian/Fu Jiàn zaiji): Yonghe 7'de Fu Jian kendini Tianwang ilan edip Chang'an'da saray kurdu (Du Hong'un Chang'an'ı işgali sona erer).","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Xi'an (Chang'an)"]},{"onem":3,"dunya":2,"bolge_onem":3,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"0356-01-01","k":"diger","b":"Köln (Colonia Claudia Ara Agrippinensium): sahipsiz aralık → Roma İmparatorluğu (Prinkipat-Dominat, birleşik)","gun":"MS 356","yer":"Köln (Colonia Claudia Ara Agrippinensium)","d":"Köln (Colonia Claudia Ara Agrippinensium) noktalarında sahiplik sahipsiz aralık'dan Roma İmparatorluğu (Prinkipat-Dominat, birleşik)'ya geçer. Kaynak geçiş bilgisi: Ammianus 16.3.2: Julian Köln'e girdi, Frank krallarıyla barış yaptı, şehri 'en müstahkem' olarak teslim aldı.","kaynak":"Ammianus 16.3.2: Julian Köln'e girdi, Frank krallarıyla barış yaptı, şehri 'en müstahkem' olarak teslim aldı.","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Köln"]},{"onem":5,"dunya":4,"bolge_onem":5,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"0395-01-01","k":"diger","b":"Roma: Roma İmparatorluğu (Prinkipat-Dominat, birleşik) → sahipsiz aralık","gun":"MS 395","yer":"Roma / İskenderiye / Iskenderiye / Köln (Colonia Claudia Ara Agrippinensium) / Petra","d":"Roma noktalarında sahiplik Roma İmparatorluğu (Prinkipat-Dominat, birleşik)'dan sahipsiz aralık'ya geçer. Kaynak geçiş bilgisi: Marcellinus Comes, Chronicon s.a. 476 (Basilisco ve Armato konsüllüğü; Mommsen CM II, Latin Library marcellinus1.html): Odoacer Roma'yı aldı, Orestes'i öldürdü, Augustulus'u Lucullanum'a sürdü, Batı imparatorluğu Augustulus ile yok oldu.","kaynak":"Marcellinus Comes, Chronicon s.a. 476 (Basilisco ve Armato konsüllüğü; Mommsen CM II, Latin Library marcellinus1.html): Odoacer Roma'yı aldı, Orestes'i öldürdü, Augustulus'u Lucullanum'a sürdü, Batı imparatorluğu Augustulus ile yok oldu.","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Roma","İskenderiye","Köln","Petra"]},{"onem":3,"dunya":1,"bolge_onem":2,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"0397-01-01","k":"diger","b":"Dunhuang, Zhangye (Ganzhou): sahipsiz aralık → Kuzey Liang (北涼)","gun":"MS 397","yer":"Dunhuang / Zhangye (Ganzhou)","d":"Dunhuang, Zhangye (Ganzhou) noktalarında sahiplik sahipsiz aralık'dan Kuzey Liang (北涼)'ya geçer. Kaynak geçiş bilgisi: Jin shu 129 (Juqu Mengxun): Duan Ye Jiankang'da Liang Hakimi (Shenxi 1 = 397) olunca Mengxun'u Zhangye valisi yaptı; Longan 5'te (401) Mengxun Zhangye Gong ilan edildi; Yixi 8'de (412) Hexi Wang; Wei shu 4a Taiyan 5 (439) Taiwu Guzang'ı aldı, Muqian teslim.","kaynak":"Jin shu 129 (Juqu Mengxun): Duan Ye Jiankang'da Liang Hakimi (Shenxi 1 = 397) olunca Mengxun'u Zhangye valisi yaptı; Longan 5'te (401) Mengxun Zhangye Gong ilan edildi; Yixi 8'de (412) Hexi Wang; Wei shu 4a Taiyan 5 (439) Taiwu Guzang'ı aldı, Muqian teslim.","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Dunhuang","Zhangye (Ganzhou)"]},{"onem":2,"dunya":1,"bolge_onem":2,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"0400-01-01","k":"diger","b":"Dunhuang: Kuzey Liang (北涼) → sahipsiz aralık","gun":"MS 400","yer":"Dunhuang","d":"Dunhuang noktalarında sahiplik Kuzey Liang (北涼)'dan sahipsiz aralık'ya geçer. Kaynak geçiş bilgisi: Jin shu 87 (Liang Wuzhao wang Li Xuansheng/Hao zhuan): Longan 4'te Jinchang tarafı altı komutanlığı çağırıp Li Hao'yu seçti; 'Li Hao Longan 4'te kuruldu, Song Shaodi Jingping 1'e kadar' (metin sonu 423); Wei shu 99 aynı. Hou Han/ZZTJ bitişi 421 (Mengxun Jiuquan'ı alır) — metinde 'Jiuquan'ı aldı' (Jin shu 129) ama yıl okunmadı.","kaynak":"Jin shu 87 (Liang Wuzhao wang Li Xuansheng/Hao zhuan): Longan 4'te Jinchang tarafı altı komutanlığı çağırıp Li Hao'yu seçti; 'Li Hao Longan 4'te kuruldu, Song Shaodi Jingping 1'e kadar' (metin sonu 423); Wei shu 99 aynı. Hou Han/ZZTJ bitişi 421 (Mengxun Jiuquan'ı alır) — metinde 'Jiuquan'ı aldı' (Jin shu 129) ama yıl okunmadı.","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Dunhuang"]},{"onem":1,"dunya":1,"bolge_onem":1,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-0085-01-01","k":"diger","b":"Atina: Roma Cumhuriyeti dönemi başlar","gun":"MÖ 86","yer":"Atina","d":"Atina noktalarının s: dizisinde bu uç, sahip künyenin (Roma Cumhuriyeti) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).","kaynak":"künye roma-cumhuriyeti — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Atina"]},{"onem":2,"dunya":1,"bolge_onem":2,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-0110-01-01","k":"diger","b":"Dunhuang: Bati Han Hanedani dönemi başlar","gun":"MÖ 111","yer":"Dunhuang","d":"Dunhuang noktalarının s: dizisinde bu uç, sahip künyenin (Bati Han Hanedani) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).","kaynak":"Ban Gu, Hanshu 6 (Wudi ji), 元鼎六年 (MÖ 111); zh.wikisource.org/wiki/漢書/卷006 — «乃分武威、酒泉地置張掖、敦煌郡，徙民以實之。»","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Dunhuang"]},{"onem":2,"dunya":1,"bolge_onem":2,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-0120-01-01","k":"diger","b":"Zhangye (Ganzhou): Bati Han Hanedani dönemi başlar","gun":"MÖ 121","yer":"Zhangye (Ganzhou)","d":"Zhangye (Ganzhou) noktalarının s: dizisinde bu uç, sahip künyenin (Bati Han Hanedani) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).","kaynak":"Hanshu 6, 元狩二年 (MÖ 121) ve 元鼎六年 (MÖ 111) — «秋，匈奴昆邪王殺休屠王，并將其眾合四萬餘人來降，置五屬國以處之。以其地為武威、酒泉郡。»","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Zhangye (Ganzhou)"]},{"onem":2,"dunya":1,"bolge_onem":2,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-0131-01-01","k":"diger","b":"Urfa (Edessa / Orhai / Vodina): Osrhoene (Edessa) Krallığı dönemi başlar","gun":"MÖ 132","yer":"Urfa (Edessa / Orhai / Vodina)","d":"Urfa (Edessa / Orhai / Vodina) noktalarının s: dizisinde bu uç, sahip künyenin (Osrhoene (Edessa) Krallığı) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).","kaynak":"künye osrhoene — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Urfa"]},{"onem":2,"dunya":1,"bolge_onem":2,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-0145-01-01","k":"diger","b":"Korint: Korint dönemi sona erer","gun":"MÖ 146","yer":"Korint / Karthago","d":"Korint noktalarının s: dizisinde bu uç, sahip künyenin (Korint) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).","kaynak":"Pausanias 2.1.2, 7.16 (Perseus) — «Corinth was laid waste by Mummius ... (Paus. 2.1.2; editör: 146 B.C.)»","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Korint","Karthago"]},{"onem":2,"dunya":1,"bolge_onem":2,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-0167-01-01","k":"diger","b":"Petra: Nabatiye Krallığı dönemi başlar","gun":"MÖ 168","yer":"Petra","d":"Petra noktalarının s: dizisinde bu uç, sahip künyenin (Nabatiye Krallığı) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).","kaynak":"TDV İslâm Ansiklopedisi, «Nabatîler», islamansiklopedisi.org.tr/nabatiler — «Milâttan önce IV. yüzyılın sonlarından itibaren varlığı bilinen Nabatî Krallığı’nın kesin kuruluş tarihi belli değildir.»","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Petra"]},{"onem":1,"dunya":1,"bolge_onem":1,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-0183-01-01","k":"diger","b":"Patna (Azîmâbâd): sahipsiz aralık dönemi sona erer","gun":"MÖ 184","yer":"Patna (Azîmâbâd)","d":"Patna (Azîmâbâd) noktalarının s: dizisinde bu uç, sahip künyenin (sahipsiz aralık) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).","kaynak":"künye __BOSLUK__ — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Patna (Azîmâbâd)"]},{"onem":2,"dunya":1,"bolge_onem":2,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-0255-01-01","k":"diger","b":"Luoyang: Qin Devleti dönemi başlar","gun":"MÖ 256","yer":"Luoyang","d":"Luoyang noktalarının s: dizisinde bu uç, sahip künyenin (Qin Devleti) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).","kaynak":"Sima Qian, Shiji 5 (Qin benji), 昭襄王五十一年 (MÖ 256); Shiji 4 (Zhou benji), 赧王五十九年 — «西周君走來自歸，頓首受罪，盡獻其邑三十六城，口三萬。»","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Luoyang"]},{"onem":1,"dunya":1,"bolge_onem":1,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-0279-01-01","k":"diger","b":"Pasargad: sahipsiz aralık dönemi sona erer","gun":"MÖ 280","yer":"Pasargad","d":"Pasargad noktalarının s: dizisinde bu uç, sahip künyenin (sahipsiz aralık) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).","kaynak":"künye __BOSLUK__ — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Pasargad"]},{"onem":2,"dunya":1,"bolge_onem":2,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-0281-01-01","k":"diger","b":"Bergama, Pergamon: Bergama (Attalos) Krallığı dönemi başlar","gun":"MÖ 282","yer":"Bergama / Pergamon","d":"Bergama, Pergamon noktalarının s: dizisinde bu uç, sahip künyenin (Bergama (Attalos) Krallığı) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).","kaynak":"künye bergama — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Bergama"]},{"onem":2,"dunya":1,"bolge_onem":2,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-0302-01-01","k":"diger","b":"Dura-Europos: Selevkos Imparatorlugu dönemi başlar","gun":"MÖ 303","yer":"Dura-Europos","d":"Dura-Europos noktalarının s: dizisinde bu uç, sahip künyenin (Selevkos Imparatorlugu) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).","kaynak":"künye selevkos — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Dura-Europos"]},{"onem":2,"dunya":1,"bolge_onem":2,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-0315-01-01","k":"diger","b":"Çengdu (Chengdu): Qin Devleti dönemi başlar","gun":"MÖ 316","yer":"Çengdu (Chengdu)","d":"Çengdu (Chengdu) noktalarının s: dizisinde bu uç, sahip künyenin (Qin Devleti) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).","kaynak":"Shiji 5 (Qin benji), 惠文王更元九年 (MÖ 316) — «九年，司馬錯伐蜀，滅之。»","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Çengdu (Chengdu)"]},{"onem":1,"dunya":1,"bolge_onem":1,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-0320-01-01","k":"diger","b":"Patna (Azîmâbâd): sahipsiz aralık dönemi başlar","gun":"MÖ 321","yer":"Patna (Azîmâbâd)","d":"Patna (Azîmâbâd) noktalarının s: dizisinde bu uç, sahip künyenin (sahipsiz aralık) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).","kaynak":"künye __BOSLUK__ — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Patna (Azîmâbâd)"]},{"onem":2,"dunya":1,"bolge_onem":2,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-0322-06-10","k":"diger","b":"İskenderiye: Ptolemai (Lagid) Krallığı dönemi başlar","gun":"MÖ 323","yer":"İskenderiye","d":"İskenderiye noktalarının s: dizisinde bu uç, sahip künyenin (Ptolemai (Lagid) Krallığı) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).","kaynak":"Diodoros 18.3.1 (Perseus); Treccani, Enciclopedia Italiana, 'Egitto' — «Πτολεμαίῳ μὲν τῷ Λάγου τὴν Αἴγυπτον ἔδωκεν (Diod. 18.3.1); Treccani: nel 323 ... il generale Tolomeo figlio di Lago obtained Egypt as a satrapy»","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["İskenderiye"]},{"onem":2,"dunya":1,"bolge_onem":2,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-0337-01-01","k":"diger","b":"Capua: Roma Cumhuriyeti dönemi başlar","gun":"MÖ 338","yer":"Capua","d":"Capua noktalarının s: dizisinde bu uç, sahip künyenin (Roma Cumhuriyeti) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).","kaynak":"künye roma-cumhuriyeti — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Capua"]},{"onem":2,"dunya":1,"bolge_onem":2,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-0349-01-01","k":"diger","b":"Xi'an (Chang'an): Qin Devleti dönemi başlar","gun":"MÖ 350","yer":"Xi'an (Chang'an)","d":"Xi'an (Chang'an) noktalarının s: dizisinde bu uç, sahip künyenin (Qin Devleti) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).","kaynak":"Shiji 5, 孝公十二年 (MÖ 350) — «十二年，作為咸陽，筑冀闕，秦徙都之。»","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Xi'an (Chang'an)"]},{"onem":2,"dunya":1,"bolge_onem":2,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-0401-01-01","k":"diger","b":"Memphis (Men-nefer / Mit Rahina): sahipsiz aralık dönemi sona erer","gun":"MÖ 402","yer":"Memphis (Men-nefer / Mit Rahina)","d":"Memphis (Men-nefer / Mit Rahina) noktalarının s: dizisinde bu uç, sahip künyenin (sahipsiz aralık) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).","kaynak":"künye __BOSLUK__ — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Memphis"]},{"onem":2,"dunya":1,"bolge_onem":2,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-0517-01-01","k":"diger","b":"Persepolis: Ahamenis (Pers) Imparatorlugu dönemi başlar","gun":"MÖ 518","yer":"Persepolis","d":"Persepolis noktalarının s: dizisinde bu uç, sahip künyenin (Ahamenis (Pers) Imparatorlugu) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).","kaynak":"künye ahamenis — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Persepolis"]},{"onem":4,"dunya":3,"bolge_onem":4,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-0524-01-01","k":"diger","b":"Memphis (Men-nefer / Mit Rahina): Ahamenis Misir'i (27. Hanedan, 1. Pers egemenligi) dönemi başlar","gun":"MÖ 525","yer":"Memphis (Men-nefer / Mit Rahina)","d":"Memphis (Men-nefer / Mit Rahina) noktalarının s: dizisinde bu uç, sahip künyenin (Ahamenis Misir'i (27. Hanedan, 1. Pers egemenligi)) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).","kaynak":"künye ahamenis-misir — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Memphis"]},{"onem":3,"dunya":2,"bolge_onem":3,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-0538-01-01","k":"diger","b":"Ur: Ahamenis (Pers) Imparatorlugu dönemi başlar","gun":"MÖ 539","yer":"Ur","d":"Ur noktalarının s: dizisinde bu uç, sahip künyenin (Ahamenis (Pers) Imparatorlugu) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).","kaynak":"TDV Babil: Ahamenîler 539-332 (Babil için) — «539 yılında Pers Kralı Kyros (559-530) tarafından yıkılmışlardır»","kaynak_turu":"yazili","kesinlik":"yil","yer_id":"Ur (Tell al-Muqayyar)"},{"onem":3,"dunya":2,"bolge_onem":3,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-0545-01-01","k":"diger","b":"Pasargad: Ahamenis (Pers) Imparatorlugu dönemi başlar","gun":"MÖ 546","yer":"Pasargad","d":"Pasargad noktalarının s: dizisinde bu uç, sahip künyenin (Ahamenis (Pers) Imparatorlugu) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).","kaynak":"künye ahamenis — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Pasargad"]},{"onem":2,"dunya":1,"bolge_onem":2,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-0574-01-01","k":"diger","b":"Veii: Etrüsk Şehir Devletleri (Oniki Şehir Birliği) dönemi başlar","gun":"MÖ 575","yer":"Veii","d":"Veii noktalarının s: dizisinde bu uç, sahip künyenin (Etrüsk Şehir Devletleri (Oniki Şehir Birliği)) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).","kaynak":"künye etrusk-sehir-devletleri — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Veii"]},{"onem":4,"dunya":3,"bolge_onem":4,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-0585-01-01","k":"diger","b":"Kudüs: Yahuda Krallığı dönemi sona erer","gun":"MÖ 586","yer":"Kudüs","d":"Kudüs noktalarının s: dizisinde bu uç, sahip künyenin (Yahuda Krallığı) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).","kaynak":"künye yahuda — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Kudüs"]},{"onem":4,"dunya":2,"bolge_onem":3,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-0589-01-01","k":"diger","b":"Eski Van (Tuşpa), Tuşpa (Van Kalesi): Urartu Krallığı dönemi sona erer","gun":"MÖ 590","yer":"Eski Van (Tuşpa) / Tuşpa (Van Kalesi)","d":"Eski Van (Tuşpa), Tuşpa (Van Kalesi) noktalarının s: dizisinde bu uç, sahip künyenin (Urartu Krallığı) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).","kaynak":"künye urartu — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Eski Van (Tuşpa)"]},{"onem":3,"dunya":2,"bolge_onem":2,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-0599-01-01","k":"diger","b":"Marsilya, Massalia: Massalia (Marsilya) dönemi başlar","gun":"MÖ 600","yer":"Marsilya / Massalia","d":"Marsilya, Massalia noktalarının s: dizisinde bu uç, sahip künyenin (Massalia (Marsilya)) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).","kaynak":"künye massalia — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Marsilya"]},{"onem":4,"dunya":3,"bolge_onem":4,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-0608-01-01","k":"diger","b":"Cerablus, Karkamış, Megiddo, Samiriye (Samaria / Sebaste), Şam: Yeni Asur Imparatorlugu dönemi sona erer","gun":"MÖ 609","yer":"Cerablus / Karkamış / Megiddo / Samiriye (Samaria / Sebaste) / Şam","d":"Cerablus, Karkamış, Megiddo, Samiriye (Samaria / Sebaste), Şam noktalarının s: dizisinde bu uç, sahip künyenin (Yeni Asur Imparatorlugu) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).","kaynak":"künye yeni-asur — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js","kaynak_turu":"yazili","kesinlik":"yil","yer_id":"Şam"},{"onem":3,"dunya":2,"bolge_onem":3,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-0626-01-01","k":"diger","b":"Babil: Yeni Asur Imparatorlugu dönemi sona erer","gun":"MÖ 627","yer":"Babil","d":"Babil noktalarının s: dizisinde bu uç, sahip künyenin (Yeni Asur Imparatorlugu) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).","kaynak":"TDV Babil (Asur hâkimiyeti 745-626); Grayson ABC 2 — «Asur hâkimiyeti (745-626)»","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Babil"]},{"onem":1,"dunya":1,"bolge_onem":1,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-0699-01-01","k":"diger","b":"Hemedan: sahipsiz aralık dönemi başlar","gun":"MÖ 700","yer":"Hemedan","d":"Hemedan noktalarının s: dizisinde bu uç, sahip künyenin (sahipsiz aralık) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).","kaynak":"TDV Hemedan (okundu) — «Kral Deiokes (m.ö. 728-673) tarafından milâttan önce VII. yüzyılda Med İmparatorluğu'nun başşehri olarak kurulmuştur»","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Hemedan"]},{"onem":3,"dunya":2,"bolge_onem":3,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-0716-01-01","k":"diger","b":"Cerablus, Karkamış: Yeni Asur Imparatorlugu dönemi başlar","gun":"MÖ 717","yer":"Cerablus / Karkamış","d":"Cerablus, Karkamış noktalarının s: dizisinde bu uç, sahip künyenin (Yeni Asur Imparatorlugu) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).","kaynak":"künye yeni-asur — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Cerablus"]},{"onem":3,"dunya":2,"bolge_onem":2,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-0733-01-01","k":"diger","b":"Sirakuza, Syrakusai: Sirakuza (Syrakousai) dönemi başlar","gun":"MÖ 734","yer":"Sirakuza / Syrakusai","d":"Sirakuza, Syrakusai noktalarının s: dizisinde bu uç, sahip künyenin (Sirakuza (Syrakousai)) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).","kaynak":"künye sirakuza — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Sirakuza"]},{"onem":4,"dunya":3,"bolge_onem":3,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-0752-01-01","k":"diger","b":"Roma: Roma Krallığı dönemi başlar","gun":"MÖ 753","yer":"Roma","d":"Roma noktalarının s: dizisinde bu uç, sahip künyenin (Roma Krallığı) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).","kaynak":"künye roma-kralligi — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Roma"]},{"onem":2,"dunya":1,"bolge_onem":2,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-0799-01-01","k":"diger","b":"Korint: Korint dönemi başlar","gun":"MÖ 800","yer":"Korint","d":"Korint noktalarının s: dizisinde bu uç, sahip künyenin (Korint) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).","kaynak":"künye korint — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Korint"]},{"onem":4,"dunya":3,"bolge_onem":4,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-0813-01-01","k":"diger","b":"Karthago: Kartaca (Pön) Devleti dönemi başlar","gun":"MÖ 814","yer":"Karthago","d":"Karthago noktalarının s: dizisinde bu uç, sahip künyenin (Kartaca (Pön) Devleti) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).","kaynak":"künye kartaca — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Karthago"]},{"onem":3,"dunya":2,"bolge_onem":3,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-0859-01-01","k":"diger","b":"Eski Van (Tuşpa), Tuşpa (Van Kalesi): Urartu Krallığı dönemi başlar","gun":"MÖ 860","yer":"Eski Van (Tuşpa) / Tuşpa (Van Kalesi)","d":"Eski Van (Tuşpa), Tuşpa (Van Kalesi) noktalarının s: dizisinde bu uç, sahip künyenin (Urartu Krallığı) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).","kaynak":"künye urartu — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Eski Van (Tuşpa)"]},{"onem":3,"dunya":2,"bolge_onem":3,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-0929-01-01","k":"diger","b":"Kudüs: Yahuda Krallığı dönemi başlar","gun":"MÖ 930","yer":"Kudüs / Samiriye (Samaria / Sebaste)","d":"Kudüs noktalarının s: dizisinde bu uç, sahip künyenin (Yahuda Krallığı) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).","kaynak":"künye yahuda — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Kudüs"]},{"onem":3,"dunya":1,"bolge_onem":3,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-0939-01-01","k":"diger","b":"Şam: Aram-Sam (Dimask) Krallığı dönemi başlar","gun":"MÖ 940","yer":"Şam","d":"Şam noktalarının s: dizisinde bu uç, sahip künyenin (Aram-Sam (Dimask) Krallığı) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).","kaynak":"künye aram-sam — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js","kaynak_turu":"yazili","kesinlik":"yil","yer_id":"Şam"},{"onem":1,"dunya":1,"bolge_onem":1,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-1149-01-01","k":"diger","b":"Nippur: sahipsiz aralık dönemi sona erer","gun":"MÖ 1150","yer":"Nippur / Poverty Point","d":"Nippur noktalarının s: dizisinde bu uç, sahip künyenin (sahipsiz aralık) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).","kaynak":"künye __BOSLUK__ — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Nippur (Nuffar)","Poverty Point"]},{"onem":4,"dunya":3,"bolge_onem":4,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-1189-01-01","k":"diger","b":"Ugarit (Ras Şamra): Ugarit Krallığı dönemi sona erer","gun":"MÖ 1190","yer":"Ugarit (Ras Şamra)","d":"Ugarit (Ras Şamra) noktalarının s: dizisinde bu uç, sahip künyenin (Ugarit Krallığı) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).","kaynak":"künye ugarit — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Ugarit"]},{"onem":1,"dunya":1,"bolge_onem":1,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-1196-01-01","k":"diger","b":"Anyang / Yinxu (殷墟), Yinxu (Anyang): sahipsiz aralık dönemi sona erer","gun":"MÖ 1197","yer":"Anyang / Yinxu (殷墟) / Yinxu (Anyang)","d":"Anyang / Yinxu (殷墟), Yinxu (Anyang) noktalarının s: dizisinde bu uç, sahip künyenin (sahipsiz aralık) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).","kaynak":"künye __BOSLUK__ — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Anyang","Yinxu (Anyang)"]},{"onem":1,"dunya":1,"bolge_onem":1,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-1253-01-01","k":"diger","b":"Anyang / Yinxu (殷墟), Yinxu (Anyang): sahipsiz aralık dönemi başlar","gun":"MÖ 1254","yer":"Anyang / Yinxu (殷墟) / Yinxu (Anyang)","d":"Anyang / Yinxu (殷墟), Yinxu (Anyang) noktalarının s: dizisinde bu uç, sahip künyenin (sahipsiz aralık) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).","kaynak":"künye __BOSLUK__ — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Anyang","Yinxu (Anyang)"]},{"onem":3,"dunya":2,"bolge_onem":3,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-1349-01-01","k":"diger","b":"Ugarit (Ras Şamra): Ugarit Krallığı dönemi başlar","gun":"MÖ 1350","yer":"Ugarit (Ras Şamra)","d":"Ugarit (Ras Şamra) noktalarının s: dizisinde bu uç, sahip künyenin (Ugarit Krallığı) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).","kaynak":"künye ugarit — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Ugarit"]},{"onem":3,"dunya":2,"bolge_onem":3,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-1739-01-01","k":"diger","b":"Uruk: Eski Babil (Amorit) Krallığı dönemi sona erer","gun":"MÖ 1740","yer":"Uruk","d":"Uruk noktalarının s: dizisinde bu uç, sahip künyenin (Eski Babil (Amorit) Krallığı) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).","kaynak":"künye babil-eski — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Uruk (Warka)"]},{"onem":3,"dunya":1,"bolge_onem":3,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-1775-01-01","k":"diger","b":"Aşşur: Ust Mezopotamya Krallığı (Samsi-Adad I) dönemi sona erer","gun":"MÖ 1776","yer":"Aşşur","d":"Aşşur noktalarının s: dizisinde bu uç, sahip künyenin (Ust Mezopotamya Krallığı (Samsi-Adad I)) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).","kaynak":"künye samsi-adad — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Aşşur"]},{"onem":4,"dunya":2,"bolge_onem":4,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-1893-01-01","k":"diger","b":"Babil: Eski Babil (Amorit) Krallığı dönemi başlar","gun":"MÖ 1894","yer":"Babil","d":"Babil noktalarının s: dizisinde bu uç, sahip künyenin (Eski Babil (Amorit) Krallığı) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).","kaynak":"TDV Babil maddesi (okundu) — «Amurrular (Eski Bâbil Krallığı, m.ö. 1894-1595)»","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Babil"]},{"onem":4,"dunya":2,"bolge_onem":4,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-2018-01-01","k":"diger","b":"Nippur: Ur III (Ucuncu Ur Hanedani) dönemi sona erer","gun":"MÖ 2019","yer":"Nippur","d":"Nippur noktalarının s: dizisinde bu uç, sahip künyenin (Ur III (Ucuncu Ur Hanedani)) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).","kaynak":"künye ur-3 — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Nippur (Nuffar)"]},{"onem":3,"dunya":1,"bolge_onem":3,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-2021-01-01","k":"diger","b":"Girsu (Lagaş devletinin merkezi), Umma: Ur III (Ucuncu Ur Hanedani) dönemi sona erer","gun":"MÖ 2022","yer":"Girsu (Lagaş devletinin merkezi) / Umma","d":"Girsu (Lagaş devletinin merkezi), Umma noktalarının s: dizisinde bu uç, sahip künyenin (Ur III (Ucuncu Ur Hanedani)) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).","kaynak":"künye ur-3 — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Girsu (Tell Telloh)","Umma (Tell Jokha)"]},{"onem":4,"dunya":3,"bolge_onem":4,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-2153-01-01","k":"diger","b":"Kiş, Ur: Akad Imparatorlugu dönemi sona erer","gun":"MÖ 2154","yer":"Kiş / Ur","d":"Kiş, Ur noktalarının s: dizisinde bu uç, sahip künyenin (Akad Imparatorlugu) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).","kaynak":"künye akad — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js","kaynak_turu":"yazili","kesinlik":"yil","yer_id":"Kiş (Tell Uhaimir)"},{"onem":2,"dunya":1,"bolge_onem":2,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-2294-01-01","k":"diger","b":"Mari: Mari Şehir Krallığı (Mari II, Erken Hanedan-Akad) dönemi sona erer","gun":"MÖ 2295","yer":"Mari","d":"Mari noktalarının s: dizisinde bu uç, sahip künyenin (Mari Şehir Krallığı (Mari II, Erken Hanedan-Akad)) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).","kaynak":"künye mari-erken — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Mari"]},{"onem":1,"dunya":1,"bolge_onem":1,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-2299-01-01","k":"diger","b":"Eridu, Ur: sahipsiz aralık dönemi sona erer","gun":"MÖ 2300","yer":"Eridu / Ur","d":"Eridu, Ur noktalarının s: dizisinde bu uç, sahip künyenin (sahipsiz aralık) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).","kaynak":"künye __BOSLUK__ — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js","kaynak_turu":"yazili","kesinlik":"yil","yer_id":"Ur (Tell al-Muqayyar)"},{"onem":3,"dunya":2,"bolge_onem":3,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-2309-01-01","k":"diger","b":"Ebla: Ebla Birinci Krallığı dönemi sona erer","gun":"MÖ 2310","yer":"Ebla","d":"Ebla noktalarının s: dizisinde bu uç, sahip künyenin (Ebla Birinci Krallığı) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).","kaynak":"künye ebla-1 — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Ebla"]},{"onem":1,"dunya":1,"bolge_onem":1,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-2323-01-01","k":"diger","b":"Eridu, Umma, Uruk, Ur: sahipsiz aralık dönemi başlar","gun":"MÖ 2324","yer":"Eridu / Umma / Uruk / Ur","d":"Eridu, Umma, Uruk, Ur noktalarının s: dizisinde bu uç, sahip künyenin (sahipsiz aralık) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).","kaynak":"künye __BOSLUK__ — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js","kaynak_turu":"yazili","kesinlik":"yil","yer_id":"Ur (Tell al-Muqayyar)"},{"onem":3,"dunya":2,"bolge_onem":3,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-2399-01-01","k":"diger","b":"Ebla: Ebla Birinci Krallığı dönemi başlar","gun":"MÖ 2400","yer":"Ebla","d":"Ebla noktalarının s: dizisinde bu uç, sahip künyenin (Ebla Birinci Krallığı) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).","kaynak":"künye ebla-1 — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Ebla"]},{"onem":1,"dunya":1,"bolge_onem":1,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-2449-01-01","k":"diger","b":"Kerma, Kerma (Kerma / Doukki Gel): sahipsiz aralık dönemi başlar","gun":"MÖ 2450","yer":"Kerma / Kerma (Kerma / Doukki Gel)","d":"Kerma, Kerma (Kerma / Doukki Gel) noktalarının s: dizisinde bu uç, sahip künyenin (sahipsiz aralık) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).","kaynak":"künye __BOSLUK__ — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Kerma"]},{"onem":2,"dunya":1,"bolge_onem":2,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-2474-01-01","k":"diger","b":"Girsu (Lagaş devletinin merkezi): Lagas I. Hanedan (sehir devleti) dönemi başlar","gun":"MÖ 2475","yer":"Girsu (Lagaş devletinin merkezi)","d":"Girsu (Lagaş devletinin merkezi) noktalarının s: dizisinde bu uç, sahip künyenin (Lagas I. Hanedan (sehir devleti)) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).","kaynak":"künye sumer-lagas-1 — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Girsu (Tell Telloh)"]},{"onem":2,"dunya":1,"bolge_onem":2,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"-2549-01-01","k":"diger","b":"Mari: Mari Şehir Krallığı (Mari II, Erken Hanedan-Akad) dönemi başlar","gun":"MÖ 2550","yer":"Mari","d":"Mari noktalarının s: dizisinde bu uç, sahip künyenin (Mari Şehir Krallığı (Mari II, Erken Hanedan-Akad)) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).","kaynak":"künye mari-erken — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Mari"]},{"onem":3,"dunya":1,"bolge_onem":3,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"0025-01-01","k":"diger","b":"Xi'an (Chang'an): Kızıl Kaşlılar Rejimi (Jianshi) dönemi başlar","gun":"MS 25","yer":"Xi'an (Chang'an)","d":"Xi'an (Chang'an) noktalarının s: dizisinde bu uç, sahip künyenin (Kızıl Kaşlılar Rejimi (Jianshi)) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).","kaynak":"Fan Ye, Hou Hanshu 11 (Liu Xuan / Liu Penzi), 更始三年 (MS 25); 六月，遂立盆子為帝，自號建世元年 — «九月，赤眉入城。更始單騎走，從厨城門出。»","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Xi'an (Chang'an)"]},{"onem":5,"dunya":3,"bolge_onem":4,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"0220-01-01","k":"diger","b":"Luoyang: Dogu Han Hanedani dönemi sona erer","gun":"MS 220","yer":"Luoyang","d":"Luoyang noktalarının s: dizisinde bu uç, sahip künyenin (Dogu Han Hanedani) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).","kaynak":"Chen Shou, Sanguozhi 2 (Wei shu, Wendi ji), 延康元年-黃初元年 (MS 220) — «惟延康元年十月乙卯，皇帝曰：咨爾魏王»","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Luoyang"]},{"onem":5,"dunya":3,"bolge_onem":5,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"0224-04-28","k":"diger","b":"Babil, Dura-Europos, Ekbatana, Hemedan, Ktesiphon, Seleukeia (Dicle üzerinde), Uruk: Part (Arsakid) Imparatorlugu dönemi sona erer","gun":"MS 224","yer":"Babil / Dura-Europos / Ekbatana / Hemedan / Ktesiphon / Seleukeia (Dicle üzerinde) / Uruk","d":"Babil, Dura-Europos, Ekbatana, Hemedan, Ktesiphon, Seleukeia (Dicle üzerinde), Uruk noktalarının s: dizisinde bu uç, sahip künyenin (Part (Arsakid) Imparatorlugu) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).","kaynak":"TDV İslâm Ansiklopedisi, «Erdeşîr», islamansiklopedisi.org.tr/erdesir — «28 Nisan 224'te Medler ülkesinde (Medya) Hürmüzcân'da yapılan savaşı kazanır»","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Babil","Dura-Europos","Hemedan","Ktesiphon","Seleukeia","Uruk (Warka)"]},{"onem":3,"dunya":1,"bolge_onem":3,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"0242-01-01","k":"diger","b":"Urfa (Edessa / Orhai / Vodina): Osrhoene (Edessa) Krallığı dönemi sona erer","gun":"MS 242","yer":"Urfa (Edessa / Orhai / Vodina)","d":"Urfa (Edessa / Orhai / Vodina) noktalarının s: dizisinde bu uç, sahip künyenin (Osrhoene (Edessa) Krallığı) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).","kaynak":"künye osrhoene — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Urfa"]},{"onem":4,"dunya":2,"bolge_onem":4,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"0265-01-01","k":"diger","b":"Çengdu (Chengdu): Cao Wei dönemi sona erer","gun":"MS 265","yer":"Çengdu (Chengdu)","d":"Çengdu (Chengdu) noktalarının s: dizisinde bu uç, sahip künyenin (Cao Wei) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).","kaynak":"Fang Xuanling vd., Jinshu 3 (Wudi ji), 泰始元年 (MS 265); Sanguozhi 33: 炎興元年 Shu'nun teslimi — «冬十二月丙寅，設壇于南郊 ...魏帝稽協皇運，紹天明命以命炎。»","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Çengdu (Chengdu)"]},{"onem":3,"dunya":1,"bolge_onem":3,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"0347-01-01","k":"diger","b":"Çengdu (Chengdu): Cheng-Han (成漢) dönemi sona erer","gun":"MS 347","yer":"Çengdu (Chengdu)","d":"Çengdu (Chengdu) noktalarının s: dizisinde bu uç, sahip künyenin (Cheng-Han (成漢)) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).","kaynak":"Jinshu 121 (Zaiji 21, Li Shi), 永和三年 (MS 347); teslim mektubu: 偽嘉寧二年三月十七日 — «以穆帝永和三年滅»","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Çengdu (Chengdu)"]},{"onem":4,"dunya":2,"bolge_onem":4,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"0386-01-01","k":"diger","b":"Xi'an (Chang'an): Önceki Qin (前秦) dönemi sona erer","gun":"MS 386","yer":"Xi'an (Chang'an)","d":"Xi'an (Chang'an) noktalarının s: dizisinde bu uç, sahip künyenin (Önceki Qin (前秦)) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).","kaynak":"Jinshu 114 (Fu Jian zaiji) — «是歲太元十年也 ... 慕容沖入據長安，從兵大掠»","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Xi'an (Chang'an)"]},{"onem":1,"dunya":1,"bolge_onem":1,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"0423-01-01","k":"diger","b":"Dunhuang: sahipsiz aralık dönemi sona erer","gun":"MS 423","yer":"Dunhuang","d":"Dunhuang noktalarının s: dizisinde bu uç, sahip künyenin (sahipsiz aralık) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).","kaynak":"Jinshu 87 (Liang Wuzhao wang Li Xuansheng, Li Xun'ın Dunhuang'ı) — «玄盛以安帝隆安四年立，至宋少帝景平元年滅，據河右凡二十四年。»","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Dunhuang"]},{"onem":3,"dunya":1,"bolge_onem":3,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"0439-01-01","k":"diger","b":"Zhangye (Ganzhou): Kuzey Liang (北涼) dönemi sona erer","gun":"MS 439","yer":"Zhangye (Ganzhou)","d":"Zhangye (Ganzhou) noktalarının s: dizisinde bu uç, sahip künyenin (Kuzey Liang (北涼)) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).","kaynak":"künye kuzey-liang — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Zhangye (Ganzhou)"]},{"onem":5,"dunya":4,"bolge_onem":5,"puan_s":"v2","kapsam":"dis","bolge":1,"t":"0476-01-01","k":"diger","b":"Roma: Batı Roma İmparatorluğu dönemi sona erer","gun":"MS 476","yer":"Roma","d":"Roma noktalarının s: dizisinde bu uç, sahip künyenin (Batı Roma İmparatorluğu) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).","kaynak":"Treccani, Enciclopedia Italiana 'Odoacre' (treccani.it/enciclopedia/odoacre_(Enciclopedia-Italiana)/) — «Romolo Augustolo fu deposto e relegato con una pensione nella Campania, ultimo degl'imperatori romani d'Occidente.»","kaynak_turu":"yazili","kesinlik":"yil","odak_yer":["Roma"]}];
+// 🔴 ÜRETİCİ KULLANIM DIŞI (21 Ekim 2026 tek seferlik); ELLE DÜZENLENİR. Başlıktaki 'denetim/arkeoloji_devlet_zincir_1020.py' bugün ÇALIŞMIYOR (denetim/arastirma/3-*.json JSONDecodeError) ve koşu/kapı zincirinde ÇAĞRILMIYOR; çalıştırılırsa bu dosyadaki elle düzeltmeleri ezer. (13 Kasım 2026, ölçüm: EMRELIC)
+// MÖ DEVLET-ŞEHİR ZİNCİRİ — s: dönem uçlarını destekleyen maddeler (Değişmez 2). denetim/arkeoloji_devlet_zincir_1020.py üretir.
+window.OLAYLAR_ARKEOLOJI_ZINCIR = [
+ { onem:4, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-0026-01-01",
+  "k": "diger",
+  "b": "Roma, İskenderiye: Roma Cumhuriyeti → sahipsiz aralık",
+  "gun": "MÖ 27",
+  "yer": "Roma / İskenderiye / Iskenderiye / Atina / Bergama / Capua / Marsilya / Massalia / Pergamon / Sirakuza / Syrakusai / Veii",
+  "d": "Roma, İskenderiye noktalarında sahiplik Roma Cumhuriyeti'dan sahipsiz aralık'ya geçer. Kaynak geçiş bilgisi: Theodosius'un ölümü 17 Ocak 395 (Olybrius ve Probus konsüllüğü): Sokrates Scholastikos Kil. Tar. 5.26 (NPNF, newadvent.org/fathers/26015.htm); Marcellinus Comes s.a. 395: Arcadius ve Honorius imparatorluğu yalnız oturma yerleriyle bölünmüş olarak devralır.",
+  "kaynak": "Theodosius'un ölümü 17 Ocak 395 (Olybrius ve Probus konsüllüğü): Sokrates Scholastikos Kil. Tar. 5.26 (NPNF, newadvent.org/fathers/26015.htm); Marcellinus Comes s.a. 395: Arcadius ve Honorius imparatorluğu yalnız oturma yerleriyle bölünmüş olarak devralır.",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Roma",
+   "İskenderiye",
+   "Atina",
+   "Bergama",
+   "Capua",
+   "Marsilya",
+   "Sirakuza",
+   "Veii"
+  ]
+ },
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-0048-01-01",
+  "k": "diger",
+  "b": "Marsilya, Massalia: Massalia (Marsilya) → Roma Cumhuriyeti",
+  "gun": "MÖ 49",
+  "yer": "Marsilya / Massalia",
+  "d": "Marsilya, Massalia noktalarında sahiplik Massalia (Marsilya)'dan Roma Cumhuriyeti'ya geçer. Kaynak geçiş bilgisi: Caesar BC 2.22: şehir yenilince 'conservans' ve garnizon bırakıldı — özgür müttefik statüsünün sonu Roma denetimi.",
+  "kaynak": "Caesar BC 2.22: şehir yenilince 'conservans' ve garnizon bırakıldı — özgür müttefik statüsünün sonu Roma denetimi.",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Marsilya"
+  ]
+ },
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-0112-01-01",
+  "k": "diger",
+  "b": "Dura-Europos: Selevkos Imparatorlugu → Part (Arsakid) Imparatorlugu",
+  "gun": "MÖ 113",
+  "yer": "Dura-Europos",
+  "d": "Dura-Europos noktalarında sahiplik Selevkos Imparatorlugu'dan Part (Arsakid) Imparatorlugu'ya geçer. Kaynak geçiş bilgisi: Part fethi (ca. 113) | Kaynak: Leriche, P. & MacKenzie, D. N., \"Dura Europos\", Encyclopaedia Iranica VII/6, 1996 (rev. 2011); kurulus tarihi Leriche ozetinden (kavehfarrokh.com aynasi) | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/dura-europos | «Dura Europos was brought into the Iranian cultural sphere after the Parthian conquest in about 113 B.C.E.»",
+  "kaynak": "Part fethi (ca. 113) | Kaynak: Leriche, P. & MacKenzie, D. N., \"Dura Europos\", Encyclopaedia Iranica VII/6, 1996 (rev. 2011); kurulus tarihi Leriche ozetinden (kavehfarrokh.com aynasi) | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/dura-europos | «Dura Europos was brought into the Iranian cultural sphere after the Parthian conquest in about 113 B.C.E.»",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Dura-Europos"
+  ]
+ },
+ { onem:4, dunya:3, bolge_onem:4, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-0132-01-01",
+  "k": "diger",
+  "b": "Bergama, Pergamon: Bergama (Attalos) Krallığı → Roma Cumhuriyeti",
+  "gun": "MÖ 133",
+  "yer": "Bergama / Pergamon",
+  "d": "Bergama, Pergamon noktalarında sahiplik Bergama (Attalos) Krallığı'dan Roma Cumhuriyeti'ya geçer. Kaynak geçiş bilgisi: Strabon 13.4.2: 'The Romans proclaimed the country a province, calling it Asia'.",
+  "kaynak": "Strabon 13.4.2: 'The Romans proclaimed the country a province, calling it Asia'.",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Bergama"
+  ]
+ },
+ { onem:4, dunya:3, bolge_onem:4, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-0140-01-01",
+  "k": "diger",
+  "b": "Babil, Seleukeia (Dicle üzerinde), Uruk: Selevkos Imparatorlugu → Part (Arsakid) Imparatorlugu",
+  "gun": "MÖ 141",
+  "yer": "Babil / Seleukeia (Dicle üzerinde) / Uruk / Ktesiphon",
+  "d": "Babil, Seleukeia (Dicle üzerinde), Uruk noktalarında sahiplik Selevkos Imparatorlugu'dan Part (Arsakid) Imparatorlugu'ya geçer. Kaynak geçiş bilgisi: Mithradates I Temmuz 141'de Seleukeia'yı, Ekim 141'de Uruk'a ulaşır | Kaynak: Lendering, J., Livius.org: Mithradates I (Bagayasha sayfasi); dipnot: van der Spek 1997/8: 171 | https://livius.org/articles/person/bagayasha | «In July 141, he captured Seleucia and in October he reached Uruk in southern Babylonia.»",
+  "kaynak": "Mithradates I Temmuz 141'de Seleukeia'yı, Ekim 141'de Uruk'a ulaşır | Kaynak: Lendering, J., Livius.org: Mithradates I (Bagayasha sayfasi); dipnot: van der Spek 1997/8: 171 | https://livius.org/articles/person/bagayasha | «In July 141, he captured Seleucia and in October he reached Uruk in southern Babylonia.»",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Babil",
+   "Seleukeia",
+   "Uruk (Warka)",
+   "Ktesiphon"
+  ]
+ },
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-0147-01-01",
+  "k": "diger",
+  "b": "Ekbatana, Hemedan: Selevkos Imparatorlugu → Part (Arsakid) Imparatorlugu",
+  "gun": "MÖ 148",
+  "yer": "Ekbatana / Hemedan",
+  "d": "Ekbatana, Hemedan noktalarında sahiplik Selevkos Imparatorlugu'dan Part (Arsakid) Imparatorlugu'ya geçer. Kaynak geçiş bilgisi: Mithradates I Medya'yı fetheder (148; Justinus 41.6.7 aktarımı) | Kaynak: Lendering, J., Livius.org: Mithradates I (Bagayasha sayfasi); dipnot: van der Spek 1997/8: 171 | https://livius.org/articles/person/bagayasha | «Mithradates conquered Media in 148 BCE and appointed Bacasis as governor»",
+  "kaynak": "Mithradates I Medya'yı fetheder (148; Justinus 41.6.7 aktarımı) | Kaynak: Lendering, J., Livius.org: Mithradates I (Bagayasha sayfasi); dipnot: van der Spek 1997/8: 171 | https://livius.org/articles/person/bagayasha | «Mithradates conquered Media in 148 BCE and appointed Bacasis as governor»",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Hemedan"
+  ]
+ },
+ { onem:4, dunya:2, bolge_onem:4, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-0206-01-01",
+  "k": "diger",
+  "b": "Xi'an (Chang'an): Qin Hanedanı (birleşik İmparatorluk) → sahipsiz aralık",
+  "gun": "MÖ 207",
+  "yer": "Xi'an (Chang'an)",
+  "d": "Xi'an (Chang'an) noktalarında sahiplik Qin Hanedanı (birleşik İmparatorluk)'dan sahipsiz aralık'ya geçer. Kaynak geçiş bilgisi: Shiji 6, Qin Shi Huang 26. yıl: 'ilk kez bütün ülkeyi birleştirdi' (devlet Qin kimliği değişimi; Chang'an/Xianyang Qin çekirdeğidir)",
+  "kaynak": "Shiji 6, Qin Shi Huang 26. yıl: 'ilk kez bütün ülkeyi birleştirdi' (devlet Qin kimliği değişimi; Chang'an/Xianyang Qin çekirdeğidir)",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Xi'an (Chang'an)"
+  ]
+ },
+ { onem:4, dunya:2, bolge_onem:4, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-0211-01-01",
+  "k": "diger",
+  "b": "Sirakuza, Syrakusai: Sirakuza (Syrakousai) → Roma Cumhuriyeti",
+  "gun": "MÖ 212",
+  "yer": "Sirakuza / Syrakusai",
+  "d": "Sirakuza, Syrakusai noktalarında sahiplik Sirakuza (Syrakousai)'dan Roma Cumhuriyeti'ya geçer. Kaynak geçiş bilgisi: Livy 25.40: 'Marcellus captis Syracusis' Sicilya'yı düzenledi; Eutropius 3.14: Marcellus Sicilya'nın büyük bölümünü ve Syracusa'yı aldı.",
+  "kaynak": "Livy 25.40: 'Marcellus captis Syracusis' Sicilya'yı düzenledi; Eutropius 3.14: Marcellus Sicilya'nın büyük bölümünü ve Syracusa'yı aldı.",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Sirakuza"
+  ]
+ },
+ { onem:4, dunya:2, bolge_onem:4, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-0310-01-01",
+  "k": "diger",
+  "b": "Babil, Uruk: Buyuk Iskender Imparatorlugu (Argead nominal) → Selevkos Imparatorlugu",
+  "gun": "MÖ 311",
+  "yer": "Babil / Uruk",
+  "d": "Babil, Uruk noktalarında sahiplik sahipsiz aralık'dan Selevkos Imparatorlugu'ya geçer. Kaynak geçiş bilgisi: Seleukos Babil'i geri alır (Mayıs 311); Seleukos Çağı bu tarihle başlar | Kaynak: Finkel, van der Spek, Pirngruber (BCHP 3, Diadochi Chronicle); Livius.org yeni okuma ve dipnotlari, Rev. iv.10' dipnotu | https://www.livius.org/sources/content/mesopotamian-chronicles-content/bchp-3-diadochi-chronicle/ | «Seleucus had recovered Babylon in May 311»",
+  "kaynak": "Finkel, van der Spek, Pirngruber, Babylonian Chronographic Texts from the Hellenistic Period (BCHP 3, Diadochi Chronicle, Rev. iv.10' notu) — metin livius.org'da okundu — «Seleucus had recovered Babylon in May 311 and was attacked by the satrap of Media»", "ic_not_d":"DUNYA-1102 hücre 8 (KASA, 2 Kasım 2026): teyit tek kaynak. Önceki kaynak (Seleukos Babil'i geri alır (Mayıs 311); Seleukos Çağı bu tarihle başlar | Kaynak) dayanak olamaz, değiştirildi. Basılı baskı açılmadı, BCHP notu livius.org üzerinden okundu; zayıf tek kaynak. Tarih (Mayıs 311) atlasla uyumlu, ay verilebilir ama gün yok.",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Babil",
+   "Uruk (Warka)"
+  ]
+ },
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-0311-01-01",
+  "k": "diger",
+  "b": "Ekbatana, Hemedan: Seleukos Nikator hâkimiyeti başlar (Medya)",
+  "gun": "MÖ 312",
+  "yer": "Ekbatana / Hemedan / Seleukeia (Dicle üzerinde)",
+  "d": "Ekbatana, Hemedan noktalarında sahiplik sahipsiz aralık'dan Selevkos Imparatorlugu'ya geçer. Kaynak geçiş bilgisi: Ekbatana Seleukos I Nikator'a (305-281) geçer | Kaynak: Brown, S. C., \"Ecbatana\", Encyclopaedia Iranica VIII/1, 1997 (rev. 2011) | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/ecbatana | «The city later fell to Seleucus I Nicator (305-281 B.C.E.)»",
+  "kaynak": "Ekbatana Seleukos I Nikator'a (305-281) geçer | Kaynak: Brown, S. C., \"Ecbatana\", Encyclopaedia Iranica VIII/1, 1997 (rev. 2011) | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/ecbatana | «The city later fell to Seleucus I Nicator (305-281 B.C.E.)»",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Hemedan"
+  ]
+ },
+ { onem:3, dunya:3, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-0309-01-01",
+  "k": "diger",
+  "b": "Pasargad, Susa: Buyuk Iskender Imparatorlugu (Argead nominal) → sahipsiz aralık; IV. Aleksandros öldürüldü",
+  "gun": "MÖ 310",
+  "yer": "Pasargad / Susa",
+  "d": "Argead krallığının son kralı IV. Aleksandros (MÖ 323-310) annesi Roxane ile birlikte öldürüldü; İskender İmparatorluğu künyesi bu yılla biter (künye t uzatıldı). Pasargad ve Susa'nın sonraki sahibi kaynaklanmadı. Babil, Uruk ve Hemedan bu tarihten önce Seleukos'a geçer.",
+  "kaynak": "Livius.org (J. Lendering), «Alexander IV» https://www.livius.org/articles/person/alexander-iv/ — «Roxane and the twelve year old Alexander were killed»", "ic_not_d":"ANTIK-ISKENDER-1113-B: yıl 310 (Livius başlığı 323-310); Diodoros arkhon yılı 310/309 nedeniyle MÖ 309 da denir; gün YOK (yıl düzeyi).",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Pasargad",
+   "Susa"
+  ]
+ },
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2", kapsam:"dis", bolge:1, odak_yer:["Ur (Tell al-Muqayyar)","Hemedan"],
+  "t": "-0329-01-01",
+  "k": "diger",
+  "b": "Ekbatana, Hemedan: Ahamenis (Pers) Imparatorlugu → Buyuk Iskender Imparatorlugu (ANTIK-ISKENDER-1113-B)",
+  "gun": "MÖ 330",
+  "yer": "Ekbatana / Hemedan / Persepolis / Sippar / Ur",
+  "d": "Ekbatana, Hemedan noktalarında sahiplik Ahamenis (Pers) Imparatorlugu'dan sahipsiz aralık'ya geçer. Kaynak geçiş bilgisi: Nabonidus yıl 6 (550/549): Kyros II Astyages'i yener, Ekbatana'yı alır, hazinesini Anşan'a götürür | Kaynak: Brown, S. C., \"Ecbatana\", Encyclopaedia Iranica VIII/1, 1997 (rev. 2011) | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/ecbatana | «records that Cyrus II defeated Astyages, captured Ecbatana, and removed its treasury to Anshan»",
+  "kaynak": "Nabonidus yıl 6 (550/549): Kyros II Astyages'i yener, Ekbatana'yı alır, hazinesini Anşan'a götürür | Kaynak: Brown, S. C., \"Ecbatana\", Encyclopaedia Iranica VIII/1, 1997 (rev. 2011) | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/ecbatana | «records that Cyrus II defeated Astyages, captured Ecbatana, and removed its treasury to Anshan»",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "yer_id": "Ur (Tell al-Muqayyar)"
+ },
+ { onem:4, dunya:4, bolge_onem:5, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-0330-10-22",
+  "k": "diger",
+  "b": "Babil, Uruk: Ahamenis (Pers) Imparatorlugu → Buyuk Iskender Imparatorlugu",
+  "gun": "MÖ 331 (22 Ekim; Livius)",
+  "yer": "Babil / Uruk / Susa",
+  "d": "Babil, Uruk noktalarında sahiplik Ahamenis (Pers) Imparatorlugu'dan Buyuk Iskender Imparatorlugu'ya geçer. Kaynak geçiş bilgisi: İskender Babil'i alır (331); kaynak Livius özeti, Arrianos 3.16 okunmadı | Kaynak: Lendering, J., Livius.org: Babylon | https://www.livius.org/articles/place/babylon/ | «In 331, the Macedonian conqueror Alexander the Great, who was fighting a war against the Persians, captured Babylon»",
+  "kaynak": "Arrianos, Anabasis 3.15.7, 3.16.4 (Perseus, CC BY-SA) — «Ἀλέξανδρος δὲ παρελθὼν εἰς τὴν Βαβυλῶνα τὰ ἱερὰ, ἃ Ξέρξης καθεῖλεν, ἀνοικοδομεῖν προσέταξε»", "ic_not_d":"DUNYA-1102 Perseus turu (KASA, 2 Kasım 2026): teyit tek kaynak. Önceki kaynak (İskender Babil'i alır (331); kaynak Livius özeti, Arrianos 3.16 okunmadı | Kayna) dayanak olamaz, değiştirildi. Arrianos 3.15.7: Gaugamela, arkon Aristophanes (331/0) Pyanepsion ayı; 3.16.4: ardından İskender Babil'e girdi, Mazaios'u satrap atadı. Yıl MÖ 331 sonu = -0330 uyumlu. Uruk bu metinde geçmez.",
+  "kaynak_turu": "yazili",
+  "kesinlik": "gun",
+  "odak_yer": [
+   "Babil",
+   "Uruk (Warka)",
+   "Susa"
+  ]
+ },
+ { onem:4, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-0395-01-01",
+  "k": "diger",
+  "b": "Veii: Etrüsk Şehir Devletleri (Oniki Şehir Birliği) → Roma Cumhuriyeti",
+  "gun": "MÖ 396",
+  "yer": "Veii",
+  "d": "Veii noktalarında sahiplik Etrüsk Şehir Devletleri (Oniki Şehir Birliği)'dan Roma Cumhuriyeti'ya geçer. Kaynak geçiş bilgisi: Livy 5.22 (Roberts, Perseus 1999.02.0026): Veii'den tüm insani mal taşındıktan sonra Juno heykeli Roma'ya götürüldü; şehir alındı. MÖ yılı Livy'de yok (konsül/diktatör Camillus yılı Fasti ile eşleşir).",
+  "kaynak": "Livy 5.22 (Roberts, Perseus 1999.02.0026): Veii'den tüm insani mal taşındıktan sonra Juno heykeli Roma'ya götürüldü; şehir alındı. MÖ yılı Livy'de yok (konsül/diktatör Camillus yılı Fasti ile eşleşir).",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Veii"
+  ]
+ },
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-0403-01-01",
+  "k": "diger",
+  "b": "Memphis (Men-nefer / Mit Rahina): Ahamenis Misir'i (27. Hanedan, 1. Pers egemenligi) → sahipsiz aralık",
+  "gun": "MÖ 404",
+  "yer": "Memphis (Men-nefer / Mit Rahina)",
+  "d": "Memphis (Men-nefer / Mit Rahina) noktalarında sahiplik Ahamenis Misir'i (27. Hanedan, 1. Pers egemenligi)'dan sahipsiz aralık'ya geçer. Kaynak geçiş bilgisi: Pelusium savasi 525; Kambises ayin sonunda Misir kralı ilan edildi; 1. Pers hakimiyeti ~402'de bitti; \"Egypt was governed from Memphis by a satrap\" [Bresciani, Iranica Egypt i; Dandamayev, Iranica Cambyses]",
+  "kaynak": "Pelusium savasi 525; Kambises ayin sonunda Misir kralı ilan edildi; 1. Pers hakimiyeti ~402'de bitti; \"Egypt was governed from Memphis by a satrap\" [Bresciani, Iranica Egypt i; Dandamayev, Iranica Cambyses]",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Memphis"
+  ]
+ },
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-0677-01-01",
+  "k": "diger",
+  "b": "Ekbatana, Hemedan: sahipsiz aralık → Medya (Med) Krallığı",
+  "gun": "MÖ 678",
+  "yer": "Ekbatana / Hemedan",
+  "d": "Ekbatana, Hemedan noktalarında sahiplik sahipsiz aralık'dan Medya (Med) Krallığı'ya geçer. Kaynak geçiş bilgisi: Herodotos geleneği: Ekbatana Med başkenti olarak 8. yy sonlarında Deiokes'çe seçilir (Iranica: daha eski iskân için tarihsel/arkeolojik kanıt yok) | Kaynak: Brown, S. C., \"Ecbatana\", Encyclopaedia Iranica VIII/1, 1997 (rev. 2011) | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/ecbatana | «Ecbatana was chosen as the Median capital in the late 8th century B.C.E. by Deioces»",
+  "kaynak": "Herodotos geleneği: Ekbatana Med başkenti olarak 8. yy sonlarında Deiokes'çe seçilir (Iranica: daha eski iskân için tarihsel/arkeolojik kanıt yok) | Kaynak: Brown, S. C., \"Ecbatana\", Encyclopaedia Iranica VIII/1, 1997 (rev. 2011) | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/ecbatana | «Ecbatana was chosen as the Median capital in the late 8th century B.C.E. by Deioces»",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Hemedan"
+  ]
+ },
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-0709-01-01",
+  "k": "diger",
+  "b": "Babil: sahipsiz aralık → Yeni Asur Imparatorlugu",
+  "gun": "MÖ 710",
+  "yer": "Babil",
+  "d": "Babil noktalarında sahiplik sahipsiz aralık'dan Yeni Asur Imparatorlugu'ya geçer. Kaynak geçiş bilgisi: Sargon II Babil tahtına oturur (Marduk-apla-iddina yıl 12 = 710/709) | Kaynak: Grayson, A. K. 1975, Assyrian and Babylonian Chronicles, ABC 1 (Nabu-nasir > Esarhaddon); Livius.org ceviri-tasiyicisi, sütun ii.14 | https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-1b-from-nabu-nasir-to-esarhaddon/ | «Sargon ascended the throne in Babylon.»",
+  "kaynak": "Grayson, ABC 1 ii.9'-14', Livius çevirisi — «Sargon ascended the throne in Babylon.»", "ic_not_d":"DUNYA-1102 hücre 7 (KASA, 2 Kasım 2026): teyit tek kaynak. Önceki kaynak (Sargon II Babil tahtına oturur (Marduk-apla-iddina yıl 12 = 710/709) | Kaynak: G) dayanak olamaz, değiştirildi. Marduk-apla-iddina 12. yıl = 710/709 — okundu. Atlas -0709 = MÖ 710 doğru.",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Babil"
+  ]
+ },
+ { onem:4, dunya:2, bolge_onem:4, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-0721-01-01",
+  "k": "diger",
+  "b": "Samiriye (Samaria / Sebaste): Israil Krallığı (Samiriye) → Yeni Asur Imparatorlugu",
+  "gun": "MÖ 722",
+  "yer": "Samiriye (Samaria / Sebaste)",
+  "d": "Samiriye (Samaria / Sebaste) noktalarında sahiplik Israil Krallığı (Samiriye)'dan Yeni Asur Imparatorlugu'ya geçer. Kaynak geçiş bilgisi: Samiriye'nin alinmasi 722; halk Halah/Gozan'a surgun [AEBP Israel]",
+  "kaynak": "Samiriye'nin alinmasi 722; halk Halah/Gozan'a surgun [AEBP Israel]",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Samiriye"
+  ]
+ },
+ { onem:4, dunya:2, bolge_onem:4, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-0731-01-01",
+  "k": "diger",
+  "b": "Şam: Aram-Sam (Dimask) Krallığı → Yeni Asur Imparatorlugu",
+  "gun": "MÖ 732",
+  "yer": "Şam / Megiddo",
+  "d": "Şam noktalarında sahiplik Aram-Sam (Dimask) Krallığı'dan Yeni Asur Imparatorlugu'ya geçer. Kaynak geçiş bilgisi: ayni kaynak",
+  "kaynak": "ayni kaynak",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "yer_id": "Şam"
+ },
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-0910-01-01",
+  "k": "diger",
+  "b": "Aşşur: sahipsiz aralık → Yeni Asur Imparatorlugu",
+  "gun": "MÖ 911",
+  "yer": "Aşşur / Ninova",
+  "d": "Aşşur noktalarında sahiplik sahipsiz aralık'dan Yeni Asur Imparatorlugu'ya geçer. Kaynak geçiş bilgisi: Aşşur-uballit I (ca. 1364-1328) ve Šuppiluliuma Mitanni'ye saldırır; Asur bağımsızlığını yeniden kazanır (Livius özeti) | Kaynak: Lendering, J., Livius.org: Assur | https://www.livius.org/articles/place/assur/ | «Assyria regained its independence»",
+  "kaynak": "Aşşur-uballit I (ca. 1364-1328) ve Šuppiluliuma Mitanni'ye saldırır; Asur bağımsızlığını yeniden kazanır (Livius özeti) | Kaynak: Lendering, J., Livius.org: Assur | https://www.livius.org/articles/place/assur/ | «Assyria regained its independence»",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Aşşur",
+   "Ninova"
+  ]
+ },
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-1099-01-01",
+  "k": "diger",
+  "b": "Susa: Orta Elam Krallığı (Kidinuid, Igehalkid, Sutrukid) → Yeni Elam Krallığı",
+  "gun": "MÖ 1100",
+  "yer": "Susa",
+  "d": "Susa noktalarında sahiplik Orta Elam Krallığı (Kidinuid, Igehalkid, Sutrukid)'dan Yeni Elam Krallığı'ya geçer. Kaynak geçiş bilgisi: Ur III çözülmesi: İbbi-Suen yıl 3 (MC 2024) doğu/kuzey eyaletleri (Eşnunna, Susa) ayrılır | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 131 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «in Ibbisuen year 3 (MC 2024) provinces in the east and north, including Eshnuna and Susa»",
+  "kaynak": "Ur III çözülmesi: İbbi-Suen yıl 3 (MC 2024) doğu/kuzey eyaletleri (Eşnunna, Susa) ayrılır | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 131 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «in Ibbisuen year 3 (MC 2024) provinces in the east and north, including Eshnuna and Susa»",
+  "kaynak_turu": "yazili",
+  "kesinlik": "onyil",
+  "odak_yer": [
+   "Susa"
+  ]
+ },
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-1154-01-01",
+  "k": "diger",
+  "b": "Nippur, Uruk, Ur: Kassit Babil Krallığı → sahipsiz aralık",
+  "gun": "MÖ 1155",
+  "yer": "Nippur / Uruk / Ur",
+  "d": "Nippur, Uruk, Ur noktalarında sahiplik Kassit Babil Krallığı'dan sahipsiz aralık'ya geçer. Kaynak geçiş bilgisi: Deniz Ülkesi Babilonya'ya katılır (ca. 1465; Brinkman 1972, Edens 1994) | Kaynak: Zadok, R., \"Kassites\", Encyclopaedia Iranica XVI/2, 2013, s. 113-118 (rev. 2015); kronoloji Boese 1982 / Brinkman 1986 | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/kassites | «was incorporated into Babylonia in ca. 1465 BCE»",
+  "kaynak": "Deniz Ülkesi Babilonya'ya katılır (ca. 1465; Brinkman 1972, Edens 1994) | Kaynak: Zadok, R., \"Kassites\", Encyclopaedia Iranica XVI/2, 2013, s. 113-118 (rev. 2015); kronoloji Boese 1982 / Brinkman 1986 | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/kassites | «was incorporated into Babylonia in ca. 1465 BCE»",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "yer_id": "Ur (Tell al-Muqayyar)"
+ },
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-1209-01-01",
+  "k": "diger",
+  "b": "Babil: Orta Asur Imparatorlugu → sahipsiz aralık",
+  "gun": "MÖ 1210",
+  "yer": "Babil",
+  "d": "Babil noktalarında sahiplik Orta Asur Imparatorlugu'dan sahipsiz aralık'ya geçer. Kaynak geçiş bilgisi: KAYNAKLANMADI (başlangıç geçişi için bu oturumda kaynak yok)",
+  "kaynak": "KAYNAKLANMADI (başlangıç geçişi için bu oturumda kaynak yok)",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Babil"
+  ]
+ },
+ { onem:4, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-1219-01-01",
+  "k": "diger",
+  "b": "Babil: Kassit Babil Krallığı → Orta Asur Imparatorlugu",
+  "gun": "MÖ 1220",
+  "yer": "Babil",
+  "d": "Babil noktalarında sahiplik Kassit Babil Krallığı'dan Orta Asur Imparatorlugu'ya geçer. Kaynak geçiş bilgisi: Tukulti-Ninurta I (Asur) Kaştiliaş IV'ü (1227-20) tutsak eder; 1220'de bir yıl Babil kralı gibi davranır; kukla yöneticiler bir on yıl Babilonya'yı denetler | Kaynak: Zadok, R., \"Kassites\", Encyclopaedia Iranica XVI/2, 2013, s. 113-118 (rev. 2015); kronoloji Boese 1982 / Brinkman 1986 | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/kassites | «After acting as king of Babylon for a year (1220 BCE), Tukulti-Ninurta I appointed a succession of puppet rulers»",
+  "kaynak": "Tukulti-Ninurta I (Asur) Kaştiliaş IV'ü (1227-20) tutsak eder; 1220'de bir yıl Babil kralı gibi davranır; kukla yöneticiler bir on yıl Babilonya'yı denetler | Kaynak: Zadok, R., \"Kassites\", Encyclopaedia Iranica XVI/2, 2013, s. 113-118 (rev. 2015); kronoloji Boese 1982 / Brinkman 1986 | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/kassites | «After acting as king of Babylon for a year (1220 BCE), Tukulti-Ninurta I appointed a succession of puppet rulers»",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Babil"
+  ]
+ },
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-1464-01-01",
+  "k": "diger",
+  "b": "Uruk, Ur: sahipsiz aralık → Kassit Babil Krallığı",
+  "gun": "MÖ 1465",
+  "yer": "Uruk / Ur",
+  "d": "Uruk, Ur noktalarında sahiplik sahipsiz aralık'dan Kassit Babil Krallığı'ya geçer. Kaynak geçiş bilgisi: Deniz Ülkesi Babilonya'ya katılır (ca. 1465; Brinkman 1972, Edens 1994) | Kaynak: Zadok, R., \"Kassites\", Encyclopaedia Iranica XVI/2, 2013, s. 113-118 (rev. 2015); kronoloji Boese 1982 / Brinkman 1986 | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/kassites | «was incorporated into Babylonia in ca. 1465 BCE»",
+  "kaynak": "Deniz Ülkesi Babilonya'ya katılır (ca. 1465; Brinkman 1972, Edens 1994) | Kaynak: Zadok, R., \"Kassites\", Encyclopaedia Iranica XVI/2, 2013, s. 113-118 (rev. 2015); kronoloji Boese 1982 / Brinkman 1986 | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/kassites | «was incorporated into Babylonia in ca. 1465 BCE»",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "yer_id": "Ur (Tell al-Muqayyar)"
+ },
+ { onem:2, dunya:1, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-1474-01-01",
+  "k": "diger",
+  "b": "Uruk: Birinci Deniz Ulkesi Hanedani → sahipsiz aralık",
+  "gun": "MÖ 1475",
+  "yer": "Uruk",
+  "d": "Uruk noktalarında sahiplik Birinci Deniz Ulkesi Hanedani'dan sahipsiz aralık'ya geçer. Kaynak geçiş bilgisi: MÖ 16. yy: Babilonya ikiye bölünür - kuzeyde Kassitler, güneyde Uruk, Ur ve Larsa'yı içeren Deniz Ülkesi | Kaynak: Zadok, R., \"Kassites\", Encyclopaedia Iranica XVI/2, 2013, s. 113-118 (rev. 2015); kronoloji Boese 1982 / Brinkman 1986 | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/kassites | «Babylonia was divided into two kingdoms, that of the Kassites in the north and the Sealand in the south, including Uruk, Ur, and Larsa»",
+  "kaynak": "MÖ 16. yy: Babilonya ikiye bölünür - kuzeyde Kassitler, güneyde Uruk, Ur ve Larsa'yı içeren Deniz Ülkesi | Kaynak: Zadok, R., \"Kassites\", Encyclopaedia Iranica XVI/2, 2013, s. 113-118 (rev. 2015); kronoloji Boese 1982 / Brinkman 1986 | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/kassites | «Babylonia was divided into two kingdoms, that of the Kassites in the north and the Sealand in the south, including Uruk, Ur, and Larsa»",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Uruk (Warka)"
+  ]
+ },
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-1499-01-01",
+  "k": "diger",
+  "b": "Kerma (Kerma / Doukki Gel): Kerma Krallığı (Klasik Kerma) → sahipsiz aralık",
+  "gun": "MÖ 1500",
+  "yer": "Kerma (Kerma / Doukki Gel)",
+  "d": "Kerma (Kerma / Doukki Gel) noktalarında sahiplik Kerma Krallığı (Klasik Kerma)'dan sahipsiz aralık'ya geçer. Kaynak geçiş bilgisi: Kerma.ch: Early Kerma 2450-2050 \"City founded\"; Middle 2050-1750; Classic 1750-1480",
+  "kaynak": "Kerma.ch: Early Kerma 2450-2050 \"City founded\"; Middle 2050-1750; Classic 1750-1480",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Kerma"
+  ]
+ },
+ { onem:2, dunya:1, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-1731-01-01",
+  "k": "diger",
+  "b": "Uruk: sahipsiz aralık → Birinci Deniz Ulkesi Hanedani",
+  "gun": "MÖ 1732",
+  "yer": "Uruk",
+  "d": "Uruk noktalarında sahiplik sahipsiz aralık'dan Birinci Deniz Ulkesi Hanedani'ya geçer. Kaynak geçiş bilgisi: MÖ 16. yy: Babilonya ikiye bölünür - kuzeyde Kassitler, güneyde Uruk, Ur ve Larsa'yı içeren Deniz Ülkesi | Kaynak: Zadok, R., \"Kassites\", Encyclopaedia Iranica XVI/2, 2013, s. 113-118 (rev. 2015); kronoloji Boese 1982 / Brinkman 1986 | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/kassites | «Babylonia was divided into two kingdoms, that of the Kassites in the north and the Sealand in the south, including Uruk, Ur, and Larsa»",
+  "kaynak": "MÖ 16. yy: Babilonya ikiye bölünür - kuzeyde Kassitler, güneyde Uruk, Ur ve Larsa'yı içeren Deniz Ülkesi | Kaynak: Zadok, R., \"Kassites\", Encyclopaedia Iranica XVI/2, 2013, s. 113-118 (rev. 2015); kronoloji Boese 1982 / Brinkman 1986 | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/kassites | «Babylonia was divided into two kingdoms, that of the Kassites in the north and the Sealand in the south, including Uruk, Ur, and Larsa»",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Uruk (Warka)"
+  ]
+ },
+ { onem:4, dunya:2, bolge_onem:4, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-1760-01-01",
+  "k": "diger",
+  "b": "Mari: sahipsiz aralık → Eski Babil (Amorit) Krallığı",
+  "gun": "MÖ 1761",
+  "yer": "Mari",
+  "d": "Mari noktalarında sahiplik sahipsiz aralık'dan Eski Babil (Amorit) Krallığı'ya geçer. Kaynak geçiş bilgisi: Hammurabi yıl 32 (MC 1761): Mari yenilir | Kaynak: \"Hammurapi\", Encyclopaedia Judaica (Gale), encyclopedia.com uzerinden | https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/hammurapi | «Mari, in the 32nd»",
+  "kaynak": "Hammurabi yıl 32 (MC 1761): Mari yenilir | Kaynak: \"Hammurapi\", Encyclopaedia Judaica (Gale), encyclopedia.com uzerinden | https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/hammurapi | «Mari, in the 32nd»",
+  "kaynak_turu": "yazili",
+  "kesinlik": "onyil",
+  "odak_yer": [
+   "Mari"
+  ]
+ },
+ { onem:4, dunya:2, bolge_onem:4, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-1762-01-01",
+  "k": "diger",
+  "b": "Ur: sahipsiz aralık → Eski Babil (Amorit) Krallığı",
+  "gun": "MÖ 1763",
+  "yer": "Ur / Uruk",
+  "d": "Ur noktalarında sahiplik sahipsiz aralık'dan Eski Babil (Amorit) Krallığı'ya geçer. Kaynak geçiş bilgisi: Hammurabi yıl 30 (MC 1763): Larsa kralı Rim-Sin yenilir; Larsa devleti biter (ARC Tablo 38: Rimsin 1822-1763) | Kaynak: \"Hammurapi\", Encyclopaedia Judaica (Gale), encyclopedia.com uzerinden | https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/hammurapi | «Rim-Sin of Larsa was defeated in the 30th year of Hammurapi's reign»",
+  "kaynak": "Hammurabi yıl 30 (MC 1763): Larsa kralı Rim-Sin yenilir; Larsa devleti biter (ARC Tablo 38: Rimsin 1822-1763) | Kaynak: \"Hammurapi\", Encyclopaedia Judaica (Gale), encyclopedia.com uzerinden | https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/hammurapi | «Rim-Sin of Larsa was defeated in the 30th year of Hammurapi's reign»",
+  "kaynak_turu": "yazili",
+  "kesinlik": "onyil",
+  "yer_id": "Ur (Tell al-Muqayyar)"
+ },
+ { onem:3, dunya:1, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-1801-01-01",
+  "k": "diger",
+  "b": "Uruk: sahipsiz aralık → Larsa Krallığı",
+  "gun": "MÖ 1802",
+  "yer": "Uruk",
+  "d": "Uruk noktalarında sahiplik sahipsiz aralık'dan Larsa Krallığı'ya geçer. Kaynak geçiş bilgisi: Rim-Sin I yıl 21 (MC 1802): Uruk yıkılır ve Larsa'ya katılır | Kaynak: CDLI Wiki, Year names of Rim-Sin I (Larsa), yıl 21 | https://web.archive.org/web/2024/https://cdli.ox.ac.uk/wiki/year_names_rim-sin | «(Rîm-Sîn) destroyed Uruk with the help of the strong weapon entrusted to him by Enlil»",
+  "kaynak": "Rim-Sin I yıl 21 (MC 1802): Uruk yıkılır ve Larsa'ya katılır | Kaynak: CDLI Wiki, Year names of Rim-Sin I (Larsa), yıl 21 | https://web.archive.org/web/2024/https://cdli.ox.ac.uk/wiki/year_names_rim-sin | «(Rîm-Sîn) destroyed Uruk with the help of the strong weapon entrusted to him by Enlil»",
+  "kaynak_turu": "yazili",
+  "kesinlik": "onyil",
+  "odak_yer": [
+   "Uruk (Warka)"
+  ]
+ },
+ { onem:4, dunya:2, bolge_onem:4, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-1807-01-01",
+  "k": "diger",
+  "b": "Aşşur: Eski Asur Devleti (Assur sehir devleti) → Ust Mezopotamya Krallığı (Samsi-Adad I)",
+  "gun": "MÖ 1808",
+  "yer": "Aşşur",
+  "d": "Aşşur noktalarında sahiplik Eski Asur Devleti (Assur sehir devleti)'dan Ust Mezopotamya Krallığı (Samsi-Adad I)'ya geçer. Kaynak geçiş bilgisi: Šamši-Adad I Aşşur'un yöneticisi (ARC Tablo 38, Barjamovic vd. 2012 uyarlaması): MC 1808-1776 | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 133 Tablo 38 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «Shamshiadad I 1808-1776»",
+  "kaynak": "Šamši-Adad I Aşşur'un yöneticisi (ARC Tablo 38, Barjamovic vd. 2012 uyarlaması): MC 1808-1776 | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 133 Tablo 38 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «Shamshiadad I 1808-1776»",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Aşşur"
+  ]
+ },
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-1899-01-01",
+  "k": "diger",
+  "b": "Susa: Elam — Simaski Hanedani → Elam — Sukkalmah (Eparti) Hanedani",
+  "gun": "MÖ 1900",
+  "yer": "Susa",
+  "d": "Susa noktalarında sahiplik Elam — Simaski Hanedani'dan Elam — Sukkalmah (Eparti) Hanedani'ya geçer. Kaynak geçiş bilgisi: Ur III çözülmesi: İbbi-Suen yıl 3 (MC 2024) doğu/kuzey eyaletleri (Eşnunna, Susa) ayrılır | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 131 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «in Ibbisuen year 3 (MC 2024) provinces in the east and north, including Eshnuna and Susa»",
+  "kaynak": "Ur III çözülmesi: İbbi-Suen yıl 3 (MC 2024) doğu/kuzey eyaletleri (Eşnunna, Susa) ayrılır | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 131 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «in Ibbisuen year 3 (MC 2024) provinces in the east and north, including Eshnuna and Susa»",
+  "kaynak_turu": "yazili",
+  "kesinlik": "onyil",
+  "odak_yer": [
+   "Susa"
+  ]
+ },
+ { onem:3, dunya:1, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-2003-01-01",
+  "k": "diger",
+  "b": "Uruk, Ur: Larsa Krallığı → sahipsiz aralık",
+  "gun": "MÖ 2004",
+  "yer": "Uruk / Ur",
+  "d": "Uruk, Ur noktalarında sahiplik Larsa Krallığı'dan sahipsiz aralık'ya geçer. Kaynak geçiş bilgisi: Urnamma yıl 1 = MC 2110; Ur III devleti | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 131; Tablo 39 s. 136 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «Urnamma 18 years MC 2110-2093»",
+  "kaynak": "Urnamma yıl 1 = MC 2110; Ur III devleti | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 131; Tablo 39 s. 136 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «Urnamma 18 years MC 2110-2093»",
+  "kaynak_turu": "yazili",
+  "kesinlik": "onyil",
+  "yer_id": "Ur (Tell al-Muqayyar)"
+ },
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-2023-01-01",
+  "k": "diger",
+  "b": "Susa: Ur III (Ucuncu Ur Hanedani) → Elam — Simaski Hanedani",
+  "gun": "MÖ 2024",
+  "yer": "Susa / Aşşur",
+  "d": "Susa noktalarında sahiplik Ur III (Ucuncu Ur Hanedani)'dan Elam — Simaski Hanedani'ya geçer. Kaynak geçiş bilgisi: Ur III çözülmesi: İbbi-Suen yıl 3 (MC 2024) doğu/kuzey eyaletleri (Eşnunna, Susa) ayrılır | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 131 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «in Ibbisuen year 3 (MC 2024) provinces in the east and north, including Eshnuna and Susa»",
+  "kaynak": "Ur III çözülmesi: İbbi-Suen yıl 3 (MC 2024) doğu/kuzey eyaletleri (Eşnunna, Susa) ayrılır | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 131 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «in Ibbisuen year 3 (MC 2024) provinces in the east and north, including Eshnuna and Susa»",
+  "kaynak_turu": "yazili",
+  "kesinlik": "onyil",
+  "odak_yer": [
+   "Susa",
+   "Aşşur"
+  ]
+ },
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-2024-01-01",
+  "k": "diger",
+  "b": "Uruk, Ur: Ur III (Ucuncu Ur Hanedani) → Larsa Krallığı",
+  "gun": "MÖ 2025",
+  "yer": "Uruk / Ur",
+  "d": "Uruk, Ur noktalarında sahiplik Ur III (Ucuncu Ur Hanedani)'dan Larsa Krallığı'ya geçer. Kaynak geçiş bilgisi: MÖ 16. yy: Babilonya ikiye bölünür - kuzeyde Kassitler, güneyde Uruk, Ur ve Larsa'yı içeren Deniz Ülkesi | Kaynak: Zadok, R., \"Kassites\", Encyclopaedia Iranica XVI/2, 2013, s. 113-118 (rev. 2015); kronoloji Boese 1982 / Brinkman 1986 | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/kassites | «Babylonia was divided into two kingdoms, that of the Kassites in the north and the Sealand in the south, including Uruk, Ur, and Larsa»",
+  "kaynak": "MÖ 16. yy: Babilonya ikiye bölünür - kuzeyde Kassitler, güneyde Uruk, Ur ve Larsa'yı içeren Deniz Ülkesi | Kaynak: Zadok, R., \"Kassites\", Encyclopaedia Iranica XVI/2, 2013, s. 113-118 (rev. 2015); kronoloji Boese 1982 / Brinkman 1986 | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/kassites | «Babylonia was divided into two kingdoms, that of the Kassites in the north and the Sealand in the south, including Uruk, Ur, and Larsa»",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "yer_id": "Ur (Tell al-Muqayyar)"
+ },
+ { onem:3, dunya:2, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-2111-01-01",
+  "k": "diger",
+  "b": "Uruk: Gutium (Gutiler) Hakimiyeti → sahipsiz aralık",
+  "gun": "MÖ 2112",
+  "yer": "Uruk / Umma / Aşşur / Susa",
+  "d": "Uruk noktalarında sahiplik Gutium (Gutiler) Hakimiyeti'dan sahipsiz aralık'ya geçer. Kaynak geçiş bilgisi: Uruk, Akad devletinden ayrılır: Şarkalişarri'nin (MC 2205-2181) geç yıllarında ya da biraz sonra | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 117 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «Uruk left the state of Akkad before Girsu, i.e. probably in the late years of Sharkalisharri, or slightly later»",
+  "kaynak": "Uruk, Akad devletinden ayrılır: Şarkalişarri'nin (MC 2205-2181) geç yıllarında ya da biraz sonra | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 117 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «Uruk left the state of Akkad before Girsu, i.e. probably in the late years of Sharkalisharri, or slightly later»",
+  "kaynak_turu": "yazili",
+  "kesinlik": "onyil",
+  "odak_yer": [
+   "Uruk (Warka)",
+   "Umma (Tell Jokha)",
+   "Aşşur",
+   "Susa"
+  ]
+ },
+ { onem:3, dunya:2, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-2143-01-01",
+  "k": "diger",
+  "b": "Girsu (Lagaş devletinin merkezi): sahipsiz aralık → Lagaş II. Dönemi (Ur-Baba, Gudea, Ur-Ningirsu)",
+  "gun": "MÖ 2144",
+  "yer": "Girsu (Lagaş devletinin merkezi)",
+  "d": "Girsu (Lagaş devletinin merkezi) noktalarında sahiplik sahipsiz aralık'dan Lagaş II. Dönemi (Ur-Baba, Gudea, Ur-Ningirsu)'ya geçer. Kaynak geçiş bilgisi: Girsu/Lagaş'ın Akad'dan bağımsızlaşması: Puzurmama ilk bağımsız hükümdar; \"karışıklık dönemi\" (Şarkalişarri sonrası, MC 2181-2177) | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 119 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «It is possible to date the beginning of independence to the period of confusion»",
+  "kaynak": "Girsu/Lagaş'ın Akad'dan bağımsızlaşması: Puzurmama ilk bağımsız hükümdar; \"karışıklık dönemi\" (Şarkalişarri sonrası, MC 2181-2177) | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 119 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «It is possible to date the beginning of independence to the period of confusion»",
+  "kaynak_turu": "yazili",
+  "kesinlik": "onyil",
+  "odak_yer": [
+   "Girsu (Tell Telloh)"
+  ]
+ },
+ { onem:3, dunya:2, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-2153-01-01",
+  "k": "diger",
+  "b": "Uruk: sahipsiz aralık → Gutium (Gutiler) Hakimiyeti",
+  "gun": "MÖ 2154",
+  "yer": "Uruk / Nippur / Ur / Umma",
+  "d": "Uruk noktalarında sahiplik sahipsiz aralık'dan Gutium (Gutiler) Hakimiyeti'ya geçer. Kaynak geçiş bilgisi: Uruk, Akad devletinden ayrılır: Şarkalişarri'nin (MC 2205-2181) geç yıllarında ya da biraz sonra | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 117 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «Uruk left the state of Akkad before Girsu, i.e. probably in the late years of Sharkalisharri, or slightly later»",
+  "kaynak": "Uruk, Akad devletinden ayrılır: Şarkalişarri'nin (MC 2205-2181) geç yıllarında ya da biraz sonra | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 117 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «Uruk left the state of Akkad before Girsu, i.e. probably in the late years of Sharkalisharri, or slightly later»",
+  "kaynak_turu": "yazili",
+  "kesinlik": "onyil",
+  "yer_id": "Ur (Tell al-Muqayyar)"
+ },
+ { onem:4, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-2299-01-01",
+  "k": "diger",
+  "b": "Umma, Ur: sahipsiz aralık → Akad Imparatorlugu",
+  "gun": "MÖ 2300",
+  "yer": "Umma / Ur / Nippur",
+  "d": "Umma, Ur noktalarında sahiplik sahipsiz aralık'dan Akad Imparatorlugu'ya geçer. Kaynak geçiş bilgisi: Sargon, Lugalzagesi'yi yener; Akad hakimiyeti Babilonya'nın güneyinde başlar (Tablo 39: \"Sargonic period beginning in Babylonia\" ca. 2300, MC; MC II ca. 2292) | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 90; Tablo 39 s. 136 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «he defeated Lugalzagesi of Uruk and thus became the only king of ",
+  "kaynak": "Sargon, Lugalzagesi'yi yener; Akad hakimiyeti Babilonya'nın güneyinde başlar (Tablo 39: \"Sargonic period beginning in Babylonia\" ca. 2300, MC; MC II ca. 2292) | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 90; Tablo 39 s. 136 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «he defeated Lugalzagesi of Uruk and thus became the only king of Sumer and Akkad»",
+  "kaynak_turu": "yazili",
+  "kesinlik": "onyil",
+  "yer_id": "Ur (Tell al-Muqayyar)"
+ },
+ { onem:3, dunya:2, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-2349-01-01",
+  "k": "diger",
+  "b": "Girsu (Lagaş devletinin merkezi): Lagas I. Hanedan (sehir devleti) → sahipsiz aralık",
+  "gun": "MÖ 2350",
+  "yer": "Girsu (Lagaş devletinin merkezi)",
+  "d": "Girsu (Lagaş devletinin merkezi) noktalarında sahiplik Lagas I. Hanedan (sehir devleti)'dan sahipsiz aralık'ya geçer. Kaynak geçiş bilgisi: Urnanshe (Lagaş I) Presargonik dönemin başlangıcıdır; Urnanshe yıl 1 -> Lugalzagesi yıl 25 arası ~175 yıl (alt tahmin); Tablo 39: ca. 2475-2300±30 (MC) | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 67, 84; Tablo 39 s. 136 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «The reign of Urnanshe marks the beginning of the Presargonic period»",
+  "kaynak": "Urnanshe (Lagaş I) Presargonik dönemin başlangıcıdır; Urnanshe yıl 1 -> Lugalzagesi yıl 25 arası ~175 yıl (alt tahmin); Tablo 39: ca. 2475-2300±30 (MC) | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 67, 84; Tablo 39 s. 136 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «The reign of Urnanshe marks the beginning of the Presargonic period»",
+  "kaynak_turu": "yazili",
+  "kesinlik": "onyil",
+  "odak_yer": [
+   "Girsu (Tell Telloh)"
+  ]
+ },
+ { onem:5, dunya:3, bolge_onem:4, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "0009-01-10",
+  "k": "diger",
+  "b": "Wang Mang tahta çıktı: Dunhuang ve Zhangye (Ganzhou) Batı Han'dan sahipsiz aralığa geçti",
+  "gun": "10 Ocak 9 (Jülyen; 居攝三年/初始元年 11. ay 戊辰)",
+  "yer": "Dunhuang / Zhangye (Ganzhou)",
+  "d": "Wang Mang Han'ın Yüksek Tapınağı'nda altın sandık vasiyetini alıp tahta çıktı ve hanedanın adını Xin koydu; Batı Han sona erdi. Hexi koridorundaki Dunhuang ve Zhangye için Xin dönemine ait sahiplik kaynakta yazılı olmadığından bu noktalar sahipsiz aralığa geçer (beyanlı boşluk). Chang'an doğrudan Xin'e geçti (ayrı madde).",
+  "kaynak": "Ban Gu, Hanshu 99上 (zh.wikisource.org/wiki/漢書/卷099上, okundu) — «戊辰，莽至高廟拜受金匱神嬗。御王冠，謁太后，還坐未央宮前殿» ; «以戊辰直定，御王冠，即真天子位，定有天下之號曰新»; gün: arac/cin_gun.py (8. yıl 11. ay 戊辰 = 0009-01-10 J)",
+  "ic_not": "KIRILMA-TASIMA 3 Kasım 2026 (DUNYA-1102 2. geçiş kalemi): t 0008-01-01 → 0009-01-10, bati-han künye t ve üç yerleşim ucuyla birlikte. Xi'an bu maddeden çıkarıldı (0008-0009 boşluk dilimi kalktı).",
+  "kaynak_turu": "yazili",
+  "kesinlik": "gun",
+  "odak_yer": [
+   "Dunhuang",
+   "Zhangye (Ganzhou)"
+  ]
+ },
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "0023-01-01",
+  "k": "diger",
+  "b": "Luoyang, Xi'an (Chang'an): sahipsiz aralık → Gengshi Rejimi (Xuan Han / Lulin)",
+  "gun": "MS 23",
+  "yer": "Luoyang / Xi'an (Chang'an)",
+  "d": "Luoyang, Xi'an (Chang'an) noktalarında sahiplik sahipsiz aralık'dan Gengshi Rejimi (Xuan Han / Lulin)'ya geçer. Kaynak geçiş bilgisi: Hou Han shu 11 (Liu Xuan): Chang'an'da Mang'a karşı ayaklanma; 9. ay Gongbin Jiu Mang'ı Jiantai'de öldürdü; Gengshi Luoyang'a gitti, Shentu Jian/Li Song Chang'an'dan ulaklık yolladı, 2. yıl (24) 2. ay Gengshi Luoyang'dan batıya (Chang'an) yürüdü. Son uç: Hou Han shu 1a, Jianwu 1 9. ay Chimei Chang'an'a girdi, Gengshi Gaoling'e kaçtı.",
+  "kaynak": "Hou Han shu 11 (Liu Xuan): Chang'an'da Mang'a karşı ayaklanma; 9. ay Gongbin Jiu Mang'ı Jiantai'de öldürdü; Gengshi Luoyang'a gitti, Shentu Jian/Li Song Chang'an'dan ulaklık yolladı, 2. yıl (24) 2. ay Gengshi Luoyang'dan batıya (Chang'an) yürüdü. Son uç: Hou Han shu 1a, Jianwu 1 9. ay Chimei Chang'an'a girdi, Gengshi Gaoling'e kaçtı.",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Luoyang",
+   "Xi'an (Chang'an)"
+  ]
+ },
+ { onem:3, dunya:1, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "0025-01-01",
+  "k": "diger",
+  "b": "Çengdu (Chengdu): sahipsiz aralık → Chengjia (成家, Gongsun Shu)",
+  "gun": "MS 25",
+  "yer": "Çengdu (Chengdu) / Xi'an (Chang'an)",
+  "d": "Çengdu (Chengdu) noktalarında sahiplik sahipsiz aralık'dan Chengjia (成家, Gongsun Shu)'ya geçer. Kaynak geçiş bilgisi: Hou Han shu 13 (Gongsun Shu): Gengshi döneminde 'Shu Wang' olup Chengdu'yu başkent yaptı; Jianwu 1 (MS 25) 4. ay imparator ilan etti; Jianwu 12'de sonu (Wu Han seferi, Chengdu kuşatması).",
+  "kaynak": "Hou Han shu 13 (Gongsun Shu): Gengshi döneminde 'Shu Wang' olup Chengdu'yu başkent yaptı; Jianwu 1 (MS 25) 4. ay imparator ilan etti; Jianwu 12'de sonu (Wu Han seferi, Chengdu kuşatması).",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Çengdu (Chengdu)",
+   "Xi'an (Chang'an)"
+  ]
+ },
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "0027-01-01",
+  "k": "diger",
+  "b": "Xi'an (Chang'an): Kızıl Kaşlılar Rejimi (Jianshi) → sahipsiz aralık",
+  "gun": "MS 27",
+  "yer": "Xi'an (Chang'an)",
+  "d": "Xi'an (Chang'an) noktalarında sahiplik Kızıl Kaşlılar Rejimi (Jianshi)'dan sahipsiz aralık'ya geçer. Kaynak geçiş bilgisi: Hou Han shu 1a, Jianwu 1: Chimei Chang'an'a girdi, saray yaktı; aynı ay Deng Yu Chang'an'a girip 11 imparatorun tabletlerini Gao Miao'ya götürdü (kısa süreli Han girişi). Chimei'nin Chang'an'dan çıkışı (künye t=0027) bu turda okunmadı.",
+  "kaynak": "Hou Han shu 1a, Jianwu 1: Chimei Chang'an'a girdi, saray yaktı; aynı ay Deng Yu Chang'an'a girip 11 imparatorun tabletlerini Gao Miao'ya götürdü (kısa süreli Han girişi). Chimei'nin Chang'an'dan çıkışı (künye t=0027) bu turda okunmadı.",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Xi'an (Chang'an)"
+  ]
+ },
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "0036-01-01",
+  "k": "diger",
+  "b": "Çengdu (Chengdu): Chengjia (成家, Gongsun Shu) → sahipsiz aralık",
+  "gun": "MS 36",
+  "yer": "Çengdu (Chengdu)",
+  "d": "Çengdu (Chengdu) noktalarında sahiplik Chengjia (成家, Gongsun Shu)'dan sahipsiz aralık'ya geçer. Kaynak geçiş bilgisi: Sanguozhi 32 (Xianzhu zhuan): Liu Bei Chengdu'yu onlarca gün kuşattı, Liu Zhang teslim oldu (Jian'an 19 = 214 başlığı); Zhangwu 1'de (221) imparator oldu. Son: Sanguozhi 28 (Deng Ai): Liu Shan imparatorluk mührünü gönderip teslim oldu, Ai Chengdu'ya girdi, Liu Shan prens ve ileri gelenlerle çıktı.",
+  "kaynak": "Sanguozhi 32 (Xianzhu zhuan): Liu Bei Chengdu'yu onlarca gün kuşattı, Liu Zhang teslim oldu (Jian'an 19 = 214 başlığı); Zhangwu 1'de (221) imparator oldu. Son: Sanguozhi 28 (Deng Ai): Liu Shan imparatorluk mührünü gönderip teslim oldu, Ai Chengdu'ya girdi, Liu Shan prens ve ileri gelenlerle çıktı.",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Çengdu (Chengdu)"
+  ]
+ },
+ { onem:4, dunya:2, bolge_onem:4, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "0106-01-01",
+  "k": "diger",
+  "b": "Petra: Nabatiye Krallığı → Roma İmparatorluğu (Prinkipat-Dominat, birleşik)",
+  "gun": "MS 106",
+  "yer": "Petra",
+  "d": "Petra noktalarında sahiplik Nabatiye Krallığı'dan Roma İmparatorluğu (Prinkipat-Dominat, birleşik)'ya geçer. Kaynak geçiş bilgisi: ayni kaynak",
+  "kaynak": "ayni kaynak",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Petra"
+  ]
+ },
+ { onem:4, dunya:2, bolge_onem:4, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "0221-01-01",
+  "k": "diger",
+  "b": "Çengdu (Chengdu): sahipsiz aralık → Shu Han",
+  "gun": "MS 221",
+  "yer": "Çengdu (Chengdu)",
+  "d": "Çengdu (Chengdu) noktalarında sahiplik sahipsiz aralık'dan Shu Han'ya geçer. Kaynak geçiş bilgisi: Sanguozhi 32 (Xianzhu zhuan): Liu Bei Chengdu'yu onlarca gün kuşattı, Liu Zhang teslim oldu (Jian'an 19 = 214 başlığı); Zhangwu 1'de (221) imparator oldu. Son: Sanguozhi 28 (Deng Ai): Liu Shan imparatorluk mührünü gönderip teslim oldu, Ai Chengdu'ya girdi, Liu Shan prens ve ileri gelenlerle çıktı.",
+  "kaynak": "Sanguozhi 32 (Xianzhu zhuan): Liu Bei Chengdu'yu onlarca gün kuşattı, Liu Zhang teslim oldu (Jian'an 19 = 214 başlığı); Zhangwu 1'de (221) imparator oldu. Son: Sanguozhi 28 (Deng Ai): Liu Shan imparatorluk mührünü gönderip teslim oldu, Ai Chengdu'ya girdi, Liu Shan prens ve ileri gelenlerle çıktı.",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Çengdu (Chengdu)"
+  ]
+ },
+ { onem:4, dunya:2, bolge_onem:4, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "0263-01-01",
+  "k": "diger",
+  "b": "Çengdu (Chengdu): Shu Han → Cao Wei",
+  "gun": "MS 263",
+  "yer": "Çengdu (Chengdu)",
+  "d": "Çengdu (Chengdu) noktalarında sahiplik Shu Han'dan Cao Wei'ya geçer. Kaynak geçiş bilgisi: Sanguozhi 28: Deng Ai Chengdu'ya girdi, Liu Shan teslim — Chengdu fiilen Wei komutasında (sonra Zhong Hui/Deng Ai olayı). Son uç (Batı Jin 265, 'Sima Yan') okunmadı.",
+  "kaynak": "Sanguozhi 28: Deng Ai Chengdu'ya girdi, Liu Shan teslim — Chengdu fiilen Wei komutasında (sonra Zhong Hui/Deng Ai olayı). Son uç (Batı Jin 265, 'Sima Yan') okunmadı.",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Çengdu (Chengdu)"
+  ]
+ },
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "0304-01-01",
+  "k": "diger",
+  "b": "Çengdu (Chengdu): sahipsiz aralık → Cheng-Han (成漢)",
+  "gun": "MS 304",
+  "yer": "Çengdu (Chengdu)",
+  "d": "Çengdu (Chengdu) noktalarında sahiplik sahipsiz aralık'dan Cheng-Han (成漢)'ya geçer. Kaynak geçiş bilgisi: Jin shu 121 (Li Xiong): Luo Te kapıyı açıp Li Xiong'u içeri aldı, 'Chengdu'yu aldı'; Yongxing 1'de (304) 'Chengdu Wang' ilan etti. Son: Li Shi (Jiaming 2, 3. ay 17. gün) Huan Wen'e teslim mektubu.",
+  "kaynak": "Jin shu 121 (Li Xiong): Luo Te kapıyı açıp Li Xiong'u içeri aldı, 'Chengdu'yu aldı'; Yongxing 1'de (304) 'Chengdu Wang' ilan etti. Son: Li Shi (Jiaming 2, 3. ay 17. gün) Huan Wen'e teslim mektubu.",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Çengdu (Chengdu)"
+  ]
+ },
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "0351-01-01",
+  "k": "diger",
+  "b": "Xi'an (Chang'an): sahipsiz aralık → Önceki Qin (前秦)",
+  "gun": "MS 351",
+  "yer": "Xi'an (Chang'an)",
+  "d": "Xi'an (Chang'an) noktalarında sahiplik sahipsiz aralık'dan Önceki Qin (前秦)'ya geçer. Kaynak geçiş bilgisi: Jin shu 112 (Fu Jian/Fu Jiàn zaiji): Yonghe 7'de Fu Jian kendini Tianwang ilan edip Chang'an'da saray kurdu (Du Hong'un Chang'an'ı işgali sona erer).",
+  "kaynak": "Jin shu 112 (Fu Jian/Fu Jiàn zaiji): Yonghe 7'de Fu Jian kendini Tianwang ilan edip Chang'an'da saray kurdu (Du Hong'un Chang'an'ı işgali sona erer).",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Xi'an (Chang'an)"
+  ]
+ },
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "0356-01-01",
+  "k": "diger",
+  "b": "Köln (Colonia Claudia Ara Agrippinensium): sahipsiz aralık → Roma İmparatorluğu (Prinkipat-Dominat, birleşik)",
+  "gun": "MS 356",
+  "yer": "Köln (Colonia Claudia Ara Agrippinensium)",
+  "d": "Köln (Colonia Claudia Ara Agrippinensium) noktalarında sahiplik sahipsiz aralık'dan Roma İmparatorluğu (Prinkipat-Dominat, birleşik)'ya geçer. Kaynak geçiş bilgisi: Ammianus 16.3.2: Julian Köln'e girdi, Frank krallarıyla barış yaptı, şehri 'en müstahkem' olarak teslim aldı.",
+  "kaynak": "Ammianus 16.3.2: Julian Köln'e girdi, Frank krallarıyla barış yaptı, şehri 'en müstahkem' olarak teslim aldı.",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Köln"
+  ]
+ },
+ { onem:5, dunya:4, bolge_onem:5, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "0395-01-01",
+  "k": "diger",
+  "b": "Roma: Roma İmparatorluğu (Prinkipat-Dominat, birleşik) → sahipsiz aralık",
+  "gun": "MS 395",
+  "yer": "Roma / İskenderiye / Iskenderiye / Köln (Colonia Claudia Ara Agrippinensium) / Petra",
+  "d": "Roma noktalarında sahiplik Roma İmparatorluğu (Prinkipat-Dominat, birleşik)'dan sahipsiz aralık'ya geçer. Kaynak geçiş bilgisi: Marcellinus Comes, Chronicon s.a. 476 (Basilisco ve Armato konsüllüğü; Mommsen CM II, Latin Library marcellinus1.html): Odoacer Roma'yı aldı, Orestes'i öldürdü, Augustulus'u Lucullanum'a sürdü, Batı imparatorluğu Augustulus ile yok oldu.",
+  "kaynak": "Marcellinus Comes, Chronicon s.a. 476 (Basilisco ve Armato konsüllüğü; Mommsen CM II, Latin Library marcellinus1.html): Odoacer Roma'yı aldı, Orestes'i öldürdü, Augustulus'u Lucullanum'a sürdü, Batı imparatorluğu Augustulus ile yok oldu.",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Roma",
+   "İskenderiye",
+   "Köln",
+   "Petra"
+  ]
+ },
+ { onem:3, dunya:1, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "0397-01-01",
+  "k": "diger",
+  "b": "Dunhuang, Zhangye (Ganzhou): sahipsiz aralık → Kuzey Liang (北涼)",
+  "gun": "MS 397",
+  "yer": "Dunhuang / Zhangye (Ganzhou)",
+  "d": "Dunhuang, Zhangye (Ganzhou) noktalarında sahiplik sahipsiz aralık'dan Kuzey Liang (北涼)'ya geçer. Kaynak geçiş bilgisi: Jin shu 129 (Juqu Mengxun): Duan Ye Jiankang'da Liang Hakimi (Shenxi 1 = 397) olunca Mengxun'u Zhangye valisi yaptı; Longan 5'te (401) Mengxun Zhangye Gong ilan edildi; Yixi 8'de (412) Hexi Wang; Wei shu 4a Taiyan 5 (439) Taiwu Guzang'ı aldı, Muqian teslim.",
+  "kaynak": "Jin shu 129 (Juqu Mengxun): Duan Ye Jiankang'da Liang Hakimi (Shenxi 1 = 397) olunca Mengxun'u Zhangye valisi yaptı; Longan 5'te (401) Mengxun Zhangye Gong ilan edildi; Yixi 8'de (412) Hexi Wang; Wei shu 4a Taiyan 5 (439) Taiwu Guzang'ı aldı, Muqian teslim.",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Dunhuang",
+   "Zhangye (Ganzhou)"
+  ]
+ },
+ { onem:2, dunya:1, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "0400-01-01",
+  "k": "diger",
+  "b": "Dunhuang: Kuzey Liang (北涼) → sahipsiz aralık",
+  "gun": "MS 400",
+  "yer": "Dunhuang",
+  "d": "Dunhuang noktalarında sahiplik Kuzey Liang (北涼)'dan sahipsiz aralık'ya geçer. Kaynak geçiş bilgisi: Jin shu 87 (Liang Wuzhao wang Li Xuansheng/Hao zhuan): Longan 4'te Jinchang tarafı altı komutanlığı çağırıp Li Hao'yu seçti; 'Li Hao Longan 4'te kuruldu, Song Shaodi Jingping 1'e kadar' (metin sonu 423); Wei shu 99 aynı. Hou Han/ZZTJ bitişi 421 (Mengxun Jiuquan'ı alır) — metinde 'Jiuquan'ı aldı' (Jin shu 129) ama yıl okunmadı.",
+  "kaynak": "Jin shu 87 (Liang Wuzhao wang Li Xuansheng/Hao zhuan): Longan 4'te Jinchang tarafı altı komutanlığı çağırıp Li Hao'yu seçti; 'Li Hao Longan 4'te kuruldu, Song Shaodi Jingping 1'e kadar' (metin sonu 423); Wei shu 99 aynı. Hou Han/ZZTJ bitişi 421 (Mengxun Jiuquan'ı alır) — metinde 'Jiuquan'ı aldı' (Jin shu 129) ama yıl okunmadı.",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Dunhuang"
+  ]
+ },
+ { onem:1, dunya:1, bolge_onem:1, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-0085-01-01",
+  "k": "diger",
+  "b": "Atina: Roma Cumhuriyeti dönemi başlar",
+  "gun": "MÖ 86",
+  "yer": "Atina",
+  "d": "Atina noktalarının s: dizisinde bu uç, sahip künyenin (Roma Cumhuriyeti) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
+  "kaynak": "künye roma-cumhuriyeti — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Atina"
+  ]
+ },
+ { onem:2, dunya:1, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-0110-01-01",
+  "k": "diger",
+  "b": "Dunhuang: Bati Han Hanedani dönemi başlar",
+  "gun": "MÖ 111",
+  "yer": "Dunhuang",
+  "d": "Dunhuang noktalarının s: dizisinde bu uç, sahip künyenin (Bati Han Hanedani) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
+  "kaynak": "Ban Gu, Hanshu 6 (Wudi ji), 元鼎六年 (MÖ 111); zh.wikisource.org/wiki/漢書/卷006 — «乃分武威、酒泉地置張掖、敦煌郡，徙民以實之。»", "ic_not_d":"DUNYA-1102 hücre 8 (KASA, 2 Kasım 2026): teyit tek kaynak. Önceki kaynak (künye bati-han — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js) dayanak olamaz, değiştirildi. 111 MÖ doğru: -0110 uyumlu. Hanshu 28 (Dili zhi) girişlerinde kuruluş yılı çıkmadı; farklı Dunhuang tarihi (MÖ 88) iddiası bu turda doğrulanmadı.",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Dunhuang"
+  ]
+ },
+ { onem:2, dunya:1, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-0120-01-01",
+  "k": "diger",
+  "b": "Zhangye (Ganzhou): Bati Han Hanedani dönemi başlar",
+  "gun": "MÖ 121",
+  "yer": "Zhangye (Ganzhou)",
+  "d": "Zhangye (Ganzhou) noktalarının s: dizisinde bu uç, sahip künyenin (Bati Han Hanedani) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
+  "kaynak": "Hanshu 6, 元狩二年 (MÖ 121) ve 元鼎六年 (MÖ 111) — «秋，匈奴昆邪王殺休屠王，并將其眾合四萬餘人來降，置五屬國以處之。以其地為武威、酒泉郡。»", "ic_not_d":"DUNYA-1102 hücre 8 (KASA, 2 Kasım 2026): teyit tek kaynak. Önceki kaynak (künye bati-han — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js) dayanak olamaz, değiştirildi. Han toprağına katılış MÖ 121 (Hunye/Xiutu toprağı Wuwei-Jiuquan oldu); Zhangye'nin ayrı komutanlık olarak kuruluşu Hanshu'da MÖ 111. Atlas -0120 'Han yönetimi başlar' olarak savunulabilir, ancak Zhangye kuruluşu gibi okunmasın; istenirse -0110.",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Zhangye (Ganzhou)"
+  ]
+ },
+ { onem:2, dunya:1, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-0131-01-01",
+  "k": "diger",
+  "b": "Urfa (Edessa / Orhai / Vodina): Osrhoene (Edessa) Krallığı dönemi başlar",
+  "gun": "MÖ 132",
+  "yer": "Urfa (Edessa / Orhai / Vodina)",
+  "d": "Urfa (Edessa / Orhai / Vodina) noktalarının s: dizisinde bu uç, sahip künyenin (Osrhoene (Edessa) Krallığı) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
+  "kaynak": "künye osrhoene — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Urfa"
+  ]
+ },
+ { onem:2, dunya:1, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-0145-01-01",
+  "k": "diger",
+  "b": "Korint: Korint dönemi sona erer",
+  "gun": "MÖ 146",
+  "yer": "Korint / Karthago",
+  "d": "Korint noktalarının s: dizisinde bu uç, sahip künyenin (Korint) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
+  "kaynak": "Pausanias 2.1.2, 7.16 (Perseus) — «Corinth was laid waste by Mummius ... (Paus. 2.1.2; editör: 146 B.C.)»", "ic_not_d":"DUNYA-1102 hücre 14 (KASA, 2 Kasım 2026): teyit tek kaynak. Önceki kaynak (künye korint — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js) dayanak olamaz, değiştirildi. Korint'in yıkımı MÖ 146 (-0145) doğru; Pausanias 7.15-16 Mummius'un Akhaia Savaşı'nı anlatır, yıl editör notudur. Madde Afrika hücresinde yer alıyor ama Korint Yunanistan ile ilgili; 'yer' alanında Karthago da yazılmış: aynı yıl, ayrı olay.",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Korint",
+   "Karthago"
+  ]
+ },
+ { onem:2, dunya:1, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-0167-01-01",
+  "k": "diger",
+  "b": "Petra: Nabatiye Krallığı dönemi başlar",
+  "gun": "MÖ 168",
+  "yer": "Petra",
+  "d": "Petra noktalarının s: dizisinde bu uç, sahip künyenin (Nabatiye Krallığı) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Nabatîler», islamansiklopedisi.org.tr/nabatiler — «Milâttan önce IV. yüzyılın sonlarından itibaren varlığı bilinen Nabatî Krallığı’nın kesin kuruluş tarihi belli değildir.»", "ic_not_d":"DUNYA-1102 hücre 8 (KASA, 2 Kasım 2026): teyit beyanlı yaklaşıklık. Önceki kaynak (künye nabatiye — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js) dayanak olamaz, değiştirildi. TDV MÖ 168'i vermez: kuruluş tarihi belirsiz, krallar MÖ 170 sonrası netleşir (I. Aretas). Atlasın -0167 başlangıcı kaynaksız; beyanlı yaklaşıklık olarak etiketlenmeli. Sonu 106 (Trajan): «Devlet, Roma İmparatoru Traianus döneminde başşehri Petra ele geçirilince yıkılmış (106).»",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Petra"
+  ]
+ },
+ { onem:1, dunya:1, bolge_onem:1, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-0183-01-01",
+  "k": "diger",
+  "b": "Patna (Azîmâbâd): sahipsiz aralık dönemi sona erer",
+  "gun": "MÖ 184",
+  "yer": "Patna (Azîmâbâd)",
+  "d": "Patna (Azîmâbâd) noktalarının s: dizisinde bu uç, sahip künyenin (sahipsiz aralık) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
+  "kaynak": "künye __BOSLUK__ — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Patna (Azîmâbâd)"
+  ]
+ },
+ { onem:2, dunya:1, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-0255-01-01",
+  "k": "diger",
+  "b": "Luoyang: Qin Devleti dönemi başlar",
+  "gun": "MÖ 256",
+  "yer": "Luoyang",
+  "d": "Luoyang noktalarının s: dizisinde bu uç, sahip künyenin (Qin Devleti) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
+  "kaynak": "Sima Qian, Shiji 5 (Qin benji), 昭襄王五十一年 (MÖ 256); Shiji 4 (Zhou benji), 赧王五十九年 — «西周君走來自歸，頓首受罪，盡獻其邑三十六城，口三萬。»", "ic_not_d":"DUNYA-1102 hücre 8 (KASA, 2 Kasım 2026): teyit tek kaynak. Önceki kaynak (künye qin-devleti — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js) dayanak olamaz, değiştirildi. Batı Zhou'nun Qin'e teslimi MÖ 256 ile uyumlu (-0255). Doğu Zhou ise 莊襄王元年'de (MÖ 249) 'tüm ülkesi' alındı, Sanchuan komutanlığı kuruldu; Luoyang'ın tam geçişi 249 olabilir, tartışma açık.",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Luoyang"
+  ]
+ },
+ { onem:1, dunya:1, bolge_onem:1, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-0279-01-01",
+  "k": "diger",
+  "b": "Pasargad: sahipsiz aralık dönemi sona erer",
+  "gun": "MÖ 280",
+  "yer": "Pasargad",
+  "d": "Pasargad noktalarının s: dizisinde bu uç, sahip künyenin (sahipsiz aralık) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
+  "kaynak": "künye __BOSLUK__ — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Pasargad"
+  ]
+ },
+ { onem:2, dunya:1, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-0281-01-01",
+  "k": "diger",
+  "b": "Bergama, Pergamon: Bergama (Attalos) Krallığı dönemi başlar",
+  "gun": "MÖ 282",
+  "yer": "Bergama / Pergamon",
+  "d": "Bergama, Pergamon noktalarının s: dizisinde bu uç, sahip künyenin (Bergama (Attalos) Krallığı) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
+  "kaynak": "künye bergama — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js", "ic_not_d":"DUNYA-1102 Perseus turu (KASA, 2 Kasım 2026): teyit tek kaynak. Strabon 13.4.1: Pergamon Lysimakhos'un hazine kalesiydi, bekçisi Tieion'lu Philetairos'tu; Appianos Syr. 63: Philetairos 'Pergamon prensi' olarak Selevkos'un cesedini satın aldı (MÖ 281). 'Attalos Krallığı' MÖ 282 başlangıcı Philetairos'un Lysimakhos'tan kopuşuna dayanır; bu kopuş yılı Perseus metninde okunmadı.",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Bergama"
+  ]
+ },
+ { onem:2, dunya:1, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-0302-01-01",
+  "k": "diger",
+  "b": "Dura-Europos: Selevkos Imparatorlugu dönemi başlar",
+  "gun": "MÖ 303",
+  "yer": "Dura-Europos",
+  "d": "Dura-Europos noktalarının s: dizisinde bu uç, sahip künyenin (Selevkos Imparatorlugu) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
+  "kaynak": "künye selevkos — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Dura-Europos"
+  ]
+ },
+ { onem:2, dunya:1, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-0315-01-01",
+  "k": "diger",
+  "b": "Çengdu (Chengdu): Qin Devleti dönemi başlar",
+  "gun": "MÖ 316",
+  "yer": "Çengdu (Chengdu)",
+  "d": "Çengdu (Chengdu) noktalarının s: dizisinde bu uç, sahip künyenin (Qin Devleti) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
+  "kaynak": "Shiji 5 (Qin benji), 惠文王更元九年 (MÖ 316) — «九年，司馬錯伐蜀，滅之。»", "ic_not_d":"DUNYA-1102 hücre 8 (KASA, 2 Kasım 2026): teyit tek kaynak. Önceki kaynak (künye qin-devleti — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js) dayanak olamaz, değiştirildi. Hükümdar yılı (324 başlangıçlı gengyuan) MÖ 316 eder; MÖ yıl çevirisi benim, kaynak yalnız hükümdar yılı yazar.",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Çengdu (Chengdu)"
+  ]
+ },
+ { onem:1, dunya:1, bolge_onem:1, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-0320-01-01",
+  "k": "diger",
+  "b": "Patna (Azîmâbâd): sahipsiz aralık dönemi başlar",
+  "gun": "MÖ 321",
+  "yer": "Patna (Azîmâbâd)",
+  "d": "Patna (Azîmâbâd) noktalarının s: dizisinde bu uç, sahip künyenin (sahipsiz aralık) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
+  "kaynak": "künye __BOSLUK__ — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Patna (Azîmâbâd)"
+  ]
+ },
+ { onem:2, dunya:1, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-0322-06-10",
+  "k": "diger",
+  "b": "İskenderiye: Ptolemai (Lagid) Krallığı dönemi başlar",
+  "gun": "MÖ 323",
+  "yer": "İskenderiye",
+  "d": "İskenderiye noktalarının s: dizisinde bu uç, sahip künyenin (Ptolemai (Lagid) Krallığı) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
+  "kaynak": "Diodoros 18.3.1 (Perseus); Treccani, Enciclopedia Italiana, 'Egitto' — «Πτολεμαίῳ μὲν τῷ Λάγου τὴν Αἴγυπτον ἔδωκεν (Diod. 18.3.1); Treccani: nel 323 ... il generale Tolomeo figlio di Lago obtained Egypt as a satrapy»", "ic_not_d":"DUNYA-1102 hücre 14 (KASA, 2 Kasım 2026): teyit çift teyit. Önceki kaynak (künye ptolemai — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js) dayanak olamaz, değiştirildi. MÖ 323 doğru; Pausanias/Diodoros: Babil taksimi. Gün (10 Haziran) İskender'in ölümü, taksimin günü değil: gün/ay beyanı 'komşudan'. Ptolemaios kral unvanı 305 (Treccani). Madde, kaynak künye/atlas: kaynak olarak Diod. 18.3.1 verilir.",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "İskenderiye"
+  ]
+ },
+ { onem:2, dunya:1, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-0337-01-01",
+  "k": "diger",
+  "b": "Capua: Roma Cumhuriyeti dönemi başlar",
+  "gun": "MÖ 338",
+  "yer": "Capua",
+  "d": "Capua noktalarının s: dizisinde bu uç, sahip künyenin (Roma Cumhuriyeti) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
+  "kaynak": "künye roma-cumhuriyeti — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Capua"
+  ]
+ },
+ { onem:2, dunya:1, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-0349-01-01",
+  "k": "diger",
+  "b": "Xi'an (Chang'an): Qin Devleti dönemi başlar",
+  "gun": "MÖ 350",
+  "yer": "Xi'an (Chang'an)",
+  "d": "Xi'an (Chang'an) noktalarının s: dizisinde bu uç, sahip künyenin (Qin Devleti) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
+  "kaynak": "Shiji 5, 孝公十二年 (MÖ 350) — «十二年，作為咸陽，筑冀闕，秦徙都之。»", "ic_not_d":"DUNYA-1102 hücre 8 (KASA, 2 Kasım 2026): teyit tek kaynak. Önceki kaynak (künye qin-devleti — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js) dayanak olamaz, değiştirildi. Tarih (MÖ 350) uyumlu ama kaynak Xianyang diyor; Xi'an (Chang'an) noktası Xianyang'dan ayrı yerleşim — nokta eşleştirme beyanı gerekir.",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Xi'an (Chang'an)"
+  ]
+ },
+ { onem:2, dunya:1, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-0401-01-01",
+  "k": "diger",
+  "b": "Memphis (Men-nefer / Mit Rahina): sahipsiz aralık dönemi sona erer",
+  "gun": "MÖ 402",
+  "yer": "Memphis (Men-nefer / Mit Rahina)",
+  "d": "Memphis (Men-nefer / Mit Rahina) noktalarının s: dizisinde bu uç, sahip künyenin (sahipsiz aralık) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
+  "kaynak": "künye __BOSLUK__ — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Memphis"
+  ]
+ },
+ { onem:2, dunya:1, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-0517-01-01",
+  "k": "diger",
+  "b": "Persepolis: Ahamenis (Pers) Imparatorlugu dönemi başlar",
+  "gun": "MÖ 518",
+  "yer": "Persepolis",
+  "d": "Persepolis noktalarının s: dizisinde bu uç, sahip künyenin (Ahamenis (Pers) Imparatorlugu) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
+  "kaynak": "künye ahamenis — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Persepolis"
+  ]
+ },
+ { onem:4, dunya:3, bolge_onem:4, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-0524-01-01",
+  "k": "diger",
+  "b": "Memphis (Men-nefer / Mit Rahina): Ahamenis Misir'i (27. Hanedan, 1. Pers egemenligi) dönemi başlar",
+  "gun": "MÖ 525",
+  "yer": "Memphis (Men-nefer / Mit Rahina)",
+  "d": "Memphis (Men-nefer / Mit Rahina) noktalarının s: dizisinde bu uç, sahip künyenin (Ahamenis Misir'i (27. Hanedan, 1. Pers egemenligi)) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
+  "kaynak": "künye ahamenis-misir — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Memphis"
+  ]
+ },
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-0538-01-01",
+  "k": "diger",
+  "b": "Ur: Ahamenis (Pers) Imparatorlugu dönemi başlar",
+  "gun": "MÖ 539",
+  "yer": "Ur",
+  "d": "Ur noktalarının s: dizisinde bu uç, sahip künyenin (Ahamenis (Pers) Imparatorlugu) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
+  "kaynak": "TDV Babil: Ahamenîler 539-332 (Babil için) — «539 yılında Pers Kralı Kyros (559-530) tarafından yıkılmışlardır»", "ic_not_d":"DUNYA-1102 hücre 7 (KASA, 2 Kasım 2026): teyit tek kaynak. Önceki kaynak (künye ahamenis — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js) dayanak olamaz, değiştirildi. Yıl Babil için doğrulandı (Kyros Babil'i 539). Ur'a özgü kaynak (Ur'un Kyros'a geçişi) bulunamadı; Ur'u Babil'in kaderine bağlama merdiveni ⑤ uygulanabilir (ABİ MERKEZ: Babil — TDV Babil).",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "yer_id": "Ur (Tell al-Muqayyar)"
+ },
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-0545-01-01",
+  "k": "diger",
+  "b": "Pasargad: Ahamenis (Pers) Imparatorlugu dönemi başlar",
+  "gun": "MÖ 546",
+  "yer": "Pasargad",
+  "d": "Pasargad noktalarının s: dizisinde bu uç, sahip künyenin (Ahamenis (Pers) Imparatorlugu) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
+  "kaynak": "künye ahamenis — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Pasargad"
+  ]
+ },
+ { onem:2, dunya:1, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-0574-01-01",
+  "k": "diger",
+  "b": "Veii: Etrüsk Şehir Devletleri (Oniki Şehir Birliği) dönemi başlar",
+  "gun": "MÖ 575",
+  "yer": "Veii",
+  "d": "Veii noktalarının s: dizisinde bu uç, sahip künyenin (Etrüsk Şehir Devletleri (Oniki Şehir Birliği)) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
+  "kaynak": "künye etrusk-sehir-devletleri — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Veii"
+  ]
+ },
+ { onem:4, dunya:3, bolge_onem:4, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-0585-01-01",
+  "k": "diger",
+  "b": "Kudüs: Yahuda Krallığı dönemi sona erer",
+  "gun": "MÖ 586",
+  "yer": "Kudüs",
+  "d": "Kudüs noktalarının s: dizisinde bu uç, sahip künyenin (Yahuda Krallığı) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
+  "kaynak": "künye yahuda — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Kudüs"
+  ]
+ },
+ { onem:4, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-0589-01-01",
+  "k": "diger",
+  "b": "Eski Van (Tuşpa), Tuşpa (Van Kalesi): Urartu Krallığı dönemi sona erer",
+  "gun": "MÖ 590",
+  "yer": "Eski Van (Tuşpa) / Tuşpa (Van Kalesi)",
+  "d": "Eski Van (Tuşpa), Tuşpa (Van Kalesi) noktalarının s: dizisinde bu uç, sahip künyenin (Urartu Krallığı) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
+  "kaynak": "künye urartu — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Eski Van (Tuşpa)"
+  ]
+ },
+ { onem:3, dunya:2, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-0599-01-01",
+  "k": "diger",
+  "b": "Marsilya, Massalia: Massalia (Marsilya) dönemi başlar",
+  "gun": "MÖ 600",
+  "yer": "Marsilya / Massalia",
+  "d": "Marsilya, Massalia noktalarının s: dizisinde bu uç, sahip künyenin (Massalia (Marsilya)) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
+  "kaynak": "künye massalia — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Marsilya"
+  ]
+ },
+ { onem:4, dunya:3, bolge_onem:4, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-0608-01-01",
+  "k": "diger",
+  "b": "Cerablus, Karkamış, Megiddo, Samiriye (Samaria / Sebaste), Şam: Yeni Asur Imparatorlugu dönemi sona erer",
+  "gun": "MÖ 609",
+  "yer": "Cerablus / Karkamış / Megiddo / Samiriye (Samaria / Sebaste) / Şam",
+  "d": "Cerablus, Karkamış, Megiddo, Samiriye (Samaria / Sebaste), Şam noktalarının s: dizisinde bu uç, sahip künyenin (Yeni Asur Imparatorlugu) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
+  "kaynak": "künye yeni-asur — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "yer_id": "Şam"
+ },
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-0626-01-01",
+  "k": "diger",
+  "b": "Babil: Yeni Asur Imparatorlugu dönemi sona erer",
+  "gun": "MÖ 627",
+  "yer": "Babil",
+  "d": "Babil noktalarının s: dizisinde bu uç, sahip künyenin (Yeni Asur Imparatorlugu) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
+  "kaynak": "TDV Babil (Asur hâkimiyeti 745-626); Grayson ABC 2 — «Asur hâkimiyeti (745-626)»", "ic_not_d":"DUNYA-1102 hücre 7 (KASA, 2 Kasım 2026): teyit çift teyit. Önceki kaynak (künye yeni-asur — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js) dayanak olamaz, değiştirildi. Atlas MÖ 627 (-0626); TDV Babil ve ABC 2 Asur hakimiyetinin sonunu Nabopolassar'ın tahta çıkışı 626 (-0625) ile verir. Aynı partide Nabopolassar maddesi -0625 olduğundan çelişki var; -0625'e çekilmeli (yıl farkı 1, iki ucu da ölç). TDV alıntısı, WebFetch'in madde özetinden; birebir madde cümlesi okunmadı.",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Babil"
+  ]
+ },
+ { onem:1, dunya:1, bolge_onem:1, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-0699-01-01",
+  "k": "diger",
+  "b": "Hemedan: sahipsiz aralık dönemi başlar",
+  "gun": "MÖ 700",
+  "yer": "Hemedan",
+  "d": "Hemedan noktalarının s: dizisinde bu uç, sahip künyenin (sahipsiz aralık) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
+  "kaynak": "TDV Hemedan (okundu) — «Kral Deiokes (m.ö. 728-673) tarafından milâttan önce VII. yüzyılda Med İmparatorluğu'nun başşehri olarak kurulmuştur»", "ic_not_d":"DUNYA-1102 hücre 7 (KASA, 2 Kasım 2026): teyit tek kaynak. Önceki kaynak (künye __BOSLUK__ — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js) dayanak olamaz, değiştirildi. Boşluk merdiveni: TDV Hemedan, Ekbatana'yı VII. yy'da Med başkenti olarak kurulmuş sayar (Deiokes 728-673) => 'sahipsiz' MÖ 700 sonrası için Med sahibi (devlet kimliği 'med' varsa) bağlanabilir; beyanlı yaklaşıklık. Kuruluş tarihi TDV'de kesin yıl değil.",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Hemedan"
+  ]
+ },
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-0716-01-01",
+  "k": "diger",
+  "b": "Cerablus, Karkamış: Yeni Asur Imparatorlugu dönemi başlar",
+  "gun": "MÖ 717",
+  "yer": "Cerablus / Karkamış",
+  "d": "Cerablus, Karkamış noktalarının s: dizisinde bu uç, sahip künyenin (Yeni Asur Imparatorlugu) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
+  "kaynak": "künye yeni-asur — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Cerablus"
+  ]
+ },
+ { onem:3, dunya:2, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-0733-01-01",
+  "k": "diger",
+  "b": "Sirakuza, Syrakusai: Sirakuza (Syrakousai) dönemi başlar",
+  "gun": "MÖ 734",
+  "yer": "Sirakuza / Syrakusai",
+  "d": "Sirakuza, Syrakusai noktalarının s: dizisinde bu uç, sahip künyenin (Sirakuza (Syrakousai)) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
+  "kaynak": "künye sirakuza — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Sirakuza"
+  ]
+ },
+ { onem:4, dunya:3, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-0752-01-01",
+  "k": "diger",
+  "b": "Roma: Roma Krallığı dönemi başlar",
+  "gun": "MÖ 753",
+  "yer": "Roma",
+  "d": "Roma noktalarının s: dizisinde bu uç, sahip künyenin (Roma Krallığı) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
+  "kaynak": "künye roma-kralligi — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Roma"
+  ]
+ },
+ { onem:2, dunya:1, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-0799-01-01",
+  "k": "diger",
+  "b": "Korint: Korint dönemi başlar",
+  "gun": "MÖ 800",
+  "yer": "Korint",
+  "d": "Korint noktalarının s: dizisinde bu uç, sahip künyenin (Korint) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
+  "kaynak": "künye korint — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Korint"
+  ]
+ },
+ { onem:4, dunya:3, bolge_onem:4, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-0813-01-01",
+  "k": "diger",
+  "b": "Karthago: Kartaca (Pön) Devleti dönemi başlar",
+  "gun": "MÖ 814",
+  "yer": "Karthago",
+  "d": "Karthago noktalarının s: dizisinde bu uç, sahip künyenin (Kartaca (Pön) Devleti) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
+  "kaynak": "künye kartaca — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Karthago"
+  ]
+ },
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-0859-01-01",
+  "k": "diger",
+  "b": "Eski Van (Tuşpa), Tuşpa (Van Kalesi): Urartu Krallığı dönemi başlar",
+  "gun": "MÖ 860",
+  "yer": "Eski Van (Tuşpa) / Tuşpa (Van Kalesi)",
+  "d": "Eski Van (Tuşpa), Tuşpa (Van Kalesi) noktalarının s: dizisinde bu uç, sahip künyenin (Urartu Krallığı) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
+  "kaynak": "künye urartu — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Eski Van (Tuşpa)"
+  ]
+ },
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-0929-01-01",
+  "k": "diger",
+  "b": "Kudüs: Yahuda Krallığı dönemi başlar",
+  "gun": "MÖ 930",
+  "yer": "Kudüs / Samiriye (Samaria / Sebaste)",
+  "d": "Kudüs noktalarının s: dizisinde bu uç, sahip künyenin (Yahuda Krallığı) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
+  "kaynak": "künye yahuda — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Kudüs"
+  ]
+ },
+ { onem:3, dunya:1, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-0939-01-01",
+  "k": "diger",
+  "b": "Şam: Aram-Sam (Dimask) Krallığı dönemi başlar",
+  "gun": "MÖ 940",
+  "yer": "Şam",
+  "d": "Şam noktalarının s: dizisinde bu uç, sahip künyenin (Aram-Sam (Dimask) Krallığı) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
+  "kaynak": "künye aram-sam — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "yer_id": "Şam"
+ },
+ { onem:1, dunya:1, bolge_onem:1, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-1149-01-01",
+  "k": "diger",
+  "b": "Nippur: sahipsiz aralık dönemi sona erer",
+  "gun": "MÖ 1150",
+  "yer": "Nippur / Poverty Point",
+  "d": "Nippur noktalarının s: dizisinde bu uç, sahip künyenin (sahipsiz aralık) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
+  "kaynak": "künye __BOSLUK__ — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js", "ic_not_d":"DUNYA-1102 hücre 19-21 (KASA, 2 Kasım 2026): teyit tek kaynak (yalnız Poverty Point yarısı). yer alanı 'Nippur / Poverty Point' iki ayrı yerin birleşmesi (Irak Nippur + Louisiana Poverty Point): iki ayrı kayıt olmalı. Poverty Point: iskân c. 3600-3000 cal BP = MÖ ~1650-1050 -> -1149 (MÖ 1150) kesinlik yuzyil olarak makul. Nippur: Kassit sonu MÖ 1155 (orta kronoloji), Elam yağması 13. yy sonu, CDLI özeti 12. yy ortası sonrası uzun ihmal der -> Nippur için aynı yıl doğrulanmadı.",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Nippur (Nuffar)",
+   "Poverty Point"
+  ]
+ },
+ { onem:4, dunya:3, bolge_onem:4, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-1189-01-01",
+  "k": "diger",
+  "b": "Ugarit (Ras Şamra): Ugarit Krallığı dönemi sona erer",
+  "gun": "MÖ 1190",
+  "yer": "Ugarit (Ras Şamra)",
+  "d": "Ugarit (Ras Şamra) noktalarının s: dizisinde bu uç, sahip künyenin (Ugarit Krallığı) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
+  "kaynak": "künye ugarit — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Ugarit"
+  ]
+ },
+ { onem:1, dunya:1, bolge_onem:1, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-1196-01-01",
+  "k": "diger",
+  "b": "Anyang / Yinxu (殷墟), Yinxu (Anyang): sahipsiz aralık dönemi sona erer",
+  "gun": "MÖ 1197",
+  "yer": "Anyang / Yinxu (殷墟) / Yinxu (Anyang)",
+  "d": "Anyang / Yinxu (殷墟), Yinxu (Anyang) noktalarının s: dizisinde bu uç, sahip künyenin (sahipsiz aralık) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
+  "kaynak": "künye __BOSLUK__ — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Anyang",
+   "Yinxu (Anyang)"
+  ]
+ },
+ { onem:1, dunya:1, bolge_onem:1, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-1253-01-01",
+  "k": "diger",
+  "b": "Anyang / Yinxu (殷墟), Yinxu (Anyang): sahipsiz aralık dönemi başlar",
+  "gun": "MÖ 1254",
+  "yer": "Anyang / Yinxu (殷墟) / Yinxu (Anyang)",
+  "d": "Anyang / Yinxu (殷墟), Yinxu (Anyang) noktalarının s: dizisinde bu uç, sahip künyenin (sahipsiz aralık) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
+  "kaynak": "künye __BOSLUK__ — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Anyang",
+   "Yinxu (Anyang)"
+  ]
+ },
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-1349-01-01",
+  "k": "diger",
+  "b": "Ugarit (Ras Şamra): Ugarit Krallığı dönemi başlar",
+  "gun": "MÖ 1350",
+  "yer": "Ugarit (Ras Şamra)",
+  "d": "Ugarit (Ras Şamra) noktalarının s: dizisinde bu uç, sahip künyenin (Ugarit Krallığı) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
+  "kaynak": "künye ugarit — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Ugarit"
+  ]
+ },
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-1739-01-01",
+  "k": "diger",
+  "b": "Uruk: Eski Babil (Amorit) Krallığı dönemi sona erer",
+  "gun": "MÖ 1740",
+  "yer": "Uruk",
+  "d": "Uruk noktalarının s: dizisinde bu uç, sahip künyenin (Eski Babil (Amorit) Krallığı) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
+  "kaynak": "künye babil-eski — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Uruk (Warka)"
+  ]
+ },
+ { onem:3, dunya:1, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-1775-01-01",
+  "k": "diger",
+  "b": "Aşşur: Ust Mezopotamya Krallığı (Samsi-Adad I) dönemi sona erer",
+  "gun": "MÖ 1776",
+  "yer": "Aşşur",
+  "d": "Aşşur noktalarının s: dizisinde bu uç, sahip künyenin (Ust Mezopotamya Krallığı (Samsi-Adad I)) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
+  "kaynak": "künye samsi-adad — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Aşşur"
+  ]
+ },
+ { onem:4, dunya:2, bolge_onem:4, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-1893-01-01",
+  "k": "diger",
+  "b": "Babil: Eski Babil (Amorit) Krallığı dönemi başlar",
+  "gun": "MÖ 1894",
+  "yer": "Babil",
+  "d": "Babil noktalarının s: dizisinde bu uç, sahip künyenin (Eski Babil (Amorit) Krallığı) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
+  "kaynak": "TDV Babil maddesi (okundu) — «Amurrular (Eski Bâbil Krallığı, m.ö. 1894-1595)»", "ic_not_d":"DUNYA-1102 hücre 7 (KASA, 2 Kasım 2026): teyit tek kaynak. Önceki kaynak (künye babil-eski — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js) dayanak olamaz, değiştirildi. TDV Babil: Eski Bâbil 1894-1595, Kassitler 1595-1174; atlas başlangıcı MÖ 1894 birebir. Alıntı sayfa özetinden alındı, madde cümlesinin birebir hâli okunmadı. Eski Babil'in bitişi (1595) de TDV ile uyumlu.",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Babil"
+  ]
+ },
+ { onem:4, dunya:2, bolge_onem:4, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-2018-01-01",
+  "k": "diger",
+  "b": "Nippur: Ur III (Ucuncu Ur Hanedani) dönemi sona erer",
+  "gun": "MÖ 2019",
+  "yer": "Nippur",
+  "d": "Nippur noktalarının s: dizisinde bu uç, sahip künyenin (Ur III (Ucuncu Ur Hanedani)) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
+  "kaynak": "künye ur-3 — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Nippur (Nuffar)"
+  ]
+ },
+ { onem:3, dunya:1, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-2021-01-01",
+  "k": "diger",
+  "b": "Girsu (Lagaş devletinin merkezi), Umma: Ur III (Ucuncu Ur Hanedani) dönemi sona erer",
+  "gun": "MÖ 2022",
+  "yer": "Girsu (Lagaş devletinin merkezi) / Umma",
+  "d": "Girsu (Lagaş devletinin merkezi), Umma noktalarının s: dizisinde bu uç, sahip künyenin (Ur III (Ucuncu Ur Hanedani)) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
+  "kaynak": "künye ur-3 — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Girsu (Tell Telloh)",
+   "Umma (Tell Jokha)"
+  ]
+ },
+ { onem:4, dunya:3, bolge_onem:4, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-2153-01-01",
+  "k": "diger",
+  "b": "Kiş, Ur: Akad Imparatorlugu dönemi sona erer",
+  "gun": "MÖ 2154",
+  "yer": "Kiş / Ur",
+  "d": "Kiş, Ur noktalarının s: dizisinde bu uç, sahip künyenin (Akad Imparatorlugu) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
+  "kaynak": "künye akad — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "yer_id": "Kiş (Tell Uhaimir)"
+ },
+ { onem:2, dunya:1, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-2294-01-01",
+  "k": "diger",
+  "b": "Mari: Mari Şehir Krallığı (Mari II, Erken Hanedan-Akad) dönemi sona erer",
+  "gun": "MÖ 2295",
+  "yer": "Mari",
+  "d": "Mari noktalarının s: dizisinde bu uç, sahip künyenin (Mari Şehir Krallığı (Mari II, Erken Hanedan-Akad)) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
+  "kaynak": "künye mari-erken — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Mari"
+  ]
+ },
+ { onem:1, dunya:1, bolge_onem:1, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-2299-01-01",
+  "k": "diger",
+  "b": "Eridu, Ur: sahipsiz aralık dönemi sona erer",
+  "gun": "MÖ 2300",
+  "yer": "Eridu / Ur",
+  "d": "Eridu, Ur noktalarının s: dizisinde bu uç, sahip künyenin (sahipsiz aralık) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
+  "kaynak": "künye __BOSLUK__ — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "yer_id": "Ur (Tell al-Muqayyar)"
+ },
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-2309-01-01",
+  "k": "diger",
+  "b": "Ebla: Ebla Birinci Krallığı dönemi sona erer",
+  "gun": "MÖ 2310",
+  "yer": "Ebla",
+  "d": "Ebla noktalarının s: dizisinde bu uç, sahip künyenin (Ebla Birinci Krallığı) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
+  "kaynak": "künye ebla-1 — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Ebla"
+  ]
+ },
+ { onem:1, dunya:1, bolge_onem:1, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-2323-01-01",
+  "k": "diger",
+  "b": "Eridu, Umma, Uruk, Ur: sahipsiz aralık dönemi başlar",
+  "gun": "MÖ 2324",
+  "yer": "Eridu / Umma / Uruk / Ur",
+  "d": "Eridu, Umma, Uruk, Ur noktalarının s: dizisinde bu uç, sahip künyenin (sahipsiz aralık) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
+  "kaynak": "künye __BOSLUK__ — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "yer_id": "Ur (Tell al-Muqayyar)"
+ },
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-2399-01-01",
+  "k": "diger",
+  "b": "Ebla: Ebla Birinci Krallığı dönemi başlar",
+  "gun": "MÖ 2400",
+  "yer": "Ebla",
+  "d": "Ebla noktalarının s: dizisinde bu uç, sahip künyenin (Ebla Birinci Krallığı) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
+  "kaynak": "künye ebla-1 — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Ebla"
+  ]
+ },
+ { onem:1, dunya:1, bolge_onem:1, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-2449-01-01",
+  "k": "diger",
+  "b": "Kerma, Kerma (Kerma / Doukki Gel): sahipsiz aralık dönemi başlar",
+  "gun": "MÖ 2450",
+  "yer": "Kerma / Kerma (Kerma / Doukki Gel)",
+  "d": "Kerma, Kerma (Kerma / Doukki Gel) noktalarının s: dizisinde bu uç, sahip künyenin (sahipsiz aralık) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
+  "kaynak": "künye __BOSLUK__ — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Kerma"
+  ]
+ },
+ { onem:2, dunya:1, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-2474-01-01",
+  "k": "diger",
+  "b": "Girsu (Lagaş devletinin merkezi): Lagas I. Hanedan (sehir devleti) dönemi başlar",
+  "gun": "MÖ 2475",
+  "yer": "Girsu (Lagaş devletinin merkezi)",
+  "d": "Girsu (Lagaş devletinin merkezi) noktalarının s: dizisinde bu uç, sahip künyenin (Lagas I. Hanedan (sehir devleti)) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
+  "kaynak": "künye sumer-lagas-1 — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Girsu (Tell Telloh)"
+  ]
+ },
+ { onem:2, dunya:1, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "-2549-01-01",
+  "k": "diger",
+  "b": "Mari: Mari Şehir Krallığı (Mari II, Erken Hanedan-Akad) dönemi başlar",
+  "gun": "MÖ 2550",
+  "yer": "Mari",
+  "d": "Mari noktalarının s: dizisinde bu uç, sahip künyenin (Mari Şehir Krallığı (Mari II, Erken Hanedan-Akad)) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
+  "kaynak": "künye mari-erken — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Mari"
+  ]
+ },
+ { onem:3, dunya:1, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "0025-01-01",
+  "k": "diger",
+  "b": "Xi'an (Chang'an): Kızıl Kaşlılar Rejimi (Jianshi) dönemi başlar",
+  "gun": "MS 25",
+  "yer": "Xi'an (Chang'an)",
+  "d": "Xi'an (Chang'an) noktalarının s: dizisinde bu uç, sahip künyenin (Kızıl Kaşlılar Rejimi (Jianshi)) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
+  "kaynak": "Fan Ye, Hou Hanshu 11 (Liu Xuan / Liu Penzi), 更始三年 (MS 25); 六月，遂立盆子為帝，自號建世元年 — «九月，赤眉入城。更始單騎走，從厨城門出。»", "ic_not_d":"DUNYA-1102 hücre 8 (KASA, 2 Kasım 2026): teyit tek kaynak. Önceki kaynak (künye chimei-jianshi — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js) dayanak olamaz, değiştirildi. 25 MS uyumlu. Chang'an'ın Chimei'ye geçişi 更始三年 9. ay (Çin takvimi); Penzi'nin ilanı 6. ayda, Chang'an dışında. Gün dönüşümü için Academia Sinica tablosuna ulaşılamadı (401); gün önerilmedi.",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Xi'an (Chang'an)"
+  ]
+ },
+ { onem:5, dunya:3, bolge_onem:4, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "0220-01-01",
+  "k": "diger",
+  "b": "Luoyang: Dogu Han Hanedani dönemi sona erer",
+  "gun": "MS 220",
+  "yer": "Luoyang",
+  "d": "Luoyang noktalarının s: dizisinde bu uç, sahip künyenin (Dogu Han Hanedani) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
+  "kaynak": "Chen Shou, Sanguozhi 2 (Wei shu, Wendi ji), 延康元年-黃初元年 (MS 220) — «惟延康元年十月乙卯，皇帝曰：咨爾魏王»", "ic_not_d":"DUNYA-1102 hücre 8 (KASA, 2 Kasım 2026): teyit tek kaynak. Önceki kaynak (künye dogu-han — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js) dayanak olamaz, değiştirildi. 220 uyumlu. Tahta çıkış töreni 繁陽'de, Luoyang değil. Gün (十月乙卯) tablo olmadan çevrilmedi.",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Luoyang"
+  ]
+ },
+ { onem:5, dunya:3, bolge_onem:5, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "0224-04-28",
+  "k": "diger",
+  "b": "Babil, Dura-Europos, Ekbatana, Hemedan, Ktesiphon, Seleukeia (Dicle üzerinde), Uruk: Part (Arsakid) Imparatorlugu dönemi sona erer",
+  "gun": "MS 224",
+  "yer": "Babil / Dura-Europos / Ekbatana / Hemedan / Ktesiphon / Seleukeia (Dicle üzerinde) / Uruk",
+  "d": "Babil, Dura-Europos, Ekbatana, Hemedan, Ktesiphon, Seleukeia (Dicle üzerinde), Uruk noktalarının s: dizisinde bu uç, sahip künyenin (Part (Arsakid) Imparatorlugu) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Erdeşîr», islamansiklopedisi.org.tr/erdesir — «28 Nisan 224'te Medler ülkesinde (Medya) Hürmüzcân'da yapılan savaşı kazanır»", "ic_not_d":"DUNYA-1102 hücre 8 (KASA, 2 Kasım 2026): teyit tek kaynak. Önceki kaynak (künye part — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js) dayanak olamaz, değiştirildi. Gün TDV ile birebir uyumlu (28 Nisan 224). TDV aynı maddede 226'yı da (Hatra/saltanat) anar; Part 'sonu' için 224 savaşı esas alınmış.",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Babil",
+   "Dura-Europos",
+   "Hemedan",
+   "Ktesiphon",
+   "Seleukeia",
+   "Uruk (Warka)"
+  ]
+ },
+ { onem:3, dunya:1, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "0242-01-01",
+  "k": "diger",
+  "b": "Urfa (Edessa / Orhai / Vodina): Osrhoene (Edessa) Krallığı dönemi sona erer",
+  "gun": "MS 242",
+  "yer": "Urfa (Edessa / Orhai / Vodina)",
+  "d": "Urfa (Edessa / Orhai / Vodina) noktalarının s: dizisinde bu uç, sahip künyenin (Osrhoene (Edessa) Krallığı) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
+  "kaynak": "künye osrhoene — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Urfa"
+  ]
+ },
+ { onem:4, dunya:2, bolge_onem:4, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "0265-01-01",
+  "k": "diger",
+  "b": "Çengdu (Chengdu): Cao Wei dönemi sona erer",
+  "gun": "MS 265",
+  "yer": "Çengdu (Chengdu)",
+  "d": "Çengdu (Chengdu) noktalarının s: dizisinde bu uç, sahip künyenin (Cao Wei) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
+  "kaynak": "Fang Xuanling vd., Jinshu 3 (Wudi ji), 泰始元年 (MS 265); Sanguozhi 33: 炎興元年 Shu'nun teslimi — «冬十二月丙寅，設壇于南郊 ...魏帝稽協皇運，紹天明命以命炎。»", "ic_not_d":"DUNYA-1102 hücre 8 (KASA, 2 Kasım 2026): teyit tek kaynak. Önceki kaynak (künye cao-wei — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js) dayanak olamaz, değiştirildi. 265 uyumlu. Jinshu töreni 十二月丙寅 yazar; sık aktarılan 十二月壬戌 bu sayfada yok (gün çelişkisi, çevrilemedi). Chengdu 263'te Shu'dan Wei'ye geçmişti (Sanguozhi 33'te şehir adı geçmez, 'şehrin kuzeyi').",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Çengdu (Chengdu)"
+  ]
+ },
+ { onem:3, dunya:1, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "0347-01-01",
+  "k": "diger",
+  "b": "Çengdu (Chengdu): Cheng-Han (成漢) dönemi sona erer",
+  "gun": "MS 347",
+  "yer": "Çengdu (Chengdu)",
+  "d": "Çengdu (Chengdu) noktalarının s: dizisinde bu uç, sahip künyenin (Cheng-Han (成漢)) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
+  "kaynak": "Jinshu 121 (Zaiji 21, Li Shi), 永和三年 (MS 347); teslim mektubu: 偽嘉寧二年三月十七日 — «以穆帝永和三年滅»", "ic_not_d":"DUNYA-1102 hücre 8 (KASA, 2 Kasım 2026): teyit tek kaynak. Önceki kaynak (künye cheng-han — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js) dayanak olamaz, değiştirildi. 347 doğru. Mektup tarihi Çin takvimidir (3. ay 17. gün); Academia Sinica tablosu erişilemediği için gün önerilmedi.",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Çengdu (Chengdu)"
+  ]
+ },
+ { onem:4, dunya:2, bolge_onem:4, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "0386-01-01",
+  "k": "diger",
+  "b": "Xi'an (Chang'an): Önceki Qin (前秦) dönemi sona erer",
+  "gun": "MS 386",
+  "yer": "Xi'an (Chang'an)",
+  "d": "Xi'an (Chang'an) noktalarının s: dizisinde bu uç, sahip künyenin (Önceki Qin (前秦)) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
+  "kaynak": "Jinshu 114 (Fu Jian zaiji) — «是歲太元十年也 ... 慕容沖入據長安，從兵大掠»", "ic_not_d":"DUNYA-1102 hücre 8 (KASA, 2 Kasım 2026): teyit tek kaynak. Önceki kaynak (künye onceki-qin — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js) dayanak olamaz, değiştirildi. Fu Jian'ın ölümü MS 385 (太元十年). Murong Chong'un Chang'an'a girişi sayfada yılsız; atlasın 386'sı doğrulanamadı, 385 olabilir. Ölçülmeden değişiklik önerilmedi.",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Xi'an (Chang'an)"
+  ]
+ },
+ { onem:1, dunya:1, bolge_onem:1, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "0423-01-01",
+  "k": "diger",
+  "b": "Dunhuang: sahipsiz aralık dönemi sona erer",
+  "gun": "MS 423",
+  "yer": "Dunhuang",
+  "d": "Dunhuang noktalarının s: dizisinde bu uç, sahip künyenin (sahipsiz aralık) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
+  "kaynak": "Jinshu 87 (Liang Wuzhao wang Li Xuansheng, Li Xun'ın Dunhuang'ı) — «玄盛以安帝隆安四年立，至宋少帝景平元年滅，據河右凡二十四年。»", "ic_not_d":"DUNYA-1102 hücre 8 (KASA, 2 Kasım 2026): teyit tek kaynak. Önceki kaynak (künye __BOSLUK__ — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js) dayanak olamaz, değiştirildi. Jinshu Batı Liang'ın sonunu 景平元年 (MS 423) verir = atlasın 423'ü. Başka literatür 421 diyebilir (okunmadı); çelişki beyanı için not düşülmeli.",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Dunhuang"
+  ]
+ },
+ { onem:3, dunya:1, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "0439-01-01",
+  "k": "diger",
+  "b": "Zhangye (Ganzhou): Kuzey Liang (北涼) dönemi sona erer",
+  "gun": "MS 439",
+  "yer": "Zhangye (Ganzhou)",
+  "d": "Zhangye (Ganzhou) noktalarının s: dizisinde bu uç, sahip künyenin (Kuzey Liang (北涼)) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
+  "kaynak": "künye kuzey-liang — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Zhangye (Ganzhou)"
+  ]
+ },
+ { onem:5, dunya:4, bolge_onem:5, puan_s:"v2","kapsam": "dis", "bolge": 1, 
+  "t": "0476-01-01",
+  "k": "diger",
+  "b": "Roma: Batı Roma İmparatorluğu dönemi sona erer",
+  "gun": "MS 476",
+  "yer": "Roma",
+  "d": "Roma noktalarının s: dizisinde bu uç, sahip künyenin (Batı Roma İmparatorluğu) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
+  "kaynak": "Treccani, Enciclopedia Italiana 'Odoacre' (treccani.it/enciclopedia/odoacre_(Enciclopedia-Italiana)/) — «Romolo Augustolo fu deposto e relegato con una pensione nella Campania, ultimo degl'imperatori romani d'Occidente.»", "ic_not_d":"DUNYA-1102 hücre 2 (KASA, 2 Kasım 2026): teyit tek kaynak. Önceki kaynak (künye bati-roma — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js) dayanak olamaz, değiştirildi. Atlas kunyesi dayanagi yerine EI Odoacre: 476 sonu dogrulandi (gun yok).",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Roma"
+  ]
+ }
+];
 
 ;
 /* ==== data/kronoloji_cok_antik_frigya.js ==== */
-// data/kronoloji_cok_antik_frigya.js — paketle.py İNCELTTİ: ic_not* alanları yayına gitmez (kaynak dosya değişmedi)
-window.KRONOLOJI_COK_ANTIK_FRIGYA = [{"t":"-0799-01-01","tur":"yikim","k":"yikim","b":"Gordion'da Erken Frig Yıkım Tabakası: yanık tabakasının radyokarbonla MÖ ~800'e çekilmesi","gun":"MÖ ~800 (yaklaşık; yıl da kesin değil)","yer":"Gordion","kisiler":"","d":"Gordion'daki Erken Frig Yıkım Tabakası'nı ilk kazıcılar MÖ ~700'e tarihleyip Kimmer saldırısına bağlamıştı. Küplerdeki tohum ve sazlardan alınan radyokarbon örnekleri ise tabakayı yaklaşık MÖ 800'e, yani Young'ın sandığından yüzyıl öncesine götürdü; bu da Kimmer yıkımı anlatısını bu yanık tabakası için dayanaksız bıraktı.","kaynak":"DeVries, Kuniholm, Sams, Voigt, 'New dates for Iron Age Gordion', Antiquity 77/296 (Haziran 2003): tohumlar için 'a calibrated range extending from 824-807 BC' (1σ), 827-803 BC (2σ); Darbyshire, 'The Role of Science in Gordion's Archaeology', Expedition 57/3 (2015): 'around 800 BCE, 100 years earlier than Young had thought'; Amrhein vd., Expedition 57/3 (2015): 'No evidence exists for Cimmerian damage to the site.'","taraflar":[],"onem":2,"dunya":1,"kapsam":"dis","etiket":["arkeoloji","yikim","konu-askeri"],"kaynak_turu":"arkeoloji"},{"t":"-0739-01-01","tur":"hukumdar","k":"hukumdar","b":"Gordion Tümülüsü MM mezar odası ağaçları kesildi: mezar sahibi Midas'ın selefi","gun":"ca. MÖ 740 (dendrokronoloji, yaklaşık)","yer":"Gordion","kisiler":"Midas'ın selefi (adı bilinmiyor)","d":"Tümülüs MM'nin keresteleri 1.028 yıllık bir halka dizisi oluşturur ve radyokarbonla 'wiggle matching' yöntemiyle yaklaşık MÖ 740'a oturtulmuştur. Bu tarih, mezar sahibinin eskiden sanıldığı gibi Midas değil, onun hemen öncülü olduğunu gösterir.","kaynak":"Darbyshire, 'The Role of Science in Gordion's Archaeology', Expedition 57/3 (2015): 'narrowly dated to ca. 740 BCE'; DeVries vd., Antiquity 77/296 (2003): Tümülüs MM'nin yeni tarihi sahibinin Midas olmasını 'virtually rules out'.","taraflar":[],"onem":2,"dunya":1,"kapsam":"dis","etiket":["arkeoloji","hukumdar","konu-siyasi"],"kaynak_turu":"arkeoloji"},{"t":"-0716-01-01","tur":"hukumdar","k":"hukumdar","b":"Asur kayıtlarında Mita (Midas) en geç MÖ 717'de hükümdardır","gun":"MÖ 717 (Asur kayıtlarının tanıklığı; gün yok)","yer":"Gordion","kisiler":"Midas (Asur kayıtlarında Mita)","d":"Asur kayıtları Midas'ı en az MÖ 717'den 709'a kadar iktidarda gösterir. Bu, Gordion Yıkım Tabakası'nın ve Tümülüs MM'nin yeniden tarihlenmesiyle Midas'ın bunlarla bağını koparan ana yazılı dayanaktır: Asur'un çağdaşı Midas, MM'nin sahibi değildir.","kaynak":"DeVries, Kuniholm, Sams, Voigt, Antiquity 77/296 (2003): Asur kayıtları Midas'ı 'in power from at least 717 to 709 BC' gösterir; Amrhein vd., Expedition 57/3 (2015): Sargon II (721-705) ve çağdaşı Midas.","taraflar":["frigya","yeni-asur"],"onem":3,"dunya":2,"kapsam":"dis","etiket":["hukumdar","siyaset","konu-siyasi"],"kaynak_turu":"yazili"},{"t":"-0712-01-01","tur":"antlasma","k":"antlasma","b":"II. Sargon'un yazıtında Mita (Midas) ve Mushku (Frigler) anılır","gun":"ca. MÖ 713 (silindir tarihi yaklaşık)","yer":"Asur","kisiler":"II. Sargon; Mita (Midas)","d":"II. Sargon'a ait ca. MÖ 713 tarihli bir kil silindir, Mita'yı (Midas) ve Mushku'yu (Frigler) anar. Sargon'un hükümdarlığı (MÖ 721-705) Frig-Asur sınır gerginliğinin arttığı dönemdir.","kaynak":"Amrhein, Waters, Holzman, Tanaka, 'The Interaction of Empires', Expedition 57/3 (Aralık 2015), resim yazısı: 'This clay cylinder of King Sargon II (ca. 713 BCE)... mentions Mita (Midas) and the Mushku (Phrygians).'","taraflar":["frigya","yeni-asur"],"onem":2,"dunya":1,"kapsam":"dis","etiket":["siyaset","konu-siyasi"],"kaynak_turu":"yazili"},{"t":"-0709-01-01","tur":"antlasma","k":"antlasma","b":"Midas Asur'dan ateşkes istedi","gun":"MÖ 710/709 (kış; gün yok)","yer":"Gordion","kisiler":"Midas (Mita); II. Sargon","d":"MÖ 710/709'da Midas beklenmedik biçimde Asur'dan ateşkes istedi; bu, Sargon'un Que valisine yazdığı mektuptan bilinir. Asur kayıtları Midas'ı MÖ 709'a kadar iktidarda gösterir; sonrası için Asur kaynağı yoktur.","kaynak":"Amrhein vd., 'The Interaction of Empires', Expedition 57/3 (2015): 'In 710/709 BCE, Midas unexpectedly sought a truce with Assyria' (Sargon'un Que valisine mektubu); DeVries vd., Antiquity 77/296 (2003): Midas 709'a kadar.","taraflar":["frigya","yeni-asur"],"onem":3,"dunya":2,"kapsam":"dis","etiket":["siyaset","konu-siyasi"],"kaynak_turu":"yazili"},{"t":"-0406-01-01","tur":"ittifak","k":"ittifak","b":"Pers-Sparta ittifak görüşmeleri sırasında Atinalı elçiler Gordion'da bekletildi","gun":"MÖ 407 (yıl; gün yok)","yer":"Gordion","kisiler":"","d":"MÖ 407'de Persler Spartalılarla ayrı bir ittifak görüşürken Atinalı elçiler Gordion'da kaldı. Gordion bu dönemde bir Pers satraplığının merkez/konaklama noktasıdır.","kaynak":"Amrhein vd., 'The Interaction of Empires', Expedition 57/3 (2015): Atinalı elçilerin Gordion'da kalışı, Persler Spartalılarla 407'de ayrı ittifak görüşürken.","taraflar":[],"onem":1,"dunya":1,"kapsam":"dis","etiket":["siyaset","konu-siyasi"],"kaynak_turu":"yazili"},{"t":"-0332-01-01","tur":"isgal","k":"isgal","b":"Büyük İskender Gordion'u aldı","gun":"MÖ 333 (yıl; gün yok)","yer":"Gordion","kisiler":"Büyük İskender","d":"Treccani'ye göre Frigya, Büyük İskender tarafından MÖ 333'te fethedildi.","kaynak":"Treccani, Dizionario di Storia, 'Frigia': «Conquistata da Alessandro Magno (333 a.C.)»","taraflar":[],"onem":2,"dunya":3,"kapsam":"dis","etiket":["isgal","toprak-kazanc","konu-askeri"],"kaynak_turu":"yazili"}];
+// -*- coding: utf-8 -*-
+// =====================================================================
+// FRIGYA (Gordion, Midas) çok künyeli kronoloji — ANTIK-FRIGYA, 10 Kasım 2026
+// =====================================================================
+// window.KRONOLOJI_COK_ANTIK_FRIGYA — js/app.js cokTarafliKronolojiEkle her maddeyi taraflar[] künyelerine ekler.
+// Tarih konvansiyonu: MÖ yıl N = astronomik -(N-1). Frigya için kaynaktaki tarih yazılır; Gordion "Yanık Tabaka"
+// (Early Phrygian Destruction Level) tartışması (eski ~MÖ 700 / radyokarbon-dendro ~MÖ 800) ic_not'ta beyan edilir.
+// taraflar boş olan maddeler künye penceresi dışındadır (frigya f=-0737): künye f önerisi rapordadır.
+// Kaynaklar (gerçekten okunanlar): TDV İslâm Ansiklopedisi ANADOLU (İplikçioğlu) · Treccani Dizionario di Storia 'Frigia'
+//  · DeVries/Kuniholm/Sams/Voigt, "New dates for Iron Age Gordion", Antiquity 77/296 (2003)
+//  · Darbyshire, "The Role of Science in Gordion's Archaeology", Expedition 57/3 (2015)
+//  · Amrhein vd., "The Interaction of Empires", Expedition 57/3 (2015) · Radner, Sargon II (UCL/ORACC)
+//  · Rose & Darbyshire, AJA 129/2 (2025) (yalnız bağlam)
+// Madde sayısı: 7 (-0675 Kimmer ve -0545 Kyros maddeleri Değişmez 2 evrenine girmek için data/kronoloji_sinir_antik_frig.js'e taşındı, 13 Kasım 2026)
+// =====================================================================
+window.KRONOLOJI_COK_ANTIK_FRIGYA = [
+{"t":"-0799-01-01","tur":"yikim","k":"yikim","b":"Gordion'da Erken Frig Yıkım Tabakası: yanık tabakasının radyokarbonla MÖ ~800'e çekilmesi","gun":"MÖ ~800 (yaklaşık; yıl da kesin değil)","yer":"Gordion","kisiler":"","d":"Gordion'daki Erken Frig Yıkım Tabakası'nı ilk kazıcılar MÖ ~700'e tarihleyip Kimmer saldırısına bağlamıştı. Küplerdeki tohum ve sazlardan alınan radyokarbon örnekleri ise tabakayı yaklaşık MÖ 800'e, yani Young'ın sandığından yüzyıl öncesine götürdü; bu da Kimmer yıkımı anlatısını bu yanık tabakası için dayanaksız bıraktı.","kaynak":"DeVries, Kuniholm, Sams, Voigt, 'New dates for Iron Age Gordion', Antiquity 77/296 (Haziran 2003): tohumlar için 'a calibrated range extending from 824-807 BC' (1σ), 827-803 BC (2σ); Darbyshire, 'The Role of Science in Gordion's Archaeology', Expedition 57/3 (2015): 'around 800 BCE, 100 years earlier than Young had thought'; Amrhein vd., Expedition 57/3 (2015): 'No evidence exists for Cimmerian damage to the site.'","taraflar":[],"onem":2,"dunya":1,"kapsam":"dis","etiket":["arkeoloji","yikim","konu-askeri"],"kaynak_turu":"arkeoloji","ic_not":"YÜKSEK KRONOLOJİ BEYANI: yazılan yıl radyokarbon kalibrasyon aralığının (MÖ 824-803) yuvarlağıdır; eski kronoloji MÖ ~700. Tarih tartışmalıdır (Muscarella eski tarihi savunur; Keenan radyokarbonu eleştirir — yalnız ikincil aktarımla okundu, birincil metinler okunmadı). Maddenin tarihi frigya künyesi penceresinden (f=-0737) önce olduğundan taraflar boş.","ic_not_t":"MÖ ~800 radyokarbon (2σ 827-803) -> -0799 yaklaşık; gün/yıl kesin değil"},
+{"t":"-0739-01-01","tur":"hukumdar","k":"hukumdar","b":"Gordion Tümülüsü MM mezar odası ağaçları kesildi: mezar sahibi Midas'ın selefi","gun":"ca. MÖ 740 (dendrokronoloji, yaklaşık)","yer":"Gordion","kisiler":"Midas'ın selefi (adı bilinmiyor)","d":"Tümülüs MM'nin keresteleri 1.028 yıllık bir halka dizisi oluşturur ve radyokarbonla 'wiggle matching' yöntemiyle yaklaşık MÖ 740'a oturtulmuştur. Bu tarih, mezar sahibinin eskiden sanıldığı gibi Midas değil, onun hemen öncülü olduğunu gösterir.","kaynak":"Darbyshire, 'The Role of Science in Gordion's Archaeology', Expedition 57/3 (2015): 'narrowly dated to ca. 740 BCE'; DeVries vd., Antiquity 77/296 (2003): Tümülüs MM'nin yeni tarihi sahibinin Midas olmasını 'virtually rules out'.","taraflar":[],"onem":2,"dunya":1,"kapsam":"dis","etiket":["arkeoloji","hukumdar","konu-siyasi"],"kaynak_turu":"arkeoloji","ic_not":"Kesim yılı değil mezar odası ağaç dizisinin tarihi; ölüm yılı olarak okunmamalı (yaklaşık). Tarih frigya f=-0737 öncesinde (pencere dışı), taraflar boş; künye f'sinin öne çekilmesi önerilir.","ic_not_t":"ca. MÖ 740 -> -0739 yaklaşık"},
+{"t":"-0716-01-01","tur":"hukumdar","k":"hukumdar","b":"Asur kayıtlarında Mita (Midas) en geç MÖ 717'de hükümdardır","gun":"MÖ 717 (Asur kayıtlarının tanıklığı; gün yok)","yer":"Gordion","kisiler":"Midas (Asur kayıtlarında Mita)","d":"Asur kayıtları Midas'ı en az MÖ 717'den 709'a kadar iktidarda gösterir. Bu, Gordion Yıkım Tabakası'nın ve Tümülüs MM'nin yeniden tarihlenmesiyle Midas'ın bunlarla bağını koparan ana yazılı dayanaktır: Asur'un çağdaşı Midas, MM'nin sahibi değildir.","kaynak":"DeVries, Kuniholm, Sams, Voigt, Antiquity 77/296 (2003): Asur kayıtları Midas'ı 'in power from at least 717 to 709 BC' gösterir; Amrhein vd., Expedition 57/3 (2015): Sargon II (721-705) ve çağdaşı Midas.","taraflar":["frigya","yeni-asur"],"onem":3,"dunya":2,"kapsam":"dis","etiket":["hukumdar","siyaset","konu-siyasi"],"kaynak_turu":"yazili","ic_not":"'En geç 717' alt sınırdır; Midas'ın tahta çıkış yılı kaynakta yok. Mita = Midas özdeşliği kaynaklarda kabul edilir ama künyenin kendi notu tartışmalı sayar.","ic_not_t":"MÖ 717 -> -0716"},
+{"t":"-0712-01-01","tur":"antlasma","k":"antlasma","b":"II. Sargon'un yazıtında Mita (Midas) ve Mushku (Frigler) anılır","gun":"ca. MÖ 713 (silindir tarihi yaklaşık)","yer":"Asur","kisiler":"II. Sargon; Mita (Midas)","d":"II. Sargon'a ait ca. MÖ 713 tarihli bir kil silindir, Mita'yı (Midas) ve Mushku'yu (Frigler) anar. Sargon'un hükümdarlığı (MÖ 721-705) Frig-Asur sınır gerginliğinin arttığı dönemdir.","kaynak":"Amrhein, Waters, Holzman, Tanaka, 'The Interaction of Empires', Expedition 57/3 (Aralık 2015), resim yazısı: 'This clay cylinder of King Sargon II (ca. 713 BCE)... mentions Mita (Midas) and the Mushku (Phrygians).'","taraflar":["frigya","yeni-asur"],"onem":2,"dunya":1,"kapsam":"dis","etiket":["siyaset","konu-siyasi"],"kaynak_turu":"yazili","ic_not":"Madde yazıtın tarihini verir, bir olayın gününü değil. Silindir metninin kendisi okunmadı; yalnız sergi resim yazısı. 'Antlaşma' türü olayın niteliği için değil, Asur-Frig ilişkisinin ilk yazılı tanıklığı için kullanıldı.","ic_not_t":"ca. MÖ 713 -> -0712 yaklaşık"},
+{"t":"-0709-01-01","tur":"antlasma","k":"antlasma","b":"Midas Asur'dan ateşkes istedi","gun":"MÖ 710/709 (kış; gün yok)","yer":"Gordion","kisiler":"Midas (Mita); II. Sargon","d":"MÖ 710/709'da Midas beklenmedik biçimde Asur'dan ateşkes istedi; bu, Sargon'un Que valisine yazdığı mektuptan bilinir. Asur kayıtları Midas'ı MÖ 709'a kadar iktidarda gösterir; sonrası için Asur kaynağı yoktur.","kaynak":"Amrhein vd., 'The Interaction of Empires', Expedition 57/3 (2015): 'In 710/709 BCE, Midas unexpectedly sought a truce with Assyria' (Sargon'un Que valisine mektubu); DeVries vd., Antiquity 77/296 (2003): Midas 709'a kadar.","taraflar":["frigya","yeni-asur"],"onem":3,"dunya":2,"kapsam":"dis","etiket":["siyaset","konu-siyasi"],"kaynak_turu":"yazili","ic_not":"710/709 ikisinden hangisi olduğu kaynakta kesin değil; ilk yıl (MÖ 710 = -0709) yazıldı.","ic_not_t":"MÖ 710/709: ilk yıl yazıldı (-0709-01-01)"},
+{"t":"-0406-01-01","tur":"ittifak","k":"ittifak","b":"Pers-Sparta ittifak görüşmeleri sırasında Atinalı elçiler Gordion'da bekletildi","gun":"MÖ 407 (yıl; gün yok)","yer":"Gordion","kisiler":"","d":"MÖ 407'de Persler Spartalılarla ayrı bir ittifak görüşürken Atinalı elçiler Gordion'da kaldı. Gordion bu dönemde bir Pers satraplığının merkez/konaklama noktasıdır.","kaynak":"Amrhein vd., 'The Interaction of Empires', Expedition 57/3 (2015): Atinalı elçilerin Gordion'da kalışı, Persler Spartalılarla 407'de ayrı ittifak görüşürken.","taraflar":[],"onem":1,"dunya":1,"kapsam":"dis","etiket":["siyaset","konu-siyasi"],"kaynak_turu":"yazili","ic_not":"Frigya künyesi MÖ 625'te sona erdiği için taraf yok; Gordion Frigya sonrası.","ic_not_t":"MÖ 407 -> -0406"},
+{"t":"-0332-01-01","tur":"isgal","k":"isgal","b":"Büyük İskender Gordion'u aldı","gun":"MÖ 333 (yıl; gün yok)","yer":"Gordion","kisiler":"Büyük İskender","d":"Treccani'ye göre Frigya, Büyük İskender tarafından MÖ 333'te fethedildi.","kaynak":"Treccani, Dizionario di Storia, 'Frigia': «Conquistata da Alessandro Magno (333 a.C.)»","taraflar":[],"onem":2,"dunya":3,"kapsam":"dis","etiket":["isgal","toprak-kazanc","konu-askeri"],"kaynak_turu":"yazili","ic_not":"Frigya künyesi sona erdiği için taraf yok. Madde tarihi yalnız Treccani'ye dayanır.","ic_not_t":"MÖ 333 -> -0332"}
+];
 
 ;
 /* ==== data/kronoloji_cok_antik_akad.js ==== */
-// data/kronoloji_cok_antik_akad.js — paketle.py İNCELTTİ: ic_not* alanları yayına gitmez (kaynak dosya değişmedi)
-window.KRONOLOJI_COK_ANTIK_AKAD = [{"t":"-2333-01-01","tur":"toprak-kazanc","k":"toprak-kazanc","b":"Sumer Kral Listesi: Uruk yenildi, krallık Agade'ye götürüldü","gun":"MÖ 2334 (yıl; orta kronoloji) — Listede mutlak yıl yoktur; sıra ve süreler verilir","yer":"Uruk, Agade","kisiler":"Lugalzagesi; Sargon","d":"Sumer Kral Listesi'ne göre Uruk'ta 25 yıl hüküm süren Lugalzagesi'nin ardından «Unug yenildi, krallık Agade'ye götürüldü». Liste Sargon'u, Kiş kralı Ur-Zababa'nın saki başı ve bahçıvan oğlu olarak anar ve ona 56 yıl verir (başka nüshalarda 54-55).","kaynak":"ETCSL c.211 The Sumerian King List, ll. 259-296 (etcsl.orinst.ox.ac.uk/section2/tr211.htm) — «Then Unug was defeated and the kingship was taken to Agade»; Frayne, RIME 2 (1993), Sargon dönemi 2334'ten başlatılır","taraflar":["akad","uruk-erken-hanedan"],"onem":4,"dunya":4,"kapsam":"dis","etiket":["siyaset","toprak-kazanc","hanedan-degisimi","konu-siyasi"],"kaynak_turu":"yazili"},{"t":"-2192-01-01","tur":"siyaset","k":"siyaset","b":"Şar-kali-şarri sonrası taht boşluğu: «Kim kraldı, kim kral değildi?»","gun":"MÖ ~2192 (yıl; Şarkalişarri'nin 2193 bitişi ile Dudu'nun ~2189 başlangıcı arasında, KL süresi 3 yıl)","yer":"Agade","kisiler":"Irgigi; Imi; Nanum; Ilulu","d":"Sumer Kral Listesi, Şar-kali-şarri'den (25 yıl) sonra «Kim kraldı? Kim kral değildi?» sorusunu sorar ve Irgigi, Imi, Nanum, Ilulu adlı dört hükümdarı toplam 3 yıl olarak tek grupta sayar. Ardından Dudu (21 yıl) ve Şu-turul (15 yıl) gelir; böylece Akad'da ardıl uçları belirsiz bir hanedan çatışması dönemi başlar.","kaynak":"ETCSL c.211 The Sumerian King List, ll. 266-296; TDV İslâm Ansiklopedisi, «Bâbil» maddesi (Akkad Kralı Şarkalişarri'nin 2217-2193)","taraflar":["akad"],"onem":3,"dunya":2,"kapsam":"dis","etiket":["siyaset","hanedan-degisimi","konu-siyasi"],"kaynak_turu":"yazili"},{"t":"-2153-01-01","tur":"hukumdar","k":"hukumdar","b":"Gutium ordusu: Sumer Kral Listesi'ne göre ilk üç yıl kralsız yönetim","gun":"MÖ 2154 (yıl; orta kronoloji, atlas künyesi MÖ 2153) — süre KL'den","yer":"Mezopotamya","kisiler":"Gutium ordusu","d":"Sumer Kral Listesi «Gutium ordusu» bölümünde başlangıçta tanınmış bir kralın olmadığını, Gutilerin üç yıl (bir nüshada beş yıl) kendi başlarına yönettiğini kaydeder. Ardından Inkişuş (6 yıl) ile başlayan hükümdar dizisi gelir.","kaynak":"ETCSL c.211 The Sumerian King List, ll. 308-334 (etcsl.orinst.ox.ac.uk/section2/tr211.htm)","taraflar":["gutium"],"onem":3,"dunya":2,"kapsam":"dis","etiket":["siyaset","hukumdar","konu-siyasi"],"kaynak_turu":"yazili"},{"t":"-2111-01-01","tur":"hukumdar","k":"hukumdar","b":"Gutium'un son kralı Tirigan 40 gün hüküm sürdü; Gutium ordusu yenildi","gun":"MÖ ~2112 (yıl; orta kronoloji) — KL'de süre 40 gün","yer":"Uruk","kisiler":"Tirigan; Utu-hegal","d":"Sumer Kral Listesi, Gutium hükümdarlarının sonuncusu Tirigan'a yalnızca 40 gün verir; ardından «Gutium ordusu yenildi» ve krallık Uruk'a götürüldü. Listedeki Utu-hegal kaydı nüshalar arasında çarpıcı biçimde değişir (7 yıl 6 ay 15 gün ya da 427 yıl).","kaynak":"ETCSL c.211 The Sumerian King List, ll. 308-340 (etcsl.orinst.ox.ac.uk/section2/tr211.htm) — «Tiriga: 40 days»; Frayne, RIME 2 (1993), Sargonic and Gutian Periods","taraflar":["gutium"],"onem":3,"dunya":2,"kapsam":"dis","etiket":["siyaset","hukumdar","toprak-kayip","konu-siyasi"],"kaynak_turu":"yazili"}];
+// -*- coding: utf-8 -*-
+// =====================================================================
+// ANTİK — AKAD ve GUTİUM çok künyeli kronoloji (4 madde)
+// =====================================================================
+// window.KRONOLOJI_COK_ANTIK_AKAD — yalnız devletler.js'teki akad / gutium / uruk-erken-hanedan
+// künyelerinin mevcut kronoloji dizilerinde OLMAYAN ve tarihi kaynaktan sabitlenebilen maddeler.
+// Konvansiyon: Mezopotamya ORTA kronoloji (Frayne, RIME 2 "Sargonic and Gutian Periods (2334-2113 BC)", 1993).
+// Gerçekten okunan kaynaklar:
+//  - ETCSL c.211 "The Sumerian King List" (etcsl.orinst.ox.ac.uk/section2/tr211.htm) — hanedan/kral süreleri
+//  - ETCSL "The Curse of Agade" (etcsl.orinst.ox.ac.uk/section2/tr215.htm) — özet okundu, madde tarihlenemedi
+//  - TDV İslâm Ansiklopedisi, "Bâbil" (islamansiklopedisi.org.tr/babil) — Şarkalişarri (2217-2193)
+//  - Frayne RIME 2 künye/bibliyografya kaydı (BSOAS 58/2, 1995, A. R. George'un tanıtması; kitap başlığı 2334-2113)
+// Mutlak yılı kaynaktan sabitlenemeyen olaylar (Lugalzagesi'nin yenilgisi, Naram-Sin'in seferleri ve
+// ilahlaştırılması, Enheduanna, Naram-Sin Zafer Steli) BİLEREK yazılmadı: saltanat içi yılları belirsiz.
+// ic_not_* alanları editör notudur, gösterilmez.
+// Madde sayısı: 4
+// =====================================================================
+window.KRONOLOJI_COK_ANTIK_AKAD = [
+{"t":"-2333-01-01","tur":"toprak-kazanc","k":"toprak-kazanc","b":"Sumer Kral Listesi: Uruk yenildi, krallık Agade'ye götürüldü","gun":"MÖ 2334 (yıl; orta kronoloji) — Listede mutlak yıl yoktur; sıra ve süreler verilir","yer":"Uruk, Agade","kisiler":"Lugalzagesi; Sargon","d":"Sumer Kral Listesi'ne göre Uruk'ta 25 yıl hüküm süren Lugalzagesi'nin ardından «Unug yenildi, krallık Agade'ye götürüldü». Liste Sargon'u, Kiş kralı Ur-Zababa'nın saki başı ve bahçıvan oğlu olarak anar ve ona 56 yıl verir (başka nüshalarda 54-55).","kaynak":"ETCSL c.211 The Sumerian King List, ll. 259-296 (etcsl.orinst.ox.ac.uk/section2/tr211.htm) — «Then Unug was defeated and the kingship was taken to Agade»; Frayne, RIME 2 (1993), Sargon dönemi 2334'ten başlatılır","taraflar":["akad","uruk-erken-hanedan"],"onem":4,"dunya":4,"kapsam":"dis","etiket":["siyaset","toprak-kazanc","hanedan-degisimi","konu-siyasi"],"kaynak_turu":"yazili","ic_not":"Lugalzagesi'nin yenilgisinin saltanat içindeki kesin yılı kaynaktan okunamadı; madde Akad künyesinin f gününe (Sargon'un başlangıcı) bağlanmıştır, olayın o yıl olduğu iddia edilmez.","ic_not_t":"Orta kronoloji (Frayne RIME 2: 2334). Sumer Kral Listesi nüshaları süreyi 54/55/56 verir; Lugalzagesi için 25 (bir nüshada 34)."},
+{"t":"-2192-01-01","tur":"siyaset","k":"siyaset","b":"Şar-kali-şarri sonrası taht boşluğu: «Kim kraldı, kim kral değildi?»","gun":"MÖ ~2192 (yıl; Şarkalişarri'nin 2193 bitişi ile Dudu'nun ~2189 başlangıcı arasında, KL süresi 3 yıl)","yer":"Agade","kisiler":"Irgigi; Imi; Nanum; Ilulu","d":"Sumer Kral Listesi, Şar-kali-şarri'den (25 yıl) sonra «Kim kraldı? Kim kral değildi?» sorusunu sorar ve Irgigi, Imi, Nanum, Ilulu adlı dört hükümdarı toplam 3 yıl olarak tek grupta sayar. Ardından Dudu (21 yıl) ve Şu-turul (15 yıl) gelir; böylece Akad'da ardıl uçları belirsiz bir hanedan çatışması dönemi başlar.","kaynak":"ETCSL c.211 The Sumerian King List, ll. 266-296; TDV İslâm Ansiklopedisi, «Bâbil» maddesi (Akkad Kralı Şarkalişarri'nin 2217-2193)","taraflar":["akad"],"onem":3,"dunya":2,"kapsam":"dis","etiket":["siyaset","hanedan-degisimi","konu-siyasi"],"kaynak_turu":"yazili","ic_not":"Başlangıç yılı hesapla bulunmuştur: Şarkalişarri'nin 2193'te bitişi (TDV) − KL'deki 3 yıl; mutlak değildir. Dudu'nun mevcut künye maddesi 2189'dur.","ic_not_t":"Orta kronoloji; KL toplam 4 kral 3 yıl (S nüshası), Dudu/Şu-turul'u bazı nüshalar hiç saymaz (9 kral 161/177 yıl)."},
+{"t":"-2153-01-01","tur":"hukumdar","k":"hukumdar","b":"Gutium ordusu: Sumer Kral Listesi'ne göre ilk üç yıl kralsız yönetim","gun":"MÖ 2154 (yıl; orta kronoloji, atlas künyesi MÖ 2153) — süre KL'den","yer":"Mezopotamya","kisiler":"Gutium ordusu","d":"Sumer Kral Listesi «Gutium ordusu» bölümünde başlangıçta tanınmış bir kralın olmadığını, Gutilerin üç yıl (bir nüshada beş yıl) kendi başlarına yönettiğini kaydeder. Ardından Inkişuş (6 yıl) ile başlayan hükümdar dizisi gelir.","kaynak":"ETCSL c.211 The Sumerian King List, ll. 308-334 (etcsl.orinst.ox.ac.uk/section2/tr211.htm)","taraflar":["gutium"],"onem":3,"dunya":2,"kapsam":"dis","etiket":["siyaset","hukumdar","konu-siyasi"],"kaynak_turu":"yazili","ic_not":"KL'deki Guti kral süreleri toplamı kendi içinde tutarsızdır (kayıtlı 21 kral/124 yıl 40 gün; adlandırılan süreler ~91 yıl eder) ve Utu-hegal'in Tirigan'ı yenmesi Ur III ve Uruk yazıtlarından ayrı tarihlenir; Guti süresi bu yüzden yaklaşık kabul edilir.","ic_not_t":"Orta kronoloji; Gutium başlangıcı atlas künye penceresine (-2153) oturtuldu."},
+{"t":"-2111-01-01","tur":"hukumdar","k":"hukumdar","b":"Gutium'un son kralı Tirigan 40 gün hüküm sürdü; Gutium ordusu yenildi","gun":"MÖ ~2112 (yıl; orta kronoloji) — KL'de süre 40 gün","yer":"Uruk","kisiler":"Tirigan; Utu-hegal","d":"Sumer Kral Listesi, Gutium hükümdarlarının sonuncusu Tirigan'a yalnızca 40 gün verir; ardından «Gutium ordusu yenildi» ve krallık Uruk'a götürüldü. Listedeki Utu-hegal kaydı nüshalar arasında çarpıcı biçimde değişir (7 yıl 6 ay 15 gün ya da 427 yıl).","kaynak":"ETCSL c.211 The Sumerian King List, ll. 308-340 (etcsl.orinst.ox.ac.uk/section2/tr211.htm) — «Tiriga: 40 days»; Frayne, RIME 2 (1993), Sargonic and Gutian Periods","taraflar":["gutium"],"onem":3,"dunya":2,"kapsam":"dis","etiket":["siyaset","hukumdar","toprak-kayip","konu-siyasi"],"kaynak_turu":"yazili","ic_not":"Mevcut künye maddesi (Utu-hengal Tirigan'ı yener, MÖ 2112) ile aynı gün; ayrı bir olay değil, KL'nin Tirigan süresi bilgisini ekler.","ic_not_t":"Orta kronoloji; kısa kronolojide ~60 yıl sonra."}
+];
 
 ;
 /* ==== data/kronoloji_cok_antik_sumer.js ==== */
-// data/kronoloji_cok_antik_sumer.js — paketle.py İNCELTTİ: ic_not* alanları yayına gitmez (kaynak dosya değişmedi)
-window.KRONOLOJI_COK_ANTIK_SUMER = [{"t":"-2599-01-01","tur":"hukumdar","k":"hukumdar","b":"Gılgameş: Uruk'un 'ilk hanedanı' geleneği ve Kiş kralı Agga'yla rekabeti (kral listesi geleneği)","gun":"MÖ ~2600 (yaklaşık; Şuruppak tanrı adları listesindeki anılma tarihi)","yer":"Uruk","kisiler":"Gılgameş; Agga (Kiş)","d":"Gılgameş'in adı Şuruppak'tan MÖ ~2600'e tarihlenen bir tanrı adları listesinde geçer; Sümer Kral Listesi onu Uruk'un ilk hanedanının beşinci kralı, Kiş kralı Agga'yı da rakibi olarak anar. Ona atfedilen surlar, Uruk'un MÖ 3. binyıl başındaki yaklaşık 100 hektarlık sur içi kentiyle ilişkilendirilir. Gılgameş'in tarihsel bir kral olup olmadığı belirsizdir; Enmerkar-Lugalbanda-Gılgameş hanedanı geleneksel (kral listesi) anlatıdır, hükümdarlık yılları yazıtla doğrulanmış değildir.","yer_id":"","kaynak":"Treccani, Enciclopedia dei ragazzi, 'Gilgamesh' (https://www.treccani.it/enciclopedia/gilgamesh_(Enciclopedia-dei-ragazzi)/) — «in un elenco di nomi divini di Shuruppak, datato intorno al 2600 a.C.»; Treccani, Dizionario di Storia, 'Uruk' (https://www.treccani.it/enciclopedia/uruk_(Dizionario-di-Storia)/); 'Kish' (https://www.treccani.it/enciclopedia/kish_(Dizionario-di-Storia)/) — Agga, Gılgameş'in rakibi olarak kral listesinde","taraflar":["uruk-erken-hanedan","kis-egemenlik"],"onem":3,"dunya":3,"kapsam":"dis","etiket":["hukumdar","konu-siyasi"],"kaynak_turu":"yazili"},{"t":"-2499-01-01","tur":"kurulus","k":"kurulus","b":"Ur Kraliyet Mezarlığı dönemi: Meskalamdug ve eşi Şubad'ın gömüldüğü zengin mezarlar (Erken Hanedan IIIa)","gun":"MÖ ~2500-2450 (yaklaşık; aralığın başı)","yer":"Ur","kisiler":"Meskalamdug; Şubad (Puabi); Mesannepadda","d":"Woolley'in 1920'lerde Ur'da açtığı Kraliyet Mezarlığı'nın en zengin mezarları Erken Hanedan IIIa'ya, yaklaşık MÖ 2500-2450'ye tarihlenir; hizmetkârlar ve görevliler hükümdarlarıyla birlikte gömülmüştür. Bu mezarları, Sümer Kral Listesi'ndeki I. ve II. Ur hanedanlarının kralları (Mesannepadda, Lugalkisalsi) izler.","yer_id":"","kaynak":"Treccani, Dizionario di Storia, 'Ur' (https://www.treccani.it/enciclopedia/ur_(Dizionario-di-Storia)/) — mezarlık ED IIIa, yaklaşık MÖ 2500-2450; Treccani, Enciclopedia Italiana, 'Ur' (https://www.treccani.it/enciclopedia/ur_(Enciclopedia-Italiana)/) — Meskalamdug ve eşi Şubad en eski mezar sahipleri arasında, kazılar Hall 1919, Woolley 1933'e dek","taraflar":["ur-1-hanedan"],"onem":3,"dunya":3,"kapsam":"dis","etiket":["konu-kulturel"],"kaynak_turu":"arkeoloji"},{"t":"-2499-01-01","tur":"kurulus","k":"kurulus","b":"Lagaş bağımsız şehir devleti: Ur-Nanşe'den Urukagina'ya uzanan I. Lagaş hanedanı","gun":"MÖ ~2500 (yaklaşık; Treccani aralığı 2500-2350)","yer":"Lagaş (Girsu)","kisiler":"Ur-Nanşe; Urukagina","d":"Erken Hanedan III'te (yaklaşık MÖ 2500-2350) Lagaş, Ur-Nanşe'den Urukagina'ya uzanan bir hanedanla yönetilen bağımsız bir şehir devletiydi ve komşusu Umma ile savaştı. Şehrin başlıca tanrısı Ningirsu'ydu; Girsu (Tello) kazılarından çıkan yazıtlı koniler ve steller hanedanın başlıca belgeleridir.","yer_id":"","kaynak":"Treccani, Dizionario di Storia, 'Lagash' (https://www.treccani.it/enciclopedia/lagash_(Dizionario-di-Storia)/) — «da Ur-Nanshe a Urukagina»; Treccani, Enciclopedia Italiana, 'Sumeri' (Lagaş-Umma rekabeti yazıtlarla belgeli, tanrı Ningirsu)","taraflar":["sumer-lagas-1"],"onem":3,"dunya":2,"kapsam":"dis","etiket":["kurulus","konu-siyasi"],"kaynak_turu":"yazili"},{"t":"-2419-01-01","tur":"antlasma","k":"antlasma","b":"Entemena döneminde Lagaş-Umma sınır düzenlemesi (Entemena Konisi A)","gun":"MÖ ~2420-2400 (yaklaşık; aralığın başı)","yer":"Lagaş, Umma","kisiler":"Entemena (Lagaş)","d":"Girsu'da bulunan Entemena Konisi A (Louvre AO 3004), Sümerce çivi yazısıyla Lagaş ile Umma arasındaki sınır uyuşmazlığının düzenlenişini anlatır. Uyuşmazlık, iki kentin sulak ve verimli sınır topraklarının kuşaklar boyu çekişilmesinin bir halkasıdır.","yer_id":"","kaynak":"Louvre, 'Cône A d'Entemena' AO 3004 (https://collections.louvre.fr/en/ark:/53355/cl010120625) — «relatant l'histoire d'un règlement de frontières entre Lagash et Umma», ED IIIB, MÖ ~2420-2400; Treccani, 'Umma' (Lagaş'la sık savaşlar, Eannatum yaklaşık MÖ 2420)","taraflar":["sumer-lagas-1","umma-erken-hanedan"],"onem":3,"dunya":2,"kapsam":"dis","etiket":["antlasma","konu-siyasi"],"kaynak_turu":"yazili"},{"t":"-2358-01-01","tur":"hukumdar","k":"hukumdar","b":"Lugalzagesi, Umma/Uruk kralı olarak Ur, Lagaş ve Umma'ya hâkim olur; 'Körfez'den Akdeniz'e' egemenlik iddiası","gun":"MÖ ~2359-2335 hükümdarlık (yaklaşık; başlangıç yılı)","yer":"Uruk, Umma","kisiler":"Lugalzagesi; Urukagina","d":"Treccani'ye göre Uruk kralı Lugalzagesi MÖ ~2359-2335 arasında hüküm sürdü; Ur, Lagaş ve Umma gibi Sümer kentlerini yenerek Aşağı Mezopotamya'da üstünlük kurdu ve egemenliğini Basra Körfezi'nden Akdeniz'e uzandığını ilan etti. Urukagina'yı yenmesi Sümer kentlerinin ilk siyasî birleşmesinin temelidir; Sargon'a yenilince bu birleşme Akad çatısı altında sürdü.","yer_id":"","kaynak":"Treccani, Dizionario di Storia, 'Lugalzaggesi' (https://www.treccani.it/enciclopedia/lugalzaggesi_(Dizionario-di-Storia)/) — «Fu a sua volta sconfitto da Sargon di Akkad, che così unificò l'intera Mesopotamia.» (MÖ ~2359-2335); Treccani, 'Umma' (https://www.treccani.it/enciclopedia/umma_res-8f5cbe03-c04d-11e1-bb7e-d5ce3506d72e_(Dizionario-di-Storia)/) — «Il più importante re di U. è Lugalzaggesi», Urukagina'yı yenip Sargon'a ~MÖ 2340'ta yenilir","taraflar":["umma-erken-hanedan","uruk-erken-hanedan"],"onem":4,"dunya":3,"kapsam":"dis","etiket":["hukumdar","toprak-kazanc","konu-siyasi"],"kaynak_turu":"yazili"},{"t":"-2119-01-01","tur":"hukumdar","k":"hukumdar","b":"Gudea: Ba'u'ya adanmış 'geniş omuzlu' heykel ve Ningirsu tapınağı yazıtları (Lagaş II.)","gun":"MÖ ~2120-2110 (yaklaşık; Louvre aralığının başı)","yer":"Girsu (Tello)","kisiler":"Gudea","d":"Louvre'daki 'geniş omuzlu' diyorit Gudea heykeli (AO 6), Lagaş prensinin (ensi) tanrıça Ba'u'ya adanmış bir ibadetçi olarak betimini verir; Girsu'daki Tell A'da 1877-1881 kazılarında bulundu. Treccani'ye göre Gudea Neo-Sümer dönemine (MÖ ~2100) aittir; ensi unvanını taşır, çok sayıda heykeli ve Ningirsu tapınağının inşasını anlatan yazıtlarıyla tanınır.","yer_id":"","kaynak":"Louvre, 'Statue de Gudea' AO 6 (https://collections.louvre.fr/ark:/53355/cl010119544) — «Gudea, prince de Lagash», Neo-Sümer, MÖ ~2120-2110, Tello kazısı (de Sarzec 1877-1881); Treccani, Dizionario di Storia, 'Lagash' — «Al periodo neosumerico (2100 a.C. ca.) risale Gudea»","taraflar":["lagas-2"],"onem":3,"dunya":3,"kapsam":"dis","etiket":["hukumdar","konu-kulturel"],"kaynak_turu":"arkeoloji"},{"t":"-2111-01-01","tur":"hukumdar","k":"hukumdar","b":"Ur-Nammu 'Sümer ve Akad kralı' unvanını alır; Ur ve Sümer'in başlıca kentlerinde zigguratlar yaptırır","gun":"Hükümdarlık başı MÖ 2112 (Ur-Nammu MÖ ~2112-2095; yıl bazında)","yer":"Ur","kisiler":"Ur-Nammu; Utu-hegal","d":"Ur-Nammu, Gutileri Sümer'den kovan Uruk kralı Utu-hegal'in görevlilerinden biriyken onun yerine geçti ve Ur III hanedanını kurdu; Ur'u geniş bir krallığın başkenti yaptı, 'Sümer ve Akad kralı' unvanını aldı. Ur'da ve Sümer'in başlıca kentlerinde zigguratlar yaptırdı. Hükümdarlığı yaklaşık MÖ 2112-2095'tir.","yer_id":"","kaynak":"Treccani, Dizionario di Storia, 'Ur-nammu' (https://www.treccani.it/enciclopedia/ur-nammu_(Dizionario-di-Storia)/) — «re di Sumer e di Akkad», MÖ ~2112-2095; Treccani, 'Uruk' — Utu-hegal Gutileri kovdu (~MÖ 2100) ve Sümer'in canlanmasını başlattı; Treccani, Storia della civiltà europea, 'La III dinastia di Ur' (https://www.treccani.it/enciclopedia/la-iii-dinastia-di-ur_(Storia-della-civilta-Europea)/)","taraflar":["ur-3"],"onem":4,"dunya":3,"kapsam":"dis","etiket":["hukumdar","hanedan-degisimi","konu-siyasi"],"kaynak_turu":"yazili"},{"t":"-2111-01-01","tur":"kanun","k":"kanun","b":"Ur-Nammu kanunları: bilinen en eski yazılı yasa metni (ağırlık-ölçü birliği, fiyat tarifesi, cezalar)","gun":"Ur-Nammu hükümdarlığı içinde (MÖ ~2112-2095); yıl bilinmiyor, hükümdarlık başı yazıldı","yer":"Ur","kisiler":"Ur-Nammu","d":"Ur-Nammu'ya atfedilen yasa metni, bilinen en eski yasa metni sayılır; ağırlık ve ölçülerin birleştirilmesini, fiyat tarifelerini ve cezai yaptırımları içerir. Bu düzenlemeler daha önce şehirden şehre değişiyordu; böylece Sümer ve Akad topraklarında hukuki birlik hedeflendi.","yer_id":"","kaynak":"Treccani, Dizionario di Storia, 'Ur-nammu' (https://www.treccani.it/enciclopedia/ur-nammu_(Dizionario-di-Storia)/) — ağırlık-ölçü birliği, fiyat tarifeleri ve cezalar; Treccani, 'La III dinastia di Ur' — «il più antico testo legislativo noto»","taraflar":["ur-3"],"onem":4,"dunya":4,"kapsam":"dis","etiket":["konu-hukuk","konu-siyasi"],"kaynak_turu":"yazili"},{"t":"-2073-01-01","tur":"hukumdar","k":"hukumdar","b":"Şulgi: ilk yirmi yıl iç reformlar ve kral tanrılaştırılması; ardından Zagros-Asur seferleri evresi","gun":"Şulgi MÖ 2094-2047; ilk yirmi yılın sonu ~MÖ 2074 (yaklaşık, türetilmiş)","yer":"Ur","kisiler":"Şulgi","d":"Ur-Nammu'nun oğlu Şulgi (MÖ ~2094-2047) saltanatının ilk yirmi yılını inşa, kült ve idareye ayırdı: ordu ve kadastro reformları yapıldı, krallık kral tarafından atanan valilerin yönettiği eyaletlere bölündü ve kral yaşarken tanrılaştırıldı. İkinci evrede Zagros eteklerindeki Hurrilere, Aşur'a ve Habur üçgenine seferler düzenlendi, Elam'la hanedan evlilikleriyle ilişki kuruldu.","yer_id":"","kaynak":"Treccani, Dizionario di Storia, 'Shulgi' (https://www.treccani.it/enciclopedia/shulgi_(Dizionario-di-Storia)/) — «il primo ventennio fu consacrato ad attività edilizie, di culto e amministrazione»; Treccani, 'La III dinastia di Ur' (Şulgi yaklaşık elli yıl hükümdar, ilk yirmi yıl iç reformlar, sonra sınır seferleri; yaşarken tanrılaştırıldı)","taraflar":["ur-3"],"onem":4,"dunya":3,"kapsam":"dis","etiket":["hukumdar","konu-siyasi","konu-askeri"],"kaynak_turu":"yazili"},{"t":"-2036-01-01","tur":"savas","k":"savas","b":"Şu-Sin döneminde Amorit baskısı: kuzeyde Martu duvarı; Şimaşki çatışmasından sonra doğu eyaletleri vergi ödemeyi bırakır","gun":"Şu-Sin MÖ ~2037-2029; yıl bilinmiyor, hükümdarlık başı yazıldı","yer":"Ur (Mezopotamya sınırı)","kisiler":"Şu-Sin; Amoritler (Martu); Şimaşki","d":"Treccani'nin Ur III anlatısına göre Şu-Sin (Amar-Sin'in kardeşi ve halefi), Amorit baskısı nedeniyle kuzeyde bir sur inşa ettirdi; Şimaşki ile yaşanan çatışmanın ardından doğu eyaletleri vergi ödemeyi bırakmaya başladı. Bu, Ur III'ün merkezî kontrolünün çözülmesinin ilk işaretleridir.","yer_id":"","kaynak":"Treccani, Storia della civiltà europea, 'La III dinastia di Ur' (https://www.treccani.it/enciclopedia/la-iii-dinastia-di-ur_(Storia-della-civilta-Europea)/) — Şu-Sin'in duvarı ve Şimaşki sonrası vergi kesilmesi","taraflar":["ur-3"],"onem":3,"dunya":2,"kapsam":"dis","etiket":["savas","konu-askeri","toprak-kayip"],"kaynak_turu":"yazili"},{"t":"-2003-01-01","tur":"yikilis","k":"yikilis","b":"Şimaşki kralı Kindattu Ur'u yağmalar ve son Ur III kralı İbbi-Sin'i esir alır; Isin ve Larsa egemenlik iddia eder","gun":"MÖ 2004 (yıl; orta kronoloji, Ur III bitişi)","yer":"Ur","kisiler":"İbbi-Sin; Kindattu (Şimaşki); Işbi-Erra (Isin)","d":"Treccani'ye göre İbbi-Sin döneminde eyaletler kopmuş, Isin valisi Işbi-Erra Amorit tehdidini gerekçe göstererek Ur'a tahıl göndermemiş ve Nippur'u kendi yönetimine katmıştı; Lagaş ve Umma da ayrılmıştı. Şimaşki kralı Kindattu Ur'u yağmalayıp İbbi-Sin'i esir aldı. Elam saldırısında şehrin düşüşü iki ağıt metninde anıldı; ardından Isin ve Larsa krallıkları sırayla egemenlik iddia etti.","yer_id":"","kaynak":"Treccani, Storia della civiltà europea, 'La III dinastia di Ur' (https://www.treccani.it/enciclopedia/la-iii-dinastia-di-ur_(Storia-della-civilta-Europea)/) — Kindattu, Ur'u yağmaladı ve İbbi-Sin'i esir aldı; Treccani, Dizionario di Storia, 'Ur' — Elam saldırısı ve iki ağıt; Treccani, Enciclopedia dei ragazzi, 'Gilgamesh' — Ur III MÖ 2112-2004","taraflar":["ur-3"],"onem":5,"dunya":4,"kapsam":"dis","etiket":["yikim","hanedan-degisimi","konu-siyasi","konu-askeri"],"kaynak_turu":"yazili"},{"t":"-2003-01-01","tur":"olay","k":"olay","b":"Sümerce konuşma dili olarak ölür, yalnız okul ve kült dili olarak yaşar (Ur III sonu, yaklaşık)","gun":"MÖ ~2004 (yaklaşık; 'hanedanın sonunda' ifadesinden)","yer":"Mezopotamya","kisiler":"","d":"Treccani'ye göre Sümerce Ur III imparatorluğu boyunca idari yazı dili olarak yaygınlaştı, ancak konuşma dili olarak gerilemiş ve hanedanın sonunda ölü bir dil hâline gelmişti. Sonraki dönemlerde Sami kökenli kâtipler Sümerceyi okullarda öğrenerek yaşatmayı sürdürdü. Süreç tek bir günde değil, onlarca yıllık bir dönemde gerçekleşmiştir.","yer_id":"","kaynak":"Treccani, Storia della civiltà europea, 'La III dinastia di Ur' (https://www.treccani.it/enciclopedia/la-iii-dinastia-di-ur_(Storia-della-civilta-Europea)/) — Sümerce, hanedanın sonunda ölü dil; Treccani, Enciclopedia Italiana, 'Sumeri' — sonraki yüzyıllarda halkın büyük kısmı Sami","taraflar":["ur-3"],"onem":4,"dunya":4,"kapsam":"dis","etiket":["konu-kulturel"],"kaynak_turu":"yazili"}];
+// -*- coding: utf-8 -*-
+// =====================================================================
+// ANTİK — SÜMER DÜNYASI çok künyeli kronoloji (window.KRONOLOJI_COK_ANTIK_SUMER)
+// Künyeler: kis-egemenlik · uruk-erken-hanedan · ur-1-hanedan · umma-erken-hanedan ·
+//           sumer-lagas-1 · lagas-2 · ur-3 (devletler.js'teki mevcut kronoloji:[] dizileriyle ÇİFTLENMEZ).
+// Tarih konvansiyonu: Mezopotamya ORTA kronoloji. Yıl yazımı atlasın astronomik sayımıdır:
+//   MÖ N yılı  ->  "-(N-1)-01-01"  (MÖ 2112 = "-2111"); devletler.js f/t günleriyle aynı sistem.
+// Gün bilgisi hiçbir maddede yoktur; "gun" alanı hassasiyeti (yıl / yaklaşık / hükümdarlık başı) söyler.
+// Kaynaklar (gerçekten okunanlar): Treccani Dizionario di Storia (Ur, Ur-nammu, Shulgi, Uruk, Umma,
+//   Lugalzaggesi, Lagash, Kish) · Treccani Storia della civiltà europea "La III dinastia di Ur" ·
+//   Treccani Enciclopedia Italiana "Sumeri", "Ur" · Treccani Enciclopedia dei ragazzi "Gilgamesh" ·
+//   Louvre koleksiyon kayıtları (AO 6, AO 3004, AO 3149, AO 2674 vb. — collections.louvre.fr).
+// Okunamayan/teyitsiz: ETCSL (bağlantı reddedildi), Britannica (403), RIME/RlA (erişilemedi).
+// Madde sayısı: 12
+// =====================================================================
+window.KRONOLOJI_COK_ANTIK_SUMER = [
+{"t":"-2599-01-01","tur":"hukumdar","k":"hukumdar","b":"Gılgameş: Uruk'un 'ilk hanedanı' geleneği ve Kiş kralı Agga'yla rekabeti (kral listesi geleneği)","gun":"MÖ ~2600 (yaklaşık; Şuruppak tanrı adları listesindeki anılma tarihi)","yer":"Uruk","kisiler":"Gılgameş; Agga (Kiş)","d":"Gılgameş'in adı Şuruppak'tan MÖ ~2600'e tarihlenen bir tanrı adları listesinde geçer; Sümer Kral Listesi onu Uruk'un ilk hanedanının beşinci kralı, Kiş kralı Agga'yı da rakibi olarak anar. Ona atfedilen surlar, Uruk'un MÖ 3. binyıl başındaki yaklaşık 100 hektarlık sur içi kentiyle ilişkilendirilir. Gılgameş'in tarihsel bir kral olup olmadığı belirsizdir; Enmerkar-Lugalbanda-Gılgameş hanedanı geleneksel (kral listesi) anlatıdır, hükümdarlık yılları yazıtla doğrulanmış değildir.","yer_id":"","kaynak":"Treccani, Enciclopedia dei ragazzi, 'Gilgamesh' (https://www.treccani.it/enciclopedia/gilgamesh_(Enciclopedia-dei-ragazzi)/) — «in un elenco di nomi divini di Shuruppak, datato intorno al 2600 a.C.»; Treccani, Dizionario di Storia, 'Uruk' (https://www.treccani.it/enciclopedia/uruk_(Dizionario-di-Storia)/); 'Kish' (https://www.treccani.it/enciclopedia/kish_(Dizionario-di-Storia)/) — Agga, Gılgameş'in rakibi olarak kral listesinde","taraflar":["uruk-erken-hanedan","kis-egemenlik"],"onem":3,"dunya":3,"kapsam":"dis","etiket":["hukumdar","konu-siyasi"],"kaynak_turu":"yazili","ic_not_t":"Tarih, Gılgameş'in hükümdarlık yılı değil, adının en erken belgelenen anılışıdır (Şuruppak listesi, MÖ ~2600); orta kronoloji. Madde künye penceresinin ilk gününe oturur (f=-2599).","ic_not":"Kral listesi geleneği ile doğrulanan ayrımı: Gılgameş, Enmerkar, Lugalbanda ve Agga'nın kral listesindeki sırası ve hükümdarlık süreleri gelenektir; bu okunan kaynaklarda yazıtla teyit edilmiş değildir. Yalnız Gılgameş adının MÖ ~2600 tanrı listesindeki geçişi yazılı belgedir (Treccani). Treccani Uruk, Eanna hanedanını (Enmerkar, Lugalbanda, Gılgameş) 'efsanevi', I. ve II. Uruk hanedanını 'tarihsel' sayar. Agga/Enmebaragesi/Etana (Kiş I. hanedanı) için okunabilir akademik kaynak bulunamadığından ayrı madde yazılmadı."},
+{"t":"-2499-01-01","tur":"kurulus","k":"kurulus","b":"Ur Kraliyet Mezarlığı dönemi: Meskalamdug ve eşi Şubad'ın gömüldüğü zengin mezarlar (Erken Hanedan IIIa)","gun":"MÖ ~2500-2450 (yaklaşık; aralığın başı)","yer":"Ur","kisiler":"Meskalamdug; Şubad (Puabi); Mesannepadda","d":"Woolley'in 1920'lerde Ur'da açtığı Kraliyet Mezarlığı'nın en zengin mezarları Erken Hanedan IIIa'ya, yaklaşık MÖ 2500-2450'ye tarihlenir; hizmetkârlar ve görevliler hükümdarlarıyla birlikte gömülmüştür. Bu mezarları, Sümer Kral Listesi'ndeki I. ve II. Ur hanedanlarının kralları (Mesannepadda, Lugalkisalsi) izler.","yer_id":"","kaynak":"Treccani, Dizionario di Storia, 'Ur' (https://www.treccani.it/enciclopedia/ur_(Dizionario-di-Storia)/) — mezarlık ED IIIa, yaklaşık MÖ 2500-2450; Treccani, Enciclopedia Italiana, 'Ur' (https://www.treccani.it/enciclopedia/ur_(Enciclopedia-Italiana)/) — Meskalamdug ve eşi Şubad en eski mezar sahipleri arasında, kazılar Hall 1919, Woolley 1933'e dek","taraflar":["ur-1-hanedan"],"onem":3,"dunya":3,"kapsam":"dis","etiket":["konu-kulturel"],"kaynak_turu":"arkeoloji","ic_not_t":"Aralık MÖ ~2500-2450 (Treccani); aralığın ilk yılı yazıldı, ± yarım yüzyıl. Orta kronoloji.","ic_not":"ÇELİŞKİ: ur-1-hanedan künyesinin özeti mezarlığı MÖ ~2600-2500'e koyar (ikincil kaynak); okunan Treccani Dizionario ED IIIa = MÖ ~2500-2450 verir. Treccani Enciclopedia Italiana (eski, 1930'lar) I. hanedanı MÖ 3000 öncesine koyar; bu eski kronolojidir ve kullanılmadı. Puabi adı bu iki Treccani maddesinde geçmediği için kişi alanına Şubad (Treccani'deki yazım) ile birlikte yazılmıştır; kimlik eşlemesi ayrıca teyit gerektirir."},
+{"t":"-2499-01-01","tur":"kurulus","k":"kurulus","b":"Lagaş bağımsız şehir devleti: Ur-Nanşe'den Urukagina'ya uzanan I. Lagaş hanedanı","gun":"MÖ ~2500 (yaklaşık; Treccani aralığı 2500-2350)","yer":"Lagaş (Girsu)","kisiler":"Ur-Nanşe; Urukagina","d":"Erken Hanedan III'te (yaklaşık MÖ 2500-2350) Lagaş, Ur-Nanşe'den Urukagina'ya uzanan bir hanedanla yönetilen bağımsız bir şehir devletiydi ve komşusu Umma ile savaştı. Şehrin başlıca tanrısı Ningirsu'ydu; Girsu (Tello) kazılarından çıkan yazıtlı koniler ve steller hanedanın başlıca belgeleridir.","yer_id":"","kaynak":"Treccani, Dizionario di Storia, 'Lagash' (https://www.treccani.it/enciclopedia/lagash_(Dizionario-di-Storia)/) — «da Ur-Nanshe a Urukagina»; Treccani, Enciclopedia Italiana, 'Sumeri' (Lagaş-Umma rekabeti yazıtlarla belgeli, tanrı Ningirsu)","taraflar":["sumer-lagas-1"],"onem":3,"dunya":2,"kapsam":"dis","etiket":["kurulus","konu-siyasi"],"kaynak_turu":"yazili","ic_not_t":"Treccani 'protodinastik III, yaklaşık MÖ 2500-2350'; künye f=-2499 ile aynı onyıl yuvarlaması. Ur-Nanşe'nin kesin yılı okunan kaynakta yok.","ic_not":"Urukagina reformları (Louvre AO 3149 konisi: 'eski günlerin' suistimallerine karşı reformlar) hanedanın sonundadır; Louvre kaydı dönemi yalnız ED IIIb, MÖ ~2500-2340 diye verir, reformların yılı okunan kaynaklarda bulunamadığından ayrı tarihli madde yazılmadı."},
+{"t":"-2419-01-01","tur":"antlasma","k":"antlasma","b":"Entemena döneminde Lagaş-Umma sınır düzenlemesi (Entemena Konisi A)","gun":"MÖ ~2420-2400 (yaklaşık; aralığın başı)","yer":"Lagaş, Umma","kisiler":"Entemena (Lagaş)","d":"Girsu'da bulunan Entemena Konisi A (Louvre AO 3004), Sümerce çivi yazısıyla Lagaş ile Umma arasındaki sınır uyuşmazlığının düzenlenişini anlatır. Uyuşmazlık, iki kentin sulak ve verimli sınır topraklarının kuşaklar boyu çekişilmesinin bir halkasıdır.","yer_id":"","kaynak":"Louvre, 'Cône A d'Entemena' AO 3004 (https://collections.louvre.fr/en/ark:/53355/cl010120625) — «relatant l'histoire d'un règlement de frontières entre Lagash et Umma», ED IIIB, MÖ ~2420-2400; Treccani, 'Umma' (Lagaş'la sık savaşlar, Eannatum yaklaşık MÖ 2420)","taraflar":["sumer-lagas-1","umma-erken-hanedan"],"onem":3,"dunya":2,"kapsam":"dis","etiket":["antlasma","konu-siyasi"],"kaynak_turu":"yazili","ic_not_t":"Louvre aralığı MÖ ~2420-2400; aralığın başı alındı. Koni, düzenlemenin kendisinin değil, anlatımının tarihidir; Entemena'nın tahta çıkış yılı (atlasta -2399) ayrıca varlıkta, çakışma yok.","ic_not":"Konideki sınır olayını anlatan metnin, Eannatum zaferi (Akbabalar Steli: Louvre MÖ ~2450-2425; Treccani MÖ ~2420) ve Mesilim hakemliğiyle bağlantısı Louvre kaydında yoktur; bu çözümlemeler okunan kaynaklarda bulunmadığından yazılmadı. Eannatum/Akbabalar Steli maddesi umma-erken-hanedan ve sumer-lagas-1'de zaten (-2449) bulunduğu için çiftlenmedi; yalnız tarih çelişkisi beyan edilir: mevcut -2449 (MÖ ~2450) Louvre aralığının başıyla uyumlu, Treccani ~2420 ise 30 yıl sonra."},
+{"t":"-2358-01-01","tur":"hukumdar","k":"hukumdar","b":"Lugalzagesi, Umma/Uruk kralı olarak Ur, Lagaş ve Umma'ya hâkim olur; 'Körfez'den Akdeniz'e' egemenlik iddiası","gun":"MÖ ~2359-2335 hükümdarlık (yaklaşık; başlangıç yılı)","yer":"Uruk, Umma","kisiler":"Lugalzagesi; Urukagina","d":"Treccani'ye göre Uruk kralı Lugalzagesi MÖ ~2359-2335 arasında hüküm sürdü; Ur, Lagaş ve Umma gibi Sümer kentlerini yenerek Aşağı Mezopotamya'da üstünlük kurdu ve egemenliğini Basra Körfezi'nden Akdeniz'e uzandığını ilan etti. Urukagina'yı yenmesi Sümer kentlerinin ilk siyasî birleşmesinin temelidir; Sargon'a yenilince bu birleşme Akad çatısı altında sürdü.","yer_id":"","kaynak":"Treccani, Dizionario di Storia, 'Lugalzaggesi' (https://www.treccani.it/enciclopedia/lugalzaggesi_(Dizionario-di-Storia)/) — «Fu a sua volta sconfitto da Sargon di Akkad, che così unificò l'intera Mesopotamia.» (MÖ ~2359-2335); Treccani, 'Umma' (https://www.treccani.it/enciclopedia/umma_res-8f5cbe03-c04d-11e1-bb7e-d5ce3506d72e_(Dizionario-di-Storia)/) — «Il più importante re di U. è Lugalzaggesi», Urukagina'yı yenip Sargon'a ~MÖ 2340'ta yenilir","taraflar":["umma-erken-hanedan","uruk-erken-hanedan"],"onem":4,"dunya":3,"kapsam":"dis","etiket":["hukumdar","toprak-kazanc","konu-siyasi"],"kaynak_turu":"yazili","ic_not_t":"Hükümdarlık başlangıcı: Treccani MÖ ~2359 -> astronomik -2358. Orta kronoloji.","ic_not":"ÇELİŞKİ (beyan): devletler.js'te umma/uruk künyelerinin mevcut kronolojisi Lugalzagesi'yi MÖ ~2352-2327 (Britannica/Penn Museum) ve fethi -2349 olarak yazar; okunan Treccani MÖ ~2359-2335 verir, Sargon yenilgisi için Umma maddesi ayrıca ~MÖ 2340 der (aynı sözlük içinde 5 yıl iç farkı). Sargon'un Akad'ı kurduğu orta kronoloji MÖ 2334'tür (devletler.js akad f=-2333); iki yıl aralığı bu maddeyi sessiz sınır değişimi saymaz çünkü -2333 sınırı mevcut 'son' maddelerince karşılanır. Bu madde çiftleme değil, farklı kaynağın farklı hükümdarlık aralığıdır; editör hangisinin esas alınacağına karar vermelidir."},
+{"t":"-2119-01-01","tur":"hukumdar","k":"hukumdar","b":"Gudea: Ba'u'ya adanmış 'geniş omuzlu' heykel ve Ningirsu tapınağı yazıtları (Lagaş II.)","gun":"MÖ ~2120-2110 (yaklaşık; Louvre aralığının başı)","yer":"Girsu (Tello)","kisiler":"Gudea","d":"Louvre'daki 'geniş omuzlu' diyorit Gudea heykeli (AO 6), Lagaş prensinin (ensi) tanrıça Ba'u'ya adanmış bir ibadetçi olarak betimini verir; Girsu'daki Tell A'da 1877-1881 kazılarında bulundu. Treccani'ye göre Gudea Neo-Sümer dönemine (MÖ ~2100) aittir; ensi unvanını taşır, çok sayıda heykeli ve Ningirsu tapınağının inşasını anlatan yazıtlarıyla tanınır.","yer_id":"","kaynak":"Louvre, 'Statue de Gudea' AO 6 (https://collections.louvre.fr/ark:/53355/cl010119544) — «Gudea, prince de Lagash», Neo-Sümer, MÖ ~2120-2110, Tello kazısı (de Sarzec 1877-1881); Treccani, Dizionario di Storia, 'Lagash' — «Al periodo neosumerico (2100 a.C. ca.) risale Gudea»","taraflar":["lagas-2"],"onem":3,"dunya":3,"kapsam":"dis","etiket":["hukumdar","konu-kulturel"],"kaynak_turu":"arkeoloji","ic_not_t":"Louvre AO 6: MÖ ~2120-2110 (heykelin tarihi); aralığın başı alındı.","ic_not":"ÇELİŞKİ (beyan): Gudea'nın saltanatı için lagas-2 künyesi MÖ ~2144-2124 (başka bir Louvre kaydı) kullanır; AO 6 kaydı MÖ ~2120-2110 verir; Treccani ~2100. Üç değer orta kronolojide Gudea döneminin yaklaşık yarım yüzyıllık belirsizliğini gösterir; künye f/t'si değiştirilmedi. Eninnu'nun yapım tarihi okunan kaynaklarda verilmediğinden ayrı madde yazılmadı."},
+{"t":"-2111-01-01","tur":"hukumdar","k":"hukumdar","b":"Ur-Nammu 'Sümer ve Akad kralı' unvanını alır; Ur ve Sümer'in başlıca kentlerinde zigguratlar yaptırır","gun":"Hükümdarlık başı MÖ 2112 (Ur-Nammu MÖ ~2112-2095; yıl bazında)","yer":"Ur","kisiler":"Ur-Nammu; Utu-hegal","d":"Ur-Nammu, Gutileri Sümer'den kovan Uruk kralı Utu-hegal'in görevlilerinden biriyken onun yerine geçti ve Ur III hanedanını kurdu; Ur'u geniş bir krallığın başkenti yaptı, 'Sümer ve Akad kralı' unvanını aldı. Ur'da ve Sümer'in başlıca kentlerinde zigguratlar yaptırdı. Hükümdarlığı yaklaşık MÖ 2112-2095'tir.","yer_id":"","kaynak":"Treccani, Dizionario di Storia, 'Ur-nammu' (https://www.treccani.it/enciclopedia/ur-nammu_(Dizionario-di-Storia)/) — «re di Sumer e di Akkad», MÖ ~2112-2095; Treccani, 'Uruk' — Utu-hegal Gutileri kovdu (~MÖ 2100) ve Sümer'in canlanmasını başlattı; Treccani, Storia della civiltà europea, 'La III dinastia di Ur' (https://www.treccani.it/enciclopedia/la-iii-dinastia-di-ur_(Storia-della-civilta-Europea)/)","taraflar":["ur-3"],"onem":4,"dunya":3,"kapsam":"dis","etiket":["hukumdar","hanedan-degisimi","konu-siyasi"],"kaynak_turu":"yazili","ic_not_t":"Hükümdarlık başı (MÖ 2112) künye f=-2111 ile aynı; Treccani Dizionario Ur-Nammu için MÖ ~2112-2095. Orta kronoloji.","ic_not":"ur-3 künyesinde kuruluş maddesi (-2111) zaten vardır; bu madde Utu-hegal'den devralma, unvan ve zigurat bilgisini ekler. Treccani Enciclopedia Italiana (1961) Ur-Nammu'nun bağımsızlığını 'MÖ ~2060' diye verir, eski kronolojidir, kullanılmadı; 1930 Enciclopedia Italiana'daki MÖ 2294 de aynı nedenle kullanılmadı. Utu-hegal'in kesin yılı okunan kaynakta yok (Treccani yalnız ~MÖ 2100); kuruluşu Ur-Nammu'dan öncelemesi dışında tarih yazılmadı. Treccani Storia della civiltà europea Ur-Nammu'nun Lagaş'ı denetimine aldığını ve Elamlılarla savaşırken öldüğünü söyler; ölüm tarihi ve koşulu başka bir kaynakla teyitsiz olduğundan ayrı madde yazılmadı."},
+{"t":"-2111-01-01","tur":"kanun","k":"kanun","b":"Ur-Nammu kanunları: bilinen en eski yazılı yasa metni (ağırlık-ölçü birliği, fiyat tarifesi, cezalar)","gun":"Ur-Nammu hükümdarlığı içinde (MÖ ~2112-2095); yıl bilinmiyor, hükümdarlık başı yazıldı","yer":"Ur","kisiler":"Ur-Nammu","d":"Ur-Nammu'ya atfedilen yasa metni, bilinen en eski yasa metni sayılır; ağırlık ve ölçülerin birleştirilmesini, fiyat tarifelerini ve cezai yaptırımları içerir. Bu düzenlemeler daha önce şehirden şehre değişiyordu; böylece Sümer ve Akad topraklarında hukuki birlik hedeflendi.","yer_id":"","kaynak":"Treccani, Dizionario di Storia, 'Ur-nammu' (https://www.treccani.it/enciclopedia/ur-nammu_(Dizionario-di-Storia)/) — ağırlık-ölçü birliği, fiyat tarifeleri ve cezalar; Treccani, 'La III dinastia di Ur' — «il più antico testo legislativo noto»","taraflar":["ur-3"],"onem":4,"dunya":4,"kapsam":"dis","etiket":["konu-hukuk","konu-siyasi"],"kaynak_turu":"yazili","ic_not_t":"Okunan kaynakta yasanın yılı verilmez; hükümdarlık başı (künye f) 'yıl bilinmiyor' beyanıyla yazılmıştır, tarihlenmiş bir olay değildir. Yazıldığı yıl bulunursa taşınmalıdır.","ic_not":"Yasa metninin Nippur parçaları (Kramer 1952) ve yazar/hükümdar atfı (Ur-Nammu mu Şulgi mi tartışması) okunabilir akademik kaynakta bulunamadığından beyana dahil edilmedi; bu madde yalnız Treccani'nin 'Ur-Nammu'ya atfedilen en eski yasa metni' cümlesine dayanır."},
+{"t":"-2073-01-01","tur":"hukumdar","k":"hukumdar","b":"Şulgi: ilk yirmi yıl iç reformlar ve kral tanrılaştırılması; ardından Zagros-Asur seferleri evresi","gun":"Şulgi MÖ 2094-2047; ilk yirmi yılın sonu ~MÖ 2074 (yaklaşık, türetilmiş)","yer":"Ur","kisiler":"Şulgi","d":"Ur-Nammu'nun oğlu Şulgi (MÖ ~2094-2047) saltanatının ilk yirmi yılını inşa, kült ve idareye ayırdı: ordu ve kadastro reformları yapıldı, krallık kral tarafından atanan valilerin yönettiği eyaletlere bölündü ve kral yaşarken tanrılaştırıldı. İkinci evrede Zagros eteklerindeki Hurrilere, Aşur'a ve Habur üçgenine seferler düzenlendi, Elam'la hanedan evlilikleriyle ilişki kuruldu.","yer_id":"","kaynak":"Treccani, Dizionario di Storia, 'Shulgi' (https://www.treccani.it/enciclopedia/shulgi_(Dizionario-di-Storia)/) — «il primo ventennio fu consacrato ad attività edilizie, di culto e amministrazione»; Treccani, 'La III dinastia di Ur' (Şulgi yaklaşık elli yıl hükümdar, ilk yirmi yıl iç reformlar, sonra sınır seferleri; yaşarken tanrılaştırıldı)","taraflar":["ur-3"],"onem":4,"dunya":3,"kapsam":"dis","etiket":["hukumdar","konu-siyasi","konu-askeri"],"kaynak_turu":"yazili","ic_not_t":"TÜRETİLMİŞ yaklaşık tarih: Treccani 'ilk yirmi yıl' der (MÖ 2094 + 20 yıl); iki evre sınırı kaynakta yıllandırılmamıştır. Tanrılaştırmanın kesin yılı okunan kaynakta yok.","ic_not":"ÇELİŞKİ (beyan): Treccani 'Shulgi' maddesi Martu (Amorit) duvarını Şulgi'ye atfeder; Treccani 'La III dinastia di Ur' aynı duvarı Şu-Sin'e atfeder (bkz. -2036 maddesi). Hangisi doğru, okunan kaynaklarda çözülemedi; atlas ikisini ayrı tutar, kesin hüküm yoktur. Şulgi'nin Elam'la hanedan evlilikleri Şu-Sin döneminde Şimaşki sorunlarıyla çelişmez (evlilikler önce, kopuş sonra)."},
+{"t":"-2036-01-01","tur":"savas","k":"savas","b":"Şu-Sin döneminde Amorit baskısı: kuzeyde Martu duvarı; Şimaşki çatışmasından sonra doğu eyaletleri vergi ödemeyi bırakır","gun":"Şu-Sin MÖ ~2037-2029; yıl bilinmiyor, hükümdarlık başı yazıldı","yer":"Ur (Mezopotamya sınırı)","kisiler":"Şu-Sin; Amoritler (Martu); Şimaşki","d":"Treccani'nin Ur III anlatısına göre Şu-Sin (Amar-Sin'in kardeşi ve halefi), Amorit baskısı nedeniyle kuzeyde bir sur inşa ettirdi; Şimaşki ile yaşanan çatışmanın ardından doğu eyaletleri vergi ödemeyi bırakmaya başladı. Bu, Ur III'ün merkezî kontrolünün çözülmesinin ilk işaretleridir.","yer_id":"","kaynak":"Treccani, Storia della civiltà europea, 'La III dinastia di Ur' (https://www.treccani.it/enciclopedia/la-iii-dinastia-di-ur_(Storia-della-civilta-Europea)/) — Şu-Sin'in duvarı ve Şimaşki sonrası vergi kesilmesi","taraflar":["ur-3"],"onem":3,"dunya":2,"kapsam":"dis","etiket":["savas","konu-askeri","toprak-kayip"],"kaynak_turu":"yazili","ic_not_t":"Şu-Sin hükümdarlığı MÖ ~2037-2029 (Ur III kral sırası); olayın yılı okunan kaynakta verilmez, hükümdarlık başı yazıldı: yıl bilinmiyor.","ic_not":"ÇELİŞKİ (beyan): duvarın hangi krala ait olduğu için bkz. -2073 maddesi (Treccani 'Shulgi' ile 'III dinastia di Ur' birbirinden ayrılır). Şimaşki çatışmasının türü (savaş mı, elçi/evlilik krizi mi) okunan kaynaklarda ayrıntılı değildir."},
+{"t":"-2003-01-01","tur":"yikilis","k":"yikilis","b":"Şimaşki kralı Kindattu Ur'u yağmalar ve son Ur III kralı İbbi-Sin'i esir alır; Isin ve Larsa egemenlik iddia eder","gun":"MÖ 2004 (yıl; orta kronoloji, Ur III bitişi)","yer":"Ur","kisiler":"İbbi-Sin; Kindattu (Şimaşki); Işbi-Erra (Isin)","d":"Treccani'ye göre İbbi-Sin döneminde eyaletler kopmuş, Isin valisi Işbi-Erra Amorit tehdidini gerekçe göstererek Ur'a tahıl göndermemiş ve Nippur'u kendi yönetimine katmıştı; Lagaş ve Umma da ayrılmıştı. Şimaşki kralı Kindattu Ur'u yağmalayıp İbbi-Sin'i esir aldı. Elam saldırısında şehrin düşüşü iki ağıt metninde anıldı; ardından Isin ve Larsa krallıkları sırayla egemenlik iddia etti.","yer_id":"","kaynak":"Treccani, Storia della civiltà europea, 'La III dinastia di Ur' (https://www.treccani.it/enciclopedia/la-iii-dinastia-di-ur_(Storia-della-civilta-Europea)/) — Kindattu, Ur'u yağmaladı ve İbbi-Sin'i esir aldı; Treccani, Dizionario di Storia, 'Ur' — Elam saldırısı ve iki ağıt; Treccani, Enciclopedia dei ragazzi, 'Gilgamesh' — Ur III MÖ 2112-2004","taraflar":["ur-3"],"onem":5,"dunya":4,"kapsam":"dis","etiket":["yikim","hanedan-degisimi","konu-siyasi","konu-askeri"],"kaynak_turu":"yazili","ic_not_t":"Orta kronoloji MÖ 2004 -> astronomik -2003 (künye t ile aynı); Treccani Ragazzi 'Ur III 2112-2004'. Kısa kronolojide yaklaşık 64 yıl sonra olurdu (okunan kaynakta yok; sadece konvansiyon notu).","ic_not":"Çiftleme notu: ur-3 künyesinde -2003 'son' maddesi zaten vardır (Frayne); bu madde Kindattu/Şimaşki, Işbi-Erra'nın kopuşu ve ağıt metinlerini ekler. Işbi-Erra'nın Nippur'u alışının yılı okunan kaynakta yok (İbbi-Sin döneminde); ayrı madde yazılmadı. Isin künye f=-2016 (Işbi-Erra ~MÖ 2017/2018) ile Ur'un düşüşü (MÖ 2004) arasındaki ~13 yıllık fark bu madde sınırına bağlı değildir, ancak isin künyesinin f'si Treccani'de teyit edilmemiştir (öneri: Isin'in kuruluşu ayrı kaynakla teyit edilsin)."},
+{"t":"-2003-01-01","tur":"olay","k":"olay","b":"Sümerce konuşma dili olarak ölür, yalnız okul ve kült dili olarak yaşar (Ur III sonu, yaklaşık)","gun":"MÖ ~2004 (yaklaşık; 'hanedanın sonunda' ifadesinden)","yer":"Mezopotamya","kisiler":"","d":"Treccani'ye göre Sümerce Ur III imparatorluğu boyunca idari yazı dili olarak yaygınlaştı, ancak konuşma dili olarak gerilemiş ve hanedanın sonunda ölü bir dil hâline gelmişti. Sonraki dönemlerde Sami kökenli kâtipler Sümerceyi okullarda öğrenerek yaşatmayı sürdürdü. Süreç tek bir günde değil, onlarca yıllık bir dönemde gerçekleşmiştir.","yer_id":"","kaynak":"Treccani, Storia della civiltà europea, 'La III dinastia di Ur' (https://www.treccani.it/enciclopedia/la-iii-dinastia-di-ur_(Storia-della-civilta-Europea)/) — Sümerce, hanedanın sonunda ölü dil; Treccani, Enciclopedia Italiana, 'Sumeri' — sonraki yüzyıllarda halkın büyük kısmı Sami","taraflar":["ur-3"],"onem":4,"dunya":4,"kapsam":"dis","etiket":["konu-kulturel"],"kaynak_turu":"yazili","ic_not_t":"YAKLAŞIK/SÜREÇ: 'ölüm tarihi' tek yıl değildir; okunan kaynak 'hanedanın sonu' der, madde künye sonuna (MÖ 2004) oturtulmuştur. Treccani Enc. Italiana (1961) 'ölü' sözcüğünü kullanmaz, yalnız Sami çoğunluğunu söyler.","ic_not":"Sümerce'nin konuşulur dil olarak yok olma zamanı akademik olarak tartışmalıdır (okunan Treccani maddesi hanedan sonu der; daha erken Akad dönemi gerilemesi ve daha geç Eski Babil'e dek canlılık savları okunabilir kaynakla doğrulanmadı). Bu yüzden önem (4) edebî ve kültürel etkiye göredir, tarih kesin değildir."}
+];
 
 ;
 /* ==== data/olay_taraf.js ==== */
@@ -780,7 +4482,6 @@ window.OLAY_TARAF = {
  "0298-01-01|Nisibis (Nusaybin) Antlaşması: Galerius Narseh’i yendi; Dicle ötesi toprak Roma’ya geçti": ["roma-imp","sasani"],
  "0304-01-01|Çengdu (Chengdu): sahipsiz aralık → Cheng-Han (成漢)": ["cheng-han"],
  "0309-01-01|II. Şapur doğuşundan itibaren Sasani tahtına çıktı (309-379)": ["sasani"],
- "0330-05-11|Konstantinopolis Bizans (Doğu Roma) başşehri olarak açıldı": ["bizans","roma-imp"],
  "0347-01-01|Çengdu (Chengdu): Cheng-Han (成漢) dönemi sona erer": ["cheng-han"],
  "0349-01-01|Aksum kralı Ezana Kush'u yendi; Meroe krallığı sona erdi (c. MS 350)": ["aksum","kush-krallik"],
  "0349-01-01|Meroe: sahip dönemi sona erer — Kus (Napata–Meroe) Krallığı": ["kush-krallik"],
@@ -1032,7 +4733,6 @@ window.OLAY_TARAF = {
  "0992-01-01|Hârun Buğra Han Semerkant'ı aldı; Karahanlılar Mâverâünnehir'e ilk kez girdi": ["karahanli","samani"],
  "0992-05-07|Karahanlı Hârun Buğra Han Buhara'yı ele geçirdi": ["karahanli","samani"],
  "0992-05-25|Mieszko I öldü; oğlu Bolesław Chrobry birliği yeniden sağladı": ["polonya-erken"],
- "0992-08-18|II. Nûh Selçuklu Türkmenleri'nin yardımıyla Buhara'ya yeniden hâkim oldu": ["samani"],
  "0994-03-01|Li Shun'un isyancıları Chengdu'yu aldı (Wang Xiaobo-Li Shun ayaklanması)": ["song"],
  "0996-01-25|Sebük Tegin aracılığıyla yapılan anlaşmayla Siriderya sahası Katvân'a kadar Karahanlılar'da kaldı; Fâik Semerkant valisi oldu": ["karahanli","samani","gazneli"],
  "0997-01-01|Géza'nın ardından oğlu István Büyük Prens oldu": ["macar-prensligi"],
@@ -2558,7 +6258,7 @@ window.OLAY_TARAF = {
  "536-12-09|Belisarios Roma'ya girdi: Roma Ostrogot yönetiminden Bizans'a geçti": ["bizans","dogu-got"],
  // 🏷 10 Kasım 2026 (KRON-ETIKET): dünya eşiğini geçip sahibi yazılmamış 10 dış madde — ana listede
  // çıplak "🌍 Dünya" çipi taşıyor ve hiçbir künye kronolojisine inmiyordu. Sahip künye, pencere içinde.
- "0330-05-11|Konstantinopolis törenle açıldı; imparatorluğun merkezi fiilen doğuya kaydı": ["roma-imp"],
+ "0330-05-11|Konstantinopolis törenle açıldı; imparatorluğun merkezi fiilen doğuya kaydı": ["roma-imp","bizans"],
  "0749-11-28|Kûfe'de Ebü'l-Abbas'a biat edildi; Abbâsî hilâfeti kuruldu": ["abbasi"],
  "0911-01-01|Saint-Clair-sur-Epte Antlaşması: Basit Charles Normanlara bugünkü Normandiya'yı bırakır": ["normandiya"],
  "0945-12-19|Büveyhî Ahmed (Muizzüddevle) Bağdat'a girdi; şehir Büveyhî hâkimiyetine geçti": ["buveyhi","abbasi"],
