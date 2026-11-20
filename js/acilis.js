@@ -39,6 +39,10 @@
     var p = null;
     try { p = new URLSearchParams(location.search).get("acilis"); } catch (e) { /* eski tarayıcı */ }
     if (p) return /^yok$/i.test(p) ? { kapali: true } : (satir(p, "url") || satir("DUNYA", "url?"));
+    // ACILIS-KAMERA-1120: perde/dil ile AYNI ülke (data/acilis_ulke.js ZIYARETCI; ?ulke=XX dahil).
+    // İki ayrı tespit ayrışınca perde Yunan, harita Osmanlı açılıyordu.
+    var zy = window.ZIYARETCI;
+    if (zy && zy.ulke) { var rz = satir(zy.ulke, "ziyaretci " + (zy.yol || "")); if (rz) return rz; }
     var sd = "";
     try { sd = Intl.DateTimeFormat().resolvedOptions().timeZone || ""; } catch (e) { /* yok */ }
     var r = satir(SAAT_DILIMI[sd], "tz " + sd);
@@ -110,27 +114,19 @@
     console.log("Atlas açılış: " + sec.ulke + " (" + sec.yol + ") → " + (sonuc || "uygulanamadı"));
   }
 
-  // ⚠️ PETEK GÖVDE YARIŞI (ölçüldü, 10 Kasım 2026): app.js `vassalIcSinirGuncelle`
-  // PETEK_GOVDE'yi (petek_govde_ust.js) görünce PETEK_GOVDE_PARCA'yı (parça dosyası,
-  // sonra çözülür) hazır sanıyor; arada gelen çağrı `PP[pi]`de çöküyor. Açılış
-  // 1453 gibi tâbili bir güne atlayınca ilk yüklemede tetikleniyordu. Asıl düzeltme
-  // app.js'te (iki yerde "ikisi de hazır mı"); o yapılana kadar açılış iki parçanın
-  // da inmesini bekler. Gövde zaten tâbili her günde yüklenir — ek indirme yok.
-  function govdeHazir() {
-    return !!window.PETEK_GOVDE_PARCA ||
-           (typeof _PETEK_GOVDE_YUK !== "undefined" && _PETEK_GOVDE_YUK.hata) ||
-           typeof _petekGovdeYukle !== "function";
-  }
-  var bas = Date.now(), govdeIstendi = false;
+  // ACILIS-KAMERA-1120 (Emre, 20 Kasım 2026): açılış eskiden petek gövde PARÇA dosyasının da
+  // inmesini bekliyordu (10 Kasım yarışı: app.js gövdeyi görünce parçayı hazır sanıyordu). O
+  // yarış app.js'te kapandı (DENETIM-1111 / PETEK-GOVDE-YARIS-1111: her kullanım yeri "ikisi de
+  // hazır mı" diye bakar). Bekleme kalınca harita gövde inene kadar (ölçüldü: başsız Chrome'da
+  // ~110 sn) Osmanlı'nın başlangıcında duruyordu — Yunan ziyaretçi 1281 Bitinya'yı görüyordu.
+  // Şimdi harita hazır olur olmaz açılış maddesine gidilir; gövde gerektiren çizimler kendi
+  // yükleyicisini çağırır.
+  var bas = Date.now();
   (function bekle() {
     if (Date.now() - bas > 600000) { console.warn("Atlas açılış: harita 10 dk'da hazır olmadı"); return; }
     // Yavaş bağlantı/arka plan sekmesinde açılış dakikaları bulabilir (ölçüldü: gizli
     // önizleme panelinde > 70 sn). Kullanıcı arada zamanı değiştirirse baslat() çekilir.
     if (!document.documentElement.classList.contains("atlas-hazir")) { setTimeout(bekle, 200); return; }
-    if (!govdeHazir()) {
-      if (!govdeIstendi && !window.PETEK_GOVDE) { govdeIstendi = true; _petekGovdeYukle(function () {}); }
-      setTimeout(bekle, 200); return;
-    }
     setTimeout(baslat, 50);
   })();
 })();
