@@ -290,7 +290,7 @@ window.KRONOLOJI_COK_LIBYA = [
   gun:"1881 (TDV gün vermez)" },
 
 { t:"1895-04-17", b:"Muhammed Mehdî es-Senûsî merkezi Cağbûb'dan Kufra'ya taşıdı", tur:"din", onem:4, dunya:2, kapsam:"dis",
-  etiket:["din","konu-din","konu-siyasi"], yer_id:"Cağbûb", taraflar:["senusi"],
+  etiket:["din","konu-din","konu-siyasi"], yer_id:"", odak_yer:["Cağbûb","Kufra (el-Cûf)"], taraflar:["senusi"],
   d:"İngiliz himayesindeki Mısır hidivinin İngilizlerle Cağbûb'a geleceği haberi üzerine Muhammed Mehdî buradan ayrılmaya karar verdi. Ailesi, kardeşi ve aralarında Ömer el-Muhtâr'ın da bulunduğu yüz kadar talebesiyle Kufra'daki Vâdiülarş'a yola çıktı. Tarikatın merkezinin güneye kayması Senûsiyye'nin Çad havzasına yönelişini hızlandırdı.",
   kaynak:"TDV `senusi-muhammed-mehdi`: \"Kufra’daki Vâdiülarş’a gitmek için 17 Nisan 1895 tarihinde kardeşi Muhammed Şerîf, ailesi ve aralarında Ömer el-Muhtâr’ın da bulunduğu\"",
   gun:"17 Nisan 1895",

@@ -1840,8 +1840,8 @@
     },
     {
      "yol": "data/kronoloji_cok_libya.js",
-     "sha": "7eb8b7bd12b3555a",
-     "bayt": 52137
+     "sha": "2f54e6e3ebffb00e",
+     "bayt": 52170
     },
     {
      "yol": "data/kronoloji_cok_okyanusya.js",
@@ -1949,7 +1949,7 @@
      "bayt": 16289
     }
    ],
-   "bayt": 965385
+   "bayt": 965419
   },
   {
    "paket": "data/paket_38.js",
@@ -2522,8 +2522,8 @@
     },
     {
      "yol": "data/kronoloji_cok_1923_1945.js",
-     "sha": "99f8b44729f506b9",
-     "bayt": 521444
+     "sha": "94cb3833bf060e3c",
+     "bayt": 521472
     },
     {
      "yol": "data/kronoloji_cok_500_1000.js",
@@ -2586,7 +2586,7 @@
      "bayt": 28490
     }
    ],
-   "bayt": 3431888
+   "bayt": 3431915
   },
   {
    "paket": "data/paket_32.js",

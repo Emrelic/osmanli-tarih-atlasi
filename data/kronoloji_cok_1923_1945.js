@@ -1217,6 +1217,7 @@ window.KRONOLOJI_COK_1923_1945 = [
   taraflar:["senusi", "italya"],
   gun:"Ocak 1931 (gün bilinmiyor; TDV senusiyye)",
   yer:"Kufra",
+  yer_id:"Kufra (el-Cûf)",
   yer_kon:[24.18, 23.29],
   d:"Senûsiyye'nin son büyük merkezi Kufra vahası İtalyan kuvvetlerince alındı. Tarikatın Libya'daki toprak hâkimiyeti fiilen sona erdi; direniş yalnız Ömer el-Muhtâr'ın Berka'daki gerillasıyla sürdü.",
   kaynak:"TDV İslâm Ansiklopedisi 'SENÛSİYYE' https://islamansiklopedisi.org.tr/senusiyye : \"iktidarı ele geçiren faşist idare 1926 yılı Şubat ayında Cağbûb’u, 1931 yılı Ocak ayında Kufra’yı ele geçirdi.\"",
