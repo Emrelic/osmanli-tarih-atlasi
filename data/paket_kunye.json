@@ -434,8 +434,8 @@
     },
     {
      "yol": "data/kronoloji_sinir_akdeniz3_1024.js",
-     "sha": "ca0ad4cccc8775be",
-     "bayt": 21370
+     "sha": "57bc7c5aa712fae0",
+     "bayt": 21622
     },
     {
      "yol": "data/kronoloji_sinir_karayip_adalar.js",
@@ -479,8 +479,8 @@
     },
     {
      "yol": "data/kronoloji_sinir_antik_roma.js",
-     "sha": "1278829d19b7be7e",
-     "bayt": 333586
+     "sha": "a3e4a20015833431",
+     "bayt": 334219
     },
     {
      "yol": "data/kronoloji_sinir_antik_hitit.js",
@@ -498,7 +498,7 @@
      "bayt": 17249
     }
    ],
-   "bayt": 3729297
+   "bayt": 3729531
   },
   {
    "paket": "data/paket_10.js",
@@ -2269,8 +2269,8 @@
     },
     {
      "yol": "data/olaylar_ortacag_bekleyen_acik.js",
-     "sha": "abdb6917a0e307dc",
-     "bayt": 161060
+     "sha": "071425b3b328647a",
+     "bayt": 158845
     },
     {
      "yol": "data/olaylar_kunfuze_1016.js",
@@ -2278,7 +2278,7 @@
      "bayt": 6294
     }
    ],
-   "bayt": 1408113
+   "bayt": 1406023
   },
   {
    "paket": "data/paket_34.js",
@@ -2416,11 +2416,11 @@
     },
     {
      "yol": "data/olay_taraf.js",
-     "sha": "683705c188283539",
-     "bayt": 287982
+     "sha": "c6dbd8bdf2a9259e",
+     "bayt": 287776
     }
    ],
-   "bayt": 505574
+   "bayt": 505368
   },
   {
    "paket": "data/paket_31.js",
