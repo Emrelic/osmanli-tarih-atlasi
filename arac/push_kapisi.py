@@ -117,6 +117,19 @@ def kos(adim, komut, cwd):
                        encoding="utf-8", errors="replace")
     print("   %s → çıkış %d (%ds)" % (adim, r.returncode, time.time() - t))
     if r.returncode != 0:
+        # TAM ÇIKTI diske (E1, 20 Kasım 2026): ekrana yalnız son 12 satır düşer; ihlalin hangi
+        # kontrolden geldiği için tam günlük gerekir (din-anlati vakası: yetim dosya satırı 6'daydı).
+        try:
+            kd = os.path.join(tempfile.gettempdir(), "atlas-kapi-log")
+            os.makedirs(kd, exist_ok=True)
+            ad_ = re.sub(r"[^\w.-]+", "_", adim)[:60]
+            yol_ = os.path.join(kd, "%s-%s.log" % (time.strftime("%Y%m%d-%H%M%S"), ad_))
+            with open(yol_, "w", encoding="utf-8") as f_:
+                f_.write("# komut: %s\n# cwd: %s\n# çıkış: %d\n\n=== STDOUT ===\n%s\n\n=== STDERR ===\n%s\n"
+                         % (" ".join(map(str, komut)), cwd, r.returncode, r.stdout or "", r.stderr or ""))
+            print("      TAM GÜNLÜK: " + yol_)
+        except Exception as e_:
+            print("      (tam günlük yazılamadı: %s)" % e_)
         kuyruk = (r.stdout or "").strip().splitlines()[-12:]
         for s in kuyruk:
             print("      | " + s)
