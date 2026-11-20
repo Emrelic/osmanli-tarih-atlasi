@@ -1396,6 +1396,7 @@ Ceviri.ekle("nl","arayuz",{
 "bölge hazır, Enter: nota geç":["gebied klaar, Enter: ga naar notitie", "dc296d2c"],
 "bölge yok — ➕ ile ekle":["geen gebied — voeg toe met ➕", "85f5b897"],
 "bölgesi":["gebied van", "3046e9e0"],
+"c. # [yalnız yıl teyitli; gün teyitsiz]":["ca. # [alleen het jaar is bevestigd; de dag is niet bevestigd]", "bd064a90"],
 "deniz harekâtı":["zeeoperatie", "6f41d2c4"],
 "devlet seçilebilir (Osmanlı + kronolojisi olanlar), tek listede.":["staten kunnen worden gekozen (Ottomaans + die met een chronologie), in één lijst.", "daeceb60"],
 "değişiklik yok":["geen wijziging", "07526d03"],

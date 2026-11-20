@@ -1396,6 +1396,7 @@ Ceviri.ekle("id","arayuz",{
 "bölge hazır, Enter: nota geç":["wilayah siap, Enter: lanjut ke catatan", "dc296d2c"],
 "bölge yok — ➕ ile ekle":["tidak ada wilayah — tambahkan dengan ➕", "85f5b897"],
 "bölgesi":["wilayah", "3046e9e0"],
+"c. # [yalnız yıl teyitli; gün teyitsiz]":["sekitar # [hanya tahun yang terkonfirmasi; hari belum terkonfirmasi]", "bd064a90"],
 "deniz harekâtı":["operasi laut", "6f41d2c4"],
 "devlet seçilebilir (Osmanlı + kronolojisi olanlar), tek listede.":["negara dapat dipilih (Utsmaniyah + yang memiliki kronologi), dalam satu daftar.", "daeceb60"],
 "değişiklik yok":["tidak ada perubahan", "07526d03"],

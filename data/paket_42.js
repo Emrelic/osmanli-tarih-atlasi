@@ -3,52 +3,1281 @@
    Kaynağı değiştirdiysen: py arac/paketle.py yenile
    Tazelik kapıda sınanır: py arac/paketle.py sina */
 /* ==== data/olaylar_2s_1019.js ==== */
-// data/olaylar_2s_1019.js — paketle.py İNCELTTİ: ic_not* alanları yayına gitmez (kaynak dosya değişmedi)
-window.OLAYLAR_2S1019 = [{"bolge":1,"t":"1207-03-05","k":"fetih","onem":3,"dunya":1,"kapsam":"dis","yer_id":"Antalya","b":"Gıyâseddin Keyhusrev Antalya'yı fethetti — Selçuklular Akdeniz'e ulaştı","gun":"5 Mart 1207","yer":"Antalya","kisiler":"I. Gıyâseddin Keyhusrev, Aldobrandini","etiket":["askeri","toprak-kazanc"],"d":"Latinlerin İstanbul'u almasından sonra İtalyan Aldobrandini'nin eline geçen Antalya'yı, Latin idaresinden memnun olmayan Rumların da desteğiyle Anadolu Selçuklu sultanı I. Gıyâseddin Keyhusrev aldı.","kaynak":"TDV `antalya` — AYNEN: \"Nihayet 5 Mart 1207’de Latin idaresinden memnun olmayan Rumlar’ın da desteği ile fethi gerçekleştirdi.\" · hassasiyet: GÜN ‖ [birleştirilen kayıttan] TDV İslâm Ansiklopedisi, ANTALYA maddesi, https://islamansiklopedisi.org.tr/antalya : «5 Mart 1207’de Latin idaresinden memnun olmayan Rumlar’ın da desteği ile fethini gerçekleştirdi» ; TDV İslâm Ansiklopedisi, SELÇUKLULAR maddesi (Anadolu Selçukluları bölümü), https://islamansiklopedisi.org.tr/selcuklular (603/1207)"},{"bolge":1,"t":"1216-01-22","k":"fetih","onem":2,"dunya":1,"kapsam":"dis","yer_id":"Antalya","b":"İzzeddin Keykâvus Antalya'yı Kıbrıslılardan geri aldı","gun":"22 Ocak 1216","yer":"Antalya","kisiler":"I. İzzeddin Keykâvus, Mübârizüddin Ertokuş","etiket":["askeri","toprak-kazanc"],"d":"1212'de Kıbrıs kralının desteğiyle yapılan isyan sonucu elden çıkan Antalya'yı I. İzzeddin Keykâvus yeniden fethetti ve valiliğini tekrar Mübârizüddin Ertokuş'a verdi.","kaynak":"TDV `antalya` — AYNEN: \"fakat 22 Ocak 1216’da İzzeddin Keykâvus tarafından yeniden fethedilerek valiliği tekrar Mübârizüddin Ertokuş’a verildi\" · hassasiyet: GÜN ‖ [birleştirilen kayıttan] TDV İslâm Ansiklopedisi, ANTALYA maddesi, https://islamansiklopedisi.org.tr/antalya : «22 Ocak 1216’da İzzeddin Keykâvus tarafından yeniden fethedilerek»"},{"bolge":1,"t":"1268-03-08","k":"fetih","onem":2,"dunya":1,"kapsam":"dis","yer_id":"Yafa","b":"Baybars Yafa'yı Haçlılardan aldı — Kudüs Krallığı'nın Yafa'daki hâkimiyeti sona erdi","gun":"8 Mart 1268 (20 Cemâziyelâhir 666)","yer":"Yafa","kisiler":"I. Baybars","etiket":["askeri","toprak-kazanc"],"d":"Memlük sultanı I. Baybars Yafa'daki Haçlı hâkimiyetine son verdi, şehri tahrip ettirdi; iç kalenin ahşap ve mermerini Kahire'deki camisinin inşasına gönderdi.","kaynak":"TDV `yafa` — AYNEN: \"Nihayet 20 Cemâziyelâhir 666’da (8 Mart 1268) Memlük Sultanı I. Baybars, Yafa’daki Haçlı hâkimiyetine son verdi\" · hassasiyet: GÜN ‖ [birleştirilen kayıttan] TDV yafa https://islamansiklopedisi.org.tr/yafa : 'Nihayet 20 Cemâziyelâhir 666'da (8 Mart 1268) Memlük Sultanı I. [Baybars] ...' ; TDV haclilar (1268'de Yafa ve Beaufort'un ele geçirilmesi)"},{"bolge":1,"t":"1268-05-18","k":"fetih","onem":3,"dunya":2,"kapsam":"dis","yer_id":"Antakya","odak_yer":["Antakya","İskenderun"],"b":"Baybars Antakya'yı aldı — Antakya Prinkepsliği'nin sonu","gun":"18 Mayıs 1268","yer":"Antakya, İskenderun","kisiler":"I. Baybars","etiket":["askeri","toprak-kazanc"],"d":"Memlük ordusu genel hücumla Antakya surlarını aştı; 170 yıllık Haçlı prinkepsliği sona erdi ve İskenderun da yeniden İslâm topraklarına katıldı.","kaynak":"TDV `antakya` — AYNEN: \"18 Mayıs 1268’de yapılan bir genel hücum sonunda surlardan içeri girildi\" · TDV `iskenderun` — AYNEN: \"1268’de Memlükler’in Antakya Prinkepsliği’ne son vermesi üzerine yeniden İslâm topraklarına katılmıştır\" · hassasiyet: GÜN"},{"bolge":2,"t":"1328-11-05","k":"siyaset","onem":2,"dunya":1,"kapsam":"dis","yer_id":"Konya","b":"Karamanoğulları Konya'yı İlhanlılardan geri aldı","gun":"729 / 1328-29","yer":"Konya, Ilgın","kisiler":"Demirtaş","etiket":["siyaset","toprak-kayip"],"d":"İlhanlı Anadolu valisi Demirtaş'ın Mısır'a kaçmasından sonra Konya yeniden Karamanoğullarının eline geçti. Şehir 1350'de Eretna'ya geçecekti.","kaynak":"TDV `konya` — AYNEN: \"Demirtaş’ın Mısır’a ilticasından sonra Konya tekrar Karamanoğulları’nın eline geçti (729/1328-29).\" · hicrî 729 ∩ 1328-29 → kesişimin ilk günü 1328-11-05 (tablo) · hassasiyet: YIL"},{"bolge":2,"t":"1345-01-01","k":"fetih","onem":2,"dunya":1,"kapsam":"dis","yer_id":"Serez","b":"Stefan Duşan Serez'i Bizans'tan aldı","gun":"1345 (gün teyitsiz)","yer":"Serez","kisiler":"Stefan Duşan","etiket":["askeri","toprak-kayip"],"d":"Bizans iç savaşından yararlanan Sırp kralı Stefan Duşan Serez'i ele geçirdi ve şehri Sırp İmparatorluğu'nun başşehri yaptı.","kaynak":"TDV `serez` — AYNEN: \"1345’te Sırp Kralı Stefan Duşan tarafından ele geçirildiğinde Sırp İmparatorluğu’nun başşehri yapıldı\" · hassasiyet: YIL [yalnız yıl teyitli; gün teyitsiz]"},{"t":"1389-07-01","k":"fetih","onem":1,"dunya":1,"kapsam":"ic","yer_id":"Balçık (Balchik)","b":"Balçık ve Dobruca kıyısı Osmanlı idaresine girdi","gun":"Temmuz 1389'dan sonra","yer":"Balçık (Balchik)","kisiler":"","etiket":["askeri","toprak-kazanc"],"d":"Kosova zaferinin ardından Dobruca kıyısındaki Balçık Osmanlı idaresine girdi. Bölgeyi hemen ardından Eflak voyvodası Mircea işgal edecek, Osmanlı hâkimiyeti 1393'te yeniden kurulacaktı.","kaynak":"TDV `balcik` — AYNEN: \"Balçık bütün Dobruca ile birlikte Temmuz 1389’dan sonra Osmanlılar’ın idaresi altına girdi.\" · hassasiyet: AY (alt sınır)"},{"bolge":1,"t":"1392-10-26","k":"fetih","onem":1,"dunya":1,"kapsam":"dis","yer_id":"Sârî","b":"Mar'aşî Seyyidleri Mâhâneser'de Timur'a teslim oldu — Mâzenderan Timurlulara geçti","gun":"26 Ekim 1392 (8 Zilhicce 794)","yer":"Sârî, Âmül, Bârfurûş (Bâbil), Eşref (Behşehr)","kisiler":"Timur, Seyyid Kemâleddin","etiket":["askeri","toprak-kayip"],"d":"Beş yıllık seferinde Mâzenderan'a giren Timur, Karatogân'da karşısına çıkan Mar'aşîleri Mâhâneser kalesine sıkıştırdı ve teslim aldı. Sârî ile Âmül'de büyük katliam yapıldı; Sârî Kiyâ Efrâsiyâb'ın oğlu İskender Şeyhî'ye verildi.","kaynak":"TDV `marasiler` — AYNEN: \"Mâhâneser Kalesi’ne çekilmek ve 8 Zilhicce 794 (26 Ekim 1392) tarihinde teslim olmak zorunda kaldılar\" · hassasiyet: GÜN"},{"bolge":1,"t":"1412-01-01","kesinlik":"yil","k":"siyaset","onem":1,"dunya":2,"kapsam":"dis","yer_id":"Şibenik (Sebenico)","b":"Şibenik yeniden Venedik Cumhuriyeti'nin idaresine girdi","gun":"1412 (gün kaynakta yok)","yer":"Şibenik (Sebenico), Dalmaçya","kisiler":"","etiket":["siyaset","toprak-kayip"],"d":"Napolili Ladislas'ın Dalmaçya üzerindeki haklarını 1409'da Venedik'e satmasından sonra direnen Şibenik, 1412'de yeniden Venedik idaresine girdi. Şehir 1797'de Cumhuriyet yıkılana kadar Venedik'in Dalmaçya mülkü olarak kaldı.","kaynak":"Hrvatska enciklopedija (LZMK) 'Šibenik' — AYNEN: \"a 1412. ponovno je došao pod vlast Mletačke Republike\" · hassasiyet: YIL · İKİNCİ KAYNAK (14.11.2026, tam metin okundu): Treccani «Sebenico» — \"Dal 1412 al 1797 S. tornò a Venezia\"; 1357-1412 Macar. Gün (30 Ekim 1412) hâlâ teyitsiz"},{"t":"1417-02-18","k":"fetih","onem":2,"dunya":1,"kapsam":"ic","yer_id":"Çankırı","b":"Çelebi Mehmed'in Candaroğulları seferi: Çankırı Osmanlı himayesindeki Kasım Bey'e verildi","gun":"820 başları (1417)","yer":"Çankırı, Kastamonu, Sinop","kisiler":"Çelebi Mehmed, İsfendiyar Bey, Candaroğlu Kasım Bey","etiket":["askeri","toprak-kazanc"],"d":"Şeyh Bedreddin'in Eflak'a geçmesine yardım eden Candaroğlu İsfendiyar Bey'e karşı yürüyen Çelebi Mehmed Kastamonu'ya ilerledi ve İsfendiyar'ın çekildiği Sinop'u kuşattı. İsfendiyar Osmanlı hükümranlığını tanıdı; Ilgaz dağı sınır kabul edilerek Osmanlı'ya sığınmış oğlu Kasım Bey'e Çankırı ve çevresi verildi.","kaynak":"TDV `mehmed-i` — AYNEN: \"Mehmed önce şeyhin Eflak’e geçmesine yardım eden İsfendiyar Bey’e karşı yürüdü (820’nin [1417] başları).\" · TDV `candarogullari` — AYNEN: \"Ilgaz dağı sınır kabul edilerek Osmanlı himayesindeki Kasım Bey’e istediği yerler verildi.\" · TDV `cankiri` — AYNEN: \"Bu sırada İsfendiyaroğlu Kasım Bey Osmanlılar’a sığınınca Çelebi Mehmed Çankırı’yı kendisine verdi.\" · hassasiyet: hicrî yıl başı"},{"bolge":1,"t":"1500-01-01","kesinlik":"yil","k":"fetih","onem":1,"dunya":2,"kapsam":"dis","yer_id":"Bryansk","b":"Moskova Bryansk'ı Litvanya Büyük Dükalığı'ndan aldı","gun":"1500 (gün kaynakta yok)","yer":"Bryansk","kisiler":"III. İvan","etiket":["askeri","toprak-kazanc"],"d":"1500-1503 Moskova-Litvanya savaşında Rus ordusu Bryansk'ı aldı ve şehir Moskova devletine katıldı; 1503 ateşkesi bu kazancı tanıdı.","kaynak":"Visuotinė lietuvių enciklopedija 'Brianskas' — AYNEN: \"1500 užimtas Rusijos kariuomenės ir prijungtas prie Maskvos valstybės.\" · hassasiyet: YIL"},{"t":"1516-08-24","k":"fetih","onem":2,"dunya":1,"kapsam":"ic","yer_id":"Musul","b":"Bıyıklı Mehmed Paşa Musul, Sincar ve İmâdiye'yi Safevî'den aldı","gun":"1516 yazı (Mayıs 1516 Koçhisar zaferinden sonra, Mercidâbık'tan önce) — t ÜST SINIRDIR","yer":"Musul, Sincar, Telafer, Zaho, Duhok, Akra, İmâdiye (Amêdî), Rewândiz, Ceylanpınar, Qaţţīnah, Tirwānīsh","kisiler":"Bıyıklı Mehmed Paşa, İdrîs-i Bitlisî","etiket":["askeri","toprak-kazanc"],"d":"Koçhisar'da Kara Han'ı yenen Bıyıklı Mehmed Paşa Mardin'i kuşatırken çevredeki kaleleri Safevîlerden aldı: Musul, Ruha, Birecik ve Sincar ele geçirildi, İmâdiye ve öteki Kürt hâkimleri Osmanlı tâbiiyetini kabul etti. Mardin kalesi ise Paşa'nın Mercidâbık'tan dönüşünden sonra teslim alınacaktı.","kaynak":"TDV `biyikli-mehmed-pasa` — AYNEN: \"Bu arada Mardin muhasarası sürerken civardaki kalelerden Musul, Ruha, Birecik, Harput, Çermik, Ergani, Palu ve Sincar ele geçirildi.\" · \"Ayrıca İmadiye, Suran, Çapakçur, Palu, Atak, Sason hâkimleri de Osmanlı tâbiiyetini kabul ettiler.\" · hassasiyet: aralık, t üst sınır"},{"bolge":1,"t":"1523-06-06","k":"siyaset","onem":2,"dunya":2,"kapsam":"dis","yer_id":"Stokholm","b":"Gustav Vasa Strängnäs'te kral seçildi — İsveç Krallığı Kalmar Birliği'nden ayrıldı","gun":"6 Haziran 1523","yer":"Borås, Härnösand, Iisalmi, Joensuu, Jokkmokk, Jukkasjärvi, Jyväskylä, Kokkola, Kuopio, Lappeenranta, Luleå, Mikkeli, Mora, Norrköping, Nurmes, Nyköping, Oulu, Pori, Rovaniemi, Savonlinna, Sodankylä, Stokholm, Tampere, Tornio, Umeå, Vaasa, Västerås, Växjö, İnari","kisiler":"Gustav Vasa (I. Gustav), II. Christian","etiket":["siyaset"],"d":"Stockholm Kan Banyosu'ndan (1520) sonra Danimarka kralı II. Christian'a karşı ayaklanan Gustav Eriksson Vasa, Mayıs 1523'te Strängnäs'te toplanan İsveç Riksdag'ında 6 Haziran 1523'te kral seçildi. İsveç ve ona bağlı Finlandiya böylece 1397'den beri süren Kalmar Birliği'nden kesin olarak çıktı ve bağımsız İsveç Krallığı'nın Vasa dönemi başladı.","kaynak":"Encyclopedia of World Biography (Gale) 'Gustavus I' — AYNEN: \"On June 6 it elected Gustavus Vasa king.\" · hassasiyet: GÜN"},{"bolge":1,"t":"1375-01-01","k":"siyaset","onem":1,"dunya":1,"kapsam":"dis","yer_id":"Feldkirch","b":"Feldkirch kontluğu Habsburg Avusturya'sına satıldı","gun":"1375","yer":"Feldkirch","kisiler":"Montfort-Feldkirch kontu Rudolf, III. Leopold","etiket":["siyaset","toprak-kazanc"],"d":"Montfort-Feldkirch kolunun son kontu Rudolf, 1375'te bütün mülkünü Avusturya dükleri Habsburglara sattı; fiilî devir onun ölümüyle (1390) tamamlandı. Feldkirch, Vorarlberg'in Habsburg eline geçen ilk büyük parçası oldu.","kaynak":"HLS 'Montfort' — AYNEN: \"veräusserte der Letzte seines Geschlechts, Rudolf, 1375 den gesamten Besitz des Zweiges an die Herzöge von Österreich\" · hassasiyet: YIL"},{"bolge":1,"t":"1451-01-01","k":"siyaset","onem":1,"dunya":1,"kapsam":"dis","yer_id":"Bregenz","b":"Bregenz kontluğunun ilk yarısı Habsburg Avusturya'sına satıldı","gun":"1451","yer":"Bregenz","kisiler":"Hochberglu Elisabeth, Tirol arşidükü Sigismund","etiket":["siyaset","toprak-kazanc"],"d":"Montfort-Bregenz mirasçısı Hochberglu Elisabeth 1451'de Bregenz kontluğunun yarısını Habsburglara sattı; kalan yarı 1523'te alındı. Bregenz böylece Habsburg Vorarlberg'inin parçası oldu.","kaynak":"Britannica 1911 'Bregenz' — 'acquired in 1451 and 1523' · hassasiyet: YIL (yeniden doğrulanmalı)"},{"bolge":2,"t":"1526-12-05","k":"siyaset","onem":1,"dunya":2,"kapsam":"dis","yer_id":"Breslau (Wrocław)","b":"Silezya zümreleri I. Ferdinand'ı kral tanıdı — Silezya Habsburg Avusturya'sına geçti","gun":"5 Aralık 1526 (Barbara yortusundan sonraki çarşamba)","yer":"Breslau (Wrocław), Gleiwitz (Gliwice), Kattowitz (Katowice), Liegnitz (Legnica), Oppeln (Opole), Jeseník (Freiwaldau), Opava (Troppau), Karviná (Fryštát)","kisiler":"I. Ferdinand, Kraliçe Anna","etiket":["siyaset","toprak-kazanc"],"d":"Mohaç'ta II. Lajos'un ölümüyle boşalan Bohemya tacına Ekim 1526'da seçilen Habsburg Ferdinand'ı, Yukarı ve Aşağı Silezya zümreleri genel toplantıda imtiyazlarının teyidi kaydıyla 5 Aralık 1526'da kral, karısı Anna'yı kraliçe tanıdı. Silezya dükalıkları böylece Bohemya tacıyla birlikte Habsburg idaresine girdi.","kaynak":"Sněmy české I, belge 55 — AYNEN: \"v středu po sv. Barboře léta Páně 1526 … při obecném shromáždění\" · hassasiyet: GÜN"},{"tur":"kurulus","bolge":1,"t":"1550-06-12","k":"kurulus","onem":1,"dunya":1,"kapsam":"dis","yer_id":"Helsinki","b":"İsveç Kralı Gustav Vasa Helsinki'yi kurdu","gun":"12 Haziran 1550 [yalnız yıl teyitli; gün teyitsiz]","yer":"Helsinki","kisiler":"Gustav Vasa (I. Gustav)","etiket":["siyaset"],"d":"İsveç kralı Gustav Vasa 1550'de Vantaa ırmağının ağzında, Reval (Tallinn) ile Baltık ticaretinde rekabet etmesi için yeni bir ticaret şehri olarak Helsinki'yi kurdurdu. Şehir 1640'ta bugünkü yerine, denize doğru taşındı.","kaynak":"historia.hel.fi '1550 – Founding Helsinki' — AYNEN: \"In 1550, the Swedish Crown founded a new city\" · hassasiyet: YIL"},{"bolge":1,"t":"1633-01-01","k":"fetih","onem":1,"dunya":1,"kapsam":"dis","yer_id":"Ras el-Hayme (Cülfâr)","b":"Umman Ya'rubî imamı Nâsır b. Mürşid Cülfâr'ı Portekiz'den aldı","gun":"1633","yer":"Ras el-Hayme (Cülfâr)","kisiler":"Nâsır b. Mürşid","etiket":["askeri","toprak-kayip"],"d":"Hürmüz'ün 1622'de düşmesinden sonra da Cülfâr'da tutunan Portekizliler, Umman Ya'rubî imamı Nâsır b. Mürşid'in 1633'teki zaptıyla bölgeden çıkarıldı.","kaynak":"TDV `resulhayme` — AYNEN: \"Nâsır b. Mürşid'in 1633'te Culfâr'ı zaptetmesiyle\" · hassasiyet: YIL"},{"t":"1686-09-30","k":"kayip","onem":1,"dunya":1,"kapsam":"ic","yer_id":"Sin (Sinj)","b":"Sin (Sinj) Kalesi'nin Venedik'e kaybı — Dalmaçya iç kesimi","gun":"Eylül 1686 [yalnız yıl teyitli; gün teyitsiz]","yer":"Sin (Sinj)","kisiler":"","etiket":["askeri","toprak-kayip"],"d":"Mora Savaşı sırasında Venedik kuvvetleri 1686'da Dalmaçya iç kesimindeki Sin (Sinj) kalesini Osmanlılardan aldı; kale 1715 Osmanlı kuşatmasına da dayandı ve Venedik'te kaldı.","kaynak":"Hrvatska enciklopedija 'Sinj' — AYNEN: \"God. 1524–1686. nalazio se pod osmanskom vlašću, potom su ga preoteli Mlečani\" · hassasiyet: YIL"},{"t":"1687-09-06","k":"kayip","onem":1,"dunya":1,"kapsam":"ic","yer_id":"Varadin (Petrovaradin)","b":"Varadin ve Baç'ın Macaristan Krallığı (Habsburg Tacı) eline geçmesi — Harşan sonrası Bačka'dan çekiliş","gun":"Eylül 1687 (1 Eylül'den sonra) [gün teyitsiz]","yer":"Varadin (Petrovaradin), Baç (Bács)","kisiler":"Sarı Süleyman Paşa, Câfer Paşa","etiket":["askeri","toprak-kayip"],"d":"Harşan bozgunundan çekilen Sarı Süleyman Paşa'nın ordusu 1 Eylül 1687'de Varadin'den geçti ve kaleyi Câfer Paşa'ya bıraktı; kısa süre sonra Varadin ile Bačka'daki Baç müttefik Habsburg kuvvetlerinin eline geçti. Karlofça'da Sava sınır kabul edilince Varadin Avusturya tarafında kaldı.","kaynak":"TDV `varadin` — AYNEN: \"Ardından burası müttefik güçlerin kontrolüne girdi.\" · hassasiyet: AY"},{"t":"1687-09-26","k":"kayip","onem":1,"dunya":1,"kapsam":"ic","yer_id":"Ösek (Osijek)","b":"Ösek'in Macaristan Krallığı (Habsburg Tacı) eline geçmesi — Slavonya'nın kaybı başladı","gun":"26 Eylül 1687","yer":"Ösek (Osijek)","kisiler":"","etiket":["askeri","toprak-kayip"],"d":"Harşan bozgunundan sonra Drava üzerindeki Ösek köprü kalesi 26 Eylül 1687'de Habsburg kuvvetlerine geçti. Slavonya'daki Osmanlı askerî varlığı ve Türk nüfusu 1686-1688 arasında tedricen çekildi; bölge Habsburg idaresine girdi.","kaynak":"Hrvatska enciklopedija 'Osijek' — AYNEN: \"Nakon oslobođenja od osmanske vlasti 26. IX. 1687.\" · hassasiyet: GÜN"},{"t":"1687-09-30","k":"kayip","onem":1,"dunya":1,"kapsam":"ic","yer_id":"Herseknovi (Herceg Novi)","b":"Herseknovi'nin Venedik'e kaybı — Kotor körfezinin ağzı","gun":"Eylül 1687 [yalnız yıl teyitli; gün teyitsiz]","yer":"Herseknovi (Herceg Novi)","kisiler":"Girolamo Cornaro","etiket":["askeri","toprak-kayip"],"d":"Mora Savaşı sırasında Venedik donanması ve müttefikleri 1687'de Kotor körfezinin ağzındaki Herseknovi kalesini kuşatıp aldı; şehir 1797'de Venedik Cumhuriyeti yıkılana dek Venedik'te kaldı.","kaynak":"Hrvatska enciklopedija 'Herceg Novi' — AYNEN: \"a 1687. opet je došao u mletački posjed\" · hassasiyet: YIL"},{"bolge":1,"t":"1794-06-15","k":"siyaset","onem":1,"dunya":2,"kapsam":"dis","yer_id":"Bastia (Korsika)","b":"Korsika'nın İngiliz tacına bağlanması — Anglo-Korsika Krallığı","gun":"Haziran 1794 (Corte Konsültası, 15-19 Haziran)","yer":"Bastia (Korsika), Ayacyo (Ajaccio)","kisiler":"Pasquale Paoli, Sir Gilbert Elliot, III. George","etiket":["siyaset","toprak-kayip"],"d":"İhtilal Fransası'na karşı ayaklanan Paoli, İngiliz donanmasının desteğiyle adayı Fransız garnizonlarından temizledi; Corte'de toplanan konsülta Korsika'yı İngiliz kralına bağlayan bir anayasa kabul etti. Ada iki yıl Anglo-Korsika Krallığı olarak İngiliz genel valisi Gilbert Elliot'ın idaresinde kaldı.","kaynak":"TDV `korsika` — AYNEN: \"Ancak bu defa ada İngilizler’in eline geçmiş ve 1796’da tekrar Fransa’ya iade edilmiştir.\" · gün: Collectivité de Corse 'juin 1794' · hassasiyet: AY"},{"bolge":1,"t":"1796-10-01","kesinlik":"ay","k":"siyaset","onem":1,"dunya":2,"kapsam":"dis","yer_id":"Bastia (Korsika)","b":"İngilizlerin Korsika'yı boşaltması — ada yeniden Fransa'nın","gun":"Ekim 1796","yer":"Bastia (Korsika), Ayacyo (Ajaccio)","kisiler":"Sir Gilbert Elliot, Napolyon Bonapart","etiket":["siyaset","toprak-kayip"],"d":"Bonapart'ın İtalya zaferleri ve İspanya'nın Fransa safına geçmesiyle Akdeniz'de sıkışan İngiltere, Korsika'yı tahliye etti. Anglo-Korsika Krallığı sona erdi ve ada yeniden Fransa'ya bağlandı.","kaynak":"TDV `korsika` — AYNEN: \"... 1796’da tekrar Fransa’ya iade edilmiştir.\" · hassasiyet: AY (ikincil kaynak), TDV YIL"},{"tur":"savas","bolge":3,"t":"1906-04-13","k":"fetih","onem":3,"dunya":1,"kapsam":"dis","yer_id":"Buraydâ (Kasîm)","odak_yer":["Buraydâ (Kasîm)","Uneyze"],"b":"İbn Suûd Reşîdî emîrini yendi — Kasîm Şammar Emirliği'nden Suûdîler'e geçti","gun":"13 Nisan 1906","yer":"Buraydâ (Kasîm), Uneyze","kisiler":"Abdülazîz b. Suûd, Abdülazîz b. Müt'ib İbnü'r-Reşîd","etiket":["askeri","toprak-kazanc"],"d":"Riyad'ı 1902'de geri alan Abdülazîz b. Suûd, 13 Nisan 1906'da Reşîdî emîri Abdülazîz b. Müt'ib'i yenip öldürdü. Bu savaşın ardından Kasîm bölgesini (Buraydâ, Uneyze) ele geçirdi; Reşîdîler bundan sonra yalnız Hâil ve çevresinde hüküm sürdü.","kaynak":"TDV `abdulaziz-b-suud` — AYNEN: \"13 Nisan 1906’da amansız düşmanı İbnü’r-Reşîd’in emîrini mağlûp ederek öldürdü\" · TDV `residiler` (Kasîm 1906) · hassasiyet: GÜN"},{"bolge":1,"t":"1903-03-15","k":"fetih","onem":2,"dunya":2,"kapsam":"dis","yer_id":"Sokoto","b":"İngilizler Sokoto'yu işgal etti — Sokoto Halifeliği başşehrini kaybetti","gun":"15 Mart 1903","yer":"Sokoto","kisiler":"Frederick Lugard, Muhammed I. Tâhir","etiket":["askeri","toprak-kazanc"],"d":"Kuzey Nijerya'yı 1900'de sömürge ilân eden İngiltere'nin valisi Lugard emirlikleri birer birer aldıktan sonra Sokoto ordusunu ağır bir yenilgiye uğrattı ve 15 Mart 1903'te başşehri işgal etti. Kaçan halife Tâhir'in Temmuz'da Burmi'de öldürülmesiyle halifeliğin siyasî hâkimiyeti sona erdi.","kaynak":"TDV `sokoto` — AYNEN: \"İngilizler Sokoto ordusunu ağır bir yenilgiye uğratarak şehri işgal ettiler (15 Mart 1903)\" · hassasiyet: GÜN"},{"t":"1915-06-10","k":"kayip","onem":3,"dunya":1,"kapsam":"ic","yer_id":"Kemeran (Kamaran)","b":"Kemeran Adası İngilizlerce işgal edildi","gun":"1915 [yalnız yıl teyitli; gün teyitsiz]","yer":"Kemeran (Kamaran)","kisiler":"","etiket":["askeri","toprak-kayip"],"d":"Kızıldeniz'de Yemen kıyısındaki Kemeran Adası I. Dünya Savaşı sırasında 1915'te İngilizlerce işgal edildi ve Aden'den yönetilmeye başlandı.","kaynak":"Britannica 'Kamaran' — AYNEN: \"The British occupied the island in 1915, governing it from Aden.\" · hassasiyet: YIL"},{"t":"1918-09-21","k":"kayip","onem":2,"dunya":1,"kapsam":"ic","yer_id":"Nablus","b":"Nablus'un İngilizlerce işgali — Filistin cephesinin çöküşü","gun":"21 Eylül 1918 [yalnız yıl teyitli; gün teyitsiz]","yer":"Nablus","kisiler":"Allenby, Liman von Sanders","etiket":["askeri","toprak-kayip"],"d":"Eylül 1918'de Allenby'nin Filistin cephesindeki büyük taarruzu Osmanlı 7. ve 8. ordularını dağıttı; Nablus İngilizlerin eline geçti ve şehirde dört asırlık Osmanlı hâkimiyeti sona erdi. Şehir 1920'ye kadar İngiliz askerî idaresinde kaldı.","kaynak":"TDV `nablus` — AYNEN: \"1918’de Filistin bölgesinin İngilizler’in eline geçmesiyle Nablus’ta Osmanlı hâkimiyeti sona erdi\" · hassasiyet: YIL"},{"t":"1918-11-08","k":"kayip","onem":1,"dunya":1,"kapsam":"ic","yer_id":"Musul","b":"İngilizlerin Musul'a girişi — Musul vilâyetinin mütarekeye aykırı işgali","gun":"8 Kasım 1918 (TDV: '8 veya 10')","yer":"Musul, Akra, Duhok, Gōrabī, Rewândiz, Sincar, Telafer, Tirwānīsh, Zaho, İmâdiye (Amêdî)","kisiler":"Ali İhsan Paşa, William Marshall","etiket":["askeri","toprak-kayip"],"d":"Mondros Mütarekesi imzalandığında Musul Türk kuvvetlerinin elindeydi. İngilizler mütarekenin 7. maddesine dayanarak 8 (veya 10) Kasım 1918'de şehre girdi ve 15 Kasım'da Türk birlikleri vilâyetten çekilmek zorunda kaldı. Musul meselesi Lozan'da da çözülemedi ve 1926 Ankara Antlaşması'na kaldı.","kaynak":"TDV `musul--irak` — AYNEN: \"İngilizler … 8 (veya 10) Kasım 1918’de Musul’a girdi. 15 Kasım’da buradaki Türk kuvvetleri geri çekilmek zorunda kaldı\" · hassasiyet: GÜN"},{"t":"1878-09-18","k":"kayip","onem":2,"dunya":1,"kapsam":"ic","yer_id":"Bihaç (Bihać)","b":"Avusturya-Macaristan ordusu direnişi kırarak Bihaç'ı aldı","gun":"18 Eylül 1878","yer":"Bihaç (Bihać), Ostrovica (Stara Ostrovica, Kulen Vakuf)","kisiler":"Wilhelm von Reinländer","etiket":["askeri","toprak-kayip"],"d":"Berlin Antlaşması'yla Bosna-Hersek'i işgal hakkı alan Avusturya-Macaristan, Bihaç'ta yerli müslüman direnişiyle karşılaştı. General Wilhelm von Reinländer komutasındaki kuvvetler 18 Eylül 1878'de şehri aldı; Una vadisindeki Ostrovica garnizonu da aynı harekâtla Osmanlı elinden çıktı.","kaynak":"TDV `bihac` — AYNEN: \"Fakat Bihaç’ta direnişle karşılaştı, ancak 18 Eylül 1878’de Avusturya-Macaristan ordusu General Wilhelm Freiherr von Reinländer komutasında Bihaç’ı almayı başardı.\" · hassasiyet: GÜN · Ostrovica: gün komşudan (Bihaç), kendi kaydında beyanlı"},{"bolge":1,"t":"1439-08-27","k":"fetih","onem":1,"dunya":1,"kapsam":"ic","yer_id":"Hisarcık (Grocka)","b":"Semendire'nin alınışıyla Hisarcık (Grocka) da Osmanlı'ya geçti","gun":"27 Ağustos 1439","yer":"Hisarcık (Grocka)","kisiler":"II. Murad","etiket":["askeri","toprak-kazanc"],"d":"Üç aylık kuşatmadan sonra Semendire alındı. Semendire'nin 17 km yakınındaki Hisarcık (Grocka) atlasta abi merkezi Semendire'nin akıbetini izler ve aynı günde Sırp Despotluğu'ndan Osmanlı'ya geçer (1444'te iade edilecektir).","kaynak":"TDV `semendire` — AYNEN: \"Topların kullanıldığı üç aylık bir kuşatmanın ardından şehir Osmanlılar tarafından alındı.\" (16 Rebîülevvel 843 / 27 Ağustos 1439) · TDV `murad-ii` — AYNEN: \"Semendire’yi zaptetti (16 Rebîülevvel 843 / 27 Ağustos 1439).\" · iki TDV maddesi aynı günü verir · ABİ MERKEZ: Semendire — Hisarcık için bağı gösteren kaynak yok, atlas kaydı · hassasiyet: GÜN (Semendire); Hisarcık BEYANLI YAKLAŞIKLIK"},{"bolge":1,"t":"1458-08-06","k":"fetih","onem":1,"dunya":1,"kapsam":"ic","yer_id":"Sikyon","b":"Gördüs'ün (Korint) teslimiyle Sikyon da Osmanlı'ya geçti","gun":"6 Ağustos 1458","yer":"Sikyon","kisiler":"Fâtih Sultan Mehmed","etiket":["askeri","toprak-kazanc"],"d":"Fâtih Mora seferinde üç aylık kuşatmadan sonra Gördüs'ü (Korint) barış yoluyla aldı. Korint'e 17 km uzaklıktaki Sikyon atlasta abi merkezi Gördüs'ün akıbetini izler ve aynı günde Osmanlı'ya geçer.","kaynak":"TDV `gordus` — AYNEN: \"barış yoluyla şehri aldı (6 Ağustos 1458)\" · \"üç aylık bir kuşatmadan sonra\" · ABİ MERKEZ: Gördüs (Korint) — Sikyon için bağı gösteren kaynak yok, atlas kaydı · hassasiyet: GÜN (Gördüs); Sikyon BEYANLI YAKLAŞIKLIK"},{"bolge":1,"t":"1459-06-20","k":"fetih","onem":1,"dunya":1,"kapsam":"ic","yer_id":"Hisarcık (Grocka)","b":"Semendire'nin teslimiyle Hisarcık (Grocka) da Osmanlı'ya geçti","gun":"20 Haziran 1459","yer":"Hisarcık (Grocka)","kisiler":"Helena Brankoviç","etiket":["askeri","toprak-kazanc"],"d":"Lazar Brankoviç'in dul eşi Helena Semendire kalesini Osmanlılar'a teslim etti; Sırp Despotluğu sona erdi. Semendire'nin abi merkezliğindeki Hisarcık (Grocka) aynı günde Osmanlı'ya geçer.","kaynak":"TDV `semendire` — AYNEN: \"20 Haziran 1459’da Lazar Brankoviç’in dul eşi Helena kaleyi Osmanlılar’a teslim etti.\" · ABİ MERKEZ: Semendire — Hisarcık için bağı gösteren kaynak yok, atlas kaydı · hassasiyet: GÜN (Semendire); Hisarcık BEYANLI YAKLAŞIKLIK"},{"bolge":1,"t":"1475-06-06","k":"fetih","onem":1,"dunya":1,"kapsam":"ic","yer_id":"Soçi (Sâşe)","b":"Kefe'nin teslimi ve Kırım hanının tâbiliği — Çerkezya kıyısı (Soçi, Tuapse, Maykop) gevşek himaye alanı olarak Kırım Hanlığı'na bağlandı","gun":"6 Haziran 1475","yer":"Soçi (Sâşe), Tuapse, Maykop (Çerkezya)","kisiler":"Gedik Ahmed Paşa, Mengli Giray","etiket":["askeri","toprak-kazanc"],"d":"Dört günlük kuşatmadan sonra Kefe Ahmed Paşa'ya teslim oldu, Mengli Giray Osmanlı sultanının tâbiliğini kabul etti. Kırım hanlarını metbû tanıyan Çerkez kabilelerinin yurdu olan Soçi, Tuapse ve Maykop çevresi atlasta bu tarihten itibaren Kırım Hanlığı'na gevşek himaye olarak bağlı gösterilir.","kaynak":"TDV `mehmed-ii` — AYNEN: \"Dört günlük muhasaradan sonra Kefe şehri Ahmed Paşa’ya teslim oldu (1 Safer 880 / 6 Haziran 1475).\" · TDV `kirim` — AYNEN: \"Ahmed Paşa ile bir anlaşma yaparak Osmanlı sultanının tâbiliğini kabul etti.\" · \"Daha güneyde Kabartay’da Çerkez kabileleri de Kırım hanlarını metbû tanırlardı.\" (tarihsiz) · hassasiyet: GÜN (Kefe); Çerkezya kıyısı BEYANLI YAKLAŞIKLIK"},{"bolge":1,"t":"1344-03-26","k":"fetih","onem":2,"dunya":2,"kapsam":"dis","yer_id":"Cezîretülhadrâ (Algeciras)","b":"Kastilya Kralı XI. Alfonso Cezîretülhadrâ'yı (Algeciras) aldı: yirmi aylık kuşatmadan sonra Merînî hâkimiyeti sona erdi","gun":"26 Mart 1344","yer":"Cezîretülhadrâ (Algeciras)","kisiler":"XI. Alfonso, Sultan Ebü'l-Hasen","etiket":["askeri","toprak-kazanc"],"d":"Kastilya Kralı XI. Alfonso'nun yaklaşık yirmi ay süren kuşatmasının ardından 21 Mart 1344'te başlayan görüşmeler sonunda Merînî hükümdarı Ebü'l-Hasen Müslümanlara şehri terk etmelerini bildirdi; 26 Mart'ta Villa Nueva, ertesi gün Villa Vieja boşaltıldı ve Kastilyalılar şehri devraldı. Alfonso XI 28 Mart 1344'te (Palmiye Pazarı) törenle şehre girdi. Cezîretülhadrâ 1369'a dek Kastilya'da kaldı.","kaynak":"Manuel López Fernández, «Algeciras entre Castilla y Granada (1344-1393)», Almoraima 41 (2014), s. 121-122 (Instituto de Estudios Campogibraltareños; Crónica de Alfonso XI s. 388-390'a dayanır) — AYNEN: «cuando el día 26 de marzo [...] los musulmanes algecireños recibieron una carta del sultán Abu l-Hasan ordenándoles abandonar su ciudad» · aynı yazar, Almoraima 54 (2021), s. 17-26: «entró en la ciudad el 28 de marzo de 1344» · TDV `nasriler` / `merinîler` yalnız 744 (1344) yılını verir (çelişki yok) · hassasiyet: GÜN · tek yazarlı kaynak, bağımsız ikinci akademik kaynak okunamadı"}];
+// =====================================================================
+// OLAYLAR_2S1019 — Değişmez 2s/2i borcu: kronolojisiz toprak değişimleri
+// DEGISMEZ2-TARAMA oturumu · 19 Ekim 2026 · Emre'nin isteği:
+//   "haritadaki toprak el değiştirmelerinin kronoloji maddesinin olup
+//    olmadığını baştan sona denetleyelim"
+// =====================================================================
+// NİÇİN VAR: `py arac/denetle.py` 191 AÇIK 2s + 1 AÇIK 2i kırılması
+// ölçtü (±30 günde yeri ya da tarafları anan madde yok). Her kırılma
+// kaynakla sorgulandı: devir DOĞRU ama maddesi YOKSA madde buraya yazıldı;
+// madde VAR ama yeri anmıyorsa mevcut maddenin `yer`/`b` alanı genişletildi
+// (ikinci madde yazılmadı); devir YANLIŞSA yerleşim verisi düzeltildi.
+//
+// KAYNAK: İslâm dünyası/Osmanlı için TDV İslâm Ansiklopedisi (slug GET ile
+// doğrulandı, alıntılar `kaynak:` alanında AYNEN). TDV'nin kapsamadığı
+// Avrupa/Rusya/Afrika olaylarında akademik kaynak, `kaynak:`ta açıkça.
+// Vikipedi dayanak DEĞİL. Gün kaynakta yoksa hassasiyet `kaynak:`ta beyanlı.
+// Kayıt başındaki yorum satırı: önerinin grup:satır künyesi (tarama tablosu).
+// =====================================================================
+
+// KASA PAZAR, 1 Kasım 2026: bu dosya havva-1101-degismez2-tarama dalından
+// SEÇİLEREK alındı — 67 maddeden main'de mükerreri olmayan 36'sı (±30 gün +
+// aynı yer ölçütü). Dalın mevcut kayıt düzeltmeleri ve yer/b genişletmeleri
+// ALINMADI (DEVIR-KASA-1101.md C bölümü).
+// =====================================================================
+
+window.OLAYLAR_2S1019 = [
+{ bolge:1, t:"1207-03-05",
+  k:"fetih",
+  onem:3,
+  dunya:1,
+  kapsam:"dis",
+  yer_id:"Antalya",
+  b:"Gıyâseddin Keyhusrev Antalya'yı fethetti — Selçuklular Akdeniz'e ulaştı",
+  gun:"5 Mart 1207",
+  yer:"Antalya",
+  kisiler:"I. Gıyâseddin Keyhusrev, Aldobrandini",
+  etiket:["askeri", "toprak-kazanc"],
+  d:"Latinlerin İstanbul'u almasından sonra İtalyan Aldobrandini'nin eline geçen Antalya'yı, Latin idaresinden memnun olmayan Rumların da desteğiyle Anadolu Selçuklu sultanı I. Gıyâseddin Keyhusrev aldı.",
+  kaynak:"TDV `antalya` — AYNEN: \"Nihayet 5 Mart 1207’de Latin idaresinden memnun olmayan Rumlar’ın da desteği ile fethi gerçekleştirdi.\" · hassasiyet: GÜN ‖ [birleştirilen kayıttan] TDV İslâm Ansiklopedisi, ANTALYA maddesi, https://islamansiklopedisi.org.tr/antalya : «5 Mart 1207’de Latin idaresinden memnun olmayan Rumlar’ın da desteği ile fethini gerçekleştirdi» ; TDV İslâm Ansiklopedisi, SELÇUKLULAR maddesi (Anadolu Selçukluları bölümü), https://islamansiklopedisi.org.tr/selcuklular (603/1207)", ic_not_d: "[Mükerrer birleştirme 19 Kasım 2026 — silinen kayıt «I. Gıyâseddin Keyhusrev Antalya'yı Latin idaresinden aldı» (olaylar_ortacag_iran_turan.js); d: Gıyâseddin Keyhusrev kaleyi kuşatıp Kıbrıs'tan yardım geldiği için zaptedemedi, abluka altına aldı; sonunda Latin idaresinden memnun olmayan Rumlar'ın desteğiyle 5 Mart 1207'de Antalya'yı fethetti (603/1207). Antalya Selçuklu deniz ticaretinin önemli limanı oldu. · ic_not_d: Atlas Antalya Selçuklu sahipliği 1207-03-05 ile birebir uyar.]" },
+
+{ bolge:1, t:"1216-01-22",
+  k:"fetih",
+  onem:2,
+  dunya:1,
+  kapsam:"dis",
+  yer_id:"Antalya",
+  b:"İzzeddin Keykâvus Antalya'yı Kıbrıslılardan geri aldı",
+  gun:"22 Ocak 1216",
+  yer:"Antalya",
+  kisiler:"I. İzzeddin Keykâvus, Mübârizüddin Ertokuş",
+  etiket:["askeri", "toprak-kazanc"],
+  d:"1212'de Kıbrıs kralının desteğiyle yapılan isyan sonucu elden çıkan Antalya'yı I. İzzeddin Keykâvus yeniden fethetti ve valiliğini tekrar Mübârizüddin Ertokuş'a verdi.",
+  kaynak:"TDV `antalya` — AYNEN: \"fakat 22 Ocak 1216’da İzzeddin Keykâvus tarafından yeniden fethedilerek valiliği tekrar Mübârizüddin Ertokuş’a verildi\" · hassasiyet: GÜN ‖ [birleştirilen kayıttan] TDV İslâm Ansiklopedisi, ANTALYA maddesi, https://islamansiklopedisi.org.tr/antalya : «22 Ocak 1216’da İzzeddin Keykâvus tarafından yeniden fethedilerek»", ic_not_d: "[Mükerrer birleştirme 19 Kasım 2026 — silinen kayıt «İzzeddin Keykâvus Antalya'yı yeniden fethedip valiliği Mübârizüddin Ertokuş'a verdi» (olaylar_ortacag_iran_turan.js); d: Kıbrıslılar'ın elindeki Antalya 22 Ocak 1216'da İzzeddin Keykâvus tarafından yeniden fethedildi ve valilik tekrar Mübârizüddin Ertokuş'a verildi; şehir Selçuklu Akdeniz donanmasının merkezi oldu. · ic_not_d: Atlas Antalya Selçuklu sahipliği 1216-01-22 ile birebir uyar.]" },
+
+{ bolge:1, t:"1268-03-08",
+  k:"fetih",
+  onem:2,
+  dunya:1,
+  kapsam:"dis",
+  yer_id:"Yafa",
+  b:"Baybars Yafa'yı Haçlılardan aldı — Kudüs Krallığı'nın Yafa'daki hâkimiyeti sona erdi",
+  gun:"8 Mart 1268 (20 Cemâziyelâhir 666)",
+  yer:"Yafa",
+  kisiler:"I. Baybars",
+  etiket:["askeri", "toprak-kazanc"],
+  d:"Memlük sultanı I. Baybars Yafa'daki Haçlı hâkimiyetine son verdi, şehri tahrip ettirdi; iç kalenin ahşap ve mermerini Kahire'deki camisinin inşasına gönderdi.",
+  kaynak:"TDV `yafa` — AYNEN: \"Nihayet 20 Cemâziyelâhir 666’da (8 Mart 1268) Memlük Sultanı I. Baybars, Yafa’daki Haçlı hâkimiyetine son verdi\" · hassasiyet: GÜN ‖ [birleştirilen kayıttan] TDV yafa https://islamansiklopedisi.org.tr/yafa : 'Nihayet 20 Cemâziyelâhir 666'da (8 Mart 1268) Memlük Sultanı I. [Baybars] ...' ; TDV haclilar (1268'de Yafa ve Beaufort'un ele geçirilmesi)", ic_not_d: "[Mükerrer birleştirme 19 Kasım 2026 — silinen kayıt «Baybars Yafa'yı aldı» (olaylar_ortacag_ortadogu.js); d: Memlük Sultanı Baybars 20 Cemâziyelâhir 666'da (8 Mart 1268) Yafa'yı aldı; ardından Beaufort Kalesi ve Antakya düştü. · ic_not_d: TDV yafa cümlesi 'Memlük Sultanı I.' diye kesilir; fail adı Baybars TDV haclilar bağlamından (1268 Yafa) alınmıştır.]" },
+
+{ bolge:1, t:"1268-05-18",
+  k:"fetih",
+  onem:3,
+  dunya:2,
+  kapsam:"dis",
+  yer_id:"Antakya", odak_yer:["Antakya","İskenderun"],
+  b:"Baybars Antakya'yı aldı — Antakya Prinkepsliği'nin sonu",
+  gun:"18 Mayıs 1268",
+  yer:"Antakya, İskenderun",
+  kisiler:"I. Baybars",
+  etiket:["askeri", "toprak-kazanc"],
+  d:"Memlük ordusu genel hücumla Antakya surlarını aştı; 170 yıllık Haçlı prinkepsliği sona erdi ve İskenderun da yeniden İslâm topraklarına katıldı.",
+  kaynak:"TDV `antakya` — AYNEN: \"18 Mayıs 1268’de yapılan bir genel hücum sonunda surlardan içeri girildi\" · TDV `iskenderun` — AYNEN: \"1268’de Memlükler’in Antakya Prinkepsliği’ne son vermesi üzerine yeniden İslâm topraklarına katılmıştır\" · hassasiyet: GÜN", ic_not_d: "[Mükerrer birleştirme 19 Kasım 2026 — silinen kayıt «Baybars Antakya'yı aldı; Antakya Prinkepsliği sona erdi» (olaylar_ortacag_ortadogu.js); d: Baybars Antakya'yı aldı; Antakya Prinkepsliği sona erdi]" },
+
+{ bolge:2, t:"1328-11-05",
+  k:"siyaset",
+  onem:2,
+  dunya:1,
+  kapsam:"dis",
+  yer_id:"Konya",
+  b:"Karamanoğulları Konya'yı İlhanlılardan geri aldı",
+  gun:"729 / 1328-29",
+  yer:"Konya, Ilgın",
+  kisiler:"Demirtaş",
+  etiket:["siyaset", "toprak-kayip"],
+  d:"İlhanlı Anadolu valisi Demirtaş'ın Mısır'a kaçmasından sonra Konya yeniden Karamanoğullarının eline geçti. Şehir 1350'de Eretna'ya geçecekti.",
+  kaynak:"TDV `konya` — AYNEN: \"Demirtaş’ın Mısır’a ilticasından sonra Konya tekrar Karamanoğulları’nın eline geçti (729/1328-29).\" · hicrî 729 ∩ 1328-29 → kesişimin ilk günü 1328-11-05 (tablo) · hassasiyet: YIL" },
+
+{ bolge:2, t:"1345-01-01",
+  k:"fetih",
+  onem:2,
+  dunya:1,
+  kapsam:"dis",
+  yer_id:"Serez",
+  b:"Stefan Duşan Serez'i Bizans'tan aldı",
+  gun:"1345 (gün teyitsiz)",
+  yer:"Serez",
+  kisiler:"Stefan Duşan",
+  etiket:["askeri", "toprak-kayip"],
+  d:"Bizans iç savaşından yararlanan Sırp kralı Stefan Duşan Serez'i ele geçirdi ve şehri Sırp İmparatorluğu'nun başşehri yaptı.",
+  kaynak:"TDV `serez` — AYNEN: \"1345’te Sırp Kralı Stefan Duşan tarafından ele geçirildiğinde Sırp İmparatorluğu’nun başşehri yapıldı\" · hassasiyet: YIL [yalnız yıl teyitli; gün teyitsiz]" },
+
+{ t:"1389-07-01",
+  k:"fetih",
+  onem:1,
+  dunya:1,
+  kapsam:"ic",
+  yer_id:"Balçık (Balchik)",
+  b:"Balçık ve Dobruca kıyısı Osmanlı idaresine girdi",
+  gun:"Temmuz 1389'dan sonra",
+  yer:"Balçık (Balchik)",
+  kisiler:"",
+  etiket:["askeri", "toprak-kazanc"],
+  d:"Kosova zaferinin ardından Dobruca kıyısındaki Balçık Osmanlı idaresine girdi. Bölgeyi hemen ardından Eflak voyvodası Mircea işgal edecek, Osmanlı hâkimiyeti 1393'te yeniden kurulacaktı.",
+  kaynak:"TDV `balcik` — AYNEN: \"Balçık bütün Dobruca ile birlikte Temmuz 1389’dan sonra Osmanlılar’ın idaresi altına girdi.\" · hassasiyet: AY (alt sınır)" },
+
+{ bolge:1, t:"1392-10-26",
+  k:"fetih",
+  onem:1,
+  dunya:1,
+  kapsam:"dis",
+  yer_id:"Sârî",
+  b:"Mar'aşî Seyyidleri Mâhâneser'de Timur'a teslim oldu — Mâzenderan Timurlulara geçti",
+  gun:"26 Ekim 1392 (8 Zilhicce 794)",
+  yer:"Sârî, Âmül, Bârfurûş (Bâbil), Eşref (Behşehr)",
+  kisiler:"Timur, Seyyid Kemâleddin",
+  etiket:["askeri", "toprak-kayip"],
+  d:"Beş yıllık seferinde Mâzenderan'a giren Timur, Karatogân'da karşısına çıkan Mar'aşîleri Mâhâneser kalesine sıkıştırdı ve teslim aldı. Sârî ile Âmül'de büyük katliam yapıldı; Sârî Kiyâ Efrâsiyâb'ın oğlu İskender Şeyhî'ye verildi.",
+  kaynak:"TDV `marasiler` — AYNEN: \"Mâhâneser Kalesi’ne çekilmek ve 8 Zilhicce 794 (26 Ekim 1392) tarihinde teslim olmak zorunda kaldılar\" · hassasiyet: GÜN" },
+
+{ bolge:1, t:"1412-01-01",
+  kesinlik:"yil",
+  k:"siyaset",
+  onem:1,
+  dunya:2,
+  kapsam:"dis",
+  yer_id:"Şibenik (Sebenico)",
+  b:"Şibenik yeniden Venedik Cumhuriyeti'nin idaresine girdi",
+  gun:"1412 (gün kaynakta yok)",
+  yer:"Şibenik (Sebenico), Dalmaçya",
+  kisiler:"",
+  etiket:["siyaset", "toprak-kayip"],
+  d:"Napolili Ladislas'ın Dalmaçya üzerindeki haklarını 1409'da Venedik'e satmasından sonra direnen Şibenik, 1412'de yeniden Venedik idaresine girdi. Şehir 1797'de Cumhuriyet yıkılana kadar Venedik'in Dalmaçya mülkü olarak kaldı.",
+  kaynak:"Hrvatska enciklopedija (LZMK) 'Šibenik' — AYNEN: \"a 1412. ponovno je došao pod vlast Mletačke Republike\" · hassasiyet: YIL · İKİNCİ KAYNAK (14.11.2026, tam metin okundu): Treccani «Sebenico» — \"Dal 1412 al 1797 S. tornò a Venezia\"; 1357-1412 Macar. Gün (30 Ekim 1412) hâlâ teyitsiz" },
+
+{ t:"1417-02-18",
+  k:"fetih",
+  onem:2,
+  dunya:1,
+  kapsam:"ic",
+  yer_id:"Çankırı",
+  b:"Çelebi Mehmed'in Candaroğulları seferi: Çankırı Osmanlı himayesindeki Kasım Bey'e verildi",
+  gun:"820 başları (1417)",
+  ic_not_t:"hicrî 820 = 18 Şubat 1417'de başlar; TDV '820’nin [1417] başları' — kesişimin ilk günü alındı",
+  yer:"Çankırı, Kastamonu, Sinop",
+  kisiler:"Çelebi Mehmed, İsfendiyar Bey, Candaroğlu Kasım Bey",
+  etiket:["askeri", "toprak-kazanc"],
+  d:"Şeyh Bedreddin'in Eflak'a geçmesine yardım eden Candaroğlu İsfendiyar Bey'e karşı yürüyen Çelebi Mehmed Kastamonu'ya ilerledi ve İsfendiyar'ın çekildiği Sinop'u kuşattı. İsfendiyar Osmanlı hükümranlığını tanıdı; Ilgaz dağı sınır kabul edilerek Osmanlı'ya sığınmış oğlu Kasım Bey'e Çankırı ve çevresi verildi.",
+  kaynak:"TDV `mehmed-i` — AYNEN: \"Mehmed önce şeyhin Eflak’e geçmesine yardım eden İsfendiyar Bey’e karşı yürüdü (820’nin [1417] başları).\" · TDV `candarogullari` — AYNEN: \"Ilgaz dağı sınır kabul edilerek Osmanlı himayesindeki Kasım Bey’e istediği yerler verildi.\" · TDV `cankiri` — AYNEN: \"Bu sırada İsfendiyaroğlu Kasım Bey Osmanlılar’a sığınınca Çelebi Mehmed Çankırı’yı kendisine verdi.\" · hassasiyet: hicrî yıl başı" },
+
+{ bolge:1, t:"1500-01-01",
+  kesinlik:"yil",
+  k:"fetih",
+  onem:1,
+  dunya:2,
+  kapsam:"dis",
+  yer_id:"Bryansk",
+  b:"Moskova Bryansk'ı Litvanya Büyük Dükalığı'ndan aldı",
+  gun:"1500 (gün kaynakta yok)",
+  yer:"Bryansk",
+  kisiler:"III. İvan",
+  etiket:["askeri", "toprak-kazanc"],
+  d:"1500-1503 Moskova-Litvanya savaşında Rus ordusu Bryansk'ı aldı ve şehir Moskova devletine katıldı; 1503 ateşkesi bu kazancı tanıdı.",
+  kaynak:"Visuotinė lietuvių enciklopedija 'Brianskas' — AYNEN: \"1500 užimtas Rusijos kariuomenės ir prijungtas prie Maskvos valstybės.\" · hassasiyet: YIL" },
+
+{ t:"1516-08-24",
+  k:"fetih",
+  onem:2,
+  dunya:1,
+  kapsam:"ic",
+  yer_id:"Musul",
+  b:"Bıyıklı Mehmed Paşa Musul, Sincar ve İmâdiye'yi Safevî'den aldı",
+  gun:"1516 yazı (Mayıs 1516 Koçhisar zaferinden sonra, Mercidâbık'tan önce) — t ÜST SINIRDIR",
+  ic_not_t:"TDV gün vermiyor; aralık Mayıs-Ağustos 1516. t = Mercidâbık günü (Bıyıklı Mehmed Paşa'nın muharebeye katılması fethin üst sınırı).",
+  yer:"Musul, Sincar, Telafer, Zaho, Duhok, Akra, İmâdiye (Amêdî), Rewândiz, Ceylanpınar, Qaţţīnah, Tirwānīsh",
+  kisiler:"Bıyıklı Mehmed Paşa, İdrîs-i Bitlisî",
+  etiket:["askeri", "toprak-kazanc"],
+  d:"Koçhisar'da Kara Han'ı yenen Bıyıklı Mehmed Paşa Mardin'i kuşatırken çevredeki kaleleri Safevîlerden aldı: Musul, Ruha, Birecik ve Sincar ele geçirildi, İmâdiye ve öteki Kürt hâkimleri Osmanlı tâbiiyetini kabul etti. Mardin kalesi ise Paşa'nın Mercidâbık'tan dönüşünden sonra teslim alınacaktı.",
+  kaynak:"TDV `biyikli-mehmed-pasa` — AYNEN: \"Bu arada Mardin muhasarası sürerken civardaki kalelerden Musul, Ruha, Birecik, Harput, Çermik, Ergani, Palu ve Sincar ele geçirildi.\" · \"Ayrıca İmadiye, Suran, Çapakçur, Palu, Atak, Sason hâkimleri de Osmanlı tâbiiyetini kabul ettiler.\" · hassasiyet: aralık, t üst sınır" },
+
+{ bolge:1, t:"1523-06-06",
+  k:"siyaset",
+  onem:2,
+  dunya:2,
+  kapsam:"dis",
+  yer_id:"Stokholm",
+  b:"Gustav Vasa Strängnäs'te kral seçildi — İsveç Krallığı Kalmar Birliği'nden ayrıldı",
+  gun:"6 Haziran 1523",
+  yer:"Borås, Härnösand, Iisalmi, Joensuu, Jokkmokk, Jukkasjärvi, Jyväskylä, Kokkola, Kuopio, Lappeenranta, Luleå, Mikkeli, Mora, Norrköping, Nurmes, Nyköping, Oulu, Pori, Rovaniemi, Savonlinna, Sodankylä, Stokholm, Tampere, Tornio, Umeå, Vaasa, Västerås, Växjö, İnari",
+  kisiler:"Gustav Vasa (I. Gustav), II. Christian",
+  etiket:["siyaset"],
+  d:"Stockholm Kan Banyosu'ndan (1520) sonra Danimarka kralı II. Christian'a karşı ayaklanan Gustav Eriksson Vasa, Mayıs 1523'te Strängnäs'te toplanan İsveç Riksdag'ında 6 Haziran 1523'te kral seçildi. İsveç ve ona bağlı Finlandiya böylece 1397'den beri süren Kalmar Birliği'nden kesin olarak çıktı ve bağımsız İsveç Krallığı'nın Vasa dönemi başladı.",
+  kaynak:"Encyclopedia of World Biography (Gale) 'Gustavus I' — AYNEN: \"On June 6 it elected Gustavus Vasa king.\" · hassasiyet: GÜN" },
+
+
+{ bolge:1, t:"1375-01-01",
+  k:"siyaset",
+  onem:1,
+  dunya:1,
+  kapsam:"dis",
+  yer_id:"Feldkirch",
+  b:"Feldkirch kontluğu Habsburg Avusturya'sına satıldı",
+  gun:"1375",
+  yer:"Feldkirch",
+  kisiler:"Montfort-Feldkirch kontu Rudolf, III. Leopold",
+  etiket:["siyaset", "toprak-kazanc"],
+  d:"Montfort-Feldkirch kolunun son kontu Rudolf, 1375'te bütün mülkünü Avusturya dükleri Habsburglara sattı; fiilî devir onun ölümüyle (1390) tamamlandı. Feldkirch, Vorarlberg'in Habsburg eline geçen ilk büyük parçası oldu.",
+  kaynak:"HLS 'Montfort' — AYNEN: \"veräusserte der Letzte seines Geschlechts, Rudolf, 1375 den gesamten Besitz des Zweiges an die Herzöge von Österreich\" · hassasiyet: YIL" },
+
+{ bolge:1, t:"1451-01-01",
+  k:"siyaset",
+  onem:1,
+  dunya:1,
+  kapsam:"dis",
+  yer_id:"Bregenz",
+  b:"Bregenz kontluğunun ilk yarısı Habsburg Avusturya'sına satıldı",
+  gun:"1451",
+  yer:"Bregenz",
+  kisiler:"Hochberglu Elisabeth, Tirol arşidükü Sigismund",
+  etiket:["siyaset", "toprak-kazanc"],
+  d:"Montfort-Bregenz mirasçısı Hochberglu Elisabeth 1451'de Bregenz kontluğunun yarısını Habsburglara sattı; kalan yarı 1523'te alındı. Bregenz böylece Habsburg Vorarlberg'inin parçası oldu.",
+  kaynak:"Britannica 1911 'Bregenz' — 'acquired in 1451 and 1523' · hassasiyet: YIL (yeniden doğrulanmalı)" },
+
+{ bolge:2, t:"1526-12-05",
+  k:"siyaset",
+  onem:1,
+  dunya:2,
+  kapsam:"dis",
+  yer_id:"Breslau (Wrocław)",
+  b:"Silezya zümreleri I. Ferdinand'ı kral tanıdı — Silezya Habsburg Avusturya'sına geçti",
+  gun:"5 Aralık 1526 (Barbara yortusundan sonraki çarşamba)",
+  yer:"Breslau (Wrocław), Gleiwitz (Gliwice), Kattowitz (Katowice), Liegnitz (Legnica), Oppeln (Opole), Jeseník (Freiwaldau), Opava (Troppau), Karviná (Fryštát)",
+  kisiler:"I. Ferdinand, Kraliçe Anna",
+  etiket:["siyaset", "toprak-kazanc"],
+  d:"Mohaç'ta II. Lajos'un ölümüyle boşalan Bohemya tacına Ekim 1526'da seçilen Habsburg Ferdinand'ı, Yukarı ve Aşağı Silezya zümreleri genel toplantıda imtiyazlarının teyidi kaydıyla 5 Aralık 1526'da kral, karısı Anna'yı kraliçe tanıdı. Silezya dükalıkları böylece Bohemya tacıyla birlikte Habsburg idaresine girdi.",
+  kaynak:"Sněmy české I, belge 55 — AYNEN: \"v středu po sv. Barboře léta Páně 1526 … při obecném shromáždění\" · hassasiyet: GÜN" },
+
+{ tur:"kurulus", bolge:1, t:"1550-06-12",
+  k:"kurulus",
+  onem:1,
+  dunya:1,
+  kapsam:"dis",
+  yer_id:"Helsinki",
+  b:"İsveç Kralı Gustav Vasa Helsinki'yi kurdu",
+  gun:"12 Haziran 1550 [yalnız yıl teyitli; gün teyitsiz]",
+  yer:"Helsinki",
+  kisiler:"Gustav Vasa (I. Gustav)",
+  etiket:["siyaset"],
+  d:"İsveç kralı Gustav Vasa 1550'de Vantaa ırmağının ağzında, Reval (Tallinn) ile Baltık ticaretinde rekabet etmesi için yeni bir ticaret şehri olarak Helsinki'yi kurdurdu. Şehir 1640'ta bugünkü yerine, denize doğru taşındı.",
+  kaynak:"historia.hel.fi '1550 – Founding Helsinki' — AYNEN: \"In 1550, the Swedish Crown founded a new city\" · hassasiyet: YIL" },
+
+{ bolge:1, t:"1633-01-01",
+  k:"fetih",
+  onem:1,
+  dunya:1,
+  kapsam:"dis",
+  yer_id:"Ras el-Hayme (Cülfâr)",
+  b:"Umman Ya'rubî imamı Nâsır b. Mürşid Cülfâr'ı Portekiz'den aldı",
+  gun:"1633",
+  yer:"Ras el-Hayme (Cülfâr)",
+  kisiler:"Nâsır b. Mürşid",
+  etiket:["askeri", "toprak-kayip"],
+  d:"Hürmüz'ün 1622'de düşmesinden sonra da Cülfâr'da tutunan Portekizliler, Umman Ya'rubî imamı Nâsır b. Mürşid'in 1633'teki zaptıyla bölgeden çıkarıldı.",
+  kaynak:"TDV `resulhayme` — AYNEN: \"Nâsır b. Mürşid'in 1633'te Culfâr'ı zaptetmesiyle\" · hassasiyet: YIL" },
+
+{ t:"1686-09-30",
+  k:"kayip",
+  onem:1,
+  dunya:1,
+  kapsam:"ic",
+  yer_id:"Sin (Sinj)",
+  b:"Sin (Sinj) Kalesi'nin Venedik'e kaybı — Dalmaçya iç kesimi",
+  gun:"Eylül 1686 [yalnız yıl teyitli; gün teyitsiz]",
+  yer:"Sin (Sinj)",
+  kisiler:"",
+  etiket:["askeri", "toprak-kayip"],
+  d:"Mora Savaşı sırasında Venedik kuvvetleri 1686'da Dalmaçya iç kesimindeki Sin (Sinj) kalesini Osmanlılardan aldı; kale 1715 Osmanlı kuşatmasına da dayandı ve Venedik'te kaldı.",
+  kaynak:"Hrvatska enciklopedija 'Sinj' — AYNEN: \"God. 1524–1686. nalazio se pod osmanskom vlašću, potom su ga preoteli Mlečani\" · hassasiyet: YIL" },
+
+{ t:"1687-09-06",
+  k:"kayip",
+  onem:1,
+  dunya:1,
+  kapsam:"ic",
+  yer_id:"Varadin (Petrovaradin)",
+  b:"Varadin ve Baç'ın Macaristan Krallığı (Habsburg Tacı) eline geçmesi — Harşan sonrası Bačka'dan çekiliş",
+  gun:"Eylül 1687 (1 Eylül'den sonra) [gün teyitsiz]",
+  yer:"Varadin (Petrovaradin), Baç (Bács)",
+  kisiler:"Sarı Süleyman Paşa, Câfer Paşa",
+  etiket:["askeri", "toprak-kayip"],
+  d:"Harşan bozgunundan çekilen Sarı Süleyman Paşa'nın ordusu 1 Eylül 1687'de Varadin'den geçti ve kaleyi Câfer Paşa'ya bıraktı; kısa süre sonra Varadin ile Bačka'daki Baç müttefik Habsburg kuvvetlerinin eline geçti. Karlofça'da Sava sınır kabul edilince Varadin Avusturya tarafında kaldı.",
+  kaynak:"TDV `varadin` — AYNEN: \"Ardından burası müttefik güçlerin kontrolüne girdi.\" · hassasiyet: AY" },
+
+{ t:"1687-09-26",
+  k:"kayip",
+  onem:1,
+  dunya:1,
+  kapsam:"ic",
+  yer_id:"Ösek (Osijek)",
+  b:"Ösek'in Macaristan Krallığı (Habsburg Tacı) eline geçmesi — Slavonya'nın kaybı başladı",
+  gun:"26 Eylül 1687",
+  yer:"Ösek (Osijek)",
+  kisiler:"",
+  etiket:["askeri", "toprak-kayip"],
+  d:"Harşan bozgunundan sonra Drava üzerindeki Ösek köprü kalesi 26 Eylül 1687'de Habsburg kuvvetlerine geçti. Slavonya'daki Osmanlı askerî varlığı ve Türk nüfusu 1686-1688 arasında tedricen çekildi; bölge Habsburg idaresine girdi.",
+  kaynak:"Hrvatska enciklopedija 'Osijek' — AYNEN: \"Nakon oslobođenja od osmanske vlasti 26. IX. 1687.\" · hassasiyet: GÜN" },
+
+{ t:"1687-09-30",
+  k:"kayip",
+  onem:1,
+  dunya:1,
+  kapsam:"ic",
+  yer_id:"Herseknovi (Herceg Novi)",
+  b:"Herseknovi'nin Venedik'e kaybı — Kotor körfezinin ağzı",
+  gun:"Eylül 1687 [yalnız yıl teyitli; gün teyitsiz]",
+  yer:"Herseknovi (Herceg Novi)",
+  kisiler:"Girolamo Cornaro",
+  etiket:["askeri", "toprak-kayip"],
+  d:"Mora Savaşı sırasında Venedik donanması ve müttefikleri 1687'de Kotor körfezinin ağzındaki Herseknovi kalesini kuşatıp aldı; şehir 1797'de Venedik Cumhuriyeti yıkılana dek Venedik'te kaldı.",
+  kaynak:"Hrvatska enciklopedija 'Herceg Novi' — AYNEN: \"a 1687. opet je došao u mletački posjed\" · hassasiyet: YIL" },
+
+{ bolge:1, t:"1794-06-15",
+  k:"siyaset",
+  onem:1,
+  dunya:2,
+  kapsam:"dis",
+  yer_id:"Bastia (Korsika)",
+  b:"Korsika'nın İngiliz tacına bağlanması — Anglo-Korsika Krallığı",
+  gun:"Haziran 1794 (Corte Konsültası, 15-19 Haziran)",
+  yer:"Bastia (Korsika), Ayacyo (Ajaccio)",
+  kisiler:"Pasquale Paoli, Sir Gilbert Elliot, III. George",
+  etiket:["siyaset", "toprak-kayip"],
+  d:"İhtilal Fransası'na karşı ayaklanan Paoli, İngiliz donanmasının desteğiyle adayı Fransız garnizonlarından temizledi; Corte'de toplanan konsülta Korsika'yı İngiliz kralına bağlayan bir anayasa kabul etti. Ada iki yıl Anglo-Korsika Krallığı olarak İngiliz genel valisi Gilbert Elliot'ın idaresinde kaldı.",
+  kaynak:"TDV `korsika` — AYNEN: \"Ancak bu defa ada İngilizler’in eline geçmiş ve 1796’da tekrar Fransa’ya iade edilmiştir.\" · gün: Collectivité de Corse 'juin 1794' · hassasiyet: AY" },
+
+{ bolge:1, t:"1796-10-01",
+  kesinlik:"ay",
+  k:"siyaset",
+  onem:1,
+  dunya:2,
+  kapsam:"dis",
+  yer_id:"Bastia (Korsika)",
+  b:"İngilizlerin Korsika'yı boşaltması — ada yeniden Fransa'nın",
+  gun:"Ekim 1796",
+  yer:"Bastia (Korsika), Ayacyo (Ajaccio)",
+  kisiler:"Sir Gilbert Elliot, Napolyon Bonapart",
+  etiket:["siyaset", "toprak-kayip"],
+  d:"Bonapart'ın İtalya zaferleri ve İspanya'nın Fransa safına geçmesiyle Akdeniz'de sıkışan İngiltere, Korsika'yı tahliye etti. Anglo-Korsika Krallığı sona erdi ve ada yeniden Fransa'ya bağlandı.",
+  kaynak:"TDV `korsika` — AYNEN: \"... 1796’da tekrar Fransa’ya iade edilmiştir.\" · hassasiyet: AY (ikincil kaynak), TDV YIL" },
+
+{ tur:"savas", bolge:3, t:"1906-04-13",
+  k:"fetih",
+  onem:3,
+  dunya:1,
+  kapsam:"dis",
+  yer_id:"Buraydâ (Kasîm)", odak_yer:["Buraydâ (Kasîm)","Uneyze"],
+  b:"İbn Suûd Reşîdî emîrini yendi — Kasîm Şammar Emirliği'nden Suûdîler'e geçti",
+  gun:"13 Nisan 1906",
+  yer:"Buraydâ (Kasîm), Uneyze",
+  kisiler:"Abdülazîz b. Suûd, Abdülazîz b. Müt'ib İbnü'r-Reşîd",
+  etiket:["askeri", "toprak-kazanc"],
+  d:"Riyad'ı 1902'de geri alan Abdülazîz b. Suûd, 13 Nisan 1906'da Reşîdî emîri Abdülazîz b. Müt'ib'i yenip öldürdü. Bu savaşın ardından Kasîm bölgesini (Buraydâ, Uneyze) ele geçirdi; Reşîdîler bundan sonra yalnız Hâil ve çevresinde hüküm sürdü.",
+  kaynak:"TDV `abdulaziz-b-suud` — AYNEN: \"13 Nisan 1906’da amansız düşmanı İbnü’r-Reşîd’in emîrini mağlûp ederek öldürdü\" · TDV `residiler` (Kasîm 1906) · hassasiyet: GÜN" },
+
+{ bolge:1, t:"1903-03-15",
+  k:"fetih",
+  onem:2,
+  dunya:2,
+  kapsam:"dis",
+  yer_id:"Sokoto",
+  b:"İngilizler Sokoto'yu işgal etti — Sokoto Halifeliği başşehrini kaybetti",
+  gun:"15 Mart 1903",
+  yer:"Sokoto",
+  kisiler:"Frederick Lugard, Muhammed I. Tâhir",
+  etiket:["askeri", "toprak-kazanc"],
+  d:"Kuzey Nijerya'yı 1900'de sömürge ilân eden İngiltere'nin valisi Lugard emirlikleri birer birer aldıktan sonra Sokoto ordusunu ağır bir yenilgiye uğrattı ve 15 Mart 1903'te başşehri işgal etti. Kaçan halife Tâhir'in Temmuz'da Burmi'de öldürülmesiyle halifeliğin siyasî hâkimiyeti sona erdi.",
+  kaynak:"TDV `sokoto` — AYNEN: \"İngilizler Sokoto ordusunu ağır bir yenilgiye uğratarak şehri işgal ettiler (15 Mart 1903)\" · hassasiyet: GÜN" },
+
+{ t:"1915-06-10",
+  k:"kayip",
+  onem:3,
+  dunya:1,
+  kapsam:"ic",
+  yer_id:"Kemeran (Kamaran)",
+  b:"Kemeran Adası İngilizlerce işgal edildi",
+  gun:"1915 [yalnız yıl teyitli; gün teyitsiz]",
+  yer:"Kemeran (Kamaran)",
+  kisiler:"",
+  etiket:["askeri", "toprak-kayip"],
+  d:"Kızıldeniz'de Yemen kıyısındaki Kemeran Adası I. Dünya Savaşı sırasında 1915'te İngilizlerce işgal edildi ve Aden'den yönetilmeye başlandı.",
+  kaynak:"Britannica 'Kamaran' — AYNEN: \"The British occupied the island in 1915, governing it from Aden.\" · hassasiyet: YIL" },
+
+{ t:"1918-09-21",
+  k:"kayip",
+  onem:2,
+  dunya:1,
+  kapsam:"ic",
+  yer_id:"Nablus",
+  b:"Nablus'un İngilizlerce işgali — Filistin cephesinin çöküşü",
+  gun:"21 Eylül 1918 [yalnız yıl teyitli; gün teyitsiz]",
+  yer:"Nablus",
+  kisiler:"Allenby, Liman von Sanders",
+  etiket:["askeri", "toprak-kayip"],
+  d:"Eylül 1918'de Allenby'nin Filistin cephesindeki büyük taarruzu Osmanlı 7. ve 8. ordularını dağıttı; Nablus İngilizlerin eline geçti ve şehirde dört asırlık Osmanlı hâkimiyeti sona erdi. Şehir 1920'ye kadar İngiliz askerî idaresinde kaldı.",
+  kaynak:"TDV `nablus` — AYNEN: \"1918’de Filistin bölgesinin İngilizler’in eline geçmesiyle Nablus’ta Osmanlı hâkimiyeti sona erdi\" · hassasiyet: YIL" },
+
+{ t:"1918-11-08",
+  k:"kayip",
+  onem:1,
+  dunya:1,
+  kapsam:"ic",
+  yer_id:"Musul",
+  b:"İngilizlerin Musul'a girişi — Musul vilâyetinin mütarekeye aykırı işgali",
+  gun:"8 Kasım 1918 (TDV: '8 veya 10')",
+  yer:"Musul, Akra, Duhok, Gōrabī, Rewândiz, Sincar, Telafer, Tirwānīsh, Zaho, İmâdiye (Amêdî)",
+  kisiler:"Ali İhsan Paşa, William Marshall",
+  etiket:["askeri", "toprak-kayip"],
+  d:"Mondros Mütarekesi imzalandığında Musul Türk kuvvetlerinin elindeydi. İngilizler mütarekenin 7. maddesine dayanarak 8 (veya 10) Kasım 1918'de şehre girdi ve 15 Kasım'da Türk birlikleri vilâyetten çekilmek zorunda kaldı. Musul meselesi Lozan'da da çözülemedi ve 1926 Ankara Antlaşması'na kaldı.",
+  kaynak:"TDV `musul--irak` — AYNEN: \"İngilizler … 8 (veya 10) Kasım 1918’de Musul’a girdi. 15 Kasım’da buradaki Türk kuvvetleri geri çekilmek zorunda kaldı\" · hassasiyet: GÜN" },
+
+{ t:"1878-09-18",
+  k:"kayip",
+  onem:2,
+  dunya:1,
+  kapsam:"ic",
+  yer_id:"Bihaç (Bihać)",
+  b:"Avusturya-Macaristan ordusu direnişi kırarak Bihaç'ı aldı",
+  gun:"18 Eylül 1878",
+  yer:"Bihaç (Bihać), Ostrovica (Stara Ostrovica, Kulen Vakuf)",
+  kisiler:"Wilhelm von Reinländer",
+  etiket:["askeri", "toprak-kayip"],
+  d:"Berlin Antlaşması'yla Bosna-Hersek'i işgal hakkı alan Avusturya-Macaristan, Bihaç'ta yerli müslüman direnişiyle karşılaştı. General Wilhelm von Reinländer komutasındaki kuvvetler 18 Eylül 1878'de şehri aldı; Una vadisindeki Ostrovica garnizonu da aynı harekâtla Osmanlı elinden çıktı.",
+  kaynak:"TDV `bihac` — AYNEN: \"Fakat Bihaç’ta direnişle karşılaştı, ancak 18 Eylül 1878’de Avusturya-Macaristan ordusu General Wilhelm Freiherr von Reinländer komutasında Bihaç’ı almayı başardı.\" · hassasiyet: GÜN · Ostrovica: gün komşudan (Bihaç), kendi kaydında beyanlı" },
+
+// ---------------------------------------------------------------------
+// D2S-ACIK-1114 (14 Kasım 2026) — TDV okumalı AÇIK satırları: 4 madde.
+// Her biri mevcut ana maddenin gününde; mevcut maddenin anmadığı yerleşimi
+// ABİ MERKEZ bağıyla (CLAUDE.md boşluk merdiveni ⑤) açıkça anar. Çeviri borcu: 4 madde.
+// ---------------------------------------------------------------------
+
+{ bolge:1, t:"1439-08-27",
+  k:"fetih",
+  onem:1,
+  dunya:1,
+  kapsam:"ic",
+  yer_id:"Hisarcık (Grocka)",
+  b:"Semendire'nin alınışıyla Hisarcık (Grocka) da Osmanlı'ya geçti",
+  gun:"27 Ağustos 1439",
+  yer:"Hisarcık (Grocka)",
+  kisiler:"II. Murad",
+  etiket:["askeri", "toprak-kazanc"],
+  d:"Üç aylık kuşatmadan sonra Semendire alındı. Semendire'nin 17 km yakınındaki Hisarcık (Grocka) atlasta abi merkezi Semendire'nin akıbetini izler ve aynı günde Sırp Despotluğu'ndan Osmanlı'ya geçer (1444'te iade edilecektir).",
+  ic_not_d:"Hisarcık TDV'de bu olayda anılmıyor; bağ ABİ MERKEZ: Semendire (BEYANLI YAKLAŞIKLIK, atlas zinciri yerlesimler_zincir64.js). Takova (abi merkezi Rudnik, zincir kaynağı okunmadı) bu maddeye alınmadı.",
+  kaynak:"TDV `semendire` — AYNEN: \"Topların kullanıldığı üç aylık bir kuşatmanın ardından şehir Osmanlılar tarafından alındı.\" (16 Rebîülevvel 843 / 27 Ağustos 1439) · TDV `murad-ii` — AYNEN: \"Semendire’yi zaptetti (16 Rebîülevvel 843 / 27 Ağustos 1439).\" · iki TDV maddesi aynı günü verir · ABİ MERKEZ: Semendire — Hisarcık için bağı gösteren kaynak yok, atlas kaydı · hassasiyet: GÜN (Semendire); Hisarcık BEYANLI YAKLAŞIKLIK" },
+
+{ bolge:1, t:"1458-08-06",
+  k:"fetih",
+  onem:1,
+  dunya:1,
+  kapsam:"ic",
+  yer_id:"Sikyon",
+  b:"Gördüs'ün (Korint) teslimiyle Sikyon da Osmanlı'ya geçti",
+  gun:"6 Ağustos 1458",
+  yer:"Sikyon",
+  kisiler:"Fâtih Sultan Mehmed",
+  etiket:["askeri", "toprak-kazanc"],
+  d:"Fâtih Mora seferinde üç aylık kuşatmadan sonra Gördüs'ü (Korint) barış yoluyla aldı. Korint'e 17 km uzaklıktaki Sikyon atlasta abi merkezi Gördüs'ün akıbetini izler ve aynı günde Osmanlı'ya geçer.",
+  ic_not_d:"Sikyon TDV `gordus`ta anılmıyor; bağ ABİ MERKEZ: Gördüs (Korint) (BEYANLI YAKLAŞIKLIK, atlas zinciri yerlesimler_zincir64.js).",
+  kaynak:"TDV `gordus` — AYNEN: \"barış yoluyla şehri aldı (6 Ağustos 1458)\" · \"üç aylık bir kuşatmadan sonra\" · ABİ MERKEZ: Gördüs (Korint) — Sikyon için bağı gösteren kaynak yok, atlas kaydı · hassasiyet: GÜN (Gördüs); Sikyon BEYANLI YAKLAŞIKLIK" },
+
+{ bolge:1, t:"1459-06-20",
+  k:"fetih",
+  onem:1,
+  dunya:1,
+  kapsam:"ic",
+  yer_id:"Hisarcık (Grocka)",
+  b:"Semendire'nin teslimiyle Hisarcık (Grocka) da Osmanlı'ya geçti",
+  gun:"20 Haziran 1459",
+  yer:"Hisarcık (Grocka)",
+  kisiler:"Helena Brankoviç",
+  etiket:["askeri", "toprak-kazanc"],
+  d:"Lazar Brankoviç'in dul eşi Helena Semendire kalesini Osmanlılar'a teslim etti; Sırp Despotluğu sona erdi. Semendire'nin abi merkezliğindeki Hisarcık (Grocka) aynı günde Osmanlı'ya geçer.",
+  ic_not_d:"Hisarcık TDV'de bu olayda anılmıyor (TDV `semendire` Hisarcık'ı yalnız XVI. yüzyıl yol güzergâhında anar); bağ ABİ MERKEZ: Semendire (BEYANLI YAKLAŞIKLIK, atlas zinciri). Takova (abi merkezi Rudnik, zincir kaynağı okunmadı) bu maddeye alınmadı.",
+  kaynak:"TDV `semendire` — AYNEN: \"20 Haziran 1459’da Lazar Brankoviç’in dul eşi Helena kaleyi Osmanlılar’a teslim etti.\" · ABİ MERKEZ: Semendire — Hisarcık için bağı gösteren kaynak yok, atlas kaydı · hassasiyet: GÜN (Semendire); Hisarcık BEYANLI YAKLAŞIKLIK" },
+
+{ bolge:1, t:"1475-06-06",
+  k:"fetih",
+  onem:1,
+  dunya:1,
+  kapsam:"ic",
+  yer_id:"Soçi (Sâşe)",
+  b:"Kefe'nin teslimi ve Kırım hanının tâbiliği — Çerkezya kıyısı (Soçi, Tuapse, Maykop) gevşek himaye alanı olarak Kırım Hanlığı'na bağlandı",
+  gun:"6 Haziran 1475",
+  yer:"Soçi (Sâşe), Tuapse, Maykop (Çerkezya)",
+  kisiler:"Gedik Ahmed Paşa, Mengli Giray",
+  etiket:["askeri", "toprak-kazanc"],
+  d:"Dört günlük kuşatmadan sonra Kefe Ahmed Paşa'ya teslim oldu, Mengli Giray Osmanlı sultanının tâbiliğini kabul etti. Kırım hanlarını metbû tanıyan Çerkez kabilelerinin yurdu olan Soçi, Tuapse ve Maykop çevresi atlasta bu tarihten itibaren Kırım Hanlığı'na gevşek himaye olarak bağlı gösterilir.",
+  ic_not_d:"TDV Soçi, Tuapse, Maykop adlarını anmıyor; TDV `kirim` Çerkez kabilelerini yalnız 'Kabartay' bağlamında ve tarihsiz anar. Himaye pencerelerinin başı (1475-06-06) Emre kararı D (13 Eyl 2026) atlas modelidir — BEYANLI YAKLAŞIKLIK.",
+  kaynak:"TDV `mehmed-ii` — AYNEN: \"Dört günlük muhasaradan sonra Kefe şehri Ahmed Paşa’ya teslim oldu (1 Safer 880 / 6 Haziran 1475).\" · TDV `kirim` — AYNEN: \"Ahmed Paşa ile bir anlaşma yaparak Osmanlı sultanının tâbiliğini kabul etti.\" · \"Daha güneyde Kabartay’da Çerkez kabileleri de Kırım hanlarını metbû tanırlardı.\" (tarihsiz) · hassasiyet: GÜN (Kefe); Çerkezya kıyısı BEYANLI YAKLAŞIKLIK" },
+{ bolge:1, t:"1344-03-26",
+  k:"fetih",
+  onem:2,
+  dunya:2,
+  kapsam:"dis",
+  yer_id:"Cezîretülhadrâ (Algeciras)",
+  b:"Kastilya Kralı XI. Alfonso Cezîretülhadrâ'yı (Algeciras) aldı: yirmi aylık kuşatmadan sonra Merînî hâkimiyeti sona erdi",
+  gun:"26 Mart 1344",
+  ic_not_gun:"YIL-TEMSİLİ-DİLİM2-1114: önceki gün 1344-01-01 (yıl-temsilî). 26 Mart = Algeciras Müslümanlarının şehri terk etme emrini aldığı ve Villa Nueva'nın boşaltıldığı gün; 27 Mart Villa Vieja boşaldı, 28 Mart 1344 Alfonso XI şehre girdi (López Fernández).",
+  yer:"Cezîretülhadrâ (Algeciras)",
+  kisiler:"XI. Alfonso, Sultan Ebü'l-Hasen",
+  etiket:["askeri", "toprak-kazanc"],
+  d:"Kastilya Kralı XI. Alfonso'nun yaklaşık yirmi ay süren kuşatmasının ardından 21 Mart 1344'te başlayan görüşmeler sonunda Merînî hükümdarı Ebü'l-Hasen Müslümanlara şehri terk etmelerini bildirdi; 26 Mart'ta Villa Nueva, ertesi gün Villa Vieja boşaltıldı ve Kastilyalılar şehri devraldı. Alfonso XI 28 Mart 1344'te (Palmiye Pazarı) törenle şehre girdi. Cezîretülhadrâ 1369'a dek Kastilya'da kaldı.",
+  kaynak:"Manuel López Fernández, «Algeciras entre Castilla y Granada (1344-1393)», Almoraima 41 (2014), s. 121-122 (Instituto de Estudios Campogibraltareños; Crónica de Alfonso XI s. 388-390'a dayanır) — AYNEN: «cuando el día 26 de marzo [...] los musulmanes algecireños recibieron una carta del sultán Abu l-Hasan ordenándoles abandonar su ciudad» · aynı yazar, Almoraima 54 (2021), s. 17-26: «entró en la ciudad el 28 de marzo de 1344» · TDV `nasriler` / `merinîler` yalnız 744 (1344) yılını verir (çelişki yok) · hassasiyet: GÜN · tek yazarlı kaynak, bağımsız ikinci akademik kaynak okunamadı" },
+];
 
 ;
 /* ==== data/olaylar_2s_1114_d5.js ==== */
-// data/olaylar_2s_1114_d5.js — paketle.py İNCELTTİ: ic_not* alanları yayına gitmez (kaynak dosya değişmedi)
-window.OLAYLAR_2S1114D5 = [{"t":"1923-07-24","k":"antlasma","onem":3,"dunya":2,"kapsam":"dis","yer_id":"Batnoz (Patmos)","b":"Lozan Antlaşması — Patmos İtalya'ya bırakıldı, Ege adalarında Yunan egemenliği teyit edildi","gun":"24 Temmuz 1923","yer":"Batnoz (Patmos), Bozbaba (Ay Strati), Fornoz (Fourni)","etiket":["antlasma","diplomasi","konu-diplomasi"],"d":"Lozan'ın 15. maddesiyle Türkiye, Batnoz (Patmos) dahil On İki Ada'ya (Dodecanese) ilişkin bütün hak ve unvanlarından İtalya lehine vazgeçti; adalar 1912'den beri fiilen İtalyan işgalindeydi. 12. madde ise Limni, Semadirek, Midilli, Sakız, Sisam ve Nikarya'nın Yunan egemenliğini teyit etti. Bozbaba (Ay Strati) ile Fornoz (Fourni) 1912'den beri Yunan elindeydi ve Lozan'dan sonra da Yunanistan'da kaldı; bu iki adın kendisi Lozan'ın 12. maddesinde sayılmaz.","kaynak":"Lozan Barış Antlaşması, Siyasi Hükümler, md. 12 ve md. 15 (T.C. Dışişleri Bakanlığı yayımı, mfa.gov.tr 'Lausanne Peace Treaty Part I — Political Clauses', bu oturumda okundu): \"Turkey renounces in favour of Italy all rights and title over the following islands: … Patmos …\" · hassasiyet: GÜN"},{"t":"1935-12-25","k":"siyaset","onem":2,"dunya":1,"kapsam":"ic","yer_id":"Tunceli (Kalan)","b":"Tunceli Kanunu — Dersim sancağı yerine Tunceli vilâyeti kuruldu (merkez Kalan)","gun":"25 Aralık 1935","yer":"Tunceli (Kalan), Dersim","etiket":["idari","konu-idari"],"d":"2885 sayılı yasayla Dersim bölgesinde Tunceli adlı yeni bir vilâyet kurulması kararlaştırıldı; vilâyetin idarî merkezi Kalan yerleşimi oldu ve yerleşim sonradan Tunceli adını aldı. Bölge Türkiye Cumhuriyeti içinde kaldı; değişen şey idarî statü ve adıdır.","kaynak":"TDV `tunceli` — \"25 Aralık 1935 tarihinde kabul edilen 2885 sayılı yasa ile (Düstur, Üçüncü tertip, XVII, 171) Tunceli adlı yeni bir vilâyet kurulması kararlaştırıldı\" (bu oturumda okundu; Kalan merkez bilgisi aynı madde) · hassasiyet: GÜN"},{"t":"1956-03-02","k":"kurulus","onem":4,"dunya":3,"kapsam":"dis","yer_id":"Selâ","b":"Fas'ın bağımsızlığı: Fransız himayesi sona erdi, Selâ ve Rabat Fas Krallığı'na kaldı","gun":"2 Mart 1956","yer":"Selâ, Rabat","etiket":["bagimsizlik","konu-siyasi"],"d":"2 Mart 1956'da imzalanan bağımsızlık antlaşmasıyla 1912'den beri süren Fransız himayesi sona erdi; Selâ ve Rabat bağımsız Fas Krallığı'nın toprağı oldu. İspanya Fas'ın bağımsızlığını 5 Nisan 1956'da tanıdı.","kaynak":"TDV `fas` — \"2 Mart 1956 tarihinde bağımsızlık antlaşması imzalandı\" (bu oturumda okundu; maddenin son ~21 bin karakteri okunmadı) · hassasiyet: GÜN"},{"t":"1980-07-30","k":"kurulus","onem":3,"dunya":2,"kapsam":"dis","yer_id":"Port Vila","b":"Yeni Hebridler bağımsız oldu: Vanuatu Cumhuriyeti kuruldu","gun":"30 Temmuz 1980","yer":"Port Vila, Teouma (Efate)","etiket":["bagimsizlik","konu-siyasi"],"d":"Fransa ile Birleşik Krallık'ın ortak egemenliğindeki Yeni Hebridler Kondominyumu 30 Temmuz 1980'de Vanuatu adıyla bağımsız oldu. Efate adasındaki başşehir Port Vila ile Teouma yerleşimi kondominyum yönetiminden Vanuatu'ya geçti.","kaynak":"ABD Dışişleri Bakanlığı Tarihçi Ofisi, Vanuatu (history.state.gov/countries/vanuatu, bu oturumda okundu): bağımsızlık 30 Temmuz 1980; öncesinde Fransa ve Birleşik Krallık'ın ortak egemenliğinde kondominyum · hassasiyet: GÜN"},{"t":"1994-03-01","k":"kayip","onem":2,"dunya":2,"kapsam":"dis","yer_id":"Valvis Körfezi","b":"Güney Afrika Valvis Körfezi'ni (Walvis Bay) Namibya'ya devretti","gun":"1 Mart 1994","yer":"Valvis Körfezi (Walvis Bay)","etiket":["devir","konu-siyasi"],"d":"Güney Afrika Cumhuriyeti 1 Mart 1994'te Valvis Körfezi limanını ve açıktaki on iki adayı Namibya hükûmetine devretti; seksen dört yıllık Güney Afrika denetimi sona erdi.","kaynak":"South African History Online, 'Walvis Bay handed over to Namibia' (sahistory.org.za/dated-event/walvis-bay-handed-over-namibia, bu oturumda okundu): 1 Mart 1994, \"ended eighty-four years of control\" · hassasiyet: GÜN"}];
+// =====================================================================
+// OLAYLAR_2S1114D5 — Değişmez 2s AÇIK borcu, dilim 5 (denetim/D2S-ACIK-1114.md satır 228-267)
+// 14 Kasım 2026 · alt ajan (Sonnet) · her madde bu oturumda OKUNAN kaynağa dayanır;
+// gün kaynakta yoksa yazılmadı. Okunamayan kaynak `kaynak:`ta "okunmadı" diye geçer.
+// Ad alanı: YALNIZ window.OLAYLAR_2S1114D5. index.html'e <script> satırı gerekir (ana oturum ekler).
+// =====================================================================
+
+window.OLAYLAR_2S1114D5 = [
+{ t:"1923-07-24",
+  k:"antlasma",
+  onem:3,
+  dunya:2,
+  kapsam:"dis",
+  yer_id:"Batnoz (Patmos)",
+  b:"Lozan Antlaşması — Patmos İtalya'ya bırakıldı, Ege adalarında Yunan egemenliği teyit edildi",
+  gun:"24 Temmuz 1923",
+  yer:"Batnoz (Patmos), Bozbaba (Ay Strati), Fornoz (Fourni)",
+  etiket:["antlasma","diplomasi","konu-diplomasi"],
+  d:"Lozan'ın 15. maddesiyle Türkiye, Batnoz (Patmos) dahil On İki Ada'ya (Dodecanese) ilişkin bütün hak ve unvanlarından İtalya lehine vazgeçti; adalar 1912'den beri fiilen İtalyan işgalindeydi. 12. madde ise Limni, Semadirek, Midilli, Sakız, Sisam ve Nikarya'nın Yunan egemenliğini teyit etti. Bozbaba (Ay Strati) ile Fornoz (Fourni) 1912'den beri Yunan elindeydi ve Lozan'dan sonra da Yunanistan'da kaldı; bu iki adın kendisi Lozan'ın 12. maddesinde sayılmaz.",
+  ic_not_d:"Madde 12 ve 15'in sayılan ada adları okundu; Bozbaba ve Fornoz'un 12. maddedeki adalarla aynı grupta olduğu çıkarımdır, metinde adları yoktur — kırılma yerleşim verisinde (1923-07-24) bu iki ad için dönem bölünmesidir, devir değildir.",
+  kaynak:"Lozan Barış Antlaşması, Siyasi Hükümler, md. 12 ve md. 15 (T.C. Dışişleri Bakanlığı yayımı, mfa.gov.tr 'Lausanne Peace Treaty Part I — Political Clauses', bu oturumda okundu): \"Turkey renounces in favour of Italy all rights and title over the following islands: … Patmos …\" · hassasiyet: GÜN" },
+
+{ t:"1935-12-25",
+  k:"siyaset",
+  onem:2,
+  dunya:1,
+  kapsam:"ic",
+  yer_id:"Tunceli (Kalan)",
+  b:"Tunceli Kanunu — Dersim sancağı yerine Tunceli vilâyeti kuruldu (merkez Kalan)",
+  gun:"25 Aralık 1935",
+  yer:"Tunceli (Kalan), Dersim",
+  etiket:["idari","konu-idari"],
+  d:"2885 sayılı yasayla Dersim bölgesinde Tunceli adlı yeni bir vilâyet kurulması kararlaştırıldı; vilâyetin idarî merkezi Kalan yerleşimi oldu ve yerleşim sonradan Tunceli adını aldı. Bölge Türkiye Cumhuriyeti içinde kaldı; değişen şey idarî statü ve adıdır.",
+  kaynak:"TDV `tunceli` — \"25 Aralık 1935 tarihinde kabul edilen 2885 sayılı yasa ile (Düstur, Üçüncü tertip, XVII, 171) Tunceli adlı yeni bir vilâyet kurulması kararlaştırıldı\" (bu oturumda okundu; Kalan merkez bilgisi aynı madde) · hassasiyet: GÜN" },
+
+{ t:"1956-03-02",
+  k:"kurulus",
+  onem:4,
+  dunya:3,
+  kapsam:"dis",
+  yer_id:"Selâ",
+  b:"Fas'ın bağımsızlığı: Fransız himayesi sona erdi, Selâ ve Rabat Fas Krallığı'na kaldı",
+  gun:"2 Mart 1956",
+  yer:"Selâ, Rabat",
+  etiket:["bagimsizlik","konu-siyasi"],
+  d:"2 Mart 1956'da imzalanan bağımsızlık antlaşmasıyla 1912'den beri süren Fransız himayesi sona erdi; Selâ ve Rabat bağımsız Fas Krallığı'nın toprağı oldu. İspanya Fas'ın bağımsızlığını 5 Nisan 1956'da tanıdı.",
+  ic_not_d:"TDV metni antlaşmanın taraflarını adıyla vermez; 'Fransız himayesinin sonu' bağlamdan okunur. Ortak bildiri (Fransa-Fas) ifadesi TDV'de geçmez, uca.edu DADM atfı bu oturumda okunmadı.",
+  kaynak:"TDV `fas` — \"2 Mart 1956 tarihinde bağımsızlık antlaşması imzalandı\" (bu oturumda okundu; maddenin son ~21 bin karakteri okunmadı) · hassasiyet: GÜN" },
+
+{ t:"1980-07-30",
+  k:"kurulus",
+  onem:3,
+  dunya:2,
+  kapsam:"dis",
+  yer_id:"Port Vila",
+  b:"Yeni Hebridler bağımsız oldu: Vanuatu Cumhuriyeti kuruldu",
+  gun:"30 Temmuz 1980",
+  yer:"Port Vila, Teouma (Efate)",
+  etiket:["bagimsizlik","konu-siyasi"],
+  d:"Fransa ile Birleşik Krallık'ın ortak egemenliğindeki Yeni Hebridler Kondominyumu 30 Temmuz 1980'de Vanuatu adıyla bağımsız oldu. Efate adasındaki başşehir Port Vila ile Teouma yerleşimi kondominyum yönetiminden Vanuatu'ya geçti.",
+  ic_not_d:"Teouma için ayrı kaynak yok; Efate adasındaki yerleşim olarak başşehrin devir günü izlenir (atlas kaydı 'abi merkez' beyanlıdır).",
+  kaynak:"ABD Dışişleri Bakanlığı Tarihçi Ofisi, Vanuatu (history.state.gov/countries/vanuatu, bu oturumda okundu): bağımsızlık 30 Temmuz 1980; öncesinde Fransa ve Birleşik Krallık'ın ortak egemenliğinde kondominyum · hassasiyet: GÜN" },
+
+{ t:"1994-03-01",
+  k:"kayip",
+  onem:2,
+  dunya:2,
+  kapsam:"dis",
+  yer_id:"Valvis Körfezi",
+  b:"Güney Afrika Valvis Körfezi'ni (Walvis Bay) Namibya'ya devretti",
+  gun:"1 Mart 1994",
+  yer:"Valvis Körfezi (Walvis Bay)",
+  etiket:["devir","konu-siyasi"],
+  d:"Güney Afrika Cumhuriyeti 1 Mart 1994'te Valvis Körfezi limanını ve açıktaki on iki adayı Namibya hükûmetine devretti; seksen dört yıllık Güney Afrika denetimi sona erdi.",
+  kaynak:"South African History Online, 'Walvis Bay handed over to Namibia' (sahistory.org.za/dated-event/walvis-bay-handed-over-namibia, bu oturumda okundu): 1 Mart 1994, \"ended eighty-four years of control\" · hassasiyet: GÜN" },
+];
 
 ;
 /* ==== data/olaylar_mogolistan_1115.js ==== */
-// data/olaylar_mogolistan_1115.js — paketle.py İNCELTTİ: ic_not* alanları yayına gitmez (kaynak dosya değişmedi)
-window.OLAYLAR_MOGOLISTAN1115 = [{"t":"1691-05-29","k":"siyaset","onem":4,"dunya":3,"kapsam":"dis","yer_id":"Urga (Ulan Batur)","odak_yer":["Urga (Ulan Batur)","Karakurum","Öndörhaan (Hentiy)","Kerulen (Çoybalsan)"],"taraflar":["kuzey-yuan","qing-hanedani"],"b":"Dolon Nor toplantısı: Halha hanları Kangxi'ye bağlandı; Kuzey Yuan (Halha) toprakları Qing'e geçti","gun":"29 Mayıs 1691 (Kangxi 30, 5. ay 丁亥)","yer":"Dolon Nor (Duolun), Halha yerleşimleri (Urga, Kerulen, Öndörhaan, Karakurum bölgesi)","etiket":["devir","konu-siyasi"],"d":"Galdan'ın 1688 işgalinden sonra Halha beyleri Qing sınırına çekilmişti; Kangxi Dolon Nor'da (Duoluonuoer) Halha hanlarını kabul etti. Tüsiyetü Han ile Jebtsundamba Khutughtu imparatorun çadırında huzura çıkıp bağışlanmayı karşıladı, Halha ve Moğol beylerine unvanlar ve ödüller verildi; Halha Qing'in Moğol idaresine (hoşun/zasak düzeni) alındı.","kaynak":"Qing Shilu (Shengzu shilu) juan 150, Kangxi 30 (1691) 夏四月 丙辰朔 – 五月 丙戌朔 (Wikisource 清實錄/聖祖仁皇帝實錄/卷150, bu oturumda okundu): «乙酉、上駐蹕多羅諾爾地方»; «丁亥、上命土謝圖汗、澤卜尊丹巴胡土克圖進行幄朝見» · Qing Shi gao juan 7 聖祖本紀二 (Wikisource 清史稿/卷7, bu oturumda okundu): «五月 丙戌，上駐多羅諾爾。喀爾喀來朝。» · Qing Shi gao juan 521 藩部四 土謝圖汗部 (Wikisource 清史稿/卷521, bu oturumda okundu): «夏四月，驾至，喀爾喀汗、濟農、諾顏、台吉等三十五人以次朝見» · hassasiyet: GÜN (Gregoryen çeviri)"},{"t":"1688-01-01","k":"savas","onem":4,"dunya":3,"kapsam":"dis","yer_id":"Karakurum","odak_yer":["Karakurum"],"taraflar":["cungar","kuzey-yuan"],"b":"Galdan Han Halha'yı işgal etti; Erdene Zuu çevresinde Halha hanlıkları dağıldı, Halha beyleri Qing sınırına çekildi","gun":"1688 (yıl)","yer":"Erdene Zuu (Karakurum çevresi), Hangay","etiket":["savas","konu-askeri"],"d":"Cungar hükümdarı Galdan Halha'ya saldırdı; Zasaktu Han'ın ülkesi Hangay'da çöktü, Tüsiyetü Han ve Jebtsundamba Erdene Zuu'dan kaçtı, Halha Moğolları Qing sınırı içine göç etti.","kaynak":"Qing Shi gao juan 7 聖祖本紀二 (Wikisource 清史稿/卷7, bu oturumda okundu): «二十七年… 六月… 庚申，阿喇尼奏噶爾丹侵厄爾德尼招，哲卜尊丹巴、土謝圖汗遁» · Qing Shi gao juan 521 (Wikisource 清史稿/卷521, bu oturumda okundu): «二十七年，噶爾丹以兵三萬掠喀爾喀，至杭愛山，所部大潰» ve «二十七年，厄魯特噶爾丹掠喀爾喀» · hassasiyet: YIL"},{"t":"1696-06-12","k":"savas","onem":4,"dunya":3,"kapsam":"dis","yer_id":"Urga (Ulan Batur)","odak_yer":["Urga (Ulan Batur)"],"taraflar":["qing-hanedani","cungar"],"b":"Zuunmod (Jao Modo) Muharebesi: Qing ordusu Galdan'ın Cungar ordusunu bozguna uğrattı","gun":"12 Haziran 1696 (Kangxi 35, 5. ay 13. gün)","yer":"Zuunmod / Jao Modo (昭莫多), Tuul üst havzası, Ulan Batur yakını","etiket":["savas","konu-askeri"],"d":"Fiyanggu komutasındaki Qing ordusu Jao Modo'da Galdan'ı ağır yenilgiye uğrattı; Galdan'ın eşi Anu öldü. Yenilgi Halha'nın Qing'e bağlanmasını pekiştirdi, Galdan 1697'de öldü.","kaynak":"Qing Shilu juan 172, Kangxi 35 (1696) 五月 丙辰朔 (Wikisource 清實錄/聖祖仁皇帝實錄/卷172, bu oturumda okundu): «五月十三日、臣軍正向昭莫多» · «至是捷報至。果於是日破噶爾丹» · Qing Shi gao juan 7 聖祖本紀二 (Wikisource 清史稿/卷7, bu oturumda okundu): «癸酉，次中拖陵。撫遠大將軍伯費揚古大敗噶爾丹於昭莫多，斬級三千，陣斬其妻阿奴。» · hassasiyet: GÜN (Gregoryen çeviri)"}];
+// =====================================================================
+// OLAYLAR_MOGOLISTAN1115 — Moğolistan bölge denetimi (UMIT, 15 Kasım 2026, 2. tur)
+// Her madde bu oturumda OKUNAN birincil/akademik tam metne dayanır (Wikisource'taki
+// Qing Shilu ve Qing Shi gao metinleri); okunamayan kaynak "okunmadı" diye geçer.
+// Ad alanı: YALNIZ window.OLAYLAR_MOGOLISTAN1115. index.html'e <script> satırı gerekir.
+// =====================================================================
+
+window.OLAYLAR_MOGOLISTAN1115 = [
+{ t:"1691-05-29",
+  k:"siyaset",
+  onem:4,
+  dunya:3,
+  kapsam:"dis",
+  yer_id:"Urga (Ulan Batur)",
+  odak_yer:["Urga (Ulan Batur)","Karakurum","Öndörhaan (Hentiy)","Kerulen (Çoybalsan)"],
+  taraflar:["kuzey-yuan","qing-hanedani"],
+  b:"Dolon Nor toplantısı: Halha hanları Kangxi'ye bağlandı; Kuzey Yuan (Halha) toprakları Qing'e geçti",
+  gun:"29 Mayıs 1691 (Kangxi 30, 5. ay 丁亥)",
+  yer:"Dolon Nor (Duolun), Halha yerleşimleri (Urga, Kerulen, Öndörhaan, Karakurum bölgesi)",
+  etiket:["devir","konu-siyasi"],
+  d:"Galdan'ın 1688 işgalinden sonra Halha beyleri Qing sınırına çekilmişti; Kangxi Dolon Nor'da (Duoluonuoer) Halha hanlarını kabul etti. Tüsiyetü Han ile Jebtsundamba Khutughtu imparatorun çadırında huzura çıkıp bağışlanmayı karşıladı, Halha ve Moğol beylerine unvanlar ve ödüller verildi; Halha Qing'in Moğol idaresine (hoşun/zasak düzeni) alındı.",
+  ic_not_d:"TAKVİM: Çin ay-güneş günü Gregoryen'e çevrildi (1691 > 1582): Shilu'ya göre 5. ay朔 = 丙戌, 4. ay 乙酉 günü imparator Dolon Nor'a vardı; 干支 sayımıyla 丙戌 = 1691-05-28, 乙酉 = 1691-05-27 (4. ayın son günü), 丁亥 = 1691-05-29. ÇELİŞKİ: Shilu varışı 乙酉 (05-27) ve huzura kabulü 丁亥 (05-29) yazar; Qing Shi gao juan 7 «五月 丙戌，上駐多羅諾爾。喀爾喀來朝» (05-28) yazar — iki metin aynı Dolon Nor buluşmasını 27-29 Mayıs arasına koyar. Karar: unvanların verildiği ve Halha'nın kabul edildiği gün Shilu'nun 丁亥'si (1691-05-29); Shilu ayrıntılı günlük kayıttır, Shi gao özetidir. Yerleşim/künye ucu 1691-05-30 ile 1 gün fark kabul edildi (künye t Bawden/İSAM gibi okunmamış ikincil tarihli, değiştirilmedi). Halha'nın 1691'de Qing'e geçişi: Qing Shi gao juan 521 (土謝圖汗部) «夏四月，驾至，喀爾喀汗、濟農、諾顏、台吉等三十五人以次朝見» (yalnız ay).",
+  kaynak:"Qing Shilu (Shengzu shilu) juan 150, Kangxi 30 (1691) 夏四月 丙辰朔 – 五月 丙戌朔 (Wikisource 清實錄/聖祖仁皇帝實錄/卷150, bu oturumda okundu): «乙酉、上駐蹕多羅諾爾地方»; «丁亥、上命土謝圖汗、澤卜尊丹巴胡土克圖進行幄朝見» · Qing Shi gao juan 7 聖祖本紀二 (Wikisource 清史稿/卷7, bu oturumda okundu): «五月 丙戌，上駐多羅諾爾。喀爾喀來朝。» · Qing Shi gao juan 521 藩部四 土謝圖汗部 (Wikisource 清史稿/卷521, bu oturumda okundu): «夏四月，驾至，喀爾喀汗、濟農、諾顏、台吉等三十五人以次朝見» · hassasiyet: GÜN (Gregoryen çeviri)" },
+
+{ t:"1688-01-01",
+  k:"savas",
+  onem:4,
+  dunya:3,
+  kapsam:"dis",
+  yer_id:"Karakurum",
+  odak_yer:["Karakurum"],
+  taraflar:["cungar","kuzey-yuan"],
+  b:"Galdan Han Halha'yı işgal etti; Erdene Zuu çevresinde Halha hanlıkları dağıldı, Halha beyleri Qing sınırına çekildi",
+  gun:"1688 (yıl)",
+  yer:"Erdene Zuu (Karakurum çevresi), Hangay",
+  etiket:["savas","konu-askeri"],
+  d:"Cungar hükümdarı Galdan Halha'ya saldırdı; Zasaktu Han'ın ülkesi Hangay'da çöktü, Tüsiyetü Han ve Jebtsundamba Erdene Zuu'dan kaçtı, Halha Moğolları Qing sınırı içine göç etti.",
+  ic_not_d:"YIL hassasiyeti (kesinlik yıl): Qing Shi gao juan 7 Kangxi 27'nin 6. ayı 庚申 gününde Arani'nin Erdene Zuu'nun saldırıya uğradığını bildirdiğini yazar (rapor günüdür, saldırı günü değil); juan 521'de «二十七年，噶爾丹以兵三萬掠喀爾喀，至杭愛山» (Zasaktu Han bölümü). 1688-01-01 YIL işaretidir. 1682 MADDESİ İLE İLİŞKİ (HAKEMLİ KARAR): atlasın «1682 Galdan Kâşgar'ı ve ardından Moğolistan'ı fethetti» maddesi (TDV Kalmuklar: 1682) Tarim havzası için Qinding Huangyu Xiyu tuzhi juan 18 (Wikisource, bu oturumda okundu) «康熙二十一年…阿布都里什特為準噶爾所執» ile ÇİFT TEYİTLİDİR (iki bağımsız kaynak: 1682); bu yüzden 1682 DEĞİŞTİRİLMEDİ (Vikipedi/Batı literatürünün 1678-80'i Courant/Perdue okunmadığı için sayılmadı). Aynı maddenin «ardından bütün Moğolistan'ı fethetti» cümlesindeki Halha işgali ise Qing kaynaklarında 1688'dir; bu madde onu ayrı gün/yıl olarak yazar.",
+  kaynak:"Qing Shi gao juan 7 聖祖本紀二 (Wikisource 清史稿/卷7, bu oturumda okundu): «二十七年… 六月… 庚申，阿喇尼奏噶爾丹侵厄爾德尼招，哲卜尊丹巴、土謝圖汗遁» · Qing Shi gao juan 521 (Wikisource 清史稿/卷521, bu oturumda okundu): «二十七年，噶爾丹以兵三萬掠喀爾喀，至杭愛山，所部大潰» ve «二十七年，厄魯特噶爾丹掠喀爾喀» · hassasiyet: YIL" },
+
+{ t:"1696-06-12",
+  k:"savas",
+  onem:4,
+  dunya:3,
+  kapsam:"dis",
+  yer_id:"Urga (Ulan Batur)",
+  odak_yer:["Urga (Ulan Batur)"],
+  taraflar:["qing-hanedani","cungar"],
+  b:"Zuunmod (Jao Modo) Muharebesi: Qing ordusu Galdan'ın Cungar ordusunu bozguna uğrattı",
+  gun:"12 Haziran 1696 (Kangxi 35, 5. ay 13. gün)",
+  yer:"Zuunmod / Jao Modo (昭莫多), Tuul üst havzası, Ulan Batur yakını",
+  etiket:["savas","konu-askeri"],
+  d:"Fiyanggu komutasındaki Qing ordusu Jao Modo'da Galdan'ı ağır yenilgiye uğrattı; Galdan'ın eşi Anu öldü. Yenilgi Halha'nın Qing'e bağlanmasını pekiştirdi, Galdan 1697'de öldü.",
+  ic_not_d:"TAKVİM VE ÇELİŞKİ: Shilu juan 172 Kangxi 35 5. ay丙辰朔; Fiyanggu'nun raporu «五月十三日、臣軍正向昭莫多» der ve haber 癸酉 günü ulaşmıştır («至是捷報至。果於是日破噶爾丹»). Qing Shi gao juan 7 savaşı haber gününe (癸酉) koyar. Çelişki giderildi: savaş günü 5. ay 13 = 丙辰朔 (Gregoryen 1696-05-31) + 12 gün = 1696-06-12; haber günü 癸酉 = 1696-06-17 (Shi gao'nun tarihi savaş günü değil rapor günüdür). Seçilen: 1696-06-12. Yer çözümü: Zuunmod'un Ulan Batur yakınında Tuul üst havzası olması modern tanımdır (Qing metinleri yalnız 昭莫多 der); kamera odağı Urga vekildir.",
+  kaynak:"Qing Shilu juan 172, Kangxi 35 (1696) 五月 丙辰朔 (Wikisource 清實錄/聖祖仁皇帝實錄/卷172, bu oturumda okundu): «五月十三日、臣軍正向昭莫多» · «至是捷報至。果於是日破噶爾丹» · Qing Shi gao juan 7 聖祖本紀二 (Wikisource 清史稿/卷7, bu oturumda okundu): «癸酉，次中拖陵。撫遠大將軍伯費揚古大敗噶爾丹於昭莫多，斬級三千，陣斬其妻阿奴。» · hassasiyet: GÜN (Gregoryen çeviri)" },
+];
 
 ;
 /* ==== data/olaylar_alm_1115b.js ==== */
-// data/olaylar_alm_1115b.js — paketle.py İNCELTTİ: ic_not* alanları yayına gitmez (kaynak dosya değişmedi)
-window.OLAYLAR_ALM1115B = [{"t":"1810-12-01","kesinlik":"ay","k":"siyaset","onem":3,"dunya":2,"kapsam":"dis","yer_id":"Lübeck","b":"Napolyon Lübeck'i Fransız İmparatorluğu'na kattı","gun":"Aralık 1810","yer":"Lübeck","etiket":["toprak-kayip","siyaset"],"d":"Blücher'in Kasım 1806'da Lübeck yakınında teslim olmasının ardından şehir Fransızlarca yağmalanmış, Aralık 1810'da Napolyon şehri kendi imparatorluğuna katmıştır. Lübeck bu tarihe dek 1226'dan beri özgür imparatorluk şehriydi.","kaynak":"Encyclopaedia Britannica 11. basım (1911), 'Lübeck' (en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/L%C3%BCbeck, bu oturumda okundu): \"Napoleon annexed it to his empire in December 1810\"; \"it was made a free city of the Empire by Frederick II\" (1226) · Treccani Enciclopedia on line 'Lubecca' (treccani.it/enciclopedia/lubecca/, okundu): «nel 1810 la città fu incorporata nell'Impero francese» · hassasiyet: AY"},{"t":"1813-01-01","kesinlik":"yil","k":"siyaset","onem":2,"dunya":1,"kapsam":"dis","yer_id":"Lübeck","b":"Lübeck Fransız egemenliğine karşı ayaklandı ve özgür şehir statüsünü geri aldı","gun":"1813","yer":"Lübeck","etiket":["toprak-kazanc","ayaklanma"],"d":"1813'te Fransız yönetimine karşı ayaklanan Lübeck, 1815'te Viyana Kongresi'nce Alman Konfederasyonu'nun özgür ve Hansa şehri olarak tanınmıştır.","kaynak":"Encyclopaedia Britannica 11. basım (1911), 'Lübeck' (en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/L%C3%BCbeck, okundu): \"after rising against the French in 1813\" … \"recognized by the Congress of Vienna as a free and Hanse town of the German Confederation\" · Treccani 'Lubecca' (okundu): «dopo la liberazione nel 1813» · hassasiyet: YIL"},{"t":"1937-04-01","k":"siyaset","onem":3,"dunya":2,"kapsam":"ic","yer_id":"Lübeck","b":"Büyük Hamburg Yasası yürürlüğe girdi — Lübeck'in bağımsız eyalet statüsü sona erdi","gun":"1 Nisan 1937","yer":"Lübeck, Hamburg","etiket":["toprak-kayip","siyaset"],"d":"26 Ocak 1937'de çıkarılan Büyük Hamburg Yasası 1 Nisan 1937'de yürürlüğe girdi; Lübeck 700 yılı aşkın özerkliğini yitirip Prusya'nın Schleswig-Holstein eyaletine bağlandı, Hamburg'un sınırları genişledi.","kaynak":"Geschichtsbuch Hamburg (Landeszentrale für politische Bildung), «Das Groß-Hamburg-Gesetz 1937/38» (geschichtsbuch.hamburg.de/epochen/nationalsozialismus/das-gross-hamburg-gesetz-1937-38/, okundu): «das am 26. Januar 1937 erlassen wurde, ab dem 1. April 1937 wirkte»; «die Hansestadt Lübeck ihre über 700 Jahre alte Eigenständigkeit verlor» · Treccani 'Lubecca' (okundu): «nel 1937 la città cessò di essere un Land autonomo e fu aggregata allo Schleswig» · hassasiyet: GÜN"},{"t":"1646-01-01","kesinlik":"yil","k":"siyaset","onem":3,"dunya":2,"kapsam":"dis","yer_id":"Bremen","b":"III. Ferdinand Bremen'e özgür imparatorluk şehri imtiyazlarını verdi","gun":"1646","yer":"Bremen","etiket":["toprak-kazanc","siyaset"],"d":"İmparator III. Ferdinand 1646'da Bremen'e özgür imparatorluk şehri imtiyazlarını tanıdı; İsveç buna karşı çıktı ve 1666'da şehre silahla boyun eğdirmeye çalışıp başarısız oldu. Hannover seçmeni başpiskoposluğu alınca (1720) Bremen'i özgür şehir olarak tanıdı.","kaynak":"Encyclopaedia Britannica 11. basım (1911), 'Bremen (city)' (en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Bremen_(city), okundu): \"Bremen received the privileges of a free imperial city from the emperor Ferdinand III.\"; \"in 1666 attempted vainly to assert her claims over the city by arms\"; \"he recognized Bremen as a free city\" (1720) · hassasiyet: YIL"},{"t":"1810-01-01","kesinlik":"yil","k":"siyaset","onem":3,"dunya":2,"kapsam":"dis","yer_id":"Bremen","b":"Bremen Fransız İmparatorluğu'na katıldı — Weser Ağızları departmanının merkezi oldu","gun":"1810","yer":"Bremen","etiket":["toprak-kayip","siyaset"],"d":"Bremen 1806'da Fransızlarca ele geçirilmiş, 1810'dan 1813'e dek Weser Ağızları (Bouches-du-Weser) departmanının merkezi olmuştur.","kaynak":"Encyclopaedia Britannica 11. basım (1911), 'Bremen (city)' (okundu): \"In 1806 it was taken by the French\"; \"From 1810 to 1813 was the capital of the department of the Mouths of the Weser\" · hassasiyet: YIL"},{"t":"1813-01-01","kesinlik":"yil","k":"siyaset","onem":2,"dunya":1,"kapsam":"dis","yer_id":"Bremen","b":"Fransız egemenliği sona erdi — Bremen özgür şehir statüsünü geri aldı","gun":"1813","yer":"Bremen","etiket":["toprak-kazanc","siyaset"],"d":"Bremen'in Weser Ağızları departmanı merkezi olarak Fransız yönetiminde kalışı 1813'te sona erdi; şehir 1815'te Viyana Kongresi'nce bağımsızlığına kavuşturuldu ve Alman Konfederasyonu'na katıldı.","kaynak":"Encyclopaedia Britannica 11. basım (1911), 'Bremen (city)' (okundu): \"From 1810 to 1813 was the capital of the department of the Mouths of the Weser\"; \"Restored to independence by the congress of Vienna in 1815\" · hassasiyet: YIL"},{"t":"1264-01-01","kesinlik":"yil","k":"kurulus","onem":3,"dunya":1,"kapsam":"dis","yer_id":"Kassel","b":"Hessen Landgraflığı: Brabantlı I. Heinrich ilk Hessen landgrafı oldu, Meißen'le barış 1264","gun":"1264","yer":"Kassel, Marburg","etiket":["kurulus","siyaset"],"d":"Hessen'in bağımsız bir ülke olarak tarihi I. Heinrich ('Çocuk') ile başlar; Meißen'le barış 1264'te yapıldı. Heinrich Kassel'de kale yaptırdı ve burası sonraki yıllarda olağan ikametgâhı oldu; 1292'de imparatorluk prensliğine (Reichsfürstenstand) alındı.","kaynak":"Deutsche Biographie, 'Heinrich I.' (ADB/NDB; deutsche-biographie.de/sfz70067.html, okundu): «Mit H. beginnt die Geschichte des selbständigen Landes Hessen»; «Im folgenden Jahre (1264) kam der Friede mit Meißen zu Stande»; «Er baute die … Burg zu Cassel, seine gewöhnliche Residenz in seinen späteren Jahren»; «(1292) auch formal in den Reichsfürstenstand aufgenommen» · hassasiyet: YIL"},{"t":"1567-03-31","k":"hukumdar","onem":3,"dunya":1,"kapsam":"dis","yer_id":"Kassel","b":"Landgraf Philipp 'Cömert' Kassel'de öldü — Hessen dört oğlu arasında bölündü","gun":"31 Mart 1567","yer":"Kassel, Marburg","etiket":["bolunme","hanedan"],"d":"Reformasyon'un siyasî önderlerinden Hessen Landgrafı I. Philipp 31 Mart 1567'de Kassel'de öldü. 1562 tarihli vasiyeti uyarınca ülke Hessen-Kassel (Wilhelm IV), Hessen-Marburg (Ludwig IV), Hessen-Rheinfels (Philipp II) ve Hessen-Darmstadt (Georg) olarak dört oğlu arasında paylaşıldı; birleşik Hessen Landgraflığı böylece sona erdi.","kaynak":"Deutsche Biographie / NDB 'Philipp der Großmütige' (deutsche-biographie.de/pnd11859382X.html, okundu): '† 31.3.1567 Kassel'; «in seinem letzten Testament (1562) die Aufteilung des Landes unter seine Söhne verfügte» · Philipps-Universität Marburg, 'Landgraf Philipp' (uni-marburg.de/de/universitaet/profil/geschichte/landgraf-philipp, okundu): «Philipps Testament zog die Teilung Hessens unter die vier Söhne … nach sich» · hassasiyet: GÜN"},{"t":"1358-12-01","k":"antlasma","onem":3,"dunya":1,"kapsam":"dis","yer_id":"Schwerin","b":"Schwerin Kontluğu anlaşmayla Mecklenburg Dükü II. Albrecht'in eline geçti","gun":"1 Aralık 1358","yer":"Schwerin","etiket":["toprak-kazanc","antlasma"],"d":"II. Albrecht, 1 Aralık 1358 tarihli sözleşmeyle Kont Nicolaus'a 10.000 mark gümüş ödeyerek Schwerin Kontluğu'nu aldı; şehir o tarihten sonra Mecklenburg dükalığının toprağı oldu (başkent olarak yerleşmesi ise 16. yüzyılda kalıcılaştı).","kaynak":"ADB 'Albrecht II.' (Deutsche Biographie, deutsche-biographie.de/sfz56550.html, okundu): Albrecht «gelangte durch Vertrag vom 1. Dec. 1358, gegen Zahlung einer Summe von 10000 Mark löth. Silb. an den Grafen Nicolaus, in den Besitz derselben» · Treccani 'Schwerin' (okundu): «Capoluogo di contea … passò al Meclemburgo nel 1358» · hassasiyet: GÜN"},{"t":"1815-01-01","kesinlik":"yil","k":"siyaset","onem":2,"dunya":1,"kapsam":"dis","yer_id":"Schwerin","b":"Mecklenburg-Schwerin dükalığı büyük dükalık unvanını aldı","gun":"1815","yer":"Schwerin","etiket":["siyaset"],"d":"Mecklenburg-Schwerin Dükü Friedrich Franz I 1815'te büyük dükalık ('großherzogliche Würde') unvanını aldı; Mecklenburg dükalığı (1348-1815) künyesi bu noktada sona erer, ülke Alman Konfederasyonu içinde büyük dükalık olarak sürer.","kaynak":"Deutsche Biographie, 'Mecklenburg' (deutsche-biographie.de/sfz59704.html, okundu): «1815 nahm er die großherzogl. Würde an»; Schwerin 'erst im 16. Jh. zur festen Residenz' · hassasiyet: YIL"},{"t":"1637-03-10","k":"hukumdar","onem":3,"dunya":1,"kapsam":"dis","yer_id":"Stettin (Szczecin)","b":"Son Pomeranya Dükü XIV. Bogislaw Stettin'de öldü — Griffin hanedanı sona erdi","gun":"10 Mart 1637","yer":"Stettin (Szczecin)","etiket":["hanedan","toprak-kayip"],"d":"Pomeranya'nın son dükü XIV. Bogislaw 10 Mart 1637'de Stettin'de öldü ve onunla birlikte yerli Pomeranya hanedanı sönmüştür. Dükalığın fiilî bölüşümü (Brandenburg-İsveç) 1648 Vestfalya Barışı'yla tescil edildi.","kaynak":"NDB 'Bogislaw XIV.' (Deutsche Biographie, deutsche-biographie.de/sfz27315.html, okundu): '† 10.3.1637 Stettin'; ADB: «und mit ihm erlosch das eingeborene pommer'sche Herrscherhaus» · Treccani 'Stettino' (okundu, mevcut yerleşim kaynağında): «nel 1243 ebbe diritti di città dal duca di Pomerania Barnim I» · hassasiyet: GÜN"},{"t":"1218-01-01","kesinlik":"yil","k":"siyaset","onem":2,"dunya":1,"kapsam":"dis","yer_id":"Bern","b":"Zähringen soyunun sönmesiyle Bern özgür imparatorluk şehri oldu","gun":"1218","yer":"Bern","etiket":["toprak-kazanc","siyaset"],"d":"Zähringen hanedanı 1218'de sönünce Bern doğrudan imparatorluğa bağlı özgür şehir oldu; 1353'te İsviçre Konfederasyonu'na sekizinci üye olarak girdi.","kaynak":"Encyclopaedia Britannica 11. basım (1911), 'Bern (city)' (en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Bern_(city), okundu): \"After the extinction of the Zäringen dynasty (1218) Bern became a free imperial city\"; \"in 1353 it entered the Swiss confederation as its eighth member\" · hassasiyet: YIL"},{"t":"1024-09-08","k":"siyaset","onem":3,"dunya":2,"kapsam":"dis","yer_id":"Mainz","b":"II. Konrad Alman kralı seçildi ve Mainz'da taç giydi — Salier hanedanı başladı","gun":"8 Eylül 1024 (seçim: 4 Eylül 1024, Kamba/Reno)","yer":"Mainz, Kamba (Rheingau)","etiket":["hanedan","siyaset"],"d":"II. Heinrich'in ölümünden sonra Alman prensleri 4 Eylül 1024'te Ren'in sağ kıyısındaki Kamba'da toplandı; seçimi Mainz Başpiskoposu Aribo yönetti. Yaşlı Konrad yeğeni genç Konrad'a karşı kazandı ve Meryem'in Doğuşu bayramında (8 Eylül) Mainz'da Aribo tarafından kral olarak taç giydi.","kaynak":"NDB 'Konrad II.' (Deutsche Biographie, deutsche-biographie.de/sfz57382.html, okundu): «traten die deutschen Fürsten in Kamba im Rheingau am rechten Rheinufer» (4.9.1024); «wurde von Aribo in der herkömmlichen Weise zum König gekrönt» (Mariä Geburt, 8. Sept.) · ADB 'Konrad II.' (de.wikisource.org/wiki/ADB:Konrad_II._(deutscher_König), arama özetinde okundu; Mainz'da taç) · hassasiyet: GÜN"},{"t":"1039-06-04","k":"hukumdar","onem":2,"dunya":1,"kapsam":"dis","yer_id":"Utrecht","b":"İmparator II. Konrad Utrecht'te öldü","gun":"4 Haziran 1039","yer":"Utrecht","etiket":["hanedan"],"d":"Salier hanedanının ilk imparatoru II. Konrad 4 Haziran 1039'da Utrecht'te kısa ve acılı bir hastalıktan sonra öldü.","kaynak":"NDB 'Konrad II.' (Deutsche Biographie, deutsche-biographie.de/sfz57382.html, okundu): '† 4.6.1039 Utrecht'; ADB: «schon am 4. Juni» · hassasiyet: GÜN"},{"t":"1122-09-23","k":"antlasma","onem":5,"dunya":3,"kapsam":"dis","yer_id":"Worms","b":"Worms Konkordatosu — Yatırım (investitür) çekişmesi sona erdi","gun":"23 Eylül 1122","yer":"Worms","etiket":["antlasma","diplomasi"],"d":"Papalık heyetinin aracılığıyla İmparator V. Heinrich ile Papa II. Calixtus arasındaki barış 23 Eylül 1122'de Worms'ta (Lobwiesen'de, kentin hemen yanında) ilan edildi. Heinrich yüzük ve asayla yatırımdan vazgeçti, piskopos ve başrahiplerin kanonik seçimini kabul etti.","kaynak":"Deutsche Biographie, 'Heinrich V.' (deutsche-biographie.de/sfz57108.html, okundu): NDB «am 23.9.1122 in Worms feierlich verkündet»; ADB «am 23. Septbr. 1122 Rechtskraft» · hassasiyet: GÜN"},{"t":"1125-05-23","k":"hukumdar","onem":3,"dunya":2,"kapsam":"dis","yer_id":"Utrecht","b":"İmparator V. Heinrich Utrecht'te öldü","gun":"23 Mayıs 1125","yer":"Utrecht","etiket":["hanedan"],"d":"İmparator V. Heinrich 23 Mayıs 1125'te Utrecht'te öldü; Worms Konkordatosu'nun (1122) imparatoru olarak anılır.","kaynak":"NDB 'Heinrich V.' (Deutsche Biographie, deutsche-biographie.de/sfz57108.html, okundu): '† 23.5.1125 Utrecht'; ADB: «In Utrecht, am 23. Mai des Jahres 1125 ging Kaiser H. heim» · hassasiyet: GÜN"},{"t":"1152-03-05","k":"siyaset","onem":4,"dunya":2,"kapsam":"dis","yer_id":"Frankfurt","b":"I. Friedrich Barbarossa Frankfurt'ta Alman kralı seçildi","gun":"5 Mart 1152","yer":"Frankfurt, Aachen","etiket":["hanedan","siyaset"],"d":"Prensler Friedrich'i 5 Mart 1152'de Frankfurt'ta krallığa yükseltti; Aachen'de 9 Mart'ta taç giydi. Hohenstaufen hanedanının Barbarossa dönemi böylece başladı.","kaynak":"Deutsche Biographie, 'Friedrich I. Barbarossa' (deutsche-biographie.de/sfz69823.html, okundu): «zu Frankfurt am 5.3.1152 zum König»; Aachen'de 9 Mart · hassasiyet: GÜN"},{"t":"1156-09-17","k":"antlasma","onem":4,"dunya":2,"kapsam":"dis","yer_id":"Regensburg","b":"Privilegium Minus — Avusturya dükalık oldu, Bavyera Aslan Heinrich'e verildi","gun":"17 Eylül 1156","yer":"Regensburg","etiket":["antlasma","siyaset"],"d":"Regensburg'daki prensler hükmüyle Avusturya dükalığa yükseltildi ve Heinrich Jasomirgott'a özel haklar tanındı; aynı düzenlemede Heinrich Bavyera'yı imparatora geri verdi, imparator da Bavyera'yı Aslan Heinrich'e lehen olarak verdi.","kaynak":"Deutsche Biographie, 'Friedrich I. Barbarossa' (deutsche-biographie.de/sfz69823.html, okundu): Privilegium minus «vom 17.9.1156»; Avusturya'nın dükalığa yükseltilmesi «Fürstenspruch zu Regensburg» · hassasiyet: GÜN"}];
+// =====================================================================
+// OLAYLAR_ALM1115B — Almanya bölgesi ikinci dalga (UMIT, 15 Kasım 2026)
+// A) yerleşimsiz künyelere yerleşim penceresi açılırken doğan kırılmaların Değişmez 2 maddeleri
+//    (Lübeck, Bremen, Kassel, Schwerin, Stettin, Bern)
+// C) 1000-1199 seyrek dilim: Alman krallığı/imparatorluğu, kaynakta günü okunan maddeler
+// Her madde bu oturumda OKUNAN kaynağa dayanır; kaynakta gün yoksa yıl/ay hassasiyeti `kesinlik:`la beyan edilir.
+// Ad alanı: YALNIZ window.OLAYLAR_ALM1115B. index.html'e <script> satırı eklidir (?v= damgası yok).
+// =====================================================================
+
+window.OLAYLAR_ALM1115B = [
+// ---------------- A · Lübeck ----------------
+{ t:"1810-12-01", kesinlik:"ay", k:"siyaset", onem:3, dunya:2, kapsam:"dis",
+  yer_id:"Lübeck",
+  b:"Napolyon Lübeck'i Fransız İmparatorluğu'na kattı",
+  gun:"Aralık 1810",
+  yer:"Lübeck",
+  etiket:["toprak-kayip","siyaset"],
+  d:"Blücher'in Kasım 1806'da Lübeck yakınında teslim olmasının ardından şehir Fransızlarca yağmalanmış, Aralık 1810'da Napolyon şehri kendi imparatorluğuna katmıştır. Lübeck bu tarihe dek 1226'dan beri özgür imparatorluk şehriydi.",
+  ic_not_d:"Gün kaynakta yok (ay hassasiyeti). Künye lubeck-sehri kronolojisi 1811-01-01 (yıl) yazıyor; EB1911 'December 1810' dediği ve Treccani 'nel 1810' dediği için 1810-12 alındı (iki kaynak). Fransız yönetimi sırasındaki sahip kimliği atlasın Ren sol yakası kalıbıyla fransa-cumhuriyet (imparatorluk dönemi dahil) yazıldı.",
+  kaynak:"Encyclopaedia Britannica 11. basım (1911), 'Lübeck' (en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/L%C3%BCbeck, bu oturumda okundu): \"Napoleon annexed it to his empire in December 1810\"; \"it was made a free city of the Empire by Frederick II\" (1226) · Treccani Enciclopedia on line 'Lubecca' (treccani.it/enciclopedia/lubecca/, okundu): «nel 1810 la città fu incorporata nell'Impero francese» · hassasiyet: AY" },
+
+{ t:"1813-01-01", kesinlik:"yil", k:"siyaset", onem:2, dunya:1, kapsam:"dis",
+  yer_id:"Lübeck",
+  b:"Lübeck Fransız egemenliğine karşı ayaklandı ve özgür şehir statüsünü geri aldı",
+  gun:"1813",
+  yer:"Lübeck",
+  etiket:["toprak-kazanc","ayaklanma"],
+  d:"1813'te Fransız yönetimine karşı ayaklanan Lübeck, 1815'te Viyana Kongresi'nce Alman Konfederasyonu'nun özgür ve Hansa şehri olarak tanınmıştır.",
+  ic_not_d:"YALNIZ YIL teyitli; gün ve ay kaynakta yok → YYYY-01-01 + yıl hassasiyeti (CLAUDE.md 'Tarih uydurma'). Gerçek kurtuluş ayı ayrıca araştırılacak borçtur; pencere ucu bu yüzden yıl başına konmuştur.",
+  kaynak:"Encyclopaedia Britannica 11. basım (1911), 'Lübeck' (en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/L%C3%BCbeck, okundu): \"after rising against the French in 1813\" … \"recognized by the Congress of Vienna as a free and Hanse town of the German Confederation\" · Treccani 'Lubecca' (okundu): «dopo la liberazione nel 1813» · hassasiyet: YIL" },
+
+{ t:"1937-04-01", k:"siyaset", onem:3, dunya:2, kapsam:"ic",
+  yer_id:"Lübeck",
+  b:"Büyük Hamburg Yasası yürürlüğe girdi — Lübeck'in bağımsız eyalet statüsü sona erdi",
+  gun:"1 Nisan 1937",
+  yer:"Lübeck, Hamburg",
+  etiket:["toprak-kayip","siyaset"],
+  d:"26 Ocak 1937'de çıkarılan Büyük Hamburg Yasası 1 Nisan 1937'de yürürlüğe girdi; Lübeck 700 yılı aşkın özerkliğini yitirip Prusya'nın Schleswig-Holstein eyaletine bağlandı, Hamburg'un sınırları genişledi.",
+  ic_not_d:"Yasanın çıkış günü 1937-01-26, yürürlük 1937-04-01; uygulamanın tamamlanması 1938-04-01 (Geschichtsbuch Hamburg). Pencere ucu yürürlük gününe konmuştur (künye lubeck-sehri t = 1937-04-01 ile aynı).",
+  kaynak:"Geschichtsbuch Hamburg (Landeszentrale für politische Bildung), «Das Groß-Hamburg-Gesetz 1937/38» (geschichtsbuch.hamburg.de/epochen/nationalsozialismus/das-gross-hamburg-gesetz-1937-38/, okundu): «das am 26. Januar 1937 erlassen wurde, ab dem 1. April 1937 wirkte»; «die Hansestadt Lübeck ihre über 700 Jahre alte Eigenständigkeit verlor» · Treccani 'Lubecca' (okundu): «nel 1937 la città cessò di essere un Land autonomo e fu aggregata allo Schleswig» · hassasiyet: GÜN" },
+
+// ---------------- A · Bremen ----------------
+{ t:"1646-01-01", kesinlik:"yil", k:"siyaset", onem:3, dunya:2, kapsam:"dis",
+  yer_id:"Bremen",
+  b:"III. Ferdinand Bremen'e özgür imparatorluk şehri imtiyazlarını verdi",
+  gun:"1646",
+  yer:"Bremen",
+  etiket:["toprak-kazanc","siyaset"],
+  d:"İmparator III. Ferdinand 1646'da Bremen'e özgür imparatorluk şehri imtiyazlarını tanıdı; İsveç buna karşı çıktı ve 1666'da şehre silahla boyun eğdirmeye çalışıp başarısız oldu. Hannover seçmeni başpiskoposluğu alınca (1720) Bremen'i özgür şehir olarak tanıdı.",
+  ic_not_d:"YALNIZ YIL teyitli. Künye bremen-sehri kronolojisi 1646-06-01 'Linz Diploması' diyor; bu gün okunamadı (verwaltungsschule.bremen.de PDF'i sıkıştırılmış akıştı, metin okunamadı) → YYYY-01-01 + yıl hassasiyeti, künye f ile aynı. Kaynaklar arasında tanıma yılı çelişkisi var: Catholic Encyclopedia 1731 (okunmadı), EB1911 1646/1720; pencere EB1911'e göre 1646'dan başlatılmıştır.",
+  kaynak:"Encyclopaedia Britannica 11. basım (1911), 'Bremen (city)' (en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Bremen_(city), okundu): \"Bremen received the privileges of a free imperial city from the emperor Ferdinand III.\"; \"in 1666 attempted vainly to assert her claims over the city by arms\"; \"he recognized Bremen as a free city\" (1720) · hassasiyet: YIL" },
+
+{ t:"1810-01-01", kesinlik:"yil", k:"siyaset", onem:3, dunya:2, kapsam:"dis",
+  yer_id:"Bremen",
+  b:"Bremen Fransız İmparatorluğu'na katıldı — Weser Ağızları departmanının merkezi oldu",
+  gun:"1810",
+  yer:"Bremen",
+  etiket:["toprak-kayip","siyaset"],
+  d:"Bremen 1806'da Fransızlarca ele geçirilmiş, 1810'dan 1813'e dek Weser Ağızları (Bouches-du-Weser) departmanının merkezi olmuştur.",
+  ic_not_d:"YALNIZ YIL teyitli (EB1911 '1810 to 1813'); künye 1811-01-01 yazıyor (yıl). Hamburg/Lübeck'te ilhak Aralık 1810 olduğundan Bremen için de 1810 yılı alındı; ay okunmadı.",
+  kaynak:"Encyclopaedia Britannica 11. basım (1911), 'Bremen (city)' (okundu): \"In 1806 it was taken by the French\"; \"From 1810 to 1813 was the capital of the department of the Mouths of the Weser\" · hassasiyet: YIL" },
+
+{ t:"1813-01-01", kesinlik:"yil", k:"siyaset", onem:2, dunya:1, kapsam:"dis",
+  yer_id:"Bremen",
+  b:"Fransız egemenliği sona erdi — Bremen özgür şehir statüsünü geri aldı",
+  gun:"1813",
+  yer:"Bremen",
+  etiket:["toprak-kazanc","siyaset"],
+  d:"Bremen'in Weser Ağızları departmanı merkezi olarak Fransız yönetiminde kalışı 1813'te sona erdi; şehir 1815'te Viyana Kongresi'nce bağımsızlığına kavuşturuldu ve Alman Konfederasyonu'na katıldı.",
+  ic_not_d:"YALNIZ YIL teyitli; gün/ay okunmadı → YYYY-01-01 + yıl hassasiyeti.",
+  kaynak:"Encyclopaedia Britannica 11. basım (1911), 'Bremen (city)' (okundu): \"From 1810 to 1813 was the capital of the department of the Mouths of the Weser\"; \"Restored to independence by the congress of Vienna in 1815\" · hassasiyet: YIL" },
+
+// ---------------- A · Kassel (Hessen Landgraflığı) ----------------
+{ t:"1264-01-01", kesinlik:"yil", k:"kurulus", onem:3, dunya:1, kapsam:"dis",
+  yer_id:"Kassel",
+  b:"Hessen Landgraflığı: Brabantlı I. Heinrich ilk Hessen landgrafı oldu, Meißen'le barış 1264",
+  gun:"1264",
+  yer:"Kassel, Marburg",
+  etiket:["kurulus","siyaset"],
+  d:"Hessen'in bağımsız bir ülke olarak tarihi I. Heinrich ('Çocuk') ile başlar; Meißen'le barış 1264'te yapıldı. Heinrich Kassel'de kale yaptırdı ve burası sonraki yıllarda olağan ikametgâhı oldu; 1292'de imparatorluk prensliğine (Reichsfürstenstand) alındı.",
+  ic_not_d:"YALNIZ YIL teyitli (ADB 'friede mit Meißen (1264)'; NDB 'gegen Ende 1264' ifadesini künyeye yazan oturum aktarmıştı, bu oturumda ADB/NDB metninde yalnız 1264 okundu). Künye f 1264-01-01 ile aynı.",
+  kaynak:"Deutsche Biographie, 'Heinrich I.' (ADB/NDB; deutsche-biographie.de/sfz70067.html, okundu): «Mit H. beginnt die Geschichte des selbständigen Landes Hessen»; «Im folgenden Jahre (1264) kam der Friede mit Meißen zu Stande»; «Er baute die … Burg zu Cassel, seine gewöhnliche Residenz in seinen späteren Jahren»; «(1292) auch formal in den Reichsfürstenstand aufgenommen» · hassasiyet: YIL" },
+
+{ t:"1567-03-31", k:"hukumdar", onem:3, dunya:1, kapsam:"dis",
+  yer_id:"Kassel",
+  b:"Landgraf Philipp 'Cömert' Kassel'de öldü — Hessen dört oğlu arasında bölündü",
+  gun:"31 Mart 1567",
+  yer:"Kassel, Marburg",
+  etiket:["bolunme","hanedan"],
+  d:"Reformasyon'un siyasî önderlerinden Hessen Landgrafı I. Philipp 31 Mart 1567'de Kassel'de öldü. 1562 tarihli vasiyeti uyarınca ülke Hessen-Kassel (Wilhelm IV), Hessen-Marburg (Ludwig IV), Hessen-Rheinfels (Philipp II) ve Hessen-Darmstadt (Georg) olarak dört oğlu arasında paylaşıldı; birleşik Hessen Landgraflığı böylece sona erdi.",
+  ic_not_d:"Künye hessen-landgrafligi t'si 1567-01-01 (yıl) idi; NDB başlığı '† 31.3.1567 Kassel' verdiği için künye t günü 1567-03-31'e çekildi (devletler.js, aynı iş). Vasiyet 1562 (NDB), bölüşümün fiilen ölümle yürürlüğe girdiği Uni Marburg metninden ('Philipps Testament zog die Teilung Hessens … nach sich').",
+  kaynak:"Deutsche Biographie / NDB 'Philipp der Großmütige' (deutsche-biographie.de/pnd11859382X.html, okundu): '† 31.3.1567 Kassel'; «in seinem letzten Testament (1562) die Aufteilung des Landes unter seine Söhne verfügte» · Philipps-Universität Marburg, 'Landgraf Philipp' (uni-marburg.de/de/universitaet/profil/geschichte/landgraf-philipp, okundu): «Philipps Testament zog die Teilung Hessens unter die vier Söhne … nach sich» · hassasiyet: GÜN" },
+
+// ---------------- A · Schwerin (Mecklenburg Dükalığı) ----------------
+{ t:"1358-12-01", k:"antlasma", onem:3, dunya:1, kapsam:"dis",
+  yer_id:"Schwerin",
+  b:"Schwerin Kontluğu anlaşmayla Mecklenburg Dükü II. Albrecht'in eline geçti",
+  gun:"1 Aralık 1358",
+  yer:"Schwerin",
+  etiket:["toprak-kazanc","antlasma"],
+  d:"II. Albrecht, 1 Aralık 1358 tarihli sözleşmeyle Kont Nicolaus'a 10.000 mark gümüş ödeyerek Schwerin Kontluğu'nu aldı; şehir o tarihten sonra Mecklenburg dükalığının toprağı oldu (başkent olarak yerleşmesi ise 16. yüzyılda kalıcılaştı).",
+  ic_not_d:"Schwerin'in 1161'de Aslan Heinrich'çe kurulduğu ve kont merkezi olduğu Treccani'den (okundu). Kontluk döneminde atlas sahibi 'almanya' (Kutsal Roma) yazıldı; kaynakta Schwerin kontunun HRE tâbiliği ayrıca adlandırılmıyor.",
+  kaynak:"ADB 'Albrecht II.' (Deutsche Biographie, deutsche-biographie.de/sfz56550.html, okundu): Albrecht «gelangte durch Vertrag vom 1. Dec. 1358, gegen Zahlung einer Summe von 10000 Mark löth. Silb. an den Grafen Nicolaus, in den Besitz derselben» · Treccani 'Schwerin' (okundu): «Capoluogo di contea … passò al Meclemburgo nel 1358» · hassasiyet: GÜN" },
+
+{ t:"1815-01-01", kesinlik:"yil", k:"siyaset", onem:2, dunya:1, kapsam:"dis",
+  yer_id:"Schwerin",
+  b:"Mecklenburg-Schwerin dükalığı büyük dükalık unvanını aldı",
+  gun:"1815",
+  yer:"Schwerin",
+  etiket:["siyaset"],
+  d:"Mecklenburg-Schwerin Dükü Friedrich Franz I 1815'te büyük dükalık ('großherzogliche Würde') unvanını aldı; Mecklenburg dükalığı (1348-1815) künyesi bu noktada sona erer, ülke Alman Konfederasyonu içinde büyük dükalık olarak sürer.",
+  ic_not_d:"YALNIZ YIL teyitli; gün (Viyana Kongresi Nihai Senedi 9 Haziran 1815 çevresi) kaynakta okunmadı → YYYY-01-01 + yıl hassasiyeti. Künye mecklenburg-dukaligi t = 1815-01-01 ile aynı.",
+  kaynak:"Deutsche Biographie, 'Mecklenburg' (deutsche-biographie.de/sfz59704.html, okundu): «1815 nahm er die großherzogl. Würde an»; Schwerin 'erst im 16. Jh. zur festen Residenz' · hassasiyet: YIL" },
+
+// ---------------- A · Stettin (Pomeranya Dükalığı) ----------------
+{ t:"1637-03-10", k:"hukumdar", onem:3, dunya:1, kapsam:"dis",
+  yer_id:"Stettin (Szczecin)",
+  b:"Son Pomeranya Dükü XIV. Bogislaw Stettin'de öldü — Griffin hanedanı sona erdi",
+  gun:"10 Mart 1637",
+  yer:"Stettin (Szczecin)",
+  etiket:["hanedan","toprak-kayip"],
+  d:"Pomeranya'nın son dükü XIV. Bogislaw 10 Mart 1637'de Stettin'de öldü ve onunla birlikte yerli Pomeranya hanedanı sönmüştür. Dükalığın fiilî bölüşümü (Brandenburg-İsveç) 1648 Vestfalya Barışı'yla tescil edildi.",
+  ic_not_d:"Stettin 1637-03-10 ile 1648-10-24 arasındaki sahibi (İsveç işgali / bölüşüm öncesi) bu oturumda kaynakla belirlenemedi: pencere eskisi gibi 'almanya' bırakıldı, beyan: bu on bir yılın sahibi okunmadı.",
+  kaynak:"NDB 'Bogislaw XIV.' (Deutsche Biographie, deutsche-biographie.de/sfz27315.html, okundu): '† 10.3.1637 Stettin'; ADB: «und mit ihm erlosch das eingeborene pommer'sche Herrscherhaus» · Treccani 'Stettino' (okundu, mevcut yerleşim kaynağında): «nel 1243 ebbe diritti di città dal duca di Pomerania Barnim I» · hassasiyet: GÜN" },
+
+// ---------------- A · Bern ----------------
+{ t:"1218-01-01", kesinlik:"yil", k:"siyaset", onem:2, dunya:1, kapsam:"dis",
+  yer_id:"Bern",
+  b:"Zähringen soyunun sönmesiyle Bern özgür imparatorluk şehri oldu",
+  gun:"1218",
+  yer:"Bern",
+  etiket:["toprak-kazanc","siyaset"],
+  d:"Zähringen hanedanı 1218'de sönünce Bern doğrudan imparatorluğa bağlı özgür şehir oldu; 1353'te İsviçre Konfederasyonu'na sekizinci üye olarak girdi.",
+  ic_not_d:"YALNIZ YIL teyitli (EB1911). Künyedeki Handfeste/II. Friedrich ayrıntısı HLS 403 verdiği için okunmadı. Pencere yalnız 1353-03-06'ya (mevcut İsviçre dönemi başlangıcı) dek yazıldı; 1353'ten 1798'e dek mevcut 'isvicre' sahipliği bırakıldı.",
+  kaynak:"Encyclopaedia Britannica 11. basım (1911), 'Bern (city)' (en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Bern_(city), okundu): \"After the extinction of the Zäringen dynasty (1218) Bern became a free imperial city\"; \"in 1353 it entered the Swiss confederation as its eighth member\" · hassasiyet: YIL" },
+
+// ---------------- C · 1000-1199 Alman krallığı/imparatorluğu ----------------
+{ t:"1024-09-08", k:"siyaset", onem:3, dunya:2, kapsam:"dis",
+  yer_id:"Mainz",
+  b:"II. Konrad Alman kralı seçildi ve Mainz'da taç giydi — Salier hanedanı başladı",
+  gun:"8 Eylül 1024 (seçim: 4 Eylül 1024, Kamba/Reno)",
+  yer:"Mainz, Kamba (Rheingau)",
+  etiket:["hanedan","siyaset"],
+  d:"II. Heinrich'in ölümünden sonra Alman prensleri 4 Eylül 1024'te Ren'in sağ kıyısındaki Kamba'da toplandı; seçimi Mainz Başpiskoposu Aribo yönetti. Yaşlı Konrad yeğeni genç Konrad'a karşı kazandı ve Meryem'in Doğuşu bayramında (8 Eylül) Mainz'da Aribo tarafından kral olarak taç giydi.",
+  ic_not_d:"Seçim 4 Eylül, taç 8 Eylül: iki ayrı gün, aynı kaynakta okundu; madde taç gününe (yer: Mainz) bağlandı. Kamba atlasta yerleşim olarak yoktur.",
+  kaynak:"NDB 'Konrad II.' (Deutsche Biographie, deutsche-biographie.de/sfz57382.html, okundu): «traten die deutschen Fürsten in Kamba im Rheingau am rechten Rheinufer» (4.9.1024); «wurde von Aribo in der herkömmlichen Weise zum König gekrönt» (Mariä Geburt, 8. Sept.) · ADB 'Konrad II.' (de.wikisource.org/wiki/ADB:Konrad_II._(deutscher_König), arama özetinde okundu; Mainz'da taç) · hassasiyet: GÜN" },
+
+{ t:"1039-06-04", k:"hukumdar", onem:2, dunya:1, kapsam:"dis",
+  yer_id:"Utrecht",
+  b:"İmparator II. Konrad Utrecht'te öldü",
+  gun:"4 Haziran 1039",
+  yer:"Utrecht",
+  etiket:["hanedan"],
+  d:"Salier hanedanının ilk imparatoru II. Konrad 4 Haziran 1039'da Utrecht'te kısa ve acılı bir hastalıktan sonra öldü.",
+  ic_not_d:"Yalnız ölüm günü ve yeri kaynaklıdır; halefle ilgili bir cümle yazılmadı (okunmadı).",
+  kaynak:"NDB 'Konrad II.' (Deutsche Biographie, deutsche-biographie.de/sfz57382.html, okundu): '† 4.6.1039 Utrecht'; ADB: «schon am 4. Juni» · hassasiyet: GÜN" },
+
+{ t:"1122-09-23", k:"antlasma", onem:5, dunya:3, kapsam:"dis",
+  yer_id:"Worms",
+  b:"Worms Konkordatosu — Yatırım (investitür) çekişmesi sona erdi",
+  gun:"23 Eylül 1122",
+  yer:"Worms",
+  etiket:["antlasma","diplomasi"],
+  d:"Papalık heyetinin aracılığıyla İmparator V. Heinrich ile Papa II. Calixtus arasındaki barış 23 Eylül 1122'de Worms'ta (Lobwiesen'de, kentin hemen yanında) ilan edildi. Heinrich yüzük ve asayla yatırımdan vazgeçti, piskopos ve başrahiplerin kanonik seçimini kabul etti.",
+  ic_not_d:"NDB: 'am 23.9.1122 in Worms feierlich verkündet'; ADB: 'am 23. Septbr. 1122 Rechtskraft' (imparatorluk belgesinin imzasıyla). Çift teyit değil, aynı sitedeki iki ayrı ansiklopedi (NDB 8 Schieffer; ADB 11 Arndt) — tek gün, çelişki yok.",
+  kaynak:"Deutsche Biographie, 'Heinrich V.' (deutsche-biographie.de/sfz57108.html, okundu): NDB «am 23.9.1122 in Worms feierlich verkündet»; ADB «am 23. Septbr. 1122 Rechtskraft» · hassasiyet: GÜN" },
+
+{ t:"1125-05-23", k:"hukumdar", onem:3, dunya:2, kapsam:"dis",
+  yer_id:"Utrecht",
+  b:"İmparator V. Heinrich Utrecht'te öldü",
+  gun:"23 Mayıs 1125",
+  yer:"Utrecht",
+  etiket:["hanedan"],
+  d:"İmparator V. Heinrich 23 Mayıs 1125'te Utrecht'te öldü; Worms Konkordatosu'nun (1122) imparatoru olarak anılır.",
+  ic_not_d:"Yalnız ölüm günü ve yeri kaynaklıdır; hanedanın sona erişi ve halef Deutsche Biographie 'Salier' girdisi okunmadığı için yazılmadı.",
+  kaynak:"NDB 'Heinrich V.' (Deutsche Biographie, deutsche-biographie.de/sfz57108.html, okundu): '† 23.5.1125 Utrecht'; ADB: «In Utrecht, am 23. Mai des Jahres 1125 ging Kaiser H. heim» · hassasiyet: GÜN" },
+
+{ t:"1152-03-05", k:"siyaset", onem:4, dunya:2, kapsam:"dis",
+  yer_id:"Frankfurt",
+  b:"I. Friedrich Barbarossa Frankfurt'ta Alman kralı seçildi",
+  gun:"5 Mart 1152",
+  yer:"Frankfurt, Aachen",
+  etiket:["hanedan","siyaset"],
+  d:"Prensler Friedrich'i 5 Mart 1152'de Frankfurt'ta krallığa yükseltti; Aachen'de 9 Mart'ta taç giydi. Hohenstaufen hanedanının Barbarossa dönemi böylece başladı.",
+  ic_not_d:"Arama özetleri 4 Mart ve 6 Mart (papaya bildirim) gibi komşu günler de gösterdi; NDB/Deutsche Biographie metninde okunan gün 5 Mart'tır, o seçildi. İkinci bağımsız akademik kaynak aranmadı (çift teyit YOK).",
+  kaynak:"Deutsche Biographie, 'Friedrich I. Barbarossa' (deutsche-biographie.de/sfz69823.html, okundu): «zu Frankfurt am 5.3.1152 zum König»; Aachen'de 9 Mart · hassasiyet: GÜN" },
+
+{ t:"1156-09-17", k:"antlasma", onem:4, dunya:2, kapsam:"dis",
+  yer_id:"Regensburg",
+  b:"Privilegium Minus — Avusturya dükalık oldu, Bavyera Aslan Heinrich'e verildi",
+  gun:"17 Eylül 1156",
+  yer:"Regensburg",
+  etiket:["antlasma","siyaset"],
+  d:"Regensburg'daki prensler hükmüyle Avusturya dükalığa yükseltildi ve Heinrich Jasomirgott'a özel haklar tanındı; aynı düzenlemede Heinrich Bavyera'yı imparatora geri verdi, imparator da Bavyera'yı Aslan Heinrich'e lehen olarak verdi.",
+  ic_not_d:"Belge günü 17.9.1156 (Deutsche Biographie 'vom 17.9.1156'); Bavyera'nın Aslan Heinrich'e verilişi aynı Regensburg düzenlemesi olarak arama özetinde okundu, ayrıca NDB sayfasında tek tek teyit edilmedi.",
+  kaynak:"Deutsche Biographie, 'Friedrich I. Barbarossa' (deutsche-biographie.de/sfz69823.html, okundu): Privilegium minus «vom 17.9.1156»; Avusturya'nın dükalığa yükseltilmesi «Fürstenspruch zu Regensburg» · hassasiyet: GÜN" }
+];
 
 ;
 /* ==== data/yerlesimler_cin_1115b.js ==== */
-// data/yerlesimler_cin_1115b.js — paketle.py İNCELTTİ: kaynak · ic_not* alanları yayına gitmez (kaynak dosya değişmedi)
-window.YERLESIMLER_CIN_1115B = [{"ad":"Weihaiwei","tur":"liman","lat":37.513,"lon":122.1204,"g":0,"k":3,"kur":"1898-07-01","s":[{"f":"1898-07-01","t":"1930-10-01","d":"weihaiwei-ingiliz","enklav":true,"kesinlik":{"f":"gun","t":"gun"}},{"f":"1930-10-01","t":"1949-10-01","d":"cin-cumhuriyeti","kesinlik":{"f":"gun","t":"yil"}},{"f":"1949-10-01","t":"2000-12-31","d":"cin-halk-cumhuriyeti","kesinlik":{"f":"gun","t":"yil"}}],"not":"UMIT bölge-Çin ikinci dalga (15 Kasım 2026). Yerleşim yalnız kira bölgesini temsil eder; 1898 öncesi Weihai çevresi komşu Yantai/Wendeng petekleri tarafından örtülür."}];
+// data/yerlesimler_cin_1115b.js — BÖLGE ÇİN, İKİNCİ DALGA (UMIT, 15 Kasım 2026): yeni yerleşim dosyası.
+// İçerik: Weihaiwei (İngiliz kira bölgesi 1898-07-01 → 1930-10-01). Mükerrer taraması: ad + 3 km temiz (yerlesimler*.js; en yakın
+// kayıt Yantai/Penglai tarafında 50 km'den uzak). Künye: devletler.js `weihaiwei-ingiliz` (harita: ingiltere).
+// Bu dosya GIRDI_DOSYALARI'na arac/girdi_listesi.py üzerinden bağlanır (liste VERİDİR; girdi.py/uret_petek.py tuz dosyalarına dokunulmadı).
+window.YERLESIMLER_CIN_1115B = [
+{ ad:"Weihaiwei", tur:"liman", lat:37.5130, lon:122.1204, g:0, k:3, kur:"1898-07-01",
+ s:[{f:"1898-07-01", t:"1930-10-01", d:"weihaiwei-ingiliz", enklav:true, kesinlik:{f:"gun",t:"gun"},
+     kaynak:"Başlangıç: Weihaiwei Kira Sözleşmesi (訂租威海衛專條), imza Pekin 1 Temmuz 1898 (光緒二十四年五月十三日) — zh.wikisource.org/wiki/訂租威海衛專條, açıldı ve okundu: «租期應按照俄國駐守旅順之期相同»; kapsam: «所租之地系劉公島並在威海灣之群島及威海全灣沿岸以內之十英里地方». Bitiş: İngiliz Avam Kamarası Hansard 5 Mayıs 1930 (api.parliament.uk/historic-hansard/commons/1930/may/05/wei-hai-wei-rendition, açıldı ve okundu): iki belge «signed at Nanking on 18th April last»; «the territory shall be restored in full sovereignty to China on the 1st October next» → 1930-10-01. | BEYANLI: başlangıç olarak sözleşmenin İMZA günü alındı; İngiliz fiilî devralma günü (1898 Mayıs sonu) bu turda okunmadı. Kira alanı (≈ 10 mil kıyı şeridi) Çin karasının içinde olduğu için enklav:true yazıldı (kara tarafı Çin'dedir). İkinci akademik kaynak (Atwell, Johnston) OKUNMADI."},
+    {f:"1930-10-01", t:"1949-10-01", d:"cin-cumhuriyeti", kesinlik:{f:"gun",t:"yil"},
+     kaynak:"Başlangıç: Hansard 5 Mayıs 1930 (okundu): «restored in full sovereignty to China» (1 Ekim 1930). | BEYANLI YAKLAŞIKLIK: bitiş 1949-10-01 atlastaki cin-cumhuriyeti künye ucudur (Lüşun ve Hong Kong kayıtlarındaki zincirle aynı basitleştirme); 1938-45 Japon işgali ve 1948 sonu Kızıl Ordu'nun Weihai'yi alışı bu zincirde izlenmedi; bu iki olayın günü OKUNMADI."},
+    {f:"1949-10-01", t:"2000-12-31", d:"cin-halk-cumhuriyeti", kesinlik:{f:"gun",t:"yil"},
+     kaynak:"ÇHC ilanı 1949-10-01 (atlas künyesi cin-halk-cumhuriyeti f ucu; Lüşun/Hong Kong zinciriyle aynı); yerleşim tanıklığı değil, künye ucudur. BEYANLI: Weihai'nin ÇHC'ye fiilî geçiş günü okunmadı."}],
+ kaynak:"Koordinat: Weihai şehri (37,513 K / 122,120 D, standart coğrafî değer; Liugong Adası ≈ 37,50 K / 122,20 D). Tek akademik/birincil katman: antlaşma metni + Hansard (yukarıda). Kuruluş değil kira başlangıcıdır: kur: = kira sözleşmesinin imza günü (ALT SINIR değil, bu noktanın 'İngiliz kira bölgesi' olarak var olduğu gündür); Weihai şehri/garnizonu daha eskidir (Ming dönemi) ve bu kaydın konusu değildir.",
+ not:"UMIT bölge-Çin ikinci dalga (15 Kasım 2026). Yerleşim yalnız kira bölgesini temsil eder; 1898 öncesi Weihai çevresi komşu Yantai/Wendeng petekleri tarafından örtülür." },
+];
 
 ;
 /* ==== data/kronoloji_sinir_cin_1115b.js ==== */
-// data/kronoloji_sinir_cin_1115b.js — paketle.py İNCELTTİ: ic_not* alanları yayına gitmez (kaynak dosya değişmedi)
-window.KRONOLOJI_SINIR_CIN_1115B = [{"t":"1898-07-01","devlet":"weihaiwei-ingiliz","taraflar":["qing-hanedani","weihaiwei-ingiliz"],"b":"Weihaiwei Kira Sözleşmesi imzalandı: Weihaiwei kıyı şeridi ve Liugong Adası Britanya'ya kiralandı","tur":"antlasma","onem":3,"dunya":3,"kapsam":"dis","yer":"Weihaiwei","yer_id":"Weihaiwei","etiket":["toprak-degisimi","konu-diplomasi","cin-1115b"],"d":"1 Temmuz 1898'de Pekin'de imzalanan sözleşmeyle Qing Çin'i Liugong Adası'nı, Weihai Körfezi'ndeki adaları ve körfez kıyısı boyunca on millik şeridi Britanya'ya kiraladı; kira süresi Rusya'nın Lüşun'daki varlığının süresine bağlandı.","kaynak":"訂租威海衛專條 (Weihaiwei Kira Sözleşmesi), 1 Temmuz 1898 / 光緒二十四年五月十三日, Pekin — zh.wikisource.org/wiki/訂租威海衛專條 (açıldı, okundu): «租期應按照俄國駐守旅順之期相同»; «所租之地系劉公島並在威海灣之群島及威海全灣沿岸以內之十英里地方»","gun":"1 Temmuz 1898","kesinlik":"gun","sinir_id":[]},{"t":"1930-10-01","devlet":"cin-cumhuriyeti","taraflar":["weihaiwei-ingiliz","cin-cumhuriyeti"],"b":"Weihaiwei Çin'e iade edildi (kira sona erdi)","tur":"antlasma","onem":2,"dunya":2,"kapsam":"dis","yer":"Weihaiwei","yer_id":"Weihaiwei","etiket":["toprak-degisimi","konu-diplomasi","cin-1115b"],"d":"18 Nisan 1930'da Nanjing'de imzalanan iki belgeye göre Weihaiwei 1 Ekim 1930'da Çin'e tam egemenlikle geri verildi.","kaynak":"Britanya Avam Kamarası, Hansard, 5 Mayıs 1930, «Wei-hai-wei (Rendition)» — api.parliament.uk/historic-hansard/commons/1930/may/05/wei-hai-wei-rendition (açıldı, okundu): «signed at Nanking on 18th April last»; «the territory shall be restored in full sovereignty to China on the 1st October next»","gun":"1 Ekim 1930","kesinlik":"gun","sinir_id":[]}];
+// -*- coding: utf-8 -*-
+// data/kronoloji_sinir_cin_1115b.js — SINIR KRONOLOJİSİ · Çin ikinci dalga (UMIT, 15 Kasım 2026)
+// Weihaiwei İngiliz kira bölgesi: yerleşimin s: kırılmalarını (1898-07-01, 1930-10-01) adlandıran maddeler.
+window.KRONOLOJI_SINIR_CIN_1115B = [
+ {
+  "t": "1898-07-01",
+  "devlet": "weihaiwei-ingiliz",
+  "taraflar": ["qing-hanedani", "weihaiwei-ingiliz"],
+  "b": "Weihaiwei Kira Sözleşmesi imzalandı: Weihaiwei kıyı şeridi ve Liugong Adası Britanya'ya kiralandı",
+  "tur": "antlasma",
+  "onem": 3,
+  "dunya": 3,
+  "kapsam": "dis",
+  "yer": "Weihaiwei",
+  "yer_id": "Weihaiwei",
+  "etiket": ["toprak-degisimi", "konu-diplomasi", "cin-1115b"],
+  "d": "1 Temmuz 1898'de Pekin'de imzalanan sözleşmeyle Qing Çin'i Liugong Adası'nı, Weihai Körfezi'ndeki adaları ve körfez kıyısı boyunca on millik şeridi Britanya'ya kiraladı; kira süresi Rusya'nın Lüşun'daki varlığının süresine bağlandı.",
+  "kaynak": "訂租威海衛專條 (Weihaiwei Kira Sözleşmesi), 1 Temmuz 1898 / 光緒二十四年五月十三日, Pekin — zh.wikisource.org/wiki/訂租威海衛專條 (açıldı, okundu): «租期應按照俄國駐守旅順之期相同»; «所租之地系劉公島並在威海灣之群島及威海全灣沿岸以內之十英里地方»",
+  "gun": "1 Temmuz 1898",
+  "kesinlik": "gun",
+  "sinir_id": [],
+  "ic_not": "CIN-1115b: tek kaynak (sözleşme metni); ikinci akademik kaynak (Atwell, Johnston) OKUNMADI. Gün sözleşmenin İMZA günüdür; İngiliz fiilî devralma günü okunmadı. Atlas yerleşim kaydı kur: = bu gün. Hong Kong 'Yeni Bölgeler' sözleşmesi (1898-06-09) ayrı bir kayıttır."
+ },
+ {
+  "t": "1930-10-01",
+  "devlet": "cin-cumhuriyeti",
+  "taraflar": ["weihaiwei-ingiliz", "cin-cumhuriyeti"],
+  "b": "Weihaiwei Çin'e iade edildi (kira sona erdi)",
+  "tur": "antlasma",
+  "onem": 2,
+  "dunya": 2,
+  "kapsam": "dis",
+  "yer": "Weihaiwei",
+  "yer_id": "Weihaiwei",
+  "etiket": ["toprak-degisimi", "konu-diplomasi", "cin-1115b"],
+  "d": "18 Nisan 1930'da Nanjing'de imzalanan iki belgeye göre Weihaiwei 1 Ekim 1930'da Çin'e tam egemenlikle geri verildi.",
+  "kaynak": "Britanya Avam Kamarası, Hansard, 5 Mayıs 1930, «Wei-hai-wei (Rendition)» — api.parliament.uk/historic-hansard/commons/1930/may/05/wei-hai-wei-rendition (açıldı, okundu): «signed at Nanking on 18th April last»; «the territory shall be restored in full sovereignty to China on the 1st October next»",
+  "gun": "1 Ekim 1930",
+  "kesinlik": "gun",
+  "sinir_id": [],
+  "ic_not": "CIN-1115b: Hansard planlanan tarihi bildirir («1st October next»); fiilî devrin o gün yapıldığı ikinci kaynakta (arama özeti: Johnston'ın katıldığı tören) görüldü fakat o kaynak açılamadı — OKUNMADI, sayılmadı. Garnizonun çekilişi tarihten bir ay sonrasına kadar uzar (Hansard)."
+ }
+];
 
 ;
 /* ==== data/kronoloji_cin_ming_1115b.js ==== */
-// data/kronoloji_cin_ming_1115b.js — paketle.py İNCELTTİ: ic_not* alanları yayına gitmez (kaynak dosya değişmedi)
-window.KRONOLOJI_CIN_MING_1115B = [{"taraflar":["ming-hanedani"],"t":"1369-01-09","b":"Xu Da Taiyuan'ı aldı; Kuokuo Temür Gansu'ya kaçtı, Shanxi Ming denetimine girdi","tur":"fetih","onem":3,"dunya":1,"kapsam":"dis","etiket":["askeri","toprak-degisimi","konu-askeri"],"yer_id":"Taiyuan","d":"Hongwu 1'in 12. ayında Xu Da Taiyuan'ı aldı. Ming shi bu olayı «Taiyuan alındı, Kuokuo Temür Gansu'ya kaçtı, Shanxi pasifize edildi» diye kaydeder; Yuan'ın Dadu'dan çekilmesinin ardından kuzey Çin'deki son büyük Yuan komutanı güneybatı-kuzeybatı yönüne itilmiş oldu.","kaynak":"Ming shi (明史) j.2 Taizu 2 — 洪武元年十二月丁卯: «徐達克太原，擴廓帖木兒走甘肅，山西平» (zh.wikisource.org/wiki/明史/卷2; WebFetch aracıyla okundu)","kesinlik":"gun"},{"taraflar":["ming-hanedani"],"t":"1369-04-12","b":"Xu Da Fengyuan'a (Xi'an) ulaştı, Yuan komutanı Zhang Sidao kaçtı","tur":"fetih","onem":3,"dunya":1,"kapsam":"dis","etiket":["askeri","toprak-degisimi","konu-askeri"],"yer_id":"Xi'an (Chang'an)","d":"Hongwu 2'nin 3. ayında Xu Da Fengyuan'a (Yuan'ın Shaanxi merkezi; Ming adı Xi'an) vardı ve Zhang Sidao şehri terk etti. Aynı yıl 4. ayda Xu Da Xi'an'da Yuan prensini bozdu (1369-05-27).","kaynak":"Ming shi (明史) j.2 Taizu 2 — 洪武二年三月庚子: «徐達至奉元，張思道遁»; 四月乙酉: «徐達襲破元豫王於西安» (zh.wikisource.org/wiki/明史/卷2; WebFetch aracıyla okundu)","kesinlik":"gun"},{"taraflar":["ming-hanedani"],"t":"1369-07-20","b":"Chang Yuchun Kaiping'i (Shangdu) aldı, Yuan imparatoru kuzeye kaçtı","tur":"fetih","onem":3,"dunya":2,"kapsam":"dis","etiket":["askeri","toprak-degisimi","konu-askeri"],"yer_id":"","yer_kon":[42.3586,116.179],"d":"Hongwu 2'nin 6. ayında Chang Yuchun Yuan'ın yazlık başkenti Kaiping'i (Shangdu) aldı; Toghon Temür bozkıra, Yingchang'a doğru kaçtı. Bir yıl sonra orada öldü (1370-05-23).","kaynak":"Ming shi (明史) j.2 Taizu 2 — 洪武二年六月己卯: «常遇春克開平，元帝北走» (zh.wikisource.org/wiki/明史/卷2; WebFetch aracıyla okundu); koordinat: Shangdu kalıntıları (standart coğrafî değer)","kesinlik":"gun"},{"taraflar":["ming-hanedani"],"t":"1369-09-22","b":"Xu Da Qingyang'ı aldı, Zhang Liangchen idam edildi, Shaanxi'nin geri kalanı Ming'e geçti","tur":"fetih","onem":3,"dunya":1,"kapsam":"dis","etiket":["askeri","toprak-degisimi","konu-askeri"],"yer_id":"","yer_kon":[35.7096,107.6428],"d":"Hongwu 2'nin 8. ayında Xu Da Qingyang'ı aldı ve Zhang Liangchen'i öldürttü; Ming shi «Shaanxi pasifize edildi» der.","kaynak":"Ming shi (明史) j.2 Taizu 2 — 洪武二年八月癸未: «徐達克慶陽，斬張良臣，陝西平» (zh.wikisource.org/wiki/明史/卷2; WebFetch aracıyla okundu); koordinat: Qingyang (standart coğrafî değer)","kesinlik":"gun"},{"taraflar":["ming-hanedani","kuzey-yuan"],"t":"1370-05-23","b":"Yuan imparatoru Toghon Temür Yingchang'da öldü, oğlu Ayushiridara geçti","tur":"hukumdar","onem":4,"dunya":2,"kapsam":"dis","etiket":["hukumdar","konu-kisiler","konu-hanedan"],"yer_id":"","d":"Hongwu 3'ün 4. ayında Yuan'ın son imparatoru Toghon Temür (Ming metninde «Yuan imparatoru») Yingchang'da öldü; yerine oğlu Ayushiridara (Biligtü Han) geçti. Bu, Yuan hanedanının bozkırdaki devamı olan Kuzey Yuan'ın ilk hükümdar değişimidir.","kaynak":"Ming shi (明史) j.2 Taizu 2 — 洪武三年四月丙戌: «元帝崩於應昌，子愛猷識理達臘嗣» (zh.wikisource.org/wiki/明史/卷2; WebFetch aracıyla okundu)","kesinlik":"gun"},{"taraflar":["ming-hanedani"],"t":"1371-08-08","b":"Tang He Chongqing'e vardı, Xia hükümdarı Ming Sheng teslim oldu","tur":"fetih","onem":3,"dunya":1,"kapsam":"dis","etiket":["askeri","toprak-degisimi","konu-askeri"],"yer_id":"Çongqing (Chongqing)","d":"Hongwu 4'ün 6. ayında Tang He Chongqing'e ulaştı ve Sichuan'da hüküm süren Xia'nın hükümdarı Ming Sheng teslim oldu; birkaç gün sonra Fu Youde Chengdu'yu aldı.","kaynak":"Ming shi (明史) j.2 Taizu 2 — 洪武四年六月戊申: «湯和至重慶，明昇降» (zh.wikisource.org/wiki/明史/卷2; WebFetch aracıyla okundu)","kesinlik":"gun"},{"taraflar":["ming-hanedani"],"t":"1371-08-21","b":"Fu Youde Chengdu'yu aldı, Sichuan Ming denetimine girdi","tur":"fetih","onem":3,"dunya":1,"kapsam":"dis","etiket":["askeri","toprak-degisimi","konu-askeri"],"yer_id":"Çengdu (Chengdu)","d":"Hongwu 4'ün 7. ayında Fu Youde Chengdu'yu aldı; Ming shi «Sichuan pasifize edildi» der.","kaynak":"Ming shi (明史) j.2 Taizu 2 — 洪武四年秋七月辛酉: «傅友德下成都，四川平» (zh.wikisource.org/wiki/明史/卷2; WebFetch aracıyla okundu)","kesinlik":"gun"},{"taraflar":["ming-hanedani"],"t":"1381-09-18","b":"Fu Youde Yunnan seferinin komutanı atandı; Lan Yu ve Mu Ying yardımcı komutan","tur":"savas","onem":3,"dunya":1,"kapsam":"dis","etiket":["askeri","konu-askeri"],"yer_id":"Kunming","d":"Hongwu 14'ün 9. ayının ilk günü (朔) Fu Youde «güney seferi komutanı», Lan Yu ve Mu Ying sol ve sağ yardımcı komutan atanarak Yunnan'a (Yuan'ın Liang Prensi Basalawarmi'nin elindeki bölge) sefer başladı.","kaynak":"Ming shi (明史) j.2 Taizu 2 — 洪武十四年九月壬午朔: «傅友德為征南將軍，藍玉、沐英為左、右副將軍，帥師征雲南» (zh.wikisource.org/wiki/明史/卷2; WebFetch aracıyla okundu)","kesinlik":"gun"},{"taraflar":["ming-hanedani"],"t":"1382-01-02","b":"Fu Youde Baishi Nehri'nde Yuan ordusunu bozdu, Qujing'i aldı","tur":"savas","onem":3,"dunya":1,"kapsam":"dis","etiket":["askeri","konu-askeri"],"yer_id":"","yer_kon":[25.49,103.7963],"d":"Hongwu 14'ün 12. ayında Fu Youde Baishi Nehri'nde Yuan kuvvetlerini büyük bir bozguna uğrattı ve Qujing'i aldı; Yunnan'ın kalbine giden yol açıldı. Ming shi'nin Liang Prensi biyografisi aynı seferin 12. ayda Puding'e vardığını ayrıca anar.","kaynak":"Ming shi (明史) j.2 Taizu 2 — 洪武十四年十二月戊辰: «傅友德大敗元兵於白石江，遂下曲靖» (zh.wikisource.org/wiki/明史/卷2; WebFetch aracıyla okundu); Ming shi j.124 «Basalawarmi»: «洪武十四年十二月下普定»; koordinat: Qujing (standart coğrafî değer)","kesinlik":"gun"},{"taraflar":["ming-hanedani","kuzey-yuan"],"t":"1382-01-16","b":"Qujing, Zhongqing (Kunming), Chengjiang ve Wuding Ming'e teslim oldu; Ming shi «Yunnan pasifize edildi» der","tur":"fetih","onem":4,"dunya":2,"kapsam":"dis","etiket":["askeri","toprak-degisimi","konu-askeri"],"yer_id":"Kunming","d":"Hongwu 15'in 1. ayında Yuan'ın Qujing Müdürlüğü ile Zhongqing (Kunming), Chengjiang ve Wuding illeri Ming'e teslim oldu. Liang Prensi Basalawarmi karısını Dian Gölü'ne gönderip kendisi iki yardımcısıyla kendini astı (Ming shi j.124; gün verilmez). Dali'nin düşüşü ise aynı yılın artık ayında (Lan Yu ve Mu Ying, 閏月癸卯) yazılıdır. Atlastaki Yunnan eksklav kaydı (kuzey-yuan, 1368-1382) bu tarihle uyumsuz olabilir: Ming shi'ye göre Yunnan'ın fiilen Ming'e geçişi 1382 başıdır.","kaynak":"Ming shi (明史) j.3 Taizu 3 — 洪武十五年春正月壬午: «元曲靖宣慰司及中慶、澂江、武定諸路俱降，雲南平» (zh.wikisource.org/wiki/明史/卷3; WebFetch aracıyla okundu); Ming shi j.124 «Basalawarmi» (zh.wikisource.org/wiki/明史/卷124; aynı yöntemle okundu)","kesinlik":"gun"},{"taraflar":["ming-hanedani"],"t":"1399-08-06","b":"Yan Prensi Zhu Di Beiping'de ayaklandı (Jingnan Seferi başladı)","tur":"savas","onem":4,"dunya":2,"kapsam":"ic","etiket":["siyaset","askeri","konu-siyasi","konu-hanedan"],"yer_id":"Pekin (Hanbalık)","d":"Jianwen 1'in 7. ayında Yan Prensi Zhu Di ayaklanarak Beiping'in vali ve komutanlarını (Zhang Bing, Xie Gui) öldürttü. Üç yıl sürecek Jingnan Seferi böyle başladı; 1402'de Nanjing'in düşüşüyle sona erdi.","kaynak":"Ming shi (明史) j.4 Gongmin di — 建文元年秋七月癸酉: «燕王棣舉兵反，殺布政使張昺、都司謝貴» (zh.wikisource.org/wiki/明史/卷4; WebFetch aracıyla okundu)","kesinlik":"gun"},{"taraflar":["ming-hanedani"],"t":"1421-02-02","b":"Yongle Pekin'de Fengtian Salonu'nda yeni yıl törenini ilk kez kabul etti","tur":"siyaset","onem":3,"dunya":1,"kapsam":"ic","etiket":["siyaset","imar","konu-siyasi"],"yer_id":"Pekin (Hanbalık)","d":"Yongle 19'un 1. ayının ilk günü (朔) imparator Fengtian Salonu'nda yeni yıl tebriklerini kabul etti ve büyük ziyafet verdi. Ming shi başkentin değişikliğini bir önceki yılın girişlerinde (永樂十八年 9. ve 11. ay) yazar; bu madde yalnız 1421'in ilk günü Pekin'deki törendir, taşınma kararının günü değildir.","kaynak":"Ming shi (明史) j.7 Chengzu 3 — 永樂十九年春正月甲子朔: «御奉天殿受朝賀，大宴» (zh.wikisource.org/wiki/明史/卷7; WebFetch aracıyla okundu)","kesinlik":"gun"},{"taraflar":["ming-hanedani"],"t":"1421-05-09","b":"Pekin'de Fengtian, Huagai ve Jinshen salonları yandı","tur":"siyaset","onem":2,"dunya":1,"kapsam":"ic","etiket":["imar","konu-imar"],"yer_id":"Pekin (Hanbalık)","d":"Yongle 19'un 4. ayında Yasak Şehir'in üç ana salonu yıldırım/yangınla yandı; imparator bakanlara kusurları açıkça bildirmelerini emretti.","kaynak":"Ming shi (明史) j.7 Chengzu 3 — 永樂十九年夏四月庚子: «奉天、華蓋、謹身三殿災，詔羣臣直陳闕失» (zh.wikisource.org/wiki/明史/卷7; WebFetch aracıyla okundu)","kesinlik":"gun"},{"taraflar":["ming-hanedani","kuzey-yuan"],"t":"1422-04-11","b":"Yongle Arughtai'ye karşı şahsen sefere çıktı, veliaht naip bırakıldı","tur":"savas","onem":3,"dunya":1,"kapsam":"dis","etiket":["askeri","konu-askeri"],"yer_id":"Pekin (Hanbalık)","d":"Yongle 20'nin 3. ayında imparator Arughtai'ye karşı bizzat sefere çıktı; veliaht (sonradan Hongxi) naiplik etti. Yongle'nin 1423'te de aynı komutana karşı yeniden sefere çıktığı Ming shi'de ayrıca yazılıdır.","kaynak":"Ming shi (明史) j.7 Chengzu 3 — 永樂二十年三月丁丑: «親征阿魯台，皇太子監國» (zh.wikisource.org/wiki/明史/卷7; WebFetch aracıyla okundu)","kesinlik":"gun"},{"taraflar":["ming-hanedani","kuzey-yuan"],"t":"1423-08-25","b":"Yongle Arughtai'ye karşı yeniden sefere çıktı","tur":"savas","onem":2,"dunya":1,"kapsam":"dis","etiket":["askeri","konu-askeri"],"yer_id":"Pekin (Hanbalık)","d":"Yongle 21'in 7. ayında imparator Arughtai'ye karşı yeniden (復) sefere çıktı; komutanlar arasında Anyuan Markisi Liu Sheng anılır.","kaynak":"Ming shi (明史) j.7 Chengzu 3 — 永樂二十一年秋七月戊戌: «復親征阿魯台，安遠侯柳升…» (zh.wikisource.org/wiki/明史/卷7; WebFetch aracıyla okundu)","kesinlik":"gun"},{"taraflar":["ming-hanedani","kuzey-yuan"],"t":"1550-09-26","b":"Altan Han Gubeikou'dan Ming sınırını yardı; Jizhen ordusu dağıldı (Gengxu olayı)","tur":"savas","onem":4,"dunya":2,"kapsam":"dis","etiket":["askeri","konu-askeri"],"yer_id":"","yer_kon":[40.677,117.158],"d":"Jiajing 29'un 8. ayında Altan'ın Moğolları büyük bir akınla Gubeikou'yu yardı ve Jizhen ordusu dağıldı (Ming shi). Atlastaki 1550-08-01 «Altan Han'ın Moğolları Pekin'i kuşattı» maddesinin günü Ming shi'nin gösterdiği güne (Gubeikou'nun yarılması 26 Eylül 1550) uymaz; düzeltme önerisi belgede.","kaynak":"Ming shi (明史) j.18 Shizong 2 — 嘉靖二十九年秋八月丁丑: «俺答大舉入寇，攻古北口，薊鎮兵潰» (zh.wikisource.org/wiki/明史/卷18; WebFetch aracıyla okundu); koordinat: Gubeikou (standart coğrafî değer)","kesinlik":"gun"},{"taraflar":["ming-hanedani"],"t":"1562-06-20","b":"Başbakan Yan Song görevden alındı","tur":"siyaset","onem":2,"dunya":1,"kapsam":"ic","etiket":["siyaset","konu-siyasi"],"yer_id":"Pekin (Hanbalık)","d":"Jiajing 41'in 5. ayında Yan Song görevden alındı; Jiajing devrinin uzun süren bu nüfuz dönemi sona erdi.","kaynak":"Ming shi (明史) j.18 Shizong 2 — 嘉靖四十一年夏五月壬寅: «嚴嵩罷» (zh.wikisource.org/wiki/明史/卷18; WebFetch aracıyla okundu)","kesinlik":"gun"},{"taraflar":["ming-hanedani"],"t":"1563-05-11","b":"Qi Jiguang Pinghai Karakolu'nda Japon korsanlarını bozdu","tur":"savas","onem":3,"dunya":1,"kapsam":"ic","etiket":["askeri","konu-askeri"],"yer_id":"","d":"Jiajing 42'nin 4. ayında yardımcı komutan Qi Jiguang Pinghai Karakolu'nda (Fujian kıyısı) korsanlara (wokou) karşı zafer kazandı. Pinghai'nin koordinatı atlasta yoktur; madde yersiz bırakıldı.","kaynak":"Ming shi (明史) j.18 Shizong 2 — 嘉靖四十二年夏四月丁卯: «副總兵戚繼光破倭於平海衞» (zh.wikisource.org/wiki/明史/卷18; WebFetch aracıyla okundu)","kesinlik":"gun"},{"taraflar":["ming-hanedani"],"t":"1566-02-20","b":"Hai Rui imparatora yazdığı sert uyarı yüzünden zindana atıldı","tur":"siyaset","onem":2,"dunya":1,"kapsam":"ic","etiket":["siyaset","konu-siyasi"],"yer_id":"Pekin (Hanbalık)","d":"Jiajing 45'in 2. ayında Maliye Bakanlığı memuru Hai Rui imparatora uyarı dilekçesi sundu ve Jinyiwei zindanına atıldı.","kaynak":"Ming shi (明史) j.18 Shizong 2 — 嘉靖四十五年春二月癸亥: «戶部主事海瑞上疏，下錦衣衞獄» (zh.wikisource.org/wiki/明史/卷18; WebFetch aracıyla okundu)","kesinlik":"gun"},{"taraflar":["ming-hanedani"],"t":"1567-01-23","b":"Jiajing İmparatoru öldü, Yu Prensi (Longqing) tahta geçti","tur":"hukumdar","onem":4,"dunya":1,"kapsam":"ic","etiket":["hukumdar","konu-kisiler","konu-hanedan"],"yer_id":"Pekin (Hanbalık)","d":"Jiajing 45'in 12. ayında imparator Batı Bahçe'den Qianqing Sarayı'na döndüğü gün 60 yaşında öldü; vasiyetiyle Yu Prensi tahta çıktı (Longqing).","kaynak":"Ming shi (明史) j.18 Shizong 2 — 嘉靖四十五年十二月庚子: «大漸，自西苑還乾清宮。是日崩，年六十，遺詔裕王嗣位» (zh.wikisource.org/wiki/明史/卷18; WebFetch aracıyla okundu)","kesinlik":"gun"},{"taraflar":["ming-hanedani"],"t":"1592-04-19","b":"Ningxia'da emekli komutan Bo Bai isyan edip şehri ele geçirdi","tur":"isyan","onem":3,"dunya":1,"kapsam":"ic","etiket":["askeri","siyaset","konu-askeri"],"yer_id":"","yer_kon":[38.4872,106.2309],"d":"Wanli 20'nin 3. ayında emekli yardımcı komutan Bo Bai valiyi Dang Xin'i ve başmüfettişi öldürüp Ningxia şehrine hâkim oldu. Aynı yıl Ming, Japon istilası karşısında Kore'ye de asker göndermekteydi (bkz. 1592-05-23).","kaynak":"Ming shi (明史) j.20 Shenzong 1 — 萬曆二十年三月戊辰: «寧夏致仕副總兵哱拜殺巡撫都御史黨馨、副使石繼芳，據城反» (zh.wikisource.org/wiki/明史/卷20; WebFetch aracıyla okundu); koordinat: Yinchuan/Ningxia (standart coğrafî değer)","kesinlik":"gun"},{"taraflar":["ming-hanedani"],"t":"1598-12-14","b":"Japonlar Ulsan'ı terk etti, Ming kuvvetleri iki koldan ilerledi","tur":"savas","onem":3,"dunya":2,"kapsam":"dis","etiket":["askeri","konu-askeri"],"yer_id":"","yer_kon":[35.5384,129.3114],"d":"Wanli 26'nın 11. ayında Japon kuvvetleri Ulsan'ı terk etti ve Ming ordusu iki yönde ilerledi; aynı yılın 12. ayında Ming komutanı Chen Lin kuvvetleri Yisan'da bozdu ve Ming shi «Kore sakinleşti» der.","kaynak":"Ming shi (明史) j.21 Shenzong 2 — 萬曆二十六年十一月戊戌: «倭棄蔚山遁，官軍分道進擊» (zh.wikisource.org/wiki/明史/卷21; WebFetch aracıyla okundu); koordinat: Ulsan (standart coğrafî değer)","kesinlik":"gun"},{"taraflar":["ming-hanedani"],"t":"1618-05-09","b":"Nurhaci Fushun'u aldı","tur":"fetih","onem":4,"dunya":2,"kapsam":"dis","etiket":["askeri","toprak-degisimi","konu-askeri"],"yer_id":"","yer_kon":[41.8813,123.9573],"d":"Wanli 46'nın 4. ayında Mançu kuvvetleri Fushun şehrini aldı; Ming shi yalnız «Büyük Qing askerleri Fushun'u aldı, subay Wang Mingyin öldü» der (Ming shi Qing döneminde derlendiği için Nurhaci'nin kuvvetlerine «Büyük Qing» der).","kaynak":"Ming shi (明史) j.21 Shenzong 2 — 萬曆四十六年夏四月甲辰: «大清兵克撫順城，千總王命印死之» (zh.wikisource.org/wiki/明史/卷21; WebFetch aracıyla okundu); koordinat: Fushun (standart coğrafî değer)","kesinlik":"gun"},{"taraflar":["ming-hanedani"],"t":"1619-07-26","b":"Mançular Kaiyuan'ı aldı, Ma Lin savaşta öldü","tur":"fetih","onem":3,"dunya":1,"kapsam":"dis","etiket":["askeri","toprak-degisimi","konu-askeri"],"yer_id":"","yer_kon":[42.539,124.036],"d":"Wanli 47'nin 6. ayında Mançu kuvvetleri Kaiyuan'ı aldı ve Ming komutanı Ma Lin öldü. Sarhu savaşından (1619-04-14) yaklaşık üç buçuk ay sonradır.","kaynak":"Ming shi (明史) j.21 Shenzong 2 — 萬曆四十七年六月丁卯: «大清兵克開原，馬林敗沒» (zh.wikisource.org/wiki/明史/卷21; WebFetch aracıyla okundu); koordinat: Kaiyuan (Liaoning; standart coğrafî değer)","kesinlik":"gun"},{"taraflar":["ming-hanedani"],"t":"1620-08-18","b":"Wanli İmparatoru öldü","tur":"hukumdar","onem":4,"dunya":1,"kapsam":"ic","etiket":["hukumdar","konu-kisiler","konu-hanedan"],"yer_id":"Pekin (Hanbalık)","d":"Wanli 48'in 7. ayında Wanli İmparatoru 58 yaşında öldü; 48 yıllık saltanat sona erdi.","kaynak":"Ming shi (明史) j.21 Shenzong 2 — 萬曆四十八年秋七月丙申: «崩，年五十有八» (zh.wikisource.org/wiki/明史/卷21; WebFetch aracıyla okundu)","kesinlik":"gun"},{"taraflar":["ming-hanedani"],"t":"1626-02-19","b":"Mançu ordusu Ningyuan'ı kuşattı; Man Gui ve Yuan Chonghuan savundu","tur":"savas","onem":4,"dunya":2,"kapsam":"dis","etiket":["askeri","konu-askeri"],"yer_id":"","yer_kon":[40.61,120.73],"d":"Tianqi 6'nın 1. ayında Mançu kuvvetleri Ningyuan'ı kuşattı; komutan Man Gui ve il yöneticisi Yuan Chonghuan şehri savundu. Kuşatma iki gün sonra kalktı (1626-02-21). Ming shi bu girişte Nurhaci'nin adını anmaz.","kaynak":"Ming shi (明史) j.22 Xizong — 天啟六年春正月丁卯: «大清兵圍寧遠，總兵官滿桂、寧前道參政袁崇煥固守»; 己巳: «圍解» (zh.wikisource.org/wiki/明史/卷22; WebFetch aracıyla okundu); koordinat: Ningyuan/Xingcheng (yaklaşık standart coğrafî değer)","kesinlik":"gun"},{"taraflar":["ming-hanedani"],"t":"1627-09-30","b":"Tianqi İmparatoru öldü","tur":"hukumdar","onem":3,"dunya":1,"kapsam":"ic","etiket":["hukumdar","konu-kisiler","konu-hanedan"],"yer_id":"Pekin (Hanbalık)","d":"Tianqi 7'nin 8. ayında imparator Qianqing Sarayı'nda 23 yaşında öldü.","kaynak":"Ming shi (明史) j.22 Xizong — 天啟七年八月乙卯: «崩於乾清宮，年二十三» (zh.wikisource.org/wiki/明史/卷22; WebFetch aracıyla okundu)","kesinlik":"gun"},{"taraflar":["ming-hanedani"],"t":"1628-08-13","b":"Chongzhen, Yuan Chonghuan'ı Pingtai'da bakanlarla birlikte kabul etti","tur":"siyaset","onem":2,"dunya":1,"kapsam":"ic","etiket":["siyaset","askeri","konu-siyasi"],"yer_id":"Pekin (Hanbalık)","d":"Chongzhen 1'in 7. ayında imparator Yuan Chonghuan'ı ve saray bakanlarını Pingtai'da kabul etti; Yuan Chonghuan'ın Liaodong'un yönetimine geri çağrılışı bu görüşmeyle bağlantılıdır (Ming shi yalnız görüşmeyi yazar).","kaynak":"Ming shi (明史) j.23 Zhuanglie 1 — 崇禎元年秋七月癸酉: «召對廷臣及袁崇煥於平臺» (zh.wikisource.org/wiki/明史/卷23; WebFetch aracıyla okundu)","kesinlik":"gun"},{"taraflar":["ming-hanedani"],"t":"1629-12-11","b":"Mançu ordusu Daan Geçidi'nden Ming sınırına girdi","tur":"savas","onem":4,"dunya":2,"kapsam":"dis","etiket":["askeri","konu-askeri"],"yer_id":"Pekin (Hanbalık)","d":"Chongzhen 2'nin 10. ayında Mançu kuvvetleri Daan Geçidi'nden (Ming shi: «Daan ağzı») Çin sınırına girdi.","kaynak":"Ming shi (明史) j.23 Zhuanglie 1 — 崇禎二年冬十月戊寅: «大清兵入大安口» (zh.wikisource.org/wiki/明史/卷23; WebFetch aracıyla okundu)","kesinlik":"gun"},{"taraflar":["ming-hanedani"],"t":"1630-01-13","b":"Yuan Chonghuan Pingtai'da yeniden çağrıldı ve zindana atıldı","tur":"siyaset","onem":3,"dunya":1,"kapsam":"ic","etiket":["siyaset","askeri","konu-siyasi"],"yer_id":"Pekin (Hanbalık)","d":"Chongzhen 2'nin 12. ayının ilk günü (朔) Yuan Chonghuan Pingtai'da yeniden kabul edildi ve Jinyiwei zindanına atıldı.","kaynak":"Ming shi (明史) j.23 Zhuanglie 1 — 崇禎二年十二月辛亥朔: «再召袁崇煥於平臺，下錦衣衞獄» (zh.wikisource.org/wiki/明史/卷23; WebFetch aracıyla okundu)","kesinlik":"gun"},{"taraflar":["ming-hanedani"],"t":"1630-09-22","b":"Yuan Chonghuan idam edildi","tur":"siyaset","onem":3,"dunya":1,"kapsam":"ic","etiket":["siyaset","askeri","konu-siyasi"],"yer_id":"Pekin (Hanbalık)","d":"Chongzhen 3'ün 8. ayında Yuan Chonghuan idam edildi (Ming shi «öldürdü» der; infaz biçimi bu satırda yazılmaz).","kaynak":"Ming shi (明史) j.23 Zhuanglie 1 — 崇禎三年秋八月癸亥: «殺袁崇煥» (zh.wikisource.org/wiki/明史/卷23; WebFetch aracıyla okundu)","kesinlik":"gun"}];
+// -*- coding: utf-8 -*-
+// data/kronoloji_cin_ming_1115b.js — MING 1368-1644 GÜN HASSASİYETLİ KRONOLOJİ EK (UMIT, bölge Çin, ikinci dalga, 15 Kasım 2026)
+// Birincil kaynak: Ming shi (明史) «Benji» (本紀) bölümleri, zh.wikisource.org/wiki/明史/卷2, 卷3, 卷4, 卷7, 卷18, 卷20, 卷21, 卷22, 卷23
+//   (sayfalar WebFetch aracıyla açıldı; alıntılar kısa tutuldu; aktarımın ilk geçişte gün adını yanlış verebildiği
+//   (Shenyang 1621, Pyongyang 1593) görüldü — bu yüzden her ganzhi, metindeki AY içinde kalıp kalmadığıyla sınandı ve
+//   sınamayı geçmeyen gün YAZILMADI).
+// Takvim yöntemi (ic_not'ta beyan): ay-güneş takvimi → ganzhi gün adı → JDN. Ay başlangıçları (朔) astronomik yeni aydan
+//   (Meeus; UTC+8) ve kış gündönümü kuralından kuruldu; metindeki açık 朔 işaretleriyle (永樂19 正月甲子朔) ve bilinen
+//   günlerle sınandı: 洪武1 正月乙亥 = 1368-01-23; 隆慶6 六月甲子 = 1572-07-19; 永樂22 七月辛卯 = 1424-08-12;
+//   萬曆47 三月甲申 = 1619-04-14 (atlastaki mevcut Sarhu maddesiyle birebir). 1582-10-15 öncesi gün Jülyen, sonrası Gregoryen.
+// Bu dosya Değişmez 2 evrenine girmez (kronoloji_*); hiçbir s:/d: dönemini değiştirmez.
+
+window.KRONOLOJI_CIN_MING_1115B = [
+
+{ taraflar:["ming-hanedani"], t:"1369-01-09", b:"Xu Da Taiyuan'ı aldı; Kuokuo Temür Gansu'ya kaçtı, Shanxi Ming denetimine girdi", tur:"fetih",
+  onem:3, dunya:1, kapsam:"dis", etiket:["askeri","toprak-degisimi","konu-askeri"], yer_id:"Taiyuan",
+  d:"Hongwu 1'in 12. ayında Xu Da Taiyuan'ı aldı. Ming shi bu olayı «Taiyuan alındı, Kuokuo Temür Gansu'ya kaçtı, Shanxi pasifize edildi» diye kaydeder; Yuan'ın Dadu'dan çekilmesinin ardından kuzey Çin'deki son büyük Yuan komutanı güneybatı-kuzeybatı yönüne itilmiş oldu.",
+  kaynak:"Ming shi (明史) j.2 Taizu 2 — 洪武元年十二月丁卯: «徐達克太原，擴廓帖木兒走甘肅，山西平» (zh.wikisource.org/wiki/明史/卷2; WebFetch aracıyla okundu)",
+  kesinlik:"gun",
+  ic_not:"Takvim: 洪武元年 12. ay 丁卯 → Jülyen 1369-01-09 (ay başlangıcı 1369-01-09, ay 29 gün; ganzhi→JDN; Meeus yeni ay + kış gündönümü kuralı). Atlastaki Taiyuan s: dönemi (Yuan→Ming ucu) bu madde tarafından DEĞİŞTİRİLMEDİ; ayrı doğrulama gerekir. İkinci akademik kaynak OKUNMADI (tek kaynak)." },
+
+{ taraflar:["ming-hanedani"], t:"1369-04-12", b:"Xu Da Fengyuan'a (Xi'an) ulaştı, Yuan komutanı Zhang Sidao kaçtı", tur:"fetih",
+  onem:3, dunya:1, kapsam:"dis", etiket:["askeri","toprak-degisimi","konu-askeri"], yer_id:"Xi'an (Chang'an)",
+  d:"Hongwu 2'nin 3. ayında Xu Da Fengyuan'a (Yuan'ın Shaanxi merkezi; Ming adı Xi'an) vardı ve Zhang Sidao şehri terk etti. Aynı yıl 4. ayda Xu Da Xi'an'da Yuan prensini bozdu (1369-05-27).",
+  kaynak:"Ming shi (明史) j.2 Taizu 2 — 洪武二年三月庚子: «徐達至奉元，張思道遁»; 四月乙酉: «徐達襲破元豫王於西安» (zh.wikisource.org/wiki/明史/卷2; WebFetch aracıyla okundu)",
+  kesinlik:"gun",
+  ic_not:"Takvim: 洪武二年 3. ay 庚子 → Jülyen 1369-04-12; 4. ay 乙酉 → 1369-05-27. ÖNEMLİ: atlasta Xi'an'ın Yuan→Ming ucu 1368-04-01'dir (kaynaksız yuvarlak gün); Ming shi metnine göre Xu Da Shaanxi'ye ancak 1369 baharında girdi. Düzeltme yerlesimler.js'e (veya Xi'an'ın bulunduğu dosyaya) düşer — bkz. denetim/BOLGE-CINb-A-yerlesimsiz-1115.md. İkinci akademik kaynak OKUNMADI." },
+
+{ taraflar:["ming-hanedani"], t:"1369-07-20", b:"Chang Yuchun Kaiping'i (Shangdu) aldı, Yuan imparatoru kuzeye kaçtı", tur:"fetih",
+  onem:3, dunya:2, kapsam:"dis", etiket:["askeri","toprak-degisimi","konu-askeri"], yer_id:"", yer_kon:[42.3586,116.1790],
+  d:"Hongwu 2'nin 6. ayında Chang Yuchun Yuan'ın yazlık başkenti Kaiping'i (Shangdu) aldı; Toghon Temür bozkıra, Yingchang'a doğru kaçtı. Bir yıl sonra orada öldü (1370-05-23).",
+  kaynak:"Ming shi (明史) j.2 Taizu 2 — 洪武二年六月己卯: «常遇春克開平，元帝北走» (zh.wikisource.org/wiki/明史/卷2; WebFetch aracıyla okundu); koordinat: Shangdu kalıntıları (standart coğrafî değer)",
+  kesinlik:"gun",
+  ic_not:"Takvim: 洪武二年 6. ay 己卯 → Jülyen 1369-07-20 (ay başlangıcı 1369-07-04, 30 gün). İkinci akademik kaynak OKUNMADI." },
+
+{ taraflar:["ming-hanedani"], t:"1369-09-22", b:"Xu Da Qingyang'ı aldı, Zhang Liangchen idam edildi, Shaanxi'nin geri kalanı Ming'e geçti", tur:"fetih",
+  onem:3, dunya:1, kapsam:"dis", etiket:["askeri","toprak-degisimi","konu-askeri"], yer_id:"", yer_kon:[35.7096,107.6428],
+  d:"Hongwu 2'nin 8. ayında Xu Da Qingyang'ı aldı ve Zhang Liangchen'i öldürttü; Ming shi «Shaanxi pasifize edildi» der.",
+  kaynak:"Ming shi (明史) j.2 Taizu 2 — 洪武二年八月癸未: «徐達克慶陽，斬張良臣，陝西平» (zh.wikisource.org/wiki/明史/卷2; WebFetch aracıyla okundu); koordinat: Qingyang (standart coğrafî değer)",
+  kesinlik:"gun",
+  ic_not:"Takvim: 洪武二年 8. ay 癸未 → Jülyen 1369-09-22 (ay başlangıcı 1369-09-02, 29 gün). İkinci akademik kaynak OKUNMADI." },
+
+{ taraflar:["ming-hanedani","kuzey-yuan"], t:"1370-05-23", b:"Yuan imparatoru Toghon Temür Yingchang'da öldü, oğlu Ayushiridara geçti", tur:"hukumdar",
+  onem:4, dunya:2, kapsam:"dis", etiket:["hukumdar","konu-kisiler","konu-hanedan"], yer_id:"",
+  d:"Hongwu 3'ün 4. ayında Yuan'ın son imparatoru Toghon Temür (Ming metninde «Yuan imparatoru») Yingchang'da öldü; yerine oğlu Ayushiridara (Biligtü Han) geçti. Bu, Yuan hanedanının bozkırdaki devamı olan Kuzey Yuan'ın ilk hükümdar değişimidir.",
+  kaynak:"Ming shi (明史) j.2 Taizu 2 — 洪武三年四月丙戌: «元帝崩於應昌，子愛猷識理達臘嗣» (zh.wikisource.org/wiki/明史/卷2; WebFetch aracıyla okundu)",
+  kesinlik:"gun",
+  ic_not:"Takvim: 洪武三年 4. ay 丙戌 → Jülyen 1370-05-23 (ay başlangıcı 1370-04-26, 30 gün). Atlastaki kuzey-yuan künyesinin f ucu bu maddeyle karşılaştırılmadı. İkinci akademik kaynak OKUNMADI." },
+
+{ taraflar:["ming-hanedani"], t:"1371-08-08", b:"Tang He Chongqing'e vardı, Xia hükümdarı Ming Sheng teslim oldu", tur:"fetih",
+  onem:3, dunya:1, kapsam:"dis", etiket:["askeri","toprak-degisimi","konu-askeri"], yer_id:"Çongqing (Chongqing)",
+  d:"Hongwu 4'ün 6. ayında Tang He Chongqing'e ulaştı ve Sichuan'da hüküm süren Xia'nın hükümdarı Ming Sheng teslim oldu; birkaç gün sonra Fu Youde Chengdu'yu aldı.",
+  kaynak:"Ming shi (明史) j.2 Taizu 2 — 洪武四年六月戊申: «湯和至重慶，明昇降» (zh.wikisource.org/wiki/明史/卷2; WebFetch aracıyla okundu)",
+  kesinlik:"gun",
+  ic_not:"Takvim: 洪武四年 6. ay 戊申 → Jülyen 1371-08-08 (ay başlangıcı 1371-07-13, 29 gün). İkinci akademik kaynak OKUNMADI." },
+
+{ taraflar:["ming-hanedani"], t:"1371-08-21", b:"Fu Youde Chengdu'yu aldı, Sichuan Ming denetimine girdi", tur:"fetih",
+  onem:3, dunya:1, kapsam:"dis", etiket:["askeri","toprak-degisimi","konu-askeri"], yer_id:"Çengdu (Chengdu)",
+  d:"Hongwu 4'ün 7. ayında Fu Youde Chengdu'yu aldı; Ming shi «Sichuan pasifize edildi» der.",
+  kaynak:"Ming shi (明史) j.2 Taizu 2 — 洪武四年秋七月辛酉: «傅友德下成都，四川平» (zh.wikisource.org/wiki/明史/卷2; WebFetch aracıyla okundu)",
+  kesinlik:"gun",
+  ic_not:"Takvim: 洪武四年 7. ay 辛酉 → Jülyen 1371-08-21 (ay başlangıcı 1371-08-11, 30 gün). İkinci akademik kaynak OKUNMADI." },
+
+{ taraflar:["ming-hanedani"], t:"1381-09-18", b:"Fu Youde Yunnan seferinin komutanı atandı; Lan Yu ve Mu Ying yardımcı komutan", tur:"savas",
+  onem:3, dunya:1, kapsam:"dis", etiket:["askeri","konu-askeri"], yer_id:"Kunming",
+  d:"Hongwu 14'ün 9. ayının ilk günü (朔) Fu Youde «güney seferi komutanı», Lan Yu ve Mu Ying sol ve sağ yardımcı komutan atanarak Yunnan'a (Yuan'ın Liang Prensi Basalawarmi'nin elindeki bölge) sefer başladı.",
+  kaynak:"Ming shi (明史) j.2 Taizu 2 — 洪武十四年九月壬午朔: «傅友德為征南將軍，藍玉、沐英為左、右副將軍，帥師征雲南» (zh.wikisource.org/wiki/明史/卷2; WebFetch aracıyla okundu)",
+  kesinlik:"gun",
+  ic_not:"Takvim: metinde 朔 (ay başı) açıkça yazılı: 壬午朔 → Jülyen 1381-09-18. Hesapla bulunan ay başı 1381-09-19 idi (bir günlük fark; Ming Datong takvimi ile modern hesabın sınır günü) — metindeki 朔 esas alındı, ganzhi bağımsız olarak 18 Eylül'e düşer. İkinci akademik kaynak OKUNMADI." },
+
+{ taraflar:["ming-hanedani"], t:"1382-01-02", b:"Fu Youde Baishi Nehri'nde Yuan ordusunu bozdu, Qujing'i aldı", tur:"savas",
+  onem:3, dunya:1, kapsam:"dis", etiket:["askeri","konu-askeri"], yer_id:"", yer_kon:[25.4900,103.7963],
+  d:"Hongwu 14'ün 12. ayında Fu Youde Baishi Nehri'nde Yuan kuvvetlerini büyük bir bozguna uğrattı ve Qujing'i aldı; Yunnan'ın kalbine giden yol açıldı. Ming shi'nin Liang Prensi biyografisi aynı seferin 12. ayda Puding'e vardığını ayrıca anar.",
+  kaynak:"Ming shi (明史) j.2 Taizu 2 — 洪武十四年十二月戊辰: «傅友德大敗元兵於白石江，遂下曲靖» (zh.wikisource.org/wiki/明史/卷2; WebFetch aracıyla okundu); Ming shi j.124 «Basalawarmi»: «洪武十四年十二月下普定»; koordinat: Qujing (standart coğrafî değer)",
+  kesinlik:"gun",
+  ic_not:"Takvim: 洪武十四年 12. ay 戊辰 → Jülyen 1382-01-02 (ay başlangıcı 1381-12-16, 30 gün). İkinci akademik kaynak OKUNMADI." },
+
+{ taraflar:["ming-hanedani","kuzey-yuan"], t:"1382-01-16", b:"Qujing, Zhongqing (Kunming), Chengjiang ve Wuding Ming'e teslim oldu; Ming shi «Yunnan pasifize edildi» der", tur:"fetih",
+  onem:4, dunya:2, kapsam:"dis", etiket:["askeri","toprak-degisimi","konu-askeri"], yer_id:"Kunming",
+  d:"Hongwu 15'in 1. ayında Yuan'ın Qujing Müdürlüğü ile Zhongqing (Kunming), Chengjiang ve Wuding illeri Ming'e teslim oldu. Liang Prensi Basalawarmi karısını Dian Gölü'ne gönderip kendisi iki yardımcısıyla kendini astı (Ming shi j.124; gün verilmez). Dali'nin düşüşü ise aynı yılın artık ayında (Lan Yu ve Mu Ying, 閏月癸卯) yazılıdır. Atlastaki Yunnan eksklav kaydı (kuzey-yuan, 1368-1382) bu tarihle uyumsuz olabilir: Ming shi'ye göre Yunnan'ın fiilen Ming'e geçişi 1382 başıdır.",
+  kaynak:"Ming shi (明史) j.3 Taizu 3 — 洪武十五年春正月壬午: «元曲靖宣慰司及中慶、澂江、武定諸路俱降，雲南平» (zh.wikisource.org/wiki/明史/卷3; WebFetch aracıyla okundu); Ming shi j.124 «Basalawarmi» (zh.wikisource.org/wiki/明史/卷124; aynı yöntemle okundu)",
+  kesinlik:"gun",
+  ic_not:"Takvim: 洪武十五年 1. ay 壬午 → Jülyen 1382-01-16 (ay başlangıcı 1382-01-15, 30 gün; ay içinde tek 壬午). UYARI: WebFetch aktarımı 壬午'yu «威楚路» cümlesinden sonraki cümleye bağladı; ay içi sınama geçti fakat birincil sayfa aracı özetiyle okunduğu için 'tek kaynak, aracı aktarımı' olarak yazıldı. Basalawarmi'nin ölüm günü kaynakta YOKTUR (bulunamadı). İkinci akademik kaynak OKUNMADI." },
+
+{ taraflar:["ming-hanedani"], t:"1399-08-06", b:"Yan Prensi Zhu Di Beiping'de ayaklandı (Jingnan Seferi başladı)", tur:"savas",
+  onem:4, dunya:2, kapsam:"ic", etiket:["siyaset","askeri","konu-siyasi","konu-hanedan"], yer_id:"Pekin (Hanbalık)",
+  d:"Jianwen 1'in 7. ayında Yan Prensi Zhu Di ayaklanarak Beiping'in vali ve komutanlarını (Zhang Bing, Xie Gui) öldürttü. Üç yıl sürecek Jingnan Seferi böyle başladı; 1402'de Nanjing'in düşüşüyle sona erdi.",
+  kaynak:"Ming shi (明史) j.4 Gongmin di — 建文元年秋七月癸酉: «燕王棣舉兵反，殺布政使張昺、都司謝貴» (zh.wikisource.org/wiki/明史/卷4; WebFetch aracıyla okundu)",
+  kesinlik:"gun",
+  ic_not:"Takvim: 建文元年 7. ay 癸酉 → Jülyen 1399-08-06 (ay başlangıcı 1399-08-02, 29 gün). Mevcut 1402-07-13 Jingnan sonu maddesinin açılış çifti. İkinci akademik kaynak OKUNMADI." },
+
+{ taraflar:["ming-hanedani"], t:"1421-02-02", b:"Yongle Pekin'de Fengtian Salonu'nda yeni yıl törenini ilk kez kabul etti", tur:"siyaset",
+  onem:3, dunya:1, kapsam:"ic", etiket:["siyaset","imar","konu-siyasi"], yer_id:"Pekin (Hanbalık)",
+  d:"Yongle 19'un 1. ayının ilk günü (朔) imparator Fengtian Salonu'nda yeni yıl tebriklerini kabul etti ve büyük ziyafet verdi. Ming shi başkentin değişikliğini bir önceki yılın girişlerinde (永樂十八年 9. ve 11. ay) yazar; bu madde yalnız 1421'in ilk günü Pekin'deki törendir, taşınma kararının günü değildir.",
+  kaynak:"Ming shi (明史) j.7 Chengzu 3 — 永樂十九年春正月甲子朔: «御奉天殿受朝賀，大宴» (zh.wikisource.org/wiki/明史/卷7; WebFetch aracıyla okundu)",
+  kesinlik:"gun",
+  ic_not:"Takvim: 永樂十九年 1. ay 甲子朔 → Jülyen 1421-02-02 (metinde 朔 açık; hesapla ay başlangıcı da 1421-02-02). Atlastaki 1420-01-01 «Yasak Şehir tamamlandı, başkent Pekin'e taşındı» maddesi yıl hassasiyetlidir; taşınma kararı 永樂十八年 9./11. ay girişlerinden gün olarak çıkarılabilir (bu turda okunmadı). İkinci akademik kaynak OKUNMADI." },
+
+{ taraflar:["ming-hanedani"], t:"1421-05-09", b:"Pekin'de Fengtian, Huagai ve Jinshen salonları yandı", tur:"siyaset",
+  onem:2, dunya:1, kapsam:"ic", etiket:["imar","konu-imar"], yer_id:"Pekin (Hanbalık)",
+  d:"Yongle 19'un 4. ayında Yasak Şehir'in üç ana salonu yıldırım/yangınla yandı; imparator bakanlara kusurları açıkça bildirmelerini emretti.",
+  kaynak:"Ming shi (明史) j.7 Chengzu 3 — 永樂十九年夏四月庚子: «奉天、華蓋、謹身三殿災，詔羣臣直陳闕失» (zh.wikisource.org/wiki/明史/卷7; WebFetch aracıyla okundu)",
+  kesinlik:"gun",
+  ic_not:"Takvim: 永樂十九年 4. ay 庚子 → Jülyen 1421-05-09 (ay başlangıcı 1421-05-02, 29 gün). Metin yangının sebebini (yıldırım) söylemez; bu madde 'yandı' der, sebep yazmaz. İkinci akademik kaynak OKUNMADI." },
+
+{ taraflar:["ming-hanedani","kuzey-yuan"], t:"1422-04-11", b:"Yongle Arughtai'ye karşı şahsen sefere çıktı, veliaht naip bırakıldı", tur:"savas",
+  onem:3, dunya:1, kapsam:"dis", etiket:["askeri","konu-askeri"], yer_id:"Pekin (Hanbalık)",
+  d:"Yongle 20'nin 3. ayında imparator Arughtai'ye karşı bizzat sefere çıktı; veliaht (sonradan Hongxi) naiplik etti. Yongle'nin 1423'te de aynı komutana karşı yeniden sefere çıktığı Ming shi'de ayrıca yazılıdır.",
+  kaynak:"Ming shi (明史) j.7 Chengzu 3 — 永樂二十年三月丁丑: «親征阿魯台，皇太子監國» (zh.wikisource.org/wiki/明史/卷7; WebFetch aracıyla okundu)",
+  kesinlik:"gun",
+  ic_not:"Takvim: 永樂二十年 3. ay 丁丑 → Jülyen 1422-04-11 (ay başlangıcı 1422-03-23, 29 gün). Seferin kaçıncı olduğu metinde yazmaz; numara verilmedi. İkinci akademik kaynak OKUNMADI." },
+
+{ taraflar:["ming-hanedani","kuzey-yuan"], t:"1423-08-25", b:"Yongle Arughtai'ye karşı yeniden sefere çıktı", tur:"savas",
+  onem:2, dunya:1, kapsam:"dis", etiket:["askeri","konu-askeri"], yer_id:"Pekin (Hanbalık)",
+  d:"Yongle 21'in 7. ayında imparator Arughtai'ye karşı yeniden (復) sefere çıktı; komutanlar arasında Anyuan Markisi Liu Sheng anılır.",
+  kaynak:"Ming shi (明史) j.7 Chengzu 3 — 永樂二十一年秋七月戊戌: «復親征阿魯台，安遠侯柳升…» (zh.wikisource.org/wiki/明史/卷7; WebFetch aracıyla okundu)",
+  kesinlik:"gun",
+  ic_not:"Takvim: 永樂二十一年 7. ay 戊戌 → Jülyen 1423-08-25 (ay başlangıcı 1423-08-06, 30 gün). İkinci akademik kaynak OKUNMADI." },
+
+{ taraflar:["ming-hanedani","kuzey-yuan"], t:"1550-09-26", b:"Altan Han Gubeikou'dan Ming sınırını yardı; Jizhen ordusu dağıldı (Gengxu olayı)", tur:"savas",
+  onem:4, dunya:2, kapsam:"dis", etiket:["askeri","konu-askeri"], yer_id:"", yer_kon:[40.6770,117.1580],
+  d:"Jiajing 29'un 8. ayında Altan'ın Moğolları büyük bir akınla Gubeikou'yu yardı ve Jizhen ordusu dağıldı (Ming shi). Atlastaki 1550-08-01 «Altan Han'ın Moğolları Pekin'i kuşattı» maddesinin günü Ming shi'nin gösterdiği güne (Gubeikou'nun yarılması 26 Eylül 1550) uymaz; düzeltme önerisi belgede.",
+  kaynak:"Ming shi (明史) j.18 Shizong 2 — 嘉靖二十九年秋八月丁丑: «俺答大舉入寇，攻古北口，薊鎮兵潰» (zh.wikisource.org/wiki/明史/卷18; WebFetch aracıyla okundu); koordinat: Gubeikou (standart coğrafî değer)",
+  kesinlik:"gun",
+  ic_not:"Takvim: 嘉靖二十九年 8. ay 丁丑 → Jülyen 1550-09-26 (ay başlangıcı 1550-09-11, 29 gün). Bu madde Pekin'in kuşatmasının başlangıcı DEĞİL, Gubeikou'nun yarılmasıdır; kuşatma günleri okunmadı. Mevcut madde (kronoloji_cin.js) bu turda değiştirilmedi; ortak dosyada çatışma riski nedeniyle öneri olarak bırakıldı. İkinci akademik kaynak OKUNMADI." },
+
+{ taraflar:["ming-hanedani"], t:"1562-06-20", b:"Başbakan Yan Song görevden alındı", tur:"siyaset",
+  onem:2, dunya:1, kapsam:"ic", etiket:["siyaset","konu-siyasi"], yer_id:"Pekin (Hanbalık)",
+  d:"Jiajing 41'in 5. ayında Yan Song görevden alındı; Jiajing devrinin uzun süren bu nüfuz dönemi sona erdi.",
+  kaynak:"Ming shi (明史) j.18 Shizong 2 — 嘉靖四十一年夏五月壬寅: «嚴嵩罷» (zh.wikisource.org/wiki/明史/卷18; WebFetch aracıyla okundu)",
+  kesinlik:"gun",
+  ic_not:"Takvim: 嘉靖四十一年 5. ay 壬寅 → Jülyen 1562-06-20 (ay başlangıcı 1562-06-02, 29 gün). İkinci akademik kaynak OKUNMADI." },
+
+{ taraflar:["ming-hanedani"], t:"1563-05-11", b:"Qi Jiguang Pinghai Karakolu'nda Japon korsanlarını bozdu", tur:"savas",
+  onem:3, dunya:1, kapsam:"ic", etiket:["askeri","konu-askeri"], yer_id:"",
+  d:"Jiajing 42'nin 4. ayında yardımcı komutan Qi Jiguang Pinghai Karakolu'nda (Fujian kıyısı) korsanlara (wokou) karşı zafer kazandı. Pinghai'nin koordinatı atlasta yoktur; madde yersiz bırakıldı.",
+  kaynak:"Ming shi (明史) j.18 Shizong 2 — 嘉靖四十二年夏四月丁卯: «副總兵戚繼光破倭於平海衞» (zh.wikisource.org/wiki/明史/卷18; WebFetch aracıyla okundu)",
+  kesinlik:"gun",
+  ic_not:"Takvim: 嘉靖四十二年 4. ay 丁卯 → Jülyen 1563-05-11 (ay başlangıcı 1563-04-22, 30 gün). Yer: yalnız «Pinghai Karakolu»; il adı kaynakta yok, koordinat yazılmadı. İkinci akademik kaynak OKUNMADI." },
+
+{ taraflar:["ming-hanedani"], t:"1566-02-20", b:"Hai Rui imparatora yazdığı sert uyarı yüzünden zindana atıldı", tur:"siyaset",
+  onem:2, dunya:1, kapsam:"ic", etiket:["siyaset","konu-siyasi"], yer_id:"Pekin (Hanbalık)",
+  d:"Jiajing 45'in 2. ayında Maliye Bakanlığı memuru Hai Rui imparatora uyarı dilekçesi sundu ve Jinyiwei zindanına atıldı.",
+  kaynak:"Ming shi (明史) j.18 Shizong 2 — 嘉靖四十五年春二月癸亥: «戶部主事海瑞上疏，下錦衣衞獄» (zh.wikisource.org/wiki/明史/卷18; WebFetch aracıyla okundu)",
+  kesinlik:"gun",
+  ic_not:"Takvim: 嘉靖四十五年 2. ay 癸亥 → Jülyen 1566-02-20 (ay başlangıcı 1566-02-20, 29 gün). İkinci akademik kaynak OKUNMADI." },
+
+{ taraflar:["ming-hanedani"], t:"1567-01-23", b:"Jiajing İmparatoru öldü, Yu Prensi (Longqing) tahta geçti", tur:"hukumdar",
+  onem:4, dunya:1, kapsam:"ic", etiket:["hukumdar","konu-kisiler","konu-hanedan"], yer_id:"Pekin (Hanbalık)",
+  d:"Jiajing 45'in 12. ayında imparator Batı Bahçe'den Qianqing Sarayı'na döndüğü gün 60 yaşında öldü; vasiyetiyle Yu Prensi tahta çıktı (Longqing).",
+  kaynak:"Ming shi (明史) j.18 Shizong 2 — 嘉靖四十五年十二月庚子: «大漸，自西苑還乾清宮。是日崩，年六十，遺詔裕王嗣位» (zh.wikisource.org/wiki/明史/卷18; WebFetch aracıyla okundu)",
+  kesinlik:"gun",
+  ic_not:"Takvim: 嘉靖四十五年 12. ay 庚子 → Jülyen 1567-01-23 (ay başlangıcı 1567-01-10, 30 gün). Longqing'in tahta çıkış günü bu maddede yazılmadı. İkinci akademik kaynak OKUNMADI." },
+
+{ taraflar:["ming-hanedani"], t:"1592-04-19", b:"Ningxia'da emekli komutan Bo Bai isyan edip şehri ele geçirdi", tur:"isyan",
+  onem:3, dunya:1, kapsam:"ic", etiket:["askeri","siyaset","konu-askeri"], yer_id:"", yer_kon:[38.4872,106.2309],
+  d:"Wanli 20'nin 3. ayında emekli yardımcı komutan Bo Bai valiyi Dang Xin'i ve başmüfettişi öldürüp Ningxia şehrine hâkim oldu. Aynı yıl Ming, Japon istilası karşısında Kore'ye de asker göndermekteydi (bkz. 1592-05-23).",
+  kaynak:"Ming shi (明史) j.20 Shenzong 1 — 萬曆二十年三月戊辰: «寧夏致仕副總兵哱拜殺巡撫都御史黨馨、副使石繼芳，據城反» (zh.wikisource.org/wiki/明史/卷20; WebFetch aracıyla okundu); koordinat: Yinchuan/Ningxia (standart coğrafî değer)",
+  kesinlik:"gun",
+  ic_not:"Takvim: 萬曆二十年 3. ay 戊辰 → Gregoryen 1592-04-19 (1582-10-15 sonrası; ay başlangıcı 1592-04-12, 29 gün). Ming (Datong/Shixian) takvimi Gregoryen günlerle aynı numaralandırılır. İkinci akademik kaynak OKUNMADI." },
+
+{ taraflar:["ming-hanedani"], t:"1598-12-14", b:"Japonlar Ulsan'ı terk etti, Ming kuvvetleri iki koldan ilerledi", tur:"savas",
+  onem:3, dunya:2, kapsam:"dis", etiket:["askeri","konu-askeri"], yer_id:"", yer_kon:[35.5384,129.3114],
+  d:"Wanli 26'nın 11. ayında Japon kuvvetleri Ulsan'ı terk etti ve Ming ordusu iki yönde ilerledi; aynı yılın 12. ayında Ming komutanı Chen Lin kuvvetleri Yisan'da bozdu ve Ming shi «Kore sakinleşti» der.",
+  kaynak:"Ming shi (明史) j.21 Shenzong 2 — 萬曆二十六年十一月戊戌: «倭棄蔚山遁，官軍分道進擊» (zh.wikisource.org/wiki/明史/卷21; WebFetch aracıyla okundu); koordinat: Ulsan (standart coğrafî değer)",
+  kesinlik:"gun",
+  ic_not:"Takvim: 萬曆二十六年 11. ay 戊戌 → Gregoryen 1598-12-14 (ay başlangıcı 1598-11-28, 30 gün). Aynı yılın 12. ayı girişi gün adı taşımaz; yazılmadı. İkinci akademik kaynak OKUNMADI." },
+
+{ taraflar:["ming-hanedani"], t:"1618-05-09", b:"Nurhaci Fushun'u aldı", tur:"fetih",
+  onem:4, dunya:2, kapsam:"dis", etiket:["askeri","toprak-degisimi","konu-askeri"], yer_id:"", yer_kon:[41.8813,123.9573],
+  d:"Wanli 46'nın 4. ayında Mançu kuvvetleri Fushun şehrini aldı; Ming shi yalnız «Büyük Qing askerleri Fushun'u aldı, subay Wang Mingyin öldü» der (Ming shi Qing döneminde derlendiği için Nurhaci'nin kuvvetlerine «Büyük Qing» der).",
+  kaynak:"Ming shi (明史) j.21 Shenzong 2 — 萬曆四十六年夏四月甲辰: «大清兵克撫順城，千總王命印死之» (zh.wikisource.org/wiki/明史/卷21; WebFetch aracıyla okundu); koordinat: Fushun (standart coğrafî değer)",
+  kesinlik:"gun",
+  ic_not:"Takvim: 萬曆四十六年 4. ay 甲辰 → Gregoryen 1618-05-09 (ay başlangıcı 1618-04-25, ay içi gün 15). Hesaplanan gün Ming 4. ayının 15. gününe düşer. İkinci akademik kaynak OKUNMADI." },
+
+{ taraflar:["ming-hanedani"], t:"1619-07-26", b:"Mançular Kaiyuan'ı aldı, Ma Lin savaşta öldü", tur:"fetih",
+  onem:3, dunya:1, kapsam:"dis", etiket:["askeri","toprak-degisimi","konu-askeri"], yer_id:"", yer_kon:[42.5390,124.0360],
+  d:"Wanli 47'nin 6. ayında Mançu kuvvetleri Kaiyuan'ı aldı ve Ming komutanı Ma Lin öldü. Sarhu savaşından (1619-04-14) yaklaşık üç buçuk ay sonradır.",
+  kaynak:"Ming shi (明史) j.21 Shenzong 2 — 萬曆四十七年六月丁卯: «大清兵克開原，馬林敗沒» (zh.wikisource.org/wiki/明史/卷21; WebFetch aracıyla okundu); koordinat: Kaiyuan (Liaoning; standart coğrafî değer)",
+  kesinlik:"gun",
+  ic_not:"Takvim: 萬曆四十七年 6. ay 丁卯 → Gregoryen 1619-07-26 (ay başlangıcı 1619-07-11, 30 gün). Aynı sayfada Tieling anılmaz; yazılmadı. İkinci akademik kaynak OKUNMADI." },
+
+{ taraflar:["ming-hanedani"], t:"1620-08-18", b:"Wanli İmparatoru öldü", tur:"hukumdar",
+  onem:4, dunya:1, kapsam:"ic", etiket:["hukumdar","konu-kisiler","konu-hanedan"], yer_id:"Pekin (Hanbalık)",
+  d:"Wanli 48'in 7. ayında Wanli İmparatoru 58 yaşında öldü; 48 yıllık saltanat sona erdi.",
+  kaynak:"Ming shi (明史) j.21 Shenzong 2 — 萬曆四十八年秋七月丙申: «崩，年五十有八» (zh.wikisource.org/wiki/明史/卷21; WebFetch aracıyla okundu)",
+  kesinlik:"gun",
+  ic_not:"Takvim: 萬曆四十八年 7. ay 丙申 → Gregoryen 1620-08-18 (ay başlangıcı 1620-07-29, 30 gün). İkinci akademik kaynak OKUNMADI." },
+
+{ taraflar:["ming-hanedani"], t:"1626-02-19", b:"Mançu ordusu Ningyuan'ı kuşattı; Man Gui ve Yuan Chonghuan savundu", tur:"savas",
+  onem:4, dunya:2, kapsam:"dis", etiket:["askeri","konu-askeri"], yer_id:"", yer_kon:[40.6100,120.7300],
+  d:"Tianqi 6'nın 1. ayında Mançu kuvvetleri Ningyuan'ı kuşattı; komutan Man Gui ve il yöneticisi Yuan Chonghuan şehri savundu. Kuşatma iki gün sonra kalktı (1626-02-21). Ming shi bu girişte Nurhaci'nin adını anmaz.",
+  kaynak:"Ming shi (明史) j.22 Xizong — 天啟六年春正月丁卯: «大清兵圍寧遠，總兵官滿桂、寧前道參政袁崇煥固守»; 己巳: «圍解» (zh.wikisource.org/wiki/明史/卷22; WebFetch aracıyla okundu); koordinat: Ningyuan/Xingcheng (yaklaşık standart coğrafî değer)",
+  kesinlik:"gun",
+  ic_not:"Takvim: 天啟六年 1. ay 丁卯 → Gregoryen 1626-02-19; 己巳 → 1626-02-21 (ay başlangıcı 1626-01-28, 29 gün). KAYNAK sayfası 'büyük zafer' demez, Nurhaci'yi anmaz; yalnız kuşatmanın kalktığını yazar — başka iddia yazılmadı. İkinci akademik kaynak OKUNMADI." },
+
+{ taraflar:["ming-hanedani"], t:"1627-09-30", b:"Tianqi İmparatoru öldü", tur:"hukumdar",
+  onem:3, dunya:1, kapsam:"ic", etiket:["hukumdar","konu-kisiler","konu-hanedan"], yer_id:"Pekin (Hanbalık)",
+  d:"Tianqi 7'nin 8. ayında imparator Qianqing Sarayı'nda 23 yaşında öldü.",
+  kaynak:"Ming shi (明史) j.22 Xizong — 天啟七年八月乙卯: «崩於乾清宮，年二十三» (zh.wikisource.org/wiki/明史/卷22; WebFetch aracıyla okundu)",
+  kesinlik:"gun",
+  ic_not:"Takvim: 天啟七年 8. ay 乙卯 → Gregoryen 1627-09-30 (ay başlangıcı 1627-09-10, 29 gün). Varisin kim olduğu bu giriş okunmadığı için yazılmadı. İkinci akademik kaynak OKUNMADI." },
+
+{ taraflar:["ming-hanedani"], t:"1628-08-13", b:"Chongzhen, Yuan Chonghuan'ı Pingtai'da bakanlarla birlikte kabul etti", tur:"siyaset",
+  onem:2, dunya:1, kapsam:"ic", etiket:["siyaset","askeri","konu-siyasi"], yer_id:"Pekin (Hanbalık)",
+  d:"Chongzhen 1'in 7. ayında imparator Yuan Chonghuan'ı ve saray bakanlarını Pingtai'da kabul etti; Yuan Chonghuan'ın Liaodong'un yönetimine geri çağrılışı bu görüşmeyle bağlantılıdır (Ming shi yalnız görüşmeyi yazar).",
+  kaynak:"Ming shi (明史) j.23 Zhuanglie 1 — 崇禎元年秋七月癸酉: «召對廷臣及袁崇煥於平臺» (zh.wikisource.org/wiki/明史/卷23; WebFetch aracıyla okundu)",
+  kesinlik:"gun",
+  ic_not:"Takvim: 崇禎元年 7. ay 癸酉 → Gregoryen 1628-08-13 (ay başlangıcı 1628-07-31, 29 gün). Metin görüşmenin amacını yazmaz; yukarıdaki 'bağlantılıdır' ifadesi yorumdur, kaynakta yoktur — okuyucu kaynak cümlesini esas almalı. İkinci akademik kaynak OKUNMADI." },
+
+{ taraflar:["ming-hanedani"], t:"1629-12-11", b:"Mançu ordusu Daan Geçidi'nden Ming sınırına girdi", tur:"savas",
+  onem:4, dunya:2, kapsam:"dis", etiket:["askeri","konu-askeri"], yer_id:"Pekin (Hanbalık)",
+  d:"Chongzhen 2'nin 10. ayında Mançu kuvvetleri Daan Geçidi'nden (Ming shi: «Daan ağzı») Çin sınırına girdi.",
+  kaynak:"Ming shi (明史) j.23 Zhuanglie 1 — 崇禎二年冬十月戊寅: «大清兵入大安口» (zh.wikisource.org/wiki/明史/卷23; WebFetch aracıyla okundu)",
+  kesinlik:"gun",
+  ic_not:"Takvim: 崇禎二年 10. ay 戊寅 → Gregoryen 1629-12-11 (ay başlangıcı 1629-11-15, 30 gün). Ming shi Hong Taiji'nin adını anmaz. İkinci akademik kaynak OKUNMADI." },
+
+{ taraflar:["ming-hanedani"], t:"1630-01-13", b:"Yuan Chonghuan Pingtai'da yeniden çağrıldı ve zindana atıldı", tur:"siyaset",
+  onem:3, dunya:1, kapsam:"ic", etiket:["siyaset","askeri","konu-siyasi"], yer_id:"Pekin (Hanbalık)",
+  d:"Chongzhen 2'nin 12. ayının ilk günü (朔) Yuan Chonghuan Pingtai'da yeniden kabul edildi ve Jinyiwei zindanına atıldı.",
+  kaynak:"Ming shi (明史) j.23 Zhuanglie 1 — 崇禎二年十二月辛亥朔: «再召袁崇煥於平臺，下錦衣衞獄» (zh.wikisource.org/wiki/明史/卷23; WebFetch aracıyla okundu)",
+  kesinlik:"gun",
+  ic_not:"Takvim: 崇禎二年 12. ay 辛亥朔 → Gregoryen 1630-01-13 (metinde 朔 açık; hesapla ay başlangıcı 1630-01-13). İkinci akademik kaynak OKUNMADI." },
+
+{ taraflar:["ming-hanedani"], t:"1630-09-22", b:"Yuan Chonghuan idam edildi", tur:"siyaset",
+  onem:3, dunya:1, kapsam:"ic", etiket:["siyaset","askeri","konu-siyasi"], yer_id:"Pekin (Hanbalık)",
+  d:"Chongzhen 3'ün 8. ayında Yuan Chonghuan idam edildi (Ming shi «öldürdü» der; infaz biçimi bu satırda yazılmaz).",
+  kaynak:"Ming shi (明史) j.23 Zhuanglie 1 — 崇禎三年秋八月癸亥: «殺袁崇煥» (zh.wikisource.org/wiki/明史/卷23; WebFetch aracıyla okundu)",
+  kesinlik:"gun",
+  ic_not:"Takvim: 崇禎三年 8. ay 癸亥 → Gregoryen 1630-09-22 (ay başlangıcı 1630-09-07, 29 gün). İkinci akademik kaynak OKUNMADI." },
+
+];
 
 ;
 /* ==== data/olaylar_cinhindi_1115b.js ==== */
-// data/olaylar_cinhindi_1115b.js — paketle.py İNCELTTİ: ic_not* alanları yayına gitmez (kaynak dosya değişmedi)
-window.OLAYLAR_CINHINDI1115B = [{"bolge":1,"t":"0979-01-01","kesinlik":"yil","b":"Đinh hanedanı sona erdi; Lê Hoàn Đại Cồ Việt tahtına geçti (Hall: Đinh 968-79, Lê 979-1009)","tur":"siyaset","onem":3,"dunya":2,"kapsam":"dis","yer_id":"Hanoi (Thăng Long)","etiket":["siyaset","konu-siyasi"],"d":"Hall'a göre Annam-Tonkin'in bağımsız krallığı Ngô hanedanının ardından Đinh hanedanıyla (968-79) sürdü; Đinh çok kısa ömürlü oldu. Erken Lê hanedanı (979-1009) güçlü başladı; ilk kralı Lê Hoàn 982'de Champa'yı işgal etti. Başkent Hoa-lu'dur.","kaynak":"Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981); archive.org/details/a-history-of-south-east-asia-4th-ed (djvu tam metni bu oturumda okundu), Bölüm 9 'Annam and Tongking', s.216 («The Dinh dynasty (968-79) was even more ephemeral. The earlier Le dynasty (979-1009) started off with a flourish») · hassasiyet: YIL"},{"bolge":1,"t":"1404-01-01","kesinlik":"yil","b":"Birmanya (Ava) ordusu Arakan'ın başkenti Launggyet'i aldı; Kral Narameikhla Bengal'e kaçtı","tur":"fetih","onem":2,"dunya":2,"kapsam":"dis","yer_id":"Mrauk U (Arakan)","etiket":["fetih","konu-siyasi"],"d":"Ava Kralı Minhkaung adına Prens Minrekyawswa'nın 1404 seferi Arakan'a girip Launggyet'i işgal etti; Arakan Kralı Narameikhla Bengal'e (Gaur) kaçtı, Birmanlar yerine Anawrahtaminsaw'ı bıraktı.","kaynak":"Harvey, G. E., History of Burma from the Earliest Times to 10 March 1824 (London: Longmans, 1925); archive.org in.ernet.dli.2015.32059 (djvu tam metni bu oturumda okundu), s.91 ve s.139 («occupied the capital Launggyet and drove out the king Narameikhla who fled to Bengal»; «Narameikhla 1404-34, when ousted in 1404 by the Burmese») · hassasiyet: YIL"},{"bolge":1,"t":"1430-01-01","kesinlik":"yil","b":"Narameikhla Gaur (Bengal) sultanlığının verdiği birlikle Arakan tahtına döndü; krallar Müslüman unvanlarını kullanmaya başladı","tur":"siyaset","onem":3,"dunya":2,"kapsam":"dis","yer_id":"Mrauk U (Arakan)","etiket":["siyaset","konu-siyasi"],"d":"Bengal'de uzun yıllar sürgünde kalan Narameikhla, Gaur kralının verdiği birlikle 1430'da tahtına iade edildi. Harvey, bundan sonra Budist Arakan krallarının kendi adlarının yanında Müslüman unvanları ve Farsça kelime-i şehadetli madalyonlar kullandığını kaydeder.","kaynak":"Harvey, G. E., History of Burma from the Earliest Times to 10 March 1824 (London: Longmans, 1925); archive.org in.ernet.dli.2015.32059 (djvu tam metni bu oturumda okundu), s.139-140 («he was ultimately reinstated in 1430») · hassasiyet: YIL"},{"bolge":1,"t":"1433-01-01","kesinlik":"yil","b":"Narameikhla başkenti Launggyet'ten Mrohaung'a (Mrauk U) taşıdı; bu şehir dört yüzyıl başkent kaldı","tur":"kurulus","onem":3,"dunya":2,"kapsam":"dis","yer_id":"Mrauk U (Arakan)","etiket":["kurulus","konu-siyasi"],"d":"Harvey'e göre kâhinler başkent taşınırsa kralın yıl içinde öleceğini söylemişti; Narameikhla yine de 1433'te Mrohaung'u kurdu ve ertesi yıl öldü. Şehir 1433-1785 arasında Arakan'ın başkentiydi (Harvey kronolojisi: Launggyet 1237-1433, Mrohaung 1433-1785).","kaynak":"Harvey, G. E., History of Burma from the Earliest Times to 10 March 1824 (London: Longmans, 1925); archive.org in.ernet.dli.2015.32059 (djvu tam metni bu oturumda okundu), s.139-140 («In 1433 he founded Mrohaung and in the next year he died») · hassasiyet: YIL"},{"bolge":1,"t":"1459-01-01","kesinlik":"yil","b":"Arakan Kralı Basawpyu Çittagong'u (Chittagong) aldı; şehir 1666'ya dek çoğunlukla Arakan elinde kaldı","tur":"fetih","onem":3,"dunya":2,"kapsam":"dis","yer_id":"Çatgam (Chittagong)","etiket":["fetih","konu-siyasi"],"d":"Narameikhla'nın halefi Basawpyu (Kalima Shah, 1459-82) 1459'da Çittagong'u işgal etti. Harvey'e göre şehir 1666'ya kadar çoğu zaman Arakanlıların elindeydi; Bengal güçlüyken Arakan Bengal'e haraç verir, Arakan güçlüyken Ganj deltasından haraç alırdı.","kaynak":"Harvey, G. E., History of Burma from the Earliest Times to 10 March 1824 (London: Longmans, 1925); archive.org in.ernet.dli.2015.32059 (djvu tam metni bu oturumda okundu), s.140 («Basawpyu (Kalima Shah) 1459-82 occupied Chittagong in 1459 and it was usually in Arakanese hands till 1666») · hassasiyet: YIL"},{"bolge":1,"t":"1471-01-01","kesinlik":"yil","b":"Lê Thánh Tông Champa'ya ölümcül darbeyi vurdu; Vijaya Đại Việt'e katıldı","tur":"fetih","onem":4,"dunya":2,"kapsam":"dis","yer_id":"Vijaya (Quy Nhơn)","etiket":["fetih","konu-siyasi"],"d":"Hall'a göre 1446'da iç savaştan yararlanan Annamlılar Vijaya'yı kısa süre işgal etmiş, Chamlar geri almıştı; Lê hanedanının en büyüğü Lê Thánh Tông (1460-97) 1471'de Cham krallığına ölüm darbesini indirdi ve Champa'yı egemenlik alanının bir halkası yaptı.","kaynak":"Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981); archive.org/details/a-history-of-south-east-asia-4th-ed (djvu tam metni bu oturumda okundu), Bölüm 9 'Annam and Tongking', s.218 («Le Thanh-Ton (1460-97) … deal the death-blow to the Cham kingdom in 1471») · hassasiyet: YIL"},{"bolge":1,"t":"1539-01-01","kesinlik":"yil","b":"Tabinshwehti Peygu'ya (Bago) savaşmadan girdi; Mon başkenti Toungoo kralının eline geçti","tur":"fetih","onem":4,"dunya":2,"kapsam":"dis","yer_id":"Pegu (Bago)","etiket":["fetih","konu-siyasi"],"d":"Talaing (Mon) krallığının iki komutanının hain diye idam ettirilmesi ordunun morali ile komutanlarını kaybettirdi; Mon kralı Prome'a kaçtı ve Tabinshwehti 1539'da Peygu'ya savaşmadan girdi, sarayını orada kurdu.","kaynak":"Harvey, G. E., History of Burma from the Earliest Times to 10 March 1824 (London: Longmans, 1925); archive.org in.ernet.dli.2015.32059 (djvu tam metni bu oturumda okundu), s.154 ve kronoloji tablosu («Tabinshwehti entered Pegu without striking a blow in 1539»; tabloda «1539 Tabinshwehti captures Pegu — The palace is set up there») · hassasiyet: YIL"},{"bolge":1,"t":"1591-01-01","kesinlik":"yil","b":"Nokéo Koumane Vientiane'de kral ilan edildi; ertesi yıl Luang Prabang'ın direnişini kırıp Lan Xang'ı yeniden birleştirdi","tur":"siyaset","onem":3,"dunya":2,"kapsam":"dis","yer_id":"Vientiane","etiket":["siyaset","konu-siyasi"],"d":"Hall'a göre Bayinnaung'un imparatorluğu çözülürken Lan Xang (Laos) Nokéo Koumane önderliğinde bağımsızlığını geri aldı; Koumane 1591'de Vientiane'de kral ilan edildi, 1592'de Luang Prabang'ı da boyun eğdirerek ülkeyi birleştirdi, Tran Ninh ona bağlılık gösterdi.","kaynak":"Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981); archive.org/details/a-history-of-south-east-asia-4th-ed (djvu tam metni bu oturumda okundu), Bölüm 'Laos' (Sixteenth Century to the End of the Eighteenth, Pt II; OCR'da sayfa başlığı okunaksız) («He was proclaimed king at Vientiane in 1591, and in the following year his forces overcame the resistance of Luang Prabang and reunited the realm») · hassasiyet: YIL"},{"bolge":1,"t":"1592-01-01","kesinlik":"yil","b":"Mạc hanedanının Tonkin'deki egemenliği sona erdi; Lê hanedanı Thăng Long'a (Hanoi) döndü","tur":"fetih","onem":4,"dunya":2,"kapsam":"dis","yer_id":"Hanoi (Thăng Long)","etiket":["fetih","konu-siyasi"],"d":"Mạc Đăng Dung 1527'de tahtı gasbetmiş, 1533'te Nguyễn ailesi aracılığıyla Lê hanedanı yeniden kurulmuş (Nguyễn Kim Nghệ An ve Thanh Hóa'dan Mạc'ı sürmüş) ama Tonkin'i Mạc elinde bırakmıştı. Hall'a göre Mạc hanedanı Tonkin'i 1592'ye kadar yönetti.","kaynak":"Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981); archive.org/details/a-history-of-south-east-asia-4th-ed (djvu tam metni bu oturumda okundu), Bölüm 9 'Annam and Tongking', s.219 («The Mac dynasty ruled Tongking until 1592») · hassasiyet: YIL"},{"bolge":1,"t":"1593-02-01","kesinlik":"ay","b":"Siyam Kralı Naresuan Birmanya veliahtını yendi; Siyam bağımsızlığı kesinleşti","tur":"savas","onem":4,"dunya":2,"kapsam":"dis","yer_id":"","etiket":["savas","konu-savas"],"d":"Hall, Nanda Bayin'in Siyam üzerindeki hâkimiyeti yeniden kurma çabalarının 1593'te kesin bir yenilgiyle durdurulduğunu, bu andan itibaren Siyam bağımsızlığının güvence altına alındığını yazar; Pamaree Surakiat da Naresuan'ın 1593'te Nong Sarai'de Birmanya veliahdına karşı büyük zafer kazandığını, sonra Tavoy ve Tenasserim'i denetimine aldığını kaydeder.","kaynak":"Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981); archive.org/details/a-history-of-south-east-asia-4th-ed (djvu tam metni bu oturumda okundu), Bölüm 15, s.297 ve s.299 («the Burmese defeat of February 1593») · Pamaree Surakiat, 'Thai-Burmese Warfare during the Sixteenth Century and the Growth of the First Toungoo Empire', Journal of the Siam Society 93 (2005), s.69-100 (thesiamsociety.org PDF, bu oturumda okundu), s.92-93 («great victory over the Burmese crown prince at Nong Sarai in 1593») · hassasiyet: AY"},{"bolge":1,"t":"1594-07-01","kesinlik":"ay","b":"Siyam ordusu Kamboçya'nın başkenti Lovek'i aldı; Kral Satha Luang Prabang'a kaçtı","tur":"fetih","onem":4,"dunya":2,"kapsam":"dis","yer_id":"Lovek (Longvek)","etiket":["fetih","konu-siyasi"],"d":"Naresuan Avut'ya'yı Birmanya baskısından kurtardıktan sonra 1593'te üç Siyam ordusu Kamboçya'ya girdi; Hall'a göre uzun ve çetin kuşatmanın ardından Lovek Temmuz 1594'te alındı. Krallık ilhak edilmedi, binlerce esir Siyam'ın kuzey illerine yerleştirildi. Hall, 1587 tarihli bir yazıtın Lovek'in 'düşüşünü' anmasına rağmen 1594'ten önce Siyam'ın Lovek'i aldığına dair kanıt bulunmadığını belirtir.","kaynak":"Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981); archive.org/details/a-history-of-south-east-asia-4th-ed (djvu tam metni bu oturumda okundu), Bölüm 15 'Burma and the T'ai Kingdoms', s.299 («Eventually in July 1594 Lovek was taken and the king fled to Luang Prabang») ve Bölüm 'Cambodia' (1587 yazıtı tartışması) · hassasiyet: AY"},{"bolge":1,"t":"1707-01-01","kesinlik":"yil","b":"Lan Xang ikiye bölündü: Luang Prabang ve Vientiane ayrı krallıklar oldu","tur":"siyaset","onem":4,"dunya":2,"kapsam":"dis","yer_id":"Luang Prabang","etiket":["siyaset","konu-siyasi"],"d":"1700'de Sai-Ong-Hué Vietnam desteğiyle Vientiane'yi alıp kral oldu; Souligna-Vongsa'nın torunları King-Kitsarat ve Int'a-Som Sip-Song-Panas'ta toplanan 6000 kişilik güçle 1707'de Sai-Ong-Hué'nin kardeşi T'ao-Nong'u Luang Prabang'dan çıkardı, Kitsarat kral ilan edilip Chieng Khane'nin kuzeyinin ayrı bağımsız krallık olduğunu bildirdi. Hall: 1707'den itibaren Luang Prabang ve Vientiane iki ayrı ve düşman devletin başkentidir.","kaynak":"Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981); archive.org/details/a-history-of-south-east-asia-4th-ed (djvu tam metni bu oturumda okundu), Bölüm 'Laos' (Sixteenth Century to the End of the Eighteenth, Pt II; OCR sayfa başlığı '470'e yakın) («From 1707 Luang Prabang and Vientiane were the capitals of two separate and mutually hostile states») · hassasiyet: YIL"},{"bolge":1,"t":"1713-01-01","kesinlik":"yil","b":"Chao Soi-Sisamout Bassak (Champasak) ve güney illerinde ayrı krallık kurdu","tur":"siyaset","onem":3,"dunya":2,"kapsam":"dis","yer_id":"Champasak","etiket":["siyaset","konu-siyasi"],"d":"Hall'a göre Sai-Ong-Hué Bassak ve uzak güneydeki illerde başarılı olamadı; Chao Soi-Sisamout 1713'ten itibaren orada hüküm sürdü.","kaynak":"Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981); archive.org/details/a-history-of-south-east-asia-4th-ed (djvu tam metni bu oturumda okundu), Bölüm 'Laos' (Sixteenth Century to the End of the Eighteenth, Pt II) («Chao-Soi-Sisamout, who ruled there from 1713») · hassasiyet: YIL"}];
+// =====================================================================
+// OLAYLAR_CINHINDI1115B — Çinhindi bölge denetimi 2. dalga (UMIT, 15 Kasım 2026), seyrek 1300-1699 dilimi
+// Her madde bu oturumda tam metni OKUNAN kaynağa dayanır (Harvey 1925; Hall 1981; Pamaree 2005 JSS 93). Gün kaynakta yoksa t=YYYY-01-01 + kesinlik 'yil'
+// (ay veren Hall maddelerinde 'ay'). Ad alanı yalnız window.OLAYLAR_CINHINDI1115B; index.html'e <script> satırı eklenmiştir.
+// =====================================================================
+window.OLAYLAR_CINHINDI1115B = [
+  {"bolge": 1, "t": "0979-01-01", "kesinlik": "yil", "b": "Đinh hanedanı sona erdi; Lê Hoàn Đại Cồ Việt tahtına geçti (Hall: Đinh 968-79, Lê 979-1009)", "tur": "siyaset", "onem": 3, "dunya": 2, "kapsam": "dis", "yer_id": "Hanoi (Thăng Long)", "etiket": ["siyaset", "konu-siyasi"], "d": "Hall'a göre Annam-Tonkin'in bağımsız krallığı Ngô hanedanının ardından Đinh hanedanıyla (968-79) sürdü; Đinh çok kısa ömürlü oldu. Erken Lê hanedanı (979-1009) güçlü başladı; ilk kralı Lê Hoàn 982'de Champa'yı işgal etti. Başkent Hoa-lu'dur.", "kaynak": "Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981); archive.org/details/a-history-of-south-east-asia-4th-ed (djvu tam metni bu oturumda okundu), Bölüm 9 'Annam and Tongking', s.216 («The Dinh dynasty (968-79) was even more ephemeral. The earlier Le dynasty (979-1009) started off with a flourish») · hassasiyet: YIL", "ic_not_d": "ÇELİŞKİ: Hall 979; atlas tien-le-hanedani f=0980 (Taylor 2013 haberi 980); dinh künyesi t=0979 (Britannica). Hakem için üçüncü bağımsız kaynak (Toàn thư çevirisi, Whitmore) okunmadı; iki künye arasındaki 1 yıl Hanoi'de __BOSLUK__ bırakıldı (zorla kapatılmadı)."},
+  {"bolge": 1, "t": "1404-01-01", "kesinlik": "yil", "b": "Birmanya (Ava) ordusu Arakan'ın başkenti Launggyet'i aldı; Kral Narameikhla Bengal'e kaçtı", "tur": "fetih", "onem": 2, "dunya": 2, "kapsam": "dis", "yer_id": "Mrauk U (Arakan)", "etiket": ["fetih", "konu-siyasi"], "d": "Ava Kralı Minhkaung adına Prens Minrekyawswa'nın 1404 seferi Arakan'a girip Launggyet'i işgal etti; Arakan Kralı Narameikhla Bengal'e (Gaur) kaçtı, Birmanlar yerine Anawrahtaminsaw'ı bıraktı.", "kaynak": "Harvey, G. E., History of Burma from the Earliest Times to 10 March 1824 (London: Longmans, 1925); archive.org in.ernet.dli.2015.32059 (djvu tam metni bu oturumda okundu), s.91 ve s.139 («occupied the capital Launggyet and drove out the king Narameikhla who fled to Bengal»; «Narameikhla 1404-34, when ousted in 1404 by the Burmese») · hassasiyet: YIL", "ic_not_d": "Launggyet atlasta ayrı yerleşim değildir; olay Arakan çekirdeği Mrauk U (Arakan) noktasına bağlandı. Yalnız yıl belgelidir; sefer yılı Harvey'de 1404."},
+  {"bolge": 1, "t": "1430-01-01", "kesinlik": "yil", "b": "Narameikhla Gaur (Bengal) sultanlığının verdiği birlikle Arakan tahtına döndü; krallar Müslüman unvanlarını kullanmaya başladı", "tur": "siyaset", "onem": 3, "dunya": 2, "kapsam": "dis", "yer_id": "Mrauk U (Arakan)", "etiket": ["siyaset", "konu-siyasi"], "d": "Bengal'de uzun yıllar sürgünde kalan Narameikhla, Gaur kralının verdiği birlikle 1430'da tahtına iade edildi. Harvey, bundan sonra Budist Arakan krallarının kendi adlarının yanında Müslüman unvanları ve Farsça kelime-i şehadetli madalyonlar kullandığını kaydeder.", "kaynak": "Harvey, G. E., History of Burma from the Earliest Times to 10 March 1824 (London: Longmans, 1925); archive.org in.ernet.dli.2015.32059 (djvu tam metni bu oturumda okundu), s.139-140 («he was ultimately reinstated in 1430») · hassasiyet: YIL", "ic_not_d": "Atlasın Arakan künyesi `kronoloji` kaydı 1430'da 'Mrauk U'yu kurdu' der (TDV arakan). Harvey 1430'u yeniden tahta çıkış, Mrohaung'un kuruluşunu 1433 olarak ayırır; iki kaynak çelişir (Leider okunmadı); künye kaydına dokunulmadı."},
+  {"bolge": 1, "t": "1433-01-01", "kesinlik": "yil", "b": "Narameikhla başkenti Launggyet'ten Mrohaung'a (Mrauk U) taşıdı; bu şehir dört yüzyıl başkent kaldı", "tur": "kurulus", "onem": 3, "dunya": 2, "kapsam": "dis", "yer_id": "Mrauk U (Arakan)", "etiket": ["kurulus", "konu-siyasi"], "d": "Harvey'e göre kâhinler başkent taşınırsa kralın yıl içinde öleceğini söylemişti; Narameikhla yine de 1433'te Mrohaung'u kurdu ve ertesi yıl öldü. Şehir 1433-1785 arasında Arakan'ın başkentiydi (Harvey kronolojisi: Launggyet 1237-1433, Mrohaung 1433-1785).", "kaynak": "Harvey, G. E., History of Burma from the Earliest Times to 10 March 1824 (London: Longmans, 1925); archive.org in.ernet.dli.2015.32059 (djvu tam metni bu oturumda okundu), s.139-140 («In 1433 he founded Mrohaung and in the next year he died») · hassasiyet: YIL", "ic_not_d": "ÇELİŞKİ: atlas künye maddesi 1430; Harvey 1433 (1430 = tahta dönüş). Hakemli karar için ikinci bağımsız kaynak (Leider, Charney) okunmadı; bu madde yalnız Harvey'i yazar, künye maddesini değiştirmez."},
+  {"bolge": 1, "t": "1459-01-01", "kesinlik": "yil", "b": "Arakan Kralı Basawpyu Çittagong'u (Chittagong) aldı; şehir 1666'ya dek çoğunlukla Arakan elinde kaldı", "tur": "fetih", "onem": 3, "dunya": 2, "kapsam": "dis", "yer_id": "Çatgam (Chittagong)", "etiket": ["fetih", "konu-siyasi"], "d": "Narameikhla'nın halefi Basawpyu (Kalima Shah, 1459-82) 1459'da Çittagong'u işgal etti. Harvey'e göre şehir 1666'ya kadar çoğu zaman Arakanlıların elindeydi; Bengal güçlüyken Arakan Bengal'e haraç verir, Arakan güçlüyken Ganj deltasından haraç alırdı.", "kaynak": "Harvey, G. E., History of Burma from the Earliest Times to 10 March 1824 (London: Longmans, 1925); archive.org in.ernet.dli.2015.32059 (djvu tam metni bu oturumda okundu), s.140 («Basawpyu (Kalima Shah) 1459-82 occupied Chittagong in 1459 and it was usually in Arakanese hands till 1666») · hassasiyet: YIL", "ic_not_d": "Atlas yerleşim penceresi bengal-sultanligi → arakan 1459-01-01 yıl hassasiyetinde; bu madde pencerenin kronoloji karşılığıdır. Gün belgesiz."},
+  {"bolge": 1, "t": "1471-01-01", "kesinlik": "yil", "b": "Lê Thánh Tông Champa'ya ölümcül darbeyi vurdu; Vijaya Đại Việt'e katıldı", "tur": "fetih", "onem": 4, "dunya": 2, "kapsam": "dis", "yer_id": "Vijaya (Quy Nhơn)", "etiket": ["fetih", "konu-siyasi"], "d": "Hall'a göre 1446'da iç savaştan yararlanan Annamlılar Vijaya'yı kısa süre işgal etmiş, Chamlar geri almıştı; Lê hanedanının en büyüğü Lê Thánh Tông (1460-97) 1471'de Cham krallığına ölüm darbesini indirdi ve Champa'yı egemenlik alanının bir halkası yaptı.", "kaynak": "Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981); archive.org/details/a-history-of-south-east-asia-4th-ed (djvu tam metni bu oturumda okundu), Bölüm 9 'Annam and Tongking', s.218 («Le Thanh-Ton (1460-97) … deal the death-blow to the Cham kingdom in 1471») · hassasiyet: YIL", "ic_not_d": "Atlas Vijaya penceresi campa → le-hanedani 1471-03-02 olarak yazılıdır (Coedès/Schweyer, gün dayanağı bu turda doğrulanmadı); Hall yalnız yıl verir. 22 Mart 1471 anlatımı yalnız Vikipedi türevlerinde görüldü, akademik kaynakta teyit edilemediği için yazılmadı. Cambridge World History of Genocide ch.20 özeti (cambridge.org) yalnız 1471 yılını verir."},
+  {"bolge": 1, "t": "1539-01-01", "kesinlik": "yil", "b": "Tabinshwehti Peygu'ya (Bago) savaşmadan girdi; Mon başkenti Toungoo kralının eline geçti", "tur": "fetih", "onem": 4, "dunya": 2, "kapsam": "dis", "yer_id": "Pegu (Bago)", "etiket": ["fetih", "konu-siyasi"], "d": "Talaing (Mon) krallığının iki komutanının hain diye idam ettirilmesi ordunun morali ile komutanlarını kaybettirdi; Mon kralı Prome'a kaçtı ve Tabinshwehti 1539'da Peygu'ya savaşmadan girdi, sarayını orada kurdu.", "kaynak": "Harvey, G. E., History of Burma from the Earliest Times to 10 March 1824 (London: Longmans, 1925); archive.org in.ernet.dli.2015.32059 (djvu tam metni bu oturumda okundu), s.154 ve kronoloji tablosu («Tabinshwehti entered Pegu without striking a blow in 1539»; tabloda «1539 Tabinshwehti captures Pegu — The palace is set up there») · hassasiyet: YIL", "ic_not_d": "Atlas Peygu penceresi hanthawaddy → toungoo 1539-01-01 yıl hassasiyetindedir; Harvey de yalnız yıl verir. Gün belgesiz."},
+  {"bolge": 1, "t": "1591-01-01", "kesinlik": "yil", "b": "Nokéo Koumane Vientiane'de kral ilan edildi; ertesi yıl Luang Prabang'ın direnişini kırıp Lan Xang'ı yeniden birleştirdi", "tur": "siyaset", "onem": 3, "dunya": 2, "kapsam": "dis", "yer_id": "Vientiane", "etiket": ["siyaset", "konu-siyasi"], "d": "Hall'a göre Bayinnaung'un imparatorluğu çözülürken Lan Xang (Laos) Nokéo Koumane önderliğinde bağımsızlığını geri aldı; Koumane 1591'de Vientiane'de kral ilan edildi, 1592'de Luang Prabang'ı da boyun eğdirerek ülkeyi birleştirdi, Tran Ninh ona bağlılık gösterdi.", "kaynak": "Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981); archive.org/details/a-history-of-south-east-asia-4th-ed (djvu tam metni bu oturumda okundu), Bölüm 'Laos' (Sixteenth Century to the End of the Eighteenth, Pt II; OCR'da sayfa başlığı okunaksız) («He was proclaimed king at Vientiane in 1591, and in the following year his forces overcame the resistance of Luang Prabang and reunited the realm») · hassasiyet: YIL", "ic_not_d": "Atlasta Vientiane 1353-1707 lan-xang içinde bir kırılma yoktur; bu madde pencere kırılması değil, künye içi olaydır. Gün belgesiz."},
+  {"bolge": 1, "t": "1592-01-01", "kesinlik": "yil", "b": "Mạc hanedanının Tonkin'deki egemenliği sona erdi; Lê hanedanı Thăng Long'a (Hanoi) döndü", "tur": "fetih", "onem": 4, "dunya": 2, "kapsam": "dis", "yer_id": "Hanoi (Thăng Long)", "etiket": ["fetih", "konu-siyasi"], "d": "Mạc Đăng Dung 1527'de tahtı gasbetmiş, 1533'te Nguyễn ailesi aracılığıyla Lê hanedanı yeniden kurulmuş (Nguyễn Kim Nghệ An ve Thanh Hóa'dan Mạc'ı sürmüş) ama Tonkin'i Mạc elinde bırakmıştı. Hall'a göre Mạc hanedanı Tonkin'i 1592'ye kadar yönetti.", "kaynak": "Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981); archive.org/details/a-history-of-south-east-asia-4th-ed (djvu tam metni bu oturumda okundu), Bölüm 9 'Annam and Tongking', s.219 («The Mac dynasty ruled Tongking until 1592») · hassasiyet: YIL", "ic_not_d": "Atlas Hanoi penceresi mac-hanedani → le-hanedani 1592-01-01 yıl hassasiyetinde; Thăng Long'un geri alınışının günü (Toàn thư/Taylor) okunamadı; yıl sonu iddiası doğrulanmadı. Cao Bằng'daki Mạc kalıntısı bu maddede anlatılmaz."},
+  {"bolge": 1, "t": "1593-02-01", "kesinlik": "ay", "b": "Siyam Kralı Naresuan Birmanya veliahtını yendi; Siyam bağımsızlığı kesinleşti", "tur": "savas", "onem": 4, "dunya": 2, "kapsam": "dis", "yer_id": "", "etiket": ["savas", "konu-savas"], "d": "Hall, Nanda Bayin'in Siyam üzerindeki hâkimiyeti yeniden kurma çabalarının 1593'te kesin bir yenilgiyle durdurulduğunu, bu andan itibaren Siyam bağımsızlığının güvence altına alındığını yazar; Pamaree Surakiat da Naresuan'ın 1593'te Nong Sarai'de Birmanya veliahdına karşı büyük zafer kazandığını, sonra Tavoy ve Tenasserim'i denetimine aldığını kaydeder.", "kaynak": "Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981); archive.org/details/a-history-of-south-east-asia-4th-ed (djvu tam metni bu oturumda okundu), Bölüm 15, s.297 ve s.299 («the Burmese defeat of February 1593») · Pamaree Surakiat, 'Thai-Burmese Warfare during the Sixteenth Century and the Growth of the First Toungoo Empire', Journal of the Siam Society 93 (2005), s.69-100 (thesiamsociety.org PDF, bu oturumda okundu), s.92-93 («great victory over the Burmese crown prince at Nong Sarai in 1593») · hassasiyet: AY", "ic_not_d": "Hall ay olarak Şubat 1593 yazar; Siyam geleneğindeki 18 Ocak 1593 günü bu turda akademik kaynakta okunmadı (teyit edilmedi). Savaş yeri Nong Sarai atlasta yerleşim olarak yoktur; yer_id boş. Gün için ikinci bağımsız kaynak bekler."},
+  {"bolge": 1, "t": "1594-07-01", "kesinlik": "ay", "b": "Siyam ordusu Kamboçya'nın başkenti Lovek'i aldı; Kral Satha Luang Prabang'a kaçtı", "tur": "fetih", "onem": 4, "dunya": 2, "kapsam": "dis", "yer_id": "Lovek (Longvek)", "etiket": ["fetih", "konu-siyasi"], "d": "Naresuan Avut'ya'yı Birmanya baskısından kurtardıktan sonra 1593'te üç Siyam ordusu Kamboçya'ya girdi; Hall'a göre uzun ve çetin kuşatmanın ardından Lovek Temmuz 1594'te alındı. Krallık ilhak edilmedi, binlerce esir Siyam'ın kuzey illerine yerleştirildi. Hall, 1587 tarihli bir yazıtın Lovek'in 'düşüşünü' anmasına rağmen 1594'ten önce Siyam'ın Lovek'i aldığına dair kanıt bulunmadığını belirtir.", "kaynak": "Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981); archive.org/details/a-history-of-south-east-asia-4th-ed (djvu tam metni bu oturumda okundu), Bölüm 15 'Burma and the T'ai Kingdoms', s.299 («Eventually in July 1594 Lovek was taken and the king fled to Luang Prabang») ve Bölüm 'Cambodia' (1587 yazıtı tartışması) · hassasiyet: AY", "ic_not_d": "Lovek yerleşimi data/yerlesimler_asya.js'e eklendi (UMIT-1115b; pencere 1555-, ilhak yok: sahip kamboc-kralligi). Satha'nın kaçış yeri Hall'ın kendi içinde çelişir: s.299 'Luang Prabang', 1593 kuşatma anlatımında (Cambodia bölümü) 'Srei Santhor'; karar için ikinci akademik kaynak okunmadı."},
+  {"bolge": 1, "t": "1707-01-01", "kesinlik": "yil", "b": "Lan Xang ikiye bölündü: Luang Prabang ve Vientiane ayrı krallıklar oldu", "tur": "siyaset", "onem": 4, "dunya": 2, "kapsam": "dis", "yer_id": "Luang Prabang", "etiket": ["siyaset", "konu-siyasi"], "d": "1700'de Sai-Ong-Hué Vietnam desteğiyle Vientiane'yi alıp kral oldu; Souligna-Vongsa'nın torunları King-Kitsarat ve Int'a-Som Sip-Song-Panas'ta toplanan 6000 kişilik güçle 1707'de Sai-Ong-Hué'nin kardeşi T'ao-Nong'u Luang Prabang'dan çıkardı, Kitsarat kral ilan edilip Chieng Khane'nin kuzeyinin ayrı bağımsız krallık olduğunu bildirdi. Hall: 1707'den itibaren Luang Prabang ve Vientiane iki ayrı ve düşman devletin başkentidir.", "kaynak": "Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981); archive.org/details/a-history-of-south-east-asia-4th-ed (djvu tam metni bu oturumda okundu), Bölüm 'Laos' (Sixteenth Century to the End of the Eighteenth, Pt II; OCR sayfa başlığı '470'e yakın) («From 1707 Luang Prabang and Vientiane were the capitals of two separate and mutually hostile states») · hassasiyet: YIL", "ic_not_d": "Atlas künyeleri lan-xang (t 1707-01-01) → laos-kralliklari (f 1707-01-01) ile uyumlu. Hall'da Champasak (Bassak) 1713'te ayrıldı; atlas penceresi de 1713-01-01. Gün belgesiz."},
+  {"bolge": 1, "t": "1713-01-01", "kesinlik": "yil", "b": "Chao Soi-Sisamout Bassak (Champasak) ve güney illerinde ayrı krallık kurdu", "tur": "siyaset", "onem": 3, "dunya": 2, "kapsam": "dis", "yer_id": "Champasak", "etiket": ["siyaset", "konu-siyasi"], "d": "Hall'a göre Sai-Ong-Hué Bassak ve uzak güneydeki illerde başarılı olamadı; Chao Soi-Sisamout 1713'ten itibaren orada hüküm sürdü.", "kaynak": "Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981); archive.org/details/a-history-of-south-east-asia-4th-ed (djvu tam metni bu oturumda okundu), Bölüm 'Laos' (Sixteenth Century to the End of the Eighteenth, Pt II) («Chao-Soi-Sisamout, who ruled there from 1713») · hassasiyet: YIL", "ic_not_d": "Atlas Champasak ve Attapeu pencereleri 1713-01-01; künye champasak-krallik (UMIT-1115b). Gün belgesiz."},
+];
 
 ;
 /* ==== data/olaylar_mogolistan_1115b.js ==== */
-// data/olaylar_mogolistan_1115b.js — paketle.py İNCELTTİ: ic_not* alanları yayına gitmez (kaynak dosya değişmedi)
-window.OLAYLAR_MOGOLISTAN1115B = [{"t":"1691-05-30","k":"siyaset","onem":4,"dunya":3,"kapsam":"dis","yer_id":"Urga (Ulan Batur)","odak_yer":["Urga (Ulan Batur)","Öndörhaan (Hentiy)","Kerulen (Çoybalsan)","Halhın Gol (Buir Nur)","Bulgan","Mörön (Hövsgöl)","Gobi-Altay (Yösönbulag)","Bayanhongor"],"taraflar":["kuzey-yuan","qing-halha-aymaklari"],"b":"Qing Halha yedi hoşununu 49 Moğol bayrağıyla aynı düzene aldı: Halha han, vang, beyle ve zasaklarla Qing idaresine bağlandı","gun":"30 Mayıs 1691 (Kangxi 30, 5. ay 戊子)","yer":"Dolon Nor; Halha aymakları (Dış Moğolistan)","etiket":["devir","konu-siyasi"],"d":"Kangxi, Dolon Nor toplantısında Halha han, jinong ve noyanlarına «sizi 49 bayrağımla aynı düzende kurdum» dedi; eski jinong ve noyan adları kaldırılıp vang, beyle ve taiji rütbeleri ile zasaklar verildi, Tüşetü Han ve Çeçen Han unvanları korundu, Zasaktu Han'ın kardeşi Tsewang Jab vang yapıldı. Halha, Qing'in zasak-bayrak (hoşun) düzenine alınan Dış Moğolistan oldu; Tüşetü Han, Çeçen Han ve (1725'ten sonra) Sain Noyan ile Zasaktu aymakları bu düzenin parçasıdır.","kaynak":"Qing Shilu (Shengzu shilu) juan 150, Kangxi 30 夏四月丙辰朔–五月丙戌朔 (Wikisource 清實錄/聖祖仁皇帝實錄/卷之150, bu oturumda okundu): «*戊子 … 復召喀爾喀土謝圖汗、策妄扎卜、車臣汗、澤卜尊丹巴胡土克圖及濟農台吉等三十五人賜宴 … 將爾等與朕四十九旗一例編設 … 土謝圖汗車臣汗名號俱著仍舊存留 … 去其濟農諾顏之名，皆封為多羅郡王» · Qing Shi gao juan 521 藩部四 土謝圖汗部 (Wikisource 清史稿/卷521, bu oturumda okundu): «尋命改所部濟農、諾顏舊號，封王、貝勒、台吉有差，各授扎薩克，編佐領 … 自是始稱土謝圖汗部» · hassasiyet: GÜN (Gregoryen çeviri)"},{"t":"1635-07-11","k":"siyaset","onem":3,"dunya":2,"kapsam":"dis","yer_id":"Hohhot (Kuku-hoto)","odak_yer":["Hohhot (Kuku-hoto)"],"taraflar":["kuzey-yuan","qing-hanedani"],"b":"Çahar Hanlığı'nın son hanı Ejei, annesiyle Qing'e teslim oldu; Ligdan'ın hanlığı sona erdi","gun":"11 Temmuz 1635 (Tiancong 9, 5. ay 丙子)","yer":"Çahar yurdu (Shira Jurge; İç Moğolistan)","etiket":["konu-siyasi"],"d":"Ligdan Han'ın 1634'te ölmesinden sonra Dorgon, Yolo, Hooge ve Sahaliyan on bin atlıyla Ligdan'ın oğlu Ejei'yi almaya gönderildi; ordu Shira Jurge'de Çahar Nangnang taifei'nin 1500 hanesini kabul edip Ejei'nin otağına vardı, Ejei'nin annesi onu teslim etti.","kaynak":"Qing Shi gao juan 2 太宗本紀二 天聰九年 (Wikisource 清史稿/卷2, bu oturumda okundu): «丙子，貝勒多爾袞、岳託、薩哈廉、豪格等奏報兵至西喇硃爾格，遇察哈爾囊囊太妃暨台吉瑣諾木等以一千五百戶降，遂抵額爾克孔果爾額哲所居，其母率額哲迎降» ve önceki kayıt «丁未，命多爾袞、岳託、豪格、薩哈廉將精騎一萬，收察哈爾林丹之子額爾克孔果爾額哲» · hassasiyet: GÜN (Gregoryen çeviri)"}];
+// =====================================================================
+// OLAYLAR_MOGOLISTAN1115B — Moğolistan bölge denetimi, ikinci dalga (UMIT, 15 Kasım 2026)
+// Her madde bu oturumda OKUNAN tam metne dayanır (Wikisource: Qing Shilu, Qing Shi gao);
+// okunamayan kaynak "okunmadı" diye geçer. Ad alanı: YALNIZ window.OLAYLAR_MOGOLISTAN1115B.
+// index.html'e <script> satırı gerekir (?v= damgasız).
+// =====================================================================
+
+window.OLAYLAR_MOGOLISTAN1115B = [
+{ t:"1691-05-30",
+  k:"siyaset",
+  onem:4,
+  dunya:3,
+  kapsam:"dis",
+  yer_id:"Urga (Ulan Batur)",
+  odak_yer:["Urga (Ulan Batur)","Öndörhaan (Hentiy)","Kerulen (Çoybalsan)","Halhın Gol (Buir Nur)","Bulgan","Mörön (Hövsgöl)","Gobi-Altay (Yösönbulag)","Bayanhongor"],
+  taraflar:["kuzey-yuan","qing-halha-aymaklari"],
+  b:"Qing Halha yedi hoşununu 49 Moğol bayrağıyla aynı düzene aldı: Halha han, vang, beyle ve zasaklarla Qing idaresine bağlandı",
+  gun:"30 Mayıs 1691 (Kangxi 30, 5. ay 戊子)",
+  yer:"Dolon Nor; Halha aymakları (Dış Moğolistan)",
+  etiket:["devir","konu-siyasi"],
+  d:"Kangxi, Dolon Nor toplantısında Halha han, jinong ve noyanlarına «sizi 49 bayrağımla aynı düzende kurdum» dedi; eski jinong ve noyan adları kaldırılıp vang, beyle ve taiji rütbeleri ile zasaklar verildi, Tüşetü Han ve Çeçen Han unvanları korundu, Zasaktu Han'ın kardeşi Tsewang Jab vang yapıldı. Halha, Qing'in zasak-bayrak (hoşun) düzenine alınan Dış Moğolistan oldu; Tüşetü Han, Çeçen Han ve (1725'ten sonra) Sain Noyan ile Zasaktu aymakları bu düzenin parçasıdır.",
+  ic_not_d:"TAKVİM: Çin ay-güneş günü Gregoryen'e çevrildi (1691 > 1582): Shilu juan 150, 5. ay 朔 = 丙戌; 干支 sayımıyla (Gregoryen) 丙戌 = 1691-05-28, 丁亥 = 05-29, 戊子 = 05-30 (bu oturumda hesaplandı). Shilu bu toplantıyı üç ayrı güne böler: 乙酉 (05-27) imparator Dolon Nor'a vardı; 丁亥 (05-29) Tüşetü Han ve Jebtsundamba huzura kabul edildi; 戊子 (05-30) ikinci ziyafet ve «49 bayrakla aynı düzende kuruldunuz» fermanı, rütbelerin ve zasakların verilmesi. Bu madde idarî düzene alınma gününü (戊子, 05-30) yazar; huzura kabul günü (05-29) ayrı bir olaydır ve bu maddeyle ÇELİŞMEZ. Qing Shi gao juan 521 aynı olayı «夏四月，駕至 … 自是始稱土謝圖汗部» diye YALNIZ ay düzeyinde yazar; gün Shilu'dan. Künye kaydı (qing-halha-aymaklari f) bu güne bağlıdır. Çift teyit YOK (iki ayrı Qing resmî metni, bağımsız akademik ikinci kaynak okunmadı: Bawden, Perdue okunmadı).",
+  kaynak:"Qing Shilu (Shengzu shilu) juan 150, Kangxi 30 夏四月丙辰朔–五月丙戌朔 (Wikisource 清實錄/聖祖仁皇帝實錄/卷之150, bu oturumda okundu): «*戊子 … 復召喀爾喀土謝圖汗、策妄扎卜、車臣汗、澤卜尊丹巴胡土克圖及濟農台吉等三十五人賜宴 … 將爾等與朕四十九旗一例編設 … 土謝圖汗車臣汗名號俱著仍舊存留 … 去其濟農諾顏之名，皆封為多羅郡王» · Qing Shi gao juan 521 藩部四 土謝圖汗部 (Wikisource 清史稿/卷521, bu oturumda okundu): «尋命改所部濟農、諾顏舊號，封王、貝勒、台吉有差，各授扎薩克，編佐領 … 自是始稱土謝圖汗部» · hassasiyet: GÜN (Gregoryen çeviri)" },
+
+{ t:"1635-07-11",
+  k:"siyaset",
+  onem:3,
+  dunya:2,
+  kapsam:"dis",
+  yer_id:"Hohhot (Kuku-hoto)",
+  odak_yer:["Hohhot (Kuku-hoto)"],
+  taraflar:["kuzey-yuan","qing-hanedani"],
+  b:"Çahar Hanlığı'nın son hanı Ejei, annesiyle Qing'e teslim oldu; Ligdan'ın hanlığı sona erdi",
+  gun:"11 Temmuz 1635 (Tiancong 9, 5. ay 丙子)",
+  yer:"Çahar yurdu (Shira Jurge; İç Moğolistan)",
+  etiket:["konu-siyasi"],
+  d:"Ligdan Han'ın 1634'te ölmesinden sonra Dorgon, Yolo, Hooge ve Sahaliyan on bin atlıyla Ligdan'ın oğlu Ejei'yi almaya gönderildi; ordu Shira Jurge'de Çahar Nangnang taifei'nin 1500 hanesini kabul edip Ejei'nin otağına vardı, Ejei'nin annesi onu teslim etti.",
+  ic_not_d:"TAKVİM: Çin ay-güneş günü Gregoryen'e çevrildi (1635 > 1582): Qing Shi gao juan 2 (Taizong benji) Tiancong 9 (==天聰九年==) 5. ay maddeleri sırayla 乙卯 · 癸亥 · 己巳 · 壬申 · 丙子 diye gider; 干支 sayımıyla (Gregoryen) bu günler 1635-06-20, 06-28, 07-04, 07-07, 07-11'e düşer (60 günlük döngü, Haziran-Ağustos penceresinde her biri TEK adaydır); teslim 丙子 = 1635-07-11. TEK TAM METİN (Shi gao juan 2); ikinci bağımsız kaynak (Taizong shilu, Ming shi) okunamadı ⇒ çift teyit YOK. Yer: kaynakta «西喇硃爾格» (Shira Jurge) adı geçer, modern konumu okunmadı; kamera odağı Çahar-Qing sınırındaki Hohhot (Guihua) yöresine konmuştur, yerleşim tanıklığı DEĞİLDİR. Bu madde künye-içi «1635-01-01 Ejei teslimi» yıl maddesinin (kuzey-yuan) gün düzeyindeki karşılığıdır. Halha'nın Qing'e geçişi ayrıdır (1691-05-30).",
+  kaynak:"Qing Shi gao juan 2 太宗本紀二 天聰九年 (Wikisource 清史稿/卷2, bu oturumda okundu): «丙子，貝勒多爾袞、岳託、薩哈廉、豪格等奏報兵至西喇硃爾格，遇察哈爾囊囊太妃暨台吉瑣諾木等以一千五百戶降，遂抵額爾克孔果爾額哲所居，其母率額哲迎降» ve önceki kayıt «丁未，命多爾袞、岳託、豪格、薩哈廉將精騎一萬，收察哈爾林丹之子額爾克孔果爾額哲» · hassasiyet: GÜN (Gregoryen çeviri)" }
+];
 
 ;
 /* ==== data/olaylar_ortaasya_1115b.js ==== */
-// data/olaylar_ortaasya_1115b.js — paketle.py İNCELTTİ: ic_not* alanları yayına gitmez (kaynak dosya değişmedi)
-window.OLAYLAR_ORTAASYA1115B = [{"t":"1918-07-14","k":"siyaset","onem":3,"dunya":1,"kapsam":"dis","yer_id":"Aşkabad","taraflar":["transkaspi-hukumeti","sovyet-rusya"],"b":"Aşkabat'ta Funtikov başkanlığında Aşkabat Komitesi (Transkaspi hükûmeti) kuruldu; Aşkabat Taşkent Sovyeti'nin elinden çıktı","gun":"14 Temmuz 1918","yer":"Aşkabad","etiket":["siyaset","konu-siyasi","konu-askeri"],"d":"12 Temmuz 1918'de Kızıl Arvat'ta demiryolcular Taşkent Çeka'sının başkanı Frolov'u ve muhafızlarını öldürdükten iki gün sonra Aşkabat'ta Sosyal Devrimci işçi Funtikov önderliğinde bir hükûmet kuruldu; Krasnovodsk ve Merv'de ayaklanmalar izledi. Hükûmet kendini Aşkabat Komitesi diye adlandırdı.","kaynak":"M. Sargent, British Military Involvement in Transcaspia (1918-1919), ARAG Caucasus Series 04/02, 2004, s. 9-10 (files.ethz.ch/isn/87659/04_apr.pdf, bu oturumda okundu): «Two days later a government was formed in Ashkhabad, with Funtikov, a Socialist-Revolutionary worker as the leader» · hassasiyet: GÜN (12 Temmuz + 2 gün)."},{"t":"1919-07-15","k":"savas","onem":3,"dunya":1,"kapsam":"dis","yer_id":"Aşkabad","taraflar":["transkaspi-hukumeti","sovyet-rusya"],"b":"Transkaspi hükûmeti ve ordusu Aşkabat'ı boşalttı; Bolşevikler Aşkabat'a döndü","gun":"15 Temmuz 1919","yer":"Aşkabad","etiket":["savas","konu-askeri","konu-siyasi"],"d":"İngiliz birliklerinin Nisan 1919'daki ayrılışından sonra Bolşevikler Mayıs 1919'da Merv'i aldı; Transkaspi kuvvetleri Aşkabat'a çekildi ve şehir hükûmet ile ordu tarafından 15 Temmuz 1919'da boşaltıldı. Cephe bir süre Kızıl Arvat yakınında tutuldu, sonra Krasnovodsk'a çekilindi.","kaynak":"M. Sargent, British Military Involvement in Transcaspia (1918-1919), ARAG Caucasus Series 04/02, 2004, 'Following the Withdrawal' bölümü (files.ethz.ch/isn/87659/04_apr.pdf, bu oturumda okundu): «Ashkhabad, which, in turn was evacuated by the government and the army on 15 July 1919» · hassasiyet: GÜN."}];
+// =====================================================================
+// OLAYLAR_ORTAASYA1115B — Orta Asya ikinci dalga (UMIT, 15 Kasım 2026)
+// Transkaspi (Aşkabat) Geçici Hükûmeti: Aşkabad yerleşiminin sahiplik kırılmaları için kronoloji maddeleri.
+// Kaynak: M. Sargent, British Military Involvement in Transcaspia (1918-1919), ARAG Caucasus Series 04/02, 2004
+// (files.ethz.ch/isn/87659/04_apr.pdf) — bu oturumda okundu.
+// Ad alanı: YALNIZ window.OLAYLAR_ORTAASYA1115B. index.html'e <script> satırı eklenir (?v= damgasız).
+// =====================================================================
+
+window.OLAYLAR_ORTAASYA1115B = [
+{ t:"1918-07-14",
+  k:"siyaset",
+  onem:3,
+  dunya:1,
+  kapsam:"dis",
+  yer_id:"Aşkabad",
+  taraflar:["transkaspi-hukumeti","sovyet-rusya"],
+  b:"Aşkabat'ta Funtikov başkanlığında Aşkabat Komitesi (Transkaspi hükûmeti) kuruldu; Aşkabat Taşkent Sovyeti'nin elinden çıktı",
+  gun:"14 Temmuz 1918",
+  yer:"Aşkabad",
+  etiket:["siyaset","konu-siyasi","konu-askeri"],
+  d:"12 Temmuz 1918'de Kızıl Arvat'ta demiryolcular Taşkent Çeka'sının başkanı Frolov'u ve muhafızlarını öldürdükten iki gün sonra Aşkabat'ta Sosyal Devrimci işçi Funtikov önderliğinde bir hükûmet kuruldu; Krasnovodsk ve Merv'de ayaklanmalar izledi. Hükûmet kendini Aşkabat Komitesi diye adlandırdı.",
+  kaynak:"M. Sargent, British Military Involvement in Transcaspia (1918-1919), ARAG Caucasus Series 04/02, 2004, s. 9-10 (files.ethz.ch/isn/87659/04_apr.pdf, bu oturumda okundu): «Two days later a government was formed in Ashkhabad, with Funtikov, a Socialist-Revolutionary worker as the leader» · hassasiyet: GÜN (12 Temmuz + 2 gün)." },
+
+{ t:"1919-07-15",
+  k:"savas",
+  onem:3,
+  dunya:1,
+  kapsam:"dis",
+  yer_id:"Aşkabad",
+  taraflar:["transkaspi-hukumeti","sovyet-rusya"],
+  b:"Transkaspi hükûmeti ve ordusu Aşkabat'ı boşalttı; Bolşevikler Aşkabat'a döndü",
+  gun:"15 Temmuz 1919",
+  yer:"Aşkabad",
+  etiket:["savas","konu-askeri","konu-siyasi"],
+  d:"İngiliz birliklerinin Nisan 1919'daki ayrılışından sonra Bolşevikler Mayıs 1919'da Merv'i aldı; Transkaspi kuvvetleri Aşkabat'a çekildi ve şehir hükûmet ile ordu tarafından 15 Temmuz 1919'da boşaltıldı. Cephe bir süre Kızıl Arvat yakınında tutuldu, sonra Krasnovodsk'a çekilindi.",
+  ic_not_d:"Bolşeviklerin Aşkabat'a girdiği gün kaynakta verilmiyor; haritada pencere hükûmetin boşaltma gününde kesildi (Sargent yalnız boşaltma gününü verir).",
+  kaynak:"M. Sargent, British Military Involvement in Transcaspia (1918-1919), ARAG Caucasus Series 04/02, 2004, 'Following the Withdrawal' bölümü (files.ethz.ch/isn/87659/04_apr.pdf, bu oturumda okundu): «Ashkhabad, which, in turn was evacuated by the government and the army on 15 July 1919» · hassasiyet: GÜN." }
+];
 
 ;

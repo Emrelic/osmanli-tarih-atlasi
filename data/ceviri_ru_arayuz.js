@@ -1439,6 +1439,7 @@ Ceviri.ekle("ru","arayuz",{
 "bölge hazır, Enter: nota geç":["область готова, Enter: перейти к заметке", "dc296d2c"],
 "bölge yok — ➕ ile ekle":["областей нет — добавьте кнопкой ➕", "85f5b897"],
 "bölgesi":["область", "3046e9e0"],
+"c. # [yalnız yıl teyitli; gün teyitsiz]":["ок. # [подтверждён только год; день не подтверждён]", "bd064a90"],
 "deniz harekâtı":["морская операция", "6f41d2c4"],
 "devlet seçilebilir (Osmanlı + kronolojisi olanlar), tek listede.":["можно выбрать государство (Османы + имеющие хронологию), в одном списке.", "daeceb60"],
 "değişiklik yok":["изменений нет", "07526d03"],

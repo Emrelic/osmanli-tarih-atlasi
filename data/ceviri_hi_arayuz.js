@@ -1399,6 +1399,7 @@ Ceviri.ekle("hi","arayuz",{
 "bölge hazır, Enter: nota geç":["क्षेत्र तैयार है, Enter: नोट पर जाएँ", "dc296d2c"],
 "bölge yok — ➕ ile ekle":["कोई क्षेत्र नहीं — ➕ से जोड़ें", "85f5b897"],
 "bölgesi":["क्षेत्र", "3046e9e0"],
+"c. # [yalnız yıl teyitli; gün teyitsiz]":["लगभग # [केवल वर्ष की पुष्टि; दिन की पुष्टि नहीं]", "bd064a90"],
 "deniz harekâtı":["नौसैनिक अभियान", "6f41d2c4"],
 "devlet seçilebilir (Osmanlı + kronolojisi olanlar), tek listede.":["राज्य चुने जा सकते हैं (ऑटोमन + जिनका कालक्रम है), एक ही सूची में।", "daeceb60"],
 "değişiklik yok":["कोई परिवर्तन नहीं", "07526d03"],

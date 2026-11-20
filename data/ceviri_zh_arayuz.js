@@ -1399,6 +1399,7 @@ Ceviri.ekle("zh","arayuz",{
 "bölge hazır, Enter: nota geç":["区域已就绪，Enter：转至便笺", "dc296d2c"],
 "bölge yok — ➕ ile ekle":["无区域——用➕添加", "85f5b897"],
 "bölgesi":["的地区", "3046e9e0"],
+"c. # [yalnız yıl teyitli; gün teyitsiz]":["约 # [仅年份已确认；具体日期未确认]", "bd064a90"],
 "deniz harekâtı":["海上行动", "6f41d2c4"],
 "devlet seçilebilir (Osmanlı + kronolojisi olanlar), tek listede.":["可选择国家（奥斯曼＋有编年史者），在同一列表中。", "daeceb60"],
 "değişiklik yok":["无变化", "07526d03"],
