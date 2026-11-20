@@ -1,0 +1,252 @@
+{
+  "_meta": {
+    "konu": "Hz. Muhammed - Mekke dönemi (doğum -> Hicret öncesi), PİLOT taslak",
+    "tarih": "2026-11-19",
+    "okuma_notu": "WebFetch küçük-model özeti döndürür; TDV 'muhammed' gövdesi 532 bin karakter, yalnız ilk 100 bin karakteri okunabildi (Hayat bölümü bu kısımda). Tırnaklı alıntılar özetin verdiği ifadelerdir; son kontrol insan/denetim gözüyle yapılmalı.",
+    "yerlesim_dogrulama": {"Mekke": "VAR (data/yerlesimler.js)", "Medine": "VAR", "Tâif": "VAR", "Aksum": "VAR (data/yerlesimler_afrika.js)", "Hira": "YOK", "Ebvâ": "YOK", "Busrâ": "YOK", "Yesrib": "YOK (Medine adı altında)", "Kâbe": "YOK (Mekke içinde)", "Akabe/Mina": "YOK", "Habeşistan": "yerleşim değil; Aksum kullanıldı"},
+    "atlasta_var_tekrar_yazilmadi": ["Hicret (0622-09-24, Medine)", "Fil Vak'ası (0570)", "Ebrehe ölümü (0570)", "Habeşistan'a ilk hicret (615)"],
+    "ozet": {"madde": 23, "not_kaydi_sira24_madde_degil": 1, "gun_hassasiyetli": 2, "yil_veya_yil_ay_hassasiyetli_t_var": 12, "belirsiz_tarihsiz_t_yok": 9, "inanis": 2, "karma": 8, "tarihi": 13, "okunamayan_tam": ["Şam/Bahîrâ gövdesi (TDV 'bahira' maddesi denenmedi)", "TDV isra/miraj/taif/habesistan/etiyopya ilgili kısım: yalnız özet"], "bulunamayan": ["TDV 'Şi'b-i Ebû Tâlib' maddesi (arama sonucu yok; senetul-huzn ve muhammed'den alındı)", "Birinci Akabe Biatı müstakil madde (arama yalnız Berâ b. Ma'rûr ve Mus'ab b. Umeyr verdi)", "Hz. Hatice evlilik yılı (TDV yaş verir, yıl yok)", "Ebû Tâlib vefat günü (yalnız Şevval/yaklaşık bir ay)"]}
+  },
+  "maddeler": [
+    {
+      "sira": 1, "id": "muhammed-dogum",
+      "t": "0570-01-01", "kesinlik": "yil-belirsiz-cakisan",
+      "alt_yillar": ["569 (Hamîdullah: 17 Haziran 569 Pazartesi)", "571 (Mahmûd Paşa el-Felekî: 9 Rebîülevvel = 20 Nisan 571 Pazartesi)", "Fil Vak'ası 570/571 (TDV fil-vakasi)"],
+      "b": "Hz. Muhammed Mekke'de doğdu",
+      "gun": "12 Rebîülevvel, Pazartesi (TDV genel kabul); yıl: rivayet farkı 569/570/571",
+      "yer": "Mekke", "yer_id": "Mekke", "kisiler": "Hz. Muhammed; Abdülmuttalib; Âmine",
+      "d": "Müslümanlara göre Allah'ın son peygamberi Hz. Muhammed Rebîülevvel ayında, Fil Vak'ası yılında Mekke'de doğdu. Tarihî kayıt: TDV günü 12 Rebîülevvel Pazartesi olarak verir; yılı ise rivayetlerde 569 (Hamîdullah), 570/571 (Fil Vak'asıyla birlikte anılan en yaygın tarih) ve 571 (Felekî) diye ayrışır.",
+      "kaynak": "TDV: muhammed - \"Rebîülevvel ayının 12’sinde Pazartesi günü\"; ayrıca TDV: fil-vakasi (en yaygın tarih 570 veya 571; 547, 552, 563 de anılır) | https://islamansiklopedisi.org.tr/muhammed ; https://islamansiklopedisi.org.tr/fil-vakasi",
+      "epistem": "karma", "inanc_kaynak": "Fil sûresi (105) - Fil Vak'ası bağlantısı",
+      "etiket": ["peygamber-hayati", "mekke-donemi", "dogum"],
+      "ic_not": "KARAR BEKLER: yıl için tek TDV değeri yok. Önerim t=0570-01-01 (yalnız yıl, atlastaki Fil Vak'ası 0570 ile uyumlu) + 'yalnız yıl teyitli değil; 569-571 aralığı'; ikinci bağımsız akademik kaynakla (ör. EI2 'Muhammad', Watt) hakem karar yazılmalı. Hicrî ay-gün çevirisi (12 Rebîülevvel) yıl kesinleşmeden yapılmadı."
+    },
+    {
+      "sira": 2, "id": "abdullah-olum",
+      "kesinlik": "belirsiz", "b": "Hz. Muhammed'in babası Abdullah Yesrib'de vefat etti",
+      "gun": "tarihsiz; doğumdan yaklaşık 7 ay önce veya Hz. Muhammed 28 aylıkken (TDV abdullah)",
+      "yer": "Yesrib (Medine)", "yer_id": "Medine", "kisiler": "Abdullah b. Abdülmuttalib",
+      "d": "Ticaret için gittiği Gazze/Suriye'den dönerken Yesrib'de hastalanıp öldü; Adî b. Neccâr oğullarında kaldığı anlatılır. Tarihî kayıt: TDV, en eski kaynakların doğumdan önce ölümü tercih ettiğini, ölüm yaşının yaklaşık 18 olduğunu aktarır; zamanlama kaynaklarda ayrışır.",
+      "kaynak": "TDV: abdullah (özet okundu: doğumdan 7 ay önce / 28 aylıkken rivayeti) | https://islamansiklopedisi.org.tr/abdullah",
+      "epistem": "tarihi", "etiket": ["peygamber-hayati", "aile", "olum"],
+      "ic_not": "t yazılmadı (yıl TDV'de verilmiyor); doğum yılına bağlı."
+    },
+    {
+      "sira": 3, "id": "amine-olum",
+      "kesinlik": "belirsiz", "b": "Hz. Muhammed'in annesi Âmine Ebvâ'da vefat etti",
+      "gun": "tarihsiz; Hz. Muhammed 6 yaşında (TDV muhammed)",
+      "yer": "Ebvâ (Mekke-Medine yolu; Medine'ye yaklaşık 190 km)", "yer_id": null, "kisiler": "Âmine bint Vehb; Ümmü Eymen",
+      "d": "Âmine, oğlu ve Ümmü Eymen ile Medine'yi ziyaretten dönerken Ebvâ'da öldü; çocuk Muhammed dedesi Abdülmuttalib'in yanına alındı. Tarihî kayıt: TDV 'Ebvâ' vefat yerini kaynakların çoğunun görüşü olarak verir.",
+      "kaynak": "TDV: muhammed - Medine'ye 190 km uzaklıktaki Ebvâ'da, altı yaşında; TDV: amine-bint-vehb - \"Ebvâ'da öldüğünü\" (kaynakların büyük kısmı) | https://islamansiklopedisi.org.tr/amine-bint-vehb",
+      "epistem": "tarihi", "etiket": ["peygamber-hayati", "aile", "olum"],
+      "ic_not": "Yıl hesaplanmadı (doğum yılı belirsiz). Yerleşim 'Ebvâ' atlasta yok: yer_id boş; gerekirse yeni nokta önerisi."
+    },
+    {
+      "sira": 4, "id": "abdulmuttalib-olum",
+      "kesinlik": "belirsiz", "b": "Dede Abdülmuttalib vefat etti; bakım Ebû Tâlib'e geçti",
+      "gun": "tarihsiz; Hz. Muhammed 8 yaşında; Abdülmuttalib yaklaşık 82 yaşında (TDV)",
+      "yer": "Mekke", "yer_id": "Mekke", "kisiler": "Abdülmuttalib; Ebû Tâlib; Hz. Muhammed",
+      "d": "Abdülmuttalib vefat etmeden torununun bakımını oğlu Ebû Tâlib'e emanet etti. Tarihî kayıt: Hâşim oğullarının nüfuzu bu ölümle azaldı, yalnız su dağıtma (sikâye) görevi Abbas'ta kaldı.",
+      "kaynak": "TDV: abdulmuttalib (özet; madde başlığında 577 görünüyor - 'ö.' olduğu gövdeden teyit edilmedi) ; TDV: muhammed (sekiz yaşında) | https://islamansiklopedisi.org.tr/abdulmuttalib",
+      "epistem": "tarihi", "etiket": ["peygamber-hayati", "aile", "olum"],
+      "ic_not": "577 yılı doğrulanmadı; doğum 569 ile tutarlı görünse de Hamîdullah'a bağlıdır. Tarih verilmedi."
+    },
+    {
+      "sira": 5, "id": "sam-seferi-bahira",
+      "kesinlik": "belirsiz", "b": "Ebû Tâlib'le Şam (Suriye) yolculuğu; Bahîrâ anlatısı",
+      "gun": "tarihsiz; Hz. Muhammed 9 (veya 12) yaşında",
+      "yer": "Mekke - Suriye (Busrâ)", "yer_id": "Mekke", "kisiler": "Hz. Muhammed; Ebû Tâlib; Bahîrâ",
+      "d": "İslâm geleneğine göre Bahîrâ adlı rahip çocuğun gelecekte peygamber olacağını söyledi ve Ebû Tâlib onu korumak için Mekke'ye döndü. Tarihî kayıt: TDV, Hz. Muhammed'in amcasıyla Suriye'ye gittiğini aktarır; Bahîrâ ile görüşmenin gerçekliğini tartışmalı sayar ve sağlam rivayete dayanmadığını belirtir.",
+      "kaynak": "TDV: muhammed (Bahîrâ ile görüşüp görüşmediği tartışmalıdır; özet); TDV: ebu-talib (Bahîrâ anlatısı) | https://islamansiklopedisi.org.tr/muhammed",
+      "epistem": "karma", "etiket": ["peygamber-hayati", "ticaret", "rahip-anlatisi"],
+      "ic_not": "OKUNMADI: TDV 'bahira' maddesi bu turda denenmedi. Yaş 9/12 farkı beyan edilmeli."
+    },
+    {
+      "sira": 6, "id": "kabe-insa-hacerulesved",
+      "t": "0605-01-01", "kesinlik": "yil", "b": "Kâbe yeniden inşa edildi; Hacerülesved'i yerine Hz. Muhammed koydu",
+      "gun": "605 (yıl; gün TDV'de yok)", "yer": "Mekke", "yer_id": "Mekke", "kisiler": "Hz. Muhammed; Kureyş kabileleri",
+      "d": "Kâbe'nin onarımında Hacerülesved'in yerine konması konusunda çıkan anlaşmazlık, çözümü Muhammed'e bırakmasıyla giderildi; Muhammed onu kabileler arasında paylaştırdı. Tarihî kayıt: TDV olayı milâdî 605 yılına bağlar; Muhammed'in yaklaşık 35 yaşında olduğunu belirtir.",
+      "kaynak": "TDV: muhammed - \"Milâdî 605 yılında\" (özet); TDV: mekke (yaklaşık 35 yaşında, Hacerülesved) | https://islamansiklopedisi.org.tr/muhammed",
+      "epistem": "tarihi", "etiket": ["peygamber-hayati", "kabe"],
+      "ic_not": "yalnız yıl teyitli; gün bilinmiyor. Bu madde görevde istenmemişti, ek olarak önerilir."
+    },
+    {
+      "sira": 7, "id": "hatice-evlilik",
+      "kesinlik": "belirsiz", "b": "Hz. Muhammed Hz. Hatice ile evlendi",
+      "gun": "yıl verilmemiş; Muhammed 25 yaşında (TDV), Hatice yaklaşık 40 (diğer rivayet 28)",
+      "yer": "Mekke", "yer_id": "Mekke", "kisiler": "Hz. Muhammed; Hatice bint Huveylid",
+      "d": "Hatice'nin ticaret kervanını Şam'a götüren Muhammed'in güvenilirliği üzerine evlilik gerçekleşti. Tarihî kayıt: TDV 25 / yaklaşık 40 yaşları verir; Hatice'nin 28 yaşında olduğu rivayetini daha isabetli bulur.",
+      "kaynak": "TDV: muhammed (yirmi beş yaşında; Hatice'nin yirmi sekiz yaşında olduğu rivayeti daha isabetli); TDV: hatice-bint-huveylid (\"yirmi beş, Hatice’nin kırk yaşında\") | https://islamansiklopedisi.org.tr/hatice-bint-huveylid",
+      "epistem": "tarihi", "etiket": ["peygamber-hayati", "aile"],
+      "ic_not": "Yıl yok (yaş 25 doğum yılına bağlı). Kervan/Şam ayrıntısı bu turda okunmadı; d: kısmındaki kervan cümlesi TDV'den doğrulanmadı - SİLİNEBİLİR."
+    },
+    {
+      "sira": 8, "id": "ilk-vahiy-hira",
+      "t": "0610-01-01", "kesinlik": "yil-ay", "b": "İlk vahiy: Hira mağarasında Alak sûresinin ilk beş âyeti indi",
+      "gun": "610 yılı Ramazan'ın son on günü; (bazı rivayetlerde Pazartesi) - yıl+ay hassasiyeti, gün yok",
+      "yer": "Hira mağarası (Mekke'nin yaklaşık 5 km kuzeydoğusu, Nûr Dağı)", "yer_id": null, "kisiler": "Hz. Muhammed; Cebrâil; Hatice; Varaka b. Nevfel",
+      "d": "İslâm inancına göre Hz. Muhammed'e Hira mağarasında Cebrâil aracılığıyla ilk vahiy geldi ve Alak sûresinin ilk beş âyeti indirildi; bu, peygamberliğin (bi'set) başlangıcıdır. Müslümanlara göre gece Kadir gecesidir. Tarihî kayıt: TDV olayı 610 yılı Ramazan'ın son on gününe yerleştirir; Hatice Hz. Muhammed'i Varaka b. Nevfel'e götürdü.",
+      "kaynak": "TDV: muhammed - \"610 yılı Ramazan ayının son on günü\"; TDV: hira (Alak sûresinin ilk beş âyeti) | https://islamansiklopedisi.org.tr/muhammed ; https://islamansiklopedisi.org.tr/hira",
+      "epistem": "inanis", "inanc_kaynak": "Alak 96/1-5; Kadir 97/1",
+      "etiket": ["peygamber-hayati", "vahiy", "bi-set"],
+      "ic_not": "t=0610-01-01 yalnız yıl hassasiyeti; ay Ramazan beyan. Hicrî-öncesi dönem olduğundan hicrî-miladî kesişim hesabı uygulanamaz. 'Hira' yerleşimi atlasta yok: yer_id boş; Mekke yedek odak."
+    },
+    {
+      "sira": 9, "id": "ilk-musluman-hatice-ebubekir-ali",
+      "kesinlik": "belirsiz", "b": "İlk Müslümanlar: Hatice, Ebû Bekir, Ali ve Zeyd b. Hârise",
+      "gun": "tarihsiz (vahyi izleyen gizli davet dönemi)",
+      "yer": "Mekke", "yer_id": "Mekke", "kisiler": "Hatice; Ebû Bekir; Ali b. Ebû Tâlib; Zeyd b. Hârise",
+      "d": "Müslümanlara göre vahyi ilk kabul edenler eşi Hatice, ardından yakın dostu Ebû Bekir ve çocuklar arasında Ali ile azatlı Zeyd b. Hârise'dir. Tarihî kayıt: TDV sıralama tartışmasını beyan eder (Ali'nin Hatice/Ebû Bekir'den önce mi sonra mı iman ettiği Sünnî-Şiî tartışmalıdır; Ali o sırada 9-10-11 yaşında).",
+      "kaynak": "TDV: muhammed (Hatice, Ebû Bekir, Ali, Zeyd ilk müslümanlar arasında); TDV: ali (yaşının 9, 10 veya 11 olduğu rivayet edilir); TDV: ebu-bekir (ilk müslümanlardan) | https://islamansiklopedisi.org.tr/ali",
+      "epistem": "karma", "etiket": ["peygamber-hayati", "ilk-muslumanlar"],
+      "ic_not": "Tek madde olarak toplandı; ayrı ayrı yazılacaksa sıra beyanlı kalmalı. Ali doğumu (yaklaşık 600, Hicret'ten ~22 yıl önce, rivayet) ayrı madde değil, ic_not."
+    },
+    {
+      "sira": 10, "id": "acik-davet",
+      "kesinlik": "belirsiz", "b": "Açık davet başladı (Şuarâ 214, Safâ tepesi)",
+      "gun": "nübüvvetin 4. yılından itibaren (TDV); miladî karşılığı TDV'de yazılı değil",
+      "yer": "Mekke (Safâ tepesi)", "yer_id": "Mekke", "kisiler": "Hz. Muhammed",
+      "d": "İslâm inancına göre Şuarâ 26/214 âyetiyle en yakın akrabalarını uyarmakla görevlendirilen Hz. Muhammed Safâ tepesinde Mekkelileri açıkça İslâm'a çağırdı. Tarihî kayıt: TDV açık davetin nübüvvetin 4. yılından itibaren yapıldığını belirtir; Mekke eşrafının sert tepkisi başladı.",
+      "kaynak": "TDV: muhammed - \"nübüvvetin 4. yılından itibaren\" (özet); TDV: mekke (açık tebliğ nübüvvetin 4. yılı) | https://islamansiklopedisi.org.tr/muhammed",
+      "epistem": "karma", "inanc_kaynak": "Şuarâ 26/214",
+      "etiket": ["peygamber-hayati", "davet"],
+      "ic_not": "t yazılmadı: 610+3 = 613 çıkarımı TDV'de yok (tarih uydurma yasağı). Hamza (616) ve Ömer'in İslâm'a girişi bu evrede; Hamza 'nübüvvetin 6. yılı (616)' - ek madde adayı."
+    },
+    {
+      "sira": 11, "id": "habesistan-ikinci-hicret",
+      "kesinlik": "belirsiz", "b": "İkinci Habeşistan hicreti: yaklaşık 108 kişi, Ca'fer b. Ebû Tâlib başkanlığında",
+      "gun": "tarihsiz (ilk hicret Receb 615 atlasta VAR - tekrar yazılmadı)",
+      "yer": "Mekke - Aksum (Habeşistan)", "yer_id": "Aksum", "kisiler": "Ca'fer b. Ebû Tâlib; Necâşî Ashame",
+      "d": "Kureyş'in baskısı üzerine ikinci kafile Habeşistan'a hicret etti; Hıristiyan Necâşî onları korudu. Tarihî kayıt: TDV sayıyı yaklaşık 108 olarak verir; Necâşî'nin sonradan Müslüman olduğu rivayet edilir.",
+      "kaynak": "TDV: muhammed (ikinci kafile yaklaşık 108 kişi, Ca'fer başkanlığında) | https://islamansiklopedisi.org.tr/muhammed",
+      "epistem": "karma", "etiket": ["peygamber-hayati", "hicret-habes"],
+      "ic_not": "OKUNMADI: TDV 'Habeşistan' ve 'Etiyopya' sayfası yalnız özet/yönlendirme verdi; ilk hicretin 'Receb 615' ibaresi arama özetinden. Yıl yazılmadı."
+    },
+    {
+      "sira": 12, "id": "hamza-islam",
+      "t": "0616-01-01", "kesinlik": "yil", "b": "Hz. Hamza Müslüman oldu",
+      "gun": "616 (nübüvvetin 6. yılı); gün yok", "yer": "Mekke", "yer_id": "Mekke", "kisiler": "Hamza b. Abdülmuttalib",
+      "d": "Hz. Peygamber'in amcası Hamza nübüvvetin 6. yılında İslâm'a girdi. Tarihî kayıt: TDV yılı 616 olarak verir; Hz. Ömer'in Müslüman oluşu bundan sonra anlatılır (yıl yok).",
+      "kaynak": "TDV: muhammed - \"Nübüvvetin 6. yılında (616)\" | https://islamansiklopedisi.org.tr/muhammed",
+      "epistem": "tarihi", "etiket": ["peygamber-hayati", "ilk-muslumanlar"],
+      "ic_not": "yalnız yıl teyitli; gün bilinmiyor. Ek (istenmeyen) madde."
+    },
+    {
+      "sira": 13, "id": "sib-boykot-baslangic",
+      "t": "0617-01-01", "kesinlik": "yil", "b": "Kureyş'in Hâşimoğullarına boykotu başladı (Şi'b-i Ebû Tâlib)",
+      "gun": "617 (yıl; gün yok)", "yer": "Mekke (Ebû Tâlib mahallesi)", "yer_id": "Mekke", "kisiler": "Ebû Tâlib; Hâşimoğulları; Kureyş",
+      "d": "Kureyş Müslümanlarla ve Hz. Peygamber'i koruyan Hâşim kabilesiyle ticaret, evlilik ve görüşmeyi keserek onları Ebû Tâlib mahallesinde sıkıştırdı. Tarihî kayıt: TDV boykotu yaklaşık üç yıl sürmüş olarak verir.",
+      "kaynak": "TDV: muhammed - \"(617-620)\" (özet); TDV: mekke (yaklaşık üç yıl boykot) | https://islamansiklopedisi.org.tr/muhammed",
+      "epistem": "karma", "etiket": ["peygamber-hayati", "boykot"],
+      "ic_not": "Başlangıç ve bitiş ikisi de yalnız yıl. Müstakil TDV 'Şib-i Ebû Tâlib' maddesi aramada çıkmadı. Bağlı 'aile boykotu belgesi mührü' anlatısı OKUNMADI, yazılmadı."
+    },
+    {
+      "sira": 14, "id": "sib-boykot-bitis",
+      "t": "0620-01-01", "kesinlik": "yil", "b": "Boykot sona erdi",
+      "gun": "620 (yıl; gün yok)", "yer": "Mekke", "yer_id": "Mekke", "kisiler": "Ebû Tâlib; Hâşimoğulları",
+      "d": "Üç yıllık boykot sona erdi. Tarihî kayıt: TDV aralığı 617-620 verir; Ebû Tâlib boykotun bitmesinden kısa süre sonra öldü.",
+      "kaynak": "TDV: muhammed (617-620); TDV: ebu-talib (boykotun bitişinden kısa süre sonra öldü) | https://islamansiklopedisi.org.tr/ebu-talib",
+      "epistem": "karma", "etiket": ["peygamber-hayati", "boykot"],
+      "ic_not": "yalnız yıl teyitli; gün bilinmiyor."
+    },
+    {
+      "sira": 15, "id": "hatice-vefat",
+      "t": "0620-04-19", "kesinlik": "gun", "b": "Hz. Hatice vefat etti",
+      "gun": "10 Ramazan / 19 Nisan 620 (TDV muhammed ve senetul-huzn, kaynak miladî günü kendisi veriyor)",
+      "yer": "Mekke", "yer_id": "Mekke", "kisiler": "Hatice bint Huveylid; Hz. Muhammed",
+      "d": "Hz. Peygamber'in eşi ve ilk destekçisi Hatice, Ebû Tâlib'den yaklaşık bir ay önce vefat etti. Tarihî kayıt: TDV günü 10 Ramazan / 19 Nisan 620 olarak verir.",
+      "kaynak": "TDV: muhammed - \"10 Ramazan / 19 Nisan 620\"; TDV: senetul-huzn (19 Nisan 620; Hatice önce vefat etti) | https://islamansiklopedisi.org.tr/senetul-huzn",
+      "epistem": "tarihi", "etiket": ["peygamber-hayati", "aile", "olum"],
+      "ic_not": "Tek günlü madde. Kaynak miladî günü verdiğinden Jülyen/Gregoryen: 1582 öncesi, kaynak günü aynen yazıldı. İki TDV maddesi aynı günü verir (çift teyit sayılabilir ama muhammed ile senetul-huzn aynı yazara dayanıyor olabilir; bağımsızlık teyit edilmedi)."
+    },
+    {
+      "sira": 16, "id": "ebu-talib-vefat",
+      "t": "0620-01-01", "kesinlik": "yil-ay", "b": "Ebû Tâlib vefat etti",
+      "gun": "620 Şevval (Hatice'den yaklaşık bir ay sonra); gün yok",
+      "yer": "Mekke", "yer_id": "Mekke", "kisiler": "Ebû Tâlib; Hz. Muhammed",
+      "d": "Hz. Peygamber'i yıllarca koruyan amcası Ebû Tâlib İslâm'ı kabul etmeden öldü. Tarihî kayıt: Sünnî kaynaklar bazı âyetlerin onun ölümüyle ilgili indiğini, Şiî kaynaklar ise ölürken iman ettiğini söyler (ihtilaflı).",
+      "kaynak": "TDV: senetul-huzn - \"yaklaşık bir ay sonra (Şevval)\" (özet); TDV: ebu-talib (ö. 620; Hatice'ye yakın tarihte) | https://islamansiklopedisi.org.tr/ebu-talib",
+      "epistem": "tarihi", "etiket": ["peygamber-hayati", "olum"],
+      "ic_not": "Gün yok: Şevval 10 BH ≈ Nisan sonu-Mayıs 620 civarı (hesap beyanı; kayda yazılmadı). t=0620-01-01 yalnız yıl hassasiyeti."
+    },
+    {
+      "sira": 17, "id": "huzun-yili",
+      "t": "0620-01-01", "kesinlik": "yil", "b": "Hüzün yılı (Senetü'l-hüzn): Hatice ve Ebû Tâlib'in vefat yılı",
+      "gun": "nübüvvetin 10. yılı (620)", "yer": "Mekke", "yer_id": "Mekke", "kisiler": "Hz. Muhammed; Hatice; Ebû Tâlib",
+      "d": "Müslümanlar, Hz. Peygamber'in en büyük iki destekçisini kaybettiği bu yıla 'hüzün yılı' derler. Tarihî kayıt: TDV adlandırmayı nübüvvetin onuncu yılına (620) verir; Kureyş'in baskısı ağırlaştı.",
+      "kaynak": "TDV: senetul-huzn - \"nübüvvetin onuncu yılına (620) verilen isim\" | https://islamansiklopedisi.org.tr/senetul-huzn",
+      "epistem": "tarihi", "etiket": ["peygamber-hayati", "huzun-yili"],
+      "ic_not": "Maddeler 15-16 ile çakışmasın diye atlasta tek madde yerine 15+16 yeterli görülebilir; bu madde isteğe bağlı 'adlandırma' olayı."
+    },
+    {
+      "sira": 18, "id": "taif-yolculugu",
+      "t": "0620-01-01", "kesinlik": "yil-ay", "b": "Tâif yolculuğu: Sakîf eşrafı davetini reddetti, Hz. Muhammed taşlandı",
+      "gun": "620, Şevval sonu; yaklaşık on gün kaldı (TDV senetul-huzn, özet)",
+      "yer": "Tâif", "yer_id": "Tâif", "kisiler": "Hz. Muhammed; Zeyd b. Hârise; Sakîf eşrafı; Mut'im b. Adî",
+      "d": "Hz. Peygamber Mekke'de destek kalmayınca Tâif'e gidip Sakîf'i İslâm'a çağırdı; reddedildi, taşlandı, Zeyd de yaralandı; Mekke'ye Mut'im b. Adî'nin korumasıyla döndü. Tarihî kayıt: TDV olayı Hatice ve Ebû Tâlib'in vefatından sonra, nübüvvetin 10. yılına (yaklaşık 620) bağlar.",
+      "kaynak": "TDV: taif (\"620 civarında\" İslâm'a davet, taşlanma); TDV: senetul-huzn (Şevval sonu, on gün); TDV: muhammed | https://islamansiklopedisi.org.tr/taif",
+      "epistem": "tarihi", "etiket": ["peygamber-hayati", "taif"],
+      "ic_not": "Tâif yerleşimi atlasta VAR (m:Mekke). Gün yok."
+    },
+    {
+      "sira": 19, "id": "isra-miraj",
+      "kesinlik": "belirsiz", "b": "İsrâ ve Mi'râc: Mescid-i Harâm'dan Mescid-i Aksâ'ya, oradan semâya yolculuk",
+      "gun": "tarihsiz; en kabul gören görüşe göre Hicret'ten yaklaşık bir yıl önce (Hatice ve Ebû Tâlib'in ölümünden sonra); gelenek: 27 Receb gecesi",
+      "yer": "Mekke - Kudüs (Mescid-i Aksâ) - semâ", "yer_id": "Mekke", "kisiler": "Hz. Muhammed; Cebrâil",
+      "d": "İslâm inancına göre Hz. Muhammed bir gece Mescid-i Harâm'dan Mescid-i Aksâ'ya götürüldü (isrâ), oradan semâya yükseltildi (mi'râc) ve beş vakit namaz bu yolculukta farz kılındı. Çoğunluğa göre yolculuk uyanıkken ve bedenle gerçekleşti; Hz. Âişe, Muâviye gibi isimlere atfen ruhî veya rüya hâli görüşü de vardır. Tarihî kayıt: akademik kaynaklarda olayın tarihi ve kaç kez yaşandığı ihtilaflıdır; tarihî teyidi yoktur.",
+      "kaynak": "TDV: miraj - \"yaklaşık bir yıl önce\" Hicret'ten (özet; en kabul gören görüş), Receb 27 anma; TDV: isra (Receb 27, İsrâ 17/1) | https://islamansiklopedisi.org.tr/mirac",
+      "epistem": "inanis", "inanc_kaynak": "İsrâ 17/1; Necm 53/1-18",
+      "etiket": ["peygamber-hayati", "isra-miraj", "inanc"],
+      "ic_not": "t YAZILMADI: 'Hicret'ten yaklaşık bir yıl önce' = ~621 hesabıdır, TDV yıl vermiyor. 'Beş vakit namazın farz kılınması' cümlesi bu turda okunan özette yok (genel bilgi) - TDV gövdesinden doğrulanana kadar d: metninden çıkarılsın. Madde iki sınıfa bölünebilir."
+    },
+    {
+      "sira": 20, "id": "akabe-ilk-grup",
+      "t": "0620-01-01", "kesinlik": "yil", "b": "Hac mevsiminde altı Yesribli Hz. Muhammed'le görüştü",
+      "gun": "nübüvvetin 11. yılı (620), hac mevsimi; gün yok",
+      "yer": "Mina/Akabe (Mekke yakını)", "yer_id": "Mekke", "kisiler": "Hz. Muhammed; Hazrec'ten altı kişi",
+      "d": "Hac mevsiminde Yesrib'den gelen altı kişi İslâm'ı kabul etti ve Medine'ye döndü. Tarihî kayıt: TDV ilk görüşmeyi nübüvvetin 11. yılına (620) yerleştirir.",
+      "kaynak": "TDV: muhammed - \"Nübüvvetin 11. yılı (620)\" (özet) | https://islamansiklopedisi.org.tr/muhammed",
+      "epistem": "tarihi", "etiket": ["peygamber-hayati", "akabe"],
+      "ic_not": "Şu tutarsızlık beyanı: TDV 'nübüvvetin 10. yılı=620' (hüzün yılı/Tâif) ve 'nübüvvetin 11. yılı (620)' (Akabe) der; iki ifade aynı milâdî yıla düşüyor. Kaynakta böyle; hakem gözüyle bakılmalı. 'altı kişi/Hazrec' ayrıntısında 'Hazrec' kelimesi özetten çıkarıldı, doğrulanmadı."
+    },
+    {
+      "sira": 21, "id": "birinci-akabe-biati",
+      "t": "0621-01-01", "kesinlik": "yil-cikarim", "b": "Birinci Akabe Biatı: on iki Yesribli biat etti",
+      "gun": "ilk görüşmeden bir yıl sonra (TDV: 'ertesi yıl'); gün yok",
+      "yer": "Akabe (Mina)", "yer_id": "Mekke", "kisiler": "Hz. Muhammed; Yesribliler; Mus'ab b. Umeyr",
+      "d": "On iki Yesribli Hz. Peygamber'e biat etti; ardından Mus'ab b. Umeyr İslâm'ı öğretmek üzere Medine'ye gönderildi. Tarihî kayıt: TDV 12 kişiyi ve 'ertesi yıl' ifadesini verir.",
+      "kaynak": "TDV: muhammed (on iki kişilik Birinci Akabe Biatı, ertesi yıl); TDV: musab-b-umeyr | https://islamansiklopedisi.org.tr/musab-b-umeyr",
+      "epistem": "tarihi", "etiket": ["peygamber-hayati", "akabe"],
+      "ic_not": "0621 yılı doğrudan yazılı değil: 620 + 'ertesi yıl' çıkarımı; atlas kuralı 'tarih uydurma' için riskli - kesinlik 'cikarim' işaretli, gün komşudan değil. İstenirse t çıkarılıp sira ile bırakılır."
+    },
+    {
+      "sira": 22, "id": "ikinci-akabe-biati",
+      "t": "0622-01-01", "kesinlik": "yil", "b": "İkinci Akabe Biatı: yetmiş beş Yesribli biat etti",
+      "gun": "nübüvvetin 13. yılı (622), hac mevsimi (Zilhicce); gün yok",
+      "yer": "Akabe (Mina)", "yer_id": "Mekke", "kisiler": "Hz. Muhammed; Berâ b. Ma'rûr; yetmiş beş Yesribli",
+      "d": "Yetmiş beş Yesribli Hz. Peygamber'i ve Müslümanları Medine'de korumaya söz verdi; Berâ b. Ma'rûr ilk biat eden oldu. Bu biat Hicret'in hazırlığıdır. Tarihî kayıt: TDV yılı 622 olarak verir.",
+      "kaynak": "TDV: muhammed - \"Nübüvvetin 13. yılında (622)\" (özet); TDV: bera-b-marur (İkinci Akabe Biatı'nda ilk biat eden) | https://islamansiklopedisi.org.tr/bera-b-marur",
+      "epistem": "tarihi", "etiket": ["peygamber-hayati", "akabe", "hicret-hazirlik"],
+      "ic_not": "yalnız yıl teyitli; 'Zilhicce' ayı bu turda TDV'den okunmadı - d: ve gun: içinden çıkarılsın."
+    },
+    {
+      "sira": 23, "id": "hicret-yola-cikis",
+      "t": "0622-09-13", "kesinlik": "gun", "b": "(İsteğe bağlı) Hz. Muhammed Mekke'den ayrıldı; Sevr mağarasında üç gün kaldı",
+      "gun": "1 Rebîülevvel / 13 Eylül 622 (TDV muhammed)",
+      "yer": "Mekke - Sevr mağarası", "yer_id": "Mekke", "kisiler": "Hz. Muhammed; Ebû Bekir; Ali",
+      "d": "Müşriklerin suikast hazırlığı üzerine Hz. Peygamber Ebû Bekir'le Mekke'den çıktı ve Sevr mağarasında üç gün kaldı; Ali onun yatağında kaldı. Tarihî kayıt: TDV ayrılış günü 1 Rebîülevvel / 13 Eylül 622; atlastaki Hicret maddesi yalnız varış (24 Eylül) kaydını içerir.",
+      "kaynak": "TDV: muhammed - \"1 Rebîülevvel / 13 Eylül 622\" (özet); TDV: ali (Peygamber'in yatağında geceyi geçirdi) | https://islamansiklopedisi.org.tr/muhammed",
+      "epistem": "karma", "etiket": ["peygamber-hayati", "hicret"],
+      "ic_not": "Atlastaki Hicret (0622-09-24) tekrar edilmedi; bu yalnız çıkış gününü ayrı madde olarak önerir. Değişmez 2 (sınır kırılması) etkisi YOK: Medine devleti künyesi 24 Eylül'de başlıyor."
+    },
+    {
+      "sira": 24, "id": "muhammed-peygamberlik-doneminin-arkaplani-not",
+      "kesinlik": "belirsiz", "b": "(NOT, madde değil) Fil Vak'ası ve doğum ilişkisi atlastaki 0570 maddesiyle birleştirilmeli",
+      "gun": "-", "yer": "Mekke", "yer_id": "Mekke", "kisiler": "Ebrehe; Abdülmuttalib",
+      "d": "Atlastaki Fil Vak'ası (0570) ve Ebrehe ölümü maddeleri mevcut; doğum maddesi (sıra 1) onlarla çelişmesin diye yıl kararı birlikte verilmeli.",
+      "kaynak": "TDV: fil-vakasi | https://islamansiklopedisi.org.tr/fil-vakasi",
+      "epistem": "tarihi", "etiket": ["not"],
+      "ic_not": "Bu kayıt gerçek madde değildir; çakışma kontrolü sonucunu taşır. Eklenmemeli."
+    }
+  ]
+}
