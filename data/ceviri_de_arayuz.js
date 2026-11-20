@@ -1439,6 +1439,7 @@ Ceviri.ekle("de","arayuz",{
 "bölge hazır, Enter: nota geç":["Gebiet bereit, Eingabe: weiter zur Notiz", "dc296d2c"],
 "bölge yok — ➕ ile ekle":["kein Gebiet — mit ➕ hinzufügen", "85f5b897"],
 "bölgesi":["Gebiet von", "3046e9e0"],
+"c. # [yalnız yıl teyitli; gün teyitsiz]":["um # [nur das Jahr ist gesichert; der Tag ist nicht gesichert]", "bd064a90"],
 "deniz harekâtı":["Seeoperation", "6f41d2c4"],
 "devlet seçilebilir (Osmanlı + kronolojisi olanlar), tek listede.":["Staat wählbar (das Osmanische Reich + alle mit Chronologie), in einer Liste.", "daeceb60"],
 "değişiklik yok":["keine Änderungen", "07526d03"],

@@ -1396,6 +1396,7 @@ Ceviri.ekle("az","arayuz",{
 "bölge hazır, Enter: nota geç":["bölgə hazırdır, Enter: qeydə keç", "dc296d2c"],
 "bölge yok — ➕ ile ekle":["bölgə yoxdur — ➕ ilə əlavə et", "85f5b897"],
 "bölgesi":["bölgəsi", "3046e9e0"],
+"c. # [yalnız yıl teyitli; gün teyitsiz]":["təxminən # [yalnız il təsdiqlənib; gün təsdiqlənməyib]", "bd064a90"],
 "deniz harekâtı":["dəniz əməliyyatı", "6f41d2c4"],
 "devlet seçilebilir (Osmanlı + kronolojisi olanlar), tek listede.":["dövlət seçilə bilər (Osmanlı + xronologiyası olanlar), tək siyahıda.", "daeceb60"],
 "değişiklik yok":["dəyişiklik yoxdur", "07526d03"],

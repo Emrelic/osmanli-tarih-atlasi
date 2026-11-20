@@ -1,6 +1,7 @@
 /* ÇEVİRİ zh · olay — arac/ceviri.py ile YAZILDI, elle düzenleme: py arac/ceviri.py uygula.
    Kayıt: id → [metin, kaynak_ozet] (olayda alan başına). Tasarım: denetim/CEVIRI-1103/TASARIM.md */
 Ceviri.ekle("zh","olay",{
+"OLAYLAR_ORTACAG_BIZANS_BALKAN:0971-04-23:0":{"b": ["在多罗斯托隆（锡利斯特拉）城前，齐米斯基斯击败斯维亚托斯拉夫", "692f203b"], "d": ["齐米斯基斯于971年4月23日在多罗斯托隆以南十二英里的平原上，与斯维亚托斯拉夫的罗斯军队展开大战；罗斯军队溃败，城中开始了为期三个月的围攻。", "9a082cf5"]},
 "OLAYLAR_ORTACAG_BIZANS_BALKAN:0986-08-17:0":{"b": ["图拉真之门战役：巴西尔二世遭保加尔人重创", "9060af56"], "d": ["巴西尔二世向萨迪卡（索非亚）的进军，因准备不周且将领不和，于986年8月17日在图拉真之门隘口遭到惨败；皇帝勉强逃脱。", "7c003379"]},
 "OLAYLAR_ORTACAG_BIZANS_BALKAN:1001-01-01:0":{"b": ["巴西尔二世攻取索非亚", "3006324b"], "d": ["在巴西尔二世的历年征战中，拜占庭于1001年攻占保加尔国家手中的索非亚；随后维丁、斯科普里和其他城堡相继陷落。", "52c0acb4"]},
 "OLAYLAR_ORTACAG_BIZANS_BALKAN:1003-01-01:0":{"b": ["维丁经八个月围攻后向拜占庭投降", "4394c5b7"], "d": ["保加尔国家崩溃后，维丁抵抗拜占庭军队至1003年；经八个月围攻后被攻占。拜占庭的统治延续至1185年。", "7e2d95ee"]},

@@ -1399,6 +1399,7 @@ Ceviri.ekle("fa","arayuz",{
 "bölge hazır, Enter: nota geç":["ناحیه آماده است، Enter: رفتن به یادداشت", "dc296d2c"],
 "bölge yok — ➕ ile ekle":["ناحیه‌ای نیست — با ➕ بیفزایید", "85f5b897"],
 "bölgesi":["ناحیهٔ", "3046e9e0"],
+"c. # [yalnız yıl teyitli; gün teyitsiz]":["حدود # [فقط سال تأیید شده؛ روز تأیید نشده]", "bd064a90"],
 "deniz harekâtı":["عملیات دریایی", "6f41d2c4"],
 "devlet seçilebilir (Osmanlı + kronolojisi olanlar), tek listede.":["دولت قابل انتخاب است (عثمانی + دارندگان گاه‌نگاری)، در یک فهرست.", "daeceb60"],
 "değişiklik yok":["تغییری نیست", "07526d03"],

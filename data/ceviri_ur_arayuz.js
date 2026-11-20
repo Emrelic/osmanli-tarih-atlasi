@@ -1396,6 +1396,7 @@ Ceviri.ekle("ur","arayuz",{
 "bölge hazır, Enter: nota geç":["علاقہ تیار ہے، Enter: نوٹ پر جائیں", "dc296d2c"],
 "bölge yok — ➕ ile ekle":["علاقہ نہیں — ➕ سے شامل کریں", "85f5b897"],
 "bölgesi":["علاقہ", "3046e9e0"],
+"c. # [yalnız yıl teyitli; gün teyitsiz]":["تقریباً # [صرف سال تصدیق شدہ؛ دن غیر تصدیق شدہ]", "bd064a90"],
 "deniz harekâtı":["بحری کارروائی", "6f41d2c4"],
 "devlet seçilebilir (Osmanlı + kronolojisi olanlar), tek listede.":["ریاست منتخب ہو سکتی ہے (عثمانی + جن کی تاریخ ہے)، ایک ہی فہرست میں۔", "daeceb60"],
 "değişiklik yok":["تبدیلی نہیں", "07526d03"],

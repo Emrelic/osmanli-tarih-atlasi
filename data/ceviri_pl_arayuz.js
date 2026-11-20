@@ -1396,6 +1396,7 @@ Ceviri.ekle("pl","arayuz",{
 "bölge hazır, Enter: nota geç":["region gotowy, Enter: przejdź do notatki", "dc296d2c"],
 "bölge yok — ➕ ile ekle":["brak regionu — dodaj przez ➕", "85f5b897"],
 "bölgesi":["region", "3046e9e0"],
+"c. # [yalnız yıl teyitli; gün teyitsiz]":["ok. # [potwierdzony tylko rok; dzień niepotwierdzony]", "bd064a90"],
 "deniz harekâtı":["operacja morska", "6f41d2c4"],
 "devlet seçilebilir (Osmanlı + kronolojisi olanlar), tek listede.":["można wybrać państwo (Osmanowie + te z chronologią), na jednej liście.", "daeceb60"],
 "değişiklik yok":["brak zmian", "07526d03"],
