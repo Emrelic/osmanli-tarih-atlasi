@@ -967,6 +967,7 @@ Ceviri.ekle("nl","arayuz",{
 "Mayıs # [yalnız yıl-ay teyitli; gün teyitsiz]":["mei # [alleen jaar-maand bevestigd; dag onbevestigd]", "4ab7232d"],
 "Mayıs # başı":["begin mei #", "8985fa43"],
 "Mayıs # başı (berat; Dük VI. Heinrich'in ölümü Nisan #) — gün kaynakta yok":["begin mei # (berat; dood van hertog Hendrik VI in april #) — dag ontbreekt in de bron", "7b57c087"],
+"Mayıs # başı [yalnız ay teyitli; gün teyitsiz]":["Begin mei # [alleen de maand is bevestigd; de dag is niet bevestigd]", "7c70f88c"],
 "Mayıs # sonu":["eind mei #", "a55b5c42"],
 "Metin (detay)":["Tekst (detail)", "47a9253c"],
 "Meydan savaşı":["Veldslag", "cc1a62c9"],

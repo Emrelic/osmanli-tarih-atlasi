@@ -969,6 +969,7 @@ Ceviri.ekle("fa","arayuz",{
 "Mayıs # [yalnız yıl-ay teyitli; gün teyitsiz]":["مه # [فقط سال-ماه تأیید شده؛ روز تأیید نشده]", "4ab7232d"],
 "Mayıs # başı":["آغاز مه #", "8985fa43"],
 "Mayıs # başı (berat; Dük VI. Heinrich'in ölümü Nisan #) — gün kaynakta yok":["آغاز مه # (فرمان؛ مرگ دوک هاینریش ششم در آوریل #) — روز در منبع نیست", "7b57c087"],
+"Mayıs # başı [yalnız ay teyitli; gün teyitsiz]":["اوایل مه # [فقط ماه تأیید شده؛ روز تأیید نشده]", "7c70f88c"],
 "Mayıs # sonu":["پایان مه #", "a55b5c42"],
 "Metin (detay)":["متن (جزئیات)", "47a9253c"],
 "Meydan savaşı":["نبرد میدانی", "cc1a62c9"],

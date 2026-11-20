@@ -14,7 +14,7 @@ window.OLAYLAR_EK16 = [
   b:"Karesi ve Hamîdoğulları beyliklerinin kuruluşu",
   gun:"696 (1296-97) / 1297", ic_not_gun:"TDV yıl verir, gün vermez",
   yer:"Balıkesir, Bergama, Edremit, Erdek, Biga, Çanakkale, Ayvalık, Karabiga, Isparta, Burdur, Eğirdir, Uluborlu, Yalvaç, Akşehir",
-  yer_id:"Balıkesir", kisiler:"Karesi Bey, Hamîd Bey",
+  yer_id:"Balıkesir", odak_yer:["Balıkesir","Yalvaç"], kisiler:"Karesi Bey, Hamîd Bey",
   d:"TDV'nin Karesioğulları maddesine göre Karesi Bey, babası Kalem Bey'in ölümüyle çözülen Selçuklu uç teşkilatında bağımsızlığını ilân ederek 696'dan (1296-97) itibaren Balıkesir'i merkez edindi ve kısa sürede Erdek, Biga, Edremit, Bergama dahil Mysia'nın tamamını Bizans'tan aldı. Aynı yıl (1297) Hamîd Bey, Uluborlu'yu hükûmet merkezi yaparak Hamîdoğulları Beyliği'ni kurdu; Isparta, Burdur, Eğirdir ve Yalvaç, çözülen Selçuklu uç bölgesinden beyliğin ilk sınırlarına katıldı. İki beylik de Batı Anadolu'da aynı çöküşün — Selçuklu merkezî otoritesinin dağılmasının — ürünüdür.",
   kaynak:"karesiogullari", duygu:["👑","⚔️"] },
 
@@ -111,7 +111,7 @@ window.OLAYLAR_EK16 = [
   kapsam:"dis", onem:4, b:"Kırım Hanlığı'nın kuruluşu — Hacı Giray'ın Altınorda'dan bağımsızlaşması",
   gun:"845 (1441-42) — TDV'ye göre en eski Hacı Giray parası bu tarihi taşır",
   yer:"Akmescid, Bahçesaray, Eski Kırım (Solhat), Gözleve (Kezlev), Karasubazar, Or Kapı (Ferahkirman), Kefe çevresi, Taganrog",
-  yer_id:"Bahçesaray", kisiler:"Hacı Giray",
+  yer_id:"Bahçesaray", odak_yer:["Bahçesaray","Taganrog"], kisiler:"Hacı Giray",
   d:"TDV'nin Kırım maddesine göre Kırım Hanlığı, XIV. yüzyılın ikinci yarısında Altın Orda'nın taht kavgalarıyla parçalanmasının ürünü olarak ortaya çıktı; hanlığın gerçek kurucusu Hacı Giray'ın bastırdığı en eski para 845 (1441-42) tarihini taşır ve bu, hanlığın resmî kuruluş tarihi sayılır. Aynı yıl Hacı Giray, Kırım'daki konumunu Moskova ile dostluk kurarak pekiştirdi ve Şirin kabilesi başta olmak üzere yerel bey aileleri onun safına katıldı.", ic_not_d:"⚠️ TDV, bozkırın doğusundaki Nogaylar'ı ayrı bir hanlık olarak değil Altınorda'nın çöküşünden sonra dağılan göçebe bir unsur olarak tanımlıyor; bu maddenin konusu yalnız Kırım'ın bağımsızlaşmasıdır, Nogay bozkırındaki eşzamanlı kırılma için ayrı kaynak gerekiyor (bk. aşağıdaki not).",
   kaynak:"kirim", duygu:["👑"] },
 
@@ -159,7 +159,7 @@ window.OLAYLAR_EK16 = [
   kapsam:"dis", onem:3, b:"Gaeta Kuşatması'nın sonu — İki Sicilya Krallığı'nın çöküşü",
   gun:"13 Şubat 1861",
   yer:"Napoli, Bari, Brindisi, Lecce, Foggia, Taranto, Reggio Calabria, Katanya (Catania), Palermo, Messina, Cosenza, L'Aquila, Sirakuza, Otranto, Pantelerya, Trapani",
-  yer_id:"Napoli", kisiler:"II. Francesco (Francis II)",
+  yer_id:"Napoli", odak_yer:["Napoli","Pantelerya"], kisiler:"II. Francesco (Francis II)",
   d:"Garibaldi'nin Mayıs 1860'ta Sicilya'ya çıkışıyla başlayan çöküşün ardından Napoli'den kaçan Bourbon kralı II. Francesco, son kalesi Gaeta'da 3 Kasım 1860'tan itibaren kuşatıldı; Fransız donanmasının Ocak 1861'de bölgeden çekilmesiyle İtalyan deniz ablukası sıkılaştı ve 13 Şubat 1861'de Gaeta teslim oldu. II. Francesco tahtını terk edip sürgüne gitti; İki Sicilya Krallığı'nın son direniş noktası Civitella del Tronto ancak 20 Mart 1861'de düşecektir. Krallığın çöküşüyle Sicilya'daki (Palermo, Messina, Sirakuza, Trapani, Misilmeri) ve Kampanya'daki (Nola dahil) topraklar artık Bourbon idaresinde değildi.", ic_not_d:"D2s-AÇIK-1114 (dilim 188-227, 14 Kasım 2026): Misilmeri ve Nola (Kampanya) adları metne eklendi (yer anılması); iki yerin ayrı devir günü kaynaklanmadı, krallığın çöküşüne bağlı sonuç cümlesidir. · ⚠️ TDV'de bu olayın müstakil maddesi yoktur; dayanak standart akademik kaynak (Encyclopaedia Britannica, İtalyan Birliği/Risorgimento kronolojisi).",
   kaynak:"Treccani DBI, Francesco II di Borbone (https://www.treccani.it/enciclopedia/francesco-ii-di-borbone-re-delle-due-sicilie_(Dizionario-Biografico)/) — «la capitolazione, conclusa il 13 febbr. 1861 | NOT: 14 Şubat sabahı kral gemiye bindi; olay = kapitülasyon anlaşması» (KASA SALI kuyruğu 25; KASA PAZAR 4 Kasım 2026) · önceki: bulunamadı", duygu:["😔","⚔️"] },
 
@@ -201,7 +201,7 @@ window.OLAYLAR_EK16 = [
   kapsam:"dis", b:"Şeybânî Han'ın Herat'ı ve Horasan'ı Timurlulardan alışı",
   gun:"8 Muharrem 913 / 20 Mayıs 1507 (Herat'ın düşüşü) — 15 Muharrem/27 Mayıs (hutbenin Şeybânî adına okunuşu)",
   yer:"Meşhed, Nîşâbur, Sebzevâr, Serahs, Tûs, Merv (Mari), Nesâ, Ebîverd, Kelât-ı Nâdirî, Kûçân, Esferâyin, Bocnûrd, Kâin, Bîrcend, Turbet-i Haydariye, Turbet-i Câm, Turşiz (Kâşmer)",
-  yer_id:"Meşhed", kisiler:"Şeybânî Han, Bediüzzaman Mirza",
+  yer_id:"Meşhed", odak_yer:["Meşhed","Ebîverd"], kisiler:"Şeybânî Han, Bediüzzaman Mirza",
   d:"TDV'nin Şeybânî Han maddesine göre Özbek hükümdarı Şeybânî Han, 1503-1505 arasında Endîcan, Fergana, Hisâr, Kunduz ve Belh'i aldıktan sonra 913'te (1507) Timurlu başkenti Herat'ı da zaptetti; Encyclopaedia Iranica'nın Horasan maddesi bu fethin tam tarihini verir — şehir 8 Muharrem 913'te (20 Mayıs 1507) düştü, bir hafta sonra 15 Muharrem'de (27 Mayıs) hutbe Şeybânî Han adına okunarak fetih resmîleşti. Meşhed dahil bütün Horasan aynı yıl içinde Timurlulardan Şeybânîler'e geçti; bu, Timurlu hânedanının Mâverâünnehir'den sonra İran'daki son büyük kalesini de kaybetmesi anlamına geliyordu.",
   kaynak:"seybani-han", duygu:["⚔️","👑"] },
 
@@ -217,7 +217,7 @@ window.OLAYLAR_EK16 = [
   kapsam:"dis", b:"Britanya'nın kuzey Somali kıyısında himaye kurması — Somaliland'ın başlangıcı",
   gun:"14-21 Temmuz 1884 (Habar Avel kabilesiyle ilk antlaşma 14 Temmuz)",
   yer:"Berbera, Bulhar, Hargeysa, Burao, Erigavo, Borama, Lasanod, Odveyne, Buhodle, Ceel Afveyn, Hîs, Lâs Hore, Mayd, Taleh, Şeyh (Somaliland)",
-  yer_id:"Berbera", kisiler:"Habar Avel kabile reisleri",
+  yer_id:"Berbera", odak_yer:["Berbera","Borama","Buhodle","Bulhar","Burao","Ceel Afveyn","Erigavo","Lasanod","Lâs Hore","Mayd","Odveyne"], kisiler:"Habar Avel kabile reisleri",
   d:"TDV'nin Somali maddesine göre Zeyla, Berberâ ve Tâcûre 1884'te İngilizler tarafından Somaliland adıyla sömürgeleştirildi; standart akademik kaynağa göre bu süreç Berbera'da 21 Ramazan 1301'e (14 Temmuz 1884) rastlayan Habar Avel kabilesiyle imzalanan antlaşmayla başladı ve 1884-1886 arasında Gadabursi, Habar Tolcaala, Habar Gerhacis, İse ve Warsangeli kabileleriyle benzer antlaşmalar imzalanarak genişledi; İngiltere karşılığında askerî koruma vaat etti. Bu antlaşmalar zinciri 1887'de resmî Britanya Somaliland Himayesi'nin ilânına zemin hazırladı.", ic_not_d:"⚠️ TDV kesin gün vermiyor; gün Hertslet'in antlaşma listesine dayanıyor.",
   kaynak:"somali · Hertslet, The Map of Africa by Treaty, 3. bs. (1909) c. I No. 93", duygu:["😔"] },
 
@@ -225,7 +225,7 @@ window.OLAYLAR_EK16 = [
   kapsam:"dis", b:"İtalyan Somalisi'nin doğrudan devlet yönetimine geçişi — Benadir Şirketi'nin tasfiyesi",
   gun:"24 Ocak 1905",
   yer:"Mogadişu, Afgoye, Bardere, Baydoa, Beledveyne, Berâve, Bulo Burte, Cadale, Ceel Barde, Cilib, Diinsoor, Garbahârey, Hudur, Luuk, Merka, Vanlaveyn",
-  yer_id:"Mogadişu", kisiler:"III. Vittorio Emanuele",
+  yer_id:"Mogadişu", odak_yer:["Mogadişu","Bardere","Baydoa","Beledveyne","Bulo Burte","Ceel Barde","Cilib","Diinsoor","Garbahârey","Hudur","Luuk","Vanlaveyn"], kisiler:"III. Vittorio Emanuele",
   d:"TDV'nin Somali maddesine göre İtalya, güney Somali kıyısındaki (Benâdir) hâkimiyetini 1889-1891'de Zengibar Sultanlığı ve İngiltere ile yaptığı anlaşmalarla kurmuş, yönetimini ise başlangıçta imtiyazlı bir ticaret şirketine (Benadir Company) bırakmıştı; standart akademik kaynağa göre bu şirketin imtiyazı 24 Ocak 1905'te sona erdi ve İtalyan devleti Benâdir kıyısının (Mogadişu, Merka, Baraave dahil) doğrudan egemenliğini satın alarak resmî sömürge yönetimini kurdu. Kolonin iç kesimlere (Bardera, Baydoa) doğru fiilî genişlemesi ise 1908 kuruluş kararnamesi ve sonraki yıllarda tamamlanacaktır.",
   kaynak:"somali", duygu:["😔"] },
 
@@ -309,7 +309,7 @@ window.OLAYLAR_EK16 = [
   kapsam:"dis", b:"Deulino Mütarekesi — Smolensk, Çernigov ve Novgorod-Seversk Lehistan'a bırakıldı",
   gun:"11 Aralık 1618",
   yer:"Smolensk, Çernigov, Novgorod-Seversk",
-  yer_id:"Çernigov", kisiler:"Władysław (veliaht prens), I. Mihail Romanov",
+  yer_id:"Çernigov", odak_yer:["Çernigov","Novgorod-Seversk"], kisiler:"Władysław (veliaht prens), I. Mihail Romanov",
   d:"1609-1618 Lehistan-Rus Savaşı'nı sona erdiren Deulino Mütarekesi, 11 Aralık 1618'de imzalandı ve 14,5 yıllık bir ateşkes sağladı; Rusya, Smolensk (Vyazma hariç) ile Çernigov ve Novgorod-Seversk bölgelerindeki 29 şehri Lehistan-Litvanya Birliği'ne bırakmak zorunda kaldı — bu, Kargaşalar Dönemi'nin (Smuta) en ağır toprak kaybıydı. Bölge 1667 Andrusovo Mütarekesi'ne kadar Lehistan'da kalacaktı.",
   kaynak:"bulunamadı — TDV bu antlaşmayı müstakil ele almıyor, dayanak: standart akademik kaynak (Truce of Deulino tarihyazımı)", duygu:["😔"] },
 
@@ -317,7 +317,7 @@ window.OLAYLAR_EK16 = [
   kapsam:"dis", b:"Pereyaslav Radası — Zaporojye Kazakları Rus çarına bağlılık yemini etti",
   gun:"18 Ocak 1654 (Jülyen 8 Ocak)",
   yer:"Çernigov, Novgorod-Seversk, Baturin, Sloboda bozkırı",
-  yer_id:"Çernigov", kisiler:"Bohdan Hmelnitski, I. Aleksey Mihayloviç",
+  yer_id:"Çernigov", odak_yer:["Çernigov","Novgorod-Seversk","Sloboda bozkırı"], kisiler:"Bohdan Hmelnitski, I. Aleksey Mihayloviç",
   d:"1648'den beri Lehistan-Litvanya'ya karşı ayaklanan Zaporojye Kazakları Hetmanı Bohdan Hmelnitski, Moskova'dan Vasili Buturlin başkanlığında gelen heyetin katıldığı 18 Ocak 1654 (Jülyen 8 Ocak) tarihli Pereyaslav Radası'nda Çar I. Aleksey Mihayloviç'e bağlılık yemini etti; bu, Ukrayna Kazak Hetmanlığı'nın Rusya himayesine girişinin başlangıcı sayılır ve Çernigov-Seversk bölgesinin fiilî denetimini Lehistan'dan Rusya'ya kaydırdı — resmî sınır ise 1667 Andrusovo Mütarekesi'yle çizilecekti.",
   kaynak:"bulunamadı — TDV bu olayı müstakil ele almıyor, dayanak: standart akademik kaynak (Pereyaslav Council 1654 tarihyazımı)", duygu:["😔"] },
 
@@ -366,7 +366,7 @@ window.OLAYLAR_EK16 = [
   kapsam:"dis", onem:3, b:"Müleydâ Savaşı — İkinci Suud Devleti'nin sonu, Necid Râşidîler'e geçti",
   gun:"21 Ocak 1891",
   yer:"Riyad, Dir'iye (Necid), Buraydâ (Kasîm), Uneyze, Şakrâ, Necid içi, Necid güneyi, Necid güneybatısı",
-  yer_id:"Riyad", kisiler:"Muhammed bin Reşîd, Abdurrahman bin Faysal (Suud)",
+  yer_id:"Riyad", odak_yer:["Riyad","Necid içi","Uneyze","Şakrâ"], kisiler:"Muhammed bin Reşîd, Abdurrahman bin Faysal (Suud)",
   d:"Zekât anlaşmazlığı ve bir Reşîdî elçisinin tutuklanması üzerine bozulan ilişkiler sonunda, Cebel Şammar emîri Muhammed bin Reşîd'in ordusu, 21 Ocak 1891'de Kasîm bölgesindeki Müleydâ'da Abdurrahman bin Faysal liderliğindeki Suud kuvvetlerini ve müttefiklerini ağır bir yenilgiye uğrattı; bu, İkinci Suud Devleti'nin fiilî sonu oldu, Al Suud ailesi Küveyt'e sürgüne gitti ve Necid'in tamamı Râşidî hâkimiyetine girdi; güneydeki Dilem (Harc), Havta (Havtat Benî Temîm) ve Leylâ (Eflâc) yöreleri de bunun içindeydi. Hâkimiyet 1902'de genç Abdülaziz bin Suud'un Riyad'ı geri almasına kadar (Riyad Baskını, 16 Ocak 1902) sürecekti.",
   kaynak:"bulunamadı — TDV bu savaşı müstakil ele almıyor, dayanak: standart akademik kaynak (Battle of Mulayda tarihyazımı)", duygu:["⚔️"] },
 
@@ -462,7 +462,7 @@ window.OLAYLAR_EK16 = [
   kapsam:"dis", b:"Habsburgların Karniyola ve Karintiya'ya (Ljubljana) el koyması",
   gun:"Mayıs 1335 başı (berat; Dük VI. Heinrich'in ölümü Nisan 1335) — gün kaynakta yok",
   yer:"Ljubljana, Klagenfurt",
-  yer_id:"Ljubljana", kisiler:"Karintiya Dükü VI. Heinrich, Habsburglu II. Albrecht ve IV. Otto",
+  yer_id:"Ljubljana", odak_yer:["Ljubljana","Klagenfurt"], kisiler:"Karintiya Dükü VI. Heinrich, Habsburglu II. Albrecht ve IV. Otto",
   d:"Karintiya Dükü ve Tirol Kontu VI. Heinrich'in 2 Nisan 1335'te Tirol Kalesi'nde vârissiz ölmesiyle, 23 Kasım 1330'da Bavyeralı Ludwig ile gizlice yapılan bir anlaşma uyarınca Habsburg kardeşler II. Albrecht ve IV. Otto, Karintiya Dukalığı'nı ve ona bağlı Karniyola (bugünkü Ljubljana'nın da içinde olduğu bölge) imparatorluk beratıyla aldılar; Tirol ise Heinrich'in kızı vasıtasıyla ayrı kaldı. Bu, Habsburgların Alp bölgesindeki genişlemesinin ilk büyük adımlarından biriydi ve Karniyola 1918'e kadar (kesintili) Habsburg/Avusturya elinde kalacaktı.",
   kaynak:"NDB 'Ludwig der Bayer' (Neue Deutsche Biographie, deutsche-biographie.de/gnd118574957.html): 'bereits Anfang Mai 1335' … 'die österr. Herzöge mit Kärnten belehnt' — AY · AEIOU/Austria-Forum '1335 Erwerbung Kärntens': '1335 belehnte der Kaiser die Habsburger mit Kärnten, das seither mit Österreich verbunden blieb.' · TDV bu olayı kapsamıyor · eski t:1335-05-02 ve '2 Nisan' günü kaynaksızdı (LUGOS-KLAGENFURT-1006)", duygu:["😔"] },
 

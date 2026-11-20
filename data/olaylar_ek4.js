@@ -270,7 +270,7 @@ window.OLAYLAR_EK4 = [
   kaynak:"kavalali-mehmed-ali-pasa", duygu:["🕊"] },
 
 // ---------- VII. İKİNCİ MISIR KRİZİ (1839-1841) ----------
-{ onem:2, dunya:1, bolge_onem:2, puan_s:"v2", kapsam:"ic", t:"1839-04-21", k:"sefer", etiket:["savas","konu-askeri"], b:"Osmanlı ordusu Fırat'ı geçti", gun:"Nisan 1839", yer:"Birecik – Nizip",
+{ onem:2, dunya:1, bolge_onem:2, puan_s:"v2", kapsam:"ic", t:"1839-04-21", k:"sefer", etiket:["savas","konu-askeri"], b:"Osmanlı ordusu Fırat'ı geçti", gun:"Nisan 1839", yer:"Birecik – Nizip", odak_yer:["Birecik"],
   kisiler:"Hafız Mehmed Paşa, Helmuth von Moltke",
   d:"II. Mahmud, Kütahya'da kaybettiklerini geri almak için ordusunu Suriye sınırına sürdü. Orduda müşavir olarak bulunan Prusyalı subay Moltke, mevzi seçimine ve erken taarruza itiraz etti; itirazları dinlenmedi.",
   kaynak:"osmanlilar", duygu:["🐎"], yer_kon:[37.0203,37.9819] },

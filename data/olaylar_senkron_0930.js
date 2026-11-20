@@ -92,7 +92,7 @@ window.OLAYLAR_SENKRON_0930 = [
 { onem:3, dunya:1, bolge_onem:3, puan_s:"v2", kapsam:"dis", bolge:3, t:"1467-01-01", k:"fetih", etiket:["toprak-kazanc","konu-askeri","memluk","dulkadir"],
   b:"Dulkadıroğlu Şehsuvar Bey Besni'yi Memlükler'den aldı (yaklaşık)",
   gun:"1467 (yıl yaklaşık; TDV Şehsuvar'ın alış yılını vermez)",
-  yer:"Besni, Gerger, Birecik, Rumkale", yer_id:"Behisni (Besni)",
+  yer:"Besni, Gerger, Birecik, Rumkale", yer_id:"Behisni (Besni)", odak_yer:["Behisni (Besni)","Birecik"],
   kisiler:"Şehsuvar Bey",
   d:"Fatih Sultan Mehmed tarafından Dulkadır beyi atanan Şehsuvar Bey (1465-1472) Memlükler'in elindeki Besni, Gerger, Birecik ve Rumkale'yi zaptetti; Memlükler 1467 sonbaharında Turnadağı'nda, 1468 ilkbaharında Antep yakınlarında yenildi.",
   kaynak:"dulkadirogullari", duygu:["⚔️"],

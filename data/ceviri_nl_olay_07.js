@@ -1,6 +1,11 @@
 /* ÇEVİRİ nl · olay — arac/ceviri.py ile YAZILDI, elle düzenleme: py arac/ceviri.py uygula.
    Kayıt: id → [metin, kaynak_ozet] (olayda alan başına). Tasarım: denetim/CEVIRI-1103/TASARIM.md */
 Ceviri.ekle("nl","olay",{
+"OLAYLAR_T5_1000B:1076-01-01:0":{"b": ["De emir van Mekka Abu Hashim liet de khutba opnieuw uitspreken op naam van de Fatimidische kalief", "85b6c0c0"], "d": ["Ondanks de pogingen van Malik-Shah de soennitische invloed te versterken, begon de emir van Mekka de khutba weer op naam van de Fatimiden te laten uitspreken; Mekka keerde terug onder de Fatimidische opperheerschappij.", "a7ec64c5"]},
+"OLAYLAR_T5_1000B:1079-01-01:0":{"b": ["Tutush trok Damascus binnen, de Seltsjoeken van Syrië werden gesticht", "b48b38be"], "d": ["Tutush trok de stad binnen en stichtte de Seltsjoekse staat van Syrië.", "6404e098"]},
+"OLAYLAR_T5_1000B:1080-01-01:0":{"b": ["De emir van Mekka verklaarde zijn trouw aan de Abbasidische kalief al-Muqtadi en sultan Malik-Shah", "38a430a5"], "d": ["De emir van Mekka onderwierp zich opnieuw aan de Abbasidische kalief en de Seltsjoekse sultan; deze trouw duurde tot de dood van Malik-Shah (1092).", "41ad14e9"]},
+"OLAYLAR_T5_1000B:1092-01-01:0":{"b": ["Na de dood van sultan Malik-Shah keerde de khutba in Mekka terug naar de Fatimiden", "195a27cd"], "d": ["Toen de Seltsjoekse sultan Malik-Shah stierf, begon de emir van Mekka de khutba opnieuw op naam van de Fatimidische kalief te laten uitspreken; Mekka ging over naar de Fatimidische opperheerschappij.", "00e9a74b"]},
+"OLAYLAR_T5_1000B:1097-07-01:0":{"b": ["Na de nederlaag bij Dorylaion keerde Eskişehir terug naar Byzantium", "3f381ee4"], "d": ["Na de terugtrekking van Kilij Arslan I voor de kruisvaarders kwam de stad opnieuw onder Byzantijns bestuur.", "f3155b07"]},
 "OLAYLAR_T5_1000B:1104-06-06:0":{"b": ["Tughtekin stichtte het Atabegaat van Damascus", "f26729c0"], "d": ["Na de dood van Duqaq stichtte de atabeg Tughtekin de dynastie van de Buriden.", "ac9e7419"]},
 "OLAYLAR_T5_1000B:1150-01-01:0":{"b": ["De Almohaden namen Meknes in", "ee976b41"], "d": ["Na lang verzet kwam de stad onder Almohadische heerschappij en werd geplunderd.", "4924b727"]},
 "OLAYLAR_T5_1000B:1154-04-25:0":{"b": ["Nur ad-Din Zengi nam Damascus in", "a4fd8b58"], "d": ["Nur ad-Din Mahmud bracht Damascus onder zijn heerschappij.", "f87fe7de"]},

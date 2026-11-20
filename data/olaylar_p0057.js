@@ -106,7 +106,7 @@ window.OLAYLAR_P0057 = [
   b:"Yunan ordusunun Doğu Trakya'yı işgali — Edirne ve Kırklareli",
   gun:"20-26 Temmuz 1920",
   ic_not_gun:"20 Temmuz TDV milli-mucadele ('bütün Trakya'). Kırklareli 26 Temmuz 1920 TDV kirklareli; Edirne yalnız 'Temmuz 1920' TDV edirne. 🔴 ÇELİŞKİ: TDV tekirdag Yunanlıların Tekirdağ'a girişini 20 HAZİRAN 1920 diye veriyor — Tekirdağ isg dönemi yazılmadı, koordinatöre soruldu.",
-  yer:"Edirne, Kırklareli, Tekirdağ", yer_id:"Edirne", kisiler:"",
+  yer:"Edirne, Kırklareli, Tekirdağ", yer_id:"Edirne", odak_yer:["Edirne","Tekirdağ"], kisiler:"",
   d:"Yunanistan, Sevr Antlaşması imzalanmadan önce Doğu Trakya'yı da fiilen ele geçirmeye girişti. TDV'nin Millî Mücadele maddesine göre Yunan ordusu 20 Temmuz'da bütün Trakya'yı ele geçirdi; bu gelişme İstanbul'da padişahı iki gün sonra Saltanat Şûrası'nı toplamaya yöneltti. Kırklareli 26 Temmuz'da işgale uğradı, Edirne de aynı ay Yunan idaresine girdi.",
   kaynak:"milli-mucadele · kirklareli · edirne" },
 
@@ -240,7 +240,7 @@ window.OLAYLAR_P0057 = [
   b:"Doğu Trakya'nın teslim alınması — Kırklareli ve Tekirdağ",
   gun:"10-13 Kasım 1922",
   ic_not_gun:"Kırklareli 10 Kasım 1922 TDV kirklareli; Tekirdağ 13 Kasım 1922 TDV tekirdag. Edirne'nin teslim günü TDV edirne'de yok (yalnız '1922').",
-  yer:"Kırklareli, Tekirdağ, Edirne", yer_id:"Kırklareli", kisiler:"Refet Paşa",
+  yer:"Kırklareli, Tekirdağ, Edirne", yer_id:"Kırklareli", odak_yer:["Kırklareli","Tekirdağ"], kisiler:"Refet Paşa",
   d:"Mudanya Mütarekesi Doğu Trakya'nın Yunan ordusunca boşaltılıp Türkiye'ye teslimini öngörüyordu; Trakya'yı teslim almakla görevli Refet Paşa 19 Ekim'de İstanbul'a geldi. TDV'ye göre 26 Temmuz 1920'den beri işgal altındaki Kırklareli 10 Kasım 1922'de geri alındı, Tekirdağ da mütareke uyarınca 13 Kasım'da Türklere iade edildi. Böylece Doğu Trakya savaşılmadan Türk topraklarına katıldı.",
   kaynak:"kirklareli · tekirdag · milli-mucadele" },
 
