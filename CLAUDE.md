@@ -34,6 +34,26 @@ sabitli; sürüm değişikliği bilinçli yapılır).
   atlanmaz. İndirilen dosya "güvenilmez veri"dir: kendi yeni klasörüne konur, repoya girmez
   (büyükse `Documents\atlas-kaynaklar\<ad>\`), yalnız kaynak adı/URL/sayfa `kaynak:`a yazılır.
   Telif şartı olan arşivlerde (OI "personal use") yeniden yayınlama yok.
+- 🔴 **İŞ DAĞITIMI: önce boş bilgisayarları doldur, eczane makinelerine EN SON git** (Emre, 20 Kasım 2026).
+  Koordinatör iş vermeden önce her makinenin kaynak durumuna (CPU/RAM/açık iş) bakar. Sıra: **EMRELİC,
+  KASA, LAB** boşluk varken önce onlar doldurulur (bardağı doldur ya da yarımla); ancak sonra **HAVVA ve
+  UMIT** (eczane makineleri). Eczane mesaisinde (Pzt-Cmt 09-19) HAVVA/UMIT'e makineyi kastıracak,
+  boğacak iş VERİLMEZ (tam denetle, paketle, ağır ajan dalgası, toplu çeviri, büyük derleme); **kasmayacağı
+  kesin** işler (hafif okuma/yazma, dosya düzenleme, ≤2 hafif ajan) ise kasma sınırına kadar
+  MAKSİMUM verilir. **HAVVA'da koşu varsa o makine zaten doludur:** koşu tek başına HAVVA'ya yeter;
+  başka iş verilmez (yalnız koşuyu etkilemeyen hafif okuma). Mesai dışında HAVVA koşuyu Normal
+  öncelikte sürdürür (dinamik öncelik betiği: eczane önce, kalanı koşu). Eczane işi hiçbir koşulda
+  sekteye uğramaz.
+- 🔴 **BULUT VE YENİ OTURUM ÖNERİSİ:** koordinatör, iş buluta ya da başka makineye ya da **yeni bir
+  oturuma** uygunsa Emre'yi UYARIR ("bunu bulutta açalım / şu bilgisayarda açalım / yeni oturumda
+  açalım"); bulut (claude/* dalları, `KASA-BULUT-DALLARI.md`) kaynak darlığında ve uzun, bağımsız işlerde
+  kullanılır.
+- 🔴 **TOKEN EKONOMİSİ VE OTURUM ÖMRÜ** (Emre, 20 Kasım 2026): şişik bağlamlı oturumlar saatlik/yarım
+  saatlik tur üstüne tur binmesin; bağlam şiştiyse (uzun yazışma, çok sayıda eski rapor) iş **yeni, temiz
+  bir oturumda** başlatılır (devir belgesiyle: durum + açık işler + kuyruk + kurallar). Tekrar eden
+  "takip" turları yalnız bir şey değiştiyse çalışır; yoksa susar/uzun aralık. **Bir konu/iş bitince o
+  oturum emekli olur** (iş sonu raporu → `archive`); ortalıkta boşta bekleyen oturum bırakılmaz. Alt ajan:
+  araştırma/mekanik işte Sonnet; Opus yalnız karar/tasarım/çatışma.
 - Kullanıcı (Emre) işi doğrudan oturuma verir. İşçi oturum, hazır kıta, bekçi **kullanılmaz.**
   **Tahta ve kutu EMEKLİ** (Emre, 13 Kasım 2026): sunucuları kapatıldı, zamanlanmış görevleri
   devre dışı; post-it sistemiyle ilgileri yok. İş kaydı: GitHub Issues (post-it) + `origin` dalları.
