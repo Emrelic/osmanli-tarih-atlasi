@@ -1514,6 +1514,7 @@ Ceviri.ekle("ar","arayuz",{
 "bölge hazır, Enter: nota geç":["المنطقة جاهزة، Enter: انتقل إلى الملاحظة", "dc296d2c"],
 "bölge yok — ➕ ile ekle":["لا توجد منطقة — أضف بـ ➕", "85f5b897"],
 "bölgesi":["منطقة", "3046e9e0"],
+"c. # [yalnız yıl teyitli; gün teyitsiz]":["نحو # [السنة فقط مؤكَّدة؛ اليوم غير مؤكَّد]", "bd064a90"],
 "deniz harekâtı":["عملية بحرية", "6f41d2c4"],
 "devlet seçilebilir (Osmanlı + kronolojisi olanlar), tek listede.":["يمكن اختيار الدولة (العثمانيون + ذوو الكرونولوجيا) في قائمة واحدة.", "daeceb60"],
 "değişiklik yok":["لا تغييرات", "07526d03"],

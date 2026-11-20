@@ -1399,6 +1399,7 @@ Ceviri.ekle("ja","arayuz",{
 "bölge hazır, Enter: nota geç":["地域の準備完了、Enter：メモへ進む", "dc296d2c"],
 "bölge yok — ➕ ile ekle":["地域がない — ➕ で追加", "85f5b897"],
 "bölgesi":["の地域", "3046e9e0"],
+"c. # [yalnız yıl teyitli; gün teyitsiz]":["紀元 # 年頃 [年のみ確認、日は未確認]", "bd064a90"],
 "deniz harekâtı":["海上作戦", "6f41d2c4"],
 "devlet seçilebilir (Osmanlı + kronolojisi olanlar), tek listede.":["国家を選択できる（オスマン帝国＋年表を持つもの）、単一のリストで。", "daeceb60"],
 "değişiklik yok":["変更なし", "07526d03"],

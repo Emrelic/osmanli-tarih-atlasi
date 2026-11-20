@@ -1396,6 +1396,7 @@ Ceviri.ekle("bn","arayuz",{
 "bölge hazır, Enter: nota geç":["অঞ্চল প্রস্তুত, Enter: নোটে যান", "dc296d2c"],
 "bölge yok — ➕ ile ekle":["অঞ্চল নেই — ➕ দিয়ে যোগ করুন", "85f5b897"],
 "bölgesi":["অঞ্চল", "3046e9e0"],
+"c. # [yalnız yıl teyitli; gün teyitsiz]":["আনুমানিক # [শুধু বছর নিশ্চিত; দিন নিশ্চিত নয়]", "bd064a90"],
 "deniz harekâtı":["নৌ অভিযান", "6f41d2c4"],
 "devlet seçilebilir (Osmanlı + kronolojisi olanlar), tek listede.":["রাষ্ট্র বাছা যায় (অটোমান + কালপঞ্জিযুক্তগুলো), এক তালিকায়।", "daeceb60"],
 "değişiklik yok":["পরিবর্তন নেই", "07526d03"],

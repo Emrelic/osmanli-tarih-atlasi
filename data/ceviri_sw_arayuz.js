@@ -1396,6 +1396,7 @@ Ceviri.ekle("sw","arayuz",{
 "bölge hazır, Enter: nota geç":["kanda iko tayari, Enter: nenda kwenye dokezo", "dc296d2c"],
 "bölge yok — ➕ ile ekle":["hakuna kanda — ongeza kwa ➕", "85f5b897"],
 "bölgesi":["kanda ya", "3046e9e0"],
+"c. # [yalnız yıl teyitli; gün teyitsiz]":["karibu # [mwaka tu ndio umethibitishwa; siku haijathibitishwa]", "bd064a90"],
 "deniz harekâtı":["operesheni ya baharini", "6f41d2c4"],
 "devlet seçilebilir (Osmanlı + kronolojisi olanlar), tek listede.":["mataifa yanaweza kuchaguliwa (Ottoman + yenye kronolojia), katika orodha moja.", "daeceb60"],
 "değişiklik yok":["hakuna mabadiliko", "07526d03"],
