@@ -7548,7 +7548,28 @@ def main():
     # Triyaj edilen çiftler BILINEN_AYRI'ya yazılır ve liste kısalır.
     tum = mukerrer_maddeler(O)
     mk = [r for r in tum if r[4] == "başlık" or r[4].startswith("kişi!")]
-    zayif = [r for r in tum if r[4].startswith("kişi:")]
+    # 🆕 20 KASIM 2026 — KÜME KURALI (LAB19, EMRELİC kararı) — GÜRÜLTÜ AZALTMA, TAVAN GEVŞETMESİ DEĞİL.
+    # Bir kayıt AYNI ÖLÇÜTLE ≥ KUME_ESIK (3) FARKLI kayıtla çift oluşturuyorsa bu bir mükerrer
+    # DEĞİL, bir KÜMEDİR: tek genel olay × çok sayıda parça kaydı (şehir-bazlı sınır kaydı, antlaşmanın
+    # sınır parçaları, gezginin yolculuk ayakları, manda bölümleri). Gerçek mükerrer ikili olur; üç
+    # ayrı kayıtla aynı gün aynı kişileri paylaşan kayıt parçalı anlatımdır.
+    # ÖLÇÜM (20 Kasım 2026, main 431ecba8e + 2 birleştirme, 250 sıkı çift): kural 90 çifti düşürür,
+    # 160 kalır; düşenlerde başlık-benzerliği ≥0.6 olan TEK çift (Milletler Cemiyeti Kamerun/Togo
+    # B-mandası: farklı topraklar, bilinçli ikiz). Küme örnekleri: Theodosius 395 olayı × 50+ şehir-sınır
+    # kaydı (olaylar_antik_misir_nubya × kronoloji_sinir_antik_roma, 61 çift); Versay/Trianon/Saint-Germain
+    # sınır parçaları (kronoloji_sinir_avrupa_*, ~20 çift); Rusya gezgin ayakları (olaylar_gezginler, 5 çift);
+    # Milletler Cemiyeti mandaları (kronoloji_sinir_afrika, 6 çift); Lozan × Patmos/Meriç/Bulgar sınırı.
+    # Küme içinde SAHİCİ mükerrer gizlenebilir: KUME_ESIK'in altında kalan ikililer görünmeye devam eder.
+    KUME_ESIK = 3
+    _komsu = {}
+    for _r in mk:
+        _komsu.setdefault(id(_r[2]), set()).add(id(_r[3]))
+        _komsu.setdefault(id(_r[3]), set()).add(id(_r[2]))
+    _kume_cift = [_r for _r in mk
+                  if len(_komsu[id(_r[2])]) >= KUME_ESIK or len(_komsu[id(_r[3])]) >= KUME_ESIK]
+    _kume_idler = {id(_r) for _r in _kume_cift}
+    mk = [_r for _r in mk if id(_r) not in _kume_idler]
+    zayif =[r for r in tum if r[4].startswith("kişi:")]
     # 🔴 BEKLENEN 0 → 114 (24 Eylül 2026) — BU BİR GEVŞETME DEĞİL, BORÇ BEYANI.
     # `kronoloji_sinir*.js` (10 dosya, 405 madde) Değişmez 2 evrenine katılınca
     # bu denetim 0'dan 114'e çıktı. Ölçüldü: çiftlerin YAKLAŞIK YARISI SAHİCİ
@@ -7578,6 +7599,7 @@ def main():
     durum5 = "✓" if len(mk) <= BEKLENEN_MUKERRER else "✗"
     if len(mk) > BEKLENEN_MUKERRER:
         ihlal = True
+    print(f"Ek denetim  ℹ  mükerrer KÜME ikizi (sayılmadı, kayıt ≥{KUME_ESIK} çiftte): {len(_kume_cift)} çift")
     print(f"Ek denetim  {durum5}  mükerrer madde: {len(mk)} şüpheli çift "
           f"(beklenen ≤{BEKLENEN_MUKERRER} — BORÇ, hedef 0)")
     # 🔴🔴 SIRA BİLEREK BÖYLE — 30 Ağustos 2026, İKİ KEZ ISIRDIKTAN SONRA.
