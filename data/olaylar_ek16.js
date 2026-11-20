@@ -159,7 +159,7 @@ window.OLAYLAR_EK16 = [
   kapsam:"dis", onem:3, b:"Gaeta Kuşatması'nın sonu — İki Sicilya Krallığı'nın çöküşü",
   gun:"13 Şubat 1861",
   yer:"Napoli, Bari, Brindisi, Lecce, Foggia, Taranto, Reggio Calabria, Katanya (Catania), Palermo, Messina, Cosenza, L'Aquila, Sirakuza, Otranto, Pantelerya, Trapani",
-  yer_id:"Napoli", odak_yer:["Napoli","Pantelerya"], kisiler:"II. Francesco (Francis II)",
+  yer_id:"Napoli", odak_yer:["Napoli","Pantelerya","Nola (Kampanya)"], kisiler:"II. Francesco (Francis II)",
   d:"Garibaldi'nin Mayıs 1860'ta Sicilya'ya çıkışıyla başlayan çöküşün ardından Napoli'den kaçan Bourbon kralı II. Francesco, son kalesi Gaeta'da 3 Kasım 1860'tan itibaren kuşatıldı; Fransız donanmasının Ocak 1861'de bölgeden çekilmesiyle İtalyan deniz ablukası sıkılaştı ve 13 Şubat 1861'de Gaeta teslim oldu. II. Francesco tahtını terk edip sürgüne gitti; İki Sicilya Krallığı'nın son direniş noktası Civitella del Tronto ancak 20 Mart 1861'de düşecektir. Krallığın çöküşüyle Sicilya'daki (Palermo, Messina, Sirakuza, Trapani, Misilmeri) ve Kampanya'daki (Nola dahil) topraklar artık Bourbon idaresinde değildi.", ic_not_d:"D2s-AÇIK-1114 (dilim 188-227, 14 Kasım 2026): Misilmeri ve Nola (Kampanya) adları metne eklendi (yer anılması); iki yerin ayrı devir günü kaynaklanmadı, krallığın çöküşüne bağlı sonuç cümlesidir. · ⚠️ TDV'de bu olayın müstakil maddesi yoktur; dayanak standart akademik kaynak (Encyclopaedia Britannica, İtalyan Birliği/Risorgimento kronolojisi).",
   kaynak:"Treccani DBI, Francesco II di Borbone (https://www.treccani.it/enciclopedia/francesco-ii-di-borbone-re-delle-due-sicilie_(Dizionario-Biografico)/) — «la capitolazione, conclusa il 13 febbr. 1861 | NOT: 14 Şubat sabahı kral gemiye bindi; olay = kapitülasyon anlaşması» (KASA SALI kuyruğu 25; KASA PAZAR 4 Kasım 2026) · önceki: bulunamadı", duygu:["😔","⚔️"] },
 
@@ -233,7 +233,7 @@ window.OLAYLAR_EK16 = [
   b:"Kraliçe Katerina Cornaro Kıbrıs'ı Venedik'e devretti — Haçlı devletinin sonu",
   gun:"26 Şubat 1489",
   yer:"Lefkoşa, Magosa, Girne, Baf, Limasol, Tuzla (Larnaka)",
-  yer_id:"Lefkoşa", kisiler:"Katerina Cornaro",
+  yer_id:"Lefkoşa", odak_yer:["Lefkoşa","Tuzla (Larnaka)"], kisiler:"Katerina Cornaro",
   d:"Kocası Kral II. Jacques'in 1473'te ölümünden sonra kraliçe naibi olarak Kıbrıs'ı yöneten Venedikli Katerina Cornaro, mirasçısı olmadığı için Venedik hükûmetinin baskısıyla 26 Şubat 1489'da tahttan çekilerek adadaki hükümdarlık haklarını doge'ye ve Venedik Cumhuriyeti'ne devretti; karşılığında kraliçe unvanını korudu ve Terraferma'da Asolo kontluğunu aldı. Bu devirle 1192'den beri süren Lüzinyan (Lusignan) hânedanı hâkimiyeti ve son Haçlı devleti sona erdi, ada 1570-71 Osmanlı fethine kadar Venedik idaresinde kaldı.",
   kaynak:"Treccani, Caterina Cornaro regina di Cipro (https://www.treccani.it/enciclopedia/caterina-cornaro-regina-di-cipro/) — «Venezia la costrinse ad abdicare a suo favore (26 febbr. 1489)» (KASA SALI kuyruğu 28; KASA PAZAR 4 Kasım 2026) · önceki: bulunamadı — TDV bu olayı müstakil bir maddede ele almıyor, dayanak: standart akademik kaynak (Catherine Cornaro tarihyazımı)", duygu:["😔"] },
 
@@ -366,7 +366,7 @@ window.OLAYLAR_EK16 = [
   kapsam:"dis", onem:3, b:"Müleydâ Savaşı — İkinci Suud Devleti'nin sonu, Necid Râşidîler'e geçti",
   gun:"21 Ocak 1891",
   yer:"Riyad, Dir'iye (Necid), Buraydâ (Kasîm), Uneyze, Şakrâ, Necid içi, Necid güneyi, Necid güneybatısı",
-  yer_id:"Riyad", odak_yer:["Riyad","Necid içi","Uneyze","Şakrâ"], kisiler:"Muhammed bin Reşîd, Abdurrahman bin Faysal (Suud)",
+  yer_id:"Riyad", odak_yer:["Riyad","Necid içi","Uneyze","Şakrâ","Havta (Havtat Benî Temîm)"], kisiler:"Muhammed bin Reşîd, Abdurrahman bin Faysal (Suud)",
   d:"Zekât anlaşmazlığı ve bir Reşîdî elçisinin tutuklanması üzerine bozulan ilişkiler sonunda, Cebel Şammar emîri Muhammed bin Reşîd'in ordusu, 21 Ocak 1891'de Kasîm bölgesindeki Müleydâ'da Abdurrahman bin Faysal liderliğindeki Suud kuvvetlerini ve müttefiklerini ağır bir yenilgiye uğrattı; bu, İkinci Suud Devleti'nin fiilî sonu oldu, Al Suud ailesi Küveyt'e sürgüne gitti ve Necid'in tamamı Râşidî hâkimiyetine girdi; güneydeki Dilem (Harc), Havta (Havtat Benî Temîm) ve Leylâ (Eflâc) yöreleri de bunun içindeydi. Hâkimiyet 1902'de genç Abdülaziz bin Suud'un Riyad'ı geri almasına kadar (Riyad Baskını, 16 Ocak 1902) sürecekti.",
   kaynak:"bulunamadı — TDV bu savaşı müstakil ele almıyor, dayanak: standart akademik kaynak (Battle of Mulayda tarihyazımı)", duygu:["⚔️"] },
 

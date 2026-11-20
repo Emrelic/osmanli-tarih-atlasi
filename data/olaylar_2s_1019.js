@@ -520,7 +520,7 @@ window.OLAYLAR_2S1019 = [
   onem:2,
   dunya:2,
   kapsam:"dis",
-  yer_id:"Cezîretülhadrâ (Algeciras)",
+  yer_id:"Cezîretülhadrâ (Algeciras)", odak_yer:["Cezîretülhadrâ (Algeciras)","Maykop (Çerkezya)"],
   b:"Kastilya Kralı XI. Alfonso Cezîretülhadrâ'yı (Algeciras) aldı: yirmi aylık kuşatmadan sonra Merînî hâkimiyeti sona erdi",
   gun:"26 Mart 1344",
   ic_not_gun:"YIL-TEMSİLİ-DİLİM2-1114: önceki gün 1344-01-01 (yıl-temsilî). 26 Mart = Algeciras Müslümanlarının şehri terk etme emrini aldığı ve Villa Nueva'nın boşaltıldığı gün; 27 Mart Villa Vieja boşaldı, 28 Mart 1344 Alfonso XI şehre girdi (López Fernández).",

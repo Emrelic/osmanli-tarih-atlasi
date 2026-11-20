@@ -876,13 +876,13 @@ window.KRONOLOJI_SINIR_AVRUPA_BATI = [
   kaynak:"vs.ch Valais Kantonu sanal sergi «Die Franzosenzeit und die Urkunde zum Beitritt des Wallis zur Eidgenossenschaft (1798–1815)» (vs.ch/de/web/exposition-virtuelle/la-periode-francaise-et-l-acte-de-reunion-du-valais-a-la-confederation1) · Treccani «Vallese» (treccani.it/enciclopedia/vallese/) · Treccani «Sion»: «Il governo vescovile durò fino al 1798»" },
 
 { t:"1802-09-01", kesinlik:"ay", devlet:"valais-cumhuriyeti", devletler:["valais-cumhuriyeti","helvetik-cumhuriyeti","fransa-cumhuriyet"], sinir_id:"",
-  b:"Valais «bağımsız» cumhuriyet ilan edildi — fiilen Fransız egemenliğinde", tur:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Sion",
+  b:"Valais «bağımsız» cumhuriyet ilan edildi — fiilen Fransız egemenliğinde", tur:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Sion", odak_yer:["Sion","Martigny (Martinach)"],
   etiket:["konu-siyasi","sinir"],
   d:"Helvetik Cumhuriyeti'nden ayrılan Valais, 1802'de nominal bağımsız Rodan (Valais) Cumhuriyeti oldu; fiilen Fransız egemenliğinde kaldı. Gün çelişkisi: vallesiana.ch 5 Eylül, en.wikipedia 28 Ağustos; ay düzeyinde alındı. Bu cumhuriyetin atlas künyesi valais-cumhuriyeti olarak açıldı; Sion ve Martigny 1810-11-12'ye dek bu künyeye bağlıdır.",
   kaynak:"vs.ch Valais Kantonu sanal sergi «Die Franzosenzeit und die Urkunde zum Beitritt des Wallis zur Eidgenossenschaft (1798–1815)» (vs.ch/de/web/exposition-virtuelle/la-periode-francaise-et-l-acte-de-reunion-du-valais-a-la-confederation1) · Treccani «Vallese» (treccani.it/enciclopedia/vallese/)" },
 
 { t:"1813-12-01", kesinlik:"ay", devlet:"isvicre", devletler:["fransa-cumhuriyet","isvicre"], sinir_id:"",
-  b:"Fransız birlikleri Valais'den çekildi — Simplon départementı sona erdi", tur:"toprak-kayip", onem:2, dunya:2, kapsam:"dis", yer_id:"Sion",
+  b:"Fransız birlikleri Valais'den çekildi — Simplon départementı sona erdi", tur:"toprak-kayip", onem:2, dunya:2, kapsam:"dis", yer_id:"Sion", odak_yer:["Sion","Martigny (Martinach)"],
   etiket:["konu-siyasi","sinir"],
   d:"Valais Aralık 1813'e dek Fransız Simplon départementıydı; Fransız çekilişinin ardından Müttefik/Avusturya işgaline girdi. Çekiliş günü kaynakta yok (ay düzeyi). Valais ancak 4 Ağustos 1815'te Konfederasyon'a katıldığından aradaki dönem beyanlı boşluktur. Aynı gün atlasta Simplon départementından çıkan diğer yerleşim: Martigny (Martinach). Simplon départementının merkezi Sion (Sitten) de aynı günde Fransız idaresinden çıkar.",
   kaynak:"vs.ch Valais Kantonu sanal sergi «Die Franzosenzeit und die Urkunde zum Beitritt des Wallis zur Eidgenossenschaft (1798–1815)» (vs.ch/de/web/exposition-virtuelle/la-periode-francaise-et-l-acte-de-reunion-du-valais-a-la-confederation1) · Treccani «Vallese» (treccani.it/enciclopedia/vallese/)" },

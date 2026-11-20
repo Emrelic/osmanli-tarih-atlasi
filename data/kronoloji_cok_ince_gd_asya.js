@@ -253,7 +253,7 @@ window.KRONOLOJI_COK_INCE_GD_ASYA = [
   ic_not_t:"Fetih yılı 1778 mi 1779 mu kaynakta değişiyor; 1778 alındı." },
 
 // ── HAWAII KRALLIĞI ────────────────────────────────────────────────
-{ onem:4, dunya:1, bolge_onem:2, puan_s:"v2", odak_yer:["Honolulu"], t:"1810-01-01", k:"siyasi",tur:"siyasi", b:"Kauai ve Niihau Kamehameha'nın egemenliğini kabul etti — adalar birleşti",
+{ onem:4, dunya:1, bolge_onem:2, puan_s:"v2", odak_yer:["Honolulu","Hawaii Adaları (Birleşme Öncesi — moku/aliʻi sistemi)"], t:"1810-01-01", k:"siyasi",tur:"siyasi", b:"Kauai ve Niihau Kamehameha'nın egemenliğini kabul etti — adalar birleşti",
   gun:"1810 (yıl)", yer:"Kauai", kisiler:"Kamehameha I, Kaumualii",
   d:"Kamehameha'nın Kauai'yi işgal girişimleri başarısız kalınca Kauai Kralı Kaumualii 1810'da müzakereyle Kamehameha'nın üstünlüğünü kabul etti. Böylece bütün Hawaii adaları tek bir devletin çatısı altında birleşmiş oldu.",
   kaynak:"Ralph S. Kuykendall, The Hawaiian Kingdom, cilt 1 (University of Hawaii Press, 1938). Sayfa verilmedi.",

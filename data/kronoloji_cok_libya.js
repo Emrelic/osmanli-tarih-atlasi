@@ -251,7 +251,7 @@ window.KRONOLOJI_COK_LIBYA = [
   gun:"1862 (TDV gün vermez)" },
 
 { t:"1863-01-01", b:"Bingazi, Bâbıâli'ye doğrudan bağlı müstakil mutasarrıflık oldu", tur:"idari", onem:3, dunya:1, kapsam:"ic",
-  etiket:["idari","konu-idari"], yer_id:"Bingazi", taraflar:["trablusgarp-ocagi"],
+  etiket:["idari","konu-idari"], yer_id:"Bingazi", odak_yer:["Bingazi","Kufra (el-Cûf)"], taraflar:["trablusgarp-ocagi"],
   d:"Bingazi, Trablusgarp'tan ayrılarak doğrudan İstanbul'a bağlı müstakil bir mutasarrıflığın merkezi yapıldı; eski imtiyazları kaldırılıp düzenli vergiye bağlandı. Mutasarrıflık Bingazi, Derne, Ucle-Câlû, Ecdâbiye ve Kufra kazalarından oluştu. İlk mutasarrıf Halil Paşa kabile isyanlarını bastırdı.",
   kaynak:"TDV `bingazi`: \"1863’te Berka’dan ayrılarak doğrudan Bâbıâli’ye bağlı müstakil bir mutasarrıflık merkezi haline getirildi\"",
   gun:"1863 (TDV gün vermez)",

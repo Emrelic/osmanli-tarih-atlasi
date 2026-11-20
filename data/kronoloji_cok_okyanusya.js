@@ -75,7 +75,7 @@ window.KRONOLOJI_COK_OKYANUSYA = [
   ic_not_d:"Haritadaki Merauke 1902-02-12 kırılmasını kapatır." },
 
 { t:"1901-01-01", b:"Avustralya Milletler Topluluğu (federasyon) ilan edildi", tur:"kurulus", onem:5, dunya:3, kapsam:"ic",
-  etiket:["kurulus","birlesme","anayasa","konu-siyasi","avustralya"], yer_id:"Sydney", taraflar:["avustralya","yeni-guney-galler","van-diemens-land","bati-avustralya","guney-avustralya","viktorya-kolonisi","queensland"],
+  etiket:["kurulus","birlesme","anayasa","konu-siyasi","avustralya"], yer_id:"Sydney", odak_yer:["Sydney","Tazmanya (Aborijin Tazmanyalılar)"], taraflar:["avustralya","yeni-guney-galler","van-diemens-land","bati-avustralya","guney-avustralya","viktorya-kolonisi","queensland"],
   d:"Altı İngiliz kolonisi (Yeni Güney Galler, Viktorya, Queensland, Güney Avustralya, Batı Avustralya, Tazmanya) 1900 tarihli Commonwealth Anayasası uyarınca 1 Ocak 1901'de tek federal devlet olarak birleşti; ilk Genel Vali Sydney'de yemin etti. Federasyon, Avustralya kıtasının siyasî haritada tek devletin adı altına girdiği andır.",
   kaynak:"Commonwealth of Australia Constitution Act 1900 (63 & 64 Vict. c. 12) · National Archives of Australia / Museum of Australian Democracy, «Federation» sayfaları. Sayfa verilmedi (açılmadı).",
   gun:"1 Ocak 1901 (Anayasa'nın yürürlüğe girdiği gün; hafızadan, kurumsal sayfa açılmadı)",
@@ -144,7 +144,7 @@ window.KRONOLOJI_COK_OKYANUSYA = [
   ic_not_d:"Doğrulama 28 Ekim 2026: gün NPS sayfasıyla doğrulandı (sayfa yılı ayrıca vurgulamaz; yıl 1778-79 seferinin akışından). Kalaniʻōpuʻu'yu rehin alma ayrıntısı bu sayfada okunmadı (yardımcı cümle)." },
 
 { t:"1825-12-03", b:"Van Diemen's Land (Tazmanya) Yeni Güney Galler'den ayrılıp ayrı İngiliz kolonisi oldu", tur:"kurulus", onem:3, dunya:2, kapsam:"ic",
-  etiket:["konu-siyasi","kurulus","idari","ingiltere"], yer_id:"Hobart", taraflar:["ingiltere","yeni-guney-galler","van-diemens-land"],
+  etiket:["konu-siyasi","kurulus","idari","ingiltere"], yer_id:"Hobart", odak_yer:["Hobart","Tazmanya (Aborijin Tazmanyalılar)"], taraflar:["ingiltere","yeni-guney-galler","van-diemens-land"],
   d:"Tazmanya, 1803–04'te Yeni Güney Galler'in bağımlısı olarak yerleşilmişti; 3 Aralık 1825'te ayrı bir koloni ilan edildi ve ayrı vali (George Arthur) atandı. Koloni, 1856'da 'Tasmania' adını aldı.",
   kaynak:"Museum of Australian Democracy, «Creating a Nation» zaman çizelgesi (explore.moadoph.gov.au/timelines/creating-a-nation.html) — sayfa AÇILDI: «3 December 1825: An Order-in-Council separates Van Diemen's Land from New South Wales».",
   gun:"3 Aralık 1825 (MoAD zaman çizelgesi)",

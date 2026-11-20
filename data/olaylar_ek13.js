@@ -322,7 +322,7 @@ window.OLAYLAR_EK13 = [
   yer:"Bahreyn (Evâl adaları), Zübâre — Katar yarımadası",
   kisiler:"Ahmed b. Muhammed b. Halîfe, Nasr Âl-i Mezkûr",
   d:"Zend idaresinin Bahreyn valisi Nasr Âl-i Mezkûr, Katar yarımadasındaki Zübâre'yi kuşattı; Ahmed b. Muhammed b. Halîfe kumandasındaki Utûb kuvvetleri kuşatmayı kırdı ve karşı taarruza geçerek aynı yıl Bahreyn'i aldı. TDV'nin kaydı kısadır: \"Bahreyn 1783 yılında Utûb kabilesinden Âl-i Halîfe'nin hâkimiyetine girdi.\" Ahmed b. Muhammed bu zaferden sonra \"el-Fâtih\" lakabıyla anıldı ve kurduğu hanedan adada bugüne kadar hüküm sürdü.",
-  kaynak:"bahreyn", duygu:["🏛"], yer_id:"Manama (Bahreyn)" },
+  kaynak:"bahreyn", duygu:["🏛"], yer_id:"Manama (Bahreyn)", odak_yer:["Manama (Bahreyn)","Katar Yarımadası (iç, dolgu)"] },
 
 // ---------------------------------------------------------------------------
 // A-19 — İngiltere ile antlaşma   ⚠️ TDV 21 MAYIS, ATLAS 31 MAYIS

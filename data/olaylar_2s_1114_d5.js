@@ -52,7 +52,7 @@ window.OLAYLAR_2S1114D5 = [
   onem:3,
   dunya:2,
   kapsam:"dis",
-  yer_id:"Port Vila",
+  yer_id:"Port Vila", odak_yer:["Port Vila","Teouma (Efate, Lapita mezarlığı)"],
   b:"Yeni Hebridler bağımsız oldu: Vanuatu Cumhuriyeti kuruldu",
   gun:"30 Temmuz 1980",
   yer:"Port Vila, Teouma (Efate)",
