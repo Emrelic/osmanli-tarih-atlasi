@@ -2538,8 +2538,10 @@ harita.on("load", function () {
   // ④ MapLibre'nin "sürüklenince küçül" dinleyicisi sökülür (özel alan —
   //    yoksa sessizce geçilir, yalnız eski davranış sürer).
   try { if (atifKontrol._updateCompactMinimize) harita.off("drag", atifKontrol._updateCompactMinimize); } catch (e) { /* sürüm farkı */ }
-  var kapali = false;
-  try { kapali = localStorage.getItem("atifKapali") === "1"; } catch (e) { /* özel pencere */ }
+  // 21 Kasım 2026 — Emre: açılışta sağ alttaki ⓘ metni açık çıkmasın. Varsayılan KAPALI;
+  // satır silinmez, ☰ Butonlar → ⓘ Kaynaklar ile bir tık uzakta (lisans, yukarıdaki 🔴).
+  var kapali = true;
+  try { kapali = localStorage.getItem("atifKapali") !== "0"; } catch (e) { /* özel pencere */ }
   atifGoster(!kapali);
   // ② ⓘ tıklaması: MapLibre önce kendi geçişini yapar; biz ardından okuruz.
   var ib = k.querySelector(".maplibregl-ctrl-attrib-button");
