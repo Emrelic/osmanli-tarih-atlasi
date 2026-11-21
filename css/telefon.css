@@ -126,6 +126,19 @@
   #zamanbar { border-top-width: 3px; }
 }
 
+/* Ön kamera deliği: dikey telefonda üst çubuğun TAM ORTASINDA (tam ekranda ekranın içine biner).
+   Yıl ortadan sağa kaydı: kamera payı 24 px, yıl onun sağında; ☰ Butonlar + BETA solda kalır. */
+@media (pointer: coarse) and (orientation: portrait) and (max-width: 700px) {
+  #ustbar { position: relative; }
+  #ustbar #ustbar-yil {
+    position: absolute; left: calc(50% + 20px); top: 50%; transform: translateY(-50%);
+    flex: none; text-align: left; font-size: 18px; letter-spacing: 0; z-index: 1;
+  }
+  /* Sağ yarıda yıl + Daralt + dil sığsın diye ikisi bir tık küçük. */
+  #ustbar #btn-panel { margin-left: auto; font-size: 11px; padding-left: 4px; padding-right: 4px; min-width: 0; }
+  #ustbar #dil-secici { font-size: 12px; max-width: 4.4em; padding-left: 2px; padding-right: 2px; }
+}
+
 /* Dar telefon (≤380 px genişlik, ör. 360×640): oynat şeridi yazıları bir tık küçülür, "Olay olay" kesilmesin. */
 @media (pointer: coarse) and (orientation: portrait) and (max-width: 380px) {
   #zamanbar select { font-size: 11px; padding-left: 1px; padding-right: 1px; }
