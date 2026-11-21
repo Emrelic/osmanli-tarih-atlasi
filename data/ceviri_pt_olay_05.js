@@ -1,7 +1,6 @@
 /* ÇEVİRİ pt · olay — arac/ceviri.py ile YAZILDI, elle düzenleme: py arac/ceviri.py uygula.
    Kayıt: id → [metin, kaynak_ozet] (olayda alan başına). Tasarım: denetim/CEVIRI-1103/TASARIM.md */
 Ceviri.ekle("pt","olay",{
-"OLAYLAR_NAPOLYON_ITALYA_1028:1796-06-23:0":{"b": ["Armistício de Bolonha: Bolonha e Ferrara passam para mãos francesas", "5eed42c8"], "d": ["O papa Pio VI assinou o armistício em Bolonha; as legações de Bolonha e Ferrara passaram para controlo francês e foi paga uma pesada indemnização.", "4447b7b3"]},
 "OLAYLAR_NAPOLYON_ITALYA_1028:1796-12-27:0":{"b": ["Proclamada a República Cispadana (Módena, Régio, Bolonha, Ferrara)", "f9ee3f5a"], "d": ["No congresso de Régio, Módena, Régio, Bolonha e Ferrara uniram-se e proclamaram a República Cispadana; o ducado de Este terminou de facto.", "0529810e"]},
 "OLAYLAR_NAPOLYON_ITALYA_1028:1797-02-02:0":{"b": ["Wurmser entrega Mântua", "476b954d"], "d": ["No fim de um cerco de meses, o comandante austríaco Wurmser entregou Mântua aos franceses a 2 de fevereiro de 1797.", "68c18933"]},
 "OLAYLAR_NAPOLYON_ITALYA_1028:1797-02-19:0":{"b": ["Tratado de Tolentino: o papa cede Bolonha, Ferrara e a Romanha a França", "9868973b"], "d": ["Pio VI fez a paz com a França em Tolentino; Bolonha, Ferrara e a Romanha (Ravena, Rimini) passaram à República Cispadana, sob tutela francesa.", "2d453d48"]},

@@ -1112,7 +1112,8 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
   "devlet": "xiazhou-dangxiang",
   "taraflar": [
    "xiazhou-dangxiang",
-   "ganzhou-uygur"
+   "ganzhou-uygur",
+   "gansu-uygur"
   ],
   "b": "Zhangye (Ganzhou): Li Yuanhao Ganzhou’yu (Zhangye) Uygurlardan aldı",
   "tur": "toprak-kazanc",
