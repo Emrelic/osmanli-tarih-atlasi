@@ -881,6 +881,7 @@ Ceviri.ekle("ur","arayuz",{
 "Kare çiz ve not düş · Shift basılı bırak: bir bölge daha":["چوکور کھینچیں اور نوٹ چھوڑیں · Shift دبا کر چھوڑیں: ایک اور علاقہ", "736d79fe"],
 "Kasım":["نومبر", "c0a0eea8"],
 "Kasım #":["نومبر #", "e3bedce1"],
+"Kasım # (ay hassasiyeti)":["نومبر # (ماہ کی درستگی)", "fd3f7265"],
 "Kasım # (gün kaynaklarda yok)":["نومبر # (دن ماخذ میں نہیں)", "f74b2294"],
 "Kasım # başı (eski takvim)":["نومبر # کا آغاز (پرانی تقویم)", "20b999d2"],
 "Kasım-Aralık #":["نومبر-دسمبر #", "95212132"],

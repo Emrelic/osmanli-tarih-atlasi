@@ -881,6 +881,7 @@ Ceviri.ekle("sw","arayuz",{
 "Kare çiz ve not düş · Shift basılı bırak: bir bölge daha":["Chora mraba na uache dokezo · Shift ukiwa umebonyeza: kanda nyingine", "736d79fe"],
 "Kasım":["Novemba", "c0a0eea8"],
 "Kasım #":["Novemba #", "e3bedce1"],
+"Kasım # (ay hassasiyeti)":["Novemba # (usahihi wa mwezi)", "fd3f7265"],
 "Kasım # (gün kaynaklarda yok)":["Novemba # (siku haipo katika vyanzo)", "f74b2294"],
 "Kasım # başı (eski takvim)":["Mwanzoni mwa Novemba # (kalenda ya zamani)", "20b999d2"],
 "Kasım-Aralık #":["Novemba-Desemba #", "95212132"],

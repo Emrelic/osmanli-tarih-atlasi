@@ -881,6 +881,7 @@ Ceviri.ekle("bn","arayuz",{
 "Kare çiz ve not düş · Shift basılı bırak: bir bölge daha":["চতুর্ভুজ আঁকুন ও নোট রাখুন · Shift চেপে ছাড়ুন: আরও একটি অঞ্চল", "736d79fe"],
 "Kasım":["নভেম্বর", "c0a0eea8"],
 "Kasım #":["নভেম্বর #", "e3bedce1"],
+"Kasım # (ay hassasiyeti)":["নভেম্বর # (মাসের নির্ভুলতা)", "fd3f7265"],
 "Kasım # (gün kaynaklarda yok)":["নভেম্বর # (দিন সূত্রে নেই)", "f74b2294"],
 "Kasım # başı (eski takvim)":["নভেম্বর # এর শুরু (পুরোনো পঞ্জিকা)", "20b999d2"],
 "Kasım-Aralık #":["নভেম্বর-ডিসেম্বর #", "95212132"],

@@ -883,6 +883,7 @@ Ceviri.ekle("hi","arayuz",{
 "Kare çiz ve not düş · Shift basılı bırak: bir bölge daha":["वर्ग खींचें और नोट छोड़ें · Shift दबाकर छोड़ें: एक और क्षेत्र", "736d79fe"],
 "Kasım":["नवंबर", "c0a0eea8"],
 "Kasım #":["नवंबर #", "e3bedce1"],
+"Kasım # (ay hassasiyeti)":["नवंबर # (माह की सटीकता)", "fd3f7265"],
 "Kasım # (gün kaynaklarda yok)":["नवंबर # (दिन स्रोतों में नहीं)", "f74b2294"],
 "Kasım # başı (eski takvim)":["नवंबर # का आरंभ (पुराना कैलेंडर)", "20b999d2"],
 "Kasım-Aralık #":["नवंबर-दिसंबर #", "95212132"],
