@@ -113,8 +113,8 @@
     },
     {
      "yol": "data/olaylar_ek16.js",
-     "sha": "1ba47c616802bf57",
-     "bayt": 138772
+     "sha": "3629a4e914c7e41e",
+     "bayt": 139389
     }
    ],
    "bayt": 193842
@@ -459,8 +459,8 @@
     },
     {
      "yol": "data/kronoloji_sinir_lehistan_ukrayna_1028.js",
-     "sha": "89caea8895c48f7a",
-     "bayt": 82473
+     "sha": "628d18884618cfea",
+     "bayt": 81754
     },
     {
      "yol": "data/yerlesimler_nokta3.js",
@@ -498,7 +498,7 @@
      "bayt": 17249
     }
    ],
-   "bayt": 3729088
+   "bayt": 3728403
   },
   {
    "paket": "data/paket_10.js",
