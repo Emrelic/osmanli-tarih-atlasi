@@ -14970,6 +14970,25 @@ document.getElementById("btn-tamekran").addEventListener("click", function () {
 function tamEkranSor() {
   if (!document.fullscreenEnabled || !document.documentElement.requestFullscreen) return;
   if (document.fullscreenElement) return;
+  // 21 Kasım 2026 — Emre (telefon): "uygulama tüm telefon ekranını kaplasın, varsayılan olarak."
+  // Parmakla kullanılan cihazda SORU YOK: tarayıcı kendiliğinden tam ekran vermez (kullanıcı
+  // hareketi şart) → ilk dokunuş (ör. "Tamam", haritaya dokunma) tam ekrana alır. Çıkmak için
+  // kenardan kaydırma; menüdeki ⛶ düğmesi her durumda var.
+  try {
+    if (window.matchMedia && window.matchMedia("(pointer: coarse)").matches) {
+      var ilkDokunus = function () {
+        document.removeEventListener("pointerup", ilkDokunus, true);
+        try {
+          if (!document.fullscreenElement) {
+            var p = document.documentElement.requestFullscreen({ navigationUI: "hide" });
+            if (p && p.catch) p.catch(function () { /* reddedildi: menüdeki ⛶ düğmesi kalır */ });
+          }
+        } catch (e) { /* destek yok */ }
+      };
+      document.addEventListener("pointerup", ilkDokunus, true);
+      return;
+    }
+  } catch (e) { /* medya sorgusu yok: eski soru akışı */ }
   try { if (localStorage.getItem("tamEkranSorma") === "1") return; } catch (e) { /* özel pencere */ }
   var bas = Date.now();
   (function bekle() {
