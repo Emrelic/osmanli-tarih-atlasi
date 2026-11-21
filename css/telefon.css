@@ -47,7 +47,10 @@
   /* ① Üst çubuk: tek satır. ☰ Butonlar · BETA · YIL(ortada) · ⇥ Daralt · Dil */
   #ustbar { flex-wrap: nowrap; gap: 4px; padding: 3px 6px; align-items: center; }
   #ustbar #btn-menu { order: 0; flex: 0 0 auto; padding-left: 8px; padding-right: 8px; }
-  #ustbar #btn-beta { order: 1; display: inline-flex; flex: 0 0 auto; min-width: 36px; padding-left: 6px; padding-right: 6px; }
+  #ustbar #btn-beta {
+    order: 1; display: inline-flex; align-items: center; justify-content: center; line-height: 1;
+    flex: 0 0 auto; min-width: 36px; padding: 0 6px;
+  }
   #ustbar #ustbar-yil { order: 2; flex: 1 1 auto; text-align: center; min-width: 0; }
   #ustbar #btn-panel { order: 3; margin-left: 0; flex: 0 0 auto; padding-left: 8px; padding-right: 8px; }
   #ustbar #dil-secici { order: 4; margin-left: 0; flex: 0 0 auto; max-width: 5.6em; }
@@ -58,6 +61,7 @@
     position: fixed; top: 54px; right: calc(6px + env(safe-area-inset-right)); left: auto; z-index: 30;
     display: flex; flex-direction: column; gap: 6px; opacity: .92;
   }
+  #ustbar #yakin-grup button { width: 44px; height: 44px; min-width: 44px; min-height: 44px; }
 
   /* ② Oynatma şeridi: zaman çubuğu (kaydırıcı) YOK; tek satırda
         ⏮ ▶ ⏭ · Olay olay · hız · Uçuş ⚙  — altında tarihe git / şehir. */
@@ -89,16 +93,19 @@
   #yanpanel #padisah-saltanat { display: none; }
   /* Kronoloji listesi ile detay yüksekliği EŞİT bölüşür; detay kapalıyken liste tamamını alır. */
   #yanpanel #olay-akisi { flex: 1 1 0; min-height: 0; }
+  /* Detay yüksekliği SABİT pay (flex-grow eşitliği ölçülünce tutmadı: liste 258, detay 180). */
   #yanpanel #olay-bilgi {
-    flex: 1 1 0; min-height: 0; overflow-y: auto;
+    flex: 0 0 var(--detay-pay, 28dvh); min-height: 0; overflow-y: auto;
     border-top: var(--ayirac) solid var(--altin);
     padding: 6px 12px 12px; padding-right: 56px;
   }
   /* ✕ kaydırınca yerinde kalır (sticky), opak, 44 px; metin altından geçmez (sağ boşluk 56 px). */
+  /* ✕ sağ BOŞLUĞA (padding) oturur, sarma yok: LAB 3. tur — sticky float satırları yeniden sarmıyor,
+     kaydırınca metnin üstüne biniyordu. Negatif kenar boşluğu onu metin sütununun DIŞINA alır. */
   #olay-bilgi-kapat {
-    position: sticky; top: 0; float: right; z-index: 2; margin-left: 8px;
+    position: sticky; top: 0; float: right; z-index: 2; margin: 0 -50px 0 0;
     width: 44px; height: 44px; min-width: 44px; min-height: 44px; font-size: 22px;
-    background: var(--panel); border-radius: 50%; box-shadow: 0 0 0 4px var(--panel);
+    background: var(--panel); border-radius: 50%;
   }
   #detay-metin { max-height: none; }
   /* Harekât/lejant haritanın en çok üçte birini örter. */
@@ -119,17 +126,26 @@
   #zamanbar { border-top-width: 3px; }
 }
 
+/* Dar telefon (≤380 px genişlik, ör. 360×640): oynat şeridi yazıları bir tık küçülür, "Olay olay" kesilmesin. */
+@media (pointer: coarse) and (orientation: portrait) and (max-width: 380px) {
+  #zamanbar select { font-size: 11px; padding-left: 1px; padding-right: 1px; }
+  #zamanbar button { min-width: 30px; padding-left: 2px; padding-right: 2px; }
+  #zamanbar { gap: 3px; padding-left: 4px; padding-right: 4px; }
+}
+
 /* Kısa dikey ekran (≤700 px yükseklik, ör. 360×640): harita bir parça büyür. */
 @media (pointer: coarse) and (orientation: portrait) and (max-width: 700px) and (max-height: 700px) {
-  #sol-govde { flex-basis: 50dvh; }
   #ustbar #yakin-grup { top: 50px; }
+  /* Kısa ekranda liste 39 px'e eziliyordu (LAB/benim ölçüm 360×640): hükümdar kartı gizli, detay payı küçük. */
+  :root { --detay-pay: 22dvh; }
+  #yanpanel #padisah-karti { display: none; }
 }
 
 /* ======================================================================
    YATAY telefon (kısa ekran): solda harita %50 · sağda kronoloji (üst) + detay (alt) %50/%50
    ====================================================================== */
 @media (pointer: coarse) and (orientation: landscape) and (max-height: 520px) {
-  :root { --panel-genis: 50%; --panel-dar: 50%; }
+  :root { --panel-genis: 50%; --panel-dar: 50%; --detay-pay: 50%; }
   #govde { flex-direction: row; }
   #sol-govde { flex: 0 0 50%; min-width: 0; min-height: 0; }
   #yanpanel, #yanpanel.dar {
