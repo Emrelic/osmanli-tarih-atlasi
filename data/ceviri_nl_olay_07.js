@@ -1,6 +1,8 @@
 /* ÇEVİRİ nl · olay — arac/ceviri.py ile YAZILDI, elle düzenleme: py arac/ceviri.py uygula.
    Kayıt: id → [metin, kaynak_ozet] (olayda alan başına). Tasarım: denetim/CEVIRI-1103/TASARIM.md */
 Ceviri.ekle("nl","olay",{
+"OLAYLAR_T5_1000A:1172-01-01:0":{"b": ["De Rubenid Mleh nam Tarsus op Byzantium in", "2f98fd11"], "d": ["De Rubenid Mleh heroverde met de hulp van Nur ad-Din Zengi Adana, Misis en Tarsus op de Byzantijnen.", "e1cfa006"]},
+"OLAYLAR_T5_1000A:1174-01-01:0":{"b": ["De Ildenizid Pehlivan nam Tabriz in", "f0831f17"], "d": ["De Ildenizid Pehlivan nam Tabriz langs vreedzame weg van de Ahmadiliden en gaf het aan zijn broer Kizil Arslan.", "81ee8ab8"]},
 "OLAYLAR_T5_1000A:1175-01-01:0":{"b": ["Kilij Arslan II nam Sivas en Niksar van de Danishmendiden", "584575bb"], "d": ["Na de dood van Nur ad-Din Zengi nam Kilij Arslan II in de zomer van 1175 Sivas, Niksar, Tokat en de overige Danishmendidische gebieden in; de tak van Sivas kwam ten einde.", "c8092aea"]},
 "OLAYLAR_T5_1000A:1178-10-25:0":{"b": ["Kilij Arslan II nam Malatya in, de Danishmendidische tak eindigde", "3bdbb060"], "d": ["Na een belegering van vier maanden ging Malatya over naar de Seltsjoeken en de Malatya-tak van de Danishmendiden kwam ten einde.", "b92d6ebb"]},
 "OLAYLAR_T5_1000A:1183-04-29:0":{"b": ["Saladin nam Âmid in en gaf het aan de Artukid Nur ad-Din Muhammad", "8c3cc7bb"], "d": ["Saladin belegerde en nam Âmid in, gaf Hisn Kayfa aan de Artukidische emir Nur ad-Din Muhammad; de Inalogullari kwamen ten einde.", "b16cdda4"]},

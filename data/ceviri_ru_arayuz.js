@@ -903,6 +903,7 @@ Ceviri.ekle("ru","arayuz",{
 "Kare çiz ve not düş · Shift basılı bırak: bir bölge daha":["Нарисуйте квадрат и оставьте заметку · удерживайте Shift: ещё одна область", "736d79fe"],
 "Kasım":["ноябрь", "c0a0eea8"],
 "Kasım #":["ноябрь #", "e3bedce1"],
+"Kasım # (ay hassasiyeti)":["Ноябрь # (точность до месяца)", "fd3f7265"],
 "Kasım # (gün kaynaklarda yok)":["Ноябрь # (день в источниках не указан)", "f74b2294"],
 "Kasım # başı (eski takvim)":["Начало ноября # (старый стиль)", "20b999d2"],
 "Kasım-Aralık #":["ноябрь-декабрь #", "95212132"],

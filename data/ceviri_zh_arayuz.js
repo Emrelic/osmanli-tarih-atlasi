@@ -883,6 +883,7 @@ Ceviri.ekle("zh","arayuz",{
 "Kare çiz ve not düş · Shift basılı bırak: bir bölge daha":["绘制方框并留便笺 · 按住Shift松开：再添一个区域", "736d79fe"],
 "Kasım":["11月", "c0a0eea8"],
 "Kasım #":["#年11月", "e3bedce1"],
+"Kasım # (ay hassasiyeti)":["11月 # （精确到月）", "fd3f7265"],
 "Kasım # (gün kaynaklarda yok)":["#年11月（史料无日期）", "f74b2294"],
 "Kasım # başı (eski takvim)":["#年11月初（旧历）", "20b999d2"],
 "Kasım-Aralık #":["#年11月—12月", "95212132"],

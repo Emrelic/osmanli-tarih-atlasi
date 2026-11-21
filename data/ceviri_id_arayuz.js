@@ -881,6 +881,7 @@ Ceviri.ekle("id","arayuz",{
 "Kare çiz ve not düş · Shift basılı bırak: bir bölge daha":["Gambar persegi dan tinggalkan catatan · tahan Shift lalu lepas: satu wilayah lagi", "736d79fe"],
 "Kasım":["November", "c0a0eea8"],
 "Kasım #":["November #", "e3bedce1"],
+"Kasım # (ay hassasiyeti)":["November # (presisi bulan)", "fd3f7265"],
 "Kasım # (gün kaynaklarda yok)":["November # (hari tidak ada dalam sumber)", "f74b2294"],
 "Kasım # başı (eski takvim)":["Awal November # (kalender lama)", "20b999d2"],
 "Kasım-Aralık #":["November-Desember #", "95212132"],

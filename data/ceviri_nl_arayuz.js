@@ -881,6 +881,7 @@ Ceviri.ekle("nl","arayuz",{
 "Kare çiz ve not düş · Shift basılı bırak: bir bölge daha":["Teken een vierkant en laat een notitie achter · Shift ingedrukt houden: nog een gebied", "736d79fe"],
 "Kasım":["november", "c0a0eea8"],
 "Kasım #":["november #", "e3bedce1"],
+"Kasım # (ay hassasiyeti)":["November # (maandnauwkeurigheid)", "fd3f7265"],
 "Kasım # (gün kaynaklarda yok)":["november # (dag ontbreekt in de bronnen)", "f74b2294"],
 "Kasım # başı (eski takvim)":["begin november # (oude kalender)", "20b999d2"],
 "Kasım-Aralık #":["november-december #", "95212132"],

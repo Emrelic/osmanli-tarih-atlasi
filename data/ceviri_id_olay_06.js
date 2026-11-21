@@ -1,6 +1,7 @@
 /* ÇEVİRİ id · olay — arac/ceviri.py ile YAZILDI, elle düzenleme: py arac/ceviri.py uygula.
    Kayıt: id → [metin, kaynak_ozet] (olayda alan başına). Tasarım: denetim/CEVIRI-1103/TASARIM.md */
 Ceviri.ekle("id","olay",{
+"OLAYLAR_ORTACAG_ORTADOGU:0711-07-26:0":{"b": ["Tariq b. Ziyad mengalahkan telak pasukan Visigoth", "73301b6a"], "d": ["Pada akhir pertempuran delapan hari antara kedua pasukan, pasukan Visigoth menderita kekalahan telak (5 Syawal 92 / 26 Juli 711); lokasi pertempuran adalah tepi Guadalete atau Barbate. Diceritakan bahwa Tariq dalam waktu singkat menaklukkan Malaga, Elvira, Cordoba, dan Toledo.", "12d78ad9"]},
 "OLAYLAR_ORTACAG_ORTADOGU:0712-06-20:0":{"b": ["Raja Sind Dahir tewas melawan Muhammad b. Qasim; Rur (Arur, Aror), Brahmanabad, dan Multan ditaklukkan", "bccf3c4f"], "d": ["Penguasa Sind Dahir, yang bertempur melawan komandan Umayyah Muhammad b. Qasim, tewas pada 10 Ramadan 93 / 20 Juni 712; setelah pertempuran ini Rur (Arur, Aror), Brahmanabad, dan Multan ditaklukkan dan seluruh Sind jatuh ke tangan Umayyah.", "e213eabd"]},
 "OLAYLAR_ORTACAG_ORTADOGU:0724-01-01:0":{"b": ["Hisyam b. Abdulmalik menjadi khalifah (105/724); memerintah hingga 743.", "6288b8a9"], "d": ["Hisyam b. Abdulmalik menjadi khalifah (105/724); memerintah hingga 743.", "6288b8a9"]},
 "OLAYLAR_ORTACAG_ORTADOGU:0732-03-03:0":{"b": ["Pasukan Umayyah bertempur melawan bangsa Frank di sekitar Poitiers (Tours) (114/732).", "97262cdf"], "d": ["Pasukan Umayyah bertempur melawan bangsa Frank di sekitar Poitiers (Tours) (114/732).", "97262cdf"]},

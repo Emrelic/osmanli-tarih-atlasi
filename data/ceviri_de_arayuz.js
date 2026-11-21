@@ -903,6 +903,7 @@ Ceviri.ekle("de","arayuz",{
 "Kare çiz ve not düş · Shift basılı bırak: bir bölge daha":["Rechteck zeichnen und Notiz hinterlassen · Umschalttaste gedrückt halten: eine weitere Region", "736d79fe"],
 "Kasım":["November", "c0a0eea8"],
 "Kasım #":["November #", "e3bedce1"],
+"Kasım # (ay hassasiyeti)":["November # (Monatsgenauigkeit)", "fd3f7265"],
 "Kasım # (gün kaynaklarda yok)":["November # (Tag in den Quellen nicht angegeben)", "f74b2294"],
 "Kasım # başı (eski takvim)":["Anfang November # (alter Kalender)", "20b999d2"],
 "Kasım-Aralık #":["November–Dezember #", "95212132"],

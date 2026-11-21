@@ -938,6 +938,7 @@ Ceviri.ekle("fr","arayuz",{
 "Kare çiz ve not düş · Shift basılı bırak: bir bölge daha":["Tracer un carré et laisser une note · maintenir Maj : une région de plus", "736d79fe"],
 "Kasım":["novembre", "c0a0eea8"],
 "Kasım #":["novembre #", "e3bedce1"],
+"Kasım # (ay hassasiyeti)":["Novembre # (précision au mois)", "fd3f7265"],
 "Kasım # (gün belirsiz)":["novembre # (jour incertain)", "7a66875c"],
 "Kasım # (gün kaynaklarda yok)":["novembre # (jour absent des sources)", "f74b2294"],
 "Kasım # başı (eski takvim)":["début novembre # (ancien calendrier)", "20b999d2"],

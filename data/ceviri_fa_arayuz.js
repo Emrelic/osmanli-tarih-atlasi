@@ -883,6 +883,7 @@ Ceviri.ekle("fa","arayuz",{
 "Kare çiz ve not düş · Shift basılı bırak: bir bölge daha":["مربع بکش و یادداشت بگذار · Shift را نگه دار و رها کن: یک منطقهٔ دیگر", "736d79fe"],
 "Kasım":["نوامبر", "c0a0eea8"],
 "Kasım #":["نوامبر #", "e3bedce1"],
+"Kasım # (ay hassasiyeti)":["نوامبر # (دقت در حد ماه)", "fd3f7265"],
 "Kasım # (gün kaynaklarda yok)":["نوامبر # (روز در منابع نیست)", "f74b2294"],
 "Kasım # başı (eski takvim)":["آغاز نوامبر # (تقویم قدیم)", "20b999d2"],
 "Kasım-Aralık #":["نوامبر-دسامبر #", "95212132"],

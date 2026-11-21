@@ -881,6 +881,7 @@ Ceviri.ekle("az","arayuz",{
 "Kare çiz ve not düş · Shift basılı bırak: bir bölge daha":["Kvadrat çək və qeyd yaz · Shift basılı burax: bir bölgə də", "736d79fe"],
 "Kasım":["Noyabr", "c0a0eea8"],
 "Kasım #":["Noyabr #", "e3bedce1"],
+"Kasım # (ay hassasiyeti)":["Noyabr # (ay dəqiqliyi)", "fd3f7265"],
 "Kasım # (gün kaynaklarda yok)":["Noyabr # (gün mənbələrdə yoxdur)", "f74b2294"],
 "Kasım # başı (eski takvim)":["Noyabr # başı (köhnə təqvim)", "20b999d2"],
 "Kasım-Aralık #":["Noyabr-Dekabr #", "95212132"],

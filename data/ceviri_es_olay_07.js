@@ -1,6 +1,8 @@
 /* ÇEVİRİ es · olay — arac/ceviri.py ile YAZILDI, elle düzenleme: py arac/ceviri.py uygula.
    Kayıt: id → [metin, kaynak_ozet] (olayda alan başına). Tasarım: denetim/CEVIRI-1103/TASARIM.md */
 Ceviri.ekle("es","olay",{
+"OLAYLAR_T5_1000A:1085-05-31:0":{"b": ["El hijo de Fahrüddevle tomó Âmid, terminó la soberanía marwaní", "ecaf6b03"], "d": ["El hijo de Fahrüddevle ibn Cehîr, Zaîmürrüesâ, encargado por Malikshah, tomó Âmid a los marwaníes.", "8745ce9d"]},
+"OLAYLAR_T5_1000A:1093-01-01:0":{"b": ["Tutuş se apoderó de Diyarbekir", "469b8ebc"], "d": ["Tutuş, que pretendía el sultanato tras la muerte de Malikshah, tomó la región de Diyarbekir y capturó al último emir marwaní, Mansûr.", "52daa285"]},
 "OLAYLAR_T5_1000A:1095-01-01:0":{"b": ["El bey turcomano Sadr comenzó a reinar en Âmid", "3d67b786"], "d": ["Tras la muerte de Tutuş, el bey turcomano Sadr se hizo dueño de Âmid; İnal, que le sucedió, fundó la dinastía de los İnaloğulları.", "5fdca35c"]},
 "OLAYLAR_T5_1000A:1096-01-01:0":{"b": ["Kürboğa se apoderó de Mosul", "462a238f"], "d": ["El emir selyúcida Kürboğa tomó Mosul a los uqaylíes. (Dulqada 489 / noviembre de 1096; el atlas, ajustándose a la ficha, escribe con precisión de año.)", "14d9ca6d"]},
 "OLAYLAR_T5_1000A:1100-01-01:0":{"b": ["Niksar bajo la soberanía de los danishmendíes — testimonio fechado de la fuente", "81181870"], "d": ["La fuente muestra la ciudad de Niksar bajo la administración de los danishmendíes en esta fecha; la posesión anterior no está fechada en la fuente (el atlas deja en blanco lo anterior a esta fecha).", "c1463e88"]},
