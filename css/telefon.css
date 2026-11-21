@@ -1,0 +1,113 @@
+/* TELEFON KURALLARI — Emre, 21 Kasım 2026: "Site telefondan açan için ayrı kurallar ile görünsün,
+   masaüstünden açınca ayrı kurallar ile görünsün."
+   index.html bu dosyayı `media="(pointer: coarse)"` ile bağlar: fare/dokunmatik-ped olan masaüstü
+   tarayıcısı bu dosyayı hiç uygulamaz; yalnız parmakla kullanılan cihaz (telefon, tablet) uygular.
+   İçeride ayrıca boyuta göre iki kip var:
+     DİKEY telefon  → harita üstte, zaman çubuğu haritanın altında, kronoloji (başlık + maddeler)
+                      altta kaydırılır; madde detayı alttan açılan sayfa olur.
+     YATAY telefon  → harita solda, kronoloji sağda ayrı sütun; üst çubuk ve zaman çubuğu inceltilir.
+   Taban kurallar css/style.css'te; burası yalnız ÜSTÜNE yazar (sonra yüklenir). */
+
+/* ---- Her dokunmatik cihaz ---- */
+@media (pointer: coarse) {
+  /* Adres çubuğu açılıp kapanınca 100vh taşıyordu → dinamik yükseklik (desteklemeyen tarayıcıda
+     eski kural kalır). */
+  html, body { height: 100dvh; }
+  /* Kamera çentiği/yuvarlak köşe: içerik güvenli alanın içinde (index.html viewport-fit=cover). */
+  body {
+    padding-left: env(safe-area-inset-left);
+    padding-right: env(safe-area-inset-right);
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+  /* Parmak hedefi ≥ 40 px (üst çubuk, zaman çubuğu, panel düğmeleri). */
+  #ustbar button, #zamanbar button, #yanpanel button, #detay-kapat {
+    min-height: 40px; min-width: 40px;
+  }
+  #zamanbar select, #ustbar select { min-height: 40px; }
+  /* Kaydırma parmakla akıcı olsun, sayfa lastik gibi çekilmesin. */
+  #olay-listesi, #olay-detay-kutu, #detay-metin { -webkit-overflow-scrolling: touch; overscroll-behavior: contain; }
+  #harita { touch-action: pan-x pan-y pinch-zoom; }
+  /* 16 px altındaki giriş kutularına odaklanınca iOS sayfayı yakınlaştırıyor. */
+  input, select, textarea { font-size: max(16px, 1em); }
+  /* ☰ üzerinde fare "hover" yok; ipucu balonları dokunmada takılı kalmasın. */
+  #detay-kapat { top: 4px; right: 4px; font-size: 22px; }
+}
+
+/* ---- DİKEY telefon ---- */
+@media (pointer: coarse) and (orientation: portrait) and (max-width: 700px) {
+  #govde { flex-direction: column; }
+  /* Harita + zaman çubuğu ekranın yarısı; kalanı kronoloji. */
+  #sol-govde { flex: 0 0 52dvh; }
+  #yanpanel {
+    flex: 1 1 0; min-height: 0;
+    border-left: none; border-top: 2px solid var(--altin);
+  }
+  /* Panelin kendi iki kademeli genişliği (kademe düğmesi) dikeyde anlamsız: hep tam genişlik. */
+  #yanpanel.dar { flex: 1 1 0; }
+  /* Kronoloji başlığı: seçici tam genişlikte, sayaç altına sarar. */
+  #yanpanel-ust { flex-wrap: nowrap; padding: 3px 6px; }
+  #yanpanel-ust #devlet-secici { flex: 1 1 0; min-width: 0; }
+  #yanpanel-ust #olay-akisi-baslik { margin-left: 0; flex: 0 0 auto; font-size: 11px; }
+  /* Kronoloji maddeleri listesi asıl iş: hükümdar kartı ve seçili madde bilgisi sıkıştırılır,
+     liste en az ~40 % alan alır. */
+  #yanpanel #padisah-karti { padding: 3px 8px; gap: 6px; }
+  #yanpanel #padisah-karti img { max-height: 44px; width: auto; }
+  #yanpanel #olay-bilgi { max-height: 30%; overflow-y: auto; padding: 6px 8px; }
+  #yanpanel #olay-akisi { min-height: 90px; }
+  /* Madde detayı: alttan açılan sayfa, ekranın en çok %72'si, kendi içinde kaydırılır. */
+  #olay-detay { width: 100%; max-height: 72dvh; }
+  html:has(#yanpanel.dar) #olay-detay { width: 100%; }
+  #olay-detay-kutu { max-height: 72dvh; border-radius: 14px 14px 0 0; padding: 14px 14px 18px; }
+  #detay-metin { max-height: none; font-size: 15px; line-height: 1.6; }
+  #detay-baslik { font-size: 18px; margin-right: 34px; }
+  /* Üst çubuk iki satır: ① yakınlaştır · ☰ · YIL · panel · dil  ② tarih + dönem adı.
+     (Ölçüm 375×812: önce 3 satır/122 px'ti, harita 149 px'e sıkışıyordu.) */
+  #ustbar { gap: 4px; padding: 3px 6px; align-items: center; }
+  #ustbar #btn-beta { display: none; }
+  #ustbar #yakin-grup button, #ustbar #btn-menu, #ustbar #btn-panel { min-width: 36px; padding-left: 6px; padding-right: 6px; }
+  #ustbar #ustbar-yil { order: 1; flex: 1 1 auto; text-align: center; }
+  #ustbar #btn-panel { order: 2; margin-left: 0; }
+  #ustbar #dil-secici { order: 3; margin-left: 0; max-width: 5em; }
+  #ustbar #ustbar-orta { order: 4; flex: 1 1 100%; }
+  /* Zaman çubuğu üç satır: ① kaydırıcı ② oynat/mod/hız ③ tarihe git + uçuş. */
+  #zamanbar { gap: 4px; padding: 3px 8px; }
+  #zamanbar button, #zamanbar select, #zamanbar input[type="text"], #zamanbar input:not([type="range"]) { min-height: 36px; }
+  #zamanbar #git-grup { flex: 1 1 0; min-width: 150px; }
+  #zamanbar #ucus-grup { flex: 0 0 auto; }
+  /* Harita+araçlar %50; kalan %50 kronoloji (liste asıl iş). */
+  #sol-govde { flex-basis: 50dvh; }
+}
+
+/* ---- YATAY telefon (kısa ekran) ---- */
+@media (pointer: coarse) and (orientation: landscape) and (max-height: 520px) {
+  :root { --panel-genis: 44vw; --panel-dar: 36vw; }
+  /* Genişlik 900'ü geçse de geçmese de: yan yana. (style.css 900 px kuralı sütuna çeviriyordu.) */
+  #govde { flex-direction: row; }
+  #sol-govde { flex: 1 1 auto; min-width: 0; }
+  #yanpanel {
+    flex: 0 0 var(--panel-genis);
+    border-top: none; border-left: 2px solid var(--altin);
+  }
+  #yanpanel.dar { flex: 0 0 var(--panel-dar); }
+  #yanpanel.katli { flex: 0 0 0; }
+  /* Üst çubuk ve zaman çubuğu ince: dikey alan haritaya ve kronolojiye kalsın. */
+  #ustbar { padding: 2px 8px; gap: 8px; flex-wrap: nowrap; }
+  #ustbar-yil { font-size: 1.15em; }
+  #zamanbar { padding: 3px 8px; gap: 4px; flex-wrap: wrap; }
+  #zamanbar button, #zamanbar select { min-height: 34px; min-width: 34px; }
+  #yanpanel-ust { padding: 3px 6px; }
+  #ustbar #btn-beta { display: none; }
+  #ustbar #dil-secici { max-width: 5em; margin-left: 0; }
+  #ustbar #btn-panel { margin-left: 0; }
+  /* Sütun kısa: hükümdar kartı ve seçili madde bilgisi sıkıştırılır, liste en çok yeri alır. */
+  #yanpanel #padisah-karti { padding: 2px 8px; gap: 6px; }
+  #yanpanel #padisah-karti img { max-height: 36px; width: auto; }
+  #yanpanel #olay-bilgi { max-height: 34%; overflow-y: auto; padding: 5px 8px; }
+  #yanpanel #olay-akisi { min-height: 100px; }
+  /* Madde detayı: kronoloji sütununun altına değil, tüm sütun boyunca (kısa ekranda yer az). */
+  #olay-detay { width: var(--panel-genis); max-height: 100dvh; inset: 0 0 0 auto; }
+  html:has(#yanpanel.dar) #olay-detay { width: var(--panel-dar); }
+  #olay-detay-kutu { max-height: 100dvh; height: 100%; border-radius: 0; padding: 10px 14px 14px; }
+  #detay-metin { max-height: none; font-size: 14px; }
+  #detay-baslik { font-size: 16px; margin: 4px 30px 6px 0; }
+}
