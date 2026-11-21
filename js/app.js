@@ -2520,6 +2520,15 @@ harita.on("error", function (e) {
 });
 var atifKontrol = new maplibregl.AttributionControl({ compact: true });
 harita.addControl(atifKontrol, "bottom-right");
+// 21 Kasım 2026 — telefon (LAB 2. tur, kusur C): kap, pencere değil DÜZEN değişince (adres çubuğu,
+// dönme, panel/zaman çubuğu satır sayısı) küçülüp büyüyor; MapLibre yalnız pencere boyutunu izler
+// → harita altında ~20 px boş şerit kalıyordu. Kabı izleyip canvas'ı eşitler.
+try {
+  if (typeof ResizeObserver !== "undefined") {
+    var _haritaRO = new ResizeObserver(function () { try { harita.resize(); } catch (e) { /* harita kapanmış */ } });
+    _haritaRO.observe(harita.getContainer());
+  }
+} catch (e) { /* eski tarayıcı: eski davranış */ }
 function _atifKap() { return atifKontrol._container || null; }
 function _atifAcik(acik) {
   var k = _atifKap(); if (!k) return;
