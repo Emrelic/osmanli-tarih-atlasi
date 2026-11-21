@@ -3898,6 +3898,16 @@ BILINEN_AYRI = {
     ("Phagmodrupa mezhebi iç savaşı kazanıp Tibet'in idaresini ele geçirdi", 'Tibet (Phagmodrupa · Rinpungpa · Tsangpa) egemenliğine geçti — Yarlung'),
     ('Antonio de Mendoza ilk Yeni İspanya valisi (viceroy) olarak göreve başladı — Tilantongo', 'İlk genel vali Antonio de Mendoza atanıp Yeni İspanya resmen kuruldu'),
     # ==== DOGU-500-1281 BILINEN_AYRI SONU ====
+    # 🆕 21 KASIM 2026 — LAB19, EMRELİC kararı: 6 GÖRÜNÜM ÇİFTİ (olaylar_p0917taraf.js × kronoloji_sinir_*).
+    # Aynı olay iki dosyada bilerek duruyor: olaylar_* küresel olay listesinde, kronoloji_sinir_* devlet künyelerinde
+    # görünür (app.js çok taraflı bindirme aynı t+b'yi bir kez ekler). Biri silinirse bir görünüm kaybolur ⇒ BİRLEŞTİRİLMEZ.
+    # Sınav: iki kayıt da okundu (aynı gün, aynı kaynak; p0917taraf kaydı kişiler/puan alanlı, sınır kaydı devlet/taraflar/hat alanlı).
+    ("İkinci Fransız-Osmanlı düzenlemesi — Tunus-Trablusgarp sınırı Gadames'e kadar uzatıldı", "Fransız–Osmanlı düzenlemesi — Tunus–Trablusgarp sınırı Gadames'e kadar uzatıldı"),
+    ('Refah Anlaşması — Osmanlı ile Mısır Hidivliği arasındaki Refah-Taba hattı tarif edildi', 'Refah Anlaşması — Osmanlı ile Mısır Hidivliği arasındaki Refah–Taba hattı tarif edildi'),
+    ("İstanbul'da Türk-Bulgar Protokolü — Osmanlı Bulgaristan'ın bağımsızlığını tanıdı", "İstanbul'da Türk-Bulgar Protokolü — Osmanlı Bulgaristan'ın bağımsızlığını tanıdı"),
+    ("Trablus Sözleşmesi — Tunus ile Trablusgarp vilayeti arasındaki sınır Ras Ecdir'den Gadames'e çizildi", "Trablus Sözleşmesi — Tunus ile Trablusgarp vilayeti arasındaki sınır Ras Ecdir'den Gadames'e çizildi"),
+    ('İstanbul Protokolü — Türk-İran sınırının tahdidi', 'İstanbul Protokolü — Türk-İran sınırının tahdidi'),
+    ('Sofya Sözleşmesi — Osmanlı-Bulgar sınırının düzeltilmesi', 'Sofya Sözleşmesi — Osmanlı-Bulgar sınırının düzeltilmesi'),
     # ⭐ DENETIM-K27-1016 — 16 Ekim 2026. İki BAŞLIK çifti, AYRI YER + AYRI GÜN (yalnız kalıp ortak: 'X'in … teslimi'):
     # Gence 1735-07-09 (TDV gence) ↔ Revan 1735-10-03 (TDV nadir-sah--iran) — Nâdir'in 1735 seferinin İKİ ayrı teslimi, 86 gün arayla;
     # Darfur 1883-12-23 (Slatin'in teslimi, TDV darfur) ↔ Tokar 1884-02-20 (Royle s.275-276) — Batı ve Doğu Sudan, 59 gün arayla.
