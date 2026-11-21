@@ -37,7 +37,7 @@ DILLER = [("tr", "Türkçe"), ("en", "English"), ("ar", "العربية"), ("es"
           ("pt", "Português"), ("de", "Deutsch"), ("ja", "日本語"), ("fa", "فارسی"),
           ("it", "Italiano"), ("ko", "한국어"), ("pl", "Polski"), ("nl", "Nederlands"),
           ("el", "Ελληνικά"), ("id", "Bahasa Indonesia"), ("bn", "বাংলা"), ("ur", "اردو"),
-          ("sw", "Kiswahili"), ("az", "Azərbaycanca")]
+          ("sw", "Kiswahili"), ("az", "Azərbaycanca"), ("bg", "Български")]
 
 # TAVANLAR (CLAUDE.md "Tavanlar"): 4 Kasım 2026 ölçümü, birleşik dal. {dil: {tür: sayı}}.
 # Yalnız GERİLEME bloke eder; iyileşince aynı commit'te İNDİRİLİR, YÜKSELTİLMEZ (yeni Türkçe
