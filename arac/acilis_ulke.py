@@ -32,6 +32,7 @@ DIL_GRUP = {
     ("ja",): "JP",
     ("hi", "en"): "IN NP",
     ("en", "tr"): "CY BA AL XK MK",                    # Osmanlı mirası güçlü Balkan/Kıbrıs
+    ("bg", "en"): "BG",                                # 21 Kasım 2026: Bulgarca yayında (Emre) → Bulgaristan'dan girene önce Bulgarca
 }
 # yukarıda olmayan ülke → İngilizce (Güney Afrika, Nijerya, ABD, İran, Pakistan, …)
 VARSAYILAN_DIL = ["en"]
