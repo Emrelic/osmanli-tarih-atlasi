@@ -1,0 +1,70 @@
+1280'de sahipsiz, kuruluşu 1280 öncesi/yok, ilk pencere sahibi (ilk 40):
+  bizans                             131
+  ilhanli                            115
+  altinorda                          114
+  macaristan                         91
+  isvec-birlik-oncesi                42
+  novgorod                           36
+  venedik                            33
+  almanya                            33
+  norvec-kralligi                    20
+  bulgar-carligi                     19
+  gurcistan                          19
+  sirbistan-nemanjic                 18
+  danimarka                          18
+  memluk                             17
+  zeyyani                            17
+  ingiltere                          16
+  sicilya-kralligi                   13
+  fransa                             11
+  cenova                             10
+  iskocya                            10
+  litvanya-buyuk-dukalik             10
+  selcuklu                           10
+  bohemya                            9
+  trabzon-rum                        8
+  bosna                              8
+  hafsi                              8
+  roma-imp                           8
+  __BOSLUK__                         7
+  aseramik-kuzey-levant-anadolu      7
+  naksa-dukaligi                     6
+  merini                             6
+  irlanda                            6
+  luksemburg-kontlugu                6
+  livonya-tarikati                   6
+  artuklu                            6
+  (d/v: d)                           5
+  hollanda-kontlugu                  5
+  polonya-erken                      5
+  savoya                             5
+  galicya-volhinya                   4
+toplam sahip çeşidi: 136
+
+pencere yok: 169 · örnek: ['Dvin/yerlesimler.js', 'Rey/yerlesimler_once1281_yt_ortadogu.js', 'Media/yerlesimler_once1281_yt_ortadogu.js', 'Hekatompylos (Şehr/yerlesimler_once1281_yt_ortadogu.js', 'Fîrûzkûh/yerlesimler_once1281_yt_ortadogu.js', 'Gubla (Byblos)/yerlesimler_once1281_yt_ortadogu.js', 'Katna (Al-Mashrafa/yerlesimler_once1281_yt_ortadogu.js', 'Terqa/yerlesimler_once1281_yt_ortadogu.js', 'Sumur/yerlesimler_once1281_yt_ortadogu.js', 'Krak des Chevalier/yerlesimler_once1281_yt_ortadogu.js', 'Cibâl/yerlesimler_once1281_yt_ortadogu.js', 'Hulvân (Hulwan)/yerlesimler_once1281_yt_ortadogu.js']
+devletler.js ömür okunan: 2067
+  bizans                         f/t=('0330-05-11', '1453-05-29')
+  ilhanli                        f/t=('1256-01-01', '1353-01-01')
+  altinorda                      f/t=('1242-01-01', '1502-01-01')
+  macaristan                     f/t=('1000-01-01', '1527-01-01')
+  isvec-birlik-oncesi            f/t=('1000-01-01', '1523-06-06')
+  novgorod                       f/t=('1136-01-01', '1478-01-15')
+  venedik                        f/t=('0697-01-01', '1797-05-12')
+  almanya                        f/t=('0962-02-02', '1945-06-05')
+  norvec-kralligi                f/t=('0872-01-01', '1537-01-01')
+  bulgar-carligi                 f/t=('1185-01-01', '1396-10-01')
+  gurcistan                      f/t=('1008-01-01', '1801-09-24')
+  sirbistan-nemanjic             f/t=('1166-01-01', '1402-01-01')
+  danimarka                      f/t=None
+  memluk                         f/t=('1250-01-01', '1517-04-13')
+  zeyyani                        f/t=('1235-01-01', '1553-01-01')
+  ingiltere                      f/t=None
+  sicilya-kralligi               f/t=('1072-01-01', '1282-03-30')
+  fransa                         f/t=("FRANSA-KONTROL 29 Ekim 2026: f 0987-01-01 → 0987-07-03 (Hugues Capet'nin Noyon'da seçilip taç giymesi; künyenin kendi kronoloji maddesi ve Britannica 'Hugh Capet'; gün künye maddesine dayanır, ikinci kaynak borç).", '1792-09-22')
+  cenova                         f/t=('1099-01-01', '1797-06-14')
+  iskocya                        f/t=('0843-01-01', '1707-05-12')
+  litvanya-buyuk-dukalik         f/t=('1236-01-01', '1569-07-01')
+  selcuklu                       f/t=('1075-01-01', '1308-01-01')
+  bohemya                        f/t=('1198-01-01', '1526-12-05')
+  trabzon-rum                    f/t=('1204-01-01', '1461-08-15')
+  bosna                          f/t=None
