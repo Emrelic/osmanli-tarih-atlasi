@@ -330,7 +330,27 @@ body {
    veriyor; burada yalnız satır içi hizası. */
 #ustbar #btn-panel { flex: 0 0 auto; margin-left: auto; padding: 3px 9px; font-size: 12.5px; }
 /* CEVIRI-1103 — dil seçici, #btn-panel'in sağında (js/ceviri.js seciciKur). */
-#ustbar #dil-secici { flex: 0 0 auto; margin-left: 6px; padding: 2px 4px; font-size: 12.5px; max-width: 9em; }
+#ustbar #dil-secici { flex: 0 0 auto; margin-left: 6px; position: relative; }
+/* DİL LİSTESİ (22 Kasım 2026): sitenin diliyle — üst çubuk düğmeleriyle aynı krem/altın, yuvarlak köşeli panel. */
+#dil-secici .dil-dugme {
+  background: #f3e6c8; border: 1px solid var(--altin); border-radius: 6px; color: #2a0a10;
+  padding: 3px 9px; font-size: 12.5px; cursor: pointer; white-space: nowrap; max-width: 9em;
+  overflow: hidden; text-overflow: ellipsis; display: block;
+}
+#dil-secici .dil-dugme:hover { background: #ffe9a8; }
+#dil-secici .dil-liste {
+  position: absolute; right: 0; top: 100%; margin-top: 5px; z-index: 40; min-width: 11em;
+  max-height: min(62vh, 440px); overflow-y: auto; padding: 4px;
+  background: var(--panel); border: 1px solid var(--altin); border-radius: 9px;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.42);
+}
+#dil-secici .dil-liste[hidden] { display: none; }
+#dil-secici .dil-sec {
+  display: block; width: 100%; text-align: left; padding: 7px 11px; border: 0; border-radius: 6px;
+  background: transparent; color: #3a2a10; font: 13.5px/1.25 system-ui, sans-serif; cursor: pointer; white-space: nowrap;
+}
+#dil-secici .dil-sec:hover { background: #ffe9a8; }
+#dil-secici .dil-sec[aria-selected="true"] { background: #f3e6c8; color: #5c1020; font-weight: 700; }
 /* CEVIRI-1103 — sağdan sola diller (ar, fa): düzen soldan sağa kalır; metin blokları
    paragraf paragraf kendi yönünü bulur (Latin ad/rakam karışık satırlar bozulmaz). */
 .ceviri-rtl #olay-listesi > *, .ceviri-rtl #olay-listesi > * *,

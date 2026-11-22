@@ -239,24 +239,49 @@
   function seciciKur() {
     if (DIZIN.diller.length < 2) return;
     var yer = document.getElementById("btn-panel");
-    var sel = document.createElement("select");
-    sel.id = "dil-secici";
-    sel.setAttribute("data-ceviri-yok", "");
-    sel.title = DIL === "tr" ? "Dil" : "Language";
+    // 22 Kasım 2026 — Emre: "dil penceresi sayfaya uyumlu olsun, beyaz köşeli hali güzel değil."
+    // Tarayıcının kendi açılır listesi (beyaz, köşeli) biçimlendirilemez; yerine sitenin diliyle
+    // konuşan özel açılır liste: krem panel, altın kenar, yuvarlak köşe (css/style.css .dil-*).
+    var kutu = document.createElement("div");
+    kutu.id = "dil-secici"; kutu.className = "dil-kutu";
+    kutu.setAttribute("data-ceviri-yok", "");
+    var baslik = DIL === "tr" ? "Dil" : "Language";
+    var dugme = document.createElement("button");
+    dugme.type = "button"; dugme.className = "dil-dugme"; dugme.title = baslik;
+    dugme.setAttribute("aria-haspopup", "listbox"); dugme.setAttribute("aria-expanded", "false");
+    var liste = document.createElement("div");
+    liste.className = "dil-liste"; liste.hidden = true; liste.setAttribute("role", "listbox");
     DIZIN.diller.forEach(function (d) {
-      var op = document.createElement("option");
-      op.value = d.kod; op.textContent = d.ad;
-      if (d.kod === DIL) op.selected = true;
-      sel.appendChild(op);
+      var op = document.createElement("button");
+      op.type = "button"; op.className = "dil-sec"; op.setAttribute("role", "option");
+      op.setAttribute("data-kod", d.kod);
+      op.setAttribute("aria-selected", String(d.kod === DIL));
+      op.textContent = d.ad;
+      if (d.kod === DIL) dugme.textContent = d.ad + " ▾";
+      op.addEventListener("click", function () {
+        try { localStorage.setItem("dil", d.kod); } catch (e) {}
+        if (d.kod === DIL) { kapat(); return; }
+        var u = new URL(location.href);
+        u.searchParams.set("dil", d.kod);
+        location.href = u.toString();
+      });
+      liste.appendChild(op);
     });
-    sel.addEventListener("change", function () {
-      try { localStorage.setItem("dil", sel.value); } catch (e) {}
-      var u = new URL(location.href);
-      u.searchParams.set("dil", sel.value);
-      location.href = u.toString();
+    function kapat() { liste.hidden = true; dugme.setAttribute("aria-expanded", "false"); }
+    dugme.addEventListener("click", function (e) {
+      e.stopPropagation();
+      liste.hidden = !liste.hidden;
+      dugme.setAttribute("aria-expanded", String(!liste.hidden));
+      if (!liste.hidden) {
+        var s = liste.querySelector("[aria-selected=true]");
+        if (s && s.scrollIntoView) s.scrollIntoView({ block: "nearest" });
+      }
     });
-    if (yer && yer.parentNode) yer.parentNode.insertBefore(sel, yer.nextSibling);   // #btn-panel margin-left:auto → ikisi en sağda
-    else document.body.appendChild(sel);
+    document.addEventListener("click", function (e) { if (!kutu.contains(e.target)) kapat(); });
+    document.addEventListener("keydown", function (e) { if (e.key === "Escape") kapat(); });
+    kutu.appendChild(dugme); kutu.appendChild(liste);
+    if (yer && yer.parentNode) yer.parentNode.insertBefore(kutu, yer.nextSibling);   // #btn-panel margin-left:auto → ikisi en sağda
+    else document.body.appendChild(kutu);
   }
 
   window.Ceviri = {
