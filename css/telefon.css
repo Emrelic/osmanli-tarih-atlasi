@@ -90,9 +90,12 @@
   /* ③ Sağ/alt sütun (kronoloji + detay): kalın ayırıcılar. */
   :root { --ayirac: 6px; }
   #yanpanel { display: flex; flex-direction: column; min-height: 0; }
-  #yanpanel-ust { flex-wrap: nowrap; padding: 3px 6px; }
-  #yanpanel-ust #devlet-secici { flex: 1 1 0; min-width: 0; }
-  #yanpanel-ust #olay-akisi-baslik { margin-left: 0; flex: 0 0 auto; font-size: 11px; }
+  /* Üst satır (devlet seçici + "Kronoloji 342/4838 · 1134 gizli" yazısı) KALKTI (Emre 22 Kasım):
+     devlet seçici arama satırının başına taşındı (js/app.js telefonDevletSeciciArama). */
+  #yanpanel-ust { display: none; }
+  #kr-arama-satir #devlet-secici { position: static; margin-top: 0; flex: 0 1 42%; min-width: 0; }
+  #kr-arama-satir #devlet-secici-buton { width: 100%; max-width: none; min-height: 32px; font-size: 12px; }
+  #kr-arama-satir #devlet-secici-panel { left: 6px; right: 6px; }
   #yanpanel #padisah-karti { padding: 2px 8px; gap: 6px; }
   #yanpanel #padisah-karti img { max-height: 30px; width: auto; }
   #yanpanel #padisah-saltanat { display: none; }

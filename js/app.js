@@ -17766,6 +17766,17 @@ function enYakinOlayBul(gi) {
   } catch (e) { /* tek kutu kurulamadı: iki kutu kalır */ }
 })();
 
+// 22 Kasım 2026 — Emre (telefon): "Kronoloji 342/4838 · 1134 gizli yazısı kalksın, kronoloji devleti seçicisi
+// onun yerine, bir satır daha boşalsın." Dokunmatikte devlet seçici arama satırının başına taşınır (id aynı);
+// artık boş kalan #yanpanel-ust (başlık + sayaç) CSS ile gizlenir (css/telefon.css).
+(function telefonDevletSeciciArama() {
+  try {
+    if (!window.matchMedia || !window.matchMedia("(pointer: coarse)").matches) return;
+    var s = document.getElementById("devlet-secici"), satir = document.getElementById("kr-arama-satir");
+    if (s && satir) satir.insertBefore(s, satir.firstChild);
+  } catch (e) { /* taşınamadı: seçici üst satırda kalır */ }
+})();
+
 // 22 Kasım 2026 — Emre (telefon): "olay olay ve oynatma hızı butonlar bölümüne." Dokunmatik cihazda
 // akış kipi + hız seçicileri ☰ Butonlar penceresine taşınır (id'ler aynı: app.js id ile buluyor).
 (function telefonAkisMenuye() {
