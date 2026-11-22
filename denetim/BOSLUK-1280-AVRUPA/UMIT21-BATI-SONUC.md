@@ -62,3 +62,12 @@ YAZILMAYAN (yıl/gün/sahip kaynakta yok): Kerç (Heyd II: Cenova edinme tarihi 
 Menorka (Muntaner I s.21-22: Müslüman almojarife Jaime I'in vasalı ve haraçgüzar; Alfonso III fethi II s.410, 413-414; 17 Ocak 1287 günü okunmadı) · Pau/Béarn (Gaston VII 1229-1290; 1290'da Foix'ya; Marca) · Calais/Artois BULUNAMADI ·
 Luzern (1280'de Murbach; Habsburg 1291, gün yok; EB1911) · Dresden (1270'ten Meissen'li Henry the Illustrious'un başkenti; ölümünden sonra Bohemya/Brandenburg; EB1911) · Saarbrücken/Rostock/Sion 1280 sahibi BULUNAMADI.
 Naksos Dükalığı (Miller): Marco II Sanudo dükü 1262-1303 (s.653); 1383 yalnız hanedan değişimi (Crispo); 1566 Nasi, ölüm Ağustos 1579 (s.642), ilhak kararı s.643; Venedik vekâleten 1494-1500 ve 1511-17.
+
+## 4. TUR (bati4): CMH VI tam metin + Britanya/Fransa/Iber kamu mali (22 Kasim 2026)
+CMH VI (archive.org cambridgemedieva0006jbbu, odunc kilidi YOK) okundu; CMH VII 401/403 (OKUNMADI). Metinler yerelde (h4-britanya, h4-fra-alm, h4-iber), repoda DEGIL.
+YAZILAN (6 nokta): Cuenca (kastilya 1177, CMH VI Altamira) · San Sebastian (kastilya 1200, bolge duzeyi BEYANLI) · Denia (aragon 1244 Almizra siniri, onceki __BOSLUK__ 1244'te bitti, BEYANLI) ·
+Hulst (SAHIP DUZELTILDI: atlasin kaynaksiz 'fransa 1281-1384' -> flandre 1056-1384-01-30, Pirenne; bolge duzeyi BEYANLI) · Liverpool (ingiltere 1207-08-28, Picton: gun kaynakta) · Drogheda (ingiltere 1220 yil, Orpen III s.20).
+YAZILMAYAN ama OKUNAN: Sevilla 1248-12-22 (CMH VI; atlasta bosluk degil) · Mallorca 1229-12-31, Valencia 1238-09-28 (Forster) · Mayorka Krallığı 1276 (Muntaner I ch.XXIX) · Aberystwyth 1277 kraliyet (Tout s.160; coklu satirli kayit, zayif) · Douglas/Man 1266 (Brown I s.126; Douglas kentinin 1280 varligi kaynakta ARANMADI; kayit kendi kaynak alaninda belirsizligi beyan ediyor) ·
+Liverpool 1207, Hull 1293 (1280'de Meaux Manastiri), Shrewsbury 1283 ve Bristol 1284 (1280'den SONRA) · Penzance (ilk kayit 1332) ve Lerwick (17. yy) HENUZ_YOK adaylari (kur: eklenmedi; kaynak sayfasi kaba) ·
+Britanya 25 'SAHIPLI' kaydinin cogu ZAYIF (kaynak 1280'i degil 1264-1292 cevresini gosteriyor, baslangic null): yazilmadi (ham: sonuc_b3_4.json).
+ONEMLI: Fransa/Almanya grubunda 45 noktadan yalniz Hulst; Savoya/Isvicre/Luksemburg icin kaynak bulunamadi (Dierauer OCR cop, CMH VII yok).
