@@ -1,0 +1,7 @@
+bosluk dogrulama (Roma MO 26): rapor + Kyrenaika roma-imp donemi (Kirene, Merc, Tulmeyse) + borc defteri
+
+RAPOR.md: 5 bosluk turu x bolge x kaynak; okunmayan kaynaklar (TDV, CAH, OCD, Roller) ayri yazildi.
+Veri: yalniz kaynagi okunan hukum (Kyrenaika Roma eyaleti, Livius/Dio); 395 sonrasi beyanli __BOSLUK__.
+denetle cikis 0; paketle yenile + surum_damgala. Motor dosyalarina ve tuz dosyalarina dokunulmadi.
+
+Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>
