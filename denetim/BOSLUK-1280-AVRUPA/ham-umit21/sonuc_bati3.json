@@ -1,0 +1,178 @@
+[
+ {
+  "konu": "A",
+  "yer": "Naksos (Archipelago) Dukalığı",
+  "sahip_1280": "Marco II Sanudo (dük, 1262-1303)",
+  "baslangic": "1207",
+  "bitis": "",
+  "alinti": "Marco II. . 1262 Guglielmo I . 1303",
+  "kaynak": "Miller, Latins in the Levant (1908), Table of Frankish Rulers, 'Dukes of the Archipelago', s.653 (Marco I. Sanudo 1207 ... Marco II 1262)",
+  "dosya": "g2-miller\\m.txt (kopya h3-batı\\miller_m.txt)",
+  "not": "Tablo sütunları başlangıç yılıdır: Marco II 1262-1303. s.43 bu turda yeniden okunmadı (zaten biliniyor)."
+ },
+ {
+  "konu": "A",
+  "yer": "Naksos Dukalığı - hanedan değişimi (DÜKALIK SONU DEĞİL)",
+  "sahip_1280": "-",
+  "baslangic": "1383",
+  "bitis": "1383",
+  "alinti": "Thus, in 1383, a new dynasty arose in the Archipelago, which lasted for nearly two hundred years.",
+  "kaynak": "Miller 1908, Ch. XVII (1207-1463), Francesco I Crispo; sayfa numarası OCR'den okunmadı (Ch.XVII içinde)",
+  "dosya": "miller_m.txt",
+  "not": "UYARI: 1383 Sanudo'nun sonu ama dükalığın sonu değil; Crispo dükü olarak sürer (aynı polity). Dükalık künyesi 1207-1566/1579 aralığında."
+ },
+ {
+  "konu": "A",
+  "yer": "Naksos Dukalığı - sonu: Nasi'ye verilme (1566) ve Osmanlı ilhakı (1579/1580)",
+  "sahip_1280": "-",
+  "baslangic": "1566",
+  "bitis": "1579",
+  "alinti": "Giacomo IV. Joseph Nasi . . . 1564-6 . . 1566-79",
+  "kaynak": "Miller 1908, Table of Frankish Rulers, s.653 (Dukes of the Archipelago); bölüm başlığı Ch. XVIII 'The Duchy of the Archipelago (1463-1566)'",
+  "dosya": "miller_m.txt",
+  "not": "1566: son Hıristiyan dük Giacomo IV sonu, Selim II Nasi'ye bağışlar (Miller, İçindekiler: 'Selim II. bestows it upon Joseph Nasi'; s.~636-637). 1566'nın gün/ayı OKUNMADI. 1537 Barbarossa: Miller yalnız 'Naxos tributary to the Turks' (içindekiler) der; 1537 yılı bu turda eşleşmedi = OKUNMADI (yıl teyidi yok); dükalık Osmanlı haracgüzarı oldu, ilhak değil."
+ },
+ {
+  "konu": "A",
+  "yer": "Naksos Dukalığı - ilhak",
+  "sahip_1280": "-",
+  "baslangic": "1579-08",
+  "bitis": "1579-08",
+  "alinti": "Duke Nasi of Naxos died of stone in August 1579, and, as he left no heirs, his dynasty died with him.",
+  "kaynak": "Miller 1908, s.642 (ANNEXATION OF THE CYCLADES başlıklı sayfa 643'ten hemen önce)",
+  "dosya": "miller_m.txt",
+  "not": "Gün BULUNAMADI (yalnız ay: Ağustos 1579)."
+ },
+ {
+  "konu": "A",
+  "yer": "Naksos Dukalığı - ilhak kararı",
+  "sahip_1280": "Osmanlı (sancakbeyi + kadı)",
+  "baslangic": "1579/1580",
+  "bitis": "",
+  "alinti": "It was decided to annex the islands to the Turkish Empire, and a sandjakbeg and a cadi were sent to govern them.",
+  "kaynak": "Miller 1908, s.643; 1580 kapitülasyonlar s.644 ('In 1580, a deputation of Christians ... obtained from Murad III. extremely favourable capitulations')",
+  "dosya": "miller_m.txt",
+  "not": "Gozzadini yedi adayı (Sifanto, Thermia, Kimolos, Polinos, Pholegandros, Gyaros, Sikinos; papa Paul V metni) 'well-nigh forty years longer' (~1617) elinde tuttu, s.644-645; Venedik'e geçiş: Venedik'in 1494-1500 ve 1511-17 arası dükalığı vekâleten yönettiği tabloda '[Venice - 1494-1500]', '[Venice - 1511-17]' (s.653); Tenos/Mykonos'un Venedik'e geçişi yalnız içindekilerde 'Venice inherits Tenos and Mykonos' (yıl OKUNMADI)."
+ },
+ {
+  "konu": "B",
+  "yer": "Béarn Vikontluğu - 1290 Foix'ya geçiş",
+  "sahip_1280": "Gaston VII de Moncade (1229-1290)",
+  "baslangic": "11. yy (ayrı vikontluk)",
+  "bitis": "1290",
+  "alinti": "His long reign (1229-1290) was a perpetual struggle with the kings of France and England",
+  "kaynak": "EB 1911, 'Béarn' (Charles Bémont), c.3 (Wikisource transklüzyonu); Marca, Histoire de Béarn (1640): 'iuf- 3u'en l'an mil deux cens nonante, qu'cllefut jointe fans conféhon, à la maifon e Foix' (Liv. I/giriş sonu, sayfa OCR'den okunmadı)",
+  "dosya": "eb1911w_Barn.txt ; bub_gb_oMwBWIEFyk4C.txt",
+  "not": "EB: vikontlar 11. yy'da süzerenden bağımsızlaştı, başkent Morlaàs, 13. yy'da Gaston VII Orthez'i yönetim merkezi yaptı; kız evlatlar, Marguerite ile Roger-Bernard de Foix (Marca soy listesi: 'Marguerite, Roger Bernard Comte de Foix fon mari'). 1290 gün/ay BULUNAMADI. Kuruluş 9. yy (Centulle) için BULUNAMADI (Marca 'Centulles ... iufqu'en 1290' der)."
+ },
+ {
+  "konu": "B",
+  "yer": "Béarn Vikontluğu - sonu (Fransa'ya katılma)",
+  "sahip_1280": "Gaston VII",
+  "baslangic": "1620",
+  "bitis": "1620",
+  "alinti": "qui la vni & incorporé à la Couronne, pat Edit de l'année mil fix cents vingt.",
+  "kaynak": "Marca, Histoire de Béarn (1640), Liv. I (Marca'nın giriş/önsöz özeti); sayfa OCR'den okunmadı",
+  "dosya": "bub_gb_oMwBWIEFyk4C.txt",
+  "not": "EB 1911: Henry IV (Navarre kralı) vikontluğu Taç'a 'apanage' yaptı ('made it an apanage of the crown'; 1589 sayılabilir). Marca edikt yılı 1620 (Edit de Navarre-Béarn, gün yok = BULUNAMADI)."
+ },
+ {
+  "konu": "B",
+  "yer": "Pau şehri/kalesi",
+  "sahip_1280": "Gaston VII (vasiyet 1290'a kadar; Pau kalesi Arnaud de Denguin'e bırakıldı)",
+  "baslangic": "BULUNAMADI",
+  "bitis": "",
+  "alinti": "gardent le chafteau & Ville de Pau, & de Morlans",
+  "kaynak": "Marca 1640, Gaston VII vasiyeti metni (Liv. VII, s.~677, OCR'den: 'Liure feptiefme. 677')",
+  "dosya": "bub_gb_oMwBWIEFyk4C.txt",
+  "not": "Pau'nun kuruluş/kasabalaşma yılı Marca'da BULUNAMADI (kale+şehir vasiyette zaten var => 1288-90 öncesi var). Denenen: Marca, EB1911 Pau (yalnız kule/kale tarifi). Vasiyet tarihi OCR'den okunamadı."
+ },
+ {
+  "konu": "C",
+  "yer": "Artois Kontluğu",
+  "sahip_1280": "Robert II d'Artois (1250-1302)",
+  "baslangic": "1237",
+  "bitis": "1659",
+  "alinti": "Robert, de l'Artois en 1237 ; Alphonse, du Poitou, de la Saintonge et de l'Auvergne en 1241",
+  "kaynak": "Longnon, La formation de l'unité française (1922), Table/ders ~s.136; EB1911 'Artois': 'In 1237 Artois, which was raised to a countship the following year, was conferred as an appanage by Saint Louis on his brother Robert, who died on crusade in 1250. His son, Robert II.'",
+  "dosya": "laformationdelun00longuoft.txt ; eb1911w_Artois.txt",
+  "not": "EB: kontluk statüsü 1238; Longnon 1237 apanaj. Bitiş: EB 'ratified in the treaty of the Pyrenees (1659) by Spain' (İspanya'dan Fransa'ya; 7 Kasım 1659 günü kaynakta BULUNAMADI). Robert II 1302 Courtrai'de öldü (Longnon s.~11)."
+ },
+ {
+  "konu": "C",
+  "yer": "Calais 1280",
+  "sahip_1280": "BULUNAMADI",
+  "baslangic": "",
+  "bitis": "",
+  "alinti": "",
+  "kaynak": "Longnon: Boulogne, Saint-Pol, Guines Artois'dan 'relevant' (mouvance); Guines 1281 Şubat kral satın alma (Calais ile Saint-Omer arasında)",
+  "dosya": "laformationdelun00longuoft.txt",
+  "not": "Calais'nin 1280 sahibi (Boulogne kontu) kamu malı metinlerde BULUNAMADI (denenen: Longnon, EB1911 'Boulogne' ve 'Calais' [Wikisource transklüzyon boş]). Longnon: 'comté de Guines situé entre Calais et Saint-Omer, dans la mouvance du comté d'Artois ... vendit au roi, en février 1281'. Saint-Omer, Arras: Artois kastelanlıkları (Longnon: 'châtellenies d'Arras, de Bapaume, d'Aire, de Saint-Omer, de Lens et de Hesdin')."
+ },
+ {
+  "konu": "D",
+  "yer": "Menorka",
+  "sahip_1280": "Müslüman almojarife (Mallorca Krallığı'na haraçgüzar vasal)",
+  "baslangic": "Mallorca fethinden sonra (yıl bu metinde yok)",
+  "bitis": "1287",
+  "alinti": "But the almojarife of Minorca became his man and vassal, and agreed to pay a fixed tribute every year.",
+  "kaynak": "Muntaner, Chronicle (Lady Goodenough tercümesi, 1920), I. cilt Bölüm VIII, s.21-22",
+  "dosya": "thechronicleoframonmunta1.txt",
+  "not": "1287 fethi: Muntaner II. cilt Bölüm CLXX s.410: 'he thought it would be to his shame that Saracens should have the island of Minorca' (Alfonso III, amcası Mallorca kralı adına); Bölüm CLXXII s.413-414 fetih anlatısı. 17 Ocak 1287 günü Muntaner'de BULUNAMADI (yalnız 'Noel Mallorca'da kutlandı'); çevirmen dipnot tarihi '20 July 1287' başka olay (Oloron). Müslüman lider adı 'Abû 'Umar/'Isâ' Muntaner'de BULUNAMADI. Ramis 1819 (Historia civil de Menorca, cilt 2) yalnız indeks, tarih yok."
+ },
+ {
+  "konu": "E",
+  "yer": "Saarbrücken",
+  "sahip_1280": "BULUNAMADI (Saarbrücken kontları; EB: erken sahipler Metz piskoposları, Alt Saargau kontları, Ardennes kontları)",
+  "baslangic": "1381",
+  "bitis": "1793",
+  "alinti": "From 1381 to 1793 it belonged to the counts of Nassau-Saarbrucken",
+  "kaynak": "EB 1911, 'Saarbrücken', c.23 s.954",
+  "dosya": "in.ernet.dli.2015.73152.txt",
+  "not": "1280 sahibi EB'de verilmiyor; Nassau-Saarbrücken 1381 teyit. Gün BULUNAMADI."
+ },
+ {
+  "konu": "E",
+  "yer": "Rostock",
+  "sahip_1280": "BULUNAMADI (Mecklenburg lordluğu/Rostock lordları kaynakta yok)",
+  "baslangic": "",
+  "bitis": "",
+  "alinti": "For a time Rostock was under the dominion of the kings of Denmark.",
+  "kaynak": "EB 1911, 'Rostock', c.23",
+  "dosya": "in.ernet.dli.2015.73152.txt",
+  "not": "Danimarka fief'i 1300 yılı ve 1280 sahibi EB'de BULUNAMADI. Denenmedi: Mecklenburg tarih monografileri (archive aramasında kullanılabilir sonuç çıkmadı)."
+ },
+ {
+  "konu": "E",
+  "yer": "Luzern",
+  "sahip_1280": "Murbach manastırı (Habsburg'a satışa kadar)",
+  "baslangic": "1252",
+  "bitis": "1291",
+  "alinti": "In 1291 the Habsburgs finally purchased Lucerne from Murbach",
+  "kaynak": "EB 1911, 'Lucerne', c.17 (DLI taraması; sayfa okunmadı)",
+  "dosya": "in.ernet.dli.2015.42489.txt",
+  "not": "Gün BULUNAMADI (yalnız 1291; Rudolf'un ölümü 15 Temmuz 1291 öncesi/yaklaşık, kaynakta yok). 'Lucerrun' ilk 1252."
+ },
+ {
+  "konu": "E",
+  "yer": "Dresden",
+  "sahip_1280": "Henry the Illustrious, Meissen markgrafı (Dresden 1270'ten başkenti)",
+  "baslangic": "1270",
+  "bitis": "1288",
+  "alinti": "It became the capital of Henry the Illustrious, margrave of Meissen, in 1270, but belonged for some time after his death, first to Wenceslaus of Bohemia, and next to the margrave of Brandenburg.",
+  "kaynak": "EB 1911, 'Dresden', c.8 (Wikisource transklüzyonu)",
+  "dosya": "eb1911w_Dresden.txt",
+  "not": "Heinrich'in ölüm yılı (1288) EB'de yok; yalnız 'after his death'. Gün BULUNAMADI. Bohemya/Brandenburg geçiş yılları kaynakta BULUNAMADI."
+ },
+ {
+  "konu": "E",
+  "yer": "Sion (piskoposluk)",
+  "sahip_1280": "BULUNAMADI",
+  "baslangic": "",
+  "bitis": "",
+  "alinti": "The north hillock is crowned by the castle of Tourbillon (built 1294, burnt 1788), which was long the residence of the bishops.",
+  "kaynak": "EB 1911, 'Sion' (Coolidge), c.25",
+  "dosya": "eb1911w_Sion.txt",
+  "not": "1280 sahibi/Valais 1798 için siyasi tarih EB girdisinde yok (yalnız Tourbillon 1294). CMH cilt 6 (cambridgemedieva0006jbbu_u7r2) 401 Yetkisiz (ödünç kütüphane); india.history.resource.91225/91966 yalnız ~33 KB kapak/stub = OKUNMADI."
+ }
+]
