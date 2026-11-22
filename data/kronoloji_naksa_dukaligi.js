@@ -33,6 +33,12 @@ window.KRONOLOJI_NAKSA_DUKALIGI = [
   d:"Dukalığın kurucusu öldü ve yerine oğlu Angelo geçti. Angelo, babasının Bizans'a karşı saldırgan çizgisini bırakıp İznik İmparatorluğu ile uzlaşmayı seçti. Küçük bir ada devletinin ayakta kalma yönteminin ne olduğunu gösteren ilk dönüştür.",
   kaynak:"Lock, The Franks in the Aegean 1204-1500 · gün bilinmiyor" },
 
+{ t:"1390-01-01", kesinlik:"yil", b:"Ghisi hanedanının sönmesi: Tinos, Mikonos ve Delos vasiyetle Venedik'e geçti", tur:"hukumdar", onem:3, dunya:1, kapsam:"ic", yer_id:"Nakşa",
+  etiket:["siyaset","idari","konu-siyasi","konu-hanedan"],
+  d:"Naksos dükalığının ikinci büyük Latin hanedanı olan Ghisi ailesi Tinos ve Mikonos'ta sona erdi; iki ada Delos ile birlikte vasiyet yoluyla Venedik Cumhuriyeti'ne kaldı. Venedik adaları kamu açık artırmasıyla bir Venedikli vatandaşa kiraya verdi ve Eğriboz'a bağlı idare etti.",
+  kaynak:"William Miller, The Latins in the Levant (1908), s.596 (1390, Ghisi hanedanının Tenos ve Mykonos'ta sönmesi; adalar vasiyetle Venedik'e) ve s.364-366 (kamu açık artırmasıyla kiraya verilme) · yalnız yıl teyitli; gün teyitsiz; tek kaynak" ,
+  ic_not:"LAB21 22 Kasım 2026: Tinos ve Mikonos yerleşim pencerelerindeki naksa-dukaligi→venedik kırılması (1390-01-01) için Değişmez 2 maddesi; atlasın önceki 'venedik 1281-' kaydı Miller s.44 ile çelişiyordu (Ghisi, Sanudo'nun kuruluş ortağı; Naksos dükalığı çevresinde Latin lordluğu)." },
+
 { t:"1262-01-01", b:"Bizans donanmasının Kikladlar'a saldırısı", tur:"savas", onem:4, dunya:1, kapsam:"dis", yer_id:"Nakşa",
   etiket:["askeri","toprak-kayip","konu-askeri"],
   d:"İstanbul'u geri alan VIII. Mihail'in donanması Ege adalarına saldırdı ve dukalığın bazı adaları geçici olarak elden çıktı. Nakşa ana adası tutuldu, ama dukalık bir daha 1207'deki genişliğine ulaşamadı. Latin İmparatorluğu'nun yıkılışı dukalığın hâmisiz kalması demekti.",
