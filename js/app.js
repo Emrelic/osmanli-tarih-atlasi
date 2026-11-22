@@ -11821,7 +11821,7 @@ function alanYazi(km2) {
 // çizili ne varsa (motor UFUK'u açınca yabancı gövdeler de çizilebilir) EKSİKTİR;
 // şerit bunu harita ÜSTÜNDE söyler (Z1 raporu ④-2: boş/yarım harita
 // "devletsiz dünya" diye okunmasın). Tek yazan burası, her günde.
-var _kapsamSerit = null;
+var _kapsamSerit = null, _kapsamSeritDisi = null, _kapsamSeritZaman = null;
 function kapsamSeridiGuncelle(t) {
   var disi = t < VERI_BASI || t > VERI_SONU;
   if (!_kapsamSerit) {
@@ -11831,9 +11831,18 @@ function kapsamSeridiGuncelle(t) {
     _kapsamSerit = document.createElement("div");
     _kapsamSerit.id = "kapsam-disi-serit";
     _kapsamSerit.setAttribute("role", "status");
+    // 22 Kasım 2026 (Emre: "yazı haritanın üzerinden gitmiyor"): şerit TIKLAYINCA kapanır
+    // ve her girişte 7 sn sonra kendiliğinden solar; ufuk dışına yeniden girilince döner.
+    _kapsamSerit.title = "Kapatmak için tıkla";
+    _kapsamSerit.addEventListener("click", function () { _kapsamSerit.classList.add("gizli"); });
     h.appendChild(_kapsamSerit);
   }
-  _kapsamSerit.classList.toggle("gizli", !disi);
+  if (disi !== _kapsamSeritDisi) {
+    _kapsamSeritDisi = disi;
+    if (_kapsamSeritZaman) { clearTimeout(_kapsamSeritZaman); _kapsamSeritZaman = null; }
+    _kapsamSerit.classList.toggle("gizli", !disi);
+    if (disi) _kapsamSeritZaman = setTimeout(function () { _kapsamSerit.classList.add("gizli"); }, 7000);
+  }
   if (disi) {
     // sürüm 5 — Emre'nin Sümer kararı: "Sümer'de olan şehirler boyanır, gerisi boş
     // görünse de olur." ⇒ şerit bir EKSİKLİK itirafı değil, bir GÖSTERİM KURALIDIR.

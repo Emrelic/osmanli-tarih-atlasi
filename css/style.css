@@ -596,7 +596,7 @@ body {
   position: absolute; top: 8px; left: 50%; transform: translateX(-50%);
   z-index: 5; max-width: calc(100% - 120px); padding: 4px 10px;
   background: rgba(42, 10, 16, .85); color: #f3e6c8; border: 1px solid var(--altin);
-  border-radius: 5px; font-size: 12px; text-align: center; pointer-events: none;
+  border-radius: 5px; font-size: 12px; text-align: center; pointer-events: auto; cursor: pointer;
 }
 #kapsam-disi-serit.gizli { display: none; }
 /* ZAMAN-GENİŞ-1008 — ufuk dışı kronoloji maddesi (js/app.js `ufukDisiIsaretle`). */
