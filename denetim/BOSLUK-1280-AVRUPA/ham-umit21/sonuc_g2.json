@@ -1,0 +1,1075 @@
+[
+ {
+  "ad": "Anabolu (Nauplion)",
+  "durum": "SAHIPLI",
+  "sahip_1280": "atina-dukaligi",
+  "yeni_kunye": null,
+  "baslangic": "1212",
+  "baslangic_hassasiyet": "yil",
+  "bitis": null,
+  "uyum": "farklı: atlas 1281-1540 tek pencere 'venedik' diyor; Miller'e göre 1280'de sahibi Atina Dükalığı (de la Roche, Akaya vassalı). Venedik'in edinişi okunmadı.",
+  "kaynak": [
+   {
+    "kunye": "William Miller, The Latins in the Levant: A History of Frankish Greece (1204-1566), London: John Murray, 1908, s. 62",
+    "url": "https://archive.org/details/latinsinlevanthi00mill",
+    "alinti": "Othon de la Roche received Argos and Nauplia as fiefs of the principality of Achaia"
+   },
+   {
+    "kunye": "William Miller, The Latins in the Levant: A History of Frankish Greece (1204-1566), London: John Murray, 1908, s. 139",
+    "url": "https://archive.org/details/latinsinlevanthi00mill",
+    "alinti": "Jacques de la Roche, who governed Argos and Nauplia for his cousin, the Duke of Athens"
+   }
+  ],
+  "teyit": "tek kaynak",
+  "not": "1280'de Nauplia Atina dükünün (Akaya'ya vassal) elindeydi; atlas 'venedik' 1281-1540 yanlış/erken. Venedik'in Nauplia'yı alış tarihi (1388 civarı) bu turda KAYNAKLA OKUNMADI."
+ },
+ {
+  "ad": "Semadirek",
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "yeni_kunye": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "uyum": "sonraki: venedik değil ceneviz 1335 (atlas)",
+  "kaynak": [],
+  "teyit": "yok",
+  "not": "Denendi: Treccani 'Samotracia' (yalnız antik), Miller 1908 (Semadirek yok). 1280'de büyük olasılıkla Bizans (Gattilusio 1355) ama KAYNAKSIZ; Oxford Dictionary of Byzantium/TDV Semadirek okunmadı."
+ },
+ {
+  "ad": "Andros",
+  "durum": "SAHIPLI",
+  "sahip_1280": "naksos-dukaligi",
+  "yeni_kunye": {
+   "id": "naksos-dukaligi",
+   "ad": "Naksos (Arşipel) Dükalığı",
+   "f": "1207-01-01",
+   "t": null,
+   "kaynak": "Miller 1908 s.44: 'by 1207 Sanudo and his comrades had conquered a duchy'. f yalnız yıl (yıl hassasiyeti). t okunmadı (yaygın bilgi 1566; kaynakla teyit edilmedi)."
+  },
+  "baslangic": "1207",
+  "baslangic_hassasiyet": "yil",
+  "bitis": null,
+  "uyum": "farklı: atlas 'venedik' diyor; Miller: Andros Naksos dükünün sub-fief'i (Dandolo), 1282'de Marco II tüm adayı elinde tutuyor, Venedik üstlük iddiasını reddediyor.",
+  "kaynak": [
+   {
+    "kunye": "William Miller, The Latins in the Levant: A History of Frankish Greece (1204-1566), London: John Murray, 1908, s. 44",
+    "url": "https://archive.org/details/latinsinlevanthi00mill",
+    "alinti": "by 1207 Sanudo and his comrades had conquered a duchy, which lasted between three and four centuries"
+   },
+   {
+    "kunye": "William Miller, The Latins in the Levant: A History of Frankish Greece (1204-1566), London: John Murray, 1908, s. 44",
+    "url": "https://archive.org/details/latinsinlevanthi00mill",
+    "alinti": "Marino Dandolo, another nephew of the great doge, who had captured Andros, held that fine island as a sub-fief of his cousin's duchy"
+   },
+   {
+    "kunye": "William Miller, The Latins in the Levant: A History of Frankish Greece (1204-1566), London: John Murray, 1908, s. 579",
+    "url": "https://archive.org/details/latinsinlevanthi00mill",
+    "alinti": "Duke of Naxos, assumed possession of the whole island, as no claimant had made his appearance"
+   }
+  ],
+  "teyit": "tek kaynak",
+  "not": "Ghisi/Quirini-Dandolo varis davası: 1280'de fiilî sahip Ghisi mi dük mü belirsiz; ikisi de Arşipel Dükalığı çevresi. Venedik 1282'de dükü yargılamak için çağırdı, dük egemenliğini reddetti (s.579). Naksos Dükalığı devletler.js'te YOK: yeni künye gerekir."
+ },
+ {
+  "ad": "Çuha Adası (Kythira)",
+  "durum": "CELISKI",
+  "sahip_1280": "bizans",
+  "yeni_kunye": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "uyum": "farklı: atlas 1281-1715 'venedik'; Miller'e göre 1280'de Bizans imparatorunun vassalı Paul Monoyannes elinde (Venier'ler Licario'nca sürüldü).",
+  "kaynak": [
+   {
+    "kunye": "William Miller, The Latins in the Levant: A History of Frankish Greece (1204-1566), London: John Murray, 1908, s. 564-565",
+    "url": "https://archive.org/details/latinsinlevanthi00mill",
+    "alinti": "the island was conferred by Michael Palaiologos upon Paul Monoyannes"
+   },
+   {
+    "kunye": "William Miller, The Latins in the Levant: A History of Frankish Greece (1204-1566), London: John Murray, 1908, s. 564-565",
+    "url": "https://archive.org/details/latinsinlevanthi00mill",
+    "alinti": "in 1275, 'the vassal of the Emperor and captain of Cerigo.'"
+   },
+   {
+    "kunye": "William Miller, The Latins in the Levant: A History of Frankish Greece (1204-1566), London: John Murray, 1908, s. 151",
+    "url": "https://archive.org/details/latinsinlevanthi00mill",
+    "alinti": "Cerigo had passed into the hands of the great Monemvasiote family of Daimonoyannes"
+   }
+  ],
+  "teyit": "tek kaynak",
+  "not": "Başlangıç: 1275'te Monoyannes zaten kaptan (Miller). Bitiş (Venedik'e dönüş): Miller 'kırk yıl' diyor, gün/yıl OKUNMADI. (Üçüncü alıntı s.151.) 1281 sonrası Bizans dönemi atlasa yazılmalı."
+ },
+ {
+  "ad": "İstendil (Tinos)",
+  "durum": "SAHIPLI",
+  "sahip_1280": "naksos-dukaligi",
+  "yeni_kunye": {
+   "id": "naksos-dukaligi",
+   "ad": "Naksos (Arşipel) Dükalığı",
+   "f": "1207-01-01",
+   "t": null,
+   "kaynak": "Miller 1908 s.44: 'by 1207 Sanudo and his comrades had conquered a duchy'. f yalnız yıl (yıl hassasiyeti). t okunmadı (yaygın bilgi 1566; kaynakla teyit edilmedi)."
+  },
+  "baslangic": "1207",
+  "baslangic_hassasiyet": "yil",
+  "bitis": null,
+  "uyum": "farklı: Miller'de Ghisi lordluğu, Naksos dükünün vassalı; atlas 'venedik' (Ghisi 1390: Miller s.365 'in 1390 the two islands of Mykonos and Tenos had been bequeathed to the republic').",
+  "kaynak": [
+   {
+    "kunye": "William Miller, The Latins in the Levant: A History of Frankish Greece (1204-1566), London: John Murray, 1908, s. 44",
+    "url": "https://archive.org/details/latinsinlevanthi00mill",
+    "alinti": "The brothers Andrea and Geremia Ghisi, both enterprising men, not only acquired Tenos and Mykonos"
+   },
+   {
+    "kunye": "William Miller, The Latins in the Levant: A History of Frankish Greece (1204-1566), London: John Murray, 1908, s. 578",
+    "url": "https://archive.org/details/latinsinlevanthi00mill",
+    "alinti": "Two dynasties alone - the Sanudi and their vassals the Ghisi, remained in the whole Archipelago"
+   }
+  ],
+  "teyit": "tek kaynak",
+  "not": "Ghisi ailesi Venedik kökenli ama toprak Naksos dükünün vassalı (Sanudi'nin 'vassalları Ghisi'). Naksos Dükalığı künyesi eklenmeli."
+ },
+ {
+  "ad": "Karpatos",
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "yeni_kunye": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "uyum": "",
+  "kaynak": [],
+  "teyit": "yok",
+  "not": "Denendi: Treccani 'Scarpanto' (yalnız 'forse dalla fine di quel secolo... sottoposta a Rodi', tarihsiz), Miller 1908 (yalnız 1207 Gabalas 'Rodos ve Karpathos Rum arkonu'). 1280 sahibi Bizans mı Gabalas torunları mı Cenova mı: OKUNMADI."
+ },
+ {
+  "ad": "Murted (Kea)",
+  "durum": "CELISKI",
+  "sahip_1280": "bizans",
+  "yeni_kunye": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "uyum": "farklı: atlas 'venedik'; Miller'e göre Keos 1270'lerde Ghisi'den Rumlarca alındı, 1303'te geri.",
+  "kaynak": [
+   {
+    "kunye": "William Miller, The Latins in the Levant: A History of Frankish Greece (1204-1566), London: John Murray, 1908, s. 577-578",
+    "url": "https://archive.org/details/latinsinlevanthi00mill",
+    "alinti": "The Ghisi were driven from Amorgos, Seriphos, and Keos; the Barozzi fled from Santorin; the Duke of Naxos was deprived of Ios, Siphnos, Sikinos, and Polykandros"
+   },
+   {
+    "kunye": "William Miller, The Latins in the Levant: A History of Frankish Greece (1204-1566), London: John Murray, 1908, s. 577",
+    "url": "https://archive.org/details/latinsinlevanthi00mill",
+    "alinti": "Ten other islands were at the same time lost for twenty years or more, and their Latin lords were expelled."
+   },
+   {
+    "kunye": "William Miller, The Latins in the Levant: A History of Frankish Greece (1204-1566), London: John Murray, 1908, s. 582",
+    "url": "https://archive.org/details/latinsinlevanthi00mill",
+    "alinti": "the Ghisi and their fellows Amorgos, Keos, and Seriphos, and these five islands were specially confirmed to the conquerors in the treaty"
+   }
+  ],
+  "teyit": "tek kaynak",
+  "not": "Miller (1908) yitirme tarihini yıl olarak vermez; Licario'nun Arşipel akını (1270'ler; Skopelos, Lemnos ile aynı bağlam) ve 1277/1285 Venedik-Bizans antlaşmaları bağlamında 'yalnız Sanudi ve Ghisi kaldı' diyor; 1303 ile adalar geri alınıyor (s.582). Tarih/gün OKUNMADI; yer 1280'de Bizans elinde ise 1280-1303 arası Bizans dönemi atlasa yazılmalı. Tek kaynak (1908 klasik monografi; ikinci kaynak aranmadı). Kea'nın Ghisi eline ilk geçişi (1207): s.45."
+ },
+ {
+  "ad": "Termiye (Kythnos)",
+  "durum": "SAHIPLI",
+  "sahip_1280": "naksos-dukaligi",
+  "yeni_kunye": {
+   "id": "naksos-dukaligi",
+   "ad": "Naksos (Arşipel) Dükalığı",
+   "f": "1207-01-01",
+   "t": null,
+   "kaynak": "Miller 1908 s.44: 'by 1207 Sanudo and his comrades had conquered a duchy'. f yalnız yıl (yıl hassasiyeti). t okunmadı (yaygın bilgi 1566; kaynakla teyit edilmedi)."
+  },
+  "baslangic": "1207",
+  "baslangic_hassasiyet": "yil",
+  "bitis": null,
+  "uyum": "farklı: atlas 'venedik'; Miller'de Kythnos baştan Naksos dükünün adalarından, 1270'lerdeki kayıplar listesinde yok.",
+  "kaynak": [
+   {
+    "kunye": "William Miller, The Latins in the Levant: A History of Frankish Greece (1204-1566), London: John Murray, 1908, s. 44",
+    "url": "https://archive.org/details/latinsinlevanthi00mill",
+    "alinti": "by 1207 Sanudo and his comrades had conquered a duchy, which lasted between three and four centuries"
+   },
+   {
+    "kunye": "William Miller, The Latins in the Levant: A History of Frankish Greece (1204-1566), London: John Murray, 1908, s. 44",
+    "url": "https://archive.org/details/latinsinlevanthi00mill",
+    "alinti": "Kythnos, Sikinos, and Siphnos; and Syra"
+   },
+   {
+    "kunye": "William Miller, The Latins in the Levant: A History of Frankish Greece (1204-1566), London: John Murray, 1908, s. 577-578",
+    "url": "https://archive.org/details/latinsinlevanthi00mill",
+    "alinti": "The Ghisi were driven from Amorgos, Seriphos, and Keos; the Barozzi fled from Santorin; the Duke of Naxos was deprived of Ios, Siphnos, Sikinos, and Polykandros"
+   }
+  ],
+  "teyit": "tek kaynak",
+  "not": "Kythnos kayıp listesinde (Ios, Siphnos, Sikinos, Polykandros) YOK; ama Miller kesin 'hâlâ elinde' demiyor: çıkarım. Naksos künyesi eklenmeli."
+ },
+ {
+  "ad": "Koçbaba (Serifos)",
+  "durum": "CELISKI",
+  "sahip_1280": "bizans",
+  "yeni_kunye": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "uyum": "farklı: atlas 'venedik'; Miller: Ghisi Seriphos'tan sürüldü (1270'ler), 1303'te geri.",
+  "kaynak": [
+   {
+    "kunye": "William Miller, The Latins in the Levant: A History of Frankish Greece (1204-1566), London: John Murray, 1908, s. 577-578",
+    "url": "https://archive.org/details/latinsinlevanthi00mill",
+    "alinti": "The Ghisi were driven from Amorgos, Seriphos, and Keos; the Barozzi fled from Santorin; the Duke of Naxos was deprived of Ios, Siphnos, Sikinos, and Polykandros"
+   },
+   {
+    "kunye": "William Miller, The Latins in the Levant: A History of Frankish Greece (1204-1566), London: John Murray, 1908, s. 577",
+    "url": "https://archive.org/details/latinsinlevanthi00mill",
+    "alinti": "Ten other islands were at the same time lost for twenty years or more, and their Latin lords were expelled."
+   },
+   {
+    "kunye": "William Miller, The Latins in the Levant: A History of Frankish Greece (1204-1566), London: John Murray, 1908, s. 578",
+    "url": "https://archive.org/details/latinsinlevanthi00mill",
+    "alinti": "treaties of peace which the republic concluded with the Byzantine Empire in 1277 and 1285"
+   }
+  ],
+  "teyit": "tek kaynak",
+  "not": "Miller (1908) yitirme tarihini yıl olarak vermez; Licario'nun Arşipel akını (1270'ler; Skopelos, Lemnos ile aynı bağlam) ve 1277/1285 Venedik-Bizans antlaşmaları bağlamında 'yalnız Sanudi ve Ghisi kaldı' diyor; 1303 ile adalar geri alınıyor (s.582). Tarih/gün OKUNMADI; yer 1280'de Bizans elinde ise 1280-1303 arası Bizans dönemi atlasa yazılmalı. Tek kaynak (1908 klasik monografi; ikinci kaynak aranmadı)."
+ },
+ {
+  "ad": "Sifnos (Yavuzca)",
+  "durum": "CELISKI",
+  "sahip_1280": "bizans",
+  "yeni_kunye": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "uyum": "farklı: atlas 'venedik'; Miller: Naksos dükü Siphnos'u yitirdi.",
+  "kaynak": [
+   {
+    "kunye": "William Miller, The Latins in the Levant: A History of Frankish Greece (1204-1566), London: John Murray, 1908, s. 577-578",
+    "url": "https://archive.org/details/latinsinlevanthi00mill",
+    "alinti": "The Ghisi were driven from Amorgos, Seriphos, and Keos; the Barozzi fled from Santorin; the Duke of Naxos was deprived of Ios, Siphnos, Sikinos, and Polykandros"
+   },
+   {
+    "kunye": "William Miller, The Latins in the Levant: A History of Frankish Greece (1204-1566), London: John Murray, 1908, s. 577",
+    "url": "https://archive.org/details/latinsinlevanthi00mill",
+    "alinti": "Ten other islands were at the same time lost for twenty years or more, and their Latin lords were expelled."
+   }
+  ],
+  "teyit": "tek kaynak",
+  "not": "Miller (1908) yitirme tarihini yıl olarak vermez; Licario'nun Arşipel akını (1270'ler; Skopelos, Lemnos ile aynı bağlam) ve 1277/1285 Venedik-Bizans antlaşmaları bağlamında 'yalnız Sanudi ve Ghisi kaldı' diyor; 1303 ile adalar geri alınıyor (s.582). Tarih/gün OKUNMADI; yer 1280'de Bizans elinde ise 1280-1303 arası Bizans dönemi atlasa yazılmalı. Tek kaynak (1908 klasik monografi; ikinci kaynak aranmadı)."
+ },
+ {
+  "ad": "Mikonos",
+  "durum": "SAHIPLI",
+  "sahip_1280": "naksos-dukaligi",
+  "yeni_kunye": {
+   "id": "naksos-dukaligi",
+   "ad": "Naksos (Arşipel) Dükalığı",
+   "f": "1207-01-01",
+   "t": null,
+   "kaynak": "Miller 1908 s.44: 'by 1207 Sanudo and his comrades had conquered a duchy'. f yalnız yıl (yıl hassasiyeti). t okunmadı (yaygın bilgi 1566; kaynakla teyit edilmedi)."
+  },
+  "baslangic": "1207",
+  "baslangic_hassasiyet": "yil",
+  "bitis": null,
+  "uyum": "farklı: Ghisi lordluğu, Naksos vassalı (atlas 'venedik').",
+  "kaynak": [
+   {
+    "kunye": "William Miller, The Latins in the Levant: A History of Frankish Greece (1204-1566), London: John Murray, 1908, s. 44",
+    "url": "https://archive.org/details/latinsinlevanthi00mill",
+    "alinti": "The brothers Andrea and Geremia Ghisi, both enterprising men, not only acquired Tenos and Mykonos"
+   },
+   {
+    "kunye": "William Miller, The Latins in the Levant: A History of Frankish Greece (1204-1566), London: John Murray, 1908, s. 578",
+    "url": "https://archive.org/details/latinsinlevanthi00mill",
+    "alinti": "Two dynasties alone - the Sanudi and their vassals the Ghisi, remained in the whole Archipelago"
+   }
+  ],
+  "teyit": "tek kaynak",
+  "not": "Mikonos 1280 kayıp listesinde YOK; çıkarım (Ghisi'nin 'kalan' kolu). Naksos künyesi eklenmeli."
+ },
+ {
+  "ad": "Yamurgi (Amorgos)",
+  "durum": "CELISKI",
+  "sahip_1280": "bizans",
+  "yeni_kunye": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "uyum": "farklı: atlas 'venedik'; Miller: Amorgos Ghisi'den sürüldü.",
+  "kaynak": [
+   {
+    "kunye": "William Miller, The Latins in the Levant: A History of Frankish Greece (1204-1566), London: John Murray, 1908, s. 577-578",
+    "url": "https://archive.org/details/latinsinlevanthi00mill",
+    "alinti": "The Ghisi were driven from Amorgos, Seriphos, and Keos; the Barozzi fled from Santorin; the Duke of Naxos was deprived of Ios, Siphnos, Sikinos, and Polykandros"
+   },
+   {
+    "kunye": "William Miller, The Latins in the Levant: A History of Frankish Greece (1204-1566), London: John Murray, 1908, s. 577",
+    "url": "https://archive.org/details/latinsinlevanthi00mill",
+    "alinti": "Ten other islands were at the same time lost for twenty years or more, and their Latin lords were expelled."
+   },
+   {
+    "kunye": "William Miller, The Latins in the Levant: A History of Frankish Greece (1204-1566), London: John Murray, 1908, s. 574",
+    "url": "https://archive.org/details/latinsinlevanthi00mill",
+    "alinti": "capturing from him the island of Amorgos and bestowing it upon Geremia Ghisi"
+   }
+  ],
+  "teyit": "tek kaynak",
+  "not": "Miller (1908) yitirme tarihini yıl olarak vermez; Licario'nun Arşipel akını (1270'ler; Skopelos, Lemnos ile aynı bağlam) ve 1277/1285 Venedik-Bizans antlaşmaları bağlamında 'yalnız Sanudi ve Ghisi kaldı' diyor; 1303 ile adalar geri alınıyor (s.582). Tarih/gün OKUNMADI; yer 1280'de Bizans elinde ise 1280-1303 arası Bizans dönemi atlasa yazılmalı. Tek kaynak (1908 klasik monografi; ikinci kaynak aranmadı). (Nikaia 1240'larda adayı Angelo Sanudo'dan alıp Ghisi'ye vermişti; 1270'lerde Rumlarca tekrar alındı.)"
+ },
+ {
+  "ad": "Namfi (Anafi)",
+  "durum": "CELISKI",
+  "sahip_1280": null,
+  "yeni_kunye": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "uyum": "farklı: atlas 'venedik'; Miller: Foscolo'lar sürülmüş, adanın yerlisi korsan Giovanni de lo Cavo özgür kıldı.",
+  "kaynak": [
+   {
+    "kunye": "William Miller, The Latins in the Levant: A History of Frankish Greece (1204-1566), London: John Murray, 1908, s. 578",
+    "url": "https://archive.org/details/latinsinlevanthi00mill",
+    "alinti": "the terrible corsair Giovanni de lo Cavo freed his native island of Anaphe from the Foscoli"
+   },
+   {
+    "kunye": "William Miller, The Latins in the Levant: A History of Frankish Greece (1204-1566), London: John Murray, 1908, s. 577",
+    "url": "https://archive.org/details/latinsinlevanthi00mill",
+    "alinti": "Ten other islands were at the same time lost for twenty years or more, and their Latin lords were expelled."
+   }
+  ],
+  "teyit": "tek kaynak",
+  "not": "1280 sahibi: yerel korsan/Bizans-yanlısı yönetim belirsiz; devlet kimliği vermek kaynaksız olur. Miller (1908) yitirme tarihini yıl olarak vermez; Licario'nun Arşipel akını (1270'ler; Skopelos, Lemnos ile aynı bağlam) ve 1277/1285 Venedik-Bizans antlaşmaları bağlamında 'yalnız Sanudi ve Ghisi kaldı' diyor; 1303 ile adalar geri alınıyor (s.582). Tarih/gün OKUNMADI; yer 1280'de Bizans elinde ise 1280-1303 arası Bizans dönemi atlasa yazılmalı. Tek kaynak (1908 klasik monografi; ikinci kaynak aranmadı)."
+ },
+ {
+  "ad": "Folegandros",
+  "durum": "CELISKI",
+  "sahip_1280": "bizans",
+  "yeni_kunye": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "uyum": "farklı: atlas 'venedik'; Miller: Naksos dükü Polykandros'u (=Folegandros) yitirdi.",
+  "kaynak": [
+   {
+    "kunye": "William Miller, The Latins in the Levant: A History of Frankish Greece (1204-1566), London: John Murray, 1908, s. 577-578",
+    "url": "https://archive.org/details/latinsinlevanthi00mill",
+    "alinti": "The Ghisi were driven from Amorgos, Seriphos, and Keos; the Barozzi fled from Santorin; the Duke of Naxos was deprived of Ios, Siphnos, Sikinos, and Polykandros"
+   },
+   {
+    "kunye": "William Miller, The Latins in the Levant: A History of Frankish Greece (1204-1566), London: John Murray, 1908, s. 577",
+    "url": "https://archive.org/details/latinsinlevanthi00mill",
+    "alinti": "Ten other islands were at the same time lost for twenty years or more, and their Latin lords were expelled."
+   },
+   {
+    "kunye": "William Miller, The Latins in the Levant: A History of Frankish Greece (1204-1566), London: John Murray, 1908, s. (dizin)",
+    "url": "https://archive.org/details/latinsinlevanthi00mill",
+    "alinti": "Pholegandros (Polykandros)"
+   }
+  ],
+  "teyit": "tek kaynak",
+  "not": "Miller (1908) yitirme tarihini yıl olarak vermez; Licario'nun Arşipel akını (1270'ler; Skopelos, Lemnos ile aynı bağlam) ve 1277/1285 Venedik-Bizans antlaşmaları bağlamında 'yalnız Sanudi ve Ghisi kaldı' diyor; 1303 ile adalar geri alınıyor (s.582). Tarih/gün OKUNMADI; yer 1280'de Bizans elinde ise 1280-1303 arası Bizans dönemi atlasa yazılmalı. Tek kaynak (1908 klasik monografi; ikinci kaynak aranmadı). Polykandros=Pholegandros eşlemesi Miller'in dizininde."
+ },
+ {
+  "ad": "İstanbulya (Astipalaya)",
+  "durum": "CELISKI",
+  "sahip_1280": "bizans",
+  "yeni_kunye": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "uyum": "farklı: atlas 'venedik'; Miller: Quirini'ler Astypalaia'dan sürüldü (1270'ler); Treccani 1207'den ~300 yıl Quirini der (sadeleştirme).",
+  "kaynak": [
+   {
+    "kunye": "William Miller, The Latins in the Levant: A History of Frankish Greece (1204-1566), London: John Murray, 1908, s. 578",
+    "url": "https://archive.org/details/latinsinlevanthi00mill",
+    "alinti": "the Quirini ... were ousted from Astypalaia"
+   },
+   {
+    "kunye": "Enciclopedia Italiana (Treccani), 'Stampalia', Ardito Desio - Amedeo Maiuri, 1936",
+    "url": "https://www.treccani.it/enciclopedia/stampalia_(Enciclopedia-Italiana)/",
+    "alinti": "Nel Medioevo (dal 1207) Stampalia fu governata per circa 300 anni dalla famiglia veneziana dei Querini"
+   }
+  ],
+  "teyit": "çelişki: Miller (kesintiyi belirtir) vs Treccani (kesintisiz)",
+  "not": "İki akademik kaynak çelişiyor; Miller ayrıntılı. Miller (1908) yitirme tarihini yıl olarak vermez; Licario'nun Arşipel akını (1270'ler; Skopelos, Lemnos ile aynı bağlam) ve 1277/1285 Venedik-Bizans antlaşmaları bağlamında 'yalnız Sanudi ve Ghisi kaldı' diyor; 1303 ile adalar geri alınıyor (s.582). Tarih/gün OKUNMADI; yer 1280'de Bizans elinde ise 1280-1303 arası Bizans dönemi atlasa yazılmalı. Tek kaynak (1908 klasik monografi; ikinci kaynak aranmadı)."
+ },
+ {
+  "ad": "Kaşot (Kasos)",
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "yeni_kunye": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "uyum": "",
+  "kaynak": [],
+  "teyit": "yok",
+  "not": "Denendi: Treccani 'Caso' (alakasız), Miller 1908 (Kasos yok). OKUNMADI: Rodos/Dodekanes bölgesel tarih."
+ },
+ {
+  "ad": "Krk (Veglia)",
+  "durum": "SAHIPLI",
+  "sahip_1280": "venedik",
+  "yeni_kunye": null,
+  "baslangic": "1118",
+  "baslangic_hassasiyet": "yil",
+  "bitis": "1358",
+  "uyum": "farklı: atlas 1358'de 'macaristan'; Treccani: 1358-1480 Venedik vassallığına EK olarak Macar egemenliği (Venedik vassallığı sürer).",
+  "kaynak": [
+   {
+    "kunye": "Enciclopedia Italiana (Treccani), 'Veglia', Elio Migliorini - Alessandro Dudan - Giuseppe Praga, 1937",
+    "url": "https://www.treccani.it/enciclopedia/veglia_(Enciclopedia-Italiana)/",
+    "alinti": "divennero nel 1118-1129 vassalli di Venezia e come tali tennero e governarono l'isola fino al 1358."
+   },
+   {
+    "kunye": "Enciclopedia Italiana (Treccani), 'Veglia', aynı, 1937",
+    "url": "https://www.treccani.it/enciclopedia/veglia_(Enciclopedia-Italiana)/",
+    "alinti": "Dal 1358 al 1480 oltre al vassallaggio veneziano Veglia riconobbe la sovranità ungherese."
+   }
+  ],
+  "teyit": "tek kaynak (Kosanović, Povijesni prilozi 35/50, 2016 özeti de Venedik'i 'hakem' gösterir: Krk 'among its possessions')",
+  "not": "Dolaylı sahip: Frankopan (Frangipani) kontları, Venedik vassalı. Başlangıç aralığı 1118-1129 (yıl 1118 alındı). Wikipedia: 1244-1260 Venedik yetkisini geri aldı iddiası TEYİTSİZ/OKUNMADI."
+ },
+ {
+  "ad": "Cres (Cherso)",
+  "durum": "SAHIPLI",
+  "sahip_1280": "venedik",
+  "yeni_kunye": null,
+  "baslangic": "1140",
+  "baslangic_hassasiyet": "yil",
+  "bitis": "1358",
+  "uyum": "atlas sonraki 1358 macaristan ile uyumlu (Treccani: 'primo dominio veneto' 1358'de sona erer)",
+  "kaynak": [
+   {
+    "kunye": "Enciclopedia Italiana (Treccani), 'Cherso', Elio Migliorini - Antonio Morassi - Jacopo Cella, 1931",
+    "url": "https://www.treccani.it/enciclopedia/cherso_(Enciclopedia-Italiana)/",
+    "alinti": "Intorno al 1140 Venezia riafferma il suo dominio sulla Dalmazia e quindi sulle isole, Cherso compresa."
+   },
+   {
+    "kunye": "Enciclopedia Italiana (Treccani), 'Cherso', aynı, 1931",
+    "url": "https://www.treccani.it/enciclopedia/cherso_(Enciclopedia-Italiana)/",
+    "alinti": "Il primo dominio veneto venne a cessare nel 1358 alla conclusione della pace di Zara."
+   }
+  ],
+  "teyit": "tek kaynak",
+  "not": "1166'da doge oğlu Leonardo'ya Cherso-Ossero fief verildi (Treccani). 'Intorno al 1140' yaklaşık yıl."
+ },
+ {
+  "ad": "Lošinj (Lussino)",
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "yeni_kunye": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "uyum": "",
+  "kaynak": [],
+  "teyit": "yok",
+  "not": "Treccani 'Lussino' (1949) yalnız 1947 devrini anlatıyor; ortaçağ okunmadı. Muhtemel ABİ MERKEZ: Osor/Cres (Cherso e Ossero birlikte fief) ama bağ KAYNAKLA OKUNMADI, uygulanmadı."
+ },
+ {
+  "ad": "Rab (Arbe)",
+  "durum": "SAHIPLI",
+  "sahip_1280": "venedik",
+  "yeni_kunye": null,
+  "baslangic": "1000",
+  "baslangic_hassasiyet": "yil",
+  "bitis": "1358",
+  "uyum": "atlas sonraki 1358 macaristan ile uyumlu olabilir (Treccani Arbe 1358 vermedi; Zara barışı Cherso maddesinde)",
+  "kaynak": [
+   {
+    "kunye": "Enciclopedia Italiana (Treccani), 'Arbe', Antonio Renato Toniolo - Roberto Cessi, 1929",
+    "url": "https://www.treccani.it/enciclopedia/arbe_(Enciclopedia-Italiana)/",
+    "alinti": "nei secoli XII e XIII esso compete esclusivamente ai cittadini residenti in Arbe"
+   },
+   {
+    "kunye": "Enciclopedia Italiana (Treccani), 'Arbe', aynı, 1929",
+    "url": "https://www.treccani.it/enciclopedia/arbe_(Enciclopedia-Italiana)/",
+    "alinti": "l'intervento veneziano è ristretto alla sola conferma"
+   }
+  ],
+  "teyit": "tek kaynak",
+  "not": "Venedik egemenliği (1000 Orseolo fethi, Treccani'de yıl olarak listelenen 1000) ama iç yönetim özerk: kont yurttaşlarca seçilir, Venedik yalnız onaylar. Egemenlik evet, doğrudan yönetim hayır. 1000 yıl baslangıcı Treccani'den paraphrase okundu (birebir alıntı alınmadı)."
+ },
+ {
+  "ad": "Pag (Pago)",
+  "durum": "CELISKI",
+  "sahip_1280": "venedik",
+  "yeni_kunye": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "uyum": "bitiş/atlas uyumu okunmadı",
+  "kaynak": [
+   {
+    "kunye": "Enciclopedia Italiana (Treccani), 'Pago', Antonio Renato Toniolo, 1935",
+    "url": "https://www.treccani.it/enciclopedia/pago_(Enciclopedia-Italiana)/",
+    "alinti": "Già dell'Impero d'Oriente fino al sec. XI, poi veneziana fino all'aggregazione della Dalmazia all'Austria"
+   }
+  ],
+  "teyit": "zayıf: tek özet cümle",
+  "not": "Treccani özeti kesintisiz 'veneziana' diyor ama 1358-1409 Macar dönemi ve Pag'ın Rab/Zadar çekişmesi bu özette yok; 1280 için kesin gün okunmadı. Düşük güven."
+ },
+ {
+  "ad": "Uzunada (Dugi Otok)",
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "yeni_kunye": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "uyum": "",
+  "kaynak": [],
+  "teyit": "yok",
+  "not": "Treccani 'Isola Lunga'/Dugi Otok maddesi denenmedi/okunmadı; Zara (Zadar) toprağı olabilir. OKUNMADI."
+ },
+ {
+  "ad": "Brakya (Brač)",
+  "durum": "SAHIPLI",
+  "sahip_1280": "venedik",
+  "yeni_kunye": null,
+  "baslangic": "1278",
+  "baslangic_hassasiyet": "yil",
+  "bitis": "1356",
+  "uyum": "farklı: Treccani Brazza Venedik dönemi 1278-1356; atlas 1358 (Macaristan); Lesina maddesi 1358.",
+  "kaynak": [
+   {
+    "kunye": "Enciclopedia Italiana (Treccani), 'Brazza', Antonio Renato Toniolo - Giuseppe Praga, 1930",
+    "url": "https://www.treccani.it/enciclopedia/brazza_(Enciclopedia-Italiana)/",
+    "alinti": "al quale seguirono quello veneziano (1278-1356)"
+   }
+  ],
+  "teyit": "tek kaynak",
+  "not": "Treccani ayrıca 'buccarius, vikar of comes insularum (Brazza ve Lesina)' der: Brač-Hvar ortak yönetim. 1356 vs 1358 farkı: atlas t=1358-02-18 iki ucu ölçülmeli. Başlangıç 1278'in Hvar ile aynı oluşu (Brač için bağımsız okunmadı) abi merkez Hvar çıkarımına yakın."
+ },
+ {
+  "ad": "Hvar (Lesina)",
+  "durum": "SAHIPLI",
+  "sahip_1280": "venedik",
+  "yeni_kunye": null,
+  "baslangic": "1278-04-03",
+  "baslangic_hassasiyet": "gun",
+  "bitis": "1358",
+  "uyum": "atlas 1358-02-18 macaristan ile uyumlu (Treccani: Venedik dönemi 1358'e kadar)",
+  "kaynak": [
+   {
+    "kunye": "Enciclopedia Italiana (Treccani), 'Lesina', Antonio Renato Toniolo - Alberto Gitti - Giuseppe Praga, 1933",
+    "url": "https://www.treccani.it/enciclopedia/lesina_(Enciclopedia-Italiana)/",
+    "alinti": "il 3 aprile 1278, si dànno a Venezia"
+   },
+   {
+    "kunye": "Enciclopedia Italiana (Treccani), 'Lesina', aynı, 1933",
+    "url": "https://www.treccani.it/enciclopedia/lesina_(Enciclopedia-Italiana)/",
+    "alinti": "Il dominio veneziano dura fino al 1358"
+   }
+  ],
+  "teyit": "tek kaynak",
+  "not": "Gün: 3 Nisan 1278 (Treccani). 1278 öncesi: Narenta korsanlarından korunmak için Venedik'e sığınma; önceki sahip (Hvar 13. yy başı Omiş/Bosna?) OKUNMADI."
+ },
+ {
+  "ad": "Korçula (Kurzola)",
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "yeni_kunye": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "uyum": "",
+  "kaynak": [],
+  "teyit": "yok",
+  "not": "Treccani 'Curzola': Venedik tarafından işgal 'venne occupata da Venezia' TARİHSİZ; 1298 deniz savaşı. Web aramasında Korçula 1255-1358 Venedik iddiası yalnız Wikipedia listesi (kaynak sayılmaz). Vikipedi-dışı akademik kaynak OKUNMADI."
+ },
+ {
+  "ad": "Vis (Lissa)",
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "yeni_kunye": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "uyum": "",
+  "kaynak": [],
+  "teyit": "yok",
+  "not": "Treccani 'Lissa': 'Dopo Roma la tenne Bisanzio, quindi l'Ungheria e Venezia.' (tarihsiz). 1280 sahibi OKUNMADI."
+ },
+ {
+  "ad": "Mliyet (Mljet)",
+  "durum": "CELISKI",
+  "sahip_1280": "venedik",
+  "yeni_kunye": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "uyum": "farklı: Treccani Venedik der, atlas 1358-1459 Macaristan/sonra Ragusa; 1333-45 Dubrovnik/Bosna-Sırp literatürü OKUNMADI.",
+  "kaynak": [
+   {
+    "kunye": "Enciclopedia Italiana (Treccani), 'Meleda', Antonio Renato Toniolo, 1934",
+    "url": "https://www.treccani.it/enciclopedia/meleda_(Enciclopedia-Italiana)/",
+    "alinti": "Soggetta fin dai primi del sec. XI alla repubblica di Venezia, passò, nel sec. XV, a quella di Ragusa,"
+   }
+  ],
+  "teyit": "zayıf: tek özet",
+  "not": "Treccani'nin 'Venedik XI. yy başından XV. yy'a kadar kesintisiz' ifadesi diğer literatürle (Ragusa 14. yy) çatışması muhtemel; hakemli ikinci kaynak okunmadı. Düşük güven."
+ },
+ {
+  "ad": "Lastovo (Lagosta)",
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "yeni_kunye": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "uyum": "",
+  "kaynak": [],
+  "teyit": "yok",
+  "not": "Treccani 'Lagosta' 13. yy siyasi durum vermez (yalnız Ragusa 'fino al 1810' ve S.Luca kilisesi 13. yy). 1252-1272 Ragusa / Venedik iddiaları OKUNMADI."
+ },
+ {
+  "ad": "İsfakiye (Sfakia)",
+  "durum": "SAHIPLI",
+  "sahip_1280": "girit-venedik",
+  "yeni_kunye": null,
+  "baslangic": "1212",
+  "baslangic_hassasiyet": "yil",
+  "bitis": "1669-09-27",
+  "uyum": "atlas sonraki 1669 Osmanlı ile uyumlu; 1280'de Girit Venedik'in (1282-99 Kallergis isyanı OKUNMADI)",
+  "kaynak": [
+   {
+    "kunye": "William Miller, The Latins in the Levant: A History of Frankish Greece (1204-1566), London: John Murray, 1908, s. 127",
+    "url": "https://archive.org/details/latinsinlevanthi00mill",
+    "alinti": "confirm them in their existing possessions at Coron and Modon, in Crete and Eubcea"
+   },
+   {
+    "kunye": "William Miller, The Latins in the Levant: A History of Frankish Greece (1204-1566), London: John Murray, 1908, s. 48",
+    "url": "https://archive.org/details/latinsinlevanthi00mill",
+    "alinti": "permitted the Venetians in 1212 to make the first comprehensive attempt at colonising the island"
+   }
+  ],
+  "teyit": "tek kaynak",
+  "not": "Bölge kaynağı: kaynak adayı değil tüm Girit'i kapsar (Viterbo 1267 hükmü). Sfakia'ya özel kayıt yok; dağlık Sfakia'nın fiilî Venedik denetimi (isyanlar) tartışmalı - OKUNMADI. Girit satışı 12 Ağustos 1204 (Miller), fiilî işgal 1212."
+ },
+ {
+  "ad": "Sitiye (Sitia)",
+  "durum": "SAHIPLI",
+  "sahip_1280": "girit-venedik",
+  "yeni_kunye": null,
+  "baslangic": "1212",
+  "baslangic_hassasiyet": "yil",
+  "bitis": "1669-09-27",
+  "uyum": "atlas sonraki 1669 ile uyumlu",
+  "kaynak": [
+   {
+    "kunye": "William Miller, The Latins in the Levant: A History of Frankish Greece (1204-1566), London: John Murray, 1908, s. 127",
+    "url": "https://archive.org/details/latinsinlevanthi00mill",
+    "alinti": "confirm them in their existing possessions at Coron and Modon, in Crete and Eubcea"
+   },
+   {
+    "kunye": "William Miller, The Latins in the Levant: A History of Frankish Greece (1204-1566), London: John Murray, 1908, s. 48",
+    "url": "https://archive.org/details/latinsinlevanthi00mill",
+    "alinti": "The Venetians began their occupation by landing a small garrison at Spinalonga in the east of the island"
+   }
+  ],
+  "teyit": "tek kaynak",
+  "not": "Bölgesel kaynak (Girit); Sitia'ya özel kayıt okunmadı. Doğu Girit (Spinalonga garnizonu) ilk işgal noktası."
+ },
+ {
+  "ad": "Karistos (Kızılhisar)",
+  "durum": "CELISKI",
+  "sahip_1280": "bizans",
+  "yeni_kunye": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": "1296",
+  "uyum": "farklı: atlas 'venedik' 1281-1470; Miller: Karystos Licario eliyle Bizans (1270'ler) ve 1296'ya dek 'son Bizans kalelerinden'; 1296'da Bonifacio da Verona (Atina dükü yanlısı Lombard) aldı.",
+  "kaynak": [
+   {
+    "kunye": "William Miller, The Latins in the Levant: A History of Frankish Greece (1204-1566), London: John Murray, 1908, s. 137",
+    "url": "https://archive.org/details/latinsinlevanthi00mill",
+    "alinti": "he ventured to besiege the strong 'red castle' of Karystos, his own birthplace"
+   },
+   {
+    "kunye": "William Miller, The Latins in the Levant: A History of Frankish Greece (1204-1566), London: John Murray, 1908, s. 209",
+    "url": "https://archive.org/details/latinsinlevanthi00mill",
+    "alinti": "recapturing the last remaining Byzantine fortresses of Karystos, Larmena, and Metropyle"
+   }
+  ],
+  "teyit": "tek kaynak",
+  "not": "1280'de sahibi Bizans (Licario'nun Michael VIII'den fief'i). Başlangıç yıl OKUNMADI (Licario 1270'ler). 1296'dan sonra Lombard baron (Bonifacio da Verona), Venedik'e geçiş 1365 (Miller: 'in 1365', sayfa OKUNMADI) - atlas 'venedik 1281'den' yanlış."
+ },
+ {
+  "ad": "Oreoi (İstiaia)",
+  "durum": "CELISKI",
+  "sahip_1280": "bizans",
+  "yeni_kunye": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "uyum": "farklı: atlas 'venedik'; Miller: Oreos Licario'nun üssü/Bizans filosu 1277.",
+  "kaynak": [
+   {
+    "kunye": "William Miller, The Latins in the Levant: A History of Frankish Greece (1204-1566), London: John Murray, 1908, s. 137",
+    "url": "https://archive.org/details/latinsinlevanthi00mill",
+    "alinti": "Oreos was taken, and he seized and fortified the castle of La Cuppa"
+   },
+   {
+    "kunye": "William Miller, The Latins in the Levant: A History of Frankish Greece (1204-1566), London: John Murray, 1908, s. 138",
+    "url": "https://archive.org/details/latinsinlevanthi00mill",
+    "alinti": "supported by the Greek fleet at Oreos"
+   }
+  ],
+  "teyit": "tek kaynak",
+  "not": "Oreos 1277'de Bizans üssü; 1296'ya dek Bizans elinde mi (Karystos gibi) kesin değil; Oreos 1296 listesinde ('son Bizans kaleleri') YOK. Başlangıç ve bitiş yılı OKUNMADI."
+ },
+ {
+  "ad": "Vrana (Urana)",
+  "durum": "CELISKI",
+  "sahip_1280": "macaristan",
+  "yeni_kunye": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "uyum": "farklı: atlas 1281-1358 'venedik' değil, Macar-Hırvat krallığı sahibi olması beklenir.",
+  "kaynak": [
+   {
+    "kunye": "Enciclopedia Italiana (Treccani), 'Vrana', Antonio Renato Toniolo, 1937",
+    "url": "https://www.treccani.it/enciclopedia/vrana_(Enciclopedia-Italiana)/",
+    "alinti": "le rovine dell'antico castello dei Templari, fondato nel 1138 da Béla II re d'Ungheria."
+   }
+  ],
+  "teyit": "zayıf",
+  "not": "Treccani yalnız 1138 Macar kralı Templar kalesi kuruluşunu verir; 1280 durumu okunmadı. Atlasın 'venedik' kaydı (1281-1358) bölge için doğrulanmadı."
+ },
+ {
+  "ad": "Amasra",
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "yeni_kunye": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "uyum": "",
+  "kaynak": [
+   {
+    "kunye": "Semavi Eyice, 'Amasra'da Cenova Hakimiyeti Devrine Ait Armalı Bir Levha', DergiPark kaydı (dergi adı OKUNMADI)",
+    "url": "https://dergipark.org.tr/en/download/article-file/3102478",
+    "alinti": "şimdiki halde kat'i olarak tesbit edilemiyen bir tarihten 1461'e kadar bir Cenova kolonisi olan Amasra"
+   }
+  ],
+  "teyit": "tek kaynak",
+  "not": "Eyice: Cenova hakimiyetinin BAŞLANGICI kesin saptanamıyor. Tourism kaynaklı 1261 (Nymphaion) iddiası teyitsiz. 1280 sahibi OKUNMADI. TDV 'Amasra' maddesi arama sayfası verdi, tam metin OKUNMADI."
+ },
+ {
+  "ad": "Kerç",
+  "durum": "CELISKI",
+  "sahip_1280": "altinorda",
+  "yeni_kunye": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": "yil",
+  "bitis": "1318",
+  "uyum": "farklı: atlas 1281'den 'cenova'; TDV: Cenova 1318'de Altın Orda'ya vergi vermek şartıyla hâkim oldu; öncesinde Moğol/Altın Orda.",
+  "kaynak": [
+   {
+    "kunye": "Hakan Kırımlı, 'Kerç', TDV İslâm Ansiklopedisi, c.25, Ankara 2022, s.275-276",
+    "url": "https://islamansiklopedisi.org.tr/kerc",
+    "alinti": "1318'de Altın Orda Devleti'ne vergi vermek şartıyla Cenevizliler Kerç'e hâkim oldular."
+   },
+   {
+    "kunye": "aynı madde",
+    "url": "https://islamansiklopedisi.org.tr/kerc",
+    "alinti": "XIII. yüzyılın ortalarında bütün bölge gibi Cengiz İmparatorluğu'nun hâkimiyetine girdi."
+   }
+  ],
+  "teyit": "tek kaynak (TDV)",
+  "not": "1280: Moğol/Altın Orda hakimiyeti (13. yy ortası), atlas künye 'altinorda' devletler.js'te var. Başlangıç: 'XIII. yüzyılın ortaları' (yıl yok). Cenova f=1318 olmalı (yıl; gün yok). Kerç'in 1280'de bir yerleşim olduğu TDV'de açık (Peçenek/Kıpçak sonrası)."
+ },
+ {
+  "ad": "Azak",
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "yeni_kunye": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "uyum": "farklı: atlas 1281'den 'cenova' (TDV: Cenova/Venedik Tana'da 14. yy ilk yarısında)",
+  "kaynak": [
+   {
+    "kunye": "Mustafa L. Bilge, 'Azak', TDV İslâm Ansiklopedisi, c.4, İstanbul 1991, s.300-301",
+    "url": "https://islamansiklopedisi.org.tr/azak",
+    "alinti": "Tana'da Cenevizliler gibi Venedikliler de XIV. yüzyılın ilk yarısında bazı ticarî müesseseler açtılar"
+   }
+  ],
+  "teyit": "tek kaynak",
+  "not": "1280 sahibi: büyük olasılıkla Altın Orda ama TDV 'nihayet Altın Orda'ya bağlandı' tarihsiz; açık 1280 bağı YOK. Cenova 1280'de Azak'ta yok (14. yy)."
+ },
+ {
+  "ad": "Taman",
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "yeni_kunye": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "uyum": "",
+  "kaynak": [],
+  "teyit": "yok",
+  "not": "TDV 'Taman' arama sayfası alakasız (Tamânî). Taman/Matrega: 1280 sahibi (Altın Orda?) OKUNMADI. Ege Tarih İncelemeleri 36/2 (2021, Simisso 1280-1420) listesinde Matrega Cenova kolonisi sayılır (başlangıç yok)."
+ },
+ {
+  "ad": "Fornoz (Fourni)",
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "yeni_kunye": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "uyum": "",
+  "kaynak": [],
+  "teyit": "yok",
+  "not": "Denendi: Miller 1908 (Fournoi yok); TDV/Treccani Fournoi okunmadı. Büyük olasılıkla Bizans/Sakız Zaccaria 1304 sonrası; KAYNAKSIZ."
+ },
+ {
+  "ad": "İpsara (Psara)",
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "yeni_kunye": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "uyum": "",
+  "kaynak": [],
+  "teyit": "yok",
+  "not": "Denendi: Miller 1908 (Psara yok). 1280'de Bizans ya da Sakız yakını olabilir; KAYNAKSIZ."
+ },
+ {
+  "ad": "Sasari (Sassari)",
+  "durum": "CELISKI",
+  "sahip_1280": null,
+  "yeni_kunye": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": "1294",
+  "uyum": "farklı: atlas 1281-1324 'cenova' diyor; 1294'te Cenova ile confederatio (24 Mart 1294) - 1280'de özerk komün.",
+  "kaynak": [
+   {
+    "kunye": "Enciclopedia Italiana (Treccani), 'Pisa', çeşitli (Attilio Mori, ... Giovanni Battista Picotti), 1935",
+    "url": "https://www.treccani.it/enciclopedia/pisa_(Enciclopedia-Italiana)/",
+    "alinti": "nel Logudoro dominano i Gherardesca"
+   },
+   {
+    "kunye": "Enciclopedia Italiana (Treccani), 'Pisa', aynı, 1935",
+    "url": "https://www.treccani.it/enciclopedia/pisa_(Enciclopedia-Italiana)/",
+    "alinti": "nel 1299 rinunziare in favore di Genova alla Corsica e al Logudoro"
+   }
+  ],
+  "teyit": "zayıf: dolaylı",
+  "not": "Web araması özetlerinde (sayfa/PDF OKUNMADI, kaynak sayılmaz): 'Sassari nel 1294 passò sotto l'influenza di Genova... confederatio 24 marzo 1294' ve 'Torres 1259'da sona erdi, Sassari özerk şehir-devlet'. Okunmuş akademik kaynakta (Treccani Pisa) Pisa 1299'da Cenova lehine Korsika ve Logudoro'dan vazgeçer; Sassari 1280'de Pisa etkisinde komün mü özerk mi kesin değil. sahip_1280 vermek kaynaksız olur."
+ },
+ {
+  "ad": "Bastia (Korsika)",
+  "durum": "HENUZ_YOK",
+  "sahip_1280": null,
+  "yeni_kunye": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "uyum": "kuruluş 1380 (kule); atlas 1281'den 'cenova' yerleşim yanlış erken",
+  "kaynak": [
+   {
+    "kunye": "Enciclopedia Italiana (Treccani), 'Bastia', Antonio Renato Toniolo - Jean Jacques Gruber - Paolo Graziani, 1930",
+    "url": "https://www.treccani.it/enciclopedia/bastia_(Enciclopedia-Italiana)/",
+    "alinti": "fece fabbricare al di sopra della collina una torricella o Bastia"
+   }
+  ],
+  "teyit": "tek kaynak",
+  "not": "Treccani: Cenova Maona valisi Leonello Lomellino 'Bastia' kulesini yaptırdı; tarih 1380 (özet, paraphrase). Yerleşim 1280'de yok; 1380'e dek yer kaydı kaldırılmalı veya başlangıç 1380'e çekilmeli. Terra Vecchia'dan önceki yerleşim (Porto Cardo) OKUNMADI."
+ },
+ {
+  "ad": "Ayacyo (Ajaccio)",
+  "durum": "CELISKI",
+  "sahip_1280": "piza",
+  "yeni_kunye": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": "1299",
+  "uyum": "farklı: atlas 1281-1768 'cenova'; Treccani Corsica: Cenova 1289'da adayı 'padrona' ama Pisa 1299'da resmen vazgeçer; 1280'de Pisa-yanlısı Giudice della Rocca Korsika valisi.",
+  "kaynak": [
+   {
+    "kunye": "Enciclopedia Italiana (Treccani), 'Ajaccio', Antonio Renato Toniolo - Paolo Graziani - Louis Gillet, 1929",
+    "url": "https://www.treccani.it/enciclopedia/ajaccio_(Enciclopedia-Italiana)/",
+    "alinti": "caduta la dominazione pisana, e assicuratisi i Genovesi il possesso della città"
+   },
+   {
+    "kunye": "Enciclopedia Italiana (Treccani), 'Corsica', Toniolo-Bottiglioni-Motzo-Russo-Aru-Bonaccorsi, 1931",
+    "url": "https://www.treccani.it/enciclopedia/corsica_(Enciclopedia-Italiana)/",
+    "alinti": "Uno di essi, Sinucello, detto Giudice della Rocca, favorito da Pisa, ebbe titolo di conte e governatore della Corsica."
+   },
+   {
+    "kunye": "Enciclopedia Italiana (Treccani), 'Pisa', çeşitli, 1935",
+    "url": "https://www.treccani.it/enciclopedia/pisa_(Enciclopedia-Italiana)/",
+    "alinti": "nel 1299 rinunziare in favore di Genova alla Corsica e al Logudoro"
+   }
+  ],
+  "teyit": "dolaylı: iki Treccani maddesi",
+  "not": "Eski Ajaccio (Gregorius Magnus'tan beri piskoposluk) 1280'de Pisa hakimiyetinde olabilir (Treccani 'caduta la dominazione pisana'); kesin gün/yıl OKUNMADI. Yeni şehir 1492 (14 Nisan 1492 planı, 30 Nisan 1492 ilk taş): atlasta 1492 öncesi nokta eski yerleşimin konumunu yaklaşık temsil eder. Güven düşük."
+ },
+ {
+  "ad": "Alghero",
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "yeni_kunye": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "uyum": "",
+  "kaynak": [],
+  "teyit": "yok",
+  "not": "Doria ailesi (Cenovalı ama özerk) 1102 civarı kurduğu söylenir; Castellaccio 'Alghero medioevale' (2021) yalnız bibliyografide görüldü, OKUNMADI. 1280'de Cenova doğrudan sahip değil: Doria lordluğu (cenova id'si yanlış olabilir)."
+ },
+ {
+  "ad": "Sondrio",
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "yeni_kunye": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": "1335",
+  "uyum": "atlas 1335'te visconti ile uyumlu (Treccani Valtellina: Rusca 1335'te Azzone Visconti'ye devretti, Visconti tüm Valtellina'yı kolayca aldı)",
+  "kaynak": [
+   {
+    "kunye": "Enciclopedia Italiana (Treccani), 'Valtellina', Giuseppe Caraci - Giovanni Dalmasso - Camillo Bassi - Carlo Guido Mor, 1937",
+    "url": "https://www.treccani.it/enciclopedia/valtellina_(Enciclopedia-Italiana)/",
+    "alinti": "per tutta la prima metà del sec. XIII, il predominio di Como sulla Valtellina non ebbe sensibili scosse"
+   }
+  ],
+  "teyit": "tek kaynak",
+  "not": "Como'nun Valtellina üstünlüğü 13. yy ilk yarısı için açık; 1280 için (Torriani/Milano etkisi, piskopos) açık beyan OKUNMADI. como-komunu olası ama kanıt 1280'i kapsamıyor."
+ },
+ {
+  "ad": "Chiavenna",
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "yeni_kunye": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": "1335",
+  "uyum": "Treccani Valtellina Chiavenna'yı 1373 sonrası anar; 1280 OKUNMADI.",
+  "kaynak": [
+   {
+    "kunye": "Enciclopedia Italiana (Treccani), 'Valtellina', Caraci vd., 1937",
+    "url": "https://www.treccani.it/enciclopedia/valtellina_(Enciclopedia-Italiana)/",
+    "alinti": "da questa pace furono esclusi Chiavenna, Bormio e Sondalo, la prima passata all'obbedienza del pontefice"
+   }
+  ],
+  "teyit": "tek kaynak",
+  "not": "Chiavenna Treccani'de 14. yy son çeyreğinde; 1280 sahibi OKUNMADI. Como komünü olası ama kaynaksız."
+ },
+ {
+  "ad": "Lugano",
+  "durum": "SAHIPLI",
+  "sahip_1280": "como-komunu",
+  "yeni_kunye": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": "1335",
+  "uyum": "farklı: Treccani Lugano 'Visconti'ye geçti' ama yıl vermez; Como maddesi Como'nun Azzone Visconti'ye 1335'te geçtiğini söyler. atlas 1335 visconti uyumlu olabilir.",
+  "kaynak": [
+   {
+    "kunye": "Enciclopedia Italiana (Treccani), 'Lugano', Laura Mannoni Biasotti - Gian Piero Bognetti, 1934",
+    "url": "https://www.treccani.it/enciclopedia/lugano_(Enciclopedia-Italiana)/",
+    "alinti": "Dal sec. XII subentrò il comune di Como."
+   },
+   {
+    "kunye": "Enciclopedia Italiana (Treccani), 'Lugano', aynı, 1934",
+    "url": "https://www.treccani.it/enciclopedia/lugano_(Enciclopedia-Italiana)/",
+    "alinti": "passato sotto il dominio dei Visconti, e sciolto dalla dipendenza da Como"
+   }
+  ],
+  "teyit": "tek kaynak",
+  "not": "Başlangıç: 12. yy (yıl yok; baslangic null). Como komünü 1280'de Torriani/Milano ile savaşta, ama Lugano'nun Como'ya bağlılığı Visconti'ye geçişe kadar Treccani'ye göre sürer. Visconti geçiş yılı Lugano maddesinde okunmadı (1335 Como maddesinden çıkarım)."
+ },
+ {
+  "ad": "Elba",
+  "durum": "SAHIPLI",
+  "sahip_1280": "piza",
+  "yeni_kunye": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": "1399-02-19",
+  "uyum": "farklı: 1291-1309 Cenova işgali/mücadelesi atlasta yok; Treccani: 1309'da Cenova Pisa'nın hakimiyetini tanıdı. 1399 Appiani (atlas piombino) uyumlu.",
+  "kaynak": [
+   {
+    "kunye": "Enciclopedia Italiana (Treccani), 'Elba', Attilio Mori - Arturo Solari - Gino Scaramella, 1932",
+    "url": "https://www.treccani.it/enciclopedia/elba_(Enciclopedia-Italiana)/",
+    "alinti": "La possedettero poi i duchi longobardi della Marca marittima toscana, e, nel secolo XI, i Pisani."
+   },
+   {
+    "kunye": "Enciclopedia Italiana (Treccani), 'Elba', aynı, 1932",
+    "url": "https://www.treccani.it/enciclopedia/elba_(Enciclopedia-Italiana)/",
+    "alinti": "dopo la battaglia della Meloria, nel 1291 occuparono l'Elba e ne portarono ostaggi."
+   },
+   {
+    "kunye": "Enciclopedia Italiana (Treccani), 'Elba', aynı, 1932",
+    "url": "https://www.treccani.it/enciclopedia/elba_(Enciclopedia-Italiana)/",
+    "alinti": "la lotta tra le due repubbliche per l'isola durò fino al 1309, quando Genova ne riconobbe a Pisa il dominio."
+   }
+  ],
+  "teyit": "tek kaynak",
+  "not": "Başlangıç 11. yy (yıl yok; null). KRONOLOJİ KIRILMASI: 1291 Cenova işgali, 1309'a dek mücadele; atlasa eklenebilir."
+ },
+ {
+  "ad": "Piombino",
+  "durum": "SAHIPLI",
+  "sahip_1280": "piza",
+  "yeni_kunye": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": "1399-02-19",
+  "uyum": "atlas sonraki piombino 1399-02-19 uyumlu (Gherardo d'Appiano Pisa'yı Visconti'ye satar)",
+  "kaynak": [
+   {
+    "kunye": "Enciclopedia Italiana (Treccani), 'Pisa', çeşitli, 1935",
+    "url": "https://www.treccani.it/enciclopedia/pisa_(Enciclopedia-Italiana)/",
+    "alinti": "Vada, Piombino"
+   },
+   {
+    "kunye": "Enciclopedia Italiana (Treccani), 'Piombino', Attilio Mori - Gino Scaramella, 1935",
+    "url": "https://www.treccani.it/enciclopedia/piombino_(Enciclopedia-Italiana)/",
+    "alinti": "Da allora in poi Pisa esercitò giurisdizione sulla terra per mezzo di un governatore con funzioni militari e giudiziarie."
+   }
+  ],
+  "teyit": "zayıf: 'Da allora' tarihi okunmadı",
+  "not": "12. yy'da Piombino Pisa komününün kırsal toprakları listesinde; 1280'de kesin ilişki açık olarak okunmadı ama kesintiyi gösteren bir şey de yok. Düşük-orta güven."
+ },
+ {
+  "ad": "Oristano",
+  "durum": "SAHIPLI",
+  "sahip_1280": "arborea",
+  "yeni_kunye": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": "1410",
+  "uyum": "atlas sonraki 1410 aragon: Treccani: 'sinché durò l'indipendenza e l'autonomia del giudicato' (yıl yok).",
+  "kaynak": [
+   {
+    "kunye": "Enciclopedia Italiana (Treccani), 'Oristano', Raimondo Bacchisio Motzo, 1935",
+    "url": "https://www.treccani.it/enciclopedia/oristano_(Enciclopedia-Italiana)/",
+    "alinti": "Oristano divenne la capitale del giudicato di Arborea."
+   },
+   {
+    "kunye": "Enciclopedia Italiana (Treccani), 'Oristano', aynı, 1935",
+    "url": "https://www.treccani.it/enciclopedia/oristano_(Enciclopedia-Italiana)/",
+    "alinti": "Fiorì specialmente nei secoli XIII-XV, sinché durò l'indipendenza e l'autonomia del giudicato"
+   },
+   {
+    "kunye": "Enciclopedia Italiana (Treccani), 'Giudicati', Enrico Besta, 1933",
+    "url": "https://www.treccani.it/enciclopedia/giudicati_(Enciclopedia-Italiana)/",
+    "alinti": "Il giudicato di Arborea trovò il suo centro in Oristano"
+   }
+  ],
+  "teyit": "çift (iki Treccani maddesi; bağımsız yazar)",
+  "not": "Oristano XI. yy'da başkent oldu (yıl yok; devlet künyesi f=1070 kullanılabilir). 1280 açıkça 'XIII-XV. yy bağımsız' kapsamında. 1410: devletler.js künyesi t."
+ }
+]
