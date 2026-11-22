@@ -1,4 +1,4 @@
-﻿# BOYA-ISTEKLERI — halk/aşiret künyeleri (HAVVA 21 KASIM, 22 Kasım 2026, Amerika dilim 2: Güney Amerika)
+# BOYA-ISTEKLERI — halk/aşiret künyeleri (HAVVA 21 KASIM, 22 Kasım 2026, Amerika dilim 2: Güney Amerika)
 
 `BOYALAR`a (arac/renkler.py) DOKUNULMADI; toplu boya paketi koşu 41 öncesi tek commit (EMRELİC kararı). Kayıtlar kaynaktan okunan ham tanıktır;
 `f`/`t` alanları kaynakta açık yıl yoksa BOŞ bırakıldı (uydurma yok). 'tanık' = kaynağın o halkı anlattığı yıl/dönem (varlığın ALT SINIRI, başlangıç değil).
@@ -27,6 +27,8 @@ Koordinat: kaynaklı temsilî nokta modern yerleşimdir (tarihî site değil); B
 | huanca | Huanca | Jauja (-80,-15) | Jauja -11.78,-75.47 | Inka fethi (yıl OKUNMADI) | | | Markham *Incas* s.180 | koyu terracotta |
 | omagua | Omagua/Machiparo/Carari/Uaupe | Amazon-Marañón-Meta (-70,-5),(-75,-5),(-70,0) | BULUNAMADI | 1541-45 (Winsor II s.581); 1560-61 (Simón/Markham) | | | Winsor II s.581; Simón/Markham | nehir mavisi |
 | cocama | Cocama | Ucayali (-75,-10)/(-75,-5) | BULUNAMADI | 1560-61 (Simón/Markham xxxi) | | | Simón/Markham | camgöbeği |
+| assiniboine | Assiniboine | Manitoba-Saskatchewan (-100,50),(-105,50),(-95,45) | BULUNAMADI | Jesuit Relation 1640 (ayrı anılır), 1658 Alimibeg çevresi (Hodge aktarımı); De l'Isle 1703 Rainy Lake | | | Hodge, *Handbook of American Indians* Part 1-2 ('Assiniboin' maddesi; OCR bozuk, JR'yi doğrudan açmadım) | açık mavi |
+| kiowa-apache | Kiowa Apache (Gattacka) | Platte-New Mexico arası | BULUNAMADI | ilk anış La Salle 1681/82; 1719 La Harpe 'Quataquois' (Hodge) | | | Hodge Part 1 'Kiowa Apache' (ofset ~3804247) | kum rengi |
 
 ## Kaynak bulunamayan halklar (BORÇ)
 Tairona (Cieza/Winsor II/Joyce'ta yok), Caquetío (Winsor II'de yalnız Coro 1541), Jívaro/Shuar, Pano/Conibo/Shipibo, Guahibo, Pemón, Wapishana, Carib/Arawak boyları, Charrúa 1500-1700 tanığı, Comechingón, Sanavirón.
