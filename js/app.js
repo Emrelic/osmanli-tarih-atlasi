@@ -11306,9 +11306,9 @@ function dzDuzenle(kutu, sekme, kapaliBasla) {
       g.baslik.style.display = (q && !say) ? "none" : "";
     });
   }
-  gruplar.forEach(function (g) {
+  gruplar.forEach(function (g, gi) {
     g.baslik.classList.add("dz-acilir");
-    if (kapaliBasla) g.baslik.classList.add("dz-kapali");
+    if (kapaliBasla && !(sekme === "kaynaklar" && gi === 0)) g.baslik.classList.add("dz-kapali");
     g.baslik.addEventListener("click", function () { g.baslik.classList.toggle("dz-kapali"); ciz(); });
   });
   arama.addEventListener("input", ciz);
@@ -11619,6 +11619,44 @@ function dizinDoldur(sekme) {
         }
       });
     });
+  } else if (sekme === "kaynaklar") {
+    // KAYNAKLAR-SAYFASI-1123 (Emre, 23 Kasım 2026): kaynak kataloğu veriden TÜRER (elle liste yok).
+    // Her kronoloji maddesinin kaynak alanı kaynak_damga.js ile damgalanır; burada madde
+    // sayıları damgaya ve kaynağa göre toplanır. Madde başına kaynak listesi maddenin kendi
+    // "Kaynaklar" bağlantısındadır.
+    var KG = window.KAYNAK_GUVEN, KD = window.KaynakDamga;
+    if (!KG || !KD) {
+      baslik("Kaynak tablosu yüklenemedi");
+    } else {
+      if (!window._kaynakOzet) {
+        var damgaSay = {}, kodSay = {};
+        olaylar.forEach(function (o) {
+          var r = KD.damgala(o.kaynak || "", o.t);
+          damgaSay[r.damga] = (damgaSay[r.damga] || 0) + 1;
+          var goruldu = {};
+          (r.parcalar || []).forEach(function (pc) {
+            (pc.kodlar || []).forEach(function (k) {
+              if (!goruldu[k]) { goruldu[k] = 1; kodSay[k] = (kodSay[k] || 0) + 1; }
+            });
+          });
+        });
+        window._kaynakOzet = { damga: damgaSay, kod: kodSay };
+      }
+      var OZ = window._kaynakOzet;
+      baslik("Kaynak güven damgası — maddeler");
+      ["guvenli", "ikincil", "taninmayan", "bulunamadi", "bos", "guvensiz"].forEach(function (dm) {
+        if (!KG.damgalar[dm]) return;
+        satir({ guvenli: "Dayanaklı", ikincil: "İkincil", taninmayan: "Tanınmayan", bulunamadi: "Bulunamadı",
+                bos: "Kaynak yok", guvensiz: "Güvensiz" }[dm], KG.damgalar[dm], String(OZ.damga[dm] || 0));
+      });
+      ["A", "B", "K", "Y"].forEach(function (kd) {
+        var liste = KG.kaynaklar.filter(function (k) { return k.kademe === kd && OZ.kod[k.kod]; })
+          .sort(function (a, b) { return OZ.kod[b.kod] - OZ.kod[a.kod]; });
+        if (!liste.length) return;
+        baslik(kd + " — " + KG.kademeler[kd].ad + " (" + liste.length + " kaynak) · " + KG.kademeler[kd].aciklama);
+        liste.forEach(function (k) { satir(k.ad, k.kod, OZ.kod[k.kod] + " madde"); });
+      });
+    }
   } else if (sekme === "yuzyillar") {
     var _yol = document.documentElement.lang === "en" ? "en/history/" : "tarih/";
     baslik("Milattan sonra (21)");
@@ -11645,7 +11683,7 @@ function dizinDoldur(sekme) {
             } : null);
     });
   }
-  if (sekme !== "yerlesimler") dzDuzenle(kutu, sekme, sekme === "devletler" || sekme === "sehirler");
+  if (sekme !== "yerlesimler") dzDuzenle(kutu, sekme, sekme === "devletler" || sekme === "sehirler" || sekme === "kaynaklar");
 }
 var VEFAT_INDEX = null;
 function vefatIndexKur() {
@@ -11978,7 +12016,7 @@ function kapsamSeridiGuncelle(t) {
     _kapsamSerit.id = "kapsam-disi-serit";
     _kapsamSerit.setAttribute("role", "status");
     // 22 Kasım 2026 (Emre: "yazı haritanın üzerinden gitmiyor"): şerit TIKLAYINCA kapanır
-    // ve her girişte 7 sn sonra kendiliğinden solar; ufuk dışına yeniden girilince döner.
+    // ve her girişte 3 sn sonra kendiliğinden solar (23 Kasım: 7 sn → 3 sn); ufuk dışına yeniden girilince döner.
     _kapsamSerit.title = "Kapatmak için tıkla";
     _kapsamSerit.addEventListener("click", function () { _kapsamSerit.classList.add("gizli"); });
     h.appendChild(_kapsamSerit);
@@ -11987,7 +12025,7 @@ function kapsamSeridiGuncelle(t) {
     _kapsamSeritDisi = disi;
     if (_kapsamSeritZaman) { clearTimeout(_kapsamSeritZaman); _kapsamSeritZaman = null; }
     _kapsamSerit.classList.toggle("gizli", !disi);
-    if (disi) _kapsamSeritZaman = setTimeout(function () { _kapsamSerit.classList.add("gizli"); }, 7000);
+    if (disi) _kapsamSeritZaman = setTimeout(function () { _kapsamSerit.classList.add("gizli"); }, 3000);
   }
   if (disi) {
     // sürüm 5 — Emre'nin Sümer kararı: "Sümer'de olan şehirler boyanır, gerisi boş
