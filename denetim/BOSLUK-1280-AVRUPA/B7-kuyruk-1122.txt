@@ -1,0 +1,100 @@
+﻿Suçava (Suceava)           sehir    47.63,26.25 s/altinorda yerlesimler.js
+Çernovitz (Çernivtsi)      kale     48.29,25.93 s/altinorda yerlesimler.js
+Roman                      sehir    46.92,26.93 s/altinorda yerlesimler.js
+Erdel (Kaloşvar)           bolge    46.77,23.59 s/macaristan yerlesimler.js
+Eğri                       kale     47.90,20.38 s/macaristan yerlesimler.js
+Kanije                     kale     46.45,16.99 s/macaristan yerlesimler.js
+Uyvar                      kale     47.99,18.16 s/macaristan yerlesimler.js
+Lugos (Lugoj)              kale     45.69,21.90 s/macaristan yerlesimler.js
+Zagreb                     sehir    45.81,15.98 s/macaristan yerlesimler.js
+Ljubljana                  sehir    46.06,14.51 s/almanya yerlesimler.js
+Bratislava                 sehir    48.15,17.11 s/macaristan yerlesimler.js
+Dresden                    sehir    51.05,13.74 s/saksonya yerlesimler.js
+Łódź                       sehir    51.76,19.46 s/polonya-erken yerlesimler.js
+Częstochowa                sehir    50.81,19.12 s/polonya-erken yerlesimler.js
+Kielce                     sehir    50.87,20.63 s/polonya-erken yerlesimler.js
+Hradec Králové             sehir    50.21,15.83 s/bohemya yerlesimler.js
+Oppeln (Opole)             sehir    50.67,17.93 s/silezya-piast yerlesimler.js
+Glatz (Kłodzko)            sehir    50.44,16.66 s/bohemya yerlesimler.js
+Gleiwitz (Gliwice)         sehir    50.29,18.67 s/silezya-piast yerlesimler.js
+Kattowitz (Katowice)       sehir    50.26,19.02 s/almanya yerlesimler.js
+Broumov (Braunau)          sehir    50.59,16.33 s/bohemya yerlesimler.js
+Jeseník (Freiwaldau)       sehir    50.23,17.20 s/bohemya yerlesimler.js
+Gdansk                     liman    54.35,18.65 s/polonya-erken yerlesimler.js
+Varşova                    sehir    52.23,21.01 s/mazovya-dukaligi yerlesimler.js
+İstolni Belgrad            kale     47.19,18.41 s/macaristan yerlesimler.js
+Peşte                      sehir    47.49,19.06 s/macaristan yerlesimler.js
+Yanıkkale (Győr)           kale     47.69,17.64 s/macaristan yerlesimler.js
+Varad (Oradea)             kale     47.05,21.94 s/macaristan yerlesimler.js
+Yanova (Ineu)              kale     46.43,21.74 s/macaristan yerlesimler.js
+Hotin                      kale     48.51,26.49 s/__BOSLUK__ yerlesimler.js
+Yazlofça (Yazlovets)       kale     48.95,25.43 s/galicya-volhinya yerlesimler.js
+Baç (Bács)                 kale     45.76,19.24 s/macaristan yerlesimler.js
+Kalocsa                    sehir    46.53,18.98 s/macaristan yerlesimler.js
+Segedin (Szeged)           sehir    46.25,20.15 s/macaristan yerlesimler.js
+Şimontorna                 kale     46.75,18.55 s/macaristan yerlesimler.js
+Hatvan                     kale     47.67,19.68 s/macaristan yerlesimler.js
+Vaç (Vác)                  kale     47.78,19.13 s/macaristan yerlesimler.js
+Solnok (Szolnok)           kale     47.17,20.20 s/macaristan yerlesimler.js
+Elbing (Elbląg)            sehir    54.15,19.41 s/teuton-devleti yerlesimler.js
+Torun (Toruń)              sehir    53.01,18.60 s/teuton-devleti yerlesimler.js
+Gyula (Göle)               kale     46.65,21.28 s/macaristan yerlesimler_ek5.js
+Kassa (Košice)             sehir    48.71,21.26 s/macaristan yerlesimler_ek.js
+Eperjes (Prešov)           sehir    49.00,21.24 s/macaristan yerlesimler_ek.js
+Tokaj                      kale     48.12,21.41 s/macaristan yerlesimler_ek.js
+Rønne (Bornholm)           liman    55.10,14.70 s/danimarka yerlesimler_avrupa.js
+Rostock                    liman    54.09,12.14 s/almanya yerlesimler_avrupa.js
+Stettin (Szczecin)         liman    53.43,14.55 s/pomeranya-dukaligi yerlesimler_avrupa.js
+Stralsund                  liman    54.31,13.08 s/almanya yerlesimler_avrupa.js
+Leipzig                    sehir    51.34,12.38 s/saksonya yerlesimler_avrupa.js
+Udine                      sehir    46.06,13.23 s/almanya yerlesimler_avrupa.js
+Belluno                    sehir    46.14,12.22 s/__BOSLUK__ yerlesimler_avrupa.js
+Trieste                    liman    45.65,13.77 s/almanya yerlesimler_avrupa.js
+Opava (Troppau)            sehir    49.94,17.90 s/bohemya yerlesimler_avrupa.js
+Ostrava (Mährisch Ostrau)  sehir    49.84,18.28 s/bohemya yerlesimler_avrupa.js
+Karviná (Fryštát)          sehir    49.85,18.54 s/bohemya yerlesimler_avrupa.js
+Erdel Belgradı (Gyulafehér sehir    46.07,23.58 s/macaristan yerlesimler_ek29.js
+Brassó (Braşov)            sehir    45.64,25.59 s/macaristan yerlesimler_ek29.js
+Segesvár (Sighişoara)      sehir    46.22,24.79 s/macaristan yerlesimler_ek29.js
+Komárom (Komárno)          kale     47.76,18.12 s/macaristan yerlesimler_ek29.js
+Somorja (Šamorín)          sehir    48.03,17.31 s/macaristan yerlesimler_ek29.js
+Léva (Levice)              kale     48.22,18.61 s/macaristan yerlesimler_ek29.js
+Trencsén (Trenčín)         kale     48.89,18.04 s/macaristan yerlesimler_ek29.js
+Varasd (Varaždin)          sehir    46.31,16.34 s/macaristan yerlesimler_ek29.js
+Botoşani                   sehir    47.75,26.67 s/altinorda yerlesimler_ek29.js
+Dorohoi                    sehir    47.96,26.40 s/altinorda yerlesimler_ek29.js
+Debrecen                   sehir    47.53,21.63 s/macaristan yerlesimler_kdmacar.js
+Fülek (Fiľakovo)           kale     48.27,19.82 s/macaristan yerlesimler_ek_macaristan.js
+Ungvár (Uzhhorod)          sehir    48.62,22.30 s/macaristan yerlesimler_ek_macaristan.js
+Munkács (Mukacheve)        kale     48.44,22.72 s/macaristan yerlesimler_ek_macaristan.js
+Szatmár (Satu Mare)        sehir    47.79,22.87 s/macaristan yerlesimler_ek_macaristan.js
+Becse (Törökbecse / Novi B kale     45.60,20.14 s/macaristan yerlesimler_ek_macaristan.js
+Çanad (Csanád / Cenad)     kale     46.17,20.46 s/macaristan yerlesimler_ek_macaristan.js
+Lippa (Lipova)             kale     46.09,21.69 s/macaristan yerlesimler_ek_macaristan.js
+Zilah (Zalău)              sehir    47.20,23.06 s/macaristan yerlesimler_ek_macaristan.js
+Lublin                     sehir    51.25,22.57 s/polonya-erken yerlesimler_p0037.js
+Białystok                  sehir    53.13,23.17 s/litvanya-buyuk-dukalik yerlesimler_p0037.js
+Brest-Litovsk              kale     52.10,23.69 s/litvanya-buyuk-dukalik yerlesimler_p0037.js
+Pinsk                      sehir    52.12,26.10 s/litvanya-buyuk-dukalik yerlesimler_p0037.js
+Grodno                     sehir    53.68,23.83 s/litvanya-buyuk-dukalik yerlesimler_p0037.js
+Kovel                      sehir    51.22,24.71 s/galicya-volhinya yerlesimler_p0037.js
+Rivne (Równe)              sehir    50.62,26.25 s/galicya-volhinya yerlesimler_p0037.js
+Freistadt                  sehir    48.51,14.50 s/almanya yerlesimler_a78_avrupa.js
+Gmünd (Aşağı Avusturya)    sehir    48.77,14.98 s/almanya yerlesimler_a78_avrupa.js
+České Budějovice (Budweis) sehir    48.98,14.47 s/bohemya yerlesimler_a78_avrupa.js
+Třeboň (Wittingau)         sehir    49.00,14.77 s/bohemya yerlesimler_a78_avrupa.js
+Maribor (Marburg)          sehir    46.56,15.65 s/almanya yerlesimler_p77_avrupa.js
+Čakovec (Csáktornya)       kasaba   46.38,16.43 s/macaristan yerlesimler_p77_avrupa.js
+Hartberg                   kasaba   47.28,15.97 s/almanya yerlesimler_p77_avrupa.js
+Arad                       sehir    46.18,21.32 s/macaristan yerlesimler_zincir64.js
+Bucaş                      sehir    49.06,25.39 s/galicya-volhinya yerlesimler_zincir64.js
+Szászsebes (Sebeş)         sehir    45.96,23.57 s/macaristan yerlesimler_zincir64.js
+Zenta                      sehir    45.93,20.08 s/macaristan yerlesimler_zincir64.js
+Sen Gotar                  sehir    46.95,16.27 s/macaristan yerlesimler_zincir64.js
+Vasvár                     sehir    47.05,16.80 s/macaristan yerlesimler_zincir64.js
+Facset                     sehir    45.85,22.18 s/macaristan yerlesimler_zincir64.js
+Csákóvár                   sehir    45.51,21.13 s/macaristan yerlesimler_zincir64.js
+Novigrad                   sehir    47.91,19.05 s/macaristan yerlesimler_zincir64.js
+Barcs                      sehir    45.96,17.46 s/macaristan yerlesimler_zincir64.js
+Világos (Şiria)            sehir    46.26,21.60 s/macaristan yerlesimler_sahne1108.js
+99
