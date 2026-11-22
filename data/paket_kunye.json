@@ -294,8 +294,8 @@
     },
     {
      "yol": "data/kronoloji_sinir_asya.js",
-     "sha": "84faafdd5b9cb610",
-     "bayt": 90546
+     "sha": "29a78ab4a441da10",
+     "bayt": 90593
     },
     {
      "yol": "data/kronoloji_sinir_amerika.js",
@@ -394,8 +394,8 @@
     },
     {
      "yol": "data/kronoloji_sinir_dogu_500_1281.js",
-     "sha": "aea8d3bf3a90a267",
-     "bayt": 830930
+     "sha": "08a3823ddb25e1d7",
+     "bayt": 815707
     },
     {
      "yol": "data/kronoloji_sinir_cin_sanguo.js",
@@ -409,8 +409,8 @@
     },
     {
      "yol": "data/kronoloji_sinir_cin_ms317.js",
-     "sha": "7c200da1c2a1fb48",
-     "bayt": 64917
+     "sha": "30d3827caa699200",
+     "bayt": 63797
     },
     {
      "yol": "data/kronoloji_sinir_zincir_avrupa_h.js",
@@ -498,7 +498,7 @@
      "bayt": 17249
     }
    ],
-   "bayt": 3728403
+   "bayt": 3712107
   },
   {
    "paket": "data/paket_10.js",

@@ -18,6 +18,28 @@ BEKLENEN_SIZINTI = 0   # (a) sınıfı tavanı: bugünkü ölçüm, yalnız geri
 SIZINTI = re.compile(
     r"s: dizisinde|s: sahiplik dizisinde|De[gğ]i[sş]mez\s*\d|d[oö]nem ucu kayd|"
     r"data/[a-z_]+\.js|(^|\s)kur:|\sf/t\s", re.I)
+BEKLENEN_A2 = 11       # (f) ikinci sınıf makine yazısı tavanı (22 Kas 2026 ölçümü: 8 'ay' hassasiyeti + 3 serbest metin)
+BEKLENEN_KIMLIK = 133  # (g) ham devlet kimliği tavanı (serbest metinde; kural tabanlı düzeltilemedi)
+
+# (f) ikinci sınıf sızıntı: iç etiket/makine yazısı (ilk sınıf SIZINTI'dan ayrıdır)
+A2 = re.compile(
+    r"\bs: (?:kaynak|zincir|dizi|sahiplik)|ilgili yerleşimin s:|yerleşiminin s:|"
+    r"\b\w* ?(?:yama|önek|BOŞLUK) dilim\w*|\bkuyruk(?:cin|\d[0-9a-z]*)?\b|atlas yerleşimi|"
+    r"Gün/yıl hassasiyeti: [a-z]+|__BOSLUK__|atlasta bu günden önce", re.I)
+KIMLIK_ADAY = re.compile(r"(?<![A-Za-z0-9_/-])[a-z0-9]+(?:-[a-z0-9]+)+(?![A-Za-z0-9_-])")
+
+
+def devlet_idleri():
+    """data/devletler.js'ten {id: ad} okur (düz regex; dosya JS'tir)."""
+    try:
+        with open(os.path.join(KOK, "data", "devletler.js"), encoding="utf-8") as fh:
+            ham = fh.read()
+    except OSError:
+        return {}
+    return dict(re.findall(r'\bid\s*:\s*"([^"]+)"\s*,\s*ad\s*:\s*"([^"]+)"', ham))
+
+
+IDLER = devlet_idleri()
 BITIS = tuple(".!?…)”\"’'»]")
 ING = set("the of and in was to is by with for from at as that which were his her their its on an after "
           "before during under into between".split())
@@ -54,6 +76,10 @@ def siniflar(o):
     s = []
     if SIZINTI.search(d) or SIZINTI.search(b):
         s.append("a")
+    if A2.search(d) or A2.search(b):
+        s.append("f")
+    if any(t in IDLER for t in KIMLIK_ADAY.findall(d) + KIMLIK_ADAY.findall(b)):
+        s.append("g")
     if d and len(d) > 60 and not d.endswith(BITIS):
         s.append("b")
     if d:
@@ -76,26 +102,31 @@ def main():
     if j["hatalar"]:
         print("ÖLÇÜLEMEDİ: yüklenemeyen dosya:", j["hatalar"][:3])
         sys.exit(2)
-    sayi = {c: 0 for c in "abcde"}
+    sayi = {c: 0 for c in "abcdefg"}
     dosya = {}
     for o in j["olay"]:
         for c in siniflar(o):
             sayi[c] += 1
-            if c == "a":
-                dosya[o["dizi"]] = dosya.get(o["dizi"], 0) + 1
+            if c in "afg":
+                dosya[(c, o["dizi"])] = dosya.get((c, o["dizi"]), 0) + 1
             if liste and (sec is None or sec == c):
                 print("(%s) %s %s#%d | %s | %s" % (c, o["dizi"], o["t"], o["n"], o["b"][:80], o["d"][:140]))
     ad = {"a": "iç şablon sızıntısı [kesin bozuk]", "b": "noktasız/kesik biten (>60)",
-          "c": "İngilizce açıklama", "d": "diyakritiksiz Türkçe aday", "e": "başlık = açıklama"}
+          "c": "İngilizce açıklama", "d": "diyakritiksiz Türkçe aday", "e": "başlık = açıklama",
+          "f": "ikinci sınıf makine yazısı [kesin bozuk]", "g": "ham devlet kimliği [kesin bozuk]"}
     print("madde taranan: %d" % len(j["olay"]))
-    for c in "abcde":
+    for c in "abcdefg":
         print("  (%s) %-36s %d" % (c, ad[c], sayi[c]))
-    for k, v in sorted(dosya.items()):
-        print("      (a) %s: %d" % (k, v))
-    if sayi["a"] > BEKLENEN_SIZINTI:
-        print("İHLAL: (a) sızıntı %d > tavan %d" % (sayi["a"], BEKLENEN_SIZINTI))
+    for (c, k), v in sorted(dosya.items()):
+        print("      (%s) %s: %d" % (c, k, v))
+    ihlal = False
+    for c, tavan in (("a", BEKLENEN_SIZINTI), ("f", BEKLENEN_A2), ("g", BEKLENEN_KIMLIK)):
+        if sayi[c] > tavan:
+            print("İHLAL: (%s) %d > tavan %d" % (c, sayi[c], tavan))
+            ihlal = True
+    if ihlal:
         sys.exit(1)
-    print("TEMİZ: (a) sızıntı <= tavan %d" % BEKLENEN_SIZINTI)
+    print("TEMİZ: (a)/(f)/(g) <= tavan")
     sys.exit(0)
 
 
