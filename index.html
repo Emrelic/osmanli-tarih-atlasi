@@ -81,6 +81,7 @@
    localStorage "gorunum": "otomatik" (varsayılan: parmakla kullanılan küçük ekran = telefon) |
    "telefon" | "masaustu". window.ATLAS_TELEFON bütün betiklerin tek kaynağı; <html> sınıfı: tel / mas. */
 (function () {
+  if (typeof document === "undefined" || !document.documentElement) return;   // betik-denetçileri (node) için
   var g = "otomatik";
   try { g = localStorage.getItem("gorunum") || "otomatik"; } catch (e) {}
   var tel;
@@ -94,9 +95,11 @@
   }
   window.ATLAS_GORUNUM = g;
   window.ATLAS_TELEFON = tel;
-  var l = document.getElementById("telefon-css");
-  if (l) l.media = tel ? "all" : "not all";
-  document.documentElement.classList.add(tel ? "tel" : "mas");
+  try {
+    var l = document.getElementById("telefon-css");
+    if (l) l.media = tel ? "all" : "not all";
+    document.documentElement.classList.add(tel ? "tel" : "mas");
+  } catch (e) { /* betik-denetçisi ya da eski tarayıcı */ }
 })();
 </script>
 </head>

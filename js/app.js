@@ -17800,8 +17800,8 @@ function enYakinOlayBul(gi) {
   window.sekmeListeAc = function () {
     durum = "liste"; uygula();
     setTimeout(function () {
-      var s = document.getElementById("olay-listesi").querySelector(".simdiki");
-      if (s && s.scrollIntoView) s.scrollIntoView({ block: "center" });
+      var simdikiSatir = document.getElementById("olay-listesi").querySelector(".simdiki");
+      if (simdikiSatir && simdikiSatir.scrollIntoView) simdikiSatir.scrollIntoView({ block: "center" });
     }, 30);
   };
   window.sekmeDetayAc = function (tazelemeGerekmez) {
