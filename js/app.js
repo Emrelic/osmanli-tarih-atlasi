@@ -14986,6 +14986,15 @@ function tamEkranSor() {
         } catch (e) { /* destek yok */ }
       };
       document.addEventListener("pointerup", ilkDokunus, true);
+      // 22 Kasım 2026 — Emre: başka sekmeye geçip dönünce tam ekran bozuluyordu. Tarayıcı sekme
+      // değişince tam ekrandan çıkarır; geri gelince yine bir kullanıcı hareketi gerekir → sekme
+      // görünür olunca ilk dokunuşa yeniden kurulur. (Kullanıcı kenardan kaydırıp bilerek çıkarsa
+      // sekme değişmedikçe yeniden zorlanmaz.)
+      document.addEventListener("visibilitychange", function () {
+        if (document.visibilityState !== "visible" || document.fullscreenElement) return;
+        document.removeEventListener("pointerup", ilkDokunus, true);
+        document.addEventListener("pointerup", ilkDokunus, true);
+      });
       return;
     }
   } catch (e) { /* medya sorgusu yok: eski soru akışı */ }
