@@ -11268,7 +11268,11 @@ function dzKisiOlayi(k) {
   var ad = dzAd(k.ad);
   return dzIlkOlay(function (o) {
     if (o.kisi_id === k.id || o.vefat_id === k.id) return true;
-    return ad.length > 4 && typeof o.kisiler === "string" && o.kisiler.toLocaleLowerCase("tr").indexOf(ad) >= 0;
+    // Ad eşleşmesi YALNIZ kişinin yaşadığı yıllarda (f–t); yoksa aynı adlı başka çağ kişisi eşleşirdi
+    // (LAB 23 Kasım: Âlî Paşa→1543, I. Leopold→1375). Yılı bilinmeyen kişi ad ile eşleşmez.
+    if (!(ad.length > 4 && typeof o.kisiler === "string" && o.kisiler.toLocaleLowerCase("tr").indexOf(ad) >= 0)) return false;
+    var f = parseInt(k.f, 10), t = parseInt(k.t, 10), y = parseInt(o.t, 10);
+    return !isNaN(f) && !isNaN(t) && !isNaN(y) && y >= f - 1 && y <= t + 1;
   });
 }
 function dzGit(o, lat, lon) {
@@ -11662,13 +11666,13 @@ function dizinDoldur(sekme) {
     baslik("Milattan sonra (21)");
     for (var i = 1; i <= 21; i++) {
       (function (ii) {
-        satir(ii + ". yüzyıl", "", "", function () { location.href = _yol + (ii < 10 ? "0" : "") + ii + ".html"; });
+        satir(ii + ". yüzyıl", "", "", function () { location.href = (ii === 21 ? "tarih/" : _yol) + (ii < 10 ? "0" : "") + ii + ".html"; });
       })(i);
     }
     baslik("Milattan önce (31)");
     for (var j = 1; j <= 31; j++) {
       (function (jj) {
-        satir("MÖ " + jj + ". yüzyıl", "", "", function () { location.href = _yol + "mo-" + (jj < 10 ? "0" : "") + jj + ".html"; });
+        satir("MÖ " + jj + ". yüzyıl", "", "", function () { location.href = (jj === 28 ? "tarih/" : _yol) + "mo-" + (jj < 10 ? "0" : "") + jj + ".html"; });
       })(j);
     }
   } else {
