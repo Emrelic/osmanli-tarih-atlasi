@@ -18,7 +18,7 @@ MDIR = os.path.join(KOK, "data", "acilis_m")          # millet paketleri (arac/a
 # Sitenin dilleri: data/ceviri_dizin.js (tr en ar es fr ru zh hi pt de ja).
 DIL_GRUP = {
     ("tr",): "TR",
-    ("ru", "tr"): "AZ KZ UZ TM KG",                    # Türk dilli eski Sovyet (Emre'nin örneği)
+    ("ru", "tr"): "KZ UZ TM KG",                  # Türk dilli eski Sovyet (Emre'nin örneği)
     ("ru", "en"): "RU BY MD AM TJ",                    # öteki eski Sovyet
     ("en", "ru"): "UA GE EE LV LT",                    # Rusçanın siyasî yükü ağır olanlar: önce İngilizce
     ("ar",): "SA AE QA KW BH OM YE IQ SY JO LB PS EG SD LY",
@@ -33,6 +33,18 @@ DIL_GRUP = {
     ("hi", "en"): "IN NP",
     ("en", "tr"): "CY BA AL XK MK",                    # Osmanlı mirası güçlü Balkan/Kıbrıs
     ("bg", "en"): "BG",                                # 21 Kasım 2026: Bulgarca yayında (Emre) → Bulgaristan'dan girene önce Bulgarca
+    # 22 Kasım 2026 (Emre): GENEL KURAL — ülkenin dili sitenin dillerindeyse o dil açılır, yoksa İngilizce.
+    # Sonradan eklenen diller (az fa it pl nl el id bn ur sw) için ülke eşlemeleri:
+    ("az", "tr"): "AZ",
+    ("fa", "en"): "IR AF",
+    ("it", "en"): "IT SM VA",
+    ("pl", "en"): "PL",
+    ("nl", "en"): "NL",
+    ("el", "en"): "GR",
+    ("id", "en"): "ID",
+    ("bn", "en"): "BD",
+    ("ur", "en"): "PK",
+    ("sw", "en"): "KE TZ",
 }
 # yukarıda olmayan ülke → İngilizce (Güney Afrika, Nijerya, ABD, İran, Pakistan, …)
 VARSAYILAN_DIL = ["en"]

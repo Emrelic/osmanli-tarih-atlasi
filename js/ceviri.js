@@ -25,6 +25,8 @@
   function dilSec() {
     var p = null;
     try { p = new URLSearchParams(location.search).get("dil"); } catch (e) {}
+    // ?dil=auto: kayıtlı seçimi siler, ülke diliyle açar (deneme / sıfırlama; Emre 22 Kas).
+    if (p === "auto") { p = null; try { localStorage.removeItem("dil"); } catch (e) {} }
     var kayitli = null;
     try { kayitli = localStorage.getItem("dil"); } catch (e) {}
     // ACILIS-ULKE-1119 (Emre, 19 Kas): adres ya da kayıtlı seçim yoksa ziyaretçinin ülkesinin
