@@ -52,7 +52,9 @@
      Soldan sağa: ☰ Butonlar · ▾ Kronoloji · (kamera deliği) · Dil · YIL */
   #ustbar #btn-beta { display: none; }
   #ustbar #btn-panel { order: 1; margin-left: 0; flex: 0 0 auto; padding-left: 7px; padding-right: 7px; font-size: 12px; }
-  #ustbar #dil-secici { order: 3; margin-left: auto; flex: 0 0 auto; max-width: 5.2em; }
+  #ustbar #dil-secici { order: 3; margin-left: auto; flex: 0 0 auto; }
+  #ustbar #dil-secici .dil-dugme { max-width: 5.6em; min-height: 36px; font-size: 12px; padding: 0 7px; }
+  #dil-secici .dil-sec { min-height: 40px; font-size: 15px; }
   #ustbar #ustbar-yil { order: 4; flex: 0 0 auto; text-align: right; min-width: 0; font-size: 26px; line-height: 1; }
   /* Tarih + dönem adı satırı kalktı (yeri haritaya); tarih zaten kronolojide yazıyor. */
   #ustbar #ustbar-orta { display: none; }
