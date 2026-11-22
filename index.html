@@ -168,22 +168,27 @@
   <button id="btn-menu" title="Araç düğmelerini göster/gizle">☰ Butonlar</button>
   <div id="menu-butonlar" class="gizli">
     <!-- TANITIM (Emre, 7 Kasım 2026): turu sonradan açmak için — js/tanitim.js -->
+    <!-- MENÜ DÜZENİ (Emre, 22 Kasım 2026): dört grup — Keşfet · Harita gösterimi · Gezinti ·
+         Topluluk ve bilgi. Düğme/denetim id'leri DEĞİŞMEDİ (js/app.js id ile buluyor); yalnız
+         gruplandı. Forum/Lejant/Kaynaklar aşağıda kendi gruplarına taşındı. -->
+    <div class="menu-grup" id="mg-kesfet"><div class="menu-grup-baslik">Keşfet</div>
     <button id="btn-tanitim" title="Bu site nasıl gezilir — tanıtım turu">ℹ Siteyi tanı</button>
     <button id="btn-dizin" title="Kişi, savaş ve antlaşma dizinleri">📚 Dizin</button>
     <!-- SEO-STATIK-1117 (Emre, 18 Kasım 2026): statik yüzyıl dizinine GERÇEK <a href> — arama
          motoru da bu bağlantıyı izler. İngilizce arayüzde js/app.js en/history/'ye çevirir. -->
     <a id="btn-yuzyillar" href="tarih/" title="Bütün kronoloji maddeleri yüzyıllara göre, okunur sayfalar halinde">📜 Yüzyıllar</a>
+    </div>
     <!-- FORUM F1 (17 Kasım 2026): Kahvehane — ayrı sayfa forum/ (Supabase). 18 Kasım 2026
          (Emre): herkese açık. Ardına js/marka.js "✉ İletişim" düğmesini ekler. -->
-    <button id="btn-forum" title="Kahvehane — tarih forumu" onclick="location.href='forum/'">💬 Forum</button>
+    <!-- 💬 Forum → "Topluluk ve bilgi" grubuna taşındı (aşağıda, #mg-topluluk). -->
+    <div class="menu-grup" id="mg-harita"><div class="menu-grup-baslik">Harita gösterimi</div>
     <!-- 🆕 ARAYUZ-0082 / H-0087 (30 Eylül 2026), Emre: "harita simgeleri ve
          gösterimleri ile ilgili olan butonu butonlar içine koysak haritada
          gözümüzün önünde olmasın" · "i harfi ilk gösterimde orada görünse ama
          sonrasında butonlar içinde olsa". İki düğme de eskiden HARİTANIN
          üstündeydi (lejant `☰` sağ üstte, atıf `ⓘ` alt köşede). ⚠️ Lejant
          düğmesi ve Butonlar düğmesi AYNI `☰` işaretini taşıyordu. -->
-    <button id="btn-lejant" title="Harita işaretleri (lejant) — göster / gizle">🗺 Harita işaretleri</button>
-    <button id="btn-atif" title="Altlık, veri ve lisans atfı — göster / gizle">ⓘ Kaynaklar</button>
+    <!-- 🗺 Harita işaretleri → "Harita gösterimi" grubunun sonuna, ⓘ Kaynaklar → "Topluluk ve bilgi"ye taşındı. -->
     <!-- 🔴 DÖRT DÜĞME KALDIRILDI — 29 Eylül 2026, ARAYUZ-SADELESTIR-0929.
          `🗺 Coğrafya` · `📐 Motor hatları` · `▦ Veri sınırı` · `🐎 Koridor ağı`.
          Dördü de HEMEN ALTINDAKİ katman kutularının aynı katmanlarını
@@ -216,77 +221,33 @@
          — çoklu seçim için şart: her tıkta kapansaydı dört katmanı
          seçmek dört kez menü açmayı gerektirirdi. -->
     <div id="katman-grup">
-      <div id="katman-baslik">KATMANLAR — birden çok seçilebilir</div>
-      <!-- ① ALTLIK — ÜÇ ŞIKLI SEÇİCİ (29 Eylül 2026, Emre kararı (c)).
-           ÖNCESİ: `⓪ Fizikî altlık` kutusu + `① Coğrafya` kutusu + `🗺 Coğrafya`
-           DÜĞMESİ = aynı beş katmanın ÜÇ AYRI denetimi. Canlıda ölçüldü:
-             düğmeye iki kez bas → `① Coğrafya` kutusu HÂLÂ İŞARETLİ, ama
-             g-kara/g-gol/g-dag/g-nehir "none" ⇒ KUTU YALAN SÖYLÜYOR.
-           5 Eylül'de `altlik` ayrı kovaya alınırken ⓪ senkronlanmıştı,
-           ① SENKRONLANMAMIŞTI — kusur yön değiştirip yaşamaya devam etti.
-           ⇒ Tek kapı: bu seçici. Kutu yok, düğme yok, çelişki yok.
-           ⚠️ `zemin` ÜÇ ŞIKTA DA AÇIK KALIR. O bir `background` katmanı ve
-              DENİZ RENGİDİR (`SU_RENGI`, js/app.js:1473). Eski `① Coğrafya`
-              kutusunun kalıbı `^(zemin|g-)` idi ve kutu kapatılınca denizi
-              de söndürüyordu; kimse görmemişti çünkü kutu varsayılan açıktı.
-           📌 "Esri" şıkkında `g-nehir` AÇIK kalır — 5 Eylül'de `nehriUsteAl()`
-              onu siyasî dolguların ÜSTÜNE taşıdı ve BUGÜNKÜ YAYININ görüntüsü
-              budur. Üç şıkka geçerken nehirleri söndürmek bir sadeleştirme
-              değil GERİLEME olurdu. Ayrıntı: js/app.js `altlikKip()`. -->
-      <label class="secici-satir"><span>① Altlık</span>
+      <!-- MENÜ DÜZENİ (Emre, 22 Kasım 2026). Sıra: Küre (en önemli) · Altlık · Yerleşim · Siyasî yapılar ·
+           Yumuşak renk · Sınır çizgileri (D katmanı, js/d_katman.js) · Harekât okları · Menzil yolları ·
+           Kaynaklı sahiplik halkaları (js/app.js kaynakliHalkaAyarKur). Eski dikkat notları (altlık üç şık,
+           harekât okları ayrı kutu, tek-denetim kuralı: kutusu VARSA düğmesi OLMAZ) git geçmişindedir.
+           ⚠️ data-katman / id değerleri DEĞİŞMEDİ — js/app.js KATMAN_KUMESI bunlarla çalışır. -->
+      <label><input type="checkbox" data-katman="kure" checked> <span>Küre görünüm (dünya yuvarlak)</span><em id="kat-sayi-kure"></em></label>
+      <label class="secici-satir"><span>Altlık</span>
         <select id="altlik-sec" title="Siyasî katmanların ALTINDA ne görünsün">
           <option value="esri" selected>🖼 Esri fotoğrafı</option>
           <option value="bizim">🗺 Bizim coğrafyamız</option>
           <option value="yok">⬜ Yok (düz zemin)</option>
         </select><em id="kat-sayi-altlik"></em></label>
-      <label><input type="checkbox" data-katman="yerlesim" checked> <span>② Yerleşim yerleri</span><em id="kat-sayi-yerlesim"></em></label>
-      <!-- ③ 11 Eylül 2026'da varsayılan KAPALIYA çevrildi (Emre'nin ekran
-           görüntüsü). Menzil ağı bir ARKA PLAN bilgisi; sürekli açık dursa
-           haritayı örter. 65 durak + 64 hat, yalnız 1539-1839 arası. -->
-      <label><input type="checkbox" data-katman="yollar"> <span>③ Yollar ve koridorlar</span><em id="kat-sayi-yollar"></em></label>
-      <!-- 🔴 ④ HAREKÂT OKLARI AYRI KUTUDUR (20 Eylül 2026, SEFER-OK-0070):
-           okların kalıbı bir ara ③'ün kovasındaydı ve ③ kapatılınca oklar da
-           kapanıyordu — atlas açılışında HİÇ görünmüyorlardı. Koridor bir
-           ALTYAPI, ok bir ANLATI öğesidir; birini kapatmak ötekini kapatmaz. -->
-      <label><input type="checkbox" data-katman="harekat" checked> <span>④ Harekât okları</span><em id="kat-sayi-harekat"></em></label>
-      <label><input type="checkbox" data-katman="siyasi" checked> <span>⑤ Siyasî yapılar</span><em id="kat-sayi-siyasi"></em></label>
-      <!-- ⑤b HARİTA RÖTUŞU (0084/H-0019, P84-ROTUS 6 Ekim 2026). Kutu iki şeyi
-           birlikte yönetir: kesikli rötuş konturu (`rotus-kontur`) VE gövdelere
-           rötuşun uygulanıp uygulanmadığı. Kapalıyken HAM gövde görünür ⇒
-           rötuşlu/rötuşsuz hâl yan yana karşılaştırılır. VARSAYILAN AÇIK
-           (koordinatör kararı). Kayıt sayısı kutunun ipucunda. Düğme: kullanıcı
-           haritaya poligon çizer, `rotus-teklif-<gün>-<saat>.json` iner;
-           dosya parti akışına H-maddesi eki olarak girer, kontrolü (K1-K9)
-           Claude yapar, kaydı koordinatör yazar. -->
-      <label><input type="checkbox" data-katman="rotus" checked> <span>⑤b Rötuşlar</span><em id="kat-sayi-rotus"></em></label>
-      <!-- Rötuş teklifi YALNIZ geliştirici kipinde görünür (Emre 14 Ekim 2026:
-           "o ad geliştirici modunda görünmeli ve kullanıcıya açık olmamalı").
-           Kip: js/gelistirici.js · gizleyen kural css/style.css `.yalniz-gelistirici`. -->
+      <label><input type="checkbox" data-katman="yerlesim" checked> <span>Yerleşim yerleri</span><em id="kat-sayi-yerlesim"></em></label>
+      <label><input type="checkbox" data-katman="siyasi" checked> <span>Siyasî yapılar</span><em id="kat-sayi-siyasi"></em></label>
+      <label><input type="checkbox" data-katman="yumusak" checked> <span>Yumuşak renk (coğrafya alttan görünür)</span><em id="kat-sayi-yumusak"></em></label>
+      <div id="d-gorunum-grup"></div>
+      <label><input type="checkbox" data-katman="harekat" checked> <span>Harekât okları</span><em id="kat-sayi-harekat"></em></label>
+      <label><input type="checkbox" data-katman="yollar"> <span>Menzil yolları (1539–1839)</span><em id="kat-sayi-yollar"></em></label>
+      <!-- Rötuşlar: data/rotus.js 0 kayıt (22 Kasım 2026 ölçümü) — kullanıcıdan gizlendi, geliştirici kipinde durur. -->
+      <label class="yalniz-gelistirici"><input type="checkbox" data-katman="rotus" checked> <span>Rötuşlar</span><em id="kat-sayi-rotus"></em></label>
       <div class="secici-satir yalniz-gelistirici"><button type="button" id="rotus-teklif-dugme"
         title="Haritaya tıklayarak poligon çiz · çift tık / Enter bitirir · Esc iptal · Backspace son noktayı siler">✏️ Rötuş teklif et</button><em id="rotus-teklif-durum"></em></div>
-      <!-- ⑥ Ⓑ UFUK (5/7/10) ve ⑥b Ⓑ DOLGU düğmeleri KALDIRILDI — Emre, 18 Kasım 2026 (karar 9):
-           tek harita = 5 gün + B dolgusu, bütün zamanlarda aynı. Dolgu katmanı HEP AÇIK (app.js
-           dolguHepAcik); ufuk bandı seçeneği yok (ufukEtkin hep 0). Eski düğmelerin tasarım
-           notları git geçmişinde. -->
-      <!-- ⑦ RENK ÜSLUBU — görünürlük değil KİP. 4 Eylül 2026, Emre: "şimdiki
-           renk tarzı da korunsun ama eski soft renk tarzını da getirelim,
-           coğrafya görünsün." İşaretsiz = SERT. Bedeli app.js SIYASI_KIP'te. -->
-      <label><input type="checkbox" data-katman="yumusak" checked> <span>⑦ Yumuşak renk (coğrafya alttan görünür)</span><em id="kat-sayi-yumusak"></em></label>
-      <!-- 🔴 "⑥ Motor tanı hatları" KUTUSU KALDIRILDI — 29 Eylül 2026,
-           Emre kararı (a): "tanıya çeksin". Bu katman son kullanıcı için
-           değildi; tek bir soruyu cevaplıyor: *"sınır dağın tepesinden
-           geçiyor mu, nehri tutuyor mu?"* — yani bizim denetim aletimiz.
-           ⚠️ KOVASI `KATMAN_KUMESI`te DURUYOR (kutusu yok). Sebebi orada
-              yazılı `ufuk` vakasıyla aynı: kova olmazsa katman
-              "SINIFLANMAMIŞ" sayılır ve uyarı boşuna öter; kova varsa
-              `uygula()` ona hiç dokunmaz (o döngü yalnız `input[data-katman]`
-              üzerinde gezer) ⇒ tek kapı kalır.
-           📌 Yeni kapı: `?tani=1` ya da konsoldan `atlasTani()` / `atlasTani(false)`.
-           📌 Katmanlar `visibility:"none"` ile kuruluyor (altlikKur) ⇒ kutu
-              gidince varsayılan KAPALI kalır, ek kod gerekmez. -->
-      <label><input type="checkbox" data-katman="kure" checked> <span>⑧ Küre görünüm (dünya yuvarlak)</span><em id="kat-sayi-kure"></em></label>
       <div id="katman-not"></div>
     </div>
+    <button id="btn-lejant" title="Harita işaretleri (lejant) — göster / gizle">🗺 Harita işaretleri</button>
+    </div>
+    <div class="menu-grup" id="mg-gezinti"><div class="menu-grup-baslik">Gezinti</div>
     <!-- 🔴 DALGA-0074/H-0001 (21 Eylül 2026) — zaman barından BURAYA taşındı.
          Emre'nin tarifi: "otomatik odaklama olay play olay hızı ayarı
          yanındaki ayar butonu oto butonu".
@@ -307,7 +268,6 @@
          #btn-panel). Yani kusur kozmetik değil, İŞLEVSELDİ.
          Yuva BURADA, düğmeleri js/d_katman.js dolduruyor (aynı `_dGorunum`
          değişkeni, aynı `_dSinirGuncelle` çağrısı — yeni mekanizma YOK). -->
-    <div id="d-gorunum-grup"></div>
     <button id="btn-tamekran" title="Tam ekran (F11)">⛶ Tam ekran</button>
     <!-- 🔴 EMRE, 18 Ağustos 2026: "tüm imparatorluk combobox'ını butonlar
          içine koyabiliriz." p2/H-0010'da üst çubuğa alınmıştı; üst çubuk
@@ -326,6 +286,11 @@
       <option value="misir">Mısır ve Sudan</option>
       <option value="afrika">Kuzey Afrika</option>
     </select>
+    </div>
+    <div class="menu-grup" id="mg-topluluk"><div class="menu-grup-baslik">Topluluk ve bilgi</div>
+    <button id="btn-forum" title="Kahvehane — tarih forumu" onclick="location.href='forum/'">💬 Forum</button>
+    <button id="btn-atif" title="Altlık, veri ve lisans atfı — göster / gizle">ⓘ Kaynaklar</button>
+    </div>
     <!-- ⚙ Ayarlar düğmesi §⑧②'de kronoloji başlığına taşındı — burada
          DUPLICATE id AÇMAMAK için tekrar edilmedi (bkz. #olay-akisi h2). -->
     <!-- ARAYUZ-0082 / H-0087 — sürüm damgası üst çubuktan BURAYA indi

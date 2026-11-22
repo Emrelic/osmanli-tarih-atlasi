@@ -3881,6 +3881,14 @@ harita.on("load", function () {
     '<span><i style="background:linear-gradient(90deg,#8877b8,#4e7d46,#4f7d4f,#b5885b)"></i> Komşu devletler (kendi renkleri)</span>' +
     // ARAYÜZ BOŞLUK CİNSİ — `ad` alanları BOS_CINSLER'den okunuyor, metin
     // burada İKİNCİ KEZ YAZILMIYOR (kopya = bayatlama riski).
+    // 22 Kasım 2026 (Emre: "vassal himaye işgal ve diğer ne kadar işaret varsa hepsinin açıklaması olsun"):
+    // harekât okları ve menzil yolları lejantta HİÇ yoktu. Ok türleri HAREKET'ten (app.js ~6463) okunur —
+    // metin ikinci kez yazılmaz; HAREKET lejant kurulurken henüz atanmadığı için satırlar lejant AÇILINCA dolar.
+    '<div class="lejant-baslik">Harekât okları (Harekât okları kutusu)</div>' +
+    '<div id="lejant-harekat"></div>' +
+    '<div class="lejant-baslik">Menzil yolları (1539–1839)</div>' +
+    '<span><i style="background:none;border-top:3px dotted #c8861a;height:0;align-self:center"></i> Tarihî yol / koridor — ana kol kalın, tali kol ince</span>' +
+    '<span><i class="lj-nokta" style="width:9px;height:9px;background:#fffaf0;border-color:#7a4f0c"></i> Menzil durağı (dolu altın: kaynakla doğrulanmış)</span>' +
     '<div class="lejant-baslik">Boşluğun cinsi</div>' +
     '<span><i class="bosluk-benek-ornek"></i> ' +
       ((window.BOS_CINSLER && window.BOS_CINSLER.kabile) ? window.BOS_CINSLER.kabile.ad : "aşiret / konfederasyon") +
@@ -3980,7 +3988,7 @@ harita.on("load", function () {
     // satırı. Görünürlüğü `kaynakliHalkaAc` yönetir (`el.hidden`); ⑧ KAPALIYKEN
     // haritada halka yok, satır da yok.
     '<div id="lejant-halka" hidden>' +
-      '<div class="lejant-baslik">Kaynaklı sahiplik (⑧)</div>' +
+      '<div class="lejant-baslik">Kaynaklı sahiplik halkaları</div>' +
       '<span><b class="lj-sim lj-halka">◯</b> Kaynakla kesinleşmiş sahiplik (devlet renginde halka) — şehre tıklayınca kaynak ve alıntı</span>' +
     '</div>' +
     '';
@@ -4003,7 +4011,21 @@ harita.on("load", function () {
   lejantKapat.title = "Lejantı gizle (yeniden açmak: ☰ Butonlar → 🗺 Harita işaretleri)";
   lejantKapat.textContent = "×";
   lejant.insertBefore(lejantKapat, lejant.firstChild);
+  function lejantHarekatDoldur() {
+    var kap = document.getElementById("lejant-harekat");
+    if (!kap || kap.childNodes.length || typeof HAREKET === "undefined" || !HAREKET) return;
+    Object.keys(HAREKET).forEach(function (tur) {
+      var h = HAREKET[tur];
+      var sp = document.createElement("span");
+      var g = document.createElement("b");
+      g.className = "lj-sim"; g.textContent = h.glif || "➤";
+      sp.appendChild(g);
+      sp.appendChild(document.createTextNode(" " + (h.ad || tur) + (h.desen ? " (kesikli desen)" : " (düz çizgi)")));
+      kap.appendChild(sp);
+    });
+  }
   function lejantDurum(kapali) {
+    if (!kapali) lejantHarekatDoldur();
     lejant.classList.toggle("kapali", kapali);
     if (lejantDugme) {
       lejantDugme.classList.toggle("etkin", !kapali);
@@ -4023,6 +4045,7 @@ harita.on("load", function () {
   //   işe yaramayan bir denetim SİLİNDİ, burada işe yarayan bir denetimin
   //   yalnız başlangıç hâli düzeltildi.
   lejantDurum(localStorage.getItem("lejantKapali") !== "0");
+  setTimeout(lejantHarekatDoldur, 0);   // HAREKET bu dosyada daha aşağıda atanıyor
   function lejantCevir(kapali) {
     lejantDurum(kapali);
     try { localStorage.setItem("lejantKapali", kapali ? "1" : "0"); } catch (e) { /* özel pencere */ }
@@ -8370,6 +8393,31 @@ function _haritaSakinlesince(is) {
 // İkisinin hangisi büyükse çare oradadır.
 var _CIZIM_MS = 0;
 
+// Telefon + tam ekran: oynatılan maddenin başlığı haritada açık renk yazıyla 3 sn görünür, söner
+// (Emre, 22 Kasım: tam ekranda panel kapalı, hangi maddenin oynadığı okunmuyor).
+var _basYaziZaman = null, _basYaziSon = null;
+function haritaBaslikYazisi(o) {
+  try {
+    if (!window.ATLAS_TELEFON || !document.fullscreenElement || !o) return;
+    var h = document.getElementById("harita");
+    if (!h) return;
+    var el = document.getElementById("harita-baslik-yazi");
+    if (!el) {
+      el = document.createElement("div");
+      el.id = "harita-baslik-yazi";
+      el.setAttribute("role", "status");
+      h.appendChild(el);
+    }
+    var t = o.b || "";
+    if (!t || t === _basYaziSon && el.classList.contains("gor")) return;
+    _basYaziSon = t;
+    el.textContent = t;
+    el.classList.add("gor");
+    if (_basYaziZaman) clearTimeout(_basYaziZaman);
+    _basYaziZaman = setTimeout(function () { el.classList.remove("gor"); _basYaziZaman = null; }, 3000);
+  } catch (e) { /* yazı şart değil */ }
+}
+
 function olayaGit(o, panelGoster, zorla) {
   // 23 Agustos 2026 — H-0004. Emre: "bu maddede iken bir sonraki maddeye
   // tiklayinca iki madde birden geciliyor ... ikinci madde kendi sirasinda
@@ -8405,6 +8453,7 @@ function olayaGit(o, panelGoster, zorla) {
   _CIZIM_MS = performance.now() - _c0;
   // Sekmeli kronoloji: Detay sekmesi açıkken ⏮/⏭/oynat da detayı yeni maddeye taşır (Emre 22 Kasım).
   if (panelGoster !== false || (window.sekmeDetayMi && window.sekmeDetayMi())) obGoster(o);
+  haritaBaslikYazisi(o);
   // Kilidi `haritayiOlayaGotur` KENDİSİ alıyor, varışta bırakıyor.
   // Uçuş, ağır çizim yatıştıktan SONRA başlıyor (gerekçe yukarıda).
   _haritaSakinlesince(function () { haritayiOlayaGotur(o, zorla); });
@@ -10956,7 +11005,7 @@ function kaynakliHalkaAyarKur() {
   if (!menu || document.getElementById("ayar-halka")) return;
   var lab = document.createElement("label");
   lab.title = "Bir kaynağın belli bir tarihte bir devlete ait gösterdiği yerler, o devletin koyu harita renginde halka ile işaretlenir. Tıklayınca kaynak ve alıntı.";
-  lab.innerHTML = '<input type="checkbox" id="ayar-halka"> <span>⑨ Kaynakla kesinleşmiş sahiplik halkaları</span><em id="kat-sayi-halka"></em>';
+  lab.innerHTML = '<input type="checkbox" id="ayar-halka"> <span>Kaynaklı sahiplik halkaları</span><em id="kat-sayi-halka"></em>';
   menu.insertBefore(lab, document.getElementById("katman-not"));
   var kutu = lab.querySelector("input");
   var kayitli = null;
@@ -11821,7 +11870,7 @@ function alanYazi(km2) {
 // çizili ne varsa (motor UFUK'u açınca yabancı gövdeler de çizilebilir) EKSİKTİR;
 // şerit bunu harita ÜSTÜNDE söyler (Z1 raporu ④-2: boş/yarım harita
 // "devletsiz dünya" diye okunmasın). Tek yazan burası, her günde.
-var _kapsamSerit = null;
+var _kapsamSerit = null, _kapsamSeritDisi = null, _kapsamSeritZaman = null;
 function kapsamSeridiGuncelle(t) {
   var disi = t < VERI_BASI || t > VERI_SONU;
   if (!_kapsamSerit) {
@@ -11831,9 +11880,18 @@ function kapsamSeridiGuncelle(t) {
     _kapsamSerit = document.createElement("div");
     _kapsamSerit.id = "kapsam-disi-serit";
     _kapsamSerit.setAttribute("role", "status");
+    // 22 Kasım 2026 (Emre: "yazı haritanın üzerinden gitmiyor"): şerit TIKLAYINCA kapanır
+    // ve her girişte 7 sn sonra kendiliğinden solar; ufuk dışına yeniden girilince döner.
+    _kapsamSerit.title = "Kapatmak için tıkla";
+    _kapsamSerit.addEventListener("click", function () { _kapsamSerit.classList.add("gizli"); });
     h.appendChild(_kapsamSerit);
   }
-  _kapsamSerit.classList.toggle("gizli", !disi);
+  if (disi !== _kapsamSeritDisi) {
+    _kapsamSeritDisi = disi;
+    if (_kapsamSeritZaman) { clearTimeout(_kapsamSeritZaman); _kapsamSeritZaman = null; }
+    _kapsamSerit.classList.toggle("gizli", !disi);
+    if (disi) _kapsamSeritZaman = setTimeout(function () { _kapsamSerit.classList.add("gizli"); }, 7000);
+  }
   if (disi) {
     // sürüm 5 — Emre'nin Sümer kararı: "Sümer'de olan şehirler boyanır, gerisi boş
     // görünse de olur." ⇒ şerit bir EKSİKLİK itirafı değil, bir GÖSTERİM KURALIDIR.
@@ -14863,6 +14921,7 @@ function oynatDurdur() {
           // H-0007: zaman akarken geçilen olayın işareti de aynı dili konuşur
           // (glif aynı kuraldan — iki ayrı çağrı, TEK kural).
           if (_kon) { _sonIsaretGun = _son.gi; isaretYanipSon(_kon, olayMuharebeTuru(_son)); }
+          haritaBaslikYazisi(_son);
         }
       } catch (eAkis) { /* işaret şart değil, akış durmasın */ }
       if (zamanlayici) requestAnimationFrame(_tik);
@@ -16783,13 +16842,21 @@ function isaretYanipSon(hedef, glif) {
     // ODAK-MEKANIZMA-0080 ④/6 — tek kapı; ÖNCEKİ halka yine de silinir
     // (yoksa bir önceki maddenin halkası bölge maddesinde asılı kalır).
     if (hedef && hedef.bolge && !BOLGE_ISARET) return;
+    // 🔴 22 Kasım 2026 (Emre: "yanıp sönen yuvarlak hep haritanın uç kısmında"):
+    // MapLibre Marker elemanın KENDİ `transform`unu konum için kullanır;
+    // `odakParla` da `transform: scale` animasyonu yapar → aynı elemanda
+    // animasyon konumu eziyor, halka konteynerin köşesine kayıyordu. Marker
+    // elemanı düz bir KAP; animasyon İÇ halkada.
     var el = document.createElement("div");
-    el.className = "odak-parlama";
+    el.className = "odak-isaret";
+    var halka = document.createElement("div");
+    halka.className = "odak-parlama";
+    el.appendChild(halka);
     if (glif) {
       var g = document.createElement("span");
       g.className = "odak-glif";
       g.textContent = glif;
-      el.appendChild(g);
+      halka.appendChild(g);
     }
     _yanipSonEl = new maplibregl.Marker({ element: el, anchor: "center" })
       .setLngLat([hedef.lon, hedef.lat]).addTo(harita);
@@ -17852,7 +17919,7 @@ function enYakinOlayBul(gi) {
 (function telefonAkisMenuye() {
   try {
     if (!window.ATLAS_TELEFON) return;
-    var menu = document.getElementById("menu-butonlar");
+    var menu = document.getElementById("mg-gezinti") || document.getElementById("menu-butonlar");
     if (!menu) return;
     ["akis-modu", "hiz", "olay-hiz"].forEach(function (id) {
       var e = document.getElementById(id);
