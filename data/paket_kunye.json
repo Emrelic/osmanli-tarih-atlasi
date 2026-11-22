@@ -2285,8 +2285,8 @@
    "kaynak": [
     {
      "yol": "data/olaylar_arkeoloji_gecis.js",
-     "sha": "5c2d0088d93a79f7",
-     "bayt": 14252
+     "sha": "4b8e492ffe5fc2a6",
+     "bayt": 12628
     },
     {
      "yol": "data/olaylar_arkeoloji_d2-iran-orta-asya.js",
@@ -2359,7 +2359,7 @@
      "bayt": 30733
     }
    ],
-   "bayt": 158511
+   "bayt": 156887
   },
   {
    "paket": "data/paket_33.js",
@@ -2396,8 +2396,8 @@
     },
     {
      "yol": "data/olaylar_arkeoloji_zincir.js",
-     "sha": "38aa19e51cfb82e8",
-     "bayt": 116175
+     "sha": "4f40d0c56b0413ce",
+     "bayt": 110386
     },
     {
      "yol": "data/kronoloji_cok_antik_frigya.js",
@@ -2420,7 +2420,7 @@
      "bayt": 287776
     }
    ],
-   "bayt": 505368
+   "bayt": 499579
   },
   {
    "paket": "data/paket_31.js",
