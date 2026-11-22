@@ -8370,6 +8370,31 @@ function _haritaSakinlesince(is) {
 // İkisinin hangisi büyükse çare oradadır.
 var _CIZIM_MS = 0;
 
+// Telefon + tam ekran: oynatılan maddenin başlığı haritada açık renk yazıyla 3 sn görünür, söner
+// (Emre, 22 Kasım: tam ekranda panel kapalı, hangi maddenin oynadığı okunmuyor).
+var _basYaziZaman = null, _basYaziSon = null;
+function haritaBaslikYazisi(o) {
+  try {
+    if (!window.ATLAS_TELEFON || !document.fullscreenElement || !o) return;
+    var h = document.getElementById("harita");
+    if (!h) return;
+    var el = document.getElementById("harita-baslik-yazi");
+    if (!el) {
+      el = document.createElement("div");
+      el.id = "harita-baslik-yazi";
+      el.setAttribute("role", "status");
+      h.appendChild(el);
+    }
+    var t = o.b || "";
+    if (!t || t === _basYaziSon && el.classList.contains("gor")) return;
+    _basYaziSon = t;
+    el.textContent = t;
+    el.classList.add("gor");
+    if (_basYaziZaman) clearTimeout(_basYaziZaman);
+    _basYaziZaman = setTimeout(function () { el.classList.remove("gor"); _basYaziZaman = null; }, 3000);
+  } catch (e) { /* yazı şart değil */ }
+}
+
 function olayaGit(o, panelGoster, zorla) {
   // 23 Agustos 2026 — H-0004. Emre: "bu maddede iken bir sonraki maddeye
   // tiklayinca iki madde birden geciliyor ... ikinci madde kendi sirasinda
@@ -8405,6 +8430,7 @@ function olayaGit(o, panelGoster, zorla) {
   _CIZIM_MS = performance.now() - _c0;
   // Sekmeli kronoloji: Detay sekmesi açıkken ⏮/⏭/oynat da detayı yeni maddeye taşır (Emre 22 Kasım).
   if (panelGoster !== false || (window.sekmeDetayMi && window.sekmeDetayMi())) obGoster(o);
+  haritaBaslikYazisi(o);
   // Kilidi `haritayiOlayaGotur` KENDİSİ alıyor, varışta bırakıyor.
   // Uçuş, ağır çizim yatıştıktan SONRA başlıyor (gerekçe yukarıda).
   _haritaSakinlesince(function () { haritayiOlayaGotur(o, zorla); });
@@ -14872,6 +14898,7 @@ function oynatDurdur() {
           // H-0007: zaman akarken geçilen olayın işareti de aynı dili konuşur
           // (glif aynı kuraldan — iki ayrı çağrı, TEK kural).
           if (_kon) { _sonIsaretGun = _son.gi; isaretYanipSon(_kon, olayMuharebeTuru(_son)); }
+          haritaBaslikYazisi(_son);
         }
       } catch (eAkis) { /* işaret şart değil, akış durmasın */ }
       if (zamanlayici) requestAnimationFrame(_tik);
