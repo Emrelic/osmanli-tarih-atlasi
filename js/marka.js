@@ -161,7 +161,7 @@
     // (Hakkında penceresi oradan açılmaya devam eder). Masaüstünde yeri aynı.
     var _menuKutu = document.getElementById("menu-butonlar");
     var _dokunmatik = false;
-    try { _dokunmatik = !!(window.matchMedia && window.matchMedia("(pointer: coarse)").matches); } catch (e) { /* eski tarayıcı */ }
+    _dokunmatik = !!window.ATLAS_TELEFON;   // görünüm ayarı (index.html başı)
     if (_dokunmatik && _menuKutu) _menuKutu.appendChild(b);
     else menu.parentNode.insertBefore(b, menu.nextSibling);
 

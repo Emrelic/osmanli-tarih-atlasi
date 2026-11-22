@@ -21,7 +21,7 @@
      "Ana ekrana ekle" ile açılırsa manifest tam ekran açar. */
 
 /* ---- Her dokunmatik cihaz ---- */
-@media (pointer: coarse) {
+@media all {
   /* Adres çubuğu açılıp kapanınca 100vh taşıyordu → dinamik yükseklik. */
   html, body { height: 100dvh; }
   /* Kamera çentiği/yuvarlak köşe (index.html viewport-fit=cover). */
@@ -41,8 +41,8 @@
 /* ======================================================================
    ORTAK telefon düzeni (dikey telefon + yatay telefon)
    ====================================================================== */
-@media (pointer: coarse) and (orientation: portrait) and (max-width: 700px),
-       (pointer: coarse) and (orientation: landscape) and (max-height: 520px) {
+@media (orientation: portrait) and (max-width: 700px),
+       (orientation: landscape) and (max-height: 520px) {
 
   /* ① Üst çubuk: tek satır. ☰ Butonlar · BETA · YIL(ortada) · ⇥ Daralt · Dil */
   #ustbar { flex-wrap: nowrap; gap: 4px; padding: 3px 6px; align-items: center; }
@@ -113,8 +113,10 @@
   #yanpanel #olay-bilgi {
     flex: 0 0 var(--detay-pay, 28dvh); min-height: 0; overflow-y: auto;
     border-top: var(--ayirac) solid var(--altin);
-    padding: 6px 12px 12px; padding-right: 56px;
+    padding: 6px 12px 12px;
   }
+  /* Sekmeli yapıda ✕ yok (css/style.css); detay sekmesi sütunun tamamını alır. */
+  #yanpanel.sekme-detay #olay-bilgi { border-top: none; }
   /* ✕ kaydırınca yerinde kalır (sticky), opak, 44 px; metin altından geçmez (sağ boşluk 56 px). */
   /* ✕ sağ BOŞLUĞA (padding) oturur, sarma yok: LAB 3. tur — sticky float satırları yeniden sarmıyor,
      kaydırınca metnin üstüne biniyordu. Negatif kenar boşluğu onu metin sütununun DIŞINA alır. */
@@ -133,7 +135,7 @@
 /* ======================================================================
    DİKEY telefon: ① harita %46 · ② kronoloji · ③ detay (kalan ikiye eşit bölüşür)
    ====================================================================== */
-@media (pointer: coarse) and (orientation: portrait) and (max-width: 700px) {
+@media (orientation: portrait) and (max-width: 700px) {
   #govde { flex-direction: column; }
   /* 22 Kasım: oynatma şeridi tek satıra indi (−39 px); kazanılan yer haritaya değil kronolojiye. */
   #sol-govde { flex: 0 0 41dvh; min-height: 0; }
@@ -147,19 +149,19 @@
 
 /* Ön kamera deliği dikeyde üst çubuğun TAM ORTASINDA: sola ☰ Butonlar + ▾ Kronoloji (≈160 px),
    sağa Dil + YIL; orta (≈175–200 px) BOŞ kalır. Kronoloji gizlenince harita tüm yüksekliği alır. */
-@media (pointer: coarse) and (orientation: portrait) and (max-width: 700px) {
+@media (orientation: portrait) and (max-width: 700px) {
   #govde:has(#yanpanel.katli) #sol-govde { flex: 1 1 auto; }
 }
 
 /* Dar telefon (≤380 px genişlik, ör. 360×640): oynat şeridi yazıları bir tık küçülür, "Olay olay" kesilmesin. */
-@media (pointer: coarse) and (orientation: portrait) and (max-width: 380px) {
+@media (orientation: portrait) and (max-width: 380px) {
   #zamanbar select { font-size: 11px; padding-left: 1px; padding-right: 1px; }
   #zamanbar button { min-width: 30px; padding-left: 2px; padding-right: 2px; }
   #zamanbar { gap: 3px; padding-left: 4px; padding-right: 4px; }
 }
 
 /* Kısa dikey ekran (≤700 px yükseklik, ör. 360×640): harita bir parça büyür. */
-@media (pointer: coarse) and (orientation: portrait) and (max-width: 700px) and (max-height: 700px) {
+@media (orientation: portrait) and (max-width: 700px) and (max-height: 700px) {
   /* Kısa ekranda liste 39 px'e eziliyordu (LAB/benim ölçüm 360×640): hükümdar kartı gizli, detay payı küçük. */
   :root { --detay-pay: 22dvh; }
   #yanpanel #padisah-karti { display: none; }
@@ -168,7 +170,7 @@
 /* ======================================================================
    YATAY telefon (kısa ekran): solda harita %50 · sağda kronoloji (üst) + detay (alt) %50/%50
    ====================================================================== */
-@media (pointer: coarse) and (orientation: landscape) and (max-height: 520px) {
+@media (orientation: landscape) and (max-height: 520px) {
   :root { --panel-genis: 50%; --panel-dar: 50%; --detay-pay: 50%; }
   #govde { flex-direction: row; }
   #sol-govde { flex: 0 0 50%; min-width: 0; min-height: 0; }
