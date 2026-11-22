@@ -12016,7 +12016,7 @@ function kapsamSeridiGuncelle(t) {
     _kapsamSerit.id = "kapsam-disi-serit";
     _kapsamSerit.setAttribute("role", "status");
     // 22 Kasım 2026 (Emre: "yazı haritanın üzerinden gitmiyor"): şerit TIKLAYINCA kapanır
-    // ve her girişte 7 sn sonra kendiliğinden solar; ufuk dışına yeniden girilince döner.
+    // ve her girişte 3 sn sonra kendiliğinden solar (23 Kasım: 7 sn → 3 sn); ufuk dışına yeniden girilince döner.
     _kapsamSerit.title = "Kapatmak için tıkla";
     _kapsamSerit.addEventListener("click", function () { _kapsamSerit.classList.add("gizli"); });
     h.appendChild(_kapsamSerit);
@@ -12025,7 +12025,7 @@ function kapsamSeridiGuncelle(t) {
     _kapsamSeritDisi = disi;
     if (_kapsamSeritZaman) { clearTimeout(_kapsamSeritZaman); _kapsamSeritZaman = null; }
     _kapsamSerit.classList.toggle("gizli", !disi);
-    if (disi) _kapsamSeritZaman = setTimeout(function () { _kapsamSerit.classList.add("gizli"); }, 7000);
+    if (disi) _kapsamSeritZaman = setTimeout(function () { _kapsamSerit.classList.add("gizli"); }, 3000);
   }
   if (disi) {
     // sürüm 5 — Emre'nin Sümer kararı: "Sümer'de olan şehirler boyanır, gerisi boş
