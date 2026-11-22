@@ -71,3 +71,13 @@ YAZILMAYAN ama OKUNAN: Sevilla 1248-12-22 (CMH VI; atlasta bosluk degil) · Mall
 Liverpool 1207, Hull 1293 (1280'de Meaux Manastiri), Shrewsbury 1283 ve Bristol 1284 (1280'den SONRA) · Penzance (ilk kayit 1332) ve Lerwick (17. yy) HENUZ_YOK adaylari (kur: eklenmedi; kaynak sayfasi kaba) ·
 Britanya 25 'SAHIPLI' kaydinin cogu ZAYIF (kaynak 1280'i degil 1264-1292 cevresini gosteriyor, baslangic null): yazilmadi (ham: sonuc_b3_4.json).
 ONEMLI: Fransa/Almanya grubunda 45 noktadan yalniz Hulst; Savoya/Isvicre/Luksemburg icin kaynak bulunamadi (Dierauer OCR cop, CMH VII yok).
+
+## 5. TUR (balkan): Bizans/Trakya/Makedonya/Teselya + Bulgar/Sirp/Bosna + Savoya/Isvicre (22 Kasim 2026)
+Kaynaklar yerelde (repoda DEGIL): h5-bizans (CMH IV, Finlay), h5-slav (Jirecek Serben/Bulgaren, Thalloczy, Temperley, Forbes, Xenopol), h5-savoya (EB1911 madde metinleri).
+YAZILAN (2 nokta, kaynak CMH IV / Miller, birebir): Sakiz (iznik-imparatorlugu 1247 yil [Miller s.118 '14 yil once' hesabi, BEYANLI] -> bizans 1261-07-25) · Lindos/Rodos (iznik 1256 yil [CMH IV s.477 tablo 'Annexed to Nicaea 1256'] -> bizans 1261-07-25; ada duzeyi BEYANLI).
+YAZILMAYAN:
+- Trakya (17 yer, CMH IV s.489/527/529 'Thrace soon almost entirely freed from the Latins') ve Makedonya/Selanik (11 yer, CMH IV s.477/494): bolge duzeyi; baslangic yili/gunu kaynakta YOK ('f ancak okununca') -> yazilmadi. Veles/Stip: 1246 'Annexed to Nicaea' tablosu Veles/Stip adlarini acikca baglamiyor (dolayli) -> yazilmadi.
+- Teselya (Neopatras, John I Dukas 1271) ve Epir (Nikephoros I 1271): devletler.js'te Teselya/Neopatras kunyesi YOK (BOYALAR gerekir), epir-despotlugu id'si adi dogrulanmadi -> yazilmadi.
+- BELGRAD (CELISKI): atlas 'sirbistan-nemanjic 1281-1355' 1280'de yanlis gorunuyor: Jirecek, Geschichte der Serben I s.331: Belgrad/Macva Elisabeth'in (Macar vasali Macva-Bosna dukaligi) elinde, 1284'te Dragutin'e; ancak CMH IV 1282 Macar hibesi diyor (1282 vs 1284 yil CELISKISI; Hrvatska enc. Sirp ilk 1284). Iki kayit ikiz (Belgrad, Belgrad Kalesi). Cozulmeden yazilmadi.
+- Bosna: kuyruktaki 's/bosna' id'si devletler.js'te YOK (dogrusu bosna-kralligi f 1180). Visoko/Srebrenik bolge cikarimi, kaynakta yer adi yok -> yazilmadi.
+- Savoya/Isvicre/Lüksemburg/Fr-Alm (29 nokta, EB1911): 8 'SAHIPLI' hepsi tek EB1911 kaynagi (Aosta 1032/1024 EB ic celiskisi; Mulhouse almanya 1198 EB c.18 s.960; Leipzig; Arnhem gelre kunyesi genislet; Sion/Pau/Luzern kunye yok) -> EMRELIC kurali 'EB1911 tek dayanak sayilmaz' geregi yazilmadi. Pau: Bearn kunyesi f 0819 onerisi (EB) dogrulanmadi.
