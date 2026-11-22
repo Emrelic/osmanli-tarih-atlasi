@@ -990,6 +990,8 @@ Ceviri.ekle("sw","arayuz",{
 "Menzil yolları (#–#)":["Njia za safari (#–#)", "6de47dd2"],
 "Metin (detay)":["Maandishi (maelezo)", "47a9253c"],
 "Meydan savaşı":["Vita vya uwanjani", "cc1a62c9"],
+"Milattan sonra (#)":["Baada ya Kristo (#)", "50076066"],
+"Milattan önce (#)":["Kabla ya Kristo (#)", "acc4a82e"],
 "Milattan önce için eksi ya da MÖ yazın: -# · MÖ # · -#. # milada (MS #) götürür.":["Kwa KK andika minus au KK: -# · KK # · -#. # huenda BK (BK #).", "c1a52c5e"],
 "Mirasla alındı":["Ilipatikana kwa urithi", "0c1b6da3"],
 "Motor tanı hatları":["Mistari ya uchunguzi wa injini", "23a0ce35"],

@@ -992,6 +992,8 @@ Ceviri.ekle("ja","arayuz",{
 "Menzil yolları (#–#)":["駅路(#–#)", "6de47dd2"],
 "Metin (detay)":["本文(詳細)", "47a9253c"],
 "Meydan savaşı":["会戦", "cc1a62c9"],
+"Milattan sonra (#)":["西暦 (#)", "50076066"],
+"Milattan önce (#)":["紀元前 (#)", "acc4a82e"],
 "Milattan önce için eksi ya da MÖ yazın: -# · MÖ # · -#. # milada (MS #) götürür.":["紀元前にはマイナスまたは紀元前と書いてください: -# · 紀元前# · -#。#は紀元(紀元#年)へ移る。", "c1a52c5e"],
 "Mirasla alındı":["相続により獲得", "0c1b6da3"],
 "Motor tanı hatları":["エンジン診断線", "23a0ce35"],

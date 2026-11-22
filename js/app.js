@@ -11251,6 +11251,69 @@ function kisiGruplari(kisiler) {
   return sonuc;
 }
 
+// DIZIN-YENIDEN-1123 (Emre, 23 Kasım 2026): dizin satırı kayıtla kronolojiyi BAĞLAR —
+// tıklama yalnız tarihe değil, o kayda ait ilk kronoloji maddesine / yere götürür.
+function dzAd(x) { return String(x || "").replace(/\(.*?\)/g, " ").toLocaleLowerCase("tr").replace(/\s+/g, " ").trim(); }
+function dzIlkOlay(pred) {
+  var en = null;
+  olaylar.forEach(function (o) { if (pred(o) && (!en || o.gi < en.gi)) en = o; });
+  return en;
+}
+function dzDevletOlayi(id) {
+  return dzIlkOlay(function (o) {
+    return o.devlet === id || o.devlet_id === id || (Array.isArray(o.taraflar) && o.taraflar.indexOf(id) >= 0);
+  });
+}
+function dzKisiOlayi(k) {
+  var ad = dzAd(k.ad);
+  return dzIlkOlay(function (o) {
+    if (o.kisi_id === k.id || o.vefat_id === k.id) return true;
+    return ad.length > 4 && typeof o.kisiler === "string" && o.kisiler.toLocaleLowerCase("tr").indexOf(ad) >= 0;
+  });
+}
+function dzGit(o, lat, lon) {
+  dizinPencere.classList.add("gizli");
+  if (lat != null && lon != null) {
+    otoZoom = false;
+    document.getElementById("btn-zoom").classList.add("pasif");
+  }
+  if (o) { tarihAyarla(o.gi); obGoster(o); }
+  if (lat != null && lon != null) dizindenUc(lat, lon);
+}
+// Dizinin ortak son işi: arama kutusu + açılır/kapanır gruplar. yerlesimler sekmesi kendi
+// aramasını taşır; bu işlem ona uygulanmaz.
+function dzDuzenle(kutu, sekme, kapaliBasla) {
+  var gruplar = [], cur = null;
+  Array.prototype.slice.call(kutu.children).forEach(function (el) {
+    if (el.classList.contains("dz-grup")) { cur = { baslik: el, satirlar: [] }; gruplar.push(cur); }
+    else if (cur && el.classList.contains("dz-satir")) cur.satirlar.push(el);
+  });
+  var arama = document.createElement("input");
+  arama.className = "dz-arama";
+  arama.type = "search";
+  arama.placeholder = "Ara";
+  kutu.insertBefore(arama, kutu.firstChild);
+  function ciz() {
+    var q = arama.value.toLocaleLowerCase("tr").trim();
+    gruplar.forEach(function (g) {
+      var kapali = !q && g.baslik.classList.contains("dz-kapali");
+      var say = 0;
+      g.satirlar.forEach(function (r) {
+        var ok = !q || r.textContent.toLocaleLowerCase("tr").indexOf(q) >= 0;
+        if (ok) say++;
+        r.style.display = (ok && !kapali) ? "" : "none";
+      });
+      g.baslik.style.display = (q && !say) ? "none" : "";
+    });
+  }
+  gruplar.forEach(function (g) {
+    g.baslik.classList.add("dz-acilir");
+    if (kapaliBasla) g.baslik.classList.add("dz-kapali");
+    g.baslik.addEventListener("click", function () { g.baslik.classList.toggle("dz-kapali"); ciz(); });
+  });
+  arama.addEventListener("input", ciz);
+  ciz();
+}
 function dizinDoldur(sekme) {
   var kutu = document.getElementById("dizin-icerik");
   kutu.innerHTML = "";
@@ -11277,13 +11340,20 @@ function dizinDoldur(sekme) {
     // veri gelince bu sekmeden kaybolurlardı.
     kisiGruplari(window.KISILER || []).forEach(function (g) {
       baslik(g.ad + " (" + g.kisi.length + ")");
-      g.kisi.forEach(function (k) { satir(k.ad, k.donem || "", k.not || ""); });
+      g.kisi.forEach(function (k) {
+        var m = dzKisiOlayi(k);
+        satir(k.ad, k.donem || "", k.not || "", m ? function () { dzGit(m); } : null);
+      });
     });
   } else if (sekme === "savaslar") {
     savaslar.forEach(function (s) {
       var isaret = s.sonuc === "zafer" ? "✔" : s.sonuc === "yenilgi" ? "✖" : "◐";
       satir(kesinlikliYazi(s.t, gunIdx(s.t)), s.ad + " — " + karsiTaraf(s), isaret,
-            function () { dizinPencere.classList.add("gizli"); tarihAyarla(gunIdx(s.t)); });
+            function () {
+              dizinPencere.classList.add("gizli");
+              tarihAyarla(gunIdx(s.t));
+              if (s.lat != null && s.lon != null) { otoZoom = false; document.getElementById("btn-zoom").classList.add("pasif"); dizindenUc(s.lat, s.lon); }
+            });
     });
   } else if (sekme === "antlasmalar") {
     (window.ANTLASMALAR || []).forEach(function (a) {
@@ -11504,8 +11574,12 @@ function dizinDoldur(sekme) {
              : DEVLET_TUR_ADI[tur] || (tur.charAt(0).toUpperCase() + tur.slice(1));
       baslik(ad + " (" + dgruplar[tur].length + ")");
       dgruplar[tur].forEach(function (d) {
-        satir(d.ad, d.baskent || "", isoDizgi(d.f) + " → " + isoDizgi(d.t),
-              function () { dizinPencere.classList.add("gizli"); tarihAyarla(gunIdx(d.f)); });
+        satir(d.ad, d.baskent || "", isoDizgi(d.f) + " → " + (d.t ? isoDizgi(d.t) : "…"),
+              function () {
+                var m = dzDevletOlayi(d.id);
+                if (m && m.gi >= gunIdx(d.f) - 366) dzGit(m);
+                else { dizinPencere.classList.add("gizli"); tarihAyarla(gunIdx(d.f)); }
+              });
       });
     });
   } else if (sekme === "kartvizitler") {
@@ -11539,16 +11613,39 @@ function dizinDoldur(sekme) {
           satir(k.ad, orta, idxYazi(madde.gi),
                 function () { dizinPencere.classList.add("gizli"); tarihAyarla(madde.gi); obGoster(madde); });
         } else {
-          satir(k.ad, orta, "henüz kronolojiye bağlanmadı");
+          var m2 = dzKisiOlayi(k);
+          if (m2) satir(k.ad, orta, idxYazi(m2.gi), function () { dzGit(m2); });
+          else satir(k.ad, orta, "henüz kronolojiye bağlanmadı");
         }
       });
     });
+  } else if (sekme === "yuzyillar") {
+    var _yol = document.documentElement.lang === "en" ? "en/history/" : "tarih/";
+    baslik("Milattan sonra (21)");
+    for (var i = 1; i <= 21; i++) {
+      (function (ii) {
+        satir(ii + ". yüzyıl", "", "", function () { location.href = _yol + (ii < 10 ? "0" : "") + ii + ".html"; });
+      })(i);
+    }
+    baslik("Milattan önce (31)");
+    for (var j = 1; j <= 31; j++) {
+      (function (jj) {
+        satir("MÖ " + jj + ". yüzyıl", "", "", function () { location.href = _yol + "mo-" + (jj < 10 ? "0" : "") + jj + ".html"; });
+      })(j);
+    }
   } else {
     (window.SERILER || []).forEach(function (s) {
-      var say = savaslar.filter(function (x) { return x.seri === s.id; }).length;
-      satir(s.aralik, s.ad + (say ? " (" + say + " kayıtlı muharebe)" : ""), s.ozet);
+      var say = savaslar.filter(function (x) { return x.seri === s.id; });
+      var ilk = say.slice().sort(function (a, b) { return gunIdx(a.t) - gunIdx(b.t); })[0];
+      satir(s.aralik, s.ad + (say.length ? " (" + say.length + " kayıtlı muharebe)" : ""), s.ozet,
+            ilk ? function () {
+              dizinPencere.classList.add("gizli");
+              tarihAyarla(gunIdx(ilk.t));
+              if (ilk.lat != null && ilk.lon != null) { otoZoom = false; document.getElementById("btn-zoom").classList.add("pasif"); dizindenUc(ilk.lat, ilk.lon); }
+            } : null);
     });
   }
+  if (sekme !== "yerlesimler") dzDuzenle(kutu, sekme, sekme === "devletler" || sekme === "sehirler");
 }
 var VEFAT_INDEX = null;
 function vefatIndexKur() {

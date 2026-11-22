@@ -990,6 +990,8 @@ Ceviri.ekle("az","arayuz",{
 "Menzil yolları (#–#)":["Mənzil yolları (#–#)", "6de47dd2"],
 "Metin (detay)":["Mətn (təfərrüat)", "47a9253c"],
 "Meydan savaşı":["Meydan döyüşü", "cc1a62c9"],
+"Milattan sonra (#)":["Eramızdan sonra (#)", "50076066"],
+"Milattan önce (#)":["Eramızdan əvvəl (#)", "acc4a82e"],
 "Milattan önce için eksi ya da MÖ yazın: -# · MÖ # · -#. # milada (MS #) götürür.":["Eradan əvvəl üçün mənfi və ya e.ə. yazın: -# · e.ə. # · -#. # eramıza (b.e. #) aparır.", "c1a52c5e"],
 "Mirasla alındı":["Miras ilə alındı", "0c1b6da3"],
 "Motor tanı hatları":["Mühərrik diaqnostika xətləri", "23a0ce35"],

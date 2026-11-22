@@ -1057,6 +1057,8 @@ Ceviri.ekle("ar","arayuz",{
 "Menzil yolları (#–#)":["طرق المحطات (#–#)", "6de47dd2"],
 "Metin (detay)":["النص (التفاصيل)", "47a9253c"],
 "Meydan savaşı":["معركة ميدانية", "cc1a62c9"],
+"Milattan sonra (#)":["بعد الميلاد (#)", "50076066"],
+"Milattan önce (#)":["قبل الميلاد (#)", "acc4a82e"],
 "Milattan önce için eksi ya da MÖ yazın: -# · MÖ # · -#. # milada (MS #) götürür.":["للتواريخ قبل الميلاد اكتب إشارة السالب أو ق.م: -# · # ق.م · -#. يأخذك # إلى بداية الميلاد (# م).", "c1a52c5e"],
 "Mirasla alındı":["أُخذ بالإرث", "0c1b6da3"],
 "Motor tanı hatları":["خطوط تشخيص المحرك", "23a0ce35"],

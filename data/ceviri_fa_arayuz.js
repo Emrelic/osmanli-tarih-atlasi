@@ -992,6 +992,8 @@ Ceviri.ekle("fa","arayuz",{
 "Menzil yolları (#–#)":["راه‌های منزل (#–#)", "6de47dd2"],
 "Metin (detay)":["متن (جزئیات)", "47a9253c"],
 "Meydan savaşı":["نبرد میدانی", "cc1a62c9"],
+"Milattan sonra (#)":["میلادی (#)", "50076066"],
+"Milattan önce (#)":["پیش از میلاد (#)", "acc4a82e"],
 "Milattan önce için eksi ya da MÖ yazın: -# · MÖ # · -#. # milada (MS #) götürür.":["برای پیش از میلاد منفی یا «پیش از میلاد» بنویسید: -# · # پیش از میلاد · -#. # به میلادی (# میلادی) می‌برد.", "c1a52c5e"],
 "Mirasla alındı":["با ارث گرفته شد", "0c1b6da3"],
 "Motor tanı hatları":["خطوط تشخیصی موتور", "23a0ce35"],

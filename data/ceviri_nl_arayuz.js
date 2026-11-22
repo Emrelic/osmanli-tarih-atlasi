@@ -990,6 +990,8 @@ Ceviri.ekle("nl","arayuz",{
 "Menzil yolları (#–#)":["Postwegen (#–#)", "6de47dd2"],
 "Metin (detay)":["Tekst (detail)", "47a9253c"],
 "Meydan savaşı":["Veldslag", "cc1a62c9"],
+"Milattan sonra (#)":["na Christus (#)", "50076066"],
+"Milattan önce (#)":["voor Christus (#)", "acc4a82e"],
 "Milattan önce için eksi ya da MÖ yazın: -# · MÖ # · -#. # milada (MS #) götürür.":["Voor vóór Christus: typ min of v.Chr.: -# · v.Chr. # · -#. # gaat naar het begin van de jaartelling (n.Chr. #).", "c1a52c5e"],
 "Mirasla alındı":["Geërfd", "0c1b6da3"],
 "Motor tanı hatları":["Diagnoselijnen van de motor", "23a0ce35"],

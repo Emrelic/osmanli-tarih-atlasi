@@ -990,6 +990,8 @@ Ceviri.ekle("bn","arayuz",{
 "Menzil yolları (#–#)":["রুট পথ (#–#)", "6de47dd2"],
 "Metin (detay)":["পাঠ (বিস্তারিত)", "47a9253c"],
 "Meydan savaşı":["খোলা যুদ্ধ", "cc1a62c9"],
+"Milattan sonra (#)":["খ্রিষ্টাব্দ (#)", "50076066"],
+"Milattan önce (#)":["খ্রিষ্টপূর্ব (#)", "acc4a82e"],
 "Milattan önce için eksi ya da MÖ yazın: -# · MÖ # · -#. # milada (MS #) götürür.":["খ্রিস্টপূর্বের জন্য মাইনাস বা MÖ লিখুন: -# · MÖ # · -#। # খ্রিস্টাব্দে (MS #) নিয়ে যায়।", "c1a52c5e"],
 "Mirasla alındı":["উত্তরাধিকারে প্রাপ্ত", "0c1b6da3"],
 "Motor tanı hatları":["ইঞ্জিন রোগনির্ণয় রেখা", "23a0ce35"],
