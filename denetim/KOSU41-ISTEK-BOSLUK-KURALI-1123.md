@@ -12,7 +12,9 @@ oturum dokunmadı; tuzlu dosyalar olduğu için değişiklik tam yeniden inşa (
 | B | **Galya, İberya, İsviçre çevresinde devlet içinde boş kalan toprak** (tek sahipli çevrili boşluk); Normandiya, kuzey İspanya, Narbonne kuzeydoğusu. | Gözle (ekran görüntüsü); yüzde ölçülmedi |
 | C | **İtalya:** Po ovası (Milano, Verona, Padova, Ravenna, Rimini çevresi), Adriyatik kıyı şeridi ve boyalı parçalar arası koridorlar boş. Orta İtalya + güney parçaları boyalı. | Gözle; piksel sayımı denendi, sonuç vermedi (katman adı yanlış) |
 
-Kapsam sınırı: yalnız MS 150 ve Roma bakıldı; başka çağ/devlette ölçülmedi. Yerel önizleme motor çıktısını `main`den okur —
+| D | **MÖ 27 Roma, Nil vadisi/Delta:** Memphis noktasında `devlet-dolgu` YOK (boş); Delta, Fayyum, Behnesa çevresinde soluk (boyasız) parçalar var. İskenderiye, Teb, Aswan, Fayyum, Kudüs noktaları `roma-imp`. Mısır MÖ 30'da (Octavianus, İskenderiye) Roma eyaleti olmuştur; MÖ 26'da boş görünmesi doğru değil. Çevrili boşluk sınıfı (kural 2). | 1 boş, 5 sahipli nokta (canlı site, 23 Kasım) |
+
+Kapsam sınırı: yalnız MS 150 ve MÖ 27 Roma bakıldı; başka çağ/devlette ölçülmedi. Yerel önizleme motor çıktısını `main`den okur —
 canlıdaki harita ile aynı olduğu doğrulanmadı.
 
 ## 2. İstenen TEK kural
