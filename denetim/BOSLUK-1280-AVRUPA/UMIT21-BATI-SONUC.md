@@ -41,3 +41,14 @@ saarbrucken-kontlugu, wurttemberg-kontlugu, freiburg-kontlugu, murbach-manastiri
 - Britanya-İrlanda'da 32 noktanın hiçbiri kaynaklı değil: Prestwich (Edward I), Davies (Age of Conquest), Barrow (Kingship and Unity), Otway-Ruthven/Cosgrove (İrlanda) gerekir.
 - Savoya (Thonon, Martigny, Bourg-St-Maurice, Aosta alıntısız), Lüksemburg'un 6 noktası, Aşağı Ülkeler küçük noktaları (Rotterdam, Delft, Middelburg, Breda…) nokta bazında kaynaksız.
 - Kaynak kapısı için öneri: Emre'den akademik erişim (Cambridge/Oxford history, Brill, Lexikon des Mittelalters) ya da Hırvat/İtalyan/Alman ulusal arşiv kaynağı.
+
+## 2. TUR (bati2): Miller tam metni + Iber (22 Kasim 2026)
+YAZILAN (3 nokta, Miller 1908 tam metin, birebir alinti, sayfa no; `ham-umit21/sonuc_miller2.json`):
+Anabolu/Nauplion (atina-dukaligi 1212-1388 yil, sonra venedik 1388; atlasin kaynaksiz 'venedik 1281-1388'i kaldirildi) ·
+Kefalonya ve Ithaki (kefalonya-palatin 1204-1324 yil; napoli 1324'ten; 'sicilya/napoli 1281-1324' kaldirildi).
+YAZILMAYAN (Miller'den okundu ama motor/ kunye engeli ya da yil yok):
+- Naksos Dukaligi (f 1207, s.43; 1280 adalari s.44: Naksos, Paros, Antiparos, Kimolos, Melos, Amorgos, Ios, Kythnos, Sikinos, Siphnos, Syra + alt-fief'ler) — `naksos-dukaligi` kunyesi ve BOYALAR anahtari YOK => MOTOR DONDURMA (renkler.py): YAZILMADI, EMRELIC'e bildirildi.
+- Licario kaybi: adalar ~20 yil Rumlarda (s.577-578), yil araligi Miller'de YOK; geri alis 1303 (Santorin/Amorgos/Keos/Seriphos, s.582), Siphnos/Anaphe 1307, Astypalaia 1310 (s.584).
+- Karystos: Bizans (Licario fief'i), baslangic yili yok, 1296'da Lombard baronluguna (s.209); sahip kunyesi (Eğriboz baronlugu) yok. Oreos: Bizans (s.137-138), yil yok. Kythira: Bizans 1275 (Monoyannes s.564), Venier donusu 1309 (s.564-565), baslangic yok. Lefkada: epiros-despotati (s.151), yil yok.
+- Pau/Calais/Bearn/Artois: bearn ve artois-kontlugu kunyesi + BOYALAR YOK (motor dondurma).
+IBER (57 nokta): TDV'de Iber sehirleri YOK (Gibraltar haric); Treccani/Britannica 403-bos; WebFetch ozet dondurdugu icin sayfa birebir okunamadi; kayitlar 'ARAMA OZETINDEN, OKUNMADI' => HICBIRI YAZILMADI (`ham-umit21/sonuc_iber.json`: SAHIPLI 10 zayif, CELISKI 4, YOK 4, KAPSAM_DISI 16, BULUNAMADI 23). Ipuclari (dogrulanmadi): Niebla/Huelva Kastilya 1262, Faro Portekiz 1249, Cuenca 1177-09-21, Denia Aragon 1244-05-11, Ibiza Mayorka 1235 fetih, Gibraltar 1280 Merini (1274-77 baslangic?), Ronda Merini 1277.

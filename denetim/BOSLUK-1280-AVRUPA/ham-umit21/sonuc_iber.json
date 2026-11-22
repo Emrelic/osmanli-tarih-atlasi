@@ -1,0 +1,852 @@
+[
+ {
+  "ad": "Cezayir",
+  "lat": 36.753,
+  "lon": 3.059,
+  "durum": "KAPSAM_DISI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "kaynak": [],
+  "teyit": "yok",
+  "not": "Kuzey Afrika; gorev geregi arastirilmadi"
+ },
+ {
+  "ad": "Şerşel (Cherchell)",
+  "lat": 36.6015,
+  "lon": 2.1921,
+  "durum": "KAPSAM_DISI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "kaynak": [],
+  "teyit": "yok",
+  "not": "Kuzey Afrika; gorev geregi arastirilmadi"
+ },
+ {
+  "ad": "Medea (Titteri)",
+  "lat": 36.264,
+  "lon": 2.754,
+  "durum": "KAPSAM_DISI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "kaynak": [],
+  "teyit": "yok",
+  "not": "Kuzey Afrika; gorev geregi arastirilmadi"
+ },
+ {
+  "ad": "İbiza",
+  "lat": 38.91,
+  "lon": 1.43,
+  "durum": "SAHIPLI",
+  "sahip_1280": "mayorka",
+  "baslangic": "1235-08-08",
+  "baslangic_hassasiyet": "gun",
+  "bitis": null,
+  "kaynak": [
+   {
+    "kunye": "Arama ozeti: Ibiza fethi (Montgri, Nuno Sanc, Pere de Portugal) 8 Agustos 1235; 1279 Mallorca Jaume II Aragon Pere III'e vasal; 1285 Alfonso Mallorca ve Ibiza'yi aldi",
+    "url": "https://core.ac.uk/download/13313787.pdf",
+    "alinti": "ARAMA OZETINDEN (WebSearch); sayfanin kendisi OKUNMADI"
+   }
+  ],
+  "teyit": "zayif",
+  "not": "1235 Katalan fethi; 1280'de Mallorca Krallıgi (Jaume II) parcasi 1285 olayindan CIKARIM. Mayorka'ya baglanis tarihi BULUNAMADI. core.ac.uk ve raco Mayurqa sayfalari okunmadi."
+ },
+ {
+  "ad": "Mersa'l-Kebîr",
+  "lat": 35.728,
+  "lon": -0.709,
+  "durum": "KAPSAM_DISI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "kaynak": [],
+  "teyit": "yok",
+  "not": "Kuzey Afrika; gorev geregi arastirilmadi"
+ },
+ {
+  "ad": "Blida",
+  "lat": 36.47,
+  "lon": 2.829,
+  "durum": "KAPSAM_DISI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "kaynak": [],
+  "teyit": "yok",
+  "not": "Kuzey Afrika; gorev geregi arastirilmadi"
+ },
+ {
+  "ad": "Miliana",
+  "lat": 36.305,
+  "lon": 2.229,
+  "durum": "KAPSAM_DISI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "kaynak": [],
+  "teyit": "yok",
+  "not": "Kuzey Afrika; gorev geregi arastirilmadi"
+ },
+ {
+  "ad": "Tenes",
+  "lat": 36.507,
+  "lon": 1.307,
+  "durum": "KAPSAM_DISI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "kaynak": [],
+  "teyit": "yok",
+  "not": "Kuzey Afrika; gorev geregi arastirilmadi"
+ },
+ {
+  "ad": "Şelif",
+  "lat": 36.165,
+  "lon": 1.334,
+  "durum": "KAPSAM_DISI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "kaynak": [],
+  "teyit": "yok",
+  "not": "Kuzey Afrika; gorev geregi arastirilmadi"
+ },
+ {
+  "ad": "Mustagānim",
+  "lat": 35.931,
+  "lon": 0.089,
+  "durum": "KAPSAM_DISI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "kaynak": [],
+  "teyit": "yok",
+  "not": "Kuzey Afrika; gorev geregi arastirilmadi"
+ },
+ {
+  "ad": "Bayonne",
+  "lat": 43.493,
+  "lon": -1.475,
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "kaynak": [],
+  "teyit": "yok",
+  "not": "Bayonne: ON BILGI ingiltere (Gaskonya); kaynak okunmadi"
+ },
+ {
+  "ad": "Pau",
+  "lat": 43.296,
+  "lon": -0.37,
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "kaynak": [],
+  "teyit": "yok",
+  "not": "Pau: Bearn vikontlugu (Gaston VII); devletler.js'de bearn id'si YOK (foix-kontlugu 1290 sonrasi). Wikipedia-merkezli"
+ },
+ {
+  "ad": "Narbonne",
+  "lat": 43.184,
+  "lon": 3.003,
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "kaynak": [],
+  "teyit": "yok",
+  "not": "Narbonne: arastirilmadi"
+ },
+ {
+  "ad": "Bilbao",
+  "lat": 43.263,
+  "lon": -2.935,
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "kaynak": [],
+  "teyit": "yok",
+  "not": "Bilbao: ON BILGI 1300 kasaba tescili -> 1280'de HENUZ_YOK olasi; kaynak okunmadi"
+ },
+ {
+  "ad": "San Sebastián",
+  "lat": 43.318,
+  "lon": -1.981,
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "kaynak": [],
+  "teyit": "yok",
+  "not": "San Sebastian: Navarra Sancho VI 1180'de kurdu (arama ozeti, Wikipedia-merkezli). 1200 Kastilya fethi ON BILGI; sahip_1280 muhtemel kastilya"
+ },
+ {
+  "ad": "Cuenca",
+  "lat": 40.071,
+  "lon": -2.134,
+  "durum": "SAHIPLI",
+  "sahip_1280": "kastilya",
+  "baslangic": "1177-09-21",
+  "baslangic_hassasiyet": "gun",
+  "bitis": null,
+  "kaynak": [
+   {
+    "kunye": "Arama ozeti: Conquest of Cuenca ve Ispanyolca kaynak; 21 Eylul 1177 (bir kaynak 14 Eylul)",
+    "url": "https://en.wikipedia.org/wiki/Conquest_of_Cuenca",
+    "alinti": "conquered by Alfonso's troops on 21 September 1177"
+   }
+  ],
+  "teyit": "zayif",
+  "not": "21 vs 14 Eylul celiskisi; hakem kaynak okunmadi."
+ },
+ {
+  "ad": "A Coruña",
+  "lat": 43.371,
+  "lon": -8.396,
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "kaynak": [],
+  "teyit": "yok",
+  "not": "A Coruna: kaynak bulunamadi"
+ },
+ {
+  "ad": "Vigo",
+  "lat": 42.24,
+  "lon": -8.72,
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "kaynak": [],
+  "teyit": "yok",
+  "not": "Vigo: kaynak bulunamadi"
+ },
+ {
+  "ad": "Ronda",
+  "lat": 36.742,
+  "lon": -5.167,
+  "durum": "CELISKI",
+  "sahip_1280": "merini",
+  "baslangic": "1277",
+  "baslangic_hassasiyet": "yil",
+  "bitis": null,
+  "kaynak": [
+   {
+    "kunye": "Almoraima (Instituto ECG) - arama ozeti: 1277'de Muhammad II Ronda ve serranasini, Tarifa, Algeciras'i Merinilere birakti",
+    "url": "https://institutoecg.es/almoraima/index.php/revista/article/download/1699/1755/5422",
+    "alinti": "En 1277, Muhammad II se ve forzado a concederles la posesion de todo lo que conquisten"
+   },
+   {
+    "kunye": "TDV Nasriler (ozet, birebir degil)",
+    "url": "https://islamansiklopedisi.org.tr/nasriler",
+    "alinti": "Ronda, Algeciras, Gibraltar, Tarifa askeri us olarak Merinilere verildi (tarihsiz)"
+   }
+  ],
+  "teyit": "zayif",
+  "not": "Tarih celiskili (1274/1275/1277). Ronda'nin Gırnata'ya donusu okunmadi. TDV Ronda'nin Kastilya fethini 1490 baharina kadar der."
+ },
+ {
+  "ad": "Cebelitarık (Gibraltar)",
+  "lat": 36.14,
+  "lon": -5.353,
+  "durum": "CELISKI",
+  "sahip_1280": "merini",
+  "baslangic": "1274",
+  "baslangic_hassasiyet": "yil",
+  "bitis": null,
+  "kaynak": [
+   {
+    "kunye": "Wikipedia Gibraltar (dipnot 46 okunamadi)",
+    "url": "https://en.wikipedia.org/wiki/Gibraltar",
+    "alinti": "probably given along with Algeciras in 1274"
+   },
+   {
+    "kunye": "TDV Cebelitarik",
+    "url": "https://islamansiklopedisi.org.tr/cebelitarik",
+    "alinti": "709 (1309) yilinda Alonso Pérez de Guzmán el-Bueno Kastilya Kralı IV. Ferdinand adına Cebelitârık’ı istilâ etti."
+   },
+   {
+    "kunye": "Almoraima - arama ozeti",
+    "url": "https://institutoecg.es/almoraima/index.php/revista/article/download/1699/1755/6387",
+    "alinti": "Gibraltar Merini yeri; 1374'te Gırnatalilarca cikarildi (ozet)"
+   }
+  ],
+  "teyit": "zayif",
+  "not": "1280 sahibi Merini (Kastilya 1309'da aldi, Merini 1333'te geri aldi - TDV). 1274/1275/1277 baslangic celiskisi. Akademik dipnot okunmadi."
+ },
+ {
+  "ad": "Motril",
+  "lat": 36.745,
+  "lon": -3.52,
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "kaynak": [],
+  "teyit": "yok",
+  "not": "Motril: kaynak bulunamadi (granada olasi)"
+ },
+ {
+  "ad": "Mojácar",
+  "lat": 37.139,
+  "lon": -1.851,
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "kaynak": [],
+  "teyit": "yok",
+  "not": "Mojacar: kaynak bulunamadi (granada olasi)"
+ },
+ {
+  "ad": "Dénia",
+  "lat": 38.841,
+  "lon": 0.107,
+  "durum": "SAHIPLI",
+  "sahip_1280": "aragon",
+  "baslangic": "1244-05-11",
+  "baslangic_hassasiyet": "gun",
+  "bitis": null,
+  "kaynak": [
+   {
+    "kunye": "Arama ozeti: Chabas'a gore 11 Mayis 1244 (Pedro Ximenez Carroz)",
+    "url": "https://valencianews.es/cultura/pedro-ximenez-carroz-i-la-conquista-de-denia/",
+    "alinti": "ARAMA OZETINDEN (WebSearch); sayfanin kendisi OKUNMADI"
+   }
+  ],
+  "teyit": "zayif",
+  "not": "Bazi kaynaklar 1245. Chabas sayfasi okunmadi."
+ },
+ {
+  "ad": "Huelva",
+  "lat": 37.261,
+  "lon": -6.944,
+  "durum": "SAHIPLI",
+  "sahip_1280": "kastilya",
+  "baslangic": "1262",
+  "baslangic_hassasiyet": "yil",
+  "bitis": null,
+  "kaynak": [
+   {
+    "kunye": "Arama ozeti: Huelva Univ. makalesi - Niebla (Libla) krallıginin kesin katilimi 1262",
+    "url": "https://uhu.es/publicaciones/ojs/index.php/huelvahistoria/article/view/754/1164",
+    "alinti": "ARAMA OZETINDEN (WebSearch); sayfanin kendisi OKUNMADI"
+   }
+  ],
+  "teyit": "zayif",
+  "not": "Huelva Niebla taifasi icinde; Kastilya'ya 1262 (Alfonso X). Huelva'ya ozel gun BULUNAMADI."
+ },
+ {
+  "ad": "Lagos (Algarve)",
+  "lat": 37.102,
+  "lon": -8.674,
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "kaynak": [],
+  "teyit": "yok",
+  "not": "Lagos: kaynak bulunamadi"
+ },
+ {
+  "ad": "Setúbal",
+  "lat": 38.524,
+  "lon": -8.893,
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "kaynak": [],
+  "teyit": "yok",
+  "not": "Setubal: kaynak bulunamadi"
+ },
+ {
+  "ad": "Aveiro",
+  "lat": 40.641,
+  "lon": -8.654,
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "kaynak": [],
+  "teyit": "yok",
+  "not": "Aveiro: kaynak bulunamadi"
+ },
+ {
+  "ad": "Braga",
+  "lat": 41.545,
+  "lon": -8.427,
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "kaynak": [],
+  "teyit": "yok",
+  "not": "Braga: kaynak bulunamadi"
+ },
+ {
+  "ad": "Faro",
+  "lat": 37.019,
+  "lon": -7.93,
+  "durum": "SAHIPLI",
+  "sahip_1280": "portekiz",
+  "baslangic": "1249",
+  "baslangic_hassasiyet": "yil",
+  "bitis": null,
+  "kaynak": [
+   {
+    "kunye": "Arama ozeti: Portekiz akademik PDF (dhlab.fcsh.unl.pt) - Faro teslimi 1249 ilkbahari; baska ozet Mart 1249",
+    "url": "https://projetos.dhlab.fcsh.unl.pt/files/original/92a2c5dc41fe9e7ef86c7509e9a4d4043bba90be.pdf",
+    "alinti": "a tomada da vila na sequencia da rendicao de Faro, na Primavera de 1249"
+   }
+  ],
+  "teyit": "zayif",
+  "not": "Algarve'in tamami 1249-1250. Gun BULUNAMADI. PDF okunmadi."
+ },
+ {
+  "ad": "Bragança",
+  "lat": 41.806,
+  "lon": -6.757,
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "kaynak": [],
+  "teyit": "yok",
+  "not": "Braganca: kaynak bulunamadi"
+ },
+ {
+  "ad": "Ainsa",
+  "lat": 42.4155,
+  "lon": 0.1401,
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "kaynak": [],
+  "teyit": "yok",
+  "not": "Ainsa: kaynak bulunamadi"
+ },
+ {
+  "ad": "Sort",
+  "lat": 42.4132,
+  "lon": 1.1305,
+  "durum": "SAHIPLI",
+  "sahip_1280": "pallars",
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "kaynak": [
+   {
+    "kunye": "Arama ozeti: Pallars Sobira, Urgell, Empuries Jaume I egemenligi disinda; Arnau Roger I 1280 Balaguer isyani",
+    "url": "https://publicacions.iec.cat/repository/pdf/00000193/00000025.pdf",
+    "alinti": "ARAMA OZETINDEN (WebSearch); sayfanin kendisi OKUNMADI"
+   }
+  ],
+  "teyit": "zayif",
+  "not": "Sort'a ozel kaynak yok; Pallars Sobira merkezi CIKARIM; devletler.js id: pallars."
+ },
+ {
+  "ad": "Lusitania",
+  "lat": 37.5,
+  "lon": -7.5,
+  "durum": "KAPSAM_DISI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "kaynak": [],
+  "teyit": "yok",
+  "not": "Antik/tarih oncesi/genel bolge adi"
+ },
+ {
+  "ad": "Baetica",
+  "lat": 37.5,
+  "lon": -7.5,
+  "durum": "KAPSAM_DISI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "kaynak": [],
+  "teyit": "yok",
+  "not": "Antik/tarih oncesi/genel bolge adi"
+ },
+ {
+  "ad": "Almuñécar",
+  "lat": 36.734589,
+  "lon": -3.690755,
+  "durum": "SAHIPLI",
+  "sahip_1280": "granada",
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "kaynak": [
+   {
+    "kunye": "TDV Nasriler (ozet, birebir degil)",
+    "url": "https://islamansiklopedisi.org.tr/nasriler",
+    "alinti": "Munekkeb (Almunecar) Nasri deniz ussu olarak sayilir"
+   }
+  ],
+  "teyit": "tek",
+  "not": "Tarih yok; 1280'e ozel tanik yok."
+ },
+ {
+  "ad": "Uclés",
+  "lat": 39.98188,
+  "lon": -2.86232,
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "kaynak": [],
+  "teyit": "yok",
+  "not": "Ucles: TDV'de madde yok; TDV Kastilya yalniz 1108 Ucles bozgununu anar; kaynak bulunamadi"
+ },
+ {
+  "ad": "Gallaecia",
+  "lat": 42.1308685419,
+  "lon": -8.25359799148,
+  "durum": "KAPSAM_DISI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "kaynak": [],
+  "teyit": "yok",
+  "not": "Antik/tarih oncesi/genel bolge adi"
+ },
+ {
+  "ad": "Numantia (Soria)",
+  "lat": 41.809388242,
+  "lon": -2.44433338524,
+  "durum": "YOK",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "kaynak": [],
+  "teyit": "yok",
+  "not": "Numantia: antik, 1280'de yok (Soria ayri yerlesim; arastirilmadi) [ON BILGI, kaynak okunmadi]"
+ },
+ {
+  "ad": "Saguntum (Sagunto)",
+  "lat": 39.678125,
+  "lon": -0.2772475,
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "kaynak": [],
+  "teyit": "yok",
+  "not": "Sagunto: kaynak bulunamadi"
+ },
+ {
+  "ad": "Ilipa (Alcalá del Río)",
+  "lat": 37.518215,
+  "lon": -5.978254,
+  "durum": "YOK",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "kaynak": [],
+  "teyit": "yok",
+  "not": "Ilipa: antik; 1280'de yok [ON BILGI, kaynak okunmadi]"
+ },
+ {
+  "ad": "Arjona (Arcûne)",
+  "lat": 37.93645,
+  "lon": -4.054925,
+  "durum": "SAHIPLI",
+  "sahip_1280": "kastilya",
+  "baslangic": "1246",
+  "baslangic_hassasiyet": "yil",
+  "bitis": null,
+  "kaynak": [
+   {
+    "kunye": "TDV Kastilya",
+    "url": "https://islamansiklopedisi.org.tr/kastilya--ispanya",
+    "alinti": "1246’da Ceyyân (Jaén) ve Arcûne’yi (Arjona) aldı"
+   }
+  ],
+  "teyit": "tek",
+  "not": "Gun yok; ikinci kaynak okunmadi."
+ },
+ {
+  "ad": "Santarém (Şenterîn)",
+  "lat": 39.234008303,
+  "lon": -8.67646951485,
+  "durum": "CELISKI",
+  "sahip_1280": "portekiz",
+  "baslangic": "1147-03-15",
+  "baslangic_hassasiyet": "gun",
+  "bitis": null,
+  "kaynak": [
+   {
+    "kunye": "Arama ozeti: Conquest of Santarem",
+    "url": "https://en.wikipedia.org/wiki/Conquest_of_Santar%C3%A9m",
+    "alinti": "15 March 1147"
+   },
+   {
+    "kunye": "TDV Endulus",
+    "url": "https://islamansiklopedisi.org.tr/endulus",
+    "alinti": "1250’de Şenterîn (Santarem) ve Garb’ı (Algarve) ele geçirdiler"
+   }
+  ],
+  "teyit": "yok",
+  "not": "TDV 1250 verir; 1147 ile celisir (TDV Garb ile karistirmis olabilir). Akademik hakem okunmadi; hakemli karar VERILMEDI."
+ },
+ {
+  "ad": "Écija (İsticce)",
+  "lat": 37.540932,
+  "lon": -5.079949,
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "kaynak": [],
+  "teyit": "yok",
+  "not": "Ecija: TDV Endulus yalniz Tarik fethini anar; Kastilya tarihi bulunamadi"
+ },
+ {
+  "ad": "Auch",
+  "lat": 43.6463558,
+  "lon": 0.5850507,
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "kaynak": [],
+  "teyit": "yok",
+  "not": "Auch: arastirilmadi (devletler.js'de armagnac yok)"
+ },
+ {
+  "ad": "Niebla",
+  "lat": 37.3609544,
+  "lon": -6.6793495,
+  "durum": "SAHIPLI",
+  "sahip_1280": "kastilya",
+  "baslangic": "1262-02",
+  "baslangic_hassasiyet": "ay",
+  "bitis": null,
+  "kaynak": [
+   {
+    "kunye": "Arama ozeti: Sevilla Univ. makalesi - Alfonso X Niebla krallıgini isgal etti, Subat 1262",
+    "url": "https://editorial.us.es/en/muestra/719685?f=pdf",
+    "alinti": "ARAMA OZETINDEN (WebSearch); sayfanin kendisi OKUNMADI"
+   },
+   {
+    "kunye": "Arama ozeti: La conquista de Niebla por Alfonso X",
+    "url": "https://openaccess.library.uitm.edu.my/Record/doaj-d57820c893894c61a6ccfc363e0ca01b",
+    "alinti": "ARAMA OZETINDEN (WebSearch); sayfanin kendisi OKUNMADI"
+   }
+  ],
+  "teyit": "zayif",
+  "not": "Gun BULUNAMADI (ay). TDV Endulus maddesi Niebla fethi tarihi vermiyor."
+ },
+ {
+  "ad": "Emporion (Ampurias)",
+  "lat": 42.13342,
+  "lon": 3.114549,
+  "durum": "YOK",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "kaynak": [],
+  "teyit": "yok",
+  "not": "Emporion: antik harabe [ON BILGI, kaynak okunmadi]"
+ },
+ {
+  "ad": "Besalu",
+  "lat": 42.199167,
+  "lon": 2.697778,
+  "durum": "SAHIPLI",
+  "sahip_1280": "aragon",
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "kaynak": [
+   {
+    "kunye": "Arama ozeti: Besalu Barcelona kontlarina 11. yy'da baglandi",
+    "url": "https://en.wikipedia.org/wiki/County_of_Besal%C3%BA",
+    "alinti": "ARAMA OZETINDEN (WebSearch); sayfanin kendisi OKUNMADI"
+   }
+  ],
+  "teyit": "zayif",
+  "not": "Aragon Tacı ici Katalonya; baslangic okunmadi (Wikipedia-merkezli)."
+ },
+ {
+  "ad": "Cangas",
+  "lat": 43.35,
+  "lon": -5.116667,
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "kaynak": [],
+  "teyit": "yok",
+  "not": "Cangas: kaynak bulunamadi"
+ },
+ {
+  "ad": "Albarrasin (Albarracín)",
+  "lat": 40.407283,
+  "lon": -1.444279,
+  "durum": "CELISKI",
+  "sahip_1280": "kastilya",
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "kaynak": [
+   {
+    "kunye": "Arama ozeti: Albarracin Senyoriligi Kastilya'ya bagli; 1281 Sancho IV/Pedro III anlasmasi; Nisan-Eylul 1284 Aragon kusatmasi",
+    "url": "https://dialnet.unirioja.es/descarga/articulo/8415885.pdf",
+    "alinti": "ARAMA OZETINDEN (WebSearch); sayfanin kendisi OKUNMADI"
+   }
+  ],
+  "teyit": "zayif",
+  "not": "1280'de Azagra/Lara senyorlugu, Kastilya egemenligi; Aragon 1284. Gun yok."
+ },
+ {
+  "ad": "Endülüs",
+  "lat": 37.89,
+  "lon": -4.78,
+  "durum": "KAPSAM_DISI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "kaynak": [],
+  "teyit": "yok",
+  "not": "Antik/tarih oncesi/genel bolge adi"
+ },
+ {
+  "ad": "Talavera",
+  "lat": 39.9601,
+  "lon": -4.8323,
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "kaynak": [],
+  "teyit": "yok",
+  "not": "Talavera: TDV'de madde yok; kaynak bulunamadi"
+ },
+ {
+  "ad": "Jaca",
+  "lat": 42.5692,
+  "lon": -0.5495,
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "kaynak": [],
+  "teyit": "yok",
+  "not": "Jaca: kaynak bulunamadi"
+ },
+ {
+  "ad": "İspanya",
+  "lat": 40.39,
+  "lon": -3.563,
+  "durum": "KAPSAM_DISI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "kaynak": [],
+  "teyit": "yok",
+  "not": "Antik/tarih oncesi/genel bolge adi"
+ },
+ {
+  "ad": "Bobastro",
+  "lat": 36.9024,
+  "lon": -4.7816,
+  "durum": "YOK",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "kaynak": [],
+  "teyit": "yok",
+  "not": "Bobastro: Hafsun kalesi, harabe [ON BILGI, kaynak okunmadi]"
+ },
+ {
+  "ad": "Los Millares",
+  "lat": 36.9626,
+  "lon": -2.5216,
+  "durum": "KAPSAM_DISI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "kaynak": [],
+  "teyit": "yok",
+  "not": "Antik/tarih oncesi/genel bolge adi"
+ },
+ {
+  "ad": "El Argar",
+  "lat": 37.2479,
+  "lon": -1.9132,
+  "durum": "KAPSAM_DISI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "kaynak": [],
+  "teyit": "yok",
+  "not": "Antik/tarih oncesi/genel bolge adi"
+ },
+ {
+  "ad": "Consuegra",
+  "lat": 39.4619,
+  "lon": -3.6064,
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "kaynak": [],
+  "teyit": "yok",
+  "not": "Consuegra: kaynak bulunamadi"
+ }
+]
