@@ -992,6 +992,8 @@ Ceviri.ekle("zh","arayuz",{
 "Menzil yolları (#–#)":["驿路（#–#）", "6de47dd2"],
 "Metin (detay)":["正文（详情）", "47a9253c"],
 "Meydan savaşı":["野战", "cc1a62c9"],
+"Milattan sonra (#)":["公元 (#)", "50076066"],
+"Milattan önce (#)":["公元前 (#)", "acc4a82e"],
 "Milattan önce için eksi ya da MÖ yazın: -# · MÖ # · -#. # milada (MS #) götürür.":["公元前请写负号或“公元前”：-# · 公元前# · -#。#将转至公元（公元#）。", "c1a52c5e"],
 "Mirasla alındı":["继承取得", "0c1b6da3"],
 "Motor tanı hatları":["引擎诊断线路", "23a0ce35"],

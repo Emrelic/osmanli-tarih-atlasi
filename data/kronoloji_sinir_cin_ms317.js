@@ -21,7 +21,7 @@ window.KRONOLOJI_SINIR_CIN_MS317 = [
    "konu-askeri",
    "cin-ms317"
   ],
-  "d": "Standart tarih metinlerinde tanıklı gün: 6 Nisan 317 (Jülyen; ganzhi 辛卯). Nanjing (Jiankang), Changsha, Fuzhou: Bati Jin Hanedani → Dogu Jin Hanedani. Şehir başına dönem kaynağı ve açıklamalar ilgili yerleşimin s: kaynak alanındadır.",
+  "d": "Standart tarih metinlerinde tanıklı gün: 6 Nisan 317 (Jülyen; ganzhi 辛卯). Nanjing (Jiankang), Changsha, Fuzhou: Bati Jin Hanedani → Dogu Jin Hanedani. Şehir başına dönem kaynağı ve açıklamalar aşağıdadır.",
   "kaynak": "晉書 卷6 元帝紀, https://zh.wikisource.org/wiki/晉書/卷006; 宋書 卷3 武帝紀下, https://zh.wikisource.org/wiki/宋書/卷3 ; Jin Shu 5 (Mindi ji), zh.wikisource.org/wiki/晉書/卷005 ; Song Shu 3 (Wudi ji xia), zh.wikisource.org/wiki/宋書/卷3 ; Song Shu 3 (Wu di ji xia) https://zh.wikisource.org/wiki/宋書/卷3 (standart tarih metinleri, zh.wikisource neşirleri)",
   "gun": "6 Nisan 317 (Jülyen; ganzhi 辛卯)",
   "kesinlik": "gun",
@@ -48,7 +48,7 @@ window.KRONOLOJI_SINIR_CIN_MS317 = [
    "konu-askeri",
    "cin-ms317"
   ],
-  "d": "Standart tarih metinlerinde tanıklı gün: 17 Şubat 351 (Jülyen; ganzhi 辛丑). Chang'an (Xi'an): Sonraki Zhao (後趙) → Önceki Qin (前秦). Şehir başına dönem kaynağı ve açıklamalar ilgili yerleşimin s: kaynak alanındadır.",
+  "d": "Standart tarih metinlerinde tanıklı gün: 17 Şubat 351 (Jülyen; ganzhi 辛丑). Chang'an (Xi'an): Sonraki Zhao (後趙) → Önceki Qin (前秦). Şehir başına dönem kaynağı ve açıklamalar aşağıdadır.",
   "kaynak": "Jin shu 105 · Jin shu 106 · Jin shu 107 · Jin shu 112 — https://zh.wikisource.org/wiki/晉書/卷106 ; Jin shu 112 (苻健載記) · Jin shu 8 · Jin shu 9 — https://zh.wikisource.org/wiki/晉書/卷112 (standart tarih metinleri, zh.wikisource neşirleri)",
   "gun": "17 Şubat 351 (Jülyen; ganzhi 辛丑)",
   "kesinlik": "gun",
@@ -75,7 +75,7 @@ window.KRONOLOJI_SINIR_CIN_MS317 = [
    "konu-askeri",
    "cin-ms317"
   ],
-  "d": "Standart tarih metinlerinde tanıklı gün: Temmuz 385 (Jülyen; ay hassasiyeti; gün 24 kaynaktaki ay-günden). Chang'an (Xi'an): Önceki Qin (前秦) → Batı Yan (西燕, Murong Chong). Şehir başına dönem kaynağı ve açıklamalar ilgili yerleşimin s: kaynak alanındadır.",
+  "d": "Standart tarih metinlerinde tanıklı gün: Temmuz 385 (Jülyen; ay hassasiyeti; gün 24 kaynaktaki ay-günden). Chang'an (Xi'an): Önceki Qin (前秦) → Batı Yan (西燕, Murong Chong). Şehir başına dönem kaynağı ve açıklamalar aşağıdadır.",
   "kaynak": "Jin shu 112 (苻健載記) · Jin shu 8 · Jin shu 9 — https://zh.wikisource.org/wiki/晉書/卷112 ; Jin shu 9 · Jin shu 116 (姚萇載記) · Zizhi tongjian 106 (資治通鑑/卷106) (standart tarih metinleri, zh.wikisource neşirleri)",
   "gun": "Temmuz 385 (Jülyen; ay hassasiyeti; gün 24 kaynaktaki ay-günden)",
   "kesinlik": "ay",
@@ -101,7 +101,7 @@ window.KRONOLOJI_SINIR_CIN_MS317 = [
    "konu-askeri",
    "cin-ms317"
   ],
-  "d": "Standart tarih metinlerinde tanıklı gün: Mayıs 386 (Jülyen; ay hassasiyeti; gün 15 kaynaktaki ay-günden). Chang'an (Xi'an): Batı Yan (西燕, Murong Chong) → Sonraki Qin (後秦, Yao hanedanı). Şehir başına dönem kaynağı ve açıklamalar ilgili yerleşimin s: kaynak alanındadır.",
+  "d": "Standart tarih metinlerinde tanıklı gün: Mayıs 386 (Jülyen; ay hassasiyeti; gün 15 kaynaktaki ay-günden). Chang'an (Xi'an): Batı Yan (西燕, Murong Chong) → Sonraki Qin (後秦, Yao hanedanı). Şehir başına dönem kaynağı ve açıklamalar aşağıdadır.",
   "kaynak": "Jin shu 9 · Jin shu 116 (姚萇載記) · Zizhi tongjian 106 (資治通鑑/卷106) ; Jin shu 116 · Zizhi tongjian 106 · Song shu 2 (宋書/卷2) · Jin shu 10 (standart tarih metinleri, zh.wikisource neşirleri)",
   "gun": "Mayıs 386 (Jülyen; ay hassasiyeti; gün 15 kaynaktaki ay-günden)",
   "kesinlik": "ay",
@@ -127,7 +127,7 @@ window.KRONOLOJI_SINIR_CIN_MS317 = [
    "konu-askeri",
    "cin-ms317"
   ],
-  "d": "Standart tarih metinlerinde tanıklı gün: Ağustos 417 (Jülyen; ay hassasiyeti; gün 28 kaynaktaki ay-günden). Chang'an (Xi'an): Sonraki Qin (後秦, Yao hanedanı) → Dogu Jin Hanedani. Şehir başına dönem kaynağı ve açıklamalar ilgili yerleşimin s: kaynak alanındadır.",
+  "d": "Standart tarih metinlerinde tanıklı gün: Ağustos 417 (Jülyen; ay hassasiyeti; gün 28 kaynaktaki ay-günden). Chang'an (Xi'an): Sonraki Qin (後秦, Yao hanedanı) → Dogu Jin Hanedani. Şehir başına dönem kaynağı ve açıklamalar aşağıdadır.",
   "kaynak": "Jin shu 116 · Zizhi tongjian 106 · Song shu 2 (宋書/卷2) · Jin shu 10 ; Song shu 2 · Jin shu 10 (晉書/卷010) (standart tarih metinleri, zh.wikisource neşirleri)",
   "gun": "Ağustos 417 (Jülyen; ay hassasiyeti; gün 28 kaynaktaki ay-günden)",
   "kesinlik": "ay",
@@ -153,7 +153,7 @@ window.KRONOLOJI_SINIR_CIN_MS317 = [
    "konu-askeri",
    "cin-ms317"
   ],
-  "d": "Standart tarih metinlerinde tanıklı gün: Aralık 418 (Jülyen; ay hassasiyeti; gün 14 kaynaktaki ay-günden). Chang'an (Xi'an): Dogu Jin Hanedani → Hu Xia (胡夏). Şehir başına dönem kaynağı ve açıklamalar ilgili yerleşimin s: kaynak alanındadır.",
+  "d": "Standart tarih metinlerinde tanıklı gün: Aralık 418 (Jülyen; ay hassasiyeti; gün 14 kaynaktaki ay-günden). Chang'an (Xi'an): Dogu Jin Hanedani → Hu Xia (胡夏). Şehir başına dönem kaynağı ve açıklamalar aşağıdadır.",
   "kaynak": "Song shu 2 · Jin shu 10 (晉書/卷010) ; Jin shu 130 (赫連勃勃載記) · Wei shu 4上 (魏書/卷4上) (standart tarih metinleri, zh.wikisource neşirleri)",
   "gun": "Aralık 418 (Jülyen; ay hassasiyeti; gün 14 kaynaktaki ay-günden)",
   "kesinlik": "ay",
@@ -179,7 +179,7 @@ window.KRONOLOJI_SINIR_CIN_MS317 = [
    "konu-askeri",
    "cin-ms317"
   ],
-  "d": "Standart tarih metinlerinde tanıklı gün: 10 Temmuz 420 (Jülyen; ganzhi 丁卯). Nanjing (Jiankang), Changsha, Fuzhou: Dogu Jin Hanedani → Liu Song. Şehir başına dönem kaynağı ve açıklamalar ilgili yerleşimin s: kaynak alanındadır.",
+  "d": "Standart tarih metinlerinde tanıklı gün: 10 Temmuz 420 (Jülyen; ganzhi 丁卯). Nanjing (Jiankang), Changsha, Fuzhou: Dogu Jin Hanedani → Liu Song. Şehir başına dönem kaynağı ve açıklamalar aşağıdadır.",
   "kaynak": "晉書 卷6 元帝紀, https://zh.wikisource.org/wiki/晉書/卷006; 宋書 卷3 武帝紀下, https://zh.wikisource.org/wiki/宋書/卷3 ; 宋書 卷3 武帝紀下, https://zh.wikisource.org/wiki/宋書/卷3; 南齊書 卷2 高帝紀下, https://zh.wikisource.org/wiki/南齊書/卷2 ; Jin Shu 5 (Mindi ji), zh.wikisource.org/wiki/晉書/卷005 ; Song Shu 3 (Wudi ji xia), zh.wikisource.org/wiki/宋書/卷3 ; Song Shu 3 (Wudi ji xia), zh.wikisource.org/wiki/宋書/卷3 ; Nan Qi Shu 2 (Gaodi ji xia), zh.wikisource.org/wiki/南齊書/卷2 ; Song Shu 3 (Wu di ji xia) https://zh.wikisource.org/wiki/宋書/卷3 ; Nan Qi Shu 2 (Gao di ji xia) https://zh.wikisource.org/wiki/南齊書/卷2 (standart tarih metinleri, zh.wikisource neşirleri)",
   "gun": "10 Temmuz 420 (Jülyen; ganzhi 丁卯)",
   "kesinlik": "gun",
@@ -206,7 +206,7 @@ window.KRONOLOJI_SINIR_CIN_MS317 = [
    "konu-askeri",
    "cin-ms317"
   ],
-  "d": "Standart tarih metinlerinde tanıklı gün: Ocak 427 (Jülyen; ay hassasiyeti; gün 14 kaynaktaki ay-günden). Chang'an (Xi'an): Hu Xia (胡夏) → Kuzey Wei (Tuoba/Tabgaç) Hanedanı. Şehir başına dönem kaynağı ve açıklamalar ilgili yerleşimin s: kaynak alanındadır.",
+  "d": "Standart tarih metinlerinde tanıklı gün: Ocak 427 (Jülyen; ay hassasiyeti; gün 14 kaynaktaki ay-günden). Chang'an (Xi'an): Hu Xia (胡夏) → Kuzey Wei (Tuoba/Tabgaç) Hanedanı. Şehir başına dönem kaynağı ve açıklamalar aşağıdadır.",
   "kaynak": "Jin shu 130 (赫連勃勃載記) · Wei shu 4上 (魏書/卷4上) ; Wei shu 4上 · Zhou shu 1 (周書/卷01) — https://zh.wikisource.org/wiki/周書/卷01 (standart tarih metinleri, zh.wikisource neşirleri)",
   "gun": "Ocak 427 (Jülyen; ay hassasiyeti; gün 14 kaynaktaki ay-günden)",
   "kesinlik": "ay",
@@ -232,7 +232,7 @@ window.KRONOLOJI_SINIR_CIN_MS317 = [
    "konu-askeri",
    "cin-ms317"
   ],
-  "d": "Standart tarih metinlerinde tanıklı gün: 29 Mayıs 479 (Jülyen; ganzhi 甲午). Nanjing (Jiankang), Changsha, Fuzhou: Liu Song → Guney Qi. Şehir başına dönem kaynağı ve açıklamalar ilgili yerleşimin s: kaynak alanındadır.",
+  "d": "Standart tarih metinlerinde tanıklı gün: 29 Mayıs 479 (Jülyen; ganzhi 甲午). Nanjing (Jiankang), Changsha, Fuzhou: Liu Song → Guney Qi. Şehir başına dönem kaynağı ve açıklamalar aşağıdadır.",
   "kaynak": "宋書 卷3 武帝紀下, https://zh.wikisource.org/wiki/宋書/卷3; 南齊書 卷2 高帝紀下, https://zh.wikisource.org/wiki/南齊書/卷2 ; 南齊書 卷2 高帝紀下, https://zh.wikisource.org/wiki/南齊書/卷2; 梁書 卷2 武帝紀中, https://zh.wikisource.org/wiki/梁書/卷02 ; Song Shu 3 (Wudi ji xia), zh.wikisource.org/wiki/宋書/卷3 ; Nan Qi Shu 2 (Gaodi ji xia), zh.wikisource.org/wiki/南齊書/卷2 ; Nan Qi Shu 2 (Gaodi ji xia), zh.wikisource.org/wiki/南齊書/卷2 ; Liang Shu 2 (Wudi ji zhong), zh.wikisource.org/wiki/梁書/卷02 ; Nan Qi Shu 2 (Gao di ji xia) https://zh.wikisource.org/wiki/南齊書/卷2 ; Liang Shu 2 (Wu di ji zhong) https://zh.wikisource.org/wiki/梁書/卷02 (standart tarih metinleri, zh.wikisource neşirleri)",
   "gun": "29 Mayıs 479 (Jülyen; ganzhi 甲午)",
   "kesinlik": "gun",
@@ -259,7 +259,7 @@ window.KRONOLOJI_SINIR_CIN_MS317 = [
    "konu-askeri",
    "cin-ms317"
   ],
-  "d": "Standart tarih metinlerinde tanıklı gün: 30 Nisan 502 (Jülyen; ganzhi 丙寅). Nanjing (Jiankang), Changsha, Fuzhou: Guney Qi → Liang (Guney Hanedani). Şehir başına dönem kaynağı ve açıklamalar ilgili yerleşimin s: kaynak alanındadır.",
+  "d": "Standart tarih metinlerinde tanıklı gün: 30 Nisan 502 (Jülyen; ganzhi 丙寅). Nanjing (Jiankang), Changsha, Fuzhou: Guney Qi → Liang (Guney Hanedani). Şehir başına dönem kaynağı ve açıklamalar aşağıdadır.",
   "kaynak": "Xiao Zixian, Nan Qi shu, juan 8 «Hedi ji» (zh.wikisource.org/wiki/南齊書/卷8; Jiangling Liang topraklarına katıldı: Jiangling için özgü devir kaydı yok, devlet düzeyi BEYANLI YAKLAŞIKLIK) ; 南齊書 卷2 高帝紀下, https://zh.wikisource.org/wiki/南齊書/卷2; 梁書 卷2 武帝紀中, https://zh.wikisource.org/wiki/梁書/卷02 ; 梁書 卷2 武帝紀中, https://zh.wikisource.org/wiki/梁書/卷02; 陳書 卷2 高祖紀下, https://zh.wikisource.org/wiki/陳書/卷2 ; Nan Qi Shu 2 (Gaodi ji xia), zh.wikisource.org/wiki/南齊書/卷2 ; Liang Shu 2 (Wudi ji zhong), zh.wikisource.org/wiki/梁書/卷02 ; Liang Shu 2 (Wudi ji zhong), zh.wikisource.org/wiki/梁書/卷02 ; Chen Shu 2 (Gaozu ji xia), zh.wikisource.org/wiki/陳書/卷2 ; Liang Shu 2 (Wu di ji zhong) https://zh.wikisource.org/wiki/梁書/卷02 ; Chen Shu 2 (Gao zu xia) https://zh.wikisource.org/wiki/陳書/卷2 ; Chen Shu 35 (Chen Baoying zhuan) https://zh.wikisource.org/wiki/陳書/卷35 (standart tarih metinleri, zh.wikisource neşirleri)",
   "gun": "30 Nisan 502 (Jülyen; ganzhi 丙寅)",
   "kesinlik": "gun",
@@ -286,7 +286,7 @@ window.KRONOLOJI_SINIR_CIN_MS317 = [
    "konu-askeri",
    "cin-ms317"
   ],
-  "d": "Standart tarih metinlerinde tanıklı gün: Ocak 535 (Jülyen; ay hassasiyeti; gün 20 kaynaktaki ay-günden). Chang'an (Xi'an): Kuzey Wei (Tuoba/Tabgaç) Hanedanı → Batı Wei Hanedanı. Şehir başına dönem kaynağı ve açıklamalar ilgili yerleşimin s: kaynak alanındadır.",
+  "d": "Standart tarih metinlerinde tanıklı gün: Ocak 535 (Jülyen; ay hassasiyeti; gün 20 kaynaktaki ay-günden). Chang'an (Xi'an): Kuzey Wei (Tuoba/Tabgaç) Hanedanı → Batı Wei Hanedanı. Şehir başına dönem kaynağı ve açıklamalar aşağıdadır.",
   "kaynak": "Wei shu 4上 · Zhou shu 1 (周書/卷01) — https://zh.wikisource.org/wiki/周書/卷01 ; Zhou shu 1 · Zhou shu 3 (周書/卷03) (standart tarih metinleri, zh.wikisource neşirleri)",
   "gun": "Ocak 535 (Jülyen; ay hassasiyeti; gün 20 kaynaktaki ay-günden)",
   "kesinlik": "ay",
@@ -312,7 +312,7 @@ window.KRONOLOJI_SINIR_CIN_MS317 = [
    "konu-askeri",
    "cin-ms317"
   ],
-  "d": "Standart tarih metinlerinde tanıklı gün: 16 Kasım 557 (Jülyen; ganzhi 乙亥). Nanjing (Jiankang), Fuzhou: Liang (Guney Hanedani) → Chen Hanedani; Changsha: Liang (Guney Hanedani) hâkimiyeti sona erdi; sonrası kaynakta okunamadı (beyanlı boşluk). Şehir başına dönem kaynağı ve açıklamalar ilgili yerleşimin s: kaynak alanındadır.",
+  "d": "Standart tarih metinlerinde tanıklı gün: 16 Kasım 557 (Jülyen; ganzhi 乙亥). Nanjing (Jiankang), Fuzhou: Liang (Guney Hanedani) → Chen Hanedani; Changsha: Liang (Guney Hanedani) hâkimiyeti sona erdi; sonrası kaynakta okunamadı (beyanlı boşluk). Şehir başına dönem kaynağı ve açıklamalar aşağıdadır.",
   "kaynak": "梁書 卷2 武帝紀中, https://zh.wikisource.org/wiki/梁書/卷02; 陳書 卷2 高祖紀下, https://zh.wikisource.org/wiki/陳書/卷2 ; 陳書 卷2 高祖紀下, https://zh.wikisource.org/wiki/陳書/卷2; 隋書 卷2 高祖紀下, https://zh.wikisource.org/wiki/隋書/卷02 ; Liang Shu 2 (Wudi ji zhong), zh.wikisource.org/wiki/梁書/卷02 ; Chen Shu 2 (Gaozu ji xia), zh.wikisource.org/wiki/陳書/卷2 ; Chen Shu 2 (Gaozu ji xia), zh.wikisource.org/wiki/陳書/卷2 ; Chen Shu 3 (Shizu ji), zh.wikisource.org/wiki/陳書/卷3 ; Chen Shu 2 (Gao zu xia) https://zh.wikisource.org/wiki/陳書/卷2 ; Chen Shu 35 (Chen Baoying zhuan) https://zh.wikisource.org/wiki/陳書/卷35 ; Chen Shu 3 (Shi zu ji) https://zh.wikisource.org/wiki/陳書/卷3 ; Sui Shu 2 (Gao zu xia) https://zh.wikisource.org/wiki/隋書/卷02 ; Sui Shu 31 (standart tarih metinleri, zh.wikisource neşirleri)",
   "gun": "16 Kasım 557 (Jülyen; ganzhi 乙亥)",
   "kesinlik": "gun",
@@ -338,7 +338,7 @@ window.KRONOLOJI_SINIR_CIN_MS317 = [
    "konu-askeri",
    "cin-ms317"
   ],
-  "d": "Standart tarih metinlerinde tanıklı gün: 24 Şubat 561 (Jülyen; ganzhi 辛未). Changsha: Chen Hanedani hâkimiyeti başladı (öncesi beyanlı boşluk). Şehir başına dönem kaynağı ve açıklamalar ilgili yerleşimin s: kaynak alanındadır.",
+  "d": "Standart tarih metinlerinde tanıklı gün: 24 Şubat 561 (Jülyen; ganzhi 辛未). Changsha: Chen Hanedani hâkimiyeti başladı (öncesi beyanlı boşluk). Şehir başına dönem kaynağı ve açıklamalar aşağıdadır.",
   "kaynak": "Chen Shu 2 (Gaozu ji xia), zh.wikisource.org/wiki/陳書/卷2 ; Chen Shu 3 (Shizu ji), zh.wikisource.org/wiki/陳書/卷3 ; Chen Shu 3 (Shizu ji), zh.wikisource.org/wiki/陳書/卷3 ; Chen Shu 28 (Gaozong zhu zi zhuan, Yueyang wang Shushen), zh.wikisource.org/wiki/陳書/卷28 (standart tarih metinleri, zh.wikisource neşirleri)",
   "gun": "24 Şubat 561 (Jülyen; ganzhi 辛未)",
   "kesinlik": "gun",
@@ -365,7 +365,7 @@ window.KRONOLOJI_SINIR_CIN_MS317 = [
    "konu-askeri",
    "cin-ms317"
   ],
-  "d": "Standart tarih metinlerinde tanıklı gün: 4 Mart 581 (Jülyen; ganzhi 甲子). Chang'an (Xi'an): Kuzey Zhou Hanedanı → Sui Hanedani. Şehir başına dönem kaynağı ve açıklamalar ilgili yerleşimin s: kaynak alanındadır.",
+  "d": "Standart tarih metinlerinde tanıklı gün: 4 Mart 581 (Jülyen; ganzhi 甲子). Chang'an (Xi'an): Kuzey Zhou Hanedanı → Sui Hanedani. Şehir başına dönem kaynağı ve açıklamalar aşağıdadır.",
   "kaynak": "Zhou shu 3 · Sui shu 1 (隋書/卷01) ; Sui shu 1 · Jiu Tang shu 1 (舊唐書/卷1) — https://zh.wikisource.org/wiki/隋書/卷01 (standart tarih metinleri, zh.wikisource neşirleri)",
   "gun": "4 Mart 581 (Jülyen; ganzhi 甲子)",
   "kesinlik": "gun",
@@ -392,7 +392,7 @@ window.KRONOLOJI_SINIR_CIN_MS317 = [
    "konu-askeri",
    "cin-ms317"
   ],
-  "d": "Standart tarih metinlerinde tanıklı gün: 2 Şubat 589 (Jülyen; ganzhi 丙子). Nanjing (Jiankang), Changsha, Fuzhou: Chen Hanedani → Sui Hanedani. Şehir başına dönem kaynağı ve açıklamalar ilgili yerleşimin s: kaynak alanındadır.",
+  "d": "Standart tarih metinlerinde tanıklı gün: 2 Şubat 589 (Jülyen; ganzhi 丙子). Nanjing (Jiankang), Changsha, Fuzhou: Chen Hanedani → Sui Hanedani. Şehir başına dönem kaynağı ve açıklamalar aşağıdadır.",
   "kaynak": "陳書 卷2 高祖紀下, https://zh.wikisource.org/wiki/陳書/卷2; 隋書 卷2 高祖紀下, https://zh.wikisource.org/wiki/隋書/卷02 ; 隋書 卷2 高祖紀下, https://zh.wikisource.org/wiki/隋書/卷02; 隋書 卷31 地理志下, https://zh.wikisource.org/wiki/隋書/卷31; 資治通鑑 卷177 (Sima Guang, 1084), https://zh.wikisource.org/wiki/資治通鑑/卷177 ; Chen Shu 3 (Shizu ji), zh.wikisource.org/wiki/陳書/卷3 ; Chen Shu 28 (Gaozong zhu zi zhuan, Yueyang wang Shushen), zh.wikisource.org/wiki/陳書/卷28 ; Sui Shu 2 (Gaozu ji xia; kaynak sayfası wikisource 隋書/卷02), zh.wikisource.org/wiki/隋書/卷02 ; Sui Shu 48 (Yang Su zhuan), zh.wikisource.org/wiki/隋書/卷48 ; Chen Shu 28 (Gaozong zhu zi zhuan, Yueyang wang Shushen), zh.wikisource.org/wiki/陳書/卷28 ; Chen Shu 3 (Shi zu ji) https://zh.wikisource.org/wiki/陳書/卷3 ; Sui Shu 2 (Gao zu xia) https://zh.wikisource.org/wiki/隋書/卷02 ; Sui Shu 31 ; Sui Shu 31 (Dili zhi) https://zh.wikisource.org/wiki/隋書/卷31 ; Jiu Tang Shu 1 (Gao zu) https://zh.wikisource.org/wiki/舊唐書/卷1 (standart tarih metinleri, zh.wikisource neşirleri)",
   "gun": "2 Şubat 589 (Jülyen; ganzhi 丙子)",
   "kesinlik": "gun",
@@ -419,7 +419,7 @@ window.KRONOLOJI_SINIR_CIN_MS317 = [
    "konu-askeri",
    "cin-ms317"
   ],
-  "d": "Standart tarih metinlerinde tanıklı gün: 617. Changsha: Sui Hanedani → Xiao Xian'ın Liang'ı (梁, Jiangling). Şehir başına dönem kaynağı ve açıklamalar ilgili yerleşimin s: kaynak alanındadır.",
+  "d": "Standart tarih metinlerinde tanıklı gün: 617. Changsha: Sui Hanedani → Xiao Xian'ın Liang'ı (梁, Jiangling). Şehir başına dönem kaynağı ve açıklamalar aşağıdadır.",
   "kaynak": "Sui Shu 2 (Gaozu ji xia; kaynak sayfası wikisource 隋書/卷02), zh.wikisource.org/wiki/隋書/卷02 ; Sui Shu 48 (Yang Su zhuan), zh.wikisource.org/wiki/隋書/卷48 ; Chen Shu 28 (Gaozong zhu zi zhuan, Yueyang wang Shushen), zh.wikisource.org/wiki/陳書/卷28 ; Jiu Tang Shu 56 (Xiao Xian zhuan), zh.wikisource.org/wiki/舊唐書/卷56 ; Jiu Tang Shu 1 (Gaozu ji), zh.wikisource.org/wiki/舊唐書/卷1 (standart tarih metinleri, zh.wikisource neşirleri)",
   "gun": "617",
   "kesinlik": "yil",
@@ -445,7 +445,7 @@ window.KRONOLOJI_SINIR_CIN_MS317 = [
    "konu-askeri",
    "cin-ms317"
   ],
-  "d": "Standart tarih metinlerinde tanıklı gün: 12 Aralık 617 (Jülyen; ganzhi 丙辰). Chang'an (Xi'an): Sui Hanedani → Tang Hanedani. Şehir başına dönem kaynağı ve açıklamalar ilgili yerleşimin s: kaynak alanındadır.",
+  "d": "Standart tarih metinlerinde tanıklı gün: 12 Aralık 617 (Jülyen; ganzhi 丙辰). Chang'an (Xi'an): Sui Hanedani → Tang Hanedani. Şehir başına dönem kaynağı ve açıklamalar aşağıdadır.",
   "kaynak": "Sui shu 1 · Jiu Tang shu 1 (舊唐書/卷1) — https://zh.wikisource.org/wiki/隋書/卷01 ; Jiu Tang shu 1 · Jiu Tang shu 6 (舊唐書/卷6) (standart tarih metinleri, zh.wikisource neşirleri)",
   "gun": "12 Aralık 617 (Jülyen; ganzhi 丙辰)",
   "kesinlik": "gun",
@@ -471,7 +471,7 @@ window.KRONOLOJI_SINIR_CIN_MS317 = [
    "konu-askeri",
    "cin-ms317"
   ],
-  "d": "Standart tarih metinlerinde tanıklı gün: 618. Nanjing (Jiankang): Sui Hanedani hâkimiyeti sona erdi; sonrası kaynakta okunamadı (beyanlı boşluk). Şehir başına dönem kaynağı ve açıklamalar ilgili yerleşimin s: kaynak alanındadır.",
+  "d": "Standart tarih metinlerinde tanıklı gün: 618. Nanjing (Jiankang): Sui Hanedani hâkimiyeti sona erdi; sonrası kaynakta okunamadı (beyanlı boşluk). Şehir başına dönem kaynağı ve açıklamalar aşağıdadır.",
   "kaynak": "隋書 卷2 高祖紀下, https://zh.wikisource.org/wiki/隋書/卷02; 隋書 卷31 地理志下, https://zh.wikisource.org/wiki/隋書/卷31; 資治通鑑 卷177 (Sima Guang, 1084), https://zh.wikisource.org/wiki/資治通鑑/卷177 ; 舊唐書 卷56 (杜伏威·輔公祏·沈法興·李子通傳), https://zh.wikisource.org/wiki/舊唐書/卷56; 舊唐書 卷40 地理志三, https://zh.wikisource.org/wiki/舊唐書/卷40 (standart tarih metinleri, zh.wikisource neşirleri)",
   "gun": "618",
   "kesinlik": "yil",
@@ -497,7 +497,7 @@ window.KRONOLOJI_SINIR_CIN_MS317 = [
    "konu-askeri",
    "cin-ms317"
   ],
-  "d": "Standart tarih metinlerinde tanıklı gün: 18 Haziran 618 (Jülyen; ganzhi 甲子). Fuzhou: Sui Hanedani → Tang Hanedani. Şehir başına dönem kaynağı ve açıklamalar ilgili yerleşimin s: kaynak alanındadır.",
+  "d": "Standart tarih metinlerinde tanıklı gün: 18 Haziran 618 (Jülyen; ganzhi 甲子). Fuzhou: Sui Hanedani → Tang Hanedani. Şehir başına dönem kaynağı ve açıklamalar aşağıdadır.",
   "kaynak": "Sui Shu 31 (Dili zhi) https://zh.wikisource.org/wiki/隋書/卷31 ; Jiu Tang Shu 1 (Gao zu) https://zh.wikisource.org/wiki/舊唐書/卷1 ; Jiu Tang Shu 40 (Dili zhi) https://zh.wikisource.org/wiki/舊唐書/卷40 ; Xin Tang Shu 41 https://zh.wikisource.org/wiki/新唐書/卷041 ; Jiu Tang Shu 6 (Wu hou) (standart tarih metinleri, zh.wikisource neşirleri)",
   "gun": "18 Haziran 618 (Jülyen; ganzhi 甲子)",
   "kesinlik": "gun",
@@ -523,7 +523,7 @@ window.KRONOLOJI_SINIR_CIN_MS317 = [
    "konu-askeri",
    "cin-ms317"
   ],
-  "d": "Standart tarih metinlerinde tanıklı gün: 620. Nanjing (Jiankang): Tang Hanedani hâkimiyeti başladı (öncesi beyanlı boşluk). Şehir başına dönem kaynağı ve açıklamalar ilgili yerleşimin s: kaynak alanındadır.",
+  "d": "Standart tarih metinlerinde tanıklı gün: 620. Nanjing (Jiankang): Tang Hanedani hâkimiyeti başladı (öncesi beyanlı boşluk). Şehir başına dönem kaynağı ve açıklamalar aşağıdadır.",
   "kaynak": "舊唐書 卷56 (杜伏威·輔公祏·沈法興·李子通傳), https://zh.wikisource.org/wiki/舊唐書/卷56; 舊唐書 卷40 地理志三, https://zh.wikisource.org/wiki/舊唐書/卷40 ; 舊唐書 卷40 地理志三, https://zh.wikisource.org/wiki/舊唐書/卷40; 舊唐書 卷1 高祖紀, https://zh.wikisource.org/wiki/舊唐書/卷1; 新五代史 卷61 吳世家, https://zh.wikisource.org/wiki/新五代史/卷61 (standart tarih metinleri, zh.wikisource neşirleri)",
   "gun": "620",
   "kesinlik": "yil",
@@ -549,7 +549,7 @@ window.KRONOLOJI_SINIR_CIN_MS317 = [
    "konu-askeri",
    "cin-ms317"
   ],
-  "d": "Standart tarih metinlerinde tanıklı gün: 10 Kasım 621 (Jülyen; ganzhi 乙巳). Changsha: Xiao Xian'ın Liang'ı (梁, Jiangling) → Tang Hanedani. Şehir başına dönem kaynağı ve açıklamalar ilgili yerleşimin s: kaynak alanındadır.",
+  "d": "Standart tarih metinlerinde tanıklı gün: 10 Kasım 621 (Jülyen; ganzhi 乙巳). Changsha: Xiao Xian'ın Liang'ı (梁, Jiangling) → Tang Hanedani. Şehir başına dönem kaynağı ve açıklamalar aşağıdadır.",
   "kaynak": "Jiu Tang Shu 56 (Xiao Xian zhuan), zh.wikisource.org/wiki/舊唐書/卷56 ; Jiu Tang Shu 1 (Gaozu ji), zh.wikisource.org/wiki/舊唐書/卷1 ; Jiu Tang Shu 1 (Gaozu ji), zh.wikisource.org/wiki/舊唐書/卷1 ; Jiu Tang Shu 6 (Wu Zetian ji), zh.wikisource.org/wiki/舊唐書/卷6 (standart tarih metinleri, zh.wikisource neşirleri)",
   "gun": "10 Kasım 621 (Jülyen; ganzhi 乙巳)",
   "kesinlik": "gun",
@@ -576,7 +576,7 @@ window.KRONOLOJI_SINIR_CIN_MS317 = [
    "konu-askeri",
    "cin-ms317"
   ],
-  "d": "Standart tarih metinlerinde tanıklı gün: 16 Ekim 690 (Jülyen; ganzhi 壬午). Changsha, Fuzhou, Chang'an (Xi'an): Tang Hanedani → Wu Zhou (Wu Zetian). Şehir başına dönem kaynağı ve açıklamalar ilgili yerleşimin s: kaynak alanındadır.",
+  "d": "Standart tarih metinlerinde tanıklı gün: 16 Ekim 690 (Jülyen; ganzhi 壬午). Changsha, Fuzhou, Chang'an (Xi'an): Tang Hanedani → Wu Zhou (Wu Zetian). Şehir başına dönem kaynağı ve açıklamalar aşağıdadır.",
   "kaynak": "Jiu Tang Shu 1 (Gaozu ji), zh.wikisource.org/wiki/舊唐書/卷1 ; Jiu Tang Shu 6 (Wu Zetian ji), zh.wikisource.org/wiki/舊唐書/卷6 ; Jiu Tang Shu 6 (Wu Zetian ji), zh.wikisource.org/wiki/舊唐書/卷6 ; Jiu Tang Shu 7 (Zhongzong ji), zh.wikisource.org/wiki/舊唐書/卷7 ; Jiu Tang Shu 40 (Dili zhi) https://zh.wikisource.org/wiki/舊唐書/卷40 ; Xin Tang Shu 41 https://zh.wikisource.org/wiki/新唐書/卷041 ; Jiu Tang Shu 6 (Wu hou) ; Jiu Tang Shu 6 ; Jiu Tang Shu 7 (Zhong zong) https://zh.wikisource.org/wiki/舊唐書/卷7 ; Jiu Tang shu 1 · Jiu Tang shu 6 (舊唐書/卷6) ; Jiu Tang shu 6 · Jiu Tang shu 7 (舊唐書/卷7) (standart tarih metinleri, zh.wikisource neşirleri)",
   "gun": "16 Ekim 690 (Jülyen; ganzhi 壬午)",
   "kesinlik": "gun",
@@ -603,7 +603,7 @@ window.KRONOLOJI_SINIR_CIN_MS317 = [
    "konu-askeri",
    "cin-ms317"
   ],
-  "d": "Standart tarih metinlerinde tanıklı gün: 3 Mart 705 (Jülyen; ganzhi 甲寅). Changsha, Fuzhou, Chang'an (Xi'an): Wu Zhou (Wu Zetian) → Tang Hanedani. Şehir başına dönem kaynağı ve açıklamalar ilgili yerleşimin s: kaynak alanındadır.",
+  "d": "Standart tarih metinlerinde tanıklı gün: 3 Mart 705 (Jülyen; ganzhi 甲寅). Changsha, Fuzhou, Chang'an (Xi'an): Wu Zhou (Wu Zetian) → Tang Hanedani. Şehir başına dönem kaynağı ve açıklamalar aşağıdadır.",
   "kaynak": "Jiu Tang Shu 6 (Wu Zetian ji), zh.wikisource.org/wiki/舊唐書/卷6 ; Jiu Tang Shu 7 (Zhongzong ji), zh.wikisource.org/wiki/舊唐書/卷7 ; Jiu Tang Shu 7 (Zhongzong ji), zh.wikisource.org/wiki/舊唐書/卷7 ; Ouyang Xiu, Xin Wudai Shi 66 (Chu shijia), zh.wikisource.org/wiki/新五代史/卷66 ; Jiu Tang Shu 6 ; Jiu Tang Shu 7 (Zhong zong) https://zh.wikisource.org/wiki/舊唐書/卷7 ; Xin Wudai Shi 68 (Min shijia) https://zh.wikisource.org/wiki/新五代史/卷68 ; Jiu Tang shu 6 · Jiu Tang shu 7 (舊唐書/卷7) ; Jiu Tang shu 7 · Jiu Tang shu 9 (舊唐書/卷9) (standart tarih metinleri, zh.wikisource neşirleri)",
   "gun": "3 Mart 705 (Jülyen; ganzhi 甲寅)",
   "kesinlik": "gun",
@@ -630,7 +630,7 @@ window.KRONOLOJI_SINIR_CIN_MS317 = [
    "konu-askeri",
    "cin-ms317"
   ],
-  "d": "Standart tarih metinlerinde tanıklı gün: 14 Temmuz 756 (Jülyen; ganzhi 乙未). Chang'an (Xi'an): Tang Hanedani → an-lushan-yan. Şehir başına dönem kaynağı ve açıklamalar ilgili yerleşimin s: kaynak alanındadır.",
+  "d": "Standart tarih metinlerinde tanıklı gün: 14 Temmuz 756 (Jülyen; ganzhi 乙未). Chang'an (Xi'an): Tang Hanedani → an-lushan-yan. Şehir başına dönem kaynağı ve açıklamalar aşağıdadır.",
   "kaynak": "Jiu Tang shu 7 · Jiu Tang shu 9 (舊唐書/卷9) ; ZZTJ 218 (資治通鑑/卷218) · Jiu Tang shu 10 (舊唐書/卷10) (standart tarih metinleri, zh.wikisource neşirleri)",
   "gun": "14 Temmuz 756 (Jülyen; ganzhi 乙未)",
   "kesinlik": "gun",
@@ -657,7 +657,7 @@ window.KRONOLOJI_SINIR_CIN_MS317 = [
    "konu-askeri",
    "cin-ms317"
   ],
-  "d": "Standart tarih metinlerinde tanıklı gün: 14 Kasım 757 (Jülyen; ganzhi 癸卯). Chang'an (Xi'an): an-lushan-yan → Tang Hanedani. Şehir başına dönem kaynağı ve açıklamalar ilgili yerleşimin s: kaynak alanındadır.",
+  "d": "Standart tarih metinlerinde tanıklı gün: 14 Kasım 757 (Jülyen; ganzhi 癸卯). Chang'an (Xi'an): an-lushan-yan → Tang Hanedani. Şehir başına dönem kaynağı ve açıklamalar aşağıdadır.",
   "kaynak": "ZZTJ 218 (資治通鑑/卷218) · Jiu Tang shu 10 (舊唐書/卷10) ; Jiu Tang shu 10 · Jiu Tang shu 200下 (standart tarih metinleri, zh.wikisource neşirleri)",
   "gun": "14 Kasım 757 (Jülyen; ganzhi 癸卯)",
   "kesinlik": "gun",
@@ -684,7 +684,7 @@ window.KRONOLOJI_SINIR_CIN_MS317 = [
    "konu-askeri",
    "cin-ms317"
   ],
-  "d": "Standart tarih metinlerinde tanıklı gün: 8 Ocak 881 (Jülyen; ganzhi 甲申). Chang'an (Xi'an): Tang Hanedani → Büyük Qi (大齊, Huang Chao). Şehir başına dönem kaynağı ve açıklamalar ilgili yerleşimin s: kaynak alanındadır.",
+  "d": "Standart tarih metinlerinde tanıklı gün: 8 Ocak 881 (Jülyen; ganzhi 甲申). Chang'an (Xi'an): Tang Hanedani → Büyük Qi (大齊, Huang Chao). Şehir başına dönem kaynağı ve açıklamalar aşağıdadır.",
   "kaynak": "Jiu Tang shu 10 · Jiu Tang shu 200下 ; Jiu Tang shu 200下 · Xin Tang shu 9 (新唐書/卷009) (standart tarih metinleri, zh.wikisource neşirleri)",
   "gun": "8 Ocak 881 (Jülyen; ganzhi 甲申)",
   "kesinlik": "gun",
@@ -711,7 +711,7 @@ window.KRONOLOJI_SINIR_CIN_MS317 = [
    "konu-askeri",
    "cin-ms317"
   ],
-  "d": "Standart tarih metinlerinde tanıklı gün: 20 Mayıs 883 (Jülyen; ganzhi 丙午). Chang'an (Xi'an): Büyük Qi (大齊, Huang Chao) → Tang Hanedani. Şehir başına dönem kaynağı ve açıklamalar ilgili yerleşimin s: kaynak alanındadır.",
+  "d": "Standart tarih metinlerinde tanıklı gün: 20 Mayıs 883 (Jülyen; ganzhi 丙午). Chang'an (Xi'an): Büyük Qi (大齊, Huang Chao) → Tang Hanedani. Şehir başına dönem kaynağı ve açıklamalar aşağıdadır.",
   "kaynak": "Jiu Tang shu 200下 · Xin Tang shu 9 (新唐書/卷009) ; Xin Tang shu 10 (新唐書/卷010) · Xin Wudai shi 2 (新五代史/卷02) (standart tarih metinleri, zh.wikisource neşirleri)",
   "gun": "20 Mayıs 883 (Jülyen; ganzhi 丙午)",
   "kesinlik": "gun",
@@ -738,7 +738,7 @@ window.KRONOLOJI_SINIR_CIN_MS317 = [
    "konu-askeri",
    "cin-ms317"
   ],
-  "d": "Standart tarih metinlerinde tanıklı gün: 892. Fuzhou: Tang Hanedani → Min Krallığı. Şehir başına dönem kaynağı ve açıklamalar ilgili yerleşimin s: kaynak alanındadır.",
+  "d": "Standart tarih metinlerinde tanıklı gün: 892. Fuzhou: Tang Hanedani → Min Krallığı. Şehir başına dönem kaynağı ve açıklamalar aşağıdadır.",
   "kaynak": "Xin Wudai Shi 68 (Min shijia) https://zh.wikisource.org/wiki/新五代史/卷68 ; Xin Wudai Shi 68 https://zh.wikisource.org/wiki/新五代史/卷68 ; Xin Wudai Shi 62 (Nan Tang shijia) https://zh.wikisource.org/wiki/新五代史/卷62 (standart tarih metinleri, zh.wikisource neşirleri)",
   "gun": "892",
   "kesinlik": "yil",
@@ -764,7 +764,7 @@ window.KRONOLOJI_SINIR_CIN_MS317 = [
    "konu-askeri",
    "cin-ms317"
   ],
-  "d": "Standart tarih metinlerinde tanıklı gün: 894. Changsha: Tang Hanedani → Chu (Ma Chu) Krallığı. Şehir başına dönem kaynağı ve açıklamalar ilgili yerleşimin s: kaynak alanındadır.",
+  "d": "Standart tarih metinlerinde tanıklı gün: 894. Changsha: Tang Hanedani → Chu (Ma Chu) Krallığı. Şehir başına dönem kaynağı ve açıklamalar aşağıdadır.",
   "kaynak": "Jiu Tang Shu 7 (Zhongzong ji), zh.wikisource.org/wiki/舊唐書/卷7 ; Ouyang Xiu, Xin Wudai Shi 66 (Chu shijia), zh.wikisource.org/wiki/新五代史/卷66 ; Ouyang Xiu, Xin Wudai Shi 66 (Chu shijia), zh.wikisource.org/wiki/新五代史/卷66 ; Sima Guang, Zizhi Tongjian 259, zh.wikisource.org/wiki/資治通鑑/卷259 ; Sima Guang, Zizhi Tongjian 276, zh.wikisource.org/wiki/資治通鑑/卷276 (standart tarih metinleri, zh.wikisource neşirleri)",
   "gun": "894",
   "kesinlik": "yil",
@@ -790,7 +790,7 @@ window.KRONOLOJI_SINIR_CIN_MS317 = [
    "konu-askeri",
    "cin-ms317"
   ],
-  "d": "Standart tarih metinlerinde tanıklı gün: 902. Nanjing (Jiankang): Tang Hanedani → Wu (Yang Wu) Krallığı. Şehir başına dönem kaynağı ve açıklamalar ilgili yerleşimin s: kaynak alanındadır.",
+  "d": "Standart tarih metinlerinde tanıklı gün: 902. Nanjing (Jiankang): Tang Hanedani → Wu (Yang Wu) Krallığı. Şehir başına dönem kaynağı ve açıklamalar aşağıdadır.",
   "kaynak": "舊唐書 卷40 地理志三, https://zh.wikisource.org/wiki/舊唐書/卷40; 舊唐書 卷1 高祖紀, https://zh.wikisource.org/wiki/舊唐書/卷1; 新五代史 卷61 吳世家, https://zh.wikisource.org/wiki/新五代史/卷61 ; 資治通鑑 卷263 (Sima Guang, 1084), https://zh.wikisource.org/wiki/資治通鑑/卷263; 新五代史 卷61 吳世家, https://zh.wikisource.org/wiki/新五代史/卷61; 資治通鑑 卷281 (Sima Guang, 1084), https://zh.wikisource.org/wiki/資治通鑑/卷281 (standart tarih metinleri, zh.wikisource neşirleri)",
   "gun": "902",
   "kesinlik": "yil",
@@ -816,7 +816,7 @@ window.KRONOLOJI_SINIR_CIN_MS317 = [
    "konu-askeri",
    "cin-ms317"
   ],
-  "d": "Standart tarih metinlerinde tanıklı gün: 1 Haziran 907 (Jülyen; ganzhi 甲子). Chang'an (Xi'an): Tang Hanedani → Sonraki Liang (Bes Hanedan). Şehir başına dönem kaynağı ve açıklamalar ilgili yerleşimin s: kaynak alanındadır.",
+  "d": "Standart tarih metinlerinde tanıklı gün: 1 Haziran 907 (Jülyen; ganzhi 甲子). Chang'an (Xi'an): Tang Hanedani → Sonraki Liang (Bes Hanedan). Şehir başına dönem kaynağı ve açıklamalar aşağıdadır.",
   "kaynak": "Xin Tang shu 10 (新唐書/卷010) · Xin Wudai shi 2 (新五代史/卷02) ; Xin Wudai shi 2 · Xin Wudai shi 60 (新五代史/卷60) · ZZTJ 266/267/272 (standart tarih metinleri, zh.wikisource neşirleri)",
   "gun": "1 Haziran 907 (Jülyen; ganzhi 甲子)",
   "kesinlik": "gun",
@@ -843,7 +843,7 @@ window.KRONOLOJI_SINIR_CIN_MS317 = [
    "konu-askeri",
    "cin-ms317"
   ],
-  "d": "Standart tarih metinlerinde tanıklı gün: 31 Aralık 923 (Jülyen; ganzhi 辛酉). Chang'an (Xi'an): Sonraki Liang (Bes Hanedan) → Sonraki Tang (Shatuo, Bes Hanedan). Şehir başına dönem kaynağı ve açıklamalar ilgili yerleşimin s: kaynak alanındadır.",
+  "d": "Standart tarih metinlerinde tanıklı gün: 31 Aralık 923 (Jülyen; ganzhi 辛酉). Chang'an (Xi'an): Sonraki Liang (Bes Hanedan) → Sonraki Tang (Shatuo, Bes Hanedan). Şehir başına dönem kaynağı ve açıklamalar aşağıdadır.",
   "kaynak": "Xin Wudai shi 2 · Xin Wudai shi 60 (新五代史/卷60) · ZZTJ 266/267/272 ; ZZTJ 272 · Xin Wudai shi 60 · Xin Wudai shi 7 (新五代史/卷7) (standart tarih metinleri, zh.wikisource neşirleri)",
   "gun": "31 Aralık 923 (Jülyen; ganzhi 辛酉)",
   "kesinlik": "gun",
@@ -870,7 +870,7 @@ window.KRONOLOJI_SINIR_CIN_MS317 = [
    "konu-askeri",
    "cin-ms317"
   ],
-  "d": "Standart tarih metinlerinde tanıklı gün: 11 Ocak 937 (Jülyen; ganzhi 辛巳). Chang'an (Xi'an): Sonraki Tang (Shatuo, Bes Hanedan) → Sonraki Jin (Shatuo, Bes Hanedan). Şehir başına dönem kaynağı ve açıklamalar ilgili yerleşimin s: kaynak alanındadır.",
+  "d": "Standart tarih metinlerinde tanıklı gün: 11 Ocak 937 (Jülyen; ganzhi 辛巳). Chang'an (Xi'an): Sonraki Tang (Shatuo, Bes Hanedan) → Sonraki Jin (Shatuo, Bes Hanedan). Şehir başına dönem kaynağı ve açıklamalar aşağıdadır.",
   "kaynak": "ZZTJ 272 · Xin Wudai shi 60 · Xin Wudai shi 7 (新五代史/卷7) ; Xin Wudai shi 60 · Xin Wudai shi 8 (新五代史/卷08) · Jiu Wudai shi 99 (standart tarih metinleri, zh.wikisource neşirleri)",
   "gun": "11 Ocak 937 (Jülyen; ganzhi 辛巳)",
   "kesinlik": "gun",
@@ -897,7 +897,7 @@ window.KRONOLOJI_SINIR_CIN_MS317 = [
    "konu-askeri",
    "cin-ms317"
   ],
-  "d": "Standart tarih metinlerinde tanıklı gün: Ağustos 946 (Jülyen; ay hassasiyeti; gün 30 kaynaktaki ay-günden). Fuzhou: Min Krallığı → Weiwu Ordusu Rejimi (威武軍; Li Rengda, Fuzhou). Şehir başına dönem kaynağı ve açıklamalar ilgili yerleşimin s: kaynak alanındadır.",
+  "d": "Standart tarih metinlerinde tanıklı gün: Ağustos 946 (Jülyen; ay hassasiyeti; gün 30 kaynaktaki ay-günden). Fuzhou: Min Krallığı → Weiwu Ordusu Rejimi (威武軍; Li Rengda, Fuzhou). Şehir başına dönem kaynağı ve açıklamalar aşağıdadır.",
   "kaynak": "Xin Wudai Shi 68 https://zh.wikisource.org/wiki/新五代史/卷68 ; Xin Wudai Shi 62 (Nan Tang shijia) https://zh.wikisource.org/wiki/新五代史/卷62 ; Xin Wudai Shi 62 (Nan Tang shijia); Xin Wudai Shi 68 (Min shijia); Xin Wudai Shi 67 (Wuyue shijia) (standart tarih metinleri, zh.wikisource neşirleri)",
   "gun": "Ağustos 946 (Jülyen; ay hassasiyeti; gün 30 kaynaktaki ay-günden)",
   "kesinlik": "ay",
@@ -923,7 +923,7 @@ window.KRONOLOJI_SINIR_CIN_MS317 = [
    "konu-askeri",
    "cin-ms317"
   ],
-  "d": "Standart tarih metinlerinde tanıklı gün: 947. Fuzhou: Weiwu Ordusu Rejimi (威武軍; Li Rengda, Fuzhou) → Wuyue Krallığı. Şehir başına dönem kaynağı ve açıklamalar ilgili yerleşimin s: kaynak alanındadır.",
+  "d": "Standart tarih metinlerinde tanıklı gün: 947. Fuzhou: Weiwu Ordusu Rejimi (威武軍; Li Rengda, Fuzhou) → Wuyue Krallığı. Şehir başına dönem kaynağı ve açıklamalar aşağıdadır.",
   "kaynak": "Xin Wudai Shi 62 (Nan Tang shijia); Xin Wudai Shi 68 (Min shijia); Xin Wudai Shi 67 (Wuyue shijia) ; Xin Wudai Shi 67 (Wuyue shijia) https://zh.wikisource.org/wiki/新五代史/卷67 ; Song Shi 480 https://zh.wikisource.org/wiki/宋史/卷480 ; Song Shi 4 https://zh.wikisource.org/wiki/宋史/卷4 (standart tarih metinleri, zh.wikisource neşirleri)",
   "gun": "947",
   "kesinlik": "yil",
@@ -949,7 +949,7 @@ window.KRONOLOJI_SINIR_CIN_MS317 = [
    "konu-askeri",
    "cin-ms317"
   ],
-  "d": "Standart tarih metinlerinde tanıklı gün: 10 Mart 947 (Jülyen; ganzhi 辛未). Chang'an (Xi'an): Sonraki Jin (Shatuo, Bes Hanedan) → Sonraki Han (Shatuo, Bes Hanedan). Şehir başına dönem kaynağı ve açıklamalar ilgili yerleşimin s: kaynak alanındadır.",
+  "d": "Standart tarih metinlerinde tanıklı gün: 10 Mart 947 (Jülyen; ganzhi 辛未). Chang'an (Xi'an): Sonraki Jin (Shatuo, Bes Hanedan) → Sonraki Han (Shatuo, Bes Hanedan). Şehir başına dönem kaynağı ve açıklamalar aşağıdadır.",
   "kaynak": "Xin Wudai shi 60 · Xin Wudai shi 8 (新五代史/卷08) · Jiu Wudai shi 99 ; Xin Wudai shi 60 · Xin Wudai shi 10 (新五代史/卷10) · Jiu Wudai shi 100 (standart tarih metinleri, zh.wikisource neşirleri)",
   "gun": "10 Mart 947 (Jülyen; ganzhi 辛未)",
   "kesinlik": "gun",
@@ -976,7 +976,7 @@ window.KRONOLOJI_SINIR_CIN_MS317 = [
    "konu-askeri",
    "cin-ms317"
   ],
-  "d": "Standart tarih metinlerinde tanıklı gün: 13 Şubat 951 (Jülyen; ganzhi 丁卯). Chang'an (Xi'an): Sonraki Han (Shatuo, Bes Hanedan) → Sonraki Zhou (Bes Hanedan). Şehir başına dönem kaynağı ve açıklamalar ilgili yerleşimin s: kaynak alanındadır.",
+  "d": "Standart tarih metinlerinde tanıklı gün: 13 Şubat 951 (Jülyen; ganzhi 丁卯). Chang'an (Xi'an): Sonraki Han (Shatuo, Bes Hanedan) → Sonraki Zhou (Bes Hanedan). Şehir başına dönem kaynağı ve açıklamalar aşağıdadır.",
   "kaynak": "Xin Wudai shi 60 · Xin Wudai shi 10 (新五代史/卷10) · Jiu Wudai shi 100 ; Xin Wudai shi 60 · Xin Wudai shi 11 · Song shi 1 (宋史/卷1) (standart tarih metinleri, zh.wikisource neşirleri)",
   "gun": "13 Şubat 951 (Jülyen; ganzhi 丁卯)",
   "kesinlik": "gun",
@@ -1003,7 +1003,7 @@ window.KRONOLOJI_SINIR_CIN_MS317 = [
    "konu-askeri",
    "cin-ms317"
   ],
-  "d": "Standart tarih metinlerinde tanıklı gün: 17 Kasım 951 (Jülyen; ganzhi 甲辰). Changsha: Chu (Ma Chu) Krallığı → Güney Tang (Nan Tang) Krallığı. Şehir başına dönem kaynağı ve açıklamalar ilgili yerleşimin s: kaynak alanındadır.",
+  "d": "Standart tarih metinlerinde tanıklı gün: 17 Kasım 951 (Jülyen; ganzhi 甲辰). Changsha: Chu (Ma Chu) Krallığı → Güney Tang (Nan Tang) Krallığı. Şehir başına dönem kaynağı ve açıklamalar aşağıdadır.",
   "kaynak": "Ouyang Xiu, Xin Wudai Shi 66 (Chu shijia), zh.wikisource.org/wiki/新五代史/卷66 ; Sima Guang, Zizhi Tongjian 259, zh.wikisource.org/wiki/資治通鑑/卷259 ; Sima Guang, Zizhi Tongjian 276, zh.wikisource.org/wiki/資治通鑑/卷276 ; Sima Guang, Zizhi Tongjian 290, zh.wikisource.org/wiki/資治通鑑/卷290 ; Ouyang Xiu, Xin Wudai Shi 66 (Chu shijia), zh.wikisource.org/wiki/新五代史/卷66 ; Sima Guang, Zizhi Tongjian 291, zh.wikisource.org/wiki/資治通鑑/卷291 (standart tarih metinleri, zh.wikisource neşirleri)",
   "gun": "17 Kasım 951 (Jülyen; ganzhi 甲辰)",
   "kesinlik": "gun",
@@ -1030,7 +1030,7 @@ window.KRONOLOJI_SINIR_CIN_MS317 = [
    "konu-askeri",
    "cin-ms317"
   ],
-  "d": "Standart tarih metinlerinde tanıklı gün: 4 Kasım 952 (Jülyen; ganzhi 丁酉). Changsha: Güney Tang (Nan Tang) Krallığı → Hunan Wuping Rejimi (武平軍; Wang Kui – Zhou Xingfeng). Şehir başına dönem kaynağı ve açıklamalar ilgili yerleşimin s: kaynak alanındadır.",
+  "d": "Standart tarih metinlerinde tanıklı gün: 4 Kasım 952 (Jülyen; ganzhi 丁酉). Changsha: Güney Tang (Nan Tang) Krallığı → Hunan Wuping Rejimi (武平軍; Wang Kui – Zhou Xingfeng). Şehir başına dönem kaynağı ve açıklamalar aşağıdadır.",
   "kaynak": "Sima Guang, Zizhi Tongjian 290, zh.wikisource.org/wiki/資治通鑑/卷290 ; Ouyang Xiu, Xin Wudai Shi 66 (Chu shijia), zh.wikisource.org/wiki/新五代史/卷66 ; Sima Guang, Zizhi Tongjian 291, zh.wikisource.org/wiki/資治通鑑/卷291 ; Sima Guang, Zizhi Tongjian 291, zh.wikisource.org/wiki/資治通鑑/卷291 ; Ouyang Xiu, Xin Wudai Shi 66 (Chu shijia), zh.wikisource.org/wiki/新五代史/卷66 ; Song Shi 1 (Taizu ji 1), zh.wikisource.org/wiki/宋史/卷001 (standart tarih metinleri, zh.wikisource neşirleri)",
   "gun": "4 Kasım 952 (Jülyen; ganzhi 丁酉)",
   "kesinlik": "gun",
@@ -1057,7 +1057,7 @@ window.KRONOLOJI_SINIR_CIN_MS317 = [
    "konu-askeri",
    "cin-ms317"
   ],
-  "d": "Standart tarih metinlerinde tanıklı gün: 10 Mart 963 (Jülyen; ganzhi 乙未). Changsha: Hunan Wuping Rejimi (武平軍; Wang Kui – Zhou Xingfeng) → Song Hanedanı (Çin). Şehir başına dönem kaynağı ve açıklamalar ilgili yerleşimin s: kaynak alanındadır.",
+  "d": "Standart tarih metinlerinde tanıklı gün: 10 Mart 963 (Jülyen; ganzhi 乙未). Changsha: Hunan Wuping Rejimi (武平軍; Wang Kui – Zhou Xingfeng) → Song Hanedanı (Çin). Şehir başına dönem kaynağı ve açıklamalar aşağıdadır.",
   "kaynak": "Sima Guang, Zizhi Tongjian 291, zh.wikisource.org/wiki/資治通鑑/卷291 ; Ouyang Xiu, Xin Wudai Shi 66 (Chu shijia), zh.wikisource.org/wiki/新五代史/卷66 ; Song Shi 1 (Taizu ji 1), zh.wikisource.org/wiki/宋史/卷001 (standart tarih metinleri, zh.wikisource neşirleri)",
   "gun": "10 Mart 963 (Jülyen; ganzhi 乙未)",
   "kesinlik": "gun",

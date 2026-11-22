@@ -1014,6 +1014,8 @@ Ceviri.ekle("de","arayuz",{
 "Menzil yolları (#–#)":["Poststraßen (#–#)", "6de47dd2"],
 "Metin (detay)":["Text (Detail)", "47a9253c"],
 "Meydan savaşı":["Feldschlacht", "cc1a62c9"],
+"Milattan sonra (#)":["n. Chr. (#)", "50076066"],
+"Milattan önce (#)":["v. Chr. (#)", "acc4a82e"],
 "Milattan önce için eksi ya da MÖ yazın: -# · MÖ # · -#. # milada (MS #) götürür.":["Für Daten v. Chr. ein Minuszeichen oder v. Chr. eingeben: -# · # v. Chr. · -#. # führt zum Beginn der Zeitrechnung (# n. Chr.).", "c1a52c5e"],
 "Mirasla alındı":["Durch Erbschaft erworben", "0c1b6da3"],
 "Motor tanı hatları":["Diagnoselinien der Engine", "23a0ce35"],

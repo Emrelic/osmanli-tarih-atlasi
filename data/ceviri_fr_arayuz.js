@@ -1057,6 +1057,8 @@ Ceviri.ekle("fr","arayuz",{
 "Menzil yolları (#–#)":["Routes de poste (#–#)", "6de47dd2"],
 "Metin (detay)":["Texte (détail)", "47a9253c"],
 "Meydan savaşı":["Bataille rangée", "cc1a62c9"],
+"Milattan sonra (#)":["apr. J.-C. (#)", "50076066"],
+"Milattan önce (#)":["av. J.-C. (#)", "acc4a82e"],
 "Milattan önce için eksi ya da MÖ yazın: -# · MÖ # · -#. # milada (MS #) götürür.":["Pour les dates av. J.-C., tapez un signe moins ou av. J.-C. : -# · # av. J.-C. · -#. # mène au début de l'ère (# apr. J.-C.).", "c1a52c5e"],
 "Mirasla alındı":["Obtenu par héritage", "0c1b6da3"],
 "Motor tanı hatları":["Lignes de diagnostic du moteur", "23a0ce35"],

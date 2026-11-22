@@ -1040,6 +1040,8 @@ Ceviri.ekle("es","arayuz",{
 "Menzil yolları (#–#)":["Rutas de postas (#–#)", "6de47dd2"],
 "Metin (detay)":["Texto (detalle)", "47a9253c"],
 "Meydan savaşı":["Batalla campal", "cc1a62c9"],
+"Milattan sonra (#)":["d. C. (#)", "50076066"],
+"Milattan önce (#)":["a. C. (#)", "acc4a82e"],
 "Milattan önce için eksi ya da MÖ yazın: -# · MÖ # · -#. # milada (MS #) götürür.":["Para fechas a. C. escriba un signo menos o a. C.: -# · # a. C. · -#. # lleva al inicio de la era (# d. C.).", "c1a52c5e"],
 "Mirasla alındı":["Adquirido por herencia", "0c1b6da3"],
 "Motor tanı hatları":["Líneas de diagnóstico del motor", "23a0ce35"],

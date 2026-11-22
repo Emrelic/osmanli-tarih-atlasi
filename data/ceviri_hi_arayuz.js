@@ -992,6 +992,8 @@ Ceviri.ekle("hi","arayuz",{
 "Menzil yolları (#–#)":["डाक मार्ग (#–#)", "6de47dd2"],
 "Metin (detay)":["पाठ (विवरण)", "47a9253c"],
 "Meydan savaşı":["खुली लड़ाई", "cc1a62c9"],
+"Milattan sonra (#)":["ईसवी (#)", "50076066"],
+"Milattan önce (#)":["ईसा पूर्व (#)", "acc4a82e"],
 "Milattan önce için eksi ya da MÖ yazın: -# · MÖ # · -#. # milada (MS #) götürür.":["ई.पू. के लिए ऋण चिह्न या MÖ लिखें: -# · MÖ # · -#. # ईस्वी (MS #) पर ले जाता है।", "c1a52c5e"],
 "Mirasla alındı":["विरासत में मिला", "0c1b6da3"],
 "Motor tanı hatları":["इंजन निदान रेखाएँ", "23a0ce35"],

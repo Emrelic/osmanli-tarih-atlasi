@@ -990,6 +990,8 @@ Ceviri.ekle("id","arayuz",{
 "Menzil yolları (#–#)":["Jalur rute (#–#)", "6de47dd2"],
 "Metin (detay)":["Teks (rincian)", "47a9253c"],
 "Meydan savaşı":["Pertempuran terbuka", "cc1a62c9"],
+"Milattan sonra (#)":["Masehi (#)", "50076066"],
+"Milattan önce (#)":["Sebelum Masehi (#)", "acc4a82e"],
 "Milattan önce için eksi ya da MÖ yazın: -# · MÖ # · -#. # milada (MS #) götürür.":["Untuk sebelum Masehi tulis minus atau SM: -# · SM # · -#. # membawa ke awal Masehi (M #).", "c1a52c5e"],
 "Mirasla alındı":["Diperoleh melalui warisan", "0c1b6da3"],
 "Motor tanı hatları":["Garis diagnosis mesin", "23a0ce35"],

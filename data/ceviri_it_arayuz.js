@@ -990,6 +990,8 @@ Ceviri.ekle("it","arayuz",{
 "Menzil yolları (#–#)":["Strade di posta (#–#)", "6de47dd2"],
 "Metin (detay)":["Testo (dettaglio)", "47a9253c"],
 "Meydan savaşı":["Battaglia campale", "cc1a62c9"],
+"Milattan sonra (#)":["d.C. (#)", "50076066"],
+"Milattan önce (#)":["a.C. (#)", "acc4a82e"],
 "Milattan önce için eksi ya da MÖ yazın: -# · MÖ # · -#. # milada (MS #) götürür.":["Per l'era prima di Cristo scrivi meno o a.C.: -# · # a.C. · -#. # porta all'era volgare (d.C. #).", "c1a52c5e"],
 "Mirasla alındı":["Ottenuto per eredità", "0c1b6da3"],
 "Motor tanı hatları":["Linee diagnostiche del motore", "23a0ce35"],

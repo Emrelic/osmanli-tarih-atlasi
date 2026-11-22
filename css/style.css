@@ -2662,6 +2662,14 @@ span.ob-madde-gorsel-kaynak { color: #6b5a33; border-bottom: none; font-style: i
 }
 .dz-arama:focus { outline: none; border-color: #8a6d2f; background: #fff; }
 
+.dz-acilir { cursor: pointer; user-select: none; }
+.dz-acilir::before { content: "\25BE  "; }
+.dz-acilir.dz-kapali::before { content: "\25B8  "; }
+@media (max-width: 600px) {
+  .dz-satir { grid-template-columns: 92px 1fr; }
+  .dz-satir .dz-sag { grid-column: 1 / -1; text-align: left; max-width: none; }
+  #dizin-sekmeler button { padding: 6px 9px; }
+}
 /* dar ekran */
 @media (max-width: 900px) {
   #govde { flex-direction: column; }
