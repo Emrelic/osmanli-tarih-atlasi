@@ -30,6 +30,26 @@ Avrupa kutusu (34–72K, -12–60D) = 2162 yerleşim noktası. **1280-01-01'de s
 `f` = max(devlet.f, kuruluş); tutmuyorsa o günün gerçek sahibi) — toplu iş, DEVLET × BÖLGE gruplarıyla; (B) 169 pencere-sız + 76 boşluk;
 (C) seyrek karelere yeni nokta. Her grubun kaynağı grup düzeyinde yazılır (hangi devlet, hangi bölge, 1280 civarı siyasî harita kaynağı).
 
+## 0c. KAPSAM GENİŞLEDİ — Asya, Afrika, Amerika da (Emre, 22 Kasım, öğleden sonra)
+Emre: "Asya, Afrika, Amerika için de geçerli. Tarihin belli bir döneminde eskide kayıt yok ya da sınırlı; ama belli bir dönemden SONRA oluşan
+boşlukları araştırıp kapatmalıyız. Bir bölge boşsa ya yerleşim haritaya konmamıştır, ya yerleşimin sahipliği yapılmamıştır, ya kronoloji maddesi eksiktir."
+⇒ ÜÇ NEDEN (her boş kare bunlardan biri): ① NOKTA-YOK · ② SAHİPSİZ (nokta var, o güne penceresi yok) · ③ KRONOLOJİ EKSİĞİ.
+Aracı: `py arac/bosluk_sinif.py [--gun G ...] [--liste]` (DEM gerekir; ölçüm: `denetim/BOSLUK-1280-AVRUPA/SINIF-*.txt`).
+ÖLÇÜM (5° kare, atlas DEM kutusu; Amerika bu DEM kutusunda YOK → `yukseklik_indir.py --dunya` ile ölç):
+| gün | ① nokta-yok | ② sahipsiz | OK |
+|---|---|---|---|
+| 1280 | 122 | 102 | 215 / 439 |
+| 1300 | 125 | 6 | 308 |
+| 1500 | 115 | 6 | 318 |
+| 1700 | 76 | 4 | 359 |
+| 1900 | 65 | 0 | 374 |
+Okuma: ② (sahipsizlik) 1281 ÖNCESİ bir sorundur (≈100 kare; "ilk pencere 1281-01-01" yüzünden) — 1300'den sonra neredeyse yok.
+1281 SONRASI asıl boşluk ① NOKTA-YOK'tur: 1500'de 115 kare (Asya 97, Afrika 13, Avrupa 4, Okyanusya 1). Emre'nin "belli dönemden sonra"
+vurgusu bu: kaynakları zengin çağda (1281-1923) ① kareleri önce kapatılır; 1281 öncesi ② ise 0b'deki yöntemle.
+③ kronoloji eksiği Değişmez 2 (0 açık) + devlet başına kronoloji yoğunluğuyla ayrıca ölçülür.
+ÖNCELİK SIRASI (yeni): (1) 1281 sonrası ① NOKTA-YOK kareleri, kıta kıta, 1500 ve 1700 günlerinde; (2) kareye yeni nokta ekleyince ② ve ③'ü birlikte
+çöz: nokta + sahiplik penceresi + devlet kronolojisinde madde; (3) 1281 öncesi ② (Avrupa işi: 0b). Amerika: önce ölçüm.
+
 ## 1. Ölçüm (ilk adım — HAVVA ya da DEM'i olan makine)
 - `py arac/bosluk_haritasi.py --gun 1280-01-01` (ve 1200-01-01, 1100-01-01, 1000-01-01, 1281-01-01, 1288-01-01):
   Avrupa kutusu 34–72K, -12–60D. DEM yoksa `py arac/yukseklik_indir.py --dunya`.
