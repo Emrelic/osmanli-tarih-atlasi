@@ -17744,6 +17744,40 @@ function enYakinOlayBul(gi) {
     // ARAYUZ-0077 H-0034: uzak tarihe sıçrama da ağır adımdır — göstergeyle koşar.
     if (e.key === "Enter") { agirAdim(e, calistir); e.preventDefault(); }
   });
+  // 22 Kasım 2026 — Emre (telefon): "tarihe git ve şehir yaz git TEK textbox olsun; tarih yazılırsa
+  // tarihe, şehir yazılırsa şehre gitsin." Dokunmatik cihazda tarih kutusu CSS ile gizlenir; şehir
+  // kutusu (#yer-ara-giris) tek kutudur: içinde RAKAM varsa Enter tarihe gider (yukarıdaki
+  // calistir), yoksa şehir listesi çalışır (yerAraKur). Masaüstünde iki kutu aynen kalır.
+  try {
+    var tek = document.getElementById("yer-ara-giris");
+    if (tek && window.matchMedia && window.matchMedia("(pointer: coarse)").matches) {
+      var ilkIpucu = tek.placeholder;
+      tek.placeholder = "tarihe ya da şehre git";
+      tek.addEventListener("keydown", function (e) {
+        if (e.key !== "Enter" || !/\d/.test(tek.value)) return;
+        e.stopImmediatePropagation(); e.preventDefault();
+        giris.value = tek.value;
+        agirAdim(e, calistir);
+        tek.value = ""; tek.blur();
+        var m = durum.textContent || "";
+        if (m) { tek.placeholder = m; setTimeout(function () { tek.placeholder = "tarihe ya da şehre git"; }, 7000); }
+      }, true);
+    }
+  } catch (e) { /* tek kutu kurulamadı: iki kutu kalır */ }
+})();
+
+// 22 Kasım 2026 — Emre (telefon): "olay olay ve oynatma hızı butonlar bölümüne." Dokunmatik cihazda
+// akış kipi + hız seçicileri ☰ Butonlar penceresine taşınır (id'ler aynı: app.js id ile buluyor).
+(function telefonAkisMenuye() {
+  try {
+    if (!window.matchMedia || !window.matchMedia("(pointer: coarse)").matches) return;
+    var menu = document.getElementById("menu-butonlar");
+    if (!menu) return;
+    ["akis-modu", "hiz", "olay-hiz"].forEach(function (id) {
+      var e = document.getElementById(id);
+      if (e) menu.appendChild(e);
+    });
+  } catch (e) { /* taşınamadı: seçiciler oynatma şeridinde kalır */ }
 })();
 
 // Klavye: ←→ gün (Shift: yıl), boşluk oynat/durdur

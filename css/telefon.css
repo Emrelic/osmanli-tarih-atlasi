@@ -67,11 +67,16 @@
         ⏮ ▶ ⏭ · Olay olay · hız · Uçuş ⚙  — altında tarihe git / şehir. */
   #zamanbar { flex-wrap: wrap; gap: 4px; padding: 3px 6px; align-items: center; }
   #zamanbar #zaman-sarmal { display: none; }
+  /* TEK SATIR (Emre 22 Kasım): ⏮ ▶ ⏭ · tek kutu (tarihe ya da şehre git) · Uçuş ⚙.
+     Olay olay + hız seçicileri ☰ Butonlar'a taşındı (js/app.js telefonAkisMenuye). */
+  #zamanbar { flex-wrap: nowrap; }
   #zamanbar > * { order: 0; }
-  #zamanbar #git-grup { order: 1; flex: 1 1 100%; min-width: 0; }
-  /* Birinci satırın üç grubu esnek (taban 0): sığmayınca alt satıra DÜŞMEZ, birlikte daralır. */
-  #zamanbar #ucus-grup { display: flex; gap: 3px; flex: 1.3 1 0; min-width: 0; margin-left: 0; }
-  #zamanbar #ucus-grup select { flex: 1 1 0; min-width: 0; }
+  #zamanbar #git-grup { flex: 1 1 0; min-width: 0; }
+  #zamanbar #tarihe-git-giris, #zamanbar #tarihe-git-durum { display: none; }
+  #zamanbar #yer-ara { flex: 1 1 0; min-width: 0; position: static; }
+  #zamanbar #yer-ara-giris { width: 100%; min-width: 0; text-overflow: ellipsis; }
+  #zamanbar #ucus-grup { display: flex; gap: 3px; flex: 0 0 auto; min-width: 0; margin-left: 0; }
+  #zamanbar #ucus-grup select { flex: 0 1 auto; min-width: 0; max-width: 5.2em; }
   #zamanbar #ucus-grup button { flex: 0 0 auto; }
   /* Açılır kutuların okla yediği yer kısaltılır: metin tam okunsun (dokununca yine açılır). */
   #zamanbar select {
@@ -117,7 +122,8 @@
    ====================================================================== */
 @media (pointer: coarse) and (orientation: portrait) and (max-width: 700px) {
   #govde { flex-direction: column; }
-  #sol-govde { flex: 0 0 46dvh; min-height: 0; }
+  /* 22 Kasım: oynatma şeridi tek satıra indi (−39 px); kazanılan yer haritaya değil kronolojiye. */
+  #sol-govde { flex: 0 0 41dvh; min-height: 0; }
   #yanpanel, #yanpanel.dar {
     flex: 1 1 0; min-height: 0; width: auto;
     border-left: none; border-top: var(--ayirac) solid var(--altin);
