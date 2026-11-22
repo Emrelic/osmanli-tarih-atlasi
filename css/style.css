@@ -434,13 +434,24 @@ body {
 
 /* D sınırı görünüm anahtarı — iki hâlli bir DURUM düğmesi çifti, komut değil:
    hangi hâlin açık olduğu `.etkin` ile görünür (katman düğmeleriyle aynı dil). */
-#d-gorunum-grup {
-  display: flex;
-  align-items: center;
-  gap: 4px;
-  flex: 0 0 auto;
-  align-self: center;   /* bkz. #btn-zoom'daki ölçüm notu */
+/* 22 Kasım 2026 (menü düzeni): D yuvası artık #katman-grup İÇİNDE; satırları (kutu + seçici)
+   katman listesinin `label` kuralını kullanır, yuva yalnız bir kap. */
+#d-gorunum-grup { display: block; }
+/* Menü grupları (Keşfet · Harita gösterimi · Gezinti · Topluluk ve bilgi). */
+.menu-grup {
+  flex: 1 1 100%;
+  display: flex; flex-wrap: wrap; align-items: center; gap: 6px;
+  padding-top: 6px;
+  border-top: 1px solid rgba(247, 241, 227, 0.16);
 }
+.menu-grup:first-of-type { border-top: 0; padding-top: 0; }
+.menu-grup-baslik {
+  flex: 0 0 100%;
+  font-size: 10px; letter-spacing: .5px; text-transform: uppercase;
+  color: rgba(247, 241, 227, 0.55);
+  padding: 0 2px;
+}
+.menu-grup > #katman-grup { flex: 1 1 100%; margin-top: 0; padding-top: 0; border-top: 0; }
 #d-gorunum-grup:empty { display: none; }
 .d-gorunum-baslik {
   color: #e7d3a8;

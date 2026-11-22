@@ -3881,6 +3881,14 @@ harita.on("load", function () {
     '<span><i style="background:linear-gradient(90deg,#8877b8,#4e7d46,#4f7d4f,#b5885b)"></i> Komşu devletler (kendi renkleri)</span>' +
     // ARAYÜZ BOŞLUK CİNSİ — `ad` alanları BOS_CINSLER'den okunuyor, metin
     // burada İKİNCİ KEZ YAZILMIYOR (kopya = bayatlama riski).
+    // 22 Kasım 2026 (Emre: "vassal himaye işgal ve diğer ne kadar işaret varsa hepsinin açıklaması olsun"):
+    // harekât okları ve menzil yolları lejantta HİÇ yoktu. Ok türleri HAREKET'ten (app.js ~6463) okunur —
+    // metin ikinci kez yazılmaz; HAREKET lejant kurulurken henüz atanmadığı için satırlar lejant AÇILINCA dolar.
+    '<div class="lejant-baslik">Harekât okları (Harekât okları kutusu)</div>' +
+    '<div id="lejant-harekat"></div>' +
+    '<div class="lejant-baslik">Menzil yolları (1539–1839)</div>' +
+    '<span><i style="background:none;border-top:3px dotted #c8861a;height:0;align-self:center"></i> Tarihî yol / koridor — ana kol kalın, tali kol ince</span>' +
+    '<span><i class="lj-nokta" style="width:9px;height:9px;background:#fffaf0;border-color:#7a4f0c"></i> Menzil durağı (dolu altın: kaynakla doğrulanmış)</span>' +
     '<div class="lejant-baslik">Boşluğun cinsi</div>' +
     '<span><i class="bosluk-benek-ornek"></i> ' +
       ((window.BOS_CINSLER && window.BOS_CINSLER.kabile) ? window.BOS_CINSLER.kabile.ad : "aşiret / konfederasyon") +
@@ -3980,7 +3988,7 @@ harita.on("load", function () {
     // satırı. Görünürlüğü `kaynakliHalkaAc` yönetir (`el.hidden`); ⑧ KAPALIYKEN
     // haritada halka yok, satır da yok.
     '<div id="lejant-halka" hidden>' +
-      '<div class="lejant-baslik">Kaynaklı sahiplik (⑧)</div>' +
+      '<div class="lejant-baslik">Kaynaklı sahiplik halkaları</div>' +
       '<span><b class="lj-sim lj-halka">◯</b> Kaynakla kesinleşmiş sahiplik (devlet renginde halka) — şehre tıklayınca kaynak ve alıntı</span>' +
     '</div>' +
     '';
@@ -4003,7 +4011,21 @@ harita.on("load", function () {
   lejantKapat.title = "Lejantı gizle (yeniden açmak: ☰ Butonlar → 🗺 Harita işaretleri)";
   lejantKapat.textContent = "×";
   lejant.insertBefore(lejantKapat, lejant.firstChild);
+  function lejantHarekatDoldur() {
+    var kap = document.getElementById("lejant-harekat");
+    if (!kap || kap.childNodes.length || typeof HAREKET === "undefined" || !HAREKET) return;
+    Object.keys(HAREKET).forEach(function (tur) {
+      var h = HAREKET[tur];
+      var sp = document.createElement("span");
+      var g = document.createElement("b");
+      g.className = "lj-sim"; g.textContent = h.glif || "➤";
+      sp.appendChild(g);
+      sp.appendChild(document.createTextNode(" " + (h.ad || tur) + (h.desen ? " (kesikli desen)" : " (düz çizgi)")));
+      kap.appendChild(sp);
+    });
+  }
   function lejantDurum(kapali) {
+    if (!kapali) lejantHarekatDoldur();
     lejant.classList.toggle("kapali", kapali);
     if (lejantDugme) {
       lejantDugme.classList.toggle("etkin", !kapali);
@@ -4023,6 +4045,7 @@ harita.on("load", function () {
   //   işe yaramayan bir denetim SİLİNDİ, burada işe yarayan bir denetimin
   //   yalnız başlangıç hâli düzeltildi.
   lejantDurum(localStorage.getItem("lejantKapali") !== "0");
+  setTimeout(lejantHarekatDoldur, 0);   // HAREKET bu dosyada daha aşağıda atanıyor
   function lejantCevir(kapali) {
     lejantDurum(kapali);
     try { localStorage.setItem("lejantKapali", kapali ? "1" : "0"); } catch (e) { /* özel pencere */ }
@@ -10982,7 +11005,7 @@ function kaynakliHalkaAyarKur() {
   if (!menu || document.getElementById("ayar-halka")) return;
   var lab = document.createElement("label");
   lab.title = "Bir kaynağın belli bir tarihte bir devlete ait gösterdiği yerler, o devletin koyu harita renginde halka ile işaretlenir. Tıklayınca kaynak ve alıntı.";
-  lab.innerHTML = '<input type="checkbox" id="ayar-halka"> <span>⑨ Kaynakla kesinleşmiş sahiplik halkaları</span><em id="kat-sayi-halka"></em>';
+  lab.innerHTML = '<input type="checkbox" id="ayar-halka"> <span>Kaynaklı sahiplik halkaları</span><em id="kat-sayi-halka"></em>';
   menu.insertBefore(lab, document.getElementById("katman-not"));
   var kutu = lab.querySelector("input");
   var kayitli = null;
@@ -17896,7 +17919,7 @@ function enYakinOlayBul(gi) {
 (function telefonAkisMenuye() {
   try {
     if (!window.ATLAS_TELEFON) return;
-    var menu = document.getElementById("menu-butonlar");
+    var menu = document.getElementById("mg-gezinti") || document.getElementById("menu-butonlar");
     if (!menu) return;
     ["akis-modu", "hiz", "olay-hiz"].forEach(function (id) {
       var e = document.getElementById(id);

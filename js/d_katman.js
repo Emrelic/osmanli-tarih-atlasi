@@ -1378,81 +1378,45 @@ function _dToastKapat() {
 function _dGorunumAnahtariKur() {
   var yuva = document.getElementById("d-gorunum-grup");
   if (!yuva || yuva.childNodes.length) return;      // yuva yok ya da zaten kurulu
-  var dugmeler = {};
-  function boyaDugmeler() {
-    Object.keys(dugmeler).forEach(function (deger) {
-      dugmeler[deger].classList.toggle("etkin", _dGorunum === deger);
-    });
-  }
-  function dugmeYap(etiket, deger, aciklama) {
-    var b = document.createElement("button");
-    b.type = "button";
-    b.className = "d-gorunum-dugme";
-    b.textContent = etiket;
-    b.title = "D sınırları görünümü: " + aciklama;
-    b.addEventListener("click", function () {
-      if (_dGorunum === deger) return;
-      _dGorunum = deger;
-      boyaDugmeler();
-      if (typeof haritaHazir !== "undefined" && haritaHazir && typeof suanki !== "undefined") {
-        _dSinirGuncelle(suanki);
-        _dYaslaPlanla(suanki);
-      }
-    });
-    dugmeler[deger] = b;
-    return b;
-  }
-  var bas = document.createElement("span");
-  bas.className = "d-gorunum-baslik";
-  bas.textContent = "D SINIRI";
-  yuva.appendChild(bas);
-  // ⑤ Göster/gizle — yalnız ÇİZGİYİ gizler. Yaslama (③④) kuraldır, ayar
-  // değildir: çizgi kapalıyken de renk hatta dayanır; çizgiyi açıp
-  // "renk gerçekten oturuyor mu" diye bakmak bu düğmenin işidir.
-  var g = document.createElement("button");
-  g.type = "button";
-  g.className = "d-gorunum-dugme";
-  g.title = "Belgeye/antlaşmaya dayalı milimetrik sınır çizgilerini göster / gizle";
-  function boyaGoster() {
-    g.textContent = _dGoster ? "Çizgi ✓" : "Çizgi ✗";
-    g.classList.toggle("etkin", _dGoster);
-  }
-  g.addEventListener("click", function () {
-    _dGoster = !_dGoster;
+  // MENÜ DÜZENİ (Emre, 22 Kasım 2026): dört düğme (Çizgi · İki renk · Hukukî · Fiilî) KATMAN LİSTESİNİN
+  // diliyle iki satıra indi: bir kutu (Sınır çizgileri) + bir seçici (Sınır türü). İKİ RENK artık her zaman
+  // açık (ayrı anahtar kalktı: 24 Eylül'deki tasarım varsayılan oldu). Hukukî/Fiilî ayrımı SAKLANDI: fiilî
+  // görünüm yalnız çizgi eklemez, renk yaslamasını da (_dYaslaSiniflari) değiştirir — birleştirmek ayrı karar.
+  _dIkiRenk = true;
+  var k = document.createElement("label");
+  k.title = "Belgeye/antlaşmaya dayalı milimetrik sınır çizgilerini göster / gizle. Çizginin her yarısı o yandaki devletin renginin koyusudur; hatta tıklayınca kaynak açılır.";
+  var kutu = document.createElement("input");
+  kutu.type = "checkbox";
+  kutu.checked = _dGoster;
+  var ka = document.createElement("span");
+  ka.textContent = "Sınır çizgileri";
+  k.appendChild(kutu); k.appendChild(ka);
+  kutu.addEventListener("change", function () {
+    _dGoster = kutu.checked;
     try { localStorage.setItem("dSinirGoster", _dGoster ? "1" : "0"); } catch (e) {}
-    boyaGoster();
     _dGorunurlukUygula();
   });
-  boyaGoster();
-  yuva.appendChild(g);
-  // ⑤b İKİ RENK aç/kapa (Emre, 24 Eylül 2026). Çizgi gizliyken de basılabilir;
-  // tercihi ayrı anahtarda saklanır, "Çizgi ✓/✗" ile birbirini sıfırlamazlar.
-  var ir = document.createElement("button");
-  ir.type = "button";
-  ir.className = "d-gorunum-dugme";
-  ir.title = "Çizginin her yarısını o yandaki devletin renginin koyusuyla boya " +
-             "(kapalıyken tek renk: lacivert, tâbi tarafta açık kırmızı)";
-  function boyaIkiRenk() {
-    ir.textContent = _dIkiRenk ? "İki renk ✓" : "İki renk ✗";
-    ir.classList.toggle("etkin", _dIkiRenk);
-  }
-  ir.addEventListener("click", function () {
-    _dIkiRenk = !_dIkiRenk;
-    try { localStorage.setItem("dSinirIkiRenk", _dIkiRenk ? "1" : "0"); } catch (e) {}
-    boyaIkiRenk();
-    // İmza renklerden türüyor, ama yanı bilinmeyen kayıtta iki renk zaten
-    // lacivert/lacivert olduğu için imza DEĞİŞMEZ ve kaynak tazelenmezdi.
-    // Anahtara basmak her hâlde yeniden çizmelidir ⇒ imza sıfırlanır.
-    _dAktifImza = null;
+  yuva.appendChild(k);
+  var t = document.createElement("label");
+  t.className = "secici-satir";
+  var ta = document.createElement("span");
+  ta.textContent = "Sınır türü";
+  var sec = document.createElement("select");
+  sec.title = "Hukukî: yalnız barış antlaşması/protokolle kararlaştırılmış sınırlar. Hukukî + fiilî: hukuken geçersiz olsa da fiilî (işgal/ateşkes) hat varsa o da gösterilir ve renk ona yaslanır.";
+  [["hukuki", "Hukukî"], ["fiili", "Hukukî + fiilî"]].forEach(function (o) {
+    var op = document.createElement("option"); op.value = o[0]; op.textContent = o[1]; sec.appendChild(op);
+  });
+  sec.value = _dGorunum;
+  sec.addEventListener("change", function () {
+    if (_dGorunum === sec.value) return;
+    _dGorunum = sec.value;
     if (typeof haritaHazir !== "undefined" && haritaHazir && typeof suanki !== "undefined") {
       _dSinirGuncelle(suanki);
+      _dYaslaPlanla(suanki);
     }
   });
-  boyaIkiRenk();
-  yuva.appendChild(ir);
-  yuva.appendChild(dugmeYap("Hukukî", "hukuki", "F > E > C — yalnız barış antlaşması/protokolle kararlaştırılmış sınırlar; fiilî hat gösterilmez"));
-  yuva.appendChild(dugmeYap("Fiilî", "fiili", "D > F > E > C — hukuken geçersiz olsa da fiilî/de facto hat varsa O gösterilir"));
-  boyaDugmeler();
+  t.appendChild(ta); t.appendChild(sec);
+  yuva.appendChild(t);
 }
 
 // ---- KATMAN KURULUMU (şemadan bağımsız, kalıcı) -------------------------------
