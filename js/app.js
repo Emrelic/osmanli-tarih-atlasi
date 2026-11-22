@@ -8403,7 +8403,8 @@ function olayaGit(o, panelGoster, zorla) {
   var _c0 = performance.now();
   try { tarihAyarla(o.gi); } finally { kameraCoz(); }
   _CIZIM_MS = performance.now() - _c0;
-  if (panelGoster !== false) obGoster(o);
+  // Sekmeli kronoloji: Detay sekmesi açıkken ⏮/⏭/oynat da detayı yeni maddeye taşır (Emre 22 Kasım).
+  if (panelGoster !== false || (window.sekmeDetayMi && window.sekmeDetayMi())) obGoster(o);
   // Kilidi `haritayiOlayaGotur` KENDİSİ alıyor, varışta bırakıyor.
   // Uçuş, ağır çizim yatıştıktan SONRA başlıyor (gerekçe yukarıda).
   _haritaSakinlesince(function () { haritayiOlayaGotur(o, zorla); });
@@ -9124,6 +9125,7 @@ olaylar.forEach(function (o, i) {
     if (e.ctrlKey || e.metaKey) { e.preventDefault(); olaySecimCevir(i); return; }
     if (e.shiftKey && olaySecimCapa >= 0) { e.preventDefault(); olaySecimAralik(i); return; }
     olayaGit(o, true, true);
+    if (window.sekmeDetayAc) window.sekmeDetayAc(true);   // sekmeli kronoloji: maddeye tıklayınca Detay sekmesi
   });
   div.addEventListener("contextmenu", function (e) { kopyaMenusuAc(e, o, div); });
   olayListe.appendChild(div);
@@ -14975,7 +14977,7 @@ function tamEkranSor() {
   // hareketi şart) → ilk dokunuş (ör. "Tamam", haritaya dokunma) tam ekrana alır. Çıkmak için
   // kenardan kaydırma; menüdeki ⛶ düğmesi her durumda var.
   try {
-    if (window.matchMedia && window.matchMedia("(pointer: coarse)").matches) {
+    if (window.ATLAS_TELEFON) {
       var ilkDokunus = function () {
         document.removeEventListener("pointerup", ilkDokunus, true);
         try {
@@ -14986,6 +14988,15 @@ function tamEkranSor() {
         } catch (e) { /* destek yok */ }
       };
       document.addEventListener("pointerup", ilkDokunus, true);
+      // 22 Kasım 2026 — Emre: başka sekmeye geçip dönünce tam ekran bozuluyordu. Tarayıcı sekme
+      // değişince tam ekrandan çıkarır; geri gelince yine bir kullanıcı hareketi gerekir → sekme
+      // görünür olunca ilk dokunuşa yeniden kurulur. (Kullanıcı kenardan kaydırıp bilerek çıkarsa
+      // sekme değişmedikçe yeniden zorlanmaz.)
+      document.addEventListener("visibilitychange", function () {
+        if (document.visibilityState !== "visible" || document.fullscreenElement) return;
+        document.removeEventListener("pointerup", ilkDokunus, true);
+        document.addEventListener("pointerup", ilkDokunus, true);
+      });
       return;
     }
   } catch (e) { /* medya sorgusu yok: eski soru akışı */ }
@@ -15087,9 +15098,19 @@ var PANEL_BASLIK = {
   kapali: "Panel kapali — tikla, GENISLESIN"
 };
 var btnPanel = document.getElementById("btn-panel");
+// 22 Kasım 2026 — Emre (telefon): "Daralt/Genişlet düğmesi alakasız yerde duruyor." Telefonda panel
+// alta yığılır, "daralt" diye bir şey yoktur: düğme KRONOLOJİYİ gizle/göster olur (iki kademe) ve adını
+// taşır ("▾ Kronoloji" açıkken · "▴ Kronoloji" gizliyken) — neyi yönettiği yazıdan anlaşılsın.
+var PANEL_DOKUNMATIK = false;
+PANEL_DOKUNMATIK = !!window.ATLAS_TELEFON;   // görünüm ayarı (index.html başı): telefon görünümü
+if (PANEL_DOKUNMATIK) {
+  PANEL_ETIKET = { genis: "▾ Kronoloji", dar: "▾ Kronoloji", kapali: "▴ Kronoloji" };
+  PANEL_BASLIK = { genis: "Kronolojiyi gizle (haritayı büyüt)", dar: "Kronolojiyi gizle (haritayı büyüt)", kapali: "Kronolojiyi göster" };
+}
 
 function panelKademeUygula(kademe, tuvaliTazele) {
   if (PANEL_KADEMELER.indexOf(kademe) === -1) kademe = "genis";
+  if (PANEL_DOKUNMATIK && kademe === "dar") kademe = "genis";
   var yp = document.getElementById("yanpanel");
   var katli = (kademe === "kapali");
   yp.classList.toggle("katli", katli);
@@ -15126,6 +15147,7 @@ btnPanel.addEventListener("click", function () {
   var simdiki = yp.classList.contains("katli") ? "kapali"
               : (yp.classList.contains("dar") ? "dar" : "genis");
   var sonraki = PANEL_KADEMELER[(PANEL_KADEMELER.indexOf(simdiki) + 1) % 3];
+  if (PANEL_DOKUNMATIK) sonraki = (simdiki === "kapali") ? "genis" : "kapali";
   panelKademeUygula(sonraki);
   localStorage.setItem("panelKademe", sonraki);
 });
@@ -17735,6 +17757,108 @@ function enYakinOlayBul(gi) {
     // ARAYUZ-0077 H-0034: uzak tarihe sıçrama da ağır adımdır — göstergeyle koşar.
     if (e.key === "Enter") { agirAdim(e, calistir); e.preventDefault(); }
   });
+  // 22 Kasım 2026 — Emre (telefon): "tarihe git ve şehir yaz git TEK textbox olsun; tarih yazılırsa
+  // tarihe, şehir yazılırsa şehre gitsin." Dokunmatik cihazda tarih kutusu CSS ile gizlenir; şehir
+  // kutusu (#yer-ara-giris) tek kutudur: içinde RAKAM varsa Enter tarihe gider (yukarıdaki
+  // calistir), yoksa şehir listesi çalışır (yerAraKur). Masaüstünde iki kutu aynen kalır.
+  try {
+    var tek = document.getElementById("yer-ara-giris");
+    if (tek && window.ATLAS_TELEFON) {
+      var ilkIpucu = tek.placeholder;
+      tek.placeholder = "tarihe ya da şehre git";
+      tek.addEventListener("keydown", function (e) {
+        if (e.key !== "Enter" || !/\d/.test(tek.value)) return;
+        e.stopImmediatePropagation(); e.preventDefault();
+        giris.value = tek.value;
+        agirAdim(e, calistir);
+        tek.value = ""; tek.blur();
+        var m = durum.textContent || "";
+        if (m) { tek.placeholder = m; setTimeout(function () { tek.placeholder = "tarihe ya da şehre git"; }, 7000); }
+      }, true);
+    }
+  } catch (e) { /* tek kutu kurulamadı: iki kutu kalır */ }
+})();
+
+// ═══ SEKMELİ KRONOLOJİ + GÖRÜNÜM AYARI — Emre, 22 Kasım 2026 ═══
+// "Soldaki kronoloji sütunu tek yapı olsun … maddeye tıklayınca detay açılsın … sekmeli yapı: ana
+//  kronoloji listesi ve detay; istenirse ana ekranda istenirse detayda ilerlenebilsin; geri butonu gerekmez."
+// İki sekme (index.html #sekme-bar) aynı sütunu paylaşır; seçim (suankiOlayI) ORTAKTIR. Liste sekmesinde
+// ⏭/oynat listeyi, Detay sekmesinde detayı ilerletir (olayaGit sekmeDetayMi'ye bakar). Detay sekmesine
+// geçince detay o anki maddeyi gösterir. Masaüstü ve telefon AYNI yapıyı kullanır (yerleşim CSS'te ayrı).
+(function sekmeKur() {
+  var yp = document.getElementById("yanpanel");
+  var bl = document.getElementById("sekme-liste"), bd = document.getElementById("sekme-detay");
+  if (!yp || !bl || !bd) return;
+  var durum = "liste";
+  function uygula() {
+    yp.classList.toggle("sekme-liste", durum === "liste");
+    yp.classList.toggle("sekme-detay", durum === "detay");
+    bl.setAttribute("aria-selected", String(durum === "liste"));
+    bd.setAttribute("aria-selected", String(durum === "detay"));
+  }
+  window.sekmeDetayMi = function () { return durum === "detay"; };
+  window.sekmeListeAc = function () {
+    durum = "liste"; uygula();
+    setTimeout(function () {
+      var simdikiSatir = document.getElementById("olay-listesi").querySelector(".simdiki");
+      if (simdikiSatir && simdikiSatir.scrollIntoView) simdikiSatir.scrollIntoView({ block: "center" });
+    }, 30);
+  };
+  window.sekmeDetayAc = function (tazelemeGerekmez) {
+    durum = "detay"; uygula();
+    if (tazelemeGerekmez) return;
+    try {
+      if (!odakGezintiAktif() && typeof suankiOlayI === "number" && suankiOlayI >= 0 && olaylar[suankiOlayI]) obGoster(olaylar[suankiOlayI]);
+    } catch (e) { /* detay boş kalır: "bir madde seçin" iletisi */ }
+  };
+  // Liste satırına tıklama (Osmanlı, odak devleti, birleşik liste — hepsi #olay-listesi altında) → Detay sekmesi.
+  // Satırın kendi işleyicisi (olayaGit/detay) ÖNCE çalışır; çoklu seçim tuşları ve bağlantı/düğmeler hariç.
+  var ol = document.getElementById("olay-listesi");
+  if (ol) ol.addEventListener("click", function (e) {
+    if (e.ctrlKey || e.metaKey || e.shiftKey) return;
+    if (e.target.closest && e.target.closest("a, button, input, select, textarea")) return;
+    if (e.target === ol) return;
+    window.sekmeDetayAc(true);
+  });
+  bl.addEventListener("click", window.sekmeListeAc);
+  bd.addEventListener("click", function () { window.sekmeDetayAc(false); });
+  uygula();
+})();
+
+// GÖRÜNÜM AYARI (⚙ Ayarlar): Otomatik / Masaüstü / Telefon; değişince sayfa yenilenir (index.html başı okur).
+(function gorunumAyariKur() {
+  var s = document.getElementById("gorunum-sec");
+  if (!s) return;
+  s.value = window.ATLAS_GORUNUM || "otomatik";
+  s.addEventListener("change", function () {
+    try { localStorage.setItem("gorunum", s.value); } catch (e) { /* özel pencere */ }
+    location.reload();
+  });
+})();
+
+// 22 Kasım 2026 — Emre (telefon): "Kronoloji 342/4838 · 1134 gizli yazısı kalksın, kronoloji devleti seçicisi
+// onun yerine, bir satır daha boşalsın." Dokunmatikte devlet seçici arama satırının başına taşınır (id aynı);
+// artık boş kalan #yanpanel-ust (başlık + sayaç) CSS ile gizlenir (css/telefon.css).
+(function telefonDevletSeciciArama() {
+  try {
+    if (!window.ATLAS_TELEFON) return;
+    var s = document.getElementById("devlet-secici"), satir = document.getElementById("kr-arama-satir");
+    if (s && satir) satir.insertBefore(s, satir.firstChild);
+  } catch (e) { /* taşınamadı: seçici üst satırda kalır */ }
+})();
+
+// 22 Kasım 2026 — Emre (telefon): "olay olay ve oynatma hızı butonlar bölümüne." Dokunmatik cihazda
+// akış kipi + hız seçicileri ☰ Butonlar penceresine taşınır (id'ler aynı: app.js id ile buluyor).
+(function telefonAkisMenuye() {
+  try {
+    if (!window.ATLAS_TELEFON) return;
+    var menu = document.getElementById("menu-butonlar");
+    if (!menu) return;
+    ["akis-modu", "hiz", "olay-hiz"].forEach(function (id) {
+      var e = document.getElementById(id);
+      if (e) menu.appendChild(e);
+    });
+  } catch (e) { /* taşınamadı: seçiciler oynatma şeridinde kalır */ }
 })();
 
 // Klavye: ←→ gün (Shift: yıl), boşluk oynat/durdur

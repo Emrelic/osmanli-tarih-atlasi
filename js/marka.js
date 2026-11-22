@@ -157,7 +157,13 @@
     b.id = "btn-beta"; b.type = "button"; b.className = "beta-ibare";
     b.textContent = T.beta.toUpperCase();
     b.title = T.hakkinda;
-    menu.parentNode.insertBefore(b, menu.nextSibling);
+    // 22 Kasım 2026 (Emre, telefon): BETA üst çubukta durmasın; ☰ Butonlar penceresine girer
+    // (Hakkında penceresi oradan açılmaya devam eder). Masaüstünde yeri aynı.
+    var _menuKutu = document.getElementById("menu-butonlar");
+    var _dokunmatik = false;
+    _dokunmatik = !!window.ATLAS_TELEFON;   // görünüm ayarı (index.html başı)
+    if (_dokunmatik && _menuKutu) _menuKutu.appendChild(b);
+    else menu.parentNode.insertBefore(b, menu.nextSibling);
 
     var pen = document.createElement("div");
     pen.id = "hakkinda-pencere"; pen.className = "gizli";

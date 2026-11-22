@@ -75,7 +75,33 @@
 <script>window.SURUM="r16623";</script>
 <link rel="stylesheet" href="css/style.css?v=r12498011">
 <!-- Telefon/tablet (parmakla kullanım) kuralları: masaüstü (fare) bu dosyayı hiç uygulamaz. -->
-<link rel="stylesheet" href="css/telefon.css?v=r222832044" media="(pointer: coarse)">
+<link rel="stylesheet" href="css/telefon.css?v=r222832044" media="(pointer: coarse)" id="telefon-css">
+<script>
+/* GÖRÜNÜM (Emre, 22 Kasım 2026): masaüstü ve telefon görünümü AYRI yapılardır; ⚙ Ayarlar'dan seçilir.
+   localStorage "gorunum": "otomatik" (varsayılan: parmakla kullanılan küçük ekran = telefon) |
+   "telefon" | "masaustu". window.ATLAS_TELEFON bütün betiklerin tek kaynağı; <html> sınıfı: tel / mas. */
+(function () {
+  if (typeof document === "undefined" || !document.documentElement) return;   // betik-denetçileri (node) için
+  var g = "otomatik";
+  try { g = localStorage.getItem("gorunum") || "otomatik"; } catch (e) {}
+  var tel;
+  if (g === "telefon") tel = true;
+  else if (g === "masaustu") tel = false;
+  else {
+    var dok = false, kisa = false;
+    try { dok = !!(window.matchMedia && window.matchMedia("(pointer: coarse)").matches); } catch (e) {}
+    try { kisa = Math.min(screen.width, screen.height) <= 700; } catch (e) { kisa = true; }
+    tel = dok && kisa;
+  }
+  window.ATLAS_GORUNUM = g;
+  window.ATLAS_TELEFON = tel;
+  try {
+    var l = document.getElementById("telefon-css");
+    if (l) l.media = tel ? "all" : "not all";
+    document.documentElement.classList.add(tel ? "tel" : "mas");
+  } catch (e) { /* betik-denetçisi ya da eski tarayıcı */ }
+})();
+</script>
 </head>
 <body>
 <!-- ERİŞİLEBİLİRLİK (LAB P5): görünmez <h1> + "haritaya geç" bağlantısı (yalnız odaklanınca görünür).
@@ -709,6 +735,16 @@
         <div id="padisah-saltanat"></div>
       </div>
     </section>
+    <!-- SEKMELİ KRONOLOJİ (Emre, 22 Kasım 2026): sütun TEK yapı — iki sekme, aynı alanı paylaşır:
+         ① Kronoloji (ana liste, yukarıdan aşağıya) ② Detay (seçili maddenin açıklaması + ek kartlar).
+         Listeden bir maddeye tıklanınca Detay sekmesi açılır; geri düğmesi yok, sekmeler arasında gidilir.
+         İleri/oynat hangi sekme açıksa onda ilerler (seçim ortak: liste de detay da aynı maddeyi gösterir).
+         Mantık js/app.js sekmeKur; yerleşim css/style.css `#sekme-bar` + `#yanpanel.sekme-*`. -->
+    <div id="sekme-bar" role="tablist">
+      <button type="button" id="sekme-liste" role="tab" aria-selected="true">📜 Kronoloji</button>
+      <button type="button" id="sekme-detay" role="tab" aria-selected="false">📖 Detay</button>
+    </div>
+    <div id="sekme-bos">Kronoloji listesinden bir madde seçin.</div>
     <section id="olay-akisi">
       <!-- ARAYUZ-4-SARTNAME.md §⑧ — Emre: "ayar checkbox'ın yanında olsun,
            kronoloji başlığıyla YAN YANA TEK SATIR." Eskiden #ucus-kontrol
@@ -839,6 +875,16 @@
     <button id="ayarlar-kapat" title="Kapat">✕</button>
     <h3>⚙ Ayarlar</h3>
     <div id="ayarlar-govde">
+    <!-- GÖRÜNÜM (Emre, 22 Kasım 2026): masaüstü ve telefon görünümü ayrı yapılardır; seçim
+         değişince sayfa yenilenir (js/app.js gorunumAyariKur). Otomatik = cihaza göre. -->
+    <div class="ayar-satir">
+      <label for="gorunum-sec">📱 Görünüm <span class="ayar-ipucu">(masaüstü ya da telefon düzeni; otomatik = cihaza göre)</span></label>
+      <select id="gorunum-sec">
+        <option value="otomatik">Otomatik</option>
+        <option value="masaustu">Masaüstü görünümü</option>
+        <option value="telefon">Telefon görünümü</option>
+      </select>
+    </div>
     <!-- DUYGU-VE-SEKME-SARTNAME.md §A② — bu katman TDV'ye BASMAZ, yorumdur.
          Ayardan açılır/kapanır (pazarlık dışı kural); varsayılan KAPALI
          (Emre 14 Eki 2026: "varsayılan olarak bu ayar pasif olmalı") —
