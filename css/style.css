@@ -4004,7 +4004,7 @@ body.gn-oge-kipi * { cursor: crosshair !important; }
   font-size: 13px; line-height: 1.45;
 }
 #tanitim-kart.tanitim-orta { left: 50% !important; top: 50% !important; transform: translate(-50%, -50%); }
-#tanitim-kart.tanitim-alt { left: 16px !important; right: 16px; bottom: 16px; top: auto !important; width: auto; }
+#tanitim-kart.tanitim-alt { left: 16px !important; right: 16px; width: auto; }
 .tanitim-kapat { position: absolute; top: 8px; right: 10px; border: none; background: none; font-size: 15px; cursor: pointer; color: #6b6152; }
 .tanitim-sayac { font-size: 11px; color: #8a7a5a; margin-bottom: 2px; }
 .tanitim-baslik { font-size: 16px; font-weight: 700; color: var(--osmanli-kirmizi); margin: 0 18px 6px 0; }

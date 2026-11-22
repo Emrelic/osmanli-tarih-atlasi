@@ -24,34 +24,55 @@
   // Cümlenin ortasına <b>/<i> koymak cümleyi parçalara ayırır ve yabancı dilde
   // bozuk çeviri üretir. Bu yüzden: `p` = bütün cümleli paragraflar, `m` =
   // [kalın terim, tam cümle açıklama] maddeleri. Metne etiket YAZMA.
-  var ADIMLAR = [
+  var ADIMLAR_HAM = [
     { baslik: "KRONOATLAS'a hoş geldiniz",
       p: ["Bu atlas, zaman ilerledikçe devlet sınırlarının nasıl değiştiğini gösterir. Haritanın yanında o günün kronolojisi ve hükümdarı akar: bir madde okuduğunuzda haritada tam o değişimi görürsünüz.",
-          "Kısa bir turla ekrandaki her parçayı tanıtalım. İleri düğmesiyle (ya da sağ ok tuşuyla) ilerleyin; istediğiniz an Geç diyebilirsiniz."] },
+          "Kısa bir turla ekrandaki her parçayı tanıtalım. İleri düğmesiyle (ya da sağ ok tuşuyla) ilerleyin; istediğiniz an Geç diyebilirsiniz."],
+      tel: { p: ["Bu atlas, zaman ilerledikçe devlet sınırlarının nasıl değiştiğini gösterir. Haritanın yanında o günün kronolojisi ve hükümdarı akar: bir madde okuduğunuzda haritada tam o değişimi görürsünüz.",
+                 "Kısa bir turla ekrandaki her parçayı tanıtalım. İleri düğmesine dokunarak ilerleyin; istediğiniz an Geç diyebilirsiniz."] } },
     { baslik: "Sayfanın düzeni",
       p: ["Ekran dört parçadır:"],
       m: [["Ortada harita", "Seçili günün siyasî haritası."],
           ["Üstte çubuk", "O anki tarih, yakınlaştırma, Butonlar menüsü ve panel düğmesi."],
           ["Altta zaman çubuğu", "Oynat, ileri/geri, akış ayarı, sene ve şehir kutuları, zaman kaydırıcısı."],
-          ["Sağda kronoloji sütunu", "Devlet seçici, hükümdar kartı ve olay maddeleri."]] },
+          ["Sağda kronoloji sütunu", "Devlet seçici, hükümdar kartı ve olay maddeleri."]],
+      tel: { p: ["Telefonda ekran üç parçadır:"],
+             m: [["Üstte harita", "Seçili günün siyasî haritası; üst çubukta o anki tarih ve Butonlar menüsü durur."],
+                 ["Ortada zaman denetimleri", "Oynat, ileri/geri ve şehir kutusu."],
+                 ["Altta kronoloji paneli", "Devlet seçici, hükümdar kartı ve olay maddeleri."]] } },
     { hedef: ["#harita"], baslik: "Harita",
       p: ["Sürükleyerek kaydırın, fare tekerleğiyle (ya da iki parmakla) yakınlaşın.",
-          "Renkli alanlar o gündeki devletlerdir; bir yere tıklayınca orası hakkında bilgi açılır. Tarih değiştikçe sınırlar kendiliğinden yeniden çizilir."] },
-    { hedef: ["#ustbar-orta"], baslik: "O anki tarih",
+          "Renkli alanlar o gündeki devletlerdir; bir yere tıklayınca orası hakkında bilgi açılır. Tarih değiştikçe sınırlar kendiliğinden yeniden çizilir."],
+      tel: { p: ["Parmağınızla sürükleyerek kaydırın, iki parmağınızla yakınlaşın.",
+                 "Renkli alanlar o gündeki devletlerdir; bir yere dokununca orası hakkında bilgi açılır. Tarih değiştikçe sınırlar kendiliğinden yeniden çizilir."] } },
+    { sadece: "masa", hedef: ["#ustbar-orta"], baslik: "O anki tarih",
       p: ["Haritanın şu an gösterdiği gün, dönemin adı ve o gün olan değişim burada yazar. Sağ yanında o günkü toprak alanı ve tarihteki zirveye oranı görünür."] },
-    { hedef: ["#yakin-grup"], baslik: "+ / − Yakınlaş, uzaklaş",
+    { sadece: "masa", hedef: ["#yakin-grup"], baslik: "+ / − Yakınlaş, uzaklaş",
       p: ["Haritayı bir kademe yakınlaştırır ya da uzaklaştırır (fare tekerleğinin düğme hâli)."] },
     { hedef: ["#btn-menu"], baslik: "☰ Butonlar",
-      p: ["Tıklayınca araç menüsü açılır:"],
+      p: ["Bu düğme araç menüsünü açar. Menü dört gruptur; şimdi menüyü açıp her grubu tek tek tanıyalım."] },
+    { hedef: ["#mg-kesfet"], ac: true, baslik: "Butonlar: Keşfet",
       m: [["ℹ Siteyi tanı", "Bu turu yeniden açar."],
-          ["📚 Dizin", "Kişi, savaş ve antlaşma dizinleri; birine tıklayınca o güne gidilir."],
-          ["🗺 Harita işaretleri", "Haritadaki simgelerin ne anlama geldiğini gösterir (lejant)."],
-          ["ⓘ Kaynaklar", "Altlık harita, veri ve lisans atıfları."],
-          ["Katman kutuları", "Yerleşim yerleri, yollar, harekât okları, siyasî yapılar, küre görünüm… Kutucukla açılıp kapatılır, birden çoğu seçilebilir."],
-          ["🔍 Oto", "Toprak büyüdükçe haritayı kendiliğinden uzaklaştırır."],
-          ["D sınırı", "Sınırların antlaşmaya göre mi (Hukukî), fiilî duruma göre mi (Fiilî) çizileceğini seçer."],
+          ["📚 Dizin", "Kişi, savaş, antlaşma, devlet, şehir, yüzyıl ve kaynak dizinleri; birine tıklayınca o güne ve yere gidilir."],
+          ["📜 Yüzyıllar", "Bütün kronoloji maddelerini yüzyıllara göre, okunur sayfalarda açar."]] },
+    { hedef: ["#mg-harita"], ac: true, baslik: "Butonlar: Harita gösterimi",
+      p: ["Haritada neyin görüneceğini buradan seçersiniz. Kutucuklarla açılıp kapatılır, birden çoğu seçilebilir."],
+      m: [["Küre görünüm", "Dünyayı yuvarlak gösterir."],
+          ["Altlık", "Devlet renklerinin altındaki zemini seçer."],
+          ["Sınır çizgileri", "Sınırların antlaşmaya göre mi (Hukukî), fiilî duruma göre mi (Hukukî + fiilî) çizileceğini seçer."],
+          ["Harekât okları", "Seferleri ok olarak gösterir."],
+          ["🗺 Harita işaretleri", "Haritadaki renk ve simgelerin ne anlama geldiğini açıklar."]] },
+    { hedef: ["#mg-gezinti"], ac: true, baslik: "Butonlar: Gezinti",
+      m: [["🔍 Oto", "Toprak büyüdükçe haritayı kendiliğinden uzaklaştırır."],
           ["⛶ Tam ekran", "Tarayıcıyı tam ekran yapar (Esc ile çıkılır)."],
-          ["Bölge seçici", "Anadolu, Rumeli, Kafkasya… Seçilen bölgeye yakınlaşır."]] },
+          ["Bölge seçici", "Anadolu, Rumeli, Kafkasya… Seçilen bölgeye yakınlaşır."]],
+      tel: { m: [["Olay olay / Zaman akışı", "Oynatmanın olaydan olaya mı, sene sene mi akacağını ve hızını seçer."],
+                 ["🔍 Oto", "Toprak büyüdükçe haritayı kendiliğinden uzaklaştırır."],
+                 ["⛶ Tam ekran", "Ekranı tam ekran yapar."],
+                 ["Bölge seçici", "Anadolu, Rumeli, Kafkasya… Seçilen bölgeye yakınlaşır."]] } },
+    { hedef: ["#mg-topluluk"], ac: true, baslik: "Butonlar: Topluluk ve bilgi",
+      m: [["💬 Forum", "Kahvehane: tarih forumu."],
+          ["ⓘ Kaynaklar", "Altlık harita, veri ve lisans atıfları. Maddelerin kaynakları Dizin içindeki Kaynaklar sekmesindedir."]] },
     { hedef: ["#btn-panel"], baslik: "⇥ Daralt / Kapat / Genişlet",
       p: ["Sağdaki kronoloji sütununun genişliğini ayarlar. Her basışta sırayla: geniş, dar, kapalı, yeniden geniş.",
           "Düğmenin üstünde, basınca gideceği hâl yazar: Daralt, Kapat ya da Genişlet. Haritayı büyütmek için sütunu kapatın; aynı düğmeyle geri açılır."] },
@@ -60,17 +81,17 @@
     { hedef: ["#btn-geri", "#btn-ileri"], baslik: "⏮ Geri · ⏭ İleri",
       p: ["İleri düğmesi kronolojideki bir sonraki olaya, Geri düğmesi bir öncekine atlar.",
           "Harita o olayın gününe geçer, kronolojide madde vurgulanır. Oynatmadan, adım adım okumak için en rahat yoldur."] },
-    { hedef: ["#akis-modu", "#hiz", "#olay-hiz"], baslik: "Oynatma ayarı: olay olay ya da sene sene",
+    { sadece: "masa", hedef: ["#akis-modu", "#hiz", "#olay-hiz"], baslik: "Oynatma ayarı: olay olay ya da sene sene",
       m: [["📜 Olay olay", "Varsayılan. Oynatınca olaydan olaya geçer; yanındaki kutu her olayda kaç saniye bekleneceğini seçer. Okumak için uygundur."],
           ["⏱ Zaman akışı", "Takvim düzgün akar (sene sene); yanındaki kutu hızı seçer: saniyede bir aydan saniyede on yıla kadar. Sınırların değişimini film gibi izlemek için uygundur."]] },
-    { hedef: ["#tarihe-git-giris"], baslik: "Sene yaz git",
+    { sadece: "masa", hedef: ["#tarihe-git-giris"], baslik: "Sene yaz git",
       p: ["Bu kutuya bir tarih yazıp Enter tuşuna basın; harita ve kronoloji o güne atlar.",
           "Yazım örnekleri: 1453 · 1453-05-29 · 29.05.1453 · 29 Mayıs 1453 · Mayıs 1453",
           "Milattan önce için eksi ya da MÖ yazın: -1236 · MÖ 1236 · -12000. 0 milada (MS 1) götürür."] },
     { hedef: ["#yer-ara"], baslik: "Şehir yaz git",
       p: ["Bu kutuya bir yer adı yazın: şehir, kale, liman, bölge ya da ülke.",
           "Açılan listeden tıklayın (ya da ok tuşları ve Enter ile seçin); harita oraya uçar, tarih değişmez. Listede yalnız o gün haritada olan yerler çıkar."] },
-    { hedef: ["#zaman-sarmal"], baslik: "Zaman kaydırıcısı",
+    { sadece: "masa", hedef: ["#zaman-sarmal"], baslik: "Zaman kaydırıcısı",
       p: ["Sürükleyerek zamanda serbestçe gezin; harita bıraktığınız günü gösterir."] },
     // KONTROL-YERLESIMI-1110: uçuş grubu footer'a indi — tur sırası da yerleşimi izler.
     { hedef: ["#ucus-grup"], baslik: "Harita olaya nasıl gitsin?",
@@ -84,7 +105,7 @@
           "İlk işaretlediğiniz devlet odaktır ve hükümdar kartı onunkidir; sonra işaretlediğiniz devletlerin maddeleri de ek olarak listeye katılır. Önem eşikleriyle kaç madde görüneceğini ayarlayabilirsiniz."] },
     { hedef: ["#padisah-karti"], baslik: "Hükümdar kartı",
       p: ["O gün tahtta kimin oturduğunu, portresini ve saltanat yıllarını gösterir; zaman ilerledikçe kendiliğinden değişir."] },
-    { hedef: ["#olay-akisi-baslik"], baslik: "📜 Kronoloji başlığı",
+    { sadece: "masa", hedef: ["#olay-akisi-baslik"], baslik: "📜 Kronoloji başlığı",
       p: ["Sütunun başlığıdır. Yanındaki sayaç, şu an kaçıncı maddede olduğunuzu ve listede toplam kaç madde bulunduğunu gösterir."] },
     { hedef: ["#kr-arama-satir"], baslik: "🔍 Kronolojide ara",
       p: ["Kelimeleri boşlukla ayırarak yazın; hepsi geçen maddeler kalır. Tırnak içindeki ifade tek parça aranır. Büyük/küçük harf ve şapka farkı gözetilmez.",
@@ -96,6 +117,14 @@
       p: ["Oynat düğmesiyle zamanı akıtabilir, İleri düğmesiyle olay olay ilerleyebilir ya da kronolojiden bir maddeye tıklayabilirsiniz.",
           "Turu yeniden görmek için Butonlar menüsündeki Siteyi tanı düğmesine basın."] }
   ];
+  // Masaüstü ve telefon AYRI gösterilir: adım `sadece:"masa"|"tel"` taşıyabilir, `tel:{…}` alanları
+  // telefonda adımın üstüne yazılır. Tur her açılışta yeniden kurulur (ATLAS_TELEFON o anda okunur).
+  var ADIMLAR = ADIMLAR_HAM;
+  function adimlariKur() {
+    var tel = !!window.ATLAS_TELEFON;
+    ADIMLAR = ADIMLAR_HAM.filter(function (a) { return !a.sadece || a.sadece === (tel ? "tel" : "masa"); })
+      .map(function (a) { return tel && a.tel ? Object.assign({}, a, a.tel) : a; });
+  }
 
   // Metin düğümleri ayrı ayrı (createTextNode) — innerHTML yok, her cümle tek düğüm.
   function metinKur(kutu, a) {
@@ -181,6 +210,9 @@
     });
     // Kartın dışına tıklamak turu kapatmaz (yanlışlıkla kaçmasın) ama altındaki
     // haritaya da geçmez — tur sırasında ekran kıpırdamaz.
+    // Tur açıkken tıklama belgeye ulaşmasın: Butonlar menüsü "dışarı tıklayınca kapanır" kuralıyla
+    // Geri/İleri tıklamasında kapanmasın (tur menüyü kendisi açıp kapatır).
+    ort.addEventListener("click", function (e) { e.stopPropagation(); });
     document.addEventListener("keydown", tus, true);
     addEventListener("resize", yerlestir);
   }
@@ -192,9 +224,15 @@
     else if (e.key === "ArrowLeft") { e.preventDefault(); e.stopPropagation(); if (sira > 0) git(sira - 1); }
   }
 
+  function menuAyarla(ac) {
+    var m = document.getElementById("menu-butonlar");
+    if (m) m.classList.toggle("gizli", !ac);
+  }
+
   function git(n) {
     sira = Math.max(0, Math.min(ADIMLAR.length - 1, n));
     var a = ADIMLAR[sira];
+    menuAyarla(!!a.ac);
     ort.querySelector(".tanitim-sayac").textContent = (sira + 1) + " / " + ADIMLAR.length;
     ort.querySelector(".tanitim-baslik").textContent = a.baslik;
     metinKur(ort.querySelector(".tanitim-metin"), a);
@@ -202,7 +240,18 @@
     ort.querySelector(".tanitim-ileri").textContent = sira === ADIMLAR.length - 1 ? "Bitir ✓" : "İleri ▶";
     ort.querySelector(".tanitim-gec").style.visibility = sira === ADIMLAR.length - 1 ? "hidden" : "";
     yerlestir();
+    if (a.ac) setTimeout(yerlestir, 80);   // menü açılışı bir an sürer
     ort.querySelector(".tanitim-ileri").focus();
+  }
+
+  // Kartı hedefi ÖRTMEYECEK yere koyar (Emre, 23 Kasım 2026). Masaüstünde sağ/sol/alt/üst ve dört
+  // köşe aday olur, hedefle kesişim alanı en küçük olan seçilir (harita gibi ekranı kaplayan hedefte
+  // kesişim kaçınılmazdır: kart en az örten köşeye gider). Telefonda kart tam genişlikte, hedefin
+  // olmadığı yarıda (üst ya da alt) durur ve yüksekliği o boşluğa sığacak biçimde kısılır.
+  function kesisim(a, b) {
+    var w = Math.min(a.right, b.right) - Math.max(a.left, b.left);
+    var h = Math.min(a.bottom, b.bottom) - Math.max(a.top, b.top);
+    return w > 0 && h > 0 ? w * h : 0;
   }
 
   function yerlestir() {
@@ -210,7 +259,7 @@
     var a = ADIMLAR[sira];
     var r = kusat(a.hedef);
     kart.className = "";
-    kart.style.left = kart.style.top = "";
+    kart.style.left = kart.style.top = kart.style.right = kart.style.bottom = kart.style.maxHeight = "";
     if (!r) {
       halka.style.display = "none";
       ort.classList.add("tanitim-karart");
@@ -224,31 +273,52 @@
     halka.style.top = Math.max(2, r.top - p) + "px";
     halka.style.width = (Math.min(innerWidth - 2, r.right + p) - Math.max(2, r.left - p)) + "px";
     halka.style.height = (Math.min(innerHeight - 2, r.bottom + p) - Math.max(2, r.top - p)) + "px";
-    if (innerWidth < 700) { kart.classList.add("tanitim-alt"); return; }
-    // Hedef ekranın çoğunu kaplıyorsa (harita) kart ortaya.
-    if (r.width > innerWidth * 0.55 && r.height > innerHeight * 0.55) {
-      kart.classList.add("tanitim-orta");
+    var m = 12;
+    var hedef = { left: r.left - p, top: r.top - p, right: r.right + p, bottom: r.bottom + p };
+    if (innerWidth < 700) {
+      kart.classList.add("tanitim-alt");
+      var ust = hedef.top - 2 * m, alt = innerHeight - hedef.bottom - 2 * m;
+      var uste = ust > alt;                       // hedefin üstünde daha çok yer varsa kart üste
+      var yer = Math.max(120, Math.floor(uste ? ust : alt));
+      kart.style.maxHeight = Math.min(yer, Math.floor(innerHeight * 0.6)) + "px";
+      kart.style.overflowY = "auto";
+      if (uste) { kart.style.top = m + "px"; kart.style.bottom = "auto"; }
+      else { kart.style.bottom = m + "px"; kart.style.top = "auto"; }
       return;
     }
-    // Kartı hedefin yanına (solu/sağı), yer yoksa üstüne/altına koy.
-    var kw = kart.offsetWidth, kh = kart.offsetHeight, m = 16, x, y, ortala = false;
-    if (r.left - m > kw + m) x = r.left - kw - m;
-    else if (innerWidth - r.right - m > kw + m) x = r.right + m;
-    else { x = (r.left + r.right) / 2 - kw / 2; ortala = true; }
-    if (ortala) y = r.bottom + m + kh < innerHeight ? r.bottom + m : r.top - kh - m;
-    else y = r.top + r.height / 2 - kh / 2;
-    kart.style.left = Math.max(m, Math.min(innerWidth - kw - m, x)) + "px";
-    kart.style.top = Math.max(m, Math.min(innerHeight - kh - m, y)) + "px";
+    kart.style.overflowY = "";
+    var kw = kart.offsetWidth, kh = kart.offsetHeight;
+    kart.style.maxHeight = (innerHeight - 2 * m) + "px";
+    function sinir(v, kucuk, buyuk) { return Math.max(kucuk, Math.min(buyuk, v)); }
+    var ortaY = sinir((r.top + r.bottom) / 2 - kh / 2, m, innerHeight - kh - m);
+    var ortaX = sinir((r.left + r.right) / 2 - kw / 2, m, innerWidth - kw - m);
+    var adaylar = [
+      { x: hedef.right + m, y: ortaY }, { x: hedef.left - kw - m, y: ortaY },
+      { x: ortaX, y: hedef.bottom + m }, { x: ortaX, y: hedef.top - kh - m },
+      { x: m, y: innerHeight - kh - m }, { x: innerWidth - kw - m, y: innerHeight - kh - m },
+      { x: m, y: m }, { x: innerWidth - kw - m, y: m }
+    ];
+    var en = null, enKes = Infinity;
+    adaylar.forEach(function (c) {
+      var x = sinir(c.x, m, innerWidth - kw - m), y = sinir(c.y, m, innerHeight - kh - m);
+      var kes = kesisim({ left: x, top: y, right: x + kw, bottom: y + kh }, hedef);
+      // Ekran dışına taşan aday hedefe yaklaştırılmış (sinir) olur; kesişimi büyürse elenir.
+      if (kes < enKes) { enKes = kes; en = { x: x, y: y }; }
+    });
+    kart.style.left = en.x + "px";
+    kart.style.top = en.y + "px";
   }
 
   function ac() {
     if (!ort) kur();
+    adimlariKur();
     ort.classList.remove("gizli");
     git(0);
   }
 
   function kapat() {
     if (ort) ort.classList.add("gizli");
+    menuAyarla(false);
   }
 
   window.tanitimAc = ac;
