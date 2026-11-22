@@ -51,3 +51,34 @@ dönen nokta sayısı = 0.
 
 Emre "Koşu 41'i başlat" diyene kadar uygulanmaz. HAVVA koşudan önce bu isteği Emre'ye gösterir; kural onaylanırsa motor dalı
 ayrı açılır, tam yeniden inşa 7-8 saat, sonra iniş zinciri (`KOSU-YAYIN.md`).
+
+
+## 6. EK — Kaynaklı boşluk doğrulaması sonucu: Ⓑ nasıl davranmalı? (23 Kasım 2026, oturum "keen-boyd")
+
+Kaynak: `denetim/BOSLUK-DOGRULAMA-1123/RAPOR.md` (Roma MÖ 26 pilotu; Cassius Dio, Strabon, Res Gestae, Livius okundu; TDV/CAH okunmadı).
+Ölçüm (veriden, 5650 yerleşim): Roma'ya ≤100 km sahipsiz 727 yerleşim; MÖ 26'da 333 yerleşim Roma, 24 `__BOSLUK__`.
+
+**Ana bulgu: yukarıdaki §2 kuralı ("tek devlet çevreliyorsa o devletin sayılır") TEK BAŞINA YANLIŞ SONUÇ ÜRETİR.** Çünkü çevrili boşlukların
+bir kısmı kaynakta Roma'ya DEĞİL, Roma'ya bağlı kralların ya da bağımsız kabilelerin toprağıdır:
+
+| Sınıf | Kaynaklı örnek (MÖ 26) | Ⓑ ne yapsın |
+|---|---|---|
+| **A — doğrudan hâkimiyet** | Kyrenaika, Mısır, Makedonya, Akhaia, Po ovası, Sardinya | Ⓑ doldursun; ana karaya katsın; beyanlı yaklaşıklık |
+| **V — bağlı krallık (vassal)** | Amyntas (Pisidia/Likaonya), Odrys Trakyası, Herodes, Arkhelaos, Polemon | Ⓑ **doğrudan Roma boyamasın**. Ya ayrı `v:`/himaye kademesinde gösterilsin ya da boş kalsın; bağlı krallığı doğrudan Roma'ya katmak yasak |
+| **G — gerçek boşluk** (fethedilmemiş/bağımsız) | Kuzey İspanya (Kantabria/Asturias, Dio 53.25), Salassi, Garamantes, Dobruca-Getai | Ⓑ **DOLDURMASIN**. Boşluk, boşluk kalır |
+| **M — Roma hâkimiyeti ama kral yok** | Mauretania MÖ 33-25 (Dio 49.43.7) | Beyanlı yaklaşıklık: Roma; tek metin, temkinli |
+
+**Kural önerisi (Ⓑ çevrili-boşluk):** Ⓑ bir boşluğu ancak (1) çevreleyen devlet kaynakta o bölgenin **doğrudan** hâkimi ise (A/M),
+(2) o gün bölgede `v:`/bağlı krallık kaydı yoksa ve (3) bölge G sınıfı değilse doldursun. Sınıfı veri belirlesin: `kaynak:` içinde
+"ABİ MERKEZ" / "bağlı kral" / "fethedilmemiş" etiketi taşıyan kayıt Ⓑ için **durdurucu** olsun. Etiket yoksa Ⓑ **doldurmaz**.
+Böylece "beyansız yaklaşıklık" (CLAUDE.md'nin yasakladığı) üretilmez.
+
+**Atlas'ın fazla Roma'ya yazdığı yerler (ters yön, Ⓑ'den bağımsız veri işi):** kuzey İspanya (León, Santander, A Coruña, Pamplona),
+Dobruca/Kuzey Bulgaristan (Varna, Köstence, Lofça…), Konya/Antalya (Amyntas) — MÖ 26'da kaynakla çelişiyor; doğrudan metin okununca çıkarılmalı.
+Bu yüzden kural uygulanmadan ÖNCE bu kayıtlar düzelmezse Ⓑ yanlış bölgeyi büyütür.
+
+**Başka eklentiler:** Memphis (Mısır) yerleşimi hiç yok → eklenmeden Nil boşluğu kapanmaz; `Kartaca`/`Karthago` mükerrer (3 km). İkisi de tuzlu/motor etkisi
+olmayan veri işi, ama harita değişimi koşuyla görünür.
+
+**Bilinmeyen/ölçülemeyen:** Amyntas bölgesi doğrudan metinle okunmadı; Numidia MÖ 26 (Roma mı Juba II mi) çelişkili; bağlı krallıklar için ayrı
+devlet kimliği yok (Emre kararı gerek: açılsın mı?).
