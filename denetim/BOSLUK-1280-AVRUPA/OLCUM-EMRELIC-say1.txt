@@ -1,0 +1,95 @@
+AVRUPA kutusu: 2162 nokta
+  ilk pencere 1280'den sonra, kuruluş 1280 öncesi/yok     963
+  sahnede                                                 726
+  kuruluş sonra (meşru)                                   228
+  pencere yok                                             169
+  pencere arası boşluk/bitmiş                             76
+
+ilk pencere sonra — kaynak dosyaya göre: {'yerlesimler.js': 349, 'yerlesimler_avrupa.js': 126, 'yerlesimler_ek29.js': 67, 'yerlesimler_h2_rusya.js': 53, 'yerlesimler_zincir64.js': 42, 'yerlesimler_ek7.js': 34, 'yerlesimler_a78_avrupa.js': 27, 'yerlesimler_ek8.js': 20}
+ilk pencere başlangıç on yılı: {"1280'lar": 963}
+ilk pencere türü: {'s': 958, 'd': 5}
+
+örnek 25 (kuruluşsuz, ilk pencere sonra):
+  İnegöl                       sehir      kur=None ilk=1281-01-01/s yerlesimler.js
+  Aydos Kalesi                 kale       kur=None ilk=1281-01-01/s yerlesimler.js
+  Geyve                        kale       kur=None ilk=1281-01-01/s yerlesimler.js
+  Köprühisar (Yenişehir)       kale       kur=None ilk=1281-01-01/s yerlesimler.js
+  Marmaracık                   kale       kur=None ilk=1281-01-01/s yerlesimler.js
+  Akhisar (Pamukova)           kale       kur=None ilk=1281-01-01/s yerlesimler.js
+  Mekece                       kale       kur=None ilk=1281-01-01/s yerlesimler.js
+  Kestel                       kale       kur=None ilk=1281-01-01/s yerlesimler.js
+  Ulubat                       kale       kur=None ilk=1281-01-01/s yerlesimler.js
+  Harmankaya                   kale       kur=None ilk=1281-01-01/s yerlesimler.js
+  Akyazı                       sehir      kur=None ilk=1281-01-01/s yerlesimler.js
+  İmralı Adası                 kale       kur=None ilk=1281-01-01/s yerlesimler.js
+  Kandıra                      sehir      kur=None ilk=1281-01-01/s yerlesimler.js
+  Yalova                       liman      kur=None ilk=1281-01-01/s yerlesimler.js
+  Karamürsel                   liman      kur=None ilk=1281-01-01/s yerlesimler.js
+  Armutlu                      kale       kur=None ilk=1281-01-01/s yerlesimler.js
+  Marmaris                     liman      kur=None ilk=1281-01-01/s yerlesimler.js
+  Söke                         sehir      kur=None ilk=1281-01-01/s yerlesimler.js
+  Söğüt                        sehir      kur=None ilk=1281-01-01/d yerlesimler.js
+  Bozüyük                      sehir      kur=None ilk=1281-01-01/d yerlesimler.js
+  Ermeni Derbendi              kasaba     kur=None ilk=1281-01-01/d yerlesimler.js
+  Pazaryeri                    sehir      kur=None ilk=1281-01-01/d yerlesimler.js
+  Çeşme                        kale       kur=None ilk=1281-01-01/s yerlesimler.js
+  Muğla                        sehir      kur=None ilk=1281-01-01/s yerlesimler.js
+  Anamur                       kale       kur=None ilk=1281-01-01/s yerlesimler.js
+
+5° kareler (tüm nokta / 1280'de sahnede) — sahnede 0-2 olanlar:
+  lon   -10 lat  70  toplam   1 sahnede 1
+  lon    30 lat  70  toplam   1 sahnede 0
+  lon    50 lat  70  toplam   1 sahnede 1
+  lon    10 lat  65  toplam   2 sahnede 0
+  lon    15 lat  65  toplam   2 sahnede 0
+  lon    20 lat  65  toplam   4 sahnede 0
+  lon    25 lat  65  toplam   4 sahnede 0
+  lon    30 lat  65  toplam   3 sahnede 0
+  lon    35 lat  65  toplam   3 sahnede 0
+  lon    40 lat  65  toplam   2 sahnede 0
+  lon    50 lat  65  toplam   2 sahnede 0
+  lon    55 lat  65  toplam   1 sahnede 1
+  lon   -10 lat  60  toplam   3 sahnede 1
+  lon    -5 lat  60  toplam   1 sahnede 0
+  lon     5 lat  60  toplam   5 sahnede 0
+  lon    10 lat  60  toplam   7 sahnede 1
+  lon    15 lat  60  toplam   4 sahnede 0
+  lon    20 lat  60  toplam   8 sahnede 0
+  lon    25 lat  60  toplam  10 sahnede 0
+  lon    30 lat  60  toplam   3 sahnede 0
+  lon    35 lat  60  toplam   3 sahnede 0
+  lon    40 lat  60  toplam   5 sahnede 0
+  lon    45 lat  60  toplam   3 sahnede 0
+  lon    50 lat  60  toplam   1 sahnede 0
+  lon    55 lat  60  toplam   1 sahnede 0
+  lon   -10 lat  55  toplam   3 sahnede 1
+  lon     5 lat  55  toplam  11 sahnede 1
+  lon    10 lat  55  toplam  17 sahnede 2
+  lon    15 lat  55  toplam  11 sahnede 2
+  lon    25 lat  55  toplam  12 sahnede 2
+  lon    30 lat  55  toplam  11 sahnede 2
+  lon    35 lat  55  toplam  12 sahnede 1
+  lon    40 lat  55  toplam  10 sahnede 2
+  lon    45 lat  55  toplam   8 sahnede 0
+  lon    50 lat  55  toplam   7 sahnede 0
+  lon    55 lat  55  toplam   7 sahnede 0
+  lon    25 lat  50  toplam   9 sahnede 1
+  lon    35 lat  50  toplam  11 sahnede 2
+  lon    40 lat  50  toplam   4 sahnede 0
+  lon    45 lat  50  toplam  14 sahnede 1
+  lon    50 lat  50  toplam   6 sahnede 0
+  lon    55 lat  50  toplam   6 sahnede 0
+  lon    25 lat  45  toplam  41 sahnede 2
+  lon    30 lat  45  toplam  27 sahnede 2
+  lon    40 lat  45  toplam   8 sahnede 0
+  lon    45 lat  45  toplam   8 sahnede 2
+  lon    50 lat  45  toplam   1 sahnede 0
+  lon    55 lat  45  toplam   2 sahnede 0
+  lon    50 lat  40  toplam   4 sahnede 1
+  lon    55 lat  40  toplam   3 sahnede 2
+  lon     0 lat  30  toplam   1 sahnede 0
+  lon     5 lat  30  toplam   3 sahnede 1
+  lon    10 lat  30  toplam   2 sahnede 2
+  lon    30 lat  30  toplam   6 sahnede 1
+  lon    40 lat  30  toplam   9 sahnede 1
+  lon    50 lat  30  toplam   1 sahnede 0

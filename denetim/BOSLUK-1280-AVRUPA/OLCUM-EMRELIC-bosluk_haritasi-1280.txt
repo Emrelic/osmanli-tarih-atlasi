@@ -1,0 +1,87 @@
+========================================================================================
+BOŞLUK HARİTASI — nerede nokta eksik · kare 5°  ·  GÜN 1280-01-01
+========================================================================================
+🔴 1280-01-01'te SAHNEDE olan nokta: 1215 / 5648  (4433 tanesi o gün YOK)
+DEM: etopo2022_30s_atlas.tif · nokta: 1215
+
+KARA KARESİ: 441  ·  BOŞ (hiç nokta yok): 225 (%51)  ·  SEYREK (1-2): 127
+
+HALKA  bölge                      kare    BOŞ  seyrek    nokta
+----------------------------------------------------------------------------------------
+1      Osmanlı küresi              115     32      32      699
+2      birinci komşular            106     55      28      228
+3      komşuların komşuları         86     58      22       57
+4      dünyanın geri kalanı        134     80      45      110
+
+========================================================================================
+🔴 ÖNCELİKLİ BOŞLUKLAR — halka sırasıyla, kara oranı yüksek olan önce
+========================================================================================
+(kare = sol-alt köşe · kara% = karenin kara oranı · yük = medyan m)
+
+── HALKA 1 · Osmanlı küresi — 32 boş kare
+     -10.0°D   10.0°K   kara %100   yük   340 m
+       0.0°D   10.0°K   kara %100   yük   255 m
+      10.0°D   10.0°K   kara %100   yük   342 m
+      15.0°D   10.0°K   kara %100   yük   331 m
+      20.0°D   10.0°K   kara %100   yük   600 m
+      25.0°D   10.0°K   kara %100   yük   550 m
+     -15.0°D   15.0°K   kara %100   yük   108 m
+       0.0°D   15.0°K   kara %100   yük   358 m
+       5.0°D   15.0°K   kara %100   yük   473 m
+      10.0°D   15.0°K   kara %100   yük   421 m
+      15.0°D   15.0°K   kara %100   yük   342 m
+      45.0°D   15.0°K   kara %100   yük   798 m
+   … 20 kare daha
+
+── HALKA 2 · birinci komşular — 55 boş kare
+      10.0°D    5.0°K   kara %100   yük   674 m
+      15.0°D    5.0°K   kara %100   yük   460 m
+      20.0°D    5.0°K   kara %100   yük   605 m
+      70.0°D   35.0°K   kara %100   yük  3921 m
+      60.0°D   45.0°K   kara %100   yük   103 m
+      65.0°D   45.0°K   kara %100   yük   306 m
+      70.0°D   45.0°K   kara %100   yük   501 m
+      75.0°D   45.0°K   kara %100   yük   554 m
+      40.0°D   50.0°K   kara %100   yük   156 m
+      50.0°D   50.0°K   kara %100   yük   139 m
+      55.0°D   50.0°K   kara %100   yük   319 m
+      60.0°D   50.0°K   kara %100   yük   218 m
+   … 43 kare daha
+
+── HALKA 3 · komşuların komşuları — 58 boş kare
+      15.0°D  -15.0°K   kara %100   yük  1193 m
+      20.0°D  -15.0°K   kara %100   yük  1094 m
+      25.0°D  -15.0°K   kara %100   yük  1218 m
+      30.0°D  -15.0°K   kara %100   yük  1232 m
+      15.0°D  -10.0°K   kara %100   yük   852 m
+      20.0°D  -10.0°K   kara %100   yük   844 m
+      25.0°D  -10.0°K   kara %100   yük   900 m
+      30.0°D  -10.0°K   kara %100   yük  1228 m
+      15.0°D   -5.0°K   kara %100   yük   344 m
+      20.0°D   -5.0°K   kara %100   yük   446 m
+      25.0°D   -5.0°K   kara %100   yük   716 m
+      30.0°D   -5.0°K   kara %100   yük  1200 m
+   … 46 kare daha
+
+── HALKA 4 · dünyanın geri kalanı — 80 boş kare
+     100.0°D   15.0°K   kara %100   yük   277 m
+     100.0°D   40.0°K   kara %100   yük  1274 m
+     105.0°D   40.0°K   kara %100   yük  1171 m
+     115.0°D   40.0°K   kara %100   yük  1030 m
+     105.0°D   45.0°K   kara %100   yük  1344 m
+     110.0°D   45.0°K   kara %100   yük  1061 m
+     115.0°D   45.0°K   kara %100   yük   752 m
+     120.0°D   45.0°K   kara %100   yük   428 m
+     125.0°D   45.0°K   kara %100   yük   265 m
+     130.0°D   45.0°K   kara %100   yük   152 m
+     110.0°D   50.0°K   kara %100   yük  1051 m
+     115.0°D   50.0°K   kara %100   yük   806 m
+   … 68 kare daha
+
+========================================================================================
+⚠️ BOŞ KARE HER ZAMAN KUSUR DEĞİLDİR — üç sebep var ve bu betik
+   onları AYIRMAZ:  ① gerçekten yerleşim yoktu  ② yazılmadı
+   ③ kasıtlı boş (o kare zaten 'boş' görünmez, noktası VAR)
+   ①'i ②'den ayırmak ARAŞTIRMADIR. Bu liste nereye BAKILACAĞINI
+   söyler, ne yazılacağını değil.
+done
