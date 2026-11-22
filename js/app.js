@@ -16783,13 +16783,21 @@ function isaretYanipSon(hedef, glif) {
     // ODAK-MEKANIZMA-0080 ④/6 — tek kapı; ÖNCEKİ halka yine de silinir
     // (yoksa bir önceki maddenin halkası bölge maddesinde asılı kalır).
     if (hedef && hedef.bolge && !BOLGE_ISARET) return;
+    // 🔴 22 Kasım 2026 (Emre: "yanıp sönen yuvarlak hep haritanın uç kısmında"):
+    // MapLibre Marker elemanın KENDİ `transform`unu konum için kullanır;
+    // `odakParla` da `transform: scale` animasyonu yapar → aynı elemanda
+    // animasyon konumu eziyor, halka konteynerin köşesine kayıyordu. Marker
+    // elemanı düz bir KAP; animasyon İÇ halkada.
     var el = document.createElement("div");
-    el.className = "odak-parlama";
+    el.className = "odak-isaret";
+    var halka = document.createElement("div");
+    halka.className = "odak-parlama";
+    el.appendChild(halka);
     if (glif) {
       var g = document.createElement("span");
       g.className = "odak-glif";
       g.textContent = glif;
-      el.appendChild(g);
+      halka.appendChild(g);
     }
     _yanipSonEl = new maplibregl.Marker({ element: el, anchor: "center" })
       .setLngLat([hedef.lon, hedef.lat]).addTo(harita);

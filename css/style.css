@@ -2889,6 +2889,9 @@ span.ob-madde-gorsel-kaynak { color: #6b5a33; border-bottom: none; font-style: i
   45%  { transform: scale(1.35); opacity: 0.95; }
   100% { transform: scale(0.55); opacity: 0.15; }
 }
+/* Marker kabı: konumu MapLibre'in transform'u verir; animasyon İÇ halkada
+   (aynı elemanda olursa scale konumu ezer — halka köşeye kaçar). */
+.odak-isaret { width: 34px; height: 34px; pointer-events: none; }
 .odak-parlama {
   width: 34px;
   height: 34px;
