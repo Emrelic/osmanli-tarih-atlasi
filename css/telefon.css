@@ -47,21 +47,17 @@
   /* ① Üst çubuk: tek satır. ☰ Butonlar · BETA · YIL(ortada) · ⇥ Daralt · Dil */
   #ustbar { flex-wrap: nowrap; gap: 4px; padding: 3px 6px; align-items: center; }
   #ustbar #btn-menu { order: 0; flex: 0 0 auto; padding-left: 8px; padding-right: 8px; }
-  #ustbar #btn-beta {
-    order: 1; display: inline-flex; align-items: center; justify-content: center; line-height: 1;
-    flex: 0 0 auto; min-width: 36px; padding: 0 6px;
-  }
-  #ustbar #ustbar-yil { order: 2; flex: 1 1 auto; text-align: center; min-width: 0; }
-  #ustbar #btn-panel { order: 3; margin-left: 0; flex: 0 0 auto; padding-left: 8px; padding-right: 8px; }
-  #ustbar #dil-secici { order: 4; margin-left: 0; flex: 0 0 auto; max-width: 5.6em; }
+  /* 22 Kasım (Emre): BETA yazısı kalktı (js/marka.js telefonda onu ☰ penceresine koyar); yıl en sağ
+     üstte ve büyük; dil ile kronoloji düğmesi sola kaydı; +/− düğmeleri haritadan komple kalktı.
+     Soldan sağa: ☰ Butonlar · ▾ Kronoloji · (kamera deliği) · Dil · YIL */
+  #ustbar #btn-beta { display: none; }
+  #ustbar #btn-panel { order: 1; margin-left: 0; flex: 0 0 auto; padding-left: 7px; padding-right: 7px; font-size: 12px; }
+  #ustbar #dil-secici { order: 3; margin-left: auto; flex: 0 0 auto; max-width: 5.2em; }
+  #ustbar #ustbar-yil { order: 4; flex: 0 0 auto; text-align: right; min-width: 0; font-size: 26px; line-height: 1; }
   /* Tarih + dönem adı satırı kalktı (yeri haritaya); tarih zaten kronolojide yazıyor. */
   #ustbar #ustbar-orta { display: none; }
-  /* Yakınlaştır +/−: üst çubuktan çıktı, haritanın sol üstüne yüzer. */
-  #ustbar #yakin-grup {
-    position: fixed; top: 54px; right: calc(6px + env(safe-area-inset-right)); left: auto; z-index: 30;
-    display: flex; flex-direction: column; gap: 6px; opacity: .92;
-  }
-  #ustbar #yakin-grup button { width: 44px; height: 44px; min-width: 44px; min-height: 44px; }
+  /* Yakınlaştır +/− KALDIRILDI (parmakla yakınlaştırma var). */
+  #ustbar #yakin-grup { display: none; }
 
   /* ② Oynatma şeridi: zaman çubuğu (kaydırıcı) YOK; tek satırda
         ⏮ ▶ ⏭ · Olay olay · hız · Uçuş ⚙  — altında tarihe git / şehir. */
@@ -117,6 +113,8 @@
   }
   #detay-metin { max-height: none; }
   /* Harekât/lejant haritanın en çok üçte birini örter. */
+  /* "İşgal altında" simge kutusu haritada görünmez (Emre 22 Kasım); JS satır içi display açar → !important. */
+  #isgal-lejant { display: none !important; }
   .lejant { max-width: 34%; max-height: 30%; overflow-y: auto; font-size: 11px; padding: 3px 6px; }
 }
 
@@ -135,17 +133,10 @@
   #zamanbar { border-top-width: 3px; }
 }
 
-/* Ön kamera deliği: dikey telefonda üst çubuğun TAM ORTASINDA (tam ekranda ekranın içine biner).
-   Yıl ortadan sağa kaydı: kamera payı 24 px, yıl onun sağında; ☰ Butonlar + BETA solda kalır. */
+/* Ön kamera deliği dikeyde üst çubuğun TAM ORTASINDA: sola ☰ Butonlar + ▾ Kronoloji (≈160 px),
+   sağa Dil + YIL; orta (≈175–200 px) BOŞ kalır. Kronoloji gizlenince harita tüm yüksekliği alır. */
 @media (pointer: coarse) and (orientation: portrait) and (max-width: 700px) {
-  #ustbar { position: relative; }
-  #ustbar #ustbar-yil {
-    position: absolute; left: calc(50% + 20px); top: 50%; transform: translateY(-50%);
-    flex: none; text-align: left; font-size: 18px; letter-spacing: 0; z-index: 1;
-  }
-  /* Sağ yarıda yıl + Daralt + dil sığsın diye ikisi bir tık küçük. */
-  #ustbar #btn-panel { margin-left: auto; font-size: 11px; padding-left: 4px; padding-right: 4px; min-width: 0; }
-  #ustbar #dil-secici { font-size: 12px; max-width: 4.4em; padding-left: 2px; padding-right: 2px; }
+  #govde:has(#yanpanel.katli) #sol-govde { flex: 1 1 auto; }
 }
 
 /* Dar telefon (≤380 px genişlik, ör. 360×640): oynat şeridi yazıları bir tık küçülür, "Olay olay" kesilmesin. */
@@ -157,7 +148,6 @@
 
 /* Kısa dikey ekran (≤700 px yükseklik, ör. 360×640): harita bir parça büyür. */
 @media (pointer: coarse) and (orientation: portrait) and (max-width: 700px) and (max-height: 700px) {
-  #ustbar #yakin-grup { top: 50px; }
   /* Kısa ekranda liste 39 px'e eziliyordu (LAB/benim ölçüm 360×640): hükümdar kartı gizli, detay payı küçük. */
   :root { --detay-pay: 22dvh; }
   #yanpanel #padisah-karti { display: none; }
@@ -176,7 +166,6 @@
   }
   #yanpanel.katli { flex: 0 0 0; border-left: none; }
   #ustbar { padding: 2px 6px; }
-  /* +/−: haritanın (sol yarının) sağ kenarında, sağ sütunun üstüne taşmasın. */
-  #ustbar #yakin-grup { top: 46px; left: auto; right: calc(50% + 6px); }
+  #govde:has(#yanpanel.katli) #sol-govde { flex: 1 1 auto; }
   #zamanbar { padding: 2px 6px; }
 }

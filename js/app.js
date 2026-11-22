@@ -15096,9 +15096,19 @@ var PANEL_BASLIK = {
   kapali: "Panel kapali — tikla, GENISLESIN"
 };
 var btnPanel = document.getElementById("btn-panel");
+// 22 Kasım 2026 — Emre (telefon): "Daralt/Genişlet düğmesi alakasız yerde duruyor." Telefonda panel
+// alta yığılır, "daralt" diye bir şey yoktur: düğme KRONOLOJİYİ gizle/göster olur (iki kademe) ve adını
+// taşır ("▾ Kronoloji" açıkken · "▴ Kronoloji" gizliyken) — neyi yönettiği yazıdan anlaşılsın.
+var PANEL_DOKUNMATIK = false;
+try { PANEL_DOKUNMATIK = !!(window.matchMedia && window.matchMedia("(pointer: coarse)").matches); } catch (e) { /* eski tarayıcı */ }
+if (PANEL_DOKUNMATIK) {
+  PANEL_ETIKET = { genis: "▾ Kronoloji", dar: "▾ Kronoloji", kapali: "▴ Kronoloji" };
+  PANEL_BASLIK = { genis: "Kronolojiyi gizle (haritayı büyüt)", dar: "Kronolojiyi gizle (haritayı büyüt)", kapali: "Kronolojiyi göster" };
+}
 
 function panelKademeUygula(kademe, tuvaliTazele) {
   if (PANEL_KADEMELER.indexOf(kademe) === -1) kademe = "genis";
+  if (PANEL_DOKUNMATIK && kademe === "dar") kademe = "genis";
   var yp = document.getElementById("yanpanel");
   var katli = (kademe === "kapali");
   yp.classList.toggle("katli", katli);
@@ -15135,6 +15145,7 @@ btnPanel.addEventListener("click", function () {
   var simdiki = yp.classList.contains("katli") ? "kapali"
               : (yp.classList.contains("dar") ? "dar" : "genis");
   var sonraki = PANEL_KADEMELER[(PANEL_KADEMELER.indexOf(simdiki) + 1) % 3];
+  if (PANEL_DOKUNMATIK) sonraki = (simdiki === "kapali") ? "genis" : "kapali";
   panelKademeUygula(sonraki);
   localStorage.setItem("panelKademe", sonraki);
 });
