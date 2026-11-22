@@ -1,0 +1,324 @@
+{
+ "yerler": [
+  {
+   "ad": "Hâil",
+   "donemler": [
+    {
+     "f": "1281-01-01",
+     "t": "1500-01-01",
+     "sahip": "__BOSLUK__",
+     "kaynak": [
+      {
+       "kunye": "TDV İslâm Ansiklopedisi, 'NECİD' (Zekeriya Kurşun, 2006) https://islamansiklopedisi.org.tr/necid",
+       "alinti": "bu coğrafyada tarihte etkin olmuş bir devlet ortaya çıkmamıştır",
+       "sayfa": "web maddesi, tek bölüm (yerel: a1-arabistan/tdv/t_necid.txt)"
+      },
+      {
+       "kunye": "TDV İslâm Ansiklopedisi, 'NECİD' (Zekeriya Kurşun, 2006) https://islamansiklopedisi.org.tr/necid",
+       "alinti": "Necid’de hüküm süren geleneksel yapı tam bir devlet idaresinin tesisine imkân vermemekteydi",
+       "sayfa": "web maddesi, tek bölüm (yerel: a1-arabistan/tdv/t_necid.txt)"
+      },
+      {
+       "kunye": "TDV İslâm Ansiklopedisi, 'NECİD' (Zekeriya Kurşun, 2006) https://islamansiklopedisi.org.tr/necid",
+       "alinti": "Abbâsîler devrinde IV. (X.) yüzyıldan sonra zaman zaman Mekke şerifleri nüfuzlarını Necid’de kabul ettirdiler",
+       "sayfa": "web maddesi, tek bölüm (yerel: a1-arabistan/tdv/t_necid.txt)"
+      }
+     ],
+     "hassasiyet": "beyanlı boşluk (kabile bölgesi); TDV yüzyıl düzeyi, gün yok",
+     "not": "ALTERNATİF: mekke-serifligi (devletler.js + renkler.py'de var) nominal nüfuz; ama TDV nüfuzu 'zekât ve öşür toplamaktan ibaret' sayıyor → boya beyansız yaklaşıklık olur; ÖNERİLMEZ."
+    },
+    {
+     "f": "1500-01-01",
+     "t": "1744-01-01",
+     "sahip": "__BOSLUK__",
+     "kaynak": [
+      {
+       "kunye": "TDV İslâm Ansiklopedisi, 'NECİD' (Zekeriya Kurşun, 2006) https://islamansiklopedisi.org.tr/necid",
+       "alinti": "Necid’de hüküm süren geleneksel yapı tam bir devlet idaresinin tesisine imkân vermemekteydi",
+       "sayfa": "web maddesi, tek bölüm (yerel: a1-arabistan/tdv/t_necid.txt)"
+      },
+      {
+       "kunye": "TDV İslâm Ansiklopedisi, 'NECİD' (Zekeriya Kurşun, 2006) https://islamansiklopedisi.org.tr/necid",
+       "alinti": "Ortaçağ’lardan beri Mekke şeriflerinin nüfuzu altındaki Necid kabilelerinin statüsüne dokunulmadı",
+       "sayfa": "web maddesi, tek bölüm (yerel: a1-arabistan/tdv/t_necid.txt)"
+      },
+      {
+       "kunye": "TDV İslâm Ansiklopedisi, 'NECİD' (Zekeriya Kurşun, 2006) https://islamansiklopedisi.org.tr/necid",
+       "alinti": "Necid kabileleri yakın bulundukları eyaletlerin aracılığı ile geleneklerine dokunulmadan yönetilir oldu",
+       "sayfa": "web maddesi, tek bölüm (yerel: a1-arabistan/tdv/t_necid.txt)"
+      },
+      {
+       "kunye": "TDV İslâm Ansiklopedisi, 'NECİD' (Zekeriya Kurşun, 2006) https://islamansiklopedisi.org.tr/necid",
+       "alinti": "vergilerini vermeleri ve padişah adına hutbe okutmaları karşılığında Osmanlı Devleti bunların geleneksel idarelerinin devamına göz yumdu",
+       "sayfa": "web maddesi, tek bölüm (yerel: a1-arabistan/tdv/t_necid.txt)"
+      }
+     ],
+     "hassasiyet": "beyanlı boşluk; 1517 sonrası Osmanlı yalnız dolaylı (Bağdat/Lahsâ/Cidde aracılığı, hutbe+vergi)",
+     "not": "ALTERNATİF (düşük güven): 'osmanli' nominal suzerenlik; TDV başlangıç yılı/sınır vermiyor ve Lahsâ 1670'te Benî Hâlid'e geçti; ÖNERİLMEZ. 1700-01-01 günü için de BOSLUK beyanlı."
+    }
+   ],
+   "var_mi": "TDV Hâtim et-Tâî: 'Hâil vadisinin Tünega yöresi' (Câhiliye) → bölge eski; şehrin ilk tanığı OKUNMADI/bulunamadı, kur: önerilmez.",
+   "not": "Hâil 1779'a dek Abde/Şemmer'den İbn Ali ailesi yönetiminde yerel emirlik (TDV Reşîdîler, M. al-Rasheed 2008: '1779’da Suûdî-Vehhâbî güçleri Hâil emirliğini ele geçirdikleri sırada yönetim ... İbn Ali ailesindeydi'). Atlasta Hâil'in ilk penceresi 1779 (TDV ile uyumlu); 1744-1779 aralığı da boşluk kalmalı (Suûd-birinci Hâil'i 1779'da aldı). Abi merkez (merdiven 5) TDV'de bulunamadı."
+  },
+  {
+   "ad": "Buraydâ (Kasîm)",
+   "donemler": [
+    {
+     "f": "1281-01-01",
+     "t": "1500-01-01",
+     "sahip": "__BOSLUK__",
+     "kaynak": [
+      {
+       "kunye": "TDV İslâm Ansiklopedisi, 'NECİD' (Zekeriya Kurşun, 2006) https://islamansiklopedisi.org.tr/necid",
+       "alinti": "bu coğrafyada tarihte etkin olmuş bir devlet ortaya çıkmamıştır",
+       "sayfa": "web maddesi, tek bölüm (yerel: a1-arabistan/tdv/t_necid.txt)"
+      },
+      {
+       "kunye": "TDV İslâm Ansiklopedisi, 'NECİD' (Zekeriya Kurşun, 2006) https://islamansiklopedisi.org.tr/necid",
+       "alinti": "Necid’de hüküm süren geleneksel yapı tam bir devlet idaresinin tesisine imkân vermemekteydi",
+       "sayfa": "web maddesi, tek bölüm (yerel: a1-arabistan/tdv/t_necid.txt)"
+      },
+      {
+       "kunye": "TDV İslâm Ansiklopedisi, 'NECİD' (Zekeriya Kurşun, 2006) https://islamansiklopedisi.org.tr/necid",
+       "alinti": "Abbâsîler devrinde IV. (X.) yüzyıldan sonra zaman zaman Mekke şerifleri nüfuzlarını Necid’de kabul ettirdiler",
+       "sayfa": "web maddesi, tek bölüm (yerel: a1-arabistan/tdv/t_necid.txt)"
+      }
+     ],
+     "hassasiyet": "beyanlı boşluk (kabile bölgesi); TDV yüzyıl düzeyi, gün yok",
+     "not": "ALTERNATİF: mekke-serifligi (devletler.js + renkler.py'de var) nominal nüfuz; ama TDV nüfuzu 'zekât ve öşür toplamaktan ibaret' sayıyor → boya beyansız yaklaşıklık olur; ÖNERİLMEZ."
+    },
+    {
+     "f": "1500-01-01",
+     "t": "1744-01-01",
+     "sahip": "__BOSLUK__",
+     "kaynak": [
+      {
+       "kunye": "TDV İslâm Ansiklopedisi, 'NECİD' (Zekeriya Kurşun, 2006) https://islamansiklopedisi.org.tr/necid",
+       "alinti": "Necid’de hüküm süren geleneksel yapı tam bir devlet idaresinin tesisine imkân vermemekteydi",
+       "sayfa": "web maddesi, tek bölüm (yerel: a1-arabistan/tdv/t_necid.txt)"
+      },
+      {
+       "kunye": "TDV İslâm Ansiklopedisi, 'NECİD' (Zekeriya Kurşun, 2006) https://islamansiklopedisi.org.tr/necid",
+       "alinti": "Ortaçağ’lardan beri Mekke şeriflerinin nüfuzu altındaki Necid kabilelerinin statüsüne dokunulmadı",
+       "sayfa": "web maddesi, tek bölüm (yerel: a1-arabistan/tdv/t_necid.txt)"
+      },
+      {
+       "kunye": "TDV İslâm Ansiklopedisi, 'NECİD' (Zekeriya Kurşun, 2006) https://islamansiklopedisi.org.tr/necid",
+       "alinti": "Necid kabileleri yakın bulundukları eyaletlerin aracılığı ile geleneklerine dokunulmadan yönetilir oldu",
+       "sayfa": "web maddesi, tek bölüm (yerel: a1-arabistan/tdv/t_necid.txt)"
+      },
+      {
+       "kunye": "TDV İslâm Ansiklopedisi, 'NECİD' (Zekeriya Kurşun, 2006) https://islamansiklopedisi.org.tr/necid",
+       "alinti": "vergilerini vermeleri ve padişah adına hutbe okutmaları karşılığında Osmanlı Devleti bunların geleneksel idarelerinin devamına göz yumdu",
+       "sayfa": "web maddesi, tek bölüm (yerel: a1-arabistan/tdv/t_necid.txt)"
+      }
+     ],
+     "hassasiyet": "beyanlı boşluk; 1517 sonrası Osmanlı yalnız dolaylı (Bağdat/Lahsâ/Cidde aracılığı, hutbe+vergi)",
+     "not": "ALTERNATİF (düşük güven): 'osmanli' nominal suzerenlik; TDV başlangıç yılı/sınır vermiyor ve Lahsâ 1670'te Benî Hâlid'e geçti; ÖNERİLMEZ. 1700-01-01 günü için de BOSLUK beyanlı."
+    }
+   ],
+   "var_mi": "Kuruluş/ilk tanık OKUNMADI; 1281'de var olup olmadığı kaynakla TEYİT EDİLEMEDİ.",
+   "not": "TDV Necid Kasîm'i Necd-i Hicâzî sayar; ayrı TDV 'Kasîm' madde slug'ı çekilemedi (OKUNMADI). Yerel emirlik (el-Cerrâh vb.) kaynağı bulunamadı."
+  },
+  {
+   "ad": "Uneyze",
+   "donemler": [
+    {
+     "f": "1281-01-01",
+     "t": "1500-01-01",
+     "sahip": "__BOSLUK__",
+     "kaynak": [
+      {
+       "kunye": "TDV İslâm Ansiklopedisi, 'NECİD' (Zekeriya Kurşun, 2006) https://islamansiklopedisi.org.tr/necid",
+       "alinti": "bu coğrafyada tarihte etkin olmuş bir devlet ortaya çıkmamıştır",
+       "sayfa": "web maddesi, tek bölüm (yerel: a1-arabistan/tdv/t_necid.txt)"
+      },
+      {
+       "kunye": "TDV İslâm Ansiklopedisi, 'NECİD' (Zekeriya Kurşun, 2006) https://islamansiklopedisi.org.tr/necid",
+       "alinti": "Necid’de hüküm süren geleneksel yapı tam bir devlet idaresinin tesisine imkân vermemekteydi",
+       "sayfa": "web maddesi, tek bölüm (yerel: a1-arabistan/tdv/t_necid.txt)"
+      },
+      {
+       "kunye": "TDV İslâm Ansiklopedisi, 'NECİD' (Zekeriya Kurşun, 2006) https://islamansiklopedisi.org.tr/necid",
+       "alinti": "Abbâsîler devrinde IV. (X.) yüzyıldan sonra zaman zaman Mekke şerifleri nüfuzlarını Necid’de kabul ettirdiler",
+       "sayfa": "web maddesi, tek bölüm (yerel: a1-arabistan/tdv/t_necid.txt)"
+      }
+     ],
+     "hassasiyet": "beyanlı boşluk (kabile bölgesi); TDV yüzyıl düzeyi, gün yok",
+     "not": "ALTERNATİF: mekke-serifligi (devletler.js + renkler.py'de var) nominal nüfuz; ama TDV nüfuzu 'zekât ve öşür toplamaktan ibaret' sayıyor → boya beyansız yaklaşıklık olur; ÖNERİLMEZ."
+    },
+    {
+     "f": "1500-01-01",
+     "t": "1744-01-01",
+     "sahip": "__BOSLUK__",
+     "kaynak": [
+      {
+       "kunye": "TDV İslâm Ansiklopedisi, 'NECİD' (Zekeriya Kurşun, 2006) https://islamansiklopedisi.org.tr/necid",
+       "alinti": "Necid’de hüküm süren geleneksel yapı tam bir devlet idaresinin tesisine imkân vermemekteydi",
+       "sayfa": "web maddesi, tek bölüm (yerel: a1-arabistan/tdv/t_necid.txt)"
+      },
+      {
+       "kunye": "TDV İslâm Ansiklopedisi, 'NECİD' (Zekeriya Kurşun, 2006) https://islamansiklopedisi.org.tr/necid",
+       "alinti": "Ortaçağ’lardan beri Mekke şeriflerinin nüfuzu altındaki Necid kabilelerinin statüsüne dokunulmadı",
+       "sayfa": "web maddesi, tek bölüm (yerel: a1-arabistan/tdv/t_necid.txt)"
+      },
+      {
+       "kunye": "TDV İslâm Ansiklopedisi, 'NECİD' (Zekeriya Kurşun, 2006) https://islamansiklopedisi.org.tr/necid",
+       "alinti": "Necid kabileleri yakın bulundukları eyaletlerin aracılığı ile geleneklerine dokunulmadan yönetilir oldu",
+       "sayfa": "web maddesi, tek bölüm (yerel: a1-arabistan/tdv/t_necid.txt)"
+      },
+      {
+       "kunye": "TDV İslâm Ansiklopedisi, 'NECİD' (Zekeriya Kurşun, 2006) https://islamansiklopedisi.org.tr/necid",
+       "alinti": "vergilerini vermeleri ve padişah adına hutbe okutmaları karşılığında Osmanlı Devleti bunların geleneksel idarelerinin devamına göz yumdu",
+       "sayfa": "web maddesi, tek bölüm (yerel: a1-arabistan/tdv/t_necid.txt)"
+      }
+     ],
+     "hassasiyet": "beyanlı boşluk; 1517 sonrası Osmanlı yalnız dolaylı (Bağdat/Lahsâ/Cidde aracılığı, hutbe+vergi)",
+     "not": "ALTERNATİF (düşük güven): 'osmanli' nominal suzerenlik; TDV başlangıç yılı/sınır vermiyor ve Lahsâ 1670'te Benî Hâlid'e geçti; ÖNERİLMEZ. 1700-01-01 günü için de BOSLUK beyanlı."
+    }
+   ],
+   "var_mi": "Kuruluş/ilk tanık OKUNMADI.",
+   "not": "Aynı Kasîm zinciri. Âl Zâmil/Âl Ebâ vb. kaynak OKUNMADI."
+  },
+  {
+   "ad": "Necid içi",
+   "donemler": [
+    {
+     "f": "1281-01-01",
+     "t": "1500-01-01",
+     "sahip": "__BOSLUK__",
+     "kaynak": [
+      {
+       "kunye": "TDV İslâm Ansiklopedisi, 'NECİD' (Zekeriya Kurşun, 2006) https://islamansiklopedisi.org.tr/necid",
+       "alinti": "bu coğrafyada tarihte etkin olmuş bir devlet ortaya çıkmamıştır",
+       "sayfa": "web maddesi, tek bölüm (yerel: a1-arabistan/tdv/t_necid.txt)"
+      },
+      {
+       "kunye": "TDV İslâm Ansiklopedisi, 'NECİD' (Zekeriya Kurşun, 2006) https://islamansiklopedisi.org.tr/necid",
+       "alinti": "Necid’de hüküm süren geleneksel yapı tam bir devlet idaresinin tesisine imkân vermemekteydi",
+       "sayfa": "web maddesi, tek bölüm (yerel: a1-arabistan/tdv/t_necid.txt)"
+      },
+      {
+       "kunye": "TDV İslâm Ansiklopedisi, 'NECİD' (Zekeriya Kurşun, 2006) https://islamansiklopedisi.org.tr/necid",
+       "alinti": "Abbâsîler devrinde IV. (X.) yüzyıldan sonra zaman zaman Mekke şerifleri nüfuzlarını Necid’de kabul ettirdiler",
+       "sayfa": "web maddesi, tek bölüm (yerel: a1-arabistan/tdv/t_necid.txt)"
+      }
+     ],
+     "hassasiyet": "beyanlı boşluk (kabile bölgesi); TDV yüzyıl düzeyi, gün yok",
+     "not": "ALTERNATİF: mekke-serifligi (devletler.js + renkler.py'de var) nominal nüfuz; ama TDV nüfuzu 'zekât ve öşür toplamaktan ibaret' sayıyor → boya beyansız yaklaşıklık olur; ÖNERİLMEZ."
+    },
+    {
+     "f": "1500-01-01",
+     "t": "1744-01-01",
+     "sahip": "__BOSLUK__",
+     "kaynak": [
+      {
+       "kunye": "TDV İslâm Ansiklopedisi, 'NECİD' (Zekeriya Kurşun, 2006) https://islamansiklopedisi.org.tr/necid",
+       "alinti": "Necid’de hüküm süren geleneksel yapı tam bir devlet idaresinin tesisine imkân vermemekteydi",
+       "sayfa": "web maddesi, tek bölüm (yerel: a1-arabistan/tdv/t_necid.txt)"
+      },
+      {
+       "kunye": "TDV İslâm Ansiklopedisi, 'NECİD' (Zekeriya Kurşun, 2006) https://islamansiklopedisi.org.tr/necid",
+       "alinti": "Ortaçağ’lardan beri Mekke şeriflerinin nüfuzu altındaki Necid kabilelerinin statüsüne dokunulmadı",
+       "sayfa": "web maddesi, tek bölüm (yerel: a1-arabistan/tdv/t_necid.txt)"
+      },
+      {
+       "kunye": "TDV İslâm Ansiklopedisi, 'NECİD' (Zekeriya Kurşun, 2006) https://islamansiklopedisi.org.tr/necid",
+       "alinti": "Necid kabileleri yakın bulundukları eyaletlerin aracılığı ile geleneklerine dokunulmadan yönetilir oldu",
+       "sayfa": "web maddesi, tek bölüm (yerel: a1-arabistan/tdv/t_necid.txt)"
+      },
+      {
+       "kunye": "TDV İslâm Ansiklopedisi, 'NECİD' (Zekeriya Kurşun, 2006) https://islamansiklopedisi.org.tr/necid",
+       "alinti": "vergilerini vermeleri ve padişah adına hutbe okutmaları karşılığında Osmanlı Devleti bunların geleneksel idarelerinin devamına göz yumdu",
+       "sayfa": "web maddesi, tek bölüm (yerel: a1-arabistan/tdv/t_necid.txt)"
+      }
+     ],
+     "hassasiyet": "beyanlı boşluk; 1517 sonrası Osmanlı yalnız dolaylı (Bağdat/Lahsâ/Cidde aracılığı, hutbe+vergi)",
+     "not": "ALTERNATİF (düşük güven): 'osmanli' nominal suzerenlik; TDV başlangıç yılı/sınır vermiyor ve Lahsâ 1670'te Benî Hâlid'e geçti; ÖNERİLMEZ. 1700-01-01 günü için de BOSLUK beyanlı."
+    }
+   ],
+   "var_mi": "Bölge: TDV Necid 'en eski göçebe Arap kabilelerinin yaşadığı bir mekân'; Mutayr, Ucmân, Mürre, Uteybe, Harb, Aneze.",
+   "not": "Bölge noktası."
+  },
+  {
+   "ad": "Nefud çölü",
+   "donemler": [
+    {
+     "f": "1281-01-01",
+     "t": "1500-01-01",
+     "sahip": "__BOSLUK__",
+     "kaynak": [
+      {
+       "kunye": "TDV İslâm Ansiklopedisi, 'NECİD' (Zekeriya Kurşun, 2006) https://islamansiklopedisi.org.tr/necid",
+       "alinti": "bu coğrafyada tarihte etkin olmuş bir devlet ortaya çıkmamıştır",
+       "sayfa": "web maddesi, tek bölüm (yerel: a1-arabistan/tdv/t_necid.txt)"
+      },
+      {
+       "kunye": "TDV İslâm Ansiklopedisi, 'NECİD' (Zekeriya Kurşun, 2006) https://islamansiklopedisi.org.tr/necid",
+       "alinti": "Necid’de hüküm süren geleneksel yapı tam bir devlet idaresinin tesisine imkân vermemekteydi",
+       "sayfa": "web maddesi, tek bölüm (yerel: a1-arabistan/tdv/t_necid.txt)"
+      },
+      {
+       "kunye": "TDV İslâm Ansiklopedisi, 'NECİD' (Zekeriya Kurşun, 2006) https://islamansiklopedisi.org.tr/necid",
+       "alinti": "Abbâsîler devrinde IV. (X.) yüzyıldan sonra zaman zaman Mekke şerifleri nüfuzlarını Necid’de kabul ettirdiler",
+       "sayfa": "web maddesi, tek bölüm (yerel: a1-arabistan/tdv/t_necid.txt)"
+      }
+     ],
+     "hassasiyet": "beyanlı boşluk (kabile bölgesi); TDV yüzyıl düzeyi, gün yok",
+     "not": "ALTERNATİF: mekke-serifligi (devletler.js + renkler.py'de var) nominal nüfuz; ama TDV nüfuzu 'zekât ve öşür toplamaktan ibaret' sayıyor → boya beyansız yaklaşıklık olur; ÖNERİLMEZ."
+    },
+    {
+     "f": "1500-01-01",
+     "t": "1744-01-01",
+     "sahip": "__BOSLUK__",
+     "kaynak": [
+      {
+       "kunye": "TDV İslâm Ansiklopedisi, 'NECİD' (Zekeriya Kurşun, 2006) https://islamansiklopedisi.org.tr/necid",
+       "alinti": "Necid’de hüküm süren geleneksel yapı tam bir devlet idaresinin tesisine imkân vermemekteydi",
+       "sayfa": "web maddesi, tek bölüm (yerel: a1-arabistan/tdv/t_necid.txt)"
+      },
+      {
+       "kunye": "TDV İslâm Ansiklopedisi, 'NECİD' (Zekeriya Kurşun, 2006) https://islamansiklopedisi.org.tr/necid",
+       "alinti": "Ortaçağ’lardan beri Mekke şeriflerinin nüfuzu altındaki Necid kabilelerinin statüsüne dokunulmadı",
+       "sayfa": "web maddesi, tek bölüm (yerel: a1-arabistan/tdv/t_necid.txt)"
+      },
+      {
+       "kunye": "TDV İslâm Ansiklopedisi, 'NECİD' (Zekeriya Kurşun, 2006) https://islamansiklopedisi.org.tr/necid",
+       "alinti": "Necid kabileleri yakın bulundukları eyaletlerin aracılığı ile geleneklerine dokunulmadan yönetilir oldu",
+       "sayfa": "web maddesi, tek bölüm (yerel: a1-arabistan/tdv/t_necid.txt)"
+      },
+      {
+       "kunye": "TDV İslâm Ansiklopedisi, 'NECİD' (Zekeriya Kurşun, 2006) https://islamansiklopedisi.org.tr/necid",
+       "alinti": "vergilerini vermeleri ve padişah adına hutbe okutmaları karşılığında Osmanlı Devleti bunların geleneksel idarelerinin devamına göz yumdu",
+       "sayfa": "web maddesi, tek bölüm (yerel: a1-arabistan/tdv/t_necid.txt)"
+      }
+     ],
+     "hassasiyet": "beyanlı boşluk; 1517 sonrası Osmanlı yalnız dolaylı (Bağdat/Lahsâ/Cidde aracılığı, hutbe+vergi)",
+     "not": "ALTERNATİF (düşük güven): 'osmanli' nominal suzerenlik; TDV başlangıç yılı/sınır vermiyor ve Lahsâ 1670'te Benî Hâlid'e geçti; ÖNERİLMEZ. 1700-01-01 günü için de BOSLUK beyanlı."
+    }
+   ],
+   "var_mi": "Bölge; TDV Necid'de ayrıca anılmaz.",
+   "not": "Bölge noktası; Şemmer/Aneze bedevî alanı; ayrı Nefud kaynağı OKUNMADI."
+  }
+ ],
+ "devlet_kimlikleri": {
+  "mevcut": [
+   "memluk (1250-1517)",
+   "mekke-serifligi (0969-1919)",
+   "cebri (1417-1524, Lahsâ)",
+   "benihalid (1670-1830, Lahsâ)",
+   "suud-birinci",
+   "sammar",
+   "osmanli"
+  ],
+  "yeni_kunye_onerisi": null,
+  "gerekce": "TDV Necid: Necid'de devlet çıkmamış → yeni künye YAZILMAMALI."
+ },
+ "genel_sonuc": "1281, 1500, 1700 için Hâil/Buraydâ/Uneyze/Necid içi/Nefud __BOSLUK__ BEYANLI (kabile bölgesi). Kaynak yalnız TDV Necid + Reşîdîler; birincil kitap metni bulunamadı.",
+ "borc": [
+  "Lorimer Gazetteer (archive.org dli/part-i _djvu.txt 404), Doughty (403), Burckhardt (yerel metinde Nedjd/Kasim araması sonuçsuz), Philby cilt II erken tarih içermiyor: pre-1744 Hâil/Buraydâ/Uneyze tanıkları OKUNMADI",
+  "TDV 'Kasîm' (القصيم) madde slug'ı çekilemedi; Hâil/Buraydâ/Uneyze ayrı TDV maddesi yok",
+  "Hâil 1744-1779 pencere boşluğu (İbn Ali) işlenmeli",
+  "İbn Bişr/İbn Ğannâm çevirisi aranmadı"
+ ]
+}
