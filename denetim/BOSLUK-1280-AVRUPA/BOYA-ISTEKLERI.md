@@ -9,6 +9,8 @@ Satır biçimi: `devlet-id | ad | f | t | kaynak | ihtiyaç duyan dal | önerile
 
 | devlet-id | ad | f | t | kaynak | dal | renk | durum |
 |---|---|---|---|---|---|---|---|
-| naksos-dukaligi | Naksos Dükalığı | 1207 (yıl) | t okunmadı | Miller 1908 s.43-44 | umit-bosluk-boya-1122 | (UMIT önerir) | bekliyor |
-| bearn-vikontlugu | Béarn Vikontluğu | (UMIT) | (UMIT) | (UMIT) | umit-bosluk-boya-1122 | (UMIT önerir) | bekliyor |
-| artois-kontlugu | Artois Kontluğu | (UMIT) | (UMIT) | (UMIT) | umit-bosluk-boya-1122 | (UMIT önerir) | bekliyor |
+| ~~naksos-dukaligi~~ | — | — | — | UMIT düzeltmesi (22 Kasım): künye `naksa-dukaligi` (devletler.js:1188, f 1207-01-01, t 1579-01-01) ve BOYALAR anahtarı ZATEN VAR | — | — | GEREKMİYOR |
+| bearn-vikontlugu | Béarn Vikontluğu | kaynakta f yok | — | — | — | — | YAZILMADI (f bulunamadı) |
+| artois-kontlugu | Artois Kontluğu | 1237/1238 çelişkili (Longnon / EB1911) | 1659 | — | — | — | şimdilik ihtiyaç yok |
+
+(UMIT'in kendi satırları: `BOYA-ISTEKLERI-UMIT21.md`. Şu an bekleyen gerçek boya isteği YOK.)
