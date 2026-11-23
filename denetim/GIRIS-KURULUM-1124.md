@@ -8,6 +8,17 @@ kadarı çalışır, yapmadığın düğme sitede hiç görünmez (ölü düğme
 > **aynı projeyi** kullanıyor. Yani yeni proje açmana gerek yok; kullanıcı tablosu, e-posta/şifre girişi ve
 > forum oturumu ortak. Sitede kimse "iki ayrı hesap" görmez.
 
+## 🔁 PANEL KURULUNCA GERİ YAZ (url ve anonAnahtar şu an BOŞ)
+KASA kararı (24 Kasım): Supabase'te `auth_f2.sql` şeması ve e-posta ayarları kurulu olmadığından ilk yayında
+`data/auth_ayar.js` içindeki `url` ve `anonAnahtar` **boş** gönderilir: "Giriş" düğmesi açılır, "henüz
+yapılandırılmadı" bilgisi gösterir, hiçbir ağ isteği atmaz. Aşağıdaki ⭐ adımları (özellikle 1–3) bitince
+`data/auth_ayar.js` içine şu iki satırı geri yaz (ikisi de herkese açık değerdir, gizli değil; forum ile aynı proje):
+```
+  url: "https://avwiwpzglhkxgabhwcuh.supabase.co",
+  anonAnahtar: "sb_publishable_a9MGXvwnbphMoN0cvYL50A_w8MHLmDx",
+```
+Sonra `py arac/surum_damgala.py` ve normal kapı yolu. (Değerler `forum/ayar.js` ile aynıdır; oradan da kopyalanabilir.)
+
 ## ⭐ İLK YAYIN: yalnız e-posta + şifre (+ kullanıcı adı) — Emre'nin kararı, 24 Kasım
 Sitede Google/Microsoft/Facebook düğmeleri **gizli** (`data/auth_ayar.js` → `saglayicilar` hepsi `false`; kod silinmedi,
 bayrağı `true` yapınca açılır). İlk yayın için yalnız şunları yap (hepsi ücretsiz, dış hesap yok):

@@ -6,8 +6,10 @@
    ağ isteği atmaz ve hata fırlatmaz.
    Rehber: denetim/GIRIS-KURULUM-1124.md · tasarım: denetim/GIRIS-TASARIM-1124.md */
 window.AUTH_AYAR = {
-  url: "https://avwiwpzglhkxgabhwcuh.supabase.co",
-  anonAnahtar: "sb_publishable_a9MGXvwnbphMoN0cvYL50A_w8MHLmDx",
+  // İLK YAYIN: BOŞ — panel (auth_f2.sql + e-posta ayarları) kurulana dek düğme yalnız bilgi verir, ağ isteği atmaz.
+  // Panel kurulunca GERİ YAZILACAK değerler: denetim/GIRIS-KURULUM-1124.md → "PANEL KURULUNCA GERİ YAZ".
+  url: "",
+  anonAnahtar: "",
 
   // Sosyal giriş düğmeleri: Supabase panelinde o sağlayıcı AÇILIP anahtarları girildikten
   // sonra true yapılır (rehber §4-§6). Kapalıyken düğme hiç görünmez (ölü düğme yok).
