@@ -8,6 +8,21 @@ kadarı çalışır, yapmadığın düğme sitede hiç görünmez (ölü düğme
 > **aynı projeyi** kullanıyor. Yani yeni proje açmana gerek yok; kullanıcı tablosu, e-posta/şifre girişi ve
 > forum oturumu ortak. Sitede kimse "iki ayrı hesap" görmez.
 
+## 📋 KURULUM DURUMU (24 Kasım, Emre ile Supabase/sağlayıcı oturumundan sonra)
+**Yapıldı:** `auth_f2.sql` koştu · URL/yönlendirme adresleri girildi · min şifre ≥10 · Supabase'te **Google, Azure (Microsoft),
+Facebook ENABLED**. Meta uygulaması: **KRONOATLAS, App ID 1863386731573339**.
+**Bekliyor:**
+- Google **"Publish app"** (uygulamayı yayına al), Meta **"Live"** moduna geçiş ve Meta'daki **gizlilik politikası / veri silme
+  adresi**: Meta bu adresi gerçekten açıp doğruladığı için **gizlilik sayfası ana sitede yayında olana kadar bekler**
+  (adres: `https://kronoatlas.com/gizlilik/` ; veri silme talimatı sayfadaki §5, hesabı site içinden silme: *Hesabımı ve verilerimi sil*).
+- SMTP + Türkçe e-posta şablonları (§3) · Edge Function `kullanici-girisi` dağıtımı (§7) · Turnstile (§8).
+- `data/auth_ayar.js`: `url`/`anonAnahtar` şu an boş; `saglayicilar` bayrakları (`google`, `azure`, `facebook`) `false`.
+  Önce SMTP + şablonlar bitsin, sonra `url`/`anonAnahtar` geri yazılsın (aşağıdaki bölüm), sonra Google/Azure/Facebook için
+  ilgili bayrak yalnız o sağlayıcı **yayında** (Google "Publish", Meta "Live") olunca `true` yapılsın; yoksa yalnız test
+  kullanıcıları girebilir.
+**Gizlilik sayfası:** ziyaret istatistiği paragrafı (§6) ve yeni §8 (`id="istatistik"`) eklendi; çerez bildiriminin "Ayrıntı"
+bağlantısı `gizlilik/#istatistik` adresine gider. Metin hâlâ TASLAKTIR (üstteki sarı not duruyor).
+
 ## 🔁 PANEL KURULUNCA GERİ YAZ (url ve anonAnahtar şu an BOŞ)
 KASA kararı (24 Kasım): Supabase'te `auth_f2.sql` şeması ve e-posta ayarları kurulu olmadığından ilk yayında
 `data/auth_ayar.js` içindeki `url` ve `anonAnahtar` **boş** gönderilir: "Giriş" düğmesi açılır, "henüz
