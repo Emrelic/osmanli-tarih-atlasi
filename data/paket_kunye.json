@@ -667,8 +667,8 @@
     },
     {
      "yol": "data/kronoloji_naksa_dukaligi.js",
-     "sha": "0ff6eaf3a398bd1e",
-     "bayt": 17894
+     "sha": "2e06b46ec8e3ca45",
+     "bayt": 19016
     },
     {
      "yol": "data/kronoloji_orta_asya.js",
@@ -701,15 +701,15 @@
      "bayt": 173288
     }
    ],
-   "bayt": 1973331
+   "bayt": 1974139
   },
   {
    "paket": "data/paket_13.js",
    "kaynak": [
     {
      "yol": "data/yerlesimler.js",
-     "sha": "4da7685363400e43",
-     "bayt": 3247111
+     "sha": "115e04a008e45bc9",
+     "bayt": 3253163
     },
     {
      "yol": "data/yerlesimler_afrika.js",
@@ -728,8 +728,8 @@
     },
     {
      "yol": "data/yerlesimler_ek.js",
-     "sha": "4c83f8f18fc13fac",
-     "bayt": 124096
+     "sha": "0ce634aa9a318dbc",
+     "bayt": 124114
     },
     {
      "yol": "data/yerlesimler_ortaasya2.js",
@@ -743,13 +743,13 @@
     },
     {
      "yol": "data/yerlesimler_seyrek.js",
-     "sha": "e9c91db9eec7eea0",
-     "bayt": 57496
+     "sha": "2936940129d8d30e",
+     "bayt": 57514
     },
     {
      "yol": "data/yerlesimler_ek2.js",
-     "sha": "7a0db6caeb645ff5",
-     "bayt": 28086
+     "sha": "c900b64e9c80ef76",
+     "bayt": 28104
     },
     {
      "yol": "data/yerlesimler_ek3.js",
@@ -772,7 +772,7 @@
      "bayt": 26238
     }
    ],
-   "bayt": 1485966
+   "bayt": 1486563
   },
   {
    "paket": "data/paket_14.js",
@@ -1880,8 +1880,8 @@
     },
     {
      "yol": "data/kronoloji_cok_venedik.js",
-     "sha": "c8a0bccdc92280d3",
-     "bayt": 6540
+     "sha": "3d6fceef17998394",
+     "bayt": 9184
     },
     {
      "yol": "data/kronoloji_cok_arnavut.js",
@@ -1949,7 +1949,7 @@
      "bayt": 16289
     }
    ],
-   "bayt": 965749
+   "bayt": 967942
   },
   {
    "paket": "data/paket_38.js",
