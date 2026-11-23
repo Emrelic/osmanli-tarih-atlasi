@@ -74,8 +74,11 @@
   #zamanbar #yer-ara { flex: 1 1 0; min-width: 0; position: static; }
   #zamanbar #yer-ara-giris { width: 100%; min-width: 0; text-overflow: ellipsis; }
   #zamanbar #ucus-grup { display: flex; gap: 3px; flex: 0 0 auto; min-width: 0; margin-left: 0; }
-  #zamanbar #ucus-grup select { flex: 0 1 auto; min-width: 0; max-width: 5.2em; }
+  /* 24 Kasım: uçuş kip kutusu + ⚙ tek düğme oldu ("✈ Uçuş ayarları"); metin sığsın diye yatay boşluk dar. */
   #zamanbar #ucus-grup button { flex: 0 0 auto; }
+  #zamanbar #btn-ucus-ayar { width: auto; min-width: 0; padding-left: 6px; padding-right: 6px; font-size: 11px; }
+  #ucus-kutu { padding: 12px 14px; }
+  .ucus-kip-sec { grid-template-columns: 20px 46px 1fr; }
   /* Açılır kutuların okla yediği yer kısaltılır: metin tam okunsun (dokununca yine açılır). */
   #zamanbar select {
     font-size: 12px; padding-left: 3px; padding-right: 3px; min-width: 0; text-overflow: ellipsis;
@@ -138,6 +141,9 @@
    DİKEY telefon: ① harita %46 · ② kronoloji · ③ detay (kalan ikiye eşit bölüşür)
    ====================================================================== */
 @media (orientation: portrait) and (max-width: 700px) {
+  /* 24 Kasım (Emre): dikeyde tarih/şehir kutusu daha kısa (en çok 8,5 em); artan yer boşluk kalır. */
+  #zamanbar #git-grup { flex: 0 1 8.5em; }
+  #zamanbar #ucus-grup { margin-left: auto; }
   #govde { flex-direction: column; }
   /* 22 Kasım: oynatma şeridi tek satıra indi (−39 px); kazanılan yer haritaya değil kronolojiye. */
   #sol-govde { flex: 0 0 41dvh; min-height: 0; }
@@ -157,6 +163,7 @@
 
 /* Dar telefon (≤380 px genişlik, ör. 360×640): oynat şeridi yazıları bir tık küçülür, "Olay olay" kesilmesin. */
 @media (orientation: portrait) and (max-width: 380px) {
+  #zamanbar #btn-ucus-ayar { font-size: 10.5px; padding-left: 4px; padding-right: 4px; }
   #zamanbar select { font-size: 11px; padding-left: 1px; padding-right: 1px; }
   #zamanbar button { min-width: 30px; padding-left: 2px; padding-right: 2px; }
   #zamanbar { gap: 3px; padding-left: 4px; padding-right: 4px; }
@@ -174,6 +181,20 @@
    ====================================================================== */
 @media (orientation: landscape) and (max-height: 520px) {
   :root { --panel-genis: 50%; --panel-dar: 50%; --detay-pay: 50%; }
+  /* 24 Kasım (Emre): yatayda ⏮ Önceki · ▶ Oynat · Sonraki ⏭ adlı; tarih/şehir kutusu daha kısa. */
+  #zamanbar #btn-geri .dg-ad, #zamanbar #btn-oynat .dg-ad, #zamanbar #btn-ileri .dg-ad { display: inline; font-size: 12px; }
+  #zamanbar #btn-geri .dg-simge { margin-right: 4px; }
+  #zamanbar #btn-oynat .dg-simge { margin-right: 4px; }
+  #zamanbar #btn-ileri .dg-simge { margin-left: 4px; }
+  #zamanbar #btn-geri, #zamanbar #btn-oynat, #zamanbar #btn-ileri { width: auto; min-width: 0; padding-left: 5px; padding-right: 5px; white-space: nowrap; }
+  #zamanbar #btn-geri .dg-ad, #zamanbar #btn-oynat .dg-ad, #zamanbar #btn-ileri .dg-ad { font-size: 11px; }
+  #zamanbar #btn-geri .dg-simge, #zamanbar #btn-oynat .dg-simge { margin-right: 3px; }
+  #zamanbar #btn-ileri .dg-simge { margin-left: 3px; }
+  #zamanbar #btn-ucus-ayar { padding-left: 5px; padding-right: 5px; }
+  #btn-ucus-ayar::after { margin-left: 4px; }
+  #zamanbar { gap: 3px; }
+  #zamanbar #git-grup { flex: 0 1 9.5em; }
+  #zamanbar #ucus-grup { margin-left: auto; }
   #govde { flex-direction: row; }
   #sol-govde { flex: 0 0 50%; min-width: 0; min-height: 0; }
   #yanpanel, #yanpanel.dar {

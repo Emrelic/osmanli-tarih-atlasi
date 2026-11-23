@@ -14914,22 +14914,27 @@ function olayIndexTazele() {
 // `if (!zamanlayici)` denetimini geçip YENİSİYLE birlikte koşuyordu (iki tarihAyarla /
 // kare → takvim iki kat hızlı). Her durdurma nesli artırır; zincir kendi neslini taşır.
 var _oynatNesil = 0;
+// 24 Kasım 2026 (Emre): yatay telefonda düğme adlı gösterilir ("Oynat"/"Duraklat"); simge + ad ayrı span,
+// ad yalnız CSS ile yatay telefonda görünür. textContent yazmak adı SİLERDİ — hep bu işlev.
+function oynatSimge(oynuyor) {
+  btnOynat.innerHTML = '<span class="dg-simge">' + (oynuyor ? "⏸" : "▶") + '</span><span class="dg-ad">' + (oynuyor ? "Duraklat" : "Oynat") + '</span>';
+}
 function oynatDurdur() {
   if (zamanlayici) {
     clearInterval(zamanlayici);
     zamanlayici = null;
     _oynatNesil++;
-    btnOynat.textContent = "▶";
+    oynatSimge(false);
     return;
   }
   if (suanki >= BITIS) tarihAyarla(BASLANGIC);
-  btnOynat.textContent = "⏸";
+  oynatSimge(true);
 
   if (akisModu.value === "olay") {
     // ZAMAN-GENİŞ-1008 — Osmanlı akışı boşsa ve odak yoksa oynatma HİÇ başlamaz.
     // ZAMAN-ATLAMA-1021: boşsa REDDETME — seyrek devirde küresel olaydan olaya atlanır.
     if (!odakGezintiAktif() && osmanliAkisiBos() && !kureselKur().dizi.length) {
-      btnOynat.textContent = "▶";
+      oynatSimge(false);
       kronolojiYokUyarisi();
       return;
     }
@@ -14944,7 +14949,7 @@ function oynatDurdur() {
       // YENİDEN başlatır ve sonsuz özyinelemeye girerdi (tarayıcıda ölçüldü:
       // "Maximum call stack size exceeded"). Yalnız oynuyorsa durdurulur.
       if (osmanliAkisiBos()) {                   // ZAMAN-ATLAMA-1021: seyrek devir → küresel atlama
-        if (kureselAdim(1) !== true) { if (zamanlayici) oynatDurdur(); else btnOynat.textContent = "▶"; }
+        if (kureselAdim(1) !== true) { if (zamanlayici) oynatDurdur(); else oynatSimge(false); }
         return;
       }
       olayIndexTazele();
@@ -15544,8 +15549,27 @@ var obYerYokEl = document.getElementById("ob-yer-yok");
     // gerek yok — pasiften aktif kipe geçilince kalan her türlü eski notu
     // koşulsuz temizle.
     if (ucusAcik() && obYerYokEl) obYerYokEl.textContent = "";
+    ucusKipEsitle();
   });
+  // 24 Kasım 2026 — kip artık Uçuş ayarları penceresinde üç radyo; gizli #ucus-kip tek doğruluk kaynağı kalır.
+  document.querySelectorAll('input[name="ucus-kip-r"]').forEach(function (r) {
+    r.addEventListener("change", function () {
+      if (!r.checked) return;
+      ucusKipEl.value = r.value;
+      ucusKipEl.dispatchEvent(new Event("change"));
+    });
+  });
+  ucusKipEsitle();
 })();
+function ucusKipEsitle() {
+  var k = ucusKipEl ? ucusKipEl.value : "ucus";
+  document.querySelectorAll('input[name="ucus-kip-r"]').forEach(function (r) { r.checked = (r.value === k); });
+  var d = document.getElementById("btn-ucus-ayar");
+  if (d) {
+    d.setAttribute("data-kip", k);
+    d.title = "Uçuş ayarları — şimdiki kip: " + (k === "pasif" ? "Pasif" : k === "ani" ? "Ani" : "Uçuş");
+  }
+}
 
 // §⑧④(a) — koordinatör bunu AYAR değil GERÇEK KUSUR sayıyor: `flyTo`
 // hedefi kabın GEOMETRİK merkezine koyar; `#kronoloji-serit` (yanpanel
@@ -17541,14 +17565,23 @@ function odakOfseti(hedef, kap) {
   // görünüyordu — kullanıcı onun niçin işe yaramadığını çözmeye çalıştı.
   // 📌 `CLAUDE.md §11` "yazılmış görünüyor" sınıfı. Ölü ÖZELLİK kodu silinir
   // (ölü SAVUNMA dalı kalır — o ayrım `YASALAR A4`te).
-  document.getElementById("btn-ayarlar").addEventListener("click", function () {
-    pencere.classList.remove("gizli");
-  });
+  // 24 Kasım 2026: ✈ Uçuş ayarları (şeritteki tek düğme) → #ucus-pencere; ⚙ Ayarlar (☰ Butonlar) → genel pencere.
+  var ucusPencere = document.getElementById("ucus-pencere");
+  function _pAc(p) { ucusPencere.classList.add("gizli"); pencere.classList.add("gizli"); p.classList.remove("gizli"); }
+  document.getElementById("btn-ucus-ayar").addEventListener("click", function () { _pAc(ucusPencere); });
+  document.getElementById("btn-genel-ayar").addEventListener("click", function () { _pAc(pencere); });
+  document.getElementById("btn-ucus-genel").addEventListener("click", function () { _pAc(pencere); });
   document.getElementById("ayarlar-kapat").addEventListener("click", function () {
     pencere.classList.add("gizli");
   });
+  document.getElementById("ucus-kapat").addEventListener("click", function () {
+    ucusPencere.classList.add("gizli");
+  });
   pencere.addEventListener("click", function (e) {
     if (e.target === pencere) pencere.classList.add("gizli");
+  });
+  ucusPencere.addEventListener("click", function (e) {
+    if (e.target === ucusPencere) ucusPencere.classList.add("gizli");
   });
 })();
 
@@ -17971,7 +18004,7 @@ function enYakinOlayBul(gi) {
     var tek = document.getElementById("yer-ara-giris");
     if (tek && window.ATLAS_TELEFON) {
       var ilkIpucu = tek.placeholder;
-      tek.placeholder = "tarihe ya da şehre git";
+      tek.placeholder = "tarih / şehir";
       tek.addEventListener("keydown", function (e) {
         if (e.key !== "Enter" || !/\d/.test(tek.value)) return;
         e.stopImmediatePropagation(); e.preventDefault();
@@ -17979,7 +18012,7 @@ function enYakinOlayBul(gi) {
         agirAdim(e, calistir);
         tek.value = ""; tek.blur();
         var m = durum.textContent || "";
-        if (m) { tek.placeholder = m; setTimeout(function () { tek.placeholder = "tarihe ya da şehre git"; }, 7000); }
+        if (m) { tek.placeholder = m; setTimeout(function () { tek.placeholder = "tarih / şehir"; }, 7000); }
       }, true);
     }
   } catch (e) { /* tek kutu kurulamadı: iki kutu kalır */ }
