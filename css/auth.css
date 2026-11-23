@@ -1,0 +1,56 @@
+/* ÜYELİK penceresi (GIRIS-1124) — js/auth.js. Site paleti: bordo #3a0f18 · altın · krem. */
+.auth-perde { position: fixed; inset: 0; z-index: 9000; background: rgba(20, 6, 10, 0.62); display: flex; align-items: center; justify-content: center; padding: 12px; overflow-y: auto; }
+.auth-perde[hidden] { display: none; }
+.auth-kutu { background: #fbf6ea; color: #2b1a14; width: min(420px, 100%); max-height: calc(100dvh - 24px); overflow-y: auto; border: 1px solid var(--altin, #b8860b); border-radius: 12px; box-shadow: 0 12px 40px rgba(0,0,0,.5); padding: 14px 16px 16px; font-size: 14px; line-height: 1.45; outline: none; }
+.auth-ust { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 8px; }
+.auth-ust h2 { margin: 0; font-size: 18px; color: #3a0f18; }
+.auth-kapat { background: none; border: 0; font-size: 26px; line-height: 1; cursor: pointer; color: #5b3a30; min-width: 40px; min-height: 40px; border-radius: 8px; }
+.auth-kapat:hover, .auth-kapat:focus-visible { background: #efe2c4; }
+.auth-sekmeler { display: flex; gap: 4px; border-bottom: 2px solid #e5d6b0; margin-bottom: 12px; }
+.auth-sekme { flex: 1; background: none; border: 0; border-bottom: 3px solid transparent; margin-bottom: -2px; padding: 9px 6px; font: inherit; font-weight: 600; color: #6b4a3a; cursor: pointer; min-height: 40px; }
+.auth-sekme.secili { color: #3a0f18; border-bottom-color: var(--altin, #b8860b); }
+.auth-alan { margin: 0 0 10px; }
+.auth-alan label { display: block; font-weight: 600; margin-bottom: 3px; font-size: 13px; }
+.auth-alan input[type=text], .auth-alan input[type=email], .auth-alan input[type=password] { width: 100%; box-sizing: border-box; padding: 9px 10px; border: 1px solid #c9b78a; border-radius: 8px; background: #fff; color: #2b1a14; font: inherit; min-height: 40px; }
+.auth-alan input:focus-visible, .auth-kutu button:focus-visible, .auth-kutu a:focus-visible { outline: 3px solid #1a6fd1; outline-offset: 2px; }
+.auth-ipucu { margin: 3px 0 0; font-size: 12px; color: #6b5a4a; }
+.auth-sifre-sar { position: relative; }
+.auth-sifre-sar input { padding-right: 70px; }
+.auth-goz { position: absolute; right: 4px; top: 4px; bottom: 4px; padding: 0 9px; border: 0; background: #efe2c4; border-radius: 6px; font-size: 12px; cursor: pointer; color: #3a0f18; }
+.auth-olcer { height: 5px; background: #e5d6b0; border-radius: 3px; margin-top: 6px; overflow: hidden; }
+.auth-olcer span { display: block; height: 100%; width: 0; background: #b3261e; transition: width .15s; }
+.auth-olcer.p2 span { background: #c77d00; } .auth-olcer.p3 span { background: #5b8a1f; } .auth-olcer.p4 span { background: #1f7a3a; }
+.auth-kurallar { margin: 4px 0 0; padding-left: 18px; font-size: 12px; color: #8a2a1f; }
+.auth-kurallar:empty { display: none; }
+.auth-riza { display: flex; gap: 8px; align-items: flex-start; margin: 4px 0 12px; font-size: 12.5px; }
+.auth-riza input { margin-top: 3px; width: 18px; height: 18px; flex: 0 0 auto; }
+.auth-riza a, .auth-not a, .auth-kutu p a { color: #8a1f2d; text-decoration: underline; }
+.auth-dugme { display: block; width: 100%; box-sizing: border-box; margin: 8px 0 0; padding: 10px 12px; border-radius: 8px; font: inherit; font-weight: 600; cursor: pointer; min-height: 42px; border: 1px solid #8a6a2a; background: #fff; color: #3a0f18; }
+.auth-dugme.birincil { background: #6b1a28; border-color: #6b1a28; color: #fff; }
+.auth-dugme.birincil:hover:not(:disabled) { background: #55141f; }
+.auth-dugme.tehlike { background: #b3261e; border-color: #b3261e; color: #fff; }
+.auth-dugme:disabled { opacity: .55; cursor: default; }
+.auth-baglanti { background: none; border: 0; padding: 6px 2px; color: #8a1f2d; text-decoration: underline; cursor: pointer; font: inherit; font-size: 13px; min-height: 36px; }
+.auth-satir { text-align: right; margin: -4px 0 4px; }
+.auth-durum { margin: 8px 0 0; min-height: 1.3em; font-size: 13px; color: #3a2a20; }
+.auth-durum.auth-hata, .auth-hata-metin { color: #b3261e; font-weight: 600; }
+.auth-ayrac { display: flex; align-items: center; gap: 8px; margin: 10px 0; color: #8a7a6a; font-size: 12px; }
+.auth-ayrac::before, .auth-ayrac::after { content: ""; flex: 1; height: 1px; background: #d9c9a3; }
+.auth-sosyal { display: grid; gap: 8px; }
+.auth-sosyal-dugme { display: flex; align-items: center; gap: 10px; width: 100%; box-sizing: border-box; padding: 9px 12px; border: 1px solid #c9b78a; border-radius: 8px; background: #fff; font: inherit; font-weight: 600; cursor: pointer; text-align: left; min-height: 42px; color: #2b1a14; }
+.auth-sosyal-dugme:hover { background: #f6eed8; }
+.auth-logo { width: 22px; height: 22px; border-radius: 4px; display: inline-flex; align-items: center; justify-content: center; font-weight: 800; color: #fff; flex: 0 0 auto; }
+.s-g .auth-logo { background: #4285f4; } .s-m .auth-logo { background: #00a4ef; } .s-f .auth-logo { background: #1877f2; border-radius: 50%; } .s-a .auth-logo { background: #000; } .s-h .auth-logo { background: #24292f; }
+.auth-not { font-size: 12px; color: #6b5a4a; margin: 12px 0 0; }
+.auth-kunye { display: grid; grid-template-columns: auto 1fr; gap: 4px 12px; margin: 0 0 8px; }
+.auth-kunye dt { color: #6b5a4a; } .auth-kunye dd { margin: 0; font-weight: 600; word-break: break-all; }
+.auth-eylemler { display: grid; gap: 0; }
+.auth-tehlike-bolge { margin-top: 18px; padding-top: 10px; border-top: 1px dashed #c9a89a; }
+.auth-captcha { margin: 6px 0; min-height: 0; }
+.auth-captcha:empty { display: none; }
+html.auth-acik body { overflow: hidden; }
+/* Menü ve üst çubuk düğmeleri */
+.auth-menu-dugme.auth-giris-var, .auth-ust-dugme.auth-giris-var { font-weight: 700; }
+#ustbar .auth-ust-dugme { flex: 0 0 auto; margin-left: 6px; padding: 3px 9px; font-size: 12.5px; max-width: 140px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; cursor: pointer; }
+@media (max-width: 480px) { .auth-kutu { padding: 12px; } .auth-perde { align-items: flex-start; padding: 6px; } }
+@media (prefers-reduced-motion: reduce) { .auth-olcer span { transition: none; } }
