@@ -8,6 +8,23 @@ kadarı çalışır, yapmadığın düğme sitede hiç görünmez (ölü düğme
 > **aynı projeyi** kullanıyor. Yani yeni proje açmana gerek yok; kullanıcı tablosu, e-posta/şifre girişi ve
 > forum oturumu ortak. Sitede kimse "iki ayrı hesap" görmez.
 
+## ⭐ İLK YAYIN: yalnız e-posta + şifre (+ kullanıcı adı) — Emre'nin kararı, 24 Kasım
+Sitede Google/Microsoft/Facebook düğmeleri **gizli** (`data/auth_ayar.js` → `saglayicilar` hepsi `false`; kod silinmedi,
+bayrağı `true` yapınca açılır). İlk yayın için yalnız şunları yap (hepsi ücretsiz, dış hesap yok):
+1. **§1** SQL: Supabase → SQL Editor → `supabase/auth_f2.sql` dosyasının tamamını yapıştır → Run.
+2. **§2** Authentication → URL Configuration: Site URL `https://kronoatlas.com`; Redirect URLs'e
+   `https://kronoatlas.com/**` ve `https://www.kronoatlas.com/**` ekle.
+3. **§3** Authentication → Sign In / Providers → Email: **Confirm email AÇIK**, minimum şifre uzunluğu **10**.
+4. **§3** Authentication → Email Templates: "Confirm signup", "Magic Link", "Reset Password" şablonlarını bu rehberdeki
+   Türkçe metinlerle değiştir.
+5. (Gerçek kullanıcı gelmeden) §3 sonundaki SMTP ayarı: kendi posta servisini bağla (Supabase'in yerleşik postası saatte
+   çok az mektup yollar).
+6. Kayıtta kullanıcı adı **hemen çalışır** (adım 1 yeterli). Kullanıcı adıyla **GİRİŞ** ise ayrı bir sunucu parçası ister
+   (§7); yapana dek giriş kutusu yalnız e-posta kabul eder, hiçbir şey bozulmaz.
+7. `gizlilik/index.html` içindeki **[DOLDURULACAK]** veri sorumlusu bilgisini yaz.
+Şifresiz giriş (e-postaya bağlantı + kod) da dış hesap istemez ve açıktır; istemezsen söyle, düğmeyi gizlerim.
+§4-§6 (Google/Microsoft/Facebook), §8 (robot koruması) ve §9 sonraya kalabilir.
+
 Sıra: **§1 SQL → §2 Adresler → §3 E-posta şablonları → §4-§6 Google/Microsoft/Facebook → §7 Kullanıcı adı
 ile giriş → §8 Robot koruması → §9 Temizlik → §10 Sitede açma**
 
