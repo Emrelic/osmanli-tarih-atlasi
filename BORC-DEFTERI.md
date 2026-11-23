@@ -69,6 +69,8 @@ bölümüne taşınır (tarih + kanıt: commit/dal).
 | B15 | 19.11 | UMIT 19 | Boston 1630-09-07, Charleston 1670-04-15 gün kaynağı; Cayuga/Arauco/Cherokee/Iroquois (HNAI çevrimiçi yok, ödemeli duvar) | bulunamadı | Amerika yerli konfederasyonlar, 44 kaynaksız yerleşim (≈148 dönem) | BEYANLI |
 | B16 | 19.11 | LAB 19 | Kragujevac 1944 kurtuluşu | tek Vikipedi tabanlı sayfa | Kragujevac (UMIT dokunmadı) | BULUNAMADI |
 | B17 | 19.11 | UMIT 19 | Mahmudâbâd 1735-03-21 | TDV Mahmudâbâd'ı adıyla anmıyor | Mahmudâbâd | BEYANLI |
+| B-BOSLUK-1123 | 23.11 | keen-boyd (BOŞLUK DOĞRULAMA) | Roma MÖ 26 boşluk kaynakları: TDV, Cambridge Ancient History X, OCD, Mitchell, Roller (Juba II), DergiPark | araştırma ajanları yalnız Thayer/LacusCurtius/Livius özetini okudu; Pleiades bot engeli | Amyntas bölgesi (Isparta, Burdur, Eğirdir, Akşehir, Konya, Antalya), Dobruca/Kuzey Bulgaristan (9 yer Roma'da), kuzey İspanya (10 yer Roma'da), Numidia, Mauretania yönetimi, Sicilya, Korsika, Cottius, Noricum | OKUNMADI (denetim/BOSLUK-DOGRULAMA-1123/RAPOR.md) |
+| B-BOSLUK-1123b | 23.11 | keen-boyd | Kyrenaika 395 sonrası şehir sahibi (Kirene, Merc, Tulmeyse) | 395-1551 arası sahip okunmadı; beyanlı `__BOSLUK__` yazıldı | Beyzâ (Kirene), Merc, Tulmeyse | BEYANLI BOŞLUK |
 
 ## C. YARIM KALAN · ERTELENEN · SIRASI GELMEYEN İŞ
 
@@ -129,6 +131,7 @@ bölümüne taşınır (tarih + kanıt: commit/dal).
 | C53 | 22.11 | UMIT 21 | **EI² 'Muḥammad' (Watt) / Rodinson 'Mohammed' / Lings 'Muhammad' / Watt 'Muhammad at Mecca': OKUNMADI.** Brill EI² ücretli; Rodinson/Lings/Watt yalnız archive.org ödünç kilidi ya da yayıncı-dışı yüklenmiş (z-lib kökenli) izinsiz kopyalar — izinsiz kopya kullanılmadı (CLAUDE.md: izinsiz kopya atlanmaz). Doğum yılı 570/571 kararı TDV + Hamîdullah/Felekî ile beyanlı kalır | Emre/LAB kütüphane erişimi (A9) | OKUNMADI — erişim bekliyor |
 | C54 | 22.11 | UMIT 21 | **Hill 1959 'Egypt in the Sudan 1820-1881' / Robinson 1925 'Conquest of the Sudan by the Wali of Egypt' (JRAS): OKUNMADI** — Hill archive.org ödünç kilidi (egyptinsudan18200000rich), Robinson 1925 JSTOR/açık kopya bulunamadı. Cebel ed-Dayqa 4 Aralık 1820 günü yalnız Beška 2019'a dayanır (tek akademik kaynak, beyanlı) | ödünç/kütüphane erişimi | OKUNMADI |
 | C48 | 21.11 | KASA 21 | **kronoloji-secim-ui: bekliyor, koşu 41 sonrası rebase + görsel test, sahip EMRELİC 21 KASIM.** Dal origin/kronoloji-secim-ui; site kodu (js/app.js 682/603 satır main'de olmayan), kapının denetleri arayüzü ölçmez. Kapıya alınmaz, silinmez. | koşu 40/41 inişi | BEKLİYOR |
+| C-BOSLUK-1123 | 23.11 | keen-boyd | Ⓑ çevrili-boşluk kuralı sınıfları (A doğrudan / V bağlı krallık / G gerçek boşluk) + Memphis (Mısır) yerleşimi + Kartaca/Karthago mükerrer birleştirme | motor + yeni yerleşim: Koşu 41 sonrası; Emre kararı: bağlı krallıklar için ayrı devlet kimliği açılsın mı? | denetim/KOSU41-ISTEK-BOSLUK-KURALI-1123.md §6 | BEKLİYOR (Emre/HAVVA) |
 
 ## D. HATA VEREN · YAPILAMAYAN · ŞÜPHELİ/TEYİTSİZ
 
