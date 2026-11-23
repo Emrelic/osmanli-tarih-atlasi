@@ -28,4 +28,15 @@ Kaynak: Emre ile bu oturumdaki konuşma. Konu: BORC-DEFTERI A21.
 4. Gizlilik metni eki (saklama, takma numara, silme yolu).
 
 ## Açık
+- **Giriş sağlayıcıları ilerleme (24 Kasım):** Supabase: SQL (auth_f2) çalıştı, Site URL + 4 yönlendirme adresi, şifre ≥10,
+  Google = ENABLED. Google Cloud hesabı `iletisim.kronoatlas@gmail.com`, proje KRONOATLAS (`tribal-bay-515611-g2`),
+  OAuth istemcisi oluşturuldu (secret yalnız Supabase'de). **Google "Publish app" BEKLİYOR:** Branding sayfasında gizlilik
+  politikası adresi (`https://kronoatlas.com/gizlilik/`, giris-altyapi dalında, main'de YOK) + yetkili alan adı gerekiyor;
+  test kipinde yalnız eklenen test kullanıcıları girer. Sıra: gizlilik sayfası yayına inince Branding'i doldur, Publish.
+  Microsoft (Azure) ve Meta henüz yapılmadı. SMTP + e-posta şablonları yapılmadı (şablon düzenleme SMTP ister).
+- **Alan adı e-postası (Emre, 24 Kasım):** `iletisim@kronoatlas.com` açılacak; gelen posta Gmail'e yönlenecek
+  (Cloudflare Email Routing ya da benzeri), giden için SMTP (Resend/Brevo, SPF+DKIM). Sıra: önce giriş sağlayıcıları
+  (Google/Microsoft/Meta), SONRA bu. Ölçülmedi: `kronoatlas.com` alan adının alındığı firma ve DNS'in yönetildiği yer.
+  Geçici adres: `iletisim.kronoatlas@gmail.com` (Google destek e-postası, gizlilik sayfası). Geçişte Google destek adresi,
+  Supabase SMTP gönderen adı ve gizlilik sayfası değişir.
 - Meta/Google/Azure (Microsoft) girişi: `denetim/GIRIS-KURULUM-1124.md` (giris-altyapi dalı) — Emre'nin tıklamaları.
