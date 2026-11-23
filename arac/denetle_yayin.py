@@ -1752,7 +1752,9 @@ def main():
     # GEÇİCİ İSTİSNA (Emre, 19 Kasım 2026): "1 YAYINA BAYAT EŞİĞİ İÇİN İSTİSNA
     # VERİLSİN" — koşu 40 inişine kadar 4.0; iniş main'e girince 2.0'a GERİ AL
     # (ayrı commit, BORÇ-DEFTERİ).
-    BAYAT_TAZE_GUN = 4.0
+    # 24 Kasım 2026 (Emre): "BAYAT eşiğini aç, dalları indir; Koşu 40 3,5 gündür sürüyor" → 10.0.
+    # Koşu 40 inişi main'e girince 2.0'a GERİ AL (ayrı commit, BORC-DEFTERI).
+    BAYAT_TAZE_GUN = 10.0
     bayat_gun = None
     if _bayat:
         try:
