@@ -378,9 +378,15 @@ yazılacak ("Sonnet tasarruf" ve "token ekonomisi" kuralları geçerli: bağlam 
 
 ---
 
-## KARAR BEKLİYOR (Emre)
+## KARARLAR — 24 Kasım 2026: K1–K9 ONAYLANDI
 
-| # | Soru | Önerim |
+EMRELİC 21 KASIM, Emre'nin "analiz et siteyi ve yapılması icabeden işleri yaptır, soru sorulursa beni yerime sen cevapla"
+sözüyle, aşağıdaki **önerilerin hepsini onayladı**: 11 bölge · Avrupa Urallara tek · adalar kıtayla · toplu tarama Koşu 41'i
+bekler · eşik pilottan sonra kesinleşir · Faz 1'de Issue yok · teyitli işaret sistemi (K6) · tarama KASA/LAB'da · günde 8 paket
+ve 2 eşzamanlı oturum · pilot R4 Güney Asya 1500–1800 (Roma yalnız pozitif kontrol).
+Pilot için hazır olanlar: `arac/gariplik_tara.py` (betik) ve `denetim/GARIPLIK-PILOT-GOREV-PAKETI-1124.md` (KASA/LAB görevi).
+
+| # | Soru | Önerim (= onaylanan karar) |
 |---|---|---|
 | K1 | Bölge şeması: 11 çakışmalı bölge (R1–R11), Avrupa Urallara kadar TEK bölge, Afrika Sahra'dan ikiye (Kuzey R2 / Sahra-altı R7) — onaylıyor musun? | Evet |
 | K2 | Kıta-adalar ayrı bölge mi? (Önerim: **büyük adalar kıtayla**, yalnız uzak okyanus adaları ayrı → R11) | Büyük adalar kıtayla |
