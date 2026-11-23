@@ -12,7 +12,7 @@ baktı, gövdelerini okumadı: "bitti" kararı son tura dayanır; emin olunmayan
 | KASA 21 | AÇIK, çalışıyor | Kapı (push) kuyruğunu eritiyor: 8 tur indi, şimdi eşik+HAVVA borcu, sonra uçuş ayarı, sonra veri zincirleri |
 | HAVVA 21 | AÇIK | Koşu 40 sürüyor (19.11'den beri, 5. gün); kendi dallarını itti |
 | LAB 21 | AÇIK | Denetim; rapor yazdı; EczAsist'te 2 itilmemiş commit |
-| UMIT 21 | BELİRSİZ: 'kapatıyorum' dedi, uzak listede 'idle'; rapor isteği gönderildi, yanıt YOK | Boşluk-1280 kampanyası 7 bölgede bitti, hepsi itildi |
+| UMIT 21 | AÇIK (rapor yazdı; kapatma başlatmıştı ama makine ayakta) | Boşluk-1280 kampanyası 7 bölgede bitti, hepsi itildi |
 | EMRELİC 21 | AÇIK (bu oturum) | Koordinasyon + arayüz işleri |
 
 ## 2. YAPILANLAR (main'de olanlar)
@@ -72,5 +72,5 @@ baktı, gövdelerini okumadı: "bitti" kararı son tura dayanır; emin olunmayan
 
 ## 8. EKSİK
 - KASA raporu (`denetim/RAPOR-KASA-1124.md`) kuyruk bitince gelecek.
-- UMIT raporu (`denetim/RAPOR-UMIT-1124.md`) istendi; makine açıksa gelir.
+- UMIT raporu GELDİ (dal `umit-rapor-1124`, c13de9597, `denetim/RAPOR-UMIT-1124.md`; makine açık): son 10 günde 5 UMIT oturumu (13/16/17/19/21 Kasım), hepsi idle; yarım = UMIT 13 (Sigtuna e32fc31e3 incelenmedi, emeklilik sorusu açık); itilmemiş tek commit yerel `claude/umit-17-kasim-32e632` 5f6231aea (birleştirme); Emre'den bekleyen: A1 Defender, A9 kaynak erişimleri (B9/B10/C53–C64), 5 künye/boya kararı, LAB düzeltmeleri, koordinatör bayrağı teyidi; kirli ara dosyalar: `C:\atlas`ta umit19_*.tsv, umit-1104-dadim ve umit-1113-bizans worktree'leri (silinmedi). Arşivleme yapılmadı (aday UMIT 16/17/19; UMIT 13 emin değil). Dal yalnız rapor, zincirin ucu dasya1'in üstünde: KASA indirirse zincir de girer.
 - Her makinenin 13 Kasım ve öncesi oturumları bu rapora girmedi (10 gün penceresi dışı); HAVVA ~60, LAB ~55 eski oturum listeledi.
