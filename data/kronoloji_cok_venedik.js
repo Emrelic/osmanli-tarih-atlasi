@@ -35,6 +35,27 @@ window.KRONOLOJI_COK_VENEDIK = [
   d:"1463-1479 Osmanlı-Venedik Savaşı sırasında Venedikliler 1466'da Osmanlı elindeki Atina'yı yağma ve talana uğrattı. Şehir bundan sonraki iki yüz yılı aşkın sürede Osmanlı barışı altında yeniden toparlandı ve ilk 150 yılda büyük bir gelişme gösterdi.",
   kaynak:"TDV `atina`: \"Şehir bir ara Osmanlı-Venedik savaşları sırasında Venedikliler'in yağma ve talanına uğradı ise de (1466) bundan sonraki 200 yılı aşkın sürede Osmanlı barışı (Pax Ottomanica) altında yeniden toparlandı.\"" },
 
+{ t:"1311-01-01", kesinlik:"yil", b:"Pag halkı Venedik Cumhuriyeti'nin hâkimiyetini gönüllü tanıdı", tur:"toprak-kazanc",
+  onem:2, dunya:1, kapsam:"dis", etiket:["konu-siyasi"],
+  yer_id:"Pag (Pago)", devlet:"venedik", gun:"1311 (Hrvatska enciklopedija yalnız yıl verir)",
+  d:"Dalmaçya'daki Pag adası halkı 1311'de Venedik Cumhuriyeti'nin yönetimini kendi isteğiyle tanıdı; bu tanıma 1313'e kadar sürdü. Ada o zamana dek Macar-Hırvat kralının özgür kraliyet şehriydi.",
+  kaynak:"Hrvatska enciklopedija (LZMK) «Pag»: «dobrovoljno priznali vlast Mletačke Republike (1311–13., 1345–58)»; 1244: «kralj Bela IV. dodijelio status slobodnoga kraljevskoga grada» · yalnız yıl teyitli; gün teyitsiz; tek kaynak",
+  ic_not:"LAB21 22 Kasım 2026: Pag yerleşim penceresindeki macaristan→venedik kırılması (1311-01-01) için Değişmez 2 maddesi." },
+
+{ t:"1313-01-01", kesinlik:"yil", b:"Pag'ın Venedik hâkimiyeti sona erdi, ada yeniden Macar-Hırvat krallığına döndü", tur:"toprak-kazanc",
+  onem:2, dunya:1, kapsam:"dis", etiket:["konu-siyasi"],
+  yer_id:"Pag (Pago)", devlet:"venedik", gun:"1313 (Hrvatska enciklopedija yalnız yıl verir)",
+  d:"Pag'ın 1311'de gönüllü tanıdığı Venedik hâkimiyeti 1313'te sona erdi. Aradaki dönemde ada Macar-Hırvat kralının hâkimiyetine döndü; bu dönüş kaynakta açıkça yazılı değildir, 1244 statüsünden çıkarılmıştır.",
+  kaynak:"Hrvatska enciklopedija (LZMK) «Pag»: «dobrovoljno priznali vlast Mletačke Republike (1311–13., 1345–58)»; 1244: «kralj Bela IV. dodijelio status slobodnoga kraljevskoga grada» · yalnız yıl teyitli; gün teyitsiz; tek kaynak",
+  ic_not:"LAB21 22 Kasım 2026: Pag yerleşim penceresindeki venedik→macaristan kırılması (1313-01-01) için Değişmez 2 maddesi; 1313-1345 sahibi çıkarımdır (BEYANLI)." },
+
+{ t:"1345-01-01", kesinlik:"yil", b:"Pag yeniden Venedik hâkimiyetini tanıdı", tur:"toprak-kazanc",
+  onem:2, dunya:1, kapsam:"dis", etiket:["konu-siyasi"],
+  yer_id:"Pag (Pago)", devlet:"venedik", gun:"1345 (Hrvatska enciklopedija yalnız yıl verir)",
+  d:"Pag 1345'te ikinci kez Venedik Cumhuriyeti'nin hâkimiyetini tanıdı; bu dönem 1358'de Zadar Barışı ile sona erdi.",
+  kaynak:"Hrvatska enciklopedija (LZMK) «Pag»: «dobrovoljno priznali vlast Mletačke Republike (1311–13., 1345–58)»; 1244: «kralj Bela IV. dodijelio status slobodnoga kraljevskoga grada» · yalnız yıl teyitli; gün teyitsiz; tek kaynak",
+  ic_not:"LAB21 22 Kasım 2026: Pag yerleşim penceresindeki macaristan→venedik kırılması (1345-01-01) için Değişmez 2 maddesi." },
+
 { t:"1538-01-01", b:"Venedikliler Dalmaçya'da Ostrovica, Obrovac ve Scardona'yı aldı, Osmanlı da Nadin'i ele geçirdi", tur:"savas",
   onem:3, dunya:1, kapsam:"dis", etiket:["savas","konu-askeri","konu-siyasi"],
   yer_id:"Zadar (Zara)", devlet:"venedik", gun:"1538 (TDV yalnız yıl verir)",
