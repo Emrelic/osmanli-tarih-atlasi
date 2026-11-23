@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Yönetim — KRONOATLAS</title>
+<!-- YÖNETİM PANELİ (24 Kasım 2026; karar: denetim/YONETIM-KARAR-1124.md). Ayrı sayfa: ana sitenin
+     açılışına yük bindirmez, atlasın çeviri denetimine girmez (yalnız Türkçe, yalnız yönetici).
+     Veri Supabase `ziyaret_ozet()` işlevinden gelir; işlev `forum_rol() = 'yonetici'` değilse
+     hata verir — sayfayı görmek yetmez, YETKİ sunucuda. Şema: supabase/gunluk_g1.sql. -->
+<meta name="robots" content="noindex,nofollow">
+<meta name="theme-color" content="#1c1f26">
+<link rel="icon" type="image/svg+xml" href="../assets/ikon.svg">
+<link rel="stylesheet" href="yonetim.css?v=g1">
+</head>
+<body>
+<header id="y-ust">
+  <a class="geri" href="../" title="Haritaya geri dön">← Atlasa dön</a>
+  <h1>KRONOATLAS <span>Yönetim</span></h1>
+  <nav id="y-oturum"></nav>
+</header>
+<main id="y-govde">
+  <p class="bilgi">Yükleniyor…</p>
+</main>
+<footer id="y-alt">
+  Kayıtlar 12 ay tutulur; daha eskisi günlük özete katılıp ayrıntısı silinir. IP, ad, e-posta saklanmaz.
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.js"
+        integrity="sha384-0w2KAL2YHP6wKOkUDzkCDGgVvfmHnj02DHeQ6XcHOgTfFsGyonKOpShMH1x6nk9o"
+        crossorigin="anonymous"></script>
+<script src="../forum/ayar.js?v=f1a"></script>
+<script src="yonetim.js?v=g1"></script>
+</body>
+</html>
