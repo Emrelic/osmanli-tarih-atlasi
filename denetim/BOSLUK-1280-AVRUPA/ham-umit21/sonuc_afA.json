@@ -1,0 +1,1957 @@
+[
+ {
+  "ad": "Misrata",
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "alinti": null,
+  "kaynak": null,
+  "dosya": null,
+  "bolge_duzeyi": false,
+  "not": "Yerel arama: ilgili yer adinin >=1 varyanti kaynak metinlerde bu kayitta/baska kayitta gecmedi; dolayisiyla BULUNAMADI (kaynak yetersizligi, yerin yok oldugu anlamina gelmez). Misrata: de Slane c.II notunda \"cap Mesrata\" (Soueica yeri aciklamasi) var ama 1852 cevirmen notu; Mesrata gecen oteki baglam (Hafsi sonrasi, Osman b. Yagmorasen) >1280.",
+  "atlas_dosya": "yerlesimler.js",
+  "atlas_sonraki": [
+   [
+    "d",
+    "1551-08-15",
+    "1711-07-29",
+    null
+   ]
+  ],
+  "grup": "hafsi"
+ },
+ {
+  "ad": "Kasrayn",
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "alinti": null,
+  "kaynak": null,
+  "dosya": null,
+  "bolge_duzeyi": false,
+  "not": "Yerel arama: ilgili yer adinin >=1 varyanti kaynak metinlerde bu kayitta/baska kayitta gecmedi; dolayisiyla BULUNAMADI (kaynak yetersizligi, yerin yok oldugu anlamina gelmez). Kasrayn/Kasserine: Kasserine/Cillium adi tarandi, bulunmadi.",
+  "atlas_dosya": "yerlesimler_afrika.js",
+  "atlas_sonraki": [
+   [
+    "d",
+    "1574-08-25",
+    "1705-07-12",
+    null
+   ]
+  ],
+  "grup": "hafsi"
+ },
+ {
+  "ad": "Tozer",
+  "durum": "SAHIPLI",
+  "sahip_1280": "hafsi",
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "alinti": "İfrîkıye’de Tunus, Sûse, Mehdiye, Sefâkus, Kābis, Benzert, Tezrût, Kayrevan, Tûzer (Tevzer/Tozeur) ve Hammâmet gibi önemli şehirler mevcuttu. Muvahhidler Devleti’ndeki bölünme ve ardından ortaya çıkan karışıklıklar || Bicâye merkezli ikiye bölündü. Bu arada Cerîd, Tûzer ve Kābis’te bağımsız mahallî emirlikler kuruldu. Tunus şehri 1329’da Abdülvâdîler, 1347-1350 ve 1357’de Merînîler tarafından kısa sürelerle",
+  "kaynak": "TDV, Tunus md., Ortaçağ/Muvahhid bölümü (islamansiklopedisi.org.tr/tunus) || TDV, Tunus md. (Hafsîler bölümü) ve Hafsîler md. (islamansiklopedisi.org.tr/hafsiler)",
+  "dosya": "m_tunus.txt",
+  "bolge_duzeyi": false,
+  "not": "Tozer (Touzer/Tevzer) Ifriqiya sehri olarak adlanir (Muvahhid/Hafsi valileri doneminde); Cerid-Tozer-Kabes mahalli devletciklerinin ancak 1284-95 sonrasi bagimsizlasmasi (TDV Tunus) 1280de Hafsi sahipligini dolayli destekler. baslangic kaynakta yok. Ibn Haldun de Slane c.II: 445 (1053-4) Touzer ve 583 (1187-8) Muvahhid fethi de var (varlik).",
+  "atlas_dosya": "yerlesimler_afrika.js",
+  "atlas_sonraki": [
+   [
+    "d",
+    "1574-08-25",
+    "1705-07-12",
+    null
+   ]
+  ],
+  "grup": "hafsi"
+ },
+ {
+  "ad": "Nefta",
+  "durum": "VAR_SAHIP_YOK",
+  "sahip_1280": "hafsi (Cerid bolgesi)",
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "alinti": "il se déclara indépendant et reçut la soumission de Touzer, Nef ta, Takïous, El-Hamma et d'autres localités de la province de Castilïa. Parvenu ainsi à || Bicâye merkezli ikiye bölündü. Bu arada Cerîd, Tûzer ve Kābis’te bağımsız mahallî emirlikler kuruldu. Tunus şehri 1329’da Abdülvâdîler, 1347-1350 ve 1357’de Merînîler tarafından kısa sürelerle",
+  "kaynak": "Ibn Haldun/de Slane, Hist. des Berbères, c.II (archive.org bub_gb_3dYOAAAAQAAJ), Zîrîdler bölümü: 445 (1053-4) || TDV, Tunus md. (Hafsîler bölümü) ve Hafsîler md. (islamansiklopedisi.org.tr/hafsiler)",
+  "dosya": "bub_gb_3dYOAAAAQAAJ.txt, m_tunus.txt",
+  "bolge_duzeyi": true,
+  "not": "Nefta 1053-4 tarihli cumlede adla gecer (varlik kesin). 1280 sahibi: TDV cumlesi yalniz \"Cerid\" bolgesini adlar -> bolge duzeyi; Nefta adli cumle yok.",
+  "atlas_dosya": "yerlesimler_afrika.js",
+  "atlas_sonraki": [
+   [
+    "d",
+    "1574-08-25",
+    "1705-07-12",
+    null
+   ]
+  ],
+  "grup": "hafsi"
+ },
+ {
+  "ad": "Medenîn",
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "alinti": null,
+  "kaynak": null,
+  "dosya": null,
+  "bolge_duzeyi": false,
+  "not": "Yerel arama: ilgili yer adinin >=1 varyanti kaynak metinlerde bu kayitta/baska kayitta gecmedi; dolayisiyla BULUNAMADI (kaynak yetersizligi, yerin yok oldugu anlamina gelmez). Medenin/Medenine adlari tarandi.",
+  "atlas_dosya": "yerlesimler_afrika.js",
+  "atlas_sonraki": [
+   [
+    "d",
+    "1574-08-25",
+    "1705-07-12",
+    null
+   ]
+  ],
+  "grup": "hafsi"
+ },
+ {
+  "ad": "Tatavin",
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "alinti": null,
+  "kaynak": null,
+  "dosya": null,
+  "bolge_duzeyi": false,
+  "not": "Yerel arama: ilgili yer adinin >=1 varyanti kaynak metinlerde bu kayitta/baska kayitta gecmedi; dolayisiyla BULUNAMADI (kaynak yetersizligi, yerin yok oldugu anlamina gelmez). Tataouine adlari tarandi.",
+  "atlas_dosya": "yerlesimler_afrika.js",
+  "atlas_sonraki": [
+   [
+    "d",
+    "1574-08-25",
+    "1705-07-12",
+    null
+   ]
+  ],
+  "grup": "hafsi"
+ },
+ {
+  "ad": "Cerciş (Zarzis)",
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "alinti": null,
+  "kaynak": null,
+  "dosya": null,
+  "bolge_duzeyi": false,
+  "not": "Yerel arama: ilgili yer adinin >=1 varyanti kaynak metinlerde bu kayitta/baska kayitta gecmedi; dolayisiyla BULUNAMADI (kaynak yetersizligi, yerin yok oldugu anlamina gelmez). Zarzis/Cerci adlari tarandi.",
+  "atlas_dosya": "yerlesimler_afrika.js",
+  "atlas_sonraki": [
+   [
+    "d",
+    "1574-08-25",
+    "1705-07-12",
+    null
+   ]
+  ],
+  "grup": "hafsi"
+ },
+ {
+  "ad": "Bin Gerdân",
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "alinti": null,
+  "kaynak": null,
+  "dosya": null,
+  "bolge_duzeyi": false,
+  "not": "Yerel arama: ilgili yer adinin >=1 varyanti kaynak metinlerde bu kayitta/baska kayitta gecmedi; dolayisiyla BULUNAMADI (kaynak yetersizligi, yerin yok oldugu anlamina gelmez). Ben Guerdane adlari tarandi.",
+  "atlas_dosya": "yerlesimler_afrika.js",
+  "atlas_sonraki": [
+   [
+    "d",
+    "1574-08-25",
+    "1705-07-12",
+    null
+   ]
+  ],
+  "grup": "hafsi"
+ },
+ {
+  "ad": "Zâviye",
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "alinti": null,
+  "kaynak": null,
+  "dosya": null,
+  "bolge_duzeyi": false,
+  "not": "Yerel arama: ilgili yer adinin >=1 varyanti kaynak metinlerde bu kayitta/baska kayitta gecmedi; dolayisiyla BULUNAMADI (kaynak yetersizligi, yerin yok oldugu anlamina gelmez). Zaviye/Zawiya (Libya): \"Zaouia\" yalniz tarikat zaviyesi anlaminda gecti.",
+  "atlas_dosya": "yerlesimler_afrika.js",
+  "atlas_sonraki": [
+   [
+    "d",
+    "1551-08-15",
+    "1711-07-29",
+    null
+   ]
+  ],
+  "grup": "hafsi"
+ },
+ {
+  "ad": "Zuvâre",
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "alinti": null,
+  "kaynak": null,
+  "dosya": null,
+  "bolge_duzeyi": false,
+  "not": "Yerel arama: ilgili yer adinin >=1 varyanti kaynak metinlerde bu kayitta/baska kayitta gecmedi; dolayisiyla BULUNAMADI (kaynak yetersizligi, yerin yok oldugu anlamina gelmez). Zuvare/Zouara: de Slane c.II notunda \"Zouara\" yalniz el yazmasi okunusu (kisi/kabile), yer degil.",
+  "atlas_dosya": "yerlesimler_afrika.js",
+  "atlas_sonraki": [
+   [
+    "d",
+    "1551-08-15",
+    "1711-07-29",
+    null
+   ]
+  ],
+  "grup": "hafsi"
+ },
+ {
+  "ad": "Nâlût",
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "alinti": null,
+  "kaynak": null,
+  "dosya": null,
+  "bolge_duzeyi": false,
+  "not": "Yerel arama: ilgili yer adinin >=1 varyanti kaynak metinlerde bu kayitta/baska kayitta gecmedi; dolayisiyla BULUNAMADI (kaynak yetersizligi, yerin yok oldugu anlamina gelmez). Nalut: tarandi.",
+  "atlas_dosya": "yerlesimler_afrika.js",
+  "atlas_sonraki": [
+   [
+    "d",
+    "1551-08-15",
+    "1711-07-29",
+    null
+   ]
+  ],
+  "grup": "hafsi"
+ },
+ {
+  "ad": "Garyân",
+  "durum": "VAR_SAHIP_YOK",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "alinti": "et les Zouagha. Quant aux Nefouça, aux Gharîan et aux Maggher, tribus hoouaritcs, le prétendant les frappa d'une contribution extraordinaire. Il marcha ensuite surCabes où",
+  "kaynak": "Ibn Haldun/de Slane, c.II (bub_gb_3dYOAAAAQAAJ)",
+  "dosya": "bub_gb_3dYOAAAAQAAJ.txt",
+  "bolge_duzeyi": true,
+  "not": "Gharian/Garyan: \"Gharian\" daglik bolge/kabile ad olarak ancak bu cumlede (Muvahhid/Ibn Ganiye cagi); sehir degil; 1280 sahibi cumlede yok. Bolge: Tripolitania, TDV Hafsiler: Ebu Zekeriyya nufuzu Trablus'a kadar (1228-49).",
+  "atlas_dosya": "yerlesimler_afrika.js",
+  "atlas_sonraki": [
+   [
+    "d",
+    "1551-08-15",
+    "1711-07-29",
+    null
+   ]
+  ],
+  "grup": "hafsi"
+ },
+ {
+  "ad": "Mızde",
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "alinti": null,
+  "kaynak": null,
+  "dosya": null,
+  "bolge_duzeyi": false,
+  "not": "Yerel arama: ilgili yer adinin >=1 varyanti kaynak metinlerde bu kayitta/baska kayitta gecmedi; dolayisiyla BULUNAMADI (kaynak yetersizligi, yerin yok oldugu anlamina gelmez). Mizda: yalniz Leo Africanus (c.1520) >1280.",
+  "atlas_dosya": "yerlesimler_afrika.js",
+  "atlas_sonraki": [
+   [
+    "d",
+    "1551-08-15",
+    "1711-07-29",
+    null
+   ]
+  ],
+  "grup": "hafsi"
+ },
+ {
+  "ad": "Zilten",
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "alinti": null,
+  "kaynak": null,
+  "dosya": null,
+  "bolge_duzeyi": false,
+  "not": "Yerel arama: ilgili yer adinin >=1 varyanti kaynak metinlerde bu kayitta/baska kayitta gecmedi; dolayisiyla BULUNAMADI (kaynak yetersizligi, yerin yok oldugu anlamina gelmez). Zilten/Zliten: tarandi.",
+  "atlas_dosya": "yerlesimler_afrika.js",
+  "atlas_sonraki": [
+   [
+    "d",
+    "1551-08-15",
+    "1711-07-29",
+    null
+   ]
+  ],
+  "grup": "hafsi"
+ },
+ {
+  "ad": "Benî Velîd",
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "alinti": null,
+  "kaynak": null,
+  "dosya": null,
+  "bolge_duzeyi": false,
+  "not": "Yerel arama: ilgili yer adinin >=1 varyanti kaynak metinlerde bu kayitta/baska kayitta gecmedi; dolayisiyla BULUNAMADI (kaynak yetersizligi, yerin yok oldugu anlamina gelmez). Beni Velid: tarandi (yalniz Leo c.1520).",
+  "atlas_dosya": "yerlesimler_afrika.js",
+  "atlas_sonraki": [
+   [
+    "d",
+    "1551-08-15",
+    "1711-07-29",
+    null
+   ]
+  ],
+  "grup": "hafsi"
+ },
+ {
+  "ad": "Sirte",
+  "durum": "VAR_SAHIP_YOK",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "alinti": "oblintdu khalife Nizar, fils d'El-Moëzz, que Tripoli, Adjedabia et Sort fussent incorporés dans ses états» et aussitôt qo'Abd-Allah-lbn-Yakhlof, le gouverneur actuel de * Ibn-Khaldoun désigne",
+  "kaynak": "Ibn Haldun/de Slane, c.II (bub_gb_3dYOAAAAQAAJ), 367 (977-8)",
+  "dosya": "bub_gb_3dYOAAAAQAAJ.txt",
+  "bolge_duzeyi": true,
+  "not": "Sirte = Sort/Surt varsayimi (okuyucu ozdeslemesi, ayrica dogrulanmadi); 977-8 (Zirid) cumlesinde Sort adi gecer, 1280 sahibi yok.",
+  "atlas_dosya": "yerlesimler_afrika.js",
+  "atlas_sonraki": [
+   [
+    "d",
+    "1551-08-15",
+    "1711-07-29",
+    null
+   ]
+  ],
+  "grup": "hafsi"
+ },
+ {
+  "ad": "Sûk Ahrâs",
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "alinti": null,
+  "kaynak": null,
+  "dosya": null,
+  "bolge_duzeyi": false,
+  "not": "Yerel arama: ilgili yer adinin >=1 varyanti kaynak metinlerde bu kayitta/baska kayitta gecmedi; dolayisiyla BULUNAMADI (kaynak yetersizligi, yerin yok oldugu anlamina gelmez). Suk Ahras/Tagaste: Tagaste yalniz Leo+Mas Latrie bahis (antik); 1280 baglami yok.",
+  "atlas_dosya": "yerlesimler_afrika.js",
+  "atlas_sonraki": [
+   [
+    "d",
+    "1533-07-22",
+    "1671-01-01",
+    null
+   ]
+  ],
+  "grup": "hafsi"
+ },
+ {
+  "ad": "Ğadâmis",
+  "durum": "VAR_SAHIP_YOK",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "alinti": "Tordre de faire rentrer dans l'obéissance Derdj et Ghadams, villes de cette région, et d'y percevoir l'impôt. Un autre détachement, qu'il avait fait partir d'avance,",
+  "kaynak": "Ibn Haldun/de Slane, c.II (bub_gb_3dYOAAAAQAAJ), Muvahhid/Ibn Ğâniye bölümü",
+  "dosya": "bub_gb_3dYOAAAAQAAJ.txt",
+  "bolge_duzeyi": false,
+  "not": "Ghadames (Ibn Haldun \"Ghadams\") Muvahhid doneminde (Ibn Ganiye, c.1190-1200) vergi alinan \"Derdj ve Ghadams\" cumlesinde gecer; 1280 sahibi yok.",
+  "atlas_dosya": "yerlesimler_afrika.js",
+  "atlas_sonraki": [
+   [
+    "d",
+    "1551-08-15",
+    "1711-07-29",
+    null
+   ]
+  ],
+  "grup": "hafsi"
+ },
+ {
+  "ad": "Ğar Dimâv",
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "alinti": null,
+  "kaynak": null,
+  "dosya": null,
+  "bolge_duzeyi": false,
+  "not": "Yerel arama: ilgili yer adinin >=1 varyanti kaynak metinlerde bu kayitta/baska kayitta gecmedi; dolayisiyla BULUNAMADI (kaynak yetersizligi, yerin yok oldugu anlamina gelmez).",
+  "atlas_dosya": "yerlesimler_h2_kuzeyafrika.js",
+  "atlas_sonraki": [
+   [
+    "d",
+    "1574-08-25",
+    "1705-07-12",
+    null
+   ]
+  ],
+  "grup": "hafsi"
+ },
+ {
+  "ad": "Sîdî Bû Zeyd",
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "alinti": null,
+  "kaynak": null,
+  "dosya": null,
+  "bolge_duzeyi": false,
+  "not": "Yerel arama: ilgili yer adinin >=1 varyanti kaynak metinlerde bu kayitta/baska kayitta gecmedi; dolayisiyla BULUNAMADI (kaynak yetersizligi, yerin yok oldugu anlamina gelmez).",
+  "atlas_dosya": "yerlesimler_h2_kuzeyafrika.js",
+  "atlas_sonraki": [
+   [
+    "d",
+    "1574-08-25",
+    "1705-07-12",
+    null
+   ]
+  ],
+  "grup": "hafsi"
+ },
+ {
+  "ad": "Metlâvî",
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "alinti": null,
+  "kaynak": null,
+  "dosya": null,
+  "bolge_duzeyi": false,
+  "not": "Yerel arama: ilgili yer adinin >=1 varyanti kaynak metinlerde bu kayitta/baska kayitta gecmedi; dolayisiyla BULUNAMADI (kaynak yetersizligi, yerin yok oldugu anlamina gelmez).",
+  "atlas_dosya": "yerlesimler_h2_kuzeyafrika.js",
+  "atlas_sonraki": [
+   [
+    "d",
+    "1574-08-25",
+    "1705-07-12",
+    null
+   ]
+  ],
+  "grup": "hafsi"
+ },
+ {
+  "ad": "Kıbillî (Nefzâve)",
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "alinti": null,
+  "kaynak": null,
+  "dosya": null,
+  "bolge_duzeyi": false,
+  "not": "Yerel arama: ilgili yer adinin >=1 varyanti kaynak metinlerde bu kayitta/baska kayitta gecmedi; dolayisiyla BULUNAMADI (kaynak yetersizligi, yerin yok oldugu anlamina gelmez). Kebili (Guebili/Kibili): tarandi.",
+  "atlas_dosya": "yerlesimler_h2_kuzeyafrika.js",
+  "atlas_sonraki": [
+   [
+    "d",
+    "1574-08-25",
+    "1705-07-12",
+    null
+   ]
+  ],
+  "grup": "hafsi"
+ },
+ {
+  "ad": "Dûz",
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "alinti": null,
+  "kaynak": null,
+  "dosya": null,
+  "bolge_duzeyi": false,
+  "not": "Yerel arama: ilgili yer adinin >=1 varyanti kaynak metinlerde bu kayitta/baska kayitta gecmedi; dolayisiyla BULUNAMADI (kaynak yetersizligi, yerin yok oldugu anlamina gelmez).",
+  "atlas_dosya": "yerlesimler_h2_kuzeyafrika.js",
+  "atlas_sonraki": [
+   [
+    "d",
+    "1574-08-25",
+    "1705-07-12",
+    null
+   ]
+  ],
+  "grup": "hafsi"
+ },
+ {
+  "ad": "Terhûne",
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "alinti": null,
+  "kaynak": null,
+  "dosya": null,
+  "bolge_duzeyi": false,
+  "not": "Yerel arama: ilgili yer adinin >=1 varyanti kaynak metinlerde bu kayitta/baska kayitta gecmedi; dolayisiyla BULUNAMADI (kaynak yetersizligi, yerin yok oldugu anlamina gelmez).",
+  "atlas_dosya": "yerlesimler_h2_kuzeyafrika.js",
+  "atlas_sonraki": [
+   [
+    "d",
+    "1551-08-15",
+    "1711-07-29",
+    null
+   ]
+  ],
+  "grup": "hafsi"
+ },
+ {
+  "ad": "Kabâv (Nefûse)",
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "alinti": null,
+  "kaynak": null,
+  "dosya": null,
+  "bolge_duzeyi": false,
+  "not": "Yerel arama: ilgili yer adinin >=1 varyanti kaynak metinlerde bu kayitta/baska kayitta gecmedi; dolayisiyla BULUNAMADI (kaynak yetersizligi, yerin yok oldugu anlamina gelmez).",
+  "atlas_dosya": "yerlesimler_h2_kuzeyafrika.js",
+  "atlas_sonraki": [
+   [
+    "d",
+    "1551-08-15",
+    "1711-07-29",
+    null
+   ]
+  ],
+  "grup": "hafsi"
+ },
+ {
+  "ad": "Sinâvin",
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "alinti": null,
+  "kaynak": null,
+  "dosya": null,
+  "bolge_duzeyi": false,
+  "not": "Yerel arama: ilgili yer adinin >=1 varyanti kaynak metinlerde bu kayitta/baska kayitta gecmedi; dolayisiyla BULUNAMADI (kaynak yetersizligi, yerin yok oldugu anlamina gelmez).",
+  "atlas_dosya": "yerlesimler_h2_kuzeyafrika.js",
+  "atlas_sonraki": [
+   [
+    "d",
+    "1551-08-15",
+    "1711-07-29",
+    null
+   ]
+  ],
+  "grup": "hafsi"
+ },
+ {
+  "ad": "Derc (Derj)",
+  "durum": "VAR_SAHIP_YOK",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "alinti": "Tordre de faire rentrer dans l'obéissance Derdj et Ghadams, villes de cette région, et d'y percevoir l'impôt. Un autre détachement, qu'il avait fait partir d'avance,",
+  "kaynak": "Ibn Haldun/de Slane, c.II (bub_gb_3dYOAAAAQAAJ), Muvahhid/Ibn Ğâniye bölümü",
+  "dosya": "bub_gb_3dYOAAAAQAAJ.txt",
+  "bolge_duzeyi": false,
+  "not": "Derc = Ibn Haldun \"Derdj\" (Ghadames ile birlikte, Muvahhid donemi); 1280 sahibi yok.",
+  "atlas_dosya": "yerlesimler_h2_kuzeyafrika.js",
+  "atlas_sonraki": [
+   [
+    "d",
+    "1551-08-15",
+    "1711-07-29",
+    null
+   ]
+  ],
+  "grup": "hafsi"
+ },
+ {
+  "ad": "Tâverğa",
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "alinti": null,
+  "kaynak": null,
+  "dosya": null,
+  "bolge_duzeyi": false,
+  "not": "Yerel arama: ilgili yer adinin >=1 varyanti kaynak metinlerde bu kayitta/baska kayitta gecmedi; dolayisiyla BULUNAMADI (kaynak yetersizligi, yerin yok oldugu anlamina gelmez).",
+  "atlas_dosya": "yerlesimler_h2_kuzeyafrika.js",
+  "atlas_sonraki": [
+   [
+    "d",
+    "1551-08-15",
+    "1711-07-29",
+    null
+   ]
+  ],
+  "grup": "hafsi"
+ },
+ {
+  "ad": "Nûfiliye",
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "alinti": null,
+  "kaynak": null,
+  "dosya": null,
+  "bolge_duzeyi": false,
+  "not": "Yerel arama: ilgili yer adinin >=1 varyanti kaynak metinlerde bu kayitta/baska kayitta gecmedi; dolayisiyla BULUNAMADI (kaynak yetersizligi, yerin yok oldugu anlamina gelmez).",
+  "atlas_dosya": "yerlesimler_h2_kuzeyafrika.js",
+  "atlas_sonraki": [
+   [
+    "d",
+    "1551-08-15",
+    "1711-07-29",
+    null
+   ]
+  ],
+  "grup": "hafsi"
+ },
+ {
+  "ad": "Agadir",
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "alinti": null,
+  "kaynak": null,
+  "dosya": null,
+  "bolge_duzeyi": false,
+  "not": "Yerel arama: ilgili yer adinin >=1 varyanti kaynak metinlerde bu kayitta/baska kayitta gecmedi; dolayisiyla BULUNAMADI (kaynak yetersizligi, yerin yok oldugu anlamina gelmez). Agadir: Ibn Haldun yalniz Tilimsan \"Agadir\"ini (ayrica) anar; Souss Agadir/Santa Cruz 1280 baglami yok.",
+  "atlas_dosya": "yerlesimler.js",
+  "atlas_sonraki": [
+   [
+    "s",
+    "1505-01-01",
+    "1541-03-12",
+    "portekiz"
+   ]
+  ],
+  "grup": "merini"
+ },
+ {
+  "ad": "Mazagan (El Jadida)",
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "alinti": null,
+  "kaynak": null,
+  "dosya": null,
+  "bolge_duzeyi": false,
+  "not": "Yerel arama: ilgili yer adinin >=1 varyanti kaynak metinlerde bu kayitta/baska kayitta gecmedi; dolayisiyla BULUNAMADI (kaynak yetersizligi, yerin yok oldugu anlamina gelmez). Mazagan: yalniz Leo/19.yy notlari.",
+  "atlas_dosya": "yerlesimler_ek3.js",
+  "atlas_sonraki": [
+   [
+    "s",
+    "1514-01-01",
+    "1769-03-11",
+    "portekiz"
+   ]
+  ],
+  "grup": "merini"
+ },
+ {
+  "ad": "Safi (Asfi)",
+  "durum": "VAR_SAHIP_YOK",
+  "sahip_1280": "merini (bolge duzeyi)",
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "alinti": "littoral qui s'étend depuis Salé et Azemmor jusqu'à Anfa et Asfi. Vers le commencement du secoud siècle de l'hé- gire, ils avaient pour chef un || eline geçen Sicilmâse’yi geri alıp (673/1274-75) Mağrib-i Aksâ’nın her tarafına hâkim oldu. Mağrib’de barutun ilk defa Sicilmâse kuşatmasında kullanıldığı rivayet edilir. Başşehir olarak Fas’ı seçen",
+  "kaynak": "Ibn Haldun/de Slane, c.II (bub_gb_3dYOAAAAQAAJ), Berberî kabileler bölümü || TDV, Merînîler md. (islamansiklopedisi.org.tr/meriniler): Sicilmâse 673/1274-75",
+  "dosya": "bub_gb_3dYOAAAAQAAJ.txt, m_meriniler.txt",
+  "bolge_duzeyi": true,
+  "not": "Asfi/Safi hicri 2. yuzyil kabile sinirlari cumlesinde gecer (varlik); 1280 sahibi: TDV Merinler \"Magrib-i Aksa'nin her tarafina hakim oldu (673/1274-75)\" bolge duzeyi.",
+  "atlas_dosya": "yerlesimler_ek3.js",
+  "atlas_sonraki": [
+   [
+    "s",
+    "1488-01-01",
+    "1541-10-01",
+    "portekiz"
+   ]
+  ],
+  "grup": "merini"
+ },
+ {
+  "ad": "Azemmûr",
+  "durum": "VAR_SAHIP_YOK",
+  "sahip_1280": "merini (bolge duzeyi)",
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "alinti": "et celte partie du littoral qui s'étend depuis Salé et Azemmor jusqu'à Anfa et Asfi. Vers le commencement du secoud siècle de l'hé- gire, ils || eline geçen Sicilmâse’yi geri alıp (673/1274-75) Mağrib-i Aksâ’nın her tarafına hâkim oldu. Mağrib’de barutun ilk defa Sicilmâse kuşatmasında kullanıldığı rivayet edilir. Başşehir olarak Fas’ı seçen",
+  "kaynak": "Ibn Haldun/de Slane, c.II (bub_gb_3dYOAAAAQAAJ), Berberî kabileler bölümü || TDV, Merînîler md. (islamansiklopedisi.org.tr/meriniler): Sicilmâse 673/1274-75",
+  "dosya": "bub_gb_3dYOAAAAQAAJ.txt, m_meriniler.txt",
+  "bolge_duzeyi": true,
+  "not": "Azemmor/Azemmur sahil kabile cumlesinde gecer; 1280 sahibi bolge duzeyi (TDV Merinler).",
+  "atlas_dosya": "yerlesimler_ek3.js",
+  "atlas_sonraki": [
+   [
+    "s",
+    "1513-09-03",
+    "1541-10-01",
+    "portekiz"
+   ]
+  ],
+  "grup": "merini"
+ },
+ {
+  "ad": "Arzila (Asilah)",
+  "durum": "VAR_SAHIP_YOK",
+  "sahip_1280": "merini (bolge duzeyi)",
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "alinti": "établis sur les côtes de l'Océan depuis Âzgbar et Asîla jusqu'à Anfa, où leur territoire touche au pays des Berghouata et des Dokkala, pays qui || eline geçen Sicilmâse’yi geri alıp (673/1274-75) Mağrib-i Aksâ’nın her tarafına hâkim oldu. Mağrib’de barutun ilk defa Sicilmâse kuşatmasında kullanıldığı rivayet edilir. Başşehir olarak Fas’ı seçen",
+  "kaynak": "Ibn Haldun/de Slane, c.II (bub_gb_3dYOAAAAQAAJ), Berberî kabileler bölümü || TDV, Merînîler md. (islamansiklopedisi.org.tr/meriniler): Sicilmâse 673/1274-75",
+  "dosya": "bub_gb_3dYOAAAAQAAJ.txt, m_meriniler.txt",
+  "bolge_duzeyi": true,
+  "not": "Asila/Arzila kabile sinirlari cumlesinde gecer; 1280 sahibi bolge duzeyi.",
+  "atlas_dosya": "yerlesimler_ek3.js",
+  "atlas_sonraki": [
+   [
+    "s",
+    "1471-08-24",
+    "1549-01-01",
+    "portekiz"
+   ]
+  ],
+  "grup": "merini"
+ },
+ {
+  "ad": "el-Arâiş (Larache)",
+  "durum": "VAR_SAHIP_YOK",
+  "sahip_1280": "merini (bolge duzeyi)",
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "alinti": "Acsa ; il livra à Yahya les villes d'Azila et d'El-Araïch avec leurs dépendances et le pays des Ouergha ; il nomma Eiça au gouvernement || eline geçen Sicilmâse’yi geri alıp (673/1274-75) Mağrib-i Aksâ’nın her tarafına hâkim oldu. Mağrib’de barutun ilk defa Sicilmâse kuşatmasında kullanıldığı rivayet edilir. Başşehir olarak Fas’ı seçen",
+  "kaynak": "Ibn Haldun/de Slane, c.II (bub_gb_3dYOAAAAQAAJ), Idrîsîler sonrası bölüm || TDV, Merînîler md. (islamansiklopedisi.org.tr/meriniler): Sicilmâse 673/1274-75",
+  "dosya": "bub_gb_3dYOAAAAQAAJ.txt, m_meriniler.txt",
+  "bolge_duzeyi": true,
+  "not": "El-Araich (Larache) Idrisi sonrasi cumlede \"Azila ve El-Araich sehirleri\" olarak gecer; 1280 sahibi bolge duzeyi.",
+  "atlas_dosya": "yerlesimler_h2_kuzeyafrika.js",
+  "atlas_sonraki": [
+   [
+    "s",
+    "1549-01-01",
+    "1610-01-01",
+    "sadi"
+   ]
+  ],
+  "grup": "merini"
+ },
+ {
+  "ad": "Tarûdant",
+  "durum": "VAR_SAHIP_YOK",
+  "sahip_1280": "merini (bolge duzeyi; Sous icin Merini hakimiyeti ayrica dogrulanmadi)",
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "alinti": "il envahit le pays de Sous el occupa Massa, Taroudant et toutes les autres forteresses de cette province. L'année suivante, il s'em- para d'Aghmat et || eline geçen Sicilmâse’yi geri alıp (673/1274-75) Mağrib-i Aksâ’nın her tarafına hâkim oldu. Mağrib’de barutun ilk defa Sicilmâse kuşatmasında kullanıldığı rivayet edilir. Başşehir olarak Fas’ı seçen",
+  "kaynak": "Ibn Haldun/de Slane, c.II (bub_gb_3dYOAAAAQAAJ), Murâbıtlar, 448 H || TDV, Merînîler md. (islamansiklopedisi.org.tr/meriniler): Sicilmâse 673/1274-75",
+  "dosya": "bub_gb_3dYOAAAAQAAJ.txt, m_meriniler.txt",
+  "bolge_duzeyi": true,
+  "not": "Taroudant 448 H (1056) Murabit fethinde adla gecer; 1280 sahibi: TDV Merinler genel hakimiyet cumlesi; Sous ozel cumlesi yok.",
+  "atlas_dosya": "yerlesimler_h2_kuzeyafrika.js",
+  "atlas_sonraki": [
+   [
+    "s",
+    "1549-01-01",
+    "1659-01-01",
+    "sadi"
+   ]
+  ],
+  "grup": "merini"
+ },
+ {
+  "ad": "Vezzân (Ouezzane)",
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "alinti": null,
+  "kaynak": null,
+  "dosya": null,
+  "bolge_duzeyi": false,
+  "not": "Yerel arama: ilgili yer adinin >=1 varyanti kaynak metinlerde bu kayitta/baska kayitta gecmedi; dolayisiyla BULUNAMADI (kaynak yetersizligi, yerin yok oldugu anlamina gelmez). Vezzan/Ouezzane: \"Ouezzan\" tarandi.",
+  "atlas_dosya": "yerlesimler_h2_kuzeyafrika.js",
+  "atlas_sonraki": [
+   [
+    "s",
+    "1549-01-01",
+    "1659-01-01",
+    "sadi"
+   ]
+  ],
+  "grup": "merini"
+ },
+ {
+  "ad": "Bâdis (Peñón de Vélez)",
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "alinti": null,
+  "kaynak": null,
+  "dosya": null,
+  "bolge_duzeyi": false,
+  "not": "Yerel arama: ilgili yer adinin >=1 varyanti kaynak metinlerde bu kayitta/baska kayitta gecmedi; dolayisiyla BULUNAMADI (kaynak yetersizligi, yerin yok oldugu anlamina gelmez). Badis (Penon de Velez): \"Badis\" yalniz Zirid hukumdar adi (Badis b. Mansur); Ibn Haldun metinde Badis sehri/limani yok.",
+  "atlas_dosya": "yerlesimler_h2_kuzeyafrika.js",
+  "atlas_sonraki": [
+   [
+    "s",
+    "1549-01-01",
+    "1564-01-01",
+    "sadi"
+   ]
+  ],
+  "grup": "merini"
+ },
+ {
+  "ad": "el-Hüseyme (Alhucemas)",
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "alinti": null,
+  "kaynak": null,
+  "dosya": null,
+  "bolge_duzeyi": false,
+  "not": "Yerel arama: ilgili yer adinin >=1 varyanti kaynak metinlerde bu kayitta/baska kayitta gecmedi; dolayisiyla BULUNAMADI (kaynak yetersizligi, yerin yok oldugu anlamina gelmez). Huseyme/Alhucemas: tarandi.",
+  "atlas_dosya": "yerlesimler_h2_kuzeyafrika.js",
+  "atlas_sonraki": [
+   [
+    "s",
+    "1549-01-01",
+    "1659-01-01",
+    "sadi"
+   ]
+  ],
+  "grup": "merini"
+ },
+ {
+  "ad": "Debdû",
+  "durum": "VAR_SAHIP_YOK",
+  "sahip_1280": "merini (bolge duzeyi)",
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "alinti": "OLiti;^accn. Celle tribu avait continue à liabid'c Debdou, sur la frorilicre du Ma- clireb, depuis rotriipalion de ce pays par les Beni-Merîn. Ihn- /'JL Inn || eline geçen Sicilmâse’yi geri alıp (673/1274-75) Mağrib-i Aksâ’nın her tarafına hâkim oldu. Mağrib’de barutun ilk defa Sicilmâse kuşatmasında kullanıldığı rivayet edilir. Başşehir olarak Fas’ı seçen",
+  "kaynak": "Ibn Haldun/de Slane, c.IV (bub_gb_ANcOAAAAQAAJ), Merînî dönemi (OCR bozuk) || TDV, Merînîler md. (islamansiklopedisi.org.tr/meriniler): Sicilmâse 673/1274-75",
+  "dosya": "bub_gb_ANcOAAAAQAAJ.txt, m_meriniler.txt",
+  "bolge_duzeyi": true,
+  "not": "Debdou: Benî Ali kabilesi \"Merinlilerin bu ulkeyi isgalinden beri\" Debdou'da oturur cumlesi (OCR bozuk); tarih yok.",
+  "atlas_dosya": "yerlesimler_h2_kuzeyafrika.js",
+  "atlas_sonraki": [
+   [
+    "s",
+    "1549-01-01",
+    "1659-01-01",
+    "sadi"
+   ]
+  ],
+  "grup": "merini"
+ },
+ {
+  "ad": "Fîgîg (Figuig)",
+  "durum": "VAR_SAHIP_YOK",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "alinti": "Beni-Hcrfn parcouraient en nomades le d^BOrt qui sépare Fîguîg du MoboXO et du Za. Lors de l'élftblis» semcnt de l'empire «Imohade, et même auparavant, ils",
+  "kaynak": "Ibn Haldun/de Slane, c.IV (bub_gb_ANcOAAAAQAAJ): Muvahhid devri öncesi/sırası Benî Herin göçerleri",
+  "dosya": "bub_gb_ANcOAAAAQAAJ.txt",
+  "bolge_duzeyi": false,
+  "not": "Figuig adi Muvahhid sirasi/oncesi bir kabile cumlesinde; 1280 sahibi: Merini mi Zeyyani mi belirsiz.",
+  "atlas_dosya": "yerlesimler_h2_kuzeyafrika.js",
+  "atlas_sonraki": [
+   [
+    "s",
+    "1549-01-31",
+    "1659-01-01",
+    "sadi"
+   ]
+  ],
+  "grup": "merini"
+ },
+ {
+  "ad": "Dârülbeyzâ (Anfa)",
+  "durum": "VAR_SAHIP_YOK",
+  "sahip_1280": "merini (bolge duzeyi)",
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "alinti": "littoral qui s'étend depuis Salé et Azemmor jusqu'à Anfa et Asfi. Vers le commencement du secoud siècle de l'hé- gire, ils avaient pour chef un || eline geçen Sicilmâse’yi geri alıp (673/1274-75) Mağrib-i Aksâ’nın her tarafına hâkim oldu. Mağrib’de barutun ilk defa Sicilmâse kuşatmasında kullanıldığı rivayet edilir. Başşehir olarak Fas’ı seçen",
+  "kaynak": "Ibn Haldun/de Slane, c.II (bub_gb_3dYOAAAAQAAJ), Berberî kabileler bölümü || TDV, Merînîler md. (islamansiklopedisi.org.tr/meriniler): Sicilmâse 673/1274-75",
+  "dosya": "bub_gb_3dYOAAAAQAAJ.txt, m_meriniler.txt",
+  "bolge_duzeyi": true,
+  "not": "Daru'l-Beyza=Anfa: Anfa hicri 2. yuzyil cumlesinde gecer (varlik); 1280 sahibi bolge duzeyi.",
+  "atlas_dosya": "yerlesimler_h2_kuzeyafrika.js",
+  "atlas_sonraki": [
+   [
+    "s",
+    "1549-01-01",
+    "1659-01-01",
+    "sadi"
+   ]
+  ],
+  "grup": "merini"
+ },
+ {
+  "ad": "Zâgûre (Dr'a)",
+  "durum": "BULUNAMADI",
+  "sahip_1280": "merini (Vadi Dera bolgesi)",
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "alinti": "yıl iktisadî, ticarî ve stratejik açılardan önemli Vâdîder‘a ve Sicilmâse’yi zaptetti. Böylece Muvahhidler güneydeki topraklarını da kaybettiler ve hâkimiyetleri Merakeş bölgesiyle sınırlı kaldı. Ebû Yahyâ",
+  "kaynak": "TDV, Merînîler md.: Ebû Yahyâ, 1255",
+  "dosya": "m_meriniler.txt",
+  "bolge_duzeyi": true,
+  "not": "Zagora/Zagure adi tarandi, bulunmadi; yalniz bolge: Vadi Dera 1255te Merini (TDV).",
+  "atlas_dosya": "yerlesimler_h2_kuzeyafrika.js",
+  "atlas_sonraki": [
+   [
+    "s",
+    "1549-01-01",
+    "1659-01-01",
+    "sadi"
+   ]
+  ],
+  "grup": "merini"
+ },
+ {
+  "ad": "Verzâzât",
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "alinti": null,
+  "kaynak": null,
+  "dosya": null,
+  "bolge_duzeyi": false,
+  "not": "Yerel arama: ilgili yer adinin >=1 varyanti kaynak metinlerde bu kayitta/baska kayitta gecmedi; dolayisiyla BULUNAMADI (kaynak yetersizligi, yerin yok oldugu anlamina gelmez). Verzazat/Ouarzazate tarandi.",
+  "atlas_dosya": "yerlesimler_h2_kuzeyafrika.js",
+  "atlas_sonraki": [
+   [
+    "s",
+    "1536-06-19",
+    "1659-01-01",
+    "sadi"
+   ]
+  ],
+  "grup": "merini"
+ },
+ {
+  "ad": "Tinğîr",
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "alinti": null,
+  "kaynak": null,
+  "dosya": null,
+  "bolge_duzeyi": false,
+  "not": "Yerel arama: ilgili yer adinin >=1 varyanti kaynak metinlerde bu kayitta/baska kayitta gecmedi; dolayisiyla BULUNAMADI (kaynak yetersizligi, yerin yok oldugu anlamina gelmez). Tinghir/Tinjir tarandi.",
+  "atlas_dosya": "yerlesimler_h2_kuzeyafrika.js",
+  "atlas_sonraki": [
+   [
+    "s",
+    "1549-01-01",
+    "1659-01-01",
+    "sadi"
+   ]
+  ],
+  "grup": "merini"
+ },
+ {
+  "ad": "Benî Mellâl",
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "alinti": null,
+  "kaynak": null,
+  "dosya": null,
+  "bolge_duzeyi": false,
+  "not": "Yerel arama: ilgili yer adinin >=1 varyanti kaynak metinlerde bu kayitta/baska kayitta gecmedi; dolayisiyla BULUNAMADI (kaynak yetersizligi, yerin yok oldugu anlamina gelmez). Beni Mellal tarandi.",
+  "atlas_dosya": "yerlesimler_h2_kuzeyafrika.js",
+  "atlas_sonraki": [
+   [
+    "s",
+    "1549-01-01",
+    "1659-01-01",
+    "sadi"
+   ]
+  ],
+  "grup": "merini"
+ },
+ {
+  "ad": "Hunayfire (Khenifra)",
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "alinti": null,
+  "kaynak": null,
+  "dosya": null,
+  "bolge_duzeyi": false,
+  "not": "Yerel arama: ilgili yer adinin >=1 varyanti kaynak metinlerde bu kayitta/baska kayitta gecmedi; dolayisiyla BULUNAMADI (kaynak yetersizligi, yerin yok oldugu anlamina gelmez). Hunayfire/Khenifra tarandi.",
+  "atlas_dosya": "yerlesimler_h2_kuzeyafrika.js",
+  "atlas_sonraki": [
+   [
+    "s",
+    "1549-01-31",
+    "1659-01-01",
+    "sadi"
+   ]
+  ],
+  "grup": "merini"
+ },
+ {
+  "ad": "Sefrû",
+  "durum": "VAR_SAHIP_YOK",
+  "sahip_1280": "merini (bolge duzeyi)",
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "alinti": "l'envoya à la mort. De Fez, il se porta sur Sofrouï où il tua tous les membres de la famille Ouanoudîn qui s'y étaient enfermés || eline geçen Sicilmâse’yi geri alıp (673/1274-75) Mağrib-i Aksâ’nın her tarafına hâkim oldu. Mağrib’de barutun ilk defa Sicilmâse kuşatmasında kullanıldığı rivayet edilir. Başşehir olarak Fas’ı seçen",
+  "kaynak": "Ibn Haldun/de Slane, c.II (bub_gb_3dYOAAAAQAAJ), Murâbıtlar dönemi || TDV, Merînîler md. (islamansiklopedisi.org.tr/meriniler): Sicilmâse 673/1274-75",
+  "dosya": "bub_gb_3dYOAAAAQAAJ.txt, m_meriniler.txt",
+  "bolge_duzeyi": true,
+  "not": "Sefru = Ibn Haldun \"Sofrouï\": Murabit doneminde (c.1060lar) Fas'tan Sofrouï'ye yurunur; 1280 sahibi bolge duzeyi.",
+  "atlas_dosya": "yerlesimler_h2_kuzeyafrika.js",
+  "atlas_sonraki": [
+   [
+    "s",
+    "1549-01-01",
+    "1659-01-01",
+    "sadi"
+   ]
+  ],
+  "grup": "merini"
+ },
+ {
+  "ad": "Îfnî (Sîdî İfnî)",
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "alinti": null,
+  "kaynak": null,
+  "dosya": null,
+  "bolge_duzeyi": false,
+  "not": "Yerel arama: ilgili yer adinin >=1 varyanti kaynak metinlerde bu kayitta/baska kayitta gecmedi; dolayisiyla BULUNAMADI (kaynak yetersizligi, yerin yok oldugu anlamina gelmez). Ifni tarandi.",
+  "atlas_dosya": "yerlesimler_h2_kuzeyafrika.js",
+  "atlas_sonraki": [
+   [
+    "s",
+    "1549-01-01",
+    "1659-01-01",
+    "sadi"
+   ]
+  ],
+  "grup": "merini"
+ },
+ {
+  "ad": "Tîznît",
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "alinti": null,
+  "kaynak": null,
+  "dosya": null,
+  "bolge_duzeyi": false,
+  "not": "Yerel arama: ilgili yer adinin >=1 varyanti kaynak metinlerde bu kayitta/baska kayitta gecmedi; dolayisiyla BULUNAMADI (kaynak yetersizligi, yerin yok oldugu anlamina gelmez). Tizni/Tiznit tarandi.",
+  "atlas_dosya": "yerlesimler_h2_kuzeyafrika.js",
+  "atlas_sonraki": [
+   [
+    "s",
+    "1549-01-01",
+    "1659-01-01",
+    "sadi"
+   ]
+  ],
+  "grup": "merini"
+ },
+ {
+  "ad": "Ğulmîm (Vâdî Nûn)",
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "alinti": null,
+  "kaynak": null,
+  "dosya": null,
+  "bolge_duzeyi": false,
+  "not": "Yerel arama: ilgili yer adinin >=1 varyanti kaynak metinlerde bu kayitta/baska kayitta gecmedi; dolayisiyla BULUNAMADI (kaynak yetersizligi, yerin yok oldugu anlamina gelmez). Gulmim/Guelmim tarandi.",
+  "atlas_dosya": "yerlesimler_h2_kuzeyafrika.js",
+  "atlas_sonraki": [
+   [
+    "s",
+    "1549-01-01",
+    "1659-01-01",
+    "sadi"
+   ]
+  ],
+  "grup": "merini"
+ },
+ {
+  "ad": "Tâtâ",
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "alinti": null,
+  "kaynak": null,
+  "dosya": null,
+  "bolge_duzeyi": false,
+  "not": "Yerel arama: ilgili yer adinin >=1 varyanti kaynak metinlerde bu kayitta/baska kayitta gecmedi; dolayisiyla BULUNAMADI (kaynak yetersizligi, yerin yok oldugu anlamina gelmez). Tata tarandi.",
+  "atlas_dosya": "yerlesimler_h2_kuzeyafrika.js",
+  "atlas_sonraki": [
+   [
+    "s",
+    "1549-01-01",
+    "1659-01-01",
+    "sadi"
+   ]
+  ],
+  "grup": "merini"
+ },
+ {
+  "ad": "Advâr (Tuvât)",
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "alinti": null,
+  "kaynak": null,
+  "dosya": null,
+  "bolge_duzeyi": false,
+  "not": "Yerel arama: ilgili yer adinin >=1 varyanti kaynak metinlerde bu kayitta/baska kayitta gecmedi; dolayisiyla BULUNAMADI (kaynak yetersizligi, yerin yok oldugu anlamina gelmez). Advar/Tuvat (Touat) tarandi. Touat/Tementit Ibn Haldun c.III'te 14. yuzyil bakisiyla (tarihsiz) geciyor; 1280 oncesi cumle yok.",
+  "atlas_dosya": "yerlesimler_h2_kuzeyafrika.js",
+  "atlas_sonraki": [
+   [
+    "s",
+    "1549-01-01",
+    "1659-01-01",
+    "sadi"
+   ]
+  ],
+  "grup": "merini"
+ },
+ {
+  "ad": "Tîmîmûn (Gûrâre)",
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "alinti": null,
+  "kaynak": null,
+  "dosya": null,
+  "bolge_duzeyi": false,
+  "not": "Yerel arama: ilgili yer adinin >=1 varyanti kaynak metinlerde bu kayitta/baska kayitta gecmedi; dolayisiyla BULUNAMADI (kaynak yetersizligi, yerin yok oldugu anlamina gelmez). Timimun/Gurare tarandi. Touat/Tementit Ibn Haldun c.III'te 14. yuzyil bakisiyla (tarihsiz) geciyor; 1280 oncesi cumle yok.",
+  "atlas_dosya": "yerlesimler_h2_kuzeyafrika.js",
+  "atlas_sonraki": [
+   [
+    "s",
+    "1549-01-01",
+    "1659-01-01",
+    "sadi"
+   ]
+  ],
+  "grup": "merini"
+ },
+ {
+  "ad": "Aynı Sâlih (Tîdîkelt)",
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "alinti": null,
+  "kaynak": null,
+  "dosya": null,
+  "bolge_duzeyi": false,
+  "not": "Yerel arama: ilgili yer adinin >=1 varyanti kaynak metinlerde bu kayitta/baska kayitta gecmedi; dolayisiyla BULUNAMADI (kaynak yetersizligi, yerin yok oldugu anlamina gelmez). Ayn Salih tarandi.",
+  "atlas_dosya": "yerlesimler_h2_kuzeyafrika.js",
+  "atlas_sonraki": [
+   [
+    "s",
+    "1549-01-01",
+    "1659-01-01",
+    "sadi"
+   ]
+  ],
+  "grup": "merini"
+ },
+ {
+  "ad": "Reggân",
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "alinti": null,
+  "kaynak": null,
+  "dosya": null,
+  "bolge_duzeyi": false,
+  "not": "Yerel arama: ilgili yer adinin >=1 varyanti kaynak metinlerde bu kayitta/baska kayitta gecmedi; dolayisiyla BULUNAMADI (kaynak yetersizligi, yerin yok oldugu anlamina gelmez). Reggan tarandi.",
+  "atlas_dosya": "yerlesimler_h2_kuzeyafrika.js",
+  "atlas_sonraki": [
+   [
+    "s",
+    "1549-01-01",
+    "1659-01-01",
+    "sadi"
+   ]
+  ],
+  "grup": "merini"
+ },
+ {
+  "ad": "Benî Abbâs (Sâvre)",
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "alinti": null,
+  "kaynak": null,
+  "dosya": null,
+  "bolge_duzeyi": false,
+  "not": "Yerel arama: ilgili yer adinin >=1 varyanti kaynak metinlerde bu kayitta/baska kayitta gecmedi; dolayisiyla BULUNAMADI (kaynak yetersizligi, yerin yok oldugu anlamina gelmez). Beni Abbas tarandi.",
+  "atlas_dosya": "yerlesimler_h2_kuzeyafrika.js",
+  "atlas_sonraki": [
+   [
+    "s",
+    "1549-01-01",
+    "1659-01-01",
+    "sadi"
+   ]
+  ],
+  "grup": "merini"
+ },
+ {
+  "ad": "Beşşâr (Béchar)",
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "alinti": null,
+  "kaynak": null,
+  "dosya": null,
+  "bolge_duzeyi": false,
+  "not": "Yerel arama: ilgili yer adinin >=1 varyanti kaynak metinlerde bu kayitta/baska kayitta gecmedi; dolayisiyla BULUNAMADI (kaynak yetersizligi, yerin yok oldugu anlamina gelmez). Beshar/Bechar tarandi.",
+  "atlas_dosya": "yerlesimler_h2_kuzeyafrika.js",
+  "atlas_sonraki": [
+   [
+    "s",
+    "1549-01-01",
+    "1659-01-01",
+    "sadi"
+   ]
+  ],
+  "grup": "merini"
+ },
+ {
+  "ad": "Setif",
+  "durum": "VAR_SAHIP_YOK",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "alinti": "rallier tons les Ketama et de mettre le siège devant Setîf. Alt- Ibn-Djâfer-Ibn-Asloudja, gouverneur de cette ville, et son frère Abou-Habîb, y perdirent la vie; || (1228-1249) yılları arasında hüküm süren ve nüfuzu batıda Cezayir şehrinden doğuda Trablus’a kadar uzanan Ebû Zekeriyyâ Provence, Venedik, Pisa ve Cenova ile güvenlik ve ticaret",
+  "kaynak": "Ibn Haldun/de Slane, c.II (bub_gb_3dYOAAAAQAAJ), 296 (908-9) ve çevresi || TDV, Hafsîler md. (islamansiklopedisi.org.tr/hafsiler): Ebû Zekeriyyâ 1228-1249",
+  "dosya": "bub_gb_3dYOAAAAQAAJ.txt, m_hafsiler.txt",
+  "bolge_duzeyi": true,
+  "not": "Setif 908-9 olaylarinda adla gecer (varlik). 1280 sahibi Zeyyani degil Hafsi (Bicaye/Konstantin Hafsi eyaleti, TDV Hafsiler: nufuz Cezayir sehrinden Trablus'a) gorunuyor: atlas-kaynak CELISKI adayi (yer-cumle yok, bolge duzeyi).",
+  "atlas_dosya": "yerlesimler.js",
+  "atlas_sonraki": [
+   [
+    "d",
+    "1519-09-01",
+    "1671-01-01",
+    null
+   ]
+  ],
+  "grup": "zeyyani"
+ },
+ {
+  "ad": "Biskra",
+  "durum": "CELISKI",
+  "sahip_1280": "hafsi (erken donem; sonra Mozni valileri)",
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "alinti": "chef alroohade qui gouvernait le Zab. Ce fonctionnaire résidait tantôt à Biskera, tantôt à Mag^ gara, et comptait les bourgades de Ouargla au nombre des || (1228-1249) yılları arasında hüküm süren ve nüfuzu batıda Cezayir şehrinden doğuda Trablus’a kadar uzanan Ebû Zekeriyyâ Provence, Venedik, Pisa ve Cenova ile güvenlik ve ticaret",
+  "kaynak": "Ibn Haldun/de Slane, c.III (bub_gb_T9IOAAAAQAAJ): Hafsî devletinin ilk dönemi || TDV, Hafsîler md. (islamansiklopedisi.org.tr/hafsiler): Ebû Zekeriyyâ 1228-1249",
+  "dosya": "bub_gb_T9IOAAAAQAAJ.txt, m_hafsiler.txt",
+  "bolge_duzeyi": true,
+  "not": "Biskera: Hafsi devletinin ilk doneminde Zab valisi Biskera'da oturur; 1280de Zeyyani degil Hafsi cevresi; 1280 tarihli cumle yok.",
+  "atlas_dosya": "yerlesimler.js",
+  "atlas_sonraki": [
+   [
+    "d",
+    "1552-01-01",
+    "1671-01-01",
+    null
+   ]
+  ],
+  "grup": "zeyyani"
+ },
+ {
+  "ad": "Tuggurt",
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "alinti": null,
+  "kaynak": null,
+  "dosya": null,
+  "bolge_duzeyi": false,
+  "not": "Yerel arama: ilgili yer adinin >=1 varyanti kaynak metinlerde bu kayitta/baska kayitta gecmedi; dolayisiyla BULUNAMADI (kaynak yetersizligi, yerin yok oldugu anlamina gelmez). Tuggurt: Ibn Haldun c.III'te Tuggurt yalniz 14. yuzyil (1330-40lar, Ibn Haldun donemi) cumlelerinde; <=1280 cumle yok.",
+  "atlas_dosya": "yerlesimler.js",
+  "atlas_sonraki": [
+   [
+    "d",
+    "1552-01-01",
+    "1671-01-01",
+    null
+   ]
+  ],
+  "grup": "zeyyani"
+ },
+ {
+  "ad": "Mersa'l-Kebîr",
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "alinti": null,
+  "kaynak": null,
+  "dosya": null,
+  "bolge_duzeyi": false,
+  "not": "Yerel arama: ilgili yer adinin >=1 varyanti kaynak metinlerde bu kayitta/baska kayitta gecmedi; dolayisiyla BULUNAMADI (kaynak yetersizligi, yerin yok oldugu anlamina gelmez). Mers el-Kebir: tarandi.",
+  "atlas_dosya": "yerlesimler_ek3.js",
+  "atlas_sonraki": [
+   [
+    "s",
+    "1509-05-17",
+    "1708-04-04",
+    "ispanya"
+   ]
+  ],
+  "grup": "zeyyani"
+ },
+ {
+  "ad": "Blida",
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "alinti": null,
+  "kaynak": null,
+  "dosya": null,
+  "bolge_duzeyi": false,
+  "not": "Yerel arama: ilgili yer adinin >=1 varyanti kaynak metinlerde bu kayitta/baska kayitta gecmedi; dolayisiyla BULUNAMADI (kaynak yetersizligi, yerin yok oldugu anlamina gelmez). Blida: \"Blida\" yalniz gurultu eslesmeleri; sehir adi yok.",
+  "atlas_dosya": "yerlesimler_afrika.js",
+  "atlas_sonraki": [
+   [
+    "d",
+    "1519-09-01",
+    "1671-01-01",
+    null
+   ]
+  ],
+  "grup": "zeyyani"
+ },
+ {
+  "ad": "Mustagānim",
+  "durum": "SAHIPLI",
+  "sahip_1280": "zeyyani",
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "alinti": "à Ez-Zaïm en le nom- mant commandant de la forteresse de Mostaghanem. A peine Digitized by Google 362 HISTOIRE DES BEftfifcRES . fut-il rentré dans",
+  "kaynak": "Ibn Haldun/de Slane, c.III (bub_gb_T9IOAAAAQAAJ), Yağmurâsen (Abdülvâdî) bölümü",
+  "dosya": "bub_gb_T9IOAAAAQAAJ.txt",
+  "bolge_duzeyi": false,
+  "not": "Yagmurasen (1236-83, TDV) Mostaghanem kalesine Ez-Zaim'i komutan atar; baslangic yili kaynakta yok.",
+  "atlas_dosya": "yerlesimler_afrika.js",
+  "atlas_sonraki": [
+   [
+    "d",
+    "1552-01-01",
+    "1671-01-01",
+    null
+   ]
+  ],
+  "grup": "zeyyani"
+ },
+ {
+  "ad": "Muaskar",
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "alinti": null,
+  "kaynak": null,
+  "dosya": null,
+  "bolge_duzeyi": false,
+  "not": "Yerel arama: ilgili yer adinin >=1 varyanti kaynak metinlerde bu kayitta/baska kayitta gecmedi; dolayisiyla BULUNAMADI (kaynak yetersizligi, yerin yok oldugu anlamina gelmez). Mascara/Muaskar: tarandi, yalniz gurultu.",
+  "atlas_dosya": "yerlesimler_afrika.js",
+  "atlas_sonraki": [
+   [
+    "d",
+    "1552-01-01",
+    "1671-01-01",
+    null
+   ]
+  ],
+  "grup": "zeyyani"
+ },
+ {
+  "ad": "Nedrûme",
+  "durum": "VAR_SAHIP_YOK",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "alinti": "ayrı mekân bulunmaktadır. Huneyn, Tilimsân ve Nedrûme’deki (Nedroma) Murâbıtlar dönemine ait camiler, Ubbâd Medresesi, sonradan müzeye çevrilen Sîdî Belhasan Camii, Sîdî Halvî Camii, Meşver Sarayı,",
+  "kaynak": "TDV, Tilimsân md. (islamansiklopedisi.org.tr/tilimsan)",
+  "dosya": "m_tilimsan.txt",
+  "bolge_duzeyi": false,
+  "not": "Nedroma Murabit doneminden camiyle anilir (varlik); 1280 sahibi cumlede yok (Ibn Haldun c.III'teki Nedroma 14. yuzyil).",
+  "atlas_dosya": "yerlesimler_afrika.js",
+  "atlas_sonraki": [
+   [
+    "d",
+    "1552-01-01",
+    "1671-01-01",
+    null
+   ]
+  ],
+  "grup": "zeyyani"
+ },
+ {
+  "ad": "Batna",
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "alinti": null,
+  "kaynak": null,
+  "dosya": null,
+  "bolge_duzeyi": false,
+  "not": "Yerel arama: ilgili yer adinin >=1 varyanti kaynak metinlerde bu kayitta/baska kayitta gecmedi; dolayisiyla BULUNAMADI (kaynak yetersizligi, yerin yok oldugu anlamina gelmez). Batna: yalniz de Slane notu (Konstantin-Batna yolunda \"bir yer\").",
+  "atlas_dosya": "yerlesimler_afrika.js",
+  "atlas_sonraki": [
+   [
+    "d",
+    "1519-09-01",
+    "1671-01-01",
+    null
+   ]
+  ],
+  "grup": "zeyyani"
+ },
+ {
+  "ad": "Berc Bû Areric",
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "alinti": null,
+  "kaynak": null,
+  "dosya": null,
+  "bolge_duzeyi": false,
+  "not": "Yerel arama: ilgili yer adinin >=1 varyanti kaynak metinlerde bu kayitta/baska kayitta gecmedi; dolayisiyla BULUNAMADI (kaynak yetersizligi, yerin yok oldugu anlamina gelmez). Bordj Bou Arreridj: tarandi.",
+  "atlas_dosya": "yerlesimler_afrika.js",
+  "atlas_sonraki": [
+   [
+    "d",
+    "1519-09-01",
+    "1671-01-01",
+    null
+   ]
+  ],
+  "grup": "zeyyani"
+ },
+ {
+  "ad": "Mesîle",
+  "durum": "VAR_SAHIP_YOK",
+  "sahip_1280": "hafsi (Ebu Zekeriyya doneminde)",
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "alinti": "Bîgba , l'Auras , les villes de Ouargla , ainsi que Maggara, Nigaous et EUMecîla, villes de Hodua. D'après les or- dres de son maître,",
+  "kaynak": "Ibn Haldun/de Slane, c.III (archive.org bub_gb_T9IOAAAAQAAJ), Hafsî Ebû Zekeriyyâ dönemi",
+  "dosya": "bub_gb_T9IOAAAAQAAJ.txt",
+  "bolge_duzeyi": false,
+  "not": "El-Mecila (Mesile) Hafsi Ebu Zekeriyya (1228-49) donemi cumlesinde; 1280 icin teyit yok; atlas Zeyyani diyor -> CELISKI adayi.",
+  "atlas_dosya": "yerlesimler_afrika.js",
+  "atlas_sonraki": [
+   [
+    "d",
+    "1519-09-01",
+    "1671-01-01",
+    null
+   ]
+  ],
+  "grup": "zeyyani"
+ },
+ {
+  "ad": "Bû Sa'âde",
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "alinti": null,
+  "kaynak": null,
+  "dosya": null,
+  "bolge_duzeyi": false,
+  "not": "Yerel arama: ilgili yer adinin >=1 varyanti kaynak metinlerde bu kayitta/baska kayitta gecmedi; dolayisiyla BULUNAMADI (kaynak yetersizligi, yerin yok oldugu anlamina gelmez). Bou Saada: tarandi.",
+  "atlas_dosya": "yerlesimler_afrika.js",
+  "atlas_sonraki": [
+   [
+    "d",
+    "1552-01-01",
+    "1671-01-01",
+    null
+   ]
+  ],
+  "grup": "zeyyani"
+ },
+ {
+  "ad": "Gardâye",
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "alinti": null,
+  "kaynak": null,
+  "dosya": null,
+  "bolge_duzeyi": false,
+  "not": "Yerel arama: ilgili yer adinin >=1 varyanti kaynak metinlerde bu kayitta/baska kayitta gecmedi; dolayisiyla BULUNAMADI (kaynak yetersizligi, yerin yok oldugu anlamina gelmez). Ghardaia: tarandi.",
+  "atlas_dosya": "yerlesimler_afrika.js",
+  "atlas_sonraki": [
+   [
+    "d",
+    "1552-01-01",
+    "1671-01-01",
+    null
+   ]
+  ],
+  "grup": "zeyyani"
+ },
+ {
+  "ad": "Akbû (Benî Abbâs)",
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "alinti": null,
+  "kaynak": null,
+  "dosya": null,
+  "bolge_duzeyi": false,
+  "not": "Yerel arama: ilgili yer adinin >=1 varyanti kaynak metinlerde bu kayitta/baska kayitta gecmedi; dolayisiyla BULUNAMADI (kaynak yetersizligi, yerin yok oldugu anlamina gelmez). Akbou: yalniz kabile/kisi adi (Makhoukh) gurultu.",
+  "atlas_dosya": "yerlesimler_h2_kuzeyafrika.js",
+  "atlas_sonraki": [
+   [
+    "d",
+    "1519-09-01",
+    "1671-01-01",
+    null
+   ]
+  ],
+  "grup": "zeyyani"
+ },
+ {
+  "ad": "Tâhert (Tiaret)",
+  "durum": "VAR_SAHIP_YOK",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "alinti": "Rüstem tarafından kurulan Tâhertülhadîse olmak üzere Tâhert (Tîhert, Tiaret) adını taşıyan iki şehirden bahsedilmektedir. Rüstemîler’in kurucusu İbâzî/Hâricî imamı Abdurrahman b. Rüstem, Abbâsî ordusunun 144’te (761)",
+  "kaynak": "TDV, Tâhert md. (islamansiklopedisi.org.tr/tahert)",
+  "dosya": "m_tahert.txt",
+  "bolge_duzeyi": false,
+  "not": "Tahert/Tiaret Rustemi (777) donemi: varlik; 1280 sahibi cumlede yok.",
+  "atlas_dosya": "yerlesimler_h2_kuzeyafrika.js",
+  "atlas_sonraki": [
+   [
+    "d",
+    "1552-01-01",
+    "1671-01-01",
+    null
+   ]
+  ],
+  "grup": "zeyyani"
+ },
+ {
+  "ad": "Cilfe (Djelfa)",
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "alinti": null,
+  "kaynak": null,
+  "dosya": null,
+  "bolge_duzeyi": false,
+  "not": "Yerel arama: ilgili yer adinin >=1 varyanti kaynak metinlerde bu kayitta/baska kayitta gecmedi; dolayisiyla BULUNAMADI (kaynak yetersizligi, yerin yok oldugu anlamina gelmez). Djelfa: tarandi.",
+  "atlas_dosya": "yerlesimler_h2_kuzeyafrika.js",
+  "atlas_sonraki": [
+   [
+    "d",
+    "1519-09-01",
+    "1671-01-01",
+    null
+   ]
+  ],
+  "grup": "zeyyani"
+ },
+ {
+  "ad": "Vargla (Ouargla)",
+  "durum": "CELISKI",
+  "sahip_1280": "hafsi (sonra Devavide)",
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "alinti": "Bîgba , l'Auras , les villes de Ouargla , ainsi que Maggara, Nigaous et EUMecîla, villes de Hodua. D'après les or- dres de son maître, || plus tard, dans leur pays et enlever au sultan la ville de Ouargla et les bour- gades du Rîgh. De là. ils marchèrent sur le",
+  "kaynak": "Ibn Haldun/de Slane, c.III (archive.org bub_gb_T9IOAAAAQAAJ), Hafsî Ebû Zekeriyyâ dönemi || Ibn Haldun/de Slane, c.II (bub_gb_3dYOAAAAQAAJ), Mostancer (Hafsî) bölümü",
+  "dosya": "bub_gb_3dYOAAAAQAAJ.txt, bub_gb_T9IOAAAAQAAJ.txt",
+  "bolge_duzeyi": false,
+  "not": "Ouargla Hafsi Ebu Zekeriyya doneminde vilayetine katilir; Mostancer doneminde Devavide Araplari (Yagmurasen destekli) sultandan Ouargla'yi alir (tarihsiz, \"plus tard\"). 1280 sahibi belirsiz; atlas Zeyyani diyor ama kaynakta sahip Hafsi sultani ya da Devavide.",
+  "atlas_dosya": "yerlesimler_h2_kuzeyafrika.js",
+  "atlas_sonraki": [
+   [
+    "d",
+    "1552-01-01",
+    "1671-01-01",
+    null
+   ]
+  ],
+  "grup": "zeyyani"
+ },
+ {
+  "ad": "el-Vâdî (Sûf)",
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "alinti": null,
+  "kaynak": null,
+  "dosya": null,
+  "bolge_duzeyi": false,
+  "not": "Yerel arama: ilgili yer adinin >=1 varyanti kaynak metinlerde bu kayitta/baska kayitta gecmedi; dolayisiyla BULUNAMADI (kaynak yetersizligi, yerin yok oldugu anlamina gelmez). el-Vadi (Souf): \"Souf\" yalniz gurultu (Messoufa).",
+  "atlas_dosya": "yerlesimler_h2_kuzeyafrika.js",
+  "atlas_sonraki": [
+   [
+    "d",
+    "1552-01-01",
+    "1671-01-01",
+    null
+   ]
+  ],
+  "grup": "zeyyani"
+ },
+ {
+  "ad": "Aynı Beydâ",
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "alinti": null,
+  "kaynak": null,
+  "dosya": null,
+  "bolge_duzeyi": false,
+  "not": "Yerel arama: ilgili yer adinin >=1 varyanti kaynak metinlerde bu kayitta/baska kayitta gecmedi; dolayisiyla BULUNAMADI (kaynak yetersizligi, yerin yok oldugu anlamina gelmez). Ain Beida: tarandi.",
+  "atlas_dosya": "yerlesimler_h2_kuzeyafrika.js",
+  "atlas_sonraki": [
+   [
+    "d",
+    "1519-09-01",
+    "1671-01-01",
+    null
+   ]
+  ],
+  "grup": "zeyyani"
+ },
+ {
+  "ad": "Çuha Adası (Kythira)",
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "alinti": null,
+  "kaynak": null,
+  "dosya": null,
+  "bolge_duzeyi": false,
+  "not": "Yerel arama: ilgili yer adinin >=1 varyanti kaynak metinlerde bu kayitta/baska kayitta gecmedi; dolayisiyla BULUNAMADI (kaynak yetersizligi, yerin yok oldugu anlamina gelmez). Kythira/Cerigo: yerel kaynaklarda yok (Africa odakli korpus).",
+  "atlas_dosya": "yerlesimler.js",
+  "atlas_sonraki": [
+   [
+    "d",
+    "1715-09-07",
+    "1718-07-21",
+    null
+   ]
+  ],
+  "grup": "venedik"
+ },
+ {
+  "ad": "Namfi (Anafi)",
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "alinti": null,
+  "kaynak": null,
+  "dosya": null,
+  "bolge_duzeyi": false,
+  "not": "Yerel arama: ilgili yer adinin >=1 varyanti kaynak metinlerde bu kayitta/baska kayitta gecmedi; dolayisiyla BULUNAMADI (kaynak yetersizligi, yerin yok oldugu anlamina gelmez). Anafi: yalniz gurultu (Hanafi).",
+  "atlas_dosya": "yerlesimler.js",
+  "atlas_sonraki": [
+   [
+    "d",
+    "1566-04-15",
+    "1830-02-03",
+    null
+   ]
+  ],
+  "grup": "venedik"
+ },
+ {
+  "ad": "İsfakiye (Sfakia)",
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "alinti": null,
+  "kaynak": null,
+  "dosya": null,
+  "bolge_duzeyi": false,
+  "not": "Yerel arama: ilgili yer adinin >=1 varyanti kaynak metinlerde bu kayitta/baska kayitta gecmedi; dolayisiyla BULUNAMADI (kaynak yetersizligi, yerin yok oldugu anlamina gelmez). Sfakia: tarandi.",
+  "atlas_dosya": "yerlesimler.js",
+  "atlas_sonraki": [
+   [
+    "d",
+    "1669-09-27",
+    "1830-11-01",
+    null
+   ]
+  ],
+  "grup": "venedik"
+ },
+ {
+  "ad": "Elafonisos (Cervi)",
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "alinti": null,
+  "kaynak": null,
+  "dosya": null,
+  "bolge_duzeyi": false,
+  "not": "Yerel arama: ilgili yer adinin >=1 varyanti kaynak metinlerde bu kayitta/baska kayitta gecmedi; dolayisiyla BULUNAMADI (kaynak yetersizligi, yerin yok oldugu anlamina gelmez). Elafonisos/Cervi: Mas Latrie'de \"Cervi\" yalniz lat. kisi adlari.",
+  "atlas_dosya": "yerlesimler_ek_adalar.js",
+  "atlas_sonraki": [
+   [
+    "s",
+    "1349-01-01",
+    "1460-05-29",
+    "mora-despotlugu"
+   ]
+  ],
+  "grup": "bizans"
+ },
+ {
+  "ad": "Derne",
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "alinti": null,
+  "kaynak": null,
+  "dosya": null,
+  "bolge_duzeyi": false,
+  "not": "Yerel arama: ilgili yer adinin >=1 varyanti kaynak metinlerde bu kayitta/baska kayitta gecmedi; dolayisiyla BULUNAMADI (kaynak yetersizligi, yerin yok oldugu anlamina gelmez). Derna: Ibn Haldun/Mas Latrie'de Derna yalniz gurultu (\"dernier\"); Leo c.1520 >1280.",
+  "atlas_dosya": "yerlesimler.js",
+  "atlas_sonraki": [
+   [
+    "d",
+    "1551-08-15",
+    "1711-07-29",
+    null
+   ]
+  ],
+  "grup": "__BOSLUK__"
+ },
+ {
+  "ad": "Tulmeyse",
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "alinti": null,
+  "kaynak": null,
+  "dosya": null,
+  "bolge_duzeyi": false,
+  "not": "Yerel arama: ilgili yer adinin >=1 varyanti kaynak metinlerde bu kayitta/baska kayitta gecmedi; dolayisiyla BULUNAMADI (kaynak yetersizligi, yerin yok oldugu anlamina gelmez). Tulmeyse (Tolmeita): Mas Latrie ek: Visconti portolanindaki \"Tolometa\" (c.1318, \"atlas de 1375ten 50 yil once\") >1280.",
+  "atlas_dosya": "yerlesimler_h2_kuzeyafrika.js",
+  "atlas_sonraki": [
+   [
+    "d",
+    "1551-08-15",
+    "1711-07-29",
+    null
+   ]
+  ],
+  "grup": "__BOSLUK__"
+ },
+ {
+  "ad": "Ayn el-Ğazâle (Bomba)",
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "alinti": null,
+  "kaynak": null,
+  "dosya": null,
+  "bolge_duzeyi": false,
+  "not": "Yerel arama: ilgili yer adinin >=1 varyanti kaynak metinlerde bu kayitta/baska kayitta gecmedi; dolayisiyla BULUNAMADI (kaynak yetersizligi, yerin yok oldugu anlamina gelmez). Ayn el-Gazale/Bomba: tarandi.",
+  "atlas_dosya": "yerlesimler_h2_kuzeyafrika.js",
+  "atlas_sonraki": [
+   [
+    "d",
+    "1551-08-15",
+    "1711-07-29",
+    null
+   ]
+  ],
+  "grup": "__BOSLUK__"
+ },
+ {
+  "ad": "Yendi (Dagbon)",
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "alinti": null,
+  "kaynak": null,
+  "dosya": null,
+  "bolge_duzeyi": false,
+  "not": "Yerel arama: ilgili yer adinin >=1 varyanti kaynak metinlerde bu kayitta/baska kayitta gecmedi; dolayisiyla BULUNAMADI (kaynak yetersizligi, yerin yok oldugu anlamina gelmez). Yendi (Dagbon): bu korpus Kuzey Afrika; kaynak turu uygun degil.",
+  "atlas_dosya": "yerlesimler_afrika2.js",
+  "atlas_sonraki": [
+   [
+    "s",
+    "1401-01-01",
+    "1899-11-14",
+    "dagbon"
+   ]
+  ],
+  "grup": "__BOSLUK__"
+ }
+]

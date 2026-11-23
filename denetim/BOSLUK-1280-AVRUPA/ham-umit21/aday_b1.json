@@ -1,0 +1,1483 @@
+[
+{
+"ad": "Cezayir",
+"lat": 36.753,
+"lon": 3.059,
+"tur": "liman",
+"kur": null,
+"dosya": "yerlesimler.js",
+"durum": "BOSLUK",
+"onceki": [
+[
+"s",
+"1229-01-01",
+"1249-01-01",
+"hafsi"
+],
+[
+"s",
+"1249-01-01",
+"1281-01-01",
+"__BOSLUK__"
+]
+],
+"sonraki": [
+[
+"s",
+"1281-01-01",
+"1519-09-01",
+"zeyyani"
+],
+[
+"d",
+"1519-09-01",
+"1671-01-01",
+"(d)"
+]
+]
+},
+{
+"ad": "Şerşel (Cherchell)",
+"lat": 36.6015,
+"lon": 2.1921,
+"tur": "liman",
+"kur": null,
+"dosya": "yerlesimler.js",
+"durum": "BOSLUK",
+"onceki": [
+[
+"s",
+"0395-01-17",
+"0429-05-01",
+"bati-roma"
+],
+[
+"s",
+"0429-05-01",
+"1281-01-01",
+"__BOSLUK__"
+]
+],
+"sonraki": [
+[
+"s",
+"1281-01-01",
+"1519-09-01",
+"zeyyani"
+],
+[
+"d",
+"1519-09-01",
+"1671-01-01",
+"(d)"
+]
+]
+},
+{
+"ad": "Medea (Titteri)",
+"lat": 36.264,
+"lon": 2.754,
+"tur": "sehir",
+"kur": null,
+"dosya": "yerlesimler.js",
+"durum": "BOSLUK",
+"onceki": [
+[
+"s",
+"0395-01-17",
+"0429-05-01",
+"bati-roma"
+],
+[
+"s",
+"0429-05-01",
+"1281-01-01",
+"__BOSLUK__"
+]
+],
+"sonraki": [
+[
+"s",
+"1281-01-01",
+"1519-09-01",
+"zeyyani"
+],
+[
+"d",
+"1519-09-01",
+"1671-01-01",
+"(d)"
+]
+]
+},
+{
+"ad": "İbiza",
+"lat": 38.91,
+"lon": 1.43,
+"tur": "liman",
+"kur": null,
+"dosya": "yerlesimler.js",
+"durum": "SAHIPSIZ",
+"onceki": [],
+"sonraki": [
+[
+"s",
+"1281-01-01",
+"1285-11-19",
+"mayorka"
+],
+[
+"s",
+"1285-11-19",
+"1298-01-01",
+"aragon"
+]
+]
+},
+{
+"ad": "Mersa'l-Kebîr",
+"lat": 35.728,
+"lon": -0.709,
+"tur": "liman",
+"kur": null,
+"dosya": "yerlesimler_ek3.js",
+"durum": "SAHIPSIZ",
+"onceki": [],
+"sonraki": [
+[
+"s",
+"1281-01-01",
+"1509-05-17",
+"zeyyani"
+],
+[
+"s",
+"1509-05-17",
+"1708-04-04",
+"ispanya"
+]
+]
+},
+{
+"ad": "Blida",
+"lat": 36.47,
+"lon": 2.829,
+"tur": "sehir",
+"kur": null,
+"dosya": "yerlesimler_afrika.js",
+"durum": "SAHIPSIZ",
+"onceki": [],
+"sonraki": [
+[
+"s",
+"1281-01-01",
+"1519-09-01",
+"zeyyani"
+],
+[
+"d",
+"1519-09-01",
+"1671-01-01",
+"(d)"
+]
+]
+},
+{
+"ad": "Miliana",
+"lat": 36.305,
+"lon": 2.229,
+"tur": "sehir",
+"kur": null,
+"dosya": "yerlesimler_afrika.js",
+"durum": "BOSLUK",
+"onceki": [
+[
+"s",
+"0395-01-17",
+"0429-05-01",
+"bati-roma"
+],
+[
+"s",
+"0429-05-01",
+"1281-01-01",
+"__BOSLUK__"
+]
+],
+"sonraki": [
+[
+"s",
+"1281-01-01",
+"1519-09-01",
+"zeyyani"
+],
+[
+"d",
+"1519-09-01",
+"1671-01-01",
+"(d)"
+]
+]
+},
+{
+"ad": "Tenes",
+"lat": 36.507,
+"lon": 1.307,
+"tur": "liman",
+"kur": null,
+"dosya": "yerlesimler_afrika.js",
+"durum": "BOSLUK",
+"onceki": [
+[
+"s",
+"0395-01-17",
+"0429-05-01",
+"bati-roma"
+],
+[
+"s",
+"0429-05-01",
+"1281-01-01",
+"__BOSLUK__"
+]
+],
+"sonraki": [
+[
+"s",
+"1281-01-01",
+"1519-09-01",
+"zeyyani"
+],
+[
+"d",
+"1519-09-01",
+"1671-01-01",
+"(d)"
+]
+]
+},
+{
+"ad": "Şelif",
+"lat": 36.165,
+"lon": 1.334,
+"tur": "sehir",
+"kur": null,
+"dosya": "yerlesimler_afrika.js",
+"durum": "BOSLUK",
+"onceki": [
+[
+"s",
+"0395-01-17",
+"0429-05-01",
+"bati-roma"
+],
+[
+"s",
+"0429-05-01",
+"1281-01-01",
+"__BOSLUK__"
+]
+],
+"sonraki": [
+[
+"s",
+"1281-01-01",
+"1519-09-01",
+"zeyyani"
+],
+[
+"d",
+"1519-09-01",
+"1671-01-01",
+"(d)"
+]
+]
+},
+{
+"ad": "Mustagānim",
+"lat": 35.931,
+"lon": 0.089,
+"tur": "liman",
+"kur": null,
+"dosya": "yerlesimler_afrika.js",
+"durum": "SAHIPSIZ",
+"onceki": [],
+"sonraki": [
+[
+"s",
+"1281-01-01",
+"1552-01-01",
+"zeyyani"
+],
+[
+"d",
+"1552-01-01",
+"1671-01-01",
+"(d)"
+]
+]
+},
+{
+"ad": "Bayonne",
+"lat": 43.493,
+"lon": -1.475,
+"tur": "liman",
+"kur": null,
+"dosya": "yerlesimler_avrupa.js",
+"durum": "BOSLUK",
+"onceki": [
+[
+"s",
+"0395-01-17",
+"0476-09-04",
+"bati-roma"
+],
+[
+"s",
+"0476-09-04",
+"1281-01-01",
+"__BOSLUK__"
+]
+],
+"sonraki": [
+[
+"s",
+"1281-01-01",
+"1451-08-20",
+"ingiltere"
+],
+[
+"s",
+"1451-08-20",
+"1792-09-22",
+"fransa"
+]
+]
+},
+{
+"ad": "Pau",
+"lat": 43.296,
+"lon": -0.37,
+"tur": "sehir",
+"kur": null,
+"dosya": "yerlesimler_avrupa.js",
+"durum": "SAHIPSIZ",
+"onceki": [],
+"sonraki": [
+[
+"s",
+"1281-01-01",
+"1479-01-01",
+"fransa"
+],
+[
+"s",
+"1479-01-01",
+"1620-10-19",
+"navarra"
+]
+]
+},
+{
+"ad": "Narbonne",
+"lat": 43.184,
+"lon": 3.003,
+"tur": "sehir",
+"kur": null,
+"dosya": "yerlesimler_avrupa.js",
+"durum": "BOSLUK",
+"onceki": [
+[
+"s",
+"0759-01-01",
+"0843-08-10",
+"frank"
+],
+[
+"s",
+"0843-08-10",
+"1281-01-01",
+"__BOSLUK__"
+]
+],
+"sonraki": [
+[
+"s",
+"1281-01-01",
+"1792-09-22",
+"fransa"
+],
+[
+"s",
+"1792-09-22",
+"2000-12-31",
+"fransa-cumhuriyet"
+]
+]
+},
+{
+"ad": "Bilbao",
+"lat": 43.263,
+"lon": -2.935,
+"tur": "liman",
+"kur": null,
+"dosya": "yerlesimler_avrupa.js",
+"durum": "SAHIPSIZ",
+"onceki": [],
+"sonraki": [
+[
+"s",
+"1281-01-01",
+"1479-01-19",
+"kastilya"
+],
+[
+"s",
+"1479-01-19",
+"1937-06-19",
+"ispanya"
+]
+]
+},
+{
+"ad": "San Sebastián",
+"lat": 43.318,
+"lon": -1.981,
+"tur": "liman",
+"kur": null,
+"dosya": "yerlesimler_avrupa.js",
+"durum": "SAHIPSIZ",
+"onceki": [],
+"sonraki": [
+[
+"s",
+"1281-01-01",
+"1479-01-19",
+"kastilya"
+],
+[
+"s",
+"1479-01-19",
+"2000-12-31",
+"ispanya"
+]
+]
+},
+{
+"ad": "Cuenca",
+"lat": 40.071,
+"lon": -2.134,
+"tur": "sehir",
+"kur": null,
+"dosya": "yerlesimler_avrupa.js",
+"durum": "SAHIPSIZ",
+"onceki": [],
+"sonraki": [
+[
+"s",
+"1281-01-01",
+"1479-01-19",
+"kastilya"
+],
+[
+"s",
+"1479-01-19",
+"2000-12-31",
+"ispanya"
+]
+]
+},
+{
+"ad": "A Coruña",
+"lat": 43.371,
+"lon": -8.396,
+"tur": "liman",
+"kur": null,
+"dosya": "yerlesimler_avrupa.js",
+"durum": "BOSLUK",
+"onceki": [
+[
+"s",
+"0585-01-01",
+"0711-01-01",
+"vizigot"
+],
+[
+"s",
+"0711-01-01",
+"1281-01-01",
+"__BOSLUK__"
+]
+],
+"sonraki": [
+[
+"s",
+"1281-01-01",
+"1479-01-19",
+"kastilya"
+],
+[
+"s",
+"1479-01-19",
+"1936-07-20",
+"ispanya"
+]
+]
+},
+{
+"ad": "Vigo",
+"lat": 42.24,
+"lon": -8.72,
+"tur": "liman",
+"kur": null,
+"dosya": "yerlesimler_avrupa.js",
+"durum": "BOSLUK",
+"onceki": [
+[
+"s",
+"0507-01-01",
+"0711-01-01",
+"vizigot"
+],
+[
+"s",
+"0711-01-01",
+"1281-01-01",
+"__BOSLUK__"
+]
+],
+"sonraki": [
+[
+"s",
+"1281-01-01",
+"1479-01-19",
+"kastilya"
+],
+[
+"s",
+"1479-01-19",
+"2000-12-31",
+"ispanya"
+]
+]
+},
+{
+"ad": "Ronda",
+"lat": 36.742,
+"lon": -5.167,
+"tur": "sehir",
+"kur": null,
+"dosya": "yerlesimler_avrupa.js",
+"durum": "BOSLUK",
+"onceki": [
+[
+"s",
+"0756-05-15",
+"1031-01-01",
+"endulus-emevi"
+],
+[
+"s",
+"1031-01-01",
+"1281-01-01",
+"__BOSLUK__"
+]
+],
+"sonraki": [
+[
+"s",
+"1281-01-01",
+"1485-05-22",
+"granada"
+],
+[
+"s",
+"1485-05-22",
+"2000-12-31",
+"ispanya"
+]
+]
+},
+{
+"ad": "Cebelitarık (Gibraltar)",
+"lat": 36.14,
+"lon": -5.353,
+"tur": "kale",
+"kur": null,
+"dosya": "yerlesimler_avrupa.js",
+"durum": "BOSLUK",
+"onceki": [
+[
+"s",
+"1159-01-23",
+"1229-01-01",
+"muvahhidler"
+],
+[
+"s",
+"1229-01-01",
+"1281-01-01",
+"__BOSLUK__"
+]
+],
+"sonraki": [
+[
+"s",
+"1281-01-01",
+"1309-09-12",
+"granada"
+],
+[
+"s",
+"1309-09-12",
+"1333-01-01",
+"kastilya"
+]
+]
+},
+{
+"ad": "Motril",
+"lat": 36.745,
+"lon": -3.52,
+"tur": "liman",
+"kur": null,
+"dosya": "yerlesimler_avrupa.js",
+"durum": "SAHIPSIZ",
+"onceki": [],
+"sonraki": [
+[
+"s",
+"1281-01-01",
+"1489-12-22",
+"granada"
+],
+[
+"s",
+"1489-12-22",
+"2000-12-31",
+"ispanya"
+]
+]
+},
+{
+"ad": "Mojácar",
+"lat": 37.139,
+"lon": -1.851,
+"tur": "sehir",
+"kur": null,
+"dosya": "yerlesimler_avrupa.js",
+"durum": "SAHIPSIZ",
+"onceki": [],
+"sonraki": [
+[
+"s",
+"1281-01-01",
+"1488-06-10",
+"granada"
+],
+[
+"s",
+"1488-06-10",
+"2000-12-31",
+"ispanya"
+]
+]
+},
+{
+"ad": "Dénia",
+"lat": 38.841,
+"lon": 0.107,
+"tur": "liman",
+"kur": null,
+"dosya": "yerlesimler_avrupa.js",
+"durum": "BOSLUK",
+"onceki": [
+[
+"s",
+"0756-05-15",
+"1031-01-01",
+"endulus-emevi"
+],
+[
+"s",
+"1031-01-01",
+"1281-01-01",
+"__BOSLUK__"
+]
+],
+"sonraki": [
+[
+"s",
+"1281-01-01",
+"1479-01-19",
+"aragon"
+],
+[
+"s",
+"1479-01-19",
+"2000-12-31",
+"ispanya"
+]
+]
+},
+{
+"ad": "Huelva",
+"lat": 37.261,
+"lon": -6.944,
+"tur": "liman",
+"kur": "-1000-01-01",
+"dosya": "yerlesimler_avrupa.js",
+"durum": "BOSLUK",
+"onceki": [
+[
+"s",
+"0756-05-15",
+"1031-01-01",
+"endulus-emevi"
+],
+[
+"s",
+"1031-01-01",
+"1281-01-01",
+"__BOSLUK__"
+]
+],
+"sonraki": [
+[
+"s",
+"1281-01-01",
+"1479-01-19",
+"kastilya"
+],
+[
+"s",
+"1479-01-19",
+"2000-12-31",
+"ispanya"
+]
+]
+},
+{
+"ad": "Lagos (Algarve)",
+"lat": 37.102,
+"lon": -8.674,
+"tur": "liman",
+"kur": "-0100-01-01",
+"dosya": "yerlesimler_avrupa.js",
+"durum": "BOSLUK",
+"onceki": [
+[
+"s",
+"0756-05-15",
+"1031-01-01",
+"endulus-emevi"
+],
+[
+"s",
+"1031-01-01",
+"1281-01-01",
+"__BOSLUK__"
+]
+],
+"sonraki": [
+[
+"s",
+"1281-01-01",
+"1580-08-25",
+"portekiz"
+],
+[
+"s",
+"1580-08-25",
+"1640-12-01",
+"ispanya"
+]
+]
+},
+{
+"ad": "Setúbal",
+"lat": 38.524,
+"lon": -8.893,
+"tur": "liman",
+"kur": null,
+"dosya": "yerlesimler_avrupa.js",
+"durum": "BOSLUK",
+"onceki": [
+[
+"s",
+"0756-05-15",
+"1031-01-01",
+"endulus-emevi"
+],
+[
+"s",
+"1031-01-01",
+"1281-01-01",
+"__BOSLUK__"
+]
+],
+"sonraki": [
+[
+"s",
+"1281-01-01",
+"1580-08-25",
+"portekiz"
+],
+[
+"s",
+"1580-08-25",
+"1640-12-01",
+"ispanya"
+]
+]
+},
+{
+"ad": "Aveiro",
+"lat": 40.641,
+"lon": -8.654,
+"tur": "liman",
+"kur": null,
+"dosya": "yerlesimler_avrupa.js",
+"durum": "SAHIPSIZ",
+"onceki": [],
+"sonraki": [
+[
+"s",
+"1281-01-01",
+"1580-08-25",
+"portekiz"
+],
+[
+"s",
+"1580-08-25",
+"1640-12-01",
+"ispanya"
+]
+]
+},
+{
+"ad": "Braga",
+"lat": 41.545,
+"lon": -8.427,
+"tur": "sehir",
+"kur": null,
+"dosya": "yerlesimler_avrupa.js",
+"durum": "BOSLUK",
+"onceki": [
+[
+"s",
+"0585-01-01",
+"0711-01-01",
+"vizigot"
+],
+[
+"s",
+"0711-01-01",
+"1281-01-01",
+"__BOSLUK__"
+]
+],
+"sonraki": [
+[
+"s",
+"1281-01-01",
+"1580-08-25",
+"portekiz"
+],
+[
+"s",
+"1580-08-25",
+"1640-12-01",
+"ispanya"
+]
+]
+},
+{
+"ad": "Faro",
+"lat": 37.019,
+"lon": -7.93,
+"tur": "liman",
+"kur": null,
+"dosya": "yerlesimler_avrupa.js",
+"durum": "BOSLUK",
+"onceki": [
+[
+"s",
+"0756-05-15",
+"1031-01-01",
+"endulus-emevi"
+],
+[
+"s",
+"1031-01-01",
+"1281-01-01",
+"__BOSLUK__"
+]
+],
+"sonraki": [
+[
+"s",
+"1281-01-01",
+"1580-08-25",
+"portekiz"
+],
+[
+"s",
+"1580-08-25",
+"1640-12-01",
+"ispanya"
+]
+]
+},
+{
+"ad": "Bragança",
+"lat": 41.806,
+"lon": -6.757,
+"tur": "sehir",
+"kur": null,
+"dosya": "yerlesimler_avrupa.js",
+"durum": "SAHIPSIZ",
+"onceki": [],
+"sonraki": [
+[
+"s",
+"1281-01-01",
+"1580-08-25",
+"portekiz"
+],
+[
+"s",
+"1580-08-25",
+"1640-12-01",
+"ispanya"
+]
+]
+},
+{
+"ad": "Ainsa",
+"lat": 42.4155,
+"lon": 0.1401,
+"tur": "sehir",
+"kur": null,
+"dosya": "yerlesimler_odak_yedek_1023.js",
+"durum": "SAHIPSIZ",
+"onceki": [],
+"sonraki": []
+},
+{
+"ad": "Sort",
+"lat": 42.4132,
+"lon": 1.1305,
+"tur": "sehir",
+"kur": null,
+"dosya": "yerlesimler_odak_yedek_1023.js",
+"durum": "SAHIPSIZ",
+"onceki": [],
+"sonraki": []
+},
+{
+"ad": "Lusitania",
+"lat": 37.5,
+"lon": -7.5,
+"tur": "bolge",
+"kur": null,
+"dosya": "yerlesimler_once1281_yt_avrupa.js",
+"durum": "SAHIPSIZ",
+"onceki": [],
+"sonraki": []
+},
+{
+"ad": "Baetica",
+"lat": 37.5,
+"lon": -7.5,
+"tur": "bolge",
+"kur": null,
+"dosya": "yerlesimler_once1281_yt_avrupa.js",
+"durum": "SAHIPSIZ",
+"onceki": [],
+"sonraki": []
+},
+{
+"ad": "Almuñécar",
+"lat": 36.734589,
+"lon": -3.690755,
+"tur": "sehir",
+"kur": null,
+"dosya": "yerlesimler_once1281_yt_avrupa.js",
+"durum": "BOSLUK",
+"onceki": [
+[
+"s",
+"0756-05-15",
+"1031-01-01",
+"endulus-emevi"
+],
+[
+"s",
+"1031-01-01",
+"1281-01-01",
+"__BOSLUK__"
+]
+],
+"sonraki": []
+},
+{
+"ad": "Uclés",
+"lat": 39.98188,
+"lon": -2.86232,
+"tur": "sehir",
+"kur": null,
+"dosya": "yerlesimler_once1281_yt_avrupa.js",
+"durum": "BOSLUK",
+"onceki": [
+[
+"s",
+"0756-05-15",
+"1031-01-01",
+"endulus-emevi"
+],
+[
+"s",
+"1031-01-01",
+"1281-01-01",
+"__BOSLUK__"
+]
+],
+"sonraki": []
+},
+{
+"ad": "Gallaecia",
+"lat": 42.1308685419,
+"lon": -8.25359799148,
+"tur": "bolge",
+"kur": null,
+"dosya": "yerlesimler_once1281_yt_avrupa.js",
+"durum": "SAHIPSIZ",
+"onceki": [],
+"sonraki": []
+},
+{
+"ad": "Numantia (Soria)",
+"lat": 41.809388242,
+"lon": -2.44433338524,
+"tur": "sehir",
+"kur": null,
+"dosya": "yerlesimler_once1281_yt_avrupa.js",
+"durum": "BOSLUK",
+"onceki": [
+[
+"s",
+"0507-01-01",
+"0711-01-01",
+"vizigot"
+],
+[
+"s",
+"0711-01-01",
+"1281-01-01",
+"__BOSLUK__"
+]
+],
+"sonraki": []
+},
+{
+"ad": "Saguntum (Sagunto)",
+"lat": 39.678125,
+"lon": -0.2772475,
+"tur": "sehir",
+"kur": null,
+"dosya": "yerlesimler_once1281_yt_avrupa.js",
+"durum": "BOSLUK",
+"onceki": [
+[
+"s",
+"0756-05-15",
+"1031-01-01",
+"endulus-emevi"
+],
+[
+"s",
+"1031-01-01",
+"1281-01-01",
+"__BOSLUK__"
+]
+],
+"sonraki": []
+},
+{
+"ad": "Ilipa (Alcalá del Río)",
+"lat": 37.518215,
+"lon": -5.978254,
+"tur": "sehir",
+"kur": null,
+"dosya": "yerlesimler_once1281_yt_avrupa.js",
+"durum": "BOSLUK",
+"onceki": [
+[
+"s",
+"0756-05-15",
+"1031-01-01",
+"endulus-emevi"
+],
+[
+"s",
+"1031-01-01",
+"1281-01-01",
+"__BOSLUK__"
+]
+],
+"sonraki": []
+},
+{
+"ad": "Arjona (Arcûne)",
+"lat": 37.93645,
+"lon": -4.054925,
+"tur": "sehir",
+"kur": null,
+"dosya": "yerlesimler_once1281_yt_avrupa.js",
+"durum": "BOSLUK",
+"onceki": [
+[
+"s",
+"0756-05-15",
+"1031-01-01",
+"endulus-emevi"
+],
+[
+"s",
+"1031-01-01",
+"1281-01-01",
+"__BOSLUK__"
+]
+],
+"sonraki": []
+},
+{
+"ad": "Santarém (Şenterîn)",
+"lat": 39.234008303,
+"lon": -8.67646951485,
+"tur": "sehir",
+"kur": null,
+"dosya": "yerlesimler_once1281_yt_avrupa.js",
+"durum": "BOSLUK",
+"onceki": [
+[
+"s",
+"0756-05-15",
+"1031-01-01",
+"endulus-emevi"
+],
+[
+"s",
+"1031-01-01",
+"1281-01-01",
+"__BOSLUK__"
+]
+],
+"sonraki": []
+},
+{
+"ad": "Écija (İsticce)",
+"lat": 37.540932,
+"lon": -5.079949,
+"tur": "sehir",
+"kur": null,
+"dosya": "yerlesimler_once1281_yt_avrupa.js",
+"durum": "BOSLUK",
+"onceki": [
+[
+"s",
+"0756-05-15",
+"1031-01-01",
+"endulus-emevi"
+],
+[
+"s",
+"1031-01-01",
+"1281-01-01",
+"__BOSLUK__"
+]
+],
+"sonraki": []
+},
+{
+"ad": "Auch",
+"lat": 43.6463558,
+"lon": 0.5850507,
+"tur": "sehir",
+"kur": null,
+"dosya": "yerlesimler_once1281_yt_avrupa.js",
+"durum": "BOSLUK",
+"onceki": [
+[
+"s",
+"0395-01-17",
+"0476-09-04",
+"bati-roma"
+],
+[
+"s",
+"0476-09-04",
+"1281-01-01",
+"__BOSLUK__"
+]
+],
+"sonraki": []
+},
+{
+"ad": "Niebla",
+"lat": 37.3609544,
+"lon": -6.6793495,
+"tur": "sehir",
+"kur": null,
+"dosya": "yerlesimler_once1281_yt_avrupa.js",
+"durum": "SAHIPSIZ",
+"onceki": [
+[
+"s",
+"0756-05-15",
+"1023-01-01",
+"endulus-emevi"
+],
+[
+"s",
+"1023-01-01",
+"1054-01-01",
+"niebla"
+]
+],
+"sonraki": []
+},
+{
+"ad": "Emporion (Ampurias)",
+"lat": 42.13342,
+"lon": 3.114549,
+"tur": "harabe",
+"kur": null,
+"dosya": "yerlesimler_once1281_yt_avrupa.js",
+"durum": "BOSLUK",
+"onceki": [
+[
+"s",
+"0711-01-01",
+"0750-08-05",
+"emevi"
+],
+[
+"s",
+"0750-08-05",
+"1281-01-01",
+"__BOSLUK__"
+]
+],
+"sonraki": []
+},
+{
+"ad": "Besalu",
+"lat": 42.199167,
+"lon": 2.697778,
+"tur": "sehir",
+"kur": null,
+"dosya": "yerlesimler_once1281_yt_avrupa.js",
+"durum": "SAHIPSIZ",
+"onceki": [
+[
+"s",
+"0878-01-01",
+"1111-01-01",
+"besalu"
+]
+],
+"sonraki": []
+},
+{
+"ad": "Cangas",
+"lat": 43.35,
+"lon": -5.116667,
+"tur": "harabe",
+"kur": null,
+"dosya": "yerlesimler_once1281_yt_avrupa.js",
+"durum": "SAHIPSIZ",
+"onceki": [],
+"sonraki": []
+},
+{
+"ad": "Albarrasin (Albarracín)",
+"lat": 40.407283,
+"lon": -1.444279,
+"tur": "sehir",
+"kur": null,
+"dosya": "yerlesimler_once1281_yt_avrupa.js",
+"durum": "SAHIPSIZ",
+"onceki": [
+[
+"s",
+"1013-01-01",
+"1104-01-01",
+"albarracin"
+]
+],
+"sonraki": []
+},
+{
+"ad": "Endülüs",
+"lat": 37.89,
+"lon": -4.78,
+"tur": "bolge",
+"kur": null,
+"dosya": "yerlesimler_once1281_yt_avrupa.js",
+"durum": "SAHIPSIZ",
+"onceki": [],
+"sonraki": []
+},
+{
+"ad": "Talavera",
+"lat": 39.9601,
+"lon": -4.8323,
+"tur": "sehir",
+"kur": null,
+"dosya": "yerlesimler_once1281_yt_avrupa.js",
+"durum": "BOSLUK",
+"onceki": [
+[
+"s",
+"0756-05-15",
+"1031-01-01",
+"endulus-emevi"
+],
+[
+"s",
+"1031-01-01",
+"1281-01-01",
+"__BOSLUK__"
+]
+],
+"sonraki": []
+},
+{
+"ad": "Jaca",
+"lat": 42.5692,
+"lon": -0.5495,
+"tur": "sehir",
+"kur": null,
+"dosya": "yerlesimler_once1281_yt_avrupa.js",
+"durum": "BOSLUK",
+"onceki": [
+[
+"s",
+"0507-01-01",
+"0711-01-01",
+"vizigot"
+],
+[
+"s",
+"0711-01-01",
+"1281-01-01",
+"__BOSLUK__"
+]
+],
+"sonraki": []
+},
+{
+"ad": "İspanya",
+"lat": 40.39,
+"lon": -3.563,
+"tur": "bolge",
+"kur": null,
+"dosya": "yerlesimler_once1281_yt_avrupa.js",
+"durum": "SAHIPSIZ",
+"onceki": [],
+"sonraki": []
+},
+{
+"ad": "Bobastro",
+"lat": 36.9024,
+"lon": -4.7816,
+"tur": "kale",
+"kur": null,
+"dosya": "yerlesimler_once1281_yt_yer3.js",
+"durum": "SAHIPSIZ",
+"onceki": [
+[
+"s",
+"0880-08-12",
+"0928-01-19",
+"bobastro"
+]
+],
+"sonraki": []
+},
+{
+"ad": "Los Millares",
+"lat": 36.9626,
+"lon": -2.5216,
+"tur": "sehir",
+"kur": "-3139-01-01",
+"dosya": "yerlesimler_mo_avrupa.js",
+"durum": "SAHIPSIZ",
+"onceki": [
+[
+"s",
+"-3139-01-01",
+"-2166-01-01",
+"los-millares-kultur"
+]
+],
+"sonraki": []
+},
+{
+"ad": "El Argar",
+"lat": 37.2479,
+"lon": -1.9132,
+"tur": "sehir",
+"kur": "-2199-01-01",
+"dosya": "yerlesimler_mo_avrupa.js",
+"durum": "SAHIPSIZ",
+"onceki": [
+[
+"s",
+"-2199-01-01",
+"-1549-01-01",
+"el-argar-kultur"
+]
+],
+"sonraki": []
+},
+{
+"ad": "Consuegra",
+"lat": 39.4619,
+"lon": -3.6064,
+"tur": "sehir",
+"kur": null,
+"dosya": "yerlesimler_sahne1108.js",
+"durum": "BOSLUK",
+"onceki": [
+[
+"s",
+"0756-05-15",
+"1031-01-01",
+"endulus-emevi"
+],
+[
+"s",
+"1031-01-01",
+"1281-01-01",
+"__BOSLUK__"
+]
+],
+"sonraki": [
+[
+"s",
+"1281-01-01",
+"1479-01-19",
+"kastilya"
+],
+[
+"s",
+"1479-01-19",
+"2000-12-31",
+"ispanya"
+]
+]
+}
+]

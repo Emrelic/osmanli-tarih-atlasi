@@ -1,0 +1,736 @@
+{
+"fransa": [
+{
+"ad": "Cherbourg",
+"lat": 49.64,
+"lon": -1.616,
+"dosya": "yerlesimler_avrupa.js",
+"tur": "liman",
+"f": "1281-01-01",
+"t": "1418-09-29",
+"sonraki": [
+[
+"s",
+"1418-09-29",
+"1450-08-12",
+"ingiltere"
+],
+[
+"s",
+"1450-08-12",
+"1792-09-22",
+"fransa"
+]
+]
+},
+{
+"ad": "Calais",
+"lat": 50.951,
+"lon": 1.858,
+"dosya": "yerlesimler_avrupa.js",
+"tur": "liman",
+"f": "1281-01-01",
+"t": "1347-08-03",
+"sonraki": [
+[
+"s",
+"1347-08-03",
+"1558-01-07",
+"ingiltere"
+],
+[
+"s",
+"1558-01-07",
+"1792-09-22",
+"fransa"
+]
+]
+},
+{
+"ad": "La Rochelle",
+"lat": 46.16,
+"lon": -1.152,
+"dosya": "yerlesimler_avrupa.js",
+"tur": "liman",
+"f": "1281-01-01",
+"t": "1360-10-24",
+"sonraki": [
+[
+"s",
+"1360-10-24",
+"1372-09-08",
+"ingiltere"
+],
+[
+"s",
+"1372-09-08",
+"1792-09-22",
+"fransa"
+]
+]
+},
+{
+"ad": "Pau",
+"lat": 43.296,
+"lon": -0.37,
+"dosya": "yerlesimler_avrupa.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "1479-01-01",
+"sonraki": [
+[
+"s",
+"1479-01-01",
+"1620-10-19",
+"navarra"
+],
+[
+"s",
+"1620-10-19",
+"1792-09-22",
+"fransa"
+]
+]
+},
+{
+"ad": "Terneuzen",
+"lat": 51.336,
+"lon": 3.828,
+"dosya": "yerlesimler_avrupa.js",
+"tur": "liman",
+"f": "1281-01-01",
+"t": "1384-01-30",
+"sonraki": [
+[
+"s",
+"1384-01-30",
+"1482-03-27",
+"burgonya"
+],
+[
+"s",
+"1482-03-27",
+"1516-01-23",
+"almanya"
+]
+]
+},
+{
+"ad": "Hulst",
+"lat": 51.28,
+"lon": 4.053,
+"dosya": "yerlesimler_avrupa.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "1384-01-30",
+"sonraki": [
+[
+"s",
+"1384-01-30",
+"1482-03-27",
+"burgonya"
+],
+[
+"s",
+"1482-03-27",
+"1516-01-23",
+"almanya"
+]
+]
+},
+{
+"ad": "Sevr",
+"lat": 48.82278,
+"lon": 2.2175,
+"dosya": "yerlesimler_zincir64.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "1420-12-01",
+"sonraki": [
+[
+"s",
+"1420-12-01",
+"1436-04-13",
+"ingiltere"
+],
+[
+"s",
+"1436-04-13",
+"1792-09-22",
+"fransa"
+]
+]
+},
+{
+"ad": "Fontainebleau",
+"lat": 48.40908,
+"lon": 2.70177,
+"dosya": "yerlesimler_zincir64.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "1420-12-01",
+"sonraki": [
+[
+"s",
+"1420-12-01",
+"1436-04-13",
+"ingiltere"
+],
+[
+"s",
+"1436-04-13",
+"1792-09-22",
+"fransa"
+]
+]
+},
+{
+"ad": "Saint-Germain-en-Laye",
+"lat": 48.89643,
+"lon": 2.0904,
+"dosya": "yerlesimler_zincir64.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "1420-12-01",
+"sonraki": [
+[
+"s",
+"1420-12-01",
+"1436-04-13",
+"ingiltere"
+],
+[
+"s",
+"1436-04-13",
+"1792-09-22",
+"fransa"
+]
+]
+},
+{
+"ad": "Versailles",
+"lat": 48.80359,
+"lon": 2.13424,
+"dosya": "yerlesimler_zincir64.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "1420-12-01",
+"sonraki": [
+[
+"s",
+"1420-12-01",
+"1436-04-13",
+"ingiltere"
+],
+[
+"s",
+"1436-04-13",
+"1792-09-22",
+"fransa"
+]
+]
+},
+{
+"ad": "Neuilly-sur-Seine",
+"lat": 48.8846,
+"lon": 2.26965,
+"dosya": "yerlesimler_zincir64.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "1420-12-01",
+"sonraki": [
+[
+"s",
+"1420-12-01",
+"1436-04-13",
+"ingiltere"
+],
+[
+"s",
+"1436-04-13",
+"1792-09-22",
+"fransa"
+]
+]
+}
+],
+"flandre": [
+{
+"ad": "Lille",
+"lat": 50.633,
+"lon": 3.059,
+"dosya": "yerlesimler_avrupa.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "1305-01-01",
+"sonraki": [
+[
+"s",
+"1305-01-01",
+"1369-06-19",
+"fransa"
+],
+[
+"s",
+"1369-06-19",
+"1482-03-27",
+"burgonya"
+]
+]
+},
+{
+"ad": "Steenvoorde",
+"lat": 50.809444,
+"lon": 2.582778,
+"dosya": "yerlesimler_sahne1108.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "1384-01-30",
+"sonraki": [
+[
+"s",
+"1384-01-30",
+"1482-03-27",
+"burgonya"
+],
+[
+"s",
+"1482-03-27",
+"1516-01-23",
+"habsburg-hollandasi"
+]
+]
+},
+{
+"ad": "Nieuwpoort",
+"lat": 51.129444,
+"lon": 2.751389,
+"dosya": "yerlesimler_sahne1108.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "1384-01-30",
+"sonraki": [
+[
+"s",
+"1384-01-30",
+"1482-03-27",
+"burgonya"
+],
+[
+"s",
+"1482-03-27",
+"1516-01-23",
+"habsburg-hollandasi"
+]
+]
+}
+],
+"hollanda-kontlugu": [
+{
+"ad": "Rotterdam",
+"lat": 51.924,
+"lon": 4.478,
+"dosya": "yerlesimler_avrupa.js",
+"tur": "liman",
+"f": "1281-01-01",
+"t": "1433-04-12",
+"sonraki": [
+[
+"s",
+"1433-04-12",
+"1482-03-27",
+"burgonya"
+],
+[
+"s",
+"1482-03-27",
+"1581-07-26",
+"habsburg-hollandasi"
+]
+]
+},
+{
+"ad": "Middelburg",
+"lat": 51.498,
+"lon": 3.61,
+"dosya": "yerlesimler_avrupa.js",
+"tur": "liman",
+"f": "1281-01-01",
+"t": "1433-04-12",
+"sonraki": [
+[
+"s",
+"1433-04-12",
+"1482-03-27",
+"burgonya"
+],
+[
+"s",
+"1482-03-27",
+"1581-07-26",
+"habsburg-hollandasi"
+]
+]
+},
+{
+"ad": "Delft",
+"lat": 52.012,
+"lon": 4.357,
+"dosya": "yerlesimler_avrupa.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "1433-04-12",
+"sonraki": [
+[
+"s",
+"1433-04-12",
+"1482-03-27",
+"burgonya"
+],
+[
+"s",
+"1482-03-27",
+"1581-07-26",
+"habsburg-hollandasi"
+]
+]
+}
+],
+"brabant-dukaligi": [
+{
+"ad": "'s-Hertogenbosch",
+"lat": 51.698,
+"lon": 5.304,
+"dosya": "yerlesimler_avrupa.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "1430-08-04",
+"sonraki": [
+[
+"s",
+"1430-08-04",
+"1482-03-27",
+"burgonya"
+],
+[
+"s",
+"1482-03-27",
+"1516-01-23",
+"habsburg-hollandasi"
+]
+]
+},
+{
+"ad": "Breda",
+"lat": 51.572,
+"lon": 4.768,
+"dosya": "yerlesimler_avrupa.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "1430-08-04",
+"sonraki": [
+[
+"s",
+"1430-08-04",
+"1482-03-27",
+"burgonya"
+],
+[
+"s",
+"1482-03-27",
+"1516-01-23",
+"habsburg-hollandasi"
+]
+]
+},
+{
+"ad": "Hoogstraten",
+"lat": 51.40215,
+"lon": 4.7618,
+"dosya": "yerlesimler_sahne1108.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "1430-08-04",
+"sonraki": [
+[
+"s",
+"1430-08-04",
+"1482-03-27",
+"burgonya"
+],
+[
+"s",
+"1482-03-27",
+"1516-01-23",
+"habsburg-hollandasi"
+]
+]
+}
+],
+"lorraine-dukaligi": [
+{
+"ad": "Nancy",
+"lat": 48.692,
+"lon": 6.184,
+"dosya": "yerlesimler_avrupa.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "1766-02-23",
+"sonraki": [
+[
+"s",
+"1766-02-23",
+"1792-09-22",
+"fransa"
+],
+[
+"s",
+"1792-09-22",
+"2000-12-31",
+"fransa-cumhuriyet"
+]
+]
+}
+],
+"bretanya": [
+{
+"ad": "Saint-Malo",
+"lat": 48.6479,
+"lon": -2.0242,
+"dosya": "yerlesimler_avrupa.js",
+"tur": "liman",
+"f": "1281-01-01",
+"t": "1532-08-13",
+"sonraki": [
+[
+"s",
+"1532-08-13",
+"1792-09-22",
+"fransa"
+],
+[
+"s",
+"1792-09-22",
+"2000-12-31",
+"fransa-cumhuriyet"
+]
+]
+}
+],
+"kastilya": [
+{
+"ad": "Bilbao",
+"lat": 43.263,
+"lon": -2.935,
+"dosya": "yerlesimler_avrupa.js",
+"tur": "liman",
+"f": "1281-01-01",
+"t": "1479-01-19",
+"sonraki": [
+[
+"s",
+"1479-01-19",
+"1937-06-19",
+"ispanya"
+],
+[
+"s",
+"1937-06-19",
+"1939-04-01",
+"ispanya-milliyetci"
+]
+]
+},
+{
+"ad": "San Sebastián",
+"lat": 43.318,
+"lon": -1.981,
+"dosya": "yerlesimler_avrupa.js",
+"tur": "liman",
+"f": "1281-01-01",
+"t": "1479-01-19",
+"sonraki": [
+[
+"s",
+"1479-01-19",
+"2000-12-31",
+"ispanya"
+]
+]
+},
+{
+"ad": "Cuenca",
+"lat": 40.071,
+"lon": -2.134,
+"dosya": "yerlesimler_avrupa.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "1479-01-19",
+"sonraki": [
+[
+"s",
+"1479-01-19",
+"2000-12-31",
+"ispanya"
+]
+]
+}
+],
+"aragon": [
+{
+"ad": "Menorka (Mahon)",
+"lat": 39.89,
+"lon": 4.26,
+"dosya": "yerlesimler.js",
+"tur": "liman",
+"f": "1281-01-01",
+"t": "1479-01-19",
+"sonraki": [
+[
+"s",
+"1479-01-19",
+"1708-09-29",
+"ispanya"
+],
+[
+"s",
+"1708-09-29",
+"1802-03-25",
+"ingiltere"
+]
+]
+}
+],
+"portekiz": [
+{
+"ad": "Aveiro",
+"lat": 40.641,
+"lon": -8.654,
+"dosya": "yerlesimler_avrupa.js",
+"tur": "liman",
+"f": "1281-01-01",
+"t": "1580-08-25",
+"sonraki": [
+[
+"s",
+"1580-08-25",
+"1640-12-01",
+"ispanya"
+],
+[
+"s",
+"1640-12-01",
+"2000-12-31",
+"portekiz"
+]
+]
+},
+{
+"ad": "Bragança",
+"lat": 41.806,
+"lon": -6.757,
+"dosya": "yerlesimler_avrupa.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "1580-08-25",
+"sonraki": [
+[
+"s",
+"1580-08-25",
+"1640-12-01",
+"ispanya"
+],
+[
+"s",
+"1640-12-01",
+"2000-12-31",
+"portekiz"
+]
+]
+}
+],
+"mayorka": [
+{
+"ad": "İbiza",
+"lat": 38.91,
+"lon": 1.43,
+"dosya": "yerlesimler.js",
+"tur": "liman",
+"f": "1281-01-01",
+"t": "1285-11-19",
+"sonraki": [
+[
+"s",
+"1285-11-19",
+"1298-01-01",
+"aragon"
+],
+[
+"s",
+"1298-01-01",
+"1343-05-25",
+"mayorka"
+]
+]
+},
+{
+"ad": "Montpellier",
+"lat": 43.611,
+"lon": 3.877,
+"dosya": "yerlesimler_avrupa.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "1349-04-18",
+"sonraki": [
+[
+"s",
+"1349-04-18",
+"1792-09-22",
+"fransa"
+],
+[
+"s",
+"1792-09-22",
+"2000-12-31",
+"fransa-cumhuriyet"
+]
+]
+}
+],
+"granada": [
+{
+"ad": "Motril",
+"lat": 36.745,
+"lon": -3.52,
+"dosya": "yerlesimler_avrupa.js",
+"tur": "liman",
+"f": "1281-01-01",
+"t": "1489-12-22",
+"sonraki": [
+[
+"s",
+"1489-12-22",
+"2000-12-31",
+"ispanya"
+]
+]
+},
+{
+"ad": "Mojácar",
+"lat": 37.139,
+"lon": -1.851,
+"dosya": "yerlesimler_avrupa.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "1488-06-10",
+"sonraki": [
+[
+"s",
+"1488-06-10",
+"2000-12-31",
+"ispanya"
+]
+]
+}
+]
+}

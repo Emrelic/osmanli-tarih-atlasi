@@ -1,0 +1,1026 @@
+{
+"almanya": [
+{
+"ad": "Ljubljana",
+"lat": 46.056,
+"lon": 14.506,
+"dosya": "yerlesimler.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "1335-05-02",
+"sonraki": [
+[
+"s",
+"1335-05-02",
+"1809-10-14",
+"avusturya"
+],
+[
+"s",
+"1809-10-14",
+"1813-01-01",
+"fransa-cumhuriyet"
+]
+]
+},
+{
+"ad": "Münih",
+"lat": 48.137,
+"lon": 11.575,
+"dosya": "yerlesimler.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "1506-07-08",
+"sonraki": [
+[
+"s",
+"1506-07-08",
+"1918-11-08",
+"bavyera"
+],
+[
+"s",
+"1918-11-08",
+"1945-06-05",
+"almanya"
+]
+]
+},
+{
+"ad": "Kattowitz (Katowice)",
+"lat": 50.259,
+"lon": 19.02,
+"dosya": "yerlesimler.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "1526-12-05",
+"sonraki": [
+[
+"s",
+"1526-12-05",
+"1742-06-11",
+"avusturya"
+],
+[
+"s",
+"1742-06-11",
+"1871-01-18",
+"prusya"
+]
+]
+},
+{
+"ad": "Colmar",
+"lat": 48.079,
+"lon": 7.358,
+"dosya": "yerlesimler_avrupa.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "1679-01-01",
+"sonraki": [
+[
+"s",
+"1679-01-01",
+"1792-09-22",
+"fransa"
+],
+[
+"s",
+"1792-09-22",
+"1871-05-10",
+"fransa-cumhuriyet"
+]
+]
+},
+{
+"ad": "Mulhouse",
+"lat": 47.75,
+"lon": 7.34,
+"dosya": "yerlesimler_avrupa.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "1515-01-01",
+"sonraki": [
+[
+"s",
+"1515-01-01",
+"1798-03-15",
+"isvicre"
+],
+[
+"s",
+"1798-03-15",
+"1871-05-10",
+"fransa-cumhuriyet"
+]
+]
+},
+{
+"ad": "Groningen",
+"lat": 53.219,
+"lon": 6.567,
+"dosya": "yerlesimler_avrupa.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "1514-01-01",
+"sonraki": [
+[
+"s",
+"1514-01-01",
+"1536-12-10",
+"gelre-dukaligi"
+],
+[
+"s",
+"1536-12-10",
+"1581-07-26",
+"habsburg-hollandasi"
+]
+]
+},
+{
+"ad": "Arnhem",
+"lat": 51.985,
+"lon": 5.899,
+"dosya": "yerlesimler_avrupa.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "1339-03-19",
+"sonraki": [
+[
+"s",
+"1339-03-19",
+"1543-09-07",
+"gelre-dukaligi"
+],
+[
+"s",
+"1543-09-07",
+"1581-07-26",
+"habsburg-hollandasi"
+]
+]
+},
+{
+"ad": "Eupen",
+"lat": 50.628,
+"lon": 6.036,
+"dosya": "yerlesimler_avrupa.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "1288-06-05",
+"sonraki": [
+[
+"s",
+"1288-06-05",
+"1430-08-04",
+"brabant-dukaligi"
+],
+[
+"s",
+"1430-08-04",
+"1482-03-27",
+"burgonya"
+]
+]
+},
+{
+"ad": "Malmedy",
+"lat": 50.425,
+"lon": 6.028,
+"dosya": "yerlesimler_avrupa.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "1795-10-01",
+"sonraki": [
+[
+"s",
+"1795-10-01",
+"1815-06-09",
+"fransa-cumhuriyet"
+],
+[
+"s",
+"1815-06-09",
+"1871-01-18",
+"prusya"
+]
+]
+},
+{
+"ad": "Kiel",
+"lat": 54.323,
+"lon": 10.14,
+"dosya": "yerlesimler_avrupa.js",
+"tur": "liman",
+"f": "1281-01-01",
+"t": "1460-03-05",
+"sonraki": [
+[
+"s",
+"1460-03-05",
+"1864-10-30",
+"schleswig-holstein"
+],
+[
+"s",
+"1864-10-30",
+"1945-06-05",
+"almanya"
+]
+]
+},
+{
+"ad": "Rostock",
+"lat": 54.089,
+"lon": 12.14,
+"dosya": "yerlesimler_avrupa.js",
+"tur": "liman",
+"f": "1281-01-01",
+"t": "1945-06-05",
+"sonraki": [
+[
+"s",
+"1945-06-05",
+"1949-10-07",
+"almanya-muttefik-isgali"
+],
+[
+"s",
+"1949-10-07",
+"1990-10-03",
+"almanya-demokratik-cumhuriyeti"
+]
+]
+},
+{
+"ad": "Stralsund",
+"lat": 54.309,
+"lon": 13.082,
+"dosya": "yerlesimler_avrupa.js",
+"tur": "liman",
+"f": "1281-01-01",
+"t": "1648-10-24",
+"sonraki": [
+[
+"s",
+"1648-10-24",
+"1815-06-09",
+"isvec"
+],
+[
+"s",
+"1815-06-09",
+"1945-06-05",
+"almanya"
+]
+]
+},
+{
+"ad": "Dortmund",
+"lat": 51.514,
+"lon": 7.466,
+"dosya": "yerlesimler_avrupa.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "1815-06-09",
+"sonraki": [
+[
+"s",
+"1815-06-09",
+"1871-01-18",
+"prusya"
+],
+[
+"s",
+"1871-01-18",
+"1945-06-05",
+"almanya"
+]
+]
+},
+{
+"ad": "Düsseldorf",
+"lat": 51.227,
+"lon": 6.774,
+"dosya": "yerlesimler_avrupa.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "1815-06-09",
+"sonraki": [
+[
+"s",
+"1815-06-09",
+"1871-01-18",
+"prusya"
+],
+[
+"s",
+"1871-01-18",
+"1945-06-05",
+"almanya"
+]
+]
+},
+{
+"ad": "Saarbrücken",
+"lat": 49.233,
+"lon": 6.997,
+"dosya": "yerlesimler_avrupa.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "1920-01-10",
+"sonraki": [
+[
+"s",
+"1920-01-10",
+"1935-03-01",
+"saar-havzasi-mandasi"
+],
+[
+"s",
+"1935-03-01",
+"1945-06-05",
+"almanya"
+]
+]
+},
+{
+"ad": "Ulm",
+"lat": 48.401,
+"lon": 9.987,
+"dosya": "yerlesimler_avrupa.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "1945-06-05",
+"sonraki": [
+[
+"s",
+"1945-06-05",
+"1949-05-23",
+"almanya-muttefik-isgali"
+],
+[
+"s",
+"1949-05-23",
+"1990-10-03",
+"almanya-federal-cumhuriyeti-bati"
+]
+]
+},
+{
+"ad": "Stuttgart",
+"lat": 48.776,
+"lon": 9.183,
+"dosya": "yerlesimler_avrupa.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "1495-07-21",
+"sonraki": [
+[
+"s",
+"1495-07-21",
+"1918-11-30",
+"wurttemberg"
+],
+[
+"s",
+"1918-11-30",
+"1945-06-05",
+"almanya"
+]
+]
+},
+{
+"ad": "Freiburg",
+"lat": 47.999,
+"lon": 7.842,
+"dosya": "yerlesimler_avrupa.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "1368-01-01",
+"sonraki": [
+[
+"s",
+"1368-01-01",
+"1677-01-01",
+"avusturya"
+],
+[
+"s",
+"1677-01-01",
+"1697-10-30",
+"fransa"
+]
+]
+},
+{
+"ad": "Luzern",
+"lat": 47.05,
+"lon": 8.31,
+"dosya": "yerlesimler_avrupa.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "1332-11-07",
+"sonraki": [
+[
+"s",
+"1332-11-07",
+"1798-04-12",
+"isvicre"
+],
+[
+"s",
+"1798-04-12",
+"1803-02-19",
+"helvetik-cumhuriyeti"
+]
+]
+},
+{
+"ad": "Bormio",
+"lat": 46.467,
+"lon": 10.371,
+"dosya": "yerlesimler_avrupa.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "1350-01-01",
+"sonraki": [
+[
+"s",
+"1350-01-01",
+"1395-05-11",
+"visconti"
+],
+[
+"s",
+"1395-05-11",
+"1512-06-24",
+"milano-dukaligi"
+]
+]
+},
+{
+"ad": "Udine",
+"lat": 46.065,
+"lon": 13.235,
+"dosya": "yerlesimler_avrupa.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "1420-06-07",
+"sonraki": [
+[
+"s",
+"1420-06-07",
+"1797-05-12",
+"venedik"
+],
+[
+"s",
+"1797-05-12",
+"1797-10-17",
+"fransa-cumhuriyet"
+]
+]
+},
+{
+"ad": "Trieste",
+"lat": 45.65,
+"lon": 13.77,
+"dosya": "yerlesimler_avrupa.js",
+"tur": "liman",
+"f": "1281-01-01",
+"t": "1382-09-30",
+"sonraki": [
+[
+"s",
+"1382-09-30",
+"1809-10-14",
+"avusturya"
+],
+[
+"s",
+"1809-10-14",
+"1813-10-13",
+"fransa-cumhuriyet"
+]
+]
+},
+{
+"ad": "Enschede",
+"lat": 52.221,
+"lon": 6.894,
+"dosya": "yerlesimler_avrupa.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "1528-01-01",
+"sonraki": [
+[
+"s",
+"1528-01-01",
+"1597-01-01",
+"ispanya"
+],
+[
+"s",
+"1597-01-01",
+"1795-01-19",
+"hollanda"
+]
+]
+},
+{
+"ad": "Pula (Pola)",
+"lat": 44.867,
+"lon": 13.85,
+"dosya": "yerlesimler_avrupa.js",
+"tur": "liman",
+"f": "1281-01-01",
+"t": "1331-01-01",
+"sonraki": [
+[
+"s",
+"1331-01-01",
+"1797-10-17",
+"venedik"
+],
+[
+"s",
+"1797-10-17",
+"1806-01-01",
+"avusturya"
+]
+]
+},
+{
+"ad": "Schwerin",
+"lat": 53.635,
+"lon": 11.401,
+"dosya": "yerlesimler_halef_1946.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "1358-12-01",
+"sonraki": [
+[
+"s",
+"1358-12-01",
+"1815-01-01",
+"mecklenburg-dukaligi"
+],
+[
+"s",
+"1815-01-01",
+"1945-06-05",
+"almanya"
+]
+]
+},
+{
+"ad": "Freistadt",
+"lat": 48.511,
+"lon": 14.504,
+"dosya": "yerlesimler_a78_avrupa.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "1282-12-27",
+"sonraki": [
+[
+"s",
+"1282-12-27",
+"1918-11-12",
+"avusturya"
+],
+[
+"s",
+"1918-11-12",
+"1938-03-13",
+"avusturya-cumhuriyet"
+]
+]
+},
+{
+"ad": "Gmünd (Aşağı Avusturya)",
+"lat": 48.767,
+"lon": 14.983,
+"dosya": "yerlesimler_a78_avrupa.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "1282-12-27",
+"sonraki": [
+[
+"s",
+"1282-12-27",
+"1918-11-12",
+"avusturya"
+],
+[
+"s",
+"1918-11-12",
+"1938-03-13",
+"avusturya-cumhuriyet"
+]
+]
+},
+{
+"ad": "Feldkirch",
+"lat": 47.238,
+"lon": 9.598,
+"dosya": "yerlesimler_a78_avrupa.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "1379-01-01",
+"sonraki": [
+[
+"s",
+"1379-01-01",
+"1805-12-26",
+"avusturya"
+],
+[
+"s",
+"1805-12-26",
+"1814-06-03",
+"almanya"
+]
+]
+},
+{
+"ad": "Sion (Sitten)",
+"lat": 46.233,
+"lon": 7.361,
+"dosya": "yerlesimler_a78_avrupa.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "1417-01-01",
+"sonraki": [
+[
+"s",
+"1417-01-01",
+"1798-04-12",
+"isvicre"
+],
+[
+"s",
+"1798-04-12",
+"1802-09-01",
+"helvetik-cumhuriyeti"
+]
+]
+},
+{
+"ad": "Maribor (Marburg)",
+"lat": 46.5558,
+"lon": 15.6459,
+"dosya": "yerlesimler_p77_avrupa.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "1282-12-27",
+"sonraki": [
+[
+"s",
+"1282-12-27",
+"1918-10-29",
+"avusturya"
+],
+[
+"s",
+"1918-10-29",
+"1918-12-01",
+"shs-devleti"
+]
+]
+},
+{
+"ad": "Hartberg",
+"lat": 47.2833,
+"lon": 15.9667,
+"dosya": "yerlesimler_p77_avrupa.js",
+"tur": "kasaba",
+"f": "1281-01-01",
+"t": "1282-12-27",
+"sonraki": [
+[
+"s",
+"1282-12-27",
+"1918-11-12",
+"avusturya"
+],
+[
+"s",
+"1918-11-12",
+"1938-03-13",
+"avusturya-cumhuriyet"
+]
+]
+},
+{
+"ad": "Osnabrück",
+"lat": 52.27411,
+"lon": 8.05056,
+"dosya": "yerlesimler_zincir64.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "1866-06-17",
+"sonraki": [
+[
+"s",
+"1866-06-17",
+"1871-01-18",
+"prusya"
+],
+[
+"s",
+"1871-01-18",
+"1945-06-05",
+"almanya"
+]
+]
+},
+{
+"ad": "Wageningen",
+"lat": 51.964444,
+"lon": 5.663056,
+"dosya": "yerlesimler_sahne1108.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "1339-03-19",
+"sonraki": [
+[
+"s",
+"1339-03-19",
+"1543-09-07",
+"gelre-dukaligi"
+],
+[
+"s",
+"1543-09-07",
+"1581-07-26",
+"habsburg-hollandasi"
+]
+]
+}
+],
+"luksemburg-kontlugu": [
+{
+"ad": "Clervaux",
+"lat": 50.055,
+"lon": 6.031,
+"dosya": "yerlesimler_avrupa.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "1354-03-13",
+"sonraki": [
+[
+"s",
+"1354-03-13",
+"1443-11-21",
+"luksemburg-dukaligi"
+],
+[
+"s",
+"1443-11-21",
+"1482-03-27",
+"burgonya"
+]
+]
+},
+{
+"ad": "Bastogne",
+"lat": 50.0,
+"lon": 5.717,
+"dosya": "yerlesimler_a78_avrupa.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "1354-03-13",
+"sonraki": [
+[
+"s",
+"1354-03-13",
+"1443-11-21",
+"luksemburg-dukaligi"
+],
+[
+"s",
+"1443-11-21",
+"1482-03-27",
+"burgonya"
+]
+]
+},
+{
+"ad": "Neufchâteau (Belçika)",
+"lat": 49.841,
+"lon": 5.435,
+"dosya": "yerlesimler_a78_avrupa.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "1354-03-13",
+"sonraki": [
+[
+"s",
+"1354-03-13",
+"1443-11-21",
+"luksemburg-dukaligi"
+],
+[
+"s",
+"1443-11-21",
+"1482-03-27",
+"burgonya"
+]
+]
+},
+{
+"ad": "Virton",
+"lat": 49.568,
+"lon": 5.533,
+"dosya": "yerlesimler_a78_avrupa.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "1354-03-13",
+"sonraki": [
+[
+"s",
+"1354-03-13",
+"1443-11-21",
+"luksemburg-dukaligi"
+],
+[
+"s",
+"1443-11-21",
+"1482-03-27",
+"burgonya"
+]
+]
+},
+{
+"ad": "Wiltz",
+"lat": 49.966,
+"lon": 5.933,
+"dosya": "yerlesimler_a78_avrupa.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "1354-03-13",
+"sonraki": [
+[
+"s",
+"1354-03-13",
+"1443-11-21",
+"luksemburg-dukaligi"
+],
+[
+"s",
+"1443-11-21",
+"1482-03-27",
+"burgonya"
+]
+]
+},
+{
+"ad": "St. Vith (Sankt Vith)",
+"lat": 50.283,
+"lon": 6.127,
+"dosya": "yerlesimler_a78_avrupa.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "1354-03-13",
+"sonraki": [
+[
+"s",
+"1354-03-13",
+"1443-11-21",
+"luksemburg-dukaligi"
+],
+[
+"s",
+"1443-11-21",
+"1482-03-27",
+"burgonya"
+]
+]
+}
+],
+"saksonya": [
+{
+"ad": "Dresden",
+"lat": 51.05,
+"lon": 13.738,
+"dosya": "yerlesimler.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "1918-11-13",
+"sonraki": [
+[
+"s",
+"1918-11-13",
+"1945-06-05",
+"almanya"
+],
+[
+"s",
+"1945-06-05",
+"1949-10-07",
+"almanya-muttefik-isgali"
+]
+]
+},
+{
+"ad": "Leipzig",
+"lat": 51.34,
+"lon": 12.375,
+"dosya": "yerlesimler_avrupa.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "1918-11-13",
+"sonraki": [
+[
+"s",
+"1918-11-13",
+"1945-06-05",
+"almanya"
+],
+[
+"s",
+"1945-06-05",
+"1949-10-07",
+"almanya-muttefik-isgali"
+]
+]
+}
+],
+"braunschweig-luneburg-dukaligi": [
+{
+"ad": "Hannover",
+"lat": 52.375,
+"lon": 9.732,
+"dosya": "yerlesimler_avrupa.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "1692-03-22",
+"sonraki": [
+[
+"s",
+"1692-03-22",
+"1866-10-01",
+"hannover"
+],
+[
+"s",
+"1866-10-01",
+"1871-01-18",
+"prusya"
+]
+]
+}
+],
+"lubeck-sehri": [
+{
+"ad": "Lübeck",
+"lat": 53.866,
+"lon": 10.687,
+"dosya": "yerlesimler_avrupa.js",
+"tur": "liman",
+"f": "1281-01-01",
+"t": "1810-12-01",
+"sonraki": [
+[
+"s",
+"1810-12-01",
+"1813-01-01",
+"fransa-cumhuriyet"
+],
+[
+"s",
+"1813-01-01",
+"1937-04-01",
+"lubeck-sehri"
+]
+]
+}
+],
+"frizya-ozgurlugu": [
+{
+"ad": "Leeuwarden",
+"lat": 53.201,
+"lon": 5.8,
+"dosya": "yerlesimler_avrupa.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "1498-01-01",
+"sonraki": [
+[
+"s",
+"1498-01-01",
+"1515-01-01",
+"saksonya"
+],
+[
+"s",
+"1515-01-01",
+"1581-07-26",
+"habsburg-hollandasi"
+]
+]
+}
+]
+}

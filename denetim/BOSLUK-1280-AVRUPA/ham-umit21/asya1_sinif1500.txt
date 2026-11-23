@@ -1,0 +1,135 @@
+================================================================================================
+BOŞLUK SINIFLARI · kare 5° · kara karesi 439 · DEM etopo2022_30s_atlas.tif
+OK = sahipli nokta var · ① NOKTA-YOK = o gün varlığı bilinen nokta yok · ② SAHİPSİZ = nokta var, o güne penceresi yok
+================================================================================================
+
+GÜN 1500-01-01
+  kıta         kare     OK   ①nokta-yok  ②sahipsiz     boş%
+  Avrupa         63     59            4          0       6%
+  Asya          273    175           97          1      36%
+  Afrika         93     75           13          5      19%
+  Okyanusya      10      9            1          0      10%
+  TOPLAM        439    318          115          6      28%
+  -- ① NOKTA-YOK kareler (sol-alt köşe) (115):
+     Afrika -10°D 20°K
+     Afrika -15°D 10°K (sahipsiz 0, henüz-yok 6)
+     Afrika -15°D 15°K (sahipsiz 0, henüz-yok 5)
+     Afrika -15°D 20°K (sahipsiz 0, henüz-yok 2)
+     Afrika -15°D 5°K (sahipsiz 0, henüz-yok 4)
+     Afrika -20°D 20°K (sahipsiz 0, henüz-yok 3)
+     Afrika -5°D 20°K
+     Afrika 10°D -15°K (sahipsiz 0, henüz-yok 2)
+     Afrika 10°D 0°K (sahipsiz 0, henüz-yok 4)
+     Afrika 15°D -15°K (sahipsiz 0, henüz-yok 7)
+     Afrika 20°D -10°K (sahipsiz 0, henüz-yok 7)
+     Afrika 20°D -15°K (sahipsiz 0, henüz-yok 5)
+     Afrika 35°D -15°K (sahipsiz 0, henüz-yok 8)
+     Asya -15°D 80°K
+     Asya -20°D 60°K
+     Asya -20°D 80°K
+     Asya -25°D 65°K
+     Asya -25°D 75°K
+     Asya -25°D 80°K
+     Asya 100°D 50°K (sahipsiz 0, henüz-yok 2)
+     Asya 100°D 55°K (sahipsiz 0, henüz-yok 2)
+     Asya 100°D 60°K
+     Asya 100°D 65°K (sahipsiz 0, henüz-yok 1)
+     Asya 100°D 75°K
+     Asya 105°D 45°K (sahipsiz 0, henüz-yok 1)
+     Asya 105°D 50°K (sahipsiz 0, henüz-yok 6)
+     Asya 105°D 60°K (sahipsiz 0, henüz-yok 1)
+     Asya 105°D 65°K
+     Asya 105°D 70°K
+     Asya 105°D 75°K
+     Asya 110°D 55°K (sahipsiz 0, henüz-yok 3)
+     Asya 110°D 60°K
+     Asya 110°D 65°K
+     Asya 110°D 70°K
+     Asya 110°D 75°K
+     Asya 115°D 50°K (sahipsiz 0, henüz-yok 3)
+     Asya 115°D 55°K
+     Asya 115°D 60°K (sahipsiz 0, henüz-yok 1)
+     Asya 115°D 65°K
+     Asya 115°D 70°K (sahipsiz 0, henüz-yok 1)
+     Asya 120°D 45°K (sahipsiz 0, henüz-yok 1)
+     Asya 120°D 55°K
+     Asya 120°D 60°K (sahipsiz 0, henüz-yok 2)
+     Asya 120°D 65°K (sahipsiz 0, henüz-yok 2)
+     Asya 120°D 70°K
+     Asya 125°D 45°K (sahipsiz 0, henüz-yok 3)
+     Asya 125°D 55°K
+     Asya 125°D 60°K (sahipsiz 0, henüz-yok 1)
+     Asya 125°D 65°K
+     Asya 130°D 45°K (sahipsiz 0, henüz-yok 1)
+     Asya 130°D 50°K (sahipsiz 0, henüz-yok 1)
+     Asya 130°D 55°K
+     Asya 130°D 60°K (sahipsiz 0, henüz-yok 1)
+     Asya 130°D 65°K (sahipsiz 0, henüz-yok 1)
+     Asya 130°D 70°K
+     Asya 135°D 50°K (sahipsiz 0, henüz-yok 1)
+     Asya 135°D 60°K
+     Asya 135°D 65°K
+     Asya 140°D 55°K (sahipsiz 0, henüz-yok 1)
+     Asya 140°D 60°K
+     Asya 140°D 65°K (sahipsiz 0, henüz-yok 2)
+     Asya 140°D 70°K
+     Asya 145°D 60°K
+     Asya 145°D 65°K (sahipsiz 0, henüz-yok 1)
+     Asya 145°D 70°K
+     Asya 45°D 65°K
+     Asya 50°D 45°K (sahipsiz 0, henüz-yok 1)
+     Asya 50°D 60°K (sahipsiz 0, henüz-yok 1)
+     Asya 55°D 80°K
+     Asya 60°D 55°K (sahipsiz 0, henüz-yok 9)
+     Asya 60°D 60°K
+     Asya 60°D 65°K
+     Asya 60°D 75°K
+     Asya 60°D 80°K
+     Asya 65°D 25°K (sahipsiz 0, henüz-yok 3)
+     Asya 65°D 60°K (sahipsiz 0, henüz-yok 2)
+     Asya 65°D 65°K (sahipsiz 0, henüz-yok 1)
+     Asya 65°D 70°K
+     Asya 70°D 45°K
+     Asya 70°D 50°K (sahipsiz 0, henüz-yok 2)
+     Asya 70°D 65°K
+     Asya 75°D 60°K
+     Asya 75°D 65°K
+     Asya 75°D 70°K
+     Asya 80°D 30°K
+     Asya 80°D 55°K (sahipsiz 0, henüz-yok 4)
+     Asya 80°D 60°K
+     Asya 80°D 65°K (sahipsiz 0, henüz-yok 1)
+     Asya 80°D 70°K
+     Asya 85°D 30°K
+     Asya 85°D 55°K
+     Asya 85°D 60°K
+     Asya 85°D 65°K (sahipsiz 0, henüz-yok 2)
+     Asya 85°D 70°K
+     Asya 90°D 30°K
+     Asya 90°D 35°K
+     Asya 90°D 50°K (sahipsiz 0, henüz-yok 4)
+     Asya 90°D 55°K (sahipsiz 0, henüz-yok 3)
+     Asya 90°D 60°K
+     Asya 90°D 65°K (sahipsiz 0, henüz-yok 1)
+     Asya 90°D 70°K (sahipsiz 0, henüz-yok 1)
+     Asya 90°D 75°K
+     Asya 90°D 80°K
+     Asya 95°D 40°K
+     Asya 95°D 50°K (sahipsiz 0, henüz-yok 1)
+     Asya 95°D 55°K (sahipsiz 0, henüz-yok 1)
+     Asya 95°D 60°K
+     Asya 95°D 65°K
+     Asya 95°D 70°K
+     Asya 95°D 80°K
+     Avrupa 10°D 75°K
+     Avrupa 20°D 75°K
+     Avrupa 20°D 80°K
+     Avrupa 25°D 70°K
+     Okyanusya 115°D -5°K (sahipsiz 0, henüz-yok 1)
+  -- ② SAHİPSİZ kareler (sol-alt köşe) (6):
+     Afrika 10°D -5°K (sahipsiz 1, henüz-yok 8)
+     Afrika 15°D -5°K (sahipsiz 1, henüz-yok 3)
+     Afrika 20°D -5°K (sahipsiz 1, henüz-yok 6)
+     Afrika 20°D 0°K (sahipsiz 1, henüz-yok 7)
+     Afrika 25°D -10°K (sahipsiz 1, henüz-yok 5)
+     Asya 40°D 25°K (sahipsiz 5, henüz-yok 0)

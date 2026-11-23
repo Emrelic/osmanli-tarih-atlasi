@@ -1,0 +1,274 @@
+{
+  "meta": {
+    "oturum": "asya1-sind (alt ajan, salt okuma; veri yazilmadi)",
+    "tarih": "2026-11-22",
+    "yerel_kaynaklar": "C:\\Users\\user\\Documents\\atlas-kaynaklar\\a1-sind\\ (TDV html/txt, Elliot-Dowson I, Haig 1894)",
+    "okunan": [
+      "TDV Sind (Azmi Ozcan, DIA XXXVII, 242-244) - okundu",
+      "TDV Argunlular (Abdulkerim Ozaydin, DIA III, 357) - okundu",
+      "TDV Belucistan (DIA V) - okundu (yalniz Kelat/Sibi/Kuetta gecen cumleler)",
+      "TDV Nogaylar (Mehmet Alpargu, DIA XXXIII) - okundu",
+      "TDV Kazaklar (Keith Hitchins) - okundu",
+      "Elliot & Dowson, History of India vol.I (archive.org historyofindiaas01elli, 1867): Tarikh-i Masumi bolumu + Appendix - OCR metni okundu",
+      "Haig, The Indus Delta Country 1894 (archive.org indusdeltacount00haiggoog) - okundu"
+    ],
+    "okunmadi": [
+      "TDV 'Semmeler', 'Tarhanlilar', 'Bakkar', 'Tatta', 'Kelat', 'Mir Masum', 'Sauran', 'Sig-nak' ve 'Turkistan (sehir)' slug'lari: baslikta madde yok (arama sayfasina dustu); 'Semmeler'/'Tarhanlilar' hic sonuc vermedi",
+      "Imperial Gazetteer of India (Sind ciltleri): archive.org _djvu.txt 404; okunmadi",
+      "Postans, Burton, Raverty, Lane-Poole: indirilmedi/okunmadi (zaman)",
+      "Saray-Juk icin akademik kaynak: TDV Nogaylar disinda bulunamadi; terk tarihi (1580) hicbir okunan kaynakta yok"
+    ],
+    "devlet_kimlikleri": {
+      "var_ve_BOYALARda": ["sind (f1281 t1843; kapsar Sumra-Samma-Ergun-Kalhora-Talpur)", "sumra (f1030 t1351, BOYALAR'da var)", "babur-imparatorlugu", "kalat-hanligi (f1666)", "delhi-sultanligi", "safevi", "nogay (f1440 t1783)", "kazak-hanligi (f1465 t1847)", "altinorda"],
+      "yok_ve_gerekmiyor": ["samma", "arghun/ergun", "tarhan", "kalhora", "talpur: hepsi 'sind' kunyesinin ozetinde sayiliyor; 1281-1843 tek renk. AYRI KUNYE ONERISI (yazma): Samma 1351-1520, Argun 1520-1555, Argun-Tarhan 1555-1591 TDV'de ayri hanedan olarak duruyor; ayri renk istenirse 'samma','arghun','tarhan' acilabilir ama sind kunyesi ile cakisir (Degismez 2 sinir degisimi yok, yalniz sahip adi). Oneri: acma, sind yeterli."]
+    },
+    "onemli_bulgu_mukerrer": "Atlas'ta Tatta (Thatta) VAR (yerlesimler_asya.js:668; s: sind 1281-1592, babur 1592-1701, sind 1701-1843). asya_mevcut.txt eksikti. Multan (0.5 km), Dera Gazi Han (2.1 km), Turkistan/Yesi (1.3 km), Guryev/Atyrau (2.9 km) de mevcut. Hucre disi: Multan lon 71.47, DG Han 70.64, Quetta lat 30.20, Turkistan lat 43.3 (hucre 3 disinda)."
+  },
+  "cakisma_bildirimi": [
+    {
+      "konu": "Tatta'nin Babur'a gecis tarihi",
+      "atlas": "1592-01-01",
+      "TDV_Sind": "1591 (Aşağı Sind zaptedildi)",
+      "Masumi_Elliot": "Mirza Jani Beg'in teslimi 'a.d. 1592' (Elliot ozet cumlesi; 'Mirza Jani Beg of Thatta, in a.d. 1592')",
+      "oneri": "Gun icin hakemli karar gerekli: TDV 1591 verir, Masumi/Elliot 1592. Elliot'un kendi metni Khan-i Khanan'in Sihwan'a Safar 999 (Kasim 1590) ulastigini yazar, teslim 1591-92 arasi. Bu turda gun BULUNAMADI; TDV 1591 (yil) ile 1592 (atlas) farkli, ic_not'ta beyan edilmeli."
+    },
+    {
+      "konu": "Sikarpur (atlas kur 1617) / Sind 1701 ucu",
+      "atlas": "babur 1617-1701, sind 1701-1843",
+      "TDV_Sind": "Sind Babur'dan 1740'ta Nadir Sah'a gecer (1153/1740); Kalhora TDV'de yok",
+      "oneri": "1700-01-01 icin TDV'ye gore sahip babur-imparatorlugu (atlas uyumlu). 1701 'sind' ucu TDV'de teyit edilmedi: BULUNAMADI (Kalhora 1701 basi icin kaynak okunmadi)."
+    }
+  ],
+  "kayitlar": [
+    {
+      "ad": "Tatta (Thatta)",
+      "lat": 24.7470, "lon": 67.9240,
+      "tur": "sehir",
+      "kur_alt_sinir": null,
+      "mevcut_atlasta": true,
+      "donemler": [
+        {"f": "1281-01-01", "t": "1351-01-01", "sahip": "sumra", "hassasiyet": "BULUNAMADI",
+         "kaynak": [{"kunye": "Tatta'nin 1351 oncesi varligi kaynakta okunmadi; TDV Sind 1351 oncesini Sumra olarak vermiyor, Elliot Masumi bolumu Thatta'yi yalniz Samma capital'i olarak anlatir; atlas kunyesi 'sumra baskent Thatta' diyor ama kaynak okunmadi", "alinti": "", "sayfa": ""}]},
+        {"f": "1351-01-01", "t": "1520-01-01", "sahip": "sind", "hassasiyet": "yil",
+         "kaynak": [
+           {"kunye": "TDV, Sind (Azmi Ozcan), DIA XXXVII, 242-244, https://islamansiklopedisi.org.tr/sind", "alinti": "Hindu Semmâ kabilesi tarafından zaptedildi (1351) ve XVI. yüzyıla kadar onların hâkimiyeti altında kaldı", "sayfa": "37/242-244"},
+           {"kunye": "Elliot-Dowson I, Tarikh-i Masumi (Jam Sikandar 'left Thatta', Mulla Hamid 'Thatta is far distant')", "alinti": "Jam Sikandar left Tkatta and proceeded towards Bhakkar", "sayfa": "Masumi bolumu ~s.233 (OCR konumundan tahmini)"}
+         ]},
+        {"f": "1520-01-01", "t": "1555-01-01", "sahip": "sind", "hassasiyet": "yil",
+         "kaynak": [{"kunye": "TDV, Argunlular (Abdulkerim Ozaydin), DIA III, 357", "alinti": "Güney Sind’in merkezi Thatta’yı (Tatta) yağmaladı", "sayfa": "3/357"}]},
+        {"f": "1555-01-01", "t": "1591-01-01", "sahip": "sind", "hassasiyet": "yil",
+         "kaynak": [{"kunye": "TDV Argunlular: Tarhan hanedani 1555-1591, Asagi Sind merkezi Tatta", "alinti": "Merkezi Tatta olan Aşağı Sind Muhammed Îsâ’nın", "sayfa": "3/357"}]},
+        {"f": "1591-01-01", "t": "1700-12-31", "sahip": "babur-imparatorlugu", "hassasiyet": "yil (TDV 1591; Masumi/Elliot 1592: cakisma)",
+         "kaynak": [{"kunye": "TDV Sind", "alinti": "1591’de merkezi Tatta (Thatta) olan Aşağı Sind zaptedilmek suretiyle Bâbürlü topraklarına katıldı", "sayfa": "37/242-244"}]}
+      ],
+      "durum": "SAHIPLI",
+      "not": "1500-01-01: sind (Samma, Cam Firuz/Nizamuddin hanedani). 1700-01-01: babur-imparatorlugu (TDV: Babur ta 1740 Nadir Sah'a kadar). Tatta yerlesimi atlasta zaten var; yalniz 1591/1592 gun cakismasi ve 1281-1351 varlik teyidi acik."
+    },
+    {
+      "ad": "Bakkar (Bukkur / Bhakkar, Indus kalesi)",
+      "lat": null, "lon": null,
+      "koordinat_notu": "BULUNAMADI: kaynakli koordinat alinamadi. DIKKAT: en.wikipedia 'Bhakkar' sorgusu Pencap'taki baska sehre (31.63K 71.06D) gider - kullanma. Bukkur adasi Rohri (27.683K 68.900D, Vikipedi) ve Sukkur (27.706K 68.848D, Vikipedi) arasindadir; Bukkur sayfasinda koordinat bulunamadi. Pleiades/GeoNames/Imperial Gazetteer ile dogrulanmali.",
+      "tur": "kale",
+      "kur_alt_sinir": null,
+      "mevcut_atlasta": false,
+      "donemler": [
+        {"f": "1281-01-01", "t": "1520-01-01", "sahip": "sind", "hassasiyet": "BELIRSIZ (Samma suzerenligi iddiali, yerel valiler kopuk)",
+         "kaynak": [{"kunye": "Elliot-Dowson I, Tarikh-i Masumi: Jam Nizamuddin 'appointed as governor one of his dependants, Dilshad by name' Bhakkar kalesine; Jam Sikandar zamaninda 'rulers of Siwistan and Bhakkar ... refused obedience'", "alinti": "appointed as governor one of his dependants, Dilshad by name", "sayfa": "Masumi bolumu ~s.233 (tahmini)"}]},
+        {"f": "1520-01-01", "t": "1573-01-01", "sahip": "sind", "hassasiyet": "yil",
+         "kaynak": [{"kunye": "TDV Argunlular", "alinti": "Şah Şücâ‘ İndus kıyısındaki Bakkar’ı başşehir yaptı", "sayfa": "3/357"}]},
+        {"f": "1573-01-01", "t": "1700-12-31", "sahip": "babur-imparatorlugu", "hassasiyet": "yil (TDV 1573; Masumi: Babur fermani 1575 Nisan jagir)",
+         "kaynak": [{"kunye": "TDV Sind", "alinti": "981’de (1573) merkezi Bakkar olan Yukarı Sind", "sayfa": "37/242-244"}]}
+      ],
+      "durum": "SAHIPLI",
+      "not": "Sehir degil Indus ustundeki kale-sehir; Masumi'nin dogum yeri. 1500-01-01 sahibi: Samma (sind) icin yalniz Nizamuddin'in valisi (Dilshad) tanigi var, Nizamuddin'in ayrik tarihi okunmadi; yerel hakimiyet kopuk olabilir. 1520 sonrasi Argun ile Bakkar baskent (TDV). Atlasta yok; Sukkur/Rohri hizasi, Aror'a 8-9 km."
+    },
+    {
+      "ad": "Rohri (Rori)",
+      "lat": 27.6831, "lon": 68.9000,
+      "koordinat_kaynak": "Vikipedi (en) 'Rohri' (tamamlayici, tek dayanak degil)",
+      "tur": "sehir",
+      "kur_alt_sinir": null,
+      "mevcut_atlasta": false,
+      "mukerrer_tarama": "8 km icinde atlasta yerlesim yok; Aror (27.65 68.983, 9.5 km) farkli yer",
+      "donemler": [
+        {"f": "1520-01-01", "t": "1573-01-01", "sahip": "sind", "hassasiyet": "BELIRSIZ",
+         "kaynak": [{"kunye": "Elliot-Dowson I, Tarikh-i Masumi dipnotu: 'Saiyids were turned out of Bhakkar, and allowed a space of ground in Rori' (Arghun/Tarkhan donemi); Malet: 'Rori and Tiggar'", "alinti": "allowed a space of ground in Rori, whereon to build new houses", "sayfa": "Elliot I ~s.312 dipnot (Historians of Sind)"}]},
+        {"f": "1573-01-01", "t": "1700-12-31", "sahip": "babur-imparatorlugu", "hassasiyet": "yil", "kaynak": [{"kunye": "TDV Sind (Yukari Sind Bakkar merkezli 1573)", "alinti": "", "sayfa": "37/242-244"}]}
+      ],
+      "durum": "BULUNAMADI",
+      "not": "Rohri'nin 1500'de var olduguna dair ilk tanik BULUNAMADI (Masumi'deki en erken sozu ~1520 sonrasi Seyyid yerlesimi). Hayalet yerlesim riski: 1500 icin YAZILMASIN; ilk tanik ~1520-1540. Sukkur (yeni, 1800ler) atlasa eklenmemeli (Sukkur kuruluslu ilk tanik okunmadi)."
+    },
+    {
+      "ad": "Sehvan (Sehwan Sharif, Siwistan/Sihwan kalesi)",
+      "lat": 26.4193, "lon": 67.8594,
+      "koordinat_kaynak": "Vikipedi (en) 'Sehwan' (tamamlayici)",
+      "tur": "kale-sehir",
+      "kur_alt_sinir": null,
+      "mevcut_atlasta": false,
+      "mukerrer_tarama": "8 km icinde yok",
+      "donemler": [
+        {"f": "1351-01-01", "t": "1520-01-01", "sahip": "sind", "hassasiyet": "BELIRSIZ (Samma suzerenligi, yerel valiler)",
+         "kaynak": [{"kunye": "Elliot-Dowson I, Tarikh-i Masumi: 'The fort of Siwistan then fell into Unar's power' (Jam Unar, Samma)", "alinti": "The fort of Siwistan then fell into Unar’s power", "sayfa": "Masumi bolumu ~s.225 (tahmini)"}]},
+        {"f": "1520-01-01", "t": "1591-01-01", "sahip": "sind", "hassasiyet": "yil",
+         "kaynak": [{"kunye": "TDV Argunlular: Humayun 1543'te Hüseyin Şah Argun'un Sihvan savunmasi", "alinti": "Hümâyun daha sonra Sind’e saldırıp Sihvân’ı kuşattı", "sayfa": "3/357"}]},
+        {"f": "1591-01-01", "t": "1700-12-31", "sahip": "babur-imparatorlugu", "hassasiyet": "yil",
+         "kaynak": [{"kunye": "Elliot-Dowson I, Masumi: Khan-i Khanan Sihwan'i Mirza Jani Beg'e karsi 1590-91'de kusatir (kale kapilarini kapattilar)", "alinti": "The people of Sihwan closed the gates of their fort", "sayfa": "Masumi bolumu ~s.248"}]}
+      ],
+      "durum": "SAHIPLI",
+      "not": "Sehvan 1281-1351 Delhi Sultanligi/Sumra sinirinda: kaynak okunmadi (BULUNAMADI). Kalenin var olusu Masumi'de net."
+    },
+    {
+      "ad": "Nasirpur (Nasrpur)",
+      "lat": null, "lon": null,
+      "koordinat_notu": "BULUNAMADI: Vikipedi 'Nasarpur' redirect'i 'Naserpur' (25.31K 68.37D) donduruyor, dogru yer oldugu teyitsiz (Hayderabad'a 9 km)",
+      "tur": "sehir",
+      "kur_alt_sinir": "1350-01-01",
+      "mevcut_atlasta": false,
+      "donemler": [
+        {"f": "1350-01-01", "t": "1591-01-01", "sahip": "sind", "hassasiyet": "yil",
+         "kaynak": [{"kunye": "Elliot-Dowson I, Appendix (Mansura/Nasrpur): 'built, or rather re-constructed, on the river Sankra, by Amir Nasr ... in 751 a.h., 1350 a.d.'; 'favourite residence of the Tarkhans'", "alinti": "built, or rather re-constructed, on the river Sankra, by Amir Nasr", "sayfa": "Elliot I, Appendix ~s.368 (OCR konumu; sayfa tahmini)"}]},
+        {"f": "1591-01-01", "t": "1700-12-31", "sahip": "babur-imparatorlugu", "hassasiyet": "BELIRSIZ", "kaynak": [{"kunye": "TDV Sind (Asagi Sind Babur 1591)", "alinti": "", "sayfa": "37/242-244"}]}
+      ],
+      "durum": "SAHIPLI",
+      "not": "Delhi (Firuz Sah) yapimi 1350; kaynak 'Sultan Firoz Shah' diyor (Tugluk, 1351'de tahta) - 751 AH = 1350/51 cakismasi: yil teyidi yok. Koordinat teyitsiz oldugundan yazilmamali."
+    },
+    {
+      "ad": "Mansura (Brahmanabad)",
+      "lat": 25.8811, "lon": 68.7769,
+      "tur": "sehir",
+      "mevcut_atlasta": true,
+      "donemler": [
+        {"f": "1281-01-01", "t": "1321-01-01", "sahip": "BULUNAMADI", "hassasiyet": "pencere (1250-1320)",
+         "kaynak": [
+           {"kunye": "Haig, The Indus Delta Country (1894), s.72-73", "alinti": "Ebu'l-Fida, writing in the first half of the fourteenth century, says that the city ... was then in ruins", "sayfa": "72-73"},
+           {"kunye": "Haig 1894 (Yakut 13. yy ilk on yilinda sehri hala islek anlatir)", "alinti": "wrote his great geographical work in the second decade of the thirteenth century, as if it was still flourishing", "sayfa": "72"}
+         ]}
+      ],
+      "durum": "BULUNAMADI",
+      "not": "Terk tarihi: ~1250-1320 penceresi (Indus yatagi degisimi; Haig 'ruin of Mansura, most probably end of 13th / beginning of 14th c.'). Kesin yil YOK; d:'__YOK__' donemi icin kaynak yetmez. TDV Sind sadece 8. yy kurulusunu (Amr b. Muhammed b. Kasim) ve Mahfuze/Mansure sehirlerini anar, terk tarihi vermez. Atlas kaydinin 1281 sonrasinda donemi yok: 1500 ve 1700'de sahipsiz bırakmak dogru (sehir yok); Atlasta 'sahipsiz = delik' Degismez 1 ihlali gorunur: sehri tur:'tarihi-kalinti' ya da donemini 712-1281 ile kapatmak lazim."
+    },
+    {
+      "ad": "Aror (Alor)",
+      "lat": 27.65, "lon": 68.9833,
+      "tur": "sehir",
+      "mevcut_atlasta": true,
+      "donemler": [],
+      "durum": "YOK",
+      "not": "1281 sonrasi YOK: Haig, nehrin Aror'dan Bakhar yatagina gecisini ~950'ye tarihler ('the change of course from Aror to Bakhar took place about 950'); 'Aror itself had been deserted long before' 14. yy kehanetlerinden. Ayni sey TDV'de yok. Atlas kaydinin son donemi 640-712 cac-sind: 1281 oncesi kapaniyor, 1500/1700'de sahipsizlik meşru (sehir terk). Bu yerler harita deligi sayilmaz; Rohri/Bakkar petegine kalir."
+    },
+    {
+      "ad": "Mehrgarh",
+      "lat": 29.416, "lon": 67.607,
+      "tur": "sehir",
+      "mevcut_atlasta": true,
+      "donemler": [],
+      "durum": "MESRU_BOSLUK",
+      "not": "Neolitik-Kalkolitik kalinti (atlas -5049..-4723); 1281 sonrasi yerlesim YOK. 1500/1700 sahipsizligi meşru; kaynak okunmadi (kalinti terk tarihi bu turun disinda)."
+    },
+    {
+      "ad": "Pakistan (temsilci bolge noktasi)",
+      "lat": 29.949, "lon": 69.341,
+      "tur": "bolge",
+      "mevcut_atlasta": true,
+      "donemler": [],
+      "durum": "MESRU_BOSLUK",
+      "not": "yerlesimler_once1281_*: Natural Earth temsilci noktasi; 1500/1700'de 'sahipsiz' gorunmesi bolge notunun 1947 oncesi sahibinin olmamasindandir, yerlesim degil. Sahiplik zinciri bolge noktasina degil Quetta/Kalat/Sibi/Bakkar komsu yerlesimlerine yazilmali."
+    },
+    {
+      "ad": "Sibi (Sivi)",
+      "lat": 29.55, "lon": 67.8833,
+      "koordinat_kaynak": "Vikipedi (en) 'Sibi' (tamamlayici)",
+      "tur": "sehir",
+      "mevcut_atlasta": false,
+      "donemler": [],
+      "durum": "BULUNAMADI",
+      "not": "Elliot I (Chach-nama) 7. yy Sini/Sibi irmak-kalesini anar (Chach reaches... river Sini or Sibi) ama 1281-1700 sahiplik zinciri kaynakta bulunamadi. TDV Belûcistan Sibi'yi yalniz iklim ve idari birim olarak anar; TDV Argunlular Zunnun'un 1479'da Pisin/Sal/Mustang (Quetta bolgesi) dagliklarini aldigini yazar ama Sibi'yi anmaz. 1500: Arghun-Kandehar nufuz sahasi muhtemel, kaynaksiz."
+    },
+    {
+      "ad": "Kuzdar / Huzdar (Khuzdar)",
+      "lat": 27.8, "lon": 66.6167,
+      "koordinat_kaynak": "Vikipedi (en) 'Khuzdar' (tamamlayici)",
+      "tur": "sehir",
+      "mevcut_atlasta": false,
+      "donemler": [],
+      "durum": "BULUNAMADI",
+      "not": "Elliot I: Kusdar 7. yy 'Turan' vilayetinin merkezi; 1281-1700 sahiplik zinciri kaynakta bulunamadi. TDV Belûcistan 'Huzdâr' idari birimini anar (modern). Kalat Hanligi (1666) kapsami kaynaklida: atlasin kalat-hanligi 1666-; 1500'de Kuzdar'in sahibi BULUNAMADI."
+    },
+    {
+      "ad": "Larkana / Dadu / Kandhkot",
+      "lat": null, "lon": null,
+      "tur": "sehir",
+      "mevcut_atlasta": false,
+      "donemler": [],
+      "durum": "BULUNAMADI",
+      "not": "Larkana (27.558K 68.211D), Dadu (26.733K 67.779D), Kandhkot (28.245K 69.180D) Vikipedi koordinatlari mevcut ama 1281-1700 arasi ilk tanik (Samma/Arghun/Tarkhan/Babur kaynaginda) okunmadi. TDV Sind sadece modern Larkana'yi (416.261 nufus, 2008) sayar. Hayalet yerlesim riski: ilk tanik bulunmadikca yazilmaz."
+    },
+    {
+      "ad": "Kalat (Kelat)",
+      "lat": 29.029, "lon": 66.589,
+      "tur": "sehir",
+      "mevcut_atlasta": true,
+      "donemler": [
+        {"f": "1281-01-01", "t": "1666-01-01", "sahip": "BULUNAMADI", "hassasiyet": "BULUNAMADI",
+         "kaynak": [{"kunye": "TDV Belûcistan (DIA V): XVI. yy Mir Cakur Han Rind Belucistan'i Beluci hakimiyetine aldi; XVI-XVIII. yy arasi iki bagimsiz Beluci devleti, biri Sind'de biri Kelat'ta; Kelat Hani Nasir Han 1750-1795", "alinti": "Kelât Hanı Nâsır Han Belûc (1750-1795), Afgan şahları Dürrânîler’e bağlı olduğunu ilân ederek", "sayfa": "5 (cilt sayfa numarasi okunmadi)"}]},
+        {"f": "1666-01-01", "t": "1700-12-31", "sahip": "kalat-hanligi", "hassasiyet": "yil",
+         "kaynak": [{"kunye": "Atlas kunye: Cambridge 'The Baluch Qaum of Kalat State' (bulunmus), TDV kapsamiyor", "alinti": "", "sayfa": ""}]}
+      ],
+      "durum": "SAHIPLI",
+      "not": "1700: kalat-hanligi (atlas); TDV 1666 baslangicini vermiyor (ic_not'ta zaten beyan). 1281-1666: Rind/Safevi/Arghun/Babur-Kandehar arasi; TDV: Zunnun Argun 1479'da Pisin-Sal-Mustang (Quetta cevresi) aldi, 1507'de Kandehar'da oldu. Kalat'in 1666 oncesi sahibi BULUNAMADI."
+    },
+    {
+      "ad": "Saray-Juk (Sarayçik / Saraychik / Saraishyq)",
+      "lat": 47.5, "lon": 51.7333,
+      "koordinat_kaynak": "Vikipedi (en) 'Saray-Juk' (47.5, 51.7333; Atyrau'nun ~50 km kuzeyi). Gorevdeki 47.0K DEGIL: Vikipedi 47.5K; Pleiades/GeoNames ile dogrulanmadi",
+      "tur": "sehir",
+      "mevcut_atlasta": false,
+      "mukerrer_tarama": "8 km icinde yok; Guryev (Atyrau) 47.11K 51.92D ~45 km guneyde (ayri yer)",
+      "kur_alt_sinir": null,
+      "donemler": [
+        {"f": "1440-01-01", "t": "1557-01-01", "sahip": "nogay", "hassasiyet": "yil (alt sinir kunye f)",
+         "kaynak": [{"kunye": "TDV, Nogaylar (Mehmet Alpargu), DIA XXXIII", "alinti": "Nogay ordasının merkezi Nogay beyinin kışlık ikametgâhı olan Sarayçık şehriydi", "sayfa": "33 (sayfa numarasi okunmadi)"}]},
+        {"f": "1557-01-01", "t": "1580-01-01", "sahip": "nogay", "hassasiyet": "BELIRSIZ",
+         "kaynak": [{"kunye": "TDV Nogaylar: 1557-58 Buyuk/Kucuk Nogay ayrimi; Saraycik terk tarihi 1580 hicbir okunan kaynakta YOK", "alinti": "", "sayfa": ""}]}
+      ],
+      "durum": "SAHIPLI",
+      "not": "1500-01-01: nogay (TDV: Nogay Ordasi merkezi Saraycik; atlas kunyesi f1440). 1281-1440: Altin Orda donemi Saray-Juk varligi icin kaynak okunmadi (Vikipedi 'flourished 10th-16th c.' tamamlayici, tek dayanak degil) -> BULUNAMADI, yazilmasin. 1580 terk ve 1700 durumu BULUNAMADI. 1700-01-01'de yer Kazak Kucuk Cuz/Kalmuk bozkirinda: TDV Kazaklar 'sakin goçebe' diyor, sehir yok; atlas 'Guryev rusya 1640-' kaydi ile cakisan acikta hata riski."
+    },
+    {
+      "ad": "Guryev (Atyrau)",
+      "lat": 47.11, "lon": 51.92,
+      "tur": "liman",
+      "mevcut_atlasta": true,
+      "donemler": [
+        {"f": "1640-01-01", "t": "1700-12-31", "sahip": "rusya", "hassasiyet": "BULUNAMADI",
+         "kaynak": [{"kunye": "Atlas kaydi; bu turda TDV Nogaylar/Kazaklar/Yayik taramasi Guryev'i vermedi", "alinti": "", "sayfa": ""}]}
+      ],
+      "durum": "BULUNAMADI",
+      "not": "1700 icin 'rusya' sahipligi kaynakta okunmadi; tahkimat (1640) Rus kaynagi olabilir ama etrafindaki bozkir Nogay/Kazak/Kalmuk yurdudur. Kaynak sirasinda TDV'de yok; arastirma devam etmeli (Yayik Kazaklari, Astarhan voyvodaligi)."
+    },
+    {
+      "ad": "Hazar kuzeybatisi bozkir (lon 50-55, lat 45-50)",
+      "lat": null, "lon": null,
+      "tur": "bolge",
+      "mevcut_atlasta": false,
+      "donemler": [
+        {"f": "1440-01-01", "t": "1557-01-01", "sahip": "nogay", "hassasiyet": "yil",
+         "kaynak": [{"kunye": "TDV Nogaylar", "alinti": "Nogay ordası İdil’in sağ kıyısını Altın Orda’nın tamamen çöküşünden sonra ele geçirmiştir", "sayfa": "33"}]}
+      ],
+      "durum": "SAHIPLI",
+      "not": "1500-01-01: nogay (Buyuk Nogay Ordasi, Mangit yurdu; TDV: Edige 1420 oldu, oglu Nogay beyleri; XVI. yy basinda Musa Mirza). 1700-01-01: TDV Nogaylar 'Rus/Kalmuk baskisi ile bagimsizlik kaybi' der; Nogay kunyesi t1783; 1700'de bozkir sahibi BULUNAMADI (Kalmuk/Kazak Kucuk Cuz). Sehir yok."
+    },
+    {
+      "ad": "Kazakistan bozkiri (lon 70-75, lat 45-55)",
+      "lat": null, "lon": null,
+      "tur": "bolge",
+      "mevcut_atlasta": false,
+      "donemler": [
+        {"f": "1465-01-01", "t": "1700-12-31", "sahip": "kazak-hanligi", "hassasiyet": "yil (kunye f)",
+         "kaynak": [{"kunye": "TDV, Kazaklar (Keith Hitchins)", "alinti": "XVIII. yüzyıl öncesi Kazak toplumu böylece sakin göçebe hayatı yaşayan, hayvancılıkla uğraşan", "sayfa": "okunmadi (cilt sayfasi)"}]}
+      ],
+      "durum": "MESRU_BOSLUK",
+      "not": "Hucre 3: 1281-1700 icin kalici sehir YOK (TDV Kazaklar: goçebe toplum). Sığnak (44.16K 66.96D, Vikipedi), Sauran (~43.5K), Turkistan (43.30K 68.27D) hepsi hucrenin GUNEYINDE ve DOGUSUNDA (lat<45) hucre disi. Rus kalelerinin 1700 sonrasi kurulduguna dair kaynak okunmadi (bellekten; teyitsiz). Kaynakli bulgu: 'goçebe, kalici yerlesim yok' MESRU_BOSLUK. 1700 icin Kazak Hanligi sahibi bolge boyasi; TDV kazaklar 1465 baslangicini vermiyor, atlas kunyesi 'yetersiz' beyan ediyor."
+    }
+  ]
+}

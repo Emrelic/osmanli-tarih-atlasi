@@ -7512,7 +7512,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"ahom", ad:"Ahom Krallığı (Assam)", tur:"krallik", bolge:"guney-asya",
-  f:"1281-01-01", ic_not_f:"ONCE1281 (18 Ekim 2026): geleneksel kuruluş 1228 (Ahom Buranji; Sukaphaa Namrup'a varışı) — yalnız Vikipedi/derleme aktarımıyla görüldü, akademik gövde açılamadı; yeni çalışmalar 14. yy'a çeker (tartışmalı). f GENİŞLETİLMEDİ, kaynak bekliyor.", t:"1826-02-24", baskent:"Çaraideo → Rangpûr", harita:"ahom",
+  f:"1228-01-01", kesinlik:{ f:"yil" }, ic_not_f:"UMIT21 BOŞLUK-HİNT (22 Kasım 2026): künye f 1281-01-01 → 1228-01-01 GENİŞLETİLDİ (aynı polity sürüyor; CLAUDE.md künye aşımı). E. A. Gait, A History of Assam (Calcutta 1906; archive.org historyofassam0000edwa, tam metin yerelde okundu): «it is not until Sukapha became king in 1228 A.D. that they can be treated as historical records» ve «Sukapha, 1228 to 1268 A.D.» (başlık satırı). Yalnız YIL; gün teyitsiz; tek kaynak (ikinci akademik kaynak borç). Önceki not: ONCE1281 (18 Ekim 2026): geleneksel kuruluş 1228 (Ahom Buranji; Sukaphaa Namrup'a varışı) — yalnız Vikipedi/derleme aktarımıyla görüldü, akademik gövde açılamadı; yeni çalışmalar 14. yy'a çeker (tartışmalı). f GENİŞLETİLMEDİ, kaynak bekliyor.", t:"1826-02-24", baskent:"Çaraideo → Rangpûr", harita:"ahom",
   ozet:"Brahmaputra vadisinde altı yüzyıl süren, Bâbürlü seferlerini Saraighat'ta durdurmasıyla anılan Tai kökenli krallık; Birmanya istilâsından sonra İngiliz idaresine geçti. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
@@ -7605,7 +7605,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"yafna", ad:"Yafna (Jaffna) Krallığı", tur:"krallik", bolge:"guney-asya",
-  f:"1281-01-01", t:"1619-02-01", baskent:"Nallur", harita:"yafna",
+  f:"1280-01-01", kesinlik:{ f:"yil" }, ic_not_f:"UMIT21 BOŞLUK-HİNT (22 Kasım 2026): künye f 1281-01-01 → 1280-01-01 (ALT SINIR: okunan ilk tanık yılı; kuruluş daha eskidir: aşağıdaki kronoloji 1215 kuruluşunu anlatır, o yıl bu turda kaynakla OKUNMADI). Cambridge History of India III (1928; archive.org cambridgehistory03rapsuoft, yerelde okundu), s.562 ve Chronology: «Aryachakra- varti, who was then reigning in Jaffna, invaded the country» (Bhuvaneka-Bahu I'in 1279 ölümünden sonra) ve «1280 Removal of the Tooth-relic by Aryachakravarti of Jaffna». Tek kaynak.", t:"1619-02-01", baskent:"Nallur", harita:"yafna",
   ozet:"Seylan'ın kuzeyinde Tamil hânedanının kurduğu, inci ve fil ticaretiyle yaşayan krallık; Portekiz seferiyle ortadan kaldırıldı. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[

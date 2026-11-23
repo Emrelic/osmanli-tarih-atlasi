@@ -1,0 +1,579 @@
+{
+"ingiltere": [
+{
+"ad": "Norwich",
+"lat": 52.628,
+"lon": 1.297,
+"dosya": "yerlesimler_avrupa.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "2000-12-31",
+"sonraki": []
+},
+{
+"ad": "Bristol",
+"lat": 51.454,
+"lon": -2.588,
+"dosya": "yerlesimler_avrupa.js",
+"tur": "liman",
+"f": "1281-01-01",
+"t": "2000-12-31",
+"sonraki": []
+},
+{
+"ad": "Plymouth",
+"lat": 50.376,
+"lon": -4.143,
+"dosya": "yerlesimler_avrupa.js",
+"tur": "liman",
+"f": "1281-01-01",
+"t": "2000-12-31",
+"sonraki": []
+},
+{
+"ad": "Newcastle",
+"lat": 54.978,
+"lon": -1.617,
+"dosya": "yerlesimler_avrupa.js",
+"tur": "liman",
+"f": "1281-01-01",
+"t": "2000-12-31",
+"sonraki": []
+},
+{
+"ad": "Carlisle",
+"lat": 54.893,
+"lon": -2.933,
+"dosya": "yerlesimler_avrupa.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "2000-12-31",
+"sonraki": []
+},
+{
+"ad": "Nottingham",
+"lat": 52.951,
+"lon": -1.15,
+"dosya": "yerlesimler_avrupa.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "2000-12-31",
+"sonraki": []
+},
+{
+"ad": "Liverpool",
+"lat": 53.408,
+"lon": -2.992,
+"dosya": "yerlesimler_avrupa.js",
+"tur": "liman",
+"f": "1281-01-01",
+"t": "2000-12-31",
+"sonraki": []
+},
+{
+"ad": "Birmingham",
+"lat": 52.48,
+"lon": -1.903,
+"dosya": "yerlesimler_avrupa.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "2000-12-31",
+"sonraki": []
+},
+{
+"ad": "Hull",
+"lat": 53.745,
+"lon": -0.336,
+"dosya": "yerlesimler_avrupa.js",
+"tur": "liman",
+"f": "1281-01-01",
+"t": "2000-12-31",
+"sonraki": []
+},
+{
+"ad": "Shrewsbury",
+"lat": 52.708,
+"lon": -2.754,
+"dosya": "yerlesimler_avrupa.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "2000-12-31",
+"sonraki": []
+},
+{
+"ad": "Penzance",
+"lat": 50.119,
+"lon": -5.537,
+"dosya": "yerlesimler_avrupa.js",
+"tur": "liman",
+"f": "1281-01-01",
+"t": "2000-12-31",
+"sonraki": []
+},
+{
+"ad": "Aberystwyth",
+"lat": 52.4153,
+"lon": -4.0829,
+"dosya": "yerlesimler_avrupa.js",
+"tur": "kale",
+"f": "1281-01-01",
+"t": "1404-01-01",
+"sonraki": [
+[
+"s",
+"1404-01-01",
+"1408-01-01",
+"glyndwr-galler"
+],
+[
+"s",
+"1408-01-01",
+"2000-12-31",
+"ingiltere"
+]
+]
+},
+{
+"ad": "Dundalk",
+"lat": 54.005,
+"lon": -6.401,
+"dosya": "yerlesimler_avrupa.js",
+"tur": "liman",
+"f": "1281-01-01",
+"t": "1922-12-06",
+"sonraki": [
+[
+"s",
+"1922-12-06",
+"1937-12-29",
+"irlanda-serbest-devlet"
+],
+[
+"s",
+"1937-12-29",
+"2000-12-31",
+"irlanda-cumhuriyeti"
+]
+]
+},
+{
+"ad": "Drogheda",
+"lat": 53.715,
+"lon": -6.352,
+"dosya": "yerlesimler_avrupa.js",
+"tur": "liman",
+"f": "1281-01-01",
+"t": "1922-12-06",
+"sonraki": [
+[
+"s",
+"1922-12-06",
+"1937-12-29",
+"irlanda-serbest-devlet"
+],
+[
+"s",
+"1937-12-29",
+"2000-12-31",
+"irlanda-cumhuriyeti"
+]
+]
+},
+{
+"ad": "Mullingar",
+"lat": 53.526,
+"lon": -7.341,
+"dosya": "yerlesimler_avrupa.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "1922-12-06",
+"sonraki": [
+[
+"s",
+"1922-12-06",
+"1937-12-29",
+"irlanda-serbest-devlet"
+],
+[
+"s",
+"1937-12-29",
+"2000-12-31",
+"irlanda-cumhuriyeti"
+]
+]
+}
+],
+"iskocya": [
+{
+"ad": "Edinburg",
+"lat": 55.953,
+"lon": -3.189,
+"dosya": "yerlesimler.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "1296-01-01",
+"sonraki": [
+[
+"s",
+"1296-01-01",
+"1314-03-14",
+"ingiltere"
+],
+[
+"s",
+"1314-03-14",
+"1335-01-01",
+"iskocya"
+]
+]
+},
+{
+"ad": "Douglas (Man)",
+"lat": 54.15,
+"lon": -4.482,
+"dosya": "yerlesimler_avrupa.js",
+"tur": "liman",
+"f": "1281-01-01",
+"t": "1399-10-19",
+"sonraki": [
+[
+"s",
+"1399-10-19",
+"1765-05-10",
+"ingiltere"
+],
+[
+"s",
+"1765-05-10",
+"2000-12-31",
+"man-adasi"
+]
+]
+},
+{
+"ad": "Berwick-upon-Tweed",
+"lat": 55.7715,
+"lon": -2.0031,
+"dosya": "yerlesimler_avrupa.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "1296-01-01",
+"sonraki": [
+[
+"s",
+"1296-01-01",
+"1318-01-01",
+"ingiltere"
+],
+[
+"s",
+"1318-01-01",
+"1333-07-20",
+"iskocya"
+]
+]
+},
+{
+"ad": "Glasgow",
+"lat": 55.861,
+"lon": -4.25,
+"dosya": "yerlesimler_avrupa.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "1652-02-14",
+"sonraki": [
+[
+"s",
+"1652-02-14",
+"1660-06-08",
+"ingiltere"
+],
+[
+"s",
+"1660-06-08",
+"1707-05-12",
+"iskocya"
+]
+]
+},
+{
+"ad": "Aberdeen",
+"lat": 57.15,
+"lon": -2.094,
+"dosya": "yerlesimler_avrupa.js",
+"tur": "liman",
+"f": "1281-01-01",
+"t": "1652-02-14",
+"sonraki": [
+[
+"s",
+"1652-02-14",
+"1660-06-08",
+"ingiltere"
+],
+[
+"s",
+"1660-06-08",
+"1707-05-12",
+"iskocya"
+]
+]
+},
+{
+"ad": "Inverness",
+"lat": 57.478,
+"lon": -4.225,
+"dosya": "yerlesimler_avrupa.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "1652-02-14",
+"sonraki": [
+[
+"s",
+"1652-02-14",
+"1660-06-08",
+"ingiltere"
+],
+[
+"s",
+"1660-06-08",
+"1707-05-12",
+"iskocya"
+]
+]
+},
+{
+"ad": "Perth (İskoçya)",
+"lat": 56.396,
+"lon": -3.437,
+"dosya": "yerlesimler_avrupa.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "1652-02-14",
+"sonraki": [
+[
+"s",
+"1652-02-14",
+"1660-06-08",
+"ingiltere"
+],
+[
+"s",
+"1660-06-08",
+"1707-05-12",
+"iskocya"
+]
+]
+},
+{
+"ad": "Dumfries",
+"lat": 55.07,
+"lon": -3.603,
+"dosya": "yerlesimler_avrupa.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "1652-02-14",
+"sonraki": [
+[
+"s",
+"1652-02-14",
+"1660-06-08",
+"ingiltere"
+],
+[
+"s",
+"1660-06-08",
+"1707-05-12",
+"iskocya"
+]
+]
+},
+{
+"ad": "Wick",
+"lat": 58.439,
+"lon": -3.093,
+"dosya": "yerlesimler_avrupa.js",
+"tur": "liman",
+"f": "1281-01-01",
+"t": "1707-05-12",
+"sonraki": [
+[
+"s",
+"1707-05-12",
+"2000-12-31",
+"ingiltere"
+]
+]
+},
+{
+"ad": "Stornoway",
+"lat": 58.2111,
+"lon": -6.387,
+"dosya": "yerlesimler_avrupa.js",
+"tur": "liman",
+"f": "1281-01-01",
+"t": "1707-05-12",
+"sonraki": [
+[
+"s",
+"1707-05-12",
+"2000-12-31",
+"ingiltere"
+]
+]
+}
+],
+"irlanda": [
+{
+"ad": "Ennis",
+"lat": 52.844,
+"lon": -8.984,
+"dosya": "yerlesimler_avrupa.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "1603-04-09",
+"sonraki": [
+[
+"s",
+"1603-04-09",
+"1922-12-06",
+"ingiltere"
+],
+[
+"s",
+"1922-12-06",
+"1937-12-29",
+"irlanda-serbest-devlet"
+]
+]
+},
+{
+"ad": "Castlebar",
+"lat": 53.857,
+"lon": -9.298,
+"dosya": "yerlesimler_avrupa.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "1603-04-09",
+"sonraki": [
+[
+"s",
+"1603-04-09",
+"1922-12-06",
+"ingiltere"
+],
+[
+"s",
+"1922-12-06",
+"1937-12-29",
+"irlanda-serbest-devlet"
+]
+]
+},
+{
+"ad": "Tuam",
+"lat": 53.515,
+"lon": -8.851,
+"dosya": "yerlesimler_avrupa.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "1603-04-09",
+"sonraki": [
+[
+"s",
+"1603-04-09",
+"1922-12-06",
+"ingiltere"
+],
+[
+"s",
+"1922-12-06",
+"1937-12-29",
+"irlanda-serbest-devlet"
+]
+]
+},
+{
+"ad": "Monaghan",
+"lat": 54.249,
+"lon": -6.969,
+"dosya": "yerlesimler_avrupa.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "1603-04-09",
+"sonraki": [
+[
+"s",
+"1603-04-09",
+"1922-12-06",
+"ingiltere"
+],
+[
+"s",
+"1922-12-06",
+"1937-12-29",
+"irlanda-serbest-devlet"
+]
+]
+},
+{
+"ad": "Armagh",
+"lat": 54.348,
+"lon": -6.654,
+"dosya": "yerlesimler_avrupa.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "1603-04-09",
+"sonraki": [
+[
+"s",
+"1603-04-09",
+"2000-12-31",
+"ingiltere"
+]
+]
+},
+{
+"ad": "Newry",
+"lat": 54.178,
+"lon": -6.338,
+"dosya": "yerlesimler_avrupa.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "1603-04-09",
+"sonraki": [
+[
+"s",
+"1603-04-09",
+"2000-12-31",
+"ingiltere"
+]
+]
+}
+],
+"orkney-kontlugu": [
+{
+"ad": "Lerwick (Shetland)",
+"lat": 60.153,
+"lon": -1.145,
+"dosya": "yerlesimler_avrupa.js",
+"tur": "liman",
+"f": "1281-01-01",
+"t": "1472-02-20",
+"sonraki": [
+[
+"s",
+"1472-02-20",
+"1707-05-12",
+"iskocya"
+],
+[
+"s",
+"1707-05-12",
+"2000-12-31",
+"ingiltere"
+]
+]
+}
+]
+}

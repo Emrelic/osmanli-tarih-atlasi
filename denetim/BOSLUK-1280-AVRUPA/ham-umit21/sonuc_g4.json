@@ -1,0 +1,483 @@
+[
+ {
+  "ad": "Avlonya",
+  "durum": "SAHIPLI",
+  "sahip_1280": "sicilya-kralligi",
+  "yeni_kunye": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "uyum": "atlas sonraki: napoli 1282-03-30..1284, sonra bizans; Kiesewetter 1282 sonrası boşaltma ile kısmen uyumlu, tarih teyitsiz",
+  "kaynak": [
+   {
+    "kunye": "A History of Frankish Greece (1204-1566), bölüm VI 'The Angevins in Greece (1278-1307)' (sayfada yazar adı yok; W. Miller'in Latins in the Levant/Frankish Greece metni olduğu varsayımı, doğrulanmadı)",
+    "url": "https://cristoraul.org/ENGLISH/readinghall/THIRDMILLENNIUMLIBRARY/MEDIEVAL-HISTORY/1-The-Latins-in-the-Levant/C6-THE-ANGEVINS-IN-GREECE_1278-1307.html",
+    "alinti": "the harbour of Valona and the castle of Butrinto alone remained to the Angevins in Epiros."
+   },
+   {
+    "kunye": "Treccani, Dizionario Biografico, 'Carlo I d'Angiò, re di Sicilia' (metnin ilk 100.000 karakteri okundu)",
+    "url": "https://www.treccani.it/enciclopedia/carlo-i-d-angio-re-di-sicilia_(Dizionario-Biografico)/",
+    "alinti": "Hugo le Rousseau de Sully organizzò le truppe angioine in Albania"
+   }
+  ],
+  "teyit": "tek kaynak (Miller metni + Treccani dolaylı)",
+  "not": "Miller: Vlorë limanı Anjou'da kaldı (1280'lerde). Edinme günü bulunamadı (Kiesewetter özeti Valona'yı anmıyor). Vikipedi->Nicol 2010 s.27: 1281'de kuşatıldı, alınamadı (yalnız ipucu). Atlas 1284'te bizans diyor; Kiesewetter 'Butrint dışında hepsi 1282 sonrası boşaltıldı' diyor, Nicol/Vikipedi Kanina 1294 diyor: çıkış tarihi çelişkili, CELISKI olabilir. Anjou Krallığı 1280'de hem ada hem anakarayı kapsar; devletler.js'te sicilya-kralligi t=1282-03-30, napoli f=1282-03-30 (aynı devlet silsilesi). "
+ },
+ {
+  "ad": "Kanina",
+  "durum": "SAHIPLI",
+  "sahip_1280": "sicilya-kralligi",
+  "yeni_kunye": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "uyum": "farklı olabilir: Nicol'a göre Anjou 1294'e kadar; atlas 1284'te bizans",
+  "kaynak": [
+   {
+    "kunye": "Andreas Kiesewetter, L'acquisto e l'occupazione del litorale meridionale dell'Albania da parte di re Carlo I d'Angiò (1279-1283), Palaver 4 n.s./1, 2015 (yalnız özet sayfası okundu; tam metin OKUNMADI)",
+    "url": "https://ese-journals.unisalento.it/index.php/palaver/article/view/14823",
+    "alinti": null
+   },
+   {
+    "kunye": "Treccani, Dizionario Biografico, 'Carlo I d'Angiò, re di Sicilia' (metnin ilk 100.000 karakteri okundu)",
+    "url": "https://www.treccani.it/enciclopedia/carlo-i-d-angio-re-di-sicilia_(Dizionario-Biografico)/",
+    "alinti": "Hugo le Rousseau de Sully organizzò le truppe angioine in Albania"
+   }
+  ],
+  "teyit": "tek kaynak (zayıf: dolaylı)",
+  "not": "Vikipedi->Nicol 2010 s.28: 'Kaninë 1281'de Sully ordusu artıklarının sığınağı, Bizans'a düşen son Anjou kalesi (muhtemelen 1294)' (yalnız ipucu; Nicol OKUNMADI). Atlas 1284 bizans diyor; 1294 doğruysa atlas düzelmeli: CELISKI adayı. Edinme günü bulunamadı. Anjou Krallığı 1280'de hem ada hem anakarayı kapsar; devletler.js'te sicilya-kralligi t=1282-03-30, napoli f=1282-03-30 (aynı devlet silsilesi). "
+ },
+ {
+  "ad": "Hımara (Himara)",
+  "durum": "SAHIPLI",
+  "sahip_1280": "sicilya-kralligi",
+  "yeni_kunye": null,
+  "baslangic": "1279",
+  "baslangic_hassasiyet": "yil",
+  "bitis": "1284-01-01",
+  "uyum": "atlas sonraki: napoli 1282-03-30..1284-01-01 sonra bizans; Kiesewetter 'boşaltıldı 1282 sonrası' ile makul uyumlu, ay/gün teyitsiz",
+  "kaynak": [
+   {
+    "kunye": "Andreas Kiesewetter, L'acquisto e l'occupazione del litorale meridionale dell'Albania da parte di re Carlo I d'Angiò (1279-1283), Palaver 4 n.s./1, 2015 (yalnız özet sayfası okundu; tam metin OKUNMADI)",
+    "url": "https://ese-journals.unisalento.it/index.php/palaver/article/view/14823",
+    "alinti": null
+   }
+  ],
+  "teyit": "tek kaynak",
+  "not": "Kiesewetter özeti: Despot Nikephoros 1279'da (Nisan) antlaşmayla Himarë dâhil kıyı kalelerini Charles'a devretti; 1282 sonrası boşaltıldı. Özet sayfası okundu, tam metin ve birebir cümle YOK. Anjou Krallığı 1280'de hem ada hem anakarayı kapsar; devletler.js'te sicilya-kralligi t=1282-03-30, napoli f=1282-03-30 (aynı devlet silsilesi). "
+ },
+ {
+  "ad": "Mat (Mati)",
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "yeni_kunye": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "uyum": "atlas sonraki: napoli 1282, bizans 1284: Mat'ın Anjou'ya geçişi kaynaksız",
+  "kaynak": [],
+  "teyit": "yok",
+  "not": "Anjou/Epir/Bizans paylaşımında Mat'ı 1280'e bağlayan kaynak okunmadı (Kiesewetter özeti ve Miller bölümü Mat'ı anmıyor; Vikipedi Kingdom of Albania makalesi anmıyor). Atlasın napoli 1282 iddiası destek bulmadı: şüpheli. Denenmedi: Nicol Despotate of Epiros under the Angevins, Ducellier. Muhtemelen iç bölge Bizans/yerel (Arbër) - TEYITSIZ."
+ },
+ {
+  "ad": "Tepedelen",
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "yeni_kunye": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "uyum": "atlas sonraki: napoli 1282: kaynaksız",
+  "kaynak": [],
+  "teyit": "yok",
+  "not": "Vikipedi->Nicol: Berat 1274'ten beri Bizans; Tepelenë iç Epir sınırında. Anjou elinde olduğuna dair kaynak YOK; atlasın napoli 1282-84 kaydı şüpheli. Tepelenë'nin 1280 sahibi (Bizans/Epir Despotluğu) tarihî okunmadı."
+ },
+ {
+  "ad": "Ayamavra (Lefkada)",
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "yeni_kunye": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "uyum": "belirsiz",
+  "kaynak": [
+   {
+    "kunye": "A History of Frankish Greece (1204-1566), bölüm VI 'The Angevins in Greece (1278-1307)' (sayfada yazar adı yok; W. Miller'in Latins in the Levant/Frankish Greece metni olduğu varsayımı, doğrulanmadı)",
+    "url": "https://cristoraul.org/ENGLISH/readinghall/THIRDMILLENNIUMLIBRARY/MEDIEVAL-HISTORY/1-The-Latins-in-the-Levant/C6-THE-ANGEVINS-IN-GREECE_1278-1307.html",
+    "alinti": "The Orsini had tightened their hold over their county palatine in the Ionian Sea"
+   }
+  ],
+  "teyit": "yok",
+  "not": "Lefkada'nın Orsini'ye ne zaman geçtiği okunmadı (Miller: Charles II John'a 'Lettorna'/Santa Maura'da kale izni verdi, sonraki dönem). 1280 sahibi: büyük olasılıkla Kefalonya Palatin Kontluğu (Orsini) ya da Anjou Epiros/Achaea-bağlı: TEYITSIZ."
+ },
+ {
+  "ad": "Kefalonya",
+  "durum": "SAHIPLI",
+  "sahip_1280": "kefalonya-palatin",
+  "yeni_kunye": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "uyum": "farklı: atlas 1282'de napoli diyor; sahip kefalonya-palatin (Anjou vassalı)",
+  "kaynak": [
+   {
+    "kunye": "A History of Frankish Greece (1204-1566), bölüm VI 'The Angevins in Greece (1278-1307)' (sayfada yazar adı yok; W. Miller'in Latins in the Levant/Frankish Greece metni olduğu varsayımı, doğrulanmadı)",
+    "url": "https://cristoraul.org/ENGLISH/readinghall/THIRDMILLENNIUMLIBRARY/MEDIEVAL-HISTORY/1-The-Latins-in-the-Levant/C6-THE-ANGEVINS-IN-GREECE_1278-1307.html",
+    "alinti": "the harbour of Valona and the castle of Butrinto alone remained to the Angevins in Epiros."
+   },
+   {
+    "kunye": "A History of Frankish Greece (1204-1566), bölüm VI 'The Angevins in Greece (1278-1307)' (sayfada yazar adı yok; W. Miller'in Latins in the Levant/Frankish Greece metni olduğu varsayımı, doğrulanmadı)",
+    "url": "https://cristoraul.org/ENGLISH/readinghall/THIRDMILLENNIUMLIBRARY/MEDIEVAL-HISTORY/1-The-Latins-in-the-Levant/C6-THE-ANGEVINS-IN-GREECE_1278-1307.html",
+    "alinti": "The Orsini had tightened their hold over their county palatine in the Ionian Sea"
+   }
+  ],
+  "teyit": "tek kaynak (Miller metni)",
+  "not": "Kont Palatin Richard Orsini (devletler.js: kefalonya-palatin) Charles I'in vassalı: Miller'de 'Charles was overlord of Richard of Cephalonia, ... Count Palatine' (dolaylı aktarım, birebir yalnız yukarıdaki iki cümle). Anjou üstünlüğü: sahip kontluk, üst hükümdar sicilya-kralligi. Atlas napoli diyor: kontluk 1325'e (hatta 1335) kadar ayrı kurumdur: atlas düzelmeli. Başlangıç künyeden (1194) ama bu kaynakta doğrulanmadı."
+ },
+ {
+  "ad": "İthaki",
+  "durum": "SAHIPLI",
+  "sahip_1280": "kefalonya-palatin",
+  "yeni_kunye": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "uyum": "farklı: atlas napoli diyor",
+  "kaynak": [
+   {
+    "kunye": "A History of Frankish Greece (1204-1566), bölüm VI 'The Angevins in Greece (1278-1307)' (sayfada yazar adı yok; W. Miller'in Latins in the Levant/Frankish Greece metni olduğu varsayımı, doğrulanmadı)",
+    "url": "https://cristoraul.org/ENGLISH/readinghall/THIRDMILLENNIUMLIBRARY/MEDIEVAL-HISTORY/1-The-Latins-in-the-Levant/C6-THE-ANGEVINS-IN-GREECE_1278-1307.html",
+    "alinti": "The Orsini had tightened their hold over their county palatine in the Ionian Sea"
+   }
+  ],
+  "teyit": "tek kaynak (zayıf)",
+  "not": "İthaki'nin Kefalonya-Zakintos Palatin Kontluğu'na bağlılığı Miller sayfasında açık okunmadı; kontluk adı (Kefalonya-Zakintos) ve abi merkez Kefalonya ile verildi. ABİ MERKEZ: Kefalonya (kontluk merkezi) - bağ: devletler.js kefalonya-palatin tanımı. Kaynakla İthaki'yi anan cümle YOK."
+ },
+ {
+  "ad": "Zaklise (Zakynthos)",
+  "durum": "SAHIPLI",
+  "sahip_1280": "kefalonya-palatin",
+  "yeni_kunye": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "uyum": "farklı: atlas napoli diyor",
+  "kaynak": [
+   {
+    "kunye": "A History of Frankish Greece (1204-1566), bölüm VI 'The Angevins in Greece (1278-1307)' (sayfada yazar adı yok; W. Miller'in Latins in the Levant/Frankish Greece metni olduğu varsayımı, doğrulanmadı)",
+    "url": "https://cristoraul.org/ENGLISH/readinghall/THIRDMILLENNIUMLIBRARY/MEDIEVAL-HISTORY/1-The-Latins-in-the-Levant/C6-THE-ANGEVINS-IN-GREECE_1278-1307.html",
+    "alinti": "The Orsini had tightened their hold over their county palatine in the Ionian Sea"
+   }
+  ],
+  "teyit": "tek kaynak (zayıf)",
+  "not": "Kontluğun adı Kefalonya-Zakintos Palatin Kontluğu (devletler.js ve arama çıktısı); Miller bu bölümde Zante'yi anmıyor. Açık Zakynthos cümlesi YOK."
+ },
+ {
+  "ad": "Paksos (Paxos)",
+  "durum": "SAHIPLI",
+  "sahip_1280": "sicilya-kralligi",
+  "yeni_kunye": null,
+  "baslangic": "1267",
+  "baslangic_hassasiyet": "yil",
+  "bitis": "1386-01-01",
+  "uyum": "atlas sonraki: napoli..1386 sonra venedik: Korfu zinciriyle uyumlu (Butrint/Korfu Venedik 1386 Kiesewetter)",
+  "kaynak": [
+   {
+    "kunye": "A History of Frankish Greece (1204-1566), bölüm XV 'Corfu (1214-1485)' (yazar sayfada yok)",
+    "url": "https://cristoraul.org/ENGLISH/readinghall/THIRDMILLENNIUMLIBRARY/MEDIEVAL-HISTORY/1-The-Latins-in-the-Levant/C15-CORFU_1214-1485.html",
+    "alinti": "Thus, in 1267, began the Angevin domination over Corfu."
+   }
+  ],
+  "teyit": "abi merkez (tek kaynak)",
+  "not": "ABİ MERKEZ: Korfu - Miller XV: Paxos'un Korfu bağlamında Verona'lı Filippo Malerba'ya ait olduğu ('the grant of the island of Paxo, which had belonged to Filippo Malerba of Verona', ~1380 bağlamı). Korfu 1267'den Anjou. Paxos'un 1280'de doğrudan Anjou'da olduğu birebir doğrulanmadı."
+ },
+ {
+  "ad": "Pantelleria",
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "yeni_kunye": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "uyum": "belirsiz",
+  "kaynak": [],
+  "teyit": "yok",
+  "not": "Sicilya adası parçası olarak 1280'de Anjou Krallığı (sicilya-kralligi) beklenir; Pantelleria'yı anan kaynak okunmadı. Atlas __BOSLUK__ 1282-1302 (Aragon 1302 öncesi): ayrı borç. Denenmedi: Treccani Pantelleria."
+ },
+ {
+  "ad": "L'Aquila",
+  "durum": "SAHIPLI",
+  "sahip_1280": "sicilya-kralligi",
+  "yeni_kunye": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "uyum": "napoli ile aynı silsile; kırılma 1282-03-30 yalnız isim değişimi",
+  "kaynak": [
+   {
+    "kunye": "Treccani, Dizionario Biografico, 'Carlo I d'Angiò, re di Sicilia' (metnin ilk 100.000 karakteri okundu)",
+    "url": "https://www.treccani.it/enciclopedia/carlo-i-d-angio-re-di-sicilia_(Dizionario-Biografico)/",
+    "alinti": "Hugo le Rousseau de Sully organizzò le truppe angioine in Albania"
+   }
+  ],
+  "teyit": "tek kaynak (zayıf: dolaylı)",
+  "not": "Treccani Carlo I maddesi L'Aquila'yı Anjou güzergâhında anıyor (Charles 1268'de 'attraverso L'Aquila e Chieti verso la Puglia'), sahipliği açık yazmıyor. Kuruluş/Anjou yeniden iskân kaynağı OKUNMADI (Treccani L'Aquila sayfası alınamadı). 1280'de Regno di Sicilia (Abruzzo) genel kabul; tam kaynak borç."
+ },
+ {
+  "ad": "Foggia",
+  "durum": "SAHIPLI",
+  "sahip_1280": "sicilya-kralligi",
+  "yeni_kunye": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "uyum": "napoli ile aynı silsile",
+  "kaynak": [
+   {
+    "kunye": "Treccani, Dizionario Biografico, 'Carlo I d'Angiò, re di Sicilia' (metnin ilk 100.000 karakteri okundu)",
+    "url": "https://www.treccani.it/enciclopedia/carlo-i-d-angio-re-di-sicilia_(Dizionario-Biografico)/",
+    "alinti": "Hugo le Rousseau de Sully organizzò le truppe angioine in Albania"
+   }
+  ],
+  "teyit": "tek kaynak (zayıf: dolaylı)",
+  "not": "Foggia (Capitanata) Treccani Carlo I metninde ilk 100k karakterde anılmıyor; Anjou Regno anakara parçası. Doğrudan kaynak OKUNMADI."
+ },
+ {
+  "ad": "Aosta",
+  "durum": "SAHIPLI",
+  "sahip_1280": "savoya",
+  "yeni_kunye": null,
+  "baslangic": "1031",
+  "baslangic_hassasiyet": "yil",
+  "bitis": null,
+  "uyum": "atlas sonraki: savoya 1720'ye kadar: uyumlu",
+  "kaynak": [],
+  "teyit": "tek kaynak (zayıf: arama özeti)",
+  "not": "Savoy: Britannica/Treccani Savoia sayfaları 403/boş döndü; Savoy kaynakları okunamadı. Arama özeti (Scrineum, fupress; tam metin OKUNMADI): kontun vadi üzerindeki yetki sınırları 1191'de Savoia-piskoposluk antlaşmasıyla belirlendi; Vikipedi ipucu: Humbert I 1031-32'de Aosta kontluğunu aldı. Birebir cümle YOK."
+ },
+ {
+  "ad": "Bourg-Saint-Maurice",
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "yeni_kunye": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "uyum": "belirsiz",
+  "kaynak": [],
+  "teyit": "yok",
+  "not": "Savoy: Britannica/Treccani Savoia sayfaları 403/boş döndü; Savoy kaynakları okunamadı. Tarentaise: 1280'de Savoya Kontluğu/Tarentaise başpiskoposu (dünyevî yetki) ayrımı okunmadı."
+ },
+ {
+  "ad": "Martigny (Martinach)",
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "yeni_kunye": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "uyum": "belirsiz",
+  "kaynak": [],
+  "teyit": "yok",
+  "not": "Savoy: Britannica/Treccani Savoia sayfaları 403/boş döndü; Savoy kaynakları okunamadı. Aşağı Valais'de Savoya (Pierre II 1260'lar) ile Sion piskoposu arası 1280 durumu okunmadı. Atlas 1475'te isvicre diyor."
+ },
+ {
+  "ad": "Thonon",
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "yeni_kunye": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "uyum": "belirsiz",
+  "kaynak": [],
+  "teyit": "yok",
+  "not": "Savoy: Britannica/Treccani Savoia sayfaları 403/boş döndü; Savoy kaynakları okunamadı. Chablais'in Thonon'u 13. yy'da Savoya elinde olduğu bilinir ama kaynak okunmadı."
+ },
+ {
+  "ad": "Annemasse",
+  "durum": "CELISKI",
+  "sahip_1280": null,
+  "yeni_kunye": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "uyum": "farklı olabilir: Faucigny/Dauphiné",
+  "kaynak": [],
+  "teyit": "yok",
+  "not": "Savoy: Britannica/Treccani Savoia sayfaları 403/boş döndü; Savoy kaynakları okunamadı. Annemasse 1280'de Faucigny baronluğu (Dauphiné bağlı; Savoya 1355'e kadar almadı) olabilir: ipucu, kaynak OKUNMADI. Atlasın savoya iddiası şüpheli."
+ },
+ {
+  "ad": "Hradec Králové",
+  "durum": "SAHIPLI",
+  "sahip_1280": "bohemya",
+  "yeni_kunye": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "uyum": "atlas sonraki: avusturya 1526: uyumlu (Habsburg)",
+  "kaynak": [
+   {
+    "kunye": "Treccani, Enciclopedia Italiana, 'Boemia'",
+    "url": "https://www.treccani.it/enciclopedia/boemia_(Enciclopedia-Italiana)/",
+    "alinti": "Venceslao II (1278-1305; v.), salito al trono nel 1283 dopo l'infelice periodo di reggenza di Ottone di Brandeburgo"
+   }
+  ],
+  "teyit": "tek kaynak",
+  "not": "Bohemya Krallığı (devletler.js bohemya; künye 1198 Treccani 'corona regia ereditaria (1198)') 1280'de II. Venceslao (1278'den; 1283'e dek Ottone di Brandeburgo naipliği). Hradec Králové Bohemya çekirdeğinde kraliyet kenti; doğrudan şehir cümlesi okunmadı."
+ },
+ {
+  "ad": "Glatz (Kłodzko)",
+  "durum": "SAHIPLI",
+  "sahip_1280": "bohemya",
+  "yeni_kunye": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "uyum": "uyumlu",
+  "kaynak": [
+   {
+    "kunye": "Treccani, Enciclopedia Italiana, 'Boemia'",
+    "url": "https://www.treccani.it/enciclopedia/boemia_(Enciclopedia-Italiana)/",
+    "alinti": "la Boemia perdette, con la pace di Breslavia, la regione di Glatz e la maggior parte della Slesia"
+   }
+  ],
+  "teyit": "tek kaynak",
+  "not": "Bohemya Krallığı (devletler.js bohemya; künye 1198 Treccani 'corona regia ereditaria (1198)') 1280'de II. Venceslao (1278'den; 1283'e dek Ottone di Brandeburgo naipliği). Treccani: Glatz bölgesi Bohemya tacında 1742'ye dek (Breslau Barışı). Atlas t=1526 avusturya, 1742 prusya: uyumlu. Başlangıç günü okunmadı."
+ },
+ {
+  "ad": "Broumov (Braunau)",
+  "durum": "SAHIPLI",
+  "sahip_1280": "bohemya",
+  "yeni_kunye": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "uyum": "uyumlu",
+  "kaynak": [
+   {
+    "kunye": "Treccani, Enciclopedia Italiana, 'Boemia'",
+    "url": "https://www.treccani.it/enciclopedia/boemia_(Enciclopedia-Italiana)/",
+    "alinti": "Ottocaro II riesce a comprendere in un grande ma effimero stato i paesi boemi"
+   }
+  ],
+  "teyit": "tek kaynak (zayıf: genel)",
+  "not": "Bohemya Krallığı (devletler.js bohemya; künye 1198 Treccani 'corona regia ereditaria (1198)') 1280'de II. Venceslao (1278'den; 1283'e dek Ottone di Brandeburgo naipliği). Kuzeydoğu Bohemya, Benedikten manastırı toprağı olarak Bohemya içinde; şehre özgü kaynak okunmadı."
+ },
+ {
+  "ad": "Jeseník (Freiwaldau)",
+  "durum": "CELISKI",
+  "sahip_1280": null,
+  "yeni_kunye": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "uyum": "farklı olabilir: Breslau piskoposluk toprağı",
+  "kaynak": [],
+  "teyit": "yok",
+  "not": "Jeseník 1280'de Breslau (Wrocław) piskoposluğunun Nysa-Otmuchów dükalığı (Silezya) içinde olabilir; Bohemya iddiası şüpheli. Kaynak OKUNMADI."
+ },
+ {
+  "ad": "Opava (Troppau)",
+  "durum": "SAHIPLI",
+  "sahip_1280": "bohemya",
+  "yeni_kunye": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "uyum": "uyumlu; Nicholas I Přemyslid yan kolu, Bohemya vasalı",
+  "kaynak": [
+   {
+    "kunye": "Treccani, Enciclopedia Italiana, 'Boemia'",
+    "url": "https://www.treccani.it/enciclopedia/boemia_(Enciclopedia-Italiana)/",
+    "alinti": "costringendo i principi della Slesia a riconoscere la supremazia della Boemia"
+   }
+  ],
+  "teyit": "tek kaynak (zayıf)",
+  "not": "Bohemya Krallığı (devletler.js bohemya; künye 1198 Treccani 'corona regia ereditaria (1198)') 1280'de II. Venceslao (1278'den; 1283'e dek Ottone di Brandeburgo naipliği). Opava: Ottokar II'nin gayrimeşru oğlu Nicholas I 1269'dan 'Opava lordu' (arama özeti, Vikipedi/şehir sitesi; akademik değil). Opava Moravya'dan ayrılmış, Bohemya tacına bağlı. 1318'de dükalık (Bohemya fief'i)."
+ },
+ {
+  "ad": "Ostrava (Mährisch Ostrau)",
+  "durum": "BULUNAMADI",
+  "sahip_1280": null,
+  "yeni_kunye": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "uyum": "belirsiz",
+  "kaynak": [],
+  "teyit": "yok",
+  "not": "Ostrava 1280'de Moravya içinde (Olomouc piskoposluğu/Opava çevresi?) belirsiz; kaynak okunmadı. Bohemya tacı toprağı olma ihtimali yüksek."
+ },
+ {
+  "ad": "Karviná (Fryštát)",
+  "durum": "CELISKI",
+  "sahip_1280": null,
+  "yeni_kunye": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "uyum": "farklı olabilir: silezya-piast",
+  "kaynak": [],
+  "teyit": "yok",
+  "not": "Arama özeti (Vikipedi, ipucu): Fryštát Cieszyn Dükalığı'nda (1290'da oluştu, Piast); 1280'de Opole-Racibórz Piast dükalığı (silezya-piast id'si var) beklenir. Atlasın bohemya iddiası şüpheli. Kaynak OKUNMADI."
+ },
+ {
+  "ad": "České Budějovice (Budweis)",
+  "durum": "SAHIPLI",
+  "sahip_1280": "bohemya",
+  "yeni_kunye": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "uyum": "uyumlu",
+  "kaynak": [
+   {
+    "kunye": "Treccani, Enciclopedia Italiana, 'Boemia'",
+    "url": "https://www.treccani.it/enciclopedia/boemia_(Enciclopedia-Italiana)/",
+    "alinti": "Ottocaro II riesce a comprendere in un grande ma effimero stato i paesi boemi"
+   }
+  ],
+  "teyit": "tek kaynak (zayıf: genel)",
+  "not": "Bohemya Krallığı (devletler.js bohemya; künye 1198 Treccani 'corona regia ereditaria (1198)') 1280'de II. Venceslao (1278'den; 1283'e dek Ottone di Brandeburgo naipliği). Kuruluş (1265, Otakar II) kaynağı okunmadı: 1280'de var mıydı sorusu teyitsiz (Vikipedi ipucu). Kraliyet kenti."
+ },
+ {
+  "ad": "Třeboň (Wittingau)",
+  "durum": "SAHIPLI",
+  "sahip_1280": "bohemya",
+  "yeni_kunye": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "uyum": "uyumlu",
+  "kaynak": [
+   {
+    "kunye": "Treccani, Enciclopedia Italiana, 'Boemia'",
+    "url": "https://www.treccani.it/enciclopedia/boemia_(Enciclopedia-Italiana)/",
+    "alinti": "Ottocaro II riesce a comprendere in un grande ma effimero stato i paesi boemi"
+   }
+  ],
+  "teyit": "tek kaynak (zayıf: genel)",
+  "not": "Bohemya Krallığı (devletler.js bohemya; künye 1198 Treccani 'corona regia ereditaria (1198)') 1280'de II. Venceslao (1278'den; 1283'e dek Ottone di Brandeburgo naipliği). Třeboň Rožmberk (Vítkovci) lordlarının mülkü, Bohemya tacına bağlı; Třeboň şehir kuruluşu (13. yy) kaynağı okunmadı."
+ },
+ {
+  "ad": "Nice",
+  "durum": "SAHIPLI",
+  "sahip_1280": "provence-kontlugu",
+  "yeni_kunye": null,
+  "baslangic": null,
+  "baslangic_hassasiyet": null,
+  "bitis": null,
+  "uyum": "atlas sonraki: savoya 1388-09-28: Treccani 'Signoria dei Savoia dal 1388' ile uyumlu, gün teyitsiz",
+  "kaynak": [
+   {
+    "kunye": "Treccani, 'Nizza'",
+    "url": "https://www.treccani.it/enciclopedia/nizza/",
+    "alinti": "entrò a far parte della contea di Provenza"
+   }
+  ],
+  "teyit": "tek kaynak",
+  "not": "Treccani: Nice Provence Kontluğu'na dâhil, 1388'den Savoya lordluğu (atlas t=1388-09-28 uyumlu). 1280'de kont Charles I d'Anjou (atlas kronolojisi 1246 evliliği, kaynak rialto.unina.it OKUNMADI). Edinme günü bulunamadı: Nice'in Charles'a tabi oluş tarihi okunmadı (1250'lerde komün)"
+ }
+]

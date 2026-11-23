@@ -1,0 +1,654 @@
+{
+"sicilya-kralligi": [
+{
+"ad": "Avlonya",
+"lat": 40.466,
+"lon": 19.489,
+"dosya": "yerlesimler.js",
+"tur": "liman",
+"f": "1281-01-01",
+"t": "1282-03-30",
+"sonraki": [
+[
+"s",
+"1282-03-30",
+"1284-01-01",
+"napoli"
+],
+[
+"s",
+"1284-01-01",
+"1345-01-01",
+"bizans"
+]
+]
+},
+{
+"ad": "Ayamavra (Lefkada)",
+"lat": 38.716,
+"lon": 20.643,
+"dosya": "yerlesimler.js",
+"tur": "kale",
+"f": "1281-01-01",
+"t": "1282-03-30",
+"sonraki": [
+[
+"s",
+"1282-03-30",
+"1479-08-01",
+"napoli"
+],
+[
+"d",
+"1479-08-01",
+"1684-08-06",
+null
+]
+]
+},
+{
+"ad": "Kefalonya",
+"lat": 38.227,
+"lon": 20.575,
+"dosya": "yerlesimler.js",
+"tur": "kale",
+"f": "1281-01-01",
+"t": "1282-03-30",
+"sonraki": [
+[
+"s",
+"1282-03-30",
+"1479-08-01",
+"napoli"
+],
+[
+"d",
+"1479-08-01",
+"1500-12-24",
+null
+]
+]
+},
+{
+"ad": "İthaki",
+"lat": 38.403,
+"lon": 20.687,
+"dosya": "yerlesimler.js",
+"tur": "kale",
+"f": "1281-01-01",
+"t": "1282-03-30",
+"sonraki": [
+[
+"s",
+"1282-03-30",
+"1479-08-01",
+"napoli"
+],
+[
+"d",
+"1479-08-01",
+"1500-12-24",
+null
+]
+]
+},
+{
+"ad": "Zaklise (Zakynthos)",
+"lat": 37.788,
+"lon": 20.775,
+"dosya": "yerlesimler.js",
+"tur": "kale",
+"f": "1281-01-01",
+"t": "1282-03-30",
+"sonraki": [
+[
+"s",
+"1282-03-30",
+"1479-08-01",
+"napoli"
+],
+[
+"d",
+"1479-08-01",
+"1482-01-01",
+null
+]
+]
+},
+{
+"ad": "Pantelerya",
+"lat": 36.792,
+"lon": 11.99,
+"dosya": "yerlesimler.js",
+"tur": "kale",
+"f": "1281-01-01",
+"t": "1282-03-30",
+"sonraki": [
+[
+"s",
+"1282-03-30",
+"1302-08-31",
+"__BOSLUK__"
+],
+[
+"s",
+"1302-08-31",
+"1816-12-01",
+"sicilya-aragon"
+]
+]
+},
+{
+"ad": "Kanina",
+"lat": 40.421,
+"lon": 19.507,
+"dosya": "yerlesimler.js",
+"tur": "kale",
+"f": "1281-01-01",
+"t": "1282-03-30",
+"sonraki": [
+[
+"s",
+"1282-03-30",
+"1284-01-01",
+"napoli"
+],
+[
+"s",
+"1284-01-01",
+"1345-01-01",
+"bizans"
+]
+]
+},
+{
+"ad": "L'Aquila",
+"lat": 42.35,
+"lon": 13.399,
+"dosya": "yerlesimler_avrupa.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "1282-03-30",
+"sonraki": [
+[
+"s",
+"1282-03-30",
+"1861-02-13",
+"napoli"
+],
+[
+"s",
+"1861-02-13",
+"1946-06-18",
+"italya"
+]
+]
+},
+{
+"ad": "Foggia",
+"lat": 41.462,
+"lon": 15.544,
+"dosya": "yerlesimler_avrupa.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "1282-03-30",
+"sonraki": [
+[
+"s",
+"1282-03-30",
+"1861-02-13",
+"napoli"
+],
+[
+"s",
+"1861-02-13",
+"1946-06-18",
+"italya"
+]
+]
+},
+{
+"ad": "Hımara (Himarë)",
+"lat": 40.1017,
+"lon": 19.7444,
+"dosya": "yerlesimler_epir.js",
+"tur": "kale",
+"f": "1281-01-01",
+"t": "1282-03-30",
+"sonraki": [
+[
+"s",
+"1282-03-30",
+"1284-01-01",
+"napoli"
+],
+[
+"s",
+"1284-01-01",
+"1345-01-01",
+"bizans"
+]
+]
+},
+{
+"ad": "Paksos (Paxos)",
+"lat": 39.1975,
+"lon": 20.1867,
+"dosya": "yerlesimler_ek_adalar.js",
+"tur": "kale",
+"f": "1281-01-01",
+"t": "1282-03-30",
+"sonraki": [
+[
+"s",
+"1282-03-30",
+"1386-01-01",
+"napoli"
+],
+[
+"s",
+"1386-01-01",
+"1797-10-17",
+"venedik"
+]
+]
+},
+{
+"ad": "Mat (Mati)",
+"lat": 41.61,
+"lon": 20.009,
+"dosya": "yerlesimler_ok104.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "1282-03-30",
+"sonraki": [
+[
+"s",
+"1282-03-30",
+"1284-01-01",
+"napoli"
+],
+[
+"s",
+"1284-01-01",
+"1344-01-01",
+"bizans"
+]
+]
+},
+{
+"ad": "Tepedelen",
+"lat": 40.29583,
+"lon": 20.01917,
+"dosya": "yerlesimler_zincir64.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "1282-03-30",
+"sonraki": [
+[
+"s",
+"1282-03-30",
+"1284-01-01",
+"napoli"
+],
+[
+"s",
+"1284-01-01",
+"1345-01-01",
+"bizans"
+]
+]
+}
+],
+"savoya": [
+{
+"ad": "Aosta",
+"lat": 45.737,
+"lon": 7.32,
+"dosya": "yerlesimler_a78_avrupa.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "1720-08-02",
+"sonraki": [
+[
+"s",
+"1720-08-02",
+"1861-03-17",
+"sardinya-piyemonte"
+],
+[
+"s",
+"1861-03-17",
+"1946-06-18",
+"italya"
+]
+]
+},
+{
+"ad": "Bourg-Saint-Maurice",
+"lat": 45.619,
+"lon": 6.769,
+"dosya": "yerlesimler_a78_avrupa.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "1720-08-02",
+"sonraki": [
+[
+"s",
+"1720-08-02",
+"1860-06-14",
+"sardinya-piyemonte"
+],
+[
+"s",
+"1860-06-14",
+"2000-12-31",
+"fransa-cumhuriyet"
+]
+]
+},
+{
+"ad": "Martigny (Martinach)",
+"lat": 46.103,
+"lon": 7.073,
+"dosya": "yerlesimler_a78_avrupa.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "1475-01-01",
+"sonraki": [
+[
+"s",
+"1475-01-01",
+"1798-04-12",
+"isvicre"
+],
+[
+"s",
+"1798-04-12",
+"1802-09-01",
+"helvetik-cumhuriyeti"
+]
+]
+},
+{
+"ad": "Thonon",
+"lat": 46.371,
+"lon": 6.48,
+"dosya": "yerlesimler_a78_avrupa.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "1720-08-02",
+"sonraki": [
+[
+"s",
+"1720-08-02",
+"1860-06-14",
+"sardinya"
+],
+[
+"s",
+"1860-06-14",
+"2000-12-31",
+"fransa-cumhuriyet"
+]
+]
+},
+{
+"ad": "Annemasse",
+"lat": 46.193,
+"lon": 6.234,
+"dosya": "yerlesimler_a78_avrupa.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "1720-08-02",
+"sonraki": [
+[
+"s",
+"1720-08-02",
+"1860-06-14",
+"sardinya"
+],
+[
+"s",
+"1860-06-14",
+"2000-12-31",
+"fransa-cumhuriyet"
+]
+]
+}
+],
+"bohemya": [
+{
+"ad": "Hradec Králové",
+"lat": 50.209,
+"lon": 15.833,
+"dosya": "yerlesimler.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "1526-10-23",
+"sonraki": [
+[
+"s",
+"1526-10-23",
+"1918-10-28",
+"avusturya"
+],
+[
+"s",
+"1918-10-28",
+"1939-03-16",
+"cekoslovakya"
+]
+]
+},
+{
+"ad": "Glatz (Kłodzko)",
+"lat": 50.437,
+"lon": 16.657,
+"dosya": "yerlesimler.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "1526-10-23",
+"sonraki": [
+[
+"s",
+"1526-10-23",
+"1742-06-11",
+"avusturya"
+],
+[
+"s",
+"1742-06-11",
+"1871-01-18",
+"prusya"
+]
+]
+},
+{
+"ad": "Broumov (Braunau)",
+"lat": 50.586,
+"lon": 16.331,
+"dosya": "yerlesimler.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "1526-10-23",
+"sonraki": [
+[
+"s",
+"1526-10-23",
+"1918-11-11",
+"avusturya"
+],
+[
+"s",
+"1918-11-11",
+"1938-10-01",
+"cekoslovakya"
+]
+]
+},
+{
+"ad": "Jeseník (Freiwaldau)",
+"lat": 50.229,
+"lon": 17.204,
+"dosya": "yerlesimler.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "1526-12-05",
+"sonraki": [
+[
+"s",
+"1526-12-05",
+"1918-11-11",
+"avusturya"
+],
+[
+"s",
+"1918-11-11",
+"1938-10-01",
+"cekoslovakya"
+]
+]
+},
+{
+"ad": "Opava (Troppau)",
+"lat": 49.938,
+"lon": 17.903,
+"dosya": "yerlesimler_avrupa.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "1526-12-05",
+"sonraki": [
+[
+"s",
+"1526-12-05",
+"1918-11-11",
+"avusturya"
+],
+[
+"s",
+"1918-11-11",
+"1938-10-08",
+"cekoslovakya"
+]
+]
+},
+{
+"ad": "Ostrava (Mährisch Ostrau)",
+"lat": 49.835,
+"lon": 18.282,
+"dosya": "yerlesimler_avrupa.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "1526-10-23",
+"sonraki": [
+[
+"s",
+"1526-10-23",
+"1918-11-11",
+"avusturya"
+],
+[
+"s",
+"1918-11-11",
+"1939-03-16",
+"cekoslovakya"
+]
+]
+},
+{
+"ad": "Karviná (Fryštát)",
+"lat": 49.854,
+"lon": 18.543,
+"dosya": "yerlesimler_avrupa.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "1526-12-05",
+"sonraki": [
+[
+"s",
+"1526-12-05",
+"1919-09-10",
+"avusturya"
+],
+[
+"s",
+"1919-09-10",
+"1920-07-28",
+"itilaf-emaneti"
+]
+]
+},
+{
+"ad": "České Budějovice (Budweis)",
+"lat": 48.975,
+"lon": 14.474,
+"dosya": "yerlesimler_a78_avrupa.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "1526-10-23",
+"sonraki": [
+[
+"s",
+"1526-10-23",
+"1918-11-11",
+"avusturya"
+],
+[
+"s",
+"1918-11-11",
+"1939-03-16",
+"cekoslovakya"
+]
+]
+},
+{
+"ad": "Třeboň (Wittingau)",
+"lat": 49.004,
+"lon": 14.771,
+"dosya": "yerlesimler_a78_avrupa.js",
+"tur": "sehir",
+"f": "1281-01-01",
+"t": "1526-10-23",
+"sonraki": [
+[
+"s",
+"1526-10-23",
+"1918-11-11",
+"avusturya"
+],
+[
+"s",
+"1918-11-11",
+"1939-03-16",
+"cekoslovakya"
+]
+]
+}
+],
+"provence-kontlugu": [
+{
+"ad": "Nice",
+"lat": 43.71,
+"lon": 7.262,
+"dosya": "yerlesimler_avrupa.js",
+"tur": "liman",
+"f": "1281-01-01",
+"t": "1388-09-28",
+"sonraki": [
+[
+"s",
+"1388-09-28",
+"1720-08-02",
+"savoya"
+],
+[
+"s",
+"1720-08-02",
+"1793-01-31",
+"sardinya-piyemonte"
+]
+]
+}
+]
+}
