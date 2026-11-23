@@ -1,0 +1,10 @@
+SEHIR F2 YAKIN DOGU C+D (HAVVA 16 Kasim): atlas-bazli 43 yerden 14 kayit yazildi, 29 yazilamadi
+
+C: 4 kayit (aksaray, iskenderun, uzunkopru, mirbat; koordinat GeoNames teyitli); 18 yazilamadi (kucuk Dhofar koyleri,
+Hawta, Leyla, Diyadin, Elesk irt, Karakilise, Silopi, Malikiye, Salala; Lorimer/QDL 403, TDV'de madde yok).
+D: 10 kayit (alanya, bodrum, cizre, karaman, nusaybin, katif, yenbu, zebid, kilis, sade); 11 yazilamadi (Cerablus, Dilem,
+Doha, Seyun, Suhar, Sur Umman, Suruc, Bilbis, Asvan, Sayda, Sur Tyre). D'de koordinatlar TAHMIN (GeoNames API sertifika/kota
+hatasi): ic_not'ta 'KOORDINAT TAHMIN - bagimsiz teyit yok'. denetle: C cikis 0 ihlal 0 uyari 3; D cikis 0 ihlal 0 uyari 7.
+Indirme yok, uydurma yok. Motor/veri dosyalarina dokunulmadi.
+
+Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>

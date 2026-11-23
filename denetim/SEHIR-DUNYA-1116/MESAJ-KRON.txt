@@ -1,0 +1,9 @@
+KRONOLOJI-SEHIR (HAVVA 16 Kasim): sehir arastirmasindan 4 karsiligi olmayan devlet duzeyi madde (2 dosya, canli degil)
+
+17 adaylik listenin 13'u kronolojide ZATEN var (Gustav Vasa, Kiel, Moss, Roskilde, Kopenhag, Visby, Vasteras, Karlstad,
+Bernadotte, Finlandiya 1809, Katar 1871-09-20, Kars 1537, Trebinye 1466); karsiligi olmayan 4 madde yazildi:
+Norgesparagrafi 1536-10 (snl), Gotland'in Isvec'e gecisi 1645 (lex), Niguolu'nun Rus fethi 1877-07-16 (TDV, Julyen 4 Temmuz
+tablo cevirisi), Katar'da Casim Al-i Sani isyani 1893 (TDV DEVHA). index.html'e <script> EKLENMEDI (KASA/paketle). Degismez 2
+evreni (kronoloji_sinir*) disinda; arac/ceviri.py tavani etkilenmez (yuklenmedigi icin). Motor/veri dosyalarina dokunulmadi.
+
+Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>

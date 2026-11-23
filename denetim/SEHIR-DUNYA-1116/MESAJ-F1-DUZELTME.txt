@@ -1,0 +1,9 @@
+SEHIR F1 DUZELTME (HAVVA 16 Kasim): tarihce var/yok sayimi duzeltildi (yanlis 'tarihcesiz' sayilari)
+
+Onceki surum tarihce eslesmesini yalniz koordinati atlastan bulunan satirlarda 3 km ile yapiyordu; osm.js'teki
+Dubai/Bagdat/Cidde gibi kayitlar 'tarihcesiz' gorundu (alt ajan A yakaladi). Simdi: JSON ayristirma, 3 km, sonra ad
+eslesmesi (koordinat varsa <=30 km). Koordinati yalniz tarihce kaydindan gelen satir 'bagimsiz teyit YOK' isaretli.
+yakin-dogu 112: tarihceli 109, koordinatsiz 2. balkanlar 179: tarihceli 70, koordinatsiz 80.
+dogu-avrupa 511: tarihceli 15, koordinatsiz 386.
+
+Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>

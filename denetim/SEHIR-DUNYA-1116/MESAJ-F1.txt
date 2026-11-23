@@ -1,0 +1,10 @@
+SEHIR F1 (HAVVA 16 Kasim): arac/sehir_liste_f1.py + 3 blok LISTE.tsv (yakin-dogu, balkanlar, dogu-avrupa)
+
+1900 listesinden (3267 satir) bloklara ayrildi; koordinat atlas yerlesimlerinden ad eslesmesiyle,
+tarihce var/yok data/sehir_tarihce_*.js ile 3 km kosuluyla. Koordinati bulunamayan satir BOS birakildi (uydurma yok).
+yakin-dogu 106 sehir: koordinatli 90, tarihceli 79, koordinatsiz 16.
+balkanlar 179: koordinatli 85, tarihceli 53, koordinatsiz 94.
+dogu-avrupa 563: koordinatli 152, tarihceli 16, koordinatsiz 411.
+Motor/veri dosyalarina dokunulmadi.
+
+Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>

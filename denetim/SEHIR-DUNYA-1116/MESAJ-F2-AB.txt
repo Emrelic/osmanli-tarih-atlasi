@@ -1,0 +1,10 @@
+SEHIR F2 YAKIN DOGU A+B (HAVVA 16 Kasim): 25 sehir kaydi (13 duzeltilmis osm.js kaydi + 12 yeni), denetle cikis 0
+
+A: 13 kayit (ajman, dubai, abu-dhabi, umm-al-quwain, sharjah, muharraq, baghdad, amarah, sulaymaniyah, baabda, latakia,
+sheikh-saad, jeddah) - data/sehir_tarihce_osm.js'te AYNI id'li kayitlarin DUZELTILMIS surumu (GeoNames koordinat teyidi,
+atlas dikisi guncel); KASA birlestirirken osm.js'teki eskileri DEGISTIRSIN, cift id olmasin. denetle 0, ihlal 0, uyari 10.
+B: 12 yeni kayit (kars, elazig, dogubayazit, maden-elazig, gumushane, kirklareli, silifke, kozan, yarpuz, lahij, al-karak,
+hofuf); Gernik ve Seiyun yazilamadi (kaynak yok). Kayitlarin cogu zayif (TDV disi basamaklar aranmadi, ic_not'ta yazili).
+denetle 0, ihlal 0, uyari 8. Tum koordinatlar GeoNames ile teyitli. Motor/veri dosyalarina dokunulmadi.
+
+Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>

@@ -1,0 +1,9 @@
+SEHIR F1 EK (HAVVA 16 Kasim): Kibris eklendi (yakin-dogu), Moldova eklendi (dogu-avrupa), Sibirya/Uzak Dogu ayrildi
+
+Emre: unutulanlar en mantikli bloga. yakin-dogu 106 -> 112 (Kibris +6; Irak 9 ve Lubnan 3 zaten icindeydi);
+dogu-avrupa: Moldova eklendi, Urallarin dogusu (Sibirya/Uzak Dogu: Tobolsk, Tomsk, Yenisey, Irkutsk, Yakutsk,
+Zabaykal, Primorsk, Sahalin + koordinati boylam >= 60 olanlar) ana listeden cikarildi ve EMRELIC blogu icin
+LISTE-SIBIRYA-UZAKDOGU.tsv olarak ayrildi (58 sehir); dogu-avrupa 563 -> 511.
+Motor/veri dosyalarina dokunulmadi.
+
+Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>

@@ -1,0 +1,9 @@
+SEHIR K3 TARIHCESIZ (HAVVA 16 Kasim): 1900-liste bazli ve atlas-bazli (LAB olcumu) tarihcesiz listeler, 3 blok
+
+K3-TARIHCESIZ.tsv (1900 listesi bazli, denetim/SEHIR-DUNYA-1116/k3_tarihcesiz.py): yakin-dogu 3, balkanlar 109, dogu-avrupa 496.
+K3-TARIHCESIZ-ATLAS.tsv (LAB'in atlas-bazli olcumunden, origin/sehir-afrika-1116 ae0cf8da0 K3-TARIHCESIZ-TUM.tsv, bolge suzgeci):
+yakin-dogu (anadolu+arabistan+suriye-filistin+mezopotamya) k3 73, tarihce YOK 43 (kronoloji da YOK 21);
+balkanlar k3 56, YOK 17 (6); dogu-avrupa (+kafkasya) k3 112, YOK 50 (13). Bolgesi bos 28 satir ayri incelenecek.
+F2 hedefi atlas-bazli liste (EMRELIC karari). Motor/veri dosyalarina dokunulmadi.
+
+Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>

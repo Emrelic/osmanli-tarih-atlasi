@@ -1,0 +1,8 @@
+SEHIR: bolge LISTE.tsv dosyalarina bugun_var/bugun_ad/bugun_not/satir_turu sutunlari + eksik modern bolge merkezleri (EMRELIC emri, Emre onayi)
+
+yakin-dogu 112 mevcut (E98 D12 ?2) + 122 ek merkez; balkanlar 179 (E155 D13 ?11) + 91 ek; dogu-avrupa 511 (E467 D40 H3 ?1) + 33 ek;
+Sibirya 58 (E46 D9 ?3) + 9 ek. Mevcut sehirler silinmedi. Ek merkez satirlari kat 3, koordinat GeoNames sayfasindan (DMS);
+koordinatsiz 6 satir (Qalqilya, Salfit, Jabalia, Hermel, Istocno Sarajevo, Krsko). Siniflandirma bilgiye dayali, yalniz suphelilere web.
+Listedeki 13 koordinat hatasi NOT alaninda KOORD UYARISI olarak isaretli, duzeltilmedi. Motor/veri dosyalarina dokunulmadi.
+
+Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>
