@@ -1077,17 +1077,20 @@ body {
 #ucus-grup { display: flex; align-items: center; gap: 6px; flex: 0 0 auto; white-space: nowrap; }
 #ucus-kontrol { display: flex; align-items: center; gap: 3px; cursor: pointer; font-size: 12px; }
 #ucus-kip { font-size: 11px; padding: 1px 4px; }
-#ucus-grup #btn-ayarlar {
-  background: var(--panel-koyu);
-  border: 1px solid var(--altin);
-  border-radius: 4px;
-  font-size: 12px;
-  line-height: 1;
-  padding: 3px 6px;
-  cursor: pointer;
-  color: var(--metin);
+/* 24 Kasım 2026 — kip kutusu + ⚙ TEK düğme oldu: "✈ Uçuş ayarları" (+ kipi gösteren nokta). */
+#zamanbar #btn-ucus-ayar {
+  width: auto; padding: 0 9px; font-size: 12px; line-height: 1; white-space: nowrap;
+  background: #f3e6c8; color: var(--metin);
 }
-#ucus-grup #btn-ayarlar:hover { background: #ffe9a8; }
+#btn-ucus-ayar::after {
+  content: ""; display: inline-block; width: 7px; height: 7px; border-radius: 50%;
+  margin-left: 6px; vertical-align: 1px; background: #2e7d32;      /* uçuş */
+}
+#btn-ucus-ayar[data-kip="ani"]::after   { background: #c77d0a; }
+#btn-ucus-ayar[data-kip="pasif"]::after { background: #8a8a8a; }
+/* geri / oynat / ileri: ad yalnız yatay telefonda görünür (css/telefon.css) */
+#zamanbar .dg-ad { display: none; }
+#zamanbar #btn-ucus-ayar .dg-ad { display: inline; }
 /* ~~min-height: 118px~~ — 🔴 KALDIRILDI, 19 Ağustos 2026. **Süzgeci
    kaldırmadan önce neyi koruduğunu oku** (`CLAUDE.md §11`): bu taban,
    detayın `max-height: 62%`e kadar BÜYÜYEBİLMESİNE karşı konmuştu —
@@ -4039,3 +4042,32 @@ body.gn-oge-kipi * { cursor: crosshair !important; }
   .lejant { max-height: 38%; font-size: 11px; padding: 4px 8px; }
   .maplibregl-ctrl-attrib { max-width: calc(100% - 16px); font-size: 10px; line-height: 1.25; }
 }
+
+/* ── ✈ Uçuş ayarları penceresi (24 Kasım 2026) — #ayarlar-pencere ile AYNI modal deseni ── */
+#ucus-pencere {
+  position: fixed; inset: 0; background: rgba(0,0,0,0.55);
+  display: flex; align-items: center; justify-content: center; z-index: 60;
+}
+#ucus-pencere.gizli { display: none; }
+#ucus-kutu {
+  background: var(--panel); border: 2px solid var(--altin); border-radius: 10px;
+  width: min(440px, 92vw); max-height: 86vh; display: flex; flex-direction: column;
+  padding: 14px 18px; position: relative; box-shadow: 0 8px 30px rgba(0,0,0,0.5);
+}
+#ucus-kutu h3 { margin: 0 0 10px; flex: 0 0 auto; }
+#ucus-govde { overflow-y: auto; min-height: 0; padding-right: 4px; }
+#ucus-kapat {
+  position: absolute; top: 8px; right: 10px; border: none; background: none;
+  font-size: 18px; cursor: pointer; color: #6b5a33;
+}
+.ucus-kip-grup { border: 1px solid var(--altin); border-radius: 8px; margin: 0 0 10px; padding: 6px 8px 8px; }
+.ucus-kip-grup legend { font-size: 12px; font-weight: bold; padding: 0 6px; }
+.ucus-kip-sec {
+  display: grid; grid-template-columns: 20px 54px 1fr; align-items: start; gap: 4px 6px;
+  padding: 6px 4px; border-radius: 6px; cursor: pointer; font-size: 13px;
+}
+.ucus-kip-sec:hover { background: #ffe9a8; }
+.ucus-kip-sec .uks-ad { font-weight: bold; }
+.ucus-kip-sec .uks-acik { color: #6b5a33; font-size: 12px; line-height: 1.35; }
+.ucus-genel-satir { margin: 10px 0 2px; text-align: right; }
+.ucus-genel-satir button { padding: 5px 10px; border: 1px solid var(--altin); border-radius: 6px; background: #f3e6c8; cursor: pointer; font-size: 12px; }

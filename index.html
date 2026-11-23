@@ -73,9 +73,9 @@
 </style>
 <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.24.0/dist/maplibre-gl.css">
 <script>window.SURUM="r16693";</script>
-<link rel="stylesheet" href="css/style.css?v=r266896167">
+<link rel="stylesheet" href="css/style.css?v=r18936948">
 <!-- Telefon/tablet (parmakla kullanım) kuralları: masaüstü (fare) bu dosyayı hiç uygulamaz. -->
-<link rel="stylesheet" href="css/telefon.css?v=r242230947" media="(pointer: coarse)" id="telefon-css">
+<link rel="stylesheet" href="css/telefon.css?v=r126927141" media="(pointer: coarse)" id="telefon-css">
 <script>
 /* GÖRÜNÜM (Emre, 22 Kasım 2026): masaüstü ve telefon görünümü AYRI yapılardır; ⚙ Ayarlar'dan seçilir.
    localStorage "gorunum": "otomatik" (varsayılan: parmakla kullanılan küçük ekran = telefon) |
@@ -290,6 +290,7 @@
     <div class="menu-grup" id="mg-topluluk"><div class="menu-grup-baslik">Topluluk ve bilgi</div>
     <button id="btn-forum" title="Kahvehane — tarih forumu" onclick="location.href='forum/'">💬 Forum</button>
     <button id="btn-atif" title="Altlık, veri ve lisans atfı — göster / gizle">ⓘ Kaynaklar</button>
+    <button id="btn-genel-ayar" title="Görünüm, emojiler, dünya ve bölgesel olaylar">⚙ Ayarlar</button>
     </div>
     <!-- ⚙ Ayarlar düğmesi §⑧②'de kronoloji başlığına taşındı — burada
          DUPLICATE id AÇMAMAK için tekrar edilmedi (bkz. #olay-akisi h2). -->
@@ -422,9 +423,9 @@
     <input type="range" id="zaman" min="0" max="0" step="1">
     <span id="zaman-eksen" class="zaman-eksen" aria-hidden="true"></span>
     </span>
-    <button id="btn-geri" title="Önceki olaya git">⏮</button>
-    <button id="btn-oynat" title="Oynat / Duraklat">▶</button>
-    <button id="btn-ileri" title="Sonraki olaya git">⏭</button>
+    <button id="btn-geri" title="Önceki olaya git"><span class="dg-simge">⏮</span><span class="dg-ad">Önceki</span></button>
+    <button id="btn-oynat" title="Oynat / Duraklat"><span class="dg-simge">▶</span><span class="dg-ad">Oynat</span></button>
+    <button id="btn-ileri" title="Sonraki olaya git"><span class="dg-ad">Sonraki</span><span class="dg-simge">⏭</span></button>
     <select id="akis-modu" title="Akış tipi: doğrusal zaman veya olay olay">
       <!-- 🔴 23 Ağustos, 0029/H-0001 — Emre: "sayfa açılışında varsayılan
            olarak olay ilerlemesi seçili olmalı. yani zaman süre şeklinde
@@ -512,20 +513,12 @@
     <!-- 🛩 UÇUŞ GRUBU — KONTROL-YERLESIMI-1110 ile `#yanpanel-ust`ten BURAYA indi,
          satırın en sağına yaslı. Aşağıdaki 24 Ağustos notu kipin kendisini anlatır. -->
     <span id="ucus-grup">
-        <!-- 🔴🔴 24 Ağustos 2026 — `ucus-ac` ONAY KUTUSU KALDIRILDI, üçüncü
-             seçenek olarak KİP KUTUSUNA katıldı. Emre: *"checkbox
-             kaldırılabilir, ve comboboxda PASİF seçeneği olur … eğer
-             checkbox işaretli değil ise kullanıcı haritayı hangi çerçeveye
-             getirdi ve hangi zoomda bıraktı ise harita o şekilde
-             kalacaktır."*
-             ⚠️ `pasif` kipte ELLE TIKLAMA da haritayı oynatmaz ("harita o
-             şekilde kalacaktır"); panelde SEBEBİ yazılır. -->
-        <select id="ucus-kip" title="Sıradaki olaya geçilince harita ne yapsın">
-          <option value="pasif">Pasif</option>
-          <option value="ani">Ani</option>
-          <option value="ucus" selected>Uçuş</option>
-        </select>
-        <button id="btn-ayarlar" title="Uçuş kipi ayarları: irtifa, yakınlık, hız, kenar payı">⚙</button>
+        <!-- 🔴 24 Kasım 2026 — Emre: "uçuş butonu ve uçuş ayarı butonunu birleştirelim, UÇUŞ AYARLARI ismi ile
+             belirtelim; içine girince şimdiki uçuş ayarları bu butonun içinde yer alsın." Eskiden burada kip kutusu
+             (Pasif/Ani/Uçuş) + ⚙ vardı. Artık TEK düğme: `#ucus-pencere`yi açar; kip seçimi (üç şık, açıklamalı) o
+             pencerenin başında, uçuşun ince ayarları altında. `#ucus-kip` <select>i pencerede GİZLİ doğruluk kaynağı
+             olarak kaldı (js/app.js ona 6 yerde bağlı). ⚙ Genel ayarlar (görünüm, emoji…) ☰ Butonlar'a taşındı. -->
+        <button id="btn-ucus-ayar" type="button" title="Uçuş ayarları: harita olaya nasıl gitsin (pasif · ani · uçuş) ve uçuşun görüş alanı, hız ve kenar payı"><span class="dg-simge">✈</span> <span class="dg-ad">Uçuş ayarları</span></button>
     </span>
     <!-- 🔴 21 Ağustos — Emre: "alttaki gün ay yıl şeklinde olan göstergeyi
          kaldıralım, üst çubukta zaten bir tarih göstergesi var." `#tarih-
@@ -835,72 +828,22 @@
     </div>
   </div>
 </div>
-<div id="ayarlar-pencere" class="gizli">
-  <div id="ayarlar-kutu">
-    <button id="ayarlar-kapat" title="Kapat">✕</button>
-    <h3>⚙ Ayarlar</h3>
-    <div id="ayarlar-govde">
-    <!-- GÖRÜNÜM (Emre, 22 Kasım 2026): masaüstü ve telefon görünümü ayrı yapılardır; seçim
-         değişince sayfa yenilenir (js/app.js gorunumAyariKur). Otomatik = cihaza göre. -->
-    <div class="ayar-satir">
-      <label for="gorunum-sec">📱 Görünüm <span class="ayar-ipucu">(masaüstü ya da telefon düzeni; otomatik = cihaza göre)</span></label>
-      <select id="gorunum-sec">
-        <option value="otomatik">Otomatik</option>
-        <option value="masaustu">Masaüstü görünümü</option>
-        <option value="telefon">Telefon görünümü</option>
-      </select>
-    </div>
-    <!-- DUYGU-VE-SEKME-SARTNAME.md §A② — bu katman TDV'ye BASMAZ, yorumdur.
-         Ayardan açılır/kapanır (pazarlık dışı kural); varsayılan KAPALI
-         (Emre 14 Eki 2026: "varsayılan olarak bu ayar pasif olmalı") —
-         checked ATRIBUTU YOK, kasıtlı. Kronolojideki emojilerin tamamı bu
-         ayara bağlı (başlıklarda emoji yok, ölçüldü). -->
-    <div class="ayar-satir ayar-satir-anahtar">
-      <label for="duygu-ac">😊 Kronolojide emojiler <span class="ayar-ipucu">(okuyanın tepkisi — kaynağın hükmü değil, TDV'ye basmaz)</span></label>
-      <input type="checkbox" id="duygu-ac">
-    </div>
-    <!-- 🔴 8. BOYUT — Emre'nin 29 Ağustos kararı (EMRE-KARARLARI-29AGU.md §②):
-         CLAUDE.md §1.6 sekizinci boyutu (siyaset dışı/dünya konuları) KASTEN
-         kapalı tutuyordu; kapı şimdi AÇILIYOR ama ANAHTARLA — varsayılan
-         KAPALI, açık cümlesiyle: "kapalıyken kimse varlığını bilmez" olan
-         duygu-ac'ın TERSİ bir varsayılan (checked ATRIBUTU YOK, kasıtlı).
-         Madde alanı: kapsam:"konu" (data/olaylar_serhat.js'teki kapsam:"ic"/
-         "dis" alanının üçüncü değeri, yeni alan icat edilmedi). Değişince
-         sayfa yenilenir — `olaylar` dizisi tek seferde kurulduğu için
-         (js/app.js, olaylarAnahtarSiraNo civarı) yarı yolda yeniden
-         süzülemez; TOPLAM sayaç bu sayede DÜRÜST kalır (kapalıyken 8.
-         boyut maddeleri `olaylar.length`e hiç girmez, "N gizli" gibi bir
-         ek not gerekmez). -->
-    <div class="ayar-satir ayar-satir-anahtar">
-      <label for="dunya-ac">🌍 Dünya olayları <span class="ayar-ipucu">(8. boyut — Osmanlı'yla doğrudan ilgisi olmayan dünya tarihi olayları, ör. Fransız Devrimi; deneysel)</span></label>
-      <input type="checkbox" id="dunya-ac">
-    </div>
-    <!-- 🆕 PAKET-UI3 · İŞ 2 (14 Eylül 2026) — Emre: "dış olayların 4 ya da 5 puan
-         olanlarını göster seçeneği işaretliyse … 4 üstü seçilirse 4 ve 5 puan olanlar
-         kronolojide zikredilecek." Yalnız kapsam:"dis" maddeleri etkiler; iç maddeler
-         hiç gizlenmez. Değişince sayfa YENİLENMEZ (js/app.js disEsikEl). Adres: ?dis=. -->
-    <div class="ayar-satir ayar-satir-anahtar">
-      <label for="dis-esik">🧭 Bölgesel olaylar <span class="ayar-ipucu">(seçili devletin bölgesindeki öteki devletlerin olayları — bölge puanı 1-5; açılınca o devletin kendi olaylarının arasına dağılır. Varsayılan: gösterme; puansız dış maddeler yalnız "hepsi"de görünür<span id="dis-esik-bilgi"></span>)</span></label>
-      <select id="dis-esik">
-        <option value="0" selected>gösterme</option>
-        <option value="5">yalnız 5</option>
-        <option value="4">4 ve üstü</option>
-        <option value="3">3 ve üstü</option>
-        <option value="hepsi">hepsi</option>
-      </select>
-    </div>
-    <!-- 🆕 🌍 DÜNYA OLAYLARI EŞİĞİ (Emre, 8 Kasım 2026) — devlet kronolojilerindeki
-         `dunya` puanı eşiği geçen maddeler Osmanlı listesine bağlanır (kopya yok).
-         Değişince sayfa yenilenir (js/app.js dunyaEsik). Adres: ?dunya=. -->
-    <div class="ayar-satir ayar-satir-anahtar">
-      <label for="dunya-esik">🌍 Devletlerin dünya kronolojilerini göster <span class="ayar-ipucu">(her madde kendi devletinin kronolojisindedir; "🌍 Dünya" etiketli olanlar — Amerika'nın keşfi, Fransız İhtilali gibi — devlet ve bölge etiketiyle seçili devletin listesine de gelir; dünya önemi puanına göre. Varsayılan: gösterme<span id="dunya-esik-bilgi"></span>)</span></label>
-      <select id="dunya-esik">
-        <option value="0" selected>gösterme</option>
-        <option value="5">yalnız 5 (çağ açan)</option>
-        <option value="4">4 ve üstü</option>
-        <option value="3">3 ve üstü</option>
-      </select>
-    </div>
+<div id="ucus-pencere" class="gizli">
+  <div id="ucus-kutu">
+    <button id="ucus-kapat" title="Kapat">✕</button>
+    <h3>✈ Uçuş ayarları</h3>
+    <div id="ucus-govde">
+    <fieldset class="ucus-kip-grup">
+      <legend>Harita olaya nasıl gitsin?</legend>
+      <label class="ucus-kip-sec"><input type="radio" name="ucus-kip-r" value="pasif"><span class="uks-ad">Pasif</span><span class="uks-acik">Harita yerinden kıpırdamaz, siz nerede bıraktıysanız orada kalır.</span></label>
+      <label class="ucus-kip-sec"><input type="radio" name="ucus-kip-r" value="ani"><span class="uks-ad">Ani</span><span class="uks-acik">Olay yerine bir anda atlar.</span></label>
+      <label class="ucus-kip-sec"><input type="radio" name="ucus-kip-r" value="ucus"><span class="uks-ad">Uçuş</span><span class="uks-acik">Olay yerine süzülerek uçar.</span></label>
+    </fieldset>
+    <select id="ucus-kip" hidden title="Sıradaki olaya geçilince harita ne yapsın">
+      <option value="pasif">Pasif</option>
+      <option value="ani">Ani</option>
+      <option value="ucus" selected>Uçuş</option>
+    </select>
     <!-- 🔴 ODAKLAMA MOTORU — Emre'nin 20 Ağustos tarifi, İNSAN BİRİMİNDE.
          Eskisi MapLibre'nin soyut sayılarını (curve 1.42 · speed 1.2 ·
          zoom 5.5) doğrudan gösteriyordu; Emre `p0019/H-0059`da *"uçuş
@@ -1147,6 +1090,78 @@
     <p class="ayar-not">⚠️ Bu değerler MapLibre'nin belgelenmiş varsayılanları
       (curve 1.42) çevresinde kuruldu — bu oturumda harita render olmadığı
       için GÖZLE ayarlanamadı. İlk gerçek kullanımda gözden geçirilmeli.</p>
+    <p class="ucus-genel-satir"><button id="btn-ucus-genel" type="button">⚙ Ayarlar</button></p>
+    </div>
+  </div>
+</div>
+
+<div id="ayarlar-pencere" class="gizli">
+  <div id="ayarlar-kutu">
+    <button id="ayarlar-kapat" title="Kapat">✕</button>
+    <h3>⚙ Ayarlar</h3>
+    <div id="ayarlar-govde">
+    <!-- GÖRÜNÜM (Emre, 22 Kasım 2026): masaüstü ve telefon görünümü ayrı yapılardır; seçim
+         değişince sayfa yenilenir (js/app.js gorunumAyariKur). Otomatik = cihaza göre. -->
+    <div class="ayar-satir">
+      <label for="gorunum-sec">📱 Görünüm <span class="ayar-ipucu">(masaüstü ya da telefon düzeni; otomatik = cihaza göre)</span></label>
+      <select id="gorunum-sec">
+        <option value="otomatik">Otomatik</option>
+        <option value="masaustu">Masaüstü görünümü</option>
+        <option value="telefon">Telefon görünümü</option>
+      </select>
+    </div>
+    <!-- DUYGU-VE-SEKME-SARTNAME.md §A② — bu katman TDV'ye BASMAZ, yorumdur.
+         Ayardan açılır/kapanır (pazarlık dışı kural); varsayılan KAPALI
+         (Emre 14 Eki 2026: "varsayılan olarak bu ayar pasif olmalı") —
+         checked ATRIBUTU YOK, kasıtlı. Kronolojideki emojilerin tamamı bu
+         ayara bağlı (başlıklarda emoji yok, ölçüldü). -->
+    <div class="ayar-satir ayar-satir-anahtar">
+      <label for="duygu-ac">😊 Kronolojide emojiler <span class="ayar-ipucu">(okuyanın tepkisi — kaynağın hükmü değil, TDV'ye basmaz)</span></label>
+      <input type="checkbox" id="duygu-ac">
+    </div>
+    <!-- 🔴 8. BOYUT — Emre'nin 29 Ağustos kararı (EMRE-KARARLARI-29AGU.md §②):
+         CLAUDE.md §1.6 sekizinci boyutu (siyaset dışı/dünya konuları) KASTEN
+         kapalı tutuyordu; kapı şimdi AÇILIYOR ama ANAHTARLA — varsayılan
+         KAPALI, açık cümlesiyle: "kapalıyken kimse varlığını bilmez" olan
+         duygu-ac'ın TERSİ bir varsayılan (checked ATRIBUTU YOK, kasıtlı).
+         Madde alanı: kapsam:"konu" (data/olaylar_serhat.js'teki kapsam:"ic"/
+         "dis" alanının üçüncü değeri, yeni alan icat edilmedi). Değişince
+         sayfa yenilenir — `olaylar` dizisi tek seferde kurulduğu için
+         (js/app.js, olaylarAnahtarSiraNo civarı) yarı yolda yeniden
+         süzülemez; TOPLAM sayaç bu sayede DÜRÜST kalır (kapalıyken 8.
+         boyut maddeleri `olaylar.length`e hiç girmez, "N gizli" gibi bir
+         ek not gerekmez). -->
+    <div class="ayar-satir ayar-satir-anahtar">
+      <label for="dunya-ac">🌍 Dünya olayları <span class="ayar-ipucu">(8. boyut — Osmanlı'yla doğrudan ilgisi olmayan dünya tarihi olayları, ör. Fransız Devrimi; deneysel)</span></label>
+      <input type="checkbox" id="dunya-ac">
+    </div>
+    <!-- 🆕 PAKET-UI3 · İŞ 2 (14 Eylül 2026) — Emre: "dış olayların 4 ya da 5 puan
+         olanlarını göster seçeneği işaretliyse … 4 üstü seçilirse 4 ve 5 puan olanlar
+         kronolojide zikredilecek." Yalnız kapsam:"dis" maddeleri etkiler; iç maddeler
+         hiç gizlenmez. Değişince sayfa YENİLENMEZ (js/app.js disEsikEl). Adres: ?dis=. -->
+    <div class="ayar-satir ayar-satir-anahtar">
+      <label for="dis-esik">🧭 Bölgesel olaylar <span class="ayar-ipucu">(seçili devletin bölgesindeki öteki devletlerin olayları — bölge puanı 1-5; açılınca o devletin kendi olaylarının arasına dağılır. Varsayılan: gösterme; puansız dış maddeler yalnız "hepsi"de görünür<span id="dis-esik-bilgi"></span>)</span></label>
+      <select id="dis-esik">
+        <option value="0" selected>gösterme</option>
+        <option value="5">yalnız 5</option>
+        <option value="4">4 ve üstü</option>
+        <option value="3">3 ve üstü</option>
+        <option value="hepsi">hepsi</option>
+      </select>
+    </div>
+    <!-- 🆕 🌍 DÜNYA OLAYLARI EŞİĞİ (Emre, 8 Kasım 2026) — devlet kronolojilerindeki
+         `dunya` puanı eşiği geçen maddeler Osmanlı listesine bağlanır (kopya yok).
+         Değişince sayfa yenilenir (js/app.js dunyaEsik). Adres: ?dunya=. -->
+    <div class="ayar-satir ayar-satir-anahtar">
+      <label for="dunya-esik">🌍 Devletlerin dünya kronolojilerini göster <span class="ayar-ipucu">(her madde kendi devletinin kronolojisindedir; "🌍 Dünya" etiketli olanlar — Amerika'nın keşfi, Fransız İhtilali gibi — devlet ve bölge etiketiyle seçili devletin listesine de gelir; dünya önemi puanına göre. Varsayılan: gösterme<span id="dunya-esik-bilgi"></span>)</span></label>
+      <select id="dunya-esik">
+        <option value="0" selected>gösterme</option>
+        <option value="5">yalnız 5 (çağ açan)</option>
+        <option value="4">4 ve üstü</option>
+        <option value="3">3 ve üstü</option>
+      </select>
+    </div>
+    <!-- 🛩 Uçuş ayarları 24 Kasım 2026'da kendi penceresine (#ucus-pencere) taşındı; bu pencere GENEL ayarlardır. -->
     </div>
   </div>
 </div>
@@ -2441,9 +2456,9 @@
      app.js'ten HEMEN ÖNCE ve bütün data/*.js'ten SONRA: seçili dil Türkçe değilse
      data/ceviri_<dil>_*.js'i document.write ile araya ekler ve OLAYLAR*/DEVLETLER
      metnini app.js `olaylar`ı kurmadan çevirir. Türkçede hiçbir çeviri dosyası inmez. -->
-<script src="data/ceviri_dizin.js?v=r120424767"></script>
+<script src="data/ceviri_dizin.js?v=r42980805"></script>
 <script src="js/ceviri.js?v=r202969483"></script>
-<script src="js/app.js?v=r77380046"></script>
+<script src="js/app.js?v=r51934143"></script>
 <!-- A-F ALTI KADEME · D/E/F KATMANI + ANTLAŞMA HARİTASI (GORUNUM-ABCD-0916, D-KATMAN).
      Kosu 12 bitince baglandi (17 Eylul). d_katman.js app.js'ten SONRA — guncelle()'yi sarar. -->
 <!-- ▼ data/paket_28.js — aşağıdaki 10 dosya buraya PAKETLENDİ (arac/paketle.py).
@@ -2617,7 +2632,7 @@
 <script src="data/tur_siniflari.js?v=r197039638"></script>
   <!-- TUR SINIFLARI: tur -> ana tur (KRON-ALAN-1108) -->
 <script src="js/album.js?v=r82959085"></script>  <!-- ALBÜM düğmesi (DALGA-0059 H-0001) — obGoster sarmalar, app.js SONRASI -->
-<script src="js/tanitim.js?v=r216474589"></script>  <!-- TANITIM TURU — açılışta + ☰ Butonlar → ℹ Siteyi tanı; app.js SONRASI -->
+<script src="js/tanitim.js?v=r130558856"></script>  <!-- TANITIM TURU — açılışta + ☰ Butonlar → ℹ Siteyi tanı; app.js SONRASI -->
 <script src="data/acilis_tablosu.js?v=r262169018"></script>
   <!-- AÇILIŞ TABLOSU — ülke → devlet + gün + gerekçe (js/acilis.js okur) -->
 <script src="js/acilis.js?v=r22910331"></script>  <!-- AÇILIŞ MADDESİ (ACILIS-MADDESI-1110) — ülkeye göre odak + gün; ?acilis=XX dener, ?acilis=yok kapatır; app.js SONRASI -->
