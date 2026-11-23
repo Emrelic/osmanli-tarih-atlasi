@@ -20031,6 +20031,13 @@ function kronoTemsilEdiliyor(k, derin) {
       s.addEventListener("click", function () {
         if (o.osm) olayaGit(o.m, true, true);
         else maddeAc(o.d, o.m);
+        // Sekmeli kronolojide açıklama "Detay" sekmesindedir; Osmanlı satırı gibi oraya geç
+        // (#199: Dünyada satırından madde açılınca açıklama görünmüyordu).
+        if (window.sekmeDetayAc) window.sekmeDetayAc(true);
+      });
+      // #199: sağ tık → başlığı / maddeyi kopyala (kronoloji satırlarıyla aynı menü).
+      s.addEventListener("contextmenu", function (e) {
+        kopyaMenusuAc(e, o.osm ? o.m : kopyaMaddesi(o.d, o.m), s);
       });
       dunyaSatirEl.appendChild(s);
     });
