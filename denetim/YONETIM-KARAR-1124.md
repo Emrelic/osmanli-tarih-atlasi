@@ -33,7 +33,8 @@ Kaynak: Emre ile bu oturumdaki konuşma. Konu: BORC-DEFTERI A21.
   OAuth istemcisi oluşturuldu (secret yalnız Supabase'de). **Google "Publish app" BEKLİYOR:** Branding sayfasında gizlilik
   politikası adresi (`https://kronoatlas.com/gizlilik/`, giris-altyapi dalında, main'de YOK) + yetkili alan adı gerekiyor;
   test kipinde yalnız eklenen test kullanıcıları girer. Sıra: gizlilik sayfası yayına inince Branding'i doldur, Publish.
-  Microsoft (Azure) ve Meta henüz yapılmadı. SMTP + e-posta şablonları yapılmadı (şablon düzenleme SMTP ister).
+  Microsoft (Azure): Entra uygulaması KRONOATLAS (Client ID 34bed9dd-6a45-4a9b-85eb-ea7bb1d7fff3), secret 730 gün,
+  **BİTİŞ 22.11.2028 — takvime yaz**, dolunca Microsoft girişi durur; Supabase Azure = ENABLED. Meta henüz yapılmadı. SMTP + e-posta şablonları yapılmadı (şablon düzenleme SMTP ister).
 - **Alan adı e-postası (Emre, 24 Kasım):** `iletisim@kronoatlas.com` açılacak; gelen posta Gmail'e yönlenecek
   (Cloudflare Email Routing ya da benzeri), giden için SMTP (Resend/Brevo, SPF+DKIM). Sıra: önce giriş sağlayıcıları
   (Google/Microsoft/Meta), SONRA bu. Ölçülmedi: `kronoatlas.com` alan adının alındığı firma ve DNS'in yönetildiği yer.
