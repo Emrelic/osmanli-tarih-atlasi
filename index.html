@@ -73,7 +73,7 @@
 </style>
 <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.24.0/dist/maplibre-gl.css">
 <script>window.SURUM="r16742";</script>
-<link rel="stylesheet" href="css/style.css?v=r18936948">
+<link rel="stylesheet" href="css/style.css?v=r62356120">
 <!-- Telefon/tablet (parmakla kullanım) kuralları: masaüstü (fare) bu dosyayı hiç uygulamaz. -->
 <link rel="stylesheet" href="css/telefon.css?v=r126927141" media="(pointer: coarse)" id="telefon-css">
 <script>
@@ -554,56 +554,67 @@
         <button type="button" id="devlet-secici-buton" title="Kronoloji odağını ve ek devletleri seç — ilk tıkladığın ODAK, sonrakiler EK olur">
           ☪ Osmanlı ▾
         </button>
-        <div id="devlet-secici-panel" class="gizli">
-          <!-- 🔎 KRONOLOJİ ARAMA — Emre (25 Ekim 2026): "kronoloji bölümünde
-               textbox olsun, yazılan metinler dropdownda listelensin; aranan
-               kronolojiye daha kolay erişmek için. Tüm kronolojileri seçme
-               imkânı da olsun." Kutu listeyi SÜZER (Türkçe harf farkı yok,
-               kelimelerin hepsi geçmeli); Enter ilk eşleşeni ODAK yapar.
-               "Tümünü seç" GÖRÜNEN satırların hepsini EK havuzuna katar —
-               kutu boşsa bütün kronolojiler. Kutu `#devlet-secici-liste`nin
-               DIŞINDA: liste her tıkta yeniden çiziliyor, içinde olsa yazı
-               ve imleç kaybolurdu. -->
-          <div id="devlet-secici-ara-satir">
-            <input type="search" id="devlet-secici-ara" autocomplete="off"
-                   placeholder="🔎 Kronoloji ara (ör. venedik)"
-                   title="Devlet adına göre süzer · Enter: ilk eşleşeni ODAK yap">
-            <button type="button" id="devlet-secici-tumu">☑ Tümünü seç</button>
+        <!-- 🆕 19 Kasım 2026 (Emre) — SEÇİCİ v4: "açılan pencerenin bir alt menünün üstünde
+             açılmış ek pencere olduğu belli olmalı … tamam gibi bir buton ile kapanmalı …
+             odak veya ek devlet satırında yanda bir ayar butonu olmalı."
+             Örtü + ortada pencere (js/app.js bunları <body>'ye taşır). ① Seçilenler: odak + ekler,
+             her satırda madde sayısı · ⚙ (o devlete özgü ayar) · 🗺 (harita) · ×.
+             ② Devlet ekle: arama + toplu düğmeler + liste (◉ odak · ☐ ek).
+             Eski tek "ek dünya önemi" eşiği ve odak süzgeci kalktı → ⚙ ayar penceresi (aşağıda). -->
+        <div id="devlet-secici-ortu" class="gizli"></div>
+        <div id="devlet-secici-panel" class="gizli" role="dialog" aria-modal="true" aria-labelledby="dsp-baslik">
+          <div class="dsp-ust">
+            <div class="dsp-baslik-kutu">
+              <h3 id="dsp-baslik">📜 Kronoloji seçimi</h3>
+              <div class="dsp-alt-baslik">Bir ODAK devlet ve istersen birlikte akacak EK devletler seç</div>
+            </div>
+            <button type="button" id="devlet-secici-x" class="dsp-x" title="Kapat (Esc)">×</button>
           </div>
-          <div id="devlet-secici-liste"></div>
-          <label class="ek-ayar-satir">
-            Ek devletlerde dünya önemi ≥
-            <select id="ek-dunya-esik" title="Yalnız bu değerin ÜSTÜNDEKİ dünya öneminde maddeler eklenir">
-              <option value="1">1 (hepsi)</option>
-              <option value="2">2</option>
-              <option value="3">3</option>
-              <option value="4" selected>4</option>
-              <option value="5">5 (yalnız dönüm noktaları)</option>
-            </select>
-          </label>
-          <label class="ek-ayar-satir">
-            <input type="checkbox" id="ek-yalniz-dis"> ek devletlerde yalnız dış mesele maddeleri
-          </label>
-          <!-- 🔴🔴 ODAK SÜZGECİ — Emre'nin 10 Eylül 2026 tarifi, ve BİR
-               KURALI KALDIRIYOR. Buranın üstündeki iki ayar YALNIZ EK
-               devletlere işliyordu; kayıtlı kural şuydu: *"ODAK'ın kendi
-               kronolojisi HER ZAMAN TAM gösterilir — süzgeç YOK."*
-               Emre: *"kişi bir devlet seçtiği zaman o devletin
-               kronolojisini ÇALIŞTIRMADAN ÖNCE bu ayarları yapmalı —
-               tüm kronolojik maddeleri istiyor mu, sadece toprak
-               kazancı kaybı maddelerini mi, hükümdar hanedan haberlerini
-               görmek istiyor mu, kendi bölgesindeki devletlerden hangi
-               önemdekileri, dünyayı ilgilendirenleri istiyor mu."*
-               ⇒ Kural düştü: odak da süzülüyor. Varsayılan İÇ=1 (hepsi),
-               yani AÇILIŞTA DAVRANIŞ DEĞİŞMEZ — süzgeç ancak kullanıcı
-               eşiği yükseltince iş görür.
-               🔴 Mantık `js/suzgec.js`te (DOM'suz, node'da sınandı:
-               `denetim/SINAV-ONEM-SUZGEC-0910.js`, 9/9 geçti). Burada
-               yalnız kontroller var. -->
-          <details id="odak-suzgec" class="ek-ayar-grup">
-            <summary>🎚 Bu devletin kronolojisinde ne göreyim?</summary>
+          <div class="dsp-govde">
+            <div class="dsp-bolum">① Seçilenler <span class="dsp-bolum-not">⚙ ayar · 🗺 harita · × çıkar</span></div>
+            <div id="devlet-secici-havuz"></div>
+            <div class="dsp-bolum">② Devlet ekle</div>
+            <!-- 🔎 KRONOLOJİ ARAMA — Emre (25 Ekim 2026). Kutu listeyi SÜZER (Türkçe harf farkı
+                 yok, kelimelerin hepsi geçmeli); Enter ilk eşleşeni ODAK yapar. Kutu
+                 `#devlet-secici-liste`nin DIŞINDA: liste her tıkta yeniden çiziliyor. -->
+            <div id="devlet-secici-ara-satir">
+              <input type="search" id="devlet-secici-ara" autocomplete="off"
+                     placeholder="🔎 Devlet ara (ör. venedik)"
+                     title="Devlet adına göre süzer · Enter: ilk eşleşeni ODAK yap">
+              <button type="button" id="devlet-secici-tumu">☑ Görünenlerin hepsini ekle</button>
+            </div>
+            <div id="devlet-secici-liste-baslik"><span>◉ odak</span><span>☐ ek</span><span>devlet · yıllar · madde</span></div>
+            <div id="devlet-secici-liste"></div>
+          </div>
+          <div id="devlet-secici-alt">
+            <span class="dsp-ipucu">Ayarlar hemen uygulanır.</span>
+            <button type="button" id="devlet-secici-tamam">✓ Tamam — kapat</button>
+          </div>
+        </div>
+        <!-- ⚙ DEVLET BAŞINA KRONOLOJİ AYARI — havuz satırındaki ⚙ açar (js/app.js `ayarAc`).
+             Kontroller ve id'leri 10 Eylül odak süzgecinin aynısı; artık hedef devlete yazılır.
+             🔴 Mantık `js/suzgec.js`te (DOM'suz, node'da sınandı: denetim/SINAV-ONEM-SUZGEC-0910.js).
+             🔴 "Dünya olaylarını ayrıca göster" bir KURTARMA dalıdır, varsayılanı KAPALI (açıkken
+             `dünya ≥ 1` her maddeyi geçirir, iç eşiği ölür — İngiltere 270/270 ölçümü).
+             🔴 D015 — puansız madde "önemsiz" değil "ÖLÇÜLMEMİŞ"tir; sayısı özet satırında beyan edilir. -->
+        <div id="kr-ayar-pencere" class="gizli" role="dialog" aria-modal="true" aria-labelledby="kr-ayar-baslik">
+          <div class="dsp-ust">
+            <div class="dsp-baslik-kutu">
+              <h3 id="kr-ayar-baslik">⚙ Kronoloji ayarı</h3>
+              <div id="kr-ayar-rol" class="dsp-alt-baslik"></div>
+            </div>
+            <button type="button" id="kr-ayar-x" class="dsp-x" title="Kapat (Esc)">×</button>
+          </div>
+          <div class="dsp-govde">
+            <div class="dsp-bolum">Hızlı seçim</div>
+            <div class="kr-ayar-onayar">
+              <button type="button" data-onayar="hepsi">Hepsi</button>
+              <button type="button" data-onayar="onemli">Önemliler (4+)</button>
+              <button type="button" data-onayar="donum">Yalnız dönüm noktaları (5)</button>
+            </div>
+            <div class="dsp-bolum">Önem eşikleri <span class="dsp-bolum-not">5 çok önemli · 1 az önemli</span></div>
             <label class="ek-ayar-satir">
-              İç olaylar, önem ≥
+              <span class="kr-ayar-etiket">İç olaylar, önem ≥</span>
               <select id="odak-ic-esik" title="Devletin KENDİ olayları — 5 çok önemli, 1 hiç önemli değil">
                 <option value="1" selected>1 — hepsi</option>
                 <option value="2">2 — önemsizleri ele</option>
@@ -614,8 +625,8 @@
               </select>
             </label>
             <label class="ek-ayar-satir">
-              Bölgesel dış olaylar ≥
-              <select id="odak-bolge-esik" title="Komşu devletlerin olayları. ⚠️ `bolge` alanı veride henüz yok — bugün `onem` vekil olarak kullanılıyor ve bu panelde BEYAN EDİLİYOR">
+              <span class="kr-ayar-etiket">Bölgesel dış olaylar ≥</span>
+              <select id="odak-bolge-esik" title="Komşu devletlerle ilgili olaylar. `bolge` puanı olmayan maddede `onem` kullanılır ve özet satırında beyan edilir">
                 <option value="1" selected>1 — hepsi</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
@@ -624,18 +635,8 @@
                 <option value="0">kapalı</option>
               </select>
             </label>
-            <!-- 🔴 BU DAL BİR EŞİK DEĞİL, BİR KURTARMADIR — ve varsayılanı
-                 KAPALI olmak zorunda. Sebebi tarayıcıda ölçüldü: üç dal
-                 arasında VEYA var (bir madde herhangi birinden geçerse
-                 görünür), ve `dünya ≥ 1` açıkken HER madde bu daldan
-                 geçiyordu — yani "İç olaylar ≥ 4" ayarı hiçbir şey
-                 yapmıyordu. Ölçüm: İngiltere 270 madde, ic=4 yapıldı,
-                 sonuç YİNE 270. Ayar EKRANDA vardı, ÖLÜYDÜ.
-                 ⇒ Kapalıyken `ic`/`bölge` eşikleri kendi maddelerini
-                   yönetir; açılınca dünya çapında olaylar eşiği geçemeseler
-                   bile AYRICA gösterilir. -->
             <label class="ek-ayar-satir">
-              Dünya olaylarını ayrıca göster
+              <span class="kr-ayar-etiket">Dünya olaylarını ayrıca göster</span>
               <select id="odak-dunya-esik" title="KURTARMA dalı: eşiği geçemeyen bir madde, dünya önemi bu değerin üstündeyse yine de görünür. Kapsamdan bağımsızdır.">
                 <option value="0" selected>kapalı</option>
                 <option value="5">dünya önemi 5 — yalnız dönüm noktaları</option>
@@ -645,21 +646,27 @@
                 <option value="1">1 — hepsi (dal etkisiz kalır)</option>
               </select>
             </label>
-            <!-- 🔴 D015 — *ölçemediğini eleyen bir süzgeç onu temiz sayar.*
-                 Puansız bir madde "önemsiz" DEĞİL, "ÖLÇÜLMEMİŞ"tir.
-                 Varsayılan AÇIK: kapatılırsa Osmanlı zaman çizgisinin
-                 1253 iç maddesi bir anda kaybolur (ölçüldü). -->
+            <div class="dsp-bolum">Ne gösterilsin</div>
             <label class="ek-ayar-satir">
               <input type="checkbox" id="odak-puansiz" checked>
               puansız maddeleri de göster
             </label>
-            <label class="ek-ayar-satir" title="Bir şehrin bir belgede ilk kez anıldığını anlatan maddeler (etiket: sehir-kronolojisi). Kronoloji sütunundaki süzgeçle ortak ayar.">
-              <input type="checkbox" id="odak-sehir-kron" checked>
-              şehir kronolojisi (ilk anılış) maddelerini göster
+            <label class="ek-ayar-satir">
+              <input type="checkbox" id="ek-yalniz-dis"> yalnız dış mesele maddeleri
             </label>
+            <label class="ek-ayar-satir" title="Bir şehrin bir belgede ilk kez anıldığını anlatan maddeler (etiket: sehir-kronolojisi). Bütün devletler için ortak ayar.">
+              <input type="checkbox" id="odak-sehir-kron" checked>
+              şehir kronolojisi (ilk anılış) maddelerini göster <span class="dsp-bolum-not">(ortak)</span>
+            </label>
+            <div class="dsp-bolum">Konular</div>
             <div id="odak-suzgec-konu" class="ek-ayar-satir ek-konu-kutu"></div>
             <div id="odak-suzgec-ozet" class="ek-ayar-ozet"></div>
-          </details>
+          </div>
+          <div id="kr-ayar-alt">
+            <button type="button" id="kr-ayar-sifirla" class="dsp-ikincil">↺ Varsayılana dön</button>
+            <button type="button" id="kr-ayar-tum-ek" class="dsp-ikincil gizli">Bütün eklere uygula</button>
+            <button type="button" id="kr-ayar-tamam">✓ Tamam</button>
+          </div>
         </div>
       </div>
       <!-- KONTROL-YERLESIMI-1110 — `#ucus-grup` buradan footer'a indi (kamera
@@ -743,6 +750,10 @@
            çıkar. Ayrıca kopyalama düğmesini de o taşıyor: sağ tıkı olmayan
            dokunmatik cihazda özellik başka türlü ERİŞİLEMEZ olurdu. -->
       <div id="kr-secim"></div>
+      <!-- 🆕 19 Kasım 2026 (Emre): birden çok devlet akarken hangi devletin maddesinde
+           haritanın oynadığı listenin başında, devletin yanındaki 🗺 kutusuyla seçilir.
+           Yalnız ek devlet varken dolar (`:empty` boşken yer kaplamaz). -->
+      <div id="kr-akis-serit"></div>
       <div id="olay-listesi"></div>
     </section>
     <!-- Olay bilgi paneli: haritanın üzerinde değil, kronolojinin ALTINDA -->
@@ -2456,9 +2467,9 @@
      app.js'ten HEMEN ÖNCE ve bütün data/*.js'ten SONRA: seçili dil Türkçe değilse
      data/ceviri_<dil>_*.js'i document.write ile araya ekler ve OLAYLAR*/DEVLETLER
      metnini app.js `olaylar`ı kurmadan çevirir. Türkçede hiçbir çeviri dosyası inmez. -->
-<script src="data/ceviri_dizin.js?v=r42980805"></script>
+<script src="data/ceviri_dizin.js?v=r227282568"></script>
 <script src="js/ceviri.js?v=r202969483"></script>
-<script src="js/app.js?v=r51934143"></script>
+<script src="js/app.js?v=r130628262"></script>
 <!-- A-F ALTI KADEME · D/E/F KATMANI + ANTLAŞMA HARİTASI (GORUNUM-ABCD-0916, D-KATMAN).
      Kosu 12 bitince baglandi (17 Eylul). d_katman.js app.js'ten SONRA — guncelle()'yi sarar. -->
 <!-- ▼ data/paket_28.js — aşağıdaki 10 dosya buraya PAKETLENDİ (arac/paketle.py).
