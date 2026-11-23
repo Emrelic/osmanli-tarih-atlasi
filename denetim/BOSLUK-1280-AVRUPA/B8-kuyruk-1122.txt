@@ -1,0 +1,304 @@
+﻿İnegöl                     sehir    40.08,29.51 s/bizans yerlesimler.js
+Aydos Kalesi               kale     40.95,29.25 s/bizans yerlesimler.js
+Köprühisar (Yenişehir)     kale     40.20,29.55 s/bizans yerlesimler.js
+Marmaracık                 kale     40.30,29.68 s/bizans yerlesimler.js
+Kestel                     kale     40.21,29.17 s/bizans yerlesimler.js
+Ulubat                     kale     40.17,28.57 s/bizans yerlesimler.js
+Harmankaya                 kale     40.10,29.98 s/bizans yerlesimler.js
+İmralı Adası               kale     40.54,28.53 s/bizans yerlesimler.js
+Yalova                     liman    40.65,29.27 s/bizans yerlesimler.js
+Karamürsel                 liman    40.69,29.62 s/bizans yerlesimler.js
+Armutlu                    kale     40.52,28.83 s/bizans yerlesimler.js
+Marmaris                   liman    36.85,28.27 s/mentese yerlesimler.js
+Söke                       sehir    37.75,27.41 s/bizans yerlesimler.js
+Ermeni Derbendi            kasaba   39.95,29.97 d/ yerlesimler.js
+Pazaryeri                  sehir    39.99,29.90 d/ yerlesimler.js
+Çeşme                      kale     38.33,26.31 s/bizans yerlesimler.js
+Muğla                      sehir    37.22,28.36 s/mentese yerlesimler.js
+Malkara                    sehir    40.89,26.91 s/bizans yerlesimler.js
+Keşan                      sehir    40.85,26.63 s/bizans yerlesimler.js
+İpsala                     sehir    40.91,26.38 s/bizans yerlesimler.js
+Çirmen                     kale     41.72,26.20 s/bizans yerlesimler.js
+İhtiman                    kale     42.43,23.82 s/bulgar-carligi yerlesimler.js
+Köstendil                  sehir    42.28,22.69 s/bulgar-carligi yerlesimler.js
+Petriç                     kale     41.40,23.20 s/bizans yerlesimler.js
+Nevrokop (Gotse Delçev)    sehir    41.57,23.73 s/bizans yerlesimler.js
+Kırklareli                 sehir    41.73,27.23 s/bizans yerlesimler.js
+Şumnu                      kale     43.27,26.94 s/bulgar-carligi yerlesimler.js
+Niğbolu                    kale     43.71,24.89 s/bulgar-carligi yerlesimler.js
+Rusçuk                     kale     43.86,25.97 s/bulgar-carligi yerlesimler.js
+Yenişehir (Larissa)        sehir    39.64,22.42 s/bizans yerlesimler.js
+Tırhala                    sehir    39.55,21.77 s/bizans yerlesimler.js
+Mora (Tripoliçe)           sehir    37.51,22.38 s/bizans yerlesimler.js
+Anabolu (Nauplion)         kale     37.57,22.80 s/venedik yerlesimler.js
+Kranidi                    kasaba   37.36,23.15 s/bizans yerlesimler.js
+İzdin (Lamia)              kale     38.90,22.43 s/__BOSLUK__ yerlesimler.js
+Berat                      sehir    40.70,19.95 s/bizans yerlesimler.js
+Avlonya                    liman    40.47,19.49 s/sicilya-kralligi yerlesimler.js
+Belgrad Kalesi (Kalemegdan kale     44.82,20.45 s/sirbistan-nemanjic yerlesimler.js
+Kili                       kale     45.45,29.27 s/altinorda yerlesimler.js
+Birlad (Bârlad)            kale     46.23,27.67 s/altinorda yerlesimler.js
+Kanije                     kale     46.45,16.99 s/macaristan yerlesimler.js
+Lugos (Lugoj)              kale     45.69,21.90 s/macaristan yerlesimler.js
+Orsova (Eski Orsova)       kale     44.72,22.40 s/macaristan yerlesimler.js
+Haram (Banatska Palanka)   kale     44.85,21.33 s/macaristan yerlesimler.js
+Sakız                      liman    38.37,26.14 s/bizans yerlesimler.js
+Limni                      kale     39.88,25.16 s/bizans yerlesimler.js
+Semadirek                  kale     40.46,25.53 s/venedik yerlesimler.js
+Taşoz                      kale     40.69,24.65 s/ceneviz yerlesimler.js
+Bozcaada                   kale     39.83,26.05 s/bizans yerlesimler.js
+Andros                     kale     37.83,24.93 s/venedik yerlesimler.js
+Çuha Adası (Kythira)       kale     36.24,22.99 s/venedik yerlesimler.js
+İskiros (Skyros)           kale     38.90,24.57 s/bizans yerlesimler.js
+İskopelos                  kale     39.12,23.72 s/bizans yerlesimler.js
+İstendil (Tinos)           kale     37.57,25.17 s/venedik yerlesimler.js
+Nikarya (İkarya)           kale     37.60,26.15 s/__BOSLUK__ yerlesimler.js
+Santorini                  kale     36.42,25.43 s/naksa-dukaligi yerlesimler.js
+Karpatos                   kale     35.51,27.21 s/venedik yerlesimler.js
+Zagreb                     sehir    45.81,15.98 s/macaristan yerlesimler.js
+Ljubljana                  sehir    46.06,14.51 s/almanya yerlesimler.js
+Yanova (Ineu)              kale     46.43,21.74 s/macaristan yerlesimler.js
+İsmail                     kale     45.35,28.84 s/altinorda yerlesimler.js
+Yenipazar (Novi Pazar)     sehir    43.14,20.52 s/sirbistan-nemanjic yerlesimler.js
+Ayamavra (Lefkada)         kale     38.72,20.64 s/sicilya-kralligi yerlesimler.js
+Parga                      kale     39.29,20.41 s/bizans yerlesimler.js
+Vonitsa                    kale     38.92,20.89 s/bizans yerlesimler.js
+Aynaroz (Athos)            kale     40.26,24.24 s/bizans yerlesimler.js
+Kesendire (Kassandra)      sehir    40.06,23.44 s/bizans yerlesimler.js
+Biga                       sehir    40.23,27.24 s/bizans yerlesimler.js
+Domaniç                    sehir    39.80,29.61 d/ yerlesimler.js
+Kulacahisar                kale     40.04,29.45 s/bizans yerlesimler.js
+Yarhisar                   kale     40.24,29.74 s/bizans yerlesimler.js
+Dimbos                     kale     40.14,29.33 s/bizans yerlesimler.js
+Kite (Kete)                kale     40.13,28.86 s/bizans yerlesimler.js
+Karatigin                  kale     40.42,29.78 s/bizans yerlesimler.js
+Adranos (Orhaneli)         kale     39.91,28.99 s/bizans yerlesimler.js
+Pelekanon (Eskihisar)      kale     40.76,29.39 s/bizans yerlesimler.js
+Gebze                      sehir    40.80,29.43 s/bizans yerlesimler.js
+Hereke                     kale     40.79,29.61 s/bizans yerlesimler.js
+Samandıra                  kale     40.98,29.20 s/bizans yerlesimler.js
+Kirmasti (M.Kemalpaşa)     sehir    40.03,28.41 s/bizans yerlesimler.js
+Mihaliç (Karacabey)        sehir    40.21,28.36 s/bizans yerlesimler.js
+Gölyazı (Apollonia)        kale     40.17,28.65 s/bizans yerlesimler.js
+Bolayır                    kale     40.53,26.75 s/bizans yerlesimler.js
+Maydos (Eceabat)           kale     40.19,26.35 s/bizans yerlesimler.js
+Baç (Bács)                 kale     45.76,19.24 s/macaristan yerlesimler.js
+Segedin (Szeged)           sehir    46.25,20.15 s/macaristan yerlesimler.js
+Paros                      kale     37.06,25.20 s/naksa-dukaligi yerlesimler.js
+Değirmenlik (Milos)        kale     36.70,24.44 s/naksa-dukaligi yerlesimler.js
+Kimolos (Argentiera)       kale     36.81,24.56 s/naksa-dukaligi yerlesimler.js
+Murted (Kea)               kale     37.61,24.33 s/venedik yerlesimler.js
+Termiye (Kythnos)          kale     37.40,24.42 s/venedik yerlesimler.js
+Koçbaba (Serifos)          kale     37.16,24.48 s/venedik yerlesimler.js
+Sifnos (Yavuzca)           kale     36.98,24.71 s/venedik yerlesimler.js
+Sire (Syros)               kale     37.44,24.92 s/naksa-dukaligi yerlesimler.js
+Mikonos                    kale     37.46,25.38 s/venedik yerlesimler.js
+Nio (İos)                  kale     36.72,25.33 s/naksa-dukaligi yerlesimler.js
+Yamurgi (Amorgos)          kale     36.85,25.91 s/venedik yerlesimler.js
+Namfi (Anafi)              kale     36.37,25.78 s/venedik yerlesimler.js
+Folegandros                kale     36.68,25.12 s/venedik yerlesimler.js
+Kelemez (Kalimnos)         kale     36.99,26.97 s/bizans yerlesimler.js
+İleryoz (Leros)            kale     37.15,26.83 s/bizans yerlesimler.js
+Sömbeki (Simi)             kale     36.59,27.83 s/bizans yerlesimler.js
+İncirli (Nisiros)          kale     36.43,27.36 s/bizans yerlesimler.js
+İlyaki (Tilos)             kale     36.59,27.17 s/bizans yerlesimler.js
+Herke (Halki)              kale     36.23,27.57 s/bizans yerlesimler.js
+Batnoz (Patmos)            kale     37.32,26.55 s/bizans yerlesimler.js
+İstanbulya (Astipalya)     kale     36.57,26.35 s/venedik yerlesimler.js
+Kaşot (Kasos)              kale     35.40,26.93 s/venedik yerlesimler.js
+Fornoz (Fourni)            kale     37.58,26.48 s/cenova yerlesimler.js
+İpsara (Psara)             kale     38.58,25.58 s/cenova yerlesimler.js
+Bozbaba (Ay Strati)        kale     39.52,25.01 s/bizans yerlesimler.js
+İskiathos                  kale     39.17,23.49 s/bizans yerlesimler.js
+Alonisos                   kale     39.21,23.91 s/bizans yerlesimler.js
+Marmara Adası              kale     40.62,27.62 s/bizans yerlesimler.js
+Çamlıca (Hidra)            kale     37.34,23.47 s/bizans yerlesimler.js
+Kefalonya                  kale     38.23,20.57 s/sicilya-kralligi yerlesimler.js
+İthaki                     kale     38.40,20.69 s/sicilya-kralligi yerlesimler.js
+Zaklise (Zakynthos)        kale     37.79,20.77 s/sicilya-kralligi yerlesimler.js
+Krk (Veglia)               kale     45.08,14.62 s/venedik yerlesimler.js
+Cres (Cherso)              kale     44.88,14.40 s/venedik yerlesimler.js
+Lošinj (Lussino)           kale     44.53,14.47 s/venedik yerlesimler.js
+Rab (Arbe)                 kale     44.76,14.77 s/venedik yerlesimler.js
+Pag (Pago)                 kale     44.47,15.02 s/venedik yerlesimler.js
+Uzunada (Dugi Otok)        kale     44.01,15.05 s/venedik yerlesimler.js
+Brakya (Brač)              kale     43.32,16.64 s/venedik yerlesimler.js
+Hvar (Lesina)              kale     43.16,16.70 s/venedik yerlesimler.js
+Korçula (Kurzola)          kale     42.95,16.90 s/venedik yerlesimler.js
+Vis (Lissa)                kale     43.05,16.15 s/venedik yerlesimler.js
+Mliyet (Mljet)             kale     42.75,17.52 s/venedik yerlesimler.js
+Lastovo (Lagosta)          kale     42.76,16.90 s/venedik yerlesimler.js
+İsfakiye (Sfakia)          kale     35.20,24.14 s/venedik yerlesimler.js
+Sitiye (Sitia)             kale     35.21,26.10 s/venedik yerlesimler.js
+Lindos                     kale     36.09,28.09 s/bizans yerlesimler.js
+Molova (Molyvos)           kale     39.37,26.18 s/bizans yerlesimler.js
+Karistos (Kızılhisar)      kale     38.02,24.42 s/venedik yerlesimler.js
+Simav                      kale     39.09,28.98 s/selcuklu yerlesimler.js
+Tavşanlı                   kale     39.55,29.49 s/selcuklu yerlesimler.js
+Emet (Eğrigöz)             kale     39.34,29.26 s/selcuklu yerlesimler.js
+Uşak                       sehir    38.67,29.41 s/selcuklu yerlesimler.js
+Erdek                      liman    40.40,27.80 s/bizans yerlesimler.js
+Elmalı                     sehir    36.73,29.92 s/selcuklu yerlesimler.js
+Ayvalık                    liman    39.32,26.69 s/bizans yerlesimler.js
+Kanina                     kale     40.42,19.51 s/sicilya-kralligi yerlesimler.js
+Oreoi (İstiaia)            kale     38.95,23.09 s/venedik yerlesimler.js
+Kragujevac                 sehir    44.01,20.91 s/sirbistan-nemanjic yerlesimler.js
+Çaçak                      kale     43.89,20.35 s/sirbistan-nemanjic yerlesimler.js
+Tırgovişte                 sehir    44.92,25.46 s/macaristan yerlesimler.js
+Piteşti                    sehir    44.86,24.87 s/macaristan yerlesimler.js
+Slatina                    sehir    44.43,24.37 s/macaristan yerlesimler.js
+Buzău                      sehir    45.15,26.82 s/macaristan yerlesimler.js
+Rimnik-i Sârat (Râmnicu Să kale     45.38,27.06 s/macaristan yerlesimler.js
+Krayova (Craiova)          sehir    44.33,23.80 s/macaristan yerlesimler.js
+Tırgu Jiu                  sehir    45.03,23.27 s/macaristan yerlesimler.js
+Rimnik (Râmnicu Vâlcea)    sehir    45.10,24.38 s/macaristan yerlesimler.js
+Turnu Severin              kale     44.63,22.66 s/macaristan yerlesimler.js
+Kımpulung (Câmpulung)      sehir    45.27,25.05 s/macaristan yerlesimler.js
+Podgorica                  sehir    42.44,19.26 s/sirbistan-nemanjic yerlesimler.js
+Böğürdelen (Šabac)         kale     44.75,19.69 s/macaristan yerlesimler.js
+İzvornik (Zvornik)         kale     44.39,19.10 s/bosna yerlesimler.js
+Foça (Foča)                sehir    43.51,18.78 s/bosna yerlesimler.js
+Yayça (Jajce)              kale     44.34,17.27 s/bosna yerlesimler.js
+Srebrenik                  kale     44.70,18.49 s/bosna yerlesimler.js
+Yergöğü (Giurgiu)          kale     43.90,25.97 s/macaristan yerlesimler.js
+İskeçe                     sehir    41.14,24.89 s/bizans yerlesimler_seyrek.js
+Trebinye                   sehir    42.71,18.34 s/bosna yerlesimler_seyrek.js
+Vişegrad                   sehir    43.78,19.29 s/bosna yerlesimler_seyrek.js
+Karabiga                   liman    40.41,27.30 s/bizans yerlesimler_seyrek.js
+Koniçe (Konjic)            sehir    43.65,17.96 s/bosna yerlesimler_ek2.js
+Visoko                     sehir    43.99,18.18 s/bosna yerlesimler_ek2.js
+Boğaziçi (Rumeli yakası)   bolge    41.15,29.05 s/bizans yerlesimler_ek2.js
+Şibenik (Sebenico)         liman    43.73,15.89 s/macaristan yerlesimler_ek.js
+Klis                       kale     43.56,16.52 s/macaristan yerlesimler_ek.js
+Vrana (Urana)              kale     43.96,15.56 s/venedik yerlesimler_ek.js
+Udine                      sehir    46.06,13.23 s/almanya yerlesimler_avrupa.js
+Trieste                    liman    45.65,13.77 s/almanya yerlesimler_avrupa.js
+L'Aquila                   sehir    42.35,13.40 s/sicilya-kralligi yerlesimler_avrupa.js
+Foggia                     sehir    41.46,15.54 s/sicilya-kralligi yerlesimler_avrupa.js
+Pula (Pola)                liman    44.87,13.85 s/almanya yerlesimler_avrupa.js
+Behramkale (Assos)         kale     39.49,26.34 s/bizans yerlesimler_ek23.js
+Beykoz                     sehir    41.13,29.09 s/bizans yerlesimler_ek23.js
+Şarköy                     liman    40.61,27.11 s/bizans yerlesimler_ek23.js
+Saroz kuzey kıyısı         bolge    40.65,26.70 s/bizans yerlesimler_ek23.js
+Meriç (İpsala kuzeyi)      kasaba   41.19,26.42 s/bizans yerlesimler_ek24.js
+Orestiada (Kumçiftliği)    sehir    41.50,26.53 s/bizans yerlesimler_ek24.js
+Sofulu (Soufli)            kasaba   41.19,26.30 s/bizans yerlesimler_ek24.js
+Lalapaşa                   kasaba   41.84,26.74 s/bizans yerlesimler_ek24.js
+Kofçaz                     kasaba   41.94,27.18 s/bizans yerlesimler_ek24.js
+Dereköy (Kırklareli)       kasaba   41.94,27.40 s/bizans yerlesimler_ek24.js
+Demirköy                   kasaba   41.82,27.76 s/bizans yerlesimler_ek24.js
+Elhova (Elhovo)            kasaba   42.17,26.57 s/bulgar-carligi yerlesimler_ek24.js
+Malko Tırnova              kasaba   41.98,27.52 s/bizans yerlesimler_ek24.js
+Rezve (Rezovo)             koy      41.99,28.02 s/bizans yerlesimler_ek24.js
+Erdel Belgradı (Gyulafehér sehir    46.07,23.58 s/macaristan yerlesimler_ek29.js
+Brassó (Braşov)            sehir    45.64,25.59 s/macaristan yerlesimler_ek29.js
+Segesvár (Sighişoara)      sehir    46.22,24.79 s/macaristan yerlesimler_ek29.js
+Varasd (Varaždin)          sehir    46.31,16.34 s/macaristan yerlesimler_ek29.js
+Kostayniçe (Kostajnica)    kale     45.23,16.54 s/macaristan yerlesimler_ek29.js
+Bosna Dubiçası (Bosanska D kale     45.17,16.81 s/macaristan yerlesimler_ek29.js
+Bosna Novi'si (Bosanski No kale     45.05,16.38 s/macaristan yerlesimler_ek29.js
+Jasenovaç (Jasenovac)      kale     45.28,16.92 s/macaristan yerlesimler_ek29.js
+Bosna Brod'u (Bosanski Bro kale     45.14,17.99 s/macaristan yerlesimler_ek29.js
+Prevadi (Provadia)         kale     43.18,27.43 s/bulgar-carligi yerlesimler_ek29.js
+Babadağı (Babadag)         kasaba   44.89,28.72 s/altinorda yerlesimler_ek29.js
+İshakçı (Isaccea)          kale     45.27,28.46 s/altinorda yerlesimler_ek29.js
+Yagodina (Jagodina)        kasaba   43.98,21.26 s/sirbistan-nemanjic yerlesimler_ek29.js
+Praviște (Eleftheroupoli)  kasaba   40.92,24.25 s/bizans yerlesimler_ek29.js
+Lanzaka (Lagkadas)         kasaba   40.75,23.07 s/bizans yerlesimler_ek29.js
+Krupa (Bosanska Krupa)     kale     44.88,16.16 s/macaristan yerlesimler_ek29.js
+Ostrovica (Stara Ostrovica kale     44.56,16.08 s/macaristan yerlesimler_ek29.js
+Udbina                     kale     44.53,15.77 s/macaristan yerlesimler_ek29.js
+Gospić                     kale     44.55,15.38 s/macaristan yerlesimler_ek29.js
+Cetin (Cetingrad)          kale     45.14,15.73 s/macaristan yerlesimler_ek29.js
+Drežnik (Drežnik Grad)     kale     44.94,15.67 s/macaristan yerlesimler_ek29.js
+Pasarofça (Požarevac)      sehir    44.62,21.19 s/sirbistan-nemanjic yerlesimler_ek29.js
+Valjevo                    sehir    44.28,19.90 s/sirbistan-nemanjic yerlesimler_ek29.js
+Rudnik                     sehir    44.14,20.49 s/sirbistan-nemanjic yerlesimler_ek29.js
+İvranye (Vranje)           sehir    42.55,21.90 s/sirbistan-nemanjic yerlesimler_ek29.js
+Leskofça (Leskovac)        sehir    43.00,21.95 s/sirbistan-nemanjic yerlesimler_ek29.js
+İslimye (Sliven)           sehir    42.69,26.33 s/bulgar-carligi yerlesimler_ek29.js
+Ziştovi (Svishtov)         liman    43.62,25.35 s/bulgar-carligi yerlesimler_ek29.js
+Kule (Turnu Măgurele)      kale     43.75,24.87 s/macaristan yerlesimler_ek29.js
+Zimnicea                   kasaba   43.65,25.36 s/macaristan yerlesimler_ek29.js
+Calafat                    kasaba   43.99,22.93 s/macaristan yerlesimler_ek29.js
+Oltenița                   kasaba   44.09,26.64 s/macaristan yerlesimler_ek29.js
+Călărași                   kasaba   44.20,27.33 s/macaristan yerlesimler_ek29.js
+Golos (Volos)              liman    39.36,22.94 s/bizans yerlesimler_ek29.js
+Kalabaka (Kalambaka)       kasaba   39.71,21.63 s/bizans yerlesimler_ek29.js
+Kardiçe (Karditsa)         kasaba   39.37,21.92 s/bizans yerlesimler_ek29.js
+Alasonya (Elassona)        kasaba   39.90,22.19 s/bizans yerlesimler_ek29.js
+Hasköy (Haskovo)           kasaba   41.93,25.55 s/bulgar-carligi yerlesimler_ek29.js
+Çanakkale yöresi (Kepez)   bolge    40.10,26.40 s/bizans yerlesimler_ek29.js
+Truva yöresi (Tevfikiye)   bolge    39.96,26.24 s/bizans yerlesimler_ek29.js
+Burgaz (Burgas)            sehir    42.50,27.47 s/bulgar-carligi yerlesimler_ek29.js
+Aydos (Aytos)              sehir    42.70,27.25 s/bulgar-carligi yerlesimler_ek29.js
+Soma                       sehir    39.19,27.61 s/bizans yerlesimler_ek29.js
+Aydonat (Paramythia)       sehir    39.47,20.52 s/bizans yerlesimler_epir.js
+Margiliç (Margariti)       sehir    39.55,20.42 s/bizans yerlesimler_epir.js
+Delvine                    sehir    39.95,20.10 s/bizans yerlesimler_epir.js
+Hımara (Himarë)            kale     40.10,19.74 s/sicilya-kralligi yerlesimler_epir.js
+Souli (Sûli)               kale     39.42,20.62 s/bizans yerlesimler_epir.js
+İgumenitsa (Gomenice)      sehir    39.50,20.27 s/bizans yerlesimler_epir.js
+Filat (Filiates)           sehir    39.61,20.32 s/bizans yerlesimler_epir.js
+Şehirköy (Pirot)           kasaba   43.15,22.59 s/sirbistan-nemanjic yerlesimler_serhat.js
+Alacahisar (Kruševac)      sehir    43.58,21.33 s/sirbistan-nemanjic yerlesimler_serhat.js
+Çatalca                    kasaba   41.14,28.46 s/bizans yerlesimler_serhat.js
+Paksos (Paxos)             kale     39.20,20.19 s/sicilya-kralligi yerlesimler_ek_adalar.js
+Elafonisos (Cervi)         kasaba   36.49,22.98 s/bizans yerlesimler_ek_adalar.js
+Becse (Törökbecse / Novi B kale     45.60,20.14 s/macaristan yerlesimler_ek_macaristan.js
+Becskerek (Zrenjanin)      kale     45.38,20.39 s/macaristan yerlesimler_ek_macaristan.js
+Çanad (Csanád / Cenad)     kale     46.17,20.46 s/macaristan yerlesimler_ek_macaristan.js
+Lippa (Lipova)             kale     46.09,21.69 s/macaristan yerlesimler_ek_macaristan.js
+Prizren                    sehir    42.21,20.74 s/sirbistan-nemanjic yerlesimler_ek_bosluk.js
+Uluköy (Akçadam)           koy      41.30,26.53 s/bizans yerlesimler_sinir_kuzey.js
+Stérna                     koy      41.57,26.46 s/bizans yerlesimler_sinir_kuzey.js
+Távri                      koy      40.98,26.25 s/bizans yerlesimler_sinir_kuzey.js
+Küfkaynapınarı (Azatlı)    koy      41.50,26.70 s/bizans yerlesimler_sinir_kuzey.js
+Karpuzlu (Yenikarpuzlu)    koy      40.83,26.30 s/bizans yerlesimler_sinir_kuzey.js
+Malak Dervent (Lalkovo)    koy      42.08,26.72 s/bulgar-carligi yerlesimler_sinir_kuzey.js
+Umur Fakih (Fakia)         koy      42.19,27.09 s/bulgar-carligi yerlesimler_sinir_kuzey.js
+Mat (Mati)                 sehir    41.61,20.01 s/sicilya-kralligi yerlesimler_ok104.js
+Debre (Dibra)              sehir    41.52,20.53 s/bizans yerlesimler_ok104.js
+Köprülü (Veles)            sehir    41.72,21.77 s/bizans yerlesimler_ok107.js
+İştip (Štip)               sehir    41.75,22.20 s/bizans yerlesimler_ok107.js
+Ustrumca (Strumica)        sehir    41.44,22.64 s/bizans yerlesimler_ok107.js
+Doyran                     kasaba   41.18,22.72 s/bizans yerlesimler_ok107.js
+Gevgili (Gevgelija)        kasaba   41.14,22.50 s/bizans yerlesimler_ok107.js
+Kılkış (Avrathisar)        kasaba   40.99,22.87 s/bizans yerlesimler_ok107.js
+Peç (Pejë)                 sehir    42.66,20.29 s/sirbistan yerlesimler_halef_1946.js
+Kahul (Cahul)              sehir    45.91,28.20 s/altinorda yerlesimler_p0037.js
+Kesriye (Kastoria)         sehir    40.52,21.27 s/bizans yerlesimler_a78_avrupa.js
+Filorina (Florina)         sehir    40.78,21.41 s/bizans yerlesimler_a78_avrupa.js
+Čakovec (Csáktornya)       kasaba   46.38,16.43 s/macaristan yerlesimler_p77_avrupa.js
+Ston                       sehir    42.83,17.70 s/__BOSLUK__ yerlesimler_once1281_yt_avrupa.js
+Arad                       sehir    46.18,21.32 s/macaristan yerlesimler_zincir64.js
+Karlofça                   sehir    45.20,19.93 s/macaristan yerlesimler_zincir64.js
+Küçük Kaynarca             sehir    43.99,27.51 s/bulgar-carligi yerlesimler_zincir64.js
+Tepedelen                  sehir    40.30,20.02 s/sicilya-kralligi yerlesimler_zincir64.js
+Karánşebeş (Caransebeş)    sehir    45.42,22.22 s/macaristan yerlesimler_zincir64.js
+Szászsebes (Sebeş)         sehir    45.96,23.57 s/macaristan yerlesimler_zincir64.js
+Dömeke                     sehir    39.13,22.30 s/bizans yerlesimler_zincir64.js
+Bileća                     sehir    42.88,18.43 s/bosna-kralligi yerlesimler_zincir64.js
+Kumanova                   sehir    42.13,21.72 s/bizans yerlesimler_zincir64.js
+Zenta                      sehir    45.93,20.08 s/macaristan yerlesimler_zincir64.js
+Missolonghi                sehir    38.37,21.43 s/epir-despotlugu yerlesimler_zincir64.js
+Yanbolu (Yambol)           sehir    42.48,26.50 s/bulgar-carligi yerlesimler_zincir64.js
+Drivasto                   sehir    42.12,19.59 s/sirbistan-nemanjic yerlesimler_zincir64.js
+Versec                     sehir    45.12,21.30 s/macaristan yerlesimler_zincir64.js
+Facset                     sehir    45.85,22.18 s/macaristan yerlesimler_zincir64.js
+Mehádia                    sehir    44.90,22.37 s/macaristan yerlesimler_zincir64.js
+Csákóvár                   sehir    45.51,21.13 s/macaristan yerlesimler_zincir64.js
+Hisarcık (Grocka)          sehir    44.67,20.72 s/sirbistan-nemanjic yerlesimler_zincir64.js
+Kozluca                    sehir    43.33,27.60 s/bulgar-carligi yerlesimler_zincir64.js
+Ayastefanos (Yeşilköy)     sehir    40.96,28.82 s/bizans yerlesimler_zincir64.js
+Barcs                      sehir    45.96,17.46 s/macaristan yerlesimler_zincir64.js
+Kırkağaç                   sehir    39.11,27.67 s/bizans yerlesimler_zincir64.js
+Adakale                    sehir    44.72,22.45 s/macaristan yerlesimler_zincir64.js
+Fokşani (Focşani)          sehir    45.70,27.18 s/altinorda yerlesimler_zincir64.js
+Blagay                     sehir    43.26,17.89 s/bosna-kralligi yerlesimler_zincir64.js
+Klokotnitsa                sehir    41.99,25.50 s/bulgar-carligi yerlesimler_sahne1108.js
+Gabrovo                    sehir    42.87,25.32 s/bulgar-carligi yerlesimler_sahne1108.js
+Kosova Ovası (Kosovo Polje sehir    42.72,21.09 s/sirbistan-nemanjic yerlesimler_sahne1108.js
+Takova (Takovo)            sehir    44.04,20.39 s/sirbistan-nemanjic yerlesimler_sahne1108.js
+Világos (Şiria)            sehir    46.26,21.60 s/macaristan yerlesimler_sahne1108.js
+303
