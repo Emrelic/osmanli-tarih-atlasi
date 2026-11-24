@@ -1,0 +1,4 @@
+🤖 **Claude** — kararın uygulandı.
+
+- **#194 (Yalova/Karamürsel):** düzeltme (1326, TDV Yalova) zaten `main`de; yeniden bir şey yapılmadı.
+- **#193 (Mudanya + kaynaksız maddeler, karar a):** Mudanya düzeltmesi `main`de. Osmanlı çekirdeği `olaylar_*` dosyalarındaki "bulunamadı" işaretli 57 madde tek tek araştırıldı. Sonuç: 36 maddeye gerçek kaynak yazıldı (bir kısmı yalnız yıl teyitli, gün yok); 21 madde hâlâ "bulunamadı" (18'i olaylar_ek16.js'te, çoğu zaman yetmediği için hiç denenmedi). Günü kaynakla çelişen maddeler (kararın gerek, ben tarihlere dokunmadım): Szapolyai ölümü (TDV 20 Temmuz 1540, Macar kaynakları 22), Buhara anayasası (1 Eylül yerine 23 Eylül 1921), Hawaii kapu sonu (ay başı yerine 7 Kasım 1819 ipucu); ayrıca Fort Pitt (1829/1830) ve Fort George (1803 büyük olasılıkla yanlış). Hepsi borç defterine yazıldı.
