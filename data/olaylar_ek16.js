@@ -145,7 +145,7 @@ window.OLAYLAR_EK16 = [
   yer:"Helsinki, Turku (Åbo), Tampere, Oulu, Kuopio, Vaasa, Mikkeli, Hämeenlinna, Pori, Jyväskylä",
   yer_id:"Helsinki", kisiler:"Kurt Ludwig von Stedingk, Nikolay Rumyantsev",
   d:"1808-1809 Rus-İsveç Savaşı'nı sona erdiren Fredrikshamn (bugünkü Hamina) Antlaşması 17 Eylül 1809'da imzalandı; İsveç, Åland Adaları dahil bütün Finlandiya'yı Rusya'ya bıraktı. Finlandiya, Rus İmparatorluğu'na bağlı geniş özerkliğe sahip bir Büyük Dükalık statüsüne kavuştu ve Luteran inancıyla İsveç hukukunu korudu. Bu, İsveç'in Baltık'taki büyük güç statüsünün fiilen sona ermesi anlamına geliyordu. Bu antlaşmayla Finlandiya'nın altı eyaleti ve Torne nehrine kadar Västerbotten (Kokkola, Joensuu, Savonlinna, Tornio, Rovaniemi, İnari vd.) Rusya'ya bağlı Finlandiya Büyük Dükalığı'na geçti.", ic_not_d:"⚠️ TDV'de bu antlaşmanın müstakil maddesi yoktur; dayanak standart akademik kaynak (Encyclopaedia Britannica, 'Treaty of Hamina').",
-  kaynak:"bulunamadı · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): Petri Karonen, 'The Peace Treaty of Fredrikshamn and its Aftermath in Sweden and Finland', Sjuttonhundratal 2010, s. 170-171 (septentrio.uit.no/index.php/1700/article/download/2425/2250/9201)", duygu:["😔"] },
+  kaynak:"Petri Karonen, 'The Peace Treaty of Fredrikshamn and its Aftermath in Sweden and Finland', Sjuttonhundratal 2010, s. 170-171: «signed after a month's negotiations on September 17, 1809» (okundu 24.11.2026; TDV'de müstakil madde yok) · gün teyitli · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): Petri Karonen, 'The Peace Treaty of Fredrikshamn and its Aftermath in Sweden and Finland', Sjuttonhundratal 2010, s. 170-171 (septentrio.uit.no/index.php/1700/article/download/2425/2250/9201)", duygu:["😔"] },
 
 { onem:4, dunya:2, bolge_onem:4, puan_s:"v2", tur:"antlasma", bolge:1, t:"1814-01-14", k:"antlasma", etiket:["toprak-kazanc","toprak-kayip","konu-askeri","konu-diplomasi"],
   kapsam:"dis", b:"Kiel Antlaşması — Danimarka'nın Norveç'i İsveç'e bırakışı",
@@ -153,7 +153,7 @@ window.OLAYLAR_EK16 = [
   yer:"Bergen, Trondheim, Oslo, Stavanger, Tromsø, Bodø, Ålesund, Hamar, Kristiansund, Molde, Alta, Vardø, Kristiansand, Haugesund, Lillehammer, Skien, Sogndal, Tønsberg, Mosjøen, Røros",
   yer_id:"Oslo", kisiler:"VI. Frederik, XIII. Karl",
   d:"Napolyon'un Leipzig'de yenilgisinin ardından Danimarka'ya güneyden saldıran İsveç, 14 Ocak 1814'te imzalanan Kiel Antlaşması ile Norveç'i (İzlanda, Faroe Adaları ve Grönland hariç) devraldı — 1380'den beri süren Danimarka-Norveç birliği böylece resmen sona erdi. Karşılığında İsveç, Pomeranya'daki topraklarını Danimarka'ya bıraktı; Danimarka ayrıca Helgoland'ı İngiltere'ye devretti. Norveç antlaşmaya silahla direnip kendi anayasasını ilân etti ve İsveç bunu tanımak zorunda kaldı — sonuç, 1905'e kadar sürecek bir kişisel birlik (real union) oldu. İsveç Norveç'i fiilen devralamadı: antlaşma Norveç'te kabul edilmedi ve idare Christian Frederik'te kaldı; İsveç ordusu Norveç'e ancak 26 Temmuz 1814'te girdi.", ic_not_d:"⚠️ TDV'de bu antlaşmanın müstakil maddesi yoktur; dayanak standart akademik kaynak (Encyclopaedia Britannica, 'Treaty of Kiel').",
-  kaynak:"bulunamadı · NOR-03 (gece-119, KASA PAZAR 6 Kasım 2026): Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen): «Kieltraktaten ble ikke godtatt i Norge. Der ble det et opprør under ledelse av stattholderen , kronprins Christian Frederik .» ; «26. juli 1814 gikk svenske tropper til angrep på Norge.» ; SNL «Kieltraktaten» (Øystein Lydik Idsø Viken): «Kieltraktaten er ein fredstraktat underteikna 14. januar 1814 mellom den svenske og den danske kongen.»", duygu:["😔","👑"] },
+  kaynak:"Store norske leksikon, «Kieltraktaten» (Øystein Lydik Idsø Viken; https://snl.no/Kieltraktaten): 14 Ocak 1814, Kiel; Norveç «skal for fremtiden tilhøre kongen av Sverige» (okundu 24.11.2026; gün teyitli; TDV'de müstakil madde yok) · NOR-03 (gece-119, KASA PAZAR 6 Kasım 2026): Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen): «Kieltraktaten ble ikke godtatt i Norge. Der ble det et opprør under ledelse av stattholderen , kronprins Christian Frederik .» ; «26. juli 1814 gikk svenske tropper til angrep på Norge.» ; SNL «Kieltraktaten» (Øystein Lydik Idsø Viken): «Kieltraktaten er ein fredstraktat underteikna 14. januar 1814 mellom den svenske og den danske kongen.»", duygu:["😔","👑"] },
 
 { dunya:2, bolge_onem:4, puan_s:"v2", bolge:1, t:"1861-02-13", k:"kayip", etiket:["toprak-kayip","konu-askeri"],
   kapsam:"dis", onem:3, b:"Gaeta Kuşatması'nın sonu — İki Sicilya Krallığı'nın çöküşü",
@@ -262,7 +262,7 @@ window.OLAYLAR_EK16 = [
   yer:"Milano, Brüksel, Anvers (Antwerpen), Gent, Brüj (Brugge), Namur, Mons, Tournai, Ypres, Lüksemburg",
   yer_id:"Milano", kisiler:"VI. Karl (Avusturya), XIV. Louis",
   d:"İspanyol Veraset Savaşı'nı Fransa ile Avusturya arasında sona erdiren Rastatt Antlaşması 7 Mart 1714'te imzalandı (Utrecht 1713'te İngiltere-Fransa arasını düzenlemişti); antlaşmayla Avusturya Habsburgları, İspanyol Hollandası'nı (bugünkü Belçika) ve İtalya'daki Napoli, Milano ve Sardunya'yı devraldı. Bu, Avusturya'nın tarihindeki en geniş toprak genişlemesiydi ve Habsburg hanedanının Orta Avrupa'daki ağırlığına Batı ve Güney Avrupa'da yeni bir cephe ekledi.",
-  kaynak:"bulunamadı — TDV bu antlaşmayı müstakil ele almıyor, dayanak: standart akademik kaynak (Treaty of Rastatt tarihyazımı)", duygu:["⚔️"] },
+  kaynak:"C. A. Macartney, 'The Habsburg Dominions', The New Cambridge Modern History, c. VII, ed. J. O. Lindsay, Cambridge UP 1957, s. 391-415: «on 7 March 1714, Prince Eugene signed, in Charles's name, the Peace of Rastatt» (cambridge.org özet sayfası, okundu 24.11.2026); Milano/İspanyol Hollandası Avusturya'ya geçişi için ayrıca Columbia Encyclopedia 'Rastatt' (encyclopedia.com) · TDV'de müstakil madde yok", duygu:["⚔️"] },
 
 { onem:5, dunya:3, bolge_onem:5, puan_s:"v2", tur:"antlasma", bolge:4, ic_not_bolge:"KRON-BOLGE-1110 (Emre, 10 Kasım 2026, öneri listesi onayı): 3→4 — Nystad Rusya'yı Baltık'tan serbest bıraktı; Petro'nun 1722-1723 İran seferine ve 1724 Osmanlı-Rus paylaşımına giden yol", t:"1721-09-10", k:"antlasma", etiket:["toprak-kayip","konu-askeri","konu-diplomasi"],
   kapsam:"dis", b:"Nystad Antlaşması — Büyük Kuzey Savaşı sona erdi, Baltık kıyıları Rusya'ya geçti",
@@ -279,7 +279,7 @@ window.OLAYLAR_EK16 = [
   yer:"Brüksel, Anvers (Antwerpen), Gent, Brüj (Brugge), Namur, Mons, Tournai, Liège, Lüksemburg, Cenova, Varşova, Stralsund, Ypres, Elba",
   yer_id:"Brüksel", kisiler:"Metternich, Talleyrand, I. Aleksandr, VIII. Willem (Hollanda)",
   d:"Napolyon Savaşları'nı sona erdiren büyük devletler (Avusturya, Rusya, Prusya, İngiltere, Fransa) arasında imzalanan Viyana Kongresi Nihai Senedi 9 Haziran 1815'te (Waterloo'dan 9 gün önce) kabul edildi ve kıtanın haritasını topluca yeniden çizdi: eski İspanyol/Avusturya Hollandası ile Birleşik Eyaletler 'Birleşik Hollanda Krallığı' altında birleşti, Ceneviz Cumhuriyeti Sardinya-Piyemonte Krallığı'na katıldı, Varşova Dükalığı'nın büyük kısmı 'Kongre Polonyası' adıyla Rusya'ya bağlandı ve İsveç Pomeranyası (Stralsund) Prusya'ya geçti. Bu tek gün, savaş sonrası Avrupa dengesinin (Concert of Europe) resmî başlangıcı sayılır. Bu senetle Łódź, Częstochowa, Kielce, Radom, Lublin, Chełm ve Zamość (Varşova Dükalığı) Rusya'ya bağlı Polonya Krallığı'na, Poznań (Posen Büyük Dükalığı) Prusya'ya, Maastricht ve Roermond Hollanda Krallığı'na geçti.",
-  kaynak:"bulunamadı — TDV bu olayı müstakil ele almıyor, dayanak: standart akademik kaynak (Congress of Vienna / Final Act tarihyazımı) · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): Acte final du Congrès de Vienne, 9 juin 1815 — Digithèque MJP (mjp.univ-perp.fr/traites/1815vienne.htm, md. 1-64; 1815vienne2.htm, md. 65-121)", duygu:["😔"] },
+  kaynak:"Final Act of the Congress of Vienna, 9 Haziran 1815, md. 65 (Kajima Institute, Modern International Relations: Basic Documents, c. 1, s. 656-659; metin worldjpn.net/documents/texts/pw/18150609.O1E.html): eski Birleşik Eyaletler ve Belçika eyaletleri «Prince of Orange-Nassau» egemenliğinde Hollanda Krallığı (okundu 24.11.2026; birincil belge neşri; TDV'de müstakil madde yok) · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): Acte final du Congrès de Vienne, 9 juin 1815 — Digithèque MJP (mjp.univ-perp.fr/traites/1815vienne.htm, md. 1-64; 1815vienne2.htm, md. 65-121)", duygu:["😔"] },
 
 { dunya:2, bolge_onem:3, puan_s:"v2", bolge:3, t:"1509-05-17", k:"fetih", etiket:["toprak-kayip","konu-askeri"],
   kapsam:"dis", onem:4, b:"Oran'ın İspanya'ya düşüşü — Kardinal Cisneros'un Kuzey Afrika seferi",
@@ -295,7 +295,7 @@ window.OLAYLAR_EK16 = [
   yer:"Smolensk",
   yer_id:"Smolensk", kisiler:"III. Zygmunt (Lehistan), Şeyn (Rus komutan)",
   d:"Kargaşalar Dönemi'nde (Smuta) Lehistan Kralı III. Zygmunt'un ordusu, Eylül 1609'dan beri kuşattığı Smolensk'in surlarına 13 Haziran 1611'de bir lağım patlatarak gedik açtı ve şehri ele geçirdi; 20 aylık direniş sona erdi. Smolensk 1654'e kadar Lehistan-Litvanya'da kaldı ve bu düşüş, yedi yıl sonra imzalanacak Deulino Mütarekesi'nin (1618) zeminini hazırladı.",
-  kaynak:"bulunamadı — TDV bu kuşatmayı müstakil ele almıyor, dayanak: standart akademik kaynak (Siege of Smolensk 1609-1611 tarihyazımı)", duygu:["😔"] },
+  kaynak:"bulunamadı — TDV bu kuşatmayı müstakil ele almıyor, dayanak olarak adlandırılmış kaynak YOK; 24.11.2026: akademik kaynak denenmedi (bütçe) — «standart akademik kaynak» boş vaattir", duygu:["😔"] },
 
 { onem:3, dunya:2, bolge_onem:3, puan_s:"v2", tur:"antlasma", bolge:1, t:"1617-03-09", k:"antlasma", etiket:["toprak-kayip","konu-askeri","konu-diplomasi"],
   kapsam:"dis", b:"Stolbova Antlaşması — Rusya Baltık kıyısını (İngriya) İsveç'e kaybetti",
@@ -303,7 +303,7 @@ window.OLAYLAR_EK16 = [
   yer:"St. Petersburg (bölgesi), Oreşek (Nöteborg)",
   yer_id:"St. Petersburg", kisiler:"XVI. (Genç) Gustav Adolf, I. Mihail Romanov",
   d:"İngriya Savaşı'nı sona erdiren Stolbova Antlaşması, 27 Şubat 1617'de Ladoga Gölü güneyindeki Stolbova köyünde imzalandı; Rusya, Novgorod ve kuzeydeki diğer topraklarını geri alırken, İsveç Karelya ve İngriya'yı (Estonya-Finlandiya arası, İvangorod-Yam-Koporye-Oreşek kaleleri dahil) elinde tuttu ve Rusya'nın Baltık'a doğrudan kıyısı kesildi. Bu kesinti, 1703'te Büyük Petro'nun aynı bölgede St. Petersburg'u kurmasına kadar sürecekti.",
-  kaynak:"bulunamadı — TDV bu antlaşmayı müstakil ele almıyor, dayanak: standart akademik kaynak (Treaty of Stolbovo tarihyazımı)", duygu:["😔"] },
+  kaynak:"Adrian Selin, 'The Stolbovo Treaty and Tracing the Border in Ingria in 1617-1618', içinde A. Jönsson ve A. Vetushko-Kalevich (ed.), Sweden, Russia, and the 1617 Peace of Stolbovo, Brepols 2023, s. 99-118 (özet: publications.hse.ru/en/view/877283589): «On February, 27, 1617 the peace Treaty ... was signed» (Jülyen; Gregoryen 9 Mart 1617 — tarih çevirisi), okundu 24.11.2026 · TDV'de müstakil madde yok", duygu:["😔"] },
 
 { onem:3, dunya:1, bolge_onem:3, puan_s:"v2", tur:"antlasma", bolge:2, t:"1618-12-11", k:"antlasma", etiket:["toprak-kayip","konu-askeri","konu-diplomasi"],
   kapsam:"dis", b:"Deulino Mütarekesi — Smolensk, Çernigov ve Novgorod-Seversk Lehistan'a bırakıldı",
@@ -311,7 +311,7 @@ window.OLAYLAR_EK16 = [
   yer:"Smolensk, Çernigov, Novgorod-Seversk",
   yer_id:"Çernigov", odak_yer:["Çernigov","Novgorod-Seversk"], kisiler:"Władysław (veliaht prens), I. Mihail Romanov",
   d:"1609-1618 Lehistan-Rus Savaşı'nı sona erdiren Deulino Mütarekesi, 11 Aralık 1618'de imzalandı ve 14,5 yıllık bir ateşkes sağladı; Rusya, Smolensk (Vyazma hariç) ile Çernigov ve Novgorod-Seversk bölgelerindeki 29 şehri Lehistan-Litvanya Birliği'ne bırakmak zorunda kaldı — bu, Kargaşalar Dönemi'nin (Smuta) en ağır toprak kaybıydı. Bölge 1667 Andrusovo Mütarekesi'ne kadar Lehistan'da kalacaktı.",
-  kaynak:"bulunamadı — TDV bu antlaşmayı müstakil ele almıyor, dayanak: standart akademik kaynak (Truce of Deulino tarihyazımı)", duygu:["😔"] },
+  kaynak:"bulunamadı — TDV bu antlaşmayı müstakil ele almıyor, dayanak olarak adlandırılmış kaynak YOK; 24.11.2026: akademik kaynak denenmedi (bütçe) — «standart akademik kaynak» boş vaattir", duygu:["😔"] },
 
 { onem:4, dunya:2, bolge_onem:4, puan_s:"v2", tur:"antlasma", bolge:4, t:"1654-01-18", ic_not_takvim:"TAKVİM-1015 (Emre #10: atlas günleri Gregoryen, Jülyen gün çevrildi): Jülyen 1654-01-08 (Pereyaslav Radası; ESBE «Переяславская рада» '8 января 1654 г.', eski takvim) = Gregoryen 1654-01-18", k:"antlasma", etiket:["toprak-kazanc","konu-askeri","konu-diplomasi"],
   kapsam:"dis", b:"Pereyaslav Radası — Zaporojye Kazakları Rus çarına bağlılık yemini etti",
@@ -319,7 +319,7 @@ window.OLAYLAR_EK16 = [
   yer:"Çernigov, Novgorod-Seversk, Baturin, Sloboda bozkırı",
   yer_id:"Çernigov", odak_yer:["Çernigov","Novgorod-Seversk","Sloboda bozkırı"], kisiler:"Bohdan Hmelnitski, I. Aleksey Mihayloviç",
   d:"1648'den beri Lehistan-Litvanya'ya karşı ayaklanan Zaporojye Kazakları Hetmanı Bohdan Hmelnitski, Moskova'dan Vasili Buturlin başkanlığında gelen heyetin katıldığı 18 Ocak 1654 (Jülyen 8 Ocak) tarihli Pereyaslav Radası'nda Çar I. Aleksey Mihayloviç'e bağlılık yemini etti; bu, Ukrayna Kazak Hetmanlığı'nın Rusya himayesine girişinin başlangıcı sayılır ve Çernigov-Seversk bölgesinin fiilî denetimini Lehistan'dan Rusya'ya kaydırdı — resmî sınır ise 1667 Andrusovo Mütarekesi'yle çizilecekti.",
-  kaynak:"bulunamadı — TDV bu olayı müstakil ele almıyor, dayanak: standart akademik kaynak (Pereyaslav Council 1654 tarihyazımı)", duygu:["😔"] },
+  kaynak:"bulunamadı — TDV bu olayı müstakil ele almıyor, dayanak: ESBE «Переяславская рада» '8 января 1654 г.' (ic_not_takvim'den; bu oturumda OKUNMADI); akademik kaynak 24.11.2026 denenmedi (bütçe)", duygu:["😔"] },
 
 { onem:3, dunya:1, bolge_onem:3, puan_s:"v2", bolge:2, t:"1654-10-03", k:"fetih", etiket:["toprak-kazanc","konu-askeri"],
   kapsam:"dis", b:"Smolensk'in Rusya tarafından geri alınışı",
@@ -327,7 +327,7 @@ window.OLAYLAR_EK16 = [
   yer:"Smolensk",
   yer_id:"Smolensk", kisiler:"I. Aleksey Mihayloviç",
   d:"1654'te başlayan Lehistan-Rus Savaşı sırasında Rus ordusu Temmuz'dan beri kuşattığı Smolensk'i 3 Ekim 1654'te Lehistan garnizonunun teslim olmasıyla geri aldı; 1611'de Lehistan'a kaybedilen şehir 43 yıl sonra Rusya'ya döndü. Bu, Rusya'nın Kargaşalar Dönemi kayıplarını tersine çevirme sürecinin en önemli adımlarından biriydi ve 1667 Andrusovo Mütarekesi'yle kalıcı hâle geldi.",
-  kaynak:"bulunamadı — TDV bu kuşatmayı müstakil ele almıyor, dayanak: standart akademik kaynak (Siege of Smolensk 1654 tarihyazımı)", duygu:["😔"] },
+  kaynak:"bulunamadı — TDV bu kuşatmayı müstakil ele almıyor, dayanak olarak adlandırılmış kaynak YOK; 24.11.2026: akademik kaynak denenmedi (bütçe) — «standart akademik kaynak» boş vaattir", duygu:["😔"] },
 
 { onem:4, dunya:2, bolge_onem:4, puan_s:"v2", tur:"antlasma", bolge:3, t:"1667-02-09", ic_not_takvim:"TAKVİM-1015 (Emre #10: atlas günleri Gregoryen; gün DEĞİŞMEDİ, iptal edilen 1e8b2db53'ün hedefiydi): Jülyen 1667-01-30 (Andrusovo Mütarekesi; VE (Sytin) «Андрусовское перемирие» '30 янв. 1667 г.', eski takvim) = Gregoryen 1667-02-09", k:"antlasma", etiket:["toprak-kayip","konu-askeri","konu-diplomasi"],
   kapsam:"dis", b:"Andrusovo Mütarekesi — Kiev ve Sol Yaka Ukrayna Rusya'ya geçti",
@@ -335,7 +335,7 @@ window.OLAYLAR_EK16 = [
   yer:"Kiev",
   yer_id:"Kiev", kisiler:"I. Aleksey Mihayloviç, II. Jan Kazimierz",
   d:"1654-1667 Lehistan-Rus Savaşı'nı sona erdiren Andrusovo Mütarekesi 13,5 yıllık bir ateşkes sağladı; Rusya, Smolensk, Çernigov-Seversk bölgesi ile Dinyeper'in sol yakasındaki Ukrayna'yı ve — başlangıçta iki yıllığına, fiilen kalıcı olarak — Kiev şehrini kazandı. Bu antlaşma, Ukrayna topraklarının Dinyeper boyunca Lehistan ve Rusya arasında bölünmesinin (ve Kiev'in Rusya'da kalmasının) hukuki temelini attı.",
-  kaynak:"bulunamadı — TDV bu antlaşmayı müstakil ele almıyor, dayanak: standart akademik kaynak (Truce of Andrusovo tarihyazımı)", duygu:["😔"] },
+  kaynak:"bulunamadı — TDV bu antlaşmayı müstakil ele almıyor, dayanak: VE (Sytin) «Андрусовское перемирие» '30 янв. 1667 г.' (ic_not_takvim'den; bu oturumda OKUNMADI); akademik kaynak 24.11.2026 denenmedi (bütçe)", duygu:["😔"] },
 
 { onem:4, dunya:2, bolge_onem:4, puan_s:"v2", tur:"kurulus", bolge:2, t:"1703-05-27", k:"kurulus", etiket:["toprak-kazanc","konu-askeri","konu-siyasi"],
   kapsam:"dis", b:"St. Petersburg'un kuruluşu — Rusya'nın Batı'ya açılan penceresi",
@@ -343,7 +343,7 @@ window.OLAYLAR_EK16 = [
   yer:"St. Petersburg",
   yer_id:"St. Petersburg", kisiler:"I. Petro (Büyük Petro)",
   d:"Büyük Kuzey Savaşı sırasında İsveç'ten yeni geri alınan Neva deltasındaki Tavşan Adası'nda, Büyük Petro 16/27 Mayıs 1703'te Petropavlovsk Kalesi'nin (Peter-Pavel Kalesi) temelini attı; bu gün St. Petersburg şehrinin kuruluş tarihi kabul edilir. Petro, bataklık deltayı Batı'ya açılan 'pencere' olarak tasarladı ve şehir 1712'de Rusya'nın yeni başkenti oldu — bölge resmen 1721 Nystad Antlaşması'yla Rusya'ya bağlanacaktı.",
-  kaynak:"bulunamadı — TDV bu olayı müstakil ele almıyor, dayanak: standart akademik kaynak (founding of Saint Petersburg tarihyazımı)", duygu:["🎉"] },
+  kaynak:"bulunamadı — TDV bu olayı müstakil ele almıyor, dayanak olarak adlandırılmış kaynak YOK; 24.11.2026: akademik kaynak denenmedi (bütçe) — «standart akademik kaynak» boş vaattir", duygu:["🎉"] },
 
 { onem:3, dunya:2, bolge_onem:3, puan_s:"v2", tur:"antlasma", bolge:1, t:"1802-03-25", k:"antlasma", etiket:["toprak-kazanc","konu-askeri","konu-diplomasi"],
   kapsam:"dis", b:"Amiens Antlaşması — Menorka İspanya'ya geri verildi",
@@ -351,7 +351,7 @@ window.OLAYLAR_EK16 = [
   yer:"Menorka (Mahon)",
   yer_id:"Menorka (Mahon)", kisiler:"III. George, IV. Carlos",
   d:"Fransa, İspanya, Hollanda ve İngiltere arasında imzalanan Amiens Antlaşması (25 Mart 1802), İkinci Koalisyon Savaşı'nı geçici olarak sona erdirdi; İngiltere, savaş sırasında ele geçirdiği hemen bütün toprakları (Seylan ve Trinidad hariç) iade etti — bunlardan biri de 1798'de İspanya'dan alınan Menorka'ydı. Barış yalnız bir yıl sürdü, Mayıs 1803'te savaş yeniden patlak verdi, ama Menorka bu antlaşmadan sonra bir daha İngiliz eline geçmedi.",
-  kaynak:"bulunamadı — TDV bu antlaşmayı müstakil ele almıyor, dayanak: standart akademik kaynak (Treaty of Amiens tarihyazımı)", duygu:["😔"] },
+  kaynak:"Amiens Definitive Treaty of Peace, Amiens 4 Germinal yıl 10 = 25 Mart 1802, md. III: İngiltere ele geçirdiği bütün sömürge ve mülkleri geri verir, yalnız Trinidad ve Hollanda'nın Seylan mülkleri hariç «with the exception of the island of Trinidad» (metin napoleon-empire.org/en/official-texts/treaty-of-amiens.php, birincil belge metni, okundu 24.11.2026); Menorka adı maddede geçmez, iade genel hükümden (md. III) çıkar · TDV'de müstakil madde yok", duygu:["😔"] },
 
 { onem:3, dunya:2, bolge_onem:3, puan_s:"v2", tur:"antlasma", bolge:2, t:"1820-01-08", k:"antlasma", etiket:["toprak-kayip","konu-askeri","konu-diplomasi"],
   kapsam:"dis", b:"Genel Deniz Antlaşması — Kavâsım ve öteki Körfez şeyhlikleri İngiltere'yle antlaşmaya bağlandı",
@@ -368,7 +368,7 @@ window.OLAYLAR_EK16 = [
   yer:"Riyad, Dir'iye (Necid), Buraydâ (Kasîm), Uneyze, Şakrâ, Necid içi, Necid güneyi, Necid güneybatısı",
   yer_id:"Riyad", odak_yer:["Riyad","Necid içi","Uneyze","Şakrâ","Havta (Havtat Benî Temîm)"], kisiler:"Muhammed bin Reşîd, Abdurrahman bin Faysal (Suud)",
   d:"Zekât anlaşmazlığı ve bir Reşîdî elçisinin tutuklanması üzerine bozulan ilişkiler sonunda, Cebel Şammar emîri Muhammed bin Reşîd'in ordusu, 21 Ocak 1891'de Kasîm bölgesindeki Müleydâ'da Abdurrahman bin Faysal liderliğindeki Suud kuvvetlerini ve müttefiklerini ağır bir yenilgiye uğrattı; bu, İkinci Suud Devleti'nin fiilî sonu oldu, Al Suud ailesi Küveyt'e sürgüne gitti ve Necid'in tamamı Râşidî hâkimiyetine girdi; güneydeki Dilem (Harc), Havta (Havtat Benî Temîm) ve Leylâ (Eflâc) yöreleri de bunun içindeydi. Hâkimiyet 1902'de genç Abdülaziz bin Suud'un Riyad'ı geri almasına kadar (Riyad Baskını, 16 Ocak 1902) sürecekti.",
-  kaynak:"bulunamadı — TDV bu savaşı müstakil ele almıyor, dayanak: standart akademik kaynak (Battle of Mulayda tarihyazımı)", duygu:["⚔️"] },
+  kaynak:"TDV İslâm Ansiklopedisi, «Suûdîler» (Zekeriya Kurşun; islamansiklopedisi.org.tr/suudiler): «1891'de Suûd ailesi tamamen Riyad'dan çıkarıldı»; «Reşîdîler» maddesi: Riyad 1891-1902 Reşîdîler yönetiminde (okundu 24.11.2026) [yalnız yıl teyitli; gün teyitsiz — Müleyda gün/ay bulunamadı]", duygu:["⚔️"] },
 
 { onem:5, dunya:3, bolge_onem:4, puan_s:"v2", bolge:4, ic_not_bolge:"KRON-DUNYA-BOLGE-1109: 3→4 — Endülüs'ün son Müslüman devletinin sonu; Endülüs'ten Osmanlı'ya yardım çağrısı, Kemal Reis'in Endülüs seferi ve Sefarad göçü buna bağlanır.", t:"1492-01-02", k:"fetih", etiket:["toprak-kayip","konu-askeri"],
   kapsam:"dis", b:"Granada'nın düşüşü — İber Yarımadası'nda son Müslüman devletin sonu",
@@ -376,7 +376,7 @@ window.OLAYLAR_EK16 = [
   yer:"Granada",
   yer_id:"Granada", kisiler:"Ebû Abdullah (Boabdil), Kastilyalı Isabel, Aragonlu Fernando",
   d:"On yıl süren aşamalı bir kuşatma ve iç bölünmelerle zayıflayan Granada Nasrî Emirliği'nin son hükümdarı Ebû Abdullah (Boabdil), Kasım 1491'de imzalanan cömert teslim şartları (Granada Kapitülasyonları) uyarınca 2 Ocak 1492'de şehrin anahtarlarını Katolik Kralları Fernando ve Isabel'e teslim etti; Elhamra'dan ayrılan Boabdil'in ardından İber Yarımadası'ndaki son Müslüman devlet sona erdi ve Reconquista tamamlandı. Aynı yıl içinde Yahudilerin sürülmesi (Mart) ve Kristof Kolomb'un yolculuğu (Ağustos) izleyecekti.",
-  kaynak:"bulunamadı — TDV bu olayı müstakil ele almıyor, dayanak: standart akademik kaynak (Fall of Granada / Reconquista tarihyazımı)", duygu:["😔"] },
+  kaynak:"TDV İslâm Ansiklopedisi, «Gırnata» (Mehmet Özdemir; islamansiklopedisi.org.tr/girnata): «2 Ocak 1492'de hıristiyan kuvvetleri Gırnata'ya girdi» (okundu 24.11.2026; gün teyitli)", duygu:["😔"] },
 
 { onem:4, dunya:2, bolge_onem:4, puan_s:"v2", tur:"antlasma", bolge:1, t:"1466-10-19", k:"antlasma", etiket:["toprak-kayip","konu-askeri","konu-diplomasi"],
   kapsam:"dis", b:"İkinci Thorn Antlaşması — Danzig (Gdańsk) ve Batı Prusya Lehistan'a bağlandı",
@@ -384,7 +384,7 @@ window.OLAYLAR_EK16 = [
   yer:"Gdansk",
   yer_id:"Gdansk", kisiler:"IV. Kazimierz (Lehistan)",
   d:"Prusya Konfederasyonu'nun 1454'te Alman Şövalyeleri (Teutonic Order) yönetimine karşı ayaklanmasıyla başlayan On Üç Yıl Savaşları'nı sona erdiren İkinci Thorn (Toruń) Antlaşması, 19 Ekim 1466'da imzalandı; Şövalyeler, Danzig'i (Gdansk) içeren Doğu Pomeranya'yı, Elbing'i (Elbląg) içeren Vistül ağzını ve Kulm bölgesini Lehistan Krallığı'na bıraktı — bu topraklar 'Kraliyet Prusyası' adını aldı. Doğu Prusya ise 1525'e kadar Şövalyeler'de kalacaktı.",
-  kaynak:"bulunamadı — TDV bu antlaşmayı müstakil ele almıyor, dayanak: standart akademik kaynak (Second Peace of Thorn 1466 tarihyazımı)", duygu:["😔"] },
+  kaynak:"Karin Friedrich, The Other Prussia: Royal Prussia, Poland and Liberty, 1569-1772, Cambridge UP 2000, 'Introduction' s. 1-19: savaş «ending in 1466, with the Second Peace of Thorn» (cambridge.org özet, okundu 24.11.2026) [yalnız yıl teyitli; gün teyitsiz — 19 Ekim doğrulanamadı; Oxford Reference sayfası 403]", duygu:["😔"] },
 
 { onem:4, dunya:2, bolge_onem:3, puan_s:"v2", bolge:2, t:"1797-06-14", k:"siyaset", etiket:["toprak-kayip","konu-askeri","konu-siyasi"],
   kapsam:"dis", b:"Cenova Cumhuriyeti'nin sonu — Napolyon Ligurya Cumhuriyeti'ni kurdu",
@@ -400,7 +400,7 @@ window.OLAYLAR_EK16 = [
   yer:"Malta",
   yer_id:"Malta", kisiler:"General Claude-Henri Vaubois, General Henry Pigot",
   d:"1798'de Mısır seferi yolunda Napolyon'un ele geçirdiği Malta, kısa süre sonra ada halkının ayaklanmasıyla İngiliz donanmasının deniz ablukasına girdi; iki yıl süren kuşatma ve açlık sonunda Fransız komutan General Vaubois, 5 Eylül 1800'de İngiliz General Pigot'a teslim oldu. Malta böylece Fransız Cumhuriyeti'nden İngiliz himayesine geçti ve 1814 Paris Antlaşması'yla resmen İngiliz tacına bağlanacaktı — Akdeniz'deki en önemli İngiliz deniz üssü hâline geldi.",
-  kaynak:"bulunamadı — TDV bu olayı müstakil ele almıyor, dayanak: standart akademik kaynak (Siege of Malta 1798-1800 tarihyazımı)", duygu:["😔"] },
+  kaynak:"TDV İslâm Ansiklopedisi, «Malta» (Metin Tuncel; islamansiklopedisi.org.tr/malta): «Malta 1800'de İngiltere tarafından işgal edildi» (okundu 24.11.2026) [yalnız yıl teyitli; gün teyitsiz — 5 Eylül gününü doğrulayan kaynak bulunamadı]", duygu:["😔"] },
 
 { onem:3, dunya:1, bolge_onem:3, puan_s:"v2", kapsam:"dis", bolge:4, t:"1810-03-04", ic_not_t:"20 Şubat 1810 O.S. → 4 Mart Gregoryen (KARARLAR gece-109; ESBE ipucu, BEYANLI; KASA PAZAR 5 Kasım 2026)", k:"siyaset", etiket:["toprak-kayip","konu-askeri","konu-siyasi","konu-darbe"],
   b:"İmereti Krallığı'nın ilhakı — Kral II. Solomon tahttan indirildi",
@@ -408,7 +408,7 @@ window.OLAYLAR_EK16 = [
   yer:"Kutaisi",
   yer_id:"Kutaisi", kisiler:"II. Solomon (İmereti), I. Aleksandr (Rusya)",
   d:"1804'te Elaznauri Sözleşmesi'yle Rus vasallığını kabul etmek zorunda kalan Batı Gürcü İmereti Krallığı'nın son kralı II. Solomon, artan Rus baskısına direnmeye devam edince, Rus birlikleri 20 Şubat 1810'da başkent Kutaisi'yi ele geçirdi, Solomon'u tahttan indirdi ve yerel soyluları Çar I. Aleksandr'a bağlılık yemini etmeye zorladı; İmereti Krallığı böylece fiilen sona erdi ve doğrudan Rus idaresine bağlandı. Solomon, Osmanlı topraklarına kaçarak sürgünde öldü (1815).",
-  kaynak:"bulunamadı — TDV bu olayı müstakil ele almıyor, dayanak: standart akademik kaynak (Kingdom of Imereti / Russian annexation 1810 tarihyazımı)", duygu:["😔"] },
+  kaynak:"bulunamadı — TDV bu olayı müstakil ele almıyor, dayanak: ESBE ipucu (ic_not_t'den; bu oturumda OKUNMADI); akademik kaynak 24.11.2026 denenmedi (bütçe)", duygu:["😔"] },
 
 { onem:3, dunya:2, bolge_onem:3, puan_s:"v2", bolge:1, t:"1452-10-23", k:"fetih", etiket:["toprak-kazanc","konu-askeri"],
   kapsam:"dis", b:"Bordeaux'nun İngiltere tarafından geri alınışı — John Talbot'ın son Gaskonya seferi",
@@ -416,7 +416,7 @@ window.OLAYLAR_EK16 = [
   yer:"Bordo",
   yer_id:"Bordo", kisiler:"John Talbot (Shrewsbury Kontu)",
   d:"1451'de Fransızlara kaybedilen Bordeaux, halkının Fransız garnizonuna karşı ayaklanıp kapıları açmasıyla, yaşlı komutan John Talbot liderliğindeki İngiliz ordusuna 22-23 Ekim 1452 gecesi teslim oldu; bu, Yüz Yıl Savaşları'nda İngiltere'nin Gaskonya'daki son ve kısa ömürlü zaferiydi. Bordeaux bir yıl sonra Castillon Savaşı'nın ardından kalıcı olarak Fransa'ya dönecekti.",
-  kaynak:"bulunamadı — TDV bu olayı müstakil ele almıyor, dayanak: standart akademik kaynak (Hundred Years' War / recapture of Bordeaux 1452 tarihyazımı)", duygu:["⚔️"] },
+  kaynak:"bulunamadı — TDV bu olayı müstakil ele almıyor, 24.11.2026: Vale, 'The Last Years of English Gascony 1451-1453', TRHS 19 (1969) s. 119-138 (cambridge.org özet sayfası) arandı — 23 Ekim 1452 günü o sayfadan okunamadı; bulunamadı", duygu:["⚔️"] },
 
 { onem:4, dunya:3, bolge_onem:4, puan_s:"v2", bolge:1, t:"1453-10-19", k:"fetih", etiket:["toprak-kayip","konu-askeri"],
   kapsam:"dis", b:"Bordeaux'nun Fransa'ya kalıcı dönüşü — Yüz Yıl Savaşları'nın fiilî sonu",
@@ -424,7 +424,7 @@ window.OLAYLAR_EK16 = [
   yer:"Bordo",
   yer_id:"Bordo", kisiler:"VII. Charles (Fransa)",
   d:"17 Temmuz 1453'te Castillon Savaşı'nda John Talbot'ın ölümü ve ordusunun yok olmasıyla Gaskonya'daki İngiliz direnci çöktü; kuşatma altındaki Bordeaux, 19 Ekim 1453'te Fransız kuvvetlerine teslim oldu. Bu teslim, 116 yıldır süren Yüz Yıl Savaşları'nın fiilen sona erdiği an kabul edilir (resmî bir barış antlaşması hiç imzalanmadı) ve İngiltere'nin Kıta Avrupası'ndaki hâkimiyetini Calais'e kadar daralttı.",
-  kaynak:"bulunamadı — TDV bu olayı müstakil ele almıyor, dayanak: standart akademik kaynak (Battle of Castillon / Hundred Years' War tarihyazımı)", duygu:["😔"] },
+  kaynak:"bulunamadı — TDV bu olayı müstakil ele almıyor, 24.11.2026: Vale, 'The Last Years of English Gascony 1451-1453', TRHS 19 (1969) s. 119-138 (cambridge.org özet sayfası) arandı — yalnız dipnotta 18 Ekim 1453 emri, Camoys harcamaları 17 Temmuz-20 Ekim 1453 görüldü; 19 Ekim teslim günü doğrulanamadı (yalnız yıl teyitli; gün teyitsiz)", duygu:["😔"] },
 
 { onem:2, dunya:1, bolge_onem:2, puan_s:"v2", bolge:1, t:"1708-09-29", k:"fetih", etiket:["toprak-kayip","konu-askeri"],
   kapsam:"dis", b:"Menorka'nın İngiltere-Hollanda kuvvetlerince ele geçirilişi",
@@ -432,7 +432,7 @@ window.OLAYLAR_EK16 = [
   yer:"Menorka (Mahon)",
   yer_id:"Menorka (Mahon)", kisiler:"General James Stanhope",
   d:"İspanyol Veraset Savaşı sırasında Avusturya arşidükü VI. Karl'ın müttefiki olarak hareket eden İngiliz-Hollanda kuvvetleri, General James Stanhope komutasında 14 Eylül 1708'de adaya çıktı ve 28-29 Eylül'de İspanyol savunmasını çökertip Menorka'nın kontrolünü ele geçirdi (ana kale Fort St. Philip'in resmî teslimi 24 Kasım'ı buldu). Menorka'nın stratejik limanı Mahon, sonraki bir asır boyunca İngiliz-Fransız-İspanyol mücadelesinin odağı olacaktı.",
-  kaynak:"bulunamadı — TDV bu olayı müstakil ele almıyor, dayanak: standart akademik kaynak (Capture of Minorca 1708 tarihyazımı)", duygu:["😔"] },
+  kaynak:"bulunamadı — TDV bu olayı müstakil ele almıyor, dayanak olarak adlandırılmış kaynak YOK; 24.11.2026: akademik kaynak denenmedi (bütçe) — «standart akademik kaynak» boş vaattir", duygu:["😔"] },
 
 { onem:3, dunya:1, bolge_onem:3, puan_s:"v2", bolge:1, t:"1866-10-18", k:"fetih", etiket:["toprak-kayip","konu-askeri"],
   kapsam:"dis", b:"Cizzah'ın (Jizzakh) Rusya'ya düşüşü — Buhara Emirliği'nin Sirderya hattındaki son kalesi",
@@ -440,7 +440,7 @@ window.OLAYLAR_EK16 = [
   yer:"Cizzah",
   yer_id:"Cizzah", kisiler:"General Dmitri Romanovski",
   d:"Rusya'nın Orta Asya'daki ilerleyişi sırasında General Çernyayev'in Şubat 1866'daki başarısız girişiminin ardından, yerine atanan General Dmitri Romanovski komutasındaki Rus kuvvetleri Ekim 1866'da yedi günlük bir kuşatma ve şiddetli bir saldırıyla Buhara Emirliği'nin Sirderya vadisindeki son büyük kalesi Cizzah'ı ele geçirdi; bu düşüş, bölgede Buhara direncini fiilen sona erdirdi ve Rus ordusunun Semerkant'a giden yolunu açtı.",
-  kaynak:"bulunamadı — TDV bu olayı müstakil ele almıyor, dayanak: standart akademik kaynak (Russian conquest of Central Asia / Battle of Jizzakh 1866 tarihyazımı)", duygu:["😔"] },
+  kaynak:"bulunamadı — TDV bu olayı müstakil ele almıyor, dayanak olarak adlandırılmış kaynak YOK; 24.11.2026: akademik kaynak denenmedi (bütçe) — «standart akademik kaynak» boş vaattir", duygu:["😔"] },
 
 { onem:3, dunya:2, bolge_onem:3, puan_s:"v2", bolge:2, t:"1882-03-10", k:"siyaset", etiket:["toprak-kayip","konu-askeri","konu-siyasi"],
   kapsam:"dis", b:"Assab'ın İtalyan devlet mülkiyetine geçişi — İtalya'nın ilk sömürgesinin temeli",
@@ -448,7 +448,7 @@ window.OLAYLAR_EK16 = [
   yer:"Aseb",
   yer_id:"Aseb", kisiler:"Rubattino Gemicilik Şirketi",
   d:"Kızıldeniz kıyısındaki Assab limanı 1869'da özel bir İtalyan gemicilik şirketi (Rubattino) tarafından yerel Afar liderlerinden satın alınmıştı; İngiltere'nin onayıyla İtalyan hükûmeti 10 Mart 1882'de limanın doğrudan devlet mülkiyetini üstlendi ve Temmuz'da çıkardığı yasayla Assab'ı resmen İtalya'nın ilk sömürgesi ilan etti. Bu, İtalya'nın sonradan Eritre Kolonisi'ne (1890) dönüşecek Kızıldeniz kıyısı yayılmasının başlangıç noktasıydı.",
-  kaynak:"bulunamadı — TDV bu olayı müstakil ele almıyor, dayanak: standart akademik kaynak (Italian Eritrea / Assab 1882 tarihyazımı)", duygu:["😔"] },
+  kaynak:"bulunamadı — TDV bu olayı müstakil ele almıyor, 24.11.2026: arama yapıldı, hakemli kaynak bulunamadı; ikincil özetler 10 Mart 1882'yi devlet devri olarak veriyor (Columbia Univ. Zampaglione tezi ipucu, okunmadı)", duygu:["😔"] },
 
 { dunya:1, bolge_onem:2, puan_s:"v2", tur:"antlasma", bolge:4, t:"1916-11-03", k:"antlasma", etiket:["toprak-kayip","konu-askeri","konu-diplomasi"],
   kapsam:"dis", onem:4, b:"İngiliz-Katar Antlaşması — Katar İngiliz himayesine girdi",
@@ -456,7 +456,7 @@ window.OLAYLAR_EK16 = [
   yer:"Doha (Katar)",
   yer_id:"Doha (Katar)", kisiler:"Şeyh Abdullah bin Cassim Âl Sânî, Binbaşı Percy Cox",
   d:"I. Dünya Savaşı sürerken, Basra Körfezi'ndeki İngiliz siyasi temsilcisi Binbaşı Percy Cox ile Katar şeyhi Abdullah bin Cassim Âl Sânî arasında 3 Kasım 1916'da imzalanan antlaşmayla Katar, dış ilişkilerini İngiltere'nin onayına bağlamayı kabul etti, karşılığında deniz saldırılarına karşı İngiliz koruması güvencesi aldı; bu antlaşma Katar'ın 1971'e kadar sürecek İngiliz himaye ilişkisinin hukuki temelini oluşturdu ve resmen 1918'de onaylandı.",
-  kaynak:"bulunamadı — TDV bu antlaşmayı müstakil ele almıyor, dayanak: standart akademik kaynak (Anglo-Qatari Treaty of 1916 tarihyazımı)", duygu:["😔"] },
+  kaynak:"TDV İslâm Ansiklopedisi, «Katar» (Zekeriya Kurşun; islamansiklopedisi.org.tr/katar): «İngilizler, 3 Kasım 1916'da Katar Emîri Abdullah ... himaye antlaşması imzaladılar» (okundu 24.11.2026; gün teyitli)", duygu:["😔"] },
 
 { onem:4, dunya:2, bolge_onem:3, puan_s:"v2", bolge:1, t:"1335-05-01", kesinlik:"ay", k:"siyaset", etiket:["toprak-kazanc","konu-askeri","konu-siyasi"],
   kapsam:"dis", b:"Habsburgların Karniyola ve Karintiya'ya (Ljubljana) el koyması",

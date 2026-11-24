@@ -31,7 +31,8 @@ window.OLAYLAR_KAMERIKA = [
     "duygu": [
       "📌"
     ],
-    "kaynak": "bulunamadı",
+    "kaynak": "Gordon W. Smith, 'The Transfer of Arctic Territories from Great Britain to Canada in 1880, and Some Related Matters, As Seen in Official Correspondence', Arctic 14/1 (Mart 1961), s. 62-65 — Order in Council Osborne House'ta 31 Temmuz 1880 tarihli; 'From and after September 1, 1880, all British territories and possessions in North America…' (derleme siteden okundu: canadianmysteries.ca/sites/franklin/archive/text/TransferTerritories_en.htm; orijinal PDF taranmış görüntü, okunmadı); okuma 24.11.2026. t: 1 Eylül 1880 yürürlük günüdür, doğrulandı.",
+    "ic_not": "Kaynak içi tutarsızlık: aynı sayfada kararın 'üç gün sonra [27 Temmuz 1880]' onaylandığı yazıyor, emir tarihi 31 Temmuz; kırılma günü olarak yürürlük günü (1 Eylül) esas alındı.",
     "d": "Britanya Kraliyet Meclisi'nin kararıyla, Kuzey Amerika'nın kuzeyindeki bütün adalar ve hakları Kanada Dominyonu'na devredildi. Karar, 1870'te Rupert's Land'in devrini tamamlayan son adımdı ve Kanada'nın bugünkü kuzey sınırlarını kâğıt üzerinde kurdu. Devir, o topraklarda yaşayan İnuit topluluklarına danışılmadan yapıldı ve fiilî idare on yıllarca kurulmadı.", "ic_not_d": "Bu gün, atlasta otuz üç İnuit yerleşiminin bağlı olduğu kimliğin değiştiği gündür. TDV bu coğrafyayı kapsamamaktadır; Historical Atlas of Canada (University of Toronto Press) esas alındı."
   },
 
@@ -54,7 +55,7 @@ window.OLAYLAR_KAMERIKA = [
     "duygu": [
       "🤝"
     ],
-    "kaynak": "bulunamadı",
+    "kaynak": "WyoHistory.org (Wyoming State Historical Society), 'Coming to Wind River: The Eastern Shoshone Treaties of 1863 and 1868', 23.05.2018, https://www.wyohistory.org/encyclopedia/coming-wind-river-eastern-shoshone-treaties-1863-and-1868 — 'On July 3, 1868, leaders of Bannock and Eastern Shoshone bands signed a treaty'; 'A reservation would be created in the Wind River Valley'. Resmî metin: 15 Stat. 673-674 (govinfo.gov; PDF okunamadı). Okuma 24.11.2026. Handbook of North American Indians c.11 okunmadı. Tek bölgesel akademik kaynak; ikinci bağımsız teyit yok.",
     "d": "Doğu Şoşonileri ile Bannockların ABD ile imzaladığı antlaşma, Washakie önderliğindeki Şoşonilere Wind River havzasında bir rezervasyon tanıdı. Şoşoniler, ovalarda ABD'ye karşı savaşan öteki halkların aksine ittifak yolunu seçmiş ve yurtlarının bir bölümünü bu sayede elde tutmuştu. Antlaşma, Büyük Havza'nın kuzey kesimindeki Şoşoni topraklarının hukukî statüsünü belirledi.", "ic_not_d": "TDV bu coğrafyayı kapsamamaktadır; Handbook of North American Indians c.11 (Smithsonian) esas alındı."
   },
 
@@ -100,7 +101,7 @@ window.OLAYLAR_KAMERIKA = [
     "duygu": [
       "📌"
     ],
-    "kaynak": "bulunamadı",
+    "kaynak": "Elizabeth Clark Neidenbach, 'Treaty of Fontainebleau', 64 Parishes (Louisiana Endowment for the Humanities), https://64parishes.org/entry/the-treaty-of-fontainebleau — 'In the Treaty of Fontainebleau, signed November 3, 1762, France ceded Louisiana to Spain'; 'France ceded all the territory of colonial Louisiana west of the Mississippi River, along with New Orleans, to Spain.' Okuma 24.11.2026. Antlaşma 1764'e kadar gizli kaldı, İspanya fiilen 1769'da devraldı (arama özeti; sayfadan alıntılanmadı).",
     "d": "Yedi Yıl Savaşı'nın sonuna doğru Fransa, Mississippi'nin batısındaki Luizyana'yı ve New Orleans'ı gizli bir antlaşmayla İspanya'ya bıraktı. Böylece Fransa'nın Kuzey Amerika'daki varlığı fiilen sona erdi: ertesi yıl Paris Antlaşması ırmağın doğusunu Britanya'ya verecekti.", "ic_not_d": "Atlasta bu ayrım önemlidir — Luizyana İspanya'ya, İllinois ülkesi Britanya'ya gitti ve iki bölge o günden sonra farklı kimlikler taşır. TDV bu coğrafyayı kapsamamaktadır."
   },
 
@@ -122,7 +123,7 @@ window.OLAYLAR_KAMERIKA = [
     "duygu": [
       "🤝"
     ],
-    "kaynak": "bulunamadı",
+    "kaynak": "National Park Service, 'Fort Laramie Treaty of 1851 (Horse Creek Treaty)', https://www.nps.gov/articles/000/horse-creek-treaty.htm — 'The treaty was signed on September 17, 1851'; katılan uluslar: Oglala ve Brulé Lakota, Şayen, Arapaho, Kızılderili Crow, Assiniboine, Mandan-Hidatsa. Okuma 24.11.2026. Not: NPS sayfası antlaşmanın 'never ratified' olduğunu yazıyor (Senato 1852'de değiştirdi); bu madde için gün imza günüdür. Handbook of North American Indians c.13 okunmadı. Resmî metin Kappler (UND commons) okunmadı.",
     "d": "ABD ile Kuzey Ovalar halkları arasında imzalanan antlaşma, Lakota, Karga, Mandan, Hidatsa, Arikara, Şayen, Arapaho ve Assiniboine topraklarının sınırlarını ilk kez yazılı olarak tanımladı ve göçmen yollarının güvenliğini karşılığında bağladı. Sınırlar kısa sürede aşıldı.", "ic_not_d": "ama atlasta bu gün Missouri kıyısındaki köy halklarının kimliğinin tanımlandığı gündür. TDV bu coğrafyayı kapsamamaktadır; Handbook of North American Indians c.13 (Smithsonian) esas alındı."
   },
 
@@ -146,7 +147,7 @@ window.OLAYLAR_KAMERIKA = [
     "duygu": [
       "📌"
     ],
-    "kaynak": "bulunamadı",
+    "kaynak": "[yalnız yıl teyitli; gün teyitsiz] Encyclopedia of British Columbia (Harbour Publishing), 'Fort Halkett' — 'FORT HALKETT was an HBC trading post established in 1829 on the LIARD R near the Fort Nelson R' (önizleme, knowbc.com/limited/Books/Encyclopedia-of-BC/F/Fort-Halkett); okuma 24.11.2026. Post 1832'de Smith Nehri ağzına taşındı (arama özeti, sayfadan okunmadı). HBCA kaydı okunmadı. Tek kaynak.",
     "d": "Hudson's Bay Company, Liard Irmağı üzerinde Fort Halkett'i kurarak Mackenzie havzasından Kayalıklar'ın batısına uzanan kürk hattını uzattı. Karakol, Kaska Dene topraklarında şirketin en batıdaki ileri mevkilerinden biriydi.", "ic_not_d": "Kaynak kuruluş yılını verir, gününü vermez; §4 gereği YYYY-01-01 yazılmıştır. Historical Atlas of Canada esas alındı."
   },
 
@@ -170,7 +171,8 @@ window.OLAYLAR_KAMERIKA = [
     "duygu": [
       "📌"
     ],
-    "kaynak": "bulunamadı",
+    "kaynak": "Bob Beal, 'Fort Pitt', The Canadian Encyclopedia (Historica Canada), 7.02.2006 (son düzenleme 4.03.2015) — 'Founded in 1830, Fort Pitt was the major Hudson's Bay Company trading post'; okuma 24.11.2026. ÇELİŞKİ: kaynak 1830 diyor, maddenin t: yılı 1829. İkinci kaynak bulunamadı; t: değiştirilmedi.",
+    "ic_not": "Kaynak çelişkisi: The Canadian Encyclopedia (Beal) kuruluşu 1830 verir; atlas maddesi 1829. Gün yok, yalnız yıl; ikinci bağımsız kaynak aranmadı/bulunamadı. Koordinatör kararı gerekir.",
     "d": "Hudson's Bay Company, Fort Carlton ile Fort Edmonton arasındaki boşluğu kapatmak için Kuzey Saskatchewan kıyısında Fort Pitt'i kurdu. Karakol pemmican tedarikinin ana merkezlerinden biri oldu ve Ova Krileri ile şirket arasındaki ticaretin düğüm noktası hâline geldi.", "ic_not_d": "Kaynak yıl verir, gün vermez; §4 gereği YYYY-01-01."
   },
 
@@ -192,7 +194,7 @@ window.OLAYLAR_KAMERIKA = [
     "duygu": [
       "📌"
     ],
-    "kaynak": "bulunamadı",
+    "kaynak": "[yalnız yıl teyitli; gün teyitsiz] Springfield-Greene County Library, 'Historical Markers of Springfield & Greene County, Missouri', işaret no. 2 'First Settlement in Springfield' (sgcld.thelibrary.org/lochist/historicalsites/2.cfm) — 'BY JOHN POLK CAMPBELL ABOUT 1829 AND THE SETTLEMENT IN 1830'; okuma 24.11.2026. Yerel/kamusal kaynak, hakemli değil; yıl 'yaklaşık 1829' (yerleşme 1830). Handbook of North American Indians okunmadı; akademik teyit bulunamadı.",
     "d": "Missouri'nin güneybatısında, Osage topraklarının doğu ucundaki Ozark yaylasında Springfield kuruldu. Yerleşim, Osage'ın 1825'te bölgeyi bırakmasından sonra açılan araziye yönelen göçün merkezi oldu ve güneybatı Missouri'nin ana kasabası hâline geldi.", "ic_not_d": "Kaynak kuruluş yılını verir, gününü vermez; §4 gereği YYYY-01-01 yazılmıştır. Handbook of North American Indians c.13 (Smithsonian) esas alındı."
   },
 
@@ -214,7 +216,7 @@ window.OLAYLAR_KAMERIKA = [
     "duygu": [
       "📌"
     ],
-    "kaynak": "bulunamadı",
+    "kaynak": "[yalnız yıl teyitli; gün teyitsiz] Jean Morrison, 'Fort William', The Canadian Encyclopedia (Historica Canada), https://www.thecanadianencyclopedia.ca/en/article/fort-william — 'In 1803 the North West Company (NWC) constructed a new fort at its Lake Superior headquarters, replacing Grand Portage'; okuma 24.11.2026.",
     "d": "Kuzeybatı Şirketi, Grand Portage'ın ABD toprağında kalması üzerine iç merkezini Superior Gölü'nün kuzeyine taşıdı ve Fort William'ı kurdu. Karakol, Montreal'den gelen kanolarla iç bölgeden gelen kürklerin buluştuğu yıllık toplantı yeriydi ve şirketin kıta ölçeğindeki ağının kalbi oldu.", "ic_not_d": "Kaynak yıl verir, gün vermez; §4 gereği YYYY-01-01."
   },
 
@@ -238,7 +240,7 @@ window.OLAYLAR_KAMERIKA = [
     "duygu": [
       "📌"
     ],
-    "kaynak": "bulunamadı",
+    "kaynak": "[yalnız yıl teyitli; gün teyitsiz] Chicago Maritime Museum, 'Ft. Dearborn', https://www.chicagomaritimemuseum.org/military-training/ft-dearborn — 'Built in 1803 beside the Chicago River, Ft. Dearborn was constructed by troops under Captain John Whistler'; okuma 24.11.2026. Müze sitesi; hakemli akademik kaynak değil. Encyclopedia of Chicago (encyclopedia.chicagohistory.org/pages/477.html) bağlantı hatası verdi, OKUNMADI. Tamamlanma 1804 yazın (arama özeti).",
     "d": "ABD ordusu, Michigan Gölü ile Mississippi havzasını birleştiren Chicago geçidinde Fort Dearborn'u kurdu. Geçit 1670'lerden beri biliniyor ve kullanılıyordu; kale, Kuzeybatı Toprakları'nda ABD denetiminin batıya uzanışını işaretledi.", "ic_not_d": "Kaynak yıl verir, gün vermez; §4 gereği YYYY-01-01."
   },
 
@@ -260,7 +262,8 @@ window.OLAYLAR_KAMERIKA = [
     "duygu": [
       "📌"
     ],
-    "kaynak": "bulunamadı",
+    "kaynak": "ÇELİŞKİ — Pierrette Désy, 'Glissement du domaine autochtone (Fort George 1840)', Anthropologica 61/2 (2019), s. ~296: 'occupé par des marchands de la Compagnie du Nord-Ouest en 1803, ils en furent chassés par les marchands de la Compagnie de la Baie d'Hudson en 1805 … le poste de traite devint permanent en 1837 sous le nom de Fort George' (PDF metni okundu, 24.11.2026). Yani 1803'te yer Kuzeybatı Şirketi'ndeydi; HBC 1805, kalıcı Fort George 1837. HBC'nin 1803'te kurduğu iddiası (chisasibi.ca, Cree topluluk sitesi) akademik değil.",
+    "ic_not": "Kaynak çelişkisi: Désy (Anthropologica 2019) 1803'te Kuzeybatı Şirketi'nin işgalini, HBC'nin 1805'te gelişini, kalıcı postayı 1837'de verir; atlas 'HBC 1803'te kurdu' diyor. t: değiştirilmedi; koordinatör kararı gerekir (Değişmez 2 bağlantısı).",
     "d": "Hudson's Bay Company, James Körfezi'nin doğu kıyısında La Grande Irmağı ağzında Fort George'u kurdu. Karakol, iç bölgedeki Kri gruplarının kıyıya inmeden ticaret yapabilmesini sağladı ve şirketin doğu kıyı hattını tamamladı.", "ic_not_d": "Kaynak yıl verir, gün vermez; §4 gereği YYYY-01-01."
   },
 

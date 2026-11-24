@@ -38,7 +38,7 @@ window.OLAYLAR_P0043KIRIM = [
   yer:"Kızıkermen, Dinyeper ağzı", yer_id:"Kızıkermen (Gazi Kerman)",
   kisiler:"Kanûnî Sultan Süleyman",
   d:"Kırım Hanlığı'nın 15. yüzyıl ortasından beri elinde tuttuğu Kızıkermen kalesi ve Dinyeper'in sağ kıyısı, bu tarihte Osmanlı Devleti'nin doğrudan denetimine girdi; kale, bozkırın kuzey ucundaki bir Osmanlı ileri karakoluna dönüştü. Bahçesaray ve Or Kapı çevresindeki Kırım Hanlığı toprağından farklı olarak, Kızıkermen'in idaresi doğrudan Osmanlı'daydı.",
-  kaynak:"bulunamadı — TDV'de müstakil madde YOK (kizikermen/gazikerman/gazi-kerman 302, kapsayıcı `ozu` maddesi Dinyeper kalelerini anmıyor). Dayanak: Internet Encyclopedia of Ukraine (CIUS, University of Alberta), madde \"Beryslav\": \"in 1526 assumed direct control of the right bank with Kazi-Kermen as its northern outpost.\" (alıntı yerleşim kaydından AYNEN taşındı, data/yerlesimler_ok106.js:167)",
+  kaynak:"[yalnız yıl teyitli; gün teyitsiz] TDV'de müstakil madde YOK (24.11.2026'da tekrar aranmadı; hakemli ikinci kaynak için DergiPark/Belleten araması 24.11.2026 olayı vermedi) — TEK kaynak IEU (kizikermen/gazikerman/gazi-kerman 302, kapsayıcı `ozu` maddesi Dinyeper kalelerini anmıyor). Dayanak: Internet Encyclopedia of Ukraine (CIUS, University of Alberta), madde \"Beryslav\": \"in 1526 assumed direct control of the right bank with Kazi-Kermen as its northern outpost.\" (alıntı yerleşim kaydından AYNEN taşındı, data/yerlesimler_ok106.js:167)",
   duygu:["🎉"] },
 
 { onem:3, dunya:1, bolge_onem:3, puan_s:"v2", kapsam:"ic", t:"1791-07-26", k:"kayip", etiket:["toprak-kayip","savas","konu-askeri"],

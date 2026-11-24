@@ -245,7 +245,7 @@ window.OLAYLAR_EK20 = [
   yer_id:"Kalyari (Cagliari)",
   kisiler:"",
   d:"İspanya Veraset Savaşı'nı kapatan düzenlemelerin son halkasında Sardinya adası İspanya'dan alınarak Savoy hânedanına verildi; Savoy dükü karşılığında Sicilya'yı bıraktı ve Sardinya Kralı unvanını aldı. Cagliari ve Sassari böylece iki yüzyıllık İspanyol idaresinden çıktı. Doğan Sardinya Krallığı, bir buçuk asır sonra İtalyan birliğini kuracak devletin çekirdeğidir — yani 1870'te Roma'ya giren İtalya Krallığı'nın kökü buraya iner.", ic_not_d:"⚠️ TDV'nin Sardinya maddesi adanın müslüman ve Akdeniz tarihini anlatıyor, XVIII. yüzyıl hânedan devirlerine girmiyor; kapsayıcı İtalya maddesinde de 1720 geçmiyor. Bu kayıt standart akademik anlatıya dayanır.",
-  kaynak:"bulunamadı" },
+  kaynak:"Treccani, Dizionario di Storia (2011), madde \"Sardegna\", https://www.treccani.it/enciclopedia/sardegna_(Dizionario-di-Storia)/ — \"Vittorio Amedeo II di Savoia, che prese possesso dell'isola il 2 sett. 1720\" (okuma 24.11.2026; t: günü doğrulandı). Yıl düzeyinde ikinci kaynak: Treccani, Enciclopedia italiana, \"Sardegna\" (1720). Britannica 24 Ağustos 1720 günü ic_not_t'de; Britannica sayfası bu oturumda 403 verdi, okunmadı. TDV Sardinya/İtalya maddeleri 1720'yi kapsamıyor (önceki oturum tespiti, bu oturumda yeniden okunmadı)." },
 
 // ═══ GECE PARTİSİ · KRONOLOJİ kovası — ilk 10'un ilk üçü ═══
 // 📌 KOŞU KAYDI: bu maddeler 30 Ağustos koşusu 00:32'de girdiyi anlık

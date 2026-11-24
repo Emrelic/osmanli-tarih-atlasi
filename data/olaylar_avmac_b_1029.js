@@ -23,13 +23,14 @@ window.OLAYLAR_AVMAC_B_1029 = [
   yer_id:"Szászsebes (Sebeş)", b:"Szapolyai János'un ölümü — Budin sorunu ve Macaristan'ın bölünmesinin kapısı", gun:"22 Temmuz 1540", yer:"Szászsebes (Sebeş)", kisiler:"Szapolyai János, Izabella, Yanoş Sigismund",
   d:"Doğu Macaristan'ın Osmanlı vasalı kralı Szapolyai, doğumunu kısa süre önce gördüğü oğlunu varis bırakarak öldü. Kanunî'nin 1541'de Budin'e girmesi ve Macaristan'ın üçe bölünmesi (Kraliyet Macaristanı, Budin Eyaleti, Erdel) bu ölümün sonucudur.",
   ic_not_d:"En.wikipedia «John Zápolya»: 22 Temmuz 1540, Szászsebes. TDV doğrulaması yapılmadı (bulunamadı). Haritada kırılma yok; çekirdek kronolojide eksik zincir halkasıdır.",
-  kaynak:"bulunamadı (TDV) — en.wikipedia «John Zápolya» · Explore Carpathia «Zápolya House, Sebeș»", duygu:["🕯️"] },
+  ic_not:"GÜN ÇELİŞKİSİ (karar verilmedi, 24.11.2026): TDV (Süleyman I, F. Emecen) ölümü 20 Temmuz 1540 verir; MEK 'Kereszt és félhold' bölümü ve lex.dk (Den Store Danske) 22 Temmuz 1540 verir (Britannica da 22 Temmuz diye aktarıldı ama sayfa 403 verdi, okunmadı). TDV esas kaynak olduğundan teyit için bağımsız üçüncü akademik kaynak (NDB/ADB, Macar Életrajzi Lexikon) gerekir; ADB/NDB Zápolya maddesi bu oturumda okunamadı. t: günü DEĞİŞTİRİLMEDİ (koordinatör kararı).",
+  kaynak:"TDV İslâm Ansiklopedisi, 'Süleyman I' (Feridun Emecen), islamansiklopedisi.org.tr/suleyman-i, okuma 24.11.2026 — «Szapolyai'nin ölümü (20 Temmuz 1540) birdenbire Macar meselesini yeniden gündeme getirdi» [TDV 20 Temmuz der: atlas 22 Temmuz, ic_not'a bak] · Szapolyai (I.) János (1487, Szepesvár–1540. július 22., Szászsebes), mek.oszk.hu/01800/01885/html/index33.html «Kereszt és félhold» (yazar/yıl okunmadı) · lex.dk «János 1. Szapolyai» (2.2.1487–22.7.1540; ansiklopedi, ikincil)", duygu:["🕯️"] },
 
 { onem:1, dunya:1, bolge_onem:1, puan_s:"v2", kapsam:"dis", bolge:1, t:"1555-01-01", kesinlik:"yil", k:"siyaset", etiket:["toprak-kazanc","konu-siyasi"],
   b:"Ptuj (Pettau) Salzburg'dan geri alınıp Habsburg Steiermark'ına katıldı", gun:"1555", yer:"Ptuj (Pettau), Dravsko polje", yer_id:"Ptuj (Pettau)", kisiler:"I. Ferdinand",
   d:"Maximilian I'in 1511'de Salzburg başpiskoposuna rehin/satış hakkıyla bıraktığı Ptuj, Kral Ferdinand tarafından 1555'te geri satın alındı ve Steiermark dükalığına bağlandı; Salzburg'un Dravsko polje'deki senyörlüğü sona erdi.",
   ic_not_d:"Hrvatska enciklopedija «Ptuj»: 1555'te Habsburg Steiermark'ına dahil; Slovenya kent arşivi sergisi + Almanca özet: 1511 rehin/satış (Maximilian→Salzburg), 1555 geri alma (Ferdinand I). 1511 işleminin rehin mi satış mı olduğu kaynaklarda farklı; atlas zinciri yalnız 1555'i taşır. Gün bulunamadı [yalnız yıl teyitli; gün teyitsiz].",
-  kaynak:"bulunamadı (TDV) — Hrvatska enciklopedija «Ptuj» (enciklopedija.hr) · en.wikipedia «Ptuj» · gov.si Arhiv RS «Ptuj» sergi paneli", duygu:["📋"] },
+  kaynak:"Erich Marx, 'Die Steiermark in den Verträgen von 1535/36 zwischen Ferdinand I. und dem Salzburger Erzbischof Matthäus Lang', Zeitschrift des Historischen Vereines für Steiermark, Sonderband 25 (2000), S. 536 (dn. 39) — «ehe 1555 tatsächlich der Rückkauf von Salzburg erfolgte»; aynı yer: Pettau 1511 pfandweise Salzburg'a satıldı, Rückkaufsrecht Maximilian'da · Othmar Pickl, 'Pettau – ein internationaler Handelsplatz des 15. und 16. Jahrhunderts', ZHVSt 62 (1971), S. 87-110 (1506 Pfand, 1511/1518 Wiederlösung-kaydıyla satış; 1535 Territorialhoheit-Vertrag) · okuma 24.11.2026 (historischerverein-stmk.at PDF). Yalnız yıl teyitli; gün teyitsiz.", duygu:["📋"] },
 
 { onem:4, dunya:2, bolge_onem:4, puan_s:"v2", tur:"antlasma", kapsam:"dis", bolge:4, t:"1606-06-23", k:"antlasma", etiket:["antlasma","konu-siyasi"],
   b:"Viyana Barışı — Bocskai ayaklanması sona erdi, Erdel prensi tanındı", gun:"23 Haziran 1606", yer:"Viyana", yer_id:"Viyana", kisiler:"Bocskai István, II. Rudolf",
@@ -53,7 +54,7 @@ window.OLAYLAR_AVMAC_B_1029 = [
   b:"II. Franz Avusturya İmparatorluğu'nu ilân etti — kalıtsal Avusturya imparatorluğu", gun:"11 Ağustos 1804", yer:"Viyana", yer_id:"Viyana", kisiler:"II. Franz (I. Franz), Napolyon",
   d:"Napolyon'un Fransızların imparatoru olmasına karşılık II. Franz bir patent yayımlayarak Habsburg ülkeleri için kalıtsal Avusturya imparatoru unvanını aldı. Kutsal Roma tacı hâlâ onda olduğundan iki imparatorluk unvanı 1806'ya dek bir arada yürüdü.",
   ic_not_d:"habsburger.net «The foundation of the Empire of Austria in 1804»: patent 11 Ağustos 1804. Haritada kırılma yok (Habsburg ülkeleri 'avusturya' kimliğinde sürer); çekirdek kronolojide eksik dönüm noktası.",
-  kaynak:"bulunamadı (TDV) — habsburger.net «Foundation of the Empire of Austria in 1804» · habsburger.net «Franz II (I)»", duygu:["👑"] },
+  kaynak:"Anton Victor Felgel, 'Franz II.' (ADB 7, 1878, S. 285-290), de.wikisource.org/wiki/ADB:Franz_II. — «dem Gesetze vom 11. August 1804» (kalıtsal Avusturya imparatorluğu), okuma 24.11.2026 · ikincil: habsburger.net «The foundation of the Empire of Austria in 1804» (patent 11 Ağustos 1804). Not: bazı yayınlar patenti 1 Ağustos 1804 diye de anar (okunmadı).", duygu:["👑"] },
 
 { onem:3, dunya:2, bolge_onem:3, puan_s:"v2", tur:"antlasma", kapsam:"dis", bolge:2, t:"1805-12-26", k:"antlasma", etiket:["antlasma","konu-siyasi"],
   b:"Pressburg Barışı'nın yer ayrıntısı: Salzburg Avusturya'ya; Brixen, Trient, Tirol ve Vorarlberg Bavyera'ya", gun:"26 Aralık 1805", yer:"Innsbruck, Landeck, Bregenz, Feldkirch, Brixen (Bressanone), Salzburg", yer_id:"Innsbruck", kisiler:"I. Franz, Napolyon, Maximilian I Joseph (Bavyera)",
@@ -65,7 +66,7 @@ window.OLAYLAR_AVMAC_B_1029 = [
   b:"II. Franz Kutsal Roma tacını bıraktı — İmparatorluk sona erdi", gun:"6 Ağustos 1806", yer:"Viyana", yer_id:"Viyana", kisiler:"II. Franz (I. Franz)",
   d:"Ren Konfederasyonu'nun kurulmasının ardından Franz, Kutsal Roma İmparatorluğu'nun feshini bildirip tacdan çekildi ve yalnızca Avusturya imparatoru olarak kaldı.",
   ic_not_d:"deutschlandmuseum.de «End of the Holy Roman Empire» ve habsburger.net «Franz II (I)»: 6 Ağustos 1806. Haritada ayrı kırılma yok (almanya künyesi atlasta 1806 sonrası da bazı yerlerde sürer — o ayrı denetim konusu).",
-  kaynak:"bulunamadı (TDV) — deutschlandmuseum.de «1806-08-06 End of the Holy Roman Empire» · habsburger.net «Franz II (I)»", duygu:["📋"] },
+  kaynak:"Birincil belge: «Erklärung Sr. Maj. des Kaisers Franz II., wodurch er die deutsche Kaiserkrone und das Reichsregiment niederlegt», Wien 6. Aug. 1806, in Ph. A. G. von Meyer, Corpus Juris Confoederationis Germanicae (ed. H. Zoepfl), Frankfurt 1858, S. 71-72 (germanhistorydocs.org) — «die ... Kaiserkrone ... wie hiermit geschieht, niederlegen» · Felgel, ADB 7 (1878) 'Franz II.': «am 6. Aug. 1806» · okuma 24.11.2026 (çift teyit)", duygu:["📋"] },
 
 { onem:3, dunya:2, bolge_onem:3, puan_s:"v2", tur:"antlasma", kapsam:"dis", bolge:2, t:"1809-10-14", k:"antlasma", etiket:["antlasma","konu-siyasi"],
   b:"Schönbrunn Barışı'nın yer ayrıntısı: Salzburg ve Yukarı Karintiya (Villach, Tarvis, Lienz) Avusturya'dan ayrıldı", gun:"14 Ekim 1809", yer:"Salzburg, Villach, Tarvis (Tarvisio), Lienz", yer_id:"Salzburg", kisiler:"I. Franz, Napolyon",
@@ -77,13 +78,13 @@ window.OLAYLAR_AVMAC_B_1029 = [
   b:"Pest'te Mart Devrimi başladı — Macar Devrimi 1848-49", gun:"15 Mart 1848", yer:"Peşte", yer_id:"Peşte", kisiler:"Petőfi Sándor, Kossuth Lajos",
   d:"Pilvax kahvehanesinde başlayan gösteriler, Viyana'daki devrimin (13 Mart) ardından Pest'te On İki Madde'nin vali tarafından kabul edilmesini sağladı; Habsburg monarşisine karşı Macar ulusal hareketi başladı.",
   ic_not_d:"en.wikipedia «Hungarian Revolution of 1848»: 15 Mart 1848, Pilvax, Twelve Points. TDV'de bu devrim müstakil ele alınmıyor (macaristan maddesi özet). Haritada kırılma yok.",
-  kaynak:"bulunamadı (TDV) — en.wikipedia «Hungarian Revolution of 1848»", duygu:["✊"] },
+  kaynak:"TDV İslâm Ansiklopedisi, 'Macaristan' (siyasî tarih bölümü; bölüm yazarı adı okunmadı), islamansiklopedisi.org.tr/macaristan, okuma 24.11.2026 — «15 Mart günü Peşte'de patlak veren olayların neticesi olarak»", duygu:["✊"] },
 
 { onem:3, dunya:1, bolge_onem:3, puan_s:"v2", kapsam:"dis", bolge:2, t:"1848-04-11", k:"kanun", etiket:["siyaset","konu-siyasi"],
   b:"Nisan Kanunları onaylandı — Macaristan'a sorumlu hükûmet ve bağımsız bakanlıklar", gun:"11 Nisan 1848", yer:"Pozsony (Bratislava)", yer_id:"Bratislava", kisiler:"V. Ferdinand, Batthyány Lajos",
   d:"Pozsony Diyeti'nin Mart'ta kabul ettiği kanunlar kral V. Ferdinand tarafından onaylandı: Macar sorumlu bakanlar kurulu, kaldırılan serflik yükümlülükleri ve genişletilen seçme hakkı. Bu kanunlar Ausgleich'e (1867) giden anayasal temel olarak yeniden canlandırıldı.",
   ic_not_d:"en.wikipedia «April Laws»: Pozsony'da Primat Sarayı'nda 11 Nisan imza. Haritada kırılma yok. · DUNYA-1102 hücre 6 (KASA, 2 Kasım 2026): teyit tek kaynak. ZAYIF: yalnız MEK etiket sayfasındaki kayıt başlığı okundu; 1848:III kanun sayfası (net.jogtar.hu 1000 év) onay tarihi satırı içermiyor. Akademi PDF'i sıkıştırılmış, çıkarılamadı. Tarih olayın kendisini (kral onayı, Pozsony) tarihler; kanunların Diyet'te kabulü Mart 17–Nisan 7 arasındadır (arama özeti, okunmadı). Uygulanması önerilmez; hakemli ikinci kaynak aranmalı.",
-  kaynak:"bulunamadı (TDV) — en.wikipedia «April Laws»", duygu:["📜"] },
+  kaynak:"Szilágyi Sándor (szerk.), A Magyar Nemzet Története, X. köt. (1848 bölümü), mek.oszk.hu/00800/00893/html/doc/c400535.htm, okuma 24.11.2026 — «ápril 11-ikén 10 órakor a primási palotában ... üdvözölte a rendeket»; «az ápril 11-ikén szentesitett törvényeket» (31 kanun, Pozsony). Klasik monografi (19. yy sonu, hakemli değil); modern ikinci kaynak okunmadı.", duygu:["📜"] },
 
 { onem:3, dunya:2, bolge_onem:3, puan_s:"v2", tur:"savas", kapsam:"dis", bolge:2, t:"1848-09-11", k:"savas", etiket:["savas","konu-askeri"],
   b:"Jelačić'in Hırvat ordusu Drava'yı geçti — Macar bağımsızlık savaşı başladı", gun:"11 Eylül 1848", yer:"Drava, Čakovec, Varaždin", yer_id:"Čakovec (Csáktornya)", kisiler:"Josip Jelačić, Batthyány Lajos",
@@ -101,19 +102,19 @@ window.OLAYLAR_AVMAC_B_1029 = [
   yer_id:"Világos (Şiria)", b:"Világos'ta Macar ordusu Ruslara teslim oldu — Macar Devrimi bastırıldı", gun:"13 Ağustos 1849", yer:"Világos (Şiria), Arad", kisiler:"Görgei Artúr, Kossuth Lajos",
   d:"Rus müdahalesiyle çevrilen Görgei, Kossuth'un yetkiyi ona devretmesinin (11 Ağustos) ardından Világos'ta Rus kuvvetlerine teslim oldu; bu, devrimin fiilî sonu sayılır. Kossuth ve yoldaşları Osmanlı'ya sığındı (bkz. 16 Ağustos 1849).",
   ic_not_d:"honvedelem.hu «Surrender at Világos – August 13, 1849» + en.wikipedia «Surrender at Világos». Haritada kırılma yok.",
-  kaynak:"bulunamadı (TDV) — honvedelem.hu «Surrender at Világos» · en.wikipedia «Surrender at Világos»", duygu:["😔"] },
+  kaynak:"TDV İslâm Ansiklopedisi, 'Macaristan' (siyasî tarih bölümü; yazar adı okunmadı), islamansiklopedisi.org.tr/macaristan, okuma 24.11.2026 — «13 Ağustos 1849'da başkumandan Artur Görgey, Világos'ta Ruslar'a teslim oldu» · ikincil: honvedelem.hu «Surrender at Világos – August 13, 1849»", duygu:["😔"] },
 
 { onem:3, dunya:1, bolge_onem:2, puan_s:"v2", kapsam:"dis", bolge:2, t:"1849-10-06", k:"diger", etiket:["siyaset","konu-askeri"],
   b:"Arad'da 13 Macar general idam edildi, Peşte'de Batthyány Lajos kurşuna dizildi", gun:"6 Ekim 1849", yer:"Arad, Peşte", yer_id:"Peşte", kisiler:"Batthyány Lajos, Haynau",
   d:"Haynau'nun emriyle on üç Macar general Arad'da idam edildi, ilk Macar başbakanı Batthyány Pest'te kurşuna dizildi. 6 Ekim bugün Macaristan'da milli yas günüdür.",
   ic_not_d:"honvedelem.hu + en.wikipedia «The 13 Martyrs of Arad»: 6 Ekim 1849. Haritada kırılma yok.",
-  kaynak:"bulunamadı (TDV) — honvedelem.hu «The Execution of Lajos Batthyány and the Martyrs of Arad» · en.wikipedia «The 13 Martyrs of Arad»", duygu:["🕯️"] },
+  kaynak:"Szilágyi Sándor (szerk.), A Magyar Nemzet Története, X. köt., 1849 sonu bölümü ('Októbér 6-ika. Batthyány kivégeztetése. Az aradi vértanuk'), mek.oszk.hu/00800/00893/html/doc/c400559.htm, okuma 24.11.2026 — «Ugyanaznap Aradon egyszerre tizenhárom vértanuja lett»; Batthyány: 5 Ekim'de ölüme mahkûm, 6 Ekim'de kurşuna dizildi (bölüm başlığı + metin). Klasik monografi, hakemli değil · TDV 'Macaristan': Peşte'de Batthyány, Arad'da 12 general ve 1 binbaşı idam (gün vermez; sayıyı 13 değil 12+1 yazar) · ikincil: honvedelem.hu", duygu:["🕯️"] },
 
 { onem:3, dunya:1, bolge_onem:3, puan_s:"v2", kapsam:"dis", bolge:4, ic_not_bolge:"KRON-DUNYA-BOLGE-1109: 2→4 — Avusturya-Macaristan ikili monarşisinin kuruluşu; Osmanlı'nın doğrudan komşusunun yeniden kuruluşu (ölçüt 4).", t:"1867-02-17", k:"siyaset", etiket:["siyaset","konu-siyasi"],
   b:"Macar anayasal hükûmeti yeniden kuruldu — Andrássy Gyula başbakan", gun:"17 Şubat 1867", yer:"Peşte, Buda", yer_id:"Peşte", kisiler:"Franz Joseph, Andrássy Gyula, Deák Ferenc",
   d:"Franz Joseph, Deák Ferenc'in önerisiyle Andrássy Gyula'yı Macaristan başbakanlığına atayarak 1848 öncesi Macar anayasal düzenini yeniden işletti; hükûmet 20 Şubat'ta yemin etti. Bu adım Ausgleich'in kabulüne giden yolu açtı.",
   ic_not_d:"hu.wikipedia «Kiegyezés»: «február 17-én az uralkodó Deák javaslatára idősebb Andrássy Gyulát kérte fel Magyarország miniszterelnökének», yemin 20 Şubat. Bu güne dair devletler.js'te daha önce 1867-02-08 yazılıydı (kaynaksız); bu oturumda 8 Şubat için dayanak bulunamadı.",
-  kaynak:"bulunamadı (TDV) — hu.wikipedia «Kiegyezés» · habsburger.net «Austro-Hungarian Dual Monarchy: coronation of the Hungarian royal couple»", duygu:["🏛️"] },
+  kaynak:"Stefan Malfèr (ed.), Die Protokolle des cisleithanischen Ministerrates 1867-1918, Band I: 1867, Wien: Verlag der ÖAW 2018 (ISBN 978-3-7001-8179-8), yayıncı tanıtım/özet metni verlag.oeaw.ac.at/.../600526, okuma 24.11.2026 — «On February 17, count Andrássy was appointed Hungarian prime minister.» (cilt gövdesi/sayfa okunmadı; yayıncı özeti)", duygu:["🏛️"] },
 
 { onem:5, dunya:3, bolge_onem:5, puan_s:"v2", tur:"antlasma", kapsam:"dis", bolge:3, t:"1867-05-29", k:"antlasma", etiket:["antlasma","konu-siyasi"],
   b:"Ausgleich (Uzlaşma): Macar Diyeti 1867:XII sayılı kanunu kabul etti — Avusturya-Macaristan ikili monarşisi", gun:"29 Mayıs 1867", yer:"Peşte, Viyana", yer_id:"Peşte", kisiler:"Deák Ferenc, Andrássy Gyula, Franz Joseph",
@@ -125,5 +126,5 @@ window.OLAYLAR_AVMAC_B_1029 = [
   b:"Franz Joseph ve Elisabeth Buda'da Macaristan kralı ve kraliçesi olarak taç giydi", gun:"8 Haziran 1867", yer:"Buda (Matthias Kilisesi)", yer_id:"Aquincum-Óbuda-Pest", kisiler:"Franz Joseph, Elisabeth, Andrássy Gyula",
   d:"Aziz István tacı Matthias Kilisesi'nde Franz Joseph'in başına Primas ile başbakan Andrássy tarafından konuldu; Ausgleich bu törenle kralın Macar hukukundaki yetkisine bağlandı.",
   ic_not_d:"habsburger.net «The Austro-Hungarian Dual Monarchy: the coronation of the Hungarian royal couple» + khm.at + tt.com: 8 Haziran 1867. Haritada kırılma yok (Macaristan krallığı zinciri 1918'e dek aynı kimlikte).",
-  kaynak:"bulunamadı (TDV) — habsburger.net «Coronation of the Hungarian royal couple» · khm.at «Coronation of Franz Joseph and Elisabeth, June 8 1867»", duygu:["👑"] },
+  kaynak:"Szilágyi Sándor (szerk.), A Magyar Nemzet Története, X. köt., 'A kiegyezés s a második felelős ministerium', mek.oszk.hu/00800/00893/html/doc/c400581.htm, okuma 24.11.2026 — «1867 június 8-ikán a koronázás megtörtént»; klasik monografi, hakemli değil, modern ikinci kaynak okunmadı · ikincil: habsburger.net «The Austro-Hungarian Dual Monarchy: the coronation of the Hungarian royal couple»", duygu:["👑"] },
 ];

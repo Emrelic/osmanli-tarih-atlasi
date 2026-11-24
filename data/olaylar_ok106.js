@@ -113,35 +113,35 @@ window.OLAYLAR_OK106 = [
     kapsam:"dis", onem:3, b:"Lehistan'ın Dinyeper hattını ileri sürmesi — Kremençuk'un kurulması",
     gun:"1571", yer:"Kremençuk, Dinyeper", yer_id:"Kremençuk",
     d:"Lehistan-Litvanya, Kırım akınlarının geçit yeri olan orta Dinyeper kavşağında yeni bir uç kasabası kurdu; yirmi beş yıl sonra buraya bir de kale eklendi. Böylece Lehistan'ın denetim çizgisi Zaporojye bozkırının kuzey kıyısına kadar indi ve nehrin bu geçidi ilk kez bir devletin sürekli garnizonuna bağlandı. Kasaba, sonraki yüzyılda Kazak alay merkezi olarak Hetmanlık düzenine geçecekti.",
-    kaynak:"bulunamadı — TDV kapsamı dışı; dayanak Internet Encyclopedia of Ukraine (CIUS, University of Alberta), madde \"Kremenchuk\": \"Kremenchuk was founded in 1571\", \"A Polish castle was built there in 1596\"",
+    kaynak:"TDV kapsamı dışı. ① Encyclopedia of Ukraine (CIUS / Univ. of Toronto Press; ed. V. Kubijovyč), 'Kremenchuk' (encyclopediaofukraine.com/pages/K/R/Kremenchuk.htm; 2013 güncellemeli): 'Kremenchuk was founded in 1571. A Polish castle was built there in 1596' (okuma 24.11.2026). ② Енциклопедія Сучасної України (НАН України / НТШ, 2014), 'Кременчук' (esu.com.ua/pdf/file/185.pdf): 1571 'офіційна дата заснування' — Sigismund II Augustus'un fortress yapılması için universal imzaladığı yıl (okuma 24.11.2026); ESU 'resmî tarih' diyor, kasaba kuruluşunu değil kale emrini anlatır. [yalnız yıl teyitli; gün teyitsiz]",
     duygu:["🏛"] },
 
   { dunya:1, bolge_onem:1, puan_s:"v2", bolge:2, t:"1616-01-01", k:"idari", etiket:["siyaset","konu-siyasi","konu-idari"],
     kapsam:"dis", onem:3, b:"Lehistan'ın Yedisan uç hattında Uman'ın belirmesi",
     gun:"1616", yer:"Uman, Bratslav", yer_id:"Uman",
     d:"Uman, Lehistan idaresindeki Bratslav bölgesinin güneydoğu ucunda bir yerleşim olarak ilk kez belgelere geçti. Bulunduğu yer, Kırım Hanlığı'nın kuzeye uzanan akın yollarının üstündeydi; buraya sürekli bir kasabanın oturması, iki devletin arasındaki boş bozkır kuşağının kuzeyden daralmaya başladığını gösterir. Şehir sonraki iki yüzyıl boyunca bu hattın en güneydeki büyük Leh yerleşimi olarak kalacaktı.",
-    kaynak:"bulunamadı — TDV'de Ukrayna'daki Uman maddesi YOK (`uman` slug'ı Arabistan'daki Umân'ı açıyor, ölçüldü); dayanak Internet Encyclopedia of Ukraine (CIUS, University of Alberta), madde \"Uman\": \"It was first mentioned in historical documents in 1616, when it was under Polish rule\"",
+    kaynak:"TDV'de Ukrayna'daki Uman maddesi YOK (`uman` slug'ı Arabistan'daki Umân'ı açıyor). Encyclopedia of Ukraine (CIUS / Univ. of Toronto Press; ed. V. Kubijovyč), 'Uman' (encyclopediaofukraine.com/pages/U/M/Uman.htm; 2011 güncellemeli): 'It was first mentioned in historical documents in 1616, when it was under Polish rule' (okuma 24.11.2026). Tek akademik ansiklopedi; ikinci bağımsız kaynak (Yu. Mytsyk, Uman kozatska i haidamatska, 2002 — kuruluşu 1609-1616 arasına koyduğu arama özetinde görüldü; ESU Umań maddesi bulunamadı) OKUNMADI. [yalnız yıl teyitli; gün teyitsiz]",
     duygu:["🏛"] },
 
   { dunya:1, bolge_onem:1, puan_s:"v2", bolge:2, t:"1638-01-01", k:"idari", etiket:["siyaset","konu-siyasi","konu-idari"],
     kapsam:"dis", onem:3, b:"Moskova'nın bozkır savunma hattının ileri sürülmesi — Çuguyev",
     gun:"1638", yer:"Çuguyev, Slobodskaya Ukrayna", yer_id:"Çuguyev",
     d:"Lehistan'daki ayaklanmasının ardından Moskova'ya sığınan Kazak lideri Yakiv Ostrianyn ve adamları, Donets boyunda bir uç yerleşimi kurdular. Bu, Moskova'nın Kırım akınlarına karşı kurduğu savunma hattının bozkıra doğru ilk büyük sıçramalarından biriydi; sonraki yarım yüzyılda aynı hat üzerinde Sumı, İzyum ve Bahmut gibi kasabalar peş peşe doğacaktı. Yerleşim, Harkov alayına bağlı bir bölük merkezi olarak 1765'e kadar sürdü.",
-    kaynak:"bulunamadı — TDV kapsamı dışı; dayanak Internet Encyclopedia of Ukraine (CIUS, University of Alberta), madde \"Chuhuiv\": \"Chuhuiv was founded in 1638 as a frontier settlement by Yakiv Ostrianyn and his Cossacks\"",
+    kaynak:"TDV kapsamı dışı. Encyclopedia of Ukraine (CIUS / Univ. of Toronto Press; ed. V. Kubijovyč), c. 1 (1984), 'Chuhuiv' (encyclopediaofukraine.com/pages/C/H/Chuhuiv.htm): 'Chuhuiv was founded in 1638 as a frontier settlement by Yakiv Ostrianyn and his Cossacks' (okuma 24.11.2026). Tek akademik kaynak; Wikipedia kuruluş tarihinin tartışmalı olduğunu (1540-1627 iddiaları, 1627 sınır yerleşimi) yazıyor, akademik teyidi yok; ESU Chuhuiv maddesi bulunamadı, okunmadı. [yalnız yıl teyitli; gün teyitsiz]",
     duygu:["🏛"] },
 
   { dunya:1, bolge_onem:2, puan_s:"v2", bolge:2, t:"1652-01-01", k:"idari", etiket:["siyaset","konu-siyasi","konu-idari"],
     kapsam:"dis", onem:3, b:"Slobodskaya Ukrayna'nın kuruluşu — Sumı ve bozkır yerleşim kuşağı",
     gun:"1652", yer:"Sumı, Slobodskaya Ukrayna", yer_id:"Sumı",
     d:"Sağ yaka Ukrayna'daki Bila Tserkva alayından gelen köylü ve Kazaklar, Albay Herasym Kondratiev önderliğinde Psel boyunda yeni bir kasaba kurdular; dört yıl sonra Moskova voyvodası kaleyi tahkim etti. Bu göç dalgası, Moskova'nın güney sınırındaki boş bozkırı yerleşime açan Slobodskaya Ukrayna düzeninin başlangıcıdır: gelenlere vergi muafiyeti verilip karşılığında sınır nöbeti beklendi. Sumı, 1658'den 1765'e kadar kendi adını taşıyan alayın merkezi oldu.",
-    kaynak:"bulunamadı — TDV kapsamı dışı; dayanak Internet Encyclopedia of Ukraine (CIUS, University of Alberta), madde \"Sumy\": \"It was founded in 1652 by peasants and Cossacks from Bila Tserkva regiment… led by Colonel Herasym Kondratiev\", \"fortified by the Muscovite voivode K. Arsenev (1656-8)\"",
+    kaynak:"TDV kapsamı dışı. Encyclopedia of Ukraine (CIUS / Univ. of Toronto Press; ed. V. Kubijovyč), 'Sumy' (encyclopediaofukraine.com/pages/S/U/Sumy.htm; 2011 güncellemeli): 'founded in 1652 by peasants and Cossacks from Bila Tserkva regiment', Kondratiev önderliğinde; 'fortified by the Muscovite voivode K. Arsenev (1656-8)'; Sumy alayı merkezi 1658-1765 (okuma 24.11.2026). Tek akademik kaynak; literatürde 1652/1653/1658 ve 1655 gibi farklı kuruluş yılları geçtiği arama özetlerinde görüldü (core.ac.uk makalesi erişilemedi, okunmadı). [yalnız yıl teyitli; gün teyitsiz]",
     duygu:["🏛"] },
 
   { onem:2, dunya:1, bolge_onem:2, puan_s:"v2", kapsam:"dis", bolge:3, t:"1754-01-01", k:"idari", etiket:["siyaset","konu-siyasi","konu-idari"],
     b:"Aziz Yelizaveta Kalesi — Rusya'nın güney sınırının Osmanlı-Kırım akın hattına dayanması",
     gun:"1754", yer:"Yelisavetgrad, Yeni Sırbistan", yer_id:"Yelisavetgrad (Aziz Yelizaveta Kalesi)",
     d:"Rusya, Zaporojye Kazaklarının toprağı üzerinde Aziz Yelizaveta adını taşıyan yeni bir kale inşa etti. Kalenin açık gerekçesi, Yeni Sırbistan'a yerleştirilen Balkan göçmenlerini Osmanlı ve Kırım akınlarından korumaktı; yani Rus sınır hattı ilk kez bozkırın ortasına, akın yollarının üstüne kadar indi. Bu ileri karakol, yirmi yıl sonra Küçük Kaynarca ile başlayacak olan kuzey Karadeniz genişlemesinin çıkış noktası oldu.",
-    kaynak:"bulunamadı — TDV kapsamı dışı; dayanak Internet Encyclopedia of Ukraine (CIUS, University of Alberta), madde \"Kropyvnytskyi\": \"The city was founded in 1754 on Zaporozhian Cossack territory as the Saint Elizabeth Fortress, which was built to protect the Russian Empire's southern frontier\"",
+    kaynak:"TDV kapsamı dışı. Енциклопедія Сучасної України (НАН України / НТШ, 2013), 'Кіровоград' (esu.com.ua/pdf/file/7014.pdf): 'Історія міста розпочинається 1754, коли за наказом рос. імператриці Єлизавети Петрівни була закладена фортеця св. Єлизавети'; inşa 3 yıl sürdü (okuma 24.11.2026). Encyclopedia of Ukraine (CIUS), 'Kropyvnytskyi' maddesi de 1754 diyor (özetten; sayfası bu turda açılmadı). Atlas metnindeki 'inşa etti' ESU'ya göre 'kale temeli atıldı' (inşa 1754-57). [yalnız yıl teyitli; gün teyitsiz]",
     duygu:["🏛"] }
 
 ];
