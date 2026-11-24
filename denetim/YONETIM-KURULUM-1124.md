@@ -52,12 +52,12 @@ DNT diyen için hiçbir şey kaydedilmez. Giriş yapmış üyenin olayları `uye
 - **Kod hatası bulundu ve düzeltildi:** "tercihimi sıfırla" yerel numarayı siliyor, sunucudaki eski kayıtları bırakıyor ve
   silme yolunu kaybettiriyordu. Artık sıfırlama numarayı TUTAR; bildirimde **Reddet** (rıza geri alma) önce sunucudaki
   kayıtları siler (yerelde ölçüldü: 5 satır silindi), sonra numarayı bırakır.
-- **SQL düzeltmesi (EMRE ÇALIŞTIRMALI — canlı Supabase Emre'de):** `supabase/gunluk_g1.sql` yeniden koşturulmalı (güvenlidir):
+- **SQL düzeltmesi (EMRE ÇALIŞTIRDI 25.11, "Success", sonrası kayıt/okuma reddi/silme sınandı; cascade'in hesap silmede çalıştığı canlıda SINANMADI):** `supabase/gunluk_g1.sql` yeniden koşturulmalı (güvenlidir):
   (1) taşma koruması satır sayısına değil gerçek boyuta bakıyor (tablo+dizin 150 MB üstünde kayıt keser; eski koruma 3 milyon
   satırda keserdi ≈ 1,5–3 GB → ücretsiz katmanın 500 MB'ını aşıp veritabanını salt-okunur yapar, forum da yazamaz);
   (2) `uye_id` yabancı anahtarı `on delete cascade` (hesap silinince olay kayıtları da gider; `hesap sil` işlevi
   `delete from auth.users` yapıyor, şimdiye dek kayıtlar kimliksiz kalıyordu).
-  **Bu yeniden koşturma yapılana kadar metindeki "hesabınızı sildiğinizde olaylar da silinir" cümlesi canlıda DOĞRU DEĞİL.**
+  Yeniden koşturma yapıldı; "hesabınızı sildiğinizde olaylar da silinir" cümlesi artık şemaya dayanıyor (gerçek bir hesap silme akışıyla sınanmadı).
 
 ## Siteyi açınca (KASA push kapısından sonra) Emre'nin sınaması
 1. https://kronoatlas.com/ → alt ortada bildirim çıkar. **Reddet** → sayfa yenile → bildirim bir daha çıkmaz.
