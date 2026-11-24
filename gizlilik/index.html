@@ -54,7 +54,8 @@ Başvuru için yukarıdaki e-posta adresine yazabilirsiniz. Şikâyet: Kişisel 
 <h2>6. Çerezler ve yerel depo</h2>
 <p>Oturumunuzu sürdürmek için tarayıcı deponuza (localStorage) bir oturum jetonu yazılır. Reklam ya da izleme
 çerezi kullanılmaz. <strong>İstatistik bildirimini kabul ederseniz</strong> ayrıca rastgele bir numara
-saklanır (bkz. §8); reddederseniz hiçbir şey saklanmaz.</p>
+saklanır (bkz. §8). Reddederseniz sunucuda hiçbir şey saklanmaz; tarayıcınız yalnızca bu tercihinizi
+(“hayır”) hatırlar ki bildirim her açılışta sorulmasın.</p>
 
 <h2>7. Çocuklar</h2>
 <p>Üyelik 16 yaşından büyükler içindir.</p>
@@ -62,18 +63,21 @@ saklanır (bkz. §8); reddederseniz hiçbir şey saklanmaz.</p>
 <h2 id="istatistik">8. Ziyaret istatistiği (üye olmayanlar dahil)</h2>
 <p>Siteyi geliştirmek için, <strong>yalnızca ilk açılışta gösterilen bildirimde “Kabul” derseniz</strong>
 sitenin nasıl kullanıldığını sayarız. “Reddet” derseniz ya da tarayıcınız “izlemeyi reddet” (Do Not Track)
-diyorsa hiçbir şey kaydedilmez ve numara bile üretilmez.</p>
+diyorsa sunucuya hiçbir şey kaydedilmez ve numara bile üretilmez (tarayıcınız yalnızca “hayır” tercihinizi hatırlar).</p>
 <table>
 <tr><th>Ne saklanır?</th><th>Nasıl?</th></tr>
 <tr><td>Tarayıcınızda üretilen <strong>rastgele takma numara</strong></td><td>Sizin tarayıcınızda (localStorage) durur; kimliğinizle ilgisi yoktur. Tarayıcı verisini silerseniz ya da başka tarayıcıdan gelirseniz yeni kişi sayılırsınız.</td></tr>
-<tr><td>Hangi kronoloji maddesine bakıldı, oynat/uçuş kullanıldı mı, sayfa dili, sitede kalma süresi, cihaz türü (bilgisayar/telefon/tablet)</td><td>Olay olarak, takma numarayla birlikte.</td></tr>
-<tr><td>Kaba ülke (iki harf, ör. TR)</td><td>Sunucunun bağlantıdan türettiği ülke kodu; <strong>IP adresiniz kaydedilmez</strong>, şehir kaydedilmez.</td></tr>
-<tr><td>Giriş yaptıysanız</td><td>Aynı olaylar hesabınıza (kullanıcı adınıza) bağlanır; yalnız yönetici görür.</td></tr>
+<tr><td>Baktığınız kronoloji maddesinin <strong>başlığı ve tarihi</strong> (oynatma sırasında kendiliğinden geçen maddeler sayılmaz), oynat düğmesine basıp basmadığınız, seçili uçuş kipi, sayfa dili, sitede kalma süresi, cihaz türü (bilgisayar/telefon/tablet)</td><td>Olay olarak, takma numarayla birlikte.</td></tr>
+<tr><td>Rastgele <strong>oturum numarası</strong></td><td>Yalnız o sekme açıkken tarayıcınızda durur (sessionStorage); aynı ziyaretteki olayları birleştirmek içindir.</td></tr>
+<tr><td>Kaba ülke (iki harf, ör. TR)</td><td>Sunucunun bağlantıdan türettiği ülke kodu; <strong>IP adresiniz ve şehriniz tablolarımıza yazılmaz</strong>. Barındırma altyapısı (Supabase, Cloudflare) bağlantıyı yönlendirirken kendi teknik günlüklerinde IP adresi görebilir; biz bunu istatistik için kullanmayız.</td></tr>
+<tr><td>Tarayıcınızda tutulanlar</td><td>Tercihiniz (“evet” ya da “hayır”), takma numara ve son kullandığınız dil. Siz silmedikçe orada kalır.</td></tr>
+<tr><td>Giriş yaptıysanız</td><td>Aynı olaylar hesabınıza (kullanıcı adınıza) bağlanır; yalnız yönetici görür. Hesabınızı sildiğinizde bu olaylar da silinir.</td></tr>
 </table>
 <p><strong>Saklanmayanlar:</strong> adınız, e-postanız, telefonunuz, IP adresiniz, makine adınız, parmak izi.
 Reklam amaçlı kullanılmaz, kimseyle paylaşılmaz ya da satılmaz; veriyi yalnız site yöneticisi görür.</p>
 <p><strong>Hukukî sebep:</strong> açık rızanız (bildirimde “Kabul”; KVKK m.5/1, GDPR m.6/1-a). Rızayı istediğiniz an
-geri alabilirsiniz: <a href="../?cerez=sifirla">tercihimi sıfırla</a> (bildirim yeniden sorulur).</p>
+geri alabilirsiniz: <a href="../?cerez=sifirla">tercihimi sıfırla</a> bildirimi yeniden açar; orada <strong>“Reddet”</strong>
+derseniz bu tarayıcıdaki numaranıza ait kayıtlar da silinir ve numara bırakılır.</p>
 <p><strong>Saklama:</strong> ayrıntılı olay kaydı <strong>12 ay</strong> tutulur; sonra silinir. Yalnız
 “hangi gün kaç kişi” gibi kişi numarası içermeyen günlük özet kalabilir.</p>
 <p><strong>Silme / itiraz:</strong> bu tarayıcıdaki numaranıza ait kayıtları şu bağlantıyla anında silersiniz:

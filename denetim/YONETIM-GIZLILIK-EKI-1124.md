@@ -1,5 +1,9 @@
 # Gizlilik metni eki — ziyaret istatistiği (24 Kasım 2026)
 
+> **GÜNCEL DURUM (24.11 gece):** bu ek `gizlilik/index.html`e katıldı ve YAYINDA. Metin canlıda gerçek toplamayla
+> karşılaştırıldı ve 6 yerde düzeltildi; **geçerli metin `gizlilik/index.html`dir** (aşağıdaki taslak eski hâli).
+> Farklar: `YONETIM-KURULUM-1124.md` "Canlı ölçüm ve düzeltmeler".
+
 `gizlilik/index.html` sayfası `giris-altyapi-1124` dalındadır (üyelik oturumu). Bu ek, ziyaretçi günlüğünün
 (`supabase/gunluk_g1.sql`, `js/ziyaret.js`) gizlilik metnidir; o sayfaya **§8 olarak** eklenmeli ve **§6 çerez
 paragrafı** aşağıdaki gibi değişmelidir. Karar: `denetim/YONETIM-KARAR-1124.md`. Metin TASLAKTIR; yayından

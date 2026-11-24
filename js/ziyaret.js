@@ -95,7 +95,9 @@
     });
     return;
   }
-  if (/[?&]cerez=sifirla/.test(q)) { LS.del("ka_cerez"); LS.del("ka_kisi"); kisiNo = null; }
+  // Tercihi sıfırlar ama numarayı TUTAR: önceki kayıtlar sunucuda duruyor; ziyaretçi bildirimde "Reddet" derse
+  // (rızayı geri alma) o numaranın kayıtları silinir. Numara burada silinseydi eski kayıtlar sahipsiz kalırdı.
+  if (/[?&]cerez=sifirla/.test(q)) { LS.del("ka_cerez"); }
 
   // ─── İzin ────────────────────────────────────────────────────────────────
   var izin = LS.get("ka_cerez");                  // "evet" | "hayir" | null (sorulmadı)
@@ -226,7 +228,12 @@
       b.addEventListener("click", fn);
       return b;
     }
-    sat.appendChild(dugme("Reddet", false, function () { LS.set("ka_cerez", "hayir"); LS.del("ka_kisi"); kap.remove(); }));
+    sat.appendChild(dugme("Reddet", false, function () {
+      // Rıza geri alma: bu numaraya ait sunucu kayıtları da silinir (varsa), sonra numara bırakılır.
+      var k = LS.get("ka_kisi");
+      if (k) { try { rpc("ziyaret_sil", { p_kisi: k }, true).catch(function () {}); } catch (e) {} }
+      LS.set("ka_cerez", "hayir"); LS.del("ka_kisi"); kisiNo = null; kap.remove();
+    }));
     sat.appendChild(dugme("Kabul", true, function () { LS.set("ka_cerez", "evet"); kap.remove(); baslat(); }));
     kap.appendChild(p); kap.appendChild(sat);
     document.body.appendChild(kap);

@@ -34,12 +34,30 @@ DNT diyen için hiçbir şey kaydedilmez. Giriş yapmış üyenin olayları `uye
 3. **12 ay temizliği:** zamanlayıcı KURULU (ölçüldü 24.11: Supabase → Integrations → Cron → `ziyaret_temizle`,
    `15 3 * * *`, ilk çalışma 24.11 06:15 TSİ). Ama temizleme işlevi **gerçek 12 aylık veriyle çalıştırılmadı** (veri
    12 ayı daha doldurmadı); ilk gerçek silme 12 ay sonra olur. Önceden denemek için eski tarihli bir sahte satırla sınanabilir.
-4. **Gerçek trafikte doluluk (500 MB) ölçülmedi:** `ziyaret_kaydet` ~3 milyon satırda yeni kayıt almayı keser
-   (taşma koruması). Panelden satır sayısı izlenmeli.
+4. **Gerçek trafikte doluluk (500 MB) ölçülmedi:** `ziyaret_kaydet` tablo+dizin 150 MB'ı aşınca yeni kayıt almayı keser
+   (taşma koruması; SQL'in yeniden koşturulmuş hâli). Supabase → Database → Tables'tan boyut izlenmeli.
 5. **Kötüye kullanım:** herkes `ziyaret_kaydet`i çağırabilir (anon). Satır başına sınır ve toplu sınır var, hız sınırı
    yok. Sahte kayıt basılırsa panel sayıları şişer; gerekirse Cloudflare/Turnstile ya da IP hız sınırı eklenir.
-6. Gizlilik metninin §6/§8 eki yayında DEĞİL (sayfa giris-altyapi dalında). Bildirimin "Ayrıntı" bağlantısı
-   `gizlilik/#istatistik` şimdilik 404 verir; sayfa inince çalışır. **Gizlilik metni hukukçu gözünden geçmeli.**
+6. Gizlilik metni §6/§8 YAYINDA (kronoatlas.com/gizlilik/#istatistik, canlıda ölçüldü). **Hukukçu gözünden geçmedi.**
+
+## Canlı ölçüm (24.11, kronoatlas.com, gerçek Supabase) ve düzeltmeler
+- **Canlıda doğrulandı:** `js/ziyaret.js`, `yonetim/`, `gizlilik/` 200; bildirim çıkıyor; Kabul sonrası açılış, dil, oynat,
+  kalma olayları sunucuya gitti (204); `ziyaret_sil` 5 satır sildi, ikinci çağrı 0; "Ayrıntı" bağlantısı `gizlilik/#istatistik`
+  çözülüyor (id var); `?verilerimi_sil=1` akışı tercih+numarayı temizliyor.
+- **Gizlilik metni gerçek toplamayla karşılaştırıldı, 6 fark düzeltildi** (gizlilik/index.html): reddedenin tarayıcısında
+  "hayır" tercihi saklanır (metin "hiçbir şey" diyordu); oturum numarası (sessionStorage) sunucuya gider ama yazılı değildi;
+  madde BAŞLIĞI ve tarihi kaydedilir; barındırıcı altyapı (Supabase/Cloudflare) kendi günlüğünde IP görebilir ("IP kaydedilmez"
+  yalnız bizim tablolar için doğru); tarayıcıda tutulanlar (tercih, numara, son dil) eksikti; hesap silinince olay kayıtlarının
+  silinmesi metne yazıldı.
+- **Kod hatası bulundu ve düzeltildi:** "tercihimi sıfırla" yerel numarayı siliyor, sunucudaki eski kayıtları bırakıyor ve
+  silme yolunu kaybettiriyordu. Artık sıfırlama numarayı TUTAR; bildirimde **Reddet** (rıza geri alma) önce sunucudaki
+  kayıtları siler (yerelde ölçüldü: 5 satır silindi), sonra numarayı bırakır.
+- **SQL düzeltmesi (EMRE ÇALIŞTIRMALI — canlı Supabase Emre'de):** `supabase/gunluk_g1.sql` yeniden koşturulmalı (güvenlidir):
+  (1) taşma koruması satır sayısına değil gerçek boyuta bakıyor (tablo+dizin 150 MB üstünde kayıt keser; eski koruma 3 milyon
+  satırda keserdi ≈ 1,5–3 GB → ücretsiz katmanın 500 MB'ını aşıp veritabanını salt-okunur yapar, forum da yazamaz);
+  (2) `uye_id` yabancı anahtarı `on delete cascade` (hesap silinince olay kayıtları da gider; `hesap sil` işlevi
+  `delete from auth.users` yapıyor, şimdiye dek kayıtlar kimliksiz kalıyordu).
+  **Bu yeniden koşturma yapılana kadar metindeki "hesabınızı sildiğinizde olaylar da silinir" cümlesi canlıda DOĞRU DEĞİL.**
 
 ## Siteyi açınca (KASA push kapısından sonra) Emre'nin sınaması
 1. https://kronoatlas.com/ → alt ortada bildirim çıkar. **Reddet** → sayfa yenile → bildirim bir daha çıkmaz.
