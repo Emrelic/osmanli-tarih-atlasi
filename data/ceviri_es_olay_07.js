@@ -1,6 +1,8 @@
 /* ÇEVİRİ es · olay — arac/ceviri.py ile YAZILDI, elle düzenleme: py arac/ceviri.py uygula.
    Kayıt: id → [metin, kaynak_ozet] (olayda alan başına). Tasarım: denetim/CEVIRI-1103/TASARIM.md */
 Ceviri.ekle("es","olay",{
+"OLAYLAR_T5_1000A:1183-04-29:0":{"b": ["Saladino tomó Amid y la entregó al artúquida Nur al-Din Muhammad", "8c3cc7bb"], "d": ["Saladino (Salah al-Din al-Ayyubi) sitió y tomó Amid, y entregó Hasankeyf al emir artúquida Nur al-Din Muhammad; los Inaloğulları llegaron a su fin.", "b16cdda4"]},
+"OLAYLAR_T5_1000A:1184-01-01:0":{"b": ["Rubén III recuperó Adana de manos de los cruzados", "e9876f85"], "d": ["El rupénida Rubén III recuperó en 1184 Misis, Adana y Tel Hamdun, que tras Mleh habían pasado durante un tiempo a los cruzados.", "177b5432"]},
 "OLAYLAR_T5_1000A:1190-01-01:0":{"b": ["Tikrit pasó a los abasíes", "e8f5aeac"], "d": ["Tras el dominio begteginí, la ciudad pasó a la administración del califato abasí.", "f91cfb0d"]},
 "OLAYLAR_T5_1000A:1194-01-01:0":{"b": ["Rukn al-Din Süleyman Shah II recuperó Samsun", "0971ebcd"], "d": ["Samsun y los territorios del Mar Negro oriental, que durante las disputas entre hermanos habían pasado a los Comnenos, fueron recuperados por Süleyman Shah.", "940e4b5b"]},
 "OLAYLAR_T5_1000A:1199-01-06:0":{"b": ["Adana y Tarso: el principado rupénida se convirtió en el Reino armenio de Cilicia", "de3c4beb"], "d": ["La dinastía rupénida, que poseía Adana y Tarso, adoptó el título de reino; se trata de un cambio de título de la misma dinastía, el territorio no cambió de manos. El día de la coronación NO SE ENCONTRÓ en el TDV — la fecha se tomó del comienzo de la ficha del Reino armenio de Cilicia (el día de la ficha no es fuente).", "be8faf2b"]},

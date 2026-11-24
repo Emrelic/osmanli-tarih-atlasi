@@ -1,6 +1,7 @@
 /* ÇEVİRİ nl · olay — arac/ceviri.py ile YAZILDI, elle düzenleme: py arac/ceviri.py uygula.
    Kayıt: id → [metin, kaynak_ozet] (olayda alan başına). Tasarım: denetim/CEVIRI-1103/TASARIM.md */
 Ceviri.ekle("nl","olay",{
+"OLAYLAR_T5_1000B:1097-07-01:0":{"b": ["Na de nederlaag bij Dorylaion keerde Eskişehir terug naar Byzantium", "3f381ee4"], "d": ["Na de terugtrekking van Kilij Arslan I voor de kruisvaarders kwam de stad opnieuw onder Byzantijns bestuur.", "f3155b07"]},
 "OLAYLAR_T5_1000B:1104-06-06:0":{"b": ["Tughtekin stichtte het Atabegaat van Damascus", "f26729c0"], "d": ["Na de dood van Duqaq stichtte de atabeg Tughtekin de dynastie van de Buriden.", "ac9e7419"]},
 "OLAYLAR_T5_1000B:1150-01-01:0":{"b": ["De Almohaden namen Meknes in", "ee976b41"], "d": ["Na lang verzet kwam de stad onder Almohadische heerschappij en werd geplunderd.", "4924b727"]},
 "OLAYLAR_T5_1000B:1154-04-25:0":{"b": ["Nur ad-Din Zengi nam Damascus in", "a4fd8b58"], "d": ["Nur ad-Din Mahmud bracht Damascus onder zijn heerschappij.", "f87fe7de"]},

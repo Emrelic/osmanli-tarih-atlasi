@@ -115,15 +115,15 @@ window.CEVIRI_DIZIN = {
    ],
    [
     "ceviri_en_olay_04.js",
-    "17c4c8f6"
+    "9971090a"
    ],
    [
     "ceviri_en_olay_05.js",
-    "66c6d9e6"
+    "7c4c6403"
    ],
    [
     "ceviri_en_olay_06.js",
-    "8960734d"
+    "a1d78e38"
    ]
   ],
   "ar": [
@@ -153,15 +153,15 @@ window.CEVIRI_DIZIN = {
    ],
    [
     "ceviri_ar_olay_05.js",
-    "1d5a1507"
+    "47a2ff1b"
    ],
    [
     "ceviri_ar_olay_06.js",
-    "cacdedac"
+    "a148cb77"
    ],
    [
     "ceviri_ar_olay_07.js",
-    "40c6330d"
+    "0a6f9dbc"
    ],
    [
     "ceviri_ar_olay_08.js",
@@ -191,19 +191,19 @@ window.CEVIRI_DIZIN = {
    ],
    [
     "ceviri_es_olay_04.js",
-    "4ad82fc8"
+    "0f1e628a"
    ],
    [
     "ceviri_es_olay_05.js",
-    "2b15366c"
+    "1e41ad0b"
    ],
    [
     "ceviri_es_olay_06.js",
-    "2cbf51e9"
+    "eae8a771"
    ],
    [
     "ceviri_es_olay_07.js",
-    "a96747ea"
+    "1bc47791"
    ]
   ],
   "fr": [
@@ -229,7 +229,7 @@ window.CEVIRI_DIZIN = {
    ],
    [
     "ceviri_fr_olay_04.js",
-    "81c49a97"
+    "655a2aed"
    ],
    [
     "ceviri_fr_olay_05.js",
@@ -275,19 +275,19 @@ window.CEVIRI_DIZIN = {
    ],
    [
     "ceviri_ru_olay_06.js",
-    "a642c484"
+    "fa7f94d6"
    ],
    [
     "ceviri_ru_olay_07.js",
-    "e91d723e"
+    "7ebbaf38"
    ],
    [
     "ceviri_ru_olay_08.js",
-    "1cf28954"
+    "294f9cf9"
    ],
    [
     "ceviri_ru_olay_09.js",
-    "12606b30"
+    "43bff817"
    ]
   ],
   "zh": [
@@ -313,15 +313,15 @@ window.CEVIRI_DIZIN = {
    ],
    [
     "ceviri_zh_olay_04.js",
-    "14f2653c"
+    "9ee588ba"
    ],
    [
     "ceviri_zh_olay_05.js",
-    "611cc544"
+    "6124c567"
    ],
    [
     "ceviri_zh_olay_06.js",
-    "8105c433"
+    "10ee7e25"
    ]
   ],
   "hi": [
@@ -359,27 +359,27 @@ window.CEVIRI_DIZIN = {
    ],
    [
     "ceviri_hi_olay_07.js",
-    "b904ce71"
+    "a19a31ca"
    ],
    [
     "ceviri_hi_olay_08.js",
-    "60b16444"
+    "aa0a7160"
    ],
    [
     "ceviri_hi_olay_09.js",
-    "f630d238"
+    "63810ba3"
    ],
    [
     "ceviri_hi_olay_10.js",
-    "0f2ebc12"
+    "892a69c5"
    ],
    [
     "ceviri_hi_olay_11.js",
-    "046bacb4"
+    "5173fdcb"
    ],
    [
     "ceviri_hi_olay_12.js",
-    "c7067c9a"
+    "0f4035a5"
    ]
   ],
   "pt": [
@@ -405,15 +405,15 @@ window.CEVIRI_DIZIN = {
    ],
    [
     "ceviri_pt_olay_04.js",
-    "e062a8d2"
+    "b4ff8397"
    ],
    [
     "ceviri_pt_olay_05.js",
-    "54efbbe0"
+    "fd414269"
    ],
    [
     "ceviri_pt_olay_06.js",
-    "522f6a8a"
+    "5ddb8304"
    ]
   ],
   "de": [
@@ -439,7 +439,7 @@ window.CEVIRI_DIZIN = {
    ],
    [
     "ceviri_de_olay_04.js",
-    "60a93c5a"
+    "27304bb9"
    ],
    [
     "ceviri_de_olay_05.js",
@@ -477,19 +477,19 @@ window.CEVIRI_DIZIN = {
    ],
    [
     "ceviri_ja_olay_04.js",
-    "8868cd04"
+    "521d6a5a"
    ],
    [
     "ceviri_ja_olay_05.js",
-    "064cc175"
+    "c3399d3f"
    ],
    [
     "ceviri_ja_olay_06.js",
-    "d60197ba"
+    "608c3056"
    ],
    [
     "ceviri_ja_olay_07.js",
-    "c50e443f"
+    "2b7c23fb"
    ]
   ],
   "fa": [
@@ -519,19 +519,19 @@ window.CEVIRI_DIZIN = {
    ],
    [
     "ceviri_fa_olay_05.js",
-    "76dd6a57"
+    "72b06f6a"
    ],
    [
     "ceviri_fa_olay_06.js",
-    "a0865dee"
+    "34202fcd"
    ],
    [
     "ceviri_fa_olay_07.js",
-    "0557c093"
+    "5ea896ee"
    ],
    [
     "ceviri_fa_olay_08.js",
-    "fe52a479"
+    "0bf02777"
    ]
   ],
   "it": [
@@ -557,15 +557,15 @@ window.CEVIRI_DIZIN = {
    ],
    [
     "ceviri_it_olay_04.js",
-    "9ed8a34a"
+    "68bc980b"
    ],
    [
     "ceviri_it_olay_05.js",
-    "101c8043"
+    "917980b3"
    ],
    [
     "ceviri_it_olay_06.js",
-    "f8ac4121"
+    "e87a1c82"
    ]
   ],
   "pl": [
@@ -591,15 +591,15 @@ window.CEVIRI_DIZIN = {
    ],
    [
     "ceviri_pl_olay_04.js",
-    "9da9c9a8"
+    "6d494cb9"
    ],
    [
     "ceviri_pl_olay_05.js",
-    "8e04ef74"
+    "9d7201e4"
    ],
    [
     "ceviri_pl_olay_06.js",
-    "7a7d0999"
+    "3c5eaab4"
    ]
   ],
   "nl": [
@@ -625,19 +625,19 @@ window.CEVIRI_DIZIN = {
    ],
    [
     "ceviri_nl_olay_04.js",
-    "9fd18dd9"
+    "7d9f0823"
    ],
    [
     "ceviri_nl_olay_05.js",
-    "21c37157"
+    "2b6ac0af"
    ],
    [
     "ceviri_nl_olay_06.js",
-    "a7c28f47"
+    "f2a1bcb1"
    ],
    [
     "ceviri_nl_olay_07.js",
-    "4d2a1f85"
+    "b5badf9b"
    ]
   ],
   "el": [
@@ -671,27 +671,27 @@ window.CEVIRI_DIZIN = {
    ],
    [
     "ceviri_el_olay_06.js",
-    "b7ff616c"
+    "e7ef2a33"
    ],
    [
     "ceviri_el_olay_07.js",
-    "9d45a016"
+    "7e61d90d"
    ],
    [
     "ceviri_el_olay_08.js",
-    "9fb2db92"
+    "f95b5b6f"
    ],
    [
     "ceviri_el_olay_09.js",
-    "7d947aaa"
+    "e3be1780"
    ],
    [
     "ceviri_el_olay_10.js",
-    "7e0af7c0"
+    "60b5b982"
    ],
    [
     "ceviri_el_olay_11.js",
-    "ce283890"
+    "4b4092c3"
    ]
   ],
   "id": [
@@ -717,15 +717,15 @@ window.CEVIRI_DIZIN = {
    ],
    [
     "ceviri_id_olay_04.js",
-    "3619777e"
+    "6b917e56"
    ],
    [
     "ceviri_id_olay_05.js",
-    "118850f4"
+    "855a77a0"
    ],
    [
     "ceviri_id_olay_06.js",
-    "4b66ffe8"
+    "893159b6"
    ]
   ],
   "bn": [
@@ -763,27 +763,27 @@ window.CEVIRI_DIZIN = {
    ],
    [
     "ceviri_bn_olay_07.js",
-    "af03fa7a"
+    "7aaed725"
    ],
    [
     "ceviri_bn_olay_08.js",
-    "2517272d"
+    "b611d6a9"
    ],
    [
     "ceviri_bn_olay_09.js",
-    "d316bcf8"
+    "7c814dee"
    ],
    [
     "ceviri_bn_olay_10.js",
-    "25a9c936"
+    "10a45749"
    ],
    [
     "ceviri_bn_olay_11.js",
-    "0a96edb2"
+    "b51deda6"
    ],
    [
     "ceviri_bn_olay_12.js",
-    "e3e5bb8c"
+    "0c004ad7"
    ]
   ],
   "ur": [
@@ -813,19 +813,19 @@ window.CEVIRI_DIZIN = {
    ],
    [
     "ceviri_ur_olay_05.js",
-    "96fbb83b"
+    "49baa1dc"
    ],
    [
     "ceviri_ur_olay_06.js",
-    "f781ff99"
+    "401f85d0"
    ],
    [
     "ceviri_ur_olay_07.js",
-    "a5e34bba"
+    "42473d20"
    ],
    [
     "ceviri_ur_olay_08.js",
-    "77f6062d"
+    "79cfe769"
    ]
   ],
   "sw": [
@@ -851,15 +851,15 @@ window.CEVIRI_DIZIN = {
    ],
    [
     "ceviri_sw_olay_04.js",
-    "310dd9b8"
+    "88b48a73"
    ],
    [
     "ceviri_sw_olay_05.js",
-    "ed379f67"
+    "5096c644"
    ],
    [
     "ceviri_sw_olay_06.js",
-    "55edbdef"
+    "20b8c73e"
    ]
   ],
   "az": [
@@ -885,15 +885,15 @@ window.CEVIRI_DIZIN = {
    ],
    [
     "ceviri_az_olay_04.js",
-    "e20e59fb"
+    "7e79557f"
    ],
    [
     "ceviri_az_olay_05.js",
-    "bcc4b66c"
+    "a1f8a4af"
    ],
    [
     "ceviri_az_olay_06.js",
-    "e23ecfe7"
+    "0f86b43c"
    ]
   ],
   "bg": [
@@ -927,19 +927,19 @@ window.CEVIRI_DIZIN = {
    ],
    [
     "ceviri_bg_olay_06.js",
-    "caf9d8be"
+    "e989e53c"
    ],
    [
     "ceviri_bg_olay_07.js",
-    "88be40c8"
+    "82f1b6dc"
    ],
    [
     "ceviri_bg_olay_08.js",
-    "57b90372"
+    "2ab9d9f1"
    ],
    [
     "ceviri_bg_olay_09.js",
-    "c99ea215"
+    "699de6b7"
    ]
   ]
  }
