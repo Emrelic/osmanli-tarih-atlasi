@@ -34,7 +34,7 @@
     var ulkeDili = null;
     if (!p && !kayitli && window.ZIYARETCI && window.ZIYARETCI.diller) {
       ulkeDili = window.ZIYARETCI.diller.filter(function (k) {
-        return DIZIN.diller.some(function (x) { return x.kod === k; });
+        return DIZIN.diller.some(function (x) { return x.kod === k && !x.gizli; });
       })[0] || null;
     }
     var d = (p || kayitli || ulkeDili || "tr").toLowerCase();
@@ -121,7 +121,7 @@
     // blokları kendi yönünü bulur (css/style.css `.ceviri-rtl`, TASARIM.md §7).
     if (RTL[DIL]) document.documentElement.classList.add("ceviri-rtl");
   }
-  var RTL = { ar: 1, fa: 1, he: 1, ur: 1 };
+  var RTL = { ar: 1, fa: 1, he: 1, ur: 1, ps: 1 };
 
   // ---- Arayüz sözlüğü: metin düğümleri + title/placeholder/aria-label ----
   // Anahtar: kırpılmış Türkçe; rakam dizileri "#" ile şablonlanır ("12 madde" ↔ "# madde").
@@ -251,7 +251,8 @@
     dugme.setAttribute("aria-haspopup", "listbox"); dugme.setAttribute("aria-expanded", "false");
     var liste = document.createElement("div");
     liste.className = "dil-liste"; liste.hidden = true; liste.setAttribute("role", "listbox");
-    DIZIN.diller.forEach(function (d) {
+    // YENI-DILLER-1126: yarım dil ("gizli") listede görünmez; ?dil=<kod> ile açılmışsa kendisi görünür.
+    DIZIN.diller.filter(function (d) { return !d.gizli || d.kod === DIL; }).forEach(function (d) {
       var op = document.createElement("button");
       op.type = "button"; op.className = "dil-sec"; op.setAttribute("role", "option");
       op.setAttribute("data-kod", d.kod);

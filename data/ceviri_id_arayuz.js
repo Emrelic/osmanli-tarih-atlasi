@@ -1788,7 +1788,6 @@ Ceviri.ekle("id","arayuz",{
 "yüklenemedi — bölgeler çizilemedi, metin duruyor":["gagal dimuat — wilayah tidak dapat digambar, teks tetap ada", "b9872108"],
 "yükleniyor…":["sedang dimuat…", "91b0563c"],
 "yıl":["tahun", "8252e04d"],
-"yıl kaynakta yok (# yer tutucu)":["tahun tidak ada dalam sumber (# adalah penanda sementara)", "c1d97e14"],
 "{sonuc, olcum} yok":["{sonuc, olcum} tidak ada", "b16f2562"],
 "~# Kasım #":["~# November #", "93926cba"],
 "± # yıl":["± # tahun", "bda5b78f"],

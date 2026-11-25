@@ -37,7 +37,18 @@ DILLER = [("tr", "Türkçe"), ("en", "English"), ("ar", "العربية"), ("es"
           ("pt", "Português"), ("de", "Deutsch"), ("ja", "日本語"), ("fa", "فارسی"),
           ("it", "Italiano"), ("ko", "한국어"), ("pl", "Polski"), ("nl", "Nederlands"),
           ("el", "Ελληνικά"), ("id", "Bahasa Indonesia"), ("bn", "বাংলা"), ("ur", "اردو"),
-          ("sw", "Kiswahili"), ("az", "Azərbaycanca"), ("bg", "Български")]
+          ("sw", "Kiswahili"), ("az", "Azərbaycanca"), ("bg", "Български"),
+          # YENI-DILLER-1126 (Emre, 25 Kasım 2026). bs = Boşnakça/Hırvatça/Sırpça tek çeviri (Latin);
+          # ku = Kurmancî (Latin). "ko" yukarıda zaten tanımlıydı.
+          ("uk", "Українська"), ("vi", "Tiếng Việt"), ("jv", "Basa Jawa"), ("ps", "پښتو"),
+          ("sq", "Shqip"), ("bs", "Bosanski · Hrvatski · Srpski"), ("hy", "Հայերեն"),
+          ("ka", "ქართული"), ("ku", "Kurdî (Kurmancî)")]
+
+# YARIM DİL (YENI-DILLER-1126): bu kümedeki dilin dosyası olsa da dil seçicide GÖRÜNMEZ, ülkeye göre
+# otomatik seçilmez ve çeviri tavanını AŞTIRMAZ (borcu bilgi olarak basılır). Dizinde "gizli": true
+# durur; yalnız ?dil=<kod> ile sınanabilir. Dil tamamlanınca kod BU KÜMEDEN ÇIKARILIR (o andan
+# sonra tavanı 0'dır).
+YAYINDA_DEGIL = {"uk", "vi", "ko", "jv", "ps", "sq", "bs", "hy", "ka", "ku"}
 
 # TAVANLAR (CLAUDE.md "Tavanlar"): 4 Kasım 2026 ölçümü, birleşik dal. {dil: {tür: sayı}}.
 # Yalnız GERİLEME bloke eder; iyileşince aynı commit'te İNDİRİLİR, YÜKSELTİLMEZ (yeni Türkçe
@@ -314,7 +325,10 @@ def dizin_yaz():
                     icerik = f.read().replace(b"\r\n", b"\n")
                     liste.append([os.path.basename(yol), hashlib.sha1(icerik).hexdigest()[:8]])
         if liste:
-            var.append({"kod": kod, "ad": ad}); dosya[kod] = liste
+            kayit = {"kod": kod, "ad": ad}
+            if kod in YAYINDA_DEGIL:
+                kayit["gizli"] = True
+            var.append(kayit); dosya[kod] = liste
     with open(DIZIN, "w", encoding="utf-8", newline="\n") as f:
         f.write("/* ÇEVİRİ DİZİNİ — arac/ceviri.py yaz ile ÜRETİLDİ. Dil seçicinin dilleri ve tembel\n"
                 "   yüklenecek dosyalar (sürüm = içerik özeti). js/ceviri.js'ten ÖNCE yüklenir. */\n")
@@ -348,6 +362,9 @@ def denetim_hukmu(sonuc):
             te = BEKLENEN_CEVIRI_EKSIK.get(dil, {}).get(tur, 0)
             tb = BEKLENEN_CEVIRI_BAYAT.get(dil, {}).get(tur, 0)
             isaret = ""
+            if dil in YAYINDA_DEGIL:
+                satirlar.append("%-4s %-7s %7d %7d %7d   ◌ yayında değil (tavan sayılmaz)" % (dil, tur, v["eksik"], v["bayat"], v["yetim"]))
+                continue
             if v["eksik"] > te or v["bayat"] > tb:
                 asan.append((dil, tur)); isaret = "  ✗ TAVAN AŞILDI"
             elif v["eksik"] < te or v["bayat"] < tb:
