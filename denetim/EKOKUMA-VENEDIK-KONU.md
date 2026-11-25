@@ -184,6 +184,36 @@ Aşağıdakiler 283 satırın başlıklarında bulunamadı (başlık araması; g
 - Ulusal ve dinî hassasiyetli konularda (1204, Magosa, getto, Mora, Uskoklar) iki tarafın
   anlatısı ayrı kaynaklardan verilmeli.
 
+## 3. Seri üretim, 02. parti (`data/ekokuma_dev_venedik_02.js`, 20 kart)
+
+Bu partideki konuların bir kısmı yukarıdaki tabloda "okunmadı" görünür; güncel kaynak durumu kartın
+kendi `kaynak`, `teyit` ve `ic_not` alanlarındadır. Orseolo ve Kallergis tabloda olmayan konulardır.
+
+16 kart `teyitli`, 4 kart `teyitsiz` (Serrata: kısmen okunan bölüm ve tarih yazımı aktarımı;
+Gelibolu: kayıp rakamları aktarım; 1618: sonuç başka bir araştırmacının aktarımı; Angelo Emo:
+çürütme okunmamış esere dayanır). 01. partide 4 `teyitli` (Gritti, Cornaro, getto, Magosa),
+4 `teyitsiz` (Dandolo, 1204, ferman, Parthenon).
+
+Etiket sınırı: bir yazarın vakanüvis geleneğini ya da eserin sonraki alımlanışını kendi sözüyle
+özetlediği cümleler (Faliero, Girit, Sarpi, Manin) aktarım sayılmadı. Daha sıkı ölçüt istenirse
+bu dört kart yeniden etiketlenmelidir.
+
+Erişilemeyenler: Tiepolo ve Calergi için denenen biyografi adresleri boş döndü (Tiepolo için başka
+ansiklopedi maddesi okundu); bir üniversite sitesi otomatik erişimi reddetti, aşılmadı.
+
+### Parti sırasında görülen kronoloji uyuşmazlıkları (düzeltilmedi, takip işi)
+
+| Madde | Okunan kaynağın söylediği |
+|---|---|
+| 1789-03-09 Manin'in seçilmesi | 9 Mayıs 1789 (gün ve ay karışmış olabilir; ikinci kaynakla sınanmalı) |
+| 1000 Orseolo seferi | bazı kaynaklar 998 |
+| 1716-08-20 Korfu | büyük hücum 18 Ağustos gecesi |
+| 1618-05-18 "İspanya tertibi" | tek gün yok; olaylar 12-18 Mayıs |
+| 1784-05-01 Emo | atama 6 Mart 1784; mayıs günü yok |
+| 1685-06-01 Mora seferi | gün kaynakta yok |
+| 1479-01-25 İstanbul Antlaşması | gün okunan kaynaklarda yok (o kartın konusu antlaşma değil) |
+| 1538-09-28 Preveze | bir biyografi "Ekim", TDV 28 Eylül |
+
 ## Ek: kronoloji envanteri (283 satır)
 
 Süzgeç: dosya ya da kayıt Venedik’e ait olanlar ile başlığında Venedik veya bir Venedik soyadı geçenler. Süzgeç başlığa baktığı için başlıkta adı geçmeyen ortak maddeler listede olmayabilir; listeye yalnız anılan maddeler de girmiştir.
