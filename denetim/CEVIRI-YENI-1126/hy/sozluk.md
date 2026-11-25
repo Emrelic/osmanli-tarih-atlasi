@@ -109,3 +109,22 @@ Berlin Antlaşması Բեռլինի պայմանագիր · Ayastefanos Սան Ս
 Celâlî Ջելալիներ · Osmanoğulları-տիպ անուններ՝ -oğulları -օղուլներ (Կարամանօղուլներ) · beyan edilmiş yaklaşıklık հայտարարված մոտավորություն ·
 TDV'nin X maddesi TDV-ի «X» հոդվածը · atlas ատլաս
 
+== sozluk_f.md
+# hy բառարան (ETIKET f, olay_051-064) — լրացումներ sozluk_a-ին
+Panamá Պանամա · Quito Կիտո · Lima Լիմա · Cuzco Կուսկո · Vilcabamba Վիլկաբամբա · Manco Inca Մանկո Ինկա · İnka ինկեր ·
+Muisca մուիսկաներ · Quesada Կեսադա · Benalcázar Բենալկասար · Francisco Pizarro Ֆրանսիսկո Պիսարո · Genel Vali (Peru) փոխարքա ·
+Temeşvar Թեմեշվար · Lugos Լուգոշ · Karánsebes Կարանշեբեշ · Lippa Լիպպա · Orsova Օրշովա · Adakale Ադակալե ·
+Alacahisar Կրուշևաց · Şehirköy Պիրոտ · Brankoviç Գեորգ Բրանկովիչ · Mezistre Միստրաս · Manastır Մոնաստիր · İşkodra Շկոդրա ·
+Avlonya Վլյորա · İsmâil Kemali Իսմաիլ Քեմալի · Köse Mustafa Paşa Քյոսե Մուստաֆա փաշա · Ebukır Աբուկիր · Dimyat Դամիետ · Reşîd Ռոզետտա
+Cermen Tarikatı Տևտոնական օրդեն · Sâsânî Սասանյան · Part Պարթևական · Sokoto Halifeliği Սոկոտոյի խալիֆայություն · Ziştovi Սիստովա ·
+Dubrovnik Դուբրովնիկ · Una Ունա · Transkafkasya Seymi Անդրկովկասի սեյմ · Kızıl Ordu Կարմիր բանակ · Mondros Mütarekesi Մուդրոսի զինադադար
+
+== sozluk_g.md
+# hy sözlüğü (ETIKET g, olay_065-078) — sozluk_a esastır
+Chalcolithic/Neolitik: neolit նեոլիթ · Aseramik ախեցեղեն · Erken Tunç վաղ բրոնզ
+Kanunî Կանունի · Sokullu Mehmed Paşa Սոքոլլու Մեհմեդ փաշա · Nâdir Şah Նադիր շահ · Habsburg Հաբսբուրգ(ներ)
+SHS Krallığı ՍԽՍ թագավորություն · Sırp-Hırvat-Sloven Սերբերի, խորվաթների և սլովենների · Trianon Տրիանոն · Saint-Germain Սեն Ժերմեն
+Pécs/Peçuy Պեչ · Timișoara Տիմիշոարա (Osmanlı bağlamı Թեմեշվար) · Szigetvár Սիգետվար · Eğri Էգեր · Erdel Տրանսիլվանիա
+Ahıska Ախալցխա · Revan Երևան · Gence Գանձակ · Hoy Խոյ · Küçük Kaynarca Քյուչուկ Կայնարջի · Karlofça Կառլովից
+İnebahtı Լեպանտո · Ferdinand Ֆերդինանդ · Szapolyai Զապոյայի · serdar սերդար · serasker սերասքեր · vezîriâzam մեծ վեզիր
+

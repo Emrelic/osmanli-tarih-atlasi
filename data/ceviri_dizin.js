@@ -950,23 +950,27 @@ window.CEVIRI_DIZIN = {
   "hy": [
    [
     "ceviri_hy_arayuz.js",
-    "286becaa"
+    "51ce9b6f"
    ],
    [
     "ceviri_hy_devlet.js",
-    "199d4228"
+    "7d27572e"
    ],
    [
     "ceviri_hy_olay_01.js",
-    "cb55495e"
+    "8a88445c"
    ],
    [
     "ceviri_hy_olay_02.js",
-    "f4bb811c"
+    "b6f4621f"
    ],
    [
     "ceviri_hy_olay_03.js",
-    "22414a3a"
+    "c1a9c37a"
+   ],
+   [
+    "ceviri_hy_olay_04.js",
+    "156a8ea4"
    ]
   ]
  }
