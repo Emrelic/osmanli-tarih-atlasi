@@ -9,11 +9,16 @@
 2315
 ],
 "olay": [
-1175,
+1550,
 5196
 ]
 },
 "mekanik_atlanan": [
+[
+"olay",
+"OLAYLAR_EK10:1788-04-24:0 d",
+"yil eksik"
+],
 [
 "olay",
 "OLAYLAR_EK14:1502-06-01:0 d",
