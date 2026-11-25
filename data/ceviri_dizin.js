@@ -503,11 +503,11 @@ window.CEVIRI_DIZIN = {
    ],
    [
     "ceviri_fa_olay_01.js",
-    "d7d2788d"
+    "57ffd700"
    ],
    [
     "ceviri_fa_olay_02.js",
-    "c1bd0bdf"
+    "0f34e151"
    ],
    [
     "ceviri_fa_olay_03.js",
