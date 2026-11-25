@@ -8,6 +8,7 @@
 // ============================================================================
 window.KISI_VENEDIK = [
   { id: "venedik-kisi-enrico-dandolo", devlet: "venedik", tur: "yabanci-hukumdar",
+  teyit:"teyitsiz", yayin_adayi:false, ic_not_teyit:"Kartıyla aynı: Novgorod ve Andrea Dandolo rivayeti aktarım.",
     ad: "Enrico Dandolo",
     f: "1107", ic_not_f: "dolayı (DBI 'intorno al 1107'; Barker 'around 1107')",
     t: "1205",
@@ -19,6 +20,7 @@ window.KISI_VENEDIK = [
     kaynak: "G. Cracco, \"Dandolo, Enrico\", Dizionario Biografico degli Italiani c. 32 (1986) · Villehardouin, İng. çev. F. T. Marzials (1908) · J. W. Barker, The Medieval Review 04.08.03 (2004)" },
 
   { id: "venedik-kisi-caterina-cornaro", devlet: "venedik", tur: "yabanci-hukumdar",
+  teyit:"teyitli", yayin_adayi:true, ic_not_teyit:"DBI ve TDV ham tam metin.",
     ad: "Caterina Cornaro (Corner)",
     f: "1454", ic_not_f: "ilk biyografı Colbertaldo'ya göre (DBI aktarımı)",
     t: "1510",

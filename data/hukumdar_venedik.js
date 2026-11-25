@@ -7,6 +7,7 @@
 // ============================================================================
 window.HUKUMDAR_VENEDIK = [
   { id: "venedik-doge-andrea-gritti", devlet: "venedik",
+  teyit:"teyitli", yayin_adayi:true, ic_not_teyit:"DBI Andrea ve Alvise Gritti ham tam metinden okundu.",
     ad: "Andrea Gritti (Venedik dogesi)",
     from: "1523-05-20", to: "1538-12-28",
     dogum: "1455-04-17",

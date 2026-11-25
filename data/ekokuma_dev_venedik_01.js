@@ -12,6 +12,7 @@ window.EKOKUMA_DEVVENEDIK01 = [
 
 // ── 1 · Enrico Dandolo ─────────────────────────────────────────────────
 { id:"venedik-kimdir-enrico-dandolo", tur:"kimdir",
+  teyit:"teyitsiz", yayin_adayi:false, ic_not_teyit:"Aktarım: Madden (Barker eleştirisi üzerinden); Choniates ve Andrea Dandolo (DBI üzerinden); Novgorod anlatısı (Brzozowska çevirisi, yalnız ilgili bölümler).",
   baslik:"Enrico Dandolo'yu gerçekten Bizanslılar mı kör etti?",
   olay:["1192-06-21|Enrico Dandolo","1205-01-01|Enrico Dandolo"],
   kisa:"Seksen beş yaşlarında doge olan, gözleri görmeden Haçlılarla İstanbul'a giden adam hakkında en bilinen hikâye bir intikam hikâyesidir. Kaynaklar ise bu kadar net konuşmuyor.",
@@ -37,6 +38,7 @@ window.EKOKUMA_DEVVENEDIK01 = [
 
 // ── 2 · Caterina Cornaro ───────────────────────────────────────────────
 { id:"venedik-kimdir-caterina-cornaro", tur:"kimdir",
+  teyit:"teyitli", yayin_adayi:true, ic_not_teyit:"DBI ve TDV Kıbrıs ham tam metinden okundu; emir ve Latince ifade ham metinde doğrulandı. DBI içindeki belge alıntıları maddenin aktarımıdır; 1979 sonrası literatür aranmadı.",
   baslik:"Caterina Cornaro Kıbrıs'ı kendi isteğiyle mi bıraktı?",
   olay:["1489-02-26|Cornaro","1489-02-26|Kıbrıs'ın devralınması"],
   kisa:"Törenlerde Venedik'in \"öz kızı\" olan kraliçenin adayı cumhuriyete bağışladığı anlatılır. Törenin arkasında ise reddederse zorla gemiye bindirilmesini söyleyen bir emir vardı.",
@@ -60,6 +62,7 @@ window.EKOKUMA_DEVVENEDIK01 = [
 
 // ── 3 · Dördüncü Haçlı Seferi ──────────────────────────────────────────
 { id:"venedik-tartisma-dorduncu-hacli", tur:"tartisma",
+  teyit:"teyitsiz", yayin_adayi:false, ic_not_teyit:"Aktarım: tarihçi görüşlerinin çoğu Harris ve Barker üzerinden; eserlerin kendisi okunmadı.",
   baslik:"Haçlılar Mısır'a gidecekti, İstanbul'u aldı: Venedik bunu planladı mı?",
   olay:["1204-04-13|IV. Haçlı Seferi'nde","1204-04-13|Konstantinopolis'i ele geçirdi"],
   kisa:"Müslümanlara karşı yola çıkan bir ordu, Hristiyan bir imparatorluğun başkentini yağmaladı. Sekiz yüz yıldır sorulan soru aynı: kaza mı, tertip mi?",
@@ -83,6 +86,7 @@ window.EKOKUMA_DEVVENEDIK01 = [
 
 // ── 4 · Altın mühürlü ferman: 1082 mi 1092 mi ──────────────────────────
 { id:"venedik-antlasma-altin-muhurlu-ferman", tur:"antlasma",
+  teyit:"teyitsiz", yayin_adayi:false, ic_not_teyit:"Özet/aktarım: Frankopan 2004 yalnız özet + Morossi; Hendy ve Lilie Dagron üzerinden.",
   baslik:"Venedik'e verilen altın mühürlü ferman: 1082 mi, 1092 mi? Bizans'ı bu mu batırdı?",
   olay:["1082-01-01|Altın Bulla"],
   kisa:"Bir imparator, Venedik tüccarını imparatorluğun dört bir yanında vergiden bağışladı. Kitaplar bunu çoğu zaman 1082'ye ve çöküşün başlangıcına bağlar. İki iddia da sanıldığı kadar sağlam değil.",
@@ -105,6 +109,7 @@ window.EKOKUMA_DEVVENEDIK01 = [
 
 // ── 5 · Getto 1516 ─────────────────────────────────────────────────────
 { id:"venedik-sebep-getto-1516", tur:"sebep-sonuc",
+  teyit:"teyitli", yayin_adayi:true, ic_not_teyit:"Ravid (kaynakçasıyla tam metin) ve Calabi ham okundu; Katz yalnız yayıncının açık örnek bölümü (atıf yapılan sayfalar ham).",
   baslik:"\"Getto\" sözü Venedik'ten çıktı. Yahudiler ilk kez orada mı kapatıldı?",
   olay:["1516-03-29|Ghetto"],
   kisa:"1516'da Venedik Senatosu, şehirdeki Yahudileri gün batımında kapıları kilitlenen bir adaya taşıdı. Adanın adı bütün dünyaya yayıldı. Ama uygulamanın kendisi orada başlamadı.",
@@ -128,6 +133,7 @@ window.EKOKUMA_DEVVENEDIK01 = [
 
 // ── 6 · Magosa 1571 ────────────────────────────────────────────────────
 { id:"venedik-savas-magosa-bragadin-1571", tur:"savas-hikayesi",
+  teyit:"teyitli", yayin_adayi:true, ic_not_teyit:"DBI ve Strauss ham tam metinden; TDV Kıbrıs önce web aracının aktarımıyla okunmuştu, 25.11.2026'da ham sayfa indirildi ve '50 esir, Bragadin ile on bir bey' cümlesi doğrulandı. Strauss'un andığı eski tarihçiler kartta Strauss'a atfedilir.",
   devlet:"venedik", taraf:["venedik","osmanli"],
   baslik:"Magosa 1571: şartlı teslimden sonra Bragadin niçin öldürüldü?",
   olay:["1571-08-01|Magosa'nın düşüşü","1571-08-01|Magosa teslim oldu"],
@@ -153,10 +159,11 @@ window.EKOKUMA_DEVVENEDIK01 = [
     "Şartlı teslim ve sonrasındaki öldürmeler konusunda anlatılar buluşuyor. Ayrılık nedendedir: esirlerin öldürüldüğü haberi doğru muydu, yoksa bir gerekçe miydi? Okunan kaynaklar bunu kesin biçimde çözmüyor. Doğru olsa bile bu soru, yapılan işkenceyi açıklamakla haklı çıkarmayı birbirine karıştırmadan sorulmalı.",
   kesinlik:"tartismali",
   kaynak:"Angelo Ventura, \"Bragadin, Marcantonio\", Dizionario Biografico degli Italiani c. 13 (1971), treccani.it/enciclopedia/marcantonio-bragadin_(Dizionario-Biografico)/ · TDV İslâm Ansiklopedisi: \"Kıbrıs\" Osmanlı dönemi (Kemal Çiçek), \"Lala Mustafa Paşa\" (Bekir Kütükoğlu), \"Magosa\" · Johann Strauss, \"Kıbrıs Türk İdaresine Nasıl Girdi: Bir Fetih ve Tarihçiler\", çev. M. A. Erdoğru, OTAM 44 (2018), s. 341-349, dergipark.org.tr/tr/download/issue-file/54827",
-  ic_not:"TDV sayfaları doğrudan indirmede 403 verdi, web okuma aracının aktarımıyla okundu: kartta TDV'den tırnaklı alıntı yok; yayından önce gözle karşılaştırılmalı. OKUNMADI: Peçevî, Selânikî, Âlî, Kâtip Çelebi; G. Hill, A History of Cyprus III; Setton; Venedik tanık raporları (yalnız DBI aktarımı). 'yanındakiler öldürüldü': DBI'ya göre Tiepolo ve bir Arnavut subayı ertesi gün asıldı. Kuşatma süresi 'yaklaşık on bir ay' 17.09.1570-01.08.1571 hesabıdır. savas-hikayesi'nde devlet/taraf alanlarının sefer oku davranışı sınanmadı." },
+  ic_not:"TDV Kıbrıs cümlesi 25.11.2026 ham sayfada doğrulandı. OKUNMADI: Peçevî, Selânikî, Âlî, Kâtip Çelebi; G. Hill, A History of Cyprus III; Setton; Venedik tanık raporları (yalnız DBI aktarımı). 'yanındakiler öldürüldü': DBI'ya göre Tiepolo ve bir Arnavut subayı ertesi gün asıldı. Kuşatma süresi 'yaklaşık on bir ay' 17.09.1570-01.08.1571 hesabıdır. savas-hikayesi'nde devlet/taraf alanlarının sefer oku davranışı sınanmadı." },
 
 // ── 7 · Parthenon 1687 ─────────────────────────────────────────────────
 { id:"venedik-karsi-parthenon-1687", tur:"karsi-anlati",
+  teyit:"teyitsiz", yayin_adayi:false, ic_not_teyit:"Aktarım: Foscarini, subay anlatıları ve Alman teğmen günlüğü Laborde (1854, bozuk OCR) üzerinden; Mommsen ve Paton okunmadı. TDV Atina cümlesi ham sayfada doğrulandı.",
   baslik:"Parthenon'u kim havaya uçurdu? \"Türkler\", \"kaza\" ve belgelerin söylediği",
   olay:["1687-09-26|Parthenon","1688-04-08|Atina'nın geri alınışı"],
   kisa:"Antik çağdan kalan yapı bir akşam parçalandı. Ateşi Venedik tarafı açtı, patlayan ise Osmanlıların içeride tuttuğu mühimmattı. Asıl tartışma, isabetin kasıtlı olup olmadığı.",
