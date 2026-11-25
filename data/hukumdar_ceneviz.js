@@ -1,6 +1,23 @@
 // Hükümdar kayıtları: Ceneviz dukaları (PADISAHLAR şeması; künye id: cenova)
 window.HUKUMDAR_CENEVIZ = [
 
+  { id: "ceneviz-guglielmo-boccanegra", devlet: "cenova", ad: "Guglielmo Boccanegra (halk kaptanı)", from: "1257", to: "1262-05",
+    dogum: "",
+    olum: "1274 öncesi (Ocak 1274'te ölmüştü)",
+    olum_yer: "",
+    olum_sebep: "",
+    baba: "",
+    tahta: "1257 başındaki ayaklanmada halk kaptanı ilan edildi; karar ertesi gün yasal biçime kavuştu",
+    saltanat_yil: 5,
+    lakap: [],
+    esler: ["Giacomina"],
+    cocuk: { oglan: 3 },
+    ovgu: "Kamu borcunu düzenledi, San Giorgio Sarayı'nın yapımını başlattı, liman ve rıhtımları genişletti, 1261'de Nymphaeum Antlaşması'nı sağladı.",
+    yergi: "Memur, komutan ve elçi seçimini kendinde topladı. Üst sınıfların sesi olan kent yıllıkları onu tiran gibi yönetmekle suçlar.",
+    tartisma: "Tiran mı, reformcu mu? Biyografisini yazan R. S. Lopez onu aydın ve bağışlayıcı bir kişisel yönetici olarak değerlendirir.",
+    tarihciler: "Lopez'e göre uzun süre için seçilmesi ve yetkisinin genişliği onu çağının öteki halk kaptanlarından çok sonraki dönemin kent senyörlerine yaklaştırır.",
+    kaynak: "Robert Sabatino Lopez, «BOCCANEGRA, Guglielmo», Dizionario Biografico degli Italiani, c. 11 (1969), treccani.it", teyit: "teyitli" },
+
   { id: "ceneviz-boccanegra-1", devlet: "cenova", ad: "Simone Boccanegra (birinci dukalığı)", from: "1339-09", to: "1344-12",
     dogum: "14. yüzyıl başı (1301 olduğu sanılır)",
     olum: "1363",

@@ -70,6 +70,18 @@ window.EKOKUMA_DEVCENEVIZ01 = [
     "Bir kadırga denizde dört beş yıl dayanabilirdi. Geminin maliyeti, kürekçiler ve bakım birlikte hesaplandığında yıllık giderin büyük bölümü beslemeye ve ücretlere gidiyordu. 1528 sözleşmesindeki kadırga başına ödeme bu giderin üzerindeydi. Yine de kâr güvenceli değildi: para taksitlerle geliyor, İspanya'dan nakit çıkarmak güçleşiyordu. 1552'de Doria sözleşilen tutarın tamamını alamadığından yakındı. Banker ve tüccar Adamo Centurione işletmenin mali yürütücüsü olarak öne çıktı.\n\n" +
     "Tarihçiler bugün ne diyor? Edoardo Grendi Doria'yı hem imparatorun amirali hem de savaş girişimcisi olarak okur. Onun için bu, korsanlık, devlet hizmeti ve ticaret mantığının iç içe geçtiği bir meslekti. Bu insanlar için aynı hesabın bedeli zorla kürek çekmekti.",
   kaynak:"Edoardo Grendi, «DORIA, Andrea», Dizionario Biografico degli Italiani, c. 41 (1992), treccani.it/enciclopedia/andrea-doria_(Dizionario-Biografico).",
+  kesinlik:"kesin", teyit:"teyitli" },
+
+{ id:"ceneviz-ninfeo-1261", devlet:"cenova", tur:"antlasma",
+  baslik:"İstanbul henüz alınmadan yapılan pazarlık: Nymphaeum 1261",
+  kisa:"Cenova, Venedik'e karşı bir imparatora destek sözü verdi. Birkaç ay sonra şehir el değiştirdi ve Venedik'in temsilcilik sarayı Cenevizlilere bırakıldı: yıkmaları için.",
+  olay:["1261-03-13|Nymphaeum"],
+  metin:"1257'de bir ayaklanma Guglielmo Boccanegra'yı Cenova'da 'halk kaptanı' olarak en yüksek yetkiye taşıdı. Dışarıda tablo parlak değildi. Doğu Akdeniz ticaretinin düğüm noktası Akkâ'da Cenevizliler iki deniz yenilgisi aldı; 1258'de Venedikliler ve Pisalılar şehirdeki Ceneviz mahallesini ele geçirip yıktı. Kaptanın itibarı sarsıldı.\n\n" +
+    "Boccanegra bu hesabı kapatacak fırsatı Mikhail Palaiologos'ta gördü. Palaiologos İstanbul'u Latin imparatorundan ve onun arkasındaki Venediklilerden geri almak istiyordu. 13 Mart 1261'de imzalanan Nymphaeum Antlaşması, Cenova'nın yardımına karşılık Bizans topraklarında bir dizi iskele ve ayrıcalık vaat ediyordu.\n\n" +
+    "Mikhail aynı yılın 25 Temmuz'unda şehre girdi. Cenevizlilere Venedik temsilcisinin sarayını işgal edip yıkma izni verdi; yıkım müzik eşliğinde yapıldı. Zafer haberi 5 Mayıs 1262'de Cenova'ya ulaştı. Sarayın bazı taşları da getirildi ve bugünkü San Giorgio Sarayı'nın duvarlarına yerleştirildi.\n\n" +
+    "Mimarı ise zaferin tadını uzun süre çıkaramadı. Birkaç gün sonra, 9 Mayıs'ta, soylu muhaliflerin ayaklanması Boccanegra'yı devirdi. Sürgünde Fransa'ya gitti ve sonunda Aigues-Mortes'un surlarıyla limanındaki işleri yönetti.\n\n" +
+    "Tarihçiler bugün ne diyor? Ekonomi tarihçisi Robert S. Lopez antlaşmayı Cenova için yeni bir yayılma döneminin başlangıcı sayar. Boccanegra'yı da sıradan bir halk kaptanından çok, sonraki yüzyılın kent senyörlerine benzeyen, giderek daha kişisel yöneten ama aydın ve bağışlayıcı bir yönetici olarak tanımlar.",
+  kaynak:"Robert Sabatino Lopez, «BOCCANEGRA, Guglielmo», Dizionario Biografico degli Italiani, c. 11 (1969), treccani.it/enciclopedia/guglielmo-boccanegra_(Dizionario-Biografico).",
   kesinlik:"kesin", teyit:"teyitli" }
 
 ];
