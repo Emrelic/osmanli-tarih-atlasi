@@ -11,3 +11,13 @@ Duzeltme dosyalari: duzeltme_a_001 - duzeltme_a_011
 == ilerleme_b.txt
 Tamamen okunan paketler: 4_olay_038 - 4_olay_067 (30/30, aralık tamam).
 Düzeltme dosyaları: duzeltme_b_001 - 009.
+
+== ilerleme_c.txt
+Tamamen okunan: 4_olay_068 - 4_olay_102 (35 paket; aralik tamam)
+Bakilan olay kaydi: 068-102 paketlerindeki tum kayitlar (arayuz/devlet bu turda okunmadi)
+Düzeltme: duzeltme_c_001..010.jsonl
+
+== ilerleme_d.txt
+Tam okunan paketler: 4_olay_103 - 4_olay_137 (35/35)
+Bakilan olay kaydi: yaklasik 1150
+Okunmayan: yok (aralik tamam)

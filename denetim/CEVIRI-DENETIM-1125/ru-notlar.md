@@ -12,3 +12,18 @@
 - OLAYLAR_EK5:1607: "Операция ... взяв ..., ликвидировала" ulaç yapısı zayıf, dokunulmadı.
 - "Абдулхамид/Абдул-Хамид", "Абдулазиз/Абдул-Азиз" yazımı paketler arasında karışık; yalnız yeniden yazılan kayıtlarda "Абдул-" kullanıldı. Toplu tekleştirme önerilir.
 - duzeltme_b_* içinde aynı id+alan için ikinci kayıt yok.
+
+== notlar_c.md
+- UYGULANMADI (metin çok uzun, yeniden yazılmadı) olay OLAYLAR_EK22:1923-07-24:0 alan d: "отмена Emval-i Metruke, возвращение" -> "отмена законов об «оставленном имуществе», возвращение". Birleştirici alt-dizge değişimiyle uygulayabilir.
+- Aynı kayıt: "диапазоны статей по TDV" vb. düzgün; başka değişiklik yok.
+- Metin içi "TDV İslâm Ansiklopedisi" ve «...» içinde Türkçe madde adı kalıbı 068-102 dışındaki paketlerde de olabilir; toplu tarama önerilir (Latin Türkçe harf araması: ı ş ğ İ).
+- Dokunulmayan Latin adlar: yabancı özgün eser/kanun adları (Pacta Subiectionis, Plakkaat van Verlatinghe, Staten-Generaal, håndfæstning, riksråd, corpus separatum, Ordensstaat, Hofkriegsrat, Srpske novine, Noche Triste, Perpetual Truce..., Restauração, ic_not).
+- OLAYLAR_EK21:1537-01-01:0 "Севюндюк-хан Курчибаши", OLAYLAR_P0049:1578 "Тмогви" (TR Tümük) ve "Хертвиси" (TR Hırtıs): Gürcüce yerleşik biçim olarak seçildi; coğrafi eşleştirme kaynaktan doğrulanmadı.
+
+== notlar_d.md
+- Arkeoloji paketlerinde (106-121) parantez içi özgün adlar, kazı/faz kodları (Tierras Largas, Verbena-Arenal, Purrón, Waira-jirca, Jahuay, HK11C, "cal BC", "cal BP", Kiffian dışı faz adları) ve İngilizce/Latince alıntılar bilerek bırakıldı; yalnız açık kalıntılar düzeltildi. Tam bir Latin ad geçişi ayrı iş.
+- ARKEOLOJI_ZINCIR kayıtlarında Çince eser adları (Hou Han shu, Sanguozhi, Jin shu) ve kaynak/URL blokları bırakıldı.
+- "atlas bu tarihten önceyi boş bırakır / atlas şu noktaları ... tutar" türü açıklamalar TR ile aynı biçimde bırakıldı (yalnız Emre/künye/kural no gibi iç notlar çıkarıldı).
+- OLAYLAR_TARİH "TDV «Eskişehir»" gibi madde slug adları bırakıldı.
+- Aynı yer için "Хююк / Хёйюк", "зу-ль-хиджа / зу-ль-хиджжа" yazım farkları paketler arasında var; toplu birleştirme yapılmadı.
+- OLAYLAR_ARKEOLOJI_D3_AMERIKA_PASIFIK:-1624-01-01:0 (d) hem duzeltme_d_002 hem 003 dosyasinda ayni metinle var.
