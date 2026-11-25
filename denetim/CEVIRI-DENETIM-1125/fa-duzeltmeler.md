@@ -285,3 +285,126 @@
 - olay | OLAYLAR_EK:1381-06-01:0 | d: Isparta → ایسپارتا
 - olay | OLAYLAR_EK:1390-01-01:0 | d: Datça yanlış yazılmış
 - olay | OLAYLAR_EK:1392-11-01:0 | d: hanedan ve yer adları yanlış (Candaroğulları, Devrek, Karadeniz Ereğlisi)
+- olay | OLAYLAR_EK:1463-06-01:0 | d: Travnik yanlış yazılmış (ترنوویک); bozuk anlatım ve imla
+- olay | OLAYLAR_EK:1461-06-01:0 | d: 'Karadeniz' Türkçe kalmış harf çevirisi; Devrek yanlış yazılmış
+- olay | OLAYLAR_EK:1470-07-12:0 | b: Eğriboz adası Euboia'dır; Euripos boğaz adı
+- olay | OLAYLAR_EK:1526-09-01:0 | d: Anlaşılmaz cümle düzeltildi
+- olay | OLAYLAR_EK:1388-08-27:0 | b: Bileća (ć = چ) yer adı yanlış
+- olay | OLAYLAR_EK:1388-08-27:0 | d: Bileća yer adı yanlış
+- olay | OLAYLAR_EK:1395-06-03:0 | d: 'تزاریسم' (çarlık ideolojisi) yanlış; devlet adı
+- olay | OLAYLAR_EK:1478-01-15:0 | d: Bozuk anlatım
+- olay | OLAYLAR_EK2:1585-01-01:0 | b: Tağşiş = sikke ayarının düşürülmesi; 'تحریف' çarpıtma demek
+- olay | OLAYLAR_EK2:1884-01-01:0 | d: Zeyla (Somali kıyısı) = زیلع; زیله Tokat'ın Zile'sidir
+- olay | OLAYLAR_EK2:1720-10-08:0 | b: Yirmisekiz lakabı 'yirmi sekiz Mehmed Çelebi'den biri' diye yanlış çevrilmiş
+- olay | OLAYLAR_EK2:1390-01-15:0 | d: Vassallık için yanlış/uydurma sözcük
+- olay | OLAYLAR_EK2:1462-06-01:0 | d: Vassallık için yanlış sözcük
+- olay | OLAYLAR_EK2:1456-06-01:0 | d: Voyvodalık yanlış çevrilmiş
+- olay | OLAYLAR_EK2:1909-04-13:0 | d: Hareket Ordusu'nun yerleşik adı
+- olay | OLAYLAR_EK2:1915-07-11:0 | d: Dahiliye Nezâreti yanlış/bozuk ifade
+- olay | OLAYLAR_EK3:1413-07-05:0 | b: Çamurlu yer adında fazladan د
+- olay | OLAYLAR_EK3:1413-07-05:0 | d: Çamurlu yer adında fazladan د
+- olay | OLAYLAR_EK3:1684-03-05:0 | d: Anlamsız yineleme
+- olay | OLAYLAR_EK3:1685-10-15:0 | d: Bozuk cümle
+- olay | OLAYLAR_EK3:1687-08-12:0 | d: Dilbilgisi hatası; (sadrazamı azlettirme cümlesi korundu)
+- olay | OLAYLAR_EK3:1688-09-06:0 | d: Dilbilgisi hatası
+- olay | OLAYLAR_EK3:1690-10-08:0 | d: Dilbilgisi hatası
+- olay | OLAYLAR_EK4:1801-03-08:0 | d: 'Otuzlu yaşlarında' = 30'lu yaşlar, 'otuz yaşında' değil
+- olay | OLAYLAR_EK4:1813-01-23:0 | d: Dilbilgisi hatası
+- olay | OLAYLAR_EK4:1820-11-01:0 | b: Zaman uyumsuzluğu
+- olay | OLAYLAR_EK4:1820-12-04:0 | b: Zaman uyumsuzluğu
+- olay | OLAYLAR_EK4:1825-02-24:0 | d: Nizamî piyade = düzenli piyade
+- olay | OLAYLAR_EK4:1832-07-29:0 | d: Tarsus = طرسوس; طرطوس Suriye'deki Tartus
+- olay | OLAYLAR_EK4:1839-06-24:0 | b: Nizip Nusaybin (نصیبین) değildir
+- olay | OLAYLAR_EK4:1840-07-15:0 | d: Kayd-ı hayat = ömür boyu; kelime çevirisi anlamsız
+- olay | OLAYLAR_EK5:1671-01-01:0 | d: Kayd-ı hayat = ömür boyu
+- olay | OLAYLAR_EK4:1841-02-25:0 | d: Tarsus = طرسوس (طرطوس Tartus'tur)
+- olay | OLAYLAR_EK5:1402-09-15:0 | d: Özel ad yazım hataları (Karamanoğlu, Sivrihisar, Yıldırım)
+- olay | OLAYLAR_EK5:1403-03-15:0 | d: Deyim bozuk
+- olay | OLAYLAR_EK5:1404-03-01:0 | d: 'Karadeniz' ve 'Behramkale' bozuk harf çevirisi
+- olay | OLAYLAR_EK5:1415-06-01:0 | d: Sancak beyliği (görev) 'beylik/devlet' diye çevrilmiş
+- olay | OLAYLAR_EK5:1391-01-01:0 | d: Hanedan adında eksik harf
+- olay | OLAYLAR_EK5:1423-01-01:0 | d: Hanedan adında eksik harf
+- olay | OLAYLAR_EK5:1419-01-28:0 | b: Kayseri'nin Farsça yerleşik adı قیصریه
+- olay | OLAYLAR_EK5:1419-01-28:0 | d: Kayseri = قیصریه
+- olay | OLAYLAR_EK5:1435-01-01:0 | b: Kayseri = قیصریه
+- olay | OLAYLAR_EK5:1435-01-01:0 | d: Kayseri = قیصریه
+- olay | OLAYLAR_EK5:1419-01-01:0 | b: Yerleşik yer adları
+- olay | OLAYLAR_EK5:1419-01-01:0 | d: Yerleşik yer adları
+- olay | OLAYLAR_EK5:1398-07-15:0 | d: Teklifin yönü yanlış; Kayseri/Kırşehir adları
+- olay | OLAYLAR_EK5:1459-06-20:0 | d: Candaroğulları adı bozuk
+- olay | OLAYLAR_EK5:1324-01-01:0 | d: 'Taht kavgası' yanlış çevrilmiş
+- olay | OLAYLAR_EK5:1354-03-02:0 | d: Köprübaşı yanlış (پل‌سر); zaman tutarsızlığı
+- olay | OLAYLAR_EK5:1415-03-01:0 | b: Beyşehir/Seydişehir yer adları bozuk
+- olay | OLAYLAR_EK5:1415-03-01:0 | d: Yer adları bozuk; bozuk anlatım
+- olay | OLAYLAR_EK5:1446-05-05:0 | d: Sözcüğü sözcüğüne çeviri, anlamsız
+- olay | OLAYLAR_EK5:1455-06-01:0 | b: Yenipazar yanlış yazılmış
+- olay | OLAYLAR_EK5:1455-06-01:0 | d: Yenipazar yanlış yazılmış
+- olay | OLAYLAR_EK5:1516-03-26:0 | d: Hüsrev Paşa adı yanlış
+- olay | OLAYLAR_EK5:1516-12-21:0 | d: Şam nâibliği (valilik) yanlış
+- olay | OLAYLAR_EK5:1517-05-19:0 | d: 'نه' eksik, anlam tersine dönmüş
+- olay | OLAYLAR_EK5:1517-07-06:0 | d: Hurma (الخرمة) yanlış yazılmış
+- olay | OLAYLAR_EK5:1517-08-28:0 | d: Kalyata = galiot
+- olay | OLAYLAR_EK5:1515-06-13:0 | d: Yazım hatası (Şehsuvaroğlu)
+- olay | OLAYLAR_EK5:1529-09-08:0 | d: Özel ad bozuk
+- olay | OLAYLAR_EK5:1532-08-05:0 | d: Dilbilgisi hatası
+- olay | OLAYLAR_EK5:1538-09-01:0 | d: Kişi adı yanlış (Sâhib Giray, Selim değil); voyvodalık sözcüğü
+- olay | OLAYLAR_EK5:1567-10-01:0 | d: Özne-yüklem uyumsuzluğu
+- olay | OLAYLAR_EK5:1593-07-19:0 | d: Sisak yanlış yazılmış
+- olay | OLAYLAR_EK5:1598-03-29:0 | d: Yineleme (قلعه ... قلعه)
+- olay | OLAYLAR_EK5:1601-09-10:0 | b: Kanije adı tutarsız/yanlış
+- olay | OLAYLAR_EK5:1601-09-10:0 | d: Kanije adı tutarsız/yanlış
+- olay | OLAYLAR_EK5:1623-11-28:0 | d: Cümle yapısı bozuk, özne belirsiz
+- olay | OLAYLAR_EK5:1634-01-08:0 | d: Bozuk anlatım
+- olay | OLAYLAR_EK5:1648-03-31:0 | d: Anlamsız ifade
+- olay | OLAYLAR_EK5:1658-08-27:0 | b: Erdel Türkçe kalıntısı; Farsça yerleşik ad ترانسیلوانیا
+- olay | OLAYLAR_EK5:1658-08-27:0 | d: Erdel Türkçe kalıntısı
+- olay | OLAYLAR_EK5:1660-08-27:0 | d: Erdel Türkçe kalıntısı
+- olay | OLAYLAR_EK5:1664-08-09:0 | d: Erdel Türkçe kalıntısı
+- olay | OLAYLAR_EK5:1690-04-23:0 | b: Kanije adı tutarsız
+- olay | OLAYLAR_EK5:1690-04-23:0 | d: Kanije adı tutarsız
+- olay | OLAYLAR_EK5:1704-01-01:0 | b: Kölemen Türkçe kalıntısı; Farsçada ممالیک
+- olay | OLAYLAR_EK5:1704-01-01:0 | d: 'نه' yanlış yerde, anlam bozuk; Kölemen kalıntısı
+- olay | OLAYLAR_EK5:1801-04-01:0 | d: Kölemen kalıntısı
+- olay | OLAYLAR_EK5:1716-10-13:0 | d: 'ابی‌مرکز' Türkçe kalıntısı; eyalet devri yanlış
+- olay | OLAYLAR_EK5:1716-11-16:0 | d: 'ابی‌مرکز' Türkçe kalıntısı
+- olay | OLAYLAR_EK5:1757-10-30:0 | d: Bozuk cümle
+- olay | OLAYLAR_EK5:1768-10-08:0 | d: Bozuk cümle
+- olay | OLAYLAR_EK5:1775-05-07:0 | d: Erdel kalıntısı; voyvodalık sözcüğü
+- olay | OLAYLAR_EK5:1776-04-16:0 | d: Türkçe 'Basra Körfezi' = Farsçada خلیج فارس; yanlış özel ad
+- olay | OLAYLAR_EK5:1791-08-04:0 | d: Drežnik yazımı bozuk
+- olay | OLAYLAR_EK5:1801-10-09:0 | d: Kölemen kalıntısı; Kavalalı adı tutarsız
+- olay | OLAYLAR_EK5:1826-10-07:0 | d: Yazım hatası
+- olay | OLAYLAR_EK5:1831-09-14:0 | b: Kölemen Türkçe kalıntısı
+- olay | OLAYLAR_EK5:1831-09-14:0 | d: Kölemen Türkçe kalıntısı
+- olay | OLAYLAR_EK5:1849-01-01:0 | d: Dilbilgisi hatası
+- olay | OLAYLAR_EK5:1860-10-22:0 | d: Türkçe eser adı kalıntısı; kişi adı bozuk
+- olay | OLAYLAR_EK5:1862-02-21:0 | d: Metbû = تابع‌کننده/متبوع; 'مولا' yanlış
+- olay | OLAYLAR_EK5:1867-04-18:0 | d: Metbûluk yanlış çevrilmiş
+- olay | OLAYLAR_EK5:1868-01-04:0 | d: Rumca = Yunanca; 'زبان رومی' yanlış
+- olay | OLAYLAR_EK5:1870-03-11:0 | d: Rum (Yunan) 'رومی' ile karıştırılmış
+- olay | OLAYLAR_EK5:1871-04-20:0 | d: Basra Körfezi = Farsçada خلیج فارس
+- olay | OLAYLAR_EK5:1875-10-06:0 | d: Moratoryum yanlış sözcük
+- olay | OLAYLAR_EK5:1875-06-19:0 | d: Anlam tersine dönmüş/anlaşılmaz
+- olay | OLAYLAR_EK5:1876-12-23:0 | b: Tersane Konferansı 'gemi yapımı konferansı' diye çevrilmiş
+- olay | OLAYLAR_EK5:1878-02-13:0 | b: Süresiz = مدت نامعلوم; 'بی‌پایان' yanlış
+- olay | OLAYLAR_EK5:1878-02-13:0 | d: Süresiz yanlış çevrilmiş
+- olay | OLAYLAR_EK5:1878-07-29:0 | b: Yenipazar yanlış yazılmış
+- olay | OLAYLAR_EK5:1899-11-27:0 | d: Basra Körfezi = Farsçada خلیج فارس
+- olay | OLAYLAR_EK5:1905-07-21:0 | d: Türkçe şiir adı kalıntısı
+- olay | OLAYLAR_EK5:1912-10-18:0 | d: Türkçe/Latin yer adları çevrilmemiş
+- olay | OLAYLAR_EK5:1909-04-27:0 | d: 'مارت' Türkçe kalıntısı; tutarlılık
+- olay | OLAYLAR_EK5:1915-05-27:0 | d: 'Geçici kanun' yanlış çevrilmiş (yasal geçici hükümet); bozuk cümle
+- olay | OLAYLAR_EK5:1919-09-04:0 | d: Sivas Sultanîsi (lise) eksik
+- olay | OLAYLAR_EK5:1922-11-17:0 | d: Zırhlı gemi 'zırhlı araç' diye çevrilmiş
+- olay | OLAYLAR_EK5:1545-12-26:0 | b: Basra Körfezi = Farsçada خلیج فارس
+- olay | OLAYLAR_EK5:1545-12-26:0 | d: Ayas Paşa adı yanlış; Basra Körfezi = خلیج فارس
+- olay | OLAYLAR_EK5:1550-01-01:0 | d: Basra Körfezi = Farsçada خلیج فارس
+- olay | OLAYLAR_EK5:1551-09-07:0 | b: Erdel Türkçe kalıntısı
+- olay | OLAYLAR_EK5:1551-09-07:0 | d: Erdel Türkçe kalıntısı; Çanad yazımı
+- olay | OLAYLAR_EK5:1523-01-05:0 | d: İstanköy yanlış yazılmış
+- olay | OLAYLAR_EK5:1522-01-01:0 | d: Yazım hatası
+- olay | OLAYLAR_EK5:1566-04-15:0 | d: Yamurgi (Amorgos) eksik, TR'de olmayan Antiparos eklenmiş
+- olay | OLAYLAR_EK5:1715-07-20:0 | d: 'ابی‌مرکز' Türkçe kalıntısı; Argos çevrilmemiş
+- olay | OLAYLAR_EK5:1715-08-16:0 | d: Karlofça ve Ayamavra yazımı tutarsız
+- olay | OLAYLAR_EK5:1781-01-01:0 | d: Küçük Kaynarca yazımı tutarsız
+- olay | OLAYLAR_EK5:1792-02-12:0 | b: Latin harfli Türkçe kalıntı

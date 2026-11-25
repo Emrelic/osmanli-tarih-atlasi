@@ -1,4 +1,8 @@
+== ilerleme.txt
 Tamamen okunan: 1_arayuz_001-010 (arayüz tamamı); 2_devlet_001-012 (devlet tamamı); 3_bayrakli_001-008 (tamamı); 4_olay_001-006
 Okunmayan: 4_olay_007-208
 Not: bayraklılarda Latin harfli özel adların yalnız bir kısmı düzeltildi (çoğunlukla başlık + kısa açıklama); uzun açıklamalarda kalıntı sürüyor.
 Not: duzeltme_013, OLAYLAR:1402-07-28 vb. aynı id için sonraki dosya numarası önceliklidir.
+
+== ilerleme_a.txt
+Tamamen okunan: 4_olay_007 - 4_olay_040 (34/34, aralık bitti)
