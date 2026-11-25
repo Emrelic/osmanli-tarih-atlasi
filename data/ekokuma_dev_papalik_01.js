@@ -38,6 +38,18 @@ window.EKOKUMA_DEVPAPALIK01 = [
     "\"Zırhlı papa\" imgesi daha Julius yaşarken eleştiriliyordu. Ölümünden sonra Reform propagandasında yayıldı; en ünlü örneği Erasmus'la anılan Julius'un cennet kapısından çevrildiği diyalogdur.\n\n" +
     "Tarihçiler bugün ne diyor? Alessandro Pastore onu tam anlamıyla bir Rönesans prensi olarak değerlendirir: usta bir diplomat, savaş adamı ve büyük bir sanat hamisidir. Bologna'da yerel özerklik geleneğine ödün verirken papalık egemenliğini fiilen geri kurmayı başarmıştır. Pastore'ye göre eksik olan, Avrupa'da olgunlaşan din krizini kavramaktır.",
   kaynak:"Alessandro Pastore, «Giulio II», Enciclopedia dei Papi (Istituto della Enciclopedia Italiana, 2000), https://www.treccani.it/enciclopedia/giulio-ii_(Enciclopedia-dei-Papi)/",
-  kesinlik:"kesin", teyit:"teyitli" }
+  kesinlik:"kesin", teyit:"teyitli" },
+
+{ id:"papalik-anagni-tokadi-1303", devlet:"papalik", tur:"tartisma",
+  baslik:"Anagni baskını: Papaya gerçekten tokat atıldı mı?",
+  olay:["1303-09-07|Anagni Baskını"],
+  kisa:"7 Eylül 1303'te silahlı adamlar bir papanın sarayına girdi. Olay \"tokat\" anlatısıyla ün kazandı. Oysa Sciarra Colonna'nın vurduğu şüpheli görünüyor; baskının arkasında da yalnız Fransız kralıyla kavga yoktu.",
+  metin:"VIII. Bonifacius, papanın hükümdarların da üstünde olduğunu kesin bir dille savunuyordu. Fransa Kralı IV. Philippe ile kilise atamaları, kilise malları ve yargı yetkisi üzerinden çatıştı. 1301'de Pamiers piskoposu Saisset kralın huzurunda sapkınlık ve ihanetle suçlandı. Papa, Ausculta fili bullasıyla krala kendisinin üstünde kimse olmadığını sanmamasını hatırlattı.\n\n" +
+    "Fransa tarafı kamuoyunu kazanmaya girişti. Uzun bullanın yerine, bazı ifadeleri kasıtlı biçimde değiştiren kısa bir sahte özet dolaştırıldı; krala atfedilen hakaretli bir cevap da yayıldı. Haziran 1303'te Paris'teki toplantılarda papaya sapkınlıktan ahlaksızlığa uzanan suçlamalar yöneltildi ve genel konsil istendi. Bonifacius suçlamaları reddetti. Kralın aforoz altında olduğunu ve uyrukların bağlılık yemininden çözüleceğini bildiren yeni bir bulla hazırladı; metin 8 Eylül'de yayımlanacaktı.\n\n" +
+    "Bir gün önce, 7 Eylül'de, kralın hukukçusu Guillaume de Nogaret ile Sciarra Colonna Anagni'ye girdi. Burada iki ayrı hesap birleşmişti. Nogaret Fransa'nın girişimini yürütüyordu. Colonna ailesi ise papayla süren kanlı bir kavganın tarafıydı; yanındaki yerel küçük soyluların çoğu da papanın ailesinin toprak alımlarından zarar görmüştü. Saray çevresinde çarpışıldı, hazine yağmalandı. Sciarra, Bonifacius'u hemen tahttan çekilmezse öldürmekle tehdit etti. Aktarılan cevaba göre yaşlı papa boynunu ve başını gösterip ölmeye hazır olduğunu söyledi. Nogaret araya girip papayı kendi gözetimine aldı.\n\n" +
+    "Üçüncü gün Anagni halkı harekete geçti, saldırganları kovdu ve papayı kurtardı. Bonifacius 18 Eylül'de Roma'ya ulaştı. Bedence ve ruhça çökmüş halde ekimde öldü.\n\n" +
+    "Tarihçiler bugün ne diyor? Eugenio Dupré Theseider'e göre ünlü \"tokat\" olayında Sciarra'nın fiilen el kaldırdığı görünmüyor. Nogaret'nin İtalya'ya tam olarak ne yapmak için gittiği ise tartışmalı. R. Fawtier, görevinin yalnız papaya konsil çağrısını bildirmek olduğunu düşünür. Başkaları, papayı konsili toplamaya zorlamak istediğini daha olası bulur. Dupré Theseider, onu yakalayıp Fransa'ya götürme planını en zayıf ihtimal sayar; Nogaret'ye serbest hareket yetkisi verilmiş olabileceğini de dışlamaz.",
+  kaynak:"Eugenio Dupré Theseider, «Bonifacio VIII», Enciclopedia dei Papi (Istituto della Enciclopedia Italiana, 2000), https://www.treccani.it/enciclopedia/bonifacio-viii_(Enciclopedia-dei-Papi)/",
+  kesinlik:"tartismali", teyit:"teyitli" }
 
 ];
