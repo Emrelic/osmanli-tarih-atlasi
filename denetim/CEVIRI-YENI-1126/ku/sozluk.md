@@ -71,3 +71,27 @@ yeniçeri=yenîçerî · sipahi=sîpahî · şeyhülislâm=şêxulîslam · kapt
 - sadrazamlık=sedrezemî · yeniçeri=yeniçerî · sipahi=sîpahî · divan=dîwan · şeyhülislam=şêxulîslam · ahidname=ehdname · kapitülasyon=kapîtulasyon · hatt-ı hümayun=xetê humayûnê · kaptan-ı derya=kaptanê deryayê · tahttan indirme=ji text daxistin · cülus=cîlûs/derketina ser text · veba/taun=weba/taûn · donanma=flota
 - Girit=Girît · Belgrad=Belgrad · İnebahtı=Înebahtî · Zigetvar=Zîgetvar · Üsküdar=Uskudar · Cezayir=Cezayîr · Bahçe/köşk=baxçe/koşk
 
+== sozluk_e.md
+# Kurmancî (ku) — ajan e (olay_043..058) ekleri; sozluk_a..d ile uyumlu
+- Artêşa Sor (Kızıl Ordu) · Artêşa Alman · Koma Artêşan a Navend/Bakur · Eniya 1./2./3. ya Baltîkê/Belarûsê (Cephe) · Operasyona Bagration (harekât) · vegirtin (geri alma) · rizgarkirin (kurtarma) · dagirkeriyê (işgal)
+- Knezîtiya Moskovayê · Dûkatiya Mezin a Lîtvanyayê · Tarîqata Lîvonyayê · Şovalyeyên Lîvonyayê
+- Ketina X (düşüşü) · Peymana X ya YYYYan (antlaşma) · Şerê X (muharebe)
+- Qraliyeta Yekbûyî · Deryaya Baltîkê=Baltîk · Kendava Rîgayê · Semerqend · Buxara · Tirkistan · Sewakîn · Massawa · Tilemsan · Semendîre · Belgrad
+- Ansîklopediya Îslamê ya TDV · xala (madde) · Evliya Çelebî · Kösem Sultan · Yeniçeriyan · Humbaracî
+
+== sozluk_f.md
+# Kurmancî (ku) — ajan f ekleri (olay_059..074); sozluk_a ile uyumlu
+- "X noktalarında sahiplik A'dan B'ye geçer" = "Li xalên X-ê xwedîtî ji A derbasî B dibe." · "Kaynak geçiş bilgisi:" = "Agahiya derbasbûnê ya çavkaniyê:" · sahipsiz aralık = navbera bêxwedî
+- "X dönemi başlar / sona erer" = "Serdema X dest pê dike / bi dawî dibe"
+- Neolitik=Neolîtîk · Kalkolitik=Kalkolîtîk · Tunç Çağı=Serdema Bronz · Demir Çağı=Serdema Hesin · MÖ=B.Z. (cal BC/BP aynen) · binyıl=hezarsal
+- Haçlı Seferi=Sefera Xaçparêzan · Karahanlı=Qerexanî · Sâmânî=Samanî · Gazneli=Xeznewî · Saffârî=Seffarî · Büveyhî=Buweyhî · Ağlebî=Axlebî · Tolunoğulları=Tolûnoxlî · Hamdânî=Hemdanî · Dânişmendli=Danişmendî · Artuklu=Artuqî · Zengî=Zengî · Mirdâsî=Mirdasî · Karmatî=Qermetî · Bâtınî=Batinî
+- Alparslan=Alparslan · Tuğrul=Tuxrul · Çağrı=Çaxrî · Melikşah=Melîkşah · Kılıcarslan=Kiliçarslan · Selâhaddin=Selahedîn · Nûreddin=Nûreddîn · Hülâgû=Hulagu · Maveraünnehir=Maweraunnehr · Buhara=Buxara · Semerkant=Semerqend · Kâşgar=Kaşgar · Gazne=Xeznî · Dımaşk=Dîmaşq · Kudüs=Qudis · Ahlat=Ahlat · Meraga=Meraxe
+
+== sozluk_h.md
+# Kurmancî (ku) — ajan h (olay_091..106) ekleri; sozluk_a ile uyumlu
+- Ptolemaios (kişi, "Ptolemaiosê III.") · hanedan: Ptolemayiyan (adj. "yên Ptolemayiyan") · Seleukos (kişi) · hanedan: Selewkî
+- İskender=Îskender · İskenderiye=Îskenderiye · Antiokhos · Kleopatra · Antonius · Octavianus · Augustus · Caesar
+- Kush=Kuş · Napata · Meroe · Memphis · Teb=Tebayê (Teb) · Elefantin=Elefantîn · Pelusium · Nubya=Nûbya · Aşağı/Yukarı Mısır=Misira Jêrîn/Jorîn
+- Asur=Asûr · Babil=Babîl · Pers=Pers · Karkamış=Karkamîş · Gazze=Xeze · Kudüs=Quds · Yehuda=Yahûda · Fenike=Fenîke · Koile-Suriye=Koile-Sûriye
+- Moğol=Mexol · bakufu, shugo, jitō Latin aynen · Firavun=firewn · tapınak=perestgeh · rahip=keşîş · satrap=satrap · Hanedan XXV.=Xanedana XXV.
+
