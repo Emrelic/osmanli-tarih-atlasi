@@ -87,7 +87,51 @@ def denetle(dil, kaynak, kayit):
                     hata.append((kid, alan, "kaynakla aynı"))
             elif m.strip() == tr.strip() and TR_HARF.search(tr):
                 uyari.append((kid, alan, "kaynakla aynı: " + tr[:50]))
+    hata += kayma(kaynak, kayit)
     return hata, uyari
+
+
+def kayma(kaynak, kayit):
+    """KİMLİK ↔ METİN KAYMASI (UMIT uyarısı, 26 Kasım 2026): çeviri başka kartın/alanın metni mi?
+    ① farklı iki kaynağa birebir aynı uzun çeviri ② sayı kümesi kendi kaynağından çok partideki
+    BAŞKA bir kaynağa uyuyor ③ uzunluk, kendi kaynağıyla değil partinin ortalama oranıyla
+    yer değiştirmiş gibi (oran ortancanın 1,8 katından büyük / 1,8'de birinden küçük)."""
+    hata = []
+    cift = []
+    for kid, alanlar in kaynak.items():
+        c = kayit.get(kid)
+        if isinstance(c, dict):
+            cift += [(kid, a, tr, c[a]) for a, tr in alanlar.items() if isinstance(c.get(a), str)]
+    gorulen = {}
+    for kid, a, tr, m in cift:
+        if len(m) > 40:
+            if m in gorulen and gorulen[m][2] != tr:
+                hata.append((kid, a, "KAYMA: %s · %s ile aynı çeviri, kaynaklar farklı" % gorulen[m][:2]))
+            gorulen.setdefault(m, (kid, a, tr))
+
+    def kume(s):
+        return {x for x in rakamlar(s) if len(x) >= 2}
+
+    def benzer(x, y):
+        return len(x & y) / len(x | y) if x | y else 0.0
+
+    kaynak_kume = [(kid, a, tr, kume(tr)) for kid, a, tr, _ in cift]
+    for kid, a, tr, m in cift:
+        km = kume(m)
+        if len(km) < 3:
+            continue
+        kendi = benzer(km, kume(tr))
+        for k2, a2, tr2, s2 in kaynak_kume:
+            if tr2 != tr and len(s2) >= 3 and benzer(km, s2) > max(0.6, kendi + 0.3):
+                hata.append((kid, a, "KAYMA: sayılar %s · %s kaynağına uyuyor" % (k2, a2)))
+                break
+    oranlar = sorted(len(m) / len(tr) for _, _, tr, m in cift if len(tr) >= 200)
+    if len(oranlar) >= 5:
+        orta = oranlar[len(oranlar) // 2]
+        for kid, a, tr, m in cift:
+            if len(tr) >= 200 and not orta / 1.8 <= len(m) / len(tr) <= orta * 1.8:
+                hata.append((kid, a, "KAYMA/eksik şüphesi: uzunluk oranı %.2f, parti ortancası %.2f" % (len(m) / len(tr), orta)))
+    return hata
 
 
 def main():
