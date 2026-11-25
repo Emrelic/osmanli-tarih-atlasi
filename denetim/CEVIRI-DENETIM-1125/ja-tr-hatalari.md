@@ -1,0 +1,8 @@
+- arayuz "# Ocak # (imzalar ... şeyhlik şeyhlik tamamlandı)": "şeyhlik şeyhlik" yinelemesi (kastedilen "şeyhlik şeyhlik tek tek" olabilir)
+- arayuz "# Temmuz # (ÇELİŞKİ-# ...)", "# Temmuz # [ÇELİŞKİ-# BALKAN-HALEF ...]", "# [... bkz. karaman künye ic_not_t]", "Ocak # (gün Kahire'den — bk. ic_not_t)", "Eylül # [... yer tutucusu ...]", "# Ocak # (kaynak özeti teyit bekler)", "# Ocak # — DÜZELTİLMİŞ TARİH, bkz. not", "# — YIL hassasiyeti ... (Emre notu ##)": kullanıcıya görünen iç not
+- arayuz "Kaheti ↔ Dağıstan ...", "Sohum kuzeydoğusu ...", "# sefer mevsimi — gün komşudan: kronoloji_safevi.js ...", "(kaç kez önce→sonra — Emre'nin tarifi #)": dosya adı / geliştirici notu / kişi adı kullanıcı metninde
+- arayuz BALKAN-HALEF (ve benzeri 9'dan çok sayılı kalıplar): js/ceviri.js "#N" yalnız 1-9; çeviride indeksli ve düz "#" karışırsa sayılar yanlış yere düşer (ja "BALKAN-HALEF" kaydı bu yüzden hâlâ bozuk, dokunulmadı)
+- arayuz "Yazım örnekleri", "Örnek: # · # Mayıs # ...", "Milattan önce için eksi ya da MÖ yazın": tarih kutusunun ja kipinde 紀元前 / Japonca ay adını kabul edip etmediği ölçülmedi
+- olay OLAYLAR:1699-01-26:0, OLAYLAR:1739-09-18:0, OLAYLAR_EK:1717-08-18:0, OLAYLAR_EK:1830-10-17:0: açıklamada "atlasta ... abi-merkez zinciri / beyanlı yaklaşıklık / dönem ucu doğrulanmadı / TDV slug" iç notları kullanıcıya görünüyor
+- olay OLAYLAR_EK:1324-01-01:0, OLAYLAR_EK:1334-01-01:0: "Haritadaki 1324 sınırı yer tutucudur", "Gemlik zincirine bağlıdır" iç not dili
+- olay (çok sayıda): "Aynı tarihte katılan/elden çıkan yerleşimler" listeleri ja çevirisinde bazı kayıtlarda Türkçe Latin yazımla bırakılmış, bazılarında katakana (tutarsız; toplu karar gerek, tek tek düzeltilmedi)

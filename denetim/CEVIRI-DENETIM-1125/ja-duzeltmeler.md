@@ -1,0 +1,259 @@
+- arayuz | " sekmesini açar. | m: fazladan boş tırnak çifti
+- arayuz | # Aralık # | m: Japonca tarih sırası (yıl-ay-gün)
+- arayuz | # Aralık # (# Cemâziyelâhir #) | m: Japonca tarih sırası
+- arayuz | # Aralık # (# Ramazan #) | m: Japonca tarih sırası
+- arayuz | # Aralık # (# Zilkade #) | m: bozuk tarih biçimi
+- arayuz | # Aralık # (Barbara yortusundan sonraki çarşamba) | m: Japonca tarih sırası
+- arayuz | # Aralık # (Duşan'ın ölüm günü) | m: bozuk tarih biçimi
+- arayuz | # Aralık # (Jülyen # Aralık) | m: Japonca tarih sırası
+- arayuz | # Aralık # (Jülyen # Kasım) | m: Japonca tarih sırası
+- arayuz | # Aralık # (Prens George göreve başladı; muhtariyet ilânı # Aralık #) | m: Japonca tarih sırası
+- arayuz | # Aralık # (Rusya barışı: # Ramazan #; fiilî teslim günü kaynakta yok) | m: Japonca tarih sırası
+- arayuz | # Aralık # (Treccani 'Vandali') | m: Japonca tarih sırası
+- arayuz | # Aralık # (vefat; cülus günü kaynakta ayrıca yok) | m: Japonca tarih sırası
+- arayuz | # Aralık # - # Ocak # | m: Japonca tarih sırası
+- arayuz | # Aralık (Minye) · # Aralık (Asyut) · # Aralık # (Girga) | m: Japonca tarih sırası
+- arayuz | # Ağustos # | m: Japonca tarih sırası
+- arayuz | # Ağustos # (# Zilkade #) | m: Japonca tarih sırası
+- arayuz | # Ağustos # (Ateş: # Ağustos'ta Osmanlı müfrezesi çekildi) | m: Ateş yazar soyadı; 'ateş' diye çevrilmiş
+- arayuz | # Ağustos # (Isonzo; Treccani 'Odoacre') | m: Japonca tarih sırası
+- arayuz | # Ağustos # (Jülyen # Ağustos) | m: Japonca tarih sırası
+- arayuz | # Ağustos # (Magosa'nın teslimi) | m: Magosa = Famagusta, yerleşik ad; tarih sırası
+- arayuz | # Ağustos # (Rus takvimiyle # Temmuz) | m: Japonca tarih sırası
+- arayuz | # Ağustos # (gün: Aktepe # s.#-#, Yörük-Valiyev #; Bilgili # fethi 'Nisan #'ten biraz önce'ye koyar) | m: 'Nisan 1475' yıl, gün diye çevrilmiş; tarih sırası
+- arayuz | # Ağustos # (kaynaklar #-# Ağustos verir) | m: Japonca tarih sırası
+- arayuz | # Ağustos # (kaynaklar #-# Ağustos) | m: Japonca tarih sırası
+- arayuz | # Ağustos # (saldırı günü; JewishGen'e göre Kızıl Ordu üç gün içinde çekildi ⇒ #-# Ağustos arası, gün teyitsiz) | m: Japonca tarih sırası
+- arayuz | # Ağustos # (çarpışma # Temmuz-# Ağustos) | m: Japonca tarih sırası
+- arayuz | # Ağustos # sabahı (# Ağustos «Muş işgalden kurtarılmıştır») | m: Japonca tarih sırası
+- arayuz | # Ağustos – # Eylül # | m: Japonca tarih sırası
+- arayuz | # Cemâziyelevvel # / # Ekim # | m: Japonca tarih sırası
+- arayuz | # Cemâziyelevvel # / # Haziran # | m: Japonca tarih sırası
+- arayuz | # Cemâziyelevvel # / # Ocak # | m: Japonca tarih sırası
+- arayuz | # Cemâziyelâhir # (# Nisan #) | m: Japonca tarih sırası
+- arayuz | # Cemâziyelâhir # (# Temmuz #) | m: Japonca tarih sırası
+- arayuz | # Cemâziyelâhir # / # Haziran # | m: Japonca tarih sırası
+- arayuz | # Cemâziyelâhir # / # Ocak # | m: Japonca tarih sırası
+- arayuz | # Cemâziyelâhir # / # Temmuz # | m: Japonca tarih sırası
+- arayuz | # Cemâziyelâhir # / # Şubat # | m: Japonca tarih sırası
+- arayuz | # Ekim # | m: Japonca tarih sırası
+- arayuz | # Ekim # (# Cemâziyelevvel #) | m: Japonca tarih sırası
+- arayuz | # Ekim # (# Ekim tarihli belge muhtariyet iradesidir — TDV trablusgarp-savasi) | m: irade = padişah fermanı; tarih sırası
+- arayuz | # Ekim # (# Muharrem #) | m: Japonca tarih sırası
+- arayuz | # Ekim # (# Zilhicce #) | m: Japonca tarih sırası
+- arayuz | # Ekim # (Gregoryen; Jülyen # Ekim) | m: Japonca tarih sırası
+- arayuz | # Ekim # (Jülyen # Ekim) | m: Japonca tarih sırası
+- arayuz | # Ekim # (Jülyen # Ekim) — Markov'un baskınıyla kuşatma çemberinin kapanışı | m: Japonca tarih sırası
+- arayuz | # Ekim # (Jülyen # Eylül) | m: Japonca tarih sırası
+- arayuz | # Ekim # (Madgearu #, Sırp salnameleri; TDV eflak yalnız yıl #). ÇELİŞKİ-# E#: eski # Mayıs # günü Hilandar el yazmasındaki Ioan Dragaš'a ait nota dayanıyordu | m: yıl/gün sırası karışmış (#年5月#日)
+- arayuz | # Ekim # (Niş'ten # gün sonra) | m: Japonca tarih sırası
+- arayuz | # Ekim # (Semendire'nin teslim günü; Belgrad'ın günü kaynakta YOK) | m: Japonca tarih sırası
+- arayuz | # Ekim # (TDV 'beyrut': Fransız kuvvetlerinin bölgeyi işgali). Bazı kaynaklar karaya çıkışı # Ekim verir. Trablusşam 'Ekim #' (TDV, gün yok). | m: bozuk tarih biçimi; yıl yanlış okunuyordu
+- arayuz | # Ekim # (TDV: # Ekim — eski takvim) | m: gün, yıl diye çevrilmiş
+- arayuz | # Ekim # (gün: Bilgili #, BOA MD #) | m: Japonca tarih sırası
+- arayuz | # Ekim # (imza # Ekim) | m: Japonca tarih sırası
+- arayuz | # Ekim # (konsilin ilk oturumu) | m: Japonca tarih sırası
+- arayuz | # Ekim # (kuşatma başladı; çember # Ekim'de kapandı) - # Mart # | m: Japonca tarih sırası; bitiş günü eksik görünüyordu
+- arayuz | # Ekim # (savaş ilanı) | m: Japonca tarih sırası
+- arayuz | # Ekim # (tutuklama; kalelerin teslimi ardından) | m: Japonca tarih sırası
+- arayuz | # Ekim # / # Ekim # | m: Japonca tarih sırası
+- arayuz | # Ekim # — kaldırılış # Rebîülâhir # (# Kasım #) | m: Japonca tarih sırası
+- arayuz | # Ekim # — meydan savaşı ve şehre giriş (Cengiz #); Halep Kalesi daha sonra düştü, günü verilmiyor · eski t #-#-# ay başı yer tutucuydu | m: Cengiz yazar soyadı (Cengiz Han değil); tarih sırası
+- arayuz | # Ekim – # Kasım # | m: Japonca tarih sırası
+- arayuz | # Eylül # | m: Japonca tarih sırası
+- arayuz | # Eylül # (# Ağustos Jülyen) | m: Japonca tarih sırası
+- arayuz | # Eylül # (# Rebîülevvel #) | m: bozuk tarih biçimi
+- arayuz | # Eylül # (# Rebîülâhir # — Kandiye'nin teslim anlaşması, TDV kandiye) | m: Japonca tarih sırası
+- arayuz | # Eylül # (# Şevval #) | m: Japonca tarih sırası
+- arayuz | # Eylül # (Gregoryen takvim, TDV isvec; Jülyen takvimle # Ağustos) | m: Japonca tarih sırası
+- arayuz | # Eylül # (Hayır Bey'in tayini # Eylül) | m: Japonca tarih sırası; Hayır Bey (Khayr Bak)
+- arayuz | # Eylül # (I. Lothar'ın ölümü; tahttan feragat # Eylül) | m: bozuk tarih biçimi
+- arayuz | # Eylül # (Jülyen # Eylül) | m: Japonca tarih sırası
+- arayuz | # Eylül # (Rus kaynağında Jülyen # Ağustos) | m: Japonca tarih sırası
+- arayuz | # Eylül # (Rus takvimiyle # Ağustos) | m: Japonca tarih sırası
+- arayuz | # Eylül # (emir) | m: Japonca tarih sırası
+- arayuz | # Eylül # (gün YALNIZ hakemli makaleden, Enverî'ye dayalı; TDV gün vermiyor, yalnız Ağustos-Eylül # diyor. Avusturya arşivi aynı olayı #/# Eylül gecesi diye kaydeder) | m: günler yıl diye çevrilmiş
+- arayuz | # Eylül # (gün: Azmi Süslü, "Osmanlı-Fransız Diplomatik İlişkileri, #-#", TTK Belleten XLVII/#, #) | m: Japonca tarih sırası
+- arayuz | # Eylül # (İtalyan savaş ilanı) | m: Japonca tarih sırası
+- arayuz | # Eylül # [gün teyitsiz — ÇELİŞKİ-#: TDV «Uyvar» kuşatmanın # Ağustos'ta başladığını ve çarpışmaların # Eylül'e kadar sürdüğünü yazar, ayrı teslim günü vermez; Vikipedi # Eylül der (dayanak değil); Yüce-Sevim #, Pálffy, Ágoston OKUNMADI] | m: Japonca tarih sırası
+- arayuz | # Eylül # [yalnız yıl teyitli; gün teyitsiz] | m: Japonca tarih sırası
+- arayuz | # Eylül # gecesi | m: Japonca tarih sırası
+- arayuz | # Eylül – # Ekim # | m: Japonca tarih sırası
+- arayuz | # Haziran # | m: Japonca tarih sırası
+- arayuz | # Haziran # (# Rebîülevvel #) | m: Japonca tarih sırası
+- arayuz | # Haziran # (# Receb #) | m: Japonca tarih sırası
+- arayuz | # Haziran # (# Safer #; Sevim: # Haziran) | m: Japonca tarih sırası
+- arayuz | # Haziran # (GEC) | m: Japonca tarih sırası
+- arayuz | # Haziran # (Jülyen # Haziran) | m: Japonca tarih sırası
+- arayuz | # Haziran # (Jülyen # Mayıs) | m: Japonca tarih sırası
+- arayuz | # Haziran # (Kangxi #, #. ay #. gün) | m: Japonca tarih sırası
+- arayuz | # Haziran # (Savoya'nın Chambéry'de, Nice kontluğunun Nice'te resmen teslimi). Torino Antlaşması # Mart; plebisitler Nice #-# Nisan, Savoya #-# Nisan #. | m: bozuk tarih biçimi
+- arayuz | # Haziran # (anonim Bulgar kronikleri; TDV aktarımı) | m: Japonca tarih sırası
+- arayuz | # Haziran # (ölüm # Haziran'a kadar gizlendi) | m: Japonca tarih sırası
+- arayuz | # Haziran # [gün teyitsiz — aramada doğrulanamadı] | m: Japonca tarih sırası
+- arayuz | # Haziran # [yalnız yıl teyitli; gün teyitsiz] | m: Japonca tarih sırası
+- arayuz | # Haziran - # Ağustos # | m: Japonca tarih sırası
+- arayuz | # Haziran - # Eylül # | m: Japonca tarih sırası
+- arayuz | # Haziran / Temmuz # | m: Japonca tarih sırası
+- arayuz | # Haziran – # Temmuz # | m: Japonca tarih sırası
+- arayuz | # Kasım # | m: Japonca tarih sırası
+- arayuz | # Kasım # (# Cemâziyelevvel #) | m: Japonca tarih sırası
+- arayuz | # Kasım # (# Safer #) | m: Japonca tarih sırası
+- arayuz | # Kasım # (Cihan Şah'ın ölümü) · Hasan Ali Eylül #'de yenildi, Şevval # / Nisan #'da öldürüldü (gün kaynakta yok, AY hassasiyeti) | m: hicrî yıl 'gün' diye çevrilmiş; tarih sırası
+- arayuz | # Kasım # (Gregoryen) | m: Japonca tarih sırası
+- arayuz | # Kasım # (Jülyen # Kasım) | m: Japonca tarih sırası
+- arayuz | # Kasım # (Jülyen) = # Kasım # (Gregoryen) | m: Japonca tarih sırası
+- arayuz | # Kasım # (TDV: # Ekim — eski takvim) | m: gün, yıl diye çevrilmiş
+- arayuz | # Kasım # (TDV: '# veya #') | m: Japonca tarih sırası
+- arayuz | # Kasım # (gün yalnız Remzi Kılıç'ta; TDV yalnız 'Amasya'ya döndü' der) | m: Japonca tarih sırası
+- arayuz | # Kasım # (şehir) · # Aralık # (kale) | m: Japonca tarih sırası
+- arayuz | # Mart # (kuşatma # Şubat #'de başladı) | m: yıl cümle başında kalmış
+- arayuz | # Mart # (# Zilkade # — Güler; TDV 'Mart #'; Gümüş # Nisan # der, çözülmedi) | m: 'Mart 1503' yıl, gün diye; Gümüş yazar adı
+- arayuz | # Mayıs # (Akkâ) · Sayda Receb # / Temmuz # · Beyrut # | m: yıllar gün diye çevrilmiş
+- arayuz | # Ocak # (imzalar # Ocak-# Mart arası şeyhlik şeyhlik tamamlandı) | m: anlamsız yineleme
+- arayuz | # Ocak # (mektup teatisi # Aralık # – # Ocak #) | m: bozuk sıra
+- arayuz | # Receb # / # Mayıs # | m: bozuk tarih biçimi
+- arayuz | # Receb / Ağustos # | m: ilk sayı hicrî yıl, gün değil
+- arayuz | # Rebîülevvel / Haziran # | m: ilk sayı hicrî yıl, gün değil
+- arayuz | # Safer / Ocak # | m: ilk sayı hicrî yıl, gün değil
+- arayuz | # Şâban / Ocak # | m: ilk sayı hicrî yıl, gün değil
+- arayuz | # Temmuz # (resmî ilan; saldırı Safer # / Haziran #) | m: yıllar gün diye çevrilmiş
+- arayuz | # Temmuz # (ÇELİŞKİ-#: TDV «Timişvar» # Şaban # = # Temmuz #'de garnizonun teslim olduğunu yazar; TDV «Kara Ahmed Paşa» #/# Temmuz der; Losonczy'nin kaleden çıkışı # Temmuz (olaylar_ek# Macar kaynağı) — iki gün de TDV içinde geçer, bağımsız ikinci akademik kaynak okunmadı, gün korundu) | m: yıl yanlış yerde
+- arayuz | # Temmuz teslim, # Ağustos # giriş (Jülyen) | m: yıl yanlış yerde
+- arayuz | # Şubat # (Gregoryen) | m: bozuk tarih biçimi
+- arayuz | # Şubat # [dolaylı tanık: «nakon #. veljače»] | m: bozuk tarih biçimi
+- arayuz | # Şâban # (# Temmuz #) kuruluş, # Nisan # Masavva'nın alınışı | m: yıl yanlış yerde
+- arayuz | # (kaynak YIL hassasiyetinde; gün bilinmiyor — `YYYY-#-#` beyandır) | m: yarım cümle
+- arayuz | # (kaynak YIL hassasiyetinde; gün bilinmiyor — `YYYY-#-#` beyandır, uydurma değil) | m: bozuk anlatım
+- arayuz | #-# Nisan gecesi # | m: tarih sırası
+- arayuz | #/# Kasım # gecesi | m: tarih sırası
+- arayuz | #/# Mayıs # (Jülyen/Gregoryen) | m: tarih sırası
+- arayuz | #/# Mayıs # gecesi (Temeşvar paşası # Mayıs'ta Lippa önünden çekildi) | m: tarih sırası; Temeşvar Japonca yerleşik ad
+- arayuz | #/# Nisan # | m: tarih sırası
+- arayuz | #–# Ekim # | m: tarih sırası
+- arayuz | #–# Eylül # | m: tarih sırası
+- arayuz | #–# Temmuz # | m: tarih sırası
+- arayuz | #-# Eylül – #-# Kasım # | m: yıl yanlış yerde
+- arayuz | #, # Ajaw # Pax (December #, #) | m: İngilizce ay adı kalıntısı
+- arayuz | #, # Ajaw # Sotz' (May #, #) | m: İngilizce ay adı kalıntısı
+- arayuz | (toprak değişince harita devletin sınırlarına ZIPLASIN mı — sıçramalıdır, adaptif genişlik bunun yumuşak hâlidir) | m: 'sıçramalıdır' (sıçramalı bir geçiştir) 'sıçramalı olmalı' diye yanlış çevrilmiş
+- arayuz | Kasım # (ay hassasiyeti) | m: bozuk tarih biçimi
+- arayuz | Kaheti ↔ Dağıstan: şeridin # km içinde yerleşim noktası yok — boşluk veri eksiği değil, sırttır (yerlesimler_ek#.js beyanı, # Ekim #). | m: yıl/gün sırası bozuk
+- arayuz | Mayıs # başı [yalnız ay teyitli; gün teyitsiz] | m: bozuk tarih biçimi
+- arayuz | Sohum kuzeydoğusu (Abhazya ↔ Kabartay): şeridin # km içinde yerleşim noktası yok — boşluk veri eksiği değil, sırttır (yerlesimler_ek#.js beyanı, # Ekim #). | m: tarih sırası bozuk
+- arayuz | Sonbahar # | m: bozuk tarih biçimi
+- arayuz | Temmuz # | m: bozuk tarih biçimi
+- arayuz | Temmuz # (Bánlaky: 'július #-ika körül' — gün kesin değil) | m: bozuk tarih biçimi
+- arayuz | Temmuz # (ay hassasiyeti) | m: bozuk tarih biçimi
+- arayuz | Temmuz # (gün belirsiz) | m: bozuk tarih biçimi
+- arayuz | Temmuz # [yalnız yıl-ay teyitli; gün teyitsiz] | m: bozuk tarih biçimi
+- arayuz | Temmuz #'dan sonra | m: bozuk tarih biçimi
+- arayuz | Temmuz-Ağustos # | m: bozuk tarih biçimi
+- arayuz | Temmuz-Ağustos # (gün kaynakta yok; Temeşvar'ın teslimi ALT SINIR) | m: bozuk tarih biçimi; Temeşvar yerleşik adı
+- arayuz | Yaz # | m: bozuk tarih biçimi
+- arayuz | Zilhicce # / Aralık # | m: bozuk tarih biçimi
+- arayuz | Zilhicce # / Ağustos # | m: bozuk tarih biçimi
+- arayuz | Zilhicce # / Eylül # | m: bozuk tarih biçimi
+- arayuz | Yatay sınırı: bu km'nin üstündeki geçişler "yatay" seçilse de eğik atışla yapılır. | m: arayüzdeki 'eğik atış = 弧状移動' terimiyle tutarsız
+- arayuz | c. # [yalnız yıl teyitli; gün teyitsiz] | m: 'c.' = yaklaşık; fazladan '紀元'
+- arayuz | eski takvim # Ağustos → Gregoryen # Ağustos # (Levaşov'un raporu; yıkım en geç bu gün) | m: bozuk tarih biçimi
+- arayuz | eski takvim # Ağustos → Gregoryen # Eylül # | m: bozuk tarih biçimi
+- arayuz | eski takvim # Ekim → Gregoryen # Kasım # | m: bozuk tarih biçimi
+- arayuz | eski takvim # Mayıs → Gregoryen # Mayıs # | m: bozuk tarih biçimi
+- arayuz | eski takvim # Nisan → Gregoryen # Mayıs # | m: bozuk tarih biçimi
+- arayuz | muhtemelen # Şâban # / # Aralık # (TDV 'muhtemelen' der) | m: bozuk tarih biçimi
+- arayuz | muhtemelen Haziran # | m: bozuk tarih biçimi
+- arayuz | yalnız # | m: bozuk sözdizimi
+- arayuz | yalnız # (çağ açan) | m: bozuk sözdizimi
+- arayuz | ~# Kasım # | m: bozuk tarih biçimi
+- arayuz | Şevval # (Mart #) | m: bozuk tarih biçimi
+- arayuz | Şubat # | m: bozuk tarih biçimi
+- arayuz | Şubat # (TDV ay verir, gün bilinmiyor) | m: bozuk tarih biçimi
+- arayuz | Şubat # (ay hassasiyeti; geçiş günü kaynakta yok) | m: bozuk tarih biçimi
+- arayuz | Şubat # (gün kaynakta yok) | m: bozuk tarih biçimi
+- arayuz | Şubat # (kaynak AY hassasiyetinde; gün vermiyor) | m: bozuk tarih biçimi
+- arayuz | Şubat-Mart # | m: bozuk tarih biçimi
+- arayuz | Şâban # (Şubat #) | m: bozuk tarih biçimi
+- arayuz | ≤# Temmuz # [gün teyitsiz] | m: bozuk tarih biçimi
+- arayuz | ⓘ Kaynaklar | m: sekme adı '出典' ile tutarsız (atıf/kaynak listesi)
+- arayuz | 📚 Kaynaklar | m: sekme adı '出典' ile tutarsız
+- arayuz | 🗣️ Nasıl bilirdiniz | m: deyim yanlış çevrilmiş
+- devlet | kacar-esterabad | m: Latin harfli Türkçe kalıntı
+- devlet | gilan-kiya | m: Türkçe kalıntı
+- devlet | mazenderan-marasi | m: Türkçe kalıntı
+- devlet | dobruca-despotlugu | m: Türkçe kalıntı
+- devlet | burhaneddin | m: Türkçe kalıntı
+- devlet | cobanogullari | m: çevrilmemiş
+- devlet | pervane | m: çevrilmemiş
+- devlet | esrefogullari | m: çevrilmemiş
+- devlet | inancogullari | m: çevrilmemiş
+- devlet | sahibata | m: çevrilmemiş
+- devlet | taceddin | m: çevrilmemiş
+- devlet | haciemir | m: çevrilmemiş
+- devlet | sebinkarahisar-emirligi | m: çevrilmemiş
+- devlet | gozleroglu | m: çevrilmemiş
+- devlet | mutahharten | m: Latin kalıntı
+- devlet | arua | m: çevrilmemiş
+- devlet | tuareg-accer | m: Latin kalıntı
+- devlet | alutiiq | m: çevrilmemiş
+- devlet | occaneechi | m: çevrilmemiş
+- devlet | turkmen | m: Latin kalıntı
+- devlet | sutayogullari | m: çevrilmemiş
+- devlet | cemisgezek-beyligi | m: çevrilmemiş
+- devlet | arborea | m: Giudicato 'mahkeme toprağı' diye çevrilmiş
+- devlet | megrelya-prensligi | m: Türkçe yazım kalıntısı
+- devlet | guria-prensligi | m: Türkçe yazım kalıntısı
+- devlet | abhazya-prensligi | m: Türkçe yazım kalıntısı
+- devlet | kuca-hocalari | m: çevrilmemiş Türkçe
+- devlet | saltuklu | m: çevrilmemiş Türkçe
+- devlet | mengucuklu | m: çevrilmemiş Türkçe
+- devlet | ahlatsahlar | m: çevrilmemiş Türkçe
+- devlet | mervani | m: çevrilmemiş Türkçe
+- devlet | musafiri | m: çevrilmemiş
+- devlet | budjak-ordasi | m: kaynakta olmayan 'Nogay' eklenmiş
+- devlet | bagdat-memlukleri | m: kaynakta olmayan uydurma hanedan adları
+- devlet | arap-birligi-irak-urdun | m: 'アラブ連合' UAR ile karışır; yerleşik ad アラブ連邦
+- devlet | dongou | m: yinelenen parantez
+- devlet | cheng-han | m: yinelenen parantez
+- devlet | onceki-yan | m: yinelenen parantez
+- devlet | guney-liang-16 | m: yinelenen parantez
+- devlet | hou-liang-xi-liang | m: yinelenen ad
+- devlet | sui-zheng-wang-shichong | m: yinelenen ad
+- devlet | sui-wei-li-mi | m: yinelenen ad
+- devlet | sui-qin-xue-ju | m: yinelenen ad
+- devlet | sui-liang-xiao-xian | m: yinelenen ad
+- devlet | an-lushan-yan | m: yinelenen ad
+- devlet | qi-li-maozhen | m: yinelenen ad
+- devlet | zhao-wang-rong | m: yinelenen ad
+- devlet | yan-liu-shouguang | m: yinelenen ad
+- devlet | da-chu-zhang-bangchang | m: yinelenen ad
+- devlet | da-qi-liu-yu | m: yinelenen ad
+- devlet | qiuchi | m: yinelenen parantez
+- devlet | sui-liang-liang-shidu | m: yinelenen ad
+- devlet | sui-xia-dou-jiande | m: yinelenen ad
+- devlet | da-changhe | m: yinelenen parantez
+- devlet | da-tianxing | m: yinelenen parantez
+- devlet | da-yining | m: yinelenen parantez
+- devlet | ba-devleti | m: yinelenen parantez
+- devlet | yong-krallik | m: yinelenen parantez
+- devlet | xi-wei-krallik | m: yinelenen parantez
+- devlet | yin-krallik | m: yinelenen parantez
+- devlet | hengshan-krallik | m: yinelenen parantez
+- devlet | linjiang-krallik | m: yinelenen parantez
+- devlet | yan-krallik-chuhan | m: yinelenen parantez
+- devlet | chengjia-gongsun-shu | m: yinelenen ad
+- devlet | hou-zhao | m: yinelenen parantez
+- devlet | ran-wei | m: yinelenen parantez
+- devlet | onceki-qin | m: yinelenen parantez
+- devlet | kuzey-liang | m: yinelenen parantez
+- devlet | hu-xia | m: yinelenen parantez
+- devlet | bati-yan | m: yinelenen ad
+- devlet | sonraki-qin | m: yinelenen ad
+- devlet | tai-qi-huang-chao | m: yinelenen ad
+- olay | OLAYLAR_EK:1885-09-18:0 | d: katakana içine Türkçe 'ı' karışmış
+- arayuz | # Safer # (# Nisan #), Yenişehir savaşının hemen ardından | m: çevrilmemiş yer adı
+- arayuz | Ağustos #, Çıldır zaferinin hemen ardından | m: çevrilmemiş yer adı
+- arayuz | ocaklık | m: çevrilmemiş
+- olay | OLAYLAR:1413-07-05:0 | d: ルメリア yazımı tutarsız/eksik
+- olay | OLAYLAR:1639-05-17:0 | d: 本文中の地名がトルコ語ラテン表記のまま
+- arayuz | # Temmuz # (ÇELİŞKİ-#: TDV «Timişvar» # Şaban # = # Temmuz #'de garnizonun teslim olduğunu yazar; TDV «Kara Ahmed Paşa» #/# Temmuz der; Losonczy'nin kaleden çıkışı # Temmuz (olaylar_ek# Macar kaynağı) — iki gün de TDV içinde geçer, bağımsız ikinci akademik kaynak okunmadı, gün korundu) | m: duzeltme_002'deki sürümün yerine geçer: 9'dan çok sayı olduğundan indeksli ve düz '#' karıştırılamaz, hepsi sıralı
