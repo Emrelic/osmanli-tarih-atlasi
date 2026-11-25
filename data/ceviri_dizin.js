@@ -831,7 +831,7 @@ window.CEVIRI_DIZIN = {
   "sw": [
    [
     "ceviri_sw_arayuz.js",
-    "6b6f0087"
+    "12b03f6d"
    ],
    [
     "ceviri_sw_devlet.js",
