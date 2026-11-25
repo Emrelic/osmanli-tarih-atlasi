@@ -34,6 +34,19 @@ window.EKOKUMA_DEVHOLLANDA01 = [
     "NASIL BU KADAR BÜYÜDÜ. Umunç'a göre büyük ticaret filosu, çok düşük navlun ve yüksek taşıma kapasitesi Hollandalıları rakiplerinin önüne geçirdi. 1611'de Amsterdamlı Levant tüccarları, bu ticaretin değerce Doğu Hint ticaretiyle boy ölçüştüğünü ve dokuma sanayisi için vazgeçilmez ham madde sağladığını Genel Meclis'e bildirmişti; bu aktarım tarihçi Jonathan Israel'e dayanır.\n\n" +
     "TARİHÇİLER BUGÜN NE DİYOR. Umunç, Hollandalıların 17. yüzyılda Levant ticaretinde öne geçtiğini ve İngilizlerle birlikte Osmanlı'nın en güçlü ticaret ortaklarından biri olduğunu savunur. De Bruyn'ün anlattıkları canlı bir tanıklıktır; tek başına bir ticaret istatistiği değildir.",
   kaynak:"Himmet Umunç, \"The Dutch in the Levant: Trade and Travel in the Seventeenth Century\", Belleten 75/273 (2011), s. 373-386, https://doi.org/10.37879/belleten.2011.373 (tam metin okundu); de Bruyn aktarımları Umunç'un kullandığı 1714 Fransızca baskıdandır (Voyage au Levant, s. 27 vd.).",
+  teyit:"teyitli", kesinlik:"kuvvetli" },
+
+{ id:"hollanda-zeelandia-gelmez-sanilan-saldiri", devlet:"hollanda-formosa", tur:"savas-hikayesi",
+  baslik:"Gelmez sanılan saldırı: Tayvan'daki Hollanda kalesi nasıl düştü?",
+  olay:["1662-02-01|Koxinga Tayvan","1662-02-01|Coyett"],
+  kisa:"Vali Coyett tehlikeyi ciddiye aldı; Batavia'daki üstleri söylentileri asılsız sayıp onu görevden aldı. Yerine gelen yeni vali adaya vardığında körfezde yüzlerce savaş gemisi buldu.",
+  metin:"Tayvan'daki Hollanda yönetimi yıllardır Zheng Chenggong'un (Avrupalıların Koxinga dediği Ming yanlısı deniz lideri) saldıracağı söylentisiyle yaşıyordu. Makao seferi için gelen filo komutanı Van der Laan savunmanın fazlasıyla yeterli olduğunu savundu, adada tutulunca da Batavia'ya dönüp Vali Frederik Coyett'i şikâyet etti. Batavia'daki Hint Meclisi söylentileri asılsız ilan etti, Coyett'i görevden aldı.\n\n" +
+    "KUŞATMA. 30 Nisan 1661'de birkaç yüz büyük gemilik filo göründü. Binlerce Çinli yerleşimci çıkarmaya yardım etti. Provintia kalesi barut ve tatlı su sıkıntısıyla teslim oldu. Saldıranların da zayıf yanı vardı: Yiyecekleri azdı ve Saccam'da buldukları tahıl onları rahatlattı.\n\n" +
+    "Asıl hedef Zeelandia güçlü, modern bir kaleydi; denizden desteklendikçe uzun süre dayanabilirdi. Batavia'dan yaklaşık 700 asker geldi, ama 16 Eylül'deki ortak kara ve deniz saldırısı rüzgâr kesilip yön değiştirince çöktü. Hollandalılar beş tekne ve 130'dan fazla adam yitirdi. Mançularla düşünülen iş birliği de gerçekleşmedi.\n\n" +
+    "ZAYIF NOKTA. Aralık 1661'de kaleyi yakından bilen çavuş Hans Jurgen Radis karşı tarafa geçti ve kalenin üstündeki tepede duran küçük tabyayı gösterdi. Ocak 1662'de toplar oraya çevrildi; tabya düşünce Coyett yönetimi teslim görüşmesine razı oldu. Askerler silahlarıyla, düzen içinde çıktı; kale, top, cephane ve ticaret malları Zheng'e kaldı.\n\n" +
+    "TARİHÇİLER BUGÜN NE DİYOR. Tonio Andrade bu teslimi, Formosa'nın ilk kez bir Çin devletinin yönetimine girdiği an olarak değerlendirir. Anlatısında sonuç yalnız top gücüyle açıklanmaz: ikmal, muson takvimi, yerleşimcilerin ve yerli köylerin tutumu, Hollanda yönetimi içindeki kavga ve bir sığınmacının verdiği bilgi birlikte rol oynar.",
+  kaynak:"Tonio Andrade, How Taiwan Became Chinese: Dutch, Spanish, and Han Colonization in the Seventeenth Century, Columbia University Press (Gutenberg-e), 11. bölüm \"The Fall of Dutch Taiwan\", paragraf 23-44, arşiv kopyası: https://web.archive.org/web/20120813125955/http://www.gutenberg-e.org/andrade/andrade11.html",
+  ic_not:"11. bölümün 1-14 ve 23-45. paragrafları okundu (15-22 okunmadı). Teslim günü bu bölümün okunan kısmında yok; metin gün vermez, bağ mevcut maddenin gününedir. Mevcut 1662-02-01 maddelerinin kaynakları ikincil: Andrade ile güçlendirilmeli.",
   teyit:"teyitli", kesinlik:"kuvvetli" }
 
 ];

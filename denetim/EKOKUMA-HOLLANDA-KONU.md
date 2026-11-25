@@ -6,7 +6,10 @@
 ## Kısmen okunan
 - Gelderblom, de Jong, Jonker, "The Formative Years of the Modern Corporation" (ERIM ERS-2012-007-F&A, 2012): giriş, ilk bölümler, son bölüm ve sonuç.
 
+- T. Andrade, How Taiwan Became Chinese, 11. bölüm (arşiv kopyası): paragraf 1-14 ve 23-45; 15-22 okunmadı.
+
 ## Okunamayanlar (BORÇ)
+- Encyclopaedia Iranica "dutch-persian-relations": betikle istek 403 döndü.
 - TDV `hollanda`: betikle istek 403 döndü; bu görevde okunmadı.
 - core.ac.uk/download/18516545.pdf: 403 (aynı rapor repub.eur.nl'den açıldı).
 - Bülent Arı, Divan 2003 makalesi: yalnız sayfa özeti görüldü; olgu alınmadı.
