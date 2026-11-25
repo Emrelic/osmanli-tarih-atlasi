@@ -142,4 +142,10 @@ Wallenstein-tartisma, Prag pencere-magazin). Konu 1–8'in karşılığıdır.
 
 `node bag_sina.js <worktree> denetim/EKOKUMA-AVUSTURYA-KONU.md <kart dosyaları>` — `js/app.js`ten
 `_ekNorm`, `_ekBagGun`, `_ekBagEslesir`, `ekKartBagliMi` işlevlerini METİN OLARAK okuyup aynısını koşturur.
-Sonuç bu dosyanın commit mesajında ve Aşama 2 raporundadır.
+Sonuç (25.11, bu worktree, madde evreni 32324): konu bağları 65/65 madde buldu. 8 kaydın bütün
+`olay` bağları dolu (boş bağ 0); 5 ek okuma kartı toplam 15 maddeye düşüyor, hepsi `KRONOLOJI_HABSBURG`ta ve
+kartın kendi konusu. Aynı günde başka madde bulunan günler: 1720-01-01 (15 madde, yalnız 1'ine düşüyor),
+1784-01-01 (8 → 1), 1788-02-09 (2 → 1). Metternich kaydında ilk denenen `1815-06-09|Viyana Kongresi` 13
+maddeye (Lehistan, Fransa, Rusya, İtalya künyeleri…) düşüyordu; `1814-09-18|Viyana Kongresi'nin toplanması`
+ile değiştirildi. Sınanmayan: tarayıcıda görünüm; yükleyici listesi (`_EKOKUMA_DOSYA_ADLARI`) altyapı işidir,
+dosyalar bugün sitede YÜKLENMİYOR.
