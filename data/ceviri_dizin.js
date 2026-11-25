@@ -576,15 +576,15 @@ window.CEVIRI_DIZIN = {
   "ko": [
    [
     "ceviri_ko_arayuz.js",
-    "f1081c69"
+    "2a19f08f"
    ],
    [
     "ceviri_ko_devlet.js",
-    "88196fc5"
+    "fe822653"
    ],
    [
     "ceviri_ko_olay.js",
-    "ce9077bb"
+    "e97b6f13"
    ]
   ],
   "pl": [

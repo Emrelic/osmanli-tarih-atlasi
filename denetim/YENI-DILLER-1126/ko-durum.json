@@ -1,15 +1,15 @@
 {
 "hazir": {
 "arayuz": [
-831,
+2006,
 2034
 ],
 "devlet": [
-1160,
+2030,
 2315
 ],
 "olay": [
-175,
+425,
 5196
 ]
 },
@@ -110,9 +110,59 @@
 "yer tutucu"
 ],
 [
+"arayuz",
+"History of Transylvania",
+"hedef yazi yok"
+],
+[
+"arayuz",
+"Issues → Read and write",
+"hedef yazi yok"
+],
+[
+"arayuz",
+"Only select → osmanli-tarih-atlasi",
+"hedef yazi yok"
+],
+[
+"arayuz",
+"Repository access:",
+"hedef yazi yok"
+],
+[
+"arayuz",
+"TDV İslâm Ansiklopedisi, «",
+"hedef yazi yok"
+],
+[
+"arayuz",
+"VERİ İLE ÇÖZÜLÜR — rötuş değil veri düzeltmesi",
+"turkce harf kalintisi"
+],
+[
+"arayuz",
+"kayıt (Byzantion? Konstantiniyye? İstanbul yazın)",
+"turkce harf kalintisi"
+],
+[
+"arayuz",
+"ob-kutu ob-antlasma ob-madde-fark",
+"hedef yazi yok"
+],
+[
+"arayuz",
+"· Permissions:",
+"hedef yazi yok"
+],
+[
 "olay",
 "OLAYLAR:1783-04-19:0 d",
 "turkce harf kalintisi"
+],
+[
+"olay",
+"OLAYLAR_EK5:1352-01-01:0 d",
+"yil eksik"
 ]
 ]
 }
