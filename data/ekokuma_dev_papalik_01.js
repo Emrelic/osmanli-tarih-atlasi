@@ -75,6 +75,21 @@ window.EKOKUMA_DEVPAPALIK01 = [
     "Tarihçiler bugün ne diyor? Canossa çoğu kez yalnız \"atama yetkisi kavgası\" diye anlatılır. Oysa din adamı olmayanların piskopos atamasına yasağın ne zaman konduğu tartışmalıdır; 1075 tarihini sorgulayan ve daha sonrasını öneren araştırmacılar vardır. Ovidio Capitani, 1075'e en yakın papalık metinlerinin genel bir yasaktan değil, kilise makamlarının satılmasından ve kralın aforozlularla ilişkisinden söz ettiğine dikkat çeker. Din adamı olmayan birinden piskoposluk alınmasını yasaklayan bir belge olarak da Canossa'dan sonraki, 12 Mayıs 1077 tarihli mektubu öne çıkarır.",
   kaynak:"Ovidio Capitani, «Gregorio VII, santo», Enciclopedia dei Papi (Istituto della Enciclopedia Italiana, 2000), https://www.treccani.it/enciclopedia/santo-gregorio-vii_(Enciclopedia-dei-Papi)/",
   kesinlik:"tartismali", teyit:"teyitli",
-  ic_not:"Atlasta 1075-01-01 maddesi 'lay investiture yasağı' diye geçiyor; Capitani bu tarihi tartışmalı gösteriyor, o madde için gözden geçirme önerisi KONU dosyasında." }
+  ic_not_2:"1084 olayları aynı Capitani maddesinden.",
+  ic_not:"Atlasta 1075-01-01 maddesi 'lay investiture yasağı' diye geçiyor; Capitani bu tarihi tartışmalı gösteriyor, o madde için gözden geçirme önerisi KONU dosyasında." },
+
+{ id:"papalik-kutsal-ittifak-1571", devlet:"papalik", tur:"sebep-sonuc",
+  baslik:"V. Pius Kutsal İttifak'ı nasıl kurdu, neden dağılmaya yüz tuttu?",
+  olay:["1571-05-25|İttifak"],
+  kisa:"Osmanlı'ya karşı İspanya ile Venedik'i aynı masaya oturtmak aylar aldı. Müttefikler anlaşmaya çalışırken Venedik bir yandan İstanbul'a barış temsilcisi gönderiyordu.",
+  metin:"V. Pius daha papalığının ilk yıllarında Osmanlılara karşı geniş bir ittifak düşünüyordu. İspanya, Fransa, İmparatorluk ve Venedik'in çıkarları ise birbirinden ayrıydı. İspanya Kralı II. Felipe 20 Mayıs 1570'te ittifaka katılmaya karar verdi. 1 Temmuz'da papalık, İspanyol ve Venedik heyetleri görüşmelere başladı. O sırada Osmanlı kuvvetleri Kıbrıs'a çıkmış, Lefkoşa'yı kuşatmıştı.\n\n" +
+    "1570'in ortak deniz harekâtı sonuç vermedi. Donanmalar ağustos sonunda buluştu; eylülde Lefkoşa düştü. Kötü hava yüzünden ilk girişim boşa çıktı, komutadaki anlaşmazlıklar ağır basınca sefer durdu.\n\n" +
+    "Kasımda görüşmeler yeniden başladı. Başkomutanlığın Don Juan de Austria'ya verilmesi kararlaştırıldı, ama onun yardımcılığı yeni bir tartışma açtı; papa bu göreve Marcantonio Colonna'yı istiyordu. İspanya donanmaya ne kadar katkı vereceği konusunda direniyordu. Papa, kralın altmış kadırga bulundurması koşuluyla İspanyol din adamlarından alınan gelirleri yeniden onun kullanımına verdi. Venedik Senatosu ittifaktan yanaydı; On'lar Konseyi ise Osmanlılarla barışa yatkındı ve İstanbul'a görüşme için bir temsilci gönderildi. Colonna'nın nisanda Venedik'e gitmesinin ardından Cumhuriyet katılmaya karar verdi.\n\n" +
+    "Heyetler 20 Mayıs 1571'de Roma'da anlaştı. İttifak maddeleri 25 Mayıs'ta okundu, kardinallerce onaylandı ve taraflarca yeminle kabul edildi. Yazın Messina'da toplanan donanma iki yüzü aşkın gemiyle denize açıldı. 7 Ekim'de İnebahtı yakınlarında Osmanlı donanmasını yendi. Zafer Avrupa'da büyük yankı uyandırdı; papa ekimin ilk pazarını \"Zafer Meryem Anası\"na adadı.\n\n" +
+    "Siyasî birlik ise uzun sürmedi. İmparatoru ve Fransa kralını ittifaka çekme girişimleri sonuç vermedi. II. Felipe Akdeniz siyasetinde Kuzey Afrika'ya yöneldi. Fransa Osmanlılara yaklaştı, Nisan 1572'de de İngiltere ile Blois savunma ittifakını imzaladı. V. Pius 1 Mayıs 1572'de öldü.\n\n" +
+    "Tarihçiler bugün ne diyor? Simona Feci, İnebahtı'nın kısa süren parlak anından sonra V. Pius'un her hükümdarın kendi çıkarını izlemesini engelleyemediğini vurgular. Bu okumada İnebahtı'ya giden yol ortak bir inanç coşkusundan çok para, komuta ve çıkar pazarlığıyla örülmüştür.",
+  kaynak:"Simona Feci, «Pio V, santo», Enciclopedia dei Papi (Istituto della Enciclopedia Italiana, 2000), https://www.treccani.it/enciclopedia/santo-pio-v_(Enciclopedia-dei-Papi)/",
+  kesinlik:"kesin", teyit:"teyitli",
+  ic_not:"Son paragraftaki 'pazarlıkla örülmüş' cümlesi maddenin diplomasi anlatısından yapılan özettir; Feci'ye atfedilen yargı ilk cümledir." }
 
 ];
