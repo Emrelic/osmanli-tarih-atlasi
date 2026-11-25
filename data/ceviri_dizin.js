@@ -958,7 +958,7 @@ window.CEVIRI_DIZIN = {
    ],
    [
     "ceviri_jv_olay.js",
-    "ffe7ca33"
+    "e0da491b"
    ]
   ]
  }
