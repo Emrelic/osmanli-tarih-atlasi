@@ -14,11 +14,11 @@ window.EKOKUMA_DEVMACARISTAN01 = [
   kaynak:"Anastasija Ropa, \"Imagining the 1456 Siege of Belgrade in Capystranus\", Hungarian Historical Review 4/2 (2015), s. 255-282 (özellikle s. 256, 262-263, 274-275; Housley, Shepherd ve Fodor görüşleri bu makaleden aktarılmıştır)",
   ic_not:"Fodor 2008, Housley 1992 ve Shepherd doğrudan okunmadı; Ropa aracılığıyla atıflı verildi. Savunmanın günü makaleden değil, bağlanan kronoloji maddesinden." },
 
-{ id:"macaristan-capystranus-londra-destani", devlet:"macaristan", tur:"dis-yankilar",
-  baslik:"Belgrad'ın ölüleri Londra'da nasıl dirildi?",
+{ id:"macaristan-capystranus-ingiliz-destani", devlet:"macaristan", tur:"dis-yankilar",
+  baslik:"Belgrad'ın ölüleri bir İngiliz destanında nasıl dirildi?",
   olay:["1456-07-22|kuşatmasın"],
   kisa:"Kuşatmadan yarım yüzyılı aşkın bir süre sonra İngiltere'de basılan bir manzume, savaşı bir mucizeyle bitiriyordu.",
-  metin:"Belgrad savunmasının yankısı savaş alanından çok uzağa ulaştı. Capystranus adlı Orta İngilizce manzume, Londra'da matbaacı Wynkyn de Worde tarafından 1515 ile 1530 arasında üç kez basıldı. Bugün yalnız parçaları kalmıştır.\n\n" +
+  metin:"Belgrad savunmasının yankısı savaş alanından çok uzağa ulaştı. Capystranus adlı Orta İngilizce manzume, matbaacı Wynkyn de Worde tarafından 1515 ile 1530 arasında üç kez basıldı. Bugün yalnız parçaları kalmıştır.\n\n" +
     "Eser önce İstanbul'un 1453'teki kuşatmasını, ardından Belgrad'ı anlatır. İlkinde Hıristiyanlar yenilir, ikincisinde kazanır. Sayılar destan ölçüsündedir: şair rahibin yanındaki orduyu 20.000, Belgrad'a yürüyen Türk kuvvetini 200.000 diye verir. Savaşın en dar anında rahip Capistrano dua eder, hatta zafer verilmezse bağlılığından vazgeçeceğini söyleyecek kadar sert konuşur. Bunun üzerine 20.000 ölü ayağa kalkar ve Türkleri şehirden sürer. Savaşı anlatan tarihî metinlerde de rahibin duasından söz edilir, ama orada Tanrı'nın merhametini diler.\n\n" +
     "Kahramanlar arasında okurun hoşuna gidecek sürprizler de vardır: Richard Morpath adlı bir İngiliz şövalye ile eskiden Türk olduğu söylenen din değiştirmiş Johan Blacke yan yana dövüşür. Araştırmacı Shepherd'a göre İngiliz şövalyenin kimliği doğrulanamaz; sefere İngiliz paralı askerlerinin katıldığı da bilinmez.\n\n" +
     "Peki metin yalnızca masal mı? Birçok edebiyat araştırmacısı onu tarih tanığı saymaz, haçlı romansı olarak okur. Éva Róna şiirin görgü tanığı anlatılarına dayandığını öne sürmüştür; bu görüşün tarihlemeden doğan güçlükleri vardır.\n\n" +
@@ -31,7 +31,7 @@ window.EKOKUMA_DEVMACARISTAN01 = [
   olay:["1526-08-29|Mohaç"],
   kisa:"1526 yenilgisi gerçek. Ama onu Macar belleğinde her şeyin bittiği güne dönüştüren dil, savaştan yüzyıllar sonra güçlendi.",
   metin:"Macarlar 1526'daki yenilgiyi çoğu zaman \"Mohaç felaketi\" diye anar. Bu ifade o kadar yerleşmiştir ki savaşla birlikte doğduğu sanılabilir. Lilla Varga ile Elçin Macar'ın incelemesine göre ise çatışma kendiliğinden millî bir trajedi olarak tarihe yazılmadı. Ona \"felaket\" sıfatını giydiren ve toplumsal belleğe ulusal yıkım diye kazıyan etkenler on dokuzuncu yüzyılda ortaya çıktı.\n\n" +
-    "Dönüm noktası, 1825-1848 arasındaki Reform Dönemi'ydi. Macar milliyetçiliği gelişirken romantik edebiyat ve güzel sanatlar Mohaç'ı görkemli Orta Çağ krallığının mezarı, Macar tarihinin yoldan çıktığı an olarak işledi. Károly Kisfaludy'nin Mohaç şiirindeki \"büyük milletin mezarı\" imgesi ders kitaplarına kadar girdi. Yüzyılın sonunda bazı okul kitaplarının başlığı bile tarihi \"Mohaç felaketinden\" başlatıyordu.\n\n" +
+    "Dönüm noktası, 1825-1848 arasındaki Reform Dönemi'ydi. Macar milliyetçiliği gelişirken romantik edebiyat ve güzel sanatlar Mohaç'ı görkemli Orta Çağ krallığının mezarı, Macar tarihinin yoldan çıktığı an olarak işledi. Károly Kisfaludy'nin Mohaç şiirindeki \"büyük milletin mezarı\" imgesi ders kitaplarına kadar girdi. 1900'lerin başında bazı okul kitaplarının başlığı bile tarihi \"Mohaç felaketinden\" başlatıyordu.\n\n" +
     "Mesele yalnız duygu da değildi. Tarihçi János B. Szabó'ya göre on dokuzuncu yüzyılda Mohaç üzerine yazmak siyasette taraf tutmakla eşdeğerdi; çünkü konu Macaristan'daki Habsburg iktidarının meşruiyetine dokunuyordu. Pál Fodor da o dönemin tarih yazıcılığının soylu sınıfına aşırı eleştirel baktığını ve hatalarını büyüttüğünü belirtir.\n\n" +
     "Bu, yenilginin önemsiz olduğu anlamına gelmez. Kral II. Lajos savaştan kaçarken öldü, krallık bir taht kavgasına sürüklendi ve toprakları sonraki yıllarda bölündü.\n\n" +
     "Tarihçiler bugün ne diyor? Tartışma kapanmış değil. Pál Fodor ile Szabolcs Varga, Mohaç'ın sahiplenilerek, kullanılarak ve istismar edilerek canlı tutulduğunu söyler. Yazarlara göre uzmanların reddettiği bazı kalıplar toplumda hâlâ yaşar. Bu yüzden savaşın kendisiyle sonradan ona yüklenen anlamı ayrı ayrı okumak gerekir.",
@@ -68,7 +68,7 @@ window.EKOKUMA_DEVMACARISTAN01 = [
   baslik:"Eşini bırakıp Budin'de bir Türk'le evlenen kadının izi",
   olay:["1541-08-29|Budin"],
   kisa:"1548'de Varadlı bir adam papaya başvurdu. Dilekçesi, sınırın iki yanında insanların savaşmaktan başka şeyler de yaptığını gösteriyor.",
-  metin:"Varad'da yaşayan Ferenc Csiszár'ın 1548 tarihli dilekçesine göre çocuğunun annesi olan eşi, o memleketten uzaktayken bütün mallarını satmış, Budin'e gitmiş ve bir Türk'le evlenmişti. Adam arkasından defalarca adam gönderdiğini, bunlardan bazılarının öldürüldüğünü ve büyük masrafa girdiğini anlattı. İstediği yeniden evlenmek değil, karışan evlilik durumuna rağmen kilise sakramentlerini alabilmekti.\n\n" +
+  metin:"Varad'da yaşayan Ferenc Csiszár'ın 1548 tarihli dilekçesine göre çocuğunun annesi olan eşi, o memleketten uzaktayken bütün mallarını satmış, Budin'e gitmiş ve bir Türk'le evlenmişti. Adam onu geri çağırmak için birçok adamını gönderdiğini, bunlardan bazılarının Türk tarafından öldürüldüğünü ve büyük masrafa girdiğini anlattı. İstediği yeniden evlenmek değil, karışan evlilik durumuna rağmen kilise sakramentlerini alabilmekti.\n\n" +
     "Kadının adını ve sesini bu anlatıda duymayız. Gabriella Erdélyi bu yüzden dilekçenin dikkatle okunması gerektiğini vurgular: metin terk edilen eşin amacına göre kurulmuştur. Yine de yazar olayın kendisinden kuşkulanmak için neden görmez.\n\n" +
     "Budin sanıldığı gibi büsbütün yabancı bir dünya değildi. Birkaç yıl öncesine kadar krallığın başkentiydi. 1541'den sonra herkes kaçmadı: 1546'da Osmanlı kayıtlarında 238 Hıristiyan aile görünüyordu. Hıristiyanlar o sırada kendi din adamlarıyla açıkça ibadet edebiliyor, ancak kilise çanı çalamıyorlardı. Kentteki asker ve görevlilerin birçoğu bekârdı ya da eşini memlekette bırakmıştı.\n\n" +
     "Din değiştirmek hukuken de kapı açabiliyordu: İslam hukukunda din değiştirme, önceki evliliği geçersiz kılan bir gerekçe olarak kullanılabiliyordu.\n\n" +
@@ -76,5 +76,18 @@ window.EKOKUMA_DEVMACARISTAN01 = [
   kesinlik:"kesin", teyit:"teyitli",
   kaynak:"Gabriella Erdélyi, \"Turning Turk as Rational Decision in the Hungarian-Ottoman Frontier Zone\", Hungarian Historical Review 4/2 (2015), s. 314-345 (özellikle s. 315-321, 332-333, 340-342)",
   ic_not:"Dilekçe: Archivio Poenitentiaria Apostolica, Reg. Matrim. et Divers. vol. 121, f. 64rv (Ocak 1548), Erdélyi aracılığıyla." }
+,
+
+{ id:"macaristan-matyas-ordunun-parasi", devlet:"macaristan", tur:"sebep-sonuc",
+  baslik:"Kral Mátyás'ın ilk derdi: taç, kaleler ve para",
+  olay:["1458-01-24|Mátyás","1464-03-29|taç giymesi"],
+  kisa:"1458'de tahta çıkan Mátyás'ın meşruiyet için tacını geri alması, kuzeydeki silahlı grupları dağıtması ve güneyi koruması gerekiyordu. Üçü de para istiyordu.",
+  metin:"Mátyás 1458'de tahta geçtiğinde en acil sorunlarından biri, hükümdarlık iddiası için vazgeçilmez olan Kutsal Taç'ı geri almaktı. Öteki sorun krallığın kuzeyindeki \"Çek\" paralı askerleriydi. Bu birlikler 1440'ların iç savaşında Jan Jiskra'nın çevresinde gelmiş, birçok kaleyi tutmuştu. Jiskra 1458'de Mátyás'ı tanımadı; önce Leh Kralı IV. Kazimierz'i, sonra İmparator III. Friedrich'i Macar kralı saydı. 1462 ilkbaharında teslim oldu, ama bazı Çek komutanları birkaç yıl daha tutundu. Güneyde ise Osmanlı tehdidi sürüyordu.\n\n" +
+    "İstván Kádas'ın belgelere dayanan çalışması, 1458 ile 1467 arasında her yıldan bir tür olağanüstü vergi kaydı kaldığını gösterir. Bazıları bütün ülkeyi, bazıları yalnız belli ilçe topluluklarını kapsıyordu. Soylular, vergi ödeyerek sefere bizzat katılmaktan ya da arazilerine göre asker göndermekten muaf tutulabiliyordu. 1464 düzenlemesinde toprak sahibi her on iki köylü hanesi parseli için bir atlı asker verecek ya da on altın forint ödeyecekti. Kádas'a göre bir kez ödeme yapmak, bir askerin aylarca maaşını karşılamaktan büyük olasılıkla ucuzdu; kural soyluyu parayı seçmeye itiyordu.\n\n" +
+    "Toplanan para paralı askerlere gidiyordu. Ama makine kusursuz işlemiyordu: tahsilat yavaştı, gecikmeler birikiyor, bazen kralın komutanlarının devreye girmesi gerekiyordu. Taç 1463 yazında geri alındı; Mátyás 29 Mart 1464'te taç giydi.\n\n" +
+    "Tarihçiler bugün ne diyor? Vergi kayıtlarının sıklığı akla hemen ağır bir kraliyet vergi baskısını getirebilir. Kádas bu yargıdan önce vergilere tek tek bakmayı önerir. Onun sonucuna göre bu yıllarda olağanüstü vergi, askerî sefer ve asker toplama işiyle sıkı sıkıya bağlıydı; ayrı bir \"savaş vergisi\" değil, tek bir olağanüstü savaş vergisi var gibi görünür.",
+  kesinlik:"kesin", teyit:"teyitli",
+  kaynak:"István Kádas, \"Administration and War Finance: Extraordinary Taxes in Hungary at the Beginning of the Reign of King Matthias (1458-1466)\", Hungarian Historical Review 11/3 (2022), s. 591-621 (özellikle s. 591-595, 601-606, 616), DOI 10.38145/2022.3.591",
+  ic_not:"29 Mart 1464 taç giyme günü Kádas s. 604; tacın alınışı 24 Temmuz 1463 (s. 601 dipnot 59)." }
 
 ];

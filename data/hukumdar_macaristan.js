@@ -1,6 +1,13 @@
 // Hükümdar kayıtları - Macaristan (PADISAHLAR şeması). Okunan kaynakta olmayan alanlar yazılmadı.
 window.HUKUMDAR_MACARISTAN = [
 
+{ id:"macaristan-matyas", devlet:"macaristan", ad:"I. Mátyás (Hunyadi Mátyás, Corvinus)", from:"1458", to:"1490",
+  tahta:"1458",
+  tartisma:"Hükümdarlığının ilk yıllarındaki sık olağanüstü vergiler ağır bir vergi baskısı izlenimi verebilir; böyle bir yargı için vergilerin türünü, kapsamını ve askerlikten muafiyetle bağını tek tek incelemek gerekir.",
+  tarihciler:"İstván Kádas, 1458-1467 arasındaki olağanüstü vergilerin başlıca askerî amaçlarla kullanıldığını ve paralı ordu kurulmasının asker yerine para ödeme uygulamasını kolaylaştırdığını gösterir. Bazı eski Macar ders kitapları Mátyás dönemini \"altın çağ\" diye anlatmıştır (Lilla Varga - Elçin Macar).",
+  kaynak:"István Kádas, Hungarian Historical Review 11/3 (2022), s. 591-621; Lilla Varga - Elçin Macar, DTCF Dergisi 62/2 (2022), s. 953 (hükümdarlık yılları 1458-1490: dipnot 13)",
+  teyit:"teyitli" },
+
 { id:"macaristan-lajos2", devlet:"macaristan", ad:"II. Lajos", from:"1516", to:"1526-08",
   baba:"II. Ulászló",
   tahta:"1516",
