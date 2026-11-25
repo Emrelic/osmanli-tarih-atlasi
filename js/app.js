@@ -15263,6 +15263,19 @@ document.getElementById("btn-tamekran").addEventListener("click", function () {
 //   kullanıcının seçimi. Menüdeki ⛶ düğmesi her durumda çalışır.
 // · Destek yoksa (iOS Safari) ya da zaten tam ekransa SORULMAZ — yapılamayan
 //   bir şeyi teklif etmek, çalışmayan düğmeden kötüdür.
+// · TEK PENCERE (Emre, 25 Kasım 2026): istatistik bildirimi (js/ziyaret.js `KA_RIZA`)
+//   cevaplanmamışsa bu pencerede sorunun ALTINDA durur. İki cevap BAĞIMSIZDIR:
+//   Evet/Hayır/Esc/örtü tıklaması istatistik tercihini YAZMAZ; cevapsız kalan
+//   bildirim pencere kapanınca ekranın altına geçer. Kabul/Reddet de soruyu kapatmaz.
+var tamEkranSoruAcildi;   // pencere bu ziyarette bir kez kuruldu mu
+// js/ziyaret.js sorar: "soru henüz açılmadı ama açılacak mı?" — açılacaksa bildirim onu bekler.
+function tamEkranSoruBekliyor() {
+  if (tamEkranSoruAcildi || window.ATLAS_TELEFON) return false;
+  if (!document.fullscreenEnabled || !document.documentElement.requestFullscreen) return false;
+  if (document.fullscreenElement) return false;
+  try { if (localStorage.getItem("tamEkranSorma") === "1") return false; } catch (e) { /* özel pencere */ }
+  return true;
+}
 function tamEkranSor() {
   if (!document.fullscreenEnabled || !document.documentElement.requestFullscreen) return;
   if (document.fullscreenElement) return;
@@ -15315,9 +15328,12 @@ function tamEkranSor() {
         '</div>' +
       '</div>';
     document.body.appendChild(ort);
+    tamEkranSoruAcildi = true;
+    if (window.KA_RIZA) window.KA_RIZA.pencereye(ort.querySelector(".tamekran-kutu"));
     function kapat() {
       try { if (ort.querySelector(".tamekran-sorma input").checked) localStorage.setItem("tamEkranSorma", "1"); } catch (e) { /* özel pencere */ }
       document.removeEventListener("keydown", tus, true);
+      if (window.KA_RIZA) window.KA_RIZA.pencereden(ort);
       ort.remove();
     }
     function tus(e) { if (e.key === "Escape") { e.stopPropagation(); kapat(); } }

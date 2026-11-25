@@ -201,46 +201,78 @@
   }
 
   // ─── Bildirim (Kabul / Reddet) ───────────────────────────────────────────
-  function bildirimGoster() {
+  // TEK PENCERE (Emre, 25 Kasım 2026): açılışta "tam ekran?" sorusu da sorulacaksa (js/app.js
+  // `tamEkranSor`) bildirim o pencerede sorunun ALTINDA durur; sorulmayacaksa (telefon, iPhone,
+  // "Bir daha sorma") ya da soru cevaplanıp bildirim cevapsız kaldıysa ekranın altında tek başına.
+  // Öğe TEKTİR, yalnız yeri değişir. Biçim: css/style.css `#ka-cerez`.
+  var riza = null;
+  var rizaBitti = false;                           // Kabul ya da Reddet'e basıldı
+  function rizaOgesi() {
+    if (riza) return riza;
     var kap = document.createElement("div");
     kap.id = "ka-cerez";
-    kap.setAttribute("role", "dialog");
     kap.setAttribute("aria-label", T("İstatistik bildirimi"));
-    kap.style.cssText = "position:fixed;left:10px;right:10px;bottom:14px;margin:0 auto;z-index:2147483000;" +
-      "max-width:560px;box-sizing:border-box;background:#1c1f26;color:#eef0f4;border:1px solid #3a4150;" +
-      "border-radius:10px;padding:12px 14px;font:13px/1.45 system-ui,Segoe UI,Roboto,sans-serif;" +
-      "box-shadow:0 6px 24px rgba(0,0,0,.45)";
     var p = document.createElement("div");
     // İki ayrı çeviri anahtarı (js/ceviri.js cümle cümle eşler; rakam "#" şablonudur)
     p.textContent = T("Siteyi geliştirmek için ziyaretleri sayarız: hangi madde, hangi dil, ne kadar kalındı.") + " " +
       T("Ad, IP adresi, e-posta ya da telefon saklanmaz; yalnızca rastgele bir numara kullanılır. Kayıtlar 12 ay tutulur.");
     var a = document.createElement("a");
     a.href = "gizlilik/#istatistik"; a.textContent = " " + T("Ayrıntı");
-    a.style.cssText = "color:#8ab4ff";
     p.appendChild(a);
     var sat = document.createElement("div");
-    sat.style.cssText = "display:flex;gap:8px;justify-content:flex-end;margin-top:10px";
+    sat.className = "ka-dugmeler";
     function dugme(ad, ana2, fn) {
       var b = document.createElement("button");
       b.type = "button"; b.textContent = T(ad);
-      b.style.cssText = "padding:6px 16px;border-radius:7px;font:inherit;cursor:pointer;border:1px solid #4b5568;" +
-        (ana2 ? "background:#3b82f6;color:#fff;border-color:#3b82f6" : "background:transparent;color:#eef0f4");
+      if (ana2) b.className = "ka-ana";
       b.addEventListener("click", fn);
       return b;
     }
+    // Çeviri anahtarı "Kabul et": çıplak "Kabul" sözlüğe girerse aynı yazılan her metni (şehir adı) çevirirdi.
+    var turkceMi = !(window.Ceviri && window.Ceviri.dil && window.Ceviri.dil !== "tr");
     sat.appendChild(dugme("Reddet", false, function () {
       // Rıza geri alma: bu numaraya ait sunucu kayıtları da silinir (varsa), sonra numara bırakılır.
       var k = LS.get("ka_kisi");
       if (k) { try { rpc("ziyaret_sil", { p_kisi: k }, true).catch(function () {}); } catch (e) {} }
-      LS.set("ka_cerez", "hayir"); LS.del("ka_kisi"); kisiNo = null; kap.remove();
+      LS.set("ka_cerez", "hayir"); LS.del("ka_kisi"); kisiNo = null; rizaBitti = true; kap.remove();
     }));
-    sat.appendChild(dugme("Kabul", true, function () { LS.set("ka_cerez", "evet"); kap.remove(); baslat(); }));
+    sat.appendChild(dugme(turkceMi ? "Kabul" : "Kabul et", true, function () { LS.set("ka_cerez", "evet"); rizaBitti = true; kap.remove(); baslat(); }));
     kap.appendChild(p); kap.appendChild(sat);
-    document.body.appendChild(kap);
+    riza = kap;
+    return kap;
+  }
+  function pencereye(kutu) {
+    if (rizaBitti || !kutu) return;
+    var el = rizaOgesi();
+    el.setAttribute("role", "group");
+    kutu.appendChild(el);
+  }
+  function tekBasina() {
+    if (rizaBitti) return;
+    var el = rizaOgesi();
+    el.setAttribute("role", "dialog");
+    document.body.appendChild(el);
   }
 
   function ilk() {
-    if (izin === "evet") baslat(); else bildirimGoster();
+    if (izin === "evet") { baslat(); return; }
+    if (rizaBitti || (riza && riza.isConnected)) return;          // pencerede zaten gösterildi
+    var kutu = document.querySelector("#tamekran-soru .tamekran-kutu");
+    if (kutu) { pencereye(kutu); return; }
+    var bekliyor = false;
+    try { bekliyor = !!(window.tamEkranSoruBekliyor && window.tamEkranSoruBekliyor()); } catch (e) {}
+    if (!bekliyor) { tekBasina(); return; }
+    // Soru harita hazır olunca açılacak ve bildirimi içine alacak. Harita hiç hazır olmazsa
+    // (WebGL yok, ağ) bildirim yine görünsün; pencere sonradan açılırsa öğe içine taşınır.
+    // Süre uzun: yavaş bağlantıda ilk yükleme 15 sn'yi geçiyor; erken dolarsa bildirim önce ayrı görünür.
+    setTimeout(function () { if (!(riza && riza.isConnected)) tekBasina(); }, 60000);
+  }
+  if (izin !== "evet") {
+    window.KA_RIZA = {                             // js/app.js `tamEkranSor` çağırır
+      pencereye: pencereye,
+      // Pencere kapanırken: bildirim hâlâ cevapsızsa kaybolmaz, ekranın altına geçer.
+      pencereden: function (pencere) { if (riza && pencere.contains(riza)) tekBasina(); }
+    };
   }
   function bosta() {
     if (window.requestIdleCallback) window.requestIdleCallback(ilk, { timeout: 4000 });
