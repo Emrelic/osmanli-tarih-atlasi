@@ -605,31 +605,31 @@ window.CEVIRI_DIZIN = {
   "nl": [
    [
     "ceviri_nl_arayuz.js",
-    "15a1353c"
+    "f7629e74"
    ],
    [
     "ceviri_nl_devlet.js",
-    "071bb14c"
+    "b5a00dc9"
    ],
    [
     "ceviri_nl_olay_01.js",
-    "2589147c"
+    "ea756eb8"
    ],
    [
     "ceviri_nl_olay_02.js",
-    "a3f20b82"
+    "861da067"
    ],
    [
     "ceviri_nl_olay_03.js",
-    "d6034cbd"
+    "2bdabf56"
    ],
    [
     "ceviri_nl_olay_04.js",
-    "7d9f0823"
+    "20b8686e"
    ],
    [
     "ceviri_nl_olay_05.js",
-    "2b6ac0af"
+    "c52828b3"
    ],
    [
     "ceviri_nl_olay_06.js",
