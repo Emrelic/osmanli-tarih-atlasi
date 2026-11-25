@@ -1,0 +1,28 @@
+== ilerleme.txt
+Tamamen okunan paketler: 1_arayuz_001-010, 2_devlet_001-012, 3_bayrakli_001-004, 4_olay_001-020
+Okunmayan: 4_olay_021-204
+Bakılan kayıt (yaklaşık, paket tamamı): arayuz paketleri 10/10, devlet paketleri 12/12, bayrakli 4/4, olay paketi 20/204
+Düzeltme dosyaları: duzeltme_001..009.jsonl
+
+== ilerleme_a.txt
+Tamamen okunan paketler: 4_olay_021 - 4_olay_050 (aralık tamam, 30/30)
+Bakılan: yalnız olay kayıtları (paket başına yaklaşık 15-30 kayıt; kayıt sayısı ayrıca sayılmadı)
+
+== ilerleme_b.txt
+Tamamen okunan: 4_olay_051 - 4_olay_080 (aralik tamam)
+Bakilan olay kaydi: yaklasik 640
+
+== ilerleme_c.txt
+Tamamen okunan: 4_olay_081 - 4_olay_115 (aralığın tamamı)
+Düzeltme dosyaları: duzeltme_c_001..006.jsonl
+
+== ilerleme_d.txt
+Tamamen okunan: 4_olay_116 - 4_olay_150 (35 paket, aralığın tamamı)
+
+== ilerleme_e.txt
+Tamamen okunan: 4_olay_151 - 4_olay_177 (27/27, aralik tamam)
+Duzeltme dosyalari: duzeltme_e_001..007 ; 75 satir
+
+== ilerleme_f.txt
+Tamamen okunan paketler: 4_olay_178 - 4_olay_204 (27 paketin 27'si). Aralık tamamlandı.
+Bakılan kayıt: yalnız 'olay' türü (paket başına 7-33 kayıt; tam sayım yapılmadı). Arayüz/devlet bu turda okunmadı.
