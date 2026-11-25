@@ -649,3 +649,5 @@
 - olay | OLAYLAR_GEZGINLER:1860-10-20:0 | b: yer adı yanlış (Kaeng Khoi)
 - olay | OLAYLAR_GEZGINLER:1861-10-26:0 | b: 'R.' kısaltması anlamsız harf olarak çevrilmiş
 - olay | OLAYLAR_GEZGINLER:1871-03-09:0 | b: TR 'ön gezi' (noktasız yazılmış) 'onuncu gezi' diye çevrilmiş
+- olay | OLAYLAR_OK109:1919-11-27:0 | d: Cümle bozuk, anlamsız
+- olay | OLAYLAR_OK109:1919-11-27:0 | d: bozuk cümle; TR'de olmayan Latin harfli parantezler
