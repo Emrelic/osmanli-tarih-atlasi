@@ -1,174 +1,19 @@
 taban origin/main 24bca150f
 arayuz 2034/2034
 devlet 2315/2315
-olay 4250/5196
+olay 4974/5196
 
-c_olay_029.jsonl:1 olay uyari: yil gorunmuyor 1302 n=1
-c_olay_029.jsonl:3 olay uyari: yil gorunmuyor 1329 n=3
-c_olay_029.jsonl:5 olay uyari: yil gorunmuyor 1352,1354 n=5
-c_olay_029.jsonl:7 olay uyari: yil gorunmuyor 1361,1369 n=7
-c_olay_029.jsonl:10 olay ALINMADI (cok kisa) n=10
-c_olay_029.jsonl:15 olay ALINMADI (cok kisa) n=15
-c_olay_029.jsonl:17 olay uyari: yil gorunmuyor 1467 n=17
-c_olay_029.jsonl:18 olay uyari: yil gorunmuyor 1472,1474 n=18
-c_olay_029.jsonl:20 olay uyari: yil gorunmuyor 1495 n=20
-c_olay_029.jsonl:25 olay uyari: yil gorunmuyor 1456 n=25
-c_olay_030.jsonl:1 olay uyari: yil gorunmuyor 1302 n=1
-c_olay_030.jsonl:3 olay uyari: yil gorunmuyor 1329 n=3
-c_olay_030.jsonl:5 olay uyari: yil gorunmuyor 1352,1354 n=5
-c_olay_030.jsonl:7 olay uyari: yil gorunmuyor 1361,1369 n=7
-c_olay_030.jsonl:10 olay ALINMADI (cok kisa) n=10
-c_olay_030.jsonl:15 olay ALINMADI (cok kisa) n=15
-c_olay_030.jsonl:17 olay uyari: yil gorunmuyor 1467 n=17
-c_olay_030.jsonl:18 olay uyari: yil gorunmuyor 1472,1474 n=18
-c_olay_030.jsonl:20 olay uyari: yil gorunmuyor 1495 n=20
-c_olay_030.jsonl:25 olay uyari: yil gorunmuyor 1456 n=25
-c_olay_030.jsonl:26 olay ALINMADI (cok kisa) n=26
-c_olay_030.jsonl:34 olay uyari: yil gorunmuyor 1570,1571 n=34
-c_olay_031.jsonl:1 olay uyari: yil gorunmuyor 1302 n=1
-c_olay_031.jsonl:3 olay uyari: yil gorunmuyor 1329 n=3
-c_olay_031.jsonl:5 olay uyari: yil gorunmuyor 1352,1354 n=5
-c_olay_031.jsonl:7 olay uyari: yil gorunmuyor 1361,1369 n=7
-c_olay_031.jsonl:10 olay ALINMADI (cok kisa) n=10
-c_olay_031.jsonl:12 olay ALINMADI (cok kisa) n=12
-c_olay_031.jsonl:15 olay ALINMADI (cok kisa) n=15
-c_olay_031.jsonl:17 olay uyari: yil gorunmuyor 1467 n=17
-c_olay_031.jsonl:18 olay uyari: yil gorunmuyor 1472,1474 n=18
-c_olay_031.jsonl:20 olay uyari: yil gorunmuyor 1495 n=20
-c_olay_031.jsonl:25 olay uyari: yil gorunmuyor 1456 n=25
-c_olay_032.jsonl:1 olay uyari: yil gorunmuyor 1302 n=1
-c_olay_032.jsonl:3 olay uyari: yil gorunmuyor 1329 n=3
-c_olay_032.jsonl:5 olay uyari: yil gorunmuyor 1352,1354 n=5
-c_olay_032.jsonl:7 olay uyari: yil gorunmuyor 1361,1369 n=7
-c_olay_032.jsonl:10 olay ALINMADI (cok kisa) n=10
-c_olay_032.jsonl:15 olay uyari: yil gorunmuyor 1100,1453 n=15
-c_olay_032.jsonl:17 olay uyari: yil gorunmuyor 1467 n=17
-c_olay_032.jsonl:18 olay uyari: yil gorunmuyor 1472,1474 n=18
-c_olay_032.jsonl:20 olay uyari: yil gorunmuyor 1495 n=20
-c_olay_033.jsonl:1 olay uyari: yil gorunmuyor 1302 n=1
-c_olay_033.jsonl:3 olay uyari: yil gorunmuyor 1329 n=3
-c_olay_033.jsonl:5 olay uyari: yil gorunmuyor 1352,1354 n=5
-c_olay_033.jsonl:7 olay uyari: yil gorunmuyor 1361,1369 n=7
-c_olay_033.jsonl:10 olay ALINMADI (cok kisa) n=10
-c_olay_033.jsonl:11 olay ALINMADI (cok kisa) n=11
-c_olay_033.jsonl:12 olay ALINMADI (cok kisa) n=12
-c_olay_033.jsonl:14 olay ALINMADI (cok kisa) n=14
-c_olay_033.jsonl:15 olay ALINMADI (cok kisa) n=15
-c_olay_033.jsonl:17 olay uyari: yil gorunmuyor 1467 n=17
-c_olay_033.jsonl:18 olay ALINMADI (cok kisa) n=18
-c_olay_033.jsonl:19 olay ALINMADI (cok kisa) n=19
-c_olay_033.jsonl:20 olay uyari: yil gorunmuyor 1495 n=20
-c_olay_033.jsonl:21 olay ALINMADI (cok kisa) n=21
-c_olay_033.jsonl:23 olay ALINMADI (cok kisa) n=23
-c_olay_033.jsonl:25 olay uyari: yil gorunmuyor 1456 n=25
-c_olay_033.jsonl:34 olay uyari: yil gorunmuyor 1570,1571 n=34
-c_olay_033.jsonl:36 olay uyari: yil gorunmuyor 1593,1606 n=36
-c_olay_034.jsonl:1 olay uyari: yil gorunmuyor 1302 n=1
-c_olay_034.jsonl:3 olay uyari: yil gorunmuyor 1329 n=3
-c_olay_034.jsonl:5 olay uyari: yil gorunmuyor 1352,1354 n=5
-c_olay_034.jsonl:7 olay uyari: yil gorunmuyor 1361,1369 n=7
-c_olay_034.jsonl:10 olay ALINMADI (cok kisa) n=10
-c_olay_034.jsonl:15 olay ALINMADI (cok kisa) n=15
-c_olay_034.jsonl:17 olay uyari: yil gorunmuyor 1467 n=17
-c_olay_034.jsonl:18 olay uyari: yil gorunmuyor 1472,1474 n=18
-c_olay_034.jsonl:20 olay uyari: yil gorunmuyor 1495 n=20
-c_olay_035.jsonl:1 olay uyari: yil gorunmuyor 1302 n=1
-c_olay_035.jsonl:3 olay uyari: yil gorunmuyor 1329 n=3
-c_olay_035.jsonl:5 olay uyari: yil gorunmuyor 1352,1354 n=5
-c_olay_035.jsonl:7 olay uyari: yil gorunmuyor 1361,1369 n=7
-c_olay_035.jsonl:10 olay ALINMADI (cok kisa) n=10
-c_olay_035.jsonl:15 olay uyari: yil gorunmuyor 1100,1453 n=15
-c_olay_035.jsonl:17 olay ALINMADI (cok kisa) n=17
-c_olay_035.jsonl:18 olay ALINMADI (cok kisa) n=18
-c_olay_035.jsonl:20 olay ALINMADI (cok kisa) n=20
-c_olay_035.jsonl:23 olay ALINMADI (cok kisa) n=23
-c_olay_035.jsonl:25 olay uyari: yil gorunmuyor 1456 n=25
-c_olay_036.jsonl:1 olay uyari: yil gorunmuyor 1302 n=1
-c_olay_036.jsonl:3 olay uyari: yil gorunmuyor 1329 n=3
-c_olay_036.jsonl:5 olay uyari: yil gorunmuyor 1352,1354 n=5
-c_olay_036.jsonl:7 olay uyari: yil gorunmuyor 1361,1369 n=7
-c_olay_036.jsonl:10 olay ALINMADI (cok kisa) n=10
-c_olay_036.jsonl:15 olay ALINMADI (cok kisa) n=15
-c_olay_036.jsonl:17 olay uyari: yil gorunmuyor 1467 n=17
-c_olay_036.jsonl:18 olay uyari: yil gorunmuyor 1472,1474 n=18
-c_olay_036.jsonl:20 olay uyari: yil gorunmuyor 1495 n=20
-c_olay_037.jsonl:1 olay uyari: yil gorunmuyor 1302 n=1
-c_olay_037.jsonl:3 olay uyari: yil gorunmuyor 1329 n=3
-c_olay_037.jsonl:5 olay uyari: yil gorunmuyor 1352,1354 n=5
-c_olay_037.jsonl:7 olay uyari: yil gorunmuyor 1361,1369 n=7
-c_olay_037.jsonl:10 olay ALINMADI (cok kisa) n=10
-c_olay_037.jsonl:15 olay uyari: yil gorunmuyor 1100,1453 n=15
-c_olay_037.jsonl:17 olay ALINMADI (cok kisa) n=17
-c_olay_037.jsonl:18 olay ALINMADI (cok kisa) n=18
-c_olay_037.jsonl:19 olay ALINMADI (cok kisa) n=19
-c_olay_037.jsonl:20 olay uyari: yil gorunmuyor 1495 n=20
-c_olay_037.jsonl:25 olay uyari: yil gorunmuyor 1456 n=25
-c_olay_038.jsonl:1 olay uyari: yil gorunmuyor 1302 n=1
-c_olay_038.jsonl:3 olay uyari: yil gorunmuyor 1329 n=3
-c_olay_038.jsonl:5 olay uyari: yil gorunmuyor 1352,1354 n=5
-c_olay_038.jsonl:7 olay uyari: yil gorunmuyor 1361,1369 n=7
-c_olay_038.jsonl:10 olay ALINMADI (cok kisa) n=10
-c_olay_038.jsonl:15 olay ALINMADI (cok kisa) n=15
-c_olay_038.jsonl:17 olay uyari: yil gorunmuyor 1467 n=17
-c_olay_038.jsonl:18 olay uyari: yil gorunmuyor 1472,1474 n=18
-c_olay_038.jsonl:20 olay uyari: yil gorunmuyor 1495 n=20
-c_olay_038.jsonl:25 olay uyari: yil gorunmuyor 1456 n=25
-c_olay_038.jsonl:34 olay uyari: yil gorunmuyor 1570,1571 n=34
-c_olay_038.jsonl:35 olay ALINMADI (cok kisa) n=35
-c_olay_038.jsonl:36 olay uyari: yil gorunmuyor 1593,1606 n=36
-c_olay_039.jsonl:1 olay ALINMADI (cok kisa) n=1
-c_olay_039.jsonl:3 olay uyari: yil gorunmuyor 1329 n=3
-c_olay_039.jsonl:5 olay uyari: yil gorunmuyor 1352,1354 n=5
-c_olay_039.jsonl:7 olay uyari: yil gorunmuyor 1361,1369 n=7
-c_olay_039.jsonl:10 olay ALINMADI (cok kisa) n=10
-c_olay_039.jsonl:15 olay ALINMADI (cok kisa) n=15
-c_olay_039.jsonl:16 olay ALINMADI (cok kisa) n=16
-c_olay_039.jsonl:17 olay uyari: yil gorunmuyor 1467 n=17
-c_olay_039.jsonl:18 olay ALINMADI (cok kisa) n=18
-c_olay_039.jsonl:20 olay uyari: yil gorunmuyor 1495 n=20
-c_olay_039.jsonl:23 olay ALINMADI (cok kisa) n=23
-c_olay_039.jsonl:24 olay ALINMADI (cok kisa) n=24
-c_olay_039.jsonl:25 olay uyari: yil gorunmuyor 1456 n=25
-c_olay_039.jsonl:30 olay ALINMADI (cok kisa) n=30
-c_olay_039.jsonl:34 olay uyari: yil gorunmuyor 1570,1571 n=34
-c_olay_039.jsonl:35 olay ALINMADI (cok kisa) n=35
-c_olay_039.jsonl:36 olay uyari: yil gorunmuyor 1593,1606 n=36
-c_olay_039.jsonl:38 olay ALINMADI (cok kisa) n=38
-c_olay_039.jsonl:39 olay uyari: yil gorunmuyor 1645 n=39
-c_olay_039.jsonl:40 olay uyari: yil gorunmuyor 1669,1692,1715 n=40
-c_olay_039.jsonl:41 olay uyari: yil gorunmuyor 1645,1692 n=41
-c_olay_039.jsonl:44 olay ALINMADI (cok kisa) n=44
-c_olay_040.jsonl:1 olay uyari: yil gorunmuyor 1302 n=1
-c_olay_040.jsonl:3 olay uyari: yil gorunmuyor 1329 n=3
-c_olay_040.jsonl:5 olay uyari: yil gorunmuyor 1352,1354 n=5
-c_olay_040.jsonl:7 olay uyari: yil gorunmuyor 1361,1369 n=7
-c_olay_040.jsonl:10 olay ALINMADI (cok kisa) n=10
-c_olay_040.jsonl:15 olay ALINMADI (cok kisa) n=15
-c_olay_040.jsonl:17 olay uyari: yil gorunmuyor 1467 n=17
-c_olay_040.jsonl:18 olay uyari: yil gorunmuyor 1472,1474 n=18
-c_olay_040.jsonl:20 olay uyari: yil gorunmuyor 1495 n=20
-c_olay_040.jsonl:23 olay ALINMADI (cok kisa) n=23
-c_olay_040.jsonl:25 olay uyari: yil gorunmuyor 1456 n=25
-c_olay_040.jsonl:34 olay uyari: yil gorunmuyor 1570,1571 n=34
-c_olay_040.jsonl:36 olay uyari: yil gorunmuyor 1593,1606 n=36
-c_olay_041.jsonl:1 olay uyari: yil gorunmuyor 1302 n=1
-c_olay_041.jsonl:3 olay uyari: yil gorunmuyor 1329 n=3
-c_olay_041.jsonl:5 olay uyari: yil gorunmuyor 1352,1354 n=5
-c_olay_041.jsonl:7 olay uyari: yil gorunmuyor 1361,1369 n=7
-c_olay_041.jsonl:10 olay ALINMADI (cok kisa) n=10
-c_olay_041.jsonl:12 olay ALINMADI (cok kisa) n=12
-c_olay_041.jsonl:13 olay ALINMADI (cok kisa) n=13
-c_olay_041.jsonl:15 olay uyari: yil gorunmuyor 1100,1453 n=15
-c_olay_041.jsonl:17 olay uyari: yil gorunmuyor 1467 n=17
-c_olay_041.jsonl:18 olay uyari: yil gorunmuyor 1472,1474 n=18
-c_olay_041.jsonl:20 olay uyari: yil gorunmuyor 1495 n=20
-c_olay_041.jsonl:25 olay uyari: yil gorunmuyor 1456 n=25
-c_olay_042.jsonl:1 olay uyari: yil gorunmuyor 1302 n=1
-c_olay_042.jsonl:3 olay uyari: yil gorunmuyor 1329 n=3
-c_olay_042.jsonl:5 olay uyari: yil gorunmuyor 1352,1354 n=5
-c_olay_042.jsonl:7 olay uyari: yil gorunmuyor 1361,1369 n=7
-c_olay_042.jsonl:10 olay ALINMADI (cok kisa) n=10
-c_olay_042.jsonl:15 olay ALINMADI (cok kisa) n=15
-c_olay_042.jsonl:17 olay uyari: yil gorunmuyor 1467 n=17
-c_olay_042.jsonl:18 olay uyari: yil gorunmuyor 1472,1474 n=18
-c_olay_042.jsonl:20 olay uyari: yil gorunmuyor 1495 n=20
+c_olay_029.jsonl uyari: paket-ici sira eslendi, yil uyumu 18/18
+c_olay_030.jsonl uyari: paket-ici sira eslendi, yil uyumu 19/19
+c_olay_031.jsonl uyari: paket-ici sira eslendi, yil uyumu 11/11
+c_olay_032.jsonl uyari: paket-ici sira eslendi, yil uyumu 19/19
+c_olay_033.jsonl uyari: paket-ici sira eslendi, yil uyumu 28/28
+c_olay_034.jsonl uyari: paket-ici sira eslendi, yil uyumu 24/24
+c_olay_035.jsonl uyari: paket-ici sira eslendi, yil uyumu 13/13
+c_olay_036.jsonl uyari: paket-ici sira eslendi, yil uyumu 16/16
+c_olay_037.jsonl uyari: paket-ici sira eslendi, yil uyumu 29/29
+c_olay_038.jsonl uyari: paket-ici sira eslendi, yil uyumu 34/34
+c_olay_039.jsonl uyari: paket-ici sira eslendi, yil uyumu 35/35
+c_olay_040.jsonl uyari: paket-ici sira eslendi, yil uyumu 35/35
+c_olay_041.jsonl uyari: paket-ici sira eslendi, yil uyumu 23/23
+c_olay_042.jsonl uyari: paket-ici sira eslendi, yil uyumu 24/24
