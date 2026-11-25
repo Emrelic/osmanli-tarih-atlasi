@@ -112,3 +112,20 @@
 - olay OLAYLAR_ORTACAG_IRAN_TURAN:1104-12-21:0, 1128-01-01:1, 1131-01-01:0: başlık/açıklamada "X oğlu Y'yi" yapısı kimin oğlu olduğunu belirsiz bırakıyor
 - olay OLAYLAR_ORTACAG_IRAN_TURAN:1230-01-01:0: "Halife Nâsır-Lidînillâh, Gürcüler ve İsmâilîler'le mücadele eden Celâleddin, ..." cümlesi bozuk
 - olay OLAYLAR_ORTACAG_BIZANS_BALKAN:1207-01-01:0: "Venedik Dojları Dandolo'nun yeğeni", "bir topluluğla" (toplulukla), "Sanudo kendisi bağlılığını"
+
+== tr_hatalari_f.md
+- olay OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1115-07-24:0: TR.d ham iç veri gösteriyor: (kesinlik: {"f":"yuzyil","t":"gun"}) ve "Ayrıca ... https://www.treccani.it/..." (çeviriler de aynen taşıyor)
+- olay OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1000-01-01:1: TR.d'de "(yıl)" iç notu ve Norveççe SNL alıntısı; aynı "(yıl)" kalıbı 1056-01-01:1 ve 1096-01-01:0'da (1096'da Norveççe alıntı da)
+- olay OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1241-01-01:1: "(gün bilinmiyor, yıl esas)" iç notu + İngilizce Encyclopedia of Ukraine alıntısı; 1169-03-08:0'da da İngilizce alıntı
+- olay OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1085-07-17:0: İtalyanca Treccani alıntısı ve kaynak notu metinde
+- olay OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1038-01-01:1 / 1052-06-03:0: kaynak notu ("TDV ... maddesi 1040 verir", "tarih 'muhtemelen 3 Haziran'") kullanıcı metninde
+- olay OLAYLAR_ORTACAG_BATI_AVRUPA:0858-02-13:0 ve OLAYLAR_ORTACAG_BOZKIR:0895-03-02:0: "Atlasta ... yazılıdır" atlas iç notu
+- olay OLAYLAR_ORTACAG_DOGU_GUNEYDOGU_ASYA 0929-01-01:0/1, 0936-09-26:1/2, 1185-12-21:1-3, 1222-01-01:0/1: sondaki parantezli yer-eşleme notları (ör. "(Brantas deltası Doğu Cava.)", "(Kyushu: shugo/jitō'nun uygulandığı bölge.)") kayıt iç notu gibi
+- olay OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1062-01-01:0: "(son tanıklık)" iç etiketi başlık ve açıklamada
+- olay OLAYLAR_ANTIK_MISIR_NUBYA:-2054-01-01:0: "(aşağıdaki madde)" — sitede anlamsız
+- olay OLAYLAR_ORTACAG_CIN:0907-06-01:0: TR.d ";" ile kesik bitiyor
+- olay OLAYLAR_ORTACAG_CIN:1100-02-23:0: yazım "ayni anadan" (aynı)
+- olay OLAYLAR_ORTACAG_CIN:0640-10-11:0, 0756-07-14:0 vb.: açıklamada ham Çince karakterler (癸卯, 甲午, 戊辰)
+- olay OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1175-01-01:0: bozuk cümle ("... hazîresinde gömülü bulunduğu Dânişmendli merkezlerinden biri Selçuklu eline geçti")
+- olay OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1266-01-01:0: "Sinop'un kendisine mülk olarak verilmesine razı olmaya zorlanınca" öznesi belirsiz
+- olay OLAYLAR_ORTACAG_YER_SONRASI:1088-01-01:0: madde 1088, ama "Guiscardo'nun ölümü üzerine" — Robert Guiscard 1085'te öldü (aynı atlasta 1085-07-17); tarih/atıf kontrol edilmeli

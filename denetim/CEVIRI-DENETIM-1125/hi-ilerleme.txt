@@ -24,7 +24,7 @@ Bakilan tur: yalnizca olay (kayit sayisi tek tek sayilmadi)
 Okunmayan: yok
 
 == ilerleme_f.txt
-Tamamen okunan paketler: 4_olay_178 - 4_olay_200
+Tamamen okunan paketler: 4_olay_178 - 4_olay_212 (35/35; aralik bitti)
 
 == ilerleme_g.txt
-Tamamen okunan: 4_olay_213 - 4_olay_221
+Tamamen okunan: 4_olay_213 - 4_olay_233

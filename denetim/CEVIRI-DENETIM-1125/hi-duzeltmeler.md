@@ -527,3 +527,74 @@
 - olay | OLAYLAR_ANTIK_YAKIN_DOGU:0484-01-01:0 | b: özne eksik: 'सासानी' sıfat kalmış
 - olay | OLAYLAR_ANTIK_YAKIN_DOGU:0496-01-01:0 | d: bozuk anlatım
 - olay | OLAYLAR_ANTIK_AKDENIZ:-0047-01-01:0 | d: var olmayan sözcük ('हटन') ve bozuk özel ad yazımı
+- olay | OLAYLAR_EK5:1716-10-13:0 | d: 'eyaletin devriyle' (devir=el değiştirme) 'dönem' diye çevrilmiş; bozuk cümle; abi merkez anlamsız
+- olay | OLAYLAR_EK7:1387-01-01:0 | d: Cinsiyet uyumu hatası
+- olay | OLAYLAR_EK8:1924-01-01:0 | d: Alıntı Türkçe kalmış
+- olay | OLAYLAR_EK5:1516-09-26:0 | d: 'alınmasıyla' yanlış çevrilmiş
+- olay | OLAYLAR_EK5:1872-04-01:0 | d: 'alınmasıyla' yanlış çevrilmiş
+- olay | OLAYLAR_EK12:1913-08-31:0 | d: 'alınmasından sonra' yanlış çevrilmiş
+- olay | OLAYLAR_EK13:1513-09-03:0 | d: 'alınması' yanlış çevrilmiş
+- olay | OLAYLAR_EK13:1514-01-01:0 | d: 'alınmasının' yanlış çevrilmiş
+- olay | OLAYLAR_EK13:1769-03-11:0 | d: 'alınmasıyla' yanlış; 'en son vali' 'son vali' diye çevrilmiş; dilbilgisi
+- olay | OLAYLAR_EK5:1516-09-26:0 | d: 'alınmasıyla' yanlış okunuyor; 'तटपट्टी हाथ बदल गई' bozuk
+- olay | OLAYLAR_EK5:1716-10-13:0 | d: 'devir' (devretme) 'dönem' olarak yanlış çevrilmiş; bozuk cümle
+- olay | OLAYLAR_EK5:1872-04-01:0 | d: 'alınmasıyla' bozuk: 'सनआ के लिए जाने से' 'San'a'ya gitmekle' diye okunuyor
+- olay | OLAYLAR_EK7:1387-01-01:0 | d: Çevrilmemiş Türkçe kalıntı: 'TDV İslâm Ansiklopedisi'; cinsiyet uyumu
+- olay | OLAYLAR_EK8:1924-01-01:0 | d: Türkçe kalıntı (çevrilmemiş alıntı)
+- olay | OLAYLAR_EK12:1913-08-31:0 | d: 'alınması' = 'के लिए जाने' yanlış çevirisi
+- olay | OLAYLAR_EK13:1513-09-03:0 | d: 'alınması' = 'के लिए जाने' yanlış çevirisi
+- olay | OLAYLAR_EK13:1514-01-01:0 | d: 'alınması' yanlış çevirisi
+- olay | OLAYLAR_EK13:1769-03-11:0 | d: 'alınması' yanlış çevirisi; dilbilgisi
+- olay | OLAYLAR_ORTACAG_CIN:0756-02-05:0 | b: 'स्वयं को' eksik, nesne yok
+- olay | OLAYLAR_ORTACAG_CIN:0907-06-01:1 | d: uyum hatası
+- olay | OLAYLAR_ORTACAG_CIN:0909-05-11:0 | d: dilbilgisi hatası
+- olay | OLAYLAR_ORTACAG_CIN:1126-01-19:0 | d: 'ने' ile 'बना' uyumsuz
+- olay | OLAYLAR_ORTACAG_CIN:1127-05-13:0 | b: ad yazımı tutarsız (हुइज़ोंग/ह्वीज़ोंग), bozuk yapı
+- olay | OLAYLAR_ORTACAG_CIN:1142-01-27:0 | b: Yue Fei adının yerleşik Hintçe yazımı
+- olay | OLAYLAR_ORTACAG_CIN:1142-01-27:0 | d: Yue Fei adının yazımı
+- olay | OLAYLAR_ORTACAG_CIN:1259-09-27:0 | d: 'ने' + 'पहुँचा' dilbilgisi hatası
+- olay | OLAYLAR_ORTACAG_DOGU_GUNEYDOGU_ASYA:0936-09-26:0 | d: Türkçe binlik ayracı
+- olay | OLAYLAR_ORTACAG_DOGU_GUNEYDOGU_ASYA:0936-09-26:1 | d: Türkçe binlik ayracı
+- olay | OLAYLAR_ORTACAG_DOGU_GUNEYDOGU_ASYA:0936-09-26:2 | d: Türkçe binlik ayracı
+- olay | OLAYLAR_ORTACAG_DOGU_GUNEYDOGU_ASYA:1257-01-01:0 | d: Türkçe binlik ayracı
+- olay | OLAYLAR_ORTACAG_DOGU_GUNEYDOGU_ASYA:1273-05-16:0 | d: Türkçe binlik ayracı
+- olay | OLAYLAR_ANTIK_MISIR_NUBYA:-0459-01-01:0 | d: 'ने' eksik, bozuk yapı
+- olay | OLAYLAR_ANTIK_MISIR_NUBYA:-1293-01-01:0 | d: 'Kadeş'in alınışı' = 'kaça/için gitmek' gibi yanlış okunuyor
+- olay | OLAYLAR_ANTIK_MISIR_NUBYA:-1456-01-01:0 | d: özne ve 'ने' eksik
+- olay | OLAYLAR_ANTIK_MISIR_NUBYA:-3099-01-01:0 | b: bozuk yapı (hanedan 'başkent oldu' gibi okunuyor)
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-0187-01-01:0 | d: Türkçe binlik ayracı
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-0304-01-01:1 | d: 'satraplıklar' (eyaletler) 'satraplar' (valiler) diye çevrilmiş
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0263-01-01:1 | d: eksik 'ने' eki
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0295-01-01:0 | d: eksik 'ने' eki
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0305-01-01:0 | b: eksik tamlama eki
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0308-01-01:0 | d: imla
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0356-01-01:0 | d: bozuk sözcük/anlatım
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0378-01-01:0 | d: bozuk cümle yapısı
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0407-01-01:0 | d: dilbilgisi: geçişsiz fiille 'ने'
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0490-01-01:0 | b: dilbilgisi hatası
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0508-01-01:0 | d: imla
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0508-01-01:1 | d: anlam bozuk: paylaştırma cümlesi anlaşılmıyor
+- olay | OLAYLAR_ANTIK_AKDENIZ:0106-01-01:0 | d: noktalama (çift nokta)
+- olay | OLAYLAR_ANTIK_AKDENIZ:0198-01-01:0 | d: imla
+- olay | OLAYLAR_ANTIK_AKDENIZ:0376-01-01:0 | b: bozuk anlatım
+- olay | OLAYLAR_ANTIK_AKDENIZ:0406-12-31:0 | d: bozuk anlatım
+- olay | OLAYLAR_ANTIK_AKDENIZ:0435-01-01:0 | d: yanlış anlam: 'Kartaca için gidince' gibi okunuyor
+- olay | OLAYLAR_ANTIK_AKDENIZ:0451-01-01:0 | d: bozuk anlatım
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0640-09-19:0 | b: yanlış özel ad yazımı: Xizhou
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0640-09-19:0 | d: yanlış özel ad yazımı: Xizhou
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0757-12-03:0 | d: yanlış özel ad yazımı (Xindian, An Qingxu)
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0960-03-03:0 | b: yanlış yer adı: Fâs şehri (Sicilmâse ile birlikte), Fas ülkesi değil
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0960-03-03:0 | d: yanlış yer adı: Fâs şehri
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1000-01-01:0 | d: eksik sözcük: 'निष्ठा की' yarım cümle
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1000-01-01:1 | b: eksik sözcük
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1048-06-16:0 | d: dilbilgisi: özne eki bozuk
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1050-01-01:0 | d: dilbilgisi: 'का अधीन' yanlış
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1061-01-01:0 | d: yanlış anlam: 'Messina'ya gitme yılı' gibi okunuyor
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1067-01-01:0 | b: dilbilgisi: 'का अधीन' yanlış
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1067-01-01:0 | d: dilbilgisi: 'का अधीन' yanlış
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1081-01-01:0 | d: bozuk özel ad
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1086-01-01:0 | d: yanlış yer adı: Ortaçağ metninde Agrigento
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1088-03-27:0 | b: dilbilgisi: 'ले जाना' fiili 'ने' almaz
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1088-03-27:0 | d: dilbilgisi: 'आना' fiili 'ने' almaz
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1096-11-01:0 | d: yanlış anlam: kimin kimden yardım istediği kayboluyor
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1121-01-01:0 | d: yanlış anlam: 'Benî Ca'fer' cümlesi bozulmuş
