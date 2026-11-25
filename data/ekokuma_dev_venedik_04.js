@@ -251,27 +251,24 @@ window.EKOKUMA_DEVVENEDIK04 = [
   kaynak:"Antonio Menniti Ippolito, \"Del Torso, Nicolò\", Dizionario Biografico degli Italiani, c. 38 (1990), https://www.treccani.it/enciclopedia/nicolo-del-torso_(Dizionario-Biografico)/ · Vittorio De Donato, \"Arcelli, Filippo\", Dizionario Biografico degli Italiani, c. 3 (1961), https://www.treccani.it/enciclopedia/filippo-arcelli_(Dizionario-Biografico)/",
   ic_not:"Çevrimiçi metinde Udine'nin ilk barış teklifinin yılı bozuk basılmış ('febbraio 109'), bu yüzden o ay/yıl yazılmadı; 3 Nisan'ın yılı da maddede ayrıca yazılmıyor. Bağlama günü 1420-10-01 sitedeki maddenindir; okunan metin yalnız Udine'ye girişi (6 Haziran 1420) veriyor, Friuli fethinin tamamlandığı günü vermiyor. 'Storia di Venezia, La conquista della terraferma' bölümü uzun olduğu için baştan sona okunmadı, kullanılmadı. Dizionario biografico dei friulani'nin Savorgnan sayfası indirilemedi (HTTP 400)." },
 
-{ id:"venedik-sebep-akkoyunlu-toplar-1473", tur:"sebep-sonuc",
-  ic_not_erisim:"ERİŞİM KURALI İHLALİ (25.11.2026 denetimi): TDV İslâm Ansiklopedisi bu iş sırasında Cloudflare engeli verdi. Karttaki TDV içeriği engelden sonra web aktarım aracıyla ya da tarayıcıyı andıran User-Agent ile (Mozilla/5.0 research-reader) indirildi. Bu yolla alınan metin kullanılamaz: TDV'ye dayanan ifadeler OKUNAMADI sayılır. Önceki 'ham sayfada doğrulandı' notları geçersiz. Yayın adayı değil; kart silinmedi.",
-  teyit:"teyitsiz", yayin_adayi:false, ic_not_teyit:"[TDV ile ilgili okuma beyanı GEÇERSİZ, bkz. ic_not_erisim] TDV Uzun Hasan (F. Sümer), Almagià'nın Giosafat Barbaro ve Mazzon'un Caterino Zeno maddeleri ham metinden baştan sona okundu.",
-  baslik:"Venedik'in Uzun Hasan'a yolladığı toplar neden savaşa yetişmedi?",
-  olay:["1473-02-01|top"],
-  kisa:"Akkoyunlu hükümdarı ateşli silâhın önemini görmüş, Venedik de göndermişti. Silâhlar yola çıktı, ama alıcısının eline geçmedi.",
-  metin:"Venedik 1470'te Eğriboz'u yitirdikten sonra Osmanlılara karşı hem Avrupa'da hem Asya'da müttefik arıyordu. Doğudaki en güçlü aday, merkezi Tebriz olan Akkoyunlu devletinin hükümdarı Uzun Hasan'dı.\n\n" +
-    "■ ELÇİLER\n" +
-    "Venedik 7 Mart 1471'de Caterino Zeno'yu elçi seçti. Zeno Nisan 1472'de ulaştı, yaklaşık bir buçuk yıl kaldı ve sağlam bir ittifak kurdu. İstek tek yönlü değildi. TDV İslâm Ansiklopedisi'nde Faruk Sümer'in yazdığına göre Uzun Hasan ateşli silâhların önemini anlamıştı ve bunları elde etmek için 1472'de Hacı Muhammed'i Venedik'e elçi gönderdi.\n\n" +
-    "■ ŞUBAT 1473\n" +
-    "Osmanlılarla yıllardır savaşan Venedikliler Şubat 1473'te gemilerle ateşli silâh yolladı: on altı top ve bin tüfek. Aynı kaynağa göre bunlar Uzun Hasan'ın eline ulaşmadı.\n\n" +
-    "Aynı günlerde yeni bir elçi de yola çıktı. Giosafat Barbaro'nun talimatı 28 Ocak 1473 tarihlidir; gizli görevleri de vardı. 18 Şubat'ta Venedik'ten ayrıldı ve 29 Mart'ta Kıbrıs'ta Magosa'ya vardı. Kısa süre sonra şaha gidecek savaş malzemesi de oraya geldi.\n\n" +
-    "■ YOL NEDEN UZADI\n" +
-    "Barbaro Magosa'da yaklaşık bir yıl kaldı. Kıbrıs'ta işler karışmıştı: kralın ölümünün ardından tahtın Caterina Cornaro'ya geçmesi çekişmeli oldu. Barbaro İran'a ancak sonra, yanında yalnız bir İran elçisi, bir sekreter ve bir tercümanla hareket edebildi. Tebriz'e 1474'ün sonuna doğru ulaştı.\n\n" +
-    "■ OTLUKBELİ\n" +
-    "Belirleyici savaş o varmadan yaşanmıştı. 11 Ağustos 1473'te Uzun Hasan Otlukbeli'de ağır bir yenilgiye uğradı. Sümer, Osmanlı ordusunda çok sayıda top ve tüfek bulunduğunu, zaferde ateşli silâhların büyük rol oynadığını yazar. Zeno'nun yaşam öyküsünü yazan Martino Mazzon'a göre bu yenilgi, Osmanlı ilerleyişinin durdurulabilir göründüğü dönemi kapattı. Uzun Hasan, Zeno'yu Avrupa'da yeni müttefikler araması için geri yolladı.\n\n" +
-    "■ KAYNAK NE KADARINI SÖYLÜYOR\n" +
-    "Okunan metinler silâhların niçin teslim edilemediğini tek tek açıklamaz. Magosa'ya gelen savaş malzemesinin, sayısı verilen top ve tüfeklerle aynı sevkiyat olup olmadığını da söylemez. Silâhlar ulaşsaydı savaşın sonucu değişirdi demek için elimizde bir dayanak yoktur.",
-  kesinlik:"kesin",
-  kaynak:"Faruk Sümer, \"Uzun Hasan\", TDV İslâm Ansiklopedisi, c. 42 (2012), s. 261-264, https://islamansiklopedisi.org.tr/uzun-hasan · Roberto Almagià, \"Barbaro, Giosafat\", Dizionario Biografico degli Italiani, c. 6 (1964), https://www.treccani.it/enciclopedia/giosafat-barbaro_(Dizionario-Biografico)/ · Martino Mazzon, \"Zeno, Caterino\", Dizionario Biografico degli Italiani, c. 100 (2020), https://www.treccani.it/enciclopedia/caterino-zeno_(Dizionario-Biografico)/",
-  ic_not:"TDV '1473 Şubatında' gönderme zamanını veriyor, gün yok; 1473-02-01 ay hassasiyetidir. TDV 'sekiz dokuz yıldan beri savaş halinde' diyor (savaşın başlangıç yılıyla ayrıca karşılaştırılmadı, kartta 'yıllardır'). Ş. Turan, 'Fâtih Mehmet - Uzun Hasan Mücadelesi ve Venedik' (TDV kaynakçası) okunmadı." },
+{
+  "id": "venedik-sebep-akkoyunlu-toplar-1473",
+  "tur": "sebep-sonuc",
+  "teyit": "teyitli",
+  teyit_kapsam:"bolum",
+  "yayin_adayi": true,
+  "ic_not_teyit": "Kocaoğlu (2025) ve Yıldız (2020) makaleleri (Türkçe, hakemli) ile Almagià'nın Giosafat Barbaro ve Mazzon'un Caterino Zeno maddeleri (DBI, İtalyanca) baştan sona okundu. Remzi Kılıç'ın makalesinden (Türkçe) Hacı Muhammed elçiliği, Karaman kıyısı planı ve Otlukbeli değerlendirmesi bölümleri okundu; makale baştan sona okunmadı, yalnız bu bölümler kullanıldı. Makalelerin yayımlanmış Venedik belgelerinden (Cornet, Berchet, Malipiero) aktardığı mektup alıntıları ve sayılar karta alınmadı; belge neşirlerinin kendisi okunmadı.",
+  "baslik": "Venedik'in Uzun Hasan'a yolladığı toplar neden savaşa yetişmedi?",
+  "olay": [
+    "1473-02-01|top"
+  ],
+  "kisa": "Akkoyunlu hükümdarı ateşli silâh bekliyordu, Venedik de yola çıkardı. Yük Kıbrıs'a kadar geldi; asıl sorun son etaptaydı.",
+  "metin": "Venedik 1470'te Eğriboz'u yitirdikten sonra Osmanlılara karşı hem Avrupa'da hem Asya'da müttefik arıyordu. Doğudaki en güçlü aday, merkezi Tebriz olan Akkoyunlu devletinin hükümdarı Uzun Hasan'dı.\n\n■ ELÇİLER VE PLAN\nVenedik 7 Mart 1471'de Caterino Zeno'yu elçi seçti. Zeno Nisan 1472'de ulaştı ve sağlam bir ittifak kurdu. Uzun Hasan da 1472'de Hacı Muhammed adlı elçisini yola çıkardı; beklediği şey top ve başka silâhlardı. Tarihçi Remzi Kılıç'ın anlattığı plana göre Venedik gemileri ateşli silâhları ve onları kullanacak küçük bir birliği Karaman kıyılarına getirecek, Uzun Hasan da oraya kuvvet gönderecekti.\n\n■ ŞUBAT 1473\nYeni elçi Giosafat Barbaro'nun talimatı 28 Ocak 1473 tarihlidir. Barbaro 18 Şubat'ta Venedik'ten ayrıldı ve 29 Mart'ta Kıbrıs'ta Magosa'ya vardı. Kısa süre sonra şaha gidecek savaş malzemesi de oraya geldi. Büyük ve küçük toplar, tüfekler, barut, kazma kürek, silâhları kullanacak uzmanlar: belgelerdeki listeler birbirini tam tutmuyor.\n\n■ KIYI AÇILIYOR\nVenedik başamirali Pietro Mocenigo, Karaman beyleriyle birlikte Kilikya kıyısına yüklendi. Araştırmacı Salihcan Kocaoğlu'na göre 1473 Mayıs ve Haziranında Sığın, Kızkalesi ve Silifke alınıp Karamanlılara bırakıldı. Silâhların yolu açılacak gibiydi.\n\n■ BULUŞMA GERÇEKLEŞMEDİ\nAlıcı gelemedi. Kocaoğlu'nun anlatımıyla Uzun Hasan önce Suriye tarafındaydı; Kilikya'ya ineceği sırada Fatih Sultan Mehmed onun üzerine sefere çıktı ve sevkiyat tamamlanamadı. Murat Kaan Yıldız ise Anadolu kıyılarındaki Osmanlı ve Memlûk hâkimiyetini engel olarak gösterir.\n\nBarbaro da Magosa'da yaklaşık bir yıl kaldı. Kıbrıs'ta kralın ölümü ve Caterina Cornaro'nun tartışmalı tahta çıkışı ortalığı karıştırmıştı. Elçi Tebriz'e 1474'ün sonuna doğru ulaştı.\n\n■ OTLUKBELİ\n11 Ağustos 1473'te Osmanlı ordusu Uzun Hasan'ı Otlukbeli'de yendi. Martino Mazzon'a göre bu yenilgi, Osmanlı ilerleyişinin durdurulabilir göründüğü dönemi kapattı. Uzun Hasan, Zeno'yu Avrupa'da yeni müttefikler araması için geri yolladı.\n\n■ TARİHÇİLER BUGÜN NE DİYOR\nKocaoğlu, ağır toplardan yoksun kalmayı yenilginin sebebi sayar. Kılıç, silâhların zamanında gelmemesiyle Osmanlı'nın top ve silâh üstünlüğünü birlikte anar. Yıldız ise bir soru ekler: gücü hızlı süvari baskınlarına dayanan Türkmen ordusuna bu silâhların kolayca katılabileceği açık değildir; bazı silâhları taşıyan bir topçu birliğinin o savaş tarzına uyması ona göre mümkün değildi. Aynı yazar, Türkmenlerin top ve tüfek karşısındaki zayıflığı düşünülünce Uzun Hasan'ın ısrarlı silâh isteğini anlaşılır bulur. Silâhlar ulaşsaydı sonucun değişeceği kanıtlanmış bir olgu değildir.",
+  "kesinlik": "tartismali",
+  "kaynak": "Salihcan Kocaoğlu, \"Venedikli Başamiral Pietro Mocenigo'nun Osmanlı-Akkoyunlu Rekabetindeki Rolü\", Türk Tarihi Araştırmaları Dergisi 10/1 (2025), s. 66-80, Türkçe, https://dergipark.org.tr/tr/download/article-file/4383941 · Murat Kaan Yıldız, \"Venedikli Diplomatlarca Kaleme Alınan Resmî Mektuplarda Akkoyunlu Askerî Gücü\", Harp Tarihi Dergisi 1 (2020), s. 95-124, Türkçe, https://dergipark.org.tr/tr/download/article-file/2558328 · Remzi Kılıç, \"Fatih Devri (1451-1481) Osmanlı-Akkoyunlu İlişkileri\", Sosyal Bilimler Enstitüsü Dergisi 14 (2003/1), s. 95-118, Türkçe, https://dergipark.org.tr/tr/download/article-file/219245 · Roberto Almagià, \"Barbaro, Giosafat\", Dizionario Biografico degli Italiani c. 6 (1964), İtalyanca, https://www.treccani.it/enciclopedia/giosafat-barbaro_(Dizionario-Biografico)/ · Martino Mazzon, \"Zeno, Caterino\", Dizionario Biografico degli Italiani c. 100 (2020), İtalyanca, https://www.treccani.it/enciclopedia/caterino-zeno_(Dizionario-Biografico)/",
+  "ic_not": "1473-02-01 ay hassasiyetidir; okunan gün Barbaro'nun Venedik'ten ayrılışı (18 Şubat 1473). Yıldız bazı mektupları 1472 yılıyla verir (28 Ocak 1472 gibi); Venedik takvim üslubu olup olmadığı hakkında makalede açıklama görülmedi, kartta kullanılmadı. Silâh listeleri makaleler arasında farklıdır; sayı yazılmadı. Kılıç Hacı Muhammed'in Tebriz'den gönderilişini 30 Mayıs 1472 diye verir; Kocaoğlu aynı elçiyi 1472-73'te Mocenigo'nun yanında gösterir; kartta yalnız yıl yazıldı. Kılıç'ın dergi adındaki üniversite bilgisi metinde yalnız yazar adresinden (Niğde Üniversitesi) görülüyor.",
+  "ic_not_erisim": "ONARIM (26.11.2026): TDV ya da aktarım dayanağı çıkarıldı; kart, engel aşmayan indirme aracıyla yeniden kaynaklandırıldı."
+},
 
 { id:"venedik-savas-fornovo-1495", tur:"savas-hikayesi",
   teyit:"teyitli", yayin_adayi:true, ic_not_teyit:"F. Rossi'nin Bernardino Fortebracci, I. Lazzarini'nin Rodolfo Gonzaga ve G. Gullino'nun Melchiorre Trevisan maddeleri ham metinden baştan sona okundu. Fortebracci'nin Signoria'ya mektubu (Malipiero yayını, okunmadı) aktarım olacağı için karta alınmadı.",
@@ -293,26 +290,24 @@ window.EKOKUMA_DEVVENEDIK04 = [
   kaynak:"Franco Rossi, \"Fortebracci, Bernardino\", Dizionario Biografico degli Italiani, c. 49 (1997), https://www.treccani.it/enciclopedia/bernardino-fortebracci_(Dizionario-Biografico)/ · Isabella Lazzarini, \"Gonzaga, Rodolfo\", Dizionario Biografico degli Italiani, c. 57 (2001), https://www.treccani.it/enciclopedia/rodolfo-gonzaga_(Dizionario-Biografico)/ · Giuseppe Gullino, \"Trevisan, Melchiorre\", Dizionario Biografico degli Italiani, c. 96 (2019), https://www.treccani.it/enciclopedia/melchiorre-trevisan_(Dizionario-Biografico)/",
   ic_not:"Rodolfo Gonzaga maddesi savaşı '5-6 luglio 1495' diye verir; Fortebracci maddesi ve sitedeki bağlama günü 6 Temmuz. Francesco II Gonzaga maddesi indirildi ama uzun olduğu için okunmadı, kullanılmadı. Luzio-Renier 1890 okunmadı. Yarma girişiminin başındaki 'G. de Foix' adı kimliği belirsiz olduğu için karta alınmadı. 'lance spezzate colleonesche' kartta 'seçme süvariler' diye sadeleştirildi (yorum payı var)." },
 
-{ id:"venedik-sebep-modon-koron-1500", tur:"sebep-sonuc",
-  ic_not_erisim:"ERİŞİM KURALI İHLALİ (25.11.2026 denetimi): TDV İslâm Ansiklopedisi bu iş sırasında Cloudflare engeli verdi. Karttaki TDV içeriği engelden sonra web aktarım aracıyla ya da tarayıcıyı andıran User-Agent ile (Mozilla/5.0 research-reader) indirildi. Bu yolla alınan metin kullanılamaz: TDV'ye dayanan ifadeler OKUNAMADI sayılır. Önceki 'ham sayfada doğrulandı' notları geçersiz. Yayın adayı değil; kart silinmedi.",
-  teyit:"teyitsiz", yayin_adayi:false, ic_not_teyit:"[TDV ile ilgili okuma beyanı GEÇERSİZ, bkz. ic_not_erisim] TDV Koron (Machiel Kiel) ve Gullino'nun Melchiorre Trevisan maddeleri ham metinden baştan sona okundu.",
-  baslik:"Modon ve Koron 1500: Venedik donanması yardım beklerken ne oldu?",
-  olay:["1500-08-10|Modon"],
-  kisa:"İki liman Venedik'le Doğu Akdeniz arasındaki yolun duraklarıydı. Üç yüzyıla yaklaşan Venedik yönetimi bir yaz içinde sona erdi.",
-  metin:"Mora'nın güneybatı ucundaki Koron ile yakınındaki Modon, Venedik ile Levant arasındaki yolun ortasında duruyordu. Venedik filosu için gözetleme noktası ve ikmal istasyonuydular. Koron 1206'da Venedik'e geçmişti. II. Mehmed 1460'ta Mora'yı alırken Venedik'e ait olan Koron, Modon ve Navarin'e dokunmamıştı.\n\n" +
-    "■ KÖTÜ BAŞLAYAN SAVAŞ\n" +
-    "1499'da Zonchio'daki başarısızlığın ardından donanma komutanı Antonio Grimani'nin yerine Melchiorre Trevisan getirildi. Trevisan'ın devraldığı tablo ağırdı: eski gemiler, yetersiz donanım, disiplinsiz mürettebat, emre uymayan kaptanlar. Aralık başında başladığı Kefalonya kuşatmasını bir ay sonra bırakmak zorunda kaldı.\n\n" +
-    "Trevisan Senato'dan durmadan yardım istedi; isteklerinin ancak küçük bölümü karşılandı. Venedik aynı sırada başka cephelerle de uğraşıyordu: Lombardiya'daki savaş ve Friuli'ye yapılan Osmanlı akınları para istiyor, ticaret durgunlaşıyor, hazine tükeniyordu.\n\n" +
-    "■ KUŞATMA\n" +
-    "Osmanlı donanması Mart 1500 başında Modon'u kuşatmak üzere Çanakkale Boğazı'ndan çıktı. Trevisan sonucu göremedi: aralıklarla süren ateşli bir hastalığın ardından 17 Temmuz'da Korfu'da, gemisinde öldü.\n\n" +
-    "Ağustos 1500'de II. Bayezid komutasındaki Osmanlı ordusu kuşattığı Modon Kalesi'ni aldı. Trevisan'ın yaşam öyküsü, iyi tahkim edilmiş kalenin teslim olmak zorunda kaldığı günü 9 Ağustos olarak verir. Tarihçi Machiel Kiel'in TDV İslâm Ansiklopedisi'ndeki anlatımına göre kale muhafızları kılıçtan geçirildi. Ardından Koron ile Navarin teslim alındı.\n\n" +
-    "■ SONRASI\n" +
-    "Yerli halk, Venedik'in Osmanlılardan yeni geri aldığı Kefalonya adasına nakledildi. Bayezid Modon'a 500 yeniçeri ve 1000 azabdan oluşan bir birlik yerleştirdi. Koron'daki Venedik merkez kilisesi camiye çevrildi. Kiel, 1528 tahrir defterindeki rakamlara dayanarak Koron'un fetihten sonra hızla gelişip bölgenin önemli şehri olduğunu belirtir.\n\n" +
-    "■ KAYNAK NE KADARINI SÖYLÜYOR\n" +
-    "Trevisan'ın biyografisini yazan Giuseppe Gullino, onun son komutanlığındaki başarısızlığı devraldığı ağır duruma, görev süresinin kısalığına ve bozuk sağlığına bağlar. Okunan metinler Modon kuşatmasının gün gün seyrini anlatmaz.",
-  kesinlik:"kesin",
-  kaynak:"Machiel Kiel, \"Koron\", TDV İslâm Ansiklopedisi, c. 26 (2002), s. 208-209, https://islamansiklopedisi.org.tr/koron · Giuseppe Gullino, \"Trevisan, Melchiorre\", Dizionario Biografico degli Italiani, c. 96 (2019), https://www.treccani.it/enciclopedia/melchiorre-trevisan_(Dizionario-Biografico)/",
-  ic_not:"UYUŞMAZLIK: sitedeki bağlama günü 1500-08-10; okunan Trevisan maddesi Modon'un 9 Ağustos'ta teslim olmak zorunda kaldığını yazıyor; TDV yalnız 'Muharrem 906 (Ağustos 1500)' diyor. Üçüncü kaynakla hakemlik yapılmadı. TDV'de 'moton' kısa adresi madde döndürmedi (arama sayfası). 'Üç yüzyıla yaklaşan' ifadesi TDV'nin Koron için 1206-1500 aralığıdır." },
+{
+  "id": "venedik-sebep-modon-koron-1500",
+  "tur": "sebep-sonuc",
+  "teyit": "teyitli",
+  teyit_kapsam:"bolum",
+  "yayin_adayi": true,
+  "ic_not_teyit": "Gullino'nun Melchiorre Trevisan maddesi (DBI, İtalyanca), Emel Esin'in yazısı (İngilizce) ve Levent Kayapınar'ın makalesi (Türkçe, hakemli) baştan sona okundu. Bilge Kaya Yiğit'in makalesinden (Türkçe) giriş ile fetih anlatımı ve sonuç bölümleri okundu; yalnız barış görüşmesi koşulu ile 10 Ağustos günü kullanıldı. Yazıların andığı Osmanlı kronikleri ve defterleri ayrıca okunmadı.",
+  "baslik": "Modon ve Koron 1500: Venedik donanması yardım beklerken ne oldu?",
+  "olay": [
+    "1500-08-10|Modon"
+  ],
+  "kisa": "Komutan Venedik'ten durmadan yardım istiyordu. O ağustos Modon direnerek düştü; ardından Koron ve Navarin de elden çıktı.",
+  "metin": "1499'da Osmanlılar İnebahtı'yı aldı. Araştırmacı Bilge Kaya Yiğit'e göre Venedik barış arayınca II. Bayezid Mora'daki Modon, Koron ve Anabolu'nun bırakılmasını ve her yıl vergi ödenmesini istedi.\n\n■ KÖTÜ BAŞLAYAN KOMUTANLIK\nDenizde de işler kötüydü. Zonchio'daki başarısızlığın ardından donanma komutanı Antonio Grimani'nin yerine Melchiorre Trevisan getirildi. Devraldığı tablo ağırdı: eski gemiler, yetersiz donanım, disiplinsiz mürettebat, emre uymayan kaptanlar. Aralık başında başladığı Kefalonya kuşatmasını bir ay sonra bırakmak zorunda kaldı.\n\nTrevisan Senato'dan durmadan yardım istedi; isteklerinin ancak küçük bölümü karşılandı. Venedik aynı sırada başka cephelerle de uğraşıyordu: Lombardiya'daki savaş ve Friuli'ye yapılan Osmanlı akınları para istiyor, ticaret durgunlaşıyor, hazine tükeniyordu.\n\n■ KUŞATMA\nOsmanlı donanması Mart 1500 başında Modon'u kuşatmak üzere Çanakkale Boğazı'ndan çıktı. Trevisan sonucu göremedi: ateş nöbetleri geçiriyordu; 17 Temmuz'da Korfu'da, gemisinde öldü.\n\nModon üç yanı denizle çevrili, karadan bir uçurumla ayrılan, iyi savunulan bir kaleydi. Emel Esin'in Osmanlı kaynaklarına dayanan anlatımına göre bir ay süren kuşatma ve bombardımandan sonra Türkler surlara tırmanınca savunanlar şehri ateşe verdi. Şehir teslim oldu; fetihten sonra baştan onarılması gerekti.\n\n■ HANGİ GÜN\nTrevisan'ın İtalyan biyografisi kalenin 9 Ağustos'ta teslim olmak zorunda kaldığını yazar. Kaya Yiğit 10 Ağustos'u verir. Esin ise teslimi yalnız hicrî tarihle verir: 14 Muharrem 906.\n\n■ KORON VE NAVARİN\nEsin'e göre bu iki yer direnmedi; savunan Venedik tarafının askerleri aileleriyle birlikte gemilerle yurtlarına dönebildi.\n\n■ SONRASI\nTarihçi Levent Kayapınar, 1508'de Anadolu'da Safevi Şahı İsmail'i desteklediği düşünülen Türkmenlerin bir bölümünün Modon ve Koron tarafına sürgün edildiğini gösterir. 1514-15 yıllarına ait tahrir kayıtlarında bu yeni Müslüman sakinler adlarıyla görünür. Kayapınar'a göre bu topluluk ancak 1531'e kadar tutunabildi; Saint Jean şövalyelerinin saldırısında birçok Müslüman öldü, kalanlar esir götürüldü.\n\n■ KAYNAK NE KADARINI SÖYLÜYOR\nTrevisan'ın biyografisini yazan Giuseppe Gullino, onun son komutanlığındaki başarısızlığı devraldığı ağır duruma, görev süresinin kısalığına ve bozuk sağlığına bağlar. Okunan metinler kuşatmanın gün gün seyrini ve savunanların kayıplarını vermiyor. Teslim günü için de tek bir gün üzerinde birleşmiyor.",
+  "kesinlik": "tartismali",
+  "kaynak": "Giuseppe Gullino, \"Trevisan, Melchiorre\", Dizionario Biografico degli Italiani c. 96 (2019), İtalyanca, https://www.treccani.it/enciclopedia/melchiorre-trevisan_(Dizionario-Biografico)/ · Emel Esin, \"The Aegean Expeditions of Bayezid II (H. 903-906/1498-1500)\", Erdem, s. 795-799, İngilizce, https://erdem.gov.tr/tam-metin-pdf/976/eng · Levent Kayapınar, \"Anadolu'dan Koron ve Modon'a Kızıl Taçluların İskânı\", Alevilik-Bektaşilik Araştırmaları Dergisi 14 (2016), s. 3-17, Türkçe, https://abked.de/index.php/abked/article/download/43/33 · Bilge Kaya Yiğit, \"Münşeat Mecmuaları ve XV. Yüzyıldan Bir Münşeat Örneği\", Hikmet - Akademik Edebiyat Dergisi, Abdulkerim Abdulkadiroğlu özel sayısı, yıl 2, sayı 3 (2016), s. 183-196, Türkçe, https://dergipark.org.tr/tr/download/article-file/266294",
+  "ic_not": "Bağlama günü 1500-08-10: Kaya Yiğit ile uyumlu; Gullino 9 Ağustos der; Esin yalnız 14 Muharrem 906 verir (mîlâdî gün karşılığı metinde yok; kartta çevrilmedi). KRONOLOJİ DİKKAT: Kaya Yiğit Koron ve Navarin için 'Ağustos 1501' yazar; aynı makalede özetlenen fetihnâme Muharrem 906'da (Ağustos 1500) tam teslimden söz eder ve Kayapınar üç yeri de 1500'e koyar. Karta Koron/Navarin için yıl-gün yazılmadı. Kayapınar tahrir defterinin tarihini bir yerde 1515, bir yerde 21 Eylül 1514 olarak verir. Erdem yazısının cilt ve yılı indirilen metinde görünmüyor. erdem.gov.tr ilk denemede teknik sertifika hatası verdi, ikinci denemede aynı adres indi.",
+  "ic_not_erisim": "ONARIM (26.11.2026): TDV ya da aktarım dayanağı çıkarıldı; kart, engel aşmayan indirme aracıyla yeniden kaynaklandırıldı."
+},
 
 { id:"venedik-tartisma-polesella-1509", tur:"tartisma",
   teyit:"teyitli", yayin_adayi:true, ic_not_teyit:"Piovan'ın Francesco Fasolo ve Derosas'ın Girolamo Contarini maddeleri ham metinden baştan sona okundu; Contarini'nin suçlaması ansiklopedi yazarının anlattığı biçimde, alıntısız verildi.",
@@ -335,41 +330,41 @@ window.EKOKUMA_DEVVENEDIK04 = [
   ic_not:"YEDEK KONU. UYUŞMAZLIK: sitedeki bağlama günü 1509-12-22; okunan Girolamo Contarini maddesi 21 Aralık diyor (arama özetinde Canal maddesi de 21 Aralık; o madde okunmadı). Fasolo maddesi yalnız 'Aralık 1509'. Treccani'nin Alfonso I d'Este maddesi ise savaşı 22 Aralık 1509'a koyar ve Ferrara toplarının Po setleri arasında gizlendiğini anlatır (iki madde bir gün ayrışıyor; karta bu ayrıntı eklenmedi). Angelo Trevisan'ın kendi biyografisi aranan adreste bulunamadı." },
 
 {
-    "id": "venedik-savas-hanya-1645",
-    "tur": "savas-hikayesi",
-    ic_not_erisim:"ERİŞİM KURALI İHLALİ (25.11.2026 denetimi): TDV İslâm Ansiklopedisi bu iş sırasında Cloudflare engeli verdi. Karttaki TDV içeriği engelden sonra web aktarım aracıyla ya da tarayıcıyı andıran User-Agent ile (Mozilla/5.0 research-reader) indirildi. Bu yolla alınan metin kullanılamaz: TDV'ye dayanan ifadeler OKUNAMADI sayılır. Önceki 'ham sayfada doğrulandı' notları geçersiz. Yayın adayı değil; kart silinmedi.",
-  teyit:"teyitsiz",
-    yayin_adayi:false,
-    "ic_not_teyit": "[TDV ile ilgili okuma beyanı GEÇERSİZ, bkz. ic_not_erisim] TDV 'İbrahim' maddesi ve Marcello maddesi tam okundu. Elçi Czernin'in ve Osmanlı kroniklerinin aktarıldığı yorumlar karta alınmadı.",
-    "devlet": "venedik",
-    "taraf": [
-      "venedik",
-      "osmanli"
-    ],
-    "baslik": "Malta'ya diye yola çıkan donanma Hanya önüne geldi",
-    "olay": [
-      "1645-08-22|Hanya"
-    ],
-    "kisa": "1645 baharında İstanbul'dan ayrılan donanmanın duyurulan hedefi Malta'ydı. Gerçek hedef, Venedik'in Girit adasındaki Hanya Kalesi'ydi.",
-    "tarih_metin": "30 Nisan - Ağustos 1645",
-    "yer": "Hanya, Girit",
-    "taraflar": [
-      {
-        "ad": "Osmanlı Devleti",
-        "komutan": "Serdar Yûsuf Paşa"
-      },
-      {
-        "ad": "Venedik Cumhuriyeti",
-        "komutan": "Okunan metinler kaleyi savunan komutanın adını vermiyor"
-      }
-    ],
-    "oncesi": "Görünürdeki kıvılcım 1641'e uzanır. TDV İslâm Ansiklopedisi'ne göre görevden alınmış Kızlarağası Sünbül Ağa Mısır'a giderken, Girit yakınlarındaki Kerpe adası önünde Malta korsanlarının baskınına uğradı. Mallar yağmalandı; yolcu ve mürettebattan kimi öldürüldü, kimi esir edildi. Sultan İbrahim çok öfkelendi ve donanmanın hazırlanmasını emretti. Böylece Malta ile onun koruyucusu sayılan Venedik birden öne çıktı.\n\nAynı madde, işin yalnız padişahın öfkesi olmadığını, stratejik gerekçelerin ağır bastığını belirtir: Girit, Akdeniz'de Osmanlı üstünlüğünün önündeki en önemli engellerden biriydi. Seferin asıl hedefi İstanbul'daki yabancı temsilcilerden ustalıkla saklandı; onlar Malta'ya gidileceğine inandırıldı.",
-    "akis": "Yûsuf Paşa komutasındaki donanma 30 Nisan 1645'te Malta seferi diye duyurulan harekât için İstanbul'dan ayrıldı. 21 Haziran'da Navarin'den kalkarken hedefin Girit olduğu açıklandı; ilk durak olarak Hanya belirlenmişti.\n\n23 Haziran'da Hanya'nın kuzeybatısındaki Aya Todori adasına varıldı ve karaya asker çıkarıldı. 27 Haziran'da kuşatma başladı. Çok yoğun çarpışmaların ardından Hanya teslim oldu; ansiklopedi bunun gününü 19 Ağustos olarak verir.\n\nVenedik tarafında donanma görevlilerinden Lorenzo Marcello, biyografisine göre, işgal edilen Hanya'ya Osmanlı takviyesi gelmesini engellemeye çalıştı ve Milos yakınında bir kafileyi yakalayıp bir gemisini ele geçirdi. Bu çabalar 1645-1646 kışında da sürdü.",
-    "sonuc": "İstanbul'da fetih için üç gün üç gece şenlik yapıldı. Yûsuf Paşa döndü; ama zafer ona uzun bir ikbal getirmedi ve 22 Ocak 1646'da idam edildi. Savaş ise bitmedi. Marcello 1646 Martında Hanya'daki Osmanlılara saldırı planıyla 14 kadırgayla denize açıldı, ama beklediği öteki Venedik güçlerini bulamayınca vazgeçmek zorunda kaldı. Biyografisi bu dönemde para sıkıntısını, ikmal eksiklerini, komutanlar arasındaki eşgüdümsüzlüğü ve başkomutanın çekingenliğini anar. Girit için savaş yıllarca sürdü; Venedik 1669'da Kandiye'yi teslim etti.",
-    "tartisma": "■ KAYNAK NE KADARINI SÖYLÜYOR\nOkunan metinler kuşatmayı kısaca anlatır. Hanya'yı kimin savunduğu, iki tarafın asker sayısı ve teslim şartları burada yer almaz. Teslim günü için de tek bir kaynağın tarihi aktarıldı; başka tarihlendirmelerle karşılaştırılmadı.",
-    "kesinlik": "kesin",
-    "kaynak": "\"İBRÂHİM\" (Osmanlı padişahı), TDV İslâm Ansiklopedisi, islamansiklopedisi.org.tr/ibrahim--padisah · \"MARCELLO, Lorenzo\", Dizionario Biografico degli Italiani, treccani.it/enciclopedia/lorenzo-marcello_(Dizionario-Biografico)/ · Kandiye'nin 1669'daki teslimi için: \"MOROSINI, Francesco\", Dizionario Biografico degli Italiani, treccani.it/enciclopedia/francesco-morosini_(Dizionario-Biografico)/",
-    "ic_not": "UYUŞMAZLIK: kronoloji maddesi 22 Ağustos 1645; TDV İbrahim maddesi 19 Ağustos (26 Cemâziyelâhir 1055) verir. TDV 'Girit' maddesinde 54 günlük kuşatma ifadesi görüldü (madde tam okunmadı, karta alınmadı). Candiani'nin 'Assalto dal mare' yazısı 403, okunmadı. Marcello maddesi 23 Haziran 1645 için 'işgal edilen Hanya'ya takviye' der; kuşatmanın 27 Haziran'da başladığı TDV sırasıyla uyuşmaz (cümlede gün karta yazılmadı). TDV metni Yûsuf Paşa'nın kızla evliliğine ilişkin ayrıntı da verir; alınmadı. Yazar adı ayıklanmadı."
-  }
+  "id": "venedik-savas-hanya-1645",
+  "tur": "savas-hikayesi",
+  "teyit": "teyitli",
+  "yayin_adayi": true,
+  "ic_not_teyit": "Metin Menekşe'nin makalesi (Türkçe), Roberto Zago'nun Lorenzo Marcello ve Giuseppe Gullino'nun Francesco Morosini maddeleri (DBI, İtalyanca) baştan sona okundu. Makalenin Kâtip Çelebi, Naîmâ ve Evliya Çelebi'den verdiği alıntılar ile asker sayıları karta alınmadı; o eserler ayrıca okunmadı.",
+  "devlet": "venedik",
+  "taraf": [
+    "venedik",
+    "osmanli"
+  ],
+  "baslik": "Malta'ya diye yola çıkan donanma Hanya önüne geldi",
+  "olay": [
+    "1645-08-22|Hanya"
+  ],
+  "kisa": "1645 baharında İstanbul'dan ayrılan donanmanın duyurulan hedefi Malta'ydı. Gerçek hedef, Venedik'in Girit adasındaki Hanya Kalesi'ydi.",
+  "tarih_metin": "30 Nisan – 22 Ağustos 1645",
+  "yer": "Hanya, Girit",
+  "taraflar": [
+    {
+      "ad": "Osmanlı Devleti",
+      "komutan": "Serdar Yusuf Paşa"
+    },
+    {
+      "ad": "Venedik Cumhuriyeti",
+      "komutan": "Okunan metinler kaleyi savunan komutanın adını vermiyor"
+    }
+  ],
+  "oncesi": "Girit'i alma düşüncesi eskiydi. Bardağı taşıran olay ise 1644'te yaşandı. Tarihçi Metin Menekşe'ye göre Mısır'a giden Darüssaade Ağası Sünbül Ağa'nın gemisi Malta korsanlarının baskınına uğradı. Ağa öldü; gemi Girit'e götürüldü, ele geçirilen mallar adada satışa çıkarıldı. Sultan İbrahim çok öfkelendi.\n\nVenediklilere düşmanlığıyla anılan Kaptanıderya Yusuf Paşa padişahı sefere ikna etti. Hedef ise birkaç kişi dışında herkesten saklandı.",
+  "akis": "■ GİZLİ ROTA\nDonanma 30 Nisan 1645'te Malta seferi ilanıyla İstanbul'dan ayrıldı. 7 Haziran'da Navarin'e demirledi; orada da Malta için emirler okundu. 20 Haziran'da Navarin'den ayrıldıktan sonra komutanlara asıl hedef açıklandı: Girit.\n\n23 Haziran'da Hanya'nın kuzeybatısındaki Aya Todori adacığı önüne gelindi ve oradaki kaleler alındı. Ardından karaya asker çıkarıldı. Yusuf Paşa yerli halka iyi davranılmasını emretti.\n\n■ ELLİ DÖRT GÜN\nKuşatma 27 Haziran'da başladı. Kale çok sağlamdı. Kuşatmanın 45. ve 52. günlerindeki iki genel hücum ağır kayıpla sonuçlandı; askerde geri dönüleceği duygusu belirdi. Yusuf Paşa yaralıları tek tek dolaştı, ölenlerin yakınlarına tımar verdi, komutanlara armağan dağıttı.\n\nÜçüncü hücum hazırlanırken, 19 Ağustos'ta savunanlar elçi gönderip teslim önerdi. Anlaşmaya göre ayrılanların canına ve malına dokunulmayacak, gemilerle istedikleri yere gideceklerdi; kalanlara da can ve mal güvencesi verilecekti. Venedikliler iki gün içinde mallarını gemilere yükleyip ayrıldı. Osmanlı askeri 22 Ağustos'ta kaleye girdi.\n\n■ DENİZDE\nVenedik'in donanma yöneticilerinden Lorenzo Marcello, biyografisine göre Hanya'daki Osmanlılara takviye gelmesini engellemeye çalıştı; Milos yakınında bir kafileyi yakalayıp bir gemisini ele geçirdi. Bu çaba 1645-46 kışında da sürdü.",
+  "sonuc": "Kalenin en büyük kilisesi Aziz Nikolaos, Sultan İbrahim adına Hünkâr Camii oldu; iki büyük kilise daha camiye çevrildi. İstanbul'da üç gün üç gece şenlik yapıldı.\n\nYusuf Paşa'nın zaferi uzun sürmedi. Rakipleri, düşmanı mallarıyla serbest bırakmasını ve getirdiği ganimetin azlığını kötü niyetle yorumladı. Padişah kışın yeniden Girit'e gitmesini isteyince paşa deniz mevsimi olmadığını söyledi ve 22 Ocak 1646'da idam edildi.\n\nMarcello 1646 Martında Hanya'ya saldırı planıyla 14 kadırgayla denize açıldı, ama Suda'da kalan başkomutanın güçlerini bulamayınca vazgeçti. Savaş 1669'a kadar sürdü; o yıl 6 Eylül'de Morosini Kandiye'nin teslimi üzerinde anlaştı.",
+  "tartisma": "■ İKİ TARİH, İKİ AN\n19 Ağustos teslim önerisinin, 22 Ağustos ise Osmanlı askerinin kaleye girişinin günüdür.\n\n■ KAYNAK NE KADARINI SÖYLÜYOR\nKuşatmanın ayrıntıları burada büyük ölçüde Osmanlı kroniklerini kullanan bir Türk araştırmasından geliyor. Venedik tarafından okunan metin denizdeki çabayı anlatır: para sıkıntısı, ikmal eksikleri, komutanlar arasındaki eşgüdümsüzlük ve başkomutanın çekingenliği. Kaleyi kimin savunduğu burada yer almıyor.",
+  "kesinlik": "kesin",
+  "kaynak": "Metin Menekşe, \"17. Yüzyılda Osmanlı Devleti'nde Makbul iken Maktul Olan Bir Devlet Adamı: Kaptan-ı Derya Silahdâr Yusuf Paşa\", Stratejik ve Sosyal Araştırmalar Dergisi 5/3 (2021), s. 527-553, Türkçe, https://dergipark.org.tr/tr/download/article-file/1942580 · Roberto Zago, \"Marcello, Lorenzo\", Dizionario Biografico degli Italiani c. 69 (2007), İtalyanca, https://www.treccani.it/enciclopedia/lorenzo-marcello_(Dizionario-Biografico)/ · Giuseppe Gullino, \"Morosini, Francesco\", Dizionario Biografico degli Italiani c. 77 (2012), İtalyanca, https://www.treccani.it/enciclopedia/francesco-morosini_(Dizionario-Biografico)/",
+  "ic_not": "Kronoloji maddesi 22 Ağustos 1645 Menekşe ile uyuşuyor (eski uyuşmazlık kapandı). Makalenin İngilizce özeti fethi 19 Ağustos diye verir; Türkçe metin 19'u teslim önerisi, 22'yi giriş günü olarak ayırır. Navarin'den ayrılış için metin 20 Haziran der. Zago, 23 Haziran 1645 için 'işgal edilen Hanya'ya takviye' ifadesini kullanır; kuşatma 27 Haziran'da başladığından karta bu gün yazılmadı.",
+  "ic_not_erisim": "ONARIM (26.11.2026): TDV ya da aktarım dayanağı çıkarıldı; kart, engel aşmayan indirme aracıyla yeniden kaynaklandırıldı."
+}
 
 ];

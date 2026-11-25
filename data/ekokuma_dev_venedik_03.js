@@ -8,26 +8,23 @@
 // ============================================================================
 
 window.EKOKUMA_DEVVENEDIK03 = [
-{ id:"venedik-sebep-1171-tutuklama", tur:"sebep-sonuc",
-  teyit:"teyitsiz", yayin_adayi:false,
-  ic_not_teyit:"Aktarım: olayın sebebine dair 'Venedik anlatısı' ve 'Bizans anlatısı', DBI yazarının (Pozza) okunmamış kaynakları özetlemesidir. Öteki olgular maddenin kendi anlatısıdır.",
-  baslik:"1171: Bizans'taki Venedikliler neden bir anda tutuklandı?",
-  olay:["1171-03-12|Manuel"],
-  kisa:"İmparator Manuel'in emriyle Venedikliler hapsedildi, mallarına el kondu. Sebebi iki taraf bambaşka anlattı; Venedik'in cevabı ise kendi dogesinin sonunu getirdi.",
-  metin:"12 Mart 1171'de Bizans imparatoru I. Manuel Komnenos, imparatorluk topraklarındaki Venedik yurttaşlarının tutuklanmasını ve mallarına el konmasını ansızın emretti. Venedikliler hazırlıksız yakalandı, çok sayıda kişi hapsedildi. Kurtulanlar azdı: bir bölümü çeşitli yerlerde yakalanmaktan kaçabildi, İstanbul'daki bir grup da tüccar Romano Mairano'nun gemisine binip imparatorluk gemilerinden sıyrılarak Akkâ'ya ulaştı. Olay birçok küçük tüccar için iktisadî yıkım oldu.\n\n" +
-    "■ GERGİNLİK BİRİKİYORDU\n" +
-    "İlişkiler daha önce bozulmuştu. Manuel İtalya'da saldırgan bir siyaset izliyor, Venedik'in Adriyatik'teki başlıca ticaret rakibi Ancona'yı destekliyordu. Venedik de imparatorun Macaristan'a açtığı savaşa katılmamıştı. 1167 sonunda Doge Vitale Michiel, Normanlarla yeni bir çatışmada askerî yardım isteyen Bizans elçilerini geri çevirdi.\n\n" +
-    "■ İKİ AYRI AÇIKLAMA\n" +
-    "Tutuklamanın nedenleri tam açık değil. Venedik anlatısına göre Manuel işi önceden tasarlamıştı: 1167'deki reddin öcünü almak ve Venediklilerin mallarına konmak istiyordu. Bizans anlatısı ise Venedik'in imparatorluğa karşı kibrini, ülkede yaşayan Venediklilerin ciddi toplumsal sorunlar doğuran aşırı kalabalığını ve 1170'te İstanbul'daki Ceneviz mahallesine yaptıkları saldırının zararını ödemeyi reddetmelerini öne çıkarır.\n\n" +
-    "■ VENEDİK'İN CEVABI\n" +
-    "Haber gelince önce elçi göndererek temkinli davranmak düşünüldü, ama savaş yanlıları ağır bastı. Eylül 1171'de dogenin komutasında 100 kadırga denize açıldı. Donanma Eğriboz adasının merkezini kuşattı. Buradaki Bizans komutanı, İstanbul'a elçi gönderilirse el konan malların geri verileceğine güvence verdi. Kışı Sakız'da geçiren Venedikliler elçi üstüne elçi yolladı, sonuç alamadı. Bu arada gemilerde salgın çıktı ve kısa sürede bin kadar adam öldü. 1172 baharında yer değiştiren donanmada hastalık sürdü. Hoşnutsuzluk büyüyünce doge dönüş emri verdi. Bizans gemileri onları yol boyunca rahatsız etti.\n\n" +
-    "■ BEDELİ DOGE ÖDEDİ\n" +
-    "Sefer yenilgiyle ve utançla bitti, salgın şehre de yayıldı. 28 Mayıs 1172'de halk meclisinde ağır eleştirilere uğrayan ve danışmanlarınca yalnız bırakılan Michiel, Marco Casolo adlı bir saldırganın darbesiyle yaralandı ve kısa süre sonra öldü. Saldırgan sonradan idam edildi. Yerine geçen Sebastiano Ziani, tayinle değil seçimle başa gelen ilk doge oldu.\n\n" +
-    "■ KAYNAK NE KADARINI SÖYLÜYOR\n" +
-    "Okunan biyografi iki açıklamayı yan yana verir ve birini kesin doğru ilan etmez. Zarar gören birçok küçük tüccarın aradan uzun yıllar geçtikten sonra bile tazminat alamadığını da belirtir.",
-  kesinlik:"tartismali",
-  kaynak:"Marco Pozza, \"Michiel, Vitale\", Dizionario Biografico degli Italiani c. 74 (2010), https://www.treccani.it/enciclopedia/vitale-michiel_(Dizionario-Biografico)/",
-  ic_not:"Gün (12 Mart 1171) kaynakla uyumlu; aynı gün Pozza'nın Sebastiano Ziani maddesinde de geçer. Maddenin dayandığı vakayinameler ve belgeler okunmadı. Tutuklu sayısı verilmiyor, yazılmadı. Enrico Dandolo'nun kör edilmesi bahsi tekrar olmasın diye alınmadı." },
+{
+  "id": "venedik-sebep-1171-tutuklama",
+  "tur": "sebep-sonuc",
+  "teyit": "teyitli",
+  "yayin_adayi": true,
+  "ic_not_teyit": "Marco Pozza'nın Vitale Michiel maddesi (DBI, İtalyanca) baştan sona okundu. Pozza'nın 'Venedik anlatısı' ve 'Bizans anlatısı' diye özetlediği, kendisi okunmayan vakayiname açıklamaları karttan çıkarıldı.",
+  "baslik": "1171: Bizans'taki Venedikliler neden bir anda tutuklandı?",
+  "olay": [
+    "1171-03-12|Manuel"
+  ],
+  "kisa": "İmparator Manuel'in emriyle Venedikliler hapsedildi, mallarına el kondu. İlişkiler yıllardır geriliyordu; Venedik'in cevabı ise kendi dogesinin sonunu getirdi.",
+  "metin": "12 Mart 1171'de Bizans imparatoru I. Manuel Komnenos, imparatorluk topraklarındaki Venedik yurttaşlarının tutuklanmasını ve mallarına el konmasını ansızın emretti. Venedikliler hazırlıksız yakalandı, çok sayıda kişi hapsedildi. Kurtulanlar azdı: bir bölümü çeşitli yerlerde yakalanmaktan kaçabildi, İstanbul'daki bir grup da tüccar Romano Mairano'nun gemisine binip imparatorluk gemilerinden sıyrılarak Akkâ'ya ulaştı. Olay birçok küçük tüccar için iktisadî yıkım oldu.\n\n■ GERGİNLİK BİRİKİYORDU\nSorun yeni değildi. Daha 1150'lerde Manuel, Venediklilerin Bizans ekonomisinde fazla ağırlaşan payını dengelemek için Cenevizlilere önemli ticaret ayrıcalıkları tanımıştı. Sonraki yıllarda Manuel İtalya'da saldırgan bir siyaset izledi ve Venedik'in Adriyatik'teki başlıca ticaret rakibi Ancona'yı destekledi. Venedik de imparatorun Macaristan'a açtığı savaşa katılmadı.\n\n1167 sonunda Doge Vitale Michiel, Normanlarla yeni bir savaş çıkarsa askerî yardım isteyen Bizans elçilerini geri çevirdi. Ertesi yıl, büyük olasılıkla, oğullarını Bizans karşıtı bir cephede evlendirdi; 1168'de de Bizans'ın müttefiki Ancona'ya bir cezalandırma seferi yaptı. Yine de ipler henüz tam kopmamıştı.\n\nPozza'ya göre tutuklamanın sebepleri bütünüyle aydınlanmış değil.\n\n■ VENEDİK'İN CEVABI\nHaber gelince önce İstanbul'a elçi gönderip temkinli davranmak düşünüldü, ama savaş yanlıları ağır bastı. Eylül 1171'de dogenin komutasında 100 kadırga denize açıldı. Donanma Eğriboz adasının merkezini kuşattı. Oradaki Bizans komutanı, İstanbul'a elçi gönderilirse el konan malların geri verileceğine güvence verdi. Venedikliler kışı Sakız'da geçirdi ve elçi üstüne elçi yolladı; sonuç alamadılar.\n\nBu arada gemilerde salgın çıktı ve kısa sürede bin kadar adam öldü. Bir imparatorluk filosu yaklaşınca Venedikliler 1172 Nisanında yer değiştirdi, ama hastalık peşlerini bırakmadı. Sonuç alınamayacağı anlaşıldıkça hoşnutsuzluk büyüdü ve doge dönüş emri verdi. Bizans gemileri onları yol boyunca rahatsız etti.\n\n■ BEDELİ DOGE ÖDEDİ\nFilo yenilmiş ve utanmış halde döndü; salgın şehre de yayıldı. 28 Mayıs 1172'de bir halk toplantısında ağır eleştirilere uğrayan ve danışmanlarınca yalnız bırakılan Michiel, Marco Casolo adlı bir saldırganca ağır yaralandı ve kısa süre sonra öldü. Saldırgan sonradan idam edildi. Yerine geçen Sebastiano Ziani, tayinle değil seçimle başa gelen ilk doge oldu.\n\n■ KAYNAK NE KADARINI SÖYLÜYOR\nOkunan biyografi gerginliğin adımlarını sıralar, ama tutuklama emrinin tek bir sebebini göstermez. Zarar gören birçok küçük tüccarın aradan uzun yıllar geçtikten sonra bile tazminat alamadığını da belirtir. Bizans tarafının kendi anlatısı bu kartta yer almıyor.",
+  "kesinlik": "tartismali",
+  "kaynak": "Marco Pozza, \"Michiel, Vitale\", Dizionario Biografico degli Italiani c. 74 (2010), İtalyanca, https://www.treccani.it/enciclopedia/vitale-michiel_(Dizionario-Biografico)/",
+  "ic_not": "Gün (12 Mart 1171) kaynakla uyumlu. Maddenin dayandığı vakayinameler ve belgeler okunmadı. Tutuklu sayısı verilmiyor. Evlilikler için Pozza 'probabilmente nel 1168' der. Ceneviz mahallesi saldırısı ve öteki taraf açıklamaları yalnız vakayiname özeti olarak geçtiği için çıkarıldı; Bizanslı yazarların kendi metinleri bu turda okunmadı.",
+  "ic_not_erisim": "ONARIM (26.11.2026): TDV ya da aktarım dayanağı çıkarıldı; kart, engel aşmayan indirme aracıyla yeniden kaynaklandırıldı."
+},
 
 { id:"venedik-antlasma-1177-venedik-barisi", tur:"antlasma",
   teyit:"teyitli", yayin_adayi:true,
@@ -94,6 +91,7 @@ window.EKOKUMA_DEVVENEDIK03 = [
   "id": "venedik-sebep-selanik-1423-1430",
   "tur": "sebep-sonuc",
   "teyit": "teyitli",
+  teyit_kapsam:"bolum",
   "yayin_adayi": true,
   "ic_not_teyit": "Bu turda okunanlar: Melek Delilbaşı'nın Belleten makalesi (Türkçe, tam metin ve dipnotlar); Giuseppe Gullino, 'Le frontiere navali' (İtalyanca) Selânik savaşını anlatan alt bölümü (bölümün tamamı değil). Delilbaşı'nın vakanüvislerden ve kodekslerden aktardığı sayılar, konuşmalar ve belge sözleri karta alınmadı; Senato kararlarının içeriği makalenin kendi anlatısı olarak verildi.",
   "baslik": "Venedik'in yedi yıllık Selânik'i: aldığı şehri neden elinde tutamadı?",
@@ -111,6 +109,7 @@ window.EKOKUMA_DEVVENEDIK03 = [
 {
   "id": "venedik-savas-korfu-1537",
   "teyit": "teyitli",
+  teyit_kapsam:"bolum",
   "yayin_adayi": true,
   "ic_not_teyit": "Bu turda okunanlar: Elvin Otman'ın Bilkent doktora tezinin (2018, İngilizce) özeti ile 3.2.1 ve 3.2.3 alt bölümleri (Korfu'ya giden yol ve kuşatma; tezin tamamı değil); Giuseppe Gullino, 'Le frontiere navali' (İtalyanca) 1537-1538 anlatımı ve ilgili dipnot. Tezin adıyla vakanüvislere atfettiği rakamlar karta alınmadı.",
   "tur": "savas-hikayesi",
@@ -180,22 +179,24 @@ window.EKOKUMA_DEVVENEDIK03 = [
   kaynak:"Giuseppe Trebbi, \"Tiepolo, Paolo\", Dizionario Biografico degli Italiani c. 95 (2019), treccani.it/enciclopedia/paolo-tiepolo_(Dizionario-Biografico)/ · Silvia Maggio, \"Molino, Francesco\", Dizionario Biografico degli Italiani c. 75 (2011), treccani.it/enciclopedia/francesco-molino_(Dizionario-Biografico)/ · Paolo Preto, \"Diedo, Giacomo\", Dizionario Biografico degli Italiani, treccani.it/enciclopedia/giacomo-diedo_(Dizionario-Biografico)/",
   ic_not:"Madde günü 1582-01-01 (yıl hassasiyeti); kaynak krizi Ekim 1582'de başlatır, reformu 1583'e koyar. Madde başlığı 'yetkilerinin kısılması': kaynak zontanın 1583'te kaldırılmasını ve Senato yetkisinin geri verilmesini yazar. OKUNMADI: M.J.C. Lowry, The reform of the Council of Ten, 1582-3, Studi Veneziani 13 (1971); DBI Nicolò Contarini." },
 
-{ id:"venedik-tartisma-rialto-banco-1587", teyit:"teyitsiz", yayin_adayi:false,
-  ic_not_teyit:"Aktarım: iki konuşma metninin içeriği (Contarini'ye atfedilen 'renghe') Benzoni'nin özetinden; metinler okunmadı. Ayrıca ikinci metnin aidiyetine ilişkin Errera itirazı okunmadı.",
-  tur:"tartisma",
-  baslik:"Devlet banka kurmalı mı? Venedik'te aynı ada bağlanan iki zıt konuşma",
-  olay:["1587-04-01|Banco"],
-  kisa:"Bir metin paranın güvencesini devlette arıyor, öteki devletin bu işe bulaşmamasını istiyor. İkisi de aynı Venedikli soyluyla ilişkilendiriliyor.",
-  metin:"Büyük bir ticaret şehrinde her ödemede sikke saymak zaman alır. Banka defterine yazılan bir satır ise parayı bir hesaptan ötekine geçirir. Peki o defteri kim tutmalıydı: özel bankerler mi, devlet mi?\n\n" +
-    "28 Aralık 1584'te devlet bankası kurulmasına ve özel bankaların kaldırılmasına karar verildi. Venedik'in ilk kamu bankası olan Rialto Meydanı Bankası (Banco della Piazza di Rialto) ise 11 Nisan 1587'de doğdu. Soylu Tommaso Contarini'nin adı, bu iki tarih arasında yazılmış iki zıt metinle anılır.\n\n" +
-    "■ EVET DİYEN METİN\nİlk metne göre banka kaydı ticaret için büyük kolaylıktır: ağır para taşımak ve saymak yerine deftere bir kalem yazmak yeter. Ama bu hizmet spekülasyonun riskine bırakılmamalıdır. Özel Pisani-Tiepolo bankasının yakın zamandaki iflası ortalığı sarsmıştır. Özel bankerler kendilerine emanet edilen parayı yatırıma yöneltir; işler ters giderse mevduat geri ödenemez. Çözüm, ödeme gücünü devletin güvence altına aldığı bir bankadır. Bu banka parayı yalnız korumalı, ödemeleri yapmalı, onunla spekülasyona girmemelidir.\n\n" +
-    "■ HAYIR DİYEN METİN\nİkinci metin, 1587'de kamu bankasına karşı çıkar. Devletin işi yönetmek ve savaşı yürütmektir; tüccarlık özel kişilerin alanıdır. Para işine yolsuzluk karışmasını önleyecek kesin bir güvence yoktur, çünkü insan en sıkı kuralı bile çiğneyebilir. Özel bir bankanın batması piyasayı sarsar, ama devlet bankasının çöküşü devletin kendisini yıkıma ve utanca sürükler. Öyleyse riskleriyle birlikte eski usul daha iyidir.\n\n" +
-    "■ KİM, NE ZAMAN KONUŞTU\nContarini'nin yaşamöyküsünü yazan Gino Benzoni ikisine de kuşkuyla bakar. Bunların Senato'da gerçekten okunmuş konuşmalar değil, bir kararın artılarını ve eksilerini tartmak için özenle yazılmış denemeler olabileceğini düşünür. İkinci metnin Contarini'ye ait olup olmadığı konusunda da bir kayıt düşer.\n\n" +
-    "■ BANKA NASIL BAŞLADI\nBenzoni'ye göre bankanın ilk yıllarında mevduat ile kasadaki para birbirine eşitti. Kurum o dönemde, karşıtların korktuğu suistimallere düşmeden, salt bir ödeme aracısı olarak kaldı. Sorun sonradan başka yerden gelecekti: niteliği düşük sikkelerin de mevduat olarak kabul edilmesinden.\n\n" +
-    "■ KAYNAK NE KADARINI SÖYLÜYOR\nOkunan metin bir bankanın değil, bir soylunun yaşamöyküsüdür. Tartışmanın bütün tarafları ve bankanın sonraki yılları bu kartın dışında kalıyor.",
-  kesinlik:"tartismali",
-  kaynak:"Gino Benzoni, \"Contarini, Tommaso\", Dizionario Biografico degli Italiani c. 28 (1983), treccani.it/enciclopedia/tommaso-contarini_(Dizionario-Biografico)/",
-  ic_not:"Madde günü 1587-04-01; Benzoni bankanın doğuşunu 11 Nisan 1587 verir (uyuşmazlık: gün 1587-04-11 olabilir). OKUNMADI: konuşma metinleri, Errera 1877, Treccani 'Monete e banche' ve Storia di Venezia maliye bölümü, U. Tucci'nin Banco makalesi." },
+{
+  "id": "venedik-tartisma-rialto-banco-1587",
+  "teyit": "teyitli",
+  teyit_kapsam:"bolum",
+  "yayin_adayi": true,
+  "ic_not_teyit": "İki konuşmanın kendisi, Lattes'in 1869 neşrinden (İtalyanca/Venedik dili, taranmış metin) okundu: birincinin s. 118-123'ü, ikincinin s. 140-151 dolayı. Taramada birinci konuşmanın sonraki sayfaları görünmüyor; o bölüme dair iddia karta alınmadı. Gino Benzoni'nin Tommaso Contarini maddesi (DBI) baştan sona okundu.",
+  "tur": "tartisma",
+  "baslik": "Devlet banka kurmalı mı? Venedik'te aynı ada bağlanan iki zıt konuşma",
+  "olay": [
+    "1587-04-01|Banco"
+  ],
+  "kisa": "Bir metin paranın düzeni için devletin elini istiyor, öteki devletin bu işe bulaşmamasını. İkisi de aynı Venedikli soylunun adıyla yayımlandı.",
+  "metin": "Büyük bir ticaret şehrinde her ödemede sikke saymak zaman alır. Banka defterine yazılan bir satır ise parayı bir hesaptan ötekine geçirir. Peki o defteri kim tutmalıydı: özel bankerler mi, devlet mi?\n\n28 Aralık 1584'te kamu bankası kurulmasına ve özel bankaların kaldırılmasına karar verildi. Venedik'in ilk kamu bankası olan Rialto Meydanı Bankası (Banco della Piazza di Rialto) ise 11 Nisan 1587'de doğdu. Soylu Tommaso Contarini'nin adıyla iki zıt konuşma metni kalmıştır.\n\n■ EVET DİYEN METİN\nKonuşmacı önce ticareti över: ticaret, birbirinden çok uzak ülkelerden oluşan dünyayı tek bir şehir gibi birleştirir. Böyle bir trafik, yazı bankası olmadan yürüyemez. Her alışverişte para sayılsa işlerin çoğu aksar; oysa kalem defterde kıpırdadığı anda alan da satan da işini görmüş olur. Noter, tanık, senet gerekmez.\n\nBaşka büyük pazarlar tüccarların karşılıklı güveniyle hesaplaşabiliyordu. Ama Venedik'te Floransalısı, Cenevizlisi, Rumu, Ermenisi, Yahudisi bir aradaydı; dilleri ve inançları ayrı insanlar birbirine böyle güvenemezdi. Bu şehre kamu otoritesi gerekliydi. Özel bankaların iflasları da gözler önündeydi: soylu evler sönmüş, kızlar çeyizsiz, dullar yardımsız, yetimler desteksiz kalmıştı.\n\n■ HAYIR DİYEN METİN\nİkinci metne göre ticaret yararlıdır, ama hükümdara yakışmaz. Onun iki asıl işi halkı yönetmek ve savaşı yürütmektir. Devlet başkalarının parasına kasadarlık ederse herkes o parayla iş çevirdiğini düşünecektir.\n\nÜstelik özel bankayı batıran nedenler kamu bankasında da vardır: dostlara kolaylık, istekler, çıkar ilişkileri. Ne kadar sert olursa olsun hiçbir yasa zimmeti önleyemez; para tutan dairelerde bunun örnekleri ortadadır. Defterde tek bir kalem darbesiyle uydurma alacaklı yaratılabilir. Yolsuzluk savaş sırasında ortaya çıkarsa ne olur? Herkes parasını geri ister, devlet ise tam o anda para aramaktadır. Konuşmacıya göre özel bir iflasta zamanla ve mahkeme yoluyla bir şeyler kurtarılabilir; parayı devlet alırsa her şey yitebilir.\n\n■ KİM, NE ZAMAN KONUŞTU\nMetinleri 1869'da yayımlayan Lattes onları Contarini'nin konuşmaları diye sunar; ilkinin başlığında 28 Aralık 1584'te Senato'da görüşülüp kabul edildiği yazılıdır. Contarini'nin biyografisini yazan Gino Benzoni ise bu konuşmaların gerçekten söylenip söylenmediğini bilmenin güç olduğunu belirtir. Ona göre iki metin, bir kararın artılarını ve eksilerini tartmak için 1584 ile 1587 arasında yazılmış özenli alıştırmalar olabilir. İkinci metnin Contarini'ye aitliğine itiraz da edilmiştir; Benzoni itirazın kanıtlanmadığını söyler.\n\n■ BANKA NASIL BAŞLADI\nBenzoni'ye göre bankanın ilk yıllarında mevduat ile kasadaki para birbirine eşitti. Kurum o dönemde, karşıtın korktuğu suistimallere düşmeden bir ödeme aracısı olarak kaldı. Sorun zamanla başka yerden gelecekti: niteliği düşük sikkelerin de mevduat olarak kabul edilmesinden.\n\n■ KAYNAK NE KADARINI SÖYLÜYOR\nİki metin bir tartışmanın iki ucunu gösterir; Senato'da kimin hangi savla ikna olduğunu göstermez. Bankanın sonraki yılları da bu kartın dışında kalıyor.",
+  "kesinlik": "tartismali",
+  "kaynak": "Elia Lattes, La libertà delle banche a Venezia dal secolo XIII al XVII... con due orazioni (Milano 1869), s. 118-123 ve 140-151 (birinci ve ikinci konuşma), İtalyanca, https://archive.org/download/lalibertdelleba00contgoog/lalibertdelleba00contgoog_djvu.txt · Gino Benzoni, \"Contarini, Tommaso\", Dizionario Biografico degli Italiani c. 28 (1983), İtalyanca, https://www.treccani.it/enciclopedia/tommaso-contarini_(Dizionario-Biografico)/",
+  "ic_not": "Madde günü 1587-04-01; Benzoni bankanın doğuşunu 11 Nisan 1587 verir (düzeltme adayı: 1587-04-11). Taranmış metin harf tanıma hataları içerir; konuşmalardan sözcüğü sözcüğüne alıntı yapılmadı. İtirazı ileri süren Errera'nın eseri okunmadı, adı karta yazılmadı.",
+  "ic_not_erisim": "ONARIM (26.11.2026): TDV ya da aktarım dayanağı çıkarıldı; kart, engel aşmayan indirme aracıyla yeniden kaynaklandırıldı."
+},
 
 { id:"venedik-kimdir-angelo-querini", teyit:"teyitli", yayin_adayi:true,
   ic_not_teyit:"DBI Angelo Querini (Trebbi) tam okundu. Venturi'nin yorumu ve Haskell alıntısı aktarım olacağı için karta alınmadı.",
@@ -216,27 +217,24 @@ window.EKOKUMA_DEVVENEDIK03 = [
   kaynak:"Giuseppe Trebbi, \"Querini, Angelo\", Dizionario Biografico degli Italiani c. 86 (2016), treccani.it/enciclopedia/angelo-querini_(Dizionario-Biografico)/",
   ic_not:"KRONOLOJİ UYUŞMAZLIĞI: bağlanan madde 1755-01-01 günlü; kaynak tutuklamayı 12-13 Ağustos 1761'e, Correzione'yi 1761-62'ye koyar; 1755 yılında Querini'ye ilişkin böyle bir olay yazmaz (1758'de Avogaria'ya ilk seçilişi). Maddenin günü 1761 olmalı." },
 
-{ id:"venedik-sebep-kara-olum-1348", tur:"sebep-sonuc",
-  teyit:"teyitsiz", yayin_adayi:false,
-  ic_not_teyit:"Aktarım: bütün olgular Tenenti'nin bölümü üzerinden. Ölü ve nüfus rakamları okunmamış araştırmaya (bölümün 4. notu, Mueller) dayanır; Senato ve Büyük Konsey kararları arşiv belgelerinin aktarımıdır (bir bölümü Brunetti üzerinden); 'bütün şehir tek mezardı' sözü vakanüvis Lorenzo de' Monaci'den aktarmadır. Bu belge ve eserler okunmadı.",
-  baslik:"1348'de Venedik veba karşısında ne yaptı?",
-  olay:["1348-01-25|Kara Ölüm"],
-  kisa:"Konseyler toplanamayacak kadar eksildi, mezarlıklar doldu. Yine de devlet durmadı; hatta yas giysisini yasaklayacak kadar ileri gitti.",
-  metin:"Veba Venedik'e 1348'in ilk haftalarında denizden, şehrin sıkı ilişki içinde olduğu hastalıklı limanlardan birinden geldi. Mart sonundan önce resmî bir karşılığına rastlanmıyor.\n\n" +
-    "■ İLK ÖNLEMLER\n" +
-    "30 Mart'ta Büyük Konsey, kamu sağlığını koruyacak yolları araştırmak üzere üç kişilik bir kurul atadı. En acil iş biriken cesetlerdi. Lagündeki uygun yerlerde yeni mezarlıklar açıldı; çukurların en az beş ayak derin olması istendi. Mahalle görevlileri güçlendirildi, evler denetlendi, ölüyü kapı önünde yasa ve bağışa açma âdeti yasaklandı. Şehre gelen tekneler sıkı gözetime alındı, hastaların girmesi engellenmeye çalışıldı.\n\n" +
-    "■ BOŞALAN SIRALAR\n" +
-    "Haziran ortasında Büyük Konsey, kayıplar yüzünden bazı kurulların yeter sayıya ulaşamadığını, Onlar Konseyi'nin bile tam toplanamadığını kabul etti; 22 Haziran'da işleri Senato'ya bıraktı. 10 Haziran'da görevlilerin şehirden ayrılması sınırlandırıldı. Noterlerin ölmesi ya da kaçması yazı ve vasiyet işlerini aksattı; yerlerine yenileri atandı. 10 Temmuz'da senatörler şehrin salgından büyük ölçüde kurtulmuş göründüğünü yazdı.\n\n" +
-    "■ ŞEHRİ YENİDEN DOLDURMAK\n" +
-    "İş gücü ve denizci lazımdı. Bazı mahpuslar affedildi, sürgünlere dönüş yolu açıldı, dışarıdan gelen zanaatkârlar iki yıl boyunca loncalara ücretsiz alındı. Ailesiyle gelip en az iki yıl kesintisiz oturmayı üstlenenlere, şehir içi haklarını kapsayan yurttaşlık tanındı.\n\n" +
-    "7 Ağustos'ta Senato koyu renkli yas giysilerini, para cezası koyarak yasakladı; elli yaşını aşmış kadınlarla başka giysisi olmayacak kadar yoksul kadınlar bunun dışındaydı. Amaç, kederin yerine neşe getirmekti. Doğu limanlarına giden ticaret kadırgası seferleri de yüzyıl boyunca salgınlar yüzünden neredeyse hiç kesilmedi.\n\n" +
-    "■ KAÇ KİŞİ ÖLDÜ\n" +
-    "Kesin sayı bilinmiyor. Tarihçi Alberto Tenenti, en yeni araştırmalara göre bile 110-120 bin nüfus içinde kaybın 38 bin dolayı ile 70 bin dolayı gibi iki uzak rakam arasında belirsiz kaldığını yazar. Bir vakanüvis yıllar sonra bütün şehrin tek bir mezar olduğunu söyleyecekti.\n\n" +
-    "■ TARİHÇİLER BUGÜN NE DİYOR\n" +
-    "Tenenti'nin 1997 tarihli değerlendirmesine göre vebanın etkisi henüz her yönüyle ölçülemiyor. Resmî belgelerde ise çökmeyen, kendini yeniden toparlayan bir yönetim görünüyor. Bazı tarihçiler şehrin nüfus kaybını 1500 dolaylarına kadar kapatamadığını düşünür; Tenenti, sonraki salgınlar ayrıştırılmadan ilk darbenin payının ölçülemeyeceği uyarısını ekler.",
-  kesinlik:"tartismali",
-  kaynak:"Alberto Tenenti, \"Le 'temporali calamità'\", Storia di Venezia (Treccani, 1997), https://www.treccani.it/enciclopedia/le-temporali-calamita_(Storia-di-Venezia)/",
-  ic_not:"Kronoloji maddesinin günü 25 Ocak 1348; okunan bölümde bu tarih, G. Villani'ye dayanan DEPREMİN başlangıç günüdür; vebanın Venedik'e geliş günü verilmez ('1348'in ilk haftaları'). Karantina ve lazaretto bu bölümde 1348 için anlatılmıyor, yazılmadı. Mueller'in çalışmaları ve Senato kayıtları okunmadı. Bölümün sayfa numarası ham metinde yok." },
+{
+  "id": "venedik-sebep-kara-olum-1348",
+  "tur": "sebep-sonuc",
+  "teyit": "teyitli",
+  teyit_kapsam:"bolum",
+  "yayin_adayi": true,
+  "ic_not_teyit": "Alberto Tenenti'nin bölümünde (İtalyanca) Kara Ölüm'e ayrılan kısım, girişiyle ve alınan önlemlerin sonuna kadar kesintisiz okundu; bölümün sonraki yüzyıllara ayrılan kısmı okunmadı. Konsey kararları Tenenti'nin kendi anlatısıdır; arşiv kayıtları ayrıca okunmadı. Bölümün başka araştırmacılardan aktardığı ölü sayıları ve yargılar ile vakanüvis sözleri karta alınmadı.",
+  "baslik": "1348'de Venedik veba karşısında ne yaptı?",
+  "olay": [
+    "1348-01-25|Kara Ölüm"
+  ],
+  "kisa": "Konseyler toplanamayacak kadar eksildi, mezarlıklar doldu. Yine de devlet durmadı; hatta yas giysisini yasaklayacak kadar ileri gitti.",
+  "metin": "Veba Venedik'e 1348'in ilk haftalarında denizden, şehrin sıkı ilişki içinde olduğu hastalıklı limanlardan birinden geldi. Mart sonundan önce resmî bir karşılığına rastlanmıyor.\n\n■ İLK ÖNLEMLER\n30 Mart'ta Büyük Konsey, kamu sağlığını koruyacak yolları araştırmak üzere üç kişilik bir kurul atadı. En acil iş biriken cesetlerdi. Lagündeki uygun yerlerde yeni mezarlıklar açıldı; çukurların en az beş ayak derin olması istendi. Kimsesi ya da parası olmayan ölüler de masrafı devletçe karşılanarak şehirden çıkarıldı. Mahalle görevlileri güçlendirildi, evler denetlendi, ölüyü kapı önünde yasa ve bağışa açma âdeti yasaklandı. Şehre gelen tekneler sıkı gözetime alındı, hastaların girmesi engellenmeye çalışıldı.\n\n■ BOŞALAN SIRALAR\nHaziran ortasında Büyük Konsey, kayıplar yüzünden bazı kurulların yeter sayıya ulaşamadığını, Onlar Konseyi'nin bile tam toplanamadığını kabul etti; 22 Haziran'da işleri Senato'ya bıraktı. 10 Haziran'da görevlilerin şehirden ayrılması yasaklandı, haklı nedeni olanlar dışında. Noterlerin ölmesi ya da kaçması yazı ve vasiyet işlerini aksattı; temmuzda yerlerine yenileri atandı. 10 Temmuz'a gelindiğinde senatörlerin kayıtları salgının büyük ölçüde geride kaldığını düşündürüyor.\n\n■ ŞEHRİ YENİDEN DOLDURMAK\nİş gücü ve denizci lazımdı. Bazı mahpuslar affedildi, bazı sürgünlere dönüş yolu açıldı. Dışarıdan gelen zanaatkârlar ve çıraklar iki yıl boyunca loncalara ücretsiz alındı. Ailesiyle gelip en az iki yıl kesintisiz oturmayı üstlenenlere, şehir içi haklarını kapsayan yurttaşlık tanındı.\n\n7 Ağustos'ta Senato koyu renkli yas giysilerini, para cezası koyarak yasakladı; elli yaşını aşmış kadınlarla başka giysisi olmayacak kadar yoksul kadınlar bunun dışındaydı. Amaç yası gündelik hayattan uzaklaştırıp yerine neşeyi koymaktı.\n\n■ MİRAS KİMİN\nÖlümler büyük servetlerin vasiyetle kiliseye geçmesi demekti. 8 Temmuz'da Senato buna karşı tavır aldı ve ondalık ile benzeri vasiyet ödemelerinin doğrudan yapılmasını durdurdu. Castello piskoposuyla başlayan bu kavga onlarca yıl sürdü; anlaşma ancak 1376'da, sonraki bir piskoposla sağlandı.\n\n■ DENİZ YOLU KESİLMEDİ\nSalgın bütçeyi de sarstı; maaş kesintilerini içeren sıkı bir tasarruf düzeni kuruldu. Buna karşın Doğu limanlarına giden ticaret kadırgası seferleri yüzyıl boyunca salgınlar yüzünden neredeyse hiç kesilmedi.\n\n■ TARİHÇİLER BUGÜN NE DİYOR\nKaç kişinin öldüğü kesin bilinmiyor. Alberto Tenenti, 1997 tarihli değerlendirmesinde, eldeki araştırmaların vebanın ağırlığını her yönüyle ölçmeye henüz yetmediğini yazar. İlk darbenin etkisi, ardından gelen salgınlardan ayrıştırılmadan tartılamaz. Çoğu kamu kurumlarından çıkan belgelerde ise bir şey açıkça görülür: yönetim çökmedi, kendini yeniden toparladı.",
+  "kesinlik": "tartismali",
+  "kaynak": "Alberto Tenenti, \"Le 'temporali calamità'\", Storia di Venezia (Treccani, 1997), İtalyanca, https://www.treccani.it/enciclopedia/le-temporali-calamita_(Storia-di-Venezia)/",
+  "ic_not": "Kronoloji maddesinin günü 25 Ocak 1348; okunan bölümde bu tarih, G. Villani'ye dayanan DEPREMİN başlangıç günüdür; vebanın Venedik'e geliş günü verilmez ('1348'in ilk haftaları'). Karantina ve lazaretto bu bölümde 1348 için anlatılmıyor. Tenenti'nin Mueller'e dayandırdığı ölü ve nüfus aralığı, 1500'e kadar süren nüfus açığı yargısı ve Lorenzo de' Monaci'nin sözü çıkarıldı. Kilise anlaşmazlığının tutarı (5.500 duka) yazılmadı. Bölümün sayfa numarası indirilen metinde yok.",
+  "ic_not_erisim": "ONARIM (26.11.2026): TDV ya da aktarım dayanağı çıkarıldı; kart, engel aşmayan indirme aracıyla yeniden kaynaklandırıldı."
+},
 
 { id:"venedik-sebep-padova-carrara-1405", tur:"sebep-sonuc",
   teyit:"teyitli", yayin_adayi:true,
@@ -261,30 +259,23 @@ window.EKOKUMA_DEVVENEDIK03 = [
   kaynak:"M. Chiara Ganguzza Billanovich, \"Carrara, Francesco da, il Novello\", Dizionario Biografico degli Italiani c. 20 (1977), https://www.treccani.it/enciclopedia/carrara-francesco-da-il-novello_(Dizionario-Biografico)/",
   ic_not:"Kronoloji maddesi 1405-01-01 (yıl hassasiyeti); kaynak: 16 Kasım söz, 22 Kasım Senato kabulü, 3 Ocak 1406 törenli bağlılık. 'Venedik Anakara egemenliğini başlattı' hükmü maddenindir; Venedik'in 1405 öncesi kara toprakları (Treviso) için ayrı kaynak okunmadı." },
 
-{ id:"venedik-kimdir-nicolo-canal-egriboz", tur:"kimdir",
-  ic_not_erisim:"ERİŞİM KURALI İHLALİ (25.11.2026 denetimi): TDV İslâm Ansiklopedisi bu iş sırasında Cloudflare engeli verdi. Karttaki TDV içeriği engelden sonra web aktarım aracıyla ya da tarayıcıyı andıran User-Agent ile (Mozilla/5.0 research-reader) indirildi. Bu yolla alınan metin kullanılamaz: TDV'ye dayanan ifadeler OKUNAMADI sayılır. Önceki 'ham sayfada doğrulandı' notları geçersiz. Yayın adayı değil; kart silinmedi.",
-  teyit:"teyitsiz", yayin_adayi:false,
-  ic_not_teyit:"[TDV ile ilgili okuma beyanı GEÇERSİZ, bkz. ic_not_erisim] Ventura (DBI, Nicolò Canal) ve Kiel (TDV, Eğriboz) ham tam metinden okundu. Sanudo, Malipiero ve Babinger'e dayanan yargılar ile kayıp-sürgün sayıları alınmadı.",
-  baslik:"Eğriboz düşerken donanma neden bekledi? Hukuk doktoru amiral Nicolò Canal",
-  olay:["1470-07-12|Eğriboz'un"],
-  kisa:"Venedik filosu kuşatılan şehrin birkaç mil ötesine kadar geldi. Savunmacılar işaret verdi, bazı kaptanlar saldırmak istedi. Komutan demir attı.",
-  metin:"Eğriboz, 1470'e kadar Venedik'in Ege'deki en gelişmiş deniz üssüydü. Onu kurtarması beklenen donanmanın başındaki adam ise denizci değildi.\n\n" +
-    "■ KİMDİ\n" +
-    "1415'te Venedik'te doğan Nicolò Canal, Padova'da edebiyat ve hukuk okudu, iki doktora aldı. Floransa, Portekiz, İstanbul ve Fransa'da elçilik yaptı, Brescia'yı yönetti. Fransa görevi başarısız bitti. Ocak 1469'da Senato, şaşırtıcı bir kararla onu Ege'de Osmanlılarla savaşan donanmanın başkomutanlığına getirdi. Biyografisinin yazarına göre bu göreve hiç hazır değildi.\n\n" +
-    "■ AİNOS BASKINI\n" +
-    "Canal 14 Temmuz 1469'da Trakya'daki Ainos'u (Enez) ansızın vurdu. Çoğunluğu Rum ve Hristiyan olan halk, acımasız bir yağma ve ayrım gözetmeyen bir kıyımla karşılaştı; 2000 tutsak ve 200 Rum kadın Eğriboz'a götürüldü. Venedik o sırada bunu zafer diye kutladı.\n\n" +
-    "■ 1470 YAZI\n" +
-    "Haziran başında yüzü aşkın kadırgalık Osmanlı donanması denize açıldı. Canal'in 35 kadırgası onu uzaktan izlemekle kaldı; Osmanlı askeri 15 Haziran'da adaya çıktı. Fatih Sultan Mehmed'in komutasındaki kara ordusu da karşı kıyıya geldi ve boğaza bir gemi köprüsü kuruldu. Venedik filosu Girit'e çekildi, 28 Haziran'da oradan ayrıldı, yolda oyalandı ve adaya güneyden değil kuzeyden yaklaşarak zaman yitirdi.\n\n" +
-    "■ 11 TEMMUZ\n" +
-    "Şafakta savunmacılar filoyu gördü: 52 kadırga, bir büyük kadırga (galeazza), 18 gemi ve 20 binden fazla adam. Rüzgâr elverişliydi, hazırlıksız yakalanan Osmanlı gemileri dağınıktı. Biyografiye göre köprüyü yıkmak kolay olurdu. Canal ise şehre birkaç mil kala demirledi ve gün boyu kımıldamadı. Filoyu tehlikeye atmaktan çekiniyor, geride kalan kadırgaları beklemek gerektiğini söylüyordu; o gemilerin savaşmaya isteksiz olduğu belliydi. Antonio Ottobon adlı bir kaptan kadırgasıyla düşman gemilerinin arasından geçip limana girdi. Girit kadırgalarının komutanları tek başlarına saldırmayı önerdi. Canal, filo toplanmadan kimsenin kımıldamasını yasakladı.\n\n" +
-    "Fatih o gece son saldırıyı emretti. Venedik filosu şafakta demir aldığında şehir düşmüştü. Machiel Kiel, kuşatmayı uzun, sokak çatışmalarını şiddetli diye niteler.\n\n" +
-    "■ SONRASI\n" +
-    "Senato Canal'i görevden aldı. Zincire vurulup Venedik'e getirilen amiral yargılandı ve ömür boyu Portogruaro'da oturmaya mahkûm edildi. 1483'te öldü.\n\n" +
-    "■ KAYNAK NE KADARINI SÖYLÜYOR\n" +
-    "Biyografinin hükmü ağırdır: Canal'in yasağı şehrin kaderini belirledi. Aynı madde cezanın hayli hafif olduğunu, Onlar Konseyi'nin de bunu adaletle değil merhametle verilmiş bir karar diye savunduğunu aktarır.",
-  kesinlik:"kesin",
-  kaynak:"A. Ventura (maddede 'VVentura'), \"Canal, Nicolò\", Dizionario Biografico degli Italiani c. 17 (1974), https://www.treccani.it/enciclopedia/nicolo-canal_(Dizionario-Biografico)/ · Machiel Kiel, \"Eğriboz\", TDV İslâm Ansiklopedisi c. 10 (1994), s. 491-493, https://islamansiklopedisi.org.tr/egriboz",
-  ic_not:"Gün: Ventura 11 Temmuz şafağında filonun göründüğünü, son saldırının aynı gece yapıldığını, şafakta şehrin düşmüş olduğunu yazar (12 Temmuz ile uyumlu; '12 Temmuz' diye yazmaz). TDV yalnız 1470 verir. Maddede yazar imzası ham metinde 'VVentura'; ad baş harfi teyit edilmedi. Kapanıştaki Onlar Konseyi savunması maddenin aktardığı resmî cevaptır (papaya yanıt)." },
+{
+  "id": "venedik-kimdir-nicolo-canal-egriboz",
+  "tur": "kimdir",
+  "teyit": "teyitli",
+  "yayin_adayi": true,
+  "ic_not_teyit": "A. Ventura'nın Nicolò Canal maddesi (DBI, İtalyanca; önceki turda indirilen Treccani metni) biyografi bölümüyle baştan sona okundu. Kuşatmanın surlar tarafı için Kocaoğlu'nun makalesi (Türkçe, bu turda indirildi) baştan sona okundu. Maddenin aktardığı Sanudo, Malipiero ve Babinger yargıları ile Kocaoğlu'nun Rizzardo'dan verdiği kayıp sayıları karta alınmadı.",
+  "baslik": "Eğriboz düşerken donanma neden bekledi? Hukuk doktoru amiral Nicolò Canal",
+  "olay": [
+    "1470-07-12|Eğriboz'un"
+  ],
+  "kisa": "Venedik filosu kuşatılan şehrin birkaç mil ötesine kadar geldi. Savunmacılar işaret verdi, bazı kaptanlar saldırmak istedi. Komutan demir attı.",
+  "metin": "Eğriboz, Venedik'in Doğu Akdeniz'deki topraklarının kilit noktasıydı. 1470'te onu kurtarması beklenen donanmanın başındaki adam ise denizci değildi.\n\n■ KİMDİ\n1415'te Venedik'te doğan Nicolò Canal, Padova'da edebiyat ve hukuk okudu, iki doktora aldı. Floransa, Portekiz, İstanbul ve Fransa'ya elçi atandı (İstanbul'a ikinci atanışında gidip gitmediği bilinmiyor), Brescia'yı yönetti. Fransa görevi başarısız bitti. Ocak 1469'da Senato, şaşırtıcı bir kararla onu Ege'de Osmanlılarla savaşan donanmanın başkomutanlığına getirdi. Biyografisinin yazarına göre bu göreve hiç hazır değildi.\n\n■ AİNOS BASKINI\nCanal 14 Temmuz 1469'da Trakya'daki Ainos'u (Enez) ansızın vurdu. Çoğunluğu Rum ve Hristiyan olan halk, acımasız bir yağma ve ayrım gözetmeyen bir kıyımla karşılaştı; 2000 tutsak ve 200 Rum kadın Eğriboz'a götürüldü. Venedik o sırada bunu zafer diye kutladı.\n\n■ 1470 YAZI\nHaziran başında yüzü aşkın kadırgalık Osmanlı donanması denize açıldı. Canal'in 35 kadırgası onu uzaktan izlemekle kaldı; Osmanlı askeri 15 Haziran'da adaya çıktı. Sultanın bizzat yönettiği kara ordusu da karşı kıyıya geldi ve boğaza uzun bir gemi köprüsü kuruldu. Venedik filosu Girit'e çekildi, 28 Haziran'da oradan ayrıldı, yolda oyalandı ve adaya güneyden değil kuzeyden yaklaşarak zaman yitirdi.\n\n■ SURLARIN İÇİ\nAraştırmacı Salihcan Kocaoğlu'na göre savunmanın başında Venedik yöneticisi Paolo Erizzo vardı. Savunmacılar 25 Haziran'dan başlayan saldırıları birkaç kez geri püskürttü, ama güçleri tükeniyordu. Gözleri Canal'in filosundaydı.\n\n■ 11 TEMMUZ\nŞafakta filoyu gördüler: 52 kadırga, bir büyük kadırga (galeazza), 18 gemi ve 20 binden fazla adam. Rüzgâr elverişliydi, hazırlıksız yakalanan Osmanlı gemileri dağınıktı. Biyografiye göre köprüyü yıkmak kolay olurdu. Canal ise şehre birkaç mil kala demirledi ve gün boyu kımıldamadı. Filoyu tehlikeye atmaktan çekiniyor, geride kalan kadırgaları beklemek gerektiğini söylüyordu; o gemiler savaşmaya isteksiz olduklarını belli ediyordu. Antonio Ottobon adlı bir kaptan kadırgasıyla düşman gemilerinin arasından geçip limana girdi. Girit kadırgalarının komutanları tek başlarına saldırmayı önerdi. Canal, filo toplanmadan kimsenin kımıldamasını yasakladı.\n\nSultan o gece son saldırıyı emretti. Venedik filosu şafakta demir aldığında şehir düşmüştü. Kocaoğlu, 12 Temmuz sabahı surlardan girildiğini, halkın ise sokaklara barikat kurup öğleye doğru kadar direndiğini yazar.\n\n■ SONRASI\nSenato Canal'i görevden aldı. Zincire vurulup Venedik'e getirilen amiral yargılandı ve ömür boyu Portogruaro'da oturmaya mahkûm edildi. 1483'te öldü.\n\n■ KAYNAK NE KADARINI SÖYLÜYOR\nBiyografinin hükmü ağırdır: Canal'in yasağı şehrin kaderini belirledi. Aynı madde cezanın hayli hafif olduğunu, papa af isteyince Onlar Konseyi'nin de onun adalete göre değil merhametle yargılandığı cevabını verdiğini aktarır.",
+  "kesinlik": "kesin",
+  "kaynak": "A. Ventura (taranmış sayfadaki imza 'VVentura'), \"Canal, Nicolò\", Dizionario Biografico degli Italiani c. 17 (1974), İtalyanca, https://www.treccani.it/enciclopedia/nicolo-canal_(Dizionario-Biografico)/ · Salihcan Kocaoğlu, \"Venedikli Başamiral Pietro Mocenigo'nun Osmanlı-Akkoyunlu Rekabetindeki Rolü\", Türk Tarihi Araştırmaları Dergisi 10/1 (2025), s. 66-80 (kuşatma: s. 68-69), Türkçe, https://dergipark.org.tr/tr/download/article-file/4383941",
+  "ic_not": "Gün: Ventura 11 Temmuz şafağında filonun göründüğünü, son saldırının aynı gece yapıldığını, şafakta şehrin düşmüş olduğunu yazar; Kocaoğlu son saldırıyı 11 Temmuz'da başlatır ve 12 Temmuz sabahı surlara girildiğini yazar. Kronoloji maddesiyle (12 Temmuz) uyumlu. Kocaoğlu Canal'in başkomutanlığa seçilmesini 1468 diye verir; Ventura'nın Ocak 1469'u esas alındı.",
+  "ic_not_erisim": "ONARIM (26.11.2026): TDV ya da aktarım dayanağı çıkarıldı; kart, engel aşmayan indirme aracıyla yeniden kaynaklandırıldı."
+},
 
 { id:"venedik-savas-agnadello-1509", tur:"savas-hikayesi",
   teyit:"teyitli", yayin_adayi:true,
@@ -371,49 +362,62 @@ window.EKOKUMA_DEVVENEDIK03 = [
   kaynak:"Andrew Hopkins, \"Longhena, Baldassare\", Dizionario Biografico degli Italiani c. 65 (2005), treccani.it/enciclopedia/baldassare-longhena_(Dizionario-Biografico)/",
   ic_not:"Bağlanan madde 'Büyük veba' (1630-01-01); kart kiliseyi/mimarı anlatır. Senato adak kararı (arama özetinde 22 Ekim 1630) ve temel atma OKUNMADI, yazılmadı. DBI 'Contarini, Nicolò' okunmadı." },
 
-{ id:"venedik-sebep-kandiye-1669", ic_not_erisim:"ERİŞİM KURALI İHLALİ (25.11.2026 denetimi): TDV İslâm Ansiklopedisi bu iş sırasında Cloudflare engeli verdi. Karttaki TDV içeriği engelden sonra web aktarım aracıyla ya da tarayıcıyı andıran User-Agent ile (Mozilla/5.0 research-reader) indirildi. Bu yolla alınan metin kullanılamaz: TDV'ye dayanan ifadeler OKUNAMADI sayılır. Önceki 'ham sayfada doğrulandı' notları geçersiz. Yayın adayı değil; kart silinmedi.",
-  teyit:"teyitsiz", yayin_adayi:false,
-  ic_not_teyit:"[TDV ile ilgili okuma beyanı GEÇERSİZ, bkz. ic_not_erisim] TDV Kandiye (Gülsoy) ham tam metinden okundu. Reycaut, Randolph, Evliya Çelebi, Osman Dede ve Fındıklılı'dan aktarılan sayılar karta alınmadı; 1644 sayımı, 1669 tahriri ve 1670 cizye kaydı maddenin kendi bulgusu olarak verildi.",
-  tur:"sebep-sonuc",
-  baslik:"Kandiye teslim edildiğinde geriye nasıl bir şehir kalmıştı?",
-  olay:["1669-09-06|Kandiye'nin teslimi"],
-  kisa:"Yaklaşık yirmi üç yıllık abluka ve kuşatma bir anlaşmayla bitti. Kazanılan şehrin sakinlerinin çoğu ise artık orada değildi.",
-  metin:"6 Eylül 1669'da Osmanlılar, Girit'in en büyük şehri Kandiye'yi anlaşma yoluyla teslim aldı. Bundan önce yaklaşık yirmi üç yıl süren bir abluka ve kuşatma vardı.\n\n" +
-    "■ KUŞATMADAN ÖNCE\n" +
-    "Şehir 1204'te Venediklilerin eline geçmiş, Venedik yönetiminde Girit'in merkezi olmuştu. Doğudan gelen malların Avrupa'ya aktarıldığı bir ara iskeleydi; çevresinde üretilen şaraplar ihracatçılara büyük kazanç getiriyordu. Kuşatma başladığında tabyalar ve geniş, derin hendeklerle korunan güçlü bir kale-şehirdi. Girit seferleri başlamadan hemen önce, 1644 sayımında nüfusu 14.500'dü.\n\n" +
-    "■ BOŞALAN ŞEHİR\n" +
-    "Teslim sırasında sakinlerin çoğu şehri terk etmişti. Fetihten sonra tutulan cizye defterine göre 1670'te Kandiye'de yalnız 13 Hristiyan ve 26 Yahudi hanesi vardı. Bu defter vergi yükümlüsü gayrimüslim haneleri gösterir; sayıları bütün nüfus gibi okumamak gerekir.\n\n" +
-    "1669 tarihli tahrir ise binaları sayar: 56 mahallede 1051 ev, 313 dükkân, 66 manastır ve başka yapılar.\n\n" +
-    "■ YENİ ŞEHİR\n" +
-    "Fâzıl Ahmed Paşa geniş bir imar başlattı, kale onarıldı. On iki manastır padişah, sadrazam, Valide Turhan Sultan ve ordudaki devlet adamları adına camiye çevrildi. Ancak adada sistemli bir sürgün-iskân politikası uygulanmadı. İlk Türk sakinler görevliler, vakıf çalışanları ve kaleyi koruyan askerlerdi. Şehirden mülk alanlar da katılınca hane sayısı 1947'ye, yaklaşık 8000 kişiye çıktı.\n\n" +
-    "■ ESKİ PARLAKLIK GERİ GELMEDİ\n" +
-    "313 dükkânın 292'si devletin ileri gelenlerince satın alınıp onarıldı ve camilerine vakfedildi. Yine de Osmanlılar Kandiye'de ticaretle uğraşan bir şehirli sınıf oluşturamadı. Uzun kuşatmada terk edilen şehir eski canlılığını ve ticaret hacmini bulamadı. Limanın giderek dolmasının da bunda payı vardı; adaya yerleşecekler daha çok Hanya'yı seçti. 1850'de vilayet merkezi de Hanya'ya taşındı.\n\n" +
-    "■ KAYNAK NE KADARINI SÖYLÜYOR\n" +
-    "Okunan metin şehrin tarihini anlatır. Teslim anlaşmasının maddelerini ve ayrılanların nereye gittiğini bu metin vermiyor. Bu yüzden anlaşmanın şartları üzerine burada hüküm yok.",
-  kesinlik:"kesin",
-  kaynak:"Ersin Gülsoy, \"Kandiye\", TDV İslâm Ansiklopedisi, islamansiklopedisi.org.tr/kandiye",
-  ic_not:"6 Eylül 1669 (9 Rebîülâhir 1080) bağlanan maddeyle uyuşuyor. Teslim şartları ve Venedik tarafı için ikinci kaynak okunmadı (TDV Girit indirildi ama okunmadı, sayılmadı)." },
-
-{ id:"venedik-savas-sakiz-1694-1695", ic_not_erisim:"ERİŞİM KURALI İHLALİ (25.11.2026 denetimi): TDV İslâm Ansiklopedisi bu iş sırasında Cloudflare engeli verdi. Karttaki TDV içeriği engelden sonra web aktarım aracıyla ya da tarayıcıyı andıran User-Agent ile (Mozilla/5.0 research-reader) indirildi. Bu yolla alınan metin kullanılamaz: TDV'ye dayanan ifadeler OKUNAMADI sayılır. Önceki 'ham sayfada doğrulandı' notları geçersiz. Yayın adayı değil; kart silinmedi.",
-  teyit:"teyitsiz", yayin_adayi:false,
-  ic_not_teyit:"[TDV ile ilgili okuma beyanı GEÇERSİZ, bkz. ic_not_erisim] TDV Sakız Adası (Örenç) tam okundu; karttakiler maddenin kendi anlatısı. Maddenin 1694 teslimi için gösterdiği Silâhdar ayrıca okunmadı.",
-  tur:"savas-hikayesi", devlet:"venedik", taraf:["venedik","osmanli"],
-  baslik:"Sakız'ı iki haftada alan Venedik adayı neden birkaç ay sonra yitirdi?",
-  olay:["1695-02-09|Sakız"],
-  kisa:"Eylülde kale anlaşmayla teslim alındı. Şubatta Osmanlılar geri döndü. Aradaki kısa işgalin izleri adanın Hristiyan toplulukları arasında da kaldı.",
-  tarih_metin:"8 Eylül 1694 – Şubat 1695",
-  yer:"Sakız Adası, Ege",
-  taraflar:[
-    {ad:"Venedik; papalık, Floransa ve Malta donanmalarının yardımıyla", komutan:"Teslim Antonio Zeno'ya yapıldı"},
-    {ad:"Osmanlı", komutan:"Kale savunmasında Silâhdar Hasan Paşa"}
+{
+  "id": "venedik-sebep-kandiye-1669",
+  "tur": "sebep-sonuc",
+  "teyit": "teyitli",
+  "yayin_adayi": true,
+  "ic_not_teyit": "Elias Kolovos'un bölümü (İngilizce, hakemli, açık erişim; bölümün tamamı) ile Giuseppe Gullino'nun Francesco Morosini maddesinin (DBI, İtalyanca) metni baştan sona okundu. Kartta başka kaynaktan olgu yok.",
+  "baslik": "Kandiye teslim edildiğinde geriye nasıl bir şehir kalmıştı?",
+  "olay": [
+    "1669-09-06|Kandiye'nin teslimi"
   ],
-  oncesi:"Sakız 1566'da Kaptanıderya Piyâle Paşa tarafından çatışma olmadan alınmış, Ceneviz kökenli şirket yönetimi sona ermişti. Ada 1694'e kadar Kaptanpaşa eyaletine bağlı bir sancak olarak kaldı ve donanmanın seferlerde önemli bir uğrağı oldu. 1681'de ise bir Fransız filosu, Garp ocaklarıyla süren bir çatışma yüzünden şehri topa tutmuş, büyük yıkıma ve Müslüman ile Hristiyan can kaybına yol açmıştı.",
-  akis:"■ KUŞATMA\n8 Eylül 1694'te Venedik, müttefik donanmaların yardımıyla Sakız'ı kuşattı. Kaleyi 1370 askerle Silâhdar Hasan Paşa savunuyordu. Kaptanıderya Helvacı Yûsuf Paşa'dan yardım alamadı.\n\n■ TESLİM\n21 Eylül'de ada, vire denen anlaşmalı teslimle Antonio Zeno'ya bırakıldı. Adadaki Müslüman nüfus üç gün içinde Venedik gemileriyle boşaltılıp Anadolu kıyısına taşındı.\n\n■ GERİ DÖNÜŞ\nOsmanlı filosunun karşı harekâtı sonunda 22 Şubat 1695'te adaya asker çıkarıldı ve kale kolayca alındı.",
-  sonuc:"Kaynağa göre Venedikliler kaçarken kiliseler dahil Rumların mallarını yağmaladı. Yerli Rumlar ise Katoliklerin Venediklilere yardım ettiğini öne sürerek şikâyette bulundu. Bunun üzerine Katoliklerin ayrıcalıkları kaldırıldı. Fransız konsolosluğu içindeki dışında Katolik kiliseleri Rumlara verildi; adada çok az Katolik kaldı. Kale varoşundaki iki kilise de camiye çevrildi ve adanın tahriri yeniden yapıldı.",
-  tartisma:"■ KAYNAK NE KADARINI SÖYLÜYOR\nKatoliklerin Venediklilere yardım ettiği, okunan metinde yerli Rumların şikâyeti olarak geçer; metin bunu kendisi kanıtlanmış bir olgu diye sunmaz. Kalenin neden kolayca geri alındığı ve Venedik tarafının kayıpları da anlatılmaz.",
-  kesinlik:"kesin",
-  kaynak:"Ali Fuat Örenç, \"Sakız Adası\", TDV İslâm Ansiklopedisi, islamansiklopedisi.org.tr/sakiz-adasi",
-  ic_not:"KRONOLOJİ UYUŞMAZLIĞI: bağlama anahtarı 1695-02-09; TDV Osmanlı çıkarmasını 22 Şubat 1695 verir (9 Şubat'ın dayanağı bu turda görülmedi; takvim farkı olup olmadığı hakkında hüküm verilmedi). İkinci kaynak okunmadı. Yedek konudan (1646 yerine)." },
+  "kisa": "Sakinlerin büyük çoğunluğu Venedik filosuyla gitti. Geride kalan binaları ise bir Osmanlı defteri tek tek saydı.",
+  "metin": "6 Eylül 1669'da Venedik'in başkomutanı Francesco Morosini, Senato'dan önceden yetki almadan Kandiye'nin teslimi üzerinde anlaştı. Yaklaşık 25 yıl süren savaş böyle bitti.\n\n■ ANLAŞMA\nBiyografisini yazan Giuseppe Gullino'ya göre Morosini yetkisini aşmıştı. Ama askerlik bakımından çözülemeyen bir durumu da çözmüştü: Venedik için üç üs korundu, sanat hazineleri ve 1204'ten beri süren yönetimin arşivleri kurtarıldı.\n\n■ BOŞALAN ŞEHİR\nGiritli tarihçi Elias Kolovos'un anlatımıyla, teslimden sonra sakinlerin büyük çoğunluğu Venedik filosuyla şehirden ayrıldı. Kuşatan Osmanlı ordusu içeri girdi.\n\nFazıl Ahmed Paşa'nın emriyle hicrî 1080 (1669-70) yılında surların içi baştan kaydedildi. Bu defter bugün İstanbul'daki Osmanlı Arşivi'ndedir. Venedik şehrinin 55 mahallesini, kiliselerinden gelen eski adlarıyla sıralar; yapıları ve arsaları ölçüleriyle yazar, şehri terk eden eski sahiplerin adlarını da verir. Tersanede toplam on dört gemi gözü sayılmıştır.\n\n■ ADRESLER EL DEĞİŞTİRİYOR\nKatolik San Francesco manastırının kilisesi teslimden hemen sonra Sultan Mehmed Han'ın büyük camisine çevrildi. Dük Sarayı'na İbrahim Paşa yerleşti; sarayın üst katı 7 Aralık 1669'da açık artırmayla Hasan Ağa'ya 2400 kuruşa satıldı.\n\nPapa Da Rodo adlı birinin on iki odalı evine önce bir yeniçeri birliği yerleşti. Ev sonra 100 kuruşa, yeni caminin baş müezzini Mehmed Çelebi'ye satıldı.\n\n■ KALANLARDAN BİRİ\nHerkes gitmemişti. Şehirde kalan az sayıdaki Hristiyandan biri Nicolaki Castrofylaka'ydı. Defteri hazırlayan görevliye tercümanlık etti; defterdeki ev kaydına, sahibinin orada olduğu ve tercümanlık yaptığı not düşüldü.\n\nSatışlar sürdü. Defterin sonundaki 1672 tarihli buyruk, fetihten hemen sonra yazılan ev, dükkân ve bahçelerin ordu şehirdeyken isteyenlere artırmayla satıldığını bildirir. Ordu ayrıldıktan sonra da satış devam etti.\n\n■ VENEDİK'TE HESAP\nMorosini dönüşünde yargılandı; soruşturma 19 Eylül 1670'te açıldı. Yolsuzluktan itaatsizliğe uzanan suçlamalar patrisileri ikiye böldü. Büyük kasa açıkları ve işe karışan başka soylular ortaya çıktı. Senato sonunda sanıkları suçsuz ilan etti.\n\n■ KAYNAK NE KADARINI SÖYLÜYOR\nKolovos kendi yazısını defterin ön incelemesi diye tanıtır; defterin tam yayını o sırada hazırlanıyordu. Okunan iki metin teslim anlaşmasının maddelerini, şehrin nüfus sayısını ve ayrılanların nereye yerleştiğini vermiyor. Bu yüzden burada onlar üzerine hüküm yok.",
+  "kesinlik": "kesin",
+  "kaynak": "Elias Kolovos, \"An Ottoman Register of Venetian Candia\", Anna Valerio (ed.), Venetians and Ottomans in the Early Modern Age, Hilâl 6, Edizioni Ca' Foscari, 2018, s. 75-84, İngilizce, hakemli açık erişim, DOI 10.30687/978-88-6969-260-4/006, https://edizionicafoscari.it/media/pdf/books/978-88-6969-261-1/978-88-6969-261-1-ch-06.pdf · Giuseppe Gullino, \"Morosini, Francesco\", Dizionario Biografico degli Italiani c. 77 (2012), İtalyanca, https://www.treccani.it/enciclopedia/francesco-morosini_(Dizionario-Biografico)/",
+  "ic_not": "6 Eylül 1669 kronoloji maddesiyle uyuşuyor (Gullino). Kolovos teslimi yalnız '1669 sonbaharı' diye verir. Kolovos'taki '13 Hristiyan hane reisi' sayısı yalnız cizyenin en yüksek dilimine aittir; toplam nüfus sanılmasın diye karta alınmadı. Papa Da Rodo evinin satış tarihine bağlanan derkenar günü (17 Şaban 1080 / 10 Ocak 1670) metinde satışın mı notun mu günü olduğu açık olmadığı için yazılmadı. Oda sayısı: 9 zemin + 3 üst kat.",
+  "ic_not_erisim": "ONARIM (26.11.2026): TDV ya da aktarım dayanağı çıkarıldı; kart, engel aşmayan indirme aracıyla yeniden kaynaklandırıldı."
+},
+
+{
+  "id": "venedik-savas-sakiz-1694-1695",
+  "tur": "savas-hikayesi",
+  "teyit": "teyitli",
+  teyit_kapsam:"bolum",
+  "yayin_adayi": true,
+  "ic_not_teyit": "Tahir Sevinç'in makalesi (Türkçe, BOA belgelerine dayalı) baştan sona okundu. Katolik topluluk için Ambrosius Eszer'in makalesinin giriş bölümü (Almanca, s. 295-296) okundu; makalenin kalanı 1628-1639 yıllarını işler, karta girmez ve baştan sona okunmadı. Sevinç'in dipnotla gösterdiği Kantemir, Uzunçarşılı ve arşiv belgeleri ayrıca okunmadı; kartta makalenin kendi anlatısı olarak verildi.",
+  "devlet": "venedik",
+  "taraf": [
+    "venedik",
+    "osmanli"
+  ],
+  "baslik": "Sakız'ı sonbaharda alan Venedik adayı neden birkaç ay sonra yitirdi?",
+  "olay": [
+    "1695-02-09|Sakız"
+  ],
+  "kisa": "1694 sonbaharında kale anlaşmayla teslim alındı. Şubatta Osmanlı donanması geri döndü. Venedik giderken yalnız askerlerini götürmedi.",
+  "tarih_metin": "Eylül 1694 – Şubat 1695",
+  "yer": "Sakız Adası, Ege",
+  "taraflar": [
+    {
+      "ad": "Venedik; Papalık, Floransa ve Malta gemileriyle",
+      "komutan": "Kale Antonio Zeno'ya teslim edildi"
+    },
+    {
+      "ad": "Osmanlı",
+      "komutan": "Kalede Silâhdar Hasan Paşa; geri alışta serasker Mısırlızade İbrahim Paşa ve Mezamorto Hüseyin Paşa"
+    }
+  ],
+  "oncesi": "Ada 1346'dan 1566'ya kadar Cenevizlilerin elindeydi. 1566'da Piyale Paşa komutasındaki Osmanlı donanması adayı aldı. Konumu yüzünden Venedik'in gözü sonraki yıllarda da üzerinden ayrılmadı. 1681'de ise Garp Ocakları korsanlarının peşindeki bir Fransız filosu şehri topa tuttu; büyük yıkım ve can kaybı oldu.\n\n■ İÇERİDEKİ GERİLİM\nTarihçi Tahir Sevinç'e göre savaşın yükü altındaki devlet, adadaki Hristiyanlardan 1694 Eylülünde ikinci bir cizye topladı ve bu büyük tepki doğurdu. Makaleye göre ada Hristiyanları kaledeki leventlerin davranışlarından yakındı. Korumayı kendilerinin üstleneceğini söyleyip bir miktar da para vererek hükümeti üç bin leventi kaldırmaya ikna ettiler. Bir süre sonra da Venediklilere adada asker olmadığını bildirdiler.",
+  "akis": "■ KUŞATMA\nVenedik, Papalık, Floransa ve Malta gemilerinden oluşan 115 parçalık donanma, Osmanlı donanmasının kış için çekilmesini bekledi. Eylül 1694'te adaya 12.000 yaya ve 800 süvari çıkardı. Kaleyi 1370 askerle Silâhdar Hasan Paşa savunuyordu. Kaptanıderya Yusuf Paşa'dan istediği yardım gelmedi. Makaleye göre adanın yerli Hristiyanları da silahlanıp Osmanlı askerine arkadan saldırdı. Kaleye atılan beş yüzü aşkın top güllesi ve humbara evleri yıktı, yiyecekler yandı.\n\n■ TESLİM\nHasan Paşa kaleyi vire ile, yani anlaşmayla, Antonio Zeno'ya bıraktı. Paşa ve adadaki Müslümanlar Venedik gemileriyle Çeşme'ye taşındı.\n\n■ DENİZDEN GERİ DÖNÜŞ\nİstanbul yeni bir sefere girişti: top döküldü, barut, peksimet ve asker toplandı. 8 Şubat 1695'te Osmanlı kuvvetleri Foça önündeki adaları geçip Koyun Adaları yakınına geldi; ertesi gün Kayaburnu denen yerde demirledi. Bir süre sonra Venedik kalyonlarının yaklaştığı haberi geldi ve deniz çarpışmaları başladı. 18 Şubat'ta filolar yeniden vuruştu. Bu savaşta bir Osmanlı güllesi 55 toplu bir Venedik gemisinin cephanesine isabet etti; gemi havaya uçup battı.\n\n21 Şubat'ta Osmanlı donanması Sakız limanındaki Venedik filosuna yüklendi. Venedik gemileri kaçtı; kalede kalan 500 Venedik askeri esir alındı.",
+  "sonuc": "Dönüş sessiz olmadı. Dominiken tarihçisi Ambrosius Eszer'e göre Venedikliler Şubat 1695'te adayı yerli Katolik halkın büyük bir bölümüyle birlikte terk etti. Adadaki Katolik hayatı neredeyse tümüyle çöktü; Dominikenlerin kilisesi de başka kiliselerle birlikte camiye çevrildi.\n\nSevinç'e göre Hristiyan halkın bağ, bahçe gibi mülklerine el kondu; durumu elverişsiz olanlarınki kendilerine bırakıldı. El konan mülkler sonra Hristiyan halka 470 kese akçeye (235.000 kuruş) satıldı. Zafer kazanan Mezamorto Hüseyin Paşa kaptanıderyalığa yükseltildi.",
+  "tartisma": "■ NEDEN TUTUNAMADI\nSevinç, Osmanlı hazırlığının eksiksizliğine ve komutan seçimine dikkat çeker. Venedik'in aynı sırada Mora'da ve başka cephelerde de Osmanlılarla savaştığını, bu yüzden Sakız'a yeterince eğilemediğini de ekler.\n\n■ KAYNAKTAKİ PÜRÜZ\nTeslimin günü belirsiz. Makale kuşatmanın 9 Eylül'de başladığını ve Hasan Paşa'nın sekiz gün dayandığını yazar, ama teslim günü olarak 12 Ekim'i verir. İkisi birbirini tutmadığı için burada gün seçilmedi. Yerli Hristiyanların kuşatmadaki rolü de bu metinde Osmanlı tarafı üzerinden anlatılır; olayın o topluluklar içinden anlatımı okunmadı.",
+  "kesinlik": "tartismali",
+  "kaynak": "Tahir Sevinç, \"1695 Sakız Seferi'nde Organizasyon ve Lojistik\", SDÜ Fen-Edebiyat Fakültesi Sosyal Bilimler Dergisi, sayı 21 (Mayıs 2010), s. 59-79, Türkçe, https://dergipark.org.tr/tr/download/article-file/117923 · Ambrosius Eszer O.P., \"Ein Reformversuch im Dominikanerkonvent S. Sebastiano auf Chios (1628-1639)\", Archivum Fratrum Praedicatorum 46 (1976), s. 295-365 (kullanılan: s. 295-296), Almanca, https://heyjoe.fbk.eu/index.php/afp/article/download/12093/12094",
+  "ic_not": "KRONOLOJİ: bağlama anahtarı 1695-02-09. Sevinç 9 Şubat'ı (8 Şubat'ın ertesi günü) Kayaburnu'nda demirleme günü olarak verir; ilk çarpışma için gün vermez ('bir süre sonra'). Adanın geri alınışına ilişkin metindeki gün 21 Şubat'tır (özet: deniz savaşları 21-25 Şubat). Maddenin günü ve metni gözden geçirilmeli. Özet 8 Şubat'ta İzmir'den hareket der, metin aynı gün Foça önünden geçildiğini yazar. Teslim: '9 Eylül'de başlayan kuşatma, sekiz gün' ile '12 Ekim 1694' çelişir. Makaledeki 10.000'den fazla Venedik ölüsü sayısı alınmadı. İtalyanca ikinci anlatı arandı: 14. yüzyıldaki adaş Antonio Zeno'nun DBI maddesi başka kişi; unitesi.unive.it'teki bir Venedik yüksek lisans tezi 403 verdi (okunamadı).",
+  "ic_not_erisim": "ONARIM (26.11.2026): TDV ya da aktarım dayanağı çıkarıldı; kart, engel aşmayan indirme aracıyla yeniden kaynaklandırıldı."
+},
 
 { id:"venedik-kimdir-daniele-manin", teyit:"teyitli", yayin_adayi:true,
   ic_not_teyit:"DBI 'Manin, Daniele' (Gottardi) tam okundu; Manin'in söz ve sorgu alıntıları belge aktarımı olacağı için karta alınmadı.",

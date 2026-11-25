@@ -7,18 +7,26 @@
 // caterina-cornaro); bu dosya onlara dokunmaz.
 // ============================================================================
 window.KISI_VENEDIK = [
-  { id: "venedik-kisi-enrico-dandolo", devlet: "venedik", tur: "yabanci-hukumdar",
-  ic_not_erisim:"ERİŞİM NOTU (25.11.2026): Villehardouin sayfası ilk denemede 'bakımdayız' sayfası döndürdü; ardından web aktarım aracıyla okundu, sonra tarayıcıyı andıran User-Agent ile indirildi. Denetimde başlıksız tek istek 200 döndü. Kart zaten teyitsiz; yayından önce sayfa yeniden, kurala uygun okunmalı.",
-  teyit:"teyitsiz", yayin_adayi:false, ic_not_teyit:"Kartıyla aynı: Novgorod ve Andrea Dandolo rivayeti aktarım.",
-    ad: "Enrico Dandolo",
-    f: "1107", ic_not_f: "dolayı (DBI 'intorno al 1107'; Barker 'around 1107')",
-    t: "1205",
-    donem: "yaklaşık 1107–1205 (dogelik 1192–1205)",
-    dogum_yer: "Venedik",
-    not: "Yaklaşık 85 yaşında Venedik dogesi seçildi. Görme yetisini seçilmeden yıllar önce yitirmişti; onu tanıyan Villehardouin bunu başından aldığı bir yaraya bağlar. Dördüncü Haçlı Seferi'nde Venedik filosunun başında İstanbul'a gitti. 1205'te hastalanıp öldü ve Ayasofya'ya gömüldü.",
-    tartisma: "Bir Bizans imparatorunun onu kör ettirdiği rivayeti Novgorod anlatısında ve XIV. yüzyıl Venedik vakanüvisliğinde görülür; kanıtlanmış değildir. Dördüncü Haçlı Seferi'nin İstanbul'a dönmesindeki payı da tarihçiler arasında tartışmalıdır.",
-    tarihciler: "Giorgio Cracco belgelere dayanarak 1172'de kör edildiği haberini reddeder ve görme kaybını 1178 ile 1183 arasına koyar; nedeni bilinmiyor.",
-    kaynak: "G. Cracco, \"Dandolo, Enrico\", Dizionario Biografico degli Italiani c. 32 (1986) · Villehardouin, İng. çev. F. T. Marzials (1908) · J. W. Barker, The Medieval Review 04.08.03 (2004)" },
+  {
+  "id": "venedik-kisi-enrico-dandolo",
+  "devlet": "venedik",
+  "tur": "yabanci-hukumdar",
+  "teyit": "teyitli",
+  teyit_kapsam:"bolum",
+  "yayin_adayi": true,
+  "ic_not_teyit": "Kartıyla aynı: Cracco ve Pozza tam; Villehardouin ve Brzozowska'dan ilgili bölümler.",
+  "ad": "Enrico Dandolo",
+  "f": 1107,
+  "ic_not_f": "dolayı (Cracco: 'intorno al 1107')",
+  "t": 1205,
+  "donem": "yaklaşık 1107–1205 (dogelik 1192–1205)",
+  "dogum_yer": "Venedik",
+  "not": "85 yaşında Venedik dogesi seçildi. Biyografisine göre görme yetisini seçilmeden yıllar önce yitirmişti; onu tanıyan Villehardouin bunu başından aldığı bir yaraya bağlar. Dördüncü Haçlı Seferi'nde Venedik filosuyla İstanbul'a gitti. 1205'te öldü ve Ayasofya'ya gömüldü.",
+  "tartisma": "Bir Bizans imparatorunun onu kör ettirdiği rivayeti Novgorod anlatısında yer alır; kanıtlanmış değildir. Dördüncü Haçlı Seferi'nin yönünde tek başına ne kadar payı olduğu da tartışmalıdır.",
+  "tarihciler": "Giorgio Cracco belgelere dayanarak 1172'de kör edildiği haberini reddeder ve görme kaybını 1178 ile 1183 arasına koyar; nedeni bilinmiyor.",
+  "kaynak": "Giorgio Cracco, \"Dandolo, Enrico\", Dizionario Biografico degli Italiani c. 32 (1986), İtalyanca, https://www.treccani.it/enciclopedia/enrico-dandolo_(Dizionario-Biografico)/ · Geoffroy de Villehardouin, Memoirs or Chronicle of the Fourth Crusade and the Conquest of Constantinople, İng. çev. F. T. Marzials (1908), İngilizce, https://sourcebooks.web.fordham.edu/basis/villehardouin.asp · Zofia A. Brzozowska, İstanbul'un 1204'te alınışını anlatan Novgorod anlatısının Lehçe çevirisi ve notları, Slavia Antiqua (2016), s. 128-130, Lehçe, https://pressto.amu.edu.pl/index.php/sla/article/download/11135/10692/21645 · Marco Pozza, \"Michiel, Vitale\", Dizionario Biografico degli Italiani c. 74 (2010), İtalyanca, https://www.treccani.it/enciclopedia/vitale-michiel_(Dizionario-Biografico)/",
+  "ic_not_erisim": "ONARIM (26.11.2026): TDV ya da aktarım dayanağı çıkarıldı; kart, engel aşmayan indirme aracıyla yeniden kaynaklandırıldı."
+},
 
   {
   "id": "venedik-kisi-caterina-cornaro",

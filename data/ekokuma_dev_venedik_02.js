@@ -35,26 +35,24 @@ window.EKOKUMA_DEVVENEDIK02 = [
   ic_not:"Sefer yılı: madde 1000 der, bazı kaynakların 998 verdiğini de belirtir. Atlas anahtarı 1000-01-01; kaynakta yola çıkış göğe yükseliş yortusu (gün sayıyla verilmez), dönüş Temmuz. Hırvat kralı adları maddenin yazımıyla (Svetislavo, Cresimiro 'Surigna') Türkçeleştirildi." },
 
 // 2
-{ id:"venedik-tartisma-serrata", tur:"tartisma",
-  teyit:"teyitsiz", yayin_adayi:false, ic_not_teyit:"Caravale bölümü çok uzun; TAMAMI okunmadı. Kesintisiz okunan kısımlar: giriş ('I miti di Venezia'), 'La cittadinanza' bölümünün tamamı ve Onlar Konseyi'ne ilişkin paragraflar. Ayrıca karttaki tarih yazımı özeti ('yakın dönem araştırmaları') Caravale'nin okunmamış eserlerden aktarımıdır. Gradenigo maddesi tam okundu.",
-  baslik:"Venedik'in Büyük Konseyi gerçekten bir günde mi kapandı?",
-  olay:["1297-02-28|Serrata"],
-  kisa:"28 Şubat 1297 çoğu zaman Venedik aristokrasisinin kapıyı kilitlediği gün diye anılır. Kapı o gün yeni bir kurala bağlandı; hikâyenin öncesi de sonrası da uzundu.",
-  metin:"\"Serrata\", İtalyancada kapatma demek. Venedik tarihinde bu ad, Büyük Konsey'e kimlerin girebileceğini yeniden belirleyen 1297 düzenlemesine verilir.\n\n" +
-    "■ ÖNCESİ\n" +
-    "Meclise giriş daha XIII. yüzyıl başında kurala bağlanmıştı: adayları küçük bir kurul belirliyor, Kırklar Meclisi onaylıyordu. 1286 Ekiminde üyeliği, baba tarafından atası mecliste bulunmuş olanlara ayırmayı öneren bir tasarı reddedildi; birkaç gün sonraki ikinci öneri de geçmedi.\n\n" +
-    "■ 28 ŞUBAT 1297\n" +
-    "O gün kabul edilen karara göre üç grup meclise girebilecekti: son dört yılda üye olanlar; 1172'den itibaren meşru bir atası üyelik yapmış olanlar; daha önce üye olup son dört yılda devlet görevi yüzünden şehir dışında kaldığı için meclise girememiş olanlar. Düzenleme deneme niteliğinde ve geçici olarak getirildi, hemen uzatıldı ve Eylül 1299'da kalıcılaştı.\n\n" +
-    "■ KAPIDA BIRAKILAN ARALIK\n" +
-    "Kapı büsbütün örülmedi. Şartları taşımayanlar için sınırlı istisna yolu açık kaldı ve 1297-1299 arasında bunun kuralları konuldu. Sonraki yıllarda gereken oy sayıları yükseltildi; 1315'te Büyük Konsey'de üçte iki çoğunluk istendi.\n\n" +
-    "Uygulama da kolay olmadı. 1310'da hak sahipleri için bir sicil tutulmasına karar verildi; üyeler yirmi beş yaşında meclise girecekti. Hakkı olmayanların sicile sızması yüzünden 1316 ve 1319'da yeni önlemler alındı. 1379 Aralığında, Cenova savaşının ortasında, otuz halktan ailenin kabul edilmesine karar verildi; 1381'de elli dokuz aile başvurdu, otuzu seçildi.\n\n" +
-    "■ SİYASETTEKİ YANKI\n" +
-    "Doge Pietro Gradenigo'nun biyografisine göre çağdaşları reformu en çok ona mal etti. Bu biyografi, amacın yeni yükselenleri ve halk kesimini iktidardan uzak tutmak olduğunu savunur; dışlananların tepkisi de gecikmedi.\n\n" +
-    "■ TARİHÇİLER BUGÜN NE DİYOR\n" +
-    "Tarihçi Mario Caravale'nin aktardığına göre yakın dönem araştırmaları 1297 kararının ağırlığını azalttı. Bir görüşe göre bu, zaten oluşmuş bir durumu kâğıda geçiren teknik bir reformdu. Bir başka görüşe göre 1381'e uzanan kararlar zincirinin yalnızca ilk halkasıydı. Caravale ise kararın hukuk bakımından açıkça yeni bir şey getirdiğini savunur: yurttaşlar arasında ilk kez, en büyük meclise girme hakkıyla tanımlanan ayrı bir zümre yaratmıştı; sonraki kurallar bu zümreye girişin yolunu düzenledi. Yani \"bir günde\" sorusunun cevabı neye bakıldığına bağlı: hukukî çizgi bir günde çekildi, o çizginin içinde kimlerin kaldığı onlarca yılda netleşti.",
-  kesinlik:"tartismali",
-  kaynak:"Mario Caravale, \"Le istituzioni della Repubblica\", Storia di Venezia (Treccani, 1997), 'I miti di Venezia' ve 'La cittadinanza' bölümleri, treccani.it/enciclopedia/le-istituzioni-della-repubblica_(Storia-di-Venezia)/ · Franco Rossi, \"Gradenigo, Pietro\", Dizionario Biografico degli Italiani c. 58 (2002), treccani.it/enciclopedia/pietro-gradenigo_(Dizionario-Biografico)/",
-  ic_not:"Caravale bölümünün tamamı okunmadı (borç). Son cümledeki 'hukukî çizgi bir günde, kapsam onlarca yılda' özeti Caravale'nin savından yazarın sonucudur. Kaynak ayrışması: Guido Ruggiero, \"Politica e giustizia\" (Storia di Venezia, 1997; yalnız Serrata paragrafı çevresi okundu, karta dayanak yapılmadı) özgün Serrata yasa metninin korunmadığını, 1297-1298'de bir dizi yasa çıktığını yazar; Caravale 28 Şubat kararının içeriğini aktarır. Gün 28 Şubat 1297 Caravale'de aynen; takvim üslubu (Venedik yılbaşı) kaynakta tartışılmıyor." },
+{
+  "id": "venedik-tartisma-serrata",
+  "tur": "tartisma",
+  "teyit": "teyitli",
+  teyit_kapsam:"bolum",
+  "yayin_adayi": true,
+  "ic_not_teyit": "Mario Caravale'nin bölümünde (İtalyanca) 'La cittadinanza' alt başlığı baştan sona ve 'I miti di Venezia' alt başlığının Serrata'ya ve yeni araştırmalara ayrılan bölümü kesintisiz okundu; kitap uzunluğundaki bölümün tamamı okunmadı. Franco Rossi'nin Pietro Gradenigo maddesi baştan sona okundu. Caravale'nin başka araştırmalardan aktardığı yorumlar karta alınmadı; kalanlar kendi anlatısı ve savıdır.",
+  "baslik": "Venedik'in Büyük Konseyi gerçekten bir günde mi kapandı?",
+  "olay": [
+    "1297-02-28|Serrata"
+  ],
+  "kisa": "28 Şubat 1297 çoğu zaman Venedik aristokrasisinin kapıyı kilitlediği gün diye anılır. Kapı o gün yeni bir kurala bağlandı; hikâyenin öncesi de sonrası da uzundu.",
+  "metin": "\"Serrata\", İtalyancada kapatma demek. Venedik tarihinde bu ad, Büyük Konsey'e kimlerin girebileceğini yeniden belirleyen 1297 düzenlemesine verilir.\n\n■ ÖNCESİ\nMeclise giriş daha XIII. yüzyıl başında kurala bağlanmıştı: adayları küçük bir kurul belirliyor, Kırklar Meclisi onaylıyordu. 1286 Ekiminde üyeliği, baba tarafından atası mecliste bulunmuş olanlara ayırmayı öneren bir tasarı reddedildi; birkaç gün sonraki ikinci öneri de geçmedi.\n\n■ 28 ŞUBAT 1297\nO gün kabul edilen karara göre üç grup meclise girebilecekti: son dört yılda üye olanlar; 1172'den itibaren meşru bir atası üyelik yapmış olanlar; daha önce üye olup son dört yılda devlet görevi yüzünden şehir dışında kaldığı için meclise girememiş olanlar. Düzenleme deneme niteliğinde ve geçici olarak getirildi, hemen uzatıldı ve Eylül 1299'da kalıcılaştı.\n\n■ KAPIDA BIRAKILAN ARALIK\nKapı büsbütün örülmedi. Şartları taşımayanlar için sınırlı istisna yolu açık kaldı ve 1297-1299 arasında bunun kuralları konuldu. 1307'den sonra gereken onaylar ağırlaştırıldı; 1315'te Büyük Konsey'de üçte iki çoğunluk istendi.\n\nUygulama da kolay olmadı. 1310'da hak sahipleri için bir sicil tutulmasına karar verildi; üyeler yirmi beş yaşında meclise girecekti. Hakkı olmayanların sicile sızması yüzünden 1316 ve 1319'da yeni önlemler alındı. 1379 Aralığında, Cenova savaşının ortasında, otuz halktan ailenin kabul edilmesine karar verildi; 1381'de elli dokuz aile başvurdu, otuzu seçildi.\n\n■ SİYASETTEKİ YANKI\nDoge Pietro Gradenigo'nun biyografisine göre çağdaşları reformu en çok ona mal etti. Bu biyografi, amacın yeni yükselenleri ve halk kesimini iktidardan uzak tutmak olduğunu savunur; dışlananların tepkisi de gecikmedi.\n\n■ KAYNAK NE KADARINI SÖYLÜYOR\nTarihçi Mario Caravale'ye göre karar, birkaç yıldır fiilen oluşmuş bir siyasî durumu yansıtıyor ve daha önceki reform denemelerine bağlanıyordu. Yine de açıkça yeni bir şey getirdi: yurttaşlar arasında ilk kez, en büyük meclise girme hakkıyla tanımlanan ayrı bir hukukî zümre yarattı. Dışarıda kalanlar özgürlük ve mülkiyet haklarını korudu, ama bu meclise katılma hakkından yoksun kaldı. Caravale'ye göre 14. yüzyıldaki kurallar bu zümreyi var etmedi; ona girişin yolunu ve bileşimini düzenledi. Yani \"bir günde mi\" sorusunun cevabı neye bakıldığına bağlı: hukukî çizgi bir kararla çekildi, kimin hangi yoldan içeri alınacağı ise onlarca yıl boyunca yeniden yazıldı.",
+  "kesinlik": "tartismali",
+  "kaynak": "Mario Caravale, \"Le istituzioni della Repubblica\", Storia di Venezia (Treccani, 1997), 'I miti di Venezia' ve 'La cittadinanza' alt başlıkları, İtalyanca, https://www.treccani.it/enciclopedia/le-istituzioni-della-repubblica_(Storia-di-Venezia)/ · Franco Rossi, \"Gradenigo, Pietro\", Dizionario Biografico degli Italiani c. 58 (2002), İtalyanca, https://www.treccani.it/enciclopedia/pietro-gradenigo_(Dizionario-Biografico)/",
+  "ic_not": "Gün 28 Şubat 1297 Caravale'de aynen; takvim üslubu (Venedik yılbaşı) okunan bölümde tartışılmıyor. Son cümledeki 'hukukî çizgi bir kararla' özeti Caravale'nin savından yazarın sonucudur. 1300'de Kırklar Meclisi'nde gereken oy 12'den 11'e indirildiği için eski 'oy sayıları yükseltildi' cümlesi 1307 sonrasına daraltıldı. Yakın dönem araştırmalarının görüşleri (okunmadı) çıkarıldı.",
+  "ic_not_erisim": "ONARIM (26.11.2026): TDV ya da aktarım dayanağı çıkarıldı; kart, engel aşmayan indirme aracıyla yeniden kaynaklandırıldı."
+},
 
 // 3
 { id:"venedik-sebep-tiepolo-querini-onlar", tur:"sebep-sonuc",
@@ -121,7 +119,8 @@ window.EKOKUMA_DEVVENEDIK02 = [
 
 // 6
 { id:"venedik-karsi-girit-aziz-titus", tur:"karsi-anlati",
-  teyit:"teyitli", yayin_adayi:true, ic_not_teyit:"Magnani (Venier) maddesi tam okundu; Borsari bölümünün ana metni baştan sona okundu (dipnotlar dışında). Kronik alıntıları karta alınmadı.",
+  teyit:"teyitli", teyit_kapsam:"bolum",
+  yayin_adayi:true, ic_not_teyit:"Magnani (Venier) maddesi tam okundu; Borsari bölümünün ana metni baştan sona okundu (dipnotlar dışında). Kronik alıntıları karta alınmadı.",
   baslik:"Girit'te Venedik'e karşı ayaklananların başında Venedik soyluları da vardı",
   olay:["1363-08-09|Aziz Titus"],
   kisa:"1363'te Candia'da yeni bir bayrak yükseldi: Aziz Titus'unki. İsyanın başını yalnız Rum soylular değil, adaya yerleşmiş Venedikli aileler çekiyordu.",
@@ -189,6 +188,7 @@ window.EKOKUMA_DEVVENEDIK02 = [
   "id": "venedik-savas-gelibolu-1416",
   "tur": "savas-hikayesi",
   "teyit": "teyitli",
+  teyit_kapsam:"bolum",
   "yayin_adayi": true,
   "ic_not_teyit": "Bu turda okunanlar: Sait Emre Çiftçi'nin OTAM makalesi (Türkçe, tam); Giuseppe Gullino, 'Loredan, Pietro' (Dizionario Biografico, İtalyanca) ve aynı yazarın 'Le frontiere navali' çalışmasının Gelibolu'yu anlatan alt bölümü (bölümün tamamı değil). Gullino'nun Manfroni'den ve Çiftçi'nin Dukas, Sanudo ile Loredan raporundan aktardığı sayılar, sözler ve manevra ayrıntıları karta alınmadı.",
   "baslik": "Osmanlı'nın genç donanması Gelibolu'da Venedik'le karşılaşınca",
@@ -228,6 +228,7 @@ window.EKOKUMA_DEVVENEDIK02 = [
   "id": "venedik-magazin-gentile-bellini",
   "tur": "magazin",
   "teyit": "teyitli",
+  teyit_kapsam:"bolum",
   "yayin_adayi": true,
   "ic_not_teyit": "Ursula Schmitt'in Bellini maddesi (Dizionario Biografico degli Italiani, İtalyanca) bu turda baştan sona okundu; 1479 barışı için Dizionario Biografico 'Mocenigo, Giovanni' maddesinin ilgili cümlesi ve çevresi okundu. Angiolello, Vasari ve Babinger'e dayanan anlatılar karta alınmadı.",
   "baslik": "Savaş bitince Venedik, Fatih'e ressamını gönderdi",
@@ -247,6 +248,7 @@ window.EKOKUMA_DEVVENEDIK02 = [
   "id": "venedik-tartisma-preveze-1538",
   "tur": "tartisma",
   "teyit": "teyitli",
+  teyit_kapsam:"bolum",
   "yayin_adayi": true,
   "ic_not_teyit": "Bu turda okunanlar: Zoltán Korpás'ın hakemli makalesi (Tarih Dergisi 76, İngilizce, tam metin); Giuseppe Gullino, 'Le frontiere navali' (Storia di Venezia, İtalyanca) 'Venezia contro Solimano / La battaglia della Prevesa' ve 'La conclusione della guerra' alt bölümleri ile ilgili dipnotlar (bölümün tamamı değil); Achille Olivieri, Dizionario Biografico 'Cappello, Vincenzo' (tam). Korpás'ın adıyla başka tarihçilere atfettiği yorum ve rakamlar karta alınmadı.",
   "baslik": "Preveze 1538: kalabalık müttefik donanmanın içinde neler oluyordu?",
@@ -352,24 +354,24 @@ window.EKOKUMA_DEVVENEDIK02 = [
   ic_not:"17 Nisan 1606 kronoloji maddesiyle uyumlu (Cozzi + Preto: çift teyit). Anlaşma günü 21 Nisan 1607 (Cozzi, Preto); Barzazi yalnız 'Nisan 1607'. 6 Mayıs protesto günü yalnız Barzazi'den. Saldırı günü: Preto 5 Ekim 1607; Barzazi 'ekim'. Tarih yazımı görüşleri Barzazi'nin kendi literatür değerlendirmesidir; anılan eserler okunmadı, kartta ad verilmedi. OKUNMADI: Sarpi, Istoria dell'Interdetto." },
 
 // 6 1618
-{ id:"venedik-karsi-1618-ispanya-tertibi", tur:"karsi-anlati",
-  teyit:"teyitsiz", yayin_adayi:false, ic_not_teyit:"Preto bölümü ham tam metinden okundu; olay anlatısı Preto'nun kendisinindir. Giorgio Spini'nin sonucu (ve Luzio, Romanin görüşleri) Preto aktarımıdır; eserler okunmadı. DBI Priuli de okundu.",
-  baslik:"1618 \"İspanya tertibi\": Venedik gerçekten bir darbenin eşiğinden mi döndü?",
-  olay:["1618-05-18|İspanya tertibi"],
-  kisa:"Anlatıya göre İspanyol elçisi, paralı askerlerle şehri ele geçirmeyi planlıyordu. Birkaç kişi öldürüldü, elçi gönderildi. Tartışma ise o günden beri bitmedi.",
-  metin:"1618'de Venedik'te bir haber yayıldı: İspanyol elçisi Bedmar markisi, Napoli'deki İspanyol genel valisi Osuna dükü ile birlikte cumhuriyete karşı darbe hazırlıyordu.\n\n" +
-    "■ KORKUNUN ZEMİNİ\n" +
-    "Tarihçi Paolo Preto olayı yıllardır biriken bir korkunun içine yerleştirir. 1606-1607 papalık kriziyle bölünen soylular, İspanya yanlısı kanada duyulan kuşku, İspanyol casus ağı ve Venedik gizli servislerinin karşı çalışması gerilimi büyütmüştü. 1615-1617'de arşidüklerle savaşılırken iki cepheden vurulma kaygısı da arttı.\n\n" +
-    "■ MAYIS GÜNLERİ\n" +
-    "Merkezde Fransız korsan Jacques Pierre vardı. Osuna'nın hizmetinden ayrılıp Venedik'e geçti ve eski efendisinin planlarını ele vererek donanmada iş buldu. Öte yandan Osuna'ya ve Bedmar'a, Lido'daki Hollandalı askerlerin ayaklandırılmasına ve şehrin kilit noktalarına saldırıya dayanan, Preto'nun hayalî ve serüvenci bulduğu planlar sundu. İki muhbirin ihbarı, Pierre'den zaten kuşkulanan devlet sorgucularının harekete geçmesini sağladı. Pierre denizde boğduruldu; bazı suç ortakları hapiste boğdurulup San Marco'nun iki sütunu arasında darağacına asıldı. Venedik, Madrid'de yürüttüğü diplomasiyle Bedmar'ın geri çekilmesini sağladı.\n\n" +
-    "■ KAÇ KİŞİ ÖLDÜ\n" +
-    "Preto'ya göre Bedmar'ın, Fransız elçisinin ve sonradan oluşan efsanenin söylediği \"yüzlerce kurban\" abartıdır; öldürülenler az sayıdaydı. Halkın korkusu ise gerçekti. Şehirde nöbet tutuldu, yabancılar izlendi. 3 Kasım'da birkaç \"İspanyollar!\" bağırışı meydanda kargaşaya ve kaçışmaya yetti.\n\n" +
-    "■ TARİHÇİLER BUGÜN NE DİYOR\n" +
-    "Daha o günlerde iki karşıt görüş doğdu: Venedikliler tertibin gerçek olduğunu savunurken Bedmar, Fransız elçisi ve bazı yabancı gözlemciler her sorumluluğu reddetti. Sonraki yüzyıllarda kimi tarihçi darbenin gerçek, kimi uydurma, kimi de abartılmış olduğunu savundu. Preto, Giorgio Spini'nin İspanyol arşivlerindeki araştırmasının tartışmayı belki sonuca bağladığını yazar. Onun aktardığına göre Spini, eylem aşamasına geçildiğine dair iz bulmaz; Bedmar'ın Pierre'in girişimlerine katılımını belirsiz sayar ve gerçek anlamda bir \"İspanyol tertibi\"nden söz edilemeyeceğini düşünür. Yine de olayın, Pierre ile arkadaşlarının böbürlenmelerinde ve Venedik'in köklü korkusunda var olduğunu vurgular.\n\n" +
-    "Preto'nun kendi anlatımında ise Bedmar ile Osuna'nın Pierre'in planını bir ölçüde desteklemiş, ama başarı için gereken İspanyol filosunu devreye sokmadan Venedik'e ders vermek istemiş olmaları olasıdır. Yani \"hiçbir şey yoktu\" demek de, kusursuz bir darbe planı anlatmak da kanıtın önüne geçer.",
-  kesinlik:"tartismali",
-  kaynak:"Paolo Preto, \"Le paure della società veneziana: le calamità, le sconfitte, i nemici esterni ed interni\", Storia di Venezia (Treccani, 1994), treccani.it/enciclopedia/le-paure-della-societa-veneziana-le-calamita-le-sconfitte-i-nemici-esterni-ed-interni_(Storia-di-Venezia)/ · Giuseppe Trebbi, \"Priuli, Antonio\", Dizionario Biografico degli Italiani c. 85 (2016), treccani.it/enciclopedia/antonio-priuli_(Dizionario-Biografico)/",
-  ic_not:"Kronoloji maddesi 1618-05-18: Preto 'olayların 12-18 Mayıs 1618 arasındaki yedi günde' geliştiğini yazar; tek bir bastırma günü vermez. Preto'nun kendi 'olasıdır' yargısı ile Spini'den aktardığı sonuç aynı ağırlıkta değil; ikisi de verildi. OKUNMADI: Spini 1949/1950; Luzio 1918; Romanin VII; Preto, I servizi segreti (1994) ve Persée'deki 1996 makalesi." },
+{
+  "id": "venedik-karsi-1618-ispanya-tertibi",
+  "tur": "karsi-anlati",
+  "teyit": "teyitli",
+  teyit_kapsam:"bolum",
+  "yayin_adayi": true,
+  "ic_not_teyit": "Paolo Preto'nun bölümünde (İtalyanca) 1600'lerin başındaki 'büyük korku' alt başlığından bölümün sonuna kadar kesintisiz okundu; doğal afetlere ve daha eski korkulara ayrılan önceki alt başlıklar okunmadı. Preto'nun Spini'den, Luzio'dan ve öteki tarihçilerden aktardığı yargılar karta alınmadı; kalanlar Preto'nun kendi anlatısı ve değerlendirmesidir.",
+  "baslik": "1618 \"İspanya tertibi\": Venedik gerçekten bir darbenin eşiğinden mi döndü?",
+  "olay": [
+    "1618-05-18|İspanya tertibi"
+  ],
+  "kisa": "Anlatıya göre İspanyol elçisi, paralı askerlerle şehri ele geçirmeyi planlıyordu. Bazıları öldürüldü, elçi geri çekildi. Tartışma ise o günlerde başladı.",
+  "metin": "1618'de Venedik'te bir korku doruğa çıktı: İspanyol elçisi Bedmar markisi cumhuriyete karşı bir darbenin içindeydi. Napoli'deki İspanyol genel valisi Osuna dükünün adı da işe karışıyordu.\n\n■ KORKUNUN ZEMİNİ\nTarihçi Paolo Preto olayı yıllardır biriken bir korkunun içine yerleştirir. 1606-1607'de papalıkla yaşanan kriz yönetici sınıfı bölmüş, İspanya yanlısı soylulara kuşkuyla bakılmaya başlanmıştı. İspanyol elçiliğinin bilgi toplamak için soylulara para dağıttığını elçinin Madrid'le yazışması da doğruluyordu. Venedik gizli servisleri de boş durmuyordu. 1615-1617'de arşidüklerle savaşılırken iki cepheden vurulma kaygısı arttı. 1617 yazında denizde görülen birkaç tekne İspanyol filosu sanılınca Büyük Konsey paniğe kapıldı.\n\n■ MAYIS GÜNLERİ\nMerkezde Fransız korsan Jacques Pierre vardı. Osuna'nın hizmetinden ayrılıp Venedik'e geçti ve eski efendisinin Venedik karşıtı tasarıları hakkında bilgi vererek, bazı soyluların kuşkularına rağmen cumhuriyetin donanmasında iş buldu. Öte yandan Osuna'ya ve Bedmar'a bir baskın planı sundu: Lido'daki Hollandalı askerler ayaklanacak, şehrin kilit noktaları ve dük sarayı ele geçirilecek, Milano yönünden de İspanyol askeri destek verecekti. Preto bu planları serüvenci ve hayalî bulur.\n\nİki suç ortağının ihbarı, Pierre'den zaten kuşkulanan devlet sorgucularının hızla harekete geçmesini sağladı. Pierre doğrudan denizde boğuldu. Başka suç ortakları hapiste boğduruldu ve San Marco'nun iki sütunu arasındaki darağaçlarına ayaklarından asıldı. Venedik, Madrid'de yürüttüğü sert diplomasiyle Bedmar'ın geri çekilmesini sağladı, sonra meseleyi küçültmeye baktı.\n\n■ KAÇ KİŞİ ÖLDÜ\nPreto'ya göre Bedmar'ın ve Fransız elçisinin ilgili iddiaları ile sonradan oluşan efsane kurbanları yüzlere çıkardı; gerçekte öldürülenler az sayıdaydı. Halkın korkusu ise gerçekti. Dört bir yana nöbetçiler yerleştirildi, yabancılar gözetlendi. 3 Kasım'da birkaç \"İspanyollar!\" bağırışı halkı kaçırmaya ve meydanda kargaşa çıkarmaya yetti. O ayın 20'sinde dük sarayı, darphane ve saat kulesi hâlâ gece gündüz korunuyordu. Floransa elçisi, halk arasında \"Eyvah, İspanyollar gelecek!\" sözünün dolaşmaya başladığını yazdı.\n\n■ TARİHÇİLER BUGÜN NE DİYOR\nPreto'ya göre tartışma daha olayın yaşandığı günlerde başladı: Venedikliler tertibin gerçek olduğunu savundu; Bedmar, Fransız elçisi ve birçok yabancı gözlemci her sorumluluğu reddetti. Kavga o günden bugüne sürdü, çoğu zaman da ulusal kırgınlıkların ya da hazır tarih mitlerinin hizmetine girdi. Tehlikenin ne kadar ciddi olduğunu Preto bugün bile ölçmenin güç olduğunu yazar.\n\nKendi tahmini şöyledir: Bedmar ile Osuna, Pierre'in planını bir ölçüde desteklemiş olabilir. Ama başarı için gereken İspanyol filosunu devreye sokmadan, her durumda Venedik'e bir ders vermek istemiş olmaları olasıdır. Yani \"hiçbir şey yoktu\" demek de, kusursuz bir darbe planı anlatmak da kanıtın önüne geçer.",
+  "kesinlik": "tartismali",
+  "kaynak": "Paolo Preto, \"Le paure della società veneziana: le calamità, le sconfitte, i nemici esterni ed interni\", Storia di Venezia (Treccani, 1994), İtalyanca, https://www.treccani.it/enciclopedia/le-paure-della-societa-veneziana-le-calamita-le-sconfitte-i-nemici-esterni-ed-interni_(Storia-di-Venezia)/",
+  "ic_not": "Kronoloji maddesi 1618-05-18: Preto olayların 12-18 Mayıs 1618 arasındaki yedi günde geliştiğini yazar; tek bir bastırma günü vermez. İki suç ortağı metinde Baldassare Juven ve Moncassin'dir. 'Son cümle' Preto'nun 'olasıdır' yargısından yazarın sonucudur. Spini, Luzio, Romanin ve öteki tarihçilerin görüşleri (eserleri okunmadı) çıkarıldı. İspanyolca karşı taraf yazını bu turda aranmadı.",
+  "ic_not_erisim": "ONARIM (26.11.2026): TDV ya da aktarım dayanağı çıkarıldı; kart, engel aşmayan indirme aracıyla yeniden kaynaklandırıldı."
+},
 
 // 7 Morosini
 { id:"venedik-kimdir-francesco-morosini", tur:"kimdir",
@@ -399,6 +401,7 @@ window.EKOKUMA_DEVVENEDIK02 = [
   "id": "venedik-savas-korfu-1716",
   "tur": "savas-hikayesi",
   "teyit": "teyitli",
+  teyit_kapsam:"bolum",
   "yayin_adayi": true,
   "ic_not_teyit": "Bu turda okunanlar: Emirhan Özçelik'in makalesinin (Türkçe) Korfu kuşatması bölümü ile sonuç değerlendirmesi; Guido Almagià, 'Pisani, Andrea' (İtalyanca, tam); Dionysios Hatzopoulos'un makalesinin (İngilizce; önceki turda indirilen metin) özeti, 1715-1717 anlatısını içeren s. 316-321 ve s. 334. Uzun makalelerin tamamı bu turda okunmadı. Yazarların vakanüvis ve arşivden doğrudan verdiği sözler ve gemi sayıları karta alınmadı.",
   "devlet": "venedik",
@@ -434,23 +437,23 @@ window.EKOKUMA_DEVVENEDIK02 = [
 },
 
 // 9 Angelo Emo
-{ id:"venedik-teknik-angelo-emo-tunus", tur:"teknik-bilimsel",
-  teyit:"teyitsiz", yayin_adayi:false, ic_not_teyit:"Aktarım: zehirlenme iddiasının çürütülmesi okunmamış Zorzi çalışmasına, XIX. yüzyıl tarihçilerine ilişkin cümle okunmamış eserlere dayanır. DBI Angelo Emo, 1731 doğumlu (Preto, 1993) ham tam metinden; bütün olgular maddenin kendi anlatısı.",
-  baslik:"Bakır kaplı tekneler, yüzen bataryalar: Angelo Emo Venedik donanmasını diriltebildi mi?",
-  olay:["1784-05-01|Emo"],
-  kisa:"Gerilemiş bir tersaneyi yenilemeye çalışan bir komutan, ardından Tunus kıyılarında yıllar süren bombardımanlar. Efsane ise ölümünden sonra büyüdü.",
-  metin:"Angelo Emo 3 Ocak 1731'de Venedik'te doğdu. 1750'lerde donanmada görev aldı. 1758'de Cebelitarık'ın ötesine, tüccar gemilerini toplayıp getirmek için gönderildiğinde iki ay süren bir fırtınaya yakalandı ve denizciliğiyle dikkat çekti. Lagünün yeni bir haritasını da hazırlattı. 1767-1768'de güç gösterisiyle Cezayir beyini barışı onaylamaya zorladı; 1778'de Trablus önünde benzer bir baskıyla yeni görüşmeler sağladı.\n\n" +
-    "■ TERSANEDE REFORM\n" +
-    "1782-1784 arasında tersanenin müfettişiydi. Bir zamanlar cumhuriyetin gururu olan kurum derin bir gerileme içindeydi. Emo Fransa ve İngiltere'den yeni savaş gemisi modelleri getirtti. Tekne altlarına bakır kaplama uygulattı: bu, hem hızı artırıyor hem de gövdeyi rutubetten koruyordu. Halat ve donanım üretimini iyileştirdi; soylu olmayan subayların maaşlarını yükseltti.\n\n" +
-    "■ TUNUS SAVAŞI\n" +
-    "Savaşın çıkış nedeni dolambaçlıydı. Malta yönetimi, veba bulaşmış Kuzey Afrika malları taşıyan bir Venedik gemisini yakmış, Tunus da cumhuriyete savaş açmıştı. 6 Mart 1784'te Emo, Tunus'a gönderilen filonun olağanüstü komutanı yapıldı. Aynı yılın 5 Ekim'inde Susa'ya saldırdı; sonraki iki yıl boyunca Susa, Sfaks, La Goulette ve Bizerta defalarca vuruldu. La Goulette bombardımanında kendi icadı olan ünlü yüzen bataryaları da kullandı. Susa'ya yapılan saldırılar limana ve evlere ağır zarar verdi.\n\n" +
-    "■ NASIL BİR BARIŞ\n" +
-    "İki yıllık bombardımandan sonra Tunus beyi uzlaşma barışına razı oldu: Venedik gemileriyle giren çıkan mallardaki vergi yüzde 7'den yüzde 4'e indi. Buna karşılık cumhuriyet 40.000 zekinlik bir bağış ödemeyi kabul etti. Sonra bey düşmanlıklara yeniden başladı ve filoya yeni misillemeler emredildi. Emo geri kalan gemileri beklemeyi planladığı Malta'ya vardığında kısa bir hastalıkla 1 Mart 1792'de öldü. 17 Nisan'da San Marco'da cenaze töreni yapıldı; Antonio Canova onun için bir anıt yaptı.\n\n" +
-    "■ TARİHÇİLER BUGÜN NE DİYOR\n" +
-    "Biyografisini yazan Paolo Preto'ya göre bazı 19. yüzyıl tarihçileri, Venedik efsanesi yaratma isteğiyle bu seferlere destansı bir hava verdi; Emo için \"cumhuriyetin son kahramanı\" imgesi böyle güçlendi. Ölümüne dair zehirlenme iddiası da dolaştı: onun yerine geçmek isteyen bir amiralin buyruğuyla zehirlendiği ileri sürülmüştü. Preto bu iddianın yakın dönemde Alvise Zorzi tarafından ikna edici gerekçelerle çürütüldüğünü yazar. Seferlerin yarattığı büyük yankı ve ölümüne duyulan üzüntü ise kaynaklarda açıkça görülür.",
-  kesinlik:"kesin",
-  kaynak:"Paolo Preto, \"Emo, Angelo\", Dizionario Biografico degli Italiani c. 42 (1993), treccani.it/enciclopedia/angelo-emo_res-b26e58d3-87ec-11dc-8e9d-0016357eee51_(Dizionario-Biografico)/",
-  ic_not:"Kronoloji maddesi 1784-05-01: kaynakta atama 6 Mart 1784, ilk Susa saldırısı 5 Ekim; mayıs günü yok. Aynı ciltte 1666 doğumlu adaş Angelo Emo maddesi var, karıştırılmamalı. 'Donanmanın son seferi' ifadesi kaynakta yok, başlığa alınmadı. Zorzi 1962 okunmadı; çürütme Preto'nun değerlendirmesi olarak aktarıldı. Barışın tarihi verilmiyor." },
+{
+  "id": "venedik-teknik-angelo-emo-tunus",
+  "tur": "teknik-bilimsel",
+  "teyit": "teyitli",
+  "yayin_adayi": true,
+  "ic_not_teyit": "Paolo Preto'nun Angelo Emo (1731 doğumlu) maddesi (DBI, İtalyanca) baştan sona okundu; karttaki olgular maddenin kendi anlatısıdır. Maddenin başka tarihçilerden aktardığı yargılar (19. yüzyıl yazarları, zehirlenme iddiası ve çürütülmesi) karta alınmadı.",
+  "baslik": "Bakır kaplı tekneler, yüzen bataryalar: Angelo Emo Venedik donanmasını diriltebildi mi?",
+  "olay": [
+    "1784-05-01|Emo"
+  ],
+  "kisa": "Gerilemiş bir tersaneyi yenilemeye çalışan bir komutan, ardından Tunus kıyılarında iki yılı aşan bombardımanlar. Sonunda gelen barışın bir bedeli de vardı.",
+  "metin": "Angelo Emo 3 Ocak 1731'de Venedik'te doğdu. 1752'de donanmada görev aldı. 1758'de Cebelitarık'ın ötesine, tüccar gemilerini toplayıp getirmek ve Portekiz'le ticaret görüşmeleri yapmak için gönderildiğinde iki ay süren bir fırtınaya yakalandı; denizciliği ve komutanlığı bu sınavda ortaya çıktı. 1761-1762'de lagünün yeni bir haritasını hazırlattı. 1767-1768'de güç gösterisiyle Cezayir beyini barışı onaylamaya zorladı; 1778'de Trablus önünde benzer bir gösteriyle yeni barış görüşmeleri sağladı.\n\n■ TERSANEDE REFORM\n1782-1784 arasında tersaneyi denetlemekle görevliydi. Bir zamanlar cumhuriyetin gururu olan kurum derin bir gerileme içindeydi. Emo Fransa ve İngiltere'den yeni savaş gemisi modelleri getirtti. Tekne altlarına bakır kaplama uygulattı: bu, hem hızı artırıyor hem de gövdeyi rutubetten koruyordu. Halat ve donanım üretimini iyileştirdi; soylu olmayan subayların maaşlarını yükseltti.\n\n■ TUNUS SAVAŞI\nSavaşın çıkış nedeni dolambaçlıydı. Malta yönetimi, veba bulaşmış Kuzey Afrika malları taşıyan bir Venedik gemisini yakmış, Tunus da cumhuriyete savaş açmıştı. 6 Mart 1784'te Emo, Tunus'a gönderilen filonun olağanüstü komutanı yapıldı.\n\nAynı yılın 5 Ekim'inde Susa'ya saldırdı; 1785 Nisanında saldırıyı üç gece üst üste yineledi. Ağustosta Sfaks'ı, ekimde La Goulette'i bombaladı; burada kendi icadı olan ünlü yüzen bataryaları da kullandı. 1786'da Sfaks, Bizerta ve üçüncü kez Susa hedef oldu. Susa'da liman ve evler ağır zarar gördü.\n\n■ NASIL BİR BARIŞ\nİki yıllık bombardımandan sonra Tunus beyi bir uzlaşma barışına razı oldu: Venedik gemileriyle giren çıkan mallardaki vergi yüzde 7'den yüzde 4'e indi. Buna karşılık cumhuriyet 40.000 zekinlik bir bağış ödemeyi üstlendi.\n\nHikâye burada bitmedi. Bey rövanş isteğiyle düşmanlıklara yeniden başladı ve filo bir kez daha hemen misillemeyle görevlendirildi. Emo, filonun geri kalanını beklemeyi düşündüğü Malta'ya vardı; kısa bir hastalıktan sonra 1 Mart 1792'de orada öldü. 17 Nisan'da San Marco'da görkemli bir cenaze töreni yapıldı. Senato onun anısına bir büst ve Antonio Canova'ya yaptırdığı bir anıtla saygı gösterdi.\n\n■ KAYNAK NE KADARINI SÖYLÜYOR\nBiyografiye göre deniz seferleri Venedik'te büyük bir coşku uyandırmış, ölümü de gerileyen cumhuriyet için yeri doldurulmaz bir kayıp gibi yaşanmıştı. Okunan metin barışın gününü vermiyor; Tunus tarafının anlatısı da bu kartta yok.",
+  "kesinlik": "kesin",
+  "kaynak": "Paolo Preto, \"Emo, Angelo\", Dizionario Biografico degli Italiani c. 42 (1993), İtalyanca, https://www.treccani.it/enciclopedia/angelo-emo_res-b26e58d3-87ec-11dc-8e9d-0016357eee51_(Dizionario-Biografico)/",
+  "ic_not": "Kronoloji maddesi 1784-05-01: kaynakta atama 6 Mart 1784, ilk Susa saldırısı 5 Ekim; mayıs günü yok. Aynı sözlükte adaş bir Angelo Emo daha vardır, karıştırılmamalı. 'Donanmanın son seferi' ifadesi kaynakta yok. Zehirlenme iddiası ve Zorzi'nin çürütmesi (okunmadı) ile 19. yüzyıl tarih yazımı cümlesi çıkarıldı. Tunus tarafı için ayrı arama yapılmadı.",
+  "ic_not_erisim": "ONARIM (26.11.2026): TDV ya da aktarım dayanağı çıkarıldı; kart, engel aşmayan indirme aracıyla yeniden kaynaklandırıldı."
+},
 
 // 10 Manin
 { id:"venedik-kimdir-ludovico-manin", tur:"kimdir",
