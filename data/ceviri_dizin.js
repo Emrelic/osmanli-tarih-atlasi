@@ -958,15 +958,15 @@ window.CEVIRI_DIZIN = {
    ],
    [
     "ceviri_vi_olay_01.js",
-    "dbd2953a"
+    "86bb448d"
    ],
    [
     "ceviri_vi_olay_02.js",
-    "d0e7f000"
+    "80dabb3d"
    ],
    [
     "ceviri_vi_olay_03.js",
-    "5988f939"
+    "02cb5a42"
    ]
   ]
  }
