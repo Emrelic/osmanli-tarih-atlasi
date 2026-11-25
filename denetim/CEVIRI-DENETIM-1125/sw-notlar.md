@@ -24,3 +24,20 @@ Değiştirilmedi / sistematik, toplu karar gerekir:
 - Yer/kişi adları çoğunlukla Türkçe yazımla (Rus adları da: Gorçakov, Pelım, Sızran, İzabella başka kayıtlarda); "I. Tvrtko" tipi Türkçe sıra sayısı yazımı yaygın — tek tek düzeltilmedi.
 - "Mbele ya Mashariki" ('cephe') 067-078'de görülenler düzeltildi; "mstari" ('cephe') yer yer duruyor (1915 Fırat, 1914 Irak, Filistin cephesi).
 - Count/kaunti için "Count" kullanıldı; devlet adlarındaki biçimle uyum kontrol edilebilir.
+
+== notlar_d.md
+Değiştirilmedi, bilgi için (etiket d, 4_olay_102-137):
+- "andamana" (gösteri yürüyüşü / eşlik etmek) askerî "yürüdü" karşılığında 105-106, 108, 111, 114, 121, 125 vb. paketlerde sık. Önceki turlar da bırakmış; toplu düzeltme önerisi: "alisonga dhidi ya". Yalnız "maandamano" (isim) ve "alitembea" örneklerinin gördüklerimi düzelttim, bazı yerlerde (Antik Yakın Doğu "alienda") sorun yok.
+- "tarikat = agizo" (emir/talimat) 116-120'de düzeltildi. Başka paketlerde ve devlet/arayüz kayıtlarında "Agizo la" toplu aranmalı.
+- "kont = hesabu" (hesap) hatası sistematik; kendi aralığımda düzelttim. Tüm klasörde "hesabu wa|Hesabu|hesabu ya" toplu aranmalı ("kuhesabu" fiili meşru).
+- "bağlandı = -funga" (kapatıldı) hatası da sistematik; "ilifungwa kwa|zilifungwa kwa|aliifunga" toplu aranmalı. "fungamana" biçimi doğru.
+- "kuiponya" (iyileştirmek) "yağmaladı" yerine: toplu aranmalı.
+- "vizier" (İngilizce; Swahili "waziri") 105, 106, 122-124'te sık; değiştirilmedi.
+- "Prince/Beylik/mülk/iktâ/çetr/menşur" gibi terimler ve Türkçe yazımlı özel adlar (Anadolu paketlerinde karışık) üslup tutarsızlığı; dokunulmadı.
+- 1225-01-13 (Anadolu) "çarkçı" -> "wapiga manati" (sapancı) şüpheli; çarkçı arbaletçidir. Emin olmadığım için değiştirilmedi.
+
+== notlar_e.md
+- SİSTEMATİK, TOPLU DÜZELTİLMEDİ: özellikle 4_olay_146-149 (OLAYLAR_ORTACAG_BEKLEYEN_ACIK, yaklaşık 1048 sonrası) ve 149, 161-166'nın bazı bölümlerinde Arap/Fars/Türk özel adları, hicrî ay adları ve bazı yer adları Türkçe yazımla bırakılmış (Wamurâbıt, Wagurî, Eyyûbî, Melikşah, Zilkade, Cemâziyelevvel, Şeyh, Paşa, Gırnata, İşbîliye, Mağrib-i Aksâ, Kızıl Arvat vb.). Aynı dilde başka paketlerde Swahili/İngilizce biçim var (Jumada al-Ula, Sultani). Yalnız açık kalıntıların bir kısmı düzeltildi; toplu ad normalleştirmesi ayrı iş.
+- "I./II./III. Ad" Türkçe sıra sayısı biçimi başka kayıtlarda da kalmış olabilir; yalnız görülenlerin bir kısmı düzeltildi.
+- "kufungwa kwa/na" (Türkçe 'bağlanmak' karşılığı; Swahili'de 'kapatılmak') yaygın; açık örnekler düzeltildi, "kufungamana" biçimleri bırakıldı.
+- Aynı kayda iki ayrı alan düzeltmesi dışında, "eski" alanı bazı satırlarda "..." ile kısaltıldı; uygulamada "yeni" (alanın tamamı) esas alınmalı.

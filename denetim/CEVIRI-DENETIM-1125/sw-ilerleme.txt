@@ -20,7 +20,9 @@ Okunan paketler: 4_olay_067-101 (tamamı; aralık bitti)
 Olay kaydı: 35 paketin tamamı okundu.
 
 == ilerleme_d.txt
-Okunan paketler: 4_olay_102-130 (tamamı)
+Okunan paketler: 4_olay_102-137 (tamamı; aralık bitti)
+Bakılan: yalnız 'olay' kayıtları (arayüz/devlet bu turda okunmadı).
 
 == ilerleme_e.txt
-Tam okunan: 4_olay_138 - 4_olay_159
+Tam okunan: 4_olay_138 - 4_olay_174 (37/37 paket; aralık bitti)
+Bakılan tür: yalnız olay (kayıt sayısı tek tek sayılmadı)

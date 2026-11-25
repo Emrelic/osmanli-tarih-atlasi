@@ -882,3 +882,71 @@
 - olay | OLAYLAR_NAPOLYON_ITALYA_1028:1128-01-01:2 | b: 'abi merkez' 'kardeş (dada) merkez' diye yanlış
 - olay | OLAYLAR_NAPOLYON_ITALYA_1028:1128-01-01:3 | d: 'abi merkez' yanlış
 - olay | OLAYLAR_NAPOLYON_ITALYA_1028:1128-01-01:4 | d: 'abi merkez' yanlış
+- olay | OLAYLAR_EK2:1557-10-16:0 | d: yazım hatası ve kopuk cümle
+- olay | OLAYLAR_EK2:1462-06-01:0 | b: edilgen kullanılmış (kazığa oturtulan değil, oturtan)
+- olay | OLAYLAR_EK2:1390-01-15:0 | d: 'despotluk' krallık diye çevrilmiş
+- olay | OLAYLAR_EK2:1557-10-16:0 | d: 'klasik dönem' 'sıradan dönem' (kawaida) diye çevrilmiş
+- olay | OLAYLAR_EK2:1390-01-15:0 | d: despotluk 'krallık' olmuş; vasallık ilişkisi anlaşılmıyor
+- olay | OLAYLAR_EK2:1462-06-01:0 | b: edilgen yapı 'kazığa oturtulan voyvoda' anlamı veriyor
+- olay | OLAYLAR_ANTIK_MISIR_NUBYA:-0342-01-01:0 | d: askerî yürüyüş 'gösteri yürüyüşü' (maandamano) diye
+- olay | OLAYLAR_ANTIK_MISIR_NUBYA:-0663-01-01:0 | d: yazım hatası
+- olay | OLAYLAR_ANTIK_MISIR_NUBYA:-1456-01-01:0 | d: tarih ifadesi bozuk ('Thutmose'un 21. günü')
+- olay | OLAYLAR_ANTIK_MISIR_NUBYA:0297-01-01:0 | d: 'cephe' yanlışlıkla 'ön taraf' (mbele)
+- olay | OLAYLAR_ANTIK_MISIR_NUBYA:0298-01-01:0 | d: bozuk anlatım
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-0330-10-01:0 | d: anlaşılmaz cümle
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-0498-01-01:0 | d: İngilizce kalıntı (fuse)
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-0520-12-28:0 | d: askerî yürüyüş 'gezinti' diye
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-0599-01-01:0 | d: uyum hatası
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-0604-09-07:0 | d: AĞIR: 'bağladı' 'kapattı' diye
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-0688-01-01:0 | d: uyum hatası
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-0744-01-01:0 | d: AĞIR: 'bağladı' 'kapattı' diye
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-0879-01-01:0 | d: AĞIR: 'bağladı' 'kapattı' diye
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-1179-01-01:0 | d: bozuk cümle
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-1294-01-01:0 | d: uyum hatası
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-1327-01-01:0 | b: uyum hatası
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-1899-01-01:0 | d: AĞIR: sayı yanlış (on binlerce 'yüz binlerce' olmuş); çivi yazısı 'kikuni' (odun)
+- olay | OLAYLAR_OK104:1284-01-01:0 | d: Türkçe alıntı çevrilmemiş; sıra sayısı biçimi
+- olay | OLAYLAR_OK104:1344-01-01:0 | d: Türkçe alıntı ve ad çevrilmemiş
+- olay | OLAYLAR_OK104:1304-01-01:0 | d: yabancı dil alıntısı kalmış; sıra sayısı biçimi
+- olay | OLAYLAR_P0057B:1520-01-01:0 | d: neden-sonuç ilişkisi yanlış bağlanmış
+- olay | OLAYLAR_CUKUROVA_0907:1921-12-23:0 | d: 'öngördüğü' 'kehanet edilen' diye yanlış
+- olay | OLAYLAR_P0060:1725-01-01:0 | b: 'nokta' 'öz/çekirdek' diye yanlış
+- olay | OLAYLAR_P0917KOSU13:1723-08-06:0 | d: Türkçe sıra sayısı biçimi
+- olay | OLAYLAR_P0917KOSU13:1724-01-01:0 | d: yanlış fiil
+- olay | OLAYLAR_P0917KOSU13:1532-01-01:0 | d: 'bağladı' fiili yanlış
+- olay | OLAYLAR_P0917KOSU13:1770-09-01:0 | d: askerî terim yanlış; uyum
+- olay | OLAYLAR_P0917KOSU13:1788-09-01:0 | d: 'Rus barışının bitimine kadar' anlamı yanlış
+- olay | OLAYLAR_P0917KOSU13:1736-03-24:0 | b: 'üzerine yürüdü' yanlış
+- olay | OLAYLAR_P0917KOSU13:1736-03-24:0 | d: askerî cephe ve 'yürüdü' yanlış
+- olay | OLAYLAR_P0917KOSU13:1788-10-03:0 | d: 'üzerine yürüdü' yanlış
+- olay | OLAYLAR_P0917DUNYA:1916-11-06:0 | b: 'bağlandı' 'kapatıldı' gibi yanlış
+- olay | OLAYLAR_P0917DUNYA:1916-11-06:0 | d: yanlış fiil
+- olay | OLAYLAR_P0917DUNYA:1918-07-12:0 | b: 'yerleşti' 'yaşadı' diye yanlış
+- olay | OLAYLAR_P0068B:1791-06-10:0 | b: uyum hatası
+- olay | OLAYLAR_P0068B:1791-08-12:0 | d: bozuk, anlamsız cümle
+- olay | OLAYLAR_KRONOEKSIK0921:1603-06-07:0 | d: 'boğdurttu' kendi eliyle boğdu diye çevrilmiş
+- olay | OLAYLAR_KRONOEKSIK0921:1883-11-03:0 | d: 'kurumsallaştırdı' 'karşıladı' diye yanlış
+- olay | OLAYLAR_0073_IRAN_YANYA:1823-07-28:0 | d: askerî cephe 'mbele' diye yanlış
+- olay | OLAYLAR_KAMERIKA:1535-04-17:0 | d: yanlış fiil; sıra sayısı biçimi
+- olay | OLAYLAR_KAMERIKA:1829-01-01:2 | d: 'ana kasaba' 'başkent' diye yanlış
+- olay | OLAYLAR_DUNYA_BOLGE_1109:1556-01-01:0 | d: uyum hatası
+- olay | OLAYLAR_DUNYA_BOLGE_1109:1385-08-14:0 | d: yanlış fiil
+- olay | OLAYLAR_GEZGINLER:1052-10-24:0 | d: fiil eksik
+- olay | OLAYLAR_GEZGINLER:1403-05-22:0 | b: Türkçe sıra sayısı biçimi
+- olay | OLAYLAR_GEZGINLER:1406-03-22:0 | b: Türkçe sıra sayısı biçimi
+- olay | OLAYLAR_GEZGINLER:1487-07-01:0 | d: Türkçe sıra sayısı biçimi
+- olay | OLAYLAR_GEZGINLER:1493-11-27:0 | d: 'yerleşmek' 'yaşamak' diye yanlış
+- olay | OLAYLAR_GEZGINLER:1497-07-08:0 | d: Türkçe sıra sayısı biçimi
+- olay | OLAYLAR_GEZGINLER:1499-03-20:0 | b: yanlış fiil biçimi
+- olay | OLAYLAR_GEZGINLER:1500-03-09:0 | d: Türkçe sıra sayısı biçimi
+- olay | OLAYLAR_GEZGINLER:1500-05-01:0 | d: Türkçe sıra sayısı biçimi
+- olay | OLAYLAR_GEZGINLER:1521-11-08:0 | d: bozuk cümle
+- olay | OLAYLAR_GEZGINLER:1557-05-01:0 | d: Türkçe sıra sayısı biçimi
+- olay | OLAYLAR_GEZGINLER:1671-01-01:0 | b: Türkçe şehir adı kalıntısı
+- olay | OLAYLAR_GEZGINLER:1671-01-01:0 | d: Türkçe şehir adı kalıntısı
+- olay | OLAYLAR_GEZGINLER:1828-05-04:0 | b: Türkçe yer adı biçimi
+- olay | OLAYLAR_GEZGINLER:1828-05-04:0 | d: Türkçe yer adı biçimi
+- olay | OLAYLAR_GEZGINLER:1828-07-23:0 | b: Türkçe yer adı biçimi
+- olay | OLAYLAR_GEZGINLER:1828-07-23:0 | d: Türkçe yer adı kalıntısı
+- olay | OLAYLAR_GEZGINLER:1814-03-02:0 | b: Türkçe yer adı biçimi
+- olay | OLAYLAR_GEZGINLER:1814-03-02:0 | d: Türkçe yer adı biçimi
