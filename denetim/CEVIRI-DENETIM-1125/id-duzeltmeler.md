@@ -395,3 +395,50 @@
 - olay | OLAYLAR_GEZGINLER:1828-07-23:0 | d: Fas (Fez) şehir; 'Maroko' yanlış
 - olay | OLAYLAR_GEZGINLER:1855-01-01:0 | b: 'kervan yolu' güzergâhın ortasına girmiş
 - olay | OLAYLAR_GEZGINLER:1871-03-09:0 | b: 'on gezi' = 'ön gezi' (ön keşif); 'onuncu gezi' yanlış
+- olay | OLAYLAR_EK:1829-09-14:0 | d: Türkçe yer adları ve 'Utsmani' tutarsızlığı
+- olay | OLAYLAR_EK:1829-09-14:0 | d: Türkçe kalıntı: Eflak-Boğdan
+- olay | OLAYLAR_2S_0919:1600-01-01:0 | d: Türkçe 'kazak' -> Kozak
+- olay | OLAYLAR_P0051:1570-01-01:0 | b: Kazak = Kazakh; Don kazakları Endonezce 'Kosak'
+- olay | OLAYLAR_P0051:1570-01-01:0 | d: Kazak = Kazakh; Don kazakları 'Kosak'
+- olay | OLAYLAR_SEHIR_ILK:1805-01-01:0 | b: Kazak = Kazakh; Don kazakları 'Kosak'
+- olay | OLAYLAR_SEHIR_ILK:1805-01-01:0 | d: Kazak = Kazakh; 'Kosak'
+- olay | OLAYLAR_SEHIR_ILK:1654-01-01:0 | b: 'Kosak'; göçmen = pendatang
+- olay | OLAYLAR_SEHIR_ILK:1654-01-01:0 | d: 'Kosak'; göçmen = pendatang
+- olay | OLAYLAR_SEHIR_ILK:1552-01-01:0 | b: Kazak = Kazakh; 'Kosak'
+- olay | OLAYLAR_SEHIR_ILK:1552-01-01:0 | d: Kazak = Kazakh; 'Kosak'
+- olay | OLAYLAR_SEHIR_ILK:1593-01-01:0 | d: Kosak/Kazakh karışıklığı cümleyi anlamsız kılıyor
+- olay | OLAYLAR_SEHIR_ILK:1652-01-01:0 | d: Kazak = Kazakh; 'Kosak'
+- olay | OLAYLAR_SEHIR_ILK:1711-01-01:0 | b: Kazak = Kazakh; 'Kosak'
+- olay | OLAYLAR_SEHIR_ILK:1711-01-01:0 | d: Kazak = Kazakh; 'Kosak'
+- olay | OLAYLAR_SEHIR_ILK:1728-01-01:0 | d: Kazak = Kazakh; 'Kosak'
+- olay | OLAYLAR_ARKEOLOJI_LEVANT_ANADOLU:-9699-01-01:0 | d: Türkçe yer adı: Eriha = Yerikho
+- olay | OLAYLAR_OK107:1515-09-19:0 | d: yanlış fiil: ditinggalkan
+- olay | OLAYLAR_OK107:1514-09-15:0 | d: yerleşik ad: Syah Ismail
+- olay | OLAYLAR_OK109:1918-11-03:0 | d: Türkçe alıntı çevrilmemiş
+- olay | OLAYLAR_OK109:1920-06-04:1 | d: aynı şehir iki yazımla (Tımışvar)
+- olay | OLAYLAR_OK109:1919-06-28:0 | d: yerleşik ad: Sèvres
+- olay | OLAYLAR_OK109:1919-11-27:0 | d: Türkçe şehir adı: Bükreş
+- olay | OLAYLAR_P0049:1920-09-28:0 | d: yerleşik ad: Sèvres
+- olay | OLAYLAR_P0057:1920-07-20:0 | d: yerleşik ad: Sèvres; söz dizimi
+- olay | OLAYLAR_P0057:1920-08-29:0 | d: yerleşik ad: Sèvres
+- olay | OLAYLAR_OK109:1921-11-13:0 | b: yanlış fiil: ditinggalkan
+- olay | OLAYLAR_OK109:1921-11-13:0 | d: yanlış fiil: meninggalkan
+- olay | OLAYLAR_OK109:1918-11-19:0 | d: yanlış fiil: meninggalkan
+- olay | OLAYLAR_OK106:1703-05-17:0 | d: anlamsız cümle
+- olay | OLAYLAR_H7_ASAMA:1625-11-13:0 | d: 'boğazları tutma' burada dağ geçitleri; deniz boğazı değil
+- olay | OLAYLAR_T5_1000A:1112-01-01:0 | d: bozuk yazım
+- olay | OLAYLAR_T5_1000A:1258-01-01:0 | d: 'idaresindeki kuvvetler' = komutasındaki
+- olay | OLAYLAR_T5_1000A:1258-01-01:2 | b: yanlış fiil: ditinggalkan
+- olay | OLAYLAR_T5_1000A:1258-01-01:2 | d: bozuk fiil: meninggalkan ... kepada
+- olay | OLAYLAR_BK_ZINCIR_1024:1355-01-01:0 | b: Türkçe ada adı: Midilli = Lesbos
+- olay | OLAYLAR_BK_ZINCIR_1024:1355-01-01:0 | d: Türkçe ada adı: Midilli = Lesbos
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0962-12-01:0 | b: anlam yanlışı: 'kota lama' = eski şehir; 'uzun süre toparlanamadı'
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0962-12-01:0 | d: anlam yanlışı
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1161-01-01:0 | b: 'Prinkepsin' burada kadın hükümdar Konstance; 'pangeran' yanlış
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1161-01-01:0 | d: 'Prinkepsin' burada Konstance; 'pangeran' yanlış
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1202-01-01:0 | b: bozuk, tekrarlı anlatım
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1202-01-01:0 | d: bozuk, tekrarlı anlatım
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1249-11-23:0 | b: bozuk anlatım
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1249-11-23:0 | d: bozuk anlatım
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1285-01-01:0 | b: tekrarlı ifade
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1285-01-01:0 | d: tekrarlı ifade

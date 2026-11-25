@@ -13,7 +13,8 @@ Düzeltme dosyaları: duzeltme_b_001..005.jsonl
 Bakılan kayıt: yalnız olay (kayıt sayısı ayrıca sayılmadı)
 
 == ilerleme_c.txt
-Tamamen okunan paketler: 4_olay_066 - 4_olay_090 (25 paket)
+Tamamen okunan paketler: 4_olay_066 - 4_olay_101 (36/36 paket; aralık tamam)
+Bakılan: yalnız olay kayıtları (arayüz/devlet bu turda okunmadı).
 
 == ilerleme_d.txt
 Tam okunan: 4_olay_102 - 4_olay_137 (36/36 paket; aralık tamamlandı)

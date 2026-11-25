@@ -46,6 +46,21 @@
 - olay OLAYLAR_EK22:1923-07-24:0: TBMM Lozan onayı metinde 23 Ağustos 1923, tabloda 2 Ağustos 1923 (çelişki; doğrusu 23 Ağustos)
 - olay OLAYLAR_EK6:1535-09-22:0: başlıkta "Osmanlı tutumu" (tutunuşu/hâkimiyeti olmalı); d cümlesi karışık
 
+== tr_hatalari_c.md
+- olay OLAYLAR_2S0920:1942-01-01:0: TR.d kullanıcıya "(bkz. ic_not)" gösteriyor; CV de "(lihat ic_not)" taşıyor (TR temizlenince CV'den de silinmeli).
+- olay OLAYLAR_SENKRON_0930:1436-01-01:0: TR.d içinde "Atlas ... (beyanlı yaklaşıklık)" iç not dili.
+- olay OLAYLAR_2S_0919:1897-... / OLAYLAR_2S_0918:1889-01-01:0: TR.d "Bu olayla Kerene İtalya idaresine geçti" ("Keren" olmalı; CV de "Kerene").
+- olay OLAYLAR_2S0920:1941-05-05:0: TR.d "Atlas bu günü ... dönüş sınırı olarak kullanır" geliştirici notu.
+- olay OLAYLAR_SENUSI_0919:1691-01-01:0, 1716-10-18:0, 1688-01-01:0, 1717-01-01:0: "Eski kayıt...", "beyanlı boşluk", "boyanır", "yıl tabanı", "teyitsiz" iç notları.
+- olay OLAYLAR_P0048:1592-01-01:0: "bu madde ... Haritada bu maddeyle sahip değişikliği yoktur" iç not dili.
+- olay OLAYLAR_P0049:1724-05-06:0: "zincir Hoy'dan devralındı ... beyanlı yaklaşıklık" kaynak notu kullanıcı metninde.
+- olay OLAYLAR_ARKEOLOJI_PILOT / D2 / D3 (çoğu): TR metinleri Türkçe harfsiz ("Kultürü", "yerlesme", "MO") ve iç not dili ("kaynakta YOK", "bu oturumda KAYNAKTAN okunmadı", "Brifteki", "(kaynak)", "ufuk dışı", "bu kaynakta YOK"). Ör. D3_ITALYA_AVRUPA:-0751, D2_IRAN_ORTA_ASYA:-3199, MISIR_NIL_SAHRA:-1069.
+- olay OLAYLAR_ARKEOLOJI_D3_HINT_CIN:-0273-01-01:0 ve -0236: "katılım" İngilizce "accession" yanlış çevirisi ("tahta çıkış").
+- olay OLAYLAR_ARKEOLOJI_ZINCIR (bütün "Di titik ..." kayıtları): "Kaynak geçiş bilgisi", URL, "KAYNAKLANMADI", "bu turda okunmadı", "künye t uzatıldı" (-0309), başlıkta "(ANTIK-ISKENDER-1113-B)" (-0329) iç kimliği; "sahipsiz aralık" iç kavramı.
+- olay OLAYLAR_ARKEOLOJI_ZINCIR: bazı maddelerde gerekçe metni olayla uyuşmuyor (-2024, -2003, -1099, -1899, -0910, -1154; -0329'da başlık İskender, açıklama "sahipsiz aralık"/Kyros 550; -0310'da başlık İskender İmp., açıklama "sahipsiz aralık"; -0403/-0406 benzeri).
+- olay OLAYLAR_T5_1000A/B: "atlas bu tarihten önceyi boş bırakır", "künyeye uyarak", "(bölge cümlesi)", "Emre kararıyla" (1231-01-01:1, 1256-01-01:0), "model Emre #23" (T5_1000B:1171-09-13:0), "fark bildirildi" (1250-04-30:0), "(kural 5 sınırı)". ÖNEMLİ: kişi adı ve geliştirici notu kullanıcıya görünüyor.
+- olay OLAYLAR_BK_ZINCIR_1024 / KURULUS_GERI_1021 / ORTACAG_ORTADOGU: "entri/madde esas alındı", "gün künye f'sinden", "kuyruk kronolojide ... ayrı kayıtlı", "beyanlı boşluk", "künyesiz", "Atlasta ... yazılıdır" (0815-08-11, 0870-08-29, 1076-08-05).
+
 == tr_hatalari_d.md
 - olay OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1115-07-24:0: d alanında ham geliştirici metni görünüyor: "(kesinlik: {\"f\": \"yuzyil\", \"t\": \"gun\"}) Ayrıca ... https://..." (id çevirisi de aynen taşıyor; ÖNCELİKLİ)
 - olay OLAYLAR_ORTACAG_IRAN_TURAN:1090-03-06:0: d'de "Melikşah Bâtınîlerle mücadeleyi devlet politikası..." cümlesi iki kez
