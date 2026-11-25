@@ -1,15 +1,15 @@
 {
 "hazir": {
 "arayuz": [
-497,
+1002,
 2034
 ],
 "devlet": [
-580,
+870,
 2315
 ],
 "olay": [
-125,
+225,
 5196
 ]
 },
@@ -80,8 +80,38 @@
 "hedef yazi yok"
 ],
 [
+"arayuz",
+"A-Za-zÇĞİıÖŞÜçğöşü",
+"hedef yazi yok"
+],
+[
+"arayuz",
+"Altlık: Esri World Physical Map | Coğrafya verisi: Natural Earth (kamu malı) | Koridor ağı: OWTRAD (T. M. Ciolek, ANU) — CC BY-NC #, kaynak harita: İnalcık # | Tarihî sınırlar: bu projenin kendi verisi",
+"turkce harf kalintisi"
+],
+[
+"arayuz",
+"Cemâziyelevvel # / # Nisan #",
+"yer tutucu"
+],
+[
+"arayuz",
+"History of Transylvania",
+"hedef yazi yok"
+],
+[
+"arayuz",
+"Issues → Read and write",
+"hedef yazi yok"
+],
+[
 "olay",
 "OLAYLAR:1783-04-19:0 d",
+"turkce harf kalintisi"
+],
+[
+"olay",
+"OLAYLAR_EK:1395-01-01:0 d",
 "turkce harf kalintisi"
 ]
 ]

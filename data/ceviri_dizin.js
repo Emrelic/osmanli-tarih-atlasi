@@ -89,6 +89,11 @@ window.CEVIRI_DIZIN = {
   {
    "kod": "bg",
    "ad": "Български"
+  },
+  {
+   "kod": "uk",
+   "ad": "Українська",
+   "gizli": true
   }
  ],
  "dosyalar": {
@@ -940,6 +945,20 @@ window.CEVIRI_DIZIN = {
    [
     "ceviri_bg_olay_09.js",
     "50c28169"
+   ]
+  ],
+  "uk": [
+   [
+    "ceviri_uk_arayuz.js",
+    "6ed7c933"
+   ],
+   [
+    "ceviri_uk_devlet.js",
+    "199bfe42"
+   ],
+   [
+    "ceviri_uk_olay.js",
+    "12828dff"
    ]
   ]
  }
