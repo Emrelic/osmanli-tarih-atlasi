@@ -27,3 +27,11 @@
 - devletler.js `hollanda-dogu-hint` künyesinde 1619 için iki ayrı kuruluş maddesi var (01-01 ve 05-30).
 - 1662-02-01 teslim maddelerinden birinin kaynağı ikincil (popüler site ve Vikipedi); akademik kaynakla güçlendirilmeli.
 - Yalnız I. Willem için hükümdar kaydı var (kaynak 1898; güncel biyografi okunmalı). Stadhouderler ve sonraki krallar bekliyor.
+
+## Parti 02 (25 Kasım 2026)
+- Yeni kartlar (data/ekokuma_dev_hollanda_02.js): 1581 Vazgeçme Yasası, 1830 bakan sorumluluğu, 1648 öncesi Madrid-Brüksel.
+- I. Willem kartı ve hükümdar kaydı ikinci kaynakla güçlendirildi (Verschaffel 2015; Koch 2013 kitabının kendisi hâlâ okunmadı).
+- Okunanlar: Verschaffel, BMGN 130/4, 52-65 (tam); Deneckere, BMGN 130/4, 121-131 (tam); Laux, Plakkaat 1581, 169-187 (tam; yayın künyesi tamamlanmalı); Vermeir, BMGN 115/1, 1-32 (kısmen: 1-8 ve 23-28).
+- Okunamayan: Manzano Baena, Münster tezi (EUI Cadmus: erişime kapalı).
+- Sıradaki: Batavia 1619, Haga'nın daimî elçiliği 1613, Medway 1667, Karlofça'da Colyer 1699, İran'da VOC.
+
