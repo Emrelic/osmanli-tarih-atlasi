@@ -1,3 +1,4 @@
+== tr_hatalari.md
 - arayuz "# Ocak # (imzalar # Ocak-# Mart arası şeyhlik şeyhlik tamamlandı)": bozuk Türkçe, "şeyhlik" iki kez (çeviride de tekrar duruyor).
 - arayuz "# [yalnız yıl teyitli; TDV «Karamanoğulları» ... karaman künye ic_not_t]": kullanıcıya görünen iç not (ic_not_t).
 - arayuz "Ocak # (gün Kahire'den — bk. ic_not_t)": kullanıcıya görünen iç not.
@@ -10,3 +11,44 @@
 - olay "OLAYLAR_EK:1898-12-22:0": "Kandiye (Girit)" adlandırması aynı türden şüpheli.
 - olay "OLAYLAR_EK5:1872-04-01:0": "Aynı tarihte katılan öteki yerler: Sana, Taiz" — San'a maddenin kendi konusu, "öteki yerler"de tekrar ediyor.
 - olay "OLAYLAR:1821-04-02:0": "Aynı tarihte elden çıkan diğer yerleşimler" listesi 1821-03-06 maddesindekiyle aynen tekrar.
+
+== tr_hatalari_a.md
+- olay OLAYLAR_EK3:1688-09-06:0: TR açıklamada kullanıcıya görünen iç not: "(TDV belgrad; beyanlı yaklaşıklık)", "abi-merkez zinciri"
+- olay OLAYLAR_EK3:1689-08-01:0: iç not: "Gün ve Röder okuması bu oturumda yeniden doğrulanmadı." ve "TDV suleyman-ii" slug'ı
+- olay OLAYLAR_EK3:1689-10-25:0: iç not: "Gün Bánlaky/Röder'e dayanır, bu oturumda yeniden doğrulanmadı."
+- olay OLAYLAR_EK3:1690-09-27:0: iç not: "TDV semendire; beyanlı yaklaşıklık; ... çelişki çözülmedi"
+- olay OLAYLAR_EK3:1690-10-01:0: iç not: "kaynaklar çelişir, TDV esas alındı" ve slug
+- olay OLAYLAR_EK3:1690-10-08:0: iç not: "(TDV suleyman-ii; beyanlı yaklaşıklık)", "abi-merkez zinciri"
+- olay OLAYLAR_EK3:1695-09-22:0: iç not: "atlas günü Lugoş kaydından alınmıştır (beyanlı yaklaşıklık)"
+- olay OLAYLAR_EK4:1815-01-20:0: iç not: "olay kaynağı Lorimer...; 13 Ocak günü beyanlı yaklaşıklıktır"; ayrıca metin 13 Ocak diyor, kayıt id'si 1815-01-20 (kontrol edilmeli)
+- olay OLAYLAR_EK4:1832-09-13:0: iç not: "(alt sınır; atama günü kaynakta yok)"
+- olay OLAYLAR_EK4:1833-01-01:1 ve OLAYLAR_EK4:1832-09-13:1: iç not dili: "kaynaklı ara noktasıdır", "şehir düzeyinde tanıklık bulunamadı", "onlar Osmanlı rengindedir"
+- olay OLAYLAR_EK5:1385-01-01:0: "burada 1385 esas alınmıştır" (editör notu)
+- olay OLAYLAR_EK5:1518-01-01:0: iç not "(gün teyitsiz)"
+- olay OLAYLAR_EK5:1716-10-13:0, 1716-11-16:0: iç not "TDV timisvar / Bánlaky 0019/1703; ... abi-merkez zinciri, beyanlı yaklaşıklık"
+- olay OLAYLAR_EK5:1732-01-08:0: iç not "(TDV hoy; ... beyanlı yaklaşıklık)"
+- olay OLAYLAR_EK5:1775-05-07:0: iç not "(gün teyitsiz)"
+- olay OLAYLAR_EK5:1791-08-04:0: iç not "(TDV zistovi-antlasmasi; Korić 2016, n. 118...; Bánlaky...; atlas hukuken devri bu güne yazar)"
+- olay OLAYLAR_EK5:1456-01-01:0: id/yıl 1456, metin "1455'te ... hemen ardından" diyor (kontrol edilmeli)
+- olay OLAYLAR_EK3:1403-02-01:0 ve OLAYLAR_EK3:1403-06-15:0: Gelibolu Antlaşması iki ayrı maddede (mükerrer olabilir)
+
+== tr_hatalari_b.md
+- olay OLAYLAR_EK5:1865-01-01:0: "Mısır Hidivi Mehmed Ali Paşa" (1846) — hidiv unvanı 1867'de verildi.
+- olay OLAYLAR_EK5:1872-04-01:0: "Aynı tarihte katılan öteki yerler: Sana, Taiz" — San'a maddenin kendisi.
+- olay OLAYLAR_EK5:1912-10-18:0: "el-Katrûn (Fizan (Trablusgarp vilâyeti sancağı))" iç içe parantezli etiket kullanıcıya görünüyor.
+- olay OLAYLAR_EK5:1918-02-10:0: "I. Mahmud Türbesi" (Divanyolu) — II. Mahmud Türbesi olmalı.
+- olay OLAYLAR_EK5:1715-07-20:0 ve OLAYLAR_EK6:1689-02-03:0: "atlasta ... abi-merkez zincirini izler; beyanlı yaklaşıklık" iç notu kullanıcıya görünüyor.
+- olay OLAYLAR_EK5:1718-07-21:0: komiser/TDV açıklamaları ve "TDV pasarofca-antlasmasi / cuka-adasi" slug'ları görünür iç not.
+- olay OLAYLAR_EK5:1798-10-23:0: "(Curlin ...; atlas günü Preveze'den alır)" iç not.
+- olay OLAYLAR_EK5:1555-01-01:0: "(... haritada İbrim 1517'den Osmanlı gösterilir. Bu yıl yaklaşıktır, kaynak yıl vermez.)" iç not.
+- olay OLAYLAR_EK5:1912-11-25:0: "I. Balkan Savaşı'nda 7 Nisan 1912'de bombalanan" — Balkan Savaşı Ekim 1912'de başladı; tarih/savaş çelişiyor.
+- olay OLAYLAR_EK5:1387-01-22:0, OLAYLAR_EK6:1730-08-12:0, OLAYLAR_EK6:1686-10-23:0, OLAYLAR_EK7:1735-03-21:0: "Atlas(ta) ... beyanlı yaklaşıklık / yazılıdır / haritada Gence günü kullanılır" iç notları.
+- olay OLAYLAR_EK6:1547-01-01:0: "(Kaya 2017 ...; bkz. önceki madde)" iç not.
+- olay OLAYLAR_ILIRYA0072:1806-02-01:0 ve 1806-01-01:0: "atlasta bu dönem bugüne kadar kesintisiz Avusturya görünüyordu" / "atlasın tek bir 'Fransa' penceresiyle karşılanamaz" geliştirici notu.
+- olay OLAYLAR_ILIRYA0072:1779-01-01:0: "Atlasta Hâil bugüne kadar 1836'ya kadar sahipsiz görünüyordu" geliştirici notu.
+- olay OLAYLAR_EK6:1833-04-12:0: "Atlas günü ... (böl. 13; c. I)" iç not.
+- olay OLAYLAR_EK7:1406-10-15:0: "TDV `tebriz`" slug ve ters tırnak görünüyor.
+- olay OLAYLAR_EK7:1408-04-13:0: açıklama ";" ile bitiyor, cümle kesik.
+- olay OLAYLAR_EK7:1902-01-15:0: "İkinci Suûd Devleti'nin kuruluş anı" — 1902 Üçüncü Suûdî Devleti'nin başlangıcıdır (İkincisi 1824-1891).
+- olay OLAYLAR_EK7:1920-04-23:0: "124 yerleşim ... TBMM hükümetinin idaresine girdi" atlas veri notu.
+- olay OLAYLAR_EK8:1920-08-10:0: "Haritada karşılığı olmamasının sebebi budur", "BAĞIMSIZ/İLK" (1830 maddesi) büyük harf vurguları; atlas notu üslubu.

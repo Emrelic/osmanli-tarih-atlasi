@@ -88,3 +88,145 @@
 - olay | OLAYLAR_P0060:1723-01-01:0 | d: 'alınmasından sonra' yanlış çevrilmiş
 - olay | OLAYLAR_P0063:1724-09-11:0 | d: 'alınmasından sonra' yanlış; 'रूसी क्षेत्र में' yanlış okunuyor
 - olay | OLAYLAR_P0917KOSU13:1723-11-10:0 | d: 'alınmasından sonra' yanlış çevrilmiş
+- olay | OLAYLAR_EK3:1406-06-18:0 | d: अकर्मक 'पहुँचे' के साथ 'ने' का गलत प्रयोग (व्याकरण)
+- olay | OLAYLAR_EK3:1683-01-01:0 | b: Yanıkkale 'कुले' (kule) olarak yanlış yazılmış
+- olay | OLAYLAR_EK3:1683-01-01:0 | d: Yanıkkale 'कुले' yanlış; ilk cümle bozuk söz dizimi
+- olay | OLAYLAR_EK3:1689-10-25:0 | d: 'savaşsız alınması' anlaşılmaz çevrilmiş ('savaşsız gitmek' gibi okunuyor)
+- olay | OLAYLAR_EK3:1695-02-11:0 | d: 'ordunun başında' birebir çevrilmiş ('सेना के सिर पर')
+- olay | OLAYLAR_EK4:1811-09-03:0 | d: 'ordunun başında' birebir çevrilmiş ('सेना के सिर पर')
+- olay | OLAYLAR_EK4:1820-11-01:0 | b: zaman kipi yanlış; मामलूक yazımı diğer maddelerle tutarsız
+- olay | OLAYLAR_EK4:1820-11-01:0 | d: cinsiyet uyumu (मोड़ eril) ve ad yazımı tutarlılığı
+- olay | OLAYLAR_EK4:1832-09-13:0 | d: cinsiyet uyumu (की -> का द्वार)
+- olay | OLAYLAR_EK4:1832-12-21:0 | d: bozuk cümle yapısı (özne eki)
+- olay | OLAYLAR_EK4:1840-07-15:0 | d: cinsiyet uyumu (वालीत्व eril)
+- olay | OLAYLAR_EK4:1840-11-27:0 | d: cinsiyet uyumu (वालीत्व eril)
+- olay | OLAYLAR_EK4:1840-11-03:0 | d: gramer hatası ('ने ... ले पाया था') ve anlamsız cümle yapısı
+- olay | OLAYLAR_EK5:1402-12-14:0 | d: 'ने ... लौट गए' gramer hatası, bozuk ortaç yapısı
+- olay | OLAYLAR_EK5:1406-01-01:0 | d: geçişli fiilde özne (उसने) eksik; cümle bozuk
+- olay | OLAYLAR_EK5:1416-01-01:0 | d: bozuk cümle: Torlak Kemal özne gibi, 'yenip idam cezası aldı' çıkıyor
+- olay | OLAYLAR_EK5:1385-01-01:0 | d: cinsiyet uyumu hatası
+- olay | OLAYLAR_EK5:1516-09-26:0 | d: 'alınmasıyla' yanlış okunuyor; 'तटपट्टी हाथ बदल गई' bozuk
+- olay | OLAYLAR_EK5:1398-07-15:0 | d: bozuk cümle ('मृत्युदंड पाए')
+- olay | OLAYLAR_EK5:1331-03-03:0 | d: cinsiyet uyumu (राजधानी dişil)
+- olay | OLAYLAR_EK5:1417-01-01:0 | d: 'alınması' anlaşılmaz çevrilmiş
+- olay | OLAYLAR_EK5:1446-05-05:0 | d: 'उनके' için öncül yok (yeniçeriler belirtilmemiş)
+- olay | OLAYLAR_EK5:1475-01-10:0 | d: bozuk anlatım ('गूँज उठा गई')
+- olay | OLAYLAR_EK5:1481-06-22:0 | d: gramer hatası
+- olay | OLAYLAR_EK5:1516-03-26:0 | d: ilgi tümcesi yanlış ada (paşaya) bağlanıyor
+- olay | OLAYLAR_EK5:1516-08-02:0 | d: bozuk anlatım ve eksik özne
+- olay | OLAYLAR_EK5:1516-08-28:0 | d: 'ele geçirilmesi' yanlış okunuyor
+- olay | OLAYLAR_EK5:1516-12-21:0 | d: 'ने ... भाग गए' gramer hatası
+- olay | OLAYLAR_EK5:1517-02-15:0 | d: edilgen yapı hatası
+- olay | OLAYLAR_EK5:1517-07-06:0 | d: kişi/yer adı ve unvan yazımı diğer maddelerle tutarsız (सलीम/सेलिम, रिदानिया)
+- olay | OLAYLAR_EK5:1517-09-11:0 | d: 'ने ... लाया' gramer hatası
+- olay | OLAYLAR_EK5:1517-08-28:0 | d: kalyata = galiot (galyon değil); 'yalnız' anlamı eklenmiş
+- olay | OLAYLAR_EK5:1514-09-06:0 | d: 'Safevî'de direndi' hatalı çevrilmiş
+- olay | OLAYLAR_EK5:1515-06-13:0 | b: dilbilgisi
+- olay | OLAYLAR_EK5:1534-09-22:0 | d: 'alınması' yanlış okunuyor
+- olay | OLAYLAR_EK5:1536-03-15:0 | d: gramer hatası
+- olay | OLAYLAR_EK5:1538-09-01:0 | d: voyvodalık (ülke) 'voyvoda' (kişi) olarak çevrilmiş
+- olay | OLAYLAR_EK5:1578-08-04:0 | d: 'yerine geçen' bozuk çevrilmiş
+- olay | OLAYLAR_EK5:1596-10-12:0 | d: cümlenin öznesi yok, bozuk söz dizimi
+- olay | OLAYLAR_EK5:1621-10-09:0 | d: Dinyester nehri yanlış ('डैन्यूस्टर', Tuna ile karışır); cinsiyet uyumu
+- olay | OLAYLAR_EK5:1634-01-08:0 | d: 'köklü' 'जड़' (hareketsiz) olarak yanlış
+- olay | OLAYLAR_EK5:1642-02-26:0 | d: anlam hatası: 'Kazakların ele geçirdiği' yerine 'Kazaklar için' yazılmış
+- olay | OLAYLAR_EK5:1658-08-27:0 | d: cinsiyet uyumu
+- olay | OLAYLAR_EK5:1672-06-04:0 | b: 'ordunun başında' birebir çevrilmiş
+- olay | OLAYLAR_EK5:1690-04-23:0 | d: 'elden çıktı' yanlış ('kale elini kaybetti' gibi)
+- olay | OLAYLAR_EK5:1716-08-20:0 | d: gramer hatası
+- olay | OLAYLAR_EK5:1716-10-13:0 | d: 'devir' (devretme) 'dönem' olarak yanlış çevrilmiş; bozuk cümle
+- olay | OLAYLAR_EK5:1733-05-01:0 | d: cinsiyet uyumu ve bozuk ortaç yapısı
+- olay | OLAYLAR_EK5:1792-01-10:0 | d: SAYI HATASI: 12 milyon kuruş '12 करोड़' (120 milyon) yazılmış; Dinyester adı yanlış
+- olay | OLAYLAR_EK5:1757-10-30:0 | d: bozuk anlatım
+- olay | OLAYLAR_EK5:1768-10-08:0 | d: bozuk anlatım
+- olay | OLAYLAR_EK5:1770-08-01:0 | d: 'ağırlıklar' yanlış çevrilmiş; gramer hatası
+- olay | OLAYLAR_EK5:1771-07-01:0 | b: dilbilgisi
+- olay | OLAYLAR_EK5:1801-04-01:0 | d: 'कोलेमेन वाली हमले' anlamı bozuyor (vali/-li karışıyor)
+- olay | OLAYLAR_EK5:1827-03-14:0 | d: cinsiyet uyumu (संकाय eril)
+- olay | OLAYLAR_EK5:1872-04-01:0 | d: 'alınmasıyla' bozuk: 'सनआ के लिए जाने से' 'San'a'ya gitmekle' diye okunuyor
+- olay | OLAYLAR_EK5:1875-10-06:0 | d: Dilbilgisi bozuk: özne-nesne uyumsuz cümle
+- olay | OLAYLAR_EK5:1877-07-19:0 | d: Cinsiyet uyumu hatası ve Türkçe sıra sayısı yazımı ('19.')
+- olay | OLAYLAR_EK5:1889-06-02:0 | b: Özel ad: İttihâd-ı Osmânî Cemiyeti ('ऑटोमन' özel adın içine girmiş)
+- olay | OLAYLAR_EK5:1889-06-02:0 | d: Özel ad: İttihâd-ı Osmânî Cemiyeti
+- olay | OLAYLAR_EK5:1914-11-14:0 | d: Bozuk anlatım
+- olay | OLAYLAR_EK5:1915-05-27:0 | b: 'सेवक' Hintçede 'hizmetkâr' demek; Sevk = सेव्क
+- olay | OLAYLAR_EK5:1918-02-10:0 | d: Yanlış anlam ('प्रयास करने पर'), cinsiyet uyumu ve bozuk anlatım
+- olay | OLAYLAR_EK5:1918-11-13:0 | d: Bozuk cümle yapısı
+- olay | OLAYLAR_EK5:1920-01-28:0 | d: Cinsiyet uyumu / bozuk anlatım
+- olay | OLAYLAR_EK5:1920-12-03:0 | d: Bozuk cümle (özne kopuk)
+- olay | OLAYLAR_EK5:1540-11-01:0 | d: Cinsiyet uyumu
+- olay | OLAYLAR_EK5:1555-01-01:0 | d: Türkçe sıra sayısı yazımı 'XVI.'
+- olay | OLAYLAR_EK5:1559-01-01:0 | d: Bozuk dilbilgisi
+- olay | OLAYLAR_EK5:1523-01-05:0 | b: Onikiada = Oniki Ada (Dodecanese); Hintçede anlamsız harf aktarımı
+- olay | OLAYLAR_EK5:1570-07-02:0 | d: Dilbilgisi hatası
+- olay | OLAYLAR_EK5:1570-09-17:0 | b: 'गिरने' Hintçede 'düşme' demek; Girne yer adı = गिर्ने
+- olay | OLAYLAR_EK5:1570-09-17:0 | d: Girne yer adı 'गिरने' (düşme) ile karışıyor; ilk cümle bozuk
+- olay | OLAYLAR_EK5:1798-10-23:0 | d: Cinsiyet uyumu
+- olay | OLAYLAR_EK5:1926-05-16:0 | d: Yanlış anlam: bildiren kongre değil, Vahdeddin (kongreye bildirdi)
+- olay | OLAYLAR_EK5:1904-08-29:0 | d: Cinsiyet uyumu
+- olay | OLAYLAR_EK5:1474-01-01:0 | d: Türkçe sıra sayısı yazımı
+- olay | OLAYLAR_EK5:1912-11-25:0 | d: Yanlış anlam: 'bombalanan' = bombalanmış; 'bombardımanla alınan' değil
+- olay | OLAYLAR_EK6:1325-01-01:0 | b: Dilbilgisi hatası
+- olay | OLAYLAR_EK6:1427-06-01:0 | d: Bozuk cümle yapısı
+- olay | OLAYLAR_EK6:1547-01-01:0 | d: Türkçe sıra sayısı yazımı
+- olay | OLAYLAR_EK6:1686-07-10:0 | d: Dilbilgisi hatası
+- olay | OLAYLAR_EK6:1689-02-03:0 | d: Bozuk anlatım
+- olay | OLAYLAR_EK6:1795-04-01:0 | d: Türkçe sıra sayısı yazımı
+- olay | OLAYLAR_EK6:1830-07-05:0 | d: Cinsiyet uyumu
+- olay | OLAYLAR_EK6:1831-01-04:0 | d: Bozuk cümle
+- olay | OLAYLAR_EK6:1833-04-12:0 | d: Türkçe kaynak kısaltmaları (böl., c., s.) çevrilmemiş
+- olay | OLAYLAR_EK6:1833-09-29:0 | d: Bozuk anlatım
+- olay | OLAYLAR_EK6:1395-01-01:0 | d: Cinsiyet/sayı uyumu
+- olay | OLAYLAR_EK7:1493-01-01:0 | d: Türkçe sıra sayısı yazımı
+- olay | OLAYLAR_EK7:1552-06-01:0 | d: Türkçe sıra sayısı yazımı
+- olay | OLAYLAR_EK7:1580-01-22:0 | d: Cinsiyet uyumu
+- olay | OLAYLAR_EK7:1600-06-01:0 | d: Türkçe sıra sayısı yazımı
+- olay | OLAYLAR_EK7:1603-12-23:0 | d: ekber-erşed yanlış aktarılmış; cinsiyet uyumu
+- olay | OLAYLAR_EK7:1609-08-09:0 | d: Dilbilgisi hatası
+- olay | OLAYLAR_EK7:1637-01-01:0 | d: Türkçe sıra sayısı yazımı
+- olay | OLAYLAR_EK7:1638-06-01:0 | d: süzülmek 'yüzmek' gibi anlaşılıyordu
+- olay | OLAYLAR_EK7:1642-01-01:0 | d: Dilbilgisi ('ने' ... 'उठे')
+- olay | OLAYLAR_EK7:1685-10-12:0 | d: Cinsiyet uyumu
+- olay | OLAYLAR_EK7:1695-01-01:0 | d: Türkçe sıra sayısı yazımı
+- olay | OLAYLAR_EK7:1718-05-09:0 | d: Bozuk anlatım
+- olay | OLAYLAR_EK7:1729-02-01:0 | d: Bozuk cümle
+- olay | OLAYLAR_EK7:1730-10-02:0 | d: Dilbilgisi ('ने' ... 'जुट गए')
+- olay | OLAYLAR_EK7:1734-06-01:0 | d: Cinsiyet uyumu
+- olay | OLAYLAR_EK7:1739-06-01:0 | d: Türkçe sıra sayısı yazımı
+- olay | OLAYLAR_EK7:1793-06-01:0 | b: İrad (gelir) 'irade' ile karışmış
+- olay | OLAYLAR_EK7:1808-07-19:0 | d: Bozuk cümle
+- olay | OLAYLAR_EK7:1387-01-01:0 | d: Çevrilmemiş Türkçe kalıntı: 'TDV İslâm Ansiklopedisi'; cinsiyet uyumu
+- olay | OLAYLAR_EK7:1736-03-08:0 | d: Dilbilgisi ('ने' ... 'बैठे')
+- olay | OLAYLAR_EK7:1902-01-15:0 | d: Cinsiyet uyumu
+- olay | OLAYLAR_7A4170:1859-04-25:0 | d: Bozuk dilbilgisi
+- olay | OLAYLAR_EK8:1509-02-03:0 | d: Dilbilgisi hatası, tekrar
+- olay | OLAYLAR_EK8:1921-09-05:0 | d: Dilbilgisi: 'ने' + geçişsiz fiil
+- olay | OLAYLAR_EK8:1924-01-01:0 | d: Türkçe kalıntı (çevrilmemiş alıntı)
+- olay | OLAYLAR_EK9:1843-01-01:0 | d: 'Cezayir ile Vehrân' şehri kasteder: Algiers (अल्जीयर्स)
+- olay | OLAYLAR_EK9:1852-12-04:0 | d: Tell bölgesi 'तेल' (yağ) diye okunuyor
+- olay | OLAYLAR_EK9:1883-12-23:0 | d: Yanlış anlam (yenilgiyi yükleyen askerler) ve 'समर्पित हुए' yanlış
+- olay | OLAYLAR_EK9:1741-06-12:0 | d: Türkçe lakap kalıntısı: Şarlken = Charles V
+- olay | OLAYLAR_EK9:1837-10-13:0 | d: 1830'da düşen Cezayir şehridir; 'समर्पित हुए' yanlış
+- olay | OLAYLAR_EK9:1832-11-22:0 | d: Şehir Algiers; 'समर्पित हुए' yanlış
+- olay | OLAYLAR_EK9:1882-07-11:0 | d: Bozuk anlatım
+- olay | OLAYLAR_EK9:1911-10-09:0 | d: Yanlış fiil (समर्पित) ve bozuk yapı
+- olay | OLAYLAR_EK9:1911-10-09:0 | b: 'को समर्पण' 'adanma' diye okunuyor
+- olay | OLAYLAR_EK9:1911-10-16:0 | d: Dilbilgisi
+- olay | OLAYLAR_EK9:1898-09-02:0 | d: Yer adı yazım hatası (Nyala) ve bozuk anlatım
+- olay | OLAYLAR_EK9:1798-07-21:0 | d: 'समर्पित हुआ' = adandı; teslim anlamı değil
+- olay | OLAYLAR_EK9:1799-03-18:0 | d: Dilbilgisi/anlam bozukluğu
+- olay | OLAYLAR_2S_0918:1319-01-01:0 | d: 'banlık' yanlış aktarılmış; 'बनाते' Hintçede anlamsız
+- olay | OLAYLAR_2S_0918:1420-06-22:0 | d: Türkçe/Osmanlıca 'kaptan-ı umumî' kalıbı Hintçeye aynen taşınmış
+- olay | OLAYLAR_2S_0919:1668-01-01:0 | d: 'मुहाना' nehir ağzı demek; TR 'çağlayanları başında'
+- olay | OLAYLAR_2S_0919:1808-01-01:0 | b: Erâk şehri; 'इराक़' Irak ülkesi olarak okunuyor
+- olay | OLAYLAR_2S_0919:1808-01-01:0 | d: Arak şehri Irak ülkesiyle karışıyor
+- olay | OLAYLAR_2S_0919:1806-01-01:0 | d: Özel ad eksik: Alkalawa
+- olay | OLAYLAR_AMERIKA0920:1596-09-20:0 | d: Özel ad yazım hatası (Metropolitana)
+- olay | OLAYLAR_AMERIKA0920:1718-05-01:0 | d: 'के उत्तर में' kuzeyinde diye okunuyor; dilbilgisi de bozuk
+- olay | OLAYLAR_AMERIKA0920:1821-09-15:0 | d: Geçmiş zaman gelecek zamana çevrilmiş
+- olay | OLAYLAR_2S0920:1552-08-01:0 | b: İki biçim aynı yazılmış: Lugoş (Lugoj)
+- olay | OLAYLAR_2S0920:1913-07-08:0 | d: Anlam yanlış: merkezi taşımadı, merkez Hüfûf'a yerleşti
+- olay | OLAYLAR_2S0920:1517-04-15:0 | d: Anlam tersine dönmüş: 'destek vermeden önce' okunuyor
+- olay | OLAYLAR_MISIR1801:1801-05-14:0 | d: Bozuk cümle ve cinsiyet uyumsuzluğu
+- olay | OLAYLAR_SENUSI_0919:1596-05-10:0 | d: Türkçe kalıbın sözcüğü sözcüğüne aktarımı anlaşılmıyor
+- olay | OLAYLAR_P0050:1882-03-06:0 | d: Yanlış yer adı: Ürküp = Prokuplje, Üsküp (Skopje) değil
