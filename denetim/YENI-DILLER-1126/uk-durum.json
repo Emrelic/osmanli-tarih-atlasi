@@ -9,7 +9,7 @@
 2315
 ],
 "olay": [
-975,
+1150,
 5196
 ]
 },
@@ -127,6 +127,26 @@
 [
 "olay",
 "OLAYLAR_EK7:1656-03-04:0 d",
+"turkce harf kalintisi"
+],
+[
+"olay",
+"OLAYLAR_EK7:1826-05-15:0 d",
+"turkce harf kalintisi"
+],
+[
+"olay",
+"OLAYLAR_EK7:1335-12-01:0 d",
+"turkce harf kalintisi"
+],
+[
+"olay",
+"OLAYLAR_EK14:1534-12-04:0 d",
+"turkce harf kalintisi"
+],
+[
+"olay",
+"OLAYLAR_EK14:1504-01-01:0 d",
 "turkce harf kalintisi"
 ]
 ]
