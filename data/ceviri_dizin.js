@@ -247,7 +247,7 @@ window.CEVIRI_DIZIN = {
   "ru": [
    [
     "ceviri_ru_arayuz.js",
-    "f0ca5df2"
+    "bee58db6"
    ],
    [
     "ceviri_ru_devlet.js",
