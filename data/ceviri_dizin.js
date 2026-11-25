@@ -419,15 +419,15 @@ window.CEVIRI_DIZIN = {
   "de": [
    [
     "ceviri_de_arayuz.js",
-    "3b70530c"
+    "c77bf03d"
    ],
    [
     "ceviri_de_devlet.js",
-    "e44a87ff"
+    "7b4d30db"
    ],
    [
     "ceviri_de_olay_01.js",
-    "55b6e43b"
+    "0ce316a1"
    ],
    [
     "ceviri_de_olay_02.js",
@@ -451,7 +451,7 @@ window.CEVIRI_DIZIN = {
    ],
    [
     "ceviri_de_olay_07.js",
-    "b17a8048"
+    "2700bc53"
    ]
   ],
   "ja": [
