@@ -1,0 +1,32 @@
+== ilerleme.txt
+Tamamen okunan: 1_arayuz_001-010 (arayüz tamamı); 2_devlet_001-012 (devlet tamamı); 3_bayrakli_001-008 (tamamı); 4_olay_001-006
+Okunmayan: 4_olay_007-208
+Not: bayraklılarda Latin harfli özel adların yalnız bir kısmı düzeltildi (çoğunlukla başlık + kısa açıklama); uzun açıklamalarda kalıntı sürüyor.
+Not: duzeltme_013, OLAYLAR:1402-07-28 vb. aynı id için sonraki dosya numarası önceliklidir.
+
+== ilerleme_a.txt
+Tamamen okunan: 4_olay_007 - 4_olay_040 (34/34, aralık bitti)
+
+== ilerleme_b.txt
+Tamamen okunan: 4_olay_041 - 4_olay_075 (35/35 paket, aralık bitti)
+Bakılan kayıt (yaklaşık): olay ~600; arayüz/devlet: bu turda okunmadı (önceki turda okunmuş)
+
+== ilerleme_c.txt
+Tamamen okunan: 4_olay_076 - 4_olay_110 (35/35, aralik bitti)
+Duzeltme dosyalari: duzeltme_c_001 - duzeltme_c_009
+Not: 076-084'te Latin harfli ad kalintisi tam alan yeniden yazilarak duzeltildi; 085'ten itibaren esas olarak gercek hatalar + secili kalintilar (bkz. notlar_c.md).
+
+== ilerleme_d.txt
+Tamamen okunan: 4_olay_111 - 4_olay_145 (35/35, aralık bitti)
+Duzeltme dosyalari: duzeltme_d_001 - duzeltme_d_009
+Notlar: notlar_d.md ; TR hataları: tr_hatalari_d.md
+
+== ilerleme_e.txt
+Tamamen okunan: 4_olay_146 - 4_olay_177 (32/32 paket, aralik bitti)
+Duzeltme dosyalari: duzeltme_e_001, duzeltme_e_002
+Bakilan kayit (yaklasik): olay ~700; arayuz/devlet bu turda okunmadi
+Not: 151-163'teki Latin harfli ozel ad kalintisi sistemik, toplu duzeltilmedi (bkz. notlar_e.md).
+
+== ilerleme_f.txt
+Tamamen okunan: 4_olay_178 - 4_olay_208 (31/31 paket; aralık tamam)
+Kayıt sayısı: yalnız olay türü; paket başına ayrı sayım yapılmadı.
