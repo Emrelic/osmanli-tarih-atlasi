@@ -1,0 +1,37 @@
+== ilerleme.txt
+Tamamen okunan: 1_arayuz_001-011 (11/11); 2_devlet_001-013 (13/13); 3_bayrakli_001-004 (4/28); 4_olay_001-007 (7/228)
+Bakılan kayıt: arayüz TAMAMI, devlet TAMAMI, bayraklı ve olay yalnız yukarıdaki paketler (kayıtlar tek tek sayılmadı)
+Okunmayan: 3_bayrakli_005-028; 4_olay_008-228
+Bitiş nedeni: bağlam tasarrufu (süre sınırı değil). JSONL dosyaları ayrıştırıcıyla doğrulanmadı.
+
+== ilerleme_a.txt
+Tamamen okunan: 4_olay_008 - 4_olay_037 (30/30; aralık bitti)
+Duzeltme dosyalari: duzeltme_a_001 - duzeltme_a_011
+
+== ilerleme_b.txt
+Tamamen okunan paketler: 4_olay_038 - 4_olay_067 (30/30, aralık tamam).
+Düzeltme dosyaları: duzeltme_b_001 - 009.
+
+== ilerleme_c.txt
+Tamamen okunan: 4_olay_068 - 4_olay_102 (35 paket; aralik tamam)
+Bakilan olay kaydi: 068-102 paketlerindeki tum kayitlar (arayuz/devlet bu turda okunmadi)
+Düzeltme: duzeltme_c_001..010.jsonl
+
+== ilerleme_d.txt
+Tam okunan paketler: 4_olay_103 - 4_olay_137 (35/35)
+Bakilan olay kaydi: yaklasik 1150
+Okunmayan: yok (aralik tamam)
+
+== ilerleme_e.txt
+Tam okunan: 4_olay_138 .. 4_olay_163 (olay)
+OKUNMAYAN: 4_olay_164 .. 4_olay_172
+
+== ilerleme_f.txt
+Tamamen okunan: 4_olay_173 - 4_olay_200 (28 paket, olay) - ARALIK BITTI
+
+== ilerleme_g.txt
+Tam okunan paketler: 4_olay_201 - 4_olay_228 (aralik tamam, 28/28)
+
+== ilerleme_h.txt
+Tamamen okunan: 4_olay_164, 165, 166, 167, 168, 169, 170, 171, 172 (aralık tamam)
+Bakılan kayıt türü: olay (b ve d)
