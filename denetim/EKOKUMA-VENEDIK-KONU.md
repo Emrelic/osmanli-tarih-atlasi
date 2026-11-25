@@ -266,6 +266,36 @@ Kural (koordinatör): engel veren sayfa User-Agent taklidi, tarayıcı, ayna, ö
 
 **Güncel toplam: 63 ek okuma kartı = 39 `teyitli` + 24 `teyitsiz`.** Yukarıdaki bölümlerdeki parti sayıları bu denetimden öncesine aittir. 05. parti ajanları durduruldu; yarım çıktıları depoya alınmadı.
 
+## 7. Çok dilli onarım ve 05. parti (26 Kasım 2026)
+
+**Güncel durum (bu bölüm öncekilerin sayılarının yerini alır):** 75 ek okuma kartı, 75 `teyitli`, 0 `teyitsiz`;
+ayrıca 3 hükümdar/kişi kaydı (3 `teyitli`). Kaynağında TDV olan kayıt yok.
+`teyit_kapsam:"bolum"` taşıyan 30 kayıt, uzun bir eserin yalnız ilgili bölümüne dayanır; "eserin tamamı" ölçütü istenirse
+bu alanla süzülür. `editor_incelemesi` taşıyanlar: Magosa (Osmanlı tarafı belirgin kısa) ve Friuli 1477 (zayıf kart).
+
+**Erişim:** İndirme yalnız ortak araçla yapıldı (varsayılan User-Agent; TDV ve arşiv/ayna adresleri reddedilir; engel sayfası
+silinir, alan bir daha denenmez; her istek günlükte). Engel veren alanlar: unitesi.unive.it, arca.unive.it, katalog.marmara.edu.tr, air.uniud.it. Ajanların araç dışında sayfa çekip
+çekmediği dökümlerinden denetlenmedi; kanıt dosyaları günlükle eşlendi (onarım dosyalarında önceki turdan kalan TDV dışı
+metinler ve PDF'ten yeniden çıkarılan birkaç metin vardır).
+
+**Diller:** İtalyanca/Venedik dili, Türkçe, İngilizce, Almanca, Lehçe, Hırvatça/Boşnakça. Yunanca ve Slovence akademik anlatı
+arandığı konularda bulunamadı; Fransızca ve Rusça metin okunamadı ya da bulunamadı.
+
+**Yazılamayan konular:** Ayamavra 1684, İnebahtı 1687 (tam anlatı okunamadı); 05. partinin M yedekleri (Korfu 1207, Bologna 1529) bu turda yazılmadı.
+
+| Madde | Okunan kaynağın söylediği (düzeltilmedi) |
+|---|---|
+| 1716-08-20 Korfu | okunanlar 18 / 22 Ağustos |
+| 1538-09-28 Preveze | 27 / 28 Eylül |
+| 1537-08-25 Korfu | 25 / 26 Ağustos |
+| 1423-09-14 Selanik | 14 / 24 Eylül |
+| 1500-08-10 Modon | 9 / 10 Ağustos; Koron 1500 / 1501 |
+| 1686-07-10 Modon | bir yayın 8 / 9 / 12 Temmuz |
+| 1684-08-06 Ayamavra | atlas "yaz 1684"; bir biyografi 6 Ağustos |
+| 1714-12-08 savaş ilanı | bir yayın 8 Aralık, biri Kasım |
+| 1477-10-30 Friuli akını | gün ve "çan kulesinden görüldü" ayrıntısı doğrulanamadı |
+| Anabolu maddesi, kişi alanı | Königsmarck'ın adı Otto Wilhelm olmalı |
+
 ## Ek: kronoloji envanteri (283 satır)
 
 Süzgeç: dosya ya da kayıt Venedik’e ait olanlar ile başlığında Venedik veya bir Venedik soyadı geçenler. Süzgeç başlığa baktığı için başlıkta adı geçmeyen ortak maddeler listede olmayabilir; listeye yalnız anılan maddeler de girmiştir.
