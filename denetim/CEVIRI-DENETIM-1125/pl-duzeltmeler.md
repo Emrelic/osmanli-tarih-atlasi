@@ -128,3 +128,263 @@
 - olay | OLAYLAR:1699-01-26:0 | d: hâl eki: a Moreę (oddano)
 - olay | OLAYLAR:1919-05-19:0 | d: yanlış anlam: 'yine milletin' = milletin kendisinin
 - olay | OLAYLAR:1923-10-29:0 | d: dilbilgisi
+- olay | OLAYLAR_EK:1372-06-01:0 | d: İmla: metnin geri kalanında kullanılan 'bejów' yerine 'beyów' yazılmış
+- olay | OLAYLAR_EK:1383-09-19:0 | d: Bozuk anlatım
+- olay | OLAYLAR_EK:1395-01-01:0 | d: Bozuk anlatım (hasło ... pisze)
+- olay | OLAYLAR_EK:1463-06-01:0 | d: Dilbilgisi: Travnik eril
+- olay | OLAYLAR_EK:1526-09-01:0 | d: Bozuk anlatım: 'miasta' gönderimi belirsiz
+- olay | OLAYLAR_EK:1717-08-18:0 | d: Bozuk cümle yapısı ve eksik virgül
+- olay | OLAYLAR_EK:1829-09-14:0 | d: Yanlış sözcük: toprak rehini 'zastaw'
+- olay | OLAYLAR_EK:1881-07-02:0 | d: Özel ad: Narda Türkçe biçim, Lehçede Arta
+- olay | OLAYLAR_EK:1908-10-05:0 | d: Yanlış anlam: Meşrutiyet 'monarchia konstytucyjna' diye anlamsız çevrilmiş
+- olay | OLAYLAR_EK:1920-03-16:0 | d: Çevrilmemiş Türkçe kurum adı
+- olay | OLAYLAR_EK:1321-04-01:0 | d: Bozuk anlatım
+- olay | OLAYLAR_EK:1388-08-27:0 | d: Cinsiyet uyumu hatası
+- olay | OLAYLAR_EK:1403-06-01:0 | d: Dilbilgisi hatası
+- olay | OLAYLAR_EK:1421-08-15:0 | d: Anlam belirsizliği: Yıldırım yalnız lakapla 'Błyskawica' anlaşılmıyor
+- olay | OLAYLAR_EK:1422-06-10:0 | d: Bozuk ve yanlış anlam veren yapı
+- olay | OLAYLAR_EK:1440-04-01:0 | d: Yanlış anlam: 'kilit' = rygiel; 'zamek' kale ile karışıyor
+- olay | OLAYLAR_EK:1444-08-15:0 | d: Bozuk anlatım
+- olay | OLAYLAR_EK:1453-04-06:0 | d: Dilbilgisi: yanlış hâl eki
+- olay | OLAYLAR_EK2:1478-06-01:0 | b: Yanlış anlam: altın sikke, maden altın değil
+- olay | OLAYLAR_EK2:1844-01-01:0 | d: Cinsiyet: lira dişil
+- olay | OLAYLAR_EK2:1884-01-01:0 | d: Bozuk anlatım
+- olay | OLAYLAR_EK2:1869-04-01:0 | d: Bozuk anlatım
+- olay | OLAYLAR_EK2:1553-12-07:0 | d: Yanlış anlam: sürüklendi
+- olay | OLAYLAR_EK2:1456-06-01:0 | d: İmla hatası ve yerleşik ad
+- olay | OLAYLAR_EK2:1720-10-08:0 | d: Belirsiz gönderim
+- olay | OLAYLAR_EK2:1590-03-21:0 | d: Bozuk cümle yapısı
+- olay | OLAYLAR_EK2:1612-11-20:0 | d: Anlam hatası: antlaşma vazgeçen özne olamaz
+- olay | OLAYLAR_EK2:1842-01-01:0 | d: Bozuk anlatım (Türkçe 'eliyle' kalkı)
+- olay | OLAYLAR_EK3:1403-02-01:0 | d: Bozuk anlatım
+- olay | OLAYLAR_EK3:1403-06-15:0 | d: Dilbilgisi hatası
+- olay | OLAYLAR_EK3:1406-06-18:0 | b: Yanlış edat
+- olay | OLAYLAR_EK3:1410-06-15:0 | d: Yinelenen ad; parantezde Türkçe biçim olmalı
+- olay | OLAYLAR_EK3:1413-07-05:0 | d: Bozuk anlatım
+- olay | OLAYLAR_EK3:1685-10-15:0 | d: Eksik virgül
+- olay | OLAYLAR_EK3:1689-08-01:0 | b: Hâl eki eksik
+- olay | OLAYLAR_EK4:1803-05-01:0 | d: Yanlış anlam: 'ocak' askerî birlik
+- olay | OLAYLAR_EK4:1811-09-03:0 | d: Bozuk cümle yapısı
+- olay | OLAYLAR_EK4:1820-07-20:0 | d: Dilbilgisi: sıfat uyumu
+- olay | OLAYLAR_EK4:1824-07-19:0 | d: Yanlış anlam: kendi vilayetine muhtaç hâle gelmek
+- olay | OLAYLAR_EK4:1828-10-05:0 | d: Bozuk anlatım
+- olay | OLAYLAR_EK4:1832-09-13:1 | d: Dilbilgisi: zamir uyumsuzluğu
+- olay | OLAYLAR_EK4:1834-08-01:0 | d: Anlamsız anlatım
+- olay | OLAYLAR_EK4:1833-02-20:0 | d: Sözcük sözcük deyim çevirisi
+- olay | OLAYLAR_EK4:1839-06-28:0 | d: Bozuk anlatım
+- olay | OLAYLAR_EK4:1839-07-14:0 | b: Yanlış anlam: Aleksandria'ya değil Aleksandria'da teslim
+- olay | OLAYLAR_EK4:1849-08-02:0 | d: Bozuk anlatım
+- olay | OLAYLAR_EK5:1333-08-01:0 | d: Yanlış anlam: '12 000 złotych' Lehçede Polonya parası olarak okunur
+- olay | OLAYLAR_EK5:1345-01-01:0 | d: Hâl eki eksik
+- olay | OLAYLAR_EK5:1399-11-01:0 | b: Yanlış anlam: 'restleşme' halat çekme değil
+- olay | OLAYLAR_EK5:1401-02-01:0 | d: İmla hatası
+- olay | OLAYLAR_EK5:1402-03-13:0 | d: İmla hatası
+- olay | OLAYLAR_EK5:1406-01-01:0 | b: Dilbilgisi: yanlış fiil yönetimi
+- olay | OLAYLAR_EK5:1415-06-01:0 | b: Dilbilgisi: Türkçe yapıdan çevrilmiş
+- olay | OLAYLAR_EK5:1393-09-01:0 | d: Bozuk anlatım
+- olay | OLAYLAR_EK5:1435-01-01:0 | b: Bozuk başlık: anlamsız 'Dulkadırlım'
+- olay | OLAYLAR_EK5:1435-01-01:0 | d: Dilbilgisi
+- olay | OLAYLAR_EK5:1423-01-01:0 | d: Yanlış sözcük ve imla
+- olay | OLAYLAR_EK5:1459-06-20:0 | d: Sözcük sözcük çeviri
+- olay | OLAYLAR_EK5:1352-01-01:0 | d: Yanlış anlam: '60 000 złotych' Polonya parası olarak okunur
+- olay | OLAYLAR_EK5:1357-09-01:0 | d: Bozuk cümle yapısı
+- olay | OLAYLAR_EK5:1393-06-01:0 | d: Hâl eki; çevrilmemiş 'Fetret'
+- olay | OLAYLAR_EK5:1417-01-01:0 | d: Cinsiyet uyumu
+- olay | OLAYLAR_EK5:1423-05-01:0 | d: Bozuk anlatım
+- olay | OLAYLAR_EK5:1456-01-24:0 | d: Dilbilgisi: yanlış fiil yönetimi
+- olay | OLAYLAR_EK5:1466-06-01:0 | d: Sözcük sözcük deyim çevirisi
+- olay | OLAYLAR_EK5:1476-07-26:0 | d: Bozuk ve anlamı karıştıran cümle; yer adı
+- olay | OLAYLAR_EK5:1502-12-14:0 | d: Bozuk cümle
+- olay | OLAYLAR_EK5:1512-04-24:0 | d: Lakap tutarsız/yanlış
+- olay | OLAYLAR_EK5:1516-08-29:0 | d: İmla hatası
+- olay | OLAYLAR_EK5:1516-09-27:0 | d: Bozuk anlatım
+- olay | OLAYLAR_EK5:1517-01-02:0 | d: Bozuk anlatım
+- olay | OLAYLAR_EK5:1517-01-27:0 | d: Yanlış sözcük: takviye = posiłki
+- olay | OLAYLAR_EK5:1517-04-18:0 | d: Çevrilmemiş Türkçe terim
+- olay | OLAYLAR_EK5:1517-07-06:0 | d: Tutarsız ad, imla hatası, yer adı yazımı
+- olay | OLAYLAR_EK5:1517-09-11:0 | d: Yanlış özel ad biçimi
+- olay | OLAYLAR_EK5:1514-09-06:0 | d: AĞIR ANLAM HATASI: 'Osmanlı'ya itaat ederek' tam tersine 'itaatten vazgeçerek' çevrilmiş
+- olay | OLAYLAR_EK5:1515-06-13:0 | d: AĞIR ANLAM HATASI: 'iki yıl sonraki Mısır seferi' 'iki yıl önceki' diye çevrilmiş
+- olay | OLAYLAR_EK5:1532-08-05:0 | d: Eksik virgül
+- olay | OLAYLAR_EK5:1533-01-01:0 | d: İmla hatası
+- olay | OLAYLAR_EK5:1538-09-01:0 | d: İmla hataları
+- olay | OLAYLAR_EK5:1567-04-01:0 | d: Yanlış sözcük: hayati = żywotny
+- olay | OLAYLAR_EK5:1567-10-01:0 | d: Bozuk anlatım
+- olay | OLAYLAR_EK5:1572-06-01:0 | d: Sözcük sözcük çeviri
+- olay | OLAYLAR_EK5:1574-12-22:0 | d: Yanlış sözcük: arife = przededzień (wigilia = Noel arifesi) ve bozuk anlatım
+- olay | OLAYLAR_EK5:1578-08-04:0 | d: Öznesiz ve bozuk cümleler
+- olay | OLAYLAR_EK5:1593-07-19:0 | d: Noktalama hatası
+- olay | OLAYLAR_EK5:1617-11-22:0 | d: Bozuk cümle
+- olay | OLAYLAR_EK5:1651-09-02:0 | d: Bozuk anlatım
+- olay | OLAYLAR_EK5:1656-07-13:0 | d: Anlam eksik/bozuk
+- olay | OLAYLAR_EK5:1657-08-25:0 | d: Yanlış sözcük: kazanç = osiągnięcie, zysk değil
+- olay | OLAYLAR_EK5:1672-08-27:0 | d: Bozuk anlatım
+- olay | OLAYLAR_EK5:1685-08-11:0 | d: Yanlış sözcük: 'zysk' ticari kazanç
+- olay | OLAYLAR_EK5:1705-07-12:0 | d: AĞIR dilbilgisi hatası: özne belirtme hâlinde, anlam tersine dönüyor
+- olay | OLAYLAR_EK5:1711-07-29:0 | d: Sözcük sözcük çeviri (eliyle)
+- olay | OLAYLAR_EK5:1711-07-21:0 | d: Bozuk anlatım
+- olay | OLAYLAR_EK5:1713-06-24:0 | d: Sözcük sözcük deyim
+- olay | OLAYLAR_EK5:1736-09-01:0 | d: Yanlış sözcük
+- olay | OLAYLAR_EK5:1768-10-08:0 | d: Bozuk cümle
+- olay | OLAYLAR_EK5:1775-05-07:0 | d: İmla hatası
+- olay | OLAYLAR_EK5:1790-01-31:0 | d: Eksik virgül
+- olay | OLAYLAR_EK5:1795-03-01:0 | d: Bozuk yapı: 'kazał uciec' = kaçmasını emretti
+- olay | OLAYLAR_EK5:1803-02-01:0 | d: Yanlış özel ad: Suûd = Saud
+- olay | OLAYLAR_EK5:1821-02-22:0 | d: İmla ve bozuk anlatım
+- olay | OLAYLAR_EK5:1838-02-28:0 | b: Türkçe ek kalıntısı: 'defterdarlıku'
+- olay | OLAYLAR_EK5:1839-01-19:0 | d: Bozuk sözcük birleşimi
+- olay | OLAYLAR_EK5:1860-10-22:0 | d: Bozuk edilgen yapı
+- olay | OLAYLAR_EK5:1861-06-25:0 | d: Bozuk cümle
+- olay | OLAYLAR_EK5:1866-08-21:0 | d: Yanlış sözcük
+- olay | OLAYLAR_EK5:1871-09-20:0 | d: Yanlış sözcük: kazanım, ticari kâr değil
+- olay | OLAYLAR_EK5:1877-12-10:0 | d: Yanlış anlam: paşa şehri teslim ettirmedi, o esir düşünce şehir teslim oldu
+- olay | OLAYLAR_EK5:1888-09-24:0 | d: Bozuk anlatım
+- olay | OLAYLAR_EK5:1896-08-26:0 | b: Özel ad: Lehçede 'dasznacy' (Dasznakcutiun)
+- olay | OLAYLAR_EK5:1896-08-26:0 | d: Özel ad yanlış; 'akcjonistów' yanlış sözcük (eylemciler)
+- olay | OLAYLAR_EK5:1905-07-21:0 | d: Özel ad; 'w landzie' anlaşılmaz; sayı uyumu
+- olay | OLAYLAR_EK5:1897-04-17:0 | d: Yanlış anlam: 'wysadzenie floty' donanmanın havaya uçurulması gibi okunur
+- olay | OLAYLAR_EK5:1914-08-02:0 | d: Yanlış anlam: Karadeniz Baskını 'Karadeniz'e saldırı' değil
+- olay | OLAYLAR_EK5:1914-09-09:0 | d: İmla: 'ze sprzymierzonymi'
+- olay | OLAYLAR_EK5:1914-10-29:0 | b: Yanlış anlam
+- olay | OLAYLAR_EK5:1914-10-29:0 | d: Bozuk anlatım
+- olay | OLAYLAR_EK5:1914-12-22:0 | d: Yanlış sözcük
+- olay | OLAYLAR_EK5:1920-12-03:0 | d: Bozuk anlatım
+- olay | OLAYLAR_EK5:1545-12-26:0 | d: Yanlış anlam: 'yerine geçen' = ardıl
+- olay | OLAYLAR_EK5:1547-02-01:0 | d: Yineleme/bozuk anlatım
+- olay | OLAYLAR_EK5:1537-10-01:0 | d: Cinsiyet uyumu
+- olay | OLAYLAR_EK5:1715-06-05:0 | d: Özel ad: Lehçede Tinos
+- olay | OLAYLAR_EK5:1427-01-01:1 | d: Yanlış sözcük: 'kilit'
+- olay | OLAYLAR_EK5:1522-01-01:0 | d: Dilbilgisi
+- olay | OLAYLAR_EK5:1566-04-15:0 | d: AĞIR yer adı hatası: Değirmenlik = Milos (Antiparos değil), Yamurgi = Amorgos (Santorini değil)
+- olay | OLAYLAR_EK5:1578-11-01:0 | d: Bozuk anlatım
+- olay | OLAYLAR_EK5:1718-07-21:0 | d: Dilbilgisi hatası ve bozuk cümle
+- olay | OLAYLAR_EK5:1798-10-23:0 | d: Anlamsız cümle
+- olay | OLAYLAR_EK5:1918-12-04:0 | d: Bozuk yapı, anlam karışık
+- olay | OLAYLAR_EK5:1785-04-27:0 | d: 'tertibi isnadıyla yorumlanmışsa' yanlış aktarılmış; şejh/saat ifadesi düzeltildi
+- olay | OLAYLAR_EK5:1801-09-24:0 | d: Lehçe yerleşik yer adları (Guria, Duszeti, Telawi)
+- olay | OLAYLAR_EK5:1878-07-13:0 | d: Anlam: 100.000'e varan kısım göç etti, nüfusun tamamı değil
+- olay | OLAYLAR_EK5:1926-05-16:0 | d: Bildiri kongreye gönderilmişti, kongrede konuşmadı
+- olay | OLAYLAR_EK5:1688-06-22:0 | d: TR'deki eski/yeni ad çifti kaybolup aynı ad tekrarlanmış
+- olay | OLAYLAR_EK5:1086-06-04:0 | b: Eksik sözcük (spod władzy)
+- olay | OLAYLAR_EK5:1304-01-01:1 | d: Ad çekimi
+- olay | OLAYLAR_EK5:1622-04-23:0 | d: Fiil görünüşü hatası
+- olay | OLAYLAR_EK6:1334-01-01:0 | d: 'Gölyazı gölün çevresinde' yanlış anlam (kasaba gölü çevreliyor gibi); Mihaliç de çay boyunda
+- olay | OLAYLAR_EK6:1534-06-23:0 | d: Dört yerin dördü de kale; cümle bozuk
+- olay | OLAYLAR_EK6:1635-01-01:0 | d: Dilbilgisi: imamowie zajdyccy
+- olay | OLAYLAR_EK6:1685-10-12:0 | d: Uyvar'ın Lehçe yerleşik adı Nowe Zamki
+- olay | OLAYLAR_EK6:1686-10-20:0 | d: Cümle anlamsız çevrilmiş
+- olay | OLAYLAR_EK6:1687-12-17:0 | d: 'II Mohacz' bozuk kalıp
+- olay | OLAYLAR_EK6:1688-05-19:0 | d: Sirem bölge (Srem), antik Sirmium şehri değil
+- olay | OLAYLAR_EK6:1697-01-01:0 | d: 'vladikalık' kurum; 'władyka' kişi demek
+- olay | OLAYLAR_EK6:1770-09-27:0 | d: Turla = Dniestr; Küçük Kaynarca'nın Lehçe biçimi
+- olay | OLAYLAR_EK6:1806-01-01:0 | d: Kişi adı: Saud
+- olay | OLAYLAR_EK6:1829-04-30:0 | d: Öznesiz bozuk cümle
+- olay | OLAYLAR_EK6:1912-11-11:0 | d: 'emâret' burada prenslik/beylik; emirlik yanlış (Autonomiczne Księstwo Samos)
+- olay | OLAYLAR_EK6:1912-05-04:0 | d: 'masaya oturtmak' anlamı eksik
+- olay | OLAYLAR_EK6:1395-01-01:0 | d: Bozuk sözcük sırası
+- olay | OLAYLAR_ILIRYA0072:1779-01-01:0 | b: aşiret=klan; 'rodu... z rodu' tekrarı
+- olay | OLAYLAR_ILIRYA0072:1779-01-01:0 | d: aşiret=klan; 'rodu... z rodu' tekrarı
+- olay | OLAYLAR_EK7:1482-11-18:0 | d: Cümlenin öznesi düşmüş
+- olay | OLAYLAR_EK7:1509-09-14:0 | b: Dilbilgisi hatası
+- olay | OLAYLAR_EK7:1509-09-14:0 | d: Dilbilgisi hatası
+- olay | OLAYLAR_EK7:1511-04-01:0 | b: Ad yanlış çekilmiş
+- olay | OLAYLAR_EK7:1553-10-05:0 | d: Anlamsız kalıp (denge sahip değiştirmez)
+- olay | OLAYLAR_EK7:1579-10-12:0 | d: Tarikat adı bozuk
+- olay | OLAYLAR_EK7:1580-01-22:0 | d: Ay adı bozuk; öteki kayıtlardaki Türkçe hicrî ay biçimiyle tutarlı
+- olay | OLAYLAR_EK7:1582-05-29:0 | b: 'sünnet düğünü' şenlik; başlıkta düştü
+- olay | OLAYLAR_EK7:1622-05-20:0 | d: Özne belirsiz; 'üstü perişan' = perişan kıyafet ('rozstrój' ruhsal bozukluk demek)
+- olay | OLAYLAR_EK7:1656-10-01:0 | d: Özne ile yüklem arasında yanlış virgül
+- olay | OLAYLAR_EK7:1661-11-01:0 | d: Cümlenin öznesi düşmüş
+- olay | OLAYLAR_EK7:1676-11-05:0 | d: Cümlenin öznesi düşmüş
+- olay | OLAYLAR_EK7:1757-02-28:0 | d: Yedi Yıl Savaşı Lehçede 'wojna siedmioletnia' (tekil)
+- olay | OLAYLAR_EK7:1408-04-13:0 | d: 'po Arasie' anlaşılmaz
+- olay | OLAYLAR_EK7:1722-09-03:0 | d: Eksik fiil
+- olay | OLAYLAR_7A4170:1859-04-25:0 | d: Bozuk anlatım
+- olay | OLAYLAR_EK8:1509-02-03:0 | d: Ad çekimi (Malik)
+- olay | OLAYLAR_EK8:1577-01-01:0 | d: Dilbilgisi
+- olay | OLAYLAR_EK8:1830-02-03:0 | d: Değirmenlik = Milos; çeviride Antiparos yazılmış
+- olay | OLAYLAR_EK8:1609-01-01:0 | d: Fiil görünüşü
+- olay | OLAYLAR_EK8:1920-10-08:0 | b: Sözcük sırası bozuk (Buhara'nın ilanı gibi okunuyor)
+- olay | OLAYLAR_EK8:1921-09-01:0 | b: Sözcük sırası bozuk
+- olay | OLAYLAR_EK8:1924-01-01:0 | b: Sözcük sırası bozuk
+- olay | OLAYLAR_EK9:1852-12-04:0 | d: Fiil görünüşü
+- olay | OLAYLAR_EK9:1882-01-01:0 | d: Hal eki
+- olay | OLAYLAR_EK9:1883-12-23:0 | d: Özne kayması (direniş teslim oldu gibi okunuyor)
+- olay | OLAYLAR_EK9:1898-09-02:0 | d: Bozuk cümle
+- olay | OLAYLAR_EK9:1883-06-08:0 | d: Hal eki; Türkçe 'ocak' kalıntısı (öteki kayıtlarda odżak)
+- olay | OLAYLAR_EK10:1484-07-15:0 | d: İmla: województwo, beylerbeylik
+- olay | OLAYLAR_EK10:1484-08-04:0 | d: İmla: województwo
+- olay | OLAYLAR_EK10:1594-08-28:0 | b: İmla: województwo
+- olay | OLAYLAR_EK10:1594-08-28:0 | d: İmla: województwo
+- olay | OLAYLAR_EK10:1594-11-01:0 | d: İmla: województwo
+- olay | OLAYLAR_EK10:1595-08-23:0 | d: İmla: województwo
+- olay | OLAYLAR_EK10:1595-10-01:0 | d: İmla: województwo
+- olay | OLAYLAR_EK10:1713-06-24:0 | b: İmla: województwo
+- olay | OLAYLAR_EK10:1713-06-24:0 | d: İmla: województwo; 'yalnız bir ada' yanlış kalıp
+- olay | OLAYLAR_EK10:1877-08-23:0 | d: Bozuk dilbilgisi
+- olay | OLAYLAR_EK10:1832-01-01:0 | d: Yanlış yer adı: Tırhala = Trikala (Tyrnavos değil)
+- olay | OLAYLAR_EK10:1877-06-27:0 | d: Anlamı bozuk
+- olay | OLAYLAR_EK10:1877-07-19:0 | d: Anlamsız kalıp
+- olay | OLAYLAR_EK10:1877-11-18:0 | d: Anlam bozuk
+- olay | OLAYLAR_EK10:1912-10-31:0 | b: Hal eki
+- olay | OLAYLAR_EK10:1806-01-26:0 | b: Yönelme hali (Karađorđemu)
+- olay | OLAYLAR_EK10:1806-01-26:0 | d: Yönelme hali (Karađorđemu)
+- olay | OLAYLAR_EK10:1416-01-01:0 | b: Hal eki
+- olay | OLAYLAR_EK10:1420-01-01:0 | d: İmla: województwo
+- olay | OLAYLAR_EK11:1426-01-01:0 | d: 'Jego' yanlışlıkla II. Murad'a bağlanıyor
+- olay | OLAYLAR_EK11:1796-01-01:0 | d: Anlamsız (şehir 'karşılanmış'); TR cümlesi de bozuk, tr_hatalari'ye yazıldı
+- olay | OLAYLAR_EK12:1560-07-30:0 | d: Yanlış sözcük biçimi
+- olay | OLAYLAR_EK13:1569-01-01:0 | d: Hal eki
+- olay | OLAYLAR_EK13:1573-10-10:0 | d: Yanlış anlam ('yüklendi')
+- olay | OLAYLAR_EK13:1514-01-01:0 | d: Olumsuzlukta tamlayan hali
+- olay | OLAYLAR_EK13:1417-01-01:0 | d: Anlam: hiçbirine tarih vermiyor ('bu tarihler' yanlış)
+- olay | OLAYLAR_EK14:1447-01-01:0 | d: Bozuk anlatım (çift 'przez')
+- olay | OLAYLAR_EK14:1505-10-13:0 | d: Zamir mimara bağlanıyordu
+- olay | OLAYLAR_EK14:1592-01-01:0 | d: Bozuk anlatım
+- olay | OLAYLAR_EK14:1598-09-01:0 | d: İmla
+- olay | OLAYLAR_EK14:1566-01-01:1 | d: 'büyük eser' = büyük eserlerden; 'en büyük' değil
+- olay | OLAYLAR_EK14:1547-01-01:0 | d: Bozuk anlatım
+- olay | OLAYLAR_EK14:1580-01-01:0 | d: Bozuk anlatım
+- olay | OLAYLAR_EK14:1568-01-01:0 | d: Cins uyumu ve hal eki
+- olay | OLAYLAR_EK14:1526-01-01:0 | d: Yineleme
+- olay | OLAYLAR_EK14:1720-01-01:0 | d: 'sünnet düğünü' kalkı ('wesele' = evlilik düğünü)
+- olay | OLAYLAR_EK14:1718-01-01:0 | d: 'yerlileşme' yanlış çevrilmiş
+- olay | OLAYLAR_EK14:1357-06-01:0 | d: Hal eki
+- olay | OLAYLAR_EK14:1675-01-01:0 | b: 'wesele' yanlış
+- olay | OLAYLAR_EK14:1675-01-01:0 | d: 'wesele' yanlış
+- olay | OLAYLAR_EK14:1362-06-01:0 | d: İmla: niemuzułmański bitişik
+- olay | OLAYLAR_EK14:1421-06-01:0 | d: İmla: niemuzułmański bitişik
+- olay | OLAYLAR_EK14:1775-06-01:0 | d: İmla
+- olay | OLAYLAR_EK14:1864-06-01:0 | d: İmla
+- olay | OLAYLAR_EK14:1425-01-01:0 | d: Anlam: makam başlangıcı
+- olay | OLAYLAR_EK14:1640-06-01:0 | d: Eksik sözcük
+- olay | OLAYLAR_EK14:1554-06-01:0 | d: 'Şamlı' = Şamlı (memleket), ad değil
+- olay | OLAYLAR_EK15:1792-09-22:0 | d: Hal/edat hatası
+- olay | OLAYLAR_EK16:1308-01-01:0 | d: Bozuk bileşik 'marchii-bejowi'
+- olay | OLAYLAR_EK16:1438-01-01:0 | b: İmla: ze
+- olay | OLAYLAR_EK16:1797-10-17:0 | d: Sıralamada hal karışıklığı
+- olay | OLAYLAR_EK16:1527-01-01:0 | d: Ad çekimi
+- olay | OLAYLAR_EK16:1489-02-26:0 | d: Yanlış anlam
+- olay | OLAYLAR_EK16:1561-11-28:0 | d: Bozuk ilgi cümlesi
+- olay | OLAYLAR_EK16:1611-06-13:0 | d: Büyük harf ve virgül
+- olay | OLAYLAR_EK16:1815-06-09:0 | d: Ad hali yanlış
+- olay | OLAYLAR_EK16:1820-01-08:0 | d: Hal hatası
+- olay | OLAYLAR_EK16:1891-01-01:0 | d: Cümle başı anlaşılmaz
+- olay | OLAYLAR_EK16:1800-09-05:0 | b: Kuşatılan Fransızlar; 'francuskie' kuşatanı gösterir
+- olay | OLAYLAR_EK16:1795-03-28:0 | b: Eksik nesne
+- olay | OLAYLAR_EK16:1945-05-08:0 | b: İngilizce kalıntı ve yanlış ad (Govorov = Goworow)
+- olay | OLAYLAR_EK16:1919-04-21:0 | b: Yinelenen ad
+- olay | OLAYLAR_EK16:1500-07-14:0 | d: Seversk şehirleri; 'Siewierz' Silezya'daki başka kasaba
+- olay | OLAYLAR_EK16:1301-01-01:0 | d: Bozuk sözcük sırası
+- olay | OLAYLAR_EK16:1304-01-01:0 | d: Bozuk anlatım
+- olay | OLAYLAR_EK16:1702-10-22:0 | d: Fiil görünüşü
+- olay | OLAYLAR_EK17:1630-08-19:0 | b: Bozuk anlatım
+- olay | OLAYLAR_EK17:1648-05-01:0 | d: İmla: beylerbej
+- olay | OLAYLAR_EK17:1638-12-24:0 | d: Bozuk dilbilgisi ve sözcük sırası
+- olay | OLAYLAR_EK17:1687-08-01:0 | d: Eksik tümleç
+- olay | OLAYLAR_EK17:1711-07-21:1 | b: Tekil (TR)
+- olay | OLAYLAR_EK17:1552-01-01:0 | b: Türkçe 'ocak' kalıntısı; öteki kayıtlarda odżak
+- olay | OLAYLAR_EK17:1552-01-01:0 | d: Türkçe 'ocak' kalıntısı
+- olay | OLAYLAR_EK17:1686-08-30:0 | b: Yanlış ad (Morea; 'Morzę' deniz gibi)
+- olay | OLAYLAR_EK17:1688-01-17:0 | d: 'başvuru eseri' = referans eser; 'kaynak eser' değil
+- olay | OLAYLAR_EK17:1799-01-03:0 | d: Eksik sözcük

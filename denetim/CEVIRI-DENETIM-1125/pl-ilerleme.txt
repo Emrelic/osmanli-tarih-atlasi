@@ -1,4 +1,11 @@
+== ilerleme.txt
 Tamamen okunan: 1_arayuz_001..009, 2_devlet_001..011, 3_bayrakli_001..015 (48 parcanin ilk 15'i; talimat siniri), 4_olay_001..004
 Okunmayan: 3_bayrakli_016..048 (talimat geregi atlandi), 4_olay_005..175
 Bakilan kayit: arayuz, devlet ve okunan paketlerdeki butun kayitlar (paket tamamen okundu; kayit adedi ayrica sayilmadi)
 Duzeltme dosyalari: duzeltme_001..009
+
+== ilerleme_a.txt
+Tamamen okunan paketler: 4_olay_005 - 4_olay_034 (30 paket, aralık tamam)
+== ilerleme_b.txt
+Tamamen okunan: 4_olay_035-064 (aralığın tamamı, 30/30 paket)
+Bakılan kayıt: olay (aralıktaki bütün kayıtlar; kayıt sayısı elle sayılmadı)
