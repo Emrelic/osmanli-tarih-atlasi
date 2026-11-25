@@ -950,3 +950,9 @@
 - olay | OLAYLAR_GEZGINLER:1828-07-23:0 | d: Türkçe yer adı kalıntısı
 - olay | OLAYLAR_GEZGINLER:1814-03-02:0 | b: Türkçe yer adı biçimi
 - olay | OLAYLAR_GEZGINLER:1814-03-02:0 | d: Türkçe yer adı biçimi
+- olay | OLAYLAR_EK2:1557-10-16:0 | d: yazım hatası ve kopuk cümle
+- olay | OLAYLAR_EK2:1462-06-01:0 | b: edilgen kullanılmış (kazığa oturtulan değil, oturtan)
+- olay | OLAYLAR_EK2:1390-01-15:0 | d: 'despotluk' krallık diye çevrilmiş
+- olay | OLAYLAR_EK2:1557-10-16:0 | d: 'klasik dönem' 'sıradan dönem' (kawaida) diye çevrilmiş
+- olay | OLAYLAR_EK2:1390-01-15:0 | d: despotluk 'krallık' olmuş; vasallık ilişkisi anlaşılmıyor
+- olay | OLAYLAR_EK2:1462-06-01:0 | b: edilgen yapı 'kazığa oturtulan voyvoda' anlamı veriyor
