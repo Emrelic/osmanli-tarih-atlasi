@@ -759,7 +759,7 @@ window.KRONOLOJI_RUSYA = [
 { t:"1917-03-15", b:"II. Nikolay tahttan çekildi, Romanov hanedanı sona erdi", tur:"son", onem:5, dunya:4, kapsam:"ic",
   etiket:["siyaset","taht","konu-siyasi","konu-hanedan"],
   yer_id:"Pskov",
-  d:"II. Nikolay, kendisi ve oğlu adına tahttan çekildiğini ilan etti; kardeşi Mihail'in de ertesi gün tacı kabul etmeyi reddetmesiyle 1613'ten beri 304 yıl süren Romanov hanedanı ve üç yüzyıllık otokratik monarşi resmen sona erdi. Rus tarihyazımında Kulikovo, 1613, 1812 ve 1861 ile aynı düzeyde, imparatorluk döneminin kapanış tarihidir (bkz. [[rusya-gecici-hukumet]], [[sovyet-rusya]]).",
+  ic_not_ham_d:"II. Nikolay, kendisi ve oğlu adına tahttan çekildiğini ilan etti; kardeşi Mihail'in de ertesi gün tacı kabul etmeyi reddetmesiyle 1613'ten beri 304 yıl süren Romanov hanedanı ve üç yüzyıllık otokratik monarşi resmen sona erdi. Rus tarihyazımında Kulikovo, 1613, 1812 ve 1861 ile aynı düzeyde, imparatorluk döneminin kapanış tarihidir (bkz. [[rusya-gecici-hukumet]], [[sovyet-rusya]]).", d:"II. Nikolay, kendisi ve oğlu adına tahttan çekildiğini ilan etti; kardeşi Mihail'in de ertesi gün tacı kabul etmeyi reddetmesiyle 1613'ten beri 304 yıl süren Romanov hanedanı ve üç yüzyıllık otokratik monarşi resmen sona erdi. Rus tarihyazımında Kulikovo, 1613, 1812 ve 1861 ile aynı düzeyde, imparatorluk döneminin kapanış tarihidir.",
   kaynak:"Riasanovsky & Steinberg, A History of Russia — devletler.js:299'dan taşındı, doğrulandı" },
 
 // === M) İKİNCİ TUR — KÜLTÜR · BİLİM · SOSYAL AĞIRLIKLI EK MADDELER ===========

@@ -48,7 +48,7 @@ window.OLAYLAR_AVMAC_C_1029 = [
   tur:"kurulus", onem:4, dunya:2, kapsam:"dis",
   etiket:["siyaset","konu-siyasi"],
   yer:"Budapeşte", yer_id:"Peşte", kisiler:"Mihály Károlyi",
-  d:"Károlyi 31 Ekim 1918'de (Pat Çiçeği Devrimi) Karl tarafından başbakan atanmıştı. 16 Kasım 1918'de Millî Konsey ve hükûmet Halk Cumhuriyeti'ni ilân etti; 11 Ocak 1919'da Károlyi geçici cumhurbaşkanı oldu. macaristan-naiplik ve macaristan-halk-cumhuriyeti künyeleri bu günden başlar. Bu olayla Aquincum-Óbuda-Pest, Estergon, Eğri, Segedin (Szeged), Debrecen, Varad ve Yukarı Macaristan dahil Macaristan Krallığı'nın Hırvatistan dışındaki şehirleri Macaristan Halk Cumhuriyeti'ne geçti.",
+  ic_not_ham_d:"Károlyi 31 Ekim 1918'de (Pat Çiçeği Devrimi) Karl tarafından başbakan atanmıştı. 16 Kasım 1918'de Millî Konsey ve hükûmet Halk Cumhuriyeti'ni ilân etti; 11 Ocak 1919'da Károlyi geçici cumhurbaşkanı oldu. macaristan-naiplik ve macaristan-halk-cumhuriyeti künyeleri bu günden başlar. Bu olayla Aquincum-Óbuda-Pest, Estergon, Eğri, Segedin (Szeged), Debrecen, Varad ve Yukarı Macaristan dahil Macaristan Krallığı'nın Hırvatistan dışındaki şehirleri Macaristan Halk Cumhuriyeti'ne geçti.", d:"Károlyi 31 Ekim 1918'de (Pat Çiçeği Devrimi) Karl tarafından başbakan atanmıştı. 16 Kasım 1918'de Millî Konsey ve hükûmet Halk Cumhuriyeti'ni ilân etti; 11 Ocak 1919'da Károlyi geçici cumhurbaşkanı oldu. Macaristan (1918 Sonrası: Cumhuriyet → Naiplik) ve Macaristan Halk Cumhuriyeti (Károlyi) künyeleri bu günden başlar. Bu olayla Aquincum-Óbuda-Pest, Estergon, Eğri, Segedin (Szeged), Debrecen, Varad ve Yukarı Macaristan dahil Macaristan Krallığı'nın Hırvatistan dışındaki şehirleri Macaristan Halk Cumhuriyeti'ne geçti.",
   ic_not:"TDV macaristan Pat Çiçeği Devrimi'ni 31 Ekim diye verir ve halk cumhuriyetinin ilânına gün vermez; 16 Kasım günü Orange Files / archontology ve Ludovika yayınından alındı.",
   kaynak:"TDV macaristan (31 Ekim 1918; cumhuriyet günü yok) · https://theorangefiles.hu/the-first-hungarian-republic/ · https://www.archontology.org/nations/hungary/karoly4.php · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): Vizi László Tamás, 'Az első magyar köztársaság születése: Budapest 1918. november 16.', Acta Scientiarum Socialium 48 (2018), s. 59-67, DOI 10.33566/asc.2755, s. 63 (néphatározat metni; KN XLI. kötet 457) ; çelişki için Hrvatski sabor, 'Hrvatski građanski sabor 1848.–1918.' (https://www.sabor.hr/sites/default/files/uploads/inline-files/PDF3.pdf) ; N. Stančić, HAZU Dan neovisnosti 2011 konuşması (https://historiografija.hr/wp-content/uploads/2026/01/2011-HAZU-Dan-neovisnosti_Stancic.pdf) ; TDV 'Macaristan' md.: '31 Ekim 1918'de “pat çiçeği devrimi” neticesinde ... Károlyi başbakan oldu' (cumhuriyet günü yok) · Macar Dışişleri 'The history of Hungary' (doha.mfa.gov.hu/eng/page/the-history-of-hungary) · journal.uni-mate.hu Acta Scientiarum Cogitatio 2755 (Parlamento'nun son oturumu ve 16 Kasım kararı)" },
 
@@ -57,7 +57,7 @@ window.OLAYLAR_AVMAC_C_1029 = [
   tur:"siyaset", onem:4, dunya:2, kapsam:"dis",
   etiket:["siyaset","konu-siyasi"],
   yer:"Budapeşte", yer_id:"Peşte", kisiler:"Béla Kun, Sándor Garbai",
-  d:"Antant'ın Vix notası (20 Mart) Macar birliklerinin geri çekilmesini isteyince Károlyi hükûmeti çekildi; Sosyal Demokratlarla birleşen komünistler 21 Mart 1919'da Sovyet Cumhuriyeti'ni kurdu. Cumhuriyet 133 gün (TDV: 121 gün diyen ifade de var) sürdü; harita bu dönemde macaristan-naiplik kimliğini kullanır.",
+  ic_not_ham_d:"Antant'ın Vix notası (20 Mart) Macar birliklerinin geri çekilmesini isteyince Károlyi hükûmeti çekildi; Sosyal Demokratlarla birleşen komünistler 21 Mart 1919'da Sovyet Cumhuriyeti'ni kurdu. Cumhuriyet 133 gün (TDV: 121 gün diyen ifade de var) sürdü; harita bu dönemde macaristan-naiplik kimliğini kullanır.", d:"Antant'ın Vix notası (20 Mart) Macar birliklerinin geri çekilmesini isteyince Károlyi hükûmeti çekildi; Sosyal Demokratlarla birleşen komünistler 21 Mart 1919'da Sovyet Cumhuriyeti'ni kurdu. Cumhuriyet 133 gün (TDV: 121 gün diyen ifade de var) sürdü; harita bu dönemde Macaristan (1918 Sonrası: Cumhuriyet → Naiplik) kimliğini kullanır.",
   ic_not:"SÜRE ÇELİŞKİSİ: TDV macaristan 'Kun rejimi 121 gün' der (21 Mart + 121 gün ≈ 20 Temmuz); Britannica 'Béla Kun' çöküşü 1 Ağustos'a koyar (133 gün). Atlas 1 Ağustos'u esas alıyor; fark nedeni bulunamadı (TDV başlangıç günü vermiyor).",
   kaynak:"Britannica 'Béla Kun' (21 Mart 1919 / 1 Ağustos 1919) · TDV macaristan (121 gün)" },
 
@@ -160,7 +160,7 @@ window.OLAYLAR_AVMAC_C_1029 = [
   tur:"isyan", onem:4, dunya:3, kapsam:"dis",
   etiket:["isyan","konu-askeri","konu-siyasi"],
   yer:"Budapeşte", yer_id:"Peşte", kisiler:"Imre Nagy, János Kádár",
-  d:"Aşırı baskılar 23 Ekim 1956'da halk ayaklanmasına yol açtı; Sovyet birlikleri 4 Kasım'da müdahale etti. Toprak ve sınır değişmedi; rejim Kádár yönetiminde sürdü (macaristan-halk).",
+  ic_not_ham_d:"Aşırı baskılar 23 Ekim 1956'da halk ayaklanmasına yol açtı; Sovyet birlikleri 4 Kasım'da müdahale etti. Toprak ve sınır değişmedi; rejim Kádár yönetiminde sürdü (macaristan-halk).", d:"Aşırı baskılar 23 Ekim 1956'da halk ayaklanmasına yol açtı; Sovyet birlikleri 4 Kasım'da müdahale etti. Toprak ve sınır değişmedi; rejim Kádár yönetiminde sürdü (Macaristan (II. Cumhuriyet 1946 → Halk Cumhuriyeti 1949-08-20)).",
   kaynak:"TDV macaristan ('23 Ekim 1956 tarihinde halk ayaklanmasına yol açtı' · Sovyet müdahalesi 4 Kasım)" },
 
 { bolge:1, t:"1995-01-01",
@@ -168,7 +168,7 @@ window.OLAYLAR_AVMAC_C_1029 = [
   tur:"siyaset", onem:3, dunya:2, kapsam:"dis",
   etiket:["siyaset","konu-diplomasi"],
   yer:"Viyana", yer_id:"Viyana", kisiler:"—",
-  d:"Avusturya, İsveç ve Finlandiya'yla birlikte 1 Ocak 1995'te AB üyesi oldu. Devlet ve sınır değişmedi; avusturya-ikinci-cumhuriyet zinciri sürer.",
+  ic_not_ham_d:"Avusturya, İsveç ve Finlandiya'yla birlikte 1 Ocak 1995'te AB üyesi oldu. Devlet ve sınır değişmedi; avusturya-ikinci-cumhuriyet zinciri sürer.", d:"Avusturya, İsveç ve Finlandiya'yla birlikte 1 Ocak 1995'te AB üyesi oldu. Devlet ve sınır değişmedi; Avusturya Cumhuriyeti (II. Cumhuriyet) zinciri sürer.",
   kaynak:"https://european-union.europa.eu/principles-countries-history/country-profiles/austria_en (AB üyelik tarihi)" },
 
 { bolge:1, t:"2004-05-01",
@@ -176,7 +176,7 @@ window.OLAYLAR_AVMAC_C_1029 = [
   tur:"siyaset", onem:3, dunya:2, kapsam:"dis",
   etiket:["siyaset","konu-diplomasi"],
   yer:"Budapeşte", yer_id:"Peşte", kisiler:"—",
-  d:"Macaristan, dokuz ülkeyle birlikte 1 Mayıs 2004'te AB üyesi oldu. Devlet ve sınır değişmedi; macaristan-cumhuriyeti zinciri sürer.",
+  ic_not_ham_d:"Macaristan, dokuz ülkeyle birlikte 1 Mayıs 2004'te AB üyesi oldu. Devlet ve sınır değişmedi; macaristan-cumhuriyeti zinciri sürer.", d:"Macaristan, dokuz ülkeyle birlikte 1 Mayıs 2004'te AB üyesi oldu. Devlet ve sınır değişmedi; Macaristan Cumhuriyeti zinciri sürer.",
   kaynak:"https://european-union.europa.eu/principles-countries-history/country-profiles/hungary_en (AB üyelik tarihi)" }
 
 ];

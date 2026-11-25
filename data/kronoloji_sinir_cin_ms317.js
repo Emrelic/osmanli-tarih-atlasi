@@ -618,7 +618,7 @@ window.KRONOLOJI_SINIR_CIN_MS317 = [
    "tang",
    "an-lushan-yan"
   ],
-  "b": "Hâkimiyet değişimi — Chang'an (Xi'an): Tang Hanedani → an-lushan-yan",
+  "ic_not_ham_b":"Hâkimiyet değişimi — Chang'an (Xi'an): Tang Hanedani → an-lushan-yan", "b": "Hâkimiyet değişimi — Chang'an (Xi'an): Tang Hanedani → Yan (An Lushan, 大燕)",
   "tur": "fetih",
   "onem": 1,
   "dunya": 1,
@@ -630,7 +630,7 @@ window.KRONOLOJI_SINIR_CIN_MS317 = [
    "konu-askeri",
    "cin-ms317"
   ],
-  "d": "Standart tarih metinlerinde tanıklı gün: 14 Temmuz 756 (Jülyen; ganzhi 乙未). Chang'an (Xi'an): Tang Hanedani → an-lushan-yan. Şehir başına dönem kaynağı ve açıklamalar aşağıdadır.",
+  "ic_not_ham_d":"Standart tarih metinlerinde tanıklı gün: 14 Temmuz 756 (Jülyen; ganzhi 乙未). Chang'an (Xi'an): Tang Hanedani → an-lushan-yan. Şehir başına dönem kaynağı ve açıklamalar aşağıdadır.", "d": "Standart tarih metinlerinde tanıklı gün: 14 Temmuz 756 (Jülyen; ganzhi 乙未). Chang'an (Xi'an): Tang Hanedani → Yan (An Lushan, 大燕). Şehir başına dönem kaynağı ve açıklamalar aşağıdadır.",
   "kaynak": "Jiu Tang shu 7 · Jiu Tang shu 9 (舊唐書/卷9) ; ZZTJ 218 (資治通鑑/卷218) · Jiu Tang shu 10 (舊唐書/卷10) (standart tarih metinleri, zh.wikisource neşirleri)",
   "ic_not_ham_gun":"14 Temmuz 756 (Jülyen; ganzhi 乙未)", "gun": "14 Temmuz 756 (Jülyen takvimi)",
   "kesinlik": "gun",
@@ -645,7 +645,7 @@ window.KRONOLOJI_SINIR_CIN_MS317 = [
    "an-lushan-yan",
    "tang"
   ],
-  "b": "Hâkimiyet değişimi — Chang'an (Xi'an): an-lushan-yan → Tang Hanedani",
+  "ic_not_ham_b":"Hâkimiyet değişimi — Chang'an (Xi'an): an-lushan-yan → Tang Hanedani", "b": "Hâkimiyet değişimi — Chang'an (Xi'an): Yan (An Lushan, 大燕) → Tang Hanedani",
   "tur": "fetih",
   "onem": 1,
   "dunya": 1,
@@ -657,7 +657,7 @@ window.KRONOLOJI_SINIR_CIN_MS317 = [
    "konu-askeri",
    "cin-ms317"
   ],
-  "d": "Standart tarih metinlerinde tanıklı gün: 14 Kasım 757 (Jülyen; ganzhi 癸卯). Chang'an (Xi'an): an-lushan-yan → Tang Hanedani. Şehir başına dönem kaynağı ve açıklamalar aşağıdadır.",
+  "ic_not_ham_d":"Standart tarih metinlerinde tanıklı gün: 14 Kasım 757 (Jülyen; ganzhi 癸卯). Chang'an (Xi'an): an-lushan-yan → Tang Hanedani. Şehir başına dönem kaynağı ve açıklamalar aşağıdadır.", "d": "Standart tarih metinlerinde tanıklı gün: 14 Kasım 757 (Jülyen; ganzhi 癸卯). Chang'an (Xi'an): Yan (An Lushan, 大燕) → Tang Hanedani. Şehir başına dönem kaynağı ve açıklamalar aşağıdadır.",
   "kaynak": "ZZTJ 218 (資治通鑑/卷218) · Jiu Tang shu 10 (舊唐書/卷10) ; Jiu Tang shu 10 · Jiu Tang shu 200下 (standart tarih metinleri, zh.wikisource neşirleri)",
   "ic_not_ham_gun":"14 Kasım 757 (Jülyen; ganzhi 癸卯)", "gun": "14 Kasım 757 (Jülyen takvimi)",
   "kesinlik": "gun",

@@ -494,7 +494,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
    "konu-askeri",
    "dogu-500-1281"
   ],
-  "d": "Shazhou’nun (Dunhuang) Tibet egemenliğinden kurtarıcısı Zhang Yichao eyaletle Tang’a bağlılığını bildirdi; Tang Shazhou’yu Guiyi Jun (Dönüş-Adalet Valiliği) yapıp Zhang Yichao’yu vali atadı. (Dunhuang sahibi tubo-tibet-imparatorlugu → guiyi-jun-dunhuang)",
+  "ic_not_ham_d":"Shazhou’nun (Dunhuang) Tibet egemenliğinden kurtarıcısı Zhang Yichao eyaletle Tang’a bağlılığını bildirdi; Tang Shazhou’yu Guiyi Jun (Dönüş-Adalet Valiliği) yapıp Zhang Yichao’yu vali atadı. (Dunhuang sahibi tubo-tibet-imparatorlugu → guiyi-jun-dunhuang)", "d": "Shazhou’nun (Dunhuang) Tibet egemenliğinden kurtarıcısı Zhang Yichao eyaletle Tang’a bağlılığını bildirdi; Tang Shazhou’yu Guiyi Jun (Dönüş-Adalet Valiliği) yapıp Zhang Yichao’yu vali atadı. (Dunhuang sahibi tubo-tibet-imparatorlugu → Guiyi Jun (Dunhuang/Shazhou Askerî Valiliği))",
   "kaynak": "Song shi, juan 490 «Waiguo 6: Shazhou» (zh.wikisource.org/wiki/宋史/卷490; açıldı, okundu): «沙州本漢燉煌故地，唐天寶末陷于西戎。大中五年，張義潮以州歸順，詔建沙州為歸義軍，以義潮為節度使，領河沙甘肅伊西等州觀察、營田處置使。»",
   "ic_not_ham_gun":"851 (Dazhong 5) — ay/gün yok (künye f/DEVLET_LISTESI düzeltme: 0851-01-01)", "gun": "851 (yalnız yıl biliniyor)",
   "kesinlik": "yil",
@@ -520,7 +520,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
    "konu-askeri",
    "dogu-500-1281"
   ],
-  "d": "Huang Chao isyanına karşı Tang’ın yanında savaşan Dangxiang (Tangut) reisi Tuoba Sigong Xiazhou’nun (Tongwan Şehri) vekil valisi oldu; sonra Dingnan Jun valisi ve Li soyadı sahibi. Xiazhou Dangxiang yönetiminin merkezi. (Xiazhou (Tongwancheng) sahibi tang → xiazhou-dangxiang)",
+  "ic_not_ham_d":"Huang Chao isyanına karşı Tang’ın yanında savaşan Dangxiang (Tangut) reisi Tuoba Sigong Xiazhou’nun (Tongwan Şehri) vekil valisi oldu; sonra Dingnan Jun valisi ve Li soyadı sahibi. Xiazhou Dangxiang yönetiminin merkezi. (Xiazhou (Tongwancheng) sahibi tang → xiazhou-dangxiang)", "d": "Huang Chao isyanına karşı Tang’ın yanında savaşan Dangxiang (Tangut) reisi Tuoba Sigong Xiazhou’nun (Tongwan Şehri) vekil valisi oldu; sonra Dingnan Jun valisi ve Li soyadı sahibi. Xiazhou Dangxiang yönetiminin merkezi. (Xiazhou (Tongwancheng) sahibi tang → Xiazhou Dangxiang Yönetimi (Dingnan jun))",
   "kaynak": "Sima Guang, Zizhi tongjian, juan 254 (zh.wikisource.org/wiki/資治通鑑/卷254; açıldı, okundu; Zhonghe 1 / 881 bölümü): «鄜延節度使李孝昌、權夏州節度使拓跋思恭屯東渭橋，黃巢遣朱溫拒之。»; Song shi 485 (zh.wikisource.org/wiki/宋史/卷485; okundu): «唐末，拓跋思恭鎮夏州，統銀、夏、綏、宥、靜五州地，討黃巢有功，復賜李姓。»",
   "gun": "881 (Zhonghe 1) — ay/gün yok",
   "kesinlik": "yil",
@@ -683,7 +683,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
    "konu-askeri",
    "dogu-500-1281"
   ],
-  "d": "Liu Shouguang, Jin ve Zhao’nun \"Şangfu\" ünvanı sunmasını aşağılayıp 911’de Youzhou’da imparator ilan etti; devlet adı Büyük Yan (Da Yan), dönem adı Yingtian. Youzhou Yan’ın başkentidir. (Pekin (Hanbalık) sahibi sonraki-liang-5hanedan → yan-liu-shouguang)",
+  "ic_not_ham_d":"Liu Shouguang, Jin ve Zhao’nun \"Şangfu\" ünvanı sunmasını aşağılayıp 911’de Youzhou’da imparator ilan etti; devlet adı Büyük Yan (Da Yan), dönem adı Yingtian. Youzhou Yan’ın başkentidir. (Pekin (Hanbalık) sahibi sonraki-liang-5hanedan → yan-liu-shouguang)", "d": "Liu Shouguang, Jin ve Zhao’nun \"Şangfu\" ünvanı sunmasını aşağılayıp 911’de Youzhou’da imparator ilan etti; devlet adı Büyük Yan (Da Yan), dönem adı Yingtian. Youzhou Yan’ın başkentidir. (Pekin (Hanbalık) sahibi Sonraki Liang (Bes Hanedan) → Yan (Liu Shouguang, 燕))",
   "kaynak": "Zizhi tongjian, juan 268 (zh.wikisource.org/wiki/資治通鑑/卷268; açıldı, okundu): «甲子，守光即皇帝位。國號大燕，改元應天。»; Xin Wudai shi, juan 39: «守光遂以梁乾化元年八月，自號大燕皇帝，改元曰應天»",
   "gun": "911 (Qianhua 1), 8. ay, ganzhi 甲子 (Jülyen 911-09-08)",
   "kesinlik": "gun",
@@ -709,7 +709,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
    "konu-askeri",
    "dogu-500-1281"
   ],
-  "d": "Zhou Dewei komutasındaki Jin ordusu Youzhou’ya girdi; Liu Shouguang önce teslim olacağını söyleyip sözünden döndü, kent saldırıyla alındı. Zhou Dewei Lulong (Youzhou) valisi atandı; Yan sona erdi. (Pekin (Hanbalık) sahibi yan-liu-shouguang → tang-jin-shatuo-prensligi)",
+  "ic_not_ham_d":"Zhou Dewei komutasındaki Jin ordusu Youzhou’ya girdi; Liu Shouguang önce teslim olacağını söyleyip sözünden döndü, kent saldırıyla alındı. Zhou Dewei Lulong (Youzhou) valisi atandı; Yan sona erdi. (Pekin (Hanbalık) sahibi yan-liu-shouguang → tang-jin-shatuo-prensligi)", "d": "Zhou Dewei komutasındaki Jin ordusu Youzhou’ya girdi; Liu Shouguang önce teslim olacağını söyleyip sözünden döndü, kent saldırıyla alındı. Zhou Dewei Lulong (Youzhou) valisi atandı; Yan sona erdi. (Pekin (Hanbalık) sahibi Yan (Liu Shouguang, 燕) → Jin (Li Keyong, Shatuo prensliği))",
   "kaynak": "Xin Wudai shi, juan 5 (zh.wikisource.org/wiki/新五代史/卷05; okundu): «十年十月，劉守光請降，王如幽州，守光背約不降，攻破之。十一年，殺燕王劉守光于太原»; Zizhi tongjian, juan 269 (zh.wikisource.org/wiki/資治通鑑/卷269; okundu): «庚午，晉王以周德威為盧龍節度使，兼侍中。»",
   "gun": "913 (Tianyou 10), 10. ay (ay ilk günü); Jin’in Youzhou’yu alışı 10.–11. ay",
   "kesinlik": "ay",
@@ -735,7 +735,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
    "konu-askeri",
    "dogu-500-1281"
   ],
-  "d": "Liu Yan Guangzhou’da (Xingwangfu) imparatorluğunu ilan etti, devlet adı Büyük Yue (Da Yue), dönem adı Qianheng; Guangzhou Güney Han’ın merkezi oldu. (Kanton (Guangzhou) sahibi sonraki-liang-5hanedan → guney-han-10krallik)",
+  "ic_not_ham_d":"Liu Yan Guangzhou’da (Xingwangfu) imparatorluğunu ilan etti, devlet adı Büyük Yue (Da Yue), dönem adı Qianheng; Guangzhou Güney Han’ın merkezi oldu. (Kanton (Guangzhou) sahibi sonraki-liang-5hanedan → guney-han-10krallik)", "d": "Liu Yan Guangzhou’da (Xingwangfu) imparatorluğunu ilan etti, devlet adı Büyük Yue (Da Yue), dönem adı Qianheng; Guangzhou Güney Han’ın merkezi oldu. (Kanton (Guangzhou) sahibi Sonraki Liang (Bes Hanedan) → Güney Han (Nan Han) Krallığı)",
   "kaynak": "Xin Wudai shi, juan 65 (zh.wikisource.org/wiki/新五代史/卷65; okundu): «貞明三年，龑即皇帝位，國號大越，改元曰乾亨。追尊安仁文皇帝，謙聖武皇帝，隱襄皇帝，立三廟。»",
   "gun": "917 (Zhenming 3) — ay/gün yok",
   "kesinlik": "yil",
@@ -813,7 +813,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
    "konu-askeri",
    "dogu-500-1281"
   ],
-  "d": "Jin Kralı Li Cunxu Weizhou’da imparator ilan etti, devlet adını Tang koydu; Weizhou Doğu Başkent, Taiyuan Batı Başkent (sonra Kuzey Başkent), Zhenzhou Kuzey Başkent oldu. (Pekin (Hanbalık) sahibi tang-jin-shatuo-prensligi → sonraki-tang-5hanedan) ‖ Jin Kralı Li Cunxu Weizhou’da imparator ilan etti, devlet adını Tang koydu; Weizhou Doğu Başkent, Taiyuan Batı Başkent (sonra Kuzey Başkent), Zhenzhou Kuzey Başkent oldu. (Zhengding sahibi Jin (Li Keyong, Shatuo prensliği) → Sonraki Tang (Shatuo, Bes Hanedan)) ‖ Jin Kralı Li Cunxu Weizhou’da imparator ilan etti, devlet adını Tang koydu; Weizhou Doğu Başkent, Taiyuan Batı Başkent (sonra Kuzey Başkent), Zhenzhou Kuzey Başkent oldu. (Taiyuan sahibi Jin (Li Keyong, Shatuo prensliği) → Sonraki Tang (Shatuo, Bes Hanedan))",
+  "ic_not_ham_d":"Jin Kralı Li Cunxu Weizhou’da imparator ilan etti, devlet adını Tang koydu; Weizhou Doğu Başkent, Taiyuan Batı Başkent (sonra Kuzey Başkent), Zhenzhou Kuzey Başkent oldu. (Pekin (Hanbalık) sahibi tang-jin-shatuo-prensligi → sonraki-tang-5hanedan) ‖ Jin Kralı Li Cunxu Weizhou’da imparator ilan etti, devlet adını Tang koydu; Weizhou Doğu Başkent, Taiyuan Batı Başkent (sonra Kuzey Başkent), Zhenzhou Kuzey Başkent oldu. (Zhengding sahibi Jin (Li Keyong, Shatuo prensliği) → Sonraki Tang (Shatuo, Bes Hanedan)) ‖ Jin Kralı Li Cunxu Weizhou’da imparator ilan etti, devlet adını Tang koydu; Weizhou Doğu Başkent, Taiyuan Batı Başkent (sonra Kuzey Başkent), Zhenzhou Kuzey Başkent oldu. (Taiyuan sahibi Jin (Li Keyong, Shatuo prensliği) → Sonraki Tang (Shatuo, Bes Hanedan))", "d": "Jin Kralı Li Cunxu Weizhou’da imparator ilan etti, devlet adını Tang koydu; Weizhou Doğu Başkent, Taiyuan Batı Başkent (sonra Kuzey Başkent), Zhenzhou Kuzey Başkent oldu. (Pekin (Hanbalık) sahibi Jin (Li Keyong, Shatuo prensliği) → Sonraki Tang (Shatuo, Bes Hanedan)) ‖ Jin Kralı Li Cunxu Weizhou’da imparator ilan etti, devlet adını Tang koydu; Weizhou Doğu Başkent, Taiyuan Batı Başkent (sonra Kuzey Başkent), Zhenzhou Kuzey Başkent oldu. (Zhengding sahibi Jin (Li Keyong, Shatuo prensliği) → Sonraki Tang (Shatuo, Bes Hanedan)) ‖ Jin Kralı Li Cunxu Weizhou’da imparator ilan etti, devlet adını Tang koydu; Weizhou Doğu Başkent, Taiyuan Batı Başkent (sonra Kuzey Başkent), Zhenzhou Kuzey Başkent oldu. (Taiyuan sahibi Jin (Li Keyong, Shatuo prensliği) → Sonraki Tang (Shatuo, Bes Hanedan))",
   "kaynak": "Xin Wudai shi, juan 5 «Tang benji» (zh.wikisource.org/wiki/新五代史/卷05; okundu): «同光元年…夏四月己巳，皇帝即位，大赦，改元，國號唐。…以魏州為東京，太原為西京，鎮州為北都。»",
   "gun": "923 (Tongguang 1), 4. ay, ganzhi 己巳 (Jülyen 923-05-13)",
   "kesinlik": "gun",
@@ -891,7 +891,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
    "konu-askeri",
    "dogu-500-1281"
   ],
-  "d": "Li Jiji ve Guo Chongtao komutasındaki Tang ordusu Chengdu’ya ilerlerken Önceki Shu imparatoru Wang Yan, Qiqiqiao’da (Yedi Li Köprüsü) teslim oldu; Sichuan Sonraki Tang’a geçti. (Çengdu (Chengdu) sahibi onceki-shu → sonraki-tang-5hanedan) ‖ Çengdu (Chengdu) yerleşiminin sahibi Önceki Shu iken Sonraki Tang oldu. Ayrıntı ve kaynak aşağıdadır.",
+  "ic_not_ham_d":"Li Jiji ve Guo Chongtao komutasındaki Tang ordusu Chengdu’ya ilerlerken Önceki Shu imparatoru Wang Yan, Qiqiqiao’da (Yedi Li Köprüsü) teslim oldu; Sichuan Sonraki Tang’a geçti. (Çengdu (Chengdu) sahibi onceki-shu → sonraki-tang-5hanedan) ‖ Çengdu (Chengdu) yerleşiminin sahibi Önceki Shu iken Sonraki Tang oldu. Ayrıntı ve kaynak aşağıdadır.", "d": "Li Jiji ve Guo Chongtao komutasındaki Tang ordusu Chengdu’ya ilerlerken Önceki Shu imparatoru Wang Yan, Qiqiqiao’da (Yedi Li Köprüsü) teslim oldu; Sichuan Sonraki Tang’a geçti. (Çengdu (Chengdu) sahibi Önceki Shu (Qian Shu) Krallığı → Sonraki Tang (Shatuo, Bes Hanedan)) ‖ Çengdu (Chengdu) yerleşiminin sahibi Önceki Shu iken Sonraki Tang oldu. Ayrıntı ve kaynak aşağıdadır.",
   "kaynak": "Xin Wudai shi, juan 5 (zh.wikisource.org/wiki/新五代史/卷05; okundu): «十一月丁未，高麗遣使者來。己酉，王衍降。»; juan 63: «魏王繼岌至成都，衍君臣面縛輿櫬，出降于七里亭。» ‖ Xin Wudai shi, juan 5 (zh.wikisource.org/wiki/新五代史/卷05; okundu): «十一月丁未，高麗遣使者來。己酉，王衍降。»; juan 63: «魏王繼岌至成都，衍君臣面縛輿櫬，出降于七里亭。» ‖ bitiş: Sonraki Shu künyesi f=0934-01-01 (cin3): Meng Zhixiang’ın Sonraki Shu’su; devir maddesi cin3’e ait (bu kümede kaynak okunmadı) — BEYANLI sınır. | DÜZELTME (kuyrukcin): cin2 diliminin t'si 934-01-01 (yıl düzeyi) idi, cin3 sonraki-shu diliminin f=934-03-16'sı ile arasında 74 günlük boşluk kalıyordu; t=934-03-16 yapıldı (Sima Guang ZZTJ 278: 「己巳，知祥卽皇帝位于成都」; cin3).",
   "gun": "925 (Tongguang 3), 11. ay, ganzhi 己酉 (Jülyen 925-12-08)",
   "kesinlik": "gun",
@@ -918,7 +918,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
    "konu-askeri",
    "dogu-500-1281"
   ],
-  "d": "Shi Jingtang’ın kuruluş bildirisiyle Youzhou, Jizhou, Yingzhou, Moxian, Zhuozhou, Tanzhou, Shunzhou, Xinzhou, Guizhou, Ruzhou, Wuzhou, Weizhou, Yingzhou, Shuozhou, Yunzhou ve Huanzhou Kitan’a bırakıldı. Youzhou Liao’nun Güney Başkenti (938’den) oldu. (Pekin (Hanbalık) sahibi sonraki-tang-5hanedan → liao-hanedani) ‖ Taiyuan (Hedong) valisi Shi Jingtang, Kitan desteğiyle imparator ilan edip devlet adını Jin koydu; kuruluş bildirisinde Youzhou (Pekin), Yunzhou (Datong) dahil On Altı Vilayet Kitan’a bırakıldı. (Taiyuan sahibi Sonraki Tang (Shatuo, Bes Hanedan) → Sonraki Jin (Shatuo, Bes Hanedan)) ‖ Hedong valisi Shi Jingtang Kitan desteğiyle Taiyuan'da imparatorluğunu ilan etti; kendi üssü olan şehir Sonraki Jin'e geçti.",
+  "ic_not_ham_d":"Shi Jingtang’ın kuruluş bildirisiyle Youzhou, Jizhou, Yingzhou, Moxian, Zhuozhou, Tanzhou, Shunzhou, Xinzhou, Guizhou, Ruzhou, Wuzhou, Weizhou, Yingzhou, Shuozhou, Yunzhou ve Huanzhou Kitan’a bırakıldı. Youzhou Liao’nun Güney Başkenti (938’den) oldu. (Pekin (Hanbalık) sahibi sonraki-tang-5hanedan → liao-hanedani) ‖ Taiyuan (Hedong) valisi Shi Jingtang, Kitan desteğiyle imparator ilan edip devlet adını Jin koydu; kuruluş bildirisinde Youzhou (Pekin), Yunzhou (Datong) dahil On Altı Vilayet Kitan’a bırakıldı. (Taiyuan sahibi Sonraki Tang (Shatuo, Bes Hanedan) → Sonraki Jin (Shatuo, Bes Hanedan)) ‖ Hedong valisi Shi Jingtang Kitan desteğiyle Taiyuan'da imparatorluğunu ilan etti; kendi üssü olan şehir Sonraki Jin'e geçti.", "d": "Shi Jingtang’ın kuruluş bildirisiyle Youzhou, Jizhou, Yingzhou, Moxian, Zhuozhou, Tanzhou, Shunzhou, Xinzhou, Guizhou, Ruzhou, Wuzhou, Weizhou, Yingzhou, Shuozhou, Yunzhou ve Huanzhou Kitan’a bırakıldı. Youzhou Liao’nun Güney Başkenti (938’den) oldu. (Pekin (Hanbalık) sahibi Sonraki Tang (Shatuo, Bes Hanedan) → Liao Hanedanı (Kitan / Hıtay)) ‖ Taiyuan (Hedong) valisi Shi Jingtang, Kitan desteğiyle imparator ilan edip devlet adını Jin koydu; kuruluş bildirisinde Youzhou (Pekin), Yunzhou (Datong) dahil On Altı Vilayet Kitan’a bırakıldı. (Taiyuan sahibi Sonraki Tang (Shatuo, Bes Hanedan) → Sonraki Jin (Shatuo, Bes Hanedan)) ‖ Hedong valisi Shi Jingtang Kitan desteğiyle Taiyuan'da imparatorluğunu ilan etti; kendi üssü olan şehir Sonraki Jin'e geçti.",
   "kaynak": "Xin Wudai shi, juan 8 «Jin benji» (zh.wikisource.org/wiki/新五代史/卷08; okundu): «十一月丁酉，皇帝即位，…國號晉。以幽、涿、薊、檀、順、瀛、莫、蔚、朔、雲、應、新、媯、儒、武、寰州入于契丹。» ‖ Ouyang Xiu, Xin Wudai shi, juan 8 «Jin ben ji» (zh.wikisource.org/wiki/新五代史/卷08, okundu): 「十一月丁酉，皇帝即位，……國號晉。以幽、涿、薊、檀、順、瀛、莫、蔚、朔、雲、應、新、媯、儒、武、寰州入于契丹。」 · Ouyang Xiu, Xin Wudai shi, juan 7 «Tang Fei-di ben ji» (zh.wikisource.org/wiki/新五代史/卷07, okundu): 「丁酉，契丹立晉。閏月甲子，楊光遠殺張敬達，……辛巳，皇帝崩。〈年五十一，帝自焚死，晉高祖命葬其燼骨於徽陵域中。〉」",
   "gun": "936, 11. ay, ganzhi 丁酉 (Jülyen 936-11-28)",
   "kesinlik": "gun",
@@ -1048,7 +1048,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
    "konu-askeri",
    "dogu-500-1281"
   ],
-  "d": "Pan Mei komutasındaki Song ordusu Maqi’de Güney Han savunmasını kırdı; Liu Chang önce elçi gönderdi, sonra savunma düzenlemeye kalktı ve saray-hazineyi yaktırdı; Song’a teslim oldu. Güney Han kaldırıldı. (Kanton (Guangzhou) sahibi guney-han-10krallik → song) ‖ Kanton (Guangzhou) yerleşiminin sahibi Güney Han iken Song oldu. Ayrıntı ve kaynak aşağıdadır.",
+  "ic_not_ham_d":"Pan Mei komutasındaki Song ordusu Maqi’de Güney Han savunmasını kırdı; Liu Chang önce elçi gönderdi, sonra savunma düzenlemeye kalktı ve saray-hazineyi yaktırdı; Song’a teslim oldu. Güney Han kaldırıldı. (Kanton (Guangzhou) sahibi guney-han-10krallik → song) ‖ Kanton (Guangzhou) yerleşiminin sahibi Güney Han iken Song oldu. Ayrıntı ve kaynak aşağıdadır.", "d": "Pan Mei komutasındaki Song ordusu Maqi’de Güney Han savunmasını kırdı; Liu Chang önce elçi gönderdi, sonra savunma düzenlemeye kalktı ve saray-hazineyi yaktırdı; Song’a teslim oldu. Güney Han kaldırıldı. (Kanton (Guangzhou) sahibi Güney Han (Nan Han) Krallığı → song) ‖ Kanton (Guangzhou) yerleşiminin sahibi Güney Han iken Song oldu. Ayrıntı ve kaynak aşağıdadır.",
   "kaynak": "Xin Wudai shi, juan 65 (zh.wikisource.org/wiki/新五代史/卷65; okundu): «開寶四年正月，平英、雄二州，…二月，師度馬逕，鋹遣其右僕射蕭漼奉表降。…乃盡焚其府庫、宮殿。…師次白田，鋹素衣白馬以降。» ‖ cin2 guney-han bitişi 971-02-28 (Xin Wudai shi 65: 「開寶四年…二月，師度馬逕，鋹遣其右僕射蕭漼奉表降」; 「師次白田，鋹素衣白馬以降」) ‖ BİTİŞ: Song shi, juan 47 «Gong di ji» (zh.wikisource.org/wiki/宋史/卷047): 「閏月庚戌，王道夫棄廣州遁。壬戌，淩震遁。癸亥，大軍入廣州。」 (祥興元年 閏11. ay 癸亥: 閏11. ay ilk günü 庚戌 = 1278-12-16 Jülyen → 癸亥 = 1278-12-29) · BEYAN: 1276-1278 arasında Guangzhou birçok kez el değiştirdi (Song shi 47: 「六月丙子，雄飛入廣州」 景炎元年; 「壬子，趙溍入廣州」; 「十二月辛酉朔，趙溍棄廣州遁」; 景炎二年 「二月，大軍至廣州，縣人趙若岡以城降」; 「四月，…張鎮孫襲廣州取之」; 「十一月，塔出圍廣州。庚寅，張鎮孫以城降」; 祥興元年 「十五年正月，大軍夷廣州城」; 「三月…廣州都統淩震、轉運判官王道夫取廣州」) · Yuan shi 10: 「廣州張鎮孫叛，犯廣州」; son KALICI Yuan girişi 1278-12-29 alındı (BEYANLI YAKLAŞIKLIK; aradaki gidiş gelişler ayrı dilim yazılmadı).",
   "gun": "971 (Kaibao 4), 2. ay (ay ilk günü; Jülyen 971-02-28)",
   "kesinlik": "ay",
@@ -1074,7 +1074,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
    "konu-askeri",
    "dogu-500-1281"
   ],
-  "d": "Dangxiang yöneticisi Li Jipeng akrabalarıyla Song başkentine gelip Yin–Xia bölgesindeki yönetimi bıraktı; Song Xiazhou’ya doğrudan vali (zhi Xiazhou) atadı. Li Jiqian ayaklanmaya başladı. (Xiazhou (Tongwancheng) sahibi xiazhou-dangxiang → song)",
+  "ic_not_ham_d":"Dangxiang yöneticisi Li Jipeng akrabalarıyla Song başkentine gelip Yin–Xia bölgesindeki yönetimi bıraktı; Song Xiazhou’ya doğrudan vali (zhi Xiazhou) atadı. Li Jiqian ayaklanmaya başladı. (Xiazhou (Tongwancheng) sahibi xiazhou-dangxiang → song)", "d": "Dangxiang yöneticisi Li Jipeng akrabalarıyla Song başkentine gelip Yin–Xia bölgesindeki yönetimi bıraktı; Song Xiazhou’ya doğrudan vali (zhi Xiazhou) atadı. Li Jiqian ayaklanmaya başladı. (Xiazhou (Tongwancheng) sahibi Xiazhou Dangxiang Yönetimi (Dingnan jun) → song)",
   "kaynak": "Song shi, juan 485 (zh.wikisource.org/wiki/宋史/卷485; okundu): «繼捧立，以太平興國七年率族人入朝。…遂曲赦銀、夏管內。»; «太平興國八年，知夏州尹憲與都巡檢曹光實偵知，夜襲破之»",
   "gun": "982 (Taiping Xingguo 7) — ay/gün yok",
   "kesinlik": "yil",
@@ -1100,7 +1100,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
    "konu-askeri",
    "dogu-500-1281"
   ],
-  "d": "Song, Li Jiqian’a karşı kullanmak üzere Li Jipeng’e Zhao soyadı verip (Zhao Baozhong) Xiazhou prefekti ve Dingnan Jun valisi yaparak geri gönderdi. (Xiazhou (Tongwancheng) sahibi song → xiazhou-dangxiang)",
+  "ic_not_ham_d":"Song, Li Jiqian’a karşı kullanmak üzere Li Jipeng’e Zhao soyadı verip (Zhao Baozhong) Xiazhou prefekti ve Dingnan Jun valisi yaparak geri gönderdi. (Xiazhou (Tongwancheng) sahibi song → xiazhou-dangxiang)", "d": "Song, Li Jiqian’a karşı kullanmak üzere Li Jipeng’e Zhao soyadı verip (Zhao Baozhong) Xiazhou prefekti ve Dingnan Jun valisi yaparak geri gönderdi. (Xiazhou (Tongwancheng) sahibi song → Xiazhou Dangxiang Yönetimi (Dingnan jun))",
   "kaynak": "Song shi, juan 485 (okundu): «端拱初，…召赴闕，賜姓趙氏，更名保忠，…授夏州刺史，充定難軍節度使、夏銀綏宥靜等州觀察處置押蕃落等使»",
   "gun": "988 (Duangong başı) — ay/gün yok",
   "kesinlik": "yil",
@@ -1127,7 +1127,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
    "konu-askeri",
    "dogu-500-1281"
   ],
-  "d": "Li Deming’in oğlu Li Yuanhao Ganzhou Uygur Kağanlığı’nın başkenti Ganzhou’yu (Zhangye) alıp Dingnan Jun yönetimine kattı; Hexi koridoru Dangxiang’a geçmeye başladı. (Zhangye (Ganzhou) sahibi ganzhou-uygur → xiazhou-dangxiang)",
+  "ic_not_ham_d":"Li Deming’in oğlu Li Yuanhao Ganzhou Uygur Kağanlığı’nın başkenti Ganzhou’yu (Zhangye) alıp Dingnan Jun yönetimine kattı; Hexi koridoru Dangxiang’a geçmeye başladı. (Zhangye (Ganzhou) sahibi ganzhou-uygur → xiazhou-dangxiang)", "d": "Li Deming’in oğlu Li Yuanhao Ganzhou Uygur Kağanlığı’nın başkenti Ganzhou’yu (Zhangye) alıp Dingnan Jun yönetimine kattı; Hexi koridoru Dangxiang’a geçmeye başladı. (Zhangye (Ganzhou) sahibi Ganzhou Uygur Krallığı (Hexi) → Xiazhou Dangxiang Yönetimi (Dingnan jun))",
   "kaynak": "Song shi, juan 485 (zh.wikisource.org/wiki/宋史/卷485; okundu): «天聖六年，德明遣子元昊攻甘州，拔之。»",
   "gun": "1028 (Tiansheng 6) — ay/gün yok",
   "kesinlik": "yil",
@@ -1180,7 +1180,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
    "dogu-500-1281",
    "zincir-basi"
   ],
-  "d": "Li Yuanhao altar kurdurup imparator ilan etti, devlet adını Büyük Xia koydu; Xiazhou Dangxiang yönetimi Batı Xia devletine dönüştü, Hexi (Ganzhou, Shazhou) Batı Xia’nın bir parçası oldu. (Zhangye (Ganzhou) sahibi xiazhou-dangxiang → bati-xia) ‖ Li Yuanhao altar kurdurup imparator ilan etti, devlet adını Büyük Xia koydu; Xiazhou Dangxiang yönetimi Batı Xia devletine dönüştü, Hexi (Ganzhou, Shazhou) Batı Xia’nın bir parçası oldu. (Dunhuang sahibi Xiazhou Dangxiang Yönetimi (Dingnan jun) → Batı Xia (Tangut) Devleti) ‖ Yerleşimin kaynaklı sahiplik zincirinin başlangıç günü budur; bu günden önce için kayıt yoktur. ‖ Zhangye (Ganzhou) yerleşiminin sahibi Xiazhou Dangxiang Yönetimi (Dingnan jun) iken Batı Xia oldu. Ayrıntı ve kaynak aşağıdadır. ‖ Dunhuang yerleşiminin sahibi Xiazhou Dangxiang Yönetimi (Dingnan jun) iken Batı Xia oldu. Ayrıntı ve kaynak aşağıdadır.",
+  "ic_not_ham_d":"Li Yuanhao altar kurdurup imparator ilan etti, devlet adını Büyük Xia koydu; Xiazhou Dangxiang yönetimi Batı Xia devletine dönüştü, Hexi (Ganzhou, Shazhou) Batı Xia’nın bir parçası oldu. (Zhangye (Ganzhou) sahibi xiazhou-dangxiang → bati-xia) ‖ Li Yuanhao altar kurdurup imparator ilan etti, devlet adını Büyük Xia koydu; Xiazhou Dangxiang yönetimi Batı Xia devletine dönüştü, Hexi (Ganzhou, Shazhou) Batı Xia’nın bir parçası oldu. (Dunhuang sahibi Xiazhou Dangxiang Yönetimi (Dingnan jun) → Batı Xia (Tangut) Devleti) ‖ Yerleşimin kaynaklı sahiplik zincirinin başlangıç günü budur; bu günden önce için kayıt yoktur. ‖ Zhangye (Ganzhou) yerleşiminin sahibi Xiazhou Dangxiang Yönetimi (Dingnan jun) iken Batı Xia oldu. Ayrıntı ve kaynak aşağıdadır. ‖ Dunhuang yerleşiminin sahibi Xiazhou Dangxiang Yönetimi (Dingnan jun) iken Batı Xia oldu. Ayrıntı ve kaynak aşağıdadır.", "d": "Li Yuanhao altar kurdurup imparator ilan etti, devlet adını Büyük Xia koydu; Xiazhou Dangxiang yönetimi Batı Xia devletine dönüştü, Hexi (Ganzhou, Shazhou) Batı Xia’nın bir parçası oldu. (Zhangye (Ganzhou) sahibi Xiazhou Dangxiang Yönetimi (Dingnan jun) → Batı Xia (Tangut) Devleti) ‖ Li Yuanhao altar kurdurup imparator ilan etti, devlet adını Büyük Xia koydu; Xiazhou Dangxiang yönetimi Batı Xia devletine dönüştü, Hexi (Ganzhou, Shazhou) Batı Xia’nın bir parçası oldu. (Dunhuang sahibi Xiazhou Dangxiang Yönetimi (Dingnan jun) → Batı Xia (Tangut) Devleti) ‖ Yerleşimin kaynaklı sahiplik zincirinin başlangıç günü budur; bu günden önce için kayıt yoktur. ‖ Zhangye (Ganzhou) yerleşiminin sahibi Xiazhou Dangxiang Yönetimi (Dingnan jun) iken Batı Xia oldu. Ayrıntı ve kaynak aşağıdadır. ‖ Dunhuang yerleşiminin sahibi Xiazhou Dangxiang Yönetimi (Dingnan jun) iken Batı Xia oldu. Ayrıntı ve kaynak aşağıdadır.",
   "kaynak": "Song shi, juan 485 (okundu): «宋寶元元年，…遂築壇受冊，即皇帝位，時年三十。»; «元昊既悉有夏、銀、綏、宥、靜、靈、鹽、會、勝、甘、涼、瓜、沙、肅» ‖ Tuotuo vd., Song shi, juan 485 «Waiguo 1: Xia guo shang» (zh.wikisource.org/wiki/宋史/卷485, okundu): 「乾興元年……明年，攻慶州柔遠砦，……德明城懷遠鎮為興州以居。」 · BEYAN: Xia devleti 1038'de ilan edildi (künye f); Xingzhou 1023'te Li Deming tarafından kuruldu (kronoloji maddesi); 1023-1038 sahibi künye genişletilince (bati-xia f) eklenmeli. kur=1023-01-01 (Xingzhou) önerilir. ‖ Song Lian vd., Yuan shi, juan 60 «Dili zhi 3» (zh.wikisource.org/wiki/元史/卷060): 「甘州路…」; Zhangye (Ganzhou) Xia tarafında: Yuan shi 60 «山丹州…宋初為夏國所有，置甘肅軍» · Song shi 485 (cin2 piece: Ganzhou 1028 alındı); Xia kuruluşu 1038 (cin2/cin3 xiazhou-dangxiang bitişi) ‖ BİTİŞ (YIL DÜZEYİ): Yuan shi, juan 1 (zh.wikisource.org/wiki/元史/卷001): 「二十一年〔丙戌〕春…夏，避暑於渾垂山。取甘、肅等州。」 (1226 yazı; gün/ay yok: YYYY-01-01 kuralı). ‖ Yuan shi, juan 60 «Dili zhi 3» (zh.wikisource.org/wiki/元史/卷060): 「沙州路，唐為沙州，又為燉煌郡。宋仍為沙州，景祐初，西夏陷瓜、沙、肅三州，盡得河西故地。金因之。元太祖二十二年，破其城以隸八都大王。」 (景祐初 = 1034-1038; cin2 xiazhou-dangxiang 1036-1038 ile Xia hâkimiyeti 1038 künyesine bağlanır; yıl düzeyi) ‖ BİTİŞ (YIL DÜZEYİ): 「元太祖二十二年，破其城以隸八都大王」 (1227; gün/ay yok: YYYY-01-01 kuralı; Batı Xia künye t=1227-01-01 ile aynı).",
   "ic_not_ham_gun":"1038 (Baoyuan 1) — ay/gün yok (künye t/f=1038-01-01)", "gun": "1038 (yalnız yıl biliniyor)",
   "kesinlik": "yil",
@@ -1725,7 +1725,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
   "taraflar": [
    "nara-japonya"
   ],
-  "b": "Heijō-kyō'ya taşınma: Nara dönemi: Hakata (Fukuoka) sahibi nara-japonya oldu",
+  "ic_not_ham_b":"Heijō-kyō'ya taşınma: Nara dönemi: Hakata (Fukuoka) sahibi nara-japonya oldu", "b": "Heijō-kyō'ya taşınma: Nara dönemi: Hakata (Fukuoka) sahibi Japonya - Nara Donemi Imparatorluk Sarayi oldu",
   "tur": "toprak-kazanc",
   "onem": 1,
   "dunya": 1,
@@ -1737,7 +1737,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
    "konu-siyasi",
    "dogu-500-1281"
   ],
-  "d": "Hakata (Fukuoka), 0710-04-13 tarihinde nara-japonya polity'sine/dönemine geçti (Heijō-kyō'ya taşınma: Nara dönemi). ‖ Osaka, 0710-04-13 tarihinde nara-japonya polity'sine/dönemine geçti (Heijō-kyō'ya taşınma: Nara dönemi). ‖ Nara, 0710-04-13 tarihinde nara-japonya polity'sine/dönemine geçti (Heijō-kyō'ya taşınma: Nara dönemi).",
+  "ic_not_ham_d":"Hakata (Fukuoka), 0710-04-13 tarihinde nara-japonya polity'sine/dönemine geçti (Heijō-kyō'ya taşınma: Nara dönemi). ‖ Osaka, 0710-04-13 tarihinde nara-japonya polity'sine/dönemine geçti (Heijō-kyō'ya taşınma: Nara dönemi). ‖ Nara, 0710-04-13 tarihinde nara-japonya polity'sine/dönemine geçti (Heijō-kyō'ya taşınma: Nara dönemi).", "d": "Hakata (Fukuoka), 0710-04-13 tarihinde Japonya - Nara Donemi Imparatorluk Sarayi polity'sine/dönemine geçti (Heijō-kyō'ya taşınma: Nara dönemi). ‖ Osaka, 0710-04-13 tarihinde Japonya - Nara Donemi Imparatorluk Sarayi polity'sine/dönemine geçti (Heijō-kyō'ya taşınma: Nara dönemi). ‖ Nara, 0710-04-13 tarihinde Japonya - Nara Donemi Imparatorluk Sarayi polity'sine/dönemine geçti (Heijō-kyō'ya taşınma: Nara dönemi).",
   "kaynak": "Shoku Nihongi j.5, Wadō 3 (710) (zh.wikisource.org/wiki/續日本紀/卷第五, okundu): 「三月…辛酉。始遷都于平城。以左大臣正二位石上朝臣麻呂爲留守。」",
   "gun": "Wadō 3/3 (710)",
   "kesinlik": "gun",
@@ -1751,7 +1751,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
   "taraflar": [
    "heian-japonya"
   ],
-  "b": "Heian-kyō'ya taşınma: Heian dönemi: Hakata (Fukuoka) sahibi heian-japonya oldu",
+  "ic_not_ham_b":"Heian-kyō'ya taşınma: Heian dönemi: Hakata (Fukuoka) sahibi heian-japonya oldu", "b": "Heian-kyō'ya taşınma: Heian dönemi: Hakata (Fukuoka) sahibi Japonya — Heian Dönemi İmparatorluk Sarayı oldu",
   "tur": "toprak-kazanc",
   "onem": 1,
   "dunya": 1,
@@ -1763,7 +1763,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
    "konu-siyasi",
    "dogu-500-1281"
   ],
-  "d": "Hakata (Fukuoka), 0794-11-18 tarihinde heian-japonya polity'sine/dönemine geçti (Heian-kyō'ya taşınma: Heian dönemi). ‖ Kyoto, 0794-11-18 tarihinde heian-japonya polity'sine/dönemine geçti (Heian-kyō'ya taşınma: Heian dönemi). ‖ Osaka, 0794-11-18 tarihinde heian-japonya polity'sine/dönemine geçti (Heian-kyō'ya taşınma: Heian dönemi). ‖ Nara, 0794-11-18 tarihinde heian-japonya polity'sine/dönemine geçti (Heian-kyō'ya taşınma: Heian dönemi).",
+  "ic_not_ham_d":"Hakata (Fukuoka), 0794-11-18 tarihinde heian-japonya polity'sine/dönemine geçti (Heian-kyō'ya taşınma: Heian dönemi). ‖ Kyoto, 0794-11-18 tarihinde heian-japonya polity'sine/dönemine geçti (Heian-kyō'ya taşınma: Heian dönemi). ‖ Osaka, 0794-11-18 tarihinde heian-japonya polity'sine/dönemine geçti (Heian-kyō'ya taşınma: Heian dönemi). ‖ Nara, 0794-11-18 tarihinde heian-japonya polity'sine/dönemine geçti (Heian-kyō'ya taşınma: Heian dönemi).", "d": "Hakata (Fukuoka), 0794-11-18 tarihinde Japonya — Heian Dönemi İmparatorluk Sarayı polity'sine/dönemine geçti (Heian-kyō'ya taşınma: Heian dönemi). ‖ Kyoto, 0794-11-18 tarihinde Japonya — Heian Dönemi İmparatorluk Sarayı polity'sine/dönemine geçti (Heian-kyō'ya taşınma: Heian dönemi). ‖ Osaka, 0794-11-18 tarihinde Japonya — Heian Dönemi İmparatorluk Sarayı polity'sine/dönemine geçti (Heian-kyō'ya taşınma: Heian dönemi). ‖ Nara, 0794-11-18 tarihinde Japonya — Heian Dönemi İmparatorluk Sarayı polity'sine/dönemine geçti (Heian-kyō'ya taşınma: Heian dönemi).",
   "kaynak": "Nihon Kōki j.3, Enryaku 13 (794) (zh.wikisource.org/wiki/日本後紀/卷第三, okundu): 「十月…辛酉。車駕遷于新京。」 · 「丁丑。詔。…宜改山背国、為山城国。又子来之民、謳歌之輩、異口同辞、号曰平安京。」",
   "gun": "Enryaku 13/10 (794)",
   "kesinlik": "gun",
@@ -1805,7 +1805,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
   "taraflar": [
    "heian-japonya"
   ],
-  "b": "Yoritomo Kamakura'ya girdi: Kamakura sahibi heian-japonya oldu",
+  "ic_not_ham_b":"Yoritomo Kamakura'ya girdi: Kamakura sahibi heian-japonya oldu", "b": "Yoritomo Kamakura'ya girdi: Kamakura sahibi Japonya — Heian Dönemi İmparatorluk Sarayı oldu",
   "tur": "toprak-kazanc",
   "onem": 1,
   "dunya": 1,
@@ -1817,7 +1817,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
    "konu-siyasi",
    "dogu-500-1281"
   ],
-  "d": "Kamakura, 1180-11-04 tarihinde heian-japonya polity'sine/dönemine geçti (Yoritomo Kamakura'ya girdi).",
+  "ic_not_ham_d":"Kamakura, 1180-11-04 tarihinde heian-japonya polity'sine/dönemine geçti (Yoritomo Kamakura'ya girdi).", "d": "Kamakura, 1180-11-04 tarihinde Japonya — Heian Dönemi İmparatorluk Sarayı polity'sine/dönemine geçti (Yoritomo Kamakura'ya girdi).",
   "kaynak": "Azuma Kagami j.1, Jishō 4 (1180) (zh.wikisource.org/wiki/吾妻鏡/卷001, okundu): 「十月小十五日甲午。武衛始入御鎌倉御亭。此間爲景義奉行所令修理也。」",
   "gun": "Jishō 4/10/15 (1180)",
   "kesinlik": "gun",
@@ -2947,7 +2947,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
   "taraflar": [
    "mayapan-birligi"
   ],
-  "b": "Mayapán: mayapan-birligi egemenliği başladı",
+  "ic_not_ham_b":"Mayapán: mayapan-birligi egemenliği başladı", "b": "Mayapán: Mayapan Birligi (Mayapan Ligi) egemenliği başladı",
   "tur": "toprak-kazanc",
   "onem": 2,
   "dunya": 1,
@@ -2970,7 +2970,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
   "taraflar": [
    "aymara-senyorlukler"
   ],
-  "b": "Chucuito: aymara-senyorlukler egemenliği başladı",
+  "ic_not_ham_b":"Chucuito: aymara-senyorlukler egemenliği başladı", "b": "Chucuito: Altiplano Aymara Krallıkları (Colla/Lupaqa) egemenliği başladı",
   "tur": "toprak-kazanc",
   "onem": 2,
   "dunya": 1,
@@ -7276,7 +7276,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
   "taraflar": [
    "chimu-krallik"
   ],
-  "b": "Chan Chan: chimu-krallik egemenliği başladı",
+  "ic_not_ham_b":"Chan Chan: chimu-krallik egemenliği başladı", "b": "Chan Chan: Chimu Krallığı (Chimor) egemenliği başladı",
   "tur": "toprak-kazanc",
   "onem": 2,
   "dunya": 1,
@@ -7299,7 +7299,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
   "taraflar": [
    "kuzco-krallik"
   ],
-  "b": "Cusco: kuzco-krallik egemenliği başladı",
+  "ic_not_ham_b":"Cusco: kuzco-krallik egemenliği başladı", "b": "Cusco: Kuzco Krallığı (Hurin-Hanan, Inka öncesi/erken) egemenliği başladı",
   "tur": "toprak-kazanc",
   "onem": 2,
   "dunya": 1,
@@ -8440,7 +8440,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
   "taraflar": [
    "idil-bulgar"
   ],
-  "b": "Bulgar: idil-bulgar egemenliği başladı",
+  "ic_not_ham_b":"Bulgar: idil-bulgar egemenliği başladı", "b": "Bulgar: İdil (Volga) Bulgar Hanlığı egemenliği başladı",
   "tur": "toprak-kazanc",
   "onem": 2,
   "dunya": 1,
@@ -10844,7 +10844,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
   "taraflar": [
    "kevkev-erken"
   ],
-  "b": "Gao: kevkev-erken egemenliği başladı",
+  "ic_not_ham_b":"Gao: kevkev-erken egemenliği başladı", "b": "Gao: Kevkev (Gao) — Erken Dönem egemenliği başladı",
   "tur": "toprak-kazanc",
   "onem": 2,
   "dunya": 1,
@@ -10913,7 +10913,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
   "taraflar": [
    "afrigoglu-harezm"
   ],
-  "b": "Köhne Ürgenç: afrigoglu-harezm egemenliği başladı",
+  "ic_not_ham_b":"Köhne Ürgenç: afrigoglu-harezm egemenliği başladı", "b": "Köhne Ürgenç: Afrigoğulları (Hârizmşahlar, Kât) egemenliği başladı",
   "tur": "toprak-kazanc",
   "onem": 2,
   "dunya": 1,
@@ -10936,7 +10936,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
   "taraflar": [
    "ganzhou-uygur"
   ],
-  "b": "Zhangye: ganzhou-uygur egemenliği başladı",
+  "ic_not_ham_b":"Zhangye: ganzhou-uygur egemenliği başladı", "b": "Zhangye: Ganzhou Uygur Krallığı (Hexi) egemenliği başladı",
   "tur": "toprak-kazanc",
   "onem": 2,
   "dunya": 1,
@@ -10984,7 +10984,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
   "taraflar": [
    "liang-guney"
   ],
-  "b": "Hanoi: liang-guney egemenliği başladı",
+  "ic_not_ham_b":"Hanoi: liang-guney egemenliği başladı", "b": "Hanoi: Liang (Guney Hanedani) egemenliği başladı",
   "tur": "toprak-kazanc",
   "onem": 2,
   "dunya": 1,
@@ -11007,7 +11007,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
   "taraflar": [
    "hamsavati-pegu"
   ],
-  "b": "Pegu: hamsavati-pegu egemenliği başladı",
+  "ic_not_ham_b":"Pegu: hamsavati-pegu egemenliği başladı", "b": "Pegu: Hamsavati (Pegu) Mon Krallığı egemenliği başladı",
   "tur": "toprak-kazanc",
   "onem": 2,
   "dunya": 1,
@@ -11053,7 +11053,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
   "taraflar": [
    "bali-warmadewa"
   ],
-  "b": "Bali: bali-warmadewa egemenliği başladı",
+  "ic_not_ham_b":"Bali: bali-warmadewa egemenliği başladı", "b": "Bali: Bali Krallığı (Warmadewa Hanedanı) egemenliği başladı",
   "tur": "toprak-kazanc",
   "onem": 2,
   "dunya": 1,
@@ -11099,7 +11099,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
   "taraflar": [
    "lan-na"
   ],
-  "b": "Chiang Rai: lan-na egemenliği başladı",
+  "ic_not_ham_b":"Chiang Rai: lan-na egemenliği başladı", "b": "Chiang Rai: Lan Na Krallığı egemenliği başladı",
   "tur": "toprak-kazanc",
   "onem": 2,
   "dunya": 1,
@@ -11168,7 +11168,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
   "taraflar": [
    "multan-emirligi"
   ],
-  "b": "Multan: multan-emirligi egemenliği başladı",
+  "ic_not_ham_b":"Multan: multan-emirligi egemenliği başladı", "b": "Multan: Multan Emirliği (Munebbihî / Karmatî) egemenliği başladı",
   "tur": "toprak-kazanc",
   "onem": 2,
   "dunya": 1,
@@ -11191,7 +11191,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
   "taraflar": [
    "kalacuri-ratnapura"
   ],
-  "b": "Ratanpur: kalacuri-ratnapura egemenliği başladı",
+  "ic_not_ham_b":"Ratanpur: kalacuri-ratnapura egemenliği başladı", "b": "Ratanpur: Kalachuri Hanedanı — Ratnapura (Ratanpur) egemenliği başladı",
   "tur": "toprak-kazanc",
   "onem": 2,
   "dunya": 1,
@@ -11214,7 +11214,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
   "taraflar": [
    "varman-vanga"
   ],
-  "b": "Sonârgâon: varman-vanga egemenliği başladı",
+  "ic_not_ham_b":"Sonârgâon: varman-vanga egemenliği başladı", "b": "Sonârgâon: Varman Hanedanı (Vikramapura, Doğu Bengal) egemenliği başladı",
   "tur": "toprak-kazanc",
   "onem": 2,
   "dunya": 1,
@@ -11237,7 +11237,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
   "taraflar": [
    "multan-emirligi"
   ],
-  "b": "Lahor: multan-emirligi egemenliği başladı",
+  "ic_not_ham_b":"Lahor: multan-emirligi egemenliği başladı", "b": "Lahor: Multan Emirliği (Munebbihî / Karmatî) egemenliği başladı",
   "tur": "toprak-kazanc",
   "onem": 2,
   "dunya": 1,
@@ -11260,7 +11260,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
   "taraflar": [
    "ryukyu-shunten-eiso"
   ],
-  "b": "Urasoe Gusuku: ryukyu-shunten-eiso egemenliği başladı",
+  "ic_not_ham_b":"Urasoe Gusuku: ryukyu-shunten-eiso egemenliği başladı", "b": "Urasoe Gusuku: Ryukyu Shunten ve Eiso (Urasoe) egemenliği başladı",
   "tur": "toprak-kazanc",
   "onem": 2,
   "dunya": 1,
@@ -11283,7 +11283,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
   "taraflar": [
    "sui-xia-dou-jiande"
   ],
-  "b": "Leshou: sui-xia-dou-jiande egemenliğinde ilk kaynaklı kayıt (kuruluş/ilk tanık)",
+  "ic_not_ham_b":"Leshou: sui-xia-dou-jiande egemenliğinde ilk kaynaklı kayıt (kuruluş/ilk tanık)", "b": "Leshou: Xia (Dou Jiande, 夏) egemenliğinde ilk kaynaklı kayıt (kuruluş/ilk tanık)",
   "tur": "toprak-kazanc",
   "onem": 2,
   "dunya": 1,
@@ -11421,7 +11421,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
   "taraflar": [
    "bati-calukya"
   ],
-  "b": "Kalyani: bati-calukya egemenliğinde ilk kaynaklı kayıt (kuruluş/ilk tanık)",
+  "ic_not_ham_b":"Kalyani: bati-calukya egemenliğinde ilk kaynaklı kayıt (kuruluş/ilk tanık)", "b": "Kalyani: Batı Çalukya (Kalyani Çalukyaları) egemenliğinde ilk kaynaklı kayıt (kuruluş/ilk tanık)",
   "tur": "toprak-kazanc",
   "onem": 2,
   "dunya": 1,
@@ -11467,7 +11467,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
   "taraflar": [
    "chapa-vardhamana"
   ],
-  "b": "Wadhwan: chapa-vardhamana egemenliğinde ilk kaynaklı kayıt (kuruluş/ilk tanık)",
+  "ic_not_ham_b":"Wadhwan: chapa-vardhamana egemenliğinde ilk kaynaklı kayıt (kuruluş/ilk tanık)", "b": "Wadhwan: Chapa (Chavotaka) Hanedanı — Vardhamana (Wadhwan) egemenliğinde ilk kaynaklı kayıt (kuruluş/ilk tanık)",
   "tur": "toprak-kazanc",
   "onem": 2,
   "dunya": 1,
@@ -11490,7 +11490,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
   "taraflar": [
    "seylan-sinhala"
   ],
-  "b": "Dambadeniya: seylan-sinhala egemenliğinde ilk kaynaklı kayıt (kuruluş/ilk tanık)",
+  "ic_not_ham_b":"Dambadeniya: seylan-sinhala egemenliğinde ilk kaynaklı kayıt (kuruluş/ilk tanık)", "b": "Dambadeniya: Seylan Sinhala Krallıkları (Portekiz Öncesi) egemenliğinde ilk kaynaklı kayıt (kuruluş/ilk tanık)",
   "tur": "toprak-kazanc",
   "onem": 2,
   "dunya": 1,
@@ -11559,7 +11559,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
   "taraflar": [
    "wagadu-gane-erken"
   ],
-  "b": "Kumbî Sâlih: wagadu-gane-erken egemenliğinde ilk kaynaklı kayıt (kuruluş/ilk tanık)",
+  "ic_not_ham_b":"Kumbî Sâlih: wagadu-gane-erken egemenliğinde ilk kaynaklı kayıt (kuruluş/ilk tanık)", "b": "Kumbî Sâlih: Wagadu (Gāne) — Erken Dönem egemenliğinde ilk kaynaklı kayıt (kuruluş/ilk tanık)",
   "tur": "toprak-kazanc",
   "onem": 2,
   "dunya": 1,
@@ -11582,7 +11582,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
   "taraflar": [
    "tikal-mutul"
   ],
-  "b": "Tikal: tikal-mutul egemenliğinde ilk kaynaklı kayıt (kuruluş/ilk tanık)",
+  "ic_not_ham_b":"Tikal: tikal-mutul egemenliğinde ilk kaynaklı kayıt (kuruluş/ilk tanık)", "b": "Tikal: Mutul (Tikal) Krallığı egemenliğinde ilk kaynaklı kayıt (kuruluş/ilk tanık)",
   "tur": "toprak-kazanc",
   "onem": 2,
   "dunya": 1,
@@ -11628,7 +11628,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
   "taraflar": [
    "palenque-baak"
   ],
-  "b": "Palenque: palenque-baak egemenliğinde ilk kaynaklı kayıt (kuruluş/ilk tanık)",
+  "ic_not_ham_b":"Palenque: palenque-baak egemenliğinde ilk kaynaklı kayıt (kuruluş/ilk tanık)", "b": "Palenque: Palenque (Bakʼ) Krallığı egemenliğinde ilk kaynaklı kayıt (kuruluş/ilk tanık)",
   "tur": "toprak-kazanc",
   "onem": 2,
   "dunya": 1,
@@ -11697,7 +11697,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
   "taraflar": [
    "tilantongo-mixtek"
   ],
-  "b": "Tilantongo: tilantongo-mixtek egemenliğinde ilk kaynaklı kayıt (kuruluş/ilk tanık)",
+  "ic_not_ham_b":"Tilantongo: tilantongo-mixtek egemenliğinde ilk kaynaklı kayıt (kuruluş/ilk tanık)", "b": "Tilantongo: Mixtek Krallıkları (Ñuu Dzahui) / Tilantongo egemenliğinde ilk kaynaklı kayıt (kuruluş/ilk tanık)",
   "tur": "toprak-kazanc",
   "onem": 2,
   "dunya": 1,
@@ -11720,7 +11720,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
   "taraflar": [
    "el-tajin"
   ],
-  "b": "El Tajín: el-tajin egemenliğinde ilk kaynaklı kayıt (kuruluş/ilk tanık)",
+  "ic_not_ham_b":"El Tajín: el-tajin egemenliğinde ilk kaynaklı kayıt (kuruluş/ilk tanık)", "b": "El Tajín: El Tajín (Totonak) egemenliğinde ilk kaynaklı kayıt (kuruluş/ilk tanık)",
   "tur": "toprak-kazanc",
   "onem": 2,
   "dunya": 1,
