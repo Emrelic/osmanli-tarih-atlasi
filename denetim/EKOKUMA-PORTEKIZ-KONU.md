@@ -6,6 +6,16 @@
 - J. Hermann, «El Ksar El-Kebir», História: Questões & Debates 45 (2006), s. 11-28 (baş ve son bölümler; orta kısımda kronik dökümünün bir parçası atlandı).
 - Tordesillas Antlaşması metni, Avalon Project (İngilizce çeviri).
 
+### İkinci parti (dosya `data/ekokuma_dev_portekiz_02.js`, 9 kart + 3 kişi)
+- A. C. Araújo, «The 1755 Lisbon Earthquake», Storicamente 17 (2021) (metnin tamamı).
+- G. Silva dos Santos, Tempo 20 (2014), Marcocci-Paiva değerlendirmesi (tam metin; kitabın kendisi okunmadı).
+- Bonifácio vd., Anais de História de Além-Mar XIX (2018) (s. 163-168, 171-184).
+- J.-F. Schaub, Chronica Nova 23 (1996) (s. 381-389, 398-402).
+- I. de Lima Martins, Navigator 11 (s. 24-29 başı).
+- İkinci partide okunamayan: Lousada (comum.rcaap.pt, 403; yeniden denenmedi); Paiva (estudogeral.uc.pt, yönlendirme döngüsü); Cardoso (EJPH, 404); Sabioni (periodicos.uff.br, ad çözülemedi).
+- Birinci partinin kartlarına ikinci kaynak eklenmedi.
+- Yeni sıradaki adaylar: 1773 yeni/eski Hristiyan ayrımının kaldırılması; 1761 metropolde kölelik yasağı; 1820 Porto Devrimi; 1890 İngiliz Ültimatomu; 1910 Cumhuriyet; Aljubarrota ve Windsor (birinci listede, hâlâ yazılmadı).
+
 ## Okunamayanlar (BORÇ)
 - TDV İslâm Ansiklopedisi maddeleri (portekiz, vâdilmehâzin, hürmüz, diu, selman reis, pîrî reis, sebte, maskat, hadım süleyman paşa, seydi ali reis): site otomatik isteğe 403 verdi; yeniden denenmedi. Kartlar TDV ile karşılaştırılmadı.
 - Avelar, Sebastião ve kronikler (core.ac.uk): 403.
