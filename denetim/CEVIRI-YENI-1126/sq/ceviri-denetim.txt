@@ -1,5 +1,5 @@
 dil  tür       eksik   bayat   yetim   tavan (eksik/bayat)
 sq   arayuz        0       0       0   ◌ yayında değil (tavan sayılmaz)
 sq   devlet        0       0       0   ◌ yayında değil (tavan sayılmaz)
-sq   olay       1512       0       0   ◌ yayında değil (tavan sayılmaz)
+sq   olay       1171       0       0   ◌ yayında değil (tavan sayılmaz)
 ✓  çeviri tavanı aşılmadı · açık borç 0 madde (eksik+bayat)

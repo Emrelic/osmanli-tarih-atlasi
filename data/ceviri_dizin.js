@@ -958,23 +958,23 @@ window.CEVIRI_DIZIN = {
    ],
    [
     "ceviri_sq_olay_01.js",
-    "3e5a9b87"
+    "93dec447"
    ],
    [
     "ceviri_sq_olay_02.js",
-    "70e82b59"
+    "5d89dbcd"
    ],
    [
     "ceviri_sq_olay_03.js",
-    "e4e6b6cf"
+    "f26608b8"
    ],
    [
     "ceviri_sq_olay_04.js",
-    "8abcfb8b"
+    "f891e21f"
    ],
    [
     "ceviri_sq_olay_05.js",
-    "8eebde57"
+    "e30ec6a6"
    ]
   ]
  }
