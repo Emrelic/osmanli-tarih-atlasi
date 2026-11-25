@@ -1788,6 +1788,7 @@ Ceviri.ekle("it","arayuz",{
 "yüklenemedi — bölgeler çizilemedi, metin duruyor":["impossibile caricare — le regioni non possono essere disegnate, il testo resta", "b9872108"],
 "yükleniyor…":["caricamento…", "91b0563c"],
 "yıl":["anno", "8252e04d"],
+"yıl kaynakta yok (# yer tutucu)":["anno assente nelle fonti (# è un segnaposto)", "c1d97e14"],
 "{sonuc, olcum} yok":["{sonuc, olcum} assenti", "b16f2562"],
 "~# Kasım #":["~# novembre #", "93926cba"],
 "± # yıl":["± # anni", "bda5b78f"],

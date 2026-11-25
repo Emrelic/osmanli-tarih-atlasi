@@ -1791,6 +1791,7 @@ Ceviri.ekle("zh","arayuz",{
 "yüklenemedi — bölgeler çizilemedi, metin duruyor":["加载失败——无法绘制区域，文字保留", "b9872108"],
 "yükleniyor…":["加载中……", "91b0563c"],
 "yıl":["年", "8252e04d"],
+"yıl kaynakta yok (# yer tutucu)":["史料中无年份（#为占位符）", "c1d97e14"],
 "{sonuc, olcum} yok":["无{sonuc, olcum}", "b16f2562"],
 "~# Kasım #":["~11月#日，#年", "93926cba"],
 "± # yıl":["±#年", "bda5b78f"],
