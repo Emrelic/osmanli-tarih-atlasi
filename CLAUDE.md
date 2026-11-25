@@ -44,6 +44,12 @@ sabitli; sürüm değişikliği bilinçli yapılır).
   başka iş verilmez (yalnız koşuyu etkilemeyen hafif okuma). Mesai dışında HAVVA koşuyu Normal
   öncelikte sürdürür (dinamik öncelik betiği: eczane önce, kalanı koşu). Eczane işi hiçbir koşulda
   sekteye uğramaz.
+- 🔴 **MESAİ BİTİMİ = TAM KAYNAK** (Emre, 23 Kasım 2026): eczane mesaisi biter bitmez (Pzt-Cmt 19:00
+  sonrası, Pazar tüm gün) **HAVVA ve UMIT tüm kaynaklarını** (CPU, RAM, ajan sayısı) koşuya ve atlas/Claude
+  işlerine ayırır; mesai kısıtları (≤%25 CPU, ≤16 GB, tek iş/≤2 ajan) kalkar, tam denetle/paketle/ağır
+  ajan dalgası mesai dışında serbesttir. Eczane programı açıksa öncelik ona kalır (dinamik öncelik
+  betiği); ertesi gün 09:00'da mesai kısıtları geri gelir, ağır iş 09:00'dan önce durdurulur/hafifletilir.
+  İstisna: koşu belleği commit sınırına yaklaşıyorsa (boş pay <4 GB) yeni ağır iş açılmaz.
 - 🔴 **BULUT VE YENİ OTURUM ÖNERİSİ:** koordinatör, iş buluta ya da başka makineye ya da **yeni bir
   oturuma** uygunsa Emre'yi UYARIR ("bunu bulutta açalım / şu bilgisayarda açalım / yeni oturumda
   açalım"); bulut (claude/* dalları, `KASA-BULUT-DALLARI.md`) kaynak darlığında ve uzun, bağımsız işlerde
