@@ -527,7 +527,7 @@ Ceviri.ekle("ur","arayuz",{
 "(km / saniye — uzun yol uzun sürer)":["(کلومیٹر / سیکنڈ — لمبا راستہ دیر لیتا ہے)", "b3980f45"],
 "(kovalara girmedi; katman kutuları onları AÇIP KAPATAMAZ)":["(ٹوکریوں میں نہیں آئے؛ تہوں کے خانے انہیں کھول بند نہیں کر سکتے)", "faf7797f"],
 "(kuş uçuşu km'den türetildi — ölçülmüş değil)":["(سیدھے فاصلے کلومیٹر سے اخذ کیا — ناپا ہوا نہیں)", "faaabef2"],
-"(kırpmanın TAMAMI — hâl başına düşen = bu ÷ #; #'de # ms)":["(تراش کا مکمل حصہ — فی حالت = یہ ÷ #؛ # میں # ms)", "596f8af6"],
+"(kırpmanın TAMAMI — hâl başına düşen = bu ÷ #; #'de # ms)":["(جھپک کا پورا دورانیہ — فی حالت = یہ ÷ #؛ # میں # ms)", "596f8af6"],
 "(masaüstü ya da telefon düzeni; otomatik = cihaza göre)":["(ڈیسک ٹاپ یا فون کا لے آؤٹ؛ خودکار = آلے کے مطابق)", "587553eb"],
 "(nokta yeri olmayan olayda çevre boşluğu — piksel)":["(نقطے کی جگہ نہ رکھنے والے واقعے میں اطراف کا خلا — پکسل)", "724e4c31"],
 "(odak devlet büyüyünce görüş de büyüsün mü)":["(مرکزی ریاست بڑی ہو تو منظر بھی بڑا ہو؟)", "e4f3d65f"],
