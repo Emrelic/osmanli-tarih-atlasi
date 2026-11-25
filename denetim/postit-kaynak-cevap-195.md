@@ -1,7 +1,6 @@
-🤖 **Claude** — **Ne yaptım (karar: kaynak ara, bulunamayanı ayır)**
+🤖 **Claude** — #195 son karar uygulandı (25 Kasım)
 
-- İmralı: Belleten 65/243 (İlgürel 2001) "fethedildiği tarih bilinmiyor" diyor. Akyazı: TDV «Osman I» "1305 seferinden sonraki yıllar" diyor (yıl yok); Emecen, Belleten 84/300 (2020) kaynakların çeliştiğini yazıyor. Hiçbir kaynak 1324 vermiyor.
-- Madde **silinmedi**: iki yerleşimin 1324 kırılması bu maddeye bağlı (Değişmez 2); silseydim ikisi sahipsiz kalırdı. Bunun yerine madde "Osmanlı eline geçişi (tarih kaynakta yok)" diye yeniden yazıldı, 1324 "YER TUTUCU" ve kaynaksız beyan edildi. Yerleşim kayıtlarındaki yanlış "TDV Osmanlılar" dayanağı da aynı beyanla değişti.
-- Tarih bulununca madde ve iki kırılma birlikte taşınacak. Borç defterine yazıldı.
-
-**Sorum:** 1324 yer tutucu bu hâliyle kalsın mı, yoksa Akyazı için "1305 sonrası" alt sınırıyla yıl hassasiyetine mi çekelim (İmralı yer tutucu kalır)?
+- Hiçbir kaynak Akyazı ya da İmralı için 1324 vermiyor. Akyazı için yalnız **1305 sonrası** biliniyor (alt sınır); İmralı için alt sınır da yok (İlgürel, Belleten 65/243).
+- Fetih yılı kaynaklı bir "abi merkez" bağı da arandı (boşluk merdiveni ⑤); iki yer için de bulunamadı. İnalcık'ın Konur Alp / Düzce yazısı (2014) okunmadı.
+- Bu yüzden 1324 yalnız haritanın yer tutucusu olarak kaldı. Madde başlığı, gün alanı ve metni bunu görünür biçimde söylüyor: "yıl kaynakta yok; 1324 atlasın yer tutucusu, kaynak değil". İki yerleşim kaydında da aynı beyan var. 21 dile çevrildi.
+- Düzeltme `postit-kaynak-195` dalında; yayına KASA push kapısından geçince girer.
