@@ -15,7 +15,7 @@ window.KRONOLOJI_COK_INCE_GD_ASYA = [
 
 // ── EDO (TOKUGAWA) ŞOGUNLUĞU ───────────────────────────────────────
 { onem:5, dunya:2, bolge_onem:3, puan_s:"v2", t:"1615-01-01", k:"askeri",tur:"askeri", b:"Osaka Kalesi düştü — Toyotomi hanedanı sona erdi, Tokugawa'nın karşısında rakip kalmadı",
-  gun:"Haziran 1615 (Japon ay takvimi; Gregoryen çevrim kaynakta ayrıca sınanmadı)", yer:"Osaka", yer_id:"Osaka",
+  ic_not_ham_gun:"Haziran 1615 (Japon ay takvimi; Gregoryen çevrim kaynakta ayrıca sınanmadı)", gun:"Haziran 1615", yer:"Osaka", yer_id:"Osaka",
   kisiler:"Tokugawa Ieyasu, Toyotomi Hideyori",
   d:"Ieyasu, Sekigahara'dan (1600) sonra bile Osaka Kalesi'nde oturan Toyotomi Hideyori'yi 1614 kış ve 1615 yaz seferleriyle kuşattı. Kale 1615 yazında düştü, Hideyori ve annesi intihar etti. Bu, şogunluğa karşı örgütlü tek ciddi rakibin ortadan kalkması ve iki buçuk yüzyıllık «Tokugawa barışı»nın başlangıcıdır.",
   kaynak:"Marius B. Jansen, The Making of Modern Japan (Harvard UP, 2000) · John Whitney Hall (ed.), The Cambridge History of Japan, cilt 4: Early Modern Japan (Cambridge UP, 1991). Sayfa verilmedi.",
@@ -29,7 +29,7 @@ window.KRONOLOJI_COK_INCE_GD_ASYA = [
   taraflar:["edo-bakufu"], etiket:["konu-siyasi","konu-idari"] },
 
 { onem:4, dunya:2, bolge_onem:2, puan_s:"v2", odak_yer:["Kyoto"], t:"1638-01-01", k:"askeri",tur:"askeri", b:"Shimabara İsyanı bastırıldı — Hıristiyanlık yasağı ve ülkenin kapanması pekişti",
-  gun:"Nisan 1638 (Japon ay takvimi; isyan 1637 sonunda başlamıştı, Gregoryen çevrim sınanmadı)", yer:"Shimabara",
+  ic_not_ham_gun:"Nisan 1638 (Japon ay takvimi; isyan 1637 sonunda başlamıştı, Gregoryen çevrim sınanmadı)", gun:"Nisan 1638", yer:"Shimabara",
   kisiler:"Amakusa Shirō, Matsukura Katsuie",
   d:"Kyushu'da Shimabara ve Amakusa'da ağır vergi ve Hıristiyan baskısına karşı köylüler ve rōnin 1637 sonunda ayaklandı, Hara Kalesi'ne kapandı. Şogunluk, Hollanda gemilerinin desteğini de alarak kaleyi 1638 baharında aldı ve isyancıları topluca öldürdü. Portekizlilerin ülkeden çıkarılması ve dış ticaretin Hollanda ile Çin'e sınırlanması bu olayın ardından geldi.",
   kaynak:"Marius B. Jansen, The Making of Modern Japan (Harvard UP, 2000) · Cambridge History of Japan, cilt 4 (Cambridge UP, 1991). Sayfa verilmedi.",
@@ -49,8 +49,8 @@ window.KRONOLOJI_COK_INCE_GD_ASYA = [
   taraflar:["edo-bakufu"], etiket:["konu-diplomasi","konu-siyasi"] },
 
 { onem:5, dunya:2, bolge_onem:3, puan_s:"v2", t:"1867-01-01", k:"siyasi",tur:"siyasi", b:"Tokugawa Yoshinobu yönetimi imparatora geri verdi (Taisei Hōkan)",
-  gun:"Kasım 1867 (Japon ay takvimi; Gregoryen çevrim sınanmadı)", yer:"Kyoto", yer_id:"Kyoto", kisiler:"Tokugawa Yoshinobu",
-  d:"Son şogun Yoshinobu, Satsuma ve Chōshū'nun darbe hazırlığı karşısında 1867 sonbaharında yönetimi imparatora iade etti ve şogunluk devlet işlerinden fiilen çekildi. Bu, ocak 1868'deki Meiji Restorasyonu ilanından (künyenin bitiş günü) önceki son adımdır; Boshin Savaşı yine de çıkmıştır.",
+  ic_not_ham_gun:"Kasım 1867 (Japon ay takvimi; Gregoryen çevrim sınanmadı)", gun:"Kasım 1867", yer:"Kyoto", yer_id:"Kyoto", kisiler:"Tokugawa Yoshinobu",
+  ic_not_ham_d:"Son şogun Yoshinobu, Satsuma ve Chōshū'nun darbe hazırlığı karşısında 1867 sonbaharında yönetimi imparatora iade etti ve şogunluk devlet işlerinden fiilen çekildi. Bu, ocak 1868'deki Meiji Restorasyonu ilanından (künyenin bitiş günü) önceki son adımdır; Boshin Savaşı yine de çıkmıştır.", d:"Son şogun Yoshinobu, Satsuma ve Chōshū'nun darbe hazırlığı karşısında 1867 sonbaharında yönetimi imparatora iade etti ve şogunluk devlet işlerinden fiilen çekildi. Bu, ocak 1868'deki Meiji Restorasyonu ilanından önceki son adımdır; Boshin Savaşı yine de çıkmıştır.",
   kaynak:"William G. Beasley, The Meiji Restoration (Stanford UP, 1972) · Marius B. Jansen, The Making of Modern Japan (Harvard UP, 2000). Sayfa verilmedi.",
   taraflar:["edo-bakufu"], etiket:["konu-siyasi"],
   ic_not_t:"Yıl kaynaklı; gün ay takvimidir, çevrim uydurulmadı." },
@@ -77,7 +77,7 @@ window.KRONOLOJI_COK_INCE_GD_ASYA = [
 
 { onem:4, dunya:1, bolge_onem:3, puan_s:"v2", t:"1945-03-13", k:"siyasi",tur:"siyasi", b:"Sihanouk Japon baskısıyla Kamboçya'nın bağımsızlığını ilan etti",
   gun:"13 Mart 1945", yer:"Phnom Penh", yer_id:"Phnom Penh", kisiler:"Norodom Sihanouk",
-  d:"Japon kuvvetleri 9 Mart 1945'te Fransız idaresini devirince, Japonların isteğiyle Kral Sihanouk Fransa ile protektora antlaşmalarının feshedildiğini ve Kamboçya'nın bağımsız olduğunu açıkladı. Bağımsızlık Japon himayesinde kaldı; Japonya'nın teslimiyle Fransa ülkeyi yeniden aldı (künyenin bitişi 1945-09-02).",
+  ic_not_ham_d:"Japon kuvvetleri 9 Mart 1945'te Fransız idaresini devirince, Japonların isteğiyle Kral Sihanouk Fransa ile protektora antlaşmalarının feshedildiğini ve Kamboçya'nın bağımsız olduğunu açıkladı. Bağımsızlık Japon himayesinde kaldı; Japonya'nın teslimiyle Fransa ülkeyi yeniden aldı (künyenin bitişi 1945-09-02).", d:"Japon kuvvetleri 9 Mart 1945'te Fransız idaresini devirince, Japonların isteğiyle Kral Sihanouk Fransa ile protektora antlaşmalarının feshedildiğini ve Kamboçya'nın bağımsız olduğunu açıkladı. Bağımsızlık Japon himayesinde kaldı; Japonya'nın teslimiyle Fransa ülkeyi yeniden aldı.",
   kaynak:"David Chandler, A History of Cambodia (Westview Press, 4. bs., 2008). Sayfa verilmedi.",
   taraflar:["kamboc-kralligi"], etiket:["konu-siyasi"] },
 
@@ -145,13 +145,13 @@ window.KRONOLOJI_COK_INCE_GD_ASYA = [
 
 { onem:4, dunya:2, bolge_onem:4, puan_s:"v2", t:"1883-08-25", k:"siyasi",tur:"siyasi", b:"Harmand Antlaşması — Fransa Annam ve Tonkin üzerinde protektorayı dayattı",
   gun:"25 Ağustos 1883", yer:"Huế", yer_id:"Huế (Phú Xuân)",
-  d:"Tonkin'de Fransız ilerleyişi ve Hanoi'nin alınmasıyla Huế sarayı, Harmand antlaşmasını imzaladı: Fransa'nın Annam ve Tonkin üzerinde protektorası kabul edildi, Binh Thuan Cochinchina'ya katıldı. 1884 Huế Antlaşması (künye içindeki madde) bunu düzenledi ve Çin'in yönetim üzerindeki iddiasını da sona erdirdi.",
+  ic_not_ham_d:"Tonkin'de Fransız ilerleyişi ve Hanoi'nin alınmasıyla Huế sarayı, Harmand antlaşmasını imzaladı: Fransa'nın Annam ve Tonkin üzerinde protektorası kabul edildi, Binh Thuan Cochinchina'ya katıldı. 1884 Huế Antlaşması (künye içindeki madde) bunu düzenledi ve Çin'in yönetim üzerindeki iddiasını da sona erdirdi.", d:"Tonkin'de Fransız ilerleyişi ve Hanoi'nin alınmasıyla Huế sarayı, Harmand antlaşmasını imzaladı: Fransa'nın Annam ve Tonkin üzerinde protektorası kabul edildi, Binh Thuan Cochinchina'ya katıldı. 1884 Huế Antlaşması bunu düzenledi ve Çin'in yönetim üzerindeki iddiasını da sona erdirdi.",
   kaynak:"Nicholas Tarling (ed.), The Cambridge History of Southeast Asia, cilt 2 (Cambridge UP, 1992). Sayfa verilmedi.",
   taraflar:["nguyen-hanedani","fransiz-cinhindi"], etiket:["konu-siyasi","konu-diplomasi"] },
 
 { onem:4, dunya:2, bolge_onem:3, puan_s:"v2", t:"1945-03-11", k:"siyasi",tur:"siyasi", b:"Bảo Đại Japon baskısıyla Vietnam'ın bağımsızlığını ilan etti",
   gun:"11 Mart 1945", yer:"Huế", yer_id:"Huế (Phú Xuân)", kisiler:"Bảo Đại",
-  d:"Japonya'nın 9 Mart 1945'te Fransız yönetimini devirmesinin ardından, İmparator Bảo Đại Fransa ile antlaşmaların feshedildiğini ve Vietnam'ın Japon himayesinde bağımsız olduğunu ilan etti. Ağustos 1945'te Việt Minh ayaklanması sırasında Bảo Đại tahttan çekildi (künyenin bitişi).",
+  ic_not_ham_d:"Japonya'nın 9 Mart 1945'te Fransız yönetimini devirmesinin ardından, İmparator Bảo Đại Fransa ile antlaşmaların feshedildiğini ve Vietnam'ın Japon himayesinde bağımsız olduğunu ilan etti. Ağustos 1945'te Việt Minh ayaklanması sırasında Bảo Đại tahttan çekildi (künyenin bitişi).", d:"Japonya'nın 9 Mart 1945'te Fransız yönetimini devirmesinin ardından, İmparator Bảo Đại Fransa ile antlaşmaların feshedildiğini ve Vietnam'ın Japon himayesinde bağımsız olduğunu ilan etti. Ağustos 1945'te Việt Minh ayaklanması sırasında Bảo Đại tahttan çekildi.",
   kaynak:"Nicholas Tarling (ed.), The Cambridge History of Southeast Asia, cilt 2 (Cambridge UP, 1992). Sayfa verilmedi.",
   taraflar:["nguyen-hanedani"], etiket:["konu-siyasi"] },
 
@@ -205,7 +205,7 @@ window.KRONOLOJI_COK_INCE_GD_ASYA = [
 
 { onem:5, dunya:2, bolge_onem:3, puan_s:"v2", odak_yer:["Pekin"], t:"1388-01-01", k:"askeri",tur:"askeri", b:"Yi Seong-gye Wihwa Adası'ndan geri döndü — Goryeo'yu devirmenin eşiği",
   gun:"1388 (yıl; Haziran)", yer:"Wihwa", kisiler:"Yi Seong-gye, Choe Yeong",
-  d:"Ming'e karşı sefer için gönderilen General Yi Seong-gye, Yalu Nehri'ndeki Wihwa Adası'nda ordusunu geri döndürüp başkente yürüdü, Choe Yeong'u devirdi ve iktidarı ele aldı. Dört yıl sonra tahtı alıp Joseon'u kuracaktı (künyenin bitiş günü).",
+  ic_not_ham_d:"Ming'e karşı sefer için gönderilen General Yi Seong-gye, Yalu Nehri'ndeki Wihwa Adası'nda ordusunu geri döndürüp başkente yürüdü, Choe Yeong'u devirdi ve iktidarı ele aldı. Dört yıl sonra tahtı alıp Joseon'u kuracaktı (künyenin bitiş günü).", d:"Ming'e karşı sefer için gönderilen General Yi Seong-gye, Yalu Nehri'ndeki Wihwa Adası'nda ordusunu geri döndürüp başkente yürüdü, Choe Yeong'u devirdi ve iktidarı ele aldı. Dört yıl sonra tahtı alıp Joseon'u kuracaktı.",
   kaynak:"Ki-baik Lee, A New History of Korea (Harvard UP, 1984) · John B. Duncan, The Origins of the Chosŏn Dynasty (University of Washington Press, 2000). Sayfa verilmedi.",
   taraflar:["goryeo","ming-hanedani"], etiket:["konu-siyasi","konu-askeri"] },
 
@@ -273,7 +273,7 @@ window.KRONOLOJI_COK_INCE_GD_ASYA = [
 
 { onem:5, dunya:2, bolge_onem:3, puan_s:"v2", t:"1893-01-17", k:"siyasi",tur:"siyasi", b:"Kraliçe Liliuokalani devrildi — Hawaii Krallığı sona erdi",
   gun:"17 Ocak 1893", yer:"Honolulu", yer_id:"Honolulu", kisiler:"Liliuokalani, Sanford Dole",
-  d:"Amerikalı iş adamlarından oluşan Emniyet Komitesi ve Amerikan denizcilerinin desteğiyle Kraliçe Liliuokalani tahttan indirildi; geçici hükûmet kuruldu ve Amerika ile ilhak için müzakere etti. Hawaii 1894'te Cumhuriyet, 1898'de Amerikan ilhakıyla (künye bitişi) Birleşik Devletler toprağı oldu.",
+  ic_not_ham_d:"Amerikalı iş adamlarından oluşan Emniyet Komitesi ve Amerikan denizcilerinin desteğiyle Kraliçe Liliuokalani tahttan indirildi; geçici hükûmet kuruldu ve Amerika ile ilhak için müzakere etti. Hawaii 1894'te Cumhuriyet, 1898'de Amerikan ilhakıyla (künye bitişi) Birleşik Devletler toprağı oldu.", d:"Amerikalı iş adamlarından oluşan Emniyet Komitesi ve Amerikan denizcilerinin desteğiyle Kraliçe Liliuokalani tahttan indirildi; geçici hükûmet kuruldu ve Amerika ile ilhak için müzakere etti. Hawaii 1894'te Cumhuriyet, 1898'de Amerikan ilhakıyla Birleşik Devletler toprağı oldu.",
   kaynak:"Noenoe K. Silva, Aloha Betrayed: Native Hawaiian Resistance to American Colonialism (Duke UP, 2004) · Lilikalā Kameʻeleihiwa. Sayfa verilmedi.",
   taraflar:["hawaii-kralligi"], etiket:["konu-siyasi"] },
 
@@ -296,7 +296,7 @@ window.KRONOLOJI_COK_INCE_GD_ASYA = [
 // ── BANJAR ─────────────────────────────────────────────────────────
 { onem:3, dunya:1, bolge_onem:2, puan_s:"v2", odak_yer:["Batavia"], t:"1787-01-01", k:"siyasi",tur:"siyasi", b:"Banjar Sultanı VOC ile antlaşma yaptı — sultanlık Hollanda'ya vasal oldu",
   gun:"1787 (yıl)", yer:"Banjarmasin", kisiler:"Tahmidullah II",
-  d:"Sultan Tahmidullah II, Hollanda Doğu Hindistan Şirketi ile 1787'de yaptığı antlaşmayla tahtını Hollanda'nın korumasına bıraktı, bazı bölgeleri ve ticaret tekelini Şirket'e devretti. Sultanlık bu tarihten sonra Hollanda'ya tâbi bir devlet olarak kaldı; 1860'ta ilga edildi (künyenin bitişi).",
+  ic_not_ham_d:"Sultan Tahmidullah II, Hollanda Doğu Hindistan Şirketi ile 1787'de yaptığı antlaşmayla tahtını Hollanda'nın korumasına bıraktı, bazı bölgeleri ve ticaret tekelini Şirket'e devretti. Sultanlık bu tarihten sonra Hollanda'ya tâbi bir devlet olarak kaldı; 1860'ta ilga edildi (künyenin bitişi).", d:"Sultan Tahmidullah II, Hollanda Doğu Hindistan Şirketi ile 1787'de yaptığı antlaşmayla tahtını Hollanda'nın korumasına bıraktı, bazı bölgeleri ve ticaret tekelini Şirket'e devretti. Sultanlık bu tarihten sonra Hollanda'ya tâbi bir devlet olarak kaldı; 1860'ta ilga edildi.",
   kaynak:"M. C. Ricklefs, A History of Modern Indonesia since c. 1200 (Stanford UP, 4. bs., 2008). Sayfa verilmedi.",
   taraflar:["banjar-sultanligi","hollanda-dogu-hint"], etiket:["konu-siyasi","konu-diplomasi"] },
 

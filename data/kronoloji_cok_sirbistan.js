@@ -151,7 +151,7 @@ window.KRONOLOJI_COK_SIRBISTAN = [
 
 { t:"1833-01-01", b:"Altı nahiye özerk Sırbistan'a katıldı", tur:"toprak-kazanc",
   onem:4, dunya:1, kapsam:"dis", etiket:["toprak-kazanc","ozerklik","konu-idari"],
-  yer_id:"", odak_yer:"Kragujevac", devlet:"sirbistan-prensligi", gun:"1833 (hatt-ı şerifin günü bu turda doğrulanmadı)",
+  yer_id:"", odak_yer:"Kragujevac", devlet:"sirbistan-prensligi", ic_not_ham_gun:"1833 (hatt-ı şerifin günü bu turda doğrulanmadı)", gun:"1833",
   d:"1830 fermanının öngördüğü sınır düzenlemesiyle, Birinci İsyan sırasında Sırpların elinde bulunan ama 1813'te geri alınan altı nahiye özerk prensliğe bağlandı. Prensliğin toprağı böylece aşağı yukarı iki katına çıktı ve güneyde Timok ile Drina arasına yayıldı.",
   kaynak:"M. B. Petrovich, A History of Modern Serbia (1976). TDV `sirbistan` bu ilhaka ayrıca değinmiyor. Dikkat: Gün doğrulanmadı — YYYY-01-01." },
 
@@ -163,7 +163,7 @@ window.KRONOLOJI_COK_SIRBISTAN = [
 
 { t:"1838-01-01", b:"'Türk Anayasası' (Ustav) — Babıâli fermanıyla meclis ve danışma kurulu", tur:"anayasa",
   onem:3, dunya:1, kapsam:"dis", etiket:["anayasa","ozerklik","konu-hukuk","konu-diplomasi"],
-  yer_id:"Belgrad", devlet:"sirbistan-prensligi", gun:"Aralık 1838 (gün doğrulanmadı)",
+  yer_id:"Belgrad", devlet:"sirbistan-prensligi", ic_not_ham_gun:"Aralık 1838 (gün doğrulanmadı)", gun:"Aralık 1838 (günü bilinmiyor)",
   d:"Rusya ve Babıâli'nin anlaşmasıyla çıkarılan fermanla Sırbistan'a yeni bir teşkilât esası verildi; prensin yetkileri ömür boyu atanan bir danışma kuruluyla (Sovjet) sınırlandı. Belge Sırplar arasında 'Türk Anayasası' diye anıldı ve Miloş'un ertesi yıl tahttan çekilmesini hazırladı.",
   kaynak:"M. B. Petrovich, A History of Modern Serbia (1976)." },
 
@@ -175,19 +175,19 @@ window.KRONOLOJI_COK_SIRBISTAN = [
 
 { t:"1842-01-01", b:"Aleksandar Karađorđević Sırbistan prensi seçildi", tur:"hukumdar",
   onem:3, dunya:1, kapsam:"ic", etiket:["hukumdar","hanedan","konu-hanedan"],
-  yer_id:"Belgrad", devlet:"sirbistan-prensligi", gun:"Eylül 1842 (gün doğrulanmadı)",
+  yer_id:"Belgrad", devlet:"sirbistan-prensligi", ic_not_ham_gun:"Eylül 1842 (gün doğrulanmadı)", gun:"Eylül 1842 (günü bilinmiyor)",
   d:"Ustavobranitelji ('anayasa koruyucuları') hareketi Prens Mihailo Obrenoviç'i devirdi ve Kara Yorgi'nin oğlu Aleksandar'ı prens seçtirdi; Babıâli seçimi onayladı. Sırp tahtı böylece ilk kez Karađorđević ailesine geçti.",
   kaynak:"M. B. Petrovich, A History of Modern Serbia (1976)." },
 
 { t:"1844-01-01", b:"Sırp Medeni Kanunu kabul edildi", tur:"kanun",
   onem:2, dunya:1, kapsam:"ic", etiket:["kanun","reform","konu-hukuk"],
-  yer_id:"Belgrad", devlet:"sirbistan-prensligi", gun:"1844 (gün doğrulanmadı)",
+  yer_id:"Belgrad", devlet:"sirbistan-prensligi", ic_not_ham_gun:"1844 (gün doğrulanmadı)", gun:"1844 (yalnız yıl biliniyor)",
   d:"Avusturya medeni kanunu örnek alınarak hazırlanan Sırp Medeni Kanunu yürürlüğe girdi. Kanun, Osmanlı idaresinden çıkan toplumun mülkiyet, miras ve aile hukukunu Avrupa kalıplarına bağlayan ilk büyük kodifikasyondu.",
   kaynak:"M. B. Petrovich, A History of Modern Serbia (1976)." },
 
 { t:"1858-01-01", b:"Aziz Andreas Meclisi Aleksandar'ı devirdi, Miloş tahta döndü", tur:"hukumdar",
   onem:3, dunya:1, kapsam:"ic", etiket:["hukumdar","hanedan","konu-hanedan","konu-siyasi"],
-  yer_id:"Belgrad", devlet:"sirbistan-prensligi", gun:"Aralık 1858 (gün doğrulanmadı)",
+  yer_id:"Belgrad", devlet:"sirbistan-prensligi", ic_not_ham_gun:"Aralık 1858 (gün doğrulanmadı)", gun:"Aralık 1858 (günü bilinmiyor)",
   d:"Aziz Andreas gününde toplanan Sırp meclisi Prens Aleksandar Karađorđević'i tahttan indirdi ve yaşlı Miloş Obrenoviç'i geri çağırdı. Obrenović hanedanı bu dönüşle yeniden iktidara geldi.",
   kaynak:"M. B. Petrovich, A History of Modern Serbia (1976)." },
 
@@ -212,7 +212,7 @@ window.KRONOLOJI_COK_SIRBISTAN = [
 
 { t:"1869-01-01", b:"1869 Anayasası — meclisin yasama yetkisi genişledi", tur:"anayasa",
   onem:3, dunya:1, kapsam:"ic", etiket:["anayasa","reform","konu-siyasi","konu-hukuk"],
-  yer_id:"Belgrad", devlet:"sirbistan-prensligi", gun:"Temmuz 1869 (gün doğrulanmadı)",
+  yer_id:"Belgrad", devlet:"sirbistan-prensligi", ic_not_ham_gun:"Temmuz 1869 (gün doğrulanmadı)", gun:"Temmuz 1869 (günü bilinmiyor)",
   d:"Naipler döneminde, Babıâli'ye danışılmadan hazırlanan yeni anayasa kabul edildi; meclis (Skupština) yasama sürecine ortak edildi. Metin, özerk prensliğin kendi temel kanununu tek başına yapabildiğini gösteren fiilî bir egemenlik adımıydı.",
   kaynak:"M. B. Petrovich, A History of Modern Serbia (1976)." },
 
@@ -250,7 +250,7 @@ window.KRONOLOJI_COK_SIRBISTAN = [
 
 { t:"1906-01-01", b:"'Domuz Savaşı' — Avusturya-Macaristan ile gümrük savaşı", tur:"ekonomi",
   onem:3, dunya:2, kapsam:"dis", etiket:["ekonomi","kriz","konu-ekonomi","konu-diplomasi"],
-  yer_id:"Belgrad", devletler:["sirbistan-kralligi","habsburg"], gun:"1906 (gün doğrulanmadı) — 1911'e dek sürdü",
+  yer_id:"Belgrad", devletler:["sirbistan-kralligi","habsburg"], ic_not_ham_gun:"1906 (gün doğrulanmadı) — 1911'e dek sürdü", gun:"1906 (yalnız yıl biliniyor)",
   d:"Sırbistan'ın silah siparişini Fransa'ya vermesi ve Bulgaristan'la gümrük birliğine yönelmesi üzerine Avusturya-Macaristan, Sırp ihracatının belkemiği olan canlı hayvana sınırını kapattı. Sırbistan yeni pazarlar bularak dayandı; kriz Belgrad'ı Viyana'dan kopararak Rusya'ya yaklaştırdı.",
   kaynak:"B. Jelavich, History of the Balkans II (1983)." },
 

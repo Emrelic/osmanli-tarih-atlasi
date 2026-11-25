@@ -204,7 +204,7 @@ window.KRONOLOJI_KIRIM = [
   yer_id:"Astrahan",
   d:"Osmanlı'nın Don-Volga kanalını açıp Astarhan'ı geri almayı hedefleyen büyük seferine Devlet Giray açıkça karşı çıkamasa da gerekli desteği vermekten kaçındı — Kırım'ın kendi bölgesel çıkarlarının Osmanlı'nın stratejik hedefleriyle her zaman örtüşmediğinin erken bir örneğidir. Sefer başarısız oldu.",
   kaynak:"kirim, devlet-giray (TDV)" },
-{ t:"1571-05-24", gun:"24 Mayıs 1571 — Acar (2013); TDV `devlet-giray` yalnız yıl veriyor · eski t 1571-01-01 (yıl hassasiyeti) · takvim: 1571 Gregoryen reformundan (1582) önce, gün kaynağın verdiği biçimde", b:"Devlet Giray, Oka Nehri savunma hattını yararak Moskova önlerine ulaştı ve şehri ateşe verdi — \"Taht-algan\" unvanı verildi", tur:"savas", onem:5, dunya:3, kapsam:"dis",
+{ t:"1571-05-24", ic_not_ham_gun:"24 Mayıs 1571 — Acar (2013); TDV `devlet-giray` yalnız yıl veriyor · eski t 1571-01-01 (yıl hassasiyeti) · takvim: 1571 Gregoryen reformundan (1582) önce, gün kaynağın verdiği biçimde", gun:"24 Mayıs 1571 (gün kesin değil)", b:"Devlet Giray, Oka Nehri savunma hattını yararak Moskova önlerine ulaştı ve şehri ateşe verdi — \"Taht-algan\" unvanı verildi", tur:"savas", onem:5, dunya:3, kapsam:"dis",
   etiket:["askeri","toprak","konu-askeri","afet","afet-yangin"],
   yer_id:"Moskova",
   d:"Kırım tarihinin en büyük askerî başarılarından biri: Devlet Giray'ın ordusu Moskova'nın güneyindeki Oka savunma hattını aşarak şehre ulaştı ve büyük bir yangınla tahrip etti; kaynaklarda şehrin büyük bölümünün kül olduğu, yüz binlerce kişinin öldüğü veya esir alındığı aktarılır. Han bu zaferle \"Taht-algan\" (taht alan) unvanını kazandı.",
@@ -216,7 +216,7 @@ window.KRONOLOJI_KIRIM = [
   kaynak:"devlet-giray (TDV)" },
 { t:"1572-08-12", b:"Devlet Giray'ın ikinci Moskova seferi Molodi'de ağır bir yenilgiyle sonuçlandı", tur:"savas", onem:4, dunya:2, kapsam:"dis",
   etiket:["askeri","kayip","konu-askeri"],
-  yer_id:"Moskova", gun:"12 Ağustos 1572 (Gregoryen; Jülyen 2 Ağustos — muharebe 29 Temmuz-2 Ağustos J.)",
+  yer_id:"Moskova", ic_not_ham_gun:"12 Ağustos 1572 (Gregoryen; Jülyen 2 Ağustos — muharebe 29 Temmuz-2 Ağustos J.)", gun:"12 Ağustos 1572",
   ic_not:"KRONOLOJI-BALTIK-RUSYA (28 Ekim 2026): eski t 1572-01-01 yıl düzeyindeydi (TDV 'devlet-giray' yalnız yıl verir: 'Moskova yakınlarında Molodi'de yenilgiye uğradı'). TDV yıl-ötesi gün vermediğinden sıradaki basamağa geçildi: Battle of Molodi (Vikipedi) ve Rusça cyclowiki 'Битва при Молодях' muharebeyi 29 Temmuz-2 Ağustos 1572 verir; Yeltsin Cumhurbaşkanlığı Kütüphanesi prlib.ru kaydı penceresi 28 Temmuz-3 Ağustos (Penskoy çalışması) [arama özeti; elle doğrulama bekler]. Bu tarihler Jülyen takvimlidir (1572'de +10 gün); seçilen gün muharebenin bitişi 2 Ağustos J. = 12 Ağustos 1572 Gregoryen. Muharebe 5 gün sürdü, tek günlü olay değil — gün TEYİTSİZ (±5).",
   d:"Bir önceki yılın zaferini tekrarlamak isteyen Devlet Giray, Moskova yakınlarındaki Molodi'de Rus kuvvetlerine ağır bir yenilgiye uğradı. Bu bozgun, 1571'in aksine, Kırım'ın Moskova'yı kalıcı olarak dize getiremeyeceğini gösterdi ve Rus genişlemesinin bozkırda önü alınamaz hale geldiğinin ilk işaretiydi.",
   kaynak:"devlet-giray (TDV)" },
@@ -428,7 +428,7 @@ window.KRONOLOJI_KIRIM = [
   etiket:["diplomasi","siyaset","konu-siyasi","konu-diplomasi"],
   yer_id:"", kapsam_genis:true,
   d:"Osmanlı-Rus savaşını sona erdiren Küçük Kaynarca Antlaşması, Kırım Hanlığı'nı siyaseten bağımsız ilan etti; yalnız dinî bağ (halifelik makamına bağlılık) Osmanlı'da kaldı. Kâğıt üzerinde bağımsızlık, pratikte hanlığı Rusya'nın nüfuz alanına bırakarak dokuz yıl sonraki ilhaka giden yolu açtı.",
-  kaynak:"kirim (TDV, doğrulanmış — kucuk-kaynarca-antlasmasi slugı bu turda içerik olarak yeniden okunamadı, ancak data/kronoloji_rusya.js:368-371'de TDV içeriği doğrulanmış ve KULLANILAN bir kaynaktır); tarih ve dunya puanı data/kronoloji_rusya.js:368 ile birebir", yer_id:"Silistre" },
+  kaynak:"kirim (TDV, doğrulanmış — kucuk-kaynarca-antlasmasi slugı içerik olarak yeniden okunamadı, ancak data/kronoloji_rusya.js:368-371'de TDV içeriği doğrulanmış ve KULLANILAN bir kaynaktır); tarih ve dunya puanı data/kronoloji_rusya.js:368 ile birebir", yer_id:"Silistre" },
 
 // === I) ŞÂHİN GİRAY VE İLHAK (1776-1792) =====================================
 { t:"1776-12-03", gun:"3 Aralık 1776 (Jülyen 22 Kasım)", ic_not_takvim:"Jülyen 22 Kasım 1776 (Dubrovin T.1 №91) = Gregoryen 3 Aralık 1776 · EMRE KARARI #10 (KARARLAR-EMRE-1015): atlas günleri Gregoryen", b:"General Prozorovski Or Kapı'yı ele geçirdi, Şâhin Giray'ın konumu güçlendi", tur:"savas", onem:4, dunya:2, kapsam:"dis",

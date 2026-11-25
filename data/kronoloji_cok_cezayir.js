@@ -262,7 +262,7 @@ window.KRONOLOJI_COK_CEZAYIR = [
   etiket:["askeri","konu-askeri"], yer_id:"Muaskar", taraflar:["cezayir-fransiz","abdulkadir"],
   d:"Fransız kuvvetleri Emîr Abdülkādir'in başkenti Muasker'e girdi; baruthâne ve silah imalathanesini yıkıp şehri ertesi gün terk ettiler. Abdülkādir şehri geri aldı. Baskın kalıcı bir işgal değil, Fransız 'sınırlı işgal' döneminin cezalandırma seferiydi.",
   kaynak:"TDV `cezayir`: \"1835’te Emîr Abdülkadir’in merkezi Muasker’i ele geçiren Fransız kuvvetleri\"",
-  gun:"1835 (TDV `cezayir`; gün vermez)",
+  ic_not_ham_gun:"1835 (TDV `cezayir`; gün vermez)", gun:"1835 (yalnız yıl biliniyor)",
   celiski:"TDV `muasker`: \"Muasker 1836 yılında Fransız ordusu tarafından işgal edildi\" || `cezayir` 1835, `muasker` 1836 der." },
 
 { t:"1837-05-30", b:"Tâfnâ Antlaşması: Fransa Abdülkādir'in batı ve güneydeki hâkimiyetini tanıdı", tur:"antlasma", onem:5, dunya:3, kapsam:"dis",
@@ -283,7 +283,7 @@ window.KRONOLOJI_COK_CEZAYIR = [
   etiket:["diplomasi","konu-diplomasi"], yer_id:"Tanca", taraflar:["abdulkadir","cezayir-fransiz"],
   d:"İssi (Isly) yenilgisinden sonra Fas sultanı Fransa ile antlaşma imzalayıp Emîr Abdülkādir'e yardım etmemeyi ve onu topraklarında barındırmamayı kabul etti. Abdülkādir'in son dış dayanağı böylece çöktü; emîr gerilla savaşına döndü.",
   kaynak:"TDV `cezayir`: \"Tanca Antlaşması’yla (10 Eylül 1844)\"",
-  gun:"10 Eylül 1844 (TDV `cezayir`)",
+  ic_not_ham_gun:"10 Eylül 1844 (TDV `cezayir`)", gun:"10 Eylül 1844",
   celiski:"TDV `abdulkadir-el-cezairi`: \"1844 Ekiminde imzalanan Tanca Antlaşması’yla\" || `cezayir` 10 Eylül, `abdulkadir-el-cezairi` Ekim 1844 der." },
 
 { t:"1845-01-01", b:"Abdülkādir Sîdî İbrâhîm'de bir Fransız birliğini bozguna uğrattı", tur:"savas", onem:3, dunya:2, kapsam:"dis",

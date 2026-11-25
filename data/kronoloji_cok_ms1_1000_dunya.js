@@ -19,7 +19,7 @@ window.KRONOLOJI_COK_MS1_1000_DUNYA = [
   etiket:["savas","konu-askeri"], yer:"Belencer (Kuzey Kafkasya)", taraflar:["hazar-kaganligi","emevi"],
   d:"Hz. Ömer döneminde başlayan Arap-Hazar çatışmasının ilk önemli saldırısı 32 (652-53) yılında Selmân b. Rebîa'nın ordusuyla yapıldı; ordu Bâbülebvâb (Derbend) geçidini aşıp Belencer'e kadar ilerledi, ancak Hazarlar karşısında yenilgiye uğradı.",
   kaynak:"TDV: hazarlar — 'ilk önemli hücum ise 32 (652-53) yılında Selmân b. Rebîa kumandasındaki ordu tarafından yapılmıştır'",
-  gun:"32 H (652-53) — TDV hicrî yıl + 652-53 verir; 1 Muharrem 32 tablo (tabular) hesabıyla Jülyen 12 Ağustos 652, kesişimin ilk günü olarak yazıldı (gün kaynakta yok; ±2 gün)" },
+  ic_not_ham_gun:"32 H (652-53) — TDV hicrî yıl + 652-53 verir; 1 Muharrem 32 tablo (tabular) hesabıyla Jülyen 12 Ağustos 652, kesişimin ilk günü olarak yazıldı (gün kaynakta yok; ±2 gün)", gun:"32 H (652-53) (Jülyen takvimiyle 12 Ağustos 652; yalnız yıl biliniyor)" },
 
 { odak_yer:["Bulgaristan"], t:"0665-01-01", b:"Hazarlar Büyük Bulgaristan'ı yıktı; Hazar toprağı yaklaşık iki katına çıktı", tur:"toprak-kazanc", onem:3, dunya:1, kapsam:"ic",
   etiket:["toprak-kazanc","konu-askeri"], yer:"Karadeniz'in kuzeyi", taraflar:["hazar-kaganligi","buyuk-bulgaristan"],

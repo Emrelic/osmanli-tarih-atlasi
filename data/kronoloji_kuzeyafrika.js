@@ -101,7 +101,7 @@ window.KRONOLOJI_KUZEYAFRIKA = [
 
 { taraflar:["merini"], t:"1337-01-01", b:"Tilimsan ele geçirilerek Abdülvâdîler hâkimiyeti (geçici) sona erdi", tur:"toprak-kazanc", onem:4, dunya:2, kapsam:"dis", yer_id:"Tilimsan",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
-  d:"Ebü'l-Hasan Ali, Tilimsan'ı ele geçirerek Abdülvâdî hâkimiyetine son verdi; on yıl sürecek bir Merînî ilhak dönemi başladı. Şehir 1348'de yine Abdülvâdîlere dönecekti (bkz. [[zeyyani]]).",
+  ic_not_ham_d:"Ebü'l-Hasan Ali, Tilimsan'ı ele geçirerek Abdülvâdî hâkimiyetine son verdi; on yıl sürecek bir Merînî ilhak dönemi başladı. Şehir 1348'de yine Abdülvâdîlere dönecekti (bkz. [[zeyyani]]).", d:"Ebü'l-Hasan Ali, Tilimsan'ı ele geçirerek Abdülvâdî hâkimiyetine son verdi; on yıl sürecek bir Merînî ilhak dönemi başladı. Şehir 1348'de yine Abdülvâdîlere dönecekti.",
   kaynak:"TDV `meriniler`: 737/1337'de Tilimsan ele geçirilerek Abdülvâdîler hâkimiyeti sona erdirildi" },
 
 { taraflar:["merini"], t:"1347-01-01", b:"Tunus'a girilip Hafsî toprakları alındı", tur:"toprak-kazanc", onem:4, dunya:3, kapsam:"dis", yer_id:"Tunus",

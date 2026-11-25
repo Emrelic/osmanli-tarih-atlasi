@@ -257,7 +257,7 @@ window.KRONOLOJI_ALTINORDA = [
 { odak_yer:["Donets bozkırı"], t:"1420-01-01", b:"Edigü öldü — oğulları Nogay Ordası'nın çekirdeğini kurdu", tur:"bolunme", onem:4, dunya:2, kapsam:"ic",
   etiket:["siyaset","bolunme","konu-siyasi","konu-kisiler"],
   yer_id:"",
-  d:"TDV, Nogaylar maddesinde tarihi birebir verir: 'Edige'nin (Edigü/İdigü) 823'te (1420) ölümünden sonra oğulları' Deşt-i Kıpçak'ta çeşitli hanların emirleri olarak siyasete devam etti. Nogay Ordası bu mirastan doğdu — Altın Orda'dan kopan beş yapının kronolojik olarak ilkidir ve ötekilerden farkı, bir hanedandan değil bir Bey ailesinden doğmuş olmasıdır (bkz. [[nogay]]).",
+  ic_not_ham_d:"TDV, Nogaylar maddesinde tarihi birebir verir: 'Edige'nin (Edigü/İdigü) 823'te (1420) ölümünden sonra oğulları' Deşt-i Kıpçak'ta çeşitli hanların emirleri olarak siyasete devam etti. Nogay Ordası bu mirastan doğdu — Altın Orda'dan kopan beş yapının kronolojik olarak ilkidir ve ötekilerden farkı, bir hanedandan değil bir Bey ailesinden doğmuş olmasıdır (bkz. [[nogay]]).", d:"TDV, Nogaylar maddesinde tarihi birebir verir: 'Edige'nin (Edigü/İdigü) 823'te (1420) ölümünden sonra oğulları' Deşt-i Kıpçak'ta çeşitli hanların emirleri olarak siyasete devam etti. Nogay Ordası bu mirastan doğdu — Altın Orda'dan kopan beş yapının kronolojik olarak ilkidir ve ötekilerden farkı, bir hanedandan değil bir Bey ailesinden doğmuş olmasıdır.",
   kaynak:"TDV, madde: nogaylar — 'Edige'nin ... 823'te (1420) ölümünden sonra oğulları'" },
 
 { t:"1419-06-01", b:"Uluğ Muhammed Han seçildi — ve prenslerin taht kavgasıyla indirildi", tur:"hukumdar", onem:3, dunya:1, kapsam:"ic",
@@ -293,7 +293,7 @@ window.KRONOLOJI_ALTINORDA = [
 { t:"1466-01-01", b:"Astarhan (Ejderhan) Hanlığı ayrıldı — Hazar'ın kuzey kapısı koptu", tur:"bolunme", onem:4, dunya:2, kapsam:"ic",
   etiket:["siyaset","bolunme","toprak-kayip","ekonomi","konu-askeri","konu-siyasi","konu-ekonomi"],
   yer_id:"Astrahan",
-  d:"Küçük Muhammed Han'ın torunu Kasım Han, İdil'in Hazar'a döküldüğü yerde Ejderhan'da kendi hanlığını kurdu. Kayıp yalnız toprak değildir: Astarhan, Hazar üzerinden İran ve Orta Asya'ya giden ticaretin gümrük kapısıydı. Kazan kuzey ticaretini, Kırım Karadeniz'i, Astarhan Hazar'ı aldı — Büyük Orda'ya bozkırın kendisi kaldı (bkz. [[astarhan]]).",
+  ic_not_ham_d:"Küçük Muhammed Han'ın torunu Kasım Han, İdil'in Hazar'a döküldüğü yerde Ejderhan'da kendi hanlığını kurdu. Kayıp yalnız toprak değildir: Astarhan, Hazar üzerinden İran ve Orta Asya'ya giden ticaretin gümrük kapısıydı. Kazan kuzey ticaretini, Kırım Karadeniz'i, Astarhan Hazar'ı aldı — Büyük Orda'ya bozkırın kendisi kaldı (bkz. [[astarhan]]).", d:"Küçük Muhammed Han'ın torunu Kasım Han, İdil'in Hazar'a döküldüğü yerde Ejderhan'da kendi hanlığını kurdu. Kayıp yalnız toprak değildir: Astarhan, Hazar üzerinden İran ve Orta Asya'ya giden ticaretin gümrük kapısıydı. Kazan kuzey ticaretini, Kırım Karadeniz'i, Astarhan Hazar'ı aldı — Büyük Orda'ya bozkırın kendisi kaldı.",
   kaynak:"TDV, madde: ejderhan-hanligi; data/devletler.js astarhan künyesi — 'Küçük Muhammed Han'ın torunu Kasım Han, Ejderhan'da hanlığını kurdu'" },
 
 { t:"1475-06-06", b:"Osmanlı Kefe'yi fethetti — Karadeniz ticareti Altın Orda mirasının elinden çıktı", tur:"savas", onem:4, dunya:4, kapsam:"dis",

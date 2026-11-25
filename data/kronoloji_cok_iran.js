@@ -17,14 +17,14 @@
 // =====================================================================
 window.KRONOLOJI_COK_IRAN = [
 
-{ t:"1386-01-01", b:"Timur'un \"üç yıllık seferi\" başladı — Celâyirliler Azerbaycan'ı Timur'a kaptırdı", gun:"H. 788 / 1386 — yıl hassasiyeti · TDV `timur` ve `celayirliler` gün/ay vermiyor",
+{ t:"1386-01-01", b:"Timur'un \"üç yıllık seferi\" başladı — Celâyirliler Azerbaycan'ı Timur'a kaptırdı", ic_not_ham_gun:"H. 788 / 1386 — yıl hassasiyeti · TDV `timur` ve `celayirliler` gün/ay vermiyor", gun:"H. 788 / 1386 (yalnız yıl biliniyor)",
   devlet:"celayirli", devletler:["celayirli","timurlu"], tur:"toprak-kayip", onem:5, dunya:2, kapsam:"dis",
   etiket:["savas","toprak-kayip","konu-askeri","konu-siyasi"], yer_id:"Tebriz",
   d:"Timur 788 (1386) yılında İran'a yürüyerek Mâzenderan, Luristan ve Gürcistan üzerinden Azerbaycan'a girdi ve Karabağ'a ulaştı. Celâyirli Sultan Ahmed'in elindeki Tebriz ile Azerbaycan-Arrân-Ermenistan hattı bu seferle Timurlu hâkimiyetine geçti; Celâyirli devleti Irak'a (Bağdat) çekildi. Azerbaycan'ın el değiştirmesi, Altın Orda hanı Toktamış ile Timur arasındaki büyük çatışmanın da fitilini ateşledi.",
   ic_not_d:"Aynı olay çekirdekte Osmanlı kronolojisi için olaylar_ek5.js 1386-01-01'de duruyor; Celâyirli künyesinin kendi kronolojisinde (kronoloji_iran_ardillari.js) 1386 Azerbaycan kaybı YOKTU. SENKRON-DEFTER grup #10: 30 yerleşim celayirli→timurlu 1386-01-01.",
   kaynak:"TDV `timur` (\"788'de (1386) buraya yürüdü. 'Üç yıllık sefer' diye anılan (1386-1388) bu harekât sırasında … Azerbaycan'a giderek Karabağ'a ulaştı\") · TDV `celayirliler` (Timur'un Kuzey İran ile Ermenistan'ı ele geçirmesinin Ahmed Celâyir'i Memlüklere sığınmaya mecbur ettiği)" },
 
-{ t:"1592-01-01", b:"Şah Abbas Gîlân'ı ilhak etti — Kârkiyâ hânedanı sona erdi", gun:"H. 1000 / 1592 — yıl hassasiyeti · TDV `gilan` ve `lahican` gün/ay vermiyor",
+{ t:"1592-01-01", b:"Şah Abbas Gîlân'ı ilhak etti — Kârkiyâ hânedanı sona erdi", ic_not_ham_gun:"H. 1000 / 1592 — yıl hassasiyeti · TDV `gilan` ve `lahican` gün/ay vermiyor", gun:"H. 1000 / 1592 (yalnız yıl biliniyor)",
   devlet:"safevi", devletler:["safevi","gilan-kiya"], tur:"toprak-kazanc", onem:3, dunya:1, kapsam:"ic",
   etiket:["toprak-kazanc","merkezilesme","konu-siyasi","konu-askeri"], yer_id:"Lâhîcan",
   d:"XVI. yüzyıl başından beri Safevîlere tâbi olan Lâhîcan merkezli Kârkiyâ seyyidlerinin son emîri Ahmed Han, Osmanlı-Safevî savaşı sırasında Lâhîcan'ın Osmanlılara verilmesi yönünde faaliyet gösterince Şah I. Abbas'ın tepkisini çekti. 1590 barışından sonra saraya çağrıldığı hâlde gitmeyen Ahmed Han'a karşı Şah Abbas ordusuyla Gîlân'a girip bölgenin tamamını doğrudan Safevî idaresine aldı. Bu ilhak, Abbas'ın mahallî emirlikleri tasfiye ederek merkezî otoriteyi güçlendirme siyasetinin ilk halkalarındandır.",

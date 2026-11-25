@@ -439,7 +439,7 @@ window.KRONOLOJI_COK_DERIN_ASYA_AFRIKA_1024 = [
   taraflar:["kaanul"], etiket:["konu-siyasi"],
   ic_not_kaynak:"Hafızadan; sayfa sınanmadı."},
 { onem:4, dunya:1, bolge_onem:4, puan_s:"v2", t:"0695-08-05", k:"askeri", tur:"savas", yer_id:"Tikal", b:"Tikal Kaanul'u yendi - Jasaw Chan K'awiil I zaferi",
-  gun:"5 Ağustos 695 (Maya uzun sayımı 9.13.3.7.18; Gregoryen karşılığı hafızadan)", kisiler:"Jasaw Chan K'awiil I, Yich'aak K'ahk'",
+  ic_not_ham_gun:"5 Ağustos 695 (Maya uzun sayımı 9.13.3.7.18; Gregoryen karşılığı hafızadan)", gun:"5 Ağustos 695", kisiler:"Jasaw Chan K'awiil I, Yich'aak K'ahk'",
   d:"Tikal kralı Jasaw Chan K'awiil I, Kaanul'u yenerek Tikal'in yüzyıllık gerilemesine son verdi; Kaanul'un hegemonyası kırıldı.",
   kaynak:"Martin - Grube, Chronicle of the Maya Kings and Queens (2008). Sayfa verilmedi.",
   taraflar:["kaanul"], etiket:["konu-askeri"],

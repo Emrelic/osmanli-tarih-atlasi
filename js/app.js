@@ -121,6 +121,40 @@ function ufukDisiIsaretle(el, gi) {
   el.title = "⏳ Atlasın zaman ufkunun (" + idxTarih(BASLANGIC).y + "–" + idxTarih(BITIS).y +
     ") dışında — okunur, harita bu tarihe gidemez.";
 }
+// TURKCE-METIN-1125 — uzun anlatım tek blok yığılmasın: veride boş satır yoksa
+// 480 karakteri aşan metin GÖSTERİMDE cümle sınırından paragraflara bölünür
+// (veri ve çeviri özeti DEĞİŞMEZ; satır sonu CSS `white-space: pre-line` ile görünür).
+// "II. Mehmed", "16. yy", "Hz. Ali" gibi noktalar cümle sonu SAYILMAZ.
+var _PARAGRAF_ESIK = 480, _PARAGRAF_EN_AZ = 220;
+var _KISALTMA = /(?:^|[\s(])(?:[IVXL]+|\d{1,2}|[A-ZÇĞİÖŞÜ]|Hz|Dr|St|Sn|Prof|Gen|Mr|Mrs|vb|vs|bkz|yy|ö|d|h|m|yak|krş|md|no|No|sf|s|c)\.$/;
+function paragrafla(metin) {
+  var s = String(metin || "");
+  if (s.length < _PARAGRAF_ESIK || s.indexOf("\n") >= 0) return s;
+  var cumle = [], son = 0, re = /[.!?]["”’»)]?\s+(?=["“«(]?[A-ZÇĞİÖŞÜ])/g, m;
+  while ((m = re.exec(s))) {
+    var parca = s.slice(son, m.index + 1);
+    if (_KISALTMA.test(parca)) continue;
+    cumle.push(s.slice(son, m.index + m[0].length).trim());
+    son = m.index + m[0].length;
+  }
+  cumle.push(s.slice(son).trim());
+  var par = [], tampon = "";
+  cumle.forEach(function (c) {
+    tampon += (tampon ? " " : "") + c;
+    if (tampon.length >= _PARAGRAF_EN_AZ) { par.push(tampon); tampon = ""; }
+  });
+  if (tampon) {
+    if (par.length && tampon.length < _PARAGRAF_EN_AZ / 2) par[par.length - 1] += " " + tampon;
+    else par.push(tampon);
+  }
+  return par.join("\n\n");
+}
+// Boş alan balonlarının okur metni (data/bos_metin.js): `bos_alanlar.js` üretilmiş
+// dosyadır, araştırma notu taşır; okura sadeleştirilmiş karşılığı basılır.
+function bosMetin(s) {
+  var t = window.BOS_METIN;
+  return (t && Object.prototype.hasOwnProperty.call(t, s)) ? t[s] : s;
+}
 function olayTarihYazi(o) { return o.gun || kesinlikliYazi(o.t, o.gi, o.kesinlik); }
 // ZAMAN-GENİŞ-1008 — devlet kronolojisi listeleri tarihi HAM ISO basıyordu
 // ("1100-01-01"); 1281 öncesi maddelerin çoğu yıl hassasiyetli ve "-01-01"
@@ -165,7 +199,7 @@ function devletAdi(id) {
   // P2 (13 Kasım 2026, LAB/EMRELIC): Dizin penceresinin tarih satırlarında ham
   // `__BOSLUK__` kimliği kullanıcıya görünüyordu (Kars, 375px). `__BOSLUK__` bir
   // devlet değil BEYANLI BOŞLUK işaretidir (`_sahipAdi` aynı sözü veriyor).
-  if (id === "__BOSLUK__") return "kayıt yok (boşluk beyanı)";
+  if (id === "__BOSLUK__") return "kayıt yok";
   return _DEVLET_ADI[id] || id;
 }
 function karsiTaraf(k) {
@@ -1016,7 +1050,7 @@ function rotusAnahtar(acik) {
   var lbl = kutu && kutu.parentNode;
   if (lbl) {
     var n = rotusListe().length;
-    lbl.title = n ? n + " rötuş kaydı (data/rotus.js)" : "Henüz rötuş kaydı yok (data/rotus.js)";
+    lbl.title = n ? n + " rötuş kaydı" : "Henüz rötuş kaydı yok";
   }
   if (degisti && haritaHazir) {
     devletImza = null;
@@ -1703,7 +1737,7 @@ function bVeriKapisi() {
     dk.disabled = true;
     var lb = dk.closest("label");
     if (lb) {
-      lb.title = "Ⓑ Dolgu: " + NOT + " (data/dolgu.js yok) — bu ayar şimdilik bir şey değiştirmez";
+      lb.title = "Ⓑ Dolgu: " + NOT + " — bu ayar şimdilik bir şey değiştirmez";
       lb.classList.add("b-pasif");
       var em = lb.querySelector("em");
       if (em) em.textContent = NOT;
@@ -3744,6 +3778,8 @@ harita.on("load", function () {
   (function boslukKur() {
     var kayitlar = window.BOS_ALANLAR || [];
     var cinsler = window.BOS_CINSLER || {};
+    var cinsMetni = window.BOS_CINS_METIN || {};
+    Object.keys(cinsMetni).forEach(function (k) { if (cinsler[k]) cinsler[k].aciklama = cinsMetni[k]; });
     if (!kayitlar.length) return;
     var boslukPopup = new maplibregl.Popup({ closeButton: true, closeOnClick: true, maxWidth: "300px", className: "bosluk-popup" });
     var kacBenek = 0, kacSoru = 0, kacHalka = 0;
@@ -3793,7 +3829,7 @@ harita.on("load", function () {
         ek.addEventListener("click", function (e) {
           e.stopPropagation();
           var gv = "<b>" + k.ad.replace(/</g, "&lt;") + "</b><br><i>" + (c ? c.ad : k.cins) + "</i>" +
-            "<p>" + (k.neden || "").replace(/</g, "&lt;") + "</p>";
+            "<p>" + bosMetin(k.neden || "").replace(/</g, "&lt;") + "</p>";
           boslukPopup.setLngLat([k.lon, k.lat]).setHTML(gv).addTo(harita);
         });
         // Yerleşim adının altına yaslanır; nokta etiketiyle çakışmasın.
@@ -3816,7 +3852,7 @@ harita.on("load", function () {
         kutu.title = k.ad + " — " + (c ? c.ad : k.cins);
         kutu.addEventListener("click", function (e) {
           e.stopPropagation();
-          var metin = (k.neden && k.neden.trim()) ? k.neden : (c ? c.aciklama : "");
+          var metin = (k.neden && k.neden.trim()) ? bosMetin(k.neden) : (c ? c.aciklama : "");
           var govde = "<b>" + k.ad + "</b><br><i>" + (c ? c.ad : k.cins) + "</i>" +
             "<p>" + metin.replace(/</g, "&lt;") + "</p>";
           boslukPopup.setLngLat([k.lon, k.lat]).setHTML(govde).addTo(harita);
@@ -3851,7 +3887,7 @@ harita.on("load", function () {
       el.title = k.ad + " — " + (c ? c.ad : k.cins);
       el.addEventListener("click", function (e) {
         e.stopPropagation();
-        var metin = (k.neden && k.neden.trim()) ? k.neden : (c ? c.aciklama : "");
+        var metin = (k.neden && k.neden.trim()) ? bosMetin(k.neden) : (c ? c.aciklama : "");
         var govde = "<b>" + k.ad + "</b><br><i>" + (c ? c.ad : k.cins) + "</i>" +
           "<p>" + metin.replace(/</g, "&lt;") + "</p>";
         boslukPopup.setLngLat([k.lon, k.lat]).setHTML(govde).addTo(harita);
@@ -6430,7 +6466,6 @@ function isyanMaddeKutusu(o, ozelEl) {
       (p.tur === "habsburg" ? "Habsburg idaresi" : "isyan") + " · " +
       _isyanTarihYazi(p.f, p.kesinlik_f) + " → " + _isyanTarihYazi(p.t, p.kesinlik_t) +
       " · " + durum + " · kaynak: " + kay.join(", ");
-    sat.title = p.not || "";
     kutuEl.appendChild(sat);
   });
   var dip = document.createElement("span");
@@ -8022,7 +8057,6 @@ function yolTikla(ev) {
   var govde = "<b>" + String(p.ad).replace(/</g, "&lt;") + "</b><br><i>" +
     (p.sinif === "ana" ? "ana yol" : "tali yol") + "</i>" +
     "<p>Geçtiği yerler: " + String(p.gecit).replace(/</g, "&lt;") + "</p>";
-  if (p.ic_not) govde += "<p><i>" + String(p.ic_not).replace(/</g, "&lt;") + "</i></p>";
   if (p.dogrulandi !== true && p.dogrulandi !== "true")
     govde += "<p class=\"koridor-uyari\">⚠️ <b>Şehir dizisi ve ana/tali ayrımı henüz kaynakla doğrulanmadı.</b> " +
       "Çizim şehirleri yumuşak bir eğriyle bağlar; arazi izlenmez.</p>";
@@ -8040,7 +8074,7 @@ function koridorGuncelle(t) {
       if (YOLLAR.detay === "ana" && y.r.sinif !== "ana") return;
       yf.push({
         type: "Feature",
-        properties: { ad: y.r.ad, sinif: y.r.sinif, gecit: y.r.gecit.map(function (g) { return Array.isArray(g) ? g[2] : g; }).join(" → "), ic_not: y.r.ic_not || "",
+        properties: { ad: y.r.ad, sinif: y.r.sinif, gecit: y.r.gecit.map(function (g) { return Array.isArray(g) ? g[2] : g; }).join(" → "), 
                       dogrulandi: y.r.dogrulandi === true, kaynak: y.r.kaynak || "bulunamadı" },
         geometry: { type: "LineString", coordinates: y.hat }
       });
@@ -10212,7 +10246,7 @@ function detayAc(i) {
   meta.innerHTML = "";
   if (o.yer) { var y = document.createElement("span"); y.textContent = "📍 " + o.yer; meta.appendChild(y); }
   if (o.kisiler) { var k = document.createElement("span"); k.textContent = "👤 " + o.kisiler; meta.appendChild(k); }
-  document.getElementById("detay-metin").textContent = o.d;
+  document.getElementById("detay-metin").textContent = paragrafla(o.d);
   var kaynakEl = document.getElementById("detay-kaynak");
   if (o.kaynak) {
     kaynakEl.href = "https://islamansiklopedisi.org.tr/" + o.kaynak;
@@ -11562,7 +11596,7 @@ function dizinDoldur(sekme) {
         // kullanıcının "burada niye hiçbir şey yok" sorusunun cevabıdır.
         b.innerHTML = '<span class="dz-sol"></span>';
         b.children[0].textContent = y.kasitli_bosluk
-          ? "⬜ Kasıtlı boşluk — " + (y.neden || "gerekçe yazılmamış")
+          ? "⬜ Kasıtlı boşluk — " + (y.neden ? bosMetin(y.neden) : "gerekçe yazılmamış")
           : "⬜ Bu yerleşimin hiçbir dönemi kayıtlı değil";
         liste.appendChild(b);
       }
@@ -13062,7 +13096,7 @@ function obGoster(o) {
     gorsel.innerHTML = '<span class="ob-rozet">' + (o.k === "savas" ? "⚔" : o.k === "antlasma" ? "📜" : "☾") + '</span>';
   }
 
-  document.getElementById("ob-detay").textContent = o.d || "";
+  document.getElementById("ob-detay").textContent = paragrafla(o.d);
 
   // Ek veriler: muharebe künyesi / antlaşma hükmü / kişi kartları / kaynak
   var ozel = document.getElementById("ob-ozel");
@@ -13203,7 +13237,7 @@ function _sahipAdi(key) {
   if (!key) return "sahipsiz";
   if (key === "osmanli") return "Osmanlı";
   if (key.indexOf("tabi:") === 0) { var kid = key.slice(5); return kid ? devletAdi(kid) + " (tâbi)" : "Osmanlı tâbii"; }
-  if (key === "s:__BOSLUK__") return "kimsenin değil (boşluk beyanı)";   // PAKET-UI3: ham kimlik basılmasın
+  if (key === "s:__BOSLUK__") return "kayıt yok";   // PAKET-UI3: ham kimlik basılmasın
   if (key.indexOf("isg:") === 0) return devletAdi(key.slice(4)) + " işgalinde";   // DALGA-0074 H-0013
   return devletAdi(key.slice(2));
 }
@@ -19694,7 +19728,7 @@ function kronoTemsilEdiliyor(k, derin) {
         bas.style.paddingLeft = EK_SECILI.length ? "6px" : "";
       }
       var det = document.getElementById("ob-detay");
-      if (det) det.textContent = m.d || (kisaTarihYazi(m) + " · " + (m.b || ""));
+      if (det) det.textContent = paragrafla(m.d || (kisaTarihYazi(m) + " · " + (m.b || "")));
       // 🆕 14 Eylül 2026 — PAKET-UI4 İŞ 3 (1.MURAT, M-3930 aksaklığı): ek okuma
       // akordeonu yalnız Osmanlı panelinde (obGoster) çiziliyordu; kuyruk
       // maddesine (KRONOLOJI_*) bağlanan kart — ör. "1571-01-01|Moskova"
@@ -20408,7 +20442,7 @@ function derinGit(k) {
   det.innerHTML = "";
   var h = document.createElement("div"); h.className = "derin-detay-b";
   h.textContent = isoDizgi(a.t) + " — " + a.b; det.appendChild(h);
-  if (a.d) { var p = document.createElement("p"); p.textContent = a.d; det.appendChild(p); }
+  if (a.d) { var p = document.createElement("p"); p.textContent = paragrafla(a.d); det.appendChild(p); }
   if (!kon) { var y = document.createElement("p"); y.className = "derin-yeryok"; y.textContent = "📍 Bu adımın haritada yeri işaretlenmemiş."; det.appendChild(y); }
   var kk = document.createElement("p"); kk.className = "derin-kaynak";
   kk.textContent = "Kaynak: " + a.kaynak; det.appendChild(kk);

@@ -151,7 +151,7 @@ window.OLAYLAR_P0057 = [
   b:"Afyon'un geri alınışı — Aslıhanlar muharebeleri",
   gun:"7 Nisan 1921",
   yer:"Afyon, Aslıhanlar", yer_id:"Karahisâr-ı Sâhib (Afyon)", kisiler:"",
-  d:"İkinci İnönü'de 1 Nisan'da durdurulan Yunan taarruzunun ardından güney cephesinde Afyon 7 Nisan'da geri alındı. TDV'nin Millî Mücadele maddesi bunu 'Aslıhanlar’da ağır yenilgiye uğratılarak 7 Nisan’da Afyon geri alındı' diye özetler; ancak askerî tarih çalışmaları Aslıhanlar-Dumlupınar çarpışmalarını Afyon'un boşaltılmasından sonra, 8-15 Nisan arasına koyar ve taktik üstünlüğün Yunan tarafında kaldığını yazar — iki anlatım birbirini tutmaz, ikisi de verildi. İnönü zaferi başta İstanbul olmak üzere bütün ülkede mitinglerle kutlandı.",
+  ic_not_ham_d:"İkinci İnönü'de 1 Nisan'da durdurulan Yunan taarruzunun ardından güney cephesinde Afyon 7 Nisan'da geri alındı. TDV'nin Millî Mücadele maddesi bunu 'Aslıhanlar’da ağır yenilgiye uğratılarak 7 Nisan’da Afyon geri alındı' diye özetler; ancak askerî tarih çalışmaları Aslıhanlar-Dumlupınar çarpışmalarını Afyon'un boşaltılmasından sonra, 8-15 Nisan arasına koyar ve taktik üstünlüğün Yunan tarafında kaldığını yazar — iki anlatım birbirini tutmaz, ikisi de verildi. İnönü zaferi başta İstanbul olmak üzere bütün ülkede mitinglerle kutlandı.", d:"İkinci İnönü'de 1 Nisan'da durdurulan Yunan taarruzunun ardından güney cephesinde Afyon 7 Nisan'da geri alındı. TDV'nin Millî Mücadele maddesi bunu 'Aslıhanlar’da ağır yenilgiye uğratılarak 7 Nisan’da Afyon geri alındı' diye özetler; ancak askerî tarih çalışmaları Aslıhanlar-Dumlupınar çarpışmalarını Afyon'un boşaltılmasından sonra, 8-15 Nisan arasına koyar ve taktik üstünlüğün Yunan tarafında kaldığını yazar — iki anlatım birbirini tutmuyor. İnönü zaferi başta İstanbul olmak üzere bütün ülkede mitinglerle kutlandı.",
   kaynak:"milli-mucadele (TDV) · Uca (DergiPark article-file/1677265; Türk İstiklal Harbi 1966 s. 534, 574'e dayanarak Aslıhanlar 8-12, Dumlupınar 13-15 Nisan) · Kaya (DergiPark article-file/403536; Afyon tahliyesi, ATASE 1999)", ic_not_d:"KUTU-H1-1015: eski başlık 'Aslıhanlar'da Yunan yenilgisi' TDV'nin nedensellik cümlesini izliyordu; akademik kaynaklarla çelişki (KUTU-G2 tespiti) başlık ve metinde beyan edildi. Gün (7 Nisan, Afyon) TDV ile aynı, değişmedi." },
 
 { onem:3, dunya:1, bolge_onem:2, puan_s:"v2", kapsam:"ic", t:"1921-06-28", k:"kazanc", etiket:["savas","kurtulus","konu-askeri"],
@@ -253,7 +253,7 @@ window.OLAYLAR_P0057 = [
   kaynak:"bati-trakya" },
 
 { onem:1, dunya:1, bolge_onem:1, puan_s:"v2", kapsam:"ic", t:"1921-01-01", kesinlik:"yil", k:"kazanc", etiket:["kurtulus","isgal","konu-askeri"],
-  b:"Burdur'un İtalyan işgalinin sona ermesi (yıl)",
+  ic_not_ham_b:"Burdur'un İtalyan işgalinin sona ermesi (yıl)", b:"Burdur'un İtalyan işgalinin sona ermesi",
   gun:"1921 (gün bilinmiyor)",
   ic_not_gun:"TDV burdur işgali yalnız '1919-1921' diye yıl aralığıyla veriyor; tahliye günü kaynakta yok ⇒ 1921-01-01 YIL temsilidir (CLAUDE.md: kaynak yıl der ⇒ yıl yazılır). İtalyan çekilmesinin genel akışı 1921 yazıdır (Antalya 1 Haziran, Muğla 5 Temmuz). KUTU-C-1014.",
   yer:"Burdur", yer_id:"Burdur", kisiler:"",

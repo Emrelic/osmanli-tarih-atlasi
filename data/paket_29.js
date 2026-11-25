@@ -366,7 +366,7 @@ window.ANTLASMA_HARITALARI = [
           "ad": "Limni",
           "lat": 39.876,
           "lon": 25.156,
-          "kaynak": "data/olaylar_ek.js:57 `d` alanı: \"Aynı tarihte katılan öteki yerler: Limni…\" (atlas kronolojisi; ayrı TDV teyidi bu turda ALINMADI)"
+          "kaynak": "data/olaylar_ek.js:57 `d` alanı: \"Aynı tarihte katılan öteki yerler: Limni…\" (atlas kronolojisi; ayrı TDV teyidi ALINMADI)"
         }
       ]
     }

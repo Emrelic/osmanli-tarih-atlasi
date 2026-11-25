@@ -49,29 +49,29 @@ window.OLAYLAR_ILIRYA0072 = [
 // ── 1806 Şubat · Dalmaçya Fransız idaresine geçti ────────────────────
 { tur:"antlasma", bolge:3, t:"1806-02-01", k:"antlasma", onem:3, dunya:3, kapsam:"dis", yer_id:"Zadar (Zara)", odak_yer:["Zadar (Zara)","Nadin"],
   b:"Dalmaçya'nın Fransız idaresine geçişi — Pojun (Bratislava) Antlaşması'nın uygulanması",
-  gun:"Şubat 1806 (kaynak AY hassasiyetinde; gün vermiyor)",
+  ic_not_ham_gun:"Şubat 1806 (kaynak AY hassasiyetinde; gün vermiyor)", gun:"Şubat 1806 (günü bilinmiyor)",
   yer:"Zadar (Zara), Split (Spalato), Şibenik (Sebenico), Knin, Nadin, Vrana (Urana), Sin (Sinj), Klis, Pag (Pago), Uzunada (Dugi Otok), Brakya (Brač), Hvar (Lesina), Vis (Lissa), Korçula (Kurzola), Mliyet (Mljet), Trogir (Traù), Dalmaçya",
   kisiler:"Napolyon Bonapart, Vicenzo Dandolo",
   etiket:["siyaset","toprak-kayip","konu-siyasi"],
-  d:"26 Aralık 1805 Pojun (Bratislava/Pressburg) Antlaşması Avusturya'yı İstriya, Dalmaçya ve bütün Adriyatik adalarından vazgeçmeye zorladı. Fransa idareyi Şubat 1806'da fiilen devraldı; Zadar genel proveditör merkezi olarak kaldı ve 1806-1810 arasında bu görevi Venedikli Vicenzo Dandolo yürüttü. Dalmaçya 1809 Schönbrunn Antlaşması'ndan sonra İlirya Eyaletleri'ne katıldı. 1797'den beri süren ilk Avusturya idaresi böylece sona erdi — atlasta bu dönem bugüne kadar kesintisiz Avusturya görünüyordu.",
+  ic_not_ham_d:"26 Aralık 1805 Pojun (Bratislava/Pressburg) Antlaşması Avusturya'yı İstriya, Dalmaçya ve bütün Adriyatik adalarından vazgeçmeye zorladı. Fransa idareyi Şubat 1806'da fiilen devraldı; Zadar genel proveditör merkezi olarak kaldı ve 1806-1810 arasında bu görevi Venedikli Vicenzo Dandolo yürüttü. Dalmaçya 1809 Schönbrunn Antlaşması'ndan sonra İlirya Eyaletleri'ne katıldı. 1797'den beri süren ilk Avusturya idaresi böylece sona erdi — atlasta bu dönem bugüne kadar kesintisiz Avusturya görünüyordu.", d:"26 Aralık 1805 Pojun (Bratislava/Pressburg) Antlaşması Avusturya'yı İstriya, Dalmaçya ve bütün Adriyatik adalarından vazgeçmeye zorladı. Fransa idareyi Şubat 1806'da fiilen devraldı; Zadar genel proveditör merkezi olarak kaldı ve 1806-1810 arasında bu görevi Venedikli Vicenzo Dandolo yürüttü. Dalmaçya 1809 Schönbrunn Antlaşması'ndan sonra İlirya Eyaletleri'ne katıldı. 1797'den beri süren ilk Avusturya idaresi böylece sona erdi.",
   kaynak:"Hrvatska enciklopedija (LZMK) `dalmacija` — AYNEN: \"U veljači 1806. Francuska preuzima vlast u Dalmaciji.\" ve Pojun için \"26. XII. 1805\" · LZMK `zadar` — AYNEN: \"Uspostavom francuske uprave 1806-13. Zadar je ostao sjedištem generalnoga providura.\" · hassasiyet: AY (Şubat 1806) · TDV bu coğrafyayı bu tanecikte KAPSAMIYOR",
   ic_not_d:"15 Dalmaçya kaydının tamamı BÖLGE hükmüyle sınıflandı: kaynağın kendi birimi burada şehir değil bölgedir (\"Dalmacija\", \"svih jadranskih otoka\"). Şehir taneciğinde ayrı tanıklık YALNIZ Zadar'da var." },
 
 // ── 1806 · Kvarner adaları İtalya Krallığı'na, Boka Rus idaresine ────
 { tur:"antlasma", bolge:2, t:"1806-01-01", k:"antlasma", onem:2, dunya:2, kapsam:"dis", yer_id:"Krk (Veglia)",
   b:"Kvarner adalarının Napolyon İtalya Krallığı'na, Boka Kotorska'nın Rus idaresine geçişi",
-  gun:"1806 (kaynak YIL hassasiyetinde; gün bilinmiyor — `YYYY-01-01` beyandır, uydurma değil)",
+  ic_not_ham_gun:"1806 (kaynak YIL hassasiyetinde; gün bilinmiyor — `YYYY-01-01` beyandır, uydurma değil)", gun:"1806 (yalnız yıl biliniyor)",
   yer:"Krk (Veglia), Cres (Cherso), Rab (Arbe), Herseknovi (Herceg Novi), Kotor (Cattaro), Boka Kotorska, Kvarner",
   kisiler:"Napolyon Bonapart, Dmitri Senyavin",
   etiket:["siyaset","toprak-kayip","konu-siyasi"],
-  d:"Pojun Antlaşması'ndan sonra Kvarner adaları — Dalmaçya'dan farklı olarak — doğrudan Fransa'ya değil Napolyon'un İtalya Krallığı'na bağlandı; İlirya Eyaletleri'ne ancak 1809'da girdiler. Boka Kotorska'da ise Avusturya idaresi sona erdi ve 1806-1807 arasında Rus idaresi kuruldu; Boka Fransa'ya ancak 1807'de geçti. Bu iki ayrım atlasın tek bir 'Fransa' penceresiyle karşılanamaz.",
+  ic_not_ham_d:"Pojun Antlaşması'ndan sonra Kvarner adaları — Dalmaçya'dan farklı olarak — doğrudan Fransa'ya değil Napolyon'un İtalya Krallığı'na bağlandı; İlirya Eyaletleri'ne ancak 1809'da girdiler. Boka Kotorska'da ise Avusturya idaresi sona erdi ve 1806-1807 arasında Rus idaresi kuruldu; Boka Fransa'ya ancak 1807'de geçti. Bu iki ayrım atlasın tek bir 'Fransa' penceresiyle karşılanamaz.", d:"Pojun Antlaşması'ndan sonra Kvarner adaları — Dalmaçya'dan farklı olarak — doğrudan Fransa'ya değil Napolyon'un İtalya Krallığı'na bağlandı; İlirya Eyaletleri'ne ancak 1809'da girdiler. Boka Kotorska'da ise Avusturya idaresi sona erdi ve 1806-1807 arasında Rus idaresi kuruldu; Boka Fransa'ya ancak 1807'de geçti.",
   kaynak:"LZMK `krk-otok` — AYNEN: \"Požunskim mirom 1806. ušao u sastav Napoleonove Kraljevine Italije, a 1809. u sastav Ilirskih pokrajina.\" · LZMK `boka-kotorska` — AYNEN: \"prva austrijska 1797-1806; ruska 1806-07. i francuska 1807-13\" · hassasiyet: YIL",
   ic_not_d:"⚠️ ÇELİŞKİ BEYANI: Cres kendi maddesinde \"francuska (1805-14) uprava\", Rab kendi maddesinde \"1805. bio priključen Napoleonovim Ilirskim pokrajinama\" diyor. Rab'ınki ANAKRONİK — aynı yayıncının `ilirske-pokrajine` maddesi eyaletleri 1809'da kurar. Üç adadan YALNIZ Krk'ın anlatısı kendi içinde ve `ilirske-pokrajine` ile tutarlı; bu yüzden bölgesel model Krk'tan alındı ve fark burada YAZILDI." },
 
 // ── 1813 · Avusturya İlirya'yı ve Dalmaçya'yı geri aldı ──────────────
 { tur:"savas", bolge:2, t:"1813-01-01", k:"savas", onem:3, dunya:3, kapsam:"dis", yer_id:"Zadar (Zara)", odak_yer:["Zadar (Zara)","Nadin","Sisak"],
   b:"Avusturya'nın İlirya Eyaletleri'ni ve Dalmaçya'yı geri alması — Napolyon idaresinin sonu",
-  gun:"1813 (kaynaklar YIL hassasiyetinde; \"potkraj 1813\" = 1813 sonu)",
+  ic_not_ham_gun:"1813 (kaynaklar YIL hassasiyetinde; \"potkraj 1813\" = 1813 sonu)", gun:"1813",
   yer:"Zadar (Zara), Split (Spalato), Şibenik (Sebenico), Knin, Nadin, Vrana (Urana), Sin (Sinj), Klis, Pag (Pago), Uzunada (Dugi Otok), Brakya (Brač), Hvar (Lesina), Vis (Lissa), Korçula (Kurzola), Mliyet (Mljet), Krk (Veglia), Cres (Cherso), Rab (Arbe), Karlovac, Sisak, Gospić, Udbina, Drežnik (Drežnik Grad), Cetin (Cetingrad), Kostayniçe (Kostajnica), Ljubljana, İlirya Eyaletleri, Dalmaçya",
   kisiler:"Napolyon Bonapart",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
@@ -82,11 +82,11 @@ window.OLAYLAR_ILIRYA0072 = [
 // ── 1779 · Hâil'de İbn Ali emirliği ──────────────────────────────────
 { bolge:2, t:"1779-01-01", k:"fetih", onem:2, dunya:1, kapsam:"dis", yer_id:"Hâil",
   b:"Suûdî-Vehhâbî güçlerinin Hâil emirliğini ele geçirmesi — yönetim Abde aşiretinden İbn Ali ailesindeydi",
-  gun:"1779 (kaynak YIL hassasiyetinde; gün bilinmiyor — `YYYY-01-01` beyandır)",
+  ic_not_ham_gun:"1779 (kaynak YIL hassasiyetinde; gün bilinmiyor — `YYYY-01-01` beyandır)", gun:"1779 (yalnız yıl biliniyor)",
   yer:"Hâil, Cebelişemmer",
   kisiler:"İbn Ali ailesi (Abde aşireti), Abdullah b. Reşîd",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
-  d:"Birinci Suûdî Devleti'nin güçleri Hâil emirliğini ele geçirdiğinde şehrin yönetimi Şemmer kabilesinin Abde aşiretinden İbn Ali ailesindeydi. Bu aile Hâil'i 1835'te Abdullah b. Reşîd'in emirliği ele geçirmesine kadar yönetti; Reşîdîler hanedanı ancak o tarihte kuruldu. Atlasta Hâil bugüne kadar 1836'ya kadar sahipsiz görünüyordu, oysa kaynak 1820'de şehrin emîrini adıyla veriyor.",
+  ic_not_ham_d:"Birinci Suûdî Devleti'nin güçleri Hâil emirliğini ele geçirdiğinde şehrin yönetimi Şemmer kabilesinin Abde aşiretinden İbn Ali ailesindeydi. Bu aile Hâil'i 1835'te Abdullah b. Reşîd'in emirliği ele geçirmesine kadar yönetti; Reşîdîler hanedanı ancak o tarihte kuruldu. Atlasta Hâil bugüne kadar 1836'ya kadar sahipsiz görünüyordu, oysa kaynak 1820'de şehrin emîrini adıyla veriyor.", d:"Birinci Suûdî Devleti'nin güçleri Hâil emirliğini ele geçirdiğinde şehrin yönetimi Şemmer kabilesinin Abde aşiretinden İbn Ali ailesindeydi. Bu aile Hâil'i 1835'te Abdullah b. Reşîd'in emirliği ele geçirmesine kadar yönetti; Reşîdîler hanedanı ancak o tarihte kuruldu. Kaynak 1820'de şehrin emîrini adıyla veriyor.",
   kaynak:"TDV `residiler` — AYNEN: \"1779'da Suûdî-Vehhâbî güçleri Hâil emirliğini ele geçirdikleri sırada yönetim Abde aşiretinden İbn Ali ailesindeydi.\" ve \"1835'te Abdullah b. Reşîd'in Hâil emirliğini ele geçirmesiyle sonuçlandı.\" · TDV `ibnur-resid` — AYNEN: \"Muhammed b. Abdülmuhsin öldürüldü; yerine kardeşi Sâlih geçti (1820).\" · hassasiyet: YIL",
   ic_not_d:"⚠️ 1779 bir KURULUŞ günü DEĞİLDİR: kaynak 1779'da yönetimin ZATEN İbn Ali ailesinde olduğunu söyler — terminus ante quem. Emirliğin kuruluş yılı BULUNAMADI (D210). ⚠️ ÇELİŞKİ BEYANI: Abdullah b. Reşîd'in Hâil'i alışı `residiler`de 1835, `ibnur-resid`de 1251/1835-36." }
 

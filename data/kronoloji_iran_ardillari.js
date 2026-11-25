@@ -353,7 +353,7 @@ window.KRONOLOJI_IRAN_ARDILLARI = [
   d:"Moğol ordusuyla Memlük kuvvetleri arasında Dımaşk yakınlarında meydana gelen savaş Memlükler'in zaferiyle neticelendi (2 Ramazan 702 / 20 Nisan 1303). Bu yenilgi İlhanlı'nın Suriye üzerindeki elli yıllık iddiasını fiilen sona erdirdi; Gāzân Han üzüntüsünden yeni bir sefere çıkma imkânı bulamadan öldü.", ic_not_d:"⚠️ YER HAKKINDA: Dımaşk (Şam) bu atlasın penceresi içinde ama madde İran ardılları dosyasında olduğu için yer_id boş bırakıldı — savaş alanı şehrin kendisi değildir.",
   kaynak:"gazan-han" },
 
-{ odak_yer:["Tebriz","Bağdat"], taraflar:["ilhanli"], t:"1303-08-01", b:"Gāzân Han'ın toprak tahriri ve iktâ dağıtımı", gun:"Ağustos 1303 — ay hassasiyeti · ay TDV'de var, gün yok (`incu`, `ilhanlilar`, `celayirliler`, `muzafferiler` …)", tur:"reform",
+{ odak_yer:["Tebriz","Bağdat"], taraflar:["ilhanli"], t:"1303-08-01", b:"Gāzân Han'ın toprak tahriri ve iktâ dağıtımı", ic_not_ham_gun:"Ağustos 1303 — ay hassasiyeti · ay TDV'de var, gün yok (`incu`, `ilhanlilar`, `celayirliler`, `muzafferiler` …)", gun:"Ağustos 1303 (günü bilinmiyor)", tur:"reform",
   onem:4, dunya:2, kapsam:"ic", etiket:["reform","idari","toprak","mali","konu-askeri","konu-idari","konu-ekonomi","konu-islahat"],
   yer_id:"", odak_kimlik:["ilhanli"], kapsam_genis:true,
   d:"Gāzân Han önce ülkedeki toprakların genel bir tahririni yaptırdı: vilâyetlere gönderilen yazıcılar köy köy dolaşıp 'defâtîr-i kanûn' adı verilen defterlere bütün özel mülk, incü ve vakıf arazilerini kaydettiler. Ardından 703 yılı başlarında (Ağustos 1303) askerî güzergâhlarla yaylak-kışlak yolları üzerindeki araziler Moğol askerlerine iktâ olarak dağıtıldı. Bu, İran'da toprağın merkezî bir defterle kayda geçirilmesinin ilk büyük örneğidir; ancak uygulama Gāzân'ın ölümünden sonra bütün ülkeye yaygınlaştırılamamıştır.", ic_not_d:"İmparatorluk çapında olduğu için `yer_id` boştur.",
@@ -465,7 +465,7 @@ window.KRONOLOJI_IRAN_ARDILLARI = [
   d:"İlkân Noyan'ın torunu Emîr Hüseyin'in oğlu Hasan, Ebû Said'in kendisinden boşatarak evlendiği eski karısı Bağdat Hatun ile gizlice haberleştiği ve hükümdara suikast hazırladığı iddiasıyla idama mahkûm edildi; hânedana yakınlığı ve Argun Han'ın kızı olan annesinin araya girmesiyle affedilerek Kemah Kalesi'ne gönderildi, bir yıl sonra da Anadolu valiliğine tayin edildi (1333). İki yıl sonra İlhanlı mirasının en güçlü tâlibi bu adam olacaktır.",
   kaynak:"hasan-i-buzurg" },
 
-{ taraflar:["ilhanli"], t:"1335-11-30", b:"Ebû Said Bahadır Han'ın ölümü — İlhanlı Devleti fiilen dağıldı", gun:"13 Rebîülâhir 736 / 30 Kasım 1335 (TDV `ebu-said-bahadir-han`)", tur:"son",
+{ taraflar:["ilhanli"], t:"1335-11-30", b:"Ebû Said Bahadır Han'ın ölümü — İlhanlı Devleti fiilen dağıldı", ic_not_ham_gun:"13 Rebîülâhir 736 / 30 Kasım 1335 (TDV `ebu-said-bahadir-han`)", gun:"13 Rebîülâhir 736 / 30 Kasım 1335", tur:"son",
   onem:5, dunya:2, kapsam:"ic", etiket:["olum","hukumdar","bolunme","kriz","konu-siyasi","konu-kisiler","konu-hanedan"],
   yer_id:"Tebriz",
   d:"İlhanlı hükümdarlarının en büyüklerinden sayılan Ebû Said, 1335 yılında henüz otuz yaşında iken öldü veya zehirlenerek öldürüldü. Vâris bırakmadan ölmesi devletin parçalanmasına ve yerini mahallî hânedanların almasına yol açtı: Celâyirliler, Karakoyunlular, Muzafferîler, Horasan Serbedârîleri ve Eretnaoğulları bu boşluktan doğdu.", ic_not_d:"⚠️ Devletin künyesi 1353'e kadar sürer, çünkü kukla ilhanlar 1353'e kadar tahta çıkarılmaya devam etmiştir; 1335 devletin BİTİŞİ değil, FİİLEN dağılışıdır.",
@@ -791,7 +791,7 @@ window.KRONOLOJI_IRAN_ARDILLARI = [
 { t:"1358-01-01", b:"Mübârizüddin Tebriz'i istilâ etti ama elinde tutamadı", gun:"1358", ic_not_gun:"1358 — yıl hassasiyeti · TDV `muzafferiler`, `ilhanlilar`, `celayirliler`, `serbedariler` … gün/ay vermiyor (KRONO-DOGU-ISLAM-0929 ölçümü)", tur:"savas",
   onem:4, dunya:2, kapsam:"dis", etiket:["askeri","toprak","toprak-kayip","konu-askeri"],
   yer_id:"Tebriz",
-  d:"Azerbaycan'ı da hâkimiyeti altına almak amacıyla Tebriz'i istilâ eden Mübârizüddin şehri elinde tutmaya muvaffak olamadı ve bölge Celâyirli Şeyh Üveys'in eline geçti. TDV `tebriz` maddesinin verdiği el değiştirme sırasının (Çobanlı → Altın Orda → Muzafferî → Celâyirli) üçüncü halkası budur ve süresi bir mevsimden kısadır.",
+  ic_not_ham3_d:"Azerbaycan'ı da hâkimiyeti altına almak amacıyla Tebriz'i istilâ eden Mübârizüddin şehri elinde tutmaya muvaffak olamadı ve bölge Celâyirli Şeyh Üveys'in eline geçti. TDV `tebriz` maddesinin verdiği el değiştirme sırasının (Çobanlı → Altın Orda → Muzafferî → Celâyirli) üçüncü halkası budur ve süresi bir mevsimden kısadır.", d:"Azerbaycan'ı da hâkimiyeti altına almak amacıyla Tebriz'i istilâ eden Mübârizüddin şehri elinde tutmaya muvaffak olamadı ve bölge Celâyirli Şeyh Üveys'in eline geçti. TDV maddesinin verdiği el değiştirme sırasının (Çobanlı → Altın Orda → Muzafferî → Celâyirli) üçüncü halkası budur ve süresi bir mevsimden kısadır.",
   kaynak:"muzafferiler" },
 
 { t:"1358-01-01", b:"Şah Şücâ' babasını hal'edip gözlerine mil çektirdi", gun:"H. 759 / 1358", ic_not_gun:"H. 759 / 1358 — yıl hassasiyeti · eski t 1358-06-01'in AYI kaynakta YOK (d ve TDV yalnız yıl veriyor; TDV `muzafferiler`, `ilhanlilar`, `celayirliler`, `serbedariler` …) → yıla indirildi (KRONO-DOGU-ISLAM-0929)", tur:"hukumdar",
@@ -836,7 +836,7 @@ window.KRONOLOJI_IRAN_ARDILLARI = [
   d:"Timur'un Kirman'a gelen elçisi İmâdüddin Ahmed tarafından saygıyla karşılandı (787/1385). Muzafferî hânedanının Timur karşısındaki bölünmüş tutumu burada başlar: bir kolu itaat ederken diğeri direnecek ve bu bölünme sekiz yıl sonra hânedanın tamamen tasfiyesine gerekçe olacaktır.",
   kaynak:"muzafferiler" },
 
-{ taraflar:["muzafferi"], t:"1387-11-18", b:"Timur İsfahan'da katliam yaptı", gun:"6 Zilkade 789 / 18 Kasım 1387 (TDV `isfahan`) — ilk geçişte `muzafferiler` yalnız yıl verdiği için yıla indirilmişti; yer maddesi günü veriyor", tur:"isgal",
+{ taraflar:["muzafferi"], t:"1387-11-18", b:"Timur İsfahan'da katliam yaptı", ic_not_ham_gun:"6 Zilkade 789 / 18 Kasım 1387 (TDV `isfahan`) — ilk geçişte `muzafferiler` yalnız yıl verdiği için yıla indirilmişti; yer maddesi günü veriyor", gun:"6 Zilkade 789 / 18 Kasım 1387 (gün kesin değil)", tur:"isgal",
   onem:5, dunya:3, kapsam:"dis", etiket:["askeri","yikim","isgal","konu-askeri"],
   yer_id:"Isfahan",
   d:"Timur'un memurları para toplamak amacıyla İsfahan'a geldiklerinde halk tarafından öldürülünce Timur intikam duygusuyla şehirde yaklaşık 200.000 kişiyi kılıçtan geçirdi ve Semerkant'ta çıkan bir isyanı bastırmak için bölgeden ayrıldı. İran şehir tarihinin en ağır kıyımlarından biridir ve İsfahan'ın toparlanması bir buçuk asır sürmüştür.",
@@ -898,7 +898,7 @@ window.KRONOLOJI_IRAN_ARDILLARI = [
 { taraflar:["incu"], t:"1355-01-01", b:"Ebû İshak şair ve âlimleri himaye etti — Hâfız'a maaş bağladı", gun:"Ebû İshak devri", tur:"kultur",
   onem:3, dunya:3, kapsam:"ic", etiket:["kultur","edebiyat","himaye","siir","konu-diplomasi","konu-sanat","konu-kultur"],
   yer_id:"Şiraz",
-  d:"Şiir ve edebiyata yakınlığıyla tanınan Ebû İshak şair ve âlimleri himaye etmiş, Hâfız'ı himayesine alarak kendisine maaş bağlamıştır. Şemseddin Muhammed b. Mahmûd-ı Âmülî Nefâisü'l-fünûn adlı eserini ona sunmuş; Şeyh Emînüddin Muhammed Kâzerûnî, Kadı Adudüddin el-Îcî ve Pîr Yahyâ Cemâlî-i Sûfî gibi isimler kendisini takdir etmiştir. 📌 Hâfız'ın divanındaki 'Ebû İshak devri' hasreti bir edebî mazmun değil, gerçek bir siyasî dönemin adıdır.", ic_not_d:"TARİH HAKKINDA: kaynak yıl vermiyor; madde saltanatın son yıllarına konuldu.",
+  ic_not_ham_d:"Şiir ve edebiyata yakınlığıyla tanınan Ebû İshak şair ve âlimleri himaye etmiş, Hâfız'ı himayesine alarak kendisine maaş bağlamıştır. Şemseddin Muhammed b. Mahmûd-ı Âmülî Nefâisü'l-fünûn adlı eserini ona sunmuş; Şeyh Emînüddin Muhammed Kâzerûnî, Kadı Adudüddin el-Îcî ve Pîr Yahyâ Cemâlî-i Sûfî gibi isimler kendisini takdir etmiştir. 📌 Hâfız'ın divanındaki 'Ebû İshak devri' hasreti bir edebî mazmun değil, gerçek bir siyasî dönemin adıdır.", d:"Şiir ve edebiyata yakınlığıyla tanınan Ebû İshak şair ve âlimleri himaye etmiş, Hâfız'ı himayesine alarak kendisine maaş bağlamıştır. Şemseddin Muhammed b. Mahmûd-ı Âmülî Nefâisü'l-fünûn adlı eserini ona sunmuş; Şeyh Emînüddin Muhammed Kâzerûnî, Kadı Adudüddin el-Îcî ve Pîr Yahyâ Cemâlî-i Sûfî gibi isimler kendisini takdir etmiştir. Hâfız'ın divanındaki 'Ebû İshak devri' hasreti bir edebî mazmun değil, gerçek bir siyasî dönemin adıdır.", ic_not_d:"TARİH HAKKINDA: kaynak yıl vermiyor; madde saltanatın son yıllarına konuldu.",
   kaynak:"inculular" },
 
 // ═════════════════════════════════════════════════════════════════════
@@ -930,7 +930,7 @@ window.KRONOLOJI_IRAN_ARDILLARI = [
 { taraflar:["serbedariler"], t:"1339-01-01", b:"Mes'ûd, Şiî şeyhi Hasan-ı Cûrî ile ittifak yaptı", gun:"Mes'ûd devri", tur:"din",
   onem:5, dunya:2, kapsam:"ic", etiket:["din","ittifak","sosyal","konu-diplomasi","konu-din","konu-sosyal"],
   yer_id:"Sebzevâr",
-  d:"Kendisine katılan askerler, gençler ve ayyârlarla taraftarları gittikçe artan Mes'ûd, Mâzenderanlı Şiî şeyhi Halîfe'nin müridi Şeyh Hasan-ı Cûrî ile ittifak yaparak daha da güçlendi. 📌 Bu ittifak hareketin karakterini belirler: Serbedârîler bir hânedan değil, bir tarikat ile bir ayyâr birliğinin ortak yönetimidir — İran'da devlet kuran ilk halk-tarikat hareketi budur.", ic_not_d:"TARİH HAKKINDA: kaynak yıl vermiyor; madde Mes'ûd'un iktidarının ilk yılına konuldu.",
+  ic_not_ham_d:"Kendisine katılan askerler, gençler ve ayyârlarla taraftarları gittikçe artan Mes'ûd, Mâzenderanlı Şiî şeyhi Halîfe'nin müridi Şeyh Hasan-ı Cûrî ile ittifak yaparak daha da güçlendi. 📌 Bu ittifak hareketin karakterini belirler: Serbedârîler bir hânedan değil, bir tarikat ile bir ayyâr birliğinin ortak yönetimidir — İran'da devlet kuran ilk halk-tarikat hareketi budur.", d:"Kendisine katılan askerler, gençler ve ayyârlarla taraftarları gittikçe artan Mes'ûd, Mâzenderanlı Şiî şeyhi Halîfe'nin müridi Şeyh Hasan-ı Cûrî ile ittifak yaparak daha da güçlendi. Bu ittifak hareketin karakterini belirler: Serbedârîler bir hânedan değil, bir tarikat ile bir ayyâr birliğinin ortak yönetimidir — İran'da devlet kuran ilk halk-tarikat hareketi budur.", ic_not_d:"TARİH HAKKINDA: kaynak yıl vermiyor; madde Mes'ûd'un iktidarının ilk yılına konuldu.",
   kaynak:"serbedariler" },
 
 { taraflar:["serbedariler"], t:"1340-01-01", b:"Nîşâbur ele geçirildi", gun:"H. 741 / 1340", ic_not_gun:"H. 741 / 1340 — yıl hassasiyeti · eski t 1340-06-01'in AYI kaynakta YOK (d ve TDV yalnız yıl veriyor; TDV `serbedariler`, `ilhanlilar`, `celayirliler`, `muzafferiler` …) → yıla indirildi (KRONO-DOGU-ISLAM-0929)", tur:"toprak-kazanc",
@@ -957,7 +957,7 @@ window.KRONOLOJI_IRAN_ARDILLARI = [
   d:"Mes'ûd, Kertler karşısındaki mağlûbiyetin izlerini silmek için Rüstemdâr ve Mâzenderan bölgelerine başlattığı akın sırasında âni bir hücuma uğrayarak öldürüldü (745/1344). Bu esnada Câm'dan Dâmgan'a, Habişan'dan Türşiz'e uzanan geniş bir saha Serbedârîler'in hâkimiyeti altındaydı — hânedanın en geniş sınırı budur.",
   kaynak:"serbedariler" },
 
-{ taraflar:["serbedariler"], t:"1346-05-01", b:"Muhammed Aytimur dervişlerin tahrikiyle öldürüldü", gun:"Muharrem 747 / Mayıs 1346 — ay hassasiyeti · ay TDV'de var, gün yok (`serbedariler`, `ilhanlilar`, `celayirliler`, `muzafferiler` …)", tur:"hukumdar",
+{ taraflar:["serbedariler"], t:"1346-05-01", b:"Muhammed Aytimur dervişlerin tahrikiyle öldürüldü", ic_not_ham_gun:"Muharrem 747 / Mayıs 1346 — ay hassasiyeti · ay TDV'de var, gün yok (`serbedariler`, `ilhanlilar`, `celayirliler`, `muzafferiler` …)", gun:"Muharrem 747 / Mayıs 1346 (günü bilinmiyor)", tur:"hukumdar",
   onem:3, dunya:1, kapsam:"ic", etiket:["hukumdar","olum","din","ic-savas","taht-kavgasi","konu-askeri","konu-kisiler","konu-isyan","konu-hanedan","konu-din"],
   yer_id:"Sebzevâr",
   d:"Mes'ûd'un ölümünden sonra iktidarı kumandanlardan Muhammed Aytimur ele geçirdi, ancak emirliği uzun sürmedi ve Hasan-ı Cûrî'nin müridlerinden bir derviş grubunun tahrikiyle öldürüldü (Muharrem 747 / Mayıs 1346). Şeyhin ölümünden dört yıl sonra bile tarikat kanadının devlet üzerindeki vetosu işlemektedir.",
@@ -972,7 +972,7 @@ window.KRONOLOJI_IRAN_ARDILLARI = [
 { taraflar:["serbedariler"], t:"1348-01-01", b:"İlk bağımsız Serbedârî sikkesi basıldı", gun:"H. 748 / 1348", ic_not_gun:"H. 748 / 1348 — yıl hassasiyeti · TDV `serbedariler`, `ilhanlilar`, `celayirliler`, `muzafferiler` … gün/ay vermiyor (KRONO-DOGU-ISLAM-0929 ölçümü)", tur:"ekonomi",
   onem:5, dunya:2, kapsam:"ic", etiket:["ekonomi","mali","siyaset","bagimsizlik","konu-siyasi","konu-ekonomi"],
   yer_id:"Sebzevâr",
-  d:"Hâce Şemseddin Ali emirliğin idarî yapısını güçlendirdi, ekonomik bir reform programı uyguladı ve komşu devletlerle antlaşmalar yaptı. İlk bağımsız Serbedârî sikkesi onun zamanında basıldı (748/1348). 📌 Sikke kesmek İslâm siyaset geleneğinde bağımsızlığın iki alâmetinden biridir; bir isyan hareketinin devlet olduğu an bu tarihtir.",
+  ic_not_ham_d:"Hâce Şemseddin Ali emirliğin idarî yapısını güçlendirdi, ekonomik bir reform programı uyguladı ve komşu devletlerle antlaşmalar yaptı. İlk bağımsız Serbedârî sikkesi onun zamanında basıldı (748/1348). 📌 Sikke kesmek İslâm siyaset geleneğinde bağımsızlığın iki alâmetinden biridir; bir isyan hareketinin devlet olduğu an bu tarihtir.", d:"Hâce Şemseddin Ali emirliğin idarî yapısını güçlendirdi, ekonomik bir reform programı uyguladı ve komşu devletlerle antlaşmalar yaptı. İlk bağımsız Serbedârî sikkesi onun zamanında basıldı (748/1348). Sikke kesmek İslâm siyaset geleneğinde bağımsızlığın iki alâmetinden biridir; bir isyan hareketinin devlet olduğu an bu tarihtir.",
   kaynak:"serbedariler" },
 
 { taraflar:["serbedariler"], t:"1351-01-01", b:"Hâce Şemseddin Ali kendi adamları tarafından öldürüldü", gun:"H. 752 / 1351", ic_not_gun:"H. 752 / 1351 — yıl hassasiyeti · TDV `serbedariler`, `ilhanlilar`, `celayirliler`, `muzafferiler` … gün/ay vermiyor (KRONO-DOGU-ISLAM-0929 ölçümü)", tur:"hukumdar",
@@ -987,7 +987,7 @@ window.KRONOLOJI_IRAN_ARDILLARI = [
   d:"Mes'ûd'un oğlu Lutfullah döneminde Esterâbâd'ın eski valisinin oğlu Emîr Velî, Serbedârî valisini şehirden kovdu, Haydar b. Kassâb'ın gönderdiği kuvvetleri mağlûp etti ve 759'da (1358) Esterâbâd'da kendi adına para bastırdı; Hasan Dâmegānî'nin gönderdiği yardımcı birlikleri de hezimete uğrattı. Gürgân, Toğa Timur'dan alındıktan on altı yıl sonra yeniden kaybedilmiştir.",
   kaynak:"serbedariler" },
 
-{ taraflar:["serbedariler"], t:"1361-05-01", b:"Hasan Dâmegānî, Emîr Lutfullah'ı öldürtüp iktidarı aldı", gun:"Receb 762 / Mayıs 1361 — ay hassasiyeti · ay TDV'de var, gün yok (`serbedariler`, `ilhanlilar`, `celayirliler`, `muzafferiler` …)", tur:"hukumdar",
+{ taraflar:["serbedariler"], t:"1361-05-01", b:"Hasan Dâmegānî, Emîr Lutfullah'ı öldürtüp iktidarı aldı", ic_not_ham_gun:"Receb 762 / Mayıs 1361 — ay hassasiyeti · ay TDV'de var, gün yok (`serbedariler`, `ilhanlilar`, `celayirliler`, `muzafferiler` …)", gun:"Receb 762 / Mayıs 1361 (günü bilinmiyor)", tur:"hukumdar",
   onem:3, dunya:1, kapsam:"ic", etiket:["hukumdar","olum","ic-savas","konu-askeri","konu-kisiler","konu-isyan","konu-hanedan"],
   yer_id:"Sebzevâr",
   d:"Emîr Lutfullah ile Hasan Dâmegānî arasında çıkan anlaşmazlık üzerine Hasan, Lutfullah'ı hapse atıp öldürttükten (Receb 762 / Mayıs 1361) sonra kendi adına hüküm sürmeye başladı. Kurucunun torunu, hânedanın on birinci cinayetiyle tasfiye edilmiştir.",
@@ -1014,7 +1014,7 @@ window.KRONOLOJI_IRAN_ARDILLARI = [
 { taraflar:["serbedariler"], t:"1370-01-01", b:"Hâce Ali, Şehîd-i Evvel'i Sebzevâr'a davet etti — İmâmiyye fıkhının yayılması", gun:"Hâce Ali'nin saltanatının sonları", tur:"din",
   onem:4, dunya:3, kapsam:"ic", etiket:["din","ilim","kitap","fikih","konu-bilim","konu-din","konu-kultur"],
   yer_id:"Sebzevâr",
-  d:"Dindar bir Şiî olan Hâce Ali, saltanatının sonuna doğru İmâmiyye Şîası'na mensup, Şehîd-i Evvel diye tanınan Muhammed b. Mekkî el-Âmilî'yi bölgede İmâmiyye Şîası'nı yaygınlaştırma faaliyetlerine önderlik etmesi için Sebzevâr'a davet etti. Muhammed b. Mekkî daveti kabul etmedi, fakat Hâce Ali'ye yol göstermek amacıyla İmâmiyye fıkhına dair el-Lüm'atü'd-Dımaşkıyye adlı bir eser yazıp gönderdi. 📌 Bu eser bugün hâlâ İmâmiyye medreselerinin temel fıkıh kitaplarındandır — bir Horasan emîrinin davetiyle Şam'da yazılmıştır.", ic_not_d:"TARİH HAKKINDA: kaynak 'saltanatının sonuna doğru' diyor, yıl vermiyor.",
+  ic_not_ham_d:"Dindar bir Şiî olan Hâce Ali, saltanatının sonuna doğru İmâmiyye Şîası'na mensup, Şehîd-i Evvel diye tanınan Muhammed b. Mekkî el-Âmilî'yi bölgede İmâmiyye Şîası'nı yaygınlaştırma faaliyetlerine önderlik etmesi için Sebzevâr'a davet etti. Muhammed b. Mekkî daveti kabul etmedi, fakat Hâce Ali'ye yol göstermek amacıyla İmâmiyye fıkhına dair el-Lüm'atü'd-Dımaşkıyye adlı bir eser yazıp gönderdi. 📌 Bu eser bugün hâlâ İmâmiyye medreselerinin temel fıkıh kitaplarındandır — bir Horasan emîrinin davetiyle Şam'da yazılmıştır.", d:"Dindar bir Şiî olan Hâce Ali, saltanatının sonuna doğru İmâmiyye Şîası'na mensup, Şehîd-i Evvel diye tanınan Muhammed b. Mekkî el-Âmilî'yi bölgede İmâmiyye Şîası'nı yaygınlaştırma faaliyetlerine önderlik etmesi için Sebzevâr'a davet etti. Muhammed b. Mekkî daveti kabul etmedi, fakat Hâce Ali'ye yol göstermek amacıyla İmâmiyye fıkhına dair el-Lüm'atü'd-Dımaşkıyye adlı bir eser yazıp gönderdi. Bu eser bugün hâlâ İmâmiyye medreselerinin temel fıkıh kitaplarındandır — bir Horasan emîrinin davetiyle Şam'da yazılmıştır.", ic_not_d:"TARİH HAKKINDA: kaynak 'saltanatının sonuna doğru' diyor, yıl vermiyor.",
   kaynak:"serbedariler" },
 
 { taraflar:["serbedariler"], t:"1376-01-01", b:"Rükneddin Muzafferî desteğiyle Sebzevâr'ı ele geçirdi", gun:"H. 778 / 1376", ic_not_gun:"H. 778 / 1376 — yıl hassasiyeti · TDV `serbedariler`, `ilhanlilar`, `celayirliler`, `muzafferiler` … gün/ay vermiyor (KRONO-DOGU-ISLAM-0929 ölçümü)", tur:"savas",
@@ -1162,7 +1162,7 @@ window.KRONOLOJI_IRAN_ARDILLARI = [
 { taraflar:["lur-i-buzurg"], t:"1300-01-01", b:"Lur atabeglikleri zaman zaman İlhanlı vilâyeti statüsüne girdi", gun:"İlhanlı devri", tur:"idari",
   onem:3, dunya:1, kapsam:"dis", etiket:["idari","itaat","siyaset","konu-siyasi","konu-idari"],
   yer_id:"Luristan",
-  d:"Lur-ı Büzürg ve Lur-ı Kûçek atabeglikleri zaman zaman birer İlhanlı vilâyeti statüsüne girdilerse de Safevîler dönemine kadar varlıklarını korudular. 📌 Bu, İran'ın dağlık bölgelerinin siyasî tarihinin değişmez kalıbıdır: merkez güçlüyken vilâyet, merkez zayıfken atabeglik.", ic_not_d:"TARİH HAKKINDA: kaynak bu statü değişimlerine yıl vermiyor; madde İlhanlı'nın en güçlü olduğu döneme konuldu ve bu bir tercihtir.",
+  ic_not_ham_d:"Lur-ı Büzürg ve Lur-ı Kûçek atabeglikleri zaman zaman birer İlhanlı vilâyeti statüsüne girdilerse de Safevîler dönemine kadar varlıklarını korudular. 📌 Bu, İran'ın dağlık bölgelerinin siyasî tarihinin değişmez kalıbıdır: merkez güçlüyken vilâyet, merkez zayıfken atabeglik.", d:"Lur-ı Büzürg ve Lur-ı Kûçek atabeglikleri zaman zaman birer İlhanlı vilâyeti statüsüne girdilerse de Safevîler dönemine kadar varlıklarını korudular. Bu, İran'ın dağlık bölgelerinin siyasî tarihinin değişmez kalıbıdır: merkez güçlüyken vilâyet, merkez zayıfken atabeglik.", ic_not_d:"TARİH HAKKINDA: kaynak bu statü değişimlerine yıl vermiyor; madde İlhanlı'nın en güçlü olduğu döneme konuldu ve bu bir tercihtir.",
   kaynak:"luristan" },
 
 { t:"1393-01-01", b:"Timur Luristan'a hâkim oldu ve Şûs'ta ikamet etti", gun:"1393", ic_not_gun:"1393 — yıl hassasiyeti · eski t 1393-06-01'in AYI kaynakta YOK (d ve TDV yalnız yıl veriyor; TDV `luristan`, `ilhanlilar`, `celayirliler`, `muzafferiler` …) → yıla indirildi (KRONO-DOGU-ISLAM-0929)", tur:"isgal",

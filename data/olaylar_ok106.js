@@ -141,7 +141,7 @@ window.OLAYLAR_OK106 = [
     b:"Aziz Yelizaveta Kalesi — Rusya'nın güney sınırının Osmanlı-Kırım akın hattına dayanması",
     gun:"1754", yer:"Yelisavetgrad, Yeni Sırbistan", yer_id:"Yelisavetgrad (Aziz Yelizaveta Kalesi)",
     d:"Rusya, Zaporojye Kazaklarının toprağı üzerinde Aziz Yelizaveta adını taşıyan yeni bir kale inşa etti. Kalenin açık gerekçesi, Yeni Sırbistan'a yerleştirilen Balkan göçmenlerini Osmanlı ve Kırım akınlarından korumaktı; yani Rus sınır hattı ilk kez bozkırın ortasına, akın yollarının üstüne kadar indi. Bu ileri karakol, yirmi yıl sonra Küçük Kaynarca ile başlayacak olan kuzey Karadeniz genişlemesinin çıkış noktası oldu.",
-    kaynak:"TDV kapsamı dışı. Енциклопедія Сучасної України (НАН України / НТШ, 2013), 'Кіровоград' (esu.com.ua/pdf/file/7014.pdf): 'Історія міста розпочинається 1754, коли за наказом рос. імператриці Єлизавети Петрівни була закладена фортеця св. Єлизавети'; inşa 3 yıl sürdü (okuma 24.11.2026). Encyclopedia of Ukraine (CIUS), 'Kropyvnytskyi' maddesi de 1754 diyor (özetten; sayfası bu turda açılmadı). Atlas metnindeki 'inşa etti' ESU'ya göre 'kale temeli atıldı' (inşa 1754-57). [yalnız yıl teyitli; gün teyitsiz]",
+    kaynak:"TDV kapsamı dışı. Енциклопедія Сучасної України (НАН України / НТШ, 2013), 'Кіровоград' (esu.com.ua/pdf/file/7014.pdf): 'Історія міста розпочинається 1754, коли за наказом рос. імператриці Єлизавети Петрівни була закладена фортеця св. Єлизавети'; inşa 3 yıl sürdü (okuma 24.11.2026). Encyclopedia of Ukraine (CIUS), 'Kropyvnytskyi' maddesi de 1754 diyor (özetten; sayfası açılmadı). Atlas metnindeki 'inşa etti' ESU'ya göre 'kale temeli atıldı' (inşa 1754-57). [yalnız yıl teyitli; gün teyitsiz]",
     duygu:["🏛"] }
 
 ];

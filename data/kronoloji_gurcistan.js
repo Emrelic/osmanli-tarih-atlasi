@@ -86,7 +86,7 @@ window.KRONOLOJI_GURCISTAN = [
   etiket:["kultur","edebiyat","konu-kultur"],
   yer_id:"Tiflis",
   d:"Kraliçe Tamar'a ithaf edilen 'Vepkhistqaosani' (Kaplan Postlu Şövalye) destanı, Gürcü edebiyatının kurucu eseri ve millî kimliğin edebi temel taşı olarak kabul edilir. Kesin yazım tarihi belgelenmemiştir; tarihyazımı eseri Tamar'ın saltanatına (yaklaşık 1184-1213) tarihler.",
-  kaynak:"bulunamadı — TDV bu konuyu (Hıristiyan Gürcü edebiyatı) kapsamıyor; dayanak standart akademik kaynak, bu turda ikinci bir kaynakla doğrulanamadı (Britannica/Iranica 403 hatası verdi) — tarih YAKLAŞIK olarak işaretlidir" },
+  kaynak:"bulunamadı — TDV bu konuyu (Hıristiyan Gürcü edebiyatı) kapsamıyor; dayanak standart akademik kaynak, ikinci bir kaynakla doğrulanamadı (Britannica/Iranica 403 hatası verdi) — tarih YAKLAŞIK olarak işaretlidir" },
 
 // === B) MOĞOL VE TİMUR İSTİLALARI (1231-1403) ================================
 { odak_yer:["Tiflis","Gence"], t:"1231-01-01", b:"Moğol istilası başladı", tur:"isgal", onem:5, dunya:3, kapsam:"dis",
@@ -214,7 +214,7 @@ window.KRONOLOJI_GURCISTAN = [
   etiket:["bilim","kultur","imar","islahat","konu-bilim","konu-kultur","konu-imar","konu-islahat"],
   yer_id:"Tiflis",
   d:"Kral Vahtang VI'nın girişimiyle Tiflis'te ilk Gürcü matbaası kuruldu; Kafkasya'daki ilk yerli matbaalardan biri olarak Gürcüce dinî ve hukuki metinlerin basımını mümkün kıldı.",
-  kaynak:"bulunamadı — TDV bu konuyu kapsamıyor; dayanak standart akademik kaynak, bu turda ikinci bir kaynakla doğrulanamadı (Britannica/Iranica 403 hatası verdi) — tarih YAKLAŞIK olarak işaretlidir" },
+  kaynak:"bulunamadı — TDV bu konuyu kapsamıyor; dayanak standart akademik kaynak, ikinci bir kaynakla doğrulanamadı (Britannica/Iranica 403 hatası verdi) — tarih YAKLAŞIK olarak işaretlidir" },
 
 { t:"1711-01-01", b:"İhtida etmiş Kartli hükümdarları düzeninin sona ermesi", tur:"siyaset", onem:3, dunya:1, kapsam:"ic",
   etiket:["siyaset","konu-siyasi"],
@@ -253,7 +253,7 @@ window.KRONOLOJI_GURCISTAN = [
   etiket:["siyaset","hukumdar","konu-siyasi","konu-hanedan"],
   yer_id:"Zagem (Kaheti)",
   d:"Nadir Şah'ın onayıyla Teimuraz II Kaheti tahtına, oğlu Erekle (II. Herakli) ise Kartli tahtına oturdu; baba-oğul bu ortak hâkimiyet, on sekiz yıl sonraki Kartli-Kaheti birleşmesinin siyasi temelini attı.",
-  kaynak:"bulunamadı — TDV bu taneciği (Kartli/Kaheti iç hanedanı) kapsamıyor; dayanak standart akademik kaynak, bu turda ikinci bir kaynakla doğrulanamadı (Britannica/Iranica 403 hatası verdi)" },
+  kaynak:"bulunamadı — TDV bu taneciği (Kartli/Kaheti iç hanedanı) kapsamıyor; dayanak standart akademik kaynak, ikinci bir kaynakla doğrulanamadı (Britannica/Iranica 403 hatası verdi)" },
 
 { t:"1762-01-08", b:"II. Herakli, Kartli ve Kaheti'yi tek idare altında birleştirdi", tur:"birlesme", onem:5, dunya:2, kapsam:"ic",
   etiket:["siyaset","birlesme","konu-siyasi"],
@@ -277,7 +277,7 @@ window.KRONOLOJI_GURCISTAN = [
   etiket:["hukumdar","konu-kisiler","konu-hanedan"],
   yer_id:"Tiflis",
   d:"II. Herakli'nin ölümüyle Kartli-Kaheti tahtına oğlu XII. Georgi geçti; kısa süren bu son saltanat, üç yıl sonra Rusya'nın doğrudan ilhakıyla sona erecekti.",
-  kaynak:"bulunamadı — TDV bu taneciği kapsamıyor; dayanak standart akademik kaynak, bu turda ikinci bir kaynakla doğrulanamadı (Britannica/Iranica 403 hatası verdi)" },
+  kaynak:"bulunamadı — TDV bu taneciği kapsamıyor; dayanak standart akademik kaynak, ikinci bir kaynakla doğrulanamadı (Britannica/Iranica 403 hatası verdi)" },
 
 { t:"1801-09-24", b:"Kartli-Kaheti Çarlığı'nın Rusya tarafından ilhakı", tur:"son", onem:5, dunya:4, kapsam:"dis",
   etiket:["toprak-kayip","siyaset","konu-askeri","konu-siyasi"],
@@ -303,7 +303,7 @@ window.KRONOLOJI_GURCISTAN = [
   etiket:["din","konu-din"],
   yer_id:"Tiflis",
   d:"Rus İmparatorluğu, ilhaktan on yıl sonra bin yılı aşkın süredir bağımsız olan Gürcü Ortodoks Kilisesi'nin otosefalisini kaldırıp Rus Ortodoks Kilisesi'ne bağladı; Gürcü kimliğinin dinî boyutunun da doğrudan Rus idaresine tâbi kılındığı bir dönüm noktasıdır.",
-  kaynak:"bulunamadı — TDV bu konuyu kapsamıyor; dayanak standart akademik kaynak, bu turda ikinci bir kaynakla doğrulanamadı (Britannica/Iranica 403 hatası verdi)" },
+  kaynak:"bulunamadı — TDV bu konuyu kapsamıyor; dayanak standart akademik kaynak, ikinci bir kaynakla doğrulanamadı (Britannica/Iranica 403 hatası verdi)" },
 
 { t:"1829-09-14", b:"Edirne Antlaşması — Ahıska ve Ahılkelek Rusya'ya terkedildi", tur:"toprak-kayip", onem:5, dunya:3, kapsam:"dis",
   etiket:["antlasma","toprak-kayip","konu-askeri","konu-diplomasi"],

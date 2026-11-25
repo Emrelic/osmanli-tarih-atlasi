@@ -1,0 +1,218 @@
+# TURKCE-METIN-1125 — emin olunamayanlar (metne dokunulmadı)
+
+Olgu şüphelerinin HİÇBİRİ kaynaktan doğrulanmadı; denetçi notu ve metnin kendi iç çelişkisine dayanır.
+
+## Elle bakılacak başlıca maddeler
+
+- **Lozan TBMM onayı** (`OLAYLAR_EK22:1923-07-24:0`): gövde 23 Ağustos, tablo "2 Ağustos 1923 (TDV)". TDV `lozan-antlasmasi` okundu: "2 Ağustos 1923" diyor. İkinci Meclisin 11 Ağustos 1923'te açıldığı (hatırlanan bilgi, kaynaktan okunmadı) 2 Ağustos'u şüpheli yapıyor; TDV'ye karşı iki bağımsız akademik kaynak aranmadı.
+- `kronoloji_cok_romanya` bir tarih satırı: "10 Ocak 1792 / Pazartesi → Gregoryen 9 Ocak" notu duruyor; hangi günün gösterileceği karar ister.
+- `kronoloji_sinir_antik_roma` "1281/1000 (yıl): önceki boşluk sona erdi" maddeleri: tarih olay günü değil, verideki boşluğun bittiği sınır olabilir.
+- Kimi maddelerde "tarih kaynağa dayanmıyor" anlamında cümle artık okura açıkça görünüyor (eski metinde "künyeden devralındı" yazıyordu); veri tarafında ele alınmalı.
+
+## İlk ayıklama turunda ayrılanlar
+
+- `kronoloji_sinir_antik_bizans_komsu.js` — 0931-01-01 Hemedan Ziyârî Emîri Merdâvîc b. Ziyâr'ın elinde; Hemedanlıların isyanı kanlı biçimde bastırıldı: 'Büveyhî/Kâkûyî/Selçuklu zincirine kadar (1118)' ifadesindeki boş dönemin sınırı belirsiz; diğer kayıtlardaki 1023-1043 Kâkûyî gösterimiyle çelişiyor gibi görünüyor. İç not içeriyor ('atlas ... beyanlı boşluk bırakır'), elle karar verilmeli.
+- `kronoloji_sinir_antik_roma.js` — 1281-01-01 Picenum ve Umbria: Papalık Devleti egemenliği başladı: Tarih, olayın gerçek günü değil haritadaki boş dönemin bittiği veri sınırı olabilir; metin bunu tarihî olay gibi anlatıyor. Ayrıca iç terim içeriyor, elle karar verilmeli.
+- `kronoloji_sinir_antik_roma.js` — 1000-01-01 Samnium ve Sallentina: bizans-katepanlik-italya egemenliği başladı: Tarih, olayın gerçek günü değil haritadaki boş dönemin bittiği veri sınırı olabilir; metin bunu tarihî olay gibi anlatıyor. Ayrıca iç terim içeriyor, elle karar verilmeli.
+- `kronoloji_sinir_antik_roma.js` — 1000-01-01 Cisalpina ve Venetia: Almanya (Kutsal Roma 962-1806) egemenliği başladı: Tarih, olayın gerçek günü değil haritadaki boş dönemin bittiği veri sınırı olabilir; metin bunu tarihî olay gibi anlatıyor. Ayrıca iç terim içeriyor, elle karar verilmeli.
+- `kronoloji_sinir_antik_roma.js` — 1281-01-01 Cisalpina ve Venetia: bologna-komunu egemenliği başladı: Tarih, olayın gerçek günü değil haritadaki boş dönemin bittiği veri sınırı olabilir; metin bunu tarihî olay gibi anlatıyor. Ayrıca iç terim içeriyor, elle karar verilmeli.
+- `kronoloji_sinir_antik_roma.js` — 1281-01-01 Cisalpina ve Venetia: Mantua Dukalığı (Gonzaga) egemenliği başladı: Tarih, olayın gerçek günü değil haritadaki boş dönemin bittiği veri sınırı olabilir; metin bunu tarihî olay gibi anlatıyor. Ayrıca iç terim içeriyor, elle karar verilmeli.
+- `kronoloji_sinir_antik_roma.js` — 1281-01-01 Sicilia: Sicilya Krallığı (Norman Sicilya Kontluğu dahil) egemenliği başladı: Tarih, olayın gerçek günü değil haritadaki boş dönemin bittiği veri sınırı olabilir; metin bunu tarihî olay gibi anlatıyor. Ayrıca iç terim içeriyor, elle karar verilmeli.
+
+## UMIT listesinden ayrılanlar (olgu / kronoloji şüphesi)
+
+- `OLAYLAR:1913-05-30:0`: "Girit'te Hanya, Kandiye, Girit (Resmo)": üçüncü ad büyük olasılıkla yalnız Resmo (Rethymno) olmalı; yer adı olduğu için dokunulmadı.
+- `OLAYLAR_LAB19_BOS_1119:1446-01-01:0`: "Hacer el-Yemâme b. Dir'" kişi adı gibi duruyor; "Hacerü'l-Yemâme sahibi İbn Dir'" olabilir, kaynaktan bakılmalı.
+- `OLAYLAR_EK3:1403-06-15:0`: Aynı 1403 Gelibolu Antlaşması üç ayrı maddede farklı ayla (Şubat/Haziran) geçiyor; mükerrer ve tarih çelişkisi olabilir.
+- `OLAYLAR_EK7:1807-05-29:1`: IV. Mustafa için "III. Selim'in yeğeni" deniyor; I. Abdülhamid'in oğlu olarak amcaoğlu olmalı (doğrulanmalı).
+- `OLAYLAR_EK5:1791-08-04:0`: Aynı metinde "Avusturya bütün yerleri geri verdi" deniyor, sonra Orsova "geri verilmeyen tek yer" olarak, Cetin ve Drežnik Grad da Habsburg'a geçen yerler olarak anılıyor.
+- `OLAYLAR_EK6:1535-09-22:0`: Açıklamanın ilk cümlesi bozuk ("Van'ı 1534'te Osmanlı hâkimiyetine veren bölgede..."); ayrıca başlık Erciş'in Tahmasb'ın eline düştüğünü söylerken metin Erciş kuşatmasının geri çekilmeyle bittiğini yazıyor.
+- `OLAYLAR_EK5:1878-01-04:0`: "1878 sonunda özerk Bulgaristan Prensliği'nin, 1879'da fiilen başşehri olacaktı" cümlesi bozuk; düzeltmek için tarihlerden birinin anlamına karar vermek gerekiyor.
+- `OLAYLAR_EK5:1538-09-01:0`: 1538 maddesinde "Aynı yapı 1484'te Kili ve Akkirman'da ... tekrarlanacaktı": 1484 daha önceki bir tarih (kronoloji çelişkisi).
+- `OLAYLAR_EK5:1537-03-12:0`: Klis'in 1537'de Venedik'ten değil Habsburg/Hırvat tarafından (Kružić) savunulduğu şüphesi var (doğrulanmalı).
+- `OLAYLAR_EK5:1912-11-25:0`: "I. Balkan Savaşı'nda 7 Nisan 1912'de bombalanan Sakız": savaş Ekim 1912'de başladı; tarih kontrol edilmeli.
+- `OLAYLAR_EK5:1521-01-01:0`: Nikarya: başlık/madde tarihi 1521, metin "1481'den 1521'e kadar Şövalyeler ... ilk Osmanlı dönemi 1522'de başladı" diyor.
+- `OLAYLAR_EK5:1427-01-01:1`: "Sigismund ile varisi Georg Brankoviç": kimin varisi olduğu belirsiz (Stefan Lazareviç'in varisi olmalı).
+- `OLAYLAR_EK5:1913-11-01:0`: Bozcaada ve İmroz'un iadesinin Atina Antlaşması'na bağlanması şüpheli (doğrulanmalı).
+- `OLAYLAR_EK7:1408-04-13:0`: Açıklama ";" ile bitiyordu; cümlenin devamı kesilmiş olabilir (yalnız noktalama kapatıldı).
+- `OLAYLAR_EK8:1920-09-02:0`: Tarih tutarsızlığı şüphesi (1920-09-02 ve 1920-10-08 maddeleri): Buhara'ya giriş 2 Eylül / emirliğin düşüşü 28-31 Ağustos; ilga 6 Ekim / ilan 8 Ekim.
+- `OLAYLAR_EK9:1911-10-08:0`: 29 Eylül savaş ilanı ile 25-26 Eylül ablukası sırası çelişkili (abluka ilandan önce görünüyor).
+- `OLAYLAR_EK11:1569-01-01:0`: Girdide başlık ve açıklama yok; nottaki kaçış kalıntıları (EK11:1569, EK13:1569, EK13:1861, EK15:1659, EK15:1337, EK21:1811/1509) denetlenemedi.
+- `OLAYLAR_EK11:1796-01-01:0`: Meşhed cümlesi bozuk ("Ağa Muhammed Şah'ın önünde Afşar hükümdarı Şâhruh tarafından karşılandı"): kimin kimi/neyi karşıladığı kaynaktan netleştirilmeli.
+- `OLAYLAR_EK16:1341-01-01:0`: "Altın Orda Hanı Özbek (Özbek/Canibek)": yarlığı veren hanın Özbek mi Canibek mi olduğu netleştirilmeli.
+- `OLAYLAR_EK16:1941-06-23:0`: Açıklama olaya özgü değil, taslak ("Doğu Cephesi: 1941 Barbarossa ve 1944 Bagration."); aynı gruptaki :1, 1944-07-16 ve 1944-07-28 maddeleri de böyle.
+- `OLAYLAR_EK16:1537-01-01:0`: "İskoç-Norveç piskoposu Olav Engelbriktsson": kendisi Norveçli Nidaros başpiskoposu; "İskoç" hatalı görünüyor.
+- `OLAYLAR_EK16:1891-01-01:0`: Riyad Baskını 16 Ocak 1902 deniyor; OLAYLAR_EK7:1902-01-15 maddesiyle çelişiyor.
+- `OLAYLAR_EK22:1923-07-24:0`: Lozan'ın TBMM onayı metnin başında 23 Ağustos 1923, tablonun sonunda 2 Ağustos 1923 (213 kabul 14 ret); iç çelişki.
+- `OLAYLAR_2S_0918:1569-07-01:0`: Lublin Birliği'yle devredilen Podolya/Volhynia/Kiev yerleri arasında Białystok sayılmış; şüpheli.
+- `OLAYLAR_ARKEOLOJI_ZINCIR:-0026-01-01:0`: Başlık MÖ 26 Cumhuriyet → boşluk geçişi; kaynak bilgisi MS 395 (ve 0395 maddesinde 476) olaylarını anlatıyor.
+- `OLAYLAR_ARKEOLOJI_ZINCIR:-0310-01-01:0`: Başlık İskender İmparatorluğu → Selevkos, açıklama sahipsiz aralık → Selevkos diyor; -0311 maddesinde de taraf/yıl uyuşmazlığı notu var.
+- `OLAYLAR_ARKEOLOJI_ZINCIR:-0329-01-01:0`: Başlık Ahameniş → Büyük İskender, metin Ahameniş → sahipsiz aralık diyor ve MÖ 550/549 Kyros olayını anlatıyor (yanlış kayıt/tarih uyuşmazlığı).
+- `OLAYLAR_ARKEOLOJI_ZINCIR:-1099-01-01:0`: Verilen kaynak geçişi (Ur III çözülmesi, MC 2024) başlıktaki Orta Elam → Yeni Elam geçişini anlatmıyor; aynı sorun -1899, -2003, -2023, -2024, -0910, -1464, -1731, 0036 maddeleri için de bildirilmiş.
+- `OLAYLAR_ARKEOLOJI_ZINCIR:-2299-01-01:0`: Sondaki İngilizce alıntı yarıda kesik ("...became the only king of"); kaynaktan tamamlanmalı.
+- `OLAYLAR_ARKEOLOJI_PILOT:-7099-01-01:0`: "~200 yıl geriye (daha geç)" kendi içinde çelişkili; modelin tarihi öne mi sonraya mı çektiği netleştirilmeli.
+- `OLAYLAR_ARKEOLOJI_D2_AFRIKA_AMERIKA:-0374-01-01:0`: Yanma tarih aralıkları ("100 MÖ-MS 140", "165 MÖ-MS 155") başlık yılıyla (MÖ 374) tutarsız görünüyor.
+- `OLAYLAR_OK109:1918-12-01:0`: Podgorica Meclisi "26 Ekim" yazılı; bilinen tarih 26 Kasım 1918 (doğrulanmalı).
+- `OLAYLAR_ORTACAG_ORTADOGU:0680-01-01:0`: Başlık alanı açıklamanın tamamıyla aynı (0680-10-10 maddesinde de); kısa başlık yazılması gerekiyor.
+- `OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1000-01-01:0`: "(arşiv ve piskoposluklar)" büyük olasılıkla "başpiskoposluk ve piskoposluklar" olmalı.
+- `OLAYLAR_ORTACAG_ORTADOGU:0754-01-01:0`: Başlık alanı açıklamanın tamamıyla aynı; kısa başlık yazılması gerekebilir.
+- `OLAYLAR_ORTACAG_CIN:0907-06-01:0`: Açıklama ";" ile bitiyordu; cümlenin devamı kesilmiş olabilir (yalnız noktalama kapatıldı).
+- `OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1205-01-01:0`: "Dördüncü Haçlı Seferi'nden yirmi yıl sonra" ifadesi 1205 tarihiyle çelişiyor (sefer 1202-1204).
+- `OLAYLAR_ANTIK_AKDENIZ:-0277-01-01:0`: TDV alıntısındaki "278-189 yılları" aralığı şüpheli.
+- `OLAYLAR_ORTACAG_DOGU_GUNEYDOGU_ASYA:0929-01-01:0`: Aynı madde :0 ve :1 olarak iki kez var (biri "havzası", öteki "deltası"); 0936-09-26, 1185-12-21, 1222-01-01 kopyaları da benzer.
+- `OLAYLAR_FRANSA_KONTROL_1027:1861-02-02:0`: "Piyemonte-Sardunya'nın 1860'ta Nice ile birlikte Fransa'ya devrinin ardından": cümle bozuk, neyin devredildiği belirsiz.
+- `OLAYLAR_DUNYA_BOLGE_1109:1905-01-22:0`: 1905 Kanlı Pazar'da "çariçenin muhafızları" deniyor; çarın / saray muhafızları olmalı (teyit edilmedi).
+- `OLAYLAR_EK:1717-08-18:0`: "Karlofça'dan sonra 1690'da geri alınmış": Karlofça 1699, 1690'dan sonra; kronoloji çelişkisi.
+- `OLAYLAR_EK:1830-10-17:0`: Kale listesinde "Şabac, Böğürdelen": Böğürdelen Şabac'ın Türkçe adı; aynı kale iki kez sayılmış olabilir.
+- `OLAYLAR_EK4:1815-01-20:0`: Metin "13 Ocak günü" diyor, madde günü 20 Ocak 1815; kontrol edilmeli.
+- `OLAYLAR_EK5:1404-03-01:0`: "Aynı süreçte Emîr Süleyman'a geçen yerleşimler" listesi (Anadolu Hisarı, Absu, Ayvalık vb.) kontrol edilmeli.
+- `OLAYLAR_EK5:1914-10-29:0`: Goeben/Breslau "Almanya'dan kaçıp" deniyor; Akdeniz'de İngiliz donanmasından kaçarak gelmişlerdi, ifade yanlış görünüyor.
+- `OLAYLAR_EK5:1918-02-10:0`: Cenaze "Divanyolu'ndaki I. Mahmud Türbesi"ne defnedildi deniyor; II. Mahmud Türbesi olmalı.
+- `OLAYLAR_EK5:1918-05-20:0`: "Serderabad'da Ermeni birliklerini yendi": Mayıs 1918 Serdarabad muharebesinde Türk tarafı yenilmiş sayılır; kontrol edilmeli.
+- `OLAYLAR_EK10:1912-11-08:0`: 8 Kasım maddesi ile Selanik'in teslimini 29 Ekim'den önceye koyan başka madde (1912-10-23) çelişiyor.
+- `OLAYLAR_EK10:1420-01-01:0`: "Orşova — sonraki adıyla Fethülislâm": başka maddede (1689-10-25) Orsova ile Fethülislâm iki ayrı yer; şüpheli.
+- `OLAYLAR_EK13:1861-05-21:0`: "ada ... bu düzenin dışında kaldı" himaye düzeni cümlesiyle çelişiyor; "Osmanlı idaresinin dışında" kastedilmiş olabilir.
+- `OLAYLAR_2S_0918:1889-01-01:0`: "II. Yohannes" (1889'da ölen IV. Yohannes olmalı); "Kerene İtalya idaresine geçti" bozuk görünüyor (Keren mi, ayrı yer mi); başlık yılı 1889, metinde koloni ilanı 1 Ocak 1890.
+- `OLAYLAR_ARKEOLOJI_ZINCIR:-2024-01-01:0`: Kaynak bilgisi (MÖ 16. yy Kassit / Deniz Ülkesi) MÖ 2024 Ur III → Larsa geçişini anlatmıyor; -1899, -2003, -1154, -0910 maddelerinde de benzer eşleşme hatası bildirilmiş.
+- `OLAYLAR_ARKEOLOJI_ZINCIR:0395-01-01:0`: Madde yılı 395, kaynak bilgisi 476 Odoacer olayını anlatıyor.
+- `OLAYLAR_P0057B:1520-01-01:0`: "Türkçe yazılmış bir tarih bulunmadığı için ... yalnız ... bölümleri ulaştı" cümlesi anlamsız; kaynaktan bakılmalı.
+- `OLAYLAR_EK5:1754-12-13:0`: III. Osman için "elli sekiz yaşına kadar kafes": 1699 doğumlu olup 1754'te 55 yaşındaydı; kontrol edilmeli.
+- `OLAYLAR_EK5:1724-08-31:0`: "en doğudaki nokta olan İsfahan yolunun son büyük durağıydı" cümlesi belirsiz; ayrıca aynı yılın antlaşması iki ayrı adla (Mukāsemenâmesi / Mukavelenâmesi) geçiyor.
+- `OLAYLAR_EK16:1797-06-14:0`: Cenova Cumhuriyeti için "asırlık Cenova Dukalığı" deniyor.
+- `OLAYLAR_OK109:1918-10-30:0`: "Sırp-Hırvat-Sloven Devleti": 29 Ekim 1918'de ilan edilen Sloven-Hırvat-Sırp Devleti olmalı (komşu madde öyle); Prag ilanının günü de (28/29 Ekim) kontrol edilmeli.
+- `OLAYLAR_ORTACAG_ORTADOGU:0685-01-01:0`: "ilk Emevî halifelerinden bir hükümdar gibi hareket eden" parantezi eksik/anlamsız; ayrıca başlık açıklamayla aynı.
+- `OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1189-01-01:0`: Constance için "amcası kızı" deniyor; II. William'ın halası (II. Roger'in kızı) olmalı.
+- `OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1142-02-01:0`: Halefler sırası ("kız kardeşi Yeh-lü-şe veya nâib Pu-su-wan") karışık; doğrulanmalı.
+- `OLAYLAR_ORTACAG_IBERYA_MAGRIB:1118-12-19:0`: Madde günü 19 Aralık, metin I. Alfonso'nun 18 Aralık'ta şehre girdiğini yazıyor.
+- `OLAYLAR_ANTIK_AKDENIZ:0260-01-01:0`: "Valerianus'un Part'a esir düşmesi": Sâsânîler'e esir düştü (olgu hatası).
+- `OLAYLAR_2S1019:1205-01-01:0`: Girdide başlık ve açıklama yok; nottaki "Dördüncü Haçlı Seferi'nden yirmi yıl sonra" (1205) hatası bkz. ORTACAG_BEKLEYEN_ACIK:1205-01-01.
+- `OLAYLAR_ALM1115B:1024-09-08:0`: Genç Konrad "yeğeni" deniyor; kuzeni olmalı (teyit edilmeli).
+- `OLAYLAR_EK:1898-12-22:0`: "Aynı tarihte elden çıkan diğer yerleşimler: Kandiye (Girit), Hanya" adlandırması şüpheli.
+- `OLAYLAR_EK5:1872-04-01:0`: "Aynı tarihte katılan öteki yerler: Sana, Taiz": San'a maddenin kendi konusu, listede yineleniyor.
+- `OLAYLAR:1821-04-02:0`: "Elden çıkan diğer yerleşimler" listesi 1821-03-06 maddesiyle birebir aynı.
+- `OLAYLAR_EK5:1456-01-01:0`: Madde yılı 1456, metin İpek'in 1455'te Osmanlı idaresine geçtiğini yazıyor.
+- `OLAYLAR_EK3:1403-02-01:0`: Gelibolu Antlaşması birden çok maddede (1403-06-15, 1403-06-01); mükerrer olabilir.
+- `OLAYLAR_EK5:1865-01-01:0`: 1846 için "Mısır Hidivi Mehmed Ali Paşa": hidiv unvanı 1867'de verildi (anakronizm).
+- `OLAYLAR_EK7:1902-01-15:0`: 1902 olayı "İkinci Suûd Devleti'nin kuruluş anı" deniyor; Üçüncü Suûdî Devleti olmalı.
+- `OLAYLAR_EK8:1893-02-18:0`: "torununun torunu II. George Tupou": I. George'un torununun oğlu olmalı.
+- `OLAYLAR_ARKEOLOJI_AMERIKA:-0499-01-01:0`: Chavín başlangıç ve bitiş maddelerinin (-1199 ve -0499) açıklaması aynı.
+- `OLAYLAR_ORTACAG_IRAN_TURAN:1104-12-21:0`: "Muhammed Tapar oğlu II. Melikşah'ı bertaraf edip": kimin oğlu olduğu belirsiz (Berkyaruk'un oğlu); 1128-01-01 (Sencer / Atsız) ve 1131-01-01 (Aksungur / Dâvud) maddelerinde de aynı belirsizlik.
+- `OLAYLAR_ORTACAG_IRAN_TURAN:1230-01-01:0`: "Halife Nâsır-Lidînillâh, Gürcüler ve İsmâilîler'le mücadele eden Celâleddin" cümlesi bozuk; Halife'nin cümledeki yeri belirsiz.
+- `OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1266-01-01:0`: "Sinop'un kendisine mülk olarak verilmesine razı olmaya zorlanınca": "kendisine" kimin (Pervâne mi) belirsiz.
+- `OLAYLAR_ORTACAG_YER_SONRASI:1088-01-01:0`: Madde 1088, metin "Guiscardo'nun ölümü üzerine" diyor; Robert Guiscard 1085'te öldü. Başlık da açıklamayla aynı.
+- `OLAYLAR_ANTIK_YAKIN_DOGU:-0330-10-01:0`: "İskender'in sol kanat savunmasıyla yarıp içeri girdiği saldırıda dağıldı" cümlesi bozuk; savaşın seyri kaynaktan netleştirilmeli.
+- `OLAYLAR_ANTIK_YAKIN_DOGU:-0344-01-01:0`: "Tennes Perslere ihanet etti": kendi şehrine ihanet kastedilmiş olmalı.
+- `OLAYLAR_ANTIK_YAKIN_DOGU:-1224-01-01:0`: "Asur, orta çağın en güçlü devleti oldu": Orta Asur dönemi kastedilmiş olabilir; "orta çağ" yanıltıcı.
+- `OLAYLAR_ANTIK_YAKIN_DOGU:-1762-01-01:0`: Güney Mezopotamya "o günden sonra Akad ülkesi (Babylonia) diye anılır" ifadesi şüpheli.
+- `OLAYLAR_ANTIK_YAKIN_DOGU:-2152-01-01:0`: Son cümle ("kaynak çarpıtılmış olsa da ... zayıf bir mirasçılık olarak belgelenir") anlamsız.
+- `OLAYLAR_ANTIK_AKDENIZ:-0301-01-01:0`: "Antigonos Monophthalmos'a yaklaşan Mithridates" ifadesinin anlamı belirsiz.
+- `OLAYLAR_ANTIK_AKDENIZ:-0370-01-01:0`: Leuktra'da "derin sağ kanat" deniyor; Epameinondas'ın yığınağı sol kanattaydı (olgu şüphesi).
+- `OLAYLAR_LAB19_2S_P2:1283-06-08:0`: "Aynı tarihte elden çıkan diğer yerleşimler" listeleri (LAB19 maddeleri) liste dili taşıyor; olgu ve kapsam kontrol edilebilir.
+- `OLAYLAR_LAB19_2S_P5:1916-05-23:0`: "Beringia'da" yer adı şüpheli.
+- `OLAYLAR_FRANSA_KONTROL_1027:1317-01-09:0`: "ölümünden 4 gün sonra ölen posthumous oğul I. Jean" karışık (doğumundan 4 gün sonra olmalı).
+- `OLAYLAR_EK5:1345-01-01:0`: Metin ilhakı 735 (1334-35) ve 746 (1345) olarak iki tarihle veriyor; madde tarihi 1345.
+- `OLAYLAR_EK5:1491-05-01:0`: Arabulucu "Osman Hafsî": Hafsî Ebû Amr Osman 1488'de öldü (1491 ile çelişki; kaynakla sınanmalı).
+- `OLAYLAR_EK5:1801-04-01:0`: Kerbelâ baskını literatürde Nisan 1802 olarak geçer; 1801 tarihi denetlenmeli.
+- `OLAYLAR_EK10:1912-10-08:0`: Kiliseler kanunu için "3 Temmuz 1911": 1910 olabilir (doğrulanmalı).
+- `OLAYLAR_ARKEOLOJI_ZINCIR:-0910-01-01:0`: -1364 dolayındaki bağımsızlık bilgisi -910 Yeni Asur geçişine kaynak gösterilmiş.
+- `OLAYLAR_ANTIK_MISIR_NUBYA:0069-07-01:0`: "Yahudi ordusu": büyük olasılıkla "Yahudiye ordusu" olmalı.
+- `OLAYLAR_EK:1394-10-10:0`: Rovine bu maddede 1394, başka maddelerde 1395; Niğbolu'nun alınışı da üç ayrı maddede.
+- `OLAYLAR_EK8:1819-11-01:0`: Kaʻahumanu, Liholiho'nun öz annesi değil (üvey anne); "annesi" yanlış görünüyor.
+- `OLAYLAR_EK16:1941-07-28:0`: "Estonya sivil idaresi 5 Aralık 1941'de, Belarus'un doğusu askerî idarede kaldı" cümlesi bozuk; 5 Aralık'ta ne olduğu belirsiz.
+- `OLAYLAR_ORTACAG_IBERYA_MAGRIB:0928-01-17:0`: "Son direniş merkezi Hafs'ın teslimi": Hafs, İbn Hafsûn'un oğlu (kişi) olabilir; başlık da açıklamayla aynı.
+- `OLAYLAR_GEZGINLER:1498-05-20:0`: Başlık "Kalküta", açıklama Calicut diyor; doğrusu Calicut (Kalikut) olmalı.
+- `OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0831-02-18:0`: Palermo'nun teslimi iki ayrı maddede iki ayrı günle (0831-02-18, 0831-09-12); Messina 0843 de iki madde. Mükerrer olabilir.
+- `OLAYLAR_DIN_MUSA_1120:-0596-01-01:0`: "Tevrat ... 2 Krallar": II. Krallar Tevrat'ta değil (Tanah).
+- `OLAYLAR_2S_0918:1462-01-01:0`: "Yukarı Dicle'de Hama ile birlikte ... iki koldan biri" anlatımı yanıltıcı (Hama Yukarı Dicle'de değil).
+- `OLAYLAR_EK5:1660-08-27:0`: "Aynı tarihte katılan öteki yerler: Varat": maddenin kendi şehri yineleniyor.
+- `OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1247-01-01:0`: Başlık "Möngke Han'ın kardeşiyle ... ittifak" diyor; 1247'de Möngke henüz han değil ve açıklamayla uyuşmuyor.
+- `OLAYLAR:1821-03-06:0`: "Elden çıkan diğer yerleşimler" listesi 1821-04-02 maddesiyle aynı.
+- `OLAYLAR_EK5:1516-12-28:0`: Başlık Amman, metinde Yafa-Nablus-Kudüs vb. de anlatılıyor; kapsam karışık.
+- `OLAYLAR_ORTACAG_IRAN_TURAN:1157-04-13:0`: Madde günü 13 Nisan 1157; metin 26 Nisan veya 6 Mayıs diyor.
+- `OLAYLAR_ORTACAG_BATI_AVRUPA:1157-01-01:0`: "İsveçli başpiskopos" şüpheli (Lund başpiskoposu Eskil Danimarkalı).
+- `OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1184-01-01:0`: 1184'te "Gürcü Kralı David": o tarihte hükümdar Kraliçe Tamar; doğrulanmalı.
+- `OLAYLAR_ANTIK_YAKIN_DOGU:-0329-01-01:1`: Persepolis'in yakılma gerekçesi "henüz tek hükümdar olmaması" anlamsız görünüyor.
+- `OLAYLAR_ANTIK_YAKIN_DOGU:-0630-01-01:0`: "Babil valileri Sin-şum-lişir ve Sin-şar-işkun'a başkaldırdı" cümlesi belirsiz (kim kime başkaldırdı).
+- `OLAYLAR_NAPOLYON_ITALYA_1028:1849-02-09:0`: Triumvirliğin cumhuriyeti 9 Şubat 1849'da ilan ettiği yazılı; triumvirlik Mart 1849'da kuruldu (kontrol).
+- `OLAYLAR_OK104:1443-01-01:0`: "İzladi yenilgisinin ardından": İskender Bey'in ayrılışı genelde Niş muharebesine bağlanır (kontrol).
+- `OLAYLAR_EK6:1688-06-22:0`: Girdide başlık ve açıklama yok; nottaki iç notlar (OLAYLAR_EK6:1688-06-22) denetlenemedi.
+- `OLAYLAR_EK13:1471-08-24:0`: "Üçüncü ve dördüncü mevziisini kurdu" sayımı metindeki sırayla uyuşmuyor.
+- `OLAYLAR_ARKEOLOJI_ZINCIR:0036-01-01:0`: MS 36 Chengjia sonuna 214/221 Liu Bei ve Shu Han sonu kaynak metni bağlanmış (yanlış kaynak notu).
+- `OLAYLAR_ANTIK_AKDENIZ:0448-01-01:0`: Madde kimliği 0448, metin 447 diyor.
+- `OLAYLAR_EK2:1390-01-15:0`: Başlık "Despina Hatun", açıklama "Olivera"; aynı kişi olduğu metinde söylenmiyor.
+- `OLAYLAR_EK2:1884-01-01:0`: Reji maddesinin sonunda ilgisiz görünen "elden çıkan diğer yerleşimler: Zeyla".
+- `OLAYLAR_EK5:1393-06-01:0`: Amasya Osmanlı'ya katılırken "Aynı tarihte elden çıkan diğer yerleşimler" yazılmış.
+- `OLAYLAR_EK5:1097-06-19:0`: Başlık "İznik Haçlılara teslim oldu", açıklama "Bizans'a teslim oldu".
+- `OLAYLAR_EK7:1789-04-07:0`: "Avrupa ordularının ıslahına ilgi duyan" anlamca hatalı görünüyor (Avrupa usulü ordu ıslahı olmalı).
+- `OLAYLAR_EK10:1877-05-21:0`: "93 Harbi'nin ilânından iki hafta sonra": 24 Nisan - 21 Mayıs arası yaklaşık dört hafta.
+- `OLAYLAR_EK10:1912-10-23:0`: Selanik'in teslimi bu maddede 23-24 Ekim günleriyle birlikte, başka maddede 8 Kasım.
+- `OLAYLAR_EK16:1814-01-14:0`: "kişisel birlik (real union)" terim çelişkisi.
+- `OLAYLAR_2S_0918:1776-02-14:0`: Başlık Fiume'yi Hırvatistan'a, açıklama Macaristan'a (Zagreb Konseyi aracılığıyla) veriyor.
+- `OLAYLAR_ARKEOLOJI_ZINCIR:0221-01-01:0`: Kaynak cümlesi 0036 maddesiyle aynı ve sahipsiz aralık → Shu Han geçişiyle tam uyuşmuyor (214 Liu Bei ve Shu Han'ın sonu anlatılıyor).
+- `OLAYLAR_ORTACAG_DOGU_GUNEYDOGU_ASYA:0936-09-26:1`: Aynı açıklama :0, :1, :2 kopyalarında yineleniyor (1185-12-21 ve 1222-01-01 de benzer).
+- `OLAYLAR_EK12:1893-01-01:0`: "Dikeo" büyük olasılıkla "Dikoa" (Dikwa) olmalı.
+
+## Yardımcının önerdiği ama UYGULANMAYAN düzeltmeler (anlam kaydırıyor ya da olgu siliyordu)
+
+- `OLAYLAR_EK6:1535-09-22:0` (b)
+  - şimdiki: Van ve Erciş'in Tahmasb'ın eline düşmesi (Osmanlı tutumu 1534-35'te sona erdi)
+  - öneri: Van ve Erciş'in Tahmasb'ın eline düşmesi (Osmanlı hâkimiyeti 1534-35'te sona erdi)
+- `OLAYLAR_EK5:1715-09-07:0` (d)
+  - şimdiki: Mora'nın güney ucundaki Çuha Adası, yarımadanın tamamlanmasının ardından donanma tarafından teslim alındı. İyon denizi ile Ege arasındaki geçişi gözetleyen ada, Venedik'in bu suları denetlemekte kullandığı ileri karakoldu. Ancak elde tutulan tek Osmanlı adası olarak kalmadı: üç yıl sonra Pasarofça'da Venedik'e geri verildi.
+  - öneri: Mora'nın güney ucundaki Çuha Adası, yarımadanın tamamlanmasının ardından donanma tarafından teslim alındı. İyon denizi ile Ege arasındaki geçişi gözetleyen ada, Venedik'in bu suları denetlemekte kullandığı ileri karakoldu. Ancak ada Osmanlı elinde kalmadı: üç yıl sonra Pasarofça'da Venedik'e geri verildi.
+- `OLAYLAR_ORTACAG_IRAN_TURAN:1090-03-06:0` (d)
+  - şimdiki: Melikşah'ın Bâtınîler'le mücadeleyi devlet politikası yaptığı dönemde Hasan Sabbâh Alamut'ta Nizârî-İsmâilî Devleti'ni kurdu (483/1090); Melikşah Bâtınîlerle mücadeleyi devlet politikası hâline getirdi ama ülkedeki Bâtınî faaliyetlerine son veremedi; vezir Nizâmülmülk 485'te (1092) Bâtınîler tarafından öldürüldü.
+  - öneri: Melikşah'ın Bâtınîler'le mücadeleyi devlet politikası yaptığı dönemde Hasan Sabbâh Alamut'ta Nizârî-İsmâilî Devleti'ni kurdu (483/1090). Melikşah ülkedeki Bâtınî faaliyetlerine son veremedi; vezir Nizâmülmülk 485'te (1092) Bâtınîler tarafından öldürüldü.
+- `OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1073-01-01:0` (b)
+  - şimdiki: Amalfi Salerno baskısına karşı Roberto il Guiscardo'ya başvurur; Normanlar şehri işgal eder ve bağımsızlık...
+  - öneri: Amalfi Salerno baskısına karşı Roberto il Guiscardo'ya başvurur; Normanlar şehri işgal eder ve bağımsızlık sona erer
+- `OLAYLAR:1699-01-26:0` (d)
+  - şimdiki: On altı yıllık Kutsal İttifak savaşlarını bitiren Karlofça'yla Macaristan ve Erdel Avusturya'ya, Podolya Lehistan'a, Mora ve Dalmaçya kıyıları Venedik'e bırakıldı. Osmanlı tarihinde ilk kez bu ölçekte toprak, masa başında ve kalıcı olarak elden çıkıyordu; antlaşma, imparatorluğun Avrupa karşısında savunmaya geçtiği yeni çağın başlangıç belgesi sayılır ve Osmanlı diplomasi tarihinin de dönüm noktasıdır. Aynı gün el de
+  - öneri: On altı yıllık Kutsal İttifak savaşlarını bitiren Karlofça'yla Macaristan ve Erdel Avusturya'ya, Podolya Lehistan'a, Mora ve Dalmaçya kıyıları Venedik'e bırakıldı. Osmanlı tarihinde ilk kez bu ölçekte toprak, masa başında ve kalıcı olarak elden çıkıyordu; antlaşma, imparatorluğun Avrupa karşısında savunmaya geçtiği yeni çağın başlangıç belgesi sayılır ve Osmanlı diplomasi tarihinin de dönüm noktasıdır. Aynı gün el de
+- `OLAYLAR_GEZGINLER:1503-01-06:0` (d)
+  - şimdiki: Kolomb Epifani günü Veragua'ya ulaştı; yerel kaşif Quibían'la çatışma ve gemilerin kurtlanması yüzünden Nisan 1503'te yerleşimi bıraktı.
+  - öneri: Kolomb Epifani günü Veragua'ya ulaştı; yerel reis Quibían'la çatışma ve gemilerin kurtlanması yüzünden Nisan 1503'te yerleşimi bıraktı.
+- `OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1175-01-01:0` (d)
+  - şimdiki: II. Kılıcarslan 1175 yazında Sivas, Niksar, Komana, Tokat ve diğer Dânişmendli topraklarını zaptetti; Niksar'da Yağıbasan'ın medresesinin hazîresinde gömülü bulunduğu Dânişmendli merkezlerinden biri Selçuklu eline geçti.
+  - öneri: II. Kılıcarslan 1175 yazında Sivas, Niksar, Komana, Tokat ve diğer Dânişmendli topraklarını zaptetti; Yağıbasan'ın medresesinin hazîresinde gömülü bulunduğu, Dânişmendli merkezlerinden biri olan Niksar Selçuklu eline geçti.
+- `OLAYLAR_ANTIK_YAKIN_DOGU:-0585-01-01:0` (d)
+  - şimdiki: Josephus'a (Apion'a Karşı 1.156) göre Nabukadnezar Kral Ithobaal zamanında Sur'u on üç yıl kuşattı. Şehir sonunda bir barış/vasallık düzeniyle sona erdi; Sur, Babil nüfuzuna girerken adadaki kentin bağımsız yönetimi sürdü.
+  - öneri: Josephus'a (Apion'a Karşı 1.156) göre Nabukadnezar Kral Ithobaal zamanında Sur'u on üç yıl kuşattı. Kuşatma sonunda bir barış/vasallık düzeniyle sona erdi; Sur, Babil nüfuzuna girerken adadaki kentin bağımsız yönetimi sürdü.
+- `OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1205-01-01:1` (b)
+  - şimdiki: Doge Enrico Dandolo ölçülü bir geri çekilme sırasında öldü
+  - öneri: Doge Enrico Dandolo bir geri çekilme sırasında öldü
+- `OLAYLAR:1683-09-12:0` (d)
+  - şimdiki: Merzifonlu Kara Mustafa Paşa'nın iki ay süren Viyana kuşatması, Lehistan kralı Jan Sobieski'nin Kahlenberg tepelerinden indirdiği ani darbeyle bozguna döndü; ordu ağırlıklarını bırakarak çekildi, Merzifonlu Belgrad'da idam edildi. Zaferin ardından kurulan Kutsal İttifak'la savaş 16 yıl sürdü; Osmanlı tarihinde büyük gerilemenin başlangıç anı olarak bu bozgun gösterilir.
+  - öneri: Merzifonlu Kara Mustafa Paşa'nın iki ay süren Viyana kuşatması, Lehistan kralı Jan Sobieski'nin Kahlenberg tepelerinden indirdiği ani darbeyle bozguna döndü; ordu ağırlıklarını bırakarak çekildi, Merzifonlu Belgrad'da idam edildi. Bozgunun ardından kurulan Kutsal İttifak'la savaş 16 yıl sürdü; Osmanlı tarihinde büyük gerilemenin başlangıç anı olarak bu bozgun gösterilir.
+
+## Tarih satırında kalan karışık notlar (kuralla güvenle ayrıştırılamadı)
+
+İlk ölçümde 160 farklı metin (bir kısmı sonraki turlarda sadeleşti; güncel sayı için aynı tarama yeniden koşulmalı). Örnekler:
+
+- `devletler.js`: 385 H ∩ 995 ilk gün
+- `kronoloji_cok_dogu_500_1281.js`: 建德五年八月戊申 (seferin dönüş kaydı)
+- `kronoloji_cok_dogu_500_1281.js`: Longde 3 (923), 10. ay, ganzhi 戊寅
+- `kronoloji_cok_dogu_500_1281.js`: 926 (Tongguang 4), 4. ay 朔 (ganzhi 丁亥)
+- `kronoloji_cok_dogu_500_1281.js`: Hicrî 93 / 712 (TDV); 93 h. ≈ 711-10-19 → 712-10-06, miladî 712 ile kesişimin ilk günü
+- `kronoloji_cok_ispanya.js`: yalnız yıl (TDV `nasriler`: 1299)
+- `kronoloji_cok_ispanya.js`: yıl yaklaşık: TDV `gani-billah` Cebelitârık'ın alınmasını I. Abdülazîz'in ölümü (774/1373) ile Ahmed b. Ebû Sâlim'in tahta çıkışı (776/1374) arasına koyar; gün yok. Dikkat: TDV `cebelitarik` Nasrî hâkimiyetini '1410-1462' diye verir — tutarsızlık
+- `kronoloji_cok_ispanya.js`: yalnız yıl (TDV `endulus`: 1487); gün yok
+- `kronoloji_cok_ms1_1000_asya.js`: ca. 750 (yıl; gün kaynaktan alınmadı)
+- `kronoloji_cok_ms1_1000_ortadogu.js`: yalnız yıl teyitli; gün bilinmiyor
+- `kronoloji_cok_ms1_1000_ortadogu.js`: Bahar 161 (Livius; yalnız yıl teyitli; gün bilinmiyor)
+- `kronoloji_cok_ms1_1000_ortadogu.js`: yalnız yıl (405, gelenek) teyitli; gün bilinmiyor
+- `kronoloji_cok_ms1_1000_ortadogu.js`: 9 H. Receb-Ramazan / 630 Ekim-Aralık (TDV; yalnız yıl+ay teyitli; gün bilinmiyor, ayın 1'i değil — kayıt YYYY-01-01 ile açıldı)
+- `kronoloji_cok_ms1_1000_ortadogu.js`: yalnız yıl teyitli (776, TDV 776-783 aralığının başı); gün bilinmiyor
+- `kronoloji_cok_ms1_1000_ortadogu.js`: yalnız yıl (943-944; ilk yıl) teyitli; gün bilinmiyor
+- `kronoloji_cok_orta_asya2.js`: 16–18 Aralık 1877 (web'de «18 Aralık 1877»; Kim 2004'ten doğrudan doğrulanmadı). Mevcut madde «Zuo Zongtang Doğu Türkistan'ı yeniden fethetti» 1878-03-16 günü künyenin bitiş günüdür, bir kaynak değildir.
+- `kronoloji_cok_rusya.js`: 17 Eylül 1773 (Jülyen) = 28 Eylül 1773 (Gregoryen, hesap)
+- `kronoloji_hollanda.js`: 30 Mayıs 1619 Gregoryen
+- `kronoloji_hollanda.js`: 21 Ekim 1639 Gregoryen
+- `kronoloji_hollanda.js`: 11 Nisan 1713 Gregoryen
+- `kronoloji_safevi.js`: Yezd'e giriş: 28 Cemâziyelâhir 910 / 6 Aralık 1504 (TDV `yezd`) · Kâşân için TDV gün vermiyor · önceki 1504-06-01 tarihi Iranica'ya dayanıyordu, kesinleşmedi; TDV esas alındı
+- `kronoloji_sinir_dogu_500_1281.js`: 921 (Tianyou 18), 1. ay (ay ilk günü; ganzhi yok)
+- `kronoloji_sinir_dogu_500_1281.js`: TDV: 7. yüzyılın ortası; 44/664'te Türkşâhî zaten haraca bağlanmış (künye f=0665 ≤ 0664 olmalı)
+- `kronoloji_sinir_zincir_antik2_1024.js`: MÖ VIII. yüzyıl ortası (yüzyıl hassasiyeti)
+- `kronoloji_sinir_zincir_avrupa_h.js`: MÖ VIII. yüzyıl (onyıl hassasiyeti)
+- `olaylar_h7_asama.js`: 1605 sefer mevsimi — gün komşudan: kronoloji_safevi.js 1605-11-06 'Sufiyan Muharebesi' (kendi kaynağı: Cambridge History of Iran, c. 6)
+- `olaylar_p0063.js`: eski takvim 29 Ekim → Gregoryen 9 Kasım 1734

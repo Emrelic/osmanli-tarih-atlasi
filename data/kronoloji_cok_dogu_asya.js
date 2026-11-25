@@ -60,7 +60,7 @@ window.KRONOLOJI_COK_DOGU_ASYA = [
   etiket:["idari","reform","konu-idari","konu-siyasi","yunnan"], yer_id:"Ning'er (Pu'er)", taraflar:["qing-hanedani","san-devletleri"],
   d:"Yongzheng döneminde Yunnan-Guizhou genel valisi Ortai, güneybatıdaki kalıtsal yerel beyleri (tusi) kaldırıp yerlerine merkezden atanan memurlar koydu (gaitu guiliu). Bu politikanın Yunnan'ın güney ucundaki karşılığı, Şan/Tay beyliklerinin topraklarında Pu'er (Ning'er) idare biriminin kurulmasıdır. Sınır halkları ilk kez doğrudan Qing vergi ve memuriyet düzenine bağlandı.",
   kaynak:"C. Patterson Giersch, Asian Borderlands: The Transformation of Qing China's Yunnan Frontier (Harvard UP, 2006) · John E. Herman, Amid the Clouds and Mist: China's Colonization of Guizhou, 1200–1700 (Harvard, 2007; Guizhou için ama aynı politikayı ele alır). Sayfa verilmedi (açılmadı).",
-  gun:"1729 (yıl; reform 1726-31 arası sürdü, Pu'er biriminin kuruluş yılı web özetlerinde 1729 — Giersch'ten doğrudan doğrulanmadı)",
+  ic_not_ham_gun:"1729 (yıl; reform 1726-31 arası sürdü, Pu'er biriminin kuruluş yılı web özetlerinde 1729 — Giersch'ten doğrudan doğrulanmadı)", gun:"1729 (yalnız yıl biliniyor)",
   ic_not_d:"Haritadaki Ning'er (Pu'er) 1729-01-01 kırılmasını kapatır. `san-devletleri` künyesi `devlet` sıfatıyla kabaca bir kova (Şan sawbwa'lıkları); Xishuangbanna'nın Tay beyliği ayrı künye olmalı — KUNYE.md." },
 
 { t:"1856-10-23", b:"Du Wenxiu Dali'de başkomutan ilan edildi — Pingnan (Panthay) Devleti doğdu", tur:"kurulus", onem:4, dunya:2, kapsam:"ic",

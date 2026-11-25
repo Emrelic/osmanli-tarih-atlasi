@@ -121,7 +121,7 @@ window.KRONOLOJI_COK_ORTA_ASYA2 = [
   etiket:["toprak-kazanc","son","konu-askeri","konu-siyasi","dogu-turkistan"], yer_id:"Kaşgar", taraflar:["qing-hanedani","yakub-beg"],
   d:"Zuo Zongtang'ın generali Liu Jintang komutasındaki Qing orduları Yâkub Bey'in ölümünün ardından Tarım havzasını hızla geri aldı; Kaşgar Aralık 1877'de düştü, Hoten Ocak 1878'de takip etti. Qing 1884'te bölgeyi Sinkiang (Xinjiang) adıyla eyalet yaptı. Kaşgar Emirliği'nin toprakları böylece tamamen Çin'e katıldı.",
   kaynak:"Kim Hodong, Holy War in China (Stanford UP, 2004) · Millward, Beyond the Pass (Stanford UP, 1998). Sayfa verilmedi (açılmadı).",
-  gun:"16–18 Aralık 1877 (web'de «18 Aralık 1877»; Kim 2004'ten doğrudan doğrulanmadı). Mevcut madde «Zuo Zongtang Doğu Türkistan'ı yeniden fethetti» 1878-03-16 günü künyenin bitiş günüdür, bir kaynak değildir.",
+  ic_not_ham_gun:"16–18 Aralık 1877 (web'de «18 Aralık 1877»; Kim 2004'ten doğrudan doğrulanmadı). Mevcut madde «Zuo Zongtang Doğu Türkistan'ı yeniden fethetti» 1878-03-16 günü künyenin bitiş günüdür, bir kaynak değildir.", gun:"16–18 Aralık 1877 (gün kesin değil)",
   ic_not_d:"Hoten'in düşüşü (Ocak 1878) haritadaki Taşkurgan 1878-01-01 ve Karaşar · Keriya kırılmalarıyla örtüşür; bu oturumda ayrı gün doğrulanmadı — ölçülemedi." },
 
 { t:"1883-01-01", b:"Abdurrahman Han Şugnan ve Roşan'ı ele geçirdi — Afgan hâkimiyeti Pamir'e uzandı", tur:"toprak-kazanc", onem:3, dunya:1, kapsam:"dis",

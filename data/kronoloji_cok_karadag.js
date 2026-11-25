@@ -19,7 +19,7 @@ window.KRONOLOJI_COK_KARADAG = [
 
 { t:"1831-01-01", b:"Njegoš Senato'yu kurdu — merkezî yönetimin ilk kurumu", tur:"idari",
   onem:3, dunya:1, kapsam:"ic", etiket:["idari","reform","konu-idari"],
-  yer_id:"Cetinje", devlet:"karadag", gun:"1831 (gün doğrulanmadı)",
+  yer_id:"Cetinje", devlet:"karadag", ic_not_ham_gun:"1831 (gün doğrulanmadı)", gun:"1831 (yalnız yıl biliniyor)",
   d:"Petar II Petrović-Njegoš, kabile reislerinin gücünü dengelemek ve vergi toplamak için Cetinje'de bir Senato ile ona bağlı bir muhafız ve yargı teşkilâtı kurdu. Bu kurumlar, kabileler konfederasyonunu merkezî bir prensliğe dönüştürecek sürecin başlangıcıdır.",
   kaynak:"E. Roberts, Realm of the Black Mountain (2007). TDV `karadag` Petro'nun (1830-1851) hükümdar unvanını aldığını yazar, Senato'ya değinmez." },
 
@@ -31,7 +31,7 @@ window.KRONOLOJI_COK_KARADAG = [
 
 { t:"1855-01-01", b:"Danilo Kanunu (Zakonik) yürürlüğe girdi", tur:"kanun",
   onem:3, dunya:1, kapsam:"ic", etiket:["kanun","reform","konu-hukuk"],
-  yer_id:"Cetinje", devlet:"karadag", gun:"1855 (gün doğrulanmadı)",
+  yer_id:"Cetinje", devlet:"karadag", ic_not_ham_gun:"1855 (gün doğrulanmadı)", gun:"1855 (yalnız yıl biliniyor)",
   d:"Prens Danilo, kabileler arası kan davasını sınırlayan, mülkiyeti koruyan ve prensin otoritesini tanımlayan yazılı bir genel kanun ilan etti. Kanun, 1798 Zakonik'inin yerini alarak laik prensliğin hukukî temelini attı.",
   kaynak:"E. Roberts, Realm of the Black Mountain (2007)." },
 

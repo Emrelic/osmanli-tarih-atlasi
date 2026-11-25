@@ -46,7 +46,7 @@ window.KRONOLOJI_COK_FAS = [
   etiket:["toprak-kazanc","konu-askeri"], yer_id:"Fas (Fez)", taraflar:["merini"],
   d:"Kuzeydoğu Fas'ta güçlenen Merînîler, Muvahhid devletini parça parça söküp önce Miknâs'ı, ardından Fas şehrini ele geçirdi. Fas şehri bundan sonra Merînîler'in idarî merkezi oldu; Sicilmâse ve Merakeş'in alınması bu adımı izledi.",
   kaynak:"TDV `fas--fas`: \"648’den (1250) itibaren Merînîler’in idaresine geçen Fas tekrar başşehir olarak seçildi\" · TDV `fas`: \"1244’te Meknes, 1248’de Fas (şehir), 1255’te Sicilmâse ve 1269’da başşehir Merakeş’i ele geçirerek\"",
-  gun:"648 (1250) — TDV fas--fas; gün yok (648 H = 1250-04-05..1251-03-25 Jülyen ∩ 1250)",
+  ic_not_ham_gun:"648 (1250) — TDV fas--fas; gün yok (648 H = 1250-04-05..1251-03-25 Jülyen ∩ 1250)", gun:"648 (1250) (yalnız yıl biliniyor)",
   ic_not_d:"Miknâs'ın yılı TDV'de tutarsız: `fas` 1244 der, `miknas` 634/1237'de alındığını, 1245-46'da Muvahhidler'in geri aldığını, iki yıl sonra tekrar Merînîler'e geçtiğini söyler. Madde yalnız Fas şehrini tarihler. TDV iç çelişkisi: `fas` 1248, `fas--fas` (şehir maddesi) 648/1250 — şehir maddesi esas." },
 
 { t:"1333-01-01", b:"Merînî desteğiyle Cebelitârık Kastilya'dan geri alındı", tur:"toprak-kazanc", onem:3, dunya:3, kapsam:"dis",
@@ -72,7 +72,7 @@ window.KRONOLOJI_COK_FAS = [
   etiket:["hanedan","konu-hanedan"], yer_id:"", odak_yer:["Merakeş","Tarûdant"], taraflar:["sadi"],
   d:"Veraset ve ganimet paylaşımı yüzünden iki Sâdî kardeş arasında savaş çıktı. Kazanan Muhammed eş-Şeyh ağabeyini ve çocuklarını hapsetti; Portekiz'e karşı 1541 başarıları ve 1549'da Fas şehrinin alınması onun tek başına iktidarında gerçekleşti.",
   kaynak:"TDV `sadiler`: \"Savaşı kazanıp tahta oturan Mevlây Muhammed eş-Şeyh ağabeyini ve çocuklarını hapse attı (946/1539).\"",
-  gun:"946/1539 (TDV gün vermez; `fas` \"1539-1540\" der)",
+  ic_not_ham_gun:"946/1539 (TDV gün vermez; `fas` \"1539-1540\" der)", gun:"946/1539 (yalnız yıl biliniyor)",
   ic_not_d:"ODAK: Sâdî merkezi (Merakeş · Sûs) — odak bölge temsilidir (TDV olay yerini şehir adıyla vermez)" },
 
 { t:"1545-01-01", b:"Vâdidernâ Savaşı: Vattâsî sultanı Sâdîlere esir düştü", tur:"savas", onem:4, dunya:1, kapsam:"ic",

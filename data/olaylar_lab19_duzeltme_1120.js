@@ -16,7 +16,7 @@ window.OLAYLAR_LAB19_DUZELTME_1120 = [
   etiket:["toprak-kayip","konu-askeri"],
   yer_id:"Nieuwpoort",
   b:"Nieuwpoort'un Fransız garnizonu Mayıs 1814 başında çekildi: Batı Flandre'de Fransız idaresi sona erdi",
-  gun:"Mayıs 1814 başı [yalnız ay teyitli; gün teyitsiz]",
+  ic_not_ham_gun:"Mayıs 1814 başı [yalnız ay teyitli; gün teyitsiz]", gun:"Mayıs 1814 başı (günü bilinmiyor)",
   yer:"Nieuwpoort",
   d:"12 Nisan 1814 ateşkesinden sonra Oostende, Diksmuide, Nieuwpoort ve Yper Fransız elinde kalmıştı; Lys (Batı Flandre) departmanının geri kalanı Fransızlarca Mayıs başında, Paris'in birinci barışından (30 Mayıs 1814) önce boşaltıldı. Bölge 1 Ağustos 1814'e kadar Belçika Genel Valiliği'ne bağlı kaldı.",
   ic_not_d:"LAB19 (20 Kasım 2026): gün kaynakta yok, YALNIZ AY teyitli. Nieuwpoort ADIYLA Mayıs başı tahliye yazılı değildir: s.230'da «Oostende, Diksmuide, Nieuwpoort en Yper bleven door de Franschen bezet» (Nisan ateşkesi sonrası) ve s.231'de «Het overige van ons departement werd door de Franschen ontruimd in het begin van Mei» geçer; Nieuwpoort'un Mayıs başı boşaltılması bu iki cümleden ÇIKARIMDIR. Önceki ('Şubat 1814') tarih kaynakta yok. Van Acker, Biekorf 71 (1970) s.346-349 (EMRELİC'in arşiv turu; bu oturumda ayrıca okunmadı): 18-27 Ocak 1814'te hâlâ Fransız idaresi. Yerleşim kırılma kaydı (UMIT19) aynı güne hizalıdır. Tek kaynak; 'çift teyit' yazılmaz.",

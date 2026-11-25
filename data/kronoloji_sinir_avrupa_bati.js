@@ -57,7 +57,7 @@ window.KRONOLOJI_SINIR_AVRUPA_BATI = [
 { odak_yer:["Arras"], t:"1482-12-23", devlet:"fransa", devletler:["fransa","almanya"], sinir_id:"",
   b:"Arras Antlaşması — Burgonya mirasının paylaşılması", tur:"antlasma", onem:4, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["antlasma","konu-siyasi","fransa","almanya","burgonya"],
-  d:"Burgonya Düşesi Marie'nin 27 Mart 1482'deki ölümünün ardından Fransa ile Maximilian arasında imzalanan Arras Antlaşması, Franş-Konte, Artois, Mâconnais ve Auxerrois'yı Marguerite'in çeyizi olarak Fransa'ya bağladı; Pikardiya ile Burgonya dükalığı zımnen XI. Louis'ye bırakıldı. Bir katalog kaydı antlaşmayı 24 Aralık diye tarihliyor. Maximilian'ın tarafı atlasta 'almanya' künyesiyle gösterildi.",
+  ic_not_ham_d:"Burgonya Düşesi Marie'nin 27 Mart 1482'deki ölümünün ardından Fransa ile Maximilian arasında imzalanan Arras Antlaşması, Franş-Konte, Artois, Mâconnais ve Auxerrois'yı Marguerite'in çeyizi olarak Fransa'ya bağladı; Pikardiya ile Burgonya dükalığı zımnen XI. Louis'ye bırakıldı. Bir katalog kaydı antlaşmayı 24 Aralık diye tarihliyor. Maximilian'ın tarafı atlasta 'almanya' künyesiyle gösterildi.", d:"Burgonya Düşesi Marie'nin 27 Mart 1482'deki ölümünün ardından Fransa ile Maximilian arasında imzalanan Arras Antlaşması, Franş-Konte, Artois, Mâconnais ve Auxerrois'yı Marguerite'in çeyizi olarak Fransa'ya bağladı; Pikardiya ile Burgonya dükalığı zımnen XI. Louis'ye bırakıldı. Bir katalog kaydı antlaşmayı 24 Aralık diye tarihliyor.",
   kaynak:"NDB 16 (1990), 'Maximilian I.' (Wiesflecker), deutsche-biographie.de/pnd118579371.html — «wurden im Frieden von Arras (23.12.1482) als Mitgift Margarethes an Frankreich abgetreten»", ic_not_d:"DUNYA-1102 hücre 4 (KASA, 2 Kasım 2026): teyit tek kaynak. Önceki kaynak (Larousse, Dictionnaire de l'Histoire de France · Britannica 'Mary, duchess of Bu) dayanak olamaz, değiştirildi. 23 Aralik 1482 NDB ile dogru (Biblissima 24 Aralik'a karsi NDB 23). Encyclopedia.com 'Mary of Burgundy' antlasmayi 1483 yazar: kaynak celiskisi. Icerik: Burgonya, Picardie ve Artois Margarete'nin cehizi olarak Fransa'ya gitti ('Burgonya mirasinin paylasimi' baslik olarak yuvarlak)." },
 
 { odak_yer:["Melîle"], t:"1497-09-17", devlet:"ispanya", devletler:["ispanya","merini"], sinir_id:"dg5-es-ma-melilla",
@@ -339,7 +339,7 @@ window.KRONOLOJI_SINIR_AVRUPA_BATI = [
 { odak_yer:["Karlstad","Norveç"], t:"1905-10-26", devlet:"norvec", devletler:["norvec","isvec"], sinir_id:"d1923-no-se",
   b:"Karlstad sözleşmeleri — İsveç-Norveç birliğinin sonu, Norveç–İsveç sınırı iki bağımsız devletin sınırı oldu", tur:"bolunme", onem:4, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["sinir","antlasma","konu-siyasi","norvec","isvec"],
-  d:"İsveç ile Norveç, birliğin çözülmesini Karlstad'da imzalanan sözleşmelerle düzenledi ve sınırın iki yanında bir tarafsız bölge kurdu. 1751 Strömstad Antlaşması'nın çizdiği hat değişmedi ve bağımsız iki devletin sınırı oldu; antlaşma bugün de yürürlüktedir. Atlasta Norveç künyesi Haziran 1905'ten başlar; birliğin bittiği o günün tarihi bu kaynaklarda geçmiyor.",
+  ic_not_ham_d:"İsveç ile Norveç, birliğin çözülmesini Karlstad'da imzalanan sözleşmelerle düzenledi ve sınırın iki yanında bir tarafsız bölge kurdu. 1751 Strömstad Antlaşması'nın çizdiği hat değişmedi ve bağımsız iki devletin sınırı oldu; antlaşma bugün de yürürlüktedir. Atlasta Norveç künyesi Haziran 1905'ten başlar; birliğin bittiği o günün tarihi bu kaynaklarda geçmiyor.", d:"İsveç ile Norveç, birliğin çözülmesini Karlstad'da imzalanan sözleşmelerle düzenledi ve sınırın iki yanında bir tarafsız bölge kurdu. 1751 Strömstad Antlaşması'nın çizdiği hat değişmedi ve bağımsız iki devletin sınırı oldu; antlaşma bugün de yürürlüktedir. Burada Norveç Haziran 1905'ten itibaren ayrı gösterilir; birliğin bittiği o günün tarihi bu kaynaklarda geçmiyor.",
   kaynak:"Store norske leksikon 'riksgrensen' · Karlstad sözleşmesi 26.10.1905 (UNISPAL kopyası, yalnız başlık okundu)" },
 
 { odak_yer:["Norveç"], t:"1917-12-06", devlet:"finlandiya", devletler:["finlandiya","isvec"], sinir_id:"d1923-fi-se",
@@ -557,7 +557,7 @@ window.KRONOLOJI_SINIR_AVRUPA_BATI = [
 { t:"1328-01-01", kesinlik:"yil", devlet:"lucca-cumhuriyeti", devletler:["lucca-cumhuriyeti"], sinir_id:"",
   b:"Castruccio Castracani öldü — Lucca yabancı senyörlerin eline geçti", tur:"toprak-kayip", onem:2, dunya:1, kapsam:"dis", yer_id:"Lucca",
   etiket:["konu-siyasi","lucca-cumhuriyeti"],
-  d:"Lucca'nın senyörü Castruccio Castracani 1328'de Floransa'ya karşı savaşırken öldü. Ardından şehir 1342'ye kadar el değiştiren yabancı senyörlerin (Bavyeralı Ludwig, Gherardino Spinola, Bohemyalı Johann, Rossi, Della Scala, Floransa) eline geçti; bu dönemin sahiplerinin künyesi olmadığından haritada Lucca boş görünür.",
+  ic_not_ham_d:"Lucca'nın senyörü Castruccio Castracani 1328'de Floransa'ya karşı savaşırken öldü. Ardından şehir 1342'ye kadar el değiştiren yabancı senyörlerin (Bavyeralı Ludwig, Gherardino Spinola, Bohemyalı Johann, Rossi, Della Scala, Floransa) eline geçti; bu dönemin sahiplerinin künyesi olmadığından haritada Lucca boş görünür.", d:"Lucca'nın senyörü Castruccio Castracani 1328'de Floransa'ya karşı savaşırken öldü. Ardından şehir 1342'ye kadar el değiştiren yabancı senyörlerin (Bavyeralı Ludwig, Gherardino Spinola, Bohemyalı Johann, Rossi, Della Scala, Floransa) eline geçti; bu dönemin sahipleri haritada ayrı devlet olarak yer almadığından Lucca boş görünür.",
   kaynak:"Treccani «Lucca»" },
 
 { t:"1342-01-01", kesinlik:"yil", devlet:"piza", devletler:["piza","lucca-cumhuriyeti"], sinir_id:"",
@@ -606,7 +606,7 @@ window.KRONOLOJI_SINIR_AVRUPA_BATI = [
 { t:"1871-01-18", devlet:"almanya", devletler:["almanya","prusya"], sinir_id:"",
   b:"Alman İmparatorluğu ilan edildi — Prusya eyaletleri imparatorluğun parçası oldu", tur:"kurulus", onem:5, dunya:4, kapsam:"dis", yer_id:"Köln",
   etiket:["konu-siyasi","almanya","prusya"],
-  d:"18 Ocak 1871'de Versay'da Prusya Kralı I. Wilhelm Alman İmparatoru ilan edildi. Prusya'nın Ren, Vestfalya ve Saksonya eyaletleri (Köln, Aachen, Trier, Koblenz, Düsseldorf, Münster, Dortmund, Erfurt) Alman İmparatorluğu'nun parçası oldu; atlas bu tarihten itibaren onları Almanya rengiyle gösterir.",
+  ic_not_ham_d:"18 Ocak 1871'de Versay'da Prusya Kralı I. Wilhelm Alman İmparatoru ilan edildi. Prusya'nın Ren, Vestfalya ve Saksonya eyaletleri (Köln, Aachen, Trier, Koblenz, Düsseldorf, Münster, Dortmund, Erfurt) Alman İmparatorluğu'nun parçası oldu; atlas bu tarihten itibaren onları Almanya rengiyle gösterir.", d:"18 Ocak 1871'de Versay'da Prusya Kralı I. Wilhelm Alman İmparatoru ilan edildi. Prusya'nın Ren, Vestfalya ve Saksonya eyaletleri (Köln, Aachen, Trier, Koblenz, Düsseldorf, Münster, Dortmund, Erfurt) Alman İmparatorluğu'nun parçası oldu; harita bu tarihten itibaren onları Almanya rengiyle gösterir.",
   kaynak:"Alman İmparatorluğu ilanı (18 Ocak 1871, Versay)" },
 
 // ── KUTU-H5-1015 — Alçak Ülkeler, Çek Silezyası, Pula, Subotica, Ticino, Toskana kıyısı, Guastalla, Cortina/Gradisca
@@ -656,7 +656,7 @@ window.KRONOLOJI_SINIR_AVRUPA_BATI = [
 { t:"1814-02-02", devlet:"hollanda", devletler:["hollanda","fransa-cumhuriyet"], sinir_id:"",
   b:"Terneuzen'de Fransız idaresi sona erdi", tur:"toprak-kazanc", onem:2, dunya:1, kapsam:"dis", yer_id:"Terneuzen",
   etiket:["konu-siyasi","hollanda","fransa-cumhuriyet"],
-  d:"1794'ten beri süren Fransız işgali ve ilhakı 2 Şubat 1814'te bitti; Terneuzen yeniden kurulan Hollanda devletine katıldı. Komşu Hulst'un Hollanda'ya dönüşü atlasta 30 Mayıs 1814 Paris Barışı ile gösterilir.",
+  ic_not_ham_d:"1794'ten beri süren Fransız işgali ve ilhakı 2 Şubat 1814'te bitti; Terneuzen yeniden kurulan Hollanda devletine katıldı. Komşu Hulst'un Hollanda'ya dönüşü atlasta 30 Mayıs 1814 Paris Barışı ile gösterilir.", d:"1794'ten beri süren Fransız işgali ve ilhakı 2 Şubat 1814'te bitti; Terneuzen yeniden kurulan Hollanda devletine katıldı. Komşu Hulst'un Hollanda'ya dönüşü haritada 30 Mayıs 1814 Paris Barışı ile gösterilir.",
   kaynak:"Encyclopedie van Zeeland «Terneuzen»" },
 
 { t:"1543-09-12", devlet:"ispanya", devletler:["ispanya","almanya"], sinir_id:"",
@@ -822,7 +822,7 @@ window.KRONOLOJI_SINIR_AVRUPA_BATI = [
 { t:"1801-01-01", kesinlik:"yil", devlet:"fransa-cumhuriyet", devletler:["fransa-cumhuriyet","napoli","toskana"], sinir_id:"",
   b:"Floransa Barışı — Presidi Devleti Etrurya Krallığı'na katıldı", tur:"antlasma", onem:2, dunya:1, kapsam:"dis", yer_id:"Orbetello",
   etiket:["konu-siyasi","fransa-cumhuriyet","napoli"],
-  d:"1800'de Fransızlarca işgal edilen Presidi Devleti, Fransa ile Napoli arasındaki Floransa Barışı (1801) ile Fransa'nın kurduğu Etrurya Krallığı'na katıldı. Etrurya'nın atlasta ayrı künyesi olmadığından bu dönem Fransız rengiyle gösterilir; 1815'te bölge Toskana Büyük Dükalığı'na verildi.",
+  ic_not_ham_d:"1800'de Fransızlarca işgal edilen Presidi Devleti, Fransa ile Napoli arasındaki Floransa Barışı (1801) ile Fransa'nın kurduğu Etrurya Krallığı'na katıldı. Etrurya'nın atlasta ayrı künyesi olmadığından bu dönem Fransız rengiyle gösterilir; 1815'te bölge Toskana Büyük Dükalığı'na verildi.", d:"1800'de Fransızlarca işgal edilen Presidi Devleti, Fransa ile Napoli arasındaki Floransa Barışı (1801) ile Fransa'nın kurduğu Etrurya Krallığı'na katıldı. Etrurya haritada ayrı devlet olarak yer almadığından bu dönem Fransız rengiyle gösterilir; 1815'te bölge Toskana Büyük Dükalığı'na verildi.",
   kaynak:"Treccani «Stato dei Presidi» · Treccani «Orbetello»" },
 
 { t:"1746-01-01", kesinlik:"yil", devlet:"avusturya", devletler:["avusturya","mantua"], sinir_id:"",
@@ -858,7 +858,7 @@ window.KRONOLOJI_SINIR_AVRUPA_BATI = [
 { t:"1914-03-31", devlet:"yunanistan", devletler:["yunanistan","arnavutluk-bagimsiz"], sinir_id:"",
   b:"Yunan kuvvetleri Korçë'den çekildi", tur:"isgal", onem:2, dunya:1, kapsam:"dis", yer_id:"Görice (Korçë)",
   etiket:["isgal","konu-askeri"],
-  gun:"Mart 1914 sonu (gün: atlas isg: dilimi bitişi; kaynak yalnız «March 1914» der — beyanlı yaklaşıklık)",
+  ic_not_ham_gun:"Mart 1914 sonu (gün: atlas isg: dilimi bitişi; kaynak yalnız «March 1914» der — beyanlı yaklaşıklık)", gun:"Mart 1914 sonu (yaklaşık)",
   d:"Büyük devletlerin Floransa Protokolü ile Korçë'yi Arnavutluk'a vermesinin ardından Yunan ordusu Mart 1914'te şehirden çekildi; Korçë yeniden Arnavutluk idaresine geçti.",
   kaynak:"Orjon Ago – Metin Venxha, «The June 1924 movement in Albania and the neutrality of Korça», Academic Journal of Business, Administration, Law and Social Sciences 11(3), Kasım 2025, DOI 10.2478/ajbals-2025-0032: «...Greek troops, who remained there until March 1914»." },
 
@@ -878,13 +878,13 @@ window.KRONOLOJI_SINIR_AVRUPA_BATI = [
 { t:"1802-09-01", kesinlik:"ay", devlet:"valais-cumhuriyeti", devletler:["valais-cumhuriyeti","helvetik-cumhuriyeti","fransa-cumhuriyet"], sinir_id:"",
   b:"Valais «bağımsız» cumhuriyet ilan edildi — fiilen Fransız egemenliğinde", tur:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Sion", odak_yer:["Sion","Martigny (Martinach)"],
   etiket:["konu-siyasi","sinir"],
-  d:"Helvetik Cumhuriyeti'nden ayrılan Valais, 1802'de nominal bağımsız Rodan (Valais) Cumhuriyeti oldu; fiilen Fransız egemenliğinde kaldı. Gün çelişkisi: vallesiana.ch 5 Eylül, en.wikipedia 28 Ağustos; ay düzeyinde alındı. Bu cumhuriyetin atlas künyesi valais-cumhuriyeti olarak açıldı; Sion ve Martigny 1810-11-12'ye dek bu künyeye bağlıdır.",
+  ic_not_ham_d:"Helvetik Cumhuriyeti'nden ayrılan Valais, 1802'de nominal bağımsız Rodan (Valais) Cumhuriyeti oldu; fiilen Fransız egemenliğinde kaldı. Gün çelişkisi: vallesiana.ch 5 Eylül, en.wikipedia 28 Ağustos; ay düzeyinde alındı. Bu cumhuriyetin atlas künyesi valais-cumhuriyeti olarak açıldı; Sion ve Martigny 1810-11-12'ye dek bu künyeye bağlıdır.", d:"Helvetik Cumhuriyeti'nden ayrılan Valais, 1802'de nominal bağımsız Rodan (Valais) Cumhuriyeti oldu; fiilen Fransız egemenliğinde kaldı. Gün çelişkisi: vallesiana.ch 5 Eylül, en.wikipedia 28 Ağustos; yalnız ay esas alındı. Sion ve Martigny 12 Kasım 1810'a dek bu cumhuriyete bağlıdır.",
   kaynak:"vs.ch Valais Kantonu sanal sergi «Die Franzosenzeit und die Urkunde zum Beitritt des Wallis zur Eidgenossenschaft (1798–1815)» (vs.ch/de/web/exposition-virtuelle/la-periode-francaise-et-l-acte-de-reunion-du-valais-a-la-confederation1) · Treccani «Vallese» (treccani.it/enciclopedia/vallese/)" },
 
 { t:"1813-12-01", kesinlik:"ay", devlet:"isvicre", devletler:["fransa-cumhuriyet","isvicre"], sinir_id:"",
   b:"Fransız birlikleri Valais'den çekildi — Simplon départementı sona erdi", tur:"toprak-kayip", onem:2, dunya:2, kapsam:"dis", yer_id:"Sion", odak_yer:["Sion","Martigny (Martinach)"],
   etiket:["konu-siyasi","sinir"],
-  d:"Valais Aralık 1813'e dek Fransız Simplon départementıydı; Fransız çekilişinin ardından Müttefik/Avusturya işgaline girdi. Çekiliş günü kaynakta yok (ay düzeyi). Valais ancak 4 Ağustos 1815'te Konfederasyon'a katıldığından aradaki dönem beyanlı boşluktur. Aynı gün atlasta Simplon départementından çıkan diğer yerleşim: Martigny (Martinach). Simplon départementının merkezi Sion (Sitten) de aynı günde Fransız idaresinden çıkar.",
+  ic_not_ham_d:"Valais Aralık 1813'e dek Fransız Simplon départementıydı; Fransız çekilişinin ardından Müttefik/Avusturya işgaline girdi. Çekiliş günü kaynakta yok (ay düzeyi). Valais ancak 4 Ağustos 1815'te Konfederasyon'a katıldığından aradaki dönem beyanlı boşluktur. Aynı gün atlasta Simplon départementından çıkan diğer yerleşim: Martigny (Martinach). Simplon départementının merkezi Sion (Sitten) de aynı günde Fransız idaresinden çıkar.", d:"Valais Aralık 1813'e dek Fransız Simplon départementıydı; Fransız çekilişinin ardından Müttefik/Avusturya işgaline girdi. Çekiliş günü kaynakta yok (yalnız ay biliniyor). Valais ancak 4 Ağustos 1815'te Konfederasyon'a katıldığından aradaki dönem haritada boş gösterilir. Aynı gün Simplon départementından çıkan diğer yerleşim: Martigny (Martinach). Simplon départementının merkezi Sion (Sitten) de aynı günde Fransız idaresinden çıkar.",
   kaynak:"vs.ch Valais Kantonu sanal sergi «Die Franzosenzeit und die Urkunde zum Beitritt des Wallis zur Eidgenossenschaft (1798–1815)» (vs.ch/de/web/exposition-virtuelle/la-periode-francaise-et-l-acte-de-reunion-du-valais-a-la-confederation1) · Treccani «Vallese» (treccani.it/enciclopedia/vallese/)" },
 
 { t:"1815-08-04", kesinlik:"gun", devlet:"isvicre", devletler:["isvicre"], sinir_id:"",

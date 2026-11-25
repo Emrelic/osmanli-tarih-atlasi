@@ -77,7 +77,7 @@ window.KRONOLOJI_CIN_MING_1115B = [
 
 { taraflar:["ming-hanedani","kuzey-yuan"], t:"1382-01-16", b:"Qujing, Zhongqing (Kunming), Chengjiang ve Wuding Ming'e teslim oldu; Ming shi «Yunnan pasifize edildi» der", tur:"fetih",
   onem:4, dunya:2, kapsam:"dis", etiket:["askeri","toprak-degisimi","konu-askeri"], yer_id:"Kunming",
-  d:"Hongwu 15'in 1. ayında Yuan'ın Qujing Müdürlüğü ile Zhongqing (Kunming), Chengjiang ve Wuding illeri Ming'e teslim oldu. Liang Prensi Basalawarmi karısını Dian Gölü'ne gönderip kendisi iki yardımcısıyla kendini astı (Ming shi j.124; gün verilmez). Dali'nin düşüşü ise aynı yılın artık ayında (Lan Yu ve Mu Ying, 閏月癸卯) yazılıdır. Atlastaki Yunnan eksklav kaydı (kuzey-yuan, 1368-1382) bu tarihle uyumsuz olabilir: Ming shi'ye göre Yunnan'ın fiilen Ming'e geçişi 1382 başıdır.",
+  ic_not_ham_d:"Hongwu 15'in 1. ayında Yuan'ın Qujing Müdürlüğü ile Zhongqing (Kunming), Chengjiang ve Wuding illeri Ming'e teslim oldu. Liang Prensi Basalawarmi karısını Dian Gölü'ne gönderip kendisi iki yardımcısıyla kendini astı (Ming shi j.124; gün verilmez). Dali'nin düşüşü ise aynı yılın artık ayında (Lan Yu ve Mu Ying, 閏月癸卯) yazılıdır. Atlastaki Yunnan eksklav kaydı (kuzey-yuan, 1368-1382) bu tarihle uyumsuz olabilir: Ming shi'ye göre Yunnan'ın fiilen Ming'e geçişi 1382 başıdır.", d:"Hongwu 15'in 1. ayında Yuan'ın Qujing Müdürlüğü ile Zhongqing (Kunming), Chengjiang ve Wuding illeri Ming'e teslim oldu. Liang Prensi Basalawarmi karısını Dian Gölü'ne gönderip kendisi iki yardımcısıyla kendini astı (Ming shi j.124; gün verilmez). Dali'nin düşüşü ise aynı yılın artık ayında (Lan Yu ve Mu Ying, 閏月癸卯) yazılıdır.",
   kaynak:"Ming shi (明史) j.3 Taizu 3 — 洪武十五年春正月壬午: «元曲靖宣慰司及中慶、澂江、武定諸路俱降，雲南平» (zh.wikisource.org/wiki/明史/卷3; WebFetch aracıyla okundu); Ming shi j.124 «Basalawarmi» (zh.wikisource.org/wiki/明史/卷124; aynı yöntemle okundu)",
   kesinlik:"gun",
   ic_not:"Takvim: 洪武十五年 1. ay 壬午 → Jülyen 1382-01-16 (ay başlangıcı 1382-01-15, 30 gün; ay içinde tek 壬午). UYARI: WebFetch aktarımı 壬午'yu «威楚路» cümlesinden sonraki cümleye bağladı; ay içi sınama geçti fakat birincil sayfa aracı özetiyle okunduğu için 'tek kaynak, aracı aktarımı' olarak yazıldı. Basalawarmi'nin ölüm günü kaynakta YOKTUR (bulunamadı). İkinci akademik kaynak OKUNMADI." },
@@ -119,7 +119,7 @@ window.KRONOLOJI_CIN_MING_1115B = [
 
 { taraflar:["ming-hanedani","kuzey-yuan"], t:"1550-09-26", b:"Altan Han Gubeikou'dan Ming sınırını yardı; Jizhen ordusu dağıldı (Gengxu olayı)", tur:"savas",
   onem:4, dunya:2, kapsam:"dis", etiket:["askeri","konu-askeri"], yer_id:"", yer_kon:[40.6770,117.1580],
-  d:"Jiajing 29'un 8. ayında Altan'ın Moğolları büyük bir akınla Gubeikou'yu yardı ve Jizhen ordusu dağıldı (Ming shi). Atlastaki 1550-08-01 «Altan Han'ın Moğolları Pekin'i kuşattı» maddesinin günü Ming shi'nin gösterdiği güne (Gubeikou'nun yarılması 26 Eylül 1550) uymaz; düzeltme önerisi belgede.",
+  ic_not_ham_d:"Jiajing 29'un 8. ayında Altan'ın Moğolları büyük bir akınla Gubeikou'yu yardı ve Jizhen ordusu dağıldı (Ming shi). Atlastaki 1550-08-01 «Altan Han'ın Moğolları Pekin'i kuşattı» maddesinin günü Ming shi'nin gösterdiği güne (Gubeikou'nun yarılması 26 Eylül 1550) uymaz; düzeltme önerisi belgede.", d:"Jiajing 29'un 8. ayında Altan'ın Moğolları büyük bir akınla Gubeikou'yu yardı ve Jizhen ordusu dağıldı (Ming shi).",
   kaynak:"Ming shi (明史) j.18 Shizong 2 — 嘉靖二十九年秋八月丁丑: «俺答大舉入寇，攻古北口，薊鎮兵潰» (zh.wikisource.org/wiki/明史/卷18; WebFetch aracıyla okundu); koordinat: Gubeikou (standart coğrafî değer)",
   kesinlik:"gun",
   ic_not:"Takvim: 嘉靖二十九年 8. ay 丁丑 → Jülyen 1550-09-26 (ay başlangıcı 1550-09-11, 29 gün). Bu madde Pekin'in kuşatmasının başlangıcı DEĞİL, Gubeikou'nun yarılmasıdır; kuşatma günleri okunmadı. Mevcut madde (kronoloji_cin.js) bu turda değiştirilmedi; ortak dosyada çatışma riski nedeniyle öneri olarak bırakıldı. İkinci akademik kaynak OKUNMADI." },
@@ -133,7 +133,7 @@ window.KRONOLOJI_CIN_MING_1115B = [
 
 { taraflar:["ming-hanedani"], t:"1563-05-11", b:"Qi Jiguang Pinghai Karakolu'nda Japon korsanlarını bozdu", tur:"savas",
   onem:3, dunya:1, kapsam:"ic", etiket:["askeri","konu-askeri"], yer_id:"",
-  d:"Jiajing 42'nin 4. ayında yardımcı komutan Qi Jiguang Pinghai Karakolu'nda (Fujian kıyısı) korsanlara (wokou) karşı zafer kazandı. Pinghai'nin koordinatı atlasta yoktur; madde yersiz bırakıldı.",
+  ic_not_ham_d:"Jiajing 42'nin 4. ayında yardımcı komutan Qi Jiguang Pinghai Karakolu'nda (Fujian kıyısı) korsanlara (wokou) karşı zafer kazandı. Pinghai'nin koordinatı atlasta yoktur; madde yersiz bırakıldı.", d:"Jiajing 42'nin 4. ayında yardımcı komutan Qi Jiguang Pinghai Karakolu'nda (Fujian kıyısı) korsanlara (wokou) karşı zafer kazandı.",
   kaynak:"Ming shi (明史) j.18 Shizong 2 — 嘉靖四十二年夏四月丁卯: «副總兵戚繼光破倭於平海衞» (zh.wikisource.org/wiki/明史/卷18; WebFetch aracıyla okundu)",
   kesinlik:"gun",
   ic_not:"Takvim: 嘉靖四十二年 4. ay 丁卯 → Jülyen 1563-05-11 (ay başlangıcı 1563-04-22, 30 gün). Yer: yalnız «Pinghai Karakolu»; il adı kaynakta yok, koordinat yazılmadı. İkinci akademik kaynak OKUNMADI." },
