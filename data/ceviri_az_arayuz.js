@@ -1793,6 +1793,7 @@ Ceviri.ekle("az","arayuz",{
 "yüklenemedi — bölgeler çizilemedi, metin duruyor":["yüklənə bilmədi — bölgələr çəkilə bilmədi, mətn qalır", "b9872108"],
 "yükleniyor…":["yüklənir…", "91b0563c"],
 "yıl":["il", "8252e04d"],
+"yıl kaynakta yok (# yer tutucu)":["il qaynaqda yoxdur (# yer tutucudur)", "c1d97e14"],
 "{sonuc, olcum} yok":["{sonuc, olcum} yoxdur", "b16f2562"],
 "~# Kasım #":["~# Noyabr #", "93926cba"],
 "± # yıl":["± # il", "bda5b78f"],

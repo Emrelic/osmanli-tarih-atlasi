@@ -1943,6 +1943,7 @@ Ceviri.ekle("en","arayuz",{
 "yüklenemedi — bölgeler çizilemedi, metin duruyor":["could not be loaded — regions could not be drawn, text remains", "b9872108"],
 "yükleniyor…":["loading…", "91b0563c"],
 "yıl":["year", "8252e04d"],
+"yıl kaynakta yok (# yer tutucu)":["year not in the sources (# is a placeholder)", "c1d97e14"],
 "zafer":["victory", "dd948d11"],
 "{sonuc, olcum} yok":["{sonuc, olcum} missing", "b16f2562"],
 "~# Kasım #":["~# November #", "93926cba"],

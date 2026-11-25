@@ -1793,6 +1793,7 @@ Ceviri.ekle("nl","arayuz",{
 "yüklenemedi — bölgeler çizilemedi, metin duruyor":["kon niet worden geladen — gebieden konden niet worden getekend, tekst blijft staan", "b9872108"],
 "yükleniyor…":["wordt geladen…", "91b0563c"],
 "yıl":["jaar", "8252e04d"],
+"yıl kaynakta yok (# yer tutucu)":["jaar ontbreekt in de bronnen (# is een tijdelijke invulling)", "c1d97e14"],
 "{sonuc, olcum} yok":["{sonuc, olcum} ontbreekt", "b16f2562"],
 "~# Kasım #":["~# november #", "93926cba"],
 "± # yıl":["± # jaar", "bda5b78f"],

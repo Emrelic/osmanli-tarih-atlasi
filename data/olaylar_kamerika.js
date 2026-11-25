@@ -171,9 +171,9 @@ window.OLAYLAR_KAMERIKA = [
     "duygu": [
       "📌"
     ],
-    "kaynak": "Bob Beal, 'Fort Pitt', The Canadian Encyclopedia (Historica Canada), 7.02.2006 (son düzenleme 4.03.2015) — 'Founded in 1830, Fort Pitt was the major Hudson's Bay Company trading post'; okuma 24.11.2026. ÇELİŞKİ: kaynak 1830 diyor, maddenin t: yılı 1829. İkinci kaynak bulunamadı; t: değiştirilmedi.",
-    "ic_not": "Kaynak çelişkisi: The Canadian Encyclopedia (Beal) kuruluşu 1830 verir; atlas maddesi 1829. Gün yok, yalnız yıl; ikinci bağımsız kaynak aranmadı/bulunamadı. Koordinatör kararı gerekir.",
-    "d": "Hudson's Bay Company, Fort Carlton ile Fort Edmonton arasındaki boşluğu kapatmak için Kuzey Saskatchewan kıyısında Fort Pitt'i kurdu. Karakol pemmican tedarikinin ana merkezlerinden biri oldu ve Ova Krileri ile şirket arasındaki ticaretin düğüm noktası hâline geldi.", "ic_not_d": "Kaynak yıl verir, gün vermez; §4 gereği YYYY-01-01."
+    "kaynak":"[yalnız yıl teyitli; gün teyitsiz] Daria Coneghan, 'Fort Pitt', The Encyclopedia of Saskatchewan (Univ. of Regina), esask.uregina.ca/entry/fort_pitt.html: 'Founded in 1829' · Parks Canada, Fort Pitt National Historic Site (pc.gc.ca/apps/dfhd/page_nhs_eng.aspx?id=741): J. Rowand, 1829-30 kışı · Canadian Register of Historic Places no 3112: 1829-1890; okuma 26.11.2026",
+    "ic_not":"HAKEM (26.11.2026): 1829 seçildi. Karşı: Beal (Canadian Encyclopedia) 1830; Voorhis 1831. Tescil kayıtlarının birbirinden bağımsızlığı bilinmiyor. HBCA post geçmişi okunamadı (404).",
+    "d":"Hudson's Bay Company, Kuzey Saskatchewan kıyısında, Fort Carlton ile Fort Edmonton arasında Fort Pitt'i bir erzak karakolu olarak kurdu. Karakolun başlıca ticareti pemmican ve öteki bizon ürünleriydi; Kri, Assiniboine ve Siyahayak halkları buraya uğrardı.", "ic_not_d": "Kaynak yıl verir, gün vermez; §4 gereği YYYY-01-01."
   },
 
   { onem:2, bolge_onem:1, puan_s:"v2", tur:"kurulus","bolge": 1, 
@@ -252,19 +252,19 @@ window.OLAYLAR_KAMERIKA = [
       "konu-siyasi",
       "konu-ekonomi"
     ],
-    "b": "Fort George (Chisasibi) kuruldu — James Körfezi'nin doğu kıyısı",
+    "b":"Big River (sonraki Fort George, Chisasibi) — La Grande ağzında kürk ticareti postaları",
     "gun": "1803", "ic_not_gun": "kaynak yıl verir, gün vermez",
     "yer": "La Grande Irmağı, James Körfezi",
     "yer_id": "Chisasibi (Fort George)",
-    "kisiler": "Hudson's Bay Company",
+    "kisiler":"Duncan McDougall, George Atkinson",
     "kapsam": "dis",
     "dunya": 1,
     "duygu": [
       "📌"
     ],
-    "kaynak": "ÇELİŞKİ — Pierrette Désy, 'Glissement du domaine autochtone (Fort George 1840)', Anthropologica 61/2 (2019), s. ~296: 'occupé par des marchands de la Compagnie du Nord-Ouest en 1803, ils en furent chassés par les marchands de la Compagnie de la Baie d'Hudson en 1805 … le poste de traite devint permanent en 1837 sous le nom de Fort George' (PDF metni okundu, 24.11.2026). Yani 1803'te yer Kuzeybatı Şirketi'ndeydi; HBC 1805, kalıcı Fort George 1837. HBC'nin 1803'te kurduğu iddiası (chisasibi.ca, Cree topluluk sitesi) akademik değil.",
-    "ic_not": "Kaynak çelişkisi: Désy (Anthropologica 2019) 1803'te Kuzeybatı Şirketi'nin işgalini, HBC'nin 1805'te gelişini, kalıcı postayı 1837'de verir; atlas 'HBC 1803'te kurdu' diyor. t: değiştirilmedi; koordinatör kararı gerekir (Değişmez 2 bağlantısı).",
-    "d": "Hudson's Bay Company, James Körfezi'nin doğu kıyısında La Grande Irmağı ağzında Fort George'u kurdu. Karakol, iç bölgedeki Kri gruplarının kıyıya inmeden ticaret yapabilmesini sağladı ve şirketin doğu kıyı hattını tamamladı.", "ic_not_d": "Kaynak yıl verir, gün vermez; §4 gereği YYYY-01-01."
+    "kaynak":"[yalnız yıl teyitli; gün teyitsiz] Jennifer S.H. Brown, 'McDougall, Duncan', DCB c.5, biographi.ca/en/bio/mcdougall_duncan_5E.html · Glyndwr Williams, 'Atkinson, George (Sneppy)', DCB c.6, biographi.ca/en/bio/atkinson_george_1777_1830_6E.html · Pierrette Désy, 'Glissement du domaine autochtone (Fort George 1840)', Anthropologica 61/2 (2019), s.~296 ve dn.7; okuma 26.11.2026",
+    "ic_not":"HAKEM (26.11.2026): 1803'te NWC postası (DCB McDougall; Désy) ve HBC postası (DCB Atkinson 1803-06) birlikte tanıklı; ilk kuran karar verilemedi. NWC'nin gidişi Désy 1805, DCB 1806 ortası. Kalıcı Fort George 1837 (Désy). Francis & Morantz, RAQ ve HBCA post geçmişi okunmadı.",
+    "d":"1803'te James Körfezi'nin doğu kıyısında, La Grande (Big River) yöresinde Kuzeybatı Şirketi ile Hudson's Bay Company rekabete girdi: Nor'Wester Duncan McDougall bir post kurdu, HBC postasını ise 1803-1806 arasında George Atkinson yönetti. Kuzeybatı Şirketi sonunda bölgeden çekildi (kaynaklar 1805 ve 1806 verir). HBC'nin Big River postası 1813'te kapandı; Fort George adlı kalıcı post 1837'de yerleşti.", "ic_not_d":"post-it #193 (26 Kasım 2026): eski metin (HBC 1803'te Fort George'u kurdu; iç bölge ticareti; doğu kıyı hattı) dayanaksızdı. Kaynak yıl verir, gün vermez."
   },
 
 ];
