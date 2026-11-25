@@ -60,3 +60,12 @@ Dil başına yaklaşık 45 parti. Haftalık sayaçtaki karşılığı aşağıda
   tahmin). İngilizcenin kalanı 40 parti ≈ %20-30. 21 aktif dil ≈ 6-8 haftalık payın TAMAMI; 31 dil ≈ 9-12.
   Sınır hesap başına olduğundan öteki makinelere bölmek süreyi kısaltır, payı azaltmaz.
 - Henüz ölçülmeyen tasarruf: partiyi büyütmek.
+
+## 6. Kimlik ↔ metin eşleşmesi: dala yazılmış çıktının sınanması (26 Kasım, UMIT bulgusu üzerine)
+Biçim sıra numarası taşımaz (kayıt = kart id + alan adı; özet Türkçe kaynaktan). İngilizce 145 kart / 351 alan:
+- id ve kaynak özeti uyuşmazlığı: 0. 145 kart birlikte kayma sınaması: 0 bayrak.
+- Uzun alan (175): sayı + özel ad izi 1.094 kartın bütün alanlarıyla karşılaştırıldı; 13'ü başka kaynağa daha
+  yakın bayraklandı (çoğu iki tarafta da düşük puan).
+- Kısa alan (176): izi en az 2 olup hiç ortak iz taşımayan 4.
+- Bu 17 alan Türkçesiyle yan yana, ilk ~170 karakterinden okundu: **17'si de kendi kaynağının çevirisi; kayma yok.**
+- Sınır: izi 2'den az olan kısa alanlar içerik yönünden otomatik olarak kanıtlanmadı.
