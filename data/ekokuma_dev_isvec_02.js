@@ -18,6 +18,16 @@ window.EKOKUMA_DEVISVEC02 = [
   olay:["1792-03-29|III. Gustav suikast"],
   kaynak:"My Hellsing, \"Magdalena Charlotta Rudenschöld\", Svenskt kvinnobiografiskt lexikon, 2018, https://www.skbl.se/en/article/MagdalenaRudenschold",
   teyit:"teyitli",
-  ic_not:"Kaynak gövdesinde bir yerde 'Margareta Rudenschöld' yazıyor (dizgi hatası); madde adı Magdalena. 'Küçük yaştaki kral' ifadesi kaynakta yok (kaynak: minority government); yönetimin naiplik oluşu bu deyimden." }
+  ic_not:"Kaynak gövdesinde bir yerde 'Margareta Rudenschöld' yazıyor (dizgi hatası); madde adı Magdalena. 'Küçük yaştaki kral' ifadesi kaynakta yok (kaynak: minority government); yönetimin naiplik oluşu bu deyimden." },
+
+{ id:"isvec-savas-hikayesi-bender-carlopolis", devlet:"isvec", tur:"savas-hikayesi",
+  baslik:"Bender'de bir İsveç kasabası: Carlopolis'in kuruluşu ve sonu",
+  kisa:"Poltava'dan kaçan XII. Karl'ın ordugâhı üç kez yer değiştirdi. Bol sofralarla başlayan misafirlik kıtlığa, sonunda da silahlı bir direnişe döndü.",
+  metin:"1709'da Poltava yenilgisinden sonra XII. Karl ve Kazak müttefikleri Osmanlı topraklarına sığındı. 31 Temmuz'da Bender'in karşısına vardıklarında onları büyük bir çadır ve selama durmuş yeniçeriler karşıladı. Kral kısa süre sonra nehrin öbür yakasına geçti. Kalenin yanında büyüyen ordugâha çevredekiler Carlopolis, yani Karl'ın kalesi adını taktı. Kralın çadırı zamanla gerçek bir eve dönüştü.\n\n1711'de Dinyester taşınca ordugâhın büyük bölümü yıkıldı. Üçüncüsü Varnitsa köyünün yakınında, bir tepede kuruldu; toprak tabyalar ve hendeklerle küçük bir hisarı andırıyordu.\n\nİlk günlerde erzak boldu: Padişah III. Ahmed'in emriyle kral ve yakın çevresi çok iyi ağırlandı. 1710'dan itibaren ise ödenekler kısıldı, yardım yalnız kral ve generalleri kapsar oldu. Sıradan askerler ve Kazaklar aç kaldı, kimileri çevre köylerden yiyecek çaldı. Veba salgını yılları, açlık ve firar nüfusu eritti. En büyük korku da Rusların gelmesi ya da Osmanlıların sığınmacıları çara teslim etmesiydi.\n\nPrut barışının kesinleşmesinde kralın varlığı engel oluyordu. Osmanlı yönetimi 1712'den itibaren onu İsveç'in elindeki Pomeranya'ya yollamaya çalıştı; Karl, Osmanlıları yeniden savaşa çekme umuduyla gitmedi. Erzak yolları kapatıldı; saman da kesilince kral atlarını vurdurup etlerini tuzlattı. Sonunda saldırı geldi. İki gün süren direnişte krallık yapısının üstüne saman yığılıp ateşe verildi. Karl yakalanıp Osmanlı topraklarının içlerine götürüldü, ordugâh yıkıldı. Bu olaylar Türkçe kalabalık sözcüğünden gelen adla anılır.\n\nTarihçiler bugün ne diyor? Volodymyr Milchev'e göre araştırmalar uzun süre buradaki büyük siyasete yoğunlaştı, gündelik hayat geri planda kaldı. Onun vardığı sonuç, Carlopolis'in halkının büyük bölümü için bir hayatta kalma mücadelesi olduğudur.",
+  kesinlik:"kesin",
+  olay:["1713-02-12|Kalabalık"],
+  kaynak:"Volodymyr Milchev, \"Carlopolis: Sketches of Everyday Life of a Swedish-Cossack Camp on the Frontier (1709-1713)\", Güney-Doğu Avrupa Araştırmaları Dergisi 35 (2020), s. 97-118, https://doi.org/10.26650/gaad.795197",
+  teyit:"teyitli",
+  ic_not:"Makalenin bütün metni okundu. Kaynak saldırıyı 31 Ocak - 2 Şubat 1713 diye verir (takvim belirtmiyor); atlas maddesi 1713-02-12 (muhtemelen Gregoryen karşılığı). Karta gün yazılmadı." }
 
 ];
