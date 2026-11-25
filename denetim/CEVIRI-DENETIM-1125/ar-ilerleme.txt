@@ -5,8 +5,16 @@ Bakılan kayıt (yaklaşık, paket tamamı): arayuz paketleri 10/10, devlet pake
 Düzeltme dosyaları: duzeltme_001..009.jsonl
 
 == ilerleme_a.txt
-Tamamen okunan paketler: 4_olay_021 - 4_olay_044
+Tamamen okunan paketler: 4_olay_021 - 4_olay_050 (aralık tamam, 30/30)
+Bakılan: yalnız olay kayıtları (paket başına yaklaşık 15-30 kayıt; kayıt sayısı ayrıca sayılmadı)
 
 == ilerleme_b.txt
 Tamamen okunan: 4_olay_051 - 4_olay_080 (aralik tamam)
 Bakilan olay kaydi: yaklasik 640
+
+== ilerleme_c.txt
+Tamamen okunan: 4_olay_081 - 4_olay_095
+Düzeltme dosyaları: duzeltme_c_001.jsonl
+
+== ilerleme_d.txt
+Tamamen okunan: 4_olay_116 - 4_olay_120 (5 paket)

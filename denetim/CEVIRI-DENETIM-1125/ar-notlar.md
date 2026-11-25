@@ -10,6 +10,13 @@
 - Bazı olaylarda gereksiz Türkçe parantez glosu (ör. OLAYLAR:1783-04-19:0 "(Küçük Kaynarca)", T5_1000A "(Niğde)"); yanlış değil, bırakıldı.
 - OLAYLAR_EK17:1738 dışında başka paketlerde de پ/چ harfleri çıkabilir; okunmayan paketlerde toplu tarama önerilir.
 
+== notlar_a.md
+- Tutarsız ama düzeltilmeyen özel ad biçimleri: ياووز/يافوز; ريفان/إيروان/إريفان; كارلوفتش/كارلوفجه/كارلوفيتس; باساروفجه/باساروفيتس; لفكوشة/نيقوسيا; تيمشوارة/تيميشوارا; بيتر; كماه (tarihî Arapça: كماخ). Toplu birleştirme önerilir.
+- "شيربنجه" (şîrpençe, 1884 Midhat Paşa): Arap okur için "الجمرة/الدمّل" açıklaması düşünülebilir.
+- "كتابة باب همايون" (kitabe) "نقش" olabilir.
+- Bazı olaylarda ay adları yalnız Süryanice (تشرين الثاني) ya da yalnız Batı (مايو) biçiminde; öteki maddelerde ikili biçim. Hata sayılmadı.
+- 1572 donanma maddesindeki "250 kadırga ve 300 gönüllü reis kadırgası" sayısı TR'de de kontrole değer.
+
 == notlar_b.md
 - Ay adları karışık: bazı kayıtlarda yalnız Levant ayları (تشرين، كانون), bazılarında çift (آب/أغسطس), çoğunda Batı adları. Yalnız birkaçı birleştirildi; genel standartlaştırma kararı gerekir.
 - ڤ harfi (ديڤريغي، كولوجسڤار، إشتڤان، ليڤا، ڤاسڤار، ناجيڤاراد، ڤولينيا) Arapça'da V için kullanılabildiğinden dokunulmadı (yalnız داڤلي değişti). Farsça پ/چ/گ aralıkta görülenler ب/ج'ye çevrildi.

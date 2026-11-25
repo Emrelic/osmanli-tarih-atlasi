@@ -318,3 +318,57 @@
 - olay | OLAYLAR_2S_0918:1881-01-24:0 | d: Ahal yer adı yanlış
 - olay | OLAYLAR_2S_0918:1902-05-07:0 | d: 'Kel Ahaggar' boy adı 'tüm Ahaggar' diye okunuyor
 - olay | OLAYLAR_2S_0918:1322-03-01:0 | b: Başlık bozuk söz dizimli
+- olay | OLAYLAR_EK6:1831-01-04:0 | b: parantez aynı adı tekrarlıyordu; TR '(Oran)'
+- olay | OLAYLAR_ILIRYA0072:1813-01-01:0 | b: İlirya yazımı hatalı (الإيلية), öteki maddelerdeki الولايات الإليرية
+- olay | OLAYLAR_ILIRYA0072:1813-01-01:0 | d: İlirya yazımı hatalı
+- olay | OLAYLAR_EK7:1481-05-22:0 | d: cinsiyet uyumu
+- olay | OLAYLAR_EK7:1552-06-01:0 | d: cinsiyet uyumu
+- olay | OLAYLAR_EK7:1602-02-15:0 | d: bozuk söz dizimi
+- olay | OLAYLAR_EK7:1603-12-23:0 | d: 'mahfil hayatı' anlamsız sözcüğü sözcüğüne çevrilmiş
+- olay | OLAYLAR_EK7:1665-06-01:0 | b: Vânî nisbesi; 'وانلي' Türkçe -lı kalıntısı, gövdeyle tutarsız
+- olay | OLAYLAR_EK7:1685-10-12:0 | b: Vânî nisbesi; 'وانلي' Türkçe -lı kalıntısı, gövdeyle tutarsız
+- olay | OLAYLAR_EK7:1703-07-17:0 | d: esnaf = أصحاب الحرف, tüccar değil
+- olay | OLAYLAR_EK7:1720-06-01:0 | d: 'Gerçek' lakap/özel ad; 'gerçek Davud' diye çevrilmiş
+- olay | OLAYLAR_EK7:1807-05-29:1 | d: zamir belirsizdi (Mustafa'nın hal'i gibi okunuyordu); akrabalık için tr_hatalari'ne bak
+- olay | OLAYLAR_2S_0919:1522-01-01:0 | d: iki yazım aynı Arapça biçime düşmüş, anlamsız tekrar
+- olay | OLAYLAR_ORTADOGU_0919:1819-08-13:0 | d: karakol 'الموقع' (yer) diye, 'kurtarılan garnizon' tersine 'kurtaran garnizon' diye çevrilmiş
+- olay | OLAYLAR_2S_0919:1328-01-01:0 | d: şövalye tarikatı için tasavvuf 'طريقة' terimi; başlıkla tutarsız
+- olay | OLAYLAR_2S_0919:1722-01-01:0 | d: tahkimat anlamındaki 'pas' dağ geçidi (ممر) diye çevrilmiş
+- olay | OLAYLAR_2S_0919:1888-05-01:0 | d: yazım hatası: Yâfiîler = اليافعيون
+- olay | OLAYLAR_2S_0919:1890-01-01:0 | b: Colof ülkesi (Jolof), Volof halkı (الولوف) ile karıştırılmış
+- olay | OLAYLAR_2S_0919:1890-01-01:0 | d: Colof ülkesi (Jolof), Volof halkı ile karıştırılmış
+- olay | OLAYLAR_AMERIKA0920:1718-05-01:0 | d: 'menzil' (konak/üs) 'uzantı' diye yanlış çevrilmiş
+- olay | OLAYLAR_AMERIKA0920:1541-02-12:0 | d: fiil-özne cinsiyet uyumu
+- olay | OLAYLAR_2S0920:1387-05-08:0 | b: Karaferye adı bozuk yazılmış
+- olay | OLAYLAR_2S0920:1387-05-08:0 | d: Karaferye adı bozuk yazılmış
+- olay | OLAYLAR_MISIR1801:1801-08-31:0 | d: Marabout kalesi 'tapınak kalesi' diye yanlış çevrilmiş
+- olay | OLAYLAR_MISIR1801:1801-05-14:0 | d: cinsiyet uyumu
+- olay | OLAYLAR_SENUSI_0919:1596-05-10:0 | d: özel ad Borbély yanlış yazılmış
+- olay | OLAYLAR_SENUSI_0919:1738-05-08:0 | b: 'muhafız' burada garnizon; 'bekçi' anlamında çevrilmiş
+- olay | OLAYLAR_SENUSI_0919:1738-05-08:0 | d: 'muhafız' 'bekçi' (حارس) diye çevrilmiş
+- olay | OLAYLAR_SESSIZBORC0919:1349-01-01:0 | b: despotluk krallık değil; metinle tutarsız
+- olay | OLAYLAR_P0048:1592-01-01:0 | d: Türkçe ad harf çevirisiyle bırakılmış (çevrilmemiş)
+- olay | OLAYLAR_P0049:1787-07-27:0 | d: 'gerginlik koptu' (patladı) tersine 'gerginlik kesildi' olmuş
+- olay | OLAYLAR_P0049:1920-10-30:0 | d: bozuk cümle: İngilizlerin denetimi Ermeni idaresine bırakması
+- olay | OLAYLAR_P0049:1640-01-01:0 | d: cinsiyet uyumu
+- olay | OLAYLAR_P0056:1806-12-25:0 | d: zamir/cinsiyet uyumu
+- olay | OLAYLAR_P0056:1829-06-30:0 | d: zamir uyumu
+- olay | OLAYLAR_P0057:1919-10-15:0 | d: bozuk anlatım
+- olay | OLAYLAR_ARKEOLOJI_PILOT:-7099-01-01:0 | d: 'نحو نحو' tekrarı ve çelişkili 'geriye' ifadesi
+- olay | OLAYLAR_ARKEOLOJI_D3_AMERIKA_PASIFIK:-0499-01-01:0 | b: başlıkta anlam bozuk: terk edilen tören merkezi, Rosario sonrası
+- olay | OLAYLAR_ARKEOLOJI_D3_AMERIKA_PASIFIK:-0499-01-01:0 | d: 'San Jose Mogote vadisi' yanlış; 'şeflik' kavramı atlanmış
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0896-01-01:0 | b: Zamir uyumsuzluğu (çoğul özne, tekil 'sيده') ve bozuk anlatım
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0896-01-01:0 | d: Zamir uyumsuzluğu ve bozuk anlatım
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0904-12-13:0 | b: 'Yönetim amcasına kaldı'; 'ترك' ölen kişinin bıraktığı anlamı veriyordu
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0904-12-13:0 | d: 'Yönetim amcasına kaldı'
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0754-01-01:0 | b: Dönem 'kurucu' sayılmış görünüyordu; anlam bozukluğu
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0754-01-01:0 | d: Dönem 'kurucu' sayılmış görünüyordu
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1024-03-15:0 | d: 'اللؤلؤي' hatalı biçim; Lü'lü' adı ve tamlama düzeltildi
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1164-01-01:0 | b: Cinsiyet uyumu
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1164-01-01:0 | d: Cinsiyet uyumu
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1182-01-01:0 | b: Ad yinelemesi, anlaşılmaz cümle
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1182-01-01:0 | d: Ad yinelemesi, anlaşılmaz cümle
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1232-01-01:0 | b: Fiil-özne cinsiyet uyumu
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1232-01-01:0 | d: Fiil-özne cinsiyet uyumu
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1249-11-23:0 | b: 'Cephe sırasında' kalıbı Arapçada anlamsız
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1249-11-23:0 | d: 'Cephe sırasında' kalıbı Arapçada anlamsız

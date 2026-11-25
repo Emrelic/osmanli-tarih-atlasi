@@ -12,6 +12,34 @@
 - olay OLAYLAR_LAB19_BOS_1119:1446-01-01:0: "Hacer el-Yemâme b. Dir'" kişi adı gibi duruyor; "Hacerü'l-Yemâme (hâkimi) İbn Dir'" olabilir, kaynaktan bakılmalı.
 - olay OLAYLAR_EK3:1403-06-15:0 ve :1403-02-01:0 (+ OLAYLAR_EK:1403-06-01:0): aynı 1403 Gelibolu Antlaşması üç ayrı maddede, farklı ay (Şubat/Haziran) — mükerrer olabilir.
 
+== tr_hatalari_a.md
+- olay OLAYLAR_EK5:1807-05-29 / OLAYLAR_EK7:1807-05-29:1: IV. Mustafa "III. Selim'in yeğeni" deniyor; I. Abdülhamid'in oğlu olduğu için III. Selim'in amcaoğludur (doğrulanmalı).
+- olay OLAYLAR_EK5:1518-01-01:0: TR metninde kullanıcıya görünen "(gün teyitsiz)" notu.
+- olay OLAYLAR_EK5:1775-05-07:0: "(gün teyitsiz)" notu kullanıcıya görünüyor.
+- olay OLAYLAR_EK5:1716-10-13:0: "(TDV timisvar; ... abi-merkez zinciri, beyanlı yaklaşıklık)" iç not.
+- olay OLAYLAR_EK5:1716-11-16:0: "(Bánlaky 0019/1703; beyanlı yaklaşıklık)" ve "abi-merkez zinciri" iç notu.
+- olay OLAYLAR_EK5:1724-06-24:0: sonda "(Çaycıoğlu, DergiPark)" kaynak parantezi.
+- olay OLAYLAR_EK5:1732-01-08:0: "Atlas, Hoy'un zincirini ... (TDV hoy; ... beyanlı yaklaşıklık)" iç not. Aynısı OLAYLAR_EK6:1730-08-12:0.
+- olay OLAYLAR_EK5:1791-08-04:0: "(TDV zistovi-antlasmasi; Korić ... atlas hukuken devri ... yazar)" iç not.
+- olay OLAYLAR_EK5:1718-07-21:0: dosya kimlikleri ("TDV ayamavra:", "TDV cuka-adasi:") ve "TDV bu kaleleri adıyla saymaz" iç notu.
+- olay OLAYLAR_EK5:1798-10-23:0: "(Curlin, Preveza B, 2010; atlas günü Preveze'den alır)" iç not.
+- olay OLAYLAR_EK5:1555-01-01:0: "(... haritada İbrim 1517'den Osmanlı gösterilir. Bu yıl yaklaşıktır, kaynak yıl vermez.)" iç not.
+- olay OLAYLAR_EK5:1918-03-28:0: "TDV maddesi yalnız 'Mart 1918' diye yazar, günü Mustafa Sarı verir" iç not. Benzer: 1920-07-07 (Batum), 1731-01-01 (Urmiye).
+- olay OLAYLAR_EK5:1687-... / 1688-06-22:0 (Lipova): "(MKL..., Bánlaky ..., beyanlı yaklaşıklık)" iç not. Benzer: OLAYLAR_EK6:1686-10-23:0, 1689-02-03:0, 1715-07-20 (Anabolu/Argos).
+- olay OLAYLAR_EK5:1387-01-22:0: "Atlasta Muş bu yılda ... yazılıdır" iç not.
+- olay OLAYLAR_EK6:1547-01-01:0: "(Kaya 2017 ... bkz. önceki madde)" iç not.
+- olay OLAYLAR_EK6:1535-09-22:0: başlıkta "(Osmanlı tutumu 1534-35'te sona erdi)" anlaşılmaz.
+- olay OLAYLAR_EK6:1833-04-12:0: "Atlas günü ... (St Clair..., Finlay...)" iç not.
+- olay OLAYLAR_ILIRYA0072:1806-02-01:0, 1806-01-01:0, 1779-01-01:0: "atlasta ... görünüyordu / 'Fransa' penceresiyle karşılanamaz" geliştirici notu.
+- olay OLAYLAR_EK5:1878-01-04:0: cümle bozuk ("1878 sonunda özerk Bulgaristan Prensliği'nin, 1879'da fiilen başşehri olacaktı").
+- olay OLAYLAR_EK5:1715-09-07:0: "Ancak elde tutulan tek Osmanlı adası olarak kalmadı" anlamsız.
+- olay OLAYLAR_EK5:1538-09-01:0: "Aynı yapı 1484'te ... tekrarlanacaktı" (1484, 1538'den önce).
+- olay OLAYLAR_EK5:1537-03-12:0: Klis 1537'de Venedik'ten değil, Habsburg/Hırvat tarafından (Kružić) tutuluyordu; doğrulanmalı.
+- olay OLAYLAR_EK5:1912-11-25:0: I. Balkan Savaşı Ekim 1912'de başladı; "7 Nisan 1912'de bombalanan" bu savaşa bağlanamaz (doğrulanmalı).
+- olay OLAYLAR_EK5:1521-01-01:0 (Nikarya): başlık/tarih 1521, metin "ilk Osmanlı dönemi 1522'de başladı".
+- olay OLAYLAR_EK5:1427-01-01:1: "Sigismund ile varisi Georg Brankoviç" kimin varisi olduğu belirsiz.
+- olay OLAYLAR_EK5:1913-11-01:0: Bozcaada/İmroz'un iadesinin Atina Antlaşması'na bağlanması şüpheli (doğrulanmalı).
+
 == tr_hatalari_b.md
 - olay OLAYLAR_EK7:1406-10-15:0: TR.d kullanıcıya görünen iç not biçimi (TDV `tebriz` — ters tırnaklı slug)
 - olay OLAYLAR_EK7:1408-04-13:0: TR.d noktalı virgülle yarım bitiyor ("...görevlendirdi;")
