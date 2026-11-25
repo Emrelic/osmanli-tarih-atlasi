@@ -52,6 +52,18 @@
 - olay OLAYLAR_EK11:1747-06-20:0: iç not ("TDV'ye göre Revan Hanlığı ... gün teyitsiz")
 - olay OLAYLAR_EK11:1796-01-01:0: bozuk cümle ("Meşhed ... Ağa Muhammed Şah'ın önünde Afşar hükümdarı Şâhruh tarafından karşılandı") ve iç not "(gün kaynakta yok)"
 - olay OLAYLAR_EK13:1569-01-01:0: TR.d'de ters eğik çizgili kaçış artığı görünüyor (\")
+- olay OLAYLAR_EK14:1568-01-01:0: iç not "(tamamlanışı kronolojide zaten kayıtlı)"
+- olay OLAYLAR_EK13:1861-05-21:0: "ada ... bu düzenin dışında kaldı" cümlesi çelişkili (himaye düzeninin dışında değil, Osmanlı düzeninin dışında kastedilmiş olabilir)
+- olay OLAYLAR_EK15:1659-01-01:0 ve OLAYLAR_EK15:1337-09-09:0: TR.d'de ters eğik çizgili kaçış artığı (\")
+- olay OLAYLAR_EK16:1537-01-01:0: "İskoç-Norveç piskoposu Olav Engelbriktsson" — Norveç başpiskoposuydu, "İskoç" şüpheli
+- olay OLAYLAR_EK16:1438-01-01:0: harita iç notu ("harita bu sürecin başlangıcını ... esas alıyor")
+- olay OLAYLAR_EK16:1941-07-09:0: TR.d'de iç not "arama özeti [özet]" kullanıcıya görünüyor
+- olay OLAYLAR_EK16:1341-01-01:0: iç not "(künyede Özbek/Canibek)"
+- olay OLAYLAR_EK16:1307-01-01:0: iç not "(atlas künye tarihi 1307; ... ≈1320 tartışmalıdır)"
+- olay OLAYLAR_EK16:1941-07-28:0: bozuk cümle "Estonya sivil idaresi 5 Aralık 1941'de, Belarus'un doğusu askerî idarede kaldı."
+- olay OLAYLAR_EK16:1945-05-08:0: başlıkta İngilizce kalıntı "Courland Army Group Govorov'a teslimiyet imzaladı"
+- olay OLAYLAR_EK16:1941-06-23:0, 1941-06-23:1, 1944-07-16:0, 1944-07-28:0: Türkçe harfsiz ("isgal", "Kizil", "Dogu Cephesi") ve açıklama yer tutucu gibi ("Dogu Cephesi: 1941 Barbarossa ve 1944 Bagration.")
+- olay OLAYLAR_EK16:1943-08-05:0: açıklama eksiltili/cümle değil ("... ele geçirilmesi ve ... atılması.")
 - olay OLAYLAR_EK8:1893-02-18:0: "torununun torunu II. George Tupou" — II. George Tupou, I.'in torununun çocuğu (büyük torun) olmalı; teyit edilmeli (bn "প্রপৌত্র" = büyük torun)
 
 == tr_hatalari_d.md
@@ -73,3 +85,19 @@
 - olay OLAYLAR_ARKEOLOJI_D3_*: TR metinleri Türkçe karaktersiz (ASCII: "Vadi'de", "koy", "sefligi", "Misir", "krallıgi"); başlıklarda ad iki kez ("Sechín Alto: Sechín Alto:"); "bu oturumda KAYNAKTAN okunmadı" (-0751), "3. dalga okuma notu" (-1199 başlık), "'tahmini tarih' sütunu / modelde tutulmuştur" iç notlar
 - olay OLAYLAR_ARKEOLOJI_ZINCIR:*: "noktalarında sahiplik ... sahipsiz aralık'ya geçer. Kaynak geçiş bilgisi: ..." tümüyle veri alanı/iç not metni; ham URL, "(kavehfarrokh.com aynasi)", "ayni kaynak", bozuk ekler ("Cumhuriyeti'ya", "Krallığı'dan")
 - olay OLAYLAR_ARKEOLOJI_ZINCIR:-0309-01-01:0: "(künye t uzatıldı)"; -0329-01-01:0: başlıkta "(ANTIK-ISKENDER-1113-B)" iş kodu, ayrıca başlık İskender İmparatorluğu derken gövde "sahipsiz aralık" diyor ve 550/549 Kyros bilgisini veriyor; -0310-01-01:0: başlık "Büyük İskender İmparatorluğu →" gövde "sahipsiz aralık'dan" (çelişki)
+
+== tr_hatalari_e.md
+- olay OLAYLAR_ARKEOLOJI_ZINCIR:* (4_olay_134-136): "Kaynak geçiş bilgisi" metinlerinde iç not görünüyor: "KAYNAKLANMADI (... bu oturumda kaynak yok)" (-1209), "bu turda okunmadı" (0027), "okunmadı" (0263, 0400), "(künye t=0027)", "ayni kaynak" (0106), "(ayrı madde)", "(beyanlı boşluk)" (0009).
+- olay OLAYLAR_ARKEOLOJI_ZINCIR:-2024-01-01:0 ve -2003-01-01:0: kaynak geçiş bilgisi olayla ilgisiz (MÖ 2024'e "MÖ 16. yy bölünmesi"; Larsa'nın -2003 sonuna "Urnamma 1. yıl"). ZINCIR:0036 ve 0221 maddelerinde de Çengdu için 214-263 metni yazılı.
+- olay OLAYLAR_ARKEOLOJI_ZINCIR:*: ASCII Türkçe: "Imparatorlugu", "Ucuncu", "Kisim I", "Ust", "Deniz Ulkesi Hanedani", "Dogu Han".
+- olay OLAYLAR_ARKEOLOJI_D2_* ve LEVANT_ANADOLU: Türkçe karaktersiz metinler ("Gec", "yerlesme", "MO"); "Brifteki" iç not (D2_IRAN_ORTA_ASYA:-3199); "Period VII", "200 BCE-300 CE" İngilizce.
+- olay OLAYLAR_ARKEOLOJI_MISIR_NIL_SAHRA:-1069: "XXV. Hanedan tarihleri bu kaynakta YOK" iç not; -1811/-2050 "makale ..." (hangi makale belli değil).
+- olay OLAYLAR_T5_1000A: iç notlar kullanıcıya görünüyor: "atlas künyeye uyarak..." (1096, 1233), "künyesinin başlangıcından devralındı ... BULUNAMADI" (1199), "(bölge cümlesi)" (1225, 1231), "Emre kararıyla", "kural 5", "notta" (1231, 1256), "bizans maddesi 1120 der", "selcuklular maddesi", "alanya maddesi".
+- olay OLAYLAR_T5_1000A:1148-01-01:0: "(katılış yılı yılsız; hânedan başlangıcı)" anlamsız.
+- olay OLAYLAR_T5_1000B:1171-09-13:0 ve 1250-04-30:0: "künye", "Emre #23 metbû modeli", "fark bildirildi".
+- olay OLAYLAR_KURULUS_GERI_1021 (0945, 0972, 0745, 1085): "gün künye f'sinden", "kuyruk kronolojide", "kayıtta ayrı yazılmadı"; ORTACAG_ORTADOGU:0815/0820, 0870, 0929, 1076, 1102: "Atlasta ... yazılıdır", "künyesiz".
+- olay OLAYLAR_OK109:1918-10-30:0: "Sırp-Hırvat-Sloven Devleti" — 29 Ekim maddesinde "Sloven-Hırvat-Sırp Devleti".
+- olay OLAYLAR_OK109:1918-10-31:0: metinde ters eğik çizgili tırnak (\"pat çiçeği devrimi\") görünüyor olabilir.
+- olay OLAYLAR_OK109:1918-12-01:0: Podgorica Meclisi "26 Ekim" yazılı; bilinen tarih 26 Kasım 1918 (doğrulanmalı).
+- olay OLAYLAR_ORTACAG_IRAN_TURAN:1090-03-06:0: "Melikşah'ın Bâtınîler'le mücadeleyi devlet politikası..." cümlesi iki kez.
+- olay OLAYLAR_ORTACAG_IRAN_TURAN:1157-04-13:0: madde günü 13 Nisan; metin 14/24 Rebîülevvel = 26 Nisan veya 6 Mayıs diyor.

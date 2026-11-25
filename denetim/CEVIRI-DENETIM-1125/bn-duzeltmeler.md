@@ -344,3 +344,76 @@
 - olay | OLAYLAR_ARKEOLOJI_D3_AMERIKA_PASIFIK:-1624-01-01:0 | d: anlam yanlışı: 'San Jose Mogote Vadisi' değil; Vadi'deki köy ve şeflik merkezi
 - olay | OLAYLAR_ARKEOLOJI_D3_AMERIKA_PASIFIK:-3399-01-01:0 | b: 'Geç' 'প্রয়াত' (merhum) diye çevrilmiş
 - olay | OLAYLAR_ARKEOLOJI_ZINCIR:-0403-01-01:0 | d: 'ayın sonunda' (ay) 'yıl sonunda' diye çevrilmiş
+- olay | OLAYLAR_EK:1302-08-01:0 | b: Latin Türkçe kalıntı
+- olay | OLAYLAR_EK5:1688-06-22:0 | d: Macarca 'Jenővel' = Jenő (Ineu) kasabasıyla birlikte; 'Eugen ile' diye yanlış çevrilmiş
+- olay | OLAYLAR_EK5:1716-10-13:0 | d: 'abi-merkez' özel ad (Márquez) sanılmış; yer adları Latin kalmış
+- olay | OLAYLAR_2S_0919:1847-01-01:0 | d: Latin adlar
+- olay | OLAYLAR_EK:1302-08-01:0 | b: Latin harfli Türkçe ad çevrilmemiş
+- olay | OLAYLAR_EK5:1716-10-13:0 | d: Latin yer adı kalıntısı; 'abi-merkez' anlamsız aktarılmış (TR iç notu ayrıca tr_hatalari'nda)
+- olay | OLAYLAR_EK5:1688-06-22:0 | d: Macarca 'Jenővel' (Jenő kalesiyle birlikte) kişi adı Eugène sanılmış
+- olay | OLAYLAR_EK13:1861-05-21:0 | d: 'yeniden yerleşme' (hâkimiyet) 'iskân' diye çevrilmiş
+- olay | OLAYLAR_EK14:1568-01-01:0 | d: 'ustalık eserim' 'teknik iş' anlamında çevrilmiş
+- olay | OLAYLAR_EK14:1839-05-14:0 | d: Türkçe çoğul eki kalıntısı (আগালার)
+- olay | OLAYLAR_EK14:1504-01-01:0 | d: Bengalce sayı biçimi
+- olay | OLAYLAR_EK14:1451-06-01:0 | d: 'Edirne'de' 'Edirne Divanı' gibi çevrilmiş
+- olay | OLAYLAR_EK14:1425-01-01:0 | d: Kaynakta olmayan 'পঞ্চদশ নয়' eklenmiş, anlam bozuk
+- olay | OLAYLAR_EK14:1515-01-01:0 | d: 'göz' (gemi bölmesi) 'gaz/yard' diye çevrilmiş
+- olay | OLAYLAR_EK14:1502-06-01:0 | d: Bengalce sayı biçimi
+- olay | OLAYLAR_EK14:1599-06-01:0 | d: Bengalce sayı biçimi
+- olay | OLAYLAR_EK14:1775-06-01:0 | d: Ondalık ayırıcı Bengalcede nokta
+- olay | OLAYLAR_EK14:1833-06-01:0 | d: Ondalık ayırıcı Bengalcede nokta
+- olay | OLAYLAR_EK14:1554-06-01:0 | d: İngilizce kalıntı
+- olay | OLAYLAR_EK14:1830-12-01:0 | d: Ondalık ayırıcı Bengalcede nokta
+- olay | OLAYLAR_EK14:1864-07-01:0 | d: Ondalık ayırıcı Bengalcede nokta
+- olay | OLAYLAR_EK16:1308-01-01:0 | d: Virgül eksikliği anlamı bozuyor (İzmir kesimi ≠ Ayasuluk)
+- olay | OLAYLAR_EK16:1411-01-01:0 | d: Zamir belirsizliği: oğul Kara Yûsuf'un
+- olay | OLAYLAR_EK16:1905-06-07:0 | d: Bengalce sayı biçimi
+- olay | OLAYLAR_EK16:1516-01-23:0 | b: Hükümdar adı yerleşik biçim ve tutarlılık
+- olay | OLAYLAR_EK16:1516-01-23:0 | d: Türkçe ad (Şarlken) kalıntısı; yerleşik biçim Charles V
+- olay | OLAYLAR_EK16:1793-01-23:0 | d: Bengalce sayı biçimi
+- olay | OLAYLAR_EK16:1453-10-19:0 | d: 'কালে' Bengalcede 'zamanında' okunuyor; Calais = ক্যালে
+- olay | OLAYLAR_EK16:1335-05-01:0 | b: Latin harf kalıntısı; parantez Karniyola'ya ait
+- olay | OLAYLAR_EK16:1941-07-09:0 | d: Türkçe kalıntı ve iç not (arama özeti)
+- olay | OLAYLAR_EK16:1943-08-05:0 | d: 'çıkıntı' (askerî salient) 'yüksek arazi' diye çevrilmiş
+- olay | OLAYLAR_EK16:1941-07-28:0 | d: Bozuk cümle
+- olay | OLAYLAR_EK16:1945-01-28:0 | b: Latin harf kalıntısı
+- olay | OLAYLAR_EK16:1558-07-01:0 | b: Latin harf kalıntısı
+- olay | OLAYLAR_2S_0919:1847-01-01:0 | d: Türkçe kalıntı parantez ve Latin harfli adlar
+- olay | OLAYLAR_ARKEOLOJI_D2_AFRIKA_AMERIKA:-3184-01-01:0 | d: 'koçan' bozuk/yinelemeli karşılık
+- olay | OLAYLAR_ARKEOLOJI_D2_CIN_DOGU_ASYA:-13749-01-01:0 | d: 'অস্থায়ী স্থায়ী' kendi içinde çelişkili; TR geçici yerleşik = yarı yerleşik
+- olay | OLAYLAR_ARKEOLOJI_D2_CIN_DOGU_ASYA:-9649-01-01:0 | d: 'অস্থায়ী স্থায়ী' kendi içinde çelişkili
+- olay | OLAYLAR_ARKEOLOJI_D2_CIN_DOGU_ASYA:-1799-01-01:0 | d: Longshan-sonu/Erlitou-başı 'sonrası/öncesi' diye ters çevrilmiş
+- olay | OLAYLAR_ARKEOLOJI_D2_CIN_DOGU_ASYA:-2299-01-01:1 | d: Longshan-sonu/Erlitou-başı 'sonrası/öncesi' diye ters çevrilmiş
+- olay | OLAYLAR_ARKEOLOJI_D2_ITALYA_AVRUPA:-1549-01-01:0 | d: 'zirvesinde' tepe noktasında gibi okunuyor; en geniş döneminde
+- olay | OLAYLAR_ARKEOLOJI_D2_ITALYA_AVRUPA:-2199-01-01:0 | d: 'zirvesinde' tepe noktasında gibi okunuyor
+- olay | OLAYLAR_ARKEOLOJI_AFRIKA_IRAN:-8114-01-01:0 | d: 'en geç' yerine 'en az' (অন্তত) yazılmış
+- olay | OLAYLAR_ARKEOLOJI_HINT:-3199-01-01:0 | b: Erken = প্রারম্ভিক; প্রাচীন 'eski' demek
+- olay | OLAYLAR_ARKEOLOJI_HINT:-3199-01-01:0 | d: Erken = প্রারম্ভিক
+- olay | OLAYLAR_OK107:1515-09-19:0 | d: 'kazanmak' (yanına çekmek) 'fethetmek' gibi çevrilmiş
+- olay | OLAYLAR_OK109:1920-06-04:0 | d: bozuk anlatım (ağır toprak/insan kaybı birebir çeviri)
+- olay | OLAYLAR_T5_1000B:1171-09-13:0 | d: Türkçe 'künye' kalıntısı (TR iç not ayrıca raporlandı)
+- olay | OLAYLAR_T5_1000B:1250-04-30:0 | d: Türkçe 'künye' kalıntısı
+- olay | OLAYLAR_BK_ZINCIR_1024:1813-01-01:0 | d: Erkivan (Arkivan) Erivan olarak yanlış yazılmış
+- olay | OLAYLAR_KURULUS_GERI_1021:0745-01-01:0 | d: 'sahip beyanlı boşluk' 'sahibi ilan edilmiş' gibi okunuyor
+- olay | OLAYLAR_KURULUS_GERI_1021:0972-10-02:0 | d: Türkçe 'künye' kalıntısı ve alan adı 'f'
+- olay | OLAYLAR_KURULUS_GERI_1021:1085-05-25:0 | d: Türkçe 'kuyruk' kalıntısı harf çevirisiyle bırakılmış
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0683-08-27:0 | d: özel ad 'Müslim' 'Müslüman' gibi okunuyor
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0950-01-01:0 | b: 'pusuya düştü' = pusu/ambush; 'üste sıkışıp' yazılmış
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0950-01-01:0 | d: 'pusuya düştü' = ambush
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0958-03-25:0 | b: borcu kimin üstlendiği ters anlaşılıyor
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0958-03-25:0 | d: borcu kimin üstlendiği ters anlaşılıyor
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1076-08-05:0 | d: Türkçe 'künye' kalıntısı
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1135-01-01:0 | d: iyelik eki eksik, anlam bozuk
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:0943-04-06:0 | d: madde adı 'Sâmânîler' halk/hanedan gibi çevrilmiş
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1035-06-29:0 | d: 'TDV Gazneliler maddesi' 'TDV Gazneliler' (özne) gibi çevrilmiş
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1048-01-01:0 | d: bozuk dilbilgisi (hâl eki)
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1095-02-26:0 | b: kişi/yer adı öbür maddelerle tutarsız (বারকিয়ারুক, রায়)
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1095-02-26:0 | d: Bengal rakamı karışıklığı, tutarsız ad, gereksiz Latin parantez
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1096-10-21:0 | b: yazım hatası: ক্রুসেডার
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1096-10-21:0 | d: yazım hatası: ক্রুসেডার
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1104-12-21:0 | b: Melikşah Berkyaruk'un oğlu; çeviride Tapar'ın oğlu gibi okunuyor
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1104-12-21:0 | d: Melikşah Berkyaruk'un oğlu
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1128-01-01:1 | b: Atsız Kutbüddin Muhammed'in oğlu; Sencer'in oğlu gibi okunuyor
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1128-01-01:1 | d: Atsız Sencer'in oğlu değil
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1131-01-01:0 | b: Dâvud Mahmud'un oğlu; Aksungur'un oğlu gibi okunuyor
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1131-01-01:0 | d: Dâvud Mahmud'un oğlu
