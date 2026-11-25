@@ -1,0 +1,15 @@
+- arayuz "# Ocak # (imzalar ... şeyhlik şeyhlik tamamlandı)": "şeyhlik şeyhlik" ikilemesi bozuk/belirsiz Türkçe
+- arayuz "# [yalnız yıl teyitli; TDV «Karamanoğulları» ... ic_not_t]": kullanıcıya görünen iç not ("bkz. karaman künye ic_not_t", "ÇELİŞKİ-#")
+- arayuz "Ocak # (gün Kahire'den — bk. ic_not_t)": kullanıcıya görünen iç not (ic_not_t)
+- arayuz "# (kaynak YIL hassasiyetinde; ... `YYYY-#-#` beyandır, uydurma değil)": geliştirici notu görünüyor
+- arayuz "# Eylül # [gün teyitsiz — ÇELİŞKİ-#: ... OKUNMADI]", "# Temmuz # [ÇELİŞKİ-# BALKAN-HALEF ...]", "# Eylül # [yalnız ay teyitli; t #-#-# gün yer tutucusu ...]", "# Ekim # — meydan savaşı ... eski t #-#-# ay başı yer tutucuydu": uzun iç araştırma notları tarih alanında
+- arayuz "# (TDV yıl verir) — gün komşudan: Sivas (olaylar_ek# ...)" ve "# sefer mevsimi — gün komşudan: kronoloji_safevi.js ...": dosya adı görünüyor
+- arayuz "# — YIL hassasiyeti · TDV `malatya` ... (Emre notu ##)": iç not görünüyor
+- arayuz "MÖ # (ALT SINIR; donem-toplami ...)", "(ALT SINIR; yerlesim-suresi ...)": iç alan adları görünüyor
+- arayuz "Kaheti ↔ Dağıstan ... (yerlesimler_ek#.js beyanı)" ve "Sohum kuzeydoğusu ...": dosya adı görünüyor
+- olay OLAYLAR:1739-09-18:0, OLAYLAR_EK3:1688-09-06:0, OLAYLAR_EK3:1690-10-08:0: "abi-merkez zinciri" iç yöntem jargonu kullanıcı metninde
+- olay OLAYLAR:1739-09-18:0, OLAYLAR:1699-01-26:0, OLAYLAR_EK3:1690-09-27:0, OLAYLAR_EK:1717-08-18:0: "atlasta ... yazılıdır / beyanlı yaklaşıklık / dönem ucu doğrulanmadı" türü iç araştırma notları açıklamada
+- olay OLAYLAR:1699-01-26:0: Kostajnica/Jasenovac aynı metinde iki kez (ikinci kez "Kostayniçe/Jasenovaç") yineleniyor
+- olay OLAYLAR:1683-09-12:0: "Zaferin ardından kurulan Kutsal İttifak" — hangi zafer olduğu belirsiz (metin bozgunu anlatıyor)
+- olay OLAYLAR:1821-04-02:0: "elden çıkan yerleşimler" listesi 1821-03-06 maddesiyle birebir aynı (kontrol edilmeli)
+- olay OLAYLAR_EK:1328-01-01:0: "uç beyliği bölge Şehzade Murad'a verildi" bozuk cümle

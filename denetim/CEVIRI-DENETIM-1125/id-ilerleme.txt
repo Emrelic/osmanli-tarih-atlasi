@@ -1,0 +1,3 @@
+Tamamen okunan: 1_arayuz_001-009, 2_devlet_001-010, 3_bayrakli_001-007, 4_olay_001-005
+Okunmayan: 3_bayrakli_008-059 (sinir 15; 008-015 de okunmadi), 4_olay_006-173
+Bakilan: arayuz tum (9/9); devlet tum (10/10); bayrakli 7 paket; olay 5 paket (bir kismi bayrakli ile ayni kayitlar)

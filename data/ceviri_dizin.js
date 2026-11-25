@@ -697,15 +697,15 @@ window.CEVIRI_DIZIN = {
   "id": [
    [
     "ceviri_id_arayuz.js",
-    "c71b142b"
+    "95e396ed"
    ],
    [
     "ceviri_id_devlet.js",
-    "cb60f354"
+    "a375554c"
    ],
    [
     "ceviri_id_olay_01.js",
-    "9be338b8"
+    "a08b19a4"
    ],
    [
     "ceviri_id_olay_02.js",
@@ -713,11 +713,11 @@ window.CEVIRI_DIZIN = {
    ],
    [
     "ceviri_id_olay_03.js",
-    "a3b0f531"
+    "927a54b6"
    ],
    [
     "ceviri_id_olay_04.js",
-    "6b917e56"
+    "dc081421"
    ],
    [
     "ceviri_id_olay_05.js",

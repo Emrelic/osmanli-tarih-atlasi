@@ -1,0 +1,96 @@
+- arayuz | # (Sakız: #-# Haziran) | m: Türkçe yer adı kalıntısı (Sakız = Chios)
+- arayuz | # (Yayça'nın alınmasından sonra; süre 'kısa') | m: yerleşik yer adı Jajce
+- arayuz | # (Germiyan çeyizinden birkaç ay sonra) | m: çeyiz mehir (mas kawin) değil
+- arayuz | # Ağustos # (Magosa'nın teslimi) | m: yerleşik yer adı Famagusta
+- arayuz | # Ağustos # (Ateş: # Ağustos'ta Osmanlı müfrezesi çekildi) | m: Ateş yazar soyadı; 'api' diye çevrilmiş
+- arayuz | # Ocak # (imzalar # Ocak-# Mart arası şeyhlik şeyhlik tamamlandı) | m: ikileme anlamsız çevrilmiş
+- arayuz | # — önemsizleri ele | m: 'ele' = ele/süz, 'tangani' yanlış
+- arayuz | # tüzüğü, #'de yürürlüğe girdi | m: söz dizimi
+- arayuz | # ve üstü | m: 've üstü' = ke atas
+- arayuz | # yılı takvimde yoktur; milada (# Ocak MS #) gidildi | m: söz dizimi
+- arayuz | # Mart MÖ # | m: söz dizimi; diğer tarihlerle aynı biçim
+- arayuz | # (#) ilkbaharı | m: Endonezce söz dizimi
+- arayuz | # başları | m: söz dizimi
+- arayuz | # başları (#) | m: söz dizimi
+- arayuz | # başı | m: söz dizimi
+- arayuz | # sonları | m: söz dizimi
+- arayuz | # sonu | m: söz dizimi
+- arayuz | # sonu – # (# sonu – #) | m: söz dizimi
+- arayuz | # civarı | m: söz dizimi
+- arayuz | # dolayları | m: söz dizimi
+- arayuz | # dolayı | m: söz dizimi
+- arayuz | # dolayı (Bursa fethinden sonra) | m: söz dizimi
+- arayuz | # dolayı (Cebrî hânedanının kuruluşu XV. yüzyıl başına tarihlenir) | m: söz dizimi
+- arayuz | # dolayı (II. Murad'da başlayan süreç Fâtih'in cülûsuyla olgunlaştı) | m: söz dizimi
+- arayuz | # dolayı (ca #) | m: söz dizimi
+- arayuz | # dolayı (dönem başlangıcı) | m: söz dizimi
+- arayuz | # dolayı (farklı rivayetler vardır) | m: söz dizimi
+- arayuz | # dolayı (kesin gün/ay yok) | m: söz dizimi
+- arayuz | # dolayı (kuruluş kademeli bir süreçtir) | m: söz dizimi
+- arayuz | # dolayı (rivayete göre) | m: söz dizimi
+- arayuz | # (#-#) dolayı | m: söz dizimi
+- arayuz | #-# dolayı | m: söz dizimi
+- arayuz | #-# arası | m: söz dizimi
+- arayuz | #-# arası (TDV: Kandıra'dan sonra, Akça Koca'nın #'deki ölümünden önce) — tarih ÜST SINIR | m: söz dizimi
+- arayuz | #-# arası (en geç #) | m: söz dizimi
+- arayuz | #-# arası (Çelebi Mehmed dönemi), II. Murad döneminde kanunlaştı | m: söz dizimi
+- arayuz | #-# arası, en yoğunu # | m: söz dizimi
+- arayuz | #-# kışı | m: söz dizimi
+- arayuz | # kışı | m: söz dizimi
+- arayuz | # yazı | m: söz dizimi
+- arayuz | # sonbaharı | m: söz dizimi
+- arayuz | # yılı | m: söz dizimi
+- arayuz | # yılı içinde | m: söz dizimi
+- arayuz | # yıllarına doğru [tahmin; yalnız yıl; gün teyitsiz] | m: söz dizimi
+- arayuz | # öncesi, gün belirsiz | m: söz dizimi
+- arayuz | #'ya doğru (TDV yaklaşık yıl verir; gün/ay yok) | m: '#'ya doğru' = menjelang
+- arayuz | # Eylül # gecesi | m: söz dizimi
+- arayuz | #-# Kasım # gecesi | m: söz dizimi
+- arayuz | #-# Mayıs # gecesi | m: söz dizimi
+- arayuz | #/# Kasım # gecesi | m: söz dizimi
+- arayuz | # Ağustos # sabahı (# Ağustos «Muş işgalden kurtarılmıştır») | m: söz dizimi
+- arayuz | # Nisan # sonrası | m: söz dizimi
+- arayuz | 'i puansız) | m: Türkçe ek kalıntısı
+- arayuz | (kayıtta yüklenecek) | m: anlam bozuk
+- arayuz | Harekât okları (Harekât okları kutusu) | m: kutu adı arayüzdeki 'Panah operasi' ile tutarsız
+- arayuz | Mayıs # başı (berat; Dük VI. Heinrich'in ölümü Nisan #) — gün kaynakta yok | m: Endonezcede 'berat' = ağır; Osmanlı beratı açıklanmalı
+- arayuz | Ekim # (# günlük kuşatma ve baskının ardından) | m: baskın = serbuan, 'tekanan' (baskı) yanlış
+- arayuz | MS # civarı | m: söz dizimi
+- arayuz | MÖ # civarı | m: söz dizimi
+- arayuz | MÖ #-# arası | m: söz dizimi
+- arayuz | MÖ #. yy ortası | m: söz dizimi
+- arayuz | MÖ #–# arası (orta nokta MÖ #) | m: söz dizimi
+- arayuz | bu resmi nottan çıkar | m: 'resmi' = resim (belirtme hâli), 'resmî' sanılmış
+- arayuz | arşive gitti | m: bozuk anlatım
+- arayuz | km yakınındaki taşma örtüldü). | m: sayı 'km'den önce eklenir; parça sırası bozuk
+- arayuz | km'den kısa | m: sayı 'km'den önce eklenir; parça sırası bozuk
+- arayuz | Çağ bölmeli ölçek — | m: yanlış anlam (çağlara bölünmüş ölçek)
+- arayuz | şu oturumdan alınsın mı: | m: noktalama
+- arayuz | ’i süzgeçle gizli) | m: Türkçe ek kesmesi kalıntısı
+- arayuz | ’ten itibaren (açık uç) | m: Türkçe ek kesmesi kalıntısı, söz dizimi
+- arayuz | ’ten itibaren — bu hat # sınırından | m: Türkçe ek kesmesi kalıntısı, söz dizimi
+- arayuz | 🗣️ Nasıl bilirdiniz | m: 'nasıl bilirdiniz' = nasıl tanırdınız
+- arayuz | ⚠️ Siyasî katman kapalı — tarama şu an görünmüyor. | m: tarama = taralı dolgu (arsiran), scan değil
+- arayuz | 🗺 İsyan taraması (Eflak · Boğdan · Erdel) | m: tarama = taralı dolgu
+- arayuz | 📍 ② Yerleşim | m: uçuş ayarında 'yerleşim' = konumlandırma
+- arayuz | Yerleşim: olay mahalli ekranın ortasına mı gelsin, kenardan mı girsin. | m: uçuş ayarında 'yerleşim' = konumlandırma
+- arayuz | Yaklaşan — # gün içinde değişecek yer (soluk, kesikli) | m: yanlış anlam (yaklaşmakta olan değişim)
+- devlet | turkmen | m: boy adı Göklen
+- devlet | irlanda | m: bozuk anlatım: Gal beylikleri ve krallığı
+- devlet | savoya | m: TR sırası (önce kontluk, sonra dükalık)
+- devlet | lepenski-vir-trapez | m: 'trapez yapılı' = trapez planlı yapılar
+- devlet | cizre-emirligi | m: bey, beylerbeyi değil
+- devlet | sfaks-hammu-emirligi | m: gereksiz tekrar; Sefâkus = Safaqis
+- olay | OLAYLAR:1299-01:0 | b: Beylik, sultanlık değil
+- olay | OLAYLAR:1739-09-18:0 | d: Türkçe jargon/kalıntı (abi-merkez, Bosna Dubiçası)
+- olay | OLAYLAR_EK:1381-01-01:0 | b: çeyiz mehir (mas kawin) değil
+- olay | OLAYLAR_EK:1381-01-01:0 | d: çeyiz mehir (mas kawin) değil
+- olay | OLAYLAR_EK:1829-09-14:0 | d: Türkçe yer adları ve 'Utsmani' tutarsızlığı
+- olay | OLAYLAR_EK3:1683-01-01:0 | d: İstolni Belgrad = Székesfehérvár, Beograd değil (yanlış yer)
+- olay | OLAYLAR_EK3:1688-09-06:0 | d: Türkçe jargon kalıntısı (abi-merkez)
+- olay | OLAYLAR_EK3:1690-10-08:0 | d: Türkçe jargon kalıntısı (abi-merkez)
+- olay | OLAYLAR_EK3:1694-09-21:0 | b: Türkçe yer adı
+- olay | OLAYLAR_EK3:1694-09-21:0 | d: Türkçe yer adı
+- olay | OLAYLAR_EK3:1695-02-22:0 | b: Türkçe yer adı
+- olay | OLAYLAR_EK3:1695-02-22:0 | d: Türkçe yer adı
+- olay | OLAYLAR:1683-09-12:0 | d: yüklemsiz bozuk cümle, 'dalgası indirilen' anlatımı
