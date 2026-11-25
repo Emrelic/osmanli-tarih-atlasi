@@ -1,5 +1,7 @@
 # Mısır ek okuma: konu notu (25 Kasım 2026, KASA)
 
+**UYARI:** 1. partinin bütün kayıtları (9 kart, 2 kişi, 5 hükümdar) TDV sitesi 403 verdikten sonra uygulama içi tarayıcıyla okundu. Hepsi teyitsiz ve yayin_adayi:false yapıldı; Emre karar verene kadar yayın adayı değildir. Sonradan ikinci kaynak eklense de bu işaret kalır.
+
 Teslim: 9 kart, 2 kişi, 5 hükümdar. Tam 60-100 konuluk envanter yapılmadı (süre kartlara ayrıldı).
 Künyeler: `memluk`, `misir-kavalali` (ayrıca `misir-eyaleti`, `misir-sultanligi`, `misir-kralligi`, `turk-misir-sudani`).
 
