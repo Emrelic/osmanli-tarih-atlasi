@@ -1,0 +1,27 @@
+window.EKOKUMA_DEVISPANYA03 = [
+
+{ id:"ispanya-1502-vaftiz-ya-goc", devlet:"ispanya", tur:"sebep-sonuc",
+  baslik:"Gırnata'nın düşüşünden on yıl sonra: \"ya din değiştir ya git\" noktasına nasıl gelindi?",
+  olay:["1502-01-01|Kastilya'daki müslümanlara zorla vaftiz"],
+  kisa:"Fethin ardından gelen ilk başpiskopos ile on yıla varmadan sahneye hâkim olan siyaset aynı değildi. Dönüm noktasında kraliçenin günah çıkaran rahibi vardı.",
+  metin:"1492'de Gırnata alınınca Müslümanlar bu kez Hristiyan hükümdarların uyruğu oldu. Hernando de Talavera şehre başpiskopos atandı. Onun görev değişikliği kraliçe Isabel'in yanında boş bir yer bıraktı: kraliçenin yeni günah çıkaran rahibi, Fransisken Francisco Jiménez de Cisneros oldu. Cisneros 1495'te Toledo başpiskoposluğuna yükseldi.\n\n"+
+  "1499'da Gırnata'ya giden Cisneros, Müslümanların hızla din değiştirmesini hedefleyen bir siyaset başlattı. Gran Enciclopèdia Catalana'ya göre başlangıçta sonuç aldı, ancak işler kısa sürede karıştı ve aşırı sertliği Alpujarras dağlarında bir çete savaşının patlamasına katkıda bulundu. Tarihçi Feridun Bilgin, 1499, 1500 ve 1501 yıllarının isyanlarını baskıyla din değiştirtmeye verilen karşılık olarak anlatır. İsyanlar kanla bastırıldı ve Müslümanların yaşam koşulları daha da ağırlaştı.\n\n"+
+  "1502'de Cisneros, Kastilya Krallığı'ndaki Müslümanları Hristiyan olmak ile ülkeyi terk etmek arasında seçime zorlayan emri hükümdarlardan elde etti. Bilgin'e göre bir bölümü Kuzey Afrika'ya gitti, büyük çoğunluk ise kalıp dışarıdan Hristiyan görünmeyi seçti. Böylece \"Morisko\" denen yeni topluluk ortaya çıktı ve sorun yarım yüzyılı aşkın bir süre sonra yeni bir büyük isyana uzandı.\n\n"+
+  "Emir bütün İspanya için aynı anda geçerli olmadı. Karar Kastilya'ya ilişkindi; Bilgin, Valensiya ve Katalonya gibi bölgelerde zorlama sürecinin 1526'da başladığını, bu gecikmede Müslümanların yerel ekonomideki ve tarımdaki ağırlığının ve yönetimin temkinliliğinin payı olduğunu belirtir.\n\n"+
+  "Tarihçiler bugün ne diyor? Gran Enciclopèdia Catalana, Isabel'in Yahudileri 1492'de, Müdeccenleri 1502'de çıkarmasını Kastilya siyasetine ve ekonomisine zarar veren bir hoşgörüsüzlüğün göstergesi sayar. Cisneros ise aynı ansiklopedide üniversite kurucusu ve çok dilli Kitab-ı Mukaddes'in hazırlayıcısı olarak da yer alır. İki yüz aynı kişiye aittir; biri ötekini silmez.",
+  kaynak:"Gran Enciclopèdia Catalana, «Francisco Jiménez de Cisneros», https://www.enciclopedia.cat/gran-enciclopedia-catalana/francisco-jimenez-de-cisneros ; «Isabel I de Castella», https://www.enciclopedia.cat/gran-enciclopedia-catalana/isabel-i-de-castella ; Feridun Bilgin, Gaziantep University Journal of Social Sciences 12/4 (2013), s. 838-840, https://dergipark.org.tr/en/download/article-file/223232",
+  kesinlik:"kesin", teyit:"teyitli" },
+
+{ id:"ispanya-1568-alpujarras", devlet:"ispanya", tur:"sebep-sonuc",
+  baslik:"Alpujarras: bir dil ve kıyafet meselesi nasıl savaşa dönüştü?",
+  olay:["1568-12-24|Alpujarras İsyanı başladı"],
+  kisa:"Gırnata Moriskolarından yalnız inançlarını değil, konuştukları dili ve giydikleri elbiseyi de bırakmaları istendi. Sonrasında gelen savaşı bastırmak kolay olmadı.",
+  metin:"Müslümanların vaftize zorlanmasından yarım yüzyılı aşkın bir süre sonra krallık, Moriskoların hâlâ \"gerçek Hristiyan\" olmadığını düşünüyordu. 1526 ve 1567 fermanları asimilasyonun belli başlı adımlarıydı. Gran Enciclopèdia Catalana'ya göre 1568-1570 isyanı, Moriskoları dillerini, âdetlerini ve giyimlerini bırakmaya zorlama girişiminden doğdu.\n\n"+
+  "Madrid için mesele yalnız iç düzen değildi. O yıllarda Osmanlı gücü Akdeniz'de ciddi bir tehditti. İsyancılarla Türkler arasında bağ kurulması ihtimali saray ve kıyı bölgelerinde korku yarattı. Aynı dönemde Hollanda'da da ayaklanma büyüyordu; ansiklopedi 1568'i Felipe'nin dışarıdan gelen her etkiye kapanmaya yöneldiği dönüm yılı sayanların bulunduğunu aktarır.\n\n"+
+  "Bastırma görevi kralın üvey kardeşi Avusturyalı Juan'a verildi ve isyan güçlükle ezildi. Bilgin, savaşın iki yılı aşkın sürdüğünü, İspanya'nın kaynaklarını tükettiğini ve uluslararası bir sorun hâline geldiğini yazar. Başpiskopos Ribera da yıllar sonra, isyanın ancak Almanya ve İtalya'daki İspanyol kuvvetleri getirildikten sonra bastırılabildiğini hatırlatacaktı.\n\n"+
+  "Ardından bir nüfus kararı geldi: Gırnata Moriskoları kitle hâlinde ülkenin orta ve kuzey bölgelerine dağıtıldı. Dağıtılanların sayısı konusunda dikkatli olmak gerekir. Aynı araştırmacı Feridun Bilgin'in 2013'teki iki yazısından biri yaklaşık 80 bin, öteki Gırnata ve çevresi için yaklaşık 150 bin rakamını verir; iki yazı farkı açıklamaz. Dağıtma, Gırnata'daki yoğunluğu kırdı, ama Bilgin'e göre gidilen yerlerde eski Hristiyanların korkusunu artırdı. Kırk yıl kadar sonra tartışma, ülke içinde dağıtmaktan ülke dışına sürmeye vardı.\n\n"+
+  "Tarihçiler bugün ne diyor? Kıyafet ve dil yasağı yakın sebep olarak öne çıkar; arkasında onlarca yıllık zorlama ve karşılıklı güvensizlik vardır. Dış destek korkusu İspanyol kararlarını biçimlendirdi, fakat korkunun büyüklüğü ile gerçekte gelen yardımın büyüklüğü ayrı sorulardır.",
+  kaynak:"Gran Enciclopèdia Catalana, «Felip II de Castella», https://www.enciclopedia.cat/gran-enciclopedia-catalana/felip-ii-de-castella ; Feridun Bilgin, Gaziantep University JSS 12/4 (2013), s. 839-840 ; aynı yazar, DAAD 13/2 (2013), s. 41, 46, https://dergipark.org.tr/tr/download/article-file/52211",
+  kesinlik:"tartismali", teyit:"teyitli" }
+
+];
