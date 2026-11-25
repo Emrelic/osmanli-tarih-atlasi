@@ -1,0 +1,81 @@
+- arayuz | # Ocak # (imzalar # Ocak-# Mart arası şeyhlik şeyhlik tamamlandı): artikel hatası (il sceiccato -> lo sceiccato)
+- arayuz | # [hicrî # ∩ # ilk günü, # Mart #; yalnız yıl teyitli, gün teyitsiz]: anlaşılmaz söz dizimi
+- arayuz | # yıllarına doğru [tahmin; yalnız yıl; gün teyitsiz]: yanlış sözcük sırası (sayı yanlış yerde)
+- arayuz | (toprak değişince harita devletin sınırlarına ZIPLASIN mı — sıçramalıdır, adaptif genişlik bunun yumuşak hâlidir): 'sıçramalıdır' = sıçramalı/kesik, 'sıçramalı' zorunluluk değil
+- arayuz | Cevabını / kararını bekleyen notlar (son sözü Claude söyledi): hitap 'sen'; 'sua' başkasını gösteriyor
+- arayuz | ⏳ Kararını bekleyen: hitap 'sen'
+- arayuz | Haritada neyin görüneceğini buradan seçersiniz. Kutucuklarla açılıp kapatılır, birden çoğu seçilebilir.: hitap tutarsızlığı (voi/tu) ve uyum
+- arayuz | Parmağınızla sürükleyerek kaydırın, iki parmağınızla yakınlaşın.: ters hareket: parmakları yaklaştırmak küçültür; hitap tu
+- arayuz | Kısa bir turla ekrandaki her parçayı tanıtalım. İleri düğmesine dokunarak ilerleyin; istediğiniz an Geç diyebilirsiniz.: hitap tutarsızlığı (voi/tu)
+- arayuz | Haritayı bir kademe yakınlaştırır ya da uzaklaştırır (fare tekerleğinin düğme hâli).: anlam yanlış: tekerleğin düğme hâli
+- arayuz | Harekât okları (Harekât okları kutusu): kutu etiketiyle uyumsuz ad
+- arayuz | Kuzey Afrika Ocakları: İtalyancada yerleşik ad (reggenze); 'Odjak' yabancı kalıntı
+- arayuz | Mayıs # başı [yalnız ay teyitli; gün teyitsiz]: diğer tarih dizeleriyle büyük harf tutarlılığı
+- arayuz | 📍 ② Yerleşim: uçuş ayarı bölümü: konumlandırma
+- arayuz | ⚠️ Siyasî katman kapalı — tarama şu an görünmüyor.: 'tarama' = harita taraması (tratteggio), scansione değil
+- arayuz | 🗺 İsyan taraması (Eflak · Boğdan · Erdel): 'tarama' = tarama deseni (tratteggio)
+- arayuz | Sıradaki olaya geçilince harita ne yapsın: başlıkta yalın dilek kipi doğal değil
+- arayuz | Siyasî katmanların ALTINDA ne görünsün: başlıkta yalın dilek kipi doğal değil
+- arayuz | MÖ # (yaklaşık; MÖ #-# arası): aralık yanlış kurulmuş
+- arayuz | MÖ # (# Ekim; Livius): Livius = Livius.org; Tito Livio değil
+- arayuz | MÖ # (# veya # Mayıs; Livius # Mayıs): Livius.org; Tito Livio değil
+- arayuz | MÖ # (Livius: #/#): Livius.org; Tito Livio değil
+- arayuz | MÖ # (Livius: ~#; Herodotos geleneği): Livius.org; Tito Livio değil
+- arayuz | MÖ # (Livius; alternatif MÖ #): Livius.org; Tito Livio değil
+- arayuz | MÖ # (Nisan-Mayıs #; Livius saltanatı #'ten sayar): Livius.org; Tito Livio değil
+- arayuz | MÖ # (Ocak sonu; Livius # Ocak — tek gün kaynağı): Livius.org; Tito Livio değil
+- arayuz | MÖ # (Temmuz; Livius c. # Temmuz — tek gün kaynağı): Livius.org; Tito Livio değil
+- arayuz | MÖ # (Tevrat geleneği; Livius 'yaklaşık #-#'): Livius.org; Tito Livio değil
+- arayuz | MÖ # (yaklaşık; Livius: Gyges #'te öldü): Livius.org; Tito Livio değil
+- arayuz | MÖ # (#-#; #. Suriye Savaşı’nın ilk evresi): sıra sayısı işareti ve yerleşik ad
+- arayuz | MÖ # (Sennacherib yıl #, #. sefer): sıra sayısı işareti eksik
+- arayuz | MÖ # (Sennakerib'in #. seferi): sıra sayısı işareti eksik
+- arayuz | MS # civarı (#. yüzyıl ortası): sıra sayısı işareti eksik
+- arayuz | MÖ # civarı (MÖ #. yy sonu): sıra sayısı işareti eksik
+- arayuz | MÖ #. yy ortası: sıra sayısı işareti eksik
+- devlet | cezayir-ocagi: İtalyanca yerleşik ad: reggenza
+- devlet | tunus-ocagi: yerleşik ad
+- devlet | trablusgarp-ocagi: yerleşik ad
+- devlet | kert: hanedan adı (Kertler) İtalyanca biçim
+- devlet | pervane: Türkçe -oğlu kalıntısı
+- devlet | inancogullari: Türkçe -oğulları kalıntısı, bozuk parantez
+- devlet | sahibata: Türkçe -oğulları kalıntısı
+- devlet | taceddin: Türkçe -oğulları kalıntısı
+- devlet | teke: Türkçe -oğulları kalıntısı
+- devlet | haciemir: Türkçe -oğulları kalıntısı
+- devlet | ammarogullari: Türkçe -oğulları kalıntısı
+- devlet | beni-ammar-trablussam: Türkçe -oğulları kalıntısı
+- devlet | inalogullari: Türkçe -oğulları kalıntısı
+- devlet | dilmacogullari: Türkçe -oğulları kalıntısı
+- devlet | cubukogullari: Türkçe -oğulları kalıntısı
+- devlet | sutayogullari: Türkçe kalıntısı
+- devlet | afrasiyabiler: Türkçe -oğulları kalıntısı
+- devlet | sistan-mihribani: yanlış hanedan (Mihranidi başka); İngilizce çoğul 'Maliks'
+- devlet | varsova-dukaligi: tarihî yerleşik ad: Ducato di Varsavia
+- devlet | svazi: Swazi halk adı; yanlış artikel
+- devlet | nyamvezi: şeflik = chefferie; 'capitanato' kaptanlık
+- devlet | tahiti: şeflik = chefferie
+- devlet | hawaii-seflikleri: şeflik = chefferie
+- devlet | tairona: şeflik = chefferie
+- devlet | rarotonga: şeflik = chefferie
+- devlet | taino-seflikleri: şeflik = chefferie
+- devlet | bicapur: hanedan adı, yer değil
+- devlet | ahmednagar: hanedan adı, yer değil
+- devlet | golkonda: hanedan adı, yer değil
+- devlet | bidar: hanedan adı, yer değil
+- devlet | berar: hanedan adı, yer değil
+- devlet | lahic-sultanligi: hanedan adı, yer değil
+- devlet | ahom: Ahom halk adı, yer değil
+- devlet | kalikut: devlet adı; 'zamorin' hükümdar unvanı
+- devlet | mekke-serifligi: İtalyanca yerleşik biçim
+- devlet | harizmsah: Hârizmşah = hanedan; 'Corasmi' halk
+- devlet | somali-cumhuriyeti: 'merkez çöktü' = merkezî yönetim
+- devlet | seylan-sinhala: İtalyanca: singalesi
+- devlet | medine-devleti: İtalyanca yerleşik ad: Maometto
+- devlet | gojoseon: cinsiyet uyumu (Joseon eril kullanım)
+- devlet | habbari: İngilizce sıfat kalıntısı
+- devlet | multan-emirligi: İngilizce sıfat kalıntısı
+- devlet | mogadisu-erken: baş ad 'Birlik' olmalı, 'dönem' değil
+- devlet | hunan-wuping-rejimi: edat/artikel hatası
+- devlet | hirvat-dukalik: bozuk ifade
+- devlet | guanche-politileri: 'politie' İtalyancada anlaşılmaz; guanci
