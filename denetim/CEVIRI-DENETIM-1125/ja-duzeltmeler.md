@@ -1875,3 +1875,6 @@
 - olay | OLAYLAR_ANTIK_YAKIN_DOGU:0244-01-01:0 | b: '重い和平' anlamsız
 - olay | OLAYLAR_ANTIK_YAKIN_DOGU:0363-01-01:0 | d: 'yarım yüzyıllık 298 kazanımları' yanlış ifade edilmiş
 - olay | OLAYLAR_ANTIK_YAKIN_DOGU:0484-01-01:0 | d: 'boyun eğdi' → 'ことに従った' bozuk anlatım
+- arayuz | # Temmuz # (ÇELİŞKİ-#: TDV «Timişvar» # Şaban # = # Temmuz #'de garnizonun teslim olduğunu yazar; TDV «Kara Ahmed Paşa» #/# Temmuz der; Losonczy'nin kaleden çıkışı # Temmuz (olaylar_ek# Macar kaynağı) — iki gün de TDV içinde geçer, bağımsız ikinci akademik kaynak okunmadı, gün korundu) | m: yıl yanlış yerde
+- arayuz | # Temmuz # (ÇELİŞKİ-#: TDV «Timişvar» # Şaban # = # Temmuz #'de garnizonun teslim olduğunu yazar; TDV «Kara Ahmed Paşa» #/# Temmuz der; Losonczy'nin kaleden çıkışı # Temmuz (olaylar_ek# Macar kaynağı) — iki gün de TDV içinde geçer, bağımsız ikinci akademik kaynak okunmadı, gün korundu) | m: duzeltme_002'deki sürümün yerine geçer: 9'dan çok sayı olduğundan indeksli ve düz '#' karıştırılamaz, hepsi sıralı
+- olay | OLAYLAR_EK22:1923-07-24:0 | d: ajanin uzunluk yuzunden yazamadigi duzeltme
