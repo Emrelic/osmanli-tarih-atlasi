@@ -16,4 +16,11 @@ Düzeltme dosyaları: duzeltme_a_001 - 008.jsonl
 Tamamen okunan: 4_olay_037-066 (30/30 paket; aralık tamam)
 
 == ilerleme_c.txt
-Okunan paketler: 4_olay_067-089 (tamamı)
+Okunan paketler: 4_olay_067-101 (tamamı; aralık bitti)
+Olay kaydı: 35 paketin tamamı okundu.
+
+== ilerleme_d.txt
+Okunan paketler: 4_olay_102-130 (tamamı)
+
+== ilerleme_e.txt
+Tam okunan: 4_olay_138 - 4_olay_159

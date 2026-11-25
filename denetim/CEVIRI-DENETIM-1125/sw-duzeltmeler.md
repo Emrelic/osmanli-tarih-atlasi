@@ -551,3 +551,334 @@
 - olay | OLAYLAR_ORTACAG_IRAN_TURAN:1116-05-16:0 | d: cümle dağılmış, kimin kardeşi belli değil
 - olay | OLAYLAR_ORTACAG_IRAN_TURAN:1128-01-01:0 | d: 'ileri harekât' 'gösteri yürüyüşü' (maandamano) olmuş
 - olay | OLAYLAR_ORTACAG_IRAN_TURAN:1157-04-13:0 | d: uyum hatası (aliloijenga)
+- olay | OLAYLAR_EK2:1557-10-16:0 | d: yazım hatası ve kopuk cümle
+- olay | OLAYLAR_EK2:1462-06-01:0 | b: edilgen kullanılmış (kazığa oturtulan değil, oturtan)
+- olay | OLAYLAR_EK2:1390-01-15:0 | d: 'despotluk' krallık diye çevrilmiş
+- olay | OLAYLAR_EK2:1557-10-16:0 | d: 'klasik dönem' 'sıradan dönem' (kawaida) diye çevrilmiş
+- olay | OLAYLAR_EK2:1390-01-15:0 | d: despotluk 'krallık' olmuş; vasallık ilişkisi anlaşılmıyor
+- olay | OLAYLAR_EK2:1462-06-01:0 | b: edilgen yapı 'kazığa oturtulan voyvoda' anlamı veriyor
+- olay | OLAYLAR_ARKEOLOJI_MEZOPOTAMYA:-3199-01-01:0 | d: 'proto çivi yazısı' yanlış sözcükle (kikuni)
+- olay | OLAYLAR_ARKEOLOJI_MEZOPOTAMYA:-3349-01-01:0 | d: 'proto çivi yazısı' yanlış sözcükle (kikuni)
+- olay | OLAYLAR_ARKEOLOJI_MEZOPOTAMYA:-3799-01-01:0 | b: bozuk fiil çekimi
+- olay | OLAYLAR_ARKEOLOJI_MEZOPOTAMYA:-5899-01-01:0 | b: bozuk fiil
+- olay | OLAYLAR_ARKEOLOJI_AMERIKA:-0099-01-01:0 | d: 'anıtsal' yanlışlıkla 'müze' (makumbusho)
+- olay | OLAYLAR_ARKEOLOJI_AMERIKA:-0799-01-01:0 | d: 'anıt' yanlışlıkla 'müze'
+- olay | OLAYLAR_ARKEOLOJI_AMERIKA:-0899-01-01:0 | d: 'anıtsal' yanlışlıkla 'müze'
+- olay | OLAYLAR_ARKEOLOJI_AMERIKA:-0999-01-01:0 | d: 'anıtsal' yanlışlıkla 'müze'
+- olay | OLAYLAR_ARKEOLOJI_AMERIKA:-1649-01-01:0 | d: 'anıtsal' yanlışlıkla 'müze'; bozuk anlatım
+- olay | OLAYLAR_ARKEOLOJI_AMERIKA:-2301-01-01:0 | d: 'anıtsal' yanlışlıkla 'müze'
+- olay | OLAYLAR_ARKEOLOJI_AMERIKA:-2999-01-01:0 | d: 'anıtsal' yanlışlıkla 'müze'
+- olay | OLAYLAR_ARKEOLOJI_AVRUPA:-4790-01-01:0 | d: 'anıtsal' yanlışlıkla 'müze'
+- olay | OLAYLAR_ARKEOLOJI_AVRUPA:-2491-01-01:0 | d: 'Anakara' (ada adı) 'kıta' (bara) diye
+- olay | OLAYLAR_ARKEOLOJI_AVRUPA:-2901-01-01:0 | d: 'Anakara' (ada adı) 'kıta' (bara) diye
+- olay | OLAYLAR_OK109:1918-10-31:0 | b: 'başbakan oldu' 'idi' diye
+- olay | OLAYLAR_OK109:1918-10-31:0 | d: AĞIR: 'Kont' 'hesap' (Hesabu) diye; fazladan ters bölü
+- olay | OLAYLAR_OK109:1918-11-03:0 | d: çevrilmemiş Türkçe alıntı
+- olay | OLAYLAR_OK109:1920-06-04:0 | d: yanlış yer adı: Baç (Bač kasabası) bölge adı Bačka yapılmış
+- olay | OLAYLAR_OK109:1919-06-28:0 | d: 'bağladı' yanlışlıkla 'kapattı' (kilifunga)
+- olay | OLAYLAR_OK109:1919-11-27:0 | d: anlaşılmaz kelime kelime çeviri ('devrin karşılığı')
+- olay | OLAYLAR_H7_ASAMA:1529-05-10:0 | d: 'ikiye bölünmüş' 'iki kez' diye yanlış
+- olay | OLAYLAR_H7_ASAMA:1578-01-02:0 | d: 'zehirlenmesiyle' yanlış fiil
+- olay | OLAYLAR_H7_ASAMA:1625-11-13:0 | d: ngeli uyumu (moto miwili)
+- olay | OLAYLAR_T5_1000A:1064-01-01:0 | b: anlamsız sözcük (usha = şahlık)
+- olay | OLAYLAR_T5_1000A:1064-01-01:0 | d: anlamsız sözcük (usha = şahlık)
+- olay | OLAYLAR_T5_1000A:1208-07-16:0 | b: 'kattı' yanlışlıkla 'kapattı'
+- olay | OLAYLAR_T5_1000A:1228-01-01:0 | d: 'katıldı' yanlışlıkla 'kapatıldı'
+- olay | OLAYLAR_T5_1000B:1261-06-09:0 | b: 'bağlandı' yanlışlıkla 'kapatıldı'
+- olay | OLAYLAR_T5_1000B:1261-06-09:0 | d: 'bağladı' yanlışlıkla 'kapattı'
+- olay | OLAYLAR_T5_1000B:1284-01-01:0 | d: 'bağlı oldu' yanlışlıkla 'kapatıldı'
+- olay | OLAYLAR_BK_ZINCIR_1024:1042-01-01:0 | d: 'bağlıydı' yanlışlıkla 'kapatıldı'
+- olay | OLAYLAR_BK_ZINCIR_1024:1804-01-15:0 | b: Türkçe 'Hanlık' kalıntısı
+- olay | OLAYLAR_BK_ZINCIR_1024:1813-01-01:0 | b: Türkçe 'Hanlık' kalıntısı
+- olay | OLAYLAR_BK_ZINCIR_1024:1813-01-01:0 | d: Türkçe 'hanlık' kalıntısı
+- olay | OLAYLAR_BK_ZINCIR_1024:1360-01-01:0 | b: 'prenslik' yanlışlıkla 'kraliyet yönetimi'
+- olay | OLAYLAR_BK_ZINCIR_1024:1360-01-01:0 | d: 'prenslik' yanlışlıkla 'kraliyet yönetimi'
+- olay | OLAYLAR_ONCE1281_GERIYE:1238-06-01:0 | b: tarikat 'Agizo' (emir) diye yanlış
+- olay | OLAYLAR_KURULUS_GERI_1021:0969-01-01:0 | d: ngeli uyumu
+- olay | OLAYLAR_KURULUS_GERI_1021:0945-12-19:0 | b: bozuk fiil (upita)
+- olay | OLAYLAR_KURULUS_GERI_1021:0661-07-29:0 | b: bozuk fiil (ipita)
+- olay | OLAYLAR_KURULUS_GERI_1021:0630-01-11:0 | b: bozuk fiil (upita)
+- olay | OLAYLAR_KURULUS_GERI_1021:1085-05-25:0 | b: bozuk fiil (upita)
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0892-01-01:0 | b: bozuk fiil (kirudi)
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0892-01-01:0 | d: bozuk fiil (kirudi)
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0886-12-01:0 | b: bozuk fiil (utambuliwa)
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0886-12-01:0 | d: bozuk fiil (utambuliwa)
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0904-12-13:0 | b: bozuk fiil (ubaki)
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0904-12-13:0 | d: bozuk fiil (ubaki)
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0711-07-26:0 | b: bozuk anlatım
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0935-01-01:0 | b: 'amca' (baba tarafı) 'dayı' (mjomba) diye
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0935-01-01:0 | d: 'amca' (baba tarafı) 'dayı' (mjomba) diye
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1065-04-20:0 | b: 'amca' 'dayı' (mjomba) diye
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1065-04-20:0 | d: 'amca' 'dayı' (mjomba) diye
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1002-01-01:0 | b: eksik 'huko'; bozuk cümle
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1002-01-01:0 | d: eksik 'huko'; bozuk cümle
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1030-01-01:0 | b: ngeli uyumu
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1030-01-01:0 | d: ngeli uyumu
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1095-02-26:0 | b: 'ikiye ayrıldı' 'iki kez' diye yanlış
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1095-02-26:0 | d: 'ikiye ayrıldı' 'iki kez' diye yanlış
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1099-06-07:0 | d: askerî yürüyüş 'gezinti' (matembezi) diye
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1118-01-01:0 | b: AĞIR: 'kont' 'hesap/sayı' (hesabu) diye
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1118-01-01:0 | d: AĞIR: 'kont' 'hesabu' diye
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1119-01-01:0 | b: AĞIR: 'kontluk' 'hesabu' diye
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1119-01-01:0 | d: AĞIR: 'kontluk' 'hesabu' diye
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1131-09-14:0 | b: AĞIR: 'kont' 'hesabu' diye; 'tahta geçti' bozuk
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1131-09-14:0 | d: AĞIR: 'kont' 'hesabu' diye
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1152-01-01:0 | b: AĞIR: 'kont' 'hesabu' diye
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1152-01-01:0 | d: AĞIR: 'kont' 'hesabu' diye
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1164-01-01:0 | b: AĞIR: 'kontluk' 'hesabu' diye
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1164-01-01:0 | d: AĞIR: 'kontluk' 'hesabu' diye
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1172-01-01:0 | b: İngilizce kalıntı (regent)
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1172-01-01:0 | d: İngilizce kalıntı (regent)
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1187-01-01:0 | b: Türkçe 'prinkepslik' kalıntısı
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1187-01-01:0 | d: Türkçe 'prinkepslik' kalıntısı
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1188-01-01:0 | b: bozuk fiil (ibaki)
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1176-06-25:0 | b: bozuk fiil (ibaki)
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1194-01-01:0 | b: bozuk fiil (ibaki)
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1194-01-01:0 | d: bozuk fiil (ibaki)
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1172-01-01:0 | d: askerî yürüyüş 'gösteri yürüyüşü' (maandamano) olmuş
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1176-09-17:0 | d: anlamsız cümle (dönüm noktası / Türkleşme)
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1185-12-16:0 | d: uydurma bileşik 'maoghuz-bey'
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1212-01-01:0 | b: bozuk cümle
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1240-01-01:0 | d: 'manevî güç' (moral) 'ahlaki güç' olmuş
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1243-07-01:0 | d: yazım hatası (waliporo)
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1266-01-01:0 | d: AĞIR: 'Moğollar'a öldürttü' 'Moğollara sattı' olmuş
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1277-05-14:0 | d: yanlış fiil (kamkaza = sıktı)
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:1049-06-05:0 | b: 'yöneldi' 'ayaklandı/kalktı' olmuş
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:1049-06-05:0 | d: 'yöneldi' 'ayaklandı/kalktı' olmuş
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:1110-01-24:0 | b: askerî yürüyüş 'gezindi' diye
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:1132-01-01:0 | b: yazım hatası
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:1132-01-01:0 | d: yazım hatası
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:1139-08-28:0 | b: 'karşısında zafer' 'önünde' diye; ushindi dhidi ya olmalı
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:1139-08-28:0 | d: 'karşısında zafer' 'önünde' diye; ushindi dhidi ya olmalı
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:1255-02-10:0 | d: 'sınırlı kaldı' 'bağlı/kapalı kaldı' diye
+- olay | OLAYLAR_ORTACAG_BIZANS_BALKAN:0582-01-01:1 | b: AĞIR: 'bağlandı' 'kapatıldı' diye
+- olay | OLAYLAR_ORTACAG_BIZANS_BALKAN:1018-01-01:1 | d: uyum/yazım hatası (aliyempanda)
+- olay | OLAYLAR_ORTACAG_BIZANS_BALKAN:1040-01-01:0 | d: anlaşılmaz cümle
+- olay | OLAYLAR_ORTACAG_BIZANS_BALKAN:1082-01-01:0 | d: uyum hatası (anamoishi)
+- olay | OLAYLAR_ORTACAG_BIZANS_BALKAN:1091-01-01:0 | b: AĞIR: 'bağlandı' 'kapatıldı' diye
+- olay | OLAYLAR_ORTACAG_BIZANS_BALKAN:1091-01-01:0 | d: AĞIR: 'bağlandı' 'kapatıldı' diye
+- olay | OLAYLAR_ORTACAG_BIZANS_BALKAN:1185-01-01:0 | b: AĞIR: 'yağmaladı' 'iyileştirdi' (kuiponya) olmuş
+- olay | OLAYLAR_ORTACAG_BIZANS_BALKAN:1204-05-16:0 | b: AĞIR: 'kont' 'hesap' (Hesabu) diye
+- olay | OLAYLAR_ORTACAG_BIZANS_BALKAN:1204-05-16:0 | d: AĞIR: 'kont' 'hesap' diye; 'paylaşıldı' 'ortak kullanıldı' diye
+- olay | OLAYLAR_ORTACAG_BIZANS_BALKAN:1210-06-20:0 | b: AĞIR: 'bağlandı' 'hapsedildi' diye okunuyor
+- olay | OLAYLAR_ORTACAG_BIZANS_BALKAN:1261-03-13:0 | d: uyum hatası
+- olay | OLAYLAR_ORTACAG_BIZANS_BALKAN:1267-05-24:0 | b: AĞIR: 'bağladı' 'kapattı' diye
+- olay | OLAYLAR_ORTACAG_BATI_AVRUPA:0496-12-25:0 | d: uyum hatası
+- olay | OLAYLAR_ORTACAG_BATI_AVRUPA:0843-08-10:0 | d: sınır markı 'alama' (işaret) olmuş
+- olay | OLAYLAR_ORTACAG_BATI_AVRUPA:0923-06-15:0 | d: AĞIR: 'kont' 'hesap' diye
+- olay | OLAYLAR_ORTACAG_BATI_AVRUPA:1032-01-01:1 | d: 'piskoposluk' (dayosisi) 'piskoposlar' olmuş
+- olay | OLAYLAR_ORTACAG_BATI_AVRUPA:1032-01-01:2 | d: 'piskoposluk' (dayosisi) 'piskoposlar' olmuş
+- olay | OLAYLAR_ORTACAG_BATI_AVRUPA:1032-01-01:3 | d: 'piskoposluk' (dayosisi) 'piskoposlar' olmuş
+- olay | OLAYLAR_ORTACAG_BATI_AVRUPA:1069-01-01:0 | d: askerî yürüyüş 'alitembea' (gezindi) diye
+- olay | OLAYLAR_ORTACAG_BATI_AVRUPA:1152-01-01:0 | d: AĞIR: 'kont' 'hesap' diye
+- olay | OLAYLAR_ORTACAG_BATI_AVRUPA:1173-01-01:0 | b: AĞIR: 'kont' 'hesap' diye
+- olay | OLAYLAR_ORTACAG_BATI_AVRUPA:1173-01-01:0 | d: AĞIR: 'kont' 'hesap' diye
+- olay | OLAYLAR_ORTACAG_BATI_AVRUPA:1201-01-01:0 | d: AĞIR: 'kontluk' 'hesap' diye
+- olay | OLAYLAR_ORTACAG_BATI_AVRUPA:1204-01-01:1 | d: AĞIR: 'bağladı' 'kapattı' diye
+- olay | OLAYLAR_ORTACAG_BATI_AVRUPA:1214-01-01:0 | d: AĞIR: 'kont' 'hesap' diye
+- olay | OLAYLAR_ORTACAG_BATI_AVRUPA:1218-01-01:0 | d: AĞIR: 'kontluk' 'hesap' diye
+- olay | OLAYLAR_ORTACAG_BATI_AVRUPA:1229-01-01:0 | d: AĞIR: 'kontluk' 'hesap' diye
+- olay | OLAYLAR_ORTACAG_BATI_AVRUPA:1271-01-01:0 | b: AĞIR: 'kontluk' 'hesap' diye
+- olay | OLAYLAR_ORTACAG_BATI_AVRUPA:1271-01-01:0 | d: AĞIR: 'kontlar' 'hesap' diye
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:0697-01-01:0 | d: AĞIR: 'bağlı/bağlanır' 'kapatılmış/kapatılır' diye
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:0812-01-01:0 | b: AĞIR: 'kont' 'hesap' diye
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:0812-01-01:0 | d: AĞIR: 'kont/kontluk' 'hesap' diye
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:0882-01-01:0 | d: askerî yürüyüş 'alitembea' (gezindi) diye
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:0988-08-01:0 | d: AĞIR: 'bağladı' 'kapattı' diye
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1030-01-01:0 | b: AĞIR: 'kontluk' 'hesap' diye
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1030-01-01:0 | d: AĞIR: 'kontluk' 'hesap' diye
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1042-01-01:0 | b: AĞIR: 'Demirkol' 'demir dibek' (Kinu), 'kont' 'hesap' diye
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1042-01-01:0 | d: AĞIR: 'Demirkol' 'dibek', 'kont' 'hesap' diye; yazım (Askari mamluki)
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1072-01-01:0 | b: AĞIR: 'kont' 'hesap' diye
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1072-01-01:0 | d: AĞIR: 'kont' 'hesap' diye
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1082-01-01:0 | d: uyum hatası
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1102-01-01:0 | d: uyum hatası
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1112-01-01:0 | b: AĞIR: 'kontluk' 'hesap' diye
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1112-01-01:0 | d: AĞIR: 'kontluk' 'hesap' diye
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1115-01-01:0 | b: AĞIR: 'kontes' 'hesap' diye
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1115-01-01:0 | d: AĞIR: 'kontluk' 'hesap' diye
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1115-01-01:1 | d: AĞIR: 'kontes' 'hesap' diye
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1115-07-24:0 | b: AĞIR: 'kontes' 'hesap' diye
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1128-08-22:0 | d: AĞIR: 'kontluk' 'hesap' diye
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1166-05-07:0 | d: 'öğleden sonra' 'öğle' (adhuhuri) olmuş
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1189-01-01:0 | d: AĞIR: 'kont' 'hesap' diye
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1190-01-18:0 | b: AĞIR: 'kont' 'hesap' diye
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1201-01-01:0 | d: AĞIR: tarikat 'agizo' (emir/talimat) diye çevrilmiş
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1202-01-01:0 | b: AĞIR: tarikat 'agizo' (emir) diye
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1202-01-01:0 | d: AĞIR: tarikat 'agizo' (emir) diye
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1205-01-01:0 | b: AĞIR: 'kont' 'hesap' diye
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1205-01-01:0 | d: AĞIR: 'kont' 'hesap' diye
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1228-01-01:0 | b: AĞIR: tarikat 'agizo' (emir) diye
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1228-01-01:0 | d: AĞIR: tarikat 'agizo' (emir) diye
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1235-04-19:0 | d: AĞIR: 'kont' 'hesap' diye
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1237-01-01:1 | b: AĞIR: 'agizo'; yazım hatası (ljiunga)
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1237-01-01:1 | d: AĞIR: tarikat 'agizo'; 'iki yıl önce' 'iliyopita' (bugünden) olmuş
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1239-01-01:0 | b: yazım/uyum hatası
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1239-01-01:0 | d: uyum hatası
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1248-01-01:0 | d: bozuk sözcük
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1255-01-01:0 | b: AĞIR: tarikat 'agizo' (emir) diye
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1255-01-01:0 | d: AĞIR: tarikat 'agizo' (emir) diye
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1263-01-01:0 | b: AĞIR: 'kont' 'hesap' diye
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1263-01-01:0 | d: AĞIR: 'kont' 'hesap' diye
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1266-02-26:0 | d: AĞIR: 'kont' 'hesap' diye
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1268-01-01:0 | b: AĞIR: 'kont' 'hesap' diye
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1268-01-01:0 | d: AĞIR: 'kont' 'hesap' diye
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1064-01-01:0 | d: uyum hatası
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1083-01-01:0 | d: askerî yürüyüş 'alitembea' (gezindi) diye
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1085-04-29:0 | d: 'Malazgirt'e katılmış' 'Malazgirt'e bağlanmış' gibi
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1097-01-01:0 | d: askerî yürüyüş 'alitembea' diye
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1100-07-01:0 | d: AĞIR: 'kont' 'hesap' diye
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1104-05-07:0 | b: AĞIR: 'kont' 'hesap' diye
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1104-05-07:0 | d: AĞIR: 'kont' 'hesap' diye
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1110-01-01:0 | b: uyum hatası
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1110-01-01:0 | d: askerî yürüyüş 'alitembea' diye; uyum hatası
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1119-01-01:0 | d: askerî yürüyüş 'aliyetembea' diye
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1142-01-01:0 | d: askerî yürüyüş 'alitembea' diye; uyum hatası
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1184-01-01:0 | d: yazım hatası
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1204-08-29:0 | b: yazım hatası
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1234-01-01:0 | d: askerî yürüyüş 'gösteri yürüyüşü' diye
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:0906-01-01:0 | d: yazım hatası
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1222-02-15:0 | d: yazım hatası; 'haraca bağladı' 'kodi ile kapattı' olmuş
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1240-10-14:0 | d: askerî yürüyüş 'kutembea' diye
+- olay | OLAYLAR_ORTACAG_BOZKIR:1240-01-01:0 | d: AĞIR: dağılmış cümle; yazım hatası
+- olay | OLAYLAR_ORTACAG_CIN:0641-01-01:0 | d: bozuk cümle yapısı
+- olay | OLAYLAR_ORTACAG_CIN:0881-01-16:0 | d: yazım hatası
+- olay | OLAYLAR_ORTACAG_CIN:0904-02-10:0 | d: bozuk fiil yapısı
+- olay | OLAYLAR_ORTACAG_CIN:1100-02-23:0 | d: uyum hatası
+- olay | OLAYLAR_ORTACAG_CIN:1126-03-04:0 | b: uyum hatası
+- olay | OLAYLAR_ORTACAG_CIN:1270-08-18:0 | d: 'duvar çekmek' 'çizmek' (kuchora) olmuş
+- olay | OLAYLAR_ORTACAG_DOGU_GUNEYDOGU_ASYA:1177-01-01:0 | b: AĞIR: 'yağmaladı' 'iyileştirdi' (kuiponya) olmuş
+- olay | OLAYLAR_ORTACAG_DOGU_GUNEYDOGU_ASYA:1177-01-01:0 | d: AĞIR: 'yağmaladı' 'iyileştirdi' (kuiponya) olmuş
+- olay | OLAYLAR_ORTACAG_DOGU_GUNEYDOGU_ASYA:1269-10-29:0 | d: AĞIR: 'bağlandı' 'kapatıldı' diye
+- olay | OLAYLAR_ORTACAG_DOGU_GUNEYDOGU_ASYA:1281-01-01:0 | d: uyum hatası
+- olay | OLAYLAR_ORTACAG_YER_SONRASI:1076-01-01:0 | b: yazım hatası; 'aforoz' eksik
+- olay | OLAYLAR_ANTIK_MISIR_NUBYA:-0028-01-01:0 | d: uyum hatası
+- olay | OLAYLAR_ANTIK_MISIR_NUBYA:-0199-01-01:0 | d: uyum hatası
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-1960-01-01:0 | d: 'kendine bağlayacak' anlamı kaybolmuş; 'itaifunga' yanlış
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-2001-01-01:0 | d: 'bağladı' fiilinin kelime kelime yanlış çevirisi
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-2299-01-01:1 | b: anlam yanlış: Sümer şehir devletleri Akad'a bağlandı
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-2299-01-01:0 | d: 'bağlanma' yanlış fiille çevrilmiş
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-2031-01-01:0 | d: 'devleti zorladı' yanlış; cümle nesnesiz kalmış
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-2099-01-01:0 | d: bozuk tekrar; çivi yazısı 'kikuni' yanlış
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0065-01-01:0 | b: 'bağlandı' = 'kapatıldı' gibi yanlış çevrilmiş
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0089-01-01:0 | d: yasalar için kişi uyumu hatalı
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0104-01-01:0 | d: kayınpeder belirsiz; 'karşılığında' yanlış (kurudisha = geri vermek)
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0147-01-01:0 | d: yanlış fiil
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0148-01-01:0 | d: uydurma sözcük 'kuliinishwa' ve yanlış fiil
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0188-01-01:0 | d: 'dengeye bağlandı' yanlış çevrilmiş
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0191-01-01:0 | b: yanlış fiil
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0217-01-01:0 | d: askerî cephe 'mbele' diye yanlış
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0223-01-01:0 | d: Helen Birliği, 'Helenistik' değil
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0274-01-01:1 | d: bozuk anlatım, anlam kaybı
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0275-01-01:0 | b: 'oldu' (becoming) 'idi' diye çevrilmiş
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0277-01-01:0 | d: Türkçe alıntı çevrilmeden kalmış
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0319-01-01:0 | b: 'oldu' yanlış zaman/anlam
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0325-01-01:0 | b: 'bağlandı' yanlış fiil
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0334-01-01:0 | d: tek kent 'miji' (çoğul) olmuş
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0335-01-01:0 | d: bozuk cümle yapısı ve uyum hatası
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0337-01-01:2 | b: 'bağlandı' yanlış fiil
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0337-01-01:2 | d: yanlış fiil
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0358-01-01:0 | b: 'oldu' yanlış anlam
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0388-01-01:0 | b: uyum hatası; 'yağmaladı' = kupora
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0404-01-01:0 | b: 'oldu' yanlış anlam
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0437-01-01:0 | b: 'oldu' yanlış anlam
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0473-01-01:0 | b: uyum hatası
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0479-01-01:0 | d: ters anlam: 'kazanıldı' yerine 'yenildi'
+- olay | OLAYLAR_ANTIK_AKDENIZ:0014-08-19:0 | b: 'oldu' yanlış anlam
+- olay | OLAYLAR_ANTIK_AKDENIZ:0260-01-01:0 | d: 'ayrılığı kaldıramadı' 'tahammül edemedi' diye yanlış çevrilmiş
+- olay | OLAYLAR_ANTIK_AKDENIZ:0272-01-01:0 | d: yanlış fiil
+- olay | OLAYLAR_ANTIK_AKDENIZ:0480-01-01:0 | d: imla
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0708-11-20:0 | d: 'üzerine yürüdü' kelime kelime yanlış
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0992-01-01:0 | d: 'yürüdü' yanlış
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0714-01-01:0 | d: Türkçe sıra sayısı ve İ kalıntısı
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0748-01-15:0 | b: uyum hatası
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0774-01-01:0 | d: Türkçe sıra sayısı biçimi
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0809-01-01:0 | d: Türkçe İ kalıntısı
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0813-01-01:1 | d: Türkçe İ kalıntısı
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0868-01-01:0 | b: Türkçe sıra sayısı biçimi
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0868-01-01:0 | d: Türkçe sıra sayısı biçimi
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0893-01-01:0 | b: Türkçe sıra sayısı biçimi
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0893-01-01:0 | d: Türkçe sıra sayısı biçimi
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0969-10-28:0 | d: bozuk cümle (iki özne)
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0983-06-15:0 | b: 'vergiye bağladı' yanlış
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0983-06-15:0 | d: 'vergiye bağladı' yanlış
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1015-01-01:0 | b: Türkçe sıra sayısı biçimi
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1015-01-01:0 | d: 'kont' 'hesabu' (sayım) diye yanlış; sıra sayısı biçimi
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1018-12-20:0 | d: edilgen yerine etken: 'Kannevc fethetti' olmuş
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1028-01-01:0 | b: eksik ilgeç
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1028-01-01:0 | d: Türkçe sıra sayısı biçimi
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1030-01-01:0 | b: 'kontluk/kont' 'hesabu' (sayım) diye yanlış
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1038-01-01:0 | d: Türkçe sıra sayısı biçimi; imparator = maliki
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1051-05-15:0 | b: Türkçe yazım kalıntısı, bozuk fiil
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1051-05-15:0 | d: Türkçe yazım kalıntısı, bozuk fiil
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1061-01-01:0 | b: 'kont' 'hesabu' diye yanlış
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1081-01-01:0 | d: Türkçe yer adı kalıntısı
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1128-08-22:0 | d: 'investitür' yatırım diye, 'kont' hesabu diye yanlış
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1171-01-01:0 | b: 'kont' 'hesabu' diye yanlış
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1171-01-01:0 | d: 'kont' 'hesabu' diye yanlış
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1203-01-01:1 | b: çevrilmemiş Türkçe ad ('oğulları')
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1203-01-01:1 | d: çevrilmemiş Türkçe ad ('oğulları')
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1228-01-01:0 | d: 'tarikat' 'agizo' (talimat) diye yanlış
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1240-12-01:0 | d: bozuk anlatım
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1291-01-01:0 | d: Türkçe yer ve kişi adı biçimi
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1146-04-28:0 | d: Türkçe yer adları (Vehrân, Fas)
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1146-04-28:0 | b: Türkçe yer adı (Fas = Fez)
+- olay | OLAYLAR_2S1019:1475-06-06:0 | d: Çerkezler 'Çeçen' diye çevrilmiş (ağır yanlış)
+- olay | OLAYLAR_2S1019:1475-06-06:0 | b: yanlış fiil
+- olay | OLAYLAR_2S1019:1523-06-06:0 | d: yanlış fiil
+- olay | OLAYLAR_2S1019:1375-01-01:0 | d: 'kont' 'hesabu', 'dükler' uydurma 'madukwa' (dükkân) olmuş
+- olay | OLAYLAR_2S1019:1526-12-05:0 | d: 'dükalıklar' anlamsız 'madukwa' olmuş
+- olay | OLAYLAR_ALM1115B:1358-12-01:0 | d: 'kont' 'hesabu' diye yanlış
+- olay | OLAYLAR_2S1019:1687-09-30:0 | d: uyum hatası
+- olay | OLAYLAR_2S1019:1794-06-15:0 | b: yanlış fiil
+- olay | OLAYLAR_2S1019:1794-06-15:0 | d: özne yanlış (anayasayı meclis kabul etti)
+- olay | OLAYLAR_2S1019:1796-10-01:0 | d: yanlış fiil
+- olay | OLAYLAR_2S1019:1903-03-15:0 | d: bozuk anlatım
+- olay | OLAYLAR_2S1019:1918-09-21:0 | b: askerî cephe 'mbele' diye yanlış
+- olay | OLAYLAR_2S1019:1918-09-21:0 | d: askerî cephe 'mbele' diye yanlış
+- olay | OLAYLAR_ALM1115B:1937-04-01:0 | d: yanlış fiil
+- olay | OLAYLAR_ALM1115B:1218-01-01:0 | d: yanlış fiil
+- olay | OLAYLAR_ALM1115B:1646-01-01:0 | d: 'başpiskoposluk' 'askofu mkuu' (kişi); fiil yapısı yanlış
+- olay | OLAYLAR_ALM1115B:1810-01-01:0 | b: İngilizce kalıntı
+- olay | OLAYLAR_ALM1115B:1810-01-01:0 | d: İngilizce kalıntı
+- olay | OLAYLAR_ALM1115B:1813-01-01:1 | d: İngilizce kalıntı
+- olay | OLAYLAR_ALM1115B:1122-09-23:0 | b: 'investitür' yatırım (finans) diye yanlış
+- olay | OLAYLAR_ALM1115B:1122-09-23:0 | d: 'investitür' yatırım (finans) diye yanlış
+- olay | OLAYLAR_LAB19_2S_P1:-0188-01-01:0 | b: 'oldu' yanlış anlam
+- olay | OLAYLAR_LAB19_2S_P2:1200-05-13:0 | b: 'şeriflik' 'ushariki' (ortaklık) diye yanlış
+- olay | OLAYLAR_LAB19_2S_P6:1037-01-01:0 | b: Fas şehri (Fez) 'Moroko' ülkesi diye çevrilmiş
+- olay | OLAYLAR_LAB19_2S_P6:1037-01-01:0 | d: Fas şehri (Fez) 'Moroko' diye çevrilmiş
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0960-03-03:0 | b: Fas şehri (Fez) 'Moroko' diye çevrilmiş
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0960-03-03:0 | d: Fas şehri (Fez) 'Moroko' diye çevrilmiş
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1248-04-26:1 | b: Türkçe yer adı kalıntısı
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1248-04-26:1 | d: Türkçe yer adı kalıntısı
+- olay | OLAYLAR_DUNYA_AVRUPA_MO:-0668-01-01:0 | b: 'Pheidon yönetiminde' Sparta'ya bağlanmış
+- olay | OLAYLAR_KI117:1686-06-17:0 | d: 'garnizon' 'ngome' (kale) diye yanlış
+- olay | OLAYLAR_KI117:1689-09-11:0 | d: 'uzandı' 'arttı' diye yanlış
+- olay | OLAYLAR_AVMAC_A_1029:1363-01-26:0 | d: 'kontes' 'hesabu' (sayım) diye yanlış
+- olay | OLAYLAR_AVMAC_A_1029:1379-01-01:0 | d: 'kont' 'hesabu' diye yanlış
+- olay | OLAYLAR_AVMAC_A_1029:1500-04-12:0 | b: 'kont' 'hesabu' diye yanlış
+- olay | OLAYLAR_AVMAC_A_1029:1500-04-12:0 | d: 'kont' 'hesabu' diye yanlış
+- olay | OLAYLAR_AVMAC_B_1029:1526-10-23:0 | d: yanlış fiil
+- olay | OLAYLAR_AVMAC_B_1029:1555-01-01:0 | d: yanlış fiil
+- olay | OLAYLAR_AVMAC_B_1029:1867-06-08:0 | d: yanlış fiil, bozuk söz dizimi
+- olay | OLAYLAR_AVMAC_C_1029:1918-11-16:0 | d: 'oldu' 'idi' diye yanlış
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1481-12-11:0 | d: 'kont' 'hesabu' diye yanlış
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1481-12-11:2 | d: 'kont' 'hesabu' diye yanlış
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1349-07-16:0 | d: imla/uyum
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1388-09-28:0 | b: 'kont' 'hesabu' diye yanlış
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1388-09-28:0 | d: 'kont' 'hesabu' diye yanlış
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1305-01-01:0 | b: 'kont' 'hesabu' diye yanlış
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1305-01-01:0 | d: anlamsız sözcük 'madaka' (dükler)
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1312-01-01:0 | d: 'kont' 'hesabu' diye yanlış
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1552-01-01:0 | d: 'kont' 'hesabu' diye yanlış
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1589-08-01:0 | d: 1 Ağustos'ta henüz ölmemişti; 'öldürülmüş' yanlış
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1643-05-14:0 | b: anlamsız sözcük 'ureja' (naiplik)
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1802-10-09:0 | b: uyum hatası
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1740-02-05:0 | b: uyum hatası
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1740-02-05:0 | d: uyum hatası
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1739-10-17:0 | d: yanlış fiil
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1506-11-11:0 | d: yanlış fiil
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1128-01-01:2 | b: 'abi merkez' 'kardeş (dada) merkez' diye yanlış
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1128-01-01:3 | d: 'abi merkez' yanlış
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1128-01-01:4 | d: 'abi merkez' yanlış

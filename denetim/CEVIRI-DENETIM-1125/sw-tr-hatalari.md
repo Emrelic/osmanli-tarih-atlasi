@@ -57,3 +57,24 @@
 - olay OLAYLAR_EK20:1768-05-15:0: "(TDV Korsika; gün teyitsiz)" iç not
 - olay OLAYLAR_SENKRON_0930:1436-01-01:0: atlas iç notu ("Atlas ... beyanlı yaklaşıklık"); "(yaklaşık)" başlıklar
 - olay OLAYLAR_EK22:1923-07-24:0: TBMM onayı metinde "23 Ağustos 1923", tabloda "2 Ağustos 1923" — çelişki; ayrıca iç notlar ("madde kanıtı yok", "özetlerinde geçmiyor", "TDV'nin madde aralıkları da böyledir")
+
+== tr_hatalari_c.md
+- olay OLAYLAR_2S_0918:1776-02-14:0: başlık Fiume'yi Hırvatistan'a, açıklama Macaristan'a (Zagreb Konseyi aracılığıyla) veriliyor diyor
+- olay OLAYLAR_2S_0918:1889-01-01:0: "Bu olayla Kerene İtalya idaresine geçti" (Keren? yazım kontrolü)
+- olay OLAYLAR_2S0920:1942-01-01:0: kullanıcıya görünen "(bkz. ic_not)" (çeviride de "taz. ic_not" duruyor)
+- olay OLAYLAR_2S0920:1941-05-05:0: "Atlas bu günü ... sınırı olarak kullanır" iç not
+- olay OLAYLAR_SENUSI_0919:1691-01-01:0 / 1716-10-18:0 / 1688-01-01:0 / 1717-01-01:0: kullanıcıya görünen iç not ("eski kayıt", "beyanlı boşluk", "boyanır", "yıl tabanı", petek)
+- olay OLAYLAR_SERHAT:1428-01-01:0 ve OLAYLAR_T5_*: kaynak adı slug olarak ("TDV nis", "alanya maddesi", "bizans maddesi", "selcuklular maddesi", "TDV tuleytula")
+- olay OLAYLAR_P0049:1724-05-06:0: "zincir Hoy'dan devralındı", "beyanlı yaklaşıklık" iç not
+- olay OLAYLAR_ARKEOLOJI_* (D2/D3, MEZOPOTAMYA, LEVANT, ZINCIR, GECIS): diakritiksiz Türkçe ("Gec Preklasik yukselis", "Israil Krallığı", "sehir devleti"), "(kaynak)", "(ufuk dışı)", "bu oturumda KAYNAKTAN okunmadı", "3. dalga okuma notu", "Brifteki 'MÖ ~3100'", "KAYNAKLANMADI (bu oturumda kaynak yok)", "bu turda okunmadı", "künye t uzatıldı"
+- olay OLAYLAR_ARKEOLOJI_ZINCIR:-0329-01-01:0: başlıkta iç kod "(ANTIK-ISKENDER-1113-B)"; başlık İskender İmparatorluğu'na, açıklama "sahipsiz aralık"a geçiş diyor
+- olay OLAYLAR_ARKEOLOJI_ZINCIR:-0310-01-01:0: başlık İskender İmparatorluğu → Selevkos, açıklama sahipsiz aralık → Selevkos
+- olay OLAYLAR_ARKEOLOJI_ZINCIR:-0677/-0709 ve birçok ZINCIR kaydı: "sahipsiz aralık'dan ... Krallığı'ya" ek hataları, şablon makine metni; bazı kayıtlarda kaynak cümlesi olayla ilgisiz (-1099 Susa, -2003/-2024 Uruk-Ur, -2023)
+- olay OLAYLAR_ARKEOLOJI_ZINCIR:0221-01-01:0 / 0036: Chengdu kaynak cümlesi iki kayıtta aynı, dönemle uyumsuz
+- olay OLAYLAR_ARKEOLOJI_ZINCIR:-2294.. -2323 vb.: "Girsu (Lagaş devletinin merkezi)" gibi kayıtlar; GECIS kayıtlarında başlıkta "sahip dönemi sona erer"
+- olay OLAYLAR_OK109:1918-10-31:0: metinde kaçışlı tırnak (\"pat çiçeği devrimi\" ters bölüyle görünüyor)
+- olay OLAYLAR_OK109:1918-10-31:0 vb.: "Haritada ... belirir" tarzı harita notları (1918-10-28 "Haritada Çekoslovakya 11 Kasım'da belirir")
+- olay OLAYLAR_T5_1000A/B: iç not ("Emre kararı", "Emre #23 metbû modeli", "kural 5 sınırı", "bölge cümlesi", "künye günü kaynak değildir", "fark bildirildi", "künyeye uyarak")
+- olay OLAYLAR_KURULUS_GERI_1021:* : iç not ("beyanlı boşluk/yaklaşıklık", "kuyruk kronolojide", "gün künye f'sinden", "komşudan alındı")
+- olay OLAYLAR_ORTACAG_ORTADOGU:0929-02-14:0 / 1076-08-05:0 / 1102-05-22:0 / 0820-06-17:0 / 0870-08-29:0: "Atlasta ... yazılıdır", "BEYANLI YAKLAŞIKLIK", "künyesiz" iç not
+- olay OLAYLAR_ORTACAG_ORTADOGU:0637/0680-0905 ve sonrası birçok kayıt: açıklama başlıkla birebir aynı
