@@ -42,11 +42,12 @@ window.EKOKUMA_DEVISPANYA04 = [
   baslik:"Las Casas: yerlilerden yararlanan bir sömürgeci nasıl onların savunucusu oldu?",
   olay:["1550-08-15|Valladolid Tartışması"],
   kisa:"Adalarda kendisine tahsis edilen yerlilerin emeğinden yararlanıyordu. 1514'te bundan vazgeçti ve ömrünün yarım yüzyılı aşkın kalanını bu düzenle kavgaya ayırdı.",
-  metin:"Bartolomé de Las Casas 1474'te Sevilla'da doğdu. Santo Domingo ve Küba'da hem misyoner hem de encomendero olarak yaşadı; yani kendisine tahsis edilen yerlilerin emeğinden yararlanma hakkı vardı. 1514'te bu hakkı bıraktı, ertesi yıl yerlilerin savunuculuğuna başladı. 1522'de Dominiken tarikatına girdi ve silaha dayanmayan bir Hristiyanlaştırma ile barışçı yerleşme tasarıları geliştirdi.\n\n"+
+  metin:"Sevillalı Bartolomé de Las Casas, Santo Domingo ve Küba'da hem misyoner hem de encomendero olarak yaşadı; yani kendisine tahsis edilen yerlilerin emeğinden yararlanma hakkı vardı. 1514'te bu hakkı bıraktı, ertesi yıl yerlilerin savunuculuğuna başladı. 1522'de Dominiken tarikatına girdi ve silaha dayanmayan bir Hristiyanlaştırma ile barışçı yerleşme tasarıları geliştirdi.\n\n"+
   "Mücadelesini saraya taşıdı. 1540-1544 arasında İber yarımadasındayken, encomienda düzenini kaldırmayı amaçlayan 1542 tarihli Yeni Kanunlar için bastırdı. Chiapas piskoposu olunca sömürgecilerin kötü davranışlarıyla ve kanunların uygulanmamasıyla çatıştı. Meksika'da yaydığı, günah çıkaran rahiplere yönelik kurallar büyük gürültü kopardı. 1547-1551 arasında yeniden saray çevresinde mücadele etti; Juan Ginés de Sepúlveda ile ünlü tartışmaları bu döneme düşer.\n\n"+
   "Savı keskinleşti: yerli kültürlere saygı gösterilmeliydi; imparatorun, Hristiyanlaştırma gerekçesiyle onları yok etme hakkı yoktu. Yerlilerin fatihlere köle gibi bağlanmasını onaylamayı reddetti. Kısa Yerli Kıyımı Anlatısı diye bilinen eseri 1552'de basıldı, Avrupa dillerine çevrilip geniş yankı uyandırdı. İspanya'yı karanlık renklerle çizen \"Kara Efsane\"nin kökeninin bir bölümü bu kitaba bağlanır. Hindistan Tarihi adlı büyük eseri ise ancak 1875'te yayımlandı. Las Casas 1566'da Madrid'de öldü.\n\n"+
   "Tarihçiler bugün ne diyor? Gran Enciclopèdia Catalana onun çizgisinde bir dönüşüm görür: önce reform isteyen Las Casas zamanla, devlet siyasetinin dayandığı fetihçi varsayımları temelsiz bırakan daha köktenci tezlere ulaştı. Kitabının sonradan İspanya karşıtlarının elinde kullanılması ile kitabın anlattığı meseleler ayrı ayrı değerlendirilmelidir.",
   kaynak:"Gran Enciclopèdia Catalana, «Bartolomé de Las Casas», https://www.enciclopedia.cat/gran-enciclopedia-catalana/bartolome-de-las-casas",
-  kesinlik:"kesin", teyit:"teyitli" }
+  kesinlik:"kesin", teyit:"teyitli",
+  ic_not:"GEC doğum tarihini 11 Kasım 1474 verir; başka literatürle karşılaştırılmadığı için metne yazılmadı." }
 
 ];
