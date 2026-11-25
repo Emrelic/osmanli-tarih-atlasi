@@ -182,7 +182,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
    "konu-askeri",
    "dogu-500-1281"
   ],
-  "d": "Li Yuan 617 sonundan beri Chang'an'ı Sui adına (Yang You) yönetiyordu; 618-06-18'de Sui imparatoru feragat edip Li Yuan Tang'ı ilan etti. Zincirde devir günü olarak bu resmî tarih alındı (617-12-12 işgal günü ayrı maddede). ‖ Nanking (Nanjing) yerleşiminin sahibi Sui Hanedani iken Tang oldu. Ayrıntı ve kaynak aşağıdadır.",
+  "d": "Li Yuan 617 sonundan beri Chang'an'ı Sui adına (Yang You) yönetiyordu; 618-06-18'de Sui imparatoru feragat edip Li Yuan Tang'ı ilan etti. Zincirde devir günü olarak bu resmî tarih alındı (617-12-12 işgal günü ayrı maddede). ‖ Nanking (Nanjing) yerleşiminin sahibi Sui Hanedanı iken Tang oldu. Ayrıntı ve kaynak aşağıdadır.",
   "kaynak": "Liu Xu vd., Jiu Tang shu (945), juan 1 «Gaozu ji»: «甲子，高祖即皇帝位於太極殿 … 改隋義寧二年為唐武德元年» — https://zh.wikisource.org/wiki/舊唐書/卷1 | gün: 甲子 = 618-06-18 ‖ Jiu Tang shu, juan 1 «甲子，高祖即皇帝位於太極殿» (618-06-18; cin1 sui diliminin bitişi) · BEYAN: 618-624 arası Jiangnan'daki rakip rejimler (Du Fuwei, Fu Gongshi vb.) ve 624-902 arası Tang valilikleri için şehir adıyla (Danyang/Shengzhou/Jinling) devir kaynağı OKUNMADI; Tang hanedan egemenliği nominal olarak yazıldı (BEYANLI YAKLAŞIKLIK; Yang Wu künye f=0902-01-01'e kadar). Bitiş: Xin Wudai shi, juan 61 «Wu shi jia» (zh.wikisource.org/wiki/新五代史/卷61): 「昇州刺史馮弘鐸來附」 (Yang Xingmi'ye bağlanış, yıl verilmiyor; Wu künyesi 902).",
   "sinir_id": []
  },
@@ -391,7 +391,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
    "konu-askeri",
    "dogu-500-1281"
   ],
-  "d": "Fanyang’da ayaklanan An Lushan’ın ordusu Tang’ın Doğu Başkenti Luoyang’a girdi, Tang’ın yerel yetkililerini öldürdü; An Lushan bölgeyi eline geçirip yeni rejimini (Yan) kurmak üzere Luoyang’ı kendine merkez yaptı. (Luoyang sahibi Tang Hanedani → Yan (An Lushan, 大燕))",
+  "d": "Fanyang’da ayaklanan An Lushan’ın ordusu Tang’ın Doğu Başkenti Luoyang’a girdi, Tang’ın yerel yetkililerini öldürdü; An Lushan bölgeyi eline geçirip yeni rejimini (Yan) kurmak üzere Luoyang’ı kendine merkez yaptı. (Luoyang sahibi Tang Hanedanı → Yan (An Lushan, 大燕))",
   "kaynak": "Liu Xu vd., Jiu Tang shu, juan 9 «Xuanzong ji xia» (zh.wikisource.org/wiki/舊唐書/卷9; açıldı, okundu): «丁酉，祿山陷東京，殺留守李憕、中丞盧奕、判官蔣清。»",
   "gun": "755 (Tianbao 14), 12. ay, ganzhi 丁酉 (Jülyen 756-01-18)",
   "kesinlik": "gun",
@@ -405,7 +405,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
    "rastrakuta",
    "badami-calukya"
   ],
-  "b": "Rastrakuta Hanedani egemenliğine geçti — Banavasi",
+  "b": "Rastrakuta Hanedanı egemenliğine geçti — Banavasi",
   "tur": "toprak-kazanc",
   "onem": 2,
   "dunya": 1,
@@ -417,7 +417,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
    "konu-siyasi",
    "dogu-kuyruk-1281-2000"
   ],
-  "d": "Banavasi yerleşiminin sahibi Badami (Erken) Calukya iken Rastrakuta Hanedani oldu. Tarih on yıl hassasiyetindedir.",
+  "d": "Banavasi yerleşiminin sahibi Badami (Erken) Calukya iken Rastrakuta Hanedanı oldu. Tarih on yıl hassasiyetindedir.",
   "kaynak": "R. C. Majumdar (ed.), The History and Culture of the Indian People, IV: The Age of Imperial Kanauj (Bhavan, Bombay 1955; archive.org ageofimperialkan04bhar; açıldı, okundu): «The period of Rashtrakuta ascendancy in the Deccan from about A.D. 753 to 975»; «Dantidurga had defeated Kirtivarman, but had not extinguished his power. The Chalukya emperor retired to Karnatak»; «Krishna bestowed upon him the governorship of Banavasi 12000» | BEYANLI YAKLAŞIKLIK: Banavasi’nin (Karnataka) fiilî geçişi Dantidurga (c. 753) sonrası Krishna I döneminde; yıl onyıl hassasiyetinde.",
   "kesinlik": "onyil",
   "sinir_id": [],
@@ -442,7 +442,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
    "konu-askeri",
    "dogu-500-1281"
   ],
-  "d": "Shi Siming 759’da büyük Yan hükümdarlığını (Büyük Yan; Fanyang = Yanjing) ilan edip Bian ve Luoyang’a saldırdı; Luoyang’ı alarak Tang’ın Li Guangbi ordusuyla karşı karşıya geldi. (Luoyang sahibi Tang Hanedani → Yan (An Lushan, 大燕))",
+  "d": "Shi Siming 759’da büyük Yan hükümdarlığını (Büyük Yan; Fanyang = Yanjing) ilan edip Bian ve Luoyang’a saldırdı; Luoyang’ı alarak Tang’ın Li Guangbi ordusuyla karşı karşıya geldi. (Luoyang sahibi Tang Hanedanı → Yan (An Lushan, 大燕))",
   "kaynak": "Jiu Tang shu, juan 200 shang «Shi Siming» (zh.wikisource.org/wiki/舊唐書/卷200上; okundu): «四月，僭稱大號，以周贄為相，以范陽為燕京。九月，寇汴州，節度使許叔冀合于思明，思明益振。又陷洛陽，與太尉光弼相拒。»",
   "gun": "759 (Qianyuan 2), 9. ay (ay ilk günü; Jülyen 759-09-26)",
   "kesinlik": "ay",
@@ -468,7 +468,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
    "konu-askeri",
    "dogu-500-1281"
   ],
-  "d": "Yong Prensi Li Kuo komutasındaki Tang ordusu Luoyang’ın kuzeyinde Hengshui’de (Heng-su) isyancıları ağır yenilgiye uğrattı; Shi Chaoyi Jizhou’ya kaçtı, Luoyang, Hebei (Heyang), Bian, Zheng, Hua, Xiang, Wei vb. Tang’a döndü. (Luoyang sahibi Yan (An Lushan, 大燕) → Tang Hanedani) ‖ Luoyang yerleşiminin sahibi Yan (An Lushan, 大燕) iken Tang oldu. Ayrıntı ve kaynak aşağıdadır.",
+  "d": "Yong Prensi Li Kuo komutasındaki Tang ordusu Luoyang’ın kuzeyinde Hengshui’de (Heng-su) isyancıları ağır yenilgiye uğrattı; Shi Chaoyi Jizhou’ya kaçtı, Luoyang, Hebei (Heyang), Bian, Zheng, Hua, Xiang, Wei vb. Tang’a döndü. (Luoyang sahibi Yan (An Lushan, 大燕) → Tang Hanedanı) ‖ Luoyang yerleşiminin sahibi Yan (An Lushan, 大燕) iken Tang oldu. Ayrıntı ve kaynak aşağıdadır.",
   "kaynak": "Jiu Tang shu, juan 11 «Daizong ji» (zh.wikisource.org/wiki/舊唐書/卷11; açıldı, okundu): «壬申，王師次洛陽北郊。甲戌，戰於橫水，賊大敗，俘斬六萬計。史朝義奔冀州。乙亥，雍王奏收東京、河陽、汴、鄭、滑、相、魏等州。» ‖ Jiu Tang shu juan 7 «神都依舊為東都»; bitiş Tang t=907-06-01 | BÖLÜNDÜ (kuyrukcin): Tang dilimi 762-11-20'de (Jiu Tang shu 11: 「壬申，王師次洛陽北郊。…乙亥，雍王奏收東京…」) yeniden başlar; bitiş 907-06-01 değişmedi.",
   "gun": "762 (Baoying 1), 10. ay, ganzhi 乙亥 (Jülyen 762-11-20)",
   "kesinlik": "gun",
@@ -546,7 +546,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
    "konu-askeri",
    "dogu-500-1281"
   ],
-  "d": "Wang Xingyu’nun yenilgisinin ardından Tang sarayı Hedong valisi Li Keyong’un unvanını Jin Prensi’ne yükseltti; Taiyuan (Jinyang) Shatuo prensliğinin merkezi oldu. (Taiyuan sahibi Tang Hanedani → Jin (Li Keyong, Shatuo prensliği))",
+  "d": "Wang Xingyu’nun yenilgisinin ardından Tang sarayı Hedong valisi Li Keyong’un unvanını Jin Prensi’ne yükseltti; Taiyuan (Jinyang) Shatuo prensliğinin merkezi oldu. (Taiyuan sahibi Tang Hanedanı → Jin (Li Keyong, Shatuo prensliği))",
   "kaynak": "Sima Guang, Zizhi tongjian, juan 260 (zh.wikisource.org/wiki/資治通鑑/卷260; açıldı, okundu; Qianning 2 (895) 12. ay, Jülyen 0896-01-01): «乙未，進李克用爵晉王，加李罕之兼侍中。»; Xin Wudai shi, juan 4 (zh.wikisource.org/wiki/新五代史/卷04; okundu): «拜克用「忠正平難功臣」，封晉王。»",
   "gun": "1 Ocak 896 (Jülyen; Qianning 2, 12. ay, 乙未)",
   "kesinlik": "gun",
@@ -598,7 +598,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
    "konu-askeri",
    "dogu-500-1281"
   ],
-  "d": "Tang imparatoru Zhaozong Yang Xingmi’yi Doğu Yönü Komutanı ve Wu Kralı (吳王) yaptı; Huainan’ın merkezi Yangzhou Wu devletinin başkenti oldu. (Yangzhou sahibi Tang Hanedani → Wu (Yang Wu) Krallığı) ‖ Nanking (Nanjing) yerleşiminin sahibi Tang iken Yang Wu oldu. Ayrıntı ve kaynak aşağıdadır.",
+  "d": "Tang imparatoru Zhaozong Yang Xingmi’yi Doğu Yönü Komutanı ve Wu Kralı (吳王) yaptı; Huainan’ın merkezi Yangzhou Wu devletinin başkenti oldu. (Yangzhou sahibi Tang Hanedanı → Wu (Yang Wu) Krallığı) ‖ Nanking (Nanjing) yerleşiminin sahibi Tang iken Yang Wu oldu. Ayrıntı ve kaynak aşağıdadır.",
   "kaynak": "Xin Wudai shi, juan 61 «Wu shijia» (zh.wikisource.org/wiki/新五代史/卷61; açıldı, okundu): «是歲，唐昭宗在岐，遣江淮宣諭使李儼拜行密東面諸道行營都統、檢校太師、中書令，封吳王。» ‖ Xin Wudai shi, juan 61 «Wu shi jia»: 「昇州刺史馮弘鐸來附」 ; 「徐溫領昇州刺史，治舟師於金陵」 ; 「十四年，徐溫徙治金陵」 ; 「七月，改昇州大都督府為金陵府，拜徐溫金陵尹」 (Shengzhou/Jinling Wu'ya bağlı; yıl düzeyi: Yang Wu künye f=0902-01-01) ‖ BİTİŞ: cin3 guney-tang başlangıcı 937-11-10 (Xin Wudai shi 62: 「十月，溥遣攝太尉楊璘傳位於昪，國號齊，改元昇元」).",
   "gun": "902 (Tianfu 2) — ay/gün yok",
   "kesinlik": "yil",
@@ -683,7 +683,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
    "konu-askeri",
    "dogu-500-1281"
   ],
-  "ic_not_ham_d":"Liu Shouguang, Jin ve Zhao’nun \"Şangfu\" ünvanı sunmasını aşağılayıp 911’de Youzhou’da imparator ilan etti; devlet adı Büyük Yan (Da Yan), dönem adı Yingtian. Youzhou Yan’ın başkentidir. (Pekin (Hanbalık) sahibi sonraki-liang-5hanedan → yan-liu-shouguang)", "d": "Liu Shouguang, Jin ve Zhao’nun \"Şangfu\" ünvanı sunmasını aşağılayıp 911’de Youzhou’da imparator ilan etti; devlet adı Büyük Yan (Da Yan), dönem adı Yingtian. Youzhou Yan’ın başkentidir. (Pekin (Hanbalık) sahibi Sonraki Liang (Bes Hanedan) → Yan (Liu Shouguang, 燕))",
+  "ic_not_ham_d":"Liu Shouguang, Jin ve Zhao’nun \"Şangfu\" ünvanı sunmasını aşağılayıp 911’de Youzhou’da imparator ilan etti; devlet adı Büyük Yan (Da Yan), dönem adı Yingtian. Youzhou Yan’ın başkentidir. (Pekin (Hanbalık) sahibi sonraki-liang-5hanedan → yan-liu-shouguang)", "d": "Liu Shouguang, Jin ve Zhao’nun \"Şangfu\" ünvanı sunmasını aşağılayıp 911’de Youzhou’da imparator ilan etti; devlet adı Büyük Yan (Da Yan), dönem adı Yingtian. Youzhou Yan’ın başkentidir. (Pekin (Hanbalık) sahibi Sonraki Liang (Beş Hanedan) → Yan (Liu Shouguang, 燕))",
   "kaynak": "Zizhi tongjian, juan 268 (zh.wikisource.org/wiki/資治通鑑/卷268; açıldı, okundu): «甲子，守光即皇帝位。國號大燕，改元應天。»; Xin Wudai shi, juan 39: «守光遂以梁乾化元年八月，自號大燕皇帝，改元曰應天»",
   "gun": "911 (Qianhua 1), 8. ay, ganzhi 甲子 (Jülyen 911-09-08)",
   "kesinlik": "gun",
@@ -735,7 +735,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
    "konu-askeri",
    "dogu-500-1281"
   ],
-  "ic_not_ham_d":"Liu Yan Guangzhou’da (Xingwangfu) imparatorluğunu ilan etti, devlet adı Büyük Yue (Da Yue), dönem adı Qianheng; Guangzhou Güney Han’ın merkezi oldu. (Kanton (Guangzhou) sahibi sonraki-liang-5hanedan → guney-han-10krallik)", "d": "Liu Yan Guangzhou’da (Xingwangfu) imparatorluğunu ilan etti, devlet adı Büyük Yue (Da Yue), dönem adı Qianheng; Guangzhou Güney Han’ın merkezi oldu. (Kanton (Guangzhou) sahibi Sonraki Liang (Bes Hanedan) → Güney Han (Nan Han) Krallığı)",
+  "ic_not_ham_d":"Liu Yan Guangzhou’da (Xingwangfu) imparatorluğunu ilan etti, devlet adı Büyük Yue (Da Yue), dönem adı Qianheng; Guangzhou Güney Han’ın merkezi oldu. (Kanton (Guangzhou) sahibi sonraki-liang-5hanedan → guney-han-10krallik)", "d": "Liu Yan Guangzhou’da (Xingwangfu) imparatorluğunu ilan etti, devlet adı Büyük Yue (Da Yue), dönem adı Qianheng; Guangzhou Güney Han’ın merkezi oldu. (Kanton (Guangzhou) sahibi Sonraki Liang (Beş Hanedan) → Güney Han (Nan Han) Krallığı)",
   "kaynak": "Xin Wudai shi, juan 65 (zh.wikisource.org/wiki/新五代史/卷65; okundu): «貞明三年，龑即皇帝位，國號大越，改元曰乾亨。追尊安仁文皇帝，謙聖武皇帝，隱襄皇帝，立三廟。»",
   "gun": "917 (Zhenming 3) — ay/gün yok",
   "kesinlik": "yil",
@@ -813,7 +813,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
    "konu-askeri",
    "dogu-500-1281"
   ],
-  "ic_not_ham_d":"Jin Kralı Li Cunxu Weizhou’da imparator ilan etti, devlet adını Tang koydu; Weizhou Doğu Başkent, Taiyuan Batı Başkent (sonra Kuzey Başkent), Zhenzhou Kuzey Başkent oldu. (Pekin (Hanbalık) sahibi tang-jin-shatuo-prensligi → sonraki-tang-5hanedan) ‖ Jin Kralı Li Cunxu Weizhou’da imparator ilan etti, devlet adını Tang koydu; Weizhou Doğu Başkent, Taiyuan Batı Başkent (sonra Kuzey Başkent), Zhenzhou Kuzey Başkent oldu. (Zhengding sahibi Jin (Li Keyong, Shatuo prensliği) → Sonraki Tang (Shatuo, Bes Hanedan)) ‖ Jin Kralı Li Cunxu Weizhou’da imparator ilan etti, devlet adını Tang koydu; Weizhou Doğu Başkent, Taiyuan Batı Başkent (sonra Kuzey Başkent), Zhenzhou Kuzey Başkent oldu. (Taiyuan sahibi Jin (Li Keyong, Shatuo prensliği) → Sonraki Tang (Shatuo, Bes Hanedan))", "d": "Jin Kralı Li Cunxu Weizhou’da imparator ilan etti, devlet adını Tang koydu; Weizhou Doğu Başkent, Taiyuan Batı Başkent (sonra Kuzey Başkent), Zhenzhou Kuzey Başkent oldu. (Pekin (Hanbalık) sahibi Jin (Li Keyong, Shatuo prensliği) → Sonraki Tang (Shatuo, Bes Hanedan)) ‖ Jin Kralı Li Cunxu Weizhou’da imparator ilan etti, devlet adını Tang koydu; Weizhou Doğu Başkent, Taiyuan Batı Başkent (sonra Kuzey Başkent), Zhenzhou Kuzey Başkent oldu. (Zhengding sahibi Jin (Li Keyong, Shatuo prensliği) → Sonraki Tang (Shatuo, Bes Hanedan)) ‖ Jin Kralı Li Cunxu Weizhou’da imparator ilan etti, devlet adını Tang koydu; Weizhou Doğu Başkent, Taiyuan Batı Başkent (sonra Kuzey Başkent), Zhenzhou Kuzey Başkent oldu. (Taiyuan sahibi Jin (Li Keyong, Shatuo prensliği) → Sonraki Tang (Shatuo, Bes Hanedan))",
+  "ic_not_ham_d":"Jin Kralı Li Cunxu Weizhou’da imparator ilan etti, devlet adını Tang koydu; Weizhou Doğu Başkent, Taiyuan Batı Başkent (sonra Kuzey Başkent), Zhenzhou Kuzey Başkent oldu. (Pekin (Hanbalık) sahibi tang-jin-shatuo-prensligi → sonraki-tang-5hanedan) ‖ Jin Kralı Li Cunxu Weizhou’da imparator ilan etti, devlet adını Tang koydu; Weizhou Doğu Başkent, Taiyuan Batı Başkent (sonra Kuzey Başkent), Zhenzhou Kuzey Başkent oldu. (Zhengding sahibi Jin (Li Keyong, Shatuo prensliği) → Sonraki Tang (Shatuo, Bes Hanedan)) ‖ Jin Kralı Li Cunxu Weizhou’da imparator ilan etti, devlet adını Tang koydu; Weizhou Doğu Başkent, Taiyuan Batı Başkent (sonra Kuzey Başkent), Zhenzhou Kuzey Başkent oldu. (Taiyuan sahibi Jin (Li Keyong, Shatuo prensliği) → Sonraki Tang (Shatuo, Bes Hanedan))", "d": "Jin Kralı Li Cunxu Weizhou’da imparator ilan etti, devlet adını Tang koydu; Weizhou Doğu Başkent, Taiyuan Batı Başkent (sonra Kuzey Başkent), Zhenzhou Kuzey Başkent oldu. (Pekin (Hanbalık) sahibi Jin (Li Keyong, Shatuo prensliği) → Sonraki Tang (Shatuo, Beş Hanedan)) ‖ Jin Kralı Li Cunxu Weizhou’da imparator ilan etti, devlet adını Tang koydu; Weizhou Doğu Başkent, Taiyuan Batı Başkent (sonra Kuzey Başkent), Zhenzhou Kuzey Başkent oldu. (Zhengding sahibi Jin (Li Keyong, Shatuo prensliği) → Sonraki Tang (Shatuo, Beş Hanedan)) ‖ Jin Kralı Li Cunxu Weizhou’da imparator ilan etti, devlet adını Tang koydu; Weizhou Doğu Başkent, Taiyuan Batı Başkent (sonra Kuzey Başkent), Zhenzhou Kuzey Başkent oldu. (Taiyuan sahibi Jin (Li Keyong, Shatuo prensliği) → Sonraki Tang (Shatuo, Beş Hanedan))",
   "kaynak": "Xin Wudai shi, juan 5 «Tang benji» (zh.wikisource.org/wiki/新五代史/卷05; okundu): «同光元年…夏四月己巳，皇帝即位，大赦，改元，國號唐。…以魏州為東京，太原為西京，鎮州為北都。»",
   "gun": "923 (Tongguang 1), 4. ay, ganzhi 己巳 (Jülyen 923-05-13)",
   "kesinlik": "gun",
@@ -839,7 +839,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
    "konu-askeri",
    "dogu-500-1281"
   ],
-  "d": "Li Cunxu’nun Yunzhou’ya baskını, Zhongdu ve Caozhou’nun alınması ve Kaifeng’in düşmesiyle Sonraki Liang yıkıldı; son imparator Zhu Zhen bir gün önce (戊寅, 923-11-18) ölmüştü. Liang’ın Kaifeng, Luoyang ve Henan’daki toprakları Sonraki Tang’a geçti. (Jingzhou sahibi Sonraki Liang (Bes Hanedan) → Sonraki Tang (Shatuo, Bes Hanedan)) ‖ Li Cunxu’nun Yunzhou’ya baskını, Zhongdu ve Caozhou’nun alınması ve Kaifeng’in düşmesiyle Sonraki Liang yıkıldı; son imparator Zhu Zhen bir gün önce (戊寅, 923-11-18) ölmüştü. Liang’ın Kaifeng, Luoyang ve Henan’daki toprakları Sonraki Tang’a geçti. (Kaifeng sahibi Sonraki Liang (Bes Hanedan) → Sonraki Tang (Shatuo, Bes Hanedan)) ‖ Li Cunxu’nun Yunzhou’ya baskını, Zhongdu ve Caozhou’nun alınması ve Kaifeng’in düşmesiyle Sonraki Liang yıkıldı; son imparator Zhu Zhen bir gün önce (戊寅, 923-11-18) ölmüştü. Liang’ın Kaifeng, Luoyang ve Henan’daki toprakları Sonraki Tang’a geçti. (Luoyang sahibi Sonraki Liang (Bes Hanedan) → Sonraki Tang (Shatuo, Bes Hanedan)) ‖ Xi'an (Chang'an) yerleşiminin sahibi Sonraki Liang iken Sonraki Tang oldu. Ayrıntı ve kaynak aşağıdadır.",
+  "d": "Li Cunxu’nun Yunzhou’ya baskını, Zhongdu ve Caozhou’nun alınması ve Kaifeng’in düşmesiyle Sonraki Liang yıkıldı; son imparator Zhu Zhen bir gün önce (戊寅, 923-11-18) ölmüştü. Liang’ın Kaifeng, Luoyang ve Henan’daki toprakları Sonraki Tang’a geçti. (Jingzhou sahibi Sonraki Liang (Beş Hanedan) → Sonraki Tang (Shatuo, Beş Hanedan)) ‖ Li Cunxu’nun Yunzhou’ya baskını, Zhongdu ve Caozhou’nun alınması ve Kaifeng’in düşmesiyle Sonraki Liang yıkıldı; son imparator Zhu Zhen bir gün önce (戊寅, 923-11-18) ölmüştü. Liang’ın Kaifeng, Luoyang ve Henan’daki toprakları Sonraki Tang’a geçti. (Kaifeng sahibi Sonraki Liang (Beş Hanedan) → Sonraki Tang (Shatuo, Beş Hanedan)) ‖ Li Cunxu’nun Yunzhou’ya baskını, Zhongdu ve Caozhou’nun alınması ve Kaifeng’in düşmesiyle Sonraki Liang yıkıldı; son imparator Zhu Zhen bir gün önce (戊寅, 923-11-18) ölmüştü. Liang’ın Kaifeng, Luoyang ve Henan’daki toprakları Sonraki Tang’a geçti. (Luoyang sahibi Sonraki Liang (Beş Hanedan) → Sonraki Tang (Shatuo, Beş Hanedan)) ‖ Xi'an (Chang'an) yerleşiminin sahibi Sonraki Liang iken Sonraki Tang oldu. Ayrıntı ve kaynak aşağıdadır.",
   "kaynak": "Xin Wudai shi, juan 3 «Liang benji san» (zh.wikisource.org/wiki/新五代史/卷03; okundu): «戊寅，皇帝崩。梁亡。»; juan 5 «Tang benji» (zh.wikisource.org/wiki/新五代史/卷05; okundu): «冬十月壬申，如鄆州以襲梁。甲戌，取中都。丁丑，取曹州。己卯，滅梁。» ‖ Xin Wudai shi, juan 3 «Liang benji san» (zh.wikisource.org/wiki/新五代史/卷03; okundu): «戊寅，皇帝崩。梁亡。»; juan 5 «Tang benji» (zh.wikisource.org/wiki/新五代史/卷05; okundu): «冬十月壬申，如鄆州以襲梁。甲戌，取中都。丁丑，取曹州。己卯，滅梁。» ‖ bitiş: Xin Wudai shi, juan 7 «Tang Fei Di benji» (zh.wikisource.org/wiki/新五代史/卷07; okundu): «甲戌，契丹及晉人至于潞州。丁丑，至自河陽。辛巳，皇帝崩。〈年五十一，帝自焚死，晉高祖命葬其燼骨於徽陵域中。〉» | ABİ MERKEZ: Luoyang (hanedan başkenti zinciri; cin2/cin3 yamasındaki aynı devir günleri) — Xi'an (Chang'an)'ın bu hanedanların valiliğine bağlı olduğu varsayımı; şehir adıyla devir kaynağı okunmadı, yerel isyan/özerklik dönemleri ayrıca okunmadı (BEYANLI YAKLAŞIKLIK).",
   "gun": "923 (Longde 3 / Tongguang 1), 10. ay, ganzhi 己卯 (Jülyen 923-11-19)",
   "kesinlik": "gun",
@@ -865,7 +865,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
    "konu-askeri",
    "dogu-500-1281"
   ],
-  "d": "Liang’ın yıkılışından sonra Gao Jixing Luoyang’a gidip Zhuangzong’a bağlandı; Tang ona Nanping Kralı (南平王) unvanını verdi (925). Jingzhou Nanping/Jingnan’ın merkezi. (Jingzhou sahibi Sonraki Tang (Shatuo, Bes Hanedan) → Nan Ping (Jingnan) Krallığı)",
+  "d": "Liang’ın yıkılışından sonra Gao Jixing Luoyang’a gidip Zhuangzong’a bağlandı; Tang ona Nanping Kralı (南平王) unvanını verdi (925). Jingzhou Nanping/Jingnan’ın merkezi. (Jingzhou sahibi Sonraki Tang (Shatuo, Beş Hanedan) → Nan Ping (Jingnan) Krallığı)",
   "kaynak": "Xin Wudai shi, juan 69 (zh.wikisource.org/wiki/新五代史/卷69; okundu): «梁亡，唐莊宗入洛，下詔慰諭季興，…季興…朝于洛陽。…同光三年，封南平王。»",
   "ic_not_ham_gun":"924 (Tongguang 2) — Jingnan’ın Tang’a bağlanışı: 924 başı (künye f)", "gun": "924",
   "kesinlik": "yil",
@@ -891,7 +891,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
    "konu-askeri",
    "dogu-500-1281"
   ],
-  "ic_not_ham_d":"Li Jiji ve Guo Chongtao komutasındaki Tang ordusu Chengdu’ya ilerlerken Önceki Shu imparatoru Wang Yan, Qiqiqiao’da (Yedi Li Köprüsü) teslim oldu; Sichuan Sonraki Tang’a geçti. (Çengdu (Chengdu) sahibi onceki-shu → sonraki-tang-5hanedan) ‖ Çengdu (Chengdu) yerleşiminin sahibi Önceki Shu iken Sonraki Tang oldu. Ayrıntı ve kaynak aşağıdadır.", "d": "Li Jiji ve Guo Chongtao komutasındaki Tang ordusu Chengdu’ya ilerlerken Önceki Shu imparatoru Wang Yan, Qiqiqiao’da (Yedi Li Köprüsü) teslim oldu; Sichuan Sonraki Tang’a geçti. (Çengdu (Chengdu) sahibi Önceki Shu (Qian Shu) Krallığı → Sonraki Tang (Shatuo, Bes Hanedan)) ‖ Çengdu (Chengdu) yerleşiminin sahibi Önceki Shu iken Sonraki Tang oldu. Ayrıntı ve kaynak aşağıdadır.",
+  "ic_not_ham_d":"Li Jiji ve Guo Chongtao komutasındaki Tang ordusu Chengdu’ya ilerlerken Önceki Shu imparatoru Wang Yan, Qiqiqiao’da (Yedi Li Köprüsü) teslim oldu; Sichuan Sonraki Tang’a geçti. (Çengdu (Chengdu) sahibi onceki-shu → sonraki-tang-5hanedan) ‖ Çengdu (Chengdu) yerleşiminin sahibi Önceki Shu iken Sonraki Tang oldu. Ayrıntı ve kaynak aşağıdadır.", "d": "Li Jiji ve Guo Chongtao komutasındaki Tang ordusu Chengdu’ya ilerlerken Önceki Shu imparatoru Wang Yan, Qiqiqiao’da (Yedi Li Köprüsü) teslim oldu; Sichuan Sonraki Tang’a geçti. (Çengdu (Chengdu) sahibi Önceki Shu (Qian Shu) Krallığı → Sonraki Tang (Shatuo, Beş Hanedan)) ‖ Çengdu (Chengdu) yerleşiminin sahibi Önceki Shu iken Sonraki Tang oldu. Ayrıntı ve kaynak aşağıdadır.",
   "kaynak": "Xin Wudai shi, juan 5 (zh.wikisource.org/wiki/新五代史/卷05; okundu): «十一月丁未，高麗遣使者來。己酉，王衍降。»; juan 63: «魏王繼岌至成都，衍君臣面縛輿櫬，出降于七里亭。» ‖ Xin Wudai shi, juan 5 (zh.wikisource.org/wiki/新五代史/卷05; okundu): «十一月丁未，高麗遣使者來。己酉，王衍降。»; juan 63: «魏王繼岌至成都，衍君臣面縛輿櫬，出降于七里亭。» ‖ bitiş: Sonraki Shu künyesi f=0934-01-01 (cin3): Meng Zhixiang’ın Sonraki Shu’su; devir maddesi cin3’e ait (bu kümede kaynak okunmadı) — BEYANLI sınır. | DÜZELTME (kuyrukcin): cin2 diliminin t'si 934-01-01 (yıl düzeyi) idi, cin3 sonraki-shu diliminin f=934-03-16'sı ile arasında 74 günlük boşluk kalıyordu; t=934-03-16 yapıldı (Sima Guang ZZTJ 278: 「己巳，知祥卽皇帝位于成都」; cin3).",
   "gun": "925 (Tongguang 3), 11. ay, ganzhi 己酉 (Jülyen 925-12-08)",
   "kesinlik": "gun",
@@ -918,7 +918,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
    "konu-askeri",
    "dogu-500-1281"
   ],
-  "ic_not_ham_d":"Shi Jingtang’ın kuruluş bildirisiyle Youzhou, Jizhou, Yingzhou, Moxian, Zhuozhou, Tanzhou, Shunzhou, Xinzhou, Guizhou, Ruzhou, Wuzhou, Weizhou, Yingzhou, Shuozhou, Yunzhou ve Huanzhou Kitan’a bırakıldı. Youzhou Liao’nun Güney Başkenti (938’den) oldu. (Pekin (Hanbalık) sahibi sonraki-tang-5hanedan → liao-hanedani) ‖ Taiyuan (Hedong) valisi Shi Jingtang, Kitan desteğiyle imparator ilan edip devlet adını Jin koydu; kuruluş bildirisinde Youzhou (Pekin), Yunzhou (Datong) dahil On Altı Vilayet Kitan’a bırakıldı. (Taiyuan sahibi Sonraki Tang (Shatuo, Bes Hanedan) → Sonraki Jin (Shatuo, Bes Hanedan)) ‖ Hedong valisi Shi Jingtang Kitan desteğiyle Taiyuan'da imparatorluğunu ilan etti; kendi üssü olan şehir Sonraki Jin'e geçti.", "d": "Shi Jingtang’ın kuruluş bildirisiyle Youzhou, Jizhou, Yingzhou, Moxian, Zhuozhou, Tanzhou, Shunzhou, Xinzhou, Guizhou, Ruzhou, Wuzhou, Weizhou, Yingzhou, Shuozhou, Yunzhou ve Huanzhou Kitan’a bırakıldı. Youzhou Liao’nun Güney Başkenti (938’den) oldu. (Pekin (Hanbalık) sahibi Sonraki Tang (Shatuo, Bes Hanedan) → Liao Hanedanı (Kitan / Hıtay)) ‖ Taiyuan (Hedong) valisi Shi Jingtang, Kitan desteğiyle imparator ilan edip devlet adını Jin koydu; kuruluş bildirisinde Youzhou (Pekin), Yunzhou (Datong) dahil On Altı Vilayet Kitan’a bırakıldı. (Taiyuan sahibi Sonraki Tang (Shatuo, Bes Hanedan) → Sonraki Jin (Shatuo, Bes Hanedan)) ‖ Hedong valisi Shi Jingtang Kitan desteğiyle Taiyuan'da imparatorluğunu ilan etti; kendi üssü olan şehir Sonraki Jin'e geçti.",
+  "ic_not_ham_d":"Shi Jingtang’ın kuruluş bildirisiyle Youzhou, Jizhou, Yingzhou, Moxian, Zhuozhou, Tanzhou, Shunzhou, Xinzhou, Guizhou, Ruzhou, Wuzhou, Weizhou, Yingzhou, Shuozhou, Yunzhou ve Huanzhou Kitan’a bırakıldı. Youzhou Liao’nun Güney Başkenti (938’den) oldu. (Pekin (Hanbalık) sahibi sonraki-tang-5hanedan → liao-hanedani) ‖ Taiyuan (Hedong) valisi Shi Jingtang, Kitan desteğiyle imparator ilan edip devlet adını Jin koydu; kuruluş bildirisinde Youzhou (Pekin), Yunzhou (Datong) dahil On Altı Vilayet Kitan’a bırakıldı. (Taiyuan sahibi Sonraki Tang (Shatuo, Bes Hanedan) → Sonraki Jin (Shatuo, Bes Hanedan)) ‖ Hedong valisi Shi Jingtang Kitan desteğiyle Taiyuan'da imparatorluğunu ilan etti; kendi üssü olan şehir Sonraki Jin'e geçti.", "d": "Shi Jingtang’ın kuruluş bildirisiyle Youzhou, Jizhou, Yingzhou, Moxian, Zhuozhou, Tanzhou, Shunzhou, Xinzhou, Guizhou, Ruzhou, Wuzhou, Weizhou, Yingzhou, Shuozhou, Yunzhou ve Huanzhou Kitan’a bırakıldı. Youzhou Liao’nun Güney Başkenti (938’den) oldu. (Pekin (Hanbalık) sahibi Sonraki Tang (Shatuo, Beş Hanedan) → Liao Hanedanı (Kitan / Hıtay)) ‖ Taiyuan (Hedong) valisi Shi Jingtang, Kitan desteğiyle imparator ilan edip devlet adını Jin koydu; kuruluş bildirisinde Youzhou (Pekin), Yunzhou (Datong) dahil On Altı Vilayet Kitan’a bırakıldı. (Taiyuan sahibi Sonraki Tang (Shatuo, Beş Hanedan) → Sonraki Jin (Shatuo, Beş Hanedan)) ‖ Hedong valisi Shi Jingtang Kitan desteğiyle Taiyuan'da imparatorluğunu ilan etti; kendi üssü olan şehir Sonraki Jin'e geçti.",
   "kaynak": "Xin Wudai shi, juan 8 «Jin benji» (zh.wikisource.org/wiki/新五代史/卷08; okundu): «十一月丁酉，皇帝即位，…國號晉。以幽、涿、薊、檀、順、瀛、莫、蔚、朔、雲、應、新、媯、儒、武、寰州入于契丹。» ‖ Ouyang Xiu, Xin Wudai shi, juan 8 «Jin ben ji» (zh.wikisource.org/wiki/新五代史/卷08, okundu): 「十一月丁酉，皇帝即位，……國號晉。以幽、涿、薊、檀、順、瀛、莫、蔚、朔、雲、應、新、媯、儒、武、寰州入于契丹。」 · Ouyang Xiu, Xin Wudai shi, juan 7 «Tang Fei-di ben ji» (zh.wikisource.org/wiki/新五代史/卷07, okundu): 「丁酉，契丹立晉。閏月甲子，楊光遠殺張敬達，……辛巳，皇帝崩。〈年五十一，帝自焚死，晉高祖命葬其燼骨於徽陵域中。〉」",
   "gun": "936, 11. ay, ganzhi 丁酉 (Jülyen 936-11-28)",
   "kesinlik": "gun",
@@ -944,7 +944,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
    "konu-askeri",
    "dogu-500-1281"
   ],
-  "d": "Kitan ve Jin ordularının Luoyang’a yaklaşması üzerine son Tang imparatoru kendini yaktı; Sonraki Tang sona erdi, başkent bölgesi ve Henan Sonraki Jin’in eline geçti. (Zhengding sahibi Sonraki Tang (Shatuo, Bes Hanedan) → Sonraki Jin (Shatuo, Bes Hanedan)) ‖ Kitan ve Jin ordularının Luoyang’a yaklaşması üzerine son Tang imparatoru kendini yaktı; Sonraki Tang sona erdi, başkent bölgesi ve Henan Sonraki Jin’in eline geçti. (Kaifeng sahibi Sonraki Tang (Shatuo, Bes Hanedan) → Sonraki Jin (Shatuo, Bes Hanedan)) ‖ Kitan ve Jin ordularının Luoyang’a yaklaşması üzerine son Tang imparatoru kendini yaktı; Sonraki Tang sona erdi, başkent bölgesi ve Henan Sonraki Jin’in eline geçti. (Luoyang sahibi Sonraki Tang (Shatuo, Bes Hanedan) → Sonraki Jin (Shatuo, Bes Hanedan)) ‖ Sonraki Tang'ın son imparatoru Luoyang'da kendini yaktığı gün Shi Jingtang Tang'ın iki başkentinin (Luoyang, Kaifeng) sahibi oldu. ‖ Luoyang Tang'ın batı başkentiydi; imparatorun ölümüyle şehir Sonraki Jin'e geçti. ‖ Xi'an (Chang'an) yerleşiminin sahibi Sonraki Tang iken Sonraki Jin oldu. Ayrıntı ve kaynak aşağıdadır. ‖ Zhengding yerleşiminin sahibi Sonraki Tang iken Sonraki Jin oldu. Ayrıntı ve kaynak aşağıdadır.",
+  "d": "Kitan ve Jin ordularının Luoyang’a yaklaşması üzerine son Tang imparatoru kendini yaktı; Sonraki Tang sona erdi, başkent bölgesi ve Henan Sonraki Jin’in eline geçti. (Zhengding sahibi Sonraki Tang (Shatuo, Beş Hanedan) → Sonraki Jin (Shatuo, Beş Hanedan)) ‖ Kitan ve Jin ordularının Luoyang’a yaklaşması üzerine son Tang imparatoru kendini yaktı; Sonraki Tang sona erdi, başkent bölgesi ve Henan Sonraki Jin’in eline geçti. (Kaifeng sahibi Sonraki Tang (Shatuo, Beş Hanedan) → Sonraki Jin (Shatuo, Beş Hanedan)) ‖ Kitan ve Jin ordularının Luoyang’a yaklaşması üzerine son Tang imparatoru kendini yaktı; Sonraki Tang sona erdi, başkent bölgesi ve Henan Sonraki Jin’in eline geçti. (Luoyang sahibi Sonraki Tang (Shatuo, Beş Hanedan) → Sonraki Jin (Shatuo, Beş Hanedan)) ‖ Sonraki Tang'ın son imparatoru Luoyang'da kendini yaktığı gün Shi Jingtang Tang'ın iki başkentinin (Luoyang, Kaifeng) sahibi oldu. ‖ Luoyang Tang'ın batı başkentiydi; imparatorun ölümüyle şehir Sonraki Jin'e geçti. ‖ Xi'an (Chang'an) yerleşiminin sahibi Sonraki Tang iken Sonraki Jin oldu. Ayrıntı ve kaynak aşağıdadır. ‖ Zhengding yerleşiminin sahibi Sonraki Tang iken Sonraki Jin oldu. Ayrıntı ve kaynak aşağıdadır.",
   "kaynak": "Xin Wudai shi, juan 7 «Tang Fei Di benji» (zh.wikisource.org/wiki/新五代史/卷07; okundu): «甲戌，契丹及晉人至于潞州。丁丑，至自河陽。辛巳，皇帝崩。〈年五十一，帝自焚死，晉高祖命葬其燼骨於徽陵域中。〉» ‖ Ouyang Xiu, Xin Wudai shi, juan 7 «Tang Fei-di ben ji» (zh.wikisource.org/wiki/新五代史/卷07, okundu): 「丁酉，契丹立晉。閏月甲子，楊光遠殺張敬達，……辛巳，皇帝崩。〈年五十一，帝自焚死，晉高祖命葬其燼骨於徽陵域中。〉」 · Ouyang Xiu, Xin Wudai shi, juan 8 «Jin ben ji» (zh.wikisource.org/wiki/新五代史/卷08, okundu): 「己卯，次河陽，……辛巳，至自太原。盧文紀、姚顗罷。甲申，大赦，殺張延朗、劉延朗」 ‖ Ouyang Xiu, Xin Wudai shi, juan 7 «Tang Fei-di ben ji» (zh.wikisource.org/wiki/新五代史/卷07, okundu): 「丁酉，契丹立晉。閏月甲子，楊光遠殺張敬達，……辛巳，皇帝崩。〈年五十一，帝自焚死，晉高祖命葬其燼骨於徽陵域中。〉」 · Ouyang Xiu, Xin Wudai shi, juan 8 «Jin ben ji» (zh.wikisource.org/wiki/新五代史/卷08, okundu): 「己卯，次河陽，……辛巳，至自太原。盧文紀、姚顗罷。甲申，大赦，殺張延朗、劉延朗」 | ABİ MERKEZ: Luoyang (hanedan başkenti zinciri; cin2/cin3 yamasındaki aynı devir günleri) — Xi'an (Chang'an)'ın bu hanedanların valiliğine bağlı olduğu varsayımı; şehir adıyla devir kaynağı okunmadı, yerel isyan/özerklik dönemleri ayrıca okunmadı (BEYANLI YAKLAŞIKLIK). ‖ Ouyang Xiu, Xin Wudai shi, juan 7 «Tang Fei-di ben ji» (zh.wikisource.org/wiki/新五代史/卷07, okundu): 「丁酉，契丹立晉。閏月甲子，楊光遠殺張敬達，……辛巳，皇帝崩。〈年五十一，帝自焚死，晉高祖命葬其燼骨於徽陵域中。〉」 · Ouyang Xiu, Xin Wudai shi, juan 8 «Jin ben ji» (zh.wikisource.org/wiki/新五代史/卷08, okundu): 「己卯，次河陽，……辛巳，至自太原。盧文紀、姚顗罷。甲申，大赦，殺張延朗、劉延朗」 | ABİ MERKEZ: Luoyang (hanedan başkenti zinciri; cin2/cin3 yamasındaki aynı devir günleri) — Zhengding'ın bu hanedanların valiliğine bağlı olduğu varsayımı; şehir adıyla devir kaynağı okunmadı, yerel isyan/özerklik dönemleri ayrıca okunmadı (BEYANLI YAKLAŞIKLIK).",
   "gun": "936 (Qingtai 3), artık 11. ay, ganzhi 辛巳 (Jülyen 937-01-11)",
   "kesinlik": "gun",
@@ -1725,7 +1725,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
   "taraflar": [
    "nara-japonya"
   ],
-  "ic_not_ham_b":"Heijō-kyō'ya taşınma: Nara dönemi: Hakata (Fukuoka) sahibi nara-japonya oldu", "b": "Heijō-kyō'ya taşınma: Nara dönemi: Hakata (Fukuoka) sahibi Japonya - Nara Donemi Imparatorluk Sarayi oldu",
+  "ic_not_ham_b":"Heijō-kyō'ya taşınma: Nara dönemi: Hakata (Fukuoka) sahibi nara-japonya oldu", "b": "Heijō-kyō'ya taşınma: Nara dönemi: Hakata (Fukuoka) sahibi Japonya - Nara Dönemi İmparatorluk Sarayı oldu",
   "tur": "toprak-kazanc",
   "onem": 1,
   "dunya": 1,
@@ -1737,7 +1737,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
    "konu-siyasi",
    "dogu-500-1281"
   ],
-  "ic_not_ham_d":"Hakata (Fukuoka), 0710-04-13 tarihinde nara-japonya polity'sine/dönemine geçti (Heijō-kyō'ya taşınma: Nara dönemi). ‖ Osaka, 0710-04-13 tarihinde nara-japonya polity'sine/dönemine geçti (Heijō-kyō'ya taşınma: Nara dönemi). ‖ Nara, 0710-04-13 tarihinde nara-japonya polity'sine/dönemine geçti (Heijō-kyō'ya taşınma: Nara dönemi).", "d": "Hakata (Fukuoka), 0710-04-13 tarihinde Japonya - Nara Donemi Imparatorluk Sarayi polity'sine/dönemine geçti (Heijō-kyō'ya taşınma: Nara dönemi). ‖ Osaka, 0710-04-13 tarihinde Japonya - Nara Donemi Imparatorluk Sarayi polity'sine/dönemine geçti (Heijō-kyō'ya taşınma: Nara dönemi). ‖ Nara, 0710-04-13 tarihinde Japonya - Nara Donemi Imparatorluk Sarayi polity'sine/dönemine geçti (Heijō-kyō'ya taşınma: Nara dönemi).",
+  "ic_not_ham_d":"Hakata (Fukuoka), 0710-04-13 tarihinde nara-japonya polity'sine/dönemine geçti (Heijō-kyō'ya taşınma: Nara dönemi). ‖ Osaka, 0710-04-13 tarihinde nara-japonya polity'sine/dönemine geçti (Heijō-kyō'ya taşınma: Nara dönemi). ‖ Nara, 0710-04-13 tarihinde nara-japonya polity'sine/dönemine geçti (Heijō-kyō'ya taşınma: Nara dönemi).", "d": "Hakata (Fukuoka), 0710-04-13 tarihinde Japonya - Nara Dönemi İmparatorluk Sarayı polity'sine/dönemine geçti (Heijō-kyō'ya taşınma: Nara dönemi). ‖ Osaka, 0710-04-13 tarihinde Japonya - Nara Dönemi İmparatorluk Sarayı polity'sine/dönemine geçti (Heijō-kyō'ya taşınma: Nara dönemi). ‖ Nara, 0710-04-13 tarihinde Japonya - Nara Dönemi İmparatorluk Sarayı polity'sine/dönemine geçti (Heijō-kyō'ya taşınma: Nara dönemi).",
   "kaynak": "Shoku Nihongi j.5, Wadō 3 (710) (zh.wikisource.org/wiki/續日本紀/卷第五, okundu): 「三月…辛酉。始遷都于平城。以左大臣正二位石上朝臣麻呂爲留守。」",
   "gun": "Wadō 3/3 (710)",
   "kesinlik": "gun",
@@ -5292,7 +5292,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
    "konu-askeri",
    "dogu-500-1281"
   ],
-  "d": "Orhun vadisi Tang Hanedani egemenliğine geçti: Xueyantuo dağıldı; Tiele ülkeleri Tang valiliklerine bağlandı (Yanran Dudufu).",
+  "d": "Orhun vadisi Tang Hanedanı egemenliğine geçti: Xueyantuo dağıldı; Tiele ülkeleri Tang valiliklerine bağlandı (Yanran Dudufu).",
   "kaynak": "Jiu Tang shu juan 199 xia «Beidi» (Wikisource 舊唐書/卷199下): «二十一年，契苾、回紇等十余部落以薛延陀亡散殆盡，乃相繼歸國 … 又置燕然都護以統之» — https://zh.wikisource.org/wiki/舊唐書/卷199下 | BEYANLI YAKLAŞIKLIK: jimi (gevşek) vilayet sistemi; fiilî yönetim Tiele/Doğu Türk artıklarındaydı. t=0682: Kutluğ İlteriş’in Ötüken’de II. Göktürk’ü kurması (atlas kronolojisi 0682-01-01; atıf).",
   "sinir_id": [],
   "kesinlik": "yil"
@@ -5340,7 +5340,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
    "konu-askeri",
    "dogu-500-1281"
   ],
-  "d": "Semerkant Tang Hanedani egemenliğine geçti: Batı Göktürk’ün yıkılışı: Semerkant Çin (Tang) nominal hâkimiyetine girdi.",
+  "d": "Semerkant Tang Hanedanı egemenliğine geçti: Batı Göktürk’ün yıkılışı: Semerkant Çin (Tang) nominal hâkimiyetine girdi.",
   "kaynak": "TDV İslâm Ansiklopedisi, «Semerkant» md., https://islamansiklopedisi.org.tr/semerkant: «Bu dönemde idarî merkezi Semerkant olan Soğd Yabguluğu sözde Çin’e bağlı olmakla birlikte neredeyse tam bağımsız durumdaydı» | BEYANLI YAKLAŞIKLIK: fiilî yönetim yerel Soğd hânedanındaydı (676 ve 680 Arap seferleri vergi/rehine antlaşmasıyla sonuçlandı, 701 II. Göktürk ordusu bölgeyi bağladı; TDV Semerkant); nominal sahip Tang alındı.",
   "sinir_id": [],
   "kesinlik": "yil"
@@ -5993,7 +5993,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
    "konu-askeri",
    "dogu-500-1281"
   ],
-  "d": "Kuça Tang Hanedani egemenliğine geçti: Tang Kuça'yı fethetti, Kuça Tang yönetimine (Anxi Koruyuculuğu) girdi. ‖ Kâşgar Tang Hanedani egemenliğine geçti: Tang Dört Garnizon'u kurdu, Kâşgar (Shule) Tang himayesine girdi. ‖ Hotan Tang Hanedani egemenliğine geçti: Tang Dört Garnizon'unu kurdu, Hotan Tang himayesine girdi.",
+  "d": "Kuça Tang Hanedanı egemenliğine geçti: Tang Kuça'yı fethetti, Kuça Tang yönetimine (Anxi Koruyuculuğu) girdi. ‖ Kâşgar Tang Hanedanı egemenliğine geçti: Tang Dört Garnizon'u kurdu, Kâşgar (Shule) Tang himayesine girdi. ‖ Hotan Tang Hanedanı egemenliğine geçti: Tang Dört Garnizon'unu kurdu, Hotan Tang himayesine girdi.",
   "kaynak": "Jiu Tang shu juan 3 «Taizong ji xia» (Wikisource 舊唐書/卷3) (貞觀二十二年): «閏月丁丑朔 … 破龜茲大撥等五十城 … 執龜茲王訶黎布失畢以歸，龜茲平» · Jiu Tang shu (Liu Xu vd., 945) juan 198 «Xirong» (Wikisource 舊唐書/卷198): «先是，太宗既破龜茲，移置安西都護府於其國城» | BEYAN: Bai hanedanı Tang vasalı kral olarak sürdü (Jiu Tang 198 «依舊為龜茲王»); egemenlik Tang'a ait alındı. Çin ay-güneş takvimi → Jülyen: 貞觀二十二年閏十二月丁丑朔 → 0649-01-19; astronomik ay/zhongqi hesabı (denetim/dogu/cin2/_cal.py işlevleri, gün-sayacı gz() ile), ±1-2 gün; Jülyen kalır (1582 öncesi). ‖ Jiu Tang shu (Liu Xu vd., 945) juan 198 «Xirong» (Wikisource 舊唐書/卷198): «先是，太宗既破龜茲，移置安西都護府於其國城 … 兼統於闐、疏勒、碎葉，謂之「四鎮」。» | BEYAN: Dört Garnizon'un kuruluş günü kaynakta ayrı verilmez, Kuça fethinin ayı alındı; Pei hanedanı Tang vasalı kral olarak sürdü. ÇELİŞKİ: TDV Kâşgar «Kâşgar’ı 629’dan beri ellerinde tutan Çinliler» der; Jiu Tang 198'in 貞觀九年 (635) ilk elçiliği ve Dört Garnizon bilgisiyle uyuşmaz, Çin metni esas alındı. Çin ay-güneş takvimi → Jülyen: 貞觀二十二年閏十二月丁丑朔 → 0649-01-19; astronomik ay/zhongqi hesabı (denetim/dogu/cin2/_cal.py işlevleri, gün-sayacı gz() ile), ±1-2 gün; Jülyen kalır (1582 öncesi). ‖ Jiu Tang shu juan 3 «Taizong ji xia» (Wikisource 舊唐書/卷3) (貞觀二十二年閏月): «副將薛萬徹脅於闐王伏闍信入朝。» · Jiu Tang shu (Liu Xu vd., 945) juan 198 «Xirong» (Wikisource 舊唐書/卷198): «太宗既破龜茲，移置安西都護府於其國城 … 兼統於闐、疏勒、碎葉，謂之「四鎮」。» | BEYAN: Hotan Tang'ın Dört Garnizon'unda yer aldı, Yuchi hanedanı kral olarak sürdü (egemenlik Tang'da alındı; Xin Tang 221 shang: «會高宗立，授右衛大將軍»). Çin ay-güneş takvimi → Jülyen: 貞觀二十二年閏十二月丁丑朔 → 0649-01-19; astronomik ay/zhongqi hesabı (denetim/dogu/cin2/_cal.py işlevleri, gün-sayacı gz() ile), ±1-2 gün; Jülyen kalır (1582 öncesi).",
   "sinir_id": [],
   "kesinlik": "ay"
@@ -6017,7 +6017,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
    "konu-askeri",
    "dogu-500-1281"
   ],
-  "d": "Kuça Tibet İmparatorluğu (Tubo / Yarlung) egemenliğine geçti: Tibet Bahuan'ı aldı, Dört Garnizon kaldırıldı; Kuça Tibet hâkimiyetine girdi (Jiu Tang 5, ay hassasiyeti). ‖ Kâşgar Tibet İmparatorluğu (Tubo / Yarlung) egemenliğine geçti: Tibet Dört Garnizon'u aldı, Kâşgar Tibet hâkimiyetine girdi (Jiu Tang 5/198, ay hassasiyeti). ‖ Hotan yerleşiminin sahibi Tang Hanedani iken Tibet İmparatorluğu oldu. Gerekçe ve kaynak aşağıdadır.",
+  "d": "Kuça Tibet İmparatorluğu (Tubo / Yarlung) egemenliğine geçti: Tibet Bahuan'ı aldı, Dört Garnizon kaldırıldı; Kuça Tibet hâkimiyetine girdi (Jiu Tang 5, ay hassasiyeti). ‖ Kâşgar Tibet İmparatorluğu (Tubo / Yarlung) egemenliğine geçti: Tibet Dört Garnizon'u aldı, Kâşgar Tibet hâkimiyetine girdi (Jiu Tang 5/198, ay hassasiyeti). ‖ Hotan yerleşiminin sahibi Tang Hanedanı iken Tibet İmparatorluğu oldu. Gerekçe ve kaynak aşağıdadır.",
   "kaynak": "Jiu Tang shu juan 5 «Gaozong ji xia» (Wikisource 舊唐書/卷5) (咸亨元年): «夏四月，吐蕃寇陷白州等一十八州，又與於闐合眾襲龜茲撥換城，陷之。罷安西四鎮。» · Jiu Tang shu (Liu Xu vd., 945) juan 198 «Xirong» (Wikisource 舊唐書/卷198): «其後吐蕃大入，焉耆已西四鎮城堡，並為賊所陷。» | BEYAN: Kuça şehrinin kendisi için ayrı fetih günü yok; Dört Garnizon kaldırıldı (670-04). Xin Tang 221 shang Tibet fethini 儀鳳 (676-679) verir ve Jiu Tang 5 675-676'da Kuça kralı Bai Suji'nin Tang'a elçi gönderdiğini yazar — çelişki; Jiu Tang 5 esas alındı. Çin ay-güneş takvimi → Jülyen: 咸亨元年夏四月 ayı başı → 0670-04-25; astronomik ay/zhongqi hesabı (denetim/dogu/cin2/_cal.py işlevleri, gün-sayacı gz() ile), ±1-2 gün; Jülyen kalır (1582 öncesi). ‖ Jiu Tang shu (Liu Xu vd., 945) juan 198 «Xirong» (Wikisource 舊唐書/卷198): «其後吐蕃大入，焉耆已西四鎮城堡，並為賊所陷。» · Jiu Tang shu juan 5 «Gaozong ji xia» (Wikisource 舊唐書/卷5) (咸亨元年): «罷安西四鎮。» | BEYAN: Kâşgar için ayrı gün yok; Dört Garnizon'un düşüşü (670-04). Jiu Tang 5 咸亨四年十二月丙午 «疏勒二國王入朝請降» (673) ve Xin Tang 221 shang «儀鳳時，吐蕃破其國» (676-679) ile çelişkili; Jiu Tang 5 (670) esas alındı. Çin ay-güneş takvimi → Jülyen: 咸亨元年夏四月 ayı başı → 0670-04-25; astronomik ay/zhongqi hesabı (denetim/dogu/cin2/_cal.py işlevleri, gün-sayacı gz() ile), ±1-2 gün; Jülyen kalır (1582 öncesi). ‖ 舊唐書 juan 5 (zh.wikisource.org/wiki/舊唐書/卷5): «吐蕃寇陷白州等一十八州，又與於闐合眾襲龜茲撥換城，陷之。罷安西四鎮。» | 舊唐書 juan 198 (zh.wikisource.org/wiki/舊唐書/卷198): «其後吐蕃大入，焉耆已西四鎮城堡，並為賊所陷。» | BEYANLI YAKLAŞIKLIK: Hotan’ın Tibet idaresine giriş günü ayrı yok; Dört Garnizon’un kaldırılışı (670-04) ve Tibet-Hotan ittifakı. t=692-11-14: Jiu Tang 198 “長壽元年…克復龜茲、於闐等四鎮” (Kuça zinciriyle aynı gün). Ay-güneş → Jülyen: Kuça zinciri (bozkir3 _cal.py) ±1-2 gün.",
   "sinir_id": [],
   "kesinlik": "ay"
@@ -6041,7 +6041,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
    "konu-askeri",
    "dogu-500-1281"
   ],
-  "d": "Kuça (Kuqa) yerleşiminin sahibi Tibet İmparatorluğu iken Tang Hanedani oldu. Gerekçe ve kaynak aşağıdadır. ‖ Hotan yerleşiminin sahibi Tibet İmparatorluğu iken Tang Hanedani oldu. Gerekçe ve kaynak aşağıdadır. ‖ Kâşgar Tang Hanedani egemenliğine geçti: Wang Xiaojie Tibet'i yendi, Kâşgar Dört Garnizon ile Tang'a döndü.",
+  "d": "Kuça (Kuqa) yerleşiminin sahibi Tibet İmparatorluğu iken Tang Hanedanı oldu. Gerekçe ve kaynak aşağıdadır. ‖ Hotan yerleşiminin sahibi Tibet İmparatorluğu iken Tang Hanedanı oldu. Gerekçe ve kaynak aşağıdadır. ‖ Kâşgar Tang Hanedanı egemenliğine geçti: Wang Xiaojie Tibet'i yendi, Kâşgar Dört Garnizon ile Tang'a döndü.",
   "kaynak": "舊唐書 juan 198 (zh.wikisource.org/wiki/舊唐書/卷198): «則天臨朝，長壽元年，武威軍總管王孝傑、阿史那忠節大破吐蕃，克復龜茲、於闐等四鎮，自此復於龜茲置安西都護府» | 舊唐書 juan 196下 (zh.wikisource.org/wiki/舊唐書/卷196下): «自是安西阻絕，莫知存否。» | f: Jiu Tang 6 «冬十月» 長壽元年 (692-11-14; bozkir3 hesabı); t=791-01-01 yıl (貞元七年): Anxi ile bağ koptu, Kuça’nın Tibet’e fiilî düşüş yılı okunmadı (BEYAN). ‖ 舊唐書 juan 198 (zh.wikisource.org/wiki/舊唐書/卷198): «則天臨朝，長壽元年，武威軍總管王孝傑、阿史那忠節大破吐蕃，克復龜茲、於闐等四鎮» | 舊唐書 juan 6 (zh.wikisource.org/wiki/舊唐書/卷6): «冬十月，武威軍總管王孝傑大破吐蕃，復龜茲、于闐、疏勒、碎葉鎮。» | 舊唐書 juan 196下 (zh.wikisource.org/wiki/舊唐書/卷196下): «自是安西阻絕，莫知存否。» | BEYAN: t=0791-01-01 yıl (貞元七年 ≈ 791; yıl numarası sayfa bağlamından, ay/gün yok): Beiting 790’da düştü, Anxi (Dört Garnizon) ile bağ 791’de koptu; Hotan’ın fiilî düşüş yılı okunmadı. TDV Hoten 744’ten itibaren Hoten’i Uygur Kağanlığı sınırlarında sayar → bu yüzden ÇELİŞKİ: aşağıdaki dilim TDV’yi (esas) izler; 744-791 arası Çin kaynağında Tang garnizonu görünür. ‖ Jiu Tang shu juan 6 «Zetian ji» (Wikisource 舊唐書/卷6) (長壽元年): «冬十月，武威軍總管王孝傑大破吐蕃，復龜茲、于闐、疏勒、碎葉鎮。» · Xin Tang shu (Ouyang Xiu vd., 1060) juan 221 shang «Xiyu» (Wikisource 新唐書/卷221上): «開元十六年，始遣大理正喬夢松攝鴻臚少卿，冊其君安定為疏勒王。天寶十二載，首領裴國良來朝，授折沖都尉» | BEYAN: bitiş 0766-01-01 karluk künyesinin f'sidir (hayalet devlet önlemi). ÇELİŞKİ: TDV Kâşgar «Karluklar 750’de şehri tekrar ele geçirdiler» der (TDV Karluklar md. devleti 766'da kurulmuş sayar); Çin metni Pei Guoliang'ın 753'te Tang unvanı aldığını yazar — üç kaynak çelişkili, çözüm RAPOR.md künye düzeltme önerisi (karluk f 0750). TDV 715 Kuteybe akını (TDV Kâşgar) kalıcı hâkimiyet sayılmadı. Çin ay-güneş takvimi → Jülyen: 長壽元年冬十月 ayı başı → 0692-11-14; astronomik ay/zhongqi hesabı (denetim/dogu/cin2/_cal.py işlevleri, gün-sayacı gz() ile), ±1-2 gün; Jülyen kalır (1582 öncesi).",
   "ic_not_ham_gun":"0692-11-14 (kaynak ifadesine göre ay düzeyi)", "gun": "0692-11-14 (gün kesin değil)",
   "kesinlik": "ay",
@@ -6068,7 +6068,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
    "konu-askeri",
    "dogu-500-1281"
   ],
-  "d": "Endican Tang Hanedani egemenliğinden çıktı; kalıcı sahip belirsiz: Talas sonrası Fergana'da Çin hâkimiyeti sona erdi; kalıcı sahip belirsiz (BOŞLUK). ‖ Hokand Tang Hanedani egemenliğinden çıktı; kalıcı sahip belirsiz: Talas sonrası Fergana'da Çin hâkimiyeti sona erdi; kalıcı sahip belirsiz (BOŞLUK). ‖ Taşkent Abbâsî Hilâfeti egemenliğine geçti: Talas sonrası Çaç (Taşkent) Abbâsî himayesine girdi; Çin hâkimiyeti sona erdi.",
+  "d": "Endican Tang Hanedanı egemenliğinden çıktı; kalıcı sahip belirsiz: Talas sonrası Fergana'da Çin hâkimiyeti sona erdi; kalıcı sahip belirsiz (BOŞLUK). ‖ Hokand Tang Hanedanı egemenliğinden çıktı; kalıcı sahip belirsiz: Talas sonrası Fergana'da Çin hâkimiyeti sona erdi; kalıcı sahip belirsiz (BOŞLUK). ‖ Taşkent Abbâsî Hilâfeti egemenliğine geçti: Talas sonrası Çaç (Taşkent) Abbâsî himayesine girdi; Çin hâkimiyeti sona erdi.",
   "kaynak": "BOŞLUK BEYANI: arandı, bulunamadı: TDV Fergana: Abbâsî Mansûr (754-775) döneminde sıkıştırılan Fergana hükümdarı Kâşgar'a sığındı; Mehdî (775-785) devrinde Ahmed b. Es‘ad Kâsân'ı aldı; Hârûnürreşîd (786-809) devrinde Karluk yabgusuna karşı sefer; ayaklanma Me'mûn devrinde (813-833) bastırıldı — Abbâsî/Karluk/yerel hükümdar arasında kalıcı bir sahip yok («İslâm hâkimiyeti ancak IX. yüzyılda kesin olarak kurulabildi»). TDV Karluklar IX. yüzyılda Fergana'nın ilhakını tarihsiz anar. Abi merkez (Kâsân) kendisi de aynı belirsizlikte. | BEYANLI YAKLAŞIKLIK (bölge, şehir tanıklığı DEĞİL): Andican Fergana vadisinin petek temsilcisidir; TDV Endican: «Tarihi IX. yüzyıla kadar giden bölgenin ismini İbn Havkal Endigân … şeklinde yazmıştır.» Yerleşimin 0500 öncesi var olduğu kanıtlanamadı; ABİ MERKEZ: Kâsân/Ahsîkes (Fergana başkenti, TDV Fergana). Kâsân koordinat tanığı yok (yeni yerleşim yazılmadı). ‖ BOŞLUK BEYANI: arandı, bulunamadı: TDV Fergana: Abbâsî Mansûr (754-775) döneminde sıkıştırılan Fergana hükümdarı Kâşgar'a sığındı; Mehdî (775-785) devrinde Ahmed b. Es‘ad Kâsân'ı aldı; Hârûnürreşîd (786-809) devrinde Karluk yabgusuna karşı sefer; ayaklanma Me'mûn devrinde (813-833) bastırıldı — Abbâsî/Karluk/yerel hükümdar arasında kalıcı bir sahip yok («İslâm hâkimiyeti ancak IX. yüzyılda kesin olarak kurulabildi»). TDV Karluklar IX. yüzyılda Fergana'nın ilhakını tarihsiz anar. Abi merkez (Kâsân) kendisi de aynı belirsizlikte. | BEYANLI YAKLAŞIKLIK (bölge, şehir tanıklığı DEĞİL): Hokand Fergana vadisinin petek temsilcisidir; TDV Hokand: «Şehrin ne zaman kurulduğu hakkında bir bilgi bulunmamakla beraber buranın adının X. yüzyıl Arap coğrafyacılarının eserlerinde geçmesi tarihinin daha da eskiye indiğini gösterir.» Yerleşimin 0500 öncesi var olduğu kanıtlanamadı; ABİ MERKEZ: Kâsân/Ahsîkes (Fergana başkenti, TDV Fergana). Kâsân koordinat tanığı yok (yeni yerleşim yazılmadı). ‖ TDV İslâm Ansiklopedisi, «Taşkent» md., https://islamansiklopedisi.org.tr/taskent: «Hükümdarın oğlu Araplar’dan yardım istedi. Ebû Müslim-i Horasânî, Ziyâd b. Sâlih’i bölgeye gönderdi. Zilhicce 133 (Temmuz 751) tarihinde Talas nehri kenarında yapılan savaşta Türkler Araplar’ın desteğiyle Çinliler’i mağlûp ettiler.» · «Abbâsîler devrinde Şâş bölgesi Türkler’e karşı bir müdafaa hattı teşkil ediyordu. … Taşkent’in etrafı 159 (776) yılında Horasan Valisi Abdullah b. Humeyd b. Kahtabe tarafından surlarla çevrildi.» | BEYAN: yerel Türk hükümdarın oğlu Abbâsî himayesinde; surların Abbâsî valisince yapılması (776) Abbâsî kontrolünü gösterir (TDV doğrudan «Abbâsî hâkimiyeti» demez, çıkarım).",
   "sinir_id": [],
   "kesinlik": "yil"
@@ -6360,7 +6360,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
    "konu-askeri",
    "dogu-500-1281"
   ],
-  "d": "Endican Tang Hanedani egemenliğine geçti: Batı Göktürk çöktü; Fergana bir Çin (Tang) eyaleti oldu. ‖ Hokand Tang Hanedani egemenliğine geçti: Batı Göktürk çöktü; Fergana bir Çin (Tang) eyaleti oldu.",
+  "d": "Endican Tang Hanedanı egemenliğine geçti: Batı Göktürk çöktü; Fergana bir Çin (Tang) eyaleti oldu. ‖ Hokand Tang Hanedanı egemenliğine geçti: Batı Göktürk çöktü; Fergana bir Çin (Tang) eyaleti oldu.",
   "kaynak": "TDV İslâm Ansiklopedisi, «Fergana» md., https://islamansiklopedisi.org.tr/fergana: «Batı Göktürk Devleti’nin ortadan kalkması ile (658) bir Çin eyaleti haline gelen, daha sonra da bir Türk hükümdarının yönetimine girdiği anlaşılan Fergana» | BEYAN: Çin hâkimiyetinin sonu TDV Fergana'da verilmez; 0751 TDV Taşkent'in Talas yılıdır (Çin yenilgisi, TDV: «Türkler Araplar’ın desteğiyle Çinliler’i mağlûp ettiler»); «Türk hükümdarı yönetimi» tarihsiz. | BEYANLI YAKLAŞIKLIK (bölge, şehir tanıklığı DEĞİL): Andican Fergana vadisinin petek temsilcisidir; TDV Endican: «Tarihi IX. yüzyıla kadar giden bölgenin ismini İbn Havkal Endigân … şeklinde yazmıştır.» Yerleşimin 0500 öncesi var olduğu kanıtlanamadı; ABİ MERKEZ: Kâsân/Ahsîkes (Fergana başkenti, TDV Fergana). Kâsân koordinat tanığı yok (yeni yerleşim yazılmadı). ‖ TDV İslâm Ansiklopedisi, «Fergana» md., https://islamansiklopedisi.org.tr/fergana: «Batı Göktürk Devleti’nin ortadan kalkması ile (658) bir Çin eyaleti haline gelen, daha sonra da bir Türk hükümdarının yönetimine girdiği anlaşılan Fergana» | BEYAN: Çin hâkimiyetinin sonu TDV Fergana'da verilmez; 0751 TDV Taşkent'in Talas yılıdır (Çin yenilgisi, TDV: «Türkler Araplar’ın desteğiyle Çinliler’i mağlûp ettiler»); «Türk hükümdarı yönetimi» tarihsiz. | BEYANLI YAKLAŞIKLIK (bölge, şehir tanıklığı DEĞİL): Hokand Fergana vadisinin petek temsilcisidir; TDV Hokand: «Şehrin ne zaman kurulduğu hakkında bir bilgi bulunmamakla beraber buranın adının X. yüzyıl Arap coğrafyacılarının eserlerinde geçmesi tarihinin daha da eskiye indiğini gösterir.» Yerleşimin 0500 öncesi var olduğu kanıtlanamadı; ABİ MERKEZ: Kâsân/Ahsîkes (Fergana başkenti, TDV Fergana). Kâsân koordinat tanığı yok (yeni yerleşim yazılmadı).",
   "sinir_id": [],
   "kesinlik": "yil"
@@ -8349,7 +8349,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
    "konu-askeri",
    "dogu-500-1281"
   ],
-  "d": "Karaşar (Yanqi) yerleşiminin sahibi Tang Hanedani iken sahibi kaynaklarda bilinmeyen duruma geçti. Gerekçe ve kaynak aşağıdadır. ‖ Kuça (Kuqa) yerleşiminin sahibi Tang Hanedani iken sahibi kaynaklarda bilinmeyen duruma geçti. Gerekçe ve kaynak aşağıdadır. ‖ Hotan yerleşiminin sahibi Tang Hanedani iken Uygur Kağanlığı oldu. Gerekçe ve kaynak aşağıdadır.",
+  "d": "Karaşar (Yanqi) yerleşiminin sahibi Tang Hanedanı iken sahibi kaynaklarda bilinmeyen duruma geçti. Gerekçe ve kaynak aşağıdadır. ‖ Kuça (Kuqa) yerleşiminin sahibi Tang Hanedanı iken sahibi kaynaklarda bilinmeyen duruma geçti. Gerekçe ve kaynak aşağıdadır. ‖ Hotan yerleşiminin sahibi Tang Hanedanı iken Uygur Kağanlığı oldu. Gerekçe ve kaynak aşağıdadır.",
   "kaynak": "BOŞLUK BEYANI: arandı, bulunamadı: Karaşar 791-911 sahibi: 舊唐書 juan 196下 (zh.wikisource.org/wiki/舊唐書/卷196下): «自是安西阻絕，莫知存否。» | TDV İslâm Ansiklopedisi, «Uygurlar» md., https://islamansiklopedisi.org.tr/uygurlar (22.10.2026'da okundu): «Diğer kabileler Doğu Türkistan’a göç edip Turfan, Kuça, Karaşar şehirlerine ve civarına yerleştiler.» · «911’de bağımsız hale gelen Uygur Devleti güneyde Tibet, Batı Türkistan’da Karluk bölgesiyle sınırlıydı.» | Tibet (790’lardan) / Uygur Kağanlığı / Kansu-Turfan Uygurları dönemi için Karaşar adıyla tek sahip okunmadı → boşluk. t=911-01-01 TDV Uygurlar (koco-uygur künye f). ‖ BOŞLUK BEYANI: arandı, bulunamadı: Kuça 791-911 sahibi: 舊唐書 juan 196下 (zh.wikisource.org/wiki/舊唐書/卷196下): «自是安西阻絕，莫知存否。» | TDV İslâm Ansiklopedisi, «Uygurlar» md., https://islamansiklopedisi.org.tr/uygurlar (22.10.2026'da okundu): «Diğer kabileler Doğu Türkistan’a göç edip Turfan, Kuça, Karaşar şehirlerine ve civarına yerleştiler.» | Tibet (790’lardan) / Uygur dönemi için Kuça adıyla tek sahip okunmadı → boşluk (Karaşar zinciriyle aynı). t=911-01-01 koco-uygur künye f / TDV Uygurlar. ‖ TDV İslâm Ansiklopedisi, «Hoten» md., https://islamansiklopedisi.org.tr/hoten (22.10.2026'da okundu): «744 yılında kurulan Büyük Uygur Kağanlığı sınırlarına dahil olan Hoten, bu devirde ve özellikle bu devletin 840 yılında Kırgızlar tarafından yıkılması üzerine bölgenin yoğun biçimde Uygur göçmenlerince iskân edilmesinden sonra tamamen Türkleşti» | ÇELİŞKİ BEYANI: TDV Hoten 744-840 boyunca Hoten’i Uygur Kağanlığı içinde sayar; Çin kaynakları (Jiu Tang) 744-791 Tang Anxi garnizonunu, 791 sonrası Anxi kopukluğunu anlatır ve Tibet idaresini sayfalarda açmaz. TDV esas alındı: 791-840 Uygur Kağanlığı; 744-791 Tang yazıldı (Tang 198/6 Anxi garnizonu). Tibet’in 791-840 Hotan idaresi (Çin/Tibet kaynakları) okunmadı.",
   "ic_not_ham_gun":"0791-01-01 (kaynak ifadesine göre yüzyıl düzeyi)", "gun": "791 (yalnız yıl biliniyor)",
   "kesinlik": "yuzyil",
@@ -8720,7 +8720,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
    "guney-kore",
    "abd-ordu-askeri-hukumeti-kore"
   ],
-  "b": "Kore Cumhuriyeti (Guney Kore) egemenliğine geçti — Goryeong",
+  "b": "Kore Cumhuriyeti (Güney Kore) egemenliğine geçti — Goryeong",
   "tur": "toprak-kazanc",
   "onem": 2,
   "dunya": 1,
@@ -8732,7 +8732,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
    "konu-siyasi",
    "dogu-kuyruk-1281-2000"
   ],
-  "d": "Goryeong yerleşiminin sahibi Kore'de ABD Ordusu Askerî Hükûmeti (USAMGIK, 38. paralel güneyi) iken Kore Cumhuriyeti (Guney Kore) oldu. ‖ Gimhae yerleşiminin sahibi Kore'de ABD Ordusu Askerî Hükûmeti (USAMGIK, 38. paralel güneyi) iken Kore Cumhuriyeti (Guney Kore) oldu. ‖ Jindo yerleşiminin sahibi Kore'de ABD Ordusu Askerî Hükûmeti (USAMGIK, 38. paralel güneyi) iken Kore Cumhuriyeti (Guney Kore) oldu. ‖ Sabi yerleşiminin sahibi Kore'de ABD Ordusu Askerî Hükûmeti (USAMGIK, 38. paralel güneyi) iken Kore Cumhuriyeti (Guney Kore) oldu. Bu kuruluşla 38. paralelin güneyindeki İnçon, Ganghwa, Kongcu, Çungcu, Concu, Taegu, Kyongcu ve Ceccu Kore Cumhuriyeti'ne geçti.",
+  "d": "Goryeong yerleşiminin sahibi Kore'de ABD Ordusu Askerî Hükûmeti (USAMGIK, 38. paralel güneyi) iken Kore Cumhuriyeti (Güney Kore) oldu. ‖ Gimhae yerleşiminin sahibi Kore'de ABD Ordusu Askerî Hükûmeti (USAMGIK, 38. paralel güneyi) iken Kore Cumhuriyeti (Güney Kore) oldu. ‖ Jindo yerleşiminin sahibi Kore'de ABD Ordusu Askerî Hükûmeti (USAMGIK, 38. paralel güneyi) iken Kore Cumhuriyeti (Güney Kore) oldu. ‖ Sabi yerleşiminin sahibi Kore'de ABD Ordusu Askerî Hükûmeti (USAMGIK, 38. paralel güneyi) iken Kore Cumhuriyeti (Güney Kore) oldu. Bu kuruluşla 38. paralelin güneyindeki İnçon, Ganghwa, Kongcu, Çungcu, Concu, Taegu, Kyongcu ve Ceccu Kore Cumhuriyeti'ne geçti.",
   "kaynak": "Foreign Relations of the United States 1948, VI, Editorial Note (history.state.gov/historicaldocuments/frus1948v06/d870; açıldı, okundu): «The invitation to General and Mrs. MacArthur to attend the ceremonies inaugurating the new Korean Government on August 15 was accepted.» | BEYANLI YAKLAŞIKLIK: 15 Ağustos 1948 yeni hükûmetin açılış töreni; ABD idaresinden resmî yetki devri belgeleri (Rhee–Hodge notları) açılmadı. · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): FRUS 1948 v.VI d.870, Editorial Note (history.state.gov/historicaldocuments/frus1948v06/d870)",
   "kesinlik": "gun",
   "sinir_id": [],
@@ -9404,7 +9404,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
    "konu-siyasi",
    "dogu-kuyruk-1281-2000"
   ],
-  "d": "Banavasi yerleşiminin sahibi Rastrakuta Hanedani iken Batı Çalukya (Kalyani Çalukyaları) oldu. Tarih yıl hassasiyetindedir.",
+  "d": "Banavasi yerleşiminin sahibi Rastrakuta Hanedanı iken Batı Çalukya (Kalyani Çalukyaları) oldu. Tarih yıl hassasiyetindedir.",
   "kaynak": "R. C. Majumdar (ed.), The History and Culture of the Indian People, IV: The Age of Imperial Kanauj (Bhavan, Bombay 1955; archive.org ageofimperialkan04bhar; açıldı, okundu): «Taila became the overlord of the Deccan by A.D. 975»; R. C. Majumdar (ed.), The History and Culture of the Indian People, V: The Struggle for Empire (Bhavan, Bombay; archive.org hcip-5-struggle-for-empire-ed.-r.-c.-majumdar_202512; açıldı, okundu): «Taila’s feudatory Brahmarasa governed Banavasi 12000 and Santalige 1000»; Someshvara IV: «Kamadevarasa of Banavasi and Hanungal, Hoysala Ballala II of Dorasamudra, and Vijaya Pandya of Nolambavadi were his feudatories»",
   "kesinlik": "yil",
   "sinir_id": [],
@@ -10984,7 +10984,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
   "taraflar": [
    "liang-guney"
   ],
-  "ic_not_ham_b":"Hanoi: liang-guney egemenliği başladı", "b": "Hanoi: Liang (Guney Hanedani) egemenliği başladı",
+  "ic_not_ham_b":"Hanoi: liang-guney egemenliği başladı", "b": "Hanoi: Liang (Güney Hanedanı) egemenliği başladı",
   "tur": "toprak-kazanc",
   "onem": 2,
   "dunya": 1,
