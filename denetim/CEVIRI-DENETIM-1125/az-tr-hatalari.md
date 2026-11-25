@@ -1,0 +1,19 @@
+== tr_hatalari.md
+- arayuz "# Ocak # (imzalar # Ocak-# Mart arası şeyhlik şeyhlik tamamlandı)": "şeyhlik" iki kez; cümle bozuk
+- arayuz "# [yalnız yıl teyitli; TDV «Karamanoğulları» ... ic_not_t]": kullanıcıya görünen iç not (ic_not_t, "karaman künye")
+- arayuz "Ocak # (gün Kahire'den — bk. ic_not_t)": kullanıcıya görünen iç alan adı
+- arayuz "# Ocak # (kaynak özeti teyit bekler)" ve "#-#-# [ozet; teyit bekler]": geliştirici notu (ikincisi Türkçe karaktersiz)
+- arayuz "# (kaynak YIL hassasiyetinde; ... `YYYY-#-#` beyandır, uydurma değil)": geliştirici notu
+- arayuz "# Temmuz # (ÇELİŞKİ-#: TDV «Timişvar» ... olaylar_ek# ...)" ve diğer ÇELİŞKİ-# metinleri: iç kayıt numarası / dosya adı
+- arayuz "# — YIL hassasiyeti · TDV `malatya` ... (Emre notu ##)": iç not, kişi adı
+- arayuz "MÖ # (ALT SINIR; donem-toplami ...)" / "(ALT SINIR; yerlesim-suresi ...)": iç alan adları
+- olay OLAYLAR_2S0920:1942-01-01:0: açıklamada "(bkz. ic_not)"
+- olay OLAYLAR_EK3:1689-08-01:0 ve OLAYLAR_EK3:1689-10-25:0: "bu oturumda yeniden doğrulanmadı" (Claude oturum notu kullanıcıya görünüyor)
+- olay OLAYLAR_LAB19_2S_P1:0780-12-02:0: "(künye ucu; ...)" ve "Atlasın ... künyesi ... biter" iç dil
+- olay OLAYLAR_DUNYA_BOLGE_1109:1917-03-15:0: "[[rusya-gecici-hukumet]], [[sovyet-rusya]]" bağlantı sözdizimi ham görünüyor
+- olay OLAYLAR_EK:1324-01-01:0: "Haritadaki 1324 sınırı yer tutucudur" iç not
+- olay OLAYLAR:1699-01-26:0, OLAYLAR_EK:1717-08-18:0, OLAYLAR_EK3:1690-09-27:0 vb.: TDV slug adları (karlofca, suleyman-ii) ve "beyanlı yaklaşıklık / dönem ucu" jargonu
+- olay OLAYLAR_GEZGINLER:1818-01-01:0: "Singkarak golu" (gölü)
+- olay OLAYLAR_EK21:1811-04-01:0 (ve OLAYLAR_OK109:1918-10-31:0): alıntı tırnakları ters bölü ile (\") metinde görünüyor olabilir
+- devlet misir-erken-hanedan ... uman-ibadi aralığındaki antik/erken kayıtlar (ör. misir-eski-krallik, ur-3, akad, orta-asur, medine-devleti) ve han-devleti-zhou, bati-han, maurya, cemisgezek-beyligi, sutayogullari, neustria ... besalu: TR adlar Türkçe karaktersiz ("Misir Eski Krallik", "Imparatorlugu", "Hanedani", "Kralligi", "Sutayogullari")
+- devlet euboea-negroponte: "Negroponte (Eğriboz) — Venedik Krallığı" adlandırması kontrol edilmeli (Venedik idaresi)

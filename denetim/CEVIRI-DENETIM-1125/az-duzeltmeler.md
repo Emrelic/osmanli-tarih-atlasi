@@ -1,0 +1,196 @@
+- arayuz | " ayarlarını açar/kapatır. | m: 'açar' yanlış zaman/anahtar; açır olmalı
+- arayuz | # (Gelibolu'nun fethi #) | m: Yer adı çoğul olmuş ('Geliboluluların fethi' anlamı)
+- arayuz | # (Süleyman Solonc'un saltanatının başlangıcı) | m: Özel ad bozulmuş (Solonc, c harfi)
+- arayuz | # Eylül # (gün YALNIZ hakemli makaleden, Enverî'ye dayalı; TDV gün vermiyor, yalnız Ağustos-Eylül # diyor. Avusturya arşivi aynı olayı #/# Eylül gecesi diye kaydeder) | m: 'hakemli' yanlış: 'təkmilləşdirilmiş' uydurma ek; Türkçe 'hakemli' kalıntısı
+- arayuz | # Eylül # (gün: Azmi Süslü, "Osmanlı-Fransız Diplomatik İlişkileri, #-#", TTK Belleten XLVII/#, #) | m: Kaynak (makale) adı çevrilmez; özgün biçimi korunmalı
+- arayuz | # Zilhicce # / # Kasım # (TDV Âmirîler) | m: Yanlış özel ad: Âmirîler hanedanı 'emirler' yapılmış
+- arayuz | # Muharrem # / # Mayıs # (Herat'ın düşüşü) — # Muharrem/# Mayıs (hutbenin Şeybânî adına okunuşu) | m: İyelik eki eksik
+- arayuz | (kırpmanın TAMAMI — hâl başına düşen = bu ÷ #; #'de # ms) | m: 'Kırpma' göz kırpma/yanıp sönme; 'kəsmə' (kesme) yanlış
+- arayuz | Öncesi/sonrası kırpması | m: 'Kırpma' yanıp sönme; 'kəsmə' yanlış anlam
+- arayuz | Öncesi/sonrası kırpması: olay yerine varınca haritanın olaydan önceki ve sonraki hâli sırayla gösterilir. | m: 'Kırpma' yanıp sönme; 'kəsmə' yanlış anlam
+- arayuz | Kırpma sayısı | m: 'Kırpma' yanıp sönme; 'kəsmə' yanlış anlam
+- arayuz | Kırpma sayısı: öncesi→sonrası gösteriminin kaç kez tekrarlanacağı. | m: 'Kırpma' yanıp sönme; 'kəsmə' yanlış anlam
+- arayuz | Kırpma süresi | m: 'Kırpma' yanıp sönme; 'kəsmə' yanlış anlam
+- arayuz | Kırpma süresi: öncesi/sonrası gösteriminin toplam süresi (milisaniye). | m: 'Kırpma' yanıp sönme; 'kəsmə' yanlış anlam
+- arayuz | Altlık harita, veri ve lisans atıfları. Maddelerin kaynakları Dizin içindeki Kaynaklar sekmesindedir. | m: Madde 'qeyd' (not) yapılmış; kronoloji maddesi kastediliyor
+- arayuz | Eksi işaretiyle MÖ/MS birlikte yazılmaz (“ | m: MS kısaltması 'e.' diye kesilmiş; diğer kayıtlarda b.e.
+- arayuz | Harekât okları (Harekât okları kutusu) | m: Kutu adı diğer kayıtlardaki 'Hərəkat oxları' ile uyuşmuyor
+- arayuz | Kelimeleri boşlukla ayırarak yazın; hepsi geçen maddeler kalır. Tırnak içindeki ifade tek parça aranır. Büyük/küçük harf ve şapka farkı gözetilmez. | m: 'şapka' (^ işareti) Azericede anlaşılmaz Türkçe kalıntısı
+- arayuz | Kelimeleri boşlukla ayırın — HEPSİ geçen maddeler kalır (Mohaç macar). Tırnak tek ifade sayılır: "meydan muharebesi". Büyük/küçük harf ve Türkçe şapka farkı YOK. | m: 'şapka' (^ işareti) Azericede anlaşılmaz Türkçe kalıntısı
+- arayuz | KOŞU | m: Program koşusu; 'qaçış' kaçış/firar demek
+- arayuz | koşu | m: Program koşusu; 'qaçış' kaçış/firar demek
+- arayuz | Haritayı üreten motor koşusu | m: 'qaçış' kaçış demek
+- arayuz | MÖ # (Neriglissar'ın ölümü sonrası, Labaşi-Marduk'u deviren darbe) | m: Bozuk anlatım
+- arayuz | MÖ # civarı (Merneptah'ın #. yılı) | m: Özel ad bozulmuş ve iyelik eki kaybolmuş
+- arayuz | Sürükleyerek kaydırın, fare tekerleğiyle (ya da iki parmakla) yakınlaşın. | m: Anlamsız tekrar
+- arayuz | Vazgeç | m: İptal düğmesi; 'əl çək' (elini çek/rahat bırak) uygunsuz
+- arayuz | ✕ Vazgeç | m: İptal düğmesi; 'əl çək' uygunsuz
+- arayuz | ← Vazgeç | m: Türkçe kalıntısı (vazgeç)
+- arayuz | · Esc: vazgeç | m: İptal; 'əl çək' uygunsuz
+- arayuz | sahiplik: sürtünmeli yürüyüş | m: İsim eksik, anlamsız
+- arayuz | sahiplik: Voronoi (düz çizgi en yakın) — yürüyüş bütçesi YOK | m: İsim eksik, anlamsız
+- arayuz | 🔴 PROTOTİP — KUŞ UÇUŞU MESAFE, GERÇEK YÜRÜME MALİYETİ DEĞİL · | m: İmla: İ harfi
+- arayuz | 🎭 Magazin | m: Azericede 'maqazin' dükkân anlamına gelir; magazin haberi kastediliyor
+- arayuz | 🗣️ Nasıl bilirdiniz | m: Vefat eden kişi için sorulan kalıp; 'necə bilərdiniz' 'nereden bilebilirdiniz' anlamı verir
+- devlet | jin-hanedani | m: Lehçe/Macarca yazım kalıntısı (Szin)
+- devlet | aztek-imparatorlugu | m: Mexica halk adı; 'Meksika' ülkesi değil
+- devlet | karga | m: Crow (karga) kuşu adı: Azericesi qarğa
+- devlet | tekrur | m: Fransızca yazım kalıntısı; diğer kayıtlarda Segu
+- devlet | ziriler | m: İmla: çift i
+- devlet | granada-ziriler | m: İmla: çift i
+- devlet | musafiri | m: İmla / özel ad (Sellârîler)
+- devlet | barselona-kontlugu | m: İmla
+- devlet | tahiti | m: İyelik eki eksik
+- devlet | hawaii-seflikleri | m: İyelik eki eksik
+- devlet | tairona | m: İyelik eki eksik
+- devlet | rarotonga | m: İyelik eki eksik
+- devlet | taino-seflikleri | m: İyelik eki eksik
+- devlet | hamdani-yemen | m: İyelik eki eksik
+- devlet | endulus-emevi | m: İyelik eki eksik
+- devlet | kalyani-kalacuri | m: İyelik eki eksik
+- devlet | andorra | m: Co-principality (eş prenslik); 'Əmir' yanlış
+- devlet | thuringia-landgrafligi | m: İmla (ünlü uyumu)
+- devlet | ogedey-ulusu | m: Hanedan adı (Ögedeyîler) bozulmuş
+- devlet | fed-malay-devletleri | m: Bozuk tamlama
+- devlet | birlesik-arap-devletleri | m: İmla
+- devlet | transkaspi-hukumeti | m: Transkaspiya (Hazar ötesi) 'Zaqafqaziya' (Transkafkasya) yapılmış: yanlış bölge
+- devlet | lahmi | m: Kiril harfi karışmış
+- devlet | misir-eski-krallik | m: Tamlama eki eksik
+- devlet | misir-orta-krallik | m: Tamlama eki eksik
+- devlet | misir-yeni-krallik | m: Tamlama eki eksik
+- devlet | celili-musul | m: Hanedan adı eksik hece
+- devlet | zengi-cizre | m: İmla
+- devlet | tohar-yabgu | m: İmla (ünlü uyumu)
+- devlet | kuclug-karahitay | m: Kişi adı ek almış gibi bozulmuş
+- devlet | yan-liu-shouguang | m: Özel ad yazımı bozulmuş
+- devlet | hasanveyhiler | m: Hanedan adında fazla hece
+- devlet | guanche-politileri | m: Bozuk/yarım çeviri
+- arayuz | " ayarlarını açar/kapatır. | m: 'ayarlar' Türkçe kalıntısı (duzeltme_001'deki satırın yerine geçer)
+- arayuz | Ayarlar hemen uygulanır. | m: 'ayarlar' Türkçe kalıntısı; Azericede 'tənzimləmələr'
+- arayuz | ⚙ Ayarlar | m: 'ayarlar' Türkçe kalıntısı
+- arayuz | Bölgesel olay — ⚙ Ayarlar › Bölgesel olaylar · kronoloji: | m: 'ayarlar' Türkçe kalıntısı
+- arayuz | Dış olaylar (⚙ Ayarlar): | m: 'ayarlar' Türkçe kalıntısı
+- arayuz | — ⚙ Ayarlar › Devletlerin dünya kronolojilerini göster | m: 'ayarlar' Türkçe kalıntısı
+- arayuz | Uçuş ayarları | m: Çevrilmemiş Türkçe
+- arayuz | ✈ Uçuş ayarları | m: Çevrilmemiş Türkçe
+- arayuz | Uçuş ayarları — şimdiki kip: | m: 'ayarlar' Türkçe kalıntısı
+- arayuz | Uçuş ayarları: harita olaya nasıl gitsin (pasif · ani · uçuş) ve uçuşun görüş alanı, hız ve kenar payı | m: 'ayarlar' Türkçe kalıntısı
+- arayuz | ⚙ Kronoloji ayarı | m: 'ayar' Türkçe kalıntısı
+- arayuz | ⚙ ayar · 🗺 harita · × çıkar | m: 'ayar' Türkçe kalıntısı
+- arayuz | Oynatma ayarı: olay olay ya da sene sene | m: 'ayar' Türkçe kalıntısı
+- arayuz | Oynat, ileri/geri, akış ayarı, sene ve şehir kutuları, zaman kaydırıcısı. | m: 'ayar' Türkçe kalıntısı
+- arayuz | Bir şehrin bir belgede ilk kez anıldığını anlatan maddeler (etiket: sehir-kronolojisi). Bütün devletler için ortak ayar. | m: 'ayar' Türkçe kalıntısı
+- arayuz | Seçtiğiniz devletin kronolojisini önem ve konuya göre süzme ayarları. | m: 'ayar' Türkçe kalıntısı
+- olay | OLAYLAR_EK17:1731-01-01:0 | d: İmla (hazire)
+- olay | OLAYLAR:1413-07-05:0 | d: 'yıpranmış' Türkçe kalıntısı
+- olay | OLAYLAR:1555-05-29:0 | d: 'həcca' hacı anlamında yanlış sözcük
+- olay | OLAYLAR:1571-08-01:0 | d: Hal eki hatası
+- olay | OLAYLAR:1571-10-07:0 | d: Tersane 'zavod' (fabrika) yapılmış; ayrıca 'donanmanı' ünlü uyumu
+- olay | OLAYLAR:1596-10-26:0 | d: 'savaşın genel gidişi' = müharibə; 'yıpranma' Türkçe kalıntısı
+- olay | OLAYLAR:1606-11-11:0 | d: 'yıpradıcı' Türkçe kalıntısı
+- olay | OLAYLAR:1683-09-12:0 | d: 'gerileme' (çöküş) 'gerilmə' (gerginlik) yapılmış
+- olay | OLAYLAR:1699-01-26:0 | d: İyelik eki eksik
+- olay | OLAYLAR:1919-05-19:0 | d: 'infial' (öfke) 'isyan' yapılmış
+- olay | OLAYLAR_EK:1324-01-01:0 | b: 'qaynaq' Türkçe kalıntısı (Azericede kaynak yapmak)
+- olay | OLAYLAR_EK:1324-01-01:0 | d: 'qaynaq' Türkçe kalıntısı; bozuk tamlama
+- olay | OLAYLAR_EK:1330-01-01:0 | d: Türkçe kalıntısı
+- olay | OLAYLAR_EK:1360-01-01:0 | d: Türkçe yazım kalıntısı (ı/k)
+- olay | OLAYLAR_EK:1430-03-29:0 | b: Yazım hatası
+- olay | OLAYLAR_EK:1461-06-01:0 | d: Askerî 'sefer' = yürüş; 'səfər' yolculuk demek
+- olay | OLAYLAR_EK:1471-01-01:0 | d: Tersane 'zavod' (fabrika) yapılmış
+- olay | OLAYLAR_EK:1481-09-10:0 | d: 'takviye' (destek birliği) 'təchizat' yapılmış
+- olay | OLAYLAR_EK:1526-09-01:0 | d: Yazım hatası
+- olay | OLAYLAR_EK:1788-12-17:0 | b: Yer adı 'özü/kendisi' gibi okunuyor
+- olay | OLAYLAR_EK:1788-12-17:0 | d: Yer adı 'özü' zamiri gibi okunuyor
+- olay | OLAYLAR:1337-01-01:0 | d: 'yaka' Türkçe kalıntısı
+- olay | OLAYLAR:1715-01-01:0 | b: Gereksiz tire
+- olay | OLAYLAR_EK:1829-09-14:0 | b: Antlaşma adı büyük harf (diğer kayıtlarla uyum)
+- olay | OLAYLAR_EK:1830-10-17:0 | d: Bozuk anlatım
+- olay | OLAYLAR_EK:1885-09-18:0 | d: Eski Zağra şehir adı 'Köhnə Zaqora' diye çevrilmiş; 'oldubitti' Türkçe kalıntısı
+- olay | OLAYLAR_EK:1916-04-29:0 | d: Bozuk tamlama: kimin teslim olduğu anlaşılmıyor
+- olay | OLAYLAR_EK:1357-01-01:0 | d: Gereksiz tire
+- olay | OLAYLAR_EK:1366-08-01:0 | b: Yer adı çoğul yapılmış
+- olay | OLAYLAR_EK:1376-09-01:0 | b: Yer adı çoğul yapılmış
+- olay | OLAYLAR_EK:1388-08-27:0 | d: Türkçe yazım kalıntısı
+- olay | OLAYLAR_EK:1395-08-01:0 | d: 'yaka' Türkçe kalıntısı
+- olay | OLAYLAR_EK:1403-06-01:0 | b: Yazım hatası
+- olay | OLAYLAR_EK:1403-06-01:0 | d: Yer adı çoğul yapılmış
+- olay | OLAYLAR_EK:1423-09-14:0 | b: Yazım hatası
+- olay | OLAYLAR_EK:1478-01-15:0 | d: Yazım hatası
+- olay | OLAYLAR_EK:1453-04-22:0 | d: 'kızak' yanlış karşılık
+- olay | OLAYLAR_EK2:1884-01-01:0 | d: 'kolcu' (muhafız) Azericede anlamsız
+- olay | OLAYLAR_EK2:1616-06-09:0 | d: Çini yanlış yazılmış
+- olay | OLAYLAR_EK2:1362-09-01:0 | d: 'yaka' Türkçe kalıntısı
+- olay | OLAYLAR_EK2:1459-03-07:0 | b: İyelik eki eksik
+- olay | OLAYLAR_EK2:1842-01-01:0 | d: Hal eki hatası
+- olay | OLAYLAR_EK3:1410-05-06:0 | d: 'yaka' Türkçe kalıntısı
+- olay | OLAYLAR_EK3:1683-12-25:0 | d: Bozuk tamlama (sorumlu)
+- olay | OLAYLAR_EK3:1684-03-05:0 | d: Parantez içindeki ikinci ad aynısı tekrarlanmış
+- olay | OLAYLAR_EK3:1687-08-12:0 | d: Bozuk anlatım ('azlettirdi')
+- olay | OLAYLAR_EK3:1697-09-11:0 | d: 'yaka' Türkçe kalıntısı; kişi adı
+- olay | OLAYLAR_EK4:1803-05-01:0 | d: Kölemen = Memlük; 'kölə' (esir) yanlış anlam
+- olay | OLAYLAR_EK4:1807-03-17:0 | d: Kölemen = Memlük; 'kölələrlə' (köleler) yanlış anlam
+- olay | OLAYLAR_EK4:1811-03-01:0 | b: Kölemen = Memlük
+- olay | OLAYLAR_EK4:1811-03-01:0 | d: Kölemen = Memlük
+- olay | OLAYLAR_EK4:1820-07-20:0 | d: Kölemen = Memlük
+- olay | OLAYLAR_EK4:1831-10-31:0 | d: 'kereste' (tomruk) 'şam ağacı' (çam) yapılmış
+- olay | OLAYLAR_EK4:1832-09-13:0 | d: 'iskele' (liman) 'körpü' yapılmış
+- olay | OLAYLAR_EK4:1832-11-21:0 | d: İmla (ünlü uyumu)
+- olay | OLAYLAR_EK4:1833-05-06:0 | d: İmla (ünlü uyumu)
+- olay | OLAYLAR_EK4:1833-02-20:0 | d: Atasözü yanlış/bozuk
+- olay | OLAYLAR_EK5:1288-01-01:0 | b: Karacahisar 'Qarahisar' yapılmış (başka yer)
+- olay | OLAYLAR_EK5:1288-01-01:0 | d: Karacahisar 'Qarahisar' yapılmış (başka yer)
+- olay | OLAYLAR_EK5:1302-07-27:0 | d: Türkçe kalıntısı 'bölgəsel'
+- olay | OLAYLAR_EK5:1329-06-01:0 | d: Yazım hatası
+- olay | OLAYLAR_EK5:1345-01-01:0 | d: Türkçe '-ince' kalıntısı
+- olay | OLAYLAR_EK5:1410-02-13:0 | d: Gereksiz tire
+- olay | OLAYLAR_EK5:1393-09-01:0 | d: 'iskele' (liman) 'körpü' yapılmış
+- olay | OLAYLAR_EK5:1458-05-01:0 | d: 'iskele' (liman) 'körpü' yapılmış
+- olay | OLAYLAR_EK5:1479-01-01:0 | d: 'yaka' Türkçe kalıntısı
+- olay | OLAYLAR_EK5:1517-01-24:0 | d: Tersane yanlış karşılık
+- olay | OLAYLAR_EK5:1381-03-28:0 | d: Azericede 'Elxanlı' (diğer kayıtlarla uyum)
+- olay | OLAYLAR_EK5:1354-03-02:0 | d: 'yaka' Türkçe kalıntısı
+- olay | OLAYLAR_EK5:1390-06-01:0 | d: 'yapan' Türkçe kalıntısı
+- olay | OLAYLAR_EK5:1417-01-01:0 | d: Edilgen çatı hatası
+- olay | OLAYLAR_EK5:1455-01-01:0 | d: 'yaka' Türkçe kalıntısı
+- olay | OLAYLAR_EK5:1456-07-22:0 | d: 'takviye' (destek birliği) 'təchizat' yapılmış
+- olay | OLAYLAR_EK5:1466-01-01:0 | d: Yazım hatası
+- olay | OLAYLAR_EK5:1468-01-17:0 | d: Hal eki eksik
+- olay | OLAYLAR_EK5:1482-07-29:0 | d: Bozuk tamlama
+- olay | OLAYLAR_EK5:1491-05-01:0 | d: 'yıpratıcı' Türkçe kalıntısı
+- olay | OLAYLAR_EK5:1513-04-01:0 | d: 'ağabeyi' Türkçe kalıntısı
+- olay | OLAYLAR_EK5:1517-01-27:0 | d: 'takviye kuvvetler' 'təchizat' (donanım) yapılmış
+- olay | OLAYLAR_EK5:1517-04-18:0 | b: Hal eki eksik
+- olay | OLAYLAR_EK5:1518-01-01:0 | d: Yazım hatası
+- olay | OLAYLAR_EK5:1532-08-05:0 | d: Türkçe yazım kalıntısı
+- olay | OLAYLAR_EK5:1559-05-30:0 | d: İyelik eki eksik
+- olay | OLAYLAR_EK5:1573-03-07:0 | d: Uydurma fiil biçimi
+- olay | OLAYLAR_EK5:1593-07-01:0 | d: 'gerileme' 'gerilmə' (gerginlik) yapılmış
+- olay | OLAYLAR_EK5:1598-03-29:0 | d: 'yıpratma' Türkçe kalıntısı
+- olay | OLAYLAR_EK5:1612-07-06:0 | d: Hal eki hatası; 'iskele' (liman) 'körpü' yapılmış
+- olay | OLAYLAR_EK5:1910-04-01:0 | d: Türkçe kalıntısı
+- olay | OLAYLAR_EK5:1513-01-01:0 | d: Türkçe kalıntısı (akıncı, Dalmaçya)
+- olay | OLAYLAR_EK5:1522-05-29:0 | d: Türkçe yer adı biçimi
+- olay | OLAYLAR_EK6:1806-05-27:0 | d: Türkçe yer adı biçimi
+- olay | OLAYLAR_ILIRYA0072:1806-02-01:0 | b: Türkçe yer adı biçimi
+- olay | OLAYLAR_ILIRYA0072:1806-02-01:0 | d: Türkçe yer adı biçimi
+- olay | OLAYLAR_ILIRYA0072:1806-01-01:0 | d: Türkçe yer adı biçimi
+- olay | OLAYLAR_ILIRYA0072:1813-01-01:0 | b: Türkçe yer adı biçimi
+- olay | OLAYLAR_ILIRYA0072:1813-01-01:0 | d: Türkçe yer adı biçimi
+- olay | OLAYLAR_P0055:1538-01-01:0 | d: Türkçe yer adı biçimi
+- olay | OLAYLAR_OK109:1918-10-29:0 | d: Türkçe yer adı biçimi
+- olay | OLAYLAR_OK109:1919-09-10:0 | d: Türkçe yer adı biçimi
+- olay | OLAYLAR_EK7:1689-10-25:0 | d: 'qaynaq' Türkçe kalıntısı (kaynak = vəsait)
+- olay | OLAYLAR_EK7:1793-06-01:0 | d: Türkçe kalıntısı (kaynak, düzenleme)
+- olay | OLAYLAR_EK10:1595-10-01:0 | d: Türkçe kalıntısı; antlaşma adı
+- olay | OLAYLAR_EK13:1362-03-01:0 | d: 'yaka', 'uc' Türkçe kalıntısı
+- olay | OLAYLAR_EK14:1362-06-01:0 | d: Gereksiz tire
+- olay | OLAYLAR_EK21:1811-04-01:0 | d: 'yaka' Türkçe kalıntısı
+- olay | OLAYLAR_SEHIR_ILK:1472-06-08:0 | b: Türkçe yazım kalıntısı
+- olay | OLAYLAR_SEHIR_ILK:1472-06-08:0 | d: Türkçe yazım kalıntısı
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1160-07-03:0 | b: Türkçe '-ince' kalıntısı
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1160-07-03:0 | d: Türkçe '-ince' kalıntısı
+- olay | OLAYLAR_ORTACAG_BIZANS_BALKAN:0626-07-29:0 | d: 'yaka' Türkçe kalıntısı
+- olay | OLAYLAR_ORTACAG_BIZANS_BALKAN:1122-01-01:0 | b: Yer adı yanlış çevrilmiş
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1263-01-01:0 | d: Türkçe '-ince' kalıntısı
+- olay | OLAYLAR_ANTIK_MISIR_NUBYA:-0600-01-01:0 | d: Türkçe kalıntısı

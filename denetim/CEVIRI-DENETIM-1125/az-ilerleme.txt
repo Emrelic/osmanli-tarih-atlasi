@@ -1,0 +1,11 @@
+== ilerleme.txt
+Tam okunan paketler: 1_arayuz_001-009, 2_devlet_001-011, 3_bayrakli_001-003, 4_olay_001-021
+Bakilan kayit: arayuz = tumu (9 paket, ~2200 kayit); devlet = tumu (11 paket, ~1900 kayit); olay = 3_bayrakli'daki ~70 kayit + 4_olay_001-021 (~480 kayit)
+Okunmayan: 4_olay_022-176. Bu araliktan yalnizca belirli kaliplar arandi (Dalmacya, yaka, akinci, yipra, olunce vb.) ve bulunan kayitlarin bir kismi duzeltildi (duzeltme_011); paketler OKUNMADI.
+Not: duzeltme dosyalarinda ayni tur+id+alan icin sonraki dosya oncekinin yerine gecer.
+
+Notlar (emin olunmayan, duzeltilmeyen):
+- Sistematik: olay metinlerinde ay adlari cumle icinde buyuk harfle (Mart 1877, 6 Aprel) yaziliyor; Azerbaycan imlasinda kucuk olmali. Dokunulmadi.
+- 'tesnifli' kaliplar: 'iskele' = 'korpu' hatasi okunmayan paketlerde de olabilir (guvenle aranamadi).
+- 'Eski Zagra' icin Stara Zaqora / Kohne Zaqora tutarliligi okunmayan paketlerde kontrol edilmeli.
+- 'Kolemen' -> 'Kole' hatasi: 4_olay_011'de duzeltildi.
