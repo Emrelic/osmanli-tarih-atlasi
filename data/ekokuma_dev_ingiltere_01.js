@@ -111,6 +111,18 @@ window.EKOKUMA_DEVINGILTERE01 = [
     "Tarihçiler bugün ne diyor: Zimmermann'ın bu büyük hatayı neden yaptığı yayımlandığı günden beri sorulur. Stefan Rinke, cevabın 1915-1916'daki gizli Alman-Meksika yakınlaşmasında aranması gerektiğini savunur. Ona göre telgraf, ABD kamuoyunun dönmesine katkıda bulundu ve birkaç hafta sonraki savaşa girişe zemin hazırladı; tek başına sebep olarak sunulmaz.",
   kaynak:"Stefan Rinke, \"Zimmermann Telegram\", 1914-1918-online. International Encyclopedia of the First World War (08.10.2014), DOI 10.15463/ie1418.10424, https://encyclopedia.1914-1918-online.net/article/zimmermann-telegram/",
   kesinlik:"kesin", teyit:"teyitli", yayin_adayi:true,
-  ic_not:"Telgrafın İngiliz tarafınca ABD'ye nasıl ve ne zaman iletildiği bu maddede yok; yazılmadı (Boghardt 2012 okunmadı)." }
+  ic_not:"Telgrafın İngiliz tarafınca ABD'ye nasıl ve ne zaman iletildiği bu maddede yok; yazılmadı (Boghardt 2012 okunmadı)." },
+
+{ id:"ingiltere-gonulluler-1914", devlet:"ingiltere", tur:"karsi-anlati",
+  baslik:"1914'te İngiliz gençleri cepheye neşeyle mi koştu?",
+  olay:["1914-08-04|Britanya Almanya'ya savaş ilan etti"],
+  kisa:"Gönüllü kuyrukları çoğu zaman bir savaş coşkusu sahnesi olarak hatırlanır. Rakamlar ise en büyük dalganın ilk yenilgi haberlerinin geldiği günlere denk düştüğünü gösteriyor.",
+  metin:"1914'te İngiliz ordusu öteki büyük devletlerinkine göre küçüktü: yaklaşık 250 bin asker. Barış zamanında zorunlu askerlik deneyimi de yoktu. Kitle ordusunu gönüllülükle kurma kararı, neredeyse tümüyle yeni Savaş Bakanı Lord Kitchener'ındı.\n\n" +
+    "Çağrıya ilk tepki duraksamalı oldu. Yine de ağustosun üçüncü haftasına kadar 101.939 kişi yazıldı; bu, Savaş Bakanlığı'nın baş edebileceğinden fazlaydı. En yüksek sayıya eylülün ilk haftasında ulaşıldı: 174.901 gönüllü. Bu sıçrama büyük olasılıkla Mons ve Le Cateau'daki ilk yenilgi haberlerine verilen cevaptı. 1914 sonunda gönüllüler 1 milyonu biraz geçmiş, Aralık 1915'e kadar toplam yaklaşık 2,5 milyona ulaşmıştı. İlk dönemde açık propagandanın payı küçüktü.\n\n" +
+    "1915 ortasında akış zayıfladı. Gönüllülüğü canlandırmayı amaçlayan Derby Planı yetmeyince Ocak 1916'da 18-45 yaşındaki bekâr erkekler için zorunlu askerlik geldi; mayısta evliler de kapsandı. Hükûmet, yazılmaktan kaçmış yaklaşık bir milyon uygun erkek bulunduğunu sanıyordu; bu doğru çıkmadı. Savaş boyunca orduda 5,2 milyon erkek hizmet etti ve bunların yaklaşık yarısı başta gönüllüydü.\n\n" +
+    "Tarihçiler bugün ne diyor: Stephen Badsey'e göre her gönüllünün kendi sebebi vardı, ama büyük çoğunluk hafif yürekli bir savaş coşkusuyla değil, ülkesinin yenilme tehlikesine karşı soğukkanlı ve ağırbaşlı bir kararla yazılmış görünüyor. Yurtseverliğin ve görev duygusunun yanında ekonomik etkenler de rol oynadı. Badsey, işçi sınıfının savaşa bakışını ölçmenin kanıt ve yöntem bakımından ciddi güçlükler taşıdığını da hatırlatır.",
+  kaynak:"Stephen Badsey, \"Great Britain\", 1914-1918-online. International Encyclopedia of the First World War, https://encyclopedia.1914-1918-online.net/article/great-britain-1-1/",
+  kesinlik:"tartismali", teyit:"teyitli", yayin_adayi:true,
+  ic_not:"Zorunlu askerlik için atlasta ayrı kronoloji maddesi bulunamadı (Ocak 1916 yasası eksik madde)." }
 
 ];
