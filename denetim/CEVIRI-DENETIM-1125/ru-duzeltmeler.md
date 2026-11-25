@@ -1910,3 +1910,134 @@
 - olay | OLAYLAR_P0057B:1756-12-22:0 | d: Olumsuz cümlede tamlayan; eksik virgül
 - olay | OLAYLAR_P0060:1725-01-01:0 | d: Bozuk anlatım
 - olay | OLAYLAR_P0060:1732-09-02:0 | d: Bozuk anlatım
+- olay | OLAYLAR_EK:1717-08-18:0 | d: 'bölge günü' = bölgenin günü; 'дань' (haraç) diye çevrilmiş — ağır anlam hatası
+- olay | OLAYLAR_EK:1444-08-15:0 | d: Türkçe kalıntı; 'ТДВ' kısaltması öteki metinlerde TDV
+- olay | OLAYLAR_EK3:1690-09-27:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK4:1832-09-13:0 | b: Türkçe kalıntı
+- olay | OLAYLAR_EK4:1832-09-13:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK4:1833-06-15:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1299-01-01:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1305-01-01:0 | b: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1305-01-01:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1345-01-01:0 | d: Türkçe kalıntı; Karesi sancağı yanlış ('санджак Каресиды')
+- olay | OLAYLAR_EK5:1405-01-01:0 | b: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1405-01-01:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1412-10-01:0 | b: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1412-10-01:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1419-01-28:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1435-01-01:0 | b: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1435-01-01:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1427-01-01:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1398-07-15:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1467-11-10:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1357-09-01:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1386-06-01:0 | b: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1386-06-01:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1415-03-01:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1446-05-05:0 | b: Çevrilmemiş Türkçe başlık
+- olay | OLAYLAR_EK5:1446-05-05:0 | d: Çevrilmemiş Türkçe ad
+- olay | OLAYLAR_EK5:1468-01-17:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1481-06-22:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1516-05-01:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1513-04-01:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1515-06-13:0 | d: Türkçe kalıntı, dilbilgisi ve ad hatası
+- olay | OLAYLAR_EK5:1553-10-05:0 | b: Çevrilmemiş Türkçe
+- olay | OLAYLAR_EK5:1608-08-09:0 | d: Türkçe kalıntı, anlatım hatası
+- olay | OLAYLAR_EK5:1618-09-26:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK:1717-08-18:0 | d: 'bölge günü' 'дань области' (haraç) diye yanlış çevrilmiş
+- olay | OLAYLAR_EK:1444-08-15:0 | d: Latin kalıntı
+- olay | OLAYLAR_EK3:1690-09-27:0 | d: Latin kalıntı
+- olay | OLAYLAR_EK4:1832-09-13:0 | b: Latin kalıntı
+- olay | OLAYLAR_EK4:1832-09-13:0 | d: Latin kalıntı
+- olay | OLAYLAR_EK4:1833-06-15:0 | d: Latin kalıntı
+- olay | OLAYLAR_EK5:1299-01-01:0 | d: Latin kalıntı; uyum
+- olay | OLAYLAR_EK5:1305-01-01:0 | b: Latin kalıntı
+- olay | OLAYLAR_EK5:1305-01-01:0 | d: Latin kalıntı
+- olay | OLAYLAR_EK5:1345-01-01:0 | d: Latin kalıntı; yanlış ad
+- olay | OLAYLAR_EK5:1405-01-01:0 | b: Latin kalıntı
+- olay | OLAYLAR_EK5:1405-01-01:0 | d: Latin kalıntı
+- olay | OLAYLAR_EK5:1412-10-01:0 | b: Latin kalıntı
+- olay | OLAYLAR_EK5:1412-10-01:0 | d: Latin kalıntı
+- olay | OLAYLAR_EK5:1419-01-28:0 | d: Latin kalıntı
+- olay | OLAYLAR_EK5:1435-01-01:0 | b: Latin kalıntı
+- olay | OLAYLAR_EK5:1435-01-01:0 | d: Latin kalıntı
+- olay | OLAYLAR_EK5:1427-01-01:0 | d: Latin kalıntı
+- olay | OLAYLAR_EK5:1398-07-15:0 | d: Latin kalıntı
+- olay | OLAYLAR_EK5:1467-11-10:0 | d: Latin kalıntı
+- olay | OLAYLAR_EK5:1357-09-01:0 | d: Latin kalıntı
+- olay | OLAYLAR_EK5:1386-06-01:0 | b: Latin kalıntı
+- olay | OLAYLAR_EK5:1386-06-01:0 | d: Latin kalıntı
+- olay | OLAYLAR_EK5:1415-03-01:0 | d: Latin kalıntı; cümle hatası
+- olay | OLAYLAR_EK5:1446-05-05:0 | b: Latin kalıntı
+- olay | OLAYLAR_EK5:1446-05-05:0 | d: Latin kalıntı
+- olay | OLAYLAR_EK5:1468-01-17:0 | d: Latin kalıntı
+- olay | OLAYLAR_EK5:1481-06-22:0 | d: Latin kalıntı
+- olay | OLAYLAR_EK5:1516-05-01:0 | d: Latin kalıntı
+- olay | OLAYLAR_EK5:1513-04-01:0 | d: Latin kalıntı
+- olay | OLAYLAR_EK5:1515-06-13:0 | d: Latin kalıntı; ad hatası
+- olay | OLAYLAR_EK5:1553-10-05:0 | b: Latin kalıntı
+- olay | OLAYLAR_EK5:1608-08-09:0 | d: Latin kalıntı; anlatım
+- olay | OLAYLAR_EK5:1618-09-26:0 | d: Latin kalıntı
+- olay | OLAYLAR_P0063:1737-07-27:0 | b: «падение к» Rusçada yok
+- olay | OLAYLAR_P0917TARAF:1910-05-19:0 | d: Bozuk anlatım
+- olay | OLAYLAR_P0917KOSU13:1723-11-10:0 | d: «teslim aldı» = teslimini kabul etti
+- olay | OLAYLAR_P0917KOSU13:1735-10-03:0 | d: Latin harfli kalıntı
+- olay | OLAYLAR_P0917KOSU13:1387-01-01:0 | d: Bozuk anlatım
+- olay | OLAYLAR_P0917KOSU13:1415-01-01:0 | d: Yanlış ad «Феткрет» ve Latin harfli Türkçe kalıntı
+- olay | OLAYLAR_P0917KOSU13:1427-01-01:0 | b: Yanlış yer adı biçimi «Гюргюбе»; yerleşik Джурджу
+- olay | OLAYLAR_P0917KOSU13:1427-01-01:0 | d: Yanlış yer adı
+- olay | OLAYLAR_P0917KOSU13:1450-01-01:0 | b: Yanlış yer adı
+- olay | OLAYLAR_P0917KOSU13:1450-01-01:0 | d: Yanlış yer adı
+- olay | OLAYLAR_P0917KOSU13:1534-01-01:0 | b: Bozuk anlatım
+- olay | OLAYLAR_P0917KOSU13:1588-09-01:0 | b: Yer adı: Меренд
+- olay | OLAYLAR_P0917KOSU13:1588-09-01:0 | d: Yer adı: Меренд
+- olay | OLAYLAR_P0917KOSU13:1770-09-01:0 | d: Askerî terim
+- olay | OLAYLAR_P0917KOSU13:1788-09-01:0 | d: Yanlış anlam
+- olay | OLAYLAR_P0917KOSU13:1788-08-26:0 | b: «падение к» Rusçada yok
+- olay | OLAYLAR_P0917KOSU13:1854-01-01:0 | d: Yanlış sözcük: «неудержимыми» ≠ savunulamaz
+- olay | OLAYLAR_P0917DUNYA:1916-02-16:0 | b: Bozuk anlatım
+- olay | OLAYLAR_P0917DUNYA:1918-09-15:0 | d: Bozuk anlatım
+- olay | OLAYLAR_P0917DUNYA:1915-02-23:0 | d: Cinsiyet uyumu (каза dişil)
+- olay | OLAYLAR_P0068:1427-01-01:0 | b: Ad çekimi
+- olay | OLAYLAR_P0068:1563-01-01:0 | d: Bozuk anlatım
+- olay | OLAYLAR_P0068:1475-01-01:0 | d: Bozuk cümle yapısı
+- olay | OLAYLAR_P0068B:1788-02-22:0 | d: Sözcüğü sözcüğüne çeviri
+- olay | OLAYLAR_P0068B:1789-05-01:0 | b: Kalas = Galați (Галац); «Калаш» yanlış
+- olay | OLAYLAR_P0068B:1789-05-01:0 | d: Kalas = Galați (Галац)
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1109-07-31:0 | b: Türkçe kalıntı
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1109-07-31:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1113-06-18:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1117-01-01:0 | b: Türkçe kalıntı
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1117-01-01:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1130-01-01:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1130-01-01:2 | b: Türkçe kalıntı
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1130-01-01:2 | d: Türkçe kalıntı
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1137-01-01:0 | b: Türkçe kalıntı
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1137-01-01:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1142-02-01:0 | d: Latin harfli adlar
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1150-01-01:0 | b: Türkçe kalıntı
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1150-01-01:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1157-02-13:0 | b: Hanedan adı: Бавандиды
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1157-02-13:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1159-08-01:0 | b: Türkçe kalıntı
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1159-08-01:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1166-01-01:0 | b: Türkçe kalıntı
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1166-01-01:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1178-01-01:0 | d: Latin harfli ad
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1198-01-01:0 | b: Türkçe kalıntı
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1198-01-01:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1198-11-03:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1202-01-01:0 | b: Türkçe kalıntı
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1202-01-01:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1206-01-01:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1206-01-01:1 | b: Türkçe kalıntı
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1206-01-01:1 | d: Türkçe kalıntı
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1206-06-25:0 | b: Türkçe kalıntı
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1206-06-25:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1208-07-16:0 | b: Türkçe kalıntı
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1208-07-16:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1210-01-01:0 | d: Türkçe kalıntı ve bozuk anlatım
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1210-11-04:0 | b: Türkçe kalıntı
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1210-11-04:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1213-01-01:0 | b: Türkçe kalıntı
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1213-01-01:0 | d: Türkçe kalıntı
