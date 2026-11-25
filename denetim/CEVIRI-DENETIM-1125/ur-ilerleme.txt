@@ -1,4 +1,12 @@
+== ilerleme.txt
 Tam okunan paketler: 1_arayuz_001-010 (tamam), 2_devlet_001-012 (tamam), 3_bayrakli_001-002, 4_olay_001-007
 Bakılan kayıt: arayuz ~1950, devlet ~3500, bayrakli ~130, olay ~140
 Okunmayan: 3_bayrakli_003-022, 4_olay_008-211
 Not: Olay listelerindeki ve arayüzdeki yer adları sistematik olarak Latin/Türkçe harfle bırakılmış (bazı paketlerde Urduca yazılmış); toplu iş gerektirdiği için tek tek düzeltilmedi.
+
+== ilerleme_a.txt
+Tam okunan paketler: 4_olay_008 - 4_olay_037 (aralik tamam, 30/30)
+Duzeltme dosyalari: duzeltme_a_001.jsonl - duzeltme_a_010.jsonl (84 satir)
+
+== ilerleme_b.txt
+Tam okunan: 4_olay_038-051

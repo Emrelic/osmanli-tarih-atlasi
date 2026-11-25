@@ -83,3 +83,193 @@
 - olay | OLAYLAR_EK:1381-06-01:0 | d: beylik = بیلک; 'بیگی' hanım anlamı çağrıştırıyor
 - olay | OLAYLAR_EK:1461-06-01:0 | d: madde adı cümleye karışmış; beylik 'بیگی' yazılmış
 - olay | OLAYLAR_EK:1385-09-01:0 | d: '1383'ten beri' = 1383 yılından itibaren; '1383'ten önce' diye çevrilmiş
+- olay | OLAYLAR_EK:1663-09-24:0 | d: 'deyim Avrupa dillerine geçti' bozuk anlatım
+- olay | OLAYLAR_EK:1917-03-11:0 | d: yanlış anlam: '383 yıllık Osmanlı Bağdat'ı' = '383 yıl sonra' diye çevrilmiş
+- olay | OLAYLAR_EK2:1478-06-01:0 | d: yanlış anlam: 'para düzeni' yerine 'tarım düzeni' (زرعی)
+- olay | OLAYLAR_EK2:1557-10-16:0 | d: yanlış anlam: 'komplekse diyen' yerine kompleks 'diyen' olmuş; kalfalık çıraklık değil
+- olay | OLAYLAR_EK2:1575-03-01:0 | d: yanlış anlam: cami 'diyen' özne olmuş
+- olay | OLAYLAR_EK2:1534-01-01:0 | b: özel ad: Hürrem Urducada 'خرم'; 'حرم' harem demek
+- olay | OLAYLAR_EK2:1534-01-01:0 | d: özel ad: Hürrem 'خرم'; 'حرم سے نکاح' haremle nikâh gibi okunuyor
+- olay | OLAYLAR_EK2:1720-10-08:0 | d: 'büyük elçilik heyeti' bina anlamındaki 'سفارت خانہ' ile çevrilmiş
+- olay | OLAYLAR_EK:1395-08-01:0 | d: dilbilgisi: 'جانب' dişil, bozuk tamlama
+- olay | OLAYLAR_EK3:1410-05-06:0 | d: dilbilgisi: 'جانب' dişil, uyumsuz
+- olay | OLAYLAR_EK2:1842-01-01:0 | d: dilbilgisi: cinsiyet uyumu
+- olay | OLAYLAR_EK3:1695-09-22:0 | d: bozuk cümle yapısı
+- olay | OLAYLAR_EK4:1811-10-01:0 | d: yanlış anlam: 'ancak iki hafta sonra' (gecikme) 'sadece iki hafta sonra' olmuş
+- olay | OLAYLAR_EK4:1824-07-19:0 | d: dilbilgisi: 'کے لیے محتاج' yanlış
+- olay | OLAYLAR_EK4:1832-07-29:0 | d: özel ad: Amanos = امانوس
+- olay | OLAYLAR_EK4:1833-02-20:0 | d: dilbilgisi: özne uyumsuz fiil
+- olay | OLAYLAR_EK4:1833-02-02:0 | d: eksik edat
+- olay | OLAYLAR_EK4:1838-05-25:0 | d: bozuk cümle
+- olay | OLAYLAR_EK4:1839-04-21:0 | d: yanlış sözcük: 'ہانکا' hayvan sürmek
+- olay | OLAYLAR_EK4:1839-06-28:0 | d: dilbilgisi ve bozuk cümle
+- olay | OLAYLAR_EK4:1839-07-01:0 | d: uydurma tamlama 'خدشہ زدہ انتشار'
+- olay | OLAYLAR_EK4:1840-09-10:0 | b: 'اترائی' iniş/yokuş demek; çıkarma anlamı yok
+- olay | OLAYLAR_EK5:1393-01-01:0 | d: yanlış anlam: 'Timur'un ardından ... öldürtmesi' 'Timur'dan sonra' olmuş
+- olay | OLAYLAR_EK5:1281-01-01:0 | d: yanlış anlam: 'tahsis' = 'تقرری' (atama) olmuş
+- olay | OLAYLAR_EK5:1288-01-01:0 | b: özel ad: Karacahisar, Karahisar ile karışıyor
+- olay | OLAYLAR_EK5:1288-01-01:0 | d: özel ad: Karacahisar
+- olay | OLAYLAR_EK5:1299-01-01:0 | d: dilbilgisi: 'موڑ' eril
+- olay | OLAYLAR_EK5:1302-07-27:0 | d: dilbilgisi: 'موڑ' eril
+- olay | OLAYLAR_EK5:1402-09-15:0 | b: yanlış sözcük: 'بیگیاں' hanımlar demek; beylik = بیلک
+- olay | OLAYLAR_EK5:1402-09-15:0 | d: yanlış sözcük: 'بیگیاں' = hanımlar
+- olay | OLAYLAR_EK5:1402-12-14:0 | d: bozuk cümle
+- olay | OLAYLAR_EK5:1415-06-01:0 | d: yanlış: 'بیگی' (makam/hanım) yerine 'بیگ'
+- olay | OLAYLAR_EK5:1374-01-01:0 | d: ters kurulmuş cümle
+- olay | OLAYLAR_EK5:1409-01-01:0 | d: bozuk cümle
+- olay | OLAYLAR_EK5:1331-03-03:0 | d: bozuk cümle / yanlış fiil
+- olay | OLAYLAR_EK5:1385-09-18:0 | b: özel ad: Savra = ساورا
+- olay | OLAYLAR_EK5:1385-09-18:0 | d: özel ad: Savra = ساورا
+- olay | OLAYLAR_EK5:1456-07-22:0 | d: 'Kanûnî' tek başına 'قانونی' (yasal) diye okunuyor, cümle bozuk
+- olay | OLAYLAR_EK5:1480-07-28:0 | d: 'Kanûnî' tek başına 'قانونی' diye okunuyor, cümle bozuk
+- olay | OLAYLAR_EK5:1462-09-17:0 | d: yanlış anlam: 'Cenevizlilerin bölgedeki son üssü'
+- olay | OLAYLAR_EK5:1466-06-01:0 | d: Türkçe kalıbı birebir çevirme: 'دس سال لینی تھی' bozuk
+- olay | OLAYLAR_EK5:1468-01-17:0 | d: bozuk cümle
+- olay | OLAYLAR_EK5:1516-08-02:0 | d: bozuk fiil yapısı
+- olay | OLAYLAR_EK5:1516-12-29:0 | d: dilbilgisi: cinsiyet uyumu
+- olay | OLAYLAR_EK5:1517-02-15:0 | d: dilbilgisi: cinsiyet uyumu
+- olay | OLAYLAR_EK5:1517-07-06:0 | d: özel ad yazımı diğer metinlerle tutarsız (یاووز)
+- olay | OLAYLAR_EK5:1517-09-10:0 | d: bozuk cümle / yanlış fiil
+- olay | OLAYLAR_EK5:1517-09-11:0 | d: bozuk cümleler
+- olay | OLAYLAR_EK5:1518-01-01:0 | d: yanlış anlam: 'gecikti' yerine 'دیر پا' (kalıcı)
+- olay | OLAYLAR_EK5:1543-08-10:0 | d: bozuk cümle
+- olay | OLAYLAR_EK5:1573-03-07:0 | d: bozuk cümle
+- olay | OLAYLAR_EK5:1574-12-22:0 | d: 'arife' için uydurma 'پیش شام'
+- olay | OLAYLAR_EK5:1592-06-19:0 | d: 'arife' için uydurma 'پیش شام'
+- olay | OLAYLAR_EK5:1596-10-12:0 | d: bozuk cümle
+- olay | OLAYLAR_EK5:1612-07-06:0 | d: bozuk cümle
+- olay | OLAYLAR_EK5:1618-02-26:0 | d: yanlış anlam: 'hayatına mal olacaktı' = tazminat değil
+- olay | OLAYLAR_EK5:1621-10-09:0 | d: dilbilgisi: cinsiyet uyumu
+- olay | OLAYLAR_EK5:1635-08-08:0 | d: bozuk cümle
+- olay | OLAYLAR_EK5:1636-04-01:0 | d: bozuk cümle
+- olay | OLAYLAR_EK5:1656-07-13:0 | d: deyim hatası: 'fiyatlar fırladı'
+- olay | OLAYLAR_EK5:1658-08-27:0 | d: hükümdar sayısı yanlış yerde: 'II. György' = '... دوم'
+- olay | OLAYLAR_EK5:1660-08-27:0 | d: hükümdar sayısı yanlış yerde
+- olay | OLAYLAR_EK5:1678-08-21:0 | d: bozuk cümle
+- olay | OLAYLAR_EK5:1714-12-08:0 | d: dilbilgisi: bozuk tamlama
+- olay | OLAYLAR_EK5:1716-08-05:0 | d: yanlış anlam: 'siperleri zorladı' 'kırdı' olmuş
+- olay | OLAYLAR_EK5:1716-08-20:0 | d: dilbilgisi: bozuk fiil
+- olay | OLAYLAR_EK5:1723-06-15:0 | d: bozuk cümle
+- olay | OLAYLAR_EK5:1732-01-08:0 | d: özel ad: Hoy = خوئی ('ہوئی' = oldu)
+- olay | OLAYLAR_EK5:1744-01-01:0 | d: dilbilgisi: özne 'کو' ile bozulmuş
+- olay | OLAYLAR_EK5:1769-09-20:0 | d: yanlış anlam: istihkâm ≠ استحکام (istikrar)
+- olay | OLAYLAR_EK5:1790-12-22:0 | d: yanlış anlam: istihkâm ≠ استحکام
+- olay | OLAYLAR_EK5:1795-09-01:0 | d: yanlış anlam: 'قلعہ بند' = kuşatılmış/tahkimli
+- olay | OLAYLAR_EK5:1855-08-16:0 | d: dilbilgisi: 'ناکافی' isim gibi kullanılmış
+- olay | OLAYLAR_EK5:1856-06-07:0 | d: dilbilgisi: cinsiyet uyumu
+- olay | OLAYLAR_EK5:1859-09-14:0 | d: bozuk cümle
+- olay | OLAYLAR_EK5:1867-06-08:0 | d: 'بہائی رقوم' Bahai paraları gibi okunuyor, bozuk
+- olay | OLAYLAR_EK5:1876-12-23:0 | d: dilbilgisi: geçişsiz fiille 'نے'
+- olay | OLAYLAR_EK5:1878-03-03:0 | d: bozuk anlatım (tepki 'بلایا')
+- olay | OLAYLAR_EK5:1899-11-27:0 | d: bozuk cümle
+- olay | OLAYLAR_EK5:1905-04-01:0 | d: uydurma sözcük 'جائزیت' (meşruiyet = جواز)
+- olay | OLAYLAR_EK5:1905-07-21:0 | d: dilbilgisi: cinsiyet uyumu
+- olay | OLAYLAR_EK5:1910-04-01:0 | d: 'arifesinde' birebir 'شام' (akşam) olmuş
+- olay | OLAYLAR_EK5:1914-11-14:0 | d: özel ad: Hayri = خیری; bozuk ilk cümle
+- olay | OLAYLAR_EK5:1918-03-03:0 | d: yanlış anlam: İttifak devletleri = Merkez Devletleri; 'اتحادی' İtilaf diye anlaşılır
+- olay | OLAYLAR_EK5:1534-07-13:0 | d: tek başına 'قانونی' Urducada 'yasal' okunur; hükümdar adı verilmeli
+- olay | OLAYLAR_EK5:1545-12-26:0 | b: Basra Körfezi'nin Urducada yerleşik adı خلیجِ فارس
+- olay | OLAYLAR_EK5:1545-12-26:0 | d: tek başına 'قانونی' 'yasal' okunur
+- olay | OLAYLAR_EK5:1550-01-01:0 | d: نخلستان eril; Basra Körfezi = خلیجِ فارس
+- olay | OLAYLAR_EK5:1555-01-01:0 | d: cinsiyet/sayı uyumu; madde adı نوبہ
+- olay | OLAYLAR_EK5:1555-09-27:0 | d: Konstantin şehri قسنطینہ; bozuk ifade
+- olay | OLAYLAR_EK5:1559-01-01:0 | d: bozuk anlatım
+- olay | OLAYLAR_EK5:1500-12-24:0 | d: bozuk anlatım; 'آیونی' adsız kalmış
+- olay | OLAYLAR_EK5:1537-10-01:0 | d: eksik virgül ve bozuk yapı
+- olay | OLAYLAR_EK5:1513-01-01:0 | d: cinsiyet uyumu bozuk
+- olay | OLAYLAR_EK5:1522-01-01:0 | d: cinsiyet uyumu
+- olay | OLAYLAR_EK5:1566-04-15:0 | d: SAYI: üç buçuk asır = 350 yıl; tek başına 'قانونی' belirsiz
+- olay | OLAYLAR_EK5:1570-07-02:0 | b: 'اترائی' iniş/yokuş demek; çıkarma anlamı bozuk
+- olay | OLAYLAR_EK5:1570-09-17:0 | d: bozuk anlatım
+- olay | OLAYLAR_EK5:1715-07-20:0 | d: Latin harfli yer adı çevrilmemiş
+- olay | OLAYLAR_EK5:1715-09-07:0 | d: گزرگاہ dişil
+- olay | OLAYLAR_EK5:1718-07-21:0 | d: Petrovaradin adı eksik; Latin harfli Türkçe yer adları kalmış; 'زمین رکھی' bozuk
+- olay | OLAYLAR_EK5:1724-08-11:0 | d: tek başına 'قانونی' 'yasal' okunur
+- olay | OLAYLAR_EK5:1781-01-01:0 | d: bozuk kalıp
+- olay | OLAYLAR_EK5:1798-10-23:0 | d: cinsiyet uyumu: قلعہ بندی dişil
+- olay | OLAYLAR_EK5:1918-04-25:0 | d: öznesiz bozuk cümle
+- olay | OLAYLAR_EK5:1918-03-28:0 | d: bozuk tamlama; Arapça ى karışması
+- olay | OLAYLAR_EK5:1785-04-27:0 | d: cinsiyet uyumu ve bozuk yapı
+- olay | OLAYLAR_EK5:1801-09-24:0 | d: Latin harfli Türkçe yer adları kalmış
+- olay | OLAYLAR_EK5:1878-07-13:0 | d: bozuk cümle ve uyum
+- olay | OLAYLAR_EK5:1693-01-06:0 | d: anlam bozuk ('çok sevdiği')
+- olay | OLAYLAR_EK5:1904-08-29:0 | d: yazım: Havâtîn = خواتین
+- olay | OLAYLAR_EK5:1916-08-07:0 | d: bozuk fiil
+- olay | OLAYLAR_EK5:1912-11-25:0 | b: 'اترائی' iniş/yokuş demek; çıkarma anlamı bozuk
+- olay | OLAYLAR_EK5:1912-11-25:0 | d: 'اترائی' yanlış
+- olay | OLAYLAR_EK6:1730-08-12:0 | d: Latin harfli Türkçe yer adı kalmış
+- olay | OLAYLAR_EK6:1534-06-23:0 | d: tek başına 'یاوز' hükümdarı belli etmiyor
+- olay | OLAYLAR_EK6:1535-09-22:0 | b: 'ٹھہراؤ' duraklama demek; 'tutum/elde tutma' yanlış
+- olay | OLAYLAR_EK6:1535-09-22:0 | d: tek başına 'قانونی' 'yasal' okunur
+- olay | OLAYLAR_EK6:1547-01-01:0 | d: 'صفوی کو' → 'صفویوں کو'
+- olay | OLAYLAR_EK6:1553-08-01:0 | d: tek başına 'قانونی' 'yasal' okunur
+- olay | OLAYLAR_EK6:1604-06-08:0 | d: bozuk cümle
+- olay | OLAYLAR_EK6:1670-01-01:0 | d: Basra Körfezi = خلیجِ فارس
+- olay | OLAYLAR_EK6:1684-09-29:0 | d: öznesiz cümle
+- olay | OLAYLAR_EK6:1686-07-10:0 | d: YANLIŞ ANLAM: 'دھڑکا' çarptırmak; bombardıman kastediliyor
+- olay | OLAYLAR_EK6:1686-10-20:0 | d: tek başına 'قانونی' 'yasal' okunur
+- olay | OLAYLAR_EK6:1688-05-19:0 | d: tek başına 'قانونی' 'yasal' okunur
+- olay | OLAYLAR_EK6:1689-02-03:0 | d: tek başına 'قانونی'; Latin harfli yer adı
+- olay | OLAYLAR_EK6:1697-01-01:0 | d: cinsiyet/uyum
+- olay | OLAYLAR_EK6:1735-06-19:0 | d: cinsiyet; 'صورت میں' = 'halinde' diye yanlış anlam
+- olay | OLAYLAR_EK6:1806-01-01:0 | d: tahsisat = رقم, 'تحویل' yanlış; tekrar
+- olay | OLAYLAR_EK6:1806-05-27:0 | d: Türkçe yazım kalıntısı
+- olay | OLAYLAR_EK6:1819-05-10:0 | d: bozuk yapı
+- olay | OLAYLAR_EK6:1830-07-05:0 | d: YANLIŞ AD: Medea şehri 'میڈیا' (medya) okunuyor; bozuk cümle
+- olay | OLAYLAR_EK6:1833-09-29:0 | d: YANLIŞ AD: Kabiliye (Kabylie) dağları 'kabile dağları' diye çevrilmiş
+- olay | OLAYLAR_EK6:1844-03-04:0 | d: cinsiyet; çöl kıyısı = kenar
+- olay | OLAYLAR_EK6:1854-12-02:0 | d: cinsiyet uyumu
+- olay | OLAYLAR_EK6:1883-01-19:0 | d: kelimesi kelimesine, anlamsız ifade
+- olay | OLAYLAR_EK6:1885-02-05:0 | d: bozuk cümle
+- olay | OLAYLAR_EK6:1912-05-04:0 | d: tek başına 'قانونی' 'yasal' okunur
+- olay | OLAYLAR_EK6:1912-05-12:0 | d: YANLIŞ ANLAM: takımada 'جزیرہ نما' (yarımada) diye çevrilmiş; cinsiyet
+- olay | OLAYLAR_EK6:1913-03-26:0 | d: cinsiyet uyumu
+- olay | OLAYLAR_EK6:1920-05-27:0 | d: cinsiyet uyumu
+- olay | OLAYLAR_ILIRYA0072:1813-01-01:0 | d: Latin harfli yer adları çevrilmemiş
+- olay | OLAYLAR_ILIRYA0072:1779-01-01:0 | d: aşiret/kol ayrımı kaybolmuş
+- olay | OLAYLAR_EK7:1470-06-01:0 | d: cinsiyet uyumu
+- olay | OLAYLAR_EK7:1481-05-22:0 | d: 'جلوس' Urducada yürüyüş alayı; cülûs bahşişi
+- olay | OLAYLAR_EK7:1493-01-01:0 | d: cinsiyet/tamlama
+- olay | OLAYLAR_EK7:1509-09-14:0 | d: bozuk ifade
+- olay | OLAYLAR_EK7:1512-06-10:0 | d: cinsiyet uyumu
+- olay | OLAYLAR_EK7:1523-06-27:0 | d: tek başına 'قانونی' 'yasal' okunur
+- olay | OLAYLAR_EK7:1544-12-02:0 | d: tek başına 'قانونی'
+- olay | OLAYLAR_EK7:1545-10-01:0 | d: tek başına 'قانونی'
+- olay | OLAYLAR_EK7:1550-06-01:0 | d: YANLIŞ ANLAM: imaret (aşevi) 'عمارت' (bina) diye; başmimarlık; tek başına 'قانونی'
+- olay | OLAYLAR_EK7:1553-12-01:0 | d: bozuk yapı
+- olay | OLAYLAR_EK7:1555-09-29:0 | d: YANLIŞ AD: Hürrem = خرم (حرم = harem)
+- olay | OLAYLAR_EK7:1558-04-15:0 | b: YANLIŞ AD: Hürrem = خرم
+- olay | OLAYLAR_EK7:1558-04-15:0 | d: YANLIŞ AD: Hürrem = خرم; tek başına 'قانونی'
+- olay | OLAYLAR_EK7:1565-06-29:0 | d: tek başına 'قانونی'
+- olay | OLAYLAR_EK7:1566-09-24:0 | d: tek başına 'قانونی'
+- olay | OLAYLAR_EK7:1579-10-12:0 | d: konak = kişinin köşkü, 'محل' (saray) değil; cinsiyet
+- olay | OLAYLAR_EK7:1582-05-29:0 | b: sünnet düğünü = şenlik; 'شادی' evlilik demek
+- olay | OLAYLAR_EK7:1595-02-01:0 | d: YANLIŞ ANLAM: 'kaynaklı' belge kaynağı (ماخذ) diye çevrilmiş
+- olay | OLAYLAR_EK7:1596-06-20:0 | d: cinsiyet uyumu
+- olay | OLAYLAR_EK7:1609-08-09:0 | d: YANLIŞ ANLAM: imaret (aşevi) 'عمارت' (bina); bozuk yapı
+- olay | OLAYLAR_EK7:1622-05-20:0 | d: yazım/fiil hatası
+- olay | OLAYLAR_EK7:1633-09-01:0 | d: bozuk yapı
+- olay | OLAYLAR_EK7:1638-06-01:0 | d: YANLIŞ ANLAM: ödülü veren Hezarfen gibi okunuyor
+- olay | OLAYLAR_EK7:1660-07-15:0 | d: bozuk ifade
+- olay | OLAYLAR_EK7:1703-03-01:0 | d: dilbilgisi
+- olay | OLAYLAR_EK7:1730-10-01:0 | b: çevrilmemiş Latin harfli Türkçe
+- olay | OLAYLAR_EK7:1730-10-01:0 | d: çevrilmemiş Türkçe; diğer metinlerle tutarlılık
+- olay | OLAYLAR_EK7:1730-10-02:0 | d: çevrilmemiş Latin harfli madde adı
+- olay | OLAYLAR_EK7:1733-06-01:0 | b: çevrilmemiş Latin harfli Türkçe
+- olay | OLAYLAR_EK7:1733-06-01:0 | d: çevrilmemiş Latin harfli Türkçe; sayı biçimi
+- olay | OLAYLAR_EK7:1734-06-01:0 | b: çevrilmemiş Latin harfli Türkçe
+- olay | OLAYLAR_EK7:1734-06-01:0 | d: çevrilmemiş Latin harfli Türkçe
+- olay | OLAYLAR_EK7:1739-06-01:0 | d: çevrilmemiş Latin harfli madde adı
+- olay | OLAYLAR_EK7:1755-09-29:0 | b: çevrilmemiş Latin harfli Türkçe
+- olay | OLAYLAR_EK7:1755-09-29:0 | d: çevrilmemiş Latin harfli Türkçe
+- olay | OLAYLAR_EK7:1757-02-28:0 | b: çevrilmemiş Latin harfli Türkçe
+- olay | OLAYLAR_EK7:1757-02-28:0 | d: çevrilmemiş Latin harfli Türkçe
+- olay | OLAYLAR_EK7:1763-04-08:0 | b: çevrilmemiş Latin harfli Türkçe
+- olay | OLAYLAR_EK7:1763-04-08:0 | d: çevrilmemiş Latin harfli Türkçe
+- olay | OLAYLAR_EK7:1766-05-01:0 | d: çevrilmemiş Latin harfli Türkçe
+- olay | OLAYLAR_EK7:1772-10-01:0 | b: Latin harfli ad
+- olay | OLAYLAR_EK7:1772-10-01:0 | d: çevrilmemiş Latin harfli Türkçe
+- olay | OLAYLAR_EK7:1789-04-07:0 | d: çevrilmemiş Türkçe
+- olay | OLAYLAR_EK7:1792-06-01:0 | d: çevrilmemiş Türkçe
+- olay | OLAYLAR_EK7:1793-03-01:0 | b: yazım hatası
+- olay | OLAYLAR_EK7:1793-03-01:0 | d: çevrilmemiş Türkçe; 'tek seferlik' = 'یک طرفہ' (tek taraflı) yanlış
