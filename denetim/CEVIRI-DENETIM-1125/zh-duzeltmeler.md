@@ -1,0 +1,141 @@
+- arayuz | # (Germiyan çeyizinden birkaç ay sonra) | m: Germiyan bir Anadolu beyliğidir; 'Germen' diye çevrilmiş
+- arayuz | # Ağustos # (Ateş: # Ağustos'ta Osmanlı müfrezesi çekildi) | m: Ateş yazar soyadıdır, 'ateş/yangın' diye çevrilmiş
+- arayuz | # (yalnız yıl teyitli; gün teyitsiz) | m: yarım genişlik noktalama; kardeş kalıplarla uyum
+- arayuz | # (yaz; yalnız yıl teyitli, gün teyitsiz) | m: fazla boşluk
+- arayuz | # (hicrî #; yalnız yıl teyitli, gün teyitsiz) | m: fazla boşluk ve eksik '年'
+- arayuz | # Aralık # (# Zilkade #) | m: bozuk tarih kalıbı: gün/yıl işaretleri ve 'hicrî' eksik
+- arayuz | # Aralık # (Duşan'ın ölüm günü) | m: bozuk tarih kalıbı; 忌日 yıldönümü demektir
+- arayuz | # Ekim # (TDV 'beyrut': Fransız kuvvetlerinin bölgeyi işgali). Bazı kaynaklar karaya çıkışı # Ekim verir. Trablusşam 'Ekim #' (TDV, gün yok). | m: bozuk tarih kalıbı ve noktalama
+- arayuz | # Eylül # (# Rebîülevvel #) | m: bozuk tarih kalıbı; ay adı diğer kayıtlardan farklı
+- arayuz | # Eylül # (I. Lothar'ın ölümü; tahttan feragat # Eylül) | m: bozuk tarih kalıbı
+- arayuz | # Haziran # (Savoya'nın Chambéry'de, Nice kontluğunun Nice'te resmen teslimi). Torino Antlaşması # Mart; plebisitler Nice #-# Nisan, Savoya #-# Nisan #. | m: bozuk tarih kalıbı
+- arayuz | # Receb # / # Mayıs # | m: bozuk tarih kalıbı
+- arayuz | # Ocak # (imzalar # Ocak-# Mart arası şeyhlik şeyhlik tamamlandı) | m: 'şeyhlik şeyhlik' = şeyhlik şeyhlik tek tek; anlam yanlış
+- arayuz | # [hicrî # ∩ # ilk günü, # Mart #; yalnız yıl teyitli, gün teyitsiz] | m: bozuk tarih kalıbı
+- arayuz | # yıllarına doğru [tahmin; yalnız yıl; gün teyitsiz] | m: fazla boşluk, noktalama
+- arayuz | # Şubat # (Gregoryen) | m: bozuk tarih kalıbı
+- arayuz | # Şubat # [dolaylı tanık: «nakon #. veljače»] | m: bozuk tarih kalıbı
+- arayuz | #, # Ajaw # Pax (December #, #) | m: İngilizce kalıntı
+- arayuz | #, # Ajaw # Sotz' (May #, #) | m: İngilizce kalıntı
+- arayuz | Kasım # (ay hassasiyeti) | m: yıl işareti yanlış yerde; kardeş kalıplarla uyum
+- arayuz | Mayıs # başı [yalnız ay teyitli; gün teyitsiz] | m: bozuk tarih sırası
+- arayuz | Bu düğme araç menüsünü açar. Menü dört gruptur; şimdi menüyü açıp her grubu tek tek tanıyalım. | m: yarım genişlik noktalama
+- arayuz | Butonlar: Gezinti | m: yarım genişlik noktalama
+- arayuz | Butonlar: Harita gösterimi | m: yarım genişlik noktalama
+- arayuz | Butonlar: Keşfet | m: yarım genişlik noktalama
+- arayuz | Butonlar: Topluluk ve bilgi | m: yarım genişlik noktalama
+- arayuz | Dayanak niteliğinde akademik kaynağa dayanıyor. | m: bozuk anlatım (依据…依据)
+- arayuz | Haritada neyin görüneceğini buradan seçersiniz. Kutucuklarla açılıp kapatılır, birden çoğu seçilebilir. | m: yarım genişlik noktalama
+- arayuz | Kahvehane: tarih forumu. | m: yarım genişlik noktalama
+- arayuz | Kişi, savaş, antlaşma, devlet, şehir, yüzyıl ve kaynak dizinleri; birine tıklayınca o güne ve yere gidilir. | m: yarım genişlik noktalama
+- arayuz | Kısa bir turla ekrandaki her parçayı tanıtalım. İleri düğmesine dokunarak ilerleyin; istediğiniz an Geç diyebilirsiniz. | m: yarım genişlik noktalama; düğme adı arayüzdeki 'İleri'=前进 ile uyumlu
+- arayuz | Renkli alanlar o gündeki devletlerdir; bir yere dokununca orası hakkında bilgi açılır. Tarih değiştikçe sınırlar kendiliğinden yeniden çizilir. | m: yarım genişlik noktalama
+- arayuz | Seçili günün siyasî haritası; üst çubukta o anki tarih ve Butonlar menüsü durur. | m: yarım genişlik noktalama
+- arayuz | Oynatmanın olaydan olaya mı, sene sene mi akacağını ve hızını seçer. | m: yarım genişlik noktalama
+- arayuz | Parmağınızla sürükleyerek kaydırın, iki parmağınızla yakınlaşın. | m: yarım genişlik noktalama
+- arayuz | Sınırların antlaşmaya göre mi (Hukukî), fiilî duruma göre mi (Hukukî + fiilî) çizileceğini seçer. | m: yarım genişlik noktalama
+- arayuz | Telefonda ekran üç parçadır: | m: yarım genişlik noktalama
+- arayuz | Sonbahar # [yalnız yıl teyitli; gün teyitsiz] | m: noktalama ve kardeş kalıpla uyum
+- arayuz | c. # [yalnız yıl teyitli; gün teyitsiz] | m: fazla boşluk ve noktalama
+- arayuz | ve komşuları) | m: yarım genişlik ayraç
+- arayuz | Şâban # (Şubat #) | m: bozuk tarih kalıbı; 'hicrî' eksik
+- arayuz | Şubat # (ay hassasiyeti; geçiş günü kaynakta yok) | m: bozuk tarih kalıbı ve noktalama
+- arayuz | MÖ # (# Ekim; Livius) | m: MÖ Yakındoğu tarihlerindeki 'Livius' livius.org sitesidir; Romalı tarihçi Titus Livius (李维) değil
+- arayuz | MÖ # (# veya # Mayıs; Livius # Mayıs) | m: livius.org, 李维 değil
+- arayuz | MÖ # (Livius: #/#) | m: livius.org, 李维 değil
+- arayuz | MÖ # (Livius: ~#; Herodotos geleneği) | m: livius.org, 李维 değil
+- arayuz | MÖ # (Livius; alternatif MÖ #) | m: livius.org, 李维 değil
+- arayuz | MÖ # (Nisan-Mayıs #; Livius saltanatı #'ten sayar) | m: livius.org, 李维 değil
+- arayuz | MÖ # (Ocak sonu; Livius # Ocak — tek gün kaynağı) | m: livius.org, 李维 değil
+- arayuz | MÖ # (Temmuz; Livius c. # Temmuz — tek gün kaynağı) | m: livius.org, 李维 değil
+- arayuz | MÖ # (Tevrat geleneği; Livius 'yaklaşık #-#') | m: livius.org, 李维 değil
+- arayuz | MÖ # (yaklaşık; Livius: Gyges #'te öldü) | m: livius.org, 李维 değil
+- arayuz | MÖ # (yıl) | m: fazla boşluk
+- devlet | turkmen | m: Teke boyu '捷克' (Çek) olmuş; Eymir '埃米尔' (emîr) ile karışıyor
+- devlet | usfuri | m: Türkçe transliterasyon kalıntısı
+- devlet | cebri | m: Türkçe transliterasyon kalıntısı
+- devlet | sutayogullari | m: '-oğulları' eki ada katılıp harfle çevrilmiş, Türkçe kalıntı
+- devlet | kalikut | m: devlet adı eksik (unvan olarak kalmış)
+- devlet | guria-prensligi | m: Güryel adı yanlış yazılmış, Latin kalıntı
+- devlet | dongxia | m: yineleme
+- devlet | ahlatsahlar | m: Şâh-i Ermen = Ermeni şahı; ad ters çevrilmiş
+- devlet | ingiliz-togoland | m: Mandat=委任统治, Vesayet=托管
+- devlet | fransiz-togo | m: Mandat=委任统治, Vesayet=托管
+- devlet | ingiliz-kamerun | m: Mandat=委任统治, Vesayet=托管
+- devlet | federe-olmayan-malay-devletleri | m: yerleşik Çince ad 马来属邦
+- devlet | yugoslavya-federal | m: FHC Türkçe kısaltma kalıntısı
+- devlet | kibris-turk-federe-devleti | m: yerleşik ad sırası (KKTC kaydıyla uyumlu)
+- devlet | birlesik-arap-devletleri | m: 阿联 bugün BAE anlamına gelir; BAC=Birleşik Arap Cumhuriyeti
+- devlet | cobaniler | m: Türkçe transliterasyon kalıntısı
+- devlet | turk-misir-sudani | m: Türkçe kalıntı
+- devlet | fezzan | m: Evlâd Muhammed hanedan adıdır, 'Muhammed'in oğlu' diye çevrilmiş
+- devlet | vizigot | m: Türkçe kalıntı
+- devlet | roma-imp | m: 'birleşik' = bölünmemiş/统一
+- devlet | mayapan-birligi | m: yineleme
+- devlet | arap-birligi-irak-urdun | m: 阿拉伯联盟 Arap Ligi'dir; 1958 Irak-Ürdün birliği 阿拉伯联邦
+- devlet | suriye-cumhuriyeti-1946 | m: 阿联 bugün BAE demektir; BAC = Birleşik Arap Cumhuriyeti
+- devlet | atsiz-beyligi | m: Atsız adı 'Aziz' diye yanlış çevrilmiş
+- devlet | hou-liang-xi-liang | m: aynı adın geleneksel yazıyla yinelenmesi
+- devlet | sui-zheng-wang-shichong | m: geleneksel yazıyla yineleme
+- devlet | sui-wei-li-mi | m: yineleme
+- devlet | sui-qin-xue-ju | m: yineleme
+- devlet | sui-liang-xiao-xian | m: yineleme
+- devlet | sui-liang-liang-shidu | m: yineleme
+- devlet | sui-xia-dou-jiande | m: yineleme
+- devlet | qi-li-maozhen | m: yineleme
+- devlet | zhao-wang-rong | m: geleneksel yazıyla yineleme
+- devlet | yan-liu-shouguang | m: yineleme
+- devlet | da-chu-zhang-bangchang | m: yineleme
+- devlet | da-qi-liu-yu | m: geleneksel yazıyla yineleme
+- devlet | hunan-wuping-rejimi | m: geleneksel yazıyla yineleme
+- devlet | weiwu-li-rengda | m: geleneksel yazıyla yineleme
+- devlet | baekje-restorasyon | m: yineleme
+- devlet | masakado-shinno | m: 'Yeni İmparatorluk' atlanıp unvan yinelenmiş
+- devlet | deseret | m: Deseret, Utah diye çevrilmiş
+- olay | OLAYLAR_EK5:1716-10-13:0 | d: 'vire ile teslim' = şartlı teslim; 'patlayıcıyla' diye yanlış çevrilmiş; Kanûnî = 苏莱曼大帝
+- olay | OLAYLAR_EK5:1688-06-22:0 | d: Jenő bir kale adıdır, Eugène değil; yarım genişlik noktalama
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1243-07-01:0 | d: hükümdar sıra sayısı yanlış yerde
+- olay | OLAYLAR_LAB19_2S_P2:1200-05-13:0 | b: yarım genişlik noktalama
+- olay | OLAYLAR_LAB19_2S_P2:1200-05-13:0 | d: Türkçe transliterasyon kalıntısı ve yarım genişlik noktalama
+- olay | OLAYLAR_LAB19_2S_P4:1833-07-28:0 | b: Türkçe transliterasyon kalıntısı, noktalama
+- olay | OLAYLAR_LAB19_2S_P4:1833-07-28:0 | d: Türkçe kalıntı ve yarım genişlik noktalama
+- olay | OLAYLAR:1299-01:0 | d: Söğüt'ün yerleşik biçimi 苏于特 (arayüz ve listelerle tutarlı)
+- olay | OLAYLAR:1413-07-05:0 | d: yarım genişlik noktalama; yer adları ve Rumeli yazımı diğer kayıtlarla tutarsız
+- olay | OLAYLAR:1914-11-01:0 | d: gemiler İngiltere'den (ülkeden) değil İngiliz takibinden kaçtı
+- olay | OLAYLAR:1916-06-10:0 | d: bozuk anlatım
+- olay | OLAYLAR_EK:1324-01-01:0 | b: yarım genişlik ayraç
+- olay | OLAYLAR_EK:1324-01-01:0 | d: yarım genişlik noktalama
+- olay | OLAYLAR_EK:1334-01-01:0 | b: yarım genişlik ayraç
+- olay | OLAYLAR_EK:1334-01-01:0 | d: yarım genişlik noktalama
+- olay | OLAYLAR_EK:1372-06-01:0 | d: yarım genişlik noktalama; Çirmen/Tatarpazarcığı/Sofya adları diğer kayıtlarla tutarsız
+- olay | OLAYLAR_EK:1383-09-19:0 | d: yarım genişlik noktalama; yer adı tutarlılığı
+- olay | OLAYLAR_EK:1387-04-09:0 | d: yarım genişlik noktalama
+- olay | OLAYLAR_EK:1381-06-01:0 | b: yarım genişlik noktalama
+- olay | OLAYLAR_EK:1381-06-01:0 | d: yarım genişlik noktalama; Yıldırım yarım transliterasyon
+- olay | OLAYLAR_EK:1392-11-01:0 | d: yarım genişlik noktalama; Bartın adı tutarlılığı
+- olay | OLAYLAR_EK:1393-06-17:0 | d: yarım genişlik noktalama
+- olay | OLAYLAR_EK:1393-09-01:0 | d: yarım genişlik noktalama
+- olay | OLAYLAR_EK:1461-06-01:0 | d: anlam yanlış (teslim eden Candaroğlu'dur); yarım genişlik noktalama
+- olay | OLAYLAR_EK:1526-12-17:0 | d: TR: kız kardeşinin evliliği; çeviride 'karısının' yazılmış
+- olay | OLAYLAR_EK:1829-09-14:0 | d: yarım genişlik noktalama; 'rehin' toprak için 抵押
+- olay | OLAYLAR_EK:1917-03-11:0 | d: yarım genişlik noktalama
+- olay | OLAYLAR_EK:1403-06-01:0 | d: Misivri = Nesebar; Midye (米迪亚) ile karıştırılmış
+- olay | OLAYLAR_EK2:1453-06-01:0 | d: 'devşirme kökenli' yanlış ve bozuk
+- olay | OLAYLAR_EK2:1477-01-01:0 | d: kardeş katli yalnız ağabey öldürme (弑兄) değildir
+- olay | OLAYLAR_EK3:1403-02-01:0 | b: Misivri = Nesebar; Midye ile karıştırılmış
+- olay | OLAYLAR_EK3:1403-02-01:0 | d: Misivri = Nesebar; Midye ile karıştırılmış
+- olay | OLAYLAR_EK3:1410-06-15:0 | d: yarım genişlik noktalama; Rumeli yazımı tutarsız
+- olay | OLAYLAR_EK3:1683-01-01:0 | d: İstolni Belgrad = Székesfehérvár, Belgrad değil; Giray soyadı 格来
+- olay | OLAYLAR_EK3:1690-10-01:0 | d: ay adı atlanmış
+- olay | OLAYLAR_EK4:1813-05-02:0 | d: 'son olarak' = en son olarak; 'son kez' diye çevrilmiş
+- olay | OLAYLAR_EK4:1839-07-14:0 | b: İskenderiye şehri; mevcut hâli 'filo İskender'e verildi' diye okunuyor
+- olay | OLAYLAR_EK5:1281-01-01:0 | b: Söğüt adı diğer kayıtlarla tutarsız (苏于特)
+- olay | OLAYLAR_EK5:1281-01-01:0 | d: Söğüt adı tutarsız; yurtluk transliterasyonu yanlış (耶尔鲁克)
+- olay | OLAYLAR_EK5:1402-09-15:0 | b: terim tutarlılığı (beylik = 侯国)
+- olay | OLAYLAR_EK5:1402-09-15:0 | d: yarım genişlik noktalama; yer/hanedan adları tutarsız
+- olay | OLAYLAR_EK5:1404-03-01:0 | b: yarım genişlik noktalama
+- olay | OLAYLAR_EK5:1404-03-01:0 | d: yarım genişlik noktalama; yer adları tutarsız
+- olay | OLAYLAR_EK5:1345-01-01:0 | d: Gölyazı adı tutarsız; 'sancağına tayin etti' yanlış çevrilmiş
+- olay | OLAYLAR_EK5:1415-06-01:0 | d: bozuk anlatım
+- olay | OLAYLAR_EK5:1416-01-01:0 | d: kişi adı diğer kayıtlarla tutarsız (谢赫布德雷丁)
+- olay | OLAYLAR_EK5:1449-01-01:0 | d: anlam tersine (zafere adını veren yer); Yanya adı tutarsız

@@ -1,0 +1,19 @@
+- arayuz "# Ekim # (Madgearu #, Sırp salnameleri; ... ÇELİŞKİ-# E#: eski # Mayıs # günü ...)": kullanıcıya görünen iç not ("ÇELİŞKİ-# E#", eski gün tartışması)
+- arayuz "# — YIL hassasiyeti · TDV `malatya` ... (Emre notu ##)": iç not / "Emre notu" görünüyor
+- arayuz "# Temmuz # (ÇELİŞKİ-#: TDV «Timişvar» ...)" ve "# Temmuz # [ÇELİŞKİ-# BALKAN-HALEF: ...]": iç denetim notu ("olaylar_ek#", "BALKAN-HALEF")
+- arayuz "# [yalnız yıl teyitli; TDV «Karamanoğulları» ... bkz. karaman künye ic_not_t]": "ic_not_t" görünüyor
+- arayuz "Ocak # (gün Kahire'den — bk. ic_not_t)": "ic_not_t"
+- arayuz "# sefer mevsimi — gün komşudan: kronoloji_safevi.js ..." ve "# (TDV yıl verir) — gün komşudan: Sivas (olaylar_ek# ...)": dosya adı
+- arayuz "# (#) yazı, Semendire'nin düşüşünden sonra — gün kaynakta yok; t ALT SINIR" (benzerleri "t ÜST SINIRDIR", "`YYYY-#-#` beyandır, uydurma değil", "eski t #-#-# ay başı yer tutucuydu"): veri alanı adı sızıyor
+- arayuz "Eylül # [yalnız ay teyitli; t #-#-# gün yer tutucusu ... ÇELİŞKİ-# Macaristan hattı]": iç not
+- arayuz "Kaheti ↔ Dağıstan ..." ve "Sohum kuzeydoğusu ... (yerlesimler_ek#.js beyanı ...)": dosya adı
+- arayuz "⚠️ Bu değerler MapLibre'nin ... bu oturumda harita render olmadığı için GÖZLE ayarlanamadı": geliştirici/oturum notu
+- arayuz "#, # Ajaw # Pax (December #, #)": Türkçe kaynakta İngilizce ay adı
+- devlet "sutayogullari", "cemisgezek-beyligi", "misir-erken-hanedan" ve birçok geç kayıt: Türkçe harfsiz yazım ("Sutayogullari", "Cemisgezek Beyligi", "Misir", "Kralligi", "Guney", "Banglades")
+- olay OLAYLAR:1913-05-30:0: "Girit'te Hanya, Kandiye, Girit (Resmo)" — Resmo yerine "Girit" yazılmış
+- olay OLAYLAR:1699-01-26:0: "Kostajnica ve Jasenovac" iki kez sayılıyor ("Atlas ayrıca Kostayniçe (Kostajnica) ve Jasenovaç'ı ..."); metinde "beyanlı yaklaşıklık" iç ölçü dili
+- olay OLAYLAR_2S0920:1942-01-01:0: "(bkz. ic_not)" kullanıcıya görünüyor
+- olay OLAYLAR_EK3:1689-08-01:0 ve 1689-10-25:0: "bu oturumda yeniden doğrulanmadı" (oturum notu)
+- olay OLAYLAR_EK5:1716-10-13:0, OLAYLAR_EK3:1688-09-06:0 vb.: "abi-merkez zinciri", "beyanlı yaklaşıklık" iç yöntem dili
+- olay OLAYLAR_P0057B:1520-01-01:0: "Türkçe yazılmış bir tarih bulunmadığı için ... yalnız ... bölümleri ulaştı" cümlesi anlamsız görünüyor
+- olay OLAYLAR_EK:1324-01-01:0: "Haritadaki 1324 sınırı yer tutucudur." (iç not niteliğinde)

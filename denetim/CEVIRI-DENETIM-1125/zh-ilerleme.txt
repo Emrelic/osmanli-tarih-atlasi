@@ -1,0 +1,3 @@
+Tamamen okunan: 1_arayuz_001..009, 2_devlet_001..011, 3_bayrakli_001..002, 4_olay_001..014
+Bakilan kayit: arayuz = 9 paketin tamami; devlet = 11 paketin tamami; bayrakli = 2 paketin tamami; olay 4_001..014 paketlerinin tamami
+Okunmayan: 4_olay_015..167
