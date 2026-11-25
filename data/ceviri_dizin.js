@@ -950,27 +950,31 @@ window.CEVIRI_DIZIN = {
   "ka": [
    [
     "ceviri_ka_arayuz.js",
-    "5076e4f3"
+    "2682ee60"
    ],
    [
     "ceviri_ka_devlet.js",
-    "358f2623"
+    "1f365913"
    ],
    [
     "ceviri_ka_olay_01.js",
-    "02739a23"
+    "4fe5e08f"
    ],
    [
     "ceviri_ka_olay_02.js",
-    "57d1a780"
+    "fd598594"
    ],
    [
     "ceviri_ka_olay_03.js",
-    "e40209f1"
+    "8f048fae"
    ],
    [
     "ceviri_ka_olay_04.js",
-    "227b3cad"
+    "0af53d7c"
+   ],
+   [
+    "ceviri_ka_olay_05.js",
+    "d62d1f1f"
    ]
   ]
  }

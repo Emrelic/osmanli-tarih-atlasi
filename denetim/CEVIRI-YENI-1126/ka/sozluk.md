@@ -54,3 +54,11 @@ Mehmed = მეჰმედ; Murad = მურად; Süleyman = სულე�
 ## ადგილები
 Ardahan = არტაანი; Artvin = ართვინი; Kars = ყარსი; Batum = ბათუმი; İstanbul = სტამბოლი; Edirne = ედირნე; Bursa = ბურსა; Konya = კონია; Kayseri = ქაისერი; Antakya = ანტიოქია; İznik = ნიკეა; Sakız = ქიოსი; Sisam = სამოსი; Muş = მუში; Iğdır = იგდირი; Tebriz = თავრიზი; Erzurum = ერზურუმი; Tiflis = თბილისი; Kırım = ყირიმი; Tunus = ტუნისი; Temeşvar = ტემეშვარი
 
+== sozluk_g.md
+# ka sözlük (ajan g — olay_065..078). sozluk_a esastır.
+- Neolitik ნეოლითი · Mezolitik მეზოლითი · Epipaleolitik ეპიპალეოლითი · Kalkolitik ქალკოლითი · Tunç Çağı ბრინჯაოს ხანა · Demir Çağı რკინის ხანა · höyük გორანამოსახლარი / (adda) -ჰოიუქი · "başlar/sona erer" = იწყება / სრულდება · MÖ ძვ. წ.; cal BP, cal BCE Latin
+- Lepenski Vir ლეპენსკი-ვირი · Natufiyen ნატუფის კულტურა · Çayönü ჩაიონიუ · Ebu Hureyre აბუ-ჰურეირა
+- Trianon ტრიანონის ზავი · Saint-Germain სენ-ჟერმენი · Neuilly ნეი · Versailles ვერსალი · SHS Krallığı სხს სამეფო (სერბთა, ხორვატთა და სლოვენთა სამეფო) · Timișoara ტიმიშოარა (Temeşvar ტემეშვარი) · Pécs პეჩი · Oradea ორადეა · Košice კოშიცე
+- İnebahtı ლეპანტო · Revan ერევანი · Kars ყარსი · Ahıska ახალციხე · Şamahı შამახია · Nâdir Şah ნადირ-შაჰი · Sigetvar სიგეტვარი · Eğri ეგერი
+- Dinyeper დნეპრი · Zaporojye ზაპოროჟიე · Kazak კაზაკი · Yedisan ედისანი
+
