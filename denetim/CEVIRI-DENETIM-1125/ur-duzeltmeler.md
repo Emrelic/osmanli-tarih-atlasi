@@ -1,0 +1,1245 @@
+- arayuz | # Ağustos # (Ateş: # Ağustos'ta Osmanlı müfrezesi çekildi) | m: Ateş yazar soyadı; 'ateş' (آگ) diye çevrilmiş
+- arayuz | # Eylül # (gün YALNIZ hakemli makaleden, Enverî'ye dayalı; TDV gün vermiyor, yalnız Ağustos-Eylül # diyor. Avusturya arşivi aynı olayı #/# Eylül gecesi diye kaydeder) | m: hakemli = hakem incelemesinden geçmiş; 'departman araştırması' yanlış
+- arayuz | # Ekim # (# Ekim tarihli belge muhtariyet iradesidir — TDV trablusgarp-savasi) | m: irade = padişah iradesi (ferman), 'istek' değil
+- arayuz | # Aralık # (Rusya barışı: # Ramazan #; fiilî teslim günü kaynakta yok) | m: cinsiyet uyumu bozuk
+- arayuz | # Ocak # (imzalar # Ocak-# Mart arası şeyhlik şeyhlik tamamlandı) | m: 'şeyhlik şeyhlik' = tek tek her şeyhlik; anlam bozulmuş
+- arayuz | # sonları | m: cinsiyet/sayı uyumu
+- arayuz | . binyıl | m: binyıl = ہزاریہ; 'ہزار سالہ' sıfattır
+- arayuz | (toprak değişince harita devletin sınırlarına ZIPLASIN mı — sıçramalıdır, adaptif genişlik bunun yumuşak hâlidir) | m: 'sıçramalıdır' = ani/zıplamalı; 'zıplamalı' (gereklilik) diye yanlış çevrilmiş
+- arayuz | #'ya doğru (TDV yaklaşık yıl verir; gün/ay yok) | m: zaman için 'e doğru' = civarında; ayrıca boşluk eksik
+- arayuz | Ekim # (# günlük kuşatma ve baskının ardından) | m: baskın = ani saldırı, 'baskı' (دباؤ) değil
+- arayuz | Harekât okları (Harekât okları kutusu) | m: arayüzdeki öteki 'Harekât okları' çevirisiyle tutarsız ve 'kutusu' eksik ekli
+- arayuz | K# — Hanedan üyeleri ve vâlide sultanlar | m: bozuk çoğul
+- arayuz | MÖ # (yıl) | m: diğer bütün MÖ kayıtlarıyla sıra tutarsız
+- arayuz | Nisan sonları # — TDV gün vermiyor | m: cinsiyet/sayı uyumu
+- arayuz | Sonbahar # [yalnız yıl teyitli; gün teyitsiz] | m: خزاں dişil
+- arayuz | durak — yeni durak için sağ tıklayın, bitirince ✕ ile kapatın (Esc: iptal) | m: çekim hatası
+- arayuz | — yeni durak için sağ tıklayın, bitirince ✕ ile kapatın (Esc: iptal) | m: çekim hatası
+- arayuz | Şubat # (ay hassasiyeti; geçiş günü kaynakta yok) | m: ay-yıl sırası ters (ay # = yıl)
+- arayuz | 🗣️ Nasıl bilirdiniz | m: 'nasıl bilirdiniz' = merhumu nasıl tanırdınız (kanaat); 'nereden tanıyordunuz' anlamı çıkmış
+- arayuz | 🗺 Antlaşmanın haritadaki karşılığı | m: anlamsız ifade
+- arayuz | 🗺 Bu maddenin haritadaki karşılığı | m: anlamsız ifade
+- arayuz | 🗺 Bizim coğrafyamız | m: جغرافیہ eril
+- arayuz | Altlık: siyasî katmanların altında ne görünsün — Esri fotoğrafı, bizim coğrafyamız (kara·göl·nehir·dağ) ya da düz zemin. | m: جغرافیہ eril
+- arayuz | ⚠️ Siyasî katman kapalı — tarama şu an görünmüyor. | m: tarama = taralı dolgu (hatching), 'scan' değil
+- arayuz | 🗺 İsyan taraması (Eflak · Boğdan · Erdel) | m: tarama = taralı gösterim, 'scan' değil
+- arayuz | ↺ Varsayılana dön | m: varsayılan = default; 'eskisi gibi yap' yanlış anlam
+- devlet | lur-i-buzurg | m: atabeglik (devlet) kişi gibi çevrilmiş; Türkçe çoğul 'Hazaraspîler' kalmış
+- devlet | lur-i-kucek | m: atabeglik = devlet; 'küçük atabeg' diye okunuyor
+- devlet | gurcistan | m: bozuk izafet
+- devlet | kibris-krallik | m: Türkçe yazım kalıntısı
+- devlet | mutahharten | m: Kemah adı yanlış yazılmış
+- devlet | berabis | m: YANLIŞ AD: Berâbîş yerine Brakna yazılmış
+- devlet | guarani-misyonlari | m: Arapça ي karışması
+- devlet | vaday | m: Arapça ي karışması
+- devlet | kuveyt | m: Urducada 'شیخی' = övünme; şeyhlik anlamı verilmeli
+- devlet | bahreyn | m: Urducada 'شیخی' = övünme
+- devlet | katar | m: Urducada 'شیخی' = övünme
+- devlet | yeni-ispanya | m: genel valilik (kurum) 'vali' kişisi diye çevrilmiş
+- devlet | ispanyol-peru | m: genel valilik (kurum) 'vali' kişisi diye çevrilmiş
+- devlet | kalikut | m: Zamorinlik (devlet) 'zamorin' kişisi diye çevrilmiş
+- devlet | travankur | m: Venâd adı eksik harfle yazılmış
+- devlet | sutayogullari | m: çevrilmemiş, Latin harfli Türkçe kalmış
+- devlet | cemisgezek-beyligi | m: çevrilmemiş Türkçe
+- devlet | arvanid-sancagi | m: Arvanid adı yanlış yazılmış
+- devlet | mekke-serifligi | m: Şeriflik (makam/devlet) 'Mekke Şerifi' kişisi diye çevrilmiş
+- devlet | konstantin-beyligi | m: Cezayir'deki Konstantin şehri (قسنطینہ), kişi adı Konstantin değil
+- devlet | misir-eyaleti | m: cinsiyet hatası ve bozuk tamlama
+- devlet | yeni-granada-valiligi | m: genel valilik kurumu kişi diye çevrilmiş
+- devlet | rio-de-la-plata-valiligi | m: genel valilik kurumu kişi diye çevrilmiş
+- devlet | yeni-ispanya-ilk-donem | m: genel valilik kurumu kişi diye çevrilmiş
+- devlet | livonya-tarikati | m: tarikat/şövalye tarikatı 'حکم' (emir) diye çevrilmiş; yazım hatası
+- devlet | libya-cumhuriyet-cemahiriye | m: kaynakta olmayan 'Büyük Sosyalist Halk' sıfatları eklenmiş
+- devlet | arap-cumhuriyetleri-federasyonu | m: bozuk çoğul
+- devlet | akrotiri-dekelya | m: Dikelya yer adı yanlış harfle
+- devlet | kibris-ingiliz-ussler | m: Dikelya yer adı yanlış harfle
+- devlet | liege-piskoposlugu | m: piskoposluk (devlet) 'prens-piskopos' kişisi diye çevrilmiş
+- devlet | utrecht-piskoposlugu | m: piskoposluk (devlet) kişi diye çevrilmiş
+- devlet | trento-piskoposlugu | m: piskoposluk (devlet) kişi diye çevrilmiş
+- devlet | schwaben-dukaligi | m: yer adı yanlış (b düşmüş)
+- devlet | trucial-states | m: Urducada 'شیخیاں' = övünmeler
+- devlet | sait-26-hanedan | m: Sait adı eksik harf
+- devlet | garamant | m: yazım hatası
+- devlet | vedday-sultanligi | m: Arapça ي karışması
+- devlet | dulefi | m: Türkçe çoğul eki kalıntısı
+- devlet | bagdat-memlukleri | m: Eyüplü adı uydurma bir yer adına dönmüş
+- devlet | salzburg-prens-basepiskoposlugu | m: başpiskoposluk (devlet) kişi diye çevrilmiş
+- devlet | brixen-piskoposlugu | m: piskoposluk (devlet) kişi diye çevrilmiş
+- devlet | taosi-kultur | m: Shanxi, Shaanxi ile karışıyor
+- devlet | shimao-kultur | m: tek il (Shaanxi) iki ad olarak yazılmış
+- devlet | kaminaljuyu-providencia | m: sözcük içinde yazı sistemi karışması
+- devlet | veligosti-damala-baronluk | m: baronluk 'بیرونی' (dış) diye yazılmış
+- devlet | chalandritsa-baronluk | m: baronluk 'بیرونی' (dış) diye yazılmış
+- devlet | kachchhapaghata-gwalior | m: yanlış hanedan adı (Kachwaha)
+- devlet | azcapotzalco-tepanek | m: Türkçe çoğul eki kalıntısı
+- olay | OLAYLAR:1821-03-06:0 | d: Tepedelenli Ali Paşa adı yanlış (تپلان کے)
+- olay | OLAYLAR:1413-07-05:0 | d: 'beylikler' anlamsız 'بیگیوں' diye yazılmış
+- olay | OLAYLAR:1517-01-22:0 | d: dilbilgisi: 'نے' ile geçişsiz fiil; 'پکڑا گیا اور پھانسی دی گئی' öznesiz
+- olay | OLAYLAR:1683-09-12:0 | d: bozuk fiil 'پھانسی پایا'; 'ağırlıkları' = سامان
+- olay | OLAYLAR:1798-06-12:0 | d: 'نے' + geçişsiz fiil; tarikat 'حکم' ve yazım hatası 'شوریر'
+- olay | OLAYLAR:1918-10-30:0 | b: mütareke = ateşkes, 'antlaşma' değil
+- olay | OLAYLAR_EK:1324-01-01:0 | d: diğer bütün metinlerden farklı rakam sistemi
+- olay | OLAYLAR_EK:1334-01-01:0 | d: rakam sistemi ve Bursa yazımı diğer metinlerle tutarsız
+- olay | OLAYLAR_EK:1381-06-01:0 | d: beylik = بیلک; 'بیگی' hanım anlamı çağrıştırıyor
+- olay | OLAYLAR_EK:1461-06-01:0 | d: madde adı cümleye karışmış; beylik 'بیگی' yazılmış
+- olay | OLAYLAR_EK:1385-09-01:0 | d: '1383'ten beri' = 1383 yılından itibaren; '1383'ten önce' diye çevrilmiş
+- olay | OLAYLAR_EK:1663-09-24:0 | d: 'deyim Avrupa dillerine geçti' bozuk anlatım
+- olay | OLAYLAR_EK:1917-03-11:0 | d: yanlış anlam: '383 yıllık Osmanlı Bağdat'ı' = '383 yıl sonra' diye çevrilmiş
+- olay | OLAYLAR_EK2:1478-06-01:0 | d: yanlış anlam: 'para düzeni' yerine 'tarım düzeni' (زرعی)
+- olay | OLAYLAR_EK2:1557-10-16:0 | d: yanlış anlam: 'komplekse diyen' yerine kompleks 'diyen' olmuş; kalfalık çıraklık değil
+- olay | OLAYLAR_EK2:1575-03-01:0 | d: yanlış anlam: cami 'diyen' özne olmuş
+- olay | OLAYLAR_EK2:1534-01-01:0 | b: özel ad: Hürrem Urducada 'خرم'; 'حرم' harem demek
+- olay | OLAYLAR_EK2:1534-01-01:0 | d: özel ad: Hürrem 'خرم'; 'حرم سے نکاح' haremle nikâh gibi okunuyor
+- olay | OLAYLAR_EK2:1720-10-08:0 | d: 'büyük elçilik heyeti' bina anlamındaki 'سفارت خانہ' ile çevrilmiş
+- olay | OLAYLAR_EK:1395-08-01:0 | d: dilbilgisi: 'جانب' dişil, bozuk tamlama
+- olay | OLAYLAR_EK3:1410-05-06:0 | d: dilbilgisi: 'جانب' dişil, uyumsuz
+- olay | OLAYLAR_EK2:1842-01-01:0 | d: dilbilgisi: cinsiyet uyumu
+- olay | OLAYLAR_EK3:1695-09-22:0 | d: bozuk cümle yapısı
+- olay | OLAYLAR_EK4:1811-10-01:0 | d: yanlış anlam: 'ancak iki hafta sonra' (gecikme) 'sadece iki hafta sonra' olmuş
+- olay | OLAYLAR_EK4:1824-07-19:0 | d: dilbilgisi: 'کے لیے محتاج' yanlış
+- olay | OLAYLAR_EK4:1832-07-29:0 | d: özel ad: Amanos = امانوس
+- olay | OLAYLAR_EK4:1833-02-20:0 | d: dilbilgisi: özne uyumsuz fiil
+- olay | OLAYLAR_EK4:1833-02-02:0 | d: eksik edat
+- olay | OLAYLAR_EK4:1838-05-25:0 | d: bozuk cümle
+- olay | OLAYLAR_EK4:1839-04-21:0 | d: yanlış sözcük: 'ہانکا' hayvan sürmek
+- olay | OLAYLAR_EK4:1839-06-28:0 | d: dilbilgisi ve bozuk cümle
+- olay | OLAYLAR_EK4:1839-07-01:0 | d: uydurma tamlama 'خدشہ زدہ انتشار'
+- olay | OLAYLAR_EK4:1840-09-10:0 | b: 'اترائی' iniş/yokuş demek; çıkarma anlamı yok
+- olay | OLAYLAR_EK5:1393-01-01:0 | d: yanlış anlam: 'Timur'un ardından ... öldürtmesi' 'Timur'dan sonra' olmuş
+- olay | OLAYLAR_EK5:1281-01-01:0 | d: yanlış anlam: 'tahsis' = 'تقرری' (atama) olmuş
+- olay | OLAYLAR_EK5:1288-01-01:0 | b: özel ad: Karacahisar, Karahisar ile karışıyor
+- olay | OLAYLAR_EK5:1288-01-01:0 | d: özel ad: Karacahisar
+- olay | OLAYLAR_EK5:1299-01-01:0 | d: dilbilgisi: 'موڑ' eril
+- olay | OLAYLAR_EK5:1302-07-27:0 | d: dilbilgisi: 'موڑ' eril
+- olay | OLAYLAR_EK5:1402-09-15:0 | b: yanlış sözcük: 'بیگیاں' hanımlar demek; beylik = بیلک
+- olay | OLAYLAR_EK5:1402-09-15:0 | d: yanlış sözcük: 'بیگیاں' = hanımlar
+- olay | OLAYLAR_EK5:1402-12-14:0 | d: bozuk cümle
+- olay | OLAYLAR_EK5:1415-06-01:0 | d: yanlış: 'بیگی' (makam/hanım) yerine 'بیگ'
+- olay | OLAYLAR_EK5:1374-01-01:0 | d: ters kurulmuş cümle
+- olay | OLAYLAR_EK5:1409-01-01:0 | d: bozuk cümle
+- olay | OLAYLAR_EK5:1331-03-03:0 | d: bozuk cümle / yanlış fiil
+- olay | OLAYLAR_EK5:1385-09-18:0 | b: özel ad: Savra = ساورا
+- olay | OLAYLAR_EK5:1385-09-18:0 | d: özel ad: Savra = ساورا
+- olay | OLAYLAR_EK5:1456-07-22:0 | d: 'Kanûnî' tek başına 'قانونی' (yasal) diye okunuyor, cümle bozuk
+- olay | OLAYLAR_EK5:1480-07-28:0 | d: 'Kanûnî' tek başına 'قانونی' diye okunuyor, cümle bozuk
+- olay | OLAYLAR_EK5:1462-09-17:0 | d: yanlış anlam: 'Cenevizlilerin bölgedeki son üssü'
+- olay | OLAYLAR_EK5:1466-06-01:0 | d: Türkçe kalıbı birebir çevirme: 'دس سال لینی تھی' bozuk
+- olay | OLAYLAR_EK5:1468-01-17:0 | d: bozuk cümle
+- olay | OLAYLAR_EK5:1516-08-02:0 | d: bozuk fiil yapısı
+- olay | OLAYLAR_EK5:1516-12-29:0 | d: dilbilgisi: cinsiyet uyumu
+- olay | OLAYLAR_EK5:1517-02-15:0 | d: dilbilgisi: cinsiyet uyumu
+- olay | OLAYLAR_EK5:1517-07-06:0 | d: özel ad yazımı diğer metinlerle tutarsız (یاووز)
+- olay | OLAYLAR_EK5:1517-09-10:0 | d: bozuk cümle / yanlış fiil
+- olay | OLAYLAR_EK5:1517-09-11:0 | d: bozuk cümleler
+- olay | OLAYLAR_EK5:1518-01-01:0 | d: yanlış anlam: 'gecikti' yerine 'دیر پا' (kalıcı)
+- olay | OLAYLAR_EK5:1543-08-10:0 | d: bozuk cümle
+- olay | OLAYLAR_EK5:1573-03-07:0 | d: bozuk cümle
+- olay | OLAYLAR_EK5:1574-12-22:0 | d: 'arife' için uydurma 'پیش شام'
+- olay | OLAYLAR_EK5:1592-06-19:0 | d: 'arife' için uydurma 'پیش شام'
+- olay | OLAYLAR_EK5:1596-10-12:0 | d: bozuk cümle
+- olay | OLAYLAR_EK5:1612-07-06:0 | d: bozuk cümle
+- olay | OLAYLAR_EK5:1618-02-26:0 | d: yanlış anlam: 'hayatına mal olacaktı' = tazminat değil
+- olay | OLAYLAR_EK5:1621-10-09:0 | d: dilbilgisi: cinsiyet uyumu
+- olay | OLAYLAR_EK5:1635-08-08:0 | d: bozuk cümle
+- olay | OLAYLAR_EK5:1636-04-01:0 | d: bozuk cümle
+- olay | OLAYLAR_EK5:1656-07-13:0 | d: deyim hatası: 'fiyatlar fırladı'
+- olay | OLAYLAR_EK5:1658-08-27:0 | d: hükümdar sayısı yanlış yerde: 'II. György' = '... دوم'
+- olay | OLAYLAR_EK5:1660-08-27:0 | d: hükümdar sayısı yanlış yerde
+- olay | OLAYLAR_EK5:1678-08-21:0 | d: bozuk cümle
+- olay | OLAYLAR_EK5:1714-12-08:0 | d: dilbilgisi: bozuk tamlama
+- olay | OLAYLAR_EK5:1716-08-05:0 | d: yanlış anlam: 'siperleri zorladı' 'kırdı' olmuş
+- olay | OLAYLAR_EK5:1716-08-20:0 | d: dilbilgisi: bozuk fiil
+- olay | OLAYLAR_EK5:1723-06-15:0 | d: bozuk cümle
+- olay | OLAYLAR_EK5:1732-01-08:0 | d: özel ad: Hoy = خوئی ('ہوئی' = oldu)
+- olay | OLAYLAR_EK5:1744-01-01:0 | d: dilbilgisi: özne 'کو' ile bozulmuş
+- olay | OLAYLAR_EK5:1769-09-20:0 | d: yanlış anlam: istihkâm ≠ استحکام (istikrar)
+- olay | OLAYLAR_EK5:1790-12-22:0 | d: yanlış anlam: istihkâm ≠ استحکام
+- olay | OLAYLAR_EK5:1795-09-01:0 | d: yanlış anlam: 'قلعہ بند' = kuşatılmış/tahkimli
+- olay | OLAYLAR_EK5:1855-08-16:0 | d: dilbilgisi: 'ناکافی' isim gibi kullanılmış
+- olay | OLAYLAR_EK5:1856-06-07:0 | d: dilbilgisi: cinsiyet uyumu
+- olay | OLAYLAR_EK5:1859-09-14:0 | d: bozuk cümle
+- olay | OLAYLAR_EK5:1867-06-08:0 | d: 'بہائی رقوم' Bahai paraları gibi okunuyor, bozuk
+- olay | OLAYLAR_EK5:1876-12-23:0 | d: dilbilgisi: geçişsiz fiille 'نے'
+- olay | OLAYLAR_EK5:1878-03-03:0 | d: bozuk anlatım (tepki 'بلایا')
+- olay | OLAYLAR_EK5:1899-11-27:0 | d: bozuk cümle
+- olay | OLAYLAR_EK5:1905-04-01:0 | d: uydurma sözcük 'جائزیت' (meşruiyet = جواز)
+- olay | OLAYLAR_EK5:1905-07-21:0 | d: dilbilgisi: cinsiyet uyumu
+- olay | OLAYLAR_EK5:1910-04-01:0 | d: 'arifesinde' birebir 'شام' (akşam) olmuş
+- olay | OLAYLAR_EK5:1914-11-14:0 | d: özel ad: Hayri = خیری; bozuk ilk cümle
+- olay | OLAYLAR_EK5:1918-03-03:0 | d: yanlış anlam: İttifak devletleri = Merkez Devletleri; 'اتحادی' İtilaf diye anlaşılır
+- olay | OLAYLAR_EK5:1534-07-13:0 | d: tek başına 'قانونی' Urducada 'yasal' okunur; hükümdar adı verilmeli
+- olay | OLAYLAR_EK5:1545-12-26:0 | b: Basra Körfezi'nin Urducada yerleşik adı خلیجِ فارس
+- olay | OLAYLAR_EK5:1545-12-26:0 | d: tek başına 'قانونی' 'yasal' okunur
+- olay | OLAYLAR_EK5:1550-01-01:0 | d: نخلستان eril; Basra Körfezi = خلیجِ فارس
+- olay | OLAYLAR_EK5:1555-01-01:0 | d: cinsiyet/sayı uyumu; madde adı نوبہ
+- olay | OLAYLAR_EK5:1555-09-27:0 | d: Konstantin şehri قسنطینہ; bozuk ifade
+- olay | OLAYLAR_EK5:1559-01-01:0 | d: bozuk anlatım
+- olay | OLAYLAR_EK5:1500-12-24:0 | d: bozuk anlatım; 'آیونی' adsız kalmış
+- olay | OLAYLAR_EK5:1537-10-01:0 | d: eksik virgül ve bozuk yapı
+- olay | OLAYLAR_EK5:1513-01-01:0 | d: cinsiyet uyumu bozuk
+- olay | OLAYLAR_EK5:1522-01-01:0 | d: cinsiyet uyumu
+- olay | OLAYLAR_EK5:1566-04-15:0 | d: SAYI: üç buçuk asır = 350 yıl; tek başına 'قانونی' belirsiz
+- olay | OLAYLAR_EK5:1570-07-02:0 | b: 'اترائی' iniş/yokuş demek; çıkarma anlamı bozuk
+- olay | OLAYLAR_EK5:1570-09-17:0 | d: bozuk anlatım
+- olay | OLAYLAR_EK5:1715-07-20:0 | d: Latin harfli yer adı çevrilmemiş
+- olay | OLAYLAR_EK5:1715-09-07:0 | d: گزرگاہ dişil
+- olay | OLAYLAR_EK5:1718-07-21:0 | d: Petrovaradin adı eksik; Latin harfli Türkçe yer adları kalmış; 'زمین رکھی' bozuk
+- olay | OLAYLAR_EK5:1724-08-11:0 | d: tek başına 'قانونی' 'yasal' okunur
+- olay | OLAYLAR_EK5:1781-01-01:0 | d: bozuk kalıp
+- olay | OLAYLAR_EK5:1798-10-23:0 | d: cinsiyet uyumu: قلعہ بندی dişil
+- olay | OLAYLAR_EK5:1918-04-25:0 | d: öznesiz bozuk cümle
+- olay | OLAYLAR_EK5:1918-03-28:0 | d: bozuk tamlama; Arapça ى karışması
+- olay | OLAYLAR_EK5:1785-04-27:0 | d: cinsiyet uyumu ve bozuk yapı
+- olay | OLAYLAR_EK5:1801-09-24:0 | d: Latin harfli Türkçe yer adları kalmış
+- olay | OLAYLAR_EK5:1878-07-13:0 | d: bozuk cümle ve uyum
+- olay | OLAYLAR_EK5:1693-01-06:0 | d: anlam bozuk ('çok sevdiği')
+- olay | OLAYLAR_EK5:1904-08-29:0 | d: yazım: Havâtîn = خواتین
+- olay | OLAYLAR_EK5:1916-08-07:0 | d: bozuk fiil
+- olay | OLAYLAR_EK5:1912-11-25:0 | b: 'اترائی' iniş/yokuş demek; çıkarma anlamı bozuk
+- olay | OLAYLAR_EK5:1912-11-25:0 | d: 'اترائی' yanlış
+- olay | OLAYLAR_EK6:1730-08-12:0 | d: Latin harfli Türkçe yer adı kalmış
+- olay | OLAYLAR_EK6:1534-06-23:0 | d: tek başına 'یاوز' hükümdarı belli etmiyor
+- olay | OLAYLAR_EK6:1535-09-22:0 | b: 'ٹھہراؤ' duraklama demek; 'tutum/elde tutma' yanlış
+- olay | OLAYLAR_EK6:1535-09-22:0 | d: tek başına 'قانونی' 'yasal' okunur
+- olay | OLAYLAR_EK6:1547-01-01:0 | d: 'صفوی کو' → 'صفویوں کو'
+- olay | OLAYLAR_EK6:1553-08-01:0 | d: tek başına 'قانونی' 'yasal' okunur
+- olay | OLAYLAR_EK6:1604-06-08:0 | d: bozuk cümle
+- olay | OLAYLAR_EK6:1670-01-01:0 | d: Basra Körfezi = خلیجِ فارس
+- olay | OLAYLAR_EK6:1684-09-29:0 | d: öznesiz cümle
+- olay | OLAYLAR_EK6:1686-07-10:0 | d: YANLIŞ ANLAM: 'دھڑکا' çarptırmak; bombardıman kastediliyor
+- olay | OLAYLAR_EK6:1686-10-20:0 | d: tek başına 'قانونی' 'yasal' okunur
+- olay | OLAYLAR_EK6:1688-05-19:0 | d: tek başına 'قانونی' 'yasal' okunur
+- olay | OLAYLAR_EK6:1689-02-03:0 | d: tek başına 'قانونی'; Latin harfli yer adı
+- olay | OLAYLAR_EK6:1697-01-01:0 | d: cinsiyet/uyum
+- olay | OLAYLAR_EK6:1735-06-19:0 | d: cinsiyet; 'صورت میں' = 'halinde' diye yanlış anlam
+- olay | OLAYLAR_EK6:1806-01-01:0 | d: tahsisat = رقم, 'تحویل' yanlış; tekrar
+- olay | OLAYLAR_EK6:1806-05-27:0 | d: Türkçe yazım kalıntısı
+- olay | OLAYLAR_EK6:1819-05-10:0 | d: bozuk yapı
+- olay | OLAYLAR_EK6:1830-07-05:0 | d: YANLIŞ AD: Medea şehri 'میڈیا' (medya) okunuyor; bozuk cümle
+- olay | OLAYLAR_EK6:1833-09-29:0 | d: YANLIŞ AD: Kabiliye (Kabylie) dağları 'kabile dağları' diye çevrilmiş
+- olay | OLAYLAR_EK6:1844-03-04:0 | d: cinsiyet; çöl kıyısı = kenar
+- olay | OLAYLAR_EK6:1854-12-02:0 | d: cinsiyet uyumu
+- olay | OLAYLAR_EK6:1883-01-19:0 | d: kelimesi kelimesine, anlamsız ifade
+- olay | OLAYLAR_EK6:1885-02-05:0 | d: bozuk cümle
+- olay | OLAYLAR_EK6:1912-05-04:0 | d: tek başına 'قانونی' 'yasal' okunur
+- olay | OLAYLAR_EK6:1912-05-12:0 | d: YANLIŞ ANLAM: takımada 'جزیرہ نما' (yarımada) diye çevrilmiş; cinsiyet
+- olay | OLAYLAR_EK6:1913-03-26:0 | d: cinsiyet uyumu
+- olay | OLAYLAR_EK6:1920-05-27:0 | d: cinsiyet uyumu
+- olay | OLAYLAR_ILIRYA0072:1813-01-01:0 | d: Latin harfli yer adları çevrilmemiş
+- olay | OLAYLAR_ILIRYA0072:1779-01-01:0 | d: aşiret/kol ayrımı kaybolmuş
+- olay | OLAYLAR_EK7:1470-06-01:0 | d: cinsiyet uyumu
+- olay | OLAYLAR_EK7:1481-05-22:0 | d: 'جلوس' Urducada yürüyüş alayı; cülûs bahşişi
+- olay | OLAYLAR_EK7:1493-01-01:0 | d: cinsiyet/tamlama
+- olay | OLAYLAR_EK7:1509-09-14:0 | d: bozuk ifade
+- olay | OLAYLAR_EK7:1512-06-10:0 | d: cinsiyet uyumu
+- olay | OLAYLAR_EK7:1523-06-27:0 | d: tek başına 'قانونی' 'yasal' okunur
+- olay | OLAYLAR_EK7:1544-12-02:0 | d: tek başına 'قانونی'
+- olay | OLAYLAR_EK7:1545-10-01:0 | d: tek başına 'قانونی'
+- olay | OLAYLAR_EK7:1550-06-01:0 | d: YANLIŞ ANLAM: imaret (aşevi) 'عمارت' (bina) diye; başmimarlık; tek başına 'قانونی'
+- olay | OLAYLAR_EK7:1553-12-01:0 | d: bozuk yapı
+- olay | OLAYLAR_EK7:1555-09-29:0 | d: YANLIŞ AD: Hürrem = خرم (حرم = harem)
+- olay | OLAYLAR_EK7:1558-04-15:0 | b: YANLIŞ AD: Hürrem = خرم
+- olay | OLAYLAR_EK7:1558-04-15:0 | d: YANLIŞ AD: Hürrem = خرم; tek başına 'قانونی'
+- olay | OLAYLAR_EK7:1565-06-29:0 | d: tek başına 'قانونی'
+- olay | OLAYLAR_EK7:1566-09-24:0 | d: tek başına 'قانونی'
+- olay | OLAYLAR_EK7:1579-10-12:0 | d: konak = kişinin köşkü, 'محل' (saray) değil; cinsiyet
+- olay | OLAYLAR_EK7:1582-05-29:0 | b: sünnet düğünü = şenlik; 'شادی' evlilik demek
+- olay | OLAYLAR_EK7:1595-02-01:0 | d: YANLIŞ ANLAM: 'kaynaklı' belge kaynağı (ماخذ) diye çevrilmiş
+- olay | OLAYLAR_EK7:1596-06-20:0 | d: cinsiyet uyumu
+- olay | OLAYLAR_EK7:1609-08-09:0 | d: YANLIŞ ANLAM: imaret (aşevi) 'عمارت' (bina); bozuk yapı
+- olay | OLAYLAR_EK7:1622-05-20:0 | d: yazım/fiil hatası
+- olay | OLAYLAR_EK7:1633-09-01:0 | d: bozuk yapı
+- olay | OLAYLAR_EK7:1638-06-01:0 | d: YANLIŞ ANLAM: ödülü veren Hezarfen gibi okunuyor
+- olay | OLAYLAR_EK7:1660-07-15:0 | d: bozuk ifade
+- olay | OLAYLAR_EK7:1703-03-01:0 | d: dilbilgisi
+- olay | OLAYLAR_EK7:1730-10-01:0 | b: çevrilmemiş Latin harfli Türkçe
+- olay | OLAYLAR_EK7:1730-10-01:0 | d: çevrilmemiş Türkçe; diğer metinlerle tutarlılık
+- olay | OLAYLAR_EK7:1730-10-02:0 | d: çevrilmemiş Latin harfli madde adı
+- olay | OLAYLAR_EK7:1733-06-01:0 | b: çevrilmemiş Latin harfli Türkçe
+- olay | OLAYLAR_EK7:1733-06-01:0 | d: çevrilmemiş Latin harfli Türkçe; sayı biçimi
+- olay | OLAYLAR_EK7:1734-06-01:0 | b: çevrilmemiş Latin harfli Türkçe
+- olay | OLAYLAR_EK7:1734-06-01:0 | d: çevrilmemiş Latin harfli Türkçe
+- olay | OLAYLAR_EK7:1739-06-01:0 | d: çevrilmemiş Latin harfli madde adı
+- olay | OLAYLAR_EK7:1755-09-29:0 | b: çevrilmemiş Latin harfli Türkçe
+- olay | OLAYLAR_EK7:1755-09-29:0 | d: çevrilmemiş Latin harfli Türkçe
+- olay | OLAYLAR_EK7:1757-02-28:0 | b: çevrilmemiş Latin harfli Türkçe
+- olay | OLAYLAR_EK7:1757-02-28:0 | d: çevrilmemiş Latin harfli Türkçe
+- olay | OLAYLAR_EK7:1763-04-08:0 | b: çevrilmemiş Latin harfli Türkçe
+- olay | OLAYLAR_EK7:1763-04-08:0 | d: çevrilmemiş Latin harfli Türkçe
+- olay | OLAYLAR_EK7:1766-05-01:0 | d: çevrilmemiş Latin harfli Türkçe
+- olay | OLAYLAR_EK7:1772-10-01:0 | b: Latin harfli ad
+- olay | OLAYLAR_EK7:1772-10-01:0 | d: çevrilmemiş Latin harfli Türkçe
+- olay | OLAYLAR_EK7:1789-04-07:0 | d: çevrilmemiş Türkçe
+- olay | OLAYLAR_EK7:1792-06-01:0 | d: çevrilmemiş Türkçe
+- olay | OLAYLAR_EK7:1793-03-01:0 | b: yazım hatası
+- olay | OLAYLAR_EK7:1793-03-01:0 | d: çevrilmemiş Türkçe; 'tek seferlik' = 'یک طرفہ' (tek taraflı) yanlış
+- olay | OLAYLAR_EK7:1793-06-01:0 | b: çevrilmemiş Latin harfli Türkçe
+- olay | OLAYLAR_EK7:1793-06-01:0 | d: çevrilmemiş Türkçe
+- olay | OLAYLAR_EK7:1807-05-25:0 | b: çevrilmemiş Latin harfli Türkçe
+- olay | OLAYLAR_EK7:1807-05-25:0 | d: çevrilmemiş Türkçe
+- olay | OLAYLAR_EK7:1807-05-29:0 | d: çevrilmemiş Türkçe
+- olay | OLAYLAR_EK7:1807-05-29:1 | d: çevrilmemiş Türkçe
+- olay | OLAYLAR_EK7:1808-07-19:0 | d: çevrilmemiş Türkçe
+- olay | OLAYLAR_EK7:1808-07-28:0 | d: çevrilmemiş Türkçe
+- olay | OLAYLAR_EK7:1808-07-28:1 | d: çevrilmemiş Türkçe
+- olay | OLAYLAR_EK7:1808-08-15:0 | b: çevrilmemiş Latin harfli Türkçe
+- olay | OLAYLAR_EK7:1808-08-15:0 | d: çevrilmemiş Türkçe
+- olay | OLAYLAR_EK7:1809-12-02:0 | b: çevrilmemiş Latin harfli ad
+- olay | OLAYLAR_EK7:1809-12-02:0 | d: Latin harfli adlar
+- olay | OLAYLAR_EK7:1810-09-26:0 | b: Latin harfli ad
+- olay | OLAYLAR_EK7:1810-09-26:0 | d: Latin harfli adlar
+- olay | OLAYLAR_EK7:1826-05-15:0 | b: çevrilmemiş Türkçe
+- olay | OLAYLAR_EK7:1826-05-15:0 | d: çevrilmemiş Türkçe
+- olay | OLAYLAR_EK7:1826-06-18:0 | b: çevrilmemiş Türkçe
+- olay | OLAYLAR_EK7:1826-06-18:0 | d: çevrilmemiş Türkçe
+- olay | OLAYLAR_EK7:1826-06-19:0 | d: bozuk cümle; çevrilmemiş Türkçe
+- olay | OLAYLAR_EK7:1829-06-01:0 | d: çevrilmemiş Türkçe; bozuk tamlama
+- olay | OLAYLAR_EK7:1829-09-14:0 | d: Latin harfli yer adları
+- olay | OLAYLAR_EK7:1830-06-14:0 | b: Latin harfli ad
+- olay | OLAYLAR_EK7:1830-06-14:0 | d: Latin harfli adlar
+- olay | OLAYLAR_EK7:1834-07-08:0 | d: çevrilmemiş Türkçe
+- olay | OLAYLAR_EK7:1836-06-01:0 | d: çevrilmemiş Türkçe
+- olay | OLAYLAR_EK7:1838-03-24:0 | d: çevrilmemiş Türkçe
+- olay | OLAYLAR_EK7:1853-11-30:0 | d: çevrilmemiş Türkçe
+- olay | OLAYLAR_EK7:1862-06-27:0 | d: çevrilmemiş Türkçe
+- olay | OLAYLAR_EK7:1867-08-30:0 | d: çevrilmemiş Türkçe
+- olay | OLAYLAR_EK7:1868-03-05:0 | d: çevrilmemiş Türkçe
+- olay | OLAYLAR_EK7:1869-04-08:0 | b: irade = padişah fermanı, 'ارادہ' niyet demek
+- olay | OLAYLAR_EK7:1869-04-08:0 | d: irade = ferman; Latin harfli ad
+- olay | OLAYLAR_EK7:1869-06-01:0 | d: çevrilmemiş Türkçe
+- olay | OLAYLAR_EK7:1873-04-01:0 | d: çevrilmemiş Türkçe
+- olay | OLAYLAR_EK7:1877-02-05:0 | d: çevrilmemiş Türkçe
+- olay | OLAYLAR_EK7:1909-04-24:0 | d: çevrilmemiş Türkçe
+- olay | OLAYLAR_EK7:1920-04-11:0 | d: irade = ferman; çevrilmemiş Türkçe
+- olay | OLAYLAR_EK7:1920-04-23:0 | d: çevrilmemiş Türkçe
+- olay | OLAYLAR_EK7:1335-12-01:0 | d: çevrilmemiş Türkçe
+- olay | OLAYLAR_EK7:1387-01-01:0 | d: çevrilmemiş Türkçe
+- olay | OLAYLAR_EK7:1406-10-15:0 | d: Latin harfli ad
+- olay | OLAYLAR_EK7:1408-04-13:0 | b: Latin harfli ad
+- olay | OLAYLAR_EK7:1408-04-13:0 | d: Latin harfli ad
+- olay | OLAYLAR_EK7:1722-09-03:0 | d: Latin harfli Türkçe yer adları
+- olay | OLAYLAR_EK7:1726-01-01:0 | b: Latin harfli ad
+- olay | OLAYLAR_EK7:1726-01-01:0 | d: Latin harfli adlar; خزاں dişil
+- olay | OLAYLAR_EK7:1735-03-21:0 | d: Latin harfli yer adları
+- olay | OLAYLAR_EK7:1834-01-01:0 | d: çevrilmemiş terim
+- olay | OLAYLAR_7A4170:1856-01-01:0 | d: YANLIŞ RÜTBE: miralay = albay; 'میر لیوا' tuğgeneraldir
+- olay | OLAYLAR_7A4170:1859-04-25:0 | d: Latin harfli ad
+- olay | OLAYLAR_7A4170:1863-04-03:0 | d: Latin harfli Türkçe yer adları
+- olay | OLAYLAR_EK8:1460-01-01:0 | b: Latin harfli Türkçe ad
+- olay | OLAYLAR_EK8:1460-01-01:0 | d: Latin harfli Türkçe ad
+- olay | OLAYLAR_EK8:1509-02-03:0 | d: Latin harfli ad; bozuk tamlama
+- olay | OLAYLAR_EK8:1526-01-01:0 | d: Latin harfli aşiret adları (Akça Koyunlu, Akkoyunlu aşireti adıyla karışmaması için kontrol edilsin)
+- olay | OLAYLAR_EK8:1554-08-22:0 | b: Latin harfli ad; öteki maddede 'زالم'
+- olay | OLAYLAR_EK8:1554-08-22:0 | d: Latin harfli adlar; Hüsrev = خسرو; tek başına 'قانونی'
+- olay | OLAYLAR_EK8:1688-09-11:0 | b: Latin harfli ad
+- olay | OLAYLAR_EK8:1688-09-11:0 | d: Latin harfli adlar; Hüsrev = خسرو
+- olay | OLAYLAR_EK8:1830-02-03:0 | d: YANLIŞ AD: Andros = اندروس
+- olay | OLAYLAR_EK8:1920-08-10:0 | d: sayı biçimi (Urducada 50.700 ondalık okunur)
+- olay | OLAYLAR_EK8:1573-01-01:0 | d: Latin harfli ad
+- olay | OLAYLAR_EK8:1921-08-14:0 | d: Latin harfli ad
+- olay | OLAYLAR_EK8:1924-01-01:0 | d: Türkçe alıntı çevrilmemiş; bozuk çoğul
+- olay | OLAYLAR_EK9:1841-01-01:0 | d: Latin harfli ad ve terim
+- olay | OLAYLAR_EK9:1843-01-01:0 | b: Latin harfli ad
+- olay | OLAYLAR_EK9:1843-01-01:0 | d: Latin harfli ad
+- olay | OLAYLAR_EK9:1843-06-12:0 | b: Latin harfli ad
+- olay | OLAYLAR_EK9:1843-06-12:0 | d: Latin harfli adlar
+- olay | OLAYLAR_EK9:1844-01-01:0 | d: Latin harfli ad
+- olay | OLAYLAR_EK9:1852-12-04:0 | d: Latin harfli ad
+- olay | OLAYLAR_EK9:1874-11-02:0 | d: Latin harfli adlar
+- olay | OLAYLAR_EK9:1741-06-12:0 | b: Latin harfli ad
+- olay | OLAYLAR_EK9:1741-06-12:0 | d: Latin harfli ad
+- olay | OLAYLAR_EK9:1872-01-01:0 | d: Latin harfli ad
+- olay | OLAYLAR_EK9:1884-06-03:0 | b: Latin harfli ad
+- olay | OLAYLAR_EK9:1884-06-03:0 | d: cinsiyet uyumu
+- olay | OLAYLAR_EK9:1837-10-13:0 | b: YANLIŞ AD: Cezayir'deki Konstantin şehri = قسنطینہ
+- olay | OLAYLAR_EK9:1837-10-13:0 | d: YANLIŞ AD: قسنطینہ; Latin harfli ad
+- olay | OLAYLAR_EK9:1832-11-22:0 | d: Latin harfli ad
+- olay | OLAYLAR_EK9:1882-07-11:0 | d: Latin harfli ad
+- olay | OLAYLAR_EK9:1882-09-13:0 | d: Latin harfli ad
+- olay | OLAYLAR_EK9:1911-10-16:0 | d: YANLIŞ ANLAM: ardalan (hinterland) 'پس منظر' (arka plan) diye
+- olay | OLAYLAR_EK9:1911-10-21:0 | d: YANLIŞ ANLAM: ardalan = hinterland
+- olay | OLAYLAR_EK9:1896-09-23:0 | d: Latin harfli ad; bozuk yapı
+- olay | OLAYLAR_EK9:1898-09-02:0 | d: Latin harfli ad
+- olay | OLAYLAR_EK10:1479-08-01:0 | d: Latin harfli kişi/madde adları
+- olay | OLAYLAR_EK10:1482-01-01:0 | b: Latin harfli adlar
+- olay | OLAYLAR_EK10:1482-01-01:0 | d: Latin harfli adlar
+- olay | OLAYLAR_EK10:1499-08-26:0 | d: Latin harfli ad; bozuk yapı
+- olay | OLAYLAR_EK10:1594-08-28:0 | d: Latin harfli kişi adları
+- olay | OLAYLAR_EK10:1594-11-01:0 | d: Latin harfli kişi adları
+- olay | OLAYLAR_EK10:1595-08-23:0 | b: Latin harfli ad
+- olay | OLAYLAR_EK10:1595-08-23:0 | d: Latin harfli adlar
+- olay | OLAYLAR_EK10:1595-10-01:0 | d: Latin harfli adlar
+- olay | OLAYLAR_EK10:1713-06-24:0 | d: Latin harfli ad
+- olay | OLAYLAR_EK10:1877-04-24:0 | b: 'نوے تین' bozuk sayı; diğer metinlerde '93 کی جنگ'
+- olay | OLAYLAR_EK10:1877-04-24:0 | d: bozuk sayı adı; binlik ayırıcı
+- olay | OLAYLAR_EK10:1433-01-01:0 | d: Latin harfli adlar
+- olay | OLAYLAR_EK10:1877-05-21:0 | d: YANLIŞ AD: Kalas = Galați (گالاتس), Călărași değil
+- olay | OLAYLAR_EK10:1912-10-20:0 | d: fazla 'نے' dilbilgisi hatası
+- olay | OLAYLAR_EK10:1912-10-23:0 | d: sayı biçimi (35.000 ondalık okunur)
+- olay | OLAYLAR_EK10:1912-10-29:0 | b: Latin harfli ad
+- olay | OLAYLAR_EK10:1912-10-29:0 | d: Latin harfli ad
+- olay | OLAYLAR_EK10:1912-11-05:0 | b: Latin harfli ad
+- olay | OLAYLAR_EK10:1912-11-05:0 | d: Latin harfli ad
+- olay | OLAYLAR_EK10:1912-11-28:0 | b: dilbilgisi: fazla 'نے'
+- olay | OLAYLAR_EK10:1476-02-01:0 | b: Latin harfli Türkçe ad
+- olay | OLAYLAR_EK10:1521-07-07:0 | b: Latin harfli ad; tek başına 'قانونی'
+- olay | OLAYLAR_EK10:1788-04-24:0 | b: Latin harfli ad
+- olay | OLAYLAR_EK10:1806-01-26:0 | b: Latin harfli ad
+- olay | OLAYLAR_EK10:1806-01-26:0 | d: YANLIŞ OKUNUŞ: 'دائیوں' Urducada ebeler demek (Belgrad dayıları)
+- olay | OLAYLAR_EK10:1457-01-01:0 | b: Latin harfli ad
+- olay | OLAYLAR_EK10:1465-01-01:0 | b: Latin harfli ad
+- olay | OLAYLAR_EK10:1469-01-01:0 | b: Latin harfli ad
+- olay | OLAYLAR_EK10:1512-01-01:0 | b: Latin harfli ad
+- olay | OLAYLAR_EK10:1402-07-28:0 | b: Latin harfli ad
+- olay | OLAYLAR_EK10:1416-01-01:0 | b: Latin harfli adlar
+- olay | OLAYLAR_EK10:1419-01-01:0 | b: Latin harfli ad
+- olay | OLAYLAR_EK11:1504-12-06:0 | d: ÇEVRİLMEMİŞ Türkçe alıntı
+- olay | OLAYLAR_EK11:1508-01-01:0 | d: tek başına 'قانونی'
+- olay | OLAYLAR_EK12:1893-01-01:0 | d: Arapça ي karışması; Latin harfli ad
+- olay | OLAYLAR_EK13:1417-01-01:0 | d: Basra Körfezi = خلیجِ فارس; Latin madde adı
+- olay | OLAYLAR_EK14:1548-08-01:0 | d: imaret = aşevi ('عمارت' bina demek); tabhane çevrilmemiş
+- olay | OLAYLAR_EK14:1419-12-01:0 | d: imaret = aşevi
+- olay | OLAYLAR_EK14:1554-01-01:0 | d: tek başına 'قانونی'
+- olay | OLAYLAR_EK14:1566-01-01:1 | d: tek başına 'قانونی'
+- olay | OLAYLAR_EK14:1561-01-01:0 | d: tek başına 'قانونی'
+- olay | OLAYLAR_EK14:1566-09-30:0 | d: tek başına 'قانونی'
+- olay | OLAYLAR_EK14:1534-12-04:0 | b: tek başına 'قانونی' 'yasal' okunur
+- olay | OLAYLAR_EK14:1535-01-01:0 | d: tek başına 'قانونی'
+- olay | OLAYLAR_EK14:1504-01-01:0 | d: sayı biçimi (3.000 ondalık okunur); Latin madde adı
+- olay | OLAYLAR_EK14:1425-01-01:0 | d: cinsiyet uyumu; ilmiye
+- olay | OLAYLAR_EK14:1515-01-01:0 | b: YANLIŞ AD: Haliç = Altın Boynuz (شاخِ زریں), 'خلیج' körfez
+- olay | OLAYLAR_EK14:1502-06-01:0 | d: sayı biçimi
+- olay | OLAYLAR_EK14:1599-06-01:0 | d: sayı biçimi
+- olay | OLAYLAR_EK14:1775-06-01:0 | d: ondalık ayırıcı
+- olay | OLAYLAR_EK14:1833-06-01:0 | d: ondalık ayırıcı
+- olay | OLAYLAR_EK14:1554-06-01:0 | d: 'قانونی' tek başına 'yasal' okunuyor
+- olay | OLAYLAR_EK14:1830-12-01:0 | d: ondalık ayırıcı (7,5 Urducada yanlış okunur)
+- olay | OLAYLAR_EK14:1864-06-01:0 | d: bozuk dilbilgisi
+- olay | OLAYLAR_EK14:1864-07-01:0 | d: ondalık ayırıcı ve bozuk edilgen yapı
+- olay | OLAYLAR_EK14:1869-09-01:0 | d: bozuk anlatım ('کی طرف مبنی')
+- olay | OLAYLAR_EK14:1555-06-01:0 | d: 'قانونی' tek başına 'yasal' okunuyor
+- olay | OLAYLAR_EK15:1614-01-01:0 | d: Türkçe harfli ad kalıntısı
+- olay | OLAYLAR_EK15:1857-07-11:0 | d: Türkçe harfli ad kalıntısı
+- olay | OLAYLAR_EK15:1659-01-01:0 | d: 'Atlas kıyısı' = Atlas Okyanusu (Atlantik) kıyısı; 'اطلس' yanlış anlaşılır
+- olay | OLAYLAR_EK16:1315-01-01:0 | d: özne eki 'نے' eksik
+- olay | OLAYLAR_EK16:1335-01-01:0 | d: yanlış anlam: 'beylik ölümüne kadar' (ölen Eretna) + Latin adlar
+- olay | OLAYLAR_EK16:1814-01-14:0 | d: dilbilgisi
+- olay | OLAYLAR_EK16:1884-07-14:0 | b: bozuk başlık dilbilgisi
+- olay | OLAYLAR_EK16:1283-01-01:0 | b: Türkçe 'knezlik' kalıntısı
+- olay | OLAYLAR_EK16:1283-01-01:0 | d: Türkçe 'knezlik' kalıntısı
+- olay | OLAYLAR_EK16:1325-01-01:0 | d: Türkçe 'knezlik' kalıntısı
+- olay | OLAYLAR_EK16:1307-01-01:0 | b: Türkçe 'knezlik' kalıntısı
+- olay | OLAYLAR_EK16:1307-01-01:0 | d: Türkçe 'knezlik' kalıntısı
+- olay | OLAYLAR_EK16:1392-01-01:0 | b: Türkçe 'knezlik' kalıntısı
+- olay | OLAYLAR_EK16:1392-01-01:0 | d: Türkçe 'yarlık', 'Toktamış' kalıntısı
+- olay | OLAYLAR_EK16:1404-01-01:0 | b: Türkçe 'knezlik' kalıntısı
+- olay | OLAYLAR_EK16:1301-01-01:0 | b: Türkçe 'knez' kalıntısı
+- olay | OLAYLAR_EK16:1301-01-01:0 | d: Türkçe 'knez/knezlik' kalıntısı
+- olay | OLAYLAR_EK16:1304-01-01:0 | b: Türkçe 'knezlik' kalıntısı
+- olay | OLAYLAR_EK16:1304-01-01:0 | d: Türkçe 'knezlik' kalıntısı
+- olay | OLAYLAR_EK16:1558-07-01:0 | d: Türkçe 'mütareke' kalıntısı
+- olay | OLAYLAR_EK16:1941-07-28:0 | d: yarım/bozuk cümle
+- olay | OLAYLAR_EK16:1945-05-08:0 | b: İngilizce kalıntı
+- olay | OLAYLAR_EK16:1955-12-01:0 | d: tekil için 'مآخذ' yanlış; Türkçe harfli yer adları
+- olay | OLAYLAR_EK17:1606-10-11:0 | d: Türkçe 'devşirme' kalıntısı; tekil/çoğul
+- olay | OLAYLAR_EK17:1617-11-22:0 | b: Türkçe 'kafes' kalıntısı
+- olay | OLAYLAR_EK17:1617-11-22:0 | d: anlam kaybı: 'sağ bıraktığı İLK şehzade'
+- olay | OLAYLAR_EK17:1632-01-01:1 | b: Latin/Türkçe harfli kişi adı
+- olay | OLAYLAR_EK17:1632-01-01:1 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK17:1630-08-19:0 | d: Latin/Türkçe harfli ad
+- olay | OLAYLAR_EK17:1644-01-01:0 | d: Latin/Türkçe ad; 'madde' = ansiklopedi maddesi ('مادّہ' yanlış)
+- olay | OLAYLAR_EK17:1647-01-01:0 | b: Türkçe kalıntı (başlık)
+- olay | OLAYLAR_EK17:1648-05-01:0 | b: Latin/Türkçe ad
+- olay | OLAYLAR_EK17:1648-05-01:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK17:1638-12-24:0 | b: Latin/Türkçe ad
+- olay | OLAYLAR_EK17:1638-12-24:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK17:1687-08-01:0 | d: Türkçe kalıntı; 'mührü kaçıran' = mühürle kaçan
+- olay | OLAYLAR_EK17:1711-07-21:0 | b: Latin/Türkçe ad
+- olay | OLAYLAR_EK17:1711-07-21:0 | d: Latin/Türkçe ad
+- olay | OLAYLAR_EK17:1711-07-21:1 | b: Latin ad
+- olay | OLAYLAR_EK17:1725-01-01:0 | d: Türkçe 'Fizik' ve Latin adlar
+- olay | OLAYLAR_EK17:1730-11-25:0 | b: Latin ad
+- olay | OLAYLAR_EK17:1730-11-25:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK17:1731-01-01:0 | b: Türkçe kalıntı
+- olay | OLAYLAR_EK17:1731-01-01:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK17:1789-04-07:0 | b: Latin ad
+- olay | OLAYLAR_EK17:1789-04-07:0 | d: Latin ad
+- olay | OLAYLAR_EK17:1552-01-01:0 | b: Türkçe 'Ocaklığı' kalıntısı
+- olay | OLAYLAR_EK17:1552-01-01:0 | d: Türkçe kalıntı ve Latin adlar
+- olay | OLAYLAR_EK17:1557-01-01:0 | d: Türkçe 'sancak' kalıntısı; dilbilgisi; Latin adlar
+- olay | OLAYLAR_EK17:1686-08-30:0 | b: İngilizce kalıntı
+- olay | OLAYLAR_EK17:1686-08-30:0 | d: İngilizce/Latin kalıntı
+- olay | OLAYLAR_EK17:1800-04-02:0 | d: Türkçe tamlama kalıntısı
+- olay | OLAYLAR_EK18:1455-06-20:0 | d: Türkçe/Latin kalıntı
+- olay | OLAYLAR_EK18:1455-06-20:0 | b: Türkçe 'sancak' kalıntısı
+- olay | OLAYLAR_EK20:1344-10-28:0 | d: Türkçe 'Cenova', 'Ege' kalıntısı
+- olay | OLAYLAR_EK20:1490-01-01:0 | d: yanlış anlam: 'daha vali iken' ('olur olmaz' değil)
+- olay | OLAYLAR_EK20:1530-03-24:0 | b: yanlış anlam: tarikat 'حکم' (emir) değil 'تنظیم'
+- olay | OLAYLAR_EK20:1530-03-24:0 | d: yanlış anlam: tarikat 'حکم' değil 'تنظیم'
+- olay | OLAYLAR_EK20:1489-03-04:0 | d: cinsiyet uyumu
+- olay | OLAYLAR_EK21:1509-01-01:0 | d: Türkçe 'beylerbeyilik' bozuk biçimde
+- olay | OLAYLAR_EK21:1537-01-01:0 | d: 'قانونی' tek başına 'yasal' okunuyor
+- olay | OLAYLAR_SENKRON_0930:1676-09-19:0 | d: dilbilgisi; Türkçe harfli ad
+- olay | KRONOLOJI_COK_ARABISTAN2:1659-01-01:0 | d: cinsiyet uyumu
+- olay | OLAYLAR_2S_0918:1881-03-26:0 | d: Türkçe yer adı biçimleri
+- olay | OLAYLAR_2S_0918:1889-01-01:0 | d: 'Keren'e' Türkçe ekli ad 'Kerene' diye kalmış
+- olay | OLAYLAR_2S_0918:1895-07-01:0 | d: cinsiyet uyumu; Latin adlar
+- olay | OLAYLAR_2S_0918:1322-01-01:0 | d: Türkçe 'beylik' kalıntısı
+- olay | OLAYLAR_2S_0918:1293-01-01:0 | b: Türkçe 'beylik' kalıntısı
+- olay | OLAYLAR_2S_0918:1293-01-01:0 | d: Türkçe 'beylik' kalıntısı
+- olay | OLAYLAR_2S_0918:1319-01-01:0 | d: cinsiyet uyumu
+- olay | OLAYLAR_2S_0919:1329-01-01:0 | d: Sakız = Hiyos; Urduca yerleşik ad
+- olay | OLAYLAR_2S_0919:1351-01-01:0 | b: Türkçe 'beylik' kalıntısı
+- olay | OLAYLAR_2S_0919:1368-01-01:0 | d: Türkçe 'beylik' kalıntısı
+- olay | OLAYLAR_2S_0919:1379-01-01:0 | d: Türkçe 'beylik' kalıntısı
+- olay | OLAYLAR_2S_0919:1535-11-01:0 | b: İtalyanca 'Milano'; Urduca yerleşik ad
+- olay | OLAYLAR_2S_0919:1535-11-01:0 | d: İtalyanca 'Milano'; Urduca yerleşik ad
+- olay | OLAYLAR_2S_0919:1558-01-01:0 | d: İngilizce 'Livonian' kalıntısı
+- olay | OLAYLAR_2S_0919:1717-11-30:0 | b: İngilizce çoğul 'Dzungars' kalıntısı
+- olay | OLAYLAR_2S_0919:1717-11-30:0 | d: İngilizce kalıntı
+- olay | OLAYLAR_2S_0919:1720-09-24:0 | b: İngilizce kalıntı
+- olay | OLAYLAR_2S_0919:1720-09-24:0 | d: İngilizce kalıntı
+- olay | OLAYLAR_2S_0919:1880-06-13:0 | d: cinsiyet uyumu
+- olay | OLAYLAR_2S_0919:1862-05-16:0 | d: yanlış anlam: sığınan Bina Ali, Massina değil
+- olay | OLAYLAR_AMERIKA0920:1821-09-15:0 | d: dilbilgisi (özne eki)
+- olay | OLAYLAR_AMERIKA0920:1535-01-18:0 | d: yanlış anlam: genel valilik (vali değil)
+- olay | OLAYLAR_2S0920:1552-08-01:0 | d: Türkçe 'beylerbeylik' kalıntısı
+- olay | OLAYLAR_SENUSI_0919:1717-01-01:0 | d: 'petek' anlamsız harf çevirisi
+- olay | OLAYLAR_EBUKIR0919:1798-08-01:0 | d: eksik anlam: 'amiral gemisi'
+- olay | OLAYLAR_SERHAT:1428-01-01:0 | d: cinsiyet uyumu
+- olay | OLAYLAR_SERHAT:1443-01-01:0 | b: cinsiyet uyumu
+- olay | OLAYLAR_P0049:1303-09-01:0 | d: Türkçe 'beylik' bozuk biçim; cinsiyet
+- olay | OLAYLAR_P0049:1595-01-01:0 | d: cinsiyet uyumu ('مادہ' → مضمون)
+- olay | OLAYLAR_P0044:1556-01-01:0 | b: Türkçe 'beylerbey' bozuk biçim
+- olay | OLAYLAR_P0044:1556-01-01:0 | d: Türkçe 'beylerbey' bozuk biçim
+- olay | OLAYLAR_P0048:1592-01-01:0 | d: Türkçe bozuk biçim; bozuk cümle
+- olay | OLAYLAR_P0044:1840-01-01:0 | d: sayı biçimi (ondalık/binlik ayırıcı)
+- olay | OLAYLAR_P0047:1511-08-10:0 | d: bozuk cümle (taşlar için yıkıldı)
+- olay | OLAYLAR_P0049:1921-02-09:0 | d: bozuk cümle
+- olay | OLAYLAR_SEHIR_ILK:1654-01-01:0 | b: 'قازق' = Kazak (Kazakistan); Kozak = قزاق
+- olay | OLAYLAR_SEHIR_ILK:1654-01-01:0 | d: 'قازق' = Kazak (Kazakistan); Kozak = قزاق
+- olay | OLAYLAR_SEHIR_ILK:1552-01-01:0 | b: Kozak/Kazak karışıklığı
+- olay | OLAYLAR_SEHIR_ILK:1552-01-01:0 | d: Kozak/Kazak karışıklığı
+- olay | OLAYLAR_SEHIR_ILK:1593-01-01:0 | d: Kozak/Kazak ayrımı çeviride kaybolmuş
+- olay | OLAYLAR_SEHIR_ILK:1652-01-01:0 | d: Kozak/Kazak karışıklığı
+- olay | OLAYLAR_SEHIR_ILK:1711-01-01:0 | b: Kozak/Kazak karışıklığı
+- olay | OLAYLAR_SEHIR_ILK:1711-01-01:0 | d: Kozak/Kazak karışıklığı
+- olay | OLAYLAR_SEHIR_ILK:1728-01-01:0 | d: Kozak/Kazak karışıklığı
+- olay | OLAYLAR_SEHIR_ILK:1462-02-01:0 | d: yanlış anlam: imaret = aşevi, 'امارت' değil
+- olay | OLAYLAR_ARKEOLOJI_D3_AMERIKA_PASIFIK:-0499-01-01:0 | d: ağır yanlış anlam: '18-23 köylük grubun şefliği' → 'ev' ve 'zayıflık' olmuş
+- olay | OLAYLAR_ARKEOLOJI_D3_AMERIKA_PASIFIK:-0749-01-01:0 | d: cinsiyet uyumu
+- olay | OLAYLAR_ARKEOLOJI_D3_AMERIKA_PASIFIK:-1324-01-01:0 | d: bozuk cümle
+- olay | OLAYLAR_ARKEOLOJI_D3_AMERIKA_PASIFIK:-1624-01-01:0 | d: ağır yanlış anlam: '18-23 köylük grubun şefliği' → 'ev' ve 'zayıflık' olmuş
+- olay | OLAYLAR_ARKEOLOJI_D3_ITALYA_AVRUPA:-0759-01-01:0 | d: cinsiyet uyumu
+- olay | OLAYLAR_ARKEOLOJI_ZINCIR:-2023-01-01:0 | d: Türkçe kalıntı: 'Kisim I'
+- olay | OLAYLAR_ARKEOLOJI_ZINCIR:-2111-01-01:0 | d: Türkçe kalıntı: 'Kisim I'
+- olay | OLAYLAR_ARKEOLOJI_ZINCIR:-2143-01-01:0 | d: Türkçe kalıntı: 'Kisim I'
+- olay | OLAYLAR_ARKEOLOJI_ZINCIR:-2153-01-01:0 | d: Türkçe kalıntı: 'Kisim I'
+- olay | OLAYLAR_ARKEOLOJI_ZINCIR:-2299-01-01:0 | d: Türkçe kalıntı: 'Kisim I'
+- olay | OLAYLAR_ARKEOLOJI_ZINCIR:-2349-01-01:0 | d: Türkçe kalıntı: 'Kisim I'
+- olay | OLAYLAR_ARKEOLOJI_ZINCIR:-0110-01-01:0 | b: imla: muharref hâl (سلسلے کا)
+- olay | OLAYLAR_ARKEOLOJI_ZINCIR:-0110-01-01:0 | d: imla: muharref hâl
+- olay | OLAYLAR_ARKEOLOJI_ZINCIR:-0120-01-01:0 | b: Zhangye yazımı tutarsız/eksik; hâl eki
+- olay | OLAYLAR_ARKEOLOJI_ZINCIR:-0120-01-01:0 | d: Zhangye yazımı; hâl eki
+- olay | OLAYLAR_ARKEOLOJI_ZINCIR:0439-01-01:0 | b: Zhangye yazımı
+- olay | OLAYLAR_ARKEOLOJI_ZINCIR:0439-01-01:0 | d: Zhangye yazımı
+- olay | OLAYLAR_ARKEOLOJI_ZINCIR:0220-01-01:0 | b: imla: muharref hâl
+- olay | OLAYLAR_ARKEOLOJI_ZINCIR:0220-01-01:0 | d: imla: muharref hâl
+- olay | OLAYLAR_ARKEOLOJI_ZINCIR:-2474-01-01:0 | b: dilbilgisi: muharref hâl
+- olay | OLAYLAR_ARKEOLOJI_ZINCIR:-2474-01-01:0 | d: dilbilgisi: muharref hâl
+- olay | OLAYLAR_ARKEOLOJI_ZINCIR:-0574-01-01:0 | b: dilbilgisi: muharref çoğul
+- olay | OLAYLAR_ARKEOLOJI_ZINCIR:-0574-01-01:0 | d: dilbilgisi: muharref çoğul
+- olay | OLAYLAR_ARKEOLOJI_D2_IRAN_ORTA_ASYA:-0199-01-01:0 | d: İngilizce kalıntı (Period, Proto-Elam, Susa)
+- olay | OLAYLAR_ARKEOLOJI_D2_IRAN_ORTA_ASYA:-5499-01-01:0 | d: İngilizce kalıntı
+- olay | OLAYLAR_ARKEOLOJI_D2_IRAN_ORTA_ASYA:-3199-01-01:0 | b: çevrilmemiş terim
+- olay | OLAYLAR_ARKEOLOJI_D2_IRAN_ORTA_ASYA:-3199-01-01:0 | d: cinsiyet uyumu; çevrilmemiş terim; 'çözülememiş'
+- olay | OLAYLAR_ARKEOLOJI_D2_IRAN_ORTA_ASYA:-3999-01-01:0 | d: çevrilmemiş terim
+- olay | OLAYLAR_ARKEOLOJI_D2_IRAN_ORTA_ASYA:-0538-01-01:0 | d: yanlış özel ad yazımı: Kiş
+- olay | OLAYLAR_ARKEOLOJI_D2_IRAN_ORTA_ASYA:-2399-01-01:0 | d: yanlış özel ad yazımı: Kiş
+- olay | OLAYLAR_ARKEOLOJI_D2_AFRIKA_AMERIKA:-2834-01-01:0 | b: yanlış anlam: 'en genç' = en geç tarihli; 'نوجوان' = delikanlı
+- olay | OLAYLAR_ARKEOLOJI_D2_AFRIKA_AMERIKA:-2834-01-01:0 | d: yanlış anlam: paleogöl 'paleo-ekolojik olarak' olmuş
+- olay | OLAYLAR_ARKEOLOJI_D2_AFRIKA_AMERIKA:-7699-01-01:0 | d: yanlış anlam: paleogöl
+- olay | OLAYLAR_ARKEOLOJI_D2_CIN_DOGU_ASYA:-13799-01-01:0 | b: yanlış özel ad: Ōdai
+- olay | OLAYLAR_ARKEOLOJI_D2_CIN_DOGU_ASYA:-2069-01-01:0 | b: İngilizce kalıntı; Latin özel ad
+- olay | OLAYLAR_ARKEOLOJI_D2_CIN_DOGU_ASYA:-2069-01-01:0 | d: Latin yazılı özel ad (tutarlılık)
+- olay | OLAYLAR_ARKEOLOJI_D2_CIN_DOGU_ASYA:-2299-01-01:0 | b: Latin yazı kalıntısı
+- olay | OLAYLAR_ARKEOLOJI_D2_CIN_DOGU_ASYA:-2299-01-01:0 | d: Latin yazı kalıntısı
+- olay | OLAYLAR_ARKEOLOJI_D2_CIN_DOGU_ASYA:-2299-01-01:1 | b: Latin yazı kalıntısı
+- olay | OLAYLAR_ARKEOLOJI_D2_CIN_DOGU_ASYA:-2299-01-01:1 | d: Latin yazı kalıntısı
+- olay | OLAYLAR_ARKEOLOJI_D2_CIN_DOGU_ASYA:-2949-01-01:0 | b: Latin yazı kalıntısı
+- olay | OLAYLAR_ARKEOLOJI_D2_CIN_DOGU_ASYA:-2949-01-01:0 | d: Latin yazı kalıntısı
+- olay | OLAYLAR_ARKEOLOJI_D2_CIN_DOGU_ASYA:-5849-01-01:0 | b: Latin yazı kalıntısı
+- olay | OLAYLAR_ARKEOLOJI_D2_CIN_DOGU_ASYA:-5849-01-01:0 | d: Latin yazı kalıntısı
+- olay | OLAYLAR_ARKEOLOJI_D2_CIN_DOGU_ASYA:-9649-01-01:0 | b: Latin yazı kalıntısı
+- olay | OLAYLAR_ARKEOLOJI_D2_CIN_DOGU_ASYA:-9649-01-01:0 | d: Latin yazı kalıntısı
+- olay | OLAYLAR_ARKEOLOJI_D2_HINT_GUNEYDOGU:-0399-01-01:0 | b: Latin yazı kalıntısı
+- olay | OLAYLAR_ARKEOLOJI_D2_HINT_GUNEYDOGU:-0399-01-01:0 | d: Latin yazı kalıntısı
+- olay | OLAYLAR_ARKEOLOJI_D2_HINT_GUNEYDOGU:-1955-01-01:0 | d: bozuk cümle, anlam kayması
+- olay | OLAYLAR_ARKEOLOJI_D2_ITALYA_AVRUPA:-5186-01-01:0 | d: dilbilgisi
+- olay | OLAYLAR_ARKEOLOJI_D2_ITALYA_AVRUPA:-5331-01-01:0 | d: dilbilgisi
+- olay | OLAYLAR_ARKEOLOJI_D2_ANADOLU_EGE:-0546-01-01:0 | b: özel ad: Kyros Urducada کورش; Latin kalıntı
+- olay | OLAYLAR_ARKEOLOJI_D2_ANADOLU_EGE:-0546-01-01:0 | d: özel ad: Kyros/Kroisos/Lydia
+- olay | OLAYLAR_ARKEOLOJI_MEZOPOTAMYA:-0611-01-01:0 | b: özel ad: Nineveh = نینوا
+- olay | OLAYLAR_ARKEOLOJI_MEZOPOTAMYA:-0611-01-01:0 | d: özel ad: Nineveh, Med
+- olay | OLAYLAR_ARKEOLOJI_MEZOPOTAMYA:-0613-01-01:0 | b: İngilizce kalıntı
+- olay | OLAYLAR_ARKEOLOJI_MEZOPOTAMYA:-0613-01-01:0 | d: İngilizce kalıntı
+- olay | OLAYLAR_ARKEOLOJI_MEZOPOTAMYA:-1971-01-01:0 | b: İngilizce kalıntı
+- olay | OLAYLAR_ARKEOLOJI_MEZOPOTAMYA:-1971-01-01:0 | d: İngilizce kalıntı
+- olay | OLAYLAR_ARKEOLOJI_MEZOPOTAMYA:-0625-01-01:0 | b: Latin özel ad
+- olay | OLAYLAR_ARKEOLOJI_MEZOPOTAMYA:-0625-01-01:0 | d: özel ad: Kyros = کورش
+- olay | OLAYLAR_ARKEOLOJI_MEZOPOTAMYA:-1594-01-01:0 | b: İngilizce kalıntı; حمورابی
+- olay | OLAYLAR_ARKEOLOJI_MEZOPOTAMYA:-1594-01-01:0 | d: yerleşik özel ad
+- olay | OLAYLAR_ARKEOLOJI_MEZOPOTAMYA:-1791-01-01:0 | b: İngilizce kalıntı
+- olay | OLAYLAR_ARKEOLOJI_MEZOPOTAMYA:-1791-01-01:0 | d: yerleşik özel ad
+- olay | OLAYLAR_ARKEOLOJI_MEZOPOTAMYA:-2323-01-01:0 | b: İngilizce kalıntı; سارگون
+- olay | OLAYLAR_ARKEOLOJI_MEZOPOTAMYA:-5499-01-01:0 | b: yanlış anlam: en geç ≠ en yeni/taze
+- olay | OLAYLAR_ARKEOLOJI_MISIR_NIL_SAHRA:-3499-01-01:0 | d: dilbilgisi
+- olay | OLAYLAR_ARKEOLOJI_MISIR_NIL_SAHRA:-4699-01-01:0 | d: İngilizce kalıntı
+- olay | OLAYLAR_ARKEOLOJI_AFRIKA_IRAN:-0299-01-01:0 | d: Latin kalıntı
+- olay | OLAYLAR_ARKEOLOJI_AFRIKA_IRAN:-0538-01-01:0 | b: özel ad: Kyros = کورش
+- olay | OLAYLAR_ARKEOLOJI_AFRIKA_IRAN:-0538-01-01:0 | d: özel ad: Kyros = کورش
+- olay | OLAYLAR_ARKEOLOJI_AFRIKA_IRAN:-0549-01-01:0 | b: özel ad; İngilizce kalıntı
+- olay | OLAYLAR_ARKEOLOJI_AFRIKA_IRAN:-0549-01-01:0 | d: özel ad; İngilizce kalıntı
+- olay | OLAYLAR_ARKEOLOJI_AFRIKA_IRAN:-0944-01-01:0 | d: yanlış anlam: tortu çekirdeği 'merkez' olmuş; İngilizce kalıntı
+- olay | OLAYLAR_ARKEOLOJI_AFRIKA_IRAN:-4744-01-01:0 | d: yanlış anlam: en geç başlangıç
+- olay | OLAYLAR_ARKEOLOJI_AFRIKA_IRAN:-8114-01-01:0 | d: yanlış anlam: 'en geç' 'کم از کم' olmuş
+- olay | OLAYLAR_ARKEOLOJI_AMERIKA:-1649-01-01:0 | d: cinsiyet uyumu; İngilizce 'Late Archaic'
+- olay | OLAYLAR_ARKEOLOJI_HINT:-1599-01-01:0 | b: İngilizce kalıntı
+- olay | OLAYLAR_ARKEOLOJI_HINT:-1599-01-01:0 | d: İngilizce kalıntı
+- olay | OLAYLAR_ARKEOLOJI_HINT:-1899-01-01:0 | b: İngilizce kalıntı
+- olay | OLAYLAR_ARKEOLOJI_HINT:-1899-01-01:0 | d: İngilizce kalıntı
+- olay | OLAYLAR_ARKEOLOJI_HINT:-2549-01-01:0 | d: İngilizce kalıntı
+- olay | OLAYLAR_ARKEOLOJI_HINT:-2599-01-01:0 | b: İngilizce kalıntı
+- olay | OLAYLAR_ARKEOLOJI_HINT:-2599-01-01:0 | d: İngilizce kalıntı
+- olay | OLAYLAR_ARKEOLOJI_HINT:-3199-01-01:0 | b: İngilizce kalıntı
+- olay | OLAYLAR_ARKEOLOJI_HINT:-3199-01-01:0 | d: İngilizce kalıntı
+- olay | OLAYLAR_ARKEOLOJI_HINT:-6433-01-01:0 | d: İngilizce kalıntı
+- olay | OLAYLAR_ARKEOLOJI_AVRUPA:-2526-01-01:0 | b: İngilizce kalıntı
+- olay | OLAYLAR_ARKEOLOJI_AVRUPA:-2526-01-01:0 | d: İngilizce kalıntı; 'at nalı' 'شکل' eksik
+- olay | OLAYLAR_ARKEOLOJI_AVRUPA:-2871-01-01:0 | d: İngilizce kalıntı
+- olay | OLAYLAR_ARKEOLOJI_AVRUPA:-4514-01-01:0 | d: İngilizce kalıntı
+- olay | OLAYLAR_ARKEOLOJI_AVRUPA:-4586-01-01:0 | d: İngilizce kalıntı
+- olay | OLAYLAR_ARKEOLOJI_AVRUPA:-5779-01-01:0 | d: İngilizce kalıntı
+- olay | OLAYLAR_ORTACAG_BATI_AVRUPA:1201-01-01:0 | b: Kapitülasyon burada anlaşma; 'سپردگی' (teslim olma) yanlış anlam
+- olay | OLAYLAR_ORTACAG_BATI_AVRUPA:1201-01-01:0 | d: Kapitülasyon 'سپردگی' diye yanlış çevrilmiş
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:0872-01-01:0 | d: 'نے ... بنا' dilbilgisi hatası
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:0894-01-01:0 | d: bozuk deyim
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:0895-01-01:0 | b: bitişik yazım
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:0895-01-01:0 | d: bitişik yazım
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1014-02-03:0 | d: 'en geç 987' 'en az' diye ters çevrilmiş
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1056-01-01:0 | b: Cenova = جنوا; جنیوا Cenevre'dir
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1056-01-01:0 | d: Cenova Cenevre ile karışmış
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1097-01-01:1 | b: Latin harfli kalıntı
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1097-01-01:1 | d: Latin harfli kalıntı
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1098-01-01:0 | b: Cenova Cenevre ile karışmış
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1098-01-01:0 | d: Cenova Cenevre ile karışmış
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1100-08-01:0 | b: Cenova Cenevre ile karışmış
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1100-08-01:0 | d: Cenova Cenevre ile karışmış
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1113-01-01:0 | d: Latin harfli kalıntı
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1115-01-01:0 | d: Latin harfli kalıntı
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1128-08-22:0 | d: Türkçe 'investi' kalıntısı
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1130-12-25:0 | d: Türkçe 'investi' kalıntısı
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1138-01-01:0 | d: Türkçe 'fetret' kalıntısı
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1139-07-25:0 | d: Türkçe 'investi' kalıntısı
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1148-01-01:0 | d: 'Doğu Mağrib' anlaşılmaz 'doğu batı' olmuş
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1157-01-01:1 | d: Latin harfli kalıntı
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1162-01-01:0 | b: Cenova Cenevre ile karışmış
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1162-01-01:0 | d: Cenova/Cenevre karışıklığı ve Türkçe 'infeodasyon' kalıntısı
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1169-03-08:0 | b: Latin harfli kalıntı
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1169-03-08:0 | d: Latin harfli kalıntı
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1171-01-01:0 | d: bozuk cümle
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1175-01-01:0 | b: Cenova = جنوا; جنیوا Cenevre'dir
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1175-01-01:0 | d: Cenova Cenevre ile karışmış
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1183-06-25:0 | d: Latin harfli kalıntı
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1226-01-01:0 | b: bozuk cümle yapısı
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1235-04-19:0 | d: Latin harfli kalıntı
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1241-01-01:0 | b: Cenova Cenevre ile karışmış
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1241-01-01:0 | d: Cenova Cenevre ile karışmış
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1253-01-01:0 | b: 'نے ... بنا' dilbilgisi hatası
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1261-01-01:0 | b: Cenova Cenevre ile karışmış
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1261-01-01:0 | d: Cenova Cenevre ile karışmış
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1263-01-01:0 | b: yazım hatası
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1263-01-01:1 | b: Cenova Cenevre ile karışmış
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1263-01-01:1 | d: Cenova Cenevre ile karışmış
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1278-08-26:0 | d: bozuk cümle
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1104-10-01:0 | b: Türkçe harfli kalıntı
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1104-10-01:0 | d: Türkçe harfli kalıntı
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1111-09-01:0 | b: Türkçe harfli kalıntı
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1111-09-01:0 | d: Türkçe harfli kalıntı
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1112-01-01:0 | b: Türkçe harfli kalıntı
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1112-01-01:0 | d: Türkçe harfli kalıntı ve Harput yazımı
+- olay | OLAYLAR_ANTIK_AKDENIZ:0358-01-01:0 | d: cümlenin öznesi eksik, bozuk anlatım
+- olay | OLAYLAR_ANTIK_AKDENIZ:0435-01-01:0 | d: 'Kartaca'nın alınması' 'Kartaca'ya gitmek' gibi okunuyor
+- olay | OLAYLAR_ANTIK_AKDENIZ:0451-01-01:0 | d: eksik 'نے', parantez bozuk
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0629-01-01:0 | d: özne/nahiv bozuk
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0960-03-03:0 | b: TR 'Fas' burada Fes şehri; çeviri Fas ülkesi (مراکش) yapmış
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0960-03-03:0 | d: Fes şehri 'مراکش' değil 'فاس'
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1038-01-01:0 | b: Latin harfli çevrilmemiş özel adlar
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1038-01-01:0 | d: Latin harfli çevrilmemiş özel adlar
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1039-01-01:0 | b: Latin harfli özel adlar
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1039-01-01:0 | d: Latin harfli özel adlar
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1047-06-28:0 | b: Latin harfli yer adı
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1047-06-28:0 | d: Latin harfli yer adı
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1050-01-01:0 | b: Latin harfli adlar; virgül anlamı bozuyor
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1050-01-01:0 | d: Latin harfli adlar
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1061-01-01:0 | b: Latin harfli özel adlar
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1061-01-01:0 | d: Latin harfli adlar, bozuk ifade
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1067-01-01:0 | b: Latin harfli yer adı
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1067-01-01:0 | d: Latin harfli yer adı
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1067-01-01:1 | b: Latin harfli yer adı
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1067-01-01:1 | d: Latin harfli yer adları
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1071-01-01:0 | b: Latin harfli yer adı
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1071-01-01:0 | d: Latin harfli yer adları
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1072-01-01:0 | b: Latin harfli yer adı
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1072-01-01:0 | d: Latin harfli yer adı, bozuk ifade
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1073-01-01:0 | b: Latin harfli özel adlar
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1073-01-01:0 | d: Latin harfli özel adlar
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1076-01-01:0 | b: Latin adlar, 'سلطنتِ امارت' bozuk
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1076-01-01:0 | d: Latin harfli özel adlar
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1077-01-01:0 | b: Latin harfli özel adlar
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1077-01-01:0 | d: Latin harfli özel adlar
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1081-01-01:0 | b: Latin harfli özel adlar
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1081-01-01:0 | d: Latin harfli özel adlar
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1092-01-01:0 | b: TR'de olmayan Latin harfli ek; بازنطیم -> بازنطین
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1174-01-01:0 | d: eksik 'نے'
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1203-01-01:1 | b: yerleşik ad 'بنو غانیہ'
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1203-01-01:1 | d: yerleşik ad 'بنو غانیہ'
+- olay | OLAYLAR_ARKEOLOJI_AVRUPA:-6699-01-01:0 | d: İngilizce kalıntı
+- olay | OLAYLAR_ARKEOLOJI_AVRUPA:-9589-01-01:0 | d: İngilizce kalıntı
+- olay | OLAYLAR_ARKEOLOJI_LEVANT_ANADOLU:-12649-01-01:0 | d: İngilizce kalıntı
+- olay | OLAYLAR_ARKEOLOJI_LEVANT_ANADOLU:-7139-01-01:0 | d: İngilizce kalıntı
+- olay | OLAYLAR_ARKEOLOJI_LEVANT_ANADOLU:-8629-01-01:0 | d: İngilizce kalıntı
+- olay | OLAYLAR_ARKEOLOJI_LEVANT_ANADOLU:-8399-01-01:0 | d: yerleşik Urduca ad
+- olay | OLAYLAR_ARKEOLOJI_LEVANT_ANADOLU:-8649-01-01:1 | d: İngilizce kalıntı
+- olay | OLAYLAR_ARKEOLOJI_LEVANT_ANADOLU:-9659-01-01:0 | d: İngilizce kalıntı
+- olay | OLAYLAR_OK109:1918-10-31:0 | b: 'ایسٹر' Paskalya (Easter) diye okunur: yanlış anlam; dilbilgisi
+- olay | OLAYLAR_OK109:1918-10-31:0 | d: 'Easter Devrimi' diye okunuyor
+- olay | OLAYLAR_OK109:1918-10-28:0 | d: Latin yazı kalıntısı
+- olay | OLAYLAR_OK109:1918-11-03:0 | d: Latin yazı kalıntısı
+- olay | OLAYLAR_OK109:1918-12-01:0 | d: Türkçe yazım kalıntısı: Niş
+- olay | OLAYLAR_OK109:1919-09-10:0 | d: Türkçe kalıntı: Yazlofça
+- olay | OLAYLAR_OK109:1920-06-04:0 | d: Türkçe kalıntı: Baç
+- olay | OLAYLAR_OK109:1919-11-27:0 | d: yanlış anlam: 'devir' (el değiştirme) 'دور' olmuş; Türkçe yer adı kalıntısı
+- olay | OLAYLAR_OK109:1921-11-13:0 | b: açıklamasız yabancı terim
+- olay | OLAYLAR_OK109:1918-11-11:0 | b: İngilizce kalıntı
+- olay | OLAYLAR_OK109:1918-11-11:0 | d: İngilizce kalıntı
+- olay | OLAYLAR_OK109:1919-04-20:0 | d: İngilizce kalıntı: 2nd; Paskalya cumartesisi belirsiz
+- olay | OLAYLAR_OK109:1919-08-12:0 | d: yazım tutarsızlığı: Hırvat
+- olay | OLAYLAR_OK106:1847-05-31:0 | d: cinsiyet/sayı uyumu
+- olay | OLAYLAR_OK106:1703-05-17:0 | b: Türkçe kalıntı: Kerç
+- olay | OLAYLAR_OK106:1703-05-17:0 | d: Türkçe yer adı kalıntısı
+- olay | OLAYLAR_OK106:1571-01-01:0 | b: Latin yazı kalıntısı
+- olay | OLAYLAR_OK106:1571-01-01:0 | d: İngilizce kalıntı
+- olay | OLAYLAR_OK106:1616-01-01:0 | b: Latin yazı kalıntısı
+- olay | OLAYLAR_OK106:1616-01-01:0 | d: Latin yazı kalıntısı
+- olay | OLAYLAR_OK106:1638-01-01:0 | d: Kozak 'قازق' (Kazak) olmuş; cinsiyet uyumu
+- olay | OLAYLAR_OK106:1652-01-01:0 | d: Kozak/Kazak karışıklığı
+- olay | OLAYLAR_OK106:1754-01-01:0 | d: Kozak/Kazak karışıklığı
+- olay | OLAYLAR_H7_ASAMA:1562-05-05:0 | b: Türkçe/Latin kalıntı
+- olay | OLAYLAR_H7_ASAMA:1562-05-05:0 | d: Türkçe/Latin kalıntı: Temeşvar, Eğri
+- olay | OLAYLAR_H7_ASAMA:1566-05-01:0 | d: bozuk cümle
+- olay | OLAYLAR_H7_ASAMA:1568-02-17:0 | b: Latin kalıntı
+- olay | OLAYLAR_H7_ASAMA:1568-02-17:0 | d: Latin kalıntı; dilbilgisi
+- olay | OLAYLAR_H7_ASAMA:1610-03-26:0 | b: yer adı 'çay (içecek)' gibi okunuyor
+- olay | OLAYLAR_H7_ASAMA:1610-03-26:0 | d: yer adı yazımı
+- olay | OLAYLAR_H7_ASAMA:1529-05-10:0 | d: bozuk cümle
+- olay | OLAYLAR_T5_1000A:1071-01-01:0 | d: dilbilgisi
+- olay | OLAYLAR_T5_1000A:1106-09-02:0 | b: bozuk fiil
+- olay | OLAYLAR_T5_1000A:1127-01-01:1 | d: dilbilgisi
+- olay | OLAYLAR_T5_1000A:1144-01-01:0 | d: bozuk cümle
+- olay | OLAYLAR_T5_1000A:1234-08-01:0 | d: bozuk fiil
+- olay | OLAYLAR_T5_1000A:1257-03-27:0 | d: bozuk cümle
+- olay | OLAYLAR_T5_1000B:1171-09-13:0 | d: yanlış anlam: künye 'کنیہ' (lakap) olmuş (TR'deki iç not ayrıca bildirildi)
+- olay | OLAYLAR_T5_1000B:1250-04-30:0 | d: yanlış anlam: künye 'کنیہ' (lakap) olmuş
+- olay | OLAYLAR_T5_1000B:1318-01-01:0 | d: cinsiyet uyumu
+- olay | OLAYLAR_BK_ZINCIR_1024:1813-01-01:0 | d: ağır yanlış anlam: Erkivan 'ایروان' (Revan) olmuş; 'Gülistan ile' (antlaşma) yer sanılmış
+- olay | OLAYLAR_KURULUS_GERI_1021:0661-07-29:0 | d: dilbilgisi: 'نے' eksik
+- olay | OLAYLAR_KURULUS_GERI_1021:0972-10-02:0 | d: yanlış anlam: künye 'کنیہ' olmuş; 'f' alan adı
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1076-08-05:0 | d: yanlış anlam: künye 'کنیہ' (lakap) olmuş
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1095-02-26:0 | b: yanlış anlam: 'meliklik' = hükümdarlık, 'ملکیت' = mülkiyet
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1095-02-26:0 | d: yanlış anlam: 'meliklik'
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1102-05-22:0 | b: anlamsız ad tekrarı
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1000-01-01:0 | b: yanlış anlam: 'geri aldı' 'geri getirdi' olmuş; özne eki
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1005-01-01:0 | d: bozuk cümle
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1026-01-01:0 | d: bozuk anlatım
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1041-08-31:0 | b: eksik sözcük
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1079-07-04:0 | b: anlam belirsizliği: kimin kızı
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1079-07-04:0 | d: yanlış anlam: 'ayrıldı' (Melikşah gitti) 'onu gönderdi' olmuş
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1095-02-26:0 | b: yer adı yazımı: Rey = رے
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1095-02-26:0 | d: yer adı yazımı: Rey = رے
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1104-12-21:0 | b: yanlış anlam: oğul Berkyaruk'un, Tapar'ın sanılıyor
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1104-12-21:0 | d: yanlış anlam: kimin oğlu
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1128-01-01:1 | b: ağır yanlış anlam: Atsız, Sencer'in değil Kutbüddin Muhammed'in oğlu
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1128-01-01:1 | d: ağır yanlış anlam: Atsız Sencer'in oğlu yapılmış
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1131-01-01:0 | b: yanlış anlam: Dâvud Mahmud'un oğlu
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1131-01-01:0 | d: yanlış anlam: Dâvud Mahmud'un oğlu
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1179-06-08:0 | d: yanlış anlam: yağmaladı → 'Cîruft'a döndü' gibi okunuyor
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1231-01-01:0 | d: bozuk cümle
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:1085-05-08:0 | d: anlamsız ad tekrarı; künye 'کنیہ' (lakap) olmuş
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:1275-09-08:0 | d: yanlış anlam: 'Endülüs'e geçip' 'Endülüs'ü aşıp' olmuş; bozuk fiil
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1119-01-01:0 | b: Latin harfli kalıntı
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1119-01-01:0 | d: Latin harfli kalıntı
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1121-08-12:0 | d: Türkçe harfli kalıntılar
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1122-11-19:0 | b: Türkçe harfli kalıntı
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1122-11-19:0 | d: Türkçe harfli kalıntı
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1130-01-01:0 | b: Latin harfli kalıntı
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1130-01-01:0 | d: Latin harfli kalıntı
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1132-01-01:0 | d: Türkçe harfli kalıntı
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1144-08-01:0 | d: Türkçe harfli kalıntı
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1161-08-01:0 | b: Türkçe harfli kalıntı
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1161-08-01:0 | d: Türkçe harfli kalıntı
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1163-07-01:0 | d: Türkçe harfli kalıntı
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1175-01-01:0 | d: özne eksik
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1185-01-01:0 | b: Latin harfli kalıntı
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1185-01-01:0 | d: Latin harfli kalıntı
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1185-07-10:0 | b: Türkçe harfli kalıntı
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1185-07-10:0 | d: Türkçe harfli kalıntı
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1193-05-18:0 | b: Türkçe harfli kalıntı; hatalı hareke
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1193-05-18:0 | d: Türkçe harfli kalıntı; Erzâs 'Erciş' diye yanlış yazılmış
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1197-01-01:0 | b: Latin harfli kalıntı
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1197-01-01:0 | d: Latin harfli kalıntı
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1199-01-06:0 | b: Latin kalıntı ve 'نے ... بنا' hatası
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1199-01-06:0 | d: Latin harfli kalıntı
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1212-01-01:0 | d: Latin harfli kalıntı
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1220-01-01:0 | d: bozuk cümle ve Türkçe harfli kalıntı
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1225-01-13:0 | b: Latin harfli kalıntı
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1225-01-13:0 | d: Latin harfli kalıntı
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1234-01-01:0 | b: Harput yazımı (خرپوت)
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1234-01-01:0 | d: Harput yazımı (خرپوت)
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1239-01-01:0 | b: Latin harfli kalıntı
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1239-01-01:0 | d: Latin harfli kalıntı
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1242-01-01:0 | b: Latin harfli kalıntı
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1242-01-01:0 | d: dilbilgisi ve Latin kalıntı
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1243-01-01:2 | d: bozuk cümle
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1244-01-01:0 | b: Latin harfli kalıntı
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1244-01-01:0 | d: Latin harfli kalıntı
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1247-01-01:0 | b: Latin harfli kalıntı
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1247-01-01:0 | d: Latin harfli kalıntı
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1257-01-01:0 | b: Türkçe harfli kalıntı
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1257-01-01:0 | d: Türkçe harfli kalıntı
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1259-01-01:0 | d: Latin harfli kalıntı
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1266-01-01:1 | b: Latin harfli kalıntı
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1266-01-01:1 | d: Latin harfli kalıntı
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1268-01-01:0 | b: Türkçe/Latin harfli kalıntı
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1269-01-01:0 | b: Latin harfli kalıntı
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1269-01-01:0 | d: Latin harfli kalıntı
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1280-05-03:0 | d: Harput yazımı (خرپوت)
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1166-01-01:0 | b: 'Alâ Zikrihisselâm' kalıbı 'Hasan Ali' gibi okunuyor
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1166-01-01:0 | d: 'Alâ Zikrihisselâm' kalıbı 'Hasan Ali' gibi okunuyor
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1198-01-01:0 | d: 'yağmaladı' 'geri döndü' gibi okunuyor
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1208-07-16:0 | b: 'داخلہ لیا' (kayıt oldu) yanlış anlam
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1210-01-01:0 | d: bozuk fiil biçimi
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1222-02-15:0 | d: eksik 'نے', bozuk cümle
+- olay | OLAYLAR_ORTACAG_BOZKIR:0567-01-01:0 | b: 'کو' eksik
+- olay | OLAYLAR_ORTACAG_CIN:0739-01-01:0 | d: Yunnan 'یونان' (Yunanistan) diye yazılmış; Dali 'داری' yanlış
+- olay | OLAYLAR_ORTACAG_CIN:0748-01-01:0 | b: Yunnan 'یونان' (Yunanistan) diye okunuyor
+- olay | OLAYLAR_ORTACAG_CIN:0748-01-01:0 | d: Yunnan 'یونان' (Yunanistan) diye okunuyor
+- olay | OLAYLAR_ORTACAG_CIN:0842-01-01:0 | d: Huichang dönem adı 'oldu' fiiliyle karışmış
+- olay | OLAYLAR_ORTACAG_CIN:1259-09-27:0 | d: 'نے ... پہنچا' dilbilgisi hatası
+- olay | OLAYLAR_ORTACAG_DOGU_GUNEYDOGU_ASYA:0849-01-01:0 | d: Yunnan 'یونان' (Yunanistan) diye yazılmış
+- olay | OLAYLAR_ORTACAG_DOGU_GUNEYDOGU_ASYA:1257-01-01:0 | b: Yunnan 'یونان' (Yunanistan) diye yazılmış
+- olay | OLAYLAR_ORTACAG_DOGU_GUNEYDOGU_ASYA:1257-01-01:0 | d: Yunnanlılar 'Yunanlı' diye çevrilmiş gibi okunuyor
+- olay | OLAYLAR_ORTACAG_DOGU_GUNEYDOGU_ASYA:1232-07-05:0 | b: Ganghwa yanlış yazılmış
+- olay | OLAYLAR_ORTACAG_DOGU_GUNEYDOGU_ASYA:1232-07-05:0 | d: Ganghwa yanlış yazılmış
+- olay | OLAYLAR_ORTACAG_DOGU_GUNEYDOGU_ASYA:1273-05-16:0 | d: 'yerinde bırakıldı' ters anlaşılıyor
+- olay | OLAYLAR_ORTACAG_DOGU_GUNEYDOGU_ASYA:1287-01-01:0 | d: yazım hatası (Coedès)
+- olay | OLAYLAR_ORTACAG_YER_SONRASI:1096-01-01:0 | b: Marino adı yanlış yazılmış
+- olay | OLAYLAR_ORTACAG_YER_SONRASI:1096-01-01:0 | d: Marino adı yanlış yazılmış
+- olay | OLAYLAR_ANTIK_MISIR_NUBYA:-0054-01-01:0 | d: 'داخلہ لیا' (kayıt oldu) yanlış anlam; bozuk son cümle
+- olay | OLAYLAR_ANTIK_MISIR_NUBYA:-0663-01-01:1 | b: 'لے گیا' (götürdü) yanlış anlam
+- olay | OLAYLAR_ANTIK_MISIR_NUBYA:-0670-01-01:0 | b: 'لے گیا' (götürdü) yanlış anlam
+- olay | OLAYLAR_ANTIK_MISIR_NUBYA:-1446-01-01:0 | b: 'داخلہ لیا' (kayıt oldu) yanlış anlam
+- olay | OLAYLAR_ANTIK_MISIR_NUBYA:-1456-01-01:0 | d: özne eksik; bozuk cümle
+- olay | OLAYLAR_ANTIK_MISIR_NUBYA:-2279-01-01:0 | d: 'hâkim olduğu yol' yanlış anlam
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-0479-01-01:0 | d: 'نے ... داخل ہوا' dilbilgisi hatası
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-0512-01-01:0 | d: 'نے ... نکلا' dilbilgisi hatası
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-0521-12-18:0 | d: bozuk fiil
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-0596-03-16:0 | d: 'aldı' 'götürdü' diye çevrilmiş
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-1109-01-01:0 | d: 'نے ... لایا' dilbilgisi hatası
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-1524-01-01:0 | b: 'نے' eksik
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-2299-01-01:0 | d: 'yıl adları' 'yıllık adlar' diye yanlış
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0189-01-01:0 | d: bozuk tamlama
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0210-01-01:0 | d: 'lے گیا' (götürdü) yanlış anlam
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0217-01-01:1 | b: 'داخلہ لیا' (kayıt oldu) yanlış anlam
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0263-01-01:1 | d: bozuk cümle
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0277-01-01:0 | d: çevrilmemiş Türkçe alıntı
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0308-01-01:0 | d: boğaz geçişi 'Çanakkale kalesi' gibi çevrilmiş
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0354-01-01:0 | b: Türkçe 'Sosyal', 'Bizans' kalıntısı
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0358-01-01:0 | d: Türkçe 'falanks' kalıntısı
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0403-01-01:0 | d: çevrilmemiş Türkçe ifadeler
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0473-01-01:0 | d: 'miğfer armağanı' 'kendisinin hediyesi' gibi okunuyor
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0478-01-01:0 | d: Xerxes 'Kisra' (Hüsrev) diye yazılmış
+- olay | OLAYLAR_ANTIK_MISIR_NUBYA:-0485-01-01:0 | b: I. Kserkses 'Kisra' (Hüsrev) diye yazılmış
+- olay | OLAYLAR_ANTIK_MISIR_NUBYA:-0485-01-01:0 | d: I. Kserkses 'Kisra' (Hüsrev) diye yazılmış
+- olay | OLAYLAR_ANTIK_AKDENIZ:0009-01-01:0 | d: Türkçe 'MS' kalıbı; Urducada 'عیسوی'
+- olay | OLAYLAR_ANTIK_AKDENIZ:0040-01-01:0 | d: Türkçe 'MS' kalıbı
+- olay | OLAYLAR_ANTIK_AKDENIZ:0043-01-01:0 | d: Türkçe 'MS' kalıbı
+- olay | OLAYLAR_ANTIK_AKDENIZ:0122-01-01:0 | d: Türkçe 'MS' kalıbı
+- olay | OLAYLAR_ANTIK_AKDENIZ:0212-01-01:0 | d: Türkçe 'MS' kalıbı
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1239-01-01:0 | d: yanlış anlam: etki alanında olan Kiev, Danylo değil
+- olay | OLAYLAR_KUNFUZE_1016:1871-03-01:0 | d: 'fırka-i ihtiyâtiyye' ihtiyat tümeni; 'ذخیرہ' stok anlamında yanlış
+- olay | OLAYLAR_2S1019:1392-10-26:0 | d: noktalama eksik, 'ساری کیا' birleşik okunuyor
+- olay | OLAYLAR_2S1019:1417-02-18:0 | b: 'himayesindeki' mülteci değil
+- olay | OLAYLAR_2S1019:1516-08-24:0 | d: Koçhisar yer adı yanlış ('Koh' yapılmış)
+- olay | OLAYLAR_2S1019:1526-12-05:0 | d: Latin harfli özel adlar
+- olay | OLAYLAR_2S1019:1550-06-12:0 | b: Latin harfli özel adlar
+- olay | OLAYLAR_2S1019:1550-06-12:0 | d: Latin harfli özel adlar
+- olay | OLAYLAR_2S1019:1686-09-30:0 | b: Latin harfli adlar
+- olay | OLAYLAR_2S1019:1686-09-30:0 | d: Latin harfli adlar
+- olay | OLAYLAR_2S1019:1687-09-06:0 | b: Latin harfli adlar
+- olay | OLAYLAR_2S1019:1687-09-06:0 | d: Latin harfli adlar
+- olay | OLAYLAR_2S1019:1687-09-26:0 | b: Latin harfli adlar
+- olay | OLAYLAR_2S1019:1687-09-26:0 | d: Latin harfli adlar
+- olay | OLAYLAR_2S1019:1687-09-30:0 | b: Latin harfli adlar
+- olay | OLAYLAR_2S1019:1687-09-30:0 | d: Latin harfli adlar
+- olay | OLAYLAR_2S1019:1794-06-15:0 | d: Latin harfli adlar
+- olay | OLAYLAR_2S1019:1903-03-15:0 | d: Latin harfli adlar
+- olay | OLAYLAR_2S1019:1918-09-21:0 | d: Latin harfli ad
+- olay | OLAYLAR_2S1019:1878-09-18:0 | b: Latin harfli yer adı
+- olay | OLAYLAR_2S1019:1878-09-18:0 | d: Latin harfli adlar
+- olay | OLAYLAR_2S1019:1439-08-27:0 | b: Latin harfli adlar, bozuk ifade
+- olay | OLAYLAR_2S1019:1439-08-27:0 | d: Latin harfli yer adı
+- olay | OLAYLAR_2S1019:1458-08-06:0 | b: Latin harfli adlar
+- olay | OLAYLAR_2S1019:1458-08-06:0 | d: Latin harfli adlar
+- olay | OLAYLAR_2S1019:1459-06-20:0 | b: Latin harfli yer adı
+- olay | OLAYLAR_2S1019:1459-06-20:0 | d: Latin harfli adlar
+- olay | OLAYLAR_2S1019:1475-06-06:0 | b: Latin harfli ek
+- olay | OLAYLAR_2S1019:1344-03-26:0 | b: Latin harfli yer adı
+- olay | OLAYLAR_2S1019:1344-03-26:0 | d: Latin/İngilizce kalıntı
+- olay | OLAYLAR_2S1114D5:1923-07-24:0 | b: Latin harfli ada adı
+- olay | OLAYLAR_2S1114D5:1923-07-24:0 | d: Latin harfli ada adları
+- olay | OLAYLAR_2S1114D5:1980-07-30:0 | d: Latin harfli adlar
+- olay | OLAYLAR_2S1114D5:1994-03-01:0 | b: Latin harfli yer adı
+- olay | OLAYLAR_2S1114D5:1994-03-01:0 | d: Latin harfli yer adı
+- olay | OLAYLAR_MOGOLISTAN1115:1691-05-29:0 | b: Latin harfli yer adı
+- olay | OLAYLAR_MOGOLISTAN1115:1691-05-29:0 | d: Latin harfli adlar
+- olay | OLAYLAR_CINHINDI1115B:0979-01-01:0 | d: kelime başında 'ں' imla hatası
+- olay | OLAYLAR_CINHINDI1115B:1471-01-01:0 | d: Arapça yâ karışması
+- olay | OLAYLAR_CINHINDI1115B:1593-02-01:0 | d: özne belirsiz, bozuk cümle
+- olay | OLAYLAR_CINHINDI1115B:1707-01-01:0 | d: 'نے ... بن گیا' dilbilgisi hatası
+- olay | OLAYLAR_ORTAASYA1115B:1918-07-14:0 | d: kelimesi kelimesine çeviri, anlamsız
+- olay | OLAYLAR_LAB19_2S_P2:1324-06-19:0 | d: Latin harfli kalıntı
+- olay | OLAYLAR_LAB19_2S_P5:1839-05-13:0 | d: 'de Salle' 'iki yıl' (دو سال) olmuş; Küçük Kabiliye 'küçük kabileler' yapılmış
+- olay | OLAYLAR_LAB19_2S_P6:1037-01-01:0 | b: Fes şehri ülke (مراکش) yapılmış
+- olay | OLAYLAR_LAB19_2S_P6:1037-01-01:0 | d: Fes şehri ülke (مراکش) yapılmış
+- olay | OLAYLAR_UMIT19_ASIRET_1119:1779-09-05:0 | d: cinsiyet uyumu hatası
+- olay | OLAYLAR_UMIT19_ASIRET_1119:1850-07-18:0 | d: cinsiyet/ek uyumu
+- olay | OLAYLAR_DIN_MUSA_1120:-0596-01-01:0 | b: ay adı ile 'ماہ' bitişik
+- olay | OLAYLAR_DIN_MUSA_1120:-0596-01-01:0 | d: ay adı bitişik yazılmış
+- olay | OLAYLAR_DUNYA_AVRUPA_MO:-0593-01-01:0 | b: Latin harfli kalıntı
+- olay | OLAYLAR_AVMAC_A_1029:0009-01-01:0 | d: anlaşılmaz 'م.س' kısaltması (MS)
+- olay | OLAYLAR_AVMAC_A_1029:0895-01-01:0 | d: Árpád adı yanlış
+- olay | OLAYLAR_AVMAC_B_1029:1527-11-03:0 | b: Latin harfli ek
+- olay | OLAYLAR_AVMAC_B_1029:1527-11-03:0 | d: yer adı yanlış yazılmış
+- olay | OLAYLAR_AVMAC_B_1029:1809-10-14:0 | b: Latin harfli adlar
+- olay | OLAYLAR_AVMAC_B_1029:1809-10-14:0 | d: Latin harfli adlar
+- olay | OLAYLAR_AVMAC_B_1029:1848-03-15:0 | b: Latin harfli kalıntı
+- olay | OLAYLAR_AVMAC_B_1029:1848-03-15:0 | d: Latin harfli kalıntı
+- olay | OLAYLAR_AVMAC_B_1029:1848-04-11:0 | d: İngilizce/Latin kalıntı
+- olay | OLAYLAR_AVMAC_B_1029:1848-09-11:0 | b: Latin harfli kalıntı
+- olay | OLAYLAR_AVMAC_B_1029:1848-09-11:0 | d: Latin harfli kalıntı
+- olay | OLAYLAR_AVMAC_B_1029:1849-04-14:0 | b: Latin harfli kalıntı
+- olay | OLAYLAR_AVMAC_B_1029:1849-04-14:0 | d: İngilizce/Latin kalıntı
+- olay | OLAYLAR_AVMAC_B_1029:1849-08-13:0 | b: Latin harfli kalıntı
+- olay | OLAYLAR_AVMAC_B_1029:1849-08-13:0 | d: Latin harfli kalıntı
+- olay | OLAYLAR_AVMAC_B_1029:1849-10-06:0 | b: Latin harfli kalıntı
+- olay | OLAYLAR_AVMAC_B_1029:1849-10-06:0 | d: Latin harfli kalıntı
+- olay | OLAYLAR_AVMAC_B_1029:1867-02-17:0 | b: Latin harfli kalıntı
+- olay | OLAYLAR_AVMAC_B_1029:1867-02-17:0 | d: Latin harfli kalıntı
+- olay | OLAYLAR_AVMAC_B_1029:1867-05-29:0 | b: Latin harfli kalıntı
+- olay | OLAYLAR_AVMAC_B_1029:1867-05-29:0 | d: Latin harfli kalıntı
+- olay | OLAYLAR_AVMAC_B_1029:1867-06-08:0 | b: Latin harfli adlar
+- olay | OLAYLAR_AVMAC_B_1029:1867-06-08:0 | d: Latin harfli kalıntı
+- olay | OLAYLAR_AVMAC_C_1029:1867-06-08:0 | b: Latin harfli adlar
+- olay | OLAYLAR_AVMAC_C_1029:1867-06-08:0 | d: Latin harfli adlar
+- olay | OLAYLAR_AVMAC_C_1029:1918-11-11:0 | b: Latin harfli ad
+- olay | OLAYLAR_AVMAC_C_1029:1918-11-11:0 | d: Latin harfli adlar
+- olay | OLAYLAR_AVMAC_C_1029:1918-11-13:0 | b: Latin harfli adlar
+- olay | OLAYLAR_AVMAC_C_1029:1918-11-13:0 | d: Latin harfli adlar
+- olay | OLAYLAR_AVMAC_C_1029:1918-11-16:0 | b: Latin harfli adlar
+- olay | OLAYLAR_AVMAC_C_1029:1918-11-16:0 | d: Latin/İngilizce kalıntı
+- olay | OLAYLAR_AVMAC_C_1029:1919-03-21:0 | b: Latin harfli adlar
+- olay | OLAYLAR_AVMAC_C_1029:1919-03-21:0 | d: Latin harfli adlar
+- olay | OLAYLAR_AVMAC_C_1029:1919-08-04:0 | b: Latin harfli adlar
+- olay | OLAYLAR_AVMAC_C_1029:1919-08-04:0 | d: Latin harfli adlar
+- olay | OLAYLAR_AVMAC_C_1029:1919-11-16:0 | b: Latin harfli adlar
+- olay | OLAYLAR_AVMAC_C_1029:1919-11-16:0 | d: Latin harfli adlar
+- olay | OLAYLAR_AVMAC_C_1029:1921-10-13:0 | b: Latin harfli adlar
+- olay | OLAYLAR_AVMAC_C_1029:1921-10-13:0 | d: Latin/İngilizce kalıntı
+- olay | OLAYLAR_AVMAC_C_1029:1921-12-14:0 | b: Latin harfli yer adı
+- olay | OLAYLAR_AVMAC_C_1029:1921-12-14:0 | d: Latin harfli kalıntı
+- olay | OLAYLAR_AVMAC_C_1029:1938-03-12:0 | b: Latin harfli kalıntı
+- olay | OLAYLAR_AVMAC_C_1029:1938-03-12:0 | d: Latin harfli kalıntı
+- olay | OLAYLAR_AVMAC_C_1029:1944-03-19:0 | b: İngilizce kalıntı
+- olay | OLAYLAR_AVMAC_C_1029:1944-03-19:0 | d: Latin/İngilizce kalıntı
+- olay | OLAYLAR_AVMAC_C_1029:1945-04-13:0 | b: Latin harfli yer adı
+- olay | OLAYLAR_AVMAC_C_1029:1945-04-13:0 | d: Latin harfli adlar
+- olay | OLAYLAR_AVMAC_C_1029:1945-07-09:0 | b: Latin harfli yer adı
+- olay | OLAYLAR_AVMAC_C_1029:1945-07-09:0 | d: Latin harfli kalıntı
+- olay | OLAYLAR_AVMAC_C_1029:1955-05-15:0 | b: Latin harfli yer adı, bozuk cümle
+- olay | OLAYLAR_AVMAC_C_1029:1955-05-15:0 | d: İngilizce kalıntı
+- olay | OLAYLAR_AVMAC_C_1029:1956-10-23:0 | b: Latin harfli kalıntı
+- olay | OLAYLAR_AVMAC_C_1029:1956-10-23:0 | d: Latin harfli ad
+- olay | OLAYLAR_AVMAC_FINAL_1029:1703-01-01:0 | b: Latin harfli kalıntı
+- olay | OLAYLAR_AVMAC_FINAL_1029:1703-01-01:0 | d: Latin harfli kalıntı
+- olay | OLAYLAR_AVMAC_FINAL_1029:1866-07-03:0 | b: Latin harfli kalıntı
+- olay | OLAYLAR_AVMAC_FINAL_1029:1866-07-03:0 | d: Latin harfli kalıntı
+- olay | OLAYLAR_AVMAC_FINAL_1029:1866-08-23:0 | b: Latin harfli kalıntı
+- olay | OLAYLAR_AVMAC_FINAL_1029:1866-08-23:0 | d: Latin harfli kalıntı
+- olay | OLAYLAR_AVUSTURYA_MACAR_1027:0455-01-01:0 | b: Latin harfli kalıntı
+- olay | OLAYLAR_AVUSTURYA_MACAR_1027:0455-01-01:0 | d: Latin harfli kalıntı
+- olay | OLAYLAR_AVUSTURYA_MACAR_1027:1523-01-01:0 | b: Latin harfli kalıntı
+- olay | OLAYLAR_AVUSTURYA_MACAR_1027:1523-01-01:0 | d: Latin harfli kalıntı
+- olay | OLAYLAR_ORTACAG_BIZANS_BALKAN:1071-08-26:0 | d: bozuk cümle, anlam karışıyor
+- olay | OLAYLAR_ORTACAG_BIZANS_BALKAN:1137-01-01:0 | d: bozuk anlatım
+- olay | OLAYLAR_ORTACAG_BIZANS_BALKAN:1190-01-01:0 | d: cinsiyet uyumu
+- olay | OLAYLAR_ORTACAG_BIZANS_BALKAN:1274-07-06:0 | d: İngilizce kalıntı
+- olay | OLAYLAR_ORTACAG_BATI_AVRUPA:0843-08-10:0 | b: Latin yazı kalıntısı
+- olay | OLAYLAR_ORTACAG_BATI_AVRUPA:0843-08-10:0 | d: Latin yazı kalıntısı
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1481-12-11:3 | d: Türkçe kalıntı
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1388-09-28:0 | b: Fransızca kalıntı
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1349-04-18:0 | d: ek uyumu hatası
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1360-10-24:0 | d: dilbilgisi hatası
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1348-06-09:0 | d: 'Yerleşim kaydı' nüfus kaydı gibi çevrilmiş
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1659-11-07:0 | b: Latin harfli adlar
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1659-11-07:0 | d: Latin/İngilizce kalıntı
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1659-11-07:1 | b: Latin harfli adlar
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1659-11-07:1 | d: Latin/İngilizce kalıntı
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1795-07-22:0 | b: Latin harfli adlar
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1795-07-22:0 | d: Latin harfli adlar
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1796-05-15:0 | b: Latin harfli adlar
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1796-05-15:0 | d: Latin harfli adlar
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1796-06-23:0 | b: Latin harfli adlar
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1796-06-23:0 | d: Latin harfli adlar
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1796-12-27:0 | b: Latin harfli adlar
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1796-12-27:0 | d: Latin harfli adlar
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1797-02-02:0 | b: Latin harfli adlar
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1797-02-02:0 | d: Latin harfli adlar
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1797-02-19:0 | b: Latin harfli adlar
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1797-02-19:0 | d: Latin harfli adlar
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1797-05-12:0 | d: Latin harfli adlar
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1797-07-09:0 | b: Latin harfli adlar
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1797-07-09:0 | d: Latin harfli adlar
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1798-02-15:0 | d: Latin harfli adlar
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1798-12-09:0 | b: Latin harfli adlar
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1798-12-09:0 | d: Latin harfli adlar
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1799-04-27:0 | b: Latin harfli adlar
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1799-04-27:0 | d: Latin harfli adlar
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1799-09-30:0 | b: Latin harfli ad
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1799-09-30:0 | d: Latin harfli adlar
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1800-06-04:0 | b: Latin harfli adlar
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1800-06-04:0 | d: Latin harfli adlar
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1802-10-09:0 | b: Latin harfli adlar
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1802-10-09:0 | d: Latin harfli adlar
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1805-06-04:0 | b: Latin harfli adlar
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1805-06-04:0 | d: Latin harfli adlar
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1532-01-01:0 | b: Latin harfli adlar
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1532-01-01:0 | d: Latin harfli adlar
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1540-01-01:0 | b: Latin harfli adlar
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1540-01-01:0 | d: Latin harfli adlar
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1318-07-25:0 | b: Latin harfli adlar
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1318-07-25:0 | d: Latin harfli adlar
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1506-11-11:0 | b: Latin harfli adlar
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1506-11-11:0 | d: Latin harfli adlar
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1739-10-17:0 | b: Latin harfli adlar
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1739-10-17:0 | d: Latin harfli adlar
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1740-02-05:0 | b: Latin harfli adlar
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1740-02-05:0 | d: Latin harfli adlar
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1810-02-28:0 | b: Latin harfli adlar
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1810-02-28:0 | d: Latin harfli adlar
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1813-10-15:0 | b: Latin harfli adlar
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1813-10-15:0 | d: Latin harfli adlar
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1848-03-22:0 | b: Latin harfli adlar
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1848-03-22:0 | d: Latin harfli adlar
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1849-02-09:0 | b: Latin harfli ad
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1849-02-09:0 | d: Latin harfli ad
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1849-07-03:0 | d: Latin harfli adlar
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1849-08-22:0 | b: Latin harfli ad
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1849-08-22:0 | d: Latin harfli ad
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1943-09-23:0 | b: Latin harfli adlar
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1943-09-23:0 | d: Latin harfli adlar
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:536-12-09:0 | b: Latin harfli adlar
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:536-12-09:0 | d: Latin harfli adlar
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1099-01-01:0 | b: Latin harfli adlar
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1099-01-01:0 | d: Latin harfli adlar
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1143-01-01:0 | b: Latin harfli kalıntı
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1143-01-01:0 | d: Latin harfli adlar
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1351-05-01:0 | b: Latin harfli adlar
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1351-05-01:0 | d: Latin harfli adlar
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1536-05-21:0 | b: Latin harfli adlar
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1536-05-21:0 | d: Latin harfli adlar
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1814-05-20:0 | d: eksik 'نے'
+- olay | OLAYLAR_OK104:1393-05-01:0 | b: Latin harfli adlar
+- olay | OLAYLAR_OK104:1393-05-01:0 | d: Latin harfli adlar
+- olay | OLAYLAR_OK104:1304-01-01:0 | b: Latin harfli adlar
+- olay | OLAYLAR_OK104:1304-01-01:0 | d: Latin harfli adlar
+- olay | OLAYLAR_P0036:1463-01-01:0 | d: Latin/Türkçe kalıntı
+- olay | OLAYLAR_P0036:1566-09-01:0 | b: Latin harfli adlar
+- olay | OLAYLAR_P0036:1566-09-01:0 | d: Latin harfli adlar
+- olay | OLAYLAR_P0036:1566-07-25:0 | b: Latin harfli adlar
+- olay | OLAYLAR_P0036:1566-07-25:0 | d: Latin harfli adlar
+- olay | OLAYLAR_P0036:1595-10-22:0 | b: Latin harfli adlar
+- olay | OLAYLAR_P0036:1595-10-22:0 | d: Latin harfli adlar
+- olay | OLAYLAR_CUKUROVA_0907:1922-01-03:0 | d: 'çıkarma' yanlış sözcük
+- olay | OLAYLAR_P0037:1689-10-01:0 | b: Latin harfli ad
+- olay | OLAYLAR_P0037:1689-10-01:0 | d: Latin harfli adlar
+- olay | OLAYLAR_P0057B:1431-01-01:0 | b: Latin harfli ad
+- olay | OLAYLAR_P0057B:1431-01-01:0 | d: Latin harfli ad
+- olay | OLAYLAR_P0057B:1648-01-01:0 | b: Türkçe Latin ad
+- olay | OLAYLAR_P0057B:1648-01-01:0 | d: Türkçe Latin ad
+- olay | OLAYLAR_P0060:1723-01-01:0 | b: Latin harfli adlar
+- olay | OLAYLAR_P0060:1723-01-01:0 | d: Latin harfli adlar
+- olay | OLAYLAR_P0060:1725-01-01:0 | b: Latin harfli adlar
+- olay | OLAYLAR_P0060:1725-01-01:0 | d: Latin harfli adlar
+- olay | OLAYLAR_P0060:1732-09-02:0 | b: Latin harfli adlar
+- olay | OLAYLAR_P0060:1732-09-02:0 | d: Latin harfli adlar
+- olay | OLAYLAR_P0063:1724-09-11:0 | b: Latin harfli adlar
+- olay | OLAYLAR_P0063:1724-09-11:0 | d: Latin harfli adlar
+- olay | OLAYLAR_P0063:1734-05-31:0 | b: Latin harfli adlar
+- olay | OLAYLAR_P0063:1734-05-31:0 | d: Latin harfli adlar
+- olay | OLAYLAR_P0063:1734-11-09:0 | b: Latin harfli adlar
+- olay | OLAYLAR_P0063:1734-11-09:0 | d: Latin harfli adlar
+- olay | OLAYLAR_P0063:1735-05-01:0 | b: Latin harfli ad
+- olay | OLAYLAR_P0063:1735-05-01:0 | d: Latin harfli adlar
+- olay | OLAYLAR_P0063:1735-05-08:0 | b: Latin harfli ad
+- olay | OLAYLAR_P0063:1735-05-08:0 | d: Latin harfli ad
+- olay | OLAYLAR_P0063:1735-08-23:0 | b: Latin harfli adlar
+- olay | OLAYLAR_P0063:1735-08-23:0 | d: Latin harfli adlar
+- olay | OLAYLAR_P0063:1735-01-01:0 | b: Latin harfli ad
+- olay | OLAYLAR_P0063:1735-01-01:0 | d: Latin harfli adlar
+- olay | OLAYLAR_P0063:1736-05-02:0 | b: Latin harfli ad
+- olay | OLAYLAR_P0063:1736-05-02:0 | d: Latin harfli adlar
+- olay | OLAYLAR_P0063:1736-07-13:0 | b: Latin harfli ad
+- olay | OLAYLAR_P0063:1736-07-13:0 | d: Latin harfli adlar
+- olay | OLAYLAR_P0063:1737-07-14:0 | d: Latin harfli adlar
+- olay | OLAYLAR_P0063:1737-07-27:0 | b: Latin harfli adlar
+- olay | OLAYLAR_P0063:1737-07-27:0 | d: Latin harfli adlar
+- olay | OLAYLAR_P0063:1737-10-16:0 | b: Latin harfli ad
+- olay | OLAYLAR_P0063:1737-10-16:0 | d: Latin harfli adlar
+- olay | OLAYLAR_P0063:1738-08-17:0 | b: Latin harfli ad
+- olay | OLAYLAR_P0063:1738-08-17:0 | d: Latin harfli adlar
+- olay | OLAYLAR_P0063:1735-07-09:0 | b: Latin harfli ad
+- olay | OLAYLAR_P0063:1735-07-09:0 | d: Latin harfli adlar
+- olay | OLAYLAR_P0063:1735-08-12:0 | b: Latin harfli ad
+- olay | OLAYLAR_P0063:1735-08-12:0 | d: Latin harfli adlar
+- olay | OLAYLAR_P0063:1736-06-01:0 | b: Latin harfli adlar
+- olay | OLAYLAR_P0063:1736-06-01:0 | d: Latin harfli adlar
+- olay | OLAYLAR_P0063:1736-06-19:0 | b: Latin harfli adlar
+- olay | OLAYLAR_P0063:1736-06-19:0 | d: Latin harfli adlar
+- olay | OLAYLAR_P0063:1736-08-27:0 | b: Latin harfli adlar
+- olay | OLAYLAR_P0063:1736-08-27:0 | d: Latin harfli adlar
+- olay | OLAYLAR_P0063:1737-07-25:0 | b: Latin harfli adlar
+- olay | OLAYLAR_P0063:1737-07-25:0 | d: Latin harfli adlar
+- olay | OLAYLAR_P0917TARAF:1909-04-19:0 | d: Latin harfli ad
+- olay | OLAYLAR_P0917TARAF:1913-11-17:0 | d: Latin harfli ad; dilbilgisi
+- olay | OLAYLAR_P0917TARAF:1915-09-06:0 | d: Latin harfli ad
+- olay | OLAYLAR_P0917TARAF:1892-01-01:0 | b: Latin harfli ad
+- olay | OLAYLAR_P0917TARAF:1892-01-01:0 | d: Latin harfli ad
+- olay | OLAYLAR_P0917TARAF:1906-10-01:0 | b: Latin harfli adlar
+- olay | OLAYLAR_P0917TARAF:1906-10-01:0 | d: Latin harfli adlar
+- olay | OLAYLAR_P0917TARAF:1910-05-19:0 | b: Latin harfli adlar
+- olay | OLAYLAR_P0917TARAF:1910-05-19:0 | d: Latin harfli adlar
+- olay | OLAYLAR_P0917KOSU13:1723-08-06:0 | b: Latin harfli ad
+- olay | OLAYLAR_P0917KOSU13:1723-08-06:0 | d: Latin harfli adlar
+- olay | OLAYLAR_P0917KOSU13:1723-11-10:0 | b: Latin harfli adlar
+- olay | OLAYLAR_P0917KOSU13:1723-11-10:0 | d: Latin harfli adlar
+- olay | OLAYLAR_P0917KOSU13:1724-01-01:0 | b: Latin harfli adlar
+- olay | OLAYLAR_P0917KOSU13:1724-01-01:0 | d: Latin harfli adlar
+- olay | OLAYLAR_P0917KOSU13:1725-09-09:0 | d: Latin harfli adlar
+- olay | OLAYLAR_P0917KOSU13:1735-10-03:0 | b: Latin harfli ad
+- olay | OLAYLAR_P0917KOSU13:1735-10-03:0 | d: Latin/Türkçe adlar
+- olay | OLAYLAR_P0917KOSU13:1387-01-01:0 | b: Latin harfli ad
+- olay | OLAYLAR_P0917KOSU13:1387-01-01:0 | d: Latin harfli adlar
+- olay | OLAYLAR_P0917KOSU13:1415-01-01:0 | b: Latin/Türkçe adlar
+- olay | OLAYLAR_P0917KOSU13:1415-01-01:0 | d: Latin/Türkçe adlar
+- olay | OLAYLAR_P0917KOSU13:1427-01-01:0 | b: Latin harfli adlar
+- olay | OLAYLAR_P0917KOSU13:1427-01-01:0 | d: Latin harfli adlar
+- olay | OLAYLAR_P0917KOSU13:1450-01-01:0 | b: Latin harfli ad
+- olay | OLAYLAR_P0917KOSU13:1450-01-01:0 | d: Latin harfli adlar
+- olay | OLAYLAR_P0917KOSU13:1516-10-01:0 | d: Latin harfli ad
+- olay | OLAYLAR_P0917KOSU13:1532-01-01:0 | b: Latin harfli adlar
+- olay | OLAYLAR_P0917KOSU13:1532-01-01:0 | d: Latin/Türkçe adlar
+- olay | OLAYLAR_P0917KOSU13:1534-01-01:0 | b: Latin harfli adlar
+- olay | OLAYLAR_P0917KOSU13:1534-01-01:0 | d: Latin harfli adlar
+- olay | OLAYLAR_P0917KOSU13:1578-08-24:0 | b: Latin harfli adlar
+- olay | OLAYLAR_P0917KOSU13:1578-08-24:0 | d: Latin harfli adlar
+- olay | OLAYLAR_P0917KOSU13:1588-09-01:0 | b: Latin harfli adlar
+- olay | OLAYLAR_P0917KOSU13:1588-09-01:0 | d: Latin harfli adlar
+- olay | OLAYLAR_P0917KOSU13:1589-01-01:0 | b: Latin harfli adlar
+- olay | OLAYLAR_P0917KOSU13:1589-01-01:0 | d: Latin harfli adlar
+- olay | OLAYLAR_P0917KOSU13:1722-11-01:0 | b: Latin harfli ad
+- olay | OLAYLAR_P0917KOSU13:1722-11-01:0 | d: Latin harfli ad
+- olay | OLAYLAR_P0917KOSU13:1731-11-15:0 | b: Latin harfli ad
+- olay | OLAYLAR_P0917KOSU13:1731-11-15:0 | d: Latin harfli adlar
+- olay | OLAYLAR_P0917KOSU13:1770-10-09:0 | b: Latin harfli adlar
+- olay | OLAYLAR_P0917KOSU13:1770-10-09:0 | d: Latin harfli adlar
+- olay | OLAYLAR_P0917KOSU13:1770-09-01:0 | b: Latin harfli adlar
+- olay | OLAYLAR_P0917KOSU13:1770-09-01:0 | d: Latin harfli adlar
+- olay | OLAYLAR_P0917KOSU13:1788-09-01:0 | b: Latin harfli ad
+- olay | OLAYLAR_P0917KOSU13:1788-09-01:0 | d: Latin harfli adlar
+- olay | OLAYLAR_P0917KOSU13:1789-11-01:0 | b: Latin harfli adlar
+- olay | OLAYLAR_P0917KOSU13:1789-11-01:0 | d: Latin harfli adlar
+- olay | OLAYLAR_P0917KOSU13:1789-11-14:0 | b: Latin harfli adlar
+- olay | OLAYLAR_P0917KOSU13:1789-11-14:0 | d: Latin harfli adlar
+- olay | OLAYLAR_P0917KOSU13:1790-10-24:0 | b: Latin harfli ad
+- olay | OLAYLAR_P0917KOSU13:1790-10-24:0 | d: Latin harfli adlar
+- olay | OLAYLAR_P0917KOSU13:1809-09-26:0 | b: Latin harfli adlar
+- olay | OLAYLAR_P0917KOSU13:1809-09-26:0 | d: Latin harfli adlar
+- olay | OLAYLAR_P0917KOSU13:1565-01-01:0 | b: Latin harfli ad
+- olay | OLAYLAR_P0917KOSU13:1565-01-01:0 | d: Latin harfli adlar
+- olay | OLAYLAR_P0917KOSU13:1736-03-24:0 | b: Latin harfli ad
+- olay | OLAYLAR_P0917KOSU13:1736-03-24:0 | d: Latin harfli adlar
+- olay | OLAYLAR_P0917KOSU13:1739-12-12:0 | b: Latin harfli adlar
+- olay | OLAYLAR_P0917KOSU13:1739-12-12:0 | d: Latin harfli adlar
+- olay | OLAYLAR_P0917KOSU13:1788-08-26:0 | b: Latin harfli ad
+- olay | OLAYLAR_P0917KOSU13:1788-08-26:0 | d: Latin harfli adlar
+- olay | OLAYLAR_P0917KOSU13:1788-10-03:0 | b: Latin harfli adlar
+- olay | OLAYLAR_P0917KOSU13:1788-10-03:0 | d: Latin harfli adlar
+- olay | OLAYLAR_P0917KOSU13:1838-01-01:0 | b: Latin harfli adlar
+- olay | OLAYLAR_P0917KOSU13:1838-01-01:0 | d: İngilizce/Latin kalıntı
+- olay | OLAYLAR_P0917KOSU13:1854-01-01:0 | b: Latin harfli adlar
+- olay | OLAYLAR_P0917KOSU13:1854-01-01:0 | d: İngilizce/Latin kalıntı
+- olay | OLAYLAR_P0917KOSU13:1864-02-01:0 | b: Latin harfli adlar
+- olay | OLAYLAR_P0917KOSU13:1864-02-01:0 | d: İngilizce/Latin kalıntı
+- olay | OLAYLAR_P0917DUNYA:1915-09-26:0 | b: Latin harfli ad
+- olay | OLAYLAR_P0917DUNYA:1915-09-26:0 | d: Latin harfli adlar
+- olay | OLAYLAR_P0917DUNYA:1916-04-18:0 | d: Latin harfli adlar
+- olay | OLAYLAR_P0917DUNYA:1918-02-24:0 | b: yerleşik ad 'طرابزون' ile tutarsız
+- olay | OLAYLAR_P0917DUNYA:1918-02-24:0 | d: yerleşik ad
+- olay | OLAYLAR_P0917DUNYA:1918-02-26:0 | b: Latin harfli ad
+- olay | OLAYLAR_P0917DUNYA:1918-02-26:0 | d: Latin harfli ad
+- olay | OLAYLAR_P0917DUNYA:1916-03-08:0 | b: Latin harfli ad
+- olay | OLAYLAR_P0917DUNYA:1916-03-08:0 | d: Latin/Türkçe adlar
+- olay | OLAYLAR_P0917DUNYA:1916-07-16:0 | b: Latin/Türkçe adlar
+- olay | OLAYLAR_P0917DUNYA:1916-07-16:0 | d: Latin/Türkçe adlar
+- olay | OLAYLAR_P0917DUNYA:1918-02-19:0 | b: Latin/Türkçe adlar
+- olay | OLAYLAR_P0917DUNYA:1918-02-19:0 | d: Latin/Türkçe adlar
+- olay | OLAYLAR_P0917DUNYA:1918-03-02:0 | b: Latin harfli ad
+- olay | OLAYLAR_P0917DUNYA:1918-03-02:0 | d: Latin/Türkçe adlar
+- olay | OLAYLAR_P0917DUNYA:1915-02-23:0 | b: Latin harfli ad
+- olay | OLAYLAR_P0917DUNYA:1915-02-23:0 | d: Latin harfli adlar
+- olay | OLAYLAR_P0917DUNYA:1916-02-24:0 | b: Latin/Türkçe ad
+- olay | OLAYLAR_P0917DUNYA:1916-02-24:0 | d: Latin/Türkçe ad
+- olay | OLAYLAR_P0917DUNYA:1918-04-01:0 | b: Latin harfli ad
+- olay | OLAYLAR_P0917DUNYA:1918-04-01:0 | d: Latin harfli ad
+- olay | OLAYLAR_P0917DUNYA:1918-05-07:0 | d: Latin harfli ad
+- olay | OLAYLAR_P0917DUNYA:1918-05-27:0 | d: Türkçe ad
+- olay | OLAYLAR_P0917DUNYA:1921-02-25:0 | d: Latin harfli adlar
+- olay | OLAYLAR_P0917DUNYA:1917-12-06:0 | b: Türkçe ad kalıntısı
+- olay | OLAYLAR_P0917DUNYA:1917-12-06:0 | d: Türkçe ad kalıntısı
+- olay | OLAYLAR_P0067:1788-09-21:0 | d: cinsiyet uyumu hatası
+- olay | OLAYLAR_0073_IRAN_YANYA:1822-02-14:0 | d: cinsiyet uyumu hatası
+- olay | OLAYLAR_DUNYA_BOLGE_1109:1905-01-22:0 | d: bozuk dilbilgisi
+- olay | OLAYLAR_GEZGINLER:1326-04-05:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_GEZGINLER:1326-08-09:0 | b: Türkçe kalıntı
+- olay | OLAYLAR_GEZGINLER:1348-07-15:0 | b: Türkçe kalıntı
+- olay | OLAYLAR_GEZGINLER:1403-05-22:0 | b: Kastilya 'İspanyol' yapılmış ve Türkçe kalıntı
+- olay | OLAYLAR_GEZGINLER:1404-06-11:0 | b: Türkçe kalıntı
+- olay | OLAYLAR_GEZGINLER:1404-11-21:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_GEZGINLER:1406-03-22:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_GEZGINLER:1492-08-03:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_GEZGINLER:1496-03-10:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_GEZGINLER:1498-07-31:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_GEZGINLER:1519-09-20:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_GEZGINLER:1520-10-21:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_GEZGINLER:1671-01-01:0 | d: Türkçe kalıntı

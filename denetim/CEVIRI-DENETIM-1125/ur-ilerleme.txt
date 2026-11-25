@@ -1,0 +1,32 @@
+== ilerleme.txt
+Tam okunan paketler: 1_arayuz_001-010 (tamam), 2_devlet_001-012 (tamam), 3_bayrakli_001-002, 4_olay_001-007
+Bakılan kayıt: arayuz ~1950, devlet ~3500, bayrakli ~130, olay ~140
+Okunmayan: 3_bayrakli_003-022, 4_olay_008-211
+Not: Olay listelerindeki ve arayüzdeki yer adları sistematik olarak Latin/Türkçe harfle bırakılmış (bazı paketlerde Urduca yazılmış); toplu iş gerektirdiği için tek tek düzeltilmedi.
+
+== ilerleme_a.txt
+Tam okunan paketler: 4_olay_008 - 4_olay_037 (aralik tamam, 30/30)
+Duzeltme dosyalari: duzeltme_a_001.jsonl - duzeltme_a_010.jsonl (84 satir)
+
+== ilerleme_b.txt
+Tam okunan: 4_olay_038-067 (30/30 paket; aralık tamamlandı)
+Duzeltme dosyalari: duzeltme_b_001..013.jsonl
+Not: 054-067'deki tekrar eden mekanik kalintilar ve bir kisim govde ici Latin adlar jsonl'e yazilmadi; notlar_b.md bolum 1-2.
+
+== ilerleme_c.txt
+Tam okunan: 4_olay_068 - 4_olay_102 (35/35, aralık tamamlandı)
+Bakılan olay kaydı: ~840
+Düzeltme satırı: 119 (duzeltme_c_001 - 012)
+
+== ilerleme_d.txt
+Tam okunan: 4_olay_103 - 4_olay_137 (aralığın tamamı, 35 paket)
+Bakılan olay kaydı: ~1130 (arayüz/devlet bu turda okunmadı)
+
+== ilerleme_e.txt
+tamamen okunan: 4_olay_138 - 4_olay_174 (37/37 paket)
+bakilan tur: yalniz olay (yaklasik 900 kayit)
+
+== ilerleme_f.txt
+Tam okunan: 4_olay_175 - 4_olay_211 (37 paket, hepsi)
+200-211: Latin harfli özel adlar sistematik; yalnız anlam/dilbilgisi/Türkçe sözcük kalıntısı düzeltildi (bkz. notlar_f.md).
+Düzeltme dosyaları: duzeltme_f_001 - 009
