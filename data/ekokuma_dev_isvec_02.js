@@ -28,6 +28,16 @@ window.EKOKUMA_DEVISVEC02 = [
   olay:["1713-02-12|Kalabalık"],
   kaynak:"Volodymyr Milchev, \"Carlopolis: Sketches of Everyday Life of a Swedish-Cossack Camp on the Frontier (1709-1713)\", Güney-Doğu Avrupa Araştırmaları Dergisi 35 (2020), s. 97-118, https://doi.org/10.26650/gaad.795197",
   teyit:"teyitli",
-  ic_not:"Makalenin bütün metni okundu. Kaynak saldırıyı 31 Ocak - 2 Şubat 1713 diye verir (takvim belirtmiyor); atlas maddesi 1713-02-12 (muhtemelen Gregoryen karşılığı). Karta gün yazılmadı." }
+  ic_not:"Makalenin bütün metni okundu. Kaynak saldırıyı 31 Ocak - 2 Şubat 1713 diye verir (takvim belirtmiyor); atlas maddesi 1713-02-12 (muhtemelen Gregoryen karşılığı). Karta gün yazılmadı." },
+
+{ id:"isvec-perde-arkasi-celsing-ikili-oyun", devlet:"isvec", tur:"sebep-sonuc",
+  baslik:"Eski dost, tarafsız müttefik: İstanbul'da Celsing kardeşler",
+  kisa:"1768'de Osmanlı Rusya'ya savaş açtığında İsveç hem müttefikliğini korumak hem savaştan uzak durmak istedi. Bu ince işin yükü İstanbul'daki iki kardeşe düştü.",
+  metin:"Gustav ve Ulric Celsing, Uppsala Üniversitesi'nde Doğu dilleri okumuştu. Gustav 1745'te İstanbul'a elçilik sekreteri olarak geldi, sonra elçiliğin başına geçti; Ulric 1756'dan itibaren sekreter olarak yanında çalıştı.\n\n1768'de Osmanlı-Rus savaşı patlayınca İsveç bunu memnuniyetle karşıladı, ama yardıma niyetli değildi. Ekonomisi kötüydü. Stockholm, 1739 ittifakının yalnızca savunma amaçlı olduğunu, savaşı ise Osmanlı'nın açtığını ileri sürdü. Gustav'a gelen talimat açıktı: Babıâli'nin güvenini koru, ama ittifakı gündeme getirecek sözlerden kaçın ve Rusya'yı kuşkulandırma.\n\nElçi, tercümanı Muradca Tosunyan'ın Babıâli'deki ilişkilerinden yararlandı. İsveç'in hazırlıklarıyla Rus güçlerini Baltık'ta oyaladığı izlenimini verdi. Bir yandan da Rus donanmasına ilişkin haberleri gizli, imzasız notlarla iletti; neyi ne zaman söyleyeceğini ise ülkesinin çıkarına göre seçti.\n\nAğustos 1772'de III. Gustav Stockholm'de darbe yapınca Osmanlı'da İsveç desteği umudu yeniden canlandı ve Rusya ile barış görüşmeleri kesildi. Ancak yeni kral tarafsızlıktan ayrılmadı; Stockholm, dostluk güvenceleri verirken yardım konusunda umut vermemeye çalıştı. Aynı yıl elçilik Ulric'e geçti. Padişahın huzurunda gördüğü sıcak kabulü krala ayrıntılarıyla yazdı.\n\nTarihçiler bugün ne diyor? Candost Ural ile Meryem Kaçan Erdoğan, İsveç'in bu dönemde Babıâli'ye ve Rus sarayına karşı ikili bir siyaset izlediği sonucuna varıyor: Kardeşler hem Osmanlı dostluğunu korumuş hem de tehditkâr komşuyu kışkırtmamaya çalışmıştır. Yazarlara göre ülke savaşın dışında kalmayı kayda değer bir diplomatik beceriyle başarmıştır.",
+  kesinlik:"kesin",
+  olay:["1772-08-19|III. Gustav'ın darbesi"],
+  kaynak:"Candost Ural ve Meryem Kaçan Erdoğan, \"Celsing Kardeşlerin Elçiliği Sürecinde Osmanlı-İsveç Diplomatik İlişkileri (1768-1779)\", History Studies 15/4 (2023), s. 799-824, https://doi.org/10.9737/historystudies.1337998",
+  teyit:"teyitli",
+  ic_not:"Okunan bölümler: PDF s.1-15 (basılı yaklaşık s.799-813; giriş, Gustav dönemi, Ulric döneminin başı) ve sonuç (s.820). Ara sayfalar (yaklaşık s.814-819) okunmadı. Darbeye Osmanlı yankısı yazarların Bode'ye dayanan anlatımı. Makale elçiliğin Ulric'e geçişini 1772 verir, kararın 1770, bildirimin 1771 olduğunu yazar." }
 
 ];
