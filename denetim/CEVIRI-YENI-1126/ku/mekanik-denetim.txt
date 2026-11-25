@@ -1,6 +1,22 @@
 taban origin/main 24bca150f
 arayuz 2034/2034
 devlet 2315/2315
-olay 4896/5196
+olay 5196/5196
 
-
+c_olay_120.jsonl:4 olay uyari: cevrilmemis n=5041
+c_olay_120.jsonl:59 olay uyari: cevrilmemis n=5096
+c_olay_121.jsonl:3 olay uyari: cevrilmemis n=5104
+c_olay_121.jsonl:6 olay uyari: cevrilmemis n=5107
+c_olay_121.jsonl:34 olay uyari: cevrilmemis n=5135
+c_olay_121.jsonl:36 olay uyari: cevrilmemis n=5137
+c_olay_121.jsonl:37 olay uyari: cevrilmemis n=5138
+c_olay_121.jsonl:44 olay uyari: cevrilmemis n=5145
+c_olay_121.jsonl:49 olay uyari: cevrilmemis n=5150
+c_olay_121.jsonl:56 olay uyari: cevrilmemis n=5157
+c_olay_121.jsonl:60 olay uyari: cevrilmemis n=5161
+c_olay_122.jsonl:1 olay uyari: cevrilmemis n=5164
+c_olay_122.jsonl:9 olay uyari: cevrilmemis n=5172
+c_olay_122.jsonl:10 olay uyari: cevrilmemis n=5173
+c_olay_122.jsonl:11 olay uyari: cevrilmemis n=5174
+c_olay_122.jsonl:14 olay uyari: cevrilmemis n=5177
+c_olay_122.jsonl:19 olay uyari: cevrilmemis n=5182

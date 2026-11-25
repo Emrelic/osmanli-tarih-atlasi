@@ -103,3 +103,9 @@ yeniçeri=yenîçerî · sipahi=sîpahî · şeyhülislâm=şêxulîslam · kapt
 - Asur=Asûr · Babil=Babîl · Pers=Pers · Karkamış=Karkamîş · Gazze=Xeze · Kudüs=Quds · Yehuda=Yahûda · Fenike=Fenîke · Koile-Suriye=Koile-Sûriye
 - Moğol=Mexol · bakufu, shugo, jitō Latin aynen · Firavun=firewn · tapınak=perestgeh · rahip=keşîş · satrap=satrap · Hanedan XXV.=Xanedana XXV.
 
+== sozluk_i.md
+# Kurmancî (ku) — ajan i (olay_107..122) ekleri; sozluk_a ile uyumlu
+- Güzergâh=Rê · "Yolculuğun tamamı haritada seyahat çizgisi olarak gösterilir"=Tevahiya rêwîtiyê li nexşeyê wek xêza rêwîtiyê tê nîşandan.
+- abi merkez=navenda mezin · beyanlı boşluk=valahiya daxuyanîkirî · beyanlı yaklaşıklık=texmîna daxuyanîkirî
+- Hz. Muhammed=Hz. Mihemed · Potemkin=Potemkîn · Coburg=Coburg · Koca Yûsuf Paşa=Koca Yûsuf Paşa
+
