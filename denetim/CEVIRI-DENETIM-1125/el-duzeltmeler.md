@@ -208,3 +208,209 @@
 - olay | OLAYLAR:1453-05-29:0 | d: gemilerin karadan yürütülmesi yanlış; eksik sözcük
 - olay | OLAYLAR:1526-08-29:0 | d: argo/uygunsuz üslup
 - olay | OLAYLAR:1571-10-07:0 | b: 'Ναύπακτος'un yenilgisi' anlamına geliyor
+- olay | OLAYLAR:1770-07-06:0 | b: genitif 'Çeşme'nin yaptığı baskın' anlamı veriyor
+- olay | OLAYLAR:1821-04-02:0 | d: Yunan şehirleri Türkçe/yabancı adla kalmış
+- olay | OLAYLAR:1827-10-20:0 | b: yanlış cinsiyet/genitif
+- olay | OLAYLAR:1827-10-20:0 | d: yanlış fiil (isyanı bastırmak = καταστέλλω)
+- olay | OLAYLAR:1839-11-03:0 | d: özne ters: adı veren ferman, dönem değil
+- olay | OLAYLAR:1853-10-04:0 | d: Sinop baskını genitifi yanlış anlam; zaman uyumu
+- olay | OLAYLAR:1876-12-23:0 | d: iki meclisli = διθάλαμο
+- olay | OLAYLAR:1877-04-24:0 | d: eksik tonos
+- olay | OLAYLAR:1878-07-13:0 | d: 'Aya Stefanos azizi yarattı' anlamı çıkıyor (antlaşma kastediliyor); Türkçe yer adları
+- olay | OLAYLAR:1881-05-12:0 | d: Türkçe yer adları
+- olay | OLAYLAR:1908-07-23:0 | b: genitif vurgusu
+- olay | OLAYLAR:1913-05-30:0 | d: Türkçe yer adları; 'Κρήτη (Ρέθυμνο)' TR hatasından, 'οι Σφακιά' dilbilgisi
+- olay | OLAYLAR:1914-11-01:0 | d: İngilizlerden kaçan (İngiltere'den ayrılan değil); bozuk söz dizimi
+- olay | OLAYLAR:1915-03-18:0 | d: mayın gemisi ναρκοθέτιδα (mayın tarayıcı değil); imla
+- olay | OLAYLAR:1918-10-30:0 | d: yabancı yazıyla kalan yer adları
+- olay | OLAYLAR:1923-10-29:0 | d: yanlış terim biçimi (beylik)
+- olay | OLAYLAR_EK:1313-01-01:0 | d: bozuk anlatım
+- olay | OLAYLAR_EK:1330-01-01:0 | d: fiil çekimi (aorist artırımı)
+- olay | OLAYLAR_EK:1354-08-01:0 | d: Türkçe yer adları
+- olay | OLAYLAR_EK:1372-06-01:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK:1388-01-01:0 | b: yer adı biçimi/cinsiyet (η Σούμλα)
+- olay | OLAYLAR_EK:1383-09-19:0 | d: yanlış anlam: '1370-1383 on yılları'
+- olay | OLAYLAR_EK:1381-01-01:0 | b: cinsiyet hatası (η Κιουτάχεια)
+- olay | OLAYLAR_EK:1381-01-01:0 | d: cinsiyet; Türkçe yer adı
+- olay | OLAYLAR_EK:1381-06-01:0 | d: Türkçe yer adı
+- olay | OLAYLAR_EK:1390-01-01:0 | d: yanlış yer adı (Bodrum); Türkçe yer adı
+- olay | OLAYLAR_EK:1395-01-01:0 | d: Türkçe yer adı
+- olay | OLAYLAR_EK:1392-11-01:0 | d: Türkçe yer adları
+- olay | OLAYLAR_EK:1393-09-01:0 | d: yabancı/Türkçe yazımla kalan yer adları
+- olay | OLAYLAR_EK:1394-01-01:0 | d: Yunan şehirleri Türkçe adla
+- olay | OLAYLAR_EK:1400-01-01:0 | d: yerleşik Yunanca ad
+- olay | OLAYLAR_EK:1430-03-29:0 | d: Türkçe yer adı
+- olay | OLAYLAR_EK:1456-06-04:0 | d: Yunan şehirleri Türkçe adla
+- olay | OLAYLAR_EK:1461-06-01:0 | d: Türkçe yer adları
+- olay | OLAYLAR_EK:1468-01-01:0 | d: Türkçe yer adları
+- olay | OLAYLAR_EK:1479-01-25:0 | d: Yunan adaları Türkçe adla
+- olay | OLAYLAR_EK:1526-09-01:0 | d: anlam tersine: anahtarları Osmanlı ordusu sunmuş gibi
+- olay | OLAYLAR_EK:1551-08-15:0 | d: Latin harfli yer adı
+- olay | OLAYLAR_EK:1574-08-25:0 | d: Türkçe yer adları
+- olay | OLAYLAR_EK:1717-08-18:0 | d: Türkçe yer adı
+- olay | OLAYLAR_EK:1788-12-17:0 | d: Yunancada yanlış deyim aktarımı
+- olay | OLAYLAR_EK:1812-05-28:0 | d: Türkçe/Latin harfli yer adları
+- olay | OLAYLAR_EK:1878-06-04:0 | d: Kıbrıs yerleri Türkçe adla
+- olay | OLAYLAR_EK:1881-07-02:0 | d: Yunan şehirleri Türkçe adla
+- olay | OLAYLAR_EK:1885-09-18:0 | d: Türkçe yer adları
+- olay | OLAYLAR_EK:1898-12-22:0 | d: Girit şehirleri Türkçe adla
+- olay | OLAYLAR_EK:1908-10-05:0 | d: Türkçe yer adları
+- olay | OLAYLAR_EK:1913-07-21:0 | d: Türkçe yer adları
+- olay | OLAYLAR_EK:1917-03-11:0 | d: Türkçe yer adı
+- olay | OLAYLAR_EK:1917-12-09:0 | d: bozuk anlatım
+- olay | OLAYLAR_EK:1918-10-01:0 | d: Latin harfli yer adları
+- olay | OLAYLAR_EK:1366-08-01:0 | b: dilbilgisi hatası
+- olay | OLAYLAR_EK:1366-08-01:0 | d: Bizans yer adı Türkçe kalmış
+- olay | OLAYLAR_EK:1376-09-01:0 | d: Bizans yer adı Türkçe kalmış
+- olay | OLAYLAR_EK:1373-05-01:0 | d: çoğul: ikisi kendi babalarına isyan etti
+- olay | OLAYLAR_EK:1388-08-27:0 | b: 'Bileća'nın yenilgisi' anlamı veriyor
+- olay | OLAYLAR_EK:1403-06-01:0 | d: yanlış yer adı: Ahtapolu = Αγαθούπολη (Αγχίαλος değil)
+- olay | OLAYLAR_EK:1416-05-29:0 | d: bozuk anlatım
+- olay | OLAYLAR_EK:1429-01-01:0 | d: Türkçe yer adı
+- olay | OLAYLAR_EK:1443-11-24:0 | b: genitif 'Zlatitsa'nın yenilgisi' anlamı veriyor; cinsiyet
+- olay | OLAYLAR_EK:1478-01-15:0 | d: sözcük/cinsiyet
+- olay | OLAYLAR_EK2:1884-01-01:0 | d: kolcu = muhafız (gümrük komisyoncusu değil); Latin harfli ad
+- olay | OLAYLAR_EK2:1557-10-16:0 | d: bozuk cümle (yüklemsiz parça)
+- olay | OLAYLAR_EK2:1851-01-01:0 | d: genitif vurgusu
+- olay | OLAYLAR_EK2:1472-01-01:0 | b: özel ad hatalı çevriyazılmış (Kuşçu)
+- olay | OLAYLAR_EK2:1472-01-01:0 | d: özel ad hatalı çevriyazılmış (Kuşçu)
+- olay | OLAYLAR_EK2:1459-03-07:0 | d: Türkçe yazımlı yer adı
+- olay | OLAYLAR_EK2:1703-08-22:0 | d: esnaf = zanaatkâr/lonca, tüccar değil
+- olay | OLAYLAR_EK2:1876-05-30:0 | d: bozuk anlatım
+- olay | OLAYLAR_EK2:1908-09-01:0 | d: anlam: yolculuk süresi
+- olay | OLAYLAR_EK2:1603-10-21:0 | d: Türkçe yer adları
+- olay | OLAYLAR_EK3:1403-02-01:0 | d: yanlış yer adı: Ahtapolu = Αγαθούπολη (Αγχίαλος değil); Türkçe kalıntı
+- olay | OLAYLAR_EK3:1410-05-06:0 | b: bozuk anlatım
+- olay | OLAYLAR_EK3:1410-06-15:0 | d: Türkçe/Latin yer adları
+- olay | OLAYLAR_EK3:1683-01-01:0 | d: ağır hata: İstolni Belgrad (Székesfehérvár) Belgrad diye çevrilmiş
+- olay | OLAYLAR_EK3:1683-07-14:0 | b: yanlış sözdizimi (Viyana II değil, II. kuşatma)
+- olay | OLAYLAR_EK3:1683-10-09:0 | b: genitif yanlış anlam veriyor
+- olay | OLAYLAR_EK3:1684-03-05:0 | d: sözcük seçimi hatası (papalık)
+- olay | OLAYLAR_EK3:1686-09-02:0 | d: Türkçe yer adı
+- olay | OLAYLAR_EK3:1687-08-12:0 | b: genitif yanlış anlam veriyor
+- olay | OLAYLAR_EK3:1687-09-26:0 | d: cephanelik = barut/mühimmat deposu
+- olay | OLAYLAR_EK3:1691-08-19:0 | b: genitif yanlış anlam veriyor
+- olay | OLAYLAR_EK3:1697-09-11:0 | b: genitif yanlış anlam veriyor
+- olay | OLAYLAR_EK3:1697-09-11:0 | d: bozuk ifade
+- olay | OLAYLAR_EK4:1803-05-01:0 | d: Türkçe yer adı
+- olay | OLAYLAR_EK4:1805-05:0 | d: esnaf = zanaatkâr lonca (tüccar değil)
+- olay | OLAYLAR_EK4:1805-07-03:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK4:1807-04-21:0 | b: genitif yanlış anlam veriyor
+- olay | OLAYLAR_EK4:1812-12-03:0 | d: bozuk anlatım
+- olay | OLAYLAR_EK4:1813-01-23:0 | d: cinsiyet hataları; Türkçe kalıntı
+- olay | OLAYLAR_EK4:1815-01-20:0 | d: Türkçe yer adları
+- olay | OLAYLAR_EK4:1818-09-09:0 | d: Türkçe yer adı
+- olay | OLAYLAR_EK4:1821-06-14:0 | d: Latin harfli yer adı
+- olay | OLAYLAR_EK4:1822-10-24:0 | d: özne karışıklığı: kalan İsmail Paşa
+- olay | OLAYLAR_EK4:1824-07-19:0 | d: bozuk cümle
+- olay | OLAYLAR_EK4:1828-10-05:0 | d: Yunan şehirleri Türkçe adla
+- olay | OLAYLAR_EK4:1830-11-01:0 | d: Yunan şehri Türkçe adla
+- olay | OLAYLAR_EK4:1831-10-31:0 | d: imla (την ξυλεία)
+- olay | OLAYLAR_EK4:1832-05-27:0 | d: topçu bataryası = πυροβολαρχία
+- olay | OLAYLAR_EK4:1832-07-29:0 | d: yanlış genitif
+- olay | OLAYLAR_EK4:1834-08-01:0 | b: yanlış genitif
+- olay | OLAYLAR_EK4:1832-11-21:0 | d: Latin harfli yer adı
+- olay | OLAYLAR_EK4:1833-02-20:0 | d: cinsiyet/dilbilgisi
+- olay | OLAYLAR_EK4:1840-11-03:0 | d: cephanelik = barut deposu
+- olay | OLAYLAR_EK4:1841-02-25:0 | d: Türkçe yer adları
+- olay | OLAYLAR_EK5:1381-04-01:0 | d: 'bir süre' kısa diye çevrilmiş
+- olay | OLAYLAR_EK5:1281-01-01:0 | d: cinsiyet (ο βοσκότοπος)
+- olay | OLAYLAR_EK5:1285-01-01:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1299-01-01:0 | d: bozuk ifade; Türkçe yer adı
+- olay | OLAYLAR_EK5:1345-01-01:0 | d: Türkçe yer adı
+- olay | OLAYLAR_EK5:1399-11-01:0 | b: dilbilgisi hatası
+- olay | OLAYLAR_EK5:1400-08-01:0 | d: bozuk anlatım
+- olay | OLAYLAR_EK5:1402-09-15:0 | d: yanlış anlam: Anadolu Türk birliği 'doğu' diye çevrilmiş; Türkçe yer adları
+- olay | OLAYLAR_EK5:1404-03-01:0 | d: Türkçe yer adları; Çandarlı yazımı
+- olay | OLAYLAR_EK5:1412-10-01:0 | d: cinsiyet uyumu
+- olay | OLAYLAR_EK5:1415-06-01:0 | d: sancak beyliği ataması; eksik tonos
+- olay | OLAYLAR_EK5:1419-01-28:0 | b: cinsiyet (η Καισάρεια)
+- olay | OLAYLAR_EK5:1419-01-28:0 | d: cinsiyet (η Καισάρεια)
+- olay | OLAYLAR_EK5:1435-01-01:0 | b: cinsiyet (η Καισάρεια)
+- olay | OLAYLAR_EK5:1435-01-01:0 | d: cinsiyet (η Καισάρεια)
+- olay | OLAYLAR_EK5:1419-01-01:0 | d: cinsiyet (η Καισάρεια)
+- olay | OLAYLAR_EK5:1458-05-01:0 | d: cinsiyet (το στόμιο)
+- olay | OLAYLAR_EK5:1516-09-26:0 | d: yanlış sözcük (κινητικός)
+- olay | OLAYLAR_EK5:1398-07-15:0 | d: cinsiyet; Türkçe yer adları
+- olay | OLAYLAR_EK5:1516-08-24:0 | d: dilbilgisi; Türkçe yer adları
+- olay | OLAYLAR_EK5:1324-01-01:0 | d: var olmayan sözcük biçimi
+- olay | OLAYLAR_EK5:1354-03-02:0 | d: bozuk cümle; Çimpe yazımı; Savoy genitifi; Latin harfli ad
+- olay | OLAYLAR_EK5:1393-06-01:0 | d: Türkçe/Latin kalıntı
+- olay | OLAYLAR_EK5:1455-01-01:0 | d: cinsiyet (το στόμιο)
+- olay | OLAYLAR_EK5:1468-01-17:0 | d: genitif yanlış anlam
+- olay | OLAYLAR_EK5:1475-01-10:0 | b: genitif/cinsiyet
+- olay | OLAYLAR_EK5:1476-07-26:0 | d: genitif/cinsiyet
+- olay | OLAYLAR_EK5:1482-07-29:0 | d: çatı hatası
+- olay | OLAYLAR_EK5:1492-08-01:0 | b: bozuk sözdizimi
+- olay | OLAYLAR_EK5:1495-02-25:0 | b: ağır hata: '14 yaşındaki rehine' anlamı veriyor
+- olay | OLAYLAR_EK5:1516-05-01:0 | d: bozuk ifade; Türkçe yer adları
+- olay | OLAYLAR_EK5:1516-07-30:0 | b: bozuk sözdizimi
+- olay | OLAYLAR_EK5:1516-08-28:0 | d: Türkçe yer adları
+- olay | OLAYLAR_EK5:1516-08-29:0 | b: sıra sayısı yeri
+- olay | OLAYLAR_EK5:1516-08-29:0 | d: sıra sayısı yeri
+- olay | OLAYLAR_EK5:1516-09-27:0 | d: Türkçe yer adı
+- olay | OLAYLAR_EK5:1517-01-24:1 | d: çatı hatası
+- olay | OLAYLAR_EK5:1517-01-27:0 | d: dilbilgisi
+- olay | OLAYLAR_EK5:1517-05-19:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1517-07-06:0 | d: bozuk ifade; Türkçe yer adı; tutarsız yazım
+- olay | OLAYLAR_EK5:1517-07-12:0 | d: Türkçe yer adları
+- olay | OLAYLAR_EK5:1517-08-28:0 | d: kalyata = galiot, kalyon değil
+- olay | OLAYLAR_EK5:1517-09-10:0 | d: sıra sayısı yeri
+- olay | OLAYLAR_EK5:1517-09-11:0 | b: rivayet 'teslim' gibi okunuyor
+- olay | OLAYLAR_EK5:1514-09-06:0 | d: dilbilgisi
+- olay | OLAYLAR_EK5:1519-09-01:0 | d: Türkçe yer adları
+- olay | OLAYLAR_EK5:1524-01-01:0 | d: cinsiyet hatası
+- olay | OLAYLAR_EK5:1529-09-08:0 | d: aynı metinde tutarsız özel ad
+- olay | OLAYLAR_EK5:1529-09-08:0 | b: tutarsız özel ad
+- olay | OLAYLAR_EK5:1535-07-21:0 | b: bozuk sözdizimi
+- olay | OLAYLAR_EK5:1536-03-15:0 | d: imla (στην)
+- olay | OLAYLAR_EK5:1538-09-01:0 | d: cinsiyet (η Σουτσεάβα)
+- olay | OLAYLAR_EK5:1574-12-22:0 | d: imla ve zaman
+- olay | OLAYLAR_EK5:1578-08-04:0 | d: eksik fiil
+- olay | OLAYLAR_EK5:1595-01-17:0 | d: yerleşik ad: Brăila = Βραΐλα
+- olay | OLAYLAR_EK5:1596-10-12:0 | d: yanlış anlam (moral onarıldı)
+- olay | OLAYLAR_EK5:1598-03-29:0 | d: dilbilgisi (geçişsiz fiil); tonos
+- olay | OLAYLAR_EK5:1605-10-03:0 | d: yerleşik ad (Πέστη)
+- olay | OLAYLAR_EK5:1612-07-06:0 | d: yanlış devlet adı
+- olay | OLAYLAR_EK5:1621-10-09:0 | d: anlam: tahkimli ordugâh aşılamadı
+- olay | OLAYLAR_EK5:1638-12-24:0 | d: özel ad yanlış (Tayyar)
+- olay | OLAYLAR_EK5:1660-08-27:0 | d: Latin harfli ad
+- olay | OLAYLAR_EK5:1664-08-01:0 | d: çatı hatası
+- olay | OLAYLAR_EK5:1664-08-09:0 | d: imla (στην)
+- olay | OLAYLAR_EK5:1678-08-21:0 | d: dilbilgisi
+- olay | OLAYLAR_EK5:1682-09-16:0 | d: sıra sayısı yeri
+- olay | OLAYLAR_EK5:1688-10-20:0 | b: anlam belirsizliği: püskürten Venedik gibi okunuyor
+- olay | OLAYLAR_EK5:1691-06-23:0 | d: bozuk bağlaç
+- olay | OLAYLAR_EK5:1705-07-12:0 | d: tonos
+- olay | OLAYLAR_EK5:1708-04-04:0 | d: cinsiyet/fiil
+- olay | OLAYLAR_EK5:1713-06-24:0 | d: Roma rakamı; Latin harfli ad
+- olay | OLAYLAR_EK5:1716-04-13:0 | d: bozuk sözdizimi, anlam karışık
+- olay | OLAYLAR_EK5:1716-11-16:0 | d: Latin harfli yer adı
+- olay | OLAYLAR_EK5:1725-07-28:0 | d: çift tonos
+- olay | OLAYLAR_EK5:1733-05-01:0 | d: hesap = aritmetik
+- olay | OLAYLAR_EK5:1737-07-11:0 | d: cephanelik = barut deposu
+- olay | OLAYLAR_EK5:1744-01-01:0 | d: genitif vurgusu
+- olay | OLAYLAR_EK5:1754-12-13:0 | d: anlam tersine: topraklar antlaşmayla geri alındı, antlaşmayla kaybedilmedi
+- olay | OLAYLAR_EK5:1774-06-25:0 | d: yer adı biçimi (η Σούμλα)
+- olay | OLAYLAR_EK5:1779-03-21:0 | d: bozuk anlatım
+- olay | OLAYLAR_EK5:1790-12-22:0 | d: yanlış deyim; fiil biçimi
+- olay | OLAYLAR_EK5:1792-01-10:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1799-05-20:0 | d: özne-fiil uyumu
+- olay | OLAYLAR_EK5:1803-02-01:0 | d: Yanlış sayı kalıbı: 'iki buçuk ay' = δυόμισι μήνες
+- olay | OLAYLAR_EK5:1803-04-30:0 | d: Yanlış sayı kalıbı
+- olay | OLAYLAR_EK5:1811-10-14:0 | d: Fiil çekimi hatası (λιώσε -> έλιωσε)
+- olay | OLAYLAR_EK5:1824-06-01:0 | d: Türkçe kalıntı (yer adı)
+- olay | OLAYLAR_EK5:1851-02-11:0 | d: Özne uyumsuzluğu (köşe taşı sayılan kurum)
+- olay | OLAYLAR_EK5:1856-06-07:0 | d: İmla (τη -> την)
+- olay | OLAYLAR_EK5:1867-06-08:0 | d: İmla (τελικό ν)
+- olay | OLAYLAR_EK5:1871-04-20:0 | b: Yanlış yer adı (Necid = Νετζντ; öteki maddelerle tutarlı)
+- olay | OLAYLAR_EK5:1871-04-20:0 | d: Yanlış yer adı
+- olay | OLAYLAR_EK5:1871-09-20:0 | d: Yanlış yer adı
+- olay | OLAYLAR_EK5:1872-04-01:0 | d: Çevrilmemiş Türkçe terim ve yer adları
+- olay | OLAYLAR_EK5:1876-08-31:0 | d: Bozuk sayı (93 gün)
+- olay | OLAYLAR_EK5:1877-12-10:0 | d: Gereksiz Türkçe kalıntı
+- olay | OLAYLAR_EK5:1878-01-04:0 | d: Bozuk cümle, anlam kaybı
+- olay | OLAYLAR_EK5:1878-01-31:0 | d: Dilbilgisi: hâl ve vurgu
+- olay | OLAYLAR_EK5:1884-02-01:0 | d: Özel ad Latin harfle kalmış
+- olay | OLAYLAR_EK5:1884-05-08:0 | b: Cins uyumu (το Ταΐφ)
+- olay | OLAYLAR_EK5:1884-05-08:0 | d: Cins uyumu; çevrilmemiş hastalık adı
