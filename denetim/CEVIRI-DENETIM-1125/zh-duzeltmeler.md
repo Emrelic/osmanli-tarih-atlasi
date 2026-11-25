@@ -1,0 +1,434 @@
+- arayuz | # (Germiyan çeyizinden birkaç ay sonra) | m: Germiyan bir Anadolu beyliğidir; 'Germen' diye çevrilmiş
+- arayuz | # Ağustos # (Ateş: # Ağustos'ta Osmanlı müfrezesi çekildi) | m: Ateş yazar soyadıdır, 'ateş/yangın' diye çevrilmiş
+- arayuz | # (yalnız yıl teyitli; gün teyitsiz) | m: yarım genişlik noktalama; kardeş kalıplarla uyum
+- arayuz | # (yaz; yalnız yıl teyitli, gün teyitsiz) | m: fazla boşluk
+- arayuz | # (hicrî #; yalnız yıl teyitli, gün teyitsiz) | m: fazla boşluk ve eksik '年'
+- arayuz | # Aralık # (# Zilkade #) | m: bozuk tarih kalıbı: gün/yıl işaretleri ve 'hicrî' eksik
+- arayuz | # Aralık # (Duşan'ın ölüm günü) | m: bozuk tarih kalıbı; 忌日 yıldönümü demektir
+- arayuz | # Ekim # (TDV 'beyrut': Fransız kuvvetlerinin bölgeyi işgali). Bazı kaynaklar karaya çıkışı # Ekim verir. Trablusşam 'Ekim #' (TDV, gün yok). | m: bozuk tarih kalıbı ve noktalama
+- arayuz | # Eylül # (# Rebîülevvel #) | m: bozuk tarih kalıbı; ay adı diğer kayıtlardan farklı
+- arayuz | # Eylül # (I. Lothar'ın ölümü; tahttan feragat # Eylül) | m: bozuk tarih kalıbı
+- arayuz | # Haziran # (Savoya'nın Chambéry'de, Nice kontluğunun Nice'te resmen teslimi). Torino Antlaşması # Mart; plebisitler Nice #-# Nisan, Savoya #-# Nisan #. | m: bozuk tarih kalıbı
+- arayuz | # Receb # / # Mayıs # | m: bozuk tarih kalıbı
+- arayuz | # Ocak # (imzalar # Ocak-# Mart arası şeyhlik şeyhlik tamamlandı) | m: 'şeyhlik şeyhlik' = şeyhlik şeyhlik tek tek; anlam yanlış
+- arayuz | # [hicrî # ∩ # ilk günü, # Mart #; yalnız yıl teyitli, gün teyitsiz] | m: bozuk tarih kalıbı
+- arayuz | # yıllarına doğru [tahmin; yalnız yıl; gün teyitsiz] | m: fazla boşluk, noktalama
+- arayuz | # Şubat # (Gregoryen) | m: bozuk tarih kalıbı
+- arayuz | # Şubat # [dolaylı tanık: «nakon #. veljače»] | m: bozuk tarih kalıbı
+- arayuz | #, # Ajaw # Pax (December #, #) | m: İngilizce kalıntı
+- arayuz | #, # Ajaw # Sotz' (May #, #) | m: İngilizce kalıntı
+- arayuz | Kasım # (ay hassasiyeti) | m: yıl işareti yanlış yerde; kardeş kalıplarla uyum
+- arayuz | Mayıs # başı [yalnız ay teyitli; gün teyitsiz] | m: bozuk tarih sırası
+- arayuz | Bu düğme araç menüsünü açar. Menü dört gruptur; şimdi menüyü açıp her grubu tek tek tanıyalım. | m: yarım genişlik noktalama
+- arayuz | Butonlar: Gezinti | m: yarım genişlik noktalama
+- arayuz | Butonlar: Harita gösterimi | m: yarım genişlik noktalama
+- arayuz | Butonlar: Keşfet | m: yarım genişlik noktalama
+- arayuz | Butonlar: Topluluk ve bilgi | m: yarım genişlik noktalama
+- arayuz | Dayanak niteliğinde akademik kaynağa dayanıyor. | m: bozuk anlatım (依据…依据)
+- arayuz | Haritada neyin görüneceğini buradan seçersiniz. Kutucuklarla açılıp kapatılır, birden çoğu seçilebilir. | m: yarım genişlik noktalama
+- arayuz | Kahvehane: tarih forumu. | m: yarım genişlik noktalama
+- arayuz | Kişi, savaş, antlaşma, devlet, şehir, yüzyıl ve kaynak dizinleri; birine tıklayınca o güne ve yere gidilir. | m: yarım genişlik noktalama
+- arayuz | Kısa bir turla ekrandaki her parçayı tanıtalım. İleri düğmesine dokunarak ilerleyin; istediğiniz an Geç diyebilirsiniz. | m: yarım genişlik noktalama; düğme adı arayüzdeki 'İleri'=前进 ile uyumlu
+- arayuz | Renkli alanlar o gündeki devletlerdir; bir yere dokununca orası hakkında bilgi açılır. Tarih değiştikçe sınırlar kendiliğinden yeniden çizilir. | m: yarım genişlik noktalama
+- arayuz | Seçili günün siyasî haritası; üst çubukta o anki tarih ve Butonlar menüsü durur. | m: yarım genişlik noktalama
+- arayuz | Oynatmanın olaydan olaya mı, sene sene mi akacağını ve hızını seçer. | m: yarım genişlik noktalama
+- arayuz | Parmağınızla sürükleyerek kaydırın, iki parmağınızla yakınlaşın. | m: yarım genişlik noktalama
+- arayuz | Sınırların antlaşmaya göre mi (Hukukî), fiilî duruma göre mi (Hukukî + fiilî) çizileceğini seçer. | m: yarım genişlik noktalama
+- arayuz | Telefonda ekran üç parçadır: | m: yarım genişlik noktalama
+- arayuz | Sonbahar # [yalnız yıl teyitli; gün teyitsiz] | m: noktalama ve kardeş kalıpla uyum
+- arayuz | c. # [yalnız yıl teyitli; gün teyitsiz] | m: fazla boşluk ve noktalama
+- arayuz | ve komşuları) | m: yarım genişlik ayraç
+- arayuz | Şâban # (Şubat #) | m: bozuk tarih kalıbı; 'hicrî' eksik
+- arayuz | Şubat # (ay hassasiyeti; geçiş günü kaynakta yok) | m: bozuk tarih kalıbı ve noktalama
+- arayuz | MÖ # (# Ekim; Livius) | m: MÖ Yakındoğu tarihlerindeki 'Livius' livius.org sitesidir; Romalı tarihçi Titus Livius (李维) değil
+- arayuz | MÖ # (# veya # Mayıs; Livius # Mayıs) | m: livius.org, 李维 değil
+- arayuz | MÖ # (Livius: #/#) | m: livius.org, 李维 değil
+- arayuz | MÖ # (Livius: ~#; Herodotos geleneği) | m: livius.org, 李维 değil
+- arayuz | MÖ # (Livius; alternatif MÖ #) | m: livius.org, 李维 değil
+- arayuz | MÖ # (Nisan-Mayıs #; Livius saltanatı #'ten sayar) | m: livius.org, 李维 değil
+- arayuz | MÖ # (Ocak sonu; Livius # Ocak — tek gün kaynağı) | m: livius.org, 李维 değil
+- arayuz | MÖ # (Temmuz; Livius c. # Temmuz — tek gün kaynağı) | m: livius.org, 李维 değil
+- arayuz | MÖ # (Tevrat geleneği; Livius 'yaklaşık #-#') | m: livius.org, 李维 değil
+- arayuz | MÖ # (yaklaşık; Livius: Gyges #'te öldü) | m: livius.org, 李维 değil
+- arayuz | MÖ # (yıl) | m: fazla boşluk
+- devlet | turkmen | m: Teke boyu '捷克' (Çek) olmuş; Eymir '埃米尔' (emîr) ile karışıyor
+- devlet | usfuri | m: Türkçe transliterasyon kalıntısı
+- devlet | cebri | m: Türkçe transliterasyon kalıntısı
+- devlet | sutayogullari | m: '-oğulları' eki ada katılıp harfle çevrilmiş, Türkçe kalıntı
+- devlet | kalikut | m: devlet adı eksik (unvan olarak kalmış)
+- devlet | guria-prensligi | m: Güryel adı yanlış yazılmış, Latin kalıntı
+- devlet | dongxia | m: yineleme
+- devlet | ahlatsahlar | m: Şâh-i Ermen = Ermeni şahı; ad ters çevrilmiş
+- devlet | ingiliz-togoland | m: Mandat=委任统治, Vesayet=托管
+- devlet | fransiz-togo | m: Mandat=委任统治, Vesayet=托管
+- devlet | ingiliz-kamerun | m: Mandat=委任统治, Vesayet=托管
+- devlet | federe-olmayan-malay-devletleri | m: yerleşik Çince ad 马来属邦
+- devlet | yugoslavya-federal | m: FHC Türkçe kısaltma kalıntısı
+- devlet | kibris-turk-federe-devleti | m: yerleşik ad sırası (KKTC kaydıyla uyumlu)
+- devlet | birlesik-arap-devletleri | m: 阿联 bugün BAE anlamına gelir; BAC=Birleşik Arap Cumhuriyeti
+- devlet | cobaniler | m: Türkçe transliterasyon kalıntısı
+- devlet | turk-misir-sudani | m: Türkçe kalıntı
+- devlet | fezzan | m: Evlâd Muhammed hanedan adıdır, 'Muhammed'in oğlu' diye çevrilmiş
+- devlet | vizigot | m: Türkçe kalıntı
+- devlet | roma-imp | m: 'birleşik' = bölünmemiş/统一
+- devlet | mayapan-birligi | m: yineleme
+- devlet | arap-birligi-irak-urdun | m: 阿拉伯联盟 Arap Ligi'dir; 1958 Irak-Ürdün birliği 阿拉伯联邦
+- devlet | suriye-cumhuriyeti-1946 | m: 阿联 bugün BAE demektir; BAC = Birleşik Arap Cumhuriyeti
+- devlet | atsiz-beyligi | m: Atsız adı 'Aziz' diye yanlış çevrilmiş
+- devlet | hou-liang-xi-liang | m: aynı adın geleneksel yazıyla yinelenmesi
+- devlet | sui-zheng-wang-shichong | m: geleneksel yazıyla yineleme
+- devlet | sui-wei-li-mi | m: yineleme
+- devlet | sui-qin-xue-ju | m: yineleme
+- devlet | sui-liang-xiao-xian | m: yineleme
+- devlet | sui-liang-liang-shidu | m: yineleme
+- devlet | sui-xia-dou-jiande | m: yineleme
+- devlet | qi-li-maozhen | m: yineleme
+- devlet | zhao-wang-rong | m: geleneksel yazıyla yineleme
+- devlet | yan-liu-shouguang | m: yineleme
+- devlet | da-chu-zhang-bangchang | m: yineleme
+- devlet | da-qi-liu-yu | m: geleneksel yazıyla yineleme
+- devlet | hunan-wuping-rejimi | m: geleneksel yazıyla yineleme
+- devlet | weiwu-li-rengda | m: geleneksel yazıyla yineleme
+- devlet | baekje-restorasyon | m: yineleme
+- devlet | masakado-shinno | m: 'Yeni İmparatorluk' atlanıp unvan yinelenmiş
+- devlet | deseret | m: Deseret, Utah diye çevrilmiş
+- olay | OLAYLAR_EK5:1716-10-13:0 | d: 'vire ile teslim' = şartlı teslim; 'patlayıcıyla' diye yanlış çevrilmiş; Kanûnî = 苏莱曼大帝
+- olay | OLAYLAR_EK5:1688-06-22:0 | d: Jenő bir kale adıdır, Eugène değil; yarım genişlik noktalama
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1243-07-01:0 | d: hükümdar sıra sayısı yanlış yerde
+- olay | OLAYLAR_LAB19_2S_P2:1200-05-13:0 | b: yarım genişlik noktalama
+- olay | OLAYLAR_LAB19_2S_P2:1200-05-13:0 | d: Türkçe transliterasyon kalıntısı ve yarım genişlik noktalama
+- olay | OLAYLAR_LAB19_2S_P4:1833-07-28:0 | b: Türkçe transliterasyon kalıntısı, noktalama
+- olay | OLAYLAR_LAB19_2S_P4:1833-07-28:0 | d: Türkçe kalıntı ve yarım genişlik noktalama
+- olay | OLAYLAR:1299-01:0 | d: Söğüt'ün yerleşik biçimi 苏于特 (arayüz ve listelerle tutarlı)
+- olay | OLAYLAR:1413-07-05:0 | d: yarım genişlik noktalama; yer adları ve Rumeli yazımı diğer kayıtlarla tutarsız
+- olay | OLAYLAR:1914-11-01:0 | d: gemiler İngiltere'den (ülkeden) değil İngiliz takibinden kaçtı
+- olay | OLAYLAR:1916-06-10:0 | d: bozuk anlatım
+- olay | OLAYLAR_EK:1324-01-01:0 | b: yarım genişlik ayraç
+- olay | OLAYLAR_EK:1324-01-01:0 | d: yarım genişlik noktalama
+- olay | OLAYLAR_EK:1334-01-01:0 | b: yarım genişlik ayraç
+- olay | OLAYLAR_EK:1334-01-01:0 | d: yarım genişlik noktalama
+- olay | OLAYLAR_EK:1372-06-01:0 | d: yarım genişlik noktalama; Çirmen/Tatarpazarcığı/Sofya adları diğer kayıtlarla tutarsız
+- olay | OLAYLAR_EK:1383-09-19:0 | d: yarım genişlik noktalama; yer adı tutarlılığı
+- olay | OLAYLAR_EK:1387-04-09:0 | d: yarım genişlik noktalama
+- olay | OLAYLAR_EK:1381-06-01:0 | b: yarım genişlik noktalama
+- olay | OLAYLAR_EK:1381-06-01:0 | d: yarım genişlik noktalama; Yıldırım yarım transliterasyon
+- olay | OLAYLAR_EK:1392-11-01:0 | d: yarım genişlik noktalama; Bartın adı tutarlılığı
+- olay | OLAYLAR_EK:1393-06-17:0 | d: yarım genişlik noktalama
+- olay | OLAYLAR_EK:1393-09-01:0 | d: yarım genişlik noktalama
+- olay | OLAYLAR_EK:1461-06-01:0 | d: anlam yanlış (teslim eden Candaroğlu'dur); yarım genişlik noktalama
+- olay | OLAYLAR_EK:1526-12-17:0 | d: TR: kız kardeşinin evliliği; çeviride 'karısının' yazılmış
+- olay | OLAYLAR_EK:1829-09-14:0 | d: yarım genişlik noktalama; 'rehin' toprak için 抵押
+- olay | OLAYLAR_EK:1917-03-11:0 | d: yarım genişlik noktalama
+- olay | OLAYLAR_EK:1403-06-01:0 | d: Misivri = Nesebar; Midye (米迪亚) ile karıştırılmış
+- olay | OLAYLAR_EK2:1453-06-01:0 | d: 'devşirme kökenli' yanlış ve bozuk
+- olay | OLAYLAR_EK2:1477-01-01:0 | d: kardeş katli yalnız ağabey öldürme (弑兄) değildir
+- olay | OLAYLAR_EK3:1403-02-01:0 | b: Misivri = Nesebar; Midye ile karıştırılmış
+- olay | OLAYLAR_EK3:1403-02-01:0 | d: Misivri = Nesebar; Midye ile karıştırılmış
+- olay | OLAYLAR_EK3:1410-06-15:0 | d: yarım genişlik noktalama; Rumeli yazımı tutarsız
+- olay | OLAYLAR_EK3:1683-01-01:0 | d: İstolni Belgrad = Székesfehérvár, Belgrad değil; Giray soyadı 格来
+- olay | OLAYLAR_EK3:1690-10-01:0 | d: ay adı atlanmış
+- olay | OLAYLAR_EK4:1813-05-02:0 | d: 'son olarak' = en son olarak; 'son kez' diye çevrilmiş
+- olay | OLAYLAR_EK4:1839-07-14:0 | b: İskenderiye şehri; mevcut hâli 'filo İskender'e verildi' diye okunuyor
+- olay | OLAYLAR_EK5:1281-01-01:0 | b: Söğüt adı diğer kayıtlarla tutarsız (苏于特)
+- olay | OLAYLAR_EK5:1281-01-01:0 | d: Söğüt adı tutarsız; yurtluk transliterasyonu yanlış (耶尔鲁克)
+- olay | OLAYLAR_EK5:1402-09-15:0 | b: terim tutarlılığı (beylik = 侯国)
+- olay | OLAYLAR_EK5:1402-09-15:0 | d: yarım genişlik noktalama; yer/hanedan adları tutarsız
+- olay | OLAYLAR_EK5:1404-03-01:0 | b: yarım genişlik noktalama
+- olay | OLAYLAR_EK5:1404-03-01:0 | d: yarım genişlik noktalama; yer adları tutarsız
+- olay | OLAYLAR_EK5:1345-01-01:0 | d: Gölyazı adı tutarsız; 'sancağına tayin etti' yanlış çevrilmiş
+- olay | OLAYLAR_EK5:1415-06-01:0 | d: bozuk anlatım
+- olay | OLAYLAR_EK5:1416-01-01:0 | d: kişi adı diğer kayıtlarla tutarsız (谢赫布德雷丁)
+- olay | OLAYLAR_EK5:1449-01-01:0 | d: anlam tersine (zafere adını veren yer); Yanya adı tutarsız
+- olay | OLAYLAR_EK5:1381-03-28:0 | b: ad tutarsızlığı: devlet adı ve komşu madde 布尔汉丁
+- olay | OLAYLAR_EK5:1381-03-28:0 | d: ad tutarsızlığı: 布尔汉丁
+- olay | OLAYLAR_EK5:1352-01-01:0 | b: kapitülasyon 治外法权 (yargı dokunulmazlığı) değil, ticarî ayrıcalık
+- olay | OLAYLAR_EK5:1352-01-01:0 | d: kapitülasyon yanlış terimle (治外法权)
+- olay | OLAYLAR_EK5:1354-03-02:0 | d: Çimpe kalesi adı 'hayranlık' (钦佩) diye çevrilmiş; ilk cümle bozuk
+- olay | OLAYLAR_EK5:1393-06-01:0 | d: yarım genişlik noktalama; hükümdar adı metin geneliyle tutarsız
+- olay | OLAYLAR_EK5:1516-03-26:0 | d: bozuk cümle
+- olay | OLAYLAR_EK5:1517-07-06:0 | b: yarım genişlik noktalama
+- olay | OLAYLAR_EK5:1517-07-06:0 | d: yarım genişlik noktalama; padişah adı ve Ridaniye yazımı tutarsız
+- olay | OLAYLAR_EK5:1517-09-10:0 | d: Kal'atülcebel = Kahire Kalesi; 'dağ kalesi' anlaşılmaz
+- olay | OLAYLAR_EK5:1520-09-21:0 | d: hicrî Şevval ayı miladî 'Ekim' gibi okunuyor
+- olay | OLAYLAR_EK5:1553-02-01:0 | d: kapitülasyon yanlış terimle (治外法权)
+- olay | OLAYLAR_EK5:1716-10-13:0 | d: vire ile teslim = şartlı teslim; 'patlayıcıyla' diye yanlış çevrilmiş (TR'deki iç not tr_hatalari'ne yazıldı)
+- olay | OLAYLAR_EK5:1704-01-01:0 | d: bozuk cümle, anlam kayboluyor
+- olay | OLAYLAR_EK5:1733-05-01:0 | b: humbaracı = havan/humbara topçusu; Humbarahâne fabrika değil ocak kışlası/okulu
+- olay | OLAYLAR_EK5:1733-05-01:0 | d: Humbarahâne 'topçu fabrikası' değil; bozuk '炮弹炮'
+- olay | OLAYLAR_EK5:1736-09-01:0 | d: eksik 从; cümle bozuk
+- olay | OLAYLAR_EK5:1754-12-13:0 | d: TR: 58 yaşına kadar kafeste; çeviri 58 yıl kafeste diyor (TR yaşı için tr_hatalari)
+- olay | OLAYLAR_EK5:1802-06-25:0 | d: kapitülasyon yanlış terim
+- olay | OLAYLAR_EK5:1830-05-07:0 | d: oy sayıları ters okunuyor (27 ret, 18 kabul)
+- olay | OLAYLAR_EK5:1884-02-01:0 | d: bozuk cümle
+- olay | OLAYLAR_EK5:1884-05-08:0 | d: şîrpençe (şirpençe = karbonkül/痈) anlamsız harf çevirisiyle verilmiş
+- olay | OLAYLAR_EK5:1913-09-29:0 | d: uydurma yer adı 杜拉萨奇; TR yalnız Dedeağaç
+- olay | OLAYLAR_EK5:1914-09-09:0 | b: kapitülasyon yanlış terim
+- olay | OLAYLAR_EK5:1914-09-09:0 | d: kapitülasyon yanlış terim (adlî+malî+gümrük ayrıcalığı)
+- olay | OLAYLAR_EK5:1920-01-28:0 | d: başlıkla çelişen ad; kapitülasyon terimi
+- olay | OLAYLAR_EK5:1534-07-13:0 | d: Çaldıran yazımı tutarsız
+- olay | OLAYLAR_EK5:1544-09-01:0 | d: İstolni Belgrad = Székesfehérvár (塞克什白堡); Belgrad ile karışıyor
+- olay | OLAYLAR_EK5:1566-04-15:0 | d: bozuk cümle
+- olay | OLAYLAR_EK5:1718-07-21:0 | d: Nevşehirli = Nevşehirli (kişi sıfatı); 'Nevşehir'de' diye yanlış anlam
+- olay | OLAYLAR_EK5:1723-10-01:0 | b: Kirmanşah = 克尔曼沙赫; 'han' eklenmiş
+- olay | OLAYLAR_EK5:1723-10-01:0 | d: yanlış özel ad
+- olay | OLAYLAR_EK5:1724-08-31:0 | d: Osmanlı İsfahan'a hiç varmadı; en doğu nokta Hemedan hattı; ad 克尔曼沙汗→克尔曼沙赫
+- olay | OLAYLAR_EK5:1919-04-30:0 | d: şûra hükûmeti 'Sovyet hükûmeti' diye çevrilmiş
+- olay | OLAYLAR_EK5:1731-01-01:0 | d: 'boşaltılan' yanlış; '已让给…却攻占' çelişkili
+- olay | OLAYLAR_EK5:1688-06-22:0 | b: yarım genişlik parantez
+- olay | OLAYLAR_EK5:1688-06-22:0 | d: Jenő (yer adı) 'Eugene' diye çevrilmiş; yarım genişlik noktalama; Bánlaky yazımı tutarsız
+- olay | OLAYLAR_EK6:1730-08-12:0 | b: Kirmanşah = 克尔曼沙赫
+- olay | OLAYLAR_EK6:1730-08-12:0 | d: Kirmanşah yazımı
+- olay | OLAYLAR_EK6:1685-10-12:0 | d: Uyvar 'yeni kale' diye çevrilmiş; komşu maddelerde 乌伊瓦尔
+- olay | OLAYLAR_EK6:1770-09-27:0 | d: Özi = 奥奇夫; Turla = 德涅斯特河; eksik '条约依' ile bozuk cümle
+- olay | OLAYLAR_EK6:1913-03-26:0 | d: Şükrü Paşa 'Şevket' diye yanlış ad
+- olay | OLAYLAR_EK6:1920-05-27:0 | d: Dedeağaç uydurma yazımla (杜拉萨奇)
+- olay | OLAYLAR_EK7:1511-04-01:0 | b: ad tutarsızlığı: 沙赫库卢
+- olay | OLAYLAR_EK7:1511-04-01:0 | d: ad tutarsızlığı
+- olay | OLAYLAR_EK7:1513-04-24:0 | d: Selim, Ahmed'in küçük kardeşi; 'ağabey' diye yanlış
+- olay | OLAYLAR_EK7:1555-09-29:0 | d: Hürrem sultan kızı değil; 'iki sultanın kızları' yanlış anlam; bozuk cümle
+- olay | OLAYLAR_EK7:1580-01-01:0 | b: kapitülasyon yanlış terim
+- olay | OLAYLAR_EK7:1580-01-01:0 | d: kapitülasyon yanlış terim
+- olay | OLAYLAR_EK7:1807-05-29:0 | d: bozuk anlatım
+- olay | OLAYLAR_EK7:1862-06-27:0 | d: Şinasi ve Tercüman-ı Ahvâl adları 1860 maddesiyle tutarsız
+- olay | OLAYLAR_EK7:1877-02-05:0 | d: neyin ilanı olduğu belirsiz/kayıp
+- olay | OLAYLAR_EK7:1387-01-01:0 | d: yarım genişlik noktalama; Serbedârîler adı komşu maddeyle tutarsız
+- olay | OLAYLAR_EK8:1779-04-01:0 | d: Kerim Han = 凯里姆汗; '克里姆汗' Kırım Hanı gibi okunuyor
+- olay | OLAYLAR_EK8:1920-08-10:0 | d: kapitülasyon yanlış terim
+- olay | OLAYLAR_EK8:1924-01-01:0 | d: 'Hîve'nin doğusu' (hanlığın doğu kesimi) 'Hive'nin doğusunda kalan' diye yanlış (TR'deki iç not tr_hatalari'ne)
+- olay | OLAYLAR_EK9:1883-12-23:0 | d: özne kaymış: suçlayan askerler
+- olay | OLAYLAR_EK9:1798-07-21:0 | d: Kölemen/Memlûk yazımı metin geneliyle tutarsız
+- olay | OLAYLAR_EK9:1799-03-18:0 | d: en uç nokta (coğrafî) 'zirve' diye yanlış
+- olay | OLAYLAR_EK10:1484-08-04:0 | d: bozuk cümle; Özü = 奥奇夫(厄泽)
+- olay | OLAYLAR_EK10:1595-08-23:0 | b: Sinan = 锡南; '西南' güneybatı demek
+- olay | OLAYLAR_EK10:1595-08-23:0 | d: yanlış özel ad (锡南)
+- olay | OLAYLAR_EK10:1595-10-01:0 | d: yanlış özel ad; antlaşma adı tutarsız
+- olay | OLAYLAR_EK10:1877-06-27:0 | b: Ziştovi yazımı (锡斯托瓦) tutarsız/yanlış
+- olay | OLAYLAR_EK10:1877-06-27:0 | d: Ziştovi adı
+- olay | OLAYLAR_EK10:1788-04-24:0 | d: Ziştovi antlaşması adı
+- olay | OLAYLAR_EK10:1433-01-01:0 | b: Ürküp = Prokuplje; Üsküp (Üsküp/Skopje) ile karıştırılmış
+- olay | OLAYLAR_EK10:1433-01-01:0 | d: Ürküp = Prokuplje
+- olay | OLAYLAR_EK12:1913-08-31:0 | d: Dedeağaç uydurma yazımla
+- olay | OLAYLAR_EK13:1769-03-11:0 | d: eksik 在/面对; bozuk cümle
+- olay | OLAYLAR_EK13:1517-05-01:0 | d: ancak ... sonra = 'ancak ... sonra (nihayet)', '仅…才' çelişkili
+- olay | OLAYLAR_EK13:1362-03-01:0 | d: Çimpe 'hayranlık' (钦佩) diye çevrilmiş
+- olay | OLAYLAR_EK14:1598-09-01:0 | d: bozuk cümle
+- olay | OLAYLAR_EK14:1839-05-14:0 | b: ad 'Tıbbiyye-i Adliyye-i Şâhâne'; 'cerrahi' eklenmiş
+- olay | OLAYLAR_EK14:1839-05-14:0 | d: yanlış okul adı
+- olay | OLAYLAR_EK14:1830-12-01:0 | b: düzenli sayım = sistemli; 'periyodik' anlamı veriyordu
+- olay | OLAYLAR_EK14:1830-12-01:0 | d: düzenli = sistemli
+- olay | OLAYLAR_EK16:1703-05-27:0 | d: 双历日期语序错乱，27日失去历法归属
+- olay | OLAYLAR_EK16:1617-03-09:0 | b: 语法错误（“丧失…给”不成句）
+- olay | OLAYLAR_EK16:1654-10-03:0 | d: 语序错乱，句子不通
+- olay | OLAYLAR_EK16:1466-10-19:0 | d: 括号内重复同一译名
+- olay | OLAYLAR_EK16:1797-06-14:0 | d: asırlık 应为“数百年”而非“百年”；原句结构不通
+- olay | OLAYLAR_EK16:1307-01-01:0 | d: künye 被误译为“编年史”
+- olay | OLAYLAR_EK16:1945-01-28:0 | d: 缺被动标记，语句不通（并并入）
+- olay | OLAYLAR_EK17:1617-11-22:0 | d: Ocak-yeniçeri ve ulemâ 译文结构错乱；心理状况表述不通
+- olay | OLAYLAR_EK17:1638-12-24:0 | d: üçte bire indirdi=削减到三分之一，原译意思相反
+- olay | OLAYLAR_EK17:1687-08-01:0 | d: 语句不通：应为携印玺出逃
+- olay | OLAYLAR_EK20:1887-01-07:0 | d: Cîcîga=吉吉加，误译为泽拉(Zeila)；“红海以内”应为红海腹地
+- olay | OLAYLAR_EK17:1815-11-05:0 | d: “留给了英国保护”不通
+- olay | OLAYLAR_EK20:1870-09-20:0 | d: 句子缺主语衔接，读不通
+- olay | OLAYLAR_EK20:1720-09-02:0 | d: “建立意大利统一的国家”搭配错误
+- olay | OLAYLAR_EK21:1509-01-01:0 | d: “直到1607年一直是中心”误译为“1607年前成为”
+- olay | OLAYLAR_EK19:1789-07-14:0 | d: 语序错乱（“他得到的回答”“7月14日今天”）
+- olay | OLAYLAR_EK20:1648-10-24:0 | d: çatı 直译“顶棚”中文不通
+- olay | OLAYLAR_EK21:1811-04-01:0 | d: “渡过多瑙河南岸”语义错误
+- olay | OLAYLAR_SENKRON_0930:1556-03-12:0 | d: 句子结构错乱
+- olay | OLAYLAR_SENKRON_0930:1664-05-03:0 | d: bulunduğu hâlde bıraktığı 误译为“放弃”
+- olay | OLAYLAR_2S_0918:1809-10-14:0 | d: “直到1813年一直是”误译为“1813年前成为”
+- olay | OLAYLAR_2S_0919:1368-01-01:0 | b: Germiyan 译名统一为杰尔米扬
+- olay | OLAYLAR_2S_0919:1368-01-01:0 | d: Germiyan 译名统一为杰尔米扬
+- olay | OLAYLAR_2S_0919:1717-11-30:0 | d: sTag-rtse-pa 应为达孜巴，堆垅巴是另一名称
+- olay | OLAYLAR_2S_0919:1751-01-01:1 | d: “由…之名治理”语法错误；Irâk-ı Acem 与他处译名统一
+- olay | OLAYLAR_2S_0919:1890-01-01:0 | b: Colof=若洛夫王国(Jolof)，沃洛夫是民族名
+- olay | OLAYLAR_2S_0919:1890-01-01:0 | d: Colof=若洛夫王国(Jolof)
+- olay | OLAYLAR_AMERIKA0920:1539-01-09:0 | b: 城名误译，凭空多出“万卡”
+- olay | OLAYLAR_AMERIKA0920:1539-01-09:0 | d: 城名误译，凭空多出“万卡”
+- olay | OLAYLAR_2S0920:1913-05-14:0 | d: 主语错误（像是军团成为行政的一部分）
+- olay | OLAYLAR_MISIR1801:1801-05-14:0 | d: Sadrazam 应为大维齐尔
+- olay | OLAYLAR_SENUSI_0919:1554-04-07:0 | d: “立法者”单用指代不明
+- olay | OLAYLAR_SESSIZBORC0919:1525-04-08:0 | b: Cermen Tarikatı=条顿骑士团
+- olay | OLAYLAR_SESSIZBORC0919:1525-04-08:0 | d: Cermen Tarikatı=条顿骑士团
+- olay | OLAYLAR_P0049:1303-09-01:0 | d: Germiyan 译名统一为杰尔米扬
+- olay | OLAYLAR_P0049:1578-08-09:0 | d: “皈依穆斯林”搭配错误
+- olay | OLAYLAR_P0056:1810-06-10:0 | d: dayanan=顶住，原译意思颠倒（“依靠围攻”）；fırtınayla=强攻
+- olay | OLAYLAR_P0057:1919-06-28:0 | d: 句意易被读反
+- olay | OLAYLAR_SEHIR_ILK:1783-01-01:0 | d: “位置不利健康”语法错误
+- olay | OLAYLAR_SEHIR_ILK:1778-01-01:0 | d: 缺“条约”，易误解为地名/战役
+- olay | OLAYLAR_SEHIR_ILK:1777-01-01:0 | d: 缺“条约”
+- olay | OLAYLAR_ARKEOLOJI_PILOT:-4555-01-01:0 | d: Geç Bakır Çağı=铜石并用时代晚期，“晚铜器时代”会被理解为青铜时代晚期
+- olay | OLAYLAR_ARKEOLOJI_D3_AMERIKA_PASIFIK:-0499-01-01:0 | d: şeflik=酋邦；原句缺谓语
+- olay | OLAYLAR_ARKEOLOJI_D3_AMERIKA_PASIFIK:-1624-01-01:0 | d: şeflik=酋邦；原句缺谓语
+- olay | OLAYLAR_ARKEOLOJI_D3_ANADOLU_EGE:-1206-01-01:0 | d: 英文残留
+- olay | OLAYLAR_ARKEOLOJI_ZINCIR:-2153-01-01:0 | b: 同一政权名称与 -2111 条不一致
+- olay | OLAYLAR_ARKEOLOJI_ZINCIR:-2153-01-01:0 | d: 同一政权名称与 -2111 条不一致
+- olay | OLAYLAR_ARKEOLOJI_ZINCIR:-0322-06-10:0 | b: İskenderiye 城名误作人名“亚历山大”
+- olay | OLAYLAR_ARKEOLOJI_ZINCIR:-0322-06-10:0 | d: İskenderiye 城名误作人名“亚历山大”
+- olay | OLAYLAR_ARKEOLOJI_ZINCIR:-2449-01-01:0 | b: Kerma 译名与他处（克尔玛）不一致
+- olay | OLAYLAR_ARKEOLOJI_ZINCIR:-2449-01-01:0 | d: Kerma 译名与他处（克尔玛）不一致
+- olay | OLAYLAR_ARKEOLOJI_ZINCIR:-2021-01-01:0 | b: Lagaş 通行译名拉伽什，与他处一致
+- olay | OLAYLAR_ARKEOLOJI_ZINCIR:-2021-01-01:0 | d: Lagaş 通行译名拉伽什，与他处一致
+- olay | OLAYLAR_ARKEOLOJI_ZINCIR:-2474-01-01:0 | b: Lagaş 通行译名拉伽什，与他处一致
+- olay | OLAYLAR_ARKEOLOJI_ZINCIR:-2474-01-01:0 | d: Lagaş 通行译名拉伽什，与他处一致
+- olay | OLAYLAR_ARKEOLOJI_D2_AFRIKA_AMERIKA:-2549-01-01:0 | d: CE28是发掘区代号，误译为“公元28年”；Kerma 译名统一
+- olay | OLAYLAR_ARKEOLOJI_D2_AFRIKA_AMERIKA:-2549-01-01:0 | b: Kerma 译名与他处（克尔玛）不一致
+- olay | OLAYLAR_ARKEOLOJI_D2_AFRIKA_AMERIKA:-7699-01-01:0 | d: Paleogöl（古湖）误译为“古代…沿岸”
+- olay | OLAYLAR_ARKEOLOJI_D2_AFRIKA_AMERIKA:-2834-01-01:0 | d: Paleogöl（古湖）误译为“古代…沿岸”
+- olay | OLAYLAR_ARKEOLOJI_D2_AFRIKA_AMERIKA:-2834-01-01:0 | b: en genç=最晚，“最年轻的墓葬”不通
+- olay | OLAYLAR_ARKEOLOJI_D2_ANADOLU_EGE:-8099-01-01:0 | d: 语序错误，句子不通
+- olay | OLAYLAR_ARKEOLOJI_D2_ANADOLU_EGE:-8299-01-01:0 | d: 语序错误，句子不通
+- olay | OLAYLAR_ARKEOLOJI_CIN:-1009-01-01:0 | b: Uki-Kunden 日文遗址名应为宇木汲田贝丘
+- olay | OLAYLAR_ARKEOLOJI_CIN:-1009-01-01:0 | d: Uki-Kunden 日文遗址名应为宇木汲田贝丘
+- olay | OLAYLAR_ARKEOLOJI_CIN:-7049-01-01:0 | d: Tanghu 遗址为河南唐户，非“汤湖”
+- olay | OLAYLAR_OK109:1920-06-04:0 | d: Becskerek 误作贝切伊(Bečej)，Bač 城误作地区名巴奇卡；穆尔斯卡索博塔译名统一
+- olay | OLAYLAR_OK109:1920-06-04:1 | d: “进入法律”为生硬直译(hukuka geçirdi)
+- olay | OLAYLAR_OK109:1919-06-28:0 | b: “进入法律”为生硬直译
+- olay | OLAYLAR_OK109:1919-09-10:0 | b: “进入法律”为生硬直译
+- olay | OLAYLAR_OK109:1919-11-27:0 | d: 句子结构错乱
+- olay | OLAYLAR_OK106:1703-05-17:0 | d: 同条内 Azak 译名不一致（阿速夫/亚速）
+- olay | OLAYLAR_H7_ASAMA:1562-05-05:0 | d: 语法错误
+- olay | OLAYLAR_H7_ASAMA:1605-11-06:0 | d: “而被俘而动摇”句子不通
+- olay | OLAYLAR_H7_ASAMA:1625-11-13:0 | d: boğazları tutmak=扼守隘口，误译为封锁海峡
+- olay | OLAYLAR_H7_ASAMA:1745-08-21:0 | d: 原句易读成“他不再承认贾法里派”
+- olay | OLAYLAR_H7_ASAMA:1529-05-10:0 | b: “立法者”单用指代不明
+- olay | OLAYLAR_T5_1000A:1071-01-01:0 | d: Yinanç 误作 İnalcık(伊纳尔奇)
+- olay | OLAYLAR_BK_ZINCIR_1024:1355-01-01:0 | d: ‘热那亚人的妹夫’会读成‘某热那亚人的妹夫’; aile adı başlıkla tutarsız
+- olay | OLAYLAR_BK_ZINCIR_1024:1813-01-01:0 | d: Yanlış anlam: 'Gülistan ile' Gülistan Antlaşması'dır; Gülistan toprak sanılmış
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0683-08-27:0 | d: Yanlış anlam: Müslim kişi adı (komutan Müslim b. Ukbe), 'Müslümanlar' diye çevrilmiş
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0746-09-22:0 | d: Nesnesiz 'ilan edildi' anlamı; kendini halife ilan etti
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0929-02-14:0 | b: Yarım genişlikli noktalama
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0929-02-14:0 | d: Yarım genişlikli noktalama; terim tutarlılığı
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1095-02-26:0 | b: '其弟' Tutuş'un kardeşi diye okunuyor (Dukak oğlu, Rıdvan'ın kardeşi); noktalama
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1095-02-26:0 | d: '其弟' Tutuş'un kardeşi diye okunuyor (Dukak oğlu, Rıdvan'ın kardeşi); noktalama
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1098-06-03:0 | b: Yarım genişlikli noktalama
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1098-06-03:0 | d: Yarım genişlikli noktalama
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1161-01-01:0 | d: 'vekil koca' yanlış anlamlı 'vekâleten koca' diye çevrilmiş
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1161-01-01:0 | b: 'vekil koca' yanlış anlamlı çeviri
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1193-08-28:0 | b: Bozuk Çince (任命为…职务)
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1193-08-28:0 | d: Bozuk Çince (任命为…职务)
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1236-01-01:0 | b: Bozuk söz dizimi
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1236-01-01:0 | d: Bozuk söz dizimi
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1041-08-31:0 | d: Yanlış anlam: kimin hangi unvanı aldığı kaybolmuş; Balasagun yazımı tutarlılığı
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1052-01-01:0 | b: Gazne ve Tuğrul yazımı tutarsız
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1052-01-01:0 | d: Çincede hatalı sıra sayısı biçimi (二世马苏德); ad yazımı tutarsız
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-0700-01-01:0 | d: 原句结构可读作“反叛亚述的辛那赫里布”，意思颠倒
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-0876-01-01:0 | d: 病句
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0026-01-16:0 | d: 中文不加“公元前”会读作公元27年
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0032-01-01:0 | d: 缺“公元前”，会读作公元纪年
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0041-01-01:0 | d: 缺“公元前”，会读作公元42年
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0043-03-15:0 | d: 缺“公元前”，会读作公元44年
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0210-01-01:0 | d: 意思错乱：读作“罗马围攻坎尼之后转向卡普阿”
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0225-01-01:0 | d: 病句
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0263-01-01:1 | d: 主语错误（“墨西拿”向外求援）
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0262-01-01:0 | b: “东西西里”易读作“东、西西西里”
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0262-01-01:0 | d: 病句
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0275-01-01:0 | d: “tahta yerleşti”误译为“定居”
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0325-01-01:0 | d: 意思错误：王国并非“留给亚历山大”
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0326-01-01:0 | d: 病句
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0335-01-01:0 | d: 严重病句
+- olay | OLAYLAR_EK5:1716-10-13:0 | d: 'vire ile teslim' = şartlı teslim; 'patlayıcıyla' diye yanlış çevrilmiş; Kanûnî = 苏莱曼大帝
+- olay | OLAYLAR_EK5:1688-06-22:0 | d: Jenő bir kale adıdır, Eugène değil; yarım genişlik noktalama
+- olay | OLAYLAR_EK5:1716-10-13:0 | d: vire ile teslim = şartlı teslim; 'patlayıcıyla' diye yanlış çevrilmiş (TR'deki iç not tr_hatalari'ne yazıldı)
+- olay | OLAYLAR_EK5:1688-06-22:0 | d: Jenő (yer adı) 'Eugene' diye çevrilmiş; yarım genişlik noktalama; Bánlaky yazımı tutarsız
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1093-01-01:0 | b: Çincede sıra sayısı addan sonra gelir
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1095-02-26:0 | b: Berkyaruk yazımı tutarsız; yarım genişlikli noktalama
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1095-02-26:0 | d: Berkyaruk yazımı tutarsız; yarım genişlikli noktalama
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1095-06-25:0 | b: Çincede sıra sayısı addan sonra gelir
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1095-06-25:0 | d: Çincede sıra sayısı addan sonra gelir
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1101-11-16:0 | b: Çincede sıra sayısı addan sonra gelir
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1101-11-16:0 | d: Çincede sıra sayısı addan sonra gelir
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1104-12-21:0 | b: Yanlış anlam: '其子' Tapar'ın kendi oğlu diye okunuyor (Berkyaruk'un oğlu); sıra sayısı
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1119-09-10:0 | d: Yanlış anlam: 'Selçuk' burada şehzade Selçuk Şah; 'Selçuklular'a' gibi okunuyor
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1155-03-07:0 | b: Çincede sıra sayısı addan sonra gelir
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1155-03-07:0 | d: Çincede sıra sayısı addan sonra gelir
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1266-01-01:0 | d: Yanlış anlam: izin Abaka Han'dan alındı; 'Abaka Han'a kaptırılan topraklar' diye çevrilmiş
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:1110-01-24:0 | d: Aynı ad iki kez yinelenmiş (Sarakusta (Zaragoza))
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:1148-01-01:0 | b: Yarım genişlikli noktalama
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:1148-01-01:0 | d: Yarım genişlikli noktalama
+- olay | OLAYLAR_ORTACAG_BIZANS_BALKAN:1054-07-20:0 | b: '大分裂' iki kez yinelenmiş
+- olay | OLAYLAR_ORTACAG_BATI_AVRUPA:1266-07-02:1 | b: Yarım genişlikli noktalama
+- olay | OLAYLAR_ORTACAG_BATI_AVRUPA:1266-07-02:1 | d: Yarım genişlikli noktalama
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1052-06-03:0 | d: Ad başlıkla tutarsız
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1128-08-22:0 | d: Türkçe kalıntı (investi) ve bozuk cümle
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1130-12-25:0 | d: Bozuk anlatım: şizma = 教会分裂
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1138-01-01:0 | b: Yanlış anlam: seniorat (en büyük kardeş) ≠ 长子继承制 (en büyük oğul)
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1138-01-01:0 | d: Yanlış anlam: seniorat ≠ 长子继承制
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1162-01-01:0 | d: Türkçe kalıntı (infeodasyon)
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1054-11-05:0 | d: Yanlış anlam: Şâban ayı kişi adının parçası sanılmış
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1143-06-17:0 | d: Anlaşılmaz iç içe tamlama zinciri
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1153-03-29:0 | d: Bozuk Çince (被…惨败)
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1185-07-10:0 | d: Bozuk cümle
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1202-06-25:0 | d: Bozuk söz dizimi
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1215-01-01:0 | b: Yarım genişlikli noktalama
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1215-01-01:0 | d: Yarım genişlikli noktalama
+- olay | OLAYLAR_ORTACAG_CIN:0904-09-22:0 | d: Yanlış anlam: 'Zhaozong Zhu'nun emrini alan' gibi okunuyor
+- olay | OLAYLAR_ORTACAG_CIN:0936-11-28:0 | d: Yanlış anlam: 'oğlum Jin Prensi' ≠ '儿皇帝'
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0337-01-01:1 | d: “宽容宽恕”叠词病句
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0356-01-01:0 | d: 严重欧化病句
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0391-01-01:0 | b: isopolite（公民权互通）漏译，括号内重复标题
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0395-01-01:0 | d: ager Romanus 指罗马领土，原译重复且错
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0437-01-01:0 | b: 同一人名与王朝名写法不一致
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0437-01-01:0 | d: 地名、王朝名写法与他处统一
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0489-01-01:0 | d: 误译：波斯军已在阿提卡的马拉松登陆
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0748-01-15:0 | d: 伊历月名错误，且与他处写法不一致
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0893-03-23:0 | b: 王朝名用法不规范、与正文不一致
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0893-03-23:0 | d: 定语错乱的病句
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1090-03-06:0 | b: 人名错误：Atsız（阿特西兹）译成阿齐兹
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1090-03-06:0 | d: 人名错误：Atsız
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1118-04-24:0 | b: 地名错误：Erzen（阿尔赞）不是埃尔津詹
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1118-04-24:0 | d: 地名错误：Erzen（阿尔赞）不是埃尔津詹
+- olay | OLAYLAR_2S1019:1417-02-18:0 | d: 搭配错误
+- olay | OLAYLAR_2S1019:1687-09-06:0 | b: 地名错误：Varadin 指彼得罗瓦拉丁，瓦拉日丁是克罗地亚另一城市
+- olay | OLAYLAR_2S1019:1687-09-06:0 | d: 地名错误：Varadin 指彼得罗瓦拉丁
+- olay | OLAYLAR_2S1019:1458-08-06:0 | d: Fâtih 单译“征服者”指代不明
+- olay | OLAYLAR_MOGOLISTAN1115:1691-05-29:0 | d: hoşun 应译“旗”，“和硕”是满语封号用字
+- olay | OLAYLAR_MOGOLISTAN1115B:1691-05-30:0 | b: hoşun 应译“旗”
+- olay | OLAYLAR_MOGOLISTAN1115B:1691-05-30:0 | d: “和硕”误用
+- olay | OLAYLAR_ALM1115B:1264-01-01:0 | b: Landgraflık 应为方伯国
+- olay | OLAYLAR_ALM1115B:1358-12-01:0 | d: 病句
+- olay | OLAYLAR_CINHINDI1115B:1404-01-01:0 | b: 地名错误：良渊是缅甸的 Nyaungyan
+- olay | OLAYLAR_CINHINDI1115B:1404-01-01:0 | d: 地名错误：良渊是缅甸的 Nyaungyan
+- olay | OLAYLAR_CINHINDI1115B:1433-01-01:0 | b: 地名错误
+- olay | OLAYLAR_CINHINDI1115B:1433-01-01:0 | d: 地名错误
+- olay | OLAYLAR_CINHINDI1115B:1539-01-01:0 | b: 人名错误：Tabinshwehti 是莽瑞体，莽应龙是 Bayinnaung；兼改病句
+- olay | OLAYLAR_CINHINDI1115B:1539-01-01:0 | d: 人名错误：Tabinshwehti 是莽瑞体
+- olay | OLAYLAR_LAB19_2S_P5:1839-05-13:0 | d: 重字
+- olay | OLAYLAR_LAB19_2S_P6:1037-01-01:0 | b: Fas 在此指非斯城，非摩洛哥（与1033年条目一致）
+- olay | OLAYLAR_LAB19_2S_P6:1037-01-01:0 | d: Fas 在此指非斯城
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1918-11-17:0 | d: 病句
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1643-05-14:0 | b: Anne d'Autriche 的中文通行名是“奥地利的安妮”
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1798-03-15:0 | d: “合并（合并）”重复
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1861-02-02:0 | d: 病句
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1796-12-27:0 | b: Cispadan 与 Cisalpine 译名混同（“山南共和国”为后者，见国名表）
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1796-12-27:0 | d: Cispadan 与 Cisalpine 混同
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1797-02-19:0 | d: Cispadan 与 Cisalpine 混同
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1797-07-09:0 | b: Cispadan 与 Cisalpine 混同
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1797-07-09:0 | d: Cispadan 与 Cisalpine 混同
+- olay | OLAYLAR_OK104:1393-05-01:0 | d: Fâtih 单译“征服者”指代不明
+- olay | OLAYLAR_P0063:1738-08-17:0 | d: 同一地名写法不一致
+- olay | OLAYLAR_P0917TARAF:1906-10-01:0 | d: 病句
+- olay | OLAYLAR_P0917KOSU13:1427-01-01:0 | d: 括号内重复
+- olay | OLAYLAR_P0068B:1788-02-22:0 | d: 病句
+- olay | OLAYLAR_KRONOEKSIK0921:1603-06-07:0 | b: 人名错误：Mahmud 误作穆罕默德
+- olay | OLAYLAR_KRONOEKSIK0921:1603-06-07:0 | d: 人名错误：Mahmud 误作穆罕默德（与父同名，造成混乱）
+- olay | OLAYLAR_KAMERIKA:1803-01-01:2 | d: 专名 La Grande River 被直译为“大河”
+- olay | OLAYLAR_DUNYA_BOLGE_1109:1439-07-06:0 | b: Floransa birliği 指教会联合
+- olay | OLAYLAR_DUNYA_BOLGE_1109:1709-07-08:0 | b: 生造词“封定”
+- olay | OLAYLAR_DUNYA_BOLGE_1109:1709-07-08:0 | d: 生造词“封定”
+- olay | OLAYLAR_GEZGINLER:1045-12-19:0 | d: 错字“官廷”
+- olay | OLAYLAR_GEZGINLER:0990-01-01:0 | d: 地名错误：Fidenza 应为菲登扎
+- olay | OLAYLAR_GEZGINLER:1796-07-21:0 | d: 括号内重复
+- olay | OLAYLAR_GEZGINLER:1805-05-04:0 | b: 括号内重复
+- olay | OLAYLAR_GEZGINLER:1805-08-19:0 | d: 括号内重复
+- olay | OLAYLAR_GEZGINLER:1818-01-01:0 | b: 地名错误：Batusangkar
+- olay | OLAYLAR_GEZGINLER:1823-12-14:0 | d: 括号内重复
+- olay | OLAYLAR_GEZGINLER:1826-03-18:0 | b: 括号内重复
+- olay | OLAYLAR_GEZGINLER:1826-03-18:0 | d: 括号内重复
+- olay | OLAYLAR_GEZGINLER:1828-03-23:0 | d: 括号内重复
+- olay | OLAYLAR_GEZGINLER:1851-03-09:0 | d: 括号内重复
+- olay | OLAYLAR_GEZGINLER:1853-06-24:0 | d: 括号内重复
+- olay | OLAYLAR_GEZGINLER:1855-01-01:0 | b: 地名错误：Momein 即腾越（腾冲），蛮允是另一地
+- olay | OLAYLAR_GEZGINLER:1855-01-01:0 | d: 地名错误：Momein 不是蛮允
+- olay | OLAYLAR_GEZGINLER:1871-03-09:0 | b: ön gezi 指前期考察
+- olay | OLAYLAR_GEZGINLER:1873-07-26:0 | b: 语序错误：Galpin Gobi
