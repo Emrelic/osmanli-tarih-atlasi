@@ -1135,3 +1135,111 @@
 - olay | OLAYLAR_P0917TARAF:1915-09-06:0 | d: Latin harfli ad
 - olay | OLAYLAR_P0917TARAF:1892-01-01:0 | b: Latin harfli ad
 - olay | OLAYLAR_P0917TARAF:1892-01-01:0 | d: Latin harfli ad
+- olay | OLAYLAR_P0917TARAF:1906-10-01:0 | b: Latin harfli adlar
+- olay | OLAYLAR_P0917TARAF:1906-10-01:0 | d: Latin harfli adlar
+- olay | OLAYLAR_P0917TARAF:1910-05-19:0 | b: Latin harfli adlar
+- olay | OLAYLAR_P0917TARAF:1910-05-19:0 | d: Latin harfli adlar
+- olay | OLAYLAR_P0917KOSU13:1723-08-06:0 | b: Latin harfli ad
+- olay | OLAYLAR_P0917KOSU13:1723-08-06:0 | d: Latin harfli adlar
+- olay | OLAYLAR_P0917KOSU13:1723-11-10:0 | b: Latin harfli adlar
+- olay | OLAYLAR_P0917KOSU13:1723-11-10:0 | d: Latin harfli adlar
+- olay | OLAYLAR_P0917KOSU13:1724-01-01:0 | b: Latin harfli adlar
+- olay | OLAYLAR_P0917KOSU13:1724-01-01:0 | d: Latin harfli adlar
+- olay | OLAYLAR_P0917KOSU13:1725-09-09:0 | d: Latin harfli adlar
+- olay | OLAYLAR_P0917KOSU13:1735-10-03:0 | b: Latin harfli ad
+- olay | OLAYLAR_P0917KOSU13:1735-10-03:0 | d: Latin/Türkçe adlar
+- olay | OLAYLAR_P0917KOSU13:1387-01-01:0 | b: Latin harfli ad
+- olay | OLAYLAR_P0917KOSU13:1387-01-01:0 | d: Latin harfli adlar
+- olay | OLAYLAR_P0917KOSU13:1415-01-01:0 | b: Latin/Türkçe adlar
+- olay | OLAYLAR_P0917KOSU13:1415-01-01:0 | d: Latin/Türkçe adlar
+- olay | OLAYLAR_P0917KOSU13:1427-01-01:0 | b: Latin harfli adlar
+- olay | OLAYLAR_P0917KOSU13:1427-01-01:0 | d: Latin harfli adlar
+- olay | OLAYLAR_P0917KOSU13:1450-01-01:0 | b: Latin harfli ad
+- olay | OLAYLAR_P0917KOSU13:1450-01-01:0 | d: Latin harfli adlar
+- olay | OLAYLAR_P0917KOSU13:1516-10-01:0 | d: Latin harfli ad
+- olay | OLAYLAR_P0917KOSU13:1532-01-01:0 | b: Latin harfli adlar
+- olay | OLAYLAR_P0917KOSU13:1532-01-01:0 | d: Latin/Türkçe adlar
+- olay | OLAYLAR_P0917KOSU13:1534-01-01:0 | b: Latin harfli adlar
+- olay | OLAYLAR_P0917KOSU13:1534-01-01:0 | d: Latin harfli adlar
+- olay | OLAYLAR_P0917KOSU13:1578-08-24:0 | b: Latin harfli adlar
+- olay | OLAYLAR_P0917KOSU13:1578-08-24:0 | d: Latin harfli adlar
+- olay | OLAYLAR_P0917KOSU13:1588-09-01:0 | b: Latin harfli adlar
+- olay | OLAYLAR_P0917KOSU13:1588-09-01:0 | d: Latin harfli adlar
+- olay | OLAYLAR_P0917KOSU13:1589-01-01:0 | b: Latin harfli adlar
+- olay | OLAYLAR_P0917KOSU13:1589-01-01:0 | d: Latin harfli adlar
+- olay | OLAYLAR_P0917KOSU13:1722-11-01:0 | b: Latin harfli ad
+- olay | OLAYLAR_P0917KOSU13:1722-11-01:0 | d: Latin harfli ad
+- olay | OLAYLAR_P0917KOSU13:1731-11-15:0 | b: Latin harfli ad
+- olay | OLAYLAR_P0917KOSU13:1731-11-15:0 | d: Latin harfli adlar
+- olay | OLAYLAR_P0917KOSU13:1770-10-09:0 | b: Latin harfli adlar
+- olay | OLAYLAR_P0917KOSU13:1770-10-09:0 | d: Latin harfli adlar
+- olay | OLAYLAR_P0917KOSU13:1770-09-01:0 | b: Latin harfli adlar
+- olay | OLAYLAR_P0917KOSU13:1770-09-01:0 | d: Latin harfli adlar
+- olay | OLAYLAR_P0917KOSU13:1788-09-01:0 | b: Latin harfli ad
+- olay | OLAYLAR_P0917KOSU13:1788-09-01:0 | d: Latin harfli adlar
+- olay | OLAYLAR_P0917KOSU13:1789-11-01:0 | b: Latin harfli adlar
+- olay | OLAYLAR_P0917KOSU13:1789-11-01:0 | d: Latin harfli adlar
+- olay | OLAYLAR_P0917KOSU13:1789-11-14:0 | b: Latin harfli adlar
+- olay | OLAYLAR_P0917KOSU13:1789-11-14:0 | d: Latin harfli adlar
+- olay | OLAYLAR_P0917KOSU13:1790-10-24:0 | b: Latin harfli ad
+- olay | OLAYLAR_P0917KOSU13:1790-10-24:0 | d: Latin harfli adlar
+- olay | OLAYLAR_P0917KOSU13:1809-09-26:0 | b: Latin harfli adlar
+- olay | OLAYLAR_P0917KOSU13:1809-09-26:0 | d: Latin harfli adlar
+- olay | OLAYLAR_P0917KOSU13:1565-01-01:0 | b: Latin harfli ad
+- olay | OLAYLAR_P0917KOSU13:1565-01-01:0 | d: Latin harfli adlar
+- olay | OLAYLAR_P0917KOSU13:1736-03-24:0 | b: Latin harfli ad
+- olay | OLAYLAR_P0917KOSU13:1736-03-24:0 | d: Latin harfli adlar
+- olay | OLAYLAR_P0917KOSU13:1739-12-12:0 | b: Latin harfli adlar
+- olay | OLAYLAR_P0917KOSU13:1739-12-12:0 | d: Latin harfli adlar
+- olay | OLAYLAR_P0917KOSU13:1788-08-26:0 | b: Latin harfli ad
+- olay | OLAYLAR_P0917KOSU13:1788-08-26:0 | d: Latin harfli adlar
+- olay | OLAYLAR_P0917KOSU13:1788-10-03:0 | b: Latin harfli adlar
+- olay | OLAYLAR_P0917KOSU13:1788-10-03:0 | d: Latin harfli adlar
+- olay | OLAYLAR_P0917KOSU13:1838-01-01:0 | b: Latin harfli adlar
+- olay | OLAYLAR_P0917KOSU13:1838-01-01:0 | d: İngilizce/Latin kalıntı
+- olay | OLAYLAR_P0917KOSU13:1854-01-01:0 | b: Latin harfli adlar
+- olay | OLAYLAR_P0917KOSU13:1854-01-01:0 | d: İngilizce/Latin kalıntı
+- olay | OLAYLAR_P0917KOSU13:1864-02-01:0 | b: Latin harfli adlar
+- olay | OLAYLAR_P0917KOSU13:1864-02-01:0 | d: İngilizce/Latin kalıntı
+- olay | OLAYLAR_P0917DUNYA:1915-09-26:0 | b: Latin harfli ad
+- olay | OLAYLAR_P0917DUNYA:1915-09-26:0 | d: Latin harfli adlar
+- olay | OLAYLAR_P0917DUNYA:1916-04-18:0 | d: Latin harfli adlar
+- olay | OLAYLAR_P0917DUNYA:1918-02-24:0 | b: yerleşik ad 'طرابزون' ile tutarsız
+- olay | OLAYLAR_P0917DUNYA:1918-02-24:0 | d: yerleşik ad
+- olay | OLAYLAR_P0917DUNYA:1918-02-26:0 | b: Latin harfli ad
+- olay | OLAYLAR_P0917DUNYA:1918-02-26:0 | d: Latin harfli ad
+- olay | OLAYLAR_P0917DUNYA:1916-03-08:0 | b: Latin harfli ad
+- olay | OLAYLAR_P0917DUNYA:1916-03-08:0 | d: Latin/Türkçe adlar
+- olay | OLAYLAR_P0917DUNYA:1916-07-16:0 | b: Latin/Türkçe adlar
+- olay | OLAYLAR_P0917DUNYA:1916-07-16:0 | d: Latin/Türkçe adlar
+- olay | OLAYLAR_P0917DUNYA:1918-02-19:0 | b: Latin/Türkçe adlar
+- olay | OLAYLAR_P0917DUNYA:1918-02-19:0 | d: Latin/Türkçe adlar
+- olay | OLAYLAR_P0917DUNYA:1918-03-02:0 | b: Latin harfli ad
+- olay | OLAYLAR_P0917DUNYA:1918-03-02:0 | d: Latin/Türkçe adlar
+- olay | OLAYLAR_P0917DUNYA:1915-02-23:0 | b: Latin harfli ad
+- olay | OLAYLAR_P0917DUNYA:1915-02-23:0 | d: Latin harfli adlar
+- olay | OLAYLAR_P0917DUNYA:1916-02-24:0 | b: Latin/Türkçe ad
+- olay | OLAYLAR_P0917DUNYA:1916-02-24:0 | d: Latin/Türkçe ad
+- olay | OLAYLAR_P0917DUNYA:1918-04-01:0 | b: Latin harfli ad
+- olay | OLAYLAR_P0917DUNYA:1918-04-01:0 | d: Latin harfli ad
+- olay | OLAYLAR_P0917DUNYA:1918-05-07:0 | d: Latin harfli ad
+- olay | OLAYLAR_P0917DUNYA:1918-05-27:0 | d: Türkçe ad
+- olay | OLAYLAR_P0917DUNYA:1921-02-25:0 | d: Latin harfli adlar
+- olay | OLAYLAR_P0917DUNYA:1917-12-06:0 | b: Türkçe ad kalıntısı
+- olay | OLAYLAR_P0917DUNYA:1917-12-06:0 | d: Türkçe ad kalıntısı
+- olay | OLAYLAR_P0067:1788-09-21:0 | d: cinsiyet uyumu hatası
+- olay | OLAYLAR_0073_IRAN_YANYA:1822-02-14:0 | d: cinsiyet uyumu hatası
+- olay | OLAYLAR_DUNYA_BOLGE_1109:1905-01-22:0 | d: bozuk dilbilgisi
+- olay | OLAYLAR_GEZGINLER:1326-04-05:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_GEZGINLER:1326-08-09:0 | b: Türkçe kalıntı
+- olay | OLAYLAR_GEZGINLER:1348-07-15:0 | b: Türkçe kalıntı
+- olay | OLAYLAR_GEZGINLER:1403-05-22:0 | b: Kastilya 'İspanyol' yapılmış ve Türkçe kalıntı
+- olay | OLAYLAR_GEZGINLER:1404-06-11:0 | b: Türkçe kalıntı
+- olay | OLAYLAR_GEZGINLER:1404-11-21:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_GEZGINLER:1406-03-22:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_GEZGINLER:1492-08-03:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_GEZGINLER:1496-03-10:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_GEZGINLER:1498-07-31:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_GEZGINLER:1519-09-20:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_GEZGINLER:1520-10-21:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_GEZGINLER:1671-01-01:0 | d: Türkçe kalıntı

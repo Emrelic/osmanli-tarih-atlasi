@@ -27,4 +27,6 @@ tamamen okunan: 4_olay_138 - 4_olay_174 (37/37 paket)
 bakilan tur: yalniz olay (yaklasik 900 kayit)
 
 == ilerleme_f.txt
-Tam okunan: 4_olay_175 - 4_olay_197
+Tam okunan: 4_olay_175 - 4_olay_211 (37 paket, hepsi)
+200-211: Latin harfli özel adlar sistematik; yalnız anlam/dilbilgisi/Türkçe sözcük kalıntısı düzeltildi (bkz. notlar_f.md).
+Düzeltme dosyaları: duzeltme_f_001 - 009

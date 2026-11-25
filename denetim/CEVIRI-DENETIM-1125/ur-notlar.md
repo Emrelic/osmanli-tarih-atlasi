@@ -74,3 +74,20 @@ Emin olunmayan: EK16:1798/1800 Malta başlığında "فرانسیسی قبضے" 
 ## 2) Emin olunmayan
 - 1185-01-01 / 0996 vb. "بیگ نشین" (beylik) alışılmadık; değiştirilmedi.
 - 154'te چھانگ آن / چانگ آن karışık; değiştirilmedi.
+
+== notlar_f.md
+# ur / f notları (4_olay_175-211)
+
+## SİSTEMATİK SORUN — DÜZELTİLMEDİ (ayrı bir ur özel ad turu gerekir)
+4_olay_200'den 211'e kadar çevirilerde özel adlar büyük ölçüde Latin/Türkçe yazımla bırakılmış (Urduca cümle içinde yabancı yazı):
+- 200: OLAYLAR_P0917DUNYA (Kifri, Tuz Hurmatu, Tikrit), P0068, P0067, P0068B
+- 201: OLAYLAR_P0068B (Şumnu, Yergöğü, Ziştovi, Yaş, Maçin, Kalas, teyidnâme/tasdiknâme, Koca Yûsuf, "esas madde ve mütareke")
+- 202: OLAYLAR_P0065, KRONOEKSIK0921, 0073_IRAN_YANYA (Yanya, Mora, Tophane, Nâfia Nezâreti, derbendler başbuğluğu, Rumeli, kuruş, Hendese-i Mülkiyye), KAMERIKA
+- 203-204: OLAYLAR_KAMERIKA, OLAYLAR_DUNYA_BOLGE_1109 (Kazan, Volga, Büyük Orda, Sarı Sular, Kışlık Saray, Brüksel, Ön Avusturya)
+- 205-211: OLAYLAR_GEZGINLER (kişi/gemi/yer adları; güzergâh dizileri; Trabzon, Girit, Mora, Hanya, Azak, Bahçesaray, İstanbul listelerinde İşim/Tümen/İrkutsk/Açinsk vb. Türkçe yazım)
+Bu aralıkta yalnız anlam/dilbilgisi hataları ve açık Türkçe sözcük kalıntıları (duzeltme_f_009) düzeltildi.
+175-199 aralığındaki Latin harfli adlar düzeltildi (bazı parantez içi özgün adlar, Treccani/TDV/EoU kaynak adları ve iç künye kimlikleri bırakıldı).
+
+## Emin olunmayanlar
+- OLAYLAR_P0068B:*: "teyidnâme/tasdiknâme" için توثیق نامہ önerilir.
+- OLAYLAR_ANTIK_AKDENIZ:0708-11-20:0: "حوالے کروا لیا" zayıf ama anlaşılır.

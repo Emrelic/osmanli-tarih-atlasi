@@ -94,3 +94,23 @@
 - olay OLAYLAR_ANTIK_AKDENIZ:-0035-01-01:0, :-0063-01-01:0, :0106-01-01:0: "kronolojide ayrı maddedir" iç notu; 0106'da ayrıca "bağlandı Savaşın ... maddelerdedir.." noktalama bozuk
 - olay OLAYLAR_ANTIK_AKDENIZ:-0145-01-01:0: "Roma'a" yazım hatası
 - olay OLAYLAR_ANTIK_AKDENIZ:-0277-01-01:0: açıklamada ham TDV alıntısı notu
+
+== tr_hatalari_f.md
+- olay OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1061-01-01:0: açıklamada kaynak notu ("TDV bu yılı ... verir") kullanıcıya görünüyor.
+- olay OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1131-01-01:0: açıklamada İtalyanca alıntı + "Treccani DBI" iç notu.
+- olay OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1073-01-01:0: başlık "bağımsızlık..." ile kesik.
+- olay OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1205-01-01:0: "Dördüncü Haçlı Seferi'nden yirmi yıl sonra" yanlış görünüyor (sefer 1204).
+- olay OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1207-01-01:0: İngilizce "decarchy" sözcüğü.
+- olay OLAYLAR_ANTIK_AKDENIZ:0448-01-01:0: kimlik 0448, metin 447.
+- olay OLAYLAR_FRANSA_KONTROL_1027:1481-12-11:3: "BEYANLI YAKLAŞIKLIK" iç etiketi.
+- olay OLAYLAR_FRANSA_KONTROL_1027:1284-01-01:0 ve NAPOLYON_ITALYA:1143-01-01:0: "künye t / künye f" iç not.
+- olay OLAYLAR_FRANSA_KONTROL_1027:1388-09-28:0, 1348-06-09:0: "atlas ... madde eksikti" geliştirici notu.
+- olay OLAYLAR_AVMAC_C_1029:1918-11-16:0, 1919-03-21:0, 1945-07-09:0, 1949-08-20:0, 1956-10-23:0, 1995-01-01:0, 2004-05-01:0, 1918-11-13:0, 1921-12-14:0: iç kimlikler (macaristan-*), "motor dondurma", "BOYALAR", "harita zinciri" geliştirici metni.
+- olay OLAYLAR_AVMAC_FINAL_1029:1703-01-01:0, AVUSTURYA_MACAR_1027:*: "(borç)", "yıl hassasiyeti", "gün bulunamadı" iç notları.
+- olay OLAYLAR_NAPOLYON_ITALYA_1028:1800-06-04:0, 1849-07-03:0, 1849-08-22:0: "bilgi kutusu", "Vikipedi" notu; 1128-*: "ikincil", "abi merkez ... kaynak bulunamadı".
+- olay OLAYLAR_LAB19_2S_P2:1283-06-08:0 ve P5/P6: "Aynı tarihte elden çıkan diğer yerleşimler" otomatik listeler; P1:0613/0780: "atlas künyesi ... künye ucu".
+- olay OLAYLAR_P0068:1789-10-13:0, P0068B:1789-09-22:0: kaynak tartışması/iç not ("TDV'nin dört maddesinde geçmiyor", "haritada ayrıca gösterilmez").
+- olay OLAYLAR_P0067:1788-09-21:0: iç kimlik "karsi-karansebes-1788".
+- olay OLAYLAR_DUNYA_BOLGE_1109:1917-03-15:0: "[[rusya-gecici-hukumet]], [[sovyet-rusya]]" bağlantı işaretleri.
+- olay OLAYLAR_DUNYA_BOLGE_1109:1905-01-22:0: "çariçenin muhafızları" şüpheli (çarın olmalı).
+- olay OLAYLAR_GEZGINLER:1558/1580/1861-11-01 vb.: ASCII Türkçe ("nehri agzi", "golu", "kavsagi", "gecis").
