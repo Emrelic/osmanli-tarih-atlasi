@@ -1,15 +1,15 @@
 {
 "hazir": {
 "arayuz": [
-494,
+831,
 2034
 ],
 "devlet": [
-580,
+1160,
 2315
 ],
 "olay": [
-125,
+175,
 5196
 ]
 },
@@ -93,6 +93,21 @@
 "arayuz",
 "#ob-detay, #ob-baslik, #ob-ozel, #olay-bilgi",
 "hedef yazi yok"
+],
+[
+"arayuz",
+"A-Za-zÇĞİıÖŞÜçğöşü",
+"hedef yazi yok"
+],
+[
+"arayuz",
+"Altlık: Esri World Physical Map | Coğrafya verisi: Natural Earth (kamu malı) | Koridor ağı: OWTRAD (T. M. Ciolek, ANU) — CC BY-NC #, kaynak harita: İnalcık # | Tarihî sınırlar: bu projenin kendi verisi",
+"turkce harf kalintisi"
+],
+[
+"arayuz",
+"Cemâziyelevvel # / # Nisan #",
+"yer tutucu"
 ],
 [
 "olay",

@@ -55,6 +55,11 @@ window.CEVIRI_DIZIN = {
    "ad": "Italiano"
   },
   {
+   "kod": "ko",
+   "ad": "한국어",
+   "gizli": true
+  },
+  {
    "kod": "pl",
    "ad": "Polski"
   },
@@ -566,6 +571,20 @@ window.CEVIRI_DIZIN = {
    [
     "ceviri_it_olay_06.js",
     "4a5ce3d6"
+   ]
+  ],
+  "ko": [
+   [
+    "ceviri_ko_arayuz.js",
+    "f1081c69"
+   ],
+   [
+    "ceviri_ko_devlet.js",
+    "88196fc5"
+   ],
+   [
+    "ceviri_ko_olay.js",
+    "ce9077bb"
    ]
   ],
   "pl": [
