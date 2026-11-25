@@ -10,6 +10,7 @@
 window.HUKUMDAR_LEHISTAN = [
 
 { id:"jan-iii-sobieski", devlet:"lehistan",
+  teyit:"teyitsiz", yayin_adayi:false, ic_not_teyit:"TEYİTSİZ (denetim 25.11, EMRELİC kuralı): kaynaklar WebFetch aracıyla okundu — araç ham metni değil özetini verir; tam metin okunmuş sayılmaz. Engel aşma yok (sayfalar varsayılan curl ile engelsiz 200).",
   ad:"III. Jan Sobieski",
   from:"1674-05-21",
   ic_not_from:"Krakov piskoposu Andrzej Trzebicki'nin onu kral ilan ettiği gün (PSB atölyesi metni). Taç giyme 2 Şubat 1676, Krakov.",

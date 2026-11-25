@@ -15,6 +15,11 @@
 //   Gerekçe her kartta ic_not_teyit alanında.
 // KAYNAK: TDV İslâm Ansiklopedisi maddeleri (ham HTML'den gövde okundu) ve Wilanów Sarayı
 //   Müzesi "Pasaż wiedzy" yazıları (imzalı). Cümle kopyalanmadı; alıntı yok.
+// ALINMA YOLU (denetim 25.11, EMRELİC kuralı): her kaynak curl ile ham HTML olarak indirildi ve
+//   düz metne çevrilip okundu (WebFetch özeti değil). İlk indirmede curl'e tarayıcı User-Agent
+//   başlığı verilmişti; hiçbir sayfa engel (403/Cloudflare/bot koruması/ücret duvarı) vermedi.
+//   Denetimde 14 kaynağın hepsi VARSAYILAN curl başlığıyla yeniden çekildi: hepsi 200, düz metin
+//   ilk indirmeyle karakteri karakterine aynı. Engel aşılan kaynak: 0.
 // BAĞ: olay[] her zaman "gün|ayırt edici parça"; js/app.js ekKartBagliMi'nin kendi metni
 //   scratchpad bag_sina.js ile 30.312 maddelik evrende koşturularak sınandı (KONU.md §6).
 // ============================================================================

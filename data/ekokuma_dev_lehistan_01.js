@@ -10,12 +10,18 @@
 // KAYNAK: TDV İslâm Ansiklopedisi maddeleri (Hotin — D. Kołodziejczyk; Osman II) ve Wilanów Sarayı Müzesi'nin "Pasaż wiedzy" yazıları
 //   (Polski Słownik Biograficzny atölyesinde hazırlanan biyografiler; imzalı yazılar).
 //   Hepsi bu oturumda gövdesi okunarak kullanıldı. Cümle kopyalanmadı; alıntı yok.
+// 🔴 TEYİT DENETİMİ (25.11, EMRELİC kuralı): Aşama 2 okuması WebFetch aracıyla yapıldı (KONU.md §5
+//   "sayfa metninden özet") — araç ham metni değil modelin çıkardığı özeti verir. Bu yüzden 5 kartın
+//   HEPSİ teyit:"teyitsiz", yayin_adayi:false. Engel aşma kaydı yok: PWN (bot koruması) ve iPSB
+//   (sertifika hatası) okunmadı olarak bırakılmıştı. Aynı TDV/Wilanów sayfaları denetimde varsayılan
+//   curl ile engelsiz 200 döndü; olgular ham metinle karşılaştırılınca teyitliye çıkabilir.
 // BAĞ: olay[] her zaman "gün|ayırt edici parça"; scratchpad bag_sina.js ile js/app.js
 //   ekKartBagliMi'nin kendi metni koşturularak sınandı (sonuç KONU.md §6).
 // ============================================================================
 window.EKOKUMA_DEVLEHISTAN01 = [
 
 { id:"devlehistan-hotin-1621-kim-kazandi", tur:"tartisma", devlet:"lehistan",
+  teyit:"teyitsiz", yayin_adayi:false, ic_not_teyit:"TEYİTSİZ (denetim 25.11): kaynaklar WebFetch aracıyla okundu — araç ham metni değil özetini verir; tam metin okunmuş sayılmaz (bk. dosya başı).",
   baslik:"Hotin 1621: iki başkentin de zafer saydığı kuşatma",
   kisa:"Genç padişah II. Osman büyük bir orduyla Dinyester kıyısına indi; bir ay sonra iki taraf da evine 'kazandık' diyerek döndü. Peki kim kazandı?",
   metin:"1621 baharında II. Osman Lehistan seferine çıktı: otağı 29 Nisan'da İstanbul'un Davutpaşa sahrasında kuruldu. Hedef, bir yıl önce Ţuţora'da (Lehçe: Cecora) ağır bir yenilgi almış olan Lehistan'dı.\n\nKarşısında Litvanya büyük hatmanı Jan Karol Chodkiewicz'in komutasında bir Leh-Litvanya ordusu vardı; yanında Petro Konaševyč-Sahajdačnyj'in getirdiği kalabalık Kazak birlikleri. Hotin kalesi küçük ve savunmaya elverişsiz olduğu için Lehliler kalenin yanında hendek ve tabyalarla çevrili müstahkem bir ordugâh kurdu. Osmanlı hücumları bu ordugâha çarptı ve sonuç alamadı. Altmış yaşındaki Chodkiewicz kuşatma sırasında ağır hastalandı, savunmayı çadırından yönetti ve ordugâhta öldü.\n\n9 Ekim 1621'de antlaşma imzalandı: Dinyester sınır kabul edildi, Hotin Osmanlı'ya bağlı Boğdan voyvodasına bırakıldı. II. Osman aynı gün İstanbul'a dönmek üzere Hotin önünden ayrıldı.\n\nİki taraf bu sonucu çok farklı okudu. İstanbul'da sefer büyük bir zafer olarak ilan edildi. Lehistan'da ise Hotin, ülkenin Osmanlı istilasından kurtarıldığı bir savunma zaferi olarak hatırlandı.\n\nTarihçiler bugün ne diyor? TDV'deki 'Osman II' maddesi, ordunun somut bir sonuç alamadığını, buna rağmen seferin zafer diye duyurulduğunu açıkça yazar; padişahın bu başarısızlık yüzünden askere kırgın olduğunu Karaçelebizâde ve Peçuylu İbrâhim'den aktarır; bu kırgınlık, 1622'de onun sonunu getiren gerginliğe uzanır. Dariusz Kołodziejczyk de TDV'deki 'Hotin' maddesinde hücumların Leh tahkimatı karşısında sonuçsuz kaldığını vurgular. Yani iki 'zafer' de kısmen doğrudur: Lehistan sınırını korudu, Osmanlı ise tâbi Boğdan üzerinden kaleyi aldı; ama seferin asıl hedefi gerçekleşmedi.",
@@ -27,6 +33,7 @@ window.EKOKUMA_DEVLEHISTAN01 = [
   ic_not:"Osman II maddesinin yazarı ve cilt/sayfası bu okumada alınmadı (BORC). Kuşatmanın başlangıç günü ve süresi okunan kaynaklarda yok; 'bir ay' Kalwat'tan ('przez miesiąc'). Chodkiewicz'in ölüm günü okunan kaynaklarda yok, yazılmadı. Leh tarafındaki 'savunma zaferi' değerlendirmesi Kalwat'tan (Hotin'in Kircholm'dan önemli olduğu, Türk istilasını önlediği)." },
 
 { id:"devlehistan-klusino-1610", tur:"savas-hikayesi", devlet:"lehistan",
+  teyit:"teyitsiz", yayin_adayi:false, ic_not_teyit:"TEYİTSİZ (denetim 25.11): kaynaklar WebFetch aracıyla okundu — araç ham metni değil özetini verir; tam metin okunmuş sayılmaz (bk. dosya başı).",
   baslik:"Kłuszyn 1610: Kremlin'e giden yolu açan muharebe",
   kisa:"Bir Leh hatmanı kendisinden kat kat kalabalık bir Moskova ordusunu yendi; iki ay sonra Lehistan kralının oğlu çar seçilmiş, Leh askeri Kremlin'e yerleşmişti. Hikâyenin sonu ise bambaşka bitti.",
   tarih_metin:"4 Temmuz 1610",
@@ -45,6 +52,7 @@ window.EKOKUMA_DEVLEHISTAN01 = [
   ic_not:"Kremlin garnizonunun teslim günü ve Władysław'ın seçim günü okunan kaynaklarda yok, yazılmadı. 'Smuta' adlandırması genel bilgi; Rus akademik kaynağı okunmadı (BORC). Smolensk kuşatması bağlamı okunan yazılarda olmadığı için yazılmadı." },
 
 { id:"devlehistan-zolkiewski-basi-1620", tur:"magazin", devlet:"lehistan",
+  teyit:"teyitsiz", yayin_adayi:false, ic_not_teyit:"TEYİTSİZ (denetim 25.11): kaynaklar WebFetch aracıyla okundu — araç ham metni değil özetini verir; tam metin okunmuş sayılmaz (bk. dosya başı).",
   baslik:"Hatmanın başı: Żółkiewski'nin dul eşi neyi geri satın aldı?",
   kisa:"Ţuţora bozgununda öldürülen Lehistan'ın en kıdemli komutanının başı İstanbul'da sarayın kapısına asıldı. Onu geri getiren, eşi Regina oldu.",
   metin:"Ekim 1620'de Boğdan'daki Ţuţora (Lehçe: Cecora) seferi felaketle bitti. Lehistan'ın büyük hatmanı ve büyük kançıleri Stanisław Żółkiewski, yetmişlerine merdiven dayamış bir komutandı. Polski Słownik Biograficzny atölyesinin hazırladığı biyografiye göre geri çekilme sırasında savaş alanından kaçmayı reddetti ve 6 Ekim 1620'de öldürüldü.\n\nKesik başı İstanbul'a götürüldü ve padişah sarayının girişine asıldı. Hikâye burada bitmedi: dul eşi Regina (kızlık soyadı Herburt) başı satın alarak geri getirdi.\n\nBu ayrıntı Leh hafızasında Ţuţora'yı sıradan bir yenilgiden ayırır: ülkenin en yüksek askerî ve sivil makamlarını birlikte taşıyan bir adamın başı, düşman başkentinde bir zafer işareti olmuştu. Ertesi yıl Hotin'e yürüyen ordu bu yenilginin hesabını sormaya gidiyordu.\n\nTarihçiler bugün ne diyor? Okunan biyografi başın asıldığı yeri ve fidyeyle geri alındığını yazar, fidyenin miktarını ve geri alınma tarihini vermez. Osmanlı tarafının bu olayı nasıl kaydettiği bu okumada araştırılmadı.",
@@ -55,6 +63,7 @@ window.EKOKUMA_DEVLEHISTAN01 = [
   ic_not:"'Yetmişlerine merdiven dayamış': doğum yılı 1547'den hesap (1620'de 73). 'Hotin'e yürüyen ordu hesabını sormaya gidiyordu' cümlesi yorumdur; Kalwat'ın 'Ţuţora bozgunundan sonra' bağlamına dayanır, Emre onayında yumuşatılabilir. Osmanlı kroniklerinde başın teşhiri okunmadı (BORC)." },
 
 { id:"devlehistan-hotin-1673", tur:"savas-hikayesi", devlet:"lehistan",
+  teyit:"teyitsiz", yayin_adayi:false, ic_not_teyit:"TEYİTSİZ (denetim 25.11): kaynaklar WebFetch aracıyla okundu — araç ham metni değil özetini verir; tam metin okunmuş sayılmaz (bk. dosya başı).",
   baslik:"Hotin 1673: otuz bin kişilik ordudan dört bin kişi döndü",
   kisa:"Bucaş'ın üzerinden bir yıl geçmeden Lehistan'ın hatmanı Osmanlı ordugâhına sabah baskını yaptı. Bu tek gün, onu altı ay sonra tahta taşıdı.",
   tarih_metin:"10-11 Kasım 1673 (belirleyici hücum 11 Kasım sabahı)",
@@ -73,6 +82,7 @@ window.EKOKUMA_DEVLEHISTAN01 = [
   ic_not:"TDV 'Hotin', Hüseyin Paşa'nın kaleyi önce kuşatıp aldığını yazar; Widacka yalnız muharebeyi anlatır. Osmanlı tarafının kayıp ve kuvvet sayısı Osmanlı kaynaklarında okunmadı (BORC); kesinlik bu yüzden 'tartismali'." },
 
 { id:"devlehistan-hotin-tahta-1673", tur:"sebep-sonuc", devlet:"lehistan",
+  teyit:"teyitsiz", yayin_adayi:false, ic_not_teyit:"TEYİTSİZ (denetim 25.11): kaynaklar WebFetch aracıyla okundu — araç ham metni değil özetini verir; tam metin okunmuş sayılmaz (bk. dosya başı).",
   kisa:"Bir muharebe bir seçimli krallıkta tahtı nasıl kazandırır?",
   sebep:{ b:"Hatman Jan Sobieski 11 Kasım 1673'te Hotin önünde Osmanlı ordusunu bozguna uğrattı; zafer adını bütün ülkede duyurdu", t:"1673-11-11" },
   sonuc:{ b:"Krakov piskoposu Andrzej Trzebicki 21 Mayıs 1674'te Sobieski'yi kral ilan etti; taç giyme 2 Şubat 1676'da Krakov'da yapıldı", t:"1674-05-21" },

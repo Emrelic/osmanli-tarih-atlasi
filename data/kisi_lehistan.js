@@ -10,6 +10,7 @@
 window.KISI_LEHISTAN = [
 
 { id:"zolkiewski-stanislaw", tur:"komutan", devlet:"lehistan",
+  teyit:"teyitsiz", yayin_adayi:false, ic_not_teyit:"TEYİTSİZ (denetim 25.11, EMRELİC kuralı): kaynak WebFetch aracıyla okundu — araç ham metni değil özetini verir; tam metin okunmuş sayılmaz. Engel aşma yok (sayfa varsayılan curl ile engelsiz 200).",
   ad:"Stanisław Żółkiewski (Taç büyük hatmanı ve büyük kançıleri)",
   t:"1620",
   donem:"taç sahra hatmanı 1588'den; Kiev voyvodası 1608; büyük hatman ve büyük kançıler (asa ve mühür 1618)",
@@ -26,6 +27,7 @@ window.KISI_LEHISTAN = [
   kaynak:"\"Stanisław Żółkiewski h. Lubicz (1547–1620)\", Polski Słownik Biograficzny atölyesinde hazırlandı, Muzeum Pałacu Króla Jana III w Wilanowie, Pasaż wiedzy (06.12.2007), https://wilanow-palac.pl/pasaz-wiedzy/zolkiewski-stanislaw-h-lubicz-1547-1620" },
 
 { id:"chodkiewicz-jan-karol", tur:"komutan", devlet:"lehistan",
+  teyit:"teyitsiz", yayin_adayi:false, ic_not_teyit:"TEYİTSİZ (denetim 25.11, EMRELİC kuralı): kaynaklar WebFetch aracıyla okundu — araç ham metni değil özetini verir; tam metin okunmuş sayılmaz. Engel aşma yok.",
   ad:"Jan Karol Chodkiewicz (Litvanya büyük hatmanı)",
   t:"1621",
   donem:"Litvanya büyük hatmanı 1605-1621",
