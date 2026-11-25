@@ -1,0 +1,74 @@
+- arayuz | # (Haziran sonundaki Karánsebes'ten sonra; kaynakta gün yok): yer adı Kirile çevrilmemiş
+- arayuz | # (yıl yaklaşık; TDV Şehsuvar'ın alış yılını vermez): Türkçe özel ad kalıntısı
+- arayuz | # Nisan # (Kanûnî'nin Halep'ten yazdığı mektubun tarihi): yalnız 'Законодателя' kim olduğu anlaşılmıyor
+- arayuz | # Ocak # (imzalar # Ocak-# Mart arası şeyhlik şeyhlik tamamlandı): 'шейхlik şeyhlik' anlamı eksikti
+- arayuz | (kırpmanın TAMAMI — hâl başına düşen = bu ÷ #; #'de # ms): kırpma burada yanıp sönme; 'изрязване' yanlış
+- arayuz | Eylül # (Kanunî'nin # Eylül'deki vefatının ardından; gün kaynakta yok): yalnız 'Законодателя' anlaşılmıyor
+- arayuz | Haritadaki kırılma: kırılma = haritadaki değişim; 'прекъсване' (kesinti) yanlış
+- arayuz | MÖ # (# Ekim; Livius): Livius = livius.org; Тит Ливий değil
+- arayuz | MÖ # (# veya # Mayıs; Livius # Mayıs): Livius = livius.org; Тит Ливий değil
+- arayuz | MÖ # (Livius: #/#): Livius = livius.org
+- arayuz | MÖ # (Livius: ~#; Herodotos geleneği): Livius = livius.org
+- arayuz | MÖ # (Livius; alternatif MÖ #): Livius = livius.org
+- arayuz | MÖ # (Nisan-Mayıs #; Livius saltanatı #'ten sayar): Livius = livius.org
+- arayuz | MÖ # (Ocak sonu; Livius # Ocak — tek gün kaynağı): Livius = livius.org
+- arayuz | MÖ # (Temmuz; Livius c. # Temmuz — tek gün kaynağı): Livius = livius.org
+- arayuz | MÖ # (Tevrat geleneği; Livius 'yaklaşık #-#'): Livius = livius.org
+- arayuz | MÖ # (yaklaşık; Livius: Gyges #'te öldü): Livius = livius.org
+- arayuz | MÖ # (yaklaşık; Adad-nirari I c. #-#): özel ad Latin kalmış
+- arayuz | MÖ # (yaklaşık; Gungunum yıl #): özel ad Latin kalmış
+- arayuz | MÖ # (yaklaşık; Karmir-blur, Çavuştepe, Bastam): yer adları Latin/Türkçe kalmış
+- arayuz | MÖ # (yaklaşık; Minua c. #-#): özel ad Latin kalmış
+- arayuz | MÖ # (yaklaşık; Orta Kronoloji içinde Utu-hegal c. #-#): özel ad Latin kalmış
+- arayuz | MÖ # (yaklaşık; Tell el-Rimah Steli): yer adı Latin kalmış
+- arayuz | MÖ # (yaklaşık; Untaş-Napiriša c. #-#): özel ad Latin kalmış
+- arayuz | MÖ # (yaklaşık; İşbi-Erra yıl #): özel ad Latin kalmış
+- arayuz | MÖ # (yaklaşık; Şutruk-Nahhunte c. #-#): özel ad Latin kalmış
+- arayuz | MÖ # civarı (Merenre / II. Pepi): özel ad Latin kalmış
+- arayuz | MÖ # civarı (Piye'nin #. yılı; #-# okuluna göre): özel ad Latin kalmış
+- arayuz | MÖ # civarı (Şaruhen sonrası): yer adı Latin kalmış
+- arayuz | TDV'nin menzil maddesi ana kolları sayar,: Türkçe terim Latin kalmış
+- arayuz | Yollar ve koridorlar: menzil yolları ve durakları.: Türkçe terim Latin kalmış
+- arayuz | menzil durağı —: Türkçe terim Latin kalmış
+- arayuz | menzil hattı: Türkçe terim Latin kalmış
+- arayuz | Uçuş ayarları: harita olaya nasıl gitsin (pasif · ani · uçuş) ve uçuşun görüş alanı, hız ve kenar payı: kenar payı yanlış ('поле')
+- arayuz | flyTo(eğik): Türkçe kalıntı
+- arayuz | eski takvim # Ağustos → Gregoryen # Ağustos # (Levaşov'un raporu; yıkım en geç bu gün): 'старо време' = eski zaman; takvim 'стар стил'
+- arayuz | eski takvim # Ağustos → Gregoryen # Eylül #: takvim 'стар стил'
+- arayuz | eski takvim # Ekim → Gregoryen # Kasım #: takvim 'стар стил'
+- arayuz | eski takvim # Mayıs → Gregoryen # Mayıs #: takvim 'стар стил'
+- arayuz | eski takvim # Nisan → Gregoryen # Mayıs #: takvim 'стар стил'
+- arayuz | yerleşim peteğinden: 'петек' yanlış; öteki yerlerde 'клетка'
+- arayuz | ⚠️ Siyasî katman kapalı — tarama şu an görünmüyor.: tarama = çizgili tarama (щриховка), scan değil
+- arayuz | 🗺 İsyan taraması (Eflak · Boğdan · Erdel): tarama = щриховка
+- arayuz | 📍 ② Yerleşim: uçuş ayarı: olay yerinin ekrandaki yerleşimi, şehir değil
+- devlet | lur-i-buzurg: sözdizimi; hanedan adı yazımı
+- devlet | lur-i-kucek: Bulgarca sözdizimi
+- devlet | dacu: yinelenen ad
+- devlet | itilaf-emaneti: emanet = попечителство; 'поверителство' yanlış
+- devlet | hawaii-cumhuriyeti: yazım
+- devlet | avustralya: parantez yanlış anlam veriyor
+- devlet | samoa-kralligi: Berlin Senedi = Берлински акт
+- devlet | lubnan-emirligi: hanedan adı (Maan) Türkçe 'oğlu' biçimiyle verilmiş
+- devlet | kuba-hanligi: 'Кубинско' Küba'ya ait okunur
+- devlet | muvahhidler: Bulgarca yerleşik ad: алмохади
+- devlet | gahadavala: Kannauj yanlış yazılmış
+- devlet | gurjara-pratihara: Kannauj yanlış yazılmış
+- devlet | candela: yazım
+- devlet | derbent-hasimi-emirligi: cins uyumu hatası
+- devlet | idrisi: hanedan adı biçimi
+- devlet | eyyubi: Bulgarca yerleşik biçim аюбиди
+- devlet | eyyubi-halep: Bulgarca yerleşik biçim
+- devlet | eyyubi-meyyafarikin: Bulgarca yerleşik biçim
+- devlet | eyyubi-hama: Bulgarca yerleşik biçim
+- devlet | eyyubi-hisnikeyfa: Bulgarca yerleşik biçim
+- devlet | eyyubi-yemen: öteki Eyyubi adlarıyla uyum
+- devlet | svaziland: özel ad büyük harf
+- devlet | kosova-golge-cumhuriyeti: gölge devlet = държава в сянка
+- devlet | caka-beyligi: yazım hatası
+- devlet | akwamu: yazım hatası
+- devlet | denyanke: yazım hatası
+- devlet | bergama: Attalos hanedanı sıfatı yanlış
+- devlet | ba-devleti: Latin yazı kalmış
+- devlet | gazneli-lahor: hanedan adı büyük harf (öteki kayıtlarla uyum)
+- devlet | naiman: belirli biçim hatalı; öteki kayıtla uyum
