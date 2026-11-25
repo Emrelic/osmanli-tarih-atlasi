@@ -40,6 +40,12 @@ var" sinyalidir; hiçbir olgu oradan alınmaz ve kaynak diye yazılmaz. Her kart
 kaynaktan (hakemli dergi, akademik yayınevi, Encyclopaedia Iranica gibi akademik ansiklopedi, TDV,
 tez, belge neşri) ve OKUNARAK yazılır: yazar, eser, yıl, sayfa ya da madde/URL. Vikipedi tek dayanak
 olamaz. Okunamayan kaynak "okunmadı" yazılır ve BORC-DEFTERI'ne girer; ücretli duvar aşılmaz.
+🔴 ERİŞİM ENGELİ AŞILMAZ: 403, Cloudflare ya da başka bir engel veren sayfa tarayıcı başlığı taklidi
+(User-Agent, Referer), uygulama içi tarayıcı, ayna, web arşivi, önbellek ya da aktarım aracıyla
+ÇEKİLMEZ; "okunamadı" yazılır. İndirme araçları kendini tarayıcı gibi TANITMAZ (genel bir araç adı
+kullanılır). İndirilen dosyaların klasöründen betik çalıştırılmaz. Teslimde metnin hangi yolla
+alındığı yazılır. (25 Kasım gecesi UMIT, KASA, LAB ve HAVVA'da ihlal çıktı; bu madde ilk sürümde
+yoktu.)
 Uydurma alıntı, uydurma diyalog, uydurma tarih yok. Tarihçiler ayrışıyorsa iki görüş de adıyla
 verilir, `kesinlik` alanı buna göre doldurulur. Ulusal hassasiyetli konularda (katliam, sürgün, din)
 dil ölçülü ve kaynaklı olur. Kaynaktan cümle kopyalanmaz; metin özgündür. Küçük model (Haiku)
