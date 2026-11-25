@@ -27,6 +27,22 @@
 - olay OLAYLAR_EK5:1716-10-13:0, 1716-11-16:0, 1791-08-04:0: "atlasta ... yazılıdır", "abi-merkez zinciri", "beyanlı yaklaşıklık", "n. 118".
 - olay OLAYLAR_EK5:1775-05-07:0, 1518-01-01:0: "(gün teyitsiz)" iç not.
 
+== tr_hatalari_b.md
+- olay OLAYLAR_EK5:1865-01-01:0: 1846'da Mehmed Ali Paşa "Mısır Hidivi" deniyor (hidiv unvanı 1867).
+- olay OLAYLAR_EK5:1872-04-01:0, OLAYLAR_EK5:1824-06-01:0, EK5:1878-07-29:0 vb.: gövdede "Aynı tarihte katılan/elden çıkan öteki yerler: ..." atlas listesi kullanıcıya görünüyor.
+- olay OLAYLAR_EK5:1878-01-04:0: "1878 sonunda özerk Bulgaristan Prensliği'nin, 1879'da fiilen başşehri olacaktı" bozuk cümle.
+- olay OLAYLAR_EK5:1715-07-20:0, 1718-07-21:0, 1798-10-23:0, EK6:1535-09-22/1547-01-01, EK6:1686-10-23, EK6:1688-06-22, EK6:1689-02-03, EK6:1730-08-12, EK7:1735-03-21: iç notlar görünüyor ("abi-merkez", "beyanlı yaklaşıklık", "TDV <slug>", "atlas günü", "bkz. önceki madde").
+- olay OLAYLAR_ILIRYA0072:1806-02-01 / 1806-01-01 / 1779-01-01: "atlasta bugüne kadar ... görünüyordu", "atlasın tek 'Fransa' penceresi" geliştirici notu.
+- olay OLAYLAR_EK5:1555-01-01:0: parantez içi harita/kaynak notu ("Bu yıl yaklaşıktır, kaynak yıl vermez").
+- olay OLAYLAR_EK7:1406-10-15:0, OLAYLAR_EK8:1924-01-01:0: ters tırnaklı slug (`tebriz`, `harizm`) kullanıcıya görünüyor.
+- olay OLAYLAR_EK7:1408-04-13:0: açıklama ";" ile yarım bitiyor.
+- olay OLAYLAR_EK5:1912-11-25:0: "I. Balkan Savaşı'nda 7 Nisan 1912'de bombalanan Sakız" (Nisan 1912 Trablusgarp Savaşı dönemidir; Balkan Savaşı Ekim 1912).
+- olay OLAYLAR_EK5:1912-10-30:0 ve 1912-11-01:0: Semadirek işgali iki maddede.
+- olay OLAYLAR_EK5:1521-01-01:0: "1481-1521 şövalye idaresi" ardından "ilk Osmanlı dönemi 1522" ve "kaymakam" (dönem için anakronik görünüyor).
+- olay OLAYLAR_EK8:1893-02-18:0: "torununun torunu" (II. George Tupou, I. George'un torununun oğlu olmalı).
+- olay OLAYLAR_EK9:1911-10-08:0: abluka (25-26 Eylül) savaş ilânından (29 Eylül) önce yazılmış.
+- olay OLAYLAR_EK9:1837-10-13:0 / EK9:1911-11-05:0: harita çizim açıklamaları (taralı, renk) madde metninde; EK10'un birçok maddesinde de "haritada ... görünür" anlatımı.
+
 == tr_hatalari_c.md
 - olay OLAYLAR_EK10:1420-01-01:0: TR.d'de kullanıcıya görünen iç atıf "(... — TDV silistre)".
 - olay OLAYLAR_EK11:1502-01-01:0: "on kayıt hâlinde" (iç veri sözü) ve "(gün teyitsiz)" kullanıcıya görünüyor.

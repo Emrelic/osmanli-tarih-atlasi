@@ -12,7 +12,8 @@ Tam okunan paketler: 4_olay_004..037 (34 paket; aralık tamamlandı)
 Düzeltme: duzeltme_a_001..016
 
 == ilerleme_b.txt
-Tamamen okunan: 4_olay_038-070
+Tamamen okunan: 4_olay_038-072 (35 paket; aralık bitti)
+Düzeltme dosyaları: duzeltme_b_001 - duzeltme_b_014
 
 == ilerleme_c.txt
 Tamamen okunan: 4_olay_073-107 (35/35 paket). Tur olay; duzeltme dosyalari duzeltme_c_001..007.jsonl
@@ -21,9 +22,13 @@ Tamamen okunan: 4_olay_073-107 (35/35 paket). Tur olay; duzeltme dosyalari duzel
 Okunan paketler (tam): 4_olay_108 - 4_olay_142 (35/35). Kalan yok.
 
 == ilerleme_e.txt
-Tamamen okunan: 4_olay_143 - 152
-Bakılan olay kaydı: ~300
+Tamamen okunan: 4_olay_143 - 160
+Bakılan olay kaydı: ~560
 
 == ilerleme_f.txt
 Aralik: 4_olay_178 - 4_olay_212
-Tamamen okunan: 4_olay_178, 179, 180, 181, 182
+Tamamen okunan: 4_olay_178 - 4_olay_188
+Bakilan olay kaydi: 178-188 paketlerinin tamami
+
+== ilerleme_g.txt
+Tamamen okunan: 4_olay_213 - 4_olay_226 (14 paket)

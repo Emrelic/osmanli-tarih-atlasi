@@ -7,6 +7,12 @@
 - Parantez içinde veya atlas etiketi olarak Latin harfli yer adları bazı kayıtlarda bırakıldı (ör. Hisarcık (Grocka), Yagodina, Kostayniçe/Jasenovaç, Karánşebeş, Csákóvár, Kırım listesi OLAYLAR:1783-04-19:0). Açık Yunanca karşılığı olan listeler düzeltildi.
 - "Απώλεια του X στους Y" başlık kalıbı Yunancada zayıf ama anlaşılır; toplu değiştirilmedi.
 
+== notlar_b.md
+- Düzeltilmeyen tutarsızlıklar: kurum/eser adlarının bir kısmı Latin-Osmanlıca bırakılmış (Encümen-i Dâniş, Şûrâ-yı Devlet, Kanûn-ı Esâsî, Meclis-i Meb'ûsan; EK5 paketleri) ama EK7'de Yunanca harfle yazılmış. Toplu karar gerektirir.
+- Aynı yer için farklı yazımlar: Γκιάντζα/Γκιντζέ, Ταμπρίζ/Ταυρίδα, Πασαρόβιτς/Πασάροβιτς, μπεηλέρμπεης/μπεϊλέρμπεης, εγιαλέτι/έγιαλετ, Αμπντούλ Χαμίτ/Αμπντουλχαμίτ.
+- "μεντρεσές" bazı maddelerde dişil (αυτή η μεντρεσέ) kalmış olabilir.
+- İbrâil = Braila hatası (EK7:1809-12-02, 1828-06-23) bu aralıkta düzeltildi; başka paketlerde ve arayüz/devlet tarafında "İbrâil -> Ισμαήλ" taranmalı. "Değirmenlik" (Milos) için de aynı tarama yapılmalı.
+
 == notlar_c.md
 - SISTEMATIK (duzeltilmedi, toplu yeniden ceviri gerekir): 4_olay_098'in ikinci yarisi - 4_olay_102 araliginda (SENKRON_0930 sonu, COK_ARABISTAN2, 2S_0918, ORTADOGU_0919, 2S_0919'un ilk bolumu) ozel adlar Yunancaya cevrilmeden Latin/Turkce yazimla birakilmis (Szatmár, Bocskai, Rákóczi, Süleyman Çelebi, Hadım Süleyman Πασά, Kara Yûsuf, Mütevekkil-Alellah, Kesîrî, Aşkale, Babadağ, Göktepe, Dulkadıroğlu, Şeybânî, Mâzenderan, Afşar, Qajar, Zamość vb.). Ayni dil icinde Yunanca bicimlerle (Σατμάρ, Μπότσκαϊ) karisik.
 - Qajar / Κατζάρ, Zend / Ζεντ, Sa'dîler gibi adlarda paketler arasi tutarsizlik; c turunda yalniz Σααδίτες, Ζεντ (iki yer) duzeltildi.
