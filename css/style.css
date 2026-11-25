@@ -190,15 +190,43 @@
 }
 .dss-hizli:hover { background: #ffe9a8; }
 .dss-hizli.secili { background: var(--altin); color: #fff; }
-#devlet-secici-liste-baslik {
-  display: flex; gap: 6px; padding: 0 4px 2px; font-size: 10px; color: #7a6a4a;
+/* 26 Kasım 2026 (Emre: "yuvarlak mı kare mi, ne işe yarıyor anlaşılmıyor") — ODAK (yuvarlak,
+   kırmızı) ve EK (kare, yeşil) iki renkli SÜTUN: başlık, zemin ve seçici aynı rengi taşır. */
+#devlet-secici-panel {
+  --dss-sutun: 48px;
+  --dss-odak: #8e0b22; --dss-odak-zemin: #fbe9ec;
+  --dss-ek: #2e7d32;   --dss-ek-zemin: #e9f3e6;
 }
-#devlet-secici-liste-baslik span:nth-child(1) { width: 34px; }
-#devlet-secici-liste-baslik span:nth-child(2) { width: 22px; }
-.devlet-secici-satir .dss-radyo, .devlet-secici-satir .dss-kutu { margin: 0; flex: 0 0 auto; cursor: pointer; }
-.devlet-secici-satir .dss-radyo { margin: 0 8px 0 10px; accent-color: #8e0b22; }
-.devlet-secici-satir .dss-kutu { margin-right: 6px; accent-color: #2e7d32; }
-.devlet-secici-satir .dss-kutu:disabled { opacity: .3; cursor: default; }
+#dss-aciklama { flex: 0 0 auto; margin: 0 0 5px; font-size: 11.5px; line-height: 1.35; }
+#dss-aciklama p { display: flex; align-items: baseline; gap: 5px; margin-top: 1px; }
+#dss-aciklama p b { flex: 0 0 auto; width: 1.1em; text-align: center; font-size: 13px; }
+#dss-aciklama p span { flex: 0 1 auto; min-width: 0; }  /* simgenin yanında kalsın (sağdan sola dilde de) */
+.dss-ack-odak { color: var(--dss-odak); }
+.dss-ack-ek { color: var(--dss-ek); }
+#devlet-secici-liste-baslik {
+  flex: 0 0 auto; display: flex; align-items: stretch;
+  font-size: 11px; color: #6b4f1d; background: #f3e9cc; border-bottom: 2px solid var(--altin);
+}
+#devlet-secici-liste-baslik .dss-sutun-odak, #devlet-secici-liste-baslik .dss-sutun-ek {
+  flex: 0 0 var(--dss-sutun); display: flex; flex-direction: column; align-items: center;
+  justify-content: center; padding: 3px 1px; color: #fff; line-height: 1.15; min-width: 0;
+}
+#devlet-secici-liste-baslik .dss-sutun-odak { background: var(--dss-odak); }
+#devlet-secici-liste-baslik .dss-sutun-ek { background: var(--dss-ek); }
+#devlet-secici-liste-baslik b { font-size: 15px; }
+#devlet-secici-liste-baslik i { font-style: normal; font-weight: 800; font-size: 10.5px; white-space: nowrap; }
+#devlet-secici-liste-baslik .dss-sutun-ad { align-self: center; padding: 0 8px; font-weight: 600; }
+.dss-hucre {
+  flex: 0 0 var(--dss-sutun); align-self: stretch;
+  display: flex; align-items: center; justify-content: center;
+}
+.dss-hucre-odak { background: var(--dss-odak-zemin); }
+.dss-hucre-ek { background: var(--dss-ek-zemin); margin-left: -5px; /* satırın gap değeri: iki sütun bitişik, başlıkla hizalı */ }
+.devlet-secici-satir .dss-radyo, .devlet-secici-satir .dss-kutu { margin: 0; width: 17px; height: 17px; cursor: pointer; }
+.devlet-secici-satir .dss-radyo { accent-color: var(--dss-odak); }
+.devlet-secici-satir .dss-kutu { accent-color: var(--dss-ek); }
+/* Odak satırında kare GÖSTERİLMEZ: soluk işaretli kare "bu devlet hem odak hem ek" okunuyordu. */
+.devlet-secici-satir .dss-kutu:disabled { visibility: hidden; }
 .dss-bilgi { flex: 0 0 auto; font-size: 10.5px; color: #7a6a4a; white-space: nowrap; }
 
 /* 🔴 `overflow: hidden` HTML'DE DE OLMALI — yalnız body'de yetmiyor.
@@ -398,7 +426,8 @@ body {
    paragraf paragraf kendi yönünü bulur (Latin ad/rakam karışık satırlar bozulmaz). */
 .ceviri-rtl #olay-listesi > *, .ceviri-rtl #olay-listesi > * *,
 .ceviri-rtl p, .ceviri-rtl li, .ceviri-rtl label, .ceviri-rtl h1, .ceviri-rtl h2, .ceviri-rtl h3,
-.ceviri-rtl h4, .ceviri-rtl summary, .ceviri-rtl [id^="ob-"], .ceviri-rtl [id^="ob-"] * {
+.ceviri-rtl h4, .ceviri-rtl summary, .ceviri-rtl [id^="ob-"], .ceviri-rtl [id^="ob-"] *,
+.ceviri-rtl #dss-aciklama span, .ceviri-rtl .dsp-bolge-bas .dsp-bolum-not {
   unicode-bidi: plaintext; text-align: start;
 }
 
@@ -1043,8 +1072,8 @@ body {
    (40 px; `auto` gerçek boyu çizildikten sonra hatırlar). Şimdiki maddeye
    kaydırma sınandı: 1453 · 1683 · 1914'e atlamada satır görünür kaldı. */
 #olay-listesi > .olay { content-visibility: auto; contain-intrinsic-size: auto 40px; }
-.devlet-secici-satir { content-visibility: auto; contain-intrinsic-size: auto 24px; }
-#devlet-secici-liste { max-height: min(360px, 40vh); overflow-y: auto; border: 1px solid #e6dcc0; border-radius: 4px; background: #fff; }
+.devlet-secici-satir { content-visibility: auto; contain-intrinsic-size: auto 31px; }
+#devlet-secici-liste { flex: 1 1 auto; min-height: 0; overflow-y: auto; overscroll-behavior: contain; }
 #devlet-secici-ara-satir { display: flex; gap: 4px; margin-bottom: 4px; }
 #devlet-secici-ara {
   flex: 1; min-width: 0;
@@ -1060,7 +1089,7 @@ body {
 .dss-bulunamadi { padding: 6px; font-style: italic; opacity: .75; }
 .devlet-secici-satir {
   display: flex; align-items: center; gap: 5px;
-  padding: 4px 6px 4px 0; border-radius: 0; cursor: pointer;
+  padding: 0 6px 0 0; min-height: 30px; border-radius: 0; cursor: pointer;
   border-bottom: 1px solid #f1ead6;
 }
 .devlet-secici-satir:hover { background: #f0e6c8; }
@@ -1072,7 +1101,87 @@ body {
   padding: 1px 5px; border-radius: 3px; color: #fff;
 }
 .secili-odak .dss-rozet { background: #8e0b22; }
+.devlet-secici-satir.secili-odak { outline: 2px solid #8e0b22; outline-offset: -2px; }
 .secili-ek .dss-rozet { background: #2e7d32; }
+/* ---- 26 Kasım 2026 (Emre) — seçici penceresinin İKİ BÖLGESİ. Gövde kaydırılmaz: ① "Seçilenler"
+   üstte sabit, kalın ayırıcı, ② "Devlet ekle" kalan yeri alır ve yalnız onun LİSTESİ kayar. ---- */
+#devlet-secici-panel { height: min(88vh, 860px); height: min(88dvh, 860px); }
+#devlet-secici-panel .dsp-govde { display: flex; flex-direction: column; overflow: hidden; padding: 0; }
+.dsp-bolge-bas { flex: 0 0 auto; display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 8px; margin-bottom: 5px; }
+.dsp-bolge-bas h4 { margin: 0; font-size: 13.5px; font-weight: 800; text-transform: uppercase; letter-spacing: .5px; }
+.dsp-bolge-bas .dsp-bolum-not { margin-left: 0; font-size: 11px; }
+#dsp-secilenler { flex: 0 0 auto; padding: 8px 12px 11px; background: #f3e4b4; }
+#dsp-secilenler h4 { color: #6d0819; }
+#dsp-secilenler .dsp-bolum-not { color: #6b4f1d; }
+#devlet-secici-panel #devlet-secici-havuz {
+  max-height: min(210px, 25vh); margin: 0; padding: 0 2px 0 0; background: none; border: 0; border-radius: 0;
+}
+/* Havuz kendi içinde kayarken satırlar ezilmez, ODAK satırı en üstte yapışık kalır. */
+#devlet-secici-havuz > * { flex-shrink: 0; }
+/* Sol kenar rengi satır içi stil (devlet rengi) olarak gelir; odakta kırmızı. */
+#devlet-secici-havuz .dsh-odak {
+  position: sticky; top: 0; z-index: 1;
+  border: 2px solid #8e0b22; border-left: 7px solid #8e0b22 !important; padding: 6px; font-size: 13.5px;
+}
+#devlet-secici-havuz .dsh-odak .dsh-rol { font-size: 11px; padding: 3px 7px; }
+/* Rozetteki işaret listedeki seçiciyle aynı: yuvarlak = odak, kare = ek. */
+.dsh-rol::before { content: "☑ "; }
+.dsh-odak .dsh-rol::before { content: "◉ "; }
+/* Ayırıcı: sabit bölge ile alttaki seçme alanını kesen kalın bant; ▲ = seçilen yukarı gider. */
+.dsp-ayirac {
+  flex: 0 0 auto; position: relative; z-index: 2; height: 7px;
+  background: linear-gradient(#8e0b22, #6d0819); box-shadow: 0 4px 8px rgba(60, 30, 0, .28);
+}
+.dsp-ayirac span {
+  position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);
+  display: flex; align-items: center; justify-content: center; width: 44px; height: 17px; border-radius: 9px;
+  background: #8e0b22; color: #fff; border: 2px solid #fffdf6; font-size: 9px; line-height: 1;
+}
+#dsp-ekle { flex: 1 1 auto; min-height: 0; display: flex; flex-direction: column; padding: 12px 12px 10px; }
+#dsp-ekle h4 { color: #6b4f1d; }
+#dsp-ekle > #devlet-secici-ara-satir, #dsp-ekle > .dss-ust-sira { flex: 0 0 auto; }
+/* Kesik çizgili çerçeve: "buradan seçilir, burası değişir". */
+#devlet-secici-tablo {
+  flex: 1 1 auto; min-height: 90px; display: flex; flex-direction: column; overflow: hidden;
+  border: 2px dashed var(--altin); border-radius: 6px; background: #fff;
+}
+/* Telefon (dikey) */
+@media (max-width: 599.98px) {
+  #devlet-secici-panel { --dss-sutun: 44px; width: calc(100vw - 12px); height: 96vh; height: 96dvh; max-height: 96dvh; }
+  #devlet-secici-panel .dsp-alt-baslik, #devlet-secici-alt .dsp-ipucu { display: none; }
+  #dsp-secilenler { padding: 6px 8px 10px; }
+  #dsp-ekle { padding: 10px 8px 6px; overflow-y: auto; }
+  #devlet-secici-panel #devlet-secici-havuz { max-height: 22vh; max-height: 22dvh; }
+  /* Dar satır: ad üstte tam okunur; sayaç ve düğmeler altta. */
+  #devlet-secici-havuz .dsh-oge { flex-wrap: wrap; row-gap: 4px; }
+  #devlet-secici-havuz .dsh-ad { flex-basis: calc(100% - 76px); white-space: normal; }
+  #devlet-secici-havuz .dsh-say { margin-left: auto; }
+  #devlet-secici-ara-satir { flex-wrap: wrap; }
+  #devlet-secici-ara { flex-basis: 100%; min-height: 32px; }
+  #devlet-secici-tablo { flex: 1 0 180px; min-height: 0; }
+  .devlet-secici-satir .dss-ad { white-space: normal; line-height: 1.2; padding: 3px 0; }
+  .devlet-secici-satir .dss-bilgi { flex: 0 1 auto; max-width: 34%; white-space: normal; text-align: end; line-height: 1.2; }
+  #devlet-secici-panel #devlet-secici-alt { padding-top: 6px; padding-bottom: 6px; }
+}
+/* Kısa ekran (yatay telefon): üst üste sığmaz → Seçilenler SOLDA sabit sütun, ekleme alanı sağda. */
+@media (max-height: 560px) and (min-width: 600px) {
+  #devlet-secici-panel { width: min(900px, calc(100vw - 16px)); height: 97vh; height: 97dvh; max-height: 97dvh; }
+  #devlet-secici-panel .dsp-govde { flex-direction: row; }
+  #devlet-secici-panel .dsp-alt-baslik { display: none; }
+  #devlet-secici-panel .dsp-ust { padding-top: 3px; padding-bottom: 3px; }
+  #devlet-secici-panel #devlet-secici-alt { padding-top: 3px; padding-bottom: 3px; }
+  #dsp-secilenler { flex: 0 0 40%; min-width: 0; display: flex; flex-direction: column; padding: 6px 10px 6px 8px; }
+  #devlet-secici-panel #devlet-secici-havuz { flex: 1 1 auto; min-height: 0; max-height: none; }
+  #devlet-secici-havuz .dsh-oge { flex-wrap: wrap; row-gap: 4px; }
+  #devlet-secici-havuz .dsh-ad { flex-basis: calc(100% - 76px); white-space: normal; }
+  #devlet-secici-havuz .dsh-say { margin-left: auto; }
+  .dsp-ayirac { height: auto; width: 7px; }
+  .dsp-ayirac span { transform: translate(-50%, -50%) rotate(-90deg); }
+  #dsp-ekle { min-width: 0; padding: 6px 8px 6px 12px; overflow-y: auto; }
+  #dsp-ekle .dsp-bolge-bas { margin-bottom: 3px; }
+  #devlet-secici-tablo { flex: 1 0 150px; min-height: 0; }
+}
+
 .ek-nokta { width: 8px; height: 8px; border-radius: 50%; flex: 0 0 auto; display: inline-block; }
 /* 🔴 21 Ağustos — Emre (KUSUR ②, ekran görüntüsü): "Ek devletlerde dünya
    önemi" kutusu panelden DIŞARI TAŞIYOR. AYNI KAÇAK — `#odak-devlet`

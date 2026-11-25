@@ -73,7 +73,7 @@
 </style>
 <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.24.0/dist/maplibre-gl.css">
 <script>window.SURUM="r17270";</script>
-<link rel="stylesheet" href="css/style.css?v=r158709004">
+<link rel="stylesheet" href="css/style.css?v=r105924855">
 <link rel="stylesheet" href="css/auth.css?v=r262311923">  <!-- ÜYELİK penceresi (GIRIS-1124) — js/auth.js -->
 <!-- Telefon/tablet (parmakla kullanım) kuralları: masaüstü (fare) bu dosyayı hiç uygulamaz. -->
 <link rel="stylesheet" href="css/telefon.css?v=r126927141" media="(pointer: coarse)" id="telefon-css">
@@ -572,20 +572,46 @@
             <button type="button" id="devlet-secici-x" class="dsp-x" title="Kapat (Esc)">×</button>
           </div>
           <div class="dsp-govde">
-            <div class="dsp-bolum">① Seçilenler <span class="dsp-bolum-not">⚙ ayar · 🗺 harita · × çıkar</span></div>
-            <div id="devlet-secici-havuz"></div>
-            <div class="dsp-bolum">② Devlet ekle</div>
-            <!-- 🔎 KRONOLOJİ ARAMA — Emre (25 Ekim 2026). Kutu listeyi SÜZER (Türkçe harf farkı
-                 yok, kelimelerin hepsi geçmeli); Enter ilk eşleşeni ODAK yapar. Kutu
-                 `#devlet-secici-liste`nin DIŞINDA: liste her tıkta yeniden çiziliyor. -->
-            <div id="devlet-secici-ara-satir">
-              <input type="search" id="devlet-secici-ara" autocomplete="off"
-                     placeholder="🔎 Devlet ara (ör. venedik)"
-                     title="Devlet adına göre süzer · Enter: ilk eşleşeni ODAK yap">
-              <button type="button" id="devlet-secici-tumu">☑ Görünenlerin hepsini ekle</button>
-            </div>
-            <div id="devlet-secici-liste-baslik"><span>◉ odak</span><span>☐ ek</span><span>devlet · yıllar · madde</span></div>
-            <div id="devlet-secici-liste"></div>
+            <!-- 26 Kasım 2026 (Emre) — iki AYRI bölge: üstte SABİT "Seçilenler" (liste kaydırılınca
+                 yerinde kalır), kalın ayırıcı, altta hareketli "Devlet ekle" alanı. -->
+            <section id="dsp-secilenler" aria-labelledby="dsp-secilenler-baslik">
+              <div class="dsp-bolge-bas">
+                <h4 id="dsp-secilenler-baslik">① Seçilenler</h4>
+                <span class="dsp-bolum-not">⚙ ayar · 🗺 harita · × çıkar</span>
+              </div>
+              <div id="devlet-secici-havuz"></div>
+            </section>
+            <div class="dsp-ayirac" aria-hidden="true"><span>▲</span></div>
+            <section id="dsp-ekle" aria-labelledby="dsp-ekle-baslik">
+              <div class="dsp-bolge-bas">
+                <h4 id="dsp-ekle-baslik">② Devlet ekle</h4>
+                <span class="dsp-bolum-not">Aşağıdan ara ve işaretle; seçtiklerin yukarıda görünür.</span>
+              </div>
+              <!-- 🔎 KRONOLOJİ ARAMA — Emre (25 Ekim 2026). Kutu listeyi SÜZER (Türkçe harf farkı
+                   yok, kelimelerin hepsi geçmeli); Enter ilk eşleşeni ODAK yapar. Kutu
+                   `#devlet-secici-liste`nin DIŞINDA: liste her tıkta yeniden çiziliyor. -->
+              <div id="devlet-secici-ara-satir">
+                <input type="search" id="devlet-secici-ara" autocomplete="off"
+                       placeholder="🔎 Devlet ara (ör. venedik)"
+                       title="Devlet adına göre süzer · Enter: ilk eşleşeni ODAK yap">
+                <button type="button" id="devlet-secici-tumu">☑ Görünenlerin hepsini ekle</button>
+              </div>
+              <div id="devlet-secici-hizli" class="dss-ust-sira"></div>
+              <!-- Yuvarlak = ODAK, kare = EK. Sütun başlıkları satırlardaki iki seçicinin tam
+                   üstünde durur (genişlik: css `--dss-sutun`). -->
+              <div id="dss-aciklama">
+                <p class="dss-ack-odak"><b aria-hidden="true">◉</b> <span>Yuvarlak = odak: tek devlet; harita ve kamera onu izler.</span></p>
+                <p class="dss-ack-ek"><b aria-hidden="true">☑</b> <span>Kare = ek: istediğin kadar; kronolojisi odakla birlikte akar.</span></p>
+              </div>
+              <div id="devlet-secici-tablo">
+                <div id="devlet-secici-liste-baslik">
+                  <span class="dss-sutun-odak"><b aria-hidden="true">◉</b><i>ODAK</i></span>
+                  <span class="dss-sutun-ek"><b aria-hidden="true">☑</b><i>EK</i></span>
+                  <span class="dss-sutun-ad">devlet · yıllar · madde</span>
+                </div>
+                <div id="devlet-secici-liste"></div>
+              </div>
+            </section>
           </div>
           <div id="devlet-secici-alt">
             <span class="dsp-ipucu">Ayarlar hemen uygulanır.</span>
@@ -2465,9 +2491,9 @@
      app.js'ten HEMEN ÖNCE ve bütün data/*.js'ten SONRA: seçili dil Türkçe değilse
      data/ceviri_<dil>_*.js'i document.write ile araya ekler ve OLAYLAR*/DEVLETLER
      metnini app.js `olaylar`ı kurmadan çevirir. Türkçede hiçbir çeviri dosyası inmez. -->
-<script src="data/ceviri_dizin.js?v=r254759777"></script>
+<script src="data/ceviri_dizin.js?v=r182527526"></script>
 <script src="js/ceviri.js?v=r249747523"></script>
-<script src="js/app.js?v=r111090581"></script>
+<script src="js/app.js?v=r197815818"></script>
 <!-- A-F ALTI KADEME · D/E/F KATMANI + ANTLAŞMA HARİTASI (GORUNUM-ABCD-0916, D-KATMAN).
      Kosu 12 bitince baglandi (17 Eylul). d_katman.js app.js'ten SONRA — guncelle()'yi sarar. -->
 <!-- ▼ data/paket_28.js — aşağıdaki 10 dosya buraya PAKETLENDİ (arac/paketle.py).
