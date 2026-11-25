@@ -499,7 +499,7 @@ window.CEVIRI_DIZIN = {
    ],
    [
     "ceviri_fa_devlet.js",
-    "1e2bda12"
+    "85670549"
    ],
    [
     "ceviri_fa_olay_01.js",
