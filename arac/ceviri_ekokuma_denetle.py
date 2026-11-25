@@ -56,7 +56,7 @@ def denetle(dil, kaynak, kayit):
             kayip = [x for x in set(sk) if sk.count(x) > sm.count(x)]
             yil = sorted(x for x in kayip if len(x) in (3, 4) and x not in sm)
             # "150 bin" → "150,000" doğrudur; CJK/Hint sayı düzeninde (15万, 1,5 lakh) rakam değişir → uyarı
-            carpanli = set(re.findall(r"(\d+)(?:[.,]\d+)?\s*(?:bin|milyon|milyar)\b", tr))
+            carpanli = set(re.findall(r"(\d+)(?:[.,]\d+)?\s*(?:bin|milyon|milyar)", tr))
             acilmis = {x for x in yil if x in carpanli and any(x + "0" * n in sm for n in (3, 6, 9))}
             if dil in ("zh", "ja", "ko", "hi", "bn", "ur"):
                 acilmis |= set(yil) & carpanli
