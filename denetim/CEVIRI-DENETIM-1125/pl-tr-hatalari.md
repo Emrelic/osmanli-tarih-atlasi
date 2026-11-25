@@ -92,3 +92,24 @@
 - olay OLAYLAR_ANTIK_YAKIN_DOGU:-1224-01-01:0: "Asur, orta çağın en güçlü devleti oldu": "Orta Asur dönemi" kastedilmiş; çevirilerde "Ortaçağ" (pl: średniowiecza) oluyor.
 - olay OLAYLAR_ANTIK_YAKIN_DOGU:-0585-01-01:0: "Şehir sonunda bir barış/vasallık düzeniyle sona erdi" bozuk cümle.
 - olay OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1175-01-01:0: "Niksar'da Yağıbasan'ın medresesinin hazîresinde gömülü bulunduğu Dânişmendli merkezlerinden biri" cümlesi bozuk.
+
+== tr_hatalari_e.md
+- olay OLAYLAR_GEZGINLER:1498-05-20:0: başlık "Kalküta" diyor; doğrusu Calicut (Kalikut) — açıklama Calicut diyor. PL başlıkta da "Kalkuty" (TR ile birlikte düzeltilmeli).
+- olay OLAYLAR_GEZGINLER:1871-03-09:0: "on gezi" büyük olasılıkla "ön gezi".
+- olay OLAYLAR_GEZGINLER:1891-06-14:0 / 1861-11-01:0 / 1829-11-03:0: aksansız Türkçe ("gecis", "bati ucu", "nehri agzi", "kavsagi").
+- olay OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1073-01-01:0: başlık kesik ("ve bağımsızlık...").
+- olay OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1131-01-01:0: "katilir" imla; çevrilmemiş İtalyanca alıntı ve kaynak notu kullanıcıya görünüyor.
+- olay OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1205-01-01:0: "Dördüncü Haçlı Seferi'nden yirmi yıl sonra" yanlış görünüyor (sefer 1204, olay 1205).
+- olay OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1061-01-01:0: "TDV bu yılı ... verir" kaynak notu kullanıcı metninde.
+- olay OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0831-02-18:0 ve 0831-09-12:0: Palermo'nun teslimi iki ayrı gün/madde (aynı şekilde 0843 Messina iki madde) — mükerrer olabilir.
+- olay OLAYLAR_ANTIK_AKDENIZ:0106-01-01:0: sonda bozuk noktalama ("bağlandı Savaşın ... maddelerdedir..") ve iç not.
+- olay OLAYLAR_ANTIK_AKDENIZ:-0035-01-01:0, -0063-01-01:0, -0043 vb.: "bu olay kronolojide ayrı maddedir" iç notu.
+- olay OLAYLAR_ANTIK_AKDENIZ:-0277-01-01:0: TDV'den iç alıntı kullanıcı metninde (PL'de alıntı çevrildi).
+- olay OLAYLAR_ANTIK_AKDENIZ:0260-01-01:0: "Valerianus'un Part'a esir düşmesi" — Sasaniler olmalı.
+- olay OLAYLAR_DUNYA_BOLGE_1109:1905-01-22:0: "çariçenin muhafızları" — çarın muhafızları olmalı.
+- olay OLAYLAR_DUNYA_BOLGE_1109:1917-03-15:0: [[rusya-gecici-hukumet]], [[sovyet-rusya]] iç bağlantı kimlikleri görünüyor.
+- olay OLAYLAR_LAB19_BOS_1119_SIBIRYA:1630-01-01:0: başlıkta Kiril "ясак".
+- olay OLAYLAR_ALM1115B:1024-09-08:0: "yeğeni genç Konrad" — genç Konrad kuzeni idi (teyit edilmeli).
+- olay OLAYLAR_ALM1115B:1815-01-01:0: "künyesi bu noktada sona erer" iç not.
+- olay OLAYLAR_DIN_MUSA_1120:-0596-01-01:0: "Tevrat ... 2 Krallar" — II. Krallar Tevrat'ta değil (Tanah).
+- İç not/künye kimliği/BOYALAR/borç/"BEYANLI YAKLAŞIKLIK"/"atlas ... abi merkez"/"Vikipedi, bilgi kutusu"/"ek okuma: karsi-karansebes-1788" kullanıcı metninde: OLAYLAR_LAB19_2S_P1:0613-05-12:0, 0780-12-02:0; OLAYLAR_LAB19_2S_P2:1283-06-08:0; OLAYLAR_LAB19_2S_P5:1860-06-14:0, 1896-09-01:0, 1918-*; OLAYLAR_2S1019:1439-08-27:0, 1458-08-06:0, 1459-06-20:0, 1475-06-06:0; OLAYLAR_AVMAC_A_1029:0433, 0822 ("BOŞLUK BEYANLI"), 1180; OLAYLAR_AVMAC_C_1029:1918-11-13:0, 1918-11-16:0, 1919-03-21:0, 1945-04-13:0, 1945-07-09:0 ("motor dondurma: BOYALAR"), 1949-08-20:0, 1995-01-01:0, 2004-05-01:0; OLAYLAR_AVMAC_FINAL_1029:1703-01-01:0 ("borç"); OLAYLAR_FRANSA_KONTROL_1027 (1284 "künye t", 1348 "yerleşim kaydı", 1388 "madde eksikti", 1481:3 "abi merkez"); OLAYLAR_NAPOLYON_ITALYA_1028 (1128/1071/1059/1283 "zincir/okunmadı", 1143 "künye f", 1532/1540, 1800/1849 "bilgi kutusu/Vikipedi"); OLAYLAR_P0068:1789-10-13:0; OLAYLAR_P0068B:1789-09-22:0 (uzun kaynak tartışması); OLAYLAR_P0917KOSU13:1731-11-15:0.

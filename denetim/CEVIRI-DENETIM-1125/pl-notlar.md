@@ -27,3 +27,12 @@ Karar isteyen, toplu düzeltilmeyen noktalar (4_olay_100-137):
 - 1225-01-13 (ANADOLU_KAFKASYA) "500 çarkçı" > "500 operatorów machin miotających"; "çarhçı" arbaletçi/öncü de olabilir. Dokunulmadı.
 - 1103-01-01 (ANADOLU_KAFKASYA) "yeğeni Yâkūtî" > "siostrzeniec"; akrabalık yönü (bratanek?) doğrulanmadı. 1132-01-01 Saltuk II için de aynı.
 - duzeltme_d_001'de 1182 ve 1251 kayıtlarında b ve d aynı metin olduğu için ikisine ayrı satır verildi.
+
+== notlar_e.md
+Emin olunmayan / bilerek dokunulmayan noktalar:
+- "ośrodek-brat" (abi merkez) OLAYLAR_NAPOLYON_ITALYA_1028:1128*: tuhaf kalke; TR iç not temizlenince birlikte düzeltilmeli.
+- OLAYLAR_2S1019:1392-10-26:0: "Kijiego Afrasijaba" (Kiya Efrâsiyâb) adının çekimi doğrulanmalı.
+- OLAYLAR_MOGOLISTAN1115B:1691-05-30:0: "chosun" ve başka maddede "choszun" yazımı tutarsız.
+- Nisz (Niş) çekimi dosya boyunca tutarsız (Nisza / Nisz çekimsiz).
+- Buwajhidów / Bujidów iki biçimde geçiyor.
+- 137. pakette (aralık dışı) Kiril karakter Grep eşleşmesi var (4_olay_137 satır 138); o paketi okuyan tur bakmalı.

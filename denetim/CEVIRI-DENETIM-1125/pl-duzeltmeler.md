@@ -798,3 +798,116 @@
 - olay | OLAYLAR_2S1019:1458-08-06:0 | d: çekim: na Moreę
 - olay | OLAYLAR_ALM1115B:1358-12-01:0 | d: anlaşılmaz anlatım
 - olay | OLAYLAR_ALM1115B:1024-09-08:0 | d: anlam belirsiz: 'ile birlikte kazandı' gibi okunuyor
+- olay | OLAYLAR_EK:1717-08-18:0 | d: bozuk cümle ve yer adının Lehçe biçimi (Petrowaradyn)
+- olay | OLAYLAR_EK3:1410-06-15:0 | d: anlamsız ad tekrarı
+- olay | OLAYLAR_EK4:1820-07-20:0 | d: dilbilgisi hatası
+- olay | OLAYLAR_EK5:1435-01-01:0 | b: bozuk/uydurma çekim
+- olay | OLAYLAR_EK5:1435-01-01:0 | d: dilbilgisi: çoğul hanedan adı
+- olay | OLAYLAR_EK5:1423-01-01:0 | d: yazım: bejlik; fiil görünüşü
+- olay | OLAYLAR_EK5:1357-09-01:0 | d: bozuk cümle, anlam düşüklüğü
+- olay | OLAYLAR_EK5:1514-09-06:0 | d: AĞIR: anlam tersine çevrilmiş ('Osmanlı'ya itaat ederek')
+- olay | OLAYLAR_EK5:1515-06-13:0 | d: AĞIR: 'iki yıl sonraki sefer' 'iki yıl önceki' diye çevrilmiş
+- olay | OLAYLAR_EK5:1768-10-08:0 | d: dilbilgisi
+- olay | OLAYLAR_EK5:1795-03-01:0 | d: bozuk anlatım
+- olay | OLAYLAR_EK5:1905-07-21:0 | d: yerleşik ad (Dasznakcutiun) ve dilbilgisi
+- olay | OLAYLAR_EK:1717-08-18:0 | d: Bozuk cümle yapısı ve eksik virgül
+- olay | OLAYLAR_EK3:1410-06-15:0 | d: Yinelenen ad; parantezde Türkçe biçim olmalı
+- olay | OLAYLAR_EK4:1820-07-20:0 | d: Dilbilgisi: sıfat uyumu
+- olay | OLAYLAR_EK5:1435-01-01:0 | b: Bozuk başlık: anlamsız 'Dulkadırlım'
+- olay | OLAYLAR_EK5:1435-01-01:0 | d: Dilbilgisi
+- olay | OLAYLAR_EK5:1423-01-01:0 | d: Yanlış sözcük ve imla
+- olay | OLAYLAR_EK5:1357-09-01:0 | d: Bozuk cümle yapısı
+- olay | OLAYLAR_EK5:1514-09-06:0 | d: AĞIR ANLAM HATASI: 'Osmanlı'ya itaat ederek' tam tersine 'itaatten vazgeçerek' çevrilmiş
+- olay | OLAYLAR_EK5:1515-06-13:0 | d: AĞIR ANLAM HATASI: 'iki yıl sonraki Mısır seferi' 'iki yıl önceki' diye çevrilmiş
+- olay | OLAYLAR_EK5:1768-10-08:0 | d: Bozuk cümle
+- olay | OLAYLAR_EK5:1795-03-01:0 | d: Bozuk yapı: 'kazał uciec' = kaçmasını emretti
+- olay | OLAYLAR_EK5:1905-07-21:0 | d: Özel ad; 'w landzie' anlaşılmaz; sayı uyumu
+- olay | OLAYLAR_CINHINDI1115B:1707-01-01:0 | d: bozuk anlatım
+- olay | OLAYLAR_ORTAASYA1115B:1918-07-14:0 | d: yer adı yanlış çevrilmiş (Kızıl Arvat = Kyzył-Arwat)
+- olay | OLAYLAR_ORTAASYA1115B:1919-07-15:0 | d: yer adı yanlış
+- olay | OLAYLAR_LAB19_2S_P1:0820-02-01:0 | d: ay adı yazımı
+- olay | OLAYLAR_LAB19_2S_P2:1200-05-13:0 | d: imla: 'ze wspierającymi'
+- olay | OLAYLAR_LAB19_2S_P4:1833-07-28:0 | d: yanlış anlam: yardım isteyen Hadarîler
+- olay | OLAYLAR_LAB19_2S_P5:1896-09-01:0 | d: özel ad çekimi
+- olay | OLAYLAR_LAB19_2S_P5:1916-05-23:0 | d: 'w Beringii' Bering bölgesi gibi okunuyor; muharebe yeri
+- olay | OLAYLAR_LAB19_2S_P6:1037-01-01:0 | b: 'Fas' burada Fez şehri (1033 maddesiyle tutarlı)
+- olay | OLAYLAR_LAB19_2S_P6:1037-01-01:0 | d: 'Fas' = Fez şehri; Vecde adı tutarlı (Wadżda)
+- olay | OLAYLAR_LAB19_2S_P6:1650-01-01:0 | b: hanedan adı yanlış (Ya'rubîler)
+- olay | OLAYLAR_LAB19_2S_P6:1650-01-01:0 | d: hanedan adı yanlış
+- olay | OLAYLAR_LAB19_2S_P6:1643-01-01:0 | b: hanedan adı yanlış
+- olay | OLAYLAR_LAB19_2S_P6:1643-01-01:0 | d: hanedan adı yanlış
+- olay | OLAYLAR_UMIT19_ASIRET_1119:1779-08-29:0 | b: imla
+- olay | OLAYLAR_UMIT19_ASIRET_1119:1879-08-02:0 | d: bozuk anlatım
+- olay | OLAYLAR_LAB19_BOS_1119_SIBIRYA:1803-01-01:0 | d: Lehçe olmayan harf (ž)
+- olay | OLAYLAR_DIN_MUHAMMED_MEKKE_1119:0605-01-01:0 | d: bozuk anlatım
+- olay | OLAYLAR_DIN_MUHAMMED_MEKKE_1119:0620-01-01:2 | b: CİDDİ yanlış anlam: 'ukamienowany' = taşlanarak öldürüldü
+- olay | OLAYLAR_DIN_MUHAMMED_MEKKE_1119:0620-01-01:2 | d: CİDDİ yanlış anlam: 'ukamienować' = taşlayarak öldürmek
+- olay | OLAYLAR_DIN_ISA_1120:0070-08-01:0 | d: dilbilgisi
+- olay | OLAYLAR_DUNYA_AVRUPA_MO:-0505-01-01:0 | b: dilbilgisi
+- olay | OLAYLAR_DUNYA_AVRUPA_MO:-0544-01-01:0 | b: yanlış halk adı: Fokaialılar (Fokaia), Fokisliler değil
+- olay | OLAYLAR_DUNYA_AVRUPA_MO:-0544-01-01:0 | d: yanlış halk adı ve yer adı
+- olay | OLAYLAR_DUNYA_AVRUPA_MO:-0573-01-01:0 | b: yanlış halk adı
+- olay | OLAYLAR_DUNYA_AVRUPA_MO:-0732-01-01:0 | b: imla
+- olay | OLAYLAR_KI117:1695-01-01:0 | d: başlıkla tutarsız Türkçe yazım
+- olay | OLAYLAR_AVMAC_A_1029:1180-01-01:0 | d: çevrilmemiş Türkçe sözcük (künye)
+- olay | OLAYLAR_AVMAC_A_1029:1254-04-03:0 | d: imla: 'we wstępnym'
+- olay | OLAYLAR_AVMAC_C_1029:1918-11-13:0 | d: çevrilmemiş Türkçe sözcük (künye)
+- olay | OLAYLAR_AVMAC_C_1029:1918-11-16:0 | d: çevrilmemiş Türkçe sözcük (künye)
+- olay | OLAYLAR_AVMAC_C_1029:1949-08-20:0 | d: çevrilmemiş Türkçe sözcük (künye)
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1317-01-09:0 | d: yanlış anlam: 'Jan I'in oğlu' gibi okunuyor
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1589-08-01:0 | d: yanlış anlam: 1 Ağustos'ta henüz ölmemişti
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1284-01-01:0 | d: çevrilmemiş Türkçe/iç alan adı
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1791-09-14:0 | b: yanlış kurum: Kurucu Meclis = Konstytuanta
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1861-02-02:0 | d: bozuk anlatım
+- olay | OLAYLAR_OK104:1284-01-01:0 | b: yanlış harf (ê yerine ę)
+- olay | OLAYLAR_OK104:1284-01-01:0 | d: yanlış harf (ê yerine ę)
+- olay | OLAYLAR_OK104:1344-01-01:0 | b: yanlış harf
+- olay | OLAYLAR_OK104:1344-01-01:0 | d: yanlış harf
+- olay | OLAYLAR_OK104:1443-01-01:0 | b: yanlış harf
+- olay | OLAYLAR_OK104:1443-01-01:0 | d: yanlış harf
+- olay | OLAYLAR_P0063:1734-05-31:0 | b: özne belirsizdi
+- olay | OLAYLAR_P0063:1736-05-02:0 | d: dilbilgisi
+- olay | OLAYLAR_P0063:1737-10-16:0 | d: Türkçe ay adı kalıntısı
+- olay | OLAYLAR_P0917KOSU13:1788-09-01:0 | d: yanlış anlam: 'barışın bitimine kadar' = barış imzalanana kadar
+- olay | OLAYLAR_P0917DUNYA:1918-09-15:0 | d: nesne eksik
+- olay | OLAYLAR_P0068:1789-10-13:0 | d: CİDDİ ters anlam: 'silâhlarını bırakarak' çevirisi 'silahlarıyla' olmuş
+- olay | OLAYLAR_P0068B:1790-04-16:0 | b: cinsiyet/çekim
+- olay | OLAYLAR_P0068B:1790-04-16:0 | d: cinsiyet uyumu
+- olay | OLAYLAR_P0068B:1791-07-09:0 | d: yanlış anlam: perişanlık ≠ nędza (yoksulluk)
+- olay | OLAYLAR_P0068B:1792-01-18:0 | d: Türkçe terim kalıntısı
+- olay | OLAYLAR_P0068B:1792-01-27:0 | b: Türkçe terim kalıntısı
+- olay | OLAYLAR_P0068B:1792-01-27:0 | d: Türkçe terim kalıntısı
+- olay | OLAYLAR_P0068B:1792-02-10:0 | b: Türkçe terim kalıntısı
+- olay | OLAYLAR_P0068B:1792-02-10:0 | d: Türkçe terim kalıntısı
+- olay | OLAYLAR_KRONOEKSIK0921:1621-01-01:0 | d: Türkçe ay adı kalıntısı
+- olay | OLAYLAR_KRONOEKSIK0921:1826-04-08:0 | d: Türkçe sözcük kalıntısı (mescid)
+- olay | OLAYLAR_0073_IRAN_YANYA:1820-03-01:0 | d: dilbilgisi (urząd seraskiera, Moreą)
+- olay | OLAYLAR_0073_IRAN_YANYA:1822-02-14:0 | d: dilbilgisi (seraskierem)
+- olay | OLAYLAR_KAMERIKA:1803-01-01:0 | d: yanlış sözcük: kano, kayak değil
+- olay | OLAYLAR_DUNYA_BOLGE_1109:1490-04-06:0 | d: Lehçede yerleşik ad: Władysław II
+- olay | OLAYLAR_DUNYA_BOLGE_1109:1907-08-31:0 | d: bozuk anlatım
+- olay | OLAYLAR_DUNYA_BOLGE_1109:1917-03-15:0 | d: bozuk anlatım
+- olay | OLAYLAR_DUNYA_BOLGE_1109:1613-03-03:0 | d: yerleşik ad: Wielka Smuta
+- olay | OLAYLAR_GEZGINLER:0922-05-12:0 | d: anakronizm: 10. yy Rus tüccarları = ruscy (Ruś)
+- olay | OLAYLAR_GEZGINLER:0990-01-01:0 | d: eksik sözcük: geçit
+- olay | OLAYLAR_GEZGINLER:1045-12-19:0 | d: Türkçe ay adı kalıntısı
+- olay | OLAYLAR_GEZGINLER:1052-10-24:0 | d: Türkçe ay adı kalıntısı
+- olay | OLAYLAR_GEZGINLER:1404-09-08:0 | d: adın içinde görünmez yumuşak tire
+- olay | OLAYLAR_GEZGINLER:1498-08-05:0 | d: bozuk anlatım
+- olay | OLAYLAR_GEZGINLER:1503-01-06:0 | d: anlamsız ifade (toczenie się)
+- olay | OLAYLAR_GEZGINLER:1577-11-15:0 | d: yanlış anlam: Pelican komutan gibi okunuyor
+- olay | OLAYLAR_GEZGINLER:1579-11-05:0 | d: bozuk anlatım
+- olay | OLAYLAR_GEZGINLER:1670-01-01:0 | d: çekim: Moreę
+- olay | OLAYLAR_GEZGINLER:1671-05-01:0 | b: yanlış anlam: heyet burada elçilik değil
+- olay | OLAYLAR_GEZGINLER:1721-10-08:0 | d: Türkçe ay adı kalıntısı
+- olay | OLAYLAR_GEZGINLER:1773-01-17:0 | d: özne belirsiz (buz ilerleyemedi gibi)
+- olay | OLAYLAR_GEZGINLER:1820-01-01:1 | b: Lehçede yerleşik ad: Iszym
+- olay | OLAYLAR_GEZGINLER:1820-01-01:1 | d: Lehçede yerleşik ad: Iszym
+- olay | OLAYLAR_GEZGINLER:1820-01-01:3 | b: Lehçe yer adı biçimi
+- olay | OLAYLAR_GEZGINLER:1820-01-01:3 | d: Lehçe yer adı biçimi
+- olay | OLAYLAR_GEZGINLER:1828-07-23:0 | d: yanlış anlam: 'Fas (Fez)' şehir
+- olay | OLAYLAR_GEZGINLER:1866-03-24:0 | b: özel ad yanlış çekim
+- olay | OLAYLAR_GEZGINLER:1866-03-24:0 | d: özel ad yanlış çekim
+- olay | OLAYLAR_GEZGINLER:1871-03-09:0 | b: yanlış anlam: TR'deki 'on gezi' = 'ön gezi' (hazırlık gezisi), on gezi değil
+- olay | OLAYLAR_GEZGINLER:1885-06-30:0 | b: Lehçede yerleşik ad: Iszym
+- olay | OLAYLAR_GEZGINLER:1885-06-30:0 | d: Lehçede yerleşik ad: Iszym
