@@ -220,7 +220,7 @@ Ceviri.ekle("zh","devlet",{
 "bati-xia":["西夏（党项）国", "78419c9c"],
 "bati-yan":["西燕（慕容冲）", "21b71f06"],
 "bati-zhou":["西周", "f9a0dec7"],
-"bavendi":["巴萬德王朝", "cdba2691"],
+"bavendi":["巴万德王朝", "cdba2691"],
 "bavyera":["巴伐利亚（公国→选帝侯国→王国）", "855fc9d7"],
 "bavyera-agilolfing":["巴伐利亚公国（阿吉洛尔芬）", "1b517bc3"],
 "bavyera-konsey-cumhuriyeti":["巴伐利亚苏维埃共和国", "683eda2d"],
