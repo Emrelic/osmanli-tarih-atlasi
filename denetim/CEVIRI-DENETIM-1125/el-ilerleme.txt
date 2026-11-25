@@ -27,8 +27,8 @@ Bakılan olay kaydı: yaklaşık 1000
 
 == ilerleme_f.txt
 Aralik: 4_olay_178 - 4_olay_212
-Tamamen okunan: 4_olay_178 - 4_olay_201
-Bakilan olay kaydi: 178-201 paketlerinin tamami
+Tamamen okunan: 4_olay_178 - 4_olay_212 (35/35, aralik bitti)
+Bakilan olay kaydi: 178-212 paketlerinin tamami
 
 == ilerleme_g.txt
 Tamamen okunan: 4_olay_213 - 4_olay_249 (37/37 paket, tur: yalniz olay). Aralik bitti.

@@ -107,6 +107,28 @@
 - olay OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1095-01-01:0: d sonunda "(ö. 488/1095 [?])" ansiklopedi artığı
 - Atlas iç dili birçok d alanında kullanıcıya görünüyor ("Atlasta ... künyesiz / beyanlı boşluk / BEYANLI YAKLAŞIKLIK", "TDV'de gün yok"): ör. OLAYLAR_ORTACAG_ORTADOGU:1076-08-05:0, OLAYLAR_ORTACAG_ORTADOGU:1102-05-22:0, OLAYLAR_ORTACAG_IRAN_TURAN:1092-11-19:0
 
+== tr_hatalari_f.md
+- olay OLAYLAR_ORTACAG_BOZKIR:1239-10-18:0: d'de kaynak notu "(TDV'de 'Çernikov')" kullanıcıya görünüyor.
+- olay OLAYLAR_ORTACAG_BOZKIR:1209-01-01:0: "Al-Hatun" adı kuşkulu (literatürde Al Altun). Çeviri TR'ye uyduruldu; teyit gerekir.
+- olay OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1142-02-01:0: "nâib Pu-su-wan" (kız kardeş/naibe) ifadesi belirsiz; CV erkek naip diyor.
+- olay OLAYLAR_ORTACAG_CIN:0907-06-01:0: d "; " ile yarım bitiyor.
+- olay OLAYLAR_ORTACAG_CIN:0640-10-11:0 / 0756-07-14:0 / 0842-01-01:0 / 0994 / 1127-05-13 / 1129 / 1142 / 1259: d'de Çince karakterler (甲午, 癸卯, 將作少監 vb.) kullanıcıya görünüyor.
+- olay OLAYLAR_ORTACAG_CIN:1100-02-23:0: "ayni anadan" (aynı).
+- olay OLAYLAR_ORTACAG_DOGU_GUNEYDOGU_ASYA:0929-01-01:0/1, 0936-09-26:1/2, 1185-12-21:0-3, 1222-01-01:0/1: d sonunda parantezli alan notları ("(Brantas deltası Doğu Cava.)", "(Hubaekje ülkesi.)", "(Hōjō Tokimasa'nın ... yer.)") iç not gibi görünüyor.
+- olay OLAYLAR_ORTACAG_CIN:... ve ANTIK_MISIR_NUBYA:-2054-01-01:0: "(aşağıdaki madde)" iç gönderme.
+- olay OLAYLAR_ANTIK_MISIR_NUBYA:0069-07-01:0: "Yahudi ordusu" büyük olasılıkla "Yahudiye ordusu" (Iudaea'daki Roma lejyonları).
+- olay OLAYLAR_ANTIK_YAKIN_DOGU:-0585-01-01:0: "Şehir sonunda ... sona erdi" bozuk (kuşatma sona erdi).
+- olay OLAYLAR_ANTIK_YAKIN_DOGU:-0330-10-01:0: d cümlesi bozuk ("sol kanat savunmasıyla yarıp içeri girdiği saldırıda").
+- olay OLAYLAR_ANTIK_YAKIN_DOGU:-1224-01-01:0: "orta çağın en güçlü devleti" (kastedilen Orta Asur dönemi?).
+- olay OLAYLAR_ANTIK_AKDENIZ:-0035-01-01:0, -0063-01-01:0, 0106-01-01:0: "(... kronolojide ayrı maddedir)" iç notu; 0106'da ayrıca eksik nokta ve "..".
+- olay OLAYLAR_ANTIK_AKDENIZ:-0277-01-01:0: d'de TDV alıntısı kullanıcıya görünüyor; alıntıdaki "milattan önce 278-189" ifadesi okunuşa açık.
+- olay OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1061-01-01:0: "TDV bu yılı ... verir" kaynak notu.
+- olay OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1073-01-01:0: b "bağımsızlık..." ile kesik.
+- olay OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1131-01-01:0: d'de araştırma notu ("Treccani ayrıca: ... (Treccani DBI Ruggero II)") ve "katilir" yazımı.
+- olay OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1136-01-01:0: "Dükalik" (Dükalık).
+- olay OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1205-01-01:0: "Dördüncü Haçlı Seferi'nden yirmi yıl sonra" yanlış görünüyor (sefer 1204).
+- olay OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0831-02-18:0 ve 0831-09-12:0: Palermo teslimi iki ayrı günde iki madde; 0843-01-01:0/1 Messina mükerrer.
+
 == tr_hatalari_g.md
 - olay OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1209-01-01:0 ve 1247-01-01:0: bozuk Türkçe ("vikontluk ... kraliyete el konuldu" / "krala el konuldu").
 - olay OLAYLAR_LAB19_2S_P6:1944-10-20:0 (b): "Kızıl Ordu'since" bozuk.

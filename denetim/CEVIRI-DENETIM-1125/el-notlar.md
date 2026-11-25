@@ -36,6 +36,11 @@ Mekanik / sistemik, tek tek düzeltilmedi:
 - 1061 Mağrib kaydı "περιοχή του Μαρόκου" (TR "Fas bölgesi"): şehir mi ülke mi belirsiz, bırakıldı.
 - 1155-03-07 Ani: TR "Ermeni rahibeler" şüpheli (rahip olabilir); çeviri TR'ye göre kadın bırakıldı.
 
+== notlar_f.md
+- Transkripsiyon karışık: aynı pakette Yunan harfli ve Latin harfli özel adlar (Abu Tahir / Αμπού Γκανίμ; Elam, Ur, Akkad, Marduk Latin/Yunan). Üslup sayılıp topluca değiştirilmedi.
+- "Fas" şehir (Fes) mi ülke mi: OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0960-03-03:0, 0993-02-26:0 ve IRAN_HINT_MAGRIB 0985, 1001, 1070 CV'leri "Μαρόκο" diyor; büyük olasılıkla Fes şehri (Φεζ/Φες). TR belirsiz olduğu için yalnız 1146 b (d şehri açıkça söylüyor) düzeltildi.
+- "Υπερώξεια" biçimi önceki turlarla tutarlı bırakıldı; yerleşik biçim "Υπερωξιανή/Τρανσοξιανή" olabilir. 1000/1088 civarı bazı kayıtlarda "Υπεροξιανή" de geçiyor.
+
 == notlar_g.md
 - Özel ad yazımı paketler arasında tutarsız: 233-234, 238 ve yer yer 221-229'da Yunanca transkripsiyon yerine Latin/Türkçe harfli adlar (Cafer Paşa, Hekimoğlu Ali Paşa, Köprülüzade Abdullah Paşa, Nadir, Ganja, Erivan, Tabriz; Almanca/Fransızca yer adları). Toplu üslup konusu olduğu için değiştirilmedi.
 - Pers kralı Sais: "στη Σάι" Yunanca olarak geçerli, dokunulmadı.
