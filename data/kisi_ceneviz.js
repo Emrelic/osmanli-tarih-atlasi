@@ -19,6 +19,18 @@ window.KISI_CENEVIZ = [
 
 { id:"ceneviz-kisi-adamo-centurione", devlet:"cenova", tur:"tuccar", ad:"Adamo Centurione", donem:"16. yüzyıl",
   not:"Cenovalı tüccar ve banker. Andrea Doria'nın kadırga işletmesinin mali işlerini yürüttü; imzası olmadan ödemeler yürümüyordu. En az bir kez yeni sözleşmenin koşullarını görüşmek üzere imparatora gönderildi. 1547-48 bunalımında Doria yanlısı grubun başı olarak öne çıktı.",
-  kaynak:"Edoardo Grendi, «DORIA, Andrea», Dizionario Biografico degli Italiani, c. 41 (1992), treccani.it", teyit:"teyitli" }
+  kaynak:"Edoardo Grendi, «DORIA, Andrea», Dizionario Biografico degli Italiani, c. 41 (1992), treccani.it", teyit:"teyitli" },
+
+{ id:"ceneviz-kisi-benedetto-zaccaria", devlet:"cenova", tur:"komutan", ad:"Benedetto Zaccaria", t:"1308", donem:"13. yüzyıl – 1308",
+  not:"Cenovalı tüccar, korsan, elçi ve amiral. Foça'nın şap ticaretinden büyük servet edindi; 1284'te Meloria'da Pisa'ya karşı kazanılan zaferde büyük payı oldu. Kastilya ve Fransa krallarına amirallik etti, 1304'te Sakız'ı ele geçirdi. 1308'in ilk aylarında Cenova'da öldü. Doğum tarihi bilinmiyor; 1230'ların sonu olduğu tahmin ediliyor.",
+  kaynak:"Denise Bezzina, «ZACCARIA, Benedetto», Dizionario Biografico degli Italiani, c. 100 (2020), treccani.it", teyit:"teyitli" },
+
+{ id:"ceneviz-kisi-francesco-gattilusio", devlet:"cenova", tur:"onder", ad:"Francesco I Gattilusio", t:"1384", donem:"14. yüzyıl – 1384",
+  not:"Cenova'da doğdu. 1354'te iki kadırgayla Ege'ye açıldı, V. Ioannes Palaiologos'un tahtını geri almasına yardım etti; imparatorun kız kardeşi Maria ile evlendi ve Midilli beyliğini aldı. 6 Ağustos 1384'teki depremde öldü. Soyu adayı 1462'ye kadar yönetti.",
+  kaynak:"Enrico Basso, «GATTILUSIO, Francesco» ve «GATTILUSIO, Niccolò», Dizionario Biografico degli Italiani, c. 52 (1999), treccani.it", teyit:"teyitli" },
+
+{ id:"ceneviz-kisi-giovanni-giustiniani-longo", devlet:"cenova", tur:"komutan", ad:"Giovanni Giustiniani Longo", t:"1453", donem:"yaklaşık 1418 – 1453",
+  not:"Büyük olasılıkla Cenova'da doğdu. Tüccarlık ve korsanlık yaptı, 1448'de Kefe konsolosu oldu. 26 Ocak 1453'te iki gemi ve askerle İstanbul'a geldi, kuşatmada savunmayı yönetti. Son saldırıda yaralanıp gemisine çekildi; büyük olasılıkla 1 Ağustos 1453'te Sakız'da öldü.",
+  kaynak:"Giustina Olgiati, «GIUSTINIANI (Giustiniani Longo), Giovanni», Dizionario Biografico degli Italiani, c. 57 (2001), treccani.it", teyit:"teyitli" }
 
 ];
