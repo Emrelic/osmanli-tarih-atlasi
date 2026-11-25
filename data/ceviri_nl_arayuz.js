@@ -1265,7 +1265,7 @@ Ceviri.ekle("nl","arayuz",{
 "O gün tahtta kimin oturduğunu, portresini ve saltanat yıllarını gösterir; zaman ilerledikçe kendiliğinden değişir.":["Toont wie die dag op de troon zat, zijn portret en regeringsjaren; verandert vanzelf naarmate de tijd verstrijkt.", "b6d56bed"],
 "Ocak #":["januari #", "483ff3a6"],
 "Ocak # (ay hassasiyeti)":["januari # (maandnauwkeurigheid)", "3e8b6fe4"],
-"Ocak # (gün Kahire'den — bk. ic_not_t)":["januari # (dag uit Caïro — zie ic_not_t)", "51a7a6d9"],
+"Ocak # (gün Kahire'den — bk. ic_not_t)":["januari # (dag uit Caïro)", "51a7a6d9"],
 "Ocak # (gün kaynakta yok)":["januari # (dag ontbreekt in de bron)", "423c6642"],
 "Ocak – ilkbahar #":["januari – lente #", "2f24cca3"],
 "Odaklanma hızı":["Focussnelheid", "f7da37f9"],
