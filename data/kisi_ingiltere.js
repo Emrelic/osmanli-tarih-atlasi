@@ -1,0 +1,28 @@
+// KİŞİ KAYITLARI — İNGİLTERE. KISILER'e eklenmez.
+window.KISI_INGILTERE = [
+  { id:"ingiltere-kisi-arthur-balfour", devlet:"ingiltere", tur:"yabanci-devlet-adami",
+    teyit:"teyitli", yayin_adayi:true,
+    ad:"Arthur James Balfour",
+    f:"1848-07-25", t:"1930-03-19",
+    donem:"1848–1930 (başbakan 1902–1905; dışişleri bakanı 1916'dan itibaren)",
+    dogum_yer:"Whittingehame",
+    olum:"1930-03-19",
+    olum_yer:"Woking",
+    not:"Muhafazakâr siyasetçi. Dayısı Lord Salisbury onun akıl hocası ve siyasî hamisiydi; Balfour onun ardından parti önderi ve başbakan oldu. Eğitim Yasası (1902), İmparatorluk Savunma Komitesi (1903) ve Fransa ile Entente Cordiale (1904) bu dönemdendir. Aralık 1905'te istifa etti, 1906 seçiminde ağır yenildi. Birinci Dünya Savaşı'nda Churchill'in yerine donanma bakanı, ardından dışişleri bakanı oldu. 1917'de kendi adıyla anılan deklarasyonu yayımladı. 1922'de kont unvanı aldı.",
+    tartisma:"Uzun siyaset hayatına rağmen İngiliz tarih yazımında devlet adamlığı çoğu kez gözden kaçar ya da küçümsenir.",
+    tarihciler:"Samir Seikaly bunu parti önderi ve başbakan olarak zaaflarının başarılarından ağır basmasına bağlar; deklarasyonu çelişkilerle yüklü bir metin olarak niteler ve Balfour'un onu Filistin mandasının hükümlerine koydurarak ona bir tür hukuk dayanağı kazandırdığını yazar.",
+    kaynak:"Samir Seikaly, \"Balfour, Arthur James Balfour, Earl of\", 1914-1918-online (18.02.2016), DOI 10.15463/ie1418.10831, https://encyclopedia.1914-1918-online.net/article/balfour-arthur-james-balfour-earl-of/" },
+
+  { id:"ingiltere-kisi-edward-grey", devlet:"ingiltere", tur:"yabanci-devlet-adami",
+    teyit:"teyitli", yayin_adayi:true,
+    ad:"Sir Edward Grey",
+    f:"1862-04-25", t:"1933-09-07",
+    donem:"1862–1933 (dışişleri bakanı 1905–1916)",
+    dogum_yer:"Londra",
+    olum:"1933-09-07",
+    olum_yer:"Fallodon",
+    not:"20. yüzyılda en uzun süre görev yapan İngiliz dışişleri bakanıdır. Kır hayatına düşkündü; sinekle balık avı ve kuş yetiştiriciliği konusunda uzmanlaştı. 7 Aralık 1905'te bakan oldu. Fransa ile yakınlaşmayı pekiştirdi, 1907'de Rusya ile anlaşma sağladı. 3 Ağustos 1914'te Belçika'nın tarafsızlığının çiğnenmesini öne sürerek parlamentoyu ve kamuoyunu Fransa'nın savunulmasından yana topladı. Osmanlı Devleti'nin ve Bulgaristan'ın Merkez Devletler'e katılmasını önleyemedi. 1916'da görevden ayrıldı; sonra Milletler Cemiyeti'ni destekledi.",
+    tartisma:"Savaşın çıkışındaki rolü tartışmalıdır. Bazı eleştirmenler, Fransa'ya koşulsuz destek sözü vermekten kaçınmasının Almanya'yı İngiliz-Fransız yakınlığını hafife almaya itmiş olabileceğini söyler.",
+    tarihciler:"Detlev Mares'in aktardığı yakın tarihli araştırmalar ise Kıta'daki savaş hazırlıklarının İngiltere pek hesaba katılmadan ilerlediğini, Grey'in olayları etkileme gücünün olmadığını ileri sürer.",
+    kaynak:"Detlev Mares, \"Grey, Sir Edward\", 1914-1918-online (18.04.2017), DOI 10.15463/ie1418.11085, https://encyclopedia.1914-1918-online.net/article/grey-sir-edward/" }
+];
