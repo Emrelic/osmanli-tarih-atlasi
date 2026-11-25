@@ -149,3 +149,19 @@ kartın kendi konusu. Aynı günde başka madde bulunan günler: 1720-01-01 (15 
 maddeye (Lehistan, Fransa, Rusya, İtalya künyeleri…) düşüyordu; `1814-09-18|Viyana Kongresi'nin toplanması`
 ile değiştirildi. Sınanmayan: tarayıcıda görünüm; yükleyici listesi (`_EKOKUMA_DOSYA_ADLARI`) altyapı işidir,
 dosyalar bugün sitede YÜKLENMİYOR.
+
+## 7. Seri üretim parti 02 (20 kayıt, hepsi `teyit:"teyitli"`)
+
+Teyit işareti: her kayıtta `teyit:"teyitli"|"teyitsiz"`; teyitsiz kayıt `yayin_adayi:false` taşır ve
+yayın adayı değildir. Bu partide teyitsiz yok. Kaynaklar: deutsche-biographie.de NDB gövdeleri (tam metin).
+
+- `data/ekokuma_dev_avusturya_02.js` (8): konu 10 Kahlenberg/Lorenli Karl · 14 Sisi · 11+12 Temmuz 1914
+  kararı · 13 Ausgleich · 19 Beyaz Dağ (sebep-sonuç; "temno" kaynağı okunmadı) · 24 Renversement ·
+  21 Pasarofça · 28 Kutsal Roma'nın sonu (sebep-sonuç; Voltaire sözü kullanılmadı)
+- `data/kisi_avusturya_02.js` (7): Lorenli V. Karl, Franz Ferdinand, Elisabeth, Berchtold, Conrad,
+  Gyula Andrássy, Kaunitz
+- `data/hukumdar_avusturya_02.js` (5): I. Franz Joseph (konu 15), II. Ferdinand, I. Leopold, VI. Karl, II. Franz
+- Yazılmayan sıradaki konular: 9 kahve/kruvasan (Teply okunmadı), 16, 17, 18, 20, 22, 23, 25-27, 29-40.
+- Kronoloji gün önerisi (yazılmadı): Fransız-Avusturya savunma ittifakı 1756-05-01 (NDB Kaunitz); mevcut
+  `1756-01-01|Renversement` yalnız yıl. Kuşatma başlangıcı üç kaynakta üç gün: NDB Press 13.7., NDB Schmidt
+  16.7., kronoloji 1683-07-14. Sen Gotar: NDB Press 1.8.1664, NDB Schmidt 22.7.1664 (kronoloji 1664-08-01).

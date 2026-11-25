@@ -5,10 +5,13 @@
 // AD ALANI: window.HUKUMDAR_AVUSTURYA. Her kayıtta devlet:"<künye id>" (data/devletler.js).
 // HUKUMDAR_* bugün arayüzde okunmuyor (şartname); panel altyapı işidir. Yükleyiciye eklenmedi.
 // KAYNAK: Adam Wandruszka, NDB 16 (1990) — bu oturumda gövdesi okundu. Cümle kopyalanmadı.
+// TEYİT DENETİMİ (25.11, parti 02 oturumu): ilk alınma yolu bilinmediği için madde varsayılan
+//   User-Agent'le (taklit yok) ham HTML olarak yeniden indirildi (HTTP 200, engel yok); kilit
+//   olgular ham metinde bulundu. teyit:"teyitli" buna dayanır.
 // ============================================================================
 window.HUKUMDAR_AVUSTURYA = [
 
-{ id:"maria-theresia", devlet:"habsburg",
+{ id:"maria-theresia", devlet:"habsburg", teyit:"teyitli",
   ad:"Maria Theresia",
   from:"1740-10-20",
   ic_not_from:"NDB: babası VI. Karl'ın ölümüyle (20.10.1740) mirasçı oldu. Macar kraliçesi olarak taç giyme günü NDB'de okunmadı (yalnız Mayıs 1741 Pressburg meclisinin bağlılığı geçer); 'from' miras günüdür, taç günü değil.",

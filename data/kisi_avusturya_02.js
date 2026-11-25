@@ -6,6 +6,8 @@
 // Her kayıtta devlet:"<künye id>". Yükleyiciye eklenmedi (altyapı işi).
 // TEYİT İŞARETİ: teyit:"teyitli" | "teyitsiz" (teyitsiz = yayın adayı değil, yayin_adayi:false).
 //   "teyitli" = olgular bu oturumda tam metni okunan Neue Deutsche Biographie maddesinden.
+// ALINMA YOLU: ham HTML (Python urllib), araç özeti değil; site engelsiz (varsayılan User-Agent'le
+//   HTTP 200 sınandı, 25.11). Ayrıntı: ekokuma_dev_avusturya_02.js başlığı.
 // Cümle kopyalanmadı.
 // ============================================================================
 window.KISI_AVUSTURYA02 = [
@@ -102,6 +104,22 @@ window.KISI_AVUSTURYA02 = [
   tartisma:"1867 Uzlaşması kimin zaferiydi? Hellmuth Rössler'e göre Andrássy'nin gerçekleştirdiği Uzlaşma Macaristan'a monarşi içinde açık bir üstünlük verdi; 1870'te Prusya-Fransa savaşında Avusturya'nın Fransa yanında savaşa girmesine de batı yarısının güçlenmemesi için karşı çıktı. Osmanlı açısından: 1849'da İstanbul'a elçi olarak gelmiş, 1878'de ise Bosna-Hersek'in işgalini sağlamıştı. Ayrıntı: ek okuma kartı '1867 Uzlaşması'.",
   ic_not:"Kassa/Košice eşleşmesi ve Volosca'nın Adriyatik kıyısında oluşu NDB'de yazmaz, coğrafi açıklamadır. 'Osmanlı açısından' cümlesi NDB'deki iki olgunun yan yana konmasıdır. Berlin Kongresi günü NDB'de yok; bağ kronoloji maddesine. Ayrılış nedeni NDB: sağlık, siyasetine yönelik ağır eleştiri ve Avusturya'nın yeni Slav yanlısı-feodal-klerikal çizgisi.",
   olay:["1849-08-13|Macar ayaklanmasının","1867-05-29|Ausgleich","1878-07-13|Bosna-Hersek","1879-10-07|Zweibund"],
-  kaynak:"Hellmuth Rößler, \"Andrássy, Julius (Gyula) Graf von\", Neue Deutsche Biographie 1 (1953), S. 274-275, https://www.deutsche-biographie.de/gnd118502875.html" }
+  kaynak:"Hellmuth Rößler, \"Andrássy, Julius (Gyula) Graf von\", Neue Deutsche Biographie 1 (1953), S. 274-275, https://www.deutsche-biographie.de/gnd118502875.html" },
+
+{ id:"kaunitz", tur:"siyasi", devlet:"habsburg", teyit:"teyitli",
+  ad:"Wenzel Anton von Kaunitz (Avusturya devlet şansölyesi)",
+  t:"1794",
+  donem:"devlet şansölyesi 1753-1792",
+  not:"2 Şubat 1711'de Viyana'da doğdu. Leipzig'de imparatorluk hukuku okudu, Avrupa'yı dolaştı; 1742'de Torino elçisi, 1744'te Brüksel'de Avusturya Hollandası'nda bakan oldu. 1748 Aachen barışında Avusturya'nın müzakerecisiydi; 1749'da Silezya'yı geri almak için Fransa ile ittifak programını ortaya koydu ve Paris elçisi oldu. 13 Mayıs 1753'te kendinden önceki hiçbir Avusturya bakanında görülmemiş yetkilerle devlet şansölyesi oldu ve bu makamda kırk bir yıl kaldı (1764'te prens unvanı aldı). 1756-1757 ittifaklar değişimini gerçekleştirdi, Yedi Yıl Savaşı'ndan sonra kilise mülkü ve din adamlarının vergi muafiyeti üzerinden devlet-kilise ilişkisini yeniden kuran reform programını hazırladı. II. Joseph ile sürekli çatıştı. 19 Ağustos 1792'de istifa etti; 27 Haziran 1794'te Viyana yakınındaki Mariahilf'te öldü.",
+  dogum_yer:"Viyana",
+  olum:"27 Haziran 1794",
+  olum_yer:"Mariahilf (Viyana yakını)",
+  olum_sebep:"",
+  ic_not_olum_sebep:"okunmadı — NDB ölüm sebebini vermez.",
+  gorev:"Reichshofrat (1735) → Torino elçisi (1742) → Brüksel'de bakan (1744/45) → Aachen müzakerecisi (1748) → Paris elçisi (1749'da atandı) → devlet şansölyesi (13.5.1753 - 19.8.1792)",
+  tartisma:"Osmanlı açısından: Karl Otmar von Aretin'e göre Kaunitz 1787'de Rusya ile ittifakı tehlikeye atmamak için II. Joseph'e Rusya'nın yanında Osmanlı'ya karşı savaşa girme 'uğursuz' tavsiyesini verdi; Joseph 1790'da öldüğünde bu savaş kaybedilmiş sayılıyordu. Efsane: Paris yıllarında Rousseau'nun onun sekreteri olduğu anlatılır; Aretin bunu açıkça reddeder ve Voltaire ile tanışmadığını da yazar. Kişiliği: hipokondriyak tuhaflıklarıyla ünlüydü; vücuduna hava akımı değmemeli, yanında ölümden söz edilmemeliydi. Aretin onu Pombal ve Tanucci gibi Katolik ülkelerin aydınlanmış mutlakiyet devlet adamları arasında sayar.",
+  ic_not:"'Uğursuz' NDB'deki 'verhängnisvoll' karşılığıdır. Aretin aynı paragrafta 'Kriegseintritt 1777' der; bu, 1778-79 Bavyera Veraset Savaşı'na giriş olabilir, belirsiz olduğu için metne alınmadı. Osmanlı savaşına giriş NDB'de 1787 (tavsiye), kronoloji maddesi 1788-02-09 savaş ilanıdır.",
+  olay:["1748-10-01|Aachen","1756-01-01|Renversement","1763-02-15|Hubertusburg","1772-01-01|Galiçya","1788-02-09|Son Osmanlı-Habsburg"],
+  kaynak:"Karl Otmar Freiherr von Aretin, \"Kaunitz, Wenzel Anton Graf, seit 1764 Fürst von Kaunitz-Rietberg\", Neue Deutsche Biographie 11 (1977), S. 363-369, https://www.deutsche-biographie.de/gnd118721313.html" }
 
 ];
