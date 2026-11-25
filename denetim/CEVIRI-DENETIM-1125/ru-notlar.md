@@ -27,3 +27,17 @@
 - OLAYLAR_TARİH "TDV «Eskişehir»" gibi madde slug adları bırakıldı.
 - Aynı yer için "Хююк / Хёйюк", "зу-ль-хиджа / зу-ль-хиджжа" yazım farkları paketler arasında var; toplu birleştirme yapılmadı.
 - OLAYLAR_ARKEOLOJI_D3_AMERIKA_PASIFIK:-1624-01-01:0 (d) hem duzeltme_d_002 hem 003 dosyasinda ayni metinle var.
+
+== notlar_e.md
+- SİSTEMLİ HATA: OLAYLAR_ORTACAG_ANADOLU_KAFKASYA (1076'dan itibaren, 4_olay_158-162) ve OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB (4_olay_162-163 ve olasılıkla sonrası) paketlerinde Türkçe özel adlar Latin harfle bırakılmış. 163 sonuna kadar düzeltildi; 164-172 okunmadı. Kalan paketlerde bu iki dosya için toplu yeniden transliterasyon geçişi gerekebilir (Kiril harfli metinde Latin harf taraması ile bulunur).
+- Transliterasyon seçimleri: Сёкмен (Sökmen), Гюмюштегин, эмир Гази, мелик Мухаммад, Ягыбасан, Зуннун, Кей-Хосров/Кей-Кавус/Кей-Кубад (bu bölümün kullanımı), Тогрул-шах, Муинаддин Парване. 138-142 paketlerinde Кейхусрев/Кейкубад biçimi kullanılıyor; dosyalar arası tutarsızlık düzeltilmedi.
+- Тугрул/Тогрул biçimi dosyalar arasında karışık; dokunulmadı.
+- OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA bölümünde SNL/Treccani/EB1911/Encyclopedia of Ukraine atıfları ve Norveççe/İtalyanca/İngilizce alıntılar TR'de de aynen var; korunmuştur.
+- 1257-01-01 vb. birkaç yeni transliterasyon (Йошмут=Yaşmut, Хуну=Hunu, Курзахил, Сомхети, Квели) emin olunmayan biçimlerdir; gözden geçirilebilir.
+
+== notlar_f.md
+- OLAYLAR_LAB19_2S_P5:1916-05-23:0: "в Берингии" (Beringia, Darfur'daki muharebe yeri) Rusçada Bering kara köprüsüyle karışıyor; yerleşik biçim doğrulanamadı, değiştirilmedi.
+- OLAYLAR_LAB19_2S_P6:1936-07-18/19: "Gran Enciclopèdia Catalana" Latin bırakıldı (eser adı).
+- OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1131-01-01:0: İtalyanca alıntı TR kaynağında da var; değiştirilmedi.
+- Bazı kayıtlarda Latin harfli kurum/eser/hukuk terimleri (Lex Iulia, Gallia Transalpina, Via Egnatia, Breasted dışındaki yer adı parantezleri: Murcia, Ceuta, Sinj, Grocka) bilinçli bırakıldı.
+- Tiflis için "Тифлис"/"Тбилиси" karışık kullanılıyor (tutarlılık, hata sayılmadı).

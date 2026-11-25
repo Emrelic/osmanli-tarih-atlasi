@@ -23,4 +23,11 @@ Bakilan olay kaydi: yaklasik 1150
 Okunmayan: yok (aralik tamam)
 
 == ilerleme_e.txt
-Tam okunan: 4_olay_138 .. 4_olay_144
+Tam okunan: 4_olay_138 .. 4_olay_163 (olay)
+OKUNMAYAN: 4_olay_164 .. 4_olay_172
+
+== ilerleme_f.txt
+Tamamen okunan: 4_olay_173 - 4_olay_200 (28 paket, olay) - ARALIK BITTI
+
+== ilerleme_g.txt
+Tam okunan paketler: 4_olay_201 - 4_olay_205

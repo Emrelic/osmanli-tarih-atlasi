@@ -81,3 +81,31 @@
 - olay OLAYLAR_T5_1000B:1171-09-13:0 ve :1250-04-30:0: "künye günü kaynak değildir", "Emre #23 metbû modeli" iç notları.
 - olay OLAYLAR_KURULUS_GERI_1021:0972-10-02:0: "gün künye f'sinden"; :0745 / :1057 "(beyanlı boşluk)".
 - olay OLAYLAR_ORTACAG_ORTADOGU:1076-08-05:0: "(Uyûnîler künyesiz)" iç not; :1102-05-22:0 "(BEYANLI YAKLAŞIKLIK)".
+
+== tr_hatalari_e.md
+- olay OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1115-07-24:0: TR d'de kullanıcıya görünen iç not: (kesinlik: {"f": "yuzyil", "t": "gun"}) + "Ayrıca ... URL"
+- olay OLAYLAR_ORTACAG_IRAN_TURAN:1219-01-01:0: TR d "Atlasta Hucend Moğol sahipliği 1219'dan başlar." geliştirici notu
+- olay OLAYLAR_ORTACAG_IBERYA_MAGRIB:1085-05-08:0, 1094-06-15:0, 1102-05-05:0: "Atlasta ... künyesinden/kaydından çıkıp ..." geliştirici notu
+- olay OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:0858 benzeri: OLAYLAR_ORTACAG_BATI_AVRUPA:0858-02-13:0 "Atlasta Forteviot ... yazılıdır" geliştirici notu
+- olay OLAYLAR_ORTACAG_IBERYA_MAGRIB:1002-01-01:0, 1013-01-01:0: "(... kaynak yılı verir, gün yok)" iç not
+- olay OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1241-01-01:1: "(gün bilinmiyor, yıl esas)" iç not; 1000-01-01:1 ve 1056-01-01:1 "(yıl)" iç not
+- olay OLAYLAR_ORTACAG_IRAN_TURAN:1090-03-06:0: "Bâtınîler'le mücadeleyi devlet politikası" aynı cümle iki kez
+- olay OLAYLAR_ORTACAG_IRAN_TURAN:1092-11-19:0: "(485/1092; gün TDV'de yok, ...)" iç not
+- olay OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1122-11-19:0: "yeğenleri Süleyman Halep'te" bozuk ifade
+- olay OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1095-01-01:0: TR d sonunda "(ö. 488/1095 [?])" kalıntısı
+- olay OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1161-08-01:0 / 1185-07-10:0: "Ahlat seferinden eli boş dönmeyip" anlatımı muğlak
+
+== tr_hatalari_f.md
+- olay OLAYLAR_ANTIK_AKDENIZ:0106-01-01:0: d'de noktalama bozuk ("bağlandı Savaşın ... maddelerdedir..").
+- olay OLAYLAR_ANTIK_AKDENIZ:-0145-01-01:0: "Roma'a" yazım hatası.
+- olay OLAYLAR_ANTIK_AKDENIZ:-0277-01-01:0: d'de kullanıcıya görünen kaynak notu (TDV «Ankara» alıntısı).
+- olay OLAYLAR_ANTIK_YAKIN_DOGU:-1224-01-01:0: "orta çağın en güçlü devleti" (MÖ 13. yy için yanlış; Orta Asur dönemi kastedilmiş olmalı).
+- olay OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1061-01-01:0: d'de "TDV bu yılı ... verir" kaynak notu.
+- olay OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1073-01-01:0: başlık "ve bağımsızlık..." diye kesik.
+- olay OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1131-01-01:0: "katilir" yazımı; kullanıcıya görünen İtalyanca Treccani alıntısı/kaynak notu (çeviride de aynen).
+- olay OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1205-01-01:0: "Dördüncü Haçlı Seferi'nden yirmi yıl sonra" (1205, seferden 1 yıl sonra).
+- olay OLAYLAR_ALM1115B:1815-01-01:0: "künyesi bu noktada sona erer" iç veri notu.
+- olay OLAYLAR_LAB19_2S_P1:0613-05-12:0 ve 0780-12-02:0: "Atlasın ... künyesi", "(künye ucu; ... bu kaynakta anlatılmaz)" iç veri notu.
+- olay OLAYLAR_LAB19_2S_P6:1944-10-20:0: b'de "Kızıl Ordu'since" yazım hatası.
+- olay OLAYLAR_LAB19_2S_P6:1936-07-19:0: b'de Vitoria yok, d'de var.
+- olay OLAYLAR_2S1019:1439/1459/1458/1475: d'de "atlasta abi merkezi ... akıbetini izler", "atlasta ... gösterilir" iç yöntem notu.
