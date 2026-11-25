@@ -2461,3 +2461,72 @@
 - olay | OLAYLAR_ANTIK_MISIR_NUBYA:-0204-01-01:0 | d: Latin harfli adlar
 - olay | OLAYLAR_ANTIK_MISIR_NUBYA:-0331-01-01:0 | d: Latin harfli adlar
 - olay | OLAYLAR_ANTIK_MISIR_NUBYA:-0359-01-01:0 | d: Bozuk anlatım
+- olay | OLAYLAR_EK:1717-08-18:0 | d: 'bölge günü' = bölgenin günü; 'дань' (haraç) diye çevrilmiş — ağır anlam hatası
+- olay | OLAYLAR_EK:1444-08-15:0 | d: Türkçe kalıntı; 'ТДВ' kısaltması öteki metinlerde TDV
+- olay | OLAYLAR_EK3:1690-09-27:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK4:1832-09-13:0 | b: Türkçe kalıntı
+- olay | OLAYLAR_EK4:1832-09-13:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK4:1833-06-15:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1299-01-01:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1305-01-01:0 | b: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1305-01-01:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1345-01-01:0 | d: Türkçe kalıntı; Karesi sancağı yanlış ('санджак Каресиды')
+- olay | OLAYLAR_EK5:1405-01-01:0 | b: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1405-01-01:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1412-10-01:0 | b: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1412-10-01:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1419-01-28:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1435-01-01:0 | b: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1435-01-01:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1427-01-01:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1398-07-15:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1467-11-10:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1357-09-01:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1386-06-01:0 | b: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1386-06-01:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1415-03-01:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1446-05-05:0 | b: Çevrilmemiş Türkçe başlık
+- olay | OLAYLAR_EK5:1446-05-05:0 | d: Çevrilmemiş Türkçe ad
+- olay | OLAYLAR_EK5:1468-01-17:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1481-06-22:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1516-05-01:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1513-04-01:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1515-06-13:0 | d: Türkçe kalıntı, dilbilgisi ve ad hatası
+- olay | OLAYLAR_EK5:1553-10-05:0 | b: Çevrilmemiş Türkçe
+- olay | OLAYLAR_EK5:1608-08-09:0 | d: Türkçe kalıntı, anlatım hatası
+- olay | OLAYLAR_EK5:1618-09-26:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK:1717-08-18:0 | d: 'bölge günü' 'дань области' (haraç) diye yanlış çevrilmiş
+- olay | OLAYLAR_EK:1444-08-15:0 | d: Latin kalıntı
+- olay | OLAYLAR_EK3:1690-09-27:0 | d: Latin kalıntı
+- olay | OLAYLAR_EK4:1832-09-13:0 | b: Latin kalıntı
+- olay | OLAYLAR_EK4:1832-09-13:0 | d: Latin kalıntı
+- olay | OLAYLAR_EK4:1833-06-15:0 | d: Latin kalıntı
+- olay | OLAYLAR_EK5:1299-01-01:0 | d: Latin kalıntı; uyum
+- olay | OLAYLAR_EK5:1305-01-01:0 | b: Latin kalıntı
+- olay | OLAYLAR_EK5:1305-01-01:0 | d: Latin kalıntı
+- olay | OLAYLAR_EK5:1345-01-01:0 | d: Latin kalıntı; yanlış ad
+- olay | OLAYLAR_EK5:1405-01-01:0 | b: Latin kalıntı
+- olay | OLAYLAR_EK5:1405-01-01:0 | d: Latin kalıntı
+- olay | OLAYLAR_EK5:1412-10-01:0 | b: Latin kalıntı
+- olay | OLAYLAR_EK5:1412-10-01:0 | d: Latin kalıntı
+- olay | OLAYLAR_EK5:1419-01-28:0 | d: Latin kalıntı
+- olay | OLAYLAR_EK5:1435-01-01:0 | b: Latin kalıntı
+- olay | OLAYLAR_EK5:1435-01-01:0 | d: Latin kalıntı
+- olay | OLAYLAR_EK5:1427-01-01:0 | d: Latin kalıntı
+- olay | OLAYLAR_EK5:1398-07-15:0 | d: Latin kalıntı
+- olay | OLAYLAR_EK5:1467-11-10:0 | d: Latin kalıntı
+- olay | OLAYLAR_EK5:1357-09-01:0 | d: Latin kalıntı
+- olay | OLAYLAR_EK5:1386-06-01:0 | b: Latin kalıntı
+- olay | OLAYLAR_EK5:1386-06-01:0 | d: Latin kalıntı
+- olay | OLAYLAR_EK5:1415-03-01:0 | d: Latin kalıntı; cümle hatası
+- olay | OLAYLAR_EK5:1446-05-05:0 | b: Latin kalıntı
+- olay | OLAYLAR_EK5:1446-05-05:0 | d: Latin kalıntı
+- olay | OLAYLAR_EK5:1468-01-17:0 | d: Latin kalıntı
+- olay | OLAYLAR_EK5:1481-06-22:0 | d: Latin kalıntı
+- olay | OLAYLAR_EK5:1516-05-01:0 | d: Latin kalıntı
+- olay | OLAYLAR_EK5:1513-04-01:0 | d: Latin kalıntı
+- olay | OLAYLAR_EK5:1515-06-13:0 | d: Latin kalıntı; ad hatası
+- olay | OLAYLAR_EK5:1553-10-05:0 | b: Latin kalıntı
+- olay | OLAYLAR_EK5:1608-08-09:0 | d: Latin kalıntı; anlatım
+- olay | OLAYLAR_EK5:1618-09-26:0 | d: Latin kalıntı
+- olay | OLAYLAR_EK22:1923-07-24:0 | d: ajanin uzunluk yuzunden yazamadigi duzeltme
