@@ -1,0 +1,29 @@
+// EK OKUMA — İNGİLTERE, 02. parti (1914 öncesi). Henüz siteye bağlanmadı.
+window.EKOKUMA_DEVINGILTERE02 = [
+
+{ id:"ingiltere-kolelik-tazminat-1833", devlet:"ingiltere", tur:"tartisma",
+  baslik:"Kölelik kaldırılırken tazminatı kim aldı?",
+  olay:["1833-08-28|Kölelik Kaldırma Yasası"],
+  kisa:"1833 yasasıyla Parlamento 20 milyon sterlinlik bir ödeme ayırdı. Para özgürlüğüne kavuşanlara değil, onları \"mülk\" sayan sahiplerine gidecekti.",
+  metin:"28 Ağustos 1833'te Parlamento, Britanya İmparatorluğu'nda köleliği kaldıran yasayı çıkardı. Yasa 800 binden fazla köleleştirilmiş Afrikalıyı ilgilendiriyordu. Uzlaşmanın bir parçası olarak köle sahiplerine, \"mülk\" kayıpları karşılığında 20 milyon sterlin ayrıldı. Sahipler ayrıca \"çıraklık\" denen düzenden yararlanacaktı: Yeni özgürleşen kadın, erkek ve çocuklar eski efendileri için altı yıla varan bir süre daha ücretsiz çalışmaya devam edecekti.\n\n" +
+    "Ödeme 1835-1843 arasında Bank of England aracılığıyla yürütüldü. Hükûmet 15 milyon sterlini, Nathan Mayer Rothschild ile Moses Montefiore'nin başını çektiği finansçılardan borç aldı. Kalan 5 milyon sterlin devlet tahvili olarak dağıtıldı. Jamaika ve Britanya Guyanası gibi büyük Karayip sömürgelerinde nakit ödemeler Ağustos 1835'te başladı. Mauritius, Ümit Burnu, Virgin Adaları ve Barbados'a düşen paylar daha sonra tahvil olarak verildi.\n\n" +
+    "Parayı almak için Londra'da bulunmak gerekiyordu. Bu yüzden pek çok sahip, vekâlet verdiği aracılara başvurdu; aracılar da komisyon aldı. En büyükleri, bu sömürgelerle eskiden beri ticaret yapan Londra bankalarının ve tüccar şirketlerinin ortaklarıydı. Virgin Adaları örneğinde 219 talebin yalnız 10'unu hak sahibi kendisi tahsil etti. Tahviller de elde tutulmadı: 1844'e gelindiğinde neredeyse tamamı satılmıştı.\n\n" +
+    "Tarihçiler bugün ne diyor: Michael Anson ve Michael D. Bennett, Nicholas Draper ile University College London'daki araştırma ekibinin gösterdiği gibi asıl kazananların köle sahipleri olduğunu belirtir. Kendi hesap incelemeleri ise aracıların ve borsa tüccarlarının da bu paradan pay aldığını gösterir. Yazarlara göre bu, Londra'nın finans çevreleri ile kölelik ekonomisi arasındaki güçlü bağların bir başka kanıtıdır.",
+  kaynak:"Michael Anson - Michael D. Bennett, The collection of slavery compensation, 1835–43, Bank of England Staff Working Paper No. 1,006, Kasım 2022, s. 1-7 (giriş), 26-30 (Virgin Adaları, sonuç) ve özet, https://www.bankofengland.co.uk/-/media/boe/files/working-paper/2022/the-collection-of-slavery-compensation-1835-43.pdf",
+  kesinlik:"kesin", teyit:"teyitli", yayin_adayi:true,
+  ic_not:"PDF'in özeti, basılı s. 1-7 ve s. 26-30 (PDF s. 29-33) okundu; ara sonuç bölümleri ve tablolar okunmadı. Çalışma kâğıdıdır (hakemli dergi makalesi değil), tek kaynak. Draper'ın kitabı doğrudan okunmadı. Ödemenin 1835-1843 aralığı ve 1844 durumu aynı kaynaktan." },
+
+{ id:"ingiltere-kibris-1878-48-saat", devlet:"ingiltere", tur:"antlasma",
+  baslik:"Kıbrıs 1878: Londra adayı neden istedi, padişaha ne kadar süre tanıdı?",
+  olay:["1878-06-04|Kıbrıs Sözleşmesi"],
+  kisa:"İngiltere, Rusya'ya karşı savunma sözü verirken Kıbrıs'ta üs istedi. İstanbul'daki elçiye giden talimat, 48 saatlik bir ültimatom niteliğindeydi.",
+  metin:"1877-1878 savaşında yenilen Osmanlı Devleti, mart ayında Rusya ile Ayastefanos ön antlaşmasını imzaladı. Londra iki sonuçtan kaygılıydı: Balkanlar'da kurulacak büyük Bulgaristan ve Kars, Ardahan ile Batum'un Rusya'ya geçmesi.\n\n" +
+    "Dışişleri Bakanı Lord Salisbury sorunu Avrupa ve Asya diye ikiye ayırdı. Kars ve Batum için tek başına savaşa girmek istemiyordu. Onun yerine Osmanlı'nın Asya topraklarını koruyacak bir savunma anlaşması düşündü. Böyle bir söz, bölgeye yakın bir üs gerektiriyordu; Malta fazla uzaktı. Başbakan Lord Beaconsfield (Disraeli) de Kraliçe Victoria'ya Kıbrıs'ı Batı Asya'nın anahtarı olarak anlattı.\n\n" +
+    "Kabine tasarıyı 16 Mayıs'ta onayladı. 23 Mayıs'ta elçi Layard'a giden talimata göre II. Abdülhamid'in 48 saat içinde yanıt vermesi isteniyordu. Reddederse İngiltere desteğini çekecek, bunun imparatorluğun paylaşılmasına yol açacağı bildirilecekti. Layard 25 Mayıs'ta padişahın kabul ettiğini haber verdi; antlaşma 4 Haziran'da imzalandı.\n\n" +
+    "Karşılığında İngiltere, Rusya yeni toprak almaya kalkışırsa Osmanlı'nın Asya topraklarını silahla savunmayı üstlendi. Padişah ise bu topraklarda reform yapma sözü verdi ve adanın İngilizlerce işgal edilip yönetilmesini kabul etti. Sonradan eklenen hükümlere göre gider fazlası gelir Babıâli'ye ödenecek, Rusya Kars'ı ve savaşta aldığı öteki yerleri geri verirse ada boşaltılacaktı. İngiltere, 5 Kasım 1914'te Kıbrıs'ı ilhak etti; Türkiye bunu 1923'te Lozan'da kabul etti.\n\n" +
+    "Tarihçiler bugün ne diyor: İngiliz belgelerini inceleyen Salâhi R. Sonyel, 1978 tarihli yazısında asıl amacın İngiliz etkisini sürdürmek için adayı üs yapmak olduğunu, bunun Rusya'ya karşı savunma ve Anadolu'da reform hedeflerine bağlandığını belirtir. Ona göre bu büyük tasarı gerçekleşmedi; İngiltere'nin Mısır'ı işgal etmesinden sonra Kıbrıs geri planda kaldı.",
+  kaynak:"Salâhi R. Sonyel, \"İngiltere Dışişleri Bakanlığı Belgelerine Göre: Osmanlı Padişahı Abdülhamit, 48 Saat İçinde Kıbrıs'ı İngilizlere Nasıl Kiraladı\", Belleten (TTK), C. XLII, 1978, s. 725-741, https://belleten.gov.tr/tam-metin-pdf/1523/tur",
+  kesinlik:"kesin", teyit:"teyitli", yayin_adayi:true,
+  ic_not:"Makalenin tamamı okundu (PDF metin katmanı Türkçe karakterleri bozuk veriyor). OCR'da belirsiz rakamlar (yıllık ödeme tutarı, ada yönetiminin devir günü, ek hükümlerin günü) metne alınmadı. Tek kaynak; makale 1978 tarihli, yeni literatürle karşılaştırılmadı." }
+
+];
