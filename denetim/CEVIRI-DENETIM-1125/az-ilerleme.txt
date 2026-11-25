@@ -1,0 +1,30 @@
+== ilerleme.txt
+Tam okunan paketler: 1_arayuz_001-009, 2_devlet_001-011, 3_bayrakli_001-003, 4_olay_001-021
+Bakilan kayit: arayuz = tumu (9 paket, ~2200 kayit); devlet = tumu (11 paket, ~1900 kayit); olay = 3_bayrakli'daki ~70 kayit + 4_olay_001-021 (~480 kayit)
+Okunmayan: 4_olay_022-176. Bu araliktan yalnizca belirli kaliplar arandi (Dalmacya, yaka, akinci, yipra, olunce vb.) ve bulunan kayitlarin bir kismi duzeltildi (duzeltme_011); paketler OKUNMADI.
+Not: duzeltme dosyalarinda ayni tur+id+alan icin sonraki dosya oncekinin yerine gecer.
+
+Notlar (emin olunmayan, duzeltilmeyen):
+- Sistematik: olay metinlerinde ay adlari cumle icinde buyuk harfle (Mart 1877, 6 Aprel) yaziliyor; Azerbaycan imlasinda kucuk olmali. Dokunulmadi.
+- 'tesnifli' kaliplar: 'iskele' = 'korpu' hatasi okunmayan paketlerde de olabilir (guvenle aranamadi).
+- 'Eski Zagra' icin Stara Zaqora / Kohne Zaqora tutarliligi okunmayan paketlerde kontrol edilmeli.
+- 'Kolemen' -> 'Kole' hatasi: 4_olay_011'de duzeltildi.
+
+== ilerleme_a.txt
+Tamamen okunan: 4_olay_022-056 (35 paket; araligin tamami)
+Bakilan kayit: yalnız olay turu (paket basi ~12-26 kayit; kayit sayisi ayrica sayilmadi)
+
+== ilerleme_b.txt
+Tamamen okunan: 4_olay_057-091 (35 paket; araligin tamami)
+Bakilan kayit: yalniz olay turu (paket basi ~6-45 kayit; kayit sayisi ayrica sayilmadi)
+
+== ilerleme_c.txt
+Tamamen okunan paketler (ETIKET c): 4_olay_092 - 4_olay_134 (43/43, aralik tamam)
+Bakilan tur: olay (araliktaki butun kayitlar).
+Duzeltme dosyalari: duzeltme_c_001.jsonl - duzeltme_c_018.jsonl
+Kalan paket: yok
+
+== ilerleme_d.txt
+Tamamen okunan: 4_olay_135-176 (42 paket; araligin tamami)
+Bakilan kayit: yalniz olay turu (kayit sayisi ayrica sayilmadi)
+Duzeltme dosyalari: duzeltme_d_001 .. duzeltme_d_012
