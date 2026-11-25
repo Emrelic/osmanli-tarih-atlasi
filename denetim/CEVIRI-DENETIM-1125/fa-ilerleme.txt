@@ -22,4 +22,4 @@ Duzeltme dosyalari: duzeltme_d_001 - duzeltme_d_009
 Notlar: notlar_d.md ; TR hataları: tr_hatalari_d.md
 
 == ilerleme_f.txt
-Tamamen okunan: 4_olay_178 - 4_olay_183
+Tamamen okunan: 4_olay_178 - 4_olay_195

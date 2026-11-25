@@ -911,3 +911,58 @@
 - olay | OLAYLAR_UMIT19_ASIRET_1119:1879-08-02:0 | d: ilgi cümlesi derneğe bağlanıyor
 - olay | OLAYLAR_LAB19_BOS_1119:1746-01-01:0 | b: bozuk anlatım
 - olay | OLAYLAR_LAB19_BOS_1119_SIBIRYA:1630-01-01:0 | d: parantez içi anlam bozuk
+- olay | OLAYLAR_EK5:1716-10-13:0 | d: Latin harfli yer adları; 'ابی‌مرکز' anlamsız harf çevirisi
+- olay | OLAYLAR_EK5:1912-10-18:0 | d: Latin harfli yer adları
+- olay | OLAYLAR_EK7:1829-09-14:0 | d: Latin harfli yer adları
+- olay | OLAYLAR_ORTADOGU_0919:1816-01-01:0 | d: Latin harfli yer adları; bozuk söz dizimi
+- olay | OLAYLAR_P0055:1369-01-01:0 | b: Latin harfli yer adları, bozuk tamlama
+- olay | OLAYLAR_P0055:1369-01-01:0 | d: Latin harfli yer adları
+- olay | OLAYLAR_BK_ZINCIR_1024:1346-06-15:0 | b: Latin harfli adlar
+- olay | OLAYLAR_ONCE1281_GERIYE:1147-10-24:0 | b: Latin harfli adlar; 'لیشبونه' yazımı
+- olay | OLAYLAR_ONCE1281_GERIYE:1147-10-24:0 | d: Latin harfli ad
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1102-05-22:0 | d: çevrilmemiş Türkçe iç etiket
+- olay | OLAYLAR_SEHIR_ILK:1472-06-08:0 | b: Latin harfli yer adı
+- olay | OLAYLAR_OK109:1920-06-04:1 | b: Latin harfli yer adı
+- olay | OLAYLAR_OK109:1920-06-04:1 | d: Latin harfli yer adları
+- olay | OLAYLAR_OK106:1703-05-17:0 | d: Latin harfli adlar; 'نامی که خود معنای کلمه است' anlamsız; پیمان adı tutarlılığı
+- olay | OLAYLAR_OK106:1652-01-01:0 | b: Latin harfli adlar
+- olay | OLAYLAR_H7_ASAMA:1618-09-10:0 | d: Latin harfli adlar
+- olay | OLAYLAR_EK5:1716-10-13:0 | d: 'ابی‌مرکز' Türkçe kalıntısı; eyalet devri yanlış
+- olay | OLAYLAR_EK5:1912-10-18:0 | d: Türkçe/Latin yer adları çevrilmemiş
+- olay | OLAYLAR_EK7:1829-09-14:0 | d: çevrilmemiş Latin harfli yer adları
+- olay | OLAYLAR_ORTADOGU_0919:1816-01-01:0 | d: Latin harfli yer adı kalıntısı
+- olay | OLAYLAR_P0055:1369-01-01:0 | b: Latin-Farsça karışık yazım
+- olay | OLAYLAR_P0055:1369-01-01:0 | d: Latin-Farsça karışık yazım
+- olay | OLAYLAR_SEHIR_ILK:1472-06-08:0 | b: Türkçe ekli ad kalıntısı
+- olay | OLAYLAR_OK109:1920-06-04:1 | b: Türkçe ad kalıntısı
+- olay | OLAYLAR_OK109:1920-06-04:1 | d: Türkçe/Latin ad kalıntısı
+- olay | OLAYLAR_OK106:1703-05-17:0 | d: ad açıklaması anlamsızdı; Türkçe kalıntı
+- olay | OLAYLAR_OK106:1652-01-01:0 | b: Türkçe biçimli ad kalıntısı (Ukrayna); bozuk başlık
+- olay | OLAYLAR_H7_ASAMA:1618-09-10:0 | d: bozuk cümle; Türkçe kalıntı (Paşa) ve Farsça yer adlarının Latin yazılması
+- olay | OLAYLAR_BK_ZINCIR_1024:1346-06-15:0 | b: Türkçe ada adı Latin harfle kalmış
+- olay | OLAYLAR_ONCE1281_GERIYE:1147-10-24:0 | b: Türkçe transkripsiyon (Üşbûne) kalıntısı
+- olay | OLAYLAR_ONCE1281_GERIYE:1147-10-24:0 | d: Türkçe transkripsiyon kalıntısı
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1102-05-22:0 | d: çevrilmemiş Türkçe iç etiket
+- olay | OLAYLAR_LAB19_DUZELTME_1120:1918-09-23:0 | d: artçı (pesqaravol) 'destekçi' diye çevrilmiş
+- olay | OLAYLAR_DIN_ISA_1120:0030-04-07:0 | d: kaynakta olmayan Latin harfli kalıntı
+- olay | OLAYLAR_KI117:1686-01-01:0 | d: yanlış fiil (havaya uçurmak)
+- olay | OLAYLAR_KI117:1686-06-17:0 | b: TR'de 'ilk' yok; 1686 kuşatması ilk değil
+- olay | OLAYLAR_AVMAC_A_1029:0822-01-01:0 | b: bozuk cümle
+- olay | OLAYLAR_AVMAC_A_1029:0822-01-01:0 | d: bozuk cümle
+- olay | OLAYLAR_AVMAC_B_1029:1540-07-22:0 | d: AĞIR: 'Kanunî' (Sultan Süleyman) 'yasal giriş' diye çevrilmiş
+- olay | OLAYLAR_AVMAC_C_1029:1921-12-14:0 | d: bozuk cümle; anlam kayması
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1312-01-01:0 | b: Vienne (Fransa) 'وین' = Viyana diye okunuyor
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1659-11-07:0 | d: Cerdagne yanlış yazılmış (Sardunya ile karışıyor)
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1659-11-07:1 | d: Cerdagne yanlış yazılmış (Sardunya ile karışıyor)
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1435-09-21:0 | b: Somme kasabaları 'üçüncü şehirler' diye okunuyor
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1435-09-21:0 | d: Somme kasabaları 'üçüncü şehirler' diye okunuyor
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1435-09-21:1 | b: Somme kasabaları 'üçüncü şehirler' diye okunuyor
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1435-09-21:1 | d: Somme kasabaları 'üçüncü şehirler' diye okunuyor
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1814-09-01:0 | b: kişi için 'yeniden inşa edildi' (restore) yanlış
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1814-05-20:0 | b: hanedan için 'yeniden inşa edildi' yanlış
+- olay | OLAYLAR_P0057B:1574-01-01:0 | b: Türkçe ek (-lığı) çevrilmeden kalmış
+- olay | OLAYLAR_P0057B:1574-01-01:0 | d: Türkçe ek kalıntısı ve bozuk cümle
+- olay | OLAYLAR_P0057B:1520-01-01:0 | d: neden-sonuç bağı karışmış
+- olay | OLAYLAR_P0057B:1702-01-01:0 | d: anlam tersine dönmüş ('olsa da' yerine 'ile güçlenir')
+- olay | OLAYLAR_P0063:1734-11-09:0 | d: yinelenen sözcük
+- olay | OLAYLAR_P0063:1735-07-09:0 | d: imla (yarım aralık eksik)
