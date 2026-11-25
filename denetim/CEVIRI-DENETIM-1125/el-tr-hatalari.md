@@ -53,3 +53,25 @@
 - olay OLAYLAR_SENUSI_0919:1691-01-01:0: "Eski kayıtta ... beyanlı boşluktu; ... artık Habsburg olarak boyanır" geliştirici notu.
 - olay OLAYLAR_SENUSI_0919:1716-10-18:0, 1688-01-01:0: "Eski kayıt ... yıl tabanı" geliştirici notu.
 - olay OLAYLAR_SENUSI_0919:1717-01-01:0: "petekleri ... boyanır; kesin gün teyitsizdir" motor/geliştirici notu.
+
+== tr_hatalari_d.md
+- olay OLAYLAR_P0049:1724-05-06:0: d'de kullanıcıya görünen iç not ("zincir Hoy'dan devralındı ... beyanlı yaklaşıklık").
+- olay OLAYLAR_P0057:1921-01-01:0: b'de "(yıl)" iç etiketi.
+- olay OLAYLAR_P0056:1811-07-04:0: "Kaminski" (başka maddelerde Kamenski).
+- olay OLAYLAR_ARKEOLOJI_D2_IRAN_ORTA_ASYA:-3199-01-01:0: "Brifteki 'MO ~3100' ..." — ajan brifi metni kullanıcıya görünüyor (ağır).
+- olay OLAYLAR_ARKEOLOJI_D3_ITALYA_AVRUPA:-0751-01-01:0: "bu oturumda KAYNAKTAN okunmadı" iç not.
+- olay OLAYLAR_ARKEOLOJI_D3_ANADOLU_EGE:-1199-01-01:0: b'de "3. dalga okuma notu".
+- olay OLAYLAR_ARKEOLOJI_D3_AMERIKA_PASIFIK:-14961 / -22206: "(ufuk dışı)", "(kaynak)" iç notlar; AMERIKA_PASIFIK/AFRIKA/ARKEOLOJI_LEVANT kayıtlarının TR'si Türkçe harfsiz ("kulturu, yerlesme, Ust, koyu").
+- olay OLAYLAR_ARKEOLOJI_PILOT:-7099-01-01:0: "~200 yıl geriye (daha geç)" çelişkili.
+- olay OLAYLAR_ARKEOLOJI_ZINCIR:* (geniş grup): ham makine metni ("Roma Cumhuriyeti'dan", "sahipsiz aralık", "ayni kaynak", "(ANTIK-ISKENDER-1113-B)", "KAYNAKLANMADI (bu oturumda kaynak yok)", "bu turda okunmadı", "künye t=0027 / t uzatıldı", "web aynası").
+- olay OLAYLAR_ARKEOLOJI_ZINCIR:-0910-01-01:0: not MÖ 14. yy (Aşşur-uballit I) anlatıyor, geçiş "Yeni Asur" ve tarih -0910; içerik uyuşmuyor.
+- olay OLAYLAR_ARKEOLOJI_ZINCIR:-1099 / -1899 / -2003 / -2024: "Kaynak geçiş bilgisi" başka geçişe ait (ör. -2024 için MÖ 16. yy Kassit bölünmesi; -1099 için Ur III çözülmesi).
+- olay OLAYLAR_ARKEOLOJI_ZINCIR:-0329 / -0310 / -0330: başlık ile açıklamadaki devir tarafları uyuşmuyor ("sahipsiz aralık").
+- olay OLAYLAR_ARKEOLOJI_ZINCIR:-0145-01-01:0 / -0799: "Korint: Korint dönemi" (dönem adı yer adı).
+- olay OLAYLAR_ARKEOLOJI_GECIS:*: b'de "sahip dönemi sona erer" iç kalıbı.
+- olay OLAYLAR_OK109:1918-10-31:0: "aslî cumhurbaşkanı" — Károlyi 11 Ocak 1919'da geçici cumhurbaşkanı oldu (el çevirisi "προσωρινός" diyor); doğrulanmalı.
+- olay OLAYLAR_OK109:1918-11-14 / 1918-10-28: "14 Kasım'da başkanlığına Masaryk'in getirildiği hükümet" — Masaryk cumhurbaşkanı seçildi, hükümet başkanı Kramář; doğrulanmalı.
+- olay OLAYLAR_T5_1000A:* : "(atlas bu tarihten önceyi boş bırakır)", "(bölge cümlesi)", "(... maddesi 1120 der)", "künye" notları; 1199-01-06 "TDV'de BULUNAMADI ... künye günü kaynak değildir".
+- olay OLAYLAR_T5_1000A:1231-01-01:1 ve 1256-01-01:0: "atlas ... Emre kararıyla / (Emre kararı)", "(kural 5 sınırı)" — sahibin adı ve iç kural kullanıcıya görünüyor (ağır).
+- olay OLAYLAR_T5_1000B:1171-09-13:0: "(Emre #23 metbû modeli)", "künye günü kaynak değildir" (ağır); 1250-04-30:0 "fark bildirildi"; 1261-06-09:0 "(alt sınır)".
+- olay OLAYLAR_KURULUS_GERI_1021:0745 / 0972 / 1085-05-25: "sahip beyanlı boşluk", "gün künye f'sinden", "kuyruk kronolojide ayrı kayıtlı" iç notlar.
