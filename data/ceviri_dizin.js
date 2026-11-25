@@ -950,15 +950,15 @@ window.CEVIRI_DIZIN = {
   "vi": [
    [
     "ceviri_vi_arayuz.js",
-    "ec447b94"
+    "458353c1"
    ],
    [
     "ceviri_vi_devlet.js",
-    "b0a926cd"
+    "5c5390b2"
    ],
    [
     "ceviri_vi_olay.js",
-    "9dc9c331"
+    "a51312e4"
    ]
   ]
  }
