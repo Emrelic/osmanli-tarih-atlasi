@@ -123,6 +123,31 @@ window.EKOKUMA_DEVINGILTERE01 = [
     "Tarihçiler bugün ne diyor: Stephen Badsey'e göre her gönüllünün kendi sebebi vardı, ama büyük çoğunluk hafif yürekli bir savaş coşkusuyla değil, ülkesinin yenilme tehlikesine karşı soğukkanlı ve ağırbaşlı bir kararla yazılmış görünüyor. Yurtseverliğin ve görev duygusunun yanında ekonomik etkenler de rol oynadı. Badsey, işçi sınıfının savaşa bakışını ölçmenin kanıt ve yöntem bakımından ciddi güçlükler taşıdığını da hatırlatır.",
   kaynak:"Stephen Badsey, \"Great Britain\", 1914-1918-online. International Encyclopedia of the First World War, https://encyclopedia.1914-1918-online.net/article/great-britain-1-1/",
   kesinlik:"tartismali", teyit:"teyitli", yayin_adayi:true,
-  ic_not:"Zorunlu askerlik için atlasta ayrı kronoloji maddesi bulunamadı (Ocak 1916 yasası eksik madde)." }
+  ic_not:"Zorunlu askerlik için atlasta ayrı kronoloji maddesi bulunamadı (Ocak 1916 yasası eksik madde)." },
+
+{ id:"ingiltere-misir-ortulu-himaye-1882", devlet:"ingiltere", tur:"kimdir",
+  baslik:"\"Örtülü himaye\" ne demekti? Mısır'ı yöneten İngiltere neden bunu adıyla söylemedi?",
+  olay:["1882-09-13|Tell el-Kebir","1882-09-13|Mısır'ın İngiliz işgali"],
+  kisa:"1882'den 1914 sonuna kadar Mısır kâğıt üzerinde Osmanlı egemenliğinde kaldı, bakanlıklardaki asıl söz ise İngiliz görevlilerindeydi.",
+  metin:"Mısır 1517'den beri Osmanlı eyaletiydi, ama Mehmed Ali ve hidiv unvanını taşıyan ardılları döneminde fiilen kendi başına yönetiliyordu. Borç krizi tabloyu değiştirdi. Mısır hükûmeti Avrupa bankalarına ödemelerini aksatınca İngiltere ile Fransa 1876'da ülke maliyesinin denetimini ele aldı.\n\n" +
+    "Hükûmet üzerindeki doğrudan siyasî baskı, 1880-1881 kışından başlayarak Mısır ordusunda muhalefet doğurdu. 1882 baharında Albay Ahmed Urabi önderliğinde açık isyan patladı. İngiliz kuvvetleri, Süveyş Kanalı'na yönelik olduğu öne sürülen bir tehdidi gerekçe göstererek temmuz ortasında İskenderiye'ye çıktı ve isyanı bastırdı.\n\n" +
+    "Burada bir güçlük vardı. İngiltere, Osmanlı toprak bütünlüğünü savunan başlıca Avrupa devletlerinden biriydi; Mısır'ı açıkça sömürge ya da himaye ilan edemezdi. Çözüm bir hukuk kurgusu oldu: İngiliz görevliler bakanlıklarda ve memuriyette \"danışman\" sıfatıyla yetkiyi üstlendi, Mısır'ın hukuken Osmanlı egemenliğinde kaldığı söylenmeye devam etti.\n\n" +
+    "Kurguyu savaş bozdu. Osmanlı Devleti 1914'te Merkez Devletler yanında savaşa girince Mısır'ın statüsü hukukî bir krize dönüştü: İstanbul'daki Hidiv Abbas Hilmi, Mısırlıları Osmanlı tebaası olarak İngilizlere karşı silaha çağırdı. 18 Aralık 1914'te Mısır resmen İngiliz himayesi ilan edildi; Abbas tahttan indirildi, yerine amcası Hüseyin Kâmil sultan yapıldı.\n\n" +
+    "Tarihçiler bugün ne diyor: Christopher Rose, 1882-1914 düzenini İngiltere'nin açıkça yapamadığı şeyi bir hukuk kurgusuyla yürütmesi olarak anlatır. Savaş, bu yönetimin resmîleştiği, bağımsızlığın ise ertelendiği dönüm noktasıdır.",
+  kaynak:"Christopher S. Rose, \"Egypt\", 1914-1918-online. International Encyclopedia of the First World War, https://encyclopedia.1914-1918-online.net/article/egypt/",
+  kesinlik:"kesin", teyit:"teyitli", yayin_adayi:true,
+  ic_not:"Rose bu düzene 'Dual Control' ile 'Veiled Protectorate' adlarını eş tutarak verir; 'Dual Control' adlandırması literatürde genellikle 1876-1882 İngiliz-Fransız mali denetimi için kullanılır diye bilinir, bu okunarak teyit edilmedi; o yüzden metne 'Dual Control' adı yazılmadı. Abbas II'nin akrabalık derecesi ('his uncle, Hussein Kamel') maddeden." },
+
+{ id:"ingiltere-misir-bagimsizlik-1922", devlet:"ingiltere", tur:"tartisma",
+  baslik:"1922'de Mısır ne kadar bağımsız oldu?",
+  olay:["1922-02-28|himayeyi kaldırıp"],
+  kisa:"İngiltere himayeyi kaldırdı ve Fuad kral oldu. Ama Süveyş, savunma ve imparatorluk ulaşımı gibi başlıklar Londra'nın elinde kaldı.",
+  metin:"Birinci Dünya Savaşı Mısır'da kıtlık, işsizlik ve sert uygulamalarla hatırlandı. Mütarekeden sonra Saad Zağlul'ün başındaki heyet (Arapçada \"vefd\") Paris Barış Konferansı'nda Mısır'ı temsil etmek istedi. Yüksek Komiser Wingate reddetti. Gösteriler yayılırken İngilizler 8 Mart 1919'da üç önderi tutuklayıp Malta'ya sürdü. 12 Mart'tan itibaren ülke çapında, çoğu şiddete dönüşen protestolar patladı; iki haftada en az 800 kişi öldü.\n\n" +
+    "Londra Wingate'in yerine General Allenby'yi gönderdi; Allenby heyetin Fransa'ya gitmesinin yolunu açtı ve sürgünlerin dönmesine izin verdi. Aralık 1919'da yollanan Milner heyeti ise himayenin sürdürülemeyeceği sonucuna vardı.\n\n" +
+    "28 Şubat 1922'de İngiltere bağımsızlığı tanıdı, Fuad kral unvanı aldı. Ancak şartlar ağırdı: Süveyş Kanalı bölgesi ve imparatorluk ulaşım yollarının güvenliği İngiltere'de kaldı; ülkenin dışa karşı savunmasını ve yabancı çıkarların korunmasını da o üstlendi. Sudan'ın ortak yönetimi kabul edildi, uygulamada ise İngiliz idaresi sürdü. İngiliz nüfuzu öylesine güçlüydü ki 1942'de büyükelçi, tankla saray kapısını zorlayarak krala İngiliz yanlısı bir başbakan atattı.\n\n" +
+    "Tarihçiler bugün ne diyor: Christopher Rose, 1952 darbesinin bu nedenle çoğu zaman asıl siyasî bağımsızlık tarihi sayıldığını yazar. 1919 ayaklanması da tartışmalıdır. Herkesin kol kola yürüdüğü birlik tablosunda gerçek payı vardır, ama monarşi de bu anlatıyı benimsemişti. Bazı tarihçiler, kentli seçkinlerin milliyetçiliğinin kırsala ne kadar ulaştığını sorgular; köylerdeki olaylar merkezî otoriteye ve ekonomik yoksunluğa tepkiyi de yansıtır.",
+  kaynak:"Christopher S. Rose, \"Egypt\", 1914-1918-online. International Encyclopedia of the First World War, https://encyclopedia.1914-1918-online.net/article/egypt/",
+  kesinlik:"tartismali", teyit:"teyitli", yayin_adayi:true,
+  ic_not:"Anderson, Goldberg, Schulze ve Di-Capua doğrudan okunmadı; Rose'un aktarımı." }
 
 ];
