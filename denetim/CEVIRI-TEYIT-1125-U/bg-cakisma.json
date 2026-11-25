@@ -1,0 +1,1741 @@
+{
+ "cakisma": [
+  {
+   "tur": "arayuz",
+   "id": "# (Germiyan çeyizinden birkaç ay sonra)",
+   "taban": "# (няколко месеца след зестрата от Germiyan)",
+   "main": "# (няколко месеца след гермиянската зестра)",
+   "oneri": "# (няколко месеца след зестрата от Гермиян)",
+   "neden": "Türkçe özel ad kalıntısı"
+  },
+  {
+   "tur": "arayuz",
+   "id": "# (teslim günü kaynakta yok; Splényi # Ağustos #'de şehir önüne vardı)",
+   "taban": "# (денят на предаването не е посочен в източника; Splényi пристигна пред града на # август #)",
+   "main": "# (денят на предаването не е посочен в източника; Шплени пристигна пред града на # август #)",
+   "oneri": "# (денят на предаването не е посочен в източника; Сплени пристигна пред града на # август #)",
+   "neden": "özel ad Kirile çevrilmemiş"
+  },
+  {
+   "tur": "arayuz",
+   "id": "# Ekim # (# Ekim tarihli belge muhtariyet iradesidir — TDV trablusgarp-savasi)",
+   "taban": "# октомври # (документът от # октомври е воля за автономия — TDV trablusgarp-savasi)",
+   "main": "# октомври # (документът от # октомври е султанско ираде за автономия — TDV trablusgarp-savasi)",
+   "oneri": "# октомври # (документът с дата # октомври е указът (ираде) за автономия — TDV trablusgarp-savasi)",
+   "neden": "irade = padişah buyruğu; 'воля' yanlış çeviri"
+  },
+  {
+   "tur": "arayuz",
+   "id": "# Ekim # (Madgearu #, Sırp salnameleri; TDV eflak yalnız yıl #). ÇELİŞKİ-# E#: eski # Mayıs # günü Hilandar el yazmasındaki Ioan Dragaš'a ait nota dayanıyordu",
+   "taban": "# октомври # (Madgearu #, сръбски летописи; TDV eflak дава само година #). ÇELİŞKİ-# E#: старият ден # май # се основаваше на бележка за Ioan Dragaš в Хилендарския ръкопис",
+   "main": "# октомври # (Madgearu #, сръбски летописи; TDV eflak дава само година #). ПРОТИВОРЕЧИЕ-# E#: старият ден # май # се основаваше на бележка за Ioan Dragaš в Хилендарския ръкопис",
+   "oneri": "# октомври # (Madgearu #, сръбски летописи; TDV eflak дава само година #). ПРОТИВОРЕЧИЕ-# E#: старият ден # май # се основаваше на бележка за Йоан Драгаш в Хилендарския ръкопис",
+   "neden": "Türkçe etiket ve Latin özel ad kalıntısı"
+  },
+  {
+   "tur": "arayuz",
+   "id": "# Kasım # (Cihan Şah'ın ölümü) · Hasan Ali Eylül #'de yenildi, Şevval # / Nisan #'da öldürüldü (gün kaynakta yok, AY hassasiyeti)",
+   "taban": "# ноември # (смъртта на Cihan Şah) · Hasan Ali беше победен през септември #, убит през Шевал # / април # (денят не е посочен в източника, точност до МЕСЕЦ)",
+   "main": "# ноември # (смъртта на Джахан шах) · Хасан Али беше победен през септември #, убит през Шевал # / април # (денят не е посочен в източника, точност до МЕСЕЦ)",
+   "oneri": "# ноември # (смъртта на Джихан шах) · Хасан Али беше победен през септември #, убит през Шевал # / април # (денят не е посочен в източника, точност до МЕСЕЦ)",
+   "neden": "Türkçe özel ad kalıntısı"
+  },
+  {
+   "tur": "arayuz",
+   "id": "# Temmuz # (USHMM; Führer kararı # Temmuz, aday gün # Temmuz)",
+   "taban": "# юли # (USHMM; решение на Führer # юли, кандидат-ден # юли)",
+   "main": "# юли # (USHMM; решение на фюрера # юли, кандидат-ден # юли)",
+   "oneri": "# юли # (USHMM; решение на фюрера # юли, възможен ден # юли)",
+   "neden": "Almanca kalıntı; 'кандидат-ден' doğal değil"
+  },
+  {
+   "tur": "arayuz",
+   "id": "# dolayı (Cebrî hânedanının kuruluşu XV. yüzyıl başına tarihlenir)",
+   "taban": "около # (основаването на династията Cebrî се датира в началото на XV в.)",
+   "main": "около # (основаването на династията на Джабридите се датира в началото на XV в.)",
+   "oneri": "около # (основаването на династията на Джебритите се датира в началото на XV в.)",
+   "neden": "Türkçe özel ad; devlet adıyla uyum"
+  },
+  {
+   "tur": "arayuz",
+   "id": "# Şâban # / # Aralık # Pazartesi akşamı (Selânikî: # Ramazan / # Aralık)",
+   "taban": "# Шабан # / # декември # в понеделник вечерта (Selânikî: # Рамадан / # декември)",
+   "main": "# Шабан # / # декември # в понеделник вечерта (Селяники: # Рамазан / # декември)",
+   "oneri": "# Шабан # / # декември # в понеделник вечерта (Selânikî: # Рамазан / # декември)",
+   "neden": "ay adı yazımı tutarsız"
+  },
+  {
+   "tur": "arayuz",
+   "id": "Farkları yeniden yakıp söndür",
+   "taban": "Включи и изключи разликите отново",
+   "main": "Накарай разликите отново да мигат",
+   "oneri": "Накарай разликите да мигнат отново",
+   "neden": "anlam: yanıp söndürmek; aç/kapat değil"
+  },
+  {
+   "tur": "arayuz",
+   "id": "Koordinatlı sınır hattı (D katmanı — #’ten geriye sarılmış)",
+   "taban": "Гранична линия с координати (слой D — превита назад от #)",
+   "main": "Гранична линия с координати (слой D — върната назад от #)",
+   "oneri": "Гранична линия с координати (слой D — пренавита назад от #)",
+   "neden": "'превита' = katlanmış; yanlış"
+  },
+  {
+   "tur": "arayuz",
+   "id": "Kopyası bilerek çıkarılmadı (D#: Türkçe kücültme tuzağı).",
+   "taban": "Копие нарочно не е изведено (D#: капан на турското смаляване).",
+   "main": "Копие нарочно не е изведено (D#: турският капан с малките букви).",
+   "oneri": "Копие нарочно не е направено (D#: капан при преобразуване в малки букви на турски).",
+   "neden": "küçültme = küçük harfe çevirme; yanlış anlam"
+  },
+  {
+   "tur": "arayuz",
+   "id": "ad alanı YOK",
+   "taban": "ad alanı YOK",
+   "main": "пространството от имена ЛИПСВА",
+   "oneri": "ЛИПСВА пространство от имена",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "arayuz",
+   "id": "kontrol.kim / kontrol.gun yok",
+   "taban": "kontrol.kim / kontrol.gun yok",
+   "main": "kontrol.kim / kontrol.gun липсва",
+   "oneri": "kontrol.kim / kontrol.gun липсват",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "arayuz",
+   "id": "teklif.kim / teklif.h yok",
+   "taban": "teklif.kim / teklif.h yok",
+   "main": "teklif.kim / teklif.h липсва",
+   "oneri": "teklif.kim / teklif.h липсват",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "arayuz",
+   "id": "haraçgüzâr",
+   "taban": "данъкоплатец (haraçgüzâr)",
+   "main": "харачплатец",
+   "oneri": "плащащ харач (haraçgüzâr)",
+   "neden": "haraç ödeyen devlet; 'vergi mükellefi' yanlış"
+  },
+  {
+   "tur": "arayuz",
+   "id": "🗣️ Nasıl bilirdiniz",
+   "taban": "🗣️ Как го знаехте",
+   "main": "🗣️ Как го помните?",
+   "oneri": "🗣️ Какъв го познавахте?",
+   "neden": "anlam: nasıl biri olarak bilirdiniz"
+  },
+  {
+   "tur": "devlet",
+   "id": "ranquel",
+   "taban": "Ranquel Konfederasyonu",
+   "main": "Конфедерация Ранкел",
+   "oneri": "Конфедерация на ранкелите",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "charrua",
+   "taban": "Charrúa (Minuan · Guenoa)",
+   "main": "Чаруа (минуан · геноа)",
+   "oneri": "Чаруа (минуани · геноа)",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "guarani-misyonlari",
+   "taban": "Guaraní Cizvit Misyonları (Otuz Pueblo)",
+   "main": "Гуарански йезуитски мисии (Трийсетте пуеблос)",
+   "oneri": "Йезуитски мисии сред гуараните (Тридесетте селища)",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "valo",
+   "taban": "Valo (Waalo) Krallığı",
+   "main": "Кралство Вало (Ваало)",
+   "oneri": "Кралство Ваало",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "sine-salum",
+   "taban": "Sine ve Salum Krallıkları (Serer)",
+   "main": "Кралства Сине и Салум (серер)",
+   "oneri": "Кралства Сине и Салум (серери)",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "gambiya-mandinka",
+   "taban": "Gambiya Mandinka Devletçikleri (Niumi · Kombo · Vuli)",
+   "main": "Мандинкски държавици в Гамбия (Ниуми · Комбо · Вули)",
+   "oneri": "Малки мандинкски държави в Гамбия (Ниуми · Комбо · Вули)",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "bambara",
+   "taban": "Bambara Krallıkları (Segu ve Kaarta)",
+   "main": "Кралства на бамбара (Сегу и Каарта)",
+   "oneri": "Бамбарски кралства (Сегу и Каарта)",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "mossi-vagadugu",
+   "taban": "Mossi Krallığı (Vagadugu)",
+   "main": "Кралство Моси (Уагадугу)",
+   "oneri": "Кралство на моси (Уагадугу)",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "zerma",
+   "taban": "Zerma (Djerma) Devletçikleri",
+   "main": "Държавици на зарма (джерма)",
+   "oneri": "Малки държави на зарма (джерма)",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "gyaaman",
+   "taban": "Gyaaman Krallığı",
+   "main": "Кралство Гьяман",
+   "oneri": "Кралство Гяман",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "eve-notse",
+   "taban": "Eve (Ewe) Notse Birliği",
+   "main": "Съюз Еве-Ноце",
+   "oneri": "Съюз Нотсе на еве",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "birom-plato",
+   "taban": "Jos Platosu Halkları (Birom · Jarava)",
+   "main": "Народи на платото Джос (биром · джарава)",
+   "oneri": "Народите на платото Джос (бером · джарава)",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "adar",
+   "taban": "Adar Hausa Sahası (Tahoua · Konni · Madaova)",
+   "main": "Хауска област Адар (Тауа · Кони · Мадауа)",
+   "oneri": "Хауска област Адар (Тахуа · Кони · Мадауа)",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "tuareg-air",
+   "taban": "Aïr Tuareg Sultanlığı (Kel Ayr)",
+   "main": "Туарегски султанат Аир (Кел Аир)",
+   "oneri": "Туарегски султанат Аир (кел аир)",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "tuareg-adag",
+   "taban": "Kel Adag Tuareg Konfederasyonu (Adrar des Ifoghas)",
+   "main": "Туарегска конфедерация Кел Адаг (Адрар де Ифорас)",
+   "oneri": "Туарегска конфедерация кел адаг (Адрар на ифорасите)",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "tuareg-ivellemmedan",
+   "taban": "İvellemmedan Tuareg Konfederasyonu",
+   "main": "Туарегска конфедерация Ивелемедан",
+   "oneri": "Туарегска конфедерация юлемеден",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "adamava",
+   "taban": "Adamava Emirliği (Fumbina)",
+   "main": "Емирство Адамава (Фомбина)",
+   "oneri": "Емирство Адамауа (Фумбина)",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "senusi",
+   "taban": "Senûsî Tarikatı (Senûsiyye)",
+   "main": "Сенусийски орден (Сенусия)",
+   "oneri": "Орден на сенусите (Сенусия)",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "rabih",
+   "taban": "Râbih b. Zübeyr Devleti",
+   "main": "Държавата на Рабих аз-Зубайр",
+   "oneri": "Държава на Рабих аз-Зубайр",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "tio",
+   "taban": "Tio (Teke) Krallığı",
+   "main": "Кралство Тио (Теке)",
+   "oneri": "Кралство Тио (теке)",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "ovimbundu",
+   "taban": "Ovimbundu Krallıkları (Bailundu · Viye · Vambu)",
+   "main": "Кралства на овимбунду (Байлунду · Вие · Вамбу)",
+   "oneri": "Кралства на овимбунду (Баилунду · Бие · Уамбу)",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "ovambo",
+   "taban": "Ovambo Krallıkları (Ondonga · Kvanyama)",
+   "main": "Кралства на овамбо (Ондонга · Куаняма)",
+   "oneri": "Кралства на овамбо (Ондонга · Кваняма)",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "ruanda",
+   "taban": "Ruanda Krallığı (Nyiginya)",
+   "main": "Кралство Руанда (нигиня)",
+   "oneri": "Кралство Руанда (Нигиня)",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "nyamvezi",
+   "taban": "Nyamvezi Şeflikleri (Unyanyembe · Mirambo)",
+   "main": "Вождества на ниамвези (Унянембе · Мирамбо)",
+   "oneri": "Вождества на нямвези (Уняниембе · Мирамбо)",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "fipa-nyakyusa",
+   "taban": "Fipa ve Nyakyusa Halkları",
+   "main": "Народите фипа и ньякюса",
+   "oneri": "Народите фипа и някюса",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "lozi",
+   "taban": "Lozi (Barotse) Krallığı",
+   "main": "Кралство Лози (бароце)",
+   "oneri": "Кралство Лози (Баротсе)",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "kazembe",
+   "taban": "Mvata Kazembe Krallığı",
+   "main": "Кралство Мвата Казембе",
+   "oneri": "Кралство на Мвата Казембе",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "torva",
+   "taban": "Torva Krallığı (Khami)",
+   "main": "Кралство Торва (Кхами)",
+   "oneri": "Кралство Торва (Хами)",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "svazi",
+   "taban": "Svazi Krallığı",
+   "main": "Кралство Суази",
+   "oneri": "Кралство на свази",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "basuto",
+   "taban": "Basuto (Basotho) Krallığı",
+   "main": "Кралство Басуто (басото)",
+   "oneri": "Кралство на басуто (басото)",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "tsvana",
+   "taban": "Tsvana Krallıkları (Ngvato · Kvena · Ngvaketse · Kgatla · Tavana)",
+   "main": "Кралства на тсвана (Нгвато · Квена · Нгвакеце · Кгатла · Тавана)",
+   "oneri": "Кралства на тсвана (нгвато · квена · нгвакетсе · кгатла · тавана)",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "sakalava-menabe",
+   "taban": "Menabe Sakalava Krallığı",
+   "main": "Кралство Менабе Сакалава",
+   "oneri": "Сакалавско кралство Менабе",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "sakalava-boina",
+   "taban": "Boina Sakalava Krallığı",
+   "main": "Кралство Боина Сакалава",
+   "oneri": "Сакалавско кралство Боина",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "antemoro",
+   "taban": "Antemoro Krallığı",
+   "main": "Кралство Антемуру",
+   "oneri": "Кралство Антеморо",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "merina-oncesi",
+   "taban": "İmerina Krallıkları (Merina birleşmesi öncesi)",
+   "main": "Кралства Имерина (преди обединението на Мерина)",
+   "oneri": "Кралства в Имерина (преди обединението на мерина)",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "tuareg-ahaggar",
+   "taban": "Kel Ahaggar Tuareg Konfederasyonu",
+   "main": "Туарегска конфедерация Кел Ахагар",
+   "oneri": "Туарегска конфедерация кел ахагар",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "tuareg-accer",
+   "taban": "Kel Accer Tuareg Konfederasyonu",
+   "main": "Туарегска конфедерация Кел Аджер",
+   "oneri": "Туарегска конфедерация кел аджер",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "dene",
+   "taban": "Dene (Atabask Halkları)",
+   "main": "Дене (атабаскски народи)",
+   "oneri": "Дене (атабаски народи)",
+   "neden": "Türkçe kalıntı"
+  },
+  {
+   "tur": "devlet",
+   "id": "kri",
+   "taban": "Kri (Nehiyaw)",
+   "main": "Кри (нехияу)",
+   "oneri": "Кри (нехияв)",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "lakota",
+   "taban": "Lakota (Teton Sioux)",
+   "main": "Лакота (тетон сиукс)",
+   "oneri": "Лакота (тетон сиу)",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "nez-perce",
+   "taban": "Nez Perce (Nimíipuu)",
+   "main": "Не персе (нимипу)",
+   "oneri": "Не персе (нимиипуу)",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "tlingit",
+   "taban": "Tlingit",
+   "main": "Тлинкити",
+   "oneri": "Тлингити",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "vendat",
+   "taban": "Vendat (Huron) Konfederasyonu",
+   "main": "Конфедерация на уендат (хурони)",
+   "oneri": "Конфедерация на вендатите (хурони)",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "savni",
+   "taban": "Şavni (Shawnee)",
+   "main": "Шауни",
+   "oneri": "Шоуни",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "miami",
+   "taban": "Miami (Myaamia)",
+   "main": "Маями (мяамия)",
+   "oneri": "Маями (миаамиа)",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "abenaki",
+   "taban": "Abenaki (Wabanaki)",
+   "main": "Абенаки (уабанаки)",
+   "oneri": "Абенаки (вабанаки)",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "maliseet",
+   "taban": "Maliseet (Wolastoqiyik)",
+   "main": "Малисеет (уоластокийик)",
+   "oneri": "Малисийти (воластокийик)",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "ute",
+   "taban": "Ute (Núuchiu)",
+   "main": "Юти (нууче)",
+   "oneri": "Юти (нуучиу)",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "karga",
+   "taban": "Karga (Apsáalooke)",
+   "main": "Кроу (апсалоке)",
+   "oneri": "Кроу (апсаалуке)",
+   "neden": "çevrilmemiş (Türkçe 'Karga')"
+  },
+  {
+   "tur": "devlet",
+   "id": "zuni",
+   "taban": "Zuni (A:shiwi)",
+   "main": "Зуни (ашиуи)",
+   "oneri": "Зуни (ашиви)",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "secwepemc",
+   "taban": "Secwépemc (Shuswap)",
+   "main": "Секуепемк (шусвап)",
+   "oneri": "Секвепемк (шусуап)",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "nuu-cah-nulth",
+   "taban": "Nuu-chah-nulth (Mowachaht)",
+   "main": "Нуу-ча-нулт (мовачахт)",
+   "oneri": "Нуу-ча-нулт (мовачат)",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "sahaptin",
+   "taban": "Sahaptin (Orta Columbia halkları)",
+   "main": "Сахаптини (народи по средното течение на река Колумбия)",
+   "oneri": "Сахаптини (народите по средното течение на Колумбия)",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "spiro",
+   "taban": "Spiro",
+   "main": "Спиро",
+   "oneri": "Спайро",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "yavapai",
+   "taban": "Yavapai",
+   "main": "Явапаи",
+   "oneri": "Явапай",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "cungar",
+   "taban": "Джунгарско ханство (Калмик)",
+   "main": "Джунгарско ханство (калмикско)",
+   "oneri": "Джунгарско ханство (калмики)",
+   "neden": "halk adı biçimi"
+  },
+  {
+   "tur": "devlet",
+   "id": "meysur",
+   "taban": "Meysûr Krallığı/Sultanlığı (Vodeyar 1610-1761; Haydar Ali / Tipu Sultan 1761-1799)",
+   "main": "Кралство/Султанат Майсур (Водеяр 1610–1761; Хайдар Али / Типу Султан 1761–1799)",
+   "oneri": "Кралство/султанат Майсур (Водеяр 1610-1761; Хайдар Али / Типу Султан 1761-1799)",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "qing-halha-aymaklari",
+   "taban": "Qing Halha Aymakları (Tüşetü Han, Çeçen Han, Sain Noyan, Zasaktu Han — Dış Moğolistan)",
+   "main": "Аймаци на халхаските монголи под Цин (Тушету хан, Сецен хан, Саин ноян, Дзасагту хан — Външна Монголия)",
+   "oneri": "Халхаски аймаци под властта на Цин (Тушету хан, Цецен хан, Сайн ноян, Засагт хан — Външна Монголия)",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "sanzan",
+   "taban": "Sanzan Dönemi (Üç Krallık, Okinawa)",
+   "main": "Период Санзан (Три кралства, Окинава)",
+   "oneri": "Период Сандзан (Трите кралства, Окинава)",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "poni",
+   "taban": "Po-ni (Poni) Krallığı",
+   "main": "Кралство По-ни (Пони)",
+   "oneri": "Кралство Пони",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "orissa",
+   "taban": "Orissa (Doğu Ganga ve Gacapati Krallığı)",
+   "main": "Ориса (Източна Ганга и кралство Гаджапати)",
+   "oneri": "Ориса (кралство на Източните Ганги и Гаджапати)",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "timor-beylikleri",
+   "taban": "Timor Beylikleri (Liurai'lar)",
+   "main": "Тиморски владения (лиураи)",
+   "oneri": "Тиморски княжества (лиураи)",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "cahokia",
+   "taban": "Cahokia (Mississippi Kültürü)",
+   "main": "Кахокия (Мисисипска култура)",
+   "oneri": "Кахокия (мисисипска култура)",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "cherokee",
+   "taban": "Cherokee Ulusu",
+   "main": "Народ на чероките",
+   "oneri": "Народът чероки",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "choctaw",
+   "taban": "Choctaw Konfederasyonu",
+   "main": "Конфедерация на чокто",
+   "oneri": "Конфедерация чокто",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "creek-konfederasyonu",
+   "taban": "Creek (Mvskoke) Konfederasyonu",
+   "main": "Конфедерация на крийките (мвскоке)",
+   "oneri": "Конфедерация крийк (мускоги)",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "haudenosaunee",
+   "taban": "Haudenosaunee (İrokua) Konfederasyonu",
+   "main": "Конфедерация на хауденосауни (ирокези)",
+   "oneri": "Конфедерация ходеносауни (ирокези)",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "powhatan",
+   "taban": "Powhatan Konfederasyonu (Tsenacomoco)",
+   "main": "Конфедерация Поухатан (Тсенакомоко)",
+   "oneri": "Конфедерация Поухатан (Ценакомоко)",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "natchez",
+   "taban": "Natchez (Grand Village)",
+   "main": "Начез (Гранд Вилидж)",
+   "oneri": "Начез (Голямото село)",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "pueblo-bagimsizligi",
+   "taban": "Pueblo Bağımsızlığı",
+   "main": "Независимост на пуебло",
+   "oneri": "Независимост на пуеблосите",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "colla-krallik",
+   "taban": "Colla (Qulla) Krallığı",
+   "main": "Кралство Коля (Кулля)",
+   "oneri": "Кралство Коля (куля)",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "diaguita-calchaqui-konfederasyonu",
+   "taban": "Diaguita-Calchaquí Konfederasyonu",
+   "main": "Конфедерация Диагита-Калчаки",
+   "oneri": "Конфедерация диагита-калчаки",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "massina",
+   "taban": "Masina Halifeliği (Hamdullahi)",
+   "main": "Халифат Масина (Хамдалахи)",
+   "oneri": "Халифат Масина (Хамдулахи)",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "tekrur",
+   "taban": "Toucouleur Devleti (Umarî / Segu Tukulor)",
+   "main": "Тукулорска държава (на Умар / Сегу)",
+   "oneri": "Държава на тукульорите (Умарити / тукульорски Сегу)",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "kesiri-sultanligi",
+   "taban": "Kesîrî Sultanlığı (Hadramut iç kesimi)",
+   "main": "Султанат Катири (вътрешен Хадрамаут)",
+   "oneri": "Катирски султанат (вътрешен Хадрамаут)",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "kuayti-sultanligi",
+   "taban": "Kuaytî Sultanlığı (Şihr-Mükellâ, Hadramut kıyısı)",
+   "main": "Султанат Куайти (Шихр–Мукала, крайбрежието на Хадрамаут)",
+   "oneri": "Куайтски султанат (Шихр-Мукала, крайбрежието на Хадрамаут)",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "ammarogullari",
+   "taban": "Ammâroğulları (Trablusgarp)",
+   "main": "Бану Амар (Триполи)",
+   "oneri": "Бану Амар (Триполи, Либия)",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "arma",
+   "taban": "Arma Paşalığı (Tinbüktü)",
+   "main": "Пашалък Арма (Тимбукту)",
+   "oneri": "Пашалък на арма (Тимбукту)",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "sutayogullari",
+   "taban": "Sutayogullari",
+   "main": "Сутайоглу",
+   "oneri": "Сутаиди",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "cemisgezek-beyligi",
+   "taban": "Cemisgezek Beyligi (Melkisi)",
+   "main": "Бейлик Чемишгезек (Мелкиши)",
+   "oneri": "Бейство Чемишгезек (Мелкиши)",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "harfusogullari",
+   "taban": "Harfûşoğulları (Baalbek Emirliği)",
+   "main": "Емирство на Харфушите (Баалбек)",
+   "oneri": "Харфушиди (емирство Баалбек)",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "bali-kralliklari-pejeng",
+   "taban": "Кралство Паджанг (Бали)",
+   "main": "Кралство Пеженг (Бали)",
+   "oneri": "Балийско кралство Педженг",
+   "neden": "yanlış ad: Pejeng, Pajang (Cava) değil"
+  },
+  {
+   "tur": "devlet",
+   "id": "gane",
+   "taban": "Gāne (Gana) Devleti",
+   "main": "Империя Гана",
+   "oneri": "Държава Гана",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "susu-kralligi",
+   "taban": "Susu (Sosso) Krallığı",
+   "main": "Кралство Сусу (Сосо)",
+   "oneri": "Кралство Сосо (сусу)",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "tekrur-kralligi",
+   "taban": "Tekrûr Krallığı (Senegal vadisi)",
+   "main": "Кралство Текрур (долината на Сенегал)",
+   "oneri": "Кралство Такрур (долината на Сенегал)",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "kevkev",
+   "taban": "Kevkev (Gao) Krallığı — Songay Zâ Hânedanı",
+   "main": "Кралство Кау-Кау (Гао) — сонгайска династия За",
+   "oneri": "Кралство Гао (Кавкав) — сонгайска династия За",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "zagve",
+   "taban": "Zague (Zagwe) Hânedanı — Etiyopya",
+   "main": "Династия Загуе — Етиопия",
+   "oneri": "Династия Загве — Етиопия",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "suve-emirligi",
+   "taban": "Şüve (Shoa) Mahzûmî Emirliği",
+   "main": "Махзумидско емирство Шоа",
+   "oneri": "Махзумитски емират Шоа",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "dongxia",
+   "taban": "Dongxia (Dazhen) Devleti",
+   "main": "Държава Източна Ся (Дунся / Дачжън)",
+   "oneri": "Държава Дунся (Даджън)",
+   "neden": "Türkçe kalıntı"
+  },
+  {
+   "tur": "devlet",
+   "id": "oshu-fujiwara",
+   "taban": "Ōshū Fujiwara (Kuzey Fujiwara) Hanedanlığı",
+   "main": "Династия Северни Фудживара (Ошу Фудживара)",
+   "oneri": "Династия Оши Фудживара (Северни Фудживара)",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "jayakatwang-kadiri",
+   "taban": "Jayakatwang Kadiri'si (Cava)",
+   "main": "Кедири на Джаякатванг (Ява)",
+   "oneri": "Кадири на Джаякатванг (Ява)",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "kuca-hocalari",
+   "taban": "Kuça Hocaları (Döngen-Uygur Birleşik Hükûmeti)",
+   "main": "Ходжите на Куча (обединено дунганско-уйгурско правителство)",
+   "oneri": "Кучански ходжи (обединено дунганско-уйгурско правителство)",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "ata-pueblo",
+   "taban": "Ata Pueblo Kültürü (Anasazi) — Chaco ve Mesa Verde",
+   "main": "Култура на предците пуебло (анасази) — Чако и Меса Верде",
+   "oneri": "Култура на предците на пуеблосите (анасази) — Чако и Меса Верде",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "beni-ammar-trablussam",
+   "taban": "Ammâroğulları (Trablusşam Benî Ammâr Kadıları)",
+   "main": "Бану Амар (кадии на Триполи в Сирия)",
+   "oneri": "Бану Амар (кадиите от Бану Амар в Триполи, Ливан)",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "palmares",
+   "taban": "Държава Килумбо Палмарес",
+   "main": "Държава Киломбо Палмарес",
+   "oneri": "Държава киломбо Палмарес",
+   "neden": "quilombo = киломбо"
+  },
+  {
+   "tur": "devlet",
+   "id": "girit-emirligi",
+   "taban": "Критски емират (династия Ebû Hafs)",
+   "main": "Критски емират (династия Абу Хафс)",
+   "oneri": "Критски емират (династия на Абу Хафс)",
+   "neden": "Türkçe yazım kalıntısı"
+  },
+  {
+   "tur": "devlet",
+   "id": "ebuzabi-seyhligi",
+   "taban": "Шейхство Абу Даби (Benî Yâs, Âl-i Bû Felâh)",
+   "main": "Шейхство Абу Даби (Бени Яс, Ал Бу Фалах)",
+   "oneri": "Шейхство Абу Даби (Бани Яс, Ал Бу Фалах)",
+   "neden": "Türkçe yazım kalıntısı"
+  },
+  {
+   "tur": "devlet",
+   "id": "zengi-cizre",
+   "taban": "Zengîler (Cezîre-i İbn Ömer / клон Cizre)",
+   "main": "Зенгиди (клон Джазира ибн Умар / Джизре)",
+   "oneri": "Зенгиди (Джазират ибн Умар / клон Джизре)",
+   "neden": "Türkçe kalıntı"
+  },
+  {
+   "tur": "devlet",
+   "id": "taberistan-zeydi-ii",
+   "taban": "Zeydîler от Табаристан (клон Hüseynî) — II период",
+   "main": "Зейдити от Табаристан (хусейнидски клон) — II период",
+   "oneri": "Зейдити от Табаристан (Хюсейнски клон) — II период",
+   "neden": "Türkçe kalıntı"
+  },
+  {
+   "tur": "devlet",
+   "id": "memuni-harezm",
+   "taban": "Me'mûnîler (хорезмшахове от Гюргенч)",
+   "main": "Маамуниди (хорезмшахове от Гюргенч)",
+   "oneri": "Мамуниди (хорезмшахове от Гюргенч)",
+   "neden": "Türkçe kalıntı"
+  },
+  {
+   "tur": "devlet",
+   "id": "yahya-donemleri",
+   "taban": "Периоди VII–I на Tepe Yahya (Керман)",
+   "main": "Периоди VII–I на Тепе Яхя (Керман)",
+   "oneri": "Периоди VII–I на Тепе Яхия (Керман)",
+   "neden": "Latin yazı kalmış"
+  },
+  {
+   "tur": "devlet",
+   "id": "mehrgarh-neolitik",
+   "taban": "Неолит на Мергарх (равнина Kaççi, Белуджистан)",
+   "main": "Неолит на Мергарх (равнина Качи, Белуджистан)",
+   "oneri": "Неолит на Мехргарх (равнина Качи, Белуджистан)",
+   "neden": "yazım ve Türkçe kalıntı"
+  },
+  {
+   "tur": "devlet",
+   "id": "shimao-kultur",
+   "taban": "Култура Shimao (Shaanxi)",
+   "main": "Култура Шимао (Шанси)",
+   "oneri": "Култура Шимао (Шънси)",
+   "neden": "Latin yazı kalmış"
+  },
+  {
+   "tur": "devlet",
+   "id": "sanxingdui-kultur",
+   "taban": "Култура Sanxingdui (Sichuan)",
+   "main": "Култура Сансиндуей (Съчуан)",
+   "oneri": "Култура Сансиндуи (Съчуан)",
+   "neden": "Latin yazı kalmış"
+  },
+  {
+   "tur": "devlet",
+   "id": "kuahuqiao",
+   "taban": "Култура Kuahuqiao",
+   "main": "Култура Куахуацяо",
+   "oneri": "Култура Куахуцяо",
+   "neden": "Latin yazı kalmış"
+  },
+  {
+   "tur": "devlet",
+   "id": "kaminaljuyu-providencia",
+   "taban": "Фаза Providencia на Kaminaljuyú",
+   "main": "Каминалхую, фаза Провиденсия",
+   "oneri": "Фаза Провиденсия на Каминалхуйу",
+   "neden": "Latin yazı kalmış"
+  },
+  {
+   "tur": "devlet",
+   "id": "tonga-lapita",
+   "taban": "Заселване на Тонга от Лапита (Nukuleka)",
+   "main": "Заселване на Тонга от лапитите (Нукулека)",
+   "oneri": "Заселване на Тонга от културата Лапита (Нукулека)",
+   "neden": "Лапита kültür adı; Latin yazı"
+  },
+  {
+   "tur": "devlet",
+   "id": "khok-phanom-di-neolitik",
+   "taban": "Неолит на Khok Phanom Di (централното тайландско крайбрежие)",
+   "main": "Неолит на Кхок Фаном Ди (централното тайландско крайбрежие)",
+   "oneri": "Неолит на Кхок Пханом Ди (централното тайландско крайбрежие)",
+   "neden": "Latin yazı kalmış"
+  },
+  {
+   "tur": "devlet",
+   "id": "gobero-kultur",
+   "taban": "Холоценско селище Gobero (Kiffian–Tenerian, Ténéré)",
+   "main": "Холоценско селище Гоберо (кифийска–тенерийска култура, Тенере)",
+   "oneri": "Холоценско селище Гоберо (кифиенска и тенерийска фаза, Тенере)",
+   "neden": "Latin yazı kalmış"
+  },
+  {
+   "tur": "devlet",
+   "id": "tenuh",
+   "taban": "Конфедерация Tenûh (Tanûh)",
+   "main": "Конфедерация на танухите",
+   "oneri": "Конфедерация Танух",
+   "neden": "Türkçe kalıntı"
+  },
+  {
+   "tur": "devlet",
+   "id": "bati-qin-qifu",
+   "taban": "Западна Qin (Qifu Xianbei)",
+   "main": "Западна Цин (сиенбийци от рода Цифу)",
+   "oneri": "Западна Цин (сянбийски род Цифу)",
+   "neden": "Latin yazı kalmış"
+  },
+  {
+   "tur": "devlet",
+   "id": "ifraniler-tilimsan",
+   "taban": "Yıfrenîler (Benî Yıfren - Tilimsan/Sala)",
+   "main": "Ифраниди (Бени Ифран – Тлемсен/Сале)",
+   "oneri": "Ифраниди (Бану Ифран - Тлемсен/Сале)",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "sahra-sanhaca",
+   "taban": "Сахарски санхаджа / Емирство Evdeguşt",
+   "main": "Сахарски санхаджа / Емирство Аудагуст",
+   "oneri": "Сахарски санхаджа / Емирство Аудагост",
+   "neden": "Türkçe kalıntı"
+  },
+  {
+   "tur": "devlet",
+   "id": "kabis-emirligi",
+   "taban": "Емирство Kâbis (Gabès)",
+   "main": "Емирство Габес (Кабис)",
+   "oneri": "Емирство Габес",
+   "neden": "Türkçe kalıntı"
+  },
+  {
+   "tur": "devlet",
+   "id": "sfaks-firyani-emirligi",
+   "taban": "Емирство Sfaks — Ömer b. Ebü'l-Hüseyin el-Firyânî (след норманите)",
+   "main": "Емирство Сфакс — Умар ибн Абул-Хусайн ал-Фиряни (след норманите)",
+   "oneri": "Емирство Сфакс — Умар ибн Аби ал-Хусайн ал-Фиряни (след норманите)",
+   "neden": "Türkçe kalıntı"
+  },
+  {
+   "tur": "devlet",
+   "id": "kafsa-benirend-emirligi",
+   "taban": "Емирство Kafsa (Gafsa) — Benî Rend",
+   "main": "Емирство Гафса — Бени Ранд",
+   "oneri": "Емирство Гафса — Бану ар-Ранд",
+   "neden": "Türkçe kalıntı"
+  },
+  {
+   "tur": "devlet",
+   "id": "tarsus-emirlik",
+   "taban": "Емирство Тарс (Tuğur)",
+   "main": "Емирство Тарс (погранично, Сугур)",
+   "oneri": "Гранично емирство Тарс (сугур)",
+   "neden": "Türkçe kalıntı"
+  },
+  {
+   "tur": "devlet",
+   "id": "veligosti-damala-baronluk",
+   "taban": "Барония Veligosti-Damala",
+   "main": "Барония Велигости–Дамала",
+   "oneri": "Барония Велигости-Дамала",
+   "neden": "Latin yazı kalmış"
+  },
+  {
+   "tur": "devlet",
+   "id": "chalandritsa-baronluk",
+   "taban": "Барония Chalandritsa",
+   "main": "Баронство Халандрица",
+   "oneri": "Барония Халандрица",
+   "neden": "Latin yazı kalmış"
+  },
+  {
+   "tur": "devlet",
+   "id": "kuclug-karahitay",
+   "taban": "Каракитай под управлението на Küçlüğ (найманът Küçlüğ)",
+   "main": "Каракитай под управлението на Кучлук (найманът Кучлук)",
+   "oneri": "Каракитай под управлението на Кучлуг (найманът Кучлуг)",
+   "neden": "Türkçe kalıntı"
+  },
+  {
+   "tur": "devlet",
+   "id": "sui-zheng-wang-shichong",
+   "taban": "Zheng (Wang Shichong, 鄭)",
+   "main": "Джън (Уан Шъчун, 鄭)",
+   "oneri": "Джън (Уан Шичун, 鄭)",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "sui-wei-li-mi",
+   "taban": "Wei (Li Mi, Wagang, 魏)",
+   "main": "Уей (Ли Ми, Уаган, 魏)",
+   "oneri": "Вей (Ли Ми, Уаган, 魏)",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "xiazhou-dangxiang",
+   "taban": "Тангутско управление Xiazhou (Dingnan jun)",
+   "main": "Тангутско управление Сячжоу (Динанцзюн)",
+   "oneri": "Тангутско управление в Сяджоу (Динан дзюн)",
+   "neden": "Latin yazı kalmış"
+  },
+  {
+   "tur": "devlet",
+   "id": "zhao-wang-rong",
+   "taban": "Zhao (Wang Rong, 趙)",
+   "main": "Джао (Уан Жун, 趙)",
+   "oneri": "Чжао (Уан Жун, 趙)",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "dingan-guo",
+   "taban": "Държава Dingan (Jeongan)",
+   "main": "Държава Динган (Чонган)",
+   "oneri": "Държава Динан (Чонан)",
+   "neden": "Latin yazı kalmış"
+  },
+  {
+   "tur": "devlet",
+   "id": "da-qi-liu-yu",
+   "taban": "Da Qi (Liu Yu, 大齊)",
+   "main": "Да Ци (Лю Ю, 大齊)",
+   "oneri": "Да Ци (Лю Юй, 大齊)",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "kalingga-holing",
+   "taban": "Kalingga (Holing)",
+   "main": "Калинга (Холинг)",
+   "oneri": "Калинга (Холин)",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "khuc-tu-tri",
+   "taban": "Автономно управление Khúc (An Nam)",
+   "main": "Автономно управление Кхук (Анам)",
+   "oneri": "Автономно управление на рода Кхук (Анам)",
+   "neden": "Latin yazı kalmış"
+  },
+  {
+   "tur": "devlet",
+   "id": "ngo-hanedani",
+   "taban": "Династия Ngo (Ngo Quyen)",
+   "main": "Династия Нго (Нго Куен)",
+   "oneri": "Династия Нго (Нго Куиен)",
+   "neden": "Latin yazı kalmış"
+  },
+  {
+   "tur": "devlet",
+   "id": "duong-dinh-nghe",
+   "taban": "Автономия на Dương Đình Nghệ",
+   "main": "Автономия на Зуонг Дин Нге",
+   "oneri": "Автономия на Зыонг Дин Нге",
+   "neden": "Latin yazı kalmış"
+  },
+  {
+   "tur": "devlet",
+   "id": "12-su-quan",
+   "taban": "Дванадесетте Sứ Quân",
+   "main": "Анархията на дванайсетте военачалници",
+   "oneri": "Дванадесетте военни владетели (съкуани)",
+   "neden": "Latin yazı kalmış"
+  },
+  {
+   "tur": "devlet",
+   "id": "chitu",
+   "taban": "Chitu (Червена земя)",
+   "main": "Читу (Червената земя)",
+   "oneri": "Читу (Червена земя)",
+   "neden": "Latin yazı kalmış"
+  },
+  {
+   "tur": "devlet",
+   "id": "perlak",
+   "taban": "Султанат Perlak (Peureulak)",
+   "main": "Султанат Перлак (Пеуреулак)",
+   "oneri": "Султанат Перлак",
+   "neden": "Latin yazı kalmış"
+  },
+  {
+   "tur": "devlet",
+   "id": "launggyet",
+   "taban": "Аракан - династия Launggyet",
+   "main": "Аракан — династия Лаунгет",
+   "oneri": "Аракан - династия Лаунджет",
+   "neden": "Latin yazı kalmış"
+  },
+  {
+   "tur": "devlet",
+   "id": "turk-sahi",
+   "taban": "Türk Şahi (Кабулски шахи)",
+   "main": "Тюрк шахи (Кабулски шахи)",
+   "oneri": "Тюркски шахи (Кабулски шахи)",
+   "neden": "Türkçe kalıntı"
+  },
+  {
+   "tur": "devlet",
+   "id": "cac-sind",
+   "taban": "Брахманска (Çaç) династия — Синд",
+   "main": "Брахманска (Чач) династия — Синд",
+   "oneri": "Брахманска династия (Чач) — Синд",
+   "neden": "Türkçe kalıntı"
+  },
+  {
+   "tur": "devlet",
+   "id": "habbari",
+   "taban": "Емирство Habbârî (Hebbârî) — Mansûre / Синд",
+   "main": "Емирство Хабари — Мансура / Синд",
+   "oneri": "Емирство на Хабаридите — Мансура / Синд",
+   "neden": "Türkçe kalıntı"
+  },
+  {
+   "tur": "devlet",
+   "id": "multan-emirligi",
+   "taban": "Емирство Мултан (Munebbihî / Karmatî)",
+   "main": "Емирство Мултан (мунаббихи / кармати)",
+   "oneri": "Емирство Мултан (Мунабихиди / кармати)",
+   "neden": "Türkçe kalıntı"
+  },
+  {
+   "tur": "devlet",
+   "id": "silahara",
+   "taban": "Династия Silahara (Konkan)",
+   "main": "Династия Силахара (Конкан)",
+   "oneri": "Династия Шилахара (Конкан)",
+   "neden": "Latin yazı kalmış"
+  },
+  {
+   "tur": "devlet",
+   "id": "saindhava",
+   "taban": "Династия Saindhava (Jayadratha) — Западен Саураштра",
+   "main": "Династия Саиндхава (Джаядратха) — Западен Саураштра",
+   "oneri": "Династия Сайндхава (Джаядратха) — Западна Саураштра",
+   "neden": "Latin yazı ve cins uyumu"
+  },
+  {
+   "tur": "devlet",
+   "id": "tripura-manikya",
+   "taban": "Кралство Tripura (Hill Tippera) на Manikya",
+   "main": "Кралство Трипура (Хил Типера) на династията Маникя",
+   "oneri": "Кралство Трипура (Планинска Типера) на династията Маникя",
+   "neden": "Latin yazı kalmış"
+  },
+  {
+   "tur": "devlet",
+   "id": "baekje-restorasyon",
+   "taban": "Движение за възстановяване на Baekje (Buheung)",
+   "main": "Движение за възстановяване на Пекче (Бухун)",
+   "oneri": "Движение за възстановяване на Пекче (Пухън)",
+   "neden": "Latin yazı; öteki Пекче adıyla uyum"
+  },
+  {
+   "tur": "devlet",
+   "id": "bodeok-goguryeo",
+   "taban": "Bodeok (късно Goguryeo — кралство Ansŭng)",
+   "main": "Бодок (късно Когурьо — кралство на Ансън)",
+   "oneri": "Подок (късно Когурьо — кралство на Ансън)",
+   "neden": "Latin yazı kalmış"
+  },
+  {
+   "tur": "devlet",
+   "id": "masakado-shinno",
+   "taban": "Новата империя (Shinnō) на Taira no Masakado",
+   "main": "Новата империя на Тайра но Масакадо (Шинно)",
+   "oneri": "Новата империя (Шинно) на Тайра но Масакадо",
+   "neden": "Latin yazı kalmış"
+  },
+  {
+   "tur": "devlet",
+   "id": "taira-rejimi",
+   "taban": "Режим на Taira (дворецът на Antoku — период на Западното море)",
+   "main": "Режим на Тайра (дворецът на Антоку — период на Западното море)",
+   "oneri": "Режим на Тайра (дворът на Антоку — период на Западното море)",
+   "neden": "Latin yazı kalmış"
+  },
+  {
+   "tur": "devlet",
+   "id": "ryukyu-shunten-eiso",
+   "taban": "Ryukyu Shunten и Eiso (Urasoe)",
+   "main": "Рюкю — Шунтен и Ейсо (Урасое)",
+   "oneri": "Рюкю на Шунтен и Ейсо (Урасое)",
+   "neden": "Latin yazı kalmış"
+  },
+  {
+   "tur": "devlet",
+   "id": "daewi-myocheong",
+   "taban": "Daewi (държава на бунта в Seogyeong на Myocheong)",
+   "main": "Теви (държава на бунта на Мьо Чхън в Согьон)",
+   "oneri": "Теуи (държава на бунта на Мьочхон в Согьон)",
+   "neden": "Latin yazı kalmış"
+  },
+  {
+   "tur": "devlet",
+   "id": "heungyo-guk",
+   "taban": "Heungyo (Xingliao) — държава на бунта в Liaodong на Dae Yeon-rim",
+   "main": "Хънгьо (Синляо) — въстанническа държава на Те Йон-рим в Ляодун",
+   "oneri": "Хънё (Синляо) — държава на бунта на Те Йон-рим в Ляодун",
+   "neden": "Latin yazı kalmış"
+  },
+  {
+   "tur": "devlet",
+   "id": "cerrahi",
+   "taban": "Cerrâhîler (Tay, Емирство Рамла)",
+   "main": "Джарахиди (тай, Емирство Рамла)",
+   "oneri": "Джарахиди (Тай, емирство Рамла)",
+   "neden": "Türkçe kalıntı"
+  },
+  {
+   "tur": "devlet",
+   "id": "beja-krallik",
+   "taban": "Кралства на беджа (Hadariba/Baqlin и др.)",
+   "main": "Кралства на беджа (хадариба, баклин и др.)",
+   "oneri": "Кралства на беджа (хадариба/баклин и др.)",
+   "neden": "Latin yazı kalmış"
+  },
+  {
+   "tur": "devlet",
+   "id": "mogadisu-erken",
+   "taban": "Ранен съюз на Могадишо (султанат преди Mukri/Kahtânî)",
+   "main": "Ранен съюз на Могадишо (султанат преди Мукри/Кахтани)",
+   "oneri": "Ранен съюз на Могадишу (султанат преди периода Мукри/Кахтани)",
+   "neden": "Türkçe kalıntı; Могадишу uyumu"
+  },
+  {
+   "tur": "devlet",
+   "id": "kenzu-ddevle",
+   "taban": "Емирство Kenzü'd-devle (Benî Kenz) (Асуан)",
+   "main": "Емирство Канз ад-Даула (Бени Канз) (Асуан)",
+   "oneri": "Емирство Канз ад-Даула (Бану Канз) (Асуан)",
+   "neden": "Türkçe kalıntı"
+  },
+  {
+   "tur": "devlet",
+   "id": "ifat-sultanligi",
+   "taban": "Султанат Ифат (Evfât) (династия Walasma)",
+   "main": "Султанат Ифат (Евфат) (династия Валашма)",
+   "oneri": "Султанат Ифат (Авфат) (династия Уаласма)",
+   "neden": "Türkçe/Latin kalıntı"
+  },
+  {
+   "tur": "devlet",
+   "id": "qiuchi",
+   "taban": "Qiuchi (Chouchi, 仇池) / кралство Wuxing Yang",
+   "main": "Чоучъ (仇池) / кралство Усин Ян",
+   "oneri": "Чоучъ (仇池) / кралство на Ян в Усин",
+   "neden": "Latin yazı kalmış"
+  },
+  {
+   "tur": "devlet",
+   "id": "sambyeolcho-rejimi",
+   "taban": "Режим на Samseongbyeolcho (Pae Jung-son / Seunghwa-hu On)",
+   "main": "Режим на Самбьолчхо (Пе Джунсон / Сънхуаху Он)",
+   "oneri": "Режим на Самбьолчхо (Пе Джун-сон / Сънхуа-ху Он)",
+   "neden": "Latin yazı kalmış"
+  },
+  {
+   "tur": "devlet",
+   "id": "sri-ksetra",
+   "taban": "Sri Ksetra (Thayekhittaya)",
+   "main": "Шри Кшетра (Тайекитая)",
+   "oneri": "Шри Кшетра (Тхайекитая)",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "pan-pan",
+   "taban": "Pan Pan",
+   "main": "Пан Пан",
+   "oneri": "Панпан",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "kantoli",
+   "taban": "Kantoli (Kan-t'o-li)",
+   "main": "Кантоли (Кан-то-ли)",
+   "oneri": "Кантоли",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "triyu-viet-vuong",
+   "taban": "Triệu Việt Vương (Triệu Quang Phục)",
+   "main": "Чиеу Вият Выонг (Чиеу Куанг Фук)",
+   "oneri": "Чиеу Виет Выонг (Чиеу Куанг Фук)",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "chenla-toprak",
+   "taban": "Земна Ченла (Toprak Chenla)",
+   "main": "Сухоземна Ченла",
+   "oneri": "Земна Ченла",
+   "neden": "Türkçe kalıntı"
+  },
+  {
+   "tur": "devlet",
+   "id": "thaton-mon",
+   "taban": "Thaton (Ramannadesa / Мон)",
+   "main": "Татон (Раманадеса / мон)",
+   "oneri": "Татон (Раманнадеса / мон)",
+   "neden": "Latin yazı kalmış"
+  },
+  {
+   "tur": "devlet",
+   "id": "mi-chen",
+   "taban": "Mi-ch'en (кралство в Пегуанския залив)",
+   "main": "Ми-чън (кралство в Пегуанския залив)",
+   "oneri": "Мичън (кралство в залива Пегу)",
+   "neden": "Latin yazı kalmış"
+  },
+  {
+   "tur": "devlet",
+   "id": "rashtrakuta-kannauj",
+   "taban": "Династия Раштракута (Каннаудж–Budaun)",
+   "main": "Династия Раштракута (Каннаудж–Будаун)",
+   "oneri": "Династия Раштракута (Каннаудж–Бадаюн)",
+   "neden": "Latin yazı kalmış"
+  },
+  {
+   "tur": "devlet",
+   "id": "nepal-thakuri",
+   "taban": "Thakuri / ранни Malla в Непал",
+   "main": "Такури / ранен Непал на Малите",
+   "oneri": "Тхакури / ранни Мала в Непал",
+   "neden": "Latin yazı kalmış"
+  },
+  {
+   "tur": "devlet",
+   "id": "kalyani-kalacuri",
+   "taban": "Kalyani Kalacurileri",
+   "main": "Калачури от Калияни",
+   "oneri": "Калачури от Калянѝ",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "xueyantuo",
+   "taban": "Каганат Xueyantuo (Sir-Tarduş)",
+   "main": "Каганат Сюеянто (Сир-Тардуш)",
+   "oneri": "Каганат на сюеяньто (Сир-Тардуш)",
+   "neden": "Latin/Türkçe kalıntı"
+  },
+  {
+   "tur": "devlet",
+   "id": "kerait",
+   "taban": "Кераити (Kereyid, земя на Ong Han)",
+   "main": "Кераити (земя на Он хан)",
+   "oneri": "Кераити (керейид, земята на Ван хан)",
+   "neden": "Latin yazı kalmış"
+  },
+  {
+   "tur": "devlet",
+   "id": "kuca",
+   "taban": "Кралство Куча (Qiuci)",
+   "main": "Кралство Куча (Циуцъ)",
+   "oneri": "Кралство Куча (Цюцъ)",
+   "neden": "Latin yazı kalmış"
+  },
+  {
+   "tur": "devlet",
+   "id": "khotan",
+   "taban": "Кралство Хотан (Yutian)",
+   "main": "Кралство Хотан (Юйтиен)",
+   "oneri": "Кралство Хотан (Ютиен)",
+   "neden": "Latin yazı kalmış"
+  },
+  {
+   "tur": "devlet",
+   "id": "kirgiz-erken",
+   "taban": "Киргизи (самостоятелна фаза, междуцарствие след Göktürk)",
+   "main": "Киргизи (самостоятелна фаза, междуцарствието при гьоктюрките)",
+   "oneri": "Къргъзи (самостоятелна фаза, междуцарствието на гьоктюрките)",
+   "neden": "Türkçe kalıntı; Енисейски къргъзи ile uyum"
+  },
+  {
+   "tur": "devlet",
+   "id": "tatar",
+   "taban": "Татарска конфедерация (Otuz/Dokuz Tatar)",
+   "main": "Татарска конфедерация (Трийсет/Девет татари)",
+   "oneri": "Татарска конфедерация (Тридесет/Девет татари)",
+   "neden": "Türkçe kalıntı"
+  },
+  {
+   "tur": "devlet",
+   "id": "usrusana-afsin",
+   "taban": "Afşinler от Üsrûşana",
+   "main": "Афшини на Усрушана",
+   "oneri": "Афшини от Усрушана",
+   "neden": "Türkçe kalıntı"
+  },
+  {
+   "tur": "devlet",
+   "id": "auris-masties",
+   "taban": "Кралство Ауръс (Masties, Iabdas, Dihya/Kâhine)",
+   "main": "Кралство Ауръс (Мастиес, Ябдас, Дихия/Кахина)",
+   "oneri": "Кралство Аурес (Мастиес, Ябдас, Дихия/Кахина)",
+   "neden": "Türkçe/Latin kalıntı"
+  },
+  {
+   "tur": "devlet",
+   "id": "ibadi-imamlik-trablus",
+   "taban": "Ибадитски имамат Триполи (Ebü’l-Hattâb el-Meâfirî)",
+   "main": "Ибадитски имамат Триполи (Абул-Хатаб ал-Маафири)",
+   "oneri": "Ибадитски имамат Триполи (Абу ал-Хатаб ал-Маафири)",
+   "neden": "Türkçe kalıntı"
+  },
+  {
+   "tur": "devlet",
+   "id": "kevkev-erken",
+   "taban": "Kevkev (Гао) — ранен период",
+   "main": "Кау-Кау (Гао) — ранен период",
+   "oneri": "Кавкав (Гао) — ранен период",
+   "neden": "Türkçe kalıntı"
+  },
+  {
+   "tur": "devlet",
+   "id": "tekrur-erken",
+   "taban": "Кралство Tekrûr — ранен период",
+   "main": "Кралство Текрур — ранен период",
+   "oneri": "Кралство Такрур — ранен период",
+   "neden": "Türkçe kalıntı"
+  },
+  {
+   "tur": "devlet",
+   "id": "zawila-hattabiler",
+   "taban": "Емирство Hattâbî на Zavîle (Фезан)",
+   "main": "Хатабидско емирство Завила (Фезан)",
+   "oneri": "Емирство на Хатабидите в Зауила (Фезан)",
+   "neden": "Türkçe kalıntı"
+  },
+  {
+   "tur": "devlet",
+   "id": "muayyed-ay-aba-emirligi",
+   "taban": "Емирство на Müeyyed Ay-aba и неговите наследници (Nîşâbur-Tûs)",
+   "main": "Емирство на Муайад Ай-аба и неговите наследници (Нишапур-Тус)",
+   "oneri": "Емирство на Муаяд Ай-Аба и неговите наследници (Нишапур-Тус)",
+   "neden": "Türkçe kalıntı"
+  },
+  {
+   "tur": "devlet",
+   "id": "bati-chu-xiang-yu",
+   "taban": "Западна Chu (Xiang Yu)",
+   "main": "Западна Чу (Сян Ю)",
+   "oneri": "Западна Чу (Сян Юй)",
+   "neden": "Latin yazı kalmış"
+  },
+  {
+   "tur": "devlet",
+   "id": "xi-wei-krallik",
+   "taban": "Кралство Западна Wei (西魏)",
+   "main": "Кралство Западна Уей (西魏)",
+   "oneri": "Кралство Западна Вей (西魏)",
+   "neden": "Latin yazı kalmış"
+  },
+  {
+   "tur": "devlet",
+   "id": "yan-krallik-chuhan",
+   "taban": "Кралство Yan (燕) (Chu-Han)",
+   "main": "Кралство Ян (燕) (Чу–Хан)",
+   "oneri": "Кралство Ян (燕) (Чу-Хан)",
+   "neden": "Latin yazı kalmış"
+  },
+  {
+   "tur": "devlet",
+   "id": "chimei-jianshi",
+   "taban": "Режим на Червените вежди (Jianshi)",
+   "main": "Режим на Червените вежди (Дзянши)",
+   "oneri": "Режим на Червените вежди (Дзиеншъ)",
+   "neden": "Latin yazı kalmış"
+  },
+  {
+   "tur": "devlet",
+   "id": "chengjia-gongsun-shu",
+   "taban": "Chengjia (成家, Gongsun Shu)",
+   "main": "Чънджиа (成家, Гунсун Шу)",
+   "oneri": "Чъндзя (成家, Гунсун Шу)",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "gongsun-liaodong",
+   "taban": "Управление на Gongsun в Liaodong (Yan)",
+   "main": "Управление на Гунсун в Ляодун (Ян)",
+   "oneri": "Управление на рода Гунсун в Ляодун (Ян)",
+   "neden": "Latin yazı kalmış"
+  },
+  {
+   "tur": "devlet",
+   "id": "hou-zhao",
+   "taban": "Късна Zhao (後趙)",
+   "main": "Късна Джао (後趙)",
+   "oneri": "Късна Чжао (後趙)",
+   "neden": "Latin yazı kalmış"
+  },
+  {
+   "tur": "devlet",
+   "id": "ran-wei",
+   "taban": "Ran Wei (冉魏)",
+   "main": "Жан Уей (冉魏)",
+   "oneri": "Жан Вей (冉魏)",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "hunan-wuping-rejimi",
+   "taban": "Режим Wuping в Hunan (武平軍; Wang Kui – Zhou Xingfeng)",
+   "main": "Режим Уупин в Хунан (武平軍; Уан Куей – Джоу Синфън)",
+   "oneri": "Режим Упин в Хунан (武平軍; Уан Куей – Джоу Синфън)",
+   "neden": "Latin yazı kalmış"
+  },
+  {
+   "tur": "devlet",
+   "id": "weiwu-li-rengda",
+   "taban": "Режим на армията Weiwu (威武軍; Li Rengda, Fuzhou)",
+   "main": "Режим на армията Уейу (威武軍; Ли Жънда, Фуджоу)",
+   "oneri": "Режим на армията Вейу (威武軍; Ли Жънда, Фуджоу)",
+   "neden": "Latin yazı kalmış"
+  },
+  {
+   "tur": "devlet",
+   "id": "sacilar",
+   "taban": "Саджиди (Ebü's-Sâcoğulları)",
+   "main": "Саджиди (Абу-с-Садж)",
+   "oneri": "Саджиди (потомци на Абу ас-Садж)",
+   "neden": "Türkçe kalıntı"
+  },
+  {
+   "tur": "devlet",
+   "id": "hasanveyhiler",
+   "taban": "Hasanveyhîler (кюрдско емирство Berzikânî)",
+   "main": "Хасанвейхиди (кюрдско емирство Барзикани)",
+   "oneri": "Хасанвейхиди (кюрдско емирство на барзикани)",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "sistan-mihribani",
+   "taban": "Mihribânîler (меликите на Систан)",
+   "main": "Михрабаниди (мелици на Систан)",
+   "oneri": "Михрабаниди (меликите на Систан)",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "sunik-kralligi",
+   "taban": "Кралство Сюник (Bağk)",
+   "main": "Кралство Сюник (Багк)",
+   "oneri": "Кралство Сюник (Бахк)",
+   "neden": "Türkçe kalıntı"
+  },
+  {
+   "tur": "devlet",
+   "id": "baban-emirligi",
+   "taban": "Емирство Bâbân (Babanzâdeler)",
+   "main": "Емирство Бабан (Бабанзадета)",
+   "oneri": "Емирство Бабан (Бабанзаде)",
+   "neden": "Türkçe kalıntı"
+  },
+  {
+   "tur": "devlet",
+   "id": "bohtan-emirligi",
+   "taban": "Емирство Bohtan (Hükûmet-i Cezîre, Bedirhan Bey)",
+   "main": "Емирство Бохтан (управление Джезире, Бедирхан бей)",
+   "oneri": "Емирство Бохтан (хюкюмет Джезире, Бедирхан бей)",
+   "neden": "Türkçe kalıntı"
+  },
+  {
+   "tur": "devlet",
+   "id": "afrasiyabiler",
+   "taban": "Afrâsiyâblar (Afrâsiyâboğulları, Басра)",
+   "main": "Афрасиябиди (Афрасиябоглу, Басра)",
+   "oneri": "Афрасиябиди (Басра)",
+   "neden": "çevrilmemiş"
+  },
+  {
+   "tur": "devlet",
+   "id": "ispanyol-halkulvad",
+   "taban": "Испански Halkulvâd (La Goulette) и тунизийски протекторат",
+   "main": "Испанска Ла Гулет (Халк ал-Уад) и протекторат Тунис",
+   "oneri": "Испанска Ла Гулета (Халк ал-Уади) и протекторат над Тунис",
+   "neden": "Türkçe kalıntı; protektora Tunus üzerinde (Tunus'un değil)"
+  },
+  {
+   "tur": "devlet",
+   "id": "chuzan-krallik",
+   "taban": "Кралство Chūzan (Окинава)",
+   "main": "Кралство Тюдзан (Окинава)",
+   "oneri": "Кралство Чудзан (Окинава)",
+   "neden": "Latin yazı kalmış"
+  },
+  {
+   "tur": "devlet",
+   "id": "ge-kayapo-halklari",
+   "taban": "Народите Gê и Kayapó (Araguaia-Tocantins)",
+   "main": "Народите ге и кайапо (Арагуая-Токантинс)",
+   "oneri": "Народите же и каяпо (Арагуая-Токантинс)",
+   "neden": "Latin yazı kalmış"
+  },
+  {
+   "tur": "devlet",
+   "id": "oyana-trio-halklari",
+   "taban": "Народите Wayana · Trio · Oyapock (Tumucumaque)",
+   "main": "Народите уаяна · трио · ояпок (Тумукумаке)",
+   "oneri": "Народите уаяна · трио · ояпоки (Тумукумаке)",
+   "neden": "Latin yazı kalmış"
+  },
+  {
+   "tur": "devlet",
+   "id": "macushi-wapishana-halklari",
+   "taban": "Народите Macushi и Wapishana (Rupununi · Tacutu)",
+   "main": "Народите макуши и вапишана (Рупунуни · Такуту)",
+   "oneri": "Народите макуши и уапишана (Рупунуни · Такуту)",
+   "neden": "Latin yazı kalmış"
+  },
+  {
+   "tur": "devlet",
+   "id": "yanomami-halklari",
+   "taban": "Народите Yanomami (Guaharibo · Waica · Shiriana)",
+   "main": "Народите яномами (гуахарибо · уайка · шириана)",
+   "oneri": "Народите яномами (гуаарибо · уайка · ширияна)",
+   "neden": "Latin yazı kalmış"
+  }
+ ],
+ "red": []
+}

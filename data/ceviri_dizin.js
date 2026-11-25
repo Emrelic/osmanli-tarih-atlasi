@@ -899,11 +899,11 @@ window.CEVIRI_DIZIN = {
   "bg": [
    [
     "ceviri_bg_arayuz.js",
-    "771b9b1c"
+    "0c4674d3"
    ],
    [
     "ceviri_bg_devlet.js",
-    "4603b03d"
+    "290c91ea"
    ],
    [
     "ceviri_bg_olay_01.js",
