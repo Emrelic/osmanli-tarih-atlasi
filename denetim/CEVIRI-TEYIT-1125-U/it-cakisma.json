@@ -1,0 +1,37 @@
+{
+ "cakisma": [
+  {
+   "tur": "arayuz",
+   "id": "# — önemsizleri ele",
+   "taban": "# — prendi in esame i trascurabili",
+   "main": "# — escludi i trascurabili",
+   "oneri": "# — scarta quelli trascurabili",
+   "neden": "ters anlam: 'ele' = elemek"
+  },
+  {
+   "tur": "arayuz",
+   "id": "Yerleşim: olay mahalli ekranın ortasına mı gelsin, kenardan mı girsin.",
+   "taban": "Insediamento: se il luogo dell'evento debba entrare al centro dello schermo o dal bordo.",
+   "main": "Posizionamento: se il luogo dell'evento debba entrare al centro dello schermo o dal bordo.",
+   "oneri": "Posizionamento: se il luogo dell'evento debba comparire al centro dello schermo o entrare dal bordo.",
+   "neden": "'Yerleşim' burada konumlandırma, yerleşim yeri değil"
+  },
+  {
+   "tur": "devlet",
+   "id": "cemisgezek-beyligi",
+   "taban": "Beilicato di Cemisgezek (Melkisi)",
+   "main": "Beilicato di Cemişgezek (Melkisi)",
+   "oneri": "Beilicato di Çemişgezek (Melkisi)",
+   "neden": "yer adı imlası (TR'de aksan eksik)"
+  },
+  {
+   "tur": "devlet",
+   "id": "dulefi",
+   "taban": "Dulafidi (Dulafidler)",
+   "main": "Dulafidi",
+   "oneri": "Dulafidi (Delefidi)",
+   "neden": "Türkçe -ler çoğul kalıntısı"
+  }
+ ],
+ "red": []
+}
