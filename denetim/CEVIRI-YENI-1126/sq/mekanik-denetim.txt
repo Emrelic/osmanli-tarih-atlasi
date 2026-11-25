@@ -1,9 +1,26 @@
 taban origin/main 24bca150f
-arayuz 2030/2034
-devlet 1826/2315
-olay 1386/5196
+arayuz 2034/2034
+devlet 2315/2315
+olay 1483/5196
 
-c_arayuz_02.jsonl:40 arayuz ALINMADI (yer tutucu farkli) n=326
-c_arayuz_06.jsonl:1 arayuz ALINMADI (yer tutucu farkli) n=1466
-c_arayuz_06.jsonl:2 arayuz ALINMADI (yer tutucu farkli) n=1467
-c_arayuz_06.jsonl:3 arayuz ALINMADI (yer tutucu farkli) n=1468
+c_olay_059.jsonl:1 olay ALINMADI (cok kisa) n=1
+c_olay_059.jsonl:2 olay ALINMADI (cok kisa) n=2
+c_olay_059.jsonl:3 olay uyari: yil gorunmuyor 1329 n=3
+c_olay_059.jsonl:5 olay uyari: yil gorunmuyor 1352,1354 n=5
+c_olay_059.jsonl:7 olay uyari: yil gorunmuyor 1361,1369 n=7
+c_olay_059.jsonl:10 olay ALINMADI (cok kisa) n=10
+c_olay_059.jsonl:11 olay ALINMADI (cok kisa) n=11
+c_olay_059.jsonl:12 olay ALINMADI (cok kisa) n=12
+c_olay_059.jsonl:15 olay ALINMADI (cok kisa) n=15
+c_olay_059.jsonl:16 olay ALINMADI (cok kisa) n=16
+c_olay_059.jsonl:17 olay ALINMADI (cok kisa) n=17
+c_olay_059.jsonl:18 olay ALINMADI (cok kisa) n=18
+c_olay_059.jsonl:19 olay ALINMADI (cok kisa) n=19
+c_olay_059.jsonl:20 olay ALINMADI (cok kisa) n=20
+c_olay_059.jsonl:25 olay uyari: yil gorunmuyor 1456 n=25
+c_olay_059.jsonl:34 olay uyari: yil gorunmuyor 1570,1571 n=34
+c_olay_059.jsonl:36 olay uyari: yil gorunmuyor 1593,1606 n=36
+c_olay_059.jsonl:38 olay uyari: yil gorunmuyor 1638 n=38
+c_olay_059.jsonl:39 olay uyari: yil gorunmuyor 1645 n=39
+c_olay_059.jsonl:40 olay uyari: yil gorunmuyor 1669,1692,1715 n=40
+c_olay_059.jsonl:41 olay uyari: yil gorunmuyor 1645,1692 n=41

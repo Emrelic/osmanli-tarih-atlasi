@@ -950,19 +950,23 @@ window.CEVIRI_DIZIN = {
   "sq": [
    [
     "ceviri_sq_arayuz.js",
-    "af4ca84b"
+    "c62b1b4c"
    ],
    [
     "ceviri_sq_devlet.js",
-    "8c619e02"
+    "f653278f"
    ],
    [
     "ceviri_sq_olay_01.js",
-    "dec070b4"
+    "1347c5d1"
    ],
    [
     "ceviri_sq_olay_02.js",
-    "c6d400c0"
+    "2a4e30ff"
+   ],
+   [
+    "ceviri_sq_olay_03.js",
+    "62974ed0"
    ]
   ]
  }

@@ -117,3 +117,22 @@ Meclis-i Mebusan = Mexhlis-i Mebusan (Dhoma e Deputetëve) · İttihat ve Terakk
 şeyhülislâm = shejhulislam · ahidnâme = ahdname · Bâbıâli = Babiali (Porta e Lartë)
 Üsküdar = Yskydar · Zigetvar = Sigetvar · İnebahtı = Lepanto · Atmeydanı = Atmejdan · Rusçuk = Ruse (Rusçuk) · Tuna = Danubi · Sinop = Sinop
 
+== sozluk_e.md
+# sq sözlüğü (ETIKET e) — a-d ile uyumlu
+Kızıl Ordu = Ushtria e Kuqe · Alman Ordusu = ushtria gjermane · Merkez Ordular Grubu = Grupi i Armatave Qendër ·
+Büyük Kuzey Savaşı = Lufta e Madhe e Veriut · Livonya Tarikatı = Urdhri i Livonisë · knezlik = knjazëri · knez = knjaz ·
+Moskova = Moskë · Kurland = Kurlandi · Riga = Riga · Vilnius = Vilniusi · Smolensk = Smolensku · Pskov = Pskovi · Novgorod = Novgorodi ·
+Piri Reis = Piri Reisi · Sultanahmet Camii = Xhamia e Sulltan Ahmetit · Topkapı = Saraji Topkapë
+
+== sozluk_f.md
+# sq sozlugu (ETIKET f) — antik/tarihoncesi maddeler; sozluk_a esastir
+MÖ = p.e.s. · yy = shek. · cal BC / BP / 14C: aynen · dolayları = rreth
+"X noktalarında sahiplik A'dan B'ya geçer." = "Në pikat X zotërimi kalon nga A te B."
+"Kaynak geçiş bilgisi:" = "Të dhënat e burimit për kalimin:" · "Kaynak:" = "Burimi:" · sahipsiz aralık = interval pa zotërues · okunmadı = nuk u lexua
+YAZILI GELENEK = TRADITA E SHKRUAR
+Selevkos İmparatorluğu = Perandoria Seleukide · Part (Arsakid) = Perandoria Parte (Arsakide) · Ahameniş (Pers) = Perandoria Akemenide (Perse)
+Büyük İskender İmparatorluğu = Perandoria e Aleksandrit të Madh · Roma Cumhuriyeti = Republika Romake · Yeni Asur = Perandoria Neoasiriane
+Hitit = hititë · Hattuşa = Hatusha · Babil = Babilonia · Asur = Asiria · Urartu = Urartu · Troya = Troja · Medya = Media · Kartaca = Kartagjena
+Bergama = Pergam · Sirakuza = Sirakuzë · Marsilya = Marsejë · İskenderiye = Aleksandri · Dicle = Tigër · Fırat = Eufrat · Mısır = Egjipt · hanedan = dinasti
+Tunç Çağı = Epoka e Bronzit · Demir Çağı = Epoka e Hekurit · Neolitik = Neolit · kazı = gërmime · evre = fazë · katman = shtresë
+
