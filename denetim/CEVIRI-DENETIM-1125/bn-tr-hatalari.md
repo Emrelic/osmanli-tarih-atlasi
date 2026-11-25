@@ -120,3 +120,44 @@
 - olay OLAYLAR_ORTACAG_CIN:1129-08-01:0: başlıkta İngilizce "Prefecture".
 - olay OLAYLAR_ORTACAG_DOGU_GUNEYDOGU_ASYA:0929-01-01:0/1, 0936-09-26:1/2, 1185-12-21:0-3, 1222-01-01:0/1: d sonunda harita noktasına ait iç not parantezleri ("(Hubaekje ülkesi.)", "(Kyushu: shugo/jitō'nun uygulandığı bölge.)", "(Hōjō Tokimasa'nın saraydan bu yetkiyi koparttığı yer.)" vb.).
 - olay OLAYLAR_ORTACAG_BOZKIR:0895-03-02:0 ve OLAYLAR_ORTACAG_BOZKIR:1239-10-18:0: "Atlasta ... yazılıdır", "(TDV'de 'Çernikov')" iç notları.
+
+== tr_hatalari_g.md
+- olay OLAYLAR_ANTIK_MISIR_NUBYA:-0359-01-01:0: başlıkta "safta değiştirdi" (saf değiştirdi)
+- olay OLAYLAR_ANTIK_MISIR_NUBYA:-0330-01-01:0: d'de İngilizce "oracle danıştı" (kâhine)
+- olay OLAYLAR_ANTIK_MISIR_NUBYA:-0321-01-01:0: "Ptolemaios Mısır'ı batıya doğru da genişledi" bozuk
+- olay OLAYLAR_ANTIK_MISIR_NUBYA:-2054-01-01:0: d'de "(aşağıdaki madde)" iç gönderme
+- olay OLAYLAR_ANTIK_MISIR_NUBYA:0175-01-01:0: "imparatorluk ilan etti" (kendini imparator)
+- olay OLAYLAR_ANTIK_YAKIN_DOGU:-0329-01-01:1: "henüz tek hükümdar olmaması" anlamsız
+- olay OLAYLAR_ANTIK_YAKIN_DOGU:-0330-10-01:0: Gaugamela cümlesi bozuk ("sol kanat savunmasıyla yarıp içeri girdiği saldırıda")
+- olay OLAYLAR_ANTIK_YAKIN_DOGU:-0630-01-01:0: "Babil valileri ... başkaldırdı" cümlesi bozuk
+- olay OLAYLAR_ANTIK_YAKIN_DOGU:-1224-01-01:0: "orta çağın en güçlü devleti" (Orta Asur dönemi kastı olmalı)
+- olay OLAYLAR_ANTIK_YAKIN_DOGU:0363-06-26:0: d bozuk cümle ("... Maranga'da Sasani hücumunda yaralanan imparator öldü")
+- olay OLAYLAR_ANTIK_AKDENIZ:-0035-01-01:0, -0063-01-01:0, 0106-01-01:0: "kronolojide ayrı maddedir" iç notu kullanıcıya görünüyor; 0106'da ayrıca eksik nokta ve ".."
+- olay OLAYLAR_ANTIK_AKDENIZ:-0263-01-01:1: "Mamertinlerin Messana'sını ... yardım isteyince" bozuk
+- olay OLAYLAR_ANTIK_AKDENIZ:-0277-01-01:0: d sonunda TDV alıntısı ve "Geçiş tarihi" iç not görünümünde
+- olay OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1073-01-01:0: başlık kesik ("ve bağımsızlık...")
+- olay OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1131-01-01:0: "katilir" (katılır); d'de İtalyanca Treccani alıntısı/iç not
+- olay OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1061-01-01:0, 1203-01-01:1: "TDV bu yılı ... verir" / "(kaynaklar ... verir)" iç not
+- olay OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1205-01-01:0: "Dördüncü Haçlı Seferi'nden yirmi yıl sonra" yanlış (sefer 1204)
+- olay OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1247-01-01:0: "vikontluğu ... krala el konuldu" bozuk
+- olay OLAYLAR_2S1019:1439-08-27:0, 1458-08-06:0, 1459-06-20:0, 1475-06-06:0: "atlasta abi merkezi" iç yöntem notu kullanıcıya görünüyor
+- olay OLAYLAR_LAB19_2S_P1:0613-05-12:0, 0780-12-02:0: "Atlasın ... künyesi" iç not
+- olay OLAYLAR_LAB19_2S_P2:1283-06-08:0: "elden çıkan diğer yerleşimler" iç not görünümünde
+
+== tr_hatalari_h.md
+# TR kaynak hataları (tur h, 239-273)
+- olay OLAYLAR_LAB19_BOS_1119_SIBIRYA:1630-01-01:0: TR başlıkta Kiril "ясак" kalmış.
+- olay OLAYLAR_AVMAC_A_1029:1156-09-17:0: "Bavyera dükalığından Bavyera'yı imparatora geri verdi" bozuk cümle.
+- olay OLAYLAR_AVMAC_C_1029:1918-11-13:0, 1918-11-16:0, 1919-03-21:0, 1921-12-14:0, 1938-03-12:0, 1945-04-13:0, 1949-08-20:0, 1956-10-23:0, 1995-01-01:0, 2004-05-01:0: kullanıcıya görünen iç not / kimlik (macaristan-naiplik, avusturya-ikinci-cumhuriyet, "haritada zincirler ... döner", "künye").
+- olay OLAYLAR_AVMAC_C_1029:1945-07-09:0: "motor dondurma: yeni BOYALAR anahtarı eklenmedi" geliştirici notu.
+- olay OLAYLAR_AVMAC_FINAL_1029:1703-01-01:0: "(borç)" ve kaynak araştırma notu.
+- olay OLAYLAR_FRANSA_KONTROL_1027 (1388-09-28:0, 1348-06-09:0, 1814-05-30:0, 1481-12-11:3, 1284-01-01:0): "Atlas ... madde eksikti", "Yerleşim kaydı", "bu kayıtta işlenmedi", "BEYANLI YAKLAŞIKLIK", "künye t" iç notları.
+- olay OLAYLAR_FRANSA_KONTROL_1027:1317-01-09:0: "ölümünden 4 gün sonra ölen posthumous oğul I. Jean" bozuk/karışık (doğumundan sonra olmalı).
+- olay OLAYLAR_NAPOLYON_ITALYA_1028:1849-02-09:0: triumvirliğin cumhuriyeti 9 Şubat'ta ilan ettiği yazılı; triumvirlik Mart 1849'da kuruldu (kontrol edilmeli).
+- olay OLAYLAR_NAPOLYON_ITALYA_1028:1143/1128/1071 blokları: "zincir", "abi merkez", "tarihli cümle bulunamadı", "künye f" iç notları.
+- olay OLAYLAR_OK104:1443-01-01:0: "İzladi yenilgisi" kontrol edilmeli (İskender Bey'in ayrılışı genelde Niş muharebesine bağlanır).
+- olay OLAYLAR_P0067:1788-09-21:0: "ek okuma: karsi-karansebes-1788" iç kimlik görünüyor.
+- olay OLAYLAR_DUNYA_BOLGE_1109:1905-01-22:0: "çariçenin muhafızlarınca" (çarın olmalı; çeviri "çarın" demiş).
+- olay OLAYLAR_DUNYA_BOLGE_1109:1917-03-15:0: "[[rusya-gecici-hukumet]], [[sovyet-rusya]]" iç bağlantı kimlikleri görünüyor.
+- olay OLAYLAR_GEZGINLER:1522-09-06:0: "(sayı genel bilgi)" iç not.
+- olay OLAYLAR_GEZGINLER:1871-03-09:0: "on gezi" -> "ön gezi"; 1861-11-01, 1871-2/1891-06-14, 1818-01-01, 1829-11-03: Türkçe karaktersiz yazım ("agzi", "gecis", "golu", "kavsagi").

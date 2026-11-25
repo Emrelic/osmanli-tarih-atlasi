@@ -35,4 +35,9 @@ Okunan (tam): 4_olay_169 - 4_olay_203 (35/35 paket). Aralık bitti.
 Düzeltme dosyaları: duzeltme_f_001 - 006. Sistematik Latin harfli ad sorunu düzeltilmedi: bkz. notlar_f.md.
 
 == ilerleme_g.txt
-Okunan (tam): 4_olay_204 - 4_olay_221
+Okunan (tam): 4_olay_204 - 4_olay_238 (35/35 paket; yaklaşık 700 olay kaydı)
+
+== ilerleme_h.txt
+Tamamen okunan: 4_olay_239 - 4_olay_273 (35/35 paket; aralık tamam)
+Düzeltme dosyaları: duzeltme_h_001 - 007
+Sistematik Latin harfli ad sorunu düzeltilmedi: bkz. notlar_h.md

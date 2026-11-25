@@ -64,3 +64,19 @@ Etkilenen aralık (paket / kimlik bloğu):
 f_006'daki CIN düzeltmeleri yalnız Gate/Avenue gibi İngilizce sözcükleri giderir; toplu aktarım yapılırsa bu düzeltmeler temel alınmalı.
 Aktarımda dikkat: Türkçe c = জ, ç = চ, ş = শ, ğ sessiz/গ.
 Bitişik not: 171-174 arasındaki aynı türden (daha seyrek) Latin adlar f_001 / f_002'de DÜZELTİLDİ.
+
+== notlar_g.md
+- TOPLU SORUN (tek tek düzeltilmedi): Latin harfli özel adlar. En yoğun blok OLAYLAR_ANTIK_AKDENIZ (yaklaşık -0051 ve öncesi; paket 219-227: Mithridates, Pontus, Hispania, Syrakusai, Thebai vb.) ve OLAYLAR_ORTACAG_BEKLEYEN_ACIK (paket 227-233: Roger, Salerno, Amalfi, Ohrid, Dvin, Elbistan vb.). Paket 234 OLAYLAR_2S1019'da da var. Ayrı bir bn ad yazımı turu gerekiyor. Yalnız Türkçe harfli kalıntıların bir bölümü düzeltildi.
+- Aynı bloklarda düzelttiğim kayıtların yeni metninde de düzeltme hedefi olmayan Latin adlar kaldı.
+- Türkçe yazımlı Latin yazar adları: "Plutarkhos-এর" (OLAYLAR_ANTIK_MISIR_NUBYA) -> প্লুতার্ক; Herodotos, Josephus, Polybios, Dio, Strabo, Xenophon, Breasted, Berossos da çoğu yerde Latin. Mekanik değişimle çözülebilir.
+- Bu aralıkta hepsi taranmadı sayılmalı: Türkçe harfli Latin kalıntılar (ör. 232-235'te Sinop, Kastamonu, Sivas gibi harfsiz olanlar bırakıldı).
+
+== notlar_h.md
+# bn denetimi, tur h - DÜZELTİLMEYEN SİSTEMATİK HATA (toplu aktarım gerekir; notlar_f ile aynı tür)
+Özel adlar Latin harfle (Türkçe imlâ / özgün yazım) bırakılmış, ardına Bengalce ek yapıştırılmış.
+- 260: OLAYLAR_P0068B:1789-06-07:0'dan itibaren bütün P0068B (261 dahil: Koca Yûsuf Paşa, Fokşani, Rimnik, Yergöğü, Ziştovi, Yaş ...), P0065
+- 262 - 263: P0065, KRONOEKSIK0921, 0073_IRAN_YANYA (Yanya, Mora, Kars, Erzurum, Tepedelenli Ali Paşa ...)
+- 263 - 265: KAMERIKA ve DUNYA_BOLGE_1109 (yer/kişi adlarının çoğu; yalnız 'Şarlken' h_005'te düzeltildi)
+- 266 ve 269 - 273: GEZGINLER güzergâh kayıtlarında durak adları Latin; 266'da Nâsır-ı Husrev (1045, 1047-03) kayıtları Türkçe imlâ ile Latin.
+h_004'teki 1821 düzeltmesi yalnız anlam hatasını giderir, Latin adlar korunmuştur (toplu aktarımda bu metin temel alınmalı).
+Ayrıca (düzeltilmedi): Latin/Bengal rakamı, অটোমান/উসমানীয়/ওসমানীয়, TDV/টিডিভি, সালিভান/সুলিভান tutarsızlıkları.

@@ -533,3 +533,106 @@
 - olay | OLAYLAR_ANTIK_YAKIN_DOGU:0256-01-01:0 | d: 'onlarca' bozuk çevrilmiş
 - olay | OLAYLAR_ANTIK_AKDENIZ:-0041-01-01:0 | d: 'Triumvirler' 'üç sütun yöneticileri' diye yanlış çevrilmiş
 - olay | OLAYLAR_ANTIK_AKDENIZ:-0277-01-01:0 | d: Türkçe alıntı çevrilmeden kalmış
+- olay | OLAYLAR_EK:1302-08-01:0 | b: Latin Türkçe kalıntı
+- olay | OLAYLAR_EK5:1688-06-22:0 | d: Macarca 'Jenővel' = Jenő (Ineu) kasabasıyla birlikte; 'Eugen ile' diye yanlış çevrilmiş
+- olay | OLAYLAR_EK5:1716-10-13:0 | d: 'abi-merkez' özel ad (Márquez) sanılmış; yer adları Latin kalmış
+- olay | OLAYLAR_EK16:1941-07-09:0 | d: Kaynak satırı Türkçe kalmış
+- olay | OLAYLAR_2S_0919:1847-01-01:0 | d: Latin adlar
+- olay | OLAYLAR_EK:1302-08-01:0 | b: Latin harfli Türkçe ad çevrilmemiş
+- olay | OLAYLAR_EK5:1716-10-13:0 | d: Latin yer adı kalıntısı; 'abi-merkez' anlamsız aktarılmış (TR iç notu ayrıca tr_hatalari'nda)
+- olay | OLAYLAR_EK5:1688-06-22:0 | d: Macarca 'Jenővel' (Jenő kalesiyle birlikte) kişi adı Eugène sanılmış
+- olay | OLAYLAR_EK16:1941-07-09:0 | d: Türkçe kalıntı ve iç not (arama özeti)
+- olay | OLAYLAR_2S_0919:1847-01-01:0 | d: Türkçe kalıntı parantez ve Latin harfli adlar
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0263-01-01:1 | d: Özne bozuk: 'Messana yardım istedi' olmuş
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0284-01-01:0 | d: Bozuk anlatım
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0310-01-01:0 | b: Bozuk dilbilgisi
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0315-01-01:1 | d: Anlam hatası: Eumenes'in kendisi yerine 'onun komutanı' teslim edilmiş
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0321-09-05:0 | b: Bozuk anlatım
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0960-03-03:0 | b: Buradaki 'Fas' Fez şehri; ülke (Fas) diye çevrilmiş
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0960-03-03:0 | d: Buradaki 'Fas' Fez şehri; ülke diye çevrilmiş
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0993-02-26:0 | b: Türkçe imlalı ad kalıntısı
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0993-02-26:0 | d: Türkçe imlalı ad kalıntısı
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0893-03-23:0 | d: Türkçe harfli ad kalıntısı
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0992-01-01:0 | d: Türkçe harfli ad kalıntısı
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0999-10-14:0 | b: Türkçe harfli ad kalıntısı
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0999-10-14:0 | d: Türkçe harfli ad kalıntısı
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0943-09-04:0 | b: Latin harfli ad kalıntısı
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0943-09-04:0 | d: Latin harfli ad kalıntısı
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1205-01-01:0 | d: Türkçe 'Aziz' (Saint) çevrilmemiş
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1048-06-16:0 | d: Türkçe harfli ad kalıntısı
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1071-01-01:0 | d: Bozuk anlatım
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1085-01-01:0 | b: Türkçe harfli ad kalıntısı
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1085-01-01:0 | d: Türkçe harfli ad kalıntısı
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1086-07-11:0 | b: Türkçe harfli ad kalıntısı
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1086-07-11:0 | d: Türkçe harfli ad kalıntısı
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1088-03-27:0 | d: Türkçe harfli ad kalıntısı
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1090-03-06:0 | b: Türkçe harfli ad kalıntısı
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1090-03-06:0 | d: Türkçe harfli ad kalıntısı
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1092-01-01:0 | b: Türkçe harfli ad kalıntısı
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1092-01-01:0 | d: Türkçe harfli ad kalıntısı
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1096-11-01:0 | b: Türkçe harfli ad kalıntısı
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1096-11-01:0 | d: Türkçe harfli ad kalıntısı
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1118-04-24:0 | d: Türkçe harfli ad kalıntısı
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1124-12-10:0 | b: Türkçe harfli ad kalıntısı
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1124-12-10:0 | d: Türkçe harfli ad kalıntısı
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1132-01-01:0 | d: Türkçe harfli ad kalıntısı
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1150-01-01:0 | b: Türkçe harfli ad kalıntısı
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1150-01-01:0 | d: Türkçe harfli ad kalıntısı
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1150-01-01:1 | b: Türkçe harfli ad kalıntısı
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1150-01-01:1 | d: Türkçe harfli ad kalıntısı
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1174-01-01:0 | d: Türkçe harfli ad kalıntısı
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1215-01-01:0 | d: Türkçe harfli ad kalıntısı
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1228-01-01:0 | b: İngilizce kalıntı
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1228-01-01:0 | d: İngilizce kalıntı
+- olay | OLAYLAR_2S1019:1216-01-22:0 | d: Türkçe harfli ad kalıntısı
+- olay | OLAYLAR_2S1019:1328-11-05:0 | d: Türkçe harfli ad kalıntısı
+- olay | OLAYLAR_2S1019:1417-02-18:0 | b: Türkçe kalıntı
+- olay | OLAYLAR_2S1019:1417-02-18:0 | d: Türkçe kalıntı ve bozuk anlatım
+- olay | OLAYLAR_2S1019:1516-08-24:0 | b: Türkçe harfli ad kalıntısı
+- olay | OLAYLAR_2S1019:1516-08-24:0 | d: Türkçe harfli ad kalıntısı; 'আত্মসমর্পণ নেবে' bozuk
+- olay | OLAYLAR_KUNFUZE_1016:1916-07-18:0 | b: Bozuk dilbilgisi
+- olay | OLAYLAR_2S1019:1687-09-06:0 | b: Yanlış yer: Varadin (Petrovaradin) yerine Hırvatistan'daki Varaždin; Baç Türkçe harf
+- olay | OLAYLAR_2S1019:1687-09-06:0 | d: Yanlış yer adı (Varaždin ≠ Petrovaradin); Türkçe kalıntı
+- olay | OLAYLAR_2S1019:1439-08-27:0 | b: Türkçe harfli kalıntı
+- olay | OLAYLAR_2S1019:1439-08-27:0 | d: Türkçe harfli kalıntı
+- olay | OLAYLAR_2S1019:1459-06-20:0 | b: Türkçe harfli kalıntı
+- olay | OLAYLAR_2S1019:1459-06-20:0 | d: Türkçe harfli kalıntı; bozuk tamlama
+- olay | OLAYLAR_2S1019:1458-08-06:0 | b: Türkçe ad kalıntısı
+- olay | OLAYLAR_2S1019:1458-08-06:0 | d: Türkçe ad kalıntısı
+- olay | OLAYLAR_MOGOLISTAN1115:1691-05-29:0 | d: Türkçe harfli ad kalıntısı
+- olay | OLAYLAR_MOGOLISTAN1115:1688-01-01:0 | d: Türkçe harfli ad kalıntısı
+- olay | OLAYLAR_ALM1115B:1810-12-01:0 | d: Anlam hatası: 'Lübeck'e teslim oldu' izlenimi
+- olay | OLAYLAR_CINHINDI1115B:1471-01-01:0 | b: Vijaya şehir adı 'zafer' diye okunuyor
+- olay | OLAYLAR_CINHINDI1115B:1471-01-01:0 | d: Vijaya şehir adı 'zafer' diye okunuyor
+- olay | OLAYLAR_MOGOLISTAN1115B:1691-05-30:0 | d: Türkçe harfli ad kalıntısı
+- olay | OLAYLAR_LAB19_2S_P2:1200-05-13:0 | d: Parantez içinde Türkçe imlalı kalıntı
+- olay | OLAYLAR_LAB19_2S_P6:1037-01-01:0 | b: TR'deki 'Fas' burada Fez şehri; ülke (Fas/মরক্কো) diye çevrilmiş
+- olay | OLAYLAR_LAB19_2S_P6:1037-01-01:0 | d: 'Fas' şehir adı Fez; ülke Morocco diye çevrilmiş
+- olay | OLAYLAR_LAB19_DUZELTME_1120:1821-03-05:0 | b: 'বারবার' Bengalcede 'tekrar tekrar' okunuyor; Berber özel adı বার্বার
+- olay | OLAYLAR_LAB19_DUZELTME_1120:1821-03-05:0 | d: Berber özel adı 'বারবার' (tekrar tekrar) diye okunuyor
+- olay | OLAYLAR_DIN_ISA_1120:0036-01-01:0 | b: zaman kipi: 'ölmüştü' şimdiki yakın geçmişle çevrilmiş
+- olay | OLAYLAR_DUNYA_AVRUPA_MO:-0504-01-01:0 | d: cümle 'Etrüsk ilerleyişiyle birlikte' gibi okunuyor
+- olay | OLAYLAR_DUNYA_AVRUPA2:0378-01-01:0 | d: Latin harfli Türkçe kalıntı
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1659-11-07:0 | b: Roussillon yanlış yazılmış (son hece düşmüş)
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1659-11-07:0 | d: Roussillon yanlış yazılmış
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1659-11-07:1 | b: Roussillon yanlış yazılmış
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1659-11-07:1 | d: Roussillon yanlış yazılmış
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1849-02-09:0 | d: 'ত্রিমুখ' (üç yüzlü) triumvirlik anlamına gelmez
+- olay | OLAYLAR_OK104:1443-01-01:0 | d: TR 'İzladi yenilgisi' diyor; çeviri Niş yapmış
+- olay | OLAYLAR_P0036:1566-09-01:0 | d: metin içinde Latin harfli Türkçe ad (Göle) kalmış
+- olay | OLAYLAR_P0037:1689-10-01:0 | d: 'ভিদিন ফাতহুল-ইসলাম' tek ad gibi okunuyor
+- olay | OLAYLAR_P0057B:1702-01-01:0 | d: 'আচ্ছাদন করে' (üstünü örter) 'kapsar' için yanlış
+- olay | OLAYLAR_P0917DUNYA:1918-04-01:0 | d: 'kasaba' banliyö (শহরতলি) diye çevrilmiş
+- olay | OLAYLAR_P0068:1789-10-13:0 | b: çevrilmemiş Latin harfli Türkçe ad
+- olay | OLAYLAR_P0068:1789-10-13:0 | d: çevrilmemiş Latin harfli Türkçe ad
+- olay | OLAYLAR_0073_IRAN_YANYA:1821-01-01:0 | d: anlam: kervanın aranması (üst araması) 'kervanı arıyorlar/peşindeler' diye çevrilmiş
+- olay | OLAYLAR_DUNYA_BOLGE_1109:1519-06-28:0 | b: Türkçeye özgü 'Şarlken' adı Latin harfle kalmış; Bengalcede পঞ্চম চার্লস
+- olay | OLAYLAR_DUNYA_BOLGE_1109:1519-06-28:0 | d: Türkçeye özgü 'Şarlken' adı Latin harfle kalmış
+- olay | OLAYLAR_DUNYA_BOLGE_1109:1556-01-16:0 | b: Türkçeye özgü 'Şarlken' adı Latin harfle kalmış
+- olay | OLAYLAR_DUNYA_BOLGE_1109:1556-01-16:0 | d: Türkçeye özgü 'Şarlken' adı Latin harfle kalmış
+- olay | OLAYLAR_DUNYA_BOLGE_1109:1815-09-26:0 | b: 'একত্রীকরণ' (birleştirme/füzyon) yanlış anlam
+- olay | OLAYLAR_GEZGINLER:1668-12-01:0 | b: Edirne adı yanlış yazılmış (son hece düşmüş)
+- olay | OLAYLAR_GEZGINLER:1668-12-01:0 | d: Edirne adı yanlış yazılmış
+- olay | OLAYLAR_GEZGINLER:1768-08-26:0 | d: bozuk cümle: görevlendiren/görevlendirilen ilişkisi kaybolmuş
+- olay | OLAYLAR_GEZGINLER:1779-02-14:0 | d: imla: 'বাধা' (engel) yerine 'বেধে যাওয়া' (patlak veren)
+- olay | OLAYLAR_GEZGINLER:1871-03-09:0 | b: TR 'on gezi' (ön gezi); çeviri 'Moğolistan gezisi' yapmış
