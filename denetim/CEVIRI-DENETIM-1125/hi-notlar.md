@@ -19,3 +19,12 @@ Düzeltilmeyen, toplu karar gerektiren tutarlılık notları (hi, 013-042):
 - Roma rakamlı yüzyıl ve "15. शताब्दी" biçimi düzeltildi; aynı kalıp öteki paketlerde de aranmalı (regex: [0-9XVI]+\. शताब्दी).
 - "Osmanlı" özel ad içinde "ऑटोमन" yapılmış (İttihâd-ı Osmânî); öteki özel adlarda da taranmalı.
 - Terim karışıklığı: bazı maddelerde "उस्मानी", çoğunda "ऑटोमन" (EK5:1688-06-22, EK6:1821-1829). Zevk/tutarlılık; değiştirilmedi.
+
+== notlar_d.md
+Düzeltilmeyen, emin olunmayan ya da zevk sınırındaki noktalar (4_olay_108-142)
+- Çin adları dalgalı: चेंगदू / छंगदू; ZINCIR dönem kayıtlarında Latin "(Chengdu)" TR parantezinden korunmuş.
+- स्वामिहीन / स्वामीहीन iki yazım birlikte kullanılıyor (toplu birleştirme istenirse ZINCIR kayıtları).
+- ZINCIR "dönem başlar/sona erer" kayıtlarında yer ve devlet adı yazımları öteki hi kayıtlarından farklı (बेबिलोन/बाबिल, दमिश्क/दिमश्क़, असीरियाई/अश्शूरी, अटैलिड/अत्तालिद, मार्सेल/मार्सेई).
+- OLAYLAR_ARKEOLOJI_ZINCIR:-0403-01-01:0: TR "Kambises ayin sonunda" (ayin sonu mu, ayın sonu mu belirsiz); hi "अंत में".
+- OLAYLAR_2S0919 Trogir/Herseknovi gibi adlarda küçük yazım farkları (हेरसेग नोवी / हेर्सेकनोवी).
+- Herhangi bir betik koşturulmadı; JSONL geçerliliği makineyle doğrulanmadı.

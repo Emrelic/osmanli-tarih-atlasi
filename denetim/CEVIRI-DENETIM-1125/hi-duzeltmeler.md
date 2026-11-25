@@ -230,3 +230,97 @@
 - olay | OLAYLAR_MISIR1801:1801-05-14:0 | d: Bozuk cümle ve cinsiyet uyumsuzluğu
 - olay | OLAYLAR_SENUSI_0919:1596-05-10:0 | d: Türkçe kalıbın sözcüğü sözcüğüne aktarımı anlaşılmıyor
 - olay | OLAYLAR_P0050:1882-03-06:0 | d: Yanlış yer adı: Ürküp = Prokuplje, Üsküp (Skopje) değil
+- olay | OLAYLAR_EK5:1716-10-13:0 | d: 'eyaletin devriyle' (devir=el değiştirme) 'dönem' diye çevrilmiş; bozuk cümle; abi merkez anlamsız
+- olay | OLAYLAR_EK7:1387-01-01:0 | d: Cinsiyet uyumu hatası
+- olay | OLAYLAR_EK8:1924-01-01:0 | d: Alıntı Türkçe kalmış
+- olay | OLAYLAR_EK5:1516-09-26:0 | d: 'alınmasıyla' yanlış çevrilmiş
+- olay | OLAYLAR_EK5:1872-04-01:0 | d: 'alınmasıyla' yanlış çevrilmiş
+- olay | OLAYLAR_EK5:1516-09-26:0 | d: 'alınmasıyla' yanlış okunuyor; 'तटपट्टी हाथ बदल गई' bozuk
+- olay | OLAYLAR_EK5:1716-10-13:0 | d: 'devir' (devretme) 'dönem' olarak yanlış çevrilmiş; bozuk cümle
+- olay | OLAYLAR_EK5:1872-04-01:0 | d: 'alınmasıyla' bozuk: 'सनआ के लिए जाने से' 'San'a'ya gitmekle' diye okunuyor
+- olay | OLAYLAR_EK7:1387-01-01:0 | d: Çevrilmemiş Türkçe kalıntı: 'TDV İslâm Ansiklopedisi'; cinsiyet uyumu
+- olay | OLAYLAR_EK8:1924-01-01:0 | d: Türkçe kalıntı (çevrilmemiş alıntı)
+- olay | OLAYLAR_EK9:1427-01-01:0 | d: 'समर्पित किया' teslim anlamı vermiyor; bozuk yapı
+- olay | OLAYLAR_EK10:1482-01-01:0 | d: 'ने ... ले गए' dilbilgisi; saray = महल (सराय han demek)
+- olay | OLAYLAR_EK10:1484-08-04:0 | b: Dinyester yanlış yazılmış (Danube ile karışmış)
+- olay | OLAYLAR_EK10:1484-08-04:0 | d: Dinyester yanlış yazılmış
+- olay | OLAYLAR_EK10:1499-08-26:0 | b: 'समर्पण' adanma anlamına kayıyor
+- olay | OLAYLAR_EK10:1499-08-26:0 | d: 'समर्पित किया' teslim anlamı vermiyor
+- olay | OLAYLAR_EK10:1594-08-28:0 | d: 'हिलाई' yanlış kelime (sarsıntı = झटका)
+- olay | OLAYLAR_EK10:1713-06-24:0 | d: Dilbilgisi bozuk cümle
+- olay | OLAYLAR_EK10:1877-05-21:0 | d: Galaţi (Kalas) 'कालाश' yazılmış
+- olay | OLAYLAR_EK10:1433-01-01:0 | d: Dilbilgisi (सगाई dişil)
+- olay | OLAYLAR_EK10:1877-06-27:0 | d: 'समर्पित हुआ' yanlış
+- olay | OLAYLAR_EK10:1912-10-23:0 | d: 'समर्पित हुए' yanlış; dilbilgisi
+- olay | OLAYLAR_EK10:1912-11-03:0 | b: 'समर्पित हुआ' yanlış
+- olay | OLAYLAR_EK10:1912-11-03:0 | d: 'समर्पित हुआ' yanlış
+- olay | OLAYLAR_EK10:1912-11-21:0 | d: 'समर्पित हुआ' yanlış
+- olay | OLAYLAR_EK10:1912-11-05:0 | d: 'को छोड़ा' anlamı bozuyor
+- olay | OLAYLAR_EK10:1476-02-01:0 | d: Yanlış anlam: 'en uzun örneklerindendir' = en uzunlardan biri
+- olay | OLAYLAR_EK10:1521-07-07:0 | b: Bozuk anlatım
+- olay | OLAYLAR_EK10:1806-01-26:0 | b: 'समर्पण' yanlış
+- olay | OLAYLAR_EK10:1806-01-26:0 | d: 'समर्पित हुआ' yanlış
+- olay | OLAYLAR_EK10:1448-01-01:0 | d: Yanlış anlam: 'krallığın içine yerleşme' 'Osmanlı devletinin içine' olmuş
+- olay | OLAYLAR_EK10:1465-01-01:0 | d: Bozuk cümle
+- olay | OLAYLAR_EK11:1422-01-01:0 | d: Dilbilgisi
+- olay | OLAYLAR_EK11:1426-01-01:0 | d: Dilbilgisi (के eksik)
+- olay | OLAYLAR_EK11:1503-01-01:0 | d: Kirman (İran) 'करमान' (Karaman gibi) yazılmış; virgül eksik
+- olay | OLAYLAR_EK11:1508-01-01:0 | d: 'alınması' = 'के लिए जाने' yanlış çevirisi
+- olay | OLAYLAR_EK11:1640-12-01:0 | d: saray = महल (सराय han demek)
+- olay | OLAYLAR_EK12:1560-03-12:0 | d: Dilbilgisi bozuk
+- olay | OLAYLAR_EK12:1537-01-01:0 | d: Dilbilgisi
+- olay | OLAYLAR_EK12:1913-08-31:0 | d: 'alınması' = 'के लिए जाने' yanlış çevirisi
+- olay | OLAYLAR_EK12:1815-05-03:0 | b: 'निरपेक्ष' = mutlak; 'bağımsız' değil
+- olay | OLAYLAR_EK13:1569-01-01:0 | d: Türkçe lakap kalıntısı: Şarlken = Charles V
+- olay | OLAYLAR_EK13:1471-08-24:0 | d: 'समर्पित हुआ' yanlış
+- olay | OLAYLAR_EK13:1513-09-03:0 | d: 'alınması' = 'के लिए जाने' yanlış çevirisi
+- olay | OLAYLAR_EK13:1514-01-01:0 | d: 'alınması' yanlış çevirisi
+- olay | OLAYLAR_EK13:1769-03-11:0 | d: 'alınması' yanlış çevirisi; dilbilgisi
+- olay | OLAYLAR_EK13:1517-05-01:0 | b: 'समर्पण' adanma anlamına kayıyor
+- olay | OLAYLAR_EK13:1517-05-01:0 | d: 'समर्पित हुआ' yanlış; 'ancak' anlamı
+- olay | OLAYLAR_EK10:1484-07-15:0 | d: Türkçe sıra sayısı noktalaması (XVI. शताब्दी)
+- olay | OLAYLAR_EK10:1457-01-01:0 | d: Türkçe sıra sayısı noktalaması
+- olay | OLAYLAR_EK10:1416-01-01:0 | d: Türkçe sıra sayısı noktalaması
+- olay | OLAYLAR_EK13:1417-01-01:0 | d: Türkçe sıra sayısı noktalaması
+- olay | OLAYLAR_EK14:1812-01-01:0 | b: saray = महल (सराय han demek)
+- olay | OLAYLAR_EK14:1720-01-01:0 | d: saray = महल
+- olay | OLAYLAR_EK14:1732-01-01:0 | d: saray = महल
+- olay | OLAYLAR_EK14:1635-01-01:0 | d: saray = महल
+- olay | OLAYLAR_EK14:1504-01-01:0 | d: saray = दरबार (सराय han demek)
+- olay | OLAYLAR_EK14:1675-01-01:0 | d: saray = दरबार
+- olay | OLAYLAR_EK14:1633-01-01:0 | d: Dilbilgisi
+- olay | OLAYLAR_EK14:1568-01-01:0 | d: Cinsiyet uyumu
+- olay | OLAYLAR_EK14:1730-10-28:0 | d: Dilbilgisi bozuk
+- olay | OLAYLAR_EK14:1451-06-01:0 | d: Dilbilgisi
+- olay | OLAYLAR_EK14:1281-01-01:0 | d: Türkçe sıra sayısı noktalaması
+- olay | OLAYLAR_EK14:1425-01-01:0 | d: Türkçe sıra sayısı noktalaması
+- olay | OLAYLAR_EK14:1794-06-01:0 | d: Türkçe sıra sayısı noktalaması
+- olay | OLAYLAR_EK14:1650-01-01:0 | d: Türkçe sıra sayısı noktalaması
+- olay | OLAYLAR_P0052:1884-01-01:0 | d: 'ilk yıllarına kalır' sözcüğü sözcüğüne çevrilmiş, anlamsız
+- olay | OLAYLAR_P0055:1369-01-01:0 | d: Dilbilgisi hatası (ergatif)
+- olay | OLAYLAR_P0056:1829-06-30:0 | d: 'arkasına yürüdü' 'peşinden gitti' diye çevrilmiş
+- olay | OLAYLAR_P0057:1920-10-25:0 | d: Bozuk cümle
+- olay | OLAYLAR_P0057:1921-04-07:0 | d: 'taktik' 'stratejik' diye çevrilmiş
+- olay | OLAYLAR_P0059:1594-11-13:0 | d: 'ने' eksik, cümle bozuk
+- olay | OLAYLAR_SEHIR_ILK:1494-10-02:0 | d: Bozuk cümle yapısı
+- olay | OLAYLAR_ARKEOLOJI_PILOT:-9528-01-01:0 | b: Yapı etiketi D, 'घ' harfine çevrilmiş
+- olay | OLAYLAR_ARKEOLOJI_D3_AMERIKA_PASIFIK:-0749-01-01:0 | b: Cinsiyet uyumu hatası
+- olay | OLAYLAR_ARKEOLOJI_D3_AMERIKA_PASIFIK:-1009-01-01:0 | d: 'राँगा' kalay demek; 'रंगा' olmalı, yapı harfi B
+- olay | OLAYLAR_ARKEOLOJI_D3_AMERIKA_PASIFIK:-1509-01-01:0 | d: 'राँगा' kalay demek; 'रंगा' olmalı, yapı harfi B
+- olay | OLAYLAR_ARKEOLOJI_D3_HINT_CIN:-1045-01-01:0 | b: Zhou ve Muye adları yanlış yazılmış
+- olay | OLAYLAR_ARKEOLOJI_D3_HINT_CIN:-1045-01-01:0 | d: Zhou ve Muye adları yanlış yazılmış
+- olay | OLAYLAR_ARKEOLOJI_D3_HINT_CIN:-1499-01-01:1 | d: Zhou adı yanlış yazılmış
+- olay | OLAYLAR_ARKEOLOJI_D3_HINT_CIN:-1999-01-01:0 | d: Evre etiketi B, 'ख' yapılmış
+- olay | OLAYLAR_ARKEOLOJI_D3_HINT_CIN:-2449-01-01:0 | d: Evre etiketi B, 'ख' yapılmış
+- olay | OLAYLAR_ARKEOLOJI_D3_ANADOLU_EGE:-1190-01-01:0 | b: Anlam ters: Deniz Kavimleri yıkımı, onların yok edilmesi değil
+- olay | OLAYLAR_ARKEOLOJI_ZINCIR:-0281-01-01:0 | b: TR 'Bergama, Pergamon'; ad iki kez aynı yazılmış
+- olay | OLAYLAR_ARKEOLOJI_ZINCIR:-0281-01-01:0 | d: TR 'Bergama, Pergamon'; ad iki kez aynı yazılmış
+- olay | OLAYLAR_ARKEOLOJI_D2_AFRIKA_AMERIKA:-2549-01-01:0 | d: CE28 kazı kodu, 'MÖ 28' diye çevrilmiş
+- olay | OLAYLAR_ARKEOLOJI_D2_CIN_DOGU_ASYA:-13749-01-01:0 | d: Kendi içinde çelişik anlatım
+- olay | OLAYLAR_ARKEOLOJI_D2_CIN_DOGU_ASYA:-1049-01-01:0 | d: Zhou adı yanlış yazılmış
+- olay | OLAYLAR_ARKEOLOJI_D2_CIN_DOGU_ASYA:-1599-01-01:1 | d: Zhou adı yanlış yazılmış
+- olay | OLAYLAR_ARKEOLOJI_D2_CIN_DOGU_ASYA:-9649-01-01:0 | d: Kendi içinde çelişik anlatım
+- olay | OLAYLAR_ARKEOLOJI_D2_HINT_GUNEYDOGU:-1955-01-01:0 | d: Bozuk cümle ve cinsiyet uyumsuzluğu
+- olay | OLAYLAR_ARKEOLOJI_MEZOPOTAMYA:-3799-01-01:0 | d: 'मोटे स्थायी' anlamsız
+- olay | OLAYLAR_ARKEOLOJI_MEZOPOTAMYA:-6499-01-01:0 | d: 'मोटे स्थायी' anlamsız
+- olay | OLAYLAR_ARKEOLOJI_MISIR_NIL_SAHRA:-0299-01-01:0 | d: Dilbilgisi hatası

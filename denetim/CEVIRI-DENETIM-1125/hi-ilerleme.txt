@@ -12,8 +12,8 @@ Tür: olay (yaklaşık 470 kayıt)
 Tamamen okunan: 4_olay_043 - 4_olay_072 (30/30 paket; aralık tamam)
 
 == ilerleme_c.txt
-Tam okunan: 4_olay_073, 074, 075
-Bakilan olay kaydi: ~ 50
+Tam okunan: 4_olay_073 - 087
 
 == ilerleme_d.txt
-Tam okunan: 4_olay_108 - 4_olay_120
+Tam okunan paketler: 4_olay_108 - 4_olay_142 (35/35, aralık tamam)
+Bakılan kayıt türü: yalnız olay (paketlerdeki tüm kayıtlar okundu; kayıt sayısı ayrıca sayılmadı)

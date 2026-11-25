@@ -52,3 +52,23 @@
 - olay OLAYLAR_EK7:1902-01-15:0: "İkinci Suûd Devleti'nin kuruluş anı" — 1902 Üçüncü Suûdî Devleti'nin başlangıcıdır (İkincisi 1824-1891).
 - olay OLAYLAR_EK7:1920-04-23:0: "124 yerleşim ... TBMM hükümetinin idaresine girdi" atlas veri notu.
 - olay OLAYLAR_EK8:1920-08-10:0: "Haritada karşılığı olmamasının sebebi budur", "BAĞIMSIZ/İLK" (1830 maddesi) büyük harf vurguları; atlas notu üslubu.
+
+== tr_hatalari_d.md
+- olay OLAYLAR_2S0920:1942-01-01:0: d kullanıcıya görünen iç not "(bkz. ic_not)" (hi çevirisinde de var: "देखें ic_not")
+- olay OLAYLAR_SENUSI_0919:1691-01-01:0: d iç not ("Eski kayıtta ... beyanlı boşluktu; artık Habsburg olarak boyanır")
+- olay OLAYLAR_SENUSI_0919:1716-10-18:0, 1688-01-01:0, 1717-01-01:0: d veri/harita iç notu ("Eski kayıt ... yıl tabanı", "petekler ... boyanır")
+- olay OLAYLAR_P0049:1724-05-06:0: d iç not ("zincir Hoy'dan devralındı ... beyanlı yaklaşıklık")
+- olay OLAYLAR_SESSIZBORC0919 / SERHAT / P0049 grubu: d metinlerinde "TDV ... maddesine göre" editoryal anlatım yaygın (bilgi amaçlı)
+- olay OLAYLAR_ARKEOLOJI_D3_*, D2_*, PILOT: birçok b/d diakritiksiz Türkçe (Gec, MO, Misir, Iskender, kulturu, cokusunden ...)
+- olay OLAYLAR_ARKEOLOJI_D3_AMERIKA_PASIFIK:-14961 ve -22206: b "(ufuk dışı)" iç not
+- olay OLAYLAR_ARKEOLOJI_D3_ANADOLU_EGE:-1199-01-01:0: b "3. dalga okuma notu" iç not
+- olay OLAYLAR_ARKEOLOJI_D3_ITALYA_AVRUPA:-0751-01-01:0: d "bu oturumda KAYNAKTAN okunmadı" iç not
+- olay OLAYLAR_ARKEOLOJI_D2_IRAN_ORTA_ASYA:-3199-01-01:0: d "Brifteki 'MO ~3100' ..." iç not (hi: "संक्षिप्त नोट")
+- olay OLAYLAR_ARKEOLOJI_D3_HINT_CIN:-0273 / -0236: d "katılım" ('accession' yanlış çevirisi; "tahta çıkış" olmalı; hi "प्रवेश" bunu izliyor)
+- olay OLAYLAR_ARKEOLOJI_D3_HINT_CIN:-4299 / -4799: d "tablodaki 'tahmini tarih' sütunu" iç not
+- olay OLAYLAR_ARKEOLOJI_ZINCIR (tümü, "Kaynak geçiş bilgisi" biçimi): makine üretimi iç metin kullanıcıya görünüyor ("sahipsiz aralık'dan", "künye t=0027 bu turda okunmadı", "KAYNAKLANMADI ... bu oturumda", "Livius.org ceviri-tasiyicisi", "ayni kaynak", URL'ler)
+- olay OLAYLAR_ARKEOLOJI_ZINCIR:-0329-01-01:0: b "(ANTIK-ISKENDER-1113-B)" iç kod; b "→ Büyük İskender" ama d "→ sahipsiz aralık" ve 550/549 Kyros olayını anlatıyor (tarih/içerik uyumsuz)
+- olay OLAYLAR_ARKEOLOJI_ZINCIR:-0309-01-01:0: d "(künye t uzatıldı)" iç not
+- olay OLAYLAR_ARKEOLOJI_ZINCIR: -0026 (d MS 395), -0310 (b Argead, d sahipsiz aralık), -0910 (d 14. yy Aşşur-uballit), -1099 (d Ur III yıl 3), -1899 (d aynı Ur III), -2003 (d Urnamma 2110), -2024 (d MÖ 16. yy), -1154 (d ca.1465), 0036 (d 214/221 Liu Bei), 0395 (d 476 Odoacer): id/başlık ile açıklamanın kaynağı uyuşmuyor
+- olay OLAYLAR_ARKEOLOJI_ZINCIR "dönemi başlar/sona erer" kayıtları: "ayrıntı ve kaynaklar aşağıdadır" ve "sahipsiz aralık dönemi" kullanıcıya görünen veri dili; "Korint: Korint dönemi" anlamsız
+- olay OLAYLAR_ARKEOLOJI_GECIS (tümü): b "sahip dönemi sona erer" veri dili
