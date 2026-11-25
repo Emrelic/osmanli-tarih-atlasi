@@ -154,3 +154,9 @@ Kaloyan Կալոյան · İvan Asen Իվան Ասեն · Charles d'Anjou Կար
 Charlemagne Կարլոս Մեծ · Clovis Կլոդվիգ · Frank ֆրանկ · Vizigot վեստգոթ · Kutsal Roma-Germen Սրբազան Հռոմեական կայսրություն ·
 aforoz բանադրել · konsil եկեղեցական ժողով · taç giymek թագադրվել · naip խնամակալ · vasal վասալ
 
+== sozluk_j.md
+# hy բառարան (ETIKET j, olay_109-122) — sozluk_a esastır
+Yazlofça Յազլովեց · Kamaniçe Կամանիցե · Meciboj Մեջիբոժ · Peşte Պեշտ · Mohaç Մոհաչ · Karlofça Antlaşması Կառլովիցի պայմանագիր ·
+Orsova Օրշովա · Avlonya Վլյորա · Alacahisar Կրուշևաց · Szapolyai Զապոյայի · Kanuni Կանունի · Pannonia Պաննոնիա ·
+Stiria Ստիրիա · Steiermark Շտայերմարկ · Babenberg Բաբենբերգ · Habsburg Հաբսբուրգ · Mark (sınır) մարկ · Tirol Տիրոլ
+
