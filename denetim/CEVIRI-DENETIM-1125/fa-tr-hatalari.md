@@ -1,0 +1,12 @@
+- devlet misir-erken-hanedan … yeni-hitit / filisti vb. antik ve Çin/Hint künyeleri (misir-*, herakleopolis, tebai-*, sumer-lagas-1, akad, gutium, ur-3, isin, eski-asur, samsi-adad, sealand-1, isin-2, orta-asur, yeni-babil, mari-lim, elam-*, yeni-hitit, aram-sam, fenike-sehirleri, filistin-pentapolis, israil-krallik, ahamenis*, iskender-imparatorlugu, selevkos, part, palmira, uman-ibadi, medine-devleti, kush-25-hanedan, sait-26-hanedan, kush-krallik, bati-han, dogu-han, bati-jin, dogu-jin, han-zhao, sui, tang, *-5hanedan, maurya, gupta, olmek, wari, maya-klasik, neustria…besalu, albarracin, perlak, vesali-chandra, ngo-hanedani, 12-su-quan, guney-yemen, sarawak-tac-kolonisi vb.): TR adlar Türkçe harfsiz yazılmış ("Misir Erken Hanedan Donemi", "Imparatorlugu", "Sehir Devletleri", "Kralligi").
+- devlet sutayogullari: "Sutayogullari" → "Sutayoğulları".
+- devlet cemisgezek-beyligi: "Cemisgezek Beyligi" → "Çemişgezek Beyliği".
+- arayuz "# Ocak # (imzalar # Ocak-# Mart arası şeyhlik şeyhlik tamamlandı)": "şeyhlik şeyhlik" kullanıcıya tekrar hatası gibi görünüyor.
+- arayuz: kullanıcıya görünebilen iç not / geliştirici metinleri: "ÇELİŞKİ-#", "ic_not_t", "olaylar_ek#", "kronoloji_safevi.js", "künye ic_not_t", "eski t #-#-# ay başı yer tutucuydu", "t ALT SINIR / ÜST SINIRDIR", "DÜZELTİLMİŞ TARİH, bkz. not", "(Emre notu ##)".
+- olay OLAYLAR_2S0920:1942-01-01:0: açıklamada "(bkz. ic_not)" kullanıcıya görünüyor.
+- olay OLAYLAR_ORTACAG_ORTADOGU:1102-05-22:0: "(BEYANLI YAKLAŞIKLIK)" büyük harfli iç etiket.
+- olay OLAYLAR_DUNYA_BOLGE_1109:1917-03-15:0: "(bkz. [[rusya-gecici-hukumet]], [[sovyet-rusya]])" ham iç bağlantı etiketi.
+- olay OLAYLAR_EK5:1716-10-13:0 ve OLAYLAR:1739-09-18:0 vb.: "abi-merkez zinciri" iç jargon, kullanıcıya görünüyor.
+- olay OLAYLAR:1913-05-30:0: "Girit'te Hanya, Kandiye, Girit (Resmo)" → "Girit (Resmo)" yerine "Resmo" olmalı.
+- olay OLAYLAR:1699-01-26:0: Kostajnica ve Jasenovac Habsburg'a geçişi aynı metinde iki kez anlatılıyor.
+- olay OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1130-01-01:1: açıklama başlığın aynısı.
