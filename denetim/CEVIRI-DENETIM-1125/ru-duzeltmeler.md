@@ -1307,3 +1307,91 @@
 - olay | OLAYLAR_ORTACAG_ORTADOGU:0969-11-14:0 | d: çekim hatası
 - olay | OLAYLAR_ORTACAG_IRAN_TURAN:1003-01-01:0 | d: bozuk/belirsiz cümle (Halef oğlu Tahir'i öldürdü)
 - olay | OLAYLAR_ORTACAG_IRAN_TURAN:1021-01-01:0 | b: özel ad yazım hatası
+- olay | OLAYLAR_EK:1717-08-18:0 | d: 'bölge günü' = bölgenin günü; 'дань' (haraç) diye çevrilmiş — ağır anlam hatası
+- olay | OLAYLAR_EK:1444-08-15:0 | d: Türkçe kalıntı; 'ТДВ' kısaltması öteki metinlerde TDV
+- olay | OLAYLAR_EK3:1690-09-27:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK4:1832-09-13:0 | b: Türkçe kalıntı
+- olay | OLAYLAR_EK4:1832-09-13:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK4:1833-06-15:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1299-01-01:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1305-01-01:0 | b: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1305-01-01:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1345-01-01:0 | d: Türkçe kalıntı; Karesi sancağı yanlış ('санджак Каресиды')
+- olay | OLAYLAR_EK5:1405-01-01:0 | b: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1405-01-01:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1412-10-01:0 | b: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1412-10-01:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1419-01-28:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1435-01-01:0 | b: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1435-01-01:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1427-01-01:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1398-07-15:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1467-11-10:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1357-09-01:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1386-06-01:0 | b: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1386-06-01:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1415-03-01:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1446-05-05:0 | b: Çevrilmemiş Türkçe başlık
+- olay | OLAYLAR_EK5:1446-05-05:0 | d: Çevrilmemiş Türkçe ad
+- olay | OLAYLAR_EK5:1468-01-17:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1481-06-22:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1516-05-01:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1513-04-01:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1515-06-13:0 | d: Türkçe kalıntı, dilbilgisi ve ad hatası
+- olay | OLAYLAR_EK5:1553-10-05:0 | b: Çevrilmemiş Türkçe
+- olay | OLAYLAR_EK5:1608-08-09:0 | d: Türkçe kalıntı, anlatım hatası
+- olay | OLAYLAR_EK5:1618-09-26:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK:1717-08-18:0 | d: 'bölge günü' 'дань области' (haraç) diye yanlış çevrilmiş
+- olay | OLAYLAR_EK:1444-08-15:0 | d: Latin kalıntı
+- olay | OLAYLAR_EK3:1690-09-27:0 | d: Latin kalıntı
+- olay | OLAYLAR_EK4:1832-09-13:0 | b: Latin kalıntı
+- olay | OLAYLAR_EK4:1832-09-13:0 | d: Latin kalıntı
+- olay | OLAYLAR_EK4:1833-06-15:0 | d: Latin kalıntı
+- olay | OLAYLAR_EK5:1299-01-01:0 | d: Latin kalıntı; uyum
+- olay | OLAYLAR_EK5:1305-01-01:0 | b: Latin kalıntı
+- olay | OLAYLAR_EK5:1305-01-01:0 | d: Latin kalıntı
+- olay | OLAYLAR_EK5:1345-01-01:0 | d: Latin kalıntı; yanlış ad
+- olay | OLAYLAR_EK5:1405-01-01:0 | b: Latin kalıntı
+- olay | OLAYLAR_EK5:1405-01-01:0 | d: Latin kalıntı
+- olay | OLAYLAR_EK5:1412-10-01:0 | b: Latin kalıntı
+- olay | OLAYLAR_EK5:1412-10-01:0 | d: Latin kalıntı
+- olay | OLAYLAR_EK5:1419-01-28:0 | d: Latin kalıntı
+- olay | OLAYLAR_EK5:1435-01-01:0 | b: Latin kalıntı
+- olay | OLAYLAR_EK5:1435-01-01:0 | d: Latin kalıntı
+- olay | OLAYLAR_EK5:1427-01-01:0 | d: Latin kalıntı
+- olay | OLAYLAR_EK5:1398-07-15:0 | d: Latin kalıntı
+- olay | OLAYLAR_EK5:1467-11-10:0 | d: Latin kalıntı
+- olay | OLAYLAR_EK5:1357-09-01:0 | d: Latin kalıntı
+- olay | OLAYLAR_EK5:1386-06-01:0 | b: Latin kalıntı
+- olay | OLAYLAR_EK5:1386-06-01:0 | d: Latin kalıntı
+- olay | OLAYLAR_EK5:1415-03-01:0 | d: Latin kalıntı; cümle hatası
+- olay | OLAYLAR_EK5:1446-05-05:0 | b: Latin kalıntı
+- olay | OLAYLAR_EK5:1446-05-05:0 | d: Latin kalıntı
+- olay | OLAYLAR_EK5:1468-01-17:0 | d: Latin kalıntı
+- olay | OLAYLAR_EK5:1481-06-22:0 | d: Latin kalıntı
+- olay | OLAYLAR_EK5:1516-05-01:0 | d: Latin kalıntı
+- olay | OLAYLAR_EK5:1513-04-01:0 | d: Latin kalıntı
+- olay | OLAYLAR_EK5:1515-06-13:0 | d: Latin kalıntı; ad hatası
+- olay | OLAYLAR_EK5:1553-10-05:0 | b: Latin kalıntı
+- olay | OLAYLAR_EK5:1608-08-09:0 | d: Latin kalıntı; anlatım
+- olay | OLAYLAR_EK5:1618-09-26:0 | d: Latin kalıntı
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1035-06-29:0 | d: Türkçe madde adı 'Gazneliler' çevrilmeden kalmış
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1060-01-08:0 | b: hutbe okutan; okuyan değil
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1060-01-08:0 | d: bozuk cümle; hutbeyi okutan, okuyan değil
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1078-01-01:0 | d: bozuk anlatım (devlet adı eksik)
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1097-01-01:0 | d: uydurma yer adı
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1104-12-21:0 | b: II. Melikşah Berkyaruk'un oğlu; 'своего' Tapar'ın oğlu yapıyor
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1104-12-21:0 | d: Melikşah Berkyaruk'un oğlu olduğu belirsizleşmiş
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1118-06-01:0 | d: 'провозглашён халифом' halife ilan edildi gibi okunuyor
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1128-01-01:1 | b: Atsız Sencer'in değil Kutbüddin'in oğlu
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1128-01-01:1 | d: Atsız Sencer'in değil Kutbüddin'in oğlu
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1176-09-17:0 | d: bozuk anlatım
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1243-07-01:0 | d: 'görüşüyle' = tavsiyesiyle; 'по мнению' yanlış anlam
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:0757-05-25:0 | d: kabile adının yerleşik biçimi (Варфаджума)
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:1031-01-01:0 | b: hanedan adı Джахвариды (Бану Джахвар)
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:1031-01-01:0 | d: hanedan adı Джахвариды
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:1070-01-01:0 | b: hanedan adı Джахвариды
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:1070-01-01:0 | d: hanedan adı Джахвариды
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:1108-01-01:0 | b: yer adı Уклес (Uclés)
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:1108-01-01:0 | d: yer adı Уклес (Uclés)
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:1112-06-28:0 | d: cinsiyet uyumu hatası

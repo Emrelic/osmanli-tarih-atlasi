@@ -21,3 +21,6 @@ Düzeltme: duzeltme_c_001..010.jsonl
 Tam okunan paketler: 4_olay_103 - 4_olay_137 (35/35)
 Bakilan olay kaydi: yaklasik 1150
 Okunmayan: yok (aralik tamam)
+
+== ilerleme_e.txt
+Tam okunan: 4_olay_138 .. 4_olay_144
