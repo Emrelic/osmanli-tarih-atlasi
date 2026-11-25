@@ -75,7 +75,6 @@ bölümüne taşınır (tarih + kanıt: commit/dal).
 | B17 | 19.11 | UMIT 19 | Mahmudâbâd 1735-03-21 | TDV Mahmudâbâd'ı adıyla anmıyor | Mahmudâbâd | BEYANLI |
 | B-BOSLUK-1123 | 23.11 | keen-boyd (BOŞLUK DOĞRULAMA) | Roma MÖ 26 boşluk kaynakları: TDV, Cambridge Ancient History X, OCD, Mitchell, Roller (Juba II), DergiPark | araştırma ajanları yalnız Thayer/LacusCurtius/Livius özetini okudu; Pleiades bot engeli | Amyntas bölgesi (Isparta, Burdur, Eğirdir, Akşehir, Konya, Antalya), Dobruca/Kuzey Bulgaristan (9 yer Roma'da), kuzey İspanya (10 yer Roma'da), Numidia, Mauretania yönetimi, Sicilya, Korsika, Cottius, Noricum | OKUNMADI (denetim/BOSLUK-DOGRULAMA-1123/RAPOR.md) |
 | B-BOSLUK-1123b | 23.11 | keen-boyd | Kyrenaika 395 sonrası şehir sahibi (Kirene, Merc, Tulmeyse) | 395-1551 arası sahip okunmadı; beyanlı `__BOSLUK__` yazıldı | Beyzâ (Kirene), Merc, Tulmeyse | BEYANLI BOŞLUK |
-| B-POSTIT-197 | 24.11 | xenodochial-boyd (#197 post-it) | **post-it #197 cevabı yazılamadı, GitHub token 401** | `py arac/not.py yanit 197` "Bad credentials" verdi (EMRELİC'te de ölçüldü); not `cozuldu` işaretlenemedi, cevap notun altında yok. Karar (a) Emre yetkisiyle EMRELİC 21 KASIM'dan geldi. Cevap metni hazır (oturum scratchpad'i, `yanit197.md`; özü: Kızılcahamam–Çamlıdere–Güdül alanı ayrı bölge değil, Bolu peteğinin kaynaksız taşan kısmı; İnalcık Belleten 71/261 yalnız Mudurnu/Göynük/Bolu; TDV 403 → okunmadı). Düzeltme: dal `postit-197`, commit `e77378592` (Bolu `not:` beyanı). | Emre: GitHub token yenileme; sonra `not.py yanit 197 --durum cozuldu` yeniden denenir | AÇIK — OKUNMADI/YAZILAMADI |
 
 ## C. YARIM KALAN · ERTELENEN · SIRASI GELMEYEN İŞ
 
@@ -214,6 +213,7 @@ bölümüne taşınır (tarih + kanıt: commit/dal).
 
 | Tarih | Ne | Kanıt |
 |---|---|---|
+| 25.11 | B-POSTIT-197: post-it #197 cevabı, token yenilendikten sonra yazıldı (cozuldu); düzeltme e77378592 origin/main'de | issuecomment-7171485757 |
 | 19.11 | 20 aktif dilde çeviri borcu 0 (olay/devlet/arayüz) | HAVVA ve LAB ölçümü, `ceviri.py denetim` açık borç 0; yetim temizliği `cfbb53a7` |
 | 19.11 | 14 `worktree-agent-*` dalının `main`'de olduğu doğrulandı | HAVVA git cherry 16/16 |
 | 19.11 | `main`'e inenler (KASA kapısı): 9 denetim raporu dalı (79b1ed2c4) · lab19-kapsam-listesi (2f066b207) · ceviri-yetim-temizle (cfbb53a7) · asiret-devletsiz-1118 (23ec3e42, 630 nokta) · **lab19-2s-1119b + umit-19-yerlesim-kur-1119-c @c24b05723 (59ce255c; denetle 0, denetle_yayin 0)** | KASA bildirimi |
