@@ -50,7 +50,7 @@ window.EKOKUMA_DEVMISIR01 = [
  "kesinlik": "kesin",
  "teyit": "teyitsiz",
  "yayin_adayi": false,
- "ic_not": "403 sonrası tarayıcıyla okundu; Emre karar verene kadar yayın adayı değil"
+ "ic_not": "403 sonrası tarayıcıyla okundu; Emre karar verene kadar yayın adayı değil | İkinci kaynak (TDV dışı): Fuess, MSR 5, 2001, s. 60: Tomanbay'ın Bâbüzüveyle kapısında asıldığını anar; yalnız bu olguyu destekler."
 },
 
 {
@@ -68,7 +68,7 @@ window.EKOKUMA_DEVMISIR01 = [
  "kesinlik": "kesin",
  "teyit": "teyitsiz",
  "yayin_adayi": false,
- "ic_not": "403 sonrası tarayıcıyla okundu; Emre karar verene kadar yayın adayı değil"
+ "ic_not": "403 sonrası tarayıcıyla okundu; Emre karar verene kadar yayın adayı değil | İkinci kaynak (TDV dışı): Fuess, MSR 5, 2001, s. 50-51: yalnız Kıbrıs filosunun kaybını destekler (fırtınadan değil, Limasol'a yaklaşırken kayalıklara çarpmaktan söz eder; karttaki 'fırtına' ifadesiyle FARK)."
 },
 
 {
@@ -153,7 +153,7 @@ window.EKOKUMA_DEVMISIR01 = [
  "kaynak": "Seyyid Muhammed es-Seyyid, \"Kansu Gavri\", TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/kansu-gavri",
  "kesinlik": "kesin",
  "teyit": "teyitsiz",
- "ic_not": "Maddenin ilk 8000 karakteri okundu (1511'e kadarki donanma bölümü bu kısımda). İki devlet ilişkisine dair paragraf, maddedeki olgulardan yazarın çıkarımıdır. ÇELİŞKİ: TDV maddesi Diu yenilgisini 1507'deki Chaul'un 'ertesi yılı' (1508) olarak verir; bağlanan kronoloji maddesi 3 Şubat 1509 tarihlidir. Madde günü ayrıca denetlenmeli. | 403 sonrası tarayıcıyla okundu; Emre karar verene kadar yayın adayı değil",
+ "ic_not": "Maddenin ilk 8000 karakteri okundu (1511'e kadarki donanma bölümü bu kısımda). İki devlet ilişkisine dair paragraf, maddedeki olgulardan yazarın çıkarımıdır. ÇELİŞKİ: TDV maddesi Diu yenilgisini 1507'deki Chaul'un 'ertesi yılı' (1508) olarak verir; bağlanan kronoloji maddesi 3 Şubat 1509 tarihlidir. Madde günü ayrıca denetlenmeli. | 403 sonrası tarayıcıyla okundu; Emre karar verene kadar yayın adayı değil | İkinci kaynak (TDV dışı): Fuess, MSR 5, 2001, s. 57-59. 1507'den itibaren Osmanlı kereste, bakır ve denizci yardımını doğrular. FARK: Fuess filonun 1507'de yola çıktığını ve Chaul çarpışmasını Ocak 1508'e koyar, Diu yenilgisini bunun ardından anlatır; karttaki '1507 Chaul, ertesi yıl Diu' TDV'ye göredir ve düzeltilmeli/beyan edilmeli. Venedik'in gemi ustası ve top yardımı da Portekiz kaynaklarına dayanarak anılır.",
  "yayin_adayi": false
 }
 
