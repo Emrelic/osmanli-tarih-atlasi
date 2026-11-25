@@ -120,7 +120,7 @@ window.EKOKUMA_DEVMISIR01 = [
  "kesinlik": "tartismali",
  "teyit": "teyitsiz",
  "yayin_adayi": false,
- "ic_not": "403 sonrası tarayıcıyla okundu; Emre karar verene kadar yayın adayı değil"
+ "ic_not": "403 sonrası tarayıcıyla okundu; Emre karar verene kadar yayın adayı değil | İkinci kaynak (TDV dışı): Fahmy, IRSH 43, 1998, s. 426-428: 1811 Kale kırımını, tekel düzenini, angaryayı ve artan toprak vergisini destekler; karttaki okul, matbaa ve Suriye 1834 ayrıntılarının tümünü doğrulamaz."
 },
 
 {
