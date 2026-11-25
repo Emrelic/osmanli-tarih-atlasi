@@ -57,4 +57,4 @@ Aşağıdaki aday listesinden işlenenler: 2 (Mohaç ordu sayıları; savaş yer
 - 1514 Dózsa: atlasta 1514-05-01 ve 1514-07-20 maddeleri VAR (ilk partideki "madde yok" notu yanlıştı). Açık tam metin bulunamadı (Housley ücretli; core.ac.uk ilk partide 403, yeniden denenmedi).
 - Göksel Baş, "1521 Belgrade", Acta Orient. Hung. 79/3: yalnız arama özeti; kullanılmadı.
 - Kütahya'daki mülteci yaşamı (Saydam'ın ilgili bölümü), Niğbolu 1396, Varna 1444, 1867 Uzlaşması.
-- Mohaç kartı tek yazarlı çalışmaya dayanır; Sebők (2002) da 24-25 bin verir (ikinci bağımsız dayanak; karta eklendi).
+- Mohaç kartı tek yazarlı çalışmaya dayanır; Sebők (2002) da 24-25 bin verir (karta eklendi; aynı tanığa dayanıyor olabilir, bağımsız çift teyit sayılmadı).
