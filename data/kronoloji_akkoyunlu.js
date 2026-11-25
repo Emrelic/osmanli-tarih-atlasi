@@ -325,7 +325,7 @@ window.KRONOLOJI_AKKOYUNLU = [
   d:"15 Receb 873 (29 Ocak 1469) günü Uzun Hasan, Çağatay hükümdarı Ebû Said Mirza Han'ı yenerek idam ettirdi. Timurlu hanedanının başındaki hükümdarın bir Türkmen hükümdarı eliyle idam edilmesi, İran'da Timurlu çağının kapandığı ve Akkoyunlu çağının açıldığı andır.",
   kaynak:"uzun-hasan" },
 
-{ t:"1469-04-01", b:"Hasan Ali öldürüldü — Karakoyunlu hanedanı sona erdi", gun:"Şevval 873 / Nisan-Mayıs 1469 — ay hassasiyeti · ay TDV'de var, gün yok (`uzun-hasan`, `karakoyunlular`, `akkoyunlular`)", tur:"savas",
+{ t:"1469-04-01", b:"Hasan Ali öldürüldü — Karakoyunlu hanedanı sona erdi", ic_not_ham3_gun:"Şevval 873 / Nisan-Mayıs 1469 — ay hassasiyeti · ay TDV'de var, gün yok (`uzun-hasan`, `karakoyunlular`, `akkoyunlular`)", gun:"Şevval 873 / Nisan-Mayıs 1469 (günü bilinmiyor)", tur:"savas",
   onem:5, dunya:2, kapsam:"dis", etiket:["askeri","olum","karakoyunlu","donum-noktasi","konu-askeri","konu-siyasi","konu-kisiler","konu-hanedan"],
   yer_id:"Hemedan",
   d:"Şevval 873 (Nisan-Mayıs 1469) ayında Uzun Hasan'ın oğlu Uğurlu Mehmed, Hemedan yakınlarında Hasan Ali'yi öldürdü. Karakoyunlu Devleti tarih sahnesinden çekildi ve bütün toprakları Akkoyunlu'ya geçti.",

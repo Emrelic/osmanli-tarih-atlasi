@@ -131,7 +131,7 @@ window.KRONOLOJI_COK_HOLLANDA = [
 { t:"1699-01-26", b:"Karlofça Antlaşması — Hollanda elçisi Colyer arabuluculuk yaptı", tur:"diplomasi",
   onem:3, dunya:4, kapsam:"dis", etiket:["diplomasi","antlasma","konu-diplomasi"],
   devlet:"hollanda", yer_id:"",
-  gun:"26 Ocak 1699 = 24 Receb 1110 (TDV `karlofca`)",
+  ic_not_ham3_gun:"26 Ocak 1699 = 24 Receb 1110 (TDV `karlofca`)", gun:"26 Ocak 1699 = 24 Receb 1110 (TDV)",
   yer_kon:[45.203,19.934],
   d:"Hollanda elçisi Jacobus Colyer, İngiliz elçisi William Paget ile birlikte Osmanlı Devleti ile Kutsal İttifak arasında barış için aracılık yaptı. Hollanda'nın arabuluculuğu, Akdeniz ticaretinin savaşla kesilmemesi çıkarına dayanıyordu.",
   kaynak:"TDV `karlofca`: Paget ile Colyer'in Amcazâde Hüseyin Paşa'ya aracılık teklif etmesi; imza \"24 Receb 1110 (26 Ocak 1699)\" · TDV `hollanda`: Colyer'in \"İngiliz elçisiyle birlikte\" aracılığı",

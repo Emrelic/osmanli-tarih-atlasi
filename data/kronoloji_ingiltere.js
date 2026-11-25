@@ -521,7 +521,7 @@ window.KRONOLOJI_INGILTERE = [
 { t:"1588-08-08", b:"İspanyol Armadası yenilgiye uğratıldı", tur:"savas",
   onem:5, dunya:5, ic_not_dunya:"KRON-BOLGE-1110 (Emre, 10 Kasım 2026, öneri listesi onayı): 4→5 — Armada — Atlantik deniz gücünün İspanya'dan İngiltere/Hollanda'ya kayışı", kapsam:"dis", etiket:["askeri","savas","ingiltere","konu-askeri"],
   yer_id:"",
-  gun:"8 Ağustos 1588 GREGORYEN (Gravelines; İngiliz takviminde 29 Temmuz) — Dikkat: dosyanın öteki 1582-1752 günleri Jülyen",
+  ic_not_ham3_gun:"8 Ağustos 1588 GREGORYEN (Gravelines; İngiliz takviminde 29 Temmuz) — Dikkat: dosyanın öteki 1582-1752 günleri Jülyen", gun:"8 Ağustos 1588 GREGORYEN (Gravelines; İngiliz takviminde 29 Temmuz) —",
   d:"II. Felipe'nin İngiltere'yi istila etmek üzere gönderdiği 130 gemilik büyük donanma, İngiliz filosunun taktikleri ve ardından gelen fırtınalarla ağır kayıplar vererek dağıldı; Gravelines açıklarındaki çarpışma dönüm noktası oldu. Zafer, İngiltere'nin bağımsızlığını pekiştirdi ve deniz gücü olarak yükselişinin sembolü hâline geldi.",
   kaynak:"The Oxford Companion to British History (OUP), «Armada, Spanish» https://www.oxfordreference.com/display/10.1093/acref/9780199677832.001.0001/acref-9780199677832-e-208 — «fireship attack on the night of 7 August, and on the following day» ; el-kitabi", yer_kon:[51.009,2.098] },
 
@@ -711,7 +711,7 @@ window.KRONOLOJI_INGILTERE = [
 { t:"1699-01-26", b:"Karlofça Antlaşması — Lord Paget ara buluculuk yaptı", tur:"diplomasi",
   onem:3, dunya:4, kapsam:"dis", etiket:["diplomasi","antlasma","ingiltere","konu-diplomasi"],
   yer_id:"",
-  gun:"26 Ocak 1699 = 24 Receb 1110 (TDV `karlofca`; Gregoryen — İngiliz takviminde 16 Ocak 1698/99)",
+  ic_not_ham3_gun:"26 Ocak 1699 = 24 Receb 1110 (TDV `karlofca`; Gregoryen — İngiliz takviminde 16 Ocak 1698/99)", gun:"26 Ocak 1699 = 24 Receb 1110 (TDV; Gregoryen — İngiliz takviminde 16 Ocak 1698/99)",
   d:"İngiltere ve Hollanda elçileri, Osmanlı Devleti ile Kutsal İttifak (Avusturya, Lehistan, Venedik, Rusya) arasındaki barış görüşmelerinde ara buluculuk yaptı; İngiliz elçi Lord Paget bu süreçte etkin rol oynadı. Osmanlı-Habsburg ilişkilerinde dönüm noktası olan bu antlaşma, İngiltere'nin Osmanlı diplomasisindeki artan ağırlığını da gösterdi.",
   kaynak:"ingiltere (TDV) — dunya değeri kronoloji_habsburg.js ve kronoloji_venedik.js ile BİREBİR eşleştirildi", yer_kon:[45.2058,19.9339] },
 
@@ -734,7 +734,7 @@ window.KRONOLOJI_INGILTERE = [
 { t:"1704-08-13", b:"Blenheim Savaşı — Marlborough'nun zaferi", tur:"savas",
   onem:4, dunya:3, kapsam:"dis", etiket:["askeri","savas","ingiltere","konu-askeri"],
   yer_id:"",
-  gun:"13 Ağustos 1704 GREGORYEN (İngiliz takviminde 2 Ağustos) — Dikkat: dosyanın öteki 1582-1752 günleri Jülyen",
+  ic_not_ham3_gun:"13 Ağustos 1704 GREGORYEN (İngiliz takviminde 2 Ağustos) — Dikkat: dosyanın öteki 1582-1752 günleri Jülyen", gun:"13 Ağustos 1704 GREGORYEN (İngiliz takviminde 2 Ağustos) —",
   d:"Marlborough Dükü John Churchill komutasındaki İngiliz-müttefik ordusu, Fransız-Bavyera kuvvetlerini Blenheim'da ağır bir yenilgiye uğrattı; zafer, Fransa'nın Avrupa'yı domine etme ihtimalini fiilen sona erdirdi. Zafer İngiltere'de büyük bir ulusal gurur kaynağı oldu, Marlborough'ya Blenheim Sarayı hediye edildi.",
   kaynak:"The Oxford Companion to British History (OUP), «Blenheim, battle of», encyclopedia.com https://www.encyclopedia.com/history/modern-europe/wars-and-battles/battle-blenheim — «On 13 August 1704 Marlborough attacked the 60,000-strong Franco-Bavarian forces» ; el-kitabi", yer_kon:[48.6167,10.6167] },
 

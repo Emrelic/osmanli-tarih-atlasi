@@ -404,7 +404,7 @@ window.KRONOLOJI_KARAKOYUNLU = [
   d:"850 (1446) yılında Cihan Şah, kardeşi İspend'in ölümünün ardından altı ay süren bir kuşatmayla Bağdat'ı ele geçirdi. Irak'ın merkezinin alınmasıyla Karakoyunlu toprakları Azerbaycan, Arrân, Irak ve Doğu Anadolu'yu kapsayan bir bütün hâline geldi.",
   kaynak:"karakoyunlular · cihan-sah · cihan-sah (TDV: \"şehri zaptetti ve üç gün boyunca yağmalattı (9 Haziran 1446)\")" },
 
-{ t:"1447-03-12", b:"Şâhruh'un ölümü — Sultâniye ve Kazvin ilhak edildi", gun:"Şâhruh'un ölümü 12 Mart 1447 (TDV `timurlular`) · eski t 1447-03-13 TDV ile 1 gün kayıktı, kaynağı yoktu · ilhak 851 H'dedir (851 H 19 Mart 1447'de başlar) — ilhakın günü TDV'de yok", tur:"fetih",
+{ t:"1447-03-12", b:"Şâhruh'un ölümü — Sultâniye ve Kazvin ilhak edildi", ic_not_ham3_gun:"Şâhruh'un ölümü 12 Mart 1447 (TDV `timurlular`) · eski t 1447-03-13 TDV ile 1 gün kayıktı, kaynağı yoktu · ilhak 851 H'dedir (851 H 19 Mart 1447'de başlar) — ilhakın günü TDV'de yok", gun:"Şâhruh'un ölümü 12 Mart 1447 (TDV)", tur:"fetih",
   onem:5, dunya:1, kapsam:"dis", etiket:["toprak","fetih","timur","siyaset","konu-askeri","konu-siyasi","konu-kisiler"],
   yer_id:"Sultâniye",
   d:"851 (1447) yılında Timurlu hükümdarı Şâhruh'un ölümü üzerine Cihan Şah, Timurlu vesâyetinden tamamen kurtularak Sultâniye ve Kazvin'i topraklarına kattı. Otuz yıldır Karakoyunlu'yu bağlayan Timurlu üstünlüğü böylece sona erdi; Cihan Şah bundan sonra İran'ın en güçlü hükümdarıdır.", ic_not_d:"⚠️ `dunya:1` değeri var olan kronoloji dosyalarından DEVRALINDI.",
