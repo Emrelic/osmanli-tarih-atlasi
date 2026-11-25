@@ -3,6 +3,8 @@
 ## Tam metni okunan kaynaklar
 - H. Umunç, "The Dutch in the Levant", Belleten 75/273 (2011), 373-386.
 
+- P. L. Müller, "Wilhelm I., König der Niederlande", ADB 43 (1898), 163-168.
+
 ## Kısmen okunan
 - Gelderblom, de Jong, Jonker, "The Formative Years of the Modern Corporation" (ERIM ERS-2012-007-F&A, 2012): giriş, ilk bölümler, son bölüm ve sonuç.
 
@@ -27,4 +29,5 @@
 ## Eksik ve sorunlu kronoloji
 - 1612-07-06 için biri Osmanlı çekirdeğinde, biri dış kronolojide iki madde var; kart ikisine de bağlandı.
 - devletler.js `hollanda-dogu-hint` künyesinde 1619 için iki ayrı kuruluş maddesi var (01-01 ve 05-30).
-- Hükümdar kaydı yazılmadı: stadhouder ve krallar için akademik kaynak okunmadı.
+- Yalnız I. Willem için hükümdar kaydı yazıldı (kaynak: ADB 43, 1898; güncel biyografi okunmalı). Stadhouderler ve sonraki krallar bekliyor.
+- de.wikisource ADB sayfaları: 429 döndü; aynı madde deutsche-biographie.de'den okundu.

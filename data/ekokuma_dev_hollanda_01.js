@@ -47,6 +47,19 @@ window.EKOKUMA_DEVHOLLANDA01 = [
     "TARİHÇİLER BUGÜN NE DİYOR. Tonio Andrade bu teslimi, Formosa'nın ilk kez bir Çin devletinin yönetimine girdiği an olarak değerlendirir. Anlatısında sonuç yalnız top gücüyle açıklanmaz: ikmal, muson takvimi, yerleşimcilerin ve yerli köylerin tutumu, Hollanda yönetimi içindeki kavga ve bir sığınmacının verdiği bilgi birlikte rol oynar.",
   kaynak:"Tonio Andrade, How Taiwan Became Chinese: Dutch, Spanish, and Han Colonization in the Seventeenth Century, Columbia University Press (Gutenberg-e), 11. bölüm \"The Fall of Dutch Taiwan\", paragraf 23-44, arşiv kopyası: https://web.archive.org/web/20120813125955/http://www.gutenberg-e.org/andrade/andrade11.html",
   ic_not:"11. bölümün 1-14 ve 23-45. paragrafları okundu (15-22 okunmadı). Teslim günü bu bölümün okunan kısmında yok; metin gün vermez, bağ mevcut maddenin gününedir. Mevcut 1662-02-01 maddelerinin kaynakları ikincil: Andrade ile güçlendirilmeli.",
+  teyit:"teyitli", kesinlik:"kuvvetli" },
+
+{ id:"hollanda-willem1-prens-olarak-donus", devlet:"hollanda", tur:"kimdir",
+  baslik:"Yıllarca sürgünde bekleyen prens: I. Willem tahta nasıl çıktı?",
+  olay:["1815-03-16|Hollanda Krallığı"],
+  kisa:"1795'te ülkesinden kaçtı, Almanya'da küçük bir prenslik aradı, onu da Napolyon'a kaptırdı. 1813'te döndüğünde eski unvanıyla değil, yeni bir hükümdar olarak karşılandı.",
+  metin:"1772'de Lahey'de doğan Willem, genç yaşta cumhuriyetin ordusunun başında Fransa'ya karşı savaştı. Yenilgi üzerine Ocak 1795'te babasıyla İngiltere'ye gitti. 1799'daki İngiliz-Rus çıkarmasına katıldı, ama ülkede beklediği heyecanı uyandıramadı.\n\n" +
+    "BAŞKA BİR TAHT ARAYIŞI. 1802'de Paris'e gidip Bonaparte ile anlaştı; Hollanda'daki kayıplarına karşılık ailesine aralarında Fulda'nın da bulunduğu Alman toprakları verildi. 1806'da Ren Konfederasyonu'na katılmayı reddettikten ve Prusya ordusundaki yerini bırakmadıktan sonra topraklarını yitirdi.\n\n" +
+    "DÖNÜŞ. Leipzig Muharebesi'nden sonra Hollanda'daki Orange yanlılarıyla bağ kuruldu. Kasım 1813'te ayaklanma çıktı; 19 Kasım'da İngiltere'den gelen Willem Scheveningen'de sevinçle karşılandı. Hareketin önderleri de kendisi de eski parti kavgaları dirilmesin diye onun eski cumhuriyetin stadhouderi olarak değil, ülkenin egemen prensi olarak dönmesini istiyordu. Mart 1814'te yeni anayasaya yemin etti. Ardından büyük devletler onu tanıdı ve Belçika da yönetimine verildi.\n\n" +
+    "SONRASI. Biyografi yazarı P. L. Müller'e göre Hollandalılar bu çalışkan, her şeye kendi karışan kraldan memnundu; Belçikalıların birçoğu ise onu dışarıdan getirilmiş, mezhebi de yabancı bir hükümdar olarak gördü. 1830'da birlik koptu. Willem 1840'ta tahtı oğluna bıraktı.\n\n" +
+    "TARİHÇİLER BUGÜN NE DİYOR. Burada aktarılan değerlendirme güncel değil, 1898 tarihlidir: Müller onu 18. yüzyılın aydınlanmacı hükümdar tipine yakın bulur ve tarafsız tarihinin o gün için henüz yazılmadığını söyler. Güncel araştırmanın görüşü bu kartta ele alınmamıştır.",
+  kaynak:"P. L. Müller, \"Wilhelm I., König der Niederlande\", Allgemeine Deutsche Biographie 43 (1898), s. 163-168, https://www.deutsche-biographie.de/gnd119312700.html#adbcontent",
+  ic_not:"Tek ve eski (1898) kaynak: güncel biyografi (ör. Koch 2013, okunmadı) ile güçlendirilmeli.",
   teyit:"teyitli", kesinlik:"kuvvetli" }
 
 ];
