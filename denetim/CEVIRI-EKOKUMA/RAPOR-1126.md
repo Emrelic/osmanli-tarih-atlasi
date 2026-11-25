@@ -48,3 +48,15 @@ Mekanik denetim: 8 teslimin 7'si hatasız; Opus-ar'da 2 "yıl kayıp" bayrağı 
 ## 4. Maliyet (alt ajan tokenı)
 Deneme çevirisi/parti (55K karakter): Sonnet 145-194 bin · Opus 148-204 bin. Hakem 174-234 bin.
 Dil başına yaklaşık 45 parti. Haftalık sayaçtaki karşılığı aşağıdaki ilerleme notlarında.
+
+## 5. İlerleme ve maliyet (26 Kasım 00:15)
+- İngilizce: **145 / 1.094 kart** (5 parti, Sonnet). Öteki diller: 0.
+- Kayma sınaması (UMIT uyarısı): komşu iki kartın çevirisi bilerek yer değiştirildiğinde 152/152
+  yakalandı; 8 gerçek teslim ve 5 üretim partisinde kayma bayrağı 0. Parti 3'te 3 kart yanlış alarm
+  ("150 bin" → "150,000") verdi; denetçi düzeltildi.
+- Parti 3-5: 141 + 143 + 147 bin alt ajan tokenı; sıfırlanan haftalık sayaç %0 → %2 (bu oturum ve o
+  sırada çalışan öteki oturumlar dahil; tam sayı yuvarlaması). **Parti başına yaklaşık %0,5-0,8.**
+- Dil başına yaklaşık 46 parti ⇒ **haftalık payın kabaca %25-35'i** (Latin dışı yazıda yaklaşık 1,35 katı;
+  tahmin). İngilizcenin kalanı 40 parti ≈ %20-30. 21 aktif dil ≈ 6-8 haftalık payın TAMAMI; 31 dil ≈ 9-12.
+  Sınır hesap başına olduğundan öteki makinelere bölmek süreyi kısaltır, payı azaltmaz.
+- Henüz ölçülmeyen tasarruf: partiyi büyütmek.
