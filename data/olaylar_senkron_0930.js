@@ -104,7 +104,7 @@ window.OLAYLAR_SENKRON_0930 = [
   gun:"1471 (TDV yıl/ilkbahar verir, gün vermez — 01-01 yalnız yıl işaretidir)",
   yer:"Besni, Kadirli, Kozan", yer_id:"Behisni (Besni)",
   kisiler:"Şehsuvar Bey, Emîr Yeşbek",
-  d:"1471 ilkbaharında Emîr Yeşbek Savron deresinde Şehsuvar Bey'i yendi; Memlükler Kadirli ve Kozan'ı geri aldı. Şehsuvar 1472'de Kahire'de idam edildi, Memlükler Şahbudak'ı yeniden beyliğe getirdi. Besni de bu dönüşle Memlük idaresine girdi (TDV besni: 'XV. yüzyılın sonlarına doğru yeniden Memlükler’in eline geçti').",
+  ic_not_ham_d:"1471 ilkbaharında Emîr Yeşbek Savron deresinde Şehsuvar Bey'i yendi; Memlükler Kadirli ve Kozan'ı geri aldı. Şehsuvar 1472'de Kahire'de idam edildi, Memlükler Şahbudak'ı yeniden beyliğe getirdi. Besni de bu dönüşle Memlük idaresine girdi (TDV besni: 'XV. yüzyılın sonlarına doğru yeniden Memlükler’in eline geçti').", d:"1471 ilkbaharında Emîr Yeşbek Savron deresinde Şehsuvar Bey'i yendi; Memlükler Kadirli ve Kozan'ı geri aldı. Şehsuvar 1472'de Kahire'de idam edildi, Memlükler Şahbudak'ı yeniden beyliğe getirdi. Besni de bu dönüşle Memlük idaresine girdi (TDV Besni: 'XV. yüzyılın sonlarına doğru yeniden Memlükler’in eline geçti').",
   kaynak:"dulkadirogullari", duygu:["😔"],
   ic_not_kaynak:"TDV `dulkadirogullari`: 1471 ilkbaharında Emîr Yeşbek Şehsuvar Bey'i Savron deresinde yendi; Memlükler Kadirli ve Kozan'ı geri aldı. TDV `besni`: 'XV. yüzyılın sonlarına doğru yeniden Memlükler’in eline geçti'.",
   ic_not_d:"POSTIT-64: 1471 BEYANLI YAKLAŞIKLIK — Besni'nin Memlük'e dönüş yılı TDV'de yok; Şehsuvar'ın yenilgisi (1471) ve Memlük'ün Dulkadır'ı yeniden denetlemesi esas alındı. TDV besni 'XV. yy sonlarına doğru' der, 1471 bununla tam örtüşmeyebilir." },

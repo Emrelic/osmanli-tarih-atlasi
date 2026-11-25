@@ -39,7 +39,7 @@ window.OLAYLAR_AVMAC_C_1029 = [
   tur:"hukumdar", onem:3, dunya:1, kapsam:"dis",
   etiket:["siyaset","konu-siyasi"],
   yer:"Budapeşte", yer_id:"Peşte", kisiler:"IV. Károly (I. Karl), Mihály Károlyi",
-  d:"Eckartsau'da yazılan bildiri 13 Kasım 1918 tarihlidir; Budapeşte'de 14 Kasım'da yayımlandı. Karl yalnız egemenlik haklarının kullanımından vazgeçti, 'tahttan feragat' sözcüğünü kullanmadı. Haritada Macaristan zincirleri 11 Kasım'da, künyedeki Halk Cumhuriyeti ilânı 16 Kasım'da döner; 13 Kasım bu iki gün arasındaki hukukî halkadır.",
+  ic_not_ham2_d:"Eckartsau'da yazılan bildiri 13 Kasım 1918 tarihlidir; Budapeşte'de 14 Kasım'da yayımlandı. Karl yalnız egemenlik haklarının kullanımından vazgeçti, 'tahttan feragat' sözcüğünü kullanmadı. Haritada Macaristan zincirleri 11 Kasım'da, künyedeki Halk Cumhuriyeti ilânı 16 Kasım'da döner; 13 Kasım bu iki gün arasındaki hukukî halkadır.", d:"Eckartsau'da yazılan bildiri 13 Kasım 1918 tarihlidir; Budapeşte'de 14 Kasım'da yayımlandı. Karl yalnız egemenlik haklarının kullanımından vazgeçti, 'tahttan feragat' sözcüğünü kullanmadı. Haritada Macaristan 11 Kasım'da değişir; Halk Cumhuriyeti ise 16 Kasım'da ilân edilir. 13 Kasım bu iki gün arasındaki hukukî halkadır.",
   ic_not:"Kaynak aralığı: Eckartsau bildirisinin tarihi 13 Kasım, Budapeşte'de yayımı 14 Kasım (Ludovika açık erişim yayını ile archontology.org/Orange Files). Atlas Macaristan zincirleri 11 Kasım 1918'de macaristan-habsburg → macaristan-naiplik dönüyor; macaristan-naiplik künye f ise 16 Kasım — Karl'ın Macaristan bildirisi 13 Kasım olduğundan 11 Kasım'ın Macaristan'a özgü bir olayı YOKTUR (11 Kasım Avusturya bildirisi + Compiègne mütarekesi günü). Öneri rapordadır, burada veri değiştirilmedi.",
   kaynak:"https://www.archontology.org/nations/hungary/karoly4.php · https://theorangefiles.hu/the-first-hungarian-republic/ · https://openaccess.ludovika.hu/nke/catalog/download/15/34/136?inline=1" },
 
@@ -91,7 +91,7 @@ window.OLAYLAR_AVMAC_C_1029 = [
   tur:"siyaset", onem:3, dunya:1, kapsam:"dis",
   etiket:["siyaset","toprak-kazanc","konu-siyasi"],
   yer:"Sopron", yer_id:"Sopron", kisiler:"Müttefik Generaller Komisyonu",
-  d:"14-15 Aralık 1921'de Sopron ve Brennbergbánya, 16 Aralık'ta çevredeki sekiz köy oy kullandı. Şehirde Macaristan, köylerin çoğunda Avusturya önde çıktı; toplamda Macaristan yaklaşık yüzde 65. Müttefik Generaller Komisyonu bölgeyi 1 Ocak 1922'de Macaristan'a devretti (haritadaki Sopron zinciri Macar kalır).",
+  ic_not_ham2_d:"14-15 Aralık 1921'de Sopron ve Brennbergbánya, 16 Aralık'ta çevredeki sekiz köy oy kullandı. Şehirde Macaristan, köylerin çoğunda Avusturya önde çıktı; toplamda Macaristan yaklaşık yüzde 65. Müttefik Generaller Komisyonu bölgeyi 1 Ocak 1922'de Macaristan'a devretti (haritadaki Sopron zinciri Macar kalır).", d:"14-15 Aralık 1921'de Sopron ve Brennbergbánya, 16 Aralık'ta çevredeki sekiz köy oy kullandı. Şehirde Macaristan, köylerin çoğunda Avusturya önde çıktı; toplamda Macaristan yaklaşık yüzde 65. Müttefik Generaller Komisyonu bölgeyi 1 Ocak 1922'de Macaristan'a devretti (haritada Sopron Macar kalır).",
   ic_not:"Oy sayıları kaynaklarda küçük farklarla değişir (yaklaşık 15.334-15.534 Macaristan oyu); yüzde 65 her iki sayıda tutar. Sopron'un Avusturya'ya geçmemesi nedeniyle harita zincirinde kırılma yoktur.",
   kaynak:"Cambridge, Nationalities Papers (Sopron plebisiti) · https://ww1.habsburger.net/en/node/6227 · https://hungarytoday.hu/sopron-referendum-1921-100th-anniversary-100-years-ago-austria-hungary/" },
 
@@ -134,7 +134,7 @@ window.OLAYLAR_AVMAC_C_1029 = [
   tur:"antlasma", onem:2, dunya:1, kapsam:"dis",
   etiket:["antlasma","konu-askeri"],
   yer:"Viyana", yer_id:"Viyana", kisiler:"ABD, SSCB, Britanya, Fransa",
-  ic_not_ham_d:"Besatzungszonen ve Viyana şehrinin idaresine ilişkin anlaşma 9 Temmuz 1945 tarihlidir; ABD, Britanya ve Fransa güçleri sektörlerine 1 Eylül 1945'te geldi, Müttefik Konseyi 11 Eylül'de toplandı. Dört güç denetimi 1955'e dek sürdü. Haritada ayrı işgal bölgesi kimliği yoktur (motor dondurma: yeni BOYALAR anahtarı eklenmedi).", d:"Besatzungszonen ve Viyana şehrinin idaresine ilişkin anlaşma 9 Temmuz 1945 tarihlidir; ABD, Britanya ve Fransa güçleri sektörlerine 1 Eylül 1945'te geldi, Müttefik Konseyi 11 Eylül'de toplandı. Dört güç denetimi 1955'e dek sürdü. Haritada işgal bölgeleri ayrıca gösterilmez.",
+  ic_not_ham_d:"Besatzungszonen ve Viyana şehrinin idaresine ilişkin anlaşma 9 Temmuz 1945 tarihlidir; ABD, Britanya ve Fransa güçleri sektörlerine 1 Eylül 1945'te geldi, Müttefik Konseyi 11 Eylül'de toplandı. Dört güç denetimi 1955'e dek sürdü. Haritada ayrı işgal bölgesi kimliği yoktur (motor dondurma: yeni BOYALAR anahtarı eklenmedi).", ic_not_ham2_d:"Besatzungszonen ve Viyana şehrinin idaresine ilişkin anlaşma 9 Temmuz 1945 tarihlidir; ABD, Britanya ve Fransa güçleri sektörlerine 1 Eylül 1945'te geldi, Müttefik Konseyi 11 Eylül'de toplandı. Dört güç denetimi 1955'e dek sürdü. Haritada işgal bölgeleri ayrıca gösterilmez.", d:"İşgal bölgeleri (Besatzungszonen) ve Viyana şehrinin idaresine ilişkin anlaşma 9 Temmuz 1945 tarihlidir; ABD, Britanya ve Fransa güçleri sektörlerine 1 Eylül 1945'te geldi, Müttefik Konseyi 11 Eylül'de toplandı. Dört güç denetimi 1955'e dek sürdü. Haritada işgal bölgeleri ayrıca gösterilmez.",
   kaynak:"Wien Geschichte Wiki 'Alliierte Besatzung' (geschichtewiki.wien.gv.at/Besatzungszeit) · TDV avusturya (1945-1955 dört devlet denetimi)" },
 
 { bolge:1, t:"1949-08-20",
@@ -151,7 +151,7 @@ window.OLAYLAR_AVMAC_C_1029 = [
   tur:"antlasma", onem:4, dunya:3, kapsam:"dis",
   etiket:["antlasma","konu-diplomasi"],
   yer:"Viyana", yer_id:"Viyana", kisiler:"Leopold Figl, Molotov, Dulles, Macmillan, Pinay",
-  d:"ABD, SSCB, Britanya, Fransa ve Avusturya 15 Mayıs 1955'te Belvedere Sarayı'nda Devlet Antlaşması'nı imzaladı; antlasma 27 Temmuz 1955'te yürürlüğe girdi, son işgal birlikleri 25 Ekim 1955'te ayrıldı, Avusturya Meclisi 26 Ekim 1955'te daimî tarafsızlık anayasa yasasını çıkardı.",
+  ic_not_ham2_d:"ABD, SSCB, Britanya, Fransa ve Avusturya 15 Mayıs 1955'te Belvedere Sarayı'nda Devlet Antlaşması'nı imzaladı; antlasma 27 Temmuz 1955'te yürürlüğe girdi, son işgal birlikleri 25 Ekim 1955'te ayrıldı, Avusturya Meclisi 26 Ekim 1955'te daimî tarafsızlık anayasa yasasını çıkardı.", d:"ABD, SSCB, Britanya, Fransa ve Avusturya 15 Mayıs 1955'te Belvedere Sarayı'nda Devlet Antlaşması'nı imzaladı; antlaşma 27 Temmuz 1955'te yürürlüğe girdi, son işgal birlikleri 25 Ekim 1955'te ayrıldı, Avusturya Meclisi 26 Ekim 1955'te daimî tarafsızlık anayasa yasasını çıkardı.",
   ic_not:"Tarafsızlık yasası: Avusturya Meclisi 26 Ekim 1955'te kabul etti, yürürlüğü 5 Kasım 1955 (iki kaynaklı: Austria-Forum AEIOU ve FRUS 1955-57 c.26). TDV avusturya yalnız 'Ekim 1955'.",
   kaynak:"TDV avusturya (15 Mayıs 1955; Ekim 1955 çekiliş) · Austria-Forum AEIOU 'Staatsvertrag' · FRUS 1955-57 c.26 belge 13" },
 

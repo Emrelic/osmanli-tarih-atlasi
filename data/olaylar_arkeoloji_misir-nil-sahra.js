@@ -23,7 +23,7 @@ window.OLAYLAR_ARKEOLOJI_MISIR_NIL_SAHRA = [
   "b": "Kush krallığı — Napata dönemi: başlar",
   "gun": "MÖ 1070 civarı",
   "yer": "Napatan period of Kush",
-  "d": "Kush hanedanının Napata merkezli dönemi; merkez MÖ ~300'de Meroe'ye kayar. Mısır'ı fetheden XXV. Hanedan (Kush) bu dönemde olur — XXV. Hanedan tarihleri bu kaynakta YOK.",
+  "ic_not_ham_d":"Kush hanedanının Napata merkezli dönemi; merkez MÖ ~300'de Meroe'ye kayar. Mısır'ı fetheden XXV. Hanedan (Kush) bu dönemde olur — XXV. Hanedan tarihleri bu kaynakta YOK.", "d": "Kush hanedanının Napata merkezli dönemi; merkez MÖ ~300'de Meroe'ye kayar. Mısır'ı fetheden XXV. Hanedan (Kush) bu dönemde olur — Bu kaynakta XXV. Hanedan'ın tarihleri yer almaz.",
   "kaynak": "Peeters vd. 2026, PNAS (Napata/Jebel Barkal; Napatan period 1070 to 300 BCE) · https://pmc.ncbi.nlm.nih.gov/articles/PMC13142976/",
   "kesinlik": "yuzyil",
   "etiket": [

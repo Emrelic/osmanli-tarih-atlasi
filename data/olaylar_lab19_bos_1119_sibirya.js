@@ -53,7 +53,7 @@ window.OLAYLAR_LAB19_BOS_1119_SIBIRYA = [
   kapsam:"dis",
   etiket:["konu-siyasi"],
   yer_id:"Kirensk", odak_yer:["Kirensk"],
-  b:"Kirenski ostrog kuruldu: Tunguzları ясак altına almak için Rus kazak ostrogu",
+  ic_not_ham_b:"Kirenski ostrog kuruldu: Tunguzları ясак altına almak için Rus kazak ostrogu", b:"Kirenski ostrog kuruldu: Tunguzları haraca (yasak) bağlamak için Rus kazak ostrogu",
   ic_not_ham_gun:"1630 [yalnız yıl teyitli; gün teyitsiz]", gun:"1630 (yalnız yıl biliniyor)",
   yer:"Kirensk",
   d:"Rus kazakları Lena kıyısında 1630'da Kirenski ostrogu kurdu (Ilimski ile aynı yıl, Bratski 1631); ostrog Tunguzların itaat altına alınması için kuruldu.",

@@ -39,7 +39,7 @@ window.OLAYLAR_ARKEOLOJI_AFRIKA_IRAN = [
   "b": "Ekbatana (Hamedan): Kyros'un Med başkentini alması: başlar",
   "gun": "MÖ 550",
   "yer": "Ecbatana / Hagmatāna / Kotosh Dini Gelenegi (Kotosh, Peru) / Hemedan",
-  "d": "Nabonidus'un 6. yilinda (MO 550/549) Kyros, Med kralinin 'kral sehri' Ekbatana'ya yurur; Med devletinin Kyros'a gecisi ve Ahamenis imparatorlugunun kurulus tarihi olarak 550 gelenegi bu kayda dayanir.",
+  "ic_not_ham_d":"Nabonidus'un 6. yilinda (MO 550/549) Kyros, Med kralinin 'kral sehri' Ekbatana'ya yurur; Med devletinin Kyros'a gecisi ve Ahamenis imparatorlugunun kurulus tarihi olarak 550 gelenegi bu kayda dayanir.", "d": "Nabonidus'un 6. yılında (MÖ 550/549) Kyros, Med kralının 'kral şehri' Ekbatana'ya yürür; Med devletinin Kyros'a geçişi ve Ahameniş imparatorluğunun kuruluş tarihi olarak 550 geleneği bu kayda dayanır.",
   "kaynak": "Grayson, ABC 7 (Nabonid Chronicle) col. ii.1-4, Livius çevirisi okundu — «The army rebelled against Astyages and he was taken prisoner. ... Cyrus marched to Ecbatana, the royal city.»",
   "kesinlik": "yil",
   "kaynak_turu": "yazili",
@@ -94,7 +94,7 @@ window.OLAYLAR_ARKEOLOJI_AFRIKA_IRAN = [
   "b": "Kuk Bataklığı (erken tarım alanı): başlar",
   "gun": "MÖ 8270–7960 arası (orta nokta MÖ 8115)",
   "yer": "Kuk Swamp / Kuk Early Agricultural Site",
-  "d": "Yeni Gine yaylasinda bataklik kenarinda bitki kullanimi ve bir miktar yetistiricilik (Evre 1: 10220-9910 cal BP = yaklasik MO 8270-7960). Bagimsiz tarim en gec 6950-6440 cal BP (yaklasik MO 5000-4490, Evre 2 hoyuk/mound), hendekli tarim 4350-3980 cal BP (yaklasik MO 2400-2030, Evre 3).",
+  "ic_not_ham_d":"Yeni Gine yaylasinda bataklik kenarinda bitki kullanimi ve bir miktar yetistiricilik (Evre 1: 10220-9910 cal BP = yaklasik MO 8270-7960). Bagimsiz tarim en gec 6950-6440 cal BP (yaklasik MO 5000-4490, Evre 2 hoyuk/mound), hendekli tarim 4350-3980 cal BP (yaklasik MO 2400-2030, Evre 3).", "d": "Yeni Gine yaylasında bataklık kenarinda bitki kullanımı ve bir miktar yetiştiricilik (Evre 1: 10220-9910 cal BP = yaklaşık MÖ 8270-7960). Bağımsız tarım en geç 6950-6440 cal BP (yaklaşık MÖ 5000-4490, Evre 2 höyük/mound), hendekli tarım 4350-3980 cal BP (yaklaşık MÖ 2400-2030, Evre 3).",
   "kaynak": "Denham TP vd. 2003, Science 301(5630): 189-193, doi:10.1126/science.1085255 (Europe PMC kaydindaki ozet okundu) · https://doi.org/10.1126/science.1085255",
   "kesinlik": "yuzyil",
   "etiket": [

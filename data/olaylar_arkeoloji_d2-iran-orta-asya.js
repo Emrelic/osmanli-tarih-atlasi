@@ -123,7 +123,7 @@ window.OLAYLAR_ARKEOLOJI_D2_IRAN_ORTA_ASYA = [
   "b": "Proto-Elam yazı sistemi (Susa): Proto-Elam yazısı ortaya çıkar",
   "gun": "MÖ 3200 civarı",
   "yer": "Proto-Elamite script",
-  "d": "Susa'da Uruk III ile çağdaş, çözülememiş Proto-Elam yazı sistemi; İran platosunda sekiz yere yayılır. Brifteki 'MO ~3100' tek bir kaynakta bulunmadı; kaynaklar 3200 başlangıcını verir.",
+  "ic_not_ham_d":"Susa'da Uruk III ile çağdaş, çözülememiş Proto-Elam yazı sistemi; İran platosunda sekiz yere yayılır. Brifteki 'MO ~3100' tek bir kaynakta bulunmadı; kaynaklar 3200 başlangıcını verir.", "d": "Susa'da Uruk III ile çağdaş, çözülememiş Proto-Elam yazı sistemi; İran platosunda sekiz yere yayılır. Kaynaklar 3200 başlangıcını verir.",
   "kaynak": "Vallat 1998, Iranica 'Elam i' ve Matthews vd. 2025 (J. Anc. Near Eastern Hist. 12) · https://www.iranicaonline.org/articles/elam-i",
   "kesinlik": "yuzyil",
   "etiket": [

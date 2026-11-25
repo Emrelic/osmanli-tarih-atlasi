@@ -60,7 +60,7 @@ window.OLAYLAR_OK104 = [
   b:"İskender Bey Kruja'yı (Akçahisar) ele geçirdi — Arnavut direnişi başlıyor",
   gun:"1443 (847)", yer:"Akçahisar (Kruja)", yer_id:"Akçahisar (Kruja)",
   kisiler:"İskender Bey",
-  d:"İzladi yenilgisinin ardından (TDV Kruya: 847/1443) İskender Bey Kruja'yı işgal etti. 1437'de babası Gjon Kastrioti'nin ölümünden sonra Osmanlılar şehri ona değil atadıkları Hasan Bey'e vermişti. Yalnız yıl bilinir; gün teyitsizdir.",
+  ic_not_ham_d:"İzladi yenilgisinin ardından (TDV Kruya: 847/1443) İskender Bey Kruja'yı işgal etti. 1437'de babası Gjon Kastrioti'nin ölümünden sonra Osmanlılar şehri ona değil atadıkları Hasan Bey'e vermişti. Yalnız yıl bilinir; gün teyitsizdir.", d:"İzladi yenilgisinin ardından (TDV Kruya: 847/1443) İskender Bey Kruja'yı işgal etti. 1437'de babası Gjon Kastrioti'nin ölümünden sonra Osmanlılar şehri ona değil atadıkları Hasan Bey'e vermişti. Yalnız yıl bilinir; günü doğrulanamadı.",
   kaynak:"kruya", duygu:["😐"] },
 
 // ── POST-IT #4 · Draç 1392 — Venedik. Yıl: Sufflay (Medieval Albania) + Men of Empire (Venedik tarafı);

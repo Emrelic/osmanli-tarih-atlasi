@@ -88,7 +88,7 @@ window.OLAYLAR_ARKEOLOJI_D3_MISIR_AFRIKA = [
   "b": "Hiksoslarin Avaris'ten atilisi (Ahmose'nin Avaris fethi): Avaris Ahmose'ye geçer (Hiksos sonu)",
   "gun": "MÖ 1532 civarı",
   "yer": "Hyksos / 15. Hanedan - Avaris",
-  "d": "Ahmose'nin Avaris'i almasi Hiksos 15. Hanedan'in sonunu isaretler; Tell el-Dab'a'da bu 'sehrin buyuk olcude terk edilmesi' ile gorulur (Bietak 2023: tahrip/yanginlar yok, olasi teslimiyet).",
+  "ic_not_ham_d":"Ahmose'nin Avaris'i almasi Hiksos 15. Hanedan'in sonunu isaretler; Tell el-Dab'a'da bu 'sehrin buyuk olcude terk edilmesi' ile gorulur (Bietak 2023: tahrip/yanginlar yok, olasi teslimiyet).", "d": "Ahmose'nin Avaris'i alması Hiksos 15. Hanedan'ın sonunu işaretler; Tell el-Dab'a'da bu 'şehrin büyük ölçüde terk edilmesi' ile görülür (Bietak 2023: tahrip/yangınlar yok, olası teslimiyet).",
   "kaynak": "Bruins HJ, van der Plicht J. 2025. The Minoan Thera eruption predates Pharaoh Ahmose. PLoS ONE (PMC12422448), Tablo (Ahmose II - tarihsel kronolojiler): 'Conquest Avaris, ca year 18: ca 1532 (Shaw 2000), ca 1521 (Hornung vd. 2006), ca 1506 (Krauss & Warburton)'; Bietak M. 2023, Avaris/Tell el-Dab'a, Osterreichs archaologische Forschung in Agypten nach 1945 (Abb. 23/84: 'DATUM LINE ... AHMOSE ~1530 BC', Almanca) · https://pmc.ncbi.nlm.nih.gov/articles/PMC12422448/",
   "kesinlik": "yuzyil",
   "etiket": [
@@ -124,7 +124,7 @@ window.OLAYLAR_ARKEOLOJI_D3_MISIR_AFRIKA = [
   "b": "Hierakonpolis HK11C (Naqada IC-IIB iskan): HK11C iskânı sona erer (Naqada IIB/IIC)",
   "gun": "MÖ 3562–3367 arası (orta nokta MÖ 3464)",
   "yer": "Nekhen / Kom el-Ahmar",
-  "d": "HK11C Naqada IC-IIB boyunca surekli iskan goren Predinastik yerlesim; mutlak sinirlar Naqada fazlari uzerinden modellenmis gecis araliklaridir, HK11C'nin kendi modeli degildir.",
+  "ic_not_ham_d":"HK11C Naqada IC-IIB boyunca surekli iskan goren Predinastik yerlesim; mutlak sinirlar Naqada fazlari uzerinden modellenmis gecis araliklaridir, HK11C'nin kendi modeli degildir.", "d": "HK11C Naqada IC-IIB boyunca sürekli iskân gören Predinastik yerleşim; mutlak sınırlar Naqada fazları üzerinden modellenmiş geçiş aralıklarıdır, HK11C'nin kendi modeli değildir.",
   "kaynak": "Dee vd. 2013, Tablo 1: Naqada IIB/IIC gecisi (HK11 cop birikimi Naqada IIC'ye uzanir) · https://pmc.ncbi.nlm.nih.gov/articles/PMC3780825/",
   "kesinlik": "yuzyil",
   "etiket": [
@@ -148,7 +148,7 @@ window.OLAYLAR_ARKEOLOJI_D3_MISIR_AFRIKA = [
   "b": "Hierakonpolis HK11C (Naqada IC-IIB iskan): Hierakonpolis HK11C iskânı (Naqada IB/IC)",
   "gun": "MÖ 3731–3550 arası (orta nokta MÖ 3640)",
   "yer": "Nekhen / Kom el-Ahmar",
-  "d": "HK11C Naqada IC-IIB boyunca surekli iskan goren Predinastik yerlesim; mutlak sinirlar Naqada fazlari uzerinden modellenmis gecis araliklaridir, HK11C'nin kendi modeli degildir.",
+  "ic_not_ham_d":"HK11C Naqada IC-IIB boyunca surekli iskan goren Predinastik yerlesim; mutlak sinirlar Naqada fazlari uzerinden modellenmis gecis araliklaridir, HK11C'nin kendi modeli degildir.", "d": "HK11C Naqada IC-IIB boyunca sürekli iskân gören Predinastik yerleşim; mutlak sınırlar Naqada fazları üzerinden modellenmiş geçiş aralıklarıdır, HK11C'nin kendi modeli değildir.",
   "kaynak": "Dee vd. 2013 (Naqada IB/IC gecisi, model, Naqada alanlari: Naqada, Ballas, Abydos U, Naga ed-Der, Hierakonpolis); HK11'in Naqada IC-IIB atamasi: Friedman 2002 Cracow raporu (onceki dalgada okundu) · https://pmc.ncbi.nlm.nih.gov/articles/PMC3780825/",
   "kesinlik": "yuzyil",
   "etiket": [

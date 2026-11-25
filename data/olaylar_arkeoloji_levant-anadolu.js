@@ -49,7 +49,7 @@ window.OLAYLAR_ARKEOLOJI_LEVANT_ANADOLU = [
   "b": "Natufiyen Kültürü: başlar",
   "ic_not_ham_gun":"MÖ 12650 (ALT SINIR; donem-toplami MÖ 12650–9550)", "gun": "MÖ 12650 (en erken olası tarih)",
   "yer": "Natufian",
-  "d": "Gec Epipaleolitik: buyuk ussu, tas yapilar, mezarlar; Shubayqa 1'de 27 AMS tarihi: ilk iskan ~14,600-14,200 cal BP, terk ~900 yil, tekrar 13,300-13,000 ve ~12,380-11,500 cal BP (2σ).",
+  "ic_not_ham_d":"Gec Epipaleolitik: buyuk ussu, tas yapilar, mezarlar; Shubayqa 1'de 27 AMS tarihi: ilk iskan ~14,600-14,200 cal BP, terk ~900 yil, tekrar 13,300-13,000 ve ~12,380-11,500 cal BP (2σ).", "d": "Geç Epipaleolitik: büyük üssü, taş yapılar, mezarlar; Shubayqa 1'de 27 AMS tarihi: ilk iskân ~14,600-14,200 cal BP, terk ~900 yıl, tekrar 13,300-13,000 ve ~12,380-11,500 cal BP (2σ).",
   "kaynak": "Richter T, Arranz-Otaegui A, Yeomans L, Boaretto E 2017, Sci Rep 7:17025, doi 10.1038/s41598-017-17096-5 (cal BP->MO: BP-1950) · https://pmc.ncbi.nlm.nih.gov/articles/PMC5717003/",
   "kesinlik": "yuzyil",
   "etiket": [
@@ -91,7 +91,7 @@ window.OLAYLAR_ARKEOLOJI_LEVANT_ANADOLU = [
   "b": "Kfar HaHoresh: sona erer",
   "gun": "MÖ 6750 civarı",
   "yer": "כפר החורש / Ayn Gazal (‘Ain Ghazal) / Eriha (Tell es-Sultan)",
-  "d": "Guney Levant'ta Erken-Gec PPNB torenlik/mezar merkezi (iskan degil); keci yonetimine gecis donemi.",
+  "ic_not_ham_d":"Guney Levant'ta Erken-Gec PPNB torenlik/mezar merkezi (iskan degil); keci yonetimine gecis donemi.", "d": "Güney Levant'ta Erken-Geç PPNB törenlik/mezar merkezi (iskân değil); keçi yönetimine geçiş dönemi.",
   "kaynak": "Meier vd. 2016, PLoS One 11(11):e0166573 · https://pmc.ncbi.nlm.nih.gov/articles/PMC5130218/",
   "kesinlik": "yuzyil",
   "etiket": [
@@ -184,7 +184,7 @@ window.OLAYLAR_ARKEOLOJI_LEVANT_ANADOLU = [
   "b": "Nevalı Çori: sona erer",
   "gun": "MÖ 7600 civarı",
   "yer": "Nevalı Çori",
-  "d": "Yukari Firat'ta erken-orta PPNB yerlesmesi; sonra Halaf, Erken Tunc I, Demir Cagi ve Roma donemlerinde yeniden iskan.",
+  "ic_not_ham_d":"Yukari Firat'ta erken-orta PPNB yerlesmesi; sonra Halaf, Erken Tunc I, Demir Cagi ve Roma donemlerinde yeniden iskan.", "d": "Yukarı Fırat'ta erken-orta PPNB yerleşmesi; sonra Halaf, Erken Tunç I, Demir Çağı ve Roma dönemlerinde yeniden iskân.",
   "kaynak": "Benz M. (ed.) exoriente PPND, Nevali Cori sayfasi · https://exoriente.org/associated_projects/ppnd_site.php?s=50",
   "kesinlik": "yuzyil",
   "etiket": [
@@ -256,7 +256,7 @@ window.OLAYLAR_ARKEOLOJI_LEVANT_ANADOLU = [
   "b": "Nevalı Çori: başlar",
   "ic_not_ham_gun":"MÖ 8500 (ALT SINIR; donem-toplami MÖ 8500–8340)", "gun": "MÖ 8500 (en erken olası tarih)",
   "yer": "Nevalı Çori",
-  "d": "Yukari Firat'ta erken-orta PPNB yerlesmesi; sonra Halaf, Erken Tunc I, Demir Cagi ve Roma donemlerinde yeniden iskan.",
+  "ic_not_ham_d":"Yukari Firat'ta erken-orta PPNB yerlesmesi; sonra Halaf, Erken Tunc I, Demir Cagi ve Roma donemlerinde yeniden iskan.", "d": "Yukarı Fırat'ta erken-orta PPNB yerleşmesi; sonra Halaf, Erken Tunç I, Demir Çağı ve Roma dönemlerinde yeniden iskân.",
   "kaynak": "Benz M. (ed.) exoriente PPND, Nevali Cori sayfasi (Hauptmann 1997/1999 14C) · https://exoriente.org/associated_projects/ppnd_site.php?s=50",
   "kesinlik": "yuzyil",
   "etiket": [
@@ -313,7 +313,7 @@ window.OLAYLAR_ARKEOLOJI_LEVANT_ANADOLU = [
   "b": "Kfar HaHoresh: başlar",
   "gun": "MÖ 8650 civarı",
   "yer": "כפר החורש / Eriha (Tell es-Sultan)",
-  "d": "Guney Levant'ta Erken-Gec PPNB torenlik/mezar merkezi (iskan degil); keci yonetimine gecis donemi.",
+  "ic_not_ham_d":"Guney Levant'ta Erken-Gec PPNB torenlik/mezar merkezi (iskan degil); keci yonetimine gecis donemi.", "d": "Güney Levant'ta Erken-Geç PPNB törenlik/mezar merkezi (iskân değil); keçi yönetimine geçiş dönemi.",
   "kaynak": "Meier JS, Goring-Morris AN, Munro ND 2016, PLoS One 11(11):e0166573, doi 10.1371/journal.pone.0166573 (cal BP->MO: BP-1950, +-50-100 yil) · https://pmc.ncbi.nlm.nih.gov/articles/PMC5130218/",
   "kesinlik": "yuzyil",
   "etiket": [

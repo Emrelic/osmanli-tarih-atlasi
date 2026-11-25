@@ -646,7 +646,7 @@ window.OLAYLAR_LAB19_2S_P6 = [
   kapsam:"dis",
   etiket:["savas","toprak-kazanc","konu-askeri"],
   yer_id:"Belgrad",
-  b:"Belgrad Yugoslav Halk Kurtuluş Ordusu ve Kızıl Ordu'since kurtarıldı",
+  ic_not_ham_b:"Belgrad Yugoslav Halk Kurtuluş Ordusu ve Kızıl Ordu'since kurtarıldı", b:"Belgrad Yugoslav Halk Kurtuluş Ordusu ve Kızıl Ordu'nca kurtarıldı",
   gun:"20 Ekim 1944",
   yer:"Belgrad, Belgrad Kalesi (Kalemegdan), Hisarcık",
   d:"Yugoslav Halk Kurtuluş Ordusu birlikleri Kızıl Ordu'nun desteğiyle 20 Ekim 1944'te Belgrad'ı Alman işgalinden kurtardı. Şehir Partizan yönetimine geçti; Nedić Sırbistanı iki hafta önce fiilen dağılmıştı.",

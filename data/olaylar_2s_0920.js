@@ -312,7 +312,7 @@ window.OLAYLAR_2S0920 = [
   b:"Hürmüzgân Savaşı: Erdeşîr Part hükümdarı V. Erdevân'ı yendi — Isfahan Sâsânî çekirdeğine girdi",
   gun:"28 Nisan 224", yer:"Isfahan",
   kisiler:"Erdeşîr-i Bâbekân; V. Erdevân (Artabanus)", etiket:["siyasi","savas","konu-askeri","konu-siyasi"],
-  d:"Fars'ta mahallî hükümdar Erdeşîr, Hürmüzgân'da Part hükümdarı V. Erdevân'ı yendi; Part (Eşkânî) hânedanı çöktü ve Sâsânî hânedanı yükseldi. Atlas Isfahan'ı bu günden itibaren Sâsânî toprağı sayar.",
+  ic_not_ham_d:"Fars'ta mahallî hükümdar Erdeşîr, Hürmüzgân'da Part hükümdarı V. Erdevân'ı yendi; Part (Eşkânî) hânedanı çöktü ve Sâsânî hânedanı yükseldi. Atlas Isfahan'ı bu günden itibaren Sâsânî toprağı sayar.", d:"Fars'ta mahallî hükümdar Erdeşîr, Hürmüzgân'da Part hükümdarı V. Erdevân'ı yendi; Part (Eşkânî) hânedanı çöktü ve Sâsânî hânedanı yükseldi. Haritada Isfahan bu günden itibaren Sâsânî toprağı sayılır.",
   kaynak:"TDV `erdesir` (Tahsin Yazıcı) — arama parçası AYNEN: \"Erdeşîr, 28 Nisan 224’te Medler…\"; madde gövdesi: Hürmüzcân (Medya) zaferi 28 Nisan 224, hükümdarlığını aynı yıl ilân etti; bazı kaynaklarda resmen 226'da Medâin'de tahta çıktı · TDV `sasaniler`: \"Erdeşîr 224’te Hürmüzdegân’da Part Hükümdarı V. Erdevân’ı (Artabanus) yenilgiye uğrattı\" · hassasiyet: GÜN",
   ic_not_d:"D2s-ACIK-1114 (TDV okundu 14 Kasım 2026): GÜN TDV erdesir'den; atlas kırılması 0224-04-28 ile aynı gün. TDV `isfahan` Part→Sâsânî geçişini ve tarihini ANMAZ (yalnız \"Sâsânî döneminde önemli gelişme\", Yahudi cemaati); Isfahan'ın bu günde Sâsânî'ye geçtiği atlasın künye çıkarımıdır (BEYANLI YAKLAŞIKLIK) — savaş günü kaynaklı, Isfahan'a özgü teslim günü kaynaksız. TDV sasaniler taç giyme yılını 226 verir (resmî tahta çıkış); atlasın 224 künyesi savaş günüdür." },
 
