@@ -186,8 +186,8 @@ window.EKOKUMA_DEVLEHISTAN02 = [
   kesinlik:"tartismali",
   olay:["1620-09-01|Ţuţora","1620-10-07|Cecora"],
   kaynak:"Przemysław Gawron, \"Wyprawa cecorska (wrzesień–październik 1620)\", Muzeum Pałacu Króla Jana III w Wilanowie, Pasaż wiedzy (27.12.2019), https://wilanow-palac.pl/pasaz-wiedzy/wyprawa-cecorska-wrzesien-pazdziernik-1620",
-  teyit:"teyitli", yayin_adayi:true,
-  ic_not_teyit:"Gawron yazısının tamamı ham HTML'den okundu (yaklaşık 20.000 karakterlik analitik metin; yazar akademisyen tarihçi, Majewski'nin Cecora 1620 monografisine dayanır). Dipnotsuz web yayını olduğu için Emre isterse 'teyitsiz'e çekilebilir; olgular yazının kendi anlatısı. Majewski'nin monografisi okunmadı.",
+  teyit:"teyitsiz", yayin_adayi:false,
+  ic_not_teyit:"TEYİTSİZ (EMRELİC kararı, 26 Kasım 2026): dayanak Gawron'un dipnotsuz web yazısı; dipnotsuz web yazısı akademik dayanak sayılmaz (CLAUDE.md kaynak kuralı). Yazının tamamı ham HTML'den okundu (yaklaşık 20.000 karakter; yazar akademisyen tarihçi, Majewski'nin Cecora 1620 monografisine dayanır). Teyit için Majewski'nin monografisi ya da başka hakemli kaynak gerekli; okunmadı.",
   ic_not:"KRONOLOJİ UYUŞMAZLIĞI: atlas 1620-10-07 'Cecora bozgunu — Hatman Żółkiewski öldürüldü'; Gawron bozgunu ve ölümü 6 Ekim'e koyar (PSB atölyesi de 6 Ekim; KONU.md §3/1). Asıl muharebe 19 Eylül'dür; atlasta bu gün için madde yok. Kayıp: Gawron Majewski'ye dayanarak 19 Eylül'de 2500-3000 kayıp verir; kartta yazılmadı. 'Akkirman Nogayları' = Gawron'un 'orda białogrodzka'sı. Parti 01'deki Żółkiewski'nin başı kartıyla aynı güne bağlı; bu kart muharebeyi anlatır." },
 
 { id:"devlehistan-michal-kamanice-1672", tur:"tartisma", devlet:"lehistan",
