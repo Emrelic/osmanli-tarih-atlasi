@@ -330,6 +330,43 @@ window.EKOKUMA_DEVVENEDIK04 = [
     "Mahkeme Trevisan'ı mahkûm etti, Contarini'nin biyografisi de komutanın taktik hatasından açıkça söz eder. Contarini'nin kaptanlara yönelttiği korkaklık suçlaması ise kendisi de eleştiri altında olan bir katılımcının görüşüdür. Okunan iki metin topların nasıl yerleştirildiğini, nehrin durumunu ya da tarafların gemi sayılarını anlatmaz.",
   kesinlik:"tartismali",
   kaynak:"Francesco Piovan, \"Fasolo, Francesco\", Dizionario Biografico degli Italiani, c. 45 (1995), https://www.treccani.it/enciclopedia/francesco-fasolo_(Dizionario-Biografico)/ · Renzo Derosas, \"Contarini, Girolamo\", Dizionario Biografico degli Italiani, c. 28 (1983), https://www.treccani.it/enciclopedia/girolamo-contarini_(Dizionario-Biografico)/",
-  ic_not:"YEDEK KONU. UYUŞMAZLIK: sitedeki bağlama günü 1509-12-22; okunan Girolamo Contarini maddesi 21 Aralık diyor (arama özetinde Canal maddesi de 21 Aralık; o madde okunmadı). Fasolo maddesi yalnız 'Aralık 1509'. Angelo Trevisan'ın kendi biyografisi aranan adreste bulunamadı." }
+  ic_not:"YEDEK KONU. UYUŞMAZLIK: sitedeki bağlama günü 1509-12-22; okunan Girolamo Contarini maddesi 21 Aralık diyor (arama özetinde Canal maddesi de 21 Aralık; o madde okunmadı). Fasolo maddesi yalnız 'Aralık 1509'. Treccani'nin Alfonso I d'Este maddesi ise savaşı 22 Aralık 1509'a koyar ve Ferrara toplarının Po setleri arasında gizlendiğini anlatır (iki madde bir gün ayrışıyor; karta bu ayrıntı eklenmedi). Angelo Trevisan'ın kendi biyografisi aranan adreste bulunamadı." },
+
+{
+    "id": "venedik-savas-hanya-1645",
+    "tur": "savas-hikayesi",
+    "teyit": "teyitli",
+    "yayin_adayi": true,
+    "ic_not_teyit": "TDV 'İbrahim' maddesi ve Marcello maddesi tam okundu. Elçi Czernin'in ve Osmanlı kroniklerinin aktarıldığı yorumlar karta alınmadı.",
+    "devlet": "venedik",
+    "taraf": [
+      "venedik",
+      "osmanli"
+    ],
+    "baslik": "Malta'ya diye yola çıkan donanma Hanya önüne geldi",
+    "olay": [
+      "1645-08-22|Hanya"
+    ],
+    "kisa": "1645 baharında İstanbul'dan ayrılan donanmanın duyurulan hedefi Malta'ydı. Gerçek hedef, Venedik'in Girit adasındaki Hanya Kalesi'ydi.",
+    "tarih_metin": "30 Nisan - Ağustos 1645",
+    "yer": "Hanya, Girit",
+    "taraflar": [
+      {
+        "ad": "Osmanlı Devleti",
+        "komutan": "Serdar Yûsuf Paşa"
+      },
+      {
+        "ad": "Venedik Cumhuriyeti",
+        "komutan": "Okunan metinler kaleyi savunan komutanın adını vermiyor"
+      }
+    ],
+    "oncesi": "Görünürdeki kıvılcım 1641'e uzanır. TDV İslâm Ansiklopedisi'ne göre görevden alınmış Kızlarağası Sünbül Ağa Mısır'a giderken, Girit yakınlarındaki Kerpe adası önünde Malta korsanlarının baskınına uğradı. Mallar yağmalandı; yolcu ve mürettebattan kimi öldürüldü, kimi esir edildi. Sultan İbrahim çok öfkelendi ve donanmanın hazırlanmasını emretti. Böylece Malta ile onun koruyucusu sayılan Venedik birden öne çıktı.\n\nAynı madde, işin yalnız padişahın öfkesi olmadığını, stratejik gerekçelerin ağır bastığını belirtir: Girit, Akdeniz'de Osmanlı üstünlüğünün önündeki en önemli engellerden biriydi. Seferin asıl hedefi İstanbul'daki yabancı temsilcilerden ustalıkla saklandı; onlar Malta'ya gidileceğine inandırıldı.",
+    "akis": "Yûsuf Paşa komutasındaki donanma 30 Nisan 1645'te Malta seferi diye duyurulan harekât için İstanbul'dan ayrıldı. 21 Haziran'da Navarin'den kalkarken hedefin Girit olduğu açıklandı; ilk durak olarak Hanya belirlenmişti.\n\n23 Haziran'da Hanya'nın kuzeybatısındaki Aya Todori adasına varıldı ve karaya asker çıkarıldı. 27 Haziran'da kuşatma başladı. Çok yoğun çarpışmaların ardından Hanya teslim oldu; ansiklopedi bunun gününü 19 Ağustos olarak verir.\n\nVenedik tarafında donanma görevlilerinden Lorenzo Marcello, biyografisine göre, işgal edilen Hanya'ya Osmanlı takviyesi gelmesini engellemeye çalıştı ve Milos yakınında bir kafileyi yakalayıp bir gemisini ele geçirdi. Bu çabalar 1645-1646 kışında da sürdü.",
+    "sonuc": "İstanbul'da fetih için üç gün üç gece şenlik yapıldı. Yûsuf Paşa döndü; ama zafer ona uzun bir ikbal getirmedi ve 22 Ocak 1646'da idam edildi. Savaş ise bitmedi. Marcello 1646 Martında Hanya'daki Osmanlılara saldırı planıyla 14 kadırgayla denize açıldı, ama beklediği öteki Venedik güçlerini bulamayınca vazgeçmek zorunda kaldı. Biyografisi bu dönemde para sıkıntısını, ikmal eksiklerini, komutanlar arasındaki eşgüdümsüzlüğü ve başkomutanın çekingenliğini anar. Girit için savaş yıllarca sürdü; Venedik 1669'da Kandiye'yi teslim etti.",
+    "tartisma": "■ KAYNAK NE KADARINI SÖYLÜYOR\nOkunan metinler kuşatmayı kısaca anlatır. Hanya'yı kimin savunduğu, iki tarafın asker sayısı ve teslim şartları burada yer almaz. Teslim günü için de tek bir kaynağın tarihi aktarıldı; başka tarihlendirmelerle karşılaştırılmadı.",
+    "kesinlik": "kesin",
+    "kaynak": "\"İBRÂHİM\" (Osmanlı padişahı), TDV İslâm Ansiklopedisi, islamansiklopedisi.org.tr/ibrahim--padisah · \"MARCELLO, Lorenzo\", Dizionario Biografico degli Italiani, treccani.it/enciclopedia/lorenzo-marcello_(Dizionario-Biografico)/ · Kandiye'nin 1669'daki teslimi için: \"MOROSINI, Francesco\", Dizionario Biografico degli Italiani, treccani.it/enciclopedia/francesco-morosini_(Dizionario-Biografico)/",
+    "ic_not": "UYUŞMAZLIK: kronoloji maddesi 22 Ağustos 1645; TDV İbrahim maddesi 19 Ağustos (26 Cemâziyelâhir 1055) verir. TDV 'Girit' maddesinde 54 günlük kuşatma ifadesi görüldü (madde tam okunmadı, karta alınmadı). Candiani'nin 'Assalto dal mare' yazısı 403, okunmadı. Marcello maddesi 23 Haziran 1645 için 'işgal edilen Hanya'ya takviye' der; kuşatmanın 27 Haziran'da başladığı TDV sırasıyla uyuşmaz (cümlede gün karta yazılmadı). TDV metni Yûsuf Paşa'nın kızla evliliğine ilişkin ayrıntı da verir; alınmadı. Yazar adı ayıklanmadı."
+  }
 
 ];
