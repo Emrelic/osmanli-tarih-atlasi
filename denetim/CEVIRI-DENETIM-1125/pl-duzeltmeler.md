@@ -670,3 +670,50 @@
 - olay | OLAYLAR_ANTIK_YAKIN_DOGU:-0585-01-01:0 | d: bozuk anlatım: kuşatmayı şehir 'bitirmiş' gibi
 - olay | OLAYLAR_ANTIK_YAKIN_DOGU:-0630-01-01:0 | b: fiil-özne uyumu
 - olay | OLAYLAR_ANTIK_YAKIN_DOGU:-0700-01-01:1 | d: anlam belirsizliği: 'sefer öncesi', 'sefere karşı' değil
+- olay | OLAYLAR_EK:1717-08-18:0 | d: bozuk cümle ve yer adının Lehçe biçimi (Petrowaradyn)
+- olay | OLAYLAR_EK3:1410-06-15:0 | d: anlamsız ad tekrarı
+- olay | OLAYLAR_EK4:1820-07-20:0 | d: dilbilgisi hatası
+- olay | OLAYLAR_EK5:1435-01-01:0 | b: bozuk/uydurma çekim
+- olay | OLAYLAR_EK5:1435-01-01:0 | d: dilbilgisi: çoğul hanedan adı
+- olay | OLAYLAR_EK5:1423-01-01:0 | d: yazım: bejlik; fiil görünüşü
+- olay | OLAYLAR_EK5:1357-09-01:0 | d: bozuk cümle, anlam düşüklüğü
+- olay | OLAYLAR_EK5:1514-09-06:0 | d: AĞIR: anlam tersine çevrilmiş ('Osmanlı'ya itaat ederek')
+- olay | OLAYLAR_EK5:1515-06-13:0 | d: AĞIR: 'iki yıl sonraki sefer' 'iki yıl önceki' diye çevrilmiş
+- olay | OLAYLAR_EK5:1768-10-08:0 | d: dilbilgisi
+- olay | OLAYLAR_EK5:1795-03-01:0 | d: bozuk anlatım
+- olay | OLAYLAR_EK5:1905-07-21:0 | d: yerleşik ad (Dasznakcutiun) ve dilbilgisi
+- olay | OLAYLAR_EK:1717-08-18:0 | d: Bozuk cümle yapısı ve eksik virgül
+- olay | OLAYLAR_EK3:1410-06-15:0 | d: Yinelenen ad; parantezde Türkçe biçim olmalı
+- olay | OLAYLAR_EK4:1820-07-20:0 | d: Dilbilgisi: sıfat uyumu
+- olay | OLAYLAR_EK5:1435-01-01:0 | b: Bozuk başlık: anlamsız 'Dulkadırlım'
+- olay | OLAYLAR_EK5:1435-01-01:0 | d: Dilbilgisi
+- olay | OLAYLAR_EK5:1423-01-01:0 | d: Yanlış sözcük ve imla
+- olay | OLAYLAR_EK5:1357-09-01:0 | d: Bozuk cümle yapısı
+- olay | OLAYLAR_EK5:1514-09-06:0 | d: AĞIR ANLAM HATASI: 'Osmanlı'ya itaat ederek' tam tersine 'itaatten vazgeçerek' çevrilmiş
+- olay | OLAYLAR_EK5:1515-06-13:0 | d: AĞIR ANLAM HATASI: 'iki yıl sonraki Mısır seferi' 'iki yıl önceki' diye çevrilmiş
+- olay | OLAYLAR_EK5:1768-10-08:0 | d: Bozuk cümle
+- olay | OLAYLAR_EK5:1795-03-01:0 | d: Bozuk yapı: 'kazał uciec' = kaçmasını emretti
+- olay | OLAYLAR_EK5:1905-07-21:0 | d: Özel ad; 'w landzie' anlaşılmaz; sayı uyumu
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-1499-01-01:0 | d: yanlış fiil: 'wzrosło' (arttı) yerine 'wyrosło' (yükseldi)
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-1835-01-01:0 | b: yanlış fiil (yükselmek anlamında 'wzrósł' olmaz)
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-2001-01-01:0 | d: çekimsiz adlar yüzünden kimin kime bağlandığı anlaşılmıyordu
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-2099-01-01:0 | d: imla: 'ze wzrostem'
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-2110-01-01:0 | b: ad içinde Kiril 'а' harfi
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-2110-01-01:0 | d: ad içinde Kiril 'а' harfi
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:0451-01-01:0 | d: özel adın Lehçede yerleşik biçimi: Mamikonian
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:0484-01-01:0 | d: bozuk anlatım
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0014-01-01:0 | d: dilbilgisi: 'dokończyć' belirtme hâli alır
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0062-01-01:1 | d: bozuk anlatım
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0063-01-01:0 | d: bozuk anlatım
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0073-01-01:1 | d: anlam: tanınmayan Bitinya değil, vasiyetle devir
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0108-01-01:0 | d: bozuk anlatım (Türkçeden kelimesi kelimesine)
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0111-01-01:0 | b: dilbilgisi
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0145-01-01:0 | d: cümle bağlantısı eksik
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0145-01-01:2 | d: dilbilgisi: edilgen kurguda nesne hâli
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0166-01-01:3 | d: bozuk anlatım
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0188-01-01:1 | d: kendi içinde çelişkili anlatım
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0195-01-01:0 | d: yinelenen sözcük; 'vergisiz'
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0200-01-01:0 | b: yanlış anlam: tazminat almış gibi okunuyordu
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0263-01-01:1 | d: bozuk anlatım
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0274-01-01:1 | d: bozuk anlatım
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0277-01-01:0 | d: bozuk anlatım; Lehçe metinde çevrilmemiş Türkçe alıntı
