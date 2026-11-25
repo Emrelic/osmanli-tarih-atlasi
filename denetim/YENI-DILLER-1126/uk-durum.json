@@ -1,15 +1,15 @@
 {
 "hazir": {
 "arayuz": [
-1002,
+2011,
 2034
 ],
 "devlet": [
-870,
+2030,
 2315
 ],
 "olay": [
-225,
+475,
 5196
 ]
 },
@@ -105,6 +105,31 @@
 "hedef yazi yok"
 ],
 [
+"arayuz",
+"Only select → osmanli-tarih-atlasi",
+"hedef yazi yok"
+],
+[
+"arayuz",
+"Repository access:",
+"hedef yazi yok"
+],
+[
+"arayuz",
+"kayıt (Byzantion? Konstantiniyye? İstanbul yazın)",
+"turkce harf kalintisi"
+],
+[
+"arayuz",
+"ob-kutu ob-antlasma ob-madde-fark",
+"hedef yazi yok"
+],
+[
+"arayuz",
+"· Permissions:",
+"hedef yazi yok"
+],
+[
 "olay",
 "OLAYLAR:1783-04-19:0 d",
 "turkce harf kalintisi"
@@ -112,6 +137,11 @@
 [
 "olay",
 "OLAYLAR_EK:1395-01-01:0 d",
+"turkce harf kalintisi"
+],
+[
+"olay",
+"OLAYLAR_EK5:1373-01-01:0 d",
 "turkce harf kalintisi"
 ]
 ]
