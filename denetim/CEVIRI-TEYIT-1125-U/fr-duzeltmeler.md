@@ -1,0 +1,67 @@
+- arayuz | # (Yayça'nın alınmasından sonra; süre 'kısa'): Türkçe yer adı kalıntısı
+- arayuz | # Aralık # (# Zilkade #): hicrî ay yazımı tutarsız
+- arayuz | # Eylül # (# Rebîülevvel #): hicrî ay yazımı tutarsız
+- arayuz | # Nisan # (# Rebîülevvel #): hicrî ay yazımı tutarsız
+- arayuz | # Muharrem # / # Eylül #: hicrî ay büyük harf tutarsız
+- arayuz | # Ramazan # / # Ağustos # (TDV): hicrî ay büyük harf tutarsız
+- arayuz | # Ramazan # / # Haziran # (TDV): hicrî ay büyük harf tutarsız
+- arayuz | # Receb # / # Aralık # Jülyen = # Ocak # Gregoryen: hicrî ay büyük harf tutarsız
+- arayuz | # Receb # / # Mayıs #: hicrî ay yazımı tutarsız
+- arayuz | # Zilhicce # / # Kasım # (TDV Âmirîler): hicrî ay yazımı tutarsız
+- arayuz | # Şaban # / # Ocak #: hicrî ay yazımı tutarsız
+- arayuz | # Şâban # / # Mayıs # (TDV): hicrî ay yazımı tutarsız
+- arayuz | Rebîülâhir # / Ekim # (TDV; gün yok): hicrî ay yazımı tutarsız
+- arayuz | # Temmuz # (ÇELİŞKİ-#: TDV «Timişvar» # Şaban # = # Temmuz #'de garnizonun teslim olduğunu yazar; TDV «Kara Ahmed Paşa» #/# Temmuz der; Losonczy'nin kaleden çıkışı # Temmuz (olaylar_ek# Macar kaynağı) — iki gün de TDV içinde geçer, bağımsız ikinci akademik kaynak okunmadı, gün korundu): hicrî ay yazımı tutarsız
+- arayuz | # Kasım # (TDV: # Ekim — eski takvim): Fransızca iki nokta boşluğu
+- arayuz | # Temmuz # (TDV: # Temmuz #): Fransızca iki nokta boşluğu
+- arayuz | # Ekim # (# Ekim tarihli belge muhtariyet iradesidir — TDV trablusgarp-savasi): irade = padişah fermanı, 'volonté' yanlış anlam
+- arayuz | # Ocak # (mektup teatisi # Aralık # – # Ocak #): teati = karşılıklı mektup alışverişi
+- arayuz | # [hicrî # ∩ # ilk günü, # Mart #; yalnız yıl teyitli, gün teyitsiz]: söz dizimi bozuk, anlam anlaşılmıyor
+- arayuz | # yıllarına doğru [tahmin; yalnız yıl; gün teyitsiz]: sözcük sırası bozuk
+- arayuz | # — YIL hassasiyeti · TDV `malatya` ay/gün vermiyor; TDV `timur`a göre Timur #-# kışını Karabağ'da geçirdi, olay Sivas'ın düşüşünden SONRA (yılın ortası/sonu) — #-# yalnız yıl işaretidir · Karayülük (Timur adına) aralığı haritada AYRI dönem olarak yok: iki ucu da gün/yılsız (Emre notu ##): Karayülük kişi adıdır, çoğul değil
+- arayuz | . binyıl: sıra eki: '. yüzyıl' = 'e siècle' ile aynı olmalı
+- arayuz | Harekât okları (Harekât okları kutusu): kutu etiketiyle (Flèches d'opérations) uyuşmuyor
+- arayuz | Mayıs # başı [yalnız ay teyitli; gün teyitsiz]: büyük-küçük harf tutarsız
+- arayuz | MÖ # (# Ekim; Livius): kaynak Livius (Livius.org); diğer maddelerle tutarlı
+- arayuz | MÖ # (Ocak sonu; Livius # Ocak — tek gün kaynağı): kaynak Livius (Livius.org); diğer maddelerle tutarlı
+- arayuz | MÖ # (Temmuz; Livius c. # Temmuz — tek gün kaynağı): kaynak Livius (Livius.org); diğer maddelerle tutarlı
+- arayuz | tanesi bu antlaşmayla boşaltıldı (haritada sahibi değişmediği için ayrıca el değiştirmiş görünmez): uyum hatası, (e) kalıntısı
+- arayuz | ’ten itibaren (açık uç): tarihten SONRA eklenen parça; '1878 à partir de' bozuk
+- arayuz | ’ten itibaren — bu hat # sınırından: tarihten SONRA eklenen parça; sözcük sırası bozuk
+- arayuz | ⚠️ Siyasî katman kapalı — tarama şu an görünmüyor.: tarama = taralı dolgu, 'balayage' yanlış
+- arayuz | 🗺 İsyan taraması (Eflak · Boğdan · Erdel): tarama = harita taraması (hachure), 'balayage' yanlış
+- arayuz | 🎭 Magazin: magazin = dedikodu/ünlü haberi, dergi değil
+- devlet | kacar-esterabad: artikel/büyük harf ve 'qâdjâre' yazımı tutarsız
+- devlet | kert: yerleşik ad Kartides; 'Kurts' Kürtlerle karışıyor
+- devlet | occaneechi: halk adı artikelsiz, diğerleriyle tutarsız
+- devlet | yavapai: halk adı artikelsiz, diğerleriyle tutarsız
+- devlet | xi-liang-li-gao: artikel eksik
+- devlet | hou-liang-lu-guang: artikel eksik
+- devlet | sutayogullari: Türkçe (aksansız) ad kalıntısı
+- devlet | sani-emirligi: Türkçe transliterasyon; yerleşik Al Thani
+- devlet | kumuk-samhalligi: Fransızca halk adı Koumyks
+- devlet | arma: Arma bir topluluk adıdır, yer değil
+- devlet | kuba-hanligi: Azerbaycan Quba; Kongo Kuba'sıyla karışıyor
+- devlet | revan-hanligi: yerleşik Fransızca ad
+- devlet | jayakatwang-kadiri: artikel eksik
+- devlet | liao-hanedani: Türkçe yazım kalıntısı
+- devlet | ata-pueblo: Türkçe 'Ata' kalıntısı
+- devlet | ingiliz-gambiya: artikel eksik
+- devlet | ostland: artikel eksik
+- devlet | alman-ukrayna: artikel eksik
+- devlet | mecklenburg-schwerin: artikel eksik
+- devlet | mecklenburg-strelitz: artikel eksik
+- devlet | saksonya-weimar: artikel eksik
+- devlet | izmir-haclisi: tarihî Fransızca ad Smyrne; ifade bozuk
+- devlet | cape-hollanda: doğal sözcük sırası
+- devlet | cape-ingiliz: doğal sözcük sırası
+- devlet | misir-28-30-hanedan: bozuk yapı
+- devlet | yeni-hitit: kaynaktaki antik adlar Melid ve Kummuh
+- devlet | lepenski-vir-trapez: trapez yapılı = trapez planlı yapılar
+- devlet | kuzco-krallik: 'erken' = erken İnka dönemi
+- devlet | tohar-yabgu: yabghu unvandır; devlet adı yabghulat
+- devlet | xiazhou-dangxiang: Xiazhou yer adıdır, tekil
+- devlet | hirvat-dukalik: bozuk ifade
+- devlet | ispanyol-oran-1: Oran eril ve artikelsiz
+- devlet | ispanyol-oran-2: Oran eril ve artikelsiz
+- devlet | yolngu-aborijin: artikel eksik, tutarsız

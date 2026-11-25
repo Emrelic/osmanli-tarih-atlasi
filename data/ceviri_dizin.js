@@ -209,11 +209,11 @@ window.CEVIRI_DIZIN = {
   "fr": [
    [
     "ceviri_fr_arayuz.js",
-    "53fbe0e2"
+    "1bd8b20d"
    ],
    [
     "ceviri_fr_devlet.js",
-    "66038408"
+    "4733ca7d"
    ],
    [
     "ceviri_fr_olay_01.js",
