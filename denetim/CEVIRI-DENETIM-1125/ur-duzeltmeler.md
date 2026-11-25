@@ -1,0 +1,85 @@
+- arayuz | # Ağustos # (Ateş: # Ağustos'ta Osmanlı müfrezesi çekildi) | m: Ateş yazar soyadı; 'ateş' (آگ) diye çevrilmiş
+- arayuz | # Eylül # (gün YALNIZ hakemli makaleden, Enverî'ye dayalı; TDV gün vermiyor, yalnız Ağustos-Eylül # diyor. Avusturya arşivi aynı olayı #/# Eylül gecesi diye kaydeder) | m: hakemli = hakem incelemesinden geçmiş; 'departman araştırması' yanlış
+- arayuz | # Ekim # (# Ekim tarihli belge muhtariyet iradesidir — TDV trablusgarp-savasi) | m: irade = padişah iradesi (ferman), 'istek' değil
+- arayuz | # Aralık # (Rusya barışı: # Ramazan #; fiilî teslim günü kaynakta yok) | m: cinsiyet uyumu bozuk
+- arayuz | # Ocak # (imzalar # Ocak-# Mart arası şeyhlik şeyhlik tamamlandı) | m: 'şeyhlik şeyhlik' = tek tek her şeyhlik; anlam bozulmuş
+- arayuz | # sonları | m: cinsiyet/sayı uyumu
+- arayuz | . binyıl | m: binyıl = ہزاریہ; 'ہزار سالہ' sıfattır
+- arayuz | (toprak değişince harita devletin sınırlarına ZIPLASIN mı — sıçramalıdır, adaptif genişlik bunun yumuşak hâlidir) | m: 'sıçramalıdır' = ani/zıplamalı; 'zıplamalı' (gereklilik) diye yanlış çevrilmiş
+- arayuz | #'ya doğru (TDV yaklaşık yıl verir; gün/ay yok) | m: zaman için 'e doğru' = civarında; ayrıca boşluk eksik
+- arayuz | Ekim # (# günlük kuşatma ve baskının ardından) | m: baskın = ani saldırı, 'baskı' (دباؤ) değil
+- arayuz | Harekât okları (Harekât okları kutusu) | m: arayüzdeki öteki 'Harekât okları' çevirisiyle tutarsız ve 'kutusu' eksik ekli
+- arayuz | K# — Hanedan üyeleri ve vâlide sultanlar | m: bozuk çoğul
+- arayuz | MÖ # (yıl) | m: diğer bütün MÖ kayıtlarıyla sıra tutarsız
+- arayuz | Nisan sonları # — TDV gün vermiyor | m: cinsiyet/sayı uyumu
+- arayuz | Sonbahar # [yalnız yıl teyitli; gün teyitsiz] | m: خزاں dişil
+- arayuz | durak — yeni durak için sağ tıklayın, bitirince ✕ ile kapatın (Esc: iptal) | m: çekim hatası
+- arayuz | — yeni durak için sağ tıklayın, bitirince ✕ ile kapatın (Esc: iptal) | m: çekim hatası
+- arayuz | Şubat # (ay hassasiyeti; geçiş günü kaynakta yok) | m: ay-yıl sırası ters (ay # = yıl)
+- arayuz | 🗣️ Nasıl bilirdiniz | m: 'nasıl bilirdiniz' = merhumu nasıl tanırdınız (kanaat); 'nereden tanıyordunuz' anlamı çıkmış
+- arayuz | 🗺 Antlaşmanın haritadaki karşılığı | m: anlamsız ifade
+- arayuz | 🗺 Bu maddenin haritadaki karşılığı | m: anlamsız ifade
+- arayuz | 🗺 Bizim coğrafyamız | m: جغرافیہ eril
+- arayuz | Altlık: siyasî katmanların altında ne görünsün — Esri fotoğrafı, bizim coğrafyamız (kara·göl·nehir·dağ) ya da düz zemin. | m: جغرافیہ eril
+- arayuz | ⚠️ Siyasî katman kapalı — tarama şu an görünmüyor. | m: tarama = taralı dolgu (hatching), 'scan' değil
+- arayuz | 🗺 İsyan taraması (Eflak · Boğdan · Erdel) | m: tarama = taralı gösterim, 'scan' değil
+- arayuz | ↺ Varsayılana dön | m: varsayılan = default; 'eskisi gibi yap' yanlış anlam
+- devlet | lur-i-buzurg | m: atabeglik (devlet) kişi gibi çevrilmiş; Türkçe çoğul 'Hazaraspîler' kalmış
+- devlet | lur-i-kucek | m: atabeglik = devlet; 'küçük atabeg' diye okunuyor
+- devlet | gurcistan | m: bozuk izafet
+- devlet | kibris-krallik | m: Türkçe yazım kalıntısı
+- devlet | mutahharten | m: Kemah adı yanlış yazılmış
+- devlet | berabis | m: YANLIŞ AD: Berâbîş yerine Brakna yazılmış
+- devlet | guarani-misyonlari | m: Arapça ي karışması
+- devlet | vaday | m: Arapça ي karışması
+- devlet | kuveyt | m: Urducada 'شیخی' = övünme; şeyhlik anlamı verilmeli
+- devlet | bahreyn | m: Urducada 'شیخی' = övünme
+- devlet | katar | m: Urducada 'شیخی' = övünme
+- devlet | yeni-ispanya | m: genel valilik (kurum) 'vali' kişisi diye çevrilmiş
+- devlet | ispanyol-peru | m: genel valilik (kurum) 'vali' kişisi diye çevrilmiş
+- devlet | kalikut | m: Zamorinlik (devlet) 'zamorin' kişisi diye çevrilmiş
+- devlet | travankur | m: Venâd adı eksik harfle yazılmış
+- devlet | sutayogullari | m: çevrilmemiş, Latin harfli Türkçe kalmış
+- devlet | cemisgezek-beyligi | m: çevrilmemiş Türkçe
+- devlet | arvanid-sancagi | m: Arvanid adı yanlış yazılmış
+- devlet | mekke-serifligi | m: Şeriflik (makam/devlet) 'Mekke Şerifi' kişisi diye çevrilmiş
+- devlet | konstantin-beyligi | m: Cezayir'deki Konstantin şehri (قسنطینہ), kişi adı Konstantin değil
+- devlet | misir-eyaleti | m: cinsiyet hatası ve bozuk tamlama
+- devlet | yeni-granada-valiligi | m: genel valilik kurumu kişi diye çevrilmiş
+- devlet | rio-de-la-plata-valiligi | m: genel valilik kurumu kişi diye çevrilmiş
+- devlet | yeni-ispanya-ilk-donem | m: genel valilik kurumu kişi diye çevrilmiş
+- devlet | livonya-tarikati | m: tarikat/şövalye tarikatı 'حکم' (emir) diye çevrilmiş; yazım hatası
+- devlet | libya-cumhuriyet-cemahiriye | m: kaynakta olmayan 'Büyük Sosyalist Halk' sıfatları eklenmiş
+- devlet | arap-cumhuriyetleri-federasyonu | m: bozuk çoğul
+- devlet | akrotiri-dekelya | m: Dikelya yer adı yanlış harfle
+- devlet | kibris-ingiliz-ussler | m: Dikelya yer adı yanlış harfle
+- devlet | liege-piskoposlugu | m: piskoposluk (devlet) 'prens-piskopos' kişisi diye çevrilmiş
+- devlet | utrecht-piskoposlugu | m: piskoposluk (devlet) kişi diye çevrilmiş
+- devlet | trento-piskoposlugu | m: piskoposluk (devlet) kişi diye çevrilmiş
+- devlet | schwaben-dukaligi | m: yer adı yanlış (b düşmüş)
+- devlet | trucial-states | m: Urducada 'شیخیاں' = övünmeler
+- devlet | sait-26-hanedan | m: Sait adı eksik harf
+- devlet | garamant | m: yazım hatası
+- devlet | vedday-sultanligi | m: Arapça ي karışması
+- devlet | dulefi | m: Türkçe çoğul eki kalıntısı
+- devlet | bagdat-memlukleri | m: Eyüplü adı uydurma bir yer adına dönmüş
+- devlet | salzburg-prens-basepiskoposlugu | m: başpiskoposluk (devlet) kişi diye çevrilmiş
+- devlet | brixen-piskoposlugu | m: piskoposluk (devlet) kişi diye çevrilmiş
+- devlet | taosi-kultur | m: Shanxi, Shaanxi ile karışıyor
+- devlet | shimao-kultur | m: tek il (Shaanxi) iki ad olarak yazılmış
+- devlet | kaminaljuyu-providencia | m: sözcük içinde yazı sistemi karışması
+- devlet | veligosti-damala-baronluk | m: baronluk 'بیرونی' (dış) diye yazılmış
+- devlet | chalandritsa-baronluk | m: baronluk 'بیرونی' (dış) diye yazılmış
+- devlet | kachchhapaghata-gwalior | m: yanlış hanedan adı (Kachwaha)
+- devlet | azcapotzalco-tepanek | m: Türkçe çoğul eki kalıntısı
+- olay | OLAYLAR:1821-03-06:0 | d: Tepedelenli Ali Paşa adı yanlış (تپلان کے)
+- olay | OLAYLAR:1413-07-05:0 | d: 'beylikler' anlamsız 'بیگیوں' diye yazılmış
+- olay | OLAYLAR:1517-01-22:0 | d: dilbilgisi: 'نے' ile geçişsiz fiil; 'پکڑا گیا اور پھانسی دی گئی' öznesiz
+- olay | OLAYLAR:1683-09-12:0 | d: bozuk fiil 'پھانسی پایا'; 'ağırlıkları' = سامان
+- olay | OLAYLAR:1798-06-12:0 | d: 'نے' + geçişsiz fiil; tarikat 'حکم' ve yazım hatası 'شوریر'
+- olay | OLAYLAR:1918-10-30:0 | b: mütareke = ateşkes, 'antlaşma' değil
+- olay | OLAYLAR_EK:1324-01-01:0 | d: diğer bütün metinlerden farklı rakam sistemi
+- olay | OLAYLAR_EK:1334-01-01:0 | d: rakam sistemi ve Bursa yazımı diğer metinlerle tutarsız
+- olay | OLAYLAR_EK:1381-06-01:0 | d: beylik = بیلک; 'بیگی' hanım anlamı çağrıştırıyor
+- olay | OLAYLAR_EK:1461-06-01:0 | d: madde adı cümleye karışmış; beylik 'بیگی' yazılmış
+- olay | OLAYLAR_EK:1385-09-01:0 | d: '1383'ten beri' = 1383 yılından itibaren; '1383'ten önce' diye çevrilmiş

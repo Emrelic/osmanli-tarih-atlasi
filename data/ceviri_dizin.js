@@ -789,15 +789,15 @@ window.CEVIRI_DIZIN = {
   "ur": [
    [
     "ceviri_ur_arayuz.js",
-    "0227b061"
+    "e338df9b"
    ],
    [
     "ceviri_ur_devlet.js",
-    "0fc9e8b5"
+    "e3bd3434"
    ],
    [
     "ceviri_ur_olay_01.js",
-    "b4d8c52f"
+    "40de2fba"
    ],
    [
     "ceviri_ur_olay_02.js",
@@ -813,7 +813,7 @@ window.CEVIRI_DIZIN = {
    ],
    [
     "ceviri_ur_olay_05.js",
-    "49baa1dc"
+    "38d4ea95"
    ],
    [
     "ceviri_ur_olay_06.js",

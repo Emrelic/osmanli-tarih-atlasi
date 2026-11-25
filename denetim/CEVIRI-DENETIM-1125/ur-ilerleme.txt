@@ -1,0 +1,4 @@
+Tam okunan paketler: 1_arayuz_001-010 (tamam), 2_devlet_001-012 (tamam), 3_bayrakli_001-002, 4_olay_001-007
+Bakılan kayıt: arayuz ~1950, devlet ~3500, bayrakli ~130, olay ~140
+Okunmayan: 3_bayrakli_003-022, 4_olay_008-211
+Not: Olay listelerindeki ve arayüzdeki yer adları sistematik olarak Latin/Türkçe harfle bırakılmış (bazı paketlerde Urduca yazılmış); toplu iş gerektirdiği için tek tek düzeltilmedi.

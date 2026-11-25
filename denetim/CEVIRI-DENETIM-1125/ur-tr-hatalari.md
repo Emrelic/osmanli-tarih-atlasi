@@ -1,0 +1,8 @@
+- devlet sutayogullari: TR ad Türkçe karaktersiz ("Sutayogullari" yerine "Sutayoğulları" olmalı)
+- devlet cemisgezek-beyligi: TR ad Türkçe karaktersiz ("Çemişgezek Beyliği" olmalı)
+- devlet misir-erken-hanedan ... dogu-jin, gupta ... maya-klasik, chu-devleti, atina-demokrasisi, neustria ... balear-tavaif, guney-yemen, sri-lanka çevresi, marshall-adalari, myanmar-birmanya, banglades: çok sayıda TR devlet adı Türkçe karaktersiz yazılmış (ör. "Misir Eski Krallik", "Imparatorlugu", "Kralligi", "Banglades", "Guney Yemen")
+- arayuz "# Ekim # (# Ekim tarihli ...)" ve benzeri çok sayıda arayüz dizgesi geliştirici/iç not içeriyor (dosya adı, ÇELİŞKİ-etiketi, ic_not_t, "Emre notu", "kaynak özeti teyit bekler"); son kullanıcıya görünüyorsa temizlenmeli
+- olay OLAYLAR:1739-09-18:0: kullanıcı metninde iç terim "abi-merkez zinciri" ve "atlasta ... döner" notları var
+- olay OLAYLAR:1699-01-26:0: kullanıcı metninde "beyanlı yaklaşıklık", "dönem ucu doğrulanmadı" gibi iç notlar; Kostajnica/Jasenovac bilgisi aynı metinde iki kez geçiyor
+- olay OLAYLAR:1913-05-30:0: "Girit'te Hanya, Kandiye, Girit (Resmo)" — "Girit (Resmo)" yer adı bozuk görünüyor (Resmo olmalı)
+- olay OLAYLAR_EK:1526-09-01:0: cümle bozuk ("Osmanlı ordusuna şehrin anahtarları ... sultana takdim edildi", iki alıcı); madde tarihi 1526-09-01, metindeki gün 11 Eylül 1526
