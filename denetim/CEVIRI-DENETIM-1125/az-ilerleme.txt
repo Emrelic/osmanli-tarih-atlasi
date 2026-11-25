@@ -9,3 +9,7 @@ Notlar (emin olunmayan, duzeltilmeyen):
 - 'tesnifli' kaliplar: 'iskele' = 'korpu' hatasi okunmayan paketlerde de olabilir (guvenle aranamadi).
 - 'Eski Zagra' icin Stara Zaqora / Kohne Zaqora tutarliligi okunmayan paketlerde kontrol edilmeli.
 - 'Kolemen' -> 'Kole' hatasi: 4_olay_011'de duzeltildi.
+
+== ilerleme_a.txt
+Tamamen okunan: 4_olay_022-056 (35 paket; araligin tamami)
+Bakilan kayit: yalnız olay turu (paket basi ~12-26 kayit; kayit sayisi ayrica sayilmadi)

@@ -877,15 +877,15 @@ window.CEVIRI_DIZIN = {
    ],
    [
     "ceviri_az_olay_02.js",
-    "5a00d7f5"
+    "6ed41f6a"
    ],
    [
     "ceviri_az_olay_03.js",
-    "ecfd7f87"
+    "4b07e847"
    ],
    [
     "ceviri_az_olay_04.js",
-    "98dd495c"
+    "d4ac989a"
    ],
    [
     "ceviri_az_olay_05.js",

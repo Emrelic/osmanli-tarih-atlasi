@@ -17,3 +17,36 @@
 - olay OLAYLAR_EK21:1811-04-01:0 (ve OLAYLAR_OK109:1918-10-31:0): alıntı tırnakları ters bölü ile (\") metinde görünüyor olabilir
 - devlet misir-erken-hanedan ... uman-ibadi aralığındaki antik/erken kayıtlar (ör. misir-eski-krallik, ur-3, akad, orta-asur, medine-devleti) ve han-devleti-zhou, bati-han, maurya, cemisgezek-beyligi, sutayogullari, neustria ... besalu: TR adlar Türkçe karaktersiz ("Misir Eski Krallik", "Imparatorlugu", "Hanedani", "Kralligi", "Sutayogullari")
 - devlet euboea-negroponte: "Negroponte (Eğriboz) — Venedik Krallığı" adlandırması kontrol edilmeli (Venedik idaresi)
+
+== tr_hatalari_a.md
+- olay OLAYLAR_EK5:1716-10-13:0: TR metninde kullanıcıya görünen iç not "(TDV timisvar; ... abi-merkez zinciri, beyanlı yaklaşıklık)".
+- olay OLAYLAR_EK5:1716-11-16:0: iç not "(Bánlaky 0019/1703; beyanlı yaklaşıklık)".
+- olay OLAYLAR_EK5:1732-01-08:0: iç not "Atlas ... (TDV hoy; ... beyanlı yaklaşıklık)".
+- olay OLAYLAR_EK7:1735-03-21:0: iç not "haritada Gence günü kullanılır — beyanlı yaklaşıklık".
+- olay OLAYLAR_EK5:1791-08-04:0: iç notlar "(TDV zistovi-antlasmasi; ...)", "atlas hukuken devri bu güne yazar".
+- olay OLAYLAR_EK5:1775-05-07:0: "(gün teyitsiz)".
+- olay OLAYLAR_EK5:1912-10-18:0: iç içe parantez "(Fizan (Trablusgarp vilâyeti sancağı))".
+- olay OLAYLAR_EK5:1900-09-01:0: bozuk cümle "hat ... törenle inşaata başlandı" ("hattın inşaatına başlandı" olmalı).
+- olay OLAYLAR_EK5:1798-10-23:0: iç not "(Curlin, Preveza B, 2010; atlas günü Preveze'den alır)".
+- olay OLAYLAR_EK6:1535-09-22:0 ve OLAYLAR_EK6:1547-01-01:0: başlık/metinde iç not ("(Osmanlı tutumu 1534-35'te sona erdi)", "bkz. önceki madde", kaynak tartışması).
+- olay OLAYLAR_EK6:1686-10-23:0: iç not "Zenta'ya özgü teslim günü kaynakta okunmadı ... beyanlı yaklaşıklık".
+- olay OLAYLAR_EK6:1689-02-03:0: iç not "abi-merkez zinciri ... beyanlı yaklaşıklık".
+- olay OLAYLAR_EK5:1688 Lipova (OLAYLAR_EK6/EK5:1688-06-22:0): uzun iç kaynak notu "(MKL, Arad ... beyanlı yaklaşıklık)"; "12-22 Haziran" kuşatma süresi üç gün ile uyumsuz görünüyor (üslup değişimi, kontrol edilmeli).
+- olay OLAYLAR_EK6:1730-08-12:0: iç not "Atlas ... beyanlı yaklaşıklık".
+- olay OLAYLAR_EK5:1715-07-20:0: iç not "abi-merkez zinciri; beyanlı yaklaşıklık".
+- olay OLAYLAR_EK5:1718-07-21:0: çok uzun iç notlar ("TDV pasarofca-antlasmasi", "TDV cuka-adasi", "haritada").
+- olay OLAYLAR_ILIRYA0072:1806-01-01:0: "Bu iki ayrım atlasın tek bir 'Fransa' penceresiyle karşılanamaz" (geliştirici notu).
+- olay OLAYLAR_ILIRYA0072:1779-01-01:0: "Atlasta Hâil bugüne kadar ... sahipsiz görünüyordu" (geliştirici notu).
+- olay OLAYLAR_ILIRYA0072:1806-02-01:0: "atlasta bu dönem bugüne kadar kesintisiz Avusturya görünüyordu" (geliştirici notu).
+- olay OLAYLAR_EK7:1406-10-15:0: kaynak slug'ı "TDV `tebriz`" kullanıcıya görünüyor.
+- olay OLAYLAR_EK7:1408-04-13:0: metin ";" ile yarım bitiyor.
+- olay OLAYLAR_EK8:1924-01-01:0: "TDV'nin `harizm` maddesi ... — yalnız yıl veriyor" iç not.
+- olay OLAYLAR_EK8:1920-08-10:0: "Haritada karşılığı olmamasının sebebi" (açıklama notu, bilinçli olabilir).
+- olay OLAYLAR_EK9:1911-10-08:0: "İtalya 29 Eylül 1911'de savaş ilân etti ve donanması 25-26 Eylülde kıyıyı abluka altına aldı" — abluka savaş ilanından önce görünüyor.
+- olay OLAYLAR_EK10:1482-01-01:0 ve OLAYLAR_EK9 benzeri: "TDV'de geçmez" tarzı kaynak notları kullanıcıya görünüyor.
+- olay OLAYLAR_EK11:1502-01-01:0: "bölge on kayıt hâlinde" (iç terim) ve "(gün teyitsiz)".
+- olay OLAYLAR_EK11:1796-01-01:0: bozuk cümle "Ağa Muhammed Şah'ın önünde Afşar hükümdarı Şâhruh tarafından karşılandı"; "(gün kaynakta yok)".
+- olay OLAYLAR_EK13:1569-01-01:0 ve OLAYLAR_EK13:1861-05-21:0: metinde görünen ters eğik çizgiler (\\\") — kaçış hatası.
+- olay OLAYLAR_EK12:1893-01-01:0: "Dikeo" büyük olasılıkla "Dikoa" (Dikwa) olmalı.
+- olay OLAYLAR_EK14:1568-01-01:0: "(tamamlanışı kronolojide zaten kayıtlı)" iç not.
+- olay OLAYLAR_EK14:1598-04-09:0: "burada binanın kendi özel maddesindeki tarih esas alınmıştır" (iç not niteliğinde).

@@ -194,3 +194,144 @@
 - olay | OLAYLAR_ORTACAG_BIZANS_BALKAN:1122-01-01:0 | b: Yer adı yanlış çevrilmiş
 - olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1263-01-01:0 | d: Türkçe '-ince' kalıntısı
 - olay | OLAYLAR_ANTIK_MISIR_NUBYA:-0600-01-01:0 | d: Türkçe kalıntısı
+- arayuz | " ayarlarını açar/kapatır. | m: 'açar' yanlış zaman/anahtar; açır olmalı
+- arayuz | " ayarlarını açar/kapatır. | m: 'ayarlar' Türkçe kalıntısı (duzeltme_001'deki satırın yerine geçer)
+- olay | OLAYLAR_EK5:1621-10-09:0 | d: 'Lehler ... taahhüt etti' öznesi kaybolmuş, 'Leh Kazak basqınları' (Leh Kazakları akını) anlamına dönmüş
+- olay | OLAYLAR_EK5:1638-12-24:0 | d: 'ertəsi ilki' Türkçe kalıbı; Azericede 'ilk' (birinci) gibi okunuyor
+- olay | OLAYLAR_EK5:1640-02-09:0 | d: İmla: noktasız büyük I yerine İ
+- olay | OLAYLAR_EK5:1645-08-22:0 | d: 'korsan' yalnız 'quldur' (haydut) olarak çevrilmiş
+- olay | OLAYLAR_EK5:1660-08-27:0 | d: Ek özel addan kopmuş
+- olay | OLAYLAR_EK5:1672-06-04:0 | d: Türkçe kalıntısı 'giren'
+- olay | OLAYLAR_EK5:1682-09-16:0 | d: 'ertəsi ilki' Türkçe kalıbı
+- olay | OLAYLAR_EK5:1716-08-20:0 | d: 'takviyeler' (takviye kuvvetleri) 'teçhizat' olarak çevrilmiş
+- olay | OLAYLAR_EK5:1733-05-01:0 | d: Türkçe kalıntıları 'giren', 'devşirilən'
+- olay | OLAYLAR_EK5:1739-12-12:0 | d: 'barış gereği' 'sülh tələbi' (barış isteği) olmuş: yanlış anlam
+- olay | OLAYLAR_EK5:1754-12-13:0 | d: 'kaybedilen' 'qazanılan' (kazanılan) olarak ters çevrilmiş
+- olay | OLAYLAR_EK5:1779-03-21:0 | d: İmla ve ek hatası
+- olay | OLAYLAR_EK5:1795-09-01:0 | d: Yer adı Hasköy yanlış yazılmış
+- olay | OLAYLAR_EK5:1799-05-20:0 | d: 'surlar' 'səngər' (siper) olarak çevrilmiş
+- olay | OLAYLAR_EK5:1801-04-01:0 | d: 'kölemen valileri' anlaşılmaz 'qulaməlik' olmuş; iyelik eki eksik
+- olay | OLAYLAR_EK5:1805-06-01:0 | d: 'hazine dağıtıldı' (paylaştırıldı) 'yıkıldı' fiiliyle çevrilmiş
+- olay | OLAYLAR_EK5:1809-01-05:0 | d: İyelik eki eksik, cümle bozuk
+- olay | OLAYLAR_EK5:1826-10-07:0 | d: Türkçe kalıntısı '-ince'
+- olay | OLAYLAR_EK5:1831-09-14:0 | b: 'Kölemen' anlaşılmaz 'Qulaməlik' olmuş; metinde Məmlük kullanılıyor
+- olay | OLAYLAR_EK5:1859-09-14:0 | d: Türkçe kalıntısı 'giriştiyi' ve bozuk anlatım
+- olay | OLAYLAR_EK5:1861-06-25:0 | d: 'xələ' Azericede yok (hal' = tahttan indirme)
+- olay | OLAYLAR_EK5:1865-01-01:0 | d: Bozuk sözcük 'idarəən'
+- olay | OLAYLAR_EK5:1868-01-04:0 | d: 'resmî muamelelerde' anlamsız çevrilmiş
+- olay | OLAYLAR_EK5:1868-05-10:0 | d: Yazım hatası
+- olay | OLAYLAR_EK5:1871-09-20:0 | d: İyelik eki eksik
+- olay | OLAYLAR_EK5:1872-04-01:0 | d: Türkçe kalıntısı '-ınca'
+- olay | OLAYLAR_EK5:1875-06-19:0 | d: Fiil çatısı yanlış
+- olay | OLAYLAR_EK5:1876-08-31:0 | b: 'xələ' Azericede yok
+- olay | OLAYLAR_EK5:1876-08-31:0 | d: 'xələ' Azericede yok
+- olay | OLAYLAR_EK5:1877-07-19:0 | d: Edilgen çatı eksik: püskürtüldü anlamı bozulmuş
+- olay | OLAYLAR_EK5:1878-01-31:0 | b: 'Mütareke' anlamsız ifadeyle çevrilmiş
+- olay | OLAYLAR_EK5:1878-01-31:0 | d: 'müdarəkə' Azericede yok
+- olay | OLAYLAR_EK5:1878-03-03:0 | d: Zaman uyumsuzluğu
+- olay | OLAYLAR_EK5:1896-08-26:0 | b: 'eylem' (aksiyon) 'hərəkət' olarak anlam bulanık
+- olay | OLAYLAR_EK5:1896-08-26:0 | d: 'eylemciler' yanlış sözcük
+- olay | OLAYLAR_EK5:1900-09-01:0 | d: Bozuk cümle kuruluşu
+- olay | OLAYLAR_EK5:1909-04-27:0 | b: 'xələ' Azericede yok
+- olay | OLAYLAR_EK5:1909-04-27:0 | d: 'xələ' Azericede yok
+- olay | OLAYLAR_EK5:1912-10-18:0 | d: 'göze alamamak' 'gözaltına almak' olmuş (yanlış anlam); Türkçe kalıp
+- olay | OLAYLAR_EK5:1913-06-11:0 | d: İmla: firqə
+- olay | OLAYLAR_EK5:1913-06-29:0 | d: Türkçe kalıntısı '-ince'
+- olay | OLAYLAR_EK5:1914-08-02:0 | d: Yanlış fiil biçimi
+- olay | OLAYLAR_EK5:1914-09-09:0 | d: Hal eki yanlış
+- olay | OLAYLAR_EK5:1918-11-13:0 | d: Türkçe kalıpları 'parçalık', 'görünce'
+- olay | OLAYLAR_EK5:1921-10-20:0 | d: Bölge adı yarım kalmış
+- olay | OLAYLAR_EK5:1550-01-01:1 | d: Türkçe kalıntısı 'yöresi'
+- olay | OLAYLAR_EK5:1545-12-26:0 | d: Türkçe kalıntısı '-ınca'
+- olay | OLAYLAR_EK5:1696-01-01:0 | d: İyelik eki eksik
+- olay | OLAYLAR_EK5:1701-01-01:0 | d: Ad tutarlılığı (Karlovits)
+- olay | OLAYLAR_EK5:1552-09-04:0 | d: Türkçe kalıntısı 'bastırınca'
+- olay | OLAYLAR_EK5:1537-10-01:0 | d: Hal eki eksik
+- olay | OLAYLAR_EK5:1543-01-01:0 | d: Türkçe kalıntısı 'yönetici'
+- olay | OLAYLAR_EK5:1570-09-17:0 | d: Türkçe kalıntısı ve bozuk cümle
+- olay | OLAYLAR_EK5:1715-07-20:0 | d: 'abi-merkez' 'amca-merkez' olmuş; ad ve terim tutarlılığı
+- olay | OLAYLAR_EK5:1715-08-16:0 | d: Ad tutarlılığı (Karlovits)
+- olay | OLAYLAR_EK5:1715-09-07:0 | d: Hal eki yanlış
+- olay | OLAYLAR_EK5:1724-08-31:0 | d: İyelik eki eksik
+- olay | OLAYLAR_EK5:1781-01-01:0 | d: Türkçe kalıntısı '-ınca'
+- olay | OLAYLAR_EK5:1792-02-12:0 | d: Türkçe kalıntısı '-ınca'
+- olay | OLAYLAR_EK5:1798-10-23:0 | d: Türkçe kalıntısı '-ınca'; hal eki
+- olay | OLAYLAR_EK5:1871-01-01:0 | d: Türkçe kalıntısı '-ınca'
+- olay | OLAYLAR_EK5:1913-11-01:0 | d: Türkçe kalıntısı 'görüşme'
+- olay | OLAYLAR_EK5:1920-07-07:0 | d: Hal eki yanlış
+- olay | OLAYLAR_EK5:1801-09-24:0 | d: Yer adı İngilizce yazımla (sh) kalmış
+- olay | OLAYLAR_EK5:1785-04-27:0 | d: 'tertip' (komplo) 'tərtibat' (düzenleme) olmuş
+- olay | OLAYLAR_EK5:1926-05-16:0 | d: İmla: əsnaf
+- olay | OLAYLAR_EK5:1695-02-06:0 | d: Türkçe transkripsiyon kalıntısı
+- olay | OLAYLAR_EK5:1904-08-29:0 | d: 'xələ' Azericede yok
+- olay | OLAYLAR_EK5:1398-01-01:0 | b: Türkçe kalıntısı 'yöresi'
+- olay | OLAYLAR_EK5:1398-01-01:0 | d: Türkçe kalıntısı 'yöresi'
+- olay | OLAYLAR_EK5:1097-06-19:0 | d: Ünlü uyumu hatası
+- olay | OLAYLAR_EK6:1325-01-01:0 | b: Türkçe kalıntısı 'yöresi'
+- olay | OLAYLAR_EK6:1325-01-01:0 | d: Türkçe kalıntısı 'yöre'
+- olay | OLAYLAR_EK6:1334-01-01:0 | b: Yer adı yanlış (Gölyazı)
+- olay | OLAYLAR_EK6:1334-01-01:0 | d: Yer adı yanlış (Gölyazı)
+- olay | OLAYLAR_EK6:1499-01-01:0 | d: Türkçe kalıntısı '-ınca'
+- olay | OLAYLAR_EK6:1604-06-08:0 | d: Türkçe kalıntısı '-ınca'
+- olay | OLAYLAR_EK6:1635-01-01:0 | d: 'takviye' (takviye kuvvet) 'teçhizat' olmuş
+- olay | OLAYLAR_EK6:1684-09-29:0 | d: Hal eki: 'Venedik'te bırakıldı' yanlış anlaşılıyor
+- olay | OLAYLAR_EK6:1819-05-10:0 | d: Hal eki
+- olay | OLAYLAR_EK6:1688-05-19:0 | b: İyelik eki eksik
+- olay | OLAYLAR_EK6:1688-05-19:0 | d: İyelik eki eksik
+- olay | OLAYLAR_EK6:1689-02-03:0 | d: 'abi-merkez' 'amca-merkez' olmuş
+- olay | OLAYLAR_EK6:1693-05-27:0 | d: Türkçe kalıntısı; ad tutarlılığı
+- olay | OLAYLAR_EK6:1458-08-06:0 | d: 'kıstak' (berzah) 'kəndir' (ip/kenevir) olmuş
+- olay | OLAYLAR_ILIRYA0072:1806-01-01:0 | d: 'ayrım' (fark) 'ayrılıq' olmuş
+- olay | OLAYLAR_ILIRYA0072:1779-01-01:0 | d: Ünlü uyumu
+- olay | OLAYLAR_EK7:1511-04-01:0 | d: Türkçe kalıntısı 'yöre'
+- olay | OLAYLAR_EK7:1513-04-24:0 | d: Türkçe kalıntısı
+- olay | OLAYLAR_EK7:1553-12-01:0 | b: Yanlış iyelik eki
+- olay | OLAYLAR_EK7:1580-01-01:0 | d: Çoğul yanlış
+- olay | OLAYLAR_EK7:1582-05-29:0 | d: Bozuk ifade
+- olay | OLAYLAR_EK7:1595-01-27:0 | d: 'kalabalık' 'izdihamlı' (sıkışık) olmuş
+- olay | OLAYLAR_EK7:1622-05-20:0 | d: 'beygir' 'madyan' (kısrak) olmuş
+- olay | OLAYLAR_EK7:1637-01-01:0 | d: Türkçe imla kalıntısı
+- olay | OLAYLAR_EK7:1633-10-01:0 | d: Hal eki ve ad biçimi hatası
+- olay | OLAYLAR_EK7:1638-06-01:0 | d: Bozuk ifade
+- olay | OLAYLAR_EK7:1648-08-08:0 | d: 'xələ' Azericede yok
+- olay | OLAYLAR_EK7:1656-10-01:0 | d: Hal eki hatası
+- olay | OLAYLAR_EK7:1703-07-17:0 | d: İmla: əsnaf
+- olay | OLAYLAR_EK7:1789-04-07:0 | d: İyelik eki eksik
+- olay | OLAYLAR_EK7:1828-06-23:0 | d: 'bırakılacaktı' 'verilməli idi' (verilmeliydi) olmuş: yanlış anlam; Türkçe kalıntı
+- olay | OLAYLAR_EK7:1836-06-01:0 | d: Anlamsız ifade 'nazirliyin ilk nazirliyinə'
+- olay | OLAYLAR_EK7:1838-03-24:0 | d: Türkçe kalıntısı 'qurul'
+- olay | OLAYLAR_EK7:1873-04-01:0 | d: Türkçe kalıntıları
+- olay | OLAYLAR_EK7:1387-01-01:0 | d: Türkçe kalıntısı
+- olay | OLAYLAR_EK7:1406-10-15:0 | d: Yer adı yanlış (Avnik)
+- olay | OLAYLAR_EK7:1834-01-01:0 | d: Türkçe kalıntısı '-ince'
+- olay | OLAYLAR_EK8:1657-11-15:0 | d: Bozuk fiil yapısı
+- olay | OLAYLAR_EK8:1920-09-02:0 | b: Özel ad yanlış (Âlim Han); başka kayıtta Alim
+- olay | OLAYLAR_EK8:1920-09-02:0 | d: Özel ad yanlış
+- olay | OLAYLAR_EK8:1924-01-01:0 | d: Türkçe alıntı çevrilmemiş
+- olay | OLAYLAR_EK9:1741-06-12:0 | d: Türkçe kalıntısı '-ınca'
+- olay | OLAYLAR_EK9:1884-06-03:0 | d: Türkçe kalıntısı '-ınca'
+- olay | OLAYLAR_EK9:1882-07-11:0 | d: Türkçe kalıntısı '-ınca'
+- olay | OLAYLAR_EK10:1479-08-01:0 | d: 'kontluk' 'qraf' (kont) olmuş; 'devir' (teslim) 'dövr' olmuş; Türkçe kalıntı
+- olay | OLAYLAR_EK10:1484-08-04:0 | d: Yazım hatası
+- olay | OLAYLAR_EK10:1595-10-01:0 | d: Ünlü uyumu
+- olay | OLAYLAR_EK10:1877-04-24:0 | d: Türkçe kalıntısı '-ince'
+- olay | OLAYLAR_EK10:1877-08-23:0 | d: Yazım hatası
+- olay | OLAYLAR_EK10:1877-07-19:0 | d: Bozuk yapı ve Türkçe kalıp
+- olay | OLAYLAR_EK10:1912-10-08:0 | d: Girit adı yanlış; Türkçe kalıp
+- olay | OLAYLAR_EK10:1806-01-26:0 | d: Türkçe kalıntısı '-ınca'
+- olay | OLAYLAR_EK10:1457-01-01:0 | d: 'tahririnde' (kayıtta) 'təhririndən' olmuş
+- olay | OLAYLAR_EK10:1465-01-01:0 | b: 'Hersek' özel adı 'Hersoq' (dük) yapılmış
+- olay | OLAYLAR_EK10:1469-01-01:0 | d: 'Hersek' özel adı 'Hersoq' yapılmış
+- olay | OLAYLAR_EK11:1426-01-01:0 | d: Türkçe kalıntısı '-ince'
+- olay | OLAYLAR_EK12:1913-08-31:0 | d: Türkçe kalıntısı '-ince'
+- olay | OLAYLAR_EK12:1560-03-12:0 | d: Yazım hatası
+- olay | OLAYLAR_EK13:1569-01-01:0 | d: Metinde görünen fazladan ters eğik çizgiler
+- olay | OLAYLAR_EK13:1573-10-10:0 | d: Eksik harf ve bozuk fiil
+- olay | OLAYLAR_EK13:1471-08-24:0 | d: 'parçalık' (gemilik) 'hissəlik' olmuş; yazım hatası
+- olay | OLAYLAR_EK13:1505-01-01:0 | b: Ek yazımı
+- olay | OLAYLAR_EK13:1514-01-01:0 | d: Türkçe kalıntısı 'baştan'
+- olay | OLAYLAR_EK13:1861-05-21:0 | d: Metinde görünen ters eğik çizgiler; 'korsanlık' eksik çevrilmiş
+- olay | OLAYLAR_EK13:1362-03-01:0 | d: Türkçe kalıntısı 'yaka'
+- olay | OLAYLAR_EK14:1718-01-01:0 | d: Yazım hatası
+- olay | OLAYLAR_EK14:1362-06-01:0 | d: Yazım hatası ve Türkçe ek
+- olay | OLAYLAR_EK14:1502-06-01:0 | d: Yazım hatası
