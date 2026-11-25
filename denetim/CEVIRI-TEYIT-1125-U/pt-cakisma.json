@@ -1,0 +1,141 @@
+{
+ "cakisma": [
+  {
+   "tur": "arayuz",
+   "id": "# Aralık # (# Zilkade #)",
+   "taban": "# dezembro # (# Zu al-Qada #)",
+   "main": "# de dezembro de # (# Dhu al-Qadah #)",
+   "oneri": "# de dezembro de # (# Zilkade #)",
+   "neden": "eksik 'de'; hicrî ay adı öteki dizelerle tutarlı"
+  },
+  {
+   "tur": "arayuz",
+   "id": "# Eylül # (# Rebîülevvel #)",
+   "taban": "# setembro # (# Rabi' al-awwal #)",
+   "main": "# de setembro de # (# Rabi' al-awwal #)",
+   "oneri": "# de setembro de # (# Rebîülevvel #)",
+   "neden": "eksik 'de'; ay adı tutarlılığı"
+  },
+  {
+   "tur": "arayuz",
+   "id": "# Receb # / # Mayıs #",
+   "taban": "# de Rajab de # / # de maio de #",
+   "main": "# Rajab # / # de maio de #",
+   "oneri": "# Receb # / # de maio de #",
+   "neden": "hicrî tarih biçimi ve ay adı tutarlılığı"
+  },
+  {
+   "tur": "arayuz",
+   "id": "# Muharrem # / # Eylül #",
+   "taban": "# Muharrem / # de setembro de #",
+   "main": "# Muharram # / # de setembro de #",
+   "oneri": "# Muharrem # / # de setembro de #",
+   "neden": "hicrî yıl yer tutucusu düşmüş"
+  },
+  {
+   "tur": "arayuz",
+   "id": "# Zilhicce # / # Kasım # (TDV Âmirîler)",
+   "taban": "# Zilhicce / # de novembro de # (TDV Âmirîler)",
+   "main": "# Dhu al-Hijjah # / # de novembro de # (TDV Âmirîler)",
+   "oneri": "# Zilhicce # / # de novembro de # (TDV Âmirîler)",
+   "neden": "hicrî yıl yer tutucusu düşmüş"
+  },
+  {
+   "tur": "arayuz",
+   "id": "# Şâban # / # Aralık # Pazartesi akşamı (Selânikî: # Ramazan / # Aralık)",
+   "taban": "# Şâban # / # de dezembro de # segunda-feira à tarde (Selânikî: # Ramazan / # de dezembro)",
+   "main": "# Sha'ban # / # de dezembro de # segunda-feira à tarde (Selânikî: # Ramadão / # de dezembro)",
+   "oneri": "# Şâban # / # de dezembro de #, segunda-feira à noite (Selânikî: # Ramazan / # de dezembro)",
+   "neden": "akşam = noite; virgül"
+  },
+  {
+   "tur": "arayuz",
+   "id": "# Ocak # (imzalar # Ocak-# Mart arası şeyhlik şeyhlik tamamlandı)",
+   "taban": "# de janeiro de # (assinaturas entre # de janeiro e # de março, xeicado xeicado concluído)",
+   "main": "# de janeiro de # (assinaturas entre # de janeiro e # de março, xeicado concluído)",
+   "oneri": "# de janeiro de # (assinaturas concluídas entre # de janeiro e # de março, xeicado a xeicado)",
+   "neden": "'şeyhlik şeyhlik' = tek tek her şeyhlik"
+  },
+  {
+   "tur": "arayuz",
+   "id": "(bu km'nin üstünde yatay seçilse de eğik atışa geçer)",
+   "taban": "(acima destes km, mesmo com horizontal selecionado, passa ao plano inclinado)",
+   "main": "(acima destes km, mesmo com horizontal selecionado, passa ao lançamento oblíquo)",
+   "oneri": "(acima destes km, mesmo com «horizontal» selecionado, passa à trajetória em arco)",
+   "neden": "eğik atış 'plano inclinado' (eğik düzlem) değil, kavisli uçuş"
+  },
+  {
+   "tur": "arayuz",
+   "id": "(eğik atış: uzaklaşıp yaklaşır · yatay: düz kayar)",
+   "taban": "(plano inclinado: afasta-se e aproxima-se · horizontal: desliza em linha reta)",
+   "main": "(lançamento oblíquo: afasta-se e aproxima-se · horizontal: desliza em linha reta)",
+   "oneri": "(trajetória em arco: afasta-se e aproxima-se · horizontal: desliza em linha reta)",
+   "neden": "eğik atış yanlış çevrilmiş"
+  },
+  {
+   "tur": "arayuz",
+   "id": "Eğik atış",
+   "taban": "Plano inclinado",
+   "main": "Lançamento oblíquo",
+   "oneri": "Trajetória em arco",
+   "neden": "eğik atış = kavisli uçuş, eğik düzlem değil"
+  },
+  {
+   "tur": "arayuz",
+   "id": "Hareket biçimi: eğik atış uzaklaşıp yaklaşarak gider, yatay düz kayar.",
+   "taban": "Tipo de movimento: o plano inclinado afasta-se e aproxima-se ao deslocar-se; o horizontal desliza em linha reta.",
+   "main": "Tipo de movimento: o lançamento oblíquo afasta-se e aproxima-se ao deslocar-se; o horizontal desliza em linha reta.",
+   "oneri": "Tipo de movimento: a trajetória em arco afasta-se e aproxima-se ao deslocar-se; a horizontal desliza em linha reta.",
+   "neden": "eğik atış yanlış çevrilmiş"
+  },
+  {
+   "tur": "arayuz",
+   "id": "muhtemelen # Şâban # / # Aralık # (TDV 'muhtemelen' der)",
+   "taban": "provavelmente # Şâban # / # de dezembro de # (a TDV diz 'provavelmente')",
+   "main": "provavelmente # Sha'ban # / # de dezembro de # (a TDV diz 'provavelmente')",
+   "oneri": "provavelmente # Şâban # / # de dezembro de # (o TDV diz 'provavelmente')",
+   "neden": "'o TDV' tutarlılığı"
+  },
+  {
+   "tur": "arayuz",
+   "id": "Şâban # (Şubat #)",
+   "taban": "Shaʿban # (fevereiro de #)",
+   "main": "Sha'ban # (fevereiro de #)",
+   "oneri": "Şâban # (fevereiro de #)",
+   "neden": "hicrî ay adı öteki dizelerle tutarlı"
+  },
+  {
+   "tur": "arayuz",
+   "id": "Yatay sınırı: bu km'nin üstündeki geçişler \"yatay\" seçilse de eğik atışla yapılır.",
+   "taban": "Limite horizontal: as transições acima destes km fazem-se em arco inclinado, mesmo com \"horizontal\" selecionado.",
+   "main": "Limite horizontal: as transições acima destes km fazem-se com lançamento oblíquo, mesmo com \"horizontal\" selecionado.",
+   "oneri": "Limite horizontal: as transições acima destes km fazem-se em trajetória em arco, mesmo com \"horizontal\" selecionado.",
+   "neden": "eğik atış terimi tutarlılığı"
+  },
+  {
+   "tur": "arayuz",
+   "id": "🗣️ Nasıl bilirdiniz",
+   "taban": "🗣️ Como se sabia",
+   "main": "🗣️ Como o conheciam",
+   "oneri": "🗣️ Como o recordam?",
+   "neden": "'nasıl bilirdiniz' = merhum hakkında 'nasıl tanırdınız'; anlam yanlış"
+  },
+  {
+   "tur": "devlet",
+   "id": "cobaniler",
+   "taban": "Chobânidas (Çûbânîler)",
+   "main": "Chobânidas (Chubânidas)",
+   "oneri": "Chobânidas (Chûbânidas)",
+   "neden": "Türkçe çoğul eki kalmış"
+  },
+  {
+   "tur": "devlet",
+   "id": "dulefi",
+   "taban": "Dulafidas (Dülefîler / Delefîler / Dulafidler)",
+   "main": "Dulafidas (Delefidas)",
+   "oneri": "Dulafidas",
+   "neden": "parantezde Türkçe çoğul biçimler kalmış"
+  }
+ ],
+ "red": []
+}

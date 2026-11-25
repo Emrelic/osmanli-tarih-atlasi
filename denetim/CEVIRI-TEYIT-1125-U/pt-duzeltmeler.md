@@ -1,0 +1,82 @@
+- arayuz | # (#) — hicrî kesişimin ilk günü: 'interseção hégira' dilbilgisel olarak bozuk
+- arayuz | # Ekim # — meydan savaşı ve şehre giriş (Cengiz #); Halep Kalesi daha sonra düştü, günü verilmiyor · eski t #-#-# ay başı yer tutucuydu: '(Cengiz #)' kaynak yazarı atfı; Gengis (Han) diye çevrilmemeli
+- arayuz | # [hicrî # ∩ # ilk günü, # Mart #; yalnız yıl teyitli, gün teyitsiz]: bozuk söz dizimi, eksik 'de'
+- arayuz | # yıllarına doğru [tahmin; yalnız yıl; gün teyitsiz]: bozuk sıra: 'yıllarına doğru'
+- arayuz | # Mart # — Paskalya Pazartesisi akşamı (Treccani: lunedì di Pasqua #): akşam = noite; küçük harf
+- arayuz | # Temmuz teslim, # Ağustos # giriş (Jülyen): doğal olmayan Türkçe söz dizimi
+- arayuz | # çok önemli · # az önemli: 'az önemli' = pouco importante
+- arayuz | (devlet kronolojisinde toprak ekranın en az #/#'i olacak kadar uzaklaş): 'tu' kipi arayüzün geri kalanıyla çelişiyor
+- arayuz | (toprak değişince harita devletin sınırlarına ZIPLASIN mı — sıçramalıdır, adaptif genişlik bunun yumuşak hâlidir): 'sıçramalıdır' = sarsıntılı; 'sıçramalı' anlamı ters çevrilmiş
+- arayuz | Aynı yuva — mülkiyet değişmiyorsa, o an anılan bir savaş/kuşatma/isyan maddesini gösterir: 'alvéolo' arayüz 'yuva'sı için anlamsız
+- arayuz | Anadolu, Rumeli, Kafkasya… Seçilen bölgeye yakınlaşır.: Brezilya söz dizimi; metin Avrupa Portekizcesi
+- arayuz | Ayarlar hemen uygulanır.: menü adı 'Definições' ile tutarlılık
+- arayuz | Bir maddeye tıklayınca harita o güne gider, değişen yeri gösterir ve ayrıntı penceresi açılır (açıklama, görsel, kaynak). Böylece kronoloji ile harita birbirini doğrular.: Brezilya biçimi; Avrupa Portekizcesi tutarlılığı
+- arayuz | Bu atlas, zaman ilerledikçe devlet sınırlarının nasıl değiştiğini gösterir. Haritanın yanında o günün kronolojisi ve hükümdarı akar: bir madde okuduğunuzda haritada tam o değişimi görürsünüz.: Brezilya 'você' biçimi; tutarlılık
+- arayuz | Bu kutuya bir tarih yazıp Enter tuşuna basın; harita ve kronoloji o güne atlar.: Brezilya biçimi (digite/pressione)
+- arayuz | Bu kutuya bir yer adı yazın: şehir, kale, liman, bölge ya da ülke.: Brezilya biçimi
+- arayuz | Düğmenin üstünde, basınca gideceği hâl yazar: Daralt, Kapat ya da Genişlet. Haritayı büyütmek için sütunu kapatın; aynı düğmeyle geri açılır.: 'üstünde' = düğmenin üzerinde yazar; Brezilya biçimi
+- arayuz | Ekim # (# günlük kuşatma ve baskının ardından): 'baskın' = saldırı/baskın, 'baskı' değil
+- arayuz | Eylül # (Kanunî'nin # Eylül'deki vefatının ardından; gün kaynakta yok): yalın 'Legislador' kimin olduğunu belirtmiyor
+- arayuz | Harita yerinden kıpırdamaz, siz nerede bıraktıysanız orada kalır.: Brezilya 'você' biçimi
+- arayuz | Haritanın şu an gösterdiği gün, dönemin adı ve o gün olan değişim burada yazar. Sağ yanında o günkü toprak alanı ve tarihteki zirveye oranı görünür.: Brezilya biçimi (artikelsiz iyelik)
+- arayuz | Hukukî: yalnız barış antlaşması/protokolle kararlaştırılmış sınırlar. Hukukî + fiilî: hukuken geçersiz olsa da fiilî (işgal/ateşkes) hat varsa o da gösterilir ve renk ona yaslanır.: Brezilya söz dizimi
+- arayuz | K# — Hanedan üyeleri ve vâlide sultanlar: İngilizce çoğul 'sultans' kalıntısı
+- arayuz | Kelimeleri boşlukla ayırarak yazın; hepsi geçen maddeler kalır. Tırnak içindeki ifade tek parça aranır. Büyük/küçük harf ve şapka farkı gözetilmez.: Brezilya biçimi
+- arayuz | Menzil durağı (dolu altın: kaynakla doğrulanmış): 'dolu altın' = dolgu altın rengi; 'parada' Brezilya biçimi
+- arayuz | Milattan önce için eksi ya da MÖ yazın: -# · MÖ # · -#. # milada (MS #) götürür.: Brezilya biçimi; virgül
+- arayuz | MÖ # (# Ekim; Livius): Livius (livius.org) kaynak adı; tarihçi Lívio değil
+- arayuz | MÖ # (# veya # Mayıs; Livius # Mayıs): Livius kaynak adı; Lívio yanlış atıf
+- arayuz | MÖ # (Ocak sonu; Livius # Ocak — tek gün kaynağı): Livius kaynak adı; Lívio yanlış atıf
+- arayuz | MÖ # (Temmuz; Livius c. # Temmuz — tek gün kaynağı): Livius kaynak adı; Lívio yanlış atıf
+- arayuz | MÖ # (Sennacherib yıl #, #. sefer): sıra sayısı eki eksik
+- arayuz | MÖ # (Sennakerib'in #. seferi): sıra sayısı eki eksik
+- arayuz | Nisan sonları # — TDV gün vermiyor: 'TDV' cinsiyeti öteki dizelerde 'o TDV'
+- arayuz | Ne gördün? Ne araştırılsın / düzeltilsin / teyit edilsin? (resim: Ctrl+V ile yapıştır): Brezilya 'você' biçimi
+- arayuz | O gün tahtta kimin oturduğunu, portresini ve saltanat yıllarını gösterir; zaman ilerledikçe kendiliğinden değişir.: Brezilya biçimi
+- arayuz | Olay yerine süzülerek uçar.: Avrupa Portekizcesi 'até ao'
+- arayuz | Olaylar gün gün sıralanır; o anki madde vurgulanır ve zaman ilerledikçe liste kendiliğinden kayar.: Brezilya biçimi
+- arayuz | Oynat düğmesiyle zamanı akıtabilir, İleri düğmesiyle olay olay ilerleyebilir ya da kronolojiden bir maddeye tıklayabilirsiniz.: Brezilya 'você' biçimi
+- arayuz | Oynat, ileri/geri, akış ayarı, sene ve şehir kutuları, zaman kaydırıcısı.: Brezilya biçimi (controle deslizante)
+- arayuz | Renkli alanlar o gündeki devletlerdir; bir yere tıklayınca orası hakkında bilgi açılır. Tarih değiştikçe sınırlar kendiliğinden yeniden çizilir.: Brezilya biçimi; dokunmatik sürümle tutarlılık
+- arayuz | Sürükleyerek zamanda serbestçe gezin; harita bıraktığınız günü gösterir.: Brezilya 'você' biçimi
+- arayuz | Sütunun başlığıdır. Yanındaki sayaç, şu an kaçıncı maddede olduğunuzu ve listede toplam kaç madde bulunduğunu gösterir.: Brezilya 'você' biçimi
+- arayuz | Sütunun tepesindeki seçici, kronolojisini okuyacağınız devleti belirler.: Brezilya 'você' biçimi
+- arayuz | Sürükleyerek kaydırın, fare tekerleğiyle (ya da iki parmakla) yakınlaşın.: Brezilya biçimi (dê zoom)
+- arayuz | Sene yaz git: Brezilya biçimi
+- arayuz | Şehir yaz git: Brezilya biçimi
+- arayuz | Yıl yazın.: Brezilya biçimi
+- arayuz | Örnek: # · # Mayıs # · # · #-#-# · Mayıs # · # · # (milat) · -# ya da MÖ # · -# — yazıp Enter'a basın: Brezilya biçimi
+- arayuz | Yanındaki düğme gelişmiş aramayı açar: VE / VEYA, içerir / başlar / biter, başlıkta ya da metinde.: Brezilya biçimi; arayüzdeki 'começa por/termina em' ile tutarlılık
+- arayuz | Zaman kaydırıcısı: Brezilya biçimi
+- arayuz | İlk işaretlediğiniz devlet odaktır ve hükümdar kartı onunkidir; sonra işaretlediğiniz devletlerin maddeleri de ek olarak listeye katılır. Önem eşikleriyle kaç madde görüneceğini ayarlayabilirsiniz.: Brezilya 'você' biçimi; 'eşik' = limiar
+- arayuz | resimler yükleniyor…: Brezilya biçimi
+- arayuz | TDV'nin menzil maddesi ana kolları sayar,: 'o TDV' tutarlılığı
+- arayuz | XIV. yüzyıl başı — TDV tam tarih vermez: 'o TDV' tutarlılığı
+- arayuz | Şubat # (TDV ay verir, gün bilinmiyor): 'o TDV' tutarlılığı
+- arayuz | Sınırların antlaşmaya göre mi (Hukukî), fiilî duruma göre mi (Hukukî + fiilî) çizileceğini seçer.: düğme etiketleri 'De jure' / 'De jure + de facto'
+- arayuz | eğik: uçuş kipi 'eğik atış' = arc
+- arayuz | flyTo(eğik): eğik atış terimi tutarlılığı
+- arayuz | Yürüyüş ufku — yalnız # gün (A) var; #/# gün bantları: özne-fiil uyumsuzluğu
+- arayuz | ⚠️ Siyasî katman kapalı — tarama şu an görünmüyor.: 'tarama' haritada taralı dolgu; analiz değil
+- arayuz | 🗺 İsyan taraması (Eflak · Boğdan · Erdel): 'tarama' = taralı gösterim
+- arayuz | 📍 ② Yerleşim: uçuş ayarındaki 'Yerleşim' = olay yerinin ekrandaki konumu, iskân değil
+- arayuz | ⚙ Kronoloji ayarı: menü adı 'Definições' tutarlılığı
+- arayuz | — ⚙ Ayarlar › Devletlerin dünya kronolojilerini göster: menü adı '⚙ Definições'
+- devlet | kacar-esterabad: 'Dinastia Cajar' ile tutarlılık
+- devlet | trablusgarp-ocagi: tanımlık eksik
+- devlet | sih-imparatorlugu: Sih konfederasyonu kaydıyla yazım tutarlılığı
+- devlet | kutlughanli: Türkçe çoğul eki kalmış
+- devlet | mengucuklu: Türkçe çoğul eki kalmış; Saltúquidas ile uyumlu
+- devlet | ifraniler-tilimsan: Türkçe çoğul eki kalmış
+- devlet | lombardiya-venedik: Avrupa Portekizcesi vurgu
+- devlet | andorra: imla (yeni yazım)
+- devlet | kiev-knezligi-litvanya: 'Rus' de Kiev' ile tutarlılık
+- devlet | galya-imp: vurgu eksik
+- devlet | kusan: cinsiyet uyumu
+- devlet | hivite-afrigid: cinsiyet uyumu (a Corásmia)
+- devlet | magrave-sicilmase: Fes emirliği kaydıyla yazım tutarlılığı
+- devlet | soissons-devleti: vurgu yanlış yerde
+- devlet | brandenburg-markgrafligi: standart 'margraviado'; Brandeburgo tutarlılığı
+- devlet | moravya-markgraflik: standart yazım 'margraviado'
+- devlet | thuringia-landgrafligi: standart yazım ('Margraviado' ile uyumlu)
+- devlet | hessen-landgrafligi: standart yazım
