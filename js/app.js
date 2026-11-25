@@ -13059,6 +13059,10 @@ function obGoster(o) {
   // portre yine Fatih'in olmalı. `vefat_id` varsa bulanık yola hiç girilmez.
   var gorsel = document.getElementById("ob-gorsel");
   gorsel.innerHTML = "";
+  // Emre, 26 Kasım 2026: "resim alanı dolu değil ise gösterilmesin." Eskiden
+  // resim yokken ⚔/📜/☾ yer tutucu rozet basılıyordu; artık kutu gizlenir,
+  // başlık sola yaslanır. Yalnız gerçek resim YÜKLENİRSE kutu görünür.
+  gorsel.classList.add("gizli");
   var vefatKisi = o.vefat_id ? vefatKisiBul(o.vefat_id) : null;
   var pad = null, padBelirli = false;
   if (vefatKisi) {
@@ -13085,15 +13089,15 @@ function obGoster(o) {
     // Portre yoksa (K2-K5'te bugün hep böyle) boş bir "?" değil, kişinin
     // TÜRÜNE göre bir rozet — vefat_id yolundaysa `tur` alanından, aksi
     // hâlde padişah her zaman aynı ay simgesini kullanır (eski davranış).
-    var rozetGlif = vefatKisi ? (KARTVIZIT_ROZET[vefatKisi.tur] || "☾") : "☾";
-    img.onerror = function () { gorsel.innerHTML = '<span class="ob-rozet">' + rozetGlif + '</span>'; };
+    // (26 Kasım 2026) Portre dosyası yoksa rozet de basılmaz: kutu gizli kalır.
+    // Yükleme geç bitip kullanıcı başka maddeye geçtiyse eski resim kutuyu açmasın.
+    img.onload = function () { if (img.parentNode === gorsel) gorsel.classList.remove("gizli"); };
+    img.onerror = function () { if (img.parentNode === gorsel) { gorsel.innerHTML = ""; gorsel.classList.add("gizli"); } };
     gorsel.appendChild(img);
     var alt = document.createElement("div");
     alt.className = "ob-gorsel-ad";
     alt.textContent = pad.ad;
     gorsel.appendChild(alt);
-  } else {
-    gorsel.innerHTML = '<span class="ob-rozet">' + (o.k === "savas" ? "⚔" : o.k === "antlasma" ? "📜" : "☾") + '</span>';
   }
 
   document.getElementById("ob-detay").textContent = paragrafla(o.d);
