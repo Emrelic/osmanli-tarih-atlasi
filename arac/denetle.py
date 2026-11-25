@@ -4143,11 +4143,8 @@ BILINEN_AYRI = {
     # 📌 Ve bu, `§4`ün "gün bilinmiyorsa YYYY-01-01 yaz" kuralının
     #    ÖNGÖRÜLEBİLİR yan etkisi: kural doğru, ama mükerrer avcısına
     #    her yıl için sahte bir küme üretiyor. Kusur maddede DEĞİL.
+    # 🗑 SİLİNDİ 26 Kasım 2026 (post-it #193): Fort George maddesinin başlığı değişti (iki girdi öldü).
     ("Fort Dearborn kuruldu — Chicago geçidinde ABD karakolu",
-     "Fort George (Chisasibi) kuruldu — James Körfezi'nin doğu kıyısı"),
-    ("Fort Dearborn kuruldu — Chicago geçidinde ABD karakolu",
-     "Fort William kuruldu — Kuzeybatı Şirketi'nin iç merkezi"),
-    ("Fort George (Chisasibi) kuruldu — James Körfezi'nin doğu kıyısı",
      "Fort William kuruldu — Kuzeybatı Şirketi'nin iç merkezi"),
     ("Fort Halkett kuruldu — Liard boyunca kürk hattı",
      "Fort Pitt kuruldu — Kuzey Saskatchewan'da bizon eti ve kürk merkezi"),

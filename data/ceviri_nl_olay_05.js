@@ -1,6 +1,7 @@
 /* ÇEVİRİ nl · olay — arac/ceviri.py ile YAZILDI, elle düzenleme: py arac/ceviri.py uygula.
    Kayıt: id → [metin, kaynak_ozet] (olayda alan başına). Tasarım: denetim/CEVIRI-1103/TASARIM.md */
 Ceviri.ekle("nl","olay",{
+"OLAYLAR_LAB19_BOS_1119:1551-01-01:0":{"b": ["De regio Barqa kwam tijdens de Tripoli-veldtocht van 1551 onder Ottomaanse heerschappij", "e2d7e52c"], "d": ["Tijdens de Tripoli-veldtocht van 1551 kwam de regio Barqa onder Ottomaanse heerschappij.", "a4de9dc5"]},
 "OLAYLAR_LAB19_BOS_1119:1578-01-01:0":{"b": ["Benghazi werd definitief in het Ottomaanse bestuur opgenomen", "d50b0ffb"], "d": ["Nadat Barqa in 1551 onder Ottomaanse heerschappij was gekomen, werd Benghazi in 1578 definitief in het Ottomaanse bestuur opgenomen; daarna bleef het als sandjak van de provincie Tripoli in de 17e eeuw onder het bestuur van de deys en in de 18e eeuw onder dat van de familie Karamanli.", "e56ee4c8"]},
 "OLAYLAR_LAB19_BOS_1119:1688-01-01:0":{"b": ["Riyad onder het bestuur van de familie Abu Zar'a van de Banu Hanifa", "021a6f1c"], "d": ["Vanaf 1099 (1688) werd Riyad bestuurd door de familie Abu Zar'a van de Banu Hanifa, terwijl het naburige emiraat Diriyya aan de Saoedis overging.", "ba2e75f1"]},
 "OLAYLAR_LAB19_BOS_1119:1726-01-01:0":{"b": ["Muhammad ibn Saud begon in Diriyya als onafhankelijk emir te regeren", "e76002ec"], "d": ["Muhammad ibn Saud, een nazaat van Mani' ibn Rabi'a en de emir naar wie de huidige Saoedische dynastie is genoemd, begon in 1726 onafhankelijk te regeren in Diriyya en omgeving.", "2dadd98a"]},

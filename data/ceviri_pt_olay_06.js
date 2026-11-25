@@ -1,6 +1,7 @@
 /* ÇEVİRİ pt · olay — arac/ceviri.py ile YAZILDI, elle düzenleme: py arac/ceviri.py uygula.
    Kayıt: id → [metin, kaynak_ozet] (olayda alan başına). Tasarım: denetim/CEVIRI-1103/TASARIM.md */
 Ceviri.ekle("pt","olay",{
+"OLAYLAR_ORTACAG_IRAN_TURAN:1221-03-01:0":{"b": ["Celâleddin retirou-se de Nîşâbur para Ghazni", "dfb73f5b"], "d": ["Celâleddin, que chegara a Nîşâbur, foi para uma fortaleza perto de Zevzen e dali para Ghazni (Muharram 618 / março de 1221); em Ghazni reuniu forças contra os Mongóis e derrotou unidades mongóis.", "c60466f3"]},
 "OLAYLAR_ORTACAG_IRAN_TURAN:1221-11-26:0":{"b": ["Celâleddin foi obrigado a refugiar-se na Índia (para lá do Indo) diante dos Mongóis", "6ffea366"], "d": ["Celâleddin, apesar de derrotar os Mongóis sucessivamente, refugiou-se na Índia a 9 Shawwal 618 (26 de novembro de 1221); no início de 1224 deixou-a e foi para Kirman.", "84a56478"]},
 "OLAYLAR_ORTACAG_IRAN_TURAN:1224-01-01:0":{"b": ["Celâleddin chegou da Índia a Kirman; o senhor de Kirman, Barak Hâcib, declarou-lhe lealdade", "265a9755"], "d": ["Celâleddin, que deixou a Índia no início do ano 1224, foi para Kirman; o senhor da região, Barak Hâcib, declarou-lhe lealdade.", "9b40242e"]},
 "OLAYLAR_ORTACAG_IRAN_TURAN:1230-01-01:0":{"b": ["Celâleddin foi derrotado em Yassıçimen pelo sultão seljúcida da Anatólia Alâeddin Keykubad I", "53116a7a"], "d": ["Celâleddin, que lutava contra o califa Nâsır-Lidînillâh, os Georgianos e os Ismailitas, desentendeu-se com Alâeddin Keykubad I e em 1230 perdeu a batalha de Yassıçimen; refugiou-se perto de Âmid.", "a83ad4c7"]},
