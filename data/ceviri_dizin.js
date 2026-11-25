@@ -647,7 +647,7 @@ window.CEVIRI_DIZIN = {
    ],
    [
     "ceviri_el_devlet.js",
-    "36390e5d"
+    "7cdfbc02"
    ],
    [
     "ceviri_el_olay_01.js",
@@ -655,7 +655,7 @@ window.CEVIRI_DIZIN = {
    ],
    [
     "ceviri_el_olay_02.js",
-    "dd7bc5cd"
+    "de3ecd05"
    ],
    [
     "ceviri_el_olay_03.js",
