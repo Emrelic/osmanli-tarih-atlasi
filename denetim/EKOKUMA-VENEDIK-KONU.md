@@ -233,6 +233,29 @@ Atlanan: 1646'da satılığa çıkan soyluluk (metin yalnız çok uzun bölümle
 | 1582-01-01 Correzione | kriz Ekim 1582; ek kurul 1583'te kaldırıldı |
 | 1615-01-01 Uskok Savaşı | Aralık 1615 - 26 Eylül 1617 |
 
+## 5. 04. parti (`data/ekokuma_dev_venedik_04.js`, 16 kart, hepsi `teyitli`)
+
+Polesella için iki ajan ayrı kart yazdı (görev listesi çakıştı); birleştirilmeden biri çıkarıldı.
+Yazılamayanlar: Ümit Burnu (bölüm çok uzun, okunmadı) · 1529 Bologna Barışı (okunan maddelerde
+Venedik tarafı yok; ilgili uzun madde okunmadı) · 1797 Lido (uygun madde bulunamadı; bir 1912
+yayını bağlantı hatasıyla inmedi) · 1477 Friuli akınları (ölçüte uyan metin okunmadı) · Knin
+(denenen biyografide yok) · 1299 Milano ve 1281 Orvieto (yeterince aranmadı) · bir PDF 403 verdi.
+Bu turda denenmeyen yedekler: Treviso 1339, 1409 Dalmaçya'nın satın alınması.
+
+| Madde | Okunan kaynağın söylediği (düzeltilmedi, takip işi) |
+|---|---|
+| 1500-08-10 Modon ve Koron | bir biyografi 9 Ağustos; TDV yalnız ay |
+| 1509-12-22 Polesella | bir biyografi 21 Aralık, bir başkası 22 Aralık |
+| 1420-10-01 Friuli'nin fethi | gün doğrulanmadı; Udine'ye giriş 6 Haziran |
+| 1381-08-08 Torino Barışı | gün okunan metinlerde yok |
+| 1428-01-01 Brescia ve Bergamo | Ferrara Barışı 19 Nisan 1428 |
+| 1495-07-06 Fornovo | bir biyografi 5-6 Temmuz |
+| 1499-08-12 Sapienza | `ekokuma_dunya.js` bağ anahtarı 28 Ağustos |
+| 1645-08-22 Hanya | TDV 19 Ağustos |
+| 1684-03-05 Kutsal İttifak | 5 Mart gayriresmî sonuç, 6 Mart imza |
+| 1211-09-10 Girit fermanı | kaynaklar yalnız Eylül; 10 Eylül ve "Carta" adı geçmiyor |
+| 1656-06-26 Çanakkale | biyografiler gün konusunda ayrışıyor (23 / 26 Haziran) |
+
 ## Ek: kronoloji envanteri (283 satır)
 
 Süzgeç: dosya ya da kayıt Venedik’e ait olanlar ile başlığında Venedik veya bir Venedik soyadı geçenler. Süzgeç başlığa baktığı için başlıkta adı geçmeyen ortak maddeler listede olmayabilir; listeye yalnız anılan maddeler de girmiştir.
