@@ -1,10 +1,13 @@
 Afşar	Afshar
 Akkoyunlu	Aq Qoyunlu
 Akkâ	Acre
+Altın Orda	Kim Trướng hãn quốc
 Anadolu	Anatolia
 Antlaşma	hiệp ước
+Arnavutluk	Albania
 Atina	Athens
 Avlonya	Vlorë
+Avusturya	Áo
 Azak	Azov
 Balkanlar	Balkan
 Bağdat	Baghdad
@@ -16,37 +19,46 @@ Boğdan	Moldavia
 Budin	Buda
 Bulgaristan	Bulgaria
 Bâb-ı Âli	Bâb-ı Âli (Sublime Porte)
+Bâbürlü	Mughal
 Bükreş	Bucharest
 Cebrî	Jabri
 Cemâziyelevvel	Jumada I
 Cemâziyelâhir	Jumada II
 Ceneviz	Genoa
+Cenova	Genova
 Cihan Şah	Jahan Shah
 Devlet	quốc gia
 Dimetoka	Didymoteicho
 Draç	Durrës
 Duşan	Dušan
+Dükalık	công quốc
 Eflak	Wallachia
+Emirlik	tiểu vương quốc
 Erdel	Transylvania
 Eski Zağra	Stara Zagora
 Estergon	Esztergom
 Eğriboz	Negroponte
+Fas	Maroc
 Fatih	Nhà Chinh phục
 Fatih	Sultan Chinh phục
 Fetret Devri	Thời kỳ Đứt quãng
 Fetret Devri	Thời kỳ Đứt đoạn (Fetret)
 Filibe	Plovdiv
+Floransa	Firenze
 Gelibolu	Gallipoli
 Gence	Ganja
 Girit	Crete
 Gregoryen takvimi	lịch Gregorius
 Gümülcine	Komotini
 Gürcistan	Gruzia
+Habeşistan	Abyssinia
 Halep	Aleppo
+Hanlık	hãn quốc
 Hanya	Chania
 Hayır Bey	Khayr Bey
 Haçlı	Thập tự chinh
 Hicaz	Hejaz
+Hilâfet	nhà nước Khalip
 I. Murad	Murad I
 II. (Çar) Petro	Pyotr I
 Jülyen takvimi	lịch Julius
@@ -56,9 +68,13 @@ Kandiye	Candia
 Kangxi	Khang Hy
 Kanunî Sultan Süleyman	Suleiman Nhà Lập pháp
 Kanûnî Süleyman	Süleyman Lập pháp
+Karadağ	Montenegro
 Karadeniz	Biển Đen
 Karamanoğulları	nhà Karaman
 Karlofça	Karlowitz
+Kağanlık	hãn quốc
+Knezlik	công quốc
+Kontluk	bá quốc
 Kronoloji	niên biểu
 Kudüs	Jerusalem
 Kutsal İttifak	Liên minh Thần thánh
@@ -67,11 +83,13 @@ Kıbrıs	Síp
 Kırım	Crimea
 Lehistan	Ba Lan
 Limni	Lemnos
+Litvanya	Litva
 Lâle Devri	Thời đại Hoa Tulip
 MS	SCN
 Macaristan	Hungary
 Magosa	Famagusta
 Manastır	Bitola / Monastir
+Markgraflık	bá quốc biên cương
 Meclis-i Meb'ûsan	Meclis-i Meb'ûsan (Hạ viện)
 Medine	Medina
 Mehdî	Mahdi
@@ -79,14 +97,17 @@ Mekke	Mecca
 Memlûk	Mamluk
 Mercidabık	Marj Dabiq
 Meriç	sông Maritsa
+Milano	Milano
 Millî Mücadele	cuộc Đấu tranh Dân tộc
 Mohaç	Mohács
 Mora	Morea
+Moskova	Moskva
 Mustafa Kemal Paşa	Mustafa Kemal Pasha
 Musul	Mosul
 MÖ	TCN
 Mısır	Ai Cập
 Nahcivan	Nakhchivan
+Napoli	Napoli
 Niğbolu	Nicopolis
 Niş	Niš
 Osmanlı	Ottoman
@@ -110,10 +131,12 @@ Safevî	Safavid
 Sakız	Chios
 Sayda	Sidon
 Selanik	Thessaloniki
+Selçuklu	Seljuk
 Semendire	Smederevo
 Serez	Serres
 Silistre	Silistra
 Sofya	Sofia
+Sultanlık	vương quốc Hồi giáo
 Sırbistan	Serbia
 TBMM	Đại Quốc hội Thổ Nhĩ Kỳ
 Tebriz	Tabriz
@@ -136,6 +159,7 @@ Yayça	Jajce
 Yaş	Iași
 Yeniçeri	Janissary
 Yerleşim	điểm định cư
+Yunanistan	Hy Lạp
 Yıldırım Bayezid	Bayezid "Sấm Sét"
 Zigetvar	Szigetvár
 Zilhicce	Dhu'l-Hijja
@@ -145,9 +169,11 @@ beylik	công quốc
 padişah	sultan
 sancak	sancak
 Çaldıran	Chaldiran
+Çağatay	Sát Hợp Đài
 Çirmen	Chernomen (Çirmen)
 Özi	Özi (Ochakov)
 Üsküp	Skopje
+İlhanlı	Hãn quốc Y Nhi (Ilkhanate)
 İnebahtı	Lepanto
 İran	Iran
 İskenderiye	Alexandria
