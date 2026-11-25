@@ -13,4 +13,7 @@ Tamamen okunan: 4_olay_007 - 4_olay_036 (30 paket, aralık tamam). Her paketteki
 Düzeltme dosyaları: duzeltme_a_001 - 008.jsonl
 
 == ilerleme_b.txt
-Tamamen okunan: 4_olay_037-048
+Tamamen okunan: 4_olay_037-066 (30/30 paket; aralık tamam)
+
+== ilerleme_c.txt
+Okunan paketler: 4_olay_067-089 (tamamı)

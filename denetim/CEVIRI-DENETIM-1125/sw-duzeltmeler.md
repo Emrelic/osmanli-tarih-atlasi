@@ -239,3 +239,315 @@
 - olay | OLAYLAR_EK10:1484-08-04:0 | d: Türkçe -lik ekli kalıntı
 - olay | OLAYLAR_EK10:1594-08-28:0 | d: dilbilgisi uyumsuzluğu
 - olay | OLAYLAR_EK10:1594-11-01:0 | d: Türkçe 'beyliği' kalıntısı
+- olay | OLAYLAR_EK2:1557-10-16:0 | d: yazım hatası ve kopuk cümle
+- olay | OLAYLAR_EK2:1462-06-01:0 | b: edilgen kullanılmış (kazığa oturtulan değil, oturtan)
+- olay | OLAYLAR_EK2:1390-01-15:0 | d: 'despotluk' krallık diye çevrilmiş
+- olay | OLAYLAR_EK2:1557-10-16:0 | d: 'klasik dönem' 'sıradan dönem' (kawaida) diye çevrilmiş
+- olay | OLAYLAR_EK2:1390-01-15:0 | d: despotluk 'krallık' olmuş; vasallık ilişkisi anlaşılmıyor
+- olay | OLAYLAR_EK2:1462-06-01:0 | b: edilgen yapı 'kazığa oturtulan voyvoda' anlamı veriyor
+- olay | OLAYLAR_EK7:1638-06-01:0 | d: 'sürgün' anlamı kaybolmuş; Türkçe 'Cezayir' kalıntısı
+- olay | OLAYLAR_EK10:1595-10-01:0 | d: 'akıncılar' (Osmanlı) 'istilacılar' diye çevrilmiş
+- olay | OLAYLAR_EK10:1713-06-24:0 | d: bozuk cümle
+- olay | OLAYLAR_EK10:1877-04-24:0 | d: 'cephe' ve Karadağ = Montenegro
+- olay | OLAYLAR_EK10:1877-06-27:0 | d: 'kol' (askerî) 'mikono' diye çevrilmiş
+- olay | OLAYLAR_EK10:1877-07-19:0 | d: Karadağ = Montenegro
+- olay | OLAYLAR_EK10:1877-11-18:0 | b: 'cephe' 'mstari' diye çevrilmiş
+- olay | OLAYLAR_EK10:1877-11-18:0 | d: 'kol' (askerî) 'mikono' diye çevrilmiş
+- olay | OLAYLAR_EK10:1912-10-08:0 | b: Karadağ = Montenegro
+- olay | OLAYLAR_EK10:1912-10-08:0 | d: Karadağ = Montenegro; dilbilgisi
+- olay | OLAYLAR_EK10:1912-10-20:0 | b: Türkçe 'Rodoplar' kalıntısı
+- olay | OLAYLAR_EK10:1912-10-20:0 | d: Türkçe 'Rodoplar' kalıntısı
+- olay | OLAYLAR_EK10:1912-10-23:1 | d: Karadağ = Montenegro
+- olay | OLAYLAR_EK10:1912-11-08:0 | d: 'en büyük liman şehri' 'liman başkenti' olmuş
+- olay | OLAYLAR_EK10:1476-02-01:0 | d: Türkçe 'banlık' kalıntısı
+- olay | OLAYLAR_EK10:1806-01-26:0 | d: bozuk dilbilgisi ('sharti la kikosi la amri')
+- olay | OLAYLAR_EK10:1457-01-01:0 | d: Karadağ = Montenegro
+- olay | OLAYLAR_EK10:1465-01-01:0 | b: İngilizce 'Dukedom' kalıntısı
+- olay | OLAYLAR_EK10:1465-01-01:0 | d: İngilizce 'dukedom' kalıntısı
+- olay | OLAYLAR_EK10:1469-01-01:0 | d: İngilizce 'Dukedom' kalıntısı
+- olay | OLAYLAR_EK10:1512-01-01:0 | b: Türkçe 'banlık' kalıntısı
+- olay | OLAYLAR_EK10:1512-01-01:0 | d: Türkçe 'banlık' kalıntısı
+- olay | OLAYLAR_EK11:1401-01-01:0 | d: dilbilgisi
+- olay | OLAYLAR_EK11:1422-01-01:0 | d: Türkçe 'beyliği' kalıntısı
+- olay | OLAYLAR_EK11:1502-01-01:0 | d: 'amcazadesi' = kuzeni, 'babasının kuzeni' değil
+- olay | OLAYLAR_EK11:1503-01-01:0 | d: 'bu tek savaşla' 'bu iki savaşla' olmuş
+- olay | OLAYLAR_EK11:1508-01-01:0 | d: dilbilgisi
+- olay | OLAYLAR_EK12:1560-07-30:0 | d: Türkçe 'beylerbeylik' kalıntısı
+- olay | OLAYLAR_EK12:1537-01-01:0 | b: İngilizce 'Dukedom' kalıntısı
+- olay | OLAYLAR_EK12:1537-01-01:0 | d: İngilizce 'dukedom' kalıntısı
+- olay | OLAYLAR_EK13:1569-01-01:0 | d: Türkçe 'beylerbeylik' kalıntısı ve uyum hatası
+- olay | OLAYLAR_EK13:1521-01-01:0 | d: 'çoğunlukla' = mara nyingi; 'kwa wingi' yanlış
+- olay | OLAYLAR_EK13:1559-01-01:0 | d: 'takviye' = takviye kuvvet; uyum hatası
+- olay | OLAYLAR_EK13:1717-01-01:0 | d: 'karışık' = çalkantılı
+- olay | OLAYLAR_EK13:1517-05-01:0 | d: 'takviye' = takviye kuvvet
+- olay | OLAYLAR_EK14:1538-01-01:0 | d: Türkçe -lık kalıntısı
+- olay | OLAYLAR_EK14:1567-01-01:0 | d: 'denizler selden zarar gördü' gibi okunuyor
+- olay | OLAYLAR_EK14:1505-10-13:0 | d: 'anıt' = anıtsal yapı; 'makumbusho' müze demek
+- olay | OLAYLAR_EK14:1573-01-01:0 | d: damat 'kuzen' olmuş; 'Sinan'a yaptırdı' 'Sinan için yaptı' olmuş
+- olay | OLAYLAR_EK14:1547-01-01:0 | d: 'Sinan'a yaptırdığı' 'Sinan için yaptığı' diye ters çevrilmiş
+- olay | OLAYLAR_EK14:1755-12-05:0 | d: bozuk cümle
+- olay | OLAYLAR_EK14:1695-01-01:0 | d: bozuk anlatım
+- olay | OLAYLAR_EK6:1830-07-05:0 | b: Türkçe 'Cezayir' = Algeria
+- olay | OLAYLAR_EK6:1830-07-05:0 | d: Türkçe 'Cezayir' = Algeria
+- olay | OLAYLAR_EK6:1831-01-04:0 | d: Türkçe 'Cezayir' = Algeria
+- olay | OLAYLAR_EK6:1832-03-01:0 | d: Türkçe 'Cezayir' = Algeria
+- olay | OLAYLAR_EK6:1833-09-29:0 | d: Türkçe 'Cezayir' = Algiers/Algeria
+- olay | OLAYLAR_EK6:1854-12-02:0 | b: Türkçe 'Cezayir' = Algeria
+- olay | OLAYLAR_EK6:1854-12-02:0 | d: Türkçe 'Cezayir' = Algeria
+- olay | OLAYLAR_EK7:1534-04-06:0 | d: Türkçe 'Cezayir' = Algeria
+- olay | OLAYLAR_EK15:1857-07-11:0 | d: Türkçe 'Cezayir' = Algeria
+- olay | OLAYLAR_EK14:1812-01-01:0 | d: Türkçe -lık kalıntısı
+- olay | OLAYLAR_EK14:1566-09-30:0 | d: bozuk söz dizimi
+- olay | OLAYLAR_EK14:1534-12-04:0 | d: uyum hatası
+- olay | OLAYLAR_EK14:1718-01-01:0 | d: 'nükteli' (esprili) 'nokta'lı; 'yerlileşme' 'komşuluk' olmuş
+- olay | OLAYLAR_EK14:1504-01-01:0 | b: güreşçi = mwanamieleka; 'mpiganaji' savaşçı
+- olay | OLAYLAR_EK14:1504-01-01:0 | d: güreşçi = mwanamieleka
+- olay | OLAYLAR_EK14:1425-01-01:0 | b: Türkçe -lık kalıntısı ve uydurma 'ufutiwa'
+- olay | OLAYLAR_EK14:1425-01-01:0 | d: Türkçe -lık kalıntısı ve uydurma 'ufutiwa'
+- olay | OLAYLAR_EK14:1555-06-01:0 | d: nesne uyumu hatası
+- olay | OLAYLAR_EK15:1610-01-01:0 | d: Türkçe 'emirlik' kalıntısı
+- olay | OLAYLAR_EK15:1689-01-01:0 | d: 'seksen yıl önce' o tarihe göre; 'iliyopita' bugüne göre
+- olay | OLAYLAR_EK15:1899-12-29:0 | d: Türkçe 'Cezayir' = Algeria
+- olay | OLAYLAR_EK15:1901-02-21:0 | d: Türkçe 'Cezayir' = Algeria
+- olay | OLAYLAR_EK15:1903-11-11:0 | d: Türkçe 'Cezayir' = Algeria
+- olay | OLAYLAR_EK15:1659-01-01:0 | d: 'hiç bağlanmayan' bozuk çevrilmiş; İsmail küçük kardeş (kaka değil)
+- olay | OLAYLAR_EK16:1310-08-15:0 | d: 'takviye' = takviye kuvvet
+- olay | OLAYLAR_EK16:1438-01-01:0 | b: Türkçe 'Hanlık' kalıntısı
+- olay | OLAYLAR_EK16:1438-01-01:0 | d: Türkçe 'hanlık' kalıntısı
+- olay | OLAYLAR_EK16:1441-01-01:0 | b: Türkçe 'Hanlık/Kırım' kalıntısı
+- olay | OLAYLAR_EK16:1441-01-01:0 | d: Türkçe 'Hanlık/Kırım' kalıntısı
+- olay | OLAYLAR_EK16:1450-01-01:0 | d: Uzun Hasan küçük kardeş; 'kaka' ağabey demek
+- olay | OLAYLAR_EK16:1797-10-17:0 | d: Türkçe 'İyon' kalıntısı
+- olay | OLAYLAR_EK16:1527-01-01:0 | d: 'dönüm noktası' 'kaya' (mwamba) olmuş
+- olay | OLAYLAR_EK16:1905-01-01:0 | b: Türkçe 'Şirketi' kalıntısı
+- olay | OLAYLAR_EK16:1489-02-26:0 | d: Türkçe 'kontlik' kalıntısı
+- olay | OLAYLAR_EK16:1561-11-28:0 | d: İngilizce 'Dukedom' kalıntısı
+- olay | OLAYLAR_EK16:1714-03-07:0 | d: 'cephe' 'mstari' diye çevrilmiş
+- olay | OLAYLAR_EK16:1815-06-09:0 | d: İngilizce 'Dukedom' ve Türkçe 'Varşova' kalıntısı
+- olay | OLAYLAR_EK16:1654-01-18:0 | d: Türkçe 'Hetmanlık' kalıntısı
+- olay | OLAYLAR_EK16:1891-01-01:0 | d: Türkçe ülke adı (Kuveyt)
+- olay | OLAYLAR_EK16:1492-01-02:0 | d: Türkçe 'Emirliği' kalıntısı
+- olay | OLAYLAR_EK16:1797-06-14:0 | d: İngilizce 'Dukedom' kalıntısı
+- olay | OLAYLAR_EK16:1453-10-19:0 | d: bozuk fiil
+- olay | OLAYLAR_EK16:1866-10-18:0 | b: bozuk devlet adı
+- olay | OLAYLAR_EK16:1916-11-03:0 | d: Türkçe sıra sayısı kalmış
+- olay | OLAYLAR_EK16:1335-05-01:0 | d: İngilizce 'Dukedom' kalıntısı
+- olay | OLAYLAR_EK16:1313-01-01:0 | b: 'şövalye' 'kahraman' diye çevrilmiş
+- olay | OLAYLAR_EK16:1313-01-01:0 | d: 'şövalye' ve Türkçe 'komturluk' kalıntısı
+- olay | OLAYLAR_EK16:1943-08-05:0 | d: 'çıkıntı' (cephe çıkıntısı) 'yükselti' olmuş
+- olay | OLAYLAR_EK16:1941-07-28:0 | b: yazım hatası
+- olay | OLAYLAR_EK16:1944-09-22:0 | b: fiil uyumu
+- olay | OLAYLAR_EK16:1945-05-08:0 | b: İngilizce kalıntı
+- olay | OLAYLAR_EK16:1795-03-28:0 | b: İngilizce 'Dukedom' kalıntısı
+- olay | OLAYLAR_EK16:1915-08-01:0 | d: İngilizce 'dukedom' kalıntısı
+- olay | OLAYLAR_EK16:1304-01-01:0 | d: 'yaklaştırdı' = sogeza; 'karibisha' hoş karşılamak
+- olay | OLAYLAR_EK16:1955-12-01:0 | d: bozuk anlatım
+- olay | OLAYLAR_EK17:1617-11-22:0 | b: 'dalgın bakışlı' yanlış anlam
+- olay | OLAYLAR_EK17:1632-01-01:0 | b: 'güreşçi bileği' anlamsız çevrilmiş
+- olay | OLAYLAR_EK17:1632-01-01:1 | d: 'kol' ve Türkçe 'sipahilik' kalıntısı
+- olay | OLAYLAR_EK17:1731-01-01:0 | d: 'sürgün' anlamı kaybolmuş
+- olay | OLAYLAR_EK17:1552-01-01:0 | b: Türkçe 'Ocaklık/Cezayir' kalıntısı
+- olay | OLAYLAR_EK17:1552-01-01:0 | d: Türkçe 'Ocaklık/Cezayir' kalıntısı
+- olay | OLAYLAR_EK17:1557-01-01:0 | d: Türkçe 'Habeşistan' kalıntısı
+- olay | OLAYLAR_EK17:1686-08-30:0 | b: 'dönüm noktası' 'kaya' olmuş
+- olay | OLAYLAR_EK17:1800-04-02:0 | b: Türkçe 'İyon' kalıntısı
+- olay | OLAYLAR_EK17:1800-04-02:0 | d: Türkçe 'İyon' kalıntısı
+- olay | OLAYLAR_EK17:1815-11-05:0 | b: Türkçe 'İyon' kalıntısı
+- olay | OLAYLAR_EK17:1815-11-05:0 | d: Türkçe 'İyon' kalıntısı; uyum
+- olay | OLAYLAR_EK20:1887-01-07:0 | b: Türkçe 'Emirliği/Habeş' kalıntısı
+- olay | OLAYLAR_EK20:1887-01-07:0 | d: Türkçe 'emirlik/Habeş/Habeşistan' kalıntısı
+- olay | OLAYLAR_EK20:1489-03-04:0 | d: Cem küçük kardeş; 'kaka' (ağabey) yanlış
+- olay | OLAYLAR_EK20:1807-07-09:0 | b: İngilizce 'Dukedom' ve Türkçe 'Varşova'
+- olay | OLAYLAR_EK20:1807-07-09:0 | d: İngilizce 'Dukedom', Türkçe 'Varşova', bozuk cümle
+- olay | OLAYLAR_EK20:1648-10-24:0 | d: uyum hatası; 'cephe' 'mstari' olmuş
+- olay | OLAYLAR_EK21:1509-01-01:0 | d: Türkçe 'beylerbeylik' kalıntısı
+- olay | OLAYLAR_EK22:1794-01-01:0 | d: uydurma fiil 'kunatarehe'
+- olay | OLAYLAR_SENKRON_0930:1556-03-12:0 | b: Türkçe 'voyvodalık' kalıntısı
+- olay | OLAYLAR_SENKRON_0930:1556-03-12:0 | d: Türkçe 'voyvodalık' kalıntısı
+- olay | OLAYLAR_SENKRON_0930:1550-09-15:0 | d: özel adda Türkçe yazım kalıntısı (Isabella)
+- olay | OLAYLAR_SENKRON_0930:1557-01-01:0 | d: özel adda Türkçe yazım kalıntısı (Isabella)
+- olay | KRONOLOJI_COK_ARABISTAN2:1538-01-01:0 | d: 'bağlı' yanlışlıkla 'kapatılmış' (iliyofungwa) diye çevrilmiş
+- olay | KRONOLOJI_COK_ARABISTAN2:1659-01-01:0 | b: Türkçe 'imamlık' kalıntısı; 'bağlandı' yanlış (ulifungwa = kapatıldı)
+- olay | KRONOLOJI_COK_ARABISTAN2:1659-01-01:0 | d: Türkçe 'imamlık' kalıntısı
+- olay | KRONOLOJI_COK_ARABISTAN2:1835-01-01:0 | b: Türkçe 'emirliği' kalıntısı
+- olay | KRONOLOJI_COK_ARABISTAN2:1835-01-01:0 | d: Türkçe 'emirlik' kalıntısı
+- olay | OLAYLAR_2S_0918:1569-07-01:0 | d: İngilizce kalıntı (Grand Duchy); devlet adıyla uyum
+- olay | OLAYLAR_2S_0918:1515-04-01:0 | d: eksik ek, bozuk cümle
+- olay | OLAYLAR_2S_0918:1881-03-26:0 | b: 'Prenslik' yanlışlıkla 'kraliyet yönetimi' diye çevrilmiş
+- olay | OLAYLAR_2S_0918:1881-03-26:0 | d: 'Romanya Prensliği' yanlışlıkla 'kraliyet yönetimi' diye çevrilmiş
+- olay | OLAYLAR_2S_0918:1901-09-02:0 | b: Türkçe 'emirliği' kalıntısı
+- olay | OLAYLAR_2S_0918:1901-09-02:0 | d: Türkçe 'emirliği' kalıntısı
+- olay | OLAYLAR_2S_0918:1889-01-01:0 | d: Türkçe 'Habeşistan' kalıntısı
+- olay | OLAYLAR_2S_0918:1899-04-09:0 | b: 'bağlandı' yanlışlıkla 'kapatıldı' diye çevrilmiş
+- olay | OLAYLAR_2S_0918:1897-02-16:0 | b: Türkçe 'emirliği' kalıntısı
+- olay | OLAYLAR_2S_0918:1897-02-16:0 | d: Türkçe 'emirliği/emirlik' kalıntısı
+- olay | OLAYLAR_2S_0918:1853-07-28:0 | b: Türkçe 'Hanlık' kalıntısı; devlet adıyla uyum
+- olay | OLAYLAR_2S_0918:1853-07-28:0 | d: Türkçe 'Hanlık' kalıntısı
+- olay | OLAYLAR_2S_0918:1322-03-01:0 | b: 'Venedik'e bağlandı' yanlışlıkla 'Venedik kapattı' diye çevrilmiş; imla
+- olay | OLAYLAR_2S_0918:1322-03-01:0 | d: imla
+- olay | OLAYLAR_2S_0918:1322-04-17:0 | d: imla
+- olay | OLAYLAR_2S_0918:1776-02-14:0 | d: Türkçe 'ferman' kalıntısı
+- olay | OLAYLAR_2S_0918:1420-06-22:0 | d: Türkçe 'kaptan-ı umumî' kalıntısı
+- olay | OLAYLAR_2S_0918:1358-05-27:0 | b: 'ayrıcalık' yanlışlıkla 'maaş ek ödemeleri' (marupurupu)
+- olay | OLAYLAR_2S_0918:1358-05-27:0 | d: 'ayrıcalık' yanlış çevrilmiş
+- olay | OLAYLAR_2S_0919:1328-01-01:0 | b: tarikat 'Agizo' (emir/talimat) diye yanlış; fiil çekimi
+- olay | OLAYLAR_2S_0919:1328-01-01:0 | d: tarikat 'Agizo' diye yanlış; İngilizce 'Dukedom' kalıntısı
+- olay | OLAYLAR_2S_0919:1371-11-01:0 | d: bozuk cümle
+- olay | OLAYLAR_2S_0919:1500-01-01:0 | d: Türkçe 'Timurlu' kalıntısı
+- olay | OLAYLAR_2S_0919:1535-11-01:0 | d: İngilizce 'Dukedom' kalıntısı
+- olay | OLAYLAR_2S_0919:1544-01-01:0 | d: 'yerleştirildi' yanlışlıkla 'işgal edildi' (ilikaliwa)
+- olay | OLAYLAR_2S_0919:1580-04-10:0 | b: Türkçe 'lokasyon' kalıntısı
+- olay | OLAYLAR_2S_0919:1580-04-10:0 | d: Türkçe 'lokasyon' kalıntısı
+- olay | OLAYLAR_2S_0919:1717-11-30:0 | d: imla (kuporo); 'talan etti' 'ele geçirdi' diye yanlış
+- olay | OLAYLAR_2S_0919:1379-01-01:1 | d: imla (akaliporo)
+- olay | OLAYLAR_2S_0919:1899-01-01:0 | b: bozuk fiil çekimi
+- olay | OLAYLAR_2S_0919:1910-05-31:0 | d: 'bağlı' yanlışlıkla 'kapatılmış' diye çevrilmiş
+- olay | OLAYLAR_2S_0919:1394-04-25:0 | b: imla
+- olay | OLAYLAR_2S_0919:1394-04-25:0 | d: imla ve ngeli uyumu
+- olay | OLAYLAR_2S_0919:1383-01-01:0 | d: Türkçe 'Timurlu' kalıntısı
+- olay | OLAYLAR_AMERIKA0920:1519-03-25:0 | d: tekrar eden sözcük, bozuk cümle
+- olay | OLAYLAR_AMERIKA0920:1520-09-04:0 | d: 'bağlı' yanlışlıkla 'kapatılmış'; askerî yürüyüş 'gezinti' (matembezi) diye çevrilmiş
+- olay | OLAYLAR_AMERIKA0920:1534-12-06:0 | d: 'bağlandı' yanlışlıkla 'kapatıldı'
+- olay | OLAYLAR_AMERIKA0920:1539-08-06:0 | d: 'bağlandı' yanlışlıkla 'kapatıldı'
+- olay | OLAYLAR_2S0920:1913-04-23:0 | b: Türkçe 'Karadağ' kalıntısı; anlam sırası bozuk
+- olay | OLAYLAR_2S0920:1913-04-23:0 | d: Türkçe 'Karadağ' kalıntısı
+- olay | OLAYLAR_2S0920:1913-05-14:0 | b: Türkçe 'Karadağ' kalıntısı
+- olay | OLAYLAR_2S0920:1913-05-14:0 | d: Türkçe 'Karadağ' kalıntısı; 'kurucu idare' bozuk
+- olay | OLAYLAR_2S0920:1913-08-10:0 | b: yerleşik antlaşma adı (Bucharest)
+- olay | OLAYLAR_2S0920:1913-08-10:0 | d: Türkçe 'Karadağ' kalıntısı; yerleşik ad
+- olay | OLAYLAR_2S0920:1913-07-08:0 | d: ngeli uyumu hatası
+- olay | OLAYLAR_2S0920:1920-07-24:0 | d: 'bağlandı' yanlışlıkla 'kapatıldı'
+- olay | OLAYLAR_2S0920:1921-02-01:0 | b: Türkçe 'Emirliği/Ürdün/emîrlik' kalıntısı
+- olay | OLAYLAR_2S0920:1921-02-01:0 | d: Türkçe kalıntı; 'bağlandı' yanlışlıkla 'kapatıldı'
+- olay | OLAYLAR_2S0920:1506-07-08:0 | b: İngilizce kalıntı (dukedom)
+- olay | OLAYLAR_2S0920:1506-07-08:0 | d: İngilizce kalıntı (dukedom); 'öngören' 'öneren' diye
+- olay | OLAYLAR_2S0920:1517-04-15:0 | d: 'bağlı değildi' yanlışlıkla 'kapatılmadı'
+- olay | OLAYLAR_2S0920:1941-05-05:0 | b: Türkçe 'Habeşistan' kalıntısı
+- olay | OLAYLAR_2S0920:1941-05-05:0 | d: Türkçe 'Habeşistan/Habeş' kalıntısı
+- olay | OLAYLAR_2S0920:1902-03-01:0 | b: Türkçe 'emirliği' kalıntısı; 'bağlandı' yanlışlıkla 'kapatıldı'
+- olay | OLAYLAR_2S0920:1902-03-01:0 | d: Türkçe 'emirliği' kalıntısı; 'bağlı' yanlış
+- olay | OLAYLAR_2S0920:1903-02-01:0 | b: Türkçe 'emirliği' kalıntısı
+- olay | OLAYLAR_2S0920:1903-02-01:0 | d: Türkçe 'emirliği' kalıntısı; 'bağlı' yanlış
+- olay | OLAYLAR_SENUSI_0919:1596-05-10:0 | d: kelime kelime çeviri, anlaşılmaz tarih ifadesi
+- olay | OLAYLAR_SESSIZBORC0919:1525-04-08:0 | b: tarikat 'agizo' (emir) diye yanlış; İngilizce 'Dukedom'; bozuk fiil
+- olay | OLAYLAR_SESSIZBORC0919:1525-04-08:0 | d: tarikat 'agizo' diye yanlış; İngilizce 'dukedom'
+- olay | OLAYLAR_P0069:1523-01-01:0 | d: Türkçe 'kapetanlık' kalıntısı
+- olay | OLAYLAR_P0069:1592-01-01:0 | d: 'bağlıydı' yanlışlıkla 'kapatılmıştı'
+- olay | OLAYLAR_P0069:1788-01-01:0 | b: 'cephe' yanlışlıkla 'ön taraf' (mbele)
+- olay | OLAYLAR_P0043KIRIM:1828-06-24:0 | d: anlam ters: kaleyi Osmanlılar kuşatmış gibi okunuyor
+- olay | OLAYLAR_P0048:1592-01-01:0 | d: 'bağlanma' yanlışlıkla 'kapatılma'
+- olay | OLAYLAR_P0048:1603-01-01:0 | d: 'tam olarak bağladı' yanlışlıkla 'kapattı'
+- olay | OLAYLAR_P0049:1303-09-01:0 | d: imla (kuporo)
+- olay | OLAYLAR_P0049:1578-08-09:0 | d: 'bağlandı' yanlışlıkla 'kapatıldı'
+- olay | OLAYLAR_P0049:1595-01-01:0 | d: imla (kuiporo)
+- olay | OLAYLAR_P0049:1787-07-27:0 | b: 'ültimatom' yanlışlıkla 'süre sonu'
+- olay | OLAYLAR_P0049:1920-02-11:0 | d: bozuk fiil (viliwaasisha)
+- olay | OLAYLAR_P0049:1920-09-28:0 | b: 'cephe' yanlışlıkla 'ön taraf' (mbele)
+- olay | OLAYLAR_P0049:1920-09-28:0 | d: 'cephe' yanlışlıkla 'ön taraf' (mbele)
+- olay | OLAYLAR_P0049:1920-10-30:0 | b: 'cephe' yanlışlıkla 'ön taraf' (mbele)
+- olay | OLAYLAR_P0049:1920-10-30:0 | d: 'cephe' yanlışlıkla 'ön taraf' (mbele)
+- olay | OLAYLAR_P0049:1920-11-07:0 | b: 'cephe' yanlışlıkla 'ön taraf' (mbele)
+- olay | OLAYLAR_P0049:1920-11-12:0 | d: 'cephe' yanlışlıkla 'ön taraf' (mbele)
+- olay | OLAYLAR_P0049:1921-02-23:0 | d: 'cephe' yanlışlıkla 'ön taraf' (mbele)
+- olay | OLAYLAR_P0049:1921-03-16:0 | d: 'bağlandı' yanlışlıkla 'kapatıldı'
+- olay | OLAYLAR_P0049:1538-11-27:0 | d: 'bağlı' yanlışlıkla 'kapatılmış'
+- olay | OLAYLAR_P0049:1587-01-01:0 | d: 'bağlandı' yanlışlıkla 'kapatıldı'
+- olay | OLAYLAR_P0049:1579-07-26:0 | d: eksik/bozuk ifade
+- olay | OLAYLAR_P0050:1527-01-01:0 | d: 'bağlandı' yanlışlıkla 'kapatıldı'; sözcük sırası
+- olay | OLAYLAR_P0050:1882-03-06:0 | b: 'prenslik' yanlışlıkla 'idare' (utawala)
+- olay | OLAYLAR_P0050:1882-03-06:0 | d: YANLIŞ YER ADI: Ürküp (Prokuplje) Üsküp (Skopje) yapılmış; 'prenslik' yanlış
+- olay | OLAYLAR_P0051:1480-01-01:0 | d: 'bağlanma' yanlışlıkla 'kapatılma'
+- olay | OLAYLAR_P0052:1884-01-01:0 | b: 'bağlandı' yanlışlıkla 'kapatıldı'
+- olay | OLAYLAR_P0052:1884-01-01:0 | d: 'bağlı' yanlışlıkla 'kapatılmış'
+- olay | OLAYLAR_P0053:1625-01-01:0 | d: 'bağlar' yanlışlıkla 'kapatır'
+- olay | OLAYLAR_P0055:1798-12-25:0 | d: askerî yürüyüş 'gezinti' (matembezi) diye çevrilmiş
+- olay | OLAYLAR_P0056:1810-06-10:0 | d: 'garnizon' yerine 'kale' ; 'fırtınayla' hava fırtınası (dhoruba) diye
+- olay | OLAYLAR_P0056:1806-11-23:0 | b: İngilizce kalıntı
+- olay | OLAYLAR_P0056:1828-05-07:0 | b: İngilizce kalıntı
+- olay | OLAYLAR_P0056:1828-05-07:0 | d: İngilizce kalıntı
+- olay | OLAYLAR_P0056:1853-07-03:0 | b: İngilizce kalıntı
+- olay | OLAYLAR_P0057:1920-03-20:0 | d: 'cephe' yanlışlıkla 'ön taraf' (mbele)
+- olay | OLAYLAR_P0057:1920-10-25:0 | d: 'cephe' yanlışlıkla 'ön taraf' (mbele)
+- olay | OLAYLAR_P0057:1920-07-28:0 | d: 'bağlı' yanlışlıkla 'kapatılmış'
+- olay | OLAYLAR_P0057:1922-08-26:0 | d: 'cephe' yanlışlıkla 'nyanja' (alan/saha)
+- olay | OLAYLAR_P0057:1922-08-27:0 | d: 'cephe' yanlışlıkla 'nyanja'
+- olay | OLAYLAR_P0057:1793-01-31:0 | b: AĞIR: 'Kontluk' 'hesap' (Hesabu) diye çevrilmiş
+- olay | OLAYLAR_P0057:1793-01-31:0 | d: AĞIR: 'Kontluk' 'hesap' (Hesabu) diye çevrilmiş
+- olay | OLAYLAR_P0057:1922-04-29:0 | d: 'boşalttı' yanlış fiille (eneo 'verdiler')
+- olay | OLAYLAR_P0057:1442-01-16:0 | b: 'yerleşti' yanlışlıkla 'yaşadı'
+- olay | OLAYLAR_P0057:1442-01-16:0 | d: yanlış hanedan adı yazımı (Wateimur)
+- olay | OLAYLAR_P0057:1508-05-02:0 | b: 'bağladı' yanlışlıkla 'kapattı'
+- olay | OLAYLAR_P0057:1508-05-02:0 | d: 'bağladı' yanlışlıkla 'kapattı'
+- olay | OLAYLAR_P0059:1594-11-13:0 | d: 'cephe' yanlışlıkla 'nyanja'
+- olay | OLAYLAR_SEHIR_ILK:1494-02-06:0 | d: 'bağlıydı' yanlışlıkla 'kapatılmıştı'
+- olay | OLAYLAR_SEHIR_ILK:1452-04-03:0 | d: İngilizce kalıntı (Dukedom)
+- olay | OLAYLAR_SEHIR_ILK:1503-01-01:0 | d: bozuk fiil; ngeli uyumu
+- olay | OLAYLAR_SEHIR_ILK:1779-01-01:0 | d: 'bağlı' yanlışlıkla 'kapatılmış'
+- olay | OLAYLAR_SEHIR_ILK:1827-01-01:0 | b: Türkçe 'Azak' kalıntısı
+- olay | OLAYLAR_SEHIR_ILK:1827-01-01:0 | d: Türkçe 'Knez' kalıntısı
+- olay | OLAYLAR_SEHIR_ILK:1728-01-01:0 | d: 'kışlalar' (askeri koğuş) 'kışlık evler' diye yanlış
+- olay | OLAYLAR_ARKEOLOJI_PILOT:-9528-01-01:0 | b: 'anıtsal' yanlışlıkla 'müze' (makumbusho)
+- olay | OLAYLAR_ARKEOLOJI_PILOT:-3299-01-01:0 | b: eksik ek
+- olay | OLAYLAR_ARKEOLOJI_D3_AMERIKA_PASIFIK:-0141-01-01:0 | d: 'anıtsal' yanlışlıkla 'müze'
+- olay | OLAYLAR_ARKEOLOJI_D3_AMERIKA_PASIFIK:-0999-01-01:0 | b: 'anıtsal' yanlışlıkla 'müze'
+- olay | OLAYLAR_ARKEOLOJI_D3_AMERIKA_PASIFIK:-1549-01-01:0 | d: 'anıtsal' yanlışlıkla 'müze'
+- olay | OLAYLAR_ARKEOLOJI_D3_AMERIKA_PASIFIK:-1346-01-01:0 | b: 'anıt' yanlışlıkla 'müze'
+- olay | OLAYLAR_ARKEOLOJI_D3_AMERIKA_PASIFIK:-1346-01-01:0 | d: 'anıt' yanlışlıkla 'müze'
+- olay | OLAYLAR_ARKEOLOJI_D3_AMERIKA_PASIFIK:-0799-01-01:0 | d: 'ana kaya' ve yer adı sırası yanlış
+- olay | OLAYLAR_ARKEOLOJI_D3_AMERIKA_PASIFIK:-0742-01-01:0 | d: 'Düz Seramik' 'boş çömlek' (vitupu) diye yanlış
+- olay | OLAYLAR_ARKEOLOJI_D3_AMERIKA_PASIFIK:-0887-01-01:0 | d: 'Düz Seramik' 'boş çömlek' diye yanlış
+- olay | OLAYLAR_ARKEOLOJI_D3_AMERIKA_PASIFIK:-0864-01-01:0 | b: arkeolojik 'site' internet sitesi (tovuti) diye
+- olay | OLAYLAR_ARKEOLOJI_D3_AMERIKA_PASIFIK:-1324-01-01:0 | d: 'lagün' yanlış karşılık
+- olay | OLAYLAR_ARKEOLOJI_D3_HINT_CIN:-0480-01-01:0 | b: bozuk fiil çekimi
+- olay | OLAYLAR_ARKEOLOJI_D3_HINT_CIN:-2999-01-01:1 | b: bozuk fiil çekimi
+- olay | OLAYLAR_ARKEOLOJI_D3_HINT_CIN:-3999-01-01:0 | b: bozuk fiil çekimi
+- olay | OLAYLAR_ARKEOLOJI_D3_HINT_CIN:-4299-01-01:0 | b: bozuk fiil çekimi
+- olay | OLAYLAR_ARKEOLOJI_D3_HINT_CIN:-0236-01-01:0 | d: Türkçe 'İskender' kalıntısı
+- olay | OLAYLAR_ARKEOLOJI_D3_HINT_CIN:-0273-01-01:0 | d: Türkçe 'İskender' kalıntısı
+- olay | OLAYLAR_ARKEOLOJI_D3_HINT_CIN:-0325-01-01:0 | b: Türkçe 'İskender' kalıntısı
+- olay | OLAYLAR_ARKEOLOJI_D3_MISIR_AFRIKA:-0331-01-01:0 | d: Türkçe 'İskender' kalıntısı
+- olay | OLAYLAR_ARKEOLOJI_ZINCIR:-0310-01-01:0 | b: Türkçe 'İskender' kalıntısı; ad sırası
+- olay | OLAYLAR_ARKEOLOJI_D3_HINT_CIN:-1045-01-01:0 | d: 'hakemli literatür' 'müfettiş edebiyatı' gibi çevrilmiş
+- olay | OLAYLAR_ARKEOLOJI_D3_AMERIKA_PASIFIK:-3399-01-01:0 | d: 'anıtsal' yanlışlıkla 'müze' (makumbusho)
+- olay | OLAYLAR_ARKEOLOJI_ZINCIR:-0309-01-01:0 | b: Türkçe 'İskender' kalıntısı
+- olay | OLAYLAR_ARKEOLOJI_ZINCIR:-0309-01-01:0 | d: Türkçe 'İskender' kalıntısı
+- olay | OLAYLAR_ARKEOLOJI_ZINCIR:-0329-01-01:0 | b: Türkçe 'İskender' kalıntısı (iç kod TR'de de var)
+- olay | OLAYLAR_ARKEOLOJI_ZINCIR:-0330-10-22:0 | b: Türkçe 'İskender' kalıntısı
+- olay | OLAYLAR_ARKEOLOJI_ZINCIR:-0330-10-22:0 | d: Türkçe 'İskender' kalıntısı
+- olay | OLAYLAR_ARKEOLOJI_ZINCIR:-1474-01-01:0 | d: 'ikiye bölünür' 'iki kez bölünür' diye yanlış
+- olay | OLAYLAR_ARKEOLOJI_ZINCIR:-1731-01-01:0 | d: 'ikiye bölünür' 'iki kez bölünür' diye yanlış
+- olay | OLAYLAR_ARKEOLOJI_ZINCIR:-2024-01-01:0 | d: 'ikiye bölünür' 'iki kez bölünür' diye yanlış
+- olay | OLAYLAR_ARKEOLOJI_ZINCIR:-2021-01-01:0 | b: çevrilmemiş Türkçe parça
+- olay | OLAYLAR_ARKEOLOJI_ZINCIR:-2021-01-01:0 | d: çevrilmemiş Türkçe parça
+- olay | OLAYLAR_ARKEOLOJI_ZINCIR:-2474-01-01:0 | b: çevrilmemiş Türkçe parça
+- olay | OLAYLAR_ARKEOLOJI_ZINCIR:-2474-01-01:0 | d: çevrilmemiş Türkçe parça
+- olay | OLAYLAR_ARKEOLOJI_D2_CIN_DOGU_ASYA:-1599-01-01:1 | b: 'çapraz tarihleme' 'haç tarihi' (msalaba) gibi çevrilmiş
+- olay | OLAYLAR_ARKEOLOJI_D2_AFRIKA_AMERIKA:-0999-01-01:0 | d: 'anıt mimarisi' yanlışlıkla 'müze' (makumbusho)
+- olay | OLAYLAR_ARKEOLOJI_D2_AFRIKA_AMERIKA:-3001-01-01:0 | b: 'anıtsal' yanlışlıkla 'müze'
+- olay | OLAYLAR_ARKEOLOJI_D2_AFRIKA_AMERIKA:-3001-01-01:0 | d: 'anıtsal' yanlışlıkla 'müze'
+- olay | OLAYLAR_ARKEOLOJI_D2_AFRIKA_AMERIKA:-3749-01-01:0 | b: 'anıt mimarisi' yanlışlıkla 'müze'
+- olay | OLAYLAR_ARKEOLOJI_D2_AFRIKA_AMERIKA:-3749-01-01:0 | d: 'anıt yapı' yanlışlıkla 'müze'
+- olay | OLAYLAR_ARKEOLOJI_D2_ITALYA_AVRUPA:-2419-01-01:0 | d: 'anıtsallaşan' yanlışlıkla 'müze'
+- olay | OLAYLAR_ARKEOLOJI_D2_ITALYA_AVRUPA:-3511-01-01:0 | d: 'anıtsallaşan' yanlışlıkla 'müze'
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1249-11-23:0 | b: 'cephe' yanlışlıkla 'nyanja' (alan/saha)
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1249-11-23:0 | d: 'cephe' yanlışlıkla 'nyanja' (alan/saha)
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1281-01-01:0 | b: AĞIR: 'kont' 'hesap' (hesabu) diye çevrilmiş
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1281-01-01:0 | d: AĞIR: 'kont' 'hesap' (hesabu) diye çevrilmiş
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1287-01-01:0 | b: AĞIR: 'kont' 'hesap' (Hesabu) diye çevrilmiş
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1287-01-01:0 | d: AĞIR: 'kont' 'hesap' (Hesabu) diye çevrilmiş
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:0963-01-01:0 | d: yazım hatası (alipoposhindwa) ve uyum hatası (aliiteka mji)
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:0996-01-25:0 | d: askerî yürüyüş 'alitembea' (gezindi) diye çevrilmiş
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1000-01-01:1 | b: askerî yürüyüş 'alitembea' (gezindi) diye çevrilmiş
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1000-01-01:1 | d: askerî yürüyüş 'alitembea' (gezindi) diye çevrilmiş
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1003-01-01:0 | d: askerî yürüyüş 'alitembea' (gezindi) diye çevrilmiş
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1003-08-03:0 | d: 'yardım için' yanlışlıkla 'yardım ederek'
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1030-10-04:0 | d: AĞIR: 'mil çektirdi' 'kumtolea macho' (ters ters bakmak) olmuş
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1059-02-17:1 | b: 'korundu' yanlışlıkla emir/dilek kipi ('korunsun')
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1064-01-01:0 | d: anlam bozuk: 'Bizans'a tâbi biri tarafından tahkim edilmiş' okunuyor
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1068-01-01:0 | b: 'kaldı' dilek kipine dönmüş, uyum hatası
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1073-03-20:0 | d: çevrilmemiş Türkçe 'sancak'
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1081-01-01:0 | b: 'sınır oldu' dilek kipine ('olsun') dönmüş
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1095-06-25:0 | d: 'amcazadesi' (kendi kuzeni) 'babasının kuzeni' olmuş
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1116-05-16:0 | d: cümle dağılmış, kimin kardeşi belli değil
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1128-01-01:0 | d: 'ileri harekât' 'gösteri yürüyüşü' (maandamano) olmuş
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1157-04-13:0 | d: uyum hatası (aliloijenga)

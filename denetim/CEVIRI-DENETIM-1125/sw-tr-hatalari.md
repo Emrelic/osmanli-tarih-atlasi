@@ -25,3 +25,35 @@
 - olay OLAYLAR_EK5:1097-06-19:0: başlık "İznik Haçlılara teslim oldu", açıklama "Bizans'a teslim oldu".
 - olay OLAYLAR_EK5:1912-11-25:0: "7 Nisan 1912'de bombalanan Sakız" I. Balkan Savaşı'na (Ekim 1912'de başladı) bağlanmış; tarih kontrol edilmeli.
 - olay OLAYLAR_EK6:1535-09-22:0: başlık "Osmanlı tutumu 1534-35'te sona erdi" ve "Osmanlı hâkimiyetine veren bölgede" bozuk Türkçe.
+
+== tr_hatalari_b.md
+- olay OLAYLAR_EK6:1686-10-23:0: kullanıcıya görünen iç not ("Atlas ... kaynakta okunmadı, gün Segedin'den alındı; TDV zenta: ... beyanlı yaklaşıklık")
+- olay OLAYLAR_EK6:1689-02-03:0: iç not ("abi-merkez zincirini izler ... Bánlaky 0017/1449; beyanlı yaklaşıklık")
+- olay OLAYLAR_EK6:1833-04-12:0: "Atlas günü ..." beyanı ve kaynak künyesi metin içinde
+- olay OLAYLAR_ILIRYA0072:1806-02-01:0 / :1806-01-01:0 / :1779-01-01:0: atlas iç notu ("bugüne kadar kesintisiz Avusturya görünüyordu", "tek bir 'Fransa' penceresiyle karşılanamaz", "bugüne kadar ... sahipsiz görünüyordu")
+- olay OLAYLAR_EK7:1789-04-07:0: "Avrupa ordularının ıslahına ilgi duyan" anlamca hatalı (Avrupa usulü ordu ıslahı olmalı)
+- olay OLAYLAR_EK7:1408-04-13:0: açıklama ";" ile yarım bitiyor
+- olay OLAYLAR_EK7:1406-10-15:0: "TDV `tebriz`" ters tırnaklı slug (iç not)
+- olay OLAYLAR_EK7:1735-03-21:0: iç not ("haritada Gence günü kullanılır — beyanlı yaklaşıklık"), aynı cümle iki kez
+- olay OLAYLAR_EK8:1819-11-01:0: "annesi Kaʻahumanu" — Kaʻahumanu Liholiho'nun öz annesi değil (üvey anne; öz annesi Keōpūolani) — teyit edilmeli
+- olay OLAYLAR_EK8:1893-02-18:0: "torununun torunu" akrabalığı teyit edilmeli (büyük torun olabilir)
+- olay OLAYLAR_EK8:1924-01-01:0: "TDV `harizm` maddesi ... yalnız yıl veriyor" iç not
+- olay OLAYLAR_EK9:1911-10-08:0: savaş ilanı 29 Eylül, abluka 25-26 Eylül (ilandan önce) — tarih sırası kontrol edilmeli
+- olay OLAYLAR_EK10:1877-05-21:0: "93 Harbi'nin ilânından iki hafta sonra" — 24 Nisan ile 21 Mayıs arası yaklaşık dört hafta
+- olay OLAYLAR_EK10:1912-10-23:0: Tahsin Paşa'nın Selanik teslimi "aynı günlerde" (23-24 Ekim) deniyor; başka kayıtta 8 Kasım
+- olay OLAYLAR_EK11:1502-01-01:0: "on kayıt hâlinde el değiştirdi" atlas iç dili; "(gün teyitsiz)"
+- olay OLAYLAR_EK13:1569-01-01:0, OLAYLAR_EK13:1861-05-21:0, OLAYLAR_EK15:1659-01-01:0, OLAYLAR_EK15:1337-09-09:0, OLAYLAR_EK21:1811-04-01:0, :1811-05-01:0, :1509-01-01:0, :1537-01-01:0: metinde kaçışlı tırnak (\") ekranda ters bölü ile görünüyor olabilir
+- olay OLAYLAR_EK16:1537-01-01:0: "İskoç-Norveç piskoposu Olav Engelbriktsson" — İskoç nitelemesi şüpheli
+- olay OLAYLAR_EK16:1814-01-14:0: "kişisel birlik (real union)" — terim çelişkisi
+- olay OLAYLAR_EK16:1941-07-09:0: iç not ("arama özeti [özet]")
+- olay OLAYLAR_EK16:1341-01-01:0: "(künyede Özbek/Canibek)" iç not
+- olay OLAYLAR_EK16:1307-01-01:0: "(atlas künye tarihi 1307; ... tartışmalıdır)" iç not
+- olay OLAYLAR_EK16:1941-07-28:0: son cümle bozuk ("Estonya sivil idaresi 5 Aralık 1941'de, Belarus'un doğusu askerî idarede kaldı")
+- olay OLAYLAR_EK16:1945-05-08:0: başlıkta İngilizce "Courland Army Group"
+- olay OLAYLAR_EK16:1941-06-23:0, :1941-06-23:1, :1944-07-16:0, :1944-07-28:0: Türkçe karakter eksik ("isgal", "Dogu Cephesi", "Kizil Ordu"); açıklama dört kayıtta aynı ve içeriksiz
+- olay OLAYLAR_EK17:1725-01-01:0: "Gün TDV'de belirtilmiyor, yıl beyan." iç not
+- olay OLAYLAR_EK17:1789-04-07:0: "abdulhamid-i maddesi" slug görünüyor
+- olay OLAYLAR_EK17:1800-04-02:0: "1799-03-05 ile bu gün arası" ISO tarih biçimi; aynı biçim OLAYLAR_EK17:1738-08-01:0/:1 (1739-09-18)
+- olay OLAYLAR_EK20:1768-05-15:0: "(TDV Korsika; gün teyitsiz)" iç not
+- olay OLAYLAR_SENKRON_0930:1436-01-01:0: atlas iç notu ("Atlas ... beyanlı yaklaşıklık"); "(yaklaşık)" başlıklar
+- olay OLAYLAR_EK22:1923-07-24:0: TBMM onayı metinde "23 Ağustos 1923", tabloda "2 Ağustos 1923" — çelişki; ayrıca iç notlar ("madde kanıtı yok", "özetlerinde geçmiyor", "TDV'nin madde aralıkları da böyledir")
