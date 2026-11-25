@@ -5,6 +5,9 @@ Akkirman	Akkerman
 Akkoyunlu	Aq Qoyunlu
 Akkâ	Acre
 Akçahisar	Krujë
+Aleksey Mihayloviç	Aleksey Mikhailovich
+Alevî (Filâlî)	Alaouite (Filali)
+Alman Ordusu	Quân đội Đức
 Altın Orda	Kim Trướng hãn quốc
 Anabolu	Nafplio
 Anabolu	Nauplion
@@ -18,11 +21,15 @@ Avusturya	Áo
 Ayamavra	Lefkada
 Ayamavra	Lefkada (Ayamavra)
 Azak	Azov
+Azemmûr	Azemmour
 Ağvât	Laghouat
 Babadağı	Babadag
 Balkanlar	Balkan
+Baltık Cephesi	Phương diện quân Baltic
 Balyabadra	Patras
+Barbaros Hayreddin Paşa	Barbaros Hayreddin Pasha
 Bağdat	Baghdad
+Belarus Cephesi	Phương diện quân Belorussia
 Belgrad	Belgrade
 Bender	Bender
 Berka	Barqa
@@ -45,6 +52,7 @@ Böğürdelen	Šabac
 Bükreş	Bucharest
 Candaroğulları	nhà Candarid
 Cebrî	Jabri
+Celayirli	Jalayirid
 Celâlî	Celali
 Cemâziyelevvel	Jumada I
 Cemâziyelâhir	Jumada II
@@ -67,6 +75,7 @@ Draç	Durrës
 Dubrovnik	Dubrovnik
 Dulkadıroğulları	nhà Dulkadir
 Duşan	Dušan
+Dârfûr	Darfur
 Dükalık	công quốc
 Edirne	Edirne
 Edirne Antlaşması	Hiệp ước Edirne (Adrianople)
@@ -90,6 +99,7 @@ Fetret Devri	Thời kỳ Đứt đoạn (Fetret)
 Filibe	Plovdiv
 Floransa	Firenze
 Fûnc	Funj
+Garbî Trakya	Tây Thrace
 Gelibolu	Gallipoli
 Gence	Ganja
 Gence Antlaşması	Hiệp ước Ganja
@@ -101,6 +111,7 @@ Güns	Kőszeg
 Gürcistan	Gruzia
 Habeşistan	Abyssinia
 Halep	Aleppo
+Halkulvâdî	La Goulette
 Hanlık	hãn quốc
 Hanya	Chania
 Hayır Bey	Khayr Bey
@@ -114,8 +125,10 @@ Humbaracı Ahmed Paşa	Humbaracı Ahmed Pasha
 Hâil	Ha'il
 Hırsova	Hârșova
 I. Murad	Murad I
+I. Petro	Pyotr I
 II. (Çar) Petro	Pyotr I
 Irakeyn Seferi	Chiến dịch Hai xứ Iraq
+Jülyen	lịch Julius
 Jülyen takvimi	lịch Julius
 Kafkasya	Kavkaz
 Kahire	Cairo
@@ -126,6 +139,7 @@ Kangxi	Khang Hy
 Kanije	Kanizsa
 Kanunî Sultan Süleyman	Suleiman Nhà Lập pháp
 Kanunî Sultan Süleyman	Süleyman Lập pháp
+Kanûnî Sultan Süleyman	Sultan Süleyman Lập pháp
 Kanûnî Süleyman	Süleyman Lập pháp
 Kaptan-ı derya	kapudan pasha
 Kaptan-ı deryâ	đại đô đốc
@@ -136,6 +150,7 @@ Karakoyunlu	Qara Qoyunlu
 Karamanoğulları	nhà Karaman
 Karlofça	Karlowitz
 Kartal	Kagul
+Katîf	Qatif
 Kavalalı hanedanı	triều đại Muhammad Ali
 Kağanlık	hãn quốc
 Kili	Kiliya
@@ -156,7 +171,9 @@ Kāsımî	Qasimi
 Kıbrıs	Síp
 Kırcaali	Kardzhali
 Kırım	Crimea
+Kızıl Ordu	Hồng quân
 Lahsa	al-Ahsa
+Lahsa	al-Hasa
 Lefkoşa	Nicosia
 Lehistan	Ba Lan
 Leş	Lezhë
@@ -183,6 +200,7 @@ Memlûk	Mamluk
 Memlük	Mamluk
 Mercidabık	Marj Dabiq
 Meriç	sông Maritsa
+Mevlây İsmâil	Mulay Ismail
 Midilli	Lesbos
 Midilli	Lesbos (Midilli)
 Milano	Milano
@@ -204,6 +222,7 @@ Mısır	Ai Cập
 Nadir Şah	Nader Shah
 Nahcivan	Nakhchivan
 Nahçıvan	Nakhchivan
+Nakşa	Naxos
 Napoli	Napoli
 Necid	Najd
 Nikarya	Ikaria
@@ -219,6 +238,7 @@ Pasarofça	Passarowitz
 Paşa	Pasha
 Peçuy	Pécs
 Peşte	Pest
+Piyâle Paşa	Piyale Pasha
 Plevne	Pleven
 Pojun	Pressburg (Bratislava)
 Prens Eugen	Vương công Eugène
@@ -236,9 +256,11 @@ Rodos	Rhodes
 Rumeli	Rumelia
 Rusya	Nga
 Rusçuk	Ruse
+Sa'dîler	Saadi
 Sadrazam	Đại tể tướng
 Sadrazam	đại tể tướng
 Safevî	Safavid
+Safi (Fas)	Safi
 Sakız	Chios
 Sana/San'a	Sanaa
 Sayda	Sidon
@@ -280,6 +302,7 @@ Tripoliçe	Tripolitsa
 Tuggurt	Touggourt
 Tuna	sông Danube
 Tunus (şehir/ülke)	Tunis
+Turgut Paşa	Turgut Pasha
 Tâif	Taif
 Tırnova	Tarnovo
 Ubeyyid	El Obeid
@@ -325,8 +348,10 @@ abi-merkez zinciri	chuỗi trung tâm chủ quản
 beyanlı yaklaşıklık	xấp xỉ có công bố
 beylerbeylik	beylerbeylik
 beylik	công quốc
+el-Arâiş	Larache
 padişah	sultan
 sancak	sancak
+Âl-i Halîfe	Al Khalifa
 Çaldıran	Chaldiran
 Çağatay	Sát Hợp Đài
 Çehrin	Chyhyryn
@@ -342,6 +367,7 @@ sancak	sancak
 İbrâil	Brăila
 İlbasan	Elbasan
 İlhanlı	Hãn quốc Y Nhi (Ilkhanate)
+İlhanlı	Ilkhanate
 İmroz	Imbros
 İnebahtı	Lepanto
 İpek	Peć
@@ -366,6 +392,7 @@ sancak	sancak
 Şam	Damascus
 Şamahı	Shamakhi
 Şevval	Shawwal
+Şeybânî Han	Shaybani Khan
 Şeyhülislam	shaykh al-Islam
 Şeyhülislâm	sheikh al-Islam
 Şirvan	Shirvan
