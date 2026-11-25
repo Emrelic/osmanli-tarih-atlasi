@@ -401,11 +401,11 @@ window.CEVIRI_DIZIN = {
    ],
    [
     "ceviri_pt_olay_03.js",
-    "4071b4af"
+    "fd6f03e8"
    ],
    [
     "ceviri_pt_olay_04.js",
-    "6bf74754"
+    "cd7b2a21"
    ],
    [
     "ceviri_pt_olay_05.js",
