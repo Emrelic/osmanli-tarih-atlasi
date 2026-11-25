@@ -41,3 +41,10 @@
 - OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1131-01-01:0: İtalyanca alıntı TR kaynağında da var; değiştirilmedi.
 - Bazı kayıtlarda Latin harfli kurum/eser/hukuk terimleri (Lex Iulia, Gallia Transalpina, Via Egnatia, Breasted dışındaki yer adı parantezleri: Murcia, Ceuta, Sinj, Grocka) bilinçli bırakıldı.
 - Tiflis için "Тифлис"/"Тбилиси" karışık kullanılıyor (tutarlılık, hata sayılmadı).
+
+== notlar_g.md
+- SİSTEMİK: OLAYLAR_GEZGINLER güzergâh maddelerinde (özellikle paket 225-228; Afrika, Avustralya, Tibet, Güneydoğu Asya, Amerika) yer adları Rusça metinde Latin harfli duruyor. Tarihî yazımların yerleşik Rusça biçimi çoğunda belirsiz olduğu için toplu çevriyazı yapılmadı; ayrı bir çevriyazı turu önerilir. Paket 221-224'tekiler çevrildi (duzeltme_g_006); 225-228'de yalnız Türkçe yazım kalıntıları düzeltildi. 225'teki Kandy–Mannar (Arippu), Kaempfer vb. da bu kapsamda.
+- duzeltme_g_006 çevriyazıları (Ortaçağ/erken modern küçük yer adları) sözlükle doğrulanmadı; özellikle Otoueacha → «Отуаша», Carhagouha → «Кархагуа», Sevsen er-Ressî → «Сусан ар-Расси» kontrole değer.
+- İç notların çevirileri («цепочка», «справка», macaristan-* kimlikleri, «(künye t)») TR kaynağı düzelince birlikte temizlenmeli; çeviride silinmedi.
+- «ПУСТОТА ОБЪЯВЛЕНА / объявленная пустота» (beyanlı boşluk): «объявленный пробел» daha doğal olur; bütün dildeki terim tutarlılığı için dokunulmadı.
+- Giurgiu için paket 214'te «Джурджу», paket 217'de tarihî «Журжа» kullanılıyor; ikisi de geçerli.

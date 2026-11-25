@@ -109,3 +109,29 @@
 - olay OLAYLAR_LAB19_2S_P6:1944-10-20:0: b'de "Kızıl Ordu'since" yazım hatası.
 - olay OLAYLAR_LAB19_2S_P6:1936-07-19:0: b'de Vitoria yok, d'de var.
 - olay OLAYLAR_2S1019:1439/1459/1458/1475: d'de "atlasta abi merkezi ... akıbetini izler", "atlasta ... gösterilir" iç yöntem notu.
+
+== tr_hatalari_g.md
+- olay OLAYLAR_LAB19_BOS_1119_SIBIRYA:1630-01-01:0: TR başlıkta Kiril «ясак» sözcüğü kalmış.
+- olay OLAYLAR_AVMAC_A_1029:0822-01-01:0: başlıkta «(BOŞLUK BEYANLI)», açıklamada «atlas bu dilimi beyanlı boşluk bırakır» iç notu.
+- olay OLAYLAR_AVMAC_A_1029:1135-01-01:0: «(bitiş yılı kaynakta verilmiyor)» iç not.
+- olay OLAYLAR_AVMAC_A_1029:1156-09-17:0: «Bavyera dükalığından Bavyera'yı imparatora geri verdi» cümlesi bozuk.
+- olay OLAYLAR_AVMAC_A_1029:1180-01-01:0: «Gün kaynakta yok (künyede ... anılır)» iç not.
+- olay OLAYLAR_AVMAC_C_1029:1918-11-13:0, 1918-11-16:0, 1919-03-21:0, 1938-03-12:0, 1945-04-13:0, 1945-07-09:0, 1949-08-20:0, 1956-10-23:0, 1995-01-01:0, 2004-05-01:0, 1921-12-14:0: kullanıcıya görünen iç not (zincir/künye adları, macaristan-naiplik vb. kimlikler, «motor dondurma / BOYALAR»).
+- olay OLAYLAR_AVMAC_C_1029:1955-05-15:0: «antlasma» yazım hatası.
+- olay OLAYLAR_AVMAC_FINAL_1029:1703-01-01:0: «Yalnız yıl hassasiyeti ... (borç)» iç not.
+- olay OLAYLAR_AVUSTURYA_MACAR_1027:1523-01-01:0: «harita ... beyanlıdır (gün bulunamadı)» iç not.
+- olay OLAYLAR_FRANSA_KONTROL_1027: 1481-12-11:3 («abi merkez», BEYANLI YAKLAŞIKLIK), 1284-01-01:0 («(künye t)», çeviride de «(künye t)» duruyor), 1388-09-28:0 ve 1348-06-09:0 («Atlas/yerleşim kaydı bu sınırı taşıyordu; madde eksikti»), 1317-01-09:0, 1360-10-24:0, 1420-05-21:0/1, 1659-11-07:0/1, 1793/1814, 1552-01-01:0: iç not.
+- olay OLAYLAR_FRANSA_KONTROL_1027:1477-01-01:0: «fırtınayla alındı» (storm = hücumla alındı).
+- olay OLAYLAR_NAPOLYON_ITALYA_1028:1800-06-04:0, 1849-08-22:0: «bilgi kutusu» iç not; 1849-07-03:0 «Vikipedi 2 Temmuz» iç not.
+- olay OLAYLAR_NAPOLYON_ITALYA_1028:1849-02-09:0: cumhuriyeti 9 Şubat'ta Kurucu Meclis ilan etti; üçlü yönetim (triumvirlik) Mart 1849'da kuruldu.
+- olay OLAYLAR_NAPOLYON_ITALYA_1028:1143-01-01:0 («(künye f 1143, Treccani 1144)», çeviride de duruyor), 1128-01-01:0..4, 1071/1059 grubu, 0763..1532/1540 («gün/ay okunmadı»), 1318-07-25:0: «zinciri», «abi merkez», «şehre özgü cümle bulunamadı» iç notları.
+- olay OLAYLAR_P0068:1789-10-13:0: «dört TDV maddesi ... haritada işgal olarak gösterilir» iç not.
+- olay OLAYLAR_P0067:1788-09-21:0: «ek okuma: karsi-karansebes-1788» iç kimlik.
+- olay OLAYLAR_P0063:1736-06-19:0; OLAYLAR_P0917KOSU13:1731-11-15:0, 1387-01-01:0; OLAYLAR_P0068B:1789-09-22:0: haritada gösterim / «kişi yazılmadı» / «TDV hoy ... beyanlı yaklaşıklık» iç notları.
+- olay OLAYLAR_DUNYA_BOLGE_1109:1917-03-15:0: [[rusya-gecici-hukumet]], [[sovyet-rusya]] bağlantıları işlenmiyorsa kullanıcıya görünür.
+- olay OLAYLAR_DUNYA_BOLGE_1109:1905-01-22:0: «çariçenin muhafızlarınca» (çarın olmalı; çeviri «царя»).
+- olay OLAYLAR_0073_IRAN_YANYA:1821-01-01:1: başlık «Bağdat'ın İran işgali» diyor, açıklama Bağdat'ın işgalini anlatmıyor.
+- olay OLAYLAR_GEZGINLER:1522-09-06:0: «(sayı genel bilgi)» iç not.
+- olay OLAYLAR_GEZGINLER:1871-03-09:0: «on gezi» anlaşılmıyor.
+- olay OLAYLAR_GEZGINLER:1829-11-03:0, 1861-11-01:0, 1891-06-14:0: Türkçe harfler eksik (kavsagi, agzi, Golu, bati, gecis).
+- olay OLAYLAR_DIN_ISA_1120 ve OLAYLAR_DIN_MUHAMMED: «Tarihî kayıt» bölümleri sorun değil; hata yok.
