@@ -77,3 +77,193 @@
 - olay | OLAYLAR_OK109:1918-12-01:0 | d: Latin Türkçe yer adları
 - olay | OLAYLAR_OK109:1920-06-04:1 | b: Latin Türkçe kalıntı
 - olay | OLAYLAR_OK109:1920-06-04:1 | d: Latin Türkçe yer adları
+- olay | OLAYLAR:1672-10-18:0 | d: himaye (koruma altına alma) 'sığınağa alma' diye çevrilmiş
+- olay | OLAYLAR:1739-09-18:0 | d: Türkçe 'abi merkez' harf çevirisiyle kalmış
+- olay | OLAYLAR:1774-07-21:0 | d: himaye 'sığınak' anlamıyla çevrilmiş
+- olay | OLAYLAR:1808-10-07:0 | d: Rusçuk adı 'Rus ayanı' gibi okunuyor
+- olay | OLAYLAR:1853-10-04:0 | d: himaye iddiası yanlış anlam ('sığınak iddiası', 'Rusya'nın Ortodoks tebaası')
+- olay | OLAYLAR:1881-05-12:0 | d: himaye 'sığınak' anlamıyla çevrilmiş
+- olay | OLAYLAR:1913-05-30:0 | d: Edirne'nin yanlış biçimi
+- olay | OLAYLAR:1914-11-01:0 | d: gemiler İngiltere ülkesinden değil İngiliz donanmasından kaçtı
+- olay | OLAYLAR_EK:1302-08-01:0 | b: Latin harfli Türkçe ad çevrilmemiş
+- olay | OLAYLAR_EK:1360-01-01:0 | b: Edirne'nin yanlış biçimi
+- olay | OLAYLAR_EK:1360-01-01:0 | d: Edirne'nin yanlış biçimi
+- olay | OLAYLAR_EK:1371-09-26:0 | d: Edirne'nin yanlış biçimi
+- olay | OLAYLAR_EK:1481-09-10:0 | b: bozuk anlatım
+- olay | OLAYLAR_EK:1501-08-17:0 | d: hal eki eksik
+- olay | OLAYLAR_EK:1526-09-01:0 | d: himaye 'sığınak' anlamıyla çevrilmiş
+- olay | OLAYLAR_EK:1530-01-01:0 | b: himaye 'sığınak' anlamıyla çevrilmiş
+- olay | OLAYLAR_EK:1530-01-01:0 | d: himaye 'sığınak' anlamıyla çevrilmiş
+- olay | OLAYLAR_EK:1663-04-13:0 | b: Edirne'nin yanlış biçimi
+- olay | OLAYLAR_EK:1663-04-13:0 | d: Edirne'nin yanlış biçimi
+- olay | OLAYLAR_EK:1830-10-17:0 | d: Edirne'nin yanlış biçimi
+- olay | OLAYLAR_EK:1885-09-18:0 | d: İslimye = Sliven, Silivri diye çevrilmiş; Latin harfli 'fait accompli' kalmış
+- olay | OLAYLAR_EK:1908-10-05:0 | d: İslimye = Sliven, Silivri değil
+- olay | OLAYLAR_EK:1913-07-21:0 | b: Edirne'nin yanlış biçimi
+- olay | OLAYLAR_EK:1913-07-21:0 | d: Edirne'nin yanlış biçimi
+- olay | OLAYLAR_EK:1917-12-09:0 | d: dilbilgisi hatası (teslim edildi)
+- olay | OLAYLAR_EK:1305-06-01:0 | d: bozuk cümle yapısı
+- olay | OLAYLAR_EK:1361-01-01:0 | d: Edirne'nin yanlış biçimi
+- olay | OLAYLAR_EK:1357-01-01:0 | d: Edirne'nin yanlış biçimi
+- olay | OLAYLAR_EK:1366-08-01:0 | d: kuzen 'erkek kardeş' diye çevrilmiş
+- olay | OLAYLAR_EK:1439-08-27:0 | d: Edirne'nin yanlış biçimi
+- olay | OLAYLAR_EK:1443-11-24:0 | d: Edirne'nin yanlış biçimi
+- olay | OLAYLAR_EK:1444-06-12:0 | b: Edirne'nin yanlış biçimi
+- olay | OLAYLAR_EK:1444-08-15:0 | d: Edirne'nin yanlış biçimi
+- olay | OLAYLAR_EK2:1884-01-01:0 | d: Türkçe 'kolcu' harf çevirisiyle kalmış
+- olay | OLAYLAR_EK2:1912-10-26:0 | b: Edirne'nin yanlış biçimi
+- olay | OLAYLAR_EK2:1703-08-22:0 | b: Edirne'nin yanlış biçimi
+- olay | OLAYLAR_EK2:1703-08-22:0 | d: Edirne'nin yanlış biçimi
+- olay | OLAYLAR_EK2:1913-01-23:0 | d: Edirne'nin yanlış biçimi
+- olay | OLAYLAR_EK3:1402-08-01:0 | d: Edirne'nin yanlış biçimi
+- olay | OLAYLAR_EK3:1411-02-17:0 | d: Edirne'nin yanlış biçimi
+- olay | OLAYLAR_EK3:1413-07-05:0 | d: Edirne'nin yanlış biçimi
+- olay | OLAYLAR_EK3:1683-01-01:0 | d: İstolni Belgrad (Székesfehérvár) Belgrad ile karıştırılmış
+- olay | OLAYLAR:1913-05-30:0 | b: dilbilgisi: '-এর হারানো' bozuk
+- olay | OLAYLAR_EK:1812-05-28:0 | b: dilbilgisi: '-এর হারানো' bozuk
+- olay | OLAYLAR_EK:1366-08-01:0 | b: dilbilgisi: '-এর হারানো' bozuk
+- olay | OLAYLAR_EK:1717-08-18:0 | b: dilbilgisi: '-এর হারানো' bozuk
+- olay | OLAYLAR_EK:1917-03-11:0 | b: dilbilgisi: '-এর হারানো' bozuk
+- olay | OLAYLAR_EK2:1603-10-21:0 | b: dilbilgisi: '-এর হারানো' bozuk
+- olay | OLAYLAR_EK3:1683-10-09:0 | b: dilbilgisi: '-এর হারানো' bozuk
+- olay | OLAYLAR_EK3:1685-08-19:0 | b: dilbilgisi: '-এর হারানো' bozuk
+- olay | OLAYLAR_EK3:1686-09-02:0 | b: dilbilgisi: '-এর হারানো' bozuk
+- olay | OLAYLAR_EK3:1687-08-12:0 | b: dilbilgisi: '-এর হারানো' bozuk
+- olay | OLAYLAR_EK3:1687-09-26:0 | b: dilbilgisi: '-এর হারানো' bozuk
+- olay | OLAYLAR_EK3:1688-09-06:0 | b: dilbilgisi: '-এর হারানো' bozuk
+- olay | OLAYLAR_EK3:1688-09-06:0 | d: Türkçe 'abi merkez' harf çevirisiyle kalmış
+- olay | OLAYLAR_EK3:1689-09-24:0 | b: dilbilgisi: '-এর হারানো' bozuk
+- olay | OLAYLAR_EK3:1689-08-01:0 | b: Pasarofça = Passarowitz/Požarevac; Pirot (Şehirköy) değil
+- olay | OLAYLAR_EK3:1689-08-01:0 | d: Pasarofça = Požarevac; Pirot değil
+- olay | OLAYLAR_EK3:1690-09-27:0 | d: Pasarofça = Požarevac; Pirot değil
+- olay | OLAYLAR_EK3:1690-10-08:0 | d: Türkçe 'abi merkez' harf çevirisiyle kalmış
+- olay | OLAYLAR_EK3:1694-09-21:0 | b: dilbilgisi: '-এর হারানো' bozuk
+- olay | OLAYLAR_EK3:1696-07-19:0 | b: dilbilgisi: '-এর হারানো' bozuk
+- olay | OLAYLAR_EK4:1805-07-03:0 | b: Latin harfli yabancı ifade kalmış
+- olay | OLAYLAR_EK4:1815-01-20:0 | d: bozuk anlatım
+- olay | OLAYLAR_EK4:1834-08-01:0 | d: hal eki eksik
+- olay | OLAYLAR_EK5:1671-01-01:0 | d: bozuk anlatım ('dönüşümü hissetti')
+- olay | OLAYLAR_EK5:1402-08-20:0 | d: Edirne'nin yanlış biçimi
+- olay | OLAYLAR_EK5:1410-02-13:0 | b: Edirne'nin yanlış biçimi
+- olay | OLAYLAR_EK5:1410-02-13:0 | d: Edirne'nin yanlış biçimi
+- olay | OLAYLAR_EK5:1363-01-01:0 | d: Edirne'nin yanlış biçimi
+- olay | OLAYLAR_EK5:1424-01-01:0 | b: himaye 'sığınak' anlamıyla çevrilmiş
+- olay | OLAYLAR_EK5:1424-01-01:0 | d: himaye 'sığınak' anlamıyla çevrilmiş
+- olay | OLAYLAR_EK5:1517-01-24:0 | d: bozuk cümle yapısı
+- olay | OLAYLAR_EK5:1516-08-24:0 | d: bozuk anlatım
+- olay | OLAYLAR_EK5:1432-01-01:0 | d: hal eki eksik
+- olay | OLAYLAR_EK5:1373-05-15:0 | d: bozuk cümle yapısı
+- olay | OLAYLAR_EK5:1446-05-05:0 | d: Edirne'nin yanlış biçimi
+- olay | OLAYLAR_EK5:1451-02-18:0 | d: Edirne'nin yanlış biçimi
+- olay | OLAYLAR_EK5:1455-06-01:0 | d: Semendire için metnin kalanındaki yerleşik biçim Smederevo
+- olay | OLAYLAR_EK5:1466-06-01:0 | d: bozuk anlatım
+- olay | OLAYLAR_EK5:1502-03-01:0 | b: Altın Orda 'altın at' diye çevrilmiş
+- olay | OLAYLAR_EK5:1502-03-01:0 | d: Altın Orda 'altın at'; himaye 'sığınak'
+- olay | OLAYLAR_EK5:1502-12-14:0 | d: dilbilgisi: '-এর হারানো' bozuk
+- olay | OLAYLAR_EK5:1516-03-26:0 | d: bozuk cümle yapısı
+- olay | OLAYLAR_EK5:1516-08-29:0 | d: himaye 'sığınak' anlamıyla çevrilmiş
+- olay | OLAYLAR_EK5:1516-12-21:0 | b: Canbirdi adında c = j; 'Kanbirdi' yazılmış
+- olay | OLAYLAR_EK5:1516-12-21:0 | d: Canbirdi yanlış yazılmış
+- olay | OLAYLAR_EK5:1517-01-02:0 | d: Canbirdi yanlış yazılmış
+- olay | OLAYLAR_EK5:1517-02-08:0 | b: Canbirdi yanlış yazılmış
+- olay | OLAYLAR_EK5:1517-02-08:0 | d: Canbirdi yanlış yazılmış
+- olay | OLAYLAR_EK5:1517-03-30:0 | d: bozuk cümle yapısı
+- olay | OLAYLAR_EK5:1517-04-13:0 | d: hal eki eksik
+- olay | OLAYLAR_EK5:1517-08-28:0 | d: kalyata (galiot) 'galyon' diye çevrilmiş
+- olay | OLAYLAR_EK5:1515-06-13:0 | d: hal eki eksik / bozuk anlatım
+- olay | OLAYLAR_EK5:1529-09-08:0 | d: bozuk anlatım; himaye 'sığınak' anlamıyla çevrilmiş
+- olay | OLAYLAR_EK5:1535-07-21:0 | b: dilbilgisi: '-এর হারানো' bozuk
+- olay | OLAYLAR_EK5:1535-07-21:0 | d: himaye 'sığınak' anlamıyla çevrilmiş
+- olay | OLAYLAR_EK5:1536-03-15:0 | d: hal eki eksik
+- olay | OLAYLAR_EK5:1543-08-10:0 | d: bozuk anlatım
+- olay | OLAYLAR_EK5:1562-07-23:0 | d: hal eki eksik
+- olay | OLAYLAR_EK5:1595-09-02:0 | b: dilbilgisi: '-এর হারানো' bozuk
+- olay | OLAYLAR_EK5:1598-03-29:0 | b: dilbilgisi: '-এর হারানো' bozuk
+- olay | OLAYLAR_EK5:1621-10-09:0 | d: 'নেতৃত্বদানকারী' orduyu komutan yapıyordu; kumanda eden Osman
+- olay | OLAYLAR_EK5:1623-11-28:0 | b: bozuk tamlama ('Bağdat'ın Safevîleri' gibi okunuyor)
+- olay | OLAYLAR_EK5:1623-11-28:0 | d: Derviş adı yanlış yazılmış
+- olay | OLAYLAR_EK5:1636-04-01:0 | b: bozuk tamlama
+- olay | OLAYLAR_EK5:1642-02-26:0 | d: cümle yapısı bozuk, anlam karışıyor
+- olay | OLAYLAR_EK5:1648-03-31:0 | b: bozuk tamlama
+- olay | OLAYLAR_EK5:1656-07-13:0 | b: bozuk anlatım
+- olay | OLAYLAR_EK5:1684-08-06:0 | b: bozuk tamlama
+- olay | OLAYLAR_EK5:1685-08-11:0 | b: bozuk tamlama
+- olay | OLAYLAR_EK5:1688-10-20:0 | d: anlam tersine: kayıp veren, kayıp verdiren değil
+- olay | OLAYLAR_EK5:1690-04-23:0 | b: bozuk tamlama
+- olay | OLAYLAR_EK5:1700-07-14:0 | b: bozuk tamlama
+- olay | OLAYLAR_EK5:1711-07-21:0 | b: bozuk tamlama
+- olay | OLAYLAR_EK5:1714-12-08:0 | d: 'ağır vergi' (কর) düşmüş, cümle anlamsız
+- olay | OLAYLAR_EK5:1716-10-13:0 | b: bozuk tamlama
+- olay | OLAYLAR_EK5:1716-10-13:0 | d: Latin yer adı kalıntısı; 'abi-merkez' anlamsız aktarılmış (TR iç notu ayrıca tr_hatalari'nda)
+- olay | OLAYLAR_EK5:1552-07-27:0 | d: Latin ad kalıntıları; 'ধরা হলো' bozuk
+- olay | OLAYLAR_EK5:1716-11-16:0 | d: Latin ad; 'abi-merkez' anlamsız aktarılmış
+- olay | OLAYLAR_EK5:1723-06-15:0 | d: bozuk sözdizimi ve zaman uyumu
+- olay | OLAYLAR_EK5:1727-10-04:0 | b: 'Batı İran'ın Osmanlıları' diye okunuyor
+- olay | OLAYLAR_EK5:1732-01-08:0 | d: 'শান্তিপাঠ' dinî dua demek; 'tepkiyle karşılanan' 'tepkiyle kabul edilen' olmuş
+- olay | OLAYLAR_EK5:1732-07-01:0 | b: bozuk tamlama
+- olay | OLAYLAR_EK5:1744-01-01:0 | d: bozuk sözdizimi ve dilbilgisi
+- olay | OLAYLAR_EK5:1757-10-30:0 | d: bozuk dilbilgisi
+- olay | OLAYLAR_EK5:1769-09-20:0 | b: bozuk tamlama
+- olay | OLAYLAR_EK5:1775-05-07:0 | b: bozuk tamlama
+- olay | OLAYLAR_EK5:1775-05-07:0 | d: bozuk tamlama ve sözdizimi
+- olay | OLAYLAR_EK5:1779-03-21:0 | d: 'পাঠ' (ders/okuma) 'metin/belge' yerine yanlış
+- olay | OLAYLAR_EK5:1790-01-31:0 | d: 'পাঠ' yanlış sözcük
+- olay | OLAYLAR_EK5:1792-01-10:0 | b: bozuk tamlama
+- olay | OLAYLAR_EK5:1815-04-23:0 | b: Latin harfli ad kalıntısı
+- olay | OLAYLAR_EK5:1815-04-23:0 | d: Latin harfli ad kalıntısı
+- olay | OLAYLAR_EK5:1830-05-07:0 | d: 'tersane' deniz üssü olmuş; dilbilgisi
+- olay | OLAYLAR_EK5:1851-02-11:0 | d: kitap adı 'তারিখ' 'tarih (gün)' diye okunuyor
+- olay | OLAYLAR_EK5:1867-06-08:0 | d: bozuk dilbilgisi
+- olay | OLAYLAR_EK5:1876-12-23:0 | b: Tersane Konferansı 'deniz üssü konferansı' olmuş
+- olay | OLAYLAR_EK5:1888-09-24:0 | b: imtiyaz 'ছাড়পত্র' (ibra/izin belgesi) olmuş
+- olay | OLAYLAR_EK5:1888-09-24:0 | d: imtiyaz yanlış sözcük
+- olay | OLAYLAR_EK5:1896-08-26:0 | d: bozuk sözdizimi
+- olay | OLAYLAR_EK5:1899-11-27:0 | b: imtiyaz yanlış sözcük
+- olay | OLAYLAR_EK5:1899-11-27:0 | d: imtiyaz yanlış sözcük; 'karşı çıkılan' proje karşı çıkan olmuş
+- olay | OLAYLAR_EK5:1905-04-01:0 | b: bozuk tamlama ('San'a'nın İmamı' gibi)
+- olay | OLAYLAR_EK5:1918-03-03:0 | b: bozuk tamlama
+- olay | OLAYLAR_EK5:1534-07-13:0 | d: bozuk sözdizimi
+- olay | OLAYLAR_EK5:1538-08-03:0 | d: 'kaptan kapısı' gemi kapısı diye çevrilmiş
+- olay | OLAYLAR_EK5:1696-01-01:0 | b: bozuk tamlama
+- olay | OLAYLAR_EK5:1550-01-01:1 | b: Sührâb adı yanlış; bozuk tamlama
+- olay | OLAYLAR_EK5:1550-01-01:1 | d: Sührâb adı yanlış
+- olay | OLAYLAR_EK5:1708-04-04:0 | b: bozuk tamlama
+- olay | OLAYLAR_EK5:1555-09-27:0 | b: bozuk tamlama
+- olay | OLAYLAR_EK5:1566-04-14:0 | b: 'Sakız'ın Cenevizlileri' diye okunuyor
+- olay | OLAYLAR_EK5:1500-12-24:0 | b: bozuk tamlama
+- olay | OLAYLAR_EK5:1482-01-01:1 | b: bozuk tamlama
+- olay | OLAYLAR_EK5:1427-01-01:1 | b: bozuk tamlama
+- olay | OLAYLAR_EK5:1513-01-01:0 | d: 'kale kaybedecek' diye okunuyor
+- olay | OLAYLAR_EK5:1543-01-01:0 | d: Derviş adı yanlış yazılmış
+- olay | OLAYLAR_EK5:1566-04-15:0 | d: sözcük tekrarı; Değirmenlik (Milos) Türkçe adla bırakılmış
+- olay | OLAYLAR_EK5:1715-07-20:0 | d: 'abi-merkez' anlamsız aktarılmış
+- olay | OLAYLAR_EK5:1918-03-28:0 | b: Artvin adı yanlış yazılmış (t düşmüş)
+- olay | OLAYLAR_EK5:1918-03-28:0 | d: Artvin yanlış; 'madde' çevrilmeden 'মাদ্দে' kalmış
+- olay | OLAYLAR_EK5:1918-04-03:0 | d: Artvin adı yanlış
+- olay | OLAYLAR_EK5:1918-12-17:0 | b: Artvin adı yanlış
+- olay | OLAYLAR_EK5:1918-12-17:0 | d: Artvin yanlış; 'মাদ্দে' Türkçe kalıntı
+- olay | OLAYLAR_EK5:1920-04-01:0 | b: Artvin adı yanlış
+- olay | OLAYLAR_EK5:1920-04-01:0 | d: Artvin yanlış; 'মাদ্দে' Türkçe kalıntı
+- olay | OLAYLAR_EK5:1920-07-07:0 | d: 'madde' çevrilmemiş
+- olay | OLAYLAR_EK5:1871-10-24:0 | d: özne karışmış, cümle bozuk
+- olay | OLAYLAR_EK5:1878-07-13:0 | d: bozuk anlatım
+- olay | OLAYLAR_EK5:1688-06-22:0 | d: Macarca 'Jenővel' (Jenő kalesiyle birlikte) kişi adı Eugène sanılmış
+- olay | OLAYLAR_EK5:1387-01-22:0 | d: bozuk cümle
+- olay | OLAYLAR_EK6:1730-08-12:0 | b: bozuk tamlama
+- olay | OLAYLAR_EK6:1689-02-03:0 | d: 'abi-merkez' anlamsız aktarılmış
+- olay | OLAYLAR_EK6:1770-09-27:0 | b: bozuk tamlama
+- olay | OLAYLAR_EK6:1770-09-27:0 | d: dilbilgisi hatası
+- olay | OLAYLAR_EK6:1810-07-11:0 | b: bozuk tamlama
+- olay | OLAYLAR_EK6:1822-12-12:0 | b: bozuk tamlama
+- olay | OLAYLAR_EK6:1831-01-01:0 | b: bozuk tamlama
+- olay | OLAYLAR_EK6:1833-04-12:0 | d: Türkçe kısaltma kalıntısı (böl., c., s.)
+- olay | OLAYLAR_EK6:1885-01-26:0 | d: 'Mavi Nil' yalnız 'নীল' olunca Nil/Beyaz Nil karışıyor
+- olay | OLAYLAR_EK6:1916-07-27:0 | b: bozuk tamlama
+- olay | OLAYLAR_EK6:1917-11-07:0 | b: bozuk tamlama
+- olay | OLAYLAR_EK6:1917-11-07:0 | d: Birüssebi (Beerşeba) adı yanlış
+- olay | OLAYLAR_EK6:1687-08-01:1 | b: bozuk tamlama
+- olay | OLAYLAR_ILIRYA0072:1813-01-01:0 | d: 'aidiyet' yanlış yapıyla çevrilmiş
+- olay | OLAYLAR_EK7:1493-01-01:0 | d: Latin Türkçe 'Matbaa' kalıntısı
+- olay | OLAYLAR_EK7:1579-10-12:0 | d: 'konağı' (kendi evi) saray olmuş
+- olay | OLAYLAR_EK7:1580-01-22:0 | b: hatt-ı hümâyun yanlış harf (ট/ত)
+- olay | OLAYLAR_EK7:1580-01-22:0 | d: hatt-ı hümâyun yanlış harf (ট/ত)
