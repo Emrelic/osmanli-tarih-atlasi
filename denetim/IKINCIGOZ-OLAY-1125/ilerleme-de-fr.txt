@@ -1,0 +1,14 @@
+de OLAYLAR:1481-05-03:0 okunan=23 oneri=0; fr OLAYLAR:1481-05-03:0 okunan=23 oneri=0
+de OLAYLAR:1715-01-01:0 okunan=48 oneri=1
+fr OLAYLAR:1715-01-01:0 okunan=48 oneri=0
+de OLAYLAR:1911-09-29:0 okunan=71 oneri=1
+fr OLAYLAR:1911-09-29:0 okunan=71 oneri=0
+de OLAYLAR_2S0920:1506-07-08:0 okunan=91 oneri=2
+fr OLAYLAR_2S0920:1517-04-15:0 okunan=92 oneri=1
+de OLAYLAR_2S1019:1392-10-26:0 okunan=127 oneri=2
+fr OLAYLAR_2S1019:1417-02-18:0 okunan=129 oneri=2
+de OLAYLAR_2S_0918:1327-09-18:0 okunan=164 oneri=2
+fr OLAYLAR_2S_0918:1357-12-14:0 okunan=167 oneri=5; de oneri=4
+de OLAYLAR_2S_0919:1353-01-01:0 okunan=201 oneri=5
+fr OLAYLAR_2S_0919:1371-11-01:0 okunan=205 oneri=5
+de #251 sonrasi 252'den; fr #256 sonrasi 257'den
