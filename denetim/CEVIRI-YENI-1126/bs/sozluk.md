@@ -58,11 +58,11 @@ ilhak = aneksija / pripojenje · "Aynı tarihte katılan öteki yerler" = "Ostal
 "Aynı tarihte elden çıkan diğer yerleşimler" = "Ostala naselja izgubljena istog datuma"
 beyanli yaklasiklik = deklarirana približnost · madde (ansiklopedi) = natuknica · Jülyen/Gregoryen = julijanski/gregorijanski
 ## Kisiler
-Osman-gazi, Orhan-gazi, Sulejman-paša, Murat I, Bajazid I Jildirim, Mehmed I (Mehmed Čelebi), Musa-čelebija, Jakub-čelebija, Murat II, Mehmed II Fatih (Fatih), Bajazid II, Džem-sultan, Selim Javuz (Selim I), Sulejman Kanuni, Selim II, Mehmed III, Murat IV, Ahmed III, Selim III, Mahmud II
+Osman-gazi, Orhan-gazi, Sulejman-paša, Murat I, Bajazid I Munja, Mehmed I (Mehmed Čelebi), Musa-čelebija, Jakub-čelebija, Murat II, Mehmed II Osvajač (sozluk_a ile), Bajazid II, Džem-sultan, Selim Javuz (Selim I), Sulejman Zakonodavac, Selim II, Mehmed III, Murat IV, Ahmed III, Selim III, Mahmud II
 Mehmed-paša Sokolović (Sokullu), Merzifonli Kara Mustafa-paša, Fazil Ahmed-paša, Gedik Ahmed-paša, Alemdar Mustafa-paša, Mehmed Ali-paša iz Kavale, Ali-paša Tepelena, Džezzar Ahmed-paša, Barbarosa, šejh Bedreddin, Timur, Uzun Hasan, šah Ismail, Mengli Giraj, Šahin Giraj, János Hunyadi, knez Lazar, Miloš Obilić, Lajoš II, Sigismund
 ## Yerler / devletler
-Istanbul, Edirne, Bursa, Iznik, Izmit, Trabzon (Trapezuntsko Carstvo), Konstanca, Galipolje, Nikopolj, Kosovo polje, Plovdiv (Filibe), Sofija, Skoplje, Bitola, Solun, Serez, Niš, Beograd, Smederevo, Budim, Beč, Mohač, Siget, Erdelj, Moreja, Rumelija, Anadolija, Rodos, Kipar, Kreta, Lepant, Krim, Kafa, Azov, Kamjanec, Podolija, Aleksandrija, Kairo, Egipat, Hidžaz, Halep, Damask, Mosul, Bagdad, Basra, Akka, Vlaška (Eflak), Moldavija (Boğdan)
-Akkoyunlu = Ak Kojunlu; Karamanoglu = Karamanovići; Memluk = Memluci / Memlučka država; Safevi = Safavidi; Habsburg; Venedik = Venecija; Lehistan = Poljska; Hacli = krstaši; Fetret = Fetret (interregnum)
+Istanbul, Edirne, Bursa, Iznik, Izmit, Trabzon (Trapezuntsko Carstvo), Konstanca, Galipolje, Nikopolj, Kosovo polje, Plovdiv (Filibe), Sofija, Skoplje, Bitola, Solun, Serez, Niš, Beograd, Smederevo, Budim, Beč, Mohač, Siget, Erdelj, Moreja, Rumelija, Anadolija, Rodos, Kipar, Kreta, Lepant, Krim, Kafa, Azov, Kamjanec, Podolija, Aleksandrija, Kairo, Egipat, Hidžaz, Alep, Tabriz, Damask, Mosul, Bagdad, Basra, Akka, Vlaška (Eflak), Moldavija (Boğdan)
+Akkoyunlu = Ak-Kojunlu; Karakoyunlu = Kara-Kojunlu; Karamanoglu = Karamanovići; Memluk = Memluci / Memlučka država; Safevi = Safavidi; Habsburg; Venedik = Venecija; Lehistan = Poljska; Hacli = krstaši; Fetret = Fetret (interregnum)
 Anadolu'daki kucuk yer adlari Turkce yazimiyla kalir.
 
 == sozluk_c.md
@@ -91,4 +91,11 @@ tersane = brodogradilište · saray = saraj · divan = divan · levend = levend 
 - Divan-ı Hümayun = Carski divan; kaptan-ı derya = kapudan-paša; akçe = akča; şehzade = princ (c: šehzada); vâlide sultan = valide-sultanija; hatt-ı hümayun = hatihumajun; Bâbıâli = Visoka porta
 - Sokullu = Mehmed-paša Sokolović; Köprülü = Ćuprilić; Pasarofça = Požarevac; Üsküdar = Uskudar; Rusçuk = Rusčuk (Ruse); İbrail = Braila
 - Tanzimat = Tanzimat; Meşrutiyet = Ustavna monarhija / meşrutiyet; İttihat ve Terakki = Komitet "Jedinstvo i napredak"; Kuvâ-yi Milliye = Nacionalne snage
+
+== sozluk_f.md
+# bs sozluk (ETIKET f) — olay_059..074 (antik); sozluk_a esas
+- sahipsiz aralık = interval bez vlasnika; "X noktalarında sahiplik A'dan B'ya geçer" = "Na lokacijama X pripadnost se mijenja: A → B."
+- Kaynak geçiş bilgisi: = Podaci izvora o promjeni: · Kaynak: = Izvor: · ayni kaynak = isti izvor · KAYNAKLANMADI = BEZ IZVORA
+- MÖ = p. n. e. · MS = n. e. · yazılı gelenek = pisana tradicija · cal BC / BP / MC aynen
+- devlet adları c_devlet ile aynı: Seleukidsko carstvo, Partsko (arsakidsko) carstvo, Ahemenidsko (perzijsko) carstvo, Carstvo Aleksandra Velikog, Novoasirsko carstvo, Medijsko kraljevstvo, Rimska Republika, Rimsko Carstvo
 
