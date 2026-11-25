@@ -1,0 +1,151 @@
+== tr_hatalari.md
+- arayuz "# Ocak # (imzalar # Ocak-# Mart arası şeyhlik şeyhlik tamamlandı)": "şeyhlik şeyhlik" tekrarı, cümle bozuk.
+- arayuz "# Eylül # [gün teyitsiz — ÇELİŞKİ-#: TDV «Uyvar» ...]" ve benzeri ("ÇELİŞKİ-#", "ic_not_t", "olaylar_ek# ...", "kronoloji_safevi.js", "(Emre notu ##)", "OKUNMADI", "karaman künye ic_not_t"): kullanıcıya görünen iç not metinleri.
+- arayuz "Ocak # (gün Kahire'den — bk. ic_not_t)": kullanıcıya görünen iç not (ic_not_t).
+- olay OLAYLAR:1913-05-30:0: TR.d'de "Girit'te Hanya, Kandiye, Girit (Resmo)" bozuk (herhalde "Resmo").
+- olay OLAYLAR:1739-09-18:0, OLAYLAR_EK:1461-06-01:0, EK:1717-08-18:0, EK3:1688-09-06:0, EK3:1690-10-08:0, EK3:1695-09-22:0: TR'de kullanıcıya görünen iç not dili ("atlasta ... yazılıdır", "abi-merkez zinciri", "beyanlı yaklaşıklık", "bölge günü").
+- olay OLAYLAR_EK11:1796-01-01:0: "Meşhed ... Ağa Muhammed Şah'ın önünde Afşar hükümdarı Şâhruh tarafından karşılandı" cümlesi bozuk.
+- olay OLAYLAR_2S_0918:1462-01-01:0: "Yukarı Dicle'de Hama ile birlikte ... ayakta kalan iki koldan biri olan Hısnıkeyfâ ve Siirt" anlatımı bozuk/yanıltıcı (Hama Yukarı Dicle'de değil).
+- olay OLAYLAR_EK7:1735-03-21:0, OLAYLAR_EK5:1555-01-01:0, 1716-10-13, 1718-07-21: kullanıcıya görünen iç not dili ("haritada Gence günü kullanılır", "beyanlı yaklaşıklık", "haritada ... gösterilir").
+- olay OLAYLAR_2S0920:1942-01-01:0: TR.d'de kullanıcıya görünen iç not "(bkz. ic_not)" (çeviride de duruyor).
+- devlet "sutayogullari": TR'de Türkçe karakter eksik ("Sutayogullari").
+- devlet "cemisgezek-beyligi": TR'de Türkçe karakter eksik ("Cemisgezek Beyligi").
+- devlet "misir-erken-hanedan" ve devamındaki antik/Asya kayıtlarının bir bölümü (misir-*, akad, ur-3, isin, esnunna, *-hanedani, neustria, austrasia, essex, perlak vb.): TR'de Türkçe karakter eksik ("Misir", "Krallik/Kralligi", "Donemi", "Hanedani", "Imparatorlugu", "Guney", "Bati").
+
+== tr_hatalari_a.md
+- olay OLAYLAR:1699-01-26:0: TR.d'de kullanıcıya görünen iç not dili ("atlas ... yazar", "yerleşime özgü teslim günü kaynakta yok", "beyanlı yaklaşıklık", "TDV karlofca"); Kostajnica/Jasenovac iki kez sayılıyor.
+- olay OLAYLAR:1913-05-30:0: "Girit'te Hanya, Kandiye, Girit (Resmo)" bozuk.
+- olay OLAYLAR_EK:1324-01-01:0: "Haritadaki 1324 sınırı yer tutucudur" geliştirici notu.
+- olay OLAYLAR_EK:1328-01-01:0: "uç beyliği bölge Şehzade Murad'a verildi" bozuk cümle.
+- olay OLAYLAR_EK:1526-09-01:0: "Budin'e yürüyen Osmanlı ordusuna şehrin anahtarları ... sultana takdim edildi" bozuk cümle.
+- olay OLAYLAR_EK3:1689-08-01:0 ve 1689-10-25:0: "bu oturumda yeniden doğrulanmadı" (Claude oturum notu kullanıcıya görünüyor; çeviride de duruyor).
+- olay OLAYLAR_EK3:1690-09-27:0, 1690-10-01:0, 1690-10-08:0, 1695-09-22:0, 1688-09-06:0: kullanıcıya görünen iç not ("beyanlı yaklaşıklık", "çelişki çözülmedi", "TDV esas alındı", "abi-merkez zinciri").
+- olay OLAYLAR_EK4:1815-01-20:0: "13 Ocak günü beyanlı yaklaşıklıktır" iç not; maddenin tarihi 20 Ocak, metin 13 Ocak diyor (kontrol).
+- olay OLAYLAR_EK4:1832-09-13:0, 1832-09-13:1, 1833-01-01:1: "alt sınır; atama günü kaynakta yok", "kaynaklı ara noktasıdır", "tanıklık bulunamadı" iç not dili.
+- olay OLAYLAR_EK5:1660-08-27:0: "katılan öteki yerler: Varat" (maddenin kendi şehri tekrar, yazım farklı).
+- olay OLAYLAR_EK5:1345-01-01:0, 1385-01-01:0: kaynak çelişkisi/"burada 1385 esas alınmıştır" iç not üslubu.
+- olay OLAYLAR_EK5:1716-10-13:0, 1716-11-16:0, 1791-08-04:0: "atlasta ... yazılıdır", "abi-merkez zinciri", "beyanlı yaklaşıklık", "n. 118".
+- olay OLAYLAR_EK5:1775-05-07:0, 1518-01-01:0: "(gün teyitsiz)" iç not.
+
+== tr_hatalari_b.md
+- olay OLAYLAR_EK5:1865-01-01:0: 1846'da Mehmed Ali Paşa "Mısır Hidivi" deniyor (hidiv unvanı 1867).
+- olay OLAYLAR_EK5:1872-04-01:0, OLAYLAR_EK5:1824-06-01:0, EK5:1878-07-29:0 vb.: gövdede "Aynı tarihte katılan/elden çıkan öteki yerler: ..." atlas listesi kullanıcıya görünüyor.
+- olay OLAYLAR_EK5:1878-01-04:0: "1878 sonunda özerk Bulgaristan Prensliği'nin, 1879'da fiilen başşehri olacaktı" bozuk cümle.
+- olay OLAYLAR_EK5:1715-07-20:0, 1718-07-21:0, 1798-10-23:0, EK6:1535-09-22/1547-01-01, EK6:1686-10-23, EK6:1688-06-22, EK6:1689-02-03, EK6:1730-08-12, EK7:1735-03-21: iç notlar görünüyor ("abi-merkez", "beyanlı yaklaşıklık", "TDV <slug>", "atlas günü", "bkz. önceki madde").
+- olay OLAYLAR_ILIRYA0072:1806-02-01 / 1806-01-01 / 1779-01-01: "atlasta bugüne kadar ... görünüyordu", "atlasın tek 'Fransa' penceresi" geliştirici notu.
+- olay OLAYLAR_EK5:1555-01-01:0: parantez içi harita/kaynak notu ("Bu yıl yaklaşıktır, kaynak yıl vermez").
+- olay OLAYLAR_EK7:1406-10-15:0, OLAYLAR_EK8:1924-01-01:0: ters tırnaklı slug (`tebriz`, `harizm`) kullanıcıya görünüyor.
+- olay OLAYLAR_EK7:1408-04-13:0: açıklama ";" ile yarım bitiyor.
+- olay OLAYLAR_EK5:1912-11-25:0: "I. Balkan Savaşı'nda 7 Nisan 1912'de bombalanan Sakız" (Nisan 1912 Trablusgarp Savaşı dönemidir; Balkan Savaşı Ekim 1912).
+- olay OLAYLAR_EK5:1912-10-30:0 ve 1912-11-01:0: Semadirek işgali iki maddede.
+- olay OLAYLAR_EK5:1521-01-01:0: "1481-1521 şövalye idaresi" ardından "ilk Osmanlı dönemi 1522" ve "kaymakam" (dönem için anakronik görünüyor).
+- olay OLAYLAR_EK8:1893-02-18:0: "torununun torunu" (II. George Tupou, I. George'un torununun oğlu olmalı).
+- olay OLAYLAR_EK9:1911-10-08:0: abluka (25-26 Eylül) savaş ilânından (29 Eylül) önce yazılmış.
+- olay OLAYLAR_EK9:1837-10-13:0 / EK9:1911-11-05:0: harita çizim açıklamaları (taralı, renk) madde metninde; EK10'un birçok maddesinde de "haritada ... görünür" anlatımı.
+
+== tr_hatalari_c.md
+- olay OLAYLAR_EK10:1420-01-01:0: TR.d'de kullanıcıya görünen iç atıf "(... — TDV silistre)".
+- olay OLAYLAR_EK11:1502-01-01:0: "on kayıt hâlinde" (iç veri sözü) ve "(gün teyitsiz)" kullanıcıya görünüyor.
+- olay OLAYLAR_EK11:1747-06-20:0: "gün teyitsiz" iç notu.
+- olay OLAYLAR_EK11:1796-01-01:0: Meşhed cümlesi bozuk ("Meşhed ... Ağa Muhammed Şah'ın önünde Şâhruh tarafından karşılandı").
+- olay OLAYLAR_EK14:1568-01-01:0: "(tamamlanışı kronolojide zaten kayıtlı)" iç not.
+- olay OLAYLAR_EK16:1335..1905 (EK16:1438-01-01:0): "harita bu sürecin başlangıcını ... esas alıyor" (bilgi amaçlıysa sorun değil, bakılmalı).
+- olay OLAYLAR_EK16:1941-07-09:0: "arama özeti [özet]" geliştirici notu.
+- olay OLAYLAR_EK16:1341-01-01:0: "(künyede Özbek/Canibek)" iç veri sözü.
+- olay OLAYLAR_EK16:1941-07-28:0: son cümle bozuk ("Estonya sivil idaresi 5 Aralık 1941'de, Belarus'un doğusu askerî idarede kaldı").
+- olay OLAYLAR_EK16:1307-01-01:0: "(atlas künye tarihi 1307; ...)" iç not.
+- olay OLAYLAR_EK16:1945-05-08:0: başlıkta İngilizce "Courland Army Group".
+- olay OLAYLAR_EK16:1941-06-23:0, :1, 1944-07-16:0, 1944-07-28:0: Türkçe karakterler eksik ("isgal", "Dogu Cephesi", "Kizil"); açıklamalar yalnız etiket.
+- olay OLAYLAR_EK17:1725-01-01:0: "Gün TDV'de belirtilmiyor, yıl beyan" iç not.
+- olay OLAYLAR_EK20:1768-05-15:0: "Bu yıl (1768)" ifadesi ve "gün teyitsiz" iç notu.
+- olay OLAYLAR_EK22:1923-07-24:0: TBMM onay günü metin içinde çelişiyor (23 Ağustos 1923 / tabloda 2 Ağustos 1923); "özetlerinde geçmiyor", "İzmir özelinde madde kanıtı yok", "TDV'nin madde aralıkları da böyledir" iç notları.
+- olay OLAYLAR_SENKRON_0930:1436-01-01:0: "Atlas ... (beyanlı yaklaşıklık)" iç not.
+- olay OLAYLAR_2S_0918:1901-09-02:0: "Rey Buba (Adamava (Alman payı))" iç veri etiketi.
+- olay OLAYLAR_2S_0918:1889-01-01:0: "Kerene" (kesme işaretsiz/bozuk ek).
+- olay OLAYLAR_2S0920:1955-11-23:0 ve 1958-10-01:0: İngilizce yasa adları ağır; bkz. metin.
+- olay OLAYLAR_2S0920:1941-05-05:0: "Atlas bu günü ... dönüş sınırı olarak kullanır" iç not.
+- olay OLAYLAR_2S0920:1942-01-01:0: "(bkz. ic_not)" kullanıcıya görünen geliştirici metni (çeviride de "βλ. ic_not" duruyor; TR düzelince çeviri de güncellenmeli). ACİL.
+- olay OLAYLAR_2S0920:0224-04-28:0: "Atlas Isfahan'ı ... sayar" iç not.
+- olay OLAYLAR_SENUSI_0919:1691-01-01:0: "Eski kayıtta ... beyanlı boşluktu; ... artık Habsburg olarak boyanır" geliştirici notu.
+- olay OLAYLAR_SENUSI_0919:1716-10-18:0, 1688-01-01:0: "Eski kayıt ... yıl tabanı" geliştirici notu.
+- olay OLAYLAR_SENUSI_0919:1717-01-01:0: "petekleri ... boyanır; kesin gün teyitsizdir" motor/geliştirici notu.
+
+== tr_hatalari_d.md
+- olay OLAYLAR_P0049:1724-05-06:0: d'de kullanıcıya görünen iç not ("zincir Hoy'dan devralındı ... beyanlı yaklaşıklık").
+- olay OLAYLAR_P0057:1921-01-01:0: b'de "(yıl)" iç etiketi.
+- olay OLAYLAR_P0056:1811-07-04:0: "Kaminski" (başka maddelerde Kamenski).
+- olay OLAYLAR_ARKEOLOJI_D2_IRAN_ORTA_ASYA:-3199-01-01:0: "Brifteki 'MO ~3100' ..." — ajan brifi metni kullanıcıya görünüyor (ağır).
+- olay OLAYLAR_ARKEOLOJI_D3_ITALYA_AVRUPA:-0751-01-01:0: "bu oturumda KAYNAKTAN okunmadı" iç not.
+- olay OLAYLAR_ARKEOLOJI_D3_ANADOLU_EGE:-1199-01-01:0: b'de "3. dalga okuma notu".
+- olay OLAYLAR_ARKEOLOJI_D3_AMERIKA_PASIFIK:-14961 / -22206: "(ufuk dışı)", "(kaynak)" iç notlar; AMERIKA_PASIFIK/AFRIKA/ARKEOLOJI_LEVANT kayıtlarının TR'si Türkçe harfsiz ("kulturu, yerlesme, Ust, koyu").
+- olay OLAYLAR_ARKEOLOJI_PILOT:-7099-01-01:0: "~200 yıl geriye (daha geç)" çelişkili.
+- olay OLAYLAR_ARKEOLOJI_ZINCIR:* (geniş grup): ham makine metni ("Roma Cumhuriyeti'dan", "sahipsiz aralık", "ayni kaynak", "(ANTIK-ISKENDER-1113-B)", "KAYNAKLANMADI (bu oturumda kaynak yok)", "bu turda okunmadı", "künye t=0027 / t uzatıldı", "web aynası").
+- olay OLAYLAR_ARKEOLOJI_ZINCIR:-0910-01-01:0: not MÖ 14. yy (Aşşur-uballit I) anlatıyor, geçiş "Yeni Asur" ve tarih -0910; içerik uyuşmuyor.
+- olay OLAYLAR_ARKEOLOJI_ZINCIR:-1099 / -1899 / -2003 / -2024: "Kaynak geçiş bilgisi" başka geçişe ait (ör. -2024 için MÖ 16. yy Kassit bölünmesi; -1099 için Ur III çözülmesi).
+- olay OLAYLAR_ARKEOLOJI_ZINCIR:-0329 / -0310 / -0330: başlık ile açıklamadaki devir tarafları uyuşmuyor ("sahipsiz aralık").
+- olay OLAYLAR_ARKEOLOJI_ZINCIR:-0145-01-01:0 / -0799: "Korint: Korint dönemi" (dönem adı yer adı).
+- olay OLAYLAR_ARKEOLOJI_GECIS:*: b'de "sahip dönemi sona erer" iç kalıbı.
+- olay OLAYLAR_OK109:1918-10-31:0: "aslî cumhurbaşkanı" — Károlyi 11 Ocak 1919'da geçici cumhurbaşkanı oldu (el çevirisi "προσωρινός" diyor); doğrulanmalı.
+- olay OLAYLAR_OK109:1918-11-14 / 1918-10-28: "14 Kasım'da başkanlığına Masaryk'in getirildiği hükümet" — Masaryk cumhurbaşkanı seçildi, hükümet başkanı Kramář; doğrulanmalı.
+- olay OLAYLAR_T5_1000A:* : "(atlas bu tarihten önceyi boş bırakır)", "(bölge cümlesi)", "(... maddesi 1120 der)", "künye" notları; 1199-01-06 "TDV'de BULUNAMADI ... künye günü kaynak değildir".
+- olay OLAYLAR_T5_1000A:1231-01-01:1 ve 1256-01-01:0: "atlas ... Emre kararıyla / (Emre kararı)", "(kural 5 sınırı)" — sahibin adı ve iç kural kullanıcıya görünüyor (ağır).
+- olay OLAYLAR_T5_1000B:1171-09-13:0: "(Emre #23 metbû modeli)", "künye günü kaynak değildir" (ağır); 1250-04-30:0 "fark bildirildi"; 1261-06-09:0 "(alt sınır)".
+- olay OLAYLAR_KURULUS_GERI_1021:0745 / 0972 / 1085-05-25: "sahip beyanlı boşluk", "gün künye f'sinden", "kuyruk kronolojide ayrı kayıtlı" iç notlar.
+
+== tr_hatalari_e.md
+- olay OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1115-07-24:0: d alanında kullanıcıya görünen iç veri: `(kesinlik: {"f": "yuzyil", "t": "gun"}) Ayrıca ... URL` (çeviride de aynen duruyor; ÖNCELİKLİ)
+- olay OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1000-01-01:1: d'de "(yıl)" iç hassasiyet notu ve ham Norveççe alıntı
+- olay OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1056-01-01:1: d sonunda "(yıl)" iç notu
+- olay OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1096-01-01:0: d'de "(1096-97 Althing'leri; yıl)" ve ham Norveççe alıntı
+- olay OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1241-01-01:1: d'de "(gün bilinmiyor, yıl esas)" iç notu ve İngilizce alıntı
+- olay OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1000-01-01:0: "arşiv ve piskoposluklar" büyük olasılıkla "başpiskoposluk ve piskoposluklar"
+- olay OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:0980-01-01:0: "öldürtü" yazım hatası (öldürttü)
+- olay OLAYLAR_ORTACAG_IRAN_TURAN:1090-03-06:0: d'de "Melikşah ... Bâtınîlerle mücadeleyi devlet politikası" cümlesi iki kez
+- olay OLAYLAR_ORTACAG_BATI_AVRUPA:0800-12-25:0: "800'de ... gitti; ertesi Noel gününde" ifadesi hatalı/belirsiz
+- olay OLAYLAR_ORTACAG_ORTADOGU:0946-07-04:0: "oğlu Ünûcûr, Kâfûr'un vesayetinde geçti" bozuk cümle ("vesayetinde başa geçti")
+- olay OLAYLAR_ORTACAG_ORTADOGU:1281-01-01:0: "ay belirtilir, gün yok" iç notu; yalnız yıl verilmiş, "ay belirtilir" tutarsız
+- olay OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1095-01-01:0: d sonunda "(ö. 488/1095 [?])" ansiklopedi artığı
+- Atlas iç dili birçok d alanında kullanıcıya görünüyor ("Atlasta ... künyesiz / beyanlı boşluk / BEYANLI YAKLAŞIKLIK", "TDV'de gün yok"): ör. OLAYLAR_ORTACAG_ORTADOGU:1076-08-05:0, OLAYLAR_ORTACAG_ORTADOGU:1102-05-22:0, OLAYLAR_ORTACAG_IRAN_TURAN:1092-11-19:0
+
+== tr_hatalari_f.md
+- olay OLAYLAR_ORTACAG_BOZKIR:1239-10-18:0: d'de kaynak notu "(TDV'de 'Çernikov')" kullanıcıya görünüyor.
+- olay OLAYLAR_ORTACAG_BOZKIR:1209-01-01:0: "Al-Hatun" adı kuşkulu (literatürde Al Altun). Çeviri TR'ye uyduruldu; teyit gerekir.
+- olay OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1142-02-01:0: "nâib Pu-su-wan" (kız kardeş/naibe) ifadesi belirsiz; CV erkek naip diyor.
+- olay OLAYLAR_ORTACAG_CIN:0907-06-01:0: d "; " ile yarım bitiyor.
+- olay OLAYLAR_ORTACAG_CIN:0640-10-11:0 / 0756-07-14:0 / 0842-01-01:0 / 0994 / 1127-05-13 / 1129 / 1142 / 1259: d'de Çince karakterler (甲午, 癸卯, 將作少監 vb.) kullanıcıya görünüyor.
+- olay OLAYLAR_ORTACAG_CIN:1100-02-23:0: "ayni anadan" (aynı).
+- olay OLAYLAR_ORTACAG_DOGU_GUNEYDOGU_ASYA:0929-01-01:0/1, 0936-09-26:1/2, 1185-12-21:0-3, 1222-01-01:0/1: d sonunda parantezli alan notları ("(Brantas deltası Doğu Cava.)", "(Hubaekje ülkesi.)", "(Hōjō Tokimasa'nın ... yer.)") iç not gibi görünüyor.
+- olay OLAYLAR_ORTACAG_CIN:... ve ANTIK_MISIR_NUBYA:-2054-01-01:0: "(aşağıdaki madde)" iç gönderme.
+- olay OLAYLAR_ANTIK_MISIR_NUBYA:0069-07-01:0: "Yahudi ordusu" büyük olasılıkla "Yahudiye ordusu" (Iudaea'daki Roma lejyonları).
+- olay OLAYLAR_ANTIK_YAKIN_DOGU:-0585-01-01:0: "Şehir sonunda ... sona erdi" bozuk (kuşatma sona erdi).
+- olay OLAYLAR_ANTIK_YAKIN_DOGU:-0330-10-01:0: d cümlesi bozuk ("sol kanat savunmasıyla yarıp içeri girdiği saldırıda").
+- olay OLAYLAR_ANTIK_YAKIN_DOGU:-1224-01-01:0: "orta çağın en güçlü devleti" (kastedilen Orta Asur dönemi?).
+- olay OLAYLAR_ANTIK_AKDENIZ:-0035-01-01:0, -0063-01-01:0, 0106-01-01:0: "(... kronolojide ayrı maddedir)" iç notu; 0106'da ayrıca eksik nokta ve "..".
+- olay OLAYLAR_ANTIK_AKDENIZ:-0277-01-01:0: d'de TDV alıntısı kullanıcıya görünüyor; alıntıdaki "milattan önce 278-189" ifadesi okunuşa açık.
+- olay OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1061-01-01:0: "TDV bu yılı ... verir" kaynak notu.
+- olay OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1073-01-01:0: b "bağımsızlık..." ile kesik.
+- olay OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1131-01-01:0: d'de araştırma notu ("Treccani ayrıca: ... (Treccani DBI Ruggero II)") ve "katilir" yazımı.
+- olay OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1136-01-01:0: "Dükalik" (Dükalık).
+- olay OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1205-01-01:0: "Dördüncü Haçlı Seferi'nden yirmi yıl sonra" yanlış görünüyor (sefer 1204).
+- olay OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0831-02-18:0 ve 0831-09-12:0: Palermo teslimi iki ayrı günde iki madde; 0843-01-01:0/1 Messina mükerrer.
+
+== tr_hatalari_g.md
+- olay OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1209-01-01:0 ve 1247-01-01:0: bozuk Türkçe ("vikontluk ... kraliyete el konuldu" / "krala el konuldu").
+- olay OLAYLAR_LAB19_2S_P6:1944-10-20:0 (b): "Kızıl Ordu'since" bozuk.
+- olay OLAYLAR_ALM1115B:1815-01-01:0: kullanıcıya "künyesi" iç terimi görünüyor.
+- olay OLAYLAR_AVMAC_A_1029:1180-01-01:0 ve OLAYLAR_FRANSA_KONTROL_1027:1284-01-01:0: "(künyede ...)", "(künye t)" iç not.
+- olay OLAYLAR_AVMAC_C_1029:1918-11-13:0: "Haritada Macaristan zincirleri ... döner ... hukukî halka" geliştirici dili.
+- olay OLAYLAR_AVMAC_C_1029:1918-11-16:0 ve 1919-03-21:0, 1949-08-20:0, 1995-01-01:0, 2004-05-01:0: iç kimlikler (macaristan-naiplik, macaristan-halk-cumhuriyeti, macaristan-halk, avusturya-ikinci-cumhuriyet) kullanıcıya görünüyor.
+- olay OLAYLAR_AVMAC_C_1029:1945-07-09:0: "motor dondurma: yeni BOYALAR anahtarı eklenmedi" geliştirici notu.
+- olay OLAYLAR_AVMAC_FINAL_1029:1703-01-01:0: "(borç)" iç not; 1866-08-23:0 "bkz. ayrı madde".
+- olay OLAYLAR_AVUSTURYA_MACAR_1027:1523-01-01:0, OLAYLAR_FRANSA_KONTROL_1027:1388-09-28:0 ve 1348-06-09:0: "Atlas bu sınırı zaten taşıyordu; madde eksikti" / "Yerleşim kaydı bu sınırı taşıyordu; madde eksikti" geliştirici notu.
+- olay OLAYLAR_FRANSA_KONTROL_1027:1360-10-24:0: "atlasta ... ingiltere'ye" (küçük harf, kimlik).
+- olay OLAYLAR_NAPOLYON_ITALYA_1028:1800-06-04:0, 1849-08-22:0: "(bilgi kutusu ...)"; 1849-07-03:0: "(Vikipedi 2 Temmuz ...)"; 1143-01-01:0: "(künye f 1143)"; 1532/1540: "gün/ay okunmadı"; 1128-01-01:*: "zincirleriyle", "(ikincil)", "şehre özgü tarihli cümle bulunamadı".
+- olay OLAYLAR_P0068:1789-09-22 (P0068B:1789-09-22:0): araştırma/doğrulama iç notu ("ESBE", "TDV akkirman", "okunan kaynakta doğrulanamadığından").
+- olay OLAYLAR_P0067:1788-09-21:0: "karsi-karansebes-1788" iç dosya kimliği.
+- olay OLAYLAR_P0068:1789-10-13:0: "okunan dört TDV maddesi" iç not.
+- olay OLAYLAR_DUNYA_BOLGE_1109:1917-03-15:0: "[[rusya-gecici-hukumet]], [[sovyet-rusya]]" wiki bağlantısı görünüyor.
+- olay OLAYLAR_DUNYA_BOLGE_1109:1905-01-22:0: "çariçenin muhafızlarınca" yanlış (çarın olmalı; çeviri zaten "çarın").
+- olay OLAYLAR_GEZGINLER:1503-01-06:0: "yerel kaşif Quibían" (kabile reisi/kasik olmalı).
+- olay OLAYLAR_GEZGINLER:1861-11-01:0, 1829-11-03:0 (d), 1871-03-09:0 (b "on gezi"), 1891-06-14:0: ASCII Türkçe ("nehri agzi", "kavsagi", "on gezi", "Golu", "bati ucu", "gecis").
+- olay OLAYLAR_AVMAC_A_1029:1156-09-17:0: "Bavyera dükalığından Bavyera'yı imparatora geri verdi" bozuk.

@@ -1,0 +1,48 @@
+== notlar_a.md
+- Uygulama "yeni" (alanın tamamı) üzerinden yapılmalı; bazı satırlarda "eski" birebir alt dize değil, düzeltilen parçaların özetidir (";" / "..." içerir).
+- Aynı id+alan için iki satır yoktur beklentisi; çakışma olursa sonraki dosya geçerlidir.
+- Sistematik, kısmen düzeltilmedi: Kütahya çoğu kayıtta nötr ("το/του Κιουτάχεια"); doğrusu dişil "η/της Κιουτάχειας". Yalnız dokunulan iki kayıtta (1381, 1402-09-15) düzeltildi. Toplu geçiş gerekir.
+- "Azak" tutarlı biçimde "Αζάκ" yazılmış; Yunanca yerleşik ad "Αζόφ". Toplu karar gerekir (denizde "Αζόφ" kullanılmış).
+- "μπεηλίκι" / "βεγιλίκι" iki biçim karışık (yalnız 1923-10-29 birleştirildi). "Χετζάζ"/"Χιτζάζ", "Τάιφ"/"Ταΐφ" karışık.
+- Parantez içinde veya atlas etiketi olarak Latin harfli yer adları bazı kayıtlarda bırakıldı (ör. Hisarcık (Grocka), Yagodina, Kostayniçe/Jasenovaç, Karánşebeş, Csákóvár, Kırım listesi OLAYLAR:1783-04-19:0). Açık Yunanca karşılığı olan listeler düzeltildi.
+- "Απώλεια του X στους Y" başlık kalıbı Yunancada zayıf ama anlaşılır; toplu değiştirilmedi.
+
+== notlar_b.md
+- Düzeltilmeyen tutarsızlıklar: kurum/eser adlarının bir kısmı Latin-Osmanlıca bırakılmış (Encümen-i Dâniş, Şûrâ-yı Devlet, Kanûn-ı Esâsî, Meclis-i Meb'ûsan; EK5 paketleri) ama EK7'de Yunanca harfle yazılmış. Toplu karar gerektirir.
+- Aynı yer için farklı yazımlar: Γκιάντζα/Γκιντζέ, Ταμπρίζ/Ταυρίδα, Πασαρόβιτς/Πασάροβιτς, μπεηλέρμπεης/μπεϊλέρμπεης, εγιαλέτι/έγιαλετ, Αμπντούλ Χαμίτ/Αμπντουλχαμίτ.
+- "μεντρεσές" bazı maddelerde dişil (αυτή η μεντρεσέ) kalmış olabilir.
+- İbrâil = Braila hatası (EK7:1809-12-02, 1828-06-23) bu aralıkta düzeltildi; başka paketlerde ve arayüz/devlet tarafında "İbrâil -> Ισμαήλ" taranmalı. "Değirmenlik" (Milos) için de aynı tarama yapılmalı.
+
+== notlar_c.md
+- SISTEMATIK (duzeltilmedi, toplu yeniden ceviri gerekir): 4_olay_098'in ikinci yarisi - 4_olay_102 araliginda (SENKRON_0930 sonu, COK_ARABISTAN2, 2S_0918, ORTADOGU_0919, 2S_0919'un ilk bolumu) ozel adlar Yunancaya cevrilmeden Latin/Turkce yazimla birakilmis (Szatmár, Bocskai, Rákóczi, Süleyman Çelebi, Hadım Süleyman Πασά, Kara Yûsuf, Mütevekkil-Alellah, Kesîrî, Aşkale, Babadağ, Göktepe, Dulkadıroğlu, Şeybânî, Mâzenderan, Afşar, Qajar, Zamość vb.). Ayni dil icinde Yunanca bicimlerle (Σατμάρ, Μπότσκαϊ) karisik.
+- Qajar / Κατζάρ, Zend / Ζεντ, Sa'dîler gibi adlarda paketler arasi tutarsizlik; c turunda yalniz Σααδίτες, Ζεντ (iki yer) duzeltildi.
+- Beylik adlari "Πριγκιπάτο των Χαμιντογουλαρί / Μπεηλίκι" tutarsiz; degistirilmedi.
+- OLAYLAR_EK16:1561/1797/1809 vb. Latin harfli kisi adlari (Gotthard Kettler, John Talbot, James Stanhope) kabul edilebilir sayildi, degistirilmedi.
+- OLAYLAR_2S0920:1942-01-01:0 CV'deki "(βλ. ic_not)" TR kaynaktan geliyor; talimat geregi degistirilmedi.
+
+== notlar_d.md
+Mekanik / sistemik, tek tek düzeltilmedi:
+- "Kisim I" -> "Μέρος I" (d alanı): OLAYLAR_ARKEOLOJI_ZINCIR:-2111-01-01:0, -2143-01-01:0, -2153-01-01:0, -2299-01-01:0, -2349-01-01:0 (-1099, -1807, -1899, -2003, -2023 düzeltme dosyasında). Betikle değiştirilebilir.
+- Latin harfli özel adlar: SEHIR_ILK grubunun 4_olay_117 ve 118'deki kayıtları (Saraybosna sonrası: Hünkâr, Basra/Ömer, Nâdir Şah, Malatya, Van, Bahçesaray, Herson sonrası Rus yerleşimleri, Zaporojye/Seç dizisi) büyük ölçüde Latin harfli ad bırakmış (İshak Bey, Miljacka, Yekaterinoslav, Novoçerkask, Seç, koşevoy ...). Bunlar DÜZELTİLMEDİ; ayrı bir ad-Yunancalaştırma turu gerekir. (116'daki ve 117 dışındaki Türkçe ağırlıklı kayıtlar ile 114-115 düzeltildi; 116'nın SEHIR_ILK kayıtlarından Mostar, Banaluka, Bilecik, Burdur, Çorum, Vâdî Halfâ düzeltildi.) Tatarpazarcığı yalnız başlıkta düzeltildi.
+- ARKEOLOJI_* kayıtlarında yabancı site/kültür adları Latin harfli (kabul edilebilir bulundu, değiştirilmedi).
+- "Λεβάντε" dişil kullanılıyor ("στη νότια Λεβάντε"); nötr/eril olmalı — sistemik.
+- "η καζά" (dişil) yerine standart "ο καζάς" — sistemik.
+- Aynı hanedan için yazım tutarsızlığı: Ντανισμεντ-/Δανισμενδ-, Ομεϋάδες/Ομαγιάδες, Μαλάτια/Μαλάτεια, Καϊρουάν cinsiyeti.
+- ARKEOLOJI_ZINCIR -0126 vb. bölge "Hamadan" Latin (Χαμαδάν) — ZINCIR kayıtlarında geçiyor.
+
+== notlar_e.md
+- TOPLU İŞ GEREKİYOR: OLAYLAR_ORTACAG_* serilerinde Yunanca metin içinde Latin harfli Arapça/Türkçe/Avrupa adları, ay adları (Rabi al-Awwal, Sha'ban) ve terimler (khutba, atabeg, bey, manshur, malik) yaygın. 143-145 tamamen Yunancaya çevrildi; 146-177'de yalnız anlam/dilbilgisi/yabancı dil biçimi (Ghurides, Zirides, Saltukides, bey, investi, Papato, fetret vb.) hatası olan kayıtlar düzeltildi. Geri kalan Latin transliterasyonlar DÜZELTİLMEDİ: yoğun paketler 146, 147, 149-151, 154-155, 157-158, 167-168, 172-175, 176 başı. Ortak ad sözlüğüyle tek geçiş önerilir (ajanlar arası biçim tutarlılığı için). Sayım: bu aralığı da içeren 4_olay_1[4-7]* dosyalarında Latin sözcüklü CV.d satırı 535 (4_olay_141-179 arası, kaba ölçüm).
+- Paralel biçim farkları (bırakıldı): Δανισμενδίτες/Δανισμενδίδες, Ερζουρούμ/Ερζερούμ, Βελιγράδι tipi dışı bazı Türk yer adları Latin harfli (Çankırı, Kastamonu, Malatya, Sivas).
+- 1061 Mağrib kaydı "περιοχή του Μαρόκου" (TR "Fas bölgesi"): şehir mi ülke mi belirsiz, bırakıldı.
+- 1155-03-07 Ani: TR "Ermeni rahibeler" şüpheli (rahip olabilir); çeviri TR'ye göre kadın bırakıldı.
+
+== notlar_f.md
+- Transkripsiyon karışık: aynı pakette Yunan harfli ve Latin harfli özel adlar (Abu Tahir / Αμπού Γκανίμ; Elam, Ur, Akkad, Marduk Latin/Yunan). Üslup sayılıp topluca değiştirilmedi.
+- "Fas" şehir (Fes) mi ülke mi: OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0960-03-03:0, 0993-02-26:0 ve IRAN_HINT_MAGRIB 0985, 1001, 1070 CV'leri "Μαρόκο" diyor; büyük olasılıkla Fes şehri (Φεζ/Φες). TR belirsiz olduğu için yalnız 1146 b (d şehri açıkça söylüyor) düzeltildi.
+- "Υπερώξεια" biçimi önceki turlarla tutarlı bırakıldı; yerleşik biçim "Υπερωξιανή/Τρανσοξιανή" olabilir. 1000/1088 civarı bazı kayıtlarda "Υπεροξιανή" de geçiyor.
+
+== notlar_g.md
+- Özel ad yazımı paketler arasında tutarsız: 233-234, 238 ve yer yer 221-229'da Yunanca transkripsiyon yerine Latin/Türkçe harfli adlar (Cafer Paşa, Hekimoğlu Ali Paşa, Köprülüzade Abdullah Paşa, Nadir, Ganja, Erivan, Tabriz; Almanca/Fransızca yer adları). Toplu üslup konusu olduğu için değiştirilmedi.
+- Pers kralı Sais: "στη Σάι" Yunanca olarak geçerli, dokunulmadı.
+- OLAYLAR_P0068:1475: "η Σοχούμι" yerine "το Σουχούμι" tercih edilebilir (dokunulmadı).
+- AVMAC kayıtlarında "Steiermark" (Στυρία yerine) Almanca biçim TR'de de var; yalnız başlıkta zaten Στυρία olan yerler korundu.

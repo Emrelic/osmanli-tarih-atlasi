@@ -1,0 +1,35 @@
+== ilerleme.txt
+Tam okunan paketler: 1_arayuz_001..012, 2_devlet_001..014, 3_bayrakli_001..015, 4_olay_001..003 (44 paket)
+Bakılan kayıt (@@ sayımı): arayüz paketlerinde 2033; devlet paketlerinde 2315; bayraklı paketlerde 252 (karışık: arayüz/devlet tekrarları + olay); olay paketlerinde 43.
+Okunmayan: 3_bayrakli_016..022 (15 parça sınırı), 4_olay_004..249 (bağlam sınırı).
+Düzeltme: duzeltme_001..011, toplam 210 satır.
+Not 1: bazı satırlarda "eski" alanı birebir alt dize değil, düzeltilen parçaların ';' ile özetidir (çoğu olay kaydında "…" de olabilir); uygulama "yeni" (alanın tamamı) üzerinden yapılmalı.
+Not 2 (düzeltilmeyen sistematik sorun): uzun "aynı tarihte katılan/elden çıkan yerleşimler" listelerinde ve bazı olay gövdelerinde Türkçe yer/kişi adları Latin harfle duruyor (ör. İnegöl, Kütahya, Kırşehir, Silistre); yalnız bir bölümü düzeltildi. Toplu bir yer adı sözlüğüyle ayrıca ele alınmalı.
+Not 3 (emin olunmayan): arayüz "için seyrek havuz," -> "για, αραιή δεξαμενή," birleşik cümle parçası, bağlamı görülmeden değiştirilmedi.
+
+== ilerleme_a.txt
+Tam okunan paketler: 4_olay_004..037 (34 paket; aralık tamamlandı)
+Düzeltme: duzeltme_a_001..016
+
+== ilerleme_b.txt
+Tamamen okunan: 4_olay_038-072 (35 paket; aralık bitti)
+Düzeltme dosyaları: duzeltme_b_001 - duzeltme_b_014
+
+== ilerleme_c.txt
+Tamamen okunan: 4_olay_073-107 (35/35 paket). Tur olay; duzeltme dosyalari duzeltme_c_001..007.jsonl
+
+== ilerleme_d.txt
+Okunan paketler (tam): 4_olay_108 - 4_olay_142 (35/35). Kalan yok.
+
+== ilerleme_e.txt
+Tamamen okunan: 4_olay_143 - 4_olay_177 (aralığın tamamı, 35 paket)
+Bakılan olay kaydı: yaklaşık 1000
+
+== ilerleme_f.txt
+Aralik: 4_olay_178 - 4_olay_212
+Tamamen okunan: 4_olay_178 - 4_olay_212 (35/35, aralik bitti)
+Bakilan olay kaydi: 178-212 paketlerinin tamami
+
+== ilerleme_g.txt
+Tamamen okunan: 4_olay_213 - 4_olay_249 (37/37 paket, tur: yalniz olay). Aralik bitti.
+Bakilan olay kayit sayisi: paketlerdeki tum kayitlar (ayrica sayilmadi).
