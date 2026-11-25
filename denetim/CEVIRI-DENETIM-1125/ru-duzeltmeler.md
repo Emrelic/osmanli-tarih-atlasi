@@ -1,0 +1,175 @@
+- arayuz | # Aralık # (Rusya barışı: # Ramazan #; fiilî teslim günü kaynakta yok) | m: 'Rusya barışı' Rusya ile barış; 'русский мир' bambaşka (siyasi) anlam taşır
+- arayuz | # (Süleyman Solonc'un saltanatının başlangıcı) | m: Özel ad Latin harfli Türkçe imlayla kalmış
+- arayuz | # (yıl yaklaşık; TDV Şehsuvar'ın alış yılını vermez) | m: Türkçe ad kalıntısı
+- arayuz | # (Yinal'in hüküm yıllarının başlangıcı — birleşmenin günü kaynakta yok) | m: Özel ad Latin harfle kalmış
+- arayuz | # yıllarına doğru [tahmin; yalnız yıl; gün teyitsiz] | m: Bozuk Rusça söz dizimi
+- arayuz | Keşfet | m: Yanlış karşılık; 'Butonlar: Keşfet' ile tutarsız ve 'Görüş' ile karışıyor
+- arayuz | Bulunamadı | m: Genel ifade, eril biçim hatalı
+- arayuz | Harekât okları (Harekât okları kutusu) | m: Kutunun arayüzdeki adı 'Стрелки операций'; kutu = onay kutusu
+- arayuz | MÖ # (# Ekim; Livius) | m: 'Livius' Livius.org sitesi; Romalı tarihçi Titus Livius (Ливий) değil
+- arayuz | MÖ # (# veya # Mayıs; Livius # Mayıs) | m: Livius.org; tarihçi Ливий ile karıştırılmış
+- arayuz | MÖ # (Livius: #/#) | m: Livius.org; tarihçi Ливий ile karıştırılmış
+- arayuz | MÖ # (Livius: ~#; Herodotos geleneği) | m: Livius.org; tarihçi Ливий ile karıştırılmış
+- arayuz | MÖ # (Livius; alternatif MÖ #) | m: Livius.org; tarihçi Ливий ile karıştırılmış
+- arayuz | MÖ # (Nisan-Mayıs #; Livius saltanatı #'ten sayar) | m: Livius.org; tarihçi Ливий ile karıştırılmış
+- arayuz | MÖ # (Ocak sonu; Livius # Ocak — tek gün kaynağı) | m: Livius.org; tarihçi Ливий ile karıştırılmış
+- arayuz | MÖ # (Temmuz; Livius c. # Temmuz — tek gün kaynağı) | m: Livius.org; tarihçi Ливий ile karıştırılmış
+- arayuz | MÖ # (Tevrat geleneği; Livius 'yaklaşık #-#') | m: Livius.org; ayrıca burada kastedilen Kitab-ı Mukaddes geleneği
+- arayuz | MÖ # (yaklaşık; Livius: Gyges #'te öldü) | m: Livius.org; tarihçi Ливий ile karıştırılmış
+- arayuz | MÖ # civarı (Horwennefer) | m: Özel ad Latin harfle kalmış
+- arayuz | Yollar ve koridorlar: menzil yolları ve durakları. | m: Türkçe 'menzil' kalıntısı; arayüzde başka yerde 'почтовые дороги/станция'
+- arayuz | menzil durağı — | m: Türkçe kalıntı
+- arayuz | menzil hattı | m: Türkçe kalıntı
+- arayuz | Şubat | m: Öteki ay adları küçük harfle; tutarlılık
+- arayuz | 🗣️ Nasıl bilirdiniz | m: Yanlış anlam: kişi hakkında 'nasıl bilirdiniz' (tanıyanların hükmü)
+- arayuz | ⚠️ Siyasî katman kapalı — tarama şu an görünmüyor. | m: 'tarama' burada haritadaki taralı alan (hatching), tarama/scan değil
+- arayuz | 🗺 İsyan taraması (Eflak · Boğdan · Erdel) | m: 'tarama' = haritada tarama (hatching), 'обзор' değil
+- devlet | gilan-kiya | m: Hanedan adı Kârkiyâ; 'Кар' düşmüş
+- devlet | esrefogullari | m: Rusçada yerleşik yazım 'Э' ile
+- devlet | garbi-trakya | m: TR 'Hükûmet-i Müstakille' = bağımsız hükûmet, geçici değil
+- devlet | berabis | m: Türkçe imla kalıntısı
+- devlet | borgu | m: Borgu yanlış yazılmış; yer adları çevrilmemiş
+- devlet | fipa-nyakyusa | m: Yazım hatası: 'фипа' yerine 'типа'
+- devlet | maravi | m: Maravi, 'Малави' ülkesi/halkı olarak yanlış yazılmış
+- devlet | ruanda | m: Çevrilmemiş ad
+- devlet | nyamvezi | m: Çevrilmemiş adlar
+- devlet | sahaptin | m: Dilbilgisi ve anlam hatası
+- devlet | occaneechi | m: Çevrilmemiş ad
+- devlet | bengal-nevabligi | m: İmla: 'навабство'
+- devlet | avad | m: İmla ve anlamsız tekrar
+- devlet | cunagadh | m: İmla
+- devlet | karnatik | m: İmla
+- devlet | meysur-racaligi | m: Rusçada böyle bir sözcük yok
+- devlet | sutayogullari | m: Çevrilmemiş Türkçe
+- devlet | badusbani | m: Hanedan adı yanlış yazılmış
+- devlet | uyuni | m: Yazım hatası
+- devlet | danismendli | m: Yerleşik biçim; harf düşmüş
+- devlet | mervani | m: Türkçe kalıntı
+- devlet | numeyri | m: Türkçe kalıntı
+- devlet | pathet-lao-hukumeti | m: Örgüt adının sözcük sırası bozulmuş
+- devlet | guadeloupe | m: Anlaşılmaz/uydurma kısaltma (DOM)
+- devlet | martinik | m: Anlaşılmaz/uydurma kısaltma (DOM)
+- devlet | euboea-negroponte | m: Eğriboz = Эвбея; Эврипос yanlış
+- devlet | sirp-voyvodaligi | m: Tamiş Banatı'nın yerleşik Rusça adı 'Темешский Банат'
+- devlet | cizre-botan | m: Türkçe kalıntı ve gereksiz tekrar
+- devlet | akwamu | m: Çevrilmemiş ad
+- devlet | musasa | m: 'Arabistan' burada Huzistan'ın eski adı, Arabistan yarımadası değil
+- devlet | balhae | m: Çevrilmemiş ad
+- devlet | chenla | m: Çevrilmemiş ad
+- devlet | catuvellauni-krallik | m: Dilbilgisi hatası (hâl uyumu)
+- devlet | bati-ganga | m: Talakad adı yanlış yazılmış
+- devlet | zengi-cizre | m: Diğer kayıtlarda 'Зангиды'; tutarlılık
+- devlet | babek-hurremi | m: Kale adı yanlış (Bezz)
+- devlet | tenuh | m: Türkçe imla kalıntısı
+- devlet | nekor-emirligi | m: Türkçe imla kalıntısı
+- devlet | aymara-senyorlukler | m: Çevrilmemiş adlar
+- devlet | kuzco-krallik | m: Çevrilmemiş ad
+- devlet | sui-wei-li-mi | m: Wagang adı yanlış yazılmış
+- devlet | kalyani-kalacuri | m: Bozuk Rusça ve yanlış yazım
+- devlet | ranthambore-cauhan | m: Yer adı bozuk, çoğul eki yanlış
+- devlet | kadamba-banavasi | m: Yazım hatası
+- devlet | coba | m: Kiril sözcüğüne Latin 'á' karışmış
+- devlet | gengshi | m: Dönem adı yanlış transkripsiyon (更始)
+- devlet | trinh-lordlari | m: Çevrilmemiş ad
+- devlet | koeln-elektorlugu | m: Benzer kayıtta (Курмайнц) Kirille; tutarlılık
+- devlet | maori-iwi | m: 'iwi' = иви; yanlış yazılmış
+- devlet | guney-konu-kanal-halklari | m: Alacaluf halkının adı yanlış
+- olay | OLAYLAR:1299-01:0 | d: Türkçe yer adı kalıntıları
+- olay | OLAYLAR:1402-07-28:0 | d: Çok sayıda Türkçe yer adı çevrilmemiş; 'Испарт', 'Samandır' yanlış; 'Ламия (Ламия)' tekrar
+- olay | OLAYLAR:1639-05-17:0 | d: Çevrilmemiş Türkçe yer adları
+- olay | OLAYLAR:1783-04-19:0 | d: Metinde gereksiz Türkçe ad tekrarı
+- olay | OLAYLAR:1877-04-24:0 | d: Yeşilköy ile San Stefano aynı yer; 'близ' yanlış anlam
+- olay | OLAYLAR:1913-05-30:0 | d: Çevrilmemiş yer adları
+- olay | OLAYLAR_EK:1300-01-01:0 | b: Türkçe kalıntı
+- olay | OLAYLAR_EK:1302-08-01:0 | b: Türkçe kalıntı
+- olay | OLAYLAR_EK:1302-08-01:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK:1328-01-01:0 | b: Türkçe kalıntı ve yanlış ad
+- olay | OLAYLAR_EK:1328-01-01:0 | d: Bozuk anlatım ve Türkçe kalıntı
+- olay | OLAYLAR_EK:1301-01-01:0 | b: Türkçe kalıntı
+- olay | OLAYLAR_EK:1360-01-01:0 | b: Türkçe kalıntı
+- olay | OLAYLAR_EK:1360-01-01:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK:1371-09-26:0 | d: Türkçe kalıntı; 'ТДВ' yazımı; uyum hatası
+- olay | OLAYLAR_EK:1381-01-01:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK:1717-08-18:0 | d: 'bölge günü' = bölgenin günü; 'дань' (haraç) diye çevrilmiş — ağır anlam hatası
+- olay | OLAYLAR_EK:1830-10-17:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK:1357-01-01:0 | b: Türkçe kalıntı
+- olay | OLAYLAR_EK:1357-01-01:0 | d: Türkçe kalıntı; Meriç = Марица (tekil: 'Марицы', 'Мариц' yanlış)
+- olay | OLAYLAR_EK:1371-09-26:0 | b: Nehir adı Марица; ilgi hâli 'Марицы'
+- olay | OLAYLAR_EK:1444-08-15:0 | d: Türkçe kalıntı; 'ТДВ' kısaltması öteki metinlerde TDV
+- olay | OLAYLAR_EK3:1688-09-06:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK3:1690-09-27:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK3:1690-10-08:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK4:1832-09-13:0 | b: Türkçe kalıntı
+- olay | OLAYLAR_EK4:1832-09-13:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK4:1834-08-01:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK4:1833-06-15:0 | b: Türkçe kalıntı
+- olay | OLAYLAR_EK4:1833-06-15:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1281-01-01:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1285-01-01:0 | b: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1285-01-01:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1299-01-01:0 | b: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1299-01-01:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1305-01-01:0 | b: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1305-01-01:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1345-01-01:0 | d: Türkçe kalıntı; Karesi sancağı yanlış ('санджак Каресиды')
+- olay | OLAYLAR_EK5:1405-01-01:0 | b: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1405-01-01:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1412-10-01:0 | b: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1412-10-01:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1419-01-28:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1435-01-01:0 | b: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1435-01-01:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1419-01-01:0 | b: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1419-01-01:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1427-01-01:0 | b: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1427-01-01:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1398-07-15:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1467-11-10:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1357-09-01:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1386-06-01:0 | b: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1386-06-01:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1415-03-01:0 | b: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1415-03-01:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1446-05-05:0 | b: Çevrilmemiş Türkçe başlık
+- olay | OLAYLAR_EK5:1446-05-05:0 | d: Çevrilmemiş Türkçe ad
+- olay | OLAYLAR_EK5:1468-01-17:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1481-06-22:0 | b: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1481-06-22:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1516-05-01:0 | b: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1516-05-01:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1513-04-01:0 | b: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1513-04-01:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1515-06-13:0 | b: Türkçe kalıntı ve dilbilgisi hatası
+- olay | OLAYLAR_EK5:1515-06-13:0 | d: Türkçe kalıntı, dilbilgisi ve ad hatası
+- olay | OLAYLAR_EK5:1553-10-05:0 | b: Çevrilmemiş Türkçe
+- olay | OLAYLAR_EK5:1608-08-09:0 | b: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1608-08-09:0 | d: Türkçe kalıntı, anlatım hatası
+- olay | OLAYLAR_EK5:1618-09-26:0 | d: Türkçe kalıntı
+- olay | OLAYLAR:1352-03-01:0 | b: Türkçe kalıntı
+- olay | OLAYLAR:1352-03-01:0 | d: Türkçe kalıntı
+- olay | OLAYLAR:1571-08-01:0 | d: 'Magosa' Türkçe ad; Rusçası Фамагуста
+- olay | OLAYLAR:1669-09-06:0 | d: Özel ad yanlış: Morosini = Морозини
+- olay | OLAYLAR:1699-01-26:0 | d: Çevrilmemiş yer adı (Nadin)
+- olay | OLAYLAR:1739-09-18:0 | d: Çevrilmemiş yer adları
+- olay | OLAYLAR:1821-04-02:0 | d: Çevrilmemiş adlar; 'сменились' yanlış (izledi); yer adı yazımı tutarsız
+- olay | OLAYLAR:1881-05-12:0 | d: Gereksiz Latin tekrarı
+- olay | OLAYLAR:1914-11-01:0 | d: Gemiler Çanakkale Boğazı'ndan girdi (Босфор değil); Goeben/Breslau kruvazör
+- olay | OLAYLAR:1915-03-18:0 | d: Ağır coğrafî hata: 18 Mart muharebesi Çanakkale Boğazı'nda (Дарданеллы), Boğaziçi (Босфор) değil
+- olay | OLAYLAR_EK:1313-01-01:0 | d: Yer adı yanlış bölünmüş
+- olay | OLAYLAR_EK:1326-01-01:1 | b: Türkçe kalıntı
+- olay | OLAYLAR_EK:1326-01-01:1 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK:1330-01-01:0 | d: Dilbilgisi: tamlayan hâli; fazla virgül
+- olay | OLAYLAR_EK:1354-08-01:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK:1372-06-01:0 | d: Gereksiz Latin tekrarı
+- olay | OLAYLAR_EK:1383-09-19:0 | d: Aynı ad iki kez bozuk
+- olay | OLAYLAR_EK:1388-01-01:0 | d: Şehir adı Тырново
+- olay | OLAYLAR_EK:1390-01-01:0 | d: Dilbilgisi (tamlayan) ve Türkçe kalıntı
+- olay | OLAYLAR_EK:1392-01-01:0 | d: Dilbilgisi: tamlayan hâli
+- olay | OLAYLAR_EK:1393-06-17:1 | d: Şehir adı ve uyum hatası
+- olay | OLAYLAR_EK:1393-09-01:0 | d: Gereksiz Latin tekrarları
+- olay | OLAYLAR_EK:1394-01-01:0 | d: Anlamsız tekrar
+- olay | OLAYLAR_EK:1397-07-01:0 | d: Dilbilgisi hatası
+- olay | OLAYLAR_EK:1400-01-01:0 | b: Dilbilgisi hatası
+- olay | OLAYLAR_EK:1400-01-01:0 | d: Dilbilgisi hatası
+- olay | OLAYLAR_EK:1425-06-01:0 | d: Dilbilgisi: hanedan adlarının hâl ekleri bozuk
+- olay | OLAYLAR_EK:1456-06-04:0 | d: Ağır anlam hatası: 'sancak' burada bayrak, idari sancak değil

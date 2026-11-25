@@ -1,0 +1,7 @@
+- arayuz "# Ocak # (imzalar # Ocak-# Mart arası şeyhlik şeyhlik tamamlandı)": "şeyhlik şeyhlik" yinelemesi, cümle bozuk
+- arayuz (çok sayıda): kullanıcıya görünebilen iç not metinleri (ic_not_t, olaylar_ek#, "Emre notu ##", ÇELİŞKİ-#, `donem-toplami`, `yerlesim-suresi`, data/rotus.js, uret_petek.py, app.js)
+- arayuz "# Ekim # — meydan savaşı ve şehre giriş (...) · eski t #-#-# ay başı yer tutucuydu": geliştirici notu kullanıcı metninde
+- devlet misir-erken-hanedan, misir-eski-krallik, misir-orta-krallik, misir-yeni-krallik, ahamenis*, akad, ur-3, isin*, eski-asur, samsi-adad, yeni-hitit, maurya, sunga, bati-han ... guney-vietnam, neustria ... urgell vb.: Türkçe karakterler eksik (Misir, Donemi, Sehir, Imparatorlugu, Kralligi, Dogu, Bes Hanedan)
+- devlet sutayogullari / cemisgezek-beyligi: "Sutayogullari", "Cemisgezek Beyligi" Türkçe karaktersiz
+- olay OLAYLAR_EK:1328-01-01:0: "uç beyliği bölge Şehzade Murad'a verildi" bozuk Türkçe
+- olay OLAYLAR_EK:1456-06-04:0: "Akropolis'e Osmanlı sancağı çekildi" (çeviride 'idari sancak' sanılmış; kaynak belirsizliği yok ama not)

@@ -1,0 +1,4 @@
+Tamamen okunan: 1_arayuz_001-011 (11/11); 2_devlet_001-013 (13/13); 3_bayrakli_001-004 (4/28); 4_olay_001-007 (7/228)
+Bakılan kayıt: arayüz TAMAMI, devlet TAMAMI, bayraklı ve olay yalnız yukarıdaki paketler (kayıtlar tek tek sayılmadı)
+Okunmayan: 3_bayrakli_005-028; 4_olay_008-228
+Bitiş nedeni: bağlam tasarrufu (süre sınırı değil). JSONL dosyaları ayrıştırıcıyla doğrulanmadı.
