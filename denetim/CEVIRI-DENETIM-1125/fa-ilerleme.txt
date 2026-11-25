@@ -6,3 +6,12 @@ Not: duzeltme_013, OLAYLAR:1402-07-28 vb. aynı id için sonraki dosya numarası
 
 == ilerleme_a.txt
 Tamamen okunan: 4_olay_007 - 4_olay_040 (34/34, aralık bitti)
+
+== ilerleme_b.txt
+Tamamen okunan: 4_olay_041 - 4_olay_075 (35/35 paket, aralık bitti)
+Bakılan kayıt (yaklaşık): olay ~600; arayüz/devlet: bu turda okunmadı (önceki turda okunmuş)
+
+== ilerleme_c.txt
+Tamamen okunan: 4_olay_076 - 4_olay_110 (35/35, aralik bitti)
+Duzeltme dosyalari: duzeltme_c_001 - duzeltme_c_009
+Not: 076-084'te Latin harfli ad kalintisi tam alan yeniden yazilarak duzeltildi; 085'ten itibaren esas olarak gercek hatalar + secili kalintilar (bkz. notlar_c.md).
