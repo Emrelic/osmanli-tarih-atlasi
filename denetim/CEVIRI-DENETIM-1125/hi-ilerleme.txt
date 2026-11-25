@@ -1,0 +1,35 @@
+== ilerleme.txt
+Tamamen okunan: 1_arayuz_001-013, 2_devlet_001-015, 3_bayrakli_001-002, 4_olay_001-012.
+Bakılan kayıt: arayüz ve devlet tamamı; bayraklı tamamı; olay paket 001-012'nin tümü.
+4_olay_013-276 OKUNMADI. Yalnız Grep ile bulunan "के लिए जाने" kalıbı kayıtları tek tek düzeltildi (023,024,027,035,045,050-053,057,060,061,082,083,115,120,125,223,228,232,237,256-258).
+Düzeltme dosyaları: duzeltme_001..006.jsonl
+
+== ilerleme_a.txt
+Tamamen okunan: 4_olay_013 - 4_olay_042 (30/30 paket; aralık bitti)
+Tür: olay (yaklaşık 470 kayıt)
+
+== ilerleme_b.txt
+Tamamen okunan: 4_olay_043 - 4_olay_072 (30/30 paket; aralık tamam)
+
+== ilerleme_c.txt
+Tam okunan: 4_olay_073 - 107 (35/35 paket)
+
+== ilerleme_d.txt
+Tam okunan paketler: 4_olay_108 - 4_olay_142 (35/35, aralık tamam)
+Bakılan kayıt türü: yalnız olay (paketlerdeki tüm kayıtlar okundu; kayıt sayısı ayrıca sayılmadı)
+
+== ilerleme_e.txt
+Tam okunan: 4_olay_143 - 4_olay_177 (35/35 paket, aralik tamam)
+Bakilan tur: yalnizca olay (kayit sayisi tek tek sayilmadi)
+Okunmayan: yok
+
+== ilerleme_f.txt
+Tamamen okunan paketler: 4_olay_178 - 4_olay_212 (35/35; aralik bitti)
+
+== ilerleme_g.txt
+Tamamen okunan: 4_olay_213 - 4_olay_244 (32/32 paket; aralik tamamlandi)
+
+== ilerleme_h.txt
+Tam okunan: 4_olay_245 - 4_olay_276 (32/32 paket; son paket 276 dahil)
+Bakılan kayıt: yalnız olay türü; paketlerdeki tüm kayıtlar okundu.
+Düzeltme: duzeltme_h_001 (20), _002 (12), _003 (11) = 43 satır
