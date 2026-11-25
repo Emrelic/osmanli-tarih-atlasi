@@ -1,0 +1,53 @@
+{
+ "cakisma": [
+  {
+   "tur": "arayuz",
+   "id": "# Aralık # (# Zilkade #)",
+   "taban": "# diciembre # (# dhu-l-qada #)",
+   "main": "# de diciembre de # (# dhu-l-qada #)",
+   "oneri": "# de diciembre de # (# dhu al-qada #)",
+   "neden": "Eksik 'de'; ay adı yazımı öteki maddelerle birliktelik"
+  },
+  {
+   "tur": "arayuz",
+   "id": "# Eylül # (# Rebîülevvel #)",
+   "taban": "# septiembre # (# Rabi al-awwal #)",
+   "main": "# de septiembre de # (# Rabi al-awwal #)",
+   "oneri": "# de septiembre de # (# rabi I #)",
+   "neden": "Eksik 'de'; ay adı yazımı tutarsız ve büyük harfli"
+  },
+  {
+   "tur": "arayuz",
+   "id": "# Ocak # (imzalar # Ocak-# Mart arası şeyhlik şeyhlik tamamlandı)",
+   "taban": "# de enero de # (firmas entre el # de enero y el # de marzo; jeicado jeicado completado)",
+   "main": "# de enero de # (firmas entre el # de enero y el # de marzo; jeicado completado)",
+   "oneri": "# de enero de # (las firmas se completaron jeicado por jeicado entre el # de enero y el # de marzo)",
+   "neden": "'şeyhlik şeyhlik' = şeyhlik şeyhlik tek tek; sözcüğü sözcüğüne çeviri anlamsız"
+  },
+  {
+   "tur": "arayuz",
+   "id": "Kopyası bilerek çıkarılmadı (D#: Türkçe kücültme tuzağı).",
+   "taban": "La copia se omitió deliberadamente (D#: trampa del diminutivo turco).",
+   "main": "La copia se omitió deliberadamente (D#: trampa de las minúsculas turcas).",
+   "oneri": "La copia se omitió deliberadamente (D#: trampa de la conversión a minúsculas en turco).",
+   "neden": "'küçültme' = küçük harfe çevirme; 'diminutivo' yanlış anlam"
+  },
+  {
+   "tur": "arayuz",
+   "id": "(kırpmanın TAMAMI — hâl başına düşen = bu ÷ #; #'de # ms)",
+   "taban": "(el recorte COMPLETO — por caso = esto ÷ #; en # son # ms)",
+   "main": "(el parpadeo COMPLETO — por caso = esto ÷ #; en # son # ms)",
+   "oneri": "(el parpadeo COMPLETO — por estado = esto ÷ #; en # son # ms)",
+   "neden": "'kırpma' = yanıp sönme (parpadeo), kesme değil; 'hâl' = durum"
+  },
+  {
+   "tur": "arayuz",
+   "id": "🗣️ Nasıl bilirdiniz",
+   "taban": "🗣️ ¿Cómo lo conocería?",
+   "main": "🗣️ ¿Cómo lo conocían?",
+   "oneri": "🗣️ ¿Qué opinión se tenía de él?",
+   "neden": "'Nasıl bilirdiniz' = merhumu nasıl tanırdınız/değerlendirirdiniz; mevcut çeviri anlamsız"
+  }
+ ],
+ "red": []
+}

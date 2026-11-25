@@ -1,0 +1,137 @@
+- arayuz | # (#) yazı, Semendire'nin düşüşünden sonra — gün kaynakta yok; t ALT SINIR: Özel ad: Semendire'nin İspanyolca yerleşik adı Smederevo
+- arayuz | # (#) — hicrî kesişimin ilk günü: 'hégira' ad; sıfat biçimi gerekli
+- arayuz | # (Yayça'nın alınmasından sonra; süre 'kısa'): Türkçe yer adı kalmış: İspanyolcada Jajce
+- arayuz | # Ekim # (Semendire'nin teslim günü; Belgrad'ın günü kaynakta YOK): Özel ad: Smederevo
+- arayuz | # Kasım # (Cihan Şah'ın ölümü) · Hasan Ali Eylül #'de yenildi, Şevval # / Nisan #'da öldürüldü (gün kaynakta yok, AY hassasiyeti): Yıl yer tutucusu gün gibi çevrilmiş; kaynakta gün yok
+- arayuz | # Temmuz # (TDV özü; ESBE «Брянская флотилия» # Temmuz eski takvim = # Temmuz — ayrışma): 'özü' burada özet; 'esencia' yanlış anlam
+- arayuz | # [hicrî # ∩ # ilk günü, # Mart #; yalnız yıl teyitli, gün teyitsiz]: Bozuk sözdizimi ve eksik 'de'
+- arayuz | # yıllarına doğru [tahmin; yalnız yıl; gün teyitsiz]: Sözcük sırası yanlış
+- arayuz | (toprak değişince harita devletin sınırlarına ZIPLASIN mı — sıçramalıdır, adaptif genişlik bunun yumuşak hâlidir): 'sıçramalıdır' = sıçramalı/ani; 'zıplamalı' değil
+- arayuz | ) dışında — okunur, harita bu tarihe gidemez.: 'fuera de —' tamamlanmamış, bozuk cümle
+- arayuz | Açılan listeden tıklayın (ya da ok tuşları ve Enter ile seçin); harita oraya uçar, tarih değişmez. Listede yalnız o gün haritada olan yerler çıkar.: Hitap tutarsızlığı: arayüz genelinde 'tú'
+- arayuz | Bu atlas, zaman ilerledikçe devlet sınırlarının nasıl değiştiğini gösterir. Haritanın yanında o günün kronolojisi ve hükümdarı akar: bir madde okuduğunuzda haritada tam o değişimi görürsünüz.: Hitap tutarsızlığı (tú)
+- arayuz | Bu kutuya bir tarih yazıp Enter tuşuna basın; harita ve kronoloji o güne atlar.: Hitap tutarsızlığı (tú)
+- arayuz | Bu kutuya bir yer adı yazın: şehir, kale, liman, bölge ya da ülke.: Hitap tutarsızlığı (tú)
+- arayuz | Düğmenin üstünde, basınca gideceği hâl yazar: Daralt, Kapat ya da Genişlet. Haritayı büyütmek için sütunu kapatın; aynı düğmeyle geri açılır.: Hitap tutarsızlığı (tú)
+- arayuz | Cevabını / kararını bekleyen notlar (son sözü Claude söyledi): Hitap tutarsızlığı (tú)
+- arayuz | Cemâziyelevvel # (Şubat #): Eksik 'de'; ay adı öteki maddelerde 'yumada I'. Baştaki # yer tutucusu korunur
+- arayuz | Cemâziyelevvel # / # Nisan #: Ay adı yazımı tutarlılığı
+- arayuz | Ekim # (# Cemâziyelevveli) — ay hassasiyeti: Hicrî yıl gün gibi duruyor; ay hassasiyetinde gün yok
+- arayuz | Fizikî altlık: 'altlık' başka yerde 'Mapa base'; 'Base física' anlaşılmıyor
+- arayuz | Harekât okları (Harekât okları kutusu): Katman adı 'Flechas de operaciones' ile aynı olmalı
+- arayuz | Harita yerinden kıpırdamaz, siz nerede bıraktıysanız orada kalır.: Hitap tutarsızlığı (tú)
+- arayuz | Haritada neyin görüneceğini buradan seçersiniz. Kutucuklarla açılıp kapatılır, birden çoğu seçilebilir.: Hitap tutarsızlığı (tú)
+- arayuz | Haritayı tam ekran gezmek ister misiniz?: Hitap tutarsızlığı (tú)
+- arayuz | KRONOATLAS'a hoş geldiniz: Hitap tutarsızlığı (tú)
+- arayuz | Kayıtlarınız silindi.: Hitap tutarsızlığı (tú)
+- arayuz | Kelimeleri boşlukla ayırarak yazın; hepsi geçen maddeler kalır. Tırnak içindeki ifade tek parça aranır. Büyük/küçük harf ve şapka farkı gözetilmez.: Hitap tutarsızlığı (tú)
+- arayuz | Kelimeleri boşlukla ayırın — HEPSİ geçen maddeler kalır (Mohaç macar). Tırnak tek ifade sayılır: "meydan muharebesi". Büyük/küçük harf ve Türkçe şapka farkı YOK.: Hitap tutarsızlığı (tú)
+- arayuz | Konu süzgeci: Osmanlı kronolojisinde hangi konuların görüneceğini seçin. Süzülen maddeleri oynatma ve ⏮/⏭ atlar.: Hitap tutarsızlığı (tú)
+- arayuz | Kronoloji listesinden bir madde seçin.: Hitap tutarsızlığı (tú)
+- arayuz | Kuzey Afrika Ocakları: İspanyol tarih yazımında Garp Ocakları = regencias; 'Odjaks' yerleşik değil
+- arayuz | Kısa bir turla ekrandaki her parçayı tanıtalım. İleri düğmesine dokunarak ilerleyin; istediğiniz an Geç diyebilirsiniz.: Hitap tutarsızlığı (tú); 'decir Omitir' doğal değil
+- arayuz | Kısa bir turla ekrandaki her parçayı tanıtalım. İleri düğmesiyle (ya da sağ ok tuşuyla) ilerleyin; istediğiniz an Geç diyebilirsiniz.: Hitap tutarsızlığı (tú)
+- arayuz | Mart # (Cemâziyelevvel #) — beylerbeyiliğin başlangıcı; Tobruk'un alınış yılı kaynakta yok: Ay adı yazımı tutarlılığı
+- arayuz | Milattan önce için eksi ya da MÖ yazın: -# · MÖ # · -#. # milada (MS #) götürür.: Hitap tutarsızlığı (tú)
+- arayuz | Muharrem # (Mart #): Eksik 'de'
+- arayuz | Muharrem # / Mart #: Eksik 'de'
+- arayuz | Muharrem # / Nisan #: Eksik 'de'
+- arayuz | MÖ # (# Ekim; Livius): Kaynak Livius.org (Babil/Pers tarihleri); Romalı Tito Livio değil
+- arayuz | MÖ # (# veya # Mayıs; Livius # Mayıs): Kaynak Livius.org; Tito Livio değil
+- arayuz | MÖ # (Livius: #/#): Kaynak Livius.org; Tito Livio değil
+- arayuz | MÖ # (Livius: ~#; Herodotos geleneği): Kaynak Livius.org; Tito Livio değil
+- arayuz | MÖ # (Livius; alternatif MÖ #): Kaynak Livius.org; Tito Livio değil
+- arayuz | MÖ # (Nisan-Mayıs #; Livius saltanatı #'ten sayar): Livius.org; eksik 'de'
+- arayuz | MÖ # (Ocak sonu; Livius # Ocak — tek gün kaynağı): Kaynak Livius.org; Tito Livio değil
+- arayuz | MÖ # (Temmuz; Livius c. # Temmuz — tek gün kaynağı): Kaynak Livius.org; Tito Livio değil
+- arayuz | MÖ # (Tevrat geleneği; Livius 'yaklaşık #-#'): Kaynak Livius.org; Tito Livio değil
+- arayuz | MÖ # (yaklaşık; Livius: Gyges #'te öldü): Kaynak Livius.org; Tito Livio değil
+- arayuz | MÖ # (Kislev; Aralık #): Eksik 'de'
+- arayuz | MÖ # (Tašritu = Eylül-Ekim #; Nabonid yıl #): Eksik 'de'
+- arayuz | MÖ # (Temmuz-Ağustos #): Eksik 'de'
+- arayuz | Oynat düğmesiyle zamanı akıtabilir, İleri düğmesiyle olay olay ilerleyebilir ya da kronolojiden bir maddeye tıklayabilirsiniz.: Hitap tutarsızlığı (tú)
+- arayuz | Parmağınızla sürükleyerek kaydırın, iki parmağınızla yakınlaşın.: Hitap tutarsızlığı (tú)
+- arayuz | Ramazan # (Eylül #) — orduların Revan önüne varışı; gün kaynakta yok: Eksik 'de'
+- arayuz | Ramazan # (Mayıs #) — gün kaynakta yok: Eksik 'de'
+- arayuz | Rebîülevvel # (Temmuz #): Eksik 'de'; ay adı yazımı tutarlılığı
+- arayuz | Rebîülevvel # / Ocak #: Eksik 'de'; ay adı yazımı tutarlılığı
+- arayuz | Receb # (Temmuz-Ağustos #): Eksik 'de'
+- arayuz | Renkli alanlar o gündeki devletlerdir; bir yere tıklayınca orası hakkında bilgi açılır. Tarih değiştikçe sınırlar kendiliğinden yeniden çizilir.: Hitap tutarsızlığı (tú)
+- arayuz | Safer # / Eylül #: Eksik 'de'
+- arayuz | Silme isteği gönderilemedi, sonra yeniden deneyin.: Hitap tutarsızlığı (tú)
+- arayuz | Sürükleyerek kaydırın, fare tekerleğiyle (ya da iki parmakla) yakınlaşın.: Hitap tutarsızlığı (tú)
+- arayuz | Sürükleyerek zamanda serbestçe gezin; harita bıraktığınız günü gösterir.: Hitap tutarsızlığı (tú)
+- arayuz | Sütunun başlığıdır. Yanındaki sayaç, şu an kaçıncı maddede olduğunuzu ve listede toplam kaç madde bulunduğunu gösterir.: Hitap tutarsızlığı (tú)
+- arayuz | Sütunun tepesindeki seçici, kronolojisini okuyacağınız devleti belirler.: Hitap tutarsızlığı (tú)
+- arayuz | Sıradaki olaya geçilince haritanın ne yapacağını burada seçersiniz; uçuşun ince ayarları da aynı pencerededir.: Hitap tutarsızlığı (tú)
+- arayuz | Turu yeniden görmek için Butonlar menüsündeki Siteyi tanı düğmesine basın.: Hitap tutarsızlığı (tú)
+- arayuz | Yıl yazın.: Hitap tutarsızlığı (tú)
+- arayuz | Zaman çubuğu: sürükleyerek tarihi değiştirin. ← → bir gün, Shift ile bir yıl ilerletir.: Hitap tutarsızlığı (tú)
+- arayuz | Zilhicce # / Aralık #: Eksik 'de'
+- arayuz | Zilhicce # / Ağustos #: Eksik 'de'
+- arayuz | Zilhicce # / Eylül #: Eksik 'de'
+- arayuz | arasını kapsıyor (yazdığınız tarih: Hitap tutarsızlığı (tú)
+- arayuz | basılı tutup çiz, bırakınca kapanır: Hitap tutarsızlığı (tú)
+- arayuz | bölge yok — ➕ ile ekle: Hitap tutarsızlığı (tú)
+- arayuz | durak — yeni durak için sağ tıklayın, bitirince ✕ ile kapatın (Esc: iptal): Hitap tutarsızlığı (tú)
+- arayuz | eklendi · Shift'le çizmeyi sürdür · Shift'siz çiz ya da Enter: nota geç: Hitap tutarsızlığı (tú)
+- arayuz | eğik: Uçuş kipi 'eğik atış' = parabólico; öteki maddelerle tutarlı
+- arayuz | flyTo(eğik): Uçuş kipi 'eğik atış' = parabólico
+- arayuz | kayıt (Byzantion? Konstantiniyye? İstanbul yazın): Hitap tutarsızlığı (tú)
+- arayuz | merkezden sürükle: daire çiz: Hitap tutarsızlığı (tú)
+- arayuz | muhtemelen # Şâban # / # Aralık # (TDV 'muhtemelen' der): Ay adı yazımı tutarsız; eksik 'de'
+- arayuz | muhtemelen Haziran #: Eksik 'de'
+- arayuz | not düşülecek düğmeye/menüye tıkla: Hitap tutarsızlığı (tú)
+- arayuz | sürükle: kare çiz: Hitap tutarsızlığı (tú)
+- arayuz | yerleşim daha — aramayı daraltın: Hitap tutarsızlığı (tú)
+- arayuz | Örnek: # · # Mayıs # · # · #-#-# · Mayıs # · # · # (milat) · -# ya da MÖ # · -# — yazıp Enter'a basın: Hitap tutarsızlığı (tú)
+- arayuz | çizim çok küçük — yeniden dene: Hitap tutarsızlığı (tú)
+- arayuz | İlk işaretlediğiniz devlet odaktır ve hükümdar kartı onunkidir; sonra işaretlediğiniz devletlerin maddeleri de ek olarak listeye katılır. Önem eşikleriyle kaç madde görüneceğini ayarlayabilirsiniz.: Hitap tutarsızlığı (tú)
+- arayuz | Şevval # (Mart #): Eksik 'de'; küçük harf tutarlılığı
+- arayuz | Şubat: Ay adları İspanyolcada küçük harf; öteki aylar küçük
+- arayuz | Şubat-Mart #: Eksik 'de'; küçük harf
+- arayuz | Şâban # (Şubat #): Ay adı yazımı tutarlılığı
+- arayuz | şehir yaz ve git: Hitap tutarsızlığı (tú)
+- arayuz | — parti dosyasına H-maddesi eki olarak ekleyin: Hitap tutarsızlığı (tú)
+- arayuz | — yeni durak için sağ tıklayın, bitirince ✕ ile kapatın (Esc: iptal): Hitap tutarsızlığı (tú)
+- arayuz | ’ten itibaren (açık uç): Metin değerden SONRA gelen ek; 'desde' sona gelince bozuk
+- arayuz | ’ten itibaren — bu hat # sınırından: Değerden sonra gelen ek; 'desde' sona gelince bozuk
+- arayuz | ℹ️ Bu çağda Osmanlı kronolojisi yok — ☪ seçicisinden bir devlet seçin.: Hitap tutarsızlığı (tú)
+- arayuz | ⏳ Kararını bekleyen: Hitap tutarsızlığı (tú)
+- arayuz | 🎖 Kartvizitler: Kişi kartı; 'tarjetas de presentación' ticari kartvizit, başka maddede 'ficha'
+- arayuz | 📏 Mesafe ölç — bir sonraki durak için sağ tıklayın (Esc: iptal): Hitap tutarsızlığı (tú)
+- devlet | mentese: Türkçe '-oğulları' kalıntısı; öteki beylikler İspanyolca
+- devlet | candar: Türkçe '-oğulları' kalıntısı
+- devlet | dulkadir: Türkçe '-oğulları' kalıntısı
+- devlet | ramazanoglu: Türkçe '-oğulları' kalıntısı
+- devlet | karesi: Türkçe '-oğulları' kalıntısı
+- devlet | cobanogullari: Türkçe '-oğulları' kalıntısı
+- devlet | pervane: Türkçe '-oğulları' kalıntısı
+- devlet | esrefogullari: Türkçe '-oğulları' kalıntısı
+- devlet | inancogullari: Türkçe '-oğulları' kalıntısı
+- devlet | sahibata: Türkçe '-oğulları' kalıntısı
+- devlet | taceddin: Türkçe '-oğulları' kalıntısı
+- devlet | teke: Türkçe '-oğulları' kalıntısı
+- devlet | haciemir: Türkçe '-oğulları' kalıntısı
+- devlet | cezayir-ocagi: İspanyol tarih yazımında yerleşik: Regencia de Argel
+- devlet | tunus-ocagi: Yerleşik biçim: Regencia de Túnez
+- devlet | trablusgarp-ocagi: Yerleşik biçim: Regencia de Trípoli
+- devlet | zeyyani: İki vurgu işareti: imla hatası
+- devlet | sutayogullari: Türkçe '-oğulları' kalıntısı (çevrilmemiş)
+- devlet | dilmacogullari: Türkçe '-oğulları' kalıntısı
+- devlet | cubukogullari: Türkçe '-oğulları' kalıntısı
+- devlet | midrari: Çoğul eki öteki hanedanlarla uyumsuz
+- devlet | gilbert-ellice-kolonisi: Tarih biçimi öteki devlet adlarıyla (gg-aa-yyyy) tutarlı olmalı
+- devlet | karpat-ukrayna: Vurgu işareti yanlış yerde
+- devlet | elsass-lothringen: Reichsland için yerleşik biçim; sözcüğü sözcüğüne çeviri
+- devlet | trucial-states: Şeyhlik (jeicato), şeyh (jeque) değil
+- devlet | touggourt: Özel ad eksik harf: Benî Celleb = Banu Yallab
+- devlet | celili-musul: Öteki maddelerdeki 'Pachalato' ile tutarlılık
+- devlet | dauphine-viennois: Özel ad yazım hatası: Viennois
+- devlet | taberistan-zeydi-ii: Eksik vurgu işareti
+- devlet | tohar-yabgu: Yabguluk (devlet), yabgu (hükümdar unvanı) değil
+- devlet | ispanyol-oran-1: Yerleşik biçim: el Orán español
+- devlet | ispanyol-oran-2: Yerleşik biçim: el Orán español
+- devlet | sistan-mihribani: Özel ad eksik hece: Mihrabanîler; Mihránidas ile karışıyor
+- devlet | hirvat-dukalik: Anlamsız/bozuk ifade
+- devlet | orta-francia: Aynı adın yinelenmesi
