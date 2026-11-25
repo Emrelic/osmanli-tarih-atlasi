@@ -17,3 +17,12 @@ Tamamen okunan paketler (b turu): 4_olay_034 - 4_olay_063 (30/30)
 Bakılan: yalnız olay türü; kayıt sayısı betikle sayılmadı.
 Düzeltme dosyaları: duzeltme_b_001 - 009
 Okunmayan (aralık içinde): yok
+
+== ilerleme_c.txt
+Okunan paketler: 4_olay_064 - 4_olay_083 (tam)
+
+== ilerleme_d.txt
+Tamamen okunan paketler (d turu): 4_olay_099 - 4_olay_133 (35/35)
+Okunmayan (aralık içinde): yok
+Düzeltme dosyaları: duzeltme_d_001 - 012
+Bakılan: yalnız olay türü; kayıt sayısı betikle sayılmadı.

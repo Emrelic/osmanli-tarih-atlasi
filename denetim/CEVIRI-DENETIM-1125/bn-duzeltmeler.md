@@ -267,3 +267,80 @@
 - olay | OLAYLAR_EK7:1579-10-12:0 | d: 'konağı' (kendi evi) saray olmuş
 - olay | OLAYLAR_EK7:1580-01-22:0 | b: hatt-ı hümâyun yanlış harf (ট/ত)
 - olay | OLAYLAR_EK7:1580-01-22:0 | d: hatt-ı hümâyun yanlış harf (ট/ত)
+- olay | OLAYLAR_EK:1302-08-01:0 | b: Latin Türkçe kalıntı
+- olay | OLAYLAR_EK5:1688-06-22:0 | d: Macarca 'Jenővel' = Jenő (Ineu) kasabasıyla birlikte; 'Eugen ile' diye yanlış çevrilmiş
+- olay | OLAYLAR_EK5:1716-10-13:0 | d: 'abi-merkez' özel ad (Márquez) sanılmış; yer adları Latin kalmış
+- olay | OLAYLAR_EK:1302-08-01:0 | b: Latin harfli Türkçe ad çevrilmemiş
+- olay | OLAYLAR_EK5:1716-10-13:0 | d: Latin yer adı kalıntısı; 'abi-merkez' anlamsız aktarılmış (TR iç notu ayrıca tr_hatalari'nda)
+- olay | OLAYLAR_EK5:1688-06-22:0 | d: Macarca 'Jenővel' (Jenő kalesiyle birlikte) kişi adı Eugène sanılmış
+- olay | OLAYLAR_EK7:1582-05-29:0 | d: Dilbilgisi: özne yerine nesne hâli (মেহমেদকে) gerekiyordu
+- olay | OLAYLAR_EK7:1622-05-20:0 | d: Bozuk dilbilgisi (মুস্তাফা ... বসানো হলেন)
+- olay | OLAYLAR_EK7:1644-01-31:0 | d: Bozuk cümle: rakiplerin etkisi ile suçlama birbirine karışmış
+- olay | OLAYLAR_EK7:1656-09-15:0 | d: মানিয়ে নেওয়া = uyum sağlamak; 'kabul ettirmek' anlamı yanlış
+- olay | OLAYLAR_EK7:1685-10-12:0 | d: Yanlış anlam: 'pâdişaha kabul ettirmek'
+- olay | OLAYLAR_EK7:1703-07-17:0 | d: Bengalce sayı biçimi: nokta ondalık okunur
+- olay | OLAYLAR_EK7:1733-06-01:0 | d: Bengalce sayı biçimi: nokta ondalık okunur
+- olay | OLAYLAR_EK7:1739-06-01:0 | d: 'İslam coğrafyası' birebir 'coğrafya bilimi' diye çevrilmiş
+- olay | OLAYLAR_EK7:1772-10-01:0 | b: 'deneme' 'sınav' (পরীক্ষা) diye çevrilmiş
+- olay | OLAYLAR_EK7:1772-10-01:0 | d: 'deneme' 'sınav' diye çevrilmiş
+- olay | OLAYLAR_EK7:1808-07-19:0 | d: শৃঙ্খলা (disiplin) yerine শৃঙ্খল (zincir)
+- olay | OLAYLAR_EK7:1829-06-01:0 | d: হাট্ট yanlış transliterasyon; ফেস/ফেজ tutarsız
+- olay | OLAYLAR_EK7:1829-09-14:0 | d: Latin harf kalıntısı yer adı
+- olay | OLAYLAR_EK7:1920-04-11:0 | d: Bozuk cümle: 'Kapatılma' adlaştırılmamış
+- olay | OLAYLAR_EK7:1735-03-21:0 | d: Yanlış anlam: geri çekilme Rusya'nın isteksizliğinin sonucu
+- olay | OLAYLAR_7A4170:1856-01-01:0 | d: 'hâkim kayalık' ve zekât yetkisi yanlış anlam
+- olay | OLAYLAR_EK8:1526-01-01:0 | d: Yanlış özel ad: Akça Koyunlu aşireti Akkoyunlu devleti değil
+- olay | OLAYLAR_EK8:1688-09-11:0 | d: Bozuk dilbilgisi: kaleyi teslim eden Mehmed Paşa
+- olay | OLAYLAR_EK8:1835-01-01:0 | d: Bozuk anlatım
+- olay | OLAYLAR_EK8:1920-08-10:0 | d: Bengalce sayı biçimi
+- olay | OLAYLAR_EK8:1901-06-11:0 | d: Parantez içi anlam karışmış
+- olay | OLAYLAR_EK8:1609-01-01:0 | d: Noktalama: Bengalce dâri yerine Latin nokta
+- olay | OLAYLAR_EK8:1924-01-01:0 | d: Türkçe alıntı çevrilmemiş
+- olay | OLAYLAR_EK9:1843-01-01:0 | d: Bozuk anlatım
+- olay | OLAYLAR_EK9:1852-12-04:0 | d: 'Tell' (তেল) Bengalcede 'yağ' okunuyor
+- olay | OLAYLAR_EK9:1882-09-13:0 | d: Bozuk anlatım: Wolseley kuvvetlerini çıkardı
+- olay | OLAYLAR_EK9:1799-03-18:0 | d: Bozuk anlatım
+- olay | OLAYLAR_EK10:1595-08-23:0 | d: Yanlış anlam: orduyu bekledi (düşman ordusunu), kendi ordusunu bekletmedi
+- olay | OLAYLAR_EK10:1713-06-24:0 | d: Bozuk dilbilgisi
+- olay | OLAYLAR_EK10:1877-04-24:0 | d: Bengalce sayı biçimi
+- olay | OLAYLAR_EK10:1877-11-18:0 | d: Bozuk dilbilgisi (özne uyumsuzluğu, Nene Hatun tamlaması)
+- olay | OLAYLAR_EK10:1912-10-23:0 | d: Bengalce sayı biçimi
+- olay | OLAYLAR_EK10:1457-01-01:0 | d: Yazım hatası ve bozuk cümle
+- olay | OLAYLAR_EK11:1422-01-01:0 | d: Yanlış anlam: Bizans'ın öne sürdüğü taht iddiacısı
+- olay | OLAYLAR_EK11:1426-01-01:0 | d: Bozuk anlatım
+- olay | OLAYLAR_EK11:1504-12-06:0 | d: Türkçe alıntı çevrilmemiş
+- olay | OLAYLAR_EK11:1640-12-01:0 | d: 'pencere' (dönem) birebir 'pencere' diye çevrilmiş
+- olay | OLAYLAR_EK12:1913-08-31:0 | b: Yer adı tutarsız/yanlış (Gümülcine = গুমুলজিনা)
+- olay | OLAYLAR_EK12:1913-08-31:0 | d: Yer adı tutarsız/yanlış
+- olay | OLAYLAR_EK13:1569-01-01:0 | d: Türkçe ad biçimi (Şarlken) Bengalcede V. Charles olmalı
+- olay | OLAYLAR_EK17:1807-07-07:0 | d: askerlerin yerleşmesi 'koloni kurdu' gibi çevrilmiş
+- olay | OLAYLAR_EK20:1530-03-24:0 | d: bozuk cümle yapısı
+- olay | OLAYLAR_EK21:1537-01-01:0 | d: 'Kanûnî' tek başına 'kanun veren' diye çevrilmiş, kişi anlaşılmıyor
+- olay | OLAYLAR_2S_0919:1890-01-01:0 | b: Colof = Jolof/Djolof ülkesi; 'Wolof' (halk adı) yanlış özel ad
+- olay | OLAYLAR_2S_0919:1890-01-01:0 | d: Colof = Jolof/Djolof; yanlış özel ad
+- olay | OLAYLAR_2S_0919:1847-01-01:0 | d: Türkçe kalıntı parantez ve Latin harfli adlar
+- olay | OLAYLAR_2S_0919:1852-01-01:0 | d: anlam kayması: Itetemia reisin merkezi, tüccarlara onun yakınında yer verildi
+- olay | OLAYLAR_2S0920:1552-08-01:0 | b: aynı ad iki kez; TR'de Lugoş (Lugoj)
+- olay | OLAYLAR_2S0920:1912-11-18:0 | d: bozuk tamlama
+- olay | OLAYLAR_2S0920:1958-10-01:0 | d: bozuk cümle
+- olay | OLAYLAR_SENUSI_0919:1717-01-01:0 | d: 'petek' anlamsız 'পেটিক' diye bırakılmış
+- olay | OLAYLAR_P0069:1689-01-01:0 | b: bozuk tamlama
+- olay | OLAYLAR_P0043A:1456-01-01:0 | d: eksik iyelik eki: özne yanlış okunuyor
+- olay | OLAYLAR_P0048:1592-01-01:0 | d: bozuk anlatım ('চূড়ান্ত হারানো')
+- olay | OLAYLAR_P0050:1882-03-06:0 | d: yanlış özel ad: Ürküp (Prokuplje) 'Üsküp' diye çevrilmiş; İvranye (Vranje) bozuk
+- olay | OLAYLAR_P0055:1369-01-01:0 | d: noktalama: Latin nokta yerine danda
+- olay | OLAYLAR_P0055:1538-01-01:0 | d: anlam bozukluğu (karşılık olarak başka kaleler)
+- olay | OLAYLAR_P0056:1811-07-04:0 | d: bozuk sözcük ('mescid')
+- olay | OLAYLAR_SEHIR_ILK:1778-01-01:0 | b: tersane 'deniz üssü' diye çevrilmiş
+- olay | OLAYLAR_SEHIR_ILK:1778-01-01:0 | d: tersane 'deniz üssü' diye çevrilmiş
+- olay | OLAYLAR_ARKEOLOJI_PILOT:-4555-01-01:0 | d: 'Geç' (late) 'প্রয়াত' (merhum) diye çevrilmiş
+- olay | OLAYLAR_ARKEOLOJI_D3_AMERIKA_PASIFIK:-0039-01-01:0 | b: 'Geç' 'প্রয়াত' (merhum) diye çevrilmiş
+- olay | OLAYLAR_ARKEOLOJI_D3_AMERIKA_PASIFIK:-0099-01-01:0 | b: 'Geç' 'প্রয়াত' diye çevrilmiş
+- olay | OLAYLAR_ARKEOLOJI_D3_AMERIKA_PASIFIK:-0099-01-01:0 | d: 'Geç' 'প্রয়াত' diye çevrilmiş
+- olay | OLAYLAR_ARKEOLOJI_D3_AMERIKA_PASIFIK:-0349-01-01:0 | b: 'Geç' 'প্রয়াত' diye çevrilmiş
+- olay | OLAYLAR_ARKEOLOJI_D3_AMERIKA_PASIFIK:-0349-01-01:0 | d: 'Geç' 'প্রয়াত' diye çevrilmiş
+- olay | OLAYLAR_ARKEOLOJI_D3_AMERIKA_PASIFIK:-0499-01-01:0 | d: anlam yanlışı: 'San Jose Mogote Vadisi' değil; Vadi'deki köy ve şeflik merkezi
+- olay | OLAYLAR_ARKEOLOJI_D3_AMERIKA_PASIFIK:-0749-01-01:0 | d: 'Geç' 'প্রয়াত' diye çevrilmiş
+- olay | OLAYLAR_ARKEOLOJI_D3_AMERIKA_PASIFIK:-1624-01-01:0 | d: anlam yanlışı: 'San Jose Mogote Vadisi' değil; Vadi'deki köy ve şeflik merkezi
+- olay | OLAYLAR_ARKEOLOJI_D3_AMERIKA_PASIFIK:-3399-01-01:0 | b: 'Geç' 'প্রয়াত' (merhum) diye çevrilmiş
+- olay | OLAYLAR_ARKEOLOJI_ZINCIR:-0403-01-01:0 | d: 'ayın sonunda' (ay) 'yıl sonunda' diye çevrilmiş

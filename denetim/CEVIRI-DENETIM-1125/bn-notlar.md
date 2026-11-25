@@ -24,3 +24,10 @@
 - Yazım tutarsızlığı (düzeltilmedi): অটোমান/ওসমানীয়, বুদা/বুদিন, দানিয়ুব/দানিউব, করন/কোরন, মোরিয়া/মোরা, টিডিভি/TDV, Latin/Bengal rakamı; 057-060 paketlerinde চলিত "করলো/হলো" karışık.
 - OLAYLAR_EK5:1664 ve 1672: ঠিক; OLAYLAR_EK5:1897-04-17:0 "ক্রিটের প্রকৃত হারানো" ve birkaç gövde cümlesindeki "X-এর হারানো" yapısı kusurlu ama anlaşılır, bırakıldı.
 - OLAYLAR_EK5:1608-08-09:0 d: Kuyucu cümlesi ağır ama anlam doğru, bırakıldı.
+
+== notlar_d.md
+- SİSTEMLİ (düzeltilmedi, toplu iş ister): paket 108'in sonu (OLAYLAR_2S_0918:1390-06-01) - 112 (OLAYLAR_2S_0919:1759 öncesi; arada Bengalce yazılmış tek tük kayıtlar var) kayıtlarında yer/kişi adları Latin ve Türkçe imlayla bırakılmış (Tvrtko, Šibenik, Erzincan, Kara Yûsuf, Bey), İngilizce "Pasha/Shah" kullanılmış, Bengal rakamı var. Bu turda yalnız 1847, 1852, 1890 (Colof) kayıtları düzeltildi.
+- SİSTEMLİ: arkeoloji kayıtlarında "Geç" (late) yer yer "প্রয়াত" (merhum) diye çevrilmiş; doğrusu "অন্ত্য". Bu aralıkta görülenler duzeltme_d_010/011'de (PILOT:-4555; D3_AMERIKA -0039 b, -0099, -0349, -0749, -3399 b). Bütün bn arkeoloji metni "প্রয়াত" için taranmalı (gerçek merhum kullanımı ayrı tutulmalı).
+- D3_AMERIKA / D3_MISIR_AFRIKA / ZINCIR kayıtlarında Latin kalmış terimler (Mound 1, cal BC, b.c., Eb, kaynak künyeleri, İngilizce alıntılar) kaynakla aynı; dokunulmadı.
+- Yazım tutarsızlığı (düzeltilmedi): TDV/টিডিভি, অ্যাটলাস, Latin/Bengal rakamı, আনাপলি vb.
+- "1398 সালে ... নেওয়া দিভরিগি" türü iyelik eki eksik cümleler (SENKRON_0930:1400/1401) anlaşılır olduğu için bırakıldı.

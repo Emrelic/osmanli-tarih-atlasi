@@ -1,6 +1,7 @@
 /* ÇEVİRİ bn · olay — arac/ceviri.py ile YAZILDI, elle düzenleme: py arac/ceviri.py uygula.
    Kayıt: id → [metin, kaynak_ozet] (olayda alan başına). Tasarım: denetim/CEVIRI-1103/TASARIM.md */
 Ceviri.ekle("bn","olay",{
+"OLAYLAR_GEZGINLER:0403-01-01:0":{"b": ["Faxian কারাকোরাম পেরিয়ে উত্তর ভারতে, Udyâna-য় প্রবেশ করছেন", "b6f6d79f"], "d": ["সিন্ধু নদ দড়ির সেতুতে পেরিয়ে Udyâna ও Gandhâra-য় নামেন; Peshawar-এ বুদ্ধের ভিক্ষাপাত্র দেখেন, Mathura ও Kapilavastu-র দিকে এগিয়ে যান।", "71fb0b97"]},
 "OLAYLAR_GEZGINLER:0414-01-01:0":{"b": ["Faxian সিংহল ও জাভা হয়ে চীনের উপকূলে ফিরছেন", "20c29693"], "d": ["সিংহলে দুই বছর, Java-dvîpa-য় পাঁচ মাস থাকার পর সমুদ্রপথে Shandong উপকূলে নামেন; Nanjing-এ সূত্র অনুবাদ করেন।", "a2027f55"]},
 "OLAYLAR_GEZGINLER:0629-01-01:0":{"b": ["Xuanzang-এর যাত্রাপথ (Taksila – কাশ্মীর – Poonch – Rajauri – Jalandhar – Kullu – Mathura – Thanesar – Kannauj)", "99f1b6c0"], "d": ["যাত্রাপথ: Taksila → কাশ্মীর (Srinagar) → Punach (Poonch) → Rajapuri (Rajauri) → Jalandhara (Jalandhar) → Kulutu (Kullu) → Mathura → Sthanesvara (Thanesar) → Kanyakubja (Kannauj)। পুরো যাত্রা মানচিত্রে ভ্রমণরেখা হিসেবে দেখানো হয়েছে।", "838a7c54"]},
 "OLAYLAR_GEZGINLER:0921-06-21:0":{"b": ["Ibn Fadlân খলিফা Muktedir-এর দূত দলের সঙ্গে বাগদাদ থেকে রওনা হচ্ছেন", "7df6349b"], "d": ["ভোলগা বুলগারদের খান Almış-এর অনুরোধে খলিফার পাঠানো দল Sevsen er-Ressî-র নেতৃত্বে যাত্রা করে; Ibn Fadlân দলের ধর্মীয় উপদেষ্টা।", "4094ff97"]},
