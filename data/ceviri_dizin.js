@@ -537,35 +537,35 @@ window.CEVIRI_DIZIN = {
   "it": [
    [
     "ceviri_it_arayuz.js",
-    "8b4e6899"
+    "31cc0dda"
    ],
    [
     "ceviri_it_devlet.js",
-    "b09f6b06"
+    "f5525649"
    ],
    [
     "ceviri_it_olay_01.js",
-    "df91591c"
+    "7434c07d"
    ],
    [
     "ceviri_it_olay_02.js",
-    "7a3c78a2"
+    "af603ac5"
    ],
    [
     "ceviri_it_olay_03.js",
-    "d206b0e2"
+    "c33dc172"
    ],
    [
     "ceviri_it_olay_04.js",
-    "68bc980b"
+    "a98aee01"
    ],
    [
     "ceviri_it_olay_05.js",
-    "917980b3"
+    "9f1c2940"
    ],
    [
     "ceviri_it_olay_06.js",
-    "e87a1c82"
+    "66ddc387"
    ]
   ],
   "pl": [
