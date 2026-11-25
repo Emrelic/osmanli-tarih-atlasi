@@ -9,7 +9,7 @@ window.HUKUMDAR_MISIR = [
     kaynak:"İsmail Yiğit, \"Kutuz\", TDV İslâm Ansiklopedisi, c. 26, 2002, s. 500-501, https://islamansiklopedisi.org.tr/kutuz", teyit:"teyitli" },
 
   { id:"misir-h-baybars", devlet:"memluk", ad:"I. Baybars (el-Melikü'z-Zâhir)", from:"1260-10", to:"1277-06",
-    dogum:"1223", dogum_yer:"Kıpçak ülkesi", olum:"1277-06-20", olum_yer:"Dımaşk'ta defnedildi", olum_sebep:"ani hastalık",
+    dogum:"1223", dogum_yer:"Kıpçak ülkesi", olum:"1277-06-20", olum_sebep:"ani hastalık",
     tahta:"1260-10-26", saltanat_yil:17, cocuk:{toplam:10, oglan:3},
     ovgu:"Posta teşkilatı, yol ağı, tersaneler ve dört mezhebe ayrı başkadılıkla devletin yapısını kurdu; Antakya'yı aldı, Elbistan'da İlhanlıları yendi.",
     yergi:"Turan Şah'a karşı suikastın elebaşları arasındaydı; tahta Sultan Kutuz'u öldürerek geçti.",

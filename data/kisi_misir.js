@@ -1,6 +1,6 @@
 window.KISI_MISIR = [
   { id:"misir-k-secerudur", devlet:"memluk", tur:"yabanci-hukumdar", ad:"Şecerüddür", t:"1257", donem:"1250 (yaklaşık iki ay sultan)",
-    not:"Eyyûbî Sultanı el-Melikü's-Sâlih'in Türk asıllı eşi. 1249'da kocasının ölümünü veliaht gelene kadar gizleyerek idareyi yürüttü; 1250'de Bahrî emîrlerince sultan seçildi. Yaklaşık iki ay sonra Aybeg ile evlenip saltanatı ona devretti. Makrîzî onu ilk Memlük sultanı sayar; Memlük tarihçilerinin çoğu bu sırayı Aybeg'e verir. 1257 tarihli Aybeg cinayetinden o sorumludur.",
+    not:"Eyyûbî Sultanı el-Melikü's-Sâlih'in Türk asıllı eşi. 1249'da kocasının ölümünü veliaht gelene kadar gizleyerek idareyi yürüttü; 1250'de Bahrî emîrlerince sultan seçildi. Yaklaşık iki ay sonra Aybeg ile evlenip saltanatı ona devretti. Makrîzî onu ilk Memlük sultanı sayar; Memlük tarihçilerinin çoğu bu sırayı Aybeg'e verir. 1257'de Aybeg'i hizmetkârlarına boğdurttu.",
     kaynak:"Cengiz Tomar, \"Şecerüddür\", TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/seceruddur", teyit:"teyitli" },
 
   { id:"misir-k-urabi", devlet:"misir-kavalali", tur:"siyasi", ad:"Ahmed Urâbî Paşa", f:"1841", t:"1911", donem:"1841–1911",
