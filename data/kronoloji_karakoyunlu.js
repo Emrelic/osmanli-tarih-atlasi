@@ -495,7 +495,7 @@ window.KRONOLOJI_KARAKOYUNLU = [
 { t:"1467-11-10", b:"Gökmescid banisinin ölümüyle yarım kaldı", tur:"mimari",
   onem:3, dunya:1, kapsam:"ic", etiket:["mimari","kultur","konu-kisiler","konu-kultur","konu-imar"],
   yer_id:"Tebriz",
-  d:"Cihan Şah'ın Uzun Hasan tarafından öldürüldüğü gün Gökmescid henüz tamamlanmamıştı ve inşaat yarım kaldı. Yapı ancak sonraki yıllarda, Akkoyunlu hükümdarı Ebû Muzaffer Yâkub Bahadır Han devrinde, hanımı ve kızı Sâliha Hatun'un katkılarıyla bitirilebildi. Karakoyunlu'nun en büyük eserinin kaderi, hükümdarın ölümüyle aynı andadır. 📌 Ve eseri bitiren, onu öldürenin oğludur.", ic_not_d:"Bu madde bilerek Bingöl baskınıyla aynı güne yazıldı.",
+  ic_not_ham_d:"Cihan Şah'ın Uzun Hasan tarafından öldürüldüğü gün Gökmescid henüz tamamlanmamıştı ve inşaat yarım kaldı. Yapı ancak sonraki yıllarda, Akkoyunlu hükümdarı Ebû Muzaffer Yâkub Bahadır Han devrinde, hanımı ve kızı Sâliha Hatun'un katkılarıyla bitirilebildi. Karakoyunlu'nun en büyük eserinin kaderi, hükümdarın ölümüyle aynı andadır. 📌 Ve eseri bitiren, onu öldürenin oğludur.", d:"Cihan Şah'ın Uzun Hasan tarafından öldürüldüğü gün Gökmescid henüz tamamlanmamıştı ve inşaat yarım kaldı. Yapı ancak sonraki yıllarda, Akkoyunlu hükümdarı Ebû Muzaffer Yâkub Bahadır Han devrinde, hanımı ve kızı Sâliha Hatun'un katkılarıyla bitirilebildi. Karakoyunlu'nun en büyük eserinin kaderi, hükümdarın ölümüyle aynı andadır. Ve eseri bitiren, onu öldürenin oğludur.", ic_not_d:"Bu madde bilerek Bingöl baskınıyla aynı güne yazıldı.",
   kaynak:"gokmescid" },
 
 { t:"1467-11-10", b:"Cihan Şah, Tebriz'de kendi yaptırdığı Muzafferiye Medresesi'ne gömüldü", tur:"kultur",

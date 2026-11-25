@@ -294,7 +294,7 @@ window.KRONOLOJI_LEHISTAN = [
   onem:5, dunya:3, kapsam:"dis", etiket:["savas","toprak-kayip","konu-askeri"],
   yer_id:"", kapsam_genis:true,
   d:"İsveç orduları kuzeyden girdi, Ujście'de Büyük Polonya soyluları teslim oldu ve birkaç ay içinde Varşova ile Krakov dâhil ülkenin neredeyse tamamı işgal edildi. \"Tufan\" (Potop) adı Polonya hafızasında bir felaketin değil, bir milletin yok olma eşiğinden dönüşünün adıdır; Sienkiewicz'in romanıyla ulusal anlatının merkezine yerleşmiştir.",
-  kaynak:"Muzeum Historii Polski, kalendarium \"Początek potopu szwedzkiego\" (muzhp.pl): \"21 lipca 1655 r. na ziemie Rzeczypospolitej wkroczyła z Pomorza Szczecińskiego armia szwedzka\" — cümle İsveç ordusunun Rzeczpospolita topraklarına GİRİŞİNİ tarihliyor · önceki dayanak yalnız \"el-kitabi\" idi (kaynak adı değil) · Dikkat: yer_kon Ujście'yi gösteriyor; 21 Temmuz'daki giriş Pomeranya sınırındadır — konum bu turda DEĞİŞTİRİLMEDİ", yer_kon:[52.9886,16.7211] },
+  kaynak:"Muzeum Historii Polski, kalendarium \"Początek potopu szwedzkiego\" (muzhp.pl): \"21 lipca 1655 r. na ziemie Rzeczypospolitej wkroczyła z Pomorza Szczecińskiego armia szwedzka\" — cümle İsveç ordusunun Rzeczpospolita topraklarına GİRİŞİNİ tarihliyor · önceki dayanak yalnız \"el-kitabi\" idi (kaynak adı değil) · Dikkat: yer_kon Ujście'yi gösteriyor; 21 Temmuz'daki giriş Pomeranya sınırındadır — konum DEĞİŞTİRİLMEDİ", yer_kon:[52.9886,16.7211] },
 
 { t:"1655-01-01", b:"Jasna Góra savunması — direnişin dönüm noktası", tur:"savas",
   onem:5, dunya:1, kapsam:"ic", etiket:["savas","isyan","konu-askeri","konu-isyan"],

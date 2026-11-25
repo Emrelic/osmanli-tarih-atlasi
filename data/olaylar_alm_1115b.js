@@ -17,7 +17,7 @@ window.OLAYLAR_ALM1115B = [
   etiket:["toprak-kayip","siyaset"],
   d:"Blücher'in Kasım 1806'da Lübeck yakınında teslim olmasının ardından şehir Fransızlarca yağmalanmış, Aralık 1810'da Napolyon şehri kendi imparatorluğuna katmıştır. Lübeck bu tarihe dek 1226'dan beri özgür imparatorluk şehriydi.",
   ic_not_d:"Gün kaynakta yok (ay hassasiyeti). Künye lubeck-sehri kronolojisi 1811-01-01 (yıl) yazıyor; EB1911 'December 1810' dediği ve Treccani 'nel 1810' dediği için 1810-12 alındı (iki kaynak). Fransız yönetimi sırasındaki sahip kimliği atlasın Ren sol yakası kalıbıyla fransa-cumhuriyet (imparatorluk dönemi dahil) yazıldı.",
-  kaynak:"Encyclopaedia Britannica 11. basım (1911), 'Lübeck' (en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/L%C3%BCbeck, bu oturumda okundu): \"Napoleon annexed it to his empire in December 1810\"; \"it was made a free city of the Empire by Frederick II\" (1226) · Treccani Enciclopedia on line 'Lubecca' (treccani.it/enciclopedia/lubecca/, okundu): «nel 1810 la città fu incorporata nell'Impero francese» · hassasiyet: AY" },
+  kaynak:"Encyclopaedia Britannica 11. basım (1911), 'Lübeck' (en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/L%C3%BCbeck): \"Napoleon annexed it to his empire in December 1810\"; \"it was made a free city of the Empire by Frederick II\" (1226) · Treccani Enciclopedia on line 'Lubecca' (treccani.it/enciclopedia/lubecca/, okundu): «nel 1810 la città fu incorporata nell'Impero francese» · hassasiyet: AY" },
 
 { t:"1813-01-01", kesinlik:"yil", k:"siyaset", onem:2, dunya:1, kapsam:"dis",
   yer_id:"Lübeck",
@@ -108,7 +108,7 @@ window.OLAYLAR_ALM1115B = [
   gun:"1815",
   yer:"Schwerin",
   etiket:["siyaset"],
-  d:"Mecklenburg-Schwerin Dükü Friedrich Franz I 1815'te büyük dükalık ('großherzogliche Würde') unvanını aldı; Mecklenburg dükalığı (1348-1815) künyesi bu noktada sona erer, ülke Alman Konfederasyonu içinde büyük dükalık olarak sürer.",
+  ic_not_ham_d:"Mecklenburg-Schwerin Dükü Friedrich Franz I 1815'te büyük dükalık ('großherzogliche Würde') unvanını aldı; Mecklenburg dükalığı (1348-1815) künyesi bu noktada sona erer, ülke Alman Konfederasyonu içinde büyük dükalık olarak sürer.", d:"Mecklenburg-Schwerin Dükü Friedrich Franz I 1815'te büyük dükalık ('großherzogliche Würde') unvanını aldı; Mecklenburg dükalığı (1348-1815) bu noktada sona erer, ülke Alman Konfederasyonu içinde büyük dükalık olarak sürer.",
   ic_not_d:"YALNIZ YIL teyitli; gün (Viyana Kongresi Nihai Senedi 9 Haziran 1815 çevresi) kaynakta okunmadı → YYYY-01-01 + yıl hassasiyeti. Künye mecklenburg-dukaligi t = 1815-01-01 ile aynı.",
   kaynak:"Deutsche Biographie, 'Mecklenburg' (deutsche-biographie.de/sfz59704.html, okundu): «1815 nahm er die großherzogl. Würde an»; Schwerin 'erst im 16. Jh. zur festen Residenz' · hassasiyet: YIL" },
 

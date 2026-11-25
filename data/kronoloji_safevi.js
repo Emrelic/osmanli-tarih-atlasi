@@ -301,7 +301,7 @@ window.KRONOLOJI_SAFEVI = [
 { odak_yer:["Isfahan"], t:"1600-01-01", b:"Meraga geleneğinin İsfahan'da devamı — özel rasathane çalışmaları", gun:"1600", ic_not_gun:"1600 — yıl hassasiyeti · TDV `safeviler`, `abbas-i`, `sah-ismail` gün/ay vermiyor (KRONO-DOGU-ISLAM-0929 ölçümü)", tur:"bilim", onem:2, dunya:1, kapsam:"ic",
   etiket:["bilim","imar","konu-bilim","konu-imar"],
   d:"Timurlu Uluğ Bey rasathanesinin (Semerkant) mirasını taşıyan İranlı astronomlar, Safevî sarayında resmî bir kurumsal rasathane olmasa da takvim hesaplamaları ve zîc (yıldız cetveli) derlemeleri üzerinde çalışmaya devam etti; bu alan Safevî bilim tarihinin, mimarî ve tıbba göre nispeten az araştırılmış bir köşesidir.",
-  kaynak:"ölçmedim — konu Encyclopaedia Iranica'nın ASTRONOMY maddesinde genel geçer biçimde anılıyor, Safevî'ye özel müstakil bir kaynak bu turda taranmadı", yer_id:"", kapsam_genis:true },
+  kaynak:"ölçmedim — konu Encyclopaedia Iranica'nın ASTRONOMY maddesinde genel geçer biçimde anılıyor, Safevî'ye özel müstakil bir kaynak taranmadı", yer_id:"", kapsam_genis:true },
 { t:"1642-01-01", b:"Muhammed Bâkır Meclisî'nin doğumu ve Şiî ortodoksinin sertleşmesi", gun:"1642", ic_not_gun:"1642 — yıl hassasiyeti · TDV `safeviler`, `abbas-i`, `sah-ismail` gün/ay vermiyor (KRONO-DOGU-ISLAM-0929 ölçümü)", tur:"din", onem:3, dunya:1, kapsam:"ic",
   etiket:["din","konu-kisiler","konu-din"],
   d:"17. yüzyılın en etkili Şiî âlimlerinden Muhammed Bâkır Meclisî, sonraki dönemde (bkz. aşağı, 1687 şeyhülislâmlığı) devletin resmî din siyasetini felsefe ve tasavvuf karşıtı, hadis merkezli bir çizgiye kaydıracaktı; bu dönüşümün kökleri Molla Sadrâ'nın çağdaşı olan bu erken evrede atıldı.",

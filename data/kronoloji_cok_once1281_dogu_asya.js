@@ -444,7 +444,7 @@ window.KRONOLOJI_COK_ONCE1281_DOGU_ASYA = [
 
 { t:"1044-01-01", b:"Anawrahta Pagan tahtına çıktı", tur:"hukumdar", onem:3, dunya:1, kapsam:"ic",
   etiket:["hukumdar","konu-siyasi"], yer_id:"Pagan", yer:"Pagan (Bagan)", taraflar:["pagan"],
-  d:"Anawrahta'nın tahta çıkışı Pagan'ın bir şehir-devletinden Birmanya'yı birleştiren bir krallığa dönüşmesinin başlangıcıdır. Sulu tarım bölgelerini örgütledi, Thaton seferiyle (1057, künyede) güneye yayıldı.",
+  ic_not_ham_d:"Anawrahta'nın tahta çıkışı Pagan'ın bir şehir-devletinden Birmanya'yı birleştiren bir krallığa dönüşmesinin başlangıcıdır. Sulu tarım bölgelerini örgütledi, Thaton seferiyle (1057, künyede) güneye yayıldı.", d:"Anawrahta'nın tahta çıkışı Pagan'ın bir şehir-devletinden Birmanya'yı birleştiren bir krallığa dönüşmesinin başlangıcıdır. Sulu tarım bölgelerini örgütledi, Thaton seferiyle (1057) güneye yayıldı.",
   kaynak:"Britannica, «Anawrahta» (britannica.com/biography/Anawrahta): «Anawrahta (flourished 11th century ce) was the first king of all of Myanmar, or Burma (reigned 1044–77), who introduced his people to Theravāda Buddhism.»", ic_not_kaynak:"② gövde tarayıcıyla AÇILDI ve okundu (KAYNAK-DOGRULA-DOGUASYA 01.10.2026, tarayıcı turu; betik 403 veriyordu). Alıntı yalnız editör paragrafından (p.topic-paragraph), Britannica YZ özet/soru-cevap kutuları HARİÇ; tarayıcıda birebir doğrulandı. ‖ ÖNCEKİ TUR: ③ dayanak açılmadı (KAYNAK-DOGRULA-DOGUASYA 01.10.2026). TDV myanmar yalnız 1057 Thaton fethini verir ('1057 yılında Kral Anawratha’nın (Anoratha) komşu Monlar’ın başşehri Thaton’u alarak') — 1044 tahta çıkışı DESTEKLEMEZ. Denenen: TDV myanmar 200 (Pagan: IX. yy kuruluş, 1057 Thaton, 1287 yıkılış) · başlık araması pagan: 0 sonuç. Açılmayan eski atıf (kitap sayfası açılmadı, dayanak DEĞİL): Michael Aung-Thwin, Pagan: The Origins of Modern Burma (Hawaii UP, 1985) (1044).",
   ic_not_ham_gun:"1044 (yıl; gün kaynaktan alınmadı)", gun:"1044 (yalnız yıl biliniyor)" },
 
@@ -456,7 +456,7 @@ window.KRONOLOJI_COK_ONCE1281_DOGU_ASYA = [
 
 { t:"1256-01-01", b:"Narathihapate Pagan tahtına çıktı — son büyük kral", tur:"hukumdar", onem:2, dunya:1, kapsam:"ic",
   etiket:["hukumdar","konu-siyasi"], yer_id:"Pagan", yer:"Pagan (Bagan)", taraflar:["pagan"],
-  d:"Tapınak bağışları yüzünden gelir kaybeden bir krallığı devralan Narathihapate'nin saltanatında Pagan, Kubilay'ın haraç talebini reddetti. Bu ret 1277 Ngasaunggyan savaşına ve 1287 Moğol istilasına (ikisi de künyede) giden yolu açtı.",
+  ic_not_ham_d:"Tapınak bağışları yüzünden gelir kaybeden bir krallığı devralan Narathihapate'nin saltanatında Pagan, Kubilay'ın haraç talebini reddetti. Bu ret 1277 Ngasaunggyan savaşına ve 1287 Moğol istilasına (ikisi de künyede) giden yolu açtı.", d:"Tapınak bağışları yüzünden gelir kaybeden bir krallığı devralan Narathihapate'nin saltanatında Pagan, Kubilay'ın haraç talebini reddetti. Bu ret 1277 Ngasaunggyan savaşına ve 1287 Moğol istilasına giden yolu açtı.",
   kaynak:"bulunamadı", ic_not_kaynak:"③ dayanak açılmadı (KAYNAK-DOGRULA-DOGUASYA 01.10.2026). Denenen: TDV myanmar 200 (Pagan: IX. yy kuruluş, 1057 Thaton, 1287 yıkılış) · başlık araması pagan: 0 sonuç. Açılmayan eski atıf (kitap sayfası açılmadı, dayanak DEĞİL): Michael Aung-Thwin, Pagan: The Origins of Modern Burma (1985). ‖ TARAYICI TURU (KAYNAK-DOGRULA-DOGUASYA 01.10.2026, tarayıcı turu): betik 403 · tarayıcıyla Britannica denendi (Pagan-kingdom) — editör metninde maddeyi olay+yılla destekleyen cümle YOK.",
   ic_not_ham_gun:"1256 (yıl; gün kaynaktan alınmadı)", gun:"1256 (yalnız yıl biliniyor)" },
 
@@ -490,7 +490,7 @@ window.KRONOLOJI_COK_ONCE1281_DOGU_ASYA = [
 
 { odak_yer:["Bojonegoro"], t:"1268-01-01", b:"Kertanagara Singhasari tahtına çıktı", tur:"hukumdar", onem:3, dunya:1, kapsam:"ic",
   etiket:["hukumdar","konu-siyasi"], yer:"Singhasari (Tumapel)", taraflar:["singhasari"],
-  d:"Kertanagara, Cava'yı takımadaların merkezî gücü yapma hedefiyle Pamalayu (1275) ve Bali (1284) seferlerini düzenleyen, Kubilay'ın elçisini aşağılayan hükümdardır. 1292'deki ölümüyle krallık yıkıldı (ikisi de künyede).",
+  ic_not_ham_d:"Kertanagara, Cava'yı takımadaların merkezî gücü yapma hedefiyle Pamalayu (1275) ve Bali (1284) seferlerini düzenleyen, Kubilay'ın elçisini aşağılayan hükümdardır. 1292'deki ölümüyle krallık yıkıldı (ikisi de künyede).", d:"Kertanagara, Cava'yı takımadaların merkezî gücü yapma hedefiyle Pamalayu (1275) ve Bali (1284) seferlerini düzenleyen, Kubilay'ın elçisini aşağılayan hükümdardır. 1292'deki ölümüyle krallık yıkıldı.",
   kaynak:"Britannica, «Kertanagara» (britannica.com/biography/Kertanagara): «Kertanagara came to power only in 1268.»", ic_not_kaynak:"② gövde tarayıcıyla AÇILDI ve okundu (KAYNAK-DOGRULA-DOGUASYA 01.10.2026, tarayıcı turu; betik 403 veriyordu). Alıntı yalnız editör paragrafından (p.topic-paragraph), Britannica YZ özet/soru-cevap kutuları HARİÇ; tarayıcıda birebir doğrulandı. ‖ ÖNCEKİ TUR: ③ dayanak açılmadı (KAYNAK-DOGRULA-DOGUASYA 01.10.2026). Denenen: TDV cava 200 (XII-XIII. yy yalnız Srivijaya/Kediri genel) · endonezya 200 (Singasari yalnız XVI. yy İslâmlaşma bağlamında) · sumatra 200. Açılmayan eski atıf (kitap sayfası açılmadı, dayanak DEĞİL): George Coedès, The Indianized States of Southeast Asia (1968).",
   ic_not_ham_gun:"1268 (yıl; gün kaynaktan alınmadı)", gun:"1268 (yalnız yıl biliniyor)" },
 

@@ -74,7 +74,7 @@ window.KRONOLOJI_SINIR_CIN_SANGUO = [
    "konu-askeri",
    "cin-sanguo"
   ],
-  "d": "Chimei çöküşünden sonra Guanzhong'daki küçük beyler tasfiye edildi; İmparator Guangwu Chang'an'a gelip Han Gaozu'nun tapınağına saygı sundu. Doğu Han'ın Chang'an sahipliği atlasta bu en geç tanık günüyle başlar (öncesi 0027-0030 beyanlı boşluk).",
+  "ic_not_ham_d":"Chimei çöküşünden sonra Guanzhong'daki küçük beyler tasfiye edildi; İmparator Guangwu Chang'an'a gelip Han Gaozu'nun tapınağına saygı sundu. Doğu Han'ın Chang'an sahipliği atlasta bu en geç tanık günüyle başlar (öncesi 0027-0030 beyanlı boşluk).", "d": "Chimei çöküşünden sonra Guanzhong'daki küçük beyler tasfiye edildi; İmparator Guangwu Chang'an'a gelip Han Gaozu'nun tapınağına saygı sundu. Haritada Doğu Han'ın Chang'an hâkimiyeti, kaynaklarda tanıklanan bu en geç günle başlatılır (öncesindeki 27-30 arası haritada boş).",
   "kaynak": "Fan Ye, Hou Han shu 1b (tarihçe kaydında okundu) — 建武六年 「夏四月丙子，幸長安，始謁高廟」 ; Hou Han shu 17 (Feng Yi) — 「張邯據長安」",
   "ic_not_ham_gun":"28 Mayıs 30 (Jülyen; ganzhi 丙子)", "gun": "28 Mayıs 30 (Jülyen takvimi)",
   "kesinlik": "gun",
@@ -231,7 +231,7 @@ window.KRONOLOJI_SINIR_CIN_SANGUO = [
    "konu-askeri",
    "cin-sanguo"
   ],
-  "d": "Han imparatoru Xian'ın 220-11-25'te (乙卯) feragat fermanı yayımlamasının ardından Cao Pi 220-12-10'da (庚午) tahta çıktı ve Han (Doğu Han) sona erdi; Wei kuruldu. Wei, Hedong'dan ayırıp Pingyang komutanlığını kurdu; şehir Wei'ye bağlı sayıldı (başlangıç beyanlı yaklaşıklık).",
+  "ic_not_ham_d":"Han imparatoru Xian'ın 220-11-25'te (乙卯) feragat fermanı yayımlamasının ardından Cao Pi 220-12-10'da (庚午) tahta çıktı ve Han (Doğu Han) sona erdi; Wei kuruldu. Wei, Hedong'dan ayırıp Pingyang komutanlığını kurdu; şehir Wei'ye bağlı sayıldı (başlangıç beyanlı yaklaşıklık).", "d": "Han imparatoru Xian'ın 220-11-25'te (乙卯) feragat fermanı yayımlamasının ardından Cao Pi 220-12-10'da (庚午) tahta çıktı ve Han (Doğu Han) sona erdi; Wei kuruldu. Wei, Hedong'dan ayırıp Pingyang komutanlığını kurdu; şehir Wei'ye bağlı sayıldı (başlangıç tarihi yaklaşıktır).",
   "kaynak": "Chen Shou, Sanguozhi, Wei zhi 2 «Wendi ji» (zh.wikisource.org/wiki/三國志/卷02, açıldı, okundu) — 「惟延康元年十月乙卯，皇帝曰：咨爾魏王」 ; 「十二月，初營洛陽宮，戊午幸洛陽」 · Fan Ye, Hou Han shu 9 «Xiandi ji» — 「冬十月乙卯，皇帝遜位，魏王丕稱天子」 (Fuzhou/Changsha/Chang'an tarihçe kayıtlarında okundu)",
   "ic_not_ham_gun":"10 Aralık 220 (Jülyen; ganzhi 庚午)", "gun": "10 Aralık 220 (Jülyen takvimi)",
   "kesinlik": "gun",
@@ -285,7 +285,7 @@ window.KRONOLOJI_SINIR_CIN_SANGUO = [
    "konu-askeri",
    "cin-sanguo"
   ],
-  "d": "Han imparatoru Xian'ın 220-11-25'te (乙卯) feragat fermanı yayımlamasının ardından Cao Pi 220-12-10'da (庚午) tahta çıktı ve Han (Doğu Han) sona erdi; Wei kuruldu. Cao Cao'nun 213'ten beri Wei fiefi olan Ye, Wei'nin kuzey başkentlerinden biri oldu (başlangıç beyanlı yaklaşıklık).",
+  "ic_not_ham_d":"Han imparatoru Xian'ın 220-11-25'te (乙卯) feragat fermanı yayımlamasının ardından Cao Pi 220-12-10'da (庚午) tahta çıktı ve Han (Doğu Han) sona erdi; Wei kuruldu. Cao Cao'nun 213'ten beri Wei fiefi olan Ye, Wei'nin kuzey başkentlerinden biri oldu (başlangıç beyanlı yaklaşıklık).", "d": "Han imparatoru Xian'ın 220-11-25'te (乙卯) feragat fermanı yayımlamasının ardından Cao Pi 220-12-10'da (庚午) tahta çıktı ve Han (Doğu Han) sona erdi; Wei kuruldu. Cao Cao'nun 213'ten beri Wei fiefi olan Ye, Wei'nin kuzey başkentlerinden biri oldu (başlangıç tarihi yaklaşıktır).",
   "kaynak": "Chen Shou, Sanguozhi, Wei zhi 2 «Wendi ji» (zh.wikisource.org/wiki/三國志/卷02, açıldı, okundu) — 「惟延康元年十月乙卯，皇帝曰：咨爾魏王」 ; 「十二月，初營洛陽宮，戊午幸洛陽」 · Fan Ye, Hou Han shu 9 «Xiandi ji» — 「冬十月乙卯，皇帝遜位，魏王丕稱天子」 (Fuzhou/Changsha/Chang'an tarihçe kayıtlarında okundu)",
   "ic_not_ham_gun":"10 Aralık 220 (Jülyen; ganzhi 庚午)", "gun": "10 Aralık 220 (Jülyen takvimi)",
   "kesinlik": "gun",
@@ -555,7 +555,7 @@ window.KRONOLOJI_SINIR_CIN_SANGUO = [
    "konu-askeri",
    "cin-sanguo"
   ],
-  "d": "Wang Mi ve Huyan Yan Xuanyang Kapısı'nı aşıp Güney Saray'a girdi, Taiji Salonu'nu yağmaladı; Liu Yao da şehre girdi. İmparator Huai kaçarken yakalandı ve Pingyang'a götürüldü. Luoyang'ın kalıcı sahibi okunan kaynaklarda yok → zincir burada beyanlı boşluğa girer.",
+  "ic_not_ham_d":"Wang Mi ve Huyan Yan Xuanyang Kapısı'nı aşıp Güney Saray'a girdi, Taiji Salonu'nu yağmaladı; Liu Yao da şehre girdi. İmparator Huai kaçarken yakalandı ve Pingyang'a götürüldü. Luoyang'ın kalıcı sahibi okunan kaynaklarda yok → zincir burada beyanlı boşluğa girer.", "d": "Wang Mi ve Huyan Yan Xuanyang Kapısı'nı aşıp Güney Saray'a girdi, Taiji Salonu'nu yağmaladı; Liu Yao da şehre girdi. İmparator Huai kaçarken yakalandı ve Pingyang'a götürüldü. Luoyang'ın kalıcı sahibi okunan kaynaklarda yok; harita burada boş döneme girer.",
   "kaynak": "Jin shu 5 (晉書/卷005, açıldı, okundu): 「六月癸未，劉曜、王彌、石勒同寇洛川…丁酉、劉曜、王彌入京師」 ; Zizhi tongjian 87 (zh.wikisource.org/wiki/資治通鑑/卷087, okundu): 「丁酉，王彌、呼延晏克宣陽門，入南宮，升太極前殿，縱兵大掠」 ; 「帝出華林園門，欲奔長安，漢兵追執之，幽於端門」",
   "ic_not_ham_gun":"13 Temmuz 311 (Jülyen; ganzhi 丁酉)", "gun": "13 Temmuz 311 (Jülyen takvimi)",
   "kesinlik": "gun",
@@ -581,7 +581,7 @@ window.KRONOLOJI_SINIR_CIN_SANGUO = [
    "konu-askeri",
    "cin-sanguo"
   ],
-  "d": "Shi Le 312'de Ye'ye yürüdü; 313'te Shi Hu Ye'yi aldı, Jin'in Ye'deki Liu Yan'ı Linqiu'ya kaçtı, Üç Teras'ın mülteci halkı Shi Le'ye teslim oldu. Şehrin sonraki sahibi (Shi Le) için künye yok → zincir burada biter.",
+  "ic_not_ham_d":"Shi Le 312'de Ye'ye yürüdü; 313'te Shi Hu Ye'yi aldı, Jin'in Ye'deki Liu Yan'ı Linqiu'ya kaçtı, Üç Teras'ın mülteci halkı Shi Le'ye teslim oldu. Şehrin sonraki sahibi (Shi Le) için künye yok → zincir burada biter.", "d": "Shi Le 312'de Ye'ye yürüdü; 313'te Shi Hu Ye'yi aldı, Jin'in Ye'deki Liu Yan'ı Linqiu'ya kaçtı, Üç Teras'ın mülteci halkı Shi Le'ye teslim oldu. Şehrin sonraki sahibi (Shi Le) haritada ayrıca gösterilmez.",
   "kaynak": "Sima Guang, Zizhi tongjian 88 (zh.wikisource.org/wiki/資治通鑑/卷088, açıldı, okundu) — 「石勒使石虎攻鄴，鄴潰，劉演奔廩丘，三台流民皆降於勒」 (建興元年) · CHGIS 邺县 (-421~312)",
   "gun": "313 (yalnız yıl; 建興元年)",
   "kesinlik": "yil",
@@ -607,7 +607,7 @@ window.KRONOLOJI_SINIR_CIN_SANGUO = [
    "konu-askeri",
    "cin-sanguo"
   ],
-  "d": "Min Di'nin Chang'an'da Liu Yao'ya teslimiyle Batı Jin sona erdi; Jiangnan'daki Jin yönetimi (Sima Rui, 317'den Doğu Jin) sürdü, toprak el değiştirmedi. Atlasta MS 316-500 dilimi bu paketin dışında bırakıldı (beyanlı boşluk).",
+  "ic_not_ham_d":"Min Di'nin Chang'an'da Liu Yao'ya teslimiyle Batı Jin sona erdi; Jiangnan'daki Jin yönetimi (Sima Rui, 317'den Doğu Jin) sürdü, toprak el değiştirmedi. Atlasta MS 316-500 dilimi bu paketin dışında bırakıldı (beyanlı boşluk).", "d": "Min Di'nin Chang'an'da Liu Yao'ya teslimiyle Batı Jin sona erdi; Jiangnan'daki Jin yönetimi (Sima Rui, 317'den Doğu Jin) sürdü, toprak el değiştirmedi.",
   "kaynak": "Jin shu 5 (zh.wikisource.org/wiki/晉書/卷005, açıldı, okundu) — 「十一月乙末，使侍中宋敞送箋于曜，帝乘羊車，肉袒銜壁，輿櫬出降」 (乙末 = 乙未 yazım hatası) · Zizhi tongjian 89 (zh.wikisource.org/wiki/資治通鑑/卷089, okundu) — 「乙未，帝乘羊車，肉袒、銜璧、輿櫬出東門降」",
   "ic_not_ham_gun":"11 Aralık 316 (Jülyen; ganzhi 乙未)", "gun": "11 Aralık 316 (Jülyen takvimi)",
   "kesinlik": "gun",
@@ -634,7 +634,7 @@ window.KRONOLOJI_SINIR_CIN_SANGUO = [
    "konu-askeri",
    "cin-sanguo"
   ],
-  "d": "Min Di'nin Chang'an'da Liu Yao'ya teslimiyle Batı Jin sona erdi; Jiangnan'daki Jin yönetimi (Sima Rui, 317'den Doğu Jin) sürdü, toprak el değiştirmedi. Atlasta MS 316-500 dilimi bu paketin dışında bırakıldı (beyanlı boşluk).",
+  "ic_not_ham_d":"Min Di'nin Chang'an'da Liu Yao'ya teslimiyle Batı Jin sona erdi; Jiangnan'daki Jin yönetimi (Sima Rui, 317'den Doğu Jin) sürdü, toprak el değiştirmedi. Atlasta MS 316-500 dilimi bu paketin dışında bırakıldı (beyanlı boşluk).", "d": "Min Di'nin Chang'an'da Liu Yao'ya teslimiyle Batı Jin sona erdi; Jiangnan'daki Jin yönetimi (Sima Rui, 317'den Doğu Jin) sürdü, toprak el değiştirmedi.",
   "kaynak": "Jin shu 5 (zh.wikisource.org/wiki/晉書/卷005, açıldı, okundu) — 「十一月乙末，使侍中宋敞送箋于曜，帝乘羊車，肉袒銜壁，輿櫬出降」 (乙末 = 乙未 yazım hatası) · Zizhi tongjian 89 (zh.wikisource.org/wiki/資治通鑑/卷089, okundu) — 「乙未，帝乘羊車，肉袒、銜璧、輿櫬出東門降」",
   "ic_not_ham_gun":"11 Aralık 316 (Jülyen; ganzhi 乙未)", "gun": "11 Aralık 316 (Jülyen takvimi)",
   "kesinlik": "gun",
@@ -661,7 +661,7 @@ window.KRONOLOJI_SINIR_CIN_SANGUO = [
    "konu-askeri",
    "cin-sanguo"
   ],
-  "d": "Min Di'nin Chang'an'da Liu Yao'ya teslimiyle Batı Jin sona erdi; Jiangnan'daki Jin yönetimi (Sima Rui, 317'den Doğu Jin) sürdü, toprak el değiştirmedi. Atlasta MS 316-500 dilimi bu paketin dışında bırakıldı (beyanlı boşluk).",
+  "ic_not_ham_d":"Min Di'nin Chang'an'da Liu Yao'ya teslimiyle Batı Jin sona erdi; Jiangnan'daki Jin yönetimi (Sima Rui, 317'den Doğu Jin) sürdü, toprak el değiştirmedi. Atlasta MS 316-500 dilimi bu paketin dışında bırakıldı (beyanlı boşluk).", "d": "Min Di'nin Chang'an'da Liu Yao'ya teslimiyle Batı Jin sona erdi; Jiangnan'daki Jin yönetimi (Sima Rui, 317'den Doğu Jin) sürdü, toprak el değiştirmedi.",
   "kaynak": "Jin shu 5 (zh.wikisource.org/wiki/晉書/卷005, açıldı, okundu) — 「十一月乙末，使侍中宋敞送箋于曜，帝乘羊車，肉袒銜壁，輿櫬出降」 (乙末 = 乙未 yazım hatası) · Zizhi tongjian 89 (zh.wikisource.org/wiki/資治通鑑/卷089, okundu) — 「乙未，帝乘羊車，肉袒、銜璧、輿櫬出東門降」",
   "ic_not_ham_gun":"11 Aralık 316 (Jülyen; ganzhi 乙未)", "gun": "11 Aralık 316 (Jülyen takvimi)",
   "kesinlik": "gun",

@@ -787,7 +787,7 @@ window.KRONOLOJI_BALKAN = [
 
 { taraflar:["yunanistan"], t:"1821-04-02", b:"Mora İsyanı başladı", tur:"isyan",
   onem:5, dunya:5, kapsam:"dis", etiket:["isyan","kurulus","konu-siyasi","konu-isyan"], yer_id:"", odak_kimlik:["yunanistan"], kapsam_genis:true,
-  d:"Filiki Eterya'nın örgütlediği ayaklanma Mora yarımadasında patlak verdi; kısa sürede Mora'nın büyük bölümüne ve Kiklad adalarına yayıldı. Mora'daki ilk silahlı eylem Kalavrita'da 21 Mart (Jülyen) = 2 Nisan 1821 (Gregoryen); Yunan millî bayramı 25 Mart (Jülyen = 6 Nisan) bir anma geleneğidir, olay günü değil (hakem: denetim/HAKEM-YUNAN-1821-1114.md).",
+  ic_not_ham_d:"Filiki Eterya'nın örgütlediği ayaklanma Mora yarımadasında patlak verdi; kısa sürede Mora'nın büyük bölümüne ve Kiklad adalarına yayıldı. Mora'daki ilk silahlı eylem Kalavrita'da 21 Mart (Jülyen) = 2 Nisan 1821 (Gregoryen); Yunan millî bayramı 25 Mart (Jülyen = 6 Nisan) bir anma geleneğidir, olay günü değil (hakem: denetim/HAKEM-YUNAN-1821-1114.md).", d:"Filiki Eterya'nın örgütlediği ayaklanma Mora yarımadasında patlak verdi; kısa sürede Mora'nın büyük bölümüne ve Kiklad adalarına yayıldı. Mora'daki ilk silahlı eylem Kalavrita'da 21 Mart (Jülyen) = 2 Nisan 1821 (Gregoryen); Yunan millî bayramı 25 Mart (Jülyen = 6 Nisan) bir anma geleneğidir, olay günü değil.",
   kaynak:"TDV `yunanistan` + data/olaylar.js:133 ile zaten doğrulanmış, data/devletler.js embedded kronolojisiyle birebir uyumlu." },
 
 { taraflar:["yunanistan"], t:"1821-04-22", b:"Patrik V. Grigorios'un idamı", tur:"kayip",

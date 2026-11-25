@@ -1011,7 +1011,7 @@ window.KRONOLOJI_FRANSA = [
 
 { t:"1923-07-24", b:"Lozan Antlaşması'nın imzalanması", tur:"antlasma", onem:4, dunya:5, kapsam:"dis", yer_id:"",
   etiket:["antlasma","diplomasi","konu-diplomasi"],
-  d:"Fransa'nın da imzacısı olduğu Lozan, Sevr'i tamamen geçersiz kılıp Türkiye Cumhuriyeti'nin bağımsızlığını ve bugünkü sınırlarının büyük bölümünü uluslararası hukukta tescil etti. TDV maddesi kaydını burada kapatır; bu atlasın kapsamı da (1281-1923) bu antlaşmayla son buluyor.",
+  ic_not_ham_d:"Fransa'nın da imzacısı olduğu Lozan, Sevr'i tamamen geçersiz kılıp Türkiye Cumhuriyeti'nin bağımsızlığını ve bugünkü sınırlarının büyük bölümünü uluslararası hukukta tescil etti. TDV maddesi kaydını burada kapatır; bu atlasın kapsamı da (1281-1923) bu antlaşmayla son buluyor.", d:"Fransa'nın da imzacısı olduğu Lozan, Sevr'i tamamen geçersiz kılıp Türkiye Cumhuriyeti'nin bağımsızlığını ve bugünkü sınırlarının büyük bölümünü uluslararası hukukta tescil etti. TDV maddesi anlatımını burada bitirir.",
   kaynak:"TDV `fransa` maddesi (canlı) — \"1923: Lozan Antlaşması\" · dunya:5, iki taraflı bir barışın ötesinde yeni bir devletin uluslararası tanınmasını sağlaması nedeniyle", yer_id:"Lozan" },
 
 ];

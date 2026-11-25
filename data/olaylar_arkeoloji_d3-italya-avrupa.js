@@ -43,7 +43,7 @@ window.OLAYLAR_ARKEOLOJI_D3_ITALYA_AVRUPA = [
   "b": "Roma'nın kuruluşu (YAZILI GELENEK tarihleri): Roma'nın kuruluşu (yazılı gelenek, Dionysios)",
   "gun": "MÖ 752",
   "yer": "Roma condita (traditio)",
-  "d": "Yazılı gelenek Roma'nın kuruluşunu Olimpiyat sayımıyla 7. Olimpiyat'ın 1. yılına (Cato, Dionysios) -yazarlar arası 7.1 ile 12.4 arası- koyar. Varro'nun 753'ü bu oturumda KAYNAKTAN okunmadı.",
+  "ic_not_ham_d":"Yazılı gelenek Roma'nın kuruluşunu Olimpiyat sayımıyla 7. Olimpiyat'ın 1. yılına (Cato, Dionysios) -yazarlar arası 7.1 ile 12.4 arası- koyar. Varro'nun 753'ü bu oturumda KAYNAKTAN okunmadı.", "d": "Yazılı gelenek Roma'nın kuruluşunu Olimpiyat sayımıyla 7. Olimpiyat'ın 1. yılına (Cato, Dionysios) -yazarlar arası 7.1 ile 12.4 arası- koyar. Varro'nun 753'ü kaynaktan doğrulanmadı.",
   "kaynak": "Dionysios of Halicarnassus, Roman Antiquities 1.74-75 (Loeb, E. Cary çevirisi; Thayer/LacusCurtius metni, kamu malı). MÖ sayısı: 1. Olimpiyat=776 varsayımıyla 776-24=752 HESAPTIR (bu oturumda), 776 değeri bu kaynakta yoktur · https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Dionysius_of_Halicarnassus/1D*.html",
   "kesinlik": "yil",
   "kaynak_turu": "yazili",

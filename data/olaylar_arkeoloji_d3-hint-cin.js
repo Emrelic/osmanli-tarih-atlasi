@@ -194,7 +194,7 @@ window.OLAYLAR_ARKEOLOJI_D3_HINT_CIN = [
   "b": "Shang hanedan/dönem sınırları (Erligang-Yinxu çerçevesi): Shang dönemi başlar (14C modeli)",
   "gun": "MÖ 1500 civarı",
   "yer": "商",
-  "d": "Shang'ın başlangıcı için iki değer: ~1500 (Sci Rep 2018, Erligang Zhengzhou) ve ~1600 (Dönemlendirme Projesi; önceki dalga, Guangming Daily/Lee 2007). Son: Zhou fethi 1046 (Li 2002) ile 14C ~1041.",
+  "ic_not_ham_d":"Shang'ın başlangıcı için iki değer: ~1500 (Sci Rep 2018, Erligang Zhengzhou) ve ~1600 (Dönemlendirme Projesi; önceki dalga, Guangming Daily/Lee 2007). Son: Zhou fethi 1046 (Li 2002) ile 14C ~1041.", "d": "Shang'ın başlangıcı için iki değer: ~1500 (Sci Rep 2018, Erligang Zhengzhou) ve ~1600 (Dönemlendirme Projesi; Guangming Daily/Lee 2007). Son: Zhou fethi 1046 (Li 2002) ile 14C ~1041.",
   "kaynak": "Liu R., Rawson J., Pollard A.M. 2018, Scientific Reports 8:11770 (doi:10.1038/s41598-018-30275-2), Özet: 'the Shang period (ca. 1500–1046 BC)'; ayrıca Erligang (Zhengzhou) ca. 1500-1300, Yinxu II ca. 1200-1046 · https://pmc.ncbi.nlm.nih.gov/articles/PMC6079070/",
   "kesinlik": "yuzyil",
   "etiket": [

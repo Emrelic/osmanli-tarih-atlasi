@@ -280,7 +280,7 @@ window.KRONOLOJI_COK_OKYANUSYA = [
 // ── AVUSTRALYA-II: Pasifik zincir kırılmaları (Samoa · Tahiti · Yeni Zelanda · Vanuatu) ──
 { t:"1842-09-09", b:"Kraliçe IV. Pomare Fransız himayesini kabul etti — Papeete Pomare krallığından Fransız idaresine geçti", tur:"antlasma", onem:3, dunya:1, kapsam:"ic",
   etiket:["konu-siyasi","antlasma","toprak-kayip","fransa"], yer_id:"Papeete", taraflar:["tahiti","fransa-cumhuriyet"],
-  d:"Kraliçe IV. Pomare ve ileri gelen şefler 9 Eylül 1842'de Fransa'dan himaye istedi; Amiral Dupetit-Thouars bunu kabul etti. Antlaşmayla kraliçe iç denetimi korudu, dış ilişkiler ve savunma Fransa'ya geçti; atlasta himaye, koruyan devletin `s:` kaydıyla gösterilir.",
+  ic_not_ham_d:"Kraliçe IV. Pomare ve ileri gelen şefler 9 Eylül 1842'de Fransa'dan himaye istedi; Amiral Dupetit-Thouars bunu kabul etti. Antlaşmayla kraliçe iç denetimi korudu, dış ilişkiler ve savunma Fransa'ya geçti; atlasta himaye, koruyan devletin `s:` kaydıyla gösterilir.", d:"Kraliçe IV. Pomare ve ileri gelen şefler 9 Eylül 1842'de Fransa'dan himaye istedi; Amiral Dupetit-Thouars bunu kabul etti. Antlaşmayla kraliçe iç denetimi korudu, dış ilişkiler ve savunma Fransa'ya geçti.",
   kaynak:"World Statesmen, French Polynesia (worldstatesmen.org/Fr_Polynesia.html) — sayfa AÇILDI: «9 Sep 1842 ... a French protectorate»; Britannica «Tahiti» (yıl). FranceArchives kaydı sayfası JS ile yüklendiği için açılamadı.",
   gun:"9 Eylül 1842 (World Statesmen; aynı sayfanın bayrak başlığı 11 Eylül der)",
   ic_not_d:"Doğrulama 29 Ekim 2026: gün World Statesmen ile doğrulandı (aynı sayfada 11 Eylül çelişkisi var, ana kronoloji 9 Eylül); hakemli kaynak (Cambridge/Journal of Pacific History) bulunamadı. «Kraliçe iç denetimi korudu» ifadesi arama özetinden gelir, tam metin sınanmadı." },
@@ -316,7 +316,7 @@ window.KRONOLOJI_COK_OKYANUSYA = [
 { t:"1899-11-17", b:"İspanya Kuzey Mariana Adaları'nın idaresini Almanya'ya fiilen devretti (Saipan)", tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"ic",
   etiket:["konu-siyasi","toprak-kazanc","almanya"], yer_id:"Garapan (Saipan)", taraflar:["ispanya","almanya"],
   d:"İspanya, 12 Şubat 1899 tarihli İspanyol-Alman Antlaşması'yla Karolin, Marshall'ın bir kısmı ve Kuzey Marianalar'ı Almanya'ya satmıştı; Saipan'da idare 17 Kasım 1899'da resmen Almanlara devredildi. Aynı süreçte Tinian ve Rota da Alman idaresine geçti.",
-  kaynak:"D.H.R. Spennemann (Charles Sturt University), «Introduction», CNMI Bibliography (marshall.csu.edu.au/CNMI/CNMIBIB/Introduction.html): «On 17 November 1899 at four in the afternoon, the Spanish government formally handed the reigns of administration» (Saipan kaydındaki alıntı; sayfa bu oturumda yeniden açılmadı).",
+  kaynak:"D.H.R. Spennemann (Charles Sturt University), «Introduction», CNMI Bibliography (marshall.csu.edu.au/CNMI/CNMIBIB/Introduction.html): «On 17 November 1899 at four in the afternoon, the Spanish government formally handed the reigns of administration» (Saipan kaydındaki alıntı; sayfa yeniden açılmadı).",
   gun:"17 Kasım 1899 (Spennemann)",
   ic_not_d:"Doğrulama 29 Ekim 2026: gün Garapan kaydındaki alıntıdan devralındı. Antlaşma imza günü 12 Şubat 1899 kronoloji_sinir_nokta3'te ayrı maddedir (satış kararı); bu madde fiilî devri anlatır. «Tinian ve Rota da geçti» cümlesi kaynakta ayrıca okunmadı (aynı idarenin kapsamı)." },
 

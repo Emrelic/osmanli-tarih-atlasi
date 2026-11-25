@@ -20,7 +20,7 @@ window.OLAYLAR_LAB19_2S_P1 = [
   yer:"Argos",
   d:"II. Demetrios'un ölümünden ve Romalıların Illyria'ya ilk geçişinden hemen sonra Argos tiranı Aristomakhos, Hermione ve Phlius tiranlarıyla birlikte Aratos'un baskısıyla tahttan çekildi ve şehir Akhaia Birliği'ne girdi.",
   ic_not_d:"BEYANLI YAKLAŞIKLIK: Polybios 2.44 olayı Romalıların Illyria'ya ilk geçişine (MÖ 229) bağlar ama yılı açık yazmaz; yıl bu bağdan çıkarılmıştır (aynı yıl: Roma Illyria'ya ilk sefer, -0228 maddesi). Plutarkhos Aratos okunmadı.",
-  kaynak:"Polybios, Historiai 2.44 (LacusCurtius/Thayer, bu oturumda okundu): «Aristomachus, tyrant of Argos, Xenon, tyrant of Hermione, and Cleonymus, tyrant of Phlius, also resigned» · hassasiyet: YIL",
+  kaynak:"Polybios, Historiai 2.44 (LacusCurtius/Thayer): «Aristomachus, tyrant of Argos, Xenon, tyrant of Hermione, and Cleonymus, tyrant of Phlius, also resigned» · hassasiyet: YIL",
   kesinlik:"yil",
   hassasiyet:"yil" },
 
@@ -37,7 +37,7 @@ window.OLAYLAR_LAB19_2S_P1 = [
   yer:"Artaksata (Artashat)",
   d:"Antiokhos III'ün eski generali Artaksias, Büyük Ermenistan'da krallığını kurdu ve Artaksiad hanedanının ilk kralı oldu; Strabon'a göre Artaksata onun için kuruldu ve ülkenin kral konutu oldu.",
   ic_not_d:"Tarih kaynaklarda oynar (Livius tablosu 189-164; başka kaynaklar 190/189-160/159); Livius yılı alındı, Strabon tarih vermez. Hanedan soy bağı (Zariadris'in oğlu) Livius'a göredir.",
-  kaynak:"Livius.org 'Artaxiads' (livius.org/articles/dynasty/artaxiads/, bu oturumda okundu): «Zariadris' son Artaxias (r.189-164), the first king of the Artaxiad dynasty» · Strabon, Geographika 11.14.5-6 (LacusCurtius/Thayer, okundu): Artaxias ve Zariadris Antiokhos III'ün eski generalleri; Artaxata «founded by Hannibal» · hassasiyet: YIL",
+  kaynak:"Livius.org 'Artaxiads' (livius.org/articles/dynasty/artaxiads/): «Zariadris' son Artaxias (r.189-164), the first king of the Artaxiad dynasty» · Strabon, Geographika 11.14.5-6 (LacusCurtius/Thayer, okundu): Artaxias ve Zariadris Antiokhos III'ün eski generalleri; Artaxata «founded by Hannibal» · hassasiyet: YIL",
   kesinlik:"yil",
   hassasiyet:"yil" },
 
@@ -54,7 +54,7 @@ window.OLAYLAR_LAB19_2S_P1 = [
   yer:"Semerkant",
   d:"Selevkos hâkimiyetindeki Semerkant, TDV'ye göre MÖ 189'da Grek-Baktria Krallığı'nın hükmü altına girdi; Grekler şehirde küçük bir idareci sınıf olarak kaldı.",
   ic_not_d:"BEYANLI: TDV cümlesi «girdiyse de» diye kayıtlıdır (kesin olmayan bir ifade); yalnız yıl var, gün yok. NOT: yerleşim kaydında bu kırılma şu an -0189-01-01'e (MÖ 190) yazılı; TDV'ye göre -0188-01-01 olmalıdır (C düzeltmesi UMIT'e iletildi). Düzeltme yapılana kadar bu madde kırılmadan 1 yıl uzaktır.",
-  kaynak:"TDV İslâm Ansiklopedisi 'Semerkant' (islamansiklopedisi.org.tr/semerkant, bu oturumda okundu): «Semerkant milâttan önce 189 yılında Grek-Baktria Krallığı'nın hükmü altına girdiyse de» · hassasiyet: YIL",
+  kaynak:"TDV İslâm Ansiklopedisi 'Semerkant' (islamansiklopedisi.org.tr/semerkant): «Semerkant milâttan önce 189 yılında Grek-Baktria Krallığı'nın hükmü altına girdiyse de» · hassasiyet: YIL",
   kesinlik:"yil",
   hassasiyet:"yil" },
 
@@ -71,7 +71,7 @@ window.OLAYLAR_LAB19_2S_P1 = [
   yer:"Charax Spasinou",
   d:"Partların Mezopotamya'yı işgalinden (MÖ 141) sonra Charax bağımsızlaştı; Hyspaosines şehre «Hyspaosines'in kalesi» anlamına gelen Charax Spasinou adını verdi ve Characene (Maişan, Mesene) adlı küçük devletin ilk kralı oldu.",
   ic_not_d:"Tek kaynak okundu (Livius); Iranica 'Characene and Charax' (Hansman) 403 verdi, okunmadı. Livius sayfasında MÖ/MS işareti yok, bağlamdan MÖ okundu.",
-  kaynak:"Livius.org 'Charax' (livius.org/articles/place/charax/, bu oturumda okundu): «After the Parthian invasion of Mesopotamia in 141, Charax became independent»; «Charax Spasinou, i.e., the Castle of Hyspaosines» · hassasiyet: YIL",
+  kaynak:"Livius.org 'Charax' (livius.org/articles/place/charax/): «After the Parthian invasion of Mesopotamia in 141, Charax became independent»; «Charax Spasinou, i.e., the Castle of Hyspaosines» · hassasiyet: YIL",
   kesinlik:"yil",
   hassasiyet:"yil" },
 
@@ -88,7 +88,7 @@ window.OLAYLAR_LAB19_2S_P1 = [
   yer:"Sais (Şā al Ḩajar), Memphis",
   d:"Pers Kralı Kambises Mısır'ı işgal etti; Saisli I. Psamtik'in MÖ 663'te kurduğu XXVI. hânedanın yönetimi sona erdi ve ülke MÖ 404'e kadar Pers hükümdarlarınca yönetildi.",
   ic_not_d:"TDV 26. hânedanın sonunu açıkça yazmaz; son, 525 Pers işgalinden okunur. Sais'in kendisine özgü teslim günü kaynakta yoktur; ülke çapında yıl alındı.",
-  kaynak:"TDV İslâm Ansiklopedisi 'Mısır' (islamansiklopedisi.org.tr/misir, bu oturumda okundu): «Mısır milâttan önce 525'te Pers Kralı Kambises tarafından işgal edildi»; «Sais Kralı I. Psamtik ... XXVI. hânedanı kurdu (m.ö. 663)» · hassasiyet: YIL",
+  kaynak:"TDV İslâm Ansiklopedisi 'Mısır' (islamansiklopedisi.org.tr/misir): «Mısır milâttan önce 525'te Pers Kralı Kambises tarafından işgal edildi»; «Sais Kralı I. Psamtik ... XXVI. hânedanı kurdu (m.ö. 663)» · hassasiyet: YIL",
   kesinlik:"yil",
   hassasiyet:"yil" },
 
@@ -103,7 +103,7 @@ window.OLAYLAR_LAB19_2S_P1 = [
   b:"Cobá Stela 6: Initial Series 9.9.0.0.0 (Ruler A)",
   gun:"9.9.0.0.0, 3 Ajaw 2 Sotz' (May 12, 613)",
   yer:"Cobá",
-  d:"Cobá Stela 6, 9.9.0.0.0, 3 Ajaw 2 Sotz' Initial Series tarihiyle açılır; Gronemeyer'in dizisinde Ruler A'ya bağlanır. Atlasın Cobá Krallığı künyesi bu yazıt tarihinden başlar.",
+  ic_not_ham_d:"Cobá Stela 6, 9.9.0.0.0, 3 Ajaw 2 Sotz' Initial Series tarihiyle açılır; Gronemeyer'in dizisinde Ruler A'ya bağlanır. Atlasın Cobá Krallığı künyesi bu yazıt tarihinden başlar.", d:"Cobá Stela 6, 9.9.0.0.0, 3 Ajaw 2 Sotz' Initial Series tarihiyle açılır; Gronemeyer'in dizisinde Ruler A'ya bağlanır. Cobá Krallığı'nın başlangıcı olarak bu yazıt tarihi alınmıştır.",
   ic_not_d:"ayna: data/kronoloji_cok_dogu_500_1281.js (t 0613-05-12 'Cobá Stela 6'); kaynak asıl maddenin kaynağından gelir. Olay niteliği yalnız yazıt tarihidir (monument date); Cobá'nın 613 öncesi durumu okunmadı. Takvim: kaynak Batı karşılığını verir, Jülyen/Gregoryen belirtmez, gün aynen alındı.",
   ikiz_cekirdek:"data/kronoloji_cok_dogu_500_1281.js",
   kaynak:"Gronemeyer, S., 'A Preliminary Ruling Sequence of Coba, Quintana Roo', Wayeb Notes No. 14, 2004 (wayeb.org/notes/wayeb_notes0014.pdf; asıl madde kaynağı, 14.11.2026'da okunmuş): «Stela 6 ... opens ... with an Initial Series date 9.9.0.0.0, 3 Ajaw 2 Sotz' (May 12, 613).» · hassasiyet: GÜN",
@@ -121,7 +121,7 @@ window.OLAYLAR_LAB19_2S_P1 = [
   b:"Cobá Stela 20: Initial Series 9.17.10.0.0 (Ruler C; k'atun sonu)",
   gun:"9.17.10.0.0, 12 Ajaw 8 Pax (December 2, 780)",
   yer:"Cobá",
-  d:"Cobá Stela 20, 9.17.10.0.0, 12 Ajaw 8 Pax Initial Series tarihiyle açılır; en iyi korunmuş Cobá anıtıdır ve k'atun sonu kutlamasını anlattığı sanılır. Atlasın Cobá Krallığı künyesi bu yazıt tarihinde biter (künye ucu; krallığın yıkımı bu kaynakta anlatılmaz).",
+  ic_not_ham_d:"Cobá Stela 20, 9.17.10.0.0, 12 Ajaw 8 Pax Initial Series tarihiyle açılır; en iyi korunmuş Cobá anıtıdır ve k'atun sonu kutlamasını anlattığı sanılır. Atlasın Cobá Krallığı künyesi bu yazıt tarihinde biter (künye ucu; krallığın yıkımı bu kaynakta anlatılmaz).", d:"Cobá Stela 20, 9.17.10.0.0, 12 Ajaw 8 Pax Initial Series tarihiyle açılır; en iyi korunmuş Cobá anıtıdır ve k'atun sonu kutlamasını anlattığı sanılır. Cobá Krallığı'nın sonu olarak bu yazıt tarihi alınmıştır (krallığın yıkımı bu kaynakta anlatılmaz).",
   ic_not_d:"ayna: data/kronoloji_cok_dogu_500_1281.js (t 0780-12-02 'Cobá Stela 20'); kaynak asıl maddenin kaynağından gelir. UYARI: kaynak 780'in Cobá krallığının sonu olduğunu söylemez; künye t ucu yalnız son yazıt tarihine bağlanmıştır (BEYANLI YAKLAŞIKLIK). Takvim: Batı karşılığı kaynaktan aynen alındı.",
   ikiz_cekirdek:"data/kronoloji_cok_dogu_500_1281.js",
   kaynak:"Gronemeyer, S., 'A Preliminary Ruling Sequence of Coba, Quintana Roo', Wayeb Notes No. 14, 2004 (wayeb.org/notes/wayeb_notes0014.pdf; asıl madde kaynağı, 14.11.2026'da okunmuş): «The Initial Series date in blocks A2-D1 can clearly be identified as 9.17.10.0.0, 12 Ajaw 8 Pax (December 2, 780).» · hassasiyet: GÜN",
@@ -141,7 +141,7 @@ window.OLAYLAR_LAB19_2S_P1 = [
   yer:"Zebîd, Tihâme (Yemen)",
   d:"Halife Me'mûn'un emriyle Muhammed b. Abdullah b. Ziyâd, Şâban 204'te (Şubat 820) Zebîd şehrini kurdu; saraylar yaptırdı ve kanallar açtırdı. Şehir Abbâsîler'e yarı bağımsız Ziyâdîler'in yönetim merkezi oldu.",
   ic_not_d:"Hicrî/mîlâdî: Şâban 204 ≈ 820-01-21..02-19 (tablo takvimi, Jülyen); TDV «Şubat 820» der, gün yok. Kesişimin ilk günü 0820-02-01, AY hassasiyeti (ayın 1'i gün kanıtı değildir). TDV bir sonraki yıl başlangıcı/bitiş tarihlerini vermez (818'de ordu sevki dışında).",
-  kaynak:"TDV İslâm Ansiklopedisi 'Zebîd' (islamansiklopedisi.org.tr/zebid, bu oturumda okundu): «Me'mûn'un emriyle Şâban 204'te (Şubat 820) Zebîd şehrini kurarak saraylar yaptırdı ve kanallar açtırdı.» · hassasiyet: AY",
+  kaynak:"TDV İslâm Ansiklopedisi 'Zebîd' (islamansiklopedisi.org.tr/zebid): «Me'mûn'un emriyle Şâban 204'te (Şubat 820) Zebîd şehrini kurarak saraylar yaptırdı ve kanallar açtırdı.» · hassasiyet: AY",
   kesinlik:"ay",
   hassasiyet:"ay" },
 
@@ -158,7 +158,7 @@ window.OLAYLAR_LAB19_2S_P1 = [
   yer:"Lyon, Provence, Burgonya (Rhône ülkeleri)",
   d:"I. Lothar 19 Eylül 855'te Schüller'de tahttan feragat edip Orta Krallık'ı böldü: İtalya II. Ludwig'e, kuzey toprakları II. Lothar'a, Lyon'u içeren Provence-Burgonya Rhône ülkeleri en küçük oğlu Karl'a verildi. 23 Eylül'de Prüm'de keşiş olan Lothar 29 Eylül'de öldü.",
   ic_not_d:"Kırılma günü I. Lothar'ın ölüm günüdür (29.9.855); NDB bölüşüm tarihini 19.9.855 verir (NDB 'wohl' kaydı: aynı eserin Benelux maddesindeki notla aynıdır). Karl'ın Provence Krallığı atlasta künye değildir; Lyon 855 sonrası beyanlı __BOSLUK__ olarak kalır, bu madde yalnız devri açıklar.",
-  kaynak:"Neue Deutsche Biographie, 'Lothar I.' (Schieffer 1987, deutsche-biographie.de/sfz54387.html, bu oturumda okundu): «dem jüngsten Sohne Karl die provenzalisch-burgund. Rhonelande mit Lyon»; «Am 23.9.855 ließ L. sich als Mönch in Prüm aufnehmen und starb dort sechs Tage später.» · hassasiyet: GÜN",
+  kaynak:"Neue Deutsche Biographie, 'Lothar I.' (Schieffer 1987, deutsche-biographie.de/sfz54387.html): «dem jüngsten Sohne Karl die provenzalisch-burgund. Rhonelande mit Lyon»; «Am 23.9.855 ließ L. sich als Mönch in Prüm aufnehmen und starb dort sechs Tage später.» · hassasiyet: GÜN",
   kesinlik:"gun",
   hassasiyet:"gun" },
 ];
@@ -208,7 +208,7 @@ window.OLAYLAR_LAB19_2S_P2 = [
   etiket:["son","isgal","konu-askeri"],
   d:"Batu'nun Moğol orduları 1239'da Pereyaslavl'ı (Güney Pereyaslavl Knezliği'nin merkezi) yağmalayıp yıktı; knezlik bağımsızlığını yitirdi.",
   ic_not_d:"ayna: data/devletler.js (pereyaslavl-knezligi künyesi, odak_yer Pereyaslavl, t 1239-03-03). 3 Mart günü yalnız ikincil kaynaklarda (Vikipedi vb.); Encyclopedia of Ukraine «Batu Khan» yalnız yıl verir («In 1239 he sacked Pereiaslav and Chernihiv»). Gün akademik kaynakla doğrulanamadı: yıl hassasiyeti, t künye/dönem sınırına bağlı olduğu için 03-03 [yalnız yıl teyitli; gün teyitsiz] notuyla kalır.",
-  kaynak:"Encyclopedia of Ukraine «Batu Khan» (encyclopediaofukraine.com/pages\\B\\A\\BatuKhan.htm, 19.11.2026 okundu): «In 1239 he sacked Pereiaslav and Chernihiv.» · Encyclopedia of Ukraine «Pereiaslav principality» (künye kaynağı, bu oturumda yeniden açılmadı)" },
+  kaynak:"Encyclopedia of Ukraine «Batu Khan» (encyclopediaofukraine.com/pages\\B\\A\\BatuKhan.htm, 19.11.2026 okundu): «In 1239 he sacked Pereiaslav and Chernihiv.» · Encyclopedia of Ukraine «Pereiaslav principality» (künye kaynağı, yeniden açılmadı)" },
 
 { t:"1283-06-08",
   kesinlik:"gun",
@@ -248,7 +248,7 @@ window.OLAYLAR_LAB19_2S_P2 = [
   etiket:["antlasma","sardinya-fethi","konu-siyasi"],
   d:"Kuşatma altındaki Cagliari kalesi teslim oldu ve Pisa ile barış (fiilen bir mütareke) imzalandı. Pisa, Sardinya'daki bütün öteki topraklarını Aragon'a bıraktı; yalnız Castello di Cagliari ile Gippi ve Trexenta bölgelerini Aragon kralının tımarı (vassal) olarak elinde tuttu. Karşısında Aragonlular Bonaria tepesinde kendi karargâh kasabalarını kurdu.",
   ic_not_d:"ayna: data/kronoloji_cok_ispanya.js (t 1324-06-19, GEC). Pisa kaleyi 1326'ya (9 Haziran 1326 tam teslim) dek kral tımarı olarak elinde tuttu; yerleşim kaydı sahibi 1324-06-19'da Aragon'a çevirir — bu madde ile aynı gün, tımar ayrıntısı d'dedir.",
-  kaynak:"Gran Enciclopèdia Catalana, `conquesta-de-sardenya`; `alfons-iii-de-catalunya` (asıl madde kaydında 14.11.2026 GEC tam metin okundu: \"El castell es rendí finalment el 19 de juny\"; bu oturumda yeniden açılmadı)" },
+  kaynak:"Gran Enciclopèdia Catalana, `conquesta-de-sardenya`; `alfons-iii-de-catalunya` (asıl madde kaydında 14.11.2026 GEC tam metin okundu: \"El castell es rendí finalment el 19 de juny\"; yeniden açılmadı)" },
 
 { t:"1355-12-20",
   kesinlik:"gun",
@@ -460,7 +460,7 @@ window.OLAYLAR_LAB19_2S_P5 = [
   taraflar:["darfur","ingiltere"],
   ikiz_cekirdek:"kronoloji_cok_senkron_0930.js",
   ic_not_d:"ayna: kronoloji_cok_senkron_0930.js (t 1916-05-23). Gün: London Gazette (kaydın kaynağı) ve TDV darfur 'Mayıs 1916'da düşmesi'; O'Fahey 2008 okunmadı. Dârfûr'un öteki yerleşimleri (Cenîne, Nyala vb.) bu maddeye BAĞLANMADI: sultanlık 6 Kasım 1916'ya dek Cebel Merre'de sürdü (olaylar_p0917dunya.js).",
-  kaynak:"London Gazette suppl. 30102 (29 Mayıs 1917), Wingate'in Darfur raporu (El-Fâşir kaydının kaynağı; bu oturumda açılmadı) · TDV darfur — Ali Dînâr 'Sudan hükümetinin gönderdiği kuvvetler tarafından 6 Kasım 1916'da öldürüldü', Fâşir'in Mayıs 1916'da düşmesi (olaylar_p0917dunya.js maddesinin kaynak notundan) · R. S. O'Fahey, The Darfur Sultanate (2008) · hassasiyet: GÜN" },
+  kaynak:"London Gazette suppl. 30102 (29 Mayıs 1917), Wingate'in Darfur raporu (El-Fâşir kaydının kaynağı; açılmadı) · TDV darfur — Ali Dînâr 'Sudan hükümetinin gönderdiği kuvvetler tarafından 6 Kasım 1916'da öldürüldü', Fâşir'in Mayıs 1916'da düşmesi (olaylar_p0917dunya.js maddesinin kaynak notundan) · R. S. O'Fahey, The Darfur Sultanate (2008) · hassasiyet: GÜN" },
 
 { t:"1918-02-16",
   k:"kurulus",

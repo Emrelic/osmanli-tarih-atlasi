@@ -452,7 +452,7 @@ window.KRONOLOJI_ARABISTAN = [
   onem:3, dunya:2, kapsam:"dis", etiket:["din","siyaset","konu-askeri","konu-siyasi","konu-din"],
   yer_id:"Dir'iye (Necid)",
   d:"Vehhâbî hareketinin kurucusu Muhammed b. Abdülvehhâb'ın Dir'iye'de Muhammed b. Suûd'un himayesine sığınıp ittifak kurması, Benî Hâlid emirliği ile yükselen Suûdî-Vehhâbî hareketi arasındaki ölümcül husumetin başlangıç noktasıdır — elli bir yıl sonra bu husumet emirliğin ilk çöküşüyle sonuçlanacaktı.",
-  kaynak:"devletler.js `benihalid` künyesi; aynı olay devletler.js `suud-birinci` künyesinde de kurucu olay olarak kayıtlı (dunya değeri için çapraz bakılabilir, bu turda ayrıca ölçülmedi)." },
+  kaynak:"devletler.js `benihalid` künyesi; aynı olay devletler.js `suud-birinci` künyesinde de kurucu olay olarak kayıtlı (dunya değeri için çapraz bakılabilir, ayrıca ölçülmedi)." },
 
 { t:"1752-01-01", b:"Süleyman el-Hamîdî tahttan indirildi — iç çekişmeler başladı", tur:"bolunme",
   onem:3, dunya:1, kapsam:"ic", etiket:["bolunme","siyaset","taht-kavgasi","konu-siyasi","konu-darbe","konu-hanedan"],

@@ -428,7 +428,7 @@ window.KRONOLOJI_KIRIM = [
   etiket:["diplomasi","siyaset","konu-siyasi","konu-diplomasi"],
   yer_id:"", kapsam_genis:true,
   d:"Osmanlı-Rus savaşını sona erdiren Küçük Kaynarca Antlaşması, Kırım Hanlığı'nı siyaseten bağımsız ilan etti; yalnız dinî bağ (halifelik makamına bağlılık) Osmanlı'da kaldı. Kâğıt üzerinde bağımsızlık, pratikte hanlığı Rusya'nın nüfuz alanına bırakarak dokuz yıl sonraki ilhaka giden yolu açtı.",
-  kaynak:"kirim (TDV, doğrulanmış — kucuk-kaynarca-antlasmasi slugı bu turda içerik olarak yeniden okunamadı, ancak data/kronoloji_rusya.js:368-371'de TDV içeriği doğrulanmış ve KULLANILAN bir kaynaktır); tarih ve dunya puanı data/kronoloji_rusya.js:368 ile birebir", yer_id:"Silistre" },
+  kaynak:"kirim (TDV, doğrulanmış — kucuk-kaynarca-antlasmasi slugı içerik olarak yeniden okunamadı, ancak data/kronoloji_rusya.js:368-371'de TDV içeriği doğrulanmış ve KULLANILAN bir kaynaktır); tarih ve dunya puanı data/kronoloji_rusya.js:368 ile birebir", yer_id:"Silistre" },
 
 // === I) ŞÂHİN GİRAY VE İLHAK (1776-1792) =====================================
 { t:"1776-12-03", gun:"3 Aralık 1776 (Jülyen 22 Kasım)", ic_not_takvim:"Jülyen 22 Kasım 1776 (Dubrovin T.1 №91) = Gregoryen 3 Aralık 1776 · EMRE KARARI #10 (KARARLAR-EMRE-1015): atlas günleri Gregoryen", b:"General Prozorovski Or Kapı'yı ele geçirdi, Şâhin Giray'ın konumu güçlendi", tur:"savas", onem:4, dunya:2, kapsam:"dis",

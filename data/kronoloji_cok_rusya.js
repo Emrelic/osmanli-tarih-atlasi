@@ -485,7 +485,7 @@ window.KRONOLOJI_COK_RUSYA = [
   devletler:["rusya", "edo-bakufu"], etiket:["antlasma", "toprak", "konu-siyasi", "konu-diplomasi"],
   yer_id:"Korsakov (Güney Sahalin)", odak_yer:["Korsakov (Güney Sahalin)","Etorofu (Shana / Kurilsk)"], ic_not_ham_gun:"7 Şubat 1855 (Gregoryen; Jülyen 26 Ocak)", gun:"7 Şubat 1855 (Jülyen takvimiyle 26 Ocak)", ic_not_takvim:"Jülyen 26 Ocak 1855 = Gregoryen 7 Şubat 1855 (+12 gün; 1800-03-01..1900-02-28)",
   d:"Putyatin ile Kawaji Toshiakira Şimoda'da ilk Rus-Japon antlaşmasını imzaladı; Kuril sınırı Etorofu ile Uruppu arasına çekildi, Sahalin'de sınır çizilmeyip ada ortak/bölünmemiş bırakıldı (1875'e dek).",
-  kaynak:"Rusya Cumhurbaşkanlığı Kütüphanesi prlib.ru (Rusça, Şimoda Antlaşması) ; Amano, 'Karafuto as a Border Island', Eurasia Border Review 10(1) (Hokkaido Univ. SRC; yerleşim kaynaklarında zaten atıflı) — sayfa bu turda okunamadı, yerleşim kaydındaki atıftan alındı; ikinci bağımsız akademik teyit YOK [özet]" },
+  kaynak:"Rusya Cumhurbaşkanlığı Kütüphanesi prlib.ru (Rusça, Şimoda Antlaşması); Amano, 'Karafuto as a Border Island', Eurasia Border Review 10(1) (Hokkaido Univ. SRC; yerleşim kaynaklarında zaten atıflı) — sayfa okunamadı, yerleşim kaydındaki atıftan alındı; ikinci bağımsız akademik teyit YOK [özet]" },
 { t:"1945-08-25", b:"Güney Sahalin Harekâtı sona erdi — Kızıl Ordu Toyohara'yı aldı (harekât 11 Ağustos'ta başlamıştı)", tur:"savas", onem:4, dunya:3, kapsam:"dis",
   devletler:["sovyet-rusya", "meiji-japonya"], etiket:["askeri", "savas", "toprak", "konu-askeri"],
   yer_id:"Toyohara (Vladimirovka)", gun:"25 Ağustos 1945",

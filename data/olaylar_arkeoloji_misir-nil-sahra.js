@@ -78,7 +78,7 @@ window.OLAYLAR_ARKEOLOJI_MISIR_NIL_SAHRA = [
   "gun": "MÖ 1570–1544 arası (orta nokta MÖ 1557)",
   "yer": "New Kingdom of Egypt (accession of Ahmose I)",
   "d": "I. Ahmose'nin tahta çıkışı (XVIII. Hanedan/Yeni Krallık başı) Bronk Ramsey vd. modelinde MÖ 1570–1544 (2σ).",
-  "kaynak": "Bronk Ramsey C vd. 2010, Radiocarbon-based chronology for dynastic Egypt, Science 328:1554 (IntCal04 + OxCal) — bu oturumda ORİJİNAL OKUNMADI; değer şu ikincil yayından alıntılanmıştır: Bruins HJ, van der Plicht J. 2025. The Minoan Thera eruption predates Pharaoh Ahmose. PLoS ONE e0330702. doi:10.1371/journal.pone.0330702 · https://pmc.ncbi.nlm.nih.gov/articles/PMC12422448/",
+  "kaynak": "Bronk Ramsey C vd. 2010, Radiocarbon-based chronology for dynastic Egypt, Science 328:1554 (IntCal04 + OxCal) — ORİJİNAL OKUNMADI; değer şu ikincil yayından alıntılanmıştır: Bruins HJ, van der Plicht J. 2025. The Minoan Thera eruption predates Pharaoh Ahmose. PLoS ONE e0330702. doi:10.1371/journal.pone.0330702 · https://pmc.ncbi.nlm.nih.gov/articles/PMC12422448/",
   "kesinlik": "onyil",
   "etiket": [
    "arkeoloji"

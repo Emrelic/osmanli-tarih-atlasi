@@ -48,7 +48,7 @@ window.OLAYLAR_ARKEOLOJI_D3_ANADOLU_EGE = [
   "t": "-1199-01-01",
   "yer_id": "Hattuşa",
   "k": "kayip",
-  "b": "Hattuşa'nın boşaltılması — 3. dalga okuma notu: Hattuşa terk edilir; Hitit İmparatorluğu çöker (yaklaşık 1200)",
+  "ic_not_ham_b":"Hattuşa'nın boşaltılması — 3. dalga okuma notu: Hattuşa terk edilir; Hitit İmparatorluğu çöker (yaklaşık 1200)", "b": "Hattuşa'nın boşaltılması: Hattuşa terk edilir; Hitit İmparatorluğu çöker (yaklaşık 1200)",
   "gun": "MÖ 1200",
   "yer": "Ḫattuša / Gordion",
   "d": "Merkezî idare Hattuşa'yı boşaltmış, şehir ancak SONRA yakılmıştır; kuraklık (1198-1196±3) çöküşün koşullarının parçası olabilir, kanıtlanmış nedensellik YOK.",

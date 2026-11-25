@@ -422,7 +422,7 @@ window.KRONOLOJI_COK_LEHISTAN = [
   kesinlik:"ay",
   onem:4, dunya:1, kapsam:"ic", etiket:["siyaset","konu-siyasi","konu-hanedan"],
   yer_id:"Krakov", ic_not_ham_gun:"Nisan 1548 (ay düzeyi; gün kaynaklanmadı)", gun:"Nisan 1548 (günü bilinmiyor)",
-  d:"I. Zygmunt'un Nisan 1548'deki ölümüyle oğlu II. Zygmunt August (1530'dan beri babasıyla birlikte seçilmiş eş-kral) tek hükümdar oldu; Jagiellon hanedanının son kralı olarak 1569'da Lublin Birliği'ni kurdu ve 1572'de öldü. [ay düzeyi teyitli; gün teyitsiz]",
+  ic_not_ham_d:"I. Zygmunt'un Nisan 1548'deki ölümüyle oğlu II. Zygmunt August (1530'dan beri babasıyla birlikte seçilmiş eş-kral) tek hükümdar oldu; Jagiellon hanedanının son kralı olarak 1569'da Lublin Birliği'ni kurdu ve 1572'de öldü. [ay düzeyi teyitli; gün teyitsiz]", d:"I. Zygmunt'un Nisan 1548'deki ölümüyle oğlu II. Zygmunt August (1530'dan beri babasıyla birlikte seçilmiş eş-kral) tek hükümdar oldu; Jagiellon hanedanının son kralı olarak 1569'da Lublin Birliği'ni kurdu ve 1572'de öldü. (yalnız ayı doğrulanabildi; günü doğrulanamadı)",
   kaynak:"Britannica, 'Sigismund II Augustus' (britannica.com/biography/Sigismund-II-Augustus)",
   devlet:"polonya-erken", tasindi:"LEHISTAN-KRON 28 Ekim 2026 — hükümdar zinciri boşluğu" },
 { t:"1733-09-12", b:"Stanisław Leszczyński Varşova'da ikinci kez kral seçildi (II. August'ın ölümünden sonra)", tur:"hukumdar",

@@ -143,7 +143,7 @@ window.OLAYLAR_ARKEOLOJI_D2_AFRIKA_AMERIKA = [
   "gun": "MÖ 3350–3020 arası (orta nokta MÖ 3185)",
   "yer": "Cueva San Marcos, Valle de Tehuacan",
   "d": "2012'de yeniden kazilan San Marcos magarasindaki 3 oriklenin en eskileri 5,300-4,970 cal BP; en eski Tehuacan kulturel fazina karsilik gelir.",
-  "kaynak": "Vallebueno-Estrada, M. vd. 2016, The earliest maize from San Marcos Tehuacan is a partial domesticate with genomic evidence of inbreeding, PNAS 113(49):14151-14156: 'nonmanipulated maize specimens dating ... 5,300-4,970 calibrated y B.P.'; cal BP-1950 -> MO 3350-3020 bu oturumda · https://pmc.ncbi.nlm.nih.gov/articles/PMC5150420/",
+  "kaynak": "Vallebueno-Estrada, M. vd. 2016, The earliest maize from San Marcos Tehuacan is a partial domesticate with genomic evidence of inbreeding, PNAS 113(49):14151-14156: 'nonmanipulated maize specimens dating ... 5,300-4,970 calibrated y B.P.'; cal BP-1950 -> MO 3350-3020 · https://pmc.ncbi.nlm.nih.gov/articles/PMC5150420/",
   "kesinlik": "yuzyil",
   "etiket": [
    "arkeoloji"
@@ -164,7 +164,7 @@ window.OLAYLAR_ARKEOLOJI_D2_AFRIKA_AMERIKA = [
   "ic_not_ham_gun":"MÖ 3750 (ALT SINIR; donem-toplami MÖ 3750–3450)", "gun": "MÖ 3750 (en erken olası tarih)",
   "yer": "Los Morteros",
   "d": "Kuzey Peru kiyisinda (Chao Vadisi) bilinen en eski kerpic anit yapisi; ozet: 'invention of adobe architecture before 5,100 calendar years B.P.' El Nino yagislariyla iliskili. Sechin Alto/Sechin Bajo icin bu makale veri vermez.",
-  "kaynak": "Mauricio, A.C. vd. 2021, The earliest adobe monumental architecture in the Americas, PNAS 118(48):e2102941118: Faz II-1 'cal BP 5,700-5,400' (Tablo 1); cal BP-1950 -> MO 3750-3450 bu oturumda · https://pmc.ncbi.nlm.nih.gov/articles/PMC8640935/",
+  "kaynak": "Mauricio, A.C. vd. 2021, The earliest adobe monumental architecture in the Americas, PNAS 118(48):e2102941118: Faz II-1 'cal BP 5,700-5,400' (Tablo 1); cal BP-1950 -> MO 3750-3450 · https://pmc.ncbi.nlm.nih.gov/articles/PMC8640935/",
   "kesinlik": "yuzyil",
   "etiket": [
    "arkeoloji"

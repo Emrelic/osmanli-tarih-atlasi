@@ -17,7 +17,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "kuzey-wei"
   ],
   "d": "Kuzey Wei'nin kuzey sınırındaki garnizonlardan Wuyuan'da halk Poluohan Bailing önderliğinde komutanı öldürüp ayaklandı ve \"Gerçek Kral\" yıl adını ilan etti. Saray isyanı bastırmak için Linhuai Prensi Yuan Yu'yu kuzey seferi komutanı yaptı.",
-  "kaynak": "Wei Shou, Wei shu (554), juan 9 «Suzong ji» (正光四年): «三月，沃野鎮人破落汗拔陵聚眾反，殺鎮將，號真王元年。詔臨淮王彧為鎮軍將軍，假征北將軍，都督北征諸軍事以討之» — https://zh.wikisource.org/wiki/魏書/卷9 (bu oturumda okundu)",
+  "kaynak": "Wei Shou, Wei shu (554), juan 9 «Suzong ji» (正光四年): «三月，沃野鎮人破落汗拔陵聚眾反，殺鎮將，號真王元年。詔臨淮王彧為鎮軍將軍，假征北將軍，都督北征諸軍事以討之» — https://zh.wikisource.org/wiki/魏書/卷9",
   "gun": "正光四年三月 (gün kaynakta yok)",
   "kesinlik": "ay",
   "ic_not": "Çin ay-gün ganzhi (sexagenary) günü Jülyen takvimine hesapla çevrildi (JDN algoritması; ay sınırı ortalama yeni ay + zhongqi kuralıyla; sınama: 甲子=618-06-18, 乙亥=557-11-16, 丙寅=502-04-30, 丙寅=534-11-08 bilinen günlerle örtüştü). 1582 öncesi Jülyen kalır. Ay hassasiyeti: Çin 3. ayının başı (ortalama yeni ay hesabı). Yıl: satır 4. yıl başlığı (正光四年) altında; Anagui'nin 523 akını ile aynı yıl."
@@ -37,7 +37,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "kuzey-wei"
   ],
   "d": "Ge Rong, Boye'deki Bainiuluo çarpışmasında Kuzey Wei komutanlarını yendikten sonra kendini imparator ilan edip ülkesine \"Qi\" adını verdi ve \"Guang'an\" yıl adını kullandı. Altı Garnizon isyanının Hebei kolu böylece ayrı bir hükümdarlığa dönüştü.",
-  "kaynak": "Wei Shou, Wei shu (554), juan 9 «Suzong ji»: «九月辛亥，葛榮敗都督廣陽王淵、章武王融於博野白牛邏，融歿於陣。榮自稱天子，號曰齊國，年稱廣安» — https://zh.wikisource.org/wiki/魏書/卷9 (bu oturumda okundu)",
+  "kaynak": "Wei Shou, Wei shu (554), juan 9 «Suzong ji»: «九月辛亥，葛榮敗都督廣陽王淵、章武王融於博野白牛邏，融歿於陣。榮自稱天子，號曰齊國，年稱廣安» — https://zh.wikisource.org/wiki/魏書/卷9",
   "gun": "孝昌二年九月辛亥",
   "kesinlik": "gun",
   "ic_not": "Çin ay-gün ganzhi (sexagenary) günü Jülyen takvimine hesapla çevrildi (JDN algoritması; ay sınırı ortalama yeni ay + zhongqi kuralıyla; sınama: 甲子=618-06-18, 乙亥=557-11-16, 丙寅=502-04-30, 丙寅=534-11-08 bilinen günlerle örtüştü). 1582 öncesi Jülyen kalır. Yıl başlığı (孝昌二年=526) satır bağlamından çıkarıldı, satırın kendisinde yıl yazmıyor."
@@ -57,7 +57,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "kuzey-wei"
   ],
   "d": "Erzhu Rong, Xiaozhuang'u Sarı Irmak kıyısında tahta çıkardıktan sonra imparatoriçe dul ile çocuk imparatoru, ardından Yuan hanedanından prensleri ve yüksek memurları öldürttü; ölenler \"iki binden fazla\" diye kaydedilir. Bu olay Kuzey Wei sarayının fiilen Erzhu Rong'un eline geçişidir.",
-  "kaynak": "Wei Shou, Wei shu (554), juan 10 «Xiaozhuang ji»: «戊戌，南濟河，即帝位 … 庚子，車駕巡河，西至陶渚。榮以兵權在己，遂有異志，乃害靈太后及幼主，次害無上王劭 … 公卿已下二千餘人» — https://zh.wikisource.org/wiki/魏書/卷10 (bu oturumda okundu)",
+  "kaynak": "Wei Shou, Wei shu (554), juan 10 «Xiaozhuang ji»: «戊戌，南濟河，即帝位 … 庚子，車駕巡河，西至陶渚。榮以兵權在己，遂有異志，乃害靈太后及幼主，次害無上王劭 … 公卿已下二千餘人» — https://zh.wikisource.org/wiki/魏書/卷10",
   "gun": "武泰元年四月庚子",
   "kesinlik": "gun",
   "ic_not": "Çin ay-gün ganzhi (sexagenary) günü Jülyen takvimine hesapla çevrildi (JDN algoritması; ay sınırı ortalama yeni ay + zhongqi kuralıyla; sınama: 甲子=618-06-18, 乙亥=557-11-16, 丙寅=502-04-30, 丙寅=534-11-08 bilinen günlerle örtüştü). 1582 öncesi Jülyen kalır. Metin katliam gününü ayrıca vermez; 庚子 olay sırası içindeki gündür (戊戌 tahta çıkış, 庚子 巡河-katliam, 辛丑 saraya giriş)."
@@ -77,7 +77,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "kuzey-wei"
   ],
   "d": "Erzhu Rong ve Shangdang Prensi Yuan Tianmu Jinyang'dan saraya gelince İmparator Xiaozhuang ikisini Mingguang Salonu'nda öldürdü. Erzhu ailesi Luoyang'a karşı harekete geçti; bu, Erzhu hâkimiyetinin çözülüşünde ve Gao Huan'ın yükselişinde dönüm noktasıdır.",
-  "kaynak": "Wei Shou, Wei shu (554), juan 10 «Xiaozhuang ji»: «九月辛卯，天柱大將軍尒朱榮、上黨王天穆自晉陽來朝。戊戌，帝殺榮、天穆於明光殿，及榮子儀同三司菩提» — https://zh.wikisource.org/wiki/魏書/卷10 (bu oturumda okundu)",
+  "kaynak": "Wei Shou, Wei shu (554), juan 10 «Xiaozhuang ji»: «九月辛卯，天柱大將軍尒朱榮、上黨王天穆自晉陽來朝。戊戌，帝殺榮、天穆於明光殿，及榮子儀同三司菩提» — https://zh.wikisource.org/wiki/魏書/卷10",
   "gun": "永安三年九月戊戌",
   "kesinlik": "gun",
   "ic_not": "Çin ay-gün ganzhi (sexagenary) günü Jülyen takvimine hesapla çevrildi (JDN algoritması; ay sınırı ortalama yeni ay + zhongqi kuralıyla; sınama: 甲子=618-06-18, 乙亥=557-11-16, 丙寅=502-04-30, 丙寅=534-11-08 bilinen günlerle örtüştü). 1582 öncesi Jülyen kalır. Yıl (永安三年=530) satır bağlamı; satır yıl yazmıyor."
@@ -99,7 +99,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "bati-wei"
   ],
   "d": "İmparator Xiaowu, Husi Chun ve çevresinin baskısıyla Luoyang'dan Chang'an yönüne çıktı; iki gün sonra Gao Huan Luoyang'a girdi. Böylece Wei devleti Guanzhong'daki Yuwen Tai ile Hebei'deki Gao Huan arasında ikiye bölünmeye gitti.",
-  "kaynak": "Wei Shou, Wei shu (554), juan 11 «Chudi ji» (永熙三年): «秋七月辛巳朔 … 丁未，帝為椿等迫脅，遂出於長安。己酉，齊獻武王入洛，賀拔勝走還荊州» — https://zh.wikisource.org/wiki/魏書/卷11 (bu oturumda okundu)",
+  "kaynak": "Wei Shou, Wei shu (554), juan 11 «Chudi ji» (永熙三年): «秋七月辛巳朔 … 丁未，帝為椿等迫脅，遂出於長安。己酉，齊獻武王入洛，賀拔勝走還荊州» — https://zh.wikisource.org/wiki/魏書/卷11",
   "gun": "永熙三年七月丁未 (Luoyang'dan ayrılış) / 己酉 (Gao Huan'ın girişi 534-08-23)",
   "kesinlik": "gun",
   "ic_not": "Çin ay-gün ganzhi (sexagenary) günü Jülyen takvimine hesapla çevrildi (JDN algoritması; ay sınırı ortalama yeni ay + zhongqi kuralıyla; sınama: 甲子=618-06-18, 乙亥=557-11-16, 丙寅=502-04-30, 丙寅=534-11-08 bilinen günlerle örtüştü). 1582 öncesi Jülyen kalır. 丁未 → 534-08-21, 己酉 → 534-08-23."
@@ -120,7 +120,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "bati-wei"
   ],
   "d": "Chang'an'a sığınan Xiaowu, Yuwen Tai'nin elinde öldü. Yuwen Tai ileri gelenlerle Nanyang Prensi Yuan Baoju'yu (Wen Di) tahta oturttu; Guanzhong'daki Wei, Batı Wei adıyla ayrı hükümdarlık oldu.",
-  "kaynak": "Wei Shou, Wei shu (554), juan 11 «Chudi ji»: «閏十二月癸巳，帝為宇文黑獺所害，時年二十五» — https://zh.wikisource.org/wiki/魏書/卷11 (bu oturumda okundu) | Zhou shu juan 1: «閏十二月，魏孝武帝崩。太祖與羣公定策，尊立魏南陽王寶炬為嗣，是為文皇帝» — https://zh.wikisource.org/wiki/周書/卷01",
+  "kaynak": "Wei Shou, Wei shu (554), juan 11 «Chudi ji»: «閏十二月癸巳，帝為宇文黑獺所害，時年二十五» — https://zh.wikisource.org/wiki/魏書/卷11 | Zhou shu juan 1: «閏十二月，魏孝武帝崩。太祖與羣公定策，尊立魏南陽王寶炬為嗣，是為文皇帝» — https://zh.wikisource.org/wiki/周書/卷01",
   "gun": "永熙三年閏十二月癸巳",
   "kesinlik": "gun",
   "ic_not": "Çin ay-gün ganzhi (sexagenary) günü Jülyen takvimine hesapla çevrildi (JDN algoritması; ay sınırı ortalama yeni ay + zhongqi kuralıyla; sınama: 甲子=618-06-18, 乙亥=557-11-16, 丙寅=502-04-30, 丙寅=534-11-08 bilinen günlerle örtüştü). 1582 öncesi Jülyen kalır. Artık (閏) 12. ay: ortalama yeni ay + zhongqi modelinde artık ay farklı yerde çıktığı için (534 için model artığı başka aya koyuyor) ganzhi 癸巳 en yakın 60 günlük döngü adayıyla seçildi; 535-02-03 (癸巳). Wen Di'nin tahta çıkış günü kaynakta yok."
@@ -140,7 +140,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "dogu-wei"
   ],
   "d": "Gao Huan Xiaojing'i Luoyang'da tahta çıkardıktan sonra saray Luoyang'dan Ye'ye taşındı: 丙子'de yola çıkıldı, 庚寅'de Ye'ye varıldı; Ye'nin eski halkı 100 li batıya göçürülüp yeni gelenlere yer açıldı, Ye'den Linzhang ilçesi ayrıldı. Luoyang'a Luozhou adıyla vali bırakıldı.",
-  "kaynak": "Wei Shou, Wei shu (554), juan 12 «Xiaojing ji» (天平元年): «冬十月丙寅，即位于城東北 … 丙子，車駕北遷于鄴 … 庚寅，車駕至鄴，居北城相州之廨。改相州刺史為司州牧，魏郡太守為魏尹，徙鄴舊人西徑百里以居新遷之人，分鄴置臨漳縣» — https://zh.wikisource.org/wiki/魏書/卷12 (bu oturumda okundu)",
+  "kaynak": "Wei Shou, Wei shu (554), juan 12 «Xiaojing ji» (天平元年): «冬十月丙寅，即位于城東北 … 丙子，車駕北遷于鄴 … 庚寅，車駕至鄴，居北城相州之廨。改相州刺史為司州牧，魏郡太守為魏尹，徙鄴舊人西徑百里以居新遷之人，分鄴置臨漳縣» — https://zh.wikisource.org/wiki/魏書/卷12",
   "gun": "天平元年十一月庚寅",
   "kesinlik": "gun",
   "ic_not": "Çin ay-gün ganzhi (sexagenary) günü Jülyen takvimine hesapla çevrildi (JDN algoritması; ay sınırı ortalama yeni ay + zhongqi kuralıyla; sınama: 甲子=618-06-18, 乙亥=557-11-16, 丙寅=502-04-30, 丙寅=534-11-08 bilinen günlerle örtüştü). 1582 öncesi Jülyen kalır. 丙子 → 534-11-18 (10. ay), 庚寅 → 534-12-02 (11. ay). Wei shu satırı ay adını \"一月\" yazıyor (十一月'in \"十\" harfi düşmüş); bağlam 11. ay."
@@ -161,7 +161,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "bati-wei"
   ],
   "d": "Gao Zhongmi'nin Hulao'yu Batı Wei'ye teslim etmesi üzerine Yuwen Tai Luoyang'a yürüdü; Gao Huan Mangshan'da onu bozguna uğratıp yüksek rütbeli komutanları esir aldı ve Luozhou-Yuzhou hattı Doğu Wei'de kaldı.",
-  "kaynak": "Wei Shou, Wei shu (554), juan 12 «Xiaojing ji» (武定元年): «三月，寶炬遣其子突與宇文黑獺率眾來援仲密。庚子，圍河橋南城。丙午，帝親納訟。戊申，齊獻武王討黑獺，戰於邙山，大破之 … 豫洛二州平» — https://zh.wikisource.org/wiki/魏書/卷12 (bu oturumda okundu)",
+  "kaynak": "Wei Shou, Wei shu (554), juan 12 «Xiaojing ji» (武定元年): «三月，寶炬遣其子突與宇文黑獺率眾來援仲密。庚子，圍河橋南城。丙午，帝親納訟。戊申，齊獻武王討黑獺，戰於邙山，大破之 … 豫洛二州平» — https://zh.wikisource.org/wiki/魏書/卷12",
   "gun": "武定元年三月戊申",
   "kesinlik": "yil",
   "ic_not": "Gün çevrilemedi: ganzhi dizisi (庚子, 丙午, 戊申) ay modelinde 3. aya oturmuyor (Wei shu metni aynı yılda 二月壬申, 三月庚子 yazıyor; ortalama takvim modeli 40 günü aşan sapma veriyor) — yıl hassasiyeti (YYYY-01-01)."
@@ -182,7 +182,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "kuzey-wei"
   ],
   "d": "Xiaowu'nun ölümü üzerine Yuwen Tai ileri gelenlerle Nanyang Prensi Yuan Baoju'yu halef seçti; Guanzhong ve Longyou'daki Wei, Batı Wei adıyla Chang'an merkezli bağımsız hükümdarlık oldu.",
-  "kaynak": "Linghu Defen vd., Zhou shu (636), juan 1 «Wendi shang»: «閏十二月，魏孝武帝崩。太祖與羣公定策，尊立魏南陽王寶炬為嗣，是為文皇帝» — https://zh.wikisource.org/wiki/周書/卷01 (bu oturumda okundu) | Zhou shu juan 2: «魏大統元年春正月己酉，進太祖督中外諸軍事、錄尚書事、大行臺» — https://zh.wikisource.org/wiki/周書/卷02",
+  "kaynak": "Linghu Defen vd., Zhou shu (636), juan 1 «Wendi shang»: «閏十二月，魏孝武帝崩。太祖與羣公定策，尊立魏南陽王寶炬為嗣，是為文皇帝» — https://zh.wikisource.org/wiki/周書/卷01 | Zhou shu juan 2: «魏大統元年春正月己酉，進太祖督中外諸軍事、錄尚書事、大行臺» — https://zh.wikisource.org/wiki/周書/卷02",
   "gun": "永熙三年閏十二月 (Wen Di'nin tahta çıkış günü kaynakta yok); 大統元年 = 535",
   "kesinlik": "yil",
   "ic_not": "Künye f=0535-01-01 ile uyumlu; gün okunmadı."
@@ -203,7 +203,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "qiuchi"
   ],
   "d": "Yuwen Tai, Wuxing'de Dong Yizhou'yu kurdu ve Yang hanedanından Pixie'yi vali atadı. Yang ailesinin kral unvanıyla yönettiği Wuxing/Qiuchi hâkimiyeti Batı Wei vilayet düzenine bağlanmış oldu.",
-  "kaynak": "Linghu Defen vd., Zhou shu (636), juan 49 «Yiyu shang» (氐 bölümü): «十一年，於武興置東益州，以辟邪為刺史» — https://zh.wikisource.org/wiki/周書/卷49 (bu oturumda okundu)",
+  "kaynak": "Linghu Defen vd., Zhou shu (636), juan 49 «Yiyu shang» (氐 bölümü): «十一年，於武興置東益州，以辟邪為刺史» — https://zh.wikisource.org/wiki/周書/卷49",
   "gun": "大統十一年 (ay/gün yok)",
   "kesinlik": "yil",
   "ic_not": "大統十一年 = 545."
@@ -224,7 +224,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "kuzey-qi"
   ],
   "d": "Chen komutanı Wu Mingche, 573'te Lüliang önündeki zaferinin ardından Huainan'ı sistematik biçimde aldı; Qin ve Jing eyaletlerinden sonra yaz aylarında kuşattığı Shouyang'ı sonbaharın son ayında düşürdü. Kuzey Qi'nin güney eyaletleri Chen'e geçti.",
-  "kaynak": "Li Baiyao, Bei Qi shu (636), juan 8 «You zhu ji» (武平四年): «六月，明徹進軍圍壽陽 … 冬十月，陳將吳明徹陷壽陽» — https://zh.wikisource.org/wiki/北齊書/卷8 (bu oturumda okundu)",
+  "kaynak": "Li Baiyao, Bei Qi shu (636), juan 8 «You zhu ji» (武平四年): «六月，明徹進軍圍壽陽 … 冬十月，陳將吳明徹陷壽陽» — https://zh.wikisource.org/wiki/北齊書/卷8",
   "gun": "武平四年冬十月 (gün yok)",
   "kesinlik": "ay",
   "ic_not": "Çin ay-gün ganzhi (sexagenary) günü Jülyen takvimine hesapla çevrildi (JDN algoritması; ay sınırı ortalama yeni ay + zhongqi kuralıyla; sınama: 甲子=618-06-18, 乙亥=557-11-16, 丙寅=502-04-30, 丙寅=534-11-08 bilinen günlerle örtüştü). 1582 öncesi Jülyen kalır. Ay hassasiyeti: Çin 10. ayının başı; Chen cephesinden gün okunmadı."
@@ -245,7 +245,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "kuzey-qi"
   ],
   "d": "Kuzey Zhou Wu Di'nin 575 seferi Luoyang'ı kuşatıp Heqiao'yu yakmayı denedi; Qi, Gao Anagong komutasında Heyang'a ordu gönderince Zhou ordusu geceleyin çekildi. Luoyang bu aşamada Qi'de kaldı.",
-  "kaynak": "Li Baiyao, Bei Qi shu (636), juan 8 «You zhu ji» (武平六年): «八月 … 是月，周師入洛川，屯芒山，攻逼洛城，縱火船焚浮橋，河橋絕。閏月己丑，遣右丞相高阿那肱自晉陽禦之，師次河陽，周師夜遁» — https://zh.wikisource.org/wiki/北齊書/卷8 (bu oturumda okundu)",
+  "kaynak": "Li Baiyao, Bei Qi shu (636), juan 8 «You zhu ji» (武平六年): «八月 … 是月，周師入洛川，屯芒山，攻逼洛城，縱火船焚浮橋，河橋絕。閏月己丑，遣右丞相高阿那肱自晉陽禦之，師次河陽，周師夜遁» — https://zh.wikisource.org/wiki/北齊書/卷8",
   "gun": "武平六年八月 (gün yok)",
   "kesinlik": "ay",
   "ic_not": "Çin ay-gün ganzhi (sexagenary) günü Jülyen takvimine hesapla çevrildi (JDN algoritması; ay sınırı ortalama yeni ay + zhongqi kuralıyla; sınama: 甲子=618-06-18, 乙亥=557-11-16, 丙寅=502-04-30, 丙寅=534-11-08 bilinen günlerle örtüştü). 1582 öncesi Jülyen kalır. Ay hassasiyeti."
@@ -266,7 +266,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "kuzey-qi"
   ],
   "d": "Wu Di 576 sonbaharında Jinzhou'yu hedef aldı: Qi'nin kurucusu Gao Huan'ın sıçrama noktası olan bu kale kuşatıldı, Qi'nin Jinzhou valisi Cui Jingsong gece Zhou'ya haber salınca duvarlar aşıldı ve şehir ele geçti; komutan Wei Xiangui ve 8000 asker Guanzhong'a gönderildi.",
-  "kaynak": "Linghu Defen vd., Zhou shu (636), juan 6 «Wudi xia»: «壬申，齊晉州刺史崔景嵩守城北面，夜密遣使送款，上開府王軌率眾應之。未明，登城鼓噪，齊眾潰，遂克晉州，擒其城主特進、開府、海昌王尉相貴，俘甲士八千人，送關中» — https://zh.wikisource.org/wiki/周書/卷06 (bu oturumda okundu)",
+  "kaynak": "Linghu Defen vd., Zhou shu (636), juan 6 «Wudi xia»: «壬申，齊晉州刺史崔景嵩守城北面，夜密遣使送款，上開府王軌率眾應之。未明，登城鼓噪，齊眾潰，遂克晉州，擒其城主特進、開府、海昌王尉相貴，俘甲士八千人，送關中» — https://zh.wikisource.org/wiki/周書/卷06",
   "gun": "建德五年十月 (十一?) 壬申",
   "kesinlik": "gun",
   "ic_not": "Çin ay-gün ganzhi (sexagenary) günü Jülyen takvimine hesapla çevrildi (JDN algoritması; ay sınırı ortalama yeni ay + zhongqi kuralıyla; sınama: 甲子=618-06-18, 乙亥=557-11-16, 丙寅=502-04-30, 丙寅=534-11-08 bilinen günlerle örtüştü). 1582 öncesi Jülyen kalır. 壬申 → 576-12-03. 庚午/壬申/甲戌 dizisi aynı ay içinde; Çin ayı numarası modelde 10 (metin 十月 diyor)."
@@ -287,7 +287,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "kuzey-qi"
   ],
   "d": "Qi Gao Wei Jinzhou'yu geri almak için kuşattı; Wu Di 80.000 askerle şehrin güneyinde saf tuttu ve Qi ordusu bozguna uğradı. Hükümdar orduyu bırakıp Jinyang'a döndü ve çaresizlik içinde kaldı.",
-  "kaynak": "Li Baiyao, Bei Qi shu (636), juan 8 «You zhu ji» (武平七年): «十二月戊申，周武帝來救晉州，庚戌，戰於城南，我軍大敗。帝棄軍先還。癸丑，入晉陽，憂懼不知所之» — https://zh.wikisource.org/wiki/北齊書/卷8 (bu oturumda okundu) | Zhou shu juan 6: «庚戌，帝帥諸軍八萬人，置陣東西二十餘里» — https://zh.wikisource.org/wiki/周書/卷06",
+  "kaynak": "Li Baiyao, Bei Qi shu (636), juan 8 «You zhu ji» (武平七年): «十二月戊申，周武帝來救晉州，庚戌，戰於城南，我軍大敗。帝棄軍先還。癸丑，入晉陽，憂懼不知所之» — https://zh.wikisource.org/wiki/北齊書/卷8 | Zhou shu juan 6: «庚戌，帝帥諸軍八萬人，置陣東西二十餘里» — https://zh.wikisource.org/wiki/周書/卷06",
   "gun": "武平七年/建德五年十二月庚戌",
   "kesinlik": "gun",
   "ic_not": "Çin ay-gün ganzhi (sexagenary) günü Jülyen takvimine hesapla çevrildi (JDN algoritması; ay sınırı ortalama yeni ay + zhongqi kuralıyla; sınama: 甲子=618-06-18, 乙亥=557-11-16, 丙寅=502-04-30, 丙寅=534-11-08 bilinen günlerle örtüştü). 1582 öncesi Jülyen kalır. 庚戌 → 577-01-10 (12. ay). İki kaynağın gün ve ay örtüşmesi: Bei Qi shu 十二月庚戌, Zhou shu 十二月戊申…庚戌."
@@ -307,7 +307,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "kuzey-zhou"
   ],
   "d": "Kuzey Zhou Wu Di, 560'tan beri devleti yöneten Yuwen Hu'yu öldürterek yönetimi doğrudan üstlendi. Qi kaynağı olayı 572'nin 3. ayına koyar.",
-  "kaynak": "Li Baiyao, Bei Qi shu (636), juan 8 «You zhu ji» (武平三年): «三月辛酉，詔文武官五品已上各舉一人。是月，周誅冢宰宇文護» — https://zh.wikisource.org/wiki/北齊書/卷8 (bu oturumda okundu) | Kuzey Qi tarafı kaydıdır; Zhou shu juan 5'te açılan ayrı tarih kontrolü yapılmadı",
+  "kaynak": "Li Baiyao, Bei Qi shu (636), juan 8 «You zhu ji» (武平三年): «三月辛酉，詔文武官五品已上各舉一人。是月，周誅冢宰宇文護» — https://zh.wikisource.org/wiki/北齊書/卷8 | Kuzey Qi tarafı kaydıdır; Zhou shu juan 5'te açılan ayrı tarih kontrolü yapılmadı",
   "gun": "武平三年三月 = Zhou 建德元年 (gün yok)",
   "kesinlik": "ay",
   "ic_not": "Çin ay-gün ganzhi (sexagenary) günü Jülyen takvimine hesapla çevrildi (JDN algoritması; ay sınırı ortalama yeni ay + zhongqi kuralıyla; sınama: 甲子=618-06-18, 乙亥=557-11-16, 丙寅=502-04-30, 丙寅=534-11-08 bilinen günlerle örtüştü). 1582 öncesi Jülyen kalır. Ay hassasiyeti; Zhou kaynağıyla çift teyit yapılmadı."
@@ -328,7 +328,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "tuyuhun"
   ],
   "d": "Wu Di veliaht Yuwen Yun'u batıya, Tuyuhun'a karşı gönderdi; ordu Qinghai Gölü kıyısındaki han şehri Fusi'ye kadar ilerleyip döndü. Seferin ardından Tuyuhun büyük bir iç karışıklığa sürüklendi.",
-  "kaynak": "Linghu Defen vd., Zhou shu (636), juan 6 «Wudi xia» (建德五年): «二月辛酉，遣皇太子贇巡撫西土，仍討吐谷渾 … 八月戊申，皇太子伐吐谷渾，至伏俟城而還» — https://zh.wikisource.org/wiki/周書/卷06 (bu oturumda okundu) | Zhou shu juan 50: «建德五年，其國大亂。高祖詔皇太子征之，軍渡青海，至伏俟城。夸呂遁走，虜其餘眾而還» — https://zh.wikisource.org/wiki/周書/卷50",
+  "kaynak": "Linghu Defen vd., Zhou shu (636), juan 6 «Wudi xia» (建德五年): «二月辛酉，遣皇太子贇巡撫西土，仍討吐谷渾 … 八月戊申，皇太子伐吐谷渾，至伏俟城而還» — https://zh.wikisource.org/wiki/周書/卷06 | Zhou shu juan 50: «建德五年，其國大亂。高祖詔皇太子征之，軍渡青海，至伏俟城。夸呂遁走，虜其餘眾而還» — https://zh.wikisource.org/wiki/周書/卷50",
   "gun": "建德五年八月戊申 (seferin dönüş kaydı)",
   "kesinlik": "gun",
   "ic_not": "Çin ay-gün ganzhi (sexagenary) günü Jülyen takvimine hesapla çevrildi (JDN algoritması; ay sınırı ortalama yeni ay + zhongqi kuralıyla; sınama: 甲子=618-06-18, 乙亥=557-11-16, 丙寅=502-04-30, 丙寅=534-11-08 bilinen günlerle örtüştü). 1582 öncesi Jülyen kalır. 戊申 → 576-09-10; 戊申 sefer sonu kaydıdır, hareket günü 二月辛酉 emri."
@@ -348,7 +348,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "kuzey-zhou"
   ],
   "d": "Wu Di, 5. ayda kuzeye (Türklere) yönelik seferi başlatmıştı; hastalanıp başkente dönerken arabada öldü (36 yaşında). Oğlu Yuwen Yun (Xuan Di) tahta çıktı; Zhou devleti iki yıl içinde Yang Jian'a geçti.",
-  "kaynak": "Linghu Defen vd., Zhou shu (636), juan 6 «Wudi xia» (宣政元年): «六月丁酉，帝疾甚，還京。其夜，崩於乘輿。時年三十六» — https://zh.wikisource.org/wiki/周書/卷06 (bu oturumda okundu)",
+  "kaynak": "Linghu Defen vd., Zhou shu (636), juan 6 «Wudi xia» (宣政元年): «六月丁酉，帝疾甚，還京。其夜，崩於乘輿。時年三十六» — https://zh.wikisource.org/wiki/周書/卷06",
   "gun": "宣政元年六月丁酉",
   "kesinlik": "gun",
   "ic_not": "Çin ay-gün ganzhi (sexagenary) günü Jülyen takvimine hesapla çevrildi (JDN algoritması; ay sınırı ortalama yeni ay + zhongqi kuralıyla; sınama: 甲子=618-06-18, 乙亥=557-11-16, 丙寅=502-04-30, 丙寅=534-11-08 bilinen günlerle örtüştü). 1582 öncesi Jülyen kalır. 丁酉 → 578-06-21."
@@ -369,7 +369,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "sui"
   ],
   "d": "Xuan Di'nin ölümü üzerine küçük Jing Di (Yuwen Chan) tahta çıktı; Yang Jian \"Sol Başbakan\" ve imparatorluk naibi oldu. Ardından Yuchi Jiong, Sima Xiaonan ve Wang Qian'ın isyanları çıktı; Yang Jian bunlara karşı ordular gönderdi.",
-  "kaynak": "Linghu Defen vd., Zhou shu (636), juan 8 «Jingdi ji» (大象二年): «二年夏五月乙未，宣帝寢疾，詔帝入宿於露門學。己酉，宣帝崩，帝入居天臺 … 隨國公楊堅為假黃鉞、左大丞相» — https://zh.wikisource.org/wiki/周書/卷08 (bu oturumda okundu)",
+  "kaynak": "Linghu Defen vd., Zhou shu (636), juan 8 «Jingdi ji» (大象二年): «二年夏五月乙未，宣帝寢疾，詔帝入宿於露門學。己酉，宣帝崩，帝入居天臺 … 隨國公楊堅為假黃鉞、左大丞相» — https://zh.wikisource.org/wiki/周書/卷08",
   "gun": "大象二年五月己酉",
   "kesinlik": "gun",
   "ic_not": "Çin ay-gün ganzhi (sexagenary) günü Jülyen takvimine hesapla çevrildi (JDN algoritması; ay sınırı ortalama yeni ay + zhongqi kuralıyla; sınama: 甲子=618-06-18, 乙亥=557-11-16, 丙寅=502-04-30, 丙寅=534-11-08 bilinen günlerle örtüştü). 1582 öncesi Jülyen kalır. 己酉 → 580-06-22."
@@ -390,7 +390,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "sui"
   ],
   "d": "Xiangzhou (Ye) valisi Yuchi Jiong emre uymayıp ayaklandı; Hebei ve Henan'da on binlerce kişi ona katıldı. Zhou sarayı Wei Xiaokuan'ı başkomutan atayıp isyan üzerine yürüttü.",
-  "kaynak": "Linghu Defen vd., Zhou shu (636), juan 8 «Jingdi ji» (大象二年): «甲子，相州總管尉遲迥舉兵不受代。詔發關中兵，即以孝寬為行軍元帥，率軍討之» — https://zh.wikisource.org/wiki/周書/卷08 (bu oturumda okundu)",
+  "kaynak": "Linghu Defen vd., Zhou shu (636), juan 8 «Jingdi ji» (大象二年): «甲子，相州總管尉遲迥舉兵不受代。詔發關中兵，即以孝寬為行軍元帥，率軍討之» — https://zh.wikisource.org/wiki/周書/卷08",
   "gun": "大象二年六月甲子",
   "kesinlik": "gun",
   "ic_not": "Çin ay-gün ganzhi (sexagenary) günü Jülyen takvimine hesapla çevrildi (JDN algoritması; ay sınırı ortalama yeni ay + zhongqi kuralıyla; sınama: 甲子=618-06-18, 乙亥=557-11-16, 丙寅=502-04-30, 丙寅=534-11-08 bilinen günlerle örtüştü). 1582 öncesi Jülyen kalır. 甲子 → 580-07-07."
@@ -411,7 +411,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "sui"
   ],
   "d": "Yuchi Jiong Ye surlarında yenilip intihar etti. Yang Jian eyalet merkezini Anyang'a naklettirdi ve Ye'nin surları ile yerleşim alanının tamamını yıktırdı; Ye bir daha başkent olmadı.",
-  "kaynak": "Linghu Defen vd., Zhou shu (636), juan 8 «Jingdi ji» (大象二年): «庚午，韋孝寬破尉遲迥於鄴城，迥自殺，相州平。移相州於安陽，其鄴城及邑居皆毀廢之» — https://zh.wikisource.org/wiki/周書/卷08 (bu oturumda okundu)",
+  "kaynak": "Linghu Defen vd., Zhou shu (636), juan 8 «Jingdi ji» (大象二年): «庚午，韋孝寬破尉遲迥於鄴城，迥自殺，相州平。移相州於安陽，其鄴城及邑居皆毀廢之» — https://zh.wikisource.org/wiki/周書/卷08",
   "gun": "大象二年八月庚午",
   "kesinlik": "gun",
   "ic_not": "Çin ay-gün ganzhi (sexagenary) günü Jülyen takvimine hesapla çevrildi (JDN algoritması; ay sınırı ortalama yeni ay + zhongqi kuralıyla; sınama: 甲子=618-06-18, 乙亥=557-11-16, 丙寅=502-04-30, 丙寅=534-11-08 bilinen günlerle örtüştü). 1582 öncesi Jülyen kalır. 庚午 → 580-09-11."
@@ -431,7 +431,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "sui"
   ],
   "d": "Yang Jian eski Han-Chang'an'ın yerine güneydoğuda yeni bir başkent kurdurdu; planlama Gao Jiong, Liu Long, Hebo Zigan ve Gao Longcha'ya verilmişti. Yeni başkente \"Daxing Şehri\" adı verildi.",
-  "kaynak": "Wei Zheng vd., Sui shu (636), juan 1 «Gaozu shang»: «仍詔左僕射高熲、將作大匠劉龍、鉅鹿郡公賀婁子幹、太府少卿高龍叉等創造新都 … 十二月 … 丙子，名新都曰大興城» — https://zh.wikisource.org/wiki/隋書/卷01 (bu oturumda okundu)",
+  "kaynak": "Wei Zheng vd., Sui shu (636), juan 1 «Gaozu shang»: «仍詔左僕射高熲、將作大匠劉龍、鉅鹿郡公賀婁子幹、太府少卿高龍叉等創造新都 … 十二月 … 丙子，名新都曰大興城» — https://zh.wikisource.org/wiki/隋書/卷01",
   "gun": "開皇二年十二月丙子",
   "kesinlik": "gun",
   "ic_not": "Çin ay-gün ganzhi (sexagenary) günü Jülyen takvimine hesapla çevrildi (JDN algoritması; ay sınırı ortalama yeni ay + zhongqi kuralıyla; sınama: 甲子=618-06-18, 乙亥=557-11-16, 丙寅=502-04-30, 丙寅=534-11-08 bilinen günlerle örtüştü). 1582 öncesi Jülyen kalır. 丙子 → 583-01-05 (Jülyen); Çin 12. ayı Jülyen yıl sonuna taşıyor."
@@ -451,7 +451,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "sui"
   ],
   "d": "Yeni başkentin inşası bittikten sonra Wen Di ocak'ta girişi duyurdu; yağmurda resmî olmayan kıyafetle şehre girerek saray Daxing'e taşındı.",
-  "kaynak": "Wei Zheng vd., Sui shu (636), juan 1 «Gaozu shang» (開皇三年): «三年春正月庚子，將入新都，大赦天下 … 三月 … 丙辰，雨，常服入新都» — https://zh.wikisource.org/wiki/隋書/卷01 (bu oturumda okundu)",
+  "kaynak": "Wei Zheng vd., Sui shu (636), juan 1 «Gaozu shang» (開皇三年): «三年春正月庚子，將入新都，大赦天下 … 三月 … 丙辰，雨，常服入新都» — https://zh.wikisource.org/wiki/隋書/卷01",
   "gun": "開皇三年三月丙辰",
   "kesinlik": "gun",
   "ic_not": "Çin ay-gün ganzhi (sexagenary) günü Jülyen takvimine hesapla çevrildi (JDN algoritması; ay sınırı ortalama yeni ay + zhongqi kuralıyla; sınama: 甲子=618-06-18, 乙亥=557-11-16, 丙寅=502-04-30, 丙寅=534-11-08 bilinen günlerle örtüştü). 1582 öncesi Jülyen kalır. 丙辰 → 583-04-15."
@@ -472,7 +472,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "sui"
   ],
   "d": "Taiyuan muhafızı Li Yuan, Wang Wei ve Gao Junya'yı Liu Zhenghui'nin ihbarıyla idam ettirerek açıkça ayaklandı. Bu Tang hanedanının doğrudan başlangıcıdır.",
-  "kaynak": "Liu Xu vd., Jiu Tang shu (945), juan 1 «Gaozu ji»: «五月甲子，高祖與威、君雅視事，太宗密嚴兵於外，以備非常。遣開陽府司馬劉政會告威等謀反，即斬之以徇，遂起義兵» — https://zh.wikisource.org/wiki/舊唐書/卷1 (bu oturumda okundu) | Sui shu juan 4: «五月辛酉 … 甲子，唐公起義師於太原» — https://zh.wikisource.org/wiki/隋書/卷04",
+  "kaynak": "Liu Xu vd., Jiu Tang shu (945), juan 1 «Gaozu ji»: «五月甲子，高祖與威、君雅視事，太宗密嚴兵於外，以備非常。遣開陽府司馬劉政會告威等謀反，即斬之以徇，遂起義兵» — https://zh.wikisource.org/wiki/舊唐書/卷1 | Sui shu juan 4: «五月辛酉 … 甲子，唐公起義師於太原» — https://zh.wikisource.org/wiki/隋書/卷04",
   "gun": "大業十三年五月甲子",
   "kesinlik": "gun",
   "ic_not": "Çin ay-gün ganzhi (sexagenary) günü Jülyen takvimine hesapla çevrildi (JDN algoritması; ay sınırı ortalama yeni ay + zhongqi kuralıyla; sınama: 甲子=618-06-18, 乙亥=557-11-16, 丙寅=502-04-30, 丙寅=534-11-08 bilinen günlerle örtüştü). 1582 öncesi Jülyen kalır. 甲子 → 617-06-23 (çift teyit: Jiu Tang shu ve Sui shu aynı ganzhi gününü verir)."
@@ -493,7 +493,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "sui"
   ],
   "d": "Li Yuan, kaynağa göre 200.000 kişilik (abartılı olabilir) ordusuyla başkenti kuşatıp aldı; Sui'nin Chang'an muhafızları öldürüldü. Birkaç gün sonra Yang You imparator, Yangdi \"Taishang Huang\" ilan edilip yıl adı \"Yining\" yapıldı; gerçek iktidar Li Yuan'dadır.",
-  "kaynak": "Liu Xu vd., Jiu Tang shu (945), juan 1 «Gaozu ji»: «冬十月辛巳，至長樂宮，有眾二十萬 … 十一月丙辰，攻拔京城。衛文昇先已病死，以陰世師、滑儀等拒義兵，並斬之。癸亥，率百僚，備法駕，立代王侑為天子，遙尊煬帝為太上皇，大赦，改元為義寧» — https://zh.wikisource.org/wiki/舊唐書/卷1 (bu oturumda okundu)",
+  "kaynak": "Liu Xu vd., Jiu Tang shu (945), juan 1 «Gaozu ji»: «冬十月辛巳，至長樂宮，有眾二十萬 … 十一月丙辰，攻拔京城。衛文昇先已病死，以陰世師、滑儀等拒義兵，並斬之。癸亥，率百僚，備法駕，立代王侑為天子，遙尊煬帝為太上皇，大赦，改元為義寧» — https://zh.wikisource.org/wiki/舊唐書/卷1",
   "gun": "義寧元年十一月丙辰",
   "kesinlik": "gun",
   "ic_not": "Çin ay-gün ganzhi (sexagenary) günü Jülyen takvimine hesapla çevrildi (JDN algoritması; ay sınırı ortalama yeni ay + zhongqi kuralıyla; sınama: 甲子=618-06-18, 乙亥=557-11-16, 丙寅=502-04-30, 丙寅=534-11-08 bilinen günlerle örtüştü). 1582 öncesi Jülyen kalır. 丙辰 → 617-12-12; 辛巳 (10. ay) 617-11-07 ile tutarlı. Bu, yerleşim zincirinde devir günü SAYILMADI: şehir resmî olarak Sui adına (Yang You) kaldı, devir 618-06-18."
@@ -513,7 +513,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "sui"
   ],
   "d": "Sui'nin güney başkenti Jiangdu'da muhafız komutanı Yuwen Huaji ayaklanıp \"Taishang Huang\" Yangdi'yi öldürdü ve Qin Prensi Yang Hao'yu kukla imparator yaptı. Sui'nin fiilî sonu budur.",
-  "kaynak": "Liu Xu vd., Jiu Tang shu (945), juan 1 «Gaozu ji» (義寧二年): «三月丙辰，右屯衛將軍宇文化及弒隋太上皇於江都宮，立秦王浩為帝，自稱大丞相» — https://zh.wikisource.org/wiki/舊唐書/卷1 (bu oturumda okundu) | Sui shu juan 4: «二年三月，右屯衞將軍宇文化及，司馬德戡、元禮，監門直閣裴虔通 … » — https://zh.wikisource.org/wiki/隋書/卷04",
+  "kaynak": "Liu Xu vd., Jiu Tang shu (945), juan 1 «Gaozu ji» (義寧二年): «三月丙辰，右屯衛將軍宇文化及弒隋太上皇於江都宮，立秦王浩為帝，自稱大丞相» — https://zh.wikisource.org/wiki/舊唐書/卷1 | Sui shu juan 4: «二年三月，右屯衞將軍宇文化及，司馬德戡、元禮，監門直閣裴虔通 … » — https://zh.wikisource.org/wiki/隋書/卷04",
   "gun": "義寧二年三月丙辰",
   "kesinlik": "gun",
   "ic_not": "Çin ay-gün ganzhi (sexagenary) günü Jülyen takvimine hesapla çevrildi (JDN algoritması; ay sınırı ortalama yeni ay + zhongqi kuralıyla; sınama: 甲子=618-06-18, 乙亥=557-11-16, 丙寅=502-04-30, 丙寅=534-11-08 bilinen günlerle örtüştü). 1582 öncesi Jülyen kalır. 丙辰 → 618-04-11 (Jülyen)."
@@ -534,7 +534,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "sui"
   ],
   "d": "Son Chen hükümdarı Chen Shubao, Sui ordusunun Jiankang'ı almasından sonra esir edilerek Chang'an'a götürüldü. Güney Çin böylece üç buçuk yüzyıl sonra ilk kez kuzeyle birleşti.",
-  "kaynak": "Yao Silian, Chen shu (636), juan 6 «Houzhu ji» (禎明三年): «三年春正月乙丑朔 … 及夜，為隋軍所執 … 三月己巳，入于長安» — https://zh.wikisource.org/wiki/陳書/卷6 (bu oturumda okundu) | Not: «三月己巳» ibaresi DEVLET_LISTESI kaydından (denetim/dogu/DEVLET_LISTESI_dogu.json) taşındı; bu oturumda satır ayrıca doğrulanmadı",
+  "kaynak": "Yao Silian, Chen shu (636), juan 6 «Houzhu ji» (禎明三年): «三年春正月乙丑朔 … 及夜，為隋軍所執 … 三月己巳，入于長安» — https://zh.wikisource.org/wiki/陳書/卷6 | Not: «三月己巳» ibaresi DEVLET_LISTESI kaydından (denetim/dogu/DEVLET_LISTESI_dogu.json) taşındı; satır ayrıca doğrulanmadı",
   "gun": "禎明三年三月 (己巳; gün çevrilmedi)",
   "kesinlik": "ay",
   "ic_not": "Çin ay-gün ganzhi (sexagenary) günü Jülyen takvimine hesapla çevrildi (JDN algoritması; ay sınırı ortalama yeni ay + zhongqi kuralıyla; sınama: 甲子=618-06-18, 乙亥=557-11-16, 丙寅=502-04-30, 丙寅=534-11-08 bilinen günlerle örtüştü). 1582 öncesi Jülyen kalır. Ay hassasiyeti: Çin 3. ayının başı."
@@ -555,7 +555,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "liang-guney"
   ],
   "d": "Jingzhou valisi Xiao Baorong, Xiao Yingzhou ve Xiao Yan'ın desteğiyle Jiangling'de imparator ilan edildi ve \"Zhongxing\" yıl adını verdi; böylece Jiankang'daki Xiao Baojuan'a rakip bir Qi sarayı kuruldu.",
-  "kaynak": "Xiao Zixian, Nan Qi shu (6. yy.), juan 8 «Hedi ji» (中興元年): «中興元年春三月乙巳，即皇帝位，大赦，改元 … 即永元三年也» — https://zh.wikisource.org/wiki/南齊書/卷8 (bu oturumda okundu)",
+  "kaynak": "Xiao Zixian, Nan Qi shu (6. yy.), juan 8 «Hedi ji» (中興元年): «中興元年春三月乙巳，即皇帝位，大赦，改元 … 即永元三年也» — https://zh.wikisource.org/wiki/南齊書/卷8",
   "gun": "中興元年(永元三年)三月乙巳",
   "kesinlik": "gun",
   "ic_not": "Çin ay-gün ganzhi (sexagenary) günü Jülyen takvimine hesapla çevrildi (JDN algoritması; ay sınırı ortalama yeni ay + zhongqi kuralıyla; sınama: 甲子=618-06-18, 乙亥=557-11-16, 丙寅=502-04-30, 丙寅=534-11-08 bilinen günlerle örtüştü). 1582 öncesi Jülyen kalır. 乙巳 → 501-04-14."
@@ -576,7 +576,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "liang-guney"
   ],
   "d": "Xiao Yan'ın Xiangyang'dan başlattığı sefer Jiankang'a ulaştı; muhafız komutanları Zhang Ji ve Wang Zhenguo Xiao Baojuan'ı öldürüp başını gönderdi. Xiao Yan şehirde kütüphane ve hazineyi mühürletip yönetimi devraldı.",
-  "kaynak": "Xiao Zixian, Nan Qi shu (6. yy.), juan 8 «Hedi ji»: «十二月丙寅，建康城平。己巳，皇太后令以梁王為大司馬、錄尚書事、驃騎大將軍、揚州刺史» — https://zh.wikisource.org/wiki/南齊書/卷8 (bu oturumda okundu) | Liang shu juan 1: «十二月丙寅旦，兼衛尉張稷、北徐州刺史王珍國斬東昏，送首義師» — https://zh.wikisource.org/wiki/梁書/卷01",
+  "kaynak": "Xiao Zixian, Nan Qi shu (6. yy.), juan 8 «Hedi ji»: «十二月丙寅，建康城平。己巳，皇太后令以梁王為大司馬、錄尚書事、驃騎大將軍、揚州刺史» — https://zh.wikisource.org/wiki/南齊書/卷8 | Liang shu juan 1: «十二月丙寅旦，兼衛尉張稷、北徐州刺史王珍國斬東昏，送首義師» — https://zh.wikisource.org/wiki/梁書/卷01",
   "gun": "中興元年十二月丙寅",
   "kesinlik": "gun",
   "ic_not": "Çin ay-gün ganzhi (sexagenary) günü Jülyen takvimine hesapla çevrildi (JDN algoritması; ay sınırı ortalama yeni ay + zhongqi kuralıyla; sınama: 甲子=618-06-18, 乙亥=557-11-16, 丙寅=502-04-30, 丙寅=534-11-08 bilinen günlerle örtüştü). 1582 öncesi Jülyen kalır. 丙寅 → 501-12-31 (Jülyen); çift teyit (Nan Qi shu ve Liang shu)."
@@ -597,7 +597,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "liang-guney"
   ],
   "d": "Xiao Yan önce \"Liang Kralı\" unvanını, sonra imparatorluk alametlerini alıp 丙辰'te He Di'yi tahttan feragate zorladı; feragat belgesi 辛酉'de geldi. 4. ayın 丙寅'inde Xiao Yan Nanjiao'da tahta çıktı; He Di 丁卯'de \"Baling Kralı\" yapılıp ertesi gün öldü.",
-  "kaynak": "Xiao Zixian, Nan Qi shu (6. yy.), juan 8 «Hedi ji» (中興二年): «丙辰，禪位梁王。丁巳，廬陵王寶源薨 … 夏四月辛酉，禪詔至，皇太后遜外宮。丁卯，梁王奉帝為巴陵王，宮于姑熟，行齊正朔，一如故事。戊辰，薨，年十五» — https://zh.wikisource.org/wiki/南齊書/卷8 (bu oturumda okundu) | Liang shu juan 2: «天監元年夏四月丙寅，高祖即皇帝位於南郊» (502-04-30) — https://zh.wikisource.org/wiki/梁書/卷02",
+  "kaynak": "Xiao Zixian, Nan Qi shu (6. yy.), juan 8 «Hedi ji» (中興二年): «丙辰，禪位梁王。丁巳，廬陵王寶源薨 … 夏四月辛酉，禪詔至，皇太后遜外宮。丁卯，梁王奉帝為巴陵王，宮于姑熟，行齊正朔，一如故事。戊辰，薨，年十五» — https://zh.wikisource.org/wiki/南齊書/卷8 | Liang shu juan 2: «天監元年夏四月丙寅，高祖即皇帝位於南郊» (502-04-30) — https://zh.wikisource.org/wiki/梁書/卷02",
   "gun": "中興二年三月丙辰",
   "kesinlik": "gun",
   "ic_not": "Çin ay-gün ganzhi (sexagenary) günü Jülyen takvimine hesapla çevrildi (JDN algoritması; ay sınırı ortalama yeni ay + zhongqi kuralıyla; sınama: 甲子=618-06-18, 乙亥=557-11-16, 丙寅=502-04-30, 丙寅=534-11-08 bilinen günlerle örtüştü). 1582 öncesi Jülyen kalır. 丙辰 → 502-04-20, 辛酉 → 502-04-25, 丙寅 → 502-04-30, 丁卯 → 502-05-01. Qi sonu = Liang tahta çıkışı 502-04-30 (künye f/t uçları ile örtüşür)."
@@ -619,7 +619,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "hou-liang-xi-liang"
   ],
   "d": "Yu Jin komutasındaki beş bin atlı-yaya ordu Jiangling'e ulaştı, şehri kuşatıp aynı gün saldırıyla ele geçirdi; Xiao Yi öldürüldü, memurlar ve halktan yüz binden fazla kişi esir alınıp Guanzhong'a götürüldü. Xiao Cha Jiangling'de Liang hükümdarı olarak bırakıldı (Batı Wei'ye vasal).",
-  "kaynak": "Linghu Defen vd., Zhou shu (636), juan 2 «Wendi xia»: «十一月癸未，師濟於漢 … 丙申，謹至江陵，列營圍守。辛亥，進攻城，其日克之。擒梁元帝，殺之，并虜其百官及士民以歸 … 立蕭詧為梁主，居江陵，為魏附庸» — https://zh.wikisource.org/wiki/周書/卷02 (bu oturumda okundu) | Liang shu juan 5: «辛亥，魏軍大攻 … 六軍敗績 … 城陷于西魏» — https://zh.wikisource.org/wiki/梁書/卷05",
+  "kaynak": "Linghu Defen vd., Zhou shu (636), juan 2 «Wendi xia»: «十一月癸未，師濟於漢 … 丙申，謹至江陵，列營圍守。辛亥，進攻城，其日克之。擒梁元帝，殺之，并虜其百官及士民以歸 … 立蕭詧為梁主，居江陵，為魏附庸» — https://zh.wikisource.org/wiki/周書/卷02 | Liang shu juan 5: «辛亥，魏軍大攻 … 六軍敗績 … 城陷于西魏» — https://zh.wikisource.org/wiki/梁書/卷05",
   "gun": "承聖三年/大統十三年十一月辛亥",
   "kesinlik": "gun",
   "ic_not": "Çin ay-gün ganzhi (sexagenary) günü Jülyen takvimine hesapla çevrildi (JDN algoritması; ay sınırı ortalama yeni ay + zhongqi kuralıyla; sınama: 甲子=618-06-18, 乙亥=557-11-16, 丙寅=502-04-30, 丙寅=534-11-08 bilinen günlerle örtüştü). 1582 öncesi Jülyen kalır. 辛亥 → 555-01-07 (Jülyen). Mevcut atlas maddesi \"Jiangling 554 (yıl)\" ile aynı olay; yıl çelişkisi Çin 11. ayının Jülyen yıl sonuna düşmesinden. Seçim: 554-12 yerine 555-01-07 hesap sonucu. Çift teyit: Zhou shu ve Liang shu aynı ganzhi gününü verir."
@@ -639,7 +639,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "hou-liang-xi-liang"
   ],
   "d": "Batı Wei/Kuzey Zhou'nun vasalı Xiao Cha sekiz yıllık saltanatın ardından öldü; Zhou imparatoru oğlu Xiao Gui'yi halef atadı ve \"Tianbao\" yıl adı kullanıldı.",
-  "kaynak": "Linghu Defen vd., Zhou shu (636), juan 48 «Xiao Cha»: «詧在位八載，年四十四，保定二年二月，薨 … 高祖又命其太子巋嗣位，年號天保» — https://zh.wikisource.org/wiki/周書/卷48 (bu oturumda okundu)",
+  "kaynak": "Linghu Defen vd., Zhou shu (636), juan 48 «Xiao Cha»: «詧在位八載，年四十四，保定二年二月，薨 … 高祖又命其太子巋嗣位，年號天保» — https://zh.wikisource.org/wiki/周書/卷48",
   "gun": "保定二年二月 (gün yok)",
   "kesinlik": "ay",
   "ic_not": "Çin ay-gün ganzhi (sexagenary) günü Jülyen takvimine hesapla çevrildi (JDN algoritması; ay sınırı ortalama yeni ay + zhongqi kuralıyla; sınama: 甲子=618-06-18, 乙亥=557-11-16, 丙寅=502-04-30, 丙寅=534-11-08 bilinen günlerle örtüştü). 1582 öncesi Jülyen kalır. Ay hassasiyeti."
@@ -659,7 +659,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "hou-liang-xi-liang"
   ],
   "d": "Sui'ye bağlı Hou Liang'in ikinci hükümdarı Xiao Gui 23 yıllık saltanatın ardından öldü; Sui imparatoru oğlu Xiao Cong'u tahta çıkardı (\"Guangyun\" yıl adı) ve amcası Xiao Yan'ı Chang'an'da tutup Jiangling'e Sui Zongguan'ı yerleştirdi.",
-  "kaynak": "Linghu Defen vd., Zhou shu (636), juan 48 «Xiao Cha» (附 Xiao Gui): «巋在位二十三載，年四十四，五年五月薨 … 隋文帝又命其太子蕭琮嗣位，年號廣運 … 復置江陵總管以監之» — https://zh.wikisource.org/wiki/周書/卷48 (bu oturumda okundu)",
+  "kaynak": "Linghu Defen vd., Zhou shu (636), juan 48 «Xiao Cha» (附 Xiao Gui): «巋在位二十三載，年四十四，五年五月薨 … 隋文帝又命其太子蕭琮嗣位，年號廣運 … 復置江陵總管以監之» — https://zh.wikisource.org/wiki/周書/卷48",
   "gun": "開皇五年五月 (gün yok)",
   "kesinlik": "ay",
   "ic_not": "Çin ay-gün ganzhi (sexagenary) günü Jülyen takvimine hesapla çevrildi (JDN algoritması; ay sınırı ortalama yeni ay + zhongqi kuralıyla; sınama: 甲子=618-06-18, 乙亥=557-11-16, 丙寅=502-04-30, 丙寅=534-11-08 bilinen günlerle örtüştü). 1582 öncesi Jülyen kalır. «五年五月» ibaresinde \"5. yıl\" Sui Kaihuang 5 (585) varsayıldı; metin yıl çerçevesini açıkça yazmıyor."
@@ -680,7 +680,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "sui"
   ],
   "d": "Xiao Cong Chang'an'a çağrılınca amcası Xiao Yan ve kardeşi Chen'e kaçtı; Sui, Liang ülkesini kaldırıp Jiangling'e af ilan etti ve Xiao Cong'u \"Ju Kralı\" yaptı.",
-  "kaynak": "Wei Zheng vd., Sui shu (636), juan 1 «Gaozu shang» (開皇七年): «九月乙酉，梁安平王蕭巖掠於其國，以奔陳。辛卯，廢梁國，曲赦江陵。以梁主蕭琮為柱國，封莒國公» — https://zh.wikisource.org/wiki/隋書/卷01 (bu oturumda okundu) | Zhou shu juan 48: «隋文帝於是廢梁國，曲赦江陵死罪，給民復十年 … 自詧初即位，歲在乙亥，至是，歲在丁未，凡三十有三歲矣» — https://zh.wikisource.org/wiki/周書/卷48",
+  "kaynak": "Wei Zheng vd., Sui shu (636), juan 1 «Gaozu shang» (開皇七年): «九月乙酉，梁安平王蕭巖掠於其國，以奔陳。辛卯，廢梁國，曲赦江陵。以梁主蕭琮為柱國，封莒國公» — https://zh.wikisource.org/wiki/隋書/卷01 | Zhou shu juan 48: «隋文帝於是廢梁國，曲赦江陵死罪，給民復十年 … 自詧初即位，歲在乙亥，至是，歲在丁未，凡三十有三歲矣» — https://zh.wikisource.org/wiki/周書/卷48",
   "gun": "開皇七年九月辛卯",
   "kesinlik": "gun",
   "ic_not": "Çin ay-gün ganzhi (sexagenary) günü Jülyen takvimine hesapla çevrildi (JDN algoritması; ay sınırı ortalama yeni ay + zhongqi kuralıyla; sınama: 甲子=618-06-18, 乙亥=557-11-16, 丙寅=502-04-30, 丙寅=534-11-08 bilinen günlerle örtüştü). 1582 öncesi Jülyen kalır. 辛卯 → 587-10-26 (DEVLET_LISTESI hesabı ile aynı)."
@@ -701,7 +701,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "bati-wei"
   ],
   "d": "Batı Wei Fei Di'nin 2. yılında Yuwen Tai büyük orduyla Liangzhou'da (Guzang) göründü; Tuyuhun hanı Kualü korkarak hediye gönderdi, aynı yıl Qi ile de elçilik kurdu. Liangzhou valisi Shi Ning Tuyuhun'un dönüş yolunda Chiquan'da elçi kervanını bastı.",
-  "kaynak": "Linghu Defen vd., Zhou shu (636), juan 50 «Tuyuhun»: «魏廢帝二年，太祖勒大兵至姑臧，夸呂震懼，遣使貢方物。是歲，夸呂又通使於齊氏。涼州刺史史寧覘知其還，率輕騎襲之於州西赤泉» — https://zh.wikisource.org/wiki/周書/卷50 (bu oturumda okundu)",
+  "kaynak": "Linghu Defen vd., Zhou shu (636), juan 50 «Tuyuhun»: «魏廢帝二年，太祖勒大兵至姑臧，夸呂震懼，遣使貢方物。是歲，夸呂又通使於齊氏。涼州刺史史寧覘知其還，率輕騎襲之於州西赤泉» — https://zh.wikisource.org/wiki/周書/卷50",
   "gun": "魏廢帝二年 = 553 (ay/gün yok)",
   "kesinlik": "yil"
  },
@@ -721,7 +721,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "bati-wei"
   ],
   "d": "Liangzhou valisi Shi Ning, Göktürk Muhan Kağan'la birlikte Kualü'ye saldırıp onu yendi; Kualü'nün karısı ve çocukları ile çok sayıda hayvan alındı.",
-  "kaynak": "Linghu Defen vd., Zhou shu (636), juan 50 «Tuyuhun»: «魏恭帝二年史寧又與突厥木汗可汗襲擊夸呂，破之，虜其妻子，大獲珍物及雜畜» — https://zh.wikisource.org/wiki/周書/卷50 (bu oturumda okundu)",
+  "kaynak": "Linghu Defen vd., Zhou shu (636), juan 50 «Tuyuhun»: «魏恭帝二年史寧又與突厥木汗可汗襲擊夸呂，破之，虜其妻子，大獲珍物及雜畜» — https://zh.wikisource.org/wiki/周書/卷50",
   "gun": "魏恭帝二年 (ay/gün yok)",
   "kesinlik": "yil",
   "ic_not": "Yıl çelişkisi: Zhou shu juan 50 恭帝二年 (555) der; Zhou shu juan 50 校勘記 ve Zizhi Tongjian (卷166) 太平元年 = 556 verir (Zhou shu «突厥傳» da 三年). Seçim: 556 (iki kaynak ve yayıncı notu). 555 de savunulabilir."
@@ -742,7 +742,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "tuyuhun"
   ],
   "d": "Tuyuhun Kualü'nün Liangzhou'ya akını sırasında vali Shiyun Bao öldü; Zhou, Helan Xiang ve Yuwen Gui komutasında karşı saldırıya geçti, Tuyuhun savunmasını bozup Taoyang ile Honghe şehirlerini aldı ve oraya Taozhou'yu kurdu.",
-  "kaynak": "Linghu Defen vd., Zhou shu (636), juan 50 «Tuyuhun»: «武成初，夸呂復寇涼州，刺史是云寶戰沒。詔賀蘭祥、宇文貴率兵討之 … 又攻拔其洮陽、洪和二城，置洮州以還» — https://zh.wikisource.org/wiki/周書/卷50 (bu oturumda okundu)",
+  "kaynak": "Linghu Defen vd., Zhou shu (636), juan 50 «Tuyuhun»: «武成初，夸呂復寇涼州，刺史是云寶戰沒。詔賀蘭祥、宇文貴率兵討之 … 又攻拔其洮陽、洪和二城，置洮州以還» — https://zh.wikisource.org/wiki/周書/卷50",
   "gun": "武成初 (559-560; ay/gün yok)",
   "kesinlik": "yil",
   "ic_not": "武成 yıl adı Ağustos 559 - 560 arası; \"初\" belirsizliği nedeniyle 559 yılı seçildi."
@@ -763,7 +763,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "tuyuhun"
   ],
   "d": "Tianhe döneminin başında Tuyuhun'un güney sınırındaki Longhe Prensi Mochang halkıyla Kuzey Zhou'ya geçti; toprağı Fuzhou eyaleti yapıldı.",
-  "kaynak": "Linghu Defen vd., Zhou shu (636), juan 50 «Tuyuhun»: «天和初，其龍涸王莫昌率眾降，以其地為扶州» — https://zh.wikisource.org/wiki/周書/卷50 (bu oturumda okundu)",
+  "kaynak": "Linghu Defen vd., Zhou shu (636), juan 50 «Tuyuhun»: «天和初，其龍涸王莫昌率眾降，以其地為扶州» — https://zh.wikisource.org/wiki/周書/卷50",
   "gun": "天和初 = 566 (ay/gün yok)",
   "kesinlik": "yil"
  },
@@ -783,7 +783,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "kuzey-zhou"
   ],
   "d": "Zhou'nun 576 seferi ve iç karışıklığın ardından Tuyuhun'un Zhao Kralı Tuolou-tun Zhou'ya geldi; Zhou kaynağına göre bu tarihten sonra Tuyuhun Zhou sarayına haraç göndermeyi bıraktı.",
-  "kaynak": "Linghu Defen vd., Zhou shu (636), juan 6 «Wudi xia» (宣政元年): «宣政元年春正月癸酉，吐谷渾偽趙王他婁屯來降» — https://zh.wikisource.org/wiki/周書/卷06 (bu oturumda okundu) | Zhou shu juan 50: «宣政初，其趙王他婁屯來降。自是朝獻遂絕» — https://zh.wikisource.org/wiki/周書/卷50",
+  "kaynak": "Linghu Defen vd., Zhou shu (636), juan 6 «Wudi xia» (宣政元年): «宣政元年春正月癸酉，吐谷渾偽趙王他婁屯來降» — https://zh.wikisource.org/wiki/周書/卷06 | Zhou shu juan 50: «宣政初，其趙王他婁屯來降。自是朝獻遂絕» — https://zh.wikisource.org/wiki/周書/卷50",
   "gun": "宣政元年正月癸酉",
   "kesinlik": "gun",
   "ic_not": "Çin ay-gün ganzhi (sexagenary) günü Jülyen takvimine hesapla çevrildi (JDN algoritması; ay sınırı ortalama yeni ay + zhongqi kuralıyla; sınama: 甲子=618-06-18, 乙亥=557-11-16, 丙寅=502-04-30, 丙寅=534-11-08 bilinen günlerle örtüştü). 1582 öncesi Jülyen kalır. 癸酉 → 578-01-28."
@@ -804,7 +804,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "kuzey-wei"
   ],
   "d": "Kuzey Wei Shizong, Wuxing'in veliahd prensi Yang Shaoxian'ı kral ilan ederek Yang ailesinin hükümdarlığını tanıdı.",
-  "kaynak": "Wei Shou, Wei shu (554), juan 8 «Shizong ji»: «冬十有一月 … 己未，以武興國世子楊紹先為其國王» — https://zh.wikisource.org/wiki/魏書/卷8 (bu oturumda okundu)",
+  "kaynak": "Wei Shou, Wei shu (554), juan 8 «Shizong ji»: «冬十有一月 … 己未，以武興國世子楊紹先為其國王» — https://zh.wikisource.org/wiki/魏書/卷8",
   "gun": "景明四年十一月己未",
   "kesinlik": "gun",
   "ic_not": "Çin ay-gün ganzhi (sexagenary) günü Jülyen takvimine hesapla çevrildi (JDN algoritması; ay sınırı ortalama yeni ay + zhongqi kuralıyla; sınama: 甲子=618-06-18, 乙亥=557-11-16, 丙寅=502-04-30, 丙寅=534-11-08 bilinen günlerle örtüştü). 1582 öncesi Jülyen kalır. 己未 → 503-12-14. Yıl başlığı (景明四年=503) satır sırasından çıkarıldı."
@@ -825,7 +825,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "qiuchi"
   ],
   "d": "Yang Shaoxian'ın amcalarının Liang'a yaslanıp krallığı imparatorluk ilan etmesi üzerine Xing Luan komutasındaki Wei kuvvetleri Wuxing'i aldı; Jiqi ve kardeşleri teslim oldu. Shaoxian esir olarak başkente gönderilip yerine Wuxing Garnizonu kuruldu.",
-  "kaynak": "Wei Shou, Wei shu (554), juan 8 «Shizong ji»: «三年春正月丁卯朔 … 壬申，梁秦二州刺史邢巒連破氐賊，克武興 … 己卯，楊集起兄弟相率降» — https://zh.wikisource.org/wiki/魏書/卷8 (bu oturumda okundu) | Wei shu juan 101: «安西將軍邢巒遣建武將軍傅竪眼攻武興，克之，執紹先送于京師，遂滅其國，以為武興鎮，復改鎮為東益州» — https://zh.wikisource.org/wiki/魏書/卷101",
+  "kaynak": "Wei Shou, Wei shu (554), juan 8 «Shizong ji»: «三年春正月丁卯朔 … 壬申，梁秦二州刺史邢巒連破氐賊，克武興 … 己卯，楊集起兄弟相率降» — https://zh.wikisource.org/wiki/魏書/卷8 | Wei shu juan 101: «安西將軍邢巒遣建武將軍傅竪眼攻武興，克之，執紹先送于京師，遂滅其國，以為武興鎮，復改鎮為東益州» — https://zh.wikisource.org/wiki/魏書/卷101",
   "gun": "正始三年正月壬申 (Wuxing'in alınışı); 己卯 (teslim)",
   "kesinlik": "gun",
   "ic_not": "Çin ay-gün ganzhi (sexagenary) günü Jülyen takvimine hesapla çevrildi (JDN algoritması; ay sınırı ortalama yeni ay + zhongqi kuralıyla; sınama: 甲子=618-06-18, 乙亥=557-11-16, 丙寅=502-04-30, 丙寅=534-11-08 bilinen günlerle örtüştü). 1582 öncesi Jülyen kalır. 壬申 → 506-02-14, 己卯 → 506-02-21. Yıl başlığı (正始三年=506) satır sırasından çıkarıldı."
@@ -846,7 +846,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "bati-wei"
   ],
   "d": "Wei'nin 506'da dağıttığı Wuxing krallığı sonra Yang Shaoxian'ın dönüşüyle yeniden kral unvanı almış, Yuwen Tai'ye vasal olmuştu; Dong Yizhou'nun kurulmasıyla Yang oğlu Pixie vali sıfatıyla bağlandı ve bağımsız krallık bitti.",
-  "kaynak": "Linghu Defen vd., Zhou shu (636), juan 49 «Yiyu shang» (氐): «紹先稱藩，送妻子為質 … 紹先死，子辟邪立 … 十一年，於武興置東益州，以辟邪為刺史» — https://zh.wikisource.org/wiki/周書/卷49 (bu oturumda okundu)",
+  "kaynak": "Linghu Defen vd., Zhou shu (636), juan 49 «Yiyu shang» (氐): «紹先稱藩，送妻子為質 … 紹先死，子辟邪立 … 十一年，於武興置東益州，以辟邪為刺史» — https://zh.wikisource.org/wiki/周書/卷49",
   "gun": "大統十一年 = 545",
   "kesinlik": "yil"
  },
@@ -866,7 +866,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "bati-wei"
   ],
   "d": "Fei Di'nin 2. yılında Yang Pixie eyalette ayaklandı, Di aşiretleri ona katıldı; Zhou ordusu Chi Luo Xie ve Zhao Chang ile isyanı bastırdı ve Yuwen Gui bölge komutanı atandı.",
-  "kaynak": "Linghu Defen vd., Zhou shu (636), juan 49 «Yiyu shang» (氐): «廢帝元年，以法深為黎州刺史。二年，楊辟邪據州反，羣氐復與同逆。詔叱羅協與趙昶討平之。太祖乃以大將軍宇文貴為大都督、六州諸軍事、興州刺史» — https://zh.wikisource.org/wiki/周書/卷49 (bu oturumda okundu)",
+  "kaynak": "Linghu Defen vd., Zhou shu (636), juan 49 «Yiyu shang» (氐): «廢帝元年，以法深為黎州刺史。二年，楊辟邪據州反，羣氐復與同逆。詔叱羅協與趙昶討平之。太祖乃以大將軍宇文貴為大都督、六州諸軍事、興州刺史» — https://zh.wikisource.org/wiki/周書/卷49",
   "gun": "魏廢帝二年 = 553",
   "kesinlik": "yil"
  },
@@ -886,7 +886,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "bati-wei"
   ],
   "d": "Batı Wei'nin son yılında (Gong Di dönemi) Wuxing Di'leri ayaklanıp Lizhou'yu kuşattı; Gufeng'te Wei Tianwang de katıldı. General Doulu Ning ve diğerleri isyanı bastırdı.",
-  "kaynak": "Linghu Defen vd., Zhou shu (636), juan 49 «Yiyu shang» (氐): «魏恭帝末，武興氐反，圍利州。鳳州固道氐魏天王等亦聚眾響應。大將軍豆盧寧等討平之» — https://zh.wikisource.org/wiki/周書/卷49 (bu oturumda okundu)",
+  "kaynak": "Linghu Defen vd., Zhou shu (636), juan 49 «Yiyu shang» (氐): «魏恭帝末，武興氐反，圍利州。鳳州固道氐魏天王等亦聚眾響應。大將軍豆盧寧等討平之» — https://zh.wikisource.org/wiki/周書/卷49",
   "gun": "魏恭帝末 (555-556; gün yok)",
   "kesinlik": "yil",
   "ic_not": "«末» → 556 seçildi (Gong Di 554-556)."
@@ -907,7 +907,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "tibet-imparatorlugu"
   ],
   "d": "Yarlung hanedanının soyundan gelen Songtsen Gampo (Çin kaynaklarında Qizong Nongzan) 629'da hükümdar oldu; Çin kaynakları onu \"yürekli ve yetenekli\" diye anar ve \"Batı bölgesi devletlerinin ona boyun eğdiğini\" yazar. Devlet onun döneminde Tibet imparatorluğuna dönüştü.",
-  "kaynak": "Britannica, «Srong-brtsan-sgam-po»: «was a Tibetan king (crowned 629) who extended his dominion to include Nepal and parts of India and China» — atıf; bu oturumda açılmadı (mevcut data/kronoloji_cok_ms1_1000_asya.js kaydındaki alıntı) | Ouyang Xiu - Song Qi, Xin Tang shu (1060), juan 216 shang «Tubo shang»: «其後有君長曰瘕悉董摩，董摩生佗土度，佗土生揭利失若，揭利生勃弄若，勃弄生詎素若，詎素生論贊索，論贊生棄宗弄贊 … 西域諸國共臣之» — https://zh.wikisource.org/wiki/新唐書/卷216上 (bu oturumda okundu)",
+  "kaynak": "Britannica, «Srong-brtsan-sgam-po»: «was a Tibetan king (crowned 629) who extended his dominion to include Nepal and parts of India and China» — atıf; açılmadı (mevcut data/kronoloji_cok_ms1_1000_asya.js kaydındaki alıntı) | Ouyang Xiu - Song Qi, Xin Tang shu (1060), juan 216 shang «Tubo shang»: «其後有君長曰瘕悉董摩，董摩生佗土度，佗土生揭利失若，揭利生勃弄若，勃弄生詎素若，詎素生論贊索，論贊生棄宗弄贊 … 西域諸國共臣之» — https://zh.wikisource.org/wiki/新唐書/卷216上",
   "ic_not_ham_gun":"629 (yıl; gün kaynaktan alınmadı)", "gun": "629 (yalnız yıl biliniyor)",
   "kesinlik": "yil",
   "ic_not": "Britannica tarihi (629) mevcut MS1 kaydından devralındı; Xin Tang shu soy kütüğünü verir ama taç giyme yılı yazmaz. TDV «Tibet»: «VII. yüzyılda Srong Btsan Sgam Po adında yetenekli bir kral … başşehir Lhasa kuruldu» (yıl vermez). Çelişki: iskelet 627 / tubo künyesi 618."
@@ -928,7 +928,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "tang"
   ],
   "d": "Tang Taizong'un 8. yılında Songtsen Gampo ilk kez elçi gönderip haraç sundu; Tang bir temsilci (Feng Dexia) yollayıp karşılık verdi. Songtsen sonra Tuyuhun ve Türklerin Tang prensesi aldığını öğrenince evlilik talep etti.",
-  "kaynak": "Ouyang Xiu - Song Qi, Xin Tang shu (1060), juan 216 shang «Tubo shang»: «太宗貞觀八年，始遣使者來朝，帝遣行人馮德遐下書臨撫。弄贊聞突厥、吐谷渾並得尚公主，乃遣使賫幣求昏，帝不許» — https://zh.wikisource.org/wiki/新唐書/卷216上 (bu oturumda okundu)",
+  "kaynak": "Ouyang Xiu - Song Qi, Xin Tang shu (1060), juan 216 shang «Tubo shang»: «太宗貞觀八年，始遣使者來朝，帝遣行人馮德遐下書臨撫。弄贊聞突厥、吐谷渾並得尚公主，乃遣使賫幣求昏，帝不許» — https://zh.wikisource.org/wiki/新唐書/卷216上",
   "gun": "貞觀八年 = 634 (ay/gün yok)",
   "kesinlik": "yil"
  },
@@ -948,7 +948,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "tang"
   ],
   "d": "Tuyuhun'a yönelik savaşın ardından Tibet barış istedi; Tang Taizong imparatorluk ailesinden Prenses Wencheng'i Songtsen'e verdi. Jiangxia Prensi Li Daozong şahsen kıza eşlik etti; Songtsen ordusuyla Baihai'de damat olarak karşıladı.",
-  "kaynak": "Ouyang Xiu - Song Qi, Xin Tang shu (1060), juan 216 shang «Tubo shang»: «十五年，妻以宗女文成公主，詔江夏王道宗持節護送，築館河源王之國。弄贊率兵次柏海親迎，見道宗，執婿禮恭甚» — https://zh.wikisource.org/wiki/新唐書/卷216上 (bu oturumda okundu)",
+  "kaynak": "Ouyang Xiu - Song Qi, Xin Tang shu (1060), juan 216 shang «Tubo shang»: «十五年，妻以宗女文成公主，詔江夏王道宗持節護送，築館河源王之國。弄贊率兵次柏海親迎，見道宗，執婿禮恭甚» — https://zh.wikisource.org/wiki/新唐書/卷216上",
   "gun": "貞觀十五年 = 641 (ay/gün yok)",
   "kesinlik": "yil"
  },
@@ -968,7 +968,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "tang"
   ],
   "d": "Tang elçisi Wang Xuance Orta Hindistan'da soyulunca Songtsen Gampo seçme askerleri Wang'a katıp saldırganları yendi ve esirleri Tang sarayına sundu; Tibet'in güney Himalaya ötesine uzanan etkisini gösterir.",
-  "kaynak": "Ouyang Xiu - Song Qi, Xin Tang shu (1060), juan 216 shang «Tubo shang»: «二十二年，右衛率府長史王玄策使西域，為中天竺所鈔，弄贊發精兵從玄策討破之，來獻俘» — https://zh.wikisource.org/wiki/新唐書/卷216上 (bu oturumda okundu)",
+  "kaynak": "Ouyang Xiu - Song Qi, Xin Tang shu (1060), juan 216 shang «Tubo shang»: «二十二年，右衛率府長史王玄策使西域，為中天竺所鈔，弄贊發精兵從玄策討破之，來獻俘» — https://zh.wikisource.org/wiki/新唐書/卷216上",
   "gun": "貞觀二十二年 = 648 (ay/gün yok)",
   "kesinlik": "yil"
  },
@@ -988,7 +988,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "tang"
   ],
   "d": "Zhang Jianzhi ve yoldaşları Zhang Yizhi-Zhang Changzong kardeşleri öldürüp veliaht Li Xian'ı naip yaptı; Wu Zetian 乙巳'de tahtı veliahta bıraktı, 丙午'de Zhongzong tahta çıktı. Wu Zhou adı henüz kaldırılmamıştı; ülke adı bir hafta sonra (二月甲寅) Tang'a döndü.",
-  "kaynak": "Liu Xu vd., Jiu Tang shu (945), juan 7 «Zhongzong ji»: «神龍元年正月，鳳閣侍郎張柬之 … 等定策率羽林兵誅易之、昌宗，迎皇太子監國 … 乙巳，則天傳位於皇太子。丙午，即皇帝位於通天宮» — https://zh.wikisource.org/wiki/舊唐書/卷7 (bu oturumda okundu)",
+  "kaynak": "Liu Xu vd., Jiu Tang shu (945), juan 7 «Zhongzong ji»: «神龍元年正月，鳳閣侍郎張柬之 … 等定策率羽林兵誅易之、昌宗，迎皇太子監國 … 乙巳，則天傳位於皇太子。丙午，即皇帝位於通天宮» — https://zh.wikisource.org/wiki/舊唐書/卷7",
   "gun": "神龍元年正月丙午",
   "kesinlik": "gun",
   "ic_not": "Çin ay-gün ganzhi (sexagenary) günü Jülyen takvimine hesapla çevrildi (JDN algoritması; ay sınırı ortalama yeni ay + zhongqi kuralıyla; sınama: 甲子=618-06-18, 乙亥=557-11-16, 丙寅=502-04-30, 丙寅=534-11-08 bilinen günlerle örtüştü). 1582 öncesi Jülyen kalır. 丙午 → 705-02-23. Yıl: Zhongzong ji, 神龍元年 (705). 乙巳/丙午 zinciri 正月 içinde."
@@ -1008,7 +1008,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "sui-qin-xue-ju"
   ],
   "d": "Jincheng ilçe valisini yakalayıp ayaklanan Xue Ju kendine \"Batı Qin Hegemonu\" (Xiqin Bawang) unvanı verdi, \"Qinxing\" yıl adını kullandı; oğlu Renguo Qi Gong'u oldu. Hızla Fuhan'ı (Linxia) ve Shan-Kuo eyaletlerini alıp Longxi'nin tamamını ele geçirdi.",
-  "kaynak": "Liu Xu vd., Jiu Tang shu (945), juan 55 «Xue Ju»: «自稱西秦霸王，建元為秦興，封仁杲為齊公 … 遂陷枹罕 … 又克鄯、廓二州，數日間，盡有隴西之地，眾至十三萬» — https://zh.wikisource.org/wiki/舊唐書/卷55 (bu oturumda okundu)",
+  "kaynak": "Liu Xu vd., Jiu Tang shu (945), juan 55 «Xue Ju»: «自稱西秦霸王，建元為秦興，封仁杲為齊公 … 遂陷枹罕 … 又克鄯、廓二州，數日間，盡有隴西之地，眾至十三萬» — https://zh.wikisource.org/wiki/舊唐書/卷55",
   "gun": "大業末/十三年 (ay/gün yok)",
   "kesinlik": "yil",
   "ic_not": "Yıl: «十三年秋七月，舉僭號於蘭州» ibaresinden geriye (isyan o yıl içinde, 617). Başlangıç ayı kaynakta yok."
@@ -1028,7 +1028,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "sui-qin-xue-ju"
   ],
   "d": "Xue Ju, \"Batı Qin Hegemonu\" unvanını bırakıp Lanzhou'da imparatorluğunu ilan etti; eşini imparatoriçe yaptı, atalarının mezarını kurdurdu. Oğlu Renguo Tianshui'yi (Qinzhou) alınca başkent oraya taşındı.",
-  "kaynak": "Liu Xu vd., Jiu Tang shu (945), juan 55 «Xue Ju»: «十三年秋七月，舉僭號於蘭州，以妻鞠氏為皇后 … 及仁杲克秦州，舉自蘭州遷都之» — https://zh.wikisource.org/wiki/舊唐書/卷55 (bu oturumda okundu)",
+  "kaynak": "Liu Xu vd., Jiu Tang shu (945), juan 55 «Xue Ju»: «十三年秋七月，舉僭號於蘭州，以妻鞠氏為皇后 … 及仁杲克秦州，舉自蘭州遷都之» — https://zh.wikisource.org/wiki/舊唐書/卷55",
   "gun": "大業十三年七月 (gün yok)",
   "kesinlik": "ay",
   "ic_not": "Çin ay-gün ganzhi (sexagenary) günü Jülyen takvimine hesapla çevrildi (JDN algoritması; ay sınırı ortalama yeni ay + zhongqi kuralıyla; sınama: 甲子=618-06-18, 乙亥=557-11-16, 丙寅=502-04-30, 丙寅=534-11-08 bilinen günlerle örtüştü). 1582 öncesi Jülyen kalır. Ay hassasiyeti: Çin 7. ayının başı."
@@ -1049,7 +1049,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "tang"
   ],
   "d": "Tang ordusunu Gaozhi'de yendikten sonra ani hastalıkla ölen Xue Ju yerine oğlu Xue Renguo geçti ve Zhezhi'de başkent kurdu. Renguo'nun sertliği komutanların küsmesine yol açtı.",
-  "kaynak": "Liu Xu vd., Jiu Tang shu (945), juan 1 «Gaozu ji» (武德元年): «八月壬午，薛舉死，其子仁杲復僭稱帝，命秦王為元帥以討之» — https://zh.wikisource.org/wiki/舊唐書/卷1 (bu oturumda okundu) | Jiu Tang shu juan 55: «舉死，仁杲立於折墌城，與諸將帥素多有隙» — https://zh.wikisource.org/wiki/舊唐書/卷55",
+  "kaynak": "Liu Xu vd., Jiu Tang shu (945), juan 1 «Gaozu ji» (武德元年): «八月壬午，薛舉死，其子仁杲復僭稱帝，命秦王為元帥以討之» — https://zh.wikisource.org/wiki/舊唐書/卷1 | Jiu Tang shu juan 55: «舉死，仁杲立於折墌城，與諸將帥素多有隙» — https://zh.wikisource.org/wiki/舊唐書/卷55",
   "gun": "武德元年八月壬午",
   "kesinlik": "gun",
   "ic_not": "Çin ay-gün ganzhi (sexagenary) günü Jülyen takvimine hesapla çevrildi (JDN algoritması; ay sınırı ortalama yeni ay + zhongqi kuralıyla; sınama: 甲子=618-06-18, 乙亥=557-11-16, 丙寅=502-04-30, 丙寅=534-11-08 bilinen günlerle örtüştü). 1582 öncesi Jülyen kalır. 壬午 → 618-09-04."
@@ -1070,7 +1070,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "tang"
   ],
   "d": "Tang ordusu Gaozhi önünde Xue ordusunu bekleyip bezdirdi, Qianshuiyuan'da sarsıp Zhezhi'ye kadar kovaladı; Renguo sahte sarayıyla şehri teslim etti, Longyou Tang'a geçti. Xue hanedanı beş yıllık saltanatın ardından yok oldu.",
-  "kaynak": "Liu Xu vd., Jiu Tang shu (945), juan 55 «Xue Ju» (附 Renguo): «遣將軍龐玉擊賊將宗羅睺於淺水原 … 太宗以勁兵出賊不意，奮擊大破之。乘勝進薄其折墌城，仁杲窮蹙，率偽百官開門降 … 隴西平» — https://zh.wikisource.org/wiki/舊唐書/卷55 (bu oturumda okundu) | Jiu Tang shu juan 1: «十一月 … 秦王大破薛仁杲於淺水原，降之，隴右平» — https://zh.wikisource.org/wiki/舊唐書/卷1",
+  "kaynak": "Liu Xu vd., Jiu Tang shu (945), juan 55 «Xue Ju» (附 Renguo): «遣將軍龐玉擊賊將宗羅睺於淺水原 … 太宗以勁兵出賊不意，奮擊大破之。乘勝進薄其折墌城，仁杲窮蹙，率偽百官開門降 … 隴西平» — https://zh.wikisource.org/wiki/舊唐書/卷55 | Jiu Tang shu juan 1: «十一月 … 秦王大破薛仁杲於淺水原，降之，隴右平» — https://zh.wikisource.org/wiki/舊唐書/卷1",
   "gun": "武德元年十一月 (gün çevrilmedi)",
   "kesinlik": "ay",
   "ic_not": "Çin ay-gün ganzhi (sexagenary) günü Jülyen takvimine hesapla çevrildi (JDN algoritması; ay sınırı ortalama yeni ay + zhongqi kuralıyla; sınama: 甲子=618-06-18, 乙亥=557-11-16, 丙寅=502-04-30, 丙寅=534-11-08 bilinen günlerle örtüştü). 1582 öncesi Jülyen kalır. Ay hassasiyeti; gün kaynakta yok (ganzhi satırdan okunmadı)."
@@ -1090,7 +1090,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "sui-wei-li-mi"
   ],
   "d": "Li Mi, Zhai Rang'a \"kapıları kapalı Luoyang yakınlarındaki Xingluo ambarını aç\" diyerek Wagang isyancılarını beslemeyi önerdi; ambarı bastıklarında dağıtılan hububatla ordu yüz binleri buldu. Sui'nin Luoyang muhafızı Liu Changgong ağır yenildi.",
-  "kaynak": "Liu Xu vd., Jiu Tang shu (945), juan 53 «Li Mi»: «大業十三年 春，密與讓領精兵千人出陽城北，逾方山，自羅口襲興洛倉，破之。開倉恣人所取，老弱繈負，道路不絕，眾至數十萬» — https://zh.wikisource.org/wiki/舊唐書/卷53 (bu oturumda okundu)",
+  "kaynak": "Liu Xu vd., Jiu Tang shu (945), juan 53 «Li Mi»: «大業十三年 春，密與讓領精兵千人出陽城北，逾方山，自羅口襲興洛倉，破之。開倉恣人所取，老弱繈負，道路不絕，眾至數十萬» — https://zh.wikisource.org/wiki/舊唐書/卷53",
   "gun": "大業十三年春 (ay/gün yok)",
   "kesinlik": "yil",
   "ic_not": "«春» = 1.-3. ay arası; yıl hassasiyeti."
@@ -1110,7 +1110,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "sui-wei-li-mi"
   ],
   "d": "Zhai Rang'ın çevresi Li Mi'yi lider seçti; Gong ilçesinin güneyinde sunak kurup \"Wei Dükü\" unvanıyla yeni dönem başlattı, Luokou'da kırk li çevrili şehri inşa ettirip orada yerleşti. Zhai Rang \"Situ\" ünvanını aldı.",
-  "kaynak": "Liu Xu vd., Jiu Tang shu (945), juan 53 «Li Mi»: «讓於是推密為主，號為魏公。二月，于鞏南設壇場，即位，稱元年，其文書行下稱行軍元帥魏公府 … 於是城洛口周回四十里以居之» — https://zh.wikisource.org/wiki/舊唐書/卷53 (bu oturumda okundu)",
+  "kaynak": "Liu Xu vd., Jiu Tang shu (945), juan 53 «Li Mi»: «讓於是推密為主，號為魏公。二月，于鞏南設壇場，即位，稱元年，其文書行下稱行軍元帥魏公府 … 於是城洛口周回四十里以居之» — https://zh.wikisource.org/wiki/舊唐書/卷53",
   "gun": "大業十三年二月 (gün yok)",
   "kesinlik": "ay",
   "ic_not": "Çin ay-gün ganzhi (sexagenary) günü Jülyen takvimine hesapla çevrildi (JDN algoritması; ay sınırı ortalama yeni ay + zhongqi kuralıyla; sınama: 甲子=618-06-18, 乙亥=557-11-16, 丙寅=502-04-30, 丙寅=534-11-08 bilinen günlerle örtüştü). 1582 öncesi Jülyen kalır. Ay hassasiyeti: Çin 2. ayının başı."
@@ -1131,7 +1131,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "sui-zheng-wang-shichong"
   ],
   "d": "Wang Shichong beş bin kişiyle Yanshi'de Li Mi'ye savaş açtı; Li Mi Mang Dağı yamacında yenildi, Pei Renji ve Zu Junyan esir düştü. Bing Yuanzhen Luokou şehrini Wang'a teslim edince Li Mi Tang'a sığınmaya kaçtı.",
-  "kaynak": "Liu Xu vd., Jiu Tang shu (945), juan 53 «Li Mi»: «武德元年 九月，世充以其眾五千來決戰 … 北阻邙山以待之。世充軍至，密遂敗績，裴仁基、祖君彥並為世充所虜 … 元真竟以城降於世充» — https://zh.wikisource.org/wiki/舊唐書/卷53 (bu oturumda okundu)",
+  "kaynak": "Liu Xu vd., Jiu Tang shu (945), juan 53 «Li Mi»: «武德元年 九月，世充以其眾五千來決戰 … 北阻邙山以待之。世充軍至，密遂敗績，裴仁基、祖君彥並為世充所虜 … 元真竟以城降於世充» — https://zh.wikisource.org/wiki/舊唐書/卷53",
   "gun": "武德元年九月 (gün yok)",
   "kesinlik": "ay",
   "ic_not": "Çin ay-gün ganzhi (sexagenary) günü Jülyen takvimine hesapla çevrildi (JDN algoritması; ay sınırı ortalama yeni ay + zhongqi kuralıyla; sınama: 甲子=618-06-18, 乙亥=557-11-16, 丙寅=502-04-30, 丙寅=534-11-08 bilinen günlerle örtüştü). 1582 öncesi Jülyen kalır. Ay hassasiyeti. Wei (Li Mi) devleti fiilen burada bitti; künyedeki t (0618-01-01) yıl tahminidir, öneri t = bu ay."
@@ -1151,7 +1151,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "sui-xia-dou-jiande"
   ],
   "d": "Hebei'deki isyancı lider Dou Jiande, Hejian'ın Leshou bölgesinde sunak kurup kendine \"Changle Kralı\" dedi ve görev dağılımı yaptı; Leshou'yu \"Jincheng Sarayı\" adıyla başkent yaptı. Kaynağa göre bundan sonra çevre ilçeler çoğunlukla ona geçti.",
-  "kaynak": "Liu Xu vd., Jiu Tang shu (945), juan 54 «Dou Jiande»: «十三年正月，築壇場於河間樂壽界中，自稱長樂王，年號丁丑，署置官屬 … 始都樂壽，號曰金城宮，自是郡縣多下之» — https://zh.wikisource.org/wiki/舊唐書/卷54 (bu oturumda okundu)",
+  "kaynak": "Liu Xu vd., Jiu Tang shu (945), juan 54 «Dou Jiande»: «十三年正月，築壇場於河間樂壽界中，自稱長樂王，年號丁丑，署置官屬 … 始都樂壽，號曰金城宮，自是郡縣多下之» — https://zh.wikisource.org/wiki/舊唐書/卷54",
   "gun": "大業十三年正月 (gün yok)",
   "kesinlik": "ay",
   "ic_not": "Çin ay-gün ganzhi (sexagenary) günü Jülyen takvimine hesapla çevrildi (JDN algoritması; ay sınırı ortalama yeni ay + zhongqi kuralıyla; sınama: 甲子=618-06-18, 乙亥=557-11-16, 丙寅=502-04-30, 丙寅=534-11-08 bilinen günlerle örtüştü). 1582 öncesi Jülyen kalır. Ay hassasiyeti: Çin 1. ayının başı."
@@ -1171,7 +1171,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "sui-xia-dou-jiande"
   ],
   "d": "Kış gündönümü şölende Leshou'ya beş büyük kuşun inmesi uğur sayılarak yıl adı \"Wufeng\" yapıldı; Xia hanedanı Yu'nun siyah mührüne gönderme yaparak ülke adı \"Xia\" seçildi.",
-  "kaynak": "Liu Xu vd., Jiu Tang shu (945), juan 54 «Dou Jiande»: «武德元年冬至日，於金城宮設會，有五大鳥降於樂壽 … 因改年為五鳳 … 景城丞孔德紹曰：「昔夏禹膺籙，天錫玄珪。今瑞與禹同，宜稱夏國。」建德從之» — https://zh.wikisource.org/wiki/舊唐書/卷54 (bu oturumda okundu)",
+  "kaynak": "Liu Xu vd., Jiu Tang shu (945), juan 54 «Dou Jiande»: «武德元年冬至日，於金城宮設會，有五大鳥降於樂壽 … 因改年為五鳳 … 景城丞孔德紹曰：「昔夏禹膺籙，天錫玄珪。今瑞與禹同，宜稱夏國。」建德從之» — https://zh.wikisource.org/wiki/舊唐書/卷54",
   "gun": "武德元年冬至日 (Jülyen 618-12 sonu; gün çevrilmedi)",
   "kesinlik": "yil",
   "ic_not": "Kış gündönümü 618-12-17±1 civarı; çevrilmedi. Jiu Tang shu juan 1 başka yıl verir («三年春正月 … 建德僭稱夏王»): çelişki. Seçim: juan 54 (Dou Jiande biyografisi)."
@@ -1193,7 +1193,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "sui-zheng-wang-shichong"
   ],
   "d": "Wang Shichong'u Luoyang'da kuşatan Li Shimin, kurtarmaya gelen Dou Jiande ordusunu Hulao'da bozguna uğratıp Dou'yu esir aldı ve Wang'ın yardım umudunu söndürdü. Dou, Chang'an'a gönderilip infaz edildi; Hebei Tang'ın oldu.",
-  "kaynak": "Liu Xu vd., Jiu Tang shu (945), juan 1 «Gaozu ji» (武德四年): «五月己未，秦王大破竇建德之眾於武牢，擒建德，河北悉平。丙寅，王世充舉東都降，河南平» — https://zh.wikisource.org/wiki/舊唐書/卷1 (bu oturumda okundu) | Jiu Tang shu juan 54: «三月，秦王擒建德並王琬、長孫安世等於武牢» — https://zh.wikisource.org/wiki/舊唐書/卷54 (ay çelişkisi: 三月 vs 五月)",
+  "kaynak": "Liu Xu vd., Jiu Tang shu (945), juan 1 «Gaozu ji» (武德四年): «五月己未，秦王大破竇建德之眾於武牢，擒建德，河北悉平。丙寅，王世充舉東都降，河南平» — https://zh.wikisource.org/wiki/舊唐書/卷1 | Jiu Tang shu juan 54: «三月，秦王擒建德並王琬、長孫安世等於武牢» — https://zh.wikisource.org/wiki/舊唐書/卷54 (ay çelişkisi: 三月 vs 五月)",
   "gun": "武德四年五月己未",
   "kesinlik": "gun",
   "ic_not": "Çin ay-gün ganzhi (sexagenary) günü Jülyen takvimine hesapla çevrildi (JDN algoritması; ay sınırı ortalama yeni ay + zhongqi kuralıyla; sınama: 甲子=618-06-18, 乙亥=557-11-16, 丙寅=502-04-30, 丙寅=534-11-08 bilinen günlerle örtüştü). 1582 öncesi Jülyen kalır. 己未 → 621-05-28. Ay çelişkisi iç içe: juan 1 ve juan 2 五月 der, juan 54 三月 yazıyor; ganzhi ve sıra (丙寅 sonra Luoyang teslimi) 五月 ile uyumlu."
@@ -1213,7 +1213,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "sui-liang-liang-shidu"
   ],
   "d": "Sui'nin Xiazhou Shuofang ilçesi eski görevlisi Liang Shidu birkaç bin kişiyle valiyi öldürüp ayaklandı; \"Liang\" ülkesi imparatoru oldu, \"Yonglong\" yıl adını koydu. Göktürk Shibi Kağan ona kurt başlı sancak ve \"Dadu Biqie Kağan\" unvanı gönderdi.",
-  "kaynak": "Liu Xu vd., Jiu Tang shu (945), juan 56 «Liang Shidu»: «師都陰結徒黨數千人，殺郡丞唐宗，據郡反。自稱大丞相，北連突厥 … 僭即皇帝位，稱梁國，建元為永隆。突厥始畢可汗遺以狼頭纛，號為大度毗伽可汗» — https://zh.wikisource.org/wiki/舊唐書/卷56 (bu oturumda okundu)",
+  "kaynak": "Liu Xu vd., Jiu Tang shu (945), juan 56 «Liang Shidu»: «師都陰結徒黨數千人，殺郡丞唐宗，據郡反。自稱大丞相，北連突厥 … 僭即皇帝位，稱梁國，建元為永隆。突厥始畢可汗遺以狼頭纛，號為大度毗伽可汗» — https://zh.wikisource.org/wiki/舊唐書/卷56",
   "gun": "大業末 (ay/gün yok)",
   "kesinlik": "yil",
   "ic_not": "Yıl: «大業末» (~617); Xue Ju, Li Mi ile aynı dalga olarak 617 seçildi; kesin yıl kaynakta yok."
@@ -1234,7 +1234,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "tang"
   ],
   "d": "Liu Wuzhou yenilince Shidu'nun generalleri Tang'a geçmeye başladı; Shidu Türk Chuluo Kağan'ı Tang'a saldırmaya çağırdı ve \"Weiqiao\" akınında (626) Xieli Kağan'ı ikna etti. Tang sınır eyaletleri bu yüzden huzursuz kaldı.",
-  "kaynak": "Liu Xu vd., Jiu Tang shu (945), juan 56 «Liang Shidu»: «及劉武周之敗，師都大將張舉、劉旻相次來降 … 自此頻致突厥之寇，邊州略無寧歲。頡利可汗之寇渭橋，亦師都計也» — https://zh.wikisource.org/wiki/舊唐書/卷56 (bu oturumda okundu)",
+  "kaynak": "Liu Xu vd., Jiu Tang shu (945), juan 56 «Liang Shidu»: «及劉武周之敗，師都大將張舉、劉旻相次來降 … 自此頻致突厥之寇，邊州略無寧歲。頡利可汗之寇渭橋，亦師都計也» — https://zh.wikisource.org/wiki/舊唐書/卷56",
   "gun": "武德 sonu - 貞觀初 (626 Weiqiao akını); gün yok",
   "kesinlik": "yil",
   "ic_not": "Weiqiao akını 626 (Taizong'un tahta çıkışı); metin tarih vermez, yıl çıkarımı."
@@ -1255,7 +1255,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "tang"
   ],
   "d": "Tang Taizong'un yeni emriyle Chai Shao ve Xue Wanjun Shuofang'ı kuşattı; Liang Shidu'nun amcaoğlu Luoren onu öldürüp şehri teslim etti. Shidu'nun on iki yıllık \"Liang\"ı bitti ve bölge Xiazhou oldu.",
-  "kaynak": "Liu Xu vd., Jiu Tang shu (945), juan 2 «Taizong shang» (貞觀二年): «夏四月己卯 … 丙申，契丹內屬。初詔天下州縣並置義倉。夏州賊帥梁師都為其從父弟洛仁所殺，以城降» — https://zh.wikisource.org/wiki/舊唐書/卷2 (bu oturumda okundu) | Jiu Tang shu juan 56: «其從父弟洛仁斬師都，詣紹降 … 師都自起至滅，凡十二歲。以其地為夏州» — https://zh.wikisource.org/wiki/舊唐書/卷56",
+  "kaynak": "Liu Xu vd., Jiu Tang shu (945), juan 2 «Taizong shang» (貞觀二年): «夏四月己卯 … 丙申，契丹內屬。初詔天下州縣並置義倉。夏州賊帥梁師都為其從父弟洛仁所殺，以城降» — https://zh.wikisource.org/wiki/舊唐書/卷2 | Jiu Tang shu juan 56: «其從父弟洛仁斬師都，詣紹降 … 師都自起至滅，凡十二歲。以其地為夏州» — https://zh.wikisource.org/wiki/舊唐書/卷56",
   "gun": "貞觀二年四月 (丙申'den sonra)",
   "kesinlik": "ay",
   "ic_not": "Çin ay-gün ganzhi (sexagenary) günü Jülyen takvimine hesapla çevrildi (JDN algoritması; ay sınırı ortalama yeni ay + zhongqi kuralıyla; sınama: 甲子=618-06-18, 乙亥=557-11-16, 丙寅=502-04-30, 丙寅=534-11-08 bilinen günlerle örtüştü). 1582 öncesi Jülyen kalır. 丙申 → 628-05-28; olay satırı 丙申'den sonra ve 5. aydan önce; 628-05-28 alt sınır olarak kullanıldı (hassasiyet ay)."
@@ -1276,7 +1276,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "sui"
   ],
   "d": "Luoyang'daki Sui yönetimi başındaki Wang Shichong, Yue Wang Yang Tong'u Hanliang Salonu'nda kendi yerine feragat ettirip \"Zheng\" adıyla imparatorluk ilan etti ve \"Kaiming\" yıl adını koydu. Akrabalarını krallıklara atadı.",
-  "kaynak": "Liu Xu vd., Jiu Tang shu (945), juan 1 «Gaozu ji» (武德二年): «夏四月乙巳，王世充篡越王侗位，僭稱天子，國號鄭» — https://zh.wikisource.org/wiki/舊唐書/卷1 (bu oturumda okundu) | Jiu Tang shu juan 54: «四月，假為侗詔策禪位，遣兄世惲廢侗於含涼殿，世充僭即皇帝位，建元曰開明，國號鄭» — https://zh.wikisource.org/wiki/舊唐書/卷54",
+  "kaynak": "Liu Xu vd., Jiu Tang shu (945), juan 1 «Gaozu ji» (武德二年): «夏四月乙巳，王世充篡越王侗位，僭稱天子，國號鄭» — https://zh.wikisource.org/wiki/舊唐書/卷1 | Jiu Tang shu juan 54: «四月，假為侗詔策禪位，遣兄世惲廢侗於含涼殿，世充僭即皇帝位，建元曰開明，國號鄭» — https://zh.wikisource.org/wiki/舊唐書/卷54",
   "gun": "武德二年四月乙巳",
   "kesinlik": "gun",
   "ic_not": "Çin ay-gün ganzhi (sexagenary) günü Jülyen takvimine hesapla çevrildi (JDN algoritması; ay sınırı ortalama yeni ay + zhongqi kuralıyla; sınama: 甲子=618-06-18, 乙亥=557-11-16, 丙寅=502-04-30, 丙寅=534-11-08 bilinen günlerle örtüştü). 1582 öncesi Jülyen kalır. 乙巳 → 619-05-25 (artık 4. ay modeli; 619-03-26 adayı bir ay önce, 60 gün farkla; metin 夏 = yaz, 5. ay sonu seçildi). Çift teyit (juan 1 ve 54)."
@@ -1297,7 +1297,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "tang"
   ],
   "d": "Hulao'da Dou Jiande'nin yakalanmasından yedi gün sonra Wang Shichong ordusuyla Tang ordugahına gelip teslim oldu; Henan Tang'a katıldı. Wang Chang'an yoluna çıkmadan düşmanları tarafından öldürüldü.",
-  "kaynak": "Liu Xu vd., Jiu Tang shu (945), juan 1 «Gaozu ji» (武德四年): «丙寅，王世充舉東都降，河南平 … 流王世充於蜀，未發，為仇人所害» — https://zh.wikisource.org/wiki/舊唐書/卷1 (bu oturumda okundu)",
+  "kaynak": "Liu Xu vd., Jiu Tang shu (945), juan 1 «Gaozu ji» (武德四年): «丙寅，王世充舉東都降，河南平 … 流王世充於蜀，未發，為仇人所害» — https://zh.wikisource.org/wiki/舊唐書/卷1",
   "gun": "武德四年五月丙寅",
   "kesinlik": "gun",
   "ic_not": "Çin ay-gün ganzhi (sexagenary) günü Jülyen takvimine hesapla çevrildi (JDN algoritması; ay sınırı ortalama yeni ay + zhongqi kuralıyla; sınama: 甲子=618-06-18, 乙亥=557-11-16, 丙寅=502-04-30, 丙寅=534-11-08 bilinen günlerle örtüştü). 1582 öncesi Jülyen kalır. 丙寅 → 621-06-04."
@@ -1317,7 +1317,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "sui-liang-xiao-xian"
   ],
   "d": "Yuezhou subayları Dong Jingzhen vd. Liang hanedanının torunu Luochuan ilçe valisi Xiao Xian'ı lider seçti; Xiao \"Liang Dükü\" ilan etti, Sui giysilerini kaldırıp Liang sancaklarını açtı; beş günde on binler ona katıldı.",
-  "kaynak": "Liu Xu vd., Jiu Tang shu (945), juan 56 «Xiao Xian»: «大業十三年，岳州校尉董景珍、雷世猛 … 同謀叛隋 … 即日自稱梁公，改隋服色，建梁旗幟 … 自起軍五日，遠近投附者數萬人» — https://zh.wikisource.org/wiki/舊唐書/卷56 (bu oturumda okundu)",
+  "kaynak": "Liu Xu vd., Jiu Tang shu (945), juan 56 «Xiao Xian»: «大業十三年，岳州校尉董景珍、雷世猛 … 同謀叛隋 … 即日自稱梁公，改隋服色，建梁旗幟 … 自起軍五日，遠近投附者數萬人» — https://zh.wikisource.org/wiki/舊唐書/卷56",
   "gun": "大業十三年 = 617 (ay/gün yok)",
   "kesinlik": "yil"
  },
@@ -1336,7 +1336,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "sui-liang-xiao-xian"
   ],
   "d": "Xiao Xian, Yiqing 2. yılında (618) kendini imparator ilan edip Liang geleneğine uyan memur düzeni kurdu ve başkenti Jiangling'e taşıyıp ata mabetlerini onarttı. Yangtze ortası ve güneyi onun denetimine geçti.",
-  "kaynak": "Liu Xu vd., Jiu Tang shu (945), juan 56 «Xiao Xian»: «義寧二年，僭稱皇帝，署置百官，一准梁故事 … 武德元年，遷都江陵，修復園廟» — https://zh.wikisource.org/wiki/舊唐書/卷56 (bu oturumda okundu)",
+  "kaynak": "Liu Xu vd., Jiu Tang shu (945), juan 56 «Xiao Xian»: «義寧二年，僭稱皇帝，署置百官，一准梁故事 … 武德元年，遷都江陵，修復園廟» — https://zh.wikisource.org/wiki/舊唐書/卷56",
   "gun": "義寧二年/武德元年 = 618 (ay/gün yok)",
   "kesinlik": "yil"
  },
@@ -1356,7 +1356,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "sui-liang-xiao-xian"
   ],
   "d": "Tang Taizong'un amcaoğlu Zhaojun Prensi Li Xiaogong ve Li Jing, Kuizhou'dan Yangtze boyunca inip Xiao Xian'ın Liang'ını yıktı. Xiao Xian Chang'an'a götürülüp başı kesildi; \"beş yılda yok oldu\".",
-  "kaynak": "Liu Xu vd., Jiu Tang shu (945), juan 1 «Gaozu ji» (武德四年): «冬十月己丑，加秦王天策上將 … 乙巳，趙郡王孝恭平荊州，獲蕭銑» — https://zh.wikisource.org/wiki/舊唐書/卷1 (bu oturumda okundu) | Jiu Tang shu juan 56: «銑自初起，五年而滅» — https://zh.wikisource.org/wiki/舊唐書/卷56",
+  "kaynak": "Liu Xu vd., Jiu Tang shu (945), juan 1 «Gaozu ji» (武德四年): «冬十月己丑，加秦王天策上將 … 乙巳，趙郡王孝恭平荊州，獲蕭銑» — https://zh.wikisource.org/wiki/舊唐書/卷1 | Jiu Tang shu juan 56: «銑自初起，五年而滅» — https://zh.wikisource.org/wiki/舊唐書/卷56",
   "gun": "武德四年十月乙巳",
   "kesinlik": "gun",
   "ic_not": "Çin ay-gün ganzhi (sexagenary) günü Jülyen takvimine hesapla çevrildi (JDN algoritması; ay sınırı ortalama yeni ay + zhongqi kuralıyla; sınama: 甲子=618-06-18, 乙亥=557-11-16, 丙寅=502-04-30, 丙寅=534-11-08 bilinen günlerle örtüştü). 1582 öncesi Jülyen kalır. 乙巳 → 621-11-10."
@@ -1377,7 +1377,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "sui"
   ],
   "d": "Yangdi'nin öldürülmesinin ardından Sui Gong Di (Yang You) tahtı Li Yuan'a bıraktı; Li Yuan Taiji Salonu'nda imparator oldu, Sui \"Yining 2\" yılı Tang \"Wude 1\" yılı yapıldı. Sui imparatoru \"Xi Dükü\" unvanı aldı.",
-  "kaynak": "Liu Xu vd., Jiu Tang shu (945), juan 1 «Gaozu ji» (武德元年): «甲子，高祖即皇帝位於太極殿，命刑部尚書蕭造兼太尉，告於南郊，大赦天下，改隋義寧二年為唐武德元年» — https://zh.wikisource.org/wiki/舊唐書/卷1 (bu oturumda okundu)",
+  "kaynak": "Liu Xu vd., Jiu Tang shu (945), juan 1 «Gaozu ji» (武德元年): «甲子，高祖即皇帝位於太極殿，命刑部尚書蕭造兼太尉，告於南郊，大赦天下，改隋義寧二年為唐武德元年» — https://zh.wikisource.org/wiki/舊唐書/卷1",
   "gun": "武德元年五月甲子",
   "kesinlik": "gun",
   "ic_not": "Çin ay-gün ganzhi (sexagenary) günü Jülyen takvimine hesapla çevrildi (JDN algoritması; ay sınırı ortalama yeni ay + zhongqi kuralıyla; sınama: 甲子=618-06-18, 乙亥=557-11-16, 丙寅=502-04-30, 丙寅=534-11-08 bilinen günlerle örtüştü). 1582 öncesi Jülyen kalır. 甲子 → 618-06-18; Wei Zheng vd. ve Ouyang Xiu kaynaklı DEVLET_LISTESI kaydıyla uyumlu. Mevcut tang künye iskeleti \"0618-01-01\" yıl-hassasiyetli; öneri 0618-06-18."
@@ -2814,7 +2814,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
  },
  { "odak_yer":["Nanking (Nanjing)"], 
   "t": "0946-01-01",
-  "b": "Güney Tang Min’i yıktı (Xin Wudai 946, künye 945)",
+  "ic_not_ham_b":"Güney Tang Min’i yıktı (Xin Wudai 946, künye 945)", "b": "Güney Tang Min’i yıktı (Xin Wudai 946 verir)",
   "tur": "son",
   "onem": 3,
   "dunya": 1,
@@ -4037,7 +4037,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "taraflar": [
    "yamato"
   ],
-  "d": "Taika 2. yılın ilk gününde, yeni yıl töreni biter bitmez, «Yenileşme Fermanı» (改新之詔) ilan edildi. Kaynak metnin devamındaki madde içeriği (arazi, idare, vergi) bu oturumda okunmadı.",
+  "ic_not_ham_d":"Taika 2. yılın ilk gününde, yeni yıl töreni biter bitmez, «Yenileşme Fermanı» (改新之詔) ilan edildi. Kaynak metnin devamındaki madde içeriği (arazi, idare, vergi) bu oturumda okunmadı.", "d": "Taika 2. yılın ilk gününde, yeni yıl töreni biter bitmez, «Yenileşme Fermanı» (改新之詔) ilan edildi.",
   "kaynak": "Nihon Shoki j.25, Taika 2 (646) (zh.wikisource.org/wiki/日本書紀/卷第廿五, okundu): 「春正月甲子朔，賀正禮畢，即宣改新之詔曰：」",
   "gun": "Taika 2/1/1 (甲子朔)",
   "kesinlik": "gun",
@@ -5756,7 +5756,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "kutai-martapura"
   ],
   "d": "Doğu Kalimantan'daki Kutei sultanlığında bulunan yedi sütun yazıtı yaklaşık 400'e tarihlenir; kral Mulavarman, Kundunga'nın torunu ve hanedan kurucusu Asvavarman'ın oğludur; Vaprakesvara adlı bir kutsal alanı anar.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm IV-3: «In Borneo, the seven inscriptions on pillars found in the sultanate of Kutei seem to date back to around 400. They emanate from a King Mulavarman»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm IV-3: «In Borneo, the seven inscriptions on pillars found in the sultanate of Kutei seem to date back to around 400. They emanate from a King Mulavarman»",
   "gun": "'around 400'",
   "kesinlik": "onyil"
  },
@@ -5775,7 +5775,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "chitu"
   ],
   "d": "Malay Yarımadası'nda bulunan bir Sanskrit yazıt Kızıl Toprak ülkesinden (Raktamrittika) gemi kaptanı Buddhagupta'yı anar; yazının harf biçimi 5. yy ortasını gösterir. Coedès: Çinliler 607'den önce Chih-t'u'dan söz etmez ama ülke o tarihte en az bir buçuk yüzyıldır vardır.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm IV-3: «the master of the junk (mahanavika), Buddhagupta, of the Red-Earth Land (Raktamrittika). The script seems to date from the middle of the fifth century.» · «it had by then already existed at least a century and a half»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm IV-3: «the master of the junk (mahanavika), Buddhagupta, of the Red-Earth Land (Raktamrittika). The script seems to date from the middle of the fifth century.» · «it had by then already existed at least a century and a half»",
   "gun": "5. yy ortası (yazı biçiminden)",
   "kesinlik": "onyil"
  },
@@ -5794,7 +5794,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "tarumanagara"
   ],
   "d": "Batı Cava'daki Purnavarman yazıtları 5. yy ortasına tarihlenir; Cava'da bundan sonra 732'ye kadar epigrafik belge yoktur.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm VI-4: «Java furnishes us with no epigraphic documents for some time after the inscriptions of Purpavarman in western Java that date from the middle of the fifth century.»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm VI-4: «Java furnishes us with no epigraphic documents for some time after the inscriptions of Purpavarman in western Java that date from the middle of the fifth century.»",
   "gun": "5. yy ortası",
   "kesinlik": "onyil"
  },
@@ -5815,7 +5815,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "linyi-champa"
   ],
   "d": "Funan kralı Jayavarman (Kaundinya Jayavarman) 484'te Hintli keşiş Nagasena aracılığıyla Çin imparatorundan, Lin-yi (Champa) tahtını ele geçiren 'asi'ya karşı yardım istedi; imparator hediyeleri teşekkürle karşıladı ama asker göndermedi.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm IV-6: «in 484, King Jayavarman sent him to offer presents to the Chinese emperor and to ask the emperor at the same time for help in conquering Lin-yi» · «The emperor of China thanked Jayavarman for his presents, but sent no troops against Lin-yi.»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm IV-6: «in 484, King Jayavarman sent him to offer presents to the Chinese emperor and to ask the emperor at the same time for help in conquering Lin-yi» · «The emperor of China thanked Jayavarman for his presents, but sent no troops against Lin-yi.»",
   "gun": "484 (yıl); gün yok",
   "kesinlik": "yil",
   "ic_not": "Pencere öncesi (484); Funan künyesinin yaşadığı son yarım yüzyılı çerçevelemek için yazıldı."
@@ -5835,7 +5835,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "linyi-champa"
   ],
   "d": "Funan kralının oğlu ya da vasalı olarak anlatılan gaspçı Fan Tang-ken-ch'un 491'de hâlâ Lin-yi kralı olarak Çin'ce tanınıyordu; 492'de Yang Mah'ın soyundan Chu Nong onu devirdi ve altı yıl hükmedip 498'de denizde boğuldu.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm IV-6: «But in the following year, 492, he was dethroned by a descendant of Yang Mah, named Chu Nong, who reigned six years and was drowned in the sea in 498.»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm IV-6: «But in the following year, 492, he was dethroned by a descendant of Yang Mah, named Chu Nong, who reigned six years and was drowned in the sea in 498.»",
   "gun": "492 (yıl); gün yok",
   "kesinlik": "yil",
   "ic_not": "Pencere öncesi (492); Lin-yi'nin 500'e giren hanedan karışıklığını çerçeveler."
@@ -5857,7 +5857,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "liang-guney"
   ],
   "d": "503 elçiliği üzerine Liang imparatorluk emri Funan kralı Kaundinya Jayavarman'ı 'Pacified South generali ve Funan kralı' ilan etti; Coedès bu dönemi Funan için 'görkem çağı' sayar.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm IV-6: «The king of Funan, Kaupdinya Jayavarman, lives at the limits of the ocean.» · «General of the Pacified South, King of Funan.» · «The reign of Jayavarman marks for Funan an epoch of grandeur»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm IV-6: «The king of Funan, Kaupdinya Jayavarman, lives at the limits of the ocean.» · «General of the Pacified South, King of Funan.» · «The reign of Jayavarman marks for Funan an epoch of grandeur»",
   "gun": "503 elçiliği (yıl); gün yok",
   "kesinlik": "yil"
  },
@@ -5878,7 +5878,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "liang-guney"
   ],
   "d": "Liang tarihi Langkasuka'nın (Lang-ya-hsiu) kuruluşunu '400 yıldan fazla önce' yerleştirir; 515'te kral Bhagadatta Çin'le ilişki kurdu. Ülkenin kuzeyinde Pan Pan vardı.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm IV-3: «Lang-ya-hsu, or Langkasuka ... first established relations with China in 515 under a king who bore the name Bhagadatta.»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm IV-3: «Lang-ya-hsu, or Langkasuka ... first established relations with China in 515 under a king who bore the name Bhagadatta.»",
   "gun": "515 (yıl); gün yok",
   "kesinlik": "yil"
  },
@@ -5898,7 +5898,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "liang-guney"
   ],
   "d": "Kan-t'o-li (Sumatra) 502'de Budist kral Gautama Subhadra altındaydı; oğlu Vijayavarman 519'da Çin'e elçilik gönderdi.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm IV-3: «In 502 a Buddhist king, Gautama Subhadra, was reigning. His son, Vijayavarman, sent an embassy to China in 519.»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm IV-3: «In 502 a Buddhist king, Gautama Subhadra, was reigning. His son, Vijayavarman, sent an embassy to China in 519.»",
   "gun": "502 ve 519 (yıl); gün yok",
   "kesinlik": "yil"
  },
@@ -5918,7 +5918,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "liang-guney"
   ],
   "d": "Yaklaşık 529'da bir Brahmanın oğlu ve Manorathavarman'ın torunu Rudravarman adıyla Champa tahtına çıktı; 530'da Çin'den investitür aldı, 534'te elçi gönderdi.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm V-2: «In about 529, a new dynasty began to reign in Champa» · «He took Rudravarman for his reign name and obtained investiture in 530 from China.»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm V-2: «In about 529, a new dynasty began to reign in Champa» · «He took Rudravarman for his reign name and obtained investiture in 530 from China.»",
   "gun": "530 investitür (yıl); gün yok",
   "kesinlik": "yil"
  },
@@ -5939,7 +5939,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "liang-guney"
   ],
   "d": "Funan kralı Rudravarman'ın Çin'e son elçiliği; hemen ardından Chenla Funan'ın başkentini ele geçirip kralı güneye (Na-fu-na/Angkor Borei) sürdü.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm V-1: «The last embassy to China from Rudravarman of Funan was in 539.»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm V-1: «The last embassy to China from Rudravarman of Funan was in 539.»",
   "gun": "539 (yıl); gün yok",
   "kesinlik": "yil",
   "ic_not": "Funan'ın 539'dan sonraki 7. yy ilk yarısına ait Çin kayıtları için bkz. 0627 maddesi (Takeo)."
@@ -6005,7 +6005,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "linyi-champa"
   ],
   "d": "Linyi kralı 543 baharında/yazında Lý Bí'ye (Li Ben) saldırdı; Li Ben'in generali Fan Xiu Linyi'yi Jiude'de (bugünkü Vinh) bozdu. Coedès aynı olayı Rudravarman I'in 543 akını ve Li Bon'un generali Phạm Tu'nun zaferi olarak anlatır.",
-  "kaynak": "Sima Guang, Zizhi tongjian, juan 158 (Hu Sanxing notlu; zh.wikisource.org/wiki/資治通鑒_(胡三省音注)/卷158, okundu): 「夏，四月，林邑……王攻李賁，賁將范脩破林邑於九德。」 · Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm V-2: «In 543, Rudravarman I of Champa, as his predecessors had done before him, attempted a raid to the north, but he was defeated by Pham Tu, a general of Li Bon who had just revolted against the domination of the Chinese»",
+  "kaynak": "Sima Guang, Zizhi tongjian, juan 158 (Hu Sanxing notlu; zh.wikisource.org/wiki/資治通鑒_(胡三省音注)/卷158, okundu): 「夏，四月，林邑……王攻李賁，賁將范脩破林邑於九德。」 · Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm V-2: «In 543, Rudravarman I of Champa, as his predecessors had done before him, attempted a raid to the north, but he was defeated by Pham Tu, a general of Li Bon who had just revolted against the domination of the Chinese»",
   "gun": "Datong 9 yılı (543), 夏四月 (Nisan?); gün yok → YYYY-01-01 + yıl",
   "kesinlik": "yil",
   "ic_not": "Ay biliniyor (夏四月) ama gün yok: 'gün yoksa YYYY-01-01' kuralıyla yıl hassasiyeti. Fan Xiu ≈ Coedès'in Phạm Tu'su (ad çevirisi farkı); iki kaynak aynı olayı tarihler (çift teyit)."
@@ -6070,7 +6070,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "funan"
   ],
   "d": "Bhavavarman'ın ne kadar hüküm sürdüğü bilinmez; yalnız 598'de kral olduğu bilinir. Yazıtlarına göre kuzeni Chitrasena ile birlikte Funan'a saldırıp Kratie, Buriram ve Mongkolborei'ye (Büyük Göl'ün batısı) kadar ilerlediler.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm V-1: «We do not know how long Bhavavarman reigned; we only know that he was king in 598.» · «judging by their inscriptions, pushed their conquest at least up to Kratie on the Mekong, to Buriram between the Mun River and the Dangrek Mountains, and to Mongkolborei west of the Great Lake.»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm V-1: «We do not know how long Bhavavarman reigned; we only know that he was king in 598.» · «judging by their inscriptions, pushed their conquest at least up to Kratie on the Mekong, to Buriram between the Mun River and the Dangrek Mountains, and to Mongkolborei west of the Great Lake.»",
   "gun": "598 (yıl); gün yok",
   "kesinlik": "yil",
   "ic_not": "Mongkolborei Battambang ilindedir; Bhavapura (Bhavavarman'ın başkenti) Kompong Thom'un 30 km KB'sında Ampil Rolum yöresi (Coedès)."
@@ -6091,7 +6091,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "dvaravati"
   ],
   "d": "Nakhon Pathom'da bulunan ve yaklaşık 600'e tarihlenen Mon yazıtı Dvaravati bölgesinin bilinen en erken yazıtıdır; Phra Pathom ve Lopburi yazıtları nüfusun temelde Mon olduğunu gösterir.",
-  "kaynak": "Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981); archive.org/details/a-history-of-south-east-asia-4th-ed (djvu tam metni bu oturumda okundu), Bölüm 6: «Its earliest known capital was at Nakorn Pat’om, thirty miles west of modern Bangkok. Here a Mon inscription of c. 600 has been discovered; it is the earliest so far known to archaeologists.» | Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm V-4: «The inscriptions of Phra Pathom and of Lopburi, in archaic Mon language, prove that the population was basically Mon.»",
+  "kaynak": "Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981); archive.org/details/a-history-of-south-east-asia-4th-ed (djvu tam metni okundu), Bölüm 6: «Its earliest known capital was at Nakorn Pat’om, thirty miles west of modern Bangkok. Here a Mon inscription of c. 600 has been discovered; it is the earliest so far known to archaeologists.» | Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm V-4: «The inscriptions of Phra Pathom and of Lopburi, in archaic Mon language, prove that the population was basically Mon.»",
   "gun": "c. 600; gün yok",
   "kesinlik": "onyil",
   "ic_not": "'c. 600' → 0600-01-01 (kesinlik onyil)."
@@ -6112,7 +6112,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "linyi-champa"
   ],
   "d": "Sui imparatoru Yang Di 605'te Liu Fang'ı Linyi'ye gönderdi; Linyi'nin fil süvarisi çukur tuzağıyla bozuldu, ordu başkente 8 günde ulaştı, kral Fan Zhi (Sambhuvarman) şehri bırakıp denize kaçtı; Çinliler 18 altın tapınak heykeli alıp çekildi. Sambhuvarman çekilmenin ardından ülkesine döndü.",
-  "kaynak": "Sima Guang, Zizhi tongjian, juan 180 (Hu Sanxing notlu; zh.wikisource.org/wiki/資治通鑒_(胡三省音注)/卷180, okundu): 「八日至其國都。夏，四月，梵志棄城走入海。方入城，獲其廟主十八，皆鑄金爲之；刻石紀功而還。」 · Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm V-2: «the emperor ordered Liu Fang ... to launch a campaign against Champa. ... After they withdrew, Sambhuvarman again assumed control of his country»",
+  "kaynak": "Sima Guang, Zizhi tongjian, juan 180 (Hu Sanxing notlu; zh.wikisource.org/wiki/資治通鑒_(胡三省音注)/卷180, okundu): 「八日至其國都。夏，四月，梵志棄城走入海。方入城，獲其廟主十八，皆鑄金爲之；刻石紀功而還。」 · Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm V-2: «the emperor ordered Liu Fang ... to launch a campaign against Champa. ... After they withdrew, Sambhuvarman again assumed control of his country»",
   "gun": "Daye 1 yılı (605) 夏四月; gün yok → YYYY-01-01 + yıl",
   "kesinlik": "yil",
   "ic_not": "Ay biliniyor, gün yok. Geçici işgaldir (çekilme); sahiplik değişimi sayılmadı."
@@ -6133,7 +6133,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "sui"
   ],
   "d": "Çin kaynakları Kızıl Toprak ülkesinden 607'den önce söz etmez; Ma Tuan-lin'in aktardığı kral Li-fu-to-hsi 16 yıldır tahttadır, başkenti Seng-ch'i üç surlu bir şehirdir; ülkenin Hindu-Budist Brahman saray yapısı ayrıntılı anlatılır.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm IV-3: «The Chinese do not speak of it before 607» · Bölüm V-6: «The family name of the king of Chih-t'u is Ch'u-t'an, and his personal name is Li-fu-to-hsi.» · «a position he has held for sixteen years»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm IV-3: «The Chinese do not speak of it before 607» · Bölüm V-6: «The family name of the king of Chih-t'u is Ch'u-t'an, and his personal name is Li-fu-to-hsi.» · «a position he has held for sixteen years»",
   "gun": "607 (yıl); gün yok",
   "kesinlik": "yil",
   "ic_not": "607 = Çin kaynaklarında ilk anış; Chitu'nun kendisi en az bir buçuk yüzyıl daha eskidir (bkz. 0450 maddesi)."
@@ -6155,7 +6155,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "sui"
   ],
   "d": "Isanavarman'ın tahta çıkışından kısa süre sonra Çin'e (Sui) gönderdiği ilk elçilik; başkenti Isanapura (Sambor Prei Kuk).",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm V-1: «The earliest known date of the reign of Isanavarman, a date that must not have been long after his accession, is that of his first embassy to China in 616-17» · «Isanavarman's capital was named Isanapura»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm V-1: «The earliest known date of the reign of Isanavarman, a date that must not have been long after his accession, is that of his first embassy to China in 616-17» · «Isanavarman's capital was named Isanapura»",
   "gun": "616-617 (yıl); gün yok",
   "kesinlik": "yil"
  },
@@ -6175,7 +6175,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "tang"
   ],
   "d": "Uzun saltanatı 629'da sona eren Sambhuvarman Bhadresvara tapınağını yeniden yaptırdı; oğlu Kandarpadharma 630 ve 631'de Tang imparatoru Taizong'a zengin hediyeler yolladı.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm V-2: «In the course of his long reign, which came to an end in 629, Sambhuvarman rebuilt the temple of Bhadresvara» · «whose reign was peaceful and who sent rich presents to the emperor T'ai Tsung of the T'ang in 630 and 631.»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm V-2: «In the course of his long reign, which came to an end in 629, Sambhuvarman rebuilt the temple of Bhadresvara» · «whose reign was peaceful and who sent rich presents to the emperor T'ai Tsung of the T'ang in 630 and 631.»",
   "gun": "629 (yıl); gün yok",
   "kesinlik": "yil"
  },
@@ -6195,7 +6195,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "tang"
   ],
   "d": "Pan Pan (Siyam Körfezi, Bandon Körfezi yöresi) 424-453 aralığında Çin'e ilk elçiliği gönderdi, elçilikler 635'e kadar sürdü; saray Brahmanlarla doluydu, on Budist manastırı ve bir Taoist manastırı vardı.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm IV-3: «P'an-p'an's first embassy to China goes back to the period 424-53, and others followed up to 635.» · «In this country there are ten monasteries for monks and nuns who study the sacred books of Buddhism»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm IV-3: «P'an-p'an's first embassy to China goes back to the period 424-53, and others followed up to 635.» · «In this country there are ten monasteries for monks and nuns who study the sacred books of Buddhism»",
   "gun": "635 (yıl); gün yok",
   "kesinlik": "yil"
  },
@@ -6215,7 +6215,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "chenla"
   ],
   "d": "Isanavarman'dan (≈635) sonra Chenla'da kral olan Bhavavarman II'nin tek tarihli yazıtı 639'dandır ve Takeo bölgesindedir.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm V-3: «The only dated inscription we have from him is of 639 and comes from the region of Takeo.»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm V-3: «The only dated inscription we have from him is of 639 and comes from the region of Takeo.»",
   "gun": "639 (yıl); gün yok",
   "kesinlik": "yil"
  },
@@ -6234,7 +6234,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "linyi-champa"
   ],
   "d": "Kandarpadharma'nın oğlu Prabhasadharma 640 ve 642'de Çin'e elçilik gönderdi, 645'te bakanlarından biri tarafından öldürüldü; kısa süreli Bhadresvaravarman'dan sonra taht kız kardeşin soyuna geçti.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm V-2: «he sent embassies to China in 640 and 642 and that he was assassinated in 645 by one of his ministers.»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm V-2: «he sent embassies to China in 640 and 642 and that he was assassinated in 645 by one of his ministers.»",
   "gun": "645 (yıl); gün yok",
   "kesinlik": "yil"
  },
@@ -6254,7 +6254,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "chenla"
   ],
   "d": "Kamboçya kralı Isanavarman'ın torunu Prakasadharma, 653'te Vikrantavarman adıyla Champa tahtına çıktı; uzun ve barışçıl saltanatında Mi-son ve Tra-kieu'de çok sayıda dinî yapı yaptırdı, hakimiyeti güneyde Khanh-hoa'ya uzandı.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm V-2: «A son, Prakasadharma, was born of this marriage; at his accession to the throne of Champa in 653 he took the name Vikrantavarman.»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm V-2: «A son, Prakasadharma, was born of this marriage; at his accession to the throne of Champa in 653 he took the name Vikrantavarman.»",
   "gun": "653 (yıl); gün yok",
   "kesinlik": "yil"
  },
@@ -6274,7 +6274,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "tang"
   ],
   "d": "Ho-ling 7. yy'da Budist kültür merkeziydi; Çinli hacı Hui-ning 664-65'te ülkeye gelip Jnanabhadra'nın yönetiminde Theravada Sanskrit metinlerini Çinceye çevirdi.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm V-7: «Ho-ling, whose richness is praised in the New History of the T'ang, was a center of Buddhist culture in the seventh century. It was the homeland of the monk Jnanabhadra, under whose direction the Chinese pilgrim Hui-ning, who came to the country in 664-65, translated the Sanskrit texts of the Theravada into Chinese.»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm V-7: «Ho-ling, whose richness is praised in the New History of the T'ang, was a center of Buddhist culture in the seventh century. It was the homeland of the monk Jnanabhadra, under whose direction the Chinese pilgrim Hui-ning, who came to the country in 664-65, translated the Sanskrit texts of the Theravada into Chinese.»",
   "gun": "664-65 (yıl); gün yok",
   "kesinlik": "yil"
  },
@@ -6294,7 +6294,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "srivijaya"
   ],
   "d": "Taruma 666-69 elçiliğinden sonra kaynaklarda bir daha anılmaz; Srivijaya'nın 686 Bangka yazıtı 'boyun eğmeyen Cava'ya sefer' düzenlendiğini söyler ve bu ülke Sunda Boğazı'nın karşısındaki Taruma olabilir.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm VI-1: «The land referred to may have been the ancient kingdom of Taruma, on the other side of the Sunda Strait, which we do not hear spoken of again after its embassy to China in 666-69.»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm VI-1: «The land referred to may have been the ancient kingdom of Taruma, on the other side of the Sunda Strait, which we do not hear spoken of again after its embassy to China in 666-69.»",
   "gun": "666-69 aralığı; son uç alındı",
   "kesinlik": "yil",
   "ic_not": "Aralığın SON yılı (669) alındı: son tanığa 'künye t' ile aynı değer; ilk yılı 666'dır."
@@ -6316,7 +6316,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "tang"
   ],
   "d": "Hacı I-ching 671'de Mo-lo-yu'da iki ay durdu; 695'te yazdığı ikinci eserinde burasının 'artık Shih-li-fo-shih ülkesi' olduğunu belirtir.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm VI-1: «Mo-lo-yu, where he had stopped and stayed two months in 671, “is now the country of Shih-li-fo-shih.”»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm VI-1: «Mo-lo-yu, where he had stopped and stayed two months in 671, “is now the country of Shih-li-fo-shih.”»",
   "gun": "671 (yıl); gün yok",
   "kesinlik": "yil"
  },
@@ -6335,7 +6335,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "sri-ksetra"
   ],
   "d": "Prome yakınındaki mezar urnelerindeki Pyu yazıtları üç Vikrama kralının adını ve yaşlarını verir: Suryavikrama (688'de 64 yaşında), Harivikrama (695'te 41), Sihavikrama (718'de 44); tarihler 638 Burma çağına göre hesaplanmıştır, çağ belirtilmediği için geçicidir.",
-  "kaynak": "Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981); archive.org/details/a-history-of-south-east-asia-4th-ed (djvu tam metni bu oturumda okundu), Bölüm 6: «show a Vikrama dynasty reigning at Srikshetra between possibly 673 and 718» · «Suryavikrama, who died in 688 aged 64. Harivikrama, who died in 695 aged 41. Sihavikrama, who died in 718 aged 44.» · «The dates are provisional, since the era is not stated.» | Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm VI-3",
+  "kaynak": "Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981); archive.org/details/a-history-of-south-east-asia-4th-ed (djvu tam metni okundu), Bölüm 6: «show a Vikrama dynasty reigning at Srikshetra between possibly 673 and 718» · «Suryavikrama, who died in 688 aged 64. Harivikrama, who died in 695 aged 41. Sihavikrama, who died in 718 aged 44.» · «The dates are provisional, since the era is not stated.» | Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm VI-3",
   "gun": "688, 695, 718 (ölüm yılları; çağ varsayımı 638)",
   "kesinlik": "yil",
   "ic_not": "Hall: dates provisional; U Aung Thaw'un Saka çağı (MS 78) okuması farklı yıllar verir — çift tarih çelişkisi."
@@ -6357,7 +6357,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "melayu-jambi"
   ],
   "d": "I-ching, Malayu'nun 689 ile 692 arasında Shih-li-fo-shih (Srivijaya) tarafından yutulduğunu bildirir; 683-86 Palembang/Karang Brahi/Kota Kapur yazıtları Srivijaya'nın Jambi'yi ve Bangka'yı fethettiğini gösterir.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm V-7: «He informs us in his memoirs that between 689 and 692 Malayu was absorbed by Shih-li-fo-shih (Srivijaya).» | Bölüm VI-1: «show the existence in 683-86 in Palembang of a Buddhist kingdom that had just conquered the hinterland of Jambi and the island of Bangka»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm V-7: «He informs us in his memoirs that between 689 and 692 Malayu was absorbed by Shih-li-fo-shih (Srivijaya).» | Bölüm VI-1: «show the existence in 683-86 in Palembang of a Buddhist kingdom that had just conquered the hinterland of Jambi and the island of Bangka»",
   "gun": "689-692 aralığı; ilk yıl alındı",
   "kesinlik": "yil",
   "ic_not": "Coedès iki ayrı tanık verir: 683-86 yazıtlarında Jambi havzasının (Malayu) fethi ve I-ching'in 689-692 ifadesi; Malayu'nun fethedildiği yıl kesin değil → 689 'en geç' sınır."
@@ -6377,7 +6377,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "chenla"
   ],
   "d": "Jayavarman I'in erkek varis bırakmadan ölümünden sonraki anarşide Kamboçya kuzeyde dağlık 'Kara Chenla' ve güneyde göllü 'Su Chenla' olarak ikiye bölündü; kuzey yarı Wen-tan/P'o-lou diye de anılır.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm VI-2: «shortly after 706 Cambodia came to be divided in two» · «The northern half, a land of mountains and valleys, was called Land Chenla. The southern half, bounded by the sea and covered with lakes, was called Water Chenla.»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm VI-2: «shortly after 706 Cambodia came to be divided in two» · «The northern half, a land of mountains and valleys, was called Land Chenla. The southern half, bounded by the sea and covered with lakes, was called Water Chenla.»",
   "gun": "'shortly after 706' (Tang tarihleri); 706 alt sınır alındı",
   "kesinlik": "yil",
   "ic_not": "Kesin yıl yok; 'shortly after 706' → 706 alt sınır (kesinlik yil)."
@@ -6398,7 +6398,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "chenla"
   ],
   "d": "713'te ülkeyi Kraliçe Jayadevi yönetiyordu; Angkor'da bulunan yazıtında 'kötü zamanlardan' yakınır ve Siva Tripurantaka mabedine bağışları anar.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm VI-2: «In 713, the country was governed by a queen named Jayadevi; we have an inscription of hers found at Angkor, in which she complains of the misfortunes of the times»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm VI-2: «In 713, the country was governed by a queen named Jayadevi; we have an inscription of hers found at Angkor, in which she complains of the misfortunes of the times»",
   "gun": "713 (yıl); gün yok",
   "kesinlik": "yil"
  },
@@ -6418,7 +6418,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "chenla"
   ],
   "d": "Aninditapura prensi Pushkara/Pushkaraksha Sambhupura'da (Mekong üzerinde Kratie'nin yukarısı) kral oldu ve 716 tarihli yazıt diktirdi; bu, Su Chenla'nın parçalanmasının başlangıcı sayılır.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm VI-2: «Around the same time, a prince of Aninditapura named Pushkara or Pushkaraksha became king in Sambhupura ... where he had an inscription engraved in 716.»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm VI-2: «Around the same time, a prince of Aninditapura named Pushkara or Pushkaraksha became king in Sambhupura ... where he had an inscription engraved in 716.»",
   "gun": "716 (yıl); gün yok",
   "kesinlik": "yil"
  },
@@ -6438,7 +6438,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "tang"
   ],
   "d": "Kara Chenla 717'de Çin'e elçilik gönderdi, 722'de Vietnam'da Çin'e karşı isyan eden yerel bir şefe yardım için sefer yaptı.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm VI-2: «All we know about Land Chenla in the first half of the eighth century is that it sent an embassy to China in 717 and sent an expedition to Vietnam in 722 to aid a native chief in his revolt against China.»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm VI-2: «All we know about Land Chenla in the first half of the eighth century is that it sent an embassy to China in 717 and sent an expedition to Vietnam in 722 to aid a native chief in his revolt against China.»",
   "gun": "717 ve 722 (yıl); gün yok",
   "kesinlik": "yil"
  },
@@ -6458,7 +6458,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "kalingga-holing"
   ],
   "d": "Cava'ya dair uzun suskunluktan sonra 732 tarihli Sanskrit yazıt Sanjaya'nın Kunjarakunja ülkesinde Siva linga'sı diktiğini anlatır; 907 tarihli yazıt Sanjaya'yı Mataram prensi ve hanedanın ilki sayar.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm VI-4: «Java re-enters the scene with a Sanskrit inscription of 732 found in the central part of the island among the ruins of the Sivaite sanctuary of Changal on the hill of Wukir» · «An inscription dated 907 ... represents Sanjaya as a prince of Mataram (southern part of central Java) and as the first of a line.»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm VI-4: «Java re-enters the scene with a Sanskrit inscription of 732 found in the central part of the island among the ruins of the Sivaite sanctuary of Changal on the hill of Wukir» · «An inscription dated 907 ... represents Sanjaya as a prince of Mataram (southern part of central Java) and as the first of a line.»",
   "gun": "732 (yıl); gün yok",
   "kesinlik": "yil",
   "ic_not": "Ho-ling/Walaing ile Sanjaya hattının ilişkisi Coedès'te belirtilmiyor; bu madde Ho-ling'in Orta Cava'daki çağdaş siyasî ortamını gösterir."
@@ -6479,7 +6479,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "medang"
   ],
   "d": "Çin kaynakları Ho-ling başkentinin kral Chi-yen eliyle 742 ile 755 arasında She-p'o'dan doğuya, P'o-lu-chia-ssu'ya taşındığını söyler; Coedès bunu orta Cava'da Budist Sailendraların yükselişine bağlar.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm VI-4: «Evidence from Chinese sources, which place the moving of the capital of Ho-ling to the east and its transfer from She-p'o to P'o-lu-chia-ssu by the king Chi-yen between 742 and 755»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm VI-4: «Evidence from Chinese sources, which place the moving of the capital of Ho-ling to the east and its transfer from She-p'o to P'o-lu-chia-ssu by the king Chi-yen between 742 and 755»",
   "gun": "742-755 aralığı; ilk yıl alındı",
   "kesinlik": "yil"
  },
@@ -6500,7 +6500,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "nanzhao"
   ],
   "d": "Kara Chenla 753'te kralın oğlunun başkanlığında Çin'e elçilik gönderdi; 754'te aynı prens (veya başka bir oğul) Doğu Nanzhao'ya karşı Çin ordularına eşlik etti.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm VI-5: «Land Chenla ... in 753 sent to China an embassy led by a son of the king. In 754 this same prince or another son of the king accompanied the Chinese armies that were operating against eastern Nanchao»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm VI-5: «Land Chenla ... in 753 sent to China an embassy led by a son of the king. In 754 this same prince or another son of the king accompanied the Chinese armies that were operating against eastern Nanchao»",
   "gun": "753-754 (yıl); gün yok",
   "kesinlik": "yil"
  },
@@ -6521,7 +6521,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "pyu-sehir-devletleri"
   ],
   "d": "Tibet ile müttefik Nanzhao kralı Ko-lo-feng batıyla bağlantı kurmak için 757 ile 763 arasında Yukarı Irrawaddy vadisini fethetti; Pyu başkentinin Prome'den kuzeye, Ha-lin'e taşınıp taşınmadığı belirsizdir.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm VI-7: «Between 757 and 763, he conquered the upper Irrawaddy Valley. We may wonder if the capital of the Pyus remained at Prome in this period or if it was not transferred farther north, to Ha-lin»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm VI-7: «Between 757 and 763, he conquered the upper Irrawaddy Valley. We may wonder if the capital of the Pyus remained at Prome in this period or if it was not transferred farther north, to Ha-lin»",
   "gun": "757-763 aralığı; ilk yıl alındı",
   "kesinlik": "yil",
   "ic_not": "Hall: Kolofeng (748-79) üst Irrawaddy'yi denetlemek için kale yaptırdı, Pyu'yu 'may have subdued'."
@@ -6542,7 +6542,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "linyi-champa"
   ],
   "d": "8. yy ortasında Champa'nın merkezi Thua-thien ve Quang-nam'dan güneye, Panduranga (Phan-rang) ve Kauthara (Nha-trang)'ya kaydı; 758'de Çinliler Lin-yi yerine Huan-wang adını kullanmaya başladı.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm VI-6: «In the middle of the eighth century, however, we see a movement of the center of gravity to the south, to Panduranga (Phan-rang) and to Kauthara (Nha-trang). At about the same time, in 758, the Chinese stop speaking of Lin-yi and substitute for it the name Huan-wang.»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm VI-6: «In the middle of the eighth century, however, we see a movement of the center of gravity to the south, to Panduranga (Phan-rang) and to Kauthara (Nha-trang). At about the same time, in 758, the Chinese stop speaking of Lin-yi and substitute for it the name Huan-wang.»",
   "gun": "758 (yıl); gün yok",
   "kesinlik": "yil"
  },
@@ -6563,7 +6563,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "medang"
   ],
   "d": "774'te 'başka ülkelerde doğmuş' adamlar gemilerle gelip Po Nagar'daki linga'yı çaldı ve tapınağı yaktı; Cham kralı Satyavarman onları denizde bozdu. 787'de İndravarman döneminde 'Cava orduları' Phan-rang yakınındaki bir tapınağı yaktı.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm VI-4: «In 774 “men born in other countries,” says a Sanskrit inscription of Po Nagar at Nha-trang, ... came in ships,” stole the linga, and burned the temple.» · «In 787, “the armies of Java, having come in vessels,” burned another temple.»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm VI-4: «In 774 “men born in other countries,” says a Sanskrit inscription of Po Nagar at Nha-trang, ... came in ships,” stole the linga, and burned the temple.» · «In 787, “the armies of Java, having come in vessels,” burned another temple.»",
   "gun": "774 ve 787 (yıl); gün yok",
   "kesinlik": "yil",
   "ic_not": "'medang' kimliği 8. yy Orta Cava'yı (Sanjaya/Sailendra) temsil eder; Coedès saldırganı yalnız 'Java/K'un-lun' olarak anar — saldırganın Sailendra olduğu varsayımı atlasa aittir."
@@ -6584,7 +6584,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "chenla"
   ],
   "d": "Siem Reap ilinde bulunan 791 tarihli yazıt Lokesvara Bodhisattva heykelinin dikilişini anar ve Kamboçya'daki Mahayana Budizminin en eski epigrafik kanıtıdır; Su Chenla'da 770 ve 781 tarihli Jayavarman yazıtları da vardır.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm VI-5: «An inscription of 791 found in the province of Siem Reap, which mentions the erection of an image of the Bodhisattva Lokesvara, is the most ancient epigraphical evidence of the existence of Mahayana Buddhism in Cambodia.»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm VI-5: «An inscription of 791 found in the province of Siem Reap, which mentions the erection of an image of the Bodhisattva Lokesvara, is the most ancient epigraphical evidence of the existence of Mahayana Buddhism in Cambodia.»",
   "gun": "791 (yıl); gün yok",
   "kesinlik": "yil"
  },
@@ -6605,7 +6605,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "nanzhao"
   ],
   "d": "Nanzhao kralı I-mou-hsün 800'de Tang sarayına Pyu müzisyenleri hediye etti; 801-2'de bir Pyu kralı 35 müzisyenle Nanzhao üzerinden Tang'a resmî elçilik yolladı ve Tang tarihinde Pyu başkentinin canlı bir tasviri yer aldı.",
-  "kaynak": "Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981); archive.org/details/a-history-of-south-east-asia-4th-ed (djvu tam metni bu oturumda okundu), Bölüm 6: «I-mou-hsün, Kolofeng’s grandson and successor, sent a present of Pyu musicians to the T’ang Court in 800. In 801-2 a Pyu king sent a formal embassy, accompanied by thirty-five musicians, to China via Nanchao.»",
+  "kaynak": "Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981); archive.org/details/a-history-of-south-east-asia-4th-ed (djvu tam metni okundu), Bölüm 6: «I-mou-hsün, Kolofeng’s grandson and successor, sent a present of Pyu musicians to the T’ang Court in 800. In 801-2 a Pyu king sent a formal embassy, accompanied by thirty-five musicians, to China via Nanchao.»",
   "gun": "800 ve 801-2 (yıl); gün yok",
   "kesinlik": "yil"
  },
@@ -6626,7 +6626,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "chenla"
   ],
   "d": "Jayavarman II Java'dan dönüp Indrapura'ya (Thbong Khmum, Kompong Cham doğusu) yerleşti; sonra Hariharalaya ve Mahendraparvata (Phnom Kulen) üzerinden Devaraja kültünü kurdu. Ülke bu sırada 'almost complete anarchy' içinde, birçok rakip prensliğe bölünmüştü ve genç prens krallığın en azından bir bölümünü fethetmek zorundaydı.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm VII-1: «we have abundant evidence that the effective beginning of the reign was 802» · «anarchy, apparently without a king or divided among many rival principalities, and before he could obtain respect for his rights or his pretensions to the throne of Cambodia, the young prince had to conquer at least part of the kingdom.»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm VII-1: «we have abundant evidence that the effective beginning of the reign was 802» · «anarchy, apparently without a king or divided among many rival principalities, and before he could obtain respect for his rights or his pretensions to the throne of Cambodia, the young prince had to conquer at least part of the kingdom.»",
   "gun": "802 (yıl); gün yok",
   "kesinlik": "yil",
   "ic_not": "Mevcut Angkor-Kmer künyesi f=0802-01-01 ile uyumlu. Chenla künyesi t=0802; Coedès'e göre Chenla ile Angkor arasında net bir son gün yok — Jayavarman II ülkeyi aşamalı fethetti."
@@ -6648,7 +6648,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "nanzhao"
   ],
   "d": "Pyu'nun on sekiz bağlı devletinden Mi-ch'en'in kralı 805'te Çin'den tanındı; 835'te Nanzhao tarafından yok edildi. Mi-ch'en Martaban Körfezi'nde, belki eski Pegu bölgesindeydi.",
-  "kaynak": "Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981); archive.org/details/a-history-of-south-east-asia-4th-ed (djvu tam metni bu oturumda okundu), Bölüm 6: «One of them, Mi-chen, whose king secured recognition from China in 805, was in 835 destroyed by Nanchao.» | Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm VII-3: «the kingdom of Mi-ch'en, which sent an embassy to China in 805 and was a victim of Nanchao aggression in 835»",
+  "kaynak": "Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981); archive.org/details/a-history-of-south-east-asia-4th-ed (djvu tam metni okundu), Bölüm 6: «One of them, Mi-chen, whose king secured recognition from China in 805, was in 835 destroyed by Nanchao.» | Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm VII-3: «the kingdom of Mi-ch'en, which sent an embassy to China in 805 and was a victim of Nanchao aggression in 835»",
   "gun": "805 ve 835 (yıl); gün yok",
   "kesinlik": "yil",
   "ic_not": "Hall/Coedès çift teyit."
@@ -6670,7 +6670,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "halin"
   ],
   "d": "832'de 'Man isyancıları' (muhtemelen Nanzhao) Pyu başkentini yağmalayıp 3000 esiri Yunnanfu'ya götürdü; Coedès bunu Pyu çöküşünün başlangıcı sayar, depopüle olan başkentten kaçışların Pagan'ı büyüttüğünü düşünür.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm VII-3: «In 832, it abducted three thousand Pyus from the population of the capital Ha-lin to populate the eastern capital of Nanchao, Cha-tung, which corresponds to the modern Yunnan-fu (K'un-ming). This was the beginning of the Pyu decline.» | Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981); archive.org/details/a-history-of-south-east-asia-4th-ed (djvu tam metni bu oturumda okundu), Bölüm 6: «in 832 ‘Man rebels’ (?Nanchao) plundered the Pyu capital and deported 3,000 captives to Yunnanfu»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm VII-3: «In 832, it abducted three thousand Pyus from the population of the capital Ha-lin to populate the eastern capital of Nanchao, Cha-tung, which corresponds to the modern Yunnan-fu (K'un-ming). This was the beginning of the Pyu decline.» | Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981); archive.org/details/a-history-of-south-east-asia-4th-ed (djvu tam metni okundu), Bölüm 6: «in 832 ‘Man rebels’ (?Nanchao) plundered the Pyu capital and deported 3,000 captives to Yunnanfu»",
   "gun": "832 (yıl); gün yok",
   "kesinlik": "yil",
   "ic_not": "Hall/Coedès çift teyit (yıl)."
@@ -6692,7 +6692,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "sri-ksetra"
   ],
   "d": "Prome'nin nüfus kaybı Pagan'a yaradı; kronikler 849'da kral Pyinbya'nın Pagan'ı surla çevirmesini anlatır, Hall bu yılın Pyu başkentinin boşalmasıyla bağlantılı olabileceğini söyler.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm VII-3: «The depopulation of Prome profited Pagan (Arimaddana-pura)... In 849, Pagan entered definitively into history, if not in epigraphy at least in the annals, with the construction of its city walls by the king Pyinbya.» | Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981); archive.org/details/a-history-of-south-east-asia-4th-ed (djvu tam metni bu oturumda okundu), Bölüm 6: «If the date is correct, the depopulation of the Pyu capital in the north may have caused a movement of refugees downstream which led to the formation of a new centre at Pagan.»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm VII-3: «The depopulation of Prome profited Pagan (Arimaddana-pura)... In 849, Pagan entered definitively into history, if not in epigraphy at least in the annals, with the construction of its city walls by the king Pyinbya.» | Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981); archive.org/details/a-history-of-south-east-asia-4th-ed (djvu tam metni okundu), Bölüm 6: «If the date is correct, the depopulation of the Pyu capital in the north may have caused a movement of refugees downstream which led to the formation of a new centre at Pagan.»",
   "gun": "849 (kronik yılı); gün yok",
   "kesinlik": "yil",
   "ic_not": "Pagan künyesi (devletler.js) f=0849; bu madde yalnız Pyu çözülüşünün sonrasını bağlar."
@@ -6713,7 +6713,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "linyi-champa"
   ],
   "d": "875'te yirmi yıllık belge boşluğundan sonra Quang-nam'daki Indrapura'da yeni bir hanedan görünür; Çinliler ülkenin adını Chan-ch'eng yapar; kurucu Indravarman II aynı yıl Dong-duong Budist manastırını kurar.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm VII-2: «In Champa in 875, after a twenty-year gap in documentation, we are suddenly presented with a new dynasty reigning in the north, at Indrapura in the modern province of Quang-nam»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm VII-2: «In Champa in 875, after a twenty-year gap in documentation, we are suddenly presented with a new dynasty reigning in the north, at Indrapura in the modern province of Quang-nam»",
   "gun": "875 (yıl); gün yok",
   "kesinlik": "yil"
  },
@@ -6734,7 +6734,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "angkor-kmer"
   ],
   "d": "Indravarman III döneminde yaklaşık 950'de Khmerler Nha-trang yöresine saldırıp altın heykeli çaldı ama Rajendravarman'ın orduları ağır bir yenilgiye uğradı; 965'te Jaya Indravarman I tapınağı onarıp taş heykel dikti.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm VII-2: «he had to repel a Khmer invasion around 950 in the region of Nha-trang; the gold statue was stolen by the invaders ... but the Khmer armies of Rajendravarman finally suffered a bloody defeat.»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm VII-2: «he had to repel a Khmer invasion around 950 in the region of Nha-trang; the gold statue was stolen by the invaders ... but the Khmer armies of Rajendravarman finally suffered a bloody defeat.»",
   "gun": "'around 950' (yıl); gün yok",
   "kesinlik": "yil",
   "ic_not": "'around 950': tahmini yıl."
@@ -6756,7 +6756,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "linyi-champa"
   ],
   "d": "979'da Ngô soyundan bir adayı tahta çıkarmak için Cham kralı Parameśvaravarman'ın düzenlediği deniz seferi Dinh başkenti Hoa Lư'ya yaklaşırken fırtınada yok oldu; 980'de Le Hoan Đại Cồ Việt tahtına geçti, Cham kralı Vietnam elçisini tutuklayınca Le Hoan'ın misilleme seferi Cham kralının ölümüne ve 982'de Cham başkentinin yıkılışına yol açtı.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm VII-2: «A sea-borne expedition, organized in 979» · «Le Hoan organized a retaliatory expedition that cost the life of the Cham sovereign and led to the destruction of the Cham capital in 982.»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm VII-2: «A sea-borne expedition, organized in 979» · «Le Hoan organized a retaliatory expedition that cost the life of the Cham sovereign and led to the destruction of the Cham capital in 982.»",
   "gun": "979, 980 ve 982 (yıl); gün yok",
   "kesinlik": "yil",
   "ic_not": "Başkent yıkımı geçici akındır; Cham kralı güneye kaçtı, Vietnamlı Lưu Kế Tông kuzeyi ele geçirdi (983-989) — sahiplik değişimi bu kümede yazılmadı."
@@ -6778,7 +6778,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "campa"
   ],
   "d": "Harivarman II'nin ardından 999'da gelen kral, savunması zor Indrapura'yı 1000 yılında bırakıp Vijaya'ya (Binh-dinh yöresi) yerleşti; bundan sonra Champa tarihi kuzey komşusunun artan baskısı karşısında geri çekilme tarihidir.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm VII-2: «finally abandoned this extremely vulnerable capital in the year 1000 and established himself at Vijaya, in the region of Binh-dinh.»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm VII-2: «finally abandoned this extremely vulnerable capital in the year 1000 and established himself at Vijaya, in the region of Binh-dinh.»",
   "gun": "1000 (yıl); gün yok",
   "kesinlik": "yil",
   "ic_not": "Linyi-Champa (t=0999-12-31) ve Campa (f=1000-01-01) aynı polity'dir; künye ayrımı Vijaya'ya taşınmaya denk düşürülmüş. Yerleşim zincirleri bu günde 'linyi-champa'→'campa' olarak kırılır."
@@ -6800,7 +6800,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "song"
   ],
   "d": "Kadaram'ın (Kedah) 11. yy boyunca Çin'e düzenli elçilik gönderdiği, 1017 elçiliğinin bir 'Sumatrabhumi kralı' adına geldiği Majumdar'da belirtilir.",
-  "kaynak": "Majumdar, R. C., Ancient Indian Colonies in the Far East, cilt II: Suvarnadvipa, Part I: Political History (Dacca, 1937); archive.org/details/Suvarnadvipa (djvu tam metni bu oturumda okundu), Bölüm 'Sailendras and the Colas': «The embassy of 1017 was sent by a king, whose Chinese name has been restored by Ferrand as Haji-Sumatrabhiimi or king of Sumatrabhumi» · «This is proved by the regular despatch of embassies to the court of China throughout the eleventh century A. D.»",
+  "kaynak": "Majumdar, R. C., Ancient Indian Colonies in the Far East, cilt II: Suvarnadvipa, Part I: Political History (Dacca, 1937); archive.org/details/Suvarnadvipa (djvu tam metni okundu), Bölüm 'Sailendras and the Colas': «The embassy of 1017 was sent by a king, whose Chinese name has been restored by Ferrand as Haji-Sumatrabhiimi or king of Sumatrabhumi» · «This is proved by the regular despatch of embassies to the court of China throughout the eleventh century A. D.»",
   "gun": "1017 (yıl); gün yok",
   "kesinlik": "yil",
   "ic_not": "Majumdar Kadaram=Kedah özdeşliğini kabul eden Coedès/Blagden çizgisini izler; bazı Çin elçiliklerinin Kadaram'dan mı Srivijaya'dan mı geldiği belirsizdir."
@@ -6822,7 +6822,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "lavo"
   ],
   "d": "Lopburi'de bulunan, Suryavarman I döneminden 1022-25 tarihli yazıt iki Budist okulundan keşişlerin ve yoga yapan Brahmanların Lavo'da yan yana yaşadığını söyler; Khmer yazıtları 11. yy'da Menam havzasında Khmer yerleşimini gösterir.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm IX-1: «Evidence of the Khmer occupation in the lower Menam in the eleventh century is given by a group of inscriptions from Lopburi, at least one of which emanates from Suryavarman I.» · «An inscription of 1022-25 tells us that during Suryavarman I's reign monks belonging to two schools of Buddhism (bhikshu mahayana and sthavira) and Brahmans practicing the exercises of Yoga (tapasvi yogi) lived side by side in Lavo.»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm IX-1: «Evidence of the Khmer occupation in the lower Menam in the eleventh century is given by a group of inscriptions from Lopburi, at least one of which emanates from Suryavarman I.» · «An inscription of 1022-25 tells us that during Suryavarman I's reign monks belonging to two schools of Buddhism (bhikshu mahayana and sthavira) and Brahmans practicing the exercises of Yoga (tapasvi yogi) lived side by side in Lavo.»",
   "gun": "1022-25 aralığı; aralığın ilk yılı alındı",
   "kesinlik": "yil",
   "ic_not": "Khmer yönetiminin başladığı kesin gün kaynakta yok; yazıt 'en geç' tanığıdır (BEYANLI YAKLAŞIKLIK: yerleşim zinciri 1022'de lavo → angkor-kmer kırılır)."
@@ -6844,7 +6844,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "kedah-kadaram"
   ],
   "d": "Rajendra Chola'nın 13. yılına (MS 1024-5) tarihli Malur yazıtı ve 19. yılına (MS 1030-31) tarihli Tanjore yazıtı deniz seferini anlatır: 'Kadaram kralı Sangramavijayottungavarman' filleriyle esir alındı, Sri-Vijaya, Pannai, Malaiyur, Mayirudingam, Ilangasogam gibi şehirler zapt edildi.",
-  "kaynak": "Majumdar, R. C., Ancient Indian Colonies in the Far East, cilt II: Suvarnadvipa, Part I: Political History (Dacca, 1937); archive.org/details/Suvarnadvipa (djvu tam metni bu oturumda okundu), Bölüm 'Sailendras and the Colas': «An inscription at the temple of Malur in the Bangalore district, dated in the 13th year of Rajendra Cola (A.D. 1024-5), gives a detailed account of his oversea conquests.» · «having caught Sangrfima-vijayottungavarman, the king of Kadaram, along with the rutting elephants of his army»",
+  "kaynak": "Majumdar, R. C., Ancient Indian Colonies in the Far East, cilt II: Suvarnadvipa, Part I: Political History (Dacca, 1937); archive.org/details/Suvarnadvipa (djvu tam metni okundu), Bölüm 'Sailendras and the Colas': «An inscription at the temple of Malur in the Bangalore district, dated in the 13th year of Rajendra Cola (A.D. 1024-5), gives a detailed account of his oversea conquests.» · «having caught Sangrfima-vijayottungavarman, the king of Kadaram, along with the rutting elephants of his army»",
   "gun": "13. yıl (MS 1024-5) ve 19. yıl (1030-31); gün yok",
   "kesinlik": "yil",
   "ic_not": "Majumdar: 'none of the records ... gives any specific date for any of his conquests'. Akın süreklilik kesmedi: Kadaram ayrı devlet kaldı (aşağıdaki 1068-70 ve 1089 maddeleri)."
@@ -6866,7 +6866,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "kedah-kadaram"
   ],
   "d": "Majumdar, MS 1069-70'ten bir süre önce Virarajendra'nın Kadaram'ı fethettiğini ve kralın üstünlüğü kabul edince yeniden tahta oturtulduğunu, Kadaram'ın yarım yüzyıl önceki fetihten sonra bağımsızlığını geri aldığını yazar.",
-  "kaynak": "Majumdar, R. C., Ancient Indian Colonies in the Far East, cilt II: Suvarnadvipa, Part I: Political History (Dacca, 1937); archive.org/details/Suvarnadvipa (djvu tam metni bu oturumda okundu), Bölüm 'Sailendras and the Colas': «the fact, that some time before A.D. 1069-70 Virarajendra conquered Kadaram (I-a), shows that the country had regained independence in the meanwhile.» · «the restoration of the king of Kadaram, after he had acknowledged the suzerainty of Virarajendra»",
+  "kaynak": "Majumdar, R. C., Ancient Indian Colonies in the Far East, cilt II: Suvarnadvipa, Part I: Political History (Dacca, 1937); archive.org/details/Suvarnadvipa (djvu tam metni okundu), Bölüm 'Sailendras and the Colas': «the fact, that some time before A.D. 1069-70 Virarajendra conquered Kadaram (I-a), shows that the country had regained independence in the meanwhile.» · «the restoration of the king of Kadaram, after he had acknowledged the suzerainty of Virarajendra»",
   "gun": "'some time before A.D. 1069-70'; 1069 alındı",
   "kesinlik": "yil",
   "ic_not": "Kesin yıl yok ('some time before 1069-70'): 1069 'en geç' sınırı."
@@ -6888,13 +6888,13 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "cola"
   ],
   "d": "MS 1089-90'daki Kadaram elçiliği, Chola-Kadaram arasında yeni bir iyi niyet dönemini işaretler; ama Çin kayıtları 1106'da Chola'yı San-fo-tsi'nin vasalı gösterir, mücadele dalgalı sürmüş olabilir.",
-  "kaynak": "Majumdar, R. C., Ancient Indian Colonies in the Far East, cilt II: Suvarnadvipa, Part I: Political History (Dacca, 1937); archive.org/details/Suvarnadvipa (djvu tam metni bu oturumda okundu), Bölüm 'Sailendras and the Colas': «The embassy from Kadaram to the Cola king in A.D. 1089-90 (I-b) seems to mark the beginning of a new era of good-» · «will and friendship between the two states.» (sayfa kırılımı: 184-185)",
+  "kaynak": "Majumdar, R. C., Ancient Indian Colonies in the Far East, cilt II: Suvarnadvipa, Part I: Political History (Dacca, 1937); archive.org/details/Suvarnadvipa (djvu tam metni okundu), Bölüm 'Sailendras and the Colas': «The embassy from Kadaram to the Cola king in A.D. 1089-90 (I-b) seems to mark the beginning of a new era of good-» · «will and friendship between the two states.» (sayfa kırılımı: 184-185)",
   "gun": "1089-90 (yıl); gün yok",
   "kesinlik": "yil"
  },
  { "odak_yer":["Angkor"], 
   "t": "1100-01-01",
-  "b": "Dvaravati'nin sonu: 11. yy'da Khmer genişlemesi, Mon bölgesi Khmer altında (künye t=1100)",
+  "ic_not_ham_b":"Dvaravati'nin sonu: 11. yy'da Khmer genişlemesi, Mon bölgesi Khmer altında (künye t=1100)", "b": "Dvaravati'nin sonu: 11. yy'da Khmer genişlemesi, Mon bölgesi Khmer altında",
   "tur": "son",
   "onem": 2,
   "dunya": 1,
@@ -6909,7 +6909,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "angkor-kmer"
   ],
   "d": "Coedès'e göre 11. yy'da Khmerler Lavo'ya yerleşti, 12. yy'da etkileri Haripunjaya sınırına kadar uzandı; Dvaravati'nin Menam havzasındaki merkezi bu süreçte Khmer ve Mon sonrası yapılarına karıştı. Künyedeki 1100 yuvarlak bir sınırdır.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm XII-8: «In the eleventh the Khmers had established themselves at Lavo, and in the twelfth they had extended their domination to the borders of the kingdom of Haripunjaya»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm XII-8: «In the eleventh the Khmers had established themselves at Lavo, and in the twelfth they had extended their domination to the borders of the kingdom of Haripunjaya»",
   "gun": "11.-12. yy; 1100 künye değeri",
   "kesinlik": "yuzyil",
   "ic_not": "Dvaravati'nin 1100'de bittiği kaynakta açıkça yazılmaz; mevcut künye t değeri (devletler.js) ile uyum için yazıldı, BEYAN: kaynaklı son gün yok."
@@ -6930,7 +6930,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "majapahit"
   ],
   "d": "Batang Hari yukarısındaki yazıt, 1286'da Cava'dan (Kertanagara'nın emriyle) Sumatra'ya getirilen Amoghapasalokesvara heykelinin Dharmasraya'da dikildiğini ve bunun Malayu ülkesinin bütün tebaasının sevinci olduğunu söyler; Cava'nın Sumatra üzerindeki üstünlüğünün kanıtıdır.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm XII-7: «in 1286 an image of the Buddha Amoghapasalokesvara ... was brought from Java (bhumi Java) to the country of gold (Suvarnabhumi) by four Javanese officials and erected at Dharmasraya by order of the Maharajadhiraja Sri Kritanagara Vikramadharmottungadeva»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm XII-7: «in 1286 an image of the Buddha Amoghapasalokesvara ... was brought from Java (bhumi Java) to the country of gold (Suvarnabhumi) by four Javanese officials and erected at Dharmasraya by order of the Maharajadhiraja Sri Kritanagara Vikramadharmottungadeva»",
   "gun": "1286 (yıl); gün yok",
   "kesinlik": "yil",
   "ic_not": "Pencere sonrası (1286); Malayu'nun 1281 civarındaki durumunu (Çin'in 1281'de Malayu'ya Müslüman elçi göndermesi) çerçeveler."
@@ -6951,7 +6951,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "majapahit"
   ],
   "d": "1347'de Adityavarman Malayupura'da, 1286'da Cava'dan getirilen Amoghapasa heykelinin arkasına Sanskrit bir metin kazıttı; Minangkabau bölgesindeki bu krallık hâlâ Malayu adını taşıyordu.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm XIII: «In 1347 he was at Malayupura, where he had a Sanskrit text engraved on the back of an image of Amoghapasa. This image, ... brought from Java in 1286.»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm XIII: «In 1347 he was at Malayupura, where he had a Sanskrit text engraved on the back of an image of Amoghapasa. This image, ... brought from Java in 1286.»",
   "gun": "1347 (yıl); gün yok",
   "kesinlik": "yil",
   "ic_not": "Pencere sonrası (1347); künye t=1347 bu son tanığa dayanır."
@@ -6973,7 +6973,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "majapahit"
   ],
   "d": "1365 tarihli Nagarakritagama, Majapahit'in Malay Yarımadası'ndaki bağlıları arasında Pahang, Hujung Tanah, Lengkasuka, Sai ... adlarını sayar; Marco Polo (≈1292) Langkasuka'yı 'Lochac' olarak 'kimseye haraç vermeyen' ülke diye anmıştı.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm XIII-4: «the Nagarakritagama, in 1365, enumerates the following as possessions of Majapahit: On the Malay Peninsula: Pahang, Hujung Tanah (Johore), Lengkasuka» · Bölüm XII-7: «Marco Polo speaks of the kingdom of Lochac, that is, Langkasuka on the Malay Peninsula.»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm XIII-4: «the Nagarakritagama, in 1365, enumerates the following as possessions of Majapahit: On the Malay Peninsula: Pahang, Hujung Tanah (Johore), Lengkasuka» · Bölüm XII-7: «Marco Polo speaks of the kingdom of Lochac, that is, Langkasuka on the Malay Peninsula.»",
   "gun": "1365 (yıl); gün yok",
   "kesinlik": "yil",
   "ic_not": "Pencere sonrası (1365): künyenin son tanığı olduğu için yazıldı; 'bağlı' sayılması Cava vassallığının efektifliğini kanıtlamaz."
@@ -6994,7 +6994,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Hariharalaya (Roluos)",
   "d": "Coedès: Indravarman 877'de iktidara geldi; Indratataka'yı kazdırdı. Yetkisi Phnom Bayang'daki Siva tapınağının bulunduğu Chaudoc bölgesinden Ubon kuzeybatısına kadar uzanıyordu.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm VIII-1: «Indravarman, who came to power in 877» · «His authority extended from the region of Chaudoc, where he dedicated a vimana to Siva in the old sanctuary of Phnom Bayang» · «to the region northwest of Ubon»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm VIII-1: «Indravarman, who came to power in 877» · «His authority extended from the region of Chaudoc, where he dedicated a vimana to Siva in the old sanctuary of Phnom Bayang» · «to the region northwest of Ubon»",
   "gun": "877 (yıl)",
   "kesinlik": "yil",
   "ic_not": "Karışık dönem; sınır tanımı 886 Ubon yazıtına dayanır."
@@ -7015,7 +7015,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Koh Ker (Chok Gargyar)",
   "d": "Yazıta göre 921'de II. Harshavarman'ın bir dayısı Devaraja'yı alıp Chok Gargyar'da (Koh Ker) hüküm sürmeye gitti; Coedès gaspçıyı IV. Jayavarman sayar. Koh Ker yaklaşık yirmi yıl sonra eski başkent lehine terk edildi.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm VIII-1: «to reign at Ch'ok Gargyar, taking the Devaraja with him» · «the new capital was abandoned in its turn in favor of the old»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm VIII-1: «to reign at Ch'ok Gargyar, taking the Devaraja with him» · «the new capital was abandoned in its turn in favor of the old»",
   "gun": "921 (yıl)",
   "kesinlik": "yil",
   "ic_not": "Sonraki metin IV. Jayavarman'ın cülusunu 928 verir (Coedès)."
@@ -7036,7 +7036,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Angkor (Yasodharapura)",
   "d": "Coedès: Rajendravarman'ın saltanatı 968'de bitti; oğlu V. Jayavarman 968'de çok genç yaşta iktidara geldi, öğrenimini 974'te tamamladı.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm VIII-1: «Rajendravarman's reign ended in 968» · «Jayavarman V, son of Rajendravarman, was in fact very young when he came to power in 968»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm VIII-1: «Rajendravarman's reign ended in 968» · «Jayavarman V, son of Rajendravarman, was in fact very young when he came to power in 968»",
   "gun": "968 (yıl)",
   "kesinlik": "yil"
  },
@@ -7056,7 +7056,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Angkor (Yasodharapura)",
   "d": "Coedès: V. Jayavarman 1001'de öldü; 1001-1011 yazıtları üç kralı (I. Udayadityavarman, Jayaviravarman, Suryavarman) aynı anda gösterir; savaş dokuz yıl sürdü ve Suryavarman'ın Angkor'a yerleşmesi 1010 dolayındadır.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm VIII-1 / IX-1: «Jayavarman V died in 1001» · «The Khmer epigraphy of the first ten years of the eleventh century shows three kings reigning simultaneously.» · «The war lasted nine years» · «the installation of Suryavarman at Angkor must date around 1010»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm VIII-1 / IX-1: «Jayavarman V died in 1001» · «The Khmer epigraphy of the first ten years of the eleventh century shows three kings reigning simultaneously.» · «The war lasted nine years» · «the installation of Suryavarman at Angkor must date around 1010»",
   "gun": "1001 (yıl)",
   "kesinlik": "yil",
   "ic_not": "Suryavarman kendi cülusunu sonradan 1002 gösterdi (Coedès IX-1); 1010 mevcut madde (atlas) ile örtüşür."
@@ -7077,7 +7077,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Angkor",
   "d": "Coedès: I. Suryavarman 1050'nin başında öldü; yerine II. Udayadityavarman geçti ve Baphuon'u yaptırdı.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm IX-1: «Suryavarman I died and received the posthumous name of Nirvapapada» · «He was succeeded by Udayadityavarman II»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm IX-1: «Suryavarman I died and received the posthumous name of Nirvapapada» · «He was succeeded by Udayadityavarman II»",
   "gun": "1050 (yıl başı)",
   "kesinlik": "yil"
  },
@@ -7097,7 +7097,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Kamboçya (güney, kuzeybatı, doğu)",
   "d": "II. Udayadityavarman'ın 16 yıllık saltanatı bir dizi isyanla geçti: 1051'de güneyde Aravindahrada, 1065'te kuzeybatıda Kamvau ve doğuda Slvat; general Sangrama hepsini bastırdı.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm IX-1: «The first revolt took place in 1051. It occurred in the south of the country» · «The year 1065, the last of the reign, saw two other revolts.»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm IX-1: «The first revolt took place in 1051. It occurred in the south of the country» · «The year 1065, the last of the reign, saw two other revolts.»",
   "gun": "1051 ve 1065 (yıl)",
   "kesinlik": "yil"
  },
@@ -7117,7 +7117,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Angkor",
   "d": "II. Udayadityavarman'ın ardından küçük kardeşi III. Harshavarman 1066'da tahta geçti.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm IX-1: «by his younger brother, Harshavarman III»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm IX-1: «by his younger brother, Harshavarman III»",
   "gun": "1066 (yıl)",
   "kesinlik": "yil"
  },
@@ -7138,7 +7138,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Sambor (Mekong)",
   "d": "Coedès: III. Harshavarman döneminde (1074-1080 arası) Cham kralı IV. Harivarman Khmer ordusunu Someshvara'da yendi; Champa kralının küçük kardeşi Prens Pang Mekong üzerindeki Sambhupura'yı (Sambor) alıp tüm tapınaklarını yıktı ve Khmer esirleri Mi-son tapınaklarına verdi.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm X-1: «the city of Sambhupura [Sambor on the Mekong» · «destroyed all its sanctuaries»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm X-1: «the city of Sambhupura [Sambor on the Mekong» · «destroyed all its sanctuaries»",
   "gun": "1074-1080 arası",
   "kesinlik": "yil",
   "ic_not": "Yıl aralığı: Coedès \"between 1074 and 1080\" (Harivarman IV 1074'te kral oldu); 1074-01-01 aralığın başı. Kalıcı işgal değil, akın."
@@ -7159,7 +7159,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Kamboçya (kuzey)",
   "d": "III. Harshavarman'ın ardından 1080'de VI. Jayavarman geçti; eski hanedanla bağı olmayan bu kral muhtemelen kuzeyde yarı bağımsız bir vali iken merkezî otoritenin zayıflamasından yararlandı; Angkor'da hüküm sürüp sürmediği kesin değil.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm X-1: «succeeded in 1080 by Jayavarman VI» · «It is not certain that Jayavarman VI ever reigned at Angkor»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm X-1: «succeeded in 1080 by Jayavarman VI» · «It is not certain that Jayavarman VI ever reigned at Angkor»",
   "gun": "1080 (yıl)",
   "kesinlik": "yil"
  },
@@ -7179,7 +7179,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Kamboçya",
   "d": "VI. Jayavarman'ın büyük kardeşi I. Dharanindravarman 1107'de yerine geçti; 1113'te II. Suryavarman onu tahttan etti.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm X-1: «who succeeded Jayavarman VI in 1107»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm X-1: «who succeeded Jayavarman VI in 1107»",
   "gun": "1107 (yıl)",
   "kesinlik": "yil"
  },
@@ -7200,7 +7200,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Nghe An (Dai Viet)",
   "d": "Maspero'dan aktaran Coedès: 1128'de Suryavarman 20.000 kişiyle Dai Viet'e yürüdü, Nghe-an'dan Ly Cong Binh tarafından kovuldu; sonbaharda 700'den çok gemilik filo Thanh-hoa kıyılarını yağmaladı; 1138 seferi de başarısız kaldı.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm X-5: «In 1128, Suryavarman led 20,000 men against Dai Viet.» · «He did not take part in the new campaign that Suryavarman led against Dai Viet (1138).»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm X-5: «In 1128, Suryavarman led 20,000 men against Dai Viet.» · «He did not take part in the new campaign that Suryavarman led against Dai Viet (1138).»",
   "gun": "1128 (yıl)",
   "kesinlik": "yil"
  },
@@ -7221,7 +7221,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Nghe An (Dai Viet)",
   "d": "Coedès (Maspero'dan): 1150'de yeni sefer sonbaharda mevsimi gözetmeden yola çıktı, Annam dağlarını geçerken ateşli hastalık kırdı; ordu savaşmadan geri çekildi.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm X-5: «in 1150 sent a new expedition»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm X-5: «in 1150 sent a new expedition»",
   "gun": "1150 (yıl)",
   "kesinlik": "yil"
  },
@@ -7241,7 +7241,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Angkor",
   "d": "Coedès: 1165 dolayında II. Yasovarman bir mandarin tarafından devrildi; gaspçı 1177'de Cham baskınında öldürüldü.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm X-5: «was overthrown by a mandarin who proclaimed himself king under the name of Tribhuvanaditya»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm X-5: «was overthrown by a mandarin who proclaimed himself king under the name of Tribhuvanaditya»",
   "gun": "1165 dolayı",
   "kesinlik": "yil"
  },
@@ -7261,7 +7261,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Malyang (Battambang güneyi)",
   "d": "Mi-son yazıtı: Prens Vidyanandana 1182'de Kamboçya'ya gitti; Khmerlerin egemen olduğu Malyang şehri kral VII. Jayavarman'a karşı ayaklandı, prens Khmer birliklerini yönetip şehri aldı.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm XI-1: «a city in this kingdom named Malyang, which was inhabited by a throng of wicked men over whom the Cambodians had established their mastery, revolted against the king of Cambodia»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm XI-1: «a city in this kingdom named Malyang, which was inhabited by a throng of wicked men over whom the Cambodians had established their mastery, revolted against the king of Cambodia»",
   "gun": "1182 sonrası",
   "kesinlik": "yil",
   "ic_not": "Yazıt isyanın tam yılını vermez; 1182 prensin gelişi."
@@ -7283,7 +7283,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Dai Viet",
   "d": "Coedès: Yuvaraja Angsaraja Khmer birliklerini, Burma ve Siyam birlikleriyle, 1207'de Dai Viet'e karşı sevk etti.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm XI-1: «This prince led the Cambodian troops, with Burmese and Siamese contingents, against Dai Viet in 1207.»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm XI-1: «This prince led the Cambodian troops, with Burmese and Siamese contingents, against Dai Viet in 1207.»",
   "gun": "1207 (yıl)",
   "kesinlik": "yil"
  },
@@ -7304,7 +7304,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Nghe An (Dai Viet)",
   "d": "Çin ve Vietnam kaynaklarına göre 1216 ve 1218'de Khmer orduları son kez Nghe-an'a indi; Champa üzerinden ve Cham birlikleriyle geldiler, yenilip çekildiler.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm XI-4: «in 1216 and in 1218 \"for the last time, Cambodian armies descended on Nghe-an»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm XI-4: «in 1216 and in 1218 \"for the last time, Cambodian armies descended on Nghe-an»",
   "gun": "1216 ve 1218 (yıl)",
   "kesinlik": "yil"
  },
@@ -7324,7 +7324,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Menam havzası",
   "d": "Chao Ju-kua (1225) Kamboçya'nın bağımlıları arasında Lo-hu (Lavo), San-lo, Chen-li-fu, Ma-lo-wen (Malyang?), P'u-kan (Pagan) ve Wa-li'yi sayar; Coedès bunun Thai genişlemesi arifesinde Kamboçya'nın hâlâ Menam havzası ve Malay yarımadasının bir kısmında efendi olduğunu gösterdiğini yazar.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm XI-4: «This list shows that, on the eve of the Thai expansion, Cambodia was still master of the Menam Basin and of a part of the Malay Peninsula.»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm XI-4: «This list shows that, on the eve of the Thai expansion, Cambodia was still master of the Menam Basin and of a part of the Malay Peninsula.»",
   "gun": "1225 (yıl)",
   "kesinlik": "yil",
   "ic_not": "Liste kısmen 1178 Ling-wai Tai-ta'dan alınmadır (Coedès XI-4); Pagan iddiası nominal."
@@ -7346,7 +7346,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Sukhothai",
   "d": "Hall: 1238'de iki T'ai şefi, Angkor imparatorluğunun kuzeybatı kesiminin o zamanki başkenti Sukhot'ai'daki Khmer komutanını saldırıp yendi ve orada bir T'ai krallığının merkezini kurdu.",
-  "kaynak": "Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981); archive.org/details/a-history-of-south-east-asia-4th-ed (djvu tam metni bu oturumda okundu), Bölüm 7 (Angkor sonrası): «In 1238 two T'ai chiefs attacked and defeated the Khmer commander at Sukhot'ai»",
+  "kaynak": "Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981); archive.org/details/a-history-of-south-east-asia-4th-ed (djvu tam metni okundu), Bölüm 7 (Angkor sonrası): «In 1238 two T'ai chiefs attacked and defeated the Khmer commander at Sukhot'ai»",
   "gun": "1238 (yıl)",
   "kesinlik": "yil",
   "ic_not": "ÇELİŞKİ: Coedès 'around 1220' (Indraditya'nın taç giyişi, Bölüm XII-5) verir; Hall 1238. Mevcut sukhothai künyesi f=1238 (Hall ile uyumlu). İki tarih de beyan."
@@ -7367,7 +7367,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Angkor",
   "d": "Coedès: II. Indravarman hakkında bilinen tek tarih ölümüdür, 1243.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm XI-4: «We know only one date for King Indravarman II, that of his death, 1243.»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm XI-4: «We know only one date for King Indravarman II, that of his death, 1243.»",
   "gun": "1243 (yıl)",
   "kesinlik": "yil"
  },
@@ -7388,7 +7388,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Quang Binh (Champa kuzey sınırı)",
   "d": "Coedès: 1021'de II. Parameshvaravarman Ly Thai-to'nun en büyük oğlu Phat-Ma'nın (sonra Ly Thai-tong) saldırısına uğradı; Chamlar yenildi, 1026'da yeni istila.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm IX-2: «saw the northern frontier of his states, in modern Quang-binh, attacked by the eldest son of Ly Thai-to»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm IX-2: «saw the northern frontier of his states, in modern Quang-binh, attacked by the eldest son of Ly Thai-to»",
   "gun": "1021 (yıl)",
   "kesinlik": "yil"
  },
@@ -7408,7 +7408,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Phan Rang (Panduranga)",
   "d": "Coedès: 1050'de 'sapık, tehditkâr, krala karşı hep isyanda' denen Panduranga halkı yeni krala boyun eğmedi; Yuvaraja Sri Devaraja Mahasenapati yeğeni bastırıp Po Klaung Garai tepesine linga dikti. Aynı yıl kral Po Nagar (Nha Trang) tapınağını onarıp Khmer, Çinli, Burma ve Siyamlı köleler verdi.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm IX-2: «the people of Panduranga, \"vicious, threatening, always in revolt against their sovereign,\" refused to recognize him» · «the king proceeded the same year with the restoration of the sanctuary of Po Nagar at Nha-trang»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm IX-2: «the people of Panduranga, \"vicious, threatening, always in revolt against their sovereign,\" refused to recognize him» · «the king proceeded the same year with the restoration of the sanctuary of Po Nagar at Nha-trang»",
   "gun": "1050 (yıl)",
   "kesinlik": "yil"
  },
@@ -7428,7 +7428,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Champa",
   "d": "Coedès: 1074'te Prens Thang (hindistan cevizi hanedanı soyundan) IV. Harivarman adıyla kral ilan edildi; Dai Viet saldırısını püskürttü, Khmer ordusunu yenip Mekong'a kadar savaşı taşıdı.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm X-2: «was proclaimed king in 1074 under the name of Harivarman»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm X-2: «was proclaimed king in 1074 under the name of Harivarman»",
   "gun": "1074 (yıl)",
   "kesinlik": "yil"
  },
@@ -7450,7 +7450,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Nghe An (Dai Viet)",
   "d": "1076'da Çin Tongking seferine karar verip komşuları Champa ve Kamboçya'yı katılmaya ikna etti: Kuo K'uei ordusu Lang-son yolundan Hanoi'ye inerken Chamlar ve Kamboçyalılar Nghe-an'a girdi; Çin'in yenilgisi müttefiklerin çekilmesine yol açtı.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm X-1: «the Chams and Cambodians invaded Nghe-an»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm X-1: «the Chams and Cambodians invaded Nghe-an»",
   "gun": "1076 (yıl)",
   "kesinlik": "yil"
  },
@@ -7470,7 +7470,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Champa",
   "d": "Coedès: 1080'de dokuz yaşında taç giyen II. Jaya Indravarman'ın yerine amcası Prens Pang Paramabodhisattva adıyla vekil oldu ve fiilen gasp etti; yeğenin yanlıları 1086'da bir darbeyle tahtı geri verdi.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm X-2: «the faction of the nephew again got the upper hand and placed him back on the throne by means of a coup de force in 1086»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm X-2: «the faction of the nephew again got the upper hand and placed him back on the throne by means of a coup de force in 1086»",
   "gun": "1086 (yıl)",
   "kesinlik": "yil"
  },
@@ -7491,7 +7491,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Quang Binh - Quang Tri",
   "d": "Coedès: 1103'te bir Vietnamlı mültecinin yüreklendirmesiyle II. Jaya Indravarman Dai Viet'e haraç elçiliklerini kesip 1069'da kaybedilen üç kuzey eyalete saldırdı; sefer önce başarılıydı ama eyaletleri yalnız birkaç ay elinde tutabildi.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm X-2: «he was able to hold the provinces only a few months»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm X-2: «he was able to hold the provinces only a few months»",
   "gun": "1103 (yıl)",
   "kesinlik": "yil"
  },
@@ -7511,7 +7511,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Champa",
   "d": "Coedès: V. Harivarman 1133'te Yuvaraja olarak benimsediği, kökeni belirsiz Prens'in 1139'da III. Jaya Indravarman adıyla yerine geçtiğini yazar; 1145'te Khmer istilasında yok oldu.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm X-6: «succeeded him in 1139 under the name of Jaya Indravarman»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm X-6: «succeeded him in 1139 under the name of Jaya Indravarman»",
   "gun": "1139 (yıl)",
   "kesinlik": "yil"
  },
@@ -7531,7 +7531,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Phan Rang (Panduranga)",
   "d": "Coedès: başkent ve ülkenin büyük kısmı Khmerlerin elindeyken Panduranga halkı IV. Rudravarman'a sığınak verdi; oğlu Prens Sivanandana'yı 1147'de I. Jaya Harivarman adıyla kral ilan etti.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm X-6: «the inhabitants proclaimed him king in 1147 under the name of Jaya Harivarman»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm X-6: «the inhabitants proclaimed him king in 1147 under the name of Jaya Harivarman»",
   "gun": "1147 (yıl)",
   "kesinlik": "yil"
  },
@@ -7552,7 +7552,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Rajapura (Panduranga)",
   "d": "Coedès: Suryavarman II'nin senapati Sankara komutasındaki Khmer-Cham ordusu 1148'de Rajapura ovasında yenildi; Virapura'da 'bin kat güçlü' ordu da aynı sonu buldu.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm X-5: «was defeated in 1148 on the plain of Rajapura»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm X-5: «was defeated in 1148 on the plain of Rajapura»",
   "gun": "1148 (yıl)",
   "kesinlik": "yil"
  },
@@ -7572,7 +7572,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Amaravati (Quang Nam)",
   "d": "Coedès: I. Jaya Harivarman 1149'da Vijaya'yı Khmerlerden geri aldı, ardından dağ kabilelerini (Kirata) ve Dai Viet destekli Vamsaraja'yı bozdu; Amaravati'yi (Quang Nam) 1151'de, Panduranga'yı beş yıllık savaştan sonra 1160'ta boyunduruk altına aldı.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm X-6: «subdued Amaravati (Quang-nam) in 1151» · «after five years of battle»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm X-6: «subdued Amaravati (Quang-nam) in 1151» · «after five years of battle»",
   "gun": "1151 ve 1160 (yıl)",
   "kesinlik": "yil",
   "ic_not": "Panduranga adı Coedès metninde OCR bozuk; \"1160 after five years of battle\" cümlesi yalnız bölümün bu bağlamındadır."
@@ -7593,7 +7593,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Champa",
   "d": "Coedès: I. Jaya Harivarman'ın 1166-67'deki ölümünden sonra Gramapuralı Jaya Indravarman oğlu II. Jaya Harivarman'ın yerine geçti ve 1167'de Çin'den onay istedi; saltanatının başı Kamboçya'ya hazırlığıyla geçti ve 1177 baskınını yaptı.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm X-6: «Jaya Indravarman of Gramapura succeeded in supplanting him»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm X-6: «Jaya Indravarman of Gramapura succeeded in supplanting him»",
   "gun": "1167 (yıl)",
   "kesinlik": "yil"
  },
@@ -7614,7 +7614,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Panduranga - Vijaya",
   "d": "Coedès: VII. Jayavarman'ın Vijaya'daki kayınbiraderi Suryajayavarmadeva'yı Vijaya'da, Vidyanandana'yı Panduranga'da kral yaptığı Champa'da Vijaya isyanı iki Jaya Indravarman'ı devirdi; Vidyanandana-Suryavarmadeva 1192'de muhalefetsiz birleşik ülkeyi yönetiyordu, 1193-94'te Jayavarman VII onu itaate döndüremedi.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm XI-1: «By 1192, Vidyanandana-Suryavarmadeva was reigning \"without opposition\" over the unified country.»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm XI-1: «By 1192, Vidyanandana-Suryavarmadeva was reigning \"without opposition\" over the unified country.»",
   "gun": "1192 (yıl)",
   "kesinlik": "yil"
  },
@@ -7634,7 +7634,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Vijaya (Quy Nhơn)",
   "d": "Coedès: 1220'de Khmerlerin çekilmesinin altı yıl sonra Turai-vijaya prensi Angsaraja II. Jaya Parameshvaravarman adıyla kral oldu; Maspero'ya göre Khmer-Cham yüz yıl savaşı böylece biter.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm XI-5: «by the coronation, under the name of Jaya Paramesvaravarman»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm XI-5: «by the coronation, under the name of Jaya Paramesvaravarman»",
   "gun": "1226 (yıl)",
   "kesinlik": "yil"
  },
@@ -7655,7 +7655,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Champa",
   "d": "Coedès: Cham korsanlığına ve üç kuzey eyaletin geri verilmesi talebine karşı 1252'de Tran Thai-tong'un seferi çok sayıda esir, saray ileri gelenleri ve kadınlar getirdi.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm XI-5: «In 1252, the emperor of Dai Viet himself led a punitive expedition»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm XI-5: «In 1252, the emperor of Dai Viet himself led a punitive expedition»",
   "gun": "1252 (yıl)",
   "kesinlik": "yil"
  },
@@ -7675,7 +7675,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Champa",
   "d": "Coedès: Angsaraja'nın küçük kardeşi, Sakan-vijaya prensi Harideva VI. Jaya Indravarman adıyla kral oldu; kısa saltanatından sonra 1257'de yeğeni Harideva tarafından öldürüldü.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm XI-5: «in 1257 he was assassinated by his nephew Harideva»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm XI-5: «in 1257 he was assassinated by his nephew Harideva»",
   "gun": "1257 (yıl)",
   "kesinlik": "yil",
   "ic_not": "Coedès krala \"Jaya Indravarman (VI)\" der; XII-3'te yeğen Harideva Jaya Simhavarman adıyla geçer."
@@ -7696,7 +7696,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Champa",
   "d": "Coedès: tahtı gasp eden Harideva Jaya Simhavarman adını aldı, 1266'daki taç giyme töreninde Indravarman (V) yaptı; 1266-1270 arası Dai Viet'e dört elçilik gönderdi.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm XII-3: «then changed it in 1266 at the time of his coronation to Indravarman»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm XII-3: «then changed it in 1266 at the time of his coronation to Indravarman»",
   "gun": "1266 (yıl)",
   "kesinlik": "yil"
  },
@@ -7717,7 +7717,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Champa",
   "d": "Coedès: 1278 ve 1280'de Pekin'e çağrılan Indravarman V elçiliklerle bundan kaçındı; 1281'de Sogatu ve Liu Shen Champa'da Moğol idaresi kurmakla görevlendirildi, halk Prens Harijit'in önderliğinde direndi; 1283-85 sefer (bu pencerenin dışı).",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm XII-3: «But in 1281 Sogatu and Liu Shen were ordered to establish a Mongol administration in Champa.»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm XII-3: «But in 1281 Sogatu and Liu Shen were ordered to establish a Mongol administration in Champa.»",
   "gun": "1281 (yıl)",
   "kesinlik": "yil"
  },
@@ -7738,7 +7738,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Tongking (Sơn Tây yakını)",
   "d": "Coedès: 767'de Tongking'e Vietnam yıllıklarının She-p'o (Cava) ve K'un-lun'dan geldiğini söylediği çeteler girdi; vali Chang Po-i onları Sơn Tây yakınında bozup denize sürdü. Coedès bunu Sailendra'ların Hint-Çin yarımadasına akınları olarak anar.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm VI-4: «In 767, Tongking was invaded by bands that the Vietnamese annals say came from She-p'o (Java)»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm VI-4: «In 767, Tongking was invaded by bands that the Vietnamese annals say came from She-p'o (Java)»",
   "gun": "767 (yıl)",
   "kesinlik": "yil",
   "ic_not": "Akıncıların Sailendra devletine bağı Coedès'te çıkarımdır (\"marked ... by incursions of the Sailendras\")."
@@ -7760,7 +7760,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Nha Trang (Kauthara)",
   "d": "Po Nagar yazıtı: 774'te 'başka ülkelerde doğmuş adamlar' gemilerle gelip linga'yı çaldı ve tapınağı yaktı, Cham kralı Satyavarman denizde yendi; 787'de 'Cava orduları gemilerle gelip' Virapura yakınındaki başka bir tapınağı yaktı.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm VI-4: «In 774 \"men born in other countries,\"» · «In 787, \"the armies of Java, having come in vessels,\" burned another temple.»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm VI-4: «In 774 \"men born in other countries,\"» · «In 787, \"the armies of Java, having come in vessels,\" burned another temple.»",
   "gun": "774 ve 787 (yıl)",
   "kesinlik": "yil"
  },
@@ -7780,7 +7780,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Kelurak (Prambanan ovası)",
   "d": "Coedès: 782'de 'düşman kahramanların katili' denen, Sangramadhananjaya adıyla taç giymiş Sailendra kralı döneminde Gauda (batı Bengal) öğretmeni Kumaraghosha Kelurak'ta Manjushri imajını adadı.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm VI-4: «In 782, during the reign of a Sailendra king known as \"the killer of enemy heroes\"»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm VI-4: «In 782, during the reign of a Sailendra king known as \"the killer of enemy heroes\"»",
   "gun": "782 (yıl)",
   "kesinlik": "yil"
  },
@@ -7800,7 +7800,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Orta Cava",
   "d": "Coedès: 824'te Cava hükümdarı Samaratunga'ydı; Nalanda Fermanı'ndaki Samaragravira ile özdeşleştirilir. Kızı Pramodavardhani Pikatan ile evliydi; küçük oğlu Balaputra Pikatan'la savaşıp (856) Srivijaya'ya çekildi.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm VII-5: «In 824 the ruler was Samaratunga.»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm VII-5: «In 824 the ruler was Samaratunga.»",
   "gun": "824 (yıl)",
   "kesinlik": "yil"
  },
@@ -7821,7 +7821,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Prambanan",
   "d": "Coedès: Orta Cava'da Sailendra'ların gücünün gerilemesi Prambanan yakınındaki 863 tarihli Şaiva yazıtla ve yüzyıl başındaki Prambanan Hindu anıtlarıyla gösterilir; Borobudur, Plaosan ve Sajivan'ın Budist anıtları Budizm'in sürdüğünü kanıtlar.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm VIII-3: «the presence near Prambanan of a Sivaite inscription of 863»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm VIII-3: «the presence near Prambanan of a Sivaite inscription of 863»",
   "gun": "863 (yıl)",
   "kesinlik": "yil"
  },
@@ -7841,7 +7841,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Prambanan",
   "d": "Coedès: Balitung (899-910, adı Mataram ilk kez onun yazıtlarında geçer) yaklaşık 913'te Daksha tarafından izlendi; Daksha Orta ve Doğu Cava'yı birleştirip Yogyakarta bölgesinde oturdu, Sanjaya takvimini kurdu.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm VIII-3: «that the name Mataram appears for the first time» · «by King Daksha, who had appeared in the charters of his predecessor»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm VIII-3: «that the name Mataram appears for the first time» · «by King Daksha, who had appeared in the charters of his predecessor»",
   "gun": "913 dolayı",
   "kesinlik": "yil"
  },
@@ -7862,7 +7862,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Bali",
   "d": "Coedès: 989-1011 Bali yazıtları kral Udayana (Dharmodayanavarmadeva) ve kraliçe Mahendradatta adınadır; Mahendradatta Sindok soyundan Cava prensesidir; bu evlilik Bali'de Hinduizm ve Cava kültürünün güçlenmesine ve 1001'de Airlangga'nın doğumuna yol açtı.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm VIII-3: «from 989 to 1011 the inscriptions are in the name of the king Udayana»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm VIII-3: «from 989 to 1011 the inscriptions are in the name of the king Udayana»",
   "gun": "989 (yıl)",
   "kesinlik": "yil"
  },
@@ -7882,7 +7882,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Bali",
   "d": "Coedès: 1178-1181 arası Bali yazıtları Jayapangus adınadır; 1204 yazıtları Adikuntiketana ve oğlu Parameshvara adınadır; Tampak Siring bu döneme aittir.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm XI-3: «the inscriptions between 1178 and 1181 are in the name of Jayapangus»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm XI-3: «the inscriptions between 1178 and 1181 are in the name of Jayapangus»",
   "gun": "1178 (yıl)",
   "kesinlik": "yil"
  },
@@ -7903,7 +7903,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Pegu (Bago)",
   "d": "Coedès: Solu'nun ardından 1084'te Kyanzittha seçildi; önce Pegu Monlarından krallığını geri fethetmek zorundaydı: Ngayaman Kan Ava'nın sonradan kurulacağı yere yerleşti, Kyanzittha Kyaukse ovasında güç topladı ve Peguluları yendi; 1086'da taç giydi.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm X-3: «He first had to reconquer his kingdom from the Mons of Pegu.»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm X-3: «He first had to reconquer his kingdom from the Mons of Pegu.»",
   "gun": "1084-1086",
   "kesinlik": "yil",
   "ic_not": "Pagan-Pegu ilişkisinin kronik anlatımı kısmen efsanevidir (Coedès)."
@@ -7925,7 +7925,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Martaban",
   "d": "Coedès: Sukhothai'de hizmet etmiş Mon-Thai tüccar Makatho (Wareru) 1281'de, Pagan'ın düşüşünden önce Martaban'da Burmalı vali Aleimma'yı öldürtüp yerine geçti ve Rama Khamhaeng'den unvan aldı.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm XII-5: «These events took place in 1281, before the fall of Pagan.»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm XII-5: «These events took place in 1281, before the fall of Pagan.»",
   "gun": "1281 (yıl)",
   "kesinlik": "yil",
   "ic_not": "Efsanevi anlatımın tarihi; yalnız yıl."
@@ -7947,7 +7947,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Nakhon Si Thammarat",
   "d": "Coedès: 1230'da 'lotus ailesi'nden Tambralinga (Ligor) kralı Dharmaraja Chandrabhanu, kısa süre önce ilhak edilmiş olması gereken Grahi'nin eski yeri Chaiya'da yazıt diktirdi; yazıt bağımsız bir hükümdardan gelir görünür.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm XI-7: «King of Tambralinga (Ligor), belonging to the \"family of the lotus\"» · «This inscription shows every sign of emanating from an independent sovereign.»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm XI-7: «King of Tambralinga (Ligor), belonging to the \"family of the lotus\"» · «This inscription shows every sign of emanating from an independent sovereign.»",
   "gun": "1230 (yıl)",
   "kesinlik": "yil"
  },
@@ -7967,7 +7967,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Seylan",
   "d": "Coedès: 1247'de Chandrabhanu, belki Buda emaneti için barışçıl niyetle, Seylan'a bir heyet gönderdi; bu silahlı çatışmayla bitti ve adada Javaka kolonisi kurulmasına yol açtı; yaklaşık 1270'te diş emaneti ve Buda'nın çanağını talep eden ikinci sefer ağır yenilgiyle sonuçlandı.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm XI-7: «in 1247 Chandrabhanu, perhaps with the peaceful intention of obtaining a relic or an image of the Buddha, sent a mission to Ceylon that ended in an armed conflict» · «Around 1270 Chandrabhanu sent a second expedition, this time to demand the tooth relic and the bowl of the Buddha; he suffered a new and serious defeat.»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm XI-7: «in 1247 Chandrabhanu, perhaps with the peaceful intention of obtaining a relic or an image of the Buddha, sent a mission to Ceylon that ended in an armed conflict» · «Around 1270 Chandrabhanu sent a second expedition, this time to demand the tooth relic and the bowl of the Buddha; he suffered a new and serious defeat.»",
   "gun": "1247 ve ~1270 (yıl)",
   "kesinlik": "yil"
  },
@@ -7987,7 +7987,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Perlak (Peureulak)",
   "d": "Coedès: Marco Polo 1292 dolayında Perlak krallığında halkın hepsinin putperest olduğunu, ancak gemileriyle uğrayan Sarazen tüccarlar yüzünden Muhammed'in Şeriatı'na geçtiklerini kaydeder; Polo'ya göre bu yalnızca şehir halkıdır.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm XII-7: «in the kingdom of Ferlec the people were all idolaters, but, on account of the Saracen traders who frequent the kingdom with their ships, they have been converted to the Law of Mahomet»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm XII-7: «in the kingdom of Ferlec the people were all idolaters, but, on account of the Saracen traders who frequent the kingdom with their ships, they have been converted to the Law of Mahomet»",
   "gun": "1292 dolayı",
   "kesinlik": "yil",
   "ic_not": "Pencere (1281) dışı; kronik/TDV'deki 840 kuruluş tarihi kaynakta teyit edilmedi (ms1 künyesi)."
@@ -8009,7 +8009,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Pegu (Bago)",
   "d": "Coedès: Ramannadesa'nın (Mon ülkesi) ağırlık merkezi bu dönemde batıya kaydı; bir kronik Pegu'nun (Hamsavati) Thaton'lu ikiz kardeşler Samala ve Vimala tarafından 825'te kurulduğunu söyler. Coedès bu tarihi öteki kroniklerdeki erken/geç tarihlere tercih eder; Pegu ve Pagan kroniklerinin kral listeleri doğrulanamaz.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm VII-3: «a chronicle gives 825 as the date for the foundation of Pegu (Hamsavati) by Samala and Vimala, twin brothers from Thaton» · «The chronicles of Pegu, like those of Pagan, give ... which are impossible to verify»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm VII-3: «a chronicle gives 825 as the date for the foundation of Pegu (Hamsavati) by Samala and Vimala, twin brothers from Thaton» · «The chronicles of Pegu, like those of Pagan, give ... which are impossible to verify»",
   "gun": "825 (yıl; kronik tarihi)",
   "kesinlik": "yil",
   "ic_not": "Kronik tarihi; Coedès 'preferable' der (başka kronikler daha erken/geç tarih verir). Kuruluş yılı kesin değil."
@@ -8031,7 +8031,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Pagan",
   "d": "Coedès: 1056'da Thaton'lu bir Brahman'ın oğlu olan, büyük olasılıkla Kanchi okulunun öğrencisi keşiş Shin Arahan Pagan'a geldi ve kralı öğretisine kazandırdı. Kral Pali kanonunun nüshalarını almak için Thaton'a bakan göndermiş, Kral Makuta reddetmişti. Hall, kuşatmanın nedeninin bu 'kutsal kitap reddi' olamayacağını (Thaton'da Tripitaka nüshası yoktu) tartışır.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm IX-6: «In 1056, the monk Shin Arahan ... son of a Brahman of Thaton and undoubtedly a disciple of the Kanchi school, came to Pagan and won the king over to his doctrine»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm IX-6: «In 1056, the monk Shin Arahan ... son of a Brahman of Thaton and undoubtedly a disciple of the Kanchi school, came to Pagan and won the king over to his doctrine»",
   "gun": "1056 (yıl)",
   "kesinlik": "yil",
   "ic_not": "Hall (6): Shin Arahan'ın asıl etkisinin Kyanzittha döneminde olduğu savı; Coedès geleneksel anlatıyı aktarır. Çelişki beyanı: sefer nedeni."
@@ -8053,7 +8053,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Thaton",
   "d": "Coedès: Anoratha 1057'de üç aylık kuşatmadan sonra Thaton'u aldı; Kral Makuta, bakanları, keşişleri ve çok sayıda zanaatkârla Pagan'a götürüldü. Fethin siyasi sonucu bütün deltanın ve Hint prensliklerinin teslimi, kültürel sonucu Pagan'ın Theravada'ya geçişiydi. Hall: zapt ve Makuta'nın sürülmesi tarihî olgudur; Anawrahta ve oğlu Sawlu Thaton'un çok güneyine de ilerledi (Mergui yazıtları).",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm IX-6: «in 1057, after a three months' siege, he took the city of Thaton» · «The political result of the conquest of Thaton was the submission of the whole delta» | Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981); archive.org/details/a-history-of-south-east-asia-4th-ed (djvu tam metni bu oturumda okundu), Bölüm 6: «the capture of the place and Makuta’s deportation to Pagan are historical facts»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm IX-6: «in 1057, after a three months' siege, he took the city of Thaton» · «The political result of the conquest of Thaton was the submission of the whole delta» | Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981); archive.org/details/a-history-of-south-east-asia-4th-ed (djvu tam metni okundu), Bölüm 6: «the capture of the place and Makuta’s deportation to Pagan are historical facts»",
   "gun": "1057 (yıl; kuşatma 3 ay sürdü, gün yok)",
   "kesinlik": "yil",
   "ic_not": "Coedès 142. dipnot: Pegu kroniklerde anılmaz, Thaton'dan kaçanlar Pegu'ya sığındı → Pegu'nun aynı anda düştüğü kesin değil."
@@ -8074,7 +8074,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Pegu (Bago)",
   "d": "Coedès: Yeni Tang Tarihi Pyu'nun bağlıları arasında Mi-ch'en krallığını anar; krallık 805'te Çin'e elçi gönderdi. Yeri bir güzergâh tarifine göre Martaban Körfezi'nde, belki eski Pegu bölgesindedir. Hall: kral 805'te Çin'in tanımasını sağladı.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm VII-3: «the kingdom of Mi-ch'en, which sent an embassy to China in 805» · «Mi-ch'en must have been situated on the Gulf of Martaban, perhaps in the region of old Pegu» | Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981); archive.org/details/a-history-of-south-east-asia-4th-ed (djvu tam metni bu oturumda okundu), Bölüm 6: «Mi-chen, whose king secured recognition from China in 805»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm VII-3: «the kingdom of Mi-ch'en, which sent an embassy to China in 805» · «Mi-ch'en must have been situated on the Gulf of Martaban, perhaps in the region of old Pegu» | Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981); archive.org/details/a-history-of-south-east-asia-4th-ed (djvu tam metni okundu), Bölüm 6: «Mi-chen, whose king secured recognition from China in 805»",
   "gun": "805 (yıl)",
   "kesinlik": "yil",
   "ic_not": "Yer yalnız bölge düzeyinde (Pegu adayı); 'yer' alanı yaklaşık."
@@ -8096,7 +8096,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Pegu (Bago)",
   "d": "Coedès: Mi-ch'en 835'te Nanzhao saldırısının kurbanı oldu; Hall: 835'te Nanzhao tarafından yıkıldı. Nanzhao'nun Pyu ve komşu Mon devletleri üzerindeki baskısı 760 dolaylarında başlamıştı.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm VII-3: «was a victim of Nanchao aggression in 835» | Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981); archive.org/details/a-history-of-south-east-asia-4th-ed (djvu tam metni bu oturumda okundu), Bölüm 6: «was in 835 destroyed by Nanchao»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm VII-3: «was a victim of Nanchao aggression in 835» | Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981); archive.org/details/a-history-of-south-east-asia-4th-ed (djvu tam metni okundu), Bölüm 6: «was in 835 destroyed by Nanchao»",
   "gun": "835 (yıl)",
   "kesinlik": "yil",
   "ic_not": "Çelişki: Coedès 'saldırı', Hall 'yıkım'. Yeni Tang Tarihi özgün metni açılmadı."
@@ -8118,7 +8118,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Butuan",
   "d": "Scott: İlk Filipin haraç elçiliği 17 Mart 1001'de Butuan'dan geldi. Sung Shih Butuan'ı Champa bölümünde, Champa'nın doğusunda denizde küçük bir ülke olarak anar; Champa ile düzenli, Çin'le ender bağlantısı vardır. Sonraki beş yılda yeniden elçi gönderdi.",
-  "kaynak": "Scott, W. H., \"Filipinos in China before 1500\", Asian Studies 21 (1983), s. 1-19; asj.upd.edu.ph/mediabox/archive/ASJ-21-1983/scott.pdf (PDF tam metni bu oturumda okundu), s. 3: «come from Butuan on 17 March 1001» · «It appeared on tribute missions again during the next five years»",
+  "kaynak": "Scott, W. H., \"Filipinos in China before 1500\", Asian Studies 21 (1983), s. 1-19; asj.upd.edu.ph/mediabox/archive/ASJ-21-1983/scott.pdf (PDF tam metni okundu), s. 3: «come from Butuan on 17 March 1001» · «It appeared on tribute missions again during the next five years»",
   "gun": "17 Mart 1001 (Scott'un Batı karşılığı)",
   "kesinlik": "gun",
   "ic_not": "Gün tek kaynakta (Scott); Song Shih özgün metni açılmadı.",
@@ -8141,7 +8141,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Butuan",
   "d": "Scott: Dört yıl boyunca her yıl Kral Kiling (Ch'i-ling) elçi gönderdi; 3 Ekim 1003'te Bakan Li-ihan ve Yardımcı Bakan Gaminan kırmızı papağan ve kaplumbağa kabuğu gibi yerel ürünler sundu. Sung Hui Yao Kao kaydı aynı elçiliği Ekim 1003'e koyar.",
-  "kaynak": "Scott, W. H., \"Filipinos in China before 1500\", Asian Studies 21 (1983), s. 1-19; asj.upd.edu.ph/mediabox/archive/ASJ-21-1983/scott.pdf (PDF tam metni bu oturumda okundu), s. 4 ve Ek I: «on 3 October 1003, for example» · «In October 1003 its King Ch'i-ling sent Minister»",
+  "kaynak": "Scott, W. H., \"Filipinos in China before 1500\", Asian Studies 21 (1983), s. 1-19; asj.upd.edu.ph/mediabox/archive/ASJ-21-1983/scott.pdf (PDF tam metni okundu), s. 4 ve Ek I: «on 3 October 1003, for example» · «In October 1003 its King Ch'i-ling sent Minister»",
   "gun": "3 Ekim 1003 (Scott'un Batı karşılığı)",
   "kesinlik": "gun",
   "ic_not": "Sung Hui Yao Kao yalnız ay verir; gün Scott'ta.",
@@ -8164,7 +8164,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Butuan",
   "d": "Scott: 1004'te saray, Butuan elçilerinin Çin mallarını, altını ve gümüşü, özellikle tören bayrakları ve alay sancaklarını doğrudan pazar alımıyla çıkarmasını yasaklayan bir ferman çıkardı. Ocak/Şubat 1004'te saray, yeni yıl şenliğinde Butuan elçilerini geceleyin saraya çağırtmıştı.",
-  "kaynak": "Scott, W. H., \"Filipinos in China before 1500\", Asian Studies 21 (1983), s. 1-19; asj.upd.edu.ph/mediabox/archive/ASJ-21-1983/scott.pdf (PDF tam metni bu oturumda okundu), s. 4 ve Ek I: «In February 1004 when the New Year Festival was proclaimed, the Emperor sent messengers in the middle of the night to fetch the Butuan» · «new restrictions be imposed to prohibit their dealing directly in the marketplace»",
+  "kaynak": "Scott, W. H., \"Filipinos in China before 1500\", Asian Studies 21 (1983), s. 1-19; asj.upd.edu.ph/mediabox/archive/ASJ-21-1983/scott.pdf (PDF tam metni okundu), s. 4 ve Ek I: «In February 1004 when the New Year Festival was proclaimed, the Emperor sent messengers in the middle of the night to fetch the Butuan» · «new restrictions be imposed to prohibit their dealing directly in the marketplace»",
   "gun": "1004 (Ekim/Kasım ayında yasak; ay belirsiz)",
   "kesinlik": "yil",
   "ic_not": "Sung Hui Yao Kao: 'Ekim ya da Kasım' (yasak önerisi); gün yok → yıl hassasiyeti.",
@@ -8188,7 +8188,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Butuan",
   "d": "Scott: 1007'de Kiling elçi I-hsü-han ile dilekçe gönderip Champa elçisine verilen iki koşumlu at ve iki büyük ruh sancağının kendisine de verilmesini istedi. Champa dördüncü yüzyıldan beri Çin'e elçi gönderen eski bir haraçgüzar olduğu için istek, 'Butuan Champa'nın altındadır' gerekçesiyle reddedildi; beş küçük renkli bayrak verildi.",
-  "kaynak": "Scott, W. H., \"Filipinos in China before 1500\", Asian Studies 21 (1983), s. 1-19; asj.upd.edu.ph/mediabox/archive/ASJ-21-1983/scott.pdf (PDF tam metni bu oturumda okundu), s. 4 ve Ek I: «In July or August of 1007 King Ch'i-ling sent Minister» · «Butuan is beneath Champa»",
+  "kaynak": "Scott, W. H., \"Filipinos in China before 1500\", Asian Studies 21 (1983), s. 1-19; asj.upd.edu.ph/mediabox/archive/ASJ-21-1983/scott.pdf (PDF tam metni okundu), s. 4 ve Ek I: «In July or August of 1007 King Ch'i-ling sent Minister» · «Butuan is beneath Champa»",
   "gun": "1007 (Temmuz/Ağustos; gün yok)",
   "kesinlik": "yil",
   "ic_not": "Ay Sung Hui Yao Kao'dan (Temmuz/Ağustos); gün yok.",
@@ -8211,7 +8211,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Butuan",
   "d": "Scott: 1011'de Sri Bata Shaja adlı yeni hükümdar Likan-hsieh'i altın levhaya kazınmış bir dilekçe, 'beyaz ejder' kâfuru ve Maluku karanfiliyle gönderdi; elçi Fen-yin toprak tanrısı kurbanı sırasında bir Güney Denizi kölesi sunarak imparatoru şaşırttı. Butuan elçisi 'Cherished Transformed General' unvanını aldı, bayrak, sancak ve zırh talebi kabul edildi. Hükümdar adı Çince 'Hsi-li-pa-ta-hsia-ch'ih'tir.",
-  "kaynak": "Scott, W. H., \"Filipinos in China before 1500\", Asian Studies 21 (1983), s. 1-19; asj.upd.edu.ph/mediabox/archive/ASJ-21-1983/scott.pdf (PDF tam metni bu oturumda okundu), s. 4 ve Ek I: «In March 1011 that country» · «Li-kan-hsieh was granted the title of Cherished Transformed General»",
+  "kaynak": "Scott, W. H., \"Filipinos in China before 1500\", Asian Studies 21 (1983), s. 1-19; asj.upd.edu.ph/mediabox/archive/ASJ-21-1983/scott.pdf (PDF tam metni okundu), s. 4 ve Ek I: «In March 1011 that country» · «Li-kan-hsieh was granted the title of Cherished Transformed General»",
   "gun": "1011 (Mart; unvan Temmuz; gün yok)",
   "kesinlik": "yil",
   "ic_not": "Adı Scott 'Indianized name or title' sayar; hükümdar ya da unvan belirsiz.",
@@ -8233,7 +8233,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Cebu",
   "d": "Hall: takımadayı 1521'de Magellan keşfetti ve San Lazaro adını verdi. Cebu'ya çıkış günü Hall'da yoktur.",
-  "kaynak": "Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981); archive.org/details/a-history-of-south-east-asia-4th-ed (djvu tam metni bu oturumda okundu), Bölüm İspanyollar Filipinler'de: «discovered by Magellan in 1521»",
+  "kaynak": "Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981); archive.org/details/a-history-of-south-east-asia-4th-ed (djvu tam metni okundu), Bölüm İspanyollar Filipinler'de: «discovered by Magellan in 1521»",
   "gun": "1521 (yıl)",
   "kesinlik": "yil",
   "ic_not": "Cebu'ya varış günü bu oturumda okunan kaynaklarda yok."
@@ -8255,7 +8255,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Cebu",
   "d": "Hall: Miguel Lopez de Legaspi 1564 sonunda Meksika'dan yola çıktı ve izleyen Nisan'da Cebu'ya çıkıp ilk İspanyol yerleşimini kurdu; 1572'deki ölümünden önce Cebu, Leyte, Panay, Mindoro ve Luzon ovasında İspanyol denetimini yaydı.",
-  "kaynak": "Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981); archive.org/details/a-history-of-south-east-asia-4th-ed (djvu tam metni bu oturumda okundu), Bölüm İspanyollar Filipinler'de: «late in 1564, Miguel Lopez de Legaspi» · «landed on Cebu and planted the first Spanish settlement there»",
+  "kaynak": "Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981); archive.org/details/a-history-of-south-east-asia-4th-ed (djvu tam metni okundu), Bölüm İspanyollar Filipinler'de: «late in 1564, Miguel Lopez de Legaspi» · «landed on Cebu and planted the first Spanish settlement there»",
   "gun": "1565-04-27 (Cuma)",
   "kesinlik": "gun",
   "ic_not": "UMIT-1115 maritim: gün Legazpi'nin kendi seyir raporundan (Blair & Robertson, The Philippine Islands 1493-1803, cilt 2, Project Gutenberg #13280: «we reached the port of Çibu on Friday, April 27, 1565») ve aynı ciltteki Legazpi seferi anlatısından («did not reach their destination until the twenty-seventh and thirtieth of April»); iki ayrı belge, tam metin okundu. Hall yalnız 'Nisan' der, TDV filipinler yalnız 1565. Cebu kasabasının ele geçirilişi 28 Nisan (aynı cilt, özet)."
@@ -8277,7 +8277,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Mindoro (Ma-i)",
   "d": "Scott: 972'de (K'ai Pao 4. yıl) Kwangchow'da, sonra Hangchow ve Mingchow'da Arap, Aceh, Cava, Borneo, Ma-i ve Srivijaya tüccarları için bir deniz ticareti müfettişliği kuruldu; tüccarlar altın, gümüş, kurşun, kalay, ipek ve porselen götürüyordu. Ma-i Scott'a göre Mindoro'dur.",
-  "kaynak": "Scott, W. H., \"Filipinos in China before 1500\", Asian Studies 21 (1983), s. 1-19; asj.upd.edu.ph/mediabox/archive/ASJ-21-1983/scott.pdf (PDF tam metni bu oturumda okundu), s. 1-2: «In the fourth year of the K'ai Pao period [972], a superintendent of maritime trade was set up in Kwangchow»",
+  "kaynak": "Scott, W. H., \"Filipinos in China before 1500\", Asian Studies 21 (1983), s. 1-19; asj.upd.edu.ph/mediabox/archive/ASJ-21-1983/scott.pdf (PDF tam metni okundu), s. 1-2: «In the fourth year of the K'ai Pao period [972], a superintendent of maritime trade was set up in Kwangchow»",
   "gun": "972 (yıl; K'ai Pao 4)",
   "kesinlik": "yil",
   "ic_not": "Ma-i'nin Mindoro olması Scott'un yorumudur (Sung Shih ch.139; dipnot 4). Yer Mindoro için atlasta yerleşim noktası yok; toprak maddesi değil.",
@@ -8300,7 +8300,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Mindoro (Ma-i)",
   "d": "Scott: 982'de Ma-i tüccarları haraç elçiliği olarak değil, satılık değerli mallarla Kanton kıyısında göründü; muhtemelen doğrudan denizden gelmişlerdi. Borneo (Brunei) ise 30 gün mesafede olarak Ma-i ve Champa'dan ayrı anılır.",
-  "kaynak": "Scott, W. H., \"Filipinos in China before 1500\", Asian Studies 21 (1983), s. 1-19; asj.upd.edu.ph/mediabox/archive/ASJ-21-1983/scott.pdf (PDF tam metni bu oturumda okundu), s. 2: «In 982, however, Ma-i traders appeared on the Canton coast»",
+  "kaynak": "Scott, W. H., \"Filipinos in China before 1500\", Asian Studies 21 (1983), s. 1-19; asj.upd.edu.ph/mediabox/archive/ASJ-21-1983/scott.pdf (PDF tam metni okundu), s. 2: «In 982, however, Ma-i traders appeared on the Canton coast»",
   "gun": "982 (yıl)",
   "kesinlik": "yil",
   "ic_not": "Scott: Ma-i = Mindoro (yorum)."
@@ -8322,7 +8322,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Quanzhou körfezi",
   "d": "Scott: 1171 ve 1172 muson mevsiminde P'i-she-ya akıncıları Ch'üan-chou körfezinin hemen güneyinde Fukien kıyısını vurdu; vali Wang Ta-yu 200 aileyi bölgeye yerleştirip kıyı müfrezesi kurdu, 400'den fazla esir alındı. Chao Ju-kua onları Taiwanlı sanırdı; Scott Visayalı Filipinli olma olasılığını daha yüksek bulur.",
-  "kaynak": "Scott, W. H., \"Filipinos in China before 1500\", Asian Studies 21 (1983), s. 1-19; asj.upd.edu.ph/mediabox/archive/ASJ-21-1983/scott.pdf (PDF tam metni bu oturumda okundu), s. 5: «raiders struck the Fukien coast just south of»",
+  "kaynak": "Scott, W. H., \"Filipinos in China before 1500\", Asian Studies 21 (1983), s. 1-19; asj.upd.edu.ph/mediabox/archive/ASJ-21-1983/scott.pdf (PDF tam metni okundu), s. 5: «raiders struck the Fukien coast just south of»",
   "gun": "1171 (1171-72 muson akınları)",
   "kesinlik": "yil",
   "ic_not": "Akıncıların kimliği Scott'un çıkarımıdır ('more likely Filipino Visayans'); Vali Wang Ta-yu ve Chao Ju-kua Pescadores/Taiwan der. Toprak değişimi yok."
@@ -8344,7 +8344,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Watugaluh (Doğu Cava)",
   "d": "Coedès: Srivijaya'nın 992 Cava istilasının öcünü 1016'da aldığı en olası varsayımdır; asıl saldırgan Wurawari prensiydi. 'Çöküş' (pralaya) olarak anılan olaydan sonra on altı yaşındaki Airlangga Vanagiri dağında keşişler arasına sığındı ve dört yıl kaldı.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm IX-4: «it took its revenge in 1016 for the Javanese invasion of 992» · «as it was called by the Javanese inscription that tells about the events of 1016» · «the young Airlanga, then sixteen years old, took refuge among hermits»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm IX-4: «it took its revenge in 1016 for the Javanese invasion of 992» · «as it was called by the Javanese inscription that tells about the events of 1016» · «the young Airlanga, then sixteen years old, took refuge among hermits»",
   "gun": "1016 (yıl)",
   "kesinlik": "yil",
   "ic_not": "Srivijaya'nın rolü kesin değil (Coedès: yalnız kışkırtmış/desteklemiş olabilir). Medang künyesi t=1016 ile uyumlu."
@@ -8365,7 +8365,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Surabaya",
   "d": "Coedès: 1019'da Airlangga resmen taç giydi; yetkisi o zaman adanın kuzey kıyısında Surabaya ile Pasuruan arasındaki küçük bir toprağı aşmıyordu. Krallığını yeniden fethetmek için on kadar yıl beklemesi gerekti.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm IX-4: «in 1019 he was officially crowned with the title Sri Maharaja Rakai Halu» · «His authority at that time did not extend beyond a small territory situated on the northern coast of the island between Surabaya and Pasuruhan»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm IX-4: «in 1019 he was officially crowned with the title Sri Maharaja Rakai Halu» · «His authority at that time did not extend beyond a small territory situated on the northern coast of the island between Surabaya and Pasuruhan»",
   "gun": "1019 (yıl)",
   "kesinlik": "yil",
   "ic_not": "Gün yok."
@@ -8386,7 +8386,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Doğu Cava",
   "d": "Coedès: Airlangga, birçok rakip arasında bölünmüş krallığını geri almak amacıyla 1028-29'da Cava seferlerine başladı; önce Bhishmaprabhava'ya, 1030'da Wengker (Madiun ovası) prensi Vijaya'ya, 1031'de Adhamapanuda'ya saldırdı ve onun konutunu yaktı.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm IX-4: «Airlanga began his campaigns in Java in 1028-29 with the aim of recovering his kingdom, divided among many competitors» · «In 1031 he defeated Adhamapanuda and set fire to his residence»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm IX-4: «Airlanga began his campaigns in Java in 1028-29 with the aim of recovering his kingdom, divided among many competitors» · «In 1031 he defeated Adhamapanuda and set fire to his residence»",
   "gun": "1028-29 (yıl)",
   "kesinlik": "yil",
   "ic_not": "Coedès 'Airlanga' yazımını kullanır."
@@ -8407,7 +8407,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Wengker (Madiun)",
   "d": "Coedès: Airlangga 1030'da Wengker prensi Vijaya'yı yendi (geçici yenilgi); Vijaya karısını, çocuklarını ve hazinesini bırakıp kaçtı, kendi askerlerince yakalanıp 1035'te öldü.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm IX-4: «he was seized by his own troops and died in 1035»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm IX-4: «he was seized by his own troops and died in 1035»",
   "gun": "1035 (yıl)",
   "kesinlik": "yil",
   "ic_not": "Madde yıl düzeyindedir."
@@ -8430,7 +8430,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Kahuripan",
   "d": "Coedès: Airlangga ölümünden önce krallığını ikiye böldü; doğuda Janggala (Malang bölgesi ve Brantas deltası; başkent Kahuripan), batıda Panjalu/Kadiri (Kediri ve Madiun; başkent Daha). Janggala öncelikli ve kuramsal halef olsa da kısa sürede Panjalu'ya emildi. Hall: Airlangga ölümünden yaklaşık dört yıl önce keşiş olmaya çekildi ve bölme yaptı. Majumdar: 1042 Pamotan yazıtı ve aynı yılın Magha ayındaki ferman, Airlangga'nın bu sıralarda dünyadan çekildiğini düşündürür.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm IX-4: «Before his death, Airlanga divided his kingdom in two» · «In fact, although it had precedence and was the theoretical successor of the kingdom of Airlanga, Janggala was soon absorbed by Panjalu» | Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981); archive.org/details/a-history-of-south-east-asia-4th-ed (djvu tam metni bu oturumda okundu), Bölüm 4: «Some four years before his death in 1049 Airlangga retired to a cloister to become a Rishi» | Majumdar, R. C., Ancient Indian Colonies in the Far East, cilt II: Suvarnadvipa, Part I: Political History (Dacca, 1937); archive.org/details/Suvarnadvipa (djvu tam metni bu oturumda okundu), 'The Kingdom of Kadiri' bölümü, s. 276-277: «Airlangga must have left the world some time between the month of MargaSirSa, 1042 A. D., the date of the Pamotan inscription, and the month of Magha of the same year»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm IX-4: «Before his death, Airlanga divided his kingdom in two» · «In fact, although it had precedence and was the theoretical successor of the kingdom of Airlanga, Janggala was soon absorbed by Panjalu» | Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981); archive.org/details/a-history-of-south-east-asia-4th-ed (djvu tam metni okundu), Bölüm 4: «Some four years before his death in 1049 Airlangga retired to a cloister to become a Rishi» | Majumdar, R. C., Ancient Indian Colonies in the Far East, cilt II: Suvarnadvipa, Part I: Political History (Dacca, 1937); archive.org/details/Suvarnadvipa (djvu tam metni okundu), 'The Kingdom of Kadiri' bölümü, s. 276-277: «Airlangga must have left the world some time between the month of MargaSirSa, 1042 A. D., the date of the Pamotan inscription, and the month of Magha of the same year»",
   "gun": "1042 (yıl; yaklaşık)",
   "kesinlik": "yil",
   "ic_not": "ÇELİŞKİ: bölme tarihi Coedès'te yok ('ölümünden önce', ölüm 1049, Belahan kronogramı saka 971); Hall ölümden 'yaklaşık dört yıl önce' (≈1045) der; Majumdar 1042'yi dolaylı çıkarır. 1042 alındı (atlas künyeleri de 1042), kesin değil."
@@ -8452,7 +8452,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Kahuripan",
   "d": "Coedès: Airlangga 1049'da öldü ve Penanggungan'ın doğu yamacındaki 'Belahan Hamamı'na gömüldü; orada saka 971 (= 1049) kronogramlı bir taş bulunur.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm IX-4: «At his death in 1049» · «a stone bearing a chronogram which gives in a sort of rebus the date saka 971, i.e., 1049»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm IX-4: «At his death in 1049» · «a stone bearing a chronogram which gives in a sort of rebus the date saka 971, i.e., 1049»",
   "gun": "1049 (yıl)",
   "kesinlik": "yil",
   "ic_not": "Gün yok."
@@ -8473,7 +8473,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Surabaya",
   "d": "Majumdar: Janggala krallığının belgeleri çok azdır; Surabaya taş yazıtı Airlangga'nın rake Halu unvanı, Garudamukha mührü ve Dharmavamsa soyadını kullanan bir krala aittir; yüzler hanesi hasarlı tarih saka 782 ya da 982 olabilir, üslup nedeniyle 982 (= 1060) seçilir.",
-  "kaynak": "Majumdar, R. C., Ancient Indian Colonies in the Far East, cilt II: Suvarnadvipa, Part I: Political History (Dacca, 1937); archive.org/details/Suvarnadvipa (djvu tam metni bu oturumda okundu), 'The Kingdom of Kadiri' bölümü, s. 279: «We may thus reasonably construe the date as 982 (=1060 A.D.)»",
+  "kaynak": "Majumdar, R. C., Ancient Indian Colonies in the Far East, cilt II: Suvarnadvipa, Part I: Political History (Dacca, 1937); archive.org/details/Suvarnadvipa (djvu tam metni okundu), 'The Kingdom of Kadiri' bölümü, s. 279: «We may thus reasonably construe the date as 982 (=1060 A.D.)»",
   "gun": "1060 (yıl; okuma kesin değil)",
   "kesinlik": "yil",
   "ic_not": "Tarih hasarlı; Majumdar 'makul biçimde' 982 okur. 1053 bakır levha aynı yazarca 'çok bozuk kopya, özgünlüğü şüpheli' sayılır → yazılmadı."
@@ -8494,7 +8494,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Daha (Kediri)",
   "d": "Majumdar: 1109 Cava elçiliği, 1129 ve 1132'de Çin imparatorunun Cava kralına gösterdiği itibar ve 12. yy ortası Annam kayıtlarındaki Cava tüccar gemileri büyük olasılıkla Kadiri'ye aittir; Janggala olması da imkânsız değildir. 12. yy'ın bütün belgeleri bugünkü Kediri bölgesindendir.",
-  "kaynak": "Majumdar, R. C., Ancient Indian Colonies in the Far East, cilt II: Suvarnadvipa, Part I: Political History (Dacca, 1937); archive.org/details/Suvarnadvipa (djvu tam metni bu oturumda okundu), 'The Kingdom of Kadiri' bölümü, s. 280: «The Javanese embassy to China in 1109 A.D.» · «all these probably refer to Kadiri»",
+  "kaynak": "Majumdar, R. C., Ancient Indian Colonies in the Far East, cilt II: Suvarnadvipa, Part I: Political History (Dacca, 1937); archive.org/details/Suvarnadvipa (djvu tam metni okundu), 'The Kingdom of Kadiri' bölümü, s. 280: «The Javanese embassy to China in 1109 A.D.» · «all these probably refer to Kadiri»",
   "gun": "1109 (yıl)",
   "kesinlik": "yil",
   "ic_not": "Majumdar 'probably' der; Kadiri atfı kesin değil."
@@ -8516,7 +8516,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Daha (Kediri)",
   "d": "Coedès: 1221'de Angrok (Rajasa) Kadiri üzerine yürüyüp Canter'de kesin savaşı verdi; Kritajaya kaçtı ve iz bırakmadan yok oldu; Kadiri Tumapel krallığının bütünleşik parçası oldu. Chu-fan-chih (1225) tarihli bilgilerin Kadiri'nin 1222'deki düşüşüne dek hızlı olayları yansıttığı yazılır.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm XI-8: «In 1221 he marched on Kadiri and waged a decisive battle at Canter» · «Kadiri consequently became an integral part of the kingdom of Tumapel» · «culminating in the final fall of Kadiri in 1222»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm XI-8: «In 1221 he marched on Kadiri and waged a decisive battle at Canter» · «Kadiri consequently became an integral part of the kingdom of Tumapel» · «culminating in the final fall of Kadiri in 1222»",
   "gun": "1221-22 (yıl)",
   "kesinlik": "yil",
   "ic_not": "Coedès savaşı 1221, düşüşü 1222 verir (bölüm başlığı da 1222). 1222-01-01 alındı (atlas künye f/t = 1222)."
@@ -8537,7 +8537,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Singhasari (Tumapel)",
   "d": "Coedès: Rajasa altı yıllık barışçıl saltanattan sonra 1227'de Anushapati'nın azmettirmesiyle öldürüldü; Anushapati (Anushanatha) 1248'e dek hüküm sürdü.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm XI-8: «Rajasa was assassinated in 1227 at the instigation of Anushapati»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm XI-8: «Rajasa was assassinated in 1227 at the instigation of Anushapati»",
   "gun": "1227 (yıl)",
   "kesinlik": "yil",
   "ic_not": "Pararaton/Nagarakritagama'ya dayanan Cava kronik geleneği."
@@ -8558,7 +8558,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Singhasari (Tumapel)",
   "d": "Coedès: Anushapati 1248'de horoz dövüşü sırasında Tohjaya tarafından öldürüldü; Tohjaya aynı yıl yalnızca birkaç ay hüküm sürdü ve bir saray ihtilaliyle devrildi. İki yeğen birlikte tahta çıktı: Ranga Wuni (Vishnuvardhana, 1248-68) ve Mahisha Champaka (Narasimhamurti).",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm XI-8: «Tohjaya reigned only a few months in 1248 and met his death in a palace revolt»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm XI-8: «Tohjaya reigned only a few months in 1248 and met his death in a palace revolt»",
   "gun": "1248 (yıl)",
   "kesinlik": "yil",
   "ic_not": "Gün yok."
@@ -8579,7 +8579,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Singhasari (Tumapel)",
   "d": "Coedès: Vishnuvardhana 1254'e gelindiğinde fiilî iktidarı oğlu Kritanagara'ya bırakmıştı; başkent Kutaraja bu sırada Singhasari adını aldı. Vishnuvardhana 1268'de öldü.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm XI-8: «By 1254, Vishpuvardhana had turned over effective power to his son Kritanagara» · «it was at this time that the capital Kutaraja took the name of Singhasari»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm XI-8: «By 1254, Vishpuvardhana had turned over effective power to his son Kritanagara» · «it was at this time that the capital Kutaraja took the name of Singhasari»",
   "gun": "1254 (yıl)",
   "kesinlik": "yil",
   "ic_not": "Coedès 'by 1254' der: en geç 1254."
@@ -8601,7 +8601,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Ternate",
   "d": "Coedès: Chao Ju-kua'nın Chu-fan-chih'i (1225) Su-chi-tan'ın (Cava krallığı) bağlıları arasında Wu-nu-ku'yu (Moluccas) sayar; liste farklı tarihlerin bilgisini birleştirir ve en yenisi Kadiri'nin düşüşünden sonraya gelir. Majumdar Wu-nu-ku'yu Ternate ile eşler; Hall Ternate'nin Kadiri'ye bağlı olduğunu söyler.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm XI-8: «Wu-nu-ku (the Moluccas)» · «the information is for various dates and the most recent seems to come after the fall of Kadiri» | Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981); archive.org/details/a-history-of-south-east-asia-4th-ed (djvu tam metni bu oturumda okundu), Bölüm 4: «Ternate was a vassal state of Kediri»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm XI-8: «Wu-nu-ku (the Moluccas)» · «the information is for various dates and the most recent seems to come after the fall of Kadiri» | Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981); archive.org/details/a-history-of-south-east-asia-4th-ed (djvu tam metni okundu), Bölüm 4: «Ternate was a vassal state of Kediri»",
   "gun": "1225 (yıl; eser tarihi)",
   "kesinlik": "yil",
   "ic_not": "Eser tarihi 1225; liste tarihleri karışık (Coedès). Wu-nu-ku = Moluccas = Ternate adayı (Majumdar işareti); Tidore ayrıca anılmaz."
@@ -8622,7 +8622,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Daha (Kediri)",
   "d": "Coedès Jayabhaya'yı (Varmesvara) 1135-79 olarak tarihler; Majumdar'ın okuduğu iki belgesi 1135 ve 1136 tarihlidir. Bharatayuddha şiiri onun saltanatında yazıldı; Kadiri'nin Cava'daki öncülüğünün zirvesi.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm X-8: «Varmesvara, also known as Jayabhaya (1135-79)»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm X-8: «Varmesvara, also known as Jayabhaya (1135-79)»",
   "gun": "1135 (yıl)",
   "kesinlik": "yil",
   "ic_not": "Atlas Kediri künyesinde 1135 maddesi zaten var (tekrar etmemek için bu madde hükümdar sırasını Coedès'e bağlar); Majumdar 1135/1136 belgeleri."
@@ -8644,7 +8644,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Sukhothai",
   "d": "Hall: 1238'de iki T'ai şefi Sukhot'ai'daki Khmer komutanına saldırıp onu yendi; Sukhothai o sırada Angkor imparatorluğunun kuzeybatı kesiminin başkentiydi. Orada Rama Khamheng döneminde güçlenecek T'ai krallığının merkezini kurdular. Coedès: Pha Muang ile Bang Klang Thao Khmer valisini Sukhothai'dan kovdu; Bang Klang Thao orada Sri Indrapatindraditya unvanıyla kral oldu.",
-  "kaynak": "Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981); archive.org/details/a-history-of-south-east-asia-4th-ed (djvu tam metni bu oturumda okundu), Bölüm 7: «In 1238 two T’ai chiefs attacked and defeated the Khmer commander at Sukhot’ai» | Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm XII-5: «the two allies drove the Cambodian governor out of Sukhothai»",
+  "kaynak": "Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981); archive.org/details/a-history-of-south-east-asia-4th-ed (djvu tam metni okundu), Bölüm 7: «In 1238 two T’ai chiefs attacked and defeated the Khmer commander at Sukhot’ai» | Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm XII-5: «the two allies drove the Cambodian governor out of Sukhothai»",
   "gun": "1238 (yıl; Hall)",
   "kesinlik": "yil",
   "ic_not": "ÇELİŞKİ: Coedès olayı kesin tarihlemez; Indraditya'nın taç giymesini Rama Khamhaeng'in saltanatından geriye giderek 'around 1220' hesaplar (XII-5); Hall 1238. Hall alındı (sukhothai künyesi f=1238 ile tutarlı), Coedès ic_not'ta."
@@ -8665,7 +8665,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Sukhothai",
   "d": "Hall Rama Khamheng'in saltanatını 1283-c.1317 olarak verir; 1283'te Tay yazısı icat edildi (Coedès, stelden: 'In 1205 [i.e., A.D. 1283] ... King Rama Khamhaeng applied all his energy'). Coedès Rama Khamhaeng'in tahta çıkış tarihinin bilinmediğini yazar.",
-  "kaynak": "Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981); archive.org/details/a-history-of-south-east-asia-4th-ed (djvu tam metni bu oturumda okundu), Bölüm 7: «Rama Khamheng, or ‘Rama the Brave’ (1283-c.1317)» | Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm XII-5: «We do not know the date at which Rama Khamhaeng, son of the founder of the dynasty of Sukhothai, succeeded his elder brother»",
+  "kaynak": "Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981); archive.org/details/a-history-of-south-east-asia-4th-ed (djvu tam metni okundu), Bölüm 7: «Rama Khamheng, or ‘Rama the Brave’ (1283-c.1317)» | Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm XII-5: «We do not know the date at which Rama Khamhaeng, son of the founder of the dynasty of Sukhothai, succeeded his elder brother»",
   "gun": "1283 (yıl; Hall)",
   "kesinlik": "yil",
   "ic_not": "ÇELİŞKİ: atlasta mevcut madde '1275 Ramkhamhaeng Sukhothai tahtına çıktı' var; Coedès tahta çıkış yılını bilmez, Hall 1283 verir, stel yalnız 1283 yazısını ve 1285/1292'yi tarihler. 1275'in kaynağı bulunamadı → mevcut maddenin düzeltilmesi/kaynaklanması önerilir."
@@ -8688,7 +8688,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Sukhothai",
   "d": "Coedès: eski bir metne göre 1287'de Chiangrai prensi Mangrai, Phayao prensi Ngam Muang ve Sukhothai kralı Rama Khamhaeng uygun bir yerde buluşup sağlam bir dostluk paktı yaptı ve herkes ülkesine döndü. Yıl Pagan'ın Çin-Moğol birliklerince alındığı yıldır (Hall da aynı yılı verir).",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm XII-5: «concluded a strong pact of friendship, and then each returned to his own country» | Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981); archive.org/details/a-history-of-south-east-asia-4th-ed (djvu tam metni bu oturumda okundu), Bölüm 7: «In 1287 Mangrai, Rama Khamheng and Ngam Muong, the Chief of P’ayao, met together and concluded a firm pact of friendship»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm XII-5: «concluded a strong pact of friendship, and then each returned to his own country» | Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981); archive.org/details/a-history-of-south-east-asia-4th-ed (djvu tam metni okundu), Bölüm 7: «In 1287 Mangrai, Rama Khamheng and Ngam Muong, the Chief of P’ayao, met together and concluded a firm pact of friendship»",
   "gun": "1287 (yıl)",
   "kesinlik": "yil",
   "ic_not": "Çift teyit: Coedès ve Hall aynı yılı verir (ikisi de ikincil sentez; ortak kaynak eski Tay metnidir)."
@@ -8709,7 +8709,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Sukhothai",
   "d": "Coedès: Rama Khamhaeng yazıtı yalnızca üç tarih içerir: 1283 (Tay yazısı), 1285 (Si Satchanalai'de stupa) ve 1292 (Sukhothai'da taş taht Manangsilapatra). Yazıt güneydeki fetihleri Khonthi, Phraek, Suphannaphum, Ratburi, Phetchaburi ve Si Thammarat (Ligor) denize dek sayar; Hall Rama Khamheng'in 1283-87 arasında Menam vadisinin Mon'larını fethettiğini söyler.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm XII-5: «1292, the date of the construction at Sukhothai of a stone throne» | Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm XII-8: «Suphannaphum, Ratburi, Phetchaburi, Si Thammarat [Ligor], up to the sea that marks the border» | Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981); archive.org/details/a-history-of-south-east-asia-4th-ed (djvu tam metni bu oturumda okundu), Bölüm 7: «Between 1283 and 1287 Rama Khamheng of Sukhot’ai conquered the Mons of the Menam valley»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm XII-5: «1292, the date of the construction at Sukhothai of a stone throne» | Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm XII-8: «Suphannaphum, Ratburi, Phetchaburi, Si Thammarat [Ligor], up to the sea that marks the border» | Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981); archive.org/details/a-history-of-south-east-asia-4th-ed (djvu tam metni okundu), Bölüm 7: «Between 1283 and 1287 Rama Khamheng of Sukhot’ai conquered the Mons of the Menam valley»",
   "gun": "1292 (yıl)",
   "kesinlik": "yil",
   "ic_not": "Yazıtın kendisi pencere sonrası (1292); fetih yılları kaynakta ayrıca verilmez. Suphan Buri/Suphannaphum yerleşim zinciri için bu madde gün/yıl bağlamaz."
@@ -8730,7 +8730,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Chiang Rai",
   "d": "Coedès: Ngoen Yang (Chiangsaen) prenslerinin sonuncusu 1239 doğumlu Mangrai 1261'de babasının yerine geçti; ertesi yıl başkentini güneye taşıyarak Chiangrai'yi kurdu; 1269'da Chiangkhong'u aldı, 1273'te Mueang Fang'ı kurdu.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm XII-5: «The following year, moving his capital south, he founded Chiangrai» · «he took Chiangkhong in 1269 and founded Miiang Fang in 1273»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm XII-5: «The following year, moving his capital south, he founded Chiangrai» · «he took Chiangkhong in 1269 and founded Miiang Fang in 1273»",
   "gun": "1262 (yıl)",
   "kesinlik": "yil",
   "ic_not": "Coedès 1261 (babanın yerine geçiş) + 'ertesi yıl' → 1262. Lan Na künyesi f=1262 ile aynı yıl."
@@ -8751,7 +8751,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Phayao",
   "d": "Hall: Raheng'in kuzeyinde, Mepin ile Mewang nehirlerinin birleştiği yerde küçük bağımsız T'ai devleti P'ayao 1096'dan önce kurulmuştu (\"as early as 1096\").",
-  "kaynak": "Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981); archive.org/details/a-history-of-south-east-asia-4th-ed (djvu tam metni bu oturumda okundu), Bölüm 7: «the small independent T’ai state of P’ayao came into existence as early as 1096»",
+  "kaynak": "Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981); archive.org/details/a-history-of-south-east-asia-4th-ed (djvu tam metni okundu), Bölüm 7: «the small independent T’ai state of P’ayao came into existence as early as 1096»",
   "gun": "1096 (yıl; en geç)",
   "kesinlik": "yil",
   "ic_not": "'As early as': alt sınır/ilk tanık, kuruluş yılı kesin değil. Hall konumu Raheng kuzeyi ve nehir birleşimi diye verir; Coedès Phayao'yu Ing nehri yukarısında anar — konum tarifi tutarsız."
@@ -8773,7 +8773,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Qinzhou ve Hepu (Song kıyı bölgesi)",
   "d": "Taylor: 1240 sonlarında Lạng Sơn sınırında 'kuzeyliler' talan yaptı; bir yıl sonra Trần Cảnh Song sınır bölgelerine kara birlikleri gönderdi, kendisi de küçük teknelerle Qinzhou ve Hepu'ya donanma saldırısına çıktı. 1242'de bir Trần generalinin sınır harekâtından sonra Trần ve Song sarayları arasında güvenli haberleşme yeniden kuruldu.",
-  "kaynak": "Taylor, K. W., A History of the Vietnamese (Cambridge: Cambridge University Press, 2013); archive.org/details/cambridge-concise-histories-k.-w.-taylor-a-history-of-the-vietnamese-cambridge-university-press-2013 (djvu tam metni bu oturumda okundu), Bölüm 4 'The Tran dynasty', s. 123: «Tran Canh sent soldiers by land to attack Song border jurisdictions» · «In 1242, after further campaigning along the border by a Tran general, secure communications were restored between the Tran and Song courts»",
+  "kaynak": "Taylor, K. W., A History of the Vietnamese (Cambridge: Cambridge University Press, 2013); archive.org/details/cambridge-concise-histories-k.-w.-taylor-a-history-of-the-vietnamese-cambridge-university-press-2013 (djvu tam metni okundu), Bölüm 4 'The Tran dynasty', s. 123: «Tran Canh sent soldiers by land to attack Song border jurisdictions» · «In 1242, after further campaigning along the border by a Tran general, secure communications were restored between the Tran and Song courts»",
   "gun": "1241-42 (yıl)",
   "kesinlik": "yil",
   "ic_not": "Taylor 'a year later' der (1240 sonu + bir yıl); gün yok. Toprak değişimi yok (haydut inlerini temizleme seferi)."
@@ -8795,7 +8795,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Thăng Long (Hanoi)",
   "d": "Taylor: Kubilay'ın generali Uriyangqadai 1256'da Nanzhao'yu ezdi; 1257 yazı ve sonbaharında yaklaşık 25.000 kişilik kuvvetle (5.000 Moğol, 20.000 Yunnan yerlisi) Thăng Long'a doğru indi. Yılın son ayında kuzeybatıdan ovaya çıktı; Trần Cảnh onu durduramayıp nehir aşağı kaçtı, Uriyangqadai Thăng Long'u işgal etti ama şehir boş ve erzaksızdı. Trần Cảnh toparlanıp saldırıya geçti; savaşın başlamasından Moğolların çekilmesine yalnızca on iki gün geçti.",
-  "kaynak": "Taylor, K. W., A History of the Vietnamese (Cambridge: Cambridge University Press, 2013); archive.org/details/cambridge-concise-histories-k.-w.-taylor-a-history-of-the-vietnamese-cambridge-university-press-2013 (djvu tam metni bu oturumda okundu), Bölüm 4, s. 124-125: «Uriyangqadai occupied Thang Long, where he found his envoys trussed up in a dungeon» · «From when battle was joined until the Mongols retreated upriver was only twelve days»",
+  "kaynak": "Taylor, K. W., A History of the Vietnamese (Cambridge: Cambridge University Press, 2013); archive.org/details/cambridge-concise-histories-k.-w.-taylor-a-history-of-the-vietnamese-cambridge-university-press-2013 (djvu tam metni okundu), Bölüm 4, s. 124-125: «Uriyangqadai occupied Thang Long, where he found his envoys trussed up in a dungeon» · «From when battle was joined until the Mongols retreated upriver was only twelve days»",
   "gun": "1257 son ayı (Trần takvimi; gün yok)",
   "kesinlik": "yil",
   "ic_not": "Taylor 'the last month of the year' der; Vietnam takvim yılının son ayı Batı takvimine göre Ocak 1258'e düşebilir (çevrilmedi); yıl hassasiyeti, YYYY-01-01. ic_not_takvim: yıl sonu aylar belirsiz.",
@@ -8818,7 +8818,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Thăng Long (Hanoi)",
   "d": "Taylor: 1278'de Chai Zhuang başkanlığındaki Moğol elçileri ilk kez geldi; 1279'da Moğollar Song hanedanını tamamen ortadan kaldırıp kuzeyde sorgusuz egemen oldu, aynı yıl Chai Zhuang tekrar gelip Moğol taleplerini yineledi ve eli boş gönderildi.",
-  "kaynak": "Taylor, K. W., A History of the Vietnamese (Cambridge: Cambridge University Press, 2013); archive.org/details/cambridge-concise-histories-k.-w.-taylor-a-history-of-the-vietnamese-cambridge-university-press-2013 (djvu tam metni bu oturumda okundu), Bölüm 4, s. 130: «In 1278, led by a man named Chai Zhuang, Mongol envoys for the first time»",
+  "kaynak": "Taylor, K. W., A History of the Vietnamese (Cambridge: Cambridge University Press, 2013); archive.org/details/cambridge-concise-histories-k.-w.-taylor-a-history-of-the-vietnamese-cambridge-university-press-2013 (djvu tam metni okundu), Bölüm 4, s. 130: «In 1278, led by a man named Chai Zhuang, Mongol envoys for the first time»",
   "gun": "1278 (yıl)",
   "kesinlik": "yil",
   "ic_not": "Taylor sayfa numarası yaklaşık (s. 129-131 aralığı)."
@@ -8839,7 +8839,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Chiang Hung (Jinghong)",
   "d": "Hall: Mogaung (1215), Mone/Muong Nai (1223) ve Assam (1229) T'ai devletlerinin kuruluşlarıyla aynı sıralarda Chieng Rung (Chiang Rung) ve Chieng Sen (Ngoen Yang) T'ai şefleri bir evlilik ittifakı yaptı. Coedès aynı olayı çocukların evliliği olarak verir. Kesin yıl yoktur.",
-  "kaynak": "Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981); archive.org/details/a-history-of-south-east-asia-4th-ed (djvu tam metni bu oturumda okundu), Bölüm 7: «At about the same time the T’ai chiefs of Chieng Rung and Chieng Sen on the upper Mekong made a marriage alliance» | Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm XII-1: «formed an alliance by means of a marriage between their children»",
+  "kaynak": "Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981); archive.org/details/a-history-of-south-east-asia-4th-ed (djvu tam metni okundu), Bölüm 7: «At about the same time the T’ai chiefs of Chieng Rung and Chieng Sen on the upper Mekong made a marriage alliance» | Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm XII-1: «formed an alliance by means of a marriage between their children»",
   "gun": "1230'lar (Hall 'at about the same time' = 1223-1229 sonrası)",
   "kesinlik": "onyil",
   "ic_not": "Yıl kaynakta yok; 1223/1229 olaylarının çevresi → on yıllık hassasiyet (1230-01-01 yalnız işaret). Sipsong Panna künyesindeki f=1180 (Phanya Coeng) bu oturumda doğrulanamadı: Hall/Coedès Chiang Rung şefinin varlığını 13. yy ilk yarısı için gösterir, 1180 yok."
@@ -8861,7 +8861,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Samudra Pasai",
   "d": "Coedès: Marco Polo Sumatra'da (Samudra, yani Pasai) beş ay kaldı çünkü hava seyahatini sürdürmesine izin vermedi; Ferlec'te (Perlak) yalnız şehir halkının Müslüman olduğunu, Lambri'de (Lamuri/Aceh) kuyruklu insanlardan söz ettiğini yazar. Majumdar Samudra Müslüman devletinin 1292-1297 arası kurulduğunu çıkarır (Sultan Melik es-Salih 1297'de öldü).",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm XII-7: «Here Marco Polo in person resided five months, because the weather prevented him from continuing his voyage» | Majumdar, R. C., Ancient Indian Colonies in the Far East, cilt II: Suvarnadvipa, Part I: Political History (Dacca, 1937); archive.org/details/Suvarnadvipa (djvu tam metni bu oturumda okundu), s. 370: «The foundation of the Muhammadan kingdom of Samudra must thus be placed between 1292 and 1297 A.D.»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm XII-7: «Here Marco Polo in person resided five months, because the weather prevented him from continuing his voyage» | Majumdar, R. C., Ancient Indian Colonies in the Far East, cilt II: Suvarnadvipa, Part I: Political History (Dacca, 1937); archive.org/details/Suvarnadvipa (djvu tam metni okundu), s. 370: «The foundation of the Muhammadan kingdom of Samudra must thus be placed between 1292 and 1297 A.D.»",
   "gun": "1292 (yıl)",
   "kesinlik": "yil",
   "ic_not": "Pasai künyesi (atlas) f=1281; Majumdar kuruluşu 1292-97 aralığına koyar, TDV kuruluşu 1280'ler der → çelişki beyanı: künye f için gözden geçirilmeli."
@@ -8882,7 +8882,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Samudra Pasai",
   "d": "Coedès: İbn Battuta Samudra'nın sultanının Şafii mezhebine bağlı olduğunu ve ülkesinin kâfirlerle çevrili olduğunu yazar; Samudra-Pasai'de bulunan en eski mezar taşı yazıtı 1320 tarihlidir.",
-  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm XIII-7: «The oldest tombstone inscription found at Samudra-Pasai dates from 1320»",
+  "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm XIII-7: «The oldest tombstone inscription found at Samudra-Pasai dates from 1320»",
   "gun": "1320 (yıl)",
   "kesinlik": "yil",
   "ic_not": "Çelişki: atlas künyesindeki 1297 maddesi (Melik es-Salih mezar taşı) başka kaynaklıdır; Coedès 'en eski' derken 1320'yi anar → 1297 taşıyla tutarsızlık, TDV kaynağı esastır."
@@ -8903,7 +8903,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Mrauk U (Arakan)",
   "d": "Hall'ın Ek I'i Arakan kroniklerinin hanedan listesini verir: Vesali 878-1018, Birinci Pyinsa 1018-1103, Parin 1103-67, Krit 1167-80, İkinci Pyinsa 1180-1237, Launggyet (17 kral) 1237-1433, ardından Mrohaung (Mrauk-u) 1433-1785. Hall, kroniklerin ilk bölümlerinin efsanevî olduğunu, Sanskrit yazıtlarından derlenen listelerin kronikten daha gerçeğe yakın olduğunu söyler.",
-  "kaynak": "Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981); archive.org/details/a-history-of-south-east-asia-4th-ed (djvu tam metni bu oturumda okundu), Bölüm Ek I (Rulers of Arakan): «Launggyet dynasty, 17 kings, 1237-1433»",
+  "kaynak": "Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981); archive.org/details/a-history-of-south-east-asia-4th-ed (djvu tam metni okundu), Bölüm Ek I (Rulers of Arakan): «Launggyet dynasty, 17 kings, 1237-1433»",
   "gun": "1237 (yıl; kronik listesi)",
   "kesinlik": "yil",
   "ic_not": "Kronik tarihi, yazıtla doğrulanmadı; Hall yalnız listeyi aktarır. Launggyet künyesi (ms1) f=1237 ile uyumlu."
@@ -8925,7 +8925,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Mrauk U (Arakan)",
   "d": "Hall: Narathihapate Pagan'ı terk edip Bassein'e kaçınca merkezî otorite kayboldu, kuzey Arakan bağımsızlığını ilan etti, güneyde Mon'lar ayaklandı. Narathihapate 1287'de yolda öldürüldü.",
-  "kaynak": "Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981); archive.org/details/a-history-of-south-east-asia-4th-ed (djvu tam metni bu oturumda okundu), Bölüm 6: «The central authority vanished, northern Arakan proclaimed its independence»",
+  "kaynak": "Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981); archive.org/details/a-history-of-south-east-asia-4th-ed (djvu tam metni okundu), Bölüm 6: «The central authority vanished, northern Arakan proclaimed its independence»",
   "gun": "1285-87 (yıl)",
   "kesinlik": "yil",
   "ic_not": "Hall bağımsızlığın yılını vermez; Pagan'ın düşüşü (1287) ile birlikte anlatılır. 1287 üst sınır olarak alındı."
@@ -13659,7 +13659,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Luoyang",
   "d": "Chounu’nun annesi ve ileri gelenlerce öldürülmesinden sonra Anagui kağan oldu, on gün sonra kuzeni Shifa’nın saldırısıyla yenilip güneye kaçtı; Kuzey Wei sarayı onu Luoyang yakınında karşılayıp Shuofang Gong’u ve «Rouran Kralı» ünvanıyla ağırladı.",
-  "kaynak": "Wei shu juan 103 «Rouran» (Wikisource 魏書/卷103; metin Beishi'den tamamlanmış, bu oturumda okundu): «九月，阿那瓌將至，肅宗遣兼侍中陸希道為使主 … 十月，肅宗臨顯陽殿 … 尋封阿那瓌朔方郡公、蠕蠕王» — https://zh.wikisource.org/wiki/魏書/卷103",
+  "kaynak": "Wei shu juan 103 «Rouran» (Wikisource 魏書/卷103; metin Beishi'den tamamlanmış): «九月，阿那瓌將至，肅宗遣兼侍中陸希道為使主 … 十月，肅宗臨顯陽殿 … 尋封阿那瓌朔方郡公、蠕蠕王» — https://zh.wikisource.org/wiki/魏書/卷103",
   "gun": "正光元年九月 (gün kaynakta yok)",
   "kesinlik": "ay",
   "ic_not": "Wei shu 103 Beishi’den tamamlanmış (kaynak notu); Zhengguang 1 = 520 (bölümde «正光初»). Ay başı verilmiştir.",
@@ -13681,7 +13681,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Wuchuan garnizonu",
   "d": "Wuyuan’daki Poluohan Bailing isyanına karşı Anagui Wuchuan’dan batıya, Woye’ye doğru ilerledi; Kuzey Wei sarayı ödül gönderdi. Anagui bu ittifaktan sonra «Chilian Toubing Doufa Kağan» unvanını aldı.",
-  "kaynak": "Wei shu juan 103 «Rouran» (Wikisource 魏書/卷103; metin Beishi'den tamamlanmış, bu oturumda okundu): «孝昌元年春，阿那瓌率眾討之 … 勒眾十萬，從武川鎮西向沃野，頻戰克捷 … 乃號敕連頭兵豆伐可汗» — https://zh.wikisource.org/wiki/魏書/卷103",
+  "kaynak": "Wei shu juan 103 «Rouran» (Wikisource 魏書/卷103; metin Beishi'den tamamlanmış): «孝昌元年春，阿那瓌率眾討之 … 勒眾十萬，從武川鎮西向沃野，頻戰克捷 … 乃號敕連頭兵豆伐可汗» — https://zh.wikisource.org/wiki/魏書/卷103",
   "gun": "孝昌元年春",
   "kesinlik": "yil",
   "ic_not": "Kaynak mevsim verir (ilkbahar 525); yıl hassasiyeti. cin1 kronolojisindeki Altı Garnizon maddeleri (523-03-31) başka kümenin."
@@ -13702,7 +13702,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Huaihuang",
   "d": "Göktürk başbuğu Tumen 545’te gelen Western Wei elçisi An Nuopantuo’dan sonra 546’da ülkesinin armağanlarını gönderdi; aynı sırada Rouran’a saldırmak isteyen Tiele’yi pusuya düşürüp 50.000’den fazla çadırlık halkını teslim aldı. Rouran’dan kız isteyip hakaret görünce Rouran’la bağı koparıp Western Wei’ye yöneldi.",
-  "kaynak": "Zhou shu (Linghu Defen vd., 636) juan 50 «Tujue» (Wikisource 周書/卷50, bu oturumda okundu): «大統十一年，太祖遣酒泉胡安諾槃陁使焉 … 十二年，土門遂遣使獻方物。時鐵勒將伐茹茹，土門率所部邀擊，破之，盡降其眾五萬餘落» — https://zh.wikisource.org/wiki/周書/卷50",
+  "kaynak": "Zhou shu (Linghu Defen vd., 636) juan 50 «Tujue» (Wikisource 周書/卷50): «大統十一年，太祖遣酒泉胡安諾槃陁使焉 … 十二年，土門遂遣使獻方物。時鐵勒將伐茹茹，土門率所部邀擊，破之，盡降其眾五萬餘落» — https://zh.wikisource.org/wiki/周書/卷50",
   "gun": "大統十二年",
   "kesinlik": "yil",
   "ic_not": "Datong 12 = 546 (Western Wei yıl adı); Zhou shu’nun yıl başlığı yıl hassasiyetidir."
@@ -13723,7 +13723,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Chang’an",
   "d": "Tumen’in Rouran’dan reddedilen evlilik isteği üzerine Western Wei imparatoru Changle Prensesi’ni Tumen’e verdi; Göktürk–Western Wei ittifakı mühürlendi, bir yıl sonra Rouran yıkıldı.",
-  "kaynak": "Zhou shu (Linghu Defen vd., 636) juan 50 «Tujue» (Wikisource 周書/卷50, bu oturumda okundu): «十七年六月，以魏長樂公主妻之» — https://zh.wikisource.org/wiki/周書/卷50",
+  "kaynak": "Zhou shu (Linghu Defen vd., 636) juan 50 «Tujue» (Wikisource 周書/卷50): «十七年六月，以魏長樂公主妻之» — https://zh.wikisource.org/wiki/周書/卷50",
   "gun": "大統十七年六月",
   "kesinlik": "ay",
   "ic_not": "Western Wei/Zhou takvimi bu oturumda sınanmadı; ay başı hesapla (hukuki takvim ±1 ay riski).",
@@ -13745,7 +13745,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Huaihuang garnizonu kuzeyi",
   "d": "Tumen Rouran’a saldırıp Huaihuang’un kuzeyinde onları ağır bozguna uğrattı; Anagui kendini öldürdü, oğlu Anluochen Qi’ye kaçtı. Kalan Rouran halkı Anagui’nin amcası Deng Shuzi’yi kağan seçti; Tumen kendine «İlig Kağan» dedi.",
-  "kaynak": "Zhou shu (Linghu Defen vd., 636) juan 50 «Tujue» (Wikisource 周書/卷50, bu oturumda okundu): «魏廢帝元年正月，土門發兵擊茹茹，大破之於懷荒北。阿那瓌自殺，其子菴羅辰奔齊，餘眾復立阿那瓌叔父鄧叔子為主。土門遂自號伊利可汗» — https://zh.wikisource.org/wiki/周書/卷50",
+  "kaynak": "Zhou shu (Linghu Defen vd., 636) juan 50 «Tujue» (Wikisource 周書/卷50): «魏廢帝元年正月，土門發兵擊茹茹，大破之於懷荒北。阿那瓌自殺，其子菴羅辰奔齊，餘眾復立阿那瓌叔父鄧叔子為主。土門遂自號伊利可汗» — https://zh.wikisource.org/wiki/周書/卷50",
   "gun": "魏廢帝元年正月",
   "kesinlik": "ay",
   "ic_not": "MS1 kronolojisindeki 0552-01-01 (yıl) maddesiyle aynı olay: bu madde ay hassasiyetine iner. Rouran künyesi (main) t=0552-01-01; bu olay 0552-02-10’dan sonradır ve Rouran’ın bir kolu Deng Shuzi’yle sürmüştür (Zhou shu) → t önerisi ≥ 0552-02-10 (RAPOR). Zhou shu bu olayın günü vermez.",
@@ -13766,7 +13766,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Chang’an",
   "d": "Tumen’in ölümünden sonra oğlu Keluo (Yixiji Kağan) Rouran artığı Deng Shuzi’ni yendi ve Western Wei’ye 50.000 at armağan etti.",
-  "kaynak": "Zhou shu (Linghu Defen vd., 636) juan 50 «Tujue» (Wikisource 周書/卷50, bu oturumda okundu): «魏廢帝元年正月 … 土門死，子科羅立 … 又破叔子於沃野北木賴山。二年三月，科羅遣使獻馬五萬匹» — https://zh.wikisource.org/wiki/周書/卷50",
+  "kaynak": "Zhou shu (Linghu Defen vd., 636) juan 50 «Tujue» (Wikisource 周書/卷50): «魏廢帝元年正月 … 土門死，子科羅立 … 又破叔子於沃野北木賴山。二年三月，科羅遣使獻馬五萬匹» — https://zh.wikisource.org/wiki/周書/卷50",
   "gun": "魏廢帝二年三月",
   "kesinlik": "ay",
   "ic_not": "Zhou shu’da sıra Tumen→Keluo→Muhan; Suishu «Keluo = Tumen’in kardeşi» (Zhou shu editör notu) farkı Zhou shu notunda beyan edilir.",
@@ -13788,7 +13788,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Tohâristan",
   "d": "Akhun (Eftalit) devleti Göktürk-Sâsânî harekâtıyla yıkılınca ortaya çıkan otorite boşluğu Batı Göktürk yönetimince doldurulmak istendi; 558’den sonra Tohâristan’a Tong Şad Tseki gönderilerek Göktürk idaresi başladı.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Tohâristan» md., https://islamansiklopedisi.org.tr/toharistan (bu oturumda okundu): «557’de Akhun Devleti, Göktürk ve Sâsânî imparatorluklarının askerî harekâtı sonucu yıkılınca bölgede ortaya çıkan otorite boşluğunu Batı Göktürk Devleti’nin doldurmak istediği anlaşılmaktadır. 558 yılından sonra … Tong Şad Tseki’yi gönderdi»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Tohâristan» md., https://islamansiklopedisi.org.tr/toharistan: «557’de Akhun Devleti, Göktürk ve Sâsânî imparatorluklarının askerî harekâtı sonucu yıkılınca bölgede ortaya çıkan otorite boşluğunu Batı Göktürk Devleti’nin doldurmak istediği anlaşılmaktadır. 558 yılından sonra … Tong Şad Tseki’yi gönderdi»",
   "gun": "558 sonrası",
   "kesinlik": "yil",
   "ic_not": "TDV «558’den sonra»; 558 alt sınır. Belh yaması TDV Belh’i esas alarak Belh’i Sâsânî merzübânlığında bıraktı; Tohâristan geneli Göktürk idaresindeydi (TDV Belh ↔ Tohâristan farkı)."
@@ -13809,7 +13809,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Pontus bozkırı",
   "d": "VI. yüzyılda Orta Asya’dan batıya göçen Avarlar karadeniz kuzeyindeki Bulgar kabilelerini 559’da kendi idareleri altına aldı.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Bulgar» md., https://islamansiklopedisi.org.tr/bulgar (bu oturumda okundu): «Bulgarlar VI. yüzyılda Orta Asya’dan batıya göç eden Avarlar’ın idaresine girdiler (559)»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Bulgar» md., https://islamansiklopedisi.org.tr/bulgar: «Bulgarlar VI. yüzyılda Orta Asya’dan batıya göç eden Avarlar’ın idaresine girdiler (559)»",
   "gun": "559",
   "kesinlik": "yil"
  },
@@ -13828,7 +13828,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Beşbalık kuzeybatısı",
   "d": "Çin kaynaklarına göre Göktürk federasyonunun önemli kollarından Karluklar, Beşbalık’ın kuzeybatısındaki yurtlarında 627 dolaylarında Batı Göktürk’e başkaldırarak adlarını duyurdu.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Karluklar» md., https://islamansiklopedisi.org.tr/karluklar (bu oturumda okundu): «627 yılı dolaylarında Batı Göktürk Kağanlığı’na isyan ederek isimlerini duyuran Karluklar»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Karluklar» md., https://islamansiklopedisi.org.tr/karluklar: «627 yılı dolaylarında Batı Göktürk Kağanlığı’na isyan ederek isimlerini duyuran Karluklar»",
   "gun": "627 dolayları",
   "kesinlik": "yil",
   "ic_not": "TDV «dolaylarında»; yıl hassasiyeti."
@@ -13849,7 +13849,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Chang’an",
   "d": "Qu Wentai Chang’an’a gelip Tang imparatoruna bağlılığını sundu; eşi Yuwen’e Tang soyadı Li ve «Changle Prensesi» unvanı verildi. Tang’ın bölgeye ipek yolu üzerinden açılması bu ilişkiyle başladı.",
-  "kaynak": "Jiu Tang shu (Liu Xu vd., 945) juan 3 «Taizong ji xia» (Wikisource 舊唐書/卷3, bu oturumda okundu): «十二月辛亥 … 甲寅，高昌王麴文泰來朝» — https://zh.wikisource.org/wiki/舊唐書/卷3 | Jiu Tang shu juan 198 «Xirong» (Wikisource 舊唐書/卷198, bu oturumda okundu): «貞觀四年冬，文泰來朝，及將歸蕃，賜遺甚厚。其妻宇文氏請預宗親，詔賜李氏，封常樂公主» — https://zh.wikisource.org/wiki/舊唐書/卷198",
+  "kaynak": "Jiu Tang shu (Liu Xu vd., 945) juan 3 «Taizong ji xia» (Wikisource 舊唐書/卷3): «十二月辛亥 … 甲寅，高昌王麴文泰來朝» — https://zh.wikisource.org/wiki/舊唐書/卷3 | Jiu Tang shu juan 198 «Xirong» (Wikisource 舊唐書/卷198): «貞觀四年冬，文泰來朝，及將歸蕃，賜遺甚厚。其妻宇文氏請預宗親，詔賜李氏，封常樂公主» — https://zh.wikisource.org/wiki/舊唐書/卷198",
   "gun": "貞觀四年十二月甲寅",
   "kesinlik": "gun",
   "ic_not": "MS1 kronolojisindeki 0630-01-01 (yıl) maddesiyle aynı olay; gün: 貞觀四年 (630) 12. ayın 甲寅’i Jülyen 0631-01-31’e düşer (Çin 12. ayı miladi 631 Ocak-Şubat).",
@@ -13871,7 +13871,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Liangzhou",
   "d": "Tuyuhun’un Liangzhou’a saldırması ve Tang elçisi Zhao Daode’yi tutuklamasının ardından Tang dört büyük başkomutanı farklı yönlerden Tuyuhun üzerine yürümekle görevlendirdi.",
-  "kaynak": "Jiu Tang shu (Liu Xu vd., 945) juan 3 «Taizong ji xia» (Wikisource 舊唐書/卷3, bu oturumda okundu): «十一月 … 丁亥，吐谷渾寇涼州。己丑，吐谷渾拘我行入趙道德。十二月辛丑，命特進李靖、兵部尚書侯君集、刑部尚書任城王道宗、涼州都督李大亮等為大總管，各帥師分道以討吐谷渾» — https://zh.wikisource.org/wiki/舊唐書/卷3",
+  "kaynak": "Jiu Tang shu (Liu Xu vd., 945) juan 3 «Taizong ji xia» (Wikisource 舊唐書/卷3): «十一月 … 丁亥，吐谷渾寇涼州。己丑，吐谷渾拘我行入趙道德。十二月辛丑，命特進李靖、兵部尚書侯君集、刑部尚書任城王道宗、涼州都督李大亮等為大總管，各帥師分道以討吐谷渾» — https://zh.wikisource.org/wiki/舊唐書/卷3",
   "gun": "貞觀八年十二月辛丑",
   "kesinlik": "gun",
   "ic_not_takvim": "Çin ay-güneş takvimi → Jülyen: 貞觀八年十二月辛丑 → Jülyen 0634-12-28 (Gregoryen 0634-12-31); astronomik ay/zhongqi hesabı (denetim/dogu/cin2/_cal.py işlevleri, 640-12-19 甲子朔 = kış gündönümü ve cin1 534-11-08 丙寅 örnekleriyle sınandı), ±1 gün; Jülyen kalır (1582 öncesi)."
@@ -13892,7 +13892,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Xihai (Qinghai)",
   "d": "Tang orduları Niuxindui’de (4. ayın ardından), Wuhai ve Chishuiyuan’da Tuyuhun’u yendi; Li Jing 5. ayın 壬子’inde Xihai kıyısında Tuyuhun’u «平» etti ve hükümdar Murong Fuyun’u yakaladığı bildirildi. Fuyun’un oğlu Murong Shun Tang’a teslim olup «Xiping Junwang» ünvanıyla ülkesini yeniden aldı.",
-  "kaynak": "Jiu Tang shu (Liu Xu vd., 945) juan 3 «Taizong ji xia» (Wikisource 舊唐書/卷3, bu oturumda okundu): «五月乙未，又破之於烏海，追奔至柏海 … 壬子，李靖平吐谷渾於西海之上，獲其王慕容伏允。以其子慕容順光降，封為西平郡王，復其本國» — https://zh.wikisource.org/wiki/舊唐書/卷3",
+  "kaynak": "Jiu Tang shu (Liu Xu vd., 945) juan 3 «Taizong ji xia» (Wikisource 舊唐書/卷3): «五月乙未，又破之於烏海，追奔至柏海 … 壬子，李靖平吐谷渾於西海之上，獲其王慕容伏允。以其子慕容順光降，封為西平郡王，復其本國» — https://zh.wikisource.org/wiki/舊唐書/卷3",
   "gun": "貞觀九年五月壬子",
   "kesinlik": "gun",
   "ic_not": "Jiu Tang 3 «獲其王慕容伏允» der; Fuyun’un ölüm biçimi (kaçarken ölüm/intihar) Jiu Tang 198’de farklı anlatılır (ilgili paragraf bu oturumda yalnız Shun’un tahta çıkışı kısmıyla okundu). Tuyuhun’un toprağı bu tarihte Tang’a katılmadı (Shun’a iade).",
@@ -13914,7 +13914,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Xihai (Qinghai)",
   "d": "Tang’ın Xiping Junwang yaptığı Murong Shun halkın desteğini bulamadı ve çevresince öldürüldü; Hou Junji ordusuyla huzuru sağladı, Shun’un oğlu Nuohebo Heyuan Junwang olarak Tuyuhun’un başına geçirildi.",
-  "kaynak": "Jiu Tang shu (Liu Xu vd., 945) juan 3 «Taizong ji xia» (Wikisource 舊唐書/卷3, bu oturumda okundu): «十二月甲戌，吐谷渾西平郡王慕容順光為其下所弒，遣兵部尚書侯君集率師安撫之，仍封順光子諾曷缽為河源郡王，使統其眾» — https://zh.wikisource.org/wiki/舊唐書/卷3 | Jiu Tang shu juan 198 «Xirong» (Wikisource 舊唐書/卷198, bu oturumda okundu): «其子燕王諾曷缽嗣立 … 太宗遣兵援之，封為河源郡王» — https://zh.wikisource.org/wiki/舊唐書/卷198",
+  "kaynak": "Jiu Tang shu (Liu Xu vd., 945) juan 3 «Taizong ji xia» (Wikisource 舊唐書/卷3): «十二月甲戌，吐谷渾西平郡王慕容順光為其下所弒，遣兵部尚書侯君集率師安撫之，仍封順光子諾曷缽為河源郡王，使統其眾» — https://zh.wikisource.org/wiki/舊唐書/卷3 | Jiu Tang shu juan 198 «Xirong» (Wikisource 舊唐書/卷198): «其子燕王諾曷缽嗣立 … 太宗遣兵援之，封為河源郡王» — https://zh.wikisource.org/wiki/舊唐書/卷198",
   "gun": "貞觀九年十二月甲戌",
   "kesinlik": "gun",
   "ic_not_takvim": "Çin ay-güneş takvimi → Jülyen: 貞觀九年十二月甲戌 → Jülyen 0636-01-25 (Gregoryen 0636-01-28); astronomik ay/zhongqi hesabı (denetim/dogu/cin2/_cal.py işlevleri, 640-12-19 甲子朔 = kış gündönümü ve cin1 534-11-08 丙寅 örnekleriyle sınandı), ±1 gün; Jülyen kalır (1582 öncesi)."
@@ -13935,7 +13935,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Gaochang",
   "d": "Qu Wentai’nın ipek yolunu tıkaması ve Tang’a karşı Batı Göktürk’le işbirliği yapması üzerine Tang Hou Junji’yi Jiaohe yolu başkomutanı yaparak Gaochang’a yürüttü; Wentai ordunun yaklaşmasını duyunca öldü, yerine oğlu Zhisheng geçti.",
-  "kaynak": "Jiu Tang shu (Liu Xu vd., 945) juan 3 «Taizong ji xia» (Wikisource 舊唐書/卷3, bu oturumda okundu): «十二月丁丑，吏部尚書、陳國公侯君集為交河道行軍大總管，帥師伐高昌» — https://zh.wikisource.org/wiki/舊唐書/卷3 | Jiu Tang shu juan 198 «Xirong» (Wikisource 舊唐書/卷198, bu oturumda okundu): «及聞王師臨磧口，惶駭計無所出，發病而死。其子智盛嗣立» — https://zh.wikisource.org/wiki/舊唐書/卷198",
+  "kaynak": "Jiu Tang shu (Liu Xu vd., 945) juan 3 «Taizong ji xia» (Wikisource 舊唐書/卷3): «十二月丁丑，吏部尚書、陳國公侯君集為交河道行軍大總管，帥師伐高昌» — https://zh.wikisource.org/wiki/舊唐書/卷3 | Jiu Tang shu juan 198 «Xirong» (Wikisource 舊唐書/卷198): «及聞王師臨磧口，惶駭計無所出，發病而死。其子智盛嗣立» — https://zh.wikisource.org/wiki/舊唐書/卷198",
   "gun": "貞觀十三年十二月丁丑",
   "kesinlik": "gun",
   "ic_not_takvim": "Çin ay-güneş takvimi → Jülyen: 貞觀十三年十二月丁丑 → Jülyen 0640-01-07 (Gregoryen 0640-01-10); astronomik ay/zhongqi hesabı (denetim/dogu/cin2/_cal.py işlevleri, 640-12-19 甲子朔 = kış gündönümü ve cin1 534-11-08 丙寅 örnekleriyle sınandı), ±1 gün; Jülyen kalır (1582 öncesi)."
@@ -13956,7 +13956,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Chang’an",
   "d": "Heyuan Junwang Murong Nuohebo Tang’dan gelin istemek için sarayda göründü; Tang Hongha Prensesi’ni kendisine verdi.",
-  "kaynak": "Jiu Tang shu (Liu Xu vd., 945) juan 3 «Taizong ji xia» (Wikisource 舊唐書/卷3, bu oturumda okundu): «十二月丁丑，吏部尚書、陳國公侯君集為交河道行軍大總管，帥師伐高昌 … 己丑，吐谷渾河源郡王慕容諾曷缽來逆» — https://zh.wikisource.org/wiki/舊唐書/卷3 | Jiu Tang shu juan 198 «Xirong» (Wikisource 舊唐書/卷198, bu oturumda okundu): «十四年，太宗以弘化公主妻之» — https://zh.wikisource.org/wiki/舊唐書/卷198",
+  "kaynak": "Jiu Tang shu (Liu Xu vd., 945) juan 3 «Taizong ji xia» (Wikisource 舊唐書/卷3): «十二月丁丑，吏部尚書、陳國公侯君集為交河道行軍大總管，帥師伐高昌 … 己丑，吐谷渾河源郡王慕容諾曷缽來逆» — https://zh.wikisource.org/wiki/舊唐書/卷3 | Jiu Tang shu juan 198 «Xirong» (Wikisource 舊唐書/卷198): «十四年，太宗以弘化公主妻之» — https://zh.wikisource.org/wiki/舊唐書/卷198",
   "gun": "貞觀十三年十二月己丑",
   "kesinlik": "gun",
   "ic_not": "Jiu Tang 3 gelişi 貞觀十三年 12. ay (Jülyen 0640-01-19), Jiu Tang 198 evliliği «十四年» (640) yazar; iki ifade aynı sürece (639 sonu/640) oturur, ikisi de beyan edildi. Aynı sayfadaki Hou Junji atanışı (丁丑 = Jülyen 0640-01-07).",
@@ -13978,7 +13978,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Tohâristan",
   "d": "641 sonunda Tu-lu Kağan rakibi Yabgu Kağan’ı Taşkent beyi aracılığıyla öldürtünce Yabgu yanlısı Nushibi boyları yeni kağanı tanımadı, çoğu Tohâristan’daki Türk boylarının yanına kaçtı; öfkelenen Tu-lu Tohâristan’a ağır bir ceza seferi düzenledi.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Tohâristan» md., https://islamansiklopedisi.org.tr/toharistan (bu oturumda okundu): «641 yılı sonunda Batı Göktürk Hakanı Tu-lu Kağan, rakibi Yabgu Kağan’ı Taşkent beyi vasıtasıyla ortadan kaldırınca Yabgu’nun taraftarı olan Nou-she-pi Türk boyları yeni Göktürk kağanını tanımadı ve çoğu Tohâristan bölgesindeki Türk boylarının yanına kaçtı. Bu olaya öfkelenen Tu-lu Kağan düzenlediği seferde Tohâristan’ı ağır şekilde cezalandırdı»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Tohâristan» md., https://islamansiklopedisi.org.tr/toharistan: «641 yılı sonunda Batı Göktürk Hakanı Tu-lu Kağan, rakibi Yabgu Kağan’ı Taşkent beyi vasıtasıyla ortadan kaldırınca Yabgu’nun taraftarı olan Nou-she-pi Türk boyları yeni Göktürk kağanını tanımadı ve çoğu Tohâristan bölgesindeki Türk boylarının yanına kaçtı. Bu olaya öfkelenen Tu-lu Kağan düzenlediği seferde Tohâristan’ı ağır şekilde cezalandırdı»",
   "gun": "641 sonu",
   "kesinlik": "yil",
   "ic_not": "TDV «641 yılı sonu»; yıl hassasiyeti, 0641-01-01 yıl başı işaretidir (olay yılın sonunda)."
@@ -13999,7 +13999,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Chang’an",
   "d": "Gaochang’ın düşüşünden dört ay sonra Hou Junji seferden dönüp esir Gaochang kralı Zhisheng’i sarayda sundu; Zhisheng ve ileri gelenleri iç bölgelere sürüldü, ona Zuowuwei Jiangjun unvanı verildi.",
-  "kaynak": "Jiu Tang shu (Liu Xu vd., 945) juan 3 «Taizong ji xia» (Wikisource 舊唐書/卷3, bu oturumda okundu): «十二月丁酉，交河道旋師。吏部尚書、陳國公侯君集執高昌王麴智盛，獻捷於觀德殿» — https://zh.wikisource.org/wiki/舊唐書/卷3 | Jiu Tang shu juan 198 «Xirong» (Wikisource 舊唐書/卷198, bu oturumda okundu): «尋拜智盛為左武衛將軍，封金城郡公» — https://zh.wikisource.org/wiki/舊唐書/卷198",
+  "kaynak": "Jiu Tang shu (Liu Xu vd., 945) juan 3 «Taizong ji xia» (Wikisource 舊唐書/卷3): «十二月丁酉，交河道旋師。吏部尚書、陳國公侯君集執高昌王麴智盛，獻捷於觀德殿» — https://zh.wikisource.org/wiki/舊唐書/卷3 | Jiu Tang shu juan 198 «Xirong» (Wikisource 舊唐書/卷198): «尋拜智盛為左武衛將軍，封金城郡公» — https://zh.wikisource.org/wiki/舊唐書/卷198",
   "gun": "貞觀十四年十二月丁酉",
   "kesinlik": "gun",
   "ic_not_takvim": "Çin ay-güneş takvimi → Jülyen: 貞觀十四年十二月丁酉 → Jülyen 0641-01-21 (Gregoryen 0641-01-24); astronomik ay/zhongqi hesabı (denetim/dogu/cin2/_cal.py işlevleri, 640-12-19 甲子朔 = kış gündönümü ve cin1 534-11-08 丙寅 örnekleriyle sınandı), ±1 gün; Jülyen kalır (1582 öncesi)."
@@ -14019,7 +14019,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Phanagoria",
   "d": "Avar idaresinden kurtulup Karadeniz’in kuzeyinde Büyük Bulgaristan’ı yöneten Bulgar Hanı Kuvrat (584-642) öldü; oğulları Hazar baskısıyla dağıldı, küçük oğlu Esperih Kutrigur Bulgarlarıyla Dobruca’ya göçtü.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Bulgar» md., https://islamansiklopedisi.org.tr/bulgar (bu oturumda okundu): «Bulgar Hanı Kuvrat Han zamanında (584-642) Avar idaresinden kurtuldularsa da VII. yüzyılda Don ve Kuban ırmakları arasındaki yurtlarına baskılarını arttıran Hazarlar’ın hâkimiyetini kabul etmek zorunda kaldılar»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Bulgar» md., https://islamansiklopedisi.org.tr/bulgar: «Bulgar Hanı Kuvrat Han zamanında (584-642) Avar idaresinden kurtuldularsa da VII. yüzyılda Don ve Kuban ırmakları arasındaki yurtlarına baskılarını arttıran Hazarlar’ın hâkimiyetini kabul etmek zorunda kaldılar»",
   "gun": "642",
   "kesinlik": "yil",
   "ic_not": "TDV «584-642» (ölüm yılı 642). Büyük Bulgaristan’ın yıkılış yılı TDV’de yok; MS1 kronolojisi 0665-01-01 verir (atlas, atıf)."
@@ -14040,7 +14040,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Nuozhen Irmağı (Baidao)",
   "d": "Yinan’ın Tang’ın Göktürk (Si Mo) Kağanı’na saldırmak için oğlu Dadu Shad’la 200.000 kişilik orduyu Baidao Vadisi’ne sürdüğü yıl Li Ji Nuozhen Irmağı’nda onları bozdu: 3.000’den fazla baş, 15.000 at; Dadu Shad kaçtı.",
-  "kaynak": "Jiu Tang shu (Liu Xu vd., 945) juan 3 «Taizong ji xia» (Wikisource 舊唐書/卷3, bu oturumda okundu): «十二月戊子朔，至自洛陽宮。甲辰，李勣及薛延陀戰於諾真水，大破之，斬首三千餘級，獲馬萬五千匹» — https://zh.wikisource.org/wiki/舊唐書/卷3 | Jiu Tang shu juan 199 xia «Beidi» (Wikisource 舊唐書/卷199下, bu oturumda okundu): «十五年 … 因命其子大度設勒兵二十萬，屯白道川 … 大度設跳身而遁» — https://zh.wikisource.org/wiki/舊唐書/卷199下",
+  "kaynak": "Jiu Tang shu (Liu Xu vd., 945) juan 3 «Taizong ji xia» (Wikisource 舊唐書/卷3): «十二月戊子朔，至自洛陽宮。甲辰，李勣及薛延陀戰於諾真水，大破之，斬首三千餘級，獲馬萬五千匹» — https://zh.wikisource.org/wiki/舊唐書/卷3 | Jiu Tang shu juan 199 xia «Beidi» (Wikisource 舊唐書/卷199下): «十五年 … 因命其子大度設勒兵二十萬，屯白道川 … 大度設跳身而遁» — https://zh.wikisource.org/wiki/舊唐書/卷199下",
   "gun": "貞觀十五年十二月甲辰",
   "kesinlik": "gun",
   "ic_not": "Takvim: 貞觀十四年11. ay 甲子朔 = kış gündönümü = Jülyen 0640-12-19 sınaması üzerinden 貞觀十五年12. ay 戊子朔 = Jülyen 0642-01-07 (cal2.py yıl bulucusu bu yıl için hata verdi; 60 günlük ganzhi sayacıyla doğrulandı); 甲辰 = 戊子朔 + 16 gün.",
@@ -14061,7 +14061,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Yudujun Dağı",
   "d": "Tang’ın Koguryo seferi sırasında Yinan öldü; en küçük oğlu Bazhuo ağabeyi Tuli Shi Kağan’ı öldürüp «Jieli Juli Xiesha Duomi Kağan» oldu. Zalimliği yüzünden boylar ondan ayrıldı; Xiashou’yu yağmalamaya kalkınca Tang komutanı Zhishi Sili’den yenildi, kısa sürede Uygurlarca öldürüldü.",
-  "kaynak": "Jiu Tang shu juan 199 xia «Beidi» (Wikisource 舊唐書/卷199下, bu oturumda okundu): «十九年 … 俄而夷男卒，太宗爲之舉哀。夷男少子肆葉護拔灼襲殺其兄突利失可汗而自立，是爲頡利俱利薛沙多彌可汗 … 尋爲回紇所殺» — https://zh.wikisource.org/wiki/舊唐書/卷199下",
+  "kaynak": "Jiu Tang shu juan 199 xia «Beidi» (Wikisource 舊唐書/卷199下): «十九年 … 俄而夷男卒，太宗爲之舉哀。夷男少子肆葉護拔灼襲殺其兄突利失可汗而自立，是爲頡利俱利薛沙多彌可汗 … 尋爲回紇所殺» — https://zh.wikisource.org/wiki/舊唐書/卷199下",
   "gun": "貞觀十九年冬",
   "kesinlik": "yil",
   "ic_not": "Metin «十九年…其冬…俄而夷男卒»: yaz sonu/kış 645; yıl hassasiyeti."
@@ -14082,7 +14082,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Yudujun Dağı (Ötüken)",
   "d": "Tang’ın sonuncu cezalandırma seferinde Cui Dunli ve Li Ji 6. ayda Xueyantuo’yu Yudujun Dağı kuzeyinde bozdu: 5.000’den fazla baş ve 30.000’den fazla esir. Kalan Xueyantuo’lular Duomozhi’yi (Yinan’ın yeğeni) kağan seçip batıya çekildi.",
-  "kaynak": "Jiu Tang shu (Liu Xu vd., 945) juan 3 «Taizong ji xia» (Wikisource 舊唐書/卷3, bu oturumda okundu): «六月，遣兵部尚書、固安公崔敦禮，特進、英國公李勣擊破薛延陀於鬱督軍山北，前後斬首五千餘級，虜男女三萬餘人» — https://zh.wikisource.org/wiki/舊唐書/卷3 | Jiu Tang shu juan 199 xia «Beidi» (Wikisource 舊唐書/卷199下, bu oturumda okundu): «其後延陀西遁之衆，共推夷男兄子咄摩支爲伊特勿失可汗» — https://zh.wikisource.org/wiki/舊唐書/卷199下",
+  "kaynak": "Jiu Tang shu (Liu Xu vd., 945) juan 3 «Taizong ji xia» (Wikisource 舊唐書/卷3): «六月，遣兵部尚書、固安公崔敦禮，特進、英國公李勣擊破薛延陀於鬱督軍山北，前後斬首五千餘級，虜男女三萬餘人» — https://zh.wikisource.org/wiki/舊唐書/卷3 | Jiu Tang shu juan 199 xia «Beidi» (Wikisource 舊唐書/卷199下): «其後延陀西遁之衆，共推夷男兄子咄摩支爲伊特勿失可汗» — https://zh.wikisource.org/wiki/舊唐書/卷199下",
   "gun": "貞觀二十年六月",
   "kesinlik": "ay",
   "ic_not": "Jiu Tang 3 ay verir (gün yok); ay başı hesaplandı. Jiu Tang 199 xia ayrıca Ashina Sheer ve Li Daozong’un Xueyantuo kalıntısını Gobi’de bozduğunu anlatır (tarihsiz).",
@@ -14104,7 +14104,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Belencer",
   "d": "Hz. Osman döneminde Selmân b. Rebîa’nın ordusu Derbend Geçidi’ni aşıp o zamanki Hazar başşehri Belencer’e kadar sokuldu; Hazarlar bu orduyu yenip geri çekilmeye mecbur etti.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Hazarlar» md., https://islamansiklopedisi.org.tr/hazarlar (bu oturumda okundu): «ilk önemli hücum ise 32 (652-53) yılında Selmân b. Rebîa kumandasındaki ordu tarafından yapılmıştır. Derbend (Bâbülebvâb) Geçidi’ni aşan Selmân o zamanki başşehir Belencer’e kadar sokuldu. Fakat bu orduyu yenen ve geri çekilmeye mecbur bırakan Hazarlar»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Hazarlar» md., https://islamansiklopedisi.org.tr/hazarlar: «ilk önemli hücum ise 32 (652-53) yılında Selmân b. Rebîa kumandasındaki ordu tarafından yapılmıştır. Derbend (Bâbülebvâb) Geçidi’ni aşan Selmân o zamanki başşehir Belencer’e kadar sokuldu. Fakat bu orduyu yenen ve geri çekilmeye mecbur bırakan Hazarlar»",
   "gun": "32 (652-53)",
   "kesinlik": "yil",
   "ic_not": "TDV «32 (652-53)»: Takvim: hicrî 32 (kaynağın mîlâdî yılı 652) ∩ 652 kesişiminin ilk günü = Jülyen 0652-08-12 (aritmetik hicrî tablo, ±1-2 gün); hicrî yıl başı (1 Muharrem 32) = Jülyen 0652-08-12. 0653-01-01 yıl işareti (TDV iki miladi yıl verir)."
@@ -14125,7 +14125,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Beşbalık",
   "d": "656’da Çin’in başlattığı büyük taarruzda Karluklar Batı Göktürk Kağanı Ashina Helu’yu desteklediler ve onunla birlikte yenildiler. TDV Tohâristan aynı yenilgi zincirini 657-658 olarak anar; yenilgilerden sonra Batı Göktürk topraklarında Çin’e bağlı yerel hükümetler kuruldu.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Karluklar» md., https://islamansiklopedisi.org.tr/karluklar (bu oturumda okundu): «Çin İmparatorluğu’nun 656’da üç koldan başlattığı büyük taarruzda ise Batı Göktürk Kağanı A-shih-na Holu’yu desteklediler; ancak onunla birlikte mücadeleyi kaybettiler» | TDV İslâm Ansiklopedisi, «Tohâristan» md., https://islamansiklopedisi.org.tr/toharistan (bu oturumda okundu): «657-658 yıllarında Batı Göktürk Devleti’nin hakanı Aşena Ho-lou, Çin İmparatorluğu ordularına karşı peş peşe yenilgiye uğrayınca ülkede doğrudan Çin’e bağlı mahallî hükümetler kuruldu»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Karluklar» md., https://islamansiklopedisi.org.tr/karluklar: «Çin İmparatorluğu’nun 656’da üç koldan başlattığı büyük taarruzda ise Batı Göktürk Kağanı A-shih-na Holu’yu desteklediler; ancak onunla birlikte mücadeleyi kaybettiler» | TDV İslâm Ansiklopedisi, «Tohâristan» md., https://islamansiklopedisi.org.tr/toharistan: «657-658 yıllarında Batı Göktürk Devleti’nin hakanı Aşena Ho-lou, Çin İmparatorluğu ordularına karşı peş peşe yenilgiye uğrayınca ülkede doğrudan Çin’e bağlı mahallî hükümetler kuruldu»",
   "gun": "656 → 657-658",
   "kesinlik": "yil",
   "ic_not": "TDV Karluklar 656 / TDV Tohâristan 657-658 / TDV Semerkant 659 (devletin yıkılışı): üç TDV maddesi birbirinden farklı yıl verir; yıllar ayrı maddelerde ayrı ayrı beyan edildi. bati-gokturk künyesi (main) t=0630 TDV’nin bu üç maddesiyle çelişir (RAPOR)."
@@ -14146,7 +14146,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Tohâristan",
   "d": "Batı Göktürk yenilgisinden sonra Tohâristan topraklarında Çin’e bağlı 25 mahallî hükümet teşkil edildi ve yabguya vali unvanı verildi; iki yıl sonra yabgu Aşena Ou-she-po oğlunu Çin sarayına elçi gönderdi.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Tohâristan» md., https://islamansiklopedisi.org.tr/toharistan (bu oturumda okundu): «661’de Tohâristan arazisinde yirmi beş mahallî hükümet teşkil edildi. Yabguya vali unvanı verildi. İki yıl sonra Tohâristan yabgusu Aşena Ou-she-po, Çin sarayına elçi olarak oğlunu gönderdi»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Tohâristan» md., https://islamansiklopedisi.org.tr/toharistan: «661’de Tohâristan arazisinde yirmi beş mahallî hükümet teşkil edildi. Yabguya vali unvanı verildi. İki yıl sonra Tohâristan yabgusu Aşena Ou-she-po, Çin sarayına elçi olarak oğlunu gönderdi»",
   "gun": "661",
   "kesinlik": "yil"
  },
@@ -14166,7 +14166,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Dobruca",
   "d": "Hazar baskısıyla Dobruca’ya göçen Kuvrat’ın küçük oğlu Esperih’in Bulgarları, Müslümanların İstanbul kuşatmalarından (674-678) yararlanıp Bizans’ı yendi ve 681’de antlaşmaya mecbur etti; böylece Tuna Bulgarları Balkanlar’da siyasî varlık oldu.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Bulgar» md., https://islamansiklopedisi.org.tr/bulgar (bu oturumda okundu): «Hazarlar’ın baskıları üzerine Kutrigur Bulgarları Kuvrat Han’ın küçük oğlu Esperih idaresinde Dobruca taraflarına göç ettiler. Müslümanların İstanbul’u kuşatmalarından (674-678) faydalanarak Bizanslılar’ı mağlûp ettiler ve Bizans’ı anlaşmaya mecbur bıraktılar (681)»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Bulgar» md., https://islamansiklopedisi.org.tr/bulgar: «Hazarlar’ın baskıları üzerine Kutrigur Bulgarları Kuvrat Han’ın küçük oğlu Esperih idaresinde Dobruca taraflarına göç ettiler. Müslümanların İstanbul’u kuşatmalarından (674-678) faydalanarak Bizanslılar’ı mağlûp ettiler ve Bizans’ı anlaşmaya mecbur bıraktılar (681)»",
   "gun": "681",
   "kesinlik": "yil",
   "ic_not": "Esperih’in devleti buyuk-bulgaristan kimliğine bağlanmamıştır (ardıl: Tuna Bulgarları, başka küme); taraflara yalnız köken devlet yazıldı."
@@ -14187,7 +14187,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Semerkant",
   "d": "Emevîlerin Soğd’u elde tutmakta zorlandığı sırada II. Göktürk Kağanı Kapagan’ın gönderdiği ordular Semerkant ve çevresini kendine bağladı; bu hâkimiyet uzun sürmedi, 711’de Kuteybe şehri kesin biçimde fethetti.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Semerkant» md., https://islamansiklopedisi.org.tr/semerkant (bu oturumda okundu): «II. Göktürk Devleti Kağanı Kapağan gönderdiği ordularla Semerkant ve çevresini kendine bağladı (701). Ancak bu uzun sürmedi»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Semerkant» md., https://islamansiklopedisi.org.tr/semerkant: «II. Göktürk Devleti Kağanı Kapağan gönderdiği ordularla Semerkant ve çevresini kendine bağladı (701). Ancak bu uzun sürmedi»",
   "gun": "701",
   "kesinlik": "yil",
   "ic_not": "Semerkant yaması 701’i ayrı dilim yapmadı (TDV yalnız «Semerkant ve çevresi» der; hâkimiyetin süresi/yeri belirsiz); bu madde yerleşim zincirine bağlı değildir, bu yüzden tur=toprak-kazanc yerine ayrı tutuldu (aşağıda `tur` düzeltmesi)."
@@ -14208,7 +14208,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Belh",
   "d": "Horasan valisi Kuteybe b. Müslim’e karşı ayaklanan Eftalit Prensi Tarhan Nîzek Tohâristan yabgusunun desteğiyle Belh’i aldı; Kuteybe’nin gönderdiği kuvvetler onu ortadan kaldırdı. Halkın sık ayaklanması şehri harabeye çevirdi; Araplar karargâhı Berûkân’a taşıdı.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Tohâristan» md., https://islamansiklopedisi.org.tr/toharistan (bu oturumda okundu): «Eftalit Prensi Tarhan Nîzek Belh’i aldıysa da Kuteybe b. Müslim tarafından ortadan kaldırıldı (91/710)» | TDV İslâm Ansiklopedisi, «Belh» md., https://islamansiklopedisi.org.tr/belh (bu oturumda okundu): «709’da Vali Kuteybe b. Müslim’e karşı ayaklanan Eftalit Prensi Tarhan Nîzek Belh’i aldıysa da daha sonra Kuteybe’nin gönderdiği kuvvetlere yenildi»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Tohâristan» md., https://islamansiklopedisi.org.tr/toharistan: «Eftalit Prensi Tarhan Nîzek Belh’i aldıysa da Kuteybe b. Müslim tarafından ortadan kaldırıldı (91/710)» | TDV İslâm Ansiklopedisi, «Belh» md., https://islamansiklopedisi.org.tr/belh: «709’da Vali Kuteybe b. Müslim’e karşı ayaklanan Eftalit Prensi Tarhan Nîzek Belh’i aldıysa da daha sonra Kuteybe’nin gönderdiği kuvvetlere yenildi»",
   "gun": "709/710",
   "kesinlik": "yil",
   "ic_not": "ÇELİŞKİ: TDV Tohâristan «91/710», TDV Belh «709». İki TDV maddesi yılı ayrı verir (TDV esastır, çelişki beyan edilir); hicrî 91 ∩ 710 kesişimi 710-01-01’de başlar, 709 seçeneği 709 içinde kalır. 0710-01-01 seçildi. ic_not_takvim: hicrî 91 (kaynağın mîlâdî yılı 710) ∩ 710 kesişiminin ilk günü = Jülyen 0710-01-01 (aritmetik hicrî tablo, ±1-2 gün); hicrî yıl başı (1 Muharrem 91) = Jülyen 0709-11-09."
@@ -14229,7 +14229,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Kâs (Hârizm)",
   "d": "Hârizm’deki iç karışıklıklardan yararlanan Kuteybe b. Müslim’in İslâm ordusu 93’te (712) bölgeyi fethetti; Afrigoğulları’ndan Hârizmşah Eskecemûk Emevî tâbiiyetiyle yerinde bırakıldı.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Hârizm» md., https://islamansiklopedisi.org.tr/harizm (bu oturumda okundu): «Kuteybe b. Müslim kumandasındaki İslâm ordusunun 93’te (712) bölgeyi fethetmesinden sonra Afrigoğulları’ndan Hârizmşah Eskecemûk yerinde bırakıldı»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Hârizm» md., https://islamansiklopedisi.org.tr/harizm: «Kuteybe b. Müslim kumandasındaki İslâm ordusunun 93’te (712) bölgeyi fethetmesinden sonra Afrigoğulları’ndan Hârizmşah Eskecemûk yerinde bırakıldı»",
   "gun": "93/712",
   "kesinlik": "yil",
   "ic_not_takvim": "hicrî 93 (kaynağın mîlâdî yılı 712) ∩ 712 kesişiminin ilk günü = Jülyen 0712-01-01 (aritmetik hicrî tablo, ±1-2 gün); hicrî yıl başı (1 Muharrem 93) = Jülyen 0711-10-19.",
@@ -14251,7 +14251,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Derbend",
   "d": "Hişâm’ın kardeşi Mesleme b. Abdülmelik kumandasındaki İslâm kuvvetleri Hazarlar üzerine yürüyüp 708’de bazı şehir ve kaleleri aldı, 714’te Derbend Geçidi’ni ele geçirdi; 717’de İstanbul kuşatması için bölgeden ayrılınca Hazarlar karşı harekâta geçip İslâm kuvvetlerini geri püskürttü.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Hazarlar» md., https://islamansiklopedisi.org.tr/hazarlar (bu oturumda okundu): «Mesleme b. Abdülmelik kumandasındaki İslâm kuvvetleri Hazarlar üzerine yürüyerek bazı şehir ve kaleleri fethettiler (708). 714 yılında Derbend Geçidi’ni ele geçiren Mesleme 717’de İstanbul’u kuşatmak üzere bölgeden ayrılınca Hazarlar karşı harekâta girişerek İslâm kuvvetlerini geri»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Hazarlar» md., https://islamansiklopedisi.org.tr/hazarlar: «Mesleme b. Abdülmelik kumandasındaki İslâm kuvvetleri Hazarlar üzerine yürüyerek bazı şehir ve kaleleri fethettiler (708). 714 yılında Derbend Geçidi’ni ele geçiren Mesleme 717’de İstanbul’u kuşatmak üzere bölgeden ayrılınca Hazarlar karşı harekâta girişerek İslâm kuvvetlerini geri»",
   "gun": "708 / 714",
   "kesinlik": "yil",
   "ic_not": "Derbend atlas yerleşimi bu maddede yazılmaz (Derbend zinciri başka kümenin işi); madde toprak-kazanc değildir."
@@ -14272,7 +14272,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Tohâristan",
   "d": "705’te iş başına geçen Yabgu Na-tu-ni-li Emevîler, Tibetliler ve Çin’e komşu ülkesini ustalıkla yönetti; 718’de kardeşi Pou-lu’yu Çin sarayına elçi olarak yolladı. 726’da Esed b. Abdullah el-Kasrî’nin akınlarında Emevîlere esir düşmüş olması muhtemeldir.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Tohâristan» md., https://islamansiklopedisi.org.tr/toharistan (bu oturumda okundu): «705’te iş başına geçtiği anlaşılan Yabgu Na-tu-ni-li Emevîler’e, Tibetliler’e ve Çin İmparatorluğu’na komşu olan ülkesini iyi şekilde idare etmeye çalıştı ve kardeşi Pou-lu’yu Çin sarayına elçi sıfatıyla yolladı (718)»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Tohâristan» md., https://islamansiklopedisi.org.tr/toharistan: «705’te iş başına geçtiği anlaşılan Yabgu Na-tu-ni-li Emevîler’e, Tibetliler’e ve Çin İmparatorluğu’na komşu olan ülkesini iyi şekilde idare etmeye çalıştı ve kardeşi Pou-lu’yu Çin sarayına elçi sıfatıyla yolladı (718)»",
   "gun": "718",
   "kesinlik": "yil"
  },
@@ -14293,7 +14293,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Semerkant",
   "d": "102’de (721) Soğd halkına yardım bahanesiyle gelen Türgişler Soğd kuvvetleriyle birleşerek Semerkant ve Debûsiye dışında bölgeyi aldı; 110’da (728) Semerkant’ı kuşattı. İki yıl sonra Horasan Valisi Cüneyd el-Mürrî kuşatmayı kaldırdı.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Semerkant» md., https://islamansiklopedisi.org.tr/semerkant (bu oturumda okundu): «102’de (721) Soğd halkına yardım bahanesiyle gelen Türgişler, Soğd kuvvetleriyle birleşerek Semerkant ve Debûsiye dışında bütün bölgeyi ele geçirip Semerkant’ı kuşatma altına aldılar (110/728). İki yıl sonra Horasan Valisi Cüneyd el-Mürrî şehri muhasaradan kurtardı»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Semerkant» md., https://islamansiklopedisi.org.tr/semerkant: «102’de (721) Soğd halkına yardım bahanesiyle gelen Türgişler, Soğd kuvvetleriyle birleşerek Semerkant ve Debûsiye dışında bütün bölgeyi ele geçirip Semerkant’ı kuşatma altına aldılar (110/728). İki yıl sonra Horasan Valisi Cüneyd el-Mürrî şehri muhasaradan kurtardı»",
   "gun": "110/728",
   "kesinlik": "yil",
   "ic_not": "TDV kuşatmayı «110/728» ve Cüneyd’in kurtarışını «iki yıl sonra» (~730) verir; Takvim: hicrî 110 (kaynağın mîlâdî yılı 728) ∩ 728 kesişiminin ilk günü = Jülyen 0728-04-16 (aritmetik hicrî tablo, ±1-2 gün); hicrî yıl başı (1 Muharrem 110) = Jülyen 0728-04-16."
@@ -14314,7 +14314,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Tohâristan",
   "d": "Emevî akınlarında Na-tu-ni-li’nin yerine geçen oğlu Kutluk Toen Tardu Çin sarayına at, katır, ilaç ve kıymetli taş gönderdi; 729’da Çin imparatoru ona «Eftalit kralı ve Tohâristan yabgusu» unvanını verdi.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Tohâristan» md., https://islamansiklopedisi.org.tr/toharistan (bu oturumda okundu): «Çin imparatoru 729’da Kutluk’a “Eftalit kralı ve Tohâristan yabgusu” unvanını verdi»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Tohâristan» md., https://islamansiklopedisi.org.tr/toharistan: «Çin imparatoru 729’da Kutluk’a “Eftalit kralı ve Tohâristan yabgusu” unvanını verdi»",
   "gun": "729",
   "kesinlik": "yil"
  },
@@ -14334,7 +14334,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Belencer",
   "d": "Halife Yezîd b. Abdülmelik’in İrmîniye valisi yaptığı Cerrâh b. Abdullah el-Hakemî Derbend’in 6 fersah kuzeyinde Hazarlar’ı ağır yenilgiye uğratıp Tarki ve başşehir Belencer’i aldı; ancak 730 savaşlarında mağlup olarak Azerbaycan’a çekildi.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Hazarlar» md., https://islamansiklopedisi.org.tr/hazarlar (bu oturumda okundu): «Hakemî, Hazar topraklarında ilerleyerek Derbend’in 6 fersah kuzeyinde Hazarlar’ı ağır bir yenilgiye uğrattı ve Tarki ile başşehir Belencer’i fethetti. Ancak 730 yılındaki savaşlarda mağlûp olarak Azerbaycan’a geri çekildi»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Hazarlar» md., https://islamansiklopedisi.org.tr/hazarlar: «Hakemî, Hazar topraklarında ilerleyerek Derbend’in 6 fersah kuzeyinde Hazarlar’ı ağır bir yenilgiye uğrattı ve Tarki ile başşehir Belencer’i fethetti. Ancak 730 yılındaki savaşlarda mağlûp olarak Azerbaycan’a geri çekildi»",
   "gun": "730",
   "kesinlik": "yil",
   "ic_not": "Belencer’in fethi yılı TDV’de verilmez; mağlubiyet 730. Yıl hassasiyeti."
@@ -14355,7 +14355,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "İtil (İdil)",
   "d": "732’de Azerbaycan-İrmîniye valisi Mervân b. Muhammed 40.000 kişilik orduyla Derbend’i aşıp Belencer’e girdi, ardından 150.000 kişilik ordusuyla iki kolda yeni Hazar başşehri İdil’e yürüdü; Hazar hakanı kuzeye çekildi ve antlaşma imzalandı (İdil’de iki fakih kalacak, hakan İslâm’ı öğrenecekti).",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Hazarlar» md., https://islamansiklopedisi.org.tr/hazarlar (bu oturumda okundu): «732’de Azerbaycan-İrmîniye valiliğine getirilen Mervân b. Muhammed 40.000 kişilik bir ordu ile Hazarlar üzerine büyük bir sefer yaptı ve Derbend Geçidi’ni aşıp Belencer’e girdi … iki koldan yeni Hazar başşehri İdil’e ilerledi … İmzalanan antlaşmaya göre İdil’de iki fakih kalacak»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Hazarlar» md., https://islamansiklopedisi.org.tr/hazarlar: «732’de Azerbaycan-İrmîniye valiliğine getirilen Mervân b. Muhammed 40.000 kişilik bir ordu ile Hazarlar üzerine büyük bir sefer yaptı ve Derbend Geçidi’ni aşıp Belencer’e girdi … iki koldan yeni Hazar başşehri İdil’e ilerledi … İmzalanan antlaşmaya göre İdil’de iki fakih kalacak»",
   "gun": "732",
   "kesinlik": "yil"
  },
@@ -14376,7 +14376,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Ötüken",
   "d": "Göktürk egemenliğindeki Karluk, Basmıl ve Uygur oymakları Göktürk Kağanı Ozmış’ı yenip öldürdü; Basmılların idaresinde yeni bir kağanlık kuruldu, Uygurlar sol (doğu), Karluklar sağ (batı) yabguluğu oldu.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Uygurlar» md., https://islamansiklopedisi.org.tr/uygurlar (bu oturumda okundu): «742-743’te Göktürkler’in hâkimiyeti altında bulunan Karluk, Basmıl ve Uygur oymakları Göktürk Kağanı Ozmış’ı mağlûp ederek öldürdüler. Göktürk Devleti ortadan kalkınca Basmıllar’ın idaresinde yeni bir kağanlık kuruldu. Uygurlar sol (doğu), Karluklar sağ (batı) yabguluğu teşkil ettiler»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Uygurlar» md., https://islamansiklopedisi.org.tr/uygurlar: «742-743’te Göktürkler’in hâkimiyeti altında bulunan Karluk, Basmıl ve Uygur oymakları Göktürk Kağanı Ozmış’ı mağlûp ederek öldürdüler. Göktürk Devleti ortadan kalkınca Basmıllar’ın idaresinde yeni bir kağanlık kuruldu. Uygurlar sol (doğu), Karluklar sağ (batı) yabguluğu teşkil ettiler»",
   "gun": "742-743",
   "kesinlik": "yil",
   "ic_not": "TDV «742-743»: ilk yıl alındı. MS1 basmil künyesi f=0742 (aynı kaynak)."
@@ -14398,7 +14398,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Tohâristan",
   "d": "Kie-che ülkesinin teşvik ettiği Tibet saldırısına karşı Tohâristan yabgusu Çin’den Kuça’daki askerî birliklerin gönderilmesini istedi; Çin yardımıyla birleşen Tohâristan ordusu Tibet ordusunu yendi.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Tohâristan» md., https://islamansiklopedisi.org.tr/toharistan (bu oturumda okundu): «Tohâristan’ın komşusu Kie-che ülkesi 749’da Tibetliler’i Tohâristan’a saldırmaya teşvik etti … Çin imparatorunun yolladığı askerlerle birleşen Tohâristan ordusu Tibet ordusunu yendi»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Tohâristan» md., https://islamansiklopedisi.org.tr/toharistan: «Tohâristan’ın komşusu Kie-che ülkesi 749’da Tibetliler’i Tohâristan’a saldırmaya teşvik etti … Çin imparatorunun yolladığı askerlerle birleşen Tohâristan ordusu Tibet ordusunu yendi»",
   "gun": "749",
   "kesinlik": "yil"
  },
@@ -14418,7 +14418,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Kâs (Hârizm)",
   "d": "Çin kaynaklarına göre Hârizmşah Şavuşfer 751’de imparatorluk sarayına elçi göndererek Müslüman Araplara karşı yardım istedi.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Hârizm» md., https://islamansiklopedisi.org.tr/harizm (bu oturumda okundu): «Çin kaynaklarında, Hârizmşah Şavuşfer’in 751 yılında imparatorluk sarayına bir elçi göndererek müslüman Araplar’a karşı yardım istediği söylenir»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Hârizm» md., https://islamansiklopedisi.org.tr/harizm: «Çin kaynaklarında, Hârizmşah Şavuşfer’in 751 yılında imparatorluk sarayına bir elçi göndererek müslüman Araplar’a karşı yardım istediği söylenir»",
   "gun": "751",
   "kesinlik": "yil"
  },
@@ -14437,7 +14437,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Ordu-Balık (Karabalgasun)",
   "d": "Uygur Kağanlığı sırasında Moyen-çor (Bayan-çor) Kağan adına 759’da dikilen Türkçe runik yazıtlı Şine-Usu, 826 tarihli Taryat ve Karabalasagun yazıtlarıyla birlikte Uygur kültürünün ve devletin kağan merkezli düzeninin başlıca tanığıdır.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Uygurlar» md., https://islamansiklopedisi.org.tr/uygurlar (bu oturumda okundu): «Şine-Usu (Moyen-çor Kağan adına 759’da), Taryat ve Karabalasagun (826) yazıtları»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Uygurlar» md., https://islamansiklopedisi.org.tr/uygurlar: «Şine-Usu (Moyen-çor Kağan adına 759’da), Taryat ve Karabalasagun (826) yazıtları»",
   "gun": "759",
   "kesinlik": "yil"
  },
@@ -14457,7 +14457,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Tiflis",
   "d": "Hazar hakanının kızının doğumda ölümünü kasıtlı sayması üzerine As-Tarhan komutasındaki Hazar ordusu İslâm topraklarına girip 764’te Tiflis’i ele geçirdi.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Hazarlar» md., https://islamansiklopedisi.org.tr/hazarlar (bu oturumda okundu): «764 yılında Tiflis ele geçirildi»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Hazarlar» md., https://islamansiklopedisi.org.tr/hazarlar: «764 yılında Tiflis ele geçirildi»",
   "gun": "764",
   "kesinlik": "yil",
   "ic_not": "Tiflis atlas zincirine bağlı sınır maddesi yazılmadı (Tiflis zincirini 764 öncesi/sonrası başka kümeler tutar; toprak-kazanç statüsü sahipliğin kalıcılığı gösterilmeden verilmedi). Tiflis’in 629 Hazar kuşatması TDV’de var (okundu), pencere dışı."
@@ -14478,7 +14478,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Sarkel (Don)",
   "d": "Hazar hakanının yardım istemesi üzerine Bizans’tan gönderilen mühendis Petronas’ın yönettiği ustalar Don’un sol kıyısında Peçenek/Oğuz baskısına karşı Beyaz Kale’yi (Sarkel) kurdu.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Hazarlar» md., https://islamansiklopedisi.org.tr/hazarlar (bu oturumda okundu): «833 yılında Hazar hakanının yardım istemesi üzerine Bizans’tan gönderilen Petronas adlı mühendisin idaresindeki ustalar Don nehrinin sol kıyısında Sarkel Kalesi’ni (Beyaz Kale) inşa ettiler»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Hazarlar» md., https://islamansiklopedisi.org.tr/hazarlar: «833 yılında Hazar hakanının yardım istemesi üzerine Bizans’tan gönderilen Petronas adlı mühendisin idaresindeki ustalar Don nehrinin sol kıyısında Sarkel Kalesi’ni (Beyaz Kale) inşa ettiler»",
   "gun": "833",
   "kesinlik": "yil"
  },
@@ -14499,7 +14499,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Ordu-Balık (Karabalgasun)",
   "d": "Kırgız komutanı Julumohe (Jiu Tang: Julumo He) Uygur başkentini yıktı, Uygur Kağanlığı sona erdi; on beş boy batıda Karluklara, bir kol Kansu’ya (Gansu Uygur), bir kol Turfan-Koço-Beşbalık’a göç etti.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Uygurlar» md., https://islamansiklopedisi.org.tr/uygurlar (bu oturumda okundu): «840 yılındaki Kırgız saldırısı kağanlığın sonunu getirdi» | «On beş Uygur kabilesi batıya Karluklar’a gitti. Diğer bir grup Çin’in kuzeyindeki Kansu vilâyetine göç etti» | Jiu Tang shu juan 195 «Huihe» (Wikisource 舊唐書/卷195, bu oturumda okundu): «走引黠戛斯領十萬騎破回鶻城，殺{{PUA|}}馺，斬掘羅勿，燒蕩殆盡，回鶻散奔諸蕃» — https://zh.wikisource.org/wiki/舊唐書/卷195",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Uygurlar» md., https://islamansiklopedisi.org.tr/uygurlar: «840 yılındaki Kırgız saldırısı kağanlığın sonunu getirdi» | «On beş Uygur kabilesi batıya Karluklar’a gitti. Diğer bir grup Çin’in kuzeyindeki Kansu vilâyetine göç etti» | Jiu Tang shu juan 195 «Huihe» (Wikisource 舊唐書/卷195): «走引黠戛斯領十萬騎破回鶻城，殺{{PUA|}}馺，斬掘羅勿，燒蕩殆盡，回鶻散奔諸蕃» — https://zh.wikisource.org/wiki/舊唐書/卷195",
   "gun": "840",
   "kesinlik": "yil",
   "ic_not": "Jiu Tang 195 «開成» yılları arasında olduğunu (gün ve ay vermez) gösterir; TDV 840. Kırgız komutanının adı Jiu Tang’da «句錄末賀» (Julumohe) — metin PUA karakterli aktarım (Wikisource), yıl 840 TDV’den. Jiu Tang 195’te «Kırgız» yerine «黠戛斯» yazılır."
@@ -14520,7 +14520,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Kâs (Hârizm)",
   "d": "Afrigoğlu Hârizmşah Abdullah b. Eşkâm 332’de (943-44) Sâmânî hükümdarı I. Nûh’a isyan etti; X. yüzyılın başından beri Sâmânîler Hârizm’i kendilerine bağlamıştı.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Hârizm» md., https://islamansiklopedisi.org.tr/harizm (bu oturumda okundu): «Hârizmşah Abdullah b. Eşkām 332’de (943-44) tâbi olduğu Sâmânî Hükümdarı I. Nûh’a isyan etti. Sâmânîler IV. (X.) yüzyılın başlarında bölgeyi kendilerine bağladılar»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Hârizm» md., https://islamansiklopedisi.org.tr/harizm: «Hârizmşah Abdullah b. Eşkām 332’de (943-44) tâbi olduğu Sâmânî Hükümdarı I. Nûh’a isyan etti. Sâmânîler IV. (X.) yüzyılın başlarında bölgeyi kendilerine bağladılar»",
   "gun": "332 (943-44)",
   "kesinlik": "yil",
   "ic_not": "TDV «332’de (943-44)»: hicrî 332 yılı iki miladi yıla yayılır; hicrî yıl başı (kesişimin ilk günü kuralı) Jülyen 0943-09-04 (±1-2 gün; aritmetik hicrî tablo). Yıl içi ay TDV’de yok.",
@@ -14541,7 +14541,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "kamag-mogol"
   ],
   "d": "Babası Yesügey'in ölümünden sonra terk edilen Timuçin, 1195'te çevresine çok sayıda kabileyi topladı; bu, 1206 kurultayına giden Moğol birliğinin başlangıcıdır.",
-  "kaynak": "TDV İslâm Ansiklopedisi, Mustafa Kafalı, \"Cengiz Han\" md., 1993, https://islamansiklopedisi.org.tr/cengiz-han («1195 yılında çok sayıda kabile Timuçin’e katıldı.») (bu oturumda okundu)",
+  "kaynak": "TDV İslâm Ansiklopedisi, Mustafa Kafalı, \"Cengiz Han\" md., 1993, https://islamansiklopedisi.org.tr/cengiz-han («1195 yılında çok sayıda kabile Timuçin’e katıldı.»)",
   "gun": "1195 (ay-gün yok)",
   "kesinlik": "yil"
  },
@@ -14560,7 +14560,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "kamag-mogol"
   ],
   "d": "Timuçin Merkitler üzerine yürüyüp onları yendi ve beyleri Tokta-Beki'yi öldürttü.",
-  "kaynak": "TDV İslâm Ansiklopedisi, Mustafa Kafalı, \"Cengiz Han\" md., 1993, https://islamansiklopedisi.org.tr/cengiz-han («1197’de Merkitler üzerine yürüyerek onları mağlûp etti ve Merkitler’in beyi Tokta-Beki’yi öldürttü.») (bu oturumda okundu)",
+  "kaynak": "TDV İslâm Ansiklopedisi, Mustafa Kafalı, \"Cengiz Han\" md., 1993, https://islamansiklopedisi.org.tr/cengiz-han («1197’de Merkitler üzerine yürüyerek onları mağlûp etti ve Merkitler’in beyi Tokta-Beki’yi öldürttü.»)",
   "gun": "1197 (ay-gün yok)",
   "kesinlik": "yil"
  },
@@ -14582,7 +14582,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "nayman"
   ],
   "d": "Timuçin Kerâyit hükümdarı Ong Han'la birlikte Kişil-Baş mevkiinde Nayman Hakanı Buyruk Han'ı bozguna uğrattı; iki hanlık bu aşamada müttefikti.",
-  "kaynak": "TDV İslâm Ansiklopedisi, Mustafa Kafalı, \"Cengiz Han\" md., 1993, https://islamansiklopedisi.org.tr/cengiz-han («1199’da Ong Han’la beraber Kişil-Baş mevkiinde Nayman Hakanı Buyruk Han’ı bozguna uğrattı.») (bu oturumda okundu)",
+  "kaynak": "TDV İslâm Ansiklopedisi, Mustafa Kafalı, \"Cengiz Han\" md., 1993, https://islamansiklopedisi.org.tr/cengiz-han («1199’da Ong Han’la beraber Kişil-Baş mevkiinde Nayman Hakanı Buyruk Han’ı bozguna uğrattı.»)",
   "gun": "1199 (ay-gün yok)",
   "kesinlik": "yil"
  },
@@ -14602,7 +14602,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "kerait"
   ],
   "d": "Timuçin ve Ong Han Tayiçiutlar'la anlaşan kavimler üzerine yürüyüp onları yenerek tâbi kıldılar; aynı yıl toparlanmaya çalışan Tayiçiut, Katagin ve Dörmenleri bir kez daha dağıttılar.",
-  "kaynak": "TDV İslâm Ansiklopedisi, Mustafa Kafalı, \"Cengiz Han\" md., 1993, https://islamansiklopedisi.org.tr/cengiz-han («Timuçin 1200 yılında Ong Han ile birlikte Tayciyutlar’la anlaşan kavimler üzerine yürüdü. Onları mağlûp edip kendilerine tâbi kıldı. Aynı yıl içinde Tayciyutlar, Kataginler ve Dörmenler derlenip toparlanmaya çalışınca Ong Han’la Timuçin tekrar üzerlerine yürüyerek onları bozguna uğrattılar.») (bu oturumda okundu)",
+  "kaynak": "TDV İslâm Ansiklopedisi, Mustafa Kafalı, \"Cengiz Han\" md., 1993, https://islamansiklopedisi.org.tr/cengiz-han («Timuçin 1200 yılında Ong Han ile birlikte Tayciyutlar’la anlaşan kavimler üzerine yürüdü. Onları mağlûp edip kendilerine tâbi kıldı. Aynı yıl içinde Tayciyutlar, Kataginler ve Dörmenler derlenip toparlanmaya çalışınca Ong Han’la Timuçin tekrar üzerlerine yürüyerek onları bozguna uğrattılar.»)",
   "gun": "1200 (ay-gün yok)",
   "kesinlik": "yil"
  },
@@ -14621,7 +14621,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "kamag-mogol"
   ],
   "d": "Timuçin'in düşmanı olan Enkiras, Kurilas, Dörmen, Tatar, Katagin ve Salciyut kabileleri Camoha-Seçen'i büyük han ilan edince Timuçin onlara yürüdü ve Camoha'nın müttefik kuvvetlerini yendi; Kongirat kabilesi ardından Timuçin'e bağlandı.",
-  "kaynak": "TDV İslâm Ansiklopedisi, Mustafa Kafalı, \"Cengiz Han\" md., 1993, https://islamansiklopedisi.org.tr/cengiz-han («1201’de Timuçin’in düşmanı olan Enkiras, Kurilas, Dörmen, Tatar, Katagin ve Salciyut kabileleri birleşerek Cacirat ilinden Camoha (Camuka) Seçen’i büyük han ilân ettiler. Bunun üzerine Timuçin onların üzerine yürüdü. Yapılan savaşta Camoha ve müttefik kuvvetleri yenildi.») (bu oturumda okundu)",
+  "kaynak": "TDV İslâm Ansiklopedisi, Mustafa Kafalı, \"Cengiz Han\" md., 1993, https://islamansiklopedisi.org.tr/cengiz-han («1201’de Timuçin’in düşmanı olan Enkiras, Kurilas, Dörmen, Tatar, Katagin ve Salciyut kabileleri birleşerek Cacirat ilinden Camoha (Camuka) Seçen’i büyük han ilân ettiler. Bunun üzerine Timuçin onların üzerine yürüdü. Yapılan savaşta Camoha ve müttefik kuvvetleri yenildi.»)",
   "gun": "1201 (ay-gün yok)",
   "kesinlik": "yil"
  },
@@ -14640,7 +14640,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "kamag-mogol"
   ],
   "d": "Timuçin Tatar ili üzerine büyük sefer yaparak düşmanlarına ağır darbe vurdu; aynı yıl toparlanan Naymanlara Ong Han ile birlikte yürüdü.",
-  "kaynak": "TDV İslâm Ansiklopedisi, Mustafa Kafalı, \"Cengiz Han\" md., 1993, https://islamansiklopedisi.org.tr/cengiz-han («Timuçin 1202 yılında Tatar ili üzerine büyük bir sefer yaparak düşmanlarına ağır bir darbe vurdu.») (bu oturumda okundu)",
+  "kaynak": "TDV İslâm Ansiklopedisi, Mustafa Kafalı, \"Cengiz Han\" md., 1993, https://islamansiklopedisi.org.tr/cengiz-han («Timuçin 1202 yılında Tatar ili üzerine büyük bir sefer yaparak düşmanlarına ağır bir darbe vurdu.»)",
   "gun": "1202 (ay-gün yok)",
   "kesinlik": "yil"
  },
@@ -14661,7 +14661,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "kerait"
   ],
   "d": "Camoha-Seçen, Ong Han ve oğlu Senggün Timuçin'e suikast tertipleyince Timuçin âni baskınla Ong Han'ın yurdunu ve Kerâyit ülkesini yağmaladı; Ong Han ile oğlu kaçtı. Müttefikler düşman oldu, Kerâyit hanlığı dağılma yoluna girdi.",
-  "kaynak": "TDV İslâm Ansiklopedisi, Mustafa Kafalı, \"Cengiz Han\" md., 1993, https://islamansiklopedisi.org.tr/cengiz-han («Büyük han ilân edilen Camoha-Seçen ile Ong Han ve oğlu Senggün 1203’te Timuçin’e suikast tertiplediler. Fakat bunu önceden haber alan Timuçin âni bir baskınla Ong Han’ın yurdunu ve Kerayit ülkesini yağmaladı. Ong Han ile oğlu kaçtılar.») (bu oturumda okundu)",
+  "kaynak": "TDV İslâm Ansiklopedisi, Mustafa Kafalı, \"Cengiz Han\" md., 1993, https://islamansiklopedisi.org.tr/cengiz-han («Büyük han ilân edilen Camoha-Seçen ile Ong Han ve oğlu Senggün 1203’te Timuçin’e suikast tertiplediler. Fakat bunu önceden haber alan Timuçin âni bir baskınla Ong Han’ın yurdunu ve Kerayit ülkesini yağmaladı. Ong Han ile oğlu kaçtılar.»)",
   "gun": "1203 (ay-gün yok)",
   "kesinlik": "yil",
   "ic_not": "Kerâyit hanlığının sonu için ayrıca yıl veren kaynak bulunamadı (TDV md. yok): künye t=1203 bu olaya dayanır."
@@ -14682,7 +14682,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "nayman"
   ],
   "d": "Ongut hükümdarı Alakuş Tigin Nayman hükümdarı Tayang Han'ın Merkit Kutuku ile anlaştığını bildirince Timuçin hazırlıklarını tamamlayıp müttefik kuvvetleri yurtlarında bastı ve dağıttı; 1206'da bozkırın bütün hükümdarları onun hâkimiyetinde toplandı.",
-  "kaynak": "TDV İslâm Ansiklopedisi, Mustafa Kafalı, \"Cengiz Han\" md., 1993, https://islamansiklopedisi.org.tr/cengiz-han («1204 yılında Ongut Hükümdarı Alakuş Tigin, Timuçin’e haber göndererek Nayman Hükümdarı Tayang Han’ın Merkit Hükümdarı Kutuku ile anlaşma yaptığını ve onlara Katagin ve Salciyut gibi kavimlerin iltihak ettiğini haber verdi. Timuçin süratle hazırlıklarını tamamlayarak müttefik kuvvetleri yurtlarında bastı ve hepsini dağıttı.») (bu oturumda okundu)",
+  "kaynak": "TDV İslâm Ansiklopedisi, Mustafa Kafalı, \"Cengiz Han\" md., 1993, https://islamansiklopedisi.org.tr/cengiz-han («1204 yılında Ongut Hükümdarı Alakuş Tigin, Timuçin’e haber göndererek Nayman Hükümdarı Tayang Han’ın Merkit Hükümdarı Kutuku ile anlaşma yaptığını ve onlara Katagin ve Salciyut gibi kavimlerin iltihak ettiğini haber verdi. Timuçin süratle hazırlıklarını tamamlayarak müttefik kuvvetleri yurtlarında bastı ve hepsini dağıttı.»)",
   "gun": "1204 (ay-gün yok)",
   "kesinlik": "yil"
  },
@@ -14703,7 +14703,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "kuclug-karahitay"
   ],
   "d": "1208 kışında Küçlüğ'ün Merkitlerle ittifak etmesi üzerine Cengiz Han onları yenince Nayman Tayang Han'ın oğlu Küçlüğ batıdaki Karahıtay hükümdarı Gür Han'a sığındı; daha sonra Karahıtay tahtına el koydu.",
-  "kaynak": "TDV İslâm Ansiklopedisi, Mustafa Kafalı, \"Cengiz Han\" md., 1993, https://islamansiklopedisi.org.tr/cengiz-han («1208 yılının kış mevsiminde Nayman Hükümdarı Tayang Han’ın oğlu Güçlüg’ün Merkitler’le ittifak yapması üzerine Cengiz Han harekete geçerek onları mağlûp etti; Merkit hükümdarı öldü, kardeşleri ve çocukları Uygur ülkesine kaçtılar. Nayman Güçlüg ise daha batıdaki Karahıtay Hükümdarı Gür Han’a sığındı. Fakat Güçlüg burada da rahat durmayarak Gür Han’ı öldürdü ve ülkesine hâkim oldu.») (bu oturumda okundu)",
+  "kaynak": "TDV İslâm Ansiklopedisi, Mustafa Kafalı, \"Cengiz Han\" md., 1993, https://islamansiklopedisi.org.tr/cengiz-han («1208 yılının kış mevsiminde Nayman Hükümdarı Tayang Han’ın oğlu Güçlüg’ün Merkitler’le ittifak yapması üzerine Cengiz Han harekete geçerek onları mağlûp etti; Merkit hükümdarı öldü, kardeşleri ve çocukları Uygur ülkesine kaçtılar. Nayman Güçlüg ise daha batıdaki Karahıtay Hükümdarı Gür Han’a sığındı. Fakat Güçlüg burada da rahat durmayarak Gür Han’ı öldürdü ve ülkesine hâkim oldu.»)",
   "gun": "1208 kışı (ay-gün yok)",
   "kesinlik": "yil",
   "ic_not": "ÇELİŞKİ: TDV Cengiz Han md. Küçlüğ'ün Gür Han'ı «öldürdüğünü», TDV Karahıtaylar md. «kayınpederi Ch’e-lu-ku’yu esir ederek bu devlete son verdiğini (1211)» yazar; ikisi de TDV, olayın biçimi için Karahıtaylar md. esas alınır (kuclug-karahitay künyesi 1211)."
@@ -14726,7 +14726,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "dogu-karahanli"
   ],
   "d": "Küçlüğ Han, Gürhan'ı esir alınca Doğu Karahanlı Ebü'l-Feth III. Muhammed'i Kâşgar tahtına oturtmak üzere yolladı; fakat şehrin ileri gelenleri ve beyler isyan edip hânedanın son temsilcisini yolda öldürdü (607/1210-11). Küçlüğ Kâşgar'ı alıp isyancıları öldürttü; Doğu Karahanlılar sona erdi.",
-  "kaynak": "TDV İslâm Ansiklopedisi, Abdülkerim Özaydın, \"Karahanlılar\" md., 2001, https://islamansiklopedisi.org.tr/karahanlilar («Fakat şehrin ileri gelenleri ve beyler isyan edip Karahanlılar’ın bu son temsilcisini daha Kâşgar’a varmadan yolda öldürdüler (607/1210-11). Bunun üzerine Güçlüg Han Kâşgar’ı da ele geçirip isyancıları öldürttü. Doğu Karahanlılar da bu şekilde sona ermiş oldu.») (bu oturumda okundu)",
+  "kaynak": "TDV İslâm Ansiklopedisi, Abdülkerim Özaydın, \"Karahanlılar\" md., 2001, https://islamansiklopedisi.org.tr/karahanlilar («Fakat şehrin ileri gelenleri ve beyler isyan edip Karahanlılar’ın bu son temsilcisini daha Kâşgar’a varmadan yolda öldürdüler (607/1210-11). Bunun üzerine Güçlüg Han Kâşgar’ı da ele geçirip isyancıları öldürttü. Doğu Karahanlılar da bu şekilde sona ermiş oldu.»)",
   "gun": "607/1210-11",
   "kesinlik": "yil",
   "ic_not": "TDV hicrî 607 yılını «1210-11» diye verir; hicrî 607 ∩ (1210-1211) = tüm hicrî yıl, ilk günü alındı (yıl hassasiyeti). Atlas künyesi dogu-karahanli t=1210-01-01 ve Kâşgar zincirinde __BOSLUK__ 1211-1218 (kuclug-karahitay künyesi hazır) — düzeltme önerisi RAPOR.md.",
@@ -14748,7 +14748,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "harizmsah"
   ],
   "d": "Hârizmşah Alâeddin Tekiş 1200'de ölünce Gurlular Hârizmşahlar'a savaş açtı, Nîşâbur'u kolaylıkla ele geçirdi; ertesi yıl Mervüşşahcân'ı, ardından Serah bölgesini zaptetti. Böylece bütün Horasan Gurlu kontrolüne girdi.",
-  "kaynak": "TDV İslâm Ansiklopedisi, Iqtidar Husain Siddiqui, \"Gurlular\" md., 1996, https://islamansiklopedisi.org.tr/gurlular («Sultan Alâeddin Tekiş’in 1200 yılında ölümü üzerine Gurlular Hârizmşahlar’a karşı savaş açtılar ve Nîşâbur’u kolaylıkla ele geçirdiler. Ertesi yıl Mervüşşahcân’ı, ardından Serah bölgesini zaptettiler. Böylece bütün Horasan Gurlular’ın kontrolü altına girdi.») (bu oturumda okundu)",
+  "kaynak": "TDV İslâm Ansiklopedisi, Iqtidar Husain Siddiqui, \"Gurlular\" md., 1996, https://islamansiklopedisi.org.tr/gurlular («Sultan Alâeddin Tekiş’in 1200 yılında ölümü üzerine Gurlular Hârizmşahlar’a karşı savaş açtılar ve Nîşâbur’u kolaylıkla ele geçirdiler. Ertesi yıl Mervüşşahcân’ı, ardından Serah bölgesini zaptettiler. Böylece bütün Horasan Gurlular’ın kontrolü altına girdi.»)",
   "gun": "1200 (ay-gün yok)",
   "kesinlik": "yil",
   "ic_not": "ÇELİŞKİ/ATLAS: TDV Hârizmşahlar md. Alâeddin Muhammed'in Nîşâbur, Merv ve Serahs'ı 1204'te zaptettiğini yazar (kronolojide 1204 maddesi var); TDV Gurlular md. Gurlu işgalini 1200-1201 verir. Atlas Nîşâbur zinciri harizmsah 1202-01-01'de başlar (bu işçinin dışındaki bir kümenin kaydı) — Nîşâbur/Merv/Serahs 1200/01-1204 gurlu önerisi RAPOR.md'de; zincire dokunulmadı çünkü iki TDV maddesi arası şehir-düzeyi gün yok."
@@ -14769,7 +14769,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "mogol-imparatorlugu"
   ],
   "d": "Cengiz Han'a 1207'de itaat eden ilk Türk kavmi Kırgızlar 1217'de Moğollara karşı direnmeye kalktı.",
-  "kaynak": "TDV İslâm Ansiklopedisi, İsmail Türkoğlu, \"Kırgızlar\" md., 2019, https://islamansiklopedisi.org.tr/kirgizlar («Kırgızlar, Cengiz Han’a itaat eden ilk Türk kavmidir. 1217’de Moğollar’a karşı direnmeye kalkıştılarsa da ertesi yıl Cengiz Han’ın oğlu Cuci tarafından yenilgiye uğratılıp tekrar imparatorluğa bağlandılar.») (bu oturumda okundu)",
+  "kaynak": "TDV İslâm Ansiklopedisi, İsmail Türkoğlu, \"Kırgızlar\" md., 2019, https://islamansiklopedisi.org.tr/kirgizlar («Kırgızlar, Cengiz Han’a itaat eden ilk Türk kavmidir. 1217’de Moğollar’a karşı direnmeye kalkıştılarsa da ertesi yıl Cengiz Han’ın oğlu Cuci tarafından yenilgiye uğratılıp tekrar imparatorluğa bağlandılar.»)",
   "gun": "1217 (ay-gün yok)",
   "kesinlik": "yil"
  },
@@ -14789,7 +14789,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "yenisey-kirgiz"
   ],
   "d": "Cengiz Han'ın oğlu Cuci Kırgız direnişini ertesi yıl (1218) bastırıp âsi Kırgız ilini yeniden Moğol hâkimiyetine soktu.",
-  "kaynak": "TDV İslâm Ansiklopedisi, İsmail Türkoğlu, \"Kırgızlar\" md., 2019, https://islamansiklopedisi.org.tr/kirgizlar («1217’de Moğollar’a karşı direnmeye kalkıştılarsa da ertesi yıl Cengiz Han’ın oğlu Cuci tarafından yenilgiye uğratılıp tekrar imparatorluğa bağlandılar.») (bu oturumda okundu) | TDV İslâm Ansiklopedisi, Mustafa Kafalı, \"Cengiz Han\" md., 1993, https://islamansiklopedisi.org.tr/cengiz-han («Daha sonra oğlu Cuci’yi Kırgızlar üzerine sevkederek âsi Kırgız ilini hâkimiyeti altına aldı.») (bu oturumda okundu)",
+  "kaynak": "TDV İslâm Ansiklopedisi, İsmail Türkoğlu, \"Kırgızlar\" md., 2019, https://islamansiklopedisi.org.tr/kirgizlar («1217’de Moğollar’a karşı direnmeye kalkıştılarsa da ertesi yıl Cengiz Han’ın oğlu Cuci tarafından yenilgiye uğratılıp tekrar imparatorluğa bağlandılar.») | TDV İslâm Ansiklopedisi, Mustafa Kafalı, \"Cengiz Han\" md., 1993, https://islamansiklopedisi.org.tr/cengiz-han («Daha sonra oğlu Cuci’yi Kırgızlar üzerine sevkederek âsi Kırgız ilini hâkimiyeti altına aldı.»)",
   "gun": "1218 (ay-gün yok)",
   "kesinlik": "yil",
   "ic_not": "Cengiz Han md. bu seferi 1217 anlatısı içinde, Kırgızlar md. 1218 olarak verir (iki TDV yılı bir yıl ayrışıyor): Kırgızlar md. esas alındı."
@@ -14810,7 +14810,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "pecenek"
   ],
   "d": "Peçeneklerin Yayık-İdil arası yurdunda Hazarlar için büyüyen tehlikesine karşı Hazarlar Oğuzlarla ittifak kurup Peçeneklere hücum ederek onları İdil'in batısına geçmeye zorladı.",
-  "kaynak": "TDV İslâm Ansiklopedisi, Faruk Sümer, \"Peçenekler\" md., 2007, https://islamansiklopedisi.org.tr/pecenekler («Bundan dolayı Hazarlar, Peçenekler’e karşı Oğuzlar’la bir ittifak meydana getirdiler ve Peçenekler’e hücum edip (276/889) onları İdil’in batısına geçmeye mecbur bıraktılar.») (bu oturumda okundu)",
+  "kaynak": "TDV İslâm Ansiklopedisi, Faruk Sümer, \"Peçenekler\" md., 2007, https://islamansiklopedisi.org.tr/pecenekler («Bundan dolayı Hazarlar, Peçenekler’e karşı Oğuzlar’la bir ittifak meydana getirdiler ve Peçenekler’e hücum edip (276/889) onları İdil’in batısına geçmeye mecbur bıraktılar.»)",
   "gun": "276/889",
   "kesinlik": "yil",
   "ic_not": "Hicrî 276 ∩ 889: tüm hicrî yılın ilk günü alındı (yıl hassasiyeti). TDV Peçenekler md. başka yerde «898»de Oğuz-Hazar hücumuyla İdil-Yayık yurdunun terk edildiğini söyler (md. içi 889/898 farkı beyan edilir).",
@@ -14833,7 +14833,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "birinci-bulgar"
   ],
   "d": "Peçenekler Macarlarla karşılaşıp onları Levedya'dan Etelköz'e, oradan Tuna-Tisa boylarına göç ettirdi; 895'te Bulgar Kralı Simeon'un müttefiki olarak Macarlara saldırıp onları Pannonia'ya gitmek zorunda bıraktı ve Don'dan Tuna'ya uzanan bozkırı hâkimiyetine aldı.",
-  "kaynak": "TDV İslâm Ansiklopedisi, Faruk Sümer, \"Peçenekler\" md., 2007, https://islamansiklopedisi.org.tr/pecenekler («Peçenekler, 282 (895) yılında Bulgar Kralı Simeon’un müttefiki olarak Macarlar’a saldırıp onları bugünkü yurtları olan Pannonia’ya gitmek zorunda bıraktılar ve Ten (Don) ırmağından Tuna nehrine kadar uzanan bozkır bölgesini hâkimiyetleri altına aldılar.») (bu oturumda okundu)",
+  "kaynak": "TDV İslâm Ansiklopedisi, Faruk Sümer, \"Peçenekler\" md., 2007, https://islamansiklopedisi.org.tr/pecenekler («Peçenekler, 282 (895) yılında Bulgar Kralı Simeon’un müttefiki olarak Macarlar’a saldırıp onları bugünkü yurtları olan Pannonia’ya gitmek zorunda bıraktılar ve Ten (Don) ırmağından Tuna nehrine kadar uzanan bozkır bölgesini hâkimiyetleri altına aldılar.»)",
   "gun": "282/895",
   "kesinlik": "yil",
   "ic_not_takvim": "Hicrî tarih tabloyla (aritmetik hicrî takvim, Jülyen) çevrildi; ±1 gün belirsizdir. Kaynak yalnız hicrî yıl/ay ve milâdî yıl/ay verdiği için hicrî aralık ∩ kaynağın milâdî ayı kesişiminin ilk günü alındı."
@@ -14855,7 +14855,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "bizans"
   ],
   "d": "Peçeneklerin Kiev'i kuşattığını haber alan Svyatoslav 968'de dönmüştü; 972'de Peçenek başbuğu Küre, Bizans'ın müttefiki olarak Svyatoslav'ı yapılan bir karşılaşmada yenip öldürdü.",
-  "kaynak": "TDV İslâm Ansiklopedisi, Faruk Sümer, \"Peçenekler\" md., 2007, https://islamansiklopedisi.org.tr/pecenekler («972’de Peçenek başbuğu Küre, Bizans’ın müttefiki olarak, cesur bir insan olan ve Rus İskenderi denilen Svyatoslav’ı yapılan bir karşılaşmada yendi ve Rus prensi savaş meydanında kaldı.») (bu oturumda okundu)",
+  "kaynak": "TDV İslâm Ansiklopedisi, Faruk Sümer, \"Peçenekler\" md., 2007, https://islamansiklopedisi.org.tr/pecenekler («972’de Peçenek başbuğu Küre, Bizans’ın müttefiki olarak, cesur bir insan olan ve Rus İskenderi denilen Svyatoslav’ı yapılan bir karşılaşmada yendi ve Rus prensi savaş meydanında kaldı.»)",
   "gun": "972 (ay-gün yok)",
   "kesinlik": "yil"
  },
@@ -14875,7 +14875,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "bizans"
   ],
   "d": "Bulgaristan'ın 1018'de Bizans idaresine girmesiyle başlayan temaslar 1035'te Peçeneklerin Tuna'yı ilk kez geçip nehrin güney kıyısını yağmalamasıyla savaşa döndü; 1036'da üç kez Bizans topraklarına girdiler.",
-  "kaynak": "TDV İslâm Ansiklopedisi, Faruk Sümer, \"Peçenekler\" md., 2007, https://islamansiklopedisi.org.tr/pecenekler («Peçenekler ilk defa 1035’te Tuna’yı geçerek nehrin güney kıyılarını yağmaladılar ve 1036’da üç defa Bizans topraklarına girdiler.») (bu oturumda okundu)",
+  "kaynak": "TDV İslâm Ansiklopedisi, Faruk Sümer, \"Peçenekler\" md., 2007, https://islamansiklopedisi.org.tr/pecenekler («Peçenekler ilk defa 1035’te Tuna’yı geçerek nehrin güney kıyılarını yağmaladılar ve 1036’da üç defa Bizans topraklarına girdiler.»)",
   "gun": "1035 (ay-gün yok)",
   "kesinlik": "yil"
  },
@@ -14895,7 +14895,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "bizans"
   ],
   "d": "1048'deki Peçenek akını dehşet verici oldu: Bulgaristan yakılıp yıkıldı, akınlar Balkanların öteki bölgelerine yayıldı; iç çekişmeler akınları zayıflattı, iki Peçenek oymağı Bizans'a sığınıp Silistre yakınında sınır bekçisi yapıldı.",
-  "kaynak": "TDV İslâm Ansiklopedisi, Faruk Sümer, \"Peçenekler\" md., 2007, https://islamansiklopedisi.org.tr/pecenekler («1048’de yaptıkları akın dehşet verici oldu, Bulgaristan’ı yakıp yıktıktan sonra akınlarını sürdürerek Balkanlar’ın diğer bölgelerini de yağmaladılar.») (bu oturumda okundu)",
+  "kaynak": "TDV İslâm Ansiklopedisi, Faruk Sümer, \"Peçenekler\" md., 2007, https://islamansiklopedisi.org.tr/pecenekler («1048’de yaptıkları akın dehşet verici oldu, Bulgaristan’ı yakıp yıktıktan sonra akınlarını sürdürerek Balkanlar’ın diğer bölgelerini de yağmaladılar.»)",
   "gun": "1048 (ay-gün yok)",
   "kesinlik": "yil"
  },
@@ -14915,7 +14915,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "bizans"
   ],
   "d": "Bizans yardımıyla Kegen'e esir düşen Turak ve arkadaşları kısa maceradan sonra Tuna boyundaki yurtlarına dönüp yeniden mücadeleye başladı, Bizans ordusunu yenip Edirne'ye kadar ulaştı (1049).",
-  "kaynak": "TDV İslâm Ansiklopedisi, Faruk Sümer, \"Peçenekler\" md., 2007, https://islamansiklopedisi.org.tr/pecenekler («Fakat Turak ve arkadaşları kısa bir maceradan sonra Tuna boyundaki yurtlarına döndüler, yeniden mücadeleye başlayarak Bizans ordusunu yenip Edirne’ye kadar ulaştılar (1049).») (bu oturumda okundu)",
+  "kaynak": "TDV İslâm Ansiklopedisi, Faruk Sümer, \"Peçenekler\" md., 2007, https://islamansiklopedisi.org.tr/pecenekler («Fakat Turak ve arkadaşları kısa bir maceradan sonra Tuna boyundaki yurtlarına döndüler, yeniden mücadeleye başlayarak Bizans ordusunu yenip Edirne’ye kadar ulaştılar (1049).»)",
   "gun": "1049 (ay-gün yok)",
   "kesinlik": "yil"
  },
@@ -14934,7 +14934,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "pecenek"
   ],
   "d": "Kıpçak baskısıyla Tuna boyuna gelen Uzlar (Oğuzlar) 1064-1065'te Tuna'yı geçip Balkanlarda geniş bir yağma akınına girişince Peçeneklerin bir bölümü onları dağıttı.",
-  "kaynak": "TDV İslâm Ansiklopedisi, Faruk Sümer, \"Peçenekler\" md., 2007, https://islamansiklopedisi.org.tr/pecenekler («Kıpçaklar’ın baskıları ile Tuna boylarına gelen ve bu sırada (1064-1065) Tuna’yı geçerek Balkanlar’da geniş ölçüde bir yağma akınına girişen Uzlar’ı (Oğuzlar) dağıtan Peçenekler’in bir bölümü») (bu oturumda okundu)",
+  "kaynak": "TDV İslâm Ansiklopedisi, Faruk Sümer, \"Peçenekler\" md., 2007, https://islamansiklopedisi.org.tr/pecenekler («Kıpçaklar’ın baskıları ile Tuna boylarına gelen ve bu sırada (1064-1065) Tuna’yı geçerek Balkanlar’da geniş ölçüde bir yağma akınına girişen Uzlar’ı (Oğuzlar) dağıtan Peçenekler’in bir bölümü»)",
   "gun": "1064-1065",
   "kesinlik": "yil"
  },
@@ -14955,7 +14955,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "macaristan"
   ],
   "d": "1086'da Bogomillerin ayaklanmasını destekleyen Peçenekler ertesi yıl Macarlarla birleşip Bizans topraklarına girdi, Lüleburgaz'a kadar ilerledi; Bizans geri çekilmeye zorladıysa da Silistre yakınında ağır yenilgiye uğradı.",
-  "kaynak": "TDV İslâm Ansiklopedisi, Faruk Sümer, \"Peçenekler\" md., 2007, https://islamansiklopedisi.org.tr/pecenekler («1086’da Bogomiller’in ayaklanmasını desteklediler. Ertesi yıl Macarlar’la birleşip Bizans topraklarına girdiler ve Lüleburgaz’a kadar ilerlediler. Bizanslılar her ne kadar Peçenekler’i geri çekilmeye mecbur bıraktıysa da Silistre yakınlarında onlar tarafından ağır bir yenilgiye uğratıldılar.») (bu oturumda okundu)",
+  "kaynak": "TDV İslâm Ansiklopedisi, Faruk Sümer, \"Peçenekler\" md., 2007, https://islamansiklopedisi.org.tr/pecenekler («1086’da Bogomiller’in ayaklanmasını desteklediler. Ertesi yıl Macarlar’la birleşip Bizans topraklarına girdiler ve Lüleburgaz’a kadar ilerlediler. Bizanslılar her ne kadar Peçenekler’i geri çekilmeye mecbur bıraktıysa da Silistre yakınlarında onlar tarafından ağır bir yenilgiye uğratıldılar.»)",
   "gun": "1087 (ertesi yıl; ay-gün yok)",
   "kesinlik": "yil"
  },
@@ -14975,7 +14975,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "bizans"
   ],
   "d": "Levunion yenilgisinden (1091) sonra Tuna boylarında zayıf bir durumda varlığını sürdüren Peçeneklerin Bizans topraklarına akınlarının sonuncusu 1197'de yapıldı; ardından bir kısmı Macaristan'a gitti.",
-  "kaynak": "TDV İslâm Ansiklopedisi, Faruk Sümer, \"Peçenekler\" md., 2007, https://islamansiklopedisi.org.tr/pecenekler («Bu akınların sonuncusu 1197’de yapılmıştı.») (bu oturumda okundu)",
+  "kaynak": "TDV İslâm Ansiklopedisi, Faruk Sümer, \"Peçenekler\" md., 2007, https://islamansiklopedisi.org.tr/pecenekler («Bu akınların sonuncusu 1197’de yapılmıştı.»)",
   "gun": "1197 (ay-gün yok)",
   "kesinlik": "yil"
  },
@@ -14997,7 +14997,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Kuça",
   "d": "Kuça kralı Suo-fa-die 貞觀四年'de Tang'a at hediye etti, Taizong onu mühürlü mektupla yatıştırdı; Kuça her yıl haraç göndermeye başladı ama Batı Göktürk'e bağlı kaldı.",
-  "kaynak": "Jiu Tang shu (Liu Xu vd., 945) juan 198 «Xirong» (Wikisource 舊唐書/卷198, bu oturumda okundu): «貞觀四年，又遣使獻馬，太宗賜以璽書，撫慰甚厚，由此歲貢不絕，然臣於西突厥。» — https://zh.wikisource.org/wiki/舊唐書/卷198",
+  "kaynak": "Jiu Tang shu (Liu Xu vd., 945) juan 198 «Xirong» (Wikisource 舊唐書/卷198): «貞觀四年，又遣使獻馬，太宗賜以璽書，撫慰甚厚，由此歲貢不絕，然臣於西突厥。» — https://zh.wikisource.org/wiki/舊唐書/卷198",
   "gun": "貞觀四年 (gün kaynakta yok)",
   "kesinlik": "yil"
  },
@@ -15018,7 +15018,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Kuça",
   "d": "Batı Göktürk'e bağlı Kuça'nın Karaşar (Yanqi) seferine yardımı üzerine Tang Ashina She'er, Qibi Heli, Guo Xiaoke ve Yang Hongli'yi Kuça seferi komutanları atadı; Tiele'nin on üç boyundan 100 binden fazla süvari toplandı.",
-  "kaynak": "Jiu Tang shu juan 3 «Taizong ji xia» (Wikisource 舊唐書/卷3, bu oturumda okundu) (貞觀二十一年): «十二月戊寅，左驍衛大將軍阿史那社爾、右驍衛大將軍契苾何力、安西都護郭孝恪、司農卿楊弘禮為琯山道行軍大總管，以伐龜茲。» · Jiu Tang shu (Liu Xu vd., 945) juan 198 «Xirong» (Wikisource 舊唐書/卷198, bu oturumda okundu): «又發鐵勒十三部兵十餘萬騎，以伐龜茲。»",
+  "kaynak": "Jiu Tang shu juan 3 «Taizong ji xia» (Wikisource 舊唐書/卷3) (貞觀二十一年): «十二月戊寅，左驍衛大將軍阿史那社爾、右驍衛大將軍契苾何力、安西都護郭孝恪、司農卿楊弘禮為琯山道行軍大總管，以伐龜茲。» · Jiu Tang shu (Liu Xu vd., 945) juan 198 «Xirong» (Wikisource 舊唐書/卷198): «又發鐵勒十三部兵十餘萬騎，以伐龜茲。»",
   "gun": "貞觀二十一年十二月戊寅",
   "kesinlik": "gun",
   "ic_not": "Jiu Tang 3 yol adını «琯山道», Jiu Tang 198 «昆山道» verir (yazım farkı).",
@@ -15042,7 +15042,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Kuça",
   "d": "Ashina She'er Kuça ordusunu Duohe'de bozup krallığın başkentini ve elli kentini aldı, kral Helibushibi ve komutanı Jielandian esir düştü; yerine kralın kardeşi Yehu (葉護) kral yapıldı, Anxi Koruyuculuğu Kuça'ya taşındı.",
-  "kaynak": "Jiu Tang shu juan 3 «Taizong ji xia» (Wikisource 舊唐書/卷3, bu oturumda okundu) (貞觀二十二年): «閏月丁丑朔，昆山道總管阿史那社爾降處密、處月，破龜茲大撥等五十城，虜數萬口，執龜茲王訶黎布失畢以歸，龜茲平，西域震駭。» · Jiu Tang shu (Liu Xu vd., 945) juan 198 «Xirong» (Wikisource 舊唐書/卷198, bu oturumda okundu): «社爾因立其王之弟葉護為王，勒石紀功而旋。»",
+  "kaynak": "Jiu Tang shu juan 3 «Taizong ji xia» (Wikisource 舊唐書/卷3) (貞觀二十二年): «閏月丁丑朔，昆山道總管阿史那社爾降處密、處月，破龜茲大撥等五十城，虜數萬口，執龜茲王訶黎布失畢以歸，龜茲平，西域震駭。» · Jiu Tang shu (Liu Xu vd., 945) juan 198 «Xirong» (Wikisource 舊唐書/卷198): «社爾因立其王之弟葉護為王，勒石紀功而旋。»",
   "gun": "貞觀二十二年閏十二月 (丁丑朔 = ayın ilk günü; fetih günü ayın içinde, kaynakta yok)",
   "kesinlik": "ay",
   "ic_not": "Ayın başı alındı (gün bilinmiyor). Jiu Tang 198 kralı «訶黎布失畢», Xin Tang 221 shang «訶黎布失畢»; Xin Tang fethi şöyle anlatır: «社爾立王弟葉護王其國». Kaynaklar fetih ayını (閏十二月) birbirine uydurur.",
@@ -15065,7 +15065,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Kuça",
   "d": "Esir Kuça kralı Helibushibi ve vezir Nali, Taizong'un tapınağında sunulan zafer töreniyle takdim edildi; Helibushibi Tang sarayında rütbe aldı.",
-  "kaynak": "Jiu Tang shu juan 3 «Taizong ji xia» (Wikisource 舊唐書/卷3, bu oturumda okundu) (貞觀二十三年): «二十三年春正月辛亥，俘龜茲王訶黎布失畢及其相那利等，獻於社廟。»",
+  "kaynak": "Jiu Tang shu juan 3 «Taizong ji xia» (Wikisource 舊唐書/卷3) (貞觀二十三年): «二十三年春正月辛亥，俘龜茲王訶黎布失畢及其相那利等，獻於社廟。»",
   "gun": "貞觀二十三年春正月辛亥",
   "kesinlik": "gun",
   "ic_not_takvim": "Çin ay-güneş takvimi → Jülyen: 貞觀二十二年閏十二月丁丑朔 = 0649-01-19 + 辛亥 (34. gün) → Jülyen 0649-02-22; gz sayacı); astronomik ay/zhongqi hesabı (denetim/dogu/cin2/_cal.py işlevleri, gün-sayacı gz() ile), ±1-2 gün; Jülyen kalır (1582 öncesi)."
@@ -15087,7 +15087,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Kuça",
   "d": "Tang, esir kral Helibushibi'ye 永徽元年'de rütbe verip Kuça'ya geri yolladı; kral eski ülkesinde Tang vasalı olarak hüküm sürdü.",
-  "kaynak": "Jiu Tang shu (Liu Xu vd., 945) juan 198 «Xirong» (Wikisource 舊唐書/卷198, bu oturumda okundu): «永徽元年，又以訶黎布失畢為右驍衛大將軍，尋放還蕃，撫其餘眾，依舊為龜茲王，賜物一千段。»",
+  "kaynak": "Jiu Tang shu (Liu Xu vd., 945) juan 198 «Xirong» (Wikisource 舊唐書/卷198): «永徽元年，又以訶黎布失畢為右驍衛大將軍，尋放還蕃，撫其餘眾，依舊為龜茲王，賜物一千段。»",
   "gun": "永徽元年",
   "kesinlik": "yil",
   "ic_not": "Xin Tang shu 221 shang başka bir anlatı verir (Gaozong'un Helibushibi'yi «復封» ettiği, sonra Nali'nin olayları ve Yang Zhou'nun Kuça valiliği kurması); yıl hassasiyeti."
@@ -15109,7 +15109,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Kuça",
   "d": "Tang, Batı Göktürk lideri Ashina Helu'nun yenilgisinden sonra Anxi Koruyuculuğu'nu Gaochang yerine yeniden Kuça'ya kurdu; Kuça'nın kendisi Kuça Valiliği (龜茲都督府) oldu.",
-  "kaynak": "Jiu Tang shu juan 4 «Gaozong ji shang» (Wikisource 舊唐書/卷4, bu oturumda okundu) (顯慶三年): «復於龜茲國置安西都護府，以高昌故地為西州。» · Xin Tang shu (Ouyang Xiu vd., 1060) juan 221 shang «Xiyu» (Wikisource 新唐書/卷221上, bu oturumda okundu): «是歲，徙安西都護府於其國，以故安西為西州都督府»",
+  "kaynak": "Jiu Tang shu juan 4 «Gaozong ji shang» (Wikisource 舊唐書/卷4) (顯慶三年): «復於龜茲國置安西都護府，以高昌故地為西州。» · Xin Tang shu (Ouyang Xiu vd., 1060) juan 221 shang «Xiyu» (Wikisource 新唐書/卷221上): «是歲，徙安西都護府於其國，以故安西為西州都督府»",
   "gun": "顯慶三年",
   "kesinlik": "yil",
   "ic_not": "Çelişki: Jiu Tang shu 198 Taizong'un Kuça'yı aldıktan hemen sonra Anxi'yi buraya taşıdığını, Gaozong'un sonra Dört Garnizon'u bıraktığını (「棄龜茲等四鎮」) söyler; Jiu Tang 4 yeniden kuruluşu 顯慶三年 (658) altında anar. Yıl hassasiyeti, ay/gün verilmedi."
@@ -15132,7 +15132,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Kuça",
   "d": "Tibet 咸亨元年 baharında on sekiz ilçeyi aldı ve Hotan ile birleşip Kuça'ya bağlı Bahuan (撥換城) kalesini düşürdü; Tang Anxi Dört Garnizon'unu kaldırdı.",
-  "kaynak": "Jiu Tang shu juan 5 «Gaozong ji xia» (Wikisource 舊唐書/卷5, bu oturumda okundu) (咸亨元年): «夏四月，吐蕃寇陷白州等一十八州，又與於闐合眾襲龜茲撥換城，陷之。罷安西四鎮。» · Jiu Tang shu (Liu Xu vd., 945) juan 198 «Xirong» (Wikisource 舊唐書/卷198, bu oturumda okundu): «其後吐蕃大入，焉耆已西四鎮城堡，並為賊所陷。»",
+  "kaynak": "Jiu Tang shu juan 5 «Gaozong ji xia» (Wikisource 舊唐書/卷5) (咸亨元年): «夏四月，吐蕃寇陷白州等一十八州，又與於闐合眾襲龜茲撥換城，陷之。罷安西四鎮。» · Jiu Tang shu (Liu Xu vd., 945) juan 198 «Xirong» (Wikisource 舊唐書/卷198): «其後吐蕃大入，焉耆已西四鎮城堡，並為賊所陷。»",
   "gun": "咸亨元年夏四月 (ayın günü kaynakta yok)",
   "kesinlik": "ay",
   "ic_not": "ÇELİŞKİ: Xin Tang shu 221 shang «儀鳳時 (676-679), 吐蕃攻焉耆以西，四鎮皆沒» der; Jiu Tang 5 ise 675-676'da Kuça kralı Bai Suji'nin (庚午) ve Hotan'ın (上元二年) Tang'a bağlı elçi gönderdiğini yazar. Tibet'in Dört Garnizon'u 670'te mi 676-679'da mı aldığı iki Çin kaynağı arasında çelişkilidir; Jiu Tang 5 (gün-ay verdiği) esas alındı. Hotan'ın Tibet'le «合眾» ifadesi Jiu Tang 5'te geçer, 675'te Tang yanında Tibet'le savaşan olarak anılır — kaynaklar çelişkili, `ic_not`ta beyan.",
@@ -15155,7 +15155,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Kuça",
   "d": "Wuwei ordusu komutanı Wang Xiaojie Tibetlileri bozup dört garnizonu geri aldı; Anxi Koruyuculuğu yeniden Kuça'ya kuruldu ve 30 bin Han askeri yerleştirildi.",
-  "kaynak": "Jiu Tang shu juan 6 «Zetian ji» (Wikisource 舊唐書/卷6, bu oturumda okundu) (長壽元年): «冬十月，武威軍總管王孝傑大破吐蕃，復龜茲、于闐、疏勒、碎葉鎮。» · Xin Tang shu (Ouyang Xiu vd., 1060) juan 221 shang «Xiyu» (Wikisource 新唐書/卷221上, bu oturumda okundu): «長壽元年，武威道總管王孝傑破吐蕃，復四鎮地，置安西都護府於龜茲，以兵三萬鎮守。»",
+  "kaynak": "Jiu Tang shu juan 6 «Zetian ji» (Wikisource 舊唐書/卷6) (長壽元年): «冬十月，武威軍總管王孝傑大破吐蕃，復龜茲、于闐、疏勒、碎葉鎮。» · Xin Tang shu (Ouyang Xiu vd., 1060) juan 221 shang «Xiyu» (Wikisource 新唐書/卷221上): «長壽元年，武威道總管王孝傑破吐蕃，復四鎮地，置安西都護府於龜茲，以兵三萬鎮守。»",
   "gun": "長壽元年冬十月 (ayın günü kaynakta yok)",
   "kesinlik": "ay",
   "ic_not_takvim": "Çin ay-güneş takvimi → Jülyen: 長壽元年冬十月 ayı başı → Jülyen 0692-11-14; astronomik ay/zhongqi hesabı (denetim/dogu/cin2/_cal.py işlevleri, gün-sayacı gz() ile), ±1-2 gün; Jülyen kalır (1582 öncesi)."
@@ -15177,7 +15177,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Hotan",
   "d": "Hotan kralı Yuchi Qumi Tang'a yeşim kuşak hediye etti; Taizong onu övgü dolu bir fermanla yanıtladı.",
-  "kaynak": "Jiu Tang shu (Liu Xu vd., 945) juan 198 «Xirong» (Wikisource 舊唐書/卷198, bu oturumda okundu): «貞觀六年，遣使獻玉帶，太宗優詔答之。» — https://zh.wikisource.org/wiki/舊唐書/卷198",
+  "kaynak": "Jiu Tang shu (Liu Xu vd., 945) juan 198 «Xirong» (Wikisource 舊唐書/卷198): «貞觀六年，遣使獻玉帶，太宗優詔答之。» — https://zh.wikisource.org/wiki/舊唐書/卷198",
   "gun": "貞觀六年",
   "kesinlik": "yil"
  },
@@ -15198,7 +15198,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Hotan",
   "d": "Hotan kralı oğlunu 貞觀十三年'de Tang sarayına nöbetçi (rehine) olarak yolladı.",
-  "kaynak": "Jiu Tang shu (Liu Xu vd., 945) juan 198 «Xirong» (Wikisource 舊唐書/卷198, bu oturumda okundu): «十三年，又遣子入侍。»",
+  "kaynak": "Jiu Tang shu (Liu Xu vd., 945) juan 198 «Xirong» (Wikisource 舊唐書/卷198): «十三年，又遣子入侍。»",
   "gun": "貞觀十三年",
   "kesinlik": "yil"
  },
@@ -15219,7 +15219,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Hotan",
   "d": "Kuça fethinin ardından Xue Wanche Hotan krallığına gidip kralı Fu She Xin'i Tang sarayına gelmeye ikna etti; Hotan Dört Garnizon'da yer aldı.",
-  "kaynak": "Jiu Tang shu juan 3 «Taizong ji xia» (Wikisource 舊唐書/卷3, bu oturumda okundu) (貞觀二十二年閏月): «副將薛萬徹脅於闐王伏闍信入朝。» · Jiu Tang shu (Liu Xu vd., 945) juan 198 «Xirong» (Wikisource 舊唐書/卷198, bu oturumda okundu): «伏闍信於是隨萬備來朝。»",
+  "kaynak": "Jiu Tang shu juan 3 «Taizong ji xia» (Wikisource 舊唐書/卷3) (貞觀二十二年閏月): «副將薛萬徹脅於闐王伏闍信入朝。» · Jiu Tang shu (Liu Xu vd., 945) juan 198 «Xirong» (Wikisource 舊唐書/卷198): «伏闍信於是隨萬備來朝。»",
   "gun": "貞觀二十二年閏十二月 (ay başı alındı)",
   "kesinlik": "ay",
   "ic_not": "Jiu Tang 198 komutanın adını «薛萬備», Jiu Tang 3 «薛萬徹» verir (aynı kişi/yazım farkı). Ay başı alındı.",
@@ -15243,7 +15243,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Hotan",
   "d": "Tang Hotan'ı Pisha Valiliği (毗沙都督府) yaptı, ülkeyi on eyalete ayırdı ve kral Yuchi Fu She Xiong'u Tibet'e karşı hizmetleri nedeniyle vali atadı.",
-  "kaynak": "Jiu Tang shu juan 5 «Gaozong ji xia» (Wikisource 舊唐書/卷5, bu oturumda okundu) (上元二年): «丙寅，以於闐為毗沙都督府，以尉遲伏闍雄為毗沙都督，分其境內為十州，以伏闍雄有擊吐蕃功故也。»",
+  "kaynak": "Jiu Tang shu juan 5 «Gaozong ji xia» (Wikisource 舊唐書/卷5) (上元二年): «丙寅，以於闐為毗沙都督府，以尉遲伏闍雄為毗沙都督，分其境內為十州，以伏闍雄有擊吐蕃功故也。»",
   "gun": "上元二年春正月丙寅",
   "kesinlik": "gun",
   "ic_not_takvim": "Çin ay-güneş takvimi → Jülyen: 上元二年正月丙寅 → Jülyen 0675-02-21 (1. ay başı 0675-01-31 乙巳 + 丙寅 = 21. gün); astronomik ay/zhongqi hesabı (denetim/dogu/cin2/_cal.py işlevleri, gün-sayacı gz() ile), ±1-2 gün; Jülyen kalır (1582 öncesi)."
@@ -15265,7 +15265,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Hotan",
   "d": "Hotan kralı Fu She Xiong 垂拱三年'de yeniden Tang sarayını ziyaret etti.",
-  "kaynak": "Jiu Tang shu (Liu Xu vd., 945) juan 198 «Xirong» (Wikisource 舊唐書/卷198, bu oturumda okundu): «垂拱三年，其王伏闍雄復來入朝。»",
+  "kaynak": "Jiu Tang shu (Liu Xu vd., 945) juan 198 «Xirong» (Wikisource 舊唐書/卷198): «垂拱三年，其王伏闍雄復來入朝。»",
   "gun": "垂拱三年",
   "kesinlik": "yil"
  },
@@ -15286,7 +15286,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Hotan",
   "d": "Fu She Xiong 天授三年'de öldü; Wu Zetian oğlu Jing'i Hotan kralı olarak atadı (ülke Tang vasalı).",
-  "kaynak": "Jiu Tang shu (Liu Xu vd., 945) juan 198 «Xirong» (Wikisource 舊唐書/卷198, bu oturumda okundu): «天授三年，伏闍雄卒，則天封其子璥為于闐國王。»",
+  "kaynak": "Jiu Tang shu (Liu Xu vd., 945) juan 198 «Xirong» (Wikisource 舊唐書/卷198): «天授三年，伏闍雄卒，則天封其子璥為于闐國王。»",
   "gun": "天授三年",
   "kesinlik": "yil"
  },
@@ -15307,7 +15307,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Hotan",
   "d": "Xuanzong 開元十六年'de Yuchi Fushi'yi Hotan kralı olarak atadı; aynı yıl Kâşgar kralı Pei Anding de atandı.",
-  "kaynak": "Jiu Tang shu (Liu Xu vd., 945) juan 198 «Xirong» (Wikisource 舊唐書/卷198, bu oturumda okundu): «開元十六年，復冊立尉遲伏師為于闐王，數遣使朝貢。»",
+  "kaynak": "Jiu Tang shu (Liu Xu vd., 945) juan 198 «Xirong» (Wikisource 舊唐書/卷198): «開元十六年，復冊立尉遲伏師為于闐王，數遣使朝貢。»",
   "gun": "開元十六年",
   "kesinlik": "yil"
  },
@@ -15329,7 +15329,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Hotan",
   "d": "Yeh-lü Ta-şi 1130 baharında Balasagun'a geldi ve Kâşgar, Beşbalık ve Hoten'i tâbi kılıp Karahıtay Devleti'ni kurdu.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Karahıtaylar» md., https://islamansiklopedisi.org.tr/karahitaylar (bu oturumda okundu): «Kâşgar, Beşbalık ve Hoten’i de kendine tâbi kılıp başşehri Balasagun olan Karahıtay Devleti’ni kurdu (1130).»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Karahıtaylar» md., https://islamansiklopedisi.org.tr/karahitaylar: «Kâşgar, Beşbalık ve Hoten’i de kendine tâbi kılıp başşehri Balasagun olan Karahıtay Devleti’ni kurdu (1130).»",
   "gun": "1130 baharı (gün yok)",
   "kesinlik": "yil",
   "ic_not": "1128'deki ilk girişte Doğu Karahanlı Arslan Han Ahmed Karahıtay'ı yendi (TDV Karahıtaylar). Hotan bu pencerede Karahanlı hakimiyetindeydi (1006 üst sınır)."
@@ -15351,7 +15351,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Kâşgar",
   "d": "Kâşgar (疏勒) kralı Kuzey Wei sarayına elçi gönderip haraç sundu; Wei hükümdarı Taiwu Batı Bölgeleri'ne elçi göndererek karşılık verdi.",
-  "kaynak": "Wei shu juan 4 shang «Shizu ji» (Wikisource 魏書/卷4上, bu oturumda okundu) (太延五年): «是歲，鄯善、龜茲、疏勒、焉耆、高麗、粟特、渴盤陁、破洛那、悉居半等國並遣使朝貢。» · Wei shu (Wei Shou, 554) juan 102 «Xiyu» (Wikisource 魏書/卷102, bu oturumda okundu): «太延中，魏德益以遠聞，西域龜茲、疏勒、烏孫、悅般、渴槃陁、鄯善、焉耆、車師、粟特諸國王始遣使來獻。»",
+  "kaynak": "Wei shu juan 4 shang «Shizu ji» (Wikisource 魏書/卷4上) (太延五年): «是歲，鄯善、龜茲、疏勒、焉耆、高麗、粟特、渴盤陁、破洛那、悉居半等國並遣使朝貢。» · Wei shu (Wei Shou, 554) juan 102 «Xiyu» (Wikisource 魏書/卷102): «太延中，魏德益以遠聞，西域龜茲、疏勒、烏孫、悅般、渴槃陁、鄯善、焉耆、車師、粟特諸國王始遣使來獻。»",
   "gun": "太延五年 (太延中 435-440 arası; Wei shu 4 5. yılı verir)",
   "kesinlik": "yil",
   "ic_not": "Wei shu 102 «太延中» (435-440) der; Wei shu 4 shang aynı elçiliği 太延五年'de listeler (439); yıl esas alındı."
@@ -15373,7 +15373,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Kâşgar",
   "d": "Kâşgar kralı (Pei hanedanı) 貞觀九年'de Tang'a ünlü at gönderdi; o yıldan sonra elçiliğin kesilmediği anlatılır.",
-  "kaynak": "Jiu Tang shu (Liu Xu vd., 945) juan 198 «Xirong» (Wikisource 舊唐書/卷198, bu oturumda okundu): «貞觀九年，遣使獻名馬，自是朝貢不絕。»",
+  "kaynak": "Jiu Tang shu (Liu Xu vd., 945) juan 198 «Xirong» (Wikisource 舊唐書/卷198): «貞觀九年，遣使獻名馬，自是朝貢不絕。»",
   "gun": "貞觀九年",
   "kesinlik": "yil"
  },
@@ -15396,7 +15396,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Kâşgar",
   "d": "Kuça'nın fethinden sonra Tang Anxi Koruyuculuğu'nu Kuça'ya taşıdı ve Hotan, Kâşgar, Suyab (Suiye) ile birlikte «Dört Garnizon» olarak yönetmeye başladı.",
-  "kaynak": "Jiu Tang shu (Liu Xu vd., 945) juan 198 «Xirong» (Wikisource 舊唐書/卷198, bu oturumda okundu): «先是，太宗既破龜茲，移置安西都護府於其國城，以郭孝恪為都護，兼統於闐、疏勒、碎葉，謂之「四鎮」。»",
+  "kaynak": "Jiu Tang shu (Liu Xu vd., 945) juan 198 «Xirong» (Wikisource 舊唐書/卷198): «先是，太宗既破龜茲，移置安西都護府於其國城，以郭孝恪為都護，兼統於闐、疏勒、碎葉，謂之「四鎮」。»",
   "gun": "貞觀二十二年閏十二月 (Kuça fethiyle birlikte; ay başı)",
   "kesinlik": "ay",
   "ic_not": "Jiu Tang 198 Dört Garnizon kuruluş gününü ayrıca vermez; Kuça fethi ayı (貞觀二十二年閏十二月) alınmıştır. Jiu Tang 4 (顯慶三年) ve Xin Tang 221 shang Anxi'nin Kuça'ya taşınmasını başka yerde anar (bkz. Kuça 658).",
@@ -15420,7 +15420,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Kâşgar",
   "d": "Kâşgar (疏勒) ve Gongyue krallarının Tang sarayına gelip teslimiyet dilediği kaydedilir (Tibet'in Dört Garnizon'u aldığı 670 sonrası).",
-  "kaynak": "Jiu Tang shu juan 5 «Gaozong ji xia» (Wikisource 舊唐書/卷5, bu oturumda okundu) (咸亨四年): «十二月丙午，弓月、疏勒二國王入朝請降。»",
+  "kaynak": "Jiu Tang shu juan 5 «Gaozong ji xia» (Wikisource 舊唐書/卷5) (咸亨四年): «十二月丙午，弓月、疏勒二國王入朝請降。»",
   "gun": "咸亨四年十二月丙午",
   "kesinlik": "gun",
   "ic_not": "«入朝請降» ifadesi: krallar saraya gelip tâbiiyet/teslimiyet istedi; Tibet hâkimiyeti (670) altındayken Tang'a döndüklerine mi, Tang'a ilk biat mı olduğu metinden kesin okunmaz. Kâşgar'ın 670-692 Tibet hâkimiyeti yamada bu çelişkiyle beyanlı.",
@@ -15444,7 +15444,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Kâşgar",
   "d": "TDV'ye göre Kuteybe 96 (715) yılında Fergana bölgesine kadar ilerleyip Kâşgar'ı Çinlilerden almıştı (Taberî'ye atıf); Çin kaynakları böyle bir işgali yazmaz.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Kâşgar» md., https://islamansiklopedisi.org.tr/kasgar (bu oturumda okundu): «Taberî’nin naklettiğine göre Kuteybe b. Müslim 96’da (715) Fergana bölgesine kadar ilerlemiş ve Kâşgar’ı 629’dan beri ellerinde tutan Çinliler’den almıştı (Târîḫ, VI, 496).»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Kâşgar» md., https://islamansiklopedisi.org.tr/kasgar: «Taberî’nin naklettiğine göre Kuteybe b. Müslim 96’da (715) Fergana bölgesine kadar ilerlemiş ve Kâşgar’ı 629’dan beri ellerinde tutan Çinliler’den almıştı (Târîḫ, VI, 496).»",
   "gun": "96 (715)",
   "kesinlik": "yil",
   "ic_not": "ÇELİŞKİ: Çin kaynakları (Jiu Tang 198, Xin Tang 221 shang) Shule'nin 715-728 arasında Tang vasalı olduğunu (開元十六年 Pei Anding atandı) yazar; TDV'nin Kuteybe'nin Kâşgar'a ilerlemesi anlatısı Taberî atıflıdır, kalıcı hakimiyet yoktur. TDV'nin «629’dan beri Çinliler» ifadesi de Jiu Tang 198'in 635 ilk elçisi ve 649 Dört Garnizon bilgisiyle uyuşmaz. Harita zinciri (yama) Çin metnine göre Tang yazar."
@@ -15466,7 +15466,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Kâşgar",
   "d": "Xuanzong 開元十六年'de elçi göndererek Pei Anding'i Kâşgar (Shule) kralı olarak atadı.",
-  "kaynak": "Jiu Tang shu (Liu Xu vd., 945) juan 198 «Xirong» (Wikisource 舊唐書/卷198, bu oturumda okundu): «開元十六年，玄宗遣使冊立其王裴安定為疏勒王。»",
+  "kaynak": "Jiu Tang shu (Liu Xu vd., 945) juan 198 «Xirong» (Wikisource 舊唐書/卷198): «開元十六年，玄宗遣使冊立其王裴安定為疏勒王。»",
   "gun": "開元十六年",
   "kesinlik": "yil"
  },
@@ -15488,7 +15488,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Kâşgar",
   "d": "TDV Kâşgar md.: Daha önce buranın sahibi olan Karluklar 750'de şehri tekrar ele geçirip Türk idaresini yeniden kurdu; sonra Uygurlar hâkim oldu, 920 civarında Tagan Tegin adlı Türk dihkanının idaresindeydi.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Kâşgar» md., https://islamansiklopedisi.org.tr/kasgar (bu oturumda okundu): «Daha önce buranın sahibi olan Karluklar 750’de şehri tekrar ele geçirdiler ve bölgede Türk idaresini yeniden kurdular. Ardından şehre Uygurlar hâkim oldu; 920 civarında Tagan Tegin adlı bir Türk dihkanının idaresindeydi.»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Kâşgar» md., https://islamansiklopedisi.org.tr/kasgar: «Daha önce buranın sahibi olan Karluklar 750’de şehri tekrar ele geçirdiler ve bölgede Türk idaresini yeniden kurdular. Ardından şehre Uygurlar hâkim oldu; 920 civarında Tagan Tegin adlı bir Türk dihkanının idaresindeydi.»",
   "gun": "750",
   "kesinlik": "yil",
   "ic_not": "TDV Karluklar md. Karluk devletinin 766'da kurulduğunu söyler (atlas künyesi `karluk` f=0766); Çin kaynakları (Xin Tang 221 shang) 天寶十二載 (753) hâlâ Pei Guoliang'ın Tang unvanı aldığını yazar. Üç kaynak çelişkili: atlas yamasında (yama_bozkir3.js) Kâşgar 0692-11-14 → 0766-01-01 `tang`, 0766 sonrası `karluk` yazıldı; TDV Kâşgar'ın 750'si beyandır, `karluk` f künye düzeltme önerisi (0750) RAPOR.md'de."
@@ -15510,7 +15510,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Kâsân (Guishan)",
   "d": "Fergana (破洛那) ve Çaç (者舌) elçileri Kuzey Wei hükümdarı Taiwu'ya ter kanlı atlar (汗血馬) sundu.",
-  "kaynak": "Wei shu juan 4 shang «Shizu ji» (Wikisource 魏書/卷4上, bu oturumda okundu) (太延三年): «十有一月壬申，車駕還宮。甲申，破洛那、者舌國各遣使朝獻，奉汗血馬。» · Wei shu (Wei Shou, 554) juan 102 «Xiyu» (Wikisource 魏書/卷102, bu oturumda okundu): «洛那國，故大宛國也。都貴山城»",
+  "kaynak": "Wei shu juan 4 shang «Shizu ji» (Wikisource 魏書/卷4上) (太延三年): «十有一月壬申，車駕還宮。甲申，破洛那、者舌國各遣使朝獻，奉汗血馬。» · Wei shu (Wei Shou, 554) juan 102 «Xiyu» (Wikisource 魏書/卷102): «洛那國，故大宛國也。都貴山城»",
   "gun": "太延三年十一月甲申",
   "kesinlik": "gun",
   "ic_not": "Wei shu 102 '洛那國' (破洛那) başkentini «貴山城» (Guishan = Kâsân kabulü) verir; Wei shu 102 elçiliğin yılını yanlış «太和三年» yazar, yayıncı notu bunu «太延» olarak düzeltir (Wei shu 4 shang 太延三年 doğru). Kuzey Wei takvimi (景初/玄始 yerine) astronomik hesapla ±1-2 gün.",
@@ -15533,7 +15533,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Kâsân (Guishan)",
   "d": "III. yüzyıldan beri ülkeyi yöneten hanedanın son hükümdarı 649'da Göktürklerle savaşta öldü; kardeşi küçük bir bölgede bir süre daha hüküm sürdü, toprakların hemen hepsi Göktürklerin eline geçti.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Fergana» md., https://islamansiklopedisi.org.tr/fergana (bu oturumda okundu): «III. yüzyıldan itibaren aralıksız bir şekilde ülkeyi yöneten hânedanın son hükümdarı 649 yılında Göktürkler’le yapılan bir savaşta öldürüldü. Hükümdarın kardeşi ülkenin küçük bir bölgesinde bir süre daha hüküm sürdüyse de toprakların hemen hepsi Göktürkler’in eline geçti.»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Fergana» md., https://islamansiklopedisi.org.tr/fergana: «III. yüzyıldan itibaren aralıksız bir şekilde ülkeyi yöneten hânedanın son hükümdarı 649 yılında Göktürkler’le yapılan bir savaşta öldürüldü. Hükümdarın kardeşi ülkenin küçük bir bölgesinde bir süre daha hüküm sürdüyse de toprakların hemen hepsi Göktürkler’in eline geçti.»",
   "gun": "649",
   "kesinlik": "yil"
  },
@@ -15554,7 +15554,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Kâsân (Guishan)",
   "d": "Batı Göktürk Devleti'nin ortadan kalkmasıyla (658) Fergana bir Çin eyaleti hâline geldi; daha sonra bir Türk hükümdarının yönetimine girdiği anlaşılır.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Fergana» md., https://islamansiklopedisi.org.tr/fergana (bu oturumda okundu): «Batı Göktürk Devleti’nin ortadan kalkması ile (658) bir Çin eyaleti haline gelen, daha sonra da bir Türk hükümdarının yönetimine girdiği anlaşılan Fergana»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Fergana» md., https://islamansiklopedisi.org.tr/fergana: «Batı Göktürk Devleti’nin ortadan kalkması ile (658) bir Çin eyaleti haline gelen, daha sonra da bir Türk hükümdarının yönetimine girdiği anlaşılan Fergana»",
   "gun": "658",
   "kesinlik": "yil",
   "ic_not": "Başka bir kaynakla (Jiu Tang 4, 顯慶三年 = 658: «賀魯走石國») Batı Göktürk'ün çöküş yılı 658 teyit; bozkir1 raporu bati-gokturk t=0659 önerir (Fergana dilimi 658 başlar, fark 1 yıl)."
@@ -15576,7 +15576,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Kâsân (Guishan)",
   "d": "Fergana'ya ilk İslâm akınları 94 (712-13) yılında Kuteybe b. Müslim kumandasında yapıldı; Hucend önünde Türk kuvvetleriyle karşılaşan Kuteybe kesin sonuç alamadan döndü.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Fergana» md., https://islamansiklopedisi.org.tr/fergana (bu oturumda okundu): «Fergana’ya ilk İslâm akınları 94 (712-13) yılında Kuteybe b. Müslim kumandasında yapıldı.»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Fergana» md., https://islamansiklopedisi.org.tr/fergana: «Fergana’ya ilk İslâm akınları 94 (712-13) yılında Kuteybe b. Müslim kumandasında yapıldı.»",
   "gun": "94 (712-13)",
   "kesinlik": "yil",
   "ic_not_takvim": "Hicrî 94 başı (tablo) 0712-10-07; TDV mîlâdî yılı 712-13 verir, kesişimin ilk günü; ±2 gün."
@@ -15597,7 +15597,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Kâsân (Guishan)",
   "d": "Kuteybe 96 (715)'te takviye ordusuyla Fergana bölgesinde bazı yerleri ele geçirdi ama aynı yıl askerlerince öldürüldü, ordu kalıcı hâkimiyet kuramadan bölgeyi terk etti.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Fergana» md., https://islamansiklopedisi.org.tr/fergana (bu oturumda okundu): «96 (715) yılında Haccâc tarafından gönderilen takviye birlikleriyle güçlendirdiği ordusu ile tekrar Fergana bölgesine ilerleyen Kuteybe bu defa bazı yerleri ele geçirdi; fakat ardından kendi askerleri tarafından öldürüldü ve İslâm ordusu sürekli bir hâkimiyet kuramadan bölgeyi terketmek zorunda kaldı.»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Fergana» md., https://islamansiklopedisi.org.tr/fergana: «96 (715) yılında Haccâc tarafından gönderilen takviye birlikleriyle güçlendirdiği ordusu ile tekrar Fergana bölgesine ilerleyen Kuteybe bu defa bazı yerleri ele geçirdi; fakat ardından kendi askerleri tarafından öldürüldü ve İslâm ordusu sürekli bir hâkimiyet kuramadan bölgeyi terketmek zorunda kaldı.»",
   "gun": "96 (715)",
   "kesinlik": "yil"
  },
@@ -15618,7 +15618,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Kâsân (Guishan)",
   "d": "Ayaklanma bastırıldıktan sonra Mâverâünnehir'in çeşitli yerleriyle birlikte Fergana'nın yönetimi Vali Gassân b. Abbâd (819-820) tarafından Sâmânîler'e devredildi; İslâm hâkimiyeti IX. yüzyılda kesin kuruldu.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Fergana» md., https://islamansiklopedisi.org.tr/fergana (bu oturumda okundu): «Ayaklanma bastırıldıktan sonra Mâverâünnehir’in çeşitli yerleriyle birlikte Fergana’nın da yönetimi Vali Gassân b. Abbâd (819-820) tarafından Sâmânîler’e devredildi.»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Fergana» md., https://islamansiklopedisi.org.tr/fergana: «Ayaklanma bastırıldıktan sonra Mâverâünnehir’in çeşitli yerleriyle birlikte Fergana’nın da yönetimi Vali Gassân b. Abbâd (819-820) tarafından Sâmânîler’e devredildi.»",
   "gun": "819-820",
   "kesinlik": "yil",
   "ic_not": "TDV 819-820 verir; kesişim/ilk gün 0819-01-01."
@@ -15640,7 +15640,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Kâsân (Guishan)",
   "d": "İlig Han Nasr Ekim 999'da Buhara'yı zaptedip Sâmânî Hükümdarı Abdülmelik'i Özkent'e sürdükten sonra Fergana Karahanlılar'ın eline geçti ve idare merkezi Özkent'e taşındı.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Fergana» md., https://islamansiklopedisi.org.tr/fergana (bu oturumda okundu): «İlig Han Nasr’ın Ekim 999’da Buhara’yı zaptederek Sâmânî Hükümdarı Abdülmelik’i Özkent’e sürmesinden sonra Fergana Karahanlılar’ın eline geçti ve idare merkezi Özkent’e taşındı.»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Fergana» md., https://islamansiklopedisi.org.tr/fergana: «İlig Han Nasr’ın Ekim 999’da Buhara’yı zaptederek Sâmânî Hükümdarı Abdülmelik’i Özkent’e sürmesinden sonra Fergana Karahanlılar’ın eline geçti ve idare merkezi Özkent’e taşındı.»",
   "gun": "Ekim 999 (gün yok)",
   "kesinlik": "ay",
   "ic_not": "TDV Karahanlılar md.: Buhara 389 (999) alındı; ay (Ekim) TDV Fergana'dan; gün yok, ayın ilk günü alındı."
@@ -15662,7 +15662,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Kâsân (Guishan)",
   "d": "Fergana 1141'de (Katvan savaşı sonrası) Karahıtay hâkimiyetine girdi.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Fergana» md., https://islamansiklopedisi.org.tr/fergana (bu oturumda okundu): «1141’de burası Karahıtaylar’ın hâkimiyeti altına girdi»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Fergana» md., https://islamansiklopedisi.org.tr/fergana: «1141’de burası Karahıtaylar’ın hâkimiyeti altına girdi»",
   "gun": "1141",
   "kesinlik": "yil",
   "ic_not": "TDV Karahıtaylar: Katvan savaşı 5 Safer 536 / 9 Eylül 1141; Fergana'nın geçişi yıl hassasiyetiyle TDV Fergana'dan."
@@ -15684,7 +15684,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Kâsân (Guishan)",
   "d": "Fergana 1212'den 1217'ye kadar Hârizmşah Alâeddin Muhammed ile Karahıtay topraklarına hâkim olan Nayman prensi Küçlüğ Han arasında mücadele alanı oldu; sonunda Alâeddin Muhammed Fergana ve çevresini boşaltıp tahrip ettirdi.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Fergana» md., https://islamansiklopedisi.org.tr/fergana (bu oturumda okundu): «Fergana 1212’den 1217’ye kadar Hârizmşah Alâeddin Muhammed ile Karahıtay topraklarında hâkimiyet kuran Nayman Hükümdarı Küçlüğ Han arasında mücadele alanı haline geldi.»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Fergana» md., https://islamansiklopedisi.org.tr/fergana: «Fergana 1212’den 1217’ye kadar Hârizmşah Alâeddin Muhammed ile Karahıtay topraklarında hâkimiyet kuran Nayman Hükümdarı Küçlüğ Han arasında mücadele alanı haline geldi.»",
   "gun": "1212-1217",
   "kesinlik": "yil",
   "ic_not": "TDV Endican/Fergana Hârizmşah hâkimiyetini 1210'a (İlâmış sahrası) dayandırır; Küçlüğ 1211 tarihli Karahıtay darbesi için bkz. TDV Karahıtaylar. Üç tarih (1210/1211/1212) arasında kalan boşluk yamada Hârizmşah 1210'dan başlatılarak beyan edildi."
@@ -15706,7 +15706,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Taşkent",
   "d": "VIII. yüzyıl başlarında Emevîler'in Horasan valisi Kuteybe b. Müslim Taşkent'i ele geçirip (94/713) tahrip etti; şehri mahallî Türk hükümdarları yönetmeye devam etti.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Taşkent» md., https://islamansiklopedisi.org.tr/taskent (bu oturumda okundu): «Taşkent, VIII. yüzyıl başlarında Emevîler’in Horasan valisi Kuteybe b. Müslim tarafından ele geçirilip (94/713) tahrip edildi (Taberî, VI, 484). Mahallî Türk hükümdarlarının yönettiği şehir bir süre sonra Çinliler’in hâkimiyeti altına girdi.»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Taşkent» md., https://islamansiklopedisi.org.tr/taskent: «Taşkent, VIII. yüzyıl başlarında Emevîler’in Horasan valisi Kuteybe b. Müslim tarafından ele geçirilip (94/713) tahrip edildi (Taberî, VI, 484). Mahallî Türk hükümdarlarının yönettiği şehir bir süre sonra Çinliler’in hâkimiyeti altına girdi.»",
   "gun": "94 (713)",
   "kesinlik": "yil",
   "ic_not": "Hicrî 94 (712-10-07/713-09-26) ∩ 713 → ilk gün 0713-01-01. Akın/yağma; kalıcı Emevî hâkimiyeti TDV'de yok, yerli hükümdar sürer."
@@ -15730,7 +15730,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Taşkent",
   "d": "Şâş hükümdarının öldürülmesi üzerine oğlu Araplardan yardım istedi; Ebû Müslim Ziyâd b. Sâlih'i gönderdi; Zilhicce 133 (Temmuz 751) tarihinde Talas kıyısında Türkler Arapların desteğiyle Çinlileri yendi, Kau Sein-çi (Gao Xianzhi) öldü.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Taşkent» md., https://islamansiklopedisi.org.tr/taskent (bu oturumda okundu): «Zilhicce 133 (Temmuz 751) tarihinde Talas nehri kenarında yapılan savaşta Türkler Araplar’ın desteğiyle Çinliler’i mağlûp ettiler. Kau Sein-çi savaşta öldü, çok sayıda Çinli esir alındı.» · TDV İslâm Ansiklopedisi, «Karluklar» md., https://islamansiklopedisi.org.tr/karluklar (bu oturumda okundu): «Talas Savaşı’nda (751) Çinliler’in karşısında müslümanların tarafını tutarak zafer kazanmalarına yardımcı oldular.»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Taşkent» md., https://islamansiklopedisi.org.tr/taskent: «Zilhicce 133 (Temmuz 751) tarihinde Talas nehri kenarında yapılan savaşta Türkler Araplar’ın desteğiyle Çinliler’i mağlûp ettiler. Kau Sein-çi savaşta öldü, çok sayıda Çinli esir alındı.» · TDV İslâm Ansiklopedisi, «Karluklar» md., https://islamansiklopedisi.org.tr/karluklar: «Talas Savaşı’nda (751) Çinliler’in karşısında müslümanların tarafını tutarak zafer kazanmalarına yardımcı oldular.»",
   "gun": "Zilhicce 133 (Temmuz 751; gün yok)",
   "kesinlik": "ay",
   "ic_not": "ÇELİŞKİ: Jiu Tang shu 104 (Gao Xianzhi) Şâş seferini 天寶九載 (750) olarak anar; TDV hicrî 133/751. Hicrî 133 Zilhicce başı (tablo) 0751-06-30; Temmuz 751 ile kesişim ilk günü alındı. Jiu Tang shu 104 (Gao Xianzhi) Talas savaşını anmaz, Gao Xianzhi'yi 天寶十四載 (755) Aralığında An Lushan isyanı karşısında Shaanzhou'da komutan olarak gösterir — yani TDV'nin «Kau Sein-çi savaşta öldü» ifadesi Çin birincil metniyle uyuşmaz (Gao Xianzhi Talas'tan sonra da yaşar); olay TDV'ye göre yazıldı, bu ayrıntı çelişki olarak burada beyan edildi."
@@ -15752,7 +15752,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Taşkent",
   "d": "Göçebe Türklerin saldırılarını önlemek için Taşkent'in etrafı 159 (776) yılında Horasan Valisi Abdullah b. Humeyd b. Kahtabe tarafından surlarla çevrildi; Abbâsîler devrinde Şâş bölgesi Türklere karşı müdafaa hattı idi.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Taşkent» md., https://islamansiklopedisi.org.tr/taskent (bu oturumda okundu): «Abbâsîler devrinde Şâş bölgesi Türkler’e karşı bir müdafaa hattı teşkil ediyordu. Göçebe Türkler’in saldırılarını önlemek için Taşkent’in etrafı 159 (776) yılında Horasan Valisi Abdullah b. Humeyd b. Kahtabe tarafından surlarla çevrildi.»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Taşkent» md., https://islamansiklopedisi.org.tr/taskent: «Abbâsîler devrinde Şâş bölgesi Türkler’e karşı bir müdafaa hattı teşkil ediyordu. Göçebe Türkler’in saldırılarını önlemek için Taşkent’in etrafı 159 (776) yılında Horasan Valisi Abdullah b. Humeyd b. Kahtabe tarafından surlarla çevrildi.»",
   "gun": "159 (776)",
   "kesinlik": "yil"
  },
@@ -15773,7 +15773,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Taşkent",
   "d": "Şehir 191'de (807) Karluk Türkleri'nin hâkimiyetine girdi; sonra tekrar Abbâsî hâkimiyetine geçti ve Halife Me'mûn Şâş'ı Sâmânîler'den Yahyâ b. Esed'e verdi.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Taşkent» md., https://islamansiklopedisi.org.tr/taskent (bu oturumda okundu): «Şehir 191’de (807) Karluk Türkleri’nin hâkimiyetine girdi. Ardından tekrar Abbâsî hâkimiyetine geçen Şâş’ı Halife Me’mûn, Sâmânîler’den Yahyâ b. Esed’e verdi (204/819).»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Taşkent» md., https://islamansiklopedisi.org.tr/taskent: «Şehir 191’de (807) Karluk Türkleri’nin hâkimiyetine girdi. Ardından tekrar Abbâsî hâkimiyetine geçen Şâş’ı Halife Me’mûn, Sâmânîler’den Yahyâ b. Esed’e verdi (204/819).»",
   "gun": "191 (807)",
   "kesinlik": "yil",
   "ic_not": "Karluk'un Abbâsî'ye dönüş yılı TDV Taşkent'te verilmez. TDV Karluklar IX. yüzyıl için «Taşkent, Fergana ve Kâşgar’ı ilhak ederek» der (tarihsiz)."
@@ -15796,7 +15796,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Taşkent",
   "d": "Halife Me'mûn Şâş bölgesini Sâmânîler'den Yahyâ b. Esed'e 204 (819) yılında verdi; Yahyâ su kanalını ıslah ettirdi.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Taşkent» md., https://islamansiklopedisi.org.tr/taskent (bu oturumda okundu): «Ardından tekrar Abbâsî hâkimiyetine geçen Şâş’ı Halife Me’mûn, Sâmânîler’den Yahyâ b. Esed’e verdi (204/819). Bu dönemde Şâş’ın uzunca bir süredir kumla dolmuş olan su kanalı ıslah edildi.»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Taşkent» md., https://islamansiklopedisi.org.tr/taskent: «Ardından tekrar Abbâsî hâkimiyetine geçen Şâş’ı Halife Me’mûn, Sâmânîler’den Yahyâ b. Esed’e verdi (204/819). Bu dönemde Şâş’ın uzunca bir süredir kumla dolmuş olan su kanalı ıslah edildi.»",
   "gun": "204 (819)",
   "kesinlik": "yil",
   "ic_not_takvim": "Hicrî 204 başı (tablo) 0819-06-28; TDV mîlâdî yılı 819 → kesişimin ilk günü; ±2 gün."
@@ -15818,7 +15818,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Taşkent",
   "d": "IV. (X.) yüzyılın sonlarında Karahanlı hükümdarı Ebü'l-Hasan Ali Arslan Han ile Sâmânî Horasan valisi Simcûrî'nin Ceyhun'u sınır kabul eden anlaşmasıyla Taşkent Karahanlı hâkimiyetine girdi.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Taşkent» md., https://islamansiklopedisi.org.tr/taskent (bu oturumda okundu): «IV. (X.) yüzyılın sonlarında Karahanlı Hükümdarı Ebü’l-Hasan Ali Arslan Han’ın Sâmânîler’in Horasan valisi Ebû Ali es-Simcûrî ile yaptığı anlaşmaya göre Sâmânî topraklar Ceyhun nehri sınır kabul edilerek paylaşılınca Taşkent Karahanlı hâkimiyetine girmiş oldu.» · TDV İslâm Ansiklopedisi, «Karahanlılar» md., https://islamansiklopedisi.org.tr/karahanlilar (bu oturumda okundu): «Hârun Buğra Han … 990’da İsfîcâb’ı zaptetti.»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Taşkent» md., https://islamansiklopedisi.org.tr/taskent: «IV. (X.) yüzyılın sonlarında Karahanlı Hükümdarı Ebü’l-Hasan Ali Arslan Han’ın Sâmânîler’in Horasan valisi Ebû Ali es-Simcûrî ile yaptığı anlaşmaya göre Sâmânî topraklar Ceyhun nehri sınır kabul edilerek paylaşılınca Taşkent Karahanlı hâkimiyetine girmiş oldu.» · TDV İslâm Ansiklopedisi, «Karahanlılar» md., https://islamansiklopedisi.org.tr/karahanlilar: «Hârun Buğra Han … 990’da İsfîcâb’ı zaptetti.»",
   "gun": "IV. (X.) yüzyılın sonları (yıl TDV Taşkent'te yok)",
   "kesinlik": "yuzyil",
   "ic_not": "BEYANLI YAKLAŞIKLIK: TDV Taşkent yalnız «X. yüzyılın sonlarında» der; Ali Arslan Han'ın ölümü 388 Muharrem sonu (Ocak 998) TDV Karahanlılar, İsfîcâb 990, Siriderya Katvan'a dek 996 anlaşması. 990 (Hârun Buğra'nın İsfîcâb'ı alması) çıpa olarak seçildi; gerçek yıl 990-998 aralığındadır. Yıl TDV'de bulunamadı."
@@ -15840,7 +15840,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Taşkent",
   "d": "Batı Karahanlıların büyük kağanı Tamgaç Han Böri Tegin İbrâhim Fergana'yı tekrar zaptetti ve Doğu Karahanlıların hâkimiyetindeki Şâş ve bazı yerleri de ele geçirdi; 451 (1059) yılından itibaren Şâş ve Fergana sikkelerinde adı geçer.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Karahanlılar» md., https://islamansiklopedisi.org.tr/karahanlilar (bu oturumda okundu): «Bu fırsattan istifade eden Batı Karahanlılar’ın büyük kağanı Tamgaç Han Böri Tegin İbrâhim b. Nasr Fergana’yı tekrar zaptetti, Doğu Karahanlılar’ın hâkimiyetindeki Şâş ve diğer bazı yerleri de ele geçirdi.» · «451 (1059) yılından itibaren Şâş, Îlâk, Tünhas ve Fergana’da basılan sikkelerde onun adı mevcuttur.»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Karahanlılar» md., https://islamansiklopedisi.org.tr/karahanlilar: «Bu fırsattan istifade eden Batı Karahanlılar’ın büyük kağanı Tamgaç Han Böri Tegin İbrâhim b. Nasr Fergana’yı tekrar zaptetti, Doğu Karahanlılar’ın hâkimiyetindeki Şâş ve diğer bazı yerleri de ele geçirdi.» · «451 (1059) yılından itibaren Şâş, Îlâk, Tünhas ve Fergana’da basılan sikkelerde onun adı mevcuttur.»",
   "gun": "451 (1059)",
   "kesinlik": "yil",
   "ic_not": "Hicrî 451 başı tabloyla 1059-02-17; yıl hassasiyeti. «Doğu Karahanlıların hâkimiyetindeki Şâş» ifadesi Şâş'ın 1041-1059 arası Doğu'da olduğu anlamına gelir, TDV bu aralığı ayrıca belirtmez (çıkarım, beyanlı).",
@@ -15864,7 +15864,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Taşkent",
   "d": "Katvan savaşında (5 Safer 536 / 9 Eylül 1141) Karahıtaylar Selçuklu Sultanı Sencer'i ağır bozguna uğrattı; Mâverâünnehir Karahıtay hâkimiyetine girdi, Batı Karahanlı Mahmud Han ülkeyi terk etti.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Karahıtaylar» md., https://islamansiklopedisi.org.tr/karahitaylar (bu oturumda okundu): «Yeh-lü Ta-şi daha sonra da Sultan Sencer’i Katvân savaşında ağır bir bozguna uğrattı (5 Safer 536 / 9 Eylül 1141).» · TDV İslâm Ansiklopedisi, «Endican» md., https://islamansiklopedisi.org.tr/endican (bu oturumda okundu): «1141’de Mâverâünnehir’in diğer bölgeleriyle birlikte Karahıtaylar’ın eline geçti.»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Karahıtaylar» md., https://islamansiklopedisi.org.tr/karahitaylar: «Yeh-lü Ta-şi daha sonra da Sultan Sencer’i Katvân savaşında ağır bir bozguna uğrattı (5 Safer 536 / 9 Eylül 1141).» · TDV İslâm Ansiklopedisi, «Endican» md., https://islamansiklopedisi.org.tr/endican: «1141’de Mâverâünnehir’in diğer bölgeleriyle birlikte Karahıtaylar’ın eline geçti.»",
   "gun": "1141 (9 Eylül savaş günü; Şâş'ın geçişi için yıl)",
   "kesinlik": "yil",
   "ic_not": "Katvan 9 Eylül 1141 savaş günüdür; Şâş'ın Karahıtay'a geçiş günü TDV Taşkent'te verilmez (yıl hassasiyeti, TDV Endican/Fergana Mâverâünnehir genel cümlesi). BEYANLI YAKLAŞIKLIK: Şâş'a özel Karahıtay tanığı bulunamadı."
@@ -15886,7 +15886,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Taşkent",
   "d": "Hârizmşah Alâeddin Muhammed Buhara'yı 1207'de aldı, 1210'da İlâmış sahrasında Karahıtay ordusunu yenip Endican ve çevresine hâkim oldu; Taşkent XIII. yüzyıl başlarında Hârizmşahlar'ın eline geçti.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Hârizmşahlar» md., https://islamansiklopedisi.org.tr/harizmsahlar (bu oturumda okundu): «Sonuçta bunu başardı ve Buhara’yı zaptetti (1207); daha sonra da İlâmış sahrasında Karahıtay ordusunu tekrar yenerek Endican ve çevresine hâkim oldu (1210).» · TDV İslâm Ansiklopedisi, «Taşkent» md., https://islamansiklopedisi.org.tr/taskent (bu oturumda okundu): «VII. (XIII.) yüzyılın başlarında Hârizmşahlar’ın eline geçen şehir 1220’de Cengiz Han tarafından istilâ edildi.»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Hârizmşahlar» md., https://islamansiklopedisi.org.tr/harizmsahlar: «Sonuçta bunu başardı ve Buhara’yı zaptetti (1207); daha sonra da İlâmış sahrasında Karahıtay ordusunu tekrar yenerek Endican ve çevresine hâkim oldu (1210).» · TDV İslâm Ansiklopedisi, «Taşkent» md., https://islamansiklopedisi.org.tr/taskent: «VII. (XIII.) yüzyılın başlarında Hârizmşahlar’ın eline geçen şehir 1220’de Cengiz Han tarafından istilâ edildi.»",
   "gun": "1210 (Taşkent için yıl TDV'de yok)",
   "kesinlik": "yil",
   "ic_not": "BEYANLI YAKLAŞIKLIK: TDV Taşkent yalnız «XIII. yüzyılın başlarında» der; 1210 TDV Hârizmşahlar/Endican'ın İlâmış zaferi yılıdır (Şâş'ın geçişi için komşudan alındı). Karahıtay künyesi t=1211 ile uyumlu."
@@ -15908,7 +15908,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Buhara",
   "d": "Bir Çin kaynağına göre Buhar-hudât hânedanının beylerinden biri 627 yılında atalarının yirmi iki batından beri Buhara'da hüküm sürdüklerini söyledi.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Buhara» md., https://islamansiklopedisi.org.tr/buhara (bu oturumda okundu): «Bir Çin kaynağına göre bu hânedanın beylerinden biri 627 yılında atalarının yirmi iki batından beri bu şehirde hüküm sürdüklerini söylemiştir.»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Buhara» md., https://islamansiklopedisi.org.tr/buhara: «Bir Çin kaynağına göre bu hânedanın beylerinden biri 627 yılında atalarının yirmi iki batından beri bu şehirde hüküm sürdüklerini söylemiştir.»",
   "gun": "627",
   "kesinlik": "yil",
   "ic_not": "Çin kaynağı TDV'de adlandırılmaz (Jiu/Xin Tang 'Anguo' bölümü bu oturumda okunmadı)."
@@ -15930,7 +15930,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Buhara",
   "d": "Şehir 54 (674) yılında Muâviye'nin Horasan Valisi Ubeydullah b. Ziyâd tarafından fethedildi; hükümdar Bîdûn Hatun yıllık 1 milyon dirhem ve 2000 savaşçı vermeyi kabul etti; İslâm hâkimiyeti devamlı olmadı.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Buhara» md., https://islamansiklopedisi.org.tr/buhara (bu oturumda okundu): «Şehir 54 (674) yılında Muâviye’nin Horasan Valisi Ubeydullah b. Ziyâd tarafından fethedilmiştir. Bu sırada şehrin hükümdarı Bîdûn (Taberî’ye göre Kabac veya Kayığ) Hatun idi.» · «İslâm hâkimiyeti devamlı olmadı ve şehir zaman zaman müslümanların kontrolünden çıktı.»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Buhara» md., https://islamansiklopedisi.org.tr/buhara: «Şehir 54 (674) yılında Muâviye’nin Horasan Valisi Ubeydullah b. Ziyâd tarafından fethedilmiştir. Bu sırada şehrin hükümdarı Bîdûn (Taberî’ye göre Kabac veya Kayığ) Hatun idi.» · «İslâm hâkimiyeti devamlı olmadı ve şehir zaman zaman müslümanların kontrolünden çıktı.»",
   "gun": "54 (674)",
   "kesinlik": "yil",
   "ic_not": "Hicrî 54 = 673-12-16 → 674-12-04; 674 ile kesişim ilk günü 0674-01-01 (yıl hassasiyeti)."
@@ -15952,7 +15952,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Buhara",
   "d": "Kuteybe 87-90 (706-709) seferleri sonunda Buhara halkı ve Türk müttefiklerinin direnişini kırıp şehre Arap garnizonu yerleştirdi.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Buhara» md., https://islamansiklopedisi.org.tr/buhara (bu oturumda okundu): «Emevîler’in meşhur kumandanlarından Horasan Valisi Kuteybe b. Müslim 87-90 (706-709) yılları arasındaki seferleri sonunda Buhara halkıyla o yöredeki Türk müttefiklerinin mukavemetini kırdı ve şehre bir Arap garnizonu yerleştirdi.»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Buhara» md., https://islamansiklopedisi.org.tr/buhara: «Emevîler’in meşhur kumandanlarından Horasan Valisi Kuteybe b. Müslim 87-90 (706-709) yılları arasındaki seferleri sonunda Buhara halkıyla o yöredeki Türk müttefiklerinin mukavemetini kırdı ve şehre bir Arap garnizonu yerleştirdi.»",
   "gun": "87-90 (706-709)",
   "kesinlik": "yil",
   "ic_not": "Seferlerin sonu 90 H (708-11-20 → 709-11-08) ∩ 709 → 0709-01-01 alındı."
@@ -15974,7 +15974,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Buhara",
   "d": "Taberî'ye göre Tuğşâde Kuteybe tarafından 91 (710) yılında Buhara'ya tayin edilen genç bir hükümdardı; Müslüman olup otuz yıl hüküm sürdü.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Buhara» md., https://islamansiklopedisi.org.tr/buhara (bu oturumda okundu): «Fakat Taberî Tuğşâde’nin Kuteybe b. Müslim tarafından 91 (710) yılında Buhara’ya tayin edilen genç bir hükümdar olduğunu söyler. Tuğşâde müslüman olmuş, otuz yıl Buhara’da hüküm sürdükten sonra Ramazan 121 (Ağustos 739) tarihinde Semerkant’ta Horasan Valisi Nasr b. Seyyâr’ın ordugâhında eşraftan iki kişi tarafından öldürülmüştür.»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Buhara» md., https://islamansiklopedisi.org.tr/buhara: «Fakat Taberî Tuğşâde’nin Kuteybe b. Müslim tarafından 91 (710) yılında Buhara’ya tayin edilen genç bir hükümdar olduğunu söyler. Tuğşâde müslüman olmuş, otuz yıl Buhara’da hüküm sürdükten sonra Ramazan 121 (Ağustos 739) tarihinde Semerkant’ta Horasan Valisi Nasr b. Seyyâr’ın ordugâhında eşraftan iki kişi tarafından öldürülmüştür.»",
   "gun": "91 (710)",
   "kesinlik": "yil",
   "ic_not": "Nerşahî Bîdûn Hatun'un oğlu Tuğşâde adına 15 yıl naibelik yaptığını söyler; Taberî'nin 91 (710) tayini ile çelişir (TDV iki rivayeti birlikte verir)."
@@ -15996,7 +15996,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Buhara",
   "d": "Tuğşâde devrinde Türkler bölgeyi geçici olarak birkaç defa ele geçirdi; 110 (728-29) yılında bir ara Buhara'yı da işgal ettiler.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Buhara» md., https://islamansiklopedisi.org.tr/buhara (bu oturumda okundu): «Onun devrinde Türkler bölgeyi geçici olarak birkaç defa ele geçirdiler; 110 (728-29) yılında bir ara Buhara’yı da işgal ettiler (Taberî, II, 1514, 1529).»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Buhara» md., https://islamansiklopedisi.org.tr/buhara: «Onun devrinde Türkler bölgeyi geçici olarak birkaç defa ele geçirdiler; 110 (728-29) yılında bir ara Buhara’yı da işgal ettiler (Taberî, II, 1514, 1529).»",
   "gun": "110 (728-29)",
   "kesinlik": "yil",
   "ic_not": "Hicrî 110 başı (tablo) 0728-04-16; TDV mîlâdî 728-29 verir, kesişimin ilk günü."
@@ -16018,7 +16018,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Buhara",
   "d": "Tuğşâde Ramazan 121 (Ağustos 739) tarihinde Semerkant'ta Horasan Valisi Nasr b. Seyyâr'ın ordugâhında iki kişi tarafından öldürüldü; yerine oğlu Kuteybe geçti.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Buhara» md., https://islamansiklopedisi.org.tr/buhara (bu oturumda okundu): «Ramazan 121 (Ağustos 739) tarihinde Semerkant’ta Horasan Valisi Nasr b. Seyyâr’ın ordugâhında eşraftan iki kişi tarafından öldürülmüştür. Tuğşâde’nin öldürülmesi üzerine yerine oğlu Kuteybe hükümdar oldu.»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Buhara» md., https://islamansiklopedisi.org.tr/buhara: «Ramazan 121 (Ağustos 739) tarihinde Semerkant’ta Horasan Valisi Nasr b. Seyyâr’ın ordugâhında eşraftan iki kişi tarafından öldürülmüştür. Tuğşâde’nin öldürülmesi üzerine yerine oğlu Kuteybe hükümdar oldu.»",
   "gun": "Ramazan 121 (Ağustos 739; gün yok)",
   "kesinlik": "ay",
   "ic_not_takvim": "Hicrî 121 Ramazan başı (tablo) 0739-08-11; TDV Ağustos 739 → ayın içinde, ±2 gün; gün TDV'de yok."
@@ -16040,7 +16040,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Buhara",
   "d": "Nerşahî'ye göre Buhara'yı çevreleyen büyük surun yapımına 168 (784) yılında başlandı, 215 (830) yılında bitti; Horasan valisi Fazl b. Süleyman Buhara ve Soğd'u Türk akınlarına karşı surlarla çevirdi (166/782).",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Buhara» md., https://islamansiklopedisi.org.tr/buhara (bu oturumda okundu): «Nerşahî’ye göre bu surların yapılmasına 168 (784) yılında başlanmış, inşaatı 215 (830) yılında bitmiştir.» · «Horasan Valisi Fazl b. Süleyman et-Tûsî Buhara ve Soğd’u Türk akınlarına karşı surlarla çevirdi (166/782).»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Buhara» md., https://islamansiklopedisi.org.tr/buhara: «Nerşahî’ye göre bu surların yapılmasına 168 (784) yılında başlanmış, inşaatı 215 (830) yılında bitmiştir.» · «Horasan Valisi Fazl b. Süleyman et-Tûsî Buhara ve Soğd’u Türk akınlarına karşı surlarla çevirdi (166/782).»",
   "gun": "168 (784)",
   "kesinlik": "yil",
   "ic_not": "TDV iki tarih verir (166/782 Fazl b. Süleyman; 168/784 Nerşahî sur başlangıcı); 168 H başı (tablo) 0784-07-24."
@@ -16063,7 +16063,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Buhara",
   "d": "Ya'kūb b. Leys'in Tâhirîler'i ortadan kaldırması üzerine şehir halkı Sâmânî Semerkant hâkimi Nasr b. Ahmed'e başvurdu; Nasr kardeşi İsmâil'i Buhara valisi atadı (260/874); şehir 389 (999) yılına kadar Sâmânîler tarafından idare edildi.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Buhara» md., https://islamansiklopedisi.org.tr/buhara (bu oturumda okundu): «260 (874) yılına kadar Buhara Sâmânîler’e bağlı değildi. Doğrudan Horasan’daki Tâhirîler’e bağlı bir valinin idaresindeydi.» · «Nasr da küçük kardeşi İsmâil’i Buhara valiliğine tayin etti (260/874). Böylece Buhara 389 (999) yılına kadar Sâmânîler tarafından idare edildi.»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Buhara» md., https://islamansiklopedisi.org.tr/buhara: «260 (874) yılına kadar Buhara Sâmânîler’e bağlı değildi. Doğrudan Horasan’daki Tâhirîler’e bağlı bir valinin idaresindeydi.» · «Nasr da küçük kardeşi İsmâil’i Buhara valiliğine tayin etti (260/874). Böylece Buhara 389 (999) yılına kadar Sâmânîler tarafından idare edildi.»",
   "gun": "260 (874)",
   "kesinlik": "yil",
   "ic_not": "Hicrî 260 (873-10-27 → 874-10-16) ∩ 874 → ilk gün 0874-01-01. Ya'kūb b. Leys'in Tâhirî sonrası kısa Buhara hutbesi TDV'de tarihsiz."
@@ -16085,7 +16085,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Buhara",
   "d": "İlig Han Nasr 389 (999) yılında hiçbir mukavemetle karşılaşmadan Sâmânî başşehri Buhara'yı zaptetti, hânedan mensuplarını Özkent'e sürdü, kendi valilerini atadı.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Karahanlılar» md., https://islamansiklopedisi.org.tr/karahanlilar (bu oturumda okundu): «997’de Buhara üzerine yürüyen, ancak başarılı olamayan İlig Han Nasr iki yıl sonra hiçbir mukavemetle karşılaşmadan Sâmânî başşehri Buhara’yı zaptetti (389/999). Hânedan mensuplarını Özkent’e sürdü, bölgeye kendi valilerini tayin edip Özkent’e döndü.» · TDV İslâm Ansiklopedisi, «Fergana» md., https://islamansiklopedisi.org.tr/fergana (bu oturumda okundu): «İlig Han Nasr’ın Ekim 999’da Buhara’yı zaptederek …»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Karahanlılar» md., https://islamansiklopedisi.org.tr/karahanlilar: «997’de Buhara üzerine yürüyen, ancak başarılı olamayan İlig Han Nasr iki yıl sonra hiçbir mukavemetle karşılaşmadan Sâmânî başşehri Buhara’yı zaptetti (389/999). Hânedan mensuplarını Özkent’e sürdü, bölgeye kendi valilerini tayin edip Özkent’e döndü.» · TDV İslâm Ansiklopedisi, «Fergana» md., https://islamansiklopedisi.org.tr/fergana: «İlig Han Nasr’ın Ekim 999’da Buhara’yı zaptederek …»",
   "gun": "389 / Ekim 999",
   "kesinlik": "ay",
   "ic_not": "Ay (Ekim) TDV Fergana'dan; TDV Karahanlılar yalnız 389/999 verir; gün yok."
@@ -16107,7 +16107,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Yenisey havzası",
   "d": "Kırgızlar 560'ta Göktürk Hakanı Mukan zamanında hakanlığa bağlandılar.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Kırgızlar» md., https://islamansiklopedisi.org.tr/kirgizlar (bu oturumda okundu): «Kırgızlar 560’ta Göktürk Hakanı Mukan zamanında hakanlığa bağlandılarsa da Göktürkler’in fetret devrinde (630-680) müstakil bir hüviyet kazandılar.»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Kırgızlar» md., https://islamansiklopedisi.org.tr/kirgizlar: «Kırgızlar 560’ta Göktürk Hakanı Mukan zamanında hakanlığa bağlandılarsa da Göktürkler’in fetret devrinde (630-680) müstakil bir hüviyet kazandılar.»",
   "gun": "560",
   "kesinlik": "yil",
   "ic_not": "gokturk-1 künyesi t=0582 (bati/dogu-gokturk ayrımı); 560 gokturk-1 ömrü içinde."
@@ -16129,7 +16129,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Yenisey havzası",
   "d": "Tang Taizong 貞觀二十年'de Tiele boylarını altı vali yönetimi ve yedi eyalete ayırırken Uygurların kuzeybatısındaki Jiegu'yu (Kırgızlar) Jiankun Valiliği yaptı.",
-  "kaynak": "Jiu Tang shu juan 195 «Huigu» (Wikisource 舊唐書/卷195, bu oturumda okundu) (貞觀二十年): «又以回紇西北結骨為堅昆府，其北骨利幹為玄闕州，東北俱羅勃為燭龍州。»",
+  "kaynak": "Jiu Tang shu juan 195 «Huigu» (Wikisource 舊唐書/卷195) (貞觀二十年): «又以回紇西北結骨為堅昆府，其北骨利幹為玄闕州，東北俱羅勃為燭龍州。»",
   "gun": "貞觀二十年",
   "kesinlik": "yil",
   "ic_not": "ÇELİŞKİ: Xin Tang shu 217 xia Kırgız elçisinin ve Jiankun Valiliği'nin kuruluşunu 貞觀二十二年 (648) verir («聞鐵勒等已入臣，即遣使者獻方物 … 帝以其地為堅昆府»); Jiu Tang 195 (646) listesinde Jiankun'u verir. İki Çin kaynağı arasında 646/648 farkı; Jiu Tang 195 esas alındı."
@@ -16151,7 +16151,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Yenisey havzası",
   "d": "Kırgız (堅昆) beyi Shiboqu Azhan Taizong'un sarayına geldi; Taizong onu askerî vali (左屯衛大將軍) yaptı ve Jiankun Valiliği Yanran Koruyuculuğu'na bağlandı.",
-  "kaynak": "Xin Tang shu juan 217 xia «Huigu xia» (Wikisource 新唐書/卷217下, bu oturumda okundu): «貞觀二十二年，聞鐵勒等已入臣，即遣使者獻方物，其酋長俟利發失缽屈阿棧身入朝，太宗勞享之 … 帝以其地為堅昆府，拜俟利發左屯衛大將軍，即為都督，隸燕然都護。» · «始隸薛延陀，延陀以頡利發一人監國。»",
+  "kaynak": "Xin Tang shu juan 217 xia «Huigu xia» (Wikisource 新唐書/卷217下): «貞觀二十二年，聞鐵勒等已入臣，即遣使者獻方物，其酋長俟利發失缽屈阿棧身入朝，太宗勞享之 … 帝以其地為堅昆府，拜俟利發左屯衛大將軍，即為都督，隸燕然都護。» · «始隸薛延陀，延陀以頡利發一人監國。»",
   "gun": "貞觀二十二年",
   "kesinlik": "yil",
   "ic_not": "Xue yantuo (Sir-Tarduş) vasalı Kırgızlar bu olaydan sonra Tang'a bağlandı; xueyantuo künyesi bu kümede yok (bozkir1 yazdı, main'de değil) → taraflar'da gösterilmedi."
@@ -16173,7 +16173,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Yenisey havzası",
   "d": "Uygur Kağanı Moyen-çor Kırgızları Uygur Hakanlığı'na bağladı (758); 840'ta Kırgızlar Uygur devletini yıkıp Ötüken'de kendi hâkimiyetlerini kurdu.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Kırgızlar» md., https://islamansiklopedisi.org.tr/kirgizlar (bu oturumda okundu): «Kırgızlar daha sonra Uygur Kağanı Moyen-çor tarafından Uygur Hakanlığı’na bağlandılar (758). Ancak 840’ta şiddetli bir hücumla Uygur Devleti’ni yıkarak Ötüken’de kendi hâkimiyetlerini kurdular»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Kırgızlar» md., https://islamansiklopedisi.org.tr/kirgizlar: «Kırgızlar daha sonra Uygur Kağanı Moyen-çor tarafından Uygur Hakanlığı’na bağlandılar (758). Ancak 840’ta şiddetli bir hücumla Uygur Devleti’ni yıkarak Ötüken’de kendi hâkimiyetlerini kurdular»",
   "gun": "758",
   "kesinlik": "yil"
  },
@@ -16193,7 +16193,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Almalık",
   "d": "Çağatay Han'ın ölümünden sonra torunu Kara Hülâgû hanlığın başına geçti (1241-1246); bu dönemde Çağatay hanları Karakorum'daki büyük hanlığa karşı müstakil hareket edemediler.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Çağatay Hanlığı» md., https://islamansiklopedisi.org.tr/cagatay-hanligi (bu oturumda okundu): «Çağatay Han’ın ölümünden sonra torunu Kara Hülâgû (1241-1246), daha sonra da oğullarından Yesü-Mengü (1246-1251) Çağatay hanı olmuşlardır. Bu dönemde Çağatay hanları Karakorum’daki büyük hanlığa karşı müstakil hareket edemediler.»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Çağatay Hanlığı» md., https://islamansiklopedisi.org.tr/cagatay-hanligi: «Çağatay Han’ın ölümünden sonra torunu Kara Hülâgû (1241-1246), daha sonra da oğullarından Yesü-Mengü (1246-1251) Çağatay hanı olmuşlardır. Bu dönemde Çağatay hanları Karakorum’daki büyük hanlığa karşı müstakil hareket edemediler.»",
   "gun": "1241",
   "kesinlik": "yil",
   "ic_not": "Çağatay'ın ölüm yılı TDV Çağatay Hanlığı md.'sinde verilmez; TDV Altın Orda md. «Çağatay Han ve Ögedey Kağan’ın 1241 yılında birbiri ardınca ölmeleri» der."
@@ -16214,7 +16214,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Almalık",
   "d": "Kara Hülâgû'dan sonra oğullarından Yesü-Mengü Çağatay hanı oldu (1246-1251).",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Çağatay Hanlığı» md., https://islamansiklopedisi.org.tr/cagatay-hanligi (bu oturumda okundu): «Kara Hülâgû (1241-1246), daha sonra da oğullarından Yesü-Mengü (1246-1251) Çağatay hanı olmuşlardır.»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Çağatay Hanlığı» md., https://islamansiklopedisi.org.tr/cagatay-hanligi: «Kara Hülâgû (1241-1246), daha sonra da oğullarından Yesü-Mengü (1246-1251) Çağatay hanı olmuşlardır.»",
   "gun": "1246",
   "kesinlik": "yil"
  },
@@ -16235,7 +16235,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Çu ve Yedisu havzası",
   "d": "Algu Çağatay Hanlığı topraklarına Hârizm ve Afganistan'ı kattı, Batu Han zamanında Altın Orda'ya geçmiş olan Çu ve Yedisu havzalarını Kubilay'ın desteğiyle yeniden Çağatay Hanlığı'na kattı; Çağatay Hanlığı'nın gerçek kurucusu sayılır (1260-1266).",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Çağatay Hanlığı» md., https://islamansiklopedisi.org.tr/cagatay-hanligi (bu oturumda okundu): «Çağatay Hanlığı toprakları yanında Hârizm ve Afganistan’ı da ele geçiren Algu, Kubilay Han’ın da desteğiyle Batu Han zamanında Altın Orda’ya geçmiş olan Çu ve Yedisu havzalarını yeniden Çağatay Hanlığı topraklarına kattı.» · «Bu sebeple Algu Çağatay Hanlığı’nın gerçek kurucusu kabul edilmektedir.»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Çağatay Hanlığı» md., https://islamansiklopedisi.org.tr/cagatay-hanligi: «Çağatay Hanlığı toprakları yanında Hârizm ve Afganistan’ı da ele geçiren Algu, Kubilay Han’ın da desteğiyle Batu Han zamanında Altın Orda’ya geçmiş olan Çu ve Yedisu havzalarını yeniden Çağatay Hanlığı topraklarına kattı.» · «Bu sebeple Algu Çağatay Hanlığı’nın gerçek kurucusu kabul edilmektedir.»",
   "gun": "1260-1266 (hükümdarlık; fetih yılları TDV'de yok)",
   "kesinlik": "yil",
   "ic_not": "TDV fetih yıllarını ayrı vermez; Algu'nun hanlık yılları 1260-1266 (hükümdarlık başlangıcı yıl). `yer` tek yerleşim değil bölgedir (Çu ve Yedisu havzası), bu yüzden tur `toprak-kazanc` yazılmadı (Değişmez 2 sınır maddesi gerektirmesin); tek şehirle bağlanabilecek s: kırılması bu kümede yok."
@@ -16256,7 +16256,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Almalık",
   "d": "Algu'nun 1266'daki ölümünden sonra Ergene Hatun'un oğlu Mübârek Şah Çağatay hanı ilân edildi; Çağatay oğulları arasında İslâmiyet'i kabul eden ilk hükümdardır; aynı yıl Kubilay'ın desteklediği Barak onu tahttan indirdi (1266-1271).",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Çağatay Hanlığı» md., https://islamansiklopedisi.org.tr/cagatay-hanligi (bu oturumda okundu): «Algu’nun 1266’da ölümünden sonra Ergene Hatun’un oğlu Mübârek Şah Çağatay hanı ilân edildi. Mübârek Şah Çağatay oğulları arasında İslâmiyet’i kabul eden ilk hükümdardır. Fakat aynı yıl içinde Kubilay Han tarafından desteklenen Çağatay’ın başka bir torunu Barak Han, Mübârek Şah’ı tahttan indirerek kendisini Çağatay hanı ilân etti (1266-1271).»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Çağatay Hanlığı» md., https://islamansiklopedisi.org.tr/cagatay-hanligi: «Algu’nun 1266’da ölümünden sonra Ergene Hatun’un oğlu Mübârek Şah Çağatay hanı ilân edildi. Mübârek Şah Çağatay oğulları arasında İslâmiyet’i kabul eden ilk hükümdardır. Fakat aynı yıl içinde Kubilay Han tarafından desteklenen Çağatay’ın başka bir torunu Barak Han, Mübârek Şah’ı tahttan indirerek kendisini Çağatay hanı ilân etti (1266-1271).»",
   "gun": "1266",
   "kesinlik": "yil"
  },
@@ -16277,7 +16277,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Almalık",
   "d": "1269 Talas kurultayının ardından Kaydu Çağatay Hanlığı üzerinde mutlak hâkimiyet kurdu; Barak'tan sonra han olan Nikibey Han (1271-1274) ve Buka Timur Han (1274-1277) Kaydu'nun vasalı durumundaydı; Kaydu Çağatay Hanlığı'ndan İli havzasını almıştı.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Çağatay Hanlığı» md., https://islamansiklopedisi.org.tr/cagatay-hanligi (bu oturumda okundu): «Bu kurultayın ardından, Ögedey Han soyundan gelen ve daha sonraları Çağatay Hanlığı’ndan İli havzasını alarak Kubilay’a karşı mücadele eden Kaydu, Çağatay Hanlığı üzerinde mutlak bir hâkimiyet kurdu. Bu dönemde Barak Han’dan sonra Çağatay hanı olan Nikibey Han (1271-1274) ile Buka Timur Han (1274-1277) Kaydu’nun (ö. 1303) vasalı durumunda idiler.»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Çağatay Hanlığı» md., https://islamansiklopedisi.org.tr/cagatay-hanligi: «Bu kurultayın ardından, Ögedey Han soyundan gelen ve daha sonraları Çağatay Hanlığı’ndan İli havzasını alarak Kubilay’a karşı mücadele eden Kaydu, Çağatay Hanlığı üzerinde mutlak bir hâkimiyet kurdu. Bu dönemde Barak Han’dan sonra Çağatay hanı olan Nikibey Han (1271-1274) ile Buka Timur Han (1274-1277) Kaydu’nun (ö. 1303) vasalı durumunda idiler.»",
   "gun": "1271",
   "kesinlik": "yil",
   "ic_not": "Çağatay kaynakta `ogedey-ulusu` künyesi (f=1267) ile örtüşür: Çağatay hanlığı bu dönemde Kaydu hegemonyasındadır; Almalık yaması dilimi 1227-1281 `cagatay` yazıldı, Kaydu hakimiyeti (İli havzası) için bkz. RAPOR.md."
@@ -16299,7 +16299,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Saray",
   "d": "Batu Han 1241'de Rus ve Kıpçak seferlerinden dönüp İdil nehrinin aşağı mecrasında «Orda» merkezini kurdu; Saray şehri kısa sürede Doğu Avrupa ile Batı Sibirya arasındaki en büyük merkez oldu.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Altın Orda Hanlığı» md., https://islamansiklopedisi.org.tr/altin-orda-hanligi (bu oturumda okundu): «Batu Han nihayet kazandığı büyük başarılardan sonra 1241 yılında İdil nehrinin aşağı mecrasına dönerek “Orda” merkezini kurdu. Saray adı verilen ve siyasî önemi yanı sıra ticaret yollarının da üzerinde bulunan şehir kısa zamanda gelişerek Doğu Avrupa ile Batı Sibirya arasında en büyük merkez haline geldi.»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Altın Orda Hanlığı» md., https://islamansiklopedisi.org.tr/altin-orda-hanligi: «Batu Han nihayet kazandığı büyük başarılardan sonra 1241 yılında İdil nehrinin aşağı mecrasına dönerek “Orda” merkezini kurdu. Saray adı verilen ve siyasî önemi yanı sıra ticaret yollarının da üzerinde bulunan şehir kısa zamanda gelişerek Doğu Avrupa ile Batı Sibirya arasında en büyük merkez haline geldi.»",
   "gun": "1241",
   "kesinlik": "yil",
   "ic_not": "ÇELİŞKİ (yıl): TDV Altın Orda 1241 verir; atlas künyesi altinorda f=1242 (künye düzeltme önerisi f=1241, RAPOR.md). TDV Saray md.: Saray'ın adını ilk kez 1254'te Rubrucklu William anar."
@@ -16321,7 +16321,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Saray",
   "d": "Batu Han'ın 1256'daki ölümü ve oğulları Sertak ve Ulakçı'nın aynı yıl ölümü üzerine Berke Han tahta çıktı; hükümdar olur olmaz bağımsızlığını ilân eden Galiçya kralını tekrar itaat altına almayı başardı.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Altın Orda Hanlığı» md., https://islamansiklopedisi.org.tr/altin-orda-hanligi (bu oturumda okundu): «Batu Han’ın 1256’da ölümünden sonra yerine geçen oğulları Sertak ve Ulakçı’nın da aynı yıl içinde ölmeleri üzerine Batu Han’ın kardeşi Berke, han oldu. … Nitekim hükümdar olur olmaz, bağımsızlığını ilân eden Galiçya kralını tekrar itaat altına almayı başardı.»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Altın Orda Hanlığı» md., https://islamansiklopedisi.org.tr/altin-orda-hanligi: «Batu Han’ın 1256’da ölümünden sonra yerine geçen oğulları Sertak ve Ulakçı’nın da aynı yıl içinde ölmeleri üzerine Batu Han’ın kardeşi Berke, han oldu. … Nitekim hükümdar olur olmaz, bağımsızlığını ilân eden Galiçya kralını tekrar itaat altına almayı başardı.»",
   "gun": "1256",
   "kesinlik": "yil",
   "ic_not": "Berke'nin tahta çıkışı kronoloji_cok_once1281_iran.js'te zaten var (1256-01-01); buradaki madde Galiçya itaatini ekler. TDV Batu'nun doğrudan ardılını «oğulları Sertak ve Ulakçı» olarak verir."
@@ -16342,7 +16342,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Saray",
   "d": "Mengü Timur (1266-1280) ihtiyatlı politikasıyla devletin bütünlüğünü korumuş, yerine geçen Tuda Mengü Han zamanında (1280-1287) devletin bütünlüğü tehlikeye düşmüş ve Altın Orda'nın ilk fetret devri başlamıştır (yaklaşık 25 yıl).",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Altın Orda Hanlığı» md., https://islamansiklopedisi.org.tr/altin-orda-hanligi (bu oturumda okundu): «Berke’den sonra Altın Orda’nın başına geçen Mengü Timur (1266-1280), takip ettiği ihtiyatlı politika ile devletin bütünlüğünü ve istiklâlini bir müddet daha korumayı başardı. Fakat Mengü’nün yerine geçen Tuda Mengü Han zamanında (1280-1287) devletin bütünlüğü tehlikeye düştü ve bundan sonraki yirmi beş yıllık süre, Altın Orda’nın ilk fetret devri oldu.»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Altın Orda Hanlığı» md., https://islamansiklopedisi.org.tr/altin-orda-hanligi: «Berke’den sonra Altın Orda’nın başına geçen Mengü Timur (1266-1280), takip ettiği ihtiyatlı politika ile devletin bütünlüğünü ve istiklâlini bir müddet daha korumayı başardı. Fakat Mengü’nün yerine geçen Tuda Mengü Han zamanında (1280-1287) devletin bütünlüğü tehlikeye düştü ve bundan sonraki yirmi beş yıllık süre, Altın Orda’nın ilk fetret devri oldu.»",
   "gun": "1280",
   "kesinlik": "yil"
  },
@@ -16362,7 +16362,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "mogol-imparatorlugu"
   ],
   "d": "Timuçin (sonradan Cengiz Han) 1197’de Merkitler’i mağlûp etti; TDV’ye göre Merkit beyi Tokta-Beki bu seferde öldürüldü. Bu, Merkitler’in kaynakta tarihli ilk görünüşüdür.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Cengiz Han» md. (Mustafa Kafalı, 1993), https://islamansiklopedisi.org.tr/cengiz-han (bu oturumda okundu): «1197’de Merkitler üzerine yürüyerek onları mağlûp etti ve Merkitler’in beyi Tokta-Beki’yi öldürttü.»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Cengiz Han» md. (Mustafa Kafalı, 1993), https://islamansiklopedisi.org.tr/cengiz-han: «1197’de Merkitler üzerine yürüyerek onları mağlûp etti ve Merkitler’in beyi Tokta-Beki’yi öldürttü.»",
   "gun": "1197",
   "kesinlik": "yil",
   "ic_not": "taraflar: 1206 öncesi Timuçin’in Moğol birliği için atlasta ayrı kimlik yok; ardıl «mogol-imparatorlugu» kimliği kullanıldı (1206 künye başlangıcıdır, madde ondan önce). TDV Tokta-Beki’nin ölümünü 1197’ye koyar; öteki kaynaklarda (Moğolların Gizli Tarihi) Tokta’nın 1208’de öldüğü anlatılır — çelişki ayrıca beyan: TDV esas alındı, Gizli Tarih okunmadı (atıf; açılmadı)."
@@ -16384,7 +16384,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "mogol-imparatorlugu"
   ],
   "d": "Öngüt hükümdarı Alakuş Tigin’in haberi üzerine Timuçin, Nayman hükümdarı Tayang Han ile Merkit hükümdarı Kutuku’nun ittifakını ve onlara katılan Katagin, Salciyut gibi kavimleri yurtlarında basıp dağıttı.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Cengiz Han» md. (Mustafa Kafalı, 1993), https://islamansiklopedisi.org.tr/cengiz-han (bu oturumda okundu): «1204 yılında Ongut Hükümdarı Alakuş Tigin, Timuçin’e haber göndererek Nayman Hükümdarı Tayang Han’ın Merkit Hükümdarı Kutuku ile anlaşma yaptığını … haber verdi. Timuçin süratle hazırlıklarını tamamlayarak müttefik kuvvetleri yurtlarında bastı ve hepsini dağıttı.»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Cengiz Han» md. (Mustafa Kafalı, 1993), https://islamansiklopedisi.org.tr/cengiz-han: «1204 yılında Ongut Hükümdarı Alakuş Tigin, Timuçin’e haber göndererek Nayman Hükümdarı Tayang Han’ın Merkit Hükümdarı Kutuku ile anlaşma yaptığını … haber verdi. Timuçin süratle hazırlıklarını tamamlayarak müttefik kuvvetleri yurtlarında bastı ve hepsini dağıttı.»",
   "gun": "1204",
   "kesinlik": "yil",
   "ic_not": "taraflar: 1206 öncesi Timuçin’in Moğol birliği için atlasta ayrı kimlik yok; ardıl «mogol-imparatorlugu» kimliği kullanıldı (1206 künye başlangıcıdır, madde ondan önce)."
@@ -16405,7 +16405,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "mogol-imparatorlugu"
   ],
   "d": "Nayman Güçlüg’ün Merkitler’le ittifak yapması üzerine Cengiz Han harekete geçip onları mağlûp etti; TDV’ye göre Merkit hükümdarı öldü, kardeşleri ve çocukları Uygur ülkesine kaçtı. Merkit siyasî varlığı bu darbeyle çöktü.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Cengiz Han» md. (Mustafa Kafalı, 1993), https://islamansiklopedisi.org.tr/cengiz-han (bu oturumda okundu): «1208 yılının kış mevsiminde Nayman Hükümdarı Tayang Han’ın oğlu Güçlüg’ün Merkitler’le ittifak yapması üzerine Cengiz Han harekete geçerek onları mağlûp etti; Merkit hükümdarı öldü, kardeşleri ve çocukları Uygur ülkesine kaçtılar.»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Cengiz Han» md. (Mustafa Kafalı, 1993), https://islamansiklopedisi.org.tr/cengiz-han: «1208 yılının kış mevsiminde Nayman Hükümdarı Tayang Han’ın oğlu Güçlüg’ün Merkitler’le ittifak yapması üzerine Cengiz Han harekete geçerek onları mağlûp etti; Merkit hükümdarı öldü, kardeşleri ve çocukları Uygur ülkesine kaçtılar.»",
   "gun": "1208 kışı",
   "kesinlik": "yil",
   "ic_not": "TDV «1208 yılının kış mevsiminde» der; kış Aralık 1208–Şubat 1209’a düşebildiğinden gün tek gün olarak 1209-01-01 seçildi (yıl hassasiyeti). taraflar: 1206 öncesi Timuçin’in Moğol birliği için atlasta ayrı kimlik yok; ardıl «mogol-imparatorlugu» kimliği kullanıldı (1206 künye başlangıcıdır, madde ondan önce)."
@@ -16426,7 +16426,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "merkit"
   ],
   "d": "Cengiz Han 1217’de kumandanı Subutay Noyan’ı Toğaçar Noyan ile birlikte Merkitler üzerine gönderdi; bu sefer 1208’den sonra kalan Merkit gruplarına yöneliktir.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Cengiz Han» md. (Mustafa Kafalı, 1993), https://islamansiklopedisi.org.tr/cengiz-han (bu oturumda okundu): «1217 yılında kumandanlarından Subitay Noyan’ı Togaçar Noyan ile birlikte Merkitler üzerine, Buragul Noyan ile Dörmen Bahadır’ı Tumatlar’a karşı yolladı.»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Cengiz Han» md. (Mustafa Kafalı, 1993), https://islamansiklopedisi.org.tr/cengiz-han: «1217 yılında kumandanlarından Subitay Noyan’ı Togaçar Noyan ile birlikte Merkitler üzerine, Buragul Noyan ile Dörmen Bahadır’ı Tumatlar’a karşı yolladı.»",
   "gun": "1217",
   "kesinlik": "yil",
   "ic_not": "Madde künye ömrü (t=1209) dışındadır: 1208 sonrası Merkit kalıntısı; siyasî birlik olarak tarihlenmedi."
@@ -16448,7 +16448,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "mogol-imparatorlugu"
   ],
   "d": "1199’da Kerayit hükümdarı Ong Han’la birlikte hareket eden Timuçin, Kişil-Baş mevkiinde Nayman hakanı Buyruk Han’ı bozguna uğrattı. Bu, TDV’de Naymanlar’ın tarihli ilk görünüşüdür.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Cengiz Han» md. (Mustafa Kafalı, 1993), https://islamansiklopedisi.org.tr/cengiz-han (bu oturumda okundu): «1199’da Ong Han’la beraber Kişil-Baş mevkiinde Nayman Hakanı Buyruk Han’ı bozguna uğrattı.»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Cengiz Han» md. (Mustafa Kafalı, 1993), https://islamansiklopedisi.org.tr/cengiz-han: «1199’da Ong Han’la beraber Kişil-Baş mevkiinde Nayman Hakanı Buyruk Han’ı bozguna uğrattı.»",
   "gun": "1199",
   "kesinlik": "yil",
   "ic_not": "taraflar: 1206 öncesi Timuçin’in Moğol birliği için atlasta ayrı kimlik yok; ardıl «mogol-imparatorlugu» kimliği kullanıldı (1206 künye başlangıcıdır, madde ondan önce)."
@@ -16470,7 +16470,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "mogol-imparatorlugu"
   ],
   "d": "Timuçin 1202’de Tatar ili üzerine büyük sefer yaptıktan sonra Naymanlar’ın yeniden toparlandığını görerek Ong Han ile birlikte onların üzerine yürüdü.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Cengiz Han» md. (Mustafa Kafalı, 1993), https://islamansiklopedisi.org.tr/cengiz-han (bu oturumda okundu): «Aynı yıl içinde Naymanlar’ın tekrar toparlandığını görerek Ong Han ile birlikte onların üzerine yürüdü.»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Cengiz Han» md. (Mustafa Kafalı, 1993), https://islamansiklopedisi.org.tr/cengiz-han: «Aynı yıl içinde Naymanlar’ın tekrar toparlandığını görerek Ong Han ile birlikte onların üzerine yürüdü.»",
   "gun": "1202",
   "kesinlik": "yil",
   "ic_not": "taraflar: 1206 öncesi Timuçin’in Moğol birliği için atlasta ayrı kimlik yok; ardıl «mogol-imparatorlugu» kimliği kullanıldı (1206 künye başlangıcıdır, madde ondan önce)."
@@ -16492,7 +16492,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "mogol-imparatorlugu"
   ],
   "d": "Tayang Han, Merkit Kutuku ile anlaşıp Katagin ve Salciyut gibi kavimlerle birleşmişti; Timuçin bu müttefik güçleri yurtlarında basıp dağıttı. Nayman devleti bu yenilgiyle ortadan kalktı.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Cengiz Han» md. (Mustafa Kafalı, 1993), https://islamansiklopedisi.org.tr/cengiz-han (bu oturumda okundu): «Timuçin süratle hazırlıklarını tamamlayarak müttefik kuvvetleri yurtlarında bastı ve hepsini dağıttı.»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Cengiz Han» md. (Mustafa Kafalı, 1993), https://islamansiklopedisi.org.tr/cengiz-han: «Timuçin süratle hazırlıklarını tamamlayarak müttefik kuvvetleri yurtlarında bastı ve hepsini dağıttı.»",
   "gun": "1204",
   "kesinlik": "yil",
   "ic_not": "taraflar: 1206 öncesi Timuçin’in Moğol birliği için atlasta ayrı kimlik yok; ardıl «mogol-imparatorlugu» kimliği kullanıldı (1206 künye başlangıcıdır, madde ondan önce). TDV 1206 maddesinde Tayang Han’ı hâlâ anar (aynı md.: «1206 yılında, Nayman Tayang Han, Ong Han ve Kutuku-Beki başta olmak üzere bütün bozkır hükümdarlarını hâkimiyeti altında toplamıştı») — Tayang’ın 1204’te mi 1206’ya kadar mı ayakta kaldığı TDV’de iç çelişkidir; künye t=1204 (savaş yılı) seçildi."
@@ -16514,7 +16514,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "mogol-imparatorlugu"
   ],
   "d": "Tayang Han’ın oğlu Güçlüg Merkitler’le ittifak etti; Cengiz Han’ın mağlûp etmesi üzerine daha batıdaki Karahıtay hükümdarı Gür Han’a sığındı. Güçlüg orada Gür Han’ı alt edip hâkimiyeti ele geçirdi.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Cengiz Han» md. (Mustafa Kafalı, 1993), https://islamansiklopedisi.org.tr/cengiz-han (bu oturumda okundu): «Nayman Güçlüg ise daha batıdaki Karahıtay Hükümdarı Gür Han’a sığındı. Fakat Güçlüg burada da rahat durmayarak Gür Han’ı öldürdü ve ülkesine hâkim oldu.»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Cengiz Han» md. (Mustafa Kafalı, 1993), https://islamansiklopedisi.org.tr/cengiz-han: «Nayman Güçlüg ise daha batıdaki Karahıtay Hükümdarı Gür Han’a sığındı. Fakat Güçlüg burada da rahat durmayarak Gür Han’ı öldürdü ve ülkesine hâkim oldu.»",
   "gun": "1208 kışı",
   "kesinlik": "yil",
   "ic_not": "Naiman künyesi (t=1204) bitmiştir; Güçlüg’ün 1211 sonrası Karahıtay’daki rejimi ayrı polity (kuclug-karahitay, bozkir2 önerisi). taraflar: 1206 öncesi Timuçin’in Moğol birliği için atlasta ayrı kimlik yok; ardıl «mogol-imparatorlugu» kimliği kullanıldı (1206 künye başlangıcıdır, madde ondan önce)."
@@ -16535,7 +16535,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "naiman"
   ],
   "d": "Hârizmşah Muhammed b. Tekiş ile anlaşarak ayrı yönlerden saldıran Moğol Nayman hükümdarı Küçlüg, kayınpederi Gürhan Ch’e-lu-ku’yu esir ederek Karahıtay Devleti’ne son verdi.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Karahıtaylar» md., https://islamansiklopedisi.org.tr/karahitaylar (bu oturumda okundu): «Böylece Karahıtaylar’a son darbeyi vuran Küçlüğ kayınpederi Ch’e-lu-ku’yu esir ederek bu devlete son verdi (1211).»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Karahıtaylar» md., https://islamansiklopedisi.org.tr/karahitaylar: «Böylece Karahıtaylar’a son darbeyi vuran Küçlüğ kayınpederi Ch’e-lu-ku’yu esir ederek bu devlete son verdi (1211).»",
   "gun": "1211",
   "kesinlik": "yil",
   "ic_not": "Karahıtay künyesi t=1211 ile uyumlu (atlas künyesi referans sayılmadı; TDV esas). Madde Naiman künye ömrü (t=1204) dışındaki Nayman kalıntısı hakkındadır."
@@ -16556,7 +16556,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "tatar"
   ],
   "d": "Bilge Kağan beş sefer sonunda Oğuzlar’ın üzerine yeniden yürüdü; Oğuzlar, Tokuz Tatarlar’la birlikte 716 yazında Agu’da onun karşısına çıktı ve iki şiddetli savaşta bozguna uğradı. Tokuz Tatarlar bu sırada Tula ırmağının doğusunda yaşıyordu.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Tatarlar» md. (Faruk Sümer, 2011), https://islamansiklopedisi.org.tr/tatarlar (bu oturumda okundu): «Oğuzlar, Tokuz Tatarlar’la birlikte 716 yazında Agu’da onun karşısına çıkmışlarsa da vuku bulan iki şiddetli savaşta bozguna uğramışlardı.»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Tatarlar» md. (Faruk Sümer, 2011), https://islamansiklopedisi.org.tr/tatarlar: «Oğuzlar, Tokuz Tatarlar’la birlikte 716 yazında Agu’da onun karşısına çıkmışlarsa da vuku bulan iki şiddetli savaşta bozguna uğramışlardı.»",
   "gun": "716 yazı",
   "kesinlik": "yil",
   "ic_not": "Yaz mevsimi; gün/ay verilmediğinden yıl hassasiyeti. Tatar künyesi f=0716 bu maddedir (ilk TARİHLİ tanık); aynı md. Orhon yazıtlarında Bumın’ın cenazesine heyet gönderen «Otuz Tatar»ı da anar fakat tarihlemez."
@@ -16577,7 +16577,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "tatar"
   ],
   "d": "Uygurlar’ın ikinci hükümdarı Bilge Kağan zamanında (747-759) Oğuzlar bazan tek başlarına, bazan Tokuz Tatarlar’la birlikte isyan çıkardı; yenildiler ve Uygur hükümdarına yeniden itaat ettiler.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Tatarlar» md. (Faruk Sümer, 2011), https://islamansiklopedisi.org.tr/tatarlar (bu oturumda okundu): «Uygurlar’ın ikinci hükümdarı Teñride Bolmış İl İtmiş Bilge Kağan zamanında (747-759) Oğuzlar bazan tek başlarına, bazan Tokuz Tatarlar’la birlikte isyan çıkarmışlarsa da yenilmişler ve sonunda Uygur hükümdarına yeniden itaat etmişlerdi.»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Tatarlar» md. (Faruk Sümer, 2011), https://islamansiklopedisi.org.tr/tatarlar: «Uygurlar’ın ikinci hükümdarı Teñride Bolmış İl İtmiş Bilge Kağan zamanında (747-759) Oğuzlar bazan tek başlarına, bazan Tokuz Tatarlar’la birlikte isyan çıkarmışlarsa da yenilmişler ve sonunda Uygur hükümdarına yeniden itaat etmişlerdi.»",
   "gun": "747-759",
   "kesinlik": "onyil",
   "ic_not": "TDV iki ucu verir (747-759); 747 = aralığın başı (ilk gün), asıl isyan yılı bilinmiyor."
@@ -16598,7 +16598,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "mogol-imparatorlugu"
   ],
   "d": "Cengiz Han köpek yılında (1202) Tatarlar’ı Dalan Nemürges’te ağır bir yenilgiye uğrattı; TDV’nin ayrı anlatımına göre aynı yıl Tatar ili üzerine büyük bir sefer yaptı. Tatarlar Moğol-Tatar düşmanlığının tarafıydı.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Tatarlar» md. (Faruk Sümer, 2011), https://islamansiklopedisi.org.tr/tatarlar (bu oturumda okundu): «Ardından Cengiz Han it yılında (1202) Tatarlar’ı Dalan Nemürges’te ağır bir yenilgiye uğrattı.» | TDV İslâm Ansiklopedisi, «Cengiz Han» md. (Mustafa Kafalı, 1993), https://islamansiklopedisi.org.tr/cengiz-han (bu oturumda okundu): «Timuçin 1202 yılında Tatar ili üzerine büyük bir sefer yaparak düşmanlarına ağır bir darbe vurdu.»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Tatarlar» md. (Faruk Sümer, 2011), https://islamansiklopedisi.org.tr/tatarlar: «Ardından Cengiz Han it yılında (1202) Tatarlar’ı Dalan Nemürges’te ağır bir yenilgiye uğrattı.» | TDV İslâm Ansiklopedisi, «Cengiz Han» md. (Mustafa Kafalı, 1993), https://islamansiklopedisi.org.tr/cengiz-han: «Timuçin 1202 yılında Tatar ili üzerine büyük bir sefer yaparak düşmanlarına ağır bir darbe vurdu.»",
   "gun": "1202 (it yılı)",
   "kesinlik": "yil",
   "ic_not": "taraflar: 1206 öncesi Timuçin’in Moğol birliği için atlasta ayrı kimlik yok; ardıl «mogol-imparatorlugu» kimliği kullanıldı (1206 künye başlangıcıdır, madde ondan önce). Künye t=1202 bu yenilgiye bağlandı; Tatarlar’ın tamamen ortadan kalktığı TDV’de söylenmez."
@@ -16619,7 +16619,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "mogol-imparatorlugu"
   ],
   "d": "Öngüt hükümdarı Alakuş Tigin 1204’te Timuçin’e haber göndererek Tayang Han ile Kutuku’nun anlaşmasını bildirdi; Öngütler Timuçin’in müttefiki olarak anılır. Bu, TDV’de Öngütler’in tarihli ilk görünüşüdür.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Cengiz Han» md. (Mustafa Kafalı, 1993), https://islamansiklopedisi.org.tr/cengiz-han (bu oturumda okundu): «1204 yılında Ongut Hükümdarı Alakuş Tigin, Timuçin’e haber göndererek Nayman Hükümdarı Tayang Han’ın Merkit Hükümdarı Kutuku ile anlaşma yaptığını … haber verdi.» | TDV İslâm Ansiklopedisi, «Tatarlar» md. (Faruk Sümer, 2011), https://islamansiklopedisi.org.tr/tatarlar (bu oturumda okundu): «Bunların arasındaki Öngütler’in başında Cengiz Han zamanında Alakuş Tegin vardı.»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Cengiz Han» md. (Mustafa Kafalı, 1993), https://islamansiklopedisi.org.tr/cengiz-han: «1204 yılında Ongut Hükümdarı Alakuş Tigin, Timuçin’e haber göndererek Nayman Hükümdarı Tayang Han’ın Merkit Hükümdarı Kutuku ile anlaşma yaptığını … haber verdi.» | TDV İslâm Ansiklopedisi, «Tatarlar» md. (Faruk Sümer, 2011), https://islamansiklopedisi.org.tr/tatarlar: «Bunların arasındaki Öngütler’in başında Cengiz Han zamanında Alakuş Tegin vardı.»",
   "gun": "1204",
   "kesinlik": "yil",
   "ic_not": "taraflar: 1206 öncesi Timuçin’in Moğol birliği için atlasta ayrı kimlik yok; ardıl «mogol-imparatorlugu» kimliği kullanıldı (1206 künye başlangıcıdır, madde ondan önce)."
@@ -16640,7 +16640,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "abbasi"
   ],
   "d": "Batı Göktürk kağanlığı Karluklar’ca ortadan kaldırılınca (766) Batı Göktürkleri’ni temsil eden Oğuzlar, TDV’ye göre muhtemelen Halife Mehdî zamanında (775-785) Mâverâünnehir’e, Aşağı Seyhun boylarına geldi ve burada Peçenekler’i sürdü. Seyhun boylarındaki Oğuz elinin hükümdarları yabgu unvanı taşırdı.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Oğuzlar» md., https://islamansiklopedisi.org.tr/oguzlar (bu oturumda okundu): «Oğuzlar bu olayın ardından muhtemelen Halife Mehdî-Billâh zamanında (775-785) Mâverâünnehir’e, Aşağı Seyhun boylarına geldiler.» | «Seyhun boylarındaki Oğuz elinin hükümdarları da yabgu unvanına sahipti.»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Oğuzlar» md., https://islamansiklopedisi.org.tr/oguzlar: «Oğuzlar bu olayın ardından muhtemelen Halife Mehdî-Billâh zamanında (775-785) Mâverâünnehir’e, Aşağı Seyhun boylarına geldiler.» | «Seyhun boylarındaki Oğuz elinin hükümdarları da yabgu unvanına sahipti.»",
   "gun": "775-785 (muhtemelen)",
   "kesinlik": "onyil",
   "ic_not": "TDV «muhtemelen» der ve aralık verir; 775 aralığın ilk günü. Oğuz Yabgu Devleti’nin kuruluş günü kaynakta YOK; f=0775 kuruluş değil, yabgu elinin Seyhun’da yerleşmesidir. Önceki ağırlık merkezi: bk. 766 Karluk-Batı Göktürk olayı (TDV)."
@@ -16660,7 +16660,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "usrusana-afsin"
   ],
   "d": "TDV’ye göre Taberî, Dokuz Oğuzlar’ın 205’te (820-21) Üsrûşene’ye bir akın yaptığını yazar; 207’de (822-23) Me’mûn ordu gönderdiğinde bölgenin hâkimi Kâvus’un Oğuzlar’dan yardım istemesi, Oğuzlar’ın bu tarihlerde Aşağı Seyhun’da güçlü olduğunu gösterir.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Oğuzlar» md., https://islamansiklopedisi.org.tr/oguzlar (bu oturumda okundu): «Taberî de 205 (820-21) yılında Üsrûşene’ye bir akın yaptıklarını yazar.» | «Abbâsî Halifesi Me’mûn’un 207’de (822-23) Üsrûşene’ye ordu gönderdiğinde bölgenin hâkimi Kâvus’un Oğuzlar’dan yardım istemesi bu tarihlerde Oğuzlar’ın Aşağı …»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Oğuzlar» md., https://islamansiklopedisi.org.tr/oguzlar: «Taberî de 205 (820-21) yılında Üsrûşene’ye bir akın yaptıklarını yazar.» | «Abbâsî Halifesi Me’mûn’un 207’de (822-23) Üsrûşene’ye ordu gönderdiğinde bölgenin hâkimi Kâvus’un Oğuzlar’dan yardım istemesi bu tarihlerde Oğuzlar’ın Aşağı …»",
   "gun": "205 h. (820-21)",
   "kesinlik": "yil",
   "ic_not": "Hicrî 205 = 820-21 (TDV mîlâdî karşılığını verir; gün/ay yok). İlgili grup «Dokuz Oğuzlar» (Ya‘kūbî’nin Toguz Guz’u); Oğuz Yabgu Devleti ile özdeşliği TDV’de açıkça söylenmez — beyan."
@@ -16680,7 +16680,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "oguz-yabgu"
   ],
   "d": "Meliknâme’ye göre Oğuz Yabgu Devleti’nin subaşısı Dukak ölünce yerine geçen oğlu Selçuk, yabgunun karısının kışkırtmasıyla yabgunun kendisini öldürebileceğini öğrenip tâbileriyle Cend şehrine gitti (375/985-86). TDV bunu Oğuz ülkesinde iç çekişme ve parçalanmanın başlangıcı sayar.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Oğuzlar» md., https://islamansiklopedisi.org.tr/oguzlar (bu oturumda okundu): «Yabgunun karısının, ileride büyük bir tehlike teşkil edeceğini söyleyerek kocasını kendisini öldürmeye teşvik ettiğini duyan Selçuk kendisine tâbi olanlarla Cend şehrine gitmişti (375/985-86).»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Oğuzlar» md., https://islamansiklopedisi.org.tr/oguzlar: «Yabgunun karısının, ileride büyük bir tehlike teşkil edeceğini söyleyerek kocasını kendisini öldürmeye teşvik ettiğini duyan Selçuk kendisine tâbi olanlarla Cend şehrine gitmişti (375/985-86).»",
   "gun": "375 h. (985-86)",
   "kesinlik": "yil",
   "ic_not": "Hicrî 375 = 985-86; yıl iki mîlâdî yıla yayılır, ilk yıl alındı."
@@ -16701,7 +16701,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "samani"
   ],
   "d": "Sâmânî devletini diriltmek isteyen İsmâil b. Nûh, Oğuz yabgusunun yanına gidip onunla ittifak yaptı ve dünürlük kurdu; yabgunun daha sonra Müslüman olduğu kaydedilir (392/1002). TDV bu Oğuzlar’ın Selçuklu Oğuzları olduğunu da düşünür.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Oğuzlar» md., https://islamansiklopedisi.org.tr/oguzlar (bu oturumda okundu): «Son Sâmânî emîri İsmâil b. Nûh’un, Mâverâünnehir’i Karahanlılar’ın elinden geri almak için giriştiği faaliyetler sırasında Oğuz yabgusunun yanına giderek onunla ittifak yaptığı, dünürlük kurduğu ve yabgunun daha sonra müslüman olduğu kaydedilmektedir (392/1002).»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Oğuzlar» md., https://islamansiklopedisi.org.tr/oguzlar: «Son Sâmânî emîri İsmâil b. Nûh’un, Mâverâünnehir’i Karahanlılar’ın elinden geri almak için giriştiği faaliyetler sırasında Oğuz yabgusunun yanına giderek onunla ittifak yaptığı, dünürlük kurduğu ve yabgunun daha sonra müslüman olduğu kaydedilmektedir (392/1002).»",
   "gun": "392 h. (1002)",
   "kesinlik": "yil",
   "ic_not": "TDV kendi içinde çelişir: aynı md. 393’te (1003) yardım istenen Oğuzlar’ın «Selçuklu Oğuzları» olduğunu ve Oğuz Yabgu Devleti’nin 1003’ten önce yıkılmış olması gerektiğini söyler. Künye t=1003 bu «en geç» sınırdır; hicrî 392 = 1001-02."
@@ -16721,7 +16721,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "oguz-yabgu"
   ],
   "d": "TDV, Oğuz Yabgu Devleti’nin yıkılışı hakkında kaynaklarda bilgi bulunmadığını; 393’te (1003) İsmâil b. Nûh’un yardım istediği Oğuzlar’ın Selçuklu Oğuzları olduğundan devletin 1003’ten önce yıkılmış olması gerektiğini söyler. İç çekişme ve Kıpçak baskısı ileri sürülen sebeplerdir.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Oğuzlar» md., https://islamansiklopedisi.org.tr/oguzlar (bu oturumda okundu): «Bu da Oğuz Yabgu Devleti’nin 1003 yılından önce yıkılmış olduğunu göstermektedir.» | «Oğuz Yabgu Devleti’nin yıkılışı hakkında kaynaklarda bilgi bulunmamakta, ancak bazı görüşler ileri sürülmektedir.»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Oğuzlar» md., https://islamansiklopedisi.org.tr/oguzlar: «Bu da Oğuz Yabgu Devleti’nin 1003 yılından önce yıkılmış olduğunu göstermektedir.» | «Oğuz Yabgu Devleti’nin yıkılışı hakkında kaynaklarda bilgi bulunmamakta, ancak bazı görüşler ileri sürülmektedir.»",
   "gun": "1003’ten önce (üst sınır)",
   "kesinlik": "onyil",
   "ic_not": "t bir ÜST SINIRDIR (en geç), gerçek yıkılış günü bilinmiyor. Mangışlak’taki ayrı Oğuz Yabgu kolu (Atsız’ın 1128’den önce yıkması, TDV) bu künyenin dışındadır."
@@ -16742,7 +16742,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "emevi"
   ],
   "d": "TDV’ye göre İslâm fetihlerinin başladığı dönemde Üsrûşene’nin yönetimi Afşin unvanı taşıyan, Türk soyundan gelen bir ailenin elindeydi; Arapların ilgisi Selm b. Ziyâd’ın 61’deki (680-81) ve Kuteybe b. Müslim’in 93’teki (711-12) seferleriyle başladı.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Üsrûşene» md. (Aydın Usta, 2012), https://islamansiklopedisi.org.tr/usrusene (bu oturumda okundu): «İslâm fetihlerinin başladığı dönemde Üsrûşene’nin yönetimi Afşin unvanı taşıyan ( Ya‘kūbî, Târîḫ , II, 397) ve Türk soyundan gelen bir ailenin elindeydi.» | «Müslüman Araplar’ın Üsrûşene’ye ilgileri Selm b. Ziyâd (61/680-81) ve Kuteybe b. Müslim’in (93/711-12) gerçekleştirdiği seferlerle başladı.»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Üsrûşene» md. (Aydın Usta, 2012), https://islamansiklopedisi.org.tr/usrusene: «İslâm fetihlerinin başladığı dönemde Üsrûşene’nin yönetimi Afşin unvanı taşıyan ( Ya‘kūbî, Târîḫ, II, 397) ve Türk soyundan gelen bir ailenin elindeydi.» | «Müslüman Araplar’ın Üsrûşene’ye ilgileri Selm b. Ziyâd (61/680-81) ve Kuteybe b. Müslim’in (93/711-12) gerçekleştirdiği seferlerle başladı.»",
   "gun": "61 h. (680-81)",
   "kesinlik": "yil",
   "ic_not": "Afşin ailesinin başlangıcı kaynakta TARİHLENMEMİŞ; f=0680 yalnız ilk TARİHLİ Arap teması (Selm b. Ziyâd 680-81), kuruluş değildir. Hicrî 61 = 680-81, ilk yıl alındı."
@@ -16763,7 +16763,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "usrusana-afsin"
   ],
   "d": "Emevîler’in son Horasan ve Mâverâünnehir valisi Nasr b. Seyyâr 121’de (739) bölgeyi kısmen itaat altına aldı ve Afşin ailesi ona bağlılık yemini etti.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Üsrûşene» md. (Aydın Usta, 2012), https://islamansiklopedisi.org.tr/usrusene (bu oturumda okundu): «Emevîler döneminin son Horasan ve Mâverâünnehir Valisi Nasr b. Seyyâr 121 (739) yılında bölgeyi kısmen itaat altına aldı, Afşin ailesi de kendisine bağlılık yemini etti.»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Üsrûşene» md. (Aydın Usta, 2012), https://islamansiklopedisi.org.tr/usrusene: «Emevîler döneminin son Horasan ve Mâverâünnehir Valisi Nasr b. Seyyâr 121 (739) yılında bölgeyi kısmen itaat altına aldı, Afşin ailesi de kendisine bağlılık yemini etti.»",
   "gun": "121 h. (739)",
   "kesinlik": "yil",
   "ic_not": "«Kısmen itaat»: yerleşim sahipliği bu maddeyle değişmiş sayılmadı; Cizzah yamasında 0680-0893 arası Afşin yönetimi tek dilim olarak yazıldı (beyan). Hicrî 121 = 738-39."
@@ -16784,7 +16784,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "usrusana-afsin"
   ],
   "d": "Horasan valisi Gassân b. Abbâd, Halife Me’mûn’un emriyle Yahyâ b. Esed’i 204’te (819) Üsrûşene valiliğine gönderdi.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Üsrûşene» md. (Aydın Usta, 2012), https://islamansiklopedisi.org.tr/usrusene (bu oturumda okundu): «Abbâsîler devrinde Horasan Valisi Gassân b. Abbâd, Halife Me’mûn’un emriyle Yahyâ b. Esed’i 204’te (819) Üsrûşene valiliğine gönderdi.»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Üsrûşene» md. (Aydın Usta, 2012), https://islamansiklopedisi.org.tr/usrusene: «Abbâsîler devrinde Horasan Valisi Gassân b. Abbâd, Halife Me’mûn’un emriyle Yahyâ b. Esed’i 204’te (819) Üsrûşene valiliğine gönderdi.»",
   "gun": "204 h. (819)",
   "kesinlik": "yil",
   "ic_not": "Hicrî 204 = 819-20; gün yok."
@@ -16805,7 +16805,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "usrusana-afsin"
   ],
   "d": "Me’mûn’un 207’de (822) gönderdiği ordudan sonra bölge tamamen İslâm hâkimiyetine girdi; Afşin hânedanı Abbâsîler’e bağlı olarak yönetmeye devam etti. Bu nedenle Afşin emirliği Abbâsî vasalı olarak 893’e kadar sürdü.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Üsrûşene» md. (Aydın Usta, 2012), https://islamansiklopedisi.org.tr/usrusene (bu oturumda okundu): «Ancak bölgenin tamamen İslâm hâkimiyetine girmesi 207’de (822) gerçekleşti. Afşinler, Abbâsîler’e bağlı olarak bölgeyi yönetmeye devam ettiler.»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Üsrûşene» md. (Aydın Usta, 2012), https://islamansiklopedisi.org.tr/usrusene: «Ancak bölgenin tamamen İslâm hâkimiyetine girmesi 207’de (822) gerçekleşti. Afşinler, Abbâsîler’e bağlı olarak bölgeyi yönetmeye devam ettiler.»",
   "gun": "207 h. (822)",
   "kesinlik": "yil",
   "ic_not": "Hicrî 207 = 822-23. Cizzah yamasında 0680-0893 tek dilim Afşin (vasal) olarak yazıldı."
@@ -16826,7 +16826,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "usrusana-afsin"
   ],
   "d": "280’de (893) Üsrûşene Sâmânî topraklarına katıldı; Üsrûşene hâkimleri Sâmânîler’e sembolik olarak yıllık 4 akçe gönderirdi. Daha sonra bölge Karahanlılar’ın hâkimiyetine girdi.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Üsrûşene» md. (Aydın Usta, 2012), https://islamansiklopedisi.org.tr/usrusene (bu oturumda okundu): «280 (893) yılında Sâmânî topraklarına katılan Üsrûşene daha sonra Karahanlılar’ın hâkimiyeti altına girerek …» | «Sâmânîler devrinde Üsrûşene hâkimleri Sâmânîler’e sembolik olarak yıllık 4 akçe gönderirlerdi.»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Üsrûşene» md. (Aydın Usta, 2012), https://islamansiklopedisi.org.tr/usrusene: «280 (893) yılında Sâmânî topraklarına katılan Üsrûşene daha sonra Karahanlılar’ın hâkimiyeti altına girerek …» | «Sâmânîler devrinde Üsrûşene hâkimleri Sâmânîler’e sembolik olarak yıllık 4 akçe gönderirlerdi.»",
   "gun": "280 h. (893)",
   "kesinlik": "yil",
   "ic_not": "Hicrî 280 = 893-94; ay/gün yok."
@@ -16847,7 +16847,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "bizans"
   ],
   "d": "TDV’ye göre Bizans imparatoru Zenon (476-491) Kutrigur Bulgarları’nı doğudaki Utigurlar’a karşı kışkırttı; yenilen Kutrigurlar’dan 2000 kadar aile 482’de Bizans’ın hizmetine girip Trakya’ya yerleşti. Utigurlar bu sırada Kuban yörelerinde hâkimdi.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Bulgar» md. (Nuri Yüce, 1992), https://islamansiklopedisi.org.tr/bulgar (bu oturumda okundu): «Bulgar kabilelerinden Utigurlar doğuda Kuban ırmağı yörelerinde, Kutrigurlar da batıda Tuna’nın kolları ile Besarabya yörelerinde hâkimiyet kurdular. Ancak … Zenon (476-491), komşusu olan Kutrigur Bulgarları’nı Utigurlar’a karşı savaşa sürükledi. Yenilen Kutrigurlar’dan 2000 kadar aile savaş sonrasında (482) Bizans’ın hizmetine girerek Trakya’ya yerleştiler»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Bulgar» md. (Nuri Yüce, 1992), https://islamansiklopedisi.org.tr/bulgar: «Bulgar kabilelerinden Utigurlar doğuda Kuban ırmağı yörelerinde, Kutrigurlar da batıda Tuna’nın kolları ile Besarabya yörelerinde hâkimiyet kurdular. Ancak … Zenon (476-491), komşusu olan Kutrigur Bulgarları’nı Utigurlar’a karşı savaşa sürükledi. Yenilen Kutrigurlar’dan 2000 kadar aile savaş sonrasında (482) Bizans’ın hizmetine girerek Trakya’ya yerleştiler»",
   "gun": "482",
   "kesinlik": "yil",
   "ic_not": "Künye f=0482 ilk TARİHLİ tanıktır (kuruluş değil; TDV Hunlar’ın 453’te dağılmasından sonra birliklerin kurulduğunu söyler, gün/yıl yok). Pencere 500-1281: Utigur ömrünün 500-559 kısmı pencerededir."
@@ -16868,7 +16868,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "bizans"
   ],
   "d": "Procopius, Abasgi elçilerinin «Utigur Hunları’ndan korktukları» için isteklerini gizlice sunduğunu yazar; Dewing bu olayı Justinianus’un 21. yılına, 548’e koyar. Utigurlar Tanais–Maiotis (Azak) yöresindeki Kimmerler’in yurdunu tutan Hunlar olarak anlatılır.",
-  "kaynak": "Procopius, History of the Wars, çev. H. B. Dewing, Loeb Classical Library, c. V (Kitap VII.36-VIII), archive.org/details/procopiuswitheng05procuoft (bu oturumda okundu): «Now these envoys were moved by fear of the Utigur Huns in making the public declaration of the object of their coming» | «now they are called Utigurs» (VIII.iii-iv; dipnot: «548 A.D.»)",
+  "kaynak": "Procopius, History of the Wars, çev. H. B. Dewing, Loeb Classical Library, c. V (Kitap VII.36-VIII), archive.org/details/procopiuswitheng05procuoft: «Now these envoys were moved by fear of the Utigur Huns in making the public declaration of the object of their coming» | «now they are called Utigurs» (VIII.iii-iv; dipnot: «548 A.D.»)",
   "gun": "Justinianus’un 21. yılı (548 A.D., Dewing dipnotu)",
   "kesinlik": "yil",
   "ic_not": "Yıl çevirmenin dipnotundan (Dewing: «548 A.D.»); Procopius metni yıl yazmaz."
@@ -16889,7 +16889,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "bizans"
   ],
   "d": "Justinianus, Kutrigurlar’ın Bizans’a akınları sürerken Utigurlar’a para göndererek onları Kutrigurlar’ın geride kalanlarına saldırmaya ikna etti; Utigur kralı Sandil Kutrigurlar’ı atalarının yurdundan sürdü. Kutrigur kalıntıları Bizans’a sığınınca Sandil öfkelendi.",
-  "kaynak": "Procopius, History of the Wars, çev. H. B. Dewing, Loeb Classical Library, c. V (Kitap VII.36-VIII), archive.org/details/procopiuswitheng05procuoft (bu oturumda okundu): «Thus the Emperor Justinian … persuaded them immediately to make an attack upon those of the Cutrigurs who had been left behind.» | «Sandil, the king of the Utigurs … had driven them from their ancestral abode» (VIII.xviii)",
+  "kaynak": "Procopius, History of the Wars, çev. H. B. Dewing, Loeb Classical Library, c. V (Kitap VII.36-VIII), archive.org/details/procopiuswitheng05procuoft: «Thus the Emperor Justinian … persuaded them immediately to make an attack upon those of the Cutrigurs who had been left behind.» | «Sandil, the king of the Utigurs … had driven them from their ancestral abode» (VIII.xviii)",
   "gun": "Procopius VIII.xviii (yıl verilmez)",
   "kesinlik": "onyil",
   "ic_not": "Procopius yıl yazmaz; aynı kitaptaki bağlam 548-553; onyıl hassasiyeti, 0550-01-01 yaklaşıktır (beyan)."
@@ -16910,7 +16910,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "utigur"
   ],
   "d": "TDV’ye göre Bulgarlar VI. yüzyılda Orta Asya’dan batıya göç eden Avarlar’ın idaresine girdi (559). Utigur siyasî birliği bu tarihten sonra kaynakta bağımsız anılmaz.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Bulgar» md. (Nuri Yüce, 1992), https://islamansiklopedisi.org.tr/bulgar (bu oturumda okundu): «Bulgarlar VI. yüzyılda Orta Asya’dan batıya göç eden Avarlar’ın idaresine girdiler (559).»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Bulgar» md. (Nuri Yüce, 1992), https://islamansiklopedisi.org.tr/bulgar: «Bulgarlar VI. yüzyılda Orta Asya’dan batıya göç eden Avarlar’ın idaresine girdiler (559).»",
   "gun": "559",
   "kesinlik": "yil",
   "ic_not": "TDV «Bulgarlar» der, Utigur adını anmaz; Utigur künye t=0559 bu genel ifadeden alındı (beyanlı çıkarım)."
@@ -16931,7 +16931,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "sasani"
   ],
   "d": "Procopius’a göre Kavad, Roma’nın elindeki Ermenistan’a Mermeroes komutasında Persarmenyalılar ve Sunitler’den oluşan bir ordu gönderdi; yanlarında «Sabiri denilen kökten» 3000 Hun vardı. Bu, Sabirler’in 500 sonrası tarihlenebilir ilk görünüşüdür.",
-  "kaynak": "Procopius, History of the Wars, çev. H. B. Dewing, Loeb Classical Library, c. I (Kitap I-II), archive.org/details/procopiuswithen01proc (bu oturumda okundu): «There were also Huns with them, of the stock called Sabiri, to the number of three thousand, a most warlike race. And Mermeroes, a Persian, had been made general of the whole force.» (Wars I.xv)",
+  "kaynak": "Procopius, History of the Wars, çev. H. B. Dewing, Loeb Classical Library, c. I (Kitap I-II), archive.org/details/procopiuswithen01proc: «There were also Huns with them, of the stock called Sabiri, to the number of three thousand, a most warlike race. And Mermeroes, a Persian, had been made general of the whole force.» (Wars I.xv)",
   "gun": "Procopius I.xv (yıl verilmez)",
   "kesinlik": "onyil",
   "ic_not": "Procopius yıl yazmaz; olay Dara savaşı sonrası Pers-Roma savaşında (I.xii-xv, 530 yılı sıralaması) yer alır — onyıl hassasiyeti; 0530-01-01 yaklaşıktır. Sabir künyesi f=0530 bu maddedir (ilk TARİHLİ tanık; kuruluş değil)."
@@ -16952,7 +16952,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "bizans"
   ],
   "d": "Procopius’a göre Kolhis (Laz) komutanı Gubazes uzun süre önce Alanlar ve Sabeiri Hunları’nı üç centenarium karşılığında ittifaka ikna etmişti; imparator Justinianus Sabeiri’ye anlaşılan parayı gönderdi. Hunlar İberya’yı Perslere kapalı tutacaktı.",
-  "kaynak": "Procopius, History of the Wars, çev. H. B. Dewing, Loeb Classical Library, c. I (Kitap I-II), archive.org/details/procopiuswithen01proc (bu oturumda okundu): «Now it happened that long before he had persuaded the Alani and Sabeiri to form an alliance with him» | «The Emperor Justinian at this time sent to the nation of the Sabeiri the money which had been agreed upon» (Wars II.xxix)",
+  "kaynak": "Procopius, History of the Wars, çev. H. B. Dewing, Loeb Classical Library, c. I (Kitap I-II), archive.org/details/procopiuswithen01proc: «Now it happened that long before he had persuaded the Alani and Sabeiri to form an alliance with him» | «The Emperor Justinian at this time sent to the nation of the Sabeiri the money which had been agreed upon» (Wars II.xxix)",
   "gun": "Procopius II.xxix (Petra kuşatması bağlamı; yıl verilmez)",
   "kesinlik": "onyil",
   "ic_not": "Yıl metinde yok; Petra kuşatması bağlamı (2. Pers savaşı, Laz cephesi) 540’ların sonu-550 — onyıl hassasiyeti."
@@ -16972,7 +16972,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "sabir"
   ],
   "d": "Pseudo-Zacharias’ın XII. kitabındaki coğrafî bölüm (Hamilton-Brooks’a göre 555’te yazılmış) Hazar Kapıları’nın ötesinde Hun ülkesinde çadırda yaşayan on üç halk içinde Unnogur, Ogor, Sabir, Bulgar, Kutrigur, Avar, Hazar ve Eftalit’i sayar.",
-  "kaynak": "Pseudo-Zacharias Rhetor (Mitilene’li Zacharias), Chronicle XII.7, çev. F. J. Hamilton – E. W. Brooks, The Syriac Chronicle known as that of Zachariah of Mitylene, Londra 1899, s. 328, archive.org/details/syriacchroniclek00zachiala (bu oturumda okundu): «the Unnogur, a people living in tents, the Ogor, the Sabir, the Bulgarian, the Khorthrigor, the Avar, the Khasar, the Dirmar (?), the Sarurgur (?), the Bagarsik (?), the Khulas (?), the Abdel, the Ephthalite, these thirteen peoples dwelling in tents»",
+  "kaynak": "Pseudo-Zacharias Rhetor (Mitilene’li Zacharias), Chronicle XII.7, çev. F. J. Hamilton – E. W. Brooks, The Syriac Chronicle known as that of Zachariah of Mitylene, Londra 1899, s. 328, archive.org/details/syriacchroniclek00zachiala: «the Unnogur, a people living in tents, the Ogor, the Sabir, the Bulgarian, the Khorthrigor, the Avar, the Khasar, the Dirmar (?), the Sarurgur (?), the Bagarsik (?), the Khulas (?), the Abdel, the Ephthalite, these thirteen peoples dwelling in tents»",
   "gun": "555 (kitabın XII. 7 bölümünün yazım yılı; Hamilton-Brooks giriş)",
   "kesinlik": "yil",
   "ic_not": "Tarih bölümün YAZIM yılıdır (editör girişi: «12. 7 in 555»), olay yılı değil. Sabir künyesi t=0555 son TARİHLİ tanıktır; Sabirler’in sonraki kaderi (Hazar/Avar içinde erime) kaynaklanamadı."
@@ -16992,7 +16992,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "onogur"
   ],
   "d": "Pseudo-Zacharias’ın XII.7’deki listesi (555’te yazılmış) Hazar Kapıları’nın ötesinde «çadırda yaşayan» Unnogur halkını (Onogur) ilk sırada anar. Bu, Onogur adının pencere içinde tarihlenebilir ilk görünüşüdür.",
-  "kaynak": "Pseudo-Zacharias Rhetor (Mitilene’li Zacharias), Chronicle XII.7, çev. F. J. Hamilton – E. W. Brooks, The Syriac Chronicle known as that of Zachariah of Mitylene, Londra 1899, s. 328, archive.org/details/syriacchroniclek00zachiala (bu oturumda okundu): «the Unnogur, a people living in tents, the Ogor, the Sabir, the Bulgarian, the Khorthrigor, the Avar, the Khasar … these thirteen peoples dwelling in tents»",
+  "kaynak": "Pseudo-Zacharias Rhetor (Mitilene’li Zacharias), Chronicle XII.7, çev. F. J. Hamilton – E. W. Brooks, The Syriac Chronicle known as that of Zachariah of Mitylene, Londra 1899, s. 328, archive.org/details/syriacchroniclek00zachiala: «the Unnogur, a people living in tents, the Ogor, the Sabir, the Bulgarian, the Khorthrigor, the Avar, the Khasar … these thirteen peoples dwelling in tents»",
   "gun": "555 (kitabın XII. 7 bölümünün yazım yılı)",
   "kesinlik": "yil",
   "ic_not": "Tarih bölümün yazım yılıdır, olay yılı değil. Onogur künyesi f=0555 bu ilk tarihli tanıktır; kuruluş değil. Girdideki t=0679/Phanagoria doğrulanamadı."
@@ -17013,7 +17013,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "onogur"
   ],
   "d": "TDV’ye göre Batı Göktürk devleti yıkılınca Hazarlar 630’da bağımsızlıklarını ilân etti; Karadeniz’in kuzeyinde Hazarlar’dan başka bir de Büyük Bulgar (Magna Bulgaria) Türk devleti 635’te kuruldu ve 665’ten sonra Hazarlar’ca yıkıldı. Onogur halkı bu devletin çekirdeği olarak değerlendirilir ama TDV bu özdeşliği açıkça söylemez.",
-  "kaynak": "TDV İslâm Ansiklopedisi, «Hazarlar» md., https://islamansiklopedisi.org.tr/hazarlar (bu oturumda okundu): «Bu dönemde Karadeniz’in kuzeyinde Hazarlar’dan başka bir de Büyük Bulgar (Magna Bulgaria) Türk Devleti kuruldu (635).» | TDV «İdil Bulgar Hanlığı» md. «Patria Onoguria (On-Ogur yurdu)» adını anar (atıf; ayrıntı açılmadı)",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Hazarlar» md., https://islamansiklopedisi.org.tr/hazarlar: «Bu dönemde Karadeniz’in kuzeyinde Hazarlar’dan başka bir de Büyük Bulgar (Magna Bulgaria) Türk Devleti kuruldu (635).» | TDV «İdil Bulgar Hanlığı» md. «Patria Onoguria (On-Ogur yurdu)» adını anar (atıf; ayrıntı açılmadı)",
   "gun": "635",
   "kesinlik": "yil",
   "ic_not": "Onogur→Büyük Bulgaristan özdeşliği BEYANLI ÇIKARIMDIR (TDV açıkça söylemez); Onogur künyesi t=0635 buna bağlıdır. Atlasta `buyuk-bulgaristan` 0635-0680 var; Onogur MÜKERRER olabilir — birleştirme önerisi RAPOR’da."
@@ -17035,7 +17035,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "tang"
   ],
   "d": "Jiu Tang shu’ya göre Zhenguan 6’da (632) Yanqi kralı Tuqizhi Tang’a elçi gönderip büyük kum yolunun açılmasını istedi; imparator izin verince Gaochang öfkelenip Yanqi’yi yağmaladı.",
-  "kaynak": "Jiu Tang shu juan 198 «Xirong» (Wikisource 舊唐書/卷198, bu oturumda okundu), https://zh.wikisource.org/wiki/舊唐書/卷198: «貞觀六年，突騎支遣使貢方物，復請開大磧路以便行李，太宗許之。… 及是，高昌大怒，遂與焉耆結怨，遣兵襲焉耆，大掠而去。»",
+  "kaynak": "Jiu Tang shu juan 198 «Xirong» (Wikisource 舊唐書/卷198), https://zh.wikisource.org/wiki/舊唐書/卷198: «貞觀六年，突騎支遣使貢方物，復請開大磧路以便行李，太宗許之。… 及是，高昌大怒，遂與焉耆結怨，遣兵襲焉耆，大掠而去。»",
   "gun": "貞觀六年",
   "kesinlik": "yil",
   "yer": "Karaşar (Yanqi)",
@@ -17058,7 +17058,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "yanqi-karashahr"
   ],
   "d": "Zhenguan 12’de (638) Chuyue ve Chumi, Gaochang’la birlikte Yanqi’nin beş kentini zaptedip erkek ve kadın 1500 kişiyi esir aldı ve evleri yaktı.",
-  "kaynak": "Jiu Tang shu juan 198 «Xirong» (Wikisource 舊唐書/卷198, bu oturumda okundu), https://zh.wikisource.org/wiki/舊唐書/卷198: «十二年，處月、處密與高昌攻陷焉耆五城，掠男女一千五百人，焚其廬舍而去。»",
+  "kaynak": "Jiu Tang shu juan 198 «Xirong» (Wikisource 舊唐書/卷198), https://zh.wikisource.org/wiki/舊唐書/卷198: «十二年，處月、處密與高昌攻陷焉耆五城，掠男女一千五百人，焚其廬舍而去。»",
   "gun": "貞觀十二年",
   "kesinlik": "yil",
   "yer": "Karaşar (Yanqi)",
@@ -17082,7 +17082,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "gaochang"
   ],
   "d": "Zhenguan 14’te (640) Hou Junji Gaochang’ı ele geçirince Yanqi kralı elçi gönderip sefere destek olmak istedi; Gaochang kraliyet ordusuna gelip saygı sundu ve Gaochang’ın esir ettiği Yanqililer geri verildi. Yanqi bundan sonra Tang’a haraç ve elçi gönderdi.",
-  "kaynak": "Jiu Tang shu juan 198 «Xirong» (Wikisource 舊唐書/卷198, bu oturumda okundu), https://zh.wikisource.org/wiki/舊唐書/卷198: «十四年，侯君集討高昌，遣使與之相結，焉耆王大喜，請為聲援。及破高昌，其王詣軍門稱謁。焉耆人先為高昌所虜者，悉歸之。»",
+  "kaynak": "Jiu Tang shu juan 198 «Xirong» (Wikisource 舊唐書/卷198), https://zh.wikisource.org/wiki/舊唐書/卷198: «十四年，侯君集討高昌，遣使與之相結，焉耆王大喜，請為聲援。及破高昌，其王詣軍門稱謁。焉耆人先為高昌所虜者，悉歸之。»",
   "gun": "貞觀十四年",
   "kesinlik": "yil",
   "yer": "Karaşar (Yanqi)",
@@ -17106,7 +17106,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "emevi"
   ],
   "d": "Hassân b. Nu‘mân Kartaca’yı Bizans’tan aldıktan sonra Evrâs bölgesindeki Berberîler’in lideri Kâhine üzerine yürüdü ve savaşı kaybetti; Kâhine bölgenin kalelerini yıktırdı.",
-  "kaynak": "TDV İslâm Ansiklopedisi «İFRÎKIYE» (https://islamansiklopedisi.org.tr/ifrikiye) — bu oturumda okundu: «Hassân, ilk olarak Kartaca’yı Bizanslılar’dan geri aldı» · «Ancak Kâhine ile yaptığı savaşı kaybetti (77/696)» | TDV İslâm Ansiklopedisi «BERBERÎLER» (https://islamansiklopedisi.org.tr/berberiler) — bu oturumda okundu: «Kâhine üzerine yürüyen Hassân Berberîler’le yaptığı savaşı kaybederek geri çekildi»",
+  "kaynak": "TDV İslâm Ansiklopedisi «İFRÎKIYE» (https://islamansiklopedisi.org.tr/ifrikiye) — okundu: «Hassân, ilk olarak Kartaca’yı Bizanslılar’dan geri aldı» · «Ancak Kâhine ile yaptığı savaşı kaybetti (77/696)» | TDV İslâm Ansiklopedisi «BERBERÎLER» (https://islamansiklopedisi.org.tr/berberiler) — okundu: «Kâhine üzerine yürüyen Hassân Berberîler’le yaptığı savaşı kaybederek geri çekildi»",
   "gun": "77/696 (TDV ifrikiye)",
   "kesinlik": "yil",
   "ic_not": "Yıl kaynağında hicrî+miladî; gün yok.",
@@ -17129,7 +17129,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "emevi"
   ],
   "d": "Hassân’ın Kâhine karşısındaki yenilgisinin ardından Bizanslılar kısa süre için Kartaca’yı geri aldı; Hassân 698’de şehri kesin olarak zaptetti.",
-  "kaynak": "TDV İslâm Ansiklopedisi «İFRÎKIYE» (https://islamansiklopedisi.org.tr/ifrikiye) — bu oturumda okundu: «Bu arada Bizanslılar da Kartaca’yı ele geçirdiler (78/697)» | TDV İslâm Ansiklopedisi «BERBERÎLER» (https://islamansiklopedisi.org.tr/berberiler) — bu oturumda okundu: «Şehir tekrar Bizans’ın eline geçti»",
+  "kaynak": "TDV İslâm Ansiklopedisi «İFRÎKIYE» (https://islamansiklopedisi.org.tr/ifrikiye) — okundu: «Bu arada Bizanslılar da Kartaca’yı ele geçirdiler (78/697)» | TDV İslâm Ansiklopedisi «BERBERÎLER» (https://islamansiklopedisi.org.tr/berberiler) — okundu: «Şehir tekrar Bizans’ın eline geçti»",
   "gun": "78/697 (TDV ifrikiye)",
   "kesinlik": "yil",
   "ic_not": "TDV berberiler yalnız «Şehir tekrar Bizans’ın eline geçti» der, yıl vermez; ifrikiye 78/697 verir. Kartaca zincirine yazılmadı (kısa kesinti, 697-698).",
@@ -17152,7 +17152,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "emevi"
   ],
   "d": "Trablus’ta imam seçilen Ebü’l-Hattâb İbâzî birlikleriyle Kayrevan’ı ele geçirdi (Sufrî Âsım el-Verfecûmî’nin 757’de aldığı şehri geri alarak) ve Abdurrahman b. Rüstem’i vali tayin etti; imamlığın sınırı Trablus’tan Doğu Cezayir’e uzandı.",
-  "kaynak": "TDV İslâm Ansiklopedisi «KAYREVAN» (https://islamansiklopedisi.org.tr/kayrevan) — bu oturumda okundu: «140’ta (757) Sufrî Hâricîler’den Âsım el-Verfecûmî tarafından ele geçirilen Kayrevan’ı ertesi yıl İbâzî lideri Ebü’l-Hattâb el-Meâfirî geri aldı ve ileride Rüstemîler hânedanını kuracak olan Abdurrahman b. Rüstem’i buraya vali tayin etti» | TDV İslâm Ansiklopedisi «RÜSTEMÎLER» (https://islamansiklopedisi.org.tr/rustemiler) — bu oturumda okundu: «Kayrevan’ı ele geçirince Abdurrahman b. Rüstem’i oraya vali tayin etti (141/758)»",
+  "kaynak": "TDV İslâm Ansiklopedisi «KAYREVAN» (https://islamansiklopedisi.org.tr/kayrevan) — okundu: «140’ta (757) Sufrî Hâricîler’den Âsım el-Verfecûmî tarafından ele geçirilen Kayrevan’ı ertesi yıl İbâzî lideri Ebü’l-Hattâb el-Meâfirî geri aldı ve ileride Rüstemîler hânedanını kuracak olan Abdurrahman b. Rüstem’i buraya vali tayin etti» | TDV İslâm Ansiklopedisi «RÜSTEMÎLER» (https://islamansiklopedisi.org.tr/rustemiler) — okundu: «Kayrevan’ı ele geçirince Abdurrahman b. Rüstem’i oraya vali tayin etti (141/758)»",
   "gun": "141/758",
   "kesinlik": "yil",
   "ic_not": "Kayrevan atlas zincirinde 0745-0761 BEYANLI BOŞLUK: öneri → 0758 ibadi-imamlik-trablus, 0761-08 abbasi (yama Kayrevan için YAZILMADI: yerleşim mevcut, bu dilimler çakışır).",
@@ -17175,7 +17175,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "ibadi-imamlik-trablus"
   ],
   "d": "Abbâsî Halifesi Mansûr’un İfrîkıye ve Mağrib valisi Muhammed b. Eş‘as el-Huzâî Ağustos 761’de Kayrevan’ı zaptedip etrafını surlarla çevirdi; Ebü’l-Hattâb çok sayıda taraftarıyla öldürüldü, Abdurrahman b. Rüstem Cebelicezzûl’e çekildi.",
-  "kaynak": "TDV İslâm Ansiklopedisi «KAYREVAN» (https://islamansiklopedisi.org.tr/kayrevan) — bu oturumda okundu: «Ardından şehri, Abbâsî Halifesi Ebû Ca‘fer el-Mansûr’un İfrîkıye ve Mağrib valiliğine getirdiği Muhammed b. Eş‘as el-Huzâî zaptetti (Cemâziyelevvel 144 / Ağustos 761) ve etrafını surlarla çevirdi» | TDV İslâm Ansiklopedisi «RÜSTEMÎLER» (https://islamansiklopedisi.org.tr/rustemiler) — bu oturumda okundu: «Ebü’l-Hattâb, Abbâsîler’e yenildi ve çok sayıda taraftarıyla birlikte öldürüldü (144/761)»",
+  "kaynak": "TDV İslâm Ansiklopedisi «KAYREVAN» (https://islamansiklopedisi.org.tr/kayrevan) — okundu: «Ardından şehri, Abbâsî Halifesi Ebû Ca‘fer el-Mansûr’un İfrîkıye ve Mağrib valiliğine getirdiği Muhammed b. Eş‘as el-Huzâî zaptetti (Cemâziyelevvel 144 / Ağustos 761) ve etrafını surlarla çevirdi» | TDV İslâm Ansiklopedisi «RÜSTEMÎLER» (https://islamansiklopedisi.org.tr/rustemiler) — okundu: «Ebü’l-Hattâb, Abbâsîler’e yenildi ve çok sayıda taraftarıyla birlikte öldürüldü (144/761)»",
   "gun": "Ağustos 761 (ay)",
   "kesinlik": "ay",
   "ic_not": "Ay hassasiyeti; gün yok."
@@ -17195,7 +17195,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "wagadu-gane-erken"
   ],
   "d": "Rivayetlere göre Gāne en iyi dönemini 950-1050 yılları arasında yaşadı; krallar yeryüzünün en zengin insanları sayılıyordu. İbn Havkal ve Ebû Ubeyd el-Bekrî’nin tanıklıkları bu dönemi yansıtır.",
-  "kaynak": "TDV İslâm Ansiklopedisi «MALİ» (https://islamansiklopedisi.org.tr/mali) — bu oturumda okundu: «Onların rivayetlerine göre Gāne en iyi dönemini 950-1050 yılları arasında yaşadı» | TDV İslâm Ansiklopedisi «GĀNE» (https://islamansiklopedisi.org.tr/gane) — bu oturumda okundu: «Bu dönemden başlayarak Batı Sudan’daki çeşitli bölge ve halkları şemsiyesi altında toplayan en kuvvetli ve en mükemmel teşkilâta sahip devlet haline geldi»",
+  "kaynak": "TDV İslâm Ansiklopedisi «MALİ» (https://islamansiklopedisi.org.tr/mali) — okundu: «Onların rivayetlerine göre Gāne en iyi dönemini 950-1050 yılları arasında yaşadı» | TDV İslâm Ansiklopedisi «GĀNE» (https://islamansiklopedisi.org.tr/gane) — okundu: «Bu dönemden başlayarak Batı Sudan’daki çeşitli bölge ve halkları şemsiyesi altında toplayan en kuvvetli ve en mükemmel teşkilâta sahip devlet haline geldi»",
   "gun": "950-1050 (aralığın başı)",
   "kesinlik": "onyil",
   "ic_not": "Aralık verilmiş; aralığın başı onyıl hassasiyetiyle yazıldı."
@@ -17216,7 +17216,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "wagadu-gane-erken"
   ],
   "d": "Gāne’nin 1076’da düşmesi üzerine uzun yıllar Gāne’ye vergi ödeyen Susu hâkimleri bağımsızlıklarını ilân etti; Gāne Mema Tunkara, Susu Kante, Hingui Niakhaté ve Diara adlı dört küçük krallığa ayrıldı.",
-  "kaynak": "TDV İslâm Ansiklopedisi «GĀNE» (https://islamansiklopedisi.org.tr/gane) — bu oturumda okundu: «Gāne’nin 1076’da düşmesi üzerine daha önce uzun yıllar Gāne Devleti’ne vergi ödeyen Susu hâkimleri bağımsızlıklarını ilân etti» | TDV İslâm Ansiklopedisi «MALİ» (https://islamansiklopedisi.org.tr/mali) — bu oturumda okundu: «Mema Tunkara, Susu Kante, Hingui Niakhaté ve Diara adlı dört küçük krallığa ayrılan Gāne»",
+  "kaynak": "TDV İslâm Ansiklopedisi «GĀNE» (https://islamansiklopedisi.org.tr/gane) — okundu: «Gāne’nin 1076’da düşmesi üzerine daha önce uzun yıllar Gāne Devleti’ne vergi ödeyen Susu hâkimleri bağımsızlıklarını ilân etti» | TDV İslâm Ansiklopedisi «MALİ» (https://islamansiklopedisi.org.tr/mali) — okundu: «Mema Tunkara, Susu Kante, Hingui Niakhaté ve Diara adlı dört küçük krallığa ayrılan Gāne»",
   "gun": "1076",
   "kesinlik": "yil",
   "ic_not": "TDV gane/mali düşüş yılını 1076 (469/1076-77) verir."
@@ -17238,7 +17238,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "wagadu-gane-erken"
   ],
   "d": "Dört küçük krallığa bölünmüş olan Gāne, 1240’ta Mali İmparatorluğu’nun topraklarının tamamını ele geçirmesiyle tarih sahnesinden silindi.",
-  "kaynak": "TDV İslâm Ansiklopedisi «MALİ» (https://islamansiklopedisi.org.tr/mali) — bu oturumda okundu: «Mema Tunkara, Susu Kante, Hingui Niakhaté ve Diara adlı dört küçük krallığa ayrılan Gāne, 1240 yılında Mali İmparatorluğu tarafından topraklarının tamamının ele geçirilmesiyle tarih sahnesinden silindi»",
+  "kaynak": "TDV İslâm Ansiklopedisi «MALİ» (https://islamansiklopedisi.org.tr/mali) — okundu: «Mema Tunkara, Susu Kante, Hingui Niakhaté ve Diara adlı dört küçük krallığa ayrılan Gāne, 1240 yılında Mali İmparatorluğu tarafından topraklarının tamamının ele geçirilmesiyle tarih sahnesinden silindi»",
   "gun": "1240",
   "kesinlik": "yil",
   "ic_not": "Kumbî Sâlih yerleşiminin zincirinde 1240 bir kuyruk başlangıcıdır (kuyruk_gerekli); bu madde zincir kırılması değil, kuyruk işçisi için işarettir."
@@ -17259,7 +17259,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "sahra-sanhaca"
   ],
   "d": "VIII. yüzyılın ikinci yarısında Evdegost’ta Lemtûne öncülüğünde kurulan Sanhâce devleti, Batı Sahrâ’nın tamamını hâkimiyetine alırken 300-420 (912-1029) arasında karışık bir dönem yaşadı.",
-  "kaynak": "TDV İslâm Ansiklopedisi «SANHÂCE (Benî Sanhâce)» (https://islamansiklopedisi.org.tr/sanhace-beni-sanhace) — bu oturumda okundu: «Bilâdüssûdan topraklarına seferler düzenleyen ve Nijer kıyılarına kadar Batı Sahrâ’nın tamamını hâkimiyeti altına alan bu devlet 300-420 (912-1029) yılları arasında karışık bir dönem yaşadı»",
+  "kaynak": "TDV İslâm Ansiklopedisi «SANHÂCE (Benî Sanhâce)» (https://islamansiklopedisi.org.tr/sanhace-beni-sanhace) — okundu: «Bilâdüssûdan topraklarına seferler düzenleyen ve Nijer kıyılarına kadar Batı Sahrâ’nın tamamını hâkimiyeti altına alan bu devlet 300-420 (912-1029) yılları arasında karışık bir dönem yaşadı»",
   "gun": "300-420/912-1029 (aralığın başı)",
   "kesinlik": "yil",
   "ic_not": "Aralığın başı alındı.",
@@ -17281,7 +17281,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "murabitlar"
   ],
   "d": "Cezûlî fakih Abdullah b. Yâsîn, Lemtûne lideri Yahyâ b. Ömer’le Senegal nehri üzerindeki bir adada ribât kurdu; Cüdâle ve Lemtûne başta olmak üzere Sanhâce kabilelerini itaat altına aldı. Bu hareket Murâbıtlar Devleti’ne dönüştü.",
-  "kaynak": "TDV İslâm Ansiklopedisi «MURÂBITLAR» (https://islamansiklopedisi.org.tr/murabitlar) — bu oturumda okundu: «Talebeleriyle beraber tebliğ ve cihad hareketi başlatarak Cüdâle ve Lemtûne başta olmak üzere Sanhâce’ye mensup kabileleri itaat altına aldı (434/1042-43)»",
+  "kaynak": "TDV İslâm Ansiklopedisi «MURÂBITLAR» (https://islamansiklopedisi.org.tr/murabitlar) — okundu: «Talebeleriyle beraber tebliğ ve cihad hareketi başlatarak Cüdâle ve Lemtûne başta olmak üzere Sanhâce’ye mensup kabileleri itaat altına aldı (434/1042-43)»",
   "gun": "434/1042-43",
   "kesinlik": "yil",
   "ic_not": "Kaynak iki miladî yıl verir (1042-43); hicrî 434 ∩ 1042 ilk günü alındı.",
@@ -17303,7 +17303,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "nekor-emirligi"
   ],
   "d": "Bekrî’nin anlatısına göre 244 (858-59) yılında bir Norman/Viking filosu Nekûr’a çıktı, şehri alıp çok sayıda kişiyi esir etti.",
-  "kaynak": "Ebû Ubeyd el-Bekrî, el-Mesâlik ve’l-memâlik (244 H) — HeritageDaily «The Vikings in Africa» (2022) ikincil özeti ve Filipowiak, Szkło 4 (2017) atfı ÜZERİNDEN; kaynakların hiçbiri bu oturumda AÇILMADI",
+  "kaynak": "Ebû Ubeyd el-Bekrî, el-Mesâlik ve’l-memâlik (244 H) — HeritageDaily «The Vikings in Africa» (2022) ikincil özeti ve Filipowiak, Szkło 4 (2017) atfı ÜZERİNDEN; kaynakların hiçbiri AÇILMADI",
   "gun": "244 H (858-59)",
   "kesinlik": "yil",
   "ic_not": "ZAYIF KAYNAK: yalnız ikincil özet üzerinden atıf; yıl çevirisi (858/859) çelişkili — 859 işaret değeri. TDV berberiler Nekor’u yalnız «Rif’te Nakūr Emirliği» diye anar. Nekor yerleşimi çift tanık bulunamadığı için YAZILMADI."
@@ -17325,7 +17325,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "abbasi"
   ],
   "d": "Sufriyye Hâricîleri’nin liderlerinden Ebû Kurre Abbâsîler’le savaştıktan sonra Orta Mağrib’in büyük kısmını hâkimiyeti altına aldı ve 148’de (765) kendisini imam ilân etti; Abbâsî ordusu karşısında Mağrib-i Aksâ’ya kaçtı.",
-  "kaynak": "TDV İslâm Ansiklopedisi «İFREN (Benî İfren)» (https://islamansiklopedisi.org.tr/ifren-beni-ifren) — bu oturumda okundu: «Ebû Kurre bir süre Abbâsîler’le savaştıktan sonra Orta Mağrib’in büyük kısmını hâkimiyeti altına aldı ve kendisini imam ilân etti (148/765)» · «Fakat üzerine gönderilen Abbâsî ordusu karşısında tutunamayıp Mağrib-i Aksâ’ya kaçtı»",
+  "kaynak": "TDV İslâm Ansiklopedisi «İFREN (Benî İfren)» (https://islamansiklopedisi.org.tr/ifren-beni-ifren) — okundu: «Ebû Kurre bir süre Abbâsîler’le savaştıktan sonra Orta Mağrib’in büyük kısmını hâkimiyeti altına aldı ve kendisini imam ilân etti (148/765)» · «Fakat üzerine gönderilen Abbâsî ordusu karşısında tutunamayıp Mağrib-i Aksâ’ya kaçtı»",
   "gun": "148/765",
   "kesinlik": "yil",
   "ic_not": "Kaynak hicrî+miladî; gün yok.",
@@ -17348,7 +17348,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "ifraniler-tilimsan"
   ],
   "d": "İfrîkıye valisi Ömer b. Hafs’ı öldürüp Tubne ve Kayrevan’ı alan Berberîler (Sufrî/İbâzî isyanı), Abbâsîler’in yeni valisi Yezîd b. Hâtim karşısında Trablus’taki savaşta yaklaşık 30.000 kayıp verdi.",
-  "kaynak": "TDV İslâm Ansiklopedisi «İFREN (Benî İfren)» (https://islamansiklopedisi.org.tr/ifren-beni-ifren) — bu oturumda okundu: «154 (771) yılında valiyi öldürerek Tubne ve Kayrevan şehirlerini ele geçiren Berberîler, Abbâsîler’in yeni valisi Yezîd b. Hâtim karşısında Trablus’taki savaşta ağır bir hezimete uğrayıp 30.000 civarında kayıp verdiler (155/772)»",
+  "kaynak": "TDV İslâm Ansiklopedisi «İFREN (Benî İfren)» (https://islamansiklopedisi.org.tr/ifren-beni-ifren) — okundu: «154 (771) yılında valiyi öldürerek Tubne ve Kayrevan şehirlerini ele geçiren Berberîler, Abbâsîler’in yeni valisi Yezîd b. Hâtim karşısında Trablus’taki savaşta ağır bir hezimete uğrayıp 30.000 civarında kayıp verdiler (155/772)»",
   "gun": "155/772",
   "kesinlik": "yil",
   "ic_not": "Gün yok.",
@@ -17370,7 +17370,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "ifraniler-tilimsan"
   ],
   "d": "Fâtımîler’i destekleyen yakınlarının öldürdüğü Muhammed b. Sâlih’in yerine geçen oğlu Ya‘lâ 338’de (949-50) İfkân şehrini kurup emirliğini ilân etti; 343’te (954-55) Vehrân’ı aldı.",
-  "kaynak": "TDV İslâm Ansiklopedisi «İFREN (Benî İfren)» (https://islamansiklopedisi.org.tr/ifren-beni-ifren) — bu oturumda okundu: «Onun Fâtımîler’i destekleyen yakınları tarafından öldürülmesinden sonra yerine geçen oğlu Ya‘lâ 338’de (949-50) İfkân şehrini kurup emirliğini ilân etti»",
+  "kaynak": "TDV İslâm Ansiklopedisi «İFREN (Benî İfren)» (https://islamansiklopedisi.org.tr/ifren-beni-ifren) — okundu: «Onun Fâtımîler’i destekleyen yakınları tarafından öldürülmesinden sonra yerine geçen oğlu Ya‘lâ 338’de (949-50) İfkân şehrini kurup emirliğini ilân etti»",
   "gun": "338/949-50",
   "kesinlik": "yil",
   "ic_not": "Kaynak iki miladî yıl verir; hicrî 338 ∩ 949 ilk günü.",
@@ -17393,7 +17393,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "fatimi"
   ],
   "d": "Ya‘lâ b. Muhammed 343’te (954-55) Vehrân’ı ele geçirdi, Mağrâve emîri Hayr b. Muhammed’le birlikte Fâtımîler’e karşı ayaklanıp Tâhert’e yürüdü, Tâhert ile Tanca arasını hâkimiyeti altına alıp hutbeyi Endülüs Emevî halifesi adına okuttu.",
-  "kaynak": "TDV İslâm Ansiklopedisi «İFREN (Benî İfren)» (https://islamansiklopedisi.org.tr/ifren-beni-ifren) — bu oturumda okundu: «343’te (954-55) Vehrân şehrini ele geçiren Ya‘lâ, daha sonra kendisine katılan Mağrâve Emîri Hayr b. Muhammed ile birlikte Fâtımîler’e karşı ayaklanıp Tâhert’e yürüdü»",
+  "kaynak": "TDV İslâm Ansiklopedisi «İFREN (Benî İfren)» (https://islamansiklopedisi.org.tr/ifren-beni-ifren) — okundu: «343’te (954-55) Vehrân şehrini ele geçiren Ya‘lâ, daha sonra kendisine katılan Mağrâve Emîri Hayr b. Muhammed ile birlikte Fâtımîler’e karşı ayaklanıp Tâhert’e yürüdü»",
   "gun": "343/954-55",
   "kesinlik": "yil",
   "ic_not": "Vehrân bu kümenin yerleşimi değildir (zincir yazılmadı); bu yüzden madde tipi toprak-kazanc değil `siyaset` seçildi (Değişmez 2 yer eşleşmesi aranmasın). TDV iki miladî yıl (954-55) verir; hicrî 343 ∩ 954 ilk günü alındı.",
@@ -17416,7 +17416,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "endulus-emevi"
   ],
   "d": "Ya‘lâ’nın oğlu Yeddû aralarında çıkan anlaşmazlık üzerine 381’de (991) Endülüs Emevîleri’ne itaati bıraktı ve Fas şehrini ele geçirdi; kısa süre sonra ağır bir hezimete uğrayıp öldü.",
-  "kaynak": "TDV İslâm Ansiklopedisi «İFREN (Benî İfren)» (https://islamansiklopedisi.org.tr/ifren-beni-ifren) — bu oturumda okundu: «Fakat Yeddû aralarında çıkan anlaşmazlık üzerine 381’de (991) Endülüs Emevîleri’ne itaati terketti ve Fas şehrini ele geçirdi»",
+  "kaynak": "TDV İslâm Ansiklopedisi «İFREN (Benî İfren)» (https://islamansiklopedisi.org.tr/ifren-beni-ifren) — okundu: «Fakat Yeddû aralarında çıkan anlaşmazlık üzerine 381’de (991) Endülüs Emevîleri’ne itaati terketti ve Fas şehrini ele geçirdi»",
   "gun": "381/991",
   "kesinlik": "yil",
   "ic_not": "Fas (Fez) atlas yerleşiminin 1070 öncesi zinciri bu kümede yazılmadı; madde tipi isyan (Değişmez 2 evreni dışı).",
@@ -17439,7 +17439,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "ifraniler-tilimsan"
   ],
   "d": "Hammâme’nin Şâle’den Tâdlâ’ya uzanan bölgede kurduğu üçüncü Benî İfren emirliği son emîr Muhammed b. Ebü’l-Kemâl zamanında Murâbıtlar tarafından ortadan kaldırıldı (458/1066); Benî İfren’in bazı kolları Endülüs’e göç etti.",
-  "kaynak": "TDV İslâm Ansiklopedisi «İFREN (Benî İfren)» (https://islamansiklopedisi.org.tr/ifren-beni-ifren) — bu oturumda okundu: «Şâle Benî İfren Emirliği, son emîr Muhammed b. Ebü’l-Kemâl zamanında Murâbıtlar tarafından ortadan kaldırıldı (458/1066)»",
+  "kaynak": "TDV İslâm Ansiklopedisi «İFREN (Benî İfren)» (https://islamansiklopedisi.org.tr/ifren-beni-ifren) — okundu: «Şâle Benî İfren Emirliği, son emîr Muhammed b. Ebü’l-Kemâl zamanında Murâbıtlar tarafından ortadan kaldırıldı (458/1066)»",
   "gun": "458/1066",
   "kesinlik": "yil",
   "ic_not": "Şâle emirliğinin kuruluşu (Hammâme, 991 sonrası) TDV’de yıllandırılmaz → sala-emirligi-benifren için künye YAZILMADI (f bulunamadı).",
@@ -17462,7 +17462,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "sfaks-hammu-emirligi"
   ],
   "d": "Hammâdî emîri Nâsır b. Alennâs’ı metbû tanıyan Hammû 455’te (1063) Esbec, Adî ve başka Arap kabilelerinin desteğiyle Mehdiye üzerine yürüdü; Mehdiye yakınındaki savaşta Temîm karşısında ağır yenilgiye uğradı.",
-  "kaynak": "TDV İslâm Ansiklopedisi «SEFÂKUS» (https://islamansiklopedisi.org.tr/sefakus) — bu oturumda okundu: «Ardından Hammâdî Emîri Nâsır b. Alennâs’ı metbû tanıyan Hammû 455 (1063) yılında Esbec, Adî ve diğer bazı Arap kabilelerinin desteğiyle Mehdiye üzerine yürüdü» · «Ancak Mehdiye yakınlarında meydana gelen savaşta Temîm karşısında ağır bir yenilgiye uğradı»",
+  "kaynak": "TDV İslâm Ansiklopedisi «SEFÂKUS» (https://islamansiklopedisi.org.tr/sefakus) — okundu: «Ardından Hammâdî Emîri Nâsır b. Alennâs’ı metbû tanıyan Hammû 455 (1063) yılında Esbec, Adî ve diğer bazı Arap kabilelerinin desteğiyle Mehdiye üzerine yürüdü» · «Ancak Mehdiye yakınlarında meydana gelen savaşta Temîm karşısında ağır bir yenilgiye uğradı»",
   "gun": "455/1063",
   "kesinlik": "yil",
   "ic_not": "Gün yok.",
@@ -17485,7 +17485,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "sfaks-hammu-emirligi"
   ],
   "d": "Sefâkus’u almak için Temîm’in 474 (1081) ve 488 (1095) yıllarında gönderdiği ordular başarısız oldu; Temîm 493’te (1099) bizzat harekete geçip şehri aldı.",
-  "kaynak": "TDV İslâm Ansiklopedisi «SEFÂKUS» (https://islamansiklopedisi.org.tr/sefakus) — bu oturumda okundu: «Sefâkus’u almak için harekete geçen Temîm, 474 (1081) ve 488 (1095) yıllarında gönderdiği ordular başarısız olunca 493’te (1099) bizzat ordusunun başında Sefâkus üzerine yürüdü»",
+  "kaynak": "TDV İslâm Ansiklopedisi «SEFÂKUS» (https://islamansiklopedisi.org.tr/sefakus) — okundu: «Sefâkus’u almak için harekete geçen Temîm, 474 (1081) ve 488 (1095) yıllarında gönderdiği ordular başarısız olunca 493’te (1099) bizzat ordusunun başında Sefâkus üzerine yürüdü»",
   "gun": "474/1081",
   "kesinlik": "yil",
   "ic_not": "Kaynak 474/1081 ve 488/1095 iki seferi birlikte verir; ikincisi aşağıda ayrı madde.",
@@ -17508,7 +17508,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "sfaks-hammu-emirligi"
   ],
   "d": "Temîm’in 488’de (1095) gönderdiği ikinci ordu da Sefâkus’u alamadı; şehir 1099’a kadar Hammû’nun elinde kaldı.",
-  "kaynak": "TDV İslâm Ansiklopedisi «SEFÂKUS» (https://islamansiklopedisi.org.tr/sefakus) — bu oturumda okundu: «Sefâkus’u almak için harekete geçen Temîm, 474 (1081) ve 488 (1095) yıllarında gönderdiği ordular başarısız olunca»",
+  "kaynak": "TDV İslâm Ansiklopedisi «SEFÂKUS» (https://islamansiklopedisi.org.tr/sefakus) — okundu: «Sefâkus’u almak için harekete geçen Temîm, 474 (1081) ve 488 (1095) yıllarında gönderdiği ordular başarısız olunca»",
   "gun": "488/1095",
   "kesinlik": "yil",
   "ic_not": "Gün yok.",
@@ -17531,7 +17531,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "sfaks-hammu-emirligi"
   ],
   "d": "Temîm’in Sefâkus’u alması üzerine kaçmayı başaran Hammû Kâbis emirine sığındı; bu, Kâbis’in 1099’da hâlâ ayrı bir emirlik olduğunu gösterir.",
-  "kaynak": "TDV İslâm Ansiklopedisi «SEFÂKUS» (https://islamansiklopedisi.org.tr/sefakus) — bu oturumda okundu: «Kaçmayı başaran Hammû ise Kābis emîrine sığındı»",
+  "kaynak": "TDV İslâm Ansiklopedisi «SEFÂKUS» (https://islamansiklopedisi.org.tr/sefakus) — okundu: «Kaçmayı başaran Hammû ise Kābis emîrine sığındı»",
   "gun": "493/1099",
   "kesinlik": "yil",
   "ic_not": "Kâbis emirliğinin başlangıç ve bitiş yılları TDV’de yok (MS1 künyesi 1062-1148, ikincil).",
@@ -17554,7 +17554,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "kafsa-benirend-emirligi"
   ],
   "d": "Şehir eşrafının daveti üzerine Kafsa’ya gelen Benî Rend’den Ali b. Abdülazîz 575’te (1180) yönetimi eline aldı; Ebû Yûsuf el-Mansûr şehri kuşattı, meyvelikleri tahrip edince isyancılar teslim oldu (576/1180); yönetime hükümdarın kardeşi Ebû Ali getirildi.",
-  "kaynak": "TDV İslâm Ansiklopedisi «KAFSA» (https://islamansiklopedisi.org.tr/kafsa) — bu oturumda okundu: «Ancak 575 (1180) yılında valiye karşı harekete geçen şehir eşrafının daveti üzerine Kafsa’ya gelen Benî Rend’e mensup Ali b. Abdülazîz yönetimi eline geçirdi» · «Şehir dışındaki meyvelikleri tahrip etmeye başlayınca isyancılar teslim oldu (576/1180)»",
+  "kaynak": "TDV İslâm Ansiklopedisi «KAFSA» (https://islamansiklopedisi.org.tr/kafsa) — okundu: «Ancak 575 (1180) yılında valiye karşı harekete geçen şehir eşrafının daveti üzerine Kafsa’ya gelen Benî Rend’e mensup Ali b. Abdülazîz yönetimi eline geçirdi» · «Şehir dışındaki meyvelikleri tahrip etmeye başlayınca isyancılar teslim oldu (576/1180)»",
   "gun": "575-576/1180",
   "kesinlik": "yil",
   "ic_not": "Kafsa zincirinde Muvahhid kesintisiz yazıldı (kısa isyan modele alınmadı, BEYANLI).",
@@ -17577,7 +17577,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "muvahhidler"
   ],
   "d": "Selâhaddîn-i Eyyûbî’nin gönderdiği Karakuş ve Boz-aba komutasındaki Oğuz birliği ve Ali b. Gāniye Kafsa yöresindeki Umre’de Muvahhidler’i bozguna uğrattı, Kafsa dahil İfrîkıye’nin (Tunus) tamamını aldı; Ebû Yûsuf el-Mansûr Eylül 1187’de Kafsa’yı kuşattı, üç aylık kuşatmanın ardından şehir teslim oldu.",
-  "kaynak": "TDV İslâm Ansiklopedisi «KAFSA» (https://islamansiklopedisi.org.tr/kafsa) — bu oturumda okundu: «Selâhaddîn-i Eyyûbî tarafından gönderilen Şerefeddin Karakuş ve Zeyneddin Boz-aba’nın emrindeki Oğuzlar’dan oluşan bir askerî birliğin de katıldığı ordusuyla Kafsa yöresindeki Umre’de Muvahhidler’i bozguna uğrattı (583/1187)» · «Ancak Muvahhidler’den Ebû Yûsuf el-Mansûr, üç ay sonra 583 Receb’i ortalarında (Eylül 1187) Kafsa’yı kuşattı»",
+  "kaynak": "TDV İslâm Ansiklopedisi «KAFSA» (https://islamansiklopedisi.org.tr/kafsa) — okundu: «Selâhaddîn-i Eyyûbî tarafından gönderilen Şerefeddin Karakuş ve Zeyneddin Boz-aba’nın emrindeki Oğuzlar’dan oluşan bir askerî birliğin de katıldığı ordusuyla Kafsa yöresindeki Umre’de Muvahhidler’i bozguna uğrattı (583/1187)» · «Ancak Muvahhidler’den Ebû Yûsuf el-Mansûr, üç ay sonra 583 Receb’i ortalarında (Eylül 1187) Kafsa’yı kuşattı»",
   "gun": "583/1187",
   "kesinlik": "yil",
   "ic_not": "TDV içi: «üç ay sonra … (Eylül 1187)» iç tutarlılığı: TDV’nin Eylül 1187 ve «583 Receb ortaları» ifadesi Gregoryen/Jülyen ve tablo farkı taşır; Kafsa zincirine Gāniye kesintisi yazılmadı.",
@@ -17599,7 +17599,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "murabitlar"
   ],
   "d": "Kral Vâr Câbî’nin İslâm’a girmesiyle değişen Tekrûr’da oğlu Labbi 448’de (1056) Murâbıt komutanının emrine askerî birlik gönderdi ve Murâbıtlar’la iş birliği halinde çevredeki putperest kabilelerle savaştı.",
-  "kaynak": "TDV İslâm Ansiklopedisi «TEKRÛR» (https://islamansiklopedisi.org.tr/tekrur) — bu oturumda okundu: «Vâr Câbî’nin oğlu Labbi 448’de (1056) Murâbıt kumandanının emrine bir askerî birlik gönderdi ve Murâbıtlar’la iş birliği halinde çevredeki putperest kabilelerle savaştı»",
+  "kaynak": "TDV İslâm Ansiklopedisi «TEKRÛR» (https://islamansiklopedisi.org.tr/tekrur) — okundu: «Vâr Câbî’nin oğlu Labbi 448’de (1056) Murâbıt kumandanının emrine bir askerî birlik gönderdi ve Murâbıtlar’la iş birliği halinde çevredeki putperest kabilelerle savaştı»",
   "gun": "448/1056",
   "kesinlik": "yil",
   "ic_not": "Gün yok.",
@@ -17621,7 +17621,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "kevkev-erken"
   ],
   "d": "IX. yüzyılda ortaya çıkan Kevkev Krallığı’nın merkezi Gao 890 yılına doğru Songaylar’ın eline geçti.",
-  "kaynak": "TDV İslâm Ansiklopedisi «GAO» (https://islamansiklopedisi.org.tr/gao) — bu oturumda okundu: «Şehir 890 yılına doğru Songaylar’ın eline geçti»",
+  "kaynak": "TDV İslâm Ansiklopedisi «GAO» (https://islamansiklopedisi.org.tr/gao) — okundu: «Şehir 890 yılına doğru Songaylar’ın eline geçti»",
   "gun": "890 yılına doğru",
   "kesinlik": "yil",
   "ic_not": "«yılına doğru» yaklaşıklığı; Gao zincirine yazılmadı (aynı TDV maddesi 1009-10’da Zâ hânedanının merkezi Gao’ya taşıdığını söyler; iki cümle arasındaki ilişki TDV’de açıklanmaz)."
@@ -17644,7 +17644,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "kevkev"
   ],
   "d": "Mali Sultanı Gongon Mûsâ’ya yenilen Songay Sultanı Asibay ona biat edip iki küçük oğlunu rehin verdi; on beş yıl sonra oğullardan Ali Kolen kaçıp Gao’ya döndü ve Songaylar’ın Sonni dönemini (1339-1493) başlattı.",
-  "kaynak": "TDV İslâm Ansiklopedisi «GAO» (https://islamansiklopedisi.org.tr/gao) — bu oturumda okundu: «1324 yılında Songay Sultanı Asibay mağlûp olduğu Mali Sultanı Gongon Mûsâ’ya biat etti ve küçük yaşlardaki iki oğlunu da ona rehin verdi»",
+  "kaynak": "TDV İslâm Ansiklopedisi «GAO» (https://islamansiklopedisi.org.tr/gao) — okundu: «1324 yılında Songay Sultanı Asibay mağlûp olduğu Mali Sultanı Gongon Mûsâ’ya biat etti ve küçük yaşlardaki iki oğlunu da ona rehin verdi»",
   "gun": "1324",
   "kesinlik": "yil",
   "ic_not": "Gao’nun mevcut atlas zinciri 1324-01-01’de mali-imparatorlugu ile başlar (yama bu uca eşit)."
@@ -17664,7 +17664,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "kanem-bornu"
   ],
   "d": "Berberî asıllı Zegāveler’in Manan’da kurduğu Benî Dûkû Krallığı’nın son hâkimi Abdülcelîl’in (1071-1075) oğlu Hummay (1075-1086) bölge tarihinde yeni bir devir açtı; Kânim Devleti ona nisbetle Benî Hummay (Seyfiyye) diye anılır.",
-  "kaynak": "TDV İslâm Ansiklopedisi «KÂNİM» (https://islamansiklopedisi.org.tr/kanim) — bu oturumda okundu: «Kânim’e ilk yerleşenlerin ziraatçı ve hayvan yetiştiren So (Sao) toplumu olduğu, daha sonra Berberî asıllı Zegāveler’in bölgeyi ele geçirdikleri ve merkezi Manan’da Benî Dûkū Krallığı’nı kurdukları bilinmektedir» · «Benî Dûkū’nun son hâkimi Abdülcelîl olup (1071-1075) bölge tarihinde yeni bir devir açan bunun oğlu Hummay’dır (1075-1086)»",
+  "kaynak": "TDV İslâm Ansiklopedisi «KÂNİM» (https://islamansiklopedisi.org.tr/kanim) — okundu: «Kânim’e ilk yerleşenlerin ziraatçı ve hayvan yetiştiren So (Sao) toplumu olduğu, daha sonra Berberî asıllı Zegāveler’in bölgeyi ele geçirdikleri ve merkezi Manan’da Benî Dûkū Krallığı’nı kurdukları bilinmektedir» · «Benî Dûkū’nun son hâkimi Abdülcelîl olup (1071-1075) bölge tarihinde yeni bir devir açan bunun oğlu Hummay’dır (1075-1086)»",
   "gun": "1075",
   "kesinlik": "yil",
   "ic_not": "Zağava (Zegāve) için künye YAZILMADI: TDV kuruluş yılı vermez (yalnız son hükümdar 1071-75); girdi f=0800 «taslak» doğrulanamadı; Zağava/Benî Dûkû kanem-bornu künyesinin (f=0800) öncesi/içi sayıldı. TDV: Kânim’in başkentinin Manan’daki yeri çözülmedi."
@@ -17982,7 +17982,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "dogu-500-1281"
   ],
   "t": "0636-01-01",
-  "b": "Kaan hanedanı merkezini Calakmul'a taşıyor / krallık 'yeniden kuruluyor' (beyanlı yaklaşıklık)",
+  "ic_not_ham_b":"Kaan hanedanı merkezini Calakmul'a taşıyor / krallık 'yeniden kuruluyor' (beyanlı yaklaşıklık)", "b": "Kaan hanedanı merkezini Calakmul'a taşıyor / krallık 'yeniden kuruluyor' (yaklaşık bilgi)",
   "tur": "siyaset",
   "yer": "Calakmul",
   "taraflar": [
@@ -18399,7 +18399,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "taraflar": [
    "coba"
   ],
-  "d": "Cobá Stela 6, 9.9.0.0.0, 3 Ajaw 2 Sotz' Initial Series tarihiyle açılır; ikinci tarih 9.9.10.0.0 (2 Ajaw 13 Pohp, 21 Mart 623) ile birlikte Gronemeyer'in dizisinde Ruler A'ya bağlanır. Cobá Krallığı'nın künyesi bu yazıt tarihinden başlatılır.",
+  "ic_not_ham_d":"Cobá Stela 6, 9.9.0.0.0, 3 Ajaw 2 Sotz' Initial Series tarihiyle açılır; ikinci tarih 9.9.10.0.0 (2 Ajaw 13 Pohp, 21 Mart 623) ile birlikte Gronemeyer'in dizisinde Ruler A'ya bağlanır. Cobá Krallığı'nın künyesi bu yazıt tarihinden başlatılır.", "d": "Cobá Stela 6, 9.9.0.0.0, 3 Ajaw 2 Sotz' Initial Series tarihiyle açılır; ikinci tarih 9.9.10.0.0 (2 Ajaw 13 Pohp, 21 Mart 623) ile birlikte Gronemeyer'in dizisinde Ruler A'ya bağlanır. Cobá Krallığı'nın başlangıcı olarak bu yazıt tarihi alınmıştır.",
   "kaynak": "Gronemeyer, S., 'A Preliminary Ruling Sequence of Coba, Quintana Roo', Wayeb Notes No. 14, 2004, https://www.wayeb.org/notes/wayeb_notes0014.pdf (pdftotext ile okundu, 14.11.2026) | «Stela 6 (Figure 1) opens in blocks A1-B7 with an Initial Series date 9.9.0.0.0, 3 Ajaw 2 Sotz' (May 12, 613).»",
   "gun": "9.9.0.0.0, 3 Ajaw 2 Sotz' (May 12, 613)",
   "kesinlik": "gun",
@@ -18490,7 +18490,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "taraflar": [
    "coba"
   ],
-  "d": "Cobá Stela 20, en iyi korunmuş Cobá anıtı, 9.17.10.0.0, 12 Ajaw 8 Pax Initial Series tarihiyle açılır; metin aşınmıştır, k'atun sonu kutlamalarını anlattığı sanılır; Ruler C'nin adı yazıtta okunur. Atlasın Cobá Krallığı künyesi bu yazıt tarihinde sona erer (künye ucu; krallığın yıkımı bu kaynakta anlatılmaz).",
+  "ic_not_ham_d":"Cobá Stela 20, en iyi korunmuş Cobá anıtı, 9.17.10.0.0, 12 Ajaw 8 Pax Initial Series tarihiyle açılır; metin aşınmıştır, k'atun sonu kutlamalarını anlattığı sanılır; Ruler C'nin adı yazıtta okunur. Atlasın Cobá Krallığı künyesi bu yazıt tarihinde sona erer (künye ucu; krallığın yıkımı bu kaynakta anlatılmaz).", "d": "Cobá Stela 20, en iyi korunmuş Cobá anıtı, 9.17.10.0.0, 12 Ajaw 8 Pax Initial Series tarihiyle açılır; metin aşınmıştır, k'atun sonu kutlamalarını anlattığı sanılır; Ruler C'nin adı yazıtta okunur. Cobá Krallığı'nın sonu olarak bu yazıt tarihi alınmıştır (krallığın yıkımı bu kaynakta anlatılmaz).",
   "kaynak": "Gronemeyer, S., 'A Preliminary Ruling Sequence of Coba, Quintana Roo', Wayeb Notes No. 14, 2004, https://www.wayeb.org/notes/wayeb_notes0014.pdf (pdftotext ile okundu, 14.11.2026) | «The Initial Series date in blocks A2-D1 can clearly be identified as 9.17.10.0.0, 12 Ajaw 8 Pax (December 2, 780).»",
   "gun": "9.17.10.0.0, 12 Ajaw 8 Pax (December 2, 780)",
   "kesinlik": "gun",
@@ -18583,7 +18583,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "taraflar": [
    "mayapan-birligi"
   ],
-  "d": "Kuzey ve kıyı Maya halkları hızla toparlandı ve Mayapán siyasi başkenti en az 1100–1450 cal. CE arasında ortaya çıkıp yönetti; Cocom, Xiu ve Chel hanedanları yönetici soylulardı. Mayapán sonradan 1400–1450 kuraklığı ve hizip çatışmalarıyla çöktü (çöküş maddesi atlasta mevcut).",
+  "ic_not_ham_d":"Kuzey ve kıyı Maya halkları hızla toparlandı ve Mayapán siyasi başkenti en az 1100–1450 cal. CE arasında ortaya çıkıp yönetti; Cocom, Xiu ve Chel hanedanları yönetici soylulardı. Mayapán sonradan 1400–1450 kuraklığı ve hizip çatışmalarıyla çöktü (çöküş maddesi atlasta mevcut).", "d": "Kuzey ve kıyı Maya halkları hızla toparlandı ve Mayapán siyasi başkenti en az 1100–1450 cal. CE arasında ortaya çıkıp yönetti; Cocom, Xiu ve Chel hanedanları yönetici soylulardı. Mayapán sonradan 1400–1450 kuraklığı ve hizip çatışmalarıyla çöktü.",
   "kaynak": "Kennett D. J. ve ark., «Drought-induced civil conflict among the ancient Maya», Nature Communications 13, 3911 (2022), doi:10.1038/s41467-022-31522-x (Europe PMC PMC9296624 tam metin okundu): \"But northern and coastal Maya populations subsequently recovered quickly and the political capital of Mayapan arose and governed from at least 1100 to 1450 cal. CE\" | Kennett D. J. ve ark., «Drought-induced civil conflict among the ancient Maya», Nature Communications 13, 3911 (2022), doi:10.1038/s41467-022-31522-x (Europe PMC PMC9296624 tam metin okundu): \"Historical sources indicate that the most influential nobility came from the houses of the Cocom, the Xiu, and the Chel (among others)\"",
   "gun": "en az 1100–1450 cal. CE (en eski uç yazıldı)",
   "kesinlik": "yuzyil",

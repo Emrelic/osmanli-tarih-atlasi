@@ -467,7 +467,7 @@ window.OLAYLAR_2S1019 = [
   yer:"Hisarcık (Grocka)",
   kisiler:"II. Murad",
   etiket:["askeri", "toprak-kazanc"],
-  d:"Üç aylık kuşatmadan sonra Semendire alındı. Semendire'nin 17 km yakınındaki Hisarcık (Grocka) atlasta abi merkezi Semendire'nin akıbetini izler ve aynı günde Sırp Despotluğu'ndan Osmanlı'ya geçer (1444'te iade edilecektir).",
+  ic_not_ham_d:"Üç aylık kuşatmadan sonra Semendire alındı. Semendire'nin 17 km yakınındaki Hisarcık (Grocka) atlasta abi merkezi Semendire'nin akıbetini izler ve aynı günde Sırp Despotluğu'ndan Osmanlı'ya geçer (1444'te iade edilecektir).", d:"Üç aylık kuşatmadan sonra Semendire alındı. Semendire'nin 17 km yakınındaki Hisarcık (Grocka) haritada, bağlı olduğu merkez Semendire'nin akıbetini izler ve aynı günde Sırp Despotluğu'ndan Osmanlı'ya geçer (1444'te iade edilecektir).",
   ic_not_d:"Hisarcık TDV'de bu olayda anılmıyor; bağ ABİ MERKEZ: Semendire (BEYANLI YAKLAŞIKLIK, atlas zinciri yerlesimler_zincir64.js). Takova (abi merkezi Rudnik, zincir kaynağı okunmadı) bu maddeye alınmadı.",
   kaynak:"TDV `semendire` — AYNEN: \"Topların kullanıldığı üç aylık bir kuşatmanın ardından şehir Osmanlılar tarafından alındı.\" (16 Rebîülevvel 843 / 27 Ağustos 1439) · TDV `murad-ii` — AYNEN: \"Semendire’yi zaptetti (16 Rebîülevvel 843 / 27 Ağustos 1439).\" · iki TDV maddesi aynı günü verir · ABİ MERKEZ: Semendire — Hisarcık için bağı gösteren kaynak yok, atlas kaydı · hassasiyet: GÜN (Semendire); Hisarcık BEYANLI YAKLAŞIKLIK" },
 
@@ -482,7 +482,7 @@ window.OLAYLAR_2S1019 = [
   yer:"Sikyon",
   kisiler:"Fâtih Sultan Mehmed",
   etiket:["askeri", "toprak-kazanc"],
-  d:"Fâtih Mora seferinde üç aylık kuşatmadan sonra Gördüs'ü (Korint) barış yoluyla aldı. Korint'e 17 km uzaklıktaki Sikyon atlasta abi merkezi Gördüs'ün akıbetini izler ve aynı günde Osmanlı'ya geçer.",
+  ic_not_ham_d:"Fâtih Mora seferinde üç aylık kuşatmadan sonra Gördüs'ü (Korint) barış yoluyla aldı. Korint'e 17 km uzaklıktaki Sikyon atlasta abi merkezi Gördüs'ün akıbetini izler ve aynı günde Osmanlı'ya geçer.", d:"Fâtih Mora seferinde üç aylık kuşatmadan sonra Gördüs'ü (Korint) barış yoluyla aldı. Korint'e 17 km uzaklıktaki Sikyon haritada, bağlı olduğu merkez Gördüs'ün akıbetini izler ve aynı günde Osmanlı'ya geçer.",
   ic_not_d:"Sikyon TDV `gordus`ta anılmıyor; bağ ABİ MERKEZ: Gördüs (Korint) (BEYANLI YAKLAŞIKLIK, atlas zinciri yerlesimler_zincir64.js).",
   kaynak:"TDV `gordus` — AYNEN: \"barış yoluyla şehri aldı (6 Ağustos 1458)\" · \"üç aylık bir kuşatmadan sonra\" · ABİ MERKEZ: Gördüs (Korint) — Sikyon için bağı gösteren kaynak yok, atlas kaydı · hassasiyet: GÜN (Gördüs); Sikyon BEYANLI YAKLAŞIKLIK" },
 
@@ -512,7 +512,7 @@ window.OLAYLAR_2S1019 = [
   yer:"Soçi (Sâşe), Tuapse, Maykop (Çerkezya)",
   kisiler:"Gedik Ahmed Paşa, Mengli Giray",
   etiket:["askeri", "toprak-kazanc"],
-  d:"Dört günlük kuşatmadan sonra Kefe Ahmed Paşa'ya teslim oldu, Mengli Giray Osmanlı sultanının tâbiliğini kabul etti. Kırım hanlarını metbû tanıyan Çerkez kabilelerinin yurdu olan Soçi, Tuapse ve Maykop çevresi atlasta bu tarihten itibaren Kırım Hanlığı'na gevşek himaye olarak bağlı gösterilir.",
+  ic_not_ham_d:"Dört günlük kuşatmadan sonra Kefe Ahmed Paşa'ya teslim oldu, Mengli Giray Osmanlı sultanının tâbiliğini kabul etti. Kırım hanlarını metbû tanıyan Çerkez kabilelerinin yurdu olan Soçi, Tuapse ve Maykop çevresi atlasta bu tarihten itibaren Kırım Hanlığı'na gevşek himaye olarak bağlı gösterilir.", d:"Dört günlük kuşatmadan sonra Kefe Ahmed Paşa'ya teslim oldu, Mengli Giray Osmanlı sultanının tâbiliğini kabul etti. Kırım hanlarını metbû tanıyan Çerkez kabilelerinin yurdu olan Soçi, Tuapse ve Maykop çevresi haritada bu tarihten itibaren Kırım Hanlığı'na gevşek himaye olarak bağlı gösterilir.",
   ic_not_d:"TDV Soçi, Tuapse, Maykop adlarını anmıyor; TDV `kirim` Çerkez kabilelerini yalnız 'Kabartay' bağlamında ve tarihsiz anar. Himaye pencerelerinin başı (1475-06-06) Emre kararı D (13 Eyl 2026) atlas modelidir — BEYANLI YAKLAŞIKLIK.",
   kaynak:"TDV `mehmed-ii` — AYNEN: \"Dört günlük muhasaradan sonra Kefe şehri Ahmed Paşa’ya teslim oldu (1 Safer 880 / 6 Haziran 1475).\" · TDV `kirim` — AYNEN: \"Ahmed Paşa ile bir anlaşma yaparak Osmanlı sultanının tâbiliğini kabul etti.\" · \"Daha güneyde Kabartay’da Çerkez kabileleri de Kırım hanlarını metbû tanırlardı.\" (tarihsiz) · hassasiyet: GÜN (Kefe); Çerkezya kıyısı BEYANLI YAKLAŞIKLIK" },
 { bolge:1, t:"1344-03-26",

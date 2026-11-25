@@ -18,7 +18,7 @@ window.OLAYLAR_2S1114D5 = [
   etiket:["antlasma","diplomasi","konu-diplomasi"],
   d:"Lozan'ın 15. maddesiyle Türkiye, Batnoz (Patmos) dahil On İki Ada'ya (Dodecanese) ilişkin bütün hak ve unvanlarından İtalya lehine vazgeçti; adalar 1912'den beri fiilen İtalyan işgalindeydi. 12. madde ise Limni, Semadirek, Midilli, Sakız, Sisam ve Nikarya'nın Yunan egemenliğini teyit etti. Bozbaba (Ay Strati) ile Fornoz (Fourni) 1912'den beri Yunan elindeydi ve Lozan'dan sonra da Yunanistan'da kaldı; bu iki adın kendisi Lozan'ın 12. maddesinde sayılmaz.",
   ic_not_d:"Madde 12 ve 15'in sayılan ada adları okundu; Bozbaba ve Fornoz'un 12. maddedeki adalarla aynı grupta olduğu çıkarımdır, metinde adları yoktur — kırılma yerleşim verisinde (1923-07-24) bu iki ad için dönem bölünmesidir, devir değildir.",
-  kaynak:"Lozan Barış Antlaşması, Siyasi Hükümler, md. 12 ve md. 15 (T.C. Dışişleri Bakanlığı yayımı, mfa.gov.tr 'Lausanne Peace Treaty Part I — Political Clauses', bu oturumda okundu): \"Turkey renounces in favour of Italy all rights and title over the following islands: … Patmos …\" · hassasiyet: GÜN" },
+  kaynak:"Lozan Barış Antlaşması, Siyasi Hükümler, md. 12 ve md. 15 (T.C. Dışişleri Bakanlığı yayımı, mfa.gov.tr 'Lausanne Peace Treaty Part I — Political Clauses'): \"Turkey renounces in favour of Italy all rights and title over the following islands: … Patmos …\" · hassasiyet: GÜN" },
 
 { t:"1935-12-25",
   k:"siyaset",
@@ -31,7 +31,7 @@ window.OLAYLAR_2S1114D5 = [
   yer:"Tunceli (Kalan), Dersim",
   etiket:["idari","konu-idari"],
   d:"2885 sayılı yasayla Dersim bölgesinde Tunceli adlı yeni bir vilâyet kurulması kararlaştırıldı; vilâyetin idarî merkezi Kalan yerleşimi oldu ve yerleşim sonradan Tunceli adını aldı. Bölge Türkiye Cumhuriyeti içinde kaldı; değişen şey idarî statü ve adıdır.",
-  kaynak:"TDV `tunceli` — \"25 Aralık 1935 tarihinde kabul edilen 2885 sayılı yasa ile (Düstur, Üçüncü tertip, XVII, 171) Tunceli adlı yeni bir vilâyet kurulması kararlaştırıldı\" (bu oturumda okundu; Kalan merkez bilgisi aynı madde) · hassasiyet: GÜN" },
+  kaynak:"TDV `tunceli` — \"25 Aralık 1935 tarihinde kabul edilen 2885 sayılı yasa ile (Düstur, Üçüncü tertip, XVII, 171) Tunceli adlı yeni bir vilâyet kurulması kararlaştırıldı\" (okundu; Kalan merkez bilgisi aynı madde) · hassasiyet: GÜN" },
 
 { t:"1956-03-02",
   k:"kurulus",
@@ -45,7 +45,7 @@ window.OLAYLAR_2S1114D5 = [
   etiket:["bagimsizlik","konu-siyasi"],
   d:"2 Mart 1956'da imzalanan bağımsızlık antlaşmasıyla 1912'den beri süren Fransız himayesi sona erdi; Selâ ve Rabat bağımsız Fas Krallığı'nın toprağı oldu. İspanya Fas'ın bağımsızlığını 5 Nisan 1956'da tanıdı.",
   ic_not_d:"TDV metni antlaşmanın taraflarını adıyla vermez; 'Fransız himayesinin sonu' bağlamdan okunur. Ortak bildiri (Fransa-Fas) ifadesi TDV'de geçmez, uca.edu DADM atfı bu oturumda okunmadı.",
-  kaynak:"TDV `fas` — \"2 Mart 1956 tarihinde bağımsızlık antlaşması imzalandı\" (bu oturumda okundu; maddenin son ~21 bin karakteri okunmadı) · hassasiyet: GÜN" },
+  kaynak:"TDV `fas` — \"2 Mart 1956 tarihinde bağımsızlık antlaşması imzalandı\" (okundu; maddenin son ~21 bin karakteri okunmadı) · hassasiyet: GÜN" },
 
 { t:"1980-07-30",
   k:"kurulus",
@@ -59,7 +59,7 @@ window.OLAYLAR_2S1114D5 = [
   etiket:["bagimsizlik","konu-siyasi"],
   d:"Fransa ile Birleşik Krallık'ın ortak egemenliğindeki Yeni Hebridler Kondominyumu 30 Temmuz 1980'de Vanuatu adıyla bağımsız oldu. Efate adasındaki başşehir Port Vila ile Teouma yerleşimi kondominyum yönetiminden Vanuatu'ya geçti.",
   ic_not_d:"Teouma için ayrı kaynak yok; Efate adasındaki yerleşim olarak başşehrin devir günü izlenir (atlas kaydı 'abi merkez' beyanlıdır).",
-  kaynak:"ABD Dışişleri Bakanlığı Tarihçi Ofisi, Vanuatu (history.state.gov/countries/vanuatu, bu oturumda okundu): bağımsızlık 30 Temmuz 1980; öncesinde Fransa ve Birleşik Krallık'ın ortak egemenliğinde kondominyum · hassasiyet: GÜN" },
+  kaynak:"ABD Dışişleri Bakanlığı Tarihçi Ofisi, Vanuatu (history.state.gov/countries/vanuatu): bağımsızlık 30 Temmuz 1980; öncesinde Fransa ve Birleşik Krallık'ın ortak egemenliğinde kondominyum · hassasiyet: GÜN" },
 
 { t:"1994-03-01",
   k:"kayip",
@@ -72,5 +72,5 @@ window.OLAYLAR_2S1114D5 = [
   yer:"Valvis Körfezi (Walvis Bay)",
   etiket:["devir","konu-siyasi"],
   d:"Güney Afrika Cumhuriyeti 1 Mart 1994'te Valvis Körfezi limanını ve açıktaki on iki adayı Namibya hükûmetine devretti; seksen dört yıllık Güney Afrika denetimi sona erdi.",
-  kaynak:"South African History Online, 'Walvis Bay handed over to Namibia' (sahistory.org.za/dated-event/walvis-bay-handed-over-namibia, bu oturumda okundu): 1 Mart 1994, \"ended eighty-four years of control\" · hassasiyet: GÜN" },
+  kaynak:"South African History Online, 'Walvis Bay handed over to Namibia' (sahistory.org.za/dated-event/walvis-bay-handed-over-namibia): 1 Mart 1994, \"ended eighty-four years of control\" · hassasiyet: GÜN" },
 ];

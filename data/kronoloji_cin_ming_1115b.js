@@ -133,7 +133,7 @@ window.KRONOLOJI_CIN_MING_1115B = [
 
 { taraflar:["ming-hanedani"], t:"1563-05-11", b:"Qi Jiguang Pinghai Karakolu'nda Japon korsanlarını bozdu", tur:"savas",
   onem:3, dunya:1, kapsam:"ic", etiket:["askeri","konu-askeri"], yer_id:"",
-  d:"Jiajing 42'nin 4. ayında yardımcı komutan Qi Jiguang Pinghai Karakolu'nda (Fujian kıyısı) korsanlara (wokou) karşı zafer kazandı. Pinghai'nin koordinatı atlasta yoktur; madde yersiz bırakıldı.",
+  ic_not_ham_d:"Jiajing 42'nin 4. ayında yardımcı komutan Qi Jiguang Pinghai Karakolu'nda (Fujian kıyısı) korsanlara (wokou) karşı zafer kazandı. Pinghai'nin koordinatı atlasta yoktur; madde yersiz bırakıldı.", d:"Jiajing 42'nin 4. ayında yardımcı komutan Qi Jiguang Pinghai Karakolu'nda (Fujian kıyısı) korsanlara (wokou) karşı zafer kazandı.",
   kaynak:"Ming shi (明史) j.18 Shizong 2 — 嘉靖四十二年夏四月丁卯: «副總兵戚繼光破倭於平海衞» (zh.wikisource.org/wiki/明史/卷18; WebFetch aracıyla okundu)",
   kesinlik:"gun",
   ic_not:"Takvim: 嘉靖四十二年 4. ay 丁卯 → Jülyen 1563-05-11 (ay başlangıcı 1563-04-22, 30 gün). Yer: yalnız «Pinghai Karakolu»; il adı kaynakta yok, koordinat yazılmadı. İkinci akademik kaynak OKUNMADI." },

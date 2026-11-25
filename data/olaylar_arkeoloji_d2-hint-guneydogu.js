@@ -194,7 +194,7 @@ window.OLAYLAR_ARKEOLOJI_D2_HINT_GUNEYDOGU = [
   "gun": "MÖ 3000 civarı",
   "yer": "Southern Neolithic / Ashmound Tradition (Karnataka-Andhra)",
   "d": "Deccan'ın güneyinde sığır gübresi kül tepeleriyle (ashmound) belirginleşen hayvancı Neolitik; Kodekal Tabaka 4 (kül tepesinden önce) 'erken 3. binyıl'.",
-  "kaynak": "Fuller D.Q., Boivin N., Korisettar R., 'Dating the Neolithic of South India: new radiometric evidence for key economic, social and ritual transformations' (yazar el yazması, UCL; hakemli basılı sürümü bu oturumda doğrulanmadı), 'Revised chronology' bölümü · https://www.homepages.ucl.ac.uk/~tcrndfu/articles/Fuller%20et%20al%20Ashmound%20AMS.pdf",
+  "kaynak": "Fuller D.Q., Boivin N., Korisettar R., 'Dating the Neolithic of South India: new radiometric evidence for key economic, social and ritual transformations' (yazar el yazması, UCL; hakemli basılı sürümü doğrulanmadı), 'Revised chronology' bölümü · https://www.homepages.ucl.ac.uk/~tcrndfu/articles/Fuller%20et%20al%20Ashmound%20AMS.pdf",
   "kesinlik": "yuzyil",
   "etiket": [
    "arkeoloji"

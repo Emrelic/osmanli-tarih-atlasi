@@ -953,7 +953,7 @@ window.KRONOLOJI_CIN = [
 { taraflar:["cin-cumhuriyeti"], t:"1923-01-26", b:"Sun Yat-sen — Sovyet Rusya iş birliği bildirisi (Sun-Ioffe)", tur:"antlasma",
   onem:4, dunya:2, kapsam:"dis", etiket:["antlasma","siyaset","konu-siyasi","konu-diplomasi"],
   yer_id:"Şanghay",
-  d:"Guomindang'ı yeniden örgütlemeye çalışan Sun Yat-sen, Sovyet temsilci Adolf Ioffe ile Guomindang'a askerî ve siyasî destek sağlayacak bir iş birliği bildirisi yayımladı. Anlaşma, atlasın ufkunun (1923) hemen ardından gelecek Birinci Birleşik Cephe'nin ve Kuzey Seferi'nin temelini attı.",
+  ic_not_ham_d:"Guomindang'ı yeniden örgütlemeye çalışan Sun Yat-sen, Sovyet temsilci Adolf Ioffe ile Guomindang'a askerî ve siyasî destek sağlayacak bir iş birliği bildirisi yayımladı. Anlaşma, atlasın ufkunun (1923) hemen ardından gelecek Birinci Birleşik Cephe'nin ve Kuzey Seferi'nin temelini attı.", d:"Guomindang'ı yeniden örgütlemeye çalışan Sun Yat-sen, Sovyet temsilci Adolf Ioffe ile Guomindang'a askerî ve siyasî destek sağlayacak bir iş birliği bildirisi yayımladı. Anlaşma, 1923'ün hemen ardından gelecek Birinci Birleşik Cephe'nin ve Kuzey Seferi'nin temelini attı.",
   kaynak:"The Cambridge History of China, cilt 11 (Cambridge UP) — TDV bu taneciği kapsamıyor" },
 
 ];

@@ -526,7 +526,7 @@ window.KRONOLOJI_DOGU_AFRIKA = [
 
 { taraflar:["habesistan"], t:"1632-01-02", b:"Fasilidas'ın Habeş beylerbeyi ile misyoner yasağı anlaşması", tur:"diplomasi", onem:4, dunya:2, kapsam:"dis", yer_id:"Masavva",
   etiket:["diplomasi","din","konu-diplomasi","konu-din","konu-sosyal"],
-  d:"Fasilidas, Roma'dan gönderilecek yeni misyonerlerin Masavva limanından karaya çıkıp Etiyopya'ya girmelerinin engellenmesi için Habeş eyaleti beylerbeyi ile bir anlaşma yaptı. Hıristiyan bir kral ile Osmanlı valisi, Katolik nüfuzuna karşı ortak menfaatte buluştu — atlasın en beklenmedik ittifaklarından biridir.",
+  ic_not_ham_d:"Fasilidas, Roma'dan gönderilecek yeni misyonerlerin Masavva limanından karaya çıkıp Etiyopya'ya girmelerinin engellenmesi için Habeş eyaleti beylerbeyi ile bir anlaşma yaptı. Hıristiyan bir kral ile Osmanlı valisi, Katolik nüfuzuna karşı ortak menfaatte buluştu — atlasın en beklenmedik ittifaklarından biridir.", d:"Fasilidas, Roma'dan gönderilecek yeni misyonerlerin Masavva limanından karaya çıkıp Etiyopya'ya girmelerinin engellenmesi için Habeş eyaleti beylerbeyi ile bir anlaşma yaptı. Hıristiyan bir kral ile Osmanlı valisi, Katolik nüfuzuna karşı ortak menfaatte buluştu — en beklenmedik ittifaklardan biridir.",
   kaynak:"TDV `masavva`: \"yeni kral Fasilidas (1632-1667) Katolik misyonerleri ülkesinden çıkardı ve Roma'dan gönderilecek yeni misyonerlerin Masavva‘ Limanı'ndan karaya çıkıp Etiyopya'ya girmelerinin engellenmesi için Habeş eyaleti beylerbeyi ile bir anlaşma yaptı\"" },
 
 { t:"1636-01-01", b:"Gondar'ın başkent yapılması", tur:"idari", onem:5, dunya:2, kapsam:"ic", yer_id:"Gondar",
@@ -751,7 +751,7 @@ window.KRONOLOJI_DOGU_AFRIKA = [
 
 { taraflar:["habesistan"], t:"1923-09-28", b:"Etiyopya'nın Milletler Cemiyeti'ne girişi", tur:"diplomasi", onem:5, dunya:3, kapsam:"dis", yer_id:"Addis",
   etiket:["diplomasi","antlasma","konu-diplomasi"],
-  d:"Etiyopya 1923 yılında Amerika Birleşik Devletleri ve Fransızların teşvikiyle Milletler Cemiyeti'ne girdi. Sömürgeleşmemiş tek Afrika devletinin milletlerarası sisteme kabulü, atlasın kapanış yılında Doğu Afrika'nın en önemli hadisesidir.",
+  ic_not_ham_d:"Etiyopya 1923 yılında Amerika Birleşik Devletleri ve Fransızların teşvikiyle Milletler Cemiyeti'ne girdi. Sömürgeleşmemiş tek Afrika devletinin milletlerarası sisteme kabulü, atlasın kapanış yılında Doğu Afrika'nın en önemli hadisesidir.", d:"Etiyopya 1923 yılında Amerika Birleşik Devletleri ve Fransızların teşvikiyle Milletler Cemiyeti'ne girdi. Sömürgeleşmemiş tek Afrika devletinin milletlerarası sisteme kabulü, o yıl Doğu Afrika'nın en önemli hadisesidir.",
   kaynak:"TDV `etiyopya`: \"Böylece Etiyopya 1923 yılında Amerika Birleşik Devletleri ve Fransızlar'ın teşvikiyle bu kuruluşa girdi\" · gün TDV'de YOK; 28 Eylül 1923 (Cemiyet Genel Kurulu kabul kararı) standart akademik kaynaktan: Bahru Zewde, A History of Modern Ethiopia 1855-1974" },
 
 // ══════════════════════════════════════════════════════════════════

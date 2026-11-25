@@ -1815,7 +1815,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
   gun:"1205 (TDV yıl verir)",
   yer:"Nakşa", yer_id:"Nakşa",
   kisiler:"Marco Sanudo",
-  d:"İstanbul'da Latin İmparatorluğu kurulunca Venedikli Marco Sanudo sekiz gemiyle Nakşa'yı ve yakın adaları ele geçirdi. İki yıl sonra Latin imparatorundan dük unvanını aldı (künye iskeleti 1207).",
+  ic_not_ham_d:"İstanbul'da Latin İmparatorluğu kurulunca Venedikli Marco Sanudo sekiz gemiyle Nakşa'yı ve yakın adaları ele geçirdi. İki yıl sonra Latin imparatorundan dük unvanını aldı (künye iskeleti 1207).", d:"İstanbul'da Latin İmparatorluğu kurulunca Venedikli Marco Sanudo sekiz gemiyle Nakşa'yı ve yakın adaları ele geçirdi. İki yıl sonra Latin imparatorundan dük unvanını aldı (1207).",
   taraflar:["naksa-dukaligi"],
   etiket:["kurulus","konu-askeri"],
   onem:4,

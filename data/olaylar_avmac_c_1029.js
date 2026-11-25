@@ -134,7 +134,7 @@ window.OLAYLAR_AVMAC_C_1029 = [
   tur:"antlasma", onem:2, dunya:1, kapsam:"dis",
   etiket:["antlasma","konu-askeri"],
   yer:"Viyana", yer_id:"Viyana", kisiler:"ABD, SSCB, Britanya, Fransa",
-  d:"Besatzungszonen ve Viyana şehrinin idaresine ilişkin anlaşma 9 Temmuz 1945 tarihlidir; ABD, Britanya ve Fransa güçleri sektörlerine 1 Eylül 1945'te geldi, Müttefik Konseyi 11 Eylül'de toplandı. Dört güç denetimi 1955'e dek sürdü. Haritada ayrı işgal bölgesi kimliği yoktur (motor dondurma: yeni BOYALAR anahtarı eklenmedi).",
+  ic_not_ham_d:"Besatzungszonen ve Viyana şehrinin idaresine ilişkin anlaşma 9 Temmuz 1945 tarihlidir; ABD, Britanya ve Fransa güçleri sektörlerine 1 Eylül 1945'te geldi, Müttefik Konseyi 11 Eylül'de toplandı. Dört güç denetimi 1955'e dek sürdü. Haritada ayrı işgal bölgesi kimliği yoktur (motor dondurma: yeni BOYALAR anahtarı eklenmedi).", d:"Besatzungszonen ve Viyana şehrinin idaresine ilişkin anlaşma 9 Temmuz 1945 tarihlidir; ABD, Britanya ve Fransa güçleri sektörlerine 1 Eylül 1945'te geldi, Müttefik Konseyi 11 Eylül'de toplandı. Dört güç denetimi 1955'e dek sürdü. Haritada işgal bölgeleri ayrıca gösterilmez.",
   kaynak:"Wien Geschichte Wiki 'Alliierte Besatzung' (geschichtewiki.wien.gv.at/Besatzungszeit) · TDV avusturya (1945-1955 dört devlet denetimi)" },
 
 { bolge:1, t:"1949-08-20",
@@ -142,7 +142,7 @@ window.OLAYLAR_AVMAC_C_1029 = [
   tur:"siyaset", onem:3, dunya:2, kapsam:"dis",
   etiket:["siyaset","konu-siyasi"],
   yer:"Budapeşte", yer_id:"Peşte", kisiler:"Mátyás Rákosi",
-  d:"20 Ağustos 1949 tarihli anayasa Macaristan'ı Halk Cumhuriyeti yaptı. macaristan-halk künyesi (1946-1989) bu iki rejimi tek polity olarak tutar; harita boyası değişmez.",
+  ic_not_ham_d:"20 Ağustos 1949 tarihli anayasa Macaristan'ı Halk Cumhuriyeti yaptı. macaristan-halk künyesi (1946-1989) bu iki rejimi tek polity olarak tutar; harita boyası değişmez.", d:"20 Ağustos 1949 tarihli anayasa Macaristan'ı Halk Cumhuriyeti yaptı. Burada 1946-1989 arası bu iki rejim tek devlet olarak gösterilir; harita rengi değişmez.",
   ic_not:"TDV macaristan 1949 anayasasını anlatmaz (yalnız 'Macaristan 1949’da Komekon’un üyesi oldu'); gün Macar Dışişleri Bakanlığı tarih sayfasından alındı, ikinci kaynak bulunamadı.",
   kaynak:"https://doha.mfa.gov.hu/eng/page/the-history-of-hungary (devletler.js macaristan-halk künyesinin kaynağı)" },
 

@@ -298,7 +298,7 @@ window.KRONOLOJI_COK_HOLLANDA = [
   onem:3, dunya:2, kapsam:"dis", etiket:["kurulus","konu-siyasi","benelux"],
   devlet:"avusturya-hollandasi", devletler:["avusturya-hollandasi"], yer_id:"Brüksel",
   gun:"11 Ocak 1790",
-  d:"11 Ocak 1790'da Brabant, Flandre, Hainaut, Namur ve öteki eyaletlerin delegeleri Brüksel'de Belçika Birleşik Eyaletleri (États-Belgiques-Unis) konfederasyonunu ilan etti. Devlet Aralık 1790'da Avusturya'nın yeniden fethiyle sona erdi; atlasta ayrı künyesi yoktur.",
+  ic_not_ham_d:"11 Ocak 1790'da Brabant, Flandre, Hainaut, Namur ve öteki eyaletlerin delegeleri Brüksel'de Belçika Birleşik Eyaletleri (États-Belgiques-Unis) konfederasyonunu ilan etti. Devlet Aralık 1790'da Avusturya'nın yeniden fethiyle sona erdi; atlasta ayrı künyesi yoktur.", d:"11 Ocak 1790'da Brabant, Flandre, Hainaut, Namur ve öteki eyaletlerin delegeleri Brüksel'de Belçika Birleşik Eyaletleri (États-Belgiques-Unis) konfederasyonunu ilan etti. Devlet Aralık 1790'da Avusturya'nın yeniden fethiyle sona erdi.",
   kaynak:"Britannica «Brabant Revolution»; Wikipedia «United Belgian States» · ikincil kaynak" },
 
 { t:"1794-06-26", b:"Fleurus Muharebesi — Fransa Belçika'yı Avusturya'dan aldı", tur:"savas",
