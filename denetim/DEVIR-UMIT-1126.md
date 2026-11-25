@@ -40,8 +40,10 @@ a) İran parti 02'nin 20 kaydı (TDV 403'ü tarayıcı kimliğiyle aşılarak ya
    kurala uygun yeniden mi yazılsın. İndirilen metinler iran\p02\tdv_indir\ altında; silme Emre'nin sözüyle.
 b) BOŞLUK-1280'in TDV'ye dayanan verisi: 7 alt ajanın 18 TDV komutu tarayıcı kimlikliydi (bir kısmı 22.11 BOŞLUK);
    aşıp aşmadığı ölçülmedi. Yeniden doğrulama (önerim) mi, not düşmek mi.
-c) İran örnek kartlarının üslubu (denetim/EKOKUMA-IRAN-ORNEK-KARTLAR.md; EMRELİC «onaylı» diye aktardı, Emre'nin
-   sözü UMIT ekranında görülmedi). d) Latin harfli adlar ikinci turu. e) Eski atlas oturumlarını arşivleme (0 arşiv).
+c) CEVAPLANDI — Emre, UMIT 21 oturumunda 26.11 ~01:05, aynen: «Evet, İran kartlarının üslubunu onaylıyorum».
+   İran seri üretimi üslup bakımından onaylı. Onay ÜSLUBA aittir: kaynak ölçütü gevşemez (tam metin okunmayan
+   «teyitsiz», yayın adayı değil; Sâsânî kartı dışarıda); (a) maddesindeki 20 kaydın akıbetini KARARA BAĞLAMAZ.
+d) Latin harfli adlar ikinci turu. e) Eski atlas oturumlarını arşivleme (0 arşiv).
 
 ## Türkçe kaynak şüpheleri (rapor §7 ve dal listeleri)
 Lozan onayı 23↔2 Ağustos (doğrulandı) · ham {"f":"yuzyil"...} · «Serdarabad» (doğrulanmadı) · ARKEOLOJI_ZINCIR
