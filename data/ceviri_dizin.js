@@ -89,6 +89,11 @@ window.CEVIRI_DIZIN = {
   {
    "kod": "bg",
    "ad": "Български"
+  },
+  {
+   "kod": "ku",
+   "ad": "Kurdî (Kurmancî)",
+   "gizli": true
   }
  ],
  "dosyalar": {
@@ -940,6 +945,28 @@ window.CEVIRI_DIZIN = {
    [
     "ceviri_bg_olay_09.js",
     "50c28169"
+   ]
+  ],
+  "ku": [
+   [
+    "ceviri_ku_arayuz.js",
+    "620df442"
+   ],
+   [
+    "ceviri_ku_devlet.js",
+    "303d760b"
+   ],
+   [
+    "ceviri_ku_olay_01.js",
+    "e94e0692"
+   ],
+   [
+    "ceviri_ku_olay_02.js",
+    "98ca2c4a"
+   ],
+   [
+    "ceviri_ku_olay_03.js",
+    "aaf853c9"
    ]
   ]
  }
