@@ -86,6 +86,31 @@ window.EKOKUMA_DEVINGILTERE01 = [
     "Tarihçiler bugün ne diyor: Ian Packer onun savaş çabasında merkezî bir rol oynadığını kabul eder, savaş sonrasındaki Küçük Asya siyasetini ise açıkça felaket olarak niteler. Savaşı yönetme biçiminin Asquith'inkinden gerçekten daha etkili olup olmadığı konusunda tartışmanın sürdüğünü de belirtir.",
   kaynak:"Ian Packer, \"Lloyd George, David\", 1914-1918-online. International Encyclopedia of the First World War (08.10.2014), DOI 10.15463/ie1418.10216, https://encyclopedia.1914-1918-online.net/article/lloyd-george-david/",
   kesinlik:"kesin", teyit:"teyitli", yayin_adayi:true,
-  ic_not:"Packer istifanın gününü vermez; metne gün yazılmadı. Çanak krizinin askerî seyri ve Mudanya bu maddede yok." }
+  ic_not:"Packer istifanın gününü vermez; metne gün yazılmadı. Çanak krizinin askerî seyri ve Mudanya bu maddede yok." },
+
+{ id:"ingiltere-jutland-1916-kim-kazandi", devlet:"ingiltere", tur:"savas-hikayesi",
+  baslik:"Jutland'ı kim kazandı? Daha çok batıran mı, denizi elinde tutan mı?",
+  olay:["1916-05-31|Jutland"],
+  kisa:"Almanlar daha az gemi ve insan kaybedip zafer ilan etti. Yine de savaştan sonra İngiliz ablukası yerli yerindeydi.",
+  metin:"31 Mayıs-1 Haziran 1916'da İngiliz Büyük Filosu ile Alman Açık Deniz Filosu Jutland açıklarında karşılaştı. Savaşa 151 İngiliz, 91 Alman savaş gemisi katıldı.\n\n" +
+    "Alman komutan Scheer üstün düşmanla topyekûn çarpışmayı göze alamazdı. Planı, filonun yalnız bir bölümünü tuzağa çekip yok etmekti. Oysa İngiliz komutan Jellicoe denize çoktan açılmıştı. Alman deniz şifresi 1914'te kırıldığı için büyükçe bir harekâtın hazırlandığını biliyordu.\n\n" +
+    "Öğleden sonra muharebe kruvazörleri çarpıştı; İngilizler ilk karşılaşmada iki gemi yitirdi. Ama Beatty'nin kuzeye dönüşü Almanları ana filonun üzerine çekti. Kötü görüşten yararlanan Jellicoe, filosunu fark edilmeden savaş hattına dizdi. Scheer ağır ateş altında 180 derecelik dönüşle sıyrıldı, yeniden aynı filoyla karşılaşınca ikinci bir dönüş ve neredeyse intihar sayılacak bir torpido hücumu ile kurtuldu. Gece muharebesinden kaçınan Jellicoe dönüş yolunu kesemedi.\n\n" +
+    "Bilanço Almanlardan yanaydı: İngilizler 6.094, Almanlar 2.551 kişi yitirdi; batan tonaj yaklaşık 113 bine karşı 62 bindi.\n\n" +
+    "Tarihçiler bugün ne diyor: Michael Epkenhans'a göre Jutland'a Alman taktik zaferi denilse bile stratejik durum değişmedi; Alman filosu ablukayı kıramadı, İngiltere kayıplarını da çok daha kolay telafi edebilirdi. Almanya'da zafer efsanesi ancak 1960'ların ortasında soldu. İngiltere'de ise muharebe, Alman filosunu yok etme fırsatının kaçırılması olarak görüldü.",
+  kaynak:"Michael Epkenhans, \"Jutland, Battle of\", 1914-1918-online. International Encyclopedia of the First World War (15.03.2016), DOI 10.15463/ie1418.10861, https://encyclopedia.1914-1918-online.net/article/jutland-battle-of/",
+  kesinlik:"kesin", teyit:"teyitli", yayin_adayi:true },
+
+{ id:"ingiltere-zimmermann-telgrafi-1917", devlet:"ingiltere", tur:"dis-yankilar",
+  baslik:"İngiliz istihbaratının çözdüğü telgraf: Meksika'ya Teksas vaadi",
+  olay:["1917-04-06|ABD'nin Almanya'ya savaş ilanı"],
+  kisa:"Bir Alman bakanı, ABD savaşa girerse Meksika'ya Teksas, New Mexico ve Arizona'yı vaat etti. Metin basına yansıyınca birçok Amerikalı önce bunun sahte olduğunu sandı.",
+  metin:"Alman Dışişleri Bakanı Arthur Zimmermann, Meksika'daki Alman temsilcisine Washington büyükelçiliği üzerinden bir yazı gönderdi. İngiliz gizli servisi metnin şifresini çözdü. İçeriği çarpıcıydı: Şubat 1917'de sınırsız denizaltı savaşına dönen Almanya, ABD İtilaf yanında savaşa girerse Meksika ile birlikte hareket etmeye hazırdı. Meksika'yı cömertçe destekleyecek, savaş ganimeti olarak Teksas, New Mexico ve Arizona'yı sunacaktı. Japonya da ittifaka çağrılacaktı.\n\n" +
+    "Yazışma 1 Mart 1917'de dünya basınında yayımlandı. Amerikalıların çoğu başta bunun bir İtilaf propagandası sahteciliği olduğuna inandı. Zimmermann'ın kendisi 3 Mart'ta gerçekliğini kabul edince öfke yükseldi.\n\n" +
+    "Meksika Devlet Başkanı Carranza, dev komşusuna karşı intihar sayılacak bir savaşa sürükleyecek teklifi reddetti. Yine de ileride işbirliği kapısı açık kalsın diye Alman temsilciye sert davranmadı.\n\n" +
+    "Teklif büsbütün boşluktan doğmamıştı. 1915'te Carranza, Guatemala ve İngiliz Hondurası'na karşı bir girişim için Almanya ile işbirliği olasılığını gizlice yoklamıştı; görüşmeler 1916'da da sürdü ve bir ara Meksika tarafı ABD'ye karşı bir harekât önerdi. Almanya Japonya ile de yakınlaşma arıyordu.\n\n" +
+    "Tarihçiler bugün ne diyor: Zimmermann'ın bu büyük hatayı neden yaptığı yayımlandığı günden beri sorulur. Stefan Rinke, cevabın 1915-1916'daki gizli Alman-Meksika yakınlaşmasında aranması gerektiğini savunur. Ona göre telgraf, ABD kamuoyunun dönmesine katkıda bulundu ve birkaç hafta sonraki savaşa girişe zemin hazırladı; tek başına sebep olarak sunulmaz.",
+  kaynak:"Stefan Rinke, \"Zimmermann Telegram\", 1914-1918-online. International Encyclopedia of the First World War (08.10.2014), DOI 10.15463/ie1418.10424, https://encyclopedia.1914-1918-online.net/article/zimmermann-telegram/",
+  kesinlik:"kesin", teyit:"teyitli", yayin_adayi:true,
+  ic_not:"Telgrafın İngiliz tarafınca ABD'ye nasıl ve ne zaman iletildiği bu maddede yok; yazılmadı (Boghardt 2012 okunmadı)." }
 
 ];
