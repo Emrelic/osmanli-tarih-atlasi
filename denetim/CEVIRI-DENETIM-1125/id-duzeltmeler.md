@@ -216,3 +216,5 @@
 - olay | OLAYLAR_EK21:1537-01-01:0 | d: kullanıcıya görünen fazladan ters bölü
 - olay | OLAYLAR_SENKRON_0930:1401-01-01:0 | d: 'bırakıldı' için 'ditinggalkan kepada' yanlış
 - olay | OLAYLAR_EK22:1923-07-24:0 | d: yanlış anlam: 'deniz havacılığı yasak' 'donanma yasak' olmuş
+- olay | OLAYLAR_EK:1829-09-14:0 | d: Türkçe yer adları ve 'Utsmani' tutarsızlığı
+- olay | OLAYLAR_EK:1829-09-14:0 | d: Türkçe kalıntı: Eflak-Boğdan
