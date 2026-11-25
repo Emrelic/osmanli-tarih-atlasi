@@ -17,3 +17,6 @@ Not: 054-067'deki tekrar eden mekanik kalintilar ve bir kisim govde ici Latin ad
 Tam okunan: 4_olay_068 - 4_olay_102 (35/35, aralık tamamlandı)
 Bakılan olay kaydı: ~840
 Düzeltme satırı: 119 (duzeltme_c_001 - 012)
+
+== ilerleme_e.txt
+okunan: 4_olay_138-145
