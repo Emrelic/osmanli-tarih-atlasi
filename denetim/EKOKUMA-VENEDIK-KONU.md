@@ -214,6 +214,25 @@ ansiklopedi maddesi okundu); bir üniversite sitesi otomatik erişimi reddetti, 
 | 1479-01-25 İstanbul Antlaşması | gün okunan kaynaklarda yok (o kartın konusu antlaşma değil) |
 | 1538-09-28 Preveze | bir biyografi "Ekim", TDV 28 Eylül |
 
+## 4. 03. parti (`data/ekokuma_dev_venedik_03.js`, 20 kart: 17 `teyitli`, 3 `teyitsiz`)
+
+`teyitsiz`: 1171 tutuklamaları (sebebe dair anlatılar aktarım) · Kara Ölüm (ölü sayıları ve Senato
+kararları aktarım) · Rialto bankası (konuşma metinleri özetten).
+Atlanan: 1646'da satılığa çıkan soyluluk (metin yalnız çok uzun bölümlerde, baştan sona okunmadı).
+
+| Madde | Okunan kaynağın söylediği (düzeltilmedi, takip işi) |
+|---|---|
+| 1298-09-08 Curzola | savaş 7 Eylül |
+| 1348-01-25 Kara Ölüm | okunan bölümde bu gün depremin günü; vebanın geliş günü yok |
+| 1284-10-31 Duka | kaynak yalnız 1284 |
+| 1482-05-03 Ferrara | okunan iki madde bu günü vermiyor |
+| 1577-05-20 Doge Sarayı yangını | iki biyografi 20 Aralık 1577 |
+| 1755-01-01 Querini vakası | olay 12-13 Ağustos 1761 |
+| 1587-04-01 Rialto bankası | 11 Nisan 1587 |
+| 1695-02-09 Sakız | TDV çıkarmayı 22 Şubat'a koyar |
+| 1582-01-01 Correzione | kriz Ekim 1582; ek kurul 1583'te kaldırıldı |
+| 1615-01-01 Uskok Savaşı | Aralık 1615 - 26 Eylül 1617 |
+
 ## Ek: kronoloji envanteri (283 satır)
 
 Süzgeç: dosya ya da kayıt Venedik’e ait olanlar ile başlığında Venedik veya bir Venedik soyadı geçenler. Süzgeç başlığa baktığı için başlıkta adı geçmeyen ortak maddeler listede olmayabilir; listeye yalnız anılan maddeler de girmiştir.
