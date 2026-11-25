@@ -457,7 +457,7 @@ window.CEVIRI_DIZIN = {
   "ja": [
    [
     "ceviri_ja_arayuz.js",
-    "c432807d"
+    "4ad45aee"
    ],
    [
     "ceviri_ja_devlet.js",
