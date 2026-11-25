@@ -101,3 +101,22 @@
 - olay OLAYLAR_OK109:1918-12-01:0: Podgorica Meclisi "26 Ekim" yazılı; bilinen tarih 26 Kasım 1918 (doğrulanmalı).
 - olay OLAYLAR_ORTACAG_IRAN_TURAN:1090-03-06:0: "Melikşah'ın Bâtınîler'le mücadeleyi devlet politikası..." cümlesi iki kez.
 - olay OLAYLAR_ORTACAG_IRAN_TURAN:1157-04-13:0: madde günü 13 Nisan; metin 14/24 Rebîülevvel = 26 Nisan veya 6 Mayıs diyor.
+
+== tr_hatalari_f.md
+- olay OLAYLAR_ORTACAG_BATI_AVRUPA:1157-01-01:0: "İsveçli başpiskopos" şüpheli (Besançon olayındaki Lund başpiskoposu Eskil Danimarkalıdır; Lund o tarihte Danimarka'da). Kaynaktan doğrulanmalı.
+- olay OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1000-01-01:1: d metninde kullanıcıya görünen iç not "(yıl)"; ayrıca çevrilmemiş Norveççe alıntı ve "SNL de doğrular" doğrulama notu.
+- olay OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:0966-01-01:0: "(TDV 967'den itibaren)" iç kaynak notu.
+- olay OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1038-01-01:1: "(TDV İbnü'l-Havvâs maddesi 1040 verir)" iç kaynak notu.
+- olay OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1056-01-01:1: "(yıl)" iç not.
+- olay OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1096-01-01:0: "(1096-97 Althing'leri; yıl)" iç not + Norveççe alıntı.
+- olay OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1115-07-24:0: ACİL - d metninde ham geliştirici verisi: "(kesinlik: {\"f\": \"yuzyil\", \"t\": \"gun\"}) Ayrıca ... https://www.treccani.it/..." (çeviride aynen duruyor).
+- olay OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1085-07-17:0, 1169-03-08:0, 1241-01-01:1: "... de doğrular" teyit notları + çevrilmemiş alıntı; 1241-01-01:1'de ayrıca "(gün bilinmiyor, yıl esas)".
+- olay OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1150-01-01:0: "(Sefer yılı kaynakta belirtilmiyor.)" iç not.
+- olay OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1189-01-01:0: "amcası kızı Constance" - Constance, II. William'ın halasıdır (II. Roger'in kızı).
+- olay OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1175-01-01:0: d son cümlesi bozuk ("Niksar'da ... gömülü bulunduğu Dânişmendli merkezlerinden biri Selçuklu eline geçti").
+- olay OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1184-01-01:0: "Gürcü Kralı David" (1184'te Gürcistan hükümdarı Kraliçe Tamar'dır); doğrulanmalı.
+- olay OLAYLAR_ORTACAG_CIN:0640-10-11:0, 0756-07-14:0, 0842-01-01:0, 0994-03-01:0, 1127-05-13:0, 1129-*, 1142-01-27:0, 1259-09-27:0: TR metninde çiğ Çince karakterler (癸卯, 甲午, 乙未, 將作少監 ...).
+- olay OLAYLAR_ORTACAG_CIN:0907-06-01:0: d metni "; " ile yarım kesilmiş.
+- olay OLAYLAR_ORTACAG_CIN:1129-08-01:0: başlıkta İngilizce "Prefecture".
+- olay OLAYLAR_ORTACAG_DOGU_GUNEYDOGU_ASYA:0929-01-01:0/1, 0936-09-26:1/2, 1185-12-21:0-3, 1222-01-01:0/1: d sonunda harita noktasına ait iç not parantezleri ("(Hubaekje ülkesi.)", "(Kyushu: shugo/jitō'nun uygulandığı bölge.)", "(Hōjō Tokimasa'nın saraydan bu yetkiyi koparttığı yer.)" vb.).
+- olay OLAYLAR_ORTACAG_BOZKIR:0895-03-02:0 ve OLAYLAR_ORTACAG_BOZKIR:1239-10-18:0: "Atlasta ... yazılıdır", "(TDV'de 'Çernikov')" iç notları.

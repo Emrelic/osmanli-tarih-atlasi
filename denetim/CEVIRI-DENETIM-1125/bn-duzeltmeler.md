@@ -417,3 +417,119 @@
 - olay | OLAYLAR_ORTACAG_IRAN_TURAN:1128-01-01:1 | d: Atsız Sencer'in oğlu değil
 - olay | OLAYLAR_ORTACAG_IRAN_TURAN:1131-01-01:0 | b: Dâvud Mahmud'un oğlu; Aksungur'un oğlu gibi okunuyor
 - olay | OLAYLAR_ORTACAG_IRAN_TURAN:1131-01-01:0 | d: Dâvud Mahmud'un oğlu
+- olay | OLAYLAR_EK:1302-08-01:0 | b: Latin Türkçe kalıntı
+- olay | OLAYLAR_EK5:1688-06-22:0 | d: Macarca 'Jenővel' = Jenő (Ineu) kasabasıyla birlikte; 'Eugen ile' diye yanlış çevrilmiş
+- olay | OLAYLAR_EK5:1716-10-13:0 | d: 'abi-merkez' özel ad (Márquez) sanılmış; yer adları Latin kalmış
+- olay | OLAYLAR_EK16:1941-07-09:0 | d: Kaynak satırı Türkçe kalmış
+- olay | OLAYLAR_2S_0919:1847-01-01:0 | d: Latin adlar
+- olay | OLAYLAR_EK:1302-08-01:0 | b: Latin harfli Türkçe ad çevrilmemiş
+- olay | OLAYLAR_EK5:1716-10-13:0 | d: Latin yer adı kalıntısı; 'abi-merkez' anlamsız aktarılmış (TR iç notu ayrıca tr_hatalari'nda)
+- olay | OLAYLAR_EK5:1688-06-22:0 | d: Macarca 'Jenővel' (Jenő kalesiyle birlikte) kişi adı Eugène sanılmış
+- olay | OLAYLAR_EK16:1941-07-09:0 | d: Türkçe kalıntı ve iç not (arama özeti)
+- olay | OLAYLAR_2S_0919:1847-01-01:0 | d: Türkçe kalıntı parantez ve Latin harfli adlar
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1277-05-14:0 | b: Cimri adı Türkçe c sesiyle 'জিমরি' olur
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1277-05-14:0 | d: Cimri adı Türkçe c sesiyle 'জিমরি' olur
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:0722-01-01:0 | b: Latin harfli adlar ve Türkçe ek kalıntısı ('da)
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:0722-01-01:0 | d: Latin harfli adlar ve Türkçe ek kalıntısı ('da)
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:0737-01-01:0 | b: Latin harfli özel ad
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:0737-01-01:0 | d: Latin harfli özel ad
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:0739-01-01:0 | b: Latin harfli özel adlar
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:0739-01-01:0 | d: Latin harfli özel adlar
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:0791-01-01:0 | b: Latin harfli özel ad
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:0791-01-01:0 | d: Latin harfli özel ad
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:0810-01-01:1 | b: Latin harfli özel adlar
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:0810-01-01:1 | d: Latin harfli özel adlar
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:0827-06-14:0 | b: Latin harfli özel adlar
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:0827-06-14:0 | d: Latin harfli özel adlar
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:0846-01-01:0 | b: Latin harfli özel adlar
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:0846-01-01:0 | d: Latin harfli özel adlar
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:0850-01-01:0 | b: Latin harfli özel ad
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:0850-01-01:0 | d: Latin harfli özel ad
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:0866-01-01:0 | b: Latin harfli özel ad
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:0866-01-01:0 | d: Latin harfli özel ad
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:0936-11-19:0 | b: Latin harfli özel ad
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:0936-11-19:0 | d: Latin harfli özel ad
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:0939-08-01:0 | b: Latin harfli özel adlar
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:0939-08-01:0 | d: Latin harfli özel adlar
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:1094-06-15:0 | d: Latin harfli özel ad
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:1102-01-01:0 | d: Latin harfli özel adlar
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:1102-05-05:0 | d: Latin harfli özel ad
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:1108-01-01:0 | b: Latin harfli özel ad
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:1108-01-01:0 | d: Latin harfli özel ad
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:1118-12-19:0 | b: Latin harfli özel ad
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:1118-12-19:0 | d: Latin harfli özel ad
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:1132-01-01:0 | b: Latin harfli özel ad
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:1132-01-01:0 | d: Latin harfli özel ad
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:1143-01-01:1 | b: Latin harfli özel ad
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:1143-01-01:1 | d: Latin harfli özel ad
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:1146-01-01:0 | b: Latin harfli özel ad
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:1146-01-01:0 | d: Latin harfli özel ad
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:1147-06-02:0 | d: Latin harfli özel ad
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:1147-10-25:0 | b: Latin harfli özel ad
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:1148-01-01:0 | d: Rakam sistemi tutarsızlığı (diğer kayıtlarla aynı rakamlar)
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:1195-07-18:0 | b: Erek yer adı 'ইরাক' (Irak ülkesi) olmuş; Latin harfli adlar
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:1195-07-18:0 | d: Erek yer adı 'ইরাক' (Irak ülkesi) olmuş; Latin harfli adlar
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:1212-07-16:0 | b: Latin harfli yer adı
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:1212-07-16:0 | d: Latin harfli yer adı
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:1236-01-01:0 | b: Latin harfli özel ad
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:1236-01-01:0 | d: Latin harfli özel adlar
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:1266-01-01:0 | b: Latin harfli özel ad
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:1266-01-01:0 | d: Latin harfli özel adlar
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:1275-09-08:0 | b: Latin harfli özel adlar
+- olay | OLAYLAR_ORTACAG_BIZANS_BALKAN:0534-01-01:0 | d: Latin harfli özel adlar
+- olay | OLAYLAR_ORTACAG_BIZANS_BALKAN:0568-01-01:0 | b: Latin harfli yer adı
+- olay | OLAYLAR_ORTACAG_BIZANS_BALKAN:0568-01-01:0 | d: Latin harfli özel adlar
+- olay | OLAYLAR_ORTACAG_BIZANS_BALKAN:0568-04-01:0 | b: Latin harfli özel ad
+- olay | OLAYLAR_ORTACAG_BIZANS_BALKAN:0568-04-01:0 | d: Latin harfli özel adlar
+- olay | OLAYLAR_ORTACAG_BIZANS_BALKAN:0582-01-01:0 | b: Latin harfli özel ad
+- olay | OLAYLAR_ORTACAG_BIZANS_BALKAN:0582-01-01:0 | d: Latin harfli ad ve terimler
+- olay | OLAYLAR_ORTACAG_BIZANS_BALKAN:0582-01-01:1 | b: Latin harfli özel ad
+- olay | OLAYLAR_ORTACAG_BIZANS_BALKAN:0582-01-01:1 | d: Latin harfli ad ve terimler
+- olay | OLAYLAR_ORTACAG_BIZANS_BALKAN:0610-10-05:0 | b: Latin harfli özel adlar
+- olay | OLAYLAR_ORTACAG_BIZANS_BALKAN:0610-10-05:0 | d: Latin harfli ad ve terimler
+- olay | OLAYLAR_ORTACAG_BIZANS_BALKAN:0717-03-25:0 | b: Latin harfli özel adlar
+- olay | OLAYLAR_ORTACAG_BIZANS_BALKAN:0717-03-25:0 | d: Latin harfli ad ve terimler
+- olay | OLAYLAR_ORTACAG_BIZANS_BALKAN:0717-08-15:0 | d: Latin harfli özel adlar
+- olay | OLAYLAR_ORTACAG_BIZANS_BALKAN:0782-01-01:0 | b: Latin harfli özel ad
+- olay | OLAYLAR_ORTACAG_BIZANS_BALKAN:0782-01-01:0 | d: Latin harfli özel ad
+- olay | OLAYLAR_ORTACAG_BIZANS_BALKAN:0787-09-24:0 | d: Latin harfli özel ad
+- olay | OLAYLAR_ORTACAG_BIZANS_BALKAN:0800-12-25:0 | b: Latin harfli özel ad
+- olay | OLAYLAR_ORTACAG_BIZANS_BALKAN:0800-12-25:0 | d: Latin harfli özel adlar
+- olay | OLAYLAR_ORTACAG_BIZANS_BALKAN:0813-06-22:0 | b: Latin harfli özel adlar
+- olay | OLAYLAR_ORTACAG_BIZANS_BALKAN:0813-06-22:0 | d: Latin harfli özel adlar
+- olay | OLAYLAR_ORTACAG_BIZANS_BALKAN:0814-04-14:0 | b: Latin harfli özel ad
+- olay | OLAYLAR_ORTACAG_BIZANS_BALKAN:0814-04-14:0 | d: Latin harfli özel adlar
+- olay | OLAYLAR_ORTACAG_BIZANS_BALKAN:0904-07-31:0 | d: Latin harfli özel ad
+- olay | OLAYLAR_ORTACAG_BIZANS_BALKAN:0913-01-01:0 | b: Latin harfli özel ad; sonraki kayıtlarla tutarlılık
+- olay | OLAYLAR_ORTACAG_BIZANS_BALKAN:0913-01-01:0 | d: Latin harfli ad ve unvan
+- olay | OLAYLAR_ORTACAG_BIZANS_BALKAN:0971-04-23:0 | b: TR'de 'önünde'; kuşatma sözcüğü yanlış eklenmiş, cümle bozuk
+- olay | OLAYLAR_ORTACAG_BIZANS_BALKAN:1042-01-01:0 | d: Bozuk cümle yapısı
+- olay | OLAYLAR_ORTACAG_BIZANS_BALKAN:1230-01-01:0 | b: Sıra sayısı Bengalcede addan önce gelir
+- olay | OLAYLAR_ORTACAG_BIZANS_BALKAN:1236-01-01:0 | b: Sıra sayısı Bengalcede addan önce gelir
+- olay | OLAYLAR_ORTACAG_BATI_AVRUPA:1266-07-02:1 | b: Rakam sistemi tutarsızlığı
+- olay | OLAYLAR_ORTACAG_BATI_AVRUPA:1266-07-02:1 | d: Rakam sistemi tutarsızlığı
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1138-01-01:0 | d: Türkçe 'fetret' sözcüğü harf harf aktarılmış
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1166-05-07:0 | d: 'Kötü lakaplı' (Kötü William) 'kötü şöhretli unvan taşıyan' olmuş
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1078-07-14:0 | d: 'Yenilgi tattırdı' 'yenilgi hediye etti' olmuş
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1215-01-01:0 | b: Yazım tutarsızlığı (komşu kayıtlarla aynı biçim)
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1215-01-01:0 | d: Rakam sistemi ve özel ad yazım tutarsızlığı
+- olay | OLAYLAR_ORTACAG_CIN:0626-07-02:0 | b: İngilizce 'Gate' kalıntısı (Çince adlar ayrıca Latin harfli; notlara bakın)
+- olay | OLAYLAR_ORTACAG_CIN:0626-07-02:0 | d: İngilizce 'Gate' kalıntısı
+- olay | OLAYLAR_ORTACAG_CIN:0756-02-05:0 | b: 'Kendini' eksik; cümle anlamsız
+- olay | OLAYLAR_ORTACAG_CIN:0756-07-14:0 | d: İngilizce 'Gate' kalıntısı
+- olay | OLAYLAR_ORTACAG_CIN:0763-11-18:0 | d: İngilizce 'Avenue' kalıntısı
+- olay | OLAYLAR_ORTACAG_CIN:0880-12-22:0 | d: 'Dokunmadı' kelimesi kelimesine çevrilmiş
+- olay | OLAYLAR_ORTACAG_CIN:0881-01-08:0 | d: İngilizce 'Gate' kalıntısı
+- olay | OLAYLAR_ORTACAG_CIN:0883-05-18:0 | d: İngilizce 'Gate' kalıntısı
+- olay | OLAYLAR_ORTACAG_CIN:0926-05-15:0 | d: İngilizce 'Gate' kalıntısı
+- olay | OLAYLAR_ORTACAG_DOGU_GUNEYDOGU_ASYA:1009-01-01:0 | b: Latin harfli ad (kayıttaki öteki Vietnam adları Bengalce)
+- olay | OLAYLAR_ORTACAG_DOGU_GUNEYDOGU_ASYA:1009-01-01:0 | d: Latin harfli adlar
+- olay | OLAYLAR_ANTIK_MISIR_NUBYA:-2299-01-01:0 | d: Yanlış sayı: TR 'on binlerce', çeviri 'birkaç bin' demiş
+- olay | OLAYLAR_ANTIK_MISIR_NUBYA:-2559-01-01:0 | b: Keops adı kaybolmuş; parantezde Hufu iki kez yazılmış
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-0331-01-01:0 | b: 'dolgu yoluyla aldı' yerine 'kenti doldurarak aldı' anlamı çıkmış
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-0599-01-01:0 | d: Bozuk cümle yapısı (akın özne yapılmış)
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-1294-01-01:0 | d: İmla hatası
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-2260-01-01:0 | d: 'zirvesini yönetti' kelimesi kelimesine, anlamsız
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:0256-01-01:0 | d: 'onlarca' bozuk çevrilmiş
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0041-01-01:0 | d: 'Triumvirler' 'üç sütun yöneticileri' diye yanlış çevrilmiş
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0277-01-01:0 | d: Türkçe alıntı çevrilmeden kalmış

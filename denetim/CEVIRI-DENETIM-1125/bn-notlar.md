@@ -45,3 +45,22 @@ Duzeltilmeyen, birlestirici icin notlar (4_olay_064-098):
 - ORTACAG_ORTADOGU:0929-02-14:0 d alanında Bengal rakamı (৩১৭ / ৯২৯); anlam doğru, dokunulmadı.
 - Ad yazımı tutarsızlıkları (তুনহুয়াং/দুনহুয়াং, বদুয়াঁ/বাল্ডউইন, কারমাতী/কারামিতা) düzeltilmedi.
 - ARKEOLOJI_D2_AFRIKA_AMERIKA:-2834 b "সর্বকনিষ্ঠ সমাধি" (en genç mezar) biraz muğlak; dokunulmadı.
+
+== notlar_f.md
+# bn denetimi, tur f - DÜZELTİLMEYEN SİSTEMATİK HATA (toplu yeniden çeviri/aktarım gerekir)
+
+Özel adlar Latin harfiyle (Türkçe imlâ / pinyin) bırakılmış, ardına Bengalce ek yapıştırılmış
+(ör. "Kılıcarslan-এর", "Dânişmend-রা", "Sivas-এ", "Chang'an-এর"). Bengalce okur için hata.
+Tek tek kayıt düzeltmesi YAZILMADI (yaklaşık 200+ kayıt, her biri b + d).
+
+Etkilenen aralık (paket / kimlik bloğu):
+- 189 sonu - 192, 193, 194 başı: OLAYLAR_ORTACAG_ANADOLU_KAFKASYA, 1095-01-01:0'dan bloğun sonuna (1288-11-22). 1054-1086 kayıtları Bengalce yazılmış, temiz.
+- 194 - 198: OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB (0765'ten itibaren; aralarda bazı adlar Bengalce)
+- 198 - 199: OLAYLAR_ORTACAG_BOZKIR (yer yer)
+- 199 - 201: OLAYLAR_ORTACAG_CIN (pinyin adlar neredeyse tamamen Latin; Çince karakterler TR kaynağından)
+- 202: OLAYLAR_ORTACAG_DOGU_GUNEYDOGU_ASYA 0682 ve 0802 kayıtlarında birkaç Latin ad (Kedukan Bukit, Seguntang, Hiranyadama, Roluos...)
+- 204 sonrası bu turda okunmadı; aynı blokların devamı orada da denetlenmeli.
+
+f_006'daki CIN düzeltmeleri yalnız Gate/Avenue gibi İngilizce sözcükleri giderir; toplu aktarım yapılırsa bu düzeltmeler temel alınmalı.
+Aktarımda dikkat: Türkçe c = জ, ç = চ, ş = শ, ğ sessiz/গ.
+Bitişik not: 171-174 arasındaki aynı türden (daha seyrek) Latin adlar f_001 / f_002'de DÜZELTİLDİ.
