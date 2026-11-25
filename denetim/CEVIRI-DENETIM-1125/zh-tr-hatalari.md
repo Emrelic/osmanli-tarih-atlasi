@@ -73,3 +73,32 @@
 - olay OLAYLAR_ARKEOLOJI_ZINCIR:0025-01-01:0, 0304, 0351, 0397: TR ad + Çince özgün ad parantezi (zh'de "成家（成家…）", "前秦（前秦）", geleneksel/basitleştirilmiş karışık)
 - olay OLAYLAR_OK109:1918-10-30:0: 29 Ekim'de "Prag'da Çekoslovakya" (aynı dosyada ilan 28 Ekim); "Sırp-Hırvat-Sloven Devleti" (öteki madde Sloven-Hırvat-Sırp)
 - olay OLAYLAR_T5_1000A:1096-01-01:0, 1119, 1148 ("katılış yılı yılsız"), 1199 ("künye günü kaynak değildir"), "atlas bu tarihten önceyi boş bırakır" kalıbı: iç not
+
+== tr_hatalari_c.md
+- olay OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1115-07-24:0: TR.d içinde kullanıcıya görünen iç veri: `(kesinlik: {"f": "yuzyil", "t": "gun"})` ve çıplak URL'li kaynak notu; çeviriye de geçmiş (4_olay_112).
+- olay (toplu): TR açıklamalarında kullanıcıya görünen geliştirici notları: "Emre kararı" / "Emre #23 metbû modeli" (OLAYLAR_T5_1000A:1231-01-01:1, 1256-01-01:0, OLAYLAR_T5_1000B:1171-09-13:0), "kural 5 sınırı" (T5_1000A:1256-01-01:0), "künye günü kaynak değildir, fark bildirildi" (T5_1000B:1250-04-30:0), "gün künye f'sinden" (KURULUS_GERI_1021:0972-10-02:0), "sahip beyanlı boşluk" (0745-01-01:0, 1057-01-01:0), "Atlasta ... beyanlı boşluk / künyesiz" (ORTACAG_ORTADOGU:1076-08-05:0), "kuyruk kronolojide ... ayrı kayıtlı" (KURULUS_GERI_1021:1085-05-25:0).
+- olay (toplu, 4_olay_123-124): aynı metin birkaç kayıtta yalnız sonundaki konum notuyla yineleniyor: "(Hubaekje ülkesi.)", "(Kyushu: shugo/jitō'nun uygulandığı bölge.)", "(Brantas deltası (eski Janggala).)" gibi harita iç notları kullanıcıya görünüyor (0936-09-26, 1185-12-21, 1222-01-01, 0929-01-01).
+- olay OLAYLAR_ORTACAG_IRAN_TURAN:1090-03-06:0: aynı cümle iki kez ("Bâtınîlerle mücadeleyi devlet politikası yaptı").
+- olay OLAYLAR_ORTACAG_ORTADOGU:0685-01-01:0: "ilk Emevî halifelerinden bir hükümdar gibi hareket eden" cümlesi eksik/belirsiz.
+- olay OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1000-01-01:0: "arşiv ve piskoposluklar" büyük olasılıkla "başpiskoposluk ve piskoposluklar" olmalı (zh çevirisi "档案" diye izliyor).
+- olay OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1189-01-01:0: Constance "amcası kızı" yazılmış; II. William'ın halası (II. Roger'in kızı) olmalı. Doğrulanmalı.
+- olay OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1142-02-01:0: "kız kardeşi Yeh-lü-şe veya nâib Pu-su-wan" karışık görünüyor; doğrulanmalı.
+- olay OLAYLAR_ORTACAG_BATI_AVRUPA:1204-01-01:0 (Atina, BIZANS_BALKAN): "Burgundiya Dukalığı (sonradan Atina Dukalığı)" ifadesi şüpheli.
+- olay OLAYLAR_ORTACAG_IBERYA_MAGRIB:1118-12-19:0: başlık/id günü 19 Aralık, metin "18 Aralık'ta şehre girdi".
+
+== tr_hatalari_d.md
+- olay OLAYLAR_ANTIK_AKDENIZ:0106-01-01:0: d sonunda "bağlandı Savaşın ... maddelerdedir.." (nokta eksik / cift nokta)
+- olay OLAYLAR_ANTIK_AKDENIZ:0260-01-01:0: Valerianus "Part'a esir" yaziyor; Sasanilere esir dustu
+- olay OLAYLAR_ANTIK_AKDENIZ:-0063 / -0035 vb.: "bu olaylar kronolojide ayri maddelerdir" editor notu kullaniciya gorunuyor
+- olay OLAYLAR_ANTIK_AKDENIZ (cok sayida): metinde BCE yillari MÖ'süz (45, 42, 27, 218...); ceviride de ayni
+- olay OLAYLAR_2S1019:1205-01-01:0: "Dördüncü Haçlı Seferi'nden yirmi yıl sonra" yanlis (1204 seferi)
+- olay OLAYLAR_ALM1115B:1024-09-08:0: genc Konrad "yegeni" deniyor; kuzendi
+- olay OLAYLAR_2S1019:1439-08-27:0, 1458-08-06:0, 1459-06-20:0; FRANSA_KONTROL 1481-12-11:3; NAPOLYON 1128/1071/1059 maddeleri: "abi merkez", "atlasta...", "BEYANLI YAKLAŞIKLIK", "zincir", "şehre özgü tarihli cümle bulunamadı", "okunmadı" ic notlari kullaniciya gorunuyor
+- olay OLAYLAR_AVMAC_*: "BOŞLUK BEYANLI", "(borç)", "künye", "motor dondurma: yeni BOYALAR anahtarı eklenmedi", "macaristan-naiplik/halk künyesi", "avusturya-ikinci-cumhuriyet zinciri", "bilgi kutusu", "Vikipedi" ic notlari
+- olay OLAYLAR_FRANSA_KONTROL_1027 (1388-09-28, 1348-06-09 vb.): "Atlas bu sınırı zaten taşıyordu; madde eksikti" ic not
+- olay OLAYLAR_P0067:1788-09-21:0: "ek okuma: karsi-karansebes-1788" ic kimlik
+- olay OLAYLAR_DUNYA_BOLGE_1109:1917-03-15:0: "[[rusya-gecici-hukumet]], [[sovyet-rusya]]" wiki baglantisi metinde
+- olay OLAYLAR_DUNYA_BOLGE_1109:1905-01-22:0: "çariçenin muhafızlarınca" — 1905'te car (II. Nikolay)
+- olay OLAYLAR_GEZGINLER:1503-01-06:0: "yerel kaşif Quibían" (kasik olmali; ceviri 酋长 dogru)
+- olay OLAYLAR_LAB19_2S_P6:1944-10-20:0: baslikta "Kızıl Ordu'since"
+- olay OLAYLAR_LAB19_2S_P1:0613-05-12:0 / 0780-12-02:0: "Atlasın ... künyesi" ic not

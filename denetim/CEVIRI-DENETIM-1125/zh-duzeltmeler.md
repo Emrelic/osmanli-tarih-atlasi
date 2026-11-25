@@ -327,3 +327,108 @@
 - olay | OLAYLAR_ANTIK_AKDENIZ:-0325-01-01:0 | d: 意思错误：王国并非“留给亚历山大”
 - olay | OLAYLAR_ANTIK_AKDENIZ:-0326-01-01:0 | d: 病句
 - olay | OLAYLAR_ANTIK_AKDENIZ:-0335-01-01:0 | d: 严重病句
+- olay | OLAYLAR_EK5:1716-10-13:0 | d: 'vire ile teslim' = şartlı teslim; 'patlayıcıyla' diye yanlış çevrilmiş; Kanûnî = 苏莱曼大帝
+- olay | OLAYLAR_EK5:1688-06-22:0 | d: Jenő bir kale adıdır, Eugène değil; yarım genişlik noktalama
+- olay | OLAYLAR_EK5:1716-10-13:0 | d: vire ile teslim = şartlı teslim; 'patlayıcıyla' diye yanlış çevrilmiş (TR'deki iç not tr_hatalari'ne yazıldı)
+- olay | OLAYLAR_EK5:1688-06-22:0 | d: Jenő (yer adı) 'Eugene' diye çevrilmiş; yarım genişlik noktalama; Bánlaky yazımı tutarsız
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1093-01-01:0 | b: Çincede sıra sayısı addan sonra gelir
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1095-02-26:0 | b: Berkyaruk yazımı tutarsız; yarım genişlikli noktalama
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1095-02-26:0 | d: Berkyaruk yazımı tutarsız; yarım genişlikli noktalama
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1095-06-25:0 | b: Çincede sıra sayısı addan sonra gelir
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1095-06-25:0 | d: Çincede sıra sayısı addan sonra gelir
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1101-11-16:0 | b: Çincede sıra sayısı addan sonra gelir
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1101-11-16:0 | d: Çincede sıra sayısı addan sonra gelir
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1104-12-21:0 | b: Yanlış anlam: '其子' Tapar'ın kendi oğlu diye okunuyor (Berkyaruk'un oğlu); sıra sayısı
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1119-09-10:0 | d: Yanlış anlam: 'Selçuk' burada şehzade Selçuk Şah; 'Selçuklular'a' gibi okunuyor
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1155-03-07:0 | b: Çincede sıra sayısı addan sonra gelir
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1155-03-07:0 | d: Çincede sıra sayısı addan sonra gelir
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1266-01-01:0 | d: Yanlış anlam: izin Abaka Han'dan alındı; 'Abaka Han'a kaptırılan topraklar' diye çevrilmiş
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:1110-01-24:0 | d: Aynı ad iki kez yinelenmiş (Sarakusta (Zaragoza))
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:1148-01-01:0 | b: Yarım genişlikli noktalama
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:1148-01-01:0 | d: Yarım genişlikli noktalama
+- olay | OLAYLAR_ORTACAG_BIZANS_BALKAN:1054-07-20:0 | b: '大分裂' iki kez yinelenmiş
+- olay | OLAYLAR_ORTACAG_BATI_AVRUPA:1266-07-02:1 | b: Yarım genişlikli noktalama
+- olay | OLAYLAR_ORTACAG_BATI_AVRUPA:1266-07-02:1 | d: Yarım genişlikli noktalama
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1052-06-03:0 | d: Ad başlıkla tutarsız
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1128-08-22:0 | d: Türkçe kalıntı (investi) ve bozuk cümle
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1130-12-25:0 | d: Bozuk anlatım: şizma = 教会分裂
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1138-01-01:0 | b: Yanlış anlam: seniorat (en büyük kardeş) ≠ 长子继承制 (en büyük oğul)
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1138-01-01:0 | d: Yanlış anlam: seniorat ≠ 长子继承制
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1162-01-01:0 | d: Türkçe kalıntı (infeodasyon)
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1054-11-05:0 | d: Yanlış anlam: Şâban ayı kişi adının parçası sanılmış
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1143-06-17:0 | d: Anlaşılmaz iç içe tamlama zinciri
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1153-03-29:0 | d: Bozuk Çince (被…惨败)
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1185-07-10:0 | d: Bozuk cümle
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1202-06-25:0 | d: Bozuk söz dizimi
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1215-01-01:0 | b: Yarım genişlikli noktalama
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1215-01-01:0 | d: Yarım genişlikli noktalama
+- olay | OLAYLAR_ORTACAG_CIN:0904-09-22:0 | d: Yanlış anlam: 'Zhaozong Zhu'nun emrini alan' gibi okunuyor
+- olay | OLAYLAR_ORTACAG_CIN:0936-11-28:0 | d: Yanlış anlam: 'oğlum Jin Prensi' ≠ '儿皇帝'
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0337-01-01:1 | d: “宽容宽恕”叠词病句
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0356-01-01:0 | d: 严重欧化病句
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0391-01-01:0 | b: isopolite（公民权互通）漏译，括号内重复标题
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0395-01-01:0 | d: ager Romanus 指罗马领土，原译重复且错
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0437-01-01:0 | b: 同一人名与王朝名写法不一致
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0437-01-01:0 | d: 地名、王朝名写法与他处统一
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0489-01-01:0 | d: 误译：波斯军已在阿提卡的马拉松登陆
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0748-01-15:0 | d: 伊历月名错误，且与他处写法不一致
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0893-03-23:0 | b: 王朝名用法不规范、与正文不一致
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0893-03-23:0 | d: 定语错乱的病句
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1090-03-06:0 | b: 人名错误：Atsız（阿特西兹）译成阿齐兹
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1090-03-06:0 | d: 人名错误：Atsız
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1118-04-24:0 | b: 地名错误：Erzen（阿尔赞）不是埃尔津詹
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1118-04-24:0 | d: 地名错误：Erzen（阿尔赞）不是埃尔津詹
+- olay | OLAYLAR_2S1019:1417-02-18:0 | d: 搭配错误
+- olay | OLAYLAR_2S1019:1687-09-06:0 | b: 地名错误：Varadin 指彼得罗瓦拉丁，瓦拉日丁是克罗地亚另一城市
+- olay | OLAYLAR_2S1019:1687-09-06:0 | d: 地名错误：Varadin 指彼得罗瓦拉丁
+- olay | OLAYLAR_2S1019:1458-08-06:0 | d: Fâtih 单译“征服者”指代不明
+- olay | OLAYLAR_MOGOLISTAN1115:1691-05-29:0 | d: hoşun 应译“旗”，“和硕”是满语封号用字
+- olay | OLAYLAR_MOGOLISTAN1115B:1691-05-30:0 | b: hoşun 应译“旗”
+- olay | OLAYLAR_MOGOLISTAN1115B:1691-05-30:0 | d: “和硕”误用
+- olay | OLAYLAR_ALM1115B:1264-01-01:0 | b: Landgraflık 应为方伯国
+- olay | OLAYLAR_ALM1115B:1358-12-01:0 | d: 病句
+- olay | OLAYLAR_CINHINDI1115B:1404-01-01:0 | b: 地名错误：良渊是缅甸的 Nyaungyan
+- olay | OLAYLAR_CINHINDI1115B:1404-01-01:0 | d: 地名错误：良渊是缅甸的 Nyaungyan
+- olay | OLAYLAR_CINHINDI1115B:1433-01-01:0 | b: 地名错误
+- olay | OLAYLAR_CINHINDI1115B:1433-01-01:0 | d: 地名错误
+- olay | OLAYLAR_CINHINDI1115B:1539-01-01:0 | b: 人名错误：Tabinshwehti 是莽瑞体，莽应龙是 Bayinnaung；兼改病句
+- olay | OLAYLAR_CINHINDI1115B:1539-01-01:0 | d: 人名错误：Tabinshwehti 是莽瑞体
+- olay | OLAYLAR_LAB19_2S_P5:1839-05-13:0 | d: 重字
+- olay | OLAYLAR_LAB19_2S_P6:1037-01-01:0 | b: Fas 在此指非斯城，非摩洛哥（与1033年条目一致）
+- olay | OLAYLAR_LAB19_2S_P6:1037-01-01:0 | d: Fas 在此指非斯城
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1918-11-17:0 | d: 病句
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1643-05-14:0 | b: Anne d'Autriche 的中文通行名是“奥地利的安妮”
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1798-03-15:0 | d: “合并（合并）”重复
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1861-02-02:0 | d: 病句
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1796-12-27:0 | b: Cispadan 与 Cisalpine 译名混同（“山南共和国”为后者，见国名表）
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1796-12-27:0 | d: Cispadan 与 Cisalpine 混同
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1797-02-19:0 | d: Cispadan 与 Cisalpine 混同
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1797-07-09:0 | b: Cispadan 与 Cisalpine 混同
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1797-07-09:0 | d: Cispadan 与 Cisalpine 混同
+- olay | OLAYLAR_OK104:1393-05-01:0 | d: Fâtih 单译“征服者”指代不明
+- olay | OLAYLAR_P0063:1738-08-17:0 | d: 同一地名写法不一致
+- olay | OLAYLAR_P0917TARAF:1906-10-01:0 | d: 病句
+- olay | OLAYLAR_P0917KOSU13:1427-01-01:0 | d: 括号内重复
+- olay | OLAYLAR_P0068B:1788-02-22:0 | d: 病句
+- olay | OLAYLAR_KRONOEKSIK0921:1603-06-07:0 | b: 人名错误：Mahmud 误作穆罕默德
+- olay | OLAYLAR_KRONOEKSIK0921:1603-06-07:0 | d: 人名错误：Mahmud 误作穆罕默德（与父同名，造成混乱）
+- olay | OLAYLAR_KAMERIKA:1803-01-01:2 | d: 专名 La Grande River 被直译为“大河”
+- olay | OLAYLAR_DUNYA_BOLGE_1109:1439-07-06:0 | b: Floransa birliği 指教会联合
+- olay | OLAYLAR_DUNYA_BOLGE_1109:1709-07-08:0 | b: 生造词“封定”
+- olay | OLAYLAR_DUNYA_BOLGE_1109:1709-07-08:0 | d: 生造词“封定”
+- olay | OLAYLAR_GEZGINLER:1045-12-19:0 | d: 错字“官廷”
+- olay | OLAYLAR_GEZGINLER:0990-01-01:0 | d: 地名错误：Fidenza 应为菲登扎
+- olay | OLAYLAR_GEZGINLER:1796-07-21:0 | d: 括号内重复
+- olay | OLAYLAR_GEZGINLER:1805-05-04:0 | b: 括号内重复
+- olay | OLAYLAR_GEZGINLER:1805-08-19:0 | d: 括号内重复
+- olay | OLAYLAR_GEZGINLER:1818-01-01:0 | b: 地名错误：Batusangkar
+- olay | OLAYLAR_GEZGINLER:1823-12-14:0 | d: 括号内重复
+- olay | OLAYLAR_GEZGINLER:1826-03-18:0 | b: 括号内重复
+- olay | OLAYLAR_GEZGINLER:1826-03-18:0 | d: 括号内重复
+- olay | OLAYLAR_GEZGINLER:1828-03-23:0 | d: 括号内重复
+- olay | OLAYLAR_GEZGINLER:1851-03-09:0 | d: 括号内重复
+- olay | OLAYLAR_GEZGINLER:1853-06-24:0 | d: 括号内重复
+- olay | OLAYLAR_GEZGINLER:1855-01-01:0 | b: 地名错误：Momein 即腾越（腾冲），蛮允是另一地
+- olay | OLAYLAR_GEZGINLER:1855-01-01:0 | d: 地名错误：Momein 不是蛮允
+- olay | OLAYLAR_GEZGINLER:1871-03-09:0 | b: ön gezi 指前期考察
+- olay | OLAYLAR_GEZGINLER:1873-07-26:0 | b: 语序错误：Galpin Gobi

@@ -10,3 +10,13 @@ Düzeltme dosyaları: duzeltme_a_001 .. duzeltme_a_012
 == ilerleme_b.txt
 Tamamen okunan: 4_olay_053..090 (38 paketin tamami, her paketteki tum olay kayitlari)
 Okunmayan (bu aralikta): yok
+
+== ilerleme_c.txt
+Tamamen okunan: 4_olay_091 - 4_olay_129 (39/39 paket, hepsi olay kaydı).
+Kayıt sayısı ayrıca sayılmadı (paket düzeyinde izlendi).
+Düzeltme dosyaları: duzeltme_c_001 - duzeltme_c_011 (hepsi alan "b"/"d"; "yeni" alanın tamamıdır).
+Okunmayan: aralık içinde yok.
+
+== ilerleme_d.txt
+tamamen okunan: 4_olay_130 - 4_olay_167 (38/38 paket, aralik bitti)
+bakilan kayit: yalniz olay turu (kayit sayisi tek tek sayilmadi)
