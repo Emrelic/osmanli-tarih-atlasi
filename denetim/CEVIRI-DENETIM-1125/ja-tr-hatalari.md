@@ -117,3 +117,18 @@
 - olay OLAYLAR_2S_0918:1889-01-01:0 : "Bu olayla Kerene İtalya idaresine geçti" (Keren olmalı)
 - olay OLAYLAR_2S_0918:1881-03-26:0 : "Kalas" büyük olasılıkla Galați (Galaç); yazım kontrol edilmeli
 - olay OLAYLAR_2S_0918:1853-07-28:0 : gün 28 Temmuz, açıklama yalnız "Temmuz 1853" (kontrol)
+
+== tr_hatalari_g.md
+- olay OLAYLAR_ORTACAG_BOZKIR:0895-03-02:0: d'de "Atlasta ... yazılıdır" atlas içi iç not kullanıcıya görünüyor.
+- olay OLAYLAR_ORTACAG_BOZKIR:1239-10-18:0: d'de "(TDV'de 'Çernikov')" kaynak notu görünüyor.
+- olay OLAYLAR_ORTACAG_CIN:0907-06-01:0: d noktalı virgül ve boşlukla yarım bitiyor ("tahta çıktı; "); çeviride kapatıldı.
+- olay OLAYLAR_ORTACAG_CIN:0617-12-12:0: "şehre karşı koyan Sui bekçilerini" bozuk ifade.
+- olay OLAYLAR_ORTACAG_DOGU_GUNEYDOGU_ASYA:0929-01-01:0 ve :1: d sonunda "(Brantas havzası/deltası Doğu Cava.)" yer notu; iki kayıtta havza/delta farklı.
+- olay OLAYLAR_ORTACAG_DOGU_GUNEYDOGU_ASYA:0936-09-26:1 ve :2: d sonunda "(Hubaekje ülkesi.)" yer notu.
+- olay OLAYLAR_ORTACAG_DOGU_GUNEYDOGU_ASYA:1185-12-21:0..3: d sonunda yer notları ("(Kyushu: ...)", "(Hōjō Tokimasa'nın saraydan bu yetkiyi koparttığı yer.)", "(Yamato: ...)", "(Settsu: ...)").
+- olay OLAYLAR_ORTACAG_DOGU_GUNEYDOGU_ASYA:1222-01-01:0 ve :1: d sonunda yer notları ("(Tumapel'in bulunduğu Malang çevresi (eski Janggala).)", "(Brantas deltası (eski Janggala).)").
+- olay OLAYLAR_ANTIK_MISIR_NUBYA:-2054-01-01:0: d'de "(aşağıdaki madde)" geliştirici göndermesi.
+- olay OLAYLAR_ANTIK_AKDENIZ:-0035-01-01:0 ve -0063-01-01:0: d'de "(bu olay kronolojide ayrı maddedir)" iç not.
+- olay OLAYLAR_ANTIK_YAKIN_DOGU:-0647-01-01:0: Şamaş-şuma-ukin "kardeşi" yazıyor; ağabeyi.
+- olay OLAYLAR_ANTIK_YAKIN_DOGU:-0630-01-01:0: "Babil valileri Sin-şum-lişir ve Sin-şar-işkun'a başkaldırdı" cümlesi tarihî olarak karışık görünüyor, doğrulanmalı.
+- olay OLAYLAR_ANTIK_YAKIN_DOGU:-1224-01-01:0: "orta çağın en güçlü devleti" yanıltıcı (Orta Asur dönemi kastı).

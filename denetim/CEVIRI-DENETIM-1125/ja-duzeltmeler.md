@@ -1814,3 +1814,64 @@
 - olay | OLAYLAR_GEZGINLER:1885-08-28:0 | d: トルコ語表記の地名が未翻訳
 - olay | OLAYLAR_GEZGINLER:1887-05-01:0 | d: istasyon burada駐在所; 鉄道駅ではない
 - olay | OLAYLAR_GEZGINLER:1887-06-28:0 | d: istasyon burada駐在所; 鉄道駅ではない
+- arayuz | # Temmuz # (ÇELİŞKİ-#: TDV «Timişvar» # Şaban # = # Temmuz #'de garnizonun teslim olduğunu yazar; TDV «Kara Ahmed Paşa» #/# Temmuz der; Losonczy'nin kaleden çıkışı # Temmuz (olaylar_ek# Macar kaynağı) — iki gün de TDV içinde geçer, bağımsız ikinci akademik kaynak okunmadı, gün korundu) | m: yıl yanlış yerde
+- arayuz | # Temmuz # (ÇELİŞKİ-#: TDV «Timişvar» # Şaban # = # Temmuz #'de garnizonun teslim olduğunu yazar; TDV «Kara Ahmed Paşa» #/# Temmuz der; Losonczy'nin kaleden çıkışı # Temmuz (olaylar_ek# Macar kaynağı) — iki gün de TDV içinde geçer, bağımsız ikinci akademik kaynak okunmadı, gün korundu) | m: duzeltme_002'deki sürümün yerine geçer: 9'dan çok sayı olduğundan indeksli ve düz '#' karıştırılamaz, hepsi sıralı
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1001-01-01:0 | b: 'Sicilmâse dışındaki Fas' ülke (Fas/Mağrib) demek; Fez şehri değil
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1001-01-01:0 | d: Fas = ülke; Fez şehri değil
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1050-01-01:0 | b: 'yeniden yerleştirdi' yeniden hâkim kıldı; 再入植 (yeniden sömürge/iskân) yanlış
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1050-01-01:0 | d: 'yeniden yerleştirdi' 再入植 yanlış
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1113-06-18:0 | d: Reîsülahdâs şehir milis reisidir, belediye başkanı değil
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1215-01-01:0 | d: 'el değiştirmeyi izledi' bire bir kalk çevirisi, anlamsız
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1253-05-01:0 | d: 'itaat altına alınması' (boyun eğdirme) '服従' ile bozuk anlatım
+- olay | OLAYLAR_ORTACAG_BOZKIR:1252-08-24:0 | d: 'itaat altına alınması' bozuk anlatım
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1275-01-01:0 | d: 'seferber oldular' edilgen '動員された' ile yanlış
+- olay | OLAYLAR_ORTACAG_BOZKIR:1209-01-01:0 | b: Türkçe yazım 'Koço' kalıntısı; yerleşik biçim 高昌
+- olay | OLAYLAR_ORTACAG_CIN:0577-01-17:0 | d: 高延宗 hükümdar 高緯'den yaşça büyük kuzen (従兄)
+- olay | OLAYLAR_ORTACAG_CIN:0605-04-10:0 | d: 'nehirler üzerinde' kıyısında demek; '上に' yanlış
+- olay | OLAYLAR_ORTACAG_CIN:0617-06-23:0 | d: Latin harfli Çince adlar çevrilmemiş (王威, 高君雅)
+- olay | OLAYLAR_ORTACAG_CIN:0617-12-12:0 | d: '都市に抵抗する' şehre karşı direnen anlamı verir, yanlış
+- olay | OLAYLAR_ORTACAG_CIN:0739-01-01:0 | d: Latin harfli 'Dahe' çevrilmemiş (大和)
+- olay | OLAYLAR_ORTACAG_CIN:0842-01-01:0 | d: Unvan iki kez yazılmış (aynı kelimenin gereksiz parantez tekrarı)
+- olay | OLAYLAR_ORTACAG_CIN:0879-01-01:0 | d: '求めた要求' bozuk anlatım
+- olay | OLAYLAR_ORTACAG_CIN:0907-06-01:0 | d: Metin noktalı virgülle yarım bitiyor
+- olay | OLAYLAR_ORTACAG_CIN:0947-02-24:0 | d: Bozuk tarih ifadesi
+- olay | OLAYLAR_ORTACAG_CIN:1038-01-01:0 | d: Geleneksel Çince karakterler karışmış; Japonca yeni biçim
+- olay | OLAYLAR_ORTACAG_CIN:1127-05-13:0 | d: '空にされた' nesneler için anlamsız; tarih ifadesi bozuk
+- olay | OLAYLAR_ORTACAG_CIN:1129-02-23:0 | d: Yangzi Köprüsü Yangzhou yakınındaki yer adı (揚子橋), Yangtze üzerinde köprü değil
+- olay | OLAYLAR_ORTACAG_CIN:1142-01-27:0 | b: Bozuk anlatım
+- olay | OLAYLAR_ORTACAG_CIN:1259-09-27:0 | d: Çift 'を' ile dilbilgisi hatası
+- olay | OLAYLAR_ORTACAG_CIN:1272-03-04:0 | d: Wang Shu, Qi'an Markisi = 斉安侯王淑; 淳安侯/王綧 yanlış
+- olay | OLAYLAR_ORTACAG_DOGU_GUNEYDOGU_ASYA:0825-01-01:0 | b: Fazla boşluk
+- olay | OLAYLAR_ORTACAG_DOGU_GUNEYDOGU_ASYA:0918-07-25:0 | d: Yanlış fiil: yıl adı 'verildi' → belirlendi
+- olay | OLAYLAR_ORTACAG_DOGU_GUNEYDOGU_ASYA:1087-01-01:0 | d: 'merkez yaptı' 本拠とした; '中心とした' anlam bozuk
+- olay | OLAYLAR_ORTACAG_DOGU_GUNEYDOGU_ASYA:1269-10-29:0 | d: Kore eyalet adları Latin harfle kalmış
+- olay | OLAYLAR_ORTACAG_YER_SONRASI:1135-01-01:0 | d: 'Napoli'deki' = Napoli'de bulunan; mevcut ifade yanlış/bozuk
+- olay | OLAYLAR_ANTIK_MISIR_NUBYA:-0199-01-01:0 | d: Bozuk noktalama
+- olay | OLAYLAR_ANTIK_MISIR_NUBYA:-0216-01-01:0 | d: MÖ yılı 紀元前 olmadan MS gibi okunuyor
+- olay | OLAYLAR_ANTIK_MISIR_NUBYA:-0485-01-01:0 | b: '重く統治' Japoncada anlamsız
+- olay | OLAYLAR_ANTIK_MISIR_NUBYA:-0485-01-01:0 | d: '重く統治' anlamsız
+- olay | OLAYLAR_ANTIK_MISIR_NUBYA:-0600-01-01:0 | d: Bozuk cümle
+- olay | OLAYLAR_ANTIK_MISIR_NUBYA:-0604-01-01:0 | d: Cümlede nesne eksik, bozuk yapı
+- olay | OLAYLAR_ANTIK_MISIR_NUBYA:-0700-01-01:0 | b: Özne yok, cümle bozuk
+- olay | OLAYLAR_ANTIK_MISIR_NUBYA:-0749-01-01:0 | d: 'aracı' (araç) '仲介' (arabuluculuk) diye yanlış çevrilmiş
+- olay | OLAYLAR_ANTIK_MISIR_NUBYA:-0924-01-01:0 | d: 列王記 Tora'ya (トーラー) ait değil; Japoncada yanlış
+- olay | OLAYLAR_ANTIK_MISIR_NUBYA:-1347-01-01:0 | d: '治世' eksik, takvim yılı gibi okunuyor
+- olay | OLAYLAR_ANTIK_MISIR_NUBYA:-1456-01-01:0 | d: Cümlede özne eksik
+- olay | OLAYLAR_ANTIK_MISIR_NUBYA:-1498-01-01:0 | d: 'Fırat üzerinde' kıyısında demek; '上で' yanlış
+- olay | OLAYLAR_ANTIK_MISIR_NUBYA:0297-01-01:0 | b: Dilbilgisi: と宣言された
+- olay | OLAYLAR_ANTIK_MISIR_NUBYA:0297-01-01:0 | d: Dilbilgisi: と宣言された
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-0337-01-01:0 | d: 'Anadolu hazırlıkları' seferi hazırlığı; mevcut ifade bozuk
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-0344-01-01:0 | d: '反抗の反乱' bozuk anlatım
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-0537-01-01:0 | d: エズラ記 Tora'nın (トーラー) parçası değil
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-0839-01-01:0 | d: Olay Krallar kitabında; トーラー yanlış
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-0929-01-01:0 | d: Olay Krallar kitabında; トーラー yanlış
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-0647-01-01:0 | d: Şamaş-şuma-ukin Asurbanipal'in ağabeyidir; 弟 yanlış (TR 'kardeşi' belirsiz)
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-1179-01-01:0 | d: Özne eksik, bozuk cümle
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-1224-01-01:0 | d: 'orta çağ' burada Orta Asur dönemi; '中世以前' yanlış anlam
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-1327-01-01:0 | b: Krallığın başına 'kabile reisi' (首長) yanlış
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-1327-01-01:0 | d: 'kral-vekilliği' = 副王領; '王位代行' bozuk
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-2025-01-01:0 | d: 'yönetti' burada hükümdarlık; '解体過程を指導した' yanlış anlam
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-2260-01-01:0 | d: '指導した' yanlış fiil
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:0244-01-01:0 | b: '重い和平' anlamsız
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:0363-01-01:0 | d: 'yarım yüzyıllık 298 kazanımları' yanlış ifade edilmiş
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:0484-01-01:0 | d: 'boyun eğdi' → 'ことに従った' bozuk anlatım

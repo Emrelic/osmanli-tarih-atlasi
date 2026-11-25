@@ -30,3 +30,7 @@ Tamamen okunan paketler: 4_olay_060..075 (16/16)
 Bakılan olay kaydı: aralıktaki paketlerin tamamı
 Düzeltme dosyaları: duzeltme_f_001..006
 Okunmayan: yok
+
+== ilerleme_g.txt
+Tamamen okunan paketler: 4_olay_136 - 4_olay_153 (aralık tamam, 18/18)
+Düzeltme dosyaları: duzeltme_g_001..004.jsonl

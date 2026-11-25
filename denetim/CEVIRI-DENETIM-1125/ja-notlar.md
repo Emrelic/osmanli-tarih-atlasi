@@ -35,3 +35,9 @@
 - OLAYLAR_EK22:1923-07-24:0 (d), uygulanmadı (alan çok uzun): "ローザンヌはカピチュレーションを廃止し、債務を分担させ、独立した軍の制限は置かない" içinde「独立した軍の制限は置かない」→「軍備に関する別個の制限は設けない」olmalı ("ayrı bir ordu kısıtı"). Birleştirmede alt dize değiştirmesiyle uygulanabilir.
 - TDV madde başlıkları (Latin harfli "TDVの…項") önceki turların kararına uyularak bırakıldı.
 - Parantez içi özgün adlar/terimler bırakıldı.
+
+== notlar_g.md
+- 136-138 (OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB) ve başka paketlerde birçok özel ad Latin/Türkçe yazımla bırakılmış (Mühelhil, Annâzî朝, Ebü'ş-Şevk, Kutluğ Han, Teberhind, Karahıtay komutanı Küçlüğ vb.). Sistematik katakana dönüşümü toplu bir karar işi; tek tek düzeltilmedi.
+- Aynı pakette Halacî朝 / ハルジー朝, イアフメス / アハメス (OLAYLAR_ANTIK_MISIR_NUBYA -1524, -1529, -1549), ガズナ / ガズニー yazım tutarsızlıkları var; düzeltilmedi.
+- OLAYLAR_ORTACAG_CIN:0842 "Lun Zan" (論贊) Latin bırakıldı.
+- Çeviride TR'deki yer notu parantezleri aynen çevrilmiş (tr_hatalari_g.md); TR temizlenince çevirilerden de çıkarılmalı.
