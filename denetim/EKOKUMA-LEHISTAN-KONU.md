@@ -191,3 +191,47 @@ Kongre benzeri çok maddeye düşen bağ yok. İlk taslakta "1672-08-27|Kamaniç
 Almanya, Lehistan) · `1569-07-01|Lublın birliği` (5) · `1709-07-08|Poltava` (6: İsveç, Ukrayna, Rusya…).
 Bu sınama kart yazılmamış konular için yalnız bağın varlığını ölçer; kartın yanlış maddede görünmemesi kart yazılınca
 `bag_sina.js` ile ayrıca sınanmalı.
+
+## 7. Aşama 3 · parti 02 (20 kayıt) ve teyit denetimi (25 Kasım 2026, LAB)
+
+**Alınma yolu (EMRELİC kuralı, denetlendi):** parti 02'nin 14 kaynağı curl ile ham HTML indirilip düz metne çevrilerek
+baştan sona okundu. İlk indirmede curl'e tarayıcı User-Agent başlığı verilmişti; hiçbir sayfa engel (403, Cloudflare,
+bot koruması, ücret duvarı) vermedi. Denetimde 14'ü de varsayılan curl başlığıyla yeniden çekildi: hepsi 200, düz
+metin karakteri karakterine aynı. **Engel aşılan kaynak: 0.** Aşama 2 (parti 01, 8 kayıt) WebFetch ile okunmuştu —
+araç ham metni değil özeti verir — bu yüzden 8'i de `teyit:"teyitsiz", yayin_adayi:false` işaretlendi (silinmedi).
+
+**Sayım (ölçüldü, dosyalardan):** toplam 28 kayıt · teyitli 16 · teyitsiz 12 (parti 02: 20 kayıt, 16 teyitli / 4 teyitsiz).
+
+| dosya / ad alanı | kayıt | teyitli | teyitsiz |
+|---|---|---|---|
+| `data/ekokuma_dev_lehistan_01.js` · `EKOKUMA_DEVLEHISTAN01` | 5 | 0 | 5 (WebFetch özeti) |
+| `data/kisi_lehistan.js` · `KISI_LEHISTAN` | 2 | 0 | 2 (WebFetch özeti) |
+| `data/hukumdar_lehistan.js` · `HUKUMDAR_LEHISTAN` | 1 | 0 | 1 (WebFetch özeti) |
+| `data/ekokuma_dev_lehistan_02.js` · `EKOKUMA_DEVLEHISTAN02` | 14 | 13 | 1 (Michał/Kamaniçe: popüler müze yazısı) |
+| `data/kisi_lehistan_02.js` · `KISI_LEHISTAN02` | 3 | 1 (Ali Ufkî) | 2 (Koniecpolski, Korecki: popüler müze yazısı) |
+| `data/hukumdar_lehistan_02.js` · `HUKUMDAR_LEHISTAN02` | 3 | 2 (III. Władysław, Leszczyński) | 1 (Michał Korybut) |
+
+Parti 02 ek okuma kartları (konu #): Viyana 1683 (9), Varna 1444 (27), Batory (14), Henri de Valois (15), ilk barış 1489
+(31), ebedî barış 1533 (32), Kozmin 1497 (33), Kamaniçe eyaleti (35), Karlofça-Podolya (37), Edirne 1713 (yeni),
+Sobieski-Kamaniçe (yeni), 'otuz bin kafa' (yeni), Ţuţora 1620 (yeni), Michał-Kamaniçe (yeni). Kişi: Ali Ufkî (34),
+Koniecpolski, Korecki. Hükümdar: III. Władysław, Leszczyński, Michał Korybut. Bucaş-haraç (13), birinci paylaşım (21) ve
+Bar (26) mevcut Osmanlı kartlarıyla (`statu-lehistan`, `tartisma-lehistan-paylasimlari-1772-1795`) çakıştığı için yazılmadı.
+
+**Bağlama (ölçüldü):** 20 kaydın 25 bağ değeri, 30.312 maddelik evrende `ekKartBagliMi`nin kendi metniyle sınandı:
+boş bağ 0; Ali Ufkî bilerek bağsız (madde yok). Hiçbir bağ değeri 2'den çok maddeye düşmüyor; 1683-09-12, 1444-11-10,
+1699-01-26, 1497-01-01 gibi kalabalık günlerde ayırt edici parça kartı yalnız Lehistan maddesinde tutuyor.
+
+**Yeni kronoloji uyuşmazlıkları / boşlukları (ek okuma dalında YAZILMADI):**
+17. Ali Ufkî Bey için madde yok (doğum/ölüm tarihleri kaynakta belirsiz).
+18. Kozmin: atlas `1497-01-01`; TDV 'Polonya' **26 Ekim 1497**.
+19. Edirne antlaşması: atlas `1713-06-24` (OLAYLAR_EK5); TDV 'Polonya' **13 Haziran 1713**; 20 Ağustos 1714 antlaşması yok.
+20. Ţuţora asıl muharebesi 1620-09-19 için madde yok; bozgun ve Żółkiewski'nin ölümü Gawron'da da 6 Ekim (§3/1 ile aynı).
+21. Michał Korybut'un seçimi (Babnis 19 Haziran 1669; TDV 'Polonya' 19 Nisan 1669 — çelişki) ve ölümü (Babnis 10 Kasım
+    1673; TDV 'Polonya' 10 Ekim 1673) için madde yok.
+22. TDV 'Polonya' iç tutarsızlığı: Hotin 1673'ü 17 Ekim verir; TDV 'Hotin' (Kołodziejczyk) ve atlas 11 Kasım.
+23. Koniecpolski'nin zaferleri (Trzciana 1629-06-27, Kamaniçe önü 1633-10-20, 1644-01-30) için madde yok.
+
+**Okunamayanlar / okunmayanlar:** PSB maddeleri (Michał Korybut, Koniecpolski, Korecki, Chodkiewicz) okunmadı; Majewski'nin
+Cecora monografisi, Kołodziejczyk'in *Ottoman-Polish Diplomatic Relations*'ı, Hammer okunmadı (aktarım olarak işaretli).
+TDV'de 'Zuravno/Zurawno', 'Karlofça Antlaşması', 'Bar Konfederasyonu', 'Polonezköy' slugları 302 (ölü); TDV araması
+JS ile yüklendiği için slug tahminle bulundu, iç arama uç noktası kullanılmadı.
