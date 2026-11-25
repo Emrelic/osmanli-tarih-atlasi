@@ -951,31 +951,31 @@ window.CEVIRI_DIZIN = {
    ],
    [
     "ceviri_en_ekokuma_02.js",
-    "8a284132"
+    "773fbf21"
    ],
    [
     "ceviri_en_ekokuma_03.js",
-    "469dddd8"
+    "9023049e"
    ],
    [
     "ceviri_en_ekokuma_04.js",
-    "291fb755"
+    "649042c2"
    ],
    [
     "ceviri_en_ekokuma_05.js",
-    "6c01ef4c"
+    "40ebbb03"
    ],
    [
     "ceviri_en_ekokuma_06.js",
-    "13d666aa"
+    "7940c919"
    ],
    [
     "ceviri_en_ekokuma_07.js",
-    "7261aa1f"
+    "d38a3f52"
    ],
    [
     "ceviri_en_ekokuma_08.js",
-    "f5a1d422"
+    "f86177ad"
    ]
   ]
  }
