@@ -10,7 +10,7 @@ window.EKOKUMA_DEVCENEVIZ01 = [
     "De' Mussi bunları gözüyle görmüş olabilir mi? Büyük olasılıkla hayır. Piacenza arşivinde 1344'ten 1346'nın ilk yarısına kadar onun imzasını taşıyan belgeler var; kendisi de Doğu'daki olaylara tanık olduğunu ileri sürmez. Anlatıyı başka bir kaynak da doğrulamaz.\n\n" +
     "Tarihçiler bugün ne diyor? Biyolog Mark Wheelis 2002 tarihli incelemesinde ceset atma olayını akla yatkın bulur: dönemin ağırlıklı mancınıkları bunu yapabilirdi ve cesetlere dokunan savunmacılar hastalanabilirdi. Surlardan uzaktaki ordugâhtan şehre fare yoluyla bulaşmayı ise daha zayıf ihtimal sayar; sonucunun kesin olmadığını da belirtir. Hikâyenin ikinci yarısında ayrılır: veba İtalya'ya ulaşmak için bir yıldan fazla zaman aldı, Kırım'dan doğrudan kaçanların yolculuğu ise birkaç ayı geçmezdi. Üstelik başka limanlardan gemiler, karadan da kervanlar hastalığı yayıyordu. Yani Kefe'deki olay yaşanmış olsa bile Avrupa'daki salgını büyük olasılıkla o başlatmadı.",
   kaynak:"Mark Wheelis, «Biological Warfare at the 1346 Siege of Caffa», Emerging Infectious Diseases 8/9 (2002), s. 971-975, doi:10.3201/eid0809.010536 (tam metin: wwwnc.cdc.gov/eid/article/8/9/01-0536_article).",
-  kesinlik:"tartışmalı", teyit:"teyitli",
+  kesinlik:"tartismali", teyit:"teyitli",
   ic_not:"Tek tam metin. De' Mussi anlatısı makaledeki Horrox çevirisinden. Wheelis Kefe kuruluşunu 1266 verir; cenova künyesindeki 1346 'Kefe kolonisi kuruldu' maddesi bununla çelişir (KONU dosyası)." },
 
 { id:"ceneviz-galata-ahidname-1453", devlet:"cenova", tur:"antlasma",
@@ -58,7 +58,7 @@ window.EKOKUMA_DEVCENEVIZ01 = [
     "Güç dengesi de değişmişti. 1539'da Antonio Doria, Osmanlı donanmasına karşı koymak için 250 kadırga ve Venedik ittifakı gerektiğini hesaplıyordu. İmparatorluğun olağan olarak denizde tuttuğu kadırga sayısı 62'ydi.\n\n" +
     "Tarihçiler bugün ne diyor? Grendi, Andrea Doria'nın deniz harekâtında aşırı bir temkin görür ve bunu yatırımının değeriyle, özellikle 1538'den sonra açıkça aleyhe dönen güç dengesiyle ilişkilendirir. Ağır bir yenilginin imparatorluğun çıkarlarına da zarar vereceğini ekler. Tek tek seferlere bakınca tabloyu başarısız bulur; siyasal koşullar içinde ise belli bir mantık görür. Bu açıklama, Preveze'deki her kararın gizli bir anlaşmanın ürünü olduğunu göstermez.",
   kaynak:"Edoardo Grendi, «DORIA, Andrea», Dizionario Biografico degli Italiani, c. 41 (1992), treccani.it/enciclopedia/andrea-doria_(Dizionario-Biografico).",
-  kesinlik:"tartışmalı", teyit:"teyitli",
+  kesinlik:"tartismali", teyit:"teyitli",
   ic_not:"Grendi aşırı temkini 'askerî harekât' için genel olarak, güç dengesi vurgusunu 1538 sonrası için söyler; Preveze'deki tekil taktik kararları anlatmaz. Karşı görüş taşıyan ikinci akademik kaynak okunmadı." },
 
 { id:"ceneviz-doria-kadirga-isletmesi", devlet:"cenova", tur:"teknik-bilimsel",
