@@ -116,3 +116,10 @@ Josip Flavije · Plutarh · Polibije · Herodot · Strabon · Arijan · Dion Kas
 ## Terimler
 prefekt · satrap · satrapija · posada (garnizon) · izaslanik (elçi) · danak (haraç) · stela · natpis
 
+== sozluk_i.md
+# bs sozluk (ETIKET i) — olay_107..122; sozluk_a esas
+- Hz. Muhammed = hazreti Muhammed; Resûl-i Ekrem = Časni Poslanik; vefat etti (İslam büyükleri) = preselio/preselila; nübüvvet = poslanstvo; Yesrib = Jesrib; Akabe Biatı = prisega na Akabi; Hicret = Hidžra
+- Dir'iye = Dirija; Riyad = Rijad; Suûdîler = Saudijci; Şerif Hüseyin = šerif Husejn; b. (İbn) = ibn
+- Dânişmendliler = Danišmendi; II. Kılıcarslan = Kilič Arslan II; Eyyûbîler = Ejubidi; Murâbıtlar = Almoravidi
+- Yunan antik: Pizistrat, Miltijad, Aristodem, Fokejci, Masalija; Yahudi = jevrejski; Tevrat/Eski Ahit = Stari zavjet
+

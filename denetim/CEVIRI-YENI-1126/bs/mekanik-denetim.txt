@@ -1,7 +1,7 @@
 taban origin/main 24bca150f
 arayuz 2034/2034
 devlet 2315/2315
-olay 3547/5196
+olay 4250/5196
 
 c_olay_029.jsonl:1 olay uyari: yil gorunmuyor 1302 n=1
 c_olay_029.jsonl:3 olay uyari: yil gorunmuyor 1329 n=3
