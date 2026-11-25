@@ -1,7 +1,7 @@
 taban origin/main 24bca150f
 arayuz 2034/2034
 devlet 2315/2315
-olay 1451/5196
+olay 3311/5196
 
 c_arayuz_02.jsonl:149 arayuz uyari: hedef yazi yok n=435
 c_arayuz_02.jsonl:150 arayuz uyari: hedef yazi yok n=436
