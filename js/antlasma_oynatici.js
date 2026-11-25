@@ -32,7 +32,7 @@
   // antlasma_id, pencere_gun). Yardımcı yoksa (script sırası/önbellek) ESKİ kural aynen çalışır.
   function eslesen(o) {
     if (window.ANTLASMA_ESLESME) return window.ANTLASMA_ESLESME.eslesen(o);
-    var b = String((o && (o.b || o.baslik)) || "");
+    var b = String((o && (o.b_tr || o.b || o.baslik)) || "");
     return (window.ANTLASMA_MADDELERI || []).filter(function (k) {
       var anahtarlar = (k.anahtarlar && k.anahtarlar.length) ? k.anahtarlar : [k.ad];
       return anahtarlar.some(function (a) { return b.indexOf(a) >= 0; }) && gunFarki(o.t, k.t) <= 60;

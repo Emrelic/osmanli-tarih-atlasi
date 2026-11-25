@@ -847,7 +847,7 @@ function _ydDogrudan(o, y) {
     }
   }
   if (o.b && cek && cek.length >= MADDE_DEGISIM_AYAR.minHarf &&
-      _sgGeciyor(sgNorm(String(o.b).replace(/['‘’ʼ`]/g, " ")), cek)) return "baslik";
+      _sgGeciyor(sgNorm(String(o.b_tr || o.b).replace(/['‘’ʼ`]/g, " ")), cek)) return "baslik";
   return "";
 }
 // o: madde · gs: "YYYY-MM-DD" (madde günü) · kardesler: aynı günün öteki maddeleri

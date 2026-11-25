@@ -4767,7 +4767,7 @@ function olayYeriKur() {
     } else if (kalip[k]) kisa.push(k);                    // sıkı: iki yanlı sınır
   }
   OLAY_YERI = olaylar.map(function (o) {
-    var metin = ((o.yer || "") + " " + (o.b || ""));
+    var metin = ((o.yer || "") + " " + (o.b_tr || o.b || ""));   // Türkçe asıl (yer adı taraması)
     var bulunan = {}, liste = [];
     for (var j = 0; j + 4 <= metin.length; j++) {
       var aday = onek.get(metin.substr(j, 4));
@@ -4825,7 +4825,7 @@ function olayMuharebeTuru(o) {
       if (!tur) tur = c;
     }
   }
-  if ((!tur || tur === "meydan") && DENIZ_KALIP.test((o.b || "") + " " + (o.yer || ""))) tur = "deniz";
+  if ((!tur || tur === "meydan") && DENIZ_KALIP.test((o.b_tr || o.b || "") + " " + (o.yer || ""))) tur = "deniz";
   return tur ? SAVAS_TUR_SIMGE[tur] : null;
 }
 
@@ -8828,14 +8828,14 @@ function _dunyaKokler(b) {
   return k;
 }
 function _dunyaAyniOlay(a, b) {
-  var ka = _dunyaKokler(a.b), kb = _dunyaKokler(b.b);
+  var ka = _dunyaKokler(a.b_tr || a.b), kb = _dunyaKokler(b.b_tr || b.b);
   for (var x in ka) if (kb[x]) return true;
   return false;
 }
 function _dunyaAnahtar(o) {
   var t = String(o.t || "");
   return /-01-01$/.test(t)
-    ? t + "|" + String(o.b || "").toLocaleLowerCase("tr").replace(/[^a-zçğıöşüâîû0-9]+/g, "").slice(0, 14)
+    ? t + "|" + String(o.b_tr || o.b || "").toLocaleLowerCase("tr").replace(/[^a-zçğıöşüâîû0-9]+/g, "").slice(0, 14)
     : t;
 }
 function dunyaMaddeleriTopla(osmanliMaddeleri) {
@@ -8923,7 +8923,7 @@ function kunyeBul(id) {
 // Maddenin sahip künyeleri: kendi taraf alanı, yoksa (Osmanlı listesindeki dış madde) OLAY_TARAF eşlemesi.
 function maddeSahipleri(o) {
   var ids = o.taraflar || o.devletler || (o.devlet ? [o.devlet] : null);
-  if (!ids && window.OLAY_TARAF) ids = window.OLAY_TARAF[o.t + "|" + o.b];
+  if (!ids && window.OLAY_TARAF) ids = window.OLAY_TARAF[o.t + "|" + (o.b_tr || o.b)];
   return (ids || []).map(kunyeBul).filter(Boolean);
 }
 function dunyaEtiketli(o) {
@@ -13159,7 +13159,7 @@ function _antlasmaKaydi(o) {
 function antlasmaMaddesiMi(o) {
   if (!o || !o.b) return false;
   if (o.k === "antlasma") return true;
-  return /antla[sş]ma/i.test(o.b) && !!_antlasmaKaydi(o);
+  return /antla[sş]ma/i.test(o.b_tr || o.b) && !!_antlasmaKaydi(o);
 }
 // 🆕 DALGA-0070 H-0008 (ELE-GECIRME-ANIM-0070, 20 Eylül 2026) — KOYU TON.
 // Emre: *"ele geçirilen bölge önce KOYU RENK ile gösterilip 2 kere yanıp
@@ -13218,7 +13218,7 @@ function antlasmaFarkiHesapla(o) {
   // taraf süzgeci aynen, ve o güne DAHA YAKIN bir maddenin doğrudan sahiplendiği
   // değişim antlaşmaya mal edilmez.
   var kayit = _antlasmaKaydi(o);
-  var T = SG.antlasmaTaraflari(o.b + " " + (o.d || ""),
+  var T = SG.antlasmaTaraflari((o.b_tr || o.b) + " " + (o.d_tr || o.d || ""),
                                kayit && Array.isArray(kayit.taraf) ? kayit.taraf : [],
                                window.DEVLETLER || []);
   function suz(f) {
@@ -14292,7 +14292,7 @@ function _ekBagEslesir(v, o) {
   if (i < 0) return s === o.t;
   if (s.slice(0, i) !== o.t) return false;
   var ayirt = _ekNorm(s.slice(i + 1));
-  return !ayirt || _ekNorm(o.b).indexOf(ayirt) >= 0;
+  return !ayirt || _ekNorm(o.b_tr || o.b).indexOf(ayirt) >= 0;   // ayırt edici Türkçedir; çevrilmiş başlığa bakma
 }
 // Bir kartın verilen kronoloji maddesine bağlı olup olmadığı — üç örnek
 // şema üç farklı bağlama alanı kullanıyor (dosyalardaki kendi örnekleri),
@@ -18407,7 +18407,7 @@ function kronoTemsilEdiliyor(k, derin) {
           return;
         }
         if (!dokunulan[id]) { d.kronoloji = (d.kronoloji || []).slice(); dokunulan[id] = true; }
-        var var_mi = d.kronoloji.some(function (o) { return o.t === m.t && o.b === m.b; });
+        var var_mi = d.kronoloji.some(function (o) { return o.t === m.t && (o.b_tr || o.b) === (m.b_tr || m.b); });
         if (var_mi) return;
         d.kronoloji.push(m); eklenen++; indi = true;
       });
@@ -18422,7 +18422,7 @@ function kronoTemsilEdiliyor(k, derin) {
   var olayTaraf = window.OLAY_TARAF || {}, olayEklenen = 0, olayEslesen = 0;
   if (window.OLAY_TARAF && typeof olaylar !== "undefined") olaylar.forEach(function (m) {
     if (m.kapsam !== "dis") return;
-    var ids = olayTaraf[m.t + "|" + m.b];
+    var ids = olayTaraf[m.t + "|" + (m.b_tr || m.b)];
     if (!ids) return;
     olayEslesen++;
     var mg = kronoGun(m.t);
@@ -18437,7 +18437,7 @@ function kronoTemsilEdiliyor(k, derin) {
         return;
       }
       if (!dokunulan[id]) { d.kronoloji = (d.kronoloji || []).slice(); dokunulan[id] = true; }
-      if (d.kronoloji.some(function (o) { return o.t === m.t && o.b === m.b; })) return;
+      if (d.kronoloji.some(function (o) { return o.t === m.t && (o.b_tr || o.b) === (m.b_tr || m.b); })) return;
       d.kronoloji.push(m); eklenen++; olayEklenen++;
     });
   });
@@ -19998,7 +19998,7 @@ function kronoTemsilEdiliyor(k, derin) {
       if (!m || !m.t || !m.b || m.dunya == null || m.dunya < DUNYA_SATIR_ESIK) return;
       var gi = gunIdx(m.t);
       if (!(gi >= BASLANGIC && gi <= BITIS)) return;
-      var a = /-01-01$/.test(m.t) ? m.t + "|" + _dunyaNorm(m.b).slice(0, 14) : m.t;
+      var a = /-01-01$/.test(m.t) ? m.t + "|" + _dunyaNorm(m.b_tr || m.b).slice(0, 14) : m.t;
       if (gor[a]) { if (gor[a].adlar.indexOf(d.ad) < 0) gor[a].adlar.push(d.ad); return; }
       gor[a] = { gi: gi, d: d, m: m, osm: !!osm, adlar: [d.ad] };
       h.push(gor[a]);
