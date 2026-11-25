@@ -14198,14 +14198,17 @@ function ekOkumaMerakYukle(biterse) {
   if (EKOKUMA_DURUM.deneniyor) { if (biterse) _ekOkumaBekleyenler.push(biterse); return; }
   EKOKUMA_DURUM.deneniyor = true;
   var v = window.SURUM;
-  var kalan = _EKOKUMA_DOSYA_ADLARI.length;
+  // CEVIRI-EKOKUMA-1125: seçili dilin kart çevirileri kartlarla AYNI anda iner (açılışta değil).
+  var _ceviriler = (window.Ceviri && window.Ceviri.ekDosyalari) ? window.Ceviri.ekDosyalari() : [];
+  var _toplamDosya = _EKOKUMA_DOSYA_ADLARI.length + _ceviriler.length;
+  var kalan = _toplamDosya;
   var _bulunan = 0, _bulunmayan = 0;
   function biri(varMi) {
     if (varMi) _bulunan++; else _bulunmayan++;
     kalan--;
     if (kalan <= 0) {
       EKOKUMA_DURUM.yuklendi = true;
-      console.log("[ekOkuma] " + _bulunan + "/" + _EKOKUMA_DOSYA_ADLARI.length +
+      console.log("[ekOkuma] " + _bulunan + "/" + _toplamDosya +
                    " dosya yüklendi (" + _bulunmayan + " henüz yok, normal).");
       var bekleyenler = _ekOkumaBekleyenler;
       _ekOkumaBekleyenler = [];
@@ -14213,13 +14216,15 @@ function ekOkumaMerakYukle(biterse) {
       bekleyenler.forEach(function (cb) { cb(); });
     }
   }
-  _EKOKUMA_DOSYA_ADLARI.forEach(function (ad) {
-    var s = document.createElement("script");
-    s.src = "data/" + ad + ".js" + (v ? "?v=" + v : "");
-    s.onload = function () { biri(true); };
-    s.onerror = function () { biri(false); };   // dosya henüz yok — sessiz, buton çıkmaz
-    document.head.appendChild(s);
-  });
+  _EKOKUMA_DOSYA_ADLARI.map(function (ad) { return "data/" + ad + ".js" + (v ? "?v=" + v : ""); })
+    .concat(_ceviriler.map(function (c) { return "data/" + c[0] + "?v=" + c[1]; }))
+    .forEach(function (yol) {
+      var s = document.createElement("script");
+      s.src = yol;
+      s.onload = function () { biri(true); };
+      s.onerror = function () { biri(false); };   // dosya henüz yok — sessiz, buton çıkmaz
+      document.head.appendChild(s);
+    });
 }
 // GENEL HAVUZ — koordinatörün isteği (yayın kapısının dinamik dalıyla AYNI
 // biçim: `/^EKOKUMA.../` çıpalı regex): dosya EKLENDİĞİNDE bu fonksiyona
@@ -14574,6 +14579,7 @@ function _ekSatirBasligi(tur, k) {
   // ("Kimdir?") basıyordu. D-GEOARAC'ın önerisi (data/ekokuma_baslik_oneri.js)
   // yalnız kaydın KENDİ başlığı/sorusu yoksa devreye girer.
   var oneri = (window.EKOBASLIK_ONERI || {})[k.id];
+  if (window.Ceviri && window.Ceviri.kart) { oneri = window.Ceviri.kartOneri(k.id, oneri); k = window.Ceviri.kart(k); }
   if (!k.soru && !k.baslik && oneri) {
     ham = oneri;
   } else if (k.tur === "sebep-sonuc" && (k.sebep || k.sonuc)) {
@@ -14754,6 +14760,7 @@ function _ekAkordeonAc(i) {
 
 function ekKartHtml(k) {
   k = _icNotAyikla(k);                 // PAKET-UI2: iç not ASLA basılmaz
+  if (window.Ceviri && window.Ceviri.kart) k = window.Ceviri.kart(k);   // CEVIRI-EKOKUMA-1125
   var rivayet = k.kesinlik === "rivayet";
   var h = '<div class="ek-kart' + (rivayet ? " rivayet" : "") + '">';
   h += kesinlikRozeti(k.kesinlik);
@@ -14880,7 +14887,7 @@ function ekKartHtml(k) {
       if (k[a] && typeof k[a] === "string") h += _maddeliMetniHtmle(k[a]);
     });
   }
-  if (k.kaynak) h += '<p class="ek-alt">Kaynak: ' + ekEsc(k.kaynak) + "</p>";
+  if (k.kaynak) h += '<p class="ek-alt">' + ekEsc(window.Ceviri && window.Ceviri.t ? window.Ceviri.t("Kaynak:") : "Kaynak:") + " " + ekEsc(k.kaynak) + "</p>";
   h += "</div>";
   return h;
 }

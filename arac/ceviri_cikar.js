@@ -79,4 +79,60 @@ for (const f of jsler) {
   }
 }
 for (const g of gunKalip) if (g.length <= 400) aday.add(g);
-process.stdout.write(JSON.stringify({ hatalar, olay, devlet, arayuz: [...aday].sort() }));
+// ---- ek okuma kartları (CEVIRI-EKOKUMA-1125) ----
+// Diskteki BÜTÜN data/ekokuma*.js dosyaları okunur (tembel yüklenirler, index.html'de yoklar);
+// yeni bir kart dosyası kendiliğinden kapsanır. Yalnız app.js `ekKartHtml` ve `_ekSatirBasligi`nin
+// EKRANA BASTIĞI alanlar alınır; ic_not* ve kaynak (bibliyografya) çevrilmez.
+const ekWin = {}; ekWin.window = ekWin;
+const ekCtx = vm.createContext(ekWin);
+for (const f of fs.readdirSync(path.join(kok, "data")).filter(f => /^ekokuma[A-Za-z0-9_]*\.js$/.test(f)).sort()) {
+  try { vm.runInContext(oku("data/" + f), ekCtx, { filename: f }); } catch (e) { hatalar.push("data/" + f + ": " + e.message); }
+}
+const oneri = ekWin.EKOBASLIK_ONERI || {};
+function kartAlanlari(k) {
+  const a = {};
+  const al = (yol, v) => { if (typeof v === "string" && v.trim()) a[yol] = v; };
+  const ver = (...adlar) => { for (const ad of adlar) al(ad, k[ad]); };
+  const ilk = (...adlar) => { const ad = adlar.find(x => k[x]); if (ad) al(ad, k[ad]); };
+  // akordeon satır başlığı (_ekSatirBasligi)
+  if (!k.soru && !k.baslik && oneri[k.id]) al("oneri", oneri[k.id]);
+  else ilk("soru", "baslik", "ad");
+  if (k.tur === "sebep-sonuc") {
+    if (k.sebep && k.sebep.b || k.sonuc && k.sonuc.b) { al("sebep.b", k.sebep && k.sebep.b); al("sonuc.b", k.sonuc && k.sonuc.b); }
+    else ilk("baslik", "ad", "soru");
+    ver("bag", "surec", "metin");
+  } else if (k.tur === "magazin" || k.tur === "aile-kunyesi") {
+    ilk("baslik", "kisa"); ver("metin", "not");
+  } else if (k.tur === "merak") {
+    ver("soru", "kisa");
+    const gad = k["goruşler"] ? "goruşler" : "gorusler";
+    (k[gad] || []).forEach((g, i) => { al(gad + "." + i + ".tez", g.tez); al(gad + "." + i + ".dayanak", g.dayanak); });
+  } else if (k.tur === "edebiyat") {
+    ver("baslik", "metin");
+    if (k.sanatci) { al("sanatci.ad", k.sanatci.ad); al("sanatci.hayat", k.sanatci.hayat); al("sanatci.onem", k.sanatci.onem); }
+    const q = k.alinti && k.alinti.metin;
+    if (q && !/^bulunamad[ıi]/.test(q)) al("alinti.metin", q);
+  } else if (k.tur === "kitapcik") {
+    ver("baslik", "kisa");
+    (k.bolumler || []).forEach((b, i) => ["baslik", "gun", "metin"].forEach(x => al("bolumler." + i + "." + x, b[x])));
+  } else if (k.tur === "savas-hikayesi") {
+    ver("baslik", "tarih_metin", "yer", "oncesi", "akis", "sonuc");
+    // app.js `_tartismaVarMi` ile aynı ölçüt: "ayrışma yok" cümlesi ekrana basılmaz. Çevrilmez ki
+    // Türkçe kalsın ve ölçüt çeviri kipinde de tutsun.
+    const tt = String(k.tartisma || "");
+    if (!(/kaynak/i.test(tt) && /ayrış/i.test(tt) && /kayde(t|dil)(mi?yor|memiş)/i.test(tt))) ver("tartisma");
+    (k.taraflar || []).forEach((t, i) => ["ad", "komutan", "kuvvet"].forEach(x => al("taraflar." + i + "." + x, t[x])));
+  } else {
+    ilk("baslik", "ad", "soru"); ver("ozet", "metin", "kisa", "not", "bag", "aciklama");
+  }
+  return a;
+}
+const ekokuma = [], ekSay = {};
+for (const ad of Object.keys(ekWin).filter(k => /^EKOKUMA(_[A-Z0-9]+)*$/.test(k) && Array.isArray(ekWin[k]))) {
+  for (const k of ekWin[ad]) {
+    if (!k || !k.id) continue;
+    const n = ekSay[k.id] = (ekSay[k.id] || 0) + 1;          // mükerrer id: "<id>~2"
+    ekokuma.push({ id: n > 1 ? k.id + "~" + n : k.id, dizi: ad, tur: k.tur || "", alan: kartAlanlari(k) });
+  }
+}
+process.stdout.write(JSON.stringify({ hatalar, olay, devlet, arayuz: [...aday].sort(), ekokuma }));

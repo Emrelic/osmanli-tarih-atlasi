@@ -19,7 +19,7 @@
 (function () {
   "use strict";
   var DIZIN = window.CEVIRI_DIZIN || { diller: [{ kod: "tr", ad: "Türkçe" }], dosyalar: {} };
-  var VERI = { arayuz: {}, devlet: {}, olay: {} };
+  var VERI = { arayuz: {}, devlet: {}, olay: {}, ekokuma: {} };
   var SAYAC = { olay_tamam: 0, olay_bayat: 0, olay_yok: 0, devlet_tamam: 0, devlet_bayat: 0, arayuz_eksik: {} };
 
   function dilSec() {
@@ -122,6 +122,45 @@
     if (RTL[DIL]) document.documentElement.classList.add("ceviri-rtl");
   }
   var RTL = { ar: 1, fa: 1, he: 1, ur: 1 };
+
+  // ---- Ek okuma kartları (CEVIRI-EKOKUMA-1125) ----
+  // Kayıt: kart id → {alan yolu: [metin, özet]}; yol "metin", "sebep.b", "taraflar.0.ad" …
+  // Dosyalar açılışta YÜKLENMEZ: app.js `ekOkumaMerakYukle` `ekDosyalari()` listesini kartlarla
+  // birlikte çeker. Kart verisi DEĞİŞTİRİLMEZ (bağlar ve süzgeçler Türkçeyi okur); çizim anında
+  // `kart(k)` çevrili bir KOPYA verir. Özeti tutmayan ya da çevirisi olmayan alan Türkçe kalır.
+  var EK_DOKUNMA = { id: 1, tur: 1, t: 1, olay: 1, baglanti: 1, kaynak: 1, kesinlik: 1, zincir: 1, savas_t: 1, gorsel: 1 };
+  var ekIndeks = null, ekIndeksBoy = -1;
+  function ekOzetIndeksi() {
+    var kimlikler = Object.keys(VERI.ekokuma);
+    if (ekIndeks && ekIndeksBoy === kimlikler.length) return ekIndeks;
+    ekIndeks = {}; ekIndeksBoy = kimlikler.length;
+    kimlikler.forEach(function (id) {
+      var r = VERI.ekokuma[id];
+      Object.keys(r).forEach(function (a) { ekIndeks[r[a][1]] = r[a][0]; });
+    });
+    return ekIndeks;
+  }
+  function ekMetin(r, yol, tr) {
+    var oz = ozet(tr);
+    if (r && r[yol] && r[yol][1] === oz) return r[yol][0];
+    var m = ekOzetIndeksi()[oz];   // mükerrer id ya da yeri değişen alan: aynı Türkçenin çevirisi
+    return m != null ? m : tr;
+  }
+  function ekKart(k) {
+    if (DIL === "tr" || !k || typeof k !== "object") return k;
+    var r = VERI.ekokuma[k.id];
+    function gez(v, yol) {
+      if (typeof v === "string") return v ? ekMetin(r, yol, v) : v;
+      if (Array.isArray(v)) return v.map(function (x, i) { return gez(x, yol + "." + i); });
+      if (!v || typeof v !== "object") return v;
+      var c = {};
+      Object.keys(v).forEach(function (a) {
+        c[a] = (!yol && EK_DOKUNMA[a]) ? v[a] : gez(v[a], yol ? yol + "." + a : a);
+      });
+      return c;
+    }
+    return gez(k, "");
+  }
 
   // ---- Arayüz sözlüğü: metin düğümleri + title/placeholder/aria-label ----
   // Anahtar: kırpılmış Türkçe; rakam dizileri "#" ile şablonlanır ("12 madde" ↔ "# madde").
@@ -298,6 +337,11 @@
       }
     },
     uygula: uygula,
+    kart: ekKart,
+    // kartın kendi başlığı yoksa kullanılan önerilen başlık (data/ekokuma_baslik_oneri.js)
+    kartOneri: function (id, tr) { return DIL === "tr" || !tr ? tr : ekMetin(VERI.ekokuma[id], "oneri", tr); },
+    // [[dosya adı, sürüm özeti], …] — seçili dilin ek okuma çeviri dosyaları
+    ekDosyalari: function () { return (DIL !== "tr" && DIZIN.ekokuma && DIZIN.ekokuma[DIL]) || []; },
     trB: function (o) { return o && o.b_tr != null ? o.b_tr : (o && o.b); },
     t: function (s) { var m = DIL === "tr" ? null : sozlukBul(s); return m == null ? s : m; },
     sayac: SAYAC,
