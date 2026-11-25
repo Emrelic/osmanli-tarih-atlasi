@@ -1,92 +1,163 @@
 // EK OKUMA - İSVEÇ, parti 01
 window.EKOKUMA_DEVISVEC01 = [
-
-{ id:"isvec-tartisma-xii-karl-olum", devlet:"isvec", tur:"tartisma",
-  baslik:"XII. Karl'ı kim vurdu: düşman mı, kendi adamları mı?",
-  kisa:"Bir kral siperde başından vuruldu. Üç otopsi yapıldı, bir düğme efsaneye dönüştü; soru üç yüzyıl sonra atış deneyleriyle yeniden soruldu.",
-  metin:"1718 sonbaharının sonunda XII. Karl, Norveç'teki Fredriksten Kalesi'nin önünde siper kazısını denetlerken öldü. Bir mermi başını soldan sağa delip geçmişti. Bulunduğu nokta kesin bilinmiyor; düşman hatlarına en yakın mesafe yaklaşık 175 metre olarak tahmin ediliyor.\n\nÖlümün çevresinde suikast kuramları oluştu. Rağbet gören bir görüşe göre kral, tüfekten atılan bir düğmeyle vurulmuştu. Kralın şapkasındaki 19-19,5 milimetrelik delik, düğmenin boyuna yakın olduğu için bu görüşün başlıca dayanaklarından sayıldı.\n\nNaaş 1746, 1859 ve 1917'de incelendi. İncelemeler tek bir merminin soldan sağa geçtiği sonucuna vardı. 1917'de çekilen röntgenlerde yara kanalında kurşun izi görülmedi.\n\n2022'de Oulu Üniversitesi öncülüğündeki bir ekip, yapay kafatası modellerine ve keçeye atış yaptı. 19,5 milimetrelik kurşun misket, modelde kurşun kalıntıları bıraktı ve açtığı yaralar kraldakilerden belirgin biçimde küçük kaldı. Keçede açtığı delik de en çok 17 milimetre oldu. 25,4 milimetrelik çelik bilye ise yaklaşık 20 milimetrelik delik açtı.\n\nTarihçiler ve araştırmacılar bugün ne diyor? Tam bir görüş birliği yok. Deneyi yapan ekip, merminin kurşun olmadığı, 19,5 milimetreden büyük olduğu sonucuna vardı. Ekibe göre bu, düşman hatlarından atılmış demir bir top saçması olabilir; çap da büyük olasılıkla 20 milimetreyi aşıyordu. Ancak aynı ekip merminin maddesini kesin olarak saptayamadığını, demirle ayrıca ek deney gerektiğini de belirtiyor. Aynı makale, suikast olasılığını öne süren başka yayınların bulunduğunu da aktarır.",
-  kesinlik:"tartismali",
-  olay:["1718-12-11|Fredriksten"],
-  kaynak:"Juho-Antti Junno, Markku Niskanen, Heli Maijanen, Jaakko Niinimäki, Alina Junno, Petteri Oura, \"The death of King Charles XII of Sweden revisited\", PNAS Nexus 1/5 (2022), pgac234, https://pmc.ncbi.nlm.nih.gov/articles/PMC9802245/",
-  teyit:"teyitli",
-  ic_not:"Olay maddesinin d alanındaki 'Vasa'nın erkek soyu sona erdi' ifadesi ayrıca denetlenmeli." },
-
-{ id:"isvec-tartisma-kristina-feragat", devlet:"isvec", tur:"tartisma",
-  baslik:"Kristina tacı neden bıraktı?",
-  kisa:"Beş yaşında tahta geçti, yirmi yedi yaşında tacından vazgeçti. Çağlar boyu kimileri onu vatanına sırt çevirmiş saydı.",
-  metin:"Kristina, babası II. Gustav Adolf 1632'de Lützen'de ölünce çocuk yaşta İsveç hükümdarı oldu ve 1644'te yönetimi devraldı. On yıl sonra, 6 Haziran 1654'te tahttan çekildi ve ülkeden neredeyse hemen ayrıldı.\n\nKarar bir anda alınmadı. Kraliçe, veliaht olarak kuzeni Karl Gustav'ı kabul ettirmek için uğraştı. 1650 meclisinde soylu olmayan zümrelerin hoşnutsuzluğunu ustaca kullandı; soyluların karşı çıkmasına rağmen taç Karl Gustav ile onun erkek soyuna bağlandı. Biyografisini yazan Marie-Louise Rodén'e göre Kristina, aynı yılın ekim ayında taç giydiğinde büyük olasılıkla çekilmeye çoktan karar vermişti.\n\n1651'de niyetini ilk kez krallık danışma kuruluna açtı. Aynı sıralarda Cizvit tarikatının başıyla yazışmaya başladı. 1652 başında Stockholm'e gelen iki temsilci, kraliçenin Katolik inanç ilkelerini büyük ölçüde benimsediği kanısına vardı. O dönemde İsveç Luteryendi; kraliçenin çocukluk eğitiminde bile Katolik ve Kalvinist öğretilerden uzak tutulması istenmişti.\n\nÇekilme belgesi Kristina'ya ömür boyu cömert bir gelir güvencesi tanıdı. Din değiştirdiğini ise hemen duyurmadı: 1654 Noel arifesinde Brüksel'de özel bir törenle, 1655 Kasım'ında Innsbruck'ta açıkça Katolik oldu. Roma'ya girişi, Katolik dünyasında iman uğruna güçlü bir tahtı feda eden hükümdar görüntüsüyle kutlandı.\n\nTarihçiler bugün ne diyor? Rodén'e göre eski kuşaklar dikkati feragat ve din değiştirmeye yöneltmiş, hatta Kristina'yı ulusal bir hain gibi görmüştü; güncel araştırma ise onu ulusal ve kültürel sınırları aşan bir Avrupalı olarak daha olumlu değerlendiriyor. Kısa saltanatının İsveç'e katkıları ise hâlâ görece az incelenmiş durumda.",
-  kesinlik:"tartismali",
-  olay:["1654-06-06|Kristina tahttan"],
-  kaynak:"Marie-Louise Rodén, \"Kristina, drottning\", Svenskt kvinnobiografiskt lexikon, 2018, https://skbl.se/en/article/Kristinadrottning",
-  teyit:"teyitli" },
-
-{ id:"isvec-savas-stockholm-1520", devlet:"isvec-birlik-oncesi", tur:"savas-hikayesi",
-  baslik:"Stockholm'ü savunan dul: 1520 kuşatması ve tutulmayan söz",
-  kisa:"Kocasını savaşta, yeni doğan oğlunu da ardından toprağa verdi; sonra başkentin savunmasını üstlendi. Kapıları bir af sözü üzerine açtı.",
-  tarih_metin:"1520 ilkbaharı - 5 Eylül 1520 (teslim); kapılar iki gün sonra açıldı",
-  yer:"Stockholm",
-  taraflar:[
-    { ad:"Stockholm savunucuları", komutan:"Kristina Nilsdotter Gyllenstierna" },
-    { ad:"Kalmar Birliği Kralı II. Christian'ın kuvvetleri", komutan:"II. Christian" }
-  ],
-  metin:"1520 Ocak'ında İsveç naibi Genç Sten Sture, Danimarka kralı II. Christian'ın ordusuyla çarpışırken bir top güllesiyle ağır yaralandı ve Stockholm'e dönerken öldü. Karısı Kristina Gyllenstierna hamileydi. Doğurduğu oğlan da yaşamadı ve babasının yanına gömüldü.\n\nÜlkenin büyük bölümü düşerken Kristina başkentin savunmasını üstlendi ve direnilmesini emretti. Şehir halkı arkasındaydı, ama bunun sonsuza dek yetmeyeceğini biliyordu. Kırsalda ayaklanma örgütlemeye çalıştı; deneyimli bir danışmanını müttefik aramak üzere Danzig'e yolladı. Büyük oğlu Nils de güvende olsun diye bu yolculuğa katıldı.\n\nII. Christian mayısta Stockholm önüne geldi. Şehir eylüle kadar dayandı. Kristina 5 Eylül'de, af ve bazı mülklerinin kendisinde kalması güvencesiyle teslim olmayı kabul etti; iki gün sonra kapılar açıldı.\n\nSöz tutulmadı. Kasım başındaki taç giyme töreninin ardından toplanan İsveç soyluları sorguya çekildi. Başpiskopos Gustav Trolle'ye ve krala karşı çıkmış olanlar hain ilan edildi. Tarihe Stockholm Kan Banyosu diye geçen bu olayda Kristina'nın iki erkek kardeşi öldürüldü. O da isyana kışkırtmakla suçlanıp ölüme mahkûm edildi. Biyografisini yazan Katarina Harrison Lindbergh'e göre erkek olsaydı kuşkusuz idam edilirdi. Bunun yerine hapsedildi; kocasının ve bebeğinin cesetleri mezardan çıkarılıp yakıldı. Beş yaşındaki kızı Magdalena tutsaklıkta öldü. Kristina 1523'te serbest bırakıldı.\n\nTarihçiler bugün ne diyor? Gelecek kuşaklar onu en çok Stockholm'ün savunucusu olarak hatırladı. Harrison Lindbergh ise onu daha geniş bir çerçevede, yaşamı boyunca ciddi siyasal güç kullanmış bir yüksek soylu olarak anlatıyor.",
-  kesinlik:"kesin",
-  olay:["1520-11-08|Stockholm Kanlı Düğünü"],
-  kaynak:"Katarina Harrison Lindbergh, \"Kristina Nilsdotter (Gyllenstierna)\", Svenskt kvinnobiografiskt lexikon, 2018, https://skbl.se/en/article/KristinaNilsdotterGyllenstierna",
-  teyit:"teyitli",
-  ic_not:"Gün-ay bilgileri SKBL'de verildiği gibi (o dönemin takvimi)." },
-
-{ id:"isvec-sebep-sonuc-1720-hurriyet", devlet:"isvec", tur:"sebep-sonuc",
-  baslik:"Bir kralın ölümü mutlakiyeti nasıl bitirdi?",
-  kisa:"Tahtı ilan etmek yetmedi: Ulrika Eleonora, kraliçe olabilmek için miras hakkından vazgeçmek zorunda kaldı.",
-  sebep:{ b:"XII. Karl'ın evlenmeden ve çocuksuz ölmesi", t:"1718-12-11" },
-  sonuc:{ b:"Mutlakiyeti yasaklayan yeni hükûmet biçimi ve Hürriyet Çağı", t:"1720-01-01" },
-  bag:"Veraset belirsizliği, meclis zümrelerine tacı verirken şart koşma fırsatı tanıdı.",
-  metin:"XII. Karl saltanatının çoğunu seferlerde geçirdi. Evlenmemişti, çocuğu yoktu. Bu durum küçük kız kardeşi Ulrika Eleonora'yı olası bir veliaht yapıyordu. Ama tahtta gözü olan tek kişi o değildi: yeğeni Holstein Dükü Karl Fredrik de hak iddia edebiliyordu.\n\nUlrika Eleonora hazırlıksız yakalanmadı. 1713'ten itibaren danışma kurulunda kralın vekili olarak bulunmuştu. 1715'te Hessen-Kassel veliahtı Fredrik ile evlendi; çiftin yazışmaları, kendilerini geleceğin hükümdarları olarak gördüklerini gösteriyor. Mayıs 1718'de Fredrik, kral ölürse nasıl davranacaklarını anlatan bir yazı bile gönderdi.\n\nÖlüm haberi gelince Ulrika Eleonora kendini hemen kraliçe ilan etti. Danışma kurulu bunu tanımadı ve kararı meclis zümrelerine bıraktı. Uzun görüşmelerin sonunda meclis bir şart koydu: miras yoluyla taht hakkından vazgeçerse onu hükümdar olarak kabul edecekti. Böylece konumu zümrelerin iyi niyetine bağlandı. Mutlakiyeti geri getirmeyeceğine razı olmak zorunda kaldı. Meclis de mutlakiyeti yasadışı sayan, meclise ve danışma kuruluna siyasette daha büyük rol veren, hükümdarın hareket alanını daraltan bir hükûmet biçimi kabul etti.\n\nKraliçe gücü kocasıyla paylaşmak istiyordu; meclis buna hiç razı olmadı. Sonunda tahtı Fredrik'e bırakmak zorunda kaldı ve 29 Şubat 1720'de tacı devretti. Yine de Fredrik'in taç giyme töreninde, o ölürse tacın kendisine döneceğini vurgulamak için krallık nişanlarını taşıma hakkında diretti.\n\nTarihçiler bugün ne diyor? İsveç tarih yazımı bu saltanatı Hürriyet Çağı'nın başlangıcı sayar. Biyografisini yazan Sari Nauman'a göre ise kraliçenin siyasal faaliyetleri ve görüşleri hâlâ yeterince araştırılmış değil.",
-  kesinlik:"kesin",
-  olay:["1720-01-01|Mutlakiyet kaldırıldı","1718-12-11|Fredriksten"],
-  kaynak:"Sari Nauman, \"Ulrika Eleonora d.y., drottning\", Svenskt kvinnobiografiskt lexikon, 2018, https://www.skbl.se/en/article/UlrikaEleonoradydrottning",
-  teyit:"teyitli" },
-
-{ id:"isvec-karsi-maria-eleonora", devlet:"isvec", tur:"karsi-anlati",
-  baslik:"\"Aklını yitiren dul\" mu, iktidar kavgasının kaybedeni mi?",
-  kisa:"Siyahlarla kaplı odalar, geciken bir cenaze, annesinden alınan küçük kraliçe: Maria Eleonora hakkındaki ünlü hikâyenin öbür yüzü.",
-  metin:"II. Gustav Adolf 1632'de Lützen'de öldüğünde geride küçük kızı Kristina'yı ve eşi Brandenburglu Maria Eleonora'yı bıraktı. Sonraki anlatılar dul kraliçeyi zor bir eş, kötü bir anne ve yasını aşırılığa vardıran dengesiz bir kadın olarak çizdi.\n\nOlayların arkasında bir yetki kavgası vardı. Maria Eleonora kızının naiplik hükûmetinde yer istedi; kayınvalidesinin örneğini hatırlattı. Kendi ailesinde kadınların naip olarak bile güç sahibi olması alışılmış bir şeydi. Ama kocası, ölümünden sonraki rolü için ona yazılı bir söz bırakmamıştı. Krallık Konseyi ise kralın, eşinin yönetime karıştırılmamasını özellikle öğütlediğini ileri sürdü. Anne ile Konsey kızın gelecekteki evliliği ve dul kraliçenin gelirleri konusunda da çatıştı.\n\nÜnlü siyah odalar ise o dönemde dul kraliçelerin yaslarını gösterme geleneğinin parçasıydı; İsveç'in önceki dul kraliçeleri de bunu yapmıştı. Kralın ancak 1634'te gömülmesi, ona konumuna yaraşır bir cenaze sağlama çabası olarak da okunabilir: soylu cenazeleri çoğu kez uzun hazırlık ve büyük kaynak isterdi.\n\n1636'da Konsey kızın bakımını annesinden aldı. Gerekçesi, onun Kristina'yı ihmal ettiği, kötü etkilediği ve İsveç'e karşı soğuttuğu iddiasıydı. Maria Eleonora 1640'ta ülkeden ayrıldı, 1648'de döndü. Dönüşünü kızı da istiyordu.\n\nTarihçiler bugün ne diyor? Karin Tegenborg Falkdalen'e göre olumsuz imge Konsey ile yaşanan güç mücadelesinden doğdu; kraliçeyi dönemi içinde ele alan sonraki araştırma daha ayrıntılı bir portre sundu. Anne kız ilişkisi karmaşıktı, ama sık anlatıldığı kadar kötü değildi. Kristina'nın annesinden uzak durduğu özyaşam öyküsü de, hayran olunan babasına benzerliğini vurgulayarak kendi hükümdarlığını meşrulaştırma ihtiyacıyla birlikte okunmalıdır.",
-  kesinlik:"tartismali",
-  olay:["1632-11-16|Lützen Savaşı"],
-  kaynak:"Karin Tegenborg Falkdalen, \"Maria Eleonora, drottning\", Svenskt kvinnobiografiskt lexikon, 2021, https://www.skbl.se/en/article/MariaEleonoradrottning",
-  teyit:"teyitli",
-  ic_not:"1632-11-16 olay metni 'altı yaşındaki Kristina' diyor; doğum 7 Aralık 1626 (SKBL) olduğundan beş yaşındaydı." },
-
-{ id:"isvec-sebep-sonuc-lovisa-ulrika", devlet:"isvec", tur:"sebep-sonuc",
-  baslik:"Annenin yarım kalan planı, oğulun darbesi",
-  kisa:"Lovisa Ulrika kraliyet gücünü artırmayı baş hedefi yaptı ve ağır bir yenilgi aldı. Oğlunun başarısını ise Berlin'de öğrendi.",
-  sebep:{ b:"Adolf Fredrik'in ölümü ve III. Gustav'ın tahta çıkışı", t:"1771-02-12" },
-  sonuc:{ b:"III. Gustav'ın darbesiyle kraliyet gücünün yeniden artması", t:"1772-08-19" },
-  bag:"Anne ve babasının sonuçsuz kalan güçlü krallık arayışını, tahta çıkmasının ertesi yılı oğulları sonuca ulaştırdı.",
-  metin:"Prusya prensesi Lovisa Ulrika, 1744'te İsveç veliahtı Adolf Fredrik ile evlendi. Hükümdarın güçlü olduğu bir ortamda yetişmişti; İsveç'te meclisin belirleyici ağırlığı ona doğal düzene aykırı görünüyordu. Erken dönemden başlayarak baş siyasi hedefi kraliyet gücünü artırmak oldu.\n\nÖnce Şapkalar partisiyle ittifak kurdu ve 1746-1747 meclisinde en parlak başarısını elde etti. Sonra ittifak çözüldü; kraliyet çiftini destekleyen bir saray partisi doğdu. 1755-1756 meclisi kralın hareket alanını daha da daralttı. Veliaht Gustav'ın yetiştirilme biçimini siyaseten sakıncalı bulan zümreler, anne babasının isteğine rağmen öğretmenini değiştirdi.\n\nDarbe fikri bu ortamda filizlendi. Plan erken ortaya çıktı, başlıca düzenleyiciler yakalandı ve sekizi idam edildi. Kraliçe genellikle asıl kışkırtıcı sayılır; kapsamlı planları olduğu tartışmasızdır. Kralın rolü ise daha belirsizdir. Merit Laine'e göre onu olabildiğince masum gösterme yönünde bir çıkar vardı; böylece karısınca yanlış yola sürüklendiği imgesi oluştu.\n\nAdolf Fredrik 1771'de öldü. Lovisa Ulrika aynı yıl Berlin'e gitti ve oğlu III. Gustav'ın yönetimi dönüştüren hamlesini orada öğrendi. Oğluna büyük bir hayranlık duydu. Sevinç uzun sürmedi: Gustav'ın, babası gibi bir kadının etkisine bağımlı görünmemek için annesinden uzaklaşması gerekiyordu. İlişki birkaç yıl sonra tümüyle koptu; kraliçe ancak ölüm döşeğinde oğluyla barıştı.\n\nTarihçiler bugün ne diyor? Laine, kraliyet çiftinin bir ekip gibi çalıştığına dair çok sayıda kanıt bulunduğunu, tarih yazımında zayıf iradeli diye geçen Adolf Fredrik'in rolünün ise yeterince araştırılmadığını belirtir.",
-  kesinlik:"kesin",
-  olay:["1772-08-19|III. Gustav'ın darbesi","1771-02-12|III. Gustav tahta"],
-  kaynak:"Merit Laine, \"Lovisa Ulrika, drottning\", Svenskt kvinnobiografiskt lexikon, 2018, https://skbl.se/en/article/LovisaUlrikadrottning",
-  teyit:"teyitli" },
-
-{ id:"isvec-magazin-descartes-kristina", devlet:"isvec", tur:"magazin",
-  baslik:"Descartes ile Kristina: sabah beşteki derslerden fazlası",
-  kisa:"Hikâye genellikle buz gibi bir saray ve şafaktan önceki derslerle anlatılır. Oysa kraliçe yıllar öncesinden filozofa zor sorular soruyordu.",
-  metin:"Kristina ile René Descartes'ın tanışıklığı Stockholm'de başlamadı. 1646'dan itibaren, Fransız elçisi Pierre Chanut'nün aracılığıyla yazıştılar. Konular ağırdı: sevginin doğası, evrenin sonsuz olup olmadığı ve insan için en yüce iyinin ne olduğu.\n\nKraliçenin ilk sorularından biri şuydu: sevgi mi daha kötü kullanılırsa zararlıdır, nefret mi? Descartes uzun bir incelemeyle karşılık verdi ve ölçüsüz sevginin, yargımızı daha kolay çarpıttığı için daha tehlikeli olduğunu savundu. Ardından kraliçe, evrenin sınırsızlığı düşüncesinin Yaratıcı ile yaratılanlar arasındaki farkı bulandırıp bulandırmadığını sordurdu. Descartes ihtiyatlıydı: dünyaya \"sonsuz\" demediğini, yalnızca sınırını kanıtlayacak bir gerekçe bulunmadığı için \"belirsiz genişlikte\" dediğini yazdı. En yüce iyi konusunda kraliçeden yanıt gelmeyince de görüşünün beğenilmediğinden kaygılandı.\n\n1649'da Descartes kraliçenin davetini kabul etti. Onun isteğiyle bir İsveç akademisinin tüzüğünü kaleme aldı. Tüzüğü teslim ettiği gün hastalandı, bir daha iyileşemedi ve 11 Şubat 1650'de öldü.\n\nKışın sarayda sabah saat beşte yapılan dersler, hikâyenin en çok bilinen parçasıdır. Felsefe ansiklopedisi IEP'deki Kristina maddesi bu dersleri anar ve ölüm nedenini zatürre olarak verir. Aynı madde geliş yılını 1650 diye gösterir; İsveç biyografi sözlüğü ise filozofun Stockholm'deki aylarını 1649 sonu ile 1650 başına yerleştirir.\n\nTarihçiler bugün ne diyor? IEP maddesi, Kristina'yı yalnızca ünlü bir öğrencinin yerine koymaz. Yazışmaları, onun Descartes felsefesinin birkaç temel noktasını eleştiren bir düşünür olduğunu gösteren belgeler olarak okur: iki düşünürün ayrılıkları uzlaştıkları noktalardan daha belirgindir. Kraliçenin kuşkuları zihin-beden ikiliği, dinî öğreti ve erdem anlayışı üzerinde toplanır.",
-  kesinlik:"kesin",
-  olay:["1649-10-01|Descartes"],
-  kaynak:"\"Kristina Wasa (1626-1689)\", Internet Encyclopedia of Philosophy, https://iep.utm.edu/wasa/ ; \"René Descartes\", Stanford Encyclopedia of Philosophy (düzeltme 2023), https://plato.stanford.edu/entries/descartes/ ; Marie-Louise Rodén, Svenskt kvinnobiografiskt lexikon, 2018, https://skbl.se/en/article/Kristinadrottning",
-  teyit:"teyitli",
-  ic_not:"Olay maddesinin d alanı ölümü derslerin soğuğuna bağlıyor; SEP nedensellik kurmuyor. IEP yazar adı sayfadan teyit edilmedi, yazılmadı. IEP geliş yılı 1650 ile SKBL/SEP 1649 çelişiyor." },
-
-{ id:"isvec-kimdir-kristina-dusunur", devlet:"isvec", tur:"kimdir",
-  baslik:"\"Kadınlar hükmetmemeli\" diye yazan kraliçe",
-  kisa:"Ruhun cinsiyeti olmadığını savunan Kristina, aynı derlemelerde kadınların yönetmemesi gerektiğini de yazdı. İkisini nasıl okumalı?",
-  metin:"Kristina yalnızca tacından vazgeçen hükümdar değildi; ardında çoğu Fransızca yazılmış dağınık ama geniş bir külliyat bıraktı. Geniş yazışmaları, yarım kalmış bir özyaşam öyküsü, İskender ile Sezar üzerine denemeleri ve özlü söz derlemeleri vardır. Özyaşam öyküsü dikkatle okunmalıdır: pek çok olay, kitabın yüceltici amacına göre değiştirilmiş ya da süslenmiştir.\n\nGençliğinde Stoacı yazarlara ilgi duymuştu; yine de özlü sözlerinde beklenmedik bir ses duyulur. Tutkuları hayatın tuzu sayar ve filozofların övdüğü duygusuz dinginliği yavan bulur. La Rochefoucauld'nun alaycı vecizelerine yazdığı yorumlarda aşkın ve dostluğun gücünü savunur. Kadını duygusal, erkeği akılcı sayan kalıba karşı çıkar. Görücü usulü, çıkar için yapılan evlilikleri sert biçimde eleştirir ve bekâr yaşamı savunurken kendini örnek gösterir.\n\nEn dikkat çekici cümlelerinden biri ruhun cinsiyeti olmadığı düşüncesidir. Ona göre kadın ve erkek arasında gözlenen farkları mizaç ve eğitim açıklar. Fakat başka vecizelerde kadınların hükmetmemesi gerektiğini yazar; geçmişte başarıyla yönetmiş kraliçeleri güvenilemeyecek kadar nadir istisnalar sayar.\n\nBu, daha da şaşırtıcıdır, çünkü tacı bıraktıktan sonra siyasetten tümüyle kopmadı: 1657'de Napoli tahtı için plan kurdu, sonra Polonya tacını da hedefledi. Aynı yıl Fontainebleau'da planını ele verdiğini öğrendiği bir görevlisini huzurunda idam ettirmesi kamuoyunu sarsmıştı.\n\nTarihçiler ve felsefe araştırmacıları bugün ne diyor? Internet Encyclopedia of Philosophy maddesi vecizelerin ihtiyatla yorumlanması gerektiğini belirtir: parçalı, yer yer kapalı ve çelişkilidirler. Kadın yönetimine karşı sözleri açıklamak güçtür. Madde bunları ya Kristina'nın aykırı mizacına ya da İsveç'teki hükümdarlığının acı deneyimine bağlar; yine de bu sözler, başka yerlerde savunduğu cins eşitliğiyle yan yana durur.",
-  kesinlik:"tartismali",
-  olay:["1654-06-06|Kristina tahttan"],
-  kaynak:"\"Kristina Wasa (1626-1689)\", Internet Encyclopedia of Philosophy, https://iep.utm.edu/wasa/",
-  teyit:"teyitli" }
-
+  {
+    "id": "isvec-tartisma-xii-karl-olum",
+    "devlet": "isvec",
+    "tur": "tartisma",
+    "baslik": "XII. Karl'ı kim vurdu: düşman mı, kendi adamları mı?",
+    "kisa": "Bir kral siperde başından vuruldu. Üç otopsi yapıldı, bir düğme efsaneye dönüştü; soru üç yüzyıl sonra atış deneyleriyle yeniden soruldu.",
+    "metin": "1718 sonbaharının sonunda XII. Karl, Norveç'teki Fredriksten Kalesi'nin önünde siper kazısını denetlerken öldü. Bir mermi başını soldan sağa delip geçmişti. Bulunduğu nokta kesin bilinmiyor; düşman hatlarına en yakın mesafe yaklaşık 175 metre olarak tahmin ediliyor.\n\nÖlümün çevresinde suikast kuramları oluştu. Rağbet gören bir görüşe göre kral, tüfekten atılan bir düğmeyle vurulmuştu. Kralın şapkasındaki 19-19,5 milimetrelik delik, düğmenin boyuna yakın olduğu için bu görüşün başlıca dayanaklarından sayıldı.\n\nNaaş 1746, 1859 ve 1917'de incelendi. İncelemeler tek bir merminin soldan sağa geçtiği sonucuna vardı. 1917'de çekilen röntgenlerde yara kanalında kurşun izi görülmedi.\n\n2022'de Oulu Üniversitesi öncülüğündeki bir ekip, yapay kafatası modellerine ve keçeye atış yaptı. 19,5 milimetrelik kurşun misket, modelde kurşun kalıntıları bıraktı ve açtığı yaralar kraldakilerden belirgin biçimde küçük kaldı. Keçede açtığı delik de en çok 17 milimetre oldu. 25,4 milimetrelik çelik bilye ise yaklaşık 20 milimetrelik delik açtı.\n\nTarihçiler ve araştırmacılar bugün ne diyor? Tam bir görüş birliği yok. Deneyi yapan ekip, merminin kurşun olmadığı, 19,5 milimetreden büyük olduğu sonucuna vardı. Ekibe göre bu, düşman hatlarından atılmış demir bir top saçması olabilir; çap da büyük olasılıkla 20 milimetreyi aşıyordu. Ancak aynı ekip merminin maddesini kesin olarak saptayamadığını, demirle ayrıca ek deney gerektiğini de belirtiyor. Aynı makale, suikast olasılığını öne süren başka yayınların bulunduğunu da aktarır.",
+    "kesinlik": "tartismali",
+    "olay": [
+      "1718-12-11|Fredriksten"
+    ],
+    "kaynak": "Juho-Antti Junno, Markku Niskanen, Heli Maijanen, Jaakko Niinimäki, Alina Junno, Petteri Oura, \"The death of King Charles XII of Sweden revisited\", PNAS Nexus 1/5 (2022), pgac234, https://pmc.ncbi.nlm.nih.gov/articles/PMC9802245/",
+    "teyit": "teyitsiz",
+    "ic_not": "Olay maddesinin d alanındaki 'Vasa'nın erkek soyu sona erdi' ifadesi ayrıca denetlenmeli. ERİŞİM YÖNTEMİ KURAL DIŞI: kaynak tarayıcı taklidi başlıkla (Mozilla/5.0) çekildi; sitenin bu başlık olmadan engelleyip engellemediği ölçülmedi. Yeniden, kurala uygun okunana kadar yayın adayı değil.",
+    "yayin_adayi": false
+  },
+  {
+    "id": "isvec-tartisma-kristina-feragat",
+    "devlet": "isvec",
+    "tur": "tartisma",
+    "baslik": "Kristina tacı neden bıraktı?",
+    "kisa": "Beş yaşında tahta geçti, yirmi yedi yaşında tacından vazgeçti. Çağlar boyu kimileri onu vatanına sırt çevirmiş saydı.",
+    "metin": "Kristina, babası II. Gustav Adolf 1632'de Lützen'de ölünce çocuk yaşta İsveç hükümdarı oldu ve 1644'te yönetimi devraldı. On yıl sonra, 6 Haziran 1654'te tahttan çekildi ve ülkeden neredeyse hemen ayrıldı.\n\nKarar bir anda alınmadı. Kraliçe, veliaht olarak kuzeni Karl Gustav'ı kabul ettirmek için uğraştı. 1650 meclisinde soylu olmayan zümrelerin hoşnutsuzluğunu ustaca kullandı; soyluların karşı çıkmasına rağmen taç Karl Gustav ile onun erkek soyuna bağlandı. Biyografisini yazan Marie-Louise Rodén'e göre Kristina, aynı yılın ekim ayında taç giydiğinde büyük olasılıkla çekilmeye çoktan karar vermişti.\n\n1651'de niyetini ilk kez krallık danışma kuruluna açtı. Aynı sıralarda Cizvit tarikatının başıyla yazışmaya başladı. 1652 başında Stockholm'e gelen iki temsilci, kraliçenin Katolik inanç ilkelerini büyük ölçüde benimsediği kanısına vardı. O dönemde İsveç Luteryendi; kraliçenin çocukluk eğitiminde bile Katolik ve Kalvinist öğretilerden uzak tutulması istenmişti.\n\nÇekilme belgesi Kristina'ya ömür boyu cömert bir gelir güvencesi tanıdı. Din değiştirdiğini ise hemen duyurmadı: 1654 Noel arifesinde Brüksel'de özel bir törenle, 1655 Kasım'ında Innsbruck'ta açıkça Katolik oldu. Roma'ya girişi, Katolik dünyasında iman uğruna güçlü bir tahtı feda eden hükümdar görüntüsüyle kutlandı.\n\nTarihçiler bugün ne diyor? Rodén'e göre eski kuşaklar dikkati feragat ve din değiştirmeye yöneltmiş, hatta Kristina'yı ulusal bir hain gibi görmüştü; güncel araştırma ise onu ulusal ve kültürel sınırları aşan bir Avrupalı olarak daha olumlu değerlendiriyor. Kısa saltanatının İsveç'e katkıları ise hâlâ görece az incelenmiş durumda.",
+    "kesinlik": "tartismali",
+    "olay": [
+      "1654-06-06|Kristina tahttan"
+    ],
+    "kaynak": "Marie-Louise Rodén, \"Kristina, drottning\", Svenskt kvinnobiografiskt lexikon, 2018, https://skbl.se/en/article/Kristinadrottning",
+    "teyit": "teyitsiz",
+    "yayin_adayi": false,
+    "ic_not": "ERİŞİM YÖNTEMİ KURAL DIŞI: kaynak tarayıcı taklidi başlıkla (Mozilla/5.0) çekildi; sitenin bu başlık olmadan engelleyip engellemediği ölçülmedi. Yeniden, kurala uygun okunana kadar yayın adayı değil."
+  },
+  {
+    "id": "isvec-savas-stockholm-1520",
+    "devlet": "isvec-birlik-oncesi",
+    "tur": "savas-hikayesi",
+    "baslik": "Stockholm'ü savunan dul: 1520 kuşatması ve tutulmayan söz",
+    "kisa": "Kocasını savaşta, yeni doğan oğlunu da ardından toprağa verdi; sonra başkentin savunmasını üstlendi. Kapıları bir af sözü üzerine açtı.",
+    "tarih_metin": "1520 ilkbaharı - 5 Eylül 1520 (teslim); kapılar iki gün sonra açıldı",
+    "yer": "Stockholm",
+    "taraflar": [
+      {
+        "ad": "Stockholm savunucuları",
+        "komutan": "Kristina Nilsdotter Gyllenstierna"
+      },
+      {
+        "ad": "Kalmar Birliği Kralı II. Christian'ın kuvvetleri",
+        "komutan": "II. Christian"
+      }
+    ],
+    "metin": "1520 Ocak'ında İsveç naibi Genç Sten Sture, Danimarka kralı II. Christian'ın ordusuyla çarpışırken bir top güllesiyle ağır yaralandı ve Stockholm'e dönerken öldü. Karısı Kristina Gyllenstierna hamileydi. Doğurduğu oğlan da yaşamadı ve babasının yanına gömüldü.\n\nÜlkenin büyük bölümü düşerken Kristina başkentin savunmasını üstlendi ve direnilmesini emretti. Şehir halkı arkasındaydı, ama bunun sonsuza dek yetmeyeceğini biliyordu. Kırsalda ayaklanma örgütlemeye çalıştı; deneyimli bir danışmanını müttefik aramak üzere Danzig'e yolladı. Büyük oğlu Nils de güvende olsun diye bu yolculuğa katıldı.\n\nII. Christian mayısta Stockholm önüne geldi. Şehir eylüle kadar dayandı. Kristina 5 Eylül'de, af ve bazı mülklerinin kendisinde kalması güvencesiyle teslim olmayı kabul etti; iki gün sonra kapılar açıldı.\n\nSöz tutulmadı. Kasım başındaki taç giyme töreninin ardından toplanan İsveç soyluları sorguya çekildi. Başpiskopos Gustav Trolle'ye ve krala karşı çıkmış olanlar hain ilan edildi. Tarihe Stockholm Kan Banyosu diye geçen bu olayda Kristina'nın iki erkek kardeşi öldürüldü. O da isyana kışkırtmakla suçlanıp ölüme mahkûm edildi. Biyografisini yazan Katarina Harrison Lindbergh'e göre erkek olsaydı kuşkusuz idam edilirdi. Bunun yerine hapsedildi; kocasının ve bebeğinin cesetleri mezardan çıkarılıp yakıldı. Beş yaşındaki kızı Magdalena tutsaklıkta öldü. Kristina 1523'te serbest bırakıldı.\n\nTarihçiler bugün ne diyor? Gelecek kuşaklar onu en çok Stockholm'ün savunucusu olarak hatırladı. Harrison Lindbergh ise onu daha geniş bir çerçevede, yaşamı boyunca ciddi siyasal güç kullanmış bir yüksek soylu olarak anlatıyor.",
+    "kesinlik": "kesin",
+    "olay": [
+      "1520-11-08|Stockholm Kanlı Düğünü"
+    ],
+    "kaynak": "Katarina Harrison Lindbergh, \"Kristina Nilsdotter (Gyllenstierna)\", Svenskt kvinnobiografiskt lexikon, 2018, https://skbl.se/en/article/KristinaNilsdotterGyllenstierna",
+    "teyit": "teyitsiz",
+    "ic_not": "Gün-ay bilgileri SKBL'de verildiği gibi (o dönemin takvimi). ERİŞİM YÖNTEMİ KURAL DIŞI: kaynak tarayıcı taklidi başlıkla (Mozilla/5.0) çekildi; sitenin bu başlık olmadan engelleyip engellemediği ölçülmedi. Yeniden, kurala uygun okunana kadar yayın adayı değil.",
+    "yayin_adayi": false
+  },
+  {
+    "id": "isvec-sebep-sonuc-1720-hurriyet",
+    "devlet": "isvec",
+    "tur": "sebep-sonuc",
+    "baslik": "Bir kralın ölümü mutlakiyeti nasıl bitirdi?",
+    "kisa": "Tahtı ilan etmek yetmedi: Ulrika Eleonora, kraliçe olabilmek için miras hakkından vazgeçmek zorunda kaldı.",
+    "sebep": {
+      "b": "XII. Karl'ın evlenmeden ve çocuksuz ölmesi",
+      "t": "1718-12-11"
+    },
+    "sonuc": {
+      "b": "Mutlakiyeti yasaklayan yeni hükûmet biçimi ve Hürriyet Çağı",
+      "t": "1720-01-01"
+    },
+    "bag": "Veraset belirsizliği, meclis zümrelerine tacı verirken şart koşma fırsatı tanıdı.",
+    "metin": "XII. Karl saltanatının çoğunu seferlerde geçirdi. Evlenmemişti, çocuğu yoktu. Bu durum küçük kız kardeşi Ulrika Eleonora'yı olası bir veliaht yapıyordu. Ama tahtta gözü olan tek kişi o değildi: yeğeni Holstein Dükü Karl Fredrik de hak iddia edebiliyordu.\n\nUlrika Eleonora hazırlıksız yakalanmadı. 1713'ten itibaren danışma kurulunda kralın vekili olarak bulunmuştu. 1715'te Hessen-Kassel veliahtı Fredrik ile evlendi; çiftin yazışmaları, kendilerini geleceğin hükümdarları olarak gördüklerini gösteriyor. Mayıs 1718'de Fredrik, kral ölürse nasıl davranacaklarını anlatan bir yazı bile gönderdi.\n\nÖlüm haberi gelince Ulrika Eleonora kendini hemen kraliçe ilan etti. Danışma kurulu bunu tanımadı ve kararı meclis zümrelerine bıraktı. Uzun görüşmelerin sonunda meclis bir şart koydu: miras yoluyla taht hakkından vazgeçerse onu hükümdar olarak kabul edecekti. Böylece konumu zümrelerin iyi niyetine bağlandı. Mutlakiyeti geri getirmeyeceğine razı olmak zorunda kaldı. Meclis de mutlakiyeti yasadışı sayan, meclise ve danışma kuruluna siyasette daha büyük rol veren, hükümdarın hareket alanını daraltan bir hükûmet biçimi kabul etti.\n\nKraliçe gücü kocasıyla paylaşmak istiyordu; meclis buna hiç razı olmadı. Sonunda tahtı Fredrik'e bırakmak zorunda kaldı ve 29 Şubat 1720'de tacı devretti. Yine de Fredrik'in taç giyme töreninde, o ölürse tacın kendisine döneceğini vurgulamak için krallık nişanlarını taşıma hakkında diretti.\n\nTarihçiler bugün ne diyor? İsveç tarih yazımı bu saltanatı Hürriyet Çağı'nın başlangıcı sayar. Biyografisini yazan Sari Nauman'a göre ise kraliçenin siyasal faaliyetleri ve görüşleri hâlâ yeterince araştırılmış değil.",
+    "kesinlik": "kesin",
+    "olay": [
+      "1720-01-01|Mutlakiyet kaldırıldı",
+      "1718-12-11|Fredriksten"
+    ],
+    "kaynak": "Sari Nauman, \"Ulrika Eleonora d.y., drottning\", Svenskt kvinnobiografiskt lexikon, 2018, https://www.skbl.se/en/article/UlrikaEleonoradydrottning",
+    "teyit": "teyitsiz",
+    "yayin_adayi": false,
+    "ic_not": "ERİŞİM YÖNTEMİ KURAL DIŞI: kaynak tarayıcı taklidi başlıkla (Mozilla/5.0) çekildi; sitenin bu başlık olmadan engelleyip engellemediği ölçülmedi. Yeniden, kurala uygun okunana kadar yayın adayı değil."
+  },
+  {
+    "id": "isvec-karsi-maria-eleonora",
+    "devlet": "isvec",
+    "tur": "karsi-anlati",
+    "baslik": "\"Aklını yitiren dul\" mu, iktidar kavgasının kaybedeni mi?",
+    "kisa": "Siyahlarla kaplı odalar, geciken bir cenaze, annesinden alınan küçük kraliçe: Maria Eleonora hakkındaki ünlü hikâyenin öbür yüzü.",
+    "metin": "II. Gustav Adolf 1632'de Lützen'de öldüğünde geride küçük kızı Kristina'yı ve eşi Brandenburglu Maria Eleonora'yı bıraktı. Sonraki anlatılar dul kraliçeyi zor bir eş, kötü bir anne ve yasını aşırılığa vardıran dengesiz bir kadın olarak çizdi.\n\nOlayların arkasında bir yetki kavgası vardı. Maria Eleonora kızının naiplik hükûmetinde yer istedi; kayınvalidesinin örneğini hatırlattı. Kendi ailesinde kadınların naip olarak bile güç sahibi olması alışılmış bir şeydi. Ama kocası, ölümünden sonraki rolü için ona yazılı bir söz bırakmamıştı. Krallık Konseyi ise kralın, eşinin yönetime karıştırılmamasını özellikle öğütlediğini ileri sürdü. Anne ile Konsey kızın gelecekteki evliliği ve dul kraliçenin gelirleri konusunda da çatıştı.\n\nÜnlü siyah odalar ise o dönemde dul kraliçelerin yaslarını gösterme geleneğinin parçasıydı; İsveç'in önceki dul kraliçeleri de bunu yapmıştı. Kralın ancak 1634'te gömülmesi, ona konumuna yaraşır bir cenaze sağlama çabası olarak da okunabilir: soylu cenazeleri çoğu kez uzun hazırlık ve büyük kaynak isterdi.\n\n1636'da Konsey kızın bakımını annesinden aldı. Gerekçesi, onun Kristina'yı ihmal ettiği, kötü etkilediği ve İsveç'e karşı soğuttuğu iddiasıydı. Maria Eleonora 1640'ta ülkeden ayrıldı, 1648'de döndü. Dönüşünü kızı da istiyordu.\n\nTarihçiler bugün ne diyor? Karin Tegenborg Falkdalen'e göre olumsuz imge Konsey ile yaşanan güç mücadelesinden doğdu; kraliçeyi dönemi içinde ele alan sonraki araştırma daha ayrıntılı bir portre sundu. Anne kız ilişkisi karmaşıktı, ama sık anlatıldığı kadar kötü değildi. Kristina'nın annesinden uzak durduğu özyaşam öyküsü de, hayran olunan babasına benzerliğini vurgulayarak kendi hükümdarlığını meşrulaştırma ihtiyacıyla birlikte okunmalıdır.",
+    "kesinlik": "tartismali",
+    "olay": [
+      "1632-11-16|Lützen Savaşı"
+    ],
+    "kaynak": "Karin Tegenborg Falkdalen, \"Maria Eleonora, drottning\", Svenskt kvinnobiografiskt lexikon, 2021, https://www.skbl.se/en/article/MariaEleonoradrottning",
+    "teyit": "teyitsiz",
+    "ic_not": "1632-11-16 olay metni 'altı yaşındaki Kristina' diyor; doğum 7 Aralık 1626 (SKBL) olduğundan beş yaşındaydı. ERİŞİM YÖNTEMİ KURAL DIŞI: kaynak tarayıcı taklidi başlıkla (Mozilla/5.0) çekildi; sitenin bu başlık olmadan engelleyip engellemediği ölçülmedi. Yeniden, kurala uygun okunana kadar yayın adayı değil.",
+    "yayin_adayi": false
+  },
+  {
+    "id": "isvec-sebep-sonuc-lovisa-ulrika",
+    "devlet": "isvec",
+    "tur": "sebep-sonuc",
+    "baslik": "Annenin yarım kalan planı, oğulun darbesi",
+    "kisa": "Lovisa Ulrika kraliyet gücünü artırmayı baş hedefi yaptı ve ağır bir yenilgi aldı. Oğlunun başarısını ise Berlin'de öğrendi.",
+    "sebep": {
+      "b": "Adolf Fredrik'in ölümü ve III. Gustav'ın tahta çıkışı",
+      "t": "1771-02-12"
+    },
+    "sonuc": {
+      "b": "III. Gustav'ın darbesiyle kraliyet gücünün yeniden artması",
+      "t": "1772-08-19"
+    },
+    "bag": "Anne ve babasının sonuçsuz kalan güçlü krallık arayışını, tahta çıkmasının ertesi yılı oğulları sonuca ulaştırdı.",
+    "metin": "Prusya prensesi Lovisa Ulrika, 1744'te İsveç veliahtı Adolf Fredrik ile evlendi. Hükümdarın güçlü olduğu bir ortamda yetişmişti; İsveç'te meclisin belirleyici ağırlığı ona doğal düzene aykırı görünüyordu. Erken dönemden başlayarak baş siyasi hedefi kraliyet gücünü artırmak oldu.\n\nÖnce Şapkalar partisiyle ittifak kurdu ve 1746-1747 meclisinde en parlak başarısını elde etti. Sonra ittifak çözüldü; kraliyet çiftini destekleyen bir saray partisi doğdu. 1755-1756 meclisi kralın hareket alanını daha da daralttı. Veliaht Gustav'ın yetiştirilme biçimini siyaseten sakıncalı bulan zümreler, anne babasının isteğine rağmen öğretmenini değiştirdi.\n\nDarbe fikri bu ortamda filizlendi. Plan erken ortaya çıktı, başlıca düzenleyiciler yakalandı ve sekizi idam edildi. Kraliçe genellikle asıl kışkırtıcı sayılır; kapsamlı planları olduğu tartışmasızdır. Kralın rolü ise daha belirsizdir. Merit Laine'e göre onu olabildiğince masum gösterme yönünde bir çıkar vardı; böylece karısınca yanlış yola sürüklendiği imgesi oluştu.\n\nAdolf Fredrik 1771'de öldü. Lovisa Ulrika aynı yıl Berlin'e gitti ve oğlu III. Gustav'ın yönetimi dönüştüren hamlesini orada öğrendi. Oğluna büyük bir hayranlık duydu. Sevinç uzun sürmedi: Gustav'ın, babası gibi bir kadının etkisine bağımlı görünmemek için annesinden uzaklaşması gerekiyordu. İlişki birkaç yıl sonra tümüyle koptu; kraliçe ancak ölüm döşeğinde oğluyla barıştı.\n\nTarihçiler bugün ne diyor? Laine, kraliyet çiftinin bir ekip gibi çalıştığına dair çok sayıda kanıt bulunduğunu, tarih yazımında zayıf iradeli diye geçen Adolf Fredrik'in rolünün ise yeterince araştırılmadığını belirtir.",
+    "kesinlik": "kesin",
+    "olay": [
+      "1772-08-19|III. Gustav'ın darbesi",
+      "1771-02-12|III. Gustav tahta"
+    ],
+    "kaynak": "Merit Laine, \"Lovisa Ulrika, drottning\", Svenskt kvinnobiografiskt lexikon, 2018, https://skbl.se/en/article/LovisaUlrikadrottning",
+    "teyit": "teyitsiz",
+    "yayin_adayi": false,
+    "ic_not": "ERİŞİM YÖNTEMİ KURAL DIŞI: kaynak tarayıcı taklidi başlıkla (Mozilla/5.0) çekildi; sitenin bu başlık olmadan engelleyip engellemediği ölçülmedi. Yeniden, kurala uygun okunana kadar yayın adayı değil."
+  },
+  {
+    "id": "isvec-magazin-descartes-kristina",
+    "devlet": "isvec",
+    "tur": "magazin",
+    "baslik": "Descartes ile Kristina: sabah beşteki derslerden fazlası",
+    "kisa": "Hikâye genellikle buz gibi bir saray ve şafaktan önceki derslerle anlatılır. Oysa kraliçe yıllar öncesinden filozofa zor sorular soruyordu.",
+    "metin": "Kristina ile René Descartes'ın tanışıklığı Stockholm'de başlamadı. 1646'dan itibaren, Fransız elçisi Pierre Chanut'nün aracılığıyla yazıştılar. Konular ağırdı: sevginin doğası, evrenin sonsuz olup olmadığı ve insan için en yüce iyinin ne olduğu.\n\nKraliçenin ilk sorularından biri şuydu: sevgi mi daha kötü kullanılırsa zararlıdır, nefret mi? Descartes uzun bir incelemeyle karşılık verdi ve ölçüsüz sevginin, yargımızı daha kolay çarpıttığı için daha tehlikeli olduğunu savundu. Ardından kraliçe, evrenin sınırsızlığı düşüncesinin Yaratıcı ile yaratılanlar arasındaki farkı bulandırıp bulandırmadığını sordurdu. Descartes ihtiyatlıydı: dünyaya \"sonsuz\" demediğini, yalnızca sınırını kanıtlayacak bir gerekçe bulunmadığı için \"belirsiz genişlikte\" dediğini yazdı. En yüce iyi konusunda kraliçeden yanıt gelmeyince de görüşünün beğenilmediğinden kaygılandı.\n\n1649'da Descartes kraliçenin davetini kabul etti. Onun isteğiyle bir İsveç akademisinin tüzüğünü kaleme aldı. Tüzüğü teslim ettiği gün hastalandı, bir daha iyileşemedi ve 11 Şubat 1650'de öldü.\n\nKışın sarayda sabah saat beşte yapılan dersler, hikâyenin en çok bilinen parçasıdır. Felsefe ansiklopedisi IEP'deki Kristina maddesi bu dersleri anar ve ölüm nedenini zatürre olarak verir. Aynı madde geliş yılını 1650 diye gösterir; İsveç biyografi sözlüğü ise filozofun Stockholm'deki aylarını 1649 sonu ile 1650 başına yerleştirir.\n\nTarihçiler bugün ne diyor? IEP maddesi, Kristina'yı yalnızca ünlü bir öğrencinin yerine koymaz. Yazışmaları, onun Descartes felsefesinin birkaç temel noktasını eleştiren bir düşünür olduğunu gösteren belgeler olarak okur: iki düşünürün ayrılıkları uzlaştıkları noktalardan daha belirgindir. Kraliçenin kuşkuları zihin-beden ikiliği, dinî öğreti ve erdem anlayışı üzerinde toplanır.",
+    "kesinlik": "kesin",
+    "olay": [
+      "1649-10-01|Descartes"
+    ],
+    "kaynak": "\"Kristina Wasa (1626-1689)\", Internet Encyclopedia of Philosophy, https://iep.utm.edu/wasa/ ; \"René Descartes\", Stanford Encyclopedia of Philosophy (düzeltme 2023), https://plato.stanford.edu/entries/descartes/ ; Marie-Louise Rodén, Svenskt kvinnobiografiskt lexikon, 2018, https://skbl.se/en/article/Kristinadrottning",
+    "teyit": "teyitsiz",
+    "ic_not": "Olay maddesinin d alanı ölümü derslerin soğuğuna bağlıyor; SEP nedensellik kurmuyor. IEP yazar adı sayfadan teyit edilmedi, yazılmadı. IEP geliş yılı 1650 ile SKBL/SEP 1649 çelişiyor. ERİŞİM YÖNTEMİ KURAL DIŞI: kaynak tarayıcı taklidi başlıkla (Mozilla/5.0) çekildi; sitenin bu başlık olmadan engelleyip engellemediği ölçülmedi. Yeniden, kurala uygun okunana kadar yayın adayı değil.",
+    "yayin_adayi": false
+  },
+  {
+    "id": "isvec-kimdir-kristina-dusunur",
+    "devlet": "isvec",
+    "tur": "kimdir",
+    "baslik": "\"Kadınlar hükmetmemeli\" diye yazan kraliçe",
+    "kisa": "Ruhun cinsiyeti olmadığını savunan Kristina, aynı derlemelerde kadınların yönetmemesi gerektiğini de yazdı. İkisini nasıl okumalı?",
+    "metin": "Kristina yalnızca tacından vazgeçen hükümdar değildi; ardında çoğu Fransızca yazılmış dağınık ama geniş bir külliyat bıraktı. Geniş yazışmaları, yarım kalmış bir özyaşam öyküsü, İskender ile Sezar üzerine denemeleri ve özlü söz derlemeleri vardır. Özyaşam öyküsü dikkatle okunmalıdır: pek çok olay, kitabın yüceltici amacına göre değiştirilmiş ya da süslenmiştir.\n\nGençliğinde Stoacı yazarlara ilgi duymuştu; yine de özlü sözlerinde beklenmedik bir ses duyulur. Tutkuları hayatın tuzu sayar ve filozofların övdüğü duygusuz dinginliği yavan bulur. La Rochefoucauld'nun alaycı vecizelerine yazdığı yorumlarda aşkın ve dostluğun gücünü savunur. Kadını duygusal, erkeği akılcı sayan kalıba karşı çıkar. Görücü usulü, çıkar için yapılan evlilikleri sert biçimde eleştirir ve bekâr yaşamı savunurken kendini örnek gösterir.\n\nEn dikkat çekici cümlelerinden biri ruhun cinsiyeti olmadığı düşüncesidir. Ona göre kadın ve erkek arasında gözlenen farkları mizaç ve eğitim açıklar. Fakat başka vecizelerde kadınların hükmetmemesi gerektiğini yazar; geçmişte başarıyla yönetmiş kraliçeleri güvenilemeyecek kadar nadir istisnalar sayar.\n\nBu, daha da şaşırtıcıdır, çünkü tacı bıraktıktan sonra siyasetten tümüyle kopmadı: 1657'de Napoli tahtı için plan kurdu, sonra Polonya tacını da hedefledi. Aynı yıl Fontainebleau'da planını ele verdiğini öğrendiği bir görevlisini huzurunda idam ettirmesi kamuoyunu sarsmıştı.\n\nTarihçiler ve felsefe araştırmacıları bugün ne diyor? Internet Encyclopedia of Philosophy maddesi vecizelerin ihtiyatla yorumlanması gerektiğini belirtir: parçalı, yer yer kapalı ve çelişkilidirler. Kadın yönetimine karşı sözleri açıklamak güçtür. Madde bunları ya Kristina'nın aykırı mizacına ya da İsveç'teki hükümdarlığının acı deneyimine bağlar; yine de bu sözler, başka yerlerde savunduğu cins eşitliğiyle yan yana durur.",
+    "kesinlik": "tartismali",
+    "olay": [
+      "1654-06-06|Kristina tahttan"
+    ],
+    "kaynak": "\"Kristina Wasa (1626-1689)\", Internet Encyclopedia of Philosophy, https://iep.utm.edu/wasa/",
+    "teyit": "teyitsiz",
+    "yayin_adayi": false,
+    "ic_not": "ERİŞİM YÖNTEMİ KURAL DIŞI: kaynak tarayıcı taklidi başlıkla (Mozilla/5.0) çekildi; sitenin bu başlık olmadan engelleyip engellemediği ölçülmedi. Yeniden, kurala uygun okunana kadar yayın adayı değil."
+  }
 ];
