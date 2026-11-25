@@ -1,33 +1,17 @@
 {
 "hazir": {
 "arayuz": [
-1697,
+2034,
 2034
 ],
 "devlet": [
-1740,
+2315,
 2315
 ],
 "olay": [
-400,
+525,
 5196
 ]
 },
-"mekanik_atlanan": [
-[
-"arayuz",
-"# Kasım # (şehir) · # Aralık # (kale)",
-"yer tutucu"
-],
-[
-"arayuz",
-"#-# Temmuz # (bombardıman) · # Temmuz (işgal)",
-"yer tutucu"
-],
-[
-"arayuz",
-"Ağustos # başı (# Temmuz'da başlayan yirmi beş günlük kuşatmanın sonunda)",
-"yer tutucu"
-]
-]
+"mekanik_atlanan": []
 }
