@@ -1,0 +1,197 @@
+{
+ "cakisma": [
+  {
+   "tur": "arayuz",
+   "id": "# Ekim # (Madgearu #, Sırp salnameleri; TDV eflak yalnız yıl #). ÇELİŞKİ-# E#: eski # Mayıs # günü Hilandar el yazmasındaki Ioan Dragaš'a ait nota dayanıyordu",
+   "taban": "# Oktober # (Madgearu #, serbische Kalender; TDV Eflak nur das Jahr #). WIDERSPRUCH-# E#: das frühere # Mai # stützte sich auf einen Vermerk des Ioan Dragaš in der Handschrift von Hilandar",
+   "main": "#. Oktober # (Madgearu #, serbische Annalen; TDV Eflak nur das Jahr #). WIDERSPRUCH-# E#: das frühere #. Mai # stützte sich auf einen Vermerk des Ioan Dragaš in der Handschrift von Hilandar",
+   "oneri": "#. Oktober # (Madgearu #, serbische Annalen; TDV Eflak nur das Jahr #). WIDERSPRUCH-# E#: das frühere Datum #. Mai # stützte sich auf einen Vermerk des Ioan Dragaš in der Handschrift von Hilandar",
+   "neden": "gün sıra noktası; salname=Annalen; akıcılık"
+  },
+  {
+   "tur": "arayuz",
+   "id": "# Eylül # (# Rebîülevvel #)",
+   "taban": "# September # (# Rabi' al-awwal #)",
+   "main": "#. September # (#. Rabi' al-awwal #)",
+   "oneri": "#. September # (#. Rabi al-awwal #)",
+   "neden": "gün sıra noktası; ay adı yazımı tutarlılığı"
+  },
+  {
+   "tur": "arayuz",
+   "id": "# Nisan # (# Rebîülevvel #)",
+   "taban": "# April # (# Rabi' al-awwal #)",
+   "main": "#. April # (#. Rabi' al-awwal #)",
+   "oneri": "#. April # (#. Rabi al-awwal #)",
+   "neden": "gün sıra noktaları; ay adı tutarlılığı"
+  },
+  {
+   "tur": "arayuz",
+   "id": "# Ocak # (imzalar # Ocak-# Mart arası şeyhlik şeyhlik tamamlandı)",
+   "taban": "#. Januar # (Unterschriften zwischen dem #. Januar und #. März, Scheichtum Scheichtum abgeschlossen)",
+   "main": "#. Januar # (Unterschriften zwischen dem #. Januar und #. März, Bildung des Scheichtums abgeschlossen)",
+   "oneri": "#. Januar # (Unterschriften zwischen dem #. Januar und #. März Scheichtum für Scheichtum abgeschlossen)",
+   "neden": "'şeyhlik şeyhlik' = tek tek; birebir tekrar Almancada anlamsız"
+  },
+  {
+   "tur": "arayuz",
+   "id": "# Temmuz # (Lozan) karşılaştırma # Ağustos # (Sevr)",
+   "taban": "# Juli # (Lausanne) im Vergleich zu # August # (Sèvres)",
+   "main": "#. Juli # (Lausanne) im Vergleich zu #. August # (Sèvres)",
+   "oneri": "#. Juli # (Lausanne) im Vergleich zum #. August # (Sèvres)",
+   "neden": "gün sıra noktaları eksik"
+  },
+  {
+   "tur": "arayuz",
+   "id": "# Temmuz # (ÇELİŞKİ-#: TDV «Timişvar» # Şaban # = # Temmuz #'de garnizonun teslim olduğunu yazar; TDV «Kara Ahmed Paşa» #/# Temmuz der; Losonczy'nin kaleden çıkışı # Temmuz (olaylar_ek# Macar kaynağı) — iki gün de TDV içinde geçer, bağımsız ikinci akademik kaynak okunmadı, gün korundu)",
+   "taban": "# Juli # (WIDERSPRUCH-#: TDV „Timişvar“ schreibt, die Garnison habe sich am # Schaban # = # Juli # ergeben; TDV „Kara Ahmed Paşa“ nennt den #./# Juli; Losonczys Abzug aus der Festung # Juli (ungarische Quelle in olaylar_ek#) — beide Tage kommen innerhalb von TDV vor, eine unabhängige zweite akademische Quelle wurde nicht gelesen, der Tag blieb erhalten)",
+   "main": "#. Juli # (WIDERSPRUCH-#: TDV „Timişvar“ schreibt, die Garnison habe sich am #. Schaban # = #. Juli # ergeben; TDV „Kara Ahmed Paşa“ nennt den #./#. Juli; Losonczys Abzug aus der Festung #. Juli (ungarische Quelle in olaylar_ek#) — beide Tage kommen innerhalb von TDV vor, eine unabhängige zweite akademische Quelle wurde nicht gelesen, der Tag blieb erhalten)",
+   "oneri": "#. Juli # (WIDERSPRUCH-#: TDV „Timişvar“ schreibt, die Garnison habe sich am #. Schaban # = #. Juli # ergeben; TDV „Kara Ahmed Paşa“ nennt den #./#. Juli; Losonczys Abzug aus der Festung am #. Juli (ungarische Quelle in olaylar_ek#) — beide Tage kommen innerhalb von TDV vor, eine unabhängige zweite akademische Quelle wurde nicht gelesen, der Tag wurde beibehalten)",
+   "neden": "gün sıra noktaları eksik"
+  },
+  {
+   "tur": "arayuz",
+   "id": "# Temmuz # [ÇELİŞKİ-# BALKAN-HALEF: kaynaklar #/#/#/# Temmuz arasında ayrışır — TDV «Edirne» #, TDV «Bulgaristan» #; Çetin, TÜBA «Millî Mücadele Döneminde Edirne» #; TTK «Balkan Harbi» # (# Temmuz Kırklareli); Zamacı, Balkan Araştırma Enst. Dergisi #/# (#) s.#: # (# Kırklareli); Tamat, Atatürk Yolu # (#): Bulgar işgali # Mart-# Temmuz #. Çift teyit yazılamaz; gün TDV «Edirne» ile # korundu]",
+   "taban": "# Juli # [WIDERSPRUCH-# BALKAN-HALEF: die Quellen gehen zwischen dem #/#/#/# Juli auseinander — TDV „Edirne“ #, TDV „Bulgaristan“ #; Çetin, TÜBA „Millî Mücadele Döneminde Edirne“ #; TTK „Balkan Harbi“ # (# Juli Kırklareli); Zamacı, Balkan Araştırma Enst. Dergisi #/# (#) S. #: # (# Kırklareli); Tamat, Atatürk Yolu # (#): bulgarische Besetzung # März–# Juli #. Doppelte Bestätigung nicht möglich; der Tag blieb mit TDV „Edirne“ bei #]",
+   "main": "#. Juli # [WIDERSPRUCH-# BALKAN-HALEF: die Quellen gehen zwischen dem #./#./#./#. Juli auseinander — TDV „Edirne“ #, TDV „Bulgaristan“ #; Çetin, TÜBA „Millî Mücadele Döneminde Edirne“ #; TTK „Balkan Harbi“ # (#. Juli Kırklareli); Zamacı, Balkan Araştırma Enst. Dergisi #/# (#) S. #: # (# Kırklareli); Tamat, Atatürk Yolu # (#): bulgarische Besetzung #. März–#. Juli #. Doppelte Bestätigung nicht möglich; der Tag blieb mit TDV „Edirne“ bei #]",
+   "oneri": "#. Juli # [WIDERSPRUCH-# BALKAN-HALEF: die Quellen schwanken zwischen dem #./#./#./#. Juli — TDV „Edirne“ #, TDV „Bulgaristan“ #; Çetin, TÜBA „Millî Mücadele Döneminde Edirne“ #; TTK „Balkan Harbi“ # (#. Juli Kırklareli); Zamacı, Balkan Araştırma Enst. Dergisi #/# (#) S. #: # (# Kırklareli); Tamat, Atatürk Yolu # (#): bulgarische Besetzung #. März–#. Juli #. Doppelte Bestätigung nicht möglich; der Tag blieb mit TDV „Edirne“ bei #]",
+   "neden": "gün sıra noktaları eksik"
+  },
+  {
+   "tur": "arayuz",
+   "id": "# Zilhicce # / # Kasım # (TDV Âmirîler)",
+   "taban": "# Dhu l-hiddscha # / # November # (TDV Âmirîler)",
+   "main": "#. Dhu l-hiddscha # / #. November # (TDV Âmirîler)",
+   "oneri": "#. Dhu l-Hiddscha # / #. November # (TDV Âmirîler)",
+   "neden": "gün sıra noktaları; büyük harf"
+  },
+  {
+   "tur": "arayuz",
+   "id": "Ağustos # başı (# Temmuz'da başlayan yirmi beş günlük kuşatmanın sonunda)",
+   "taban": "Anfang August # (am Ende der am # Juli begonnenen fünfundzwanztägigen Belagerung)",
+   "main": "Anfang August # (am Ende der am #. Juli begonnenen fünfundzwanztägigen Belagerung)",
+   "oneri": "Anfang August # (am Ende der am #. Juli begonnenen fünfundzwanzigtägigen Belagerung)",
+   "neden": "sıra noktası; yazım hatası"
+  },
+  {
+   "tur": "arayuz",
+   "id": "Ekim # (Lugos'un kendi teslim günü kaynakta yok; Temeşvar'ın kaybından SONRA — Eugène'in Temeşvar'a girdiği # Ekim alt sınır alındı)",
+   "taban": "Oktober # (der eigene Übergabetag von Lugos fehlt in der Quelle; NACH dem Verlust von Temeswar — als Untergrenze wurde Eugènes Einzug in Temeswar am # Oktober genommen)",
+   "main": "Oktober # (der eigene Übergabetag von Lugos fehlt in der Quelle; NACH dem Verlust von Temeswar — als Untergrenze wurde Eugènes Einzug in Temeswar am #. Oktober genommen)",
+   "oneri": "Oktober # (der eigene Übergabetag von Lugos fehlt in der Quelle; NACH dem Verlust von Temeswar — als Untergrenze wurde Eugènes Einzug in Temeswar am #. Oktober angesetzt)",
+   "neden": "gün sıra noktası; akıcılık"
+  },
+  {
+   "tur": "arayuz",
+   "id": "Haziran # (Corte Konsültası, #-# Haziran)",
+   "taban": "Juni # (Konsulta der Corte, #-# Juni)",
+   "main": "Juni # (Konsulta der Corte, #.-#. Juni)",
+   "oneri": "Juni # (Konsulta der Corte, #.–#. Juni)",
+   "neden": "gün sıra noktaları eksik"
+  },
+  {
+   "tur": "arayuz",
+   "id": "MÖ # (# Abu = # Ağustos; tahta çıkış # Ulûlu = # Eylül, Jülyen)",
+   "taban": "# v. Chr. (# Abu = # August; Thronbesteigung # Ulûlu = # September, julianisch)",
+   "main": "# v. Chr. (# Abu = #. August; Thronbesteigung # Ulûlu = #. September, julianisch)",
+   "oneri": "# v. Chr. (#. Abu = #. August; Thronbesteigung #. Ulûlu = #. September, julianisch)",
+   "neden": "gün sıra noktaları eksik"
+  },
+  {
+   "tur": "arayuz",
+   "id": "MÖ # (# Addaru = # Mart, Jülyen)",
+   "taban": "# v. Chr. (# Addaru = # März, julianisch)",
+   "main": "# v. Chr. (# Addaru = #. März, julianisch)",
+   "oneri": "# v. Chr. (#. Addaru = #. März, julianisch)",
+   "neden": "gün sıra noktaları eksik"
+  },
+  {
+   "tur": "arayuz",
+   "id": "MÖ # (# Adukanaiša = # Mayıs, Jülyen)",
+   "taban": "# v. Chr. (# Adukanaiša = # Mai, julianisch)",
+   "main": "# v. Chr. (# Adukanaiša = #. Mai, julianisch)",
+   "oneri": "# v. Chr. (#. Adukanaiša = #. Mai, julianisch)",
+   "neden": "gün sıra noktaları eksik"
+  },
+  {
+   "tur": "arayuz",
+   "id": "MÖ # (# Arahsamnu = # Ekim, Jülyen)",
+   "taban": "# v. Chr. (# Arahsamnu = # Oktober, julianisch)",
+   "main": "# v. Chr. (# Arahsamnu = #. Oktober, julianisch)",
+   "oneri": "# v. Chr. (#. Arahsamnu = #. Oktober, julianisch)",
+   "neden": "gün sıra noktaları eksik"
+  },
+  {
+   "tur": "arayuz",
+   "id": "MÖ # (# Ağustos-# Eylül arası)",
+   "taban": "# v. Chr. (zwischen # August und # September)",
+   "main": "# v. Chr. (zwischen #. August und #. September)",
+   "oneri": "# v. Chr. (zwischen dem #. August und dem #. September)",
+   "neden": "gün sıra noktaları eksik"
+  },
+  {
+   "tur": "arayuz",
+   "id": "MÖ # (# Tašritu = # Ekim, Jülyen)",
+   "taban": "# v. Chr. (# Tašritu = # Oktober, julianisch)",
+   "main": "# v. Chr. (# Tašritu = #. Oktober, julianisch)",
+   "oneri": "# v. Chr. (#. Tašritu = #. Oktober, julianisch)",
+   "neden": "gün sıra noktaları eksik"
+  },
+  {
+   "tur": "arayuz",
+   "id": "MÖ # (# veya # Mayıs; Livius # Mayıs)",
+   "taban": "# v. Chr. (# oder # Mai; Livius # Mai)",
+   "main": "# v. Chr. (# oder #. Mai; Livius #. Mai)",
+   "oneri": "# v. Chr. (#. oder #. Mai; Livius #. Mai)",
+   "neden": "gün sıra noktaları eksik"
+  },
+  {
+   "tur": "arayuz",
+   "id": "Nisan-# Eylül #",
+   "taban": "April-# September #",
+   "main": "April-#. September #",
+   "oneri": "April–#. September #",
+   "neden": "gün sıra noktası eksik"
+  },
+  {
+   "tur": "arayuz",
+   "id": "Temmuz #'dan sonra",
+   "taban": "Nach dem # Juli",
+   "main": "nach Juli #",
+   "oneri": "Nach Juli #",
+   "neden": "'Temmuz #' ay-yıl; 'Nach dem # Juli' gün gibi okunuyor"
+  },
+  {
+   "tur": "arayuz",
+   "id": "muhtemelen # Şâban # / # Aralık # (TDV 'muhtemelen' der)",
+   "taban": "wahrscheinlich # Schaʿban # / # Dezember # (TDV: „wahrscheinlich“)",
+   "main": "wahrscheinlich #. Schaʿban # / #. Dezember # (TDV: „wahrscheinlich“)",
+   "oneri": "wahrscheinlich #. Schaban # / #. Dezember # (TDV: „wahrscheinlich“)",
+   "neden": "gün sıra noktaları; ay yazımı tutarlılığı"
+  },
+  {
+   "tur": "arayuz",
+   "id": "🗣️ Nasıl bilirdiniz",
+   "taban": "🗣️ Wie kannten Sie es",
+   "main": "🗣️ Wie war sein Ruf?",
+   "oneri": "🗣️ Wie kannten Sie ihn?",
+   "neden": "kişi hakkında deyim; 'es' yanlış, soru işareti"
+  },
+  {
+   "tur": "devlet",
+   "id": "lur-i-buzurg",
+   "taban": "Lür-i Büzürg-Atabegat (Hazaraspîler)",
+   "main": "Lür-i Büzürg-Atabegat (Hazaraspiden)",
+   "oneri": "Atabegat Lur-i Buzurg (Hazaraspiden)",
+   "neden": "Türkçe çoğul ve Türkçe okunuş kalıntısı"
+  },
+  {
+   "tur": "devlet",
+   "id": "celili-musul",
+   "taban": "Celîlîler (einheimische Dynastie des Paschaliks Mosul)",
+   "main": "Dschaliliden (einheimische Dynastie des Paschaliks Mosul)",
+   "oneri": "Dschaliliden (einheimische Dynastie des Paschaliks Mossul)",
+   "neden": "Türkçe çoğul; Mossul yazımı"
+  }
+ ],
+ "red": []
+}

@@ -1,0 +1,53 @@
+- arayuz | # yıllarına doğru [tahmin; yalnız yıl; gün teyitsiz]: bozuk söz dizimi
+- arayuz | # – # Cemâziyelevvel # (# – # Ekim #): aralığın ilk gününde sıra noktası eksik
+- arayuz | # [hicrî # ∩ # ilk günü, # Mart #; yalnız yıl teyitli, gün teyitsiz]: bozuk söz dizimi
+- arayuz | (toprak değişince harita devletin sınırlarına ZIPLASIN mı — sıçramalıdır, adaptif genişlik bunun yumuşak hâlidir): 'sıçramalıdır' = sıçrayışlıdır; 'muss springen' yanlış anlam
+- arayuz | Belirsiz sonuç (ad zemini): 'Namensgrund' = adın sebebi; kastedilen ad arka planı
+- arayuz | Harekât okları (Harekât okları kutusu): aynı katman adı öteki satırlarda 'Operationspfeile'; tutarsız
+- arayuz | Kopyası bilerek çıkarılmadı (D#: Türkçe kücültme tuzağı).: 'kopyasını çıkarmak' = kopya oluşturmak; 'entfernen' yanlış anlam
+- arayuz | Turu yeniden görmek için Butonlar menüsündeki Siteyi tanı düğmesine basın.: düğme/menü adları tırnaksız, cümle okunmuyor
+- arayuz | Yatay sınırı: bu km'nin üstündeki geçişler "yatay" seçilse de eğik atışla yapılır.: 'eğik atış' öteki satırlarda 'Bogenflug'
+- arayuz | gövdesi o gün yok: 'gövde' = ülke gövdesi (Gebietskörper); 'Hauptteil' yanlış
+- arayuz | kız: aile künyesi; 'oğlan' = Sohn ile eş
+- arayuz | menzil durağı —: öteki satırlarda menzil durağı = Poststation; durak ≠ günlük etap
+- arayuz | İdarî: sıfat; öteki kategoriler Politisch/Militärisch
+- arayuz | Öncesi/sonrası kırpması: kırpma = yanıp sönme (Blinken), kesit değil
+- arayuz | Öncesi/sonrası kırpması: olay yerine varınca haritanın olaydan önceki ve sonraki hâli sırayla gösterilir.: kırpma = yanıp sönme, kesit değil
+- arayuz | Şehir dizisi ve ana/tali ayrımı henüz kaynakla doğrulanmadı.: ana/tali kol ayrımı; başkent/yan şehir değil
+- arayuz | ⚠️ Siyasî katman kapalı — tarama şu an görünmüyor.: 'tarama' = haritadaki taralı alan, arama değil
+- arayuz | 🗺 İsyan taraması (Eflak · Boğdan · Erdel): 'tarama' = taralı gösterim
+- arayuz | 🗺️ Haritada gör — bırakılan bölgeler: bırakılan = terk/feragat edilen toprak
+- devlet | altinorda: Türkçe kalıntısı; Almanca yerleşik ad
+- devlet | lur-i-kucek: Türkçe okunuş kalıntısı
+- devlet | mazenderan-marasi: çevrilmemiş Türkçe
+- devlet | dobruca-despotlugu: Dobrotić bir kişi; 'der' yanlış
+- devlet | berabis: Türkçe ş harfli yazım kalıntısı
+- devlet | makdisu-sultanligi: Türkçe ad yazımı kalıntısı
+- devlet | tuareg-accer: 'Accer' Türkçe yazım; yerleşik Ajjer
+- devlet | laos-kralliklari: bozuk tamlama
+- devlet | liao-hanedani: Türkçe ı harfli yazım kalıntısı
+- devlet | cahamana: bileşik ad tire kuralı
+- devlet | caulukya: bileşik ad tire kuralı
+- devlet | somali-cumhuriyeti: 'merkez' = merkezî otorite
+- devlet | toledo-zunnunler: Türkçe yazım kalıntısı
+- devlet | murcia-ibn-merdenis: Türkçe yazım kalıntısı
+- devlet | kafkas-imamligi: bozuk söz dizimi
+- devlet | ebulhayr-ozbek-ulusu: Türkçe yazım kalıntısı
+- devlet | gilan-sovyet-cumhuriyeti: Türkçe yazım kalıntısı
+- devlet | musasa: Türkçe yazım kalıntısı
+- devlet | ukaydir: Türkçe yazım kalıntısı
+- devlet | fezzan: Türkçe yazım kalıntısı
+- devlet | touggourt: Türkçe yazım kalıntısı
+- devlet | ganiyeler: çevrilmemiş Türkçe
+- devlet | tunus-benihorasan: Türkçe yazım kalıntısı
+- devlet | trablus-benihazrun: Türkçe yazım kalıntısı
+- devlet | pallava: Türkçe yazım kalıntısı
+- devlet | tohar-yabgu: 'Yabghu-Tum' Almanca sözcük değil
+- devlet | buhara-hudat: bileşik unvan tiresi
+- devlet | sistan-mihribani: yanlış hanedan: Mihraniden (Gardman) ile karışmış
+- devlet | hirvat-dukalik: bozuk ifade
+- devlet | orta-francia: 'Mittelfranken' bugünkü Bavyera bölgesi
+- devlet | ispanyol-halkulvad: anlam: Tunus üzerinde himaye; 'tunesisches Protektorat' belirsiz/ters
+- devlet | mainz-elektorlugu: bozuk ad dizilişi
+- devlet | koeln-elektorlugu: bozuk ad dizilişi
+- devlet | pampa-patagonya-halklari: bozuk bileşik
