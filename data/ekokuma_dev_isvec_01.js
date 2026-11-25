@@ -37,6 +37,7 @@ window.EKOKUMA_DEVISVEC01 = [
   ic_not:"Gün-ay bilgileri SKBL'de verildiği gibi (o dönemin takvimi)." },
 
 { id:"isvec-sebep-sonuc-1720-hurriyet", devlet:"isvec", tur:"sebep-sonuc",
+  baslik:"Bir kralın ölümü mutlakiyeti nasıl bitirdi?",
   kisa:"Tahtı ilan etmek yetmedi: Ulrika Eleonora, kraliçe olabilmek için miras hakkından vazgeçmek zorunda kaldı.",
   sebep:{ b:"XII. Karl'ın evlenmeden ve çocuksuz ölmesi", t:"1718-12-11" },
   sonuc:{ b:"Mutlakiyeti yasaklayan yeni hükûmet biçimi ve Hürriyet Çağı", t:"1720-01-01" },
@@ -45,6 +46,28 @@ window.EKOKUMA_DEVISVEC01 = [
   kesinlik:"kesin",
   olay:["1720-01-01|Mutlakiyet kaldırıldı","1718-12-11|Fredriksten"],
   kaynak:"Sari Nauman, \"Ulrika Eleonora d.y., drottning\", Svenskt kvinnobiografiskt lexikon, 2018, https://www.skbl.se/en/article/UlrikaEleonoradydrottning",
+  teyit:"teyitli" },
+
+{ id:"isvec-karsi-maria-eleonora", devlet:"isvec", tur:"karsi-anlati",
+  baslik:"\"Aklını yitiren dul\" mu, iktidar kavgasının kaybedeni mi?",
+  kisa:"Siyahlarla kaplı odalar, geciken bir cenaze, annesinden alınan küçük kraliçe: Maria Eleonora hakkındaki ünlü hikâyenin öbür yüzü.",
+  metin:"II. Gustav Adolf 1632'de Lützen'de öldüğünde geride küçük kızı Kristina'yı ve eşi Brandenburglu Maria Eleonora'yı bıraktı. Sonraki anlatılar dul kraliçeyi zor bir eş, kötü bir anne ve yasını aşırılığa vardıran dengesiz bir kadın olarak çizdi.\n\nOlayların arkasında bir yetki kavgası vardı. Maria Eleonora kızının naiplik hükûmetinde yer istedi; kayınvalidesinin örneğini hatırlattı. Kendi ailesinde kadınların naip olarak bile güç sahibi olması alışılmış bir şeydi. Ama kocası, ölümünden sonraki rolü için ona yazılı bir söz bırakmamıştı. Krallık Konseyi, kralın tersine, eşinin yönetime karıştırılmamasını öğütlediğini ileri sürdü. Anne ile Konsey kızın gelecekteki evliliği ve dul kraliçenin gelirleri konusunda da çatıştı.\n\nÜnlü siyah odalar ise o dönemde dul kraliçelerin yaslarını gösterme geleneğinin parçasıydı; İsveç'in önceki dul kraliçeleri de bunu yapmıştı. Kralın ancak 1634'te gömülmesi, ona konumuna yaraşır bir cenaze sağlama çabası olarak da okunabilir: soylu cenazeleri çoğu kez uzun hazırlık ve büyük kaynak isterdi.\n\n1636'da Konsey kızın bakımını annesinden aldı. Gerekçesi, onun Kristina'yı ihmal ettiği, kötü etkilediği ve İsveç'e karşı soğuttuğu iddiasıydı. Maria Eleonora 1640'ta ülkeden ayrıldı, 1648'de döndü. Dönüşünü kızı da istiyordu.\n\nTarihçiler bugün ne diyor? Karin Tegenborg Falkdalen'e göre olumsuz imge Konsey ile yaşanan güç mücadelesinden doğdu; kraliçeyi dönemi içinde ele alan sonraki araştırma daha ayrıntılı bir portre sundu. Anne kız ilişkisi karmaşıktı, ama sık anlatıldığı kadar kötü değildi. Kristina'nın annesinden uzak durduğu özyaşam öyküsü de, hayran olunan babasına benzerliğini vurgulayarak kendi hükümdarlığını meşrulaştırma ihtiyacıyla birlikte okunmalıdır.",
+  kesinlik:"tartismali",
+  olay:["1632-11-16|Lützen Savaşı"],
+  kaynak:"Karin Tegenborg Falkdalen, \"Maria Eleonora, drottning\", Svenskt kvinnobiografiskt lexikon, 2021, https://www.skbl.se/en/article/MariaEleonoradrottning",
+  teyit:"teyitli",
+  ic_not:"1632-11-16 olay metni 'altı yaşındaki Kristina' diyor; doğum 7 Aralık 1626 (SKBL) olduğundan beş yaşındaydı." },
+
+{ id:"isvec-sebep-sonuc-lovisa-ulrika", devlet:"isvec", tur:"sebep-sonuc",
+  baslik:"Annenin yarım kalan planı, oğulun darbesi",
+  kisa:"Lovisa Ulrika kraliyet gücünü artırmayı baş hedefi yaptı ve ağır bir yenilgi aldı. Oğlunun başarısını ise Berlin'de öğrendi.",
+  sebep:{ b:"Adolf Fredrik'in ölümü ve III. Gustav'ın tahta çıkışı", t:"1771-02-12" },
+  sonuc:{ b:"III. Gustav'ın darbesiyle kraliyet gücünün yeniden artması", t:"1772-08-19" },
+  bag:"Anne ve babasının sonuçsuz kalan güçlü krallık arayışını, tahta çıkmasının ertesi yılı oğulları sonuca ulaştırdı.",
+  metin:"Prusya prensesi Lovisa Ulrika, 1744'te İsveç veliahtı Adolf Fredrik ile evlendi. Hükümdarın güçlü olduğu bir ortamda yetişmişti; İsveç'te meclisin belirleyici ağırlığı ona doğal düzene aykırı görünüyordu. Erken dönemden başlayarak baş siyasi hedefi kraliyet gücünü artırmak oldu.\n\nÖnce Şapkalar partisiyle ittifak kurdu ve 1746-1747 meclisinde en parlak başarısını elde etti. Sonra ittifak çözüldü; kraliyet çiftini destekleyen bir saray partisi doğdu. 1755-1756 meclisi kralın hareket alanını daha da daralttı. Veliaht Gustav'ın yetiştirilme biçimini siyaseten sakıncalı bulan zümreler, anne babasının isteğine rağmen öğretmenini değiştirdi.\n\nDarbe fikri bu ortamda filizlendi. Plan erken ortaya çıktı, başlıca düzenleyiciler yakalandı ve sekizi idam edildi. Kraliçe genellikle asıl kışkırtıcı sayılır; kapsamlı planları olduğu tartışmasızdır. Kralın rolü ise daha belirsizdir. Merit Laine'e göre onu olabildiğince masum gösterme yönünde bir çıkar vardı; böylece karısınca yanlış yola sürüklendiği imgesi oluştu.\n\nAdolf Fredrik 1771'de öldü. Lovisa Ulrika aynı yıl Berlin'e gitti ve oğlu III. Gustav'ın yönetimi dönüştüren hamlesini orada öğrendi. Oğluna büyük bir hayranlık duydu. Sevinç uzun sürmedi: Gustav'ın, babası gibi bir kadının etkisine bağımlı görünmemek için annesinden uzaklaşması gerekiyordu. İlişki birkaç yıl sonra tümüyle koptu; kraliçe ancak ölüm döşeğinde oğluyla barıştı.\n\nTarihçiler bugün ne diyor? Laine, kraliyet çiftinin bir ekip gibi çalıştığına dair çok sayıda kanıt bulunduğunu, tarih yazımında zayıf iradeli diye geçen Adolf Fredrik'in rolünün ise yeterince araştırılmadığını belirtir.",
+  kesinlik:"kesin",
+  olay:["1772-08-19|III. Gustav'ın darbesi","1771-02-12|III. Gustav tahta"],
+  kaynak:"Merit Laine, \"Lovisa Ulrika, drottning\", Svenskt kvinnobiografiskt lexikon, 2018, https://skbl.se/en/article/LovisaUlrikadrottning",
   teyit:"teyitli" }
 
 ];
