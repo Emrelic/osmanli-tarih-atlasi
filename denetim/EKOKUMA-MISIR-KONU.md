@@ -34,3 +34,21 @@ Künyeler: `memluk`, `misir-kavalali` (ayrıca `misir-eyaleti`, `misir-sultanlig
 
 ## Bağ sınaması
 Her `olay` girdisi olaylar*/kronoloji*/devletler.js maddelerinde gün + başlık parçasıyla en az bir maddeye eşleşti (basit Node betiği; sitenin `_ekNorm` işlevi birebir kullanılmadı, tarayıcıda sınanmadı).
+
+## İkinci parti (TDV dışı)
+7 yeni kart (data/ekokuma_dev_misir_02.js), teyitli. Yeni kişi/hükümdar kaydı yok. TDV sitesine bu partide istek atılmadı.
+
+Tam metni okunan (PDF metni):
+- Albrecht Fuess, Rotting Ships and Razed Harbors, MSR 5 (2001), s. 45-71, https://doi.org/10.6082/M1KH0KGK
+- Linda S. Northrup, Qalawun's Patronage of the Medical Sciences, MSR 5 (2001), s. 119-140, https://doi.org/10.6082/M19Z931C
+- Khaled Fahmy, The Nation and Its Deserters, IRSH 43 (1998), s. 421-436, https://doi.org/10.1017/S0020859098000236
+
+1. parti kartlarına ikinci kaynak notu (ic_not): diu-kizildeniz, tomanbay-son-sultan, baybars-kurucu, mehmedali-miras. Teyitsiz ve yayın dışı işareti KALDIRILMADI.
+
+Düzeltme borcu:
+- misir-diu-kizildeniz: Fuess Chaul'u Ocak 1508'e koyar; kart TDV'ye göre 1507 diyor.
+- misir-baybars-kurucu: kart Kıbrıs filosu için fırtına diyor; Fuess kayalıklara çarpma anlatır.
+- Kalavun maddesi 1284-01-01; Northrup inşaatı 1284-85 başlangıç, 1285 bitiş verir.
+- Akkâ, Sudan seferi ve Suriye'ye giriş için çift (mükerrer görünen) kronoloji maddeleri var.
+
+Okunamayan: Süveyş Kanalı işçileri için açık erişimli hakemli tam metin bu aramada bulunamadı.

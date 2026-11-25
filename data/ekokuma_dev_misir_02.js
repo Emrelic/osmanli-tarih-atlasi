@@ -97,6 +97,22 @@ window.EKOKUMA_DEVMISIR02 = [
  "kesinlik": "tartismali",
  "teyit": "teyitli",
  "ic_not": "Makalenin tamamı (s. 119-140) PDF metninden okundu. Behrens-Abouseif görüşü Northrup'un 46. dipnotundan aktarılmıştır. TARİH: Northrup inşaatı H.683/1284-85 başlangıç, H.684/1285 bitiş verir; bağlanan madde 1284 tarihlidir, denetlenmeli. 'Yakın zamanda Müslüman olmuş': Northrup Baybars döneminde ihtida ettiğini yazar; s. 127'de de yeni ihtida etmiş diye anar."
+},
+
+{
+ "id": "misir-kutsal-kabir-tehdidi",
+ "devlet": "memluk",
+ "tur": "dis-yankilar",
+ "baslik": "Hint Okyanusu için Kudüs'ü rehin göstermek",
+ "kisa": "Portekiz gemileri Memlük ticaretini vurunca Sultan Kansu Gavri alışılmadık bir baskı yoluna başvurdu: Hristiyanların kutsal yerlerini yıkmakla tehdit etti.",
+ "metin": "Vasco da Gama 1498'de Ümit Burnu'nu dolaşınca Memlükler için yeni bir cephe açıldı. Portekizlilerin uzun yola dayanan, bol toplu yelkenlileri bütün yıl yurtlarından uzakta iş görebiliyordu. Baharat ticaretinden gelen gelir sarsıldı; tüccarlar gemilerinin Hint Okyanusu'nda ele geçirildiğinden yakındı. Kutsal şehirler Mekke ve Medine de tehdit altında sayılıyordu.\n\nSultan Kansu Gavri 1505'te Hindistan yönüne gemiler gönderdi, ama bunun Portekiz faaliyetlerine bir etkisi görülmedi. Bunun üzerine başka bir koz oynadı: Portekizliler durmazsa İsa'nın kabrini ve öteki Hristiyan ziyaret yerlerini yıkacağını bildirdi. Portekiz Kralı I. Manuel bunu boş bir tehdit saydı. Papayı yatıştırırken de, Memlüklerin Hristiyan hacılardan gelen paraya fazlasıyla önem verdiğini, bu akışı kesecek bir şey yapmayacaklarını söyledi.\n\nTehdit yetmeyince denizde hazırlık sürdü. Osmanlılar 1507'den itibaren kereste, bakır gibi savaş malzemesi ve deniz askeri sağladı. Portekiz kaynaklarına göre Venedik de gemi ustası ve top verdi; Doğu Akdeniz ticaretinden büyük kazanç sağlayan Venedik için bu yardım akla yakındır. Memlük filosu Hindistan'da önce bir başarı kazandı, ardından Diu'da ağır kayba uğradı. 1514'te sultan yeni gemilerin yapımını görmek için bizzat Süveyş'e gitti. Ertesi yıl yola çıkan filo denizdeyken Memlük devletinin sonunu getirecek savaş başlayacaktı.\n\nTarihçiler bugün ne diyor? Albrecht Fuess tehdidi Memlüklerin Portekiz karşısındaki çaresizliğinin ölçüsü sayar. Ona göre sultanlığın kalıcı bir donanma geleneği yoktu; son yıllarda Osmanlı ve Venedik yardımına başvurulması bu açığı kapatmaya yetmedi.",
+ "olay": [
+  "1502-01-01|Portekiz tehdidi Memlük gelirini vurdu"
+ ],
+ "kaynak": "Albrecht Fuess, \"Rotting Ships and Razed Harbors: The Naval Policy of the Mamluks\", Mamlūk Studies Review, c. 5, 2001, s. 57-60 ve 65-69, https://doi.org/10.6082/M1KH0KGK",
+ "kesinlik": "kesin",
+ "teyit": "teyitli",
+ "ic_not": "Makalenin tamamı okundu. Tehdit ve Manuel'in cevabı Fuess'in Portekiz kronik derlemesine ve Brummett'a dayanan anlatımıdır (dn. 64-65); tehdidin yılı metinde verilmiyor, karta yıl yazılmadı. Chaul Fuess'te Ocak 1508."
 }
 
 ];
