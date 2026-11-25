@@ -8,3 +8,11 @@ Not: aynı id için birden çok düzeltme varsa numarası büyük dosya geçerli
 Tamamen okunan paketler: 4_olay_007..036 (30 paket)
 Okunmayan: 4_olay_037..040
 Düzeltme dosyaları: duzeltme_a_001..011
+
+== ilerleme_b.txt
+Tamamen okunan paketler: 4_olay_037..059 (23 paket, paket basina yaklasik 8-20 olay kaydi)
+Düzeltme dosyaları: duzeltme_b_001..011
+Okunmayan: 4_olay_060..075 (16 paket) - baglam siniri nedeniyle durduruldu
+
+== ilerleme_c.txt
+okunan: 4_olay_076 - 4_olay_100 (tam)
