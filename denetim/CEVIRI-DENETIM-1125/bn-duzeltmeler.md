@@ -636,3 +636,13 @@
 - olay | OLAYLAR_GEZGINLER:1768-08-26:0 | d: bozuk cümle: görevlendiren/görevlendirilen ilişkisi kaybolmuş
 - olay | OLAYLAR_GEZGINLER:1779-02-14:0 | d: imla: 'বাধা' (engel) yerine 'বেধে যাওয়া' (patlak veren)
 - olay | OLAYLAR_GEZGINLER:1871-03-09:0 | b: TR 'on gezi' (ön gezi); çeviri 'Moğolistan gezisi' yapmış
+- olay | OLAYLAR_EK:1302-08-01:0 | b: Latin Türkçe kalıntı
+- olay | OLAYLAR_EK5:1688-06-22:0 | d: Macarca 'Jenővel' = Jenő (Ineu) kasabasıyla birlikte; 'Eugen ile' diye yanlış çevrilmiş
+- olay | OLAYLAR_EK5:1716-10-13:0 | d: 'abi-merkez' özel ad (Márquez) sanılmış; yer adları Latin kalmış
+- olay | OLAYLAR_EK16:1941-07-09:0 | d: Kaynak satırı Türkçe kalmış
+- olay | OLAYLAR_2S_0919:1847-01-01:0 | d: Latin adlar
+- olay | OLAYLAR_EK:1302-08-01:0 | b: Latin harfli Türkçe ad çevrilmemiş
+- olay | OLAYLAR_EK5:1716-10-13:0 | d: Latin yer adı kalıntısı; 'abi-merkez' anlamsız aktarılmış (TR iç notu ayrıca tr_hatalari'nda)
+- olay | OLAYLAR_EK5:1688-06-22:0 | d: Macarca 'Jenővel' (Jenő kalesiyle birlikte) kişi adı Eugène sanılmış
+- olay | OLAYLAR_EK16:1941-07-09:0 | d: Türkçe kalıntı ve iç not (arama özeti)
+- olay | OLAYLAR_2S_0919:1847-01-01:0 | d: Türkçe kalıntı parantez ve Latin harfli adlar
