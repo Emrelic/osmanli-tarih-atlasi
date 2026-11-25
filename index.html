@@ -303,7 +303,7 @@
          Niçin ayrı: yayın numarası (rNNNN) her commit'te artar, koşu numarası
          yalnız motor koştuğunda. İkisi AYNI şey değil ve karıştırılırsa
          "harita tazelendi" yanılgısı doğar — 4 Ekim'de tam bu oldu. -->
-    <span id="kosu-etiketi" title="Haritayı üreten motor koşusu"></span>
+    <span id="kosu-etiketi" title="Haritanın son hesaplandığı sürüm"></span>
   </div>
   <div id="ustbar-orta">
     <span id="ustbar-tarih"></span>
@@ -627,7 +627,7 @@
             </label>
             <label class="ek-ayar-satir">
               <span class="kr-ayar-etiket">Bölgesel dış olaylar ≥</span>
-              <select id="odak-bolge-esik" title="Komşu devletlerle ilgili olaylar. `bolge` puanı olmayan maddede `onem` kullanılır ve özet satırında beyan edilir">
+              <select id="odak-bolge-esik" title="Komşu devletlerle ilgili olaylar. Bölge puanı olmayan maddede önem puanı kullanılır.">
                 <option value="1" selected>1 — hepsi</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
@@ -1084,7 +1084,7 @@
         <span id="ayar-kirpma-toplam-ms-deger" class="ayar-deger"></span>
       </div>
       <div class="ayar-satir">
-        <label for="ayar-kirpma-adet">Kırpma sayısı <span class="ayar-ipucu">(kaç kez önce→sonra — Emre'nin tarifi 2)</span></label>
+        <label for="ayar-kirpma-adet">Kırpma sayısı <span class="ayar-ipucu">(kaç kez önce→sonra)</span></label>
         <input type="range" id="ayar-kirpma-adet" min="1" max="4" step="1" value="2">
         <span id="ayar-kirpma-adet-deger" class="ayar-deger"></span>
       </div>
@@ -1099,9 +1099,6 @@
         <span id="ayar-irtifa-deger" class="ayar-deger"></span>
       </div>
     </details>
-    <p class="ayar-not">⚠️ Bu değerler MapLibre'nin belgelenmiş varsayılanları
-      (curve 1.42) çevresinde kuruldu — bu oturumda harita render olmadığı
-      için GÖZLE ayarlanamadı. İlk gerçek kullanımda gözden geçirilmeli.</p>
     <p class="ucus-genel-satir"><button id="btn-ucus-genel" type="button">⚙ Ayarlar</button></p>
     </div>
   </div>

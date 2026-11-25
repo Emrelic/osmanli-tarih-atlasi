@@ -100,7 +100,7 @@
 .derin-t { opacity: .7; font-variant-numeric: tabular-nums; }
 .derin-detay { flex: 0 0 auto; max-height: 38%; overflow-y: auto; padding: 8px 10px; border-top: 1px solid var(--altin); }
 .derin-detay-b { font-weight: 700; margin-bottom: 4px; }
-.derin-detay p { margin: 4px 0; }
+.derin-detay p { margin: 4px 0; white-space: pre-line; }
 .derin-kaynak { opacity: .75; font-size: 12px; }
 .derin-yeryok { opacity: .75; font-style: italic; }
 @media (max-width: 700px) {
@@ -1586,7 +1586,7 @@ html:has(#yanpanel.dar) #olay-detay { width: var(--panel-dar); }
   font-size: 12.5px;
   color: #6b5a33;
 }
-#detay-metin { font-size: 14px; line-height: 1.55; max-height: 45vh; overflow-y: auto; }
+#detay-metin { white-space: pre-line; font-size: 14px; line-height: 1.55; max-height: 45vh; overflow-y: auto; }
 #detay-kaynak {
   display: inline-block;
   margin-top: 12px;
@@ -2151,7 +2151,7 @@ html:has(#yanpanel.dar) #olay-detay { width: var(--panel-dar); }
   font-weight: bold;
   margin-right: 3px;
 }
-#ob-detay { font-size: 12.5px; line-height: 1.45; margin-top: 7px; }
+#ob-detay { white-space: pre-line; font-size: 12.5px; line-height: 1.45; margin-top: 7px; }
 #ob-ozel { margin-top: 7px; display: flex; flex-direction: column; gap: 4px; }
 .ob-kutu {
   font-size: 12px;
