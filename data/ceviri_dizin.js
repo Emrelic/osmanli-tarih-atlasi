@@ -859,7 +859,7 @@ window.CEVIRI_DIZIN = {
    ],
    [
     "ceviri_sw_olay_06.js",
-    "b11395af"
+    "947b02a0"
    ]
   ],
   "az": [
