@@ -1747,6 +1747,7 @@ Ceviri.ekle("bn","arayuz",{
 "yüklenemedi — bölgeler çizilemedi, metin duruyor":["লোড করা যায়নি — অঞ্চল আঁকা যায়নি, লেখা রইল", "b9872108"],
 "yükleniyor…":["লোড হচ্ছে…", "91b0563c"],
 "yıl":["বছর", "8252e04d"],
+"yıl kaynakta yok (# yer tutucu)":["বছরটি সূত্রে নেই (# স্থানধারক)", "c1d97e14"],
 "{sonuc, olcum} yok":["{sonuc, olcum} নেই", "b16f2562"],
 "~# Kasım #":["~# নভেম্বর #", "93926cba"],
 "± # yıl":["± # বছর", "bda5b78f"],

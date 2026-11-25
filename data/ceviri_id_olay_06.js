@@ -1,6 +1,7 @@
 /* ÇEVİRİ id · olay — arac/ceviri.py ile YAZILDI, elle düzenleme: py arac/ceviri.py uygula.
    Kayıt: id → [metin, kaynak_ozet] (olayda alan başına). Tasarım: denetim/CEVIRI-1103/TASARIM.md */
 Ceviri.ekle("id","olay",{
+"OLAYLAR_ORTACAG_ORTADOGU:0746-09-22:0":{"b": ["Pemimpin Khawarij (Ibadiyah) Talib al-Haqq merebut Sana'a dari Umayyah setelah Hadramaut (129/746)", "d56ff983"], "d": ["Abdullah b. Yahya al-Hadrami (Talib al-Haqq) memberontak melawan Umayyah dengan dukungan Ibadiyah Oman dan memproklamasikan dirinya khalifah; setelah Hadramaut ia menguasai Sana'a. Kemudian ia berbaris ke Mekah dan Madinah, dikalahkan oleh pasukan Marwan II, dan dibunuh di dekat Sana'a (130/748).", "a2697365"]},
 "OLAYLAR_ORTACAG_ORTADOGU:0747-01-01:0":{"b": ["Revolusi Abbasiyah secara terbuka dimulai di Khurasan di bawah pimpinan Abu Muslim (129/747).", "92a5194c"], "d": ["Revolusi Abbasiyah secara terbuka dimulai di Khurasan di bawah pimpinan Abu Muslim (129/747).", "92a5194c"]},
 "OLAYLAR_ORTACAG_ORTADOGU:0749-11-28:0":{"b": ["Abu al-Abbas dibaiat di Kufah; khilafah Abbasiyah didirikan", "a0c563ae"], "d": ["Abu al-Abbas dibaiat di Kufah; khilafah Abbasiyah didirikan", "a0c563ae"]},
 "OLAYLAR_ORTACAG_ORTADOGU:0750-01-16:0":{"b": ["Pertempuran Zab dimulai; Abdullah b. Ali mengalahkan Marwan II dan membubarkan pasukan Umayyah.", "d9b81d02"], "d": ["Pertempuran Zab dimulai; Abdullah b. Ali mengalahkan Marwan II dan membubarkan pasukan Umayyah.", "d9b81d02"]},

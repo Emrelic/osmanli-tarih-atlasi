@@ -1750,6 +1750,7 @@ Ceviri.ekle("ja","arayuz",{
 "yüklenemedi — bölgeler çizilemedi, metin duruyor":["読み込めなかった — 領域を描画できず、テキストは残る", "b9872108"],
 "yükleniyor…":["読み込み中…", "91b0563c"],
 "yıl":["年", "8252e04d"],
+"yıl kaynakta yok (# yer tutucu)":["年は史料にない（#年は仮置き）", "c1d97e14"],
 "{sonuc, olcum} yok":["{sonuc, olcum} がない", "b16f2562"],
 "~# Kasım #":["~#1 11月 #2", "93926cba"],
 "± # yıl":["± # 年", "bda5b78f"],

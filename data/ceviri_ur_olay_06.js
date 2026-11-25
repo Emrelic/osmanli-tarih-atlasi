@@ -1,6 +1,7 @@
 /* ÇEVİRİ ur · olay — arac/ceviri.py ile YAZILDI, elle düzenleme: py arac/ceviri.py uygula.
    Kayıt: id → [metin, kaynak_ozet] (olayda alan başına). Tasarım: denetim/CEVIRI-1103/TASARIM.md */
 Ceviri.ekle("ur","olay",{
+"OLAYLAR_GEZGINLER:1881-11-07:0":{"b": ["Darjeeling – Kambachen – Shigatse (Tashilhunpo) (Sarat Chandra Das، 1881)", "37d2dd2f"], "d": ["راستہ: Darjeeling → Kangpa-chan (Kambachen) → Shigatse (Tashilhunpo)۔ پورا سفر نقشے پر سفری خط کی صورت میں دکھایا جاتا ہے۔", "b72db6fb"]},
 "OLAYLAR_GEZGINLER:1882-05-14:0":{"b": ["Gyantse – Nangartse – Chaksam – Lhasa (Das، 1882)", "bc264905"], "d": ["راستہ: Gyantse → Nangartse (Nagarze) → Chaksam → Lhasa۔ پورا سفر نقشے پر سفری خط کی صورت میں دکھایا جاتا ہے۔", "60884a90"]},
 "OLAYLAR_GEZGINLER:1883-02-01:0":{"b": ["Mombasa – Rabai – Taveta – Ngongo (Kikuyu کی سرحد) – Naivasha – Baringo – جھیلِ Victoria (Thomson، 1883)", "2a6e3fd0"], "d": ["راستہ: Mombasa → Rabai → Taveta → Ngong (Kikuyu کی سرحد) → جھیل Naivasha → جھیل Baringo → Kavirondo (جھیلِ Victoria کا کنارہ)۔ پورا سفر نقشے پر سفری خط کی صورت میں دکھایا جاتا ہے۔", "b08adc33"]},
 "OLAYLAR_GEZGINLER:1885-06-11:0":{"b": ["Perm – Yekaterinburg – Tyumen (Kennan، Urals سے سائبیریا میں داخلہ)", "51073c4e"], "d": ["راستہ: Perm → Yekaterinburg → Tyumen۔ پورا سفر نقشے پر سفری خط کی صورت میں دکھایا جاتا ہے۔", "b54cc767"]},
@@ -708,6 +709,5 @@ Ceviri.ekle("ur","olay",{
 "OLAYLAR_ORTACAG_BIZANS_BALKAN:1228-01-01:0":{"b": ["ازمیت دوبارہ بازنطینی (سلطنتِ نیقیہ) حکمرانی میں چلا گیا", "249950f8"], "d": ["بازنطین اور لاطینیوں کے درمیان طویل عرصے ہاتھ بدلنے والا ازمیت 1228 میں سلطنتِ نیقیہ کی حکمرانی میں چلا گیا۔", "a051dabd"]},
 "OLAYLAR_ORTACAG_BIZANS_BALKAN:1229-01-01:0":{"b": ["ژان دو برین لاطینی شہنشاہ منتخب ہوا", "df313398"], "d": ["روبیر کے موریا میں فوت ہونے (1228) اور بودوان دوم کے بچہ ہونے پر بیت المقدس کا سابق بادشاہ ژان دو برین اگلے سال سلطنت کے لیے منتخب ہوا۔ ژان نے استنبول کا بلغاری-نیقیہ کے محاصرے سے بہادری کے ساتھ دفاع کیا۔", "2316312e"]},
 "OLAYLAR_ORTACAG_BIZANS_BALKAN:1230-01-01:0":{"b": ["کلوکوتنیتسا: ایوان آسن دوم نے ایپیروس کے امیر تھیوڈوروس کو شکست دے کر قید کر لیا؛ دیموتیکا بلغاری حکمرانی میں آ گیا", "514365f5"], "d": ["اپریل 1230 میں ادرنہ-فلیبے کے راستے پر کلوکوتنیتسا میں بلغاری زار ایوان آسن دوم نے تھیوڈوروس انجلوس کو شکست دے کر قید کر لیا؛ سلطنتِ سالونیکا کی طاقت ٹوٹ گئی، بلغاریہ تھریس اور مقدونیہ میں بڑھ گیا۔ دیموتیکا 1230-1246 کے درمیان بلغاری حکمرانی میں رہا۔", "40e19d64"]},
-"OLAYLAR_ORTACAG_BIZANS_BALKAN:1235-01-01:0":{"b": ["بلغاری پیٹریارکیت دوبارہ قائم ہوئی", "2390176f"], "d": ["بلغاری پیٹریارکیت 1235 میں دوبارہ زندہ کی گئی۔", "d24362c4"]},
-"OLAYLAR_ORTACAG_BIZANS_BALKAN:1235-01-01:1":{"b": ["گیلی بولو نیقیہ کے شہنشاہ یوحنا سوم کے ہاتھ آ گیا", "3687c283"], "d": ["1204 سے لاطینی ہاتھ میں گیلی بولو 1235 میں یوحنا (نیقیہ کے شہنشاہ یوحنا سوم واتاتزیس) نے واپس لے لیا۔", "623f8bea"]}
+"OLAYLAR_ORTACAG_BIZANS_BALKAN:1235-01-01:0":{"b": ["بلغاری پیٹریارکیت دوبارہ قائم ہوئی", "2390176f"], "d": ["بلغاری پیٹریارکیت 1235 میں دوبارہ زندہ کی گئی۔", "d24362c4"]}
 });
