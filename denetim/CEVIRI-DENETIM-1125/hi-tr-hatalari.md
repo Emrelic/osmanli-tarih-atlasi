@@ -95,3 +95,20 @@
 - olay OLAYLAR_ARKEOLOJI_ZINCIR: -0026 (d MS 395), -0310 (b Argead, d sahipsiz aralık), -0910 (d 14. yy Aşşur-uballit), -1099 (d Ur III yıl 3), -1899 (d aynı Ur III), -2003 (d Urnamma 2110), -2024 (d MÖ 16. yy), -1154 (d ca.1465), 0036 (d 214/221 Liu Bei), 0395 (d 476 Odoacer): id/başlık ile açıklamanın kaynağı uyuşmuyor
 - olay OLAYLAR_ARKEOLOJI_ZINCIR "dönemi başlar/sona erer" kayıtları: "ayrıntı ve kaynaklar aşağıdadır" ve "sahipsiz aralık dönemi" kullanıcıya görünen veri dili; "Korint: Korint dönemi" anlamsız
 - olay OLAYLAR_ARKEOLOJI_GECIS (tümü): b "sahip dönemi sona erer" veri dili
+
+== tr_hatalari_e.md
+- olay OLAYLAR_ARKEOLOJI_AFRIKA_IRAN:-8114-01-01:0: TR açıklama Türkçe karakterleri olmadan yazılmış ("yaylasinda bataklik", "yaklasik MO")
+- olay OLAYLAR_ARKEOLOJI_LEVANT_ANADOLU (143-145 paketlerindeki Mureybet, Ebu Hureyre, Natufiyen, Ayn Gazal, Kfar HaHoresh, PPNA/PPNB/PPNC, Aşıklı, Nevalı Çori, Çayönü, Cerf el-Ahmer, Hallan Çemi kayıtları): açıklamalar diakritiksiz Türkçe
+- olay OLAYLAR_ARKEOLOJI_AMERIKA:-0499-01-01:0 ve :-1199-01-01:0 (Chavín): başlangıç ve bitiş kayıtlarının açıklaması aynı; "vd.'ne göre"
+- olay OLAYLAR_OK109:1918-10-31:0: metinde görünen ters eğik çizgi (\"pat çiçeği devrimi\")
+- olay OLAYLAR_T5_1000A:1096-01-01:0 ve 1233-01-01:1: kullanıcıya görünen iç not ("atlas künyeye uyarak yıl hassasiyetinde yazar")
+- olay OLAYLAR_T5_1000A:1119-01-01:0, 1148-01-01:0, 1222-01-01:0, 1206-01-01:0: iç not ("bizans maddesi 1120 der", "katılış yılı yılsız", "alanya maddesi", "selcuklular maddesi")
+- olay OLAYLAR_T5_1000A:1199-01-06:0 ve T5_1000B:1171-09-13:0, 1250-04-30:0: iç not ("TDV'de BULUNAMADI", "künye günü kaynak değildir", "Emre #23 metbû modeli", "fark bildirildi")
+- olay OLAYLAR_T5_1000A:1225-01-01:0, 1231-01-01:1, 1256-01-01:0: iç not ("bölge cümlesi", "Emre kararı", "kural 5 sınırı")
+- olay OLAYLAR_KURULUS_GERI_1021 (0661, 0745, 0945, 0972, 1057, 0750, 1085-05-25): iç not ("beyanlı boşluk", "gün komşudan", "gün künye f'sinden", "kayıtta ayrı yazılmadı", "kuyruk kronolojide")
+- olay OLAYLAR_ORTACAG_ORTADOGU:1076-08-05:0, 0820-06-17:0, 0870-08-29:0, 0929-02-14:0, 1102-05-22:0: iç not ("Atlasta ... künyesiz / yazılıdır / BEYANLI YAKLAŞIKLIK")
+- olay OLAYLAR_ORTACAG_IBERYA_MAGRIB:1085-05-08:0, 1094-06-15:0, 1102-05-05:0; ORTACAG_IRAN_TURAN:1219-01-01:0: "künyesinden/kaydından çıkıp", "Atlasta ..." iç ifadeleri
+- olay OLAYLAR_ORTACAG_IRAN_TURAN:0943-04-06:0, 1035-06-29:0, 1092-11-19:0: parantez içinde "TDV ..." denetim notları
+- olay OLAYLAR_ORTACAG_IRAN_TURAN:1104-12-21:0, 1128-01-01:1, 1131-01-01:0: başlık/açıklamada "X oğlu Y'yi" yapısı kimin oğlu olduğunu belirsiz bırakıyor
+- olay OLAYLAR_ORTACAG_IRAN_TURAN:1230-01-01:0: "Halife Nâsır-Lidînillâh, Gürcüler ve İsmâilîler'le mücadele eden Celâleddin, ..." cümlesi bozuk
+- olay OLAYLAR_ORTACAG_BIZANS_BALKAN:1207-01-01:0: "Venedik Dojları Dandolo'nun yeğeni", "bir topluluğla" (toplulukla), "Sanudo kendisi bağlılığını"

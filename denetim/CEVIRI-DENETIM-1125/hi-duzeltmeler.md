@@ -431,3 +431,99 @@
 - olay | OLAYLAR_ORTACAG_IRAN_TURAN:1277-04-06:0 | d: binlik ayırıcı Türkçe biçimde
 - olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:0828-03-22:0 | b: dilbilgisi: yanlış fiil yapısı
 - olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:0828-03-22:0 | d: dilbilgisi: yanlış fiil yapısı
+- olay | OLAYLAR_EK5:1716-10-13:0 | d: 'eyaletin devriyle' (devir=el değiştirme) 'dönem' diye çevrilmiş; bozuk cümle; abi merkez anlamsız
+- olay | OLAYLAR_EK7:1387-01-01:0 | d: Cinsiyet uyumu hatası
+- olay | OLAYLAR_EK8:1924-01-01:0 | d: Alıntı Türkçe kalmış
+- olay | OLAYLAR_EK5:1516-09-26:0 | d: 'alınmasıyla' yanlış çevrilmiş
+- olay | OLAYLAR_EK5:1872-04-01:0 | d: 'alınmasıyla' yanlış çevrilmiş
+- olay | OLAYLAR_EK12:1913-08-31:0 | d: 'alınmasından sonra' yanlış çevrilmiş
+- olay | OLAYLAR_EK13:1513-09-03:0 | d: 'alınması' yanlış çevrilmiş
+- olay | OLAYLAR_EK13:1514-01-01:0 | d: 'alınmasının' yanlış çevrilmiş
+- olay | OLAYLAR_EK13:1769-03-11:0 | d: 'alınmasıyla' yanlış; 'en son vali' 'son vali' diye çevrilmiş; dilbilgisi
+- olay | OLAYLAR_EK5:1516-09-26:0 | d: 'alınmasıyla' yanlış okunuyor; 'तटपट्टी हाथ बदल गई' bozuk
+- olay | OLAYLAR_EK5:1716-10-13:0 | d: 'devir' (devretme) 'dönem' olarak yanlış çevrilmiş; bozuk cümle
+- olay | OLAYLAR_EK5:1872-04-01:0 | d: 'alınmasıyla' bozuk: 'सनआ के लिए जाने से' 'San'a'ya gitmekle' diye okunuyor
+- olay | OLAYLAR_EK7:1387-01-01:0 | d: Çevrilmemiş Türkçe kalıntı: 'TDV İslâm Ansiklopedisi'; cinsiyet uyumu
+- olay | OLAYLAR_EK8:1924-01-01:0 | d: Türkçe kalıntı (çevrilmemiş alıntı)
+- olay | OLAYLAR_EK12:1913-08-31:0 | d: 'alınması' = 'के लिए जाने' yanlış çevirisi
+- olay | OLAYLAR_EK13:1513-09-03:0 | d: 'alınması' = 'के लिए जाने' yanlış çevirisi
+- olay | OLAYLAR_EK13:1514-01-01:0 | d: 'alınması' yanlış çevirisi
+- olay | OLAYLAR_EK13:1769-03-11:0 | d: 'alınması' yanlış çevirisi; dilbilgisi
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:1275-09-08:0 | b: özel ad hatalı yazılmış (Nuño)
+- olay | OLAYLAR_ORTACAG_BIZANS_BALKAN:0800-12-25:0 | d: yanlış anlam: 'kendini ilan etti' gibi okunuyor
+- olay | OLAYLAR_ORTACAG_BIZANS_BALKAN:0904-07-31:0 | d: yanlış anlam (takip edilmeden döndü) ve binlik ayırıcı
+- olay | OLAYLAR_ORTACAG_BIZANS_BALKAN:1014-07-29:0 | d: binlik ayırıcı Türkçe biçimde
+- olay | OLAYLAR_ORTACAG_BIZANS_BALKAN:1018-01-01:0 | d: yer adı bozuk yazılmış
+- olay | OLAYLAR_ORTACAG_BIZANS_BALKAN:1018-01-01:1 | b: yer adı bozuk yazılmış
+- olay | OLAYLAR_ORTACAG_BIZANS_BALKAN:1018-01-01:1 | d: yer adı bozuk yazılmış
+- olay | OLAYLAR_ORTACAG_BIZANS_BALKAN:1071-08-26:0 | d: ağır anlam hatası: paralı askerler Türk ordusuna ait gibi yazılmış
+- olay | OLAYLAR_ORTACAG_BIZANS_BALKAN:1172-01-01:0 | b: dilbilgisi hatası
+- olay | OLAYLAR_ORTACAG_BIZANS_BALKAN:1172-01-01:0 | d: özne karışıklığı
+- olay | OLAYLAR_ORTACAG_BIZANS_BALKAN:1217-04-09:0 | d: Dyrrachium adı bozuk yazılmış; özne eksikti
+- olay | OLAYLAR_ORTACAG_BATI_AVRUPA:1069-01-01:0 | d: 'ने' eksik, dilbilgisi hatası
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:0957-01-01:0 | b: TR geçmiş zaman; çeviri şimdiki zaman
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:0966-01-01:0 | d: 'en geç 968' = en geç; 'अधिकतम' yanlış anlam
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1014-02-03:0 | d: 'en geç 987' yanlış çevrilmiş ('en çok')
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1127-01-01:0 | d: bozuk yapı (को ... जयकार किया)
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1134-01-01:0 | d: 'ortak kral' ortak (tek) kraldır, eş-hükümdar değil
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1157-01-01:0 | b: 'ने' ile 'बना' uyumsuz, dilbilgisi hatası
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1171-01-01:0 | d: bozuk yapı
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1253-01-01:0 | b: 'ने' ile 'बना' uyumsuz
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1263-01-01:0 | d: bozuk yapı; 'उसका भाई' belirsiz
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1097-01-01:0 | b: bozuk cümle yapısı
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1097-01-01:0 | d: bozuk cümle yapısı
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1101-08-01:0 | d: Türkçe binlik ayracı (nokta) Hintçede yanlış okunur
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1118-01-01:0 | b: Türkçe binlik ayracı
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1118-01-01:0 | d: Türkçe binlik ayracı
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1153-03-29:0 | d: Türkçe binlik ayracı
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1163-07-01:0 | d: Türkçe binlik ayracı
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1193-05-18:0 | d: cümlede öldürülen kişi belirsiz/bozuk
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1225-01-13:0 | b: Türkçe binlik ayracı
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1225-01-13:0 | d: Türkçe binlik ayracı
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1243-01-01:2 | d: bozuk yapı
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1255-01-01:0 | d: 'kendini sultan ilan etti' anlamı kaybolmuş
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1277-06-04:0 | d: Türkçe binlik ayracı
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1029-01-01:0 | b: 'को' eksik; binlik ayracı
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1029-01-01:0 | d: 'को' eksik; binlik ayracı
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1113-06-18:0 | d: dilbilgisi hatası
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1141-01-01:0 | d: Türkçe binlik ayracı
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1198-01-01:0 | d: Türkçe binlik ayracı
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1225-01-13:0 | d: bozuk yapı
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1241-05-01:0 | d: 'उसने' eksik
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1252-05-01:0 | b: 'Hint' = Hintli/Hindistan; 'Hindu' anlam kaydırıyor
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1252-05-01:0 | d: 'Hint' = Hintli/Hindistan; 'Hindu' anlam kaydırıyor
+- olay | OLAYLAR_ORTACAG_BOZKIR:1259-09-12:0 | d: bozuk yapı
+- olay | OLAYLAR_ORTACAG_CIN:0577-01-17:0 | b: Bingzhou = बिंगझोउ; पिंगझोउ başka yer (Pingzhou)
+- olay | OLAYLAR_ORTACAG_CIN:0577-01-17:0 | d: Bingzhou = बिंगझोउ
+- olay | OLAYLAR_ORTACAG_CIN:0605-04-10:0 | b: Dongjing yanlış harflenmiş
+- olay | OLAYLAR_ORTACAG_CIN:0617-12-12:0 | d: özne/'ने' eksik
+- olay | OLAYLAR_ORTACAG_CIN:0641-01-01:0 | d: 'ने' eksik, 'karşıladı' yanlış yapı
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-0329-01-01:1 | d: bozuk anlatım: 'yandığı görülür' şimdiki zaman 'yanıyor görünüyor' olmuş
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-0330-10-22:0 | b: yanlış özel ad: Mazaios, Mazakes (Mısır satrabı) başka kişi; 'के पास गई' kalıbı bozuk
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-0330-10-22:0 | d: yanlış özel ad: Mazaios, Mazakes değil
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-0332-11-01:0 | d: anlam bozuk: 'Mısır'ın İskender'in yanına gitmesi' / 'İskender'in Mısır'ı' gibi okunuyor
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-0479-01-01:1 | d: cinsiyet uyumu hatası
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-0538-10-29:0 | d: yanlış anlam: TR 'halkı selamladı', çeviri 'halkın selamını aldı'
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-0651-01-01:0 | b: TR 'öldü'; çeviri 'öldürüldü'
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-0652-01-01:0 | d: bozuk anlatım: 'भूमिका' iki ayrı anlamda tekrar
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-0711-01-01:0 | d: bozuk cümle yapısı
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-0732-01-01:0 | d: dilbilgisi hatası
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-0742-01-01:0 | d: dilbilgisi: के -> का
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-0929-01-01:0 | d: bozuk cümle yapısı
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-1099-01-01:0 | d: eksik 'ने' eki
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-1109-01-01:0 | d: dilbilgisi: लाना fiili 'ने' almaz; ikinci cümlede özne eksik
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-1179-01-01:0 | d: bozuk anlatım
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-1344-01-01:0 | b: dilbilgisi: sıfat isimsiz kalmış
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-1524-01-01:0 | b: eksik 'ने' eki
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-1599-01-01:0 | d: dilbilgisi hatası
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-1899-01-01:0 | d: sayı hatası: 'on binlerce' yerine 'binlerce'
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-1924-01-01:0 | d: yanlış anlam: 'Ur için gitme' gibi okunuyor
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-2091-01-01:0 | d: dilbilgisi: 'ने' öncesi çekim hali
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:0244-01-01:0 | b: bozuk anlatım: 'ağır barış' harfiyen çevrilmiş
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:0309-01-01:0 | d: dilbilgisi: का -> को
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:0363-01-01:0 | d: bozuk cümle yapısı
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:0363-06-26:0 | d: cümle tamamen bozuk
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:0451-01-01:0 | d: dilbilgisi: sıfat isim yerine kullanılmış
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:0484-01-01:0 | b: özne eksik: 'सासानी' sıfat kalmış
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:0496-01-01:0 | d: bozuk anlatım
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0047-01-01:0 | d: var olmayan sözcük ('हटन') ve bozuk özel ad yazımı

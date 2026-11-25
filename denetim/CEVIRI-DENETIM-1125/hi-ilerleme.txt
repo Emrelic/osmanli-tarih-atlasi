@@ -19,4 +19,12 @@ Tam okunan paketler: 4_olay_108 - 4_olay_142 (35/35, aralık tamam)
 Bakılan kayıt türü: yalnız olay (paketlerdeki tüm kayıtlar okundu; kayıt sayısı ayrıca sayılmadı)
 
 == ilerleme_e.txt
-Tam okunan: 4_olay_143 - 4_olay_171
+Tam okunan: 4_olay_143 - 4_olay_177 (35/35 paket, aralik tamam)
+Bakilan tur: yalnizca olay (kayit sayisi tek tek sayilmadi)
+Okunmayan: yok
+
+== ilerleme_f.txt
+Tamamen okunan paketler: 4_olay_178 - 4_olay_200
+
+== ilerleme_g.txt
+Tamamen okunan: 4_olay_213 - 4_olay_221
