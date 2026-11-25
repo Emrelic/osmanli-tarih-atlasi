@@ -144,3 +144,13 @@ Karahanlı = karahanid · Karahıtay = karakitaj · Oğuzlar = oguzët · Dâni�
 Gazne = Gazni · Belh = Balh · Serahs = Sarakhs · Nîşâbur = Nishapur · Rey = Reu (Rey) · Hemedan = Hamadan · Kirman = Kerman
 Irâk-ı Acem = Iraku Axham · Horasan = Horasan · Kayseri = Kajseri · Kâşgar = Kashgar · hutbe = hytbe · atabeglik = atabegat
 
+== sozluk_h.md
+# sq sozlugu (ETIKET h) — sozluk_a esastir (olay_091..106)
+Octavianus = Oktaviani · Augustus = Augusti · Antonius = Antoni · Caesar = Cezari · Ptolemaios = Ptolemeu (sıfat: ptolemaik; çoğ. ptolemenjtë)
+Seleukos = Seleuku (seleukid) · Diadochi = diadokët · Antigonos = Antigoni · Lysimakhos = Lisimaku · Kassandros = Kasandri
+Pyrrhos = Pirroja · Philippos = Filipi · Demetrios = Demetri · Hannibal = Hanibali · Mithridates = Mitridati · Pompeius = Pompeu
+Eyyûbî = ejubid · Hârizmşah = horezmshah · Dânişmendli = danishmend · Saltuklu = saltukid · Karahanlı = karahanid · Muvahhid = almohad
+Murâbıt = almoravid · Merînî = merinid · Aglebî = aglabid · Fâtımî = fatimid · Büveyhî = bujid · Zîrî = zirid · Haçlılar = kryqtarët
+Lidhja Akease / Lidhja Etole / Lidhja e Delosit / Lidhja e Peloponezit / Lidhja Beote / Lidhja Latine
+Part = parthian (halk: partët) · Sasani = sasanid · Aksum = Aksumi · Kush = Kushi · Asur = asirian
+
