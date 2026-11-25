@@ -59,6 +59,30 @@ window.EKOKUMA_DEVPAPALIK02 = [
     "Tarihçiler bugün ne diyor? Giacomo Martina, papanın iki sadakat arasında kaldığını gösterir: bütün Katoliklere yönelik görevi ve İtalyanların bağımsızlık isteklerine duyduğu yakınlık. Ona göre bunları uzlaştırma çabası içtendi ama yetersizdi. Papa programını açıkça anlatamadı, yanlış umutları zamanında dağıtmadı ve kararlarda geç kaldı. Martina, 1848-49 deneyiminin Pius'u anayasalı yönetime ve basın özgürlüğüne kalıcı biçimde karşı hale getirdiğini de vurgular.",
   kaynak:"Giacomo Martina, «Pio IX, beato», Enciclopedia dei Papi (Istituto della Enciclopedia Italiana, 2000), https://www.treccani.it/enciclopedia/beato-pio-ix_(Enciclopedia-dei-Papi)/",
   kesinlik:"kesin", teyit:"teyitli",
-  ic_not:"Maddenin seçimden 1850 dönüşüne ve izleyen yıllara uzanan bölümü okundu (yaklaşık 4.000-20.000. karakter)." }
+  ic_not:"Maddenin seçimden 1850 dönüşüne ve izleyen yıllara uzanan bölümü okundu (yaklaşık 4.000-20.000. karakter)." },
+
+{ id:"papalik-konstanz-secimi-1417", devlet:"papalik", tur:"sebep-sonuc",
+  baslik:"Konstanz'da yeni papayı kim, hangi kurallarla seçti?",
+  olay:["1414-11-05|Konstanz Konsili'nin açılması"],
+  kisa:"Bölünmüş bir Kilise'de yalnız kardinallerin seçeceği papa herkese güven vermeyebilirdi. Konstanz Konsili bu yüzden o seçime özgü bir seçmen kurulu oluşturdu.",
+  metin:"Konstanz Konsili toplandığında Batı Kilisesi'nde birden fazla kişi papalık iddiasındaydı. Konsile gelen XXIII. Johannes 21 Mart 1415'te Schaffhausen'e kaçtı. Kardinal Oddone Colonna da onun ardından gitti, fakat kısa süre sonra Konstanz'a döndü ve papanın azline giden yargılamaya tanık oldu.\n\n" +
+    "Yeni papa seçilmeden önce konsil bazı kuralları bağladı. 9 Ekim 1417'de Frequens adlı kararla genel konsillerin hangi ölçütlerle ve ne zaman toplanacağı belirlendi. Böylece konsil yalnız o günkü krizi değil, sonraki dönemi de düzenlemek istiyordu. 28 Ekim'de seçim yöntemi üzerinde uzlaşıldı. Fransız \"ulusu\"nun önerisine dayanan anlaşmaya göre orada bulunan yirmi üç kardinale otuz yüksek din adamı ve bilgin katılacaktı. İki gün sonra çıkan kararda bir koşul daha vardı: yeni papa, konsili dağıtmadan önce Kilise'nin ve papalık yönetiminin reformuna girişecekti.\n\n" +
+    "Seçim toplantısı 8 Kasım'da başladı. 11 Kasım 1417'de Colonna seçildi ve V. Martinus adını aldı. Taç giyme 21 Kasım'daydı. Papalık o kadar parasızdı ki tören için bin florin borç almak gerekti. Yeni papa farklı ülkelerle ayrı ayrı anlaşmalar yaptı. 19 Nisan 1418'de sonraki konsil için Pavia seçildi; Konstanz Konsili 22 Nisan'da kapandı. Papa'nın önünde şimdi başka bir iş vardı: Roma'ya dönmek ve dağılmış Kilise Devleti'ni yeniden kurmak.\n\n" +
+    "Tarihçiler bugün ne diyor? Treccani maddesi, Martinus'un kendisini seçen konsilin kararlarına bağlılığını başlangıçta açıkça gösterdiğine dikkat çeker. Örnek olarak Şubat 1418'de Wycliffe, Hus ve Praglı Hieronymus hakkındaki mahkûmiyetleri yinelemesini verir. Bu, konsil ile papa arasındaki yetki tartışmasının bütün yanlarıyla kapandığı anlamına gelmez.",
+  kaynak:"«Martino V», Enciclopedia dei Papi (Istituto della Enciclopedia Italiana, 2000), https://www.treccani.it/enciclopedia/martino-v_(Enciclopedia-dei-Papi)/",
+  kesinlik:"kesin", teyit:"teyitli",
+  ic_not:"Uzun maddenin yaklaşık 5.800-22.000. karakter aralığı okundu. Son cümle editörün sınırlayıcı notudur, maddeye atfedilmemiştir." },
+
+{ id:"papalik-dunyevi-iktidar-1860-1870", devlet:"papalik", tur:"tartisma",
+  baslik:"IX. Pius küçülen devletinden neden vazgeçmedi?",
+  olay:["1870-09-20|İtalyan birlikleri Roma'ya girdi"],
+  kisa:"1860'tan sonra Papalık Devleti Lazio'ya sıkışmıştı. İtalya Roma'yı başkent olarak anıyordu. Papa ise toprak üzerindeki egemenliğinden feragat edemeyeceğini ilan ediyordu. Gerekçesi neydi?",
+  metin:"1859'da Avusturya'ya karşı savaş başladığında papa ile baş yardımcısı Kardinal Antonelli olayların boyutunu kavrayamamış görünür. 1860 Eylülünde Piyemonte ordusunun Marche'ye girmeyeceğine inanıyorlardı. Gelişmeler başka oldu: Lamoricière komutasındaki papalık ordusu Castelfidardo'da yenildi ve devlet Lazio'dan ibaret kaldı. 17 Mart 1861'de Vittorio Emanuele İtalya kralı unvanını aldı; ardından Cavour Roma'yı İtalya'nın başkenti olarak gündeme getirdi. Ertesi gün papa bir konuşmasında devletinden vazgeçemeyeceğini yineledi.\n\n" +
+    "Meselenin arkasında yalnız toprak yoktu. Pius, Kilise'yi yönetebilmek için tam ve görünür bir özgürlüğe ihtiyaç duyduğunu vurguluyordu. Bazı belgelerde, seçilirken devletin bütünlüğünü korumak üzere ettiği yemine de değinilir. Öte yandan yeni İtalyan devleti din eşitliği, medeni nikâh ve sivil okul gibi ilkeler getiriyordu. Papa bu gelişmeyi uyruklarının inancı için tehlike sayıyordu. 1866-1867'de tarikatlara ve Kilise mallarına yönelik yasalar gerilimi artırdı.\n\n" +
+    "20 Eylül 1870'te İtalyan birlikleri Roma'ya girdi ve papaların dünyevi devleti sona erdi. Katoliklerin ulusal siyasete katılmamasını isteyen non expedit tutumu uzun süre tartışma konusu oldu.\n\n" +
+    "Tarihçiler bugün ne diyor? Giacomo Martina'ya göre Pius kuramda, dünyevi iktidarın her çağda zorunlu olmasıyla o günkü koşullarda gerekli olmasını ayırabiliyordu. Uygulamada ise bu ayrım çoğunlukla örtük kaldı. Martina, papanın ettiği yeminin koşullara bağlı olduğunu yeterince düşünmediğine de dikkat çeker. Non expedit'in yararları ve zararları ise bugün hâlâ tartışılır.",
+  kaynak:"Giacomo Martina, «Pio IX, beato», Enciclopedia dei Papi (Istituto della Enciclopedia Italiana, 2000), https://www.treccani.it/enciclopedia/beato-pio-ix_(Enciclopedia-dei-Papi)/",
+  kesinlik:"kesin", teyit:"teyitli",
+  ic_not:"Maddenin 1859-1870 Roma sorunu bölümleri okundu (yaklaşık 28.000-42.000. karakter). 20 Eylül 1870 cümlesinde gün okunan bölümde 'dopo il 20 settembre' olarak geçer; şehre girişin ayrıntısı anlatılmadı. 1861 allocuzione günü kaynakta 18 Mart; kaynak sıralaması 17 Mart ilanının ertesi günü." }
 
 ];
