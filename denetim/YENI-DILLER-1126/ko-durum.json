@@ -9,7 +9,7 @@
 2315
 ],
 "olay": [
-600,
+675,
 5196
 ]
 },
@@ -128,6 +128,11 @@
 "olay",
 "OLAYLAR_EK5:1352-01-01:0 d",
 "yil eksik"
+],
+[
+"olay",
+"OLAYLAR_EK5:1724-06-24:0 d",
+"turkce harf kalintisi"
 ]
 ]
 }
