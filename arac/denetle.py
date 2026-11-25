@@ -4299,7 +4299,8 @@ BILINEN_AYRI = {
     ("Alemdar Mustafa Paşa'nın ölümü", "Alemdar Mustafa Paşa ordusuyla İstanbul'a girdi"),
     # 🗑 SİLİNDİ 5 Eki 2026 (UMIT-W11-OLCUT-1006b) — ÖLÜ İSTİSNA, eski ölçütte de ölüydü:
     #    Şah Abbas'ın karşı taarruzu — Tebriz'in kaybı  ↔  Revan'ın Şah Abbas'a kaybı
-    ("Köprühisar'ın alınışı ve Yenişehir'in kuruluşuna hazırlık", "Yenişehir'in kuruluşu"),
+    # 🗑 SİLİNDİ 26 Kasım 2026 (post-it #194) — iki başlık da değişti: «Köprühisar'ın alınışı» /
+    #    «Osmanlı uç merkezinin Yenişehir'e taşınması» artık benzer değil.
     ("Tomanbay'ın Kahire'de Memlük sultanı ilân edilmesi",
      "Son Memlük sultanı Tomanbay'ın Terrûce'de yakalanması"),
     ("Oruç Ovası zaferi ve Canbolatoğlu isyanının bastırılması",
