@@ -24,5 +24,18 @@ window.KISI_INGILTERE = [
     not:"20. yüzyılda en uzun süre görev yapan İngiliz dışişleri bakanıdır. Kır hayatına düşkündü; sinekle balık avı ve kuş yetiştiriciliği konusunda uzmanlaştı. 7 Aralık 1905'te bakan oldu. Fransa ile yakınlaşmayı pekiştirdi, 1907'de Rusya ile anlaşma sağladı. 3 Ağustos 1914'te Belçika'nın tarafsızlığının çiğnenmesini öne sürerek parlamentoyu ve kamuoyunu Fransa'nın savunulmasından yana topladı. Osmanlı Devleti'nin ve Bulgaristan'ın Merkez Devletler'e katılmasını önleyemedi. 1916'da görevden ayrıldı; sonra Milletler Cemiyeti'ni destekledi.",
     tartisma:"Savaşın çıkışındaki rolü tartışmalıdır. Bazı eleştirmenler, Fransa'ya koşulsuz destek sözü vermekten kaçınmasının Almanya'yı İngiliz-Fransız yakınlığını hafife almaya itmiş olabileceğini söyler.",
     tarihciler:"Detlev Mares'in aktardığı yakın tarihli araştırmalar ise Kıta'daki savaş hazırlıklarının İngiltere pek hesaba katılmadan ilerlediğini, Grey'in olayları etkileme gücünün olmadığını ileri sürer.",
-    kaynak:"Detlev Mares, \"Grey, Sir Edward\", 1914-1918-online (18.04.2017), DOI 10.15463/ie1418.11085, https://encyclopedia.1914-1918-online.net/article/grey-sir-edward/" }
+    kaynak:"Detlev Mares, \"Grey, Sir Edward\", 1914-1918-online (18.04.2017), DOI 10.15463/ie1418.11085, https://encyclopedia.1914-1918-online.net/article/grey-sir-edward/" },
+
+  { id:"ingiltere-kisi-lloyd-george", devlet:"ingiltere", tur:"yabanci-devlet-adami",
+    teyit:"teyitli", yayin_adayi:true,
+    ad:"David Lloyd George",
+    f:"1863-01-17", t:"1945-03-26",
+    donem:"1863–1945 (başbakan 1916–1922)",
+    dogum_yer:"Manchester",
+    olum:"1945-03-26",
+    olum_yer:"Llanystumdwy",
+    not:"Kuzey Galler kırsalında amcasının evinde büyüdü, avukat oldu ve yirmi yedi yaşında Liberal milletvekili seçildi. Maliye bakanı olarak 1909'un tartışmalı \"Halkın Bütçesi\"ni ve 1911 Ulusal Sigorta Yasası'nı hazırladı. Savaşta mühimmat ve savaş bakanlığı yaptı; Aralık 1916'da başbakan oldu. 1919 Paris barış görüşmelerinde merkezî bir rol oynadı. 1922'de iktidarı yitirdi ve bir daha bakanlık görevi almadı. Ölümünden kısa süre önce kontluk unvanı aldı.",
+    tartisma:"Küçük savaş kabinesiyle kurduğu yönetim biçiminin Asquith'in yöntemlerinden gerçekten daha etkili olup olmadığı tartışılır.",
+    tarihciler:"Ian Packer onu savaş çabasının merkezindeki isim olarak anlatır; savaş sonrası Küçük Asya siyasetini ise felaket sayar.",
+    kaynak:"Ian Packer, \"Lloyd George, David\", 1914-1918-online (08.10.2014), DOI 10.15463/ie1418.10216, https://encyclopedia.1914-1918-online.net/article/lloyd-george-david/" }
 ];

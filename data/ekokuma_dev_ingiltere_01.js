@@ -62,6 +62,30 @@ window.EKOKUMA_DEVINGILTERE01 = [
     "Tarihçiler bugün ne diyor: Tariq Tell, McMahon'un yanıtlarına bilerek belirsizlik kattığını, Hüseyin'in de hemen gelecek maddî destek uğruna bunların üstüne gitmediğini savunur. Ona göre makul bir coğrafya yorumuyla dışarıda bırakılan alan Filistin'i de Lübnan'ı da içeremez; ayrıca üç İngiliz taahhüdü birbiriyle bağdaşmaz. Tartışma uzun sürdü; Tell, katılanların çoğunun ağırlıkla İngiliz ve Avrupa kaynaklarına dayandığını, George Antonius'un eserinin Hâşimî anlatısına yer veren bir istisna olduğunu belirtir.",
   kaynak:"Tariq Tell, \"Husayn-McMahon Correspondence\", 1914-1918-online (27.02.2017), DOI 10.15463/ie1418.11061, https://encyclopedia.1914-1918-online.net/article/husayn-mcmahon-correspondence/",
   kesinlik:"tartismali", teyit:"teyitli", yayin_adayi:true,
-  ic_not:"Kedourie, Antonius okunmadı; yalnız Tell'in aktarımı. Karşı görüş (Filistin'in dışarıda bırakıldığı İngiliz savunusu) ayrı kaynaktan okunmadı — BORÇ. İsyanın başlangıç günü maddede yok (yalnız Temmuz 1916); bağlanan olay günü bu kaynaktan teyit edilmedi, metne yazılmadı." }
+  ic_not:"Kedourie, Antonius okunmadı; yalnız Tell'in aktarımı. Karşı görüş (Filistin'in dışarıda bırakıldığı İngiliz savunusu) ayrı kaynaktan okunmadı — BORÇ. İsyanın başlangıç günü maddede yok (yalnız Temmuz 1916); bağlanan olay günü bu kaynaktan teyit edilmedi, metne yazılmadı." },
+
+{ id:"ingiltere-kadin-oyu-savas-1918", devlet:"ingiltere", tur:"karsi-anlati",
+  baslik:"İngiliz kadınlarını savaş mı özgürleştirdi?",
+  olay:["1918-02-06|Halkın Temsili Yasası"],
+  kisa:"Mühimmat fabrikaları, üniformalar ve 1918'de gelen oy hakkı: hikâye bir zafer gibi anlatılır. Savaştan sonra ise kadınların çoğu o işlerden çıktı.",
+  metin:"1914'te savaş patlayınca kadın oy hakkı hareketi bölündü. Militan Kadınların Toplumsal ve Siyasî Birliği doğrudan eylem kampanyasını bırakıp savaşı destekledi, asker toplama mitingleri düzenledi. Emmeline Pankhurst'ün kızı Sylvia ise annesinin tutumundan dehşete düştü ve Londra'nın yoksul doğu yakasında işsiz kalan kadınlarla çalıştı. Millicent Fawcett'in önderliğindeki çoğunluk, savaşın kendi savundukları demokrasi ilkeleri için verildiğini söylerken barışçı bir azınlık ayrıldı.\n\n" +
+    "Kadınlar mühendislikten tramvaya kadar yeni işlere girdi; 1917'de orduda yardımcı kadın birliği kuruldu. Ama kapı yarım açılmıştı. 1915'teki Hazine anlaşması kadınların vasıflı erkek işinin yalnız bir parçasını öğrenmesini ve daha az ücret almasını öngörüyordu. Pek çok sendika ve erkek işçi onları kendi ücret ve konumları için tehdit saydı.\n\n" +
+    "1918'de otuz yaşını aşmış yaklaşık 8,4 milyon kadın oy hakkı kazandı. Mütarekeden sonra ise kadınların çoğu savaş işlerinden ayrıldı; yardımcı birlikler kapandı. Ev hizmetinde çalışmayı reddedenlerin işsizlik ödeneği kesilebiliyordu. Basında savaş işçisi kadınlara karşı sert bir tepki yükseldi.\n\n" +
+    "Tarihçiler bugün ne diyor: Arthur Marwick gibi \"modernleşme\" tezini savunanlar savaşın toplumsal değişimi hızlandırdığını söyler. Gail Braybon bu değişimin \"savaş süresiyle sınırlı\" kaldığını vurgular. Margaret ve Patrice Higonnet'ye göre kadınlar bir adım ilerlerken erkekler de cephede bir adım ilerlediği için aradaki ilişki değişmedi. Lucy Noakes, birçok kadın bu yılları özgürleşme olarak yaşamış olsa da savaşın genel olarak İngiliz kadınlarını özgürleştirmediği sonucuna varır.",
+  kaynak:"Lucy Noakes, \"Women's Mobilization for War (Great Britain and Ireland)\", 1914-1918-online. International Encyclopedia of the First World War, https://encyclopedia.1914-1918-online.net/article/womens-mobilization-for-war-great-britain-and-ireland/",
+  kesinlik:"tartismali", teyit:"teyitli", yayin_adayi:true,
+  ic_not:"Yasanın 6 Şubat günü bu maddede yok (yalnız 1918 ve 8,4 milyon / 30 yaş üstü); metne gün yazılmadı. Marwick, Braybon, Higonnet doğrudan okunmadı, Noakes'un aktarımı." },
+
+{ id:"ingiltere-lloyd-george-canak-1922", devlet:"ingiltere", tur:"sebep-sonuc",
+  baslik:"Savaşı kazanan başbakanı Çanakkale kıyısındaki bir kriz nasıl düşürdü?",
+  olay:["1922-10-11|Mudanya Mütarekesi"],
+  kisa:"David Lloyd George 1918'de zaferin ve ezici bir seçim başarısının sahibiydi. Dört yıl sonra Anadolu siyaseti ve Çanak Krizi iktidarının sonunu getiren yolu açtı.",
+  metin:"Kuzey Galler kırsalında, kunduracı amcasının evinde büyüyen David Lloyd George, savaş öncesinin radikal Liberallerindendi. 1914'te savaşa girilmesine başta çok isteksizdi; sonra tutum değiştirdi ve seferberliğin en ateşli savunucularından oldu. Mühimmat Bakanlığı'nda üretimi büyük ölçüde artırdı. Aralık 1916'da Asquith'in yerine başbakan oldu; bu adım Liberal Parti'yi giderek ikiye böldü.\n\n" +
+    "Kasım 1918'de zafer onun hükûmetine nasip oldu. Aralıkta Muhafazakârlarla ittifak halinde seçimi ezici farkla kazandı. Ama iktidarı artık büyük ölçüde bu ortaklığa dayanıyordu.\n\n" +
+    "Savaş sonrasında Anadolu'da Yunanistan'ı, Osmanlı Devleti'nden geriye kalan topraklara ilerlemeye teşvik etti. Bu siyaset Türk-Yunan Savaşı'na ve büyük nüfus yıkımlarına giden yolu açtı. 1922'de Çanak'taki İngiliz birlikleri Türk kuvvetlerinin tehdidi altında kaldığında Kanada İngiliz dış politikasının arkasında durmadı. Kriz Lloyd George'u ağır biçimde yıprattı; Muhafazakâr ortakları ona sırt çevirdi, hükûmeti sona erdi. Aynı yıl istifa etti ve bir daha bakanlık görevi almadı. 1926-1931 arasında yeniden birleşen Liberal Parti'nin yenilikçi önderi oldu.\n\n" +
+    "Tarihçiler bugün ne diyor: Ian Packer onun savaş çabasında merkezî bir rol oynadığını kabul eder, savaş sonrasındaki Küçük Asya siyasetini ise açıkça felaket olarak niteler. Savaşı yönetme biçiminin Asquith'inkinden gerçekten daha etkili olup olmadığı konusunda tartışmanın sürdüğünü de belirtir.",
+  kaynak:"Ian Packer, \"Lloyd George, David\", 1914-1918-online. International Encyclopedia of the First World War (08.10.2014), DOI 10.15463/ie1418.10216, https://encyclopedia.1914-1918-online.net/article/lloyd-george-david/",
+  kesinlik:"kesin", teyit:"teyitli", yayin_adayi:true,
+  ic_not:"Packer istifanın gününü vermez; metne gün yazılmadı. Çanak krizinin askerî seyri ve Mudanya bu maddede yok." }
 
 ];
