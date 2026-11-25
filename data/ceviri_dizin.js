@@ -950,15 +950,15 @@ window.CEVIRI_DIZIN = {
   "jv": [
    [
     "ceviri_jv_arayuz.js",
-    "8e713fd4"
+    "013fdcfe"
    ],
    [
     "ceviri_jv_devlet.js",
-    "66d97553"
+    "9d92e415"
    ],
    [
     "ceviri_jv_olay.js",
-    "03ce925f"
+    "ffe7ca33"
    ]
   ]
  }

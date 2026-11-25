@@ -774,7 +774,7 @@ Ceviri.ekle("jv","arayuz",{
 "E-posta ya da kullanıcı adı":["Email utawa jeneng panganggo", "0126b987"],
 "E-posta/kullanıcı adı ve şifre gerekli.":["Email/jeneng panganggo lan tembung sandhi kudu diisi.", "a19d06f9"],
 "E-posta/kullanıcı adı ya da şifre yanlış.":["Email/jeneng panganggo utawa tembung sandhine salah.", "99d3ef11"],
-"E-postadaki bağlantıya tıklayabilir ya da kodu aşağıya yazabilirsiniz. Gelmediyse gereksiz (spam) klasörüne bakın.":["Kowe bisa ngeklik pranala ing email utawa nulis kode ing ngisor. Yen durung teka, priksanen folder spam.", "9e77e5f9"],
+"E-postadaki bağlantıya tıklayabilir ya da kodu aşağıya yazabilirsiniz. Gelmediyse gereksiz (spam) klasörüne bakın.":["Kowe bisa ngeklik pranala ing email utawa nulis kode ing ngisor. Yen durung teka, priksanen folder sampah (spam).", "9e77e5f9"],
 "E-postanız doğrulanmadı":["Emailmu durung diverifikasi", "1ea8faae"],
 "E-postanız henüz doğrulanmadı. Gelen kutunuzdaki doğrulama bağlantısına tıklayın.":["Emailmu durung diverifikasi. Kliken pranala verifikasi ing kothak layang mlebu.", "fb4c38ec"],
 "E-postanızı kontrol edin":["Priksanen emailmu", "0c1a00df"],
