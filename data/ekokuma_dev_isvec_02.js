@@ -1,0 +1,23 @@
+// EK OKUMA - İSVEÇ, parti 02
+window.EKOKUMA_DEVISVEC02 = [
+
+{ id:"isvec-kimdir-eva-ekeblad", devlet:"isvec", tur:"kimdir",
+  baslik:"Patatesle Akademi'ye giren kontes: Eva Ekeblad",
+  kisa:"Patates İsveç'te henüz pek tanınmayan bir bitkiyken bir kontes onunla deneyler yaptı ve Kraliyet Bilimler Akademisi'ne seçilen ilk kadın oldu.",
+  metin:"1724'te Stockholm'de doğan Eva De la Gardie, soyu ve evliliği bakımından İsveç'in en yüksek konumlu kadınlarındandı. 1741'de, on altı yaşındayken Kont Clas Ekeblad ile evlendi. Kocası siyasi görevleri yüzünden sık sık evden uzaktaydı; geniş hane ve mülklerin yükünü büyük ölçüde o taşıdı.\n\nPatates o sırada İsveç'te görece az bilinen bir bitkiydi. Ekeblad onun çeşitli kullanımlarını denedi ve 1748'de, Akademi'nin kuruluşundan yaklaşık on yıl sonra, Kraliyet Bilimler Akademisi'ne seçildi. Aynı yıl Akademi'nin yayınında çıkan yazısında ekmek, içki, nişasta ve pudra üretme denemelerini anlattı. Yulaf ununu haşlanıp ezilmiş patatesle karıştırarak lezzetli bir ekmek yapılabileceğini yazdı. En ayrıntılı tarifi ise sonradan öğütülüp elenerek pudraya dönüştürülebilen nişasta içindi. İçki yapımına çok kısa değindi. 1752'de de pamuk ipliğini ağartmada kullanılacak bir sabun üzerine çalışmasını özetledi.\n\nAdı bugün en çok patates içkisiyle anılır. Hatta bu yöntemi onun bulduğu da ileri sürülür. Oysa yöntem İsveç'te daha önce biliniyordu: 1747'de hem Jacob Albrecht von Lantingshausen hem de Carl Skytte bu konuda yazmıştı.\n\nTarihçiler bugün ne diyor? Biyografisini yazan Eva Lenneman'a göre içkiyi bulan o değildi, ama İsveç'te onu uygulamada ilk deneyen kişi olabilir. Lenneman üyeliğini daha çok onursal üyeliğe benzeyen, simgesel bir üyelik sayar: Ekeblad toplantıların hiçbirine katılmadı. Akademi onun seçilmesiyle başka kadınları da evlerde işe yarayacak ürünler geliştirmeye özendirmeyi umuyordu. Yine de Akademi'ye bir sonraki kadın üye ancak 1945'te seçildi.",
+  kesinlik:"kesin",
+  olay:["1739-06-02|Bilimler Akademisi"],
+  kaynak:"Eva Lenneman, \"Eva Ekeblad\", Svenskt kvinnobiografiskt lexikon, 2018, https://skbl.se/en/article/EvaEkeblad",
+  teyit:"teyitli" },
+
+{ id:"isvec-magazin-armfelt-rudenschold", devlet:"isvec", tur:"magazin",
+  baslik:"Aşk mektupları ve darbe planı: Magdalena Rudenschöld davası",
+  kisa:"III. Gustav ölünce gözdesi gözden düştü. Napoli'den Stockholm'e giden mektuplar bir darbe planını ve saraydan bir kadının bu plandaki rolünü ele verdi.",
+  metin:"Magdalena Rudenschöld, Prenses Sofia Albertina'nın nedimesiydi. III. Gustav'ın gözdesi Gustaf Mauritz Armfelt ile büyük olasılıkla 1784'te başlayan ilişkisini ikisi de saklamaya özen göstermedi.\n\n1792'de kral ölünce yaşanan iktidar mücadelesinde Armfelt konumunu yitirdi. Küçük yaştaki kralın adına Dük Karl ile Gustaf Adolf Reuterholm'ün yürüttüğü yönetim, eski kralın yandaşlarını etkisizleştirmek istiyordu. Armfelt elçi olarak Napoli'ye gönderildi; ilişki mektuplarla sürdü.\n\nGeniş bir çevresi olan Rudenschöld, sevgilisinin İtalya'dan yürüttüğü siyasi planlara ortak oldu. Armfelt, Rudenschöld ve saraydaki birkaç dostları, Rus askerî desteği ve Dalarna köylülerinin yardımıyla yönetimi devirmeyi, yerine Armfelt'in başında olacağı bir hükûmet getirmeyi tasarladı. Rudenschöld, II. Katerina'dan destek istemek için Petersburg'a gitmeyi önerdi; bu gerçekleşmedi.\n\nMektuplarının izlendiği yolunda defalarca uyarıldı, yine de yazışmayı kesmedi. 1793 Noeli'nden az önce tutuklandı. İlk belgelerde hükûmet eleştirisinden ve Rusya ile gevşek bağlardan fazlası yoktu. Nisan 1794 başında İtalya'dan gelen yeni mektup yığınında ise darbeye destek verecek bir Rus filosundan söz ediliyordu. Bunlar önüne konunca planı ve kendi payını itiraf etti.\n\nReuterholm sanıkları ahlak yönünden de karalamaya girişti; siyasi içeriği olmayan aşk mektupları yayımlatıldı. Ağır cezalar sonradan hafifletildi, ama Rudenschöld Eylül 1794'te Stockholm'de teşhir direğine çıkarıldı. İki yıl kadınlar için bir iplik hapishanesinde kaldı, 1796'da Gotland'a sürüldü.\n\nTarihçiler bugün ne diyor? Biyografisini yazan My Hellsing'e göre günümüze kalan yazışma onun siyasete derinden dahil olduğunu gösteriyor. Hayatı, o konumdaki bir kadının perde arkasında siyasi rol oynayabilmesi için evli olması gerektiği yolundaki anlayışa farklı bir ışık tutuyor.",
+  kesinlik:"kesin",
+  olay:["1792-03-29|III. Gustav suikast"],
+  kaynak:"My Hellsing, \"Magdalena Charlotta Rudenschöld\", Svenskt kvinnobiografiskt lexikon, 2018, https://www.skbl.se/en/article/MagdalenaRudenschold",
+  teyit:"teyitli",
+  ic_not:"Kaynak gövdesinde bir yerde 'Margareta Rudenschöld' yazıyor (dizgi hatası); madde adı Magdalena. 'Küçük yaştaki kral' ifadesi kaynakta yok (kaynak: minority government); yönetimin naiplik oluşu bu deyimden." }
+
+];
