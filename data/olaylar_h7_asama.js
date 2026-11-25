@@ -59,7 +59,7 @@ window.OLAYLAR_H7_ASAMA = [
 
 { onem:3, dunya:1, bolge_onem:3, puan_s:"v2", tur:"savas", kapsam:"ic", t:"1605-11-06", k:"savas", etiket:["savas","konu-askeri"],
   b:"Cigalazâde Sinan Paşa'nın Urmiye gölü yakınında (Sûfiyân) bozgunu",
-  gun:"1605 sefer mevsimi — gün komşudan: kronoloji_safevi.js 1605-11-06 'Sufiyan Muharebesi' (kendi kaynağı: Cambridge History of Iran, c. 6)",
+  ic_not_ham_gun:"1605 sefer mevsimi — gün komşudan: kronoloji_safevi.js 1605-11-06 'Sufiyan Muharebesi' (kendi kaynağı: Cambridge History of Iran, c. 6)", gun:"1605 sefer mevsimi (gün kesin değil)",
   ic_not_gun:"TDV ahmed-i ve cigalazade-sinan-pasa yalnız '1605' der; gün TDV'de yok. Gün, aynı olayı tarihleyen komşu kayıttan (kronoloji_safevi.js, Cambridge History of Iran c.6) alındı — o kaydın günü kendi kaynağına dayanıyor; zincirleme devralma yok. TDV cigalazade-sinan-pasa: kaynaklardaki 'Kasım 1605' ölüm tarihi doğrulanmıyor, ölüm 1606 Şubatı başı.",
   yer:"Urmiye gölü yakını → Van → Diyarbekir", yer_id:"Tebriz", kisiler:"Cigalazâde Sinan Paşa, Şah I. Abbas, Köse Sefer Paşa, Canbolatoğlu Hüseyin Paşa",
   d:"1605 sefer mevsiminde Tebriz'i geri almak için yürüyen Sinan Paşa'nın durumu, Erzurum beylerbeyi Köse Sefer Paşa'nın esas ordudan ayrı hareket edip esir düşmesiyle sarsıldı. Şah Abbas'ın ani baskını orduyu Urmiye gölü civarında ağır bir yenilgiye uğrattı; Sinan Paşa önce Van'a, sonra Diyarbekir'e çekildi. Yardıma geç kaldı diye Halep beylerbeyi Canbolatoğlu Hüseyin Paşa'yı idam ettirmesi Anadolu'da büyük bir isyanı tutuşturdu; Sinan Paşa'nın ölümünden sonra Şah Abbas Gence, Şirvan ve Şamahı'yı aldı.",

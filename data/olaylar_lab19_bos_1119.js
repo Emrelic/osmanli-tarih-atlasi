@@ -129,7 +129,7 @@ window.OLAYLAR_LAB19_BOS_1119 = [
   etiket:["konu-siyasi"],
   yer_id:"Bingazi",
   b:"Bingazi yeniden bir yerleşim merkezi olarak ortaya çıktı (tahmin)",
-  gun:"1470 yıllarına doğru [tahmin; yalnız yıl; gün teyitsiz]",
+  ic_not_ham_gun:"1470 yıllarına doğru [tahmin; yalnız yıl; gün teyitsiz]", gun:"1470 yıllarına doğru (yaklaşık; yalnız yıl biliniyor)",
   yer:"Bingazi",
   d:"Bizans'ın son döneminde terk edilen Bingazi'nin yeniden bir yerleşim merkezi olarak ortaya çıkışının 1470 yıllarına rastladığı tahmin edilmektedir.",
   ic_not_d:"LAB19-F2 (19 Kasım 2026): BEYANLI YAKLAŞIKLIK: kaynak kesin yıl vermez, «tahmin edilmektedir» der; 1470 bir tahmin merkezidir. Tek TDV maddesi.",

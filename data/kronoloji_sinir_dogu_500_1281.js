@@ -2863,7 +2863,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
   ],
   "ic_not_ham_d":"Mevcut künye Dvaravati'nin 1100'de bittiğini kabul eder; Coedès 11.-12. yy'da Menam havzasında Khmer genişlemesini anlatır ama Nakhon Pathom'u anmaz.", "d": "Burada Dvaravati'nin 1100'de bittiği kabul edilir; Coedès 11.-12. yy'da Menam havzasında Khmer genişlemesini anlatır ama Nakhon Pathom'u anmaz.",
   "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm XII-8: «In the eleventh the Khmers had established themselves at Lavo, and in the twelfth they had extended their domination to the borders of the kingdom of Haripunjaya»",
-  "gun": "11.-12. yy; 1100 künye değeri",
+  "ic_not_ham_gun":"11.-12. yy; 1100 künye değeri", "gun": "11.-12. yüzyıl",
   "kesinlik": "yuzyil",
   "sinir_id": [],
   "ic_not": "BOŞLUK dilimi beyanlıdır; künye t=1100 kaynakta doğrulanamadı."
@@ -4572,7 +4572,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
   "kaynak": "Ahmet Kavas, «Kâbil», TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/kabil--afganistan (22.10.2026'da okundu), «Kâbil»: \"Kâbil’de Kuşan Devleti’nin ve arkasından hüküm süren Kâbilşâhîler hânedanının yıkılmasından sonra Türkşâhîler dönemi başladı.\"",
   "kesinlik": "onyil",
   "sinir_id": [],
-  "gun": "TDV: 7. yüzyılın ortası; 44/664'te Türkşâhî zaten haraca bağlanmış (künye f=0665 ≤ 0664 olmalı)",
+  "ic_not_ham_gun":"TDV: 7. yüzyılın ortası; 44/664'te Türkşâhî zaten haraca bağlanmış (künye f=0665 ≤ 0664 olmalı)", "gun": "7. yüzyılın ortası",
   "ic_not": "Türk Şâhî başlangıcı TDV'de yıl verilmeden '7. yüzyılın ortalarında Türklerin Kâbil'e yerleşmesi' ve sonrası olarak anlatılır; 0665 künye f değeri."
  },
  {

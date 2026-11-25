@@ -6466,7 +6466,6 @@ function isyanMaddeKutusu(o, ozelEl) {
       (p.tur === "habsburg" ? "Habsburg idaresi" : "isyan") + " · " +
       _isyanTarihYazi(p.f, p.kesinlik_f) + " → " + _isyanTarihYazi(p.t, p.kesinlik_t) +
       " · " + durum + " · kaynak: " + kay.join(", ");
-    sat.title = p.not || "";
     kutuEl.appendChild(sat);
   });
   var dip = document.createElement("span");

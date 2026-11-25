@@ -616,7 +616,7 @@ window.OLAYLAR_EK16 = [
   d:"Vytautas Smolensk'i ele geçirdi; şehir 1514'te Moskova'ya geçene dek Litvanya Büyük Dükalığı'nda kaldı.",
   kaynak:"devletler.js künyesi; yıl düzeyi — gün kaynakta yok [yalnız yıl teyitli; gün teyitsiz]; RBS/Britannica elle doğrulama bekler" },
 // ---- KRONOLOJI-BALTIK-RUSYA (28 Ekim 2026): Belarus doğusu işgal/kurtuluş
-{ onem:2, dunya:1, bolge_onem:2, puan_s:"v2", bolge:1, t:"1941-07-11", k:"diger", kapsam:"dis", etiket:["isgal","toprak-kazanc","konu-askeri"], b:"Vitebsk Alman Ordusu'nca alındı", gun:"≤11 Temmuz 1941 [gün teyitsiz]", yer:"Vitebsk", yer_id:"Vitebsk",
+{ onem:2, dunya:1, bolge_onem:2, puan_s:"v2", bolge:1, t:"1941-07-11", k:"diger", kapsam:"dis", etiket:["isgal","toprak-kazanc","konu-askeri"], b:"Vitebsk Alman Ordusu'nca alındı", ic_not_ham_gun:"≤11 Temmuz 1941 [gün teyitsiz]", gun:"11 Temmuz 1941 ya da öncesi (gün kesin değil)", yer:"Vitebsk", yer_id:"Vitebsk",
   d:"Merkez Ordular Grubu Vitebsk'i Barbarossa'nın ilk haftalarında aldı; şehir Haziran 1944'e dek Alman askerî idaresinde kaldı, nüfusunun büyük kısmı yok oldu.",
   kaynak:"JewishGen Belarus bülteni (Vitebsk) — arama özeti [özet]; gün teyit bekler" },
 { onem:3, dunya:2, bolge_onem:3, puan_s:"v2", bolge:1, t:"1944-06-26", k:"diger", kapsam:"dis", etiket:["toprak-kazanc","konu-askeri"], b:"Vitebsk Kızıl Ordu'ca kurtarıldı — Bagration Harekâtı", ic_not_ham_gun:"26 Haziran 1944 [gün teyitsiz — aramada doğrulanamadı]", gun:"26 Haziran 1944 (gün kesin değil)", yer:"Vitebsk", yer_id:"Vitebsk",

@@ -13583,7 +13583,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"endulus-tavaif", ad:"Mülûkü't-tavâif (Endülüs tâife emirlikleri)", tur:"emirlik", bolge:"iberya",
-  f:"1009-01-01", t:"1110-01-01", baskent:"yok (toplu künye) — başlıca merkezler: İşbîliye, Tuleytula, Sarakusta, Batalyevs, Gırnata, Belensiye, Kurtuba", boya_gerekli:true,
+  f:"1009-01-01", t:"1110-01-01", ic_not_ham_baskent:"yok (toplu künye) — başlıca merkezler: İşbîliye, Tuleytula, Sarakusta, Batalyevs, Gırnata, Belensiye, Kurtuba", baskent:"Başlıca merkezler: İşbîliye, Tuleytula, Sarakusta, Batalyevs, Gırnata, Belensiye, Kurtuba", boya_gerekli:true,
   alinti_f:"Âmirî ailesinin 400 (1009) yılında iktidardan uzaklaştırılmasının ardından Emevî şehzadelerinin Kurtuba’da (Córdoba) taht kavgalarıyla uğraşmaları sırasında meydana gelen otorite boşluğu",
   alinti_t:"Belensiye Valisi Ebû Abdullah Muhammed el-Lemtûnî’nin gelmesiyle şehir Murâbıtlar’ın Endülüs’te hâkimiyet altına aldıkları son merkez oldu (503/1110).",
   ic_not_f:"f 1009 mu 1031 mi: TDV ikisini de verir — emirliklerin ortaya çıkışı 1009 fitnesiyle başlar, ama 'mülûkü’t-tavâif dönemi' TDV'ye göre resmen 422 (1031)'de başlar ('Böylece ülkede merkezî idarenin yıkılma, beyliklerin kurulma süreci bitmiş ve mülûkü’t-tavâif dönemi başlamış oldu' [TDV: mulukut-tavaif]). Haritada tâifeler 1009-1031 arasında fiilen var olduğundan (ör. Belensiye 401/1010-11'de Âmirî âzatlılarına geçti, İşbîliye 1023'te Abbâdî merkezi oldu) f = 1009 önerildi; gün bilinmiyor → 01-01. Koordinatör 1031'i seçerse 1009-1031 arası tâife toprakları endulus-emevi'ye düşer ki bu tarihsel olarak yanlış olur.",

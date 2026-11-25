@@ -52,7 +52,7 @@ window.OLAYLAR_LAB19_BOS_1119_D = [
   etiket:["konu-siyasi"],
   yer_id:"Barnaul",
   b:"Demidov adamları Barnaul ağzında bakır eritme zavodunun inşasına başladı",
-  gun:"Sonbahar 1739 [yalnız yıl teyitli; gün teyitsiz]",
+  ic_not_ham_gun:"Sonbahar 1739 [yalnız yıl teyitli; gün teyitsiz]", gun:"Sonbahar 1739 (günü bilinmiyor)",
   yer:"Barnaul",
   d:"Demidov'un adamları 1739 sonbaharında Barnaul ırmağının ağzında göründü ve bakır eritme zavodunun inşasına başladı; zavodun yanında zavod yerleşimi doğdu.",
   ic_not_d:"LAB19-F2 (19 Kasım 2026): Gün yok, mevsim (sonbahar) kaynaktadır. Aynı kaynak şehir tüzüğündeki resmî kuruluş yılı 1730'u (Barnaulka köyü) tartışır; atlas maddesi ağız mevkiindeki zavod inşasını (1739) yazar. Yazarı okunmadı; tek kaynak.",

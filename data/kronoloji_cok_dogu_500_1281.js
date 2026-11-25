@@ -6910,7 +6910,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "d": "Coedès'e göre 11. yy'da Khmerler Lavo'ya yerleşti, 12. yy'da etkileri Haripunjaya sınırına kadar uzandı; Dvaravati'nin Menam havzasındaki merkezi bu süreçte Khmer ve Mon sonrası yapılarına karıştı. Künyedeki 1100 yuvarlak bir sınırdır.",
   "kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni okundu), Bölüm XII-8: «In the eleventh the Khmers had established themselves at Lavo, and in the twelfth they had extended their domination to the borders of the kingdom of Haripunjaya»",
-  "gun": "11.-12. yy; 1100 künye değeri",
+  "ic_not_ham_gun":"11.-12. yy; 1100 künye değeri", "gun": "11.-12. yüzyıl",
   "kesinlik": "yuzyil",
   "ic_not": "Dvaravati'nin 1100'de bittiği kaynakta açıkça yazılmaz; mevcut künye t değeri (devletler.js) ile uyum için yazıldı, BEYAN: kaynaklı son gün yok."
  },
@@ -9695,7 +9695,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "d": "Harşa 647'de ölünce Mahasenagupta'nın oğlu Madhavagupta Magadha tahtını aldı; Harşa'nın arkadaşı olan Madhavagupta ve ağabeyi Kumaragupta Thaneswar sarayında yaşamıştı. Aphsad yazıtı hanedanın Magadha'da neredeyse bir yüzyıl güçlü bir prenslik olarak hüküm sürdüğünü gösterir.",
   "kaynak": "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. III: The Classical Age, Bharatiya Vidya Bhavan, Bombay 1954 (archive.org: classicalage03bhar, tam metin okundu), «Northern India during A.D. 650-750»: \"Shortly after the death of Harsha we find the Later Guptas ruling over it.\"",
-  "gun": "Harşa ölümü 647 (harsha künyesi t); \"shortly after\" (Majumdar III)",
+  "ic_not_ham_gun":"Harşa ölümü 647 (harsha künyesi t); \"shortly after\" (Majumdar III)", "gun": "647 sonrası (gün bilinmiyor)",
   "kesinlik": "yil",
   "ic_not": "Kesin yıl yok; Harşa künyesi t=0647 kullanıldı."
  },

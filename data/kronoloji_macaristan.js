@@ -401,7 +401,7 @@ window.KRONOLOJI_MACARISTAN = [
   d:"Mohaç'tan sonra Erdel voyvodası Szapolyai János, ulusal bir soylu meclisi tarafından kral seçildi; aynı yıl içinde bir başka meclis de Habsburglu Ferdinand'ı seçecek ve ülke iki rakip kralın hükümranlık iddiasıyla bölünecekti.",
   kaynak:"akademik: Engel (2001), s. 360-362" },
 
-{ t:"1526-12-17", devlet:"macaristan-habsburg", gun:"16-17 Aralık 1526, Pozsony — seçim günü kaynaklarda 16 (Wien Geschichte Wiki) ya da 17 (diyetin bitişi; `macaristan-habsburg` künyesi) Aralık", b:"I. Ferdinand'ın da kral seçilmesi — iki kral dönemi", tur:"bolunme", onem:5, dunya:2, kapsam:"dis",
+{ t:"1526-12-17", devlet:"macaristan-habsburg", ic_not_ham_gun:"16-17 Aralık 1526, Pozsony — seçim günü kaynaklarda 16 (Wien Geschichte Wiki) ya da 17 (diyetin bitişi; `macaristan-habsburg` künyesi) Aralık", gun:"16-17 Aralık 1526 (gün kesin değil)", b:"I. Ferdinand'ın da kral seçilmesi — iki kral dönemi", tur:"bolunme", onem:5, dunya:2, kapsam:"dis",
   etiket:["hukumdar","bolunme","hanedan","konu-siyasi","konu-hanedan"],
   yer_id:"İstolni Belgrad",
   d:"II. Lajos'un kız kardeşiyle evli olan Habsburglu Ferdinand, Batı ve Kuzey Macaristan'ın büyük kısmının desteğiyle kral ilan edildi; on üç yıl sürecek bir iç savaşta iki kral (Szapolyai ve Ferdinand) ülke üzerinde birbiriyle çatıştı, her ikisi de zaman zaman Osmanlı'dan destek aradı.",
