@@ -19,4 +19,4 @@ Tamamen okunan: 4_olay_057-091 (35 paket; araligin tamami)
 Bakilan kayit: yalniz olay turu (paket basi ~6-45 kayit; kayit sayisi ayrica sayilmadi)
 
 == ilerleme_d.txt
-Tamamen okunan: 4_olay_135-144
+Tamamen okunan: 4_olay_135-159

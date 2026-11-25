@@ -518,3 +518,156 @@
 - olay | OLAYLAR_ANTIK_AKDENIZ:-0278-01-01:0 | b: dilbilgisi: belirtme eki eksik
 - olay | OLAYLAR_ANTIK_AKDENIZ:-0305-01-01:0 | b: anlam: 'Kıbrıs Salamis'te' bozuk çevrilmiş
 - olay | OLAYLAR_ANTIK_AKDENIZ:-0340-01-01:0 | d: bozuk ifade: haraca bağladı
+- arayuz | " ayarlarını açar/kapatır. | m: 'açar' yanlış zaman/anahtar; açır olmalı
+- arayuz | " ayarlarını açar/kapatır. | m: 'ayarlar' Türkçe kalıntısı (duzeltme_001'deki satırın yerine geçer)
+- olay | OLAYLAR_EK17:1731-01-01:0 | d: İmla (hazire)
+- olay | OLAYLAR_ILIRYA0072:1806-01-01:0 | d: Türkçe yer adı biçimi
+- olay | OLAYLAR_EK10:1595-10-01:0 | d: Türkçe kalıntısı; antlaşma adı
+- olay | OLAYLAR_EK13:1362-03-01:0 | d: 'yaka', 'uc' Türkçe kalıntısı
+- olay | OLAYLAR_EK14:1362-06-01:0 | d: Gereksiz tire
+- olay | OLAYLAR_ILIRYA0072:1806-01-01:0 | d: 'ayrım' (fark) 'ayrılıq' olmuş
+- olay | OLAYLAR_EK10:1595-10-01:0 | d: Ünlü uyumu
+- olay | OLAYLAR_EK13:1362-03-01:0 | d: Türkçe kalıntısı 'yaka'
+- olay | OLAYLAR_EK14:1362-06-01:0 | d: Yazım hatası ve Türkçe ek
+- olay | OLAYLAR_EK17:1731-01-01:0 | d: Türkçe kalıntısı/yazım hatası ('giriştiyi', 'gətirdilən')
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1012-07-23:0 | b: dönüşlülük eksik: kendini kağan ilan etti
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1052-01-01:0 | b: ünlü uyumu hatası
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1052-01-01:0 | d: yarım kalan fiil biçimi
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1063-09-04:0 | d: özel ad yanlış (Kündürî)
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1064-01-01:0 | d: bozuk anlatım
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1094-01-21:0 | d: yazım (kesme/tire artığı)
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1095-02-26:0 | d: yazım: Məhəmməd, məliki
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1107-01-01:0 | d: yazım (tire artığı)
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1147-01-01:0 | b: Türkçe kalıntısı (yöre)
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1147-01-01:0 | d: Türkçe kalıntısı (yöre)
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1155-03-07:0 | d: Türkçe kalıntısı (yöre)
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1157-02-13:0 | d: bozuk fiil biçimi
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1159-01-23:0 | d: bozuk fiil biçimi
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1183-04-26:0 | d: bozuk fiil biçimi
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1192-01-18:0 | d: bozuk fiil biçimi
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1204-01-01:0 | b: Türkçe kalıntısı (yöre)
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1204-01-01:0 | d: Türkçe kalıntısı (yöre)
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1246-01-01:0 | d: bozuk fiil biçimi
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:0972-01-01:0 | d: yazım (tire artığı)
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:1094-06-15:0 | d: parantezde anlamsız tekrar (TR: Belensiye)
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:1147-06-02:0 | d: Türkçe biçim kalıntısı
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:1148-01-01:0 | b: yazım hatası (qraflıq)
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:1148-01-01:0 | d: yazım hatası (qraflıq)
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:1183-04-26:0 | d: bozuk fiil biçimi
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:1196-01-01:0 | d: Mağrib-i Aksâ 'Fəs' şehri olarak çevrilmiş
+- olay | OLAYLAR_ORTACAG_BIZANS_BALKAN:0827-04-02:0 | b: yer adı (Krit) yanlış yazım
+- olay | OLAYLAR_ORTACAG_BIZANS_BALKAN:0827-04-02:0 | d: yer adı (Krit)
+- olay | OLAYLAR_ORTACAG_BIZANS_BALKAN:0904-07-31:0 | b: yer adı (Krit)
+- olay | OLAYLAR_ORTACAG_BIZANS_BALKAN:0963-08-16:0 | d: Türkçe yer adı kalıntısı
+- olay | OLAYLAR_ORTACAG_BIZANS_BALKAN:0986-08-17:0 | b: bozuk anlatım
+- olay | OLAYLAR_ORTACAG_BIZANS_BALKAN:1018-01-01:1 | d: 'boş saldırı' kelimesi kelimesine çevrilmiş
+- olay | OLAYLAR_ORTACAG_BIZANS_BALKAN:1071-08-26:0 | b: yanlış yer adı: Malazgirt
+- olay | OLAYLAR_ORTACAG_BIZANS_BALKAN:1071-08-26:0 | d: yanlış yer adı: Malazgirt
+- olay | OLAYLAR_ORTACAG_BIZANS_BALKAN:1182-01-01:0 | d: çoğul eki eksik/hatalı
+- olay | OLAYLAR_ORTACAG_BIZANS_BALKAN:1203-07-17:0 | b: TR: tahta oturtuldu
+- olay | OLAYLAR_ORTACAG_BIZANS_BALKAN:1206-01-01:0 | b: sur 'səngər' (siper) olarak çevrilmiş
+- olay | OLAYLAR_ORTACAG_BIZANS_BALKAN:1261-03-13:0 | d: çoğul eki hatalı
+- olay | OLAYLAR_ORTACAG_BATI_AVRUPA:1032-01-01:1 | d: yazım (Franş-Konte)
+- olay | OLAYLAR_ORTACAG_BATI_AVRUPA:1032-01-01:2 | d: yazım (Franş-Konte)
+- olay | OLAYLAR_ORTACAG_BATI_AVRUPA:1032-01-01:3 | d: yazım (Franş-Konte)
+- olay | OLAYLAR_ORTACAG_BATI_AVRUPA:1154-10-25:0 | d: bozuk fiil biçimi
+- olay | OLAYLAR_ORTACAG_BATI_AVRUPA:1201-01-01:0 | d: ünlü uyumu (qraflığı)
+- olay | OLAYLAR_ORTACAG_BATI_AVRUPA:1214-01-01:0 | b: ünlü uyumu (qraflığı)
+- olay | OLAYLAR_ORTACAG_BATI_AVRUPA:1218-01-01:0 | d: ünlü uyumu ve zaman kipi
+- olay | OLAYLAR_ORTACAG_BATI_AVRUPA:1229-01-01:0 | d: ünlü uyumu (qraflıq)
+- olay | OLAYLAR_ORTACAG_BATI_AVRUPA:1271-01-01:0 | b: ünlü uyumu (qraflığının)
+- olay | OLAYLAR_ORTACAG_BATI_AVRUPA:1271-01-01:0 | d: yanlış anlam: miras kızına kaldı; bozuk fiil
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:0812-01-01:0 | d: ünlü uyumu (qraflıq)
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1030-01-01:0 | b: ünlü uyumu (qraflığı)
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1030-01-01:0 | d: ünlü uyumu (qraflığı)
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1042-01-01:0 | d: ünlü uyumu (Qraflığının)
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1112-01-01:0 | b: ünlü uyumu (Qraflığın)
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1112-01-01:0 | d: ünlü uyumu (Qraflığının)
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1115-01-01:0 | d: ünlü uyumu
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1115-07-24:0 | d: ünlü uyumu (TR'deki iç meta metin tr_hatalari'na yazıldı)
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1128-08-22:0 | d: ünlü uyumu (Qraflığı)
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1148-01-01:0 | d: ünlü uyumu hatası
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1166-05-07:0 | d: öğleden sonra → günortadan sonra
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1204-01-01:0 | d: ünlü uyumu hatası
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1228-01-01:0 | d: yönelme eki eksik
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1237-01-01:1 | d: yazım (ordenə)
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0478-01-01:0 | d: özel ad yazımı: Mardonios
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0630-01-01:0 | b: yazım: ünlü uyumu
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0630-01-01:0 | d: yazım: ünlü uyumu
+- olay | OLAYLAR_ANTIK_AKDENIZ:0106-01-01:0 | d: noktalama (TR'de de bozuk)
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0629-01-01:0 | d: Türkçe ad biçimi: Bələncər
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0878-01-01:0 | d: Türkçe kalıntısı: gelgit
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0903-01-01:0 | b: dilbilgisi: Tuluni birlikləri
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0903-01-01:0 | d: dilbilgisi: Tuluni birlikləri
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0960-03-03:0 | b: yer adı: Fas burada Fəs şehri (Merakeş değil)
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0960-03-03:0 | d: yer adı: Fas burada Fəs şehri
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0993-02-26:0 | b: yer adı: Fez şehri = Fəs
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0993-02-26:0 | d: yer adı: Fəs
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1033-01-01:0 | b: yer adı: Fəs
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1033-01-01:0 | d: yer adı: Fəs
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0997-01-01:0 | b: yer adı yazımı: Sührəverd
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0997-01-01:0 | d: yer adı yazımı: Sührəverd
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1146-04-28:0 | b: yer adı: Fez şehri = Fəs
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1146-04-28:0 | d: yer adı: Fəs
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1248-04-26:1 | b: yer adı: Fəs (şehir)
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1248-04-26:1 | d: yer adı: Fəs
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1247-01-01:0 | d: bozuk cümle: krala müsadirə edildi
+- olay | OLAYLAR_KUNFUZE_1016:1814-05-01:0 | d: dilbilgisi: Tami'nin
+- olay | OLAYLAR_KUNFUZE_1016:1815-03-01:0 | d: özel ad: Tami (Tamin değil)
+- olay | OLAYLAR_2S1019:1687-09-26:0 | b: dilbilgisi: ilgi eki
+- olay | OLAYLAR_2S1019:1794-06-15:0 | d: anlam: konsülta özne; İngiliz kralı
+- olay | OLAYLAR_2S1019:1439-08-27:0 | d: bozuk dilbilgisi
+- olay | OLAYLAR_2S1019:1475-06-06:0 | b: anlam: gevşek himaye 'boş' değil
+- olay | OLAYLAR_2S1019:1475-06-06:0 | d: anlam: gevşek himaye
+- olay | OLAYLAR_2S1019:1344-03-26:0 | d: anlam: Palmiye Pazarı bir bayram günü, hurma pazarı değil
+- olay | OLAYLAR_2S1114D5:1956-03-02:0 | b: Türkçe ülke adı: Fas → Mərakeş
+- olay | OLAYLAR_2S1114D5:1956-03-02:0 | d: Türkçe ülke adı: Fas → Mərakeş
+- olay | OLAYLAR_ALM1115B:1152-03-05:0 | d: bozuk ifade: taç giydi
+- olay | OLAYLAR_CINHINDI1115B:1430-01-01:0 | d: anlam: madalyon, sikke değil
+- olay | OLAYLAR_LAB19_2S_P1:0820-02-01:0 | d: imla: ay adı küçük harf
+- olay | OLAYLAR_LAB19_2S_P1:0855-09-29:0 | d: imla: ay adı küçük harf
+- olay | OLAYLAR_LAB19_2S_P3:1451-06-30:0 | d: imla: ay adı küçük harf
+- olay | OLAYLAR_LAB19_2S_P4:1736-09-13:0 | d: imla: ay adı küçük harf
+- olay | OLAYLAR_LAB19_2S_P4:1795-01-01:0 | b: ad biçimi: Səudilər
+- olay | OLAYLAR_LAB19_2S_P4:1833-07-28:0 | d: imla: ay adı küçük harf
+- olay | OLAYLAR_LAB19_2S_P5:1839-05-13:0 | d: imla: ay adı küçük harf
+- olay | OLAYLAR_LAB19_2S_P5:1860-06-14:0 | d: imla: ay adları küçük harf
+- olay | OLAYLAR_LAB19_2S_P5:1916-05-23:0 | d: imla: ay adı küçük harf
+- olay | OLAYLAR_LAB19_2S_P5:1918-02-16:0 | d: imla: ay adı küçük harf
+- olay | OLAYLAR_LAB19_2S_P5:1918-10-07:0 | d: imla: ay adları küçük harf
+- olay | OLAYLAR_LAB19_2S_P6:1920-02-02:0 | d: dilbilgisi: belirtme eki
+- olay | OLAYLAR_LAB19_2S_P6:1936-07-18:0 | d: imla: ay adı küçük harf
+- olay | OLAYLAR_LAB19_2S_P6:1936-07-19:0 | d: imla: ay adı küçük harf
+- olay | OLAYLAR_LAB19_2S_P6:1938-10-10:0 | d: imla: ay adı küçük harf
+- olay | OLAYLAR_LAB19_2S_P6:1939-03-30:0 | d: imla: ay adı küçük harf
+- olay | OLAYLAR_LAB19_2S_P6:1941-08-29:0 | d: imla: ay adı küçük harf
+- olay | OLAYLAR_LAB19_2S_P6:1944-10-06:0 | d: imla: ay adı küçük harf
+- olay | OLAYLAR_LAB19_2S_P6:1944-10-20:0 | d: imla: ay adı küçük harf
+- olay | OLAYLAR_LAB19_2S_P6:1945-05-09:0 | d: imla: ay adı küçük harf
+- olay | OLAYLAR_LAB19_2S_P6:1919-02-01:0 | d: imla: ay adı küçük harf
+- olay | OLAYLAR_LAB19_2S_P6:1922-01-01:0 | b: ad biçimi: Səudilər
+- olay | OLAYLAR_LAB19_2S_P6:1916-06-16:0 | b: yazım hatası
+- olay | OLAYLAR_LAB19_2S_P6:1916-06-16:0 | d: yazım hatası
+- olay | OLAYLAR_LAB19_2S_P6:1916-09-17:0 | b: yazım hatası
+- olay | OLAYLAR_LAB19_2S_P6:1037-01-01:0 | b: yer adı: Fas burada Fez şehri, Merakeş değil
+- olay | OLAYLAR_LAB19_2S_P6:1037-01-01:0 | d: yer adı: Fəs; Həmamə yazımı
+- olay | OLAYLAR_UMIT19_ASIRET_1119:1779-09-05:0 | b: özel ad tutarlılığı: Sullivan
+- olay | OLAYLAR_UMIT19_ASIRET_1119:1779-09-05:0 | d: özel ad tutarlılığı: Sullivan
+- olay | OLAYLAR_UMIT19_ASIRET_1119:1850-07-18:0 | d: bozuk cümle
+- olay | OLAYLAR_KI117:1684-11-03:0 | d: yabancı harf karışması ve yazım
+- olay | OLAYLAR_KI117:1695-01-12:0 | d: dilbilgisi: yönelme eki
+- olay | OLAYLAR_KI117:1699-09-22:0 | d: anlam: 'bu günle' (bugün değil)
+- olay | OLAYLAR_AVMAC_A_1029:1129-01-01:0 | b: boşluk eksik
+- olay | OLAYLAR_AVMAC_A_1029:1363-01-26:0 | d: yazım: qraflıq
+- olay | OLAYLAR_AVMAC_A_1029:1379-01-01:0 | b: yazım: qraflıq
+- olay | OLAYLAR_AVMAC_A_1029:1379-01-01:0 | d: yazım: qraflıq
+- olay | OLAYLAR_AVMAC_A_1029:1523-01-01:0 | d: yazım: bölünmüş kelime ve qraflıq
+- olay | OLAYLAR_AVMAC_B_1029:1805-12-26:0 | d: yazım: qraflıq
+- olay | OLAYLAR_AVMAC_B_1029:1527-11-03:0 | b: bozuk ifade: taç giydi
+- olay | OLAYLAR_AVMAC_B_1029:1527-11-03:0 | d: bozuk ifade: taç giydi
+- olay | OLAYLAR_AVMAC_B_1029:1867-06-08:0 | b: bozuk ifade: taç giydi
+- olay | OLAYLAR_AVMAC_C_1029:1867-06-08:0 | b: bozuk ifade: taç giydi
+- olay | OLAYLAR_AVMAC_C_1029:1867-06-08:0 | d: anlam: taçlandırıldı
+- olay | OLAYLAR_AVMAC_C_1029:1919-08-04:0 | b: Türkçe ad kalıntısı
+- olay | OLAYLAR_AVMAC_C_1029:1919-11-16:0 | b: Türkçe ad kalıntısı
+- olay | OLAYLAR_AVMAC_C_1029:1921-10-13:0 | b: yer adı yazımı: Sopron
