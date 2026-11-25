@@ -3934,7 +3934,7 @@ BILINEN_AYRI = {
     ("Solomon Adaları Britanya'dan bağımsız oldu",
      "Dominika Britanya'dan bağımsız oldu (Portsmouth)"),
     # ⭐ BAE 1971-12-02 kuruluş ↔ Ras el-Hayme 1972-02-10 katılım — 13 Ekim 2026 (SUMER-2000): iki AYRI olay, 70 gün ara.
-    ("Birlesik Arap Emirlikleri kuruldu (Abu Dabi, Sarika; Ras el-Hayme sonradan)",
+    ("Birleşik Arap Emirlikleri kuruldu (Abu Dabi, Sarika; Ras el-Hayme sonradan)",
      "Ras el-Hayme (Cülfâr) Birleşik Arap Emirlikleri'ne katıldı"),
     # ⭐ SUMER-2000 / HALEF DEVİR MADDELERİ — 13 Ekim 2026.
     # data/kronoloji_sinir_halef_1923_2000.js 257 madde getirdi, tavan 95 → 145 oldu. Her çift TEK TEK okundu:
@@ -3951,7 +3951,7 @@ BILINEN_AYRI = {
      "Estonya, SSCB Yüksek Sovyeti kararıyla Sovyetler Birliği'ne katıldı (Tallinn, Narva, Tartu, Pärnu)"),
     ("İngiliz kuvvetleri Mogadişu'yu aldı; Güney Somali (Mogadişu, Merka, Baydoa vd.) İngiliz askerî idaresine girdi",
      "İngiliz ilerleyişi İtalyan Somalisi'nin kuzey ve orta kesimlerini (Obbiya, Galkayo, Bosaso, Kısmayu, Dusa Mareb vd.) askerî idareye kattı"),
-    ("Japonya Kore'deki teslim belgesini imzaladi; guney Kore (Seul, Pusan, Incheon) ABD Ordu Askeri Hukumeti idaresine gecti",
+    ("Japonya Kore'deki teslim belgesini imzaladı; güney Kore (Seul, Pusan, Incheon) ABD Ordu Askerî Hükümeti idaresine geçti",
      "Kore'de Japon teslimiyeti: 38. paralelin kuzeyi (Pyongyang, Kaesong, Hamhung) Sovyet idaresinde"),
     ("Malaya Birligi kuruldu; Federe olmayan Malay devletleri (Johor, Muar) birlige katildi",
      "Malaya Birligi kuruldu; Federe Malay Devletleri ile Penang ve Malaka Birlige katildi (Labuan zincirde hatali)"),

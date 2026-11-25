@@ -835,6 +835,13 @@
   },
   {
    "tur": "olay",
+   "id": "OLAYLAR_T5_1000B:1261-07-25:0",
+   "alan": "d",
+   "eski": "İznik birlikleri 25 Temmuz 1261'de İstanbul'a girerek Latin hâkimiyetine son verdi; Laskaris (İznik) devletinin toprakları — Bursa, İzmir, Çimpe, Edirne, Selânik — yeniden Bizans İmparatorluğu oldu. Atlas bu noktalarda 1261 öncesi İznik İmparatorluğu dönemini yalnız kaynakta adıyla geçenlerde gösterir.",
+   "yeni": "İznik birlikleri 25 Temmuz 1261'de İstanbul'a girerek Latin hâkimiyetine son verdi; Laskaris (İznik) devletinin toprakları — Bursa, İzmir, Çimpe, Edirne, Selânik — yeniden Bizans İmparatorluğu oldu. Haritada bu noktalarda 1261 öncesi İznik İmparatorluğu dönemi yalnız kaynakta adı geçen yerlerde gösterilir."
+  },
+  {
+   "tur": "olay",
    "id": "OLAYLAR_ONCE1000_1019:0990-03-31:0",
    "alan": "d",
    "eski": "Ukaylî Ebü'z-Zevvâd Muhammed b. Müseyyeb Musul'u ele geçirdi (380 / 990); hicrî 380 ∩ 990 kesişiminin ilk günü 31 Mart 990 seçildi (hicrî-mîlâdî tablo, ±1-2 gün), gün kaynakta yok.",
@@ -1370,7 +1377,7 @@
    "id": "OLAYLAR_AVMAC_C_1029:1918-11-16:0",
    "alan": "d",
    "eski": "Károlyi 31 Ekim 1918'de (Pat Çiçeği Devrimi) Karl tarafından başbakan atanmıştı. 16 Kasım 1918'de Millî Konsey ve hükûmet Halk Cumhuriyeti'ni ilân etti; 11 Ocak 1919'da Károlyi geçici cumhurbaşkanı oldu. macaristan-naiplik ve macaristan-halk-cumhuriyeti künyeleri bu günden başlar. Bu olayla Aquincum-Óbuda-Pest, Estergon, Eğri, Segedin (Szeged), Debrecen, Varad ve Yukarı Macaristan dahil Macaristan Krallığı'nın Hırvatistan dışındaki şehirleri Macaristan Halk Cumhuriyeti'ne geçti.",
-   "yeni": "Károlyi 31 Ekim 1918'de (Pat Çiçeği Devrimi) Karl tarafından başbakan atanmıştı. 16 Kasım 1918'de Millî Konsey ve hükûmet Halk Cumhuriyeti'ni ilân etti; 11 Ocak 1919'da Károlyi geçici cumhurbaşkanı oldu. Macaristan (1918 Sonrası: Cumhuriyet → Naiplik) ve Macaristan Halk Cumhuriyeti (Károlyi) künyeleri bu günden başlar. Bu olayla Aquincum-Óbuda-Pest, Estergon, Eğri, Segedin (Szeged), Debrecen, Varad ve Yukarı Macaristan dahil Macaristan Krallığı'nın Hırvatistan dışındaki şehirleri Macaristan Halk Cumhuriyeti'ne geçti."
+   "yeni": "Károlyi 31 Ekim 1918'de (Pat Çiçeği Devrimi) Karl tarafından başbakan atanmıştı. 16 Kasım 1918'de Millî Konsey ve hükûmet Halk Cumhuriyeti'ni ilân etti; 11 Ocak 1919'da Károlyi geçici cumhurbaşkanı oldu. Macaristan (1918 Sonrası: Cumhuriyet → Naiplik) ve Macaristan Halk Cumhuriyeti (Károlyi) bu günden başlar. Bu olayla Aquincum-Óbuda-Pest, Estergon, Eğri, Segedin (Szeged), Debrecen, Varad ve Yukarı Macaristan dahil Macaristan Krallığı'nın Hırvatistan dışındaki şehirleri Macaristan Halk Cumhuriyeti'ne geçti."
   },
   {
    "tur": "olay",

@@ -27969,7 +27969,7 @@ window.DEVLETLER = [
     { odak_yer:["Podor"], 
       t: "1000-01-01",
       tur: "son",
-      b: "Erken Tekrûr kaydı, atlasın Tekrûr Krallığı künyesine (1000-1281) devredildi",
+      ic_not_ham_b:"Erken Tekrûr kaydı, atlasın Tekrûr Krallığı künyesine (1000-1281) devredildi", b: "Erken Tekrûr dönemi, Tekrûr Krallığı başlığı altında (1000-1281) anlatılır",
       kaynak: "Hizalama işareti: tekrur-kralligi künyesi f=1000-01-01 (atlas; dayanak değil)",
       kesinlik: "yuzyil"
     }
