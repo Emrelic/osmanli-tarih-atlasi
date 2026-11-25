@@ -109,6 +109,24 @@ Berlin Antlaşması Բեռլինի պայմանագիր · Ayastefanos Սան Ս
 Celâlî Ջելալիներ · Osmanoğulları-տիպ անուններ՝ -oğulları -օղուլներ (Կարամանօղուլներ) · beyan edilmiş yaklaşıklık հայտարարված մոտավորություն ·
 TDV'nin X maddesi TDV-ի «X» հոդվածը · atlas ատլաս
 
+== sozluk_e.md
+# hy բառարան (ETIKET e, olay_037-050) — լրացումներ sozluk_a-ին
+
+## Անուններ
+Âmid Ամիդ · Merv Մերվ · Herat Հերաթ · Yezd Յազդ · Kerbela Քարբալա · Necef Նաջաֆ · Cerbe Ջերբա · Trablusgarp Տրիպոլի (Լիբիա) ·
+Turgut Reis Թուրգութ ռեիս · Piyâle Paşa Փիյալե փաշա · Mimar Sinan ճարտարապետ Սինան · Pîrî Reis Փիրի ռեիս ·
+Uzun Hasan Ուզուն Հասան · Karayülük Osman Կարայուլուք Օսման · Cihan Şah Ջահան Շահ · Kara Yûsuf Կարա Յուսուֆ ·
+Mutahharten Մութահհարթեն · Kadı Burhâneddin Կադի Բուրհանեդդին · Eretna Էրեթնա · Celayirli Ջելայիրյան · Dulkadır Դուլկադիր ·
+Aydınoğulları Այդընօղուլներ · Sa'dî Սաադյան · Alevî/Filâlî (Fas) Ալավյան/Ֆիլալի · Vattâsî Վատասյան · Hafsî Հաֆսյան ·
+Kaçar Ղաջար · Zend Զենդ · Şeybânî Han Շեյբանի խան · Timurlu թեմուրյան · Bâbürlü մեծմողոլական · Altın Orda Ոսկե Հորդա ·
+Fas (ülke) Մարոկկո · Fas (şehir) Ֆես · Sebte Սեուտա · Tanca Տանժեր · Arzila Արզիլա · Habeşistan Եթովպիա ·
+Zadar Զադար · Split Սպլիտ · Şibenik Շիբենիկ · Trogir Տրոգիր · Dubrovnik Դուբրովնիկ · Szatmár Սաթմար · Bethlen Բեթլեն ·
+
+## Եզրույթներ
+vilâyet (tarihî bölge) նահանգ · haraca bağlamak խարաջի կապել · tâbi ենթակա · himaye հովանավորություն/պրոտեկտորատ ·
+Kızıl Ordu Կարմիր բանակ · Bagration Harekâtı «Բագրատիոն» գործողություն · TDV maddesi TDV-ի «X» հոդված ·
+beyanlı yaklaşıklık հայտարարված մոտավորություն · gün teyitsiz օրը հաստատված չէ
+
 == sozluk_f.md
 # hy բառարան (ETIKET f, olay_051-064) — լրացումներ sozluk_a-ին
 Panamá Պանամա · Quito Կիտո · Lima Լիմա · Cuzco Կուսկո · Vilcabamba Վիլկաբամբա · Manco Inca Մանկո Ինկա · İnka ինկեր ·
@@ -127,4 +145,12 @@ SHS Krallığı ՍԽՍ թագավորություն · Sırp-Hırvat-Sloven Սե
 Pécs/Peçuy Պեչ · Timișoara Տիմիշոարա (Osmanlı bağlamı Թեմեշվար) · Szigetvár Սիգետվար · Eğri Էգեր · Erdel Տրանսիլվանիա
 Ahıska Ախալցխա · Revan Երևան · Gence Գանձակ · Hoy Խոյ · Küçük Kaynarca Քյուչուկ Կայնարջի · Karlofça Կառլովից
 İnebahtı Լեպանտո · Ferdinand Ֆերդինանդ · Szapolyai Զապոյայի · serdar սերդար · serasker սերասքեր · vezîriâzam մեծ վեզիր
+
+== sozluk_h.md
+# hy sözlüğü (ETIKET h, olay_079-092) — sozluk_a esastır
+Dimetoka Դիդիմոտիխո · Nicaea/İznik İmparatorluğu Նիկիայի կայսրություն · İzmit (Bizans) Նիկոմեդիա (Իզմիթ) · Epir Էպիրոս ·
+Latin İmparatorluğu Լատինական կայսրություն · Haçlı Seferi Խաչակրաց արշավանք · Mikhail Palaiologos Միքայել Պալեոլոգոս ·
+Kaloyan Կալոյան · İvan Asen Իվան Ասեն · Charles d'Anjou Կարլ Անժուացի · Anjou hanedanı Անժուական հարստություն ·
+Charlemagne Կարլոս Մեծ · Clovis Կլոդվիգ · Frank ֆրանկ · Vizigot վեստգոթ · Kutsal Roma-Germen Սրբազան Հռոմեական կայսրություն ·
+aforoz բանադրել · konsil եկեղեցական ժողով · taç giymek թագադրվել · naip խնամակալ · vasal վասալ
 
