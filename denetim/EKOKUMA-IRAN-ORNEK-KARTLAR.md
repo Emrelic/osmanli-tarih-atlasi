@@ -1,3 +1,5 @@
+> **TEYİT DURUMU (25.11):** 8 örneğin hepsi TEYİTSİZ. Okunan her kaynak «yalnız özet» (araç özeti); «tam metin okundu» sayılan kaynak YOK; Iranica okunmadı (403). Sâsânî çöküşü kartı yayın adaylarından çıkarıldı (`EKOKUMA-IRAN-BEKLEYEN-KART.md`). Aşağıdaki metin üslup örneğidir.
+
 # İRAN — 8 ÖRNEK KART (AŞAMA 2) · üslup onayı için
 
 25 Kasım 2026 · UMIT (umit21-osm5) · şartname `origin/ekokuma-sartname-1125` @b4dc6cb77 (ad düzeltmesiyle).

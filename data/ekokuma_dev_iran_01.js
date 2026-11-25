@@ -25,28 +25,8 @@ window.EKOKUMA_DEVIRAN01 = [
  "kesinlik": "tartismali",
  "olay": ["0636-01-01|Kādisiye"],
  "kaynak": "Hayrettin Yücesoy, «Kādisiye Savaşı», TDV İslâm Ansiklopedisi, c. 24, İstanbul 2001, s. 136-137 — https://islamansiklopedisi.org.tr/kadisiye-savasi",
+ "ic_not_teyit": "TEYİTSİZ: dayandığı kaynakların hiçbiri tam metin okunmadı (yalnız özet: WebFetch araç özeti). Tam metin ve TDV dışı akademik kaynak okunmadan yayın adayı değildir.",
  "ic_not": "araç özetiyle okundu (WebFetch, 25.11.2026); künye ve sayılar araç çıktısından. Yıl üç rivayetli → kesinlik tartismali; madde t=0636-01-01 (yalnız yıl) kalır. BAĞ SINAMASI: 0636-01-01 günü üç madde: künye sasani «Kādisiye Savaşı (15 H.)…» (eşleşir), kronoloji_cok_derin_asya_afrika_1024 «Yuknoom Ch'een II…» ve kronoloji_cok_dogu_500_1281 «Kaan hanedanı…» (eşleşmez) → yalnız doğru maddeye değer. Normalleştirmede ā→a ölçülmedi; parça maddedeki yazımla aynen («Kādisiye») yazıldı."
-},
-
-{
- "id": "iran-sebep-sasani-cokusu-651",
- "tur": "sebep-sonuc",
- "kisa": "Kudüs'ü ve Mısır'ı alan bir imparatorluk, otuz yıl kadar sonra haritadan silindi. Nasıl?",
- "sebep": {
-  "b": "II. Hüsrev'in 627'de Ninova'da Herakleios'a yenilmesi ve 628'deki ölümünün ardından gelen kısa saltanatlar dönemi",
-  "t": "0627-01-01"
- },
- "sonuc": {
-  "b": "III. Yezdicerd'in 651'de Merv'de öldürülmesiyle Sâsânî Devleti'nin sona ermesi",
-  "t": "0651-01-01"
- },
- "bag": "TDV, 627 yenilgisini, 628'den sonra art arda gelen kısa saltanatları ve 632'de başlayan fetihleri peş peşe anlatır; bunlar arasındaki sebep bağının ağırlığı tarihçiler arasında yoruma açıktır.",
- "metin": "614 dolaylarında Sâsânî ordusu Kudüs'teydi, birkaç yıl sonra Mısır'ı da aldı. II. Hüsrev Pervîz'in orduları Bizans topraklarının içlerine kadar ilerlemişti. Ama 627'de Bizans İmparatoru Herakleios Sâsânî ana ordusunu Ninova'da yendi ve bir yıl sonra Hüsrev öldü.\n\nTAHT BOŞLUĞU\nSâsânî düzeninde hükümdar, ilâhî bir güç (ferr) taşıdığına inanılan kişiydi; onu baş mûbed taç giydirirdi. Hüsrev'in ölümünden sonra kısa saltanatlar birbirini izledi: tahta çıkan hükümdarlar ya birkaç ay içinde düştü ya öldürüldü. Meşruiyeti tek bir kişide toplayan bir sistemde bu, devletin tepesinin boşalması demekti.\n\nYENİ BİR RAKİP\n632'den itibaren Arap fetihleri başladı. Sâsânîler önce Kâdisiye'de, sonra Nihâvend'de ağır yenilgiler aldı. Son hükümdar III. Yezdicerd doğuya çekildi ve 651'de Merv'de öldürüldü; 226'dan beri süren hanedan böylece sona erdi.\n\nTOPLUM\nSâsânî toplumu din adamları, savaşçı soylular, kâtipler ve halk diye dört sınıfa ayrılmıştı. Hristiyanlar ve Yahudiler zaman zaman baskı gördü; Mani ve Mazdek gibi dinî hareketler de farklı dönemlerde sarayı meşgul etmişti.\n\nTARİHÇİLER BUGÜN NE DİYOR\nTek bir sebep yok. Bir yanda iki imparatorluğu da yoran Bizans savaşı ve taht kavgaları, öbür yanda hızla büyüyen yeni bir rakip var. Çöküşün ne kadarının içeriden, ne kadarının dışarıdan geldiği tartışılmaya devam ediyor.",
- "kesinlik": "tartismali",
- "zincir": [],
- "olay": ["0627-01-01|Sâsânî ana ordusu", "0651-01-01|Yezdicerd"],
- "kaynak": "«Sâsânîler», TDV İslâm Ansiklopedisi — https://islamansiklopedisi.org.tr/sasaniler; Hayrettin Yücesoy, «Kādisiye Savaşı», TDV İslâm Ansiklopedisi, c. 24 (2001), s. 136-137",
- "ic_not": "araç özetiyle okundu: TDV sasaniler maddesinden araç YALNIZ KISA ÖZET verdi (yazar, cilt, sayfa alınamadı; ayrıntılı sorulara cevap vermedi) → kaynak alanında yazar/sayfa yok. Metindeki her olgu (614 Kudüs, ~619 Mısır, 627 Ninova, 628 ölüm, kısa saltanatlar, 632 fetih, Kādisiye-Nihâvend, 651 Merv, ferr, baş mûbedin taç giydirmesi, dört sınıf, Mani-Mazdek, Hristiyan-Yahudi baskısı, 226 kuruluş) bu özetten. «Birkaç ay içinde düştü ya öldürüldü» genelleme cümlesi özetteki «a series of short reigns» ifadesinin açılımıdır; hükümdar sayısı yazılmadı (okunmadı). İkinci görüş (Pourshariati 2008, Part soylu aileleri tezi) OKUNMADI → metne alınmadı; BORÇ. BAĞ SINAMASI: 0627-01-01 günü 10 madde. «Sâsânî ana ordusu» parçası iki maddeye değer: künye sasani «Ninevâ'da Sâsânî ana ordusu Herakleios'a yenildi» ve kronoloji_cok_ms1_1000_ortadogu «Ninova Savaşı: Herakleios Sâsânî ana ordusunu…» (aynı olay, ikisi doğru; «Ninevâ/Ninova» yazım farkı yüzünden ad parçası seçilmedi, «Herakleios» parçası Derbend maddesine de değerdi). Değmeyenler: Benî Kurayza, Derbend/Hazarlar, Sir-Tarduş, Karkota, Karluklar, Buhar-hudât, Takeo/Funan. 0651-01-01|Yezdicerd → künye sasani «Son Sâsânî hükümdarı III. Yezdicerd Merv'de öldürüldü…» ve kronoloji_cok_ms1_1000_ortadogu «III. Yezdicerd Merv'de öldürüldü; Sâsânî devleti sona erdi» (aynı olayın iki maddesi, ikisi de doğru); aynı gündeki «Ravenna…», «Beceliler…», kronoloji_sinir_dogu «Belh'in sahibi…» eşleşmez."
 },
 
 {
@@ -58,6 +38,7 @@ window.EKOKUMA_DEVIRAN01 = [
  "kesinlik": "tartismali",
  "olay": ["1501-07-01|Safevî Devleti'nin kuruluşu"],
  "kaynak": "Tufan Gündüz – Adile Yılmaz Anıl, «Şah İsmâil», TDV İslâm Ansiklopedisi, c. 38, İstanbul 2010, s. 253-256 — https://islamansiklopedisi.org.tr/sah-ismail; Tufan Gündüz, «Safevîler», TDV İslâm Ansiklopedisi, c. 35, İstanbul 2008, s. 451-457 — https://islamansiklopedisi.org.tr/safeviler",
+ "ic_not_teyit": "TEYİTSİZ: dayandığı kaynakların hiçbiri tam metin okunmadı (yalnız özet: WebFetch araç özeti). Tam metin ve TDV dışı akademik kaynak okunmadan yayın adayı değildir.",
  "ic_not": "araç özetiyle okundu (iki TDV maddesi; künye ve sayfa araç çıktısından). TDV sah-ismail tahta çıkışı/Şiîliğin ilânını 907 (1502) baharına koyar; atlas maddeleri 1501-07-01 → TARİH ÇELİŞKİSİ, bu kartta düzeltilmedi, kronoloji işine (BORÇ). Iranica «Esmāʿil I» OKUNMADI (403). BAĞ SINAMASI: 1501-07-01 günü üç madde: OLAYLAR_EK7 «Şah İsmail'in Tebriz'i alması: Safevî Devleti'nin kuruluşu» (eşleşir), kronoloji_iran «Şah İsmail Tebriz'de tahta çıktı — Safevî Devleti kuruldu» (eşleşmez: «kuruluşu» yok), künye safevi «Şah İsmâil Tebriz'i aldı, On İki İmam…» (eşleşmez), kronoloji_sinir_once1281_geriye «Ahlat, Alamut: safevî devleti…» (eşleşmez) → yalnız bir maddeye değer. Üçü aynı olay; kart öteki iki maddede görünmez (bilinçli seçim: ana kronoloji maddesi)."
 },
 
@@ -70,6 +51,7 @@ window.EKOKUMA_DEVIRAN01 = [
  "kesinlik": "kesin",
  "olay": ["1090-09-04|Alamut"],
  "kaynak": "Abdülkerim Özaydın, «Hasan Sabbâh», TDV İslâm Ansiklopedisi, c. 16, İstanbul 1997, s. 347-350 — https://islamansiklopedisi.org.tr/hasan-sabbah",
+ "ic_not_teyit": "TEYİTSİZ: dayandığı kaynakların hiçbiri tam metin okunmadı (yalnız özet: WebFetch araç özeti). Tam metin ve TDV dışı akademik kaynak okunmadan yayın adayı değildir.",
  "ic_not": "araç özetiyle okundu (künye araç çıktısından). «Zayıf» hükmü TDV'nindir (Nizâmülmülk'ün doğum tarihi 408/1017-18 gerekçesiyle); kesinlik «kesin» = rivayetin zayıflığı kaynakta açık. Kafesoğlu görüşü TDV'nin aktarımıyla; Kafesoğlu'nun kendi eseri OKUNMADI. Haşhaş/esrar-cennet hikâyesi bu karta BİLEREK alınmadı: TDV onu bir aktarım olarak verir ama çürütmez; aşama 1 notundaki «TDV efsane der» kaydı bu okumada DOĞRULANMADI. Efsaneyi akademik olarak ele alan Daftary, The Assassin Legends (1994) OKUNMADI → ayrı kart BORÇ. Mısır'dan çıkarılış (Bedr el-Cemâlî ile veliahtlık anlaşmazlığı) ve 1094 Nizâr desteği TDV'de ayrı anlatılır; metinde de ayrı yazıldı. BAĞ SINAMASI: 1090-09-04 günü iki madde «Alamut» içerir: künye alamut-nizari «Hasan Sabbâh Alamut Kalesi'ni ele geçirip…» ve kronoloji_sinir_once1281_geriye «Alamut: nizârî ismâilî devleti…» sınır maddesi — ikisi de aynı olay (Alamut'un Nizârî devletine geçişi), ikisi de doğru. Yalnız anlatı maddesi istenirse parça «Hasan Sabbâh» yapılır. (data/sehir_tarihce_dogu_borc_2.js'te de bu gün var; şehir tarihçesidir, kronoloji maddesi sayılıp sayılmadığı ölçülmedi.)"
 },
 
@@ -91,6 +73,7 @@ window.EKOKUMA_DEVIRAN01 = [
  "zincir": [],
  "olay": ["1587-10-01|I. Şah Abbas"],
  "kaynak": "Faruk Sümer, «Abbas I», TDV İslâm Ansiklopedisi, c. 1, İstanbul 1988, s. 17-19 — https://islamansiklopedisi.org.tr/abbas-i; Tufan Gündüz, «Safevîler», TDV İslâm Ansiklopedisi, c. 35, İstanbul 2008, s. 451-457 — https://islamansiklopedisi.org.tr/safeviler",
+ "ic_not_teyit": "TEYİTSİZ: dayandığı kaynakların hiçbiri tam metin okunmadı (yalnız özet: WebFetch araç özeti). Tam metin ve TDV dışı akademik kaynak okunmadan yayın adayı değildir.",
  "ic_not": "araç özetiyle okundu (iki TDV maddesi; künye araç çıktısından). sebep.t=1579-01-01: TDV annenin ölümü için yalnız yıl verir → yıl hassasiyeti. sonuc.t=1587-10-01 tahta çıkış maddesidir (TDV: Ekim 1587, ay hassasiyeti); ordu kuruluşunun kendi günü kaynakta YOK. 12.000 sayısı TDV abbas-i'den (araç: «12.000'i bulan»). Kızılbaşların sürmesi TDV safeviler'den. «Osmanlı kapıkulunu hatırlatan» benzetmesi: TDV abbas-i «kapıkulu» terimini kullanır; doğrudan «Osmanlı'dan örnek alındı» cümlesi bu okumada araç çıktısında GÖRÜLMEDİ → ölçülü yazıldı. Son paragraf («dengeleme») iki TDV maddesinin ortak okumasıdır, başka tarihçi görüşü okunmadı. BAĞ SINAMASI: 1587-10-01 günü iki madde, ikisi de «I. Şah Abbas tahta çıktı» (kronoloji_iran ve OLAYLAR_DUNYA_BOLGE_1109) — aynı olay, ikisi de doğru. Künye safevi «Şah I. Abbas tahta çıktı» 1587-01-01 gününde → gün farklı, değmez (künye 1587-01-01 ile ana 1587-10-01 uyumsuzluğu kronoloji işine BORÇ)."
 }
 

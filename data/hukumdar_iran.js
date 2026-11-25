@@ -48,6 +48,7 @@ window.HUKUMDAR_IRAN = [
  "tarihciler": "Faruk Sümer Abbas'ı, Türkmen emirlerinin çekişmesiyle dağılmak üzere olan Safevî Devleti'ni hem içte hem dışta yeniden toparlayan hükümdar olarak anlatır. Sümer ayrıca onun Azerbaycan Türkçesi konuştuğunu ve Türkçenin sarayda ve edebiyatta yaşamaya devam ettiğini kaydeder.",
  "kaynak": "Faruk Sümer, «Abbas I», TDV İslâm Ansiklopedisi, c. 1, İstanbul 1988, s. 17-19 — https://islamansiklopedisi.org.tr/abbas-i; Tufan Gündüz, «Safevîler», TDV İslâm Ansiklopedisi, c. 35, İstanbul 2008, s. 451-457 — https://islamansiklopedisi.org.tr/safeviler",
  "olay": ["1587-10-01|I. Şah Abbas", "1629-01-19|Şah Abbas öldü"],
+ "ic_not_teyit": "TEYİTSİZ: dayandığı kaynakların hiçbiri tam metin okunmadı (yalnız özet: WebFetch araç özeti). Tam metin ve TDV dışı akademik kaynak okunmadan yayın adayı değildir.",
  "ic_not": "araç özetiyle okundu (iki TDV maddesi). PADISAHLAR şemasına ek alanlar: devlet (şartname), halef, olay (bağ önerisi; şemada yok, altyapı karar versin). BAĞ SINAMASI: 1587-10-01 → kronoloji_iran ve OLAYLAR_DUNYA_BOLGE_1109 «I. Şah Abbas tahta çıktı» (aynı olay, ikisi doğru); 1629-01-19 → kronoloji_iran ve OLAYLAR_DUNYA_BOLGE_1109 «Şah Abbas öldü» (aynı olay, ikisi doğru); bu günlerde başka madde Grep'te çıkmadı."
 }
 
