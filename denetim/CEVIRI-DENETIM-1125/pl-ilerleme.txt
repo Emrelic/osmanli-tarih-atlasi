@@ -1,0 +1,4 @@
+Tamamen okunan: 1_arayuz_001..009, 2_devlet_001..011, 3_bayrakli_001..015 (48 parcanin ilk 15'i; talimat siniri), 4_olay_001..004
+Okunmayan: 3_bayrakli_016..048 (talimat geregi atlandi), 4_olay_005..175
+Bakilan kayit: arayuz, devlet ve okunan paketlerdeki butun kayitlar (paket tamamen okundu; kayit adedi ayrica sayilmadi)
+Duzeltme dosyalari: duzeltme_001..009

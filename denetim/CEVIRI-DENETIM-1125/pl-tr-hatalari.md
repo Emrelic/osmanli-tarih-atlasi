@@ -1,0 +1,11 @@
+- olay OLAYLAR:1913-05-30:0: "Girit'te Hanya, Kandiye, Girit (Resmo)" — Resmo'nun yanındaki ad "Girit" olmuş (Rethymno/Resmo beklenir).
+- olay OLAYLAR:1739-09-18:0: kullanıcıya görünen yöntem notu ("Belgrad'ın abi-merkez zinciri").
+- olay OLAYLAR:1699-01-26:0: Kostajnica/Jasenovac Habsburg'a geçişi iki kez anlatılıyor; metinde iç not dili ("dönem uçları kaynakla doğrulanmadı — beyanlı yaklaşıklık", "teslim günü kaynakta yok, antlaşma günü yazıldı").
+- olay OLAYLAR_EK:1717-08-18:0, OLAYLAR_EK3:1688-09-06:0, OLAYLAR_EK3:1690-09-27:0, OLAYLAR_EK3:1690-10-08:0, OLAYLAR_EK5:1716-10-13:0: "abi-merkez zinciri / beyanlı yaklaşıklık / yer düzeyinde gün kaynakta yok" iç notları kullanıcı metninde.
+- olay OLAYLAR_EK:1324-01-01:0: "Haritadaki 1324 sınırı yer tutucudur" (iç not); başlıkta "(tarih kaynakta yok)".
+- olay OLAYLAR_EK:1461-06-01:0, OLAYLAR_EK:1919-05-15:0, OLAYLAR_EK4:1832-07-29:0: "atlasta ... yazılıdır", "(ayrı madde)" gibi veri düzeni notları.
+- olay OLAYLAR_EK4:1832-09-13:0: "(alt sınır; atama günü kaynakta yok)" iç not.
+- olay OLAYLAR_EK5:1912-10-18:0: iç içe parantez "el-Katrûn (Fizan (Trablusgarp vilâyeti sancağı))".
+- olay OLAYLAR_EK5:1872-04-01:0: "Aynı tarihte katılan öteki yerler: Sana, Taiz" — Sana metnin ana konusu, "öteki yerler"de yineleniyor.
+- arayuz: kullanıcıya görünebilecek iç notlar: "bk. ic_not_t", "karaman künye ic_not_t", "kronoloji_safevi.js", "olaylar_ek#", "eski t #-#-# ay başı yer tutucuydu", "[... Yüce-Sevim #, Pálffy, Ágoston OKUNMADI]", "ÇELİŞKİ-#", "DÜZELTİLMİŞ TARİH, bkz. not", "kaynak özeti teyit bekler", "yerlesimler_ek#.js beyanı", "Sözlük: js/app.js STATU_YAZI · tanım: arac/girdi.py:#". (Bir kısmı yalnız geliştirici kipinde olabilir; ölçülmedi.)
+- devlet sutayogullari, cemisgezek-beyligi ve 267+ numaralı antik/Mısır/Çin kayıtları: TR ad Türkçe harfsiz yazılmış ("Sutayogullari", "Cemisgezek Beyligi", "Misir Erken Hanedan Donemi", "Bati Han Hanedani", "Guney Yemen" vb.).

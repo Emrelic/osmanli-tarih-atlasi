@@ -1,0 +1,130 @@
+- arayuz | # Ağustos MÖ # | m: p.n.e. yıldan sonra gelir; sayı sırası korunur
+- arayuz | # Eylül MÖ # | m: p.n.e. yıldan sonra gelir
+- arayuz | # Mart MÖ # | m: p.n.e. yıldan sonra gelir
+- arayuz | # Nisan # sonrası | m: bozuk söz dizimi (sonrası = po)
+- arayuz | # öncesi, gün belirsiz | m: bozuk söz dizimi
+- arayuz | #-# arası | m: bozuk söz dizimi
+- arayuz | # ve üstü | m: 've üstü' = ve daha yüksek (önem puanı), 'sonrası' değil
+- arayuz | # yıllarına doğru [tahmin; yalnız yıl; gün teyitsiz] | m: bozuk söz dizimi
+- arayuz | ' — tek tür 'baglanti' (karar ①) | m: yanlış çeviri: komşu kaydın metni yapıştırılmış
+- arayuz | (kırpmanın TAMAMI — hâl başına düşen = bu ÷ #; #'de # ms) | m: kırpma = göz kırpma/yanıp sönme, kesme değil
+- arayuz | Kırpma sayısı | m: yanlış anlam: yanıp sönme sayısı
+- arayuz | Kırpma sayısı: öncesi→sonrası gösteriminin kaç kez tekrarlanacağı. | m: yanlış anlam
+- arayuz | Kırpma süresi | m: yanlış anlam: kesme değil yanıp sönme
+- arayuz | Kırpma süresi: öncesi/sonrası gösteriminin toplam süresi (milisaniye). | m: yanlış anlam
+- arayuz | Öncesi/sonrası kırpması | m: yanlış anlam
+- arayuz | Öncesi/sonrası kırpması: olay yerine varınca haritanın olaydan önceki ve sonraki hâli sırayla gösterilir. | m: yanlış anlam
+- arayuz | ↻ Yakıp söndür | m: yanıp söndürme = migać
+- arayuz | Farkları yeniden yakıp söndür | m: yanıp söndürme = migać
+- arayuz | Mart # (Cemâziyelevvel #) — beylerbeyiliğin başlangıcı; Tobruk'un alınış yılı kaynakta yok | m: yanlış yer adı: Tobruk, Trablus değil
+- arayuz | Muharrem # / Mart # | m: günsüz ay adı yalın hâlde olmalı
+- arayuz | Muharrem # / Nisan # | m: günsüz ay adı yalın hâlde olmalı
+- arayuz | Rebîülevvel # / Ocak # | m: günsüz ay adı yalın hâlde olmalı
+- arayuz | Safer # / Eylül # | m: günsüz ay adı yalın hâlde olmalı
+- arayuz | Zilhicce # / Aralık # | m: günsüz ay adı yalın hâlde olmalı
+- arayuz | Zilhicce # / Ağustos # | m: günsüz ay adı yalın hâlde olmalı
+- arayuz | Zilhicce # / Eylül # | m: günsüz ay adı yalın hâlde olmalı
+- arayuz | Mart # sonrası | m: bozuk söz dizimi
+- arayuz | Yatay sınırı | m: yanlış anlam: yatay hareket eşiği, 'seviye sınırı' değil
+- arayuz | Yatay sınırı: bu km'nin üstündeki geçişler "yatay" seçilse de eğik atışla yapılır. | m: yanlış anlam
+- arayuz | oğlan | m: oğlan = erkek çocuk, uşak/paj değil
+- arayuz | tâbilik ⇄ doğrudan idare geçişi | m: dilbilgisi hatası
+- arayuz | Önce aydınlatma metnini okuduğunuzu onaylayın. | m: zaman hatası: 'okuduğunuzu' geçmiş
+- arayuz | 🗣️ Nasıl bilirdiniz | m: yanlış anlam: kişi hakkında kanaatler bölümü
+- devlet | candar | m: çevrilmemiş Türkçe tekil biçim; öteki beyliklerle tutarlı çoğul
+- devlet | polonya-naiplik-kralligi | m: İngilizce kalıntı; Lehçe yerleşik ad
+- devlet | dene | m: imla: sıfat küçük harf
+- devlet | karga | m: Crow halkının Lehçe yerleşik adı (çoğul)
+- devlet | sahaptin | m: nehir adı ve tamlama hatası
+- devlet | norvec-kralligi | m: bozuk anlatım
+- devlet | delhi-halaci | m: Lehçe yazım
+- devlet | filipin-racaliklari | m: racalık = radżanat, racalar değil
+- devlet | buhara-halk-cumhuriyeti | m: dilbilgisi
+- devlet | kuba-hanligi | m: Azerbaycan'daki Guba hanlığı; Kubański = Kuban bölgesi (yanlış)
+- devlet | cola | m: Lehçe yazım
+- devlet | numeyri | m: İngilizce kalıntı
+- devlet | andorra | m: devlet adı; 'eş prensler' değil eş-prenslik
+- devlet | gilan-sovyet-cumhuriyeti | m: ağır yanlış: İran yerine Irak
+- devlet | rupeniler | m: yerleşik hanedan adı Rubenidzi
+- devlet | raska-buyuk-prensligi | m: karışık yazım
+- devlet | stiriya-dukaligi | m: yanlış hanedan: Otakar = Traungau Otakarları, Přemyslid değil
+- devlet | kataban | m: Lehçe yazım
+- devlet | rastrakuta | m: yazım hatası
+- devlet | rashtrakuta-kannauj | m: yazım hatası
+- devlet | boiotia-birligi | m: şehir adı Teby
+- devlet | karya-hekatomnid | m: bozuk anlatım
+- devlet | kuzey-wei | m: dilbilgisi uyumsuzluğu
+- devlet | dogu-wei | m: dilbilgisi uyumsuzluğu
+- devlet | bati-wei | m: dilbilgisi uyumsuzluğu
+- devlet | kuzey-qi | m: dilbilgisi uyumsuzluğu
+- devlet | kuzey-zhou | m: dilbilgisi uyumsuzluğu
+- devlet | salzburg-prens-basepiskoposlugu | m: yerleşik Lehçe biçim
+- devlet | daewi-myocheong | m: bozuk anlatım
+- devlet | masakado-shinno | m: yazım hatası
+- olay | OLAYLAR:1299-01:0 | b: yazım hatası: bejlik
+- olay | OLAYLAR:1402-07-28:0 | d: yazım hatası: beliki → bejliki
+- olay | OLAYLAR:1473-01-01:0 | d: yanlış edat ve yazım hatası
+- olay | OLAYLAR:1514-08-23:0 | d: Lehçe yerleşik ad Ismail
+- olay | OLAYLAR:1821-04-02:0 | d: anlam bozukluğu: Mora bir ayaklanmaya dönüşmez
+- olay | OLAYLAR_EK:1330-01-01:0 | d: Aydınoğlu yer adı değil soy adı
+- devlet | inalogullari | m: çevrilmemiş Türkçe biçim; öteki hanedanlarla tutarlılık
+- devlet | dilmacogullari | m: çevrilmemiş Türkçe biçim
+- devlet | cubukogullari | m: çevrilmemiş Türkçe biçim
+- devlet | fetret-isa | m: Lehçe yazım (İ → I)
+- olay | OLAYLAR_EK:1381-06-01:0 | d: yazım: bejlik
+- olay | OLAYLAR_EK:1461-06-01:0 | d: yazım: bejlik
+- olay | OLAYLAR_EK:1471-01-01:0 | d: özel ad yanlış çekilmiş
+- olay | OLAYLAR_EK:1515-09-15:0 | d: yazım: bejlik
+- olay | OLAYLAR_EK:1717-08-18:0 | d: bozuk cümle ve yer adının Lehçe biçimi (Petrowaradyn)
+- olay | OLAYLAR_EK2:1773-01-01:0 | d: bozuk anlatım (izledi)
+- olay | OLAYLAR_EK3:1410-06-15:0 | d: anlamsız ad tekrarı
+- olay | OLAYLAR_EK3:1683-01-01:0 | b: Macarca yazım (Győr)
+- olay | OLAYLAR_EK4:1820-07-20:0 | d: dilbilgisi hatası
+- olay | OLAYLAR_EK4:1832-09-13:1 | b: yer adı ve bozuk anlatım
+- olay | OLAYLAR_EK4:1833-06-15:0 | b: bozuk anlatım
+- olay | OLAYLAR_EK5:1381-04-01:0 | d: dilbilgisi (melik eril) ve bozuk anlatım
+- olay | OLAYLAR_EK5:1402-09-15:0 | b: yazım: bejlik
+- olay | OLAYLAR_EK5:1402-09-15:0 | d: yazım: bej, bejlik
+- olay | OLAYLAR_EK5:1405-01-01:0 | d: noktalama
+- olay | OLAYLAR_EK5:1435-01-01:0 | b: bozuk/uydurma çekim
+- olay | OLAYLAR_EK5:1435-01-01:0 | d: dilbilgisi: çoğul hanedan adı
+- olay | OLAYLAR_EK5:1423-01-01:0 | d: yazım: bejlik; fiil görünüşü
+- olay | OLAYLAR_EK5:1291-05-18:0 | d: özel ad yanlış çekilmiş
+- olay | OLAYLAR_EK5:1381-03-28:0 | b: yazım: bejlik
+- olay | OLAYLAR_EK5:1381-03-28:0 | d: yazım: bejlik
+- olay | OLAYLAR_EK5:1467-11-10:0 | d: bozuk cümle yapısı
+- olay | OLAYLAR_EK5:1357-09-01:0 | d: bozuk cümle, anlam düşüklüğü
+- olay | OLAYLAR_EK5:1446-05-05:0 | d: tarih ifadesi dilbilgisi hatası
+- olay | OLAYLAR_EK5:1454-07-14:0 | d: dilbilgisi ve anlam: Kefe kuşatmayı kendisi 'kaldırmadı', haraçla kaldırttı
+- olay | OLAYLAR_EK5:1475-01-10:0 | b: Rumence yer adında yanlış işaret
+- olay | OLAYLAR_EK5:1516-05-01:0 | d: yanlış fiil (güvenceye almak)
+- olay | OLAYLAR_EK5:1514-09-06:0 | d: AĞIR: anlam tersine çevrilmiş ('Osmanlı'ya itaat ederek')
+- olay | OLAYLAR_EK5:1515-06-13:0 | d: AĞIR: 'iki yıl sonraki sefer' 'iki yıl önceki' diye çevrilmiş
+- olay | OLAYLAR_EK5:1553-10-05:0 | b: yer adı Lehçeye uygun çevrilmeli
+- olay | OLAYLAR_EK5:1608-08-09:0 | d: kuyuları paşa kazdırdı, isyancılar değil
+- olay | OLAYLAR_EK5:1716-04-24:0 | d: yer adının Lehçe yerleşik biçimi
+- olay | OLAYLAR_EK5:1716-10-13:0 | d: yer adının Lehçe yerleşik biçimi
+- olay | OLAYLAR_EK5:1724-06-24:0 | d: edat hatası
+- olay | OLAYLAR_EK5:1754-12-13:0 | d: dilbilgisi
+- olay | OLAYLAR_EK5:1768-10-08:0 | d: dilbilgisi
+- olay | OLAYLAR_EK5:1770-08-01:0 | d: anlam: 'birbiri ardına düşme'
+- olay | OLAYLAR_EK5:1795-03-01:0 | d: bozuk anlatım
+- olay | OLAYLAR_EK5:1815-04-23:0 | b: yanlış anlam: başknezlik = unvan
+- olay | OLAYLAR_EK5:1815-04-23:0 | d: hâl eki hatası
+- olay | OLAYLAR_EK5:1828-04-26:0 | d: anlam: henüz kaldırılmış
+- olay | OLAYLAR_EK5:1855-08-16:0 | d: uydurma biçim 'kadiasie'
+- olay | OLAYLAR_EK5:1872-04-01:0 | d: edat: we wnętrzu
+- olay | OLAYLAR_EK5:1903-10-02:0 | d: İlinden yer değil, yortu günü (powstanie ilindeńskie)
+- olay | OLAYLAR_EK5:1905-07-21:0 | d: yerleşik ad (Dasznakcutiun) ve dilbilgisi
+- olay | OLAYLAR_EK5:1905-09-01:0 | d: bozuk kalıp: takviye orduları
+- olay | OLAYLAR_EK5:1908-12-17:0 | d: yanlış fiil: gölgelemek = przyćmić
+- olay | OLAYLAR:1326-04-06:0 | d: özne uyumsuzluğu
+- olay | OLAYLAR:1413-07-05:0 | d: uydurma biçim: bejlikami
+- olay | OLAYLAR:1475-06-06:0 | d: özel ad yanlış çekilmiş
+- olay | OLAYLAR:1520-09-30:0 | d: anlam: saltanat zirve kabul edilir
+- olay | OLAYLAR:1683-09-12:0 | d: ağırlıklar = tabory
+- olay | OLAYLAR:1692-01-01:0 | d: ad çekimi: na Moreę
+- olay | OLAYLAR:1715-01-01:0 | d: ad çekimi: na Moreę
+- olay | OLAYLAR:1699-01-26:0 | d: hâl eki: a Moreę (oddano)
+- olay | OLAYLAR:1919-05-19:0 | d: yanlış anlam: 'yine milletin' = milletin kendisinin
+- olay | OLAYLAR:1923-10-29:0 | d: dilbilgisi
