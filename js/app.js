@@ -18609,6 +18609,7 @@ function kronoTemsilEdiliyor(k, derin) {
   var secListe = document.getElementById("devlet-secici-liste");
   var secAra = document.getElementById("devlet-secici-ara");
   var secTumu = document.getElementById("devlet-secici-tumu");
+  var secHizli = document.getElementById("devlet-secici-hizli");
 
   function tumSatirlar() {                     // Osmanlı pinned + kronolojisi olan devletler
     return [OSMANLI_SYNTH].concat(ARKEOLOJI_SYNTH ? [ARKEOLOJI_SYNTH] : [], adaylar);
@@ -18840,10 +18841,21 @@ function kronoTemsilEdiliyor(k, derin) {
     secOrtu.classList.toggle("gizli", !acik);
     secOrtu.classList.toggle("ust", !!(ap && !ap.classList.contains("gizli")));
   }
+  // ODAK/EK sütun başlığı bazı dillerde uzun (ör. pl "DODATKOWE"): sütunlar en uzun başlığa göre
+  // genişler, sözcük ortadan bölünmez. Taban genişlik css `--dss-sutun`; pencere GÖRÜNÜRKEN ölçülür.
+  function sutunGenisligiAyarla() {
+    var adlar = secPanel.querySelectorAll("#devlet-secici-liste-baslik i");
+    if (!adlar.length) return;
+    secPanel.style.removeProperty("--dss-sutun");
+    var taban = adlar[0].parentNode.offsetWidth;
+    var en = Math.max.apply(null, [].map.call(adlar, function (a) { return a.offsetWidth; })) + 8;
+    if (en > taban) secPanel.style.setProperty("--dss-sutun", en + "px");
+  }
   function panelAc() {
     if (!secPanel) return;
     panelDoldur();
     secPanel.classList.remove("gizli");
+    sutunGenisligiAyarla();
     ortuGuncelle();
     if (secAra) setTimeout(function () { secAra.focus(); }, 0);
   }
@@ -19000,8 +19012,9 @@ function kronoTemsilEdiliyor(k, derin) {
     secListe.innerHTML = "";
     // 🌍 TÜM DÜNYA — ACILIS-MADDESI-1110 (Emre, 10 Kasım 2026): aramayı boşaltıp "Tümünü seç"
     // (bütün kronolojiler EK; ek devletlerde dünya önemi eşiği `#ek-dunya-esik`, varsayılan 4).
-    var ustSira = document.createElement("div");
-    ustSira.className = "dss-ust-sira";
+    // Hızlı düğmeler listenin DIŞINDA: sütun başlığı satırların tam üstünde kalsın.
+    var ustSira = secHizli;
+    ustSira.innerHTML = "";
     var dunyaHepsi = (function () {
       var odakId = odakSahibiId();
       var ids = tumSatirlar().filter(function (d) { return d.id !== "osmanli" && d.id !== odakId; });
@@ -19033,7 +19046,6 @@ function kronoTemsilEdiliyor(k, derin) {
     yalnizBtn.setAttribute("data-ipucu", "Listeyi seçtiğiniz devletlerle sınırlar — seçimi gözden geçirip tek tek çıkarmak için.");
     yalnizBtn.addEventListener("click", function () { YALNIZ_SECILI = !YALNIZ_SECILI; panelDoldur(); });
     ustSira.appendChild(yalnizBtn);
-    secListe.appendChild(ustSira);
     tumuDugmeYaz();
     var gorunen = gorunenSatirlar();
     if (!gorunen.length) {
@@ -19075,8 +19087,24 @@ function kronoTemsilEdiliyor(k, derin) {
       bilgi.className = "dss-bilgi";
       bilgi.textContent = [yilAraligi(d), d.id !== "osmanli" && d.kronoloji ? d.kronoloji.length + " md." : ""]
         .filter(Boolean).join(" · ");
-      satir.appendChild(radyo); satir.appendChild(kutu); satir.appendChild(nokta);
-      satir.appendChild(ad); satir.appendChild(bilgi);
+      // İki seçici iki ayrı SÜTUN hücresinde (başlıktaki ODAK / EK ile hizalı).
+      var hOdak = document.createElement("span");
+      hOdak.className = "dss-hucre dss-hucre-odak";
+      hOdak.appendChild(radyo);
+      // Küçük yuvarlağı ıskalayan parmak ODAK sütununda kalır: hücreye tık = ODAK (ek değil).
+      hOdak.addEventListener("click", function (ev) { ev.stopPropagation(); if (rol !== "odak") satirTikla(d.id); });
+      var hEk = document.createElement("span");
+      hEk.className = "dss-hucre dss-hucre-ek";
+      hEk.appendChild(kutu);
+      satir.appendChild(hOdak); satir.appendChild(hEk); satir.appendChild(nokta);
+      satir.appendChild(ad);
+      if (rol === "odak") {
+        var rozet = document.createElement("span");
+        rozet.className = "dss-rozet";
+        rozet.textContent = "ODAK";
+        satir.appendChild(rozet);
+      }
+      satir.appendChild(bilgi);
       satir.setAttribute("data-ipucu", rol === "odak" ? "Odak devlet."
         : "Tıkla: EK olarak ekle/çıkar · ◉: ODAK yap");
       satir.addEventListener("click", function () { if (rol !== "odak") satirTikla(d.id, true); });
