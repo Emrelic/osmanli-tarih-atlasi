@@ -335,3 +335,186 @@
 - olay | OLAYLAR_EK14:1718-01-01:0 | d: Yazım hatası
 - olay | OLAYLAR_EK14:1362-06-01:0 | d: Yazım hatası ve Türkçe ek
 - olay | OLAYLAR_EK14:1502-06-01:0 | d: Yazım hatası
+- arayuz | " ayarlarını açar/kapatır. | m: 'açar' yanlış zaman/anahtar; açır olmalı
+- arayuz | " ayarlarını açar/kapatır. | m: 'ayarlar' Türkçe kalıntısı (duzeltme_001'deki satırın yerine geçer)
+- olay | OLAYLAR_ILIRYA0072:1806-01-01:0 | d: Türkçe yer adı biçimi
+- olay | OLAYLAR_EK10:1595-10-01:0 | d: Türkçe kalıntısı; antlaşma adı
+- olay | OLAYLAR_EK13:1362-03-01:0 | d: 'yaka', 'uc' Türkçe kalıntısı
+- olay | OLAYLAR_EK14:1362-06-01:0 | d: Gereksiz tire
+- olay | OLAYLAR_ILIRYA0072:1806-01-01:0 | d: 'ayrım' (fark) 'ayrılıq' olmuş
+- olay | OLAYLAR_EK10:1595-10-01:0 | d: Ünlü uyumu
+- olay | OLAYLAR_EK13:1362-03-01:0 | d: Türkçe kalıntısı 'yaka'
+- olay | OLAYLAR_EK14:1362-06-01:0 | d: Yazım hatası ve Türkçe ek
+- olay | OLAYLAR_EK14:1859-06-01:0 | d: TR 'savaşı sonrasına kadar'; çeviri 'savaşa kadar' diyerek anlamı değiştirmiş
+- olay | OLAYLAR_EK14:1873-06-28:0 | d: hal eki hatası (uşaqlarını təhsil vermək) ve bozuk anlatım
+- olay | OLAYLAR_EK15:1614-01-01:0 | d: parantezde ad kendini tekrar ediyor; TR'deki ikinci biçim (Ma'mûre) düşmüş
+- olay | OLAYLAR_EK16:1438-01-01:0 | b: yanlış hal eki: 'Altınorda'dan ayrılış'
+- olay | OLAYLAR_EK16:1814-01-14:0 | d: 'devıra bilmədi' anlamsız/bozuk sözcük; 'devraldı' Türkçe kalıntısı
+- olay | OLAYLAR_EK16:1489-02-26:0 | d: yanlış anlam: kontluk yerine 'qraf' (kont) aldı; 'devrlə' Türkçe kalıntısı
+- olay | OLAYLAR_EK16:1654-10-03:0 | d: ünlü uyumu: 'Smolensku' yanlış, 'Smolenski'
+- olay | OLAYLAR_EK16:1884-02-09:0 | d: bozuk tamlama ('Tokarı xilas qüvvəsi')
+- olay | OLAYLAR_EK16:1941-10-03:0 | d: ünlü uyumu: 'Orelı' yanlış
+- olay | OLAYLAR_EK16:1941-07-16:0 | d: ünlü uyumu: 'Smolensku' yanlış
+- olay | OLAYLAR_EK16:1404-01-01:0 | b: ünlü uyumu: 'Smolensku' yanlış
+- olay | OLAYLAR_EK16:1404-01-01:0 | d: ünlü uyumu: 'Smolensku' yanlış
+- olay | OLAYLAR_EK16:1919-04-21:0 | d: yanlış hal eki: ayrılma hali (-dan) olmalı
+- olay | OLAYLAR_EK16:1304-01-01:0 | d: ünlü uyumu: 'Mozhaysku' yanlış
+- olay | OLAYLAR_EK16:1944-08-01:0 | d: yanlış ek/anlam: 'alınmanı' (senin alınman) yerine 'alınmasını'
+- olay | OLAYLAR_EK17:1632-01-01:0 | d: 'çarpıcı' 'təsirli' (dokunaklı/etkili) diye yanlış çevrilmiş
+- olay | OLAYLAR_EK17:1630-08-19:0 | d: 'gəzinti' (kısa gezinti) yanlış; 'gezi hayatı' seyahat hayatıdır
+- olay | OLAYLAR_EK17:1644-01-01:0 | d: uydurma sözcük 'yaxışdırma'; hal' 'xaric edilmə' değil tahttan indirilme; 'maddə vəziyyətinin' anlamı bozuyor
+- olay | OLAYLAR_EK17:1687-08-01:0 | b: hal' (tahttan indirilme) 'xaric edilmə' diye yanlış
+- olay | OLAYLAR_EK17:1687-08-01:0 | d: hal' edildi = tahttan indirildi; 'xaric edildi' yanlış
+- olay | OLAYLAR_EK17:1647-01-01:0 | d: 'tətikçi' kiralık katil/tetiği çeken demek; 'tetikleyici' yanlış çevrilmiş
+- olay | OLAYLAR_EK17:1731-01-01:0 | d: Türkçe kalıntısı/yazım hatası ('giriştiyi', 'gətirdilən')
+- olay | OLAYLAR_EK17:1552-01-01:0 | d: ünlü uyumu
+- olay | OLAYLAR_EK17:1799-01-21:0 | b: 'ortak dava' hukukî 'iş' diye yanlış çevrilmiş
+- olay | OLAYLAR_EK20:1510-07-25:0 | b: burada Trablusgarp şehirdir (Tripoli); Tripolitaniya bölge adı
+- olay | OLAYLAR_EK20:1510-07-25:0 | d: metin şehirden söz ediyor; bölge adı (Tripolitaniya) yanlış
+- olay | OLAYLAR_EK20:1530-03-24:0 | d: şehir Trablus (Tripoli); başlıkla tutarsız bölge adı
+- olay | OLAYLAR_EK20:1887-01-07:0 | d: imla: ek tireyle ayrılmış
+- olay | OLAYLAR_EK21:1811-05-01:0 | d: imla: 'Ruslarin' → 'Rusların'
+- olay | OLAYLAR_EK21:1537-01-01:0 | d: yazım hatası: 'verilcəkdir'
+- olay | OLAYLAR_EK22:1923-07-24:0 | b: 'dayatılan' 'tətbiq edilən' (uygulanan) diye yanlış çevrilmiş
+- olay | OLAYLAR_EK22:1923-07-24:0 | d: 'dayatılmış' 'tətbiq edilmiş' diye yanlış çevrilmiş (yalnız ilk cümle değişti)
+- olay | OLAYLAR_SENKRON_0930:1436-01-01:0 | d: 'yaklaşıklık' 'yaxınlaşma' (yaklaşma) diye yanlış
+- olay | OLAYLAR_SENKRON_0930:1551-07-26:0 | d: 'dayatılan' 'tətbiq edilən' diye yanlış çevrilmiş
+- olay | OLAYLAR_SENKRON_0930:1605-01-21:0 | d: Türkçe 'il' (vilayet) Azericede 'yıl' demek; komitat olmalı
+- olay | OLAYLAR_SENKRON_0930:1619-11-01:0 | b: 'il' Azericede 'yıl'; komitat olmalı
+- olay | OLAYLAR_SENKRON_0930:1619-11-01:0 | d: 'il' Azericede 'yıl'; komitat olmalı
+- olay | OLAYLAR_SENKRON_0930:1606-12-29:0 | b: 'il' Azericede 'yıl'; komitat olmalı
+- olay | OLAYLAR_SENKRON_0930:1606-12-29:0 | d: 'il' Azericede 'yıl'; komitat olmalı
+- olay | OLAYLAR_SENKRON_0930:1630-03-30:0 | b: 'il' Azericede 'yıl'; başlık 'yedi yılı' diye okunuyor
+- olay | OLAYLAR_SENKRON_0930:1630-03-30:0 | d: 'il' Azericede 'yıl'; komitat olmalı
+- olay | OLAYLAR_SENKRON_0930:1644-02-01:0 | d: bozuk anlatım, anlam anlaşılmıyor
+- olay | OLAYLAR_SENKRON_0930:1664-05-03:0 | d: bozuk ve yanlış anlam veren anlatım
+- olay | OLAYLAR_SENKRON_0930:1372-01-01:0 | d: eksik belirtme hali eki
+- olay | OLAYLAR_2S_0918:1881-01-24:0 | d: Rusça karışımı 'Zaxəzər'; aynı cümlede Xəzərötəsi kullanılıyor
+- olay | OLAYLAR_2S_0918:1462-01-01:0 | d: yanlış hal eki
+- olay | OLAYLAR_ORTADOGU_0919:1801-01-01:0 | d: enişte = yeznə; bacanaq farklı akrabalık
+- olay | OLAYLAR_2S_0919:1558-01-01:0 | d: bozuk sözcük 'Baltikyanına'
+- olay | OLAYLAR_2S_0919:1721-01-01:0 | d: yanlış ek
+- olay | OLAYLAR_2S_0919:1808-01-01:0 | b: Erâk şehri 'İraq' (ülke) diye yazılmış
+- olay | OLAYLAR_2S_0919:1830-01-01:0 | d: yazım hatası 'orunu'
+- olay | OLAYLAR_2S_0919:1852-01-01:0 | b: yazım hatası
+- olay | OLAYLAR_2S_0919:1852-01-01:0 | d: yazım ve ek hatası
+- olay | OLAYLAR_2S_0919:1880-06-13:0 | b: eksik belirtme hali eki
+- olay | OLAYLAR_2S_0919:1579-07-13:0 | d: yanlış unvan yazımı (arşidük)
+- olay | OLAYLAR_2S_0919:1343-01-01:1 | d: kayınbirader = qayın; 'qayınata' kayınpeder (yanlış akrabalık)
+- olay | OLAYLAR_AMERIKA0920:1539-01-09:0 | d: ünlü uyumu
+- olay | OLAYLAR_2S0920:1918-05-28:0 | d: yer adının Azericede yerleşik biçimi Ərəş
+- olay | OLAYLAR_2S0920:1920-04-27:0 | d: yer adının Azericede yerleşik biçimi Ərəş
+- olay | OLAYLAR_2S0920:1517-04-15:0 | b: yanlış hal eki
+- olay | OLAYLAR_SENUSI_0919:1551-07-01:0 | d: ünlü uyumu
+- olay | OLAYLAR_SENUSI_0919:1596-05-10:0 | d: yanlış anlam: toplar ateşlendi, topa tutulmadı
+- olay | OLAYLAR_SESSIZBORC0919:1448-01-01:0 | d: bölge adı Hersek yerine 'Herzoq'; 'ayaqlanıb' Türkçe kalıntısı
+- olay | OLAYLAR_P0069:1788-01-01:0 | b: burada 'savaş' müharibədir, döyüş değil
+- olay | OLAYLAR_P0044:1556-07-16:0 | d: bozuk anlatım 'əsası ilə ittiham'
+- olay | OLAYLAR_P0047:1511-08-10:0 | d: yazım hataları: 'sökündü', 'taciləri'
+- olay | OLAYLAR_P0049:1787-07-27:0 | d: 'kölemen beyleri' Memlûk beyleridir; 'kölə bəyləri' yanlış anlam
+- olay | OLAYLAR_P0049:1595-01-01:0 | d: eksik sözcük ('ilin')
+- olay | OLAYLAR_P0049:1724-05-06:0 | d: 'yaklaşıklık' 'yaxınlaşma' diye yanlış
+- olay | OLAYLAR_P0050:1527-01-01:0 | d: yanlış unvan yazımı
+- olay | OLAYLAR_P0050:1814-01-28:0 | b: bozuk/uydurma sözcük 'xərackeçən'
+- olay | OLAYLAR_P0050:1814-01-28:0 | d: eksik sözcük ('ilin')
+- olay | OLAYLAR_P0050:1882-03-06:0 | d: yanlış yer adı: Ürküp (Prokuplje) Üsküb (Skopje) yapılmış; Üsküp 1882'de Sırbistan'da değildi
+- olay | OLAYLAR_P0051:1570-01-01:0 | d: Türkçe kalıntısı 'kıdem'
+- olay | OLAYLAR_P0056:1739-08-28:0 | d: yazım hatası: serasker
+- olay | OLAYLAR_P0057:1919-05-11:0 | d: yanlış hal eki
+- olay | OLAYLAR_P0057:1919-06-28:0 | d: ünlü uyumu
+- olay | OLAYLAR_P0057:1920-08-29:0 | b: özel adda ünsüz yumuşaması yapılınca 'uşağın' (çocuğun) okunuyor
+- olay | OLAYLAR_P0057:1922-09-01:0 | b: özel adda ünsüz yumuşaması yapılınca 'uşağın' (çocuğun) okunuyor
+- olay | OLAYLAR_P0057:1921-04-07:0 | d: ek uyumu: aprelde → apreldə
+- olay | OLAYLAR_P0057:1793-01-31:0 | b: yanlış anlam: kontluk yerine 'qraf' (kont)
+- olay | OLAYLAR_P0057:1793-01-31:0 | d: yanlış anlam: kontluk yerine 'qraf' (kont)
+- olay | OLAYLAR_P0057:1508-05-02:0 | b: bozuk anlatım
+- olay | OLAYLAR_P0058:1514-10-23:0 | d: Türkçe kalıntısı 'giren'
+- olay | OLAYLAR_SEHIR_ILK:1452-04-03:0 | d: 'Hersek' adı düşmüş
+- olay | OLAYLAR_SEHIR_ILK:1494-02-06:0 | d: eksik sözcük ('ilin')
+- olay | OLAYLAR_SEHIR_ILK:1784-01-01:0 | d: çatı hatası: 'quraraq' → 'qurularaq'
+- olay | OLAYLAR_SEHIR_ILK:1368-01-20:0 | b: yazım ve hal eki hatası
+- olay | OLAYLAR_ARKEOLOJI_PILOT:-12154-01-01:0 | d: 'yarı gömülü' anlamsız 'yarımdiyirli' diye çevrilmiş
+- olay | OLAYLAR_ARKEOLOJI_D3_HINT_CIN:-1045-01-01:0 | d: Türkçe kalıntısı 'hakemli'
+- olay | OLAYLAR_ARKEOLOJI_D3_MISIR_AFRIKA:-1531-01-01:0 | b: yanlış yönelme eki
+- olay | OLAYLAR_ARKEOLOJI_ZINCIR:-0403-01-01:0 | d: TR diakritiksiz 'ayin' = 'ayın'; Azericede 'ayin' dinî tören demek
+- olay | OLAYLAR_ARKEOLOJI_ZINCIR:0023-01-01:0 | d: Çince adlarda 'ng' 'nq' yapılmış, tutarsız (Wang Mang / Luoyang)
+- olay | OLAYLAR_ARKEOLOJI_ZINCIR:0036-01-01:0 | d: kaynaştırma ünsüzü eksik
+- olay | OLAYLAR_ARKEOLOJI_ZINCIR:0221-01-01:0 | d: kaynaştırma ünsüzü eksik
+- olay | OLAYLAR_ARKEOLOJI_ZINCIR:0263-01-01:0 | d: kaynaştırma ünsüzü eksik
+- olay | OLAYLAR_ARKEOLOJI_D2_IRAN_ORTA_ASYA:-0538-01-01:0 | d: eksik tamlayan eki
+- olay | OLAYLAR_ARKEOLOJI_D2_IRAN_ORTA_ASYA:-2399-01-01:0 | d: eksik tamlayan eki
+- olay | OLAYLAR_ARKEOLOJI_D2_AFRIKA_AMERIKA:-2834-01-01:0 | b: yanlış ülke: Nijer (Niger) Nigeriya (Nijerya) yapılmış
+- olay | OLAYLAR_ARKEOLOJI_D2_AFRIKA_AMERIKA:-7699-01-01:0 | b: yanlış ülke: Nijer (Niger) Nigeriya (Nijerya) yapılmış
+- olay | OLAYLAR_ARKEOLOJI_D2_CIN_DOGU_ASYA:-1799-01-01:0 | d: yazım: Türkçe biçim 'kereste' karışmış
+- olay | OLAYLAR_ARKEOLOJI_D2_CIN_DOGU_ASYA:-2299-01-01:1 | d: yazım: Türkçe biçim 'kereste' karışmış
+- olay | OLAYLAR_ARKEOLOJI_AMERIKA:-4499-01-01:0 | d: yazım hatası ve yanlış bitki adı
+- olay | OLAYLAR_ARKEOLOJI_AVRUPA:-2871-01-01:0 | b: hatalı iyelik eki
+- olay | OLAYLAR_ARKEOLOJI_LEVANT_ANADOLU:-11219-01-01:0 | d: bozuk terim (ovçu-yığıcı)
+- olay | OLAYLAR_ARKEOLOJI_LEVANT_ANADOLU:-7099-01-01:0 | d: bozuk terim (ovçu-yığıcı)
+- olay | OLAYLAR_OK109:1918-12-01:1 | d: yanlış hal eki
+- olay | OLAYLAR_OK109:1918-12-29:0 | b: ünlü uyumu hatası
+- olay | OLAYLAR_T5_1000A:1024-01-01:0 | b: özel ad yanlış (Nasrüddevle, Nâsırüddevle değil)
+- olay | OLAYLAR_T5_1000A:1024-01-01:0 | d: özel ad yanlış (Nasrüddevle)
+- olay | OLAYLAR_T5_1000A:1071-01-01:0 | d: yanlış yer adı: Mazgirt ayrı yerdir, Malazgirt
+- olay | OLAYLAR_T5_1000A:1071-01-01:1 | d: yanlış yer adı: Malazgirt
+- olay | OLAYLAR_T5_1000A:1074-01-01:1 | d: yanlış yer adı: Malazgirt
+- olay | OLAYLAR_T5_1000A:1127-01-01:0 | d: Melik 'mələk' (melek) olarak çevrilmiş
+- olay | OLAYLAR_T5_1000A:1184-01-01:0 | b: yazım hatası
+- olay | OLAYLAR_T5_1000A:1225-07-25:0 | d: yazım hatası (burunu → buranı)
+- olay | OLAYLAR_T5_1000A:1256-01-01:0 | d: 'devroldu' yanlış anlam (dönüştü)
+- olay | OLAYLAR_BK_ZINCIR_1024:1346-06-15:0 | d: bozuk sözcük (Cenevizə)
+- olay | OLAYLAR_KURULUS_GERI_1021:0972-10-02:0 | b: hatalı çoğul/hal eki
+- olay | OLAYLAR_KURULUS_GERI_1021:0972-10-02:0 | d: hatalı çoğul/hal eki
+- olay | OLAYLAR_KURULUS_GERI_1021:1057-01-01:0 | d: hatalı çoğul/hal eki
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0910-01-15:0 | b: ünlü uyumu hatası
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0946-07-04:0 | b: yanlış hal eki
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0946-07-04:0 | d: yanlış hal eki
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1002-01-01:0 | b: belirtme hali eksik
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1002-01-01:0 | d: belirtme hali eksik
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1119-01-01:0 | b: kontluk (qraflıq) 'kont' olarak çevrilmiş
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1119-01-01:0 | d: kontluk (qraflıq) 'kont' olarak çevrilmiş
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1164-01-01:0 | b: yazım hatası
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1164-01-01:0 | d: yazım hatası
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1197-01-01:0 | b: yer adına eksik ek
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1197-01-01:0 | d: yer adına eksik ek
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1204-01-01:0 | b: özel ad yazımı (Qiyasəddin)
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1204-01-01:0 | d: özel ad yazımı (Qiyasəddin)
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1241-07-19:0 | b: özel ad yazımı
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1241-07-19:0 | d: özel ad yazımı
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1223-01-01:0 | b: belirtme hali eksik
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1223-01-01:0 | d: belirtme hali eksik
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1287-01-01:0 | b: yazım hatası (qraflıq)
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1287-01-01:0 | d: yazım hatası (qraflıq)
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1289-04-26:0 | b: yazım hatası (qraflıq)
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1289-04-26:0 | d: yazım hatası (qraflıq)
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:0819-06-28:0 | d: belirtme hali eksik
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-0280-01-01:0 | b: kişi adı: kral Selevk (Selevki sıfat biçimi)
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-0280-01-01:0 | d: kişi adı: Selevk
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-0299-01-01:0 | b: kişi adı: Selevk
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-0299-01-01:0 | d: kişi adı: Selevk
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-0300-01-01:0 | b: kişi adı: Selevk
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-0300-01-01:0 | d: kişi adı: Selevk
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-0304-01-01:0 | b: kişi adı: Selevk
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-0304-01-01:0 | d: kişi adı: Selevk
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-0304-01-01:1 | b: kişi adı: Selevk
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-0304-01-01:1 | d: kişi adı: Selevk
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-0688-01-01:0 | d: dilbilgisi: Assur → Assurun
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-0609-01-01:0 | d: dilbilgisi: Assurun
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-0733-01-01:0 | d: dilbilgisi: Assurun
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-0732-01-01:0 | d: yazım: İsrailı → İsraili
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-0857-01-01:0 | d: dilbilgisi: Assurun
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-0878-01-01:0 | b: dilbilgisi: Assurun
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-0878-01-01:0 | d: dilbilgisi: Assurun
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-1099-01-01:0 | d: dilbilgisi: Assurun
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-1259-01-01:0 | d: dilbilgisi: Assurun
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-1269-01-01:0 | d: yazım: ünlü uyumu
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-1349-01-01:0 | b: anlam: Mısır'ın eşiti büyük güç
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-1569-01-01:0 | d: anlam ve bozuk cümle: Agum-kakrime heykeli geri aldı
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-1589-01-01:0 | d: anlam: kayın (kayınbirader) kayınpeder diye çevrilmiş
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-1899-01-01:0 | b: yazım: tacirlər
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-1899-01-01:0 | d: yazım: tacirləri
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0014-01-01:0 | b: anlam: 'Alp ötesi' aşırım (geçit) değil
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0081-01-01:0 | d: yazım: ünlü uyumu
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0278-01-01:0 | b: dilbilgisi: belirtme eki eksik
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0305-01-01:0 | b: anlam: 'Kıbrıs Salamis'te' bozuk çevrilmiş
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0340-01-01:0 | d: bozuk ifade: haraca bağladı

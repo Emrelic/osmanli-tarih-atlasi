@@ -13,3 +13,10 @@ Notlar (emin olunmayan, duzeltilmeyen):
 == ilerleme_a.txt
 Tamamen okunan: 4_olay_022-056 (35 paket; araligin tamami)
 Bakilan kayit: yalnız olay turu (paket basi ~12-26 kayit; kayit sayisi ayrica sayilmadi)
+
+== ilerleme_b.txt
+Tamamen okunan: 4_olay_057-091 (35 paket; araligin tamami)
+Bakilan kayit: yalniz olay turu (paket basi ~6-45 kayit; kayit sayisi ayrica sayilmadi)
+
+== ilerleme_d.txt
+Tamamen okunan: 4_olay_135-144

@@ -50,3 +50,31 @@
 - olay OLAYLAR_EK12:1893-01-01:0: "Dikeo" büyük olasılıkla "Dikoa" (Dikwa) olmalı.
 - olay OLAYLAR_EK14:1568-01-01:0: "(tamamlanışı kronolojide zaten kayıtlı)" iç not.
 - olay OLAYLAR_EK14:1598-04-09:0: "burada binanın kendi özel maddesindeki tarih esas alınmıştır" (iç not niteliğinde).
+
+== tr_hatalari_b.md
+- olay OLAYLAR_EK15:1659-01-01:0 ve OLAYLAR_EK15:1337-09-09:0: TR metninde tırnak çevresinde literal ters bölü (\") var görünüyor; ekranda kontrol edilmeli (aynı kalıp EK21 Niğbolu, Silistre, Derbend, Kars kayıtlarında da var)
+- olay OLAYLAR_EK16:1537-01-01:0: Olav Engelbriktsson için "İskoç-Norveç piskoposu" — Norveçli Trondheim başpiskoposu olmalı
+- olay OLAYLAR_EK16:1941-07-09:0: kullanıcıya görünen iç not ("arama özeti [özet]")
+- olay OLAYLAR_EK16:1341-01-01:0: iç not "(künyede Özbek/Canibek)"
+- olay OLAYLAR_EK16:1941-07-28:0: son cümle bozuk ("Estonya sivil idaresi 5 Aralık 1941'de, Belarus'un doğusu askerî idarede kaldı")
+- olay OLAYLAR_EK16:1945-05-08:0: başlıkta İngilizce kalıntı "Courland Army Group" (az çevirisinde de aynen)
+- olay OLAYLAR_EK16:1307-01-01:0: iç not "(atlas künye tarihi 1307; ... tartışmalıdır)"
+- olay OLAYLAR_EK16:1941-06-23:0/1, 1944-07-16:0, 1944-07-28:0: Türkçe karakterler eksik ("isgal", "Dogu Cephesi", "Kizil Ordu")
+- olay OLAYLAR_EK17:1725-01-01:0: "Gün TDV'de belirtilmiyor, yıl beyan" iç not
+- olay OLAYLAR_EK17:1789-04-07:0: "abdulhamid-i maddesine" slug görünüyor; OLAYLAR_SERHAT:1428-01-01:0 "TDV nis maddesine"; OLAYLAR_SENKRON_0930:1471-01-01:0 "TDV besni:"
+- olay OLAYLAR_EK17:1800-04-02:0: metinde ISO tarih "1799-03-05"
+- olay OLAYLAR_EK20:1768-05-15:0: "gün teyitsiz" iç not
+- olay OLAYLAR_EK22:1923-07-24:0: TBMM Lozan onayı gövdede 23 Ağustos 1923, tablo sonunda 2 Ağustos 1923 (çelişki; 23 Ağustos doğru); ayrıca "madde kanıtı yok", "özetlerinde geçmiyor" iç notları
+- olay OLAYLAR_SENKRON_0930:1436-01-01:0 ve OLAYLAR_P0049:1724-05-06:0: "beyanlı yaklaşıklık", "zincir Hoy'dan devralındı" iç not dili
+- olay OLAYLAR_2S_0918:1889-01-01:0: "Kerene İtalya idaresine geçti" yazım hatası (Keren)
+- olay OLAYLAR_2S0920:1942-01-01:0: "(bkz. ic_not)" geliştirici notu kullanıcıya görünüyor (az çevirisinde de "bax ic_not")
+- olay OLAYLAR_P0057:1921-04-07:0: "iki anlatım birbirini tutmaz, ikisi de verildi" editör dili
+- olay OLAYLAR_ARKEOLOJI_PILOT:-7099-01-01:0: "geriye (daha geç)" kendi içinde çelişkili
+- olay OLAYLAR_ARKEOLOJI_D3_*, ZINCIR, AFRIKA_IRAN, D2_AFRIKA_AMERIKA: birçok TR metin Türkçe karaktersiz (fazi, MO, Buyuk Iskender, Imparatorlugu, ayni kaynak, "ayin sonunda")
+- olay OLAYLAR_ARKEOLOJI_D3_ITALYA_AVRUPA:-0751-01-01:0: "bu oturumda KAYNAKTAN okunmadı" iç not
+- olay OLAYLAR_ARKEOLOJI_D2_IRAN_ORTA_ASYA:-3199-01-01:0: "Brifteki ... tek bir kaynakta bulunmadı" geliştirici notu
+- olay OLAYLAR_ARKEOLOJI_D3_HINT_CIN:-0273/-0236: "katılım ≤274" (İng. accession yanlış çevirisi; tahta geçiş)
+- olay OLAYLAR_ARKEOLOJI_ZINCIR (geneli): "Kaynak geçiş bilgisi", "bu oturumda/bu turda okunmadı", "KAYNAKLANMADI", "künye t uzatıldı", "künye t=0027", "(ANTIK-ISKENDER-1113-B)" başlıkta, "beyanlı boşluk", "ayrı madde", ham URL'ler; "sahiplik sahipsiz aralık'dan ... 'ya geçer" bozuk ekler
+- olay OLAYLAR_ARKEOLOJI_ZINCIR: gerekçe metni maddeyle uyuşmuyor: -0910 Aşşur (MÖ 14. yy olayı), -1099 ve -1899 Susa (Ur III çözülmesi), -2003 Uruk/Ur (Urnamma), -2024 Uruk/Ur (MÖ 16. yy bölünmesi), -1731 Uruk (MÖ 16. yy), -0329 Ekbatana (550 olayı), -0310 Babil (açıklamada "sahipsiz aralık", başlıkta Argead), -0036/0221 Chengdu (aynı metin), 0395 Roma (başlık 395, metin 476)
+- olay OLAYLAR_ARKEOLOJI_ZINCIR:-2299-01-01:0: açıklama alıntısı yarıda kesik
+- olay OLAYLAR_ARKEOLOJI_ZINCIR:*: "X: Y dönemi başlıyor. Bu tarih ayrı bir olay değil..." şablonu; GECIS kayıtlarında başlıkta anlamsız "sahip dönemi sona erer"
