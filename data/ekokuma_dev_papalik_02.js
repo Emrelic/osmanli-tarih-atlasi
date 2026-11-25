@@ -23,6 +23,18 @@ window.EKOKUMA_DEVPAPALIK02 = [
     "Tarihçiler bugün ne diyor? Treccani maddesi sonucu, Alexander'ın sabırlı ve kararlı siyasetinin başarısı sayar. Aynı madde, imparatorun papayla ayrı görüşerek onu şehir müttefiklerinden uzaklaştırmasını da ustaca bir hamle olarak değerlendirir. Maddeye göre papa müttefiklerine ihanet etmiş sayılamaz, ancak şehirlerin kuşkusu bu ilişkiden bir daha silinmedi.",
   kaynak:"«Alessandro III», Enciclopedia dei Papi (Istituto della Enciclopedia Italiana, 2000), https://www.treccani.it/enciclopedia/alessandro-iii_(Enciclopedia-dei-Papi)/",
   kesinlik:"kesin", teyit:"teyitli",
-  ic_not:"Maddenin seçim, bölünme ve barış bölümleri okundu (indirilen metnin 4-16. paragrafları). 'Kuşku silinmedi' cümlesi maddedeki yargıdır; madde bunu Barbarossa'nın yumuşamaya başladığı 1168 sonrasına bağlar." }
+  ic_not:"Maddenin seçim, bölünme ve barış bölümleri okundu (indirilen metnin 4-16. paragrafları). 'Kuşku silinmedi' cümlesi maddedeki yargıdır; madde bunu Barbarossa'nın yumuşamaya başladığı 1168 sonrasına bağlar." },
+
+{ id:"papalik-tac-giyme-800", devlet:"papalik", tur:"tartisma",
+  baslik:"800 Noeli: Karl'ı imparator yapan sahne nasıl kuruldu?",
+  olay:["0800-12-25|Charlemagne Roma'da imparator tacı giyer"],
+  kisa:"Taç giymeden yirmi ay önce Papa III. Leo Roma sokağında saldırıya uğramış, ardından ağır suçlamalarla karşılaşmıştı. 25 Aralık 800'deki törene giden yol bu krizden geçiyordu.",
+  metin:"25 Nisan 799'da, papalık yönetiminin iki yüksek görevlisinin başını çektiği bir grup III. Leo'ya sokakta saldırdı. Gözlerini çıkarmaya ve dilini kesmeye çalıştılar. Papa kurtarıldı ve yardım istemek için Frank Kralı Karl'ın yanına, Paderborn'a gitti. Saldırganlar da elçi yollayıp onu zina ve yalan yeminle suçladı. Böylece şikâyetçi papa sanık durumuna düştü.\n\n" +
+    "Ortada zor bir soru vardı: Roma'da papayla ilgili bir davaya kim bakabilirdi? Karl'ın \"Romalıların patrisi\" unvanının buna yetip yetmediği tartışmalıydı. İmparatorluk unvanı bu sorunu çözebilirdi. Üstelik Bizans tahtında bir kadın, İmparatoriçe Irene oturduğu için kimileri imparatorluğu boş sayabiliyordu.\n\n" +
+    "Karl Kasım 800'de Roma'ya geldi. 23 Aralık'ta Leo, Aziz Petrus Kilisesi'nde İncil üzerine yemin ederek suçlamaları reddetti. İki gün sonra aynı kilisede taç giyme töreni yapıldı. Hazırlıklar önceden görülmüştü. Bizans geleneğinde önce halk imparatoru alkışlarla tanır, din adamı sonra taç giydirirdi. Leo sırayı çevirdi: alkıştan önce tacı koydu. Böylece unvanı papa vermiş gibi görünebiliyordu.\n\n" +
+    "Tarihçiler bugün ne diyor? Karl'ın yaşam öykücüsü Einhard, kralın olacakları bilseydi o gün kiliseye gitmeyeceğini söylediğini yazar. Treccani maddesi bu anlatıyı sonradan kurulmuş görür; bu kadar özenli bir tören Karl'dan habersiz zor hazırlanırdı. Bir başka Frank yıllığı, unvanın daha önce önerildiğini ve kralın kabul ettiğini aktarır; araştırmacılar bunu esas olarak güvenilir bulur. Aynı maddeye göre Karl'ı rahatsız eden unvanın kendisi değil, belki papanın değiştirdiği tören sırasıydı. Bu ise kesin bir bilgi değil, olası bir açıklamadır.",
+  kaynak:"«Leone III, santo», Enciclopedia dei Papi (Istituto della Enciclopedia Italiana, 2000), https://www.treccani.it/enciclopedia/santo-leone-iii_(Enciclopedia-dei-Papi)/",
+  kesinlik:"tartismali", teyit:"teyitli",
+  ic_not:"Maddenin yaklaşık 6.000-31.000. karakter aralığı okundu (saldırı, Paderborn, soruşturma, taç giyme ve sonrası)." }
 
 ];
