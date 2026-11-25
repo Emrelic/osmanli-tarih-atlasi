@@ -1,0 +1,9 @@
+// KİŞİ DİZİNİ - HOLLANDA
+window.KISI_HOLLANDA = [
+{ id:"hollanda-cornelis-haga", tur:"siyasi", ad:"Cornelis Haga", devlet:"hollanda", donem:"İstanbul'da elçi: 1612'den itibaren",
+  not:"Hukukçu olan ve daha önce Osmanlı ülkesinde tüccar ve gezgin olarak bulunmuş Cornelis Haga, 1611'de Hollanda Genel Meclisi tarafından Osmanlı'ya ilk elçi olarak görevlendirildi. 17 Mart 1612'de İstanbul'a vardı; Halil Paşa ve öteki ileri gelenler onu sıcak karşıladı. 1 Mayıs'ta I. Ahmed'in huzuruna kabul edildi. Ardından cumhuriyet ticaret ve serbest dolaşım imtiyazlarını elde etti. Haga bu imtiyazlara dayanarak Levant'ta konsolosluklar kurdu; görevde uzun yıllar kaldı ve bu dönemde Hollanda'nın Levant ticareti büyük ölçüde arttı.",
+  kaynak:"Himmet Umunç, Belleten 75/273 (2011), s. 373-386, https://doi.org/10.37879/belleten.2011.373" },
+{ id:"hollanda-cornelis-de-bruyn", tur:"edebiyatci", ad:"Cornelis de Bruyn", devlet:"hollanda", donem:"Levant yolculuğu: 1674-1684",
+  not:"Hollandalı seyyah ve ressam. 1 Ekim 1674'te Lahey'den yola çıktı, 1678'de İzmir'e vardı; İzmir, İstanbul, Mısır, Doğu Akdeniz ve Kıbrıs'ı gezdi. 1684'te İzmir'den ayrılıp Venedik üzerinden dönüşe geçti. Kendi çizdiği gravürlerle süslediği seyahat kitabını ilk kez 1698'de Felemenkçe yayımladı. Eser coğrafya, gündelik hayat, mimari, din, ticaret ve yönetim üzerine ayrıntılı gözlemler içerir. Himmet Umunç, yolculuğun ardında Orange hanedanı adına bilgi toplama görevi bulunmuş olabileceğini bir ihtimal olarak tartışır.",
+  kaynak:"Himmet Umunç, Belleten 75/273 (2011), s. 373-386, https://doi.org/10.37879/belleten.2011.373" }
+];

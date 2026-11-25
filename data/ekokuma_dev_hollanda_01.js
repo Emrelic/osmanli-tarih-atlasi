@@ -1,0 +1,39 @@
+// EK OKUMA - HOLLANDA, parti 01
+window.EKOKUMA_DEVHOLLANDA01 = [
+
+{ id:"hollanda-ahidname-1612-niye-istendi", devlet:"hollanda", tur:"sebep-sonuc",
+  baslik:"İspanya'ya karşı bir ortak: İstanbul Hollandalılara kapıyı niçin açtı?",
+  olay:["1612-07-06|Osmanlı ahidnâmesi","1612-07-06|ilk ahidnâme"],
+  kisa:"Henüz genç bir cumhuriyetin tüccarı kumaş ve baharat satmak istiyordu. Osmanlı tarafında ise hesapta yalnız ticaret yoktu: ortak düşman İspanya ve güçlü bir denizci millet.",
+  metin:"Hollandalılar Doğu Akdeniz'e 1612'den çok önce gelmişti. Himmet Umunç'un aktardığına göre diplomatik ilişki kurulmadan önceki onlarca yıl boyunca tüccarları Fransız ve İngiliz himayesinde alışveriş yapıyor, gemileri o bayraklarla limanlara girebiliyordu. Kendi adlarına bir ahidnâme (Avrupalıların kapitülasyon dediği imtiyaz belgesi) bu aracılardan kurtulmak demekti.\n\n" +
+    "İSTANBUL'UN HESABI. Umunç'a göre Osmanlı açısından ticaretten daha ağır basan şey, İspanya'ya karşı stratejik ortaklık ihtiyacıydı. Osmanlı hükûmetleri 1560'ların ortasından itibaren Hollanda isyanını desteklemişti. 1604'te Hollandalılar Sluis'teki İspanyol deniz üssünü alıp İspanyol kadırgalarında kürek çektirilen yaklaşık 1500 Türk esiri serbest bıraktı. Ardından teşekkür ve dostluk mektupları gidip geldi; yazışmanın merkezindeki ad Halil Paşa idi. Paşanın gözü, Hollanda'nın deniz gücü ve gemicilik bilgisinden Osmanlı donanmasını güçlendirmekte yararlanmaktaydı.\n\n" +
+    "HOLLANDA'NIN HESABI. Cumhuriyet İspanya'ya karşı müttefik arıyor, ama en az onun kadar kârlı Levant ticaretini ve gemileri için Kuzey Afrika korsanlarına karşı güvence istiyordu. 1611'de Cornelis Haga ilk elçi olarak görevlendirildi. 17 Mart 1612'de İstanbul'a vardı, 1 Mayıs'ta I. Ahmed tarafından kabul edildi. İmtiyazlar kısa süre sonra verildi.\n\n" +
+    "TARİHÇİLER BUGÜN NE DİYOR. Umunç bu ilişkiyi iki tarafın da karşılıklı çıkarı gördüğü pragmatik bir yakınlık olarak okur. Hollanda toplumunda Türklere karşı önyargı ve çekince yok değildi; ama A. H. de Groot'un vurguladığı gibi daha pratik düşünenler, Papalık önderliğinde ortak bir saldırı fikrine karşı çıktı.",
+  kaynak:"Himmet Umunç, \"The Dutch in the Levant: Trade and Travel in the Seventeenth Century\", Belleten 75/273 (2011), s. 373-386, https://doi.org/10.37879/belleten.2011.373 (tam metin okundu).",
+  ic_not:"Umunç Halil Paşa için 'Kaptan-ı Derya' der; unvanın tarihi ikinci kaynakla sınanmadığından metne alınmadı. Ahidnâme günü (6 Temmuz) Umunç'ta yok; kart olaya bağlanır, metin gün vermez. Umunç Haga'nın elçiliğine 38 yıl der; Bülent Arı'nın Divan özetinde 27 yıl geçiyor: süre metne alınmadı. Umunç, kapitülasyon hükümlerinin Hollanda'da Oldenbarnevelt eliyle hazırlandığını yazar; ikinci teyit için de Groot okunmalı.",
+  teyit:"teyitli", kesinlik:"kuvvetli" },
+
+{ id:"hollanda-voc-hazir-tasarim-miydi", devlet:"hollanda", tur:"tartisma",
+  baslik:"VOC baştan dâhice tasarlanmış modern bir şirket miydi?",
+  olay:["1602-03-20|VOC'nin kurulması"],
+  kisa:"Sık anlatılan hikâyede 1602'de modern anonim şirket bütün parçalarıyla doğar. Şirketin ilk yirmi yılının hesapları ise açık kapata kapata ilerleyen bir yapı gösteriyor.",
+  metin:"1595'ten sonra Hollanda şehirlerinden Asya'ya rakip seferler gidiyordu. Bu rekabet İspanya, Portekiz ve İngiltere karşısında ülkeyi zayıflattığı için Genel Meclis girişimleri 1602'de tek şirkette birleştirdi. Birleşme yine de yarımdı: ortak kararları On Yedi Efendi denen merkez kurul alıyor, gemileri ise altı şehir odası donatıyordu.\n\n" +
+    "KALICI SERMAYE YOKTU. Oscar Gelderblom, Abe de Jong ve Joost Jonker'in incelemesine göre 6,4 milyon guldenlik sermaye, her seferin gelirinin bir sonrakini beslediği döner bir kaynak olarak düşünülmüştü. On yıl sonra hesap kapatılacak, yatırımcı isterse parasını alacaktı. Oysa kale, top, asker ve Asya'da tutulan gemiler pahalıydı; gemiler geç ve yıpranmış dönüyor, baharat satışı yetmiyordu.\n\n" +
+    "ÇÖZÜMLER SIRAYLA GELDİ. Devredilebilir hisse ve hissedarın sınırlı sorumluluğu baştan vardı. Kalıcı sermaye ise 1612'de elde edildi. Yöneticiler 1610-1612 arasında yüzde 162,5 temettü ilan etti; şirketin kasasında bu para yoktu, ödemenin büyük bölümü başta Hint cevizi kabuğu (mace) olmak üzere mal olarak önerildi ve hissedarlar buna sıcak bakmadı. Yöneticilerin şirket borcundan kişisel olarak sorumlu tutulmaması da ancak 1623'te, Amsterdam odasının kararıyla açıkça benimsendi.\n\n" +
+    "TARİHÇİLER BUGÜN NE DİYOR. Yaygın hukuk tarihi yorumu bu özellikleri Asya ticaretinin ihtiyaçlarına göre bilinçle kurulmuş uyumlu bir paket sayar. Üç yazar buna karşı çıkar: onlara göre yapı, ilk tasarımın kusurlarını tek tek yamalayan bir süreçte oluştu ve itici güç dışarıdan para bulma zorunluluğuydu.",
+  kaynak:"Oscar Gelderblom, Abe de Jong, Joost Jonker, \"The Formative Years of the Modern Corporation: The Dutch East India Company VOC, 1602-1623\", ERIM Report Series ERS-2012-007-F&A, 2012, giriş, ilk bölümler ve sonuç, https://repub.eur.nl/pub/32952 ; hakemli yayını: The Journal of Economic History 73/4 (2013), s. 1050-1076.",
+  ic_not:"Okunan metin 23 Haziran 2012 tarihli çalışma raporu sürümüdür; dergi sürümü açılmadı. Raporun giriş, ilk iki bölüm başı, limited liability sonu ve sonuç kısımları okundu (tamamı değil). Temettü ödemesinde 'hissedarlar sıcak bakmadı' s.14-15.",
+  teyit:"teyitli", kesinlik:"tartismali" },
+
+{ id:"hollanda-izmir-de-bruyn", devlet:"hollanda", tur:"dis-yankilar",
+  baslik:"İzmir rıhtımında kalabalık: Hollanda filosu geldiğinde",
+  olay:["1680-01-01|yeni ahidnâme"],
+  kisa:"Hollandalı seyyah ve ressam Cornelis de Bruyn, İzmir'e kendi ülkesinin gemileri yanaşınca binlerce kişinin kıyıya koştuğunu yazdı. Bu ilginin arkasında yoğun bir alışveriş vardı.",
+  metin:"Cornelis de Bruyn 1678 Temmuz'unda İzmir'e geldi, sonra İstanbul'da yaklaşık bir buçuk yıl kaldı. Gözlemlerini 1698'de resimli bir kitap olarak yayımladı. Ona göre İzmir bütün Levant'ın ticarette birinci şehriydi. Koruma gemileriyle gelen Hollanda filoları her yıl bol miktarda çuha ve başka değerli mal getiriyor, Türk, Yahudi, Ermeni ve Rum alıcıların malları bu gemilerde olduğu için kıyıda büyük kalabalık toplanıyordu. Seyyah, İngiliz filosu geldiğinde bile böyle bir kalabalık görülmediğini söyler. Bunu yazanın bir Hollandalı olduğunu da akılda tutmak gerekir.\n\n" +
+    "NE ALINIP SATILIYORDU. Himmet Umunç'un çizdiği tabloda Hollandalılar Osmanlı ülkesinden tiftik ipliği, yün, pamuk, ham ipek, mazı, halı, incir, kuş üzümü, kuru üzüm ve deri alıyordu. Tiftik ve yün Ankara'dan yaklaşık on altı günlük kervan yoluyla İzmir'e iniyor, pamuk yakındaki Manisa'dan geliyordu. Karşılığında ince çuha, kürk, İspanyol gümüşü, boya maddeleri, İsveç bakırı, mühimmat ve baharat satılıyordu.\n\n" +
+    "NASIL BU KADAR BÜYÜDÜ. Umunç'a göre büyük ticaret filosu, çok düşük navlun ve yüksek taşıma kapasitesi Hollandalıları rakiplerinin önüne geçirdi. 1611'de Amsterdamlı Levant tüccarları, bu ticaretin değerce Doğu Hint ticaretiyle boy ölçüştüğünü ve dokuma sanayisi için vazgeçilmez ham madde sağladığını Genel Meclis'e bildirmişti; bu aktarım tarihçi Jonathan Israel'e dayanır.\n\n" +
+    "TARİHÇİLER BUGÜN NE DİYOR. Umunç, Hollandalıların 17. yüzyılda Levant ticaretinde öne geçtiğini ve İngilizlerle birlikte Osmanlı'nın en güçlü ticaret ortaklarından biri olduğunu savunur. De Bruyn'ün anlattıkları canlı bir tanıklıktır; tek başına bir ticaret istatistiği değildir.",
+  kaynak:"Himmet Umunç, \"The Dutch in the Levant: Trade and Travel in the Seventeenth Century\", Belleten 75/273 (2011), s. 373-386, https://doi.org/10.37879/belleten.2011.373 (tam metin okundu); de Bruyn aktarımları Umunç'un kullandığı 1714 Fransızca baskıdandır (Voyage au Levant, s. 27 vd.).",
+  teyit:"teyitli", kesinlik:"kuvvetli" }
+
+];
