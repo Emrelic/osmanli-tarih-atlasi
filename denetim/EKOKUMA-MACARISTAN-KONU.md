@@ -42,3 +42,19 @@ Fodor, Fodor-Varga, B. Szabó, Kosáry (Varga-Macar üzerinden). Kartlarda ve `i
 ## Sınanmayan
 Bağlar başlık alt dizgisiyle Node'da sınandı, tarayıcıda sınanmadı. Aynı gün birden çok devletin
 maddesi eşleşiyor (Mohaç: 4 madde; hepsi aynı olay).
+
+## Parti 02 (25.11 gece)
+4 kart (teyitli 4; dosya `ekokuma_dev_macaristan_02.js`) + 2 kişi (Tomori, Kossuth). Toplam 11 kart, 6 kişi, 2 hükümdar.
+Aşağıdaki aday listesinden işlenenler: 2 (Mohaç ordu sayıları; savaş yeri tartışması yazılmadı), 3 (Szapolyai'nin belleği; çifte krallık olayları değil), 7 (Belgrad 1521), 8'in 1849 ayağı.
+
+### Okunan
+- Nagy-L. István, "A magyar hadsereg a mohácsi csatában", Hereditas Civitatis Albae Regiae 1 (2026), 131-147, real.mtak.hu/246186 (s.131-146).
+- Varga Szabolcs, Szapolyai belleği, real.mtak.hu/131581 (s.311-320, 326-329; yayın yılı dosyadan okunamadı).
+- Sebők Ferenc, Chronica 2 (2002), 57-63, ojs.bibl.u-szeged.hu 10636 (tamamı).
+- Saydam Abdullah, Belleten 61/231 (1997), belleten.gov.tr/tam-metin/2428 (ana bölümler; Kütahya/Halep ayrıntılarının bir kısmı atlandı).
+
+### Sıradaki / borç
+- 1514 Dózsa: atlasta 1514-05-01 ve 1514-07-20 maddeleri VAR (ilk partideki "madde yok" notu yanlıştı). Açık tam metin bulunamadı (Housley ücretli; core.ac.uk ilk partide 403, yeniden denenmedi).
+- Göksel Baş, "1521 Belgrade", Acta Orient. Hung. 79/3: yalnız arama özeti; kullanılmadı.
+- Kütahya'daki mülteci yaşamı (Saydam'ın ilgili bölümü), Niğbolu 1396, Varna 1444, 1867 Uzlaşması.
+- Mohaç kartı tek yazarlı çalışmaya dayanır; Sebők (2002) da 24-25 bin verir (ikinci bağımsız dayanak; karta eklendi).

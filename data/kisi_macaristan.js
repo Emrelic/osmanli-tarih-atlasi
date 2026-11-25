@@ -19,6 +19,16 @@ window.KISI_MACARISTAN = [
 { id:"macaristan-dozsa-gyorgy", devlet:"macaristan", tur:"siyasi", ad:"Dózsa György",
   donem:"16. yüzyıl",
   not:"1514'te Osmanlılara karşı düzenlenmek istenen haçlı seferi kısa sürede köylülerin soylulara karşı ayaklanmasına dönüştü; hareketin önderi Dózsa'ydı. Ayaklanma Erdel voyvodası Szapolyai János tarafından kanlı biçimde bastırıldı. Sosyalist dönemin Macar lise kitapları bu olaya daha önce görülmemiş bir ağırlık verdi ve onu Mohaç yenilgisinin nedenleri arasında saydı.",
-  kaynak:"Lilla Varga - Elçin Macar, DTCF Dergisi 62/2 (2022), s. 956, 963", teyit:"teyitli" }
+  kaynak:"Lilla Varga - Elçin Macar, DTCF Dergisi 62/2 (2022), s. 956, 963", teyit:"teyitli" },
+
+{ id:"macaristan-tomori-pal", devlet:"macaristan", tur:"yabanci-komutan", ad:"Tomori Pál",
+  donem:"16. yüzyıl",
+  not:"Fransisken tarikatına girmeden önce iyi bir askerdi. 1523'te Kalocsa başpiskoposu olunca güney savunmasını örgütlemek ona düştü. Kısa süre sonra Sirem'de iki çarpışmada Ferhad Paşa'nın kuvvetlerini yendi. Belgrad'ın kaybından sonra Titel, Szalánkemén ve Petervaradin'in top ateşine karşı güçlendirilmesini sağladı. 1526 seferinde yaklaşık 4.000 kişilik birliği az geldiği için Petervaradin'in düşüşünü Tuna'nın öbür kıyısından izlemek zorunda kaldı.",
+  kaynak:"Ferenc Sebők, Chronica 2 (2002), s. 61-62", teyit:"teyitli" },
+
+{ id:"macaristan-kossuth-lajos", devlet:"macaristan-habsburg", tur:"siyasi", ad:"Lajos Kossuth",
+  donem:"19. yüzyıl",
+  not:"1848'de muhalefetin önderi olarak ayrıcalıkların ve köylülerin ağır yüklerinin kaldırılmasını, basın özgürlüğünü ve anayasal hükûmeti savundu; ilk Macar kabinesinde maliye bakanı oldu. 1849 yenilgisinden sonra Osmanlı Devleti'ne sığındı. Önce Vidin'de kaldı; mülteci önderleri sonradan Kütahya'da zorunlu ikamete alındı. Avusturya'nın itirazlarına karşın serbest bırakıldı ve Ekim 1851'de İngiltere'ye ulaştığında Osmanlı konukseverliğini övdü.",
+  kaynak:"Abdullah Saydam, Belleten 61/231 (1997), https://belleten.gov.tr/tam-metin/2428/tur", teyit:"teyitli" }
 
 ];
