@@ -1753,3 +1753,64 @@
 - olay | OLAYLAR_2S_0919:1384-01-01:0 | d: Latin harfli kişi adı
 - olay | OLAYLAR_2S_0919:1410-01-01:0 | d: Latin harfli kişi adları
 - olay | OLAYLAR_2S_0919:1522-01-01:0 | d: Latin harfli kişi adı
+- arayuz | # Temmuz # (ÇELİŞKİ-#: TDV «Timişvar» # Şaban # = # Temmuz #'de garnizonun teslim olduğunu yazar; TDV «Kara Ahmed Paşa» #/# Temmuz der; Losonczy'nin kaleden çıkışı # Temmuz (olaylar_ek# Macar kaynağı) — iki gün de TDV içinde geçer, bağımsız ikinci akademik kaynak okunmadı, gün korundu) | m: yıl yanlış yerde
+- arayuz | # Temmuz # (ÇELİŞKİ-#: TDV «Timişvar» # Şaban # = # Temmuz #'de garnizonun teslim olduğunu yazar; TDV «Kara Ahmed Paşa» #/# Temmuz der; Losonczy'nin kaleden çıkışı # Temmuz (olaylar_ek# Macar kaynağı) — iki gün de TDV içinde geçer, bağımsız ikinci akademik kaynak okunmadı, gün korundu) | m: duzeltme_002'deki sürümün yerine geçer: 9'dan çok sayı olduğundan indeksli ve düz '#' karıştırılamaz, hepsi sıralı
+- olay | OLAYLAR_ARKEOLOJI_D2_AFRIKA_AMERIKA:-0999-01-01:0 | b: ラテン文字のままの地名
+- olay | OLAYLAR_GEZGINLER:1579-06-17:0 | d: 日本語の助詞の誤り
+- olay | OLAYLAR_GEZGINLER:1580-08-01:0 | d: 地名がローマ字のまま未翻訳
+- olay | OLAYLAR_GEZGINLER:1645-01-01:0 | d: トルコ語人名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1648-01-01:0 | b: 地名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1648-01-01:0 | d: 地名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1663-01-01:0 | b: トルコ語人名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1663-01-01:0 | d: トルコ語人名・地名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1664-01-01:0 | d: トルコ語人名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1671-01-01:0 | b: トルコ語人名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1671-01-01:0 | d: トルコ語人名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1720-10-07:0 | b: トルコ語人名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1720-10-07:0 | d: トルコ語人名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1721-03-21:0 | d: 地名がローマ字のまま
+- olay | OLAYLAR_GEZGINLER:1721-10-08:0 | d: 書名がトルコ語のまま
+- olay | OLAYLAR_GEZGINLER:1769-09-19:0 | b: トルコ語表記の地名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1769-09-19:0 | d: トルコ語表記の地名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1770-01-10:0 | b: 地名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1770-01-10:0 | d: 地名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1772-02-01:0 | b: 人名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1774-10-28:0 | b: 人名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1776-07-11:0 | d: 人名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1777-11-02:0 | d: 人名・地名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1779-04-28:0 | d: 人名・地名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1780-10-04:0 | d: 人名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1783-01-01:0 | b: 人名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1803-12-07:0 | b: 人名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1811-11-05:0 | b: 人名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1813-05-11:0 | b: 人名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1814-03-02:0 | b: トルコ語表記の地名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1814-03-02:0 | d: トルコ語表記の地名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1818-05-28:0 | b: 人名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1820-01-01:1 | b: トルコ語表記・未翻訳の地名
+- olay | OLAYLAR_GEZGINLER:1820-01-01:1 | d: トルコ語表記・未翻訳の地名
+- olay | OLAYLAR_GEZGINLER:1820-01-01:2 | b: トルコ語表記・未翻訳の地名
+- olay | OLAYLAR_GEZGINLER:1820-01-01:2 | d: トルコ語表記・未翻訳の地名
+- olay | OLAYLAR_GEZGINLER:1820-01-01:3 | b: 地名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1820-01-01:3 | d: 地名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1820-10-31:0 | b: 地名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1820-10-31:0 | d: 地名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1821-01-01:0 | b: 地名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1821-01-01:0 | d: 地名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1824-10-02:0 | b: 人名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1828-03-23:0 | b: 地名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1828-03-23:0 | d: トルコ語表記の地名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1828-05-04:0 | b: トルコ語表記の地名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1828-05-04:0 | d: トルコ語表記の地名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1828-07-23:0 | b: トルコ語表記の地名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1828-07-23:0 | d: トルコ語表記の地名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1846-01-01:1 | b: 人名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1855-08-11:0 | b: 人名Phayreの音写誤り
+- olay | OLAYLAR_GEZGINLER:1866-06-05:0 | b: 人名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1871-03-09:0 | b: ön gezi=予備旅行
+- olay | OLAYLAR_GEZGINLER:1885-06-30:0 | b: トルコ語表記の地名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1885-06-30:0 | d: トルコ語表記の地名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1885-08-28:0 | b: トルコ語表記の地名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1885-08-28:0 | d: トルコ語表記の地名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1887-05-01:0 | d: istasyon burada駐在所; 鉄道駅ではない
+- olay | OLAYLAR_GEZGINLER:1887-06-28:0 | d: istasyon burada駐在所; 鉄道駅ではない

@@ -77,6 +77,25 @@
 - olay OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1122-11-19:0: "yeğenleri Süleyman Halep'te" bozuk (yeğeni).
 - olay OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1130-01-01:0: "Ani'yi kuşatmanın ardından Ani'yi geri alan" bozuk anlatım.
 
+== tr_hatalari_e.md
+- olay OLAYLAR_ANTIK_AKDENIZ:0106-01-01:0: TR.d sonunda çift nokta ve noktasız cümle birleşmesi ("bağlandı Savaşın ... maddelerdedir..").
+- olay OLAYLAR_ANTIK_AKDENIZ:-0263-01-01:1: TR.d ilk cümle bozuk ("Mamertinlerin Messana'sını ... isteyince").
+- olay OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1131-01-01:0: TR.d'de aksansız "katilir" ve İtalyanca ham alıntı + "Treccani DBI" kaynak notu görünüyor; 1136-01-01:0 "Dükalik" aksansız.
+- olay OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1205-01-01:0: "Dördüncü Haçlı Seferi'nden yirmi yıl sonra" (1204 seferi; 1205 ile çelişiyor).
+- olay OLAYLAR_2S1019:1439-08-27:0, 1458-08-06:0, 1459-06-20:0 ve FRANSA_KONTROL 1481-12-11:3, NAPOLYON_ITALYA 1128 (2-4): "atlasta abi merkez ...", "abi merkez" iç metodoloji dili kullanıcıya görünüyor.
+- olay OLAYLAR_LAB19_2S_P1:0613-05-12:0 ve 0780-12-02:0: "Atlasın ... künyesi" iç not.
+- olay OLAYLAR_LAB19_2S_P6:1944-10-20:0: TR.b "Kızıl Ordu'since" yazım hatası.
+- olay OLAYLAR_LAB19_BOS_1119_SIBIRYA:1630-01-01:0: TR.b'de Kiril "ясак".
+- olay OLAYLAR_AVMAC_A_1029:0822-01-01:0: "(BOŞLUK BEYANLI)" / "beyanlı boşluk" iç not; 1180-01-01:0 "künyede ... anılır"; 1523 (AVUSTURYA_MACAR_1027) "yarım hâkimiyet beyanlıdır (gün bulunamadı)".
+- olay OLAYLAR_AVMAC_C_1029 (1918-11-13, 1918-11-16, 1919-03-21, 1945-07-09, 1949-08-20, 1956-10-23, 1995, 2004): "macaristan-naiplik", "macaristan-halk", "avusturya-ikinci-cumhuriyet", "macaristan-cumhuriyeti" iç kimlikleri; "haritada zincirler ... döner", "motor dondurma: yeni BOYALAR anahtarı eklenmedi", "künye".
+- olay OLAYLAR_AVMAC_FINAL_1029:1703-01-01:0: "(borç)" iç not.
+- olay OLAYLAR_FRANSA_KONTROL_1027: 1284 "künye t"; 1348-06-09 "Yerleşim kaydı bu sınırı taşıyordu; madde eksikti"; 1360 "ingiltere" küçük harf; 1388 "Atlas bu sınırı zaten taşıyordu; madde eksikti"; 1589 "solenn".
+- olay OLAYLAR_NAPOLYON_ITALYA_1028: "bilgi kutusu" (1800-06-04, 1849-08-22), "Vikipedi 2 Temmuz" (1849-07-03), "okunmadı", "künye f 1143" (1143), "ikincil" (1128), "abi merkez".
+- olay OLAYLAR_P0068:1788-09-21:0: "ek okuma: karsi-karansebes-1788" iç kimlik; 1789-10-13: "okunan dört TDV maddesi" iç not; P0068B:1789-09-22: "TDV ismail / akkirman maddesi", "haritada ayrıca gösterilmez".
+- olay OLAYLAR_P0917KOSU13:1731-11-15:0: "TDV hoy", "beyanlı yaklaşıklık" iç not; 1387-01-01 "kişi yazılmadı", 1415 "aralığın en geç ucuyla yazıldı".
+- olay OLAYLAR_DUNYA_BOLGE_1109:1917-03-15:0: "bkz. [[rusya-gecici-hukumet]], [[sovyet-rusya]]" wiki bağlantı sözdizimi/iç kimlik (arayüzde işlenip işlenmediği doğrulanmalı).
+- olay OLAYLAR_GEZGINLER:1522-09-06:0: "(sayı genel bilgi)" iç not; 1580-08-01 "Cochrane özeti"; 1557 vb. güzergâh adları tek biçimli değil.
+
 == tr_hatalari_f.md
 - olay OLAYLAR_EK15:1659-01-01:0 : TR açıklamada tırnaklar çift kaçışlı (ekranda \" görünebilir)
 - olay OLAYLAR_EK15:1337-09-09:0 : TR açıklamada tırnaklar çift kaçışlı (ekranda \" görünebilir)

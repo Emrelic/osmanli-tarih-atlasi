@@ -24,6 +24,13 @@
 - "TDV「Gırnata」", "TDVのİbnü'l-Havvâs項", Latin harfli eser/madde adları kaynak atfı sayılıp bırakıldı.
 - Yazım tutarsızlığı: アレグザンダー3世 / アレクサンダー3世 (1266 İskoçya kayıtları); düzeltilmedi.
 
+== notlar_e.md
+- SİSTEMİK (4_olay_189-192, OLAYLAR_GEZGINLER 1586 sonrası ve özellikle 1769-1904): güzergâh başlık/açıklamalarında Afrika, Avustralya, Güney Asya, Tibet ve Amerika yer adlarının çoğu Latin harfiyle bırakılmış (Pisania, Kazeh, Ujiji, Moorundie, Gyantse vb.) ve bazı kişi adları da Latin. Türkçe özel biçimler (Işim, Açinsk, Sevâkin, Şendi, Masavva, Sicilmâse, Cenne, Paşa adları) ve yaygın adlar düzeltildi; kalan belirsiz yer adlarının katakanaya çevrilmesi ayrı bir karar/tur ister (yanlış okunuş riski).
+- GEZGINLER'de güzergâh kalıbı iki biçimde: "行程：...旅の全体は地図上に旅程線として示される" ve "経路:...旅程の全体は地図上に旅行線として表示される". Zevk meselesi sayıldı, değiştirilmedi.
+- TDV, EoU, ESBE, Treccani, Hall, Harvey gibi kaynak adları Latin harfiyle bırakıldı (atıf).
+- "künye" JA'da bazı kayıtlarda "紋章データ/紀要" olarak çevrilmişti; okunan aralıkta düzeltildi. Daha önce okunan paketlerde de aynı hata aranmalı (grep: 紋章データ).
+- "兄貴分の中心" ("abi merkez") okunan aralıkta "中心拠点" yapıldı; diğer paketlerde de aranmalı (grep: 兄貴分).
+
 == notlar_f.md
 - OLAYLAR_EK22:1923-07-24:0 (d), uygulanmadı (alan çok uzun): "ローザンヌはカピチュレーションを廃止し、債務を分担させ、独立した軍の制限は置かない" içinde「独立した軍の制限は置かない」→「軍備に関する別個の制限は設けない」olmalı ("ayrı bir ordu kısıtı"). Birleştirmede alt dize değiştirmesiyle uygulanabilir.
 - TDV madde başlıkları (Latin harfli "TDVの…項") önceki turların kararına uyularak bırakıldı.
