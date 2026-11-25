@@ -200,6 +200,115 @@ window.EKOKUMA_DEVVENEDIK03 = [
     "■ KAYNAK NE KADARINI SÖYLÜYOR\nYaşamöyküsü Querini'de içten gelen bir özgürlük ve aykırılık eğilimi görür, sonraki yıllarında Aydınlanma çevreleriyle yakınlığını da anlatır. Düzelticilerle ilgili bütün önerileri tek tek aktarmaz; bu yüzden kart yalnız genel sonucu veriyor.",
   kesinlik:"kesin",
   kaynak:"Giuseppe Trebbi, \"Querini, Angelo\", Dizionario Biografico degli Italiani c. 86 (2016), treccani.it/enciclopedia/angelo-querini_(Dizionario-Biografico)/",
-  ic_not:"KRONOLOJİ UYUŞMAZLIĞI: bağlanan madde 1755-01-01 günlü; kaynak tutuklamayı 12-13 Ağustos 1761'e, Correzione'yi 1761-62'ye koyar; 1755 yılında Querini'ye ilişkin böyle bir olay yazmaz (1758'de Avogaria'ya ilk seçilişi). Maddenin günü 1761 olmalı." }
+  ic_not:"KRONOLOJİ UYUŞMAZLIĞI: bağlanan madde 1755-01-01 günlü; kaynak tutuklamayı 12-13 Ağustos 1761'e, Correzione'yi 1761-62'ye koyar; 1755 yılında Querini'ye ilişkin böyle bir olay yazmaz (1758'de Avogaria'ya ilk seçilişi). Maddenin günü 1761 olmalı." },
+
+{ id:"venedik-sebep-kara-olum-1348", tur:"sebep-sonuc",
+  teyit:"teyitsiz", yayin_adayi:false,
+  ic_not_teyit:"Aktarım: bütün olgular Tenenti'nin bölümü üzerinden. Ölü ve nüfus rakamları okunmamış araştırmaya (bölümün 4. notu, Mueller) dayanır; Senato ve Büyük Konsey kararları arşiv belgelerinin aktarımıdır (bir bölümü Brunetti üzerinden); 'bütün şehir tek mezardı' sözü vakanüvis Lorenzo de' Monaci'den aktarmadır. Bu belge ve eserler okunmadı.",
+  baslik:"1348'de Venedik veba karşısında ne yaptı?",
+  olay:["1348-01-25|Kara Ölüm"],
+  kisa:"Konseyler toplanamayacak kadar eksildi, mezarlıklar doldu. Yine de devlet durmadı; hatta yas giysisini yasaklayacak kadar ileri gitti.",
+  metin:"Veba Venedik'e 1348'in ilk haftalarında denizden, şehrin sıkı ilişki içinde olduğu hastalıklı limanlardan birinden geldi. Mart sonundan önce resmî bir karşılığına rastlanmıyor.\n\n" +
+    "■ İLK ÖNLEMLER\n" +
+    "30 Mart'ta Büyük Konsey, kamu sağlığını koruyacak yolları araştırmak üzere üç kişilik bir kurul atadı. En acil iş biriken cesetlerdi. Lagündeki uygun yerlerde yeni mezarlıklar açıldı; çukurların en az beş ayak derin olması istendi. Mahalle görevlileri güçlendirildi, evler denetlendi, ölüyü kapı önünde yasa ve bağışa açma âdeti yasaklandı. Şehre gelen tekneler sıkı gözetime alındı, hastaların girmesi engellenmeye çalışıldı.\n\n" +
+    "■ BOŞALAN SIRALAR\n" +
+    "Haziran ortasında Büyük Konsey, kayıplar yüzünden bazı kurulların yeter sayıya ulaşamadığını, Onlar Konseyi'nin bile tam toplanamadığını kabul etti; 22 Haziran'da işleri Senato'ya bıraktı. 10 Haziran'da görevlilerin şehirden ayrılması sınırlandırıldı. Noterlerin ölmesi ya da kaçması yazı ve vasiyet işlerini aksattı; yerlerine yenileri atandı. 10 Temmuz'da senatörler şehrin salgından büyük ölçüde kurtulmuş göründüğünü yazdı.\n\n" +
+    "■ ŞEHRİ YENİDEN DOLDURMAK\n" +
+    "İş gücü ve denizci lazımdı. Bazı mahpuslar affedildi, sürgünlere dönüş yolu açıldı, dışarıdan gelen zanaatkârlar iki yıl boyunca loncalara ücretsiz alındı. Ailesiyle gelip en az iki yıl kesintisiz oturmayı üstlenenlere, şehir içi haklarını kapsayan yurttaşlık tanındı.\n\n" +
+    "7 Ağustos'ta Senato koyu renkli yas giysilerini, para cezası koyarak yasakladı; elli yaşını aşmış kadınlarla başka giysisi olmayacak kadar yoksul kadınlar bunun dışındaydı. Amaç, kederin yerine neşe getirmekti. Doğu limanlarına giden ticaret kadırgası seferleri de yüzyıl boyunca salgınlar yüzünden neredeyse hiç kesilmedi.\n\n" +
+    "■ KAÇ KİŞİ ÖLDÜ\n" +
+    "Kesin sayı bilinmiyor. Tarihçi Alberto Tenenti, en yeni araştırmalara göre bile 110-120 bin nüfus içinde kaybın 38 bin dolayı ile 70 bin dolayı gibi iki uzak rakam arasında belirsiz kaldığını yazar. Bir vakanüvis yıllar sonra bütün şehrin tek bir mezar olduğunu söyleyecekti.\n\n" +
+    "■ TARİHÇİLER BUGÜN NE DİYOR\n" +
+    "Tenenti'nin 1997 tarihli değerlendirmesine göre vebanın etkisi henüz her yönüyle ölçülemiyor. Resmî belgelerde ise çökmeyen, kendini yeniden toparlayan bir yönetim görünüyor. Bazı tarihçiler şehrin nüfus kaybını 1500 dolaylarına kadar kapatamadığını düşünür; Tenenti, sonraki salgınlar ayrıştırılmadan ilk darbenin payının ölçülemeyeceği uyarısını ekler.",
+  kesinlik:"tartismali",
+  kaynak:"Alberto Tenenti, \"Le 'temporali calamità'\", Storia di Venezia (Treccani, 1997), https://www.treccani.it/enciclopedia/le-temporali-calamita_(Storia-di-Venezia)/",
+  ic_not:"Kronoloji maddesinin günü 25 Ocak 1348; okunan bölümde bu tarih, G. Villani'ye dayanan DEPREMİN başlangıç günüdür; vebanın Venedik'e geliş günü verilmez ('1348'in ilk haftaları'). Karantina ve lazaretto bu bölümde 1348 için anlatılmıyor, yazılmadı. Mueller'in çalışmaları ve Senato kayıtları okunmadı. Bölümün sayfa numarası ham metinde yok." },
+
+{ id:"venedik-sebep-padova-carrara-1405", tur:"sebep-sonuc",
+  teyit:"teyitli", yayin_adayi:true,
+  ic_not_teyit:"Ganguzza Billanovich (DBI, Francesco Novello) ham tam metinden okundu; karta yalnız maddenin kendi anlatısı alındı. Maddedeki Pastorello ve Gatari alıntıları alınmadı.",
+  baslik:"Bir zamanlar göz yumduğu Padova beyini Venedik neden yok etti?",
+  olay:["1405-01-01|Padova"],
+  kisa:"1390'da şehrini geri alırken Venedik ona engel olmamıştı. On beş yıl sonra aynı adam Venedik'te bir hücredeydi.",
+  metin:"Francesco Novello da Carrara, Padova'nın son beyiydi. Babasının tahtı bırakmasıyla 1388'de başa geçti, ama aynı yıl Milano beyi Gian Galeazzo Visconti'nin ordusu karşısında şehri teslim etmek zorunda kaldı. Venedik o sırada Visconti'nin müttefikiydi.\n\n" +
+    "■ GERİ DÖNÜŞ\n" +
+    "Francesco gözetim altından kaçtı ve zorlu bir yolculukla Floransa'ya ulaştı. Venedik de artık Visconti'nin büyümesinden kaygılıydı. Görünürde tarafsız kaldı, ama Francesco'nun ilerleyişini durdurmak için somut bir şey yapmadı. Floransa'nın yardımı ve Venedik'in sessiz onayıyla Francesco 21 Haziran 1390'da Padova'ya girdi.\n\n" +
+    "■ ÇATIŞMANIN KÖKÜ\n" +
+    "Francesco küçük bir şehir devletiyle yetinmek istemiyor, daha geniş bir ülke kurmak istiyordu. 1402'de Gian Galeazzo ölünce fırsatın geldiğini düşündü. 1404'te müttefikleriyle Verona'ya yürüdü; kendi payına düşecek olan Vicenza ise 25 Nisan'da Venedik'e katılmayı seçti. Francesco mayısta Verona'yı da ele geçirdi.\n\n" +
+    "Venedik'in kesinlikle engellemek istediği buydu. Cumhuriyetin soylu yönetimi, karadaki iktisadî çıkarlarının güvencesini arka ülkenin parçalı kalmasında görüyordu.\n\n" +
+    "■ KUŞATMA\n" +
+    "25 Eylül 1404'te Francesco ve müttefiki Niccolò d'Este, Limena'da Venedik kuvvetlerini yendi. Başarı geçici oldu. Aralık sonuna doğru Venedik ordusu Padova kapılarındaydı. Mart 1405'te Este beyi barışa çekildi. Francesco'nun evlilik dışı kardeşi Giacomo da şehri Venedik'e teslim etmeyi gizlice üstlendi.\n\n" +
+    "Padova'da kıtlığa veba eklendi, şehir susuz kaldı. Floransa'dan gelen yardım sözü Francesco'yu son bir direnişe yöneltti. Sonunda 16 Kasım 1405'te şehri on gün içinde bırakmaya söz verdi; ertesi gece Venedik askerleri kapı nöbetçilerini kandırıp içeri girdi. Venedik Senatosu 22 Kasım'da Padova'nın teslimini kabul etti, Carrara elçilerini ise geri çevirdi.\n\n" +
+    "■ HÜCREDE SON\n" +
+    "Francesco ve oğlu Francesco, Venedik'in merhametine sığındı. Senato'da kimi Girit ya da Kıbrıs'a sürgün, kimi ömür boyu hapis önerdi. Tam o sırada, Francesco'nun Cumhuriyet'in gizli görüşmelerini öğrenmek için kurduğu casus ağı ortaya çıktı. Bu keşif, Carrara yandaşlarının komploları ve yeniden toparlanmaları tehlikesiyle birleşince Venedik sert bir karardan yana ağırlığını koydu. Francesco 17 Ocak 1406'da Onlar Konseyi'nin emriyle hücresinde boğduruldu. Hapisteki oğulları birkaç gün sonra aynı sonu paylaştı.\n\n" +
+    "■ KAYNAK NE KADARINI SÖYLÜYOR\n" +
+    "Biyografi bu sonu daha geniş bir dönüşüme bağlar: Verona'lı Scaliger'lerin ve Carrara'ların başaramadığı bölgesel devleti Venedik kurdu ve Padova'nın 3 Ocak 1406'daki törenli bağlılığıyla Anakara egemenliğini başlattı.",
+  kesinlik:"kesin",
+  kaynak:"M. Chiara Ganguzza Billanovich, \"Carrara, Francesco da, il Novello\", Dizionario Biografico degli Italiani c. 20 (1977), https://www.treccani.it/enciclopedia/carrara-francesco-da-il-novello_(Dizionario-Biografico)/",
+  ic_not:"Kronoloji maddesi 1405-01-01 (yıl hassasiyeti); kaynak: 16 Kasım söz, 22 Kasım Senato kabulü, 3 Ocak 1406 törenli bağlılık. 'Venedik Anakara egemenliğini başlattı' hükmü maddenindir; Venedik'in 1405 öncesi kara toprakları (Treviso) için ayrı kaynak okunmadı." },
+
+{ id:"venedik-kimdir-nicolo-canal-egriboz", tur:"kimdir",
+  teyit:"teyitli", yayin_adayi:true,
+  ic_not_teyit:"Ventura (DBI, Nicolò Canal) ve Kiel (TDV, Eğriboz) ham tam metinden okundu. Sanudo, Malipiero ve Babinger'e dayanan yargılar ile kayıp-sürgün sayıları alınmadı.",
+  baslik:"Eğriboz düşerken donanma neden bekledi? Hukuk doktoru amiral Nicolò Canal",
+  olay:["1470-07-12|Eğriboz'un"],
+  kisa:"Venedik filosu kuşatılan şehrin birkaç mil ötesine kadar geldi. Savunmacılar işaret verdi, bazı kaptanlar saldırmak istedi. Komutan demir attı.",
+  metin:"Eğriboz, 1470'e kadar Venedik'in Ege'deki en gelişmiş deniz üssüydü. Onu kurtarması beklenen donanmanın başındaki adam ise denizci değildi.\n\n" +
+    "■ KİMDİ\n" +
+    "1415'te Venedik'te doğan Nicolò Canal, Padova'da edebiyat ve hukuk okudu, iki doktora aldı. Floransa, Portekiz, İstanbul ve Fransa'da elçilik yaptı, Brescia'yı yönetti. Fransa görevi başarısız bitti. Ocak 1469'da Senato, şaşırtıcı bir kararla onu Ege'de Osmanlılarla savaşan donanmanın başkomutanlığına getirdi. Biyografisinin yazarına göre bu göreve hiç hazır değildi.\n\n" +
+    "■ AİNOS BASKINI\n" +
+    "Canal 14 Temmuz 1469'da Trakya'daki Ainos'u (Enez) ansızın vurdu. Çoğunluğu Rum ve Hristiyan olan halk, acımasız bir yağma ve ayrım gözetmeyen bir kıyımla karşılaştı; 2000 tutsak ve 200 Rum kadın Eğriboz'a götürüldü. Venedik o sırada bunu zafer diye kutladı.\n\n" +
+    "■ 1470 YAZI\n" +
+    "Haziran başında yüzü aşkın kadırgalık Osmanlı donanması denize açıldı. Canal'in 35 kadırgası onu uzaktan izlemekle kaldı; Osmanlı askeri 15 Haziran'da adaya çıktı. Fatih Sultan Mehmed'in komutasındaki kara ordusu da karşı kıyıya geldi ve boğaza bir gemi köprüsü kuruldu. Venedik filosu Girit'e çekildi, 28 Haziran'da oradan ayrıldı, yolda oyalandı ve adaya güneyden değil kuzeyden yaklaşarak zaman yitirdi.\n\n" +
+    "■ 11 TEMMUZ\n" +
+    "Şafakta savunmacılar filoyu gördü: 52 kadırga, bir büyük kadırga (galeazza), 18 gemi ve 20 binden fazla adam. Rüzgâr elverişliydi, hazırlıksız yakalanan Osmanlı gemileri dağınıktı. Biyografiye göre köprüyü yıkmak kolay olurdu. Canal ise şehre birkaç mil kala demirledi ve gün boyu kımıldamadı. Filoyu tehlikeye atmaktan çekiniyor, geride kalan kadırgaları beklemek gerektiğini söylüyordu; o gemilerin savaşmaya isteksiz olduğu belliydi. Antonio Ottobon adlı bir kaptan kadırgasıyla düşman gemilerinin arasından geçip limana girdi. Girit kadırgalarının komutanları tek başlarına saldırmayı önerdi. Canal, filo toplanmadan kimsenin kımıldamasını yasakladı.\n\n" +
+    "Fatih o gece son saldırıyı emretti. Venedik filosu şafakta demir aldığında şehir düşmüştü. Machiel Kiel, kuşatmayı uzun, sokak çatışmalarını şiddetli diye niteler.\n\n" +
+    "■ SONRASI\n" +
+    "Senato Canal'i görevden aldı. Zincire vurulup Venedik'e getirilen amiral yargılandı ve ömür boyu Portogruaro'da oturmaya mahkûm edildi. 1483'te öldü.\n\n" +
+    "■ KAYNAK NE KADARINI SÖYLÜYOR\n" +
+    "Biyografinin hükmü ağırdır: Canal'in yasağı şehrin kaderini belirledi. Aynı madde cezanın hayli hafif olduğunu, Onlar Konseyi'nin de bunu adaletle değil merhametle verilmiş bir karar diye savunduğunu aktarır.",
+  kesinlik:"kesin",
+  kaynak:"A. Ventura (maddede 'VVentura'), \"Canal, Nicolò\", Dizionario Biografico degli Italiani c. 17 (1974), https://www.treccani.it/enciclopedia/nicolo-canal_(Dizionario-Biografico)/ · Machiel Kiel, \"Eğriboz\", TDV İslâm Ansiklopedisi c. 10 (1994), s. 491-493, https://islamansiklopedisi.org.tr/egriboz",
+  ic_not:"Gün: Ventura 11 Temmuz şafağında filonun göründüğünü, son saldırının aynı gece yapıldığını, şafakta şehrin düşmüş olduğunu yazar (12 Temmuz ile uyumlu; '12 Temmuz' diye yazmaz). TDV yalnız 1470 verir. Maddede yazar imzası ham metinde 'VVentura'; ad baş harfi teyit edilmedi. Kapanıştaki Onlar Konseyi savunması maddenin aktardığı resmî cevaptır (papaya yanıt)." },
+
+{ id:"venedik-savas-agnadello-1509", tur:"savas-hikayesi",
+  teyit:"teyitli", yayin_adayi:true,
+  ic_not_teyit:"Pieri (DBI, Bartolomeo d'Alviano) ham tam metinden okundu; karta yalnız maddenin kendi anlatısı alındı.",
+  baslik:"Agnadello 1509: iki komutan, iki plan, tek bozgun",
+  olay:["1509-05-14|Agnadello"],
+  kisa:"Venedik ordusunun başındaki iki adam savaşın nasıl yapılacağında anlaşamıyordu. Artçı birlik saldırıya uğrayınca bu ayrılık sahaya çıktı.",
+  devlet:"venedik", taraf:["venedik","fransa"],
+  tarih_metin:"14 Mayıs 1509",
+  yer:"Agnadello; Venedik ordusu Treviglio topraklarından Pandino yöresine geçerken",
+  taraflar:[{ad:"Venedik",komutan:"Pitigliano kontu Niccolò Orsini (başkomutan), Bartolomeo d'Alviano (ikinci komutan)"},{ad:"Fransa",komutan:""}],
+  oncesi:"Bartolomeo d'Alviano 1455'te, büyük ihtimalle Todi'de doğmuş bir savaşçıydı. Küçük yapılı ve çelimsizdi, ama cüretli bir komutandı. 1508'de Cadore'de imparatorluk kuvvetlerini kuşatıp yok etti, ardından Pordenone, Gorizia, Trieste ve Fiume'yi aldı. Biyografisine göre bu parlak başarı Venedik gücünün doruğunu gösteriyor, aynı zamanda Cumhuriyet'e karşı Cambrai ittifakının birleşmesine yol açıyordu.\n\n1509'da Alviano ordunun ikinci komutanı, Pitigliano kontu ise başkomutanıydı. Alviano, Fransızlar Lombardiya'da toplanmayı bitirmeden Milano ülkesine girmek, orayı Fransa'ya karşı ayaklandırmak, bu cepheyi hızla sonuçlandırıp sonra imparatorluk güçlerine dönmek istiyordu. Pitigliano daha ihtiyatlı bir yolu doğru buluyordu: savunmada kalmak, arazi tahkimatından sonuna kadar yararlanıp Fransız hücumunu frenlemek ve uygun anda karşı saldırıya geçmek.",
+  akis:"14 Mayıs'ta Venedik ordusu Treviglio topraklarından Crema yöresindeki Pandino'ya doğru ilerlerken, Alviano'nun birliklerinden oluşan artçıya Fransız öncüsü saldırdı. Alviano düşmanı püskürttü. Ama temastan sıyrılacağına rakibin üstüne gitti ve Pitigliano'dan destek istedi; destek gelmedi. Piyadeleri Gaskonyalı atıcıları, hatta İsviçrelileri de geri attı. Sonunda çevrildiler ve yok edildiler. Yüzünden yaralanan Alviano esir düştü.",
+  sonuc:"Fransa kralı bu esirliğe o kadar önem verdi ki Alviano'yu dört yıl bırakmadı. Alviano tutsaklığında anılar yazdı; bunlardan bugüne bir şey kalmadı. 1513'te Venedik ile XII. Louis ittifak kurunca serbest kaldı ve Venedik ordusunun başkomutanı oldu. 1515'te Francesco I'in İsviçrelileri yendiği büyük savaşta Venedik süvarisiyle sonucun dönmesinde rol oynadı; aynı yılın ekiminde hastalanarak öldü.",
+  tartisma:"■ KAYNAK NE KADARINI SÖYLÜYOR\nBiyografiyi yazan Piero Pieri bozgunu iki komutanın görüş ayrılığının sonucu sayar. Alviano'nun genel çizgisini de aynı ölçüyle değerlendirir: başkomutan ile ikinci komutan birbirini anlayıp birlikte hareket ettiğinde büyük başarı geldi, uyum olmayınca Agnadello'da olduğu gibi yenilgi. Okunan madde iki ordunun mevcudunu ve kayıplarını vermez.",
+  kesinlik:"kesin",
+  kaynak:"Piero Pieri, \"Alviano, Bartolomeo d'\", Dizionario Biografico degli Italiani c. 2 (1960), https://www.treccani.it/enciclopedia/bartolomeo-d-alviano_(Dizionario-Biografico)/",
+  ic_not:"14 Mayıs 1509 kaynakla uyumlu. Fransız komutanın adı maddede verilmediği için boş. Pitigliano biyografisi ve 1960 sonrası literatür okunmadı; Pieri'nin hükmü tek yazarın görüşüdür. 1515 savaşı maddede Melegnano adıyla, 13-14 Eylül günleriyle geçer." },
+
+{ id:"venedik-sebep-ferrara-savasi-1482", tur:"sebep-sonuc",
+  teyit:"teyitli", yayin_adayi:true,
+  ic_not_teyit:"Dean (DBI, Ercole I) ve Russo (DBI, Roberto Sanseverino d'Aragona) ham tam metinden okundu; karta yalnız maddelerin kendi anlatısı alındı. Dean'in Frizzi'ye ve vakanüvise dayandırdığı bahisler ile Russo'daki belge alıntıları alınmadı.",
+  baslik:"Tuz, sınır ve bir papa: Venedik Ferrara'ya neden savaş açtı?",
+  olay:["1482-05-03|Ferrara Savaşı"],
+  kisa:"Anlaşmazlıkların çoğu eskiydi ve görüşmeyle çözülebilirdi. Bu kez masaya başka hesaplar da kondu. Savaşın sonunda Polesine Venedik'te kaldı.",
+  metin:"Savaşın neden patladığını anlamak kolay değil: Ferrara dükü I. Ercole'nin biyografisini yazan Trevor Dean böyle uyarır.\n\n" +
+    "■ BİRİKEN ŞİKÂYETLER\n" +
+    "Venedik, Comacchio'daki yasa dışı tuz üretiminden, Rovigo Polesine'sindeki sınır sorunlarından, ticaret anlaşmalarının çiğnenmesinden ve Ferrara'daki temsilcisine kötü davranılmasından yakınıyordu. Ercole ise Venediklilerin Ferrara'da aşırı dokunulmazlıklardan yararlanmasından, kaçakçılık takibinin sertliğinden ve Ferrara mallarına konan vergilerden şikâyetçiydi. Dean'e göre bu sorunlar önceden de çıkmıştı ve siyasî irade olsaydı yine görüşmeyle çözülebilirdi.\n\n" +
+    "■ DEĞİŞEN İTTİFAKLAR\n" +
+    "Ercole, Napoli Kralı Ferrante'nin kızıyla evlenerek eski dost Venedik'ten uzaklaşmıştı. 1480'de Venedik papayla ittifak kurdu; Ferrara karşı kampta, Floransa, Milano ve Napoli'nin yanında kaldı. Çözümü engellemekte Venedik'in yeni müttefiki Papa IV. Sixtus'un, daha doğrusu yeğeni Girolamo Riario'nun belirleyici payı oldu. Ferrara papalık devletine bağlı bir şehirdi. Dean, Napoli'ye karşı yardım karşılığında papanın desteği olmasaydı Venedik'in böyle bir şehre savaş açmayacağını açık sayar.\n\n" +
+    "■ SAVAŞ\n" +
+    "Venedik daha Kasım 1481'de Polesine içine küçük tahkimatlar kurdu. 3 Nisan 1482'de deneyimli komutan Roberto Sanseverino'yu hizmetine aldı. Mayısta papa Venedik'e Ferrara'yı topraklarına katmasını önerdi. Sanseverino Po'yu hızla geçip Ercole'yi hazırlıksız yakaladı. Ficarolo bir aydan uzun direndi ve 30 Haziran'da düştü. Rovigo ağustosta alındı. Bu arada sıtma askerler arasında yayıldı, Sanseverino da ağır hastalandı. Ferrara'da ise veba görüldü, Ercole yatağa düştü.\n\n" +
+    "Kasımda Venedik kuvvetleri Po'yu aşıp neredeyse şehir kapılarına kadar akınlar yaptı. Kışın denge değişti: papa Venedik'i bırakıp karşı ittifaka katıldı, Ferrara'ya yardım geldi. Savaş Lombardiya'da açılan ikinci cepheye kaydı.\n\n" +
+    "■ BAGNOLO\n" +
+    "Gizli görüşmeler başlayınca Ferrara'nın müttefikleri arasındaki dayanışma çözüldü. Birbiriyle de anlaşamayan Ludovico Sforza ile Calabria dükü, Venedik'in işgal ettiği her yeri geri vermesinde diretmedi. 7 Ağustos 1484'te Bagnolo'da yapılan barış Venedik'e Polesine'yi elinde tutma ve Ferrara'daki bütün ayrıcalıklarını onaylatma imkânı verdi.\n\n" +
+    "■ KAYNAK NE KADARINI SÖYLÜYOR\n" +
+    "Dean sonucu Ercole için gerçek bir felaket sayar: toprak kaybı, özellikle Modena ve Reggio'dan kıtlığın yol açtığı kitlesel göç, tahrip olan mal ve ekinler, ağır borç ve enflasyon. Venedik içindeki savaş tartışmaları bu iki biyografide anlatılmaz.",
+  kesinlik:"kesin",
+  kaynak:"Trevor Dean, \"Ercole I d'Este\", Dizionario Biografico degli Italiani c. 43 (1993), https://www.treccani.it/enciclopedia/ercole-i-d-este-duca-di-ferrara-modena-e-reggio_(Dizionario-Biografico)/ · Alessio Russo, \"Sanseverino d'Aragona, Roberto\", Dizionario Biografico degli Italiani c. 90 (2017), https://www.treccani.it/enciclopedia/roberto-sanseverino-d-aragona_(Dizionario-Biografico)/",
+  ic_not:"Kronoloji maddesinin günü 3 Mayıs 1482; okunan iki madde bu günü vermez (Russo: 'mayıs başında Po geçildi'; Dean: papanın önerisi Mayıs 1482). Russo barışı 'Ağustos 1484', Dean 7 Ağustos verir. Rovigo için Russo parantezde 14 Ağustos yazar; karta yalnız ay yazıldı çünkü cümle yapısı günün neyi tarihlediği konusunda tek tanık." }
 
 ];
