@@ -94,3 +94,19 @@
 - olay OLAYLAR_KURULUS_GERI_1021:0945-12-19:0, 0661-07-29:0/1, 0750-08-05:0, 0972-10-02:0, 1085-05-25:0: iç not ("gün komşudan alındı", "kayıtta ayrı yazılmadı", "künye f'sinden", "kuyruk kronolojide ...").
 - olay OLAYLAR_ORTACAG_ORTADOGU:0680-01-01:0 ve 0680-10-10:0: başlık alanı açıklamanın tamamı (b = d).
 - olay OLAYLAR_T5_1000A:* "(atlas bu tarihten önceyi boş bırakır)" kalıbı iç not niteliğinde.
+
+== tr_hatalari_d.md
+- olay OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1115-07-24:0: d alanında kullanıcıya görünen iç veri var: `(kesinlik: {"f": "yuzyil", "t": "gun"}) Ayrıca 'Matilde di Canossa' https://www.treccani.it/...` (Arapçaya da aynen geçmiş; çeviride düzeltilmedi)
+- olay OLAYLAR_ORTACAG_ORTADOGU:0820-06-17:0: d "Bu tarihle atlastaki San'a boşluğu (815-820) biter" iç atlas notu
+- olay OLAYLAR_ORTACAG_ORTADOGU:0870-08-29:0, 0929-02-14:0, 1076-08-05:0 (ayrıca "Uyûnîler künyesiz"), 1102-05-22:0 ("BEYANLI YAKLAŞIKLIK"): d'de iç atlas notu
+- olay OLAYLAR_ORTACAG_IRAN_TURAN:0943-04-06:0, 1035-06-29:0, 1092-11-19:0 ("gün TDV'de yok"): kaynak/iç not parantezi
+- olay OLAYLAR_ORTACAG_IRAN_TURAN:1090-03-06:0: d'de "Melikşah Bâtınîlerle mücadeleyi devlet politikası..." cümlesi iki kez yineleniyor
+- olay OLAYLAR_ORTACAG_IRAN_TURAN:1219-01-01:0: d "Atlasta Hucend Moğol sahipliği 1219'dan başlar" iç not
+- olay OLAYLAR_ORTACAG_IBERYA_MAGRIB:1085-05-08:0, 1094-06-15:0, 1102-05-05:0; OLAYLAR_ORTACAG_BOZKIR:0895-03-02:0; OLAYLAR_ORTACAG_BATI_AVRUPA:0858-02-13:0: d'de "Atlasta ... künyesinden/kaydına" iç notu
+- olay OLAYLAR_ORTACAG_IBERYA_MAGRIB:1156-01-01:0; OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1038-01-01:1, 0966-01-01:0, 1000-01-01:1, 1096-01-01:0, 1241-01-01:1 ("gün bilinmiyor, yıl esas"), 1056-01-01:1 ("(yıl)"), 1150-01-01:0 ("Sefer yılı kaynakta belirtilmiyor"): kaynak/iç not görünüyor; 1000-01-01:1 d'de İsveççe/Norveççe alıntı ham
+- olay OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1000-01-01:0: d "(arşiv ve piskoposluklar)": büyük olasılıkla "başpiskoposluk"
+- olay OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:0980-01-01:0: b "öldürtü" -> "öldürttü"
+- olay OLAYLAR_ORTACAG_ORTADOGU:0754-01-01:0: "Mansûr halife oldu; hilâfetin esas kurucusu sayılan dönem başladı" anlam bozuk (dönem değil, Mansûr kurucu sayılır)
+- olay OLAYLAR_ORTACAG_CIN:0907-06-01:0: d "...imparator olarak tahta çıktı; " ile yarım bitiyor
+- olay OLAYLAR_ORTACAG_CIN:0640-10-11:0, 0756-07-14:0, 0994-03-01:0, 0842-01-01:0, 1127-05-13:0, 1129-02-23:0: d'de ham Çince karakterler (癸卯, 甲午, 己巳, 丁巳, 戊辰, 將作少監)
+- olay OLAYLAR_ORTACAG_CIN:0821-01-01:0: b "antlaşması Chang'an'da yemin edildi" bozuk Türkçe

@@ -448,3 +448,39 @@
 - olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1225-01-13:0 | d: Yanlış anlam: askeri sultan değil kral gönderecek; 'çarkçı' mancınıkçı değil arbaletçi
 - olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1251-01-01:0 | b: Dilbilgisi bozuk: tekil ada ikil sıfat cümlesi
 - olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1260-01-01:0 | b: Ad yanlış harfle; açıklamadaki 'قرا أرسلان' ile tutarsız
+- olay | OLAYLAR_OK109:1919-11-27:0 | d: Cümle bozuk, anlamsız
+- olay | OLAYLAR_OK109:1919-11-27:0 | d: bozuk cümle; TR'de olmayan Latin harfli parantezler
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:0883-07-11:0 | b: Yanlış özel ad: Elyesa' = اليسع (İlyâs değil)
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:0883-07-11:0 | d: Yanlış özel ad: Elyesa' = اليسع
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1029-01-01:0 | b: Farsça harf (چ)
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1029-01-01:0 | d: Farsça harf (چ)
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1109-07-31:0 | d: Farsça harf; ad tutarlılığı
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1113-06-18:0 | d: Farsça harf; ad tutarlılığı
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1130-01-01:0 | b: Farsça harf; ad tutarlılığı
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1130-01-01:0 | d: Farsça harf; ad tutarlılığı
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1166-01-01:0 | b: Lakap 'على ذكره السلام'; 'علي' kişi adı gibi okunuyor
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1166-01-01:0 | d: Lakap yanlış harfle
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1206-06-25:0 | d: Farsça harf (چ)
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1210-11-04:0 | b: Farsça harfler; Arapçada çevgân = الصولجان
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1210-11-04:0 | d: Farsça harfler; çevgân = الصولجان
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1227-01-01:0 | b: 'Pay edildi' tek kişiye ayrılma; 'توزع على' dağıtım anlamı veriyor
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1227-01-01:0 | d: 'Pay edildi' tek kişiye ayrılma
+- olay | OLAYLAR_ORTACAG_BOZKIR:0985-01-01:0 | d: Fiil-özne cinsiyet uyumu
+- olay | OLAYLAR_ORTACAG_CIN:0979-08-01:0 | b: Youzhou öteki maddelerde 'يوتشو'; yanlış yazım
+- olay | OLAYLAR_ORTACAG_CIN:0979-08-01:0 | d: Youzhou yazımı tutarsız/yanlış
+- olay | OLAYLAR_ORTACAG_DOGU_GUNEYDOGU_ASYA:1181-01-01:0 | b: edilgen fiil; harekesiz-şeddeli yazım 'taç giydirdi' okunuyor
+- olay | OLAYLAR_ORTACAG_DOGU_GUNEYDOGU_ASYA:1181-01-01:0 | d: edilgen fiil
+- olay | OLAYLAR_ORTACAG_DOGU_GUNEYDOGU_ASYA:1269-10-29:0 | d: fiil biçimi hatalı
+- olay | OLAYLAR_ANTIK_MISIR_NUBYA:-0167-01-01:0 | d: anlam ters/bulanık: 'Roma korumasıyla kaybetmeden' gibi okunuyor
+- olay | OLAYLAR_ANTIK_MISIR_NUBYA:-0311-01-01:0 | d: çifte 'أمام'
+- olay | OLAYLAR_ANTIK_MISIR_NUBYA:-0522-01-01:0 | d: 'uzun ömürlü' yanlış çevrilmiş
+- olay | OLAYLAR_ANTIK_MISIR_NUBYA:-0569-01-01:0 | d: bozuk cümle
+- olay | OLAYLAR_ANTIK_MISIR_NUBYA:-0662-01-01:0 | d: fiil uyumu
+- olay | OLAYLAR_ANTIK_MISIR_NUBYA:-1208-01-01:0 | d: yarım/bozuk cümle
+- olay | OLAYLAR_ANTIK_MISIR_NUBYA:-1293-01-01:0 | d: özne-fiil uyumsuzluğu
+- olay | OLAYLAR_ANTIK_MISIR_NUBYA:-1456-01-01:0 | d: 'سلمت' = kurtuldu; TR 'teslim oldu'
+- olay | OLAYLAR_ANTIK_MISIR_NUBYA:-2054-01-01:0 | d: bozuk anlatım
+- olay | OLAYLAR_ANTIK_MISIR_NUBYA:-2279-01-01:0 | d: anlamsız 'تسلطه'
+- olay | OLAYLAR_ANTIK_MISIR_NUBYA:-2559-01-01:0 | b: Keops adı kaybolmuş, Hufu tekrar edilmiş
+- olay | OLAYLAR_ANTIK_MISIR_NUBYA:-2559-01-01:0 | d: yanlış/bozuk: 'anlatı' 'hadis' olarak çevrilmiş
+- olay | OLAYLAR_ANTIK_MISIR_NUBYA:-2299-01-01:0 | d: bozuk cümle: ordu 'Güney Mısır'dan ibaret' gibi

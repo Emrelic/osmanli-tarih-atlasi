@@ -31,3 +31,9 @@
 - "طريق/نقاط" kalıbı: ZINCIR kayıtlarında "في نقاط ..." (noktalarında) motor dili; TR'den geliyor.
 - OLAYLAR_ARKEOLOJI_ZINCIR -0120 ve 0439: Zhangye için "غانزهو", diğer kayıtlarda "غانتشو" (tutarsız, küçük).
 - Yinxu için "يينشو" / "ينشيو" iki yazım.
+
+== notlar_d.md
+- Ay adları paketler arasında karışık: Levant (آب، أيلول), Mısır (أغسطس) ve çift biçim (أيلول/سبتمبر). Tek biçime çekmek toplu karar; değiştirilmedi.
+- Hâlâ Farsça harfli olabilecek yazımlar yalnız görülen kayıtlarda düzeltildi (پ, چ). Aralık dışındaki kayıtlarda محمد تاپار / أرپاد geçebilir; toplu tarama önerilir.
+- Bazı kayıtlarda TR'deki iç notlar ("وفي الأطلس تُسجَّل ...", TDV parantezleri, 1115-07-24 JSON) Arapçaya aynen geçmiş; TR düzelince Arapça da güncellenmeli.
+- 1005 / 1212 vb. başlıklarda üslup pürüzleri dışında zevk değişikliği yapılmadı.

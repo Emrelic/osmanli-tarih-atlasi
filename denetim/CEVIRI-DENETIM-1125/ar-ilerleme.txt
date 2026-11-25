@@ -17,4 +17,8 @@ Tamamen okunan: 4_olay_081 - 4_olay_115 (aralığın tamamı)
 Düzeltme dosyaları: duzeltme_c_001..006.jsonl
 
 == ilerleme_d.txt
-Tamamen okunan: 4_olay_116 - 4_olay_144 (29 paket)
+Tamamen okunan: 4_olay_116 - 4_olay_150 (35 paket, aralığın tamamı)
+
+== ilerleme_e.txt
+Tamamen okunan: 4_olay_151 - 4_olay_156
+Duzeltme: 16
