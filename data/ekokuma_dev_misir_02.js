@@ -81,6 +81,22 @@ window.EKOKUMA_DEVMISIR02 = [
  "kesinlik": "tartismali",
  "teyit": "teyitli",
  "ic_not": "Makalenin tamamı (s. 421-436) PDF metninden okundu. Karşı görüş Fahmy'nin aktardığı millî tarih yazımıdır; o eserler ayrıca okunmadı."
+},
+
+{
+ "id": "misir-kalavun-hastanesi",
+ "devlet": "memluk",
+ "tur": "sebep-sonuc",
+ "baslik": "Kalavun'un Kahire'de yaptırdığı hastane: Sadaka mı, siyaset mi, bilim mi?",
+ "kisa": "Sultan türbesinin yanına gözleri kamaştıracak bir hastane kurdurdu. Burada hem hasta bakılacak hem tıp okutulacaktı. Neden medreseyle yetinmedi?",
+ "metin": "Kalavun hastanesinin yeri için Kahire'nin kalbinde, Beynelkasreyn caddesinde eski bir Fâtımî sarayının arsasını seçti. Orada yaşayan Eyyûbî ailesinden kadınlara başka bir saray verildi. Külliyede sultanın türbesi, bir medrese ve yetimler için Kur'an mektebi de vardı. İnşaat 1284-1285'te başladı, 1285'te tamamlandı.\n\nVakıf senedine göre hastane, zengin ya da yoksul, kadın ya da erkek, bakıma muhtaç Müslümanlara açıktı; Kahire'den gelen de uzak diyarlardan gelen de yararlanabilecekti. Bu kapının bir sınırı vardı: Aynı senet Hristiyan ve Yahudilerin burada tedavi edilmesini de çalıştırılmasını da yasaklıyordu. Hastanede tıp da okutuluyordu. Başhekim aynı zamanda tıp kürsüsüne atandı; belirli saatlerde yerine oturup öğrencilere ders verecekti. İlk atanan Mühezzibüddin İbn Ebû Huleyka, yakın zamanda Müslüman olmuş bir hekimdi. Küçük kan dolaşımını tarif eden ünlü hekim İbnü'n-Nefîs de kitaplığını ve evini hastaneye bağışladı.\n\nSultan neden bu işe girişti? Bir anlatıya göre emirliği sırasında Suriye'de hastalanmış, Dımaşk'taki Nûreddin hastanesinden gelen ilaçla iyileşmiş, orayı görünce tahta çıkarsa benzerini yaptıracağına söz vermişti. Hikâyenin sonradan kurulup kurulmadığı bilinemiyor. Hayır işi halk desteği kazandırıyor, vakıf düzeni mülkü parçalanmaya ve el koymaya karşı koruyor, Kahire de İslâm dünyasının başkentine yaraşır bir kurum kazanıyordu.\n\nTarihçiler bugün ne diyor? Doris Behrens-Abouseif, vakıfta tek hekim öngörüldüğü için öğretimin önemli bir işlev olmadığı görüşündedir. Linda Northrup buna katılmaz: Vakıf ve atama belgelerine dayanarak tıp öğretiminin önemli bir amaç olduğunu savunur. Yine de sultanın kişisel niyetinin kesin olarak okunamayacağını söyler.",
+ "olay": [
+  "1284-01-01|Kalavun Külliyesi ve Mansûrî Bîmâristânı"
+ ],
+ "kaynak": "Linda S. Northrup, \"Qalāwūn's Patronage of the Medical Sciences in Thirteenth-Century Egypt\", Mamlūk Studies Review, c. 5, 2001, s. 119-140, https://doi.org/10.6082/M19Z931C",
+ "kesinlik": "tartismali",
+ "teyit": "teyitli",
+ "ic_not": "Makalenin tamamı (s. 119-140) PDF metninden okundu. Behrens-Abouseif görüşü Northrup'un 46. dipnotundan aktarılmıştır. TARİH: Northrup inşaatı H.683/1284-85 başlangıç, H.684/1285 bitiş verir; bağlanan madde 1284 tarihlidir, denetlenmeli. 'Yakın zamanda Müslüman olmuş': Northrup Baybars döneminde ihtida ettiğini yazar; s. 127'de de yeni ihtida etmiş diye anar."
 }
 
 ];
