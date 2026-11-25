@@ -113,7 +113,7 @@ Ceviri.ekle("ur","arayuz",{
 "# Ağustos # (Jülyen # Ağustos)":["# اگست # (جولین # اگست)", "fc365e96"],
 "# Ağustos # (Magosa'nın teslimi)":["# اگست # (Magosa کی حوالگی)", "e966223b"],
 "# Ağustos # (Rus takvimiyle # Temmuz)":["# اگست # (روسی تقویم کے مطابق # جولائی)", "3e7158fc"],
-"# Ağustos # (gün: Aktepe # s.#-#, Yörük-Valiyev #; Bilgili # fethi 'Nisan #'ten biraz önce'ye koyar)":["# اگست # (دن: Aktepe ص.#-#، Yörük-Valiyev #؛ Bilgili # کی فتح کو 'اپریل # سے کچھ پہلے' رکھتا ہے)", "fc840200"],
+"# Ağustos # (gün: Aktepe # s.#-#, Yörük-Valiyev #; Bilgili # fethi 'Nisan #'ten biraz önce'ye koyar)":["# اگست # (دن: Aktepe # ص.#-#، Yörük-Valiyev #؛ Bilgili # کی فتح کو 'اپریل # سے کچھ پہلے' رکھتا ہے)", "fc840200"],
 "# Ağustos # (kaynaklar #-# Ağustos verir)":["# اگست # (ماخذ #-# اگست بتاتے ہیں)", "708ffc97"],
 "# Ağustos # (kaynaklar #-# Ağustos)":["# اگست # (ماخذ #-# اگست)", "674f67a5"],
 "# Ağustos # (saldırı günü; JewishGen'e göre Kızıl Ordu üç gün içinde çekildi ⇒ #-# Ağustos arası, gün teyitsiz)":["# اگست # (حملے کا دن؛ JewishGen کے مطابق سرخ فوج تین دن میں پیچھے ہٹی ⇒ #-# اگست کے درمیان، دن غیر تصدیق شدہ)", "ec42b8e1"],
