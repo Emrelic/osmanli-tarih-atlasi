@@ -48,3 +48,9 @@
 - İç notların çevirileri («цепочка», «справка», macaristan-* kimlikleri, «(künye t)») TR kaynağı düzelince birlikte temizlenmeli; çeviride silinmedi.
 - «ПУСТОТА ОБЪЯВЛЕНА / объявленная пустота» (beyanlı boşluk): «объявленный пробел» daha doğal olur; bütün dildeki terim tutarlılığı için dokunulmadı.
 - Giurgiu için paket 214'te «Джурджу», paket 217'de tarihî «Журжа» kullanılıyor; ikisi de geçerli.
+
+== notlar_h.md
+- SİSTEMLİ HATA sürüyor (164-172): OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB'de Türkçe Latin adlar; ORTACAG_CIN, DOGU_GUNEYDOGU_ASYA, ANTIK_MISIR_NUBYA'da pinyin/Korece/Latin adlar. Bu aralıkta Kirile çevrildi (Çince: Palladius). Başka paketlerde de aynı dosyalar için Latin harf taraması gerekir.
+- Emin olunmayan transliterasyonlar: Цицзун Нунцзань, Сели-каган, Ильсан-гун, Йонджу/Ёнджу (Yong/Yeong), Сынхвахуу Он, Ван Сук (маркиз Чеан), Аньдэ Яньцзун, Эргенэ-хатун, Таруппьи, Триаконтасхойн, Чахар Дева, Булдак-Касир.
+- Korunanlar: «Cambridge History» (eser adı, 1189 ve 1192), «BCHP 11», TR'deki Çince karakterler, «Çernikov» alıntısı.
+- Önceki paketlerdeki yazımlarla (Алаэддин / Ала ад-Дин; Бехрам-шах) küçük tutarsızlık olabilir.

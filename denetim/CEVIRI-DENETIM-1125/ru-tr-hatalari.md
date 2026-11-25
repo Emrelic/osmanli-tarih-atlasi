@@ -135,3 +135,14 @@
 - olay OLAYLAR_GEZGINLER:1871-03-09:0: «on gezi» anlaşılmıyor.
 - olay OLAYLAR_GEZGINLER:1829-11-03:0, 1861-11-01:0, 1891-06-14:0: Türkçe harfler eksik (kavsagi, agzi, Golu, bati, gecis).
 - olay OLAYLAR_DIN_ISA_1120 ve OLAYLAR_DIN_MUHAMMED: «Tarihî kayıt» bölümleri sorun değil; hata yok.
+
+== tr_hatalari_h.md
+- olay OLAYLAR_ORTACAG_CIN:0907-06-01:0: TR d "…tahta çıktı; " ile bitiyor (cümle kesik, artık noktalı virgül). Çeviride noktayla kapatıldı.
+- olay OLAYLAR_ORTACAG_BOZKIR:1239-10-18:0: TR d kullanıcıya "(TDV'de 'Çernikov')" kaynak notu gösteriyor.
+- olay OLAYLAR_ORTACAG_CIN:0842-01-01:0: "Jiu Tang shu ölümün sebebini (suikast) yazmaz" araştırma notu havasında.
+- olay OLAYLAR_ORTACAG_CIN:0748-01-01:0: "Metne göre ..." — hangi metin olduğu belli değil (araştırma notu kalıntısı).
+- olay OLAYLAR_ORTACAG_CIN:0640-10-11:0 (ve 0756-07-14, 1129 maddeleri): TR metninde Çince gün işaretleri (癸卯, 甲午, 戊辰 ...) ve 0842'de 將作少監 kullanıcıya görünüyor; çeviride korundu.
+- olay OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1142-02-01:0: "kız kardeşi Yeh-lü-şe veya nâib Pu-su-wan" — Pusuwan'ın kendisi kız kardeş olarak bilinir; teyit edilmeli.
+- olay OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1178-01-01:0: "Çieng-tien (1164-1177)" Chengtian naibe (kadın) unvanıdır; "hükümdarı" ifadesi gözden geçirilmeli.
+- olay OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1221-01-01:0: "Oğlu Gıyâseddin Pîrşah" kimin oğlu olduğu belirsiz (Alâeddin Muhammed'in olmalı; cümle Barak'ınki gibi okunabilir).
+- olay OLAYLAR_ORTACAG_DOGU_GUNEYDOGU_ASYA:1185-12-21:1..3 ve 0929/0936 kopyaları: sondaki parantezli "(... uygulandığı bölge.)" notları iç etiket gibi görünüyor.
