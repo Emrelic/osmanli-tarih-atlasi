@@ -1,0 +1,30 @@
+// Ek okuma — Papalık Devleti, 1. parti
+window.EKOKUMA_DEVPAPALIK01 = [
+
+{ id:"papalik-bati-boluonmesi-1378", devlet:"papalik", tur:"sebep-sonuc",
+  baslik:"1378: Aynı kardinaller nasıl iki ayrı papa seçti?",
+  olay:["1378-04-08|VI. Urban"],
+  kisa:"Papalık Avignon'dan Roma'ya yeni dönmüştü. Aynı yıl kardinallerin çoğu, kendi seçtikleri papayı tanımadıklarını açıkladı ve karşısına ikinci bir papa çıkardı. Hangisinin meşru olduğu sorusu bugün bile kesin biçimde çözülmüş sayılmıyor.",
+  metin:"Papa XI. Gregorius, Avignon'da geçen onlarca yılın ardından 1376'da yola çıkarak papalık merkezini Roma'ya taşıdı. 27 Mart 1378'de öldü. Roma'da yaklaşık yüz yıl sonra ilk kez bir papa seçimi toplanıyordu. Seçime katılan on altı kardinalin on biri Fransız, dördü İtalyan, biri İspanyoldu. Dışarıda gürültülü bir kalabalık Romalı, hiç olmazsa İtalyan bir papa istiyordu.\n\n" +
+    "Seçilen kişi Bari başpiskoposu Bartolomeo Prignano oldu ve VI. Urban adını aldı. Papalık idaresinde yetişmiş, işini bilen biriydi, ama kardinal değildi. Dürüst ve katı olduğu kadar öfkeli ve sert de davranabiliyordu. Azarlamaları Fransız kardinallerin çoğunu kısa sürede küstürdü.\n\n" +
+    "Kardinaller Roma'dan ayrılıp Anagni'ye çekildi. 1378 Ağustosunda İtalyan olmayan kardinaller seçimi önce tartışmaya açtı, sonra baskı ve şiddet altında yapıldığı için geçersiz ilan etti. 21 Eylül'de Napoli Krallığı topraklarındaki Fondi'de on üç kardinal yeni bir seçim yaptı ve Cenevreli Robert'i VII. Clemens adıyla papa seçti. Urban ise yirmi beş yeni kardinal adayı göstererek kendi kurulunu yeniden oluşturdu.\n\n" +
+    "Böylece Avignon ve Roma'da iki papa, iki saray ve iki ayrı bağlılık alanı doğdu. Bölünmeyi dışarıdan bir güç değil, papayı seçen kurulun kendisi başlatmıştı. 1409'da Pisa Konsili iki papayı da azlettiğini açıklayıp yenisini seçti; azledilenler kararı tanımayınca sayı üçe çıktı. Çözüm Konstanz Konsili'nden geldi: 11 Kasım 1417'de seçilen V. Martinus herkesin tanıdığı tek papa oldu.\n\n" +
+    "Tarihçiler bugün ne diyor? Joëlle Rollo-Koster'e göre Roma kolunun mu Avignon kolunun mu meşru olduğu sorusuna kesin bir cevap verilmiş değil; İtalyan tarih yazımının ağır basmasıyla papa listeleri Roma kolunu sayıyor. Araştırmalar uzun süre krizi hukuk ve kurum sorunu olarak inceledi. Rollo-Koster ise buna, rakip papaların meşruluklarını törenlerle ve simgelerle nasıl sergilediğini inceleyen kültürel bir bakış ekliyor. Altta yatan gerilim olarak da kardinaller kurulu ile papaların büyüyen mutlak yetki iddiası arasındaki çekişmeyi gösteriyor.",
+  kaynak:"Joëlle Rollo-Koster, The Great Western Schism, 1378–1417, Cambridge University Press (ISBN 978-1-107-16894-7), Introduction, s. 1–3 ve 8; yayınevinin açık okuma parçası: https://assets.cambridge.org/97811071/68947/excerpt/9781107168947_excerpt.pdf",
+  kesinlik:"tartismali", teyit:"teyitli",
+  ic_not:"Okunan yalnız yayınevinin açık giriş parçasıdır (s. 1-10). Olayların akışı kesin; tartismali olan meşruiyet sorusudur." },
+
+{ id:"papalik-ii-pius-fatih-mektubu", devlet:"papalik", tur:"tartisma",
+  baslik:"Papa II. Pius Fatih'e neden imparatorluk unvanı önerdi?",
+  olay:["1458-08-19|Piccolomini"],
+  kisa:"Haçlı seferi için yıllarca uğraşan bir papa, 1461'de II. Mehmed'e hitaben uzun bir mektup yazdı: Hristiyan olursa onu Doğu'nun meşru imparatoru olarak tanıyacaktı. Mektubun yerine ulaşıp ulaşmadığı belli değil. Peki asıl okuru kimdi?",
+  metin:"1458'de papa seçilen II. Pius'un, yani hümanist yazar Enea Silvio Piccolomini'nin başlıca davası Osmanlılara karşı Haçlı seferiydi. 1459'da Mantova'da hükümdarları toplantıya çağırdı. Alınan savaş kararı sonraki üç yılda sonuç vermedi: Hristiyan hükümdarlar karşılık vermedi, istenen mali yardımı ödemekte de ayak sürüdüler.\n\n" +
+    "Pius 1461'in sonlarına doğru ünlü mektubunu kaleme aldı. Öneri şuydu: Sultan vaftiz olursa Papalık onu Doğu'nun Hristiyan imparatoru olarak tanıyacaktı. Metne göre biraz vaftiz suyu, Mehmed'i yaşayanların en güçlüsü ve en ünlüsü yapmaya yetecekti; zorla elinde tuttuğu topraklara da artık hakla sahip olacaktı. Papa, İmparator Konstantin'in din değiştirmesini hatırlatan bir tablo çiziyordu.\n\n" +
+    "Mektup yalnız bir teklif değildi. Hristiyan öğretisini özetliyor ve Kur'an'a dayanan inançları dönemin Hristiyan polemik geleneği içinde reddediyordu; din konusunda orta yol aramıyordu. Allah inancı ve ahiret gibi birkaç ortak noktayı kabul etse de karşısındakinden tam bir din değişikliği bekliyordu. Batılı hükümdarların Haçlı çağrısına sağır kalmasından duyduğu bezginlik de satırlara yansıyordu.\n\n" +
+    "Mektubun Mehmed'e gerçekten ulaştırılıp ulaştırılmadığı kesin değildir. Papanın yaşam öykücüleri Platina ve Campano ondan söz eder. Metin ise Pius'un 1464'teki ölümünden yaklaşık on yıl sonra basıldı.\n\n" +
+    "Tarihçiler bugün ne diyor? Görüşler ayrılıyor. Marco Pellegrini, mektubun ulaştığı kesin olmadığı için bazılarının onu papanın muhataplarını harekete geçirmeye yarayan bir araç saydığını aktarır. Mektupta ayrıca, Avrupa'nın ahlaki yenilenmesinin yozlaşmış Hristiyan hükümdarlardan çok din değiştirecek bir dış hükümdardan gelebileceği düşüncesini görür. Luca D'Ascia'ya göre metni değerli kılan, İslam'ı yeni bir gözle tanıma çabası değildir; böyle bir çaba yoktur. D'Ascia'ya göre mektup, papalık makamının yüceliğini ve Pius'un kendi imgesini kuran bilinçli bir propaganda metnidir. Aynı zamanda Mehmed'i yeni bir Roma imparatoru gibi yücelten hümanist Türk hayranlığına verilmiş bir cevaptır.",
+  kaynak:"Marco Pellegrini, «Pio II», Enciclopedia dei Papi (Treccani, 2000), https://www.treccani.it/enciclopedia/pio-ii_(Enciclopedia-dei-Papi)/ ; Luca D'Ascia, «El pontífice romano y el emperador troyano. La carta de Pío II (Eneas Silvio Piccolomini) a Mehmed II», İLUR dergisi, 3 (1998), s. 7 vd., https://revistas.ucm.es/index.php/ILUR/article/download/ILUR9898130007A/26849/28010",
+  kesinlik:"tartismali", teyit:"teyitli",
+  ic_not:"Bağlandığı madde II. Pius'un seçilmesi (1461 mektubu için ayrı kronoloji maddesi yok). D'Ascia PDF'i OCR metni; dergi kısaltması PDF üst bilgisinden bozuk okunuyor, dergi adının tam hâli teyit edilmeli." }
+
+];
