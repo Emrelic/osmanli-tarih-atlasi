@@ -1,23 +1,17 @@
 {
 "hazir": {
 "arayuz": [
-1019,
+2034,
 2034
 ],
 "devlet": [
-1160,
+2030,
 2315
 ],
 "olay": [
-200,
+425,
 5196
 ]
 },
-"mekanik_atlanan": [
-[
-"arayuz",
-"# (teslim günü kaynakta yok; Splényi # Ağustos #'de şehir önüne vardı)",
-"yer tutucu"
-]
-]
+"mekanik_atlanan": []
 }
