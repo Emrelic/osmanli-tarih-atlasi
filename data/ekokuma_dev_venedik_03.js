@@ -171,7 +171,7 @@ window.EKOKUMA_DEVVENEDIK03 = [
   tur:"tartisma",
   baslik:"Devlet banka kurmalı mı? Venedik'te aynı ada bağlanan iki zıt konuşma",
   olay:["1587-04-01|Banco"],
-  kisa:"Bir metin “parayı ancak devlet güvende tutar” diyor, öteki “devlet bu işe bulaşmasın”. İkisi de aynı Venedikli soyluyla ilişkilendiriliyor.",
+  kisa:"Bir metin paranın güvencesini devlette arıyor, öteki devletin bu işe bulaşmamasını istiyor. İkisi de aynı Venedikli soyluyla ilişkilendiriliyor.",
   metin:"Büyük bir ticaret şehrinde her ödemede sikke saymak zaman alır. Banka defterine yazılan bir satır ise parayı bir hesaptan ötekine geçirir. Peki o defteri kim tutmalıydı: özel bankerler mi, devlet mi?\n\n" +
     "28 Aralık 1584'te devlet bankası kurulmasına ve özel bankaların kaldırılmasına karar verildi. Venedik'in ilk kamu bankası olan Rialto Meydanı Bankası (Banco della Piazza di Rialto) ise 11 Nisan 1587'de doğdu. Soylu Tommaso Contarini'nin adı, bu iki tarih arasında yazılmış iki zıt metinle anılır.\n\n" +
     "■ EVET DİYEN METİN\nİlk metne göre banka kaydı ticaret için büyük kolaylıktır: ağır para taşımak ve saymak yerine deftere bir kalem yazmak yeter. Ama bu hizmet spekülasyonun riskine bırakılmamalıdır. Özel Pisani-Tiepolo bankasının yakın zamandaki iflası ortalığı sarsmıştır. Özel bankerler kendilerine emanet edilen parayı yatırıma yöneltir; işler ters giderse mevduat geri ödenemez. Çözüm, ödeme gücünü devletin güvence altına aldığı bir bankadır. Bu banka parayı yalnız korumalı, ödemeleri yapmalı, onunla spekülasyona girmemelidir.\n\n" +
@@ -194,7 +194,7 @@ window.EKOKUMA_DEVVENEDIK03 = [
     "■ ÇATIŞMA\n1758'de Avogaria'ya seçilince anlaşmazlık kamuya taşındı. Engizitörler onu bir itirazını geri çekmeye zorladı. 1761'de, yeniden aynı görevdeyken, yıllardır süren bir yolsuzluk davasını onun karşı görüşüne rağmen yeniden açmasını emrettiler.\n\n" +
     "Karşıtları, özellikle de engizitörler, onu halk tribünü gibi bir güç peşinde olmakla suçladı. 12-13 Ağustos 1761 gecesi tutuklandı. Hapiste sıkı gözetim altında tutulduğu için ardından kopan kavgaya katılamadı.\n\n" +
     "■ KONSEYDEKİ İSYAN\n23 Ağustos'ta Büyük Konsey, Onlar Konseyi'ne tek bir üye bile seçemedi. Yakınlarının çabası ve geniş soylu kesimlerin hoşnutsuzluğu açığa çıkmıştı. 9 Eylül'de, Onlar Konseyi için reform önerecek beş “düzeltici” (correttore) seçilmesine karar verildi.\n\n" +
-    "Taraflar artık Querini yanlıları ve mahkeme yanlıları diye anılıyordu. Querini yanlıları yalnız iki düzeltici seçtirebildi. Querini'nin kendisini seçtirip serbest bırakılmasını sağlama girişimi de birkaç oyla başarısız oldu.\n\n" +
+    "Taraflar artık Querini yanlıları (“querinisti”) ve engizitörlerin kurulundan yana olanlar (“tribunalisti”) diye anılıyordu. Querini yanlıları yalnız iki düzeltici seçtirebildi. Querini'nin kendisini seçtirip serbest bırakılmasını sağlama girişimi de birkaç oyla başarısız oldu.\n\n" +
     "■ KİM KAZANDI\nMart-Nisan 1762'de, özellikle Marco Foscarini'nin istediği bir dizi öneri tartışılıp oylandı. Sonuçta Onlar Konseyi'nin ve engizitörlerin yetkisi özünde onaylandı. Querini hemen salınmadı. Ortalık yatışınca, Ekim 1763'te göreve gelen yeni engizitörler eskilerin korkularını geçmişte kalmış sayıp onu serbest bıraktı.\n\n" +
     "■ SONRAKİ HAYAT\nQuerini bundan sonra siyasette sınırlı bir rol oynadı. Zamanının çoğunu Padova yakınındaki Altichiero villasında geçirdi; bahçesiyle ve tarım denemeleriyle ilgilendi. 1777'de İsviçre'ye yaptığı gezide Voltaire ile buluştu. Voltaire ve Rousseau hayranıydı, masondu. Buna karşın Fransız Devrimi Jakoben cumhuriyetine dönüşünce ona düşman kesildi. 30 Aralık 1796'da Venedik'te öldü.\n\n" +
     "■ KAYNAK NE KADARINI SÖYLÜYOR\nYaşamöyküsü Querini'de içten gelen bir özgürlük ve aykırılık eğilimi görür, sonraki yıllarında Aydınlanma çevreleriyle yakınlığını da anlatır. Düzelticilerle ilgili bütün önerileri tek tek aktarmaz; bu yüzden kart yalnız genel sonucu veriyor.",
@@ -309,6 +309,115 @@ window.EKOKUMA_DEVVENEDIK03 = [
     "Dean sonucu Ercole için gerçek bir felaket sayar: toprak kaybı, özellikle Modena ve Reggio'dan kıtlığın yol açtığı kitlesel göç, tahrip olan mal ve ekinler, ağır borç ve enflasyon. Venedik içindeki savaş tartışmaları bu iki biyografide anlatılmaz.",
   kesinlik:"kesin",
   kaynak:"Trevor Dean, \"Ercole I d'Este\", Dizionario Biografico degli Italiani c. 43 (1993), https://www.treccani.it/enciclopedia/ercole-i-d-este-duca-di-ferrara-modena-e-reggio_(Dizionario-Biografico)/ · Alessio Russo, \"Sanseverino d'Aragona, Roberto\", Dizionario Biografico degli Italiani c. 90 (2017), https://www.treccani.it/enciclopedia/roberto-sanseverino-d-aragona_(Dizionario-Biografico)/",
-  ic_not:"Kronoloji maddesinin günü 3 Mayıs 1482; okunan iki madde bu günü vermez (Russo: 'mayıs başında Po geçildi'; Dean: papanın önerisi Mayıs 1482). Russo barışı 'Ağustos 1484', Dean 7 Ağustos verir. Rovigo için Russo parantezde 14 Ağustos yazar; karta yalnız ay yazıldı çünkü cümle yapısı günün neyi tarihlediği konusunda tek tanık." }
+  ic_not:"Kronoloji maddesinin günü 3 Mayıs 1482; okunan iki madde bu günü vermez (Russo: 'mayıs başında Po geçildi'; Dean: papanın önerisi Mayıs 1482). Russo barışı 'Ağustos 1484', Dean 7 Ağustos verir. Rovigo için Russo parantezde 14 Ağustos yazar; karta yalnız ay yazıldı çünkü cümle yapısı günün neyi tarihlediği konusunda tek tanık." },
+
+{ id:"venedik-sebep-uskok-savasi-1615", teyit:"teyitli", yayin_adayi:true,
+  ic_not_teyit:"Enciclopedia Italiana 'Uscocchi' (Praga, 1937) ve DBI 'Giustiniani, Pompeo' tam okundu; karttakiler maddelerin kendi anlatısı. Praga kaynakçasındaki eserler okunmadı.",
+  tur:"sebep-sonuc",
+  baslik:"Küçük bir sınır topluluğu Venedik ile Avusturya'yı nasıl savaşa sürükledi?",
+  olay:["1615-01-01|Uskok"],
+  kisa:"Başlangıçta birkaç yüz kişiydiler. Baskınları yalnız Osmanlı gemilerini değil Venedik'i de vurunca mesele Adriyatik'te bir devletler kavgasına dönüştü.",
+  metin:"“Uskok” sözü Sırpça-Hırvatçada kaçıp sığınan kimse anlamındaki “uskok”tan gelir. Balkanlar Osmanlı yönetimine girdikçe ve 1526'da Macaristan yenilince, özellikle Avusturya-Macaristan askerî sınırında sığınmacı toplulukları oluştu. Bunlar savaşı çete baskınlarıyla sürdürdü.\n\n" +
+    "■ SEGNA'NIN BASKINCILARI\n" +
+    "İlk önemli yerleşimleri Klis kalesiydi. 1537'de oradan çıkarılınca, denizden ve karadan baskına elverişli, sarp bir kıyı kenti olan Segna'ya (Senj) sığındılar. Kâğıt üzerinde Avusturya'dan ücret alıyorlardı, ama geçimleri esas olarak yağma ve korsanlığa dayanıyordu. İki üç yüz olan sayıları, Venedik'ten sürülmüş kimselerin ve Romagna ile Lazio'dan gelen maceracıların katılmasıyla 16. yüzyılın ikinci yarısında 2000'e ulaştı. Yalnız Osmanlı kervan ve gemilerine değil, Dubrovnik'in, Papa'nın ve Venedik'in gemilerine de saldırdılar.\n\n" +
+    "■ VENEDİK'İN SIKIŞMASI\n" +
+    "Adriyatik'in güvenliğinden kendini sorumlu sayan Venedik, özellikle doğrudan donanmayla müdahale tehdidinde bulunan Osmanlı yönetiminin baskısı altındaydı. Diplomasi sonuç vermeyince 14 Mart 1592'de Uskoklarla mücadele için özel bir komutan atadı. Avusturya da bir ara komiser gönderdi, ama korsanlığın çevresinde örülen çıkar ağı işi yavaşlattı. Uskoklar 31 Aralık 1601 gecesi arşidüklük komiseri Giuseppe Rabatta'yı öldürdü. 1605'ten sonra baskınlar yeniden arttı. 12 Mayıs 1613'te bir Venedik kadırgasına saldırıp kaptanını öldürdüler.\n\n" +
+    "■ SAVAŞ\n" +
+    "1615 sonlarında Venedik komutanı Lorenzo Venier, Fiume yakınındaki Novi'de asker toplandığını öğrenince kaleye saldırıp yıktı. Ardından Graz savaş ilan etti. Venedik cephesinde komutanlardan Pompeo Giustiniani aralıkta Palmanova'dan 10.000 askerle çıktı; 19 Aralık'ta Cormons, Cervignano ve Aquileia ansızın alındı. Hedef Gradisca'yı hızla ele geçirip üç ayda arşidükün askerlerini bölgeden atmaktı. Plan tutmadı. Sıkı bir kuşatma sonuç vermedi, savaş mevzi savaşına döndü. Giustiniani Ekim 1616'da yaralanıp öldü.\n\n" +
+    "■ SONUÇ\n" +
+    "Savaş, Fransa ve İspanya'nın araya girmesiyle yapılan Madrid Barışı'na, 26 Eylül 1617'ye kadar sürdü. Avusturya Uskokları Hırvatistan'ın iç kesimlerine taşımayı ve gemilerini yakmayı üstlendi. Ertesi yaz antlaşma uygulandı; Segna'da kalan az sayıda Uskok Otočac ve Žumberak'a yerleştirildi, orada halka karıştı.\n\n" +
+    "■ KAYNAK NE KADARINI SÖYLÜYOR\n" +
+    "Topluluğu anlatan ansiklopedi maddesi 1937 tarihlidir. Bu kart onun temel olay sırasını verir; Uskokların nasıl değerlendirileceğine ilişkin sonraki araştırmaları kapsamaz.",
+  kesinlik:"kesin",
+  kaynak:"Giuseppe Praga, \"Uscocchi\", Enciclopedia Italiana (1937), treccani.it/enciclopedia/uscocchi_(Enciclopedia-Italiana)/ · Dario Busolini, \"Giustiniani, Pompeo\", Dizionario Biografico degli Italiani c. 57 (2001), treccani.it/enciclopedia/pompeo-giustiniani_(Dizionario-Biografico)/",
+  ic_not:"Madde günü 1615-01-01 (yıl hassasiyeti); kaynaklara göre açık savaş 1615 sonunda (Aralık) başlar, 26 Eylül 1617'de biter (Praga). Busolini Mart 1616'da görüşmelerin ilerleyişi bir aylık sıkı kuşatmadan sonra durdurduğunu, Praga Gradisca kuşatmasının şubatta başladığını yazar. Praga 1937 tarihli; güncel hakemli Uskok literatürü (ör. C.W. Bracewell) OKUNMADI. TDV'de Uskok maddesi bu turda bulunamadı (yalnız bir slug denendi, arama sayfasına yönlendi)." },
+
+{ id:"venedik-mimari-salute-longhena", teyit:"teyitli", yayin_adayi:true,
+  ic_not_teyit:"DBI 'Longhena, Baldassare' (Hopkins) tam okundu; Temanza alıntıları karta alınmadı. Veba salgınının kendisine ilişkin rakam ve adak kararı bu maddede olmadığı için yazılmadı.",
+  tur:"mimari",
+  baslik:"Salute Kilisesi'ni yapan adam neden kendini hep onunla tanıttı?",
+  olay:["1630-01-01|veba"],
+  kisa:"Veba yılı 1630'un sonunda açılan yarışmayı, taşçı atölyesinden yetişmiş bir Venedikli kazandı. Bu iş onun ömrünün sonraki yarım yüzyılını belirledi.",
+  metin:"Venedik'in en tanınan yapılarından Santa Maria della Salute'nin mimarı Baldassare Longhena, işe kâğıt üstünde değil taş atölyesinde başlamıştı.\n\n" +
+    "■ ATÖLYEDEN MİMARLIĞA\n" +
+    "1596 sonunda ya da 1597 başında, büyük olasılıkla Venedik'te doğdu. Babasının taşçı atölyesinde yetişti; usta mimar Vincenzo Scamozzi'nin öğrencisi oldu. Babası ve Scamozzi 1616'da ölünce atölyenin başına geçti. Burada yalnız taş işçiliği değil, yazışma, ihale ve hesap işleri de öğrenmişti. Yaşamöyküsünün yazarı Andrew Hopkins'e göre bu birleşim onu ilk meslekten mimar tiplerinden biri yaptı.\n\n" +
+    "■ VEBA VE YARIŞMA\n" +
+    "1630 vebasının ardından Longhena önce Chioggia'da bir kilise için Meryem'e adanmış bir sunak işi aldı. 1630 sonunda ise Santa Maria della Salute Kilisesi'nin tasarımı ve yapımı için açılan resmî yarışmaya katıldı. İşi kazandı ve o tarihten sonra yapımın yöneticisi oldu.\n\n" +
+    "■ BİR KİLİSE, BİR KARİYER\n" +
+    "1630'larda yapım denetimi için görevlendirilen soylular aracılığıyla sonraki birçok müşterisini tanıdı. 1640'ta, San Marco'nun mal varlığını yöneten yüksek görevlilerin (procuratori) baş mimarlığına atandı; bu, devlet mimarlığına denk bir görevdi ve ömrünün son haftalarına kadar sürdü.\n\n" +
+    "1640'ların ortasında kilisenin ana gövdesi tamamlandıkça yapının önemi daha görünür oldu. 1644'te Marco Boschini'nin bir gravürü onu kutladı. Longhena'nın ünü büyüdü, büyük aileler ondan saray istedi.\n\n" +
+    "■ İÇERİDEKİ VEBA\n" +
+    "1670'te kilisenin ana sunağı üzerinde çalışmaya başladı. Heykeltıraş Juste Le Court ile yapılan sunaktaki heykel grubunda Venedik ve Meryem vebayı şehirden kovar. Hopkins bu grubu 17. yüzyıl Venedik'inin en önemli iki heykel grubundan biri sayar; ikisinin de tasarımını Longhena'ya bağlar.\n\n" +
+    "■ İMZADAKİ İPUCU\n" +
+    "Longhena 1631'den itibaren belgelere hep “yeni kilisenin baş ustası” anlamındaki unvanla imza attı. Hopkins bunu, kilisenin başyapıtı ve hayatının en önemli işi olduğunun farkında oluşuyla açıklar. 1679'da ömrünün sonuna yaklaşırken kilisede nelerin tamamlanması gerektiğini belirtti. 18 Şubat 1682'de Venedik'te öldü.\n\n" +
+    "■ KAYNAK NE KADARINI SÖYLÜYOR\n" +
+    "Okunan metin bir mimarın yaşamöyküsüdür. Salgının kaç can aldığını ve kilisenin hangi törenlerle adandığını anlatmaz; bu kart da o konulara girmez.",
+  kesinlik:"kesin",
+  kaynak:"Andrew Hopkins, \"Longhena, Baldassare\", Dizionario Biografico degli Italiani c. 65 (2005), treccani.it/enciclopedia/baldassare-longhena_(Dizionario-Biografico)/",
+  ic_not:"Bağlanan madde 'Büyük veba' (1630-01-01); kart kiliseyi/mimarı anlatır. Senato adak kararı (arama özetinde 22 Ekim 1630) ve temel atma OKUNMADI, yazılmadı. DBI 'Contarini, Nicolò' okunmadı." },
+
+{ id:"venedik-sebep-kandiye-1669", teyit:"teyitli", yayin_adayi:true,
+  ic_not_teyit:"TDV Kandiye (Gülsoy) ham tam metinden okundu. Reycaut, Randolph, Evliya Çelebi, Osman Dede ve Fındıklılı'dan aktarılan sayılar karta alınmadı; 1644 sayımı, 1669 tahriri ve 1670 cizye kaydı maddenin kendi bulgusu olarak verildi.",
+  tur:"sebep-sonuc",
+  baslik:"Kandiye teslim edildiğinde geriye nasıl bir şehir kalmıştı?",
+  olay:["1669-09-06|Kandiye'nin teslimi"],
+  kisa:"Yaklaşık yirmi üç yıllık abluka ve kuşatma bir anlaşmayla bitti. Kazanılan şehrin sakinlerinin çoğu ise artık orada değildi.",
+  metin:"6 Eylül 1669'da Osmanlılar, Girit'in en büyük şehri Kandiye'yi anlaşma yoluyla teslim aldı. Bundan önce yaklaşık yirmi üç yıl süren bir abluka ve kuşatma vardı.\n\n" +
+    "■ KUŞATMADAN ÖNCE\n" +
+    "Şehir 1204'te Venediklilerin eline geçmiş, Venedik yönetiminde Girit'in merkezi olmuştu. Doğudan gelen malların Avrupa'ya aktarıldığı bir ara iskeleydi; çevresinde üretilen şaraplar ihracatçılara büyük kazanç getiriyordu. Kuşatma başladığında tabyalar ve geniş, derin hendeklerle korunan güçlü bir kale-şehirdi. Girit seferleri başlamadan hemen önce, 1644 sayımında nüfusu 14.500'dü.\n\n" +
+    "■ BOŞALAN ŞEHİR\n" +
+    "Teslim sırasında sakinlerin çoğu şehri terk etmişti. Fetihten sonra tutulan cizye defterine göre 1670'te Kandiye'de yalnız 13 Hristiyan ve 26 Yahudi hanesi vardı. Bu defter vergi yükümlüsü gayrimüslim haneleri gösterir; sayıları bütün nüfus gibi okumamak gerekir.\n\n" +
+    "1669 tarihli tahrir ise binaları sayar: 56 mahallede 1051 ev, 313 dükkân, 66 manastır ve başka yapılar.\n\n" +
+    "■ YENİ ŞEHİR\n" +
+    "Fâzıl Ahmed Paşa geniş bir imar başlattı, kale onarıldı. On iki manastır padişah, sadrazam, Valide Turhan Sultan ve ordudaki devlet adamları adına camiye çevrildi. Ancak adada sistemli bir sürgün-iskân politikası uygulanmadı. İlk Türk sakinler görevliler, vakıf çalışanları ve kaleyi koruyan askerlerdi. Şehirden mülk alanlar da katılınca hane sayısı 1947'ye, yaklaşık 8000 kişiye çıktı.\n\n" +
+    "■ ESKİ PARLAKLIK GERİ GELMEDİ\n" +
+    "313 dükkânın 292'si devletin ileri gelenlerince satın alınıp onarıldı ve camilerine vakfedildi. Yine de Osmanlılar Kandiye'de ticaretle uğraşan bir şehirli sınıf oluşturamadı. Uzun kuşatmada terk edilen şehir eski canlılığını ve ticaret hacmini bulamadı. Limanın giderek dolmasının da bunda payı vardı; adaya yerleşecekler daha çok Hanya'yı seçti. 1850'de vilayet merkezi de Hanya'ya taşındı.\n\n" +
+    "■ KAYNAK NE KADARINI SÖYLÜYOR\n" +
+    "Okunan metin şehrin tarihini anlatır. Teslim anlaşmasının maddelerini ve ayrılanların nereye gittiğini bu metin vermiyor. Bu yüzden anlaşmanın şartları üzerine burada hüküm yok.",
+  kesinlik:"kesin",
+  kaynak:"Ersin Gülsoy, \"Kandiye\", TDV İslâm Ansiklopedisi, islamansiklopedisi.org.tr/kandiye",
+  ic_not:"6 Eylül 1669 (9 Rebîülâhir 1080) bağlanan maddeyle uyuşuyor. Teslim şartları ve Venedik tarafı için ikinci kaynak okunmadı (TDV Girit indirildi ama okunmadı, sayılmadı)." },
+
+{ id:"venedik-savas-sakiz-1694-1695", teyit:"teyitli", yayin_adayi:true,
+  ic_not_teyit:"TDV Sakız Adası (Örenç) tam okundu; karttakiler maddenin kendi anlatısı. Maddenin 1694 teslimi için gösterdiği Silâhdar ayrıca okunmadı.",
+  tur:"savas-hikayesi", devlet:"venedik", taraf:["venedik","osmanli"],
+  baslik:"Sakız'ı iki haftada alan Venedik adayı neden birkaç ay sonra yitirdi?",
+  olay:["1695-02-09|Sakız"],
+  kisa:"Eylülde kale anlaşmayla teslim alındı. Şubatta Osmanlılar geri döndü. Aradaki kısa işgalin izleri adanın Hristiyan toplulukları arasında da kaldı.",
+  tarih_metin:"8 Eylül 1694 – Şubat 1695",
+  yer:"Sakız Adası, Ege",
+  taraflar:[
+    {ad:"Venedik; papalık, Floransa ve Malta donanmalarının yardımıyla", komutan:"Teslim Antonio Zeno'ya yapıldı"},
+    {ad:"Osmanlı", komutan:"Kale savunmasında Silâhdar Hasan Paşa"}
+  ],
+  oncesi:"Sakız 1566'da Kaptanıderya Piyâle Paşa tarafından çatışma olmadan alınmış, Ceneviz kökenli şirket yönetimi sona ermişti. Ada 1694'e kadar Kaptanpaşa eyaletine bağlı bir sancak olarak kaldı ve donanmanın seferlerde önemli bir uğrağı oldu. 1681'de ise bir Fransız filosu, Garp ocaklarıyla süren bir çatışma yüzünden şehri topa tutmuş, büyük yıkıma ve Müslüman ile Hristiyan can kaybına yol açmıştı.",
+  akis:"■ KUŞATMA\n8 Eylül 1694'te Venedik, müttefik donanmaların yardımıyla Sakız'ı kuşattı. Kaleyi 1370 askerle Silâhdar Hasan Paşa savunuyordu. Kaptanıderya Helvacı Yûsuf Paşa'dan yardım alamadı.\n\n■ TESLİM\n21 Eylül'de ada, vire denen anlaşmalı teslimle Antonio Zeno'ya bırakıldı. Adadaki Müslüman nüfus üç gün içinde Venedik gemileriyle boşaltılıp Anadolu kıyısına taşındı.\n\n■ GERİ DÖNÜŞ\nOsmanlı filosunun karşı harekâtı sonunda 22 Şubat 1695'te adaya asker çıkarıldı ve kale kolayca alındı.",
+  sonuc:"Kaynağa göre Venedikliler kaçarken kiliseler dahil Rumların mallarını yağmaladı. Yerli Rumlar ise Katoliklerin Venediklilere yardım ettiğini öne sürerek şikâyette bulundu. Bunun üzerine Katoliklerin ayrıcalıkları kaldırıldı. Fransız konsolosluğu içindeki dışında Katolik kiliseleri Rumlara verildi; adada çok az Katolik kaldı. Kale varoşundaki iki kilise de camiye çevrildi ve adanın tahriri yeniden yapıldı.",
+  tartisma:"■ KAYNAK NE KADARINI SÖYLÜYOR\nKatoliklerin Venediklilere yardım ettiği, okunan metinde yerli Rumların şikâyeti olarak geçer; metin bunu kendisi kanıtlanmış bir olgu diye sunmaz. Kalenin neden kolayca geri alındığı ve Venedik tarafının kayıpları da anlatılmaz.",
+  kesinlik:"kesin",
+  kaynak:"Ali Fuat Örenç, \"Sakız Adası\", TDV İslâm Ansiklopedisi, islamansiklopedisi.org.tr/sakiz-adasi",
+  ic_not:"KRONOLOJİ UYUŞMAZLIĞI: bağlama anahtarı 1695-02-09; TDV Osmanlı çıkarmasını 22 Şubat 1695 verir (9 Şubat'ın dayanağı bu turda görülmedi; takvim farkı olup olmadığı hakkında hüküm verilmedi). İkinci kaynak okunmadı. Yedek konudan (1646 yerine)." },
+
+{ id:"venedik-kimdir-daniele-manin", teyit:"teyitli", yayin_adayi:true,
+  ic_not_teyit:"DBI 'Manin, Daniele' (Gottardi) tam okundu; Manin'in söz ve sorgu alıntıları belge aktarımı olacağı için karta alınmadı.",
+  tur:"kimdir",
+  baslik:"Hapisten çıkan avukat beş gün sonra nasıl cumhuriyet ilan etti?",
+  olay:["1848-03-22|Arsenal'i ele geçirdi; San Marco Cumhuriyeti ilan edildi, Manin"],
+  kisa:"Soyadı son dogeninkiyle aynıydı, ama soyu o aileden gelmiyordu. Daniele Manin, yasal yollarla reform isterken Venedik ayaklanmasının önderi oldu.",
+  metin:"Daniele Manin 13 Mayıs 1804'te Venedik'te doğdu. Yahudi kökenli dedesi 1759'da Katolik olmuş ve âdet olduğu üzere kendisini koruyan soylu ailenin soyadını almıştı: Manin. Vaftiz babasının, Cumhuriyet'in son dogesi Ludovico Manin'in adını da benimsemişti.\n\n" +
+    "■ ERKEN YETİŞEN HUKUKÇU\n" +
+    "On dört yaşında Padova Üniversitesi'ne yazıldı, 1821'de hukuk diploması aldı. Babasının cumhuriyetçi görüşlerinden etkilendi. Sonraki yıllarda yayıncılık ve avukatlık yaptı. Venedik-Milano demiryolu tartışmasında savunduğu tez sonunda yenildi, ama ona tanınırlık kazandırdı.\n\n" +
+    "■ YASAL MÜCADELE\n" +
+    "1847'de Avusturya yönetiminden dilekçelerle ekonomik adımlar istedi; yıl sonuna doğru siyasi reform talepleri de öne çıktı. 8 Ocak 1848'deki geniş dilekçesinde ifade özgürlüğü, Yahudilerin eşit haklara kavuşması ve hukuk reformu da vardı. 18 Ocak'ta Niccolò Tommaseo ile birlikte tutuklandı. Yaşamöyküsü yazarı Michele Gottardi'ye göre devrimin gerekli olduğuna hapiste inandı; şehrin farklı kesimleri de onu önder olarak görmeye başladı.\n\n" +
+    "■ BEŞ GÜN\n" +
+    "17 Mart'ta serbest bırakıldı. Kalabalık onu zaferle taşıdı. Manin sükûnet çağrısı yaptı ve sivil bir muhafız birliği kurdurdu. 21 Mart'ta Milano ayaklanmasının haberi geldi. Manin'in planı, subayların, muhafızların ve tersane işçilerinin katılımıyla Arsenal'i ayaklandırmaktı. 22 Mart sabahı, işçilerin Albay Marinovich'i öldürdüğü haberi gelince artık beklemedi. Oğlu Giorgio ile Arsenal'e gitti, burayı tümüyle ele geçirdi ve “Yaşasın San Marco” sesleri arasında cumhuriyeti ilan etti. Ertesi gün geçici hükümetin başına geçti.\n\n" +
+    "■ KUŞATMA VE SÜRGÜN\n" +
+    "Anakaradaki Veneto toprakları aylar içinde kaybedildi. 4 Temmuz'da meclis, yönetimi Savoia temsilcilerine devretmeyi öngören Yukarı İtalya Krallığı ile birleşmeyi onayladı; Manin hükümeti bıraktı. Ağustosta ateşkesle bu dönem kapanınca yeniden iktidara geldi. 1849 nisanında ne pahasına olursa olsun direnme kararı alındı ve Manin'e geniş yetki verildi. Kolera yayılıp orduda itaatsizlik başlayınca teslimi kabul etti; teslim 22 Ağustos 1849'da imzalandı. 27 Ağustos'ta sürgüne gitti.\n\n" +
+    "Paris'te İtalyanca dersleri vererek geçindi. Zamanla, ülkeyi birleştirecekse Savoia Hanedanı'nın desteklenmesi gerektiğini savundu. 22 Eylül 1857'de öldü. Naaşı 22 Mart 1868'de Venedik'e getirildi.\n\n" +
+    "■ KAYNAK NE KADARINI SÖYLÜYOR\n" +
+    "Gottardi, Manin'in şehirle özdeşleşmesini Risorgimento'da benzersiz bulur. Ona göre bu özdeşlik zamanla siyasi ufku dar bir şehirciliğe indirgendi ve Manin hakkındaki yargıyı da etkiledi.",
+  kesinlik:"kesin",
+  kaynak:"Michele Gottardi, \"Manin, Daniele\", Dizionario Biografico degli Italiani c. 69 (2007), treccani.it/enciclopedia/daniele-manin_(Dizionario-Biografico)/",
+  ic_not:"22 Mart 1848 bağlanan maddeyle uyuşuyor. Kronoloji maddesindeki 'Avusturya birlikleri 26 Mart'ta çekildi' bilgisi bu kaynakta yok, karta alınmadı. Gottardi'nin özdeşleşmenin sonuçlarına ilişkin cümlesi yorumdur, adıyla verildi." }
 
 ];
