@@ -34,3 +34,12 @@ Bağlar betikle, `data/` altındaki madde başlıklarına karşı sınandı. Tar
 - 1077-01-01 Canossa maddesi için kaynakta gün var: 25 Ocak 1077 (Henry'nin kaleye varışı).
 - `papalik` künyesindeki 1463-10-25 maddesinde ve 1571 maddelerinde başlıklar kısa; 1571-05-25 için olay maddesi "Kutsal Birlik'in kurulması" adıyla da var.
 - Kart metinleri 2000-2300 karakter: hedef aralığın (1200-1800) üstünde, istenirse kısaltılır.
+
+## 2. parti (25 Kasım 2026)
+7 kart (`data/ekokuma_dev_papalik_02.js`): Pippin 756, Venedik 1177, taç giyme 800, VII. Pius 1809, Gaeta 1848, Konstanz 1417, dünyevî iktidar 1860-1870. 1 hükümdar kaydı (II. Stephanus). Bağlar betikle sınandı; tarayıcıda sınanmadı.
+
+Okunan: Enciclopedia dei Papi (Treccani): «Stefano II» (indirilen metnin tamamı); «Alessandro III», «Leone III», «Pio VII», «Martino V», «Pio IX» (yalnız kart ic_not alanlarında yazan bölümler). Yazar adları indirilen düz metinde yoktu (Pio IX için yazar 1. partiden: G. Martina). 2. parti kartlarının her biri tek kaynağa dayanıyor; ikinci bağımsız kaynak okunamadı (BORÇ). 1. parti kartlarının kaynak alanları değiştirilmedi.
+
+Sıradaki adaylar: Sahte Konstantin Bağışı; Avignon (1309-03-09); Tolentino ve 1798 Roma Cumhuriyeti; Garanti Kanunu (1871-05-13); VI. Alexander; Niğbolu çağrısı.
+
+Gözden geçirme önerisi: 1809-05-17 olay maddelerinden biri tutuklamayı o güne bağlıyor ve "Papa VII. Pius'u aforoz etmesi üzerine" ifadesi kimin kimi aforoz ettiği bakımından belirsiz. Treccani «Pio VII»: ilhak kararnamesi 17 Mayıs, papalığın aforoz fermanı 10 Haziran, tutuklama 5-6 Temmuz 1809.
