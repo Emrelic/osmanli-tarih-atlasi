@@ -1258,7 +1258,7 @@ Ceviri.ekle("bg","arayuz",{
 "O gün tahtta kimin oturduğunu, portresini ve saltanat yıllarını gösterir; zaman ilerledikçe kendiliğinden değişir.":["Показва кой е седял на престола в този ден, портрета му и годините на царуването му; променя се от само себе си с хода на времето.", "b6d56bed"],
 "Ocak #":["януари #", "483ff3a6"],
 "Ocak # (ay hassasiyeti)":["януари # (точност до месец)", "3e8b6fe4"],
-"Ocak # (gün Kahire'den — bk. ic_not_t)":["януари # (денят е от Кайро — вж. ic_not_t)", "51a7a6d9"],
+"Ocak # (gün Kahire'den — bk. ic_not_t)":["януари # (денят е от Кайро)", "51a7a6d9"],
 "Ocak # (gün kaynakta yok)":["януари # (денят липсва в източника)", "423c6642"],
 "Ocak – ilkbahar #":["януари – пролет #", "2f24cca3"],
 "Odaklanma hızı":["Скорост на фокусиране", "f7da37f9"],
