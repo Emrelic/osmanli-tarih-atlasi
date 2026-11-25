@@ -947,7 +947,7 @@ window.CEVIRI_DIZIN = {
   "en": [
    [
     "ceviri_en_ekokuma.js",
-    "65a72a3f"
+    "7ea9a916"
    ]
   ]
  }
