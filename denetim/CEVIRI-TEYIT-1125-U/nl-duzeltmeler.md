@@ -1,0 +1,57 @@
+- arayuz | # Haziran # (anonim Bulgar kronikleri; TDV aktarımı): 'aktarım' = TDV'nin aktardığı; 'overlevering' yanlış
+- arayuz | # Ocak # (imzalar # Ocak-# Mart arası şeyhlik şeyhlik tamamlandı): 'şeyhlik şeyhlik' (tek tek) anlamı kaybolmuş
+- arayuz | # Şâban # / # Aralık # Pazartesi akşamı (Selânikî: # Ramazan / # Aralık): sözdizimi
+- arayuz | # — YIL hassasiyeti · TDV `malatya` ay/gün vermiyor; TDV `timur`a göre Timur #-# kışını Karabağ'da geçirdi, olay Sivas'ın düşüşünden SONRA (yılın ortası/sonu) — #-# yalnız yıl işaretidir · Karayülük (Timur adına) aralığı haritada AYRI dönem olarak yok: iki ucu da gün/yılsız (Emre notu ##): yanlış vurgu ve sözdizimi ('PLAATS NA')
+- arayuz | (kırpmanın TAMAMI — hâl başına düşen = bu ÷ #; #'de # ms): 'hâl' devlet değil durum
+- arayuz | ) fiilen kimin elindeydi — işgaller işgalcinin KOYU tonunda: eksik 'in', bozuk cümle
+- arayuz | Cevabını / kararını bekleyen notlar (son sözü Claude söyledi): 'was aan Claude' sıra Claude'da demek; ters anlam
+- arayuz | Düğmenin üstünde, basınca gideceği hâl yazar: Daralt, Kapat ya da Genişlet. Haritayı büyütmek için sütunu kapatın; aynı düğmeyle geri açılır.: 'üstünde' = düğmenin üzerinde
+- arayuz | F hukukî ve tanınmış (düz, en kalın) · E hukukî (düz) · D fiilî, hukuken geçersiz (sık kesik, soluk): 'düz' = kesintisiz çizgi; 'kesik' = kesikli, noktalı değil
+- arayuz | Fetret Devri — şehzade payları: 'aandelen' hisse senedi anlamı
+- arayuz | Kasım # (ay hassasiyeti): ay adı küçük harf
+- arayuz | Kayıtlarınız silindi.: arayüz 'u' hitabı kullanıyor
+- arayuz | Menzil durağı (dolu altın: kaynakla doğrulanmış): 'vol goud' = altın dolu
+- arayuz | Milattan önce için eksi ya da MÖ yazın: -# · MÖ # · -#. # milada (MS #) götürür.: 'n.Chr.' yıldan sonra (girdi biçimi örneği aynen bırakıldı)
+- arayuz | Otomatik yakınlaştırma: toprak büyüdükçe uzaklaş: 'inzoomen: uitzoomen' çelişkili
+- arayuz | Oynat düğmesiyle zamanı akıtabilir, İleri düğmesiyle olay olay ilerleyebilir ya da kronolojiden bir maddeye tıklayabilirsiniz.: 'Volgende gebeurtenis voor gebeurtenis' anlaşılmaz
+- arayuz | Padişahlar (#) — tarih ilerledikçe üstteki kartta: 'kart' harita sanılır
+- arayuz | # yaşından büyük olduğumu beyan eder,: parçalı cümle (onay kutusu) Felemenkçede dilbilgisiz birleşiyordu; sonraki iki parçayla birlikte uygulanmalı
+- arayuz | okuduğumu ve kişisel verilerimin bunlara uygun işlenmesini kabul ettiğimi onaylarım.: bağlantı metninden sonra gelen parça; cümle dilbilgisi
+- arayuz | Devam ederek: '… [metin] kabul etmiş olursunuz' parçalı cümlesi bozuk birleşiyordu
+- arayuz | kabul etmiş olursunuz.: yukarıdaki parçayla birlikte dilbilgisel cümle
+- arayuz | Yaklaşan — # gün içinde değişecek yer (soluk, kesikli): 'kesikli' = kesik çizgili
+- arayuz | Yürüyüş ufku — # gün bugünkü harita (A); # ve # gün ek bantları gösterir.: ordu yürüyüşü: 'wandel' gezinti demek
+- arayuz | Yürüyüş ufku — yalnız # gün (A) var; #/# gün bantları: ordu yürüyüşü: 'wandel' gezinti demek
+- arayuz | sahiplik: Voronoi (düz çizgi en yakın) — yürüyüş bütçesi YOK: yürüyüş = mars; kelime sırası
+- arayuz | sahiplik: sürtünmeli yürüyüş: yürüyüş = mars
+- arayuz | bu resmi nottan çıkar: 'resim' (görsel) 'resmî' sanılmış; ters anlam
+- arayuz | bu token → Permissions → Contents: Read and write (: 'het token'
+- arayuz | kime/kimden ADAYDIR (ekrandan okundu). Kesin kime/kimden/f/t'yi kontrol K#-K# ÖLÇER.: bozuk cümle; özne/nesne ters
+- arayuz | milimetrik sınır: çizginin her yarısı o yandaki devletin renginin koyusu: 'het donker van de kleur' hatalı
+- arayuz | sahipsiz — sıradaki /postit oturumu alır: zamir uyumu, 'devralır'
+- arayuz | Örnek: # · # Mayıs # · # · #-#-# · Mayıs # · # · # (milat) · -# ya da MÖ # · -# — yazıp Enter'a basın: 'milat' sıfır yılı değil; atlas 'sıfır yılı yok' diyor
+- arayuz | İlk işaretlediğiniz devlet odaktır ve hükümdar kartı onunkidir; sonra işaretlediğiniz devletlerin maddeleri de ek olarak listeye katılır. Önem eşikleriyle kaç madde görüneceğini ayarlayabilirsiniz.: yinelenen 'daarna'
+- arayuz | — ikisi ayrı şeydir.: doğal anlatım
+- arayuz | ’ten itibaren (açık uç): tarihten sonra eklenen parça; 'vanaf' tarihten sonra gelemez
+- arayuz | ’ten itibaren — bu hat # sınırından: 'vanaf' tarihten sonra gelemez
+- arayuz | ❓ Merak: 'Merak' isim
+- devlet | polonya-naiplik-kralligi: 'het koninkrijk': sıfat eki
+- devlet | kalikut: Zamorin hükümdar unvanı; kayıt devlet
+- devlet | ingiliz-altin-kiyisi: 'de Goudkust': sıfat eki
+- devlet | cenub-i-garbi-kafkas: eksik artikel
+- devlet | arborea: yerleşik tarih terimi 'judicaat'
+- devlet | ahmedili: hanedan adı biçimi (-iden), yanlış çoğul
+- devlet | koco-uygur: Türkçe 'Koço' kalıntısı; yerleşik biçim Qocho
+- devlet | man-adasi: yerleşik terim 'Brits Kroonbezit'
+- devlet | raska-buyuk-prensligi: Felemenkçe bitişik yazım
+- devlet | nijni-novgorod-suzdal: Felemenkçe bitişik yazım
+- devlet | euboea-negroponte: 'Venedik Krallığı' = Venedik'e ait krallık; 'Venedik'in krallığı' yanıltıcı
+- devlet | taberistan-zeydi: burada 'Aleviler' Aliler (Alid) demek; 'Alawieten' ayrı mezhep
+- devlet | delos-birligi: bozuk bileşik
+- devlet | eftalit: bozuk bileşik
+- devlet | celili-musul: İngilizce çoğul ve büyük harf
+- devlet | kuzey-borneo-tac-kolonisi: 'Brits' yineleniyor
+- devlet | gansu-uygur: 'Sarı Uygur' eksik çevrilmiş
+- devlet | hirvat-dukalik: anlaşılmaz ifade
+- devlet | utigur: İngilizce çoğul kalıntısı
+- devlet | sabir: İngilizce çoğul kalıntısı

@@ -605,11 +605,11 @@ window.CEVIRI_DIZIN = {
   "nl": [
    [
     "ceviri_nl_arayuz.js",
-    "196c4a7b"
+    "314a870f"
    ],
    [
     "ceviri_nl_devlet.js",
-    "b5a00dc9"
+    "c8a538e7"
    ],
    [
     "ceviri_nl_olay_01.js",

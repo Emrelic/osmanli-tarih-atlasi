@@ -1,0 +1,242 @@
+{
+ "cakisma": [
+  {
+   "tur": "arayuz",
+   "id": "# Ekim # (# Ekim tarihli belge muhtariyet iradesidir — TDV trablusgarp-savasi)",
+   "taban": "# oktober # (het document van # oktober is de autonomiewil — TDV trablusgarp-savasi)",
+   "main": "# oktober # (het document van # oktober is de irade (sultansdecreet) over de autonomie — TDV trablusgarp-savasi)",
+   "oneri": "# oktober # (het document van # oktober is het keizerlijke autonomiedecreet (irade) — TDV trablusgarp-savasi)",
+   "neden": "'irade' padişah buyruğu; 'autonomiewil' yanlış"
+  },
+  {
+   "tur": "arayuz",
+   "id": "# Ekim # — meydan savaşı ve şehre giriş (Cengiz #); Halep Kalesi daha sonra düştü, günü verilmiyor · eski t #-#-# ay başı yer tutucuydu",
+   "taban": "# oktober # — veldslag en intocht in de stad (Genghis #); het Kasteel van Aleppo viel later, dag niet gegeven · de oude t #-#-# begin van de maand was een plaatsvervanger",
+   "main": "# oktober # — veldslag en intocht in de stad (Cengiz #); het Kasteel van Aleppo viel later, dag niet gegeven · de oude t #-#-# (begin van de maand) was een plaatshouder",
+   "oneri": "# oktober # — veldslag en intocht in de stad (Cengiz #); het Kasteel van Aleppo viel later, dag niet gegeven · de oude t #-#-# (begin van de maand) was een tijdelijke aanduiding",
+   "neden": "'Cengiz' yazar atfı (Genghis değil); 'yer tutucu' yanlış çevrilmiş"
+  },
+  {
+   "tur": "arayuz",
+   "id": "# Temmuz # [ÇELİŞKİ-# BALKAN-HALEF: kaynaklar #/#/#/# Temmuz arasında ayrışır — TDV «Edirne» #, TDV «Bulgaristan» #; Çetin, TÜBA «Millî Mücadele Döneminde Edirne» #; TTK «Balkan Harbi» # (# Temmuz Kırklareli); Zamacı, Balkan Araştırma Enst. Dergisi #/# (#) s.#: # (# Kırklareli); Tamat, Atatürk Yolu # (#): Bulgar işgali # Mart-# Temmuz #. Çift teyit yazılamaz; gün TDV «Edirne» ile # korundu]",
+   "taban": "# juli # [TEGENSPRAAK-# BALKAN-HALEF: bronnen lopen uiteen tussen #/#/#/# juli — TDV «Edirne» #, TDV «Bulgarije» #; Çetin, TÜBA «Millî Mücadele Döneminde Edirne» #; TTK «Balkan Harbi» # (# juli Kırklareli); Zamacı, Balkan Araştırma Enst. Dergisi #/# (#) p.#: # (# Kırklareli); Tamat, Atatürk Yolu # (#): Bulgaarse bezetting # maart-# juli #. Dubbele bevestiging kan niet worden geschreven; dag behouden volgens TDV «Edirne» met #]",
+   "main": "# juli # [TEGENSPRAAK-# BALKAN-HALEF: bronnen lopen uiteen tussen #/#/#/# juli — TDV «Edirne» #, TDV «Bulgarije» #; Çetin, TÜBA «Millî Mücadele Döneminde Edirne» #; TTK «Balkan Harbi» # (# juli Kırklareli); Zamacı, Balkan Araştırma Enst. Dergisi #/# (#) p.#: # (# Kırklareli); Tamat, Atatürk Yolu # (#): Bulgaarse bezetting # maart-# juli #. Een dubbele bevestiging kan niet worden vastgelegd; dag behouden volgens TDV «Edirne» met #]",
+   "oneri": "# juli # [TEGENSPRAAK-# BALKAN-HALEF: bronnen lopen uiteen tussen #/#/#/# juli — TDV «Edirne» #, TDV «Bulgarije» #; Çetin, TÜBA «Millî Mücadele Döneminde Edirne» #; TTK «Balkan Harbi» # (# juli Kırklareli); Zamacı, Balkan Araştırma Enst. Dergisi #/# (#) p.#: # (# Kırklareli); Tamat, Atatürk Yolu # (#): Bulgaarse bezetting # maart-# juli #. Dubbele bevestiging kan niet worden genoteerd; dag # behouden op gezag van TDV «Edirne»]",
+   "neden": "cümle sonu bozuk/anlaşılmaz"
+  },
+  {
+   "tur": "arayuz",
+   "id": "# dolayı (Cebrî hânedanının kuruluşu XV. yüzyıl başına tarihlenir)",
+   "taban": "# omstreeks (de stichting van de dynastie Cebrî wordt gedateerd begin 15e eeuw)",
+   "main": "omstreeks # (de stichting van de dynastie Cebrî wordt gedateerd begin 15e eeuw)",
+   "oneri": "omstreeks # (de stichting van de dynastie Cebrî wordt aan het begin van de 15e eeuw gedateerd)",
+   "neden": "sözdizimi"
+  },
+  {
+   "tur": "arayuz",
+   "id": "# dolayı (ca #)",
+   "taban": "# omstreeks (ca #)",
+   "main": "omstreeks # (ca #)",
+   "oneri": "omstreeks # (ca. #)",
+   "neden": "sözdizimi, 'ca.' noktalama"
+  },
+  {
+   "tur": "arayuz",
+   "id": "# sonbaharı — Kudüs için muhtemelen Ekim # (Ercan); Nablus '# sonbaharı'",
+   "taban": "# herfst — voor Jeruzalem waarschijnlijk oktober # (Ercan); Nablus '# herfst'",
+   "main": "herfst # — voor Jeruzalem waarschijnlijk oktober # (Ercan); Nablus '# herfst'",
+   "oneri": "herfst # — voor Jeruzalem waarschijnlijk oktober # (Ercan); Nablus 'herfst #'",
+   "neden": "sözdizimi"
+  },
+  {
+   "tur": "arayuz",
+   "id": "# yılı",
+   "taban": "# jaar",
+   "main": "jaar #",
+   "oneri": "het jaar #",
+   "neden": "'# jaar' süre anlamı verir"
+  },
+  {
+   "tur": "arayuz",
+   "id": "# yılı içinde",
+   "taban": "# binnen het jaar",
+   "main": "in de loop van #",
+   "oneri": "in de loop van het jaar #",
+   "neden": "sözdizimi"
+  },
+  {
+   "tur": "arayuz",
+   "id": "# yılı takvimde yoktur; milada (# Ocak MS #) gidildi",
+   "taban": "# het jaar bestaat niet in de kalender; er is overgegaan naar de christelijke jaartelling (# januari na Chr. #)",
+   "main": "het jaar # bestaat niet in de kalender; er is overgegaan naar de christelijke jaartelling (# januari # na Chr.)",
+   "oneri": "het jaar # bestaat niet in de kalender; er is naar het begin van de christelijke jaartelling gegaan (# januari # n.Chr.)",
+   "neden": "sözdizimi; 'milada gidildi' = miladın başına gidildi"
+  },
+  {
+   "tur": "arayuz",
+   "id": "#-# Kasım # gecesi",
+   "taban": "#-# november # in de nacht",
+   "main": "in de nacht van #-# november #",
+   "oneri": "nacht van #-# november #",
+   "neden": "doğal anlatım"
+  },
+  {
+   "tur": "arayuz",
+   "id": "#-# Mayıs # gecesi",
+   "taban": "#-# mei # in de nacht",
+   "main": "in de nacht van #-# mei #",
+   "oneri": "nacht van #-# mei #",
+   "neden": "doğal anlatım"
+  },
+  {
+   "tur": "arayuz",
+   "id": "#-# Nisan gecesi #",
+   "taban": "#-# nacht van april #",
+   "main": "in de nacht van #-# april #",
+   "oneri": "nacht van #-# april #",
+   "neden": "bozuk sözdizimi"
+  },
+  {
+   "tur": "arayuz",
+   "id": "#/# Kasım # gecesi",
+   "taban": "#/# november # in de nacht",
+   "main": "in de nacht van #/# november #",
+   "oneri": "nacht van #/# november #",
+   "neden": "doğal anlatım"
+  },
+  {
+   "tur": "arayuz",
+   "id": "#/# Mayıs # gecesi (Temeşvar paşası # Mayıs'ta Lippa önünden çekildi)",
+   "taban": "#/# mei # in de nacht (de pasja van Temeşvar trok zich op # mei terug van voor Lippa)",
+   "main": "in de nacht van #/# mei # (de pasja van Temeşvar trok zich op # mei terug van voor Lippa)",
+   "oneri": "nacht van #/# mei # (de pasja van Temeşvar trok op # mei weg van voor Lippa)",
+   "neden": "doğal anlatım"
+  },
+  {
+   "tur": "arayuz",
+   "id": "(toprak değişince harita devletin sınırlarına ZIPLASIN mı — sıçramalıdır, adaptif genişlik bunun yumuşak hâlidir)",
+   "taban": "(moet de kaart bij een gebiedswijziging NAAR de grenzen van de staat SPRINGEN — moet springen, adaptieve breedte is de zachte vorm daarvan)",
+   "main": "(moet de kaart bij een gebiedswijziging NAAR de grenzen van de staat SPRINGEN — het is een sprong; adaptieve breedte is de zachte variant daarvan)",
+   "oneri": "(moet de kaart bij een gebiedswijziging NAAR de grenzen van de staat SPRINGEN — dit gaat schoksgewijs, adaptieve breedte is de zachte vorm daarvan)",
+   "neden": "'sıçramalıdır' = sıçrama biçimindedir, 'moet springen' yanlış"
+  },
+  {
+   "tur": "arayuz",
+   "id": "C — belgeli ama KABA sınır: tek renk siyah. Koordinatı milimetrik değildir, boya bu hatta OTURTULMAZ",
+   "taban": "C — gedocumenteerde maar RUWE grens: één kleur zwart. Het coördinaat is niet millimetrisch, de kleur wordt NIET op deze lijn gezet",
+   "main": "C — gedocumenteerde maar RUWE grens: één kleur zwart. De coördinaten zijn niet millimeternauwkeurig, de kleur wordt NIET op deze lijn gezet",
+   "oneri": "C — gedocumenteerde maar RUWE grens: één kleur zwart. De coördinaten zijn niet op de millimeter nauwkeurig, de kleur wordt NIET op deze lijn gezet",
+   "neden": "artikel hatası ('het coördinaat') ve doğal olmayan 'millimetrisch'"
+  },
+  {
+   "tur": "arayuz",
+   "id": "Eylül # [yalnız ay teyitli; t #-#-# gün yer tutucusu — TDV «Estergon» yalnız Eylül # verir, ÇELİŞKİ-# Macaristan hattı]",
+   "taban": "september # [alleen maand bevestigd; t #-#-# dagplaatsvervanger — TDV «Esztergom» geeft alleen september #, TEGENSPRAAK-# Hongaarse lijn]",
+   "main": "september # [alleen maand bevestigd; t #-#-# plaatshouder voor de dag — TDV «Esztergom» geeft alleen september #, TEGENSPRAAK-# Hongaarse lijn]",
+   "oneri": "september # [alleen maand bevestigd; t #-#-# tijdelijke dagaanduiding — TDV «Esztergom» geeft alleen september #, TEGENSPRAAK-# Hongaarse lijn]",
+   "neden": "'yer tutucu' yanlış çevrilmiş"
+  },
+  {
+   "tur": "arayuz",
+   "id": "MÖ # (Aşurbanipal'in Mısır seferi; #/#)",
+   "taban": "v.Chr. # (Ashurbanipals Egyptische veldtocht; #/#)",
+   "main": "# v.Chr. (Ashurbanipals Egyptische veldtocht; #/#)",
+   "oneri": "# v.Chr. (Assurbanipals Egyptische veldtocht; #/#)",
+   "neden": "Felemenkçe: yıl + v.Chr.; yerleşik ad Assurbanipal"
+  },
+  {
+   "tur": "arayuz",
+   "id": "MÖ # (tarihli en erken uç; ALT SINIR)",
+   "taban": "v.Chr. # (vroegst gedateerd uiteinde; ONDERGRENS)",
+   "main": "# v.Chr. (vroegst gedateerd uiteinde; ONDERGRENS)",
+   "oneri": "# v.Chr. (vroegst gedateerde uiteinde; ONDERGRENS)",
+   "neden": "'v.Chr.' yıldan sonra; sıfat çekimi"
+  },
+  {
+   "tur": "arayuz",
+   "id": "MÖ # (yaklaşık; Asurbanipal yıl #)",
+   "taban": "v.Chr. # (bij benadering; Ashurbanipal jaar #)",
+   "main": "# v.Chr. (bij benadering; Ashurbanipal jaar #)",
+   "oneri": "# v.Chr. (bij benadering; Assurbanipal jaar #)",
+   "neden": "'v.Chr.' yıldan sonra; yerleşik ad Assurbanipal"
+  },
+  {
+   "tur": "arayuz",
+   "id": "Şehir dizisi ve ana/tali ayrımı henüz kaynakla doğrulanmadı.",
+   "taban": "De stedenreeks en het onderscheid hoofd/neven is nog niet met een bron bevestigd.",
+   "main": "De stedenreeks en het onderscheid hoofd/neven zijn nog niet met een bron bevestigd.",
+   "oneri": "De stedenreeks en het onderscheid tussen hoofd- en zijtakken zijn nog niet met een bron bevestigd.",
+   "neden": "'neven' = kuzenler; fiil çoğul"
+  },
+  {
+   "tur": "arayuz",
+   "id": "🗣️ Nasıl bilirdiniz",
+   "taban": "🗣️ Hoe kende u het",
+   "main": "🗣️ Hoe herinnert u zich hem?",
+   "oneri": "🗣️ Hoe kende u hem",
+   "neden": "cenaze sorusu: kişi (hem), 'het' yanlış"
+  },
+  {
+   "tur": "devlet",
+   "id": "basuto",
+   "taban": "Koninkrijk Basoetoland (Basotho)",
+   "main": "Koninkrijk der Basotho (Basoetoland)",
+   "oneri": "Basotho-koninkrijk (Basuto)",
+   "neden": "'Basoetoland' sömürge/himaye adı; kayıt Basotho krallığı"
+  },
+  {
+   "tur": "devlet",
+   "id": "nabatiye",
+   "taban": "Nabateeërs Koninkrijk",
+   "main": "Nabatees Koninkrijk",
+   "oneri": "Koninkrijk der Nabateeërs",
+   "neden": "dilbilgisi hatası"
+  },
+  {
+   "tur": "devlet",
+   "id": "karya-hekatomnid",
+   "taban": "Satrapendynastie Hekatomnididen van Karië",
+   "main": "Satrapendynastie der Hekatomniden van Karië",
+   "oneri": "Satrapendynastie van de Hekatomniden in Karië",
+   "neden": "yazım hatası"
+  },
+  {
+   "tur": "devlet",
+   "id": "onceki-shu",
+   "taban": "Eerder Shu (Qian Shu)-koninkrijk",
+   "main": "Koninkrijk Vroegere Shu (Qian Shu)",
+   "oneri": "Vroegere Shu (Qian Shu)-koninkrijk",
+   "neden": "'eerder' sıfat olamaz"
+  },
+  {
+   "tur": "devlet",
+   "id": "sonraki-shu",
+   "taban": "Later Shu (Hou Shu)-koninkrijk",
+   "main": "Koninkrijk Latere Shu (Hou Shu)",
+   "oneri": "Latere Shu (Hou Shu)-koninkrijk",
+   "neden": "sıfat eki; öteki 'Latere' kayıtlarıyla tutarlı"
+  },
+  {
+   "tur": "devlet",
+   "id": "tarsus-emirlik",
+   "taban": "Emiraat Yaghmurasan van Tarsus",
+   "main": "Grensemiraat (Thughur) Tarsus",
+   "oneri": "Thughur-emiraat Tarsus",
+   "neden": "uydurma özel ad; 'Tuğur' (sugûr, uç) kaybolmuş — ağır hata"
+  },
+  {
+   "tur": "devlet",
+   "id": "ifraniler-tilimsan",
+   "taban": "Yifrenieden (Banu Yifran - Tlemcen/Salé)",
+   "main": "Ifraniden (Banu Ifran - Tlemcen/Salé)",
+   "oneri": "Yifraniden (Banu Yifran - Tlemcen/Salé)",
+   "neden": "yazım hatası"
+  }
+ ],
+ "red": [
+  [
+   "duzeltme_001.jsonl:7",
+   "okunamadi/kayit yok: KeyError('# Eylül gecesi')"
+  ]
+ ]
+}
