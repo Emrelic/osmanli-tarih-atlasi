@@ -1,0 +1,28 @@
+== ilerleme.txt
+Tamamen okunan: 1_arayuz_001-009 (yaklaşık 2030 arayüz kaydı), 2_devlet_001-011 (yaklaşık 2300 devlet kaydı), 3_bayrakli_001-007, 4_olay_001-006 (yaklaşık 160 olay kaydı)
+Okunmayan: 3_bayrakli_008-080, 4_olay_007-174
+Notlar (toplu düzeltilmedi, kalıp):
+- Türkçe sıra sayısı biçimi ("I. Murad", "II. Mahmud", "I. Viyana") olay metinlerinde yaygın; Svahilide "Murad wa Kwanza / Mahmud II" olmalı. Yalnız bazı başlıklar düzeltildi.
+- "Dukedom ya ..." (İngilizce) birçok olay paketinde var (Grep: 4_olay_017, 032, 033, 050, 052, 059, 060, 061, 065, 068, 069); devlet adlarında "Dukedi". Okunmayan paketlerde düzeltilmedi.
+- "kapitülasyon/kapitulasyon" Türkçe-karışık biçim birçok olayda.
+- "Hungary" / "Hungaria" tutarsızlığı (devlet adlarında Hungaria).
+- OLAYLAR:1453-05-29 d: "Silivri na Vize zilishindwa" (fethedildi yerine 'yenildi' tınısı) - "zilitekwa" daha doğru.
+
+== ilerleme_a.txt
+Tamamen okunan: 4_olay_007 - 4_olay_036 (30 paket, aralık tamam). Her paketteki kayıtların tamamı "olay" türü.
+Düzeltme dosyaları: duzeltme_a_001 - 008.jsonl
+
+== ilerleme_b.txt
+Tamamen okunan: 4_olay_037-066 (30/30 paket; aralık tamam)
+
+== ilerleme_c.txt
+Okunan paketler: 4_olay_067-101 (tamamı; aralık bitti)
+Olay kaydı: 35 paketin tamamı okundu.
+
+== ilerleme_d.txt
+Okunan paketler: 4_olay_102-137 (tamamı; aralık bitti)
+Bakılan: yalnız 'olay' kayıtları (arayüz/devlet bu turda okunmadı).
+
+== ilerleme_e.txt
+Tam okunan: 4_olay_138 - 4_olay_174 (37/37 paket; aralık bitti)
+Bakılan tür: yalnız olay (kayıt sayısı tek tek sayılmadı)
