@@ -1,0 +1,118 @@
+- arayuz | # Ağustos # (Ateş: # Ağustos'ta Osmanlı müfrezesi çekildi) | m: Ateş yazar soyadı; 'ateş' (النار) diye çevrilmiş
+- arayuz | # — önemsizleri ele | m: Anlam tam tersi: 'ele' = eleyip çıkar
+- arayuz | Aralık # — padişahın vefatı (# Aralık) sonrası | m: Yer tutucu sırası: ilk # yıl; gün gibi görünüyordu
+- arayuz | Şubat # (ay hassasiyeti; geçiş günü kaynakta yok) | m: Yer tutucu (yıl) ayın önüne geçmiş; ay adı biçimi diğerleriyle uyumlu
+- arayuz | # (#) ilkbaharı | m: Bozuk Arapça söz dizimi
+- arayuz | # (#) sonbaharı — Ağustos #'ten az sonra; gün kaynakta yok, hicrî # yılının ilk günü (# Muharrem = # Eylül #) kullanıldı | m: Bozuk Arapça söz dizimi
+- arayuz | # (#) yazı, Semendire'nin düşüşünden sonra — gün kaynakta yok; t ALT SINIR | m: Bozuk Arapça söz dizimi
+- arayuz | Yaz # | m: Dilbilgisi: yıl ile tamlamada belirlilik takısı olmaz
+- arayuz | #, # Ajaw # Pax (December #, #) | m: Çevrilmemiş İngilizce ay adı ve Latin virgül
+- arayuz | #, # Ajaw # Sotz' (May #, #) | m: Çevrilmemiş İngilizce ay adı
+- arayuz | DİZİ | m: Türkçe kalıntı; çevrilmemiş etiket
+- arayuz | Kahvehane — tarih forumu | m: Türkçe kalıntı; kardeş kayıt 'المقهى' kullanıyor
+- arayuz | Kelimeleri boşlukla ayırın — HEPSİ geçen maddeler kalır (Mohaç macar). Tırnak tek ifade sayılır: "meydan muharebesi". Büyük/küçük harf ve Türkçe şapka farkı YOK. | m: 'şapka' (^) işareti 'şedde' diye çevrilmiş
+- arayuz | km yakınındaki taşma örtüldü). | m: 'taşma' çizim taşması; 'sel baskını' diye çevrilmiş
+- arayuz | ’ten itibaren (açık uç) | m: Ek parçası: değer öne geliyor, Arapçada tırnak artığı ve ters sıra
+- arayuz | ’ten itibaren — bu hat # sınırından | m: Ek parçası: değer öne geliyor, Arapçada tırnak artığı ve ters sıra
+- arayuz | 🗣️ Nasıl bilirdiniz | m: Nesnesiz, yarım cümle (cenaze sorusu kalıbı)
+- devlet | lur-i-buzurg | m: Hanedan adı yanlış (Hazaraspîler)
+- devlet | sur-hanedani | m: 'السوريون' = Suriyeliler; iç içe parantez ve TR'de olmayan ek
+- devlet | nuu-cah-nulth | m: Mowachaht yanlış aktarılmış
+- devlet | tsvana | m: Yazım hatası
+- devlet | basuto | m: Aynı sözcük iki kez
+- devlet | gyaaman | m: Yazım hatası
+- devlet | adar | m: Yazım hatası
+- devlet | karga | m: Halk adı (Crow) kuş adı olarak çevrilmiş
+- devlet | sirbistan-nemanjic | m: Hanedan adı yanlış (Nemanjić)
+- devlet | tuareg-accer | m: Kel Ajjer yanlış aktarılmış
+- devlet | moundville | m: Yer adı yazımı
+- devlet | mutahharten | m: Kişi adı yanlış yazılmış
+- devlet | yadava | m: Arapça dışı harf (ڤ)
+- devlet | tui-tonga-imparatorlugu | m: ʻokina ayn harfine çevrilmiş
+- devlet | mapuche-araukanya | m: Arapça dışı harf (پ)
+- devlet | boriler | m: Tuğtegin adı yanlış (طغتكين)
+- devlet | livonya-tarikati | m: 'tarikat' (rahip-şövalye düzeni) 'sistem' diye çevrilmiş
+- devlet | paramara | m: Yazım hatası
+- devlet | italyan-karadag | m: 'valilik' yanlış; 'İtalyan Karadağ hükûmeti' okunuyor
+- devlet | rimini-malatesta | m: Aile adı eksik yazılmış (Malatesta)
+- devlet | trucial-states | m: Yazım hatası
+- devlet | pontus | m: Mithridates yanlış yazılmış
+- devlet | alamanlar | m: Alemanni 'Almanlar' diye çevrilmiş
+- devlet | odris | m: Odrys adı yanlış
+- devlet | wu-zhou | m: Wu Zetian yanlış aktarılmış
+- devlet | chenla | m: Zhenla yanlış aktarılmış
+- devlet | sakalar-bati-satraplar | m: Arapça dışı harf (پ)
+- devlet | karya-hekatomnid | m: Arapça dışı harf (پ)
+- devlet | harsha | m: Arapça dışı harf (پ)
+- devlet | karluk | m: 'kara' yerleşik Arapça biçimi قرا
+- devlet | parsua | m: Arapça dışı harf (پ)
+- devlet | kaanul | m: Uzun ünlü ayn harfine çevrilmiş
+- devlet | mozia | m: Aynı ad iki kez (Mozia / Motya)
+- devlet | aseramik-kuzey-levant-anadolu | m: Epipaleolitik dönemi kaybolmuş, anlam yanlış
+- devlet | anau-ia-kultur | m: Meana yanlış yazılmış
+- devlet | 12-su-quan | m: Yazım ve dilbilgisi hatası
+- devlet | somavamsi | m: Arapça dışı harf (ڤ)
+- devlet | ayudha-kannauj | m: Ayudha yanlış aktarılmış
+- devlet | alkhon | m: Özel ada yanlış tenvin
+- devlet | chenla-su | m: Türkçe kalıntı: 'su' sözcüğü harf harf aktarılmış
+- devlet | chenla-toprak | m: Türkçe kalıntı: 'toprak' sözcüğü harf harf aktarılmış
+- devlet | hirvat-dukalik | m: Arapça dışı harf (پ)
+- devlet | varman-vanga | m: Arapça dışı harf (پ)
+- devlet | macushi-wapishana-halklari | m: Arapça dışı harf (پ)
+- devlet | avusturya-marki | m: Babenberg yazım hatası
+- devlet | kerait | m: Aynı ad iki kez (Kerâyit / Kereyid)
+- olay | OLAYLAR_OK109:1919-11-27:0 | d: Cümle bozuk, anlamsız
+- olay | OLAYLAR_T5_1000A:1095-01-01:0 | d: Bozuk Arapça hanedan adı; devlet adıyla (بنو إينال) uyumsuz
+- olay | OLAYLAR_EK17:1738-08-01:0 | d: Arapça dışı harfler (پ، چ)
+- olay | OLAYLAR:1337-01-01:0 | d: İmla hatası (لالقسطنطينية)
+- olay | OLAYLAR:1396-09-25:0 | d: Dilbilgisi uyumsuzluğu
+- olay | OLAYLAR:1413-07-05:0 | d: Yer adı yanlış (Çamurlu) ve 'فترة الفترة' bozuk
+- olay | OLAYLAR:1473-01-01:0 | d: 'eski Osmanlı topçuları' (eski topçu askerleri) 'eski topçu birliği/silahı' olmuş; Arapça dışı harf
+- olay | OLAYLAR:1596-10-26:0 | b: Arapça dışı harf (چ)
+- olay | OLAYLAR:1730-09-25:0 | d: 'tellak' berber diye çevrilmiş
+- olay | OLAYLAR:1878-07-13:0 | d: Yer adı yanlış: Vidin 'ديدين' yazılmış
+- olay | OLAYLAR:1913-05-30:0 | d: Çevrilmemiş yer adları; 'Girit (Resmo)' adayı Rethimno yerine 'كريت' yazılmış
+- olay | OLAYLAR:1915-03-18:0 | d: Nusret mayın döşeme gemisi; 'mayın tarama gemisi' diye çevrilmiş
+- olay | OLAYLAR:1919-05-19:0 | d: Cinsiyet uyumu hatası
+- olay | OLAYLAR_EK:1393-06-17:1 | b: Aynı ad iki kez
+- olay | OLAYLAR_EK:1392-11-01:0 | d: Devrek yer adı yanlış
+- olay | OLAYLAR_EK:1461-06-01:0 | d: Devrek yer adı yanlış
+- olay | OLAYLAR_EK:1471-01-01:0 | b: Arapça dışı harf (چ)
+- olay | OLAYLAR_EK:1471-01-01:0 | d: Arapça dışı harf (چ)
+- olay | OLAYLAR_EK:1480-08-11:0 | d: Cümle anlamsız kurulmuş
+- olay | OLAYLAR_EK:1526-09-01:0 | d: Cümle bozuk (TR'deki bozukluk aynen taşınmış)
+- olay | OLAYLAR_EK:1829-09-14:0 | d: İmla: الإفلاق (iflas) yerine الأفلاق (Eflak)
+- olay | OLAYLAR_EK:1885-09-18:0 | d: Cinsiyet uyumu hatası
+- olay | OLAYLAR_EK:1328-01-01:0 | d: Cümle bozuk, anlam tersine okunuyor
+- olay | OLAYLAR_EK2:1851-01-01:0 | b: Dilbilgisi (sıfat tamlaması)
+- olay | OLAYLAR_EK2:1703-08-22:0 | d: 'linç' taşlayarak öldürme (recm) diye çevrilmiş
+- olay | OLAYLAR_EK2:1578-08-09:0 | d: Fiil uyumu hatası
+- olay | OLAYLAR_EK2:1612-11-20:0 | d: Bozuk fiil ('وعيد' tehdit diye okunur)
+- olay | OLAYLAR_EK3:1411-01-01:0 | d: Cümle bozuk (bağlaç eksik)
+- olay | OLAYLAR_EK3:1683-01-01:0 | d: Kişi adı yazımı (Vânî)
+- olay | OLAYLAR_EK3:1684-03-05:0 | d: Aynı ad parantez içinde aynen tekrarlanmış
+- olay | OLAYLAR_EK3:1687-08-12:0 | d: Anlam tersine okunuyor (hezimet 'indirilmiş')
+- olay | OLAYLAR_EK3:1689-08-01:0 | d: Dilbilgisi (لم يُعَد)
+- olay | OLAYLAR_EK3:1689-10-25:0 | d: Dilbilgisi (لم يُعَد)
+- olay | OLAYLAR_EK3:1690-09-27:0 | d: Yer adı yanlış: Vidin
+- olay | OLAYLAR_EK3:1690-10-08:0 | d: Cinsiyet uyumu hatası
+- olay | OLAYLAR_EK3:1695-02-22:0 | d: 'Koyun Adaları' özel adı 'av adaları' diye çevrilmiş
+- olay | OLAYLAR_EK4:1832-07-15:0 | d: Fiil uyumu hatası
+- olay | OLAYLAR_EK4:1832-07-29:0 | b: Başlıkta TR'de olmayan bilgi eklenmiş
+- olay | OLAYLAR_EK4:1832-09-13:0 | b: İçil özel adı 'iç sahil' diye çevrilmiş; Arapça dışı harf
+- olay | OLAYLAR_EK4:1832-09-13:0 | d: Arapça dışı harf (چ)
+- olay | OLAYLAR_EK4:1833-06-15:0 | d: İçil özel adı 'iç sahil' diye çevrilmiş
+- olay | OLAYLAR_EK4:1832-09-13:1 | d: Arapça dışı harf (پ)
+- olay | OLAYLAR_EK4:1834-08-01:0 | d: Arapça dışı harf (چ)
+- olay | OLAYLAR_EK4:1833-02-02:0 | d: Cümle bozuk
+- olay | OLAYLAR_EK4:1840-09-10:0 | d: Fiil uyumu hatası
+- olay | OLAYLAR_EK5:1671-01-01:0 | d: Dilbilgisi uyumu
+- olay | OLAYLAR_EK5:1329-06-01:0 | d: Arapça dışı harf (پ)
+- olay | OLAYLAR_EK5:1401-02-01:0 | b: Ad sırası ters (Yıldırım Bayezid)
+- olay | OLAYLAR_EK5:1404-03-01:0 | d: Yer adları yanlış/ters aktarılmış (Aydos Kalesi, Behramkale)
+- olay | OLAYLAR_EK5:1412-10-01:0 | d: Yer adı yazım hatası (Çamurlu)
+- olay | OLAYLAR_EK5:1427-01-01:0 | d: Arapça dışı harfler (گ، چ)
+- olay | OLAYLAR_EK5:1516-08-24:0 | d: Arapça dışı harf (پ)
+- olay | OLAYLAR_EK5:1476-07-26:0 | d: AĞIR anlam hatası: Fatih Osmanlı ordusunu da yenmiş gibi okunuyor
+- olay | OLAYLAR_EK5:1373-05-15:0 | b: 've' bağlacı eksik: tek kişi gibi okunuyor
+- olay | OLAYLAR_EK5:1463-07-28:0 | d: Yer adı yazımı (diğer maddelerle uyumsuz)

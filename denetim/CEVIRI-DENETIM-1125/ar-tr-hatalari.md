@@ -1,0 +1,12 @@
+- arayuz "# Ocak # (imzalar # Ocak-# Mart arası şeyhlik şeyhlik tamamlandı)": "şeyhlik şeyhlik" tekrarı / bozuk cümle.
+- arayuz (tarih dizgeleri, birçok kayıt): kullanıcıya görünen iç notlar — "ÇELİŞKİ-#", "... OKUNMADI", "olaylar_ek#", "kronoloji_safevi.js", "bk. ic_not_t", "karaman künye ic_not_t", "donem-toplami", "yerlesim-suresi", "eski t #-#-# ay başı yer tutucuydu", "t #-#-# gün yer tutucusu", "t ALT SINIR / t ÜST SINIRDIR", "`YYYY-#-#` beyandır", "[ozet; teyit bekler]", "(kaynak özeti teyit bekler)", "(Emre notu ##)".
+- olay OLAYLAR_2S0920:1942-01-01:0: açıklamada kullanıcıya görünen "(bkz. ic_not)".
+- olay OLAYLAR_DUNYA_BOLGE_1109:1917-03-15:0: "[[rusya-gecici-hukumet]], [[sovyet-rusya]]" ham bağlantı işaretleri.
+- olay OLAYLAR_EK3:1689-08-01:0 ve :1689-10-25:0: "bu oturumda yeniden doğrulanmadı" (oturum iç notu); 1689-08-01'de "Gün ve Röder okuması".
+- olay (birçok, ör. OLAYLAR_EK3:1690-09-27:0, 1688-09-06:0, OLAYLAR_EK5:1716-10-13:0): "abi-merkez zinciri", "beyanlı yaklaşıklık", "Atlas ... yazar" iç yöntem dili.
+- olay OLAYLAR:1913-05-30:0: "Girit (Resmo)" — "Resmo (Rethymno)" olmalı.
+- olay OLAYLAR_ARKEOLOJI_LEVANT_ANADOLU (Nevalı Çori, Aşıklı Höyük): açıklamalar Türkçe harfsiz ("Yukari Firat'ta ... yerlesmesi", "MO'dan").
+- olay OLAYLAR_EK:1328-01-01:0: "uç beyliği bölge Şehzade Murad'a verildi" bozuk cümle.
+- olay OLAYLAR_EK:1526-09-01:0: "Budin'e yürüyen Osmanlı ordusuna şehrin anahtarları ... sultana takdim edildi" bozuk cümle.
+- olay OLAYLAR_LAB19_BOS_1119:1446-01-01:0: "Hacer el-Yemâme b. Dir'" kişi adı gibi duruyor; "Hacerü'l-Yemâme (hâkimi) İbn Dir'" olabilir, kaynaktan bakılmalı.
+- olay OLAYLAR_EK3:1403-06-15:0 ve :1403-02-01:0 (+ OLAYLAR_EK:1403-06-01:0): aynı 1403 Gelibolu Antlaşması üç ayrı maddede, farklı ay (Şubat/Haziran) — mükerrer olabilir.
