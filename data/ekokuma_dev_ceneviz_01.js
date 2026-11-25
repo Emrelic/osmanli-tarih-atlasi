@@ -82,6 +82,31 @@ window.EKOKUMA_DEVCENEVIZ01 = [
     "Mimarı ise zaferin tadını uzun süre çıkaramadı. Birkaç gün sonra, 9 Mayıs'ta, soylu muhaliflerin ayaklanması Boccanegra'yı devirdi. Sürgünde Fransa'ya gitti ve sonunda Aigues-Mortes'un surlarıyla limanındaki işleri yönetti.\n\n" +
     "Tarihçiler bugün ne diyor? Ekonomi tarihçisi Robert S. Lopez antlaşmayı Cenova için yeni bir yayılma döneminin başlangıcı sayar. Boccanegra'yı da sıradan bir halk kaptanından çok, sonraki yüzyılın kent senyörlerine benzeyen, giderek daha kişisel yöneten ama aydın ve bağışlayıcı bir yönetici olarak tanımlar.",
   kaynak:"Robert Sabatino Lopez, «BOCCANEGRA, Guglielmo», Dizionario Biografico degli Italiani, c. 11 (1969), treccani.it/enciclopedia/guglielmo-boccanegra_(Dizionario-Biografico).",
-  kesinlik:"kesin", teyit:"teyitli" }
+  kesinlik:"kesin", teyit:"teyitli" },
+
+{ id:"ceneviz-sakiz-maona", devlet:"cenova", tur:"sebep-sonuc",
+  baslik:"Bir adayı şirket yönetirse: Sakız Maonası",
+  kisa:"Filo başka bir iş için donatılmıştı. Yolu Sakız'a düştü, masrafını karşılaması gereken ortaklar da adanın efendisi oldu.",
+  olay:["1346-06-15|Simone Vignosi","1566-04-14|Sakız Adası Osmanlı"],
+  metin:"1345'te Batı Liguria'da bir ayaklanma çıkınca Cenovalı özel kişiler Simone Vignoso komutasında bir filo donattı. Koşul, devletin masrafı geri ödemesiydi. İlk hedef ortadan kalkınca filo, korunmaya muhtaç Ceneviz kolonilerinin bulunduğu Karadeniz yönüne gönderildi.\n\n" +
+    "8 Haziran 1346'da Eğriboz'da Vignoso, Sakız'a yönelmeye hazırlanan Viennois veliahdı II. Humbert ile karşılaştı. Humbert adayı İzmir'e karşı bir seferin üssü yapacaktı. Ortak hareket Venediklilerin işine de yarayacaktı. Vignoso öneriyi geri çevirdi ve önce davrandı: Sakızlılara yaklaşan saldırıya karşı yardım teklif etti, karşılığında askerlerinin kabul edilmesini ve Ceneviz bayrağını istedi. Reddedilince Haziran'da kale dışında adayı ele geçirdi; kale 12 Eylül'de teslim oldu.\n\n" +
+    "Seferin ortakları bir Maona kurdu. Maona, Cenova'da denizcilik girişimlerine özgü bir ortaklıktı: devletin üstlenemediği masrafı özel kişiler karşılıyor, karşılığında gelir ve haklar alıyordu. Sakız'da ortaklara yirmi yıllık bir tasarruf tanındı; bu süre sonunda devlet harcamaları ödeyip adayı alacaktı. Ödeme yapılamayınca Maona, Cenova'nın koruması altında egemenlik haklarıyla adanın sahibi olarak kaldı. Paylar el değiştirdi. 1362'deki bir anlaşmanın ardından ortaklar, şirket yönetiminin Cenova'daki binasından ötürü 'Giustiniani' adını aldı. Başlıca kazanç kaynaklarından biri sakız reçinesinin üretimi ve ticaretiydi.\n\n" +
+    "Tarihçiler bugün ne diyor? Vito A. Vitale 1934 tarihli maddesinde bazı iktisatçıların bu yapıda anonim şirketin habercisini gördüğünü aktarır. Bu bir benzetmedir: Maona vergi toplayan, memur bulunduran ve toprak yöneten bir ortaklıktı. Vitale onu, deniz savaşını büyük bir ticaret girişimi gibi düşünme geleneğinin ürünü sayar.",
+  kaynak:"Vito Antonio Vitale, «MAONA», Enciclopedia Italiana (1934), treccani.it/enciclopedia/maona_(Enciclopedia-Italiana); aynı yazar, «VIGNOSO, Simone», Enciclopedia Italiana (1937), treccani.it/enciclopedia/simone-vignoso_(Enciclopedia-Italiana).",
+  kesinlik:"kesin", teyit:"teyitli",
+  ic_not:"Kaynaklar 1930'lardan (eski ama akademik ansiklopedi). 'Vergi toplayan, memur bulunduran' cümlesi MAONA maddesindeki 'tutti i diritti sovrani' ifadesine dayanır; güncel monografiyle denetlenmeli. Vitale adanın elde tutulmasını 1561'e kadar, Genova (Dizionario di Storia 2010) Türk idaresine geçişi 1561 verir; atlas 1566-04-14 (TDV). Bitiş yılı karta yazılmadı. MAONA maddesi fethi 1347, VIGNOSO maddesi 1346 verir; ayrıntılı olan kullanıldı." },
+
+{ id:"ceneviz-korsika-1768", devlet:"cenova", tur:"tartisma",
+  baslik:"Cenova Korsika'yı Fransa'ya devretti. Ada o sırada kimin elindeydi?",
+  kisa:"1768'de imza Versailles'da atıldı. Adada ise on üç yıldır kendi anayasası, parası ve başkenti olan bir hükümet vardı.",
+  olay:["1768-05-15|Korsika Ceneviz"],
+  metin:"Korsika'da 1729'da Cenova'ya karşı başlayan ayaklanma onlarca yıl sürdü. 1755'te adaya dönen Pasquale Paoli, temmuzda 'Korsika ulusunun generali' seçildi; kasımda kabul edilen anayasa onu yeni düzenin başına yerleştirdi.\n\n" +
+    "Paoli yalnız savaşmıyordu. Başkent Corte oldu. Adalılar için ulusal para basıldı, düzenli birlikler kuruldu, yargı düzeni üzerinde ısrarla duruldu, kan davasını sınırlamaya çalışıldı. 1765'te Corte'de bir üniversite açıldı.\n\n" +
+    "Yine de Paoli adanın tümüne hâkim değildi. Cenevizlilerden Capo Corso bölgesini aldı ama stratejik kıyı hisarlarını koparamadı. Fransa'nın adadaki askerî varlığı da Cenova'ya destek oldu; 6 Ağustos 1764 tarihli İkinci Compiègne Antlaşması bu varlığın yeni dayanağıydı.\n\n" +
+    "15 Mayıs 1768'de Versailles Antlaşması Korsika'nın Fransa'ya bırakılmasını onayladı. Dışişleri Bakanı Choiseul'ün Paoli'ye Fransız korumasını kabul ettirme girişimleri sonuç vermemişti. Temmuzda çatışmalar başladı. Paoli 10 Ekim'de Borgo'da kazandı; fakat 8-9 Mayıs 1769'da Ponte Nuovo'da ağır bir yenilgi aldı ve haziranda bir İngiliz gemisiyle sürgüne gitti.\n\n" +
+    "Tarihçiler bugün ne diyor? Cenova şehrine ilişkin akademik ansiklopedi maddesi, devre yol açan etken olarak Paoli ayaklanmasının başarısını gösterir. Paoli'nin biyografisini yazan Mario Franceschi Leonardi'nin anlattıkları da imzanın tek başına adayı teslim etmeye yetmediğini ortaya koyar: Fransa'nın Korsika'yı alması için savaşması gerekti.",
+  kaynak:"Mario Franceschi Leonardi, «PAOLI, Pasquale», Dizionario Biografico degli Italiani, c. 81 (2014), treccani.it/enciclopedia/pasquale-paoli_(Dizionario-Biografico); «Genova», Dizionario di Storia (Treccani, 2010).",
+  kesinlik:"kesin", teyit:"teyitli",
+  ic_not:"Okunan iki madde antlaşmanın malî/borç koşullarını anlatmıyor; 'satış' tartışması bu yüzden karta alınmadı. Bağlanan atlas maddesi 'satıldı' diyor; kaynaklar 'cessione' (devir) diyor." }
 
 ];
