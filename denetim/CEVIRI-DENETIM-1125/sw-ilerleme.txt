@@ -1,3 +1,4 @@
+== ilerleme.txt
 Tamamen okunan: 1_arayuz_001-009 (yaklaşık 2030 arayüz kaydı), 2_devlet_001-011 (yaklaşık 2300 devlet kaydı), 3_bayrakli_001-007, 4_olay_001-006 (yaklaşık 160 olay kaydı)
 Okunmayan: 3_bayrakli_008-080, 4_olay_007-174
 Notlar (toplu düzeltilmedi, kalıp):
@@ -6,3 +7,10 @@ Notlar (toplu düzeltilmedi, kalıp):
 - "kapitülasyon/kapitulasyon" Türkçe-karışık biçim birçok olayda.
 - "Hungary" / "Hungaria" tutarsızlığı (devlet adlarında Hungaria).
 - OLAYLAR:1453-05-29 d: "Silivri na Vize zilishindwa" (fethedildi yerine 'yenildi' tınısı) - "zilitekwa" daha doğru.
+
+== ilerleme_a.txt
+Tamamen okunan: 4_olay_007 - 4_olay_036 (30 paket, aralık tamam). Her paketteki kayıtların tamamı "olay" türü.
+Düzeltme dosyaları: duzeltme_a_001 - 008.jsonl
+
+== ilerleme_b.txt
+Tamamen okunan: 4_olay_037-048

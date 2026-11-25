@@ -82,3 +82,160 @@
 - olay | OLAYLAR_EK:1480-08-11:0 | d: bozuk anlatım
 - olay | OLAYLAR_EK:1463-06-01:0 | d: İngilizce kalıntı (Dukedom)
 - olay | OLAYLAR_EK:1532-01-01:0 | d: 'imtiyaz' = ayrıcalık, 'kinga' = koruma
+- olay | OLAYLAR_EK:1452-08-31:0 | d: bozuk cümle yapısı, anlam anlaşılmıyor
+- olay | OLAYLAR_EK:1478-01-15:0 | d: İngilizce kalıntı (Grand Duke)
+- olay | OLAYLAR_EK2:1740-05-30:0 | d: yanlış anlam: 'sultana ait olmaktan çıktı' denmiş; padişah dönemiyle sınırlı olmaktan çıktı
+- olay | OLAYLAR_EK2:1557-10-16:0 | d: 'klasik dönem' 'sıradan dönem' (kawaida) diye çevrilmiş
+- olay | OLAYLAR_EK2:1575-03-01:0 | d: 'klasik' 'sıradan' diye çevrilmiş
+- olay | OLAYLAR_EK2:1616-06-09:0 | d: 'klasik' 'sıradan' diye çevrilmiş
+- olay | OLAYLAR_EK2:1390-01-15:0 | d: despotluk 'krallık' olmuş; vasallık ilişkisi anlaşılmıyor
+- olay | OLAYLAR_EK2:1456-06-01:0 | d: 'üçlü vassal kuşak' 'üç kat bağımlılık' diye yanlış
+- olay | OLAYLAR_EK2:1462-06-01:0 | b: edilgen yapı 'kazığa oturtulan voyvoda' anlamı veriyor
+- olay | OLAYLAR_EK2:1532-04-27:0 | b: İngilizce kalıntı (dukedom)
+- olay | OLAYLAR_EK2:1532-04-27:0 | d: İngilizce kalıntı (dukedom)
+- olay | OLAYLAR_EK3:1683-01-01:0 | d: özne tersine dönmüş: Tököli'yi kral ilan ettiren Mustafa Paşa
+- olay | OLAYLAR_EK3:1683-07-14:0 | b: 'İkinci Viyana' diye okunuyor
+- olay | OLAYLAR_EK3:1687-08-12:0 | b: 'II. Mohaç' yer adı gibi okunuyor
+- olay | OLAYLAR_EK4:1841-05-24:0 | d: 'vergi İstanbul'a bağlandı' 'İstanbul vergiyi kapattı' diye yanlış
+- olay | OLAYLAR_EK5:1281-01-01:0 | d: ngeli uyumu hatası
+- olay | OLAYLAR_EK5:1288-01-01:0 | b: 'şehir kazanımı' 'şehrin artışı' diye yanlış
+- olay | OLAYLAR_EK5:1288-01-01:0 | d: 'şehir kazanımı' yanlış anlam
+- olay | OLAYLAR_EK5:1329-06-01:0 | d: bozuk cümle
+- olay | OLAYLAR_EK5:1345-01-01:0 | d: 'gaziler' yerine anlamsız 'mazi' sözcüğü
+- olay | OLAYLAR_EK5:1399-11-01:0 | d: bozuk fiil yapısı
+- olay | OLAYLAR_EK5:1400-08-01:0 | d: bozuk anlatım
+- olay | OLAYLAR_EK5:1406-01-01:0 | b: şehir için canlı nesne eki (am-) hatası
+- olay | OLAYLAR_EK5:1352-01-01:0 | d: ngeli uyumu hatası
+- olay | OLAYLAR_EK5:1354-03-02:0 | d: fiil hatası: 'surlar düştü' yerine 'surları yıktı'
+- olay | OLAYLAR_EK5:1357-09-01:0 | d: 'gömülen türbe' diye yanlış anlam
+- olay | OLAYLAR_EK5:1466-01-01:0 | d: İngilizce kalıntı (dukedom)
+- olay | OLAYLAR_EK5:1466-06-01:0 | b: Türkçe sıra sayısı noktalaması kalıntısı
+- olay | OLAYLAR_EK5:1482-01-01:0 | d: İngilizce kalıntı (dukedom)
+- olay | OLAYLAR_EK5:1502-03-01:0 | d: 'memleket' yerine 'taht'; 'darbe' yanlış biçimde 'hükûmet darbesi' (mapinduzi)
+- olay | OLAYLAR_EK5:1532-04-25:0 | d: yanlış kip (asipotoka) ve bozuk cümle
+- olay | OLAYLAR_EK5:1532-08-05:0 | d: yanlış kip ve 'mevsimin ilerlemesi' bozuk çeviri
+- olay | OLAYLAR_EK5:1537-03-12:0 | d: 'iskelet' kemik (mfupa) diye çevrilmiş
+- olay | OLAYLAR_EK5:1537-08-25:0 | d: 'sarp yapı' anlaşılmaz çevrilmiş
+- olay | OLAYLAR_EK5:1567-04-01:0 | d: anlatım bozukluğu
+- olay | OLAYLAR_EK5:1659-02-16:0 | d: destek yönü ters çevrilmiş
+- olay | OLAYLAR_EK5:1716-08-20:0 | d: anlamsız tekrar (ngome za ngome)
+- olay | OLAYLAR_EK5:1716-10-13:0 | d: 'devir' (devretme) 'dönem' diye yanlış çevrilmiş
+- olay | OLAYLAR_EK5:1716-11-16:0 | d: yanlış anlam: teslim şartı 'beyaz bayrak çekmek' olmuş
+- olay | OLAYLAR_EK5:1724-06-24:0 | d: yazım hatası
+- olay | OLAYLAR_EK5:1737-08-04:0 | d: 'dönüm noktası' 'reform' diye yanlış çevrilmiş
+- olay | OLAYLAR_EK5:1739-10-03:0 | d: anlamsız tekrar (istihkâm)
+- olay | OLAYLAR_EK5:1790-01-31:0 | d: ngeli uyumu hatası
+- olay | OLAYLAR_EK5:1803-02-01:0 | d: yazım hatası
+- olay | OLAYLAR_EK5:1826-10-07:0 | d: 'vaad edilen' 'beklenen' diye yanlış
+- olay | OLAYLAR_EK5:1849-08-16:0 | d: 'çevresi' (maiyeti) 'ortam' (mazingira) diye çevrilmiş
+- olay | OLAYLAR_EK5:1859-02-05:0 | d: 'dönüm noktası' 'reform' diye yanlış
+- olay | OLAYLAR_EK5:1859-09-14:0 | d: özne-nesne karışmış: eşitlik fermanı vermiş gibi
+- olay | OLAYLAR_EK5:1877-12-10:0 | d: 'öncü birlikler' 'casuslar' diye yanlış
+- olay | OLAYLAR_EK5:1884-05-08:0 | d: eksik edat
+- olay | OLAYLAR_EK5:1908-12-17:0 | d: ngeli uyumu hatası
+- olay | OLAYLAR_EK5:1910-04-01:0 | d: anlam tersine: 'kuwaasi' = onlara isyan etmek
+- olay | OLAYLAR_EK5:1914-11-14:0 | d: anlam tersine: 'ayaklandırmak' yerine 'Müslümanlara isyan etmek'
+- olay | OLAYLAR_EK5:1914-12-22:0 | d: anlam tersine: 'ayaklandırmak' yerine 'Türklere isyan etmek'
+- olay | OLAYLAR_EK5:1918-07-03:0 | d: bozuk fiil yapısı
+- olay | OLAYLAR_EK5:1919-07-23:0 | d: cemiyet özel adı yarım çevrilmiş
+- olay | OLAYLAR_EK5:1538-08-03:0 | d: yazım hatası
+- olay | OLAYLAR_EK5:1547-02-01:0 | d: bozuk cümle yapısı
+- olay | OLAYLAR_EK5:1555-09-27:0 | d: 'ikiye bölen' 'iki kez' diye yanlış
+- olay | OLAYLAR_EK5:1537-10-01:0 | d: İngilizce kalıntı (dukedom)
+- olay | OLAYLAR_EK5:1715-06-05:0 | d: İngilizce kalıntı (dukedom)
+- olay | OLAYLAR_EK5:1282-03-30:0 | d: 'ikiye ayrıldı' 'iki kez bölündü' diye yanlış
+- olay | OLAYLAR_EK5:1560-05-14:0 | d: 'ikiye ayrılma' 'iki kez' diye yanlış
+- olay | OLAYLAR_EK5:1868-05-10:0 | d: 'ikiye ayrılarak' 'iki kez' diye yanlış
+- olay | OLAYLAR_EK5:1646-11-13:0 | b: 'iki kez bölünme' diye yanlış
+- olay | OLAYLAR_EK5:1646-11-13:0 | d: 'iki kez bölünmüş' diye yanlış
+- olay | OLAYLAR_EK5:1566-04-15:0 | b: İngilizce kalıntı (dukedom)
+- olay | OLAYLAR_EK5:1566-04-15:0 | d: İngilizce kalıntı (dukedom)
+- olay | OLAYLAR_EK5:1691-06-22:0 | d: edilgen fiil hatası
+- olay | OLAYLAR_EK5:1693-01-06:0 | d: edilgen fiil hatası
+- olay | OLAYLAR_EK5:1695-02-06:0 | d: edilgen fiil hatası
+- olay | OLAYLAR_EK5:1917-05-01:0 | d: Türkçe sıra sayısı noktalaması kalıntısı
+- olay | OLAYLAR_EK5:1912-11-25:0 | d: Türkçe sıra sayısı noktalaması kalıntısı
+- olay | OLAYLAR_EK5:1912-10-21:0 | d: Türkçe sıra sayısı noktalaması kalıntısı
+- olay | OLAYLAR_EK5:1912-10-30:0 | d: Türkçe sıra sayısı noktalaması kalıntısı
+- olay | OLAYLAR_EK5:1912-11-01:0 | d: Türkçe sıra sayısı noktalaması kalıntısı
+- olay | OLAYLAR_EK5:1912-11-21:0 | d: Türkçe sıra sayısı noktalaması kalıntısı
+- olay | OLAYLAR_EK6:1535-06-01:0 | d: ngeli uyumu hatası
+- olay | OLAYLAR_EK6:1535-09-22:0 | d: yanlış fiil ('limepeana' = birbirine verdi)
+- olay | OLAYLAR_EK6:1635-01-01:0 | d: 'takviye' = takviye kuvvet; 'nyongeza' tek başına anlamsız
+- olay | OLAYLAR_EK6:1686-07-10:0 | d: bozuk cümle
+- olay | OLAYLAR_EK6:1686-10-20:0 | d: 'İkinci Mohaç bozgunu' Türkçe sıra sayısıyla kalmış
+- olay | OLAYLAR_EK6:1687-12-17:0 | d: 'İkinci Mohaç bozgunu' Türkçe sıra sayısıyla kalmış
+- olay | OLAYLAR_EK6:1697-01-01:0 | d: Türkçe kalıntı (metropolitlik, vladikalık)
+- olay | OLAYLAR_EK6:1806-01-01:0 | d: bozuk cümle ('kipekee pekee') ve 'emîrlik' kalıntısı
+- olay | OLAYLAR_EK6:1795-04-01:0 | b: Türkçe 'emirliği' kalıntısı
+- olay | OLAYLAR_EK6:1795-04-01:0 | d: Türkçe 'emirliği' kalıntısı
+- olay | OLAYLAR_EK6:1810-07-11:0 | d: yazım hatası
+- olay | OLAYLAR_EK6:1819-05-10:0 | d: Türkçe ad kalıntısı (İyon)
+- olay | OLAYLAR_EK6:1883-01-19:0 | d: Türkçe 'hidivlik' kalıntısı ve bozuk cümle
+- olay | OLAYLAR_EK6:1912-11-11:0 | d: Türkçe 'emâret' kalıntısı
+- olay | OLAYLAR_EK6:1912-05-04:0 | d: 'teslim alındı' yanlış çevrilmiş ('kabul edildi')
+- olay | OLAYLAR_EK6:1912-05-12:0 | d: anlam tersine: 'karşılığında' yerine 'yerine'
+- olay | OLAYLAR_EK6:1913-03-26:0 | d: 'cephe' = savaş cephesi, 'çizgi' değil
+- olay | OLAYLAR_ILIRYA0072:1779-01-01:0 | b: 'aşiret' kolu: ukoo
+- olay | OLAYLAR_ILIRYA0072:1779-01-01:0 | d: 'kabila la ... la kabila la' tekrarı
+- olay | OLAYLAR_EK7:1481-05-22:0 | d: Cem küçük kardeş (kaka = ağabey yanlış); Yeniçeri desteği Cem'e verilmiş gibi okunuyordu
+- olay | OLAYLAR_EK7:1513-04-24:0 | d: Selim Ahmed'den küçük; 'kaka' (ağabey) yanlış
+- olay | OLAYLAR_EK7:1523-06-27:0 | d: Türkçe -lık ekli kalıntılar
+- olay | OLAYLAR_EK7:1553-10-05:0 | d: Türkçe -lık ekli kalıntı
+- olay | OLAYLAR_EK7:1553-12-01:0 | d: anlam tersine: 'malları soyuldu' (aliporwa) yerine 'yağmaladı'
+- olay | OLAYLAR_EK7:1555-09-29:0 | d: bozuk anlatım
+- olay | OLAYLAR_EK7:1572-06-13:0 | d: 'çektiri' kadırga değil, genel kürekli gemi
+- olay | OLAYLAR_EK7:1595-01-27:0 | d: dilbilgisi uyumsuzluğu
+- olay | OLAYLAR_EK7:1603-12-23:0 | d: Mustafa küçük kardeş; 'kaka' (ağabey) yanlış
+- olay | OLAYLAR_EK7:1609-08-09:0 | d: bozuk cümle ve eksik fiil
+- olay | OLAYLAR_EK7:1622-05-20:0 | d: 'üstü perişan' = kıyafeti dağınık
+- olay | OLAYLAR_EK7:1638-06-01:0 | d: 'sürgün' anlamı kaybolmuş
+- olay | OLAYLAR_EK7:1656-03-04:0 | d: kimin kimi suçladığı ters okunuyordu; 'asıldı' = tundikwa
+- olay | OLAYLAR_EK7:1661-11-01:0 | d: 'sadrazamlık' (makam) 'sadrazamu' (kişi) diye çevrilmiş
+- olay | OLAYLAR_EK7:1718-05-09:0 | b: makam adı: usadrazamu
+- olay | OLAYLAR_EK7:1718-05-09:0 | d: makam adı: usadrazamu
+- olay | OLAYLAR_EK7:1730-10-01:0 | d: makam adı: usadrazamu
+- olay | OLAYLAR_EK7:1730-10-02:0 | d: 'amca' = ami; 'mjomba' dayıdır
+- olay | OLAYLAR_EK7:1733-06-01:0 | d: '50.000 gülle' 50.000 top diye çevrilmiş
+- olay | OLAYLAR_EK7:1757-02-28:0 | b: makam adı: usadrazamu
+- olay | OLAYLAR_EK7:1757-02-28:0 | d: makam adı: usadrazamu
+- olay | OLAYLAR_EK7:1763-04-08:0 | d: makam adı: usadrazamu
+- olay | OLAYLAR_EK7:1826-06-19:0 | d: 'sürgün' anlamı kaybolmuş
+- olay | OLAYLAR_EK7:1834-07-08:0 | b: yazım hatası
+- olay | OLAYLAR_EK7:1868-03-05:0 | d: 'ikiye ayrılarak' = iki parçaya; yasama 'bunge' değil
+- olay | OLAYLAR_EK7:1877-02-05:0 | b: makam adı: usadrazamu
+- olay | OLAYLAR_EK7:1909-04-24:0 | d: 'kurmay başkanlığı' = mnadhimu mkuu
+- olay | OLAYLAR_EK7:1335-12-01:0 | d: Türkçe çoğul ekleri ve İngilizce 'Ilkhanids' kalıntısı
+- olay | OLAYLAR_EK7:1501-07-01:0 | d: İngilizce 'Safavids' kalıntısı
+- olay | OLAYLAR_EK7:1726-01-01:0 | b: Türkçe -lık kalıntısı
+- olay | OLAYLAR_EK7:1726-01-01:0 | d: Türkçe -lık kalıntısı
+- olay | OLAYLAR_EK7:1902-01-15:0 | d: 'on yıl önce' = o tarihten önce; 'takviye' karşılığı bozuk
+- olay | OLAYLAR_EK7:1834-01-01:0 | d: 'prenslik' (ülke) 'wafalme' (krallar) olmuş
+- olay | OLAYLAR_7A4170:1856-01-01:0 | d: 'hivi karibuni' = yakın zamanda (yanlış anlam)
+- olay | OLAYLAR_EK8:1577-01-01:0 | d: 'dolaylı idare' anlamsız çeviri; -lik kalıntısı
+- olay | OLAYLAR_EK8:1586-01-01:0 | d: 'ukapora' (yağmaladı) yerine 'yağmalandı'; bozuk çatı; -lik kalıntısı
+- olay | OLAYLAR_EK8:1603-03-01:0 | b: -lik kalıntısı ve bozuk başlık
+- olay | OLAYLAR_EK8:1603-03-01:0 | d: küçük kardeş için 'kaka'; hareket serbestîsi cümlesi bozuk; -lik kalıntısı
+- olay | OLAYLAR_EK8:1637-06-18:0 | d: bozuk cümle ve dilbilgisi
+- olay | OLAYLAR_EK8:1779-04-01:0 | d: 'kaka' (ağabey) belirsiz/yanlış
+- olay | OLAYLAR_EK8:1830-02-03:0 | d: İstendil = Tinos, Andros değil
+- olay | OLAYLAR_EK8:1573-01-01:0 | b: 'kusilimu' İslam'a girmek demektir — anlam tamamen ters
+- olay | OLAYLAR_EK8:1793-01-01:0 | d: 'mawali' yanlış sözcük
+- olay | OLAYLAR_EK8:1924-01-01:0 | d: Türkçe alıntı çevrilmemiş
+- olay | OLAYLAR_EK9:1844-01-01:0 | d: nesne uyumu hatası
+- olay | OLAYLAR_EK9:1884-01-15:0 | d: 'garnizon' = askeri birlik, kale değil
+- olay | OLAYLAR_EK9:1872-01-01:0 | d: 'ilerleyiş' = ilerleme; 'mwendeleo' devam demek
+- olay | OLAYLAR_EK9:1884-06-03:0 | d: 'garnizon' tahliyesi 'kalelerin taşınması' olmuş
+- olay | OLAYLAR_EK9:1837-10-13:0 | d: Türkçe 'beylerbeylik' kalıntısı
+- olay | OLAYLAR_EK9:1832-11-22:0 | b: 'merkezîleşme' 'güçlenme' olmuş
+- olay | OLAYLAR_EK9:1832-11-22:0 | d: toprak için 'raia' (yurttaş) yanlış
+- olay | OLAYLAR_EK9:1882-09-13:0 | d: 'dış işleri' 'Mısır dışındaki işler' diye okunuyor
+- olay | OLAYLAR_EK9:1898-09-02:0 | d: 'uliangukia' yanlış fiil; tarih-antlaşma cümlesi eksik
+- olay | OLAYLAR_EK9:1884-01-01:0 | d: 'bağlı' = idarî bağlılık; 'ilişkilendirilen' değil
+- olay | OLAYLAR_EK10:1479-08-01:0 | b: İngilizce 'dukedom' ve Türkçe 'İyon' kalıntısı
+- olay | OLAYLAR_EK10:1479-08-01:0 | d: Türkçe 'İyon', 'kontlik' kalıntısı
+- olay | OLAYLAR_EK10:1482-01-01:0 | d: ülke adı Türkçe kalmış (Karadağ = Montenegro)
+- olay | OLAYLAR_EK10:1484-07-15:0 | d: Türkçe -lik ekli kalıntılar
+- olay | OLAYLAR_EK10:1484-08-04:0 | d: Türkçe -lik ekli kalıntı
+- olay | OLAYLAR_EK10:1594-08-28:0 | d: dilbilgisi uyumsuzluğu
+- olay | OLAYLAR_EK10:1594-11-01:0 | d: Türkçe 'beyliği' kalıntısı
