@@ -950,15 +950,15 @@ window.CEVIRI_DIZIN = {
   "ps": [
    [
     "ceviri_ps_arayuz.js",
-    "701124fb"
+    "5691319c"
    ],
    [
     "ceviri_ps_devlet.js",
-    "aa651de0"
+    "83536b62"
    ],
    [
     "ceviri_ps_olay.js",
-    "b978381e"
+    "3b076124"
    ]
   ]
  }

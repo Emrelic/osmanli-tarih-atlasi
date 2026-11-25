@@ -1,15 +1,15 @@
 {
 "hazir": {
 "arayuz": [
-842,
+1685,
 2034
 ],
 "devlet": [
-870,
+2028,
 2315
 ],
 "olay": [
-200,
+400,
 5196
 ]
 },
@@ -53,6 +53,51 @@
 "arayuz",
 "Altlık: Esri World Physical Map | Coğrafya verisi: Natural Earth (kamu malı) | Koridor ağı: OWTRAD (T. M. Ciolek, ANU) — CC BY-NC #, kaynak harita: İnalcık # | Tarihî sınırlar: bu projenin kendi verisi",
 "turkce harf kalintisi"
+],
+[
+"arayuz",
+"History of Transylvania",
+"hedef yazi yok"
+],
+[
+"arayuz",
+"Issues → Read and write",
+"hedef yazi yok"
+],
+[
+"arayuz",
+"Only select → osmanli-tarih-atlasi",
+"hedef yazi yok"
+],
+[
+"arayuz",
+"Repository access:",
+"hedef yazi yok"
+],
+[
+"arayuz",
+"TDV İslâm Ansiklopedisi, «",
+"hedef yazi yok"
+],
+[
+"arayuz",
+"app.js kancası (",
+"hedef yazi yok"
+],
+[
+"arayuz",
+"ob-kutu ob-antlasma ob-madde-fark",
+"hedef yazi yok"
+],
+[
+"devlet",
+"ostland",
+"hedef yazi yok"
+],
+[
+"devlet",
+"alman-ukrayna",
+"hedef yazi yok"
 ],
 [
 "olay",
