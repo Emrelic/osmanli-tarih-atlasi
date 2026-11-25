@@ -942,5 +942,13 @@ window.CEVIRI_DIZIN = {
     "50c28169"
    ]
   ]
+ },
+ "ekokuma": {
+  "en": [
+   [
+    "ceviri_en_ekokuma.js",
+    "6d623071"
+   ]
+  ]
  }
 };
