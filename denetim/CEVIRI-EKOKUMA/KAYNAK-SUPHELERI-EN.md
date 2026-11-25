@@ -222,3 +222,4 @@ Okura görünen iç notlar (Türkçe sitede de görünür): makam-kapudan-pasa-d
 - yunan-1821-destekciler: 6 Temmuz 1827 belgesi "Antlaşma" (metinde "Protokol").
 - yeniceri-vakai-hayriyye-gun-gun: "kazan kalkıyor 13 Haziran akşamı" şüpheli (14-15 Haziran 1826).
 - yeniceri-mahmud-stratejisi: "Lüttrich" yazım hatası (Lüttich = Liège).
+- nasil-selim1: 'Pîrî Mehmed Paşa'ya / vezirine çok zulmettiğini söylediğini' cümlesi iki türlü okunuyor (zulmü ona mı yaptı, ona mı anlattı). İngilizcede 'ona anlattı' okuması seçildi (özetin 'devlet ve halkın iyiliği için' devamı bunu destekliyor); TDV ile teyit edilmedi, Türkçe cümle netleştirilmeli.
