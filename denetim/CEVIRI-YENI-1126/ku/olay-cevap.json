@@ -5721,6 +5721,382 @@
 "OLAYLAR_EK16:1795-03-28:0": {
 "b": "Dûkatiya Kurland û Semîgallyayê tevlî Rûsyayê bû — dûkê dawîn Peter von Biron dev jê berda",
 "d": "Di dema Parvekirina III. ya Polonyayê de esilzadeyên Kurlandê dilsoziya xwe pêşkêşî Katerînayê kirin, Dûk Peter von Biron ji text vekişiya; Kurland bû guberniyayeke Rûsyayê (di çavkaniyan de 24ê Cotmeha 1795an jî derbas dibe)."
+},
+"OLAYLAR_EK16:1945-05-08:0": {
+"b": "Cêba Kurlandê teslîm bû — Koma Artêşan a Courland teslîmiyeta Govorov îmze kir",
+"d": "Koma Artêşan a Alman a Kurlandê, ku ji Cotmeha 1944an vir ve li dora Liepāja-Ventspilsê dorpêçkirî bû, teslîm bû; rojavayê Letonyayê ket bin kontrola Sovyetê."
+},
+"OLAYLAR_EK16:1943-09-25:0": {
+"b": "Smolensk ji aliyê Artêşa Sor ve hat rizgarkirin",
+"d": "Di lûtkeya Operasyona Smolenskê ya 7ê Tebax-2ê Cotmeha 1943an de bajar hat vegirtin; Smolensk di 1985an de nasnavê 'bajarê qehreman' wergirt."
+},
+"OLAYLAR_EK16:1919-04-21:0": {
+"b": "Hêzên Polonyayê Vilnius (Wilno) ji Sovyetan girtin",
+"d": "Yekîneyên Józef Piłsudski di Nîsana 1919an de Wilno ji Artêşa Sor girtin; Lîtvanyayê li ser îdiaya xwe ya li bajêr domand û pirsa Vilniusê têkiliyên Lîtvanya-Polonyayê yên di navbera du şeran de jehrî kirin."
+},
+"OLAYLAR_EK16:1939-03-22:0": {
+"b": "Lîtvanyayê ultîmatoma Alman qebûl kir — Herêma Memelê ji Almanyayê re hat dewrkirin",
+"d": "Li ser ultîmatoma Ribbentrop, Lîtvanyayê Herêma Klaipėda (Memel) ji Almanyayê re hişt; Hitler di 23ê Adarê de ket Memelê. Herêm di 28ê Çileya 1945an de ji aliyê Artêşa Sor ve hat girtin."
+},
+"OLAYLAR_EK16:1283-01-01:0": {
+"b": "Avakirina Knezîtiya Moskovayê — Danîîlê I.",
+"d": "Kurê herî biçûk ê Aleksandr Nevskî Danîîl dest pê kir ku Moskovayê wek knezîtiyeke serbixwe bi rê ve bibe. Wê demê Moskova navendeke biçûk û bêgirîng a xaka Vladîmîr-Suzdalê bû; dîroknivîsiya Rûsî vê dîrokê wek xala destpêkê ya bilindbûna paşê dihesibîne."
+},
+"OLAYLAR_EK16:1325-01-01:0": {
+"b": "Makamê metropolîtiyê hat veguhestin Moskovayê",
+"d": "Serokê Dêra Ortodoks a Rûsî Metropolît Petr navenda xwe ya olî veguhest Moskovayê. Ev destpêka bilindbûna Moskovayê bû ne tenê wek navendeke siyasî, lê her wiha wek navendeke olî û rewatiya knezîtiyê xurt kir."
+},
+"OLAYLAR_EK16:1500-07-14:0": {
+"b": "Şerê Vedroşayê — Moskovayê artêşa Lîtvanyayê têk bir; xaka Bryansk û Severskê di destê Moskovayê de ma",
+"d": "Di şerê Moskova-Lîtvanya yê 1500-1503an de artêşa Moskovayê ya bi fermandariya Danîîl Şçenya, li nêzîkî Dorogobujê li çemê Vedroşa artêşa Hetman Konstanty Ostrogski têk bir û hetman dîl girt. Bryansk û bajarên Severskê yên ku di bihara heman salê de hatibûn girtin di destê Moskovayê de man; di dawiya şer de nêzîkî sêyekê xaka Lîtvanyayê derbasî Moskovayê bûbû."
+},
+"OLAYLAR_EK16:1307-01-01:0": {
+"b": "Knezîtiya Polotskê derbasî Dûkatiya Mezin a Lîtvanyayê bû",
+"d": "Polotsk, Vîtebsk û derdora wan heta 1307an di nav xanedana knezîtiya Rûsî de man; belavbûna Lîtvanyayê ya ber bi rojhilat ve ya beriya Gediminas bi vê derbasbûnê eşkere bû (dîroka nasnameyê ya atlasê 1307 e; derbasbûna rastîn a Vîtebskê ≈1320 nîqaşbar e)."
+},
+"OLAYLAR_EK16:1392-01-01:0": {
+"b": "Vasîliyê I. Knezîtiya Nijni Novgorod-Suzdalê tevlî Moskovayê kir",
+"d": "Bi yarlîqa ku ji Xan Toktamiş wergirt, Vasîliyê I. Nijni Novgorod, Gorodets û Suzdal bi Moskovayê ve girê da; vebûna Moskovayê ber bi hewzeya Volga û Okayê ve dest pê kir."
+},
+"OLAYLAR_EK16:1404-01-01:0": {
+"b": "Vytautas Smolensk girt — Knezîtiya Smolenskê tevlî Lîtvanyayê bû",
+"d": "Vytautas Smolensk girt; bajar heta ku di 1514an de derbasî Moskovayê bû di Dûkatiya Mezin a Lîtvanyayê de ma."
+},
+"OLAYLAR_EK16:1941-07-11:0": {
+"b": "Vîtebsk ji aliyê Artêşa Alman ve hat girtin",
+"d": "Koma Artêşan a Navend Vîtebsk di hefteyên yekem ên Barbarossayê de girt; bajar heta Hezîrana 1944an di bin rêveberiya leşkerî ya Alman de ma, beşê mezin ê nifûsa wî tune bû."
+},
+"OLAYLAR_EK16:1944-06-26:0": {
+"b": "Vîtebsk ji aliyê Artêşa Sor ve hat rizgarkirin — Operasyona Bagration",
+"d": "Eniyên 1. ya Baltîkê û 3. ya Belarûsê Vîtebsk dorpêç kirin û girtin; ev yekem rizgarkirina bajarekî mezin a Operasyona Bagration bû."
+},
+"OLAYLAR_EK16:1941-07-26:0": {
+"b": "Mogîlev ji aliyê Artêşa Alman ve hat girtin",
+"d": "Mogîlev piştî parastina ku 23 rojan ajot ket destê Wehrmachtê; bajar heta 28ê Hezîrana 1944an di bin dagirkeriyê de ma."
+},
+"OLAYLAR_EK16:1944-06-28:0": {
+"b": "Mogîlev ji aliyê Artêşa Sor ve hat rizgarkirin — Operasyona Bagration",
+"d": "Eniya 2. ya Belarûsê Mogîlev girt û xeta Dneprê derbas kir."
+},
+"OLAYLAR_EK16:1558-05-01:0": {
+"b": "Narva ji aliyê Rûsan ve hat girtin — yekem bajarê mezin ê Şerê Lîvonyayê",
+"d": "Artêşên Îvanê IV. Narva girtin; Rûsya derket peravê Baltîkê. Narva heta ku di 1581ê de derbasî Swêdê bû di destê Rûsan de ma."
+},
+"OLAYLAR_EK16:1558-07-01:0": {
+"b": "Dorpat (Tartu) ji aliyê Rûsan ve hat girtin",
+"d": "Artêşên Rûsan di sefera havîna 1558an de Dorpat (Tartu) û kelên derdorê girtin; bajar heta Mutarekeya Jam Zapolskî ya 1582an di bin rêveberiya Rûsan de ma."
+},
+"OLAYLAR_EK16:1561-06-01:0": {
+"b": "Reval (Talîn) ket bin parastina Swêdê — Estonyaya Bakur derbasî Swêdê bû",
+"d": "Dema Konfederasyona Lîvonyayê belav dibû, meclisa bajarê Revalê di 1561ê de dilsoziya xwe pêşkêşî Qralê Swêdê Erîkê XIV. kir; Estonyaya bakur heta Şerê Mezin ê Bakur (1721) di destê Swêdê de ma."
+},
+"OLAYLAR_EK16:1941-08-19:1": {
+"b": "Gomel ji aliyê Artêşa Alman ve hat girtin",
+"d": "Sê roj piştî êrîşa Wehrmachtê ya li ser Gomelê, Artêşa Sor bi temamî ji bajêr vekişiya; bajar heta 26ê Mijdara 1943an di bin dagirkeriyê de ma."
+},
+"OLAYLAR_EK16:1943-11-26:0": {
+"b": "Gomel ji aliyê Artêşa Sor ve hat rizgarkirin",
+"d": "Eniya Belarûsê di operasyona Gomel-Reçîtsayê de bajar vegirt; ev yek ji yekem rizgarkirinên bajarên mezin ên Belarûsê ye."
+},
+"OLAYLAR_EK16:1941-11-03:0": {
+"b": "Kursk ji aliyê Artêşa Alman ve hat girtin",
+"d": "Bi fermana fermandariya Sovyetê Kursk hat valakirin, Artêşa 2. ya Alman ket bajêr; bajar heta 8ê Sibata 1943an di bin dagirkeriyê de ma."
+},
+"OLAYLAR_EK16:1943-02-08:0": {
+"b": "Kursk ji aliyê Artêşa Sor ve hat rizgarkirin",
+"d": "Di dawiya êrîşa zivistanê ya Sovyetê de (alîyê Kursk-Xarkovê yê ku li pey operasyona Voronej-Kastornoye hat) Kursk hat vegirtin; di Tîrmeha heman salê de navê bajêr li Şerê Kurskê hat dayîn."
+},
+"OLAYLAR_EK16:1301-01-01:0": {
+"b": "Knezê Moskovayê Danîîl Kolomna û Serpuxov tevlî Moskovayê kirin",
+"d": "Danîîl ji knezîtiya Ryazanê Kolomna (knezê Ryazanê yê dîlketî ji bo azadbûnê kel dewr kir) û Serpuxov girtin; Moskova gihîşt çemê Okayê û ev bû yekem berfirehbûna xakê ya Knezîtiya Moskovayê."
+},
+"OLAYLAR_EK16:1304-01-01:0": {
+"b": "Mojaysk ji Knezîtiya Smolenskê hat girtin û tevlî Moskovayê bû",
+"d": "Knezîtiya Moskovayê Mojaysk a li hewzeya jorîn a çemê Moskovayê ji Smolenskê girt û sînorê xwe yê rojava nêzîkî Lîtvanyayê kir."
+},
+"OLAYLAR_EK16:1944-07-27:0": {
+"b": "Rēzekne ji aliyê Artêşa Sor ve hat girtin — rojhilatê Letonyayê rizgar bû",
+"d": "Eniya 2. ya Baltîkê Rēzekne girt; herêma Latgale ya Letonyayê ji rêveberiya Alman derket."
+},
+"OLAYLAR_EK16:1944-08-01:0": {
+"b": "Kaunas ji aliyê Artêşa Sor ve hat girtin — paytexta demkî ya Lîtvanyayê ji rêveberiya Alman derket",
+"d": "Eniya 3. ya Belarûsê Kaunas girt; fermana rojane ya Stalîn a 1ê Tebaxê girtinê ragihand. Bajar di 1919-1939an de paytexta demkî ya Lîtvanyayê bû."
+},
+"OLAYLAR_EK16:1944-07-27:1": {
+"b": "Daugavpils ji aliyê Artêşa Sor ve hat rizgarkirin",
+"d": "Tûmena 360. ya Piyadeyan a Eniya 2. ya Baltîkê Daugavpils (Dünaburg) girt; duyemîn bajarê mezin ê Latgale ji rêveberiya Alman derket."
+},
+"OLAYLAR_EK16:1944-08-25:0": {
+"b": "Tartu ji aliyê Artêşa Sor ve hat girtin — operasyona Tartuyê",
+"d": "Eniya 3. ya Baltîkê parastina Artêşa 18. ya Alman şikand û Tartu girt; bajar çend heftan li ser xeta eniyê ma û operasyona Tartuyê di 6ê Îlona 1944an de dawî bû."
+},
+"OLAYLAR_EK16:1348-01-01:0": {
+"b": "Peymana Bolotovoyê — Novgorodê serxwebûna Pskovê nas kir",
+"d": "Novgorodê Pskov wek 'birayê biçûk' nas kir; Pskov bi veçe û posadnîkê xwe wek komareke bajarî ya serbixwe heta ku di 1510an de tevlî Moskovayê bû jiya."
+},
+"OLAYLAR_EK16:1702-10-22:0": {
+"b": "Rûsyayê Nöteborg (Oreşek) ji Swêdê girt — yekem kela Nevayê di Şerê Mezin ê Bakur de",
+"d": "Artêşên Petroyê I. Nöteborg (bi rûsî Oreşek) a li devê Ladogayê dorpêç kirin û girtin û navê wê kirin Şlîsselburg ('Kela Mifteyê'); ev rêya ber bi Nevayê û avakirina St. Petersburgê di 1703yan de vekir."
+},
+"OLAYLAR_EK16:1944-07-27:2": {
+"b": "Šiauliai ji aliyê Artêşa Sor ve hat girtin — operasyona Šiauliaiyê",
+"d": "Eniya 1. ya Baltîkê Šiauliai, xaça hesinrêyê ya li bakurê Lîtvanyayê, girt; operasyon ji 5ê Tîrmehê heta 29ê Tebaxa 1944an ajot û gihîştin Kendava Rîgayê."
+},
+"OLAYLAR_EK16:1915-05-08:0": {
+"b": "Libau (Liepāja) ji aliyê hêzên Alman ve hat girtin — dagirkirina Kurlandê dest pê kir",
+"d": "Alman di êrîşa xwe ya havîna 1915an de ketin Kurlandê; Libau bingeha deryayî ya Rûsan a li peravê Baltîkê bû. Piraniya Kurlandê ket bin fermandariya Ober Ost (heta dawiya 1918an)."
+},
+"OLAYLAR_EK16:1915-08-01:0": {
+"b": "Mitau (Jelgava) ji aliyê hêzên Alman ve hat girtin",
+"d": "Mitau, paytexta kevn a dûkatiyê ya Kurlandê, ket bin kontrola Alman; eniya Rîgayê li ser xeta Daugavayê cemidî û heta 1917an sekinî."
+},
+"OLAYLAR_EK16:1915-08-18:0": {
+"b": "Kela Kovno (Kaunas) ji aliyê Alman ve hat girtin — Lîtvanya ket bin dagirkeriyê",
+"d": "Artêşa 10. ya Alman mezintirîn kela Rûsyayê ya li ser Nemanê girt; Herêma Lîtvanyayê ket bin rêveberiya Ober Ost û Taryba di 1918an de serxwebûn di bin vê dagirkeriyê de îlan kir."
+},
+"OLAYLAR_EK16:1915-09-18:0": {
+"b": "Vîlna (Vilnius) ji aliyê hêzên Alman ve hat girtin",
+"d": "Di dema Vekişîna Mezin de Vîlna derbasî hêzên Alman bû û bi Herêma Lîtvanyayê ya Ober Ost ve hat girêdan; bajar heta 1919an di navbera hêzên Alman, Sovyet û Polonyayê de dest guhert."
+},
+"OLAYLAR_EK16:1917-09-03:0": {
+"b": "Rîga ji aliyê Artêşa 8. ya Alman ve hat girtin",
+"d": "Hêzên Alman Daugava derbas kirin û Rîga girtin; bajar heta Mijdara 1918an di bin kontrola Alman de ma, serxwebûna Letonyayê di bin vê dagirkeriyê de hat îlankirin (18ê Mijdara 1918an)."
+},
+"OLAYLAR_EK16:1611-07-16:0": {
+"b": "Novgorod ji aliyê artêşa Swêdê ve hat girtin — di Serdema Tengasiyan de Rûsyaya Bakurê Rojava ket bin kontrola Swêdê",
+"d": "Artêşa Swêdê ya Jacob De la Gardie Novgorod girt; bajar heta 1617an bû paytexta 'Dewleta Novgorodê' ya di bin parastina Swêdê de, Karl Filip wek namzedê çariyê hat nîşandan."
+},
+"OLAYLAR_EK16:1617-03-09:1": {
+"b": "Peymana Stolbovoyê — Rûsyayê Îngermanland ji Swêdê re hişt, Novgorod hat vegerandin",
+"d": "Rûsyayê peravên Nevayê û beşek ji Karelyayê (Yam, Koporye, Îvangorod, Oreşek) ji Swêdê re hişt û ji peravê Baltîkê qut bû; Swêdê Novgorod vegerand. Ev rewş heta Şerê Mezin ê Bakur ê Petroyê I. domiya."
+},
+"OLAYLAR_EK16:1625-01-01:0": {
+"b": "Swêdê Tartu (Dorpat) ji Lehistanê girt — qonaxa duyem a Sefera Lîvonyayê",
+"d": "Gustav Adolfê II. di sefera 1625an de Estonyaya Başûr û Lîvonyaya Bakur fetih kir; Tartu bû bajarekî Swêdê ku di 1632an de dê lê Akademiya Gustav Adolf bihata avakirin."
+},
+"OLAYLAR_EK16:1941-06-23:0": {
+"b": "Almanyayê Grodno dagir kir",
+"d": "Eniya Rojhilat: Barbarossa ya 1941ê û Bagration ya 1944an."
+},
+"OLAYLAR_EK16:1941-06-23:1": {
+"b": "Almanyayê Brest-Lîtovsk dagir kir",
+"d": "Eniya Rojhilat: Barbarossa ya 1941ê û Bagration ya 1944an."
+},
+"OLAYLAR_EK16:1944-07-16:0": {
+"b": "Artêşa Sor Grodno ji dagirkeriya Alman rizgar kir",
+"d": "Eniya Rojhilat: Barbarossa ya 1941ê û Bagration ya 1944an."
+},
+"OLAYLAR_EK16:1944-07-28:0": {
+"b": "Artêşa Sor Brest-Lîtovsk ji dagirkeriya Alman rizgar kir",
+"d": "Eniya Rojhilat: Barbarossa ya 1941ê û Bagration ya 1944an."
+},
+"OLAYLAR_EK16:1870-09-28:0": {
+"b": "Teslîmbûna Strazbûrgê: yekîneyên Alman bajar dagir kirin",
+"d": "Piştî dorpêç û bombebarana şeş heftî, General Uhrich bi şev li Koenigshoffenê kapîtulasyon îmze kir; sibehê derî û Kel teslîmî yekîneyên Prûsya û Badenê bûn. Bajar heta Peymana Frankfurtê (10ê Gulana 1871ê) di bin dagirkeriya leşkerî de ma."
+},
+"OLAYLAR_EK16:1870-10-29:0": {
+"b": "Teslîmbûna Metzê: artêşa Bazaine çek danî, yekîneyên Alman kel girtin",
+"d": "Protokola kapîtulasyonê ya Artêşa Rênê ya dorpêçkirî êvara 27ê Cotmehê hat îmzekirin; sibeha 29ê Cotmehê alayên Prûsyayê li ser tabyayan hatin hilkirin û yekîneyên Fransî ji kelê derketin. Metz heta Peymana Frankfurtê (10ê Gulana 1871ê) di bin dagirkeriya leşkerî de ma."
+},
+"OLAYLAR_EK16:1922-02-28:0": {
+"b": "Îngilistanê parastina li ser Misirê rakir û Misir serbixwe îlan kir",
+"d": "Îngilistanê bi daxuyaniya 28ê Sibata 1922an parastina ku ji 1914an vir ve didomiya bi yekalî bi dawî anî û Misir wek dewleteke serbixwe îlan kir; mijarên wek parastin, rêyên gihandinê û Sûdanê ji Îngilistanê re hatin veqetandin. Du hefte piştî daxuyaniyê (15ê Adara 1922an) Siltan Ahmed Fûad nasnavê qral wergirt. Li ser nexşeyê qata dagirkeriya Îngilîzan a li bajarên Misirê di vê rojê de dawî dibe."
+},
+"OLAYLAR_EK16:1961-06-19:0": {
+"b": "Kuweyt ji parastina Îngilîzan derket û gihîşt serxwebûna temam",
+"d": "Bi notayên ku di 19ê Hezîrana 1961ê de di navbera Kuweyt û Qraliyeta Yekbûyî de hatin guhertin, parastina Îngilîzan a ku ji peymana 1899an vir ve didomiya bi dawî bû û Kuweyt bi temamî serbixwe bû. Li ser nexşeyê qata Îngilîzan a li Kuweytê di vê rojê de dawî dibe."
+},
+"OLAYLAR_EK16:1971-09-03:0": {
+"b": "Qeterê bi dawîbûna peymanên bi Îngilistanê re serxwebûna xwe îlan kir",
+"d": "Piştî dîroka ku peymanên parastinê yên bi Brîtanyaya Mezin re bi dawî bûn, Qeterê di 3ê Îlona 1971ê de serxwebûna xwe îlan kir. Li ser nexşeyê qata Îngilîzan a li Dohayê di vê rojê de dawî dibe."
+},
+"OLAYLAR_EK16:1955-12-01:0": {
+"b": "Hêzên Siltanê Umanê ketin navendên sereke yên Umana navxweyî; îmametiya Îbazî di rastiyê de dawî bû",
+"d": "Di Kanûna 1955an de Siltanê Umanê ji bo vegerandina desthilata xwe ket tevgerê û hêzên wî ketin navendên niştecihbûnê yên sereke yên Umana navxweyî (Behla, Îzkî, Nîzwa); rêveberiya îmametiya Îbazî ya li ser Umana navxweyî di rastiyê de dawî bû. Çavkanî tenê mehê dide; li ser nexşeyê 1ê Kanûna 1955an tê nîşandan."
+},
+"OLAYLAR_EK16:1868-05-14:0": {
+"b": "Artêşa Rûsan Semerqend zeft kir — bajar ji Mîrektiya Buxarayê derbasî walîtiya giştî ya Tirkistanê bû",
+"d": "Hêzên Rûsan Semerqenda ku di destê Mîrektiya Buxarayê de bû zeft kirin û bajar tevlî herêma rêveberiya giştî ya Tirkistanê kirin. Semerqend di serdema xanên Ozbek de bajarekî di siya Buxarayê de mabû; bi rêveberiya Rûsan bû rawestgeheke nû ya pêşveçûna Rûsan li Asyaya Navîn."
+},
+"OLAYLAR_EK17:1513-01-01:0": {
+"b": "Pîrî Reîs kevintirîn nexşeya cîhanê ya ku gihîştiye roja me xêz kir",
+"d": "Pîrî Reîs li Gelîbolu nexşeya cîhanê ya bi dîroka 919 (1513) xêz kir; li gorî Ansîklopediya Îslamê ya TDV, di nav çavkaniyên nexşeyê de 'nexşeyên kevn ên ku ji cîhana Rojhilat û Rojava gihîştine wî û nexşeya Krîstof Kolomb' jî hene — ango tê texmînkirin ku şopên nexşeya rêwîtiyê ya orîjînal a Kolomb, ku di wê demê de winda dihat hesibandin, di xwe de dihewîne. Nexşe di 923yan (1517) de li Qahîreyê pêşkêşî Yavuz Siltan Selîm kir. Ji roja me re tenê perçeyek maye ku peravên rojava/Atlantîkê (Spanya, Portûgal, Afrîkaya Rojava, peravê rojhilat ê Amerîkaya Başûr) nîşan dide; ev perçe di 1929an de li Qesra Topkapiyê dîsa derket holê û di lîsteya Bîra Cîhanê ya UNESCOyê de ye."
+},
+"OLAYLAR_EK17:1606-10-11:0": {
+"b": "Sedefkar Mehmed Axa wek sermîmar hat tayînkirin — mîmarê Mizgefta Sultanahmedê",
+"d": "Mehmed Axa, ku di salên 1562-63yan de wek dewşîrme ji bajarokê Îlbasanê yê Albanyayê hatibû anîn qesrê, li ber destê Mîmar Sînan mezin bû û di 11ê Cotmeha 1606an de bû sermîmarê Osmanî. Ansîklopediya Îslamê ya TDV radigihîne ku çavkaniyeke hemdem wî wek 'nermxû, nefsbiçûk, li ser gotina xwe, dîndar û jîr' pênase dike. Mehmed Axa, ku sê sal şûnda dê bi fermana Ahmedê I. dest bi avakirina Mizgefta Sultanahmedê bikira, gelek berhemên fireh hiştin, ji tamîrkirinên li Kabeyê heta gelek kaniyên û mizgeftên li Stenbol û Edîrneyê. Ku şeş minareyan nîqaşa 'wekheviya' bi Kabeya Mekkeyê re derxistiye çîrokeke gelêrî ya belavbûyî ye; çavkaniyên ansîklopedîk vê piştrast nakin, sêwiranê tenê wek 'heta wê demê nehatiye ceribandin' pênase dikin."
+},
+"OLAYLAR_EK17:1617-11-22:0": {
+"b": "Padîşahê nû Mistefayê I.: girtiyekî 'qefesê' yê rûzer û çavxewnok li ser text",
+"d": "Mistefayê I., ku bi mirina Ahmedê I. derket ser text, wek yekem şehzade yê ku birayê wî sax hiştibû, bi salan di bin çavdêriyeke hişk de li qesrê girtî jiyabû; Ansîklopediya Îslamê ya TDV wî wek 'rûzer, rîtenik, bi çavên mezin ên reş û nêrîna cemidî' wesf dike û tomar dike ku ev girtîbûna dirêj rewşa wî ya derûnî girantir kiriye. Di vê serdestiya wî ya yekem a nod û şeş rojî de nikaribû karên dewletê bi rê ve bibe; li hember vê tê gotin ku gelek caran derdiket nêçîrê, li tersaneyê digeriya, heta zêr diavêt avê û li masiyan temaşe dikir. Ocax-yenîçerî û ulema, ji ber ku ew ji padîşahiyê re neguncav dîtin, di 26ê Sibata 1618an de ew ji text daxistin û li şûna wî biraziyê wî yê çardeh salî Osmanê II. derxistin ser text."
+},
+"OLAYLAR_EK17:1639-01-20:0": {
+"b": "Mistefayê I. piştî pazdeh salên jibîrbûnê mir",
+"d": "Mistefayê I., ku di 10ê Îlona 1623yan de cara duyem ji text hat daxistin, pazdeh salên ku heta mirina wî derbas bûn li odeyeke ku tê de girtî dihat hiştin jiya; di çavkaniyan de derbarê van salan de tu agahî tune ye. Di 15ê Remezana 1048an (20ê Çileya 1639an) de wefat kir — beşek ji çavkaniyan vê wek mirineke xwezayî dihesibînin, beşek jî îdia dikin ku tiliya Muradê IV. tê de heye."
+},
+"OLAYLAR_ARKEOLOJI_D3_MISIR_AFRIKA:-9249-01-01:0": {
+"b": "Ounjougou (Ravin de la Mouche) - seramîka herî kevn a Afrîkayê: Seramîka herî kevn a Afrîkayê (Ounjougou)",
+"d": "Di yekîneya HA1 de perçeyên seramîkê yên ewil ên ku bi pîşesaziya lîtîk a serikên tîran ên biçûk ên dualî re têkildar in; niştîna HA2 ya li ser wê terminus ante quem dide: 9758+-70 BP (ETH-28746) û 9510+-70 BP (ETH-31279)."
+},
+"OLAYLAR_ARKEOLOJI_D3_MISIR_AFRIKA:0000-01-01:0": {
+"b": "Çanda Nok (Nîjeryaya Navîn): Çanda Nok bi dawî dibe",
+"d": "Çanda Nok 1500-1 cal BC; peykerên terrakota tenê piştî 900 cal BC ne."
+},
+"OLAYLAR_ARKEOLOJI_D3_ITALYA_AVRUPA:-0507-01-01:0": {
+"b": "Roma: Qraliyet -> Komar (konsulên ewil) - KEVNEŞOPIYA NIVÎSKÎ: Roma: Qraliyet bi dawî dibe, Komar (kevneşopî)",
+"d": "Polybios û Dionysios dawiya Qraliyetê û konsulên ewil dixin heman salê; sê hesabên hundirîn ên serbixwe (Polybios/Xerxes, Dionysios/120 sal piştî Galyayê, Dionysios/244 sal qraliyet) digihîjin B.Z. 508."
+},
+"OLAYLAR_ARKEOLOJI_D3_ITALYA_AVRUPA:-0669-01-01:0": {
+"b": "Derbasbûna Hallstatt C -> D (modela Bayes a Dietfurtê; ya kevneşopî 616): Derbasbûna Hallstatt C → D (modela 14C)",
+"d": "Li Almanyaya Başûr derbasbûna ji Ha C bo Ha D, li gorî modela Bayes a rêzegorên Dietfurtê, berî 650 cal BC ye û bi îhtîmaleke mezin di navbera 685-655 de ye; bi dehan salan kevntir e ji ya ku bi gelemperî tê qebûlkirin."
+},
+"OLAYLAR_ARKEOLOJI_D3_ITALYA_AVRUPA:-0751-01-01:0": {
+"b": "Damezrandina Romayê (dîrokên KEVNEŞOPIYA NIVÎSKÎ): Damezrandina Romayê (kevneşopiya nivîskî, Dionysios)",
+"d": "Kevneşopiya nivîskî damezrandina Romayê bi jimartina Olîmpiyadan dixe sala 1. ya Olîmpiyada 7. (Cato, Dionysios) -di navbera nivîskaran de ji 7.1 heta 12.4-. 753 ya Varro di vê rûniştinê de ji ÇAVKANIYÊ nehat xwendin."
+},
+"OLAYLAR_ARKEOLOJI_D3_ITALYA_AVRUPA:-0759-01-01:0": {
+"b": "Karthago - kevneşopiya damezrandinê 814/813 li hember ya arkeolojîk ~760: Kartaca: destpêka niştecihbûna bênavber (arkeolojîk)",
+"d": "Damezrandina efsanewî ya Karthagoyê (Elissa/Dido) 814-813; li bajêr niştecihbûna bênavber di kolandinan de ji dora B.Z. 760 dest pê dike, gorên herî kevn ji nîvê duyem ê sedsala 8. in; nekropola sedsala 8. hê nehatiye dîtin."
+},
+"OLAYLAR_ARKEOLOJI_D3_ITALYA_AVRUPA:-0836-01-01:0": {
+"b": "Latium Vetus: derbasbûna Latial II -> III (ya kevneşopî ~770 li hember kronolojiya bilind a 14C 850-825): Latium: derbasbûna Latial II → III (kronolojiya bilind)",
+"d": "Li Îtalyaya Navîn (Latium Vetus) di Serdema Hesin a Pêşîn de derbasbûna ji Latial II bo III, di tîpo-kronolojiya kevneşopî de ~B.Z. 770 ye; 14C ya nimûneyên emrkurt (tovên Fidene) derbasbûnê dikişîne çaryeka sêyem a sedsala 9. a B.Z. (850-825)."
+},
+"OLAYLAR_ARKEOLOJI_D3_ITALYA_AVRUPA:-0929-01-01:0": {
+"b": "Serdema Geometrîk a Yewnanî (dîrokên mutleq ên ku bi 14C bilind bûne): Geometrîka Navîn II dest pê dike (14C ya Sindosê: li hember 800 ya kevneşopî, 930)",
+"d": "Li Sindos a Yewnanistana Bakur rêzeya 14C ya stratîgrafîk a hestiyên heywanan dîrokên mutleq ên kevneşopî yên binqonaxên Geometrîk (li ser bingeha dîrokên koloniyên Sîcîlyayê) 100-150 salan paşve dibe; destpêka MG II li şûna 800 histBC, 930 calBC ye."
+},
+"OLAYLAR_ARKEOLOJI_D3_ANADOLU_EGE:-0899-01-01:0": {
+"b": "Qraliyeta Urartûyê (Tuşpa / Wan): Dewleta Urartûyê pêk tê (sedsala 9.)",
+"d": "Dewleta Urartûyê di sedsala 9. a B.Z. de pêk tê. Di çavkaniyên Asûrî de şerên Salmanasarê III. li gel Arame; Sarduriyê I. (kurê Lutipri) Tuşpayê dike paytext."
+},
+"OLAYLAR_ARKEOLOJI_D3_ANADOLU_EGE:-1190-01-01:0": {
+"b": "Qraliyeta Ugaritê (Gibala/Tell Tweini) — wêrankirina Gelên Deryayê: Ugarit/Tell Tweini wêran dibe (serdema Gelên Deryayê)",
+"d": "Li Levanta Bakur (Gibala, Ugarit, Ras Ibn Hani, Tell Kazel) wêranbûnên dawiya Serdema Bronz; di çarçoveya navîniya giranîkirî ya 14C (2962±14 BP) + girtina rojê ya KTU 1.78 (21 Çile 1192) de 1192-1190 cal BC."
+},
+"OLAYLAR_ARKEOLOJI_D3_ANADOLU_EGE:-1199-01-01:0": {
+"b": "Valakirina Hattuşayê — nota xwendinê ya pêla 3.: Hattuşa tê terikandin; Împeratoriya Hîtît hildiweşe (texmînî 1200)",
+"d": "Rêveberiya navendî Hattuşa vala kiriye, bajar tenê PIŞTRE hatiye şewitandin; hişkesalî (1198-1196±3) dibe ku beşek ji şertên hilweşînê be, sedemiyeke îsbatkirî TUNE ye."
+},
+"OLAYLAR_ARKEOLOJI_D3_ANADOLU_EGE:-1206-01-01:0": {
+"b": "Şuppiluliumayê II. (qralê Hîtîtan ê dawî yê naskirî) — derketina ser text: Şuppiluliumayê II. derdikeve ser text (qralê Hîtîtan ê dawî)",
+"d": "Serdestiya qralê Hîtîtan ê dawî yê naskirî dora B.Z. 1207 dest pê dike; împeratoriya Hîtît û rêveberiya navendî 'around or shortly after 1200' hildiweşe; terminus ante quem sala 8. ya Ramses III (Medinet Habu)."
+},
+"OLAYLAR_ARKEOLOJI_D3_ANADOLU_EGE:-1583-01-01:0": {
+"b": "Teqîna Mînosî ya Thera (Santorini) — modelên Bayes ên rojane: Teqîna Thera (Santorini) — modela Manning 2022",
+"d": "Teqîn bi IntCal20 ji nû ve hatiye modelkirin: 1606-1589 (68.3) / 1609-1560 (95.4). Bruins & van der Plicht 2025 (PLoS One, doi:10.1371/journal.pone.0330702) modela Manning a 2024an wek 1618-1584 (95.4) / 1612-1602 (68.3) vediguhêzin û diparêzin ku teqîn ji Ahmose KEVNTIR e."
+},
+"OLAYLAR_ARKEOLOJI_D3_ANADOLU_EGE:-1649-01-01:0": {
+"b": "Qraliyeta Kevn a Hîtîtan — serdestiya Hattusiliyê I. (Labarna): Serdema Hattusiliyê I. (nirxa kevneşopî ya hMC)",
+"d": "Serdestiya kevneşopî ya Hattusiliyê I. di hMC de c. 1650-1620; destpêk bi du nifşên 25 salî ji daneya Mursili ya Babîl 1595 paşve jimartinê tê dîtin. Qraliyeta Hîtîtan di dawiya Serdema Bronz a Navîn de Anatolyaya Navîn kiriye yek."
+},
+"OLAYLAR_ARKEOLOJI_D3_ANADOLU_EGE:-1749-01-01:0": {
+"b": "Troya V û destpêka Troya VI (VIa): Dawiya Troya V / destpêka VI (nirxa lihevkirinê)",
+"d": "Destpêka Troya V di navbera 1916-1877 cal BC de ye; ji bo dawiya Troya V / destpêka Troya VI di wêjeyê de lihevkirin c. 1750 cal BC ye (bi atfa li Pavúk, Blum, Pernicka)."
+},
+"OLAYLAR_ARKEOLOJI_D3_ANADOLU_EGE:-1915-01-01:0": {
+"b": "Troya V û destpêka Troya VI (VIa): Qonaxa Troya Va (nimûneya tenê)",
+"d": "Destpêka Troya V di navbera 1916-1877 cal BC de ye; ji bo dawiya Troya V / destpêka Troya VI di wêjeyê de lihevkirin c. 1750 cal BC ye (bi atfa li Pavúk, Blum, Pernicka)."
+},
+"OLAYLAR_ARKEOLOJI_D3_ANADOLU_EGE:-1929-01-01:0": {
+"b": "Troya 'Proto-IV' (ferziye) û Troya IV: Qonaxa Troya IV bi dawî dibe (an dereng)",
+"d": "Di navbera Troya III û IV de valahiyeke 110±20 salî (2170-2060) û qonaxeke 'Proto-IV' a mimkun; Troya IV ji 2060±10 dest pê dike, IVa 2060, IVc 2010±10, dawiya IV herî zû 1930±10."
+},
+"OLAYLAR_ARKEOLOJI_D3_ANADOLU_EGE:-2059-01-01:0": {
+"b": "Troya 'Proto-IV' (ferziye) û Troya IV: Qonaxa Troya IV dest pê dike",
+"d": "Di navbera Troya III û IV de valahiyeke 110±20 salî (2170-2060) û qonaxeke 'Proto-IV' a mimkun; Troya IV ji 2060±10 dest pê dike, IVa 2060, IVc 2010±10, dawiya IV herî zû 1930±10."
+},
+"OLAYLAR_ARKEOLOJI_D3_ANADOLU_EGE:-2169-01-01:0": {
+"b": "Dawiya Troya II / Troya III (Serdema Bronz a Pêşîn): Qonaxa Troya III bi dawî dibe",
+"d": "14C-AMS a hestiyên heywanan ji kolandina Cincinnati (26 nimûne), bi IntCal20 hatiye modelkirin: derbasbûna Troya II/III 2267±10, dawiya Troya III 2170±10 cal BC."
+},
+"OLAYLAR_ARKEOLOJI_D3_ANADOLU_EGE:-2266-01-01:0": {
+"b": "Dawiya Troya II / Troya III (Serdema Bronz a Pêşîn): Qonaxa Troya III dest pê dike",
+"d": "14C-AMS a hestiyên heywanan ji kolandina Cincinnati (26 nimûne), bi IntCal20 hatiye modelkirin: derbasbûna Troya II/III 2267±10, dawiya Troya III 2170±10 cal BC."
+},
+"OLAYLAR_ARKEOLOJI_D3_ANADOLU_EGE:-2919-01-01:0": {
+"b": "Troya I (Hisarlık, destpêka Serdema Bronz a Pêşîn): Qonaxa Troya Ia dest pê dike (Weninger 1995)",
+"d": "Dîroka destpêka qonaxa Troya Ia (bingeha kevirî ya apsîdal) ku ji 14C ya bi dendro kalîbrekirî hatiye derxistin; Troya I bi tevahî 9 qonaxên mîmarî (Ia-Ii) ye, bi ferziya ku dirêjahiya navîn a qonaxê 50 sal e."
+},
+"OLAYLAR_ARKEOLOJI_D3_ANADOLU_EGE:-9149-01-01:0": {
+"b": "Klimonas û Shillourokambos (Qibris, Neolîtîka Pêşîn a Bêseramîk): Gundên niştecih ên ewil ên Qibrisê (Klimonas)",
+"d": "Gundiyên ku li Klimonasê bi cih bûbûn berî 11,100-10,600 salan dijîn (îhtîmala herî bilind 10.8-10.6 cal kyBP). Shillourokambos A ya Pêşîn 10.4-10.0, B-C ya Pêşîn 10.0-9.6, A ya Navîn ~9.5 cal kyBP (sernavê Wêne 3, berawirdî)."
+},
+"OLAYLAR_ARKEOLOJI_ZINCIR:-0026-01-01:0": {
+"b": "Roma, Îskenderiye: Komara Romayê → navbera bêxwedî",
+"d": "Li xalên Roma û Îskenderiyeyê xwedîtî ji Komara Romayê derbasî navbera bêxwedî dibe. Agahiya derbasbûnê ya çavkaniyê: Mirina Theodosius 17 Çile 395 (konsulîtiya Olybrius û Probus): Sokrates Scholastikos, Dîroka Dêrê 5.26 (NPNF, newadvent.org/fathers/26015.htm); Marcellinus Comes s.a. 395: Arcadius û Honorius împeratoriyê tenê bi cihên rûniştinê dabeşkirî mîras digirin."
+},
+"OLAYLAR_ARKEOLOJI_ZINCIR:-0048-01-01:0": {
+"b": "Marsîlya, Massalia: Massalia (Marsîlya) → Komara Romayê",
+"d": "Li xalên Marsîlya û Massaliayê xwedîtî ji Massalia (Marsîlya) derbasî Komara Romayê dibe. Agahiya derbasbûnê ya çavkaniyê: Caesar BC 2.22: piştî ku bajar têk çû 'conservans' û garnîzon hat hiştin — dawiya statûya hevalbenda azad, kontrola Romayê."
+},
+"OLAYLAR_ARKEOLOJI_ZINCIR:-0112-01-01:0": {
+"b": "Dura-Europos: Împeratoriya Selewkiyan → Împeratoriya Part (Arsakî)",
+"d": "Li xalên Dura-Europosê xwedîtî ji Împeratoriya Selewkiyan derbasî Împeratoriya Part (Arsakî) dibe. Agahiya derbasbûnê ya çavkaniyê: Fethê Partan (ca. 113) | Çavkanî: Leriche, P. & MacKenzie, D. N., \"Dura Europos\", Encyclopaedia Iranica VII/6, 1996 (rev. 2011); dîroka damezrandinê ji kurteya Leriche (neynika kavehfarrokh.com) | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/dura-europos | «Dura Europos was brought into the Iranian cultural sphere after the Parthian conquest in about 113 B.C.E.»"
+},
+"OLAYLAR_ARKEOLOJI_ZINCIR:-0132-01-01:0": {
+"b": "Bergama, Pergamon: Qraliyeta Bergamayê (Attalos) → Komara Romayê",
+"d": "Li xalên Bergama û Pergamonê xwedîtî ji Qraliyeta Bergamayê (Attalos) derbasî Komara Romayê dibe. Agahiya derbasbûnê ya çavkaniyê: Strabon 13.4.2: 'The Romans proclaimed the country a province, calling it Asia'."
+},
+"OLAYLAR_ARKEOLOJI_ZINCIR:-0140-01-01:0": {
+"b": "Babîl, Seleukeia (li ser Dîcleyê), Uruk: Împeratoriya Selewkiyan → Împeratoriya Part (Arsakî)",
+"d": "Li xalên Babîl, Seleukeia (li ser Dîcleyê) û Urukê xwedîtî ji Împeratoriya Selewkiyan derbasî Împeratoriya Part (Arsakî) dibe. Agahiya derbasbûnê ya çavkaniyê: Mithradates I di Tîrmeha 141an de Seleukeia digire, di Cotmeha 141an de digihîje Urukê | Çavkanî: Lendering, J., Livius.org: Mithradates I (rûpela Bagayasha); jêrenot: van der Spek 1997/8: 171 | https://livius.org/articles/person/bagayasha | «In July 141, he captured Seleucia and in October he reached Uruk in southern Babylonia.»"
+},
+"OLAYLAR_ARKEOLOJI_ZINCIR:-0147-01-01:0": {
+"b": "Ekbatana, Hemedan: Împeratoriya Selewkiyan → Împeratoriya Part (Arsakî)",
+"d": "Li xalên Ekbatana û Hemedanê xwedîtî ji Împeratoriya Selewkiyan derbasî Împeratoriya Part (Arsakî) dibe. Agahiya derbasbûnê ya çavkaniyê: Mithradates I Medyayê fetih dike (148; veguhestina Justinus 41.6.7) | Çavkanî: Lendering, J., Livius.org: Mithradates I (rûpela Bagayasha); jêrenot: van der Spek 1997/8: 171 | https://livius.org/articles/person/bagayasha | «Mithradates conquered Media in 148 BCE and appointed Bacasis as governor»"
+},
+"OLAYLAR_ARKEOLOJI_ZINCIR:-0206-01-01:0": {
+"b": "Xi'an (Chang'an): Xanedana Qin (Împeratoriya yekbûyî) → navbera bêxwedî",
+"d": "Li xalên Xi'an (Chang'an) xwedîtî ji Xanedana Qin (Împeratoriya yekbûyî) derbasî navbera bêxwedî dibe. Agahiya derbasbûnê ya çavkaniyê: Shiji 6, sala 26. ya Qin Shi Huang: 'cara ewil hemû welat kir yek' (guherîna nasnameya dewleta Qin; Chang'an/Xianyang navika Qin e)"
+},
+"OLAYLAR_ARKEOLOJI_ZINCIR:-0211-01-01:0": {
+"b": "Sîrakûza, Syrakusai: Sîrakûza (Syrakousai) → Komara Romayê",
+"d": "Li xalên Sîrakûza û Syrakusaiyê xwedîtî ji Sîrakûza (Syrakousai) derbasî Komara Romayê dibe. Agahiya derbasbûnê ya çavkaniyê: Livy 25.40: 'Marcellus captis Syracusis' Sîcîlyayê bi rêk û pêk kir; Eutropius 3.14: Marcellus beşeke mezin a Sîcîlyayê û Syracusayê girt."
+},
+"OLAYLAR_ARKEOLOJI_ZINCIR:-0310-01-01:0": {
+"b": "Babîl, Uruk: Împeratoriya Îskenderê Mezin (Argeadî, bi nav) → Împeratoriya Selewkiyan",
+"d": "Li xalên Babîl û Urukê xwedîtî ji navbera bêxwedî derbasî Împeratoriya Selewkiyan dibe. Agahiya derbasbûnê ya çavkaniyê: Seleukos Babîlê paşve digire (Gulan 311); Serdema Seleukos bi vê dîrokê dest pê dike | Çavkanî: Finkel, van der Spek, Pirngruber (BCHP 3, Diadochi Chronicle); xwendina nû û jêrenotên Livius.org, jêrenota Rev. iv.10' | https://www.livius.org/sources/content/mesopotamian-chronicles-content/bchp-3-diadochi-chronicle/ | «Seleucus had recovered Babylon in May 311»"
+},
+"OLAYLAR_ARKEOLOJI_ZINCIR:-0311-01-01:0": {
+"b": "Ekbatana, Hemedan: Serdestiya Seleukos Nikator dest pê dike (Medya)",
+"d": "Li xalên Ekbatana û Hemedanê xwedîtî ji navbera bêxwedî derbasî Împeratoriya Selewkiyan dibe. Agahiya derbasbûnê ya çavkaniyê: Ekbatana derbasî Seleukos I Nikator (305-281) dibe | Çavkanî: Brown, S. C., \"Ecbatana\", Encyclopaedia Iranica VIII/1, 1997 (rev. 2011) | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/ecbatana | «The city later fell to Seleucus I Nicator (305-281 B.C.E.)»"
+},
+"OLAYLAR_ARKEOLOJI_ZINCIR:-0309-01-01:0": {
+"b": "Pasargad, Susa: Împeratoriya Îskenderê Mezin (Argeadî, bi nav) → navbera bêxwedî; Aleksandrosê IV. hat kuştin",
+"d": "Qralê dawî yê qraliyeta Argeadî Aleksandrosê IV. (B.Z. 323-310) li gel dayika xwe Roxane hat kuştin; belgeya Împeratoriya Îskender bi vê salê bi dawî dibe (t ya belgeyê hat dirêjkirin). Xwediyê paşîn ê Pasargad û Susayê bi çavkanî nehatiye piştrastkirin. Babîl, Uruk û Hemedan berî vê dîrokê derbasî Seleukos dibin."
+},
+"OLAYLAR_ARKEOLOJI_ZINCIR:-0329-01-01:0": {
+"b": "Ekbatana, Hemedan: Împeratoriya Hexamenişî (Pers) → Împeratoriya Îskenderê Mezin (ANTIK-ISKENDER-1113-B)",
+"d": "Li xalên Ekbatana û Hemedanê xwedîtî ji Împeratoriya Hexamenişî (Pers) derbasî navbera bêxwedî dibe. Agahiya derbasbûnê ya çavkaniyê: sala 6. ya Nabonidus (550/549): Kyrosê II Astyages têk dibe, Ekbatanayê digire, xezîneya wî dibe Anşanê | Çavkanî: Brown, S. C., \"Ecbatana\", Encyclopaedia Iranica VIII/1, 1997 (rev. 2011) | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/ecbatana | «records that Cyrus II defeated Astyages, captured Ecbatana, and removed its treasury to Anshan»"
+},
+"OLAYLAR_ARKEOLOJI_ZINCIR:-0330-10-22:0": {
+"b": "Babîl, Uruk: Împeratoriya Hexamenişî (Pers) → Împeratoriya Îskenderê Mezin",
+"d": "Li xalên Babîl û Urukê xwedîtî ji Împeratoriya Hexamenişî (Pers) derbasî Împeratoriya Îskenderê Mezin dibe. Agahiya derbasbûnê ya çavkaniyê: Îskender Babîlê digire (331); çavkanî kurteya Livius e, Arrianos 3.16 nehat xwendin | Çavkanî: Lendering, J., Livius.org: Babylon | https://www.livius.org/articles/place/babylon/ | «In 331, the Macedonian conqueror Alexander the Great, who was fighting a war against the Persians, captured Babylon»"
+},
+"OLAYLAR_ARKEOLOJI_ZINCIR:-0395-01-01:0": {
+"b": "Veii: Dewletên Bajarî yên Etrûskî (Yekîtiya Diwanzdeh Bajaran) → Komara Romayê",
+"d": "Li xalên Veiiyê xwedîtî ji Dewletên Bajarî yên Etrûskî (Yekîtiya Diwanzdeh Bajaran) derbasî Komara Romayê dibe. Agahiya derbasbûnê ya çavkaniyê: Livy 5.22 (Roberts, Perseus 1999.02.0026): piştî ku hemû malên mirovan ji Veiiyê hatin birin, peykerê Juno birin Romayê; bajar hat girtin. Sala B.Z. li cem Livy tune ye (sala konsul/dîktator Camillus bi Fasti re li hev tê)."
+},
+"OLAYLAR_ARKEOLOJI_ZINCIR:-0403-01-01:0": {
+"b": "Memphis (Men-nefer / Mit Rahina): Misira Hexamenişî (Xanedana 27., serdestiya Persan a 1.) → navbera bêxwedî",
+"d": "Li xalên Memphis (Men-nefer / Mit Rahina) xwedîtî ji Misira Hexamenişî (Xanedana 27., serdestiya Persan a 1.) derbasî navbera bêxwedî dibe. Agahiya derbasbûnê ya çavkaniyê: Şerê Pelusiumê 525; Kambises di dawiya mehê de wek qralê Misirê hat îlankirin; serdestiya Persan a 1. dora 402 bi dawî bû; \"Egypt was governed from Memphis by a satrap\" [Bresciani, Iranica Egypt i; Dandamayev, Iranica Cambyses]"
+},
+"OLAYLAR_ARKEOLOJI_ZINCIR:-0677-01-01:0": {
+"b": "Ekbatana, Hemedan: navbera bêxwedî → Qraliyeta Medyayê (Med)",
+"d": "Li xalên Ekbatana û Hemedanê xwedîtî ji navbera bêxwedî derbasî Qraliyeta Medyayê (Med) dibe. Agahiya derbasbûnê ya çavkaniyê: Kevneşopiya Herodotos: Ekbatana di dawiya sedsala 8. de ji aliyê Deiokes ve wek paytexta Medan tê hilbijartin (Iranica: ji bo niştecihbûneke kevntir delîleke dîrokî/arkeolojîk tune ye) | Çavkanî: Brown, S. C., \"Ecbatana\", Encyclopaedia Iranica VIII/1, 1997 (rev. 2011) | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/ecbatana | «Ecbatana was chosen as the Median capital in the late 8th century B.C.E. by Deioces»"
+},
+"OLAYLAR_ARKEOLOJI_ZINCIR:-0709-01-01:0": {
+"b": "Babîl: navbera bêxwedî → Împeratoriya Asûrî ya Nû",
+"d": "Li xalên Babîlê xwedîtî ji navbera bêxwedî derbasî Împeratoriya Asûrî ya Nû dibe. Agahiya derbasbûnê ya çavkaniyê: Sargonê II rûdine ser textê Babîlê (sala 12. ya Marduk-apla-iddina = 710/709) | Çavkanî: Grayson, A. K. 1975, Assyrian and Babylonian Chronicles, ABC 1 (Nabu-nasir > Esarhaddon); Livius.org wek veguhêzerê wergerê, stûn ii.14 | https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-1b-from-nabu-nasir-to-esarhaddon/ | «Sargon ascended the throne in Babylon.»"
+},
+"OLAYLAR_ARKEOLOJI_ZINCIR:-0721-01-01:0": {
+"b": "Samîriye (Samaria / Sebaste): Qraliyeta Îsraîlê (Samîriye) → Împeratoriya Asûrî ya Nû",
+"d": "Li xalên Samîriye (Samaria / Sebaste) xwedîtî ji Qraliyeta Îsraîlê (Samîriye) derbasî Împeratoriya Asûrî ya Nû dibe. Agahiya derbasbûnê ya çavkaniyê: Girtina Samîriyeyê 722; gel sirgûnî Halah/Gozanê hat kirin [AEBP Israel]"
+},
+"OLAYLAR_ARKEOLOJI_ZINCIR:-0731-01-01:0": {
+"b": "Şam: Qraliyeta Aram-Şamê (Dimask) → Împeratoriya Asûrî ya Nû",
+"d": "Li xalên Şamê xwedîtî ji Qraliyeta Aram-Şamê (Dimask) derbasî Împeratoriya Asûrî ya Nû dibe. Agahiya derbasbûnê ya çavkaniyê: heman çavkanî"
 }
 }
 }

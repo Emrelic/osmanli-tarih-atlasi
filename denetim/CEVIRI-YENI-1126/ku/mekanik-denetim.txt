@@ -1,7 +1,7 @@
 taban origin/main 24bca150f
 arayuz 2030/2034
-devlet 1461/2315
-olay 1430/5196
+devlet 1826/2315
+olay 1524/5196
 
 c_arayuz_01.jsonl:68 arayuz ALINMADI (yer tutucu farkli) n=68
 c_arayuz_01.jsonl:112 arayuz ALINMADI (yer tutucu farkli) n=112
