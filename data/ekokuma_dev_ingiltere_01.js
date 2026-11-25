@@ -36,6 +36,32 @@ window.EKOKUMA_DEVINGILTERE01 = [
     "Fark açıktı: İngiltere savaşa hizmette ya da yapımda olan 45 dretnot ve muharebe kruvazörüyle, Almanya 26 gemiyle girdi. Silah sınırlaması görüşmeleri de sonuç vermedi; Savaş Bakanı Haldane'ın Şubat 1912'deki Berlin ziyareti bunlardan biriydi.\n\n" +
     "Tarihçiler bugün ne diyor: Dirk Bönker'e göre yarış 1914'teki savaş kararının doğrudan sebebi değildi; siyasetçiler ve diplomatlar meseleyi kenara koymayı öğrenmişti. Ama yarış güvensizlik ve düşmanlık havası yarattı, Alman seçkinlerinin dünya gücü olamama korkusunu besledi ve İngiltere'nin savaş kararını da renklendirdi. Alman donanma yapımını inceleyen tarihçiler tehdidin ciddiyetinde ısrar ederken, İngiliz donanması ve imparatorluğu üzerine çalışan birçok tarihçi yarışın İngiliz stratejisindeki ağırlığını küçültme eğilimindedir.",
   kaynak:"Dirk Bönker, \"Naval Race between Germany and Great Britain, 1898-1912\", 1914-1918-online. International Encyclopedia of the First World War (11.01.2015), DOI 10.15463/ie1418.10536, https://encyclopedia.1914-1918-online.net/article/naval-race-between-germany-and-great-britain-1898-1912/",
-  kesinlik:"tartismali", teyit:"teyitli", yayin_adayi:true }
+  kesinlik:"tartismali", teyit:"teyitli", yayin_adayi:true },
+
+{ id:"ingiltere-george5-car-siginma-1917", devlet:"ingiltere", tur:"kimdir",
+  baslik:"\"Kuzen Nicky\"ye kapı neden kapandı? V. George ve devrilen Çar",
+  olay:["1917-03-15|II. Nikolay tahttan"],
+  kisa:"İki hükümdar kuzendi ve birbirine şaşılacak kadar benziyordu. İngiliz hükûmeti devrilen Çar ve ailesine sığınma önerdiğinde, önerinin geri çekilmesini isteyen kralın kendisiydi.",
+  metin:"V. George'un anne tarafından kuzeni olan Rus Çarı II. Nikolay'a sıcak bir yakınlığı vardı. Ona \"Cousin Nicky\" derdi; iki adam birbirine çok benziyordu. Baba tarafından kuzeni Alman İmparatoru II. Wilhelm'le ilişkisi ise nazik ama soğuktu ve 1914'ten sonra bir daha haberleşmediler.\n\n" +
+    "1917'de Nikolay tahtını kaybetti. Petersburg'daki Geçici Hükûmet'in isteği üzerine İngiliz tarafı Çar'a ve ailesine sığınma önerdi. V. George, Başbakan Lloyd George'u bu öneriyi geri çekmeye ikna etti. Kralın korkusu, Romanovların İngiltere'deki varlığının cumhuriyetçi çevreleri cesaretlendirmesi ve kendi hanedanına verilen desteği aşındırmasıydı.\n\n" +
+    "Bu kaygıyı dönemin havasıyla birlikte okumak gerekir. Savaşın körüklediği Alman karşıtlığı yüzünden kral hanedanının Saxe-Coburg-Gotha olan adını da İngiliz tınılı Windsor ile değiştirdi. Sarayda tasarruf düzeni uygulandı; kral savaş boyunca üniforma dışında bir şeyi pek giymedi.\n\n" +
+    "İşin çarpıcı yanı şudur: V. George yalnızca danışılma, teşvik etme ve uyarma hakları olan anayasal bir hükümdardı. Savaştan hemen önce itidal çağrısı yapmış, sonuç alamamıştı.\n\n" +
+    "Tarihçiler bugün ne diyor: David Freeman, sığınma meselesini kralın savaş sırasında hükûmetine bir politikayı değiştirtmek için başarıyla araya girdiği tek örnek olarak anlatır ve bunun taşıdığı ironiye dikkat çeker. Freeman'a göre belirleyici saik, tahtın kendi güvenliğiydi.",
+  kaynak:"David Freeman, \"George V, King of Great Britain\", 1914-1918-online (04.08.2017), DOI 10.15463/ie1418.11138, https://encyclopedia.1914-1918-online.net/article/george-v-king-of-great-britain/",
+  kesinlik:"kesin", teyit:"teyitli", yayin_adayi:true,
+  ic_not:"Romanovların 1918'deki akıbeti bu maddede yok; yazılmadı. Konu üzerine yarışan görüşler (Rose 1983 vb.) okunmadı." },
+
+{ id:"ingiltere-huseyin-mcmahon-1915", devlet:"ingiltere", tur:"tartisma",
+  baslik:"İngiltere Şerif Hüseyin'e tam olarak ne söz verdi?",
+  olay:["1916-06-10|Hicaz'da Arap İsyanı","1916-06-10|Şerif Hüseyin isyanı"],
+  kisa:"On mektupluk bir yazışma, Arap İsyanı'nın pazarlık zeminini kurdu. En ünlü mektubun dili ise öyle bulanıktı ki tartışması savaştan çok sonra da sürdü.",
+  metin:"Temmuz 1915 ile Mart 1916 arasında Mekke Şerifi Hüseyin ile İngiltere'nin Mısır Yüksek Komiseri Sir Henry McMahon on mektup yazıştı. Konu, Osmanlı'ya karşı bir Arap ayaklanmasına İngiliz desteği ve savaştan sonra kurulacak bağımsız Arap devletinin sınırlarıydı.\n\n" +
+    "Zamanlama rastlantı değildi. İngiliz kuvvetleri Gelibolu'da çakılmıştı; Aralık 1915'te Kûtülamâre'de kuşatma altındaydılar. Kahire, halife sultanın cihat çağrısının Mısır'da karşılık bulmasından korkuyor, Hâşimîlerin dinî saygınlığını buna karşı kullanmak istiyordu. Hüseyin'in de hesabı vardı: Arabistan'daki rakipleri İngiltere ile ittifak kuruyor, hac gelirleri çöküyor, yiyecek sıkıntısı büyüyordu.\n\n" +
+    "En çok tartışılan metin 25 Ekim 1915 tarihli mektuptur. McMahon, Hüseyin'in toprak isteklerinin büyük kısmını muğlak bir çerçevede kabul etti; bugünkü Güney Irak'ı ve Suriye kıyısının bir bölümünü dışarıda bıraktı. Mersin ile İskenderun'u ve Şam, Humus, Hama, Halep hattının batısındaki toprakları Arap saymadığını yazdı.\n\n" +
+    "Savaştan sonra bu söz, Sykes-Picot paylaşımı ve 1917 Balfour Deklarasyonu ile yan yana konunca İngiltere ikiyüzlülükle suçlandı. Hâşimîler de hanedan hırsı uğruna Arap davasını feda etmekle eleştirildi.\n\n" +
+    "Tarihçiler bugün ne diyor: Tariq Tell, McMahon'un yanıtlarına bilerek belirsizlik kattığını, Hüseyin'in de hemen gelecek maddî destek uğruna bunların üstüne gitmediğini savunur. Ona göre makul bir coğrafya yorumuyla dışarıda bırakılan alan Filistin'i de Lübnan'ı da içeremez; ayrıca üç İngiliz taahhüdü birbiriyle bağdaşmaz. Tartışma uzun sürdü; Tell, katılanların çoğunun ağırlıkla İngiliz ve Avrupa kaynaklarına dayandığını, George Antonius'un eserinin Hâşimî anlatısına yer veren bir istisna olduğunu belirtir.",
+  kaynak:"Tariq Tell, \"Husayn-McMahon Correspondence\", 1914-1918-online (27.02.2017), DOI 10.15463/ie1418.11061, https://encyclopedia.1914-1918-online.net/article/husayn-mcmahon-correspondence/",
+  kesinlik:"tartismali", teyit:"teyitli", yayin_adayi:true,
+  ic_not:"Kedourie, Antonius okunmadı; yalnız Tell'in aktarımı. Karşı görüş (Filistin'in dışarıda bırakıldığı İngiliz savunusu) ayrı kaynaktan okunmadı — BORÇ. İsyanın başlangıç günü maddede yok (yalnız Temmuz 1916); bağlanan olay günü bu kaynaktan teyit edilmedi, metne yazılmadı." }
 
 ];
