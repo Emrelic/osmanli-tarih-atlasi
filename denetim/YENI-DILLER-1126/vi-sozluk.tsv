@@ -1,55 +1,75 @@
 Afşar	Afshar
 Akkoyunlu	Aq Qoyunlu
 Akkâ	Acre
+Akçahisar	Krujë
 Altın Orda	Kim Trướng hãn quốc
 Anadolu	Anatolia
+Antakya	Antioch
 Antlaşma	hiệp ước
 Arnavutluk	Albania
 Atina	Athens
 Avlonya	Vlorë
 Avusturya	Áo
+Ayamavra	Lefkada
 Azak	Azov
 Balkanlar	Balkan
+Balyabadra	Patras
 Bağdat	Baghdad
 Belgrad	Belgrade
+Beylerbeyi	beylerbey
 Beylik	tiểu quốc beylik
 Beyrut	Beirut
 Bizans	Byzantium
+Bozcaada	Bozcaada (Tenedos)
 Boğdan	Moldavia
 Budin	Buda
 Bulgaristan	Bulgaria
 Bâb-ı Âli	Bâb-ı Âli (Sublime Porte)
 Bâbürlü	Mughal
+Bâbıâli	Sublime Porte
 Bükreş	Bucharest
+Candaroğulları	nhà Candarid
 Cebrî	Jabri
+Celâlî	Celali
 Cemâziyelevvel	Jumada I
 Cemâziyelâhir	Jumada II
 Ceneviz	Genoa
 Cenova	Genova
+Cerbe	Djerba
+Cezayir (şehir/ocak)	Algiers
+Cidde	Jeddah
 Cihan Şah	Jahan Shah
 Devlet	quốc gia
 Dimetoka	Didymoteicho
+Dir'iye	Diriyah
 Draç	Durrës
+Dulkadıroğulları	nhà Dulkadir
 Duşan	Dušan
 Dükalık	công quốc
 Eflak	Wallachia
 Emirlik	tiểu vương quốc
+Emîr Süleyman	Emir Süleyman
+Enez	Enez
 Erdel	Transylvania
 Eski Zağra	Stara Zagora
 Estergon	Esztergom
+Eğri	Eger
 Eğriboz	Negroponte
 Fas	Maroc
 Fatih	Nhà Chinh phục
 Fatih	Sultan Chinh phục
+Fatih Sultan Mehmed	Sultan Chinh phục Mehmed II
 Fetret Devri	Thời kỳ Đứt quãng
 Fetret Devri	Thời kỳ Đứt đoạn (Fetret)
 Filibe	Plovdiv
 Floransa	Firenze
+Fûnc	Funj
 Gelibolu	Gallipoli
 Gence	Ganja
 Girit	Crete
 Gregoryen takvimi	lịch Gregorius
 Gümülcine	Komotini
+Güns	Kőszeg
 Gürcistan	Gruzia
 Habeşistan	Abyssinia
 Halep	Aleppo
@@ -59,29 +79,41 @@ Hayır Bey	Khayr Bey
 Haçlı	Thập tự chinh
 Hicaz	Hejaz
 Hilâfet	nhà nước Khalip
+Hotin	Khotyn
 I. Murad	Murad I
 II. (Çar) Petro	Pyotr I
 Jülyen takvimi	lịch Julius
 Kafkasya	Kavkaz
 Kahire	Cairo
+Kamaniçe	Kamianets
 Kandiye	Candia
 Kangxi	Khang Hy
+Kanije	Kanizsa
 Kanunî Sultan Süleyman	Suleiman Nhà Lập pháp
+Kanunî Sultan Süleyman	Süleyman Lập pháp
 Kanûnî Süleyman	Süleyman Lập pháp
+Kaptan-ı deryâ	đại đô đốc
 Karadağ	Montenegro
 Karadeniz	Biển Đen
+Karakoyunlu	Qara Qoyunlu
 Karamanoğulları	nhà Karaman
 Karlofça	Karlowitz
+Kavalalı hanedanı	triều đại Muhammad Ali
 Kağanlık	hãn quốc
 Knezlik	công quốc
 Kontluk	bá quốc
+Koron	Koroni
 Kronoloji	niên biểu
 Kudüs	Jerusalem
 Kutsal İttifak	Liên minh Thần thánh
+Kölemen	Mamluk
 Köstence	Constanța
+Köstendil	Kyustendil
 Kıbrıs	Síp
 Kırım	Crimea
+Lefkoşa	Nicosia
 Lehistan	Ba Lan
+Leş	Lezhë
 Limni	Lemnos
 Litvanya	Litva
 Lâle Devri	Thời đại Hoa Tulip
@@ -89,14 +121,18 @@ MS	SCN
 Macaristan	Hungary
 Magosa	Famagusta
 Manastır	Bitola / Monastir
+Manastır	Monastir (Bitola)
 Markgraflık	bá quốc biên cương
 Meclis-i Meb'ûsan	Meclis-i Meb'ûsan (Hạ viện)
 Medine	Medina
 Mehdî	Mahdi
+Mehmed Ali Paşa	Muhammad Ali Pasha
 Mekke	Mecca
 Memlûk	Mamluk
+Memlük	Mamluk
 Mercidabık	Marj Dabiq
 Meriç	sông Maritsa
+Midilli	Lesbos (Midilli)
 Milano	Milano
 Millî Mücadele	cuộc Đấu tranh Dân tộc
 Mohaç	Mohács
@@ -105,9 +141,11 @@ Moskova	Moskva
 Mustafa Kemal Paşa	Mustafa Kemal Pasha
 Musul	Mosul
 MÖ	TCN
+Mûsâ Çelebi	Musa Çelebi
 Mısır	Ai Cập
 Nahcivan	Nakhchivan
 Napoli	Napoli
+Necid	Najd
 Niğbolu	Nicopolis
 Niş	Niš
 Osmanlı	Ottoman
@@ -118,25 +156,33 @@ Peşte	Pest
 Plevne	Pleven
 Prens Eugen	Vương công Eugène
 Preveze	Preveza
+Prut	Pruth
 Prut	sông Prut
 Rebîülevvel	Rabi' I
 Rebîülâhir	Rabi' II
 Receb	Rajab
+Resmo	Rethymno
+Revan	Yerevan
+Reşîd	Rashid (Rosetta)
 Rodos	Rhodes
 Rumeli	Rumelia
 Rusya	Nga
 Rusçuk	Ruse
 Sadrazam	Đại tể tướng
+Sadrazam	đại tể tướng
 Safevî	Safavid
 Sakız	Chios
 Sayda	Sidon
 Selanik	Thessaloniki
 Selçuklu	Seljuk
 Semendire	Smederevo
+Sennâr	Sennar
 Serez	Serres
 Silistre	Silistra
 Sofya	Sofia
 Sultanlık	vương quốc Hồi giáo
+Suûdî	Saud
+Süveyş	Suez
 Sırbistan	Serbia
 TBMM	Đại Quốc hội Thổ Nhĩ Kỳ
 Tebriz	Tabriz
@@ -144,23 +190,38 @@ Temeşvar	Temesvár
 Temeşvar	Temeşvar
 Tiancong	Thiên Thông
 Timur	Timur
+Tosun Paşa	Tusun Pasha
+Trablusgarp	Tripoli (Libya)
 Trablusgarp	Tripolitania / Tripoli
 Trablusşam	Tripoli
+Trablusşam	Tripoli (Syria)
 Trabzon	Trebizond
 Tuna	sông Danube
+Tunus (şehir/ülke)	Tunis
+Tâif	Taif
 Tırnova	Tarnovo
+Uyvar	Nové Zámky (Uyvar)
 Uyvar	Uyvar (Nové Zámky)
+Varad	Oradea
+Varadin	Petrovaradin
+Vehhâbî	Wahhabi
 Venedik	Venezia
 Venedik	Venice
 Viyana	Vienna
+Yanbolu	Yambol
+Yanova	Ineu
 Yanya	Ioannina
+Yanıkkale	Győr
 Yavuz Sultan Selim	Selim I "Nghiêm Khắc"
+Yavuz Sultan Selim	Sultan Selim I
 Yayça	Jajce
 Yaş	Iași
+Yenbu	Yanbu
 Yeniçeri	Janissary
 Yerleşim	điểm định cư
 Yunanistan	Hy Lạp
 Yıldırım Bayezid	Bayezid "Sấm Sét"
+Yıldırım Bayezid	Bayezid Tia Chớp
 Zigetvar	Szigetvár
 Zilhicce	Dhu'l-Hijja
 Zilkade	Dhu'l-Qa'da
@@ -170,15 +231,23 @@ padişah	sultan
 sancak	sancak
 Çaldıran	Chaldiran
 Çağatay	Sát Hợp Đài
+Çehrin	Chyhyryn
+Çelebi Mehmed	Çelebi Mehmed
 Çirmen	Chernomen (Çirmen)
+Îsâ Çelebi	İsa Çelebi
 Özi	Özi (Ochakov)
+Özü	Dnieper
 Üsküp	Skopje
+İbrâhim Paşa	Ibrahim Pasha
+İlbasan	Elbasan
 İlhanlı	Hãn quốc Y Nhi (Ilkhanate)
 İnebahtı	Lepanto
+İpek	Peć
 İran	Iran
 İskenderiye	Alexandria
 İstanbul	Istanbul
 İstanbul (fetih öncesi)	Constantinopolis
+İstolni Belgrad	Székesfehérvár
 İtalya	Ý
 İttihat ve Terakki	Ủy ban Liên hiệp và Tiến bộ
 İzmir	Izmir
@@ -187,6 +256,7 @@ sancak	sancak
 İşkodra	Shkodër
 Şam	Damascus
 Şevval	Shawwal
+Şeyhülislâm	sheikh al-Islam
 Şirvan	Shirvan
 Şumnu	Shumen
 Şâban	Sha'ban
