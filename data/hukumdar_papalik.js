@@ -13,5 +13,16 @@ window.HUKUMDAR_PAPALIK = [
     tartisma:"Gençliğinde konsilin papadan üstün olduğunu savunan çevrede yer aldı, papa olunca tam tersini savundu. 1460 tarihli Execrabilis bullasıyla papanın kararına karşı konsile başvurmayı yasakladı. Çağdaşlarından onu fırsatçılıkla suçlayanlar oldu.",
     tarihciler:"Marco Pellegrini, Haçlı tasarısındaki başarısızlığın onu gerçekliği hesaplayamayan bir saflıkla suçlayanlara bir ölçüde hak verebileceğini, ama son yıllarındaki tercihlerin kendi görevine tanıklık etme isteğiyle de okunması gerektiğini yazar; onu basit bir ikbal avcısı saymaz.",
     kaynak:"Marco Pellegrini, «Pio II», Enciclopedia dei Papi (Istituto della Enciclopedia Italiana, 2000), https://www.treccani.it/enciclopedia/pio-ii_(Enciclopedia-dei-Papi)/",
+    teyit:"teyitli" },
+  { id:"papalik-ii-stephanus", devlet:"papalik", ad:"II. Stephanus", from:"0752-03", to:"0757-04",
+    olum:"26 Nisan 757",
+    baba:"Constantinus",
+    tahta:"26 Mart 752 (takdis)",
+    saltanat_yil:5,
+    ovgu:"Kısa ve sıkıntılı papalığında Roma'yı Lombard tehdidinden kurtardı ve geniş bir toprak bütününü papalık yönetimine kazandırdı. Hacılar ve yoksullar için bakım evlerini düzenledi, yenilerini kurdu.",
+    yergi:"Ravenna'da kurmak istediği yönetime başpiskopos ve şehrin ileri gelenleri karşı çıktı; papa Ravennalıları Roma'ya çağırıp hapsetti, başpiskoposu da alıkoydu.",
+    tartisma:"Frank Kralı Pippin'in 754'te tam olarak neyi vaat ettiği bilinmiyor; vaadin ve sonraki bağışın belge metinleri günümüze ulaşmadı.",
+    tarihciler:"Treccani'nin papalar ansiklopedisindeki madde, onun yalnız Roma'yı tehditten kurtarmakla kalmayıp Frank korumasında, devlet biçiminde örgütlenmiş toprakları papalığa bağladığını ve bunu büyük bir başarı saydığını belirtir.",
+    kaynak:"«Stefano II», Enciclopedia dei Papi (Istituto della Enciclopedia Italiana, 2000), https://www.treccani.it/enciclopedia/stefano-ii_(Enciclopedia-dei-Papi)/",
     teyit:"teyitli" }
 ];

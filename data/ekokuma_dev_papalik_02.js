@@ -47,6 +47,18 @@ window.EKOKUMA_DEVPAPALIK02 = [
     "Tarihçiler bugün ne diyor? Treccani maddesi anlaşmazlığı iki yönlü görür: biri toprak ve siyaset, öteki din yetkisi üzerineydi. Napolyon ablukayla papalığın tarafsızlığını olanaksız sayıyor, bir yandan da Kilise'yi imparatorluğun çıkarlarına bağlamaya çalışıyordu. Maddeye göre tutsak ve haber alamayan papa, güçsüzlüğüne rağmen imparatora karşı canlı bir sitem olarak kaldı.",
   kaynak:"«Pio VII», Enciclopedia dei Papi (Istituto della Enciclopedia Italiana, 2000), https://www.treccani.it/enciclopedia/pio-vii_(Enciclopedia-dei-Papi)/",
   kesinlik:"kesin", teyit:"teyitli",
-  ic_not:"Uzun maddenin yalnız yaklaşık 58.000-76.000. karakter aralığı okundu (1801 sonrası konkordato, 1804 taç töreni, 1805-1810). Yazar adı belirlenmedi." }
+  ic_not:"Uzun maddenin yalnız yaklaşık 58.000-76.000. karakter aralığı okundu (1801 sonrası konkordato, 1804 taç töreni, 1805-1810). Yazar adı belirlenmedi." },
+
+{ id:"papalik-gaeta-kacisi-1848", devlet:"papalik", tur:"sebep-sonuc",
+  baslik:"1848: Alkışlanan papa neden Roma'dan kaçtı?",
+  olay:["1848-11-24|Gaeta'ya kaçışı"],
+  kisa:"1846'da siyasi af ilan eden IX. Pius büyük bir coşkuyla karşılanmıştı. İki buçuk yıl bile dolmadan, bir kasım gecesi Roma'dan ayrılıp Gaeta'ya sığındı.",
+  metin:"IX. Pius 1846'da seçildi. Temmuzda siyasi hükümlüler için af çıkardı. Bu sınırlı adım yeni bir çağın başlangıcı sayıldı. Pek çok kişi onu reformcu, hatta Avusturya'ya karşı İtalyan davasının papası olarak görmeye başladı. Oysa papa yukarıdan verilen ölçülü yenilikler düşünüyordu. Başlangıçta anayasa da, ulusal hareketin başına geçmek de niyetinde yoktu. Basın özgürlüğünün bir ölçüde genişletilmesi ve bir danışma meclisi gibi adımlar attı.\n\n" +
+    "1848'de Avrupa'yı devrimler sardı. Danışma organları artık yetmiyordu. Mart ayında papa bir anayasa ilan etti. Metin siyasi özgürlükleri tanırken papanın din ve devlet işlerindeki serbestliğini korumaya çalışıyordu. Asıl sınav Avusturya'ya karşı savaş oldu. 29 Nisan'daki konuşmasında Pius, Katolik bir halka karşı savaşa giremeyeceğini açıkladı. Bir İtalyan devletinin başına geçme fikrini de reddetti. Bununla birlikte uyruklarının girişimlerini engelleyemeyeceğini kabul ediyordu.\n\n" +
+    "15 Kasım'da yeni başbakan Pellegrino Rossi öldürüldü. Ertesi gün Roma'da ayaklanma çıktı. Papa 24 Kasım gecesi Gaeta'ya kaçtı. Şubat 1849'da Roma Cumhuriyeti papanın dünyevi iktidarının sona erdiğini ilan etti. Pius yabancı yardım istemeye razı oldu. Nisan-haziran aylarındaki Fransız seferi cumhuriyeti yıktı. Papa Nisan 1850'de Roma'ya döndü ve devletinde mutlak yönetimi yeniden kurdu.\n\n" +
+    "Tarihçiler bugün ne diyor? Giacomo Martina, papanın iki sadakat arasında kaldığını gösterir: bütün Katoliklere yönelik görevi ve İtalyanların bağımsızlık isteklerine duyduğu yakınlık. Ona göre bunları uzlaştırma çabası içtendi ama yetersizdi. Papa programını açıkça anlatamadı, yanlış umutları zamanında dağıtmadı ve kararlarda geç kaldı. Martina, 1848-49 deneyiminin Pius'u anayasalı yönetime ve basın özgürlüğüne kalıcı biçimde karşı hale getirdiğini de vurgular.",
+  kaynak:"Giacomo Martina, «Pio IX, beato», Enciclopedia dei Papi (Istituto della Enciclopedia Italiana, 2000), https://www.treccani.it/enciclopedia/beato-pio-ix_(Enciclopedia-dei-Papi)/",
+  kesinlik:"kesin", teyit:"teyitli",
+  ic_not:"Maddenin seçimden 1850 dönüşüne ve izleyen yıllara uzanan bölümü okundu (yaklaşık 4.000-20.000. karakter)." }
 
 ];
