@@ -1,0 +1,4 @@
+Tamamen okunan: 1_arayuz_001-013, 2_devlet_001-015, 3_bayrakli_001-002, 4_olay_001-012.
+Bakılan kayıt: arayüz ve devlet tamamı; bayraklı tamamı; olay paket 001-012'nin tümü.
+4_olay_013-276 OKUNMADI. Yalnız Grep ile bulunan "के लिए जाने" kalıbı kayıtları tek tek düzeltildi (023,024,027,035,045,050-053,057,060,061,082,083,115,120,125,223,228,232,237,256-258).
+Düzeltme dosyaları: duzeltme_001..006.jsonl

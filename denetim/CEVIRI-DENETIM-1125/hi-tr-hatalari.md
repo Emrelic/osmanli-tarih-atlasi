@@ -1,0 +1,12 @@
+- arayuz "# Ocak # (imzalar # Ocak-# Mart arası şeyhlik şeyhlik tamamlandı)": bozuk Türkçe, "şeyhlik" iki kez (çeviride de tekrar duruyor).
+- arayuz "# [yalnız yıl teyitli; TDV «Karamanoğulları» ... karaman künye ic_not_t]": kullanıcıya görünen iç not (ic_not_t).
+- arayuz "Ocak # (gün Kahire'den — bk. ic_not_t)": kullanıcıya görünen iç not.
+- arayuz "# Ocak # (kaynak özeti teyit bekler)" ve "#-#-# [ozet; teyit bekler]": iç çalışma notu.
+- arayuz "# — YIL hassasiyeti · TDV `malatya` ... (Emre notu ##)": iç not, geliştirici adı.
+- arayuz "# Ekim # (Madgearu ...). ÇELİŞKİ-# E#: eski ...": iç sürüm notu.
+- arayuz "# Temmuz # [ÇELİŞKİ-# BALKAN-HALEF: ...]": iç iş kodu.
+- olay "OLAYLAR_2S0920:1942-01-01:0": açıklamada "(bkz. ic_not)" kullanıcıya görünüyor.
+- olay "OLAYLAR:1913-05-30:0": "Girit'te Hanya, Kandiye, Girit (Resmo)": "Girit (Resmo)" hatalı görünüyor (yalnız Resmo olmalı).
+- olay "OLAYLAR_EK:1898-12-22:0": "Kandiye (Girit)" adlandırması aynı türden şüpheli.
+- olay "OLAYLAR_EK5:1872-04-01:0": "Aynı tarihte katılan öteki yerler: Sana, Taiz" — San'a maddenin kendi konusu, "öteki yerler"de tekrar ediyor.
+- olay "OLAYLAR:1821-04-02:0": "Aynı tarihte elden çıkan diğer yerleşimler" listesi 1821-03-06 maddesindekiyle aynen tekrar.

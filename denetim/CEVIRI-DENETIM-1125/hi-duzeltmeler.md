@@ -1,0 +1,90 @@
+- arayuz | # (yalnız yıl teyitli; gün bilinmiyor) | m: Anlam tersine dönmüş: 'yalnız yıl teyitli' = yalnız yıl doğrulandı; çeviri 'yalnız yıl teyitsiz' diyor
+- arayuz | # Eylül # [yalnız yıl teyitli; gün teyitsiz] | m: Anlam tersine dönmüş (teyitli → teyitsiz)
+- arayuz | # H / # (yalnız yıl teyitli; gün bilinmiyor) | m: Anlam tersine dönmüş (teyitli → teyitsiz)
+- arayuz | # Haziran # [yalnız yıl teyitli; gün teyitsiz] | m: Anlam tersine dönmüş (teyitli → teyitsiz)
+- arayuz | # [yalnız yıl teyitli; TDV «Karamanoğulları» Nisan # der, okunan akademik kaynaklarda gün yok; ÇELİŞKİ-#: merkez toprakların ilhakı #, beyliğin siyasi sonu için bkz. karaman künye ic_not_t] | m: Anlam tersine dönmüş (teyitli → teyitsiz)
+- arayuz | # [yalnız yıl teyitli; gün teyitsiz] | m: Anlam tersine dönmüş (teyitli → teyitsiz)
+- arayuz | # [yalnız yıl teyitli; gün teyitsiz] (sefer Temmuz #'te başladı) | m: Anlam tersine dönmüş (teyitli → teyitsiz)
+- arayuz | Eylül # [yalnız ay teyitli; t #-#-# gün yer tutucusu — TDV «Estergon» yalnız Eylül # verir, ÇELİŞKİ-# Macaristan hattı] | m: Anlam tersine dönmüş (teyitli → teyitsiz)
+- arayuz | Eylül # [yalnız yıl teyitli; gün teyitsiz] | m: Anlam tersine dönmüş (teyitli → teyitsiz)
+- arayuz | Haziran # [yalnız yıl-ay teyitli; gün teyitsiz] | m: Anlam tersine dönmüş (teyitli → teyitsiz)
+- arayuz | Mayıs # [yalnız yıl-ay teyitli; gün teyitsiz] | m: Anlam tersine dönmüş (teyitli → teyitsiz)
+- arayuz | # Ağustos # (Ateş: # Ağustos'ta Osmanlı müfrezesi çekildi) | m: Ateş yazar soyadı; 'ateş' (आग) diye çevrilmiş
+- arayuz | # (Sakız: #-# Haziran) | m: Sakız burada Sakız Adası (Chios); Hintçede कियोस
+- arayuz | #/# Mayıs # gecesi (Temeşvar paşası # Mayıs'ta Lippa önünden çekildi) | m: 'çekildi' (kendisi geri çekildi) 'geri çektirdi' diye çevrilmiş
+- arayuz | (toprak değişince harita devletin sınırlarına ZIPLASIN mı — sıçramalıdır, adaptif genişlik bunun yumuşak hâlidir) | m: 'sıçramalıdır' = sıçramalı bir harekettir; 'sıçramalı/kesinlikle zıplamalı' değil
+- arayuz | (okuyanın tepkisi — kaynağın hükmü değil, TDV'ye basmaz) | m: Anlamsız ifade; 'TDV'ye basmaz' = TDV'ye damgalanmaz
+- arayuz | Geç | m: Tanıtım turundaki 'Geç' düğmesi = Atla (js/tanitim.js tanitim-gec); 'geç (late)' diye çevrilmiş
+- arayuz | Haritadaki kırılma | m: 'kırılma' = değişim noktası; दरार fiziksel çatlak demek
+- arayuz | Krallıklar | m: 'Devletler' ile aynı kelime (राज्य); krallık ayrımı kayboluyor
+- arayuz | MÖ # (Kyros'un ölüm haberi Aralık #'da Babil'e ulaştı) | m: Çift boşluk
+- arayuz | MÖ # (Nisan-Mayıs #; Livius saltanatı #'ten sayar) | m: Çift boşluk
+- arayuz | MÖ # (Şalmaneser III yıl #; kaleler #'ya dek) | m: Çift boşluk
+- arayuz | MÖ # civarı (saltanatının #. yılı, Shaw #'e göre) | m: Çift boşluk
+- arayuz | arasını kapsıyor (yazdığınız tarih | m: Cinsiyet uyumu hatası (तिथि dişil)
+- arayuz | Yerleşim: olay mahalli ekranın ortasına mı gelsin, kenardan mı girsin. | m: Burada 'Yerleşim' = yerleştirme (ayar bölümü), köy/kasaba değil
+- arayuz | 📍 ② Yerleşim | m: Uçuş ayarı bölüm başlığı: 'yerleştirme', yerleşim yeri değil
+- arayuz | ⚠️ Siyasî katman kapalı — tarama şu an görünmüyor. | m: 'tarama' = taralı gölgelendirme, 'scan' değil
+- arayuz | 🗺 İsyan taraması (Eflak · Boğdan · Erdel) | m: 'taraması' = harita taralı alanı, scan değil
+- arayuz | 🗣️ Nasıl bilirdiniz | m: Kişi hakkında 'nasıl biri bilirdiniz' (cenaze sorusu); çeviri 'nereden biliyordunuz' anlamında
+- devlet | kesiri-sultanligi | m: Yanlış devlet adı: Kesîrî Sultanlığı yerine Kuaytî yazılmış
+- devlet | kirman-selcuklu | m: Kirman (İran) 'करमान' yazılmış; Karaman ile karışıyor
+- devlet | yahya-donemleri | m: Kirman (İran), Karaman değil
+- devlet | tuareg-accer | m: Kel Ajjer; Türkçe 'cc' Hintçede 'ज्ज' olmalı
+- devlet | angola-unita-fnla | m: Huambo şehir adı yanlış yazılmış
+- devlet | sutayogullari | m: Sutayoğulları yazımı (fazla ünsüz)
+- devlet | mac-hanedani | m: Mạc hanedanı Hintçede माक
+- devlet | budjak-ordasi | m: Aynı ad iki kez yazılmış
+- devlet | kafkas-arnavutlugu-krallik | m: Çift boşluk
+- olay | OLAYLAR:1783-04-19:0 | d: Küçük Kaynarca antlaşması bir kişi gibi çevrilmiş ('संधि' eksik)
+- olay | OLAYLAR_EK5:1716-10-13:0 | d: 'eyaletin devriyle' (devir=el değiştirme) 'dönem' diye çevrilmiş; bozuk cümle; abi merkez anlamsız
+- olay | OLAYLAR_EK7:1387-01-01:0 | d: Cinsiyet uyumu hatası
+- olay | OLAYLAR_EK8:1924-01-01:0 | d: Alıntı Türkçe kalmış
+- olay | OLAYLAR:1361-05-05:0 | d: 'alınması' = ele geçirilmesi; 'के लिए जाने' (bir şey için gitmek) anlamsız
+- olay | OLAYLAR:1534-12-04:0 | d: 'alınması' yanlış çevrilmiş (के लिए जाने)
+- olay | OLAYLAR:1596-10-26:0 | d: 'başında bulunduğu' sözcüğü sözcüğüne 'सिर पर' çevrilmiş
+- olay | OLAYLAR:1921-09-13:0 | d: 'ग़ाज़ीपन/मुशिरपन' uydurma sözcükler
+- olay | OLAYLAR_EK:1328-01-01:0 | d: 'alınmasının ardından' yanlış çevrilmiş
+- olay | OLAYLAR_EK:1386-01-01:0 | d: 'alınmasıyla' yanlış çevrilmiş
+- olay | OLAYLAR_EK:1395-01-01:0 | d: Türkçe 'ansiklopedisi' kalıntısı
+- olay | OLAYLAR_EK:1393-06-17:1 | b: Ad iki kez aynı yazılmış (Lofça (Loveç))
+- olay | OLAYLAR_EK:1456-06-04:0 | d: 'sancak' burada bayrak; idari birim 'संजक' yazılmış
+- olay | OLAYLAR_EK:1501-08-17:0 | d: Cinsiyet uyumu hatası
+- olay | OLAYLAR_EK:1526-07-27:0 | b: Varadin (Petrovaradin) 'वराद' yazılmış; वराद Várad/Oradea ile karışır
+- olay | OLAYLAR_EK:1526-07-27:0 | d: Yer adı Varadin
+- olay | OLAYLAR_EK:1717-08-18:0 | d: Yer adı Varadin (Petrovaradin)
+- olay | OLAYLAR_EK5:1363-01-01:0 | d: 'alınmasının ardından' yanlış çevrilmiş (के लिए जाने = bir şey için gitmek)
+- olay | OLAYLAR_EK5:1393-09-01:0 | d: 'alınması' yanlış çevrilmiş
+- olay | OLAYLAR_EK5:1458-05-01:0 | d: 'alınması' yanlış çevrilmiş
+- olay | OLAYLAR_EK5:1516-09-26:0 | d: 'alınmasıyla' yanlış çevrilmiş
+- olay | OLAYLAR_EK5:1478-06-15:0 | d: 'ele geçirilmesiyle' yanlış çevrilmiş
+- olay | OLAYLAR_EK5:1648-05-01:0 | d: 'alınmasından sonra' yanlış çevrilmiş
+- olay | OLAYLAR_EK5:1872-04-01:0 | d: 'alınmasıyla' yanlış çevrilmiş
+- olay | OLAYLAR_EK5:1544-09-01:0 | d: 'alındıktan sonra' yanlış çevrilmiş
+- olay | OLAYLAR_EK5:1550-01-01:0 | d: 'alınmasından sonra' yanlış çevrilmiş
+- olay | OLAYLAR_EK5:1552-09-04:0 | d: 'alınmasından sonra' yanlış çevrilmiş
+- olay | OLAYLAR_EK5:1500-12-24:0 | d: 'alınmasıyla' yanlış; son cümle anlamsız
+- olay | OLAYLAR_EK5:1522-05-29:0 | d: 'alınmasıyla' yanlış çevrilmiş
+- olay | OLAYLAR_EK5:1536-01-01:0 | d: 'alınmasıyla' yanlış çevrilmiş
+- olay | OLAYLAR_EK5:1646-11-13:0 | d: 'alınmasından' yanlış çevrilmiş
+- olay | OLAYLAR_EK5:1723-10-01:0 | b: Kirmanşah (Kermanshah); 'करमान' Karaman ile karışıyor
+- olay | OLAYLAR_EK5:1723-10-01:0 | d: 'alınması' yanlış; yer adı Kirmanşah
+- olay | OLAYLAR_EK6:1334-01-01:0 | d: 'alındıktan sonra' yanlış çevrilmiş
+- olay | OLAYLAR_EK6:1844-03-04:0 | d: 'alınmasıyla' yanlış çevrilmiş
+- olay | OLAYLAR_EK6:1854-12-02:0 | d: 'alınmasıyla' yanlış çevrilmiş
+- olay | OLAYLAR_EK6:1912-05-12:0 | d: 'alınmasından' yanlış çevrilmiş
+- olay | OLAYLAR_EK12:1913-08-31:0 | d: 'alınmasından sonra' yanlış çevrilmiş
+- olay | OLAYLAR_EK13:1513-09-03:0 | d: 'alınması' yanlış çevrilmiş
+- olay | OLAYLAR_EK13:1514-01-01:0 | d: 'alınmasının' yanlış çevrilmiş
+- olay | OLAYLAR_EK13:1769-03-11:0 | d: 'alınmasıyla' yanlış; 'en son vali' 'son vali' diye çevrilmiş; dilbilgisi
+- olay | OLAYLAR_SENUSI_0919:1689-07-15:0 | d: 'alınmasından sonra' yanlış çevrilmiş
+- olay | OLAYLAR_P0050:1527-01-01:1 | d: 'alınmasından sonra' yanlış çevrilmiş
+- olay | OLAYLAR_P0058:1514-10-23:0 | d: 'teslim alındığı' yanlış çevrilmiş
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0221-01-01:1 | d: 'alınmasıyla' yanlış çevrilmiş
+- olay | OLAYLAR_ANTIK_AKDENIZ:0435-01-01:0 | d: 'alınmasıyla' yanlış çevrilmiş
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1072-01-01:0 | d: 'alındığı' yanlış çevrilmiş
+- olay | OLAYLAR_2S1019:1878-09-18:0 | d: 'işgal hakkı' 'अधिकार का अधिकार' diye bozuk çevrilmiş
+- olay | OLAYLAR_2S1019:1439-08-27:0 | b: 'alınışıyla' yanlış çevrilmiş
+- olay | OLAYLAR_P0060:1723-01-01:0 | d: 'alınmasından sonra' yanlış çevrilmiş
+- olay | OLAYLAR_P0063:1724-09-11:0 | d: 'alınmasından sonra' yanlış; 'रूसी क्षेत्र में' yanlış okunuyor
+- olay | OLAYLAR_P0917KOSU13:1723-11-10:0 | d: 'alınmasından sonra' yanlış çevrilmiş
