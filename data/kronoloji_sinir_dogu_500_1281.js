@@ -3818,7 +3818,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
    "hindu-sahiler",
    "multan-emirligi"
   ],
-  "b": "Siyâlkot: Hindu Şâhîler Pencap'a yerleşti (abi merkez Lahor, 991)",
+  "b": "Siyâlkot: Hindu Şâhîler Pencap'a yerleşti (tarih Lahor ile aynı alınmıştır, 991)",
   "tur": "toprak-kazanc",
   "onem": 3,
   "dunya": 1,

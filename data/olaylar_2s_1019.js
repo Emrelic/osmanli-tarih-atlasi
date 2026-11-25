@@ -497,7 +497,7 @@ window.OLAYLAR_2S1019 = [
   yer:"Hisarcık (Grocka)",
   kisiler:"Helena Brankoviç",
   etiket:["askeri", "toprak-kazanc"],
-  d:"Lazar Brankoviç'in dul eşi Helena Semendire kalesini Osmanlılar'a teslim etti; Sırp Despotluğu sona erdi. Semendire'nin abi merkezliğindeki Hisarcık (Grocka) aynı günde Osmanlı'ya geçer.",
+  d:"Lazar Brankoviç'in dul eşi Helena Semendire kalesini Osmanlılar'a teslim etti; Sırp Despotluğu sona erdi. Semendire'ye bağlı Hisarcık (Grocka) aynı günde Osmanlı'ya geçer.",
   ic_not_d:"Hisarcık TDV'de bu olayda anılmıyor (TDV `semendire` Hisarcık'ı yalnız XVI. yüzyıl yol güzergâhında anar); bağ ABİ MERKEZ: Semendire (BEYANLI YAKLAŞIKLIK, atlas zinciri). Takova (abi merkezi Rudnik, zincir kaynağı okunmadı) bu maddeye alınmadı.",
   kaynak:"TDV `semendire` — AYNEN: \"20 Haziran 1459’da Lazar Brankoviç’in dul eşi Helena kaleyi Osmanlılar’a teslim etti.\" · ABİ MERKEZ: Semendire — Hisarcık için bağı gösteren kaynak yok, atlas kaydı · hassasiyet: GÜN (Semendire); Hisarcık BEYANLI YAKLAŞIKLIK" },
 
