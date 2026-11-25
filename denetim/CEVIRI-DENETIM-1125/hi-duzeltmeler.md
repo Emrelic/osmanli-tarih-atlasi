@@ -324,3 +324,110 @@
 - olay | OLAYLAR_ARKEOLOJI_MEZOPOTAMYA:-3799-01-01:0 | d: 'मोटे स्थायी' anlamsız
 - olay | OLAYLAR_ARKEOLOJI_MEZOPOTAMYA:-6499-01-01:0 | d: 'मोटे स्थायी' anlamsız
 - olay | OLAYLAR_ARKEOLOJI_MISIR_NIL_SAHRA:-0299-01-01:0 | d: Dilbilgisi hatası
+- olay | OLAYLAR_EK5:1716-10-13:0 | d: 'eyaletin devriyle' (devir=el değiştirme) 'dönem' diye çevrilmiş; bozuk cümle; abi merkez anlamsız
+- olay | OLAYLAR_EK7:1387-01-01:0 | d: Cinsiyet uyumu hatası
+- olay | OLAYLAR_EK8:1924-01-01:0 | d: Alıntı Türkçe kalmış
+- olay | OLAYLAR_EK5:1516-09-26:0 | d: 'alınmasıyla' yanlış çevrilmiş
+- olay | OLAYLAR_EK5:1872-04-01:0 | d: 'alınmasıyla' yanlış çevrilmiş
+- olay | OLAYLAR_EK12:1913-08-31:0 | d: 'alınmasından sonra' yanlış çevrilmiş
+- olay | OLAYLAR_EK13:1513-09-03:0 | d: 'alınması' yanlış çevrilmiş
+- olay | OLAYLAR_EK13:1514-01-01:0 | d: 'alınmasının' yanlış çevrilmiş
+- olay | OLAYLAR_EK13:1769-03-11:0 | d: 'alınmasıyla' yanlış; 'en son vali' 'son vali' diye çevrilmiş; dilbilgisi
+- olay | OLAYLAR_EK5:1516-09-26:0 | d: 'alınmasıyla' yanlış okunuyor; 'तटपट्टी हाथ बदल गई' bozuk
+- olay | OLAYLAR_EK5:1716-10-13:0 | d: 'devir' (devretme) 'dönem' olarak yanlış çevrilmiş; bozuk cümle
+- olay | OLAYLAR_EK5:1872-04-01:0 | d: 'alınmasıyla' bozuk: 'सनआ के लिए जाने से' 'San'a'ya gitmekle' diye okunuyor
+- olay | OLAYLAR_EK7:1387-01-01:0 | d: Çevrilmemiş Türkçe kalıntı: 'TDV İslâm Ansiklopedisi'; cinsiyet uyumu
+- olay | OLAYLAR_EK8:1924-01-01:0 | d: Türkçe kalıntı (çevrilmemiş alıntı)
+- olay | OLAYLAR_EK12:1913-08-31:0 | d: 'alınması' = 'के लिए जाने' yanlış çevirisi
+- olay | OLAYLAR_EK13:1513-09-03:0 | d: 'alınması' = 'के लिए जाने' yanlış çevirisi
+- olay | OLAYLAR_EK13:1514-01-01:0 | d: 'alınması' yanlış çevirisi
+- olay | OLAYLAR_EK13:1769-03-11:0 | d: 'alınması' yanlış çevirisi; dilbilgisi
+- olay | OLAYLAR_EK14:1775-06-01:0 | d: YANLIŞ SAYI: 7,5 milyon = 75 lakh; 7,5 crore 75 milyondur
+- olay | OLAYLAR_EK14:1548-06-01:0 | d: Türkçe sıra sayısı noktalaması
+- olay | OLAYLAR_EK14:1833-06-01:0 | d: saray = महल
+- olay | OLAYLAR_EK14:1873-06-28:0 | d: Dilbilgisi
+- olay | OLAYLAR_EK15:1400-01-01:0 | d: Türkçe sıra sayısı noktalaması
+- olay | OLAYLAR_EK15:1695-01-01:0 | d: Türkçe sıra sayısı noktalaması
+- olay | OLAYLAR_EK16:1309-01-01:0 | d: YANLIŞ ANLAM: iktayı veren Geyhatu, alan Candar; çeviri tersini söylüyordu
+- olay | OLAYLAR_EK16:1450-01-01:0 | d: Dilbilgisi
+- olay | OLAYLAR_EK16:1441-01-01:0 | d: Türkçe sıra sayısı noktalaması
+- olay | OLAYLAR_EK16:1452-01-01:0 | b: Kirman (İran) 'करमान' yazılmış
+- olay | OLAYLAR_EK16:1452-01-01:0 | d: Kirman (İran) 'करमान' yazılmış
+- olay | OLAYLAR_EK16:1861-02-13:0 | d: Misilmeri yazım hatası; 'समर्पित हुआ' yanlış
+- olay | OLAYLAR_EK16:1516-01-23:0 | b: Türkçe lakap kalıntısı: Şarlken = Charles V
+- olay | OLAYLAR_EK16:1516-01-23:0 | d: Türkçe lakap kalıntısı: Şarlken = Charles V
+- olay | OLAYLAR_EK16:1527-01-01:0 | d: Türkçe sıra sayısı noktalaması
+- olay | OLAYLAR_EK16:1884-07-14:0 | d: İse (Issa) kabilesi 'इसे' ('bunu' zamiri) yazılmış
+- olay | OLAYLAR_EK16:1815-06-09:0 | d: Yazım hatası
+- olay | OLAYLAR_EK16:1797-06-14:0 | d: Yazım hatası (डचॉय)
+- olay | OLAYLAR_EK16:1882-03-10:0 | b: Cinsiyet uyumu (उपनिवेश eril)
+- olay | OLAYLAR_EK16:1882-03-10:0 | d: Cinsiyet uyumu
+- olay | OLAYLAR_EK16:1915-09-18:0 | d: 'Büyük Geri Çekiliş' 'पलायन' (göç/kaçış) değil
+- olay | OLAYLAR_EK17:1638-12-24:0 | d: Tayyar adı 'तैयार' (hazır) okunuyor; dilbilgisi
+- olay | OLAYLAR_EK20:1344-10-28:0 | b: 'kaybı' = elden gitmesi; 'हारना' yanlış
+- olay | OLAYLAR_EK21:1811-04-01:0 | d: Metinde görünen ters bölü kalıntısı (kaçış hatası)
+- olay | OLAYLAR_EK21:1811-05-01:0 | b: Bozuk ifade
+- olay | OLAYLAR_EK21:1811-05-01:0 | d: Metinde görünen ters bölü kalıntısı
+- olay | OLAYLAR_EK21:1509-01-01:0 | d: Metinde görünen ters bölü kalıntısı
+- olay | OLAYLAR_EK21:1537-01-01:0 | d: Metinde görünen ters bölü kalıntısı
+- olay | OLAYLAR_EK19:1789-07-14:0 | d: Dilbilgisi hatası
+- olay | OLAYLAR_2S_0918:1895-07-01:0 | d: Tekrarlanan yer adı
+- olay | OLAYLAR_2S_0918:1358-02-18:0 | d: Dilbilgisi ('ने' eksik)
+- olay | OLAYLAR_2S_0918:1357-12-14:0 | d: Bozuk anlatım
+- olay | OLAYLAR_ARKEOLOJI_AFRIKA_IRAN:-8114-01-01:0 | d: 'en geç' (en geç şu tarihte) yanlış olarak 'en fazla' diye çevrilmiş
+- olay | OLAYLAR_ARKEOLOJI_CIN:-1009-01-01:0 | d: dilbilgisi: tamlama bozuk
+- olay | OLAYLAR_ARKEOLOJI_LEVANT_ANADOLU:-11219-01-01:0 | d: Epipaleolitik, Üst Paleolitik diye yanlış çevrilmiş
+- olay | OLAYLAR_ARKEOLOJI_LEVANT_ANADOLU:-7099-01-01:0 | d: Epipaleolitik, Üst Paleolitik diye yanlış çevrilmiş
+- olay | OLAYLAR_OK107:1515-09-19:0 | d: 'teslim alınması' anlaşılmaz ('लिए जाने' = 'almaya gitmek' gibi okunuyor)
+- olay | OLAYLAR_OK109:1918-10-29:0 | d: Krallık/Devlet ayrımı kaybolmuş; cümle 'devlet kendi ilanına kadar sürdü' diye okunuyor
+- olay | OLAYLAR_OK109:1918-10-31:0 | d: kullanıcıya görünen ters eğik çizgi kalıntısı
+- olay | OLAYLAR_OK109:1919-09-10:0 | d: Yazlofça yanlışlıkla Jablunkov yapılmış; Cres İtalyanca adla; 'ऑस्ट्रिया हंगरी' Avusturya-Macaristan gibi okunuyor
+- olay | OLAYLAR_OK109:1919-07-22:0 | b: parantezdeki Macarca ad aynen tekrarlanmış
+- olay | OLAYLAR_OK109:1919-08-03:0 | d: bozuk cümle yapısı
+- olay | OLAYLAR_OK106:1847-05-31:0 | d: cinsiyet uyumu ve 'सदी से अधिक से' bozukluğu
+- olay | OLAYLAR_OK106:1703-05-17:0 | d: yer adı yanlış yazılmış (Akıntı Burnu)
+- olay | OLAYLAR_OK106:1652-01-01:0 | d: 'kasaba kurdular' yerine 'kurmaya geldiler' denmiş
+- olay | OLAYLAR_H7_ASAMA:1529-05-10:0 | d: 'alınıp verilmesi' anlaşılmaz çevrilmiş
+- olay | OLAYLAR_H7_ASAMA:1610-03-26:0 | d: anlamsız tamlama
+- olay | OLAYLAR_T5_1000A:1111-01-01:0 | d: yanlış anlam: 'Tancred için' denmiş
+- olay | OLAYLAR_T5_1000B:1069-10-20:0 | d: 'अधिपति-ता' uydurma sözcük (metbûluk)
+- olay | OLAYLAR_T5_1000B:1076-01-01:0 | d: 'अधिपति-ता' uydurma sözcük
+- olay | OLAYLAR_T5_1000B:1092-01-01:0 | d: 'अधिपति-ता' uydurma sözcük
+- olay | OLAYLAR_T5_1000B:1171-09-13:0 | d: cinsiyet uyumu ve uydurma sözcük
+- olay | OLAYLAR_T5_1000B:1250-01-01:0 | d: 'अधिपति-ता' uydurma sözcük
+- olay | OLAYLAR_T5_1000B:1261-06-09:0 | d: 'अधिपति-ता' uydurma sözcük
+- olay | OLAYLAR_T5_1000B:1176-09-17:0 | d: dilbilgisi hatası
+- olay | OLAYLAR_ONCE1000_1019:0969-07-06:0 | d: bozuk tamlama
+- olay | OLAYLAR_KURULUS_GERI_1021:0661-07-29:0 | d: dilbilgisi: 'ने' eksik
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1099-05-16:0 | b: binlik ayırıcı Türkçe biçimde (ondalık gibi okunuyor)
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1099-05-16:0 | d: binlik ayırıcı Türkçe biçimde
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1108-08-25:0 | b: dilbilgisi hatası
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1108-08-25:0 | d: dilbilgisi hatası
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1183-06-12:0 | b: Latin harf karışması
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1183-06-12:0 | d: Latin harf karışması
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1000-01-01:0 | b: dilbilgisi: 'ने' eksik
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1000-01-01:0 | d: dilbilgisi: 'ने' eksik
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1000-01-01:1 | b: binlik ayırıcı Türkçe biçimde (ondalık gibi okunuyor)
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1000-01-01:1 | d: binlik ayırıcı Türkçe biçimde
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1005-01-01:0 | d: cümle yapısı bozuk, anlam bulanık
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1026-01-08:0 | d: binlik ayırıcı Türkçe biçimde
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1035-05-12:0 | d: binlik ayırıcı Türkçe biçimde
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1040-05-23:0 | d: binlik ayırıcı Türkçe biçimde
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1079-07-04:0 | d: dilbilgisi: 'ने' eksik
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1104-12-21:0 | b: yanlış anlam: Melikşah Tapar'ın değil Berkyaruk'un oğlu
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1104-12-21:0 | d: yanlış anlam: Melikşah Berkyaruk'un oğlu
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1119-11-07:0 | d: özel ad yanlış (Seferiyye Hatun)
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1128-01-01:1 | b: yanlış anlam: Atsız Sencer'in değil Kutbüddin'in oğlu
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1128-01-01:1 | d: yanlış anlam: Atsız Kutbüddin'in oğlu
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1131-01-01:0 | b: yanlış anlam: Dâvud Aksungur'un değil Mahmud'un oğlu
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1131-01-01:0 | d: yanlış anlam: Dâvud Mahmud'un oğlu
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1135-01-01:0 | d: binlik ayırıcı Türkçe biçimde
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1173-01-01:0 | d: dilbilgisi: uyum hatası
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1176-09-17:0 | d: yanlış anlam ve yarım cümle
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1204-01-01:1 | b: dilbilgisi: 'ने' eksik
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1204-01-01:1 | d: dilbilgisi: 'ने' eksik
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1230-01-01:0 | d: bozuk cümle yapısı, özne anlaşılmıyor
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1243-07-01:0 | d: binlik ayırıcı Türkçe biçimde (ondalık gibi okunuyor)
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1277-04-06:0 | d: binlik ayırıcı Türkçe biçimde
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:0828-03-22:0 | b: dilbilgisi: yanlış fiil yapısı
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:0828-03-22:0 | d: dilbilgisi: yanlış fiil yapısı

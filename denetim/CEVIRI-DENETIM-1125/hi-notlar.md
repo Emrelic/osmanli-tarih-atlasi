@@ -20,6 +20,15 @@ Düzeltilmeyen, toplu karar gerektiren tutarlılık notları (hi, 013-042):
 - "Osmanlı" özel ad içinde "ऑटोमन" yapılmış (İttihâd-ı Osmânî); öteki özel adlarda da taranmalı.
 - Terim karışıklığı: bazı maddelerde "उस्मानी", çoğunda "ऑटोमन" (EK5:1688-06-22, EK6:1821-1829). Zevk/tutarlılık; değiştirilmedi.
 
+== notlar_c.md
+073-107 (hi) toplu karar gerektiren, düzeltilmeyenler:
+- "हबेश / हबेशिस्तान" (Habeş/Habeşistan) Türkçe biçim; Hintçede yerleşik इथियोपिया/अबीसीनिया. Öteki paketlerde de aynı, tek tek değiştirilmedi.
+- "ओजाक" (ocak/ocaklık) Türkçe terim her yerde; dokunulmadı.
+- "के लिए जाने/जाना" ve "समर्पित हुआ" kalıbı: anlamı bozanlar düzeltildi; "आत्मसमर्पित हुआ" (093-100) bırakıldı.
+- "सराय" (saray) yalnız han/inn anlamına gelecek yerlerde düzeltildi; "एस्की सराय", "तोपकापी सराय" gibi biçimler öteki aralıklarda da taranmalı.
+- Terim/yazım tutarsızlığı: अक्तूबर/अक्टूबर, क़राक़ोयुनलू/क़रा-कोयुनलू, सफ़वी/सफ़ावी, जहाँ शाह/जिहान शाह, बयलिक biçimleri.
+- 073-087'de düzeltilen alanların dışında "सराय" geçen birkaç alan bağlama göre bırakılmış olabilir; Roma rakamlı "शताब्दी" biçimi 073-092'de görülenlerde düzeltildi.
+
 == notlar_d.md
 Düzeltilmeyen, emin olunmayan ya da zevk sınırındaki noktalar (4_olay_108-142)
 - Çin adları dalgalı: चेंगदू / छंगदू; ZINCIR dönem kayıtlarında Latin "(Chengdu)" TR parantezinden korunmuş.

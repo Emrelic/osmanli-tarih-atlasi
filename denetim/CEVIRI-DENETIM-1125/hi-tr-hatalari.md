@@ -53,6 +53,29 @@
 - olay OLAYLAR_EK7:1920-04-23:0: "124 yerleşim ... TBMM hükümetinin idaresine girdi" atlas veri notu.
 - olay OLAYLAR_EK8:1920-08-10:0: "Haritada karşılığı olmamasının sebebi budur", "BAĞIMSIZ/İLK" (1830 maddesi) büyük harf vurguları; atlas notu üslubu.
 
+== tr_hatalari_c.md
+- olay OLAYLAR_EK8:1893-02-18:0: "torununun torunu II. George Tupou" — kaynaklarda II. George Tupou, I. George'un torununun oğlu (great-grandson); çeviri "परपोते".
+- olay OLAYLAR_EK8:1924-01-01:0: "TDV'nin `harizm` maddesi ... yalnız yıl veriyor" iç not (ters tırnak, slug) kullanıcıya görünüyor.
+- olay OLAYLAR_EK9:1911-10-08:0: "29 Eylül savaş ilân etti ve donanması 25-26 Eylülde kıyıyı abluka altına aldı" — sıra tutarsız; kontrol edilmeli.
+- olay OLAYLAR_EK10:1402-07-28:0 ve 1420-01-01:0: "(… — TDV silistre)" slug türü iç not.
+- olay OLAYLAR_EK11:1502-01-01:0: "bölge on kayıt hâlinde" ve "(gün teyitsiz)" iç not.
+- olay OLAYLAR_EK11:1796-01-01:0: "Ağa Muhammed Şah'ın önünde Afşar hükümdarı Şâhruh tarafından karşılandı" — cümle bozuk.
+- olay OLAYLAR_EK13:1569-01-01:0, OLAYLAR_EK13:1861-05-21:0, OLAYLAR_EK15:1659-01-01:0, OLAYLAR_EK16:1337-09-09:0: TR metninde ters bölü kaçış kalıntısı (\") görünüyor.
+- olay OLAYLAR_EK14:1566-... Selimiye (1568-01-01): "tamamlanışı kronolojide zaten kayıtlı" iç not.
+- olay OLAYLAR_EK16:1341-01-01:0: "(künyede Özbek/Canibek)" iç not.
+- olay OLAYLAR_EK16:1307-01-01:0: "(atlas künye tarihi 1307; ... tartışmalıdır)" iç not.
+- olay OLAYLAR_EK16:1941-07-09:0: "memorialmuseums.org ... arama özeti [özet]" iç not (çeviride de "[सार]").
+- olay OLAYLAR_EK16:1941-06-23:0/1, 1944-07-16:0, 1944-07-28:0: ASCII Türkçe ("isgal", "Dogu Cephesi", "Kizil") ve açıklamalar anlamsız yer tutucu.
+- olay OLAYLAR_EK17:1725-01-01:0: "Gün TDV'de belirtilmiyor, yıl beyan." iç not.
+- olay OLAYLAR_EK17:1738-08-01:1 ve 1800-04-02:0: "harita Semendire'nin günüyle çalışır"; "1799-03-05 ile bu gün arası" (ISO tarih) geliştirici üslubu; 1738-08-01:0'da "(1739-09-18)".
+- olay OLAYLAR_EK20:1490-01-01:0, 1870-09-20:0, 1807-07-09:0 (Tilsit), 1720...: "atlasın ... bağlaması / Atlasta ... geçer" geliştirici notu.
+- olay OLAYLAR_EK20:1768-05-15:0: "(TDV Korsika; gün teyitsiz)" iç not.
+- olay OLAYLAR_EK21:1811-04-01:0, 1811-05-01:0, 1509-01-01:0, 1537-01-01:0: \\\" ters bölü kalıntısı (çeviride de vardı, hi'de düzeltildi; öteki dillerde de bakılmalı).
+- olay OLAYLAR_EK22:1923-07-24:0: giriş TBMM onayı "23 Ağustos 1923", tabloda "2 Ağustos 1923" (doğrusu 23 Ağustos); ayrıca "md. 1-143 özetlerinde geçmiyor", "İzmir özelinde madde kanıtı yok" iç notları.
+- olay OLAYLAR_SENKRON_0930:1436-01-01:0: "Atlas, Besni'yi ... (beyanlı yaklaşıklık) Memlük'e geri verir" iç not.
+- olay OLAYLAR_2S_0918:1901-09-02:0: "Rey Buba (Adamava (Alman payı))" iç içe etiket.
+- olay OLAYLAR_2S_0918:1889-01-01:0: başlık/id 1889, metinde ilhak "1 Ocak 1890"; kontrol.
+
 == tr_hatalari_d.md
 - olay OLAYLAR_2S0920:1942-01-01:0: d kullanıcıya görünen iç not "(bkz. ic_not)" (hi çevirisinde de var: "देखें ic_not")
 - olay OLAYLAR_SENUSI_0919:1691-01-01:0: d iç not ("Eski kayıtta ... beyanlı boşluktu; artık Habsburg olarak boyanır")
