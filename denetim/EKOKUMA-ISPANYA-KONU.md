@@ -35,5 +35,12 @@ Künye: `ispanya` (1479-01-19). Dosyalar: `data/ekokuma_dev_ispanya_01..05.js` (
 - `1588-08-08` Armada: GEC maddesi "Temmuz 1588" der (takvim ve olay aşaması denetlenmeli).
 - Eksik görünen maddeler (kronoloji_ispanya, cok_ispanya, devletler taraması): 1499 Gırnata zorla din değiştirmeleri ve 1499-1501 isyanları; 1575 ödemelerin askıya alınması; 1578-02-07 Osmanlı-İspanya ateşkesi.
 
-## Sıradaki konu adayları
+## İkinci parti
+- 🔴 ERİŞİM: 1. partide enciclopedia.cat sayfaları tarayıcı taklidi başlıkla (Mozilla/5.0) çekilmiş. Kaynağında GEC geçen 8 kart, 3 hükümdar, 4 kişi teyitsiz + yayin_adayi:false yapıldı (yukarıdaki "tam metni okunan" satırı bu GEC maddeleri için geçerli sayılmaz). Sitenin başlıksız engelleyip engellemediği ölçülmedi. 1. partinin öteki kaynaklarının hangi yöntemle çekildiği bu partide denetlenmedi.
+- Yeni dosya: `data/ekokuma_dev_ispanya_06.js` (Tordesillas, 1898 Küba). Toplam 16 kart.
+- Armada kartına Gómez Beltrán (IHCN Cuaderno 87, 2023), Kolomb kartına Mira Caballos (Iberoamericana 23, 2006) eklendi; ikisi de GEC'ye dayandığı için yine teyitsiz. GEC'siz yeniden kurulmaları ya da GEC'nin kurala uygun okunması gerekir. (Yukarıdaki "tek kaynaklı" notlarının yerine geçer.)
+- Bu partide okunan (WebFetch + PDF metni): Mira Caballos (s. 7-15), Gómez Beltrán (s. 29 başı, yaklaşık 50-63), Elik-Bal 2014 (s. 105-112), Dilek 2016 (s. 469-473, 477-478).
+- Okunamayan: Merle, Manuscrits 35 (2017), raco.cat HTTP 403 (yeniden denenmedi; Comuneros kartı yazılmadı). Bar Cendón 2012 PDF metni bozuk kodlu (Cádiz kartı yazılmadı). UCM CHCO PDF adresi 404.
+
+## Sıradaki konu adayları (Tordesillas ve 1898 yazıldı)
 Engizisyon ve "Kara Efsane" sayıları; 1492 Santa Fe ve Gırnata teslim şartları; Yahudi sürgününde sayı tartışması; Tordesillas; Valladolid tartışmasında Sepúlveda; Comuneros; Don Carlos; Antonio Pérez davası; Cortés ve Tenochtitlan; Potosí gümüşü ve fiyat devrimi; 1580 Portekiz birliği; İspanya Veraset Savaşı; 1808 ve Cádiz Anayasası; Amerika bağımsızlıkları; 1898; İç Savaş.
