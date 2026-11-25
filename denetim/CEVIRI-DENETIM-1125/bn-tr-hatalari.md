@@ -1,0 +1,12 @@
+- devlet sutayogullari: TR adı Türkçe karaktersiz ("Sutayogullari" → "Sutayoğulları")
+- devlet cemisgezek-beyligi: TR adı Türkçe karaktersiz ("Cemisgezek Beyligi (Melkisi)" → "Çemişgezek Beyliği (Melkişi)")
+- devlet (toplu): çok sayıda antik/Asya kaydında TR Türkçe karaktersiz (misir-*, akad, ur-3, bati-han, sui, tang, maurya, gupta, olmek, neustria ... urgell, guney-yemen, banglades, birlesik-arap-emirlikleri, untaet, guney-kore, kuzey-kore, marshall-adalari, khmer-cumhuriyeti)
+- arayuz "Ocak # (gün Kahire'den — bk. ic_not_t)": kullanıcıya görünen iç alan adı (ic_not_t)
+- arayuz "# [yalnız yıl teyitli; TDV «Karamanoğulları» ...]": kullanıcıya görünen iç not (ÇELİŞKİ-#, "karaman künye ic_not_t")
+- arayuz (çok sayıda "ÇELİŞKİ-#", "dosya.js beyanı", "Emre-notu ##", "data/rotus.js" içeren kayıt): TR kaynağında geliştirici/iç not metni
+- olay OLAYLAR_2S0920:1942-01-01:0: TR metninde "(bkz. ic_not)" iç notu (çeviriye de geçmiş)
+- olay OLAYLAR_EK16:1941-07-09:0: TR metninde "arama özeti [özet]" iç notu
+- olay OLAYLAR_EK5:1716-10-13:0: TR metninde "abi-merkez zinciri, beyanlı yaklaşıklık" iç yöntem jargonu
+- olay OLAYLAR_EK3:1695-09-22:0 (ve benzerleri): "Atlas günü ... kaydından alınmıştır (beyanlı yaklaşıklık)" iç jargon
+- olay OLAYLAR:1913-05-30:0: "Girit'te Hanya, Kandiye, Girit (Resmo)" — "Girit (Resmo)" yanlış, "Resmo" olmalı
+- olay OLAYLAR_ARKEOLOJI_LEVANT_ANADOLU:* (Nevalı Çori, Aşıklı Höyük): TR açıklama Türkçe karaktersiz ("Yukari Firat'ta ... yerlesik ... MO'dan")

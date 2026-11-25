@@ -1,0 +1,9 @@
+- SİSTEMLİ: bayraklı paketlerde (özellikle OLAYLAR_2S*, OK10x, ARKEOLOJI) Türkçe imlalı yer/kişi adları Bengalce metinde Latin harfle bırakılmış; yalnız okunan paketlerde düzeltilen kayıtlar giderildi. Betikle tarama (bn metinde [A-Za-zçğışöü] dizisi) önerilir.
+- olay OLAYLAR:1402-07-28:0 d: uzun yer listesinde "Marmaracık", "Harmankaya" Latin kalmış (উদ্দেশ্য: মারমারাজিক, হারমানকায়া); ayrıca "(Makri)", "(Kios)", "M.Kemalpaşa" parantezleri. Uzun metin yeniden yazılmadı.
+- olay OLAYLAR:1913-05-30:0 d: "Kumçiftliği", "Stérna, Távri" Latin kalmış.
+- olay OLAYLAR_EK5:1688-06-22:0: öteki kayıtlardan farklı olarak Bengal rakamı ve "ওসমানীয়" kullanıyor (diğerleri Latin rakam + "অটোমান"). Bütün sitede rakam/terim tutarsızlığı var (OLAYLAR:1413-07-05:0, OLAYLAR_2S* de).
+- olay OLAYLAR_2S0920:1942-01-01:0: çeviride "(দেখুন ic_not)" iç not görünüyor (kaynak TR'de de var; TR düzeltilince çeviriden de kaldırılmalı).
+- olay bayraklı arkeoloji kayıtları (Xağra, Gordion, Pınarbaşı, Nevalı Çori, Aşıklı Höyük): adlar Latin; düzeltilmedi.
+- olay OLAYLAR_P0059:1594-11-13:0 ve OK109:1919-09-10:0: yalnız kaynak adı / Hırvat ada adları Latin; sınırda, düzeltilmedi.
+- arayuz ". olay:" -> "। ঘটনা:" : nokta sıra eki olabilir; bağlam bilinmediği için bırakıldı.
+- arayuz MÖ kayıtları ve bazı devlet parantezleri (yerli halk adları) Latin bırakılmış; kaynakta da özgün ad olduğundan dokunulmadı.

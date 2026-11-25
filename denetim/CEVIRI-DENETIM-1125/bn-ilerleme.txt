@@ -1,0 +1,7 @@
+Tamamen okunan paketler:
+- 1_arayuz_001-012 (12/12, arayüzün tamamı)
+- 2_devlet_001-015 (15/15, devlet adlarının tamamı)
+- 3_bayrakli_001-005 (5/19; üst sınır 15)
+- 4_olay_001-003 (3/273)
+Bakılan kayıt (yaklaşık; betikle sayılmadı): arayüz ve devlet türlerinde okunan paketlerin tamamı; olay: 3_bayrakli_001-005 ile 4_olay_001-003 içindeki kayıtlar.
+Okunmayan: 3_bayrakli_006-019, 4_olay_004-273.

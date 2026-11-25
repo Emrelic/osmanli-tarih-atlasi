@@ -1,0 +1,79 @@
+- arayuz | # Ağustos # (Ateş: # Ağustos'ta Osmanlı müfrezesi çekildi) | m: Ateş yazar soyadı; 'ateş/yangın' diye çevrilmiş
+- arayuz | # (Sakız: #-# Haziran) | m: Sakız adası (Chios) yerleşik adla yazılmalı
+- arayuz | . binyıl | m: Buradaki nokta sıra sayısı eki; cümle noktası (।) diye çevrilmiş
+- arayuz | . yüzyıl | m: Buradaki nokta sıra sayısı eki; cümle noktası (।) diye çevrilmiş
+- arayuz | (toprak değişince harita devletin sınırlarına ZIPLASIN mı — sıçramalıdır, adaptif genişlik bunun yumuşak hâlidir) | m: 'sıçramalıdır' = sıçramalı/sarsıntılıdır; 'zıplamalı (gerekli)' diye ters anlaşılmış
+- arayuz | Bitirdiği savaş: | m: Özne antlaşma; saygı kipi (kişi) yanlış
+- arayuz | MÖ # (Aşşur'un düşüşünün ardından) | m: Aşşur burada Asur şehri; Asurya devleti diye çevrilmiş
+- arayuz | Sohum kuzeydoğusu (Abhazya ↔ Kabartay): şeridin # km içinde yerleşim noktası yok — boşluk veri eksiği değil, sırttır (yerlesimler_ek#.js beyanı, # Ekim #). | m: Kabartay = Kabarda; Kabardino yanlış biçim
+- devlet | kacar-esterabad | m: Türkçe yazım kalıntısı
+- devlet | kutlughanli | m: Çevrilmemiş Türkçe ad
+- devlet | dobruca-despotlugu | m: Türkçe yazım kalıntısı
+- devlet | qing-halha-aymaklari | m: Türkçe yazım kalıntısı
+- devlet | tsvana | m: Türkçe imlalı Latin adlar çevrilmemiş
+- devlet | ovambo | m: Türkçe imlalı Latin adlar çevrilmemiş
+- devlet | ovimbundu | m: Türkçe imlalı Latin adlar çevrilmemiş
+- devlet | sutayogullari | m: Hiç çevrilmemiş
+- devlet | cemisgezek-beyligi | m: Hiç çevrilmemiş
+- devlet | dejanovic-prensligi | m: Latin Türkçe kalıntı
+- devlet | mutapa | m: Çevrilmemiş (küçük harfli Latin)
+- devlet | cenub-i-garbi-kafkas | m: Hiç çevrilmemiş Osmanlıca ad
+- devlet | yugoslavya-federal | m: FHC Türkçe kısaltma (Federatif Halk Cumhuriyeti); SFRY ile tutarlı biçim FPRY
+- devlet | thuringia-landgrafligi | m: Bozuk Bengalce yazım
+- devlet | nri | m: Özel ad yanlış yazılmış (Nri)
+- devlet | denyanke | m: Aynı ad parantezde yinelenmiş
+- devlet | turk-misir-sudani | m: Latin harfli Türkçe kalıntı
+- devlet | kazak-hetmanligi | m: Latin harfli kalıntı
+- devlet | trinh-lordlari | m: Trịnh adı 'চিন' (Qin/Çin) ile karışıyor
+- devlet | ceibal | m: Ad parantezde yinelenmiş, 'Krallığı' düşmüş
+- arayuz | 'i puansız) | m: Çevrilmemiş Türkçe parça
+- arayuz | TDV İslâm Ansiklopedisi, « | m: Çevrilmemiş; öteki metinlerde bu ad çevrili
+- olay | OLAYLAR_EK:1302-08-01:0 | b: Latin Türkçe kalıntı
+- olay | OLAYLAR_EK:1302-08-01:0 | d: Latin Türkçe kalıntı
+- olay | OLAYLAR_EK5:1688-06-22:0 | d: Macarca 'Jenővel' = Jenő (Ineu) kasabasıyla birlikte; 'Eugen ile' diye yanlış çevrilmiş
+- olay | OLAYLAR_EK5:1716-10-13:0 | d: 'abi-merkez' özel ad (Márquez) sanılmış; yer adları Latin kalmış
+- olay | OLAYLAR_EK6:1547-01-01:0 | d: 'madde' sözcüğü çevrilmeden harf aktarımıyla yazılmış
+- olay | OLAYLAR_EK16:1941-07-09:0 | d: Kaynak satırı Türkçe kalmış
+- olay | OLAYLAR_2S_0918:1420-06-22:0 | b: Özel ad Latin harfli bırakılmış
+- olay | OLAYLAR_2S_0918:1420-06-22:0 | d: Türkçe kalıntı ve Latin adlar
+- olay | OLAYLAR_2S_0918:1319-01-01:0 | b: Özel ad Latin harfli bırakılmış
+- olay | OLAYLAR_2S_0918:1319-01-01:0 | d: Latin adlar ve 'banlık' Türkçe kalıntısı
+- olay | OLAYLAR_ORTADOGU_0919:1816-01-01:0 | b: Türkçe imlalı Latin adlar
+- olay | OLAYLAR_ORTADOGU_0919:1816-01-01:0 | d: Latin adlar; 'Kavalalı' yanlış (কাভালার) ve İngilizce 'Pasha'
+- olay | OLAYLAR_ORTADOGU_0919:1819-08-13:0 | b: Türkçe imlalı Latin adlar
+- olay | OLAYLAR_ORTADOGU_0919:1819-08-13:0 | d: Latin adlar
+- olay | OLAYLAR_2S_0919:1329-01-01:0 | b: Özel ad Latin harfli
+- olay | OLAYLAR_2S_0919:1329-01-01:0 | d: Latin adlar ve Türkçe 'Sakız' kalıntısı
+- olay | OLAYLAR_2S_0919:1368-01-01:0 | b: Türkçe kalıntı
+- olay | OLAYLAR_2S_0919:1368-01-01:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_2S_0919:1379-01-01:0 | b: Türkçe kalıntı
+- olay | OLAYLAR_2S_0919:1379-01-01:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_2S_0919:1384-01-01:0 | b: Türkçe kalıntı
+- olay | OLAYLAR_2S_0919:1384-01-01:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_2S_0919:1500-01-01:0 | b: Türkçe kalıntı
+- olay | OLAYLAR_2S_0919:1500-01-01:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_2S_0919:1558-01-01:0 | b: Latin ad
+- olay | OLAYLAR_2S_0919:1558-01-01:0 | d: Latin adlar
+- olay | OLAYLAR_2S_0919:1589-07-02:0 | b: Latin ad
+- olay | OLAYLAR_2S_0919:1589-07-02:0 | d: Latin adlar
+- olay | OLAYLAR_2S_0919:1751-01-01:1 | b: Latin Türkçe kalıntı
+- olay | OLAYLAR_2S_0919:1751-01-01:1 | d: Latin adlar
+- olay | OLAYLAR_2S_0919:1759-02-13:0 | b: Latin Türkçe kalıntı
+- olay | OLAYLAR_2S_0919:1759-02-13:0 | d: Latin adlar
+- olay | OLAYLAR_2S_0919:1847-01-01:0 | b: Latin adlar
+- olay | OLAYLAR_2S_0919:1847-01-01:0 | d: Latin adlar
+- olay | OLAYLAR_2S_0919:1888-05-01:0 | b: Latin Türkçe ad
+- olay | OLAYLAR_2S_0919:1888-05-01:0 | d: Latin adlar
+- olay | OLAYLAR_2S_0919:1911-01-01:0 | b: Latin Türkçe ad
+- olay | OLAYLAR_2S_0919:1911-01-01:0 | d: Latin adlar
+- olay | OLAYLAR_2S_0919:1343-01-01:0 | b: Latin Türkçe kalıntı, İngilizce 'Shah'
+- olay | OLAYLAR_2S_0919:1343-01-01:0 | d: Latin Türkçe kalıntı
+- olay | OLAYLAR_2S_0919:1353-01-01:0 | b: Latin Türkçe kalıntı
+- olay | OLAYLAR_2S_0919:1353-01-01:0 | d: Latin Türkçe kalıntı
+- olay | OLAYLAR_2S_0919:1909-06-02:0 | b: Latin adlar, bozuk 'সুলতানাত'
+- olay | OLAYLAR_2S_0919:1909-06-02:0 | d: Latin adlar, bozuk 'সুলতানাত'
+- olay | OLAYLAR_OK107:1514-09-15:0 | b: Latin Türkçe kalıntı
+- olay | OLAYLAR_OK107:1514-09-15:0 | d: Latin Türkçe yer adları
+- olay | OLAYLAR_OK109:1918-12-01:0 | d: Latin Türkçe yer adları
+- olay | OLAYLAR_OK109:1920-06-04:1 | b: Latin Türkçe kalıntı
+- olay | OLAYLAR_OK109:1920-06-04:1 | d: Latin Türkçe yer adları
