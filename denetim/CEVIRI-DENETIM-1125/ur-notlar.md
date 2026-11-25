@@ -51,6 +51,13 @@ Sistematik (tek tek düzeltilmedi):
 Uygulama uyarısı: duzeltme_c_* içinde bazı "eski" alanları birden çok parçayı " / " ile birleştiriyor (alt dize araması yapılırsa tutmaz). "yeni" her zaman alanın tamamıdır. OLAYLAR_EK14:1830-12-01:0 gibi kayıtlarda "eski" yalnız asıl hatayı gösterir.
 Emin olunmayan: EK16:1798/1800 Malta başlığında "فرانسیسی قبضے" (TR "Fransız kuşatması"; kuşatılan Fransızlardı) değiştirilmedi.
 
+== notlar_d.md
+- SİSTEMİK, kısmen düzeltildi: OLAYLAR_ARKEOLOJI_* paketlerinde (103, 107-111) yer/kültür/dönem adları Latin harfle bırakılmış (Mureybet, Ubaid, Halaf, Kerma, Naqada, Chavín, Liangzhu, Stonehenge, PPNB alt dönemleri "Early/Middle/Late", "Middle Preclassic", "calibrated" vb.). Yalnız belirgin İngilizce genel sözcükler ve yerleşik Urduca karşılığı olan bir kısım ad düzeltildi; kalanı ayrı, toplu bir transliterasyon turu ister. 107'nin sonu (Anuradhapura dışındaki 108 kayıtları: Non Nok Tha, Sanganakallu vb.) ve 109-111'in büyük kısmı bu durumda.
+- OLAYLAR_OK109 (112-113) yer adı listeleri Latin harfli (Kassa, Varad, Subotica, Pécs, Timișoara, Knin, Šibenik...). Yalnız Türkçe yazımlılar ve birkaç kayıt düzeltildi.
+- Başlıklardaki "A → B" ok yönü karışık: ZINCIR kayıtlarının bir kısmında "→", bir kısmında "←" (RTL'de görünüm farklı). Dokunulmadı; tek kural seçilmeli.
+- ZINCIR:-0349 vb. "نوسنگی دور (...) کا دور" biçiminde "dönem dönemi" tekrarı (106, GECIS kayıtları); zevk sınırında, bırakıldı. "مالک دور" (sahip dönemi) ifadesi de tuhaf, bırakıldı.
+- T5/ORTADOGU: Kürboğa iki yazımla (کربوغا / قربوغا); Rey çoğunlukla رے.
+
 == notlar_e.md
 # ur / e turu notları (4_olay_138-174)
 

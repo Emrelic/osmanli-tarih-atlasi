@@ -64,6 +64,24 @@
 - olay OLAYLAR_ARKEOLOJI_*: pek çok maddede çalışma notu (tablo sütunu, "aynı sitede", "modelde tutulmuştur", "bu oturumda KAYNAKTAN okunmadı", "3. dalga okuma notu"); D3 maddelerinin bir kısmında TR Türkçe karaktersiz; başlıklarda tekrar ("Sechín Alto: Sechín Alto:")
 - olay OLAYLAR_ARKEOLOJI_ZINCIR:*: bütün gövdeler makine/geliştirici kaydı ("sahipsiz aralık", "Kaynak geçiş bilgisi", URL, "KAYNAKLANMADI (bu oturumda kaynak yok)", "künye t uzatıldı", başlıkta "ANTIK-ISKENDER-1113-B"); ek hatası ("Cumhuriyeti'dan", "aralık'ya"); -0329 Ekbatana (başlık Ahameniş→İskender, gövde Ahameniş→sahipsiz ve MÖ 550 kaynağı), -0910 Aşşur (kaynak MÖ 14. yy), -2003 Larsa→sahipsiz (kaynak Ur III 2110), -1099 ve -1899 Susa (kaynak İbbi-Suen MC 2024), -0026 İskenderiye (kaynak MS 395) başlık/tarih ile uyuşmuyor
 
+== tr_hatalari_d.md
+- olay OLAYLAR_ARKEOLOJI_ZINCIR (103): TR.d şablonu ASCII Türkçe ("Ucuncu Ur Hanedani", "Kisim I", "Akad Imparatorlugu", "ayni kaynak") ve bozuk ek ("Hakimiyeti'dan", "aralık'ya", "Krallığı'dan"); "Ahamenis Misir'i", "Dogu Han", "Bati Han" (104-105) de ASCII.
+- olay OLAYLAR_ARKEOLOJI_ZINCIR:-2299-01-01:0: TR.d alıntı yarıda kesik ("...became the only king of ").
+- olay OLAYLAR_ARKEOLOJI_ZINCIR:0027-01-01:0, :0263-01-01:0, :0400-01-01:0: kullanıcıya görünen iç not ("Chimei'nin çıkışı (künye t=0027) bu turda okunmadı", "Son uç ... okunmadı", "yıl okunmadı").
+- olay OLAYLAR_ARKEOLOJI_ZINCIR:0036-01-01:0 (ve :0221-01-01:0): 36 yılı Chengjia→sahipsiz geçişine 214/221 Liu Bei ve Shu Han sonu kaynak metni bağlanmış (yanlış kaynak notu).
+- olay OLAYLAR_ARKEOLOJI_D2_IRAN_ORTA_ASYA:-0199/-5499: TR metninde İngilizce "Period VII ... BCE/CE". :-3199: iç not "Brifteki 'MO ~3100' tek bir kaynakta bulunmadı". :-5499 başlık "(Iranica; geçici tablo)". Aynı dosyalarda ASCII "MO".
+- olay OLAYLAR_ARKEOLOJI_D2_CIN_DOGU_ASYA:-1049/-1599:1: "bronz, altın, yeşim, tunç" (bronz=tunç tekrarı).
+- olay OLAYLAR_ARKEOLOJI_D2_AFRIKA_AMERIKA / AFRIKA_IRAN / LEVANT_ANADOLU (107, 109, 111): TR.d Türkçe karaktersiz ("meydani yakildi", "yerlesme", "oriklenin", "Yeni Gine'de bagimsiz").
+- olay OLAYLAR_ARKEOLOJI_MISIR_NIL_SAHRA:-1069: iç not "XXV. Hanedan tarihleri bu kaynakta YOK".
+- olay OLAYLAR_T5_1000A / T5_1000B (genel): "(atlas bu tarihten önceyi boş bırakır)", "(bizans maddesi 1120 der)", "(katılış yılı yılsız; hânedan başlangıcı)", "(bölge cümlesi)", "selcuklular/alanya maddesi ... der", "atlas künyeye uyarak ..." gibi iç notlar kullanıcıya görünüyor.
+- olay OLAYLAR_T5_1000A:1199-01-06:0, T5_1000B:1171-09-13:0, :1250-04-30:0: "künye", "künye günü kaynak değildir", "Emre #23 metbû modeli".
+- olay OLAYLAR_T5_1000A:1231-01-01:1 ve :1256-01-01:0: "Emre kararıyla", "(Emre kararı)", "kural 5 sınırı" kullanıcıya görünüyor (21 dile de çevrilmiş olabilir; öncelikli).
+- olay OLAYLAR_KURULUS_GERI_1021 (:0945, :0661:0, :0661:1, :0745, :0750, :0972, :1085): "gün Bağdat'tan komşudan alındı", "kayıtta ayrı yazılmadı", "sahip beyanlı boşluk", "devlet günü", "künye f'sinden", "kuyruk kronolojide".
+- olay OLAYLAR_ORTACAG_ORTADOGU:1076-08-05:0: "(Uyûnîler künyesiz)". OLAYLAR_ORTACAG_IBERYA_MAGRIB:1085-05-08:0: "künyesinden çıkıp ... kaydına geçer".
+- olay OLAYLAR_OK109:1918-10-30:0: TR.d "Sırp-Hırvat-Sloven Devleti" (29 Ekim 1918'de ilan edilen Sloven-Hırvat-Sırp Devleti; komşu madde öyle diyor).
+- olay OLAYLAR_ORTACAG_IRAN_TURAN:1104-12-21:0: "Muhammed Tapar oğlu II. Melikşah'ı" belirsiz (Berkyaruk'un oğlu). :1128-01-01:1 "Sencer oğlu Atsız'ı" ve TR.d "bir menşurla oğlu Atsız'ı" Atsız'ı Sencer'in oğlu gibi okutuyor; :1131-01-01:0 "Aksungur oğlu Dâvud'u" aynı belirsizlik (çevirilerde yanlış anlaşılmış, öteki diller de kontrol edilmeli).
+- olay OLAYLAR_ORTACAG_IRAN_TURAN:1157-04-13:0: Sencer ölümü başlık günü 13 Nisan (id), TR.d "26 Nisan veya 6 Mayıs 1157" (id günüyle uyuşmuyor; ölçülmedi, bakılmalı).
+
 == tr_hatalari_e.md
 - olay OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1115-07-24:0: açıklamada kullanıcıya görünen iç veri: `(kesinlik: {"f": "yuzyil", "t": "gun"}) Ayrıca ... https://www.treccani.it/...` (çeviride de aynen var)
 - olay OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1000-01-01:1, :1056-01-01:1, :1096-01-01:0: metinde "(yıl)" / "; yıl)" iç notu

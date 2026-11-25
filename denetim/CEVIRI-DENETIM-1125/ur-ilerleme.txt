@@ -19,9 +19,12 @@ Bakılan olay kaydı: ~840
 Düzeltme satırı: 119 (duzeltme_c_001 - 012)
 
 == ilerleme_d.txt
-Tam okunan: 4_olay_103 - 4_olay_119
-Bakılan olay kaydı: ~520
+Tam okunan: 4_olay_103 - 4_olay_137 (aralığın tamamı, 35 paket)
+Bakılan olay kaydı: ~1130 (arayüz/devlet bu turda okunmadı)
 
 == ilerleme_e.txt
 tamamen okunan: 4_olay_138 - 4_olay_174 (37/37 paket)
 bakilan tur: yalniz olay (yaklasik 900 kayit)
+
+== ilerleme_f.txt
+Tam okunan: 4_olay_175 - 4_olay_197
