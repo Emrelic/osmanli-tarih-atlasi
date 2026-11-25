@@ -9,7 +9,7 @@ window.HUKUMDAR_ISPANYA = [
   ovgu:"Veraset savaşını kazandı, soylu muhalefetini bastırdı, Gırnata'nın fethini (1481-1492) yürüttü; kraliyet maliyesini, meclisini ve adalet idaresini güçlendirdi.",
   yergi:"Gran Enciclopèdia Catalana, yeni Engizisyon'un kurulmasını ve Yahudilerin (1492) ile Müdeccenlerin (1502) sürülmesini, Kastilya siyasetine ve ekonomisine zarar veren hoşgörüsüz bir tutumun göstergesi sayar.",
   tartisma:"Taht doğrudan onun hakkı sayılmıyordu: ağabeyi IV. Enrique'nin kızı Juana vardı. Enrique 1470'te Isabel'i mirastan çıkardı; 1474'teki ölümünden sonra iki taraf da kendi kraliçesini ilan etti. Savaş 1479 Portekiz barışıyla bitti. Aynı ansiklopedi, Kolomb girişimindeki payının sanıldığı kadar büyük olmadığı görüşündedir.",
-  kaynak:"Gran Enciclopèdia Catalana, «Isabel I de Castella», https://www.enciclopedia.cat/gran-enciclopedia-catalana/isabel-i-de-castella", teyit:"teyitli" },
+  kaynak:"Gran Enciclopèdia Catalana, «Isabel I de Castella», https://www.enciclopedia.cat/gran-enciclopedia-catalana/isabel-i-de-castella", teyit:"teyitsiz", yayin_adayi:false, ic_not:"ERİŞİM YÖNTEMİ KURAL DIŞI: kaynak tarayıcı taklidi başlıkla (Mozilla/5.0) çekildi; sitenin bu başlık olmadan engelleyip engellemediği ölçülmedi. Yeniden, kurala uygun okunana kadar yayın adayı değil." },
 
 { id:"ispanya-fernando2", devlet:"ispanya", ad:"II. Fernando (Katolik; Kastilya'da V. Fernando)", from:"1479-01", to:"1516-01",
   dogum:"10 Mart 1452, Sos (Aragon)", olum:"23 Ocak 1516", olum_yer:"Madrigalejo",
@@ -19,7 +19,7 @@ window.HUKUMDAR_ISPANYA = [
   ovgu:"Gırnata savaşında başlıca rollerden birini oynadı; Napoli'nin fethi, Oran, Bicaye ve Trablus'un alınması ve Navarra'nın katılması onun dönemine rastlar. 1486'da Katalonya köylülerinin ağır yükümlülüklerini kaldıran hakem kararını verdi.",
   yergi:"1481'de o yükümlülükleri geri getiren düzenleme yeni bir köylü ayaklanmasına yol açtı. 1487'de Katalonya'ya sokulan Engizisyon sermaye ve nitelikli emek kaçışına neden oldu.",
   tartisma:"Machiavelli ve Zurita gibi yazarlar siyasî başarısını yüceltti; bir kısım Kastilya tarihyazımı rolünü Isabel lehine küçülttü, bir kısım Katalan tarihçi onu Kastilyalılaştırmanın sorumlusu saydı. Jaume Vicens i Vives ve izleyicileri itibarını güçlü delillerle savundu; ansiklopediye göre bu iade bugün bir ölçüde yumuşatılarak ele alınıyor.",
-  kaynak:"Gran Enciclopèdia Catalana, «Ferran II de Catalunya-Aragó», https://www.enciclopedia.cat/gran-enciclopedia-catalana/ferran-ii-de-catalunya-arag%C3%B3", teyit:"teyitli" },
+  kaynak:"Gran Enciclopèdia Catalana, «Ferran II de Catalunya-Aragó», https://www.enciclopedia.cat/gran-enciclopedia-catalana/ferran-ii-de-catalunya-arag%C3%B3", teyit:"teyitsiz", yayin_adayi:false, ic_not:"ERİŞİM YÖNTEMİ KURAL DIŞI: kaynak tarayıcı taklidi başlıkla (Mozilla/5.0) çekildi; sitenin bu başlık olmadan engelleyip engellemediği ölçülmedi. Yeniden, kurala uygun okunana kadar yayın adayı değil." },
 
 { id:"ispanya-felipe2", devlet:"ispanya", ad:"II. Felipe", from:"1556-01", to:"1598-09",
   dogum:"21 Mayıs 1527, Valladolid", olum:"13 Eylül 1598", olum_yer:"El Escorial",
@@ -29,6 +29,6 @@ window.HUKUMDAR_ISPANYA = [
   ovgu:"Çalışkanlığı çok övülmüştür. 1571'de İnebahtı'da Osmanlı donanmasını yenen Kutsal İttifak'ın ortağıydı; 1580'de Portekiz tacını da aldı. Kızlarına yazdığı mektuplar sıcak bir aile yüzünü gösterir.",
   yergi:"Aşırı merkeziyetçilik ve kırtasiyecilikle eleştirilir. Hollanda'da sertliği ayaklanmayı büyüttü; Kastilya savaş vergileri altında yoksullaştı, hazine borçlarını ödeyemez duruma düştü.",
   tartisma:"Savunucuları onu erdem ve iyi yönetim örneği olarak, eski sekreteri Antonio Pérez'in 1594'te yayımlanan yazılarıyla başlayan karşı akım ise karanlık bir canavar olarak çizdi. Oğlu Carlos'un tutukluluk sonrası ölümü, kralın dayattığı gizlilik yüzünden aydınlanmadı.",
-  kaynak:"Gran Enciclopèdia Catalana, «Felip II de Castella», https://www.enciclopedia.cat/gran-enciclopedia-catalana/felip-ii-de-castella", teyit:"teyitli" }
+  kaynak:"Gran Enciclopèdia Catalana, «Felip II de Castella», https://www.enciclopedia.cat/gran-enciclopedia-catalana/felip-ii-de-castella", teyit:"teyitsiz", yayin_adayi:false, ic_not:"ERİŞİM YÖNTEMİ KURAL DIŞI: kaynak tarayıcı taklidi başlıkla (Mozilla/5.0) çekildi; sitenin bu başlık olmadan engelleyip engellemediği ölçülmedi. Yeniden, kurala uygun okunana kadar yayın adayı değil." }
 
 ];

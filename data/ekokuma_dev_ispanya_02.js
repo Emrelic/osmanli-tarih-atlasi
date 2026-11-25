@@ -10,7 +10,7 @@ window.EKOKUMA_DEVISPANYA02 = [
   "Birliğin kişilere ne kadar bağlı olduğu 1504'te göründü. Isabel'in ölümü Fernando'nun Kastilya krallığını sona erdirdi. Vasiyet gereği vali olarak kalacaktı, ama güçlü soyluların muhalefeti yüzünden 1506'da ülkeyi damadı Yakışıklı Felipe'ye bırakıp ayrıldı. Felipe ölünce 1507'de geri çağrıldı. Vasiyetinde Aragon tacını kızı Juana'ya bıraktı; Juana 1504'ten beri Kastilya kraliçesiydi. Torunu Carlos'u da vali gösterdi.\n\n"+
   "Tarihçiler bugün ne diyor? Tartışma en çok Fernando'nun payında düğümleniyor. Gran Enciclopèdia Catalana'ya göre bir kısım milliyetçi Kastilya tarihyazımı onun Kastilya'daki rolünü Isabel lehine küçültmüş, bir kısım Katalan tarihçi de onu Kastilyalılaştırmakla suçlamıştır. 1930'lardan itibaren Jaume Vicens i Vives ve çevresi Fernando'nun itibarını savundu; ansiklopedi bu savunmanın bugün bir ölçüde yumuşatıldığını belirtir. 1479 bu yüzden bugünkü İspanya'nın doğum günü olarak değil, iki tacın uzun ortaklığının başlangıcı olarak okunmalıdır.",
   kaynak:"Gran Enciclopèdia Catalana, «Ferran II de Catalunya-Aragó», https://www.enciclopedia.cat/gran-enciclopedia-catalana/ferran-ii-de-catalunya-arag%C3%B3 ; «Isabel I de Castella», https://www.enciclopedia.cat/gran-enciclopedia-catalana/isabel-i-de-castella",
-  kesinlik:"tartismali", teyit:"teyitli" },
+  kesinlik:"tartismali", teyit:"teyitsiz", yayin_adayi:false, ic_not:"ERİŞİM YÖNTEMİ KURAL DIŞI: kaynak tarayıcı taklidi başlıkla (Mozilla/5.0) çekildi; sitenin bu başlık olmadan engelleyip engellemediği ölçülmedi. Yeniden, kurala uygun okunana kadar yayın adayı değil." },
 
 { id:"ispanya-felipe2-iki-yuz", devlet:"ispanya", tur:"tartisma",
   baslik:"II. Felipe: örnek hükümdar mı, karanlık bir canavar mı?",
@@ -21,7 +21,7 @@ window.EKOKUMA_DEVISPANYA02 = [
   "İkinci büyük sarsıntı sekreter Antonio Pérez davasıydı. Pérez, Escobedo adlı bir adamın öldürülmesinden sorumlu tutuldu; cinayetin ardında gizli bir aşk meselesi mi, Hollandalı isyancılarla temas mı olduğu konusunda anlatılar ayrılır. Aragonlu olan Pérez Zaragoza'ya sığınınca kral asker soktu, onu teslim etmeyi reddeden Aragon adalet yargıcını idam ettirdi ve bölgenin anayasal düzenini değiştirdi. Pérez kaçtı ve 1594'te yayımladığı Relaciones ile kralı karanlıkçı bir canavar olarak gösteren akımı başlattı.\n\n"+
   "Tarihçiler bugün ne diyor? Gran Enciclopèdia Catalana, Felipe tartışmasının çoğu zaman İspanya tarihine bakıştaki ayrılıkları gizlediğini söyler. Övenler erdem ve iyi yönetim örneği görür. Çalışkanlığı geniş ölçüde kabul edilir, ama aşırı merkeziyetçiliği ve kırtasiyeciliği de eleştirilir. Kızlarıyla yazışmaları, onun duygusuz olduğu tezine karşı kullanılan sıcak bir yüzü ortaya çıkarmıştır. Aynı ansiklopedinin kendi dili de serttir: kralı dinde bağnazlığa varan biri diye niteler. Yani hüküm verirken hem belgeyi hem anlatanın yerini okumak gerekir.",
   kaynak:"Gran Enciclopèdia Catalana, «Felip II de Castella», https://www.enciclopedia.cat/gran-enciclopedia-catalana/felip-ii-de-castella",
-  kesinlik:"tartismali", teyit:"teyitli" },
+  kesinlik:"tartismali", teyit:"teyitsiz", yayin_adayi:false, ic_not:"ERİŞİM YÖNTEMİ KURAL DIŞI: kaynak tarayıcı taklidi başlıkla (Mozilla/5.0) çekildi; sitenin bu başlık olmadan engelleyip engellemediği ölçülmedi. Yeniden, kurala uygun okunana kadar yayın adayı değil." },
 
 { id:"ispanya-morisko-osmanli-diplomasi", devlet:"ispanya", tur:"dis-yankilar",
   baslik:"Sürgünün öteki cephesi: I. Ahmed Moriskolar için kimlerin kapısını çaldı?",

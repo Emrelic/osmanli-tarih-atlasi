@@ -10,7 +10,7 @@ window.EKOKUMA_DEVISPANYA03 = [
   "Emir bütün İspanya için aynı anda geçerli olmadı. Karar Kastilya'ya ilişkindi; Bilgin, Valensiya ve Katalonya gibi bölgelerde zorlama sürecinin 1526'da başladığını, bu gecikmede Müslümanların yerel ekonomideki ve tarımdaki ağırlığının ve yönetimin temkinliliğinin payı olduğunu belirtir.\n\n"+
   "Tarihçiler bugün ne diyor? Gran Enciclopèdia Catalana, Isabel'in Yahudileri 1492'de, Müdeccenleri 1502'de çıkarmasını Kastilya siyasetine ve ekonomisine zarar veren bir hoşgörüsüzlüğün göstergesi sayar. Cisneros ise aynı ansiklopedide üniversite kurucusu ve çok dilli Kitab-ı Mukaddes'in hazırlayıcısı olarak da yer alır. İki yüz aynı kişiye aittir; biri ötekini silmez.",
   kaynak:"Gran Enciclopèdia Catalana, «Francisco Jiménez de Cisneros», https://www.enciclopedia.cat/gran-enciclopedia-catalana/francisco-jimenez-de-cisneros ; «Isabel I de Castella», https://www.enciclopedia.cat/gran-enciclopedia-catalana/isabel-i-de-castella ; Feridun Bilgin, Gaziantep University Journal of Social Sciences 12/4 (2013), s. 838-840, https://dergipark.org.tr/en/download/article-file/223232",
-  kesinlik:"kesin", teyit:"teyitli" },
+  kesinlik:"kesin", teyit:"teyitsiz", yayin_adayi:false, ic_not:"ERİŞİM YÖNTEMİ KURAL DIŞI: kaynak tarayıcı taklidi başlıkla (Mozilla/5.0) çekildi; sitenin bu başlık olmadan engelleyip engellemediği ölçülmedi. Yeniden, kurala uygun okunana kadar yayın adayı değil." },
 
 { id:"ispanya-1568-alpujarras", devlet:"ispanya", tur:"sebep-sonuc",
   baslik:"Alpujarras: bir dil ve kıyafet meselesi nasıl savaşa dönüştü?",
@@ -22,6 +22,6 @@ window.EKOKUMA_DEVISPANYA03 = [
   "Ardından bir nüfus kararı geldi: Gırnata Moriskoları kitle hâlinde ülkenin orta ve kuzey bölgelerine dağıtıldı. Dağıtılanların sayısı konusunda dikkatli olmak gerekir. Aynı araştırmacı Feridun Bilgin'in 2013'teki iki yazısından biri yaklaşık 80 bin, öteki Gırnata ve çevresi için yaklaşık 150 bin rakamını verir; iki yazı farkı açıklamaz. Dağıtma, Gırnata'daki yoğunluğu kırdı, ama Bilgin'e göre gidilen yerlerde eski Hristiyanların korkusunu artırdı. Kırk yıl kadar sonra tartışma, ülke içinde dağıtmaktan ülke dışına sürmeye vardı.\n\n"+
   "Tarihçiler bugün ne diyor? Kıyafet ve dil yasağı yakın sebep olarak öne çıkar; arkasında onlarca yıllık zorlama ve karşılıklı güvensizlik vardır. Dış destek korkusu İspanyol kararlarını biçimlendirdi, fakat korkunun büyüklüğü ile gerçekte gelen yardımın büyüklüğü ayrı sorulardır.",
   kaynak:"Gran Enciclopèdia Catalana, «Felip II de Castella», https://www.enciclopedia.cat/gran-enciclopedia-catalana/felip-ii-de-castella ; Feridun Bilgin, Gaziantep University JSS 12/4 (2013), s. 839-840 ; aynı yazar, DAAD 13/2 (2013), s. 41, 46, https://dergipark.org.tr/tr/download/article-file/52211",
-  kesinlik:"tartismali", teyit:"teyitli" }
+  kesinlik:"tartismali", teyit:"teyitsiz", yayin_adayi:false, ic_not:"ERİŞİM YÖNTEMİ KURAL DIŞI: kaynak tarayıcı taklidi başlıkla (Mozilla/5.0) çekildi; sitenin bu başlık olmadan engelleyip engellemediği ölçülmedi. Yeniden, kurala uygun okunana kadar yayın adayı değil." }
 
 ];

@@ -11,8 +11,8 @@ window.EKOKUMA_DEVISPANYA05 = [
   "Daha az tartışılan taraf yolculuğun hazırlığıdır. Kolomb Portekiz sarayını ikna edemedi. Kastilya'da da tasarısı yıllarca komisyondan komisyona gitti; hükümdarlar Gırnata seferiyle meşguldü. 17 Nisan 1492'deki Santa Fe anlaşmasında amirallik ve genel valilik gibi büyük haklar istedi. 3 Ağustos'ta Palos'tan ayrıldı.\n\n"+
   "Tarihçiler bugün ne diyor? Madde alternatif tezlere geniş yer verir, ama Cenova yönündeki noter ve mahkeme belgeleriyle Kolomb'un kendi beyanını da açıkça sayar. Bir tezin savunucusunun bulunması ile kanıtlanmış olması ayrı şeylerdir. Köken sorusu açık biçimde tartışılsa da karşı tezlerin bu belgeleri açıklaması gerekir.",
   kaynak:"Gran Enciclopèdia Catalana, «Cristòfor Colom», https://www.enciclopedia.cat/gran-enciclopedia-catalana/cristofor-colom ; Esteban Mira Caballos, \"Cristóbal Colón en el V centenario de su muerte: sus orígenes lombardos\", Iberoamericana VI, 23 (2006), s. 7-19, https://journals.iai.spk-berlin.de/index.php/iberoamericana/article/download/916/598",
-  kesinlik:"tartismali", teyit:"teyitli",
-  ic_not:"Genetik araştırma iddiaları bu görevde okunmadı; karta konmadı (BORÇ). İkinci bağımsız kaynak eklendi: Mira Caballos 2006; basılı s. 7-15 okundu (Cenova doğumu bölümü, s. 7-10, tamam), s. 16-19 okunmadı. Lombardiya kökeni yazarın kendi tezidir." },
+  kesinlik:"tartismali", teyit:"teyitsiz", yayin_adayi:false,
+  ic_not:"Genetik araştırma iddiaları bu görevde okunmadı; karta konmadı (BORÇ). İkinci bağımsız kaynak eklendi: Mira Caballos 2006; basılı s. 7-15 okundu (Cenova doğumu bölümü, s. 7-10, tamam), s. 16-19 okunmadı. Lombardiya kökeni yazarın kendi tezidir. ERİŞİM YÖNTEMİ KURAL DIŞI: kaynak tarayıcı taklidi başlıkla (Mozilla/5.0) çekildi; sitenin bu başlık olmadan engelleyip engellemediği ölçülmedi. Yeniden, kurala uygun okunana kadar yayın adayı değil." },
 
 { id:"ispanya-1569-osmanli-morisko-yardimi", devlet:"ispanya", tur:"karsi-anlati",
   baslik:"Moriskolar ayaklandığında Osmanlı donanması neden İspanya kıyısında görünmedi?",
@@ -24,7 +24,7 @@ window.EKOKUMA_DEVISPANYA05 = [
   "Daha geniş anlatılarda Osmanlı donanmasının Endülüs'e yeniden gönderildiği ve yardımın geri çevrilmediği de yazılır. Böyle genel ifadeleri okurken neyin, kaç kişiyle ve ne zaman gittiğini sormak gerekir. Gemilerle bir donanma çıkarması, kıyıya gönderilen birkaç yüz savaşçıyla aynı şey değildir.\n\n"+
   "Tarihçiler bugün ne diyor? Ayrıntılı anlatım, yardımın var olduğunu ama sınırlı kaldığını gösteriyor. Osmanlı ilgisi ile Osmanlı kapasitesinin o andaki yönü birbirinden ayrılmalı: Doğu Akdeniz'de Kıbrıs, batıdaki isyanın önüne geçmişti. Yine de İspanya'da dış destek korkusu, gelen yardımın boyutundan bağımsız olarak siyaseti etkiledi.",
   kaynak:"Emrah Naki, Avrasya İncelemeleri Dergisi 7/1 (2018), s. 54-55, https://doi.org/10.26650/jes439275 ; Furkan Oğur, International Journal of Cultural and Social Studies 9/1 (2023), s. 52 (genel anlatım), https://dergipark.org.tr/en/download/article-file/3034311 ; Gran Enciclopèdia Catalana, «Felip II de Castella», https://www.enciclopedia.cat/gran-enciclopedia-catalana/felip-ii-de-castella",
-  kesinlik:"tartismali", teyit:"teyitli",
-  ic_not:"Naki'nin BOA MD 9, hk. 204 ve Hess atıfları birincil okunmadı. 1569 Tunus bilgisi yalnız Naki'ye dayanır (o da Kavas'a atıf yapar); ikinci kaynakla teyit edilmeli." }
+  kesinlik:"tartismali", teyit:"teyitsiz", yayin_adayi:false,
+  ic_not:"Naki'nin BOA MD 9, hk. 204 ve Hess atıfları birincil okunmadı. 1569 Tunus bilgisi yalnız Naki'ye dayanır (o da Kavas'a atıf yapar); ikinci kaynakla teyit edilmeli. ERİŞİM YÖNTEMİ KURAL DIŞI: kaynak tarayıcı taklidi başlıkla (Mozilla/5.0) çekildi; sitenin bu başlık olmadan engelleyip engellemediği ölçülmedi. Yeniden, kurala uygun okunana kadar yayın adayı değil." }
 
 ];
