@@ -1,0 +1,13 @@
+{
+ "cakisma": [],
+ "red": [
+  [
+   "duzeltme_001.jsonl:2",
+   "okunamadi/kayit yok: KeyError(\"# Ağustos # (gün: Aktepe # s.#-#, Yörük-Valiyev #; Bilgili fethi 'Nisan #'ten biraz önce'ye koyar)\")"
+  ],
+  [
+   "duzeltme_001.jsonl:4",
+   "okunamadi/kayit yok: KeyError('# Nisan # (Rebîülevvel #)')"
+  ]
+ ]
+}

@@ -95,11 +95,11 @@ window.CEVIRI_DIZIN = {
   "en": [
    [
     "ceviri_en_arayuz.js",
-    "9ab1050e"
+    "403a2d46"
    ],
    [
     "ceviri_en_devlet.js",
-    "fbd8bd65"
+    "deef40ac"
    ],
    [
     "ceviri_en_olay_01.js",

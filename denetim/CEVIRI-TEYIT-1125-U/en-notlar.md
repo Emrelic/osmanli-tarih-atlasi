@@ -1,0 +1,11 @@
+# Emin olunmayan / düzeltilmeyen
+- "#th century", "#th campaign", "#th Syrian War", "mid-#th century BC": yer tutucu sayıya göre 1st/2nd/3rd bozulabilir (şablon sorunu, sistemik).
+- Parçalı cümleler (Devam ederek / kabul etmiş olursunuz; Tam ekrandan çıkmak.../tuşuna basmanız yeter; '’ten itibaren'; 'Bırakılan →'): düzeltmeler birleşme sırasına dair varsayıma dayanır, ekranda doğrulanmalı. Baştaki boşluklu " onwards" ve tek başına "." özellikle. Üyelik onay metni ("I declare ... over # years of age," + link + "I confirm that I have read them") virgülle ekleme, ekranda bakılmalı.
+- "AÇIK" -> "OPEN": ayar durumu ise "ON" olmalı (bağlam bilinmiyor).
+- "Milattan sonra/önce (#)" = "Common Era / Before Common Era" ama başka yerlerde AD/BC.
+- "Sha'ban/Shaban", "Dhu al-Qa'da/Dhu'l-Qa'da" iki yazım (bazı satırlarda; yalnız belirgin olanlar düzeltildi).
+- "🗣️ Nasıl bilirdiniz" -> "As You Knew It": cenaze sorusu; öneri "How Was He Remembered?".
+- "bölgesi" -> "region of": parça, bağlam bilinmiyor.
+- "Cevabını / kararını bekleyen notlar (son sözü Claude söyledi)" ve /postit, Claude metinleri geliştirici kipinde; son kullanıcıya görünüyorsa kaldırılmalı.
+- bagdat-memlukleri: "Eyüplü–Kölemen" Türkçe biçimiyle kaldı.
+- orta-macar-kralligi: "Central Hungarian Kingdom"; yerleşik "Principality of Upper Hungary" olabilir, tarihsel karar.

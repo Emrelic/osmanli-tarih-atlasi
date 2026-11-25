@@ -1,0 +1,68 @@
+- arayuz | # Eylül # (seçim: # Eylül #, Kamba/Reno): seçim = election
+- arayuz | # Ocak # (Jülyen; 居攝三年/初始元年 #. ay 戊辰): Türkçe sıra noktası kalmış
+- arayuz | # Ocak # (imzalar # Ocak-# Mart arası şeyhlik şeyhlik tamamlandı): 'şeyhlik şeyhlik' = şeyhlik şeyhlik tek tek; anlam yanlıştı
+- arayuz | # Temmuz # (TDV özü; ESBE «Брянская флотилия» # Temmuz eski takvim = # Temmuz — ayrışma): 'essence' yanlış; özet kastediliyor
+- arayuz | # [hicrî # ∩ # ilk günü, # Mart #; yalnız yıl teyitli, gün teyitsiz]: sözcük sırası bozuk
+- arayuz | # yazı (gün kaynakta yok; kale #-#'de yeniden ve çok daha güçlü inşa edildi): bozuk cümle
+- arayuz | # yıllarına doğru [tahmin; yalnız yıl; gün teyitsiz]: sözcük sırası bozuk
+- arayuz | # yılı takvimde yoktur; milada (# Ocak MS #) gidildi: doğal olmayan 'went to the epoch'
+- arayuz | Aralık # — padişahın vefatı (# Aralık) sonrası: baştaki # yıl; '# December' gün gibi okunuyor
+- arayuz | # (Yayça'nın alınmasından sonra; süre 'kısa'): yerleşik ad Jajce
+- arayuz | # (gün kaynakta yok; devlet dizini bu tarihi Afşar'ın bitişi olarak taşıyor): 'the Afshar' eksik/yanlış
+- arayuz | (eğik atış: uzaklaşıp yaklaşır · yatay: düz kayar): 'eğik atış' kamera yayı; 'oblique shot' yanlış
+- arayuz | (bu km'nin üstünde yatay seçilse de eğik atışa geçer): 'oblique shot' yanlış; cümle düzeltildi
+- arayuz | Eğik atış: kamera hareketi; 'oblique shot' yanlış
+- arayuz | Hareket biçimi: eğik atış uzaklaşıp yaklaşarak gider, yatay düz kayar.: aynı terim
+- arayuz | Yatay sınırı: bu km'nin üstündeki geçişler "yatay" seçilse de eğik atışla yapılır.: aynı terim; 'above this km' bozuk
+- arayuz | eğik: aynı terim
+- arayuz | flyTo(eğik): aynı terim
+- arayuz | Açık — her değişimde yeniden çerçevele: Açık = On (ayar seçeneği)
+- arayuz | Ekim # (Bayburt'un alınışı; gün kaynakta yok) · # Ekim # (beylerbeyilik tevcihi): terim ve 'tevcih' karşılığı
+- arayuz | Mart # (Cemâziyelevvel #) — beylerbeyiliğin başlangıcı; Tobruk'un alınış yılı kaynakta yok: yerleşik yazım beylerbeylik
+- arayuz | Eylül # ortaları (fetih günü kaynakta yok; # Eylül # Revan üzerine yürüyüş emri): Revan = Yerevan
+- arayuz | Ramazan # (Eylül #) — orduların Revan önüne varışı; gün kaynakta yok: Revan = Yerevan
+- arayuz | F hukukî ve tanınmış (düz, en kalın) · E hukukî (düz) · D fiilî, hukuken geçersiz (sık kesik, soluk): düz çizgi = solid (kesikli karşıtı)
+- arayuz | Fetih sonrası ediniliş simgesi (~# yıl görünür): eklenmiş/yanlış anlam
+- arayuz | Farkları yeniden yakıp söndür: 'relight' yanlış
+- arayuz | Koordinatlı sınır hattı (D katmanı — #’ten geriye sarılmış): Türkçe ek kesme işareti kalmış
+- arayuz | Kuzey Afrika Ocakları: yerleşik terim
+- arayuz | MÖ: her yerde BC kullanılıyor; tutarlılık
+- arayuz | MÖ # (# Ekim; Livius): kaynak Livius (öteki satırlarla aynı); Livy'ye çevrilmiş
+- arayuz | MÖ # (Ocak sonu; Livius # Ocak — tek gün kaynağı): kaynak adı Livius
+- arayuz | MÖ # (Temmuz; Livius c. # Temmuz — tek gün kaynağı): kaynak adı Livius
+- arayuz | MÖ # (ALT SINIR; donem-toplami MÖ #–#): Türkçe iç anahtar kalıntısı
+- arayuz | MÖ # (ALT SINIR; yerlesim-suresi MÖ #–#): Türkçe iç anahtar kalıntısı
+- arayuz | MÖ # (yaklaşık; Hammurabi yıl #-# arası): dilbilgisi
+- arayuz | Rebîülâhir # / Ekim # (TDV; gün yok): ay adı yazımı tutarlılığı
+- arayuz | Renkli alanlar o gündeki devletlerdir; bir yere dokununca orası hakkında bilgi açılır. Tarih değiştikçe sınırlar kendiliğinden yeniden çizilir.: Amerikan imlası tutarlılığı
+- arayuz | Devlet renklerinin altındaki zemini seçer.: imla tutarlılığı
+- arayuz | Haritadaki renk ve simgelerin ne anlama geldiğini açıklar.: imla tutarlılığı
+- arayuz | ve komşuları): imla tutarlılığı
+- arayuz | Sınırların antlaşmaya göre mi (Hukukî), fiilî duruma göre mi (Hukukî + fiilî) çizileceğini seçer.: düğme adlarıyla (De jure) eşleşmeli
+- arayuz | Yerleşim: olay mahalli ekranın ortasına mı gelsin, kenardan mı girsin.: burada 'Yerleşim' = konumlandırma, yerleşim yeri değil
+- arayuz | adım elendi (kaynaksız/günsüz): 'dayless' yanlış
+- arayuz | ay kesinliğindeki sınırlar ayın #'ine kodlanmıştır. Ayrıntı ve iç kırılmalar satırın ipucunda.: '#th' sayıya göre yanlış (1th)
+- arayuz | ocaklık: ocaklık ≠ ocak (irsî tasarruf birimi)
+- arayuz | Tam ekrandan çıkmak için istediğiniz an: parçalı cümle 'tuş adı' ile birleşince bozuk
+- arayuz | tuşuna basmanız yeter.: parçalı cümlenin devamı bozuk
+- arayuz | Devam ederek: parçalı cümle İngilizcede bozuk birleşiyor
+- arayuz | kabul etmiş olursunuz.: parçalı cümlenin devamı
+- arayuz | yerleşim daha — aramayı daraltın: sözcük sırası
+- arayuz | Şâban # (Şubat #): ay adı yazımı tutarlılığı
+- arayuz | ’ten itibaren (açık uç): parça yılın ardına ekleniyor; 'from ’' bozuk
+- arayuz | ’ten itibaren — bu hat # sınırından: parça yılın ardına ekleniyor; 'from ’' bozuk
+- arayuz | ⚠ olmadı: işlem başarısız anlamı
+- arayuz | 🗺️ Haritada gör — bırakılan bölgeler: bırakılan = terk edilen/devredilen
+- devlet | gilan-kiya: 'Kâr' düşmüş
+- devlet | norvec-kralligi: anlam belirsizliği
+- devlet | sutayogullari: Türkçe kalıntı; hanedan adı biçimi
+- devlet | cemisgezek-beyligi: özel ad imlası
+- devlet | dilmacogullari: çevrilmemiş; öteki hanedanlarla tutarlılık
+- devlet | basutoland: himaye = protectorate
+- devlet | malta-ingiliz: himaye = protectorate
+- devlet | malta-kolonisi: himaye = protectorate
+- devlet | mari-lim: yerleşik biçim
+- devlet | sumer-lagas-1: yerleşik biçim
+- devlet | sambyeolcho-rejimi: yerleşik ad Sambyeolcho (三別抄)
+- devlet | ispanyol-halkulvad: himaye Tunus üzerinde; ters okunuyordu
+- devlet | britanya-imparatorlugu-carausius: anlaşılmaz tamlama
