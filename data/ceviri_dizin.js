@@ -958,11 +958,11 @@ window.CEVIRI_DIZIN = {
    ],
    [
     "ceviri_uk_olay_01.js",
-    "509e006f"
+    "95195b7c"
    ],
    [
     "ceviri_uk_olay_02.js",
-    "758d2923"
+    "b997808b"
    ]
   ]
  }
