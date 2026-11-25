@@ -1,15 +1,15 @@
 {
 "hazir": {
 "arayuz": [
-1685,
+2018,
 2034
 ],
 "devlet": [
-2028,
+2313,
 2315
 ],
 "olay": [
-400,
+525,
 5196
 ]
 },
@@ -87,6 +87,11 @@
 [
 "arayuz",
 "ob-kutu ob-antlasma ob-madde-fark",
+"hedef yazi yok"
+],
+[
+"arayuz",
+"· Permissions:",
 "hedef yazi yok"
 ],
 [
