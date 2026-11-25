@@ -1,0 +1,1880 @@
+- arayuz | " sekmesini açar. | m: fazladan boş tırnak çifti
+- arayuz | # Aralık # | m: Japonca tarih sırası (yıl-ay-gün)
+- arayuz | # Aralık # (# Cemâziyelâhir #) | m: Japonca tarih sırası
+- arayuz | # Aralık # (# Ramazan #) | m: Japonca tarih sırası
+- arayuz | # Aralık # (# Zilkade #) | m: bozuk tarih biçimi
+- arayuz | # Aralık # (Barbara yortusundan sonraki çarşamba) | m: Japonca tarih sırası
+- arayuz | # Aralık # (Duşan'ın ölüm günü) | m: bozuk tarih biçimi
+- arayuz | # Aralık # (Jülyen # Aralık) | m: Japonca tarih sırası
+- arayuz | # Aralık # (Jülyen # Kasım) | m: Japonca tarih sırası
+- arayuz | # Aralık # (Prens George göreve başladı; muhtariyet ilânı # Aralık #) | m: Japonca tarih sırası
+- arayuz | # Aralık # (Rusya barışı: # Ramazan #; fiilî teslim günü kaynakta yok) | m: Japonca tarih sırası
+- arayuz | # Aralık # (Treccani 'Vandali') | m: Japonca tarih sırası
+- arayuz | # Aralık # (vefat; cülus günü kaynakta ayrıca yok) | m: Japonca tarih sırası
+- arayuz | # Aralık # - # Ocak # | m: Japonca tarih sırası
+- arayuz | # Aralık (Minye) · # Aralık (Asyut) · # Aralık # (Girga) | m: Japonca tarih sırası
+- arayuz | # Ağustos # | m: Japonca tarih sırası
+- arayuz | # Ağustos # (# Zilkade #) | m: Japonca tarih sırası
+- arayuz | # Ağustos # (Ateş: # Ağustos'ta Osmanlı müfrezesi çekildi) | m: Ateş yazar soyadı; 'ateş' diye çevrilmiş
+- arayuz | # Ağustos # (Isonzo; Treccani 'Odoacre') | m: Japonca tarih sırası
+- arayuz | # Ağustos # (Jülyen # Ağustos) | m: Japonca tarih sırası
+- arayuz | # Ağustos # (Magosa'nın teslimi) | m: Magosa = Famagusta, yerleşik ad; tarih sırası
+- arayuz | # Ağustos # (Rus takvimiyle # Temmuz) | m: Japonca tarih sırası
+- arayuz | # Ağustos # (gün: Aktepe # s.#-#, Yörük-Valiyev #; Bilgili # fethi 'Nisan #'ten biraz önce'ye koyar) | m: 'Nisan 1475' yıl, gün diye çevrilmiş; tarih sırası
+- arayuz | # Ağustos # (kaynaklar #-# Ağustos verir) | m: Japonca tarih sırası
+- arayuz | # Ağustos # (kaynaklar #-# Ağustos) | m: Japonca tarih sırası
+- arayuz | # Ağustos # (saldırı günü; JewishGen'e göre Kızıl Ordu üç gün içinde çekildi ⇒ #-# Ağustos arası, gün teyitsiz) | m: Japonca tarih sırası
+- arayuz | # Ağustos # (çarpışma # Temmuz-# Ağustos) | m: Japonca tarih sırası
+- arayuz | # Ağustos # sabahı (# Ağustos «Muş işgalden kurtarılmıştır») | m: Japonca tarih sırası
+- arayuz | # Ağustos – # Eylül # | m: Japonca tarih sırası
+- arayuz | # Cemâziyelevvel # / # Ekim # | m: Japonca tarih sırası
+- arayuz | # Cemâziyelevvel # / # Haziran # | m: Japonca tarih sırası
+- arayuz | # Cemâziyelevvel # / # Ocak # | m: Japonca tarih sırası
+- arayuz | # Cemâziyelâhir # (# Nisan #) | m: Japonca tarih sırası
+- arayuz | # Cemâziyelâhir # (# Temmuz #) | m: Japonca tarih sırası
+- arayuz | # Cemâziyelâhir # / # Haziran # | m: Japonca tarih sırası
+- arayuz | # Cemâziyelâhir # / # Ocak # | m: Japonca tarih sırası
+- arayuz | # Cemâziyelâhir # / # Temmuz # | m: Japonca tarih sırası
+- arayuz | # Cemâziyelâhir # / # Şubat # | m: Japonca tarih sırası
+- arayuz | # Ekim # | m: Japonca tarih sırası
+- arayuz | # Ekim # (# Cemâziyelevvel #) | m: Japonca tarih sırası
+- arayuz | # Ekim # (# Ekim tarihli belge muhtariyet iradesidir — TDV trablusgarp-savasi) | m: irade = padişah fermanı; tarih sırası
+- arayuz | # Ekim # (# Muharrem #) | m: Japonca tarih sırası
+- arayuz | # Ekim # (# Zilhicce #) | m: Japonca tarih sırası
+- arayuz | # Ekim # (Gregoryen; Jülyen # Ekim) | m: Japonca tarih sırası
+- arayuz | # Ekim # (Jülyen # Ekim) | m: Japonca tarih sırası
+- arayuz | # Ekim # (Jülyen # Ekim) — Markov'un baskınıyla kuşatma çemberinin kapanışı | m: Japonca tarih sırası
+- arayuz | # Ekim # (Jülyen # Eylül) | m: Japonca tarih sırası
+- arayuz | # Ekim # (Madgearu #, Sırp salnameleri; TDV eflak yalnız yıl #). ÇELİŞKİ-# E#: eski # Mayıs # günü Hilandar el yazmasındaki Ioan Dragaš'a ait nota dayanıyordu | m: yıl/gün sırası karışmış (#年5月#日)
+- arayuz | # Ekim # (Niş'ten # gün sonra) | m: Japonca tarih sırası
+- arayuz | # Ekim # (Semendire'nin teslim günü; Belgrad'ın günü kaynakta YOK) | m: Japonca tarih sırası
+- arayuz | # Ekim # (TDV 'beyrut': Fransız kuvvetlerinin bölgeyi işgali). Bazı kaynaklar karaya çıkışı # Ekim verir. Trablusşam 'Ekim #' (TDV, gün yok). | m: bozuk tarih biçimi; yıl yanlış okunuyordu
+- arayuz | # Ekim # (TDV: # Ekim — eski takvim) | m: gün, yıl diye çevrilmiş
+- arayuz | # Ekim # (gün: Bilgili #, BOA MD #) | m: Japonca tarih sırası
+- arayuz | # Ekim # (imza # Ekim) | m: Japonca tarih sırası
+- arayuz | # Ekim # (konsilin ilk oturumu) | m: Japonca tarih sırası
+- arayuz | # Ekim # (kuşatma başladı; çember # Ekim'de kapandı) - # Mart # | m: Japonca tarih sırası; bitiş günü eksik görünüyordu
+- arayuz | # Ekim # (savaş ilanı) | m: Japonca tarih sırası
+- arayuz | # Ekim # (tutuklama; kalelerin teslimi ardından) | m: Japonca tarih sırası
+- arayuz | # Ekim # / # Ekim # | m: Japonca tarih sırası
+- arayuz | # Ekim # — kaldırılış # Rebîülâhir # (# Kasım #) | m: Japonca tarih sırası
+- arayuz | # Ekim # — meydan savaşı ve şehre giriş (Cengiz #); Halep Kalesi daha sonra düştü, günü verilmiyor · eski t #-#-# ay başı yer tutucuydu | m: Cengiz yazar soyadı (Cengiz Han değil); tarih sırası
+- arayuz | # Ekim – # Kasım # | m: Japonca tarih sırası
+- arayuz | # Eylül # | m: Japonca tarih sırası
+- arayuz | # Eylül # (# Ağustos Jülyen) | m: Japonca tarih sırası
+- arayuz | # Eylül # (# Rebîülevvel #) | m: bozuk tarih biçimi
+- arayuz | # Eylül # (# Rebîülâhir # — Kandiye'nin teslim anlaşması, TDV kandiye) | m: Japonca tarih sırası
+- arayuz | # Eylül # (# Şevval #) | m: Japonca tarih sırası
+- arayuz | # Eylül # (Gregoryen takvim, TDV isvec; Jülyen takvimle # Ağustos) | m: Japonca tarih sırası
+- arayuz | # Eylül # (Hayır Bey'in tayini # Eylül) | m: Japonca tarih sırası; Hayır Bey (Khayr Bak)
+- arayuz | # Eylül # (I. Lothar'ın ölümü; tahttan feragat # Eylül) | m: bozuk tarih biçimi
+- arayuz | # Eylül # (Jülyen # Eylül) | m: Japonca tarih sırası
+- arayuz | # Eylül # (Rus kaynağında Jülyen # Ağustos) | m: Japonca tarih sırası
+- arayuz | # Eylül # (Rus takvimiyle # Ağustos) | m: Japonca tarih sırası
+- arayuz | # Eylül # (emir) | m: Japonca tarih sırası
+- arayuz | # Eylül # (gün YALNIZ hakemli makaleden, Enverî'ye dayalı; TDV gün vermiyor, yalnız Ağustos-Eylül # diyor. Avusturya arşivi aynı olayı #/# Eylül gecesi diye kaydeder) | m: günler yıl diye çevrilmiş
+- arayuz | # Eylül # (gün: Azmi Süslü, "Osmanlı-Fransız Diplomatik İlişkileri, #-#", TTK Belleten XLVII/#, #) | m: Japonca tarih sırası
+- arayuz | # Eylül # (İtalyan savaş ilanı) | m: Japonca tarih sırası
+- arayuz | # Eylül # [gün teyitsiz — ÇELİŞKİ-#: TDV «Uyvar» kuşatmanın # Ağustos'ta başladığını ve çarpışmaların # Eylül'e kadar sürdüğünü yazar, ayrı teslim günü vermez; Vikipedi # Eylül der (dayanak değil); Yüce-Sevim #, Pálffy, Ágoston OKUNMADI] | m: Japonca tarih sırası
+- arayuz | # Eylül # [yalnız yıl teyitli; gün teyitsiz] | m: Japonca tarih sırası
+- arayuz | # Eylül # gecesi | m: Japonca tarih sırası
+- arayuz | # Eylül – # Ekim # | m: Japonca tarih sırası
+- arayuz | # Haziran # | m: Japonca tarih sırası
+- arayuz | # Haziran # (# Rebîülevvel #) | m: Japonca tarih sırası
+- arayuz | # Haziran # (# Receb #) | m: Japonca tarih sırası
+- arayuz | # Haziran # (# Safer #; Sevim: # Haziran) | m: Japonca tarih sırası
+- arayuz | # Haziran # (GEC) | m: Japonca tarih sırası
+- arayuz | # Haziran # (Jülyen # Haziran) | m: Japonca tarih sırası
+- arayuz | # Haziran # (Jülyen # Mayıs) | m: Japonca tarih sırası
+- arayuz | # Haziran # (Kangxi #, #. ay #. gün) | m: Japonca tarih sırası
+- arayuz | # Haziran # (Savoya'nın Chambéry'de, Nice kontluğunun Nice'te resmen teslimi). Torino Antlaşması # Mart; plebisitler Nice #-# Nisan, Savoya #-# Nisan #. | m: bozuk tarih biçimi
+- arayuz | # Haziran # (anonim Bulgar kronikleri; TDV aktarımı) | m: Japonca tarih sırası
+- arayuz | # Haziran # (ölüm # Haziran'a kadar gizlendi) | m: Japonca tarih sırası
+- arayuz | # Haziran # [gün teyitsiz — aramada doğrulanamadı] | m: Japonca tarih sırası
+- arayuz | # Haziran # [yalnız yıl teyitli; gün teyitsiz] | m: Japonca tarih sırası
+- arayuz | # Haziran - # Ağustos # | m: Japonca tarih sırası
+- arayuz | # Haziran - # Eylül # | m: Japonca tarih sırası
+- arayuz | # Haziran / Temmuz # | m: Japonca tarih sırası
+- arayuz | # Haziran – # Temmuz # | m: Japonca tarih sırası
+- arayuz | # Kasım # | m: Japonca tarih sırası
+- arayuz | # Kasım # (# Cemâziyelevvel #) | m: Japonca tarih sırası
+- arayuz | # Kasım # (# Safer #) | m: Japonca tarih sırası
+- arayuz | # Kasım # (Cihan Şah'ın ölümü) · Hasan Ali Eylül #'de yenildi, Şevval # / Nisan #'da öldürüldü (gün kaynakta yok, AY hassasiyeti) | m: hicrî yıl 'gün' diye çevrilmiş; tarih sırası
+- arayuz | # Kasım # (Gregoryen) | m: Japonca tarih sırası
+- arayuz | # Kasım # (Jülyen # Kasım) | m: Japonca tarih sırası
+- arayuz | # Kasım # (Jülyen) = # Kasım # (Gregoryen) | m: Japonca tarih sırası
+- arayuz | # Kasım # (TDV: # Ekim — eski takvim) | m: gün, yıl diye çevrilmiş
+- arayuz | # Kasım # (TDV: '# veya #') | m: Japonca tarih sırası
+- arayuz | # Kasım # (gün yalnız Remzi Kılıç'ta; TDV yalnız 'Amasya'ya döndü' der) | m: Japonca tarih sırası
+- arayuz | # Kasım # (şehir) · # Aralık # (kale) | m: Japonca tarih sırası
+- arayuz | # Mart # (kuşatma # Şubat #'de başladı) | m: yıl cümle başında kalmış
+- arayuz | # Mart # (# Zilkade # — Güler; TDV 'Mart #'; Gümüş # Nisan # der, çözülmedi) | m: 'Mart 1503' yıl, gün diye; Gümüş yazar adı
+- arayuz | # Mayıs # (Akkâ) · Sayda Receb # / Temmuz # · Beyrut # | m: yıllar gün diye çevrilmiş
+- arayuz | # Ocak # (imzalar # Ocak-# Mart arası şeyhlik şeyhlik tamamlandı) | m: anlamsız yineleme
+- arayuz | # Ocak # (mektup teatisi # Aralık # – # Ocak #) | m: bozuk sıra
+- arayuz | # Receb # / # Mayıs # | m: bozuk tarih biçimi
+- arayuz | # Receb / Ağustos # | m: ilk sayı hicrî yıl, gün değil
+- arayuz | # Rebîülevvel / Haziran # | m: ilk sayı hicrî yıl, gün değil
+- arayuz | # Safer / Ocak # | m: ilk sayı hicrî yıl, gün değil
+- arayuz | # Şâban / Ocak # | m: ilk sayı hicrî yıl, gün değil
+- arayuz | # Temmuz # (resmî ilan; saldırı Safer # / Haziran #) | m: yıllar gün diye çevrilmiş
+- arayuz | # Temmuz # (ÇELİŞKİ-#: TDV «Timişvar» # Şaban # = # Temmuz #'de garnizonun teslim olduğunu yazar; TDV «Kara Ahmed Paşa» #/# Temmuz der; Losonczy'nin kaleden çıkışı # Temmuz (olaylar_ek# Macar kaynağı) — iki gün de TDV içinde geçer, bağımsız ikinci akademik kaynak okunmadı, gün korundu) | m: yıl yanlış yerde
+- arayuz | # Temmuz teslim, # Ağustos # giriş (Jülyen) | m: yıl yanlış yerde
+- arayuz | # Şubat # (Gregoryen) | m: bozuk tarih biçimi
+- arayuz | # Şubat # [dolaylı tanık: «nakon #. veljače»] | m: bozuk tarih biçimi
+- arayuz | # Şâban # (# Temmuz #) kuruluş, # Nisan # Masavva'nın alınışı | m: yıl yanlış yerde
+- arayuz | # (kaynak YIL hassasiyetinde; gün bilinmiyor — `YYYY-#-#` beyandır) | m: yarım cümle
+- arayuz | # (kaynak YIL hassasiyetinde; gün bilinmiyor — `YYYY-#-#` beyandır, uydurma değil) | m: bozuk anlatım
+- arayuz | #-# Nisan gecesi # | m: tarih sırası
+- arayuz | #/# Kasım # gecesi | m: tarih sırası
+- arayuz | #/# Mayıs # (Jülyen/Gregoryen) | m: tarih sırası
+- arayuz | #/# Mayıs # gecesi (Temeşvar paşası # Mayıs'ta Lippa önünden çekildi) | m: tarih sırası; Temeşvar Japonca yerleşik ad
+- arayuz | #/# Nisan # | m: tarih sırası
+- arayuz | #–# Ekim # | m: tarih sırası
+- arayuz | #–# Eylül # | m: tarih sırası
+- arayuz | #–# Temmuz # | m: tarih sırası
+- arayuz | #-# Eylül – #-# Kasım # | m: yıl yanlış yerde
+- arayuz | #, # Ajaw # Pax (December #, #) | m: İngilizce ay adı kalıntısı
+- arayuz | #, # Ajaw # Sotz' (May #, #) | m: İngilizce ay adı kalıntısı
+- arayuz | (toprak değişince harita devletin sınırlarına ZIPLASIN mı — sıçramalıdır, adaptif genişlik bunun yumuşak hâlidir) | m: 'sıçramalıdır' (sıçramalı bir geçiştir) 'sıçramalı olmalı' diye yanlış çevrilmiş
+- arayuz | Kasım # (ay hassasiyeti) | m: bozuk tarih biçimi
+- arayuz | Kaheti ↔ Dağıstan: şeridin # km içinde yerleşim noktası yok — boşluk veri eksiği değil, sırttır (yerlesimler_ek#.js beyanı, # Ekim #). | m: yıl/gün sırası bozuk
+- arayuz | Mayıs # başı [yalnız ay teyitli; gün teyitsiz] | m: bozuk tarih biçimi
+- arayuz | Sohum kuzeydoğusu (Abhazya ↔ Kabartay): şeridin # km içinde yerleşim noktası yok — boşluk veri eksiği değil, sırttır (yerlesimler_ek#.js beyanı, # Ekim #). | m: tarih sırası bozuk
+- arayuz | Sonbahar # | m: bozuk tarih biçimi
+- arayuz | Temmuz # | m: bozuk tarih biçimi
+- arayuz | Temmuz # (Bánlaky: 'július #-ika körül' — gün kesin değil) | m: bozuk tarih biçimi
+- arayuz | Temmuz # (ay hassasiyeti) | m: bozuk tarih biçimi
+- arayuz | Temmuz # (gün belirsiz) | m: bozuk tarih biçimi
+- arayuz | Temmuz # [yalnız yıl-ay teyitli; gün teyitsiz] | m: bozuk tarih biçimi
+- arayuz | Temmuz #'dan sonra | m: bozuk tarih biçimi
+- arayuz | Temmuz-Ağustos # | m: bozuk tarih biçimi
+- arayuz | Temmuz-Ağustos # (gün kaynakta yok; Temeşvar'ın teslimi ALT SINIR) | m: bozuk tarih biçimi; Temeşvar yerleşik adı
+- arayuz | Yaz # | m: bozuk tarih biçimi
+- arayuz | Zilhicce # / Aralık # | m: bozuk tarih biçimi
+- arayuz | Zilhicce # / Ağustos # | m: bozuk tarih biçimi
+- arayuz | Zilhicce # / Eylül # | m: bozuk tarih biçimi
+- arayuz | Yatay sınırı: bu km'nin üstündeki geçişler "yatay" seçilse de eğik atışla yapılır. | m: arayüzdeki 'eğik atış = 弧状移動' terimiyle tutarsız
+- arayuz | c. # [yalnız yıl teyitli; gün teyitsiz] | m: 'c.' = yaklaşık; fazladan '紀元'
+- arayuz | eski takvim # Ağustos → Gregoryen # Ağustos # (Levaşov'un raporu; yıkım en geç bu gün) | m: bozuk tarih biçimi
+- arayuz | eski takvim # Ağustos → Gregoryen # Eylül # | m: bozuk tarih biçimi
+- arayuz | eski takvim # Ekim → Gregoryen # Kasım # | m: bozuk tarih biçimi
+- arayuz | eski takvim # Mayıs → Gregoryen # Mayıs # | m: bozuk tarih biçimi
+- arayuz | eski takvim # Nisan → Gregoryen # Mayıs # | m: bozuk tarih biçimi
+- arayuz | muhtemelen # Şâban # / # Aralık # (TDV 'muhtemelen' der) | m: bozuk tarih biçimi
+- arayuz | muhtemelen Haziran # | m: bozuk tarih biçimi
+- arayuz | yalnız # | m: bozuk sözdizimi
+- arayuz | yalnız # (çağ açan) | m: bozuk sözdizimi
+- arayuz | ~# Kasım # | m: bozuk tarih biçimi
+- arayuz | Şevval # (Mart #) | m: bozuk tarih biçimi
+- arayuz | Şubat # | m: bozuk tarih biçimi
+- arayuz | Şubat # (TDV ay verir, gün bilinmiyor) | m: bozuk tarih biçimi
+- arayuz | Şubat # (ay hassasiyeti; geçiş günü kaynakta yok) | m: bozuk tarih biçimi
+- arayuz | Şubat # (gün kaynakta yok) | m: bozuk tarih biçimi
+- arayuz | Şubat # (kaynak AY hassasiyetinde; gün vermiyor) | m: bozuk tarih biçimi
+- arayuz | Şubat-Mart # | m: bozuk tarih biçimi
+- arayuz | Şâban # (Şubat #) | m: bozuk tarih biçimi
+- arayuz | ≤# Temmuz # [gün teyitsiz] | m: bozuk tarih biçimi
+- arayuz | ⓘ Kaynaklar | m: sekme adı '出典' ile tutarsız (atıf/kaynak listesi)
+- arayuz | 📚 Kaynaklar | m: sekme adı '出典' ile tutarsız
+- arayuz | 🗣️ Nasıl bilirdiniz | m: deyim yanlış çevrilmiş
+- devlet | kacar-esterabad | m: Latin harfli Türkçe kalıntı
+- devlet | gilan-kiya | m: Türkçe kalıntı
+- devlet | mazenderan-marasi | m: Türkçe kalıntı
+- devlet | dobruca-despotlugu | m: Türkçe kalıntı
+- devlet | burhaneddin | m: Türkçe kalıntı
+- devlet | cobanogullari | m: çevrilmemiş
+- devlet | pervane | m: çevrilmemiş
+- devlet | esrefogullari | m: çevrilmemiş
+- devlet | inancogullari | m: çevrilmemiş
+- devlet | sahibata | m: çevrilmemiş
+- devlet | taceddin | m: çevrilmemiş
+- devlet | haciemir | m: çevrilmemiş
+- devlet | sebinkarahisar-emirligi | m: çevrilmemiş
+- devlet | gozleroglu | m: çevrilmemiş
+- devlet | mutahharten | m: Latin kalıntı
+- devlet | arua | m: çevrilmemiş
+- devlet | tuareg-accer | m: Latin kalıntı
+- devlet | alutiiq | m: çevrilmemiş
+- devlet | occaneechi | m: çevrilmemiş
+- devlet | turkmen | m: Latin kalıntı
+- devlet | sutayogullari | m: çevrilmemiş
+- devlet | cemisgezek-beyligi | m: çevrilmemiş
+- devlet | arborea | m: Giudicato 'mahkeme toprağı' diye çevrilmiş
+- devlet | megrelya-prensligi | m: Türkçe yazım kalıntısı
+- devlet | guria-prensligi | m: Türkçe yazım kalıntısı
+- devlet | abhazya-prensligi | m: Türkçe yazım kalıntısı
+- devlet | kuca-hocalari | m: çevrilmemiş Türkçe
+- devlet | saltuklu | m: çevrilmemiş Türkçe
+- devlet | mengucuklu | m: çevrilmemiş Türkçe
+- devlet | ahlatsahlar | m: çevrilmemiş Türkçe
+- devlet | mervani | m: çevrilmemiş Türkçe
+- devlet | musafiri | m: çevrilmemiş
+- devlet | budjak-ordasi | m: kaynakta olmayan 'Nogay' eklenmiş
+- devlet | bagdat-memlukleri | m: kaynakta olmayan uydurma hanedan adları
+- devlet | arap-birligi-irak-urdun | m: 'アラブ連合' UAR ile karışır; yerleşik ad アラブ連邦
+- devlet | dongou | m: yinelenen parantez
+- devlet | cheng-han | m: yinelenen parantez
+- devlet | onceki-yan | m: yinelenen parantez
+- devlet | guney-liang-16 | m: yinelenen parantez
+- devlet | hou-liang-xi-liang | m: yinelenen ad
+- devlet | sui-zheng-wang-shichong | m: yinelenen ad
+- devlet | sui-wei-li-mi | m: yinelenen ad
+- devlet | sui-qin-xue-ju | m: yinelenen ad
+- devlet | sui-liang-xiao-xian | m: yinelenen ad
+- devlet | an-lushan-yan | m: yinelenen ad
+- devlet | qi-li-maozhen | m: yinelenen ad
+- devlet | zhao-wang-rong | m: yinelenen ad
+- devlet | yan-liu-shouguang | m: yinelenen ad
+- devlet | da-chu-zhang-bangchang | m: yinelenen ad
+- devlet | da-qi-liu-yu | m: yinelenen ad
+- devlet | qiuchi | m: yinelenen parantez
+- devlet | sui-liang-liang-shidu | m: yinelenen ad
+- devlet | sui-xia-dou-jiande | m: yinelenen ad
+- devlet | da-changhe | m: yinelenen parantez
+- devlet | da-tianxing | m: yinelenen parantez
+- devlet | da-yining | m: yinelenen parantez
+- devlet | ba-devleti | m: yinelenen parantez
+- devlet | yong-krallik | m: yinelenen parantez
+- devlet | xi-wei-krallik | m: yinelenen parantez
+- devlet | yin-krallik | m: yinelenen parantez
+- devlet | hengshan-krallik | m: yinelenen parantez
+- devlet | linjiang-krallik | m: yinelenen parantez
+- devlet | yan-krallik-chuhan | m: yinelenen parantez
+- devlet | chengjia-gongsun-shu | m: yinelenen ad
+- devlet | hou-zhao | m: yinelenen parantez
+- devlet | ran-wei | m: yinelenen parantez
+- devlet | onceki-qin | m: yinelenen parantez
+- devlet | kuzey-liang | m: yinelenen parantez
+- devlet | hu-xia | m: yinelenen parantez
+- devlet | bati-yan | m: yinelenen ad
+- devlet | sonraki-qin | m: yinelenen ad
+- devlet | tai-qi-huang-chao | m: yinelenen ad
+- olay | OLAYLAR_EK:1885-09-18:0 | d: katakana içine Türkçe 'ı' karışmış
+- arayuz | # Safer # (# Nisan #), Yenişehir savaşının hemen ardından | m: çevrilmemiş yer adı
+- arayuz | Ağustos #, Çıldır zaferinin hemen ardından | m: çevrilmemiş yer adı
+- arayuz | ocaklık | m: çevrilmemiş
+- olay | OLAYLAR:1413-07-05:0 | d: ルメリア yazımı tutarsız/eksik
+- olay | OLAYLAR:1639-05-17:0 | d: 本文中の地名がトルコ語ラテン表記のまま
+- arayuz | # Temmuz # (ÇELİŞKİ-#: TDV «Timişvar» # Şaban # = # Temmuz #'de garnizonun teslim olduğunu yazar; TDV «Kara Ahmed Paşa» #/# Temmuz der; Losonczy'nin kaleden çıkışı # Temmuz (olaylar_ek# Macar kaynağı) — iki gün de TDV içinde geçer, bağımsız ikinci akademik kaynak okunmadı, gün korundu) | m: duzeltme_002'deki sürümün yerine geçer: 9'dan çok sayı olduğundan indeksli ve düz '#' karıştırılamaz, hepsi sıralı
+- arayuz | # Temmuz # (ÇELİŞKİ-#: TDV «Timişvar» # Şaban # = # Temmuz #'de garnizonun teslim olduğunu yazar; TDV «Kara Ahmed Paşa» #/# Temmuz der; Losonczy'nin kaleden çıkışı # Temmuz (olaylar_ek# Macar kaynağı) — iki gün de TDV içinde geçer, bağımsız ikinci akademik kaynak okunmadı, gün korundu) | m: yıl yanlış yerde
+- arayuz | # Temmuz # (ÇELİŞKİ-#: TDV «Timişvar» # Şaban # = # Temmuz #'de garnizonun teslim olduğunu yazar; TDV «Kara Ahmed Paşa» #/# Temmuz der; Losonczy'nin kaleden çıkışı # Temmuz (olaylar_ek# Macar kaynağı) — iki gün de TDV içinde geçer, bağımsız ikinci akademik kaynak okunmadı, gün korundu) | m: duzeltme_002'deki sürümün yerine geçer: 9'dan çok sayı olduğundan indeksli ve düz '#' karıştırılamaz, hepsi sıralı
+- olay | OLAYLAR_EK:1663-04-13:0 | d: metin içinde Türkçe/Latin yazımlı yer adı kalıntısı
+- olay | OLAYLAR_EK:1663-09-24:0 | d: metin içinde Latin yazımlı yer adı kalıntısı
+- olay | OLAYLAR_EK:1788-12-17:0 | b: başlıkta Türkçe yer adı kalıntısı
+- olay | OLAYLAR_EK:1788-12-17:0 | d: Türkçe yer adı kalıntısı
+- olay | OLAYLAR_EK:1830-10-17:0 | d: Türkçe yer adı kalıntıları
+- olay | OLAYLAR_EK:1898-12-22:0 | d: metin içinde Türkçe yer adı kalıntısı
+- olay | OLAYLAR_EK:1916-04-29:0 | d: bozuk sayı yazımı
+- olay | OLAYLAR_EK:1357-08-01:0 | d: bozuk anlatım (nesnesiz 占めた)
+- olay | OLAYLAR_EK:1394-10-10:0 | d: bozuk anlatım
+- olay | OLAYLAR_EK:1403-06-01:0 | d: metin içinde Türkçe yer adı kalıntısı
+- olay | OLAYLAR_EK:1444-08-15:0 | d: metin içinde Türkçe yer adı kalıntısı
+- olay | OLAYLAR_EK2:1838-08-16:0 | d: bozuk anlatım
+- olay | OLAYLAR_EK2:1585-09-25:0 | d: 崩御 yalnız hükümdar için; paşa için yanlış
+- olay | OLAYLAR_EK2:1603-10-21:0 | d: cümle içinde Türkçe yer adı kalıntısı
+- olay | OLAYLAR_EK3:1403-02-01:0 | d: metin içinde Türkçe yer adı kalıntısı
+- olay | OLAYLAR_EK3:1410-06-15:0 | d: ルメリア/イスタンブル yazım tutarsızlığı; yarım genişlik noktalama
+- olay | OLAYLAR_EK3:1683-01-01:0 | d: YANLIŞ YER: İstolni Belgrad = Székesfehérvár, Belgrad değil
+- olay | OLAYLAR_EK3:1690-09-27:0 | d: cümle içinde Türkçe yer adı kalıntısı
+- olay | OLAYLAR_EK3:1695-02-22:0 | d: Hüseyin adı yanlış biçimde
+- olay | OLAYLAR_EK3:1695-09-22:0 | d: cümle içinde Türkçe yer adı kalıntısı
+- olay | OLAYLAR_EK4:1803-05-01:0 | d: Kölemen = Japonca yerleşik マムルーク
+- olay | OLAYLAR_EK4:1807-03-17:0 | d: Kölemen = マムルーク; 'karşılık' misilleme/intikam değil
+- olay | OLAYLAR_EK4:1811-03-01:0 | b: Kal'a Vakası 'カラ' anlaşılmaz; Kölemen = マムルーク
+- olay | OLAYLAR_EK4:1811-03-01:0 | d: Kölemen = マムルーク
+- olay | OLAYLAR_EK4:1820-07-20:0 | d: Kölemen = マムルーク
+- olay | OLAYLAR_EK4:1815-01-20:0 | d: cümle içinde Türkçe yer adı kalıntısı
+- olay | OLAYLAR_EK4:1818-09-09:0 | d: bozuk cümle yapısı
+- olay | OLAYLAR_EK4:1832-09-13:0 | d: iskele burada liman anlamında; 桟橋 yanlış
+- olay | OLAYLAR_EK4:1833-01-01:1 | d: cümle içinde Türkçe yer adı kalıntısı
+- olay | OLAYLAR_EK4:1832-09-13:1 | d: cümle içinde Türkçe yer adı kalıntısı
+- olay | OLAYLAR_EK4:1833-05-06:0 | b: Kavalalı = Kavalalı ailesi; 'の者' bozuk
+- olay | OLAYLAR_EK5:1671-01-01:0 | d: ağa unvanı yanlış yazılmış
+- olay | OLAYLAR_EK5:1303-01-01:0 | d: yanlış anlam: düşman geri çekildi, sürüklenmedi
+- olay | OLAYLAR_EK5:1333-08-01:0 | d: Türkçe binlik ayırıcı Japoncada 12,000 gibi okunmaz; 金 → 金貨
+- olay | OLAYLAR_EK5:1345-01-01:0 | d: Latin yer adı kalıntısı; 安全保障 yanlış anlam (eman)
+- olay | OLAYLAR_EK5:1400-08-01:0 | d: bozuk anlatım (diri diri gömdürdü)
+- olay | OLAYLAR_EK5:1402-03-13:0 | d: külâh 'karapak/kalpak' değil; yanlış anlam
+- olay | OLAYLAR_EK5:1402-09-15:0 | d: ad tutarsızlığı (イルドゥルム・バヤジト); yer adı yazımı
+- olay | OLAYLAR_EK5:1404-03-01:0 | d: ルメリ → ルメリア; noktalama
+- olay | OLAYLAR_EK5:1406-01-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1408-06-01:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1408-06-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1393-09-01:0 | d: yineleme hatası
+- olay | OLAYLAR_EK5:1398-07-15:0 | d: bozuk/yanlış anlatım
+- olay | OLAYLAR_EK5:1324-01-01:0 | d: Latin ad kalıntısı; bozuk dilbilgisi
+- olay | OLAYLAR_EK5:1393-06-01:0 | d: ad yazımı tutarsız (バヤジット)
+- olay | OLAYLAR_EK5:1415-03-01:0 | d: tarih sırası bozuk / hicrî belirtilmemiş
+- olay | OLAYLAR_EK5:1468-01-17:0 | d: İzlâdi = Zlatitsa; öteki kayıtlarla aynı yerleşik biçim
+- olay | OLAYLAR_EK5:1491-05-01:0 | d: bozuk ad: Osman Hafsî 'Uthman Hafsid hanedanı' gibi olmuş
+- olay | OLAYLAR_EK5:1502-03-01:0 | d: bozuk cümle (nesne eksik)
+- olay | OLAYLAR_EK5:1516-06-20:0 | b: bozuk anlatım
+- olay | OLAYLAR_EK5:1516-06-20:0 | d: bozuk anlatım
+- olay | OLAYLAR_EK5:1517-01-02:0 | d: bozuk anlatım (konak = 行程)
+- olay | OLAYLAR_EK5:1517-08-28:0 | d: kalyata = galiot, kalyon değil; sayı
+- olay | OLAYLAR_EK5:1543-08-10:0 | b: İstolni Belgrad = Székesfehérvár; Belgrad ile karışıyor, öteki kayıtlarla tutarlı biçim
+- olay | OLAYLAR_EK5:1543-08-10:0 | d: yerleşik Japonca yer adı; öteki kayıtlarla tutarlı
+- olay | OLAYLAR_EK5:1567-04-01:0 | d: bozuk anlatım
+- olay | OLAYLAR_EK5:1618-02-26:0 | d: bozuk anlatım
+- olay | OLAYLAR_EK5:1658-08-27:0 | d: bozuk dilbilgisi
+- olay | OLAYLAR_EK5:1664-08-09:0 | d: yer adı tutarsızlığı: Uyvar öteki kayıtlarda ノヴェー・ザームキ
+- olay | OLAYLAR_EK5:1704-01-01:0 | b: Kölemen = マムルーク
+- olay | OLAYLAR_EK5:1704-01-01:0 | d: Kölemen = マムルーク
+- olay | OLAYLAR_EK5:1716-08-20:0 | d: Latin harfli Türkçe ad kalıntısı
+- olay | OLAYLAR_EK5:1552-07-27:0 | b: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK5:1552-07-27:0 | d: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK5:1716-11-16:0 | b: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK5:1716-11-16:0 | d: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK5:1724-06-24:0 | d: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK5:1725-07-28:0 | d: Latin yer adı kalıntısı; 'en ileri sınır' = en çok ilerlemiş, 'en doğuya' değil
+- olay | OLAYLAR_EK5:1732-01-08:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1732-01-08:0 | d: Latin ad kalıntıları
+- olay | OLAYLAR_EK5:1733-05-01:0 | b: Latin kalıntı
+- olay | OLAYLAR_EK5:1733-05-01:0 | d: Latin ad kalıntıları
+- olay | OLAYLAR_EK5:1736-09-01:0 | d: Latin kalıntı
+- olay | OLAYLAR_EK5:1737-08-04:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1739-10-03:0 | d: bozuk cümle
+- olay | OLAYLAR_EK5:1743-10-23:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1746-09-04:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1746-09-04:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1757-10-30:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1770-08-01:0 | d: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK5:1771-07-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1774-06-25:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1774-06-25:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1779-03-21:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1779-03-21:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1788-02-09:0 | d: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK5:1791-08-04:0 | d: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK5:1792-01-10:0 | d: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK5:1795-03-01:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1795-03-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1799-05-20:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1803-04-30:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1803-08-06:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1803-08-06:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1805-06-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1809-01-05:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1813-10-05:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1827-03-14:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1827-03-14:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1830-05-07:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1831-09-14:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1834-07-01:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1834-07-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1839-01-19:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1849-01-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1849-08-16:0 | d: bozuk anlatım
+- olay | OLAYLAR_EK5:1849-05-01:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1849-05-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1851-02-11:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1851-02-11:0 | d: Latin ad kalıntıları
+- olay | OLAYLAR_EK5:1853-11-11:0 | d: Latin ad kalıntısı; bozuk dilbilgisi (損害を出させて)
+- olay | OLAYLAR_EK5:1855-08-16:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1855-08-16:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1856-03-30:0 | d: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK5:1859-09-14:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1859-09-14:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1860-05-30:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1860-10-22:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1860-10-22:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1861-06-09:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1866-08-21:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1868-01-04:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1868-05-10:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1868-05-10:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1870-03-11:0 | b: eksarhlık patrikhane (総主教座) değildir
+- olay | OLAYLAR_EK5:1871-04-20:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1871-09-20:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1871-09-07:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1871-09-07:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1872-04-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1875-10-06:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1875-06-19:0 | d: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK5:1876-08-31:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1877-07-19:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1877-07-19:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1877-12-10:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1881-12-20:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1881-12-20:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1884-05-08:0 | d: Latin kalıntı (Yıldız, şîrpençe)
+- olay | OLAYLAR_EK5:1889-06-02:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1889-06-02:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1897-04-17:0 | d: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK5:1905-07-21:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1905-07-21:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1905-09-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1908-12-17:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1909-04-27:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1910-04-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1912-10-18:0 | d: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK5:1913-06-11:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1913-06-11:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1913-11-14:0 | d: müftü hâkim değil, hukuk âlimi
+- olay | OLAYLAR_EK5:1914-08-02:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1914-11-14:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1919-10-22:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1920-12-03:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1921-04-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1538-08-03:0 | d: Latin ad kalıntısı; 'kaptan kapısı' = kapudan paşa gemisi/huzuru, 艦長の門 anlamsız
+- olay | OLAYLAR_EK5:1543-07-21:0 | b: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK5:1543-07-21:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1544-09-01:0 | b: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK5:1544-09-01:0 | d: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK5:1545-12-26:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1696-01-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1701-01-01:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1701-01-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1914-12-09:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1547-02-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1548-07-27:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1548-08-24:0 | d: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK5:1550-01-01:1 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1550-01-01:1 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1551-09-07:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1551-09-07:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1552-09-04:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1555-01-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1555-09-27:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1500-12-24:0 | d: yer adı tutarsızlığı (öteki kayıtlarda モドン・コロン)
+- olay | OLAYLAR_EK5:1537-10-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1523-01-05:0 | d: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK5:1513-01-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1522-01-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1522-05-29:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1528-01-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1536-01-01:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1536-01-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1543-01-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1566-04-14:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1566-04-15:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1570-07-02:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1578-11-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1578-10-05:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1578-10-05:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1583-09-13:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1588-09-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1718-07-21:0 | d: Latin ad kalıntıları
+- arayuz | # Temmuz # (ÇELİŞKİ-#: TDV «Timişvar» # Şaban # = # Temmuz #'de garnizonun teslim olduğunu yazar; TDV «Kara Ahmed Paşa» #/# Temmuz der; Losonczy'nin kaleden çıkışı # Temmuz (olaylar_ek# Macar kaynağı) — iki gün de TDV içinde geçer, bağımsız ikinci akademik kaynak okunmadı, gün korundu) | m: yıl yanlış yerde
+- arayuz | # Temmuz # (ÇELİŞKİ-#: TDV «Timişvar» # Şaban # = # Temmuz #'de garnizonun teslim olduğunu yazar; TDV «Kara Ahmed Paşa» #/# Temmuz der; Losonczy'nin kaleden çıkışı # Temmuz (olaylar_ek# Macar kaynağı) — iki gün de TDV içinde geçer, bağımsız ikinci akademik kaynak okunmadı, gün korundu) | m: duzeltme_002'deki sürümün yerine geçer: 9'dan çok sayı olduğundan indeksli ve düz '#' karıştırılamaz, hepsi sıralı
+- olay | OLAYLAR_EK5:1724-10-03:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1724-08-11:0 | d: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK5:1798-10-23:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1871-01-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1913-11-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1918-05-20:0 | d: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK5:1918-12-04:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1919-04-30:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1731-01-01:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1731-01-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1421-06-25:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1785-04-27:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1785-04-27:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1871-10-24:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1871-10-24:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1878-07-13:0 | d: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK5:1693-01-06:0 | d: Türkçe kalıntı
+- olay | OLAYLAR_EK5:1695-02-06:0 | d: Latin harfli terim kalıntısı
+- olay | OLAYLAR_EK5:1808-11-17:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1904-08-29:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1551-11-06:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1688-06-22:0 | d: yanlış anlam: Jenő bir yer adı (Borosjenő), Eugen değil
+- olay | OLAYLAR_EK5:1474-01-01:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1474-01-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1398-01-01:0 | d: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK5:1515-02-25:0 | b: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK5:1515-02-25:0 | d: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK5:1086-06-04:0 | b: yer adı yanlış aktarılmış (Aynüseylem)
+- olay | OLAYLAR_EK5:1086-06-04:0 | d: yer adı yanlış aktarılmış (Aynüseylem)
+- olay | OLAYLAR_EK5:1304-01-01:1 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1329-01-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1346-06-15:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1912-11-21:0 | b: Türkçe yazım kalıntısı
+- olay | OLAYLAR_EK5:1276-06-15:0 | b: Latin kalıntı ve bozuk ad (İç İl)
+- olay | OLAYLAR_EK5:1276-06-15:0 | d: bozuk yer adı (İç İl)
+- olay | OLAYLAR_EK5:1622-04-23:0 | d: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK6:1730-08-12:0 | b: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK6:1730-08-12:0 | d: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK6:1325-01-01:0 | b: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK6:1325-01-01:0 | d: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK6:1334-01-01:0 | b: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK6:1334-01-01:0 | d: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK6:1427-06-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK6:1534-06-23:0 | d: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK6:1535-09-22:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1792-02-12:0 | b: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK6:1604-06-08:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK6:1606-01-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK6:1607-01-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK6:1635-01-01:0 | d: Latin kalıntı; 'o tarihten itibaren' anlatımı bozuk
+- olay | OLAYLAR_EK6:1635-10-22:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK6:1670-01-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK6:1684-09-29:0 | d: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK6:1685-10-12:0 | d: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK6:1686-10-20:0 | b: Türkçe yer adı kalıntısı
+- olay | OLAYLAR_EK6:1686-10-20:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK6:1687-08-01:0 | b: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK6:1688-05-19:0 | b: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK6:1692-06-05:0 | b: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK6:1692-06-05:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK6:1693-05-27:0 | b: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK6:1735-06-19:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK6:1770-09-27:0 | d: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK6:1806-01-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK6:1819-05-10:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK6:1822-12-12:0 | b: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK6:1831-01-01:0 | b: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK6:1831-01-04:0 | b: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK6:1833-09-29:0 | b: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK6:1912-05-12:0 | d: Türkçe ad kalıntısı
+- olay | OLAYLAR_EK6:1913-03-26:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK6:1920-05-27:0 | d: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK6:1715-06-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK6:1822-01-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK7:1470-06-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK7:1478-01-01:0 | b: Latin kalıntı
+- olay | OLAYLAR_EK7:1482-11-18:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK7:1509-09-14:0 | b: Türkçe kalıntı
+- olay | OLAYLAR_EK7:1534-04-06:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK7:1544-12-02:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK7:1565-06-29:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK7:1565-06-29:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK7:1566-09-24:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK7:1572-06-13:0 | b: Latin ad kalıntısı; denize indi = suya indirildi
+- olay | OLAYLAR_EK7:1572-06-13:0 | d: yanlış anlam: 300 gönüllü reis çektirisi = gemi, kişi değil
+- olay | OLAYLAR_EK7:1579-10-12:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK7:1579-10-12:0 | d: Latin ad kalıntısı; 'verecekmiş gibi' = verir gibi yaparak; bozuk anlatım
+- olay | OLAYLAR_EK7:1580-01-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK7:1596-06-20:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK7:1602-02-15:0 | d: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK7:1609-08-09:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK7:1622-05-20:0 | b: Latin kalıntı
+- olay | OLAYLAR_EK7:1622-05-20:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK7:1644-01-31:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK7:1644-01-31:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK7:1652-06-20:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK7:1652-06-20:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK7:1656-03-04:0 | b: Latin kalıntı
+- olay | OLAYLAR_EK7:1656-03-04:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK7:1656-09-15:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK7:1656-10-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK7:1660-07-15:0 | b: Latin kalıntı
+- olay | OLAYLAR_EK7:1660-07-15:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK7:1685-10-12:0 | d: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK7:1695-05-25:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK7:1703-03-01:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK7:1703-03-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK7:1703-07-17:0 | d: Latin kalıntı
+- olay | OLAYLAR_EK7:1718-05-09:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK7:1720-06-01:0 | b: Latin kalıntı
+- olay | OLAYLAR_EK7:1720-06-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK7:1722-06-01:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK7:1722-06-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK7:1727-07-01:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK7:1727-07-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK7:1729-02-01:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK7:1729-02-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK7:1730-10-01:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK7:1733-06-01:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK7:1733-06-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK7:1734-06-01:0 | b: Latin kalıntı
+- olay | OLAYLAR_EK7:1734-06-01:0 | d: Latin kalıntı
+- olay | OLAYLAR_EK7:1755-09-29:0 | b: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK7:1755-09-29:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK7:1757-02-28:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK7:1757-02-28:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK7:1763-04-08:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK7:1763-04-08:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK7:1766-05-01:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK7:1766-05-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK7:1772-10-01:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK7:1772-10-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK7:1793-06-01:0 | d: Latin terim kalıntısı
+- olay | OLAYLAR_EK7:1808-07-19:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK7:1808-07-19:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK7:1808-07-28:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK7:1808-07-28:1 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK7:1808-08-15:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK7:1808-08-15:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK7:1809-12-02:0 | b: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK7:1809-12-02:0 | d: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK7:1826-05-15:0 | b: Latin kalıntı
+- olay | OLAYLAR_EK7:1826-05-15:0 | d: Latin kalıntı
+- olay | OLAYLAR_EK7:1826-06-18:0 | b: Latin kalıntı
+- olay | OLAYLAR_EK7:1826-06-19:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK7:1827-04-29:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK7:1828-06-23:0 | b: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK7:1828-06-23:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK7:1829-06-01:0 | d: Latin kalıntı
+- olay | OLAYLAR_EK7:1829-09-14:0 | d: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK7:1830-06-14:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK7:1830-08-09:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK7:1830-08-09:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK7:1834-07-08:0 | b: Latin kalıntı
+- olay | OLAYLAR_EK7:1834-07-08:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK7:1836-06-01:0 | b: Latin kalıntı
+- olay | OLAYLAR_EK7:1836-06-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK7:1838-03-24:0 | b: Latin kalıntı
+- olay | OLAYLAR_EK7:1838-03-24:0 | d: Latin kalıntı
+- olay | OLAYLAR_EK7:1853-11-30:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK7:1862-06-27:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK7:1862-06-27:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK7:1867-08-30:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK7:1868-03-05:0 | b: Latin kalıntı
+- olay | OLAYLAR_EK7:1868-03-05:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK7:1869-04-08:0 | b: Latin kalıntı
+- olay | OLAYLAR_EK7:1869-04-08:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK7:1869-06-01:0 | b: Latin kalıntı
+- olay | OLAYLAR_EK7:1869-06-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK7:1873-04-01:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK7:1873-04-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK7:1877-02-05:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK7:1877-02-05:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK7:1909-04-24:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK7:1909-04-24:0 | b: Latin kalıntı
+- olay | OLAYLAR_EK7:1920-04-11:0 | b: Latin kalıntı
+- olay | OLAYLAR_EK7:1920-04-23:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK7:1335-12-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK7:1406-10-15:0 | d: Latin ad kalıntısı; TDV madde kodu görünür
+- olay | OLAYLAR_EK7:1408-04-13:0 | b: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK7:1408-04-13:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK7:1469-04-01:0 | d: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK7:1722-09-03:0 | d: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK7:1726-01-01:0 | b: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK7:1726-01-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK7:1735-03-21:0 | d: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK7:1902-01-15:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK7:1834-01-01:0 | d: Latin terim kalıntısı
+- olay | OLAYLAR_7A4170:1856-01-01:0 | b: Latin yer adı kalıntısı
+- olay | OLAYLAR_7A4170:1856-01-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_7A4170:1859-04-25:0 | d: Latin kalıntı
+- olay | OLAYLAR_7A4170:1863-04-03:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_7A4170:1869-01-01:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_7A4170:1869-01-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK8:1460-01-01:0 | b: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK8:1460-01-01:0 | d: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK8:1526-01-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK8:1554-08-22:0 | b: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK8:1554-08-22:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK8:1577-01-01:0 | b: Latin kalıntı
+- olay | OLAYLAR_EK8:1577-01-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK8:1603-03-01:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK8:1603-03-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK8:1637-06-18:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK8:1657-11-15:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK8:1688-09-11:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK8:1779-04-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK8:1830-02-03:0 | d: Latin yer adı kalıntısı (İstendil=Tinos, Değirmenlik=Milos)
+- olay | OLAYLAR_EK8:1835-01-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK8:1819-11-01:0 | b: Latin kalıntı
+- olay | OLAYLAR_EK8:1819-11-01:0 | d: Latin kalıntı
+- olay | OLAYLAR_EK8:1609-01-01:0 | d: Latin kalıntı
+- olay | OLAYLAR_EK8:1920-10-08:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK8:1924-01-01:0 | d: TDV madde kodu görünür
+- olay | OLAYLAR_EK9:1841-01-01:0 | b: Latin kalıntı
+- olay | OLAYLAR_EK9:1841-01-01:0 | d: Latin kalıntı
+- olay | OLAYLAR_EK9:1741-06-12:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK9:1840-01-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK9:1837-10-13:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK9:1832-11-22:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK9:1911-10-16:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK9:1898-09-02:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK9:1427-01-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK10:1479-08-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK10:1499-08-26:0 | d: Latin kalıntı
+- olay | OLAYLAR_EK10:1595-08-23:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK10:1595-08-23:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK10:1595-10-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK10:1877-04-24:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK10:1877-08-23:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK10:1433-01-01:0 | b: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK10:1433-01-01:0 | d: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK10:1832-01-01:0 | d: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK10:1877-06-27:0 | d: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK10:1877-07-19:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK10:1877-11-18:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK10:1912-10-08:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK10:1912-10-23:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK10:1912-10-20:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK10:1912-10-23:1 | d: Latin kalıntı
+- olay | OLAYLAR_EK10:1912-10-24:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK10:1912-10-29:1 | d: Latin kalıntı
+- olay | OLAYLAR_EK10:1912-11-02:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK10:1912-11-05:0 | d: Latin kalıntı
+- olay | OLAYLAR_EK10:1912-11-08:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK10:1912-11-08:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK10:1912-11-21:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK10:1912-11-28:0 | d: Latin kalıntı
+- olay | OLAYLAR_EK10:1476-02-01:0 | b: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK10:1476-02-01:0 | d: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK10:1521-07-07:0 | b: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK10:1521-07-07:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK10:1788-04-24:0 | b: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK10:1788-04-24:0 | d: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK10:1806-01-26:0 | b: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK10:1806-01-26:0 | d: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK10:1448-01-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK10:1469-01-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK10:1419-01-01:0 | d: Latin kalıntı
+- olay | OLAYLAR_EK10:1420-01-01:0 | d: Latin kalıntı ve TDV madde kodu
+- olay | OLAYLAR_EK11:1422-01-01:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK11:1422-01-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK11:1426-01-01:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK11:1426-01-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK11:1502-01-01:0 | d: Latin kalıntı
+- olay | OLAYLAR_EK11:1539-02-24:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK12:1560-03-12:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK12:1560-03-12:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK12:1560-07-30:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK12:1537-01-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK13:1569-01-01:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK13:1569-01-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK13:1573-10-10:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK13:1417-01-01:0 | d: Latin kalıntı ve ad aktarımı (Evâl=Awal)
+- olay | OLAYLAR_EK13:1559-01-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK13:1753-01-01:0 | d: Latin kalıntı
+- olay | OLAYLAR_EK13:1517-05-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK13:1362-03-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK14:1538-01-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK14:1447-01-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK14:1402-01-01:0 | d: Latin kalıntı
+- olay | OLAYLAR_EK14:1505-10-13:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK14:1414-01-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK14:1419-12-01:0 | d: Latin kalıntı
+- olay | OLAYLAR_EK14:1592-01-01:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK14:1592-01-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK14:1598-09-01:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK14:1598-09-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK14:1665-10-30:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK14:1573-01-01:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK14:1573-01-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK14:1580-01-01:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK14:1580-01-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK14:1561-01-01:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK14:1561-01-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK14:1568-01-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK14:1521-01-01:0 | b: Latin eser adı kalıntısı
+- olay | OLAYLAR_EK14:1521-01-01:0 | d: Latin eser adı kalıntısı
+- olay | OLAYLAR_EK14:1526-01-01:0 | b: Latin eser adı kalıntısı
+- olay | OLAYLAR_EK14:1526-01-01:0 | d: Latin eser adı kalıntısı
+- olay | OLAYLAR_EK14:1557-01-01:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK14:1557-01-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK14:1534-01-01:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK14:1534-01-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK14:1648-01-01:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK14:1648-01-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK14:1654-12-01:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK14:1654-12-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK14:1633-01-01:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK14:1633-01-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK14:1775-04-29:0 | b: Latin kalıntı
+- olay | OLAYLAR_EK14:1775-04-29:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK14:1793-07-14:0 | b: Latin kalıntı
+- olay | OLAYLAR_EK14:1793-07-14:0 | d: Latin kalıntı
+- olay | OLAYLAR_EK14:1839-05-14:0 | b: Latin kalıntı
+- olay | OLAYLAR_EK14:1839-05-14:0 | d: Latin kalıntı
+- olay | OLAYLAR_EK14:1900-08-31:0 | b: Latin kalıntı
+- olay | OLAYLAR_EK14:1900-08-31:0 | d: Latin kalıntı
+- olay | OLAYLAR_EK14:1679-01-01:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK14:1679-01-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK14:1695-01-01:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK14:1695-01-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK14:1578-01-02:0 | b: Latin eser adı kalıntısı
+- olay | OLAYLAR_EK14:1578-01-02:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK14:1588-01-01:0 | b: Latin eser adı kalıntısı
+- olay | OLAYLAR_EK14:1588-01-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK14:1720-01-01:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK14:1720-01-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK14:1732-01-01:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK14:1732-01-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK14:1711-01-01:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK14:1711-01-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK14:1778-01-09:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK14:1778-01-09:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK14:1812-01-01:0 | b: Latin kalıntı
+- olay | OLAYLAR_EK14:1812-01-01:0 | d: Latin kalıntı
+- olay | OLAYLAR_EK14:1846-11-29:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK14:1846-11-29:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK14:1566-09-08:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK14:1566-09-08:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK14:1566-09-30:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK14:1566-09-30:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK14:1535-01-01:0 | d: Latin kalıntı
+- olay | OLAYLAR_EK14:1718-01-01:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK14:1718-01-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK14:1730-10-28:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK14:1730-10-28:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK14:1635-01-01:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK14:1635-01-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK14:1730-09-25:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK14:1730-09-25:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_2S_0919:1717-11-30:0 | d: 助詞誤り(ラサに攻撃→ラサを攻撃); ラテン文字のままの人名
+- olay | OLAYLAR_2S_0919:1808-01-01:0 | d: トルコ語表記の人名が残っている
+- olay | OLAYLAR_2S_0919:1818-01-01:0 | d: ラテン文字のままの地名
+- olay | OLAYLAR_2S_0919:1343-01-01:0 | b: トルコ語表記の人名が残っている
+- olay | OLAYLAR_2S_0919:1343-01-01:0 | d: トルコ語表記の人名が残っている
+- olay | OLAYLAR_2S_0919:1353-01-01:0 | b: トルコ語表記の人名が残っている
+- olay | OLAYLAR_2S_0919:1353-01-01:0 | d: トルコ語表記の人名が残っている
+- olay | OLAYLAR_2S_0919:1401-01-01:0 | b: トルコ語表記の人名が残っている
+- olay | OLAYLAR_2S_0919:1401-01-01:0 | d: トルコ語表記の人名が残っている
+- olay | OLAYLAR_2S_0919:1378-01-01:0 | b: トルコ語表記の人名が残っている
+- olay | OLAYLAR_2S_0919:1378-01-01:0 | d: トルコ語表記の人名が残っている
+- olay | OLAYLAR_2S_0919:1759-01-01:0 | b: ラテン文字のままの地名
+- olay | OLAYLAR_2S_0919:1759-01-01:0 | d: ラテン文字のままの地名
+- olay | OLAYLAR_2S_0919:1909-06-02:0 | d: トルコ語表記の別名が残っている
+- olay | OLAYLAR_2S_0919:1556-01-01:0 | d: amcazade = 従兄弟(「従兄弟の子」は誤訳)
+- olay | OLAYLAR_2S0920:1912-11-28:0 | d: Akçahisar = クルヤ(コルチャは誤り)
+- olay | OLAYLAR_2S0920:1913-05-14:0 | b: 助詞誤り
+- olay | OLAYLAR_2S0920:1913-05-14:0 | d: 助詞誤り
+- olay | OLAYLAR_2S0920:1913-08-10:0 | d: bırakıldı=割譲された(「残された」は意味が逆に読める)
+- olay | OLAYLAR_2S0920:1914-11-22:0 | d: 不自然な日本語
+- olay | OLAYLAR_2S0920:1941-05-05:0 | d: 未翻訳の語 atlas
+- olay | OLAYLAR_2S0920:0224-04-28:0 | d: 未翻訳の語 atlas
+- olay | OLAYLAR_2S0920:1942-01-01:0 | d: 内部メモ(ic_not)の参照が利用者に表示される
+- olay | OLAYLAR_MISIR1801:1801-05-14:0 | b: 要塞に「撤収」は誤用
+- olay | OLAYLAR_MISIR1801:1801-05-14:0 | d: トルコ語人名の残り; 不自然な表現
+- olay | OLAYLAR_MISIR1801:1801-06-27:0 | b: teslim alma=接収(「引き取り」は誤り)
+- olay | OLAYLAR_MISIR1801:1801-08-31:0 | b: teslim alma=接収
+- olay | OLAYLAR_SENUSI_0919:1551-07-01:0 | d: teslim alma=接収
+- olay | OLAYLAR_SENUSI_0919:1554-04-07:0 | b: ラテン文字のままの人名(本文はペトロヴィチ)
+- olay | OLAYLAR_SENUSI_0919:1738-05-08:0 | d: トルコ語人名の残り; 不自然な日本語
+- olay | OLAYLAR_EBUKIR0919:1799-07-25:0 | b: トルコ語人名の残り
+- olay | OLAYLAR_EBUKIR0919:1799-07-25:0 | d: トルコ語人名の残り
+- olay | OLAYLAR_P0043KIRIM:1791-07-26:0 | d: トルコ語人名の残り
+- olay | OLAYLAR_P0043KIRIM:1828-06-24:0 | b: トルコ語人名の残り
+- olay | OLAYLAR_P0043KIRIM:1828-06-24:0 | d: トルコ語人名の残り
+- olay | OLAYLAR_P0044:1556-07-16:0 | d: トルコ語人名の残り
+- olay | OLAYLAR_P0044:1574-01-01:0 | b: トルコ語人名の残り
+- olay | OLAYLAR_P0044:1574-01-01:0 | d: トルコ語人名の残り
+- olay | OLAYLAR_P0044:1840-01-01:0 | d: トルコ語人名の残り
+- olay | OLAYLAR_P0048:1592-01-01:0 | d: トルコ語の書名が残っている
+- olay | OLAYLAR_P0049:1920-02-11:0 | d: 助詞誤り(都市を撤退→都市から撤退)
+- olay | OLAYLAR_P0049:1920-04-11:0 | d: 助詞誤り
+- olay | OLAYLAR_P0049:1921-02-09:0 | d: 「アンテプは撤退される」は誤った受身
+- olay | OLAYLAR_P0049:1921-03-16:0 | d: bırakıldı=譲られた
+- olay | OLAYLAR_P0056:1811-07-04:0 | d: 「都市を受け取った」は誤訳調(teslim almak=降伏させて接収)
+- olay | OLAYLAR_P0056:1836-01-01:0 | d: 助詞誤り(撤退は「から」)
+- olay | OLAYLAR_P0056:1853-07-03:0 | d: 助詞誤り
+- olay | OLAYLAR_P0057:1919-01-23:0 | d: 助詞誤り
+- olay | OLAYLAR_P0057:1920-03-20:0 | b: 助詞誤り
+- olay | OLAYLAR_P0057:1920-03-20:0 | d: 「撤退された」は誤った受身
+- olay | OLAYLAR_P0057:1921-03-28:0 | d: 助詞誤り; bırakmak=譲る
+- olay | OLAYLAR_P0057:1921-07-20:0 | b: 助詞誤り
+- olay | OLAYLAR_P0057:1921-07-05:0 | d: 助詞誤り
+- olay | OLAYLAR_P0057:1921-04-07:0 | b: 地名 Aslıhanlar の表記誤り
+- olay | OLAYLAR_P0057:1921-04-07:0 | d: 地名表記誤り; 助詞・受身の不自然さ
+- olay | OLAYLAR_P0057:1922-09-06:0 | d: 助詞誤り
+- olay | OLAYLAR_P0057:1922-11-10:0 | b: teslim alınma=接収
+- olay | OLAYLAR_P0057:1922-11-10:0 | d: 誤った受身; teslim alma=接収
+- olay | OLAYLAR_P0057:1922-04-29:0 | d: 助詞誤り・誤った受身
+- olay | OLAYLAR_P0059:1594-11-13:0 | d: トルコ語書名の残り; 不自然な表現
+- olay | OLAYLAR_SEHIR_ILK:1494-02-06:0 | d: ラテン文字のままの地名
+- olay | OLAYLAR_ARKEOLOJI_PILOT:-5999-01-01:0 | d: 「紀元前」とBCの重複
+- olay | OLAYLAR_ARKEOLOJI_D3_AMERIKA_PASIFIK:-0499-01-01:0 | d: şeflik=首長制(「首都的」は誤訳)
+- olay | OLAYLAR_ARKEOLOJI_D3_AMERIKA_PASIFIK:-1624-01-01:0 | d: şeflik=首長制(「首都的」は誤訳)
+- olay | OLAYLAR_ARKEOLOJI_D3_ANADOLU_EGE:-1199-01-01:0 | b: 助詞誤り(「第3波の読解メモ」はTR側の内部メモ)
+- olay | OLAYLAR_ARKEOLOJI_D3_ANADOLU_EGE:-1199-01-01:0 | d: 助詞誤り
+- olay | OLAYLAR_ARKEOLOJI_ZINCIR:-1099-01-01:0 | d: トルコ語の残り(Kisim)
+- olay | OLAYLAR_ARKEOLOJI_ZINCIR:-1807-01-01:0 | d: トルコ語の残り(Kisim)
+- olay | OLAYLAR_ARKEOLOJI_ZINCIR:-1899-01-01:0 | d: トルコ語の残り(Kisim)
+- olay | OLAYLAR_ARKEOLOJI_ZINCIR:-2003-01-01:0 | d: トルコ語の残り(Kisim)
+- olay | OLAYLAR_ARKEOLOJI_ZINCIR:-2023-01-01:0 | d: トルコ語の残り(Kisim)
+- olay | OLAYLAR_ARKEOLOJI_ZINCIR:-2111-01-01:0 | d: トルコ語の残り(Kisim)
+- olay | OLAYLAR_ARKEOLOJI_ZINCIR:-2143-01-01:0 | d: トルコ語の残り(Kisim)
+- olay | OLAYLAR_ARKEOLOJI_ZINCIR:-2153-01-01:0 | d: トルコ語の残り(Kisim)
+- olay | OLAYLAR_ARKEOLOJI_ZINCIR:-2299-01-01:0 | d: トルコ語の残り(Kisim)
+- olay | OLAYLAR_ARKEOLOJI_ZINCIR:-2349-01-01:0 | d: トルコ語の残り(Kisim)
+- olay | OLAYLAR_ARKEOLOJI_D2_IRAN_ORTA_ASYA:-5926-01-01:0 | b: ラテン文字のままの地名(他項はジェイトゥン)
+- olay | OLAYLAR_ARKEOLOJI_D2_IRAN_ORTA_ASYA:-6098-01-01:0 | b: ラテン文字のままの地名
+- olay | OLAYLAR_ARKEOLOJI_D2_AFRIKA_AMERIKA:-0374-01-01:0 | b: ラテン文字のままの地名
+- olay | OLAYLAR_ARKEOLOJI_D2_AFRIKA_AMERIKA:-0374-01-01:0 | d: ラテン文字のままの地名
+- olay | OLAYLAR_ARKEOLOJI_D2_AFRIKA_AMERIKA:-0659-01-01:0 | b: ラテン文字のままの地名(他項はサン・ホセ・モゴテ)
+- olay | OLAYLAR_ARKEOLOJI_D2_AFRIKA_AMERIKA:-0659-01-01:0 | d: ラテン文字のままの地名
+- olay | OLAYLAR_ARKEOLOJI_D2_AFRIKA_AMERIKA:-0999-01-01:0 | b: ラテン文字のままの地名
+- olay | OLAYLAR_ARKEOLOJI_D2_AFRIKA_AMERIKA:-0999-01-01:0 | d: ラテン文字のままの固有名
+- olay | OLAYLAR_ARKEOLOJI_D2_AFRIKA_AMERIKA:-2799-01-01:0 | b: ラテン文字のままの地名
+- olay | OLAYLAR_ARKEOLOJI_D2_AFRIKA_AMERIKA:-2799-01-01:0 | d: ラテン文字のままの固有名
+- olay | OLAYLAR_ARKEOLOJI_D2_AFRIKA_AMERIKA:-2834-01-01:0 | b: ラテン文字のままの地名
+- olay | OLAYLAR_ARKEOLOJI_D2_AFRIKA_AMERIKA:-2834-01-01:0 | d: ラテン文字のままの固有名
+- olay | OLAYLAR_ARKEOLOJI_D2_AFRIKA_AMERIKA:-7699-01-01:0 | b: ラテン文字のままの固有名
+- olay | OLAYLAR_ARKEOLOJI_D2_AFRIKA_AMERIKA:-7699-01-01:0 | d: ラテン文字のままの固有名
+- olay | OLAYLAR_ARKEOLOJI_D2_AFRIKA_AMERIKA:-3001-01-01:0 | b: ラテン文字のままの地名
+- olay | OLAYLAR_ARKEOLOJI_D2_AFRIKA_AMERIKA:-3184-01-01:0 | b: ラテン文字のままの地名(他項はテワカン)
+- olay | OLAYLAR_ARKEOLOJI_D2_AFRIKA_AMERIKA:-3184-01-01:0 | d: ラテン文字のままの地名
+- olay | OLAYLAR_ARKEOLOJI_D2_AFRIKA_AMERIKA:-3749-01-01:0 | b: ラテン文字のままの地名
+- olay | OLAYLAR_ARKEOLOJI_D2_AFRIKA_AMERIKA:-3749-01-01:0 | d: ラテン文字のままの地名
+- olay | OLAYLAR_ARKEOLOJI_D2_CIN_DOGU_ASYA:-1049-01-01:0 | b: 中国地名がラテン文字のまま
+- olay | OLAYLAR_ARKEOLOJI_D2_CIN_DOGU_ASYA:-1599-01-01:1 | b: 中国地名がラテン文字のまま
+- olay | OLAYLAR_ARKEOLOJI_D2_HINT_GUNEYDOGU:-0399-01-01:0 | b: 定訳のある地名がラテン文字のまま
+- olay | OLAYLAR_ARKEOLOJI_D2_HINT_GUNEYDOGU:-0399-01-01:0 | d: 定訳のある地名がラテン文字のまま
+- olay | OLAYLAR_ARKEOLOJI_D2_HINT_GUNEYDOGU:-1509-01-01:0 | b: 地名表記の不統一(他項はバンチェン)
+- olay | OLAYLAR_ARKEOLOJI_D2_ITALYA_AVRUPA:-5499-01-01:0 | b: 定訳のある地名がラテン文字のまま
+- olay | OLAYLAR_ARKEOLOJI_D2_ANADOLU_EGE:-7999-01-01:0 | b: トルコ語表記の地名が残っている
+- olay | OLAYLAR_ARKEOLOJI_D2_ANADOLU_EGE:-7999-01-01:0 | d: トルコ語表記の地名が残っている
+- olay | OLAYLAR_ARKEOLOJI_D2_ANADOLU_EGE:-9599-01-01:0 | b: トルコ語表記の地名が残っている
+- olay | OLAYLAR_ARKEOLOJI_D2_ANADOLU_EGE:-9599-01-01:0 | d: トルコ語表記の地名が残っている
+- olay | OLAYLAR_ARKEOLOJI_D2_ANADOLU_EGE:-8099-01-01:0 | b: トルコ語表記の地名が残っている
+- olay | OLAYLAR_ARKEOLOJI_D2_ANADOLU_EGE:-8099-01-01:0 | d: トルコ語表記の地名が残っている
+- olay | OLAYLAR_ARKEOLOJI_D2_ANADOLU_EGE:-8299-01-01:0 | b: トルコ語表記の地名が残っている
+- olay | OLAYLAR_ARKEOLOJI_D2_ANADOLU_EGE:-8299-01-01:0 | d: トルコ語表記の地名が残っている
+- olay | OLAYLAR_ARKEOLOJI_MEZOPOTAMYA:-0625-01-01:0 | d: 直訳で不自然・意味不明
+- olay | OLAYLAR_ARKEOLOJI_AFRIKA_IRAN:-0538-01-01:0 | d: 日付(アラフサムナ月3日)が未翻訳で意味不明
+- olay | OLAYLAR_ARKEOLOJI_CIN:-1009-01-01:0 | b: 日本の遺跡名がラテン文字のまま
+- olay | OLAYLAR_ARKEOLOJI_CIN:-1009-01-01:0 | d: 日本の遺跡名がラテン文字のまま
+- olay | OLAYLAR_ARKEOLOJI_AMERIKA:-0899-01-01:0 | b: 地名がラテン文字のまま
+- olay | OLAYLAR_ARKEOLOJI_AMERIKA:-12599-01-01:0 | b: 地名がラテン文字のまま
+- olay | OLAYLAR_ARKEOLOJI_AFRIKA_IRAN:-8114-01-01:0 | b: 定訳のある地名がラテン文字のまま
+- olay | OLAYLAR_ARKEOLOJI_AFRIKA_IRAN:-4744-01-01:0 | b: 定訳のある地名がラテン文字のまま
+- olay | OLAYLAR_OK107:1515-09-19:0 | b: トルコ語表記の地名が残っている
+- olay | OLAYLAR_OK107:1515-09-19:0 | d: トルコ語の地名・用語が残っている
+- olay | OLAYLAR_OK107:1514-09-15:0 | b: トルコ語表記の地名が残っている
+- olay | OLAYLAR_OK107:1514-09-15:0 | d: トルコ語表記の地名が残っている
+- olay | OLAYLAR_OK109:1918-10-28:0 | d: 地名がラテン文字のまま
+- olay | OLAYLAR_OK109:1918-10-31:0 | d: 人名がラテン文字のまま(題はカーロイ)
+- olay | OLAYLAR_OK109:1918-11-03:0 | d: 地名がラテン文字のまま
+- olay | OLAYLAR_OK109:1918-12-01:0 | d: 数字区切りがヨーロッパ式; トルコ語表記の地名
+- olay | OLAYLAR_OK109:1919-09-10:0 | d: 地名がラテン文字/トルコ語のまま; 数字区切り
+- olay | OLAYLAR_OK109:1920-06-04:0 | d: 地名がラテン文字のまま; 数字区切り
+- olay | OLAYLAR_OK109:1920-06-04:1 | b: トルコ語表記の地名
+- olay | OLAYLAR_OK109:1920-06-04:1 | d: 地名がトルコ語/ラテン文字のまま
+- olay | OLAYLAR_OK109:1919-06-28:0 | d: 地名がラテン文字のまま
+- olay | OLAYLAR_OK109:1919-11-27:0 | d: トルコ語表記の地名
+- olay | OLAYLAR_OK109:1921-11-13:0 | b: ドイツ語の語が未翻訳
+- olay | OLAYLAR_OK109:1921-11-13:0 | d: 未翻訳語・ラテン文字の地名
+- olay | OLAYLAR_OK109:1918-11-19:0 | b: 地名がラテン文字のまま
+- olay | OLAYLAR_OK109:1918-11-19:0 | d: 固有名がラテン文字のまま
+- olay | OLAYLAR_OK109:1921-08-20:0 | b: 地名がラテン文字のまま
+- olay | OLAYLAR_OK109:1921-08-20:0 | d: 地名がラテン文字のまま
+- olay | OLAYLAR_OK109:1918-11-14:0 | b: 地名がラテン文字/トルコ語のまま
+- olay | OLAYLAR_OK109:1918-11-14:0 | d: 地名がラテン文字のまま
+- olay | OLAYLAR_OK109:1918-11-14:1 | b: 地名がラテン文字のまま
+- olay | OLAYLAR_OK109:1918-11-14:1 | d: 地名がラテン文字のまま
+- olay | OLAYLAR_OK109:1918-12-01:1 | b: 地名がラテン文字のまま
+- olay | OLAYLAR_OK109:1918-12-01:1 | d: 地名がラテン文字のまま
+- olay | OLAYLAR_OK109:1918-12-19:0 | b: 地名がラテン文字のまま
+- olay | OLAYLAR_OK109:1918-12-19:0 | d: 地名がラテン文字のまま
+- olay | OLAYLAR_OK109:1918-12-29:0 | b: 地名がラテン文字のまま
+- olay | OLAYLAR_OK109:1918-12-29:0 | d: 固有名がラテン文字のまま
+- olay | OLAYLAR_OK109:1919-04-20:0 | b: 地名がラテン文字のまま
+- olay | OLAYLAR_OK109:1919-04-20:0 | d: 固有名がラテン文字のまま
+- olay | OLAYLAR_OK109:1919-07-22:0 | b: 地名がラテン文字のまま
+- olay | OLAYLAR_OK109:1919-07-22:0 | d: 固有名がラテン文字のまま
+- olay | OLAYLAR_OK109:1919-08-03:0 | b: 地名がラテン文字のまま
+- olay | OLAYLAR_OK109:1919-08-03:0 | d: 固有名がラテン文字のまま
+- olay | OLAYLAR_OK109:1919-08-12:0 | b: 地名がラテン文字のまま
+- olay | OLAYLAR_OK109:1919-08-12:0 | d: 地名がラテン文字のまま
+- olay | OLAYLAR_OK109:1921-04-04:0 | b: 地名がラテン文字のまま
+- olay | OLAYLAR_OK109:1921-04-04:0 | d: 地名がラテン文字のまま
+- olay | OLAYLAR_OK109:1921-06-12:0 | b: 地名がラテン文字のまま
+- olay | OLAYLAR_OK109:1921-08-22:0 | b: 地名がラテン文字のまま
+- olay | OLAYLAR_OK106:1847-05-31:0 | d: トルコ語の人名・書名が残っている
+- olay | OLAYLAR_OK106:1703-05-17:0 | b: トルコ語表記の地名
+- olay | OLAYLAR_OK106:1703-05-17:0 | d: トルコ語表記の地名
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0200-01-01:1 | d: 「土地に任じた」は日本語として破格
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0286-01-01:0 | d: 人物に「崩れた」は不自然(没落)
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0303-01-01:0 | d: 「勝利の代金」は誤訳(勝利で得た資金)
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0358-01-01:0 | d: krallık burada 'hükümdarlık dönemi'; 「王国」は誤り
+- olay | OLAYLAR_ANTIK_AKDENIZ:-1199-01-01:0 | d: 考古学の定訳は「後期ヘラディック」
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0629-01-01:0 | d: トルコ語表記の残存(Belencer→バランジャル)
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0689-01-01:0 | d: ローマ字残存;漢字表記は室利仏逝
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0761-08-07:0 | d: 年月の語順が破格、ヒジュラ暦の明示欠落
+- arayuz | # Temmuz # (ÇELİŞKİ-#: TDV «Timişvar» # Şaban # = # Temmuz #'de garnizonun teslim olduğunu yazar; TDV «Kara Ahmed Paşa» #/# Temmuz der; Losonczy'nin kaleden çıkışı # Temmuz (olaylar_ek# Macar kaynağı) — iki gün de TDV içinde geçer, bağımsız ikinci akademik kaynak okunmadı, gün korundu) | m: yıl yanlış yerde
+- arayuz | # Temmuz # (ÇELİŞKİ-#: TDV «Timişvar» # Şaban # = # Temmuz #'de garnizonun teslim olduğunu yazar; TDV «Kara Ahmed Paşa» #/# Temmuz der; Losonczy'nin kaleden çıkışı # Temmuz (olaylar_ek# Macar kaynağı) — iki gün de TDV içinde geçer, bağımsız ikinci akademik kaynak okunmadı, gün korundu) | m: duzeltme_002'deki sürümün yerine geçer: 9'dan çok sayı olduğundan indeksli ve düz '#' karıştırılamaz, hepsi sıralı
+- olay | OLAYLAR_OK106:1571-01-01:0 | b: 地名がラテン文字/トルコ語のまま
+- olay | OLAYLAR_OK106:1616-01-01:0 | b: 地名がラテン文字のまま
+- olay | OLAYLAR_OK106:1616-01-01:0 | d: 地名がラテン文字のまま
+- olay | OLAYLAR_OK106:1638-01-01:0 | b: 地名がトルコ語表記のまま
+- olay | OLAYLAR_OK106:1638-01-01:0 | d: 固有名がラテン文字/トルコ語のまま
+- olay | OLAYLAR_OK106:1652-01-01:0 | b: 地名がトルコ語表記のまま
+- olay | OLAYLAR_OK106:1652-01-01:0 | d: 固有名がラテン文字/トルコ語のまま
+- olay | OLAYLAR_H7_ASAMA:1562-05-05:0 | b: トルコ語表記の地名
+- olay | OLAYLAR_H7_ASAMA:1562-05-05:0 | d: トルコ語表記の地名
+- olay | OLAYLAR_H7_ASAMA:1566-05-01:0 | b: トルコ語表記の地名
+- olay | OLAYLAR_H7_ASAMA:1566-05-01:0 | d: トルコ語の固有名が残っている
+- olay | OLAYLAR_H7_ASAMA:1568-02-17:0 | d: トルコ語の固有名が残っている
+- olay | OLAYLAR_H7_ASAMA:1604-06-15:0 | b: トルコ語の人名が残っている
+- olay | OLAYLAR_H7_ASAMA:1604-06-15:0 | d: durdurulabilmişti=ようやく食い止められた(誤訳); トルコ語固有名
+- olay | OLAYLAR_H7_ASAMA:1605-11-06:0 | b: トルコ語の固有名が残っている
+- olay | OLAYLAR_H7_ASAMA:1605-11-06:0 | d: トルコ語の固有名が残っている
+- olay | OLAYLAR_H7_ASAMA:1610-03-26:0 | b: トルコ語の固有名が残っている
+- olay | OLAYLAR_H7_ASAMA:1610-03-26:0 | d: トルコ語の固有名が残っている
+- olay | OLAYLAR_H7_ASAMA:1615-04-23:0 | b: トルコ語の人名が残っている
+- olay | OLAYLAR_H7_ASAMA:1615-04-23:0 | d: トルコ語の固有名が残っている
+- olay | OLAYLAR_H7_ASAMA:1616-09-12:0 | b: トルコ語表記の地名
+- olay | OLAYLAR_H7_ASAMA:1616-09-12:0 | d: トルコ語の固有名が残っている
+- olay | OLAYLAR_H7_ASAMA:1618-09-10:0 | b: トルコ語表記の固有名
+- olay | OLAYLAR_H7_ASAMA:1618-09-10:0 | d: トルコ語表記の固有名
+- olay | OLAYLAR_H7_ASAMA:1733-07-19:0 | b: トルコ語の固有名が残っている
+- olay | OLAYLAR_H7_ASAMA:1733-07-19:0 | d: トルコ語の固有名が残っている
+- olay | OLAYLAR_H7_ASAMA:1743-02-25:0 | d: 地名がラテン文字のまま
+- olay | OLAYLAR_H7_ASAMA:1744-07-29:0 | d: トルコ語表記の人名
+- olay | OLAYLAR_H7_ASAMA:1745-08-21:0 | b: トルコ語の固有名が残っている
+- olay | OLAYLAR_H7_ASAMA:1745-08-21:0 | d: トルコ語の固有名が残っている
+- olay | OLAYLAR_H7_ASAMA:1700-01-01:0 | d: トルコ語表記の併記が残る
+- olay | OLAYLAR_H7_ASAMA:1529-05-10:0 | d: 人名がラテン文字のまま
+- olay | OLAYLAR_H7_ASAMA:1578-01-02:0 | d: トルコ語の人名が残っている
+- olay | OLAYLAR_H7_ASAMA:1625-11-13:0 | b: トルコ語の人名が残っている
+- olay | OLAYLAR_H7_ASAMA:1625-11-13:0 | d: boğazlar=峠道(「海峡」は誤訳); トルコ語人名; 数字区切り
+- olay | OLAYLAR_H7_ASAMA:1630-10-06:0 | b: トルコ語の人名が残っている
+- olay | OLAYLAR_H7_ASAMA:1630-10-06:0 | d: 固有名がラテン文字のまま
+- olay | OLAYLAR_T5_1000A:1071-01-01:0 | d: トルコ語の人名
+- olay | OLAYLAR_T5_1000A:1074-01-01:0 | b: 人名がラテン文字のまま
+- olay | OLAYLAR_T5_1000A:1074-01-01:0 | d: 人名がラテン文字のまま
+- olay | OLAYLAR_T5_1000A:1074-01-01:1 | b: 地名がラテン文字のまま
+- olay | OLAYLAR_T5_1000A:1074-01-01:1 | d: 地名がラテン文字のまま
+- olay | OLAYLAR_T5_1000A:1085-01-01:0 | b: 地名がラテン文字のまま
+- olay | OLAYLAR_T5_1000A:1085-01-01:0 | d: 地名がラテン文字のまま
+- olay | OLAYLAR_T5_1000A:1095-01-01:0 | d: トルコ語の固有名が残っている
+- olay | OLAYLAR_T5_1000A:1096-01-01:0 | d: トルコ語künyeが残っている
+- olay | OLAYLAR_T5_1000A:1100-01-01:0 | b: 地名がラテン文字のまま
+- olay | OLAYLAR_T5_1000A:1100-01-01:0 | d: 地名がラテン文字のまま
+- olay | OLAYLAR_T5_1000A:1106-09-02:0 | b: teslim almak=接収(「引き取った」は誤り)
+- olay | OLAYLAR_T5_1000A:1108-03-04:0 | b: 地名がラテン文字のまま
+- olay | OLAYLAR_T5_1000A:1111-01-01:0 | b: 固有名がラテン文字のまま
+- olay | OLAYLAR_T5_1000A:1111-01-01:0 | d: 固有名がラテン文字のまま
+- olay | OLAYLAR_T5_1000A:1112-01-01:0 | b: 人名がラテン文字のまま
+- olay | OLAYLAR_T5_1000A:1112-01-01:0 | d: 固有名がラテン文字のまま
+- olay | OLAYLAR_T5_1000A:1119-01-01:0 | d: 人名がラテン文字のまま
+- olay | OLAYLAR_T5_1000A:1120-01-01:0 | b: 人名がラテン文字のまま
+- olay | OLAYLAR_T5_1000A:1120-01-01:0 | d: 固有名がラテン文字のまま
+- olay | OLAYLAR_T5_1000A:1142-01-01:0 | b: 固有名がラテン文字のまま
+- olay | OLAYLAR_T5_1000A:1142-01-01:0 | d: 固有名がラテン文字のまま
+- olay | OLAYLAR_T5_1000A:1144-01-01:0 | b: 地名がラテン文字のまま
+- olay | OLAYLAR_T5_1000A:1144-01-01:0 | d: 地名がラテン文字のまま
+- olay | OLAYLAR_T5_1000A:1149-01-01:0 | b: トルコ語の王朝名
+- olay | OLAYLAR_T5_1000A:1149-01-01:0 | d: トルコ語の王朝名
+- olay | OLAYLAR_T5_1000A:1150-04-30:0 | b: 人名がラテン文字のまま
+- olay | OLAYLAR_T5_1000A:1150-04-30:0 | d: 人名がラテン文字のまま
+- olay | OLAYLAR_T5_1000A:1156-01-01:0 | b: 固有名がラテン文字のまま
+- olay | OLAYLAR_T5_1000A:1156-01-01:0 | d: 固有名がラテン文字のまま
+- olay | OLAYLAR_T5_1000A:1163-01-01:0 | d: 固有名がラテン文字のまま
+- olay | OLAYLAR_T5_1000A:1165-01-01:0 | b: 地名がラテン文字のまま
+- olay | OLAYLAR_T5_1000A:1165-01-01:0 | d: 地名がラテン文字のまま
+- olay | OLAYLAR_T5_1000A:1172-01-01:0 | d: 地名がラテン文字のまま
+- olay | OLAYLAR_T5_1000A:1174-01-01:0 | d: 固有名がラテン文字のまま
+- olay | OLAYLAR_T5_1000A:1175-01-01:0 | b: 地名がラテン文字のまま
+- olay | OLAYLAR_T5_1000A:1175-01-01:0 | d: 地名がラテン文字のまま
+- olay | OLAYLAR_T5_1000A:1183-04-29:0 | d: 地名がラテン文字のまま; 「Hısnıkeyfâを与えた」は誤訳(ヒスン・カイファーは首長の称号)
+- olay | OLAYLAR_T5_1000A:1184-01-01:0 | d: 地名がラテン文字のまま
+- olay | OLAYLAR_T5_1000A:1190-01-01:0 | d: トルコ語の王朝名
+- olay | OLAYLAR_T5_1000A:1199-01-06:0 | d: トルコ語künyeが残っている
+- olay | OLAYLAR_T5_1000A:1205-01-01:0 | d: 固有名がラテン文字のまま
+- olay | OLAYLAR_T5_1000A:1206-01-01:0 | b: 地名がラテン文字のまま
+- olay | OLAYLAR_T5_1000A:1206-01-01:0 | d: 地名がラテン文字のまま
+- olay | OLAYLAR_T5_1000A:1211-01-01:0 | b: トルコ語の併記
+- olay | OLAYLAR_T5_1000A:1211-01-01:0 | d: トルコ語の併記
+- olay | OLAYLAR_T5_1000A:1222-01-01:0 | d: トルコ語の併記
+- olay | OLAYLAR_T5_1000A:1225-07-25:0 | d: 人名がラテン文字のまま
+- olay | OLAYLAR_T5_1000A:1228-01-01:0 | b: 地名がラテン文字のまま
+- olay | OLAYLAR_T5_1000A:1228-01-01:0 | d: 地名がラテン文字のまま
+- olay | OLAYLAR_T5_1000A:1231-01-01:1 | d: 地名がラテン文字のまま(内部決定の言及はTR側の問題)
+- olay | OLAYLAR_T5_1000A:1233-01-01:1 | d: トルコ語künyeが残っている
+- olay | OLAYLAR_T5_1000A:1234-08-01:0 | d: teslim almak=降伏させて接収(「引き取った」は誤り)
+- olay | OLAYLAR_T5_1000A:1256-01-01:0 | d: 地名がラテン文字のまま(内部決定の言及はTR側の問題)
+- olay | OLAYLAR_T5_1000A:1258-01-01:0 | b: 人名がラテン文字のまま
+- olay | OLAYLAR_T5_1000A:1258-01-01:0 | d: 人名がラテン文字のまま
+- olay | OLAYLAR_T5_1000B:1097-07-01:0 | b: 地名がトルコ語表記のまま
+- olay | OLAYLAR_T5_1000B:1176-09-17:0 | d: 地名がトルコ語表記のまま
+- olay | OLAYLAR_T5_1000B:1171-09-13:0 | d: トルコ語künyeが残っている(Emre #23はTR側の内部メモ)
+- olay | OLAYLAR_T5_1000B:1204-04-13:1 | d: トルコ語の併記
+- olay | OLAYLAR_T5_1000B:1250-04-30:0 | d: トルコ語künyeが残っている
+- olay | OLAYLAR_T5_1000B:1261-07-25:0 | d: 地名がトルコ語表記のまま
+- olay | OLAYLAR_T5_1000B:1363-01-01:0 | b: 人名がラテン文字のまま
+- olay | OLAYLAR_T5_1000B:1363-01-01:0 | d: 人名がラテン文字のまま
+- olay | OLAYLAR_BK_ZINCIR_1024:1355-01-01:0 | b: トルコ語の併記
+- olay | OLAYLAR_BK_ZINCIR_1024:1355-01-01:0 | d: 固有名がラテン文字のまま
+- olay | OLAYLAR_BK_ZINCIR_1024:1085-01-01:0 | b: 固有名がトルコ語表記のまま
+- olay | OLAYLAR_BK_ZINCIR_1024:1085-01-01:0 | d: 固有名がトルコ語表記のまま
+- olay | OLAYLAR_BK_ZINCIR_1024:1192-01-01:0 | b: 固有名がトルコ語表記のまま
+- olay | OLAYLAR_BK_ZINCIR_1024:1192-01-01:0 | d: 固有名がトルコ語表記のまま
+- olay | OLAYLAR_BK_ZINCIR_1024:1042-01-01:0 | d: 書名が未翻訳
+- olay | OLAYLAR_BK_ZINCIR_1024:1183-01-01:0 | b: 人名がラテン文字のまま
+- olay | OLAYLAR_BK_ZINCIR_1024:1183-01-01:0 | d: 固有名がラテン文字のまま
+- olay | OLAYLAR_BK_ZINCIR_1024:1813-01-01:0 | b: 固有名がトルコ語表記のまま
+- olay | OLAYLAR_BK_ZINCIR_1024:1813-01-01:0 | d: 固有名がトルコ語表記のまま
+- olay | OLAYLAR_BK_ZINCIR_1024:1941-04-10:0 | d: 固有名がラテン文字のまま
+- olay | OLAYLAR_BK_ZINCIR_1024:1945-05-06:0 | d: 助詞誤り(「ザグレブの撤退」は意味不明)
+- olay | OLAYLAR_BK_ZINCIR_1024:1346-06-15:0 | b: 人名がラテン文字のまま
+- olay | OLAYLAR_BK_ZINCIR_1024:1346-06-15:0 | d: 人名がラテン文字のまま
+- olay | OLAYLAR_ONCE1281_GERIYE:1147-10-24:0 | b: トルコ語の併記
+- olay | OLAYLAR_ONCE1281_GERIYE:1147-10-24:0 | d: トルコ語表記の地名
+- olay | OLAYLAR_ONCE1281_GERIYE:1229-12-31:0 | b: ラテン文字の併記
+- olay | OLAYLAR_ONCE1281_GERIYE:1238-06-01:0 | d: 地名がラテン文字のまま
+- olay | OLAYLAR_ONCE1281_GERIYE:1238-09-28:0 | d: トルコ語の併記
+- olay | OLAYLAR_KURULUS_GERI_1021:0762-01-01:0 | b: トルコ語の併記
+- olay | OLAYLAR_KURULUS_GERI_1021:0945-12-19:0 | d: 直訳で意味不明
+- olay | OLAYLAR_KURULUS_GERI_1021:0972-10-02:0 | d: トルコ語・内部フィールド名が残っている
+- olay | OLAYLAR_KURULUS_GERI_1021:1085-05-25:0 | d: トルコ語の語・内部用語が残っている
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0634-03-07:0 | d: 人名がラテン文字のまま; 「によって」の重複
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0680-10-10:0 | b: 日付表記が崩れている
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0680-10-10:0 | d: 日付表記が崩れている
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0701-01-01:0 | b: 地名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0701-01-01:0 | d: 地名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0712-06-20:0 | b: karşısında öldü の誤訳; 地名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0712-06-20:0 | d: 地名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0711-07-26:0 | d: 地名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0833-08-09:0 | b: 地名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0833-08-09:0 | d: 地名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0838-01-01:0 | b: トルコ語の併記
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0870-08-29:0 | d: 地名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0896-01-01:0 | b: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0896-01-01:0 | d: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0904-12-13:0 | b: 固有名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0904-12-13:0 | d: 固有名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0905-01-11:0 | b: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0905-01-11:0 | d: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0942-01-01:0 | b: 助詞誤り
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0942-01-01:0 | d: 助詞誤り
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0905-11-02:0 | b: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0905-11-02:0 | d: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0910-01-15:0 | b: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0910-01-15:0 | d: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0929-03-02:0 | b: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0929-03-02:0 | d: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0935-01-01:0 | b: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0935-01-01:0 | d: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0944-08-24:0 | b: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0944-08-24:0 | d: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0944-10-29:0 | b: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0944-10-29:0 | d: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0946-07-04:0 | b: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0946-07-04:0 | d: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0946-08-26:0 | b: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0946-08-26:0 | d: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0950-01-01:0 | b: ラテン文字の語が残っている
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0950-01-01:0 | d: ラテン文字の語が残っている
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0956-04-15:0 | b: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0956-04-15:0 | d: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0958-03-25:0 | b: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0958-03-25:0 | d: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0960-03-03:0 | b: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0960-03-03:0 | d: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0964-01-19:0 | b: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0964-01-19:0 | d: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0966-01-01:0 | b: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0966-01-01:0 | d: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0967-02-08:0 | b: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0967-02-08:0 | d: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0968-01-01:0 | b: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0968-01-01:0 | d: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0969-01-01:0 | b: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0969-01-01:0 | d: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0979-07-29:0 | b: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0979-07-29:0 | d: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1002-01-01:0 | b: 固有名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1002-01-01:0 | d: 固有名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1004-01-01:0 | b: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1004-01-01:0 | d: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1024-03-15:0 | b: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1024-03-15:0 | d: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1029-05-01:0 | b: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1029-05-01:0 | d: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1030-01-01:0 | b: 地名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1030-01-01:0 | d: 地名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1038-01-01:0 | b: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1038-01-01:0 | d: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1042-01-01:0 | b: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1042-01-01:0 | d: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1057-01-01:0 | b: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1057-01-01:0 | d: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1060-01-01:0 | b: 固有名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1060-01-01:0 | d: 固有名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1065-04-20:0 | b: 固有名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1065-04-20:0 | d: 固有名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1070-01-01:0 | b: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1070-01-01:0 | d: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1070-07-31:0 | b: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1070-07-31:0 | d: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1072-01-01:0 | b: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1072-01-01:0 | d: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1073-01-01:0 | b: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1073-01-01:0 | d: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1075-01-01:0 | b: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1075-01-01:0 | d: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1076-08-05:0 | b: 地名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1076-08-05:0 | d: 固有名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1080-06-18:0 | b: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1080-06-18:0 | d: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1080-10-01:0 | b: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1080-10-01:0 | d: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1093-04-02:0 | b: 固有名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1093-04-02:0 | d: 固有名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1099-06-23:0 | b: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1099-06-23:0 | d: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1099-05-16:0 | b: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1099-05-16:0 | d: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1101-01-01:0 | b: 人名の一部がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1101-01-01:0 | d: 人名の一部がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1102-05-22:0 | b: 固有名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1102-05-22:0 | d: 固有名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1105-04-20:0 | b: 地名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1105-04-20:0 | d: 地名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1108-01-01:1 | b: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1108-01-01:1 | d: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1108-08-25:0 | b: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1108-08-25:0 | d: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1113-12-10:0 | b: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1113-12-10:0 | d: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1119-06-28:0 | b: 地名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1119-06-28:0 | d: 地名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1122-09-13:0 | b: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1122-09-13:0 | d: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1132-01-01:0 | d: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1144-07-04:0 | b: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1144-07-04:0 | d: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1146-09-14:0 | b: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1146-09-14:0 | d: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1149-01-01:0 | b: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1149-01-01:0 | d: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1164-01-01:0 | b: ラテン文字の併記
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1164-01-01:0 | d: ラテン文字の併記
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1170-09-06:0 | b: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1170-09-06:0 | d: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1180-06-29:0 | b: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1180-06-29:0 | d: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1181-12-29:0 | b: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1181-12-29:0 | d: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1186-01-01:0 | b: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1186-01-01:0 | d: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1193-08-28:0 | b: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1193-08-28:0 | d: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1198-11-03:0 | b: 地名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1198-11-03:0 | d: 地名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1200-01-01:0 | b: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1200-01-01:0 | d: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1210-07-02:0 | b: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1210-07-02:0 | d: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1211-01-01:0 | b: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1211-01-01:0 | d: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1218-01-01:0 | b: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1218-01-01:0 | d: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1220-03-15:0 | b: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1220-03-15:0 | d: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1223-01-01:0 | b: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1223-01-01:0 | d: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1226-01-01:0 | b: 地名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1226-01-01:0 | d: 地名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1240-05-17:0 | b: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1240-05-17:0 | d: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1241-07-19:0 | b: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1241-07-19:0 | d: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1244-06-16:0 | b: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1244-06-16:0 | d: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1249-04-23:0 | b: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1249-04-23:0 | d: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1249-11-23:0 | b: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1249-11-23:0 | d: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1251-02-03:0 | b: ラテン文字の併記・表記の不統一
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1251-02-03:0 | d: ラテン文字の併記・表記の不統一
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1291-07-01:0 | d: 誤った使役受身
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1378-05-08:0 | b: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1378-05-08:0 | d: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1433-01-01:0 | b: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1433-01-01:0 | d: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:0819-06-28:0 | b: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:0819-06-28:0 | d: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:0923-04-21:0 | b: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:0923-04-21:0 | d: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:0949-01-01:0 | b: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:0949-01-01:0 | d: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:0963-04-01:0 | b: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:0963-04-01:0 | d: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:0998-01-03:0 | b: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:0998-01-03:0 | d: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1000-01-01:0 | b: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1019-01-01:0 | b: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1019-01-01:0 | d: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1032-12-07:0 | d: 固有名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1035-06-29:0 | d: ラテン文字の併記; 「TDV ガズナ朝は」では項目名と分からない
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1041-08-31:0 | b: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1041-08-31:0 | d: 人名がラテン文字のまま; 誰がどの称号かが原文どおりでない
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1044-01-01:0 | b: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1044-01-01:0 | d: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1052-01-01:0 | b: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1052-01-01:0 | d: 人名がラテン文字のまま
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1052-05-03:0 | b: ラテン文字（トルコ語）の人名が残存
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1052-05-03:0 | d: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1054-01-01:0 | d: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1056-03-21:0 | d: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1075-01-01:0 | b: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1075-01-01:0 | d: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1093-01-01:0 | d: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1095-02-26:0 | b: 半角記号・表記（ベルク・ヤルク）の不統一
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1095-02-26:0 | d: ラテン文字の併記と半角記号；人名表記の統一
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1096-10-21:0 | d: 固有名：隠者ピエール（日本語の定訳、見出しと統一）
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1107-01-01:1 | d: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1119-09-10:0 | d: ラテン文字の地名が残存
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1119-11-07:0 | d: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1128-01-01:0 | b: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1128-01-01:0 | d: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1128-01-01:1 | b: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1128-01-01:1 | d: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1131-01-01:0 | d: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1132-05-25:0 | d: ラテン文字の地名が残存
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1137-01-01:0 | d: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1148-01-01:0 | d: ラテン文字の地名が残存
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1157-04-13:0 | b: ラテン文字の固有名が残存
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1157-04-13:0 | d: ラテン文字の固有名が残存
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1177-01-01:0 | d: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1210-06-25:0 | d: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1220-12-01:0 | d: ラテン文字の地名が残存
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1221-03-01:0 | d: ラテン文字の地名が残存
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1230-01-01:0 | b: ラテン文字の地名が残存
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1230-01-01:0 | d: ラテン文字の地名が残存
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1231-01-01:0 | d: ラテン文字の地名が残存
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:0757-05-25:0 | d: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:0922-05-01:0 | b: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:0922-05-01:0 | d: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:0948-07-11:0 | b: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:0948-07-11:0 | d: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:1001-01-01:0 | b: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:1001-01-01:0 | d: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:1058-02-28:0 | d: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:1062-01-15:0 | b: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:1062-01-15:0 | d: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:1087-04-08:0 | b: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:1087-04-08:0 | d: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:1086-10-23:0 | b: 地名誤り：ザッラーカ（al-Zallaqa）
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:1086-10-23:0 | d: 地名誤り：ザッラーカ（al-Zallaqa）
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:1195-07-18:0 | b: Erek（al-Arak）が「イラク」と訳され国名と誤解される
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:1195-07-18:0 | d: Erek（al-Arak）が「イラク」と訳され国名と誤解される
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1052-06-03:0 | d: 同一記録内で人名表記が不統一（見出しはジスルフ2世）
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1199-01-01:0 | d: 同一記録内で地名表記が混在（ハールィチ／ガーリチ）、別地名と誤解される
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1054-11-05:0 | d: 誤訳：月名シャアバーンを人名の一部にしている
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1064-01-01:0 | b: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1064-01-01:0 | d: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1073-01-01:0 | b: ラテン文字の地名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1073-01-01:0 | d: ラテン文字の地名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1085-01-01:0 | b: 不要なラテン文字併記
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1095-01-01:0 | b: ラテン文字の人名・助詞欠落・表記不統一
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1095-01-01:0 | d: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1097-01-01:0 | b: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1097-01-01:0 | d: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1100-07-01:0 | b: ラテン文字の固有名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1100-07-01:0 | d: ラテン文字の固有名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1101-08-01:0 | b: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1101-08-01:0 | d: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1102-01-01:0 | b: ラテン文字の固有名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1102-01-01:0 | d: ラテン文字の固有名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1103-01-01:0 | b: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1103-01-01:0 | d: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1103-08-01:0 | b: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1103-08-01:0 | d: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1104-01-01:0 | b: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1104-01-01:0 | d: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1104-05-07:0 | b: ラテン文字の固有名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1104-05-07:0 | d: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1104-10-01:0 | b: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1104-10-01:0 | d: ラテン文字の固有名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1110-01-01:1 | b: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1110-01-01:1 | d: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1111-09-01:0 | b: ラテン文字の固有名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1111-09-01:0 | d: ラテン文字の固有名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1112-01-01:0 | b: ラテン文字の固有名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1112-01-01:0 | d: ラテン文字の固有名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1119-01-01:0 | b: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1119-01-01:0 | d: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1121-08-12:0 | d: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1122-11-19:0 | b: ラテン文字の固有名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1122-11-19:0 | d: ラテン文字の固有名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1124-01-01:0 | b: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1124-01-01:0 | d: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1129-01-01:0 | d: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1129-01-01:1 | d: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1130-01-01:0 | b: ラテン文字の固有名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1130-01-01:0 | d: ラテン文字の固有名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1131-01-01:0 | b: ラテン文字の固有名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1131-01-01:0 | d: ラテン文字の固有名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1132-01-01:0 | b: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1132-01-01:0 | d: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1134-01-01:0 | b: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1134-01-01:0 | d: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1142-01-01:0 | b: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1142-01-01:0 | d: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1142-01-01:1 | b: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1142-01-01:1 | d: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1142-01-01:2 | b: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1142-01-01:2 | d: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1143-06-17:0 | b: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1143-06-17:0 | d: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1143-12-06:0 | b: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1143-12-06:0 | d: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1144-08-01:0 | b: ラテン文字の固有名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1144-08-01:0 | d: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1153-03-29:0 | b: ラテン文字の固有名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1153-03-29:0 | d: ラテン文字の人名・文の崩れ
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1155-01-01:0 | b: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1155-01-01:0 | d: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1155-03-07:0 | b: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1155-03-07:0 | d: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1161-01-01:0 | b: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1161-01-01:0 | d: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1161-08-01:0 | b: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1161-08-01:0 | d: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1163-01-01:0 | b: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1163-01-01:0 | d: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1163-07-01:0 | b: ラテン文字の地名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1163-07-01:0 | d: ラテン文字の固有名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1164-08-04:0 | b: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1164-08-04:0 | d: ラテン文字の固有名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1165-01-01:0 | b: ラテン文字の地名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1165-01-01:0 | d: ラテン文字の固有名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1168-01-01:0 | b: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1168-01-01:0 | d: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1170-09-14:0 | b: ラテン文字の固有名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1170-09-14:0 | d: ラテン文字の固有名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1172-01-01:0 | b: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1172-01-01:0 | d: ラテン文字の固有名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1175-01-01:0 | b: ラテン文字の地名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1175-01-01:0 | d: ラテン文字の固有名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1175-01-01:1 | d: ラテン文字の固有名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1180-05-28:0 | d: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1184-01-01:0 | d: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1184-04-14:0 | d: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1185-07-10:0 | b: ラテン文字の固有名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1185-07-10:0 | d: ラテン文字の固有名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1190-05-17:0 | d: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1192-08-26:0 | b: ラテン文字の人名・ローマ数字の残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1192-08-26:0 | d: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1193-05-18:0 | b: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1193-05-18:0 | d: ラテン文字の固有名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1196-11-24:0 | b: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1196-11-24:0 | d: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1199-01-06:0 | b: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1199-01-06:0 | d: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1201-06-23:0 | b: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1201-06-23:0 | d: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1202-01-01:0 | b: ラテン文字の固有名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1202-01-01:0 | d: ラテン文字の固有名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1202-06-25:0 | b: ラテン文字の固有名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1202-06-25:0 | d: ラテン文字の固有名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1204-01-01:0 | b: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1204-01-01:0 | d: ラテン大文字の地名ISPARTAが残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1204-08-29:0 | b: ラテン文字の固有名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1204-08-29:0 | d: ラテン文字の固有名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1205-03-01:0 | d: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1211-06-01:0 | d: ラテン文字の固有名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1211-06-15:0 | b: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1211-06-15:0 | d: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1212-01-01:0 | b: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1212-01-01:0 | d: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1220-01-01:0 | b: ラテン文字の固有名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1220-01-01:0 | d: ラテン文字の固有名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1220-01-01:1 | b: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1220-01-01:1 | d: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1225-01-13:0 | b: ラテン文字（小文字keykubadを含む）の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1225-01-13:0 | d: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1228-01-01:0 | b: ラテン文字の固有名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1228-01-01:0 | d: ラテン文字の固有名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1228-01-01:1 | b: ラテン文字の固有名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1228-01-01:1 | d: ラテン文字の固有名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1232-01-01:0 | b: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1232-01-01:0 | d: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1234-01-01:0 | d: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1237-05-31:0 | b: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1237-05-31:0 | d: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1239-01-01:0 | b: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1239-01-01:0 | d: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1242-01-01:0 | b: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1242-01-01:0 | d: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1243-01-01:3 | b: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1243-01-01:3 | d: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1244-01-01:0 | b: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1244-01-01:0 | d: ラテン文字の人名が残存・主語の補足
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1246-01-01:0 | b: ラテン文字の固有名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1246-01-01:0 | d: ラテン文字の固有名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1247-01-01:0 | b: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1247-01-01:0 | d: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1255-01-01:0 | b: ラテン文字の固有名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1255-01-01:0 | d: ラテン文字の固有名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1257-01-01:0 | b: ラテン文字の固有名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1257-01-01:0 | d: ラテン文字の固有名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1257-03-05:0 | b: ラテン文字の固有名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1257-03-05:0 | d: ラテン文字の固有名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1258-01-08:0 | b: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1258-01-08:0 | d: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1259-01-01:0 | b: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1259-01-01:0 | d: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1260-01-01:0 | b: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1260-01-01:0 | d: ラテン文字の固有名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1266-01-01:0 | b: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1266-01-01:0 | d: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1266-01-01:1 | b: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1266-01-01:1 | d: ラテン文字の固有名が残存・受身の誤り
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1266-01-01:2 | b: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1266-01-01:2 | d: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1269-01-01:0 | b: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1269-01-01:0 | d: ラテン文字の人名が残存
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0775-01-01:0 | d: ローマ字の人名が未翻訳
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0831-01-01:0 | b: 不要なローマ字併記
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0960-03-03:0 | b: Fas burada Fez şehri (Sicilmâse ile birlikte), Fas ülkesi değil
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0960-03-03:0 | d: Fas burada Fez şehri (Sicilmâse ile birlikte), Fas ülkesi değil
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1018-12-20:0 | d: ヒジュラ暦の年月日の語順が破格
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1071-01-01:0 | b: 不要なローマ字併記
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1084-05-10:0 | b: トルコ語表記Sebteの残存
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1084-05-10:0 | d: トルコ語表記Sebteの残存
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1086-01-01:0 | b: 不要な英語併記
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1124-06-13:0 | b: トルコ語人名が未翻訳
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1124-06-13:0 | d: トルコ語人名が未翻訳
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1124-12-10:0 | b: トルコ語人名が未翻訳
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1124-12-10:0 | d: トルコ語人名未翻訳、日付の語順破格
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1132-01-01:0 | b: トルコ語人名が未翻訳
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1132-01-01:0 | d: トルコ語人名が未翻訳
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1150-01-01:0 | b: トルコ語人名が未翻訳
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1150-01-01:0 | d: トルコ語人名未翻訳、Yağıbasanの誤表記
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1150-01-01:1 | b: Yağıbasanの誤表記
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1150-01-01:1 | d: トルコ語人名が未翻訳
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1202-06-25:0 | d: トルコ語人名が未翻訳
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1228-06-29:0 | d: ヒジュラ暦の年月日の語順が破格
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1243-04-02:0 | b: 不要なローマ字併記
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1243-04-02:0 | d: ヒジュラ暦の年月日の語順が破格
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1244-04-19:0 | d: ヒジュラ暦の年月日の語順が破格
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1244-10-20:0 | b: ヒジュラ暦の年月日の語順が破格
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1244-10-20:0 | d: ヒジュラ暦の年月日の語順が破格
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1273-07-18:0 | b: トルコ語表記の残存
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1273-07-18:0 | d: トルコ語表記の残存
+- olay | OLAYLAR_KUNFUZE_1016:1814-03-01:0 | d: トルコ語人名が未翻訳
+- olay | OLAYLAR_KUNFUZE_1016:1814-05-01:0 | b: トルコ語人名が未翻訳
+- olay | OLAYLAR_KUNFUZE_1016:1814-05-01:0 | d: トルコ語人名が未翻訳
+- olay | OLAYLAR_KUNFUZE_1016:1815-03-01:0 | d: トルコ語人名が未翻訳
+- olay | OLAYLAR_KUNFUZE_1016:1871-03-01:0 | b: トルコ語人名が未翻訳
+- olay | OLAYLAR_2S1019:1216-01-22:0 | d: トルコ語人名が未翻訳
+- olay | OLAYLAR_2S1019:1328-11-05:0 | d: トルコ語人名が未翻訳
+- olay | OLAYLAR_2S1019:1392-10-26:0 | b: トルコ語表記が未翻訳
+- olay | OLAYLAR_2S1019:1392-10-26:0 | d: トルコ語人名が未翻訳
+- olay | OLAYLAR_2S1019:1417-02-18:0 | b: トルコ語人名が未翻訳
+- olay | OLAYLAR_2S1019:1417-02-18:0 | d: トルコ語人名が未翻訳
+- olay | OLAYLAR_2S1019:1686-09-30:0 | b: 誤った音写とローマ字併記
+- olay | OLAYLAR_2S1019:1686-09-30:0 | d: 誤った音写とローマ字併記
+- olay | OLAYLAR_2S1019:1687-09-06:0 | b: 1687年のハルシャーニ戦を「モハーチ」とだけ書くと1526年の戦いと混同
+- olay | OLAYLAR_2S1019:1687-09-06:0 | d: 1526年の戦いとの混同回避、トルコ語人名が未翻訳
+- olay | OLAYLAR_2S1019:1687-09-26:0 | d: 1526年の戦いとの混同回避
+- olay | OLAYLAR_2S1019:1903-03-15:0 | d: トルコ語人名が未翻訳
+- olay | OLAYLAR_2S1019:1439-08-27:0 | d: 「兄貴分」は俗語的で不適切
+- olay | OLAYLAR_2S1019:1458-08-06:0 | d: 「兄貴分」は俗語的で不適切
+- olay | OLAYLAR_2S1019:1459-06-20:0 | d: 「兄貴分」は俗語的で不適切、文も破格
+- olay | OLAYLAR_2S1114D5:1923-07-24:0 | d: トルコ語地名が未翻訳
+- olay | OLAYLAR_MOGOLISTAN1115:1691-05-29:0 | d: トルコ語人名が未翻訳
+- olay | OLAYLAR_MOGOLISTAN1115:1688-01-01:0 | d: トルコ語表記の称号が未翻訳
+- olay | OLAYLAR_CINHINDI1115B:1404-01-01:0 | d: ビルマ人名が未翻訳
+- olay | OLAYLAR_CINHINDI1115B:1594-07-01:0 | d: anmak burada 'bahsetmek'; 「記念」は誤り
+- olay | OLAYLAR_CINHINDI1115B:1707-01-01:0 | d: 人名未翻訳、'bildirdi' の主語取り違え
+- olay | OLAYLAR_CINHINDI1115B:1713-01-01:0 | b: 人名が未翻訳
+- olay | OLAYLAR_CINHINDI1115B:1713-01-01:0 | d: 人名が未翻訳
+- olay | OLAYLAR_MOGOLISTAN1115B:1691-05-30:0 | d: 称号が未翻訳
+- olay | OLAYLAR_ORTAASYA1115B:1918-07-14:0 | d: 地名の誤り:Kızıl Arvat はクラスノヴォツクではない
+- olay | OLAYLAR_ORTAASYA1115B:1919-07-15:0 | d: 地名の誤り:Kızıl Arvat
+- olay | OLAYLAR_LAB19_2S_P2:1200-05-13:0 | d: トルコ語表記の併記が残存
+- olay | OLAYLAR_LAB19_2S_P2:1324-06-19:0 | d: ティマールはオスマン制度の用語で誤り(封土)
+- olay | OLAYLAR_LAB19_2S_P2:1355-12-20:0 | d: トルコ語表記の併記が残存
+- olay | OLAYLAR_LAB19_2S_P4:1736-09-13:0 | d: トルコ語表記の併記が残存
+- olay | OLAYLAR_LAB19_2S_P4:1795-01-01:0 | d: トルコ語表記の併記が残存
+- olay | OLAYLAR_LAB19_2S_P4:1833-07-28:0 | b: トルコ語表記の併記が残存
+- olay | OLAYLAR_LAB19_2S_P4:1833-07-28:0 | d: トルコ語表記の併記が残存
+- olay | OLAYLAR_LAB19_2S_P6:1037-01-01:0 | b: Fas burada Fez şehri; Fas ülkesi değil
+- olay | OLAYLAR_LAB19_2S_P6:1037-01-01:0 | d: Fas burada Fez şehri; Fas ülkesi değil
+- olay | OLAYLAR_DIN_MUHAMMED_MEKKE_1119:0620-04-19:0 | d: アラビア語の語をトルコ語読みで音写
+- olay | OLAYLAR_DIN_ISA_1120:0030-04-07:0 | d: ローマ字翻字ʿĪsāが日本語本文に残存
+- olay | OLAYLAR_KI117:1686-10-01:0 | d: 地名の誤り:Harşanはハルシャーニ(1526年のモハーチと混同)
+- olay | OLAYLAR_KI117:1690-08-29:0 | d: mutasarrıfは行政官で「知行者」は誤訳
+- olay | OLAYLAR_AVMAC_A_1029:1180-01-01:0 | d: künyeは国家の項目データで「紋章」は誤訳
+- olay | OLAYLAR_AVMAC_C_1029:1918-11-13:0 | d: künyeは国家の項目データで「紋章」は誤訳
+- olay | OLAYLAR_AVMAC_C_1029:1918-11-16:0 | d: künyeは国家の項目データで「紋章」は誤訳
+- olay | OLAYLAR_AVMAC_C_1029:1919-03-21:0 | d: künyeは国家の項目データで「紋章」は誤訳
+- olay | OLAYLAR_AVMAC_C_1029:1945-07-09:0 | d: künyeは国家の項目で「紋章」は誤訳
+- olay | OLAYLAR_AVMAC_C_1029:1949-08-20:0 | d: künyeは国家の項目で「紋章」は誤訳
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1284-01-01:0 | d: künyeは国家の項目で「紋章」は誤訳
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1481-12-11:3 | d: 「兄貴分」は俗語的で不適切
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1420-05-21:0 | b: 地名が未翻訳
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1420-05-21:0 | d: 地名が未翻訳
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1420-05-21:1 | b: 地名が未翻訳
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1420-05-21:1 | d: 地名が未翻訳
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1435-09-21:0 | b: 地名が未翻訳
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1435-09-21:1 | b: 地名が未翻訳
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1659-11-07:0 | b: 地名が未翻訳
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1659-11-07:1 | b: 地名が未翻訳
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1795-07-22:0 | b: 地名が未翻訳
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1795-07-22:0 | d: 地名が未翻訳
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1143-01-01:0 | d: künyeは国家の項目で「紀要」は誤訳
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1128-01-01:2 | b: 「兄貴分」は俗語的で不適切
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1128-01-01:3 | d: 「兄貴分」は俗語的で不適切
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1128-01-01:4 | d: 「兄貴分」は俗語的で不適切
+- olay | OLAYLAR_OK104:1284-01-01:0 | b: トルコ語表記の残存
+- olay | OLAYLAR_OK104:1284-01-01:0 | d: トルコ語表記の残存
+- olay | OLAYLAR_OK104:1344-01-01:0 | b: トルコ語表記の残存
+- olay | OLAYLAR_OK104:1344-01-01:0 | d: トルコ語項目名の残存(Arnavutluk=アルバニア)
+- olay | OLAYLAR_OK104:1443-01-01:0 | b: トルコ語表記の残存
+- olay | OLAYLAR_OK104:1443-01-01:0 | d: トルコ語表記の残存
+- olay | OLAYLAR_P0036:1566-09-01:0 | b: トルコ語表記の併記が残存
+- olay | OLAYLAR_P0036:1566-09-01:0 | d: トルコ語表記の併記が残存
+- olay | OLAYLAR_P0057B:1520-01-01:0 | d: 書名が未翻訳(トルコ語表記)
+- olay | OLAYLAR_P0063:1737-10-16:0 | d: 年月の語順が破格
+- olay | OLAYLAR_P0063:1738-08-17:0 | d: 地名の誤り:Hisarcık=グロツカ
+- olay | OLAYLAR_P0063:1737-07-25:0 | d: 人名の誤音写(Douglas)
+- olay | OLAYLAR_P0917KOSU13:1723-11-10:0 | b: 地名の誤り(Senendec=サナンダジュ)
+- olay | OLAYLAR_P0917KOSU13:1723-11-10:0 | d: 地名の誤り(Senendec=サナンダジュ)
+- olay | OLAYLAR_P0917KOSU13:1735-10-03:0 | d: ローマ字の残存
+- olay | OLAYLAR_P0917KOSU13:1387-01-01:0 | d: 不自然で意味の通りにくい訳
+- olay | OLAYLAR_P0917KOSU13:1770-09-01:0 | d: gedik=城壁の突破口; 固有名詞ではない
+- olay | OLAYLAR_P0917KOSU13:1788-09-01:0 | d: 意味の誤り(和平の成立まで)
+- olay | OLAYLAR_P0917DUNYA:1916-07-16:0 | d: 日本語の文法の乱れ
+- olay | OLAYLAR_P0068B:1789-09-22:0 | d: トルコ語の項目名(ローマ字小文字)が残存
+- olay | OLAYLAR_P0068B:1790-06-08:0 | b: 「下り」は不自然な日本語
+- olay | OLAYLAR_P0068B:1791-08-11:0 | b: トルコ語表記の併記が残存
+- olay | OLAYLAR_DUNYA_BOLGE_1109:1519-06-28:0 | d: 主語の欠落で意味が取れない
+- olay | OLAYLAR_DUNYA_BOLGE_1109:1552-10-02:0 | b: Türk burada Türkî (テュルク系) anlamında
+- olay | OLAYLAR_DUNYA_BOLGE_1109:1552-10-02:0 | d: Türk burada Türkî (テュルク系) anlamında
+- olay | OLAYLAR_DUNYA_BOLGE_1109:1815-09-26:0 | b: 目的語のない破格の文
+- olay | OLAYLAR_GEZGINLER:0629-01-01:0 | d: ローマ字地名の残存
+- olay | OLAYLAR_GEZGINLER:0990-01-01:0 | d: 地名の大半がローマ字のまま未翻訳
+- olay | OLAYLAR_GEZGINLER:1499-03-20:0 | b: 不自然な受け身表現
+- olay | OLAYLAR_GEZGINLER:1519-08-16:0 | d: 地名がローマ字のまま未翻訳
+- olay | OLAYLAR_GEZGINLER:1519-08-16:1 | d: 地名がローマ字のまま未翻訳
+- olay | OLAYLAR_GEZGINLER:1524-10-01:0 | d: 地名がローマ字のまま未翻訳
+- olay | OLAYLAR_GEZGINLER:1532-09-24:0 | d: 地名がローマ字のまま未翻訳
+- olay | OLAYLAR_GEZGINLER:1533-01-05:0 | d: 地名がローマ字のまま未翻訳
+- olay | OLAYLAR_GEZGINLER:1557-07-12:0 | d: 地名がローマ字のまま未翻訳
+- olay | OLAYLAR_GEZGINLER:1558-04-23:0 | d: 地名がローマ字のまま未翻訳
+- olay | OLAYLAR_GEZGINLER:1564-11-21:0 | d: 地名がローマ字のまま未翻訳
+- olay | OLAYLAR_GEZGINLER:1571-05-01:0 | d: 地名がローマ字のまま未翻訳
+- olay | OLAYLAR_EK14:1357-06-01:0 | d: düzyazıda Latin harfli kişi adı
+- olay | OLAYLAR_EK14:1281-01-01:0 | b: Latin harfli kişi adı
+- olay | OLAYLAR_EK14:1281-01-01:0 | d: Latin harfli ad ve Türkçe sözcük kalıntısı
+- olay | OLAYLAR_EK14:1362-06-01:0 | d: Latin harfli kişi adları
+- olay | OLAYLAR_EK14:1451-06-01:0 | d: yanlış anlam (düzenli kurallar ≠ 定期的) ve bozuk anlatım
+- olay | OLAYLAR_EK14:1425-01-01:0 | b: Latin harfli kişi adı
+- olay | OLAYLAR_EK14:1425-01-01:0 | d: Latin harfli kişi adı
+- olay | OLAYLAR_EK14:1515-01-01:0 | b: Latin harfli kurum adı
+- olay | OLAYLAR_EK14:1515-01-01:0 | d: Latin harfli adlar ve Türkçe sözcük kalıntısı
+- olay | OLAYLAR_EK14:1794-06-01:0 | d: Latin harfli terim
+- olay | OLAYLAR_EK14:1640-06-01:0 | b: Latin harfli terim
+- olay | OLAYLAR_EK14:1640-06-01:0 | d: Latin harfli terim
+- olay | OLAYLAR_EK14:1775-06-01:0 | b: Latin harfli terim
+- olay | OLAYLAR_EK14:1775-06-01:0 | d: Latin harfli terim
+- olay | OLAYLAR_EK14:1863-06-01:0 | b: Latin harfli kurum adı
+- olay | OLAYLAR_EK14:1863-06-01:0 | d: Latin harfli kurum adı
+- olay | OLAYLAR_EK14:1833-06-01:0 | b: Latin harfli kurum adı
+- olay | OLAYLAR_EK14:1833-06-01:0 | d: Latin harfli adlar ve Türkçe kalıntı
+- olay | OLAYLAR_EK14:1554-06-01:0 | d: Latin harfli kişi adları
+- olay | OLAYLAR_EK14:1830-12-01:0 | b: yanlış anlam: düzenli ≠ periyodik
+- olay | OLAYLAR_EK14:1830-12-01:0 | d: yanlış anlam: düzenli ≠ periyodik
+- olay | OLAYLAR_EK14:1555-06-01:0 | b: Latin harfli ad ve terim
+- olay | OLAYLAR_EK14:1555-06-01:0 | d: Latin harfli ad ve terim
+- olay | OLAYLAR_EK14:1727-06-01:0 | b: Latin harfli terim
+- olay | OLAYLAR_EK14:1727-06-01:0 | d: Latin harfli terim
+- olay | OLAYLAR_EK14:1864-03-30:0 | b: başlık tamamen çevrilmemiş
+- olay | OLAYLAR_EK14:1864-03-30:0 | d: Latin harfli kurum adı
+- olay | OLAYLAR_EK14:1873-06-28:0 | d: Latin harfli kurum adı
+- olay | OLAYLAR_EK14:1896-02-02:0 | d: Latin harfli kişi adı; bozuk anlatım
+- olay | OLAYLAR_EK14:1572-01-22:0 | b: Latin harfli kişi ve eser adı
+- olay | OLAYLAR_EK14:1572-01-22:0 | d: Latin harfli kişi ve eser adı
+- olay | OLAYLAR_EK15:1695-01-01:0 | b: Latin harfli kişi adı
+- olay | OLAYLAR_EK15:1695-01-01:0 | d: Latin harfli adlar
+- olay | OLAYLAR_EK16:1308-01-01:0 | d: Latin harfli kişi adı
+- olay | OLAYLAR_EK16:1309-01-01:0 | d: Latin harfli kişi adı
+- olay | OLAYLAR_EK16:1422-01-01:0 | d: Latin harfli kişi adları
+- olay | OLAYLAR_EK16:1814-01-14:0 | d: 'kişisel birlik' Japoncada 同君連合; 人的連合 yanlış terim
+- olay | OLAYLAR_EK16:1516-01-23:0 | d: 'kişisel birlik' Japoncada 同君連合; 人的連合 yanlış terim
+- olay | OLAYLAR_EK16:1452-10-23:0 | b: yanlış yer adı: Gaskonya ≠ ギュイエンヌ
+- olay | OLAYLAR_EK16:1452-10-23:0 | d: yanlış yer adı: Gaskonya ≠ ギュイエンヌ
+- olay | OLAYLAR_EK17:1644-01-01:0 | d: Latin harfli kişi adı
+- olay | OLAYLAR_EK17:1647-01-01:0 | b: Latin harfli kişi adı
+- olay | OLAYLAR_EK17:1647-01-01:0 | d: Latin harfli kişi adı
+- olay | OLAYLAR_EK17:1648-05-01:0 | b: Latin harfli kişi adı
+- olay | OLAYLAR_EK17:1648-05-01:0 | d: Latin harfli kişi adları
+- olay | OLAYLAR_EK17:1638-12-24:0 | b: Latin harfli kişi adı; lakap ad parçası
+- olay | OLAYLAR_EK17:1638-12-24:0 | d: Latin harfli kişi adları
+- olay | OLAYLAR_EK17:1687-08-01:0 | d: yanlış anlam (mührü kaçırmak ≠ 印を逃れる) ve Latin harfli ad
+- olay | OLAYLAR_EK17:1711-07-21:0 | b: Latin harfli kişi adı
+- olay | OLAYLAR_EK17:1711-07-21:0 | d: Latin harfli kişi adı
+- olay | OLAYLAR_EK17:1725-01-01:0 | d: Latin harfli adlar; bozuk anlatım
+- olay | OLAYLAR_EK17:1730-11-25:0 | d: Latin harfli kişi adları
+- olay | OLAYLAR_EK17:1731-01-01:0 | b: Latin harfli kişi adı
+- olay | OLAYLAR_EK17:1731-01-01:0 | d: Latin harfli kişi adları
+- olay | OLAYLAR_EK17:1789-04-07:0 | d: URL kısaltması (slug) kullanıcıya görünüyor
+- olay | OLAYLAR_EK17:1552-01-01:0 | d: Latin harfli kişi adları
+- olay | OLAYLAR_EK17:1557-01-01:0 | d: Latin harfli kişi adı
+- olay | OLAYLAR_EK17:1369-01-01:0 | b: Latin harfli yer adları
+- olay | OLAYLAR_EK17:1369-01-01:0 | d: Latin harfli yer adları
+- olay | OLAYLAR_EK17:1534-06-01:0 | b: Latin harfli yer adları
+- olay | OLAYLAR_EK17:1534-06-01:0 | d: yanlış anlam (Irakeyn Seferi 'sırasında') ve Latin harfli yer adları
+- olay | OLAYLAR_EK17:1686-08-30:0 | d: Latin harfli kişi adı
+- olay | OLAYLAR_EK17:1738-08-01:1 | b: Latin harfli yer adları
+- olay | OLAYLAR_EK17:1738-08-01:1 | d: Latin harfli yer adları; '地図は日付で動く' bozuk anlatım
+- olay | OLAYLAR_EK17:1538-10-01:0 | b: Latin harfli kişi adı
+- olay | OLAYLAR_EK17:1538-10-01:0 | d: Latin harfli adlar
+- olay | OLAYLAR_EK18:1455-06-20:0 | d: Latin harfli ad
+- olay | OLAYLAR_EK20:1326-10-09:0 | d: Latin harfli kişi adları
+- olay | OLAYLAR_EK20:1344-10-28:0 | d: Latin harfli kişi adı
+- olay | OLAYLAR_EK20:1366-01-01:0 | b: Latin harfli kişi adı
+- olay | OLAYLAR_EK20:1366-01-01:0 | d: Latin harfli kişi adı
+- olay | OLAYLAR_EK20:1467-01-01:0 | d: Latin harfli yer adları
+- olay | OLAYLAR_EK20:1490-01-01:0 | d: Latin harfli adlar ve 'atlas' sözcüğü
+- olay | OLAYLAR_EK20:1315-04-28:0 | d: Latin harfli kişi adı
+- olay | OLAYLAR_EK20:1530-03-24:0 | d: yanlış anlam: yurtsuz ≠ 無国籍
+- olay | OLAYLAR_EK20:1870-09-20:0 | d: Latin harfli 'atlas'
+- olay | OLAYLAR_EK20:1807-07-09:0 | d: Latin harfli 'atlas'
+- olay | OLAYLAR_EK21:1537-01-01:0 | d: Latin harfli adlar; Irakeyn 'sırasında' anlamı
+- olay | OLAYLAR_SENKRON_0930:1399-09-01:0 | b: Latin harfli yer adları
+- olay | OLAYLAR_SENKRON_0930:1399-09-01:0 | d: Latin harfli yer adları
+- olay | OLAYLAR_SENKRON_0930:1401-01-01:0 | b: Latin harfli yer adı
+- olay | OLAYLAR_SENKRON_0930:1401-01-01:0 | d: Latin harfli yer adı; bozuk anlatım
+- olay | OLAYLAR_SENKRON_0930:1400-08-01:0 | b: Latin harfli yer adı
+- olay | OLAYLAR_SENKRON_0930:1400-08-01:0 | d: Latin harfli yer adları
+- olay | OLAYLAR_SENKRON_0930:1414-01-01:0 | b: yanlış anlam (iki şehir de Dulkadırlılardan alınıyor); Latin harfli adlar
+- olay | OLAYLAR_SENKRON_0930:1414-01-01:0 | d: Latin harfli yer adları
+- olay | OLAYLAR_SENKRON_0930:1418-01-01:0 | b: Latin harfli adlar
+- olay | OLAYLAR_SENKRON_0930:1418-01-01:0 | d: Latin harfli adlar
+- olay | OLAYLAR_SENKRON_0930:1436-01-01:0 | b: Latin harfli yer adları
+- olay | OLAYLAR_SENKRON_0930:1436-01-01:0 | d: Latin harfli adlar
+- olay | OLAYLAR_SENKRON_0930:1467-01-01:0 | b: Latin harfli adlar
+- olay | OLAYLAR_SENKRON_0930:1467-01-01:0 | d: Latin harfli adlar
+- olay | OLAYLAR_SENKRON_0930:1471-01-01:0 | b: Latin harfli adlar
+- olay | OLAYLAR_SENKRON_0930:1471-01-01:0 | d: Latin harfli adlar ve URL kısaltması
+- olay | OLAYLAR_SENKRON_0930:1551-07-26:0 | d: yanlış yer: Szászsebes (Sebeș) Segesvár değil
+- olay | OLAYLAR_SENKRON_0930:1556-03-12:0 | d: Latin harfli yer adları
+- olay | KRONOLOJI_COK_ARABISTAN2:1659-01-01:0 | b: Japonca dilbilgisi: に侵攻
+- olay | OLAYLAR_2S_0918:1569-07-01:0 | d: Latin harfli yer adları
+- olay | OLAYLAR_2S_0918:1881-03-26:0 | d: Latin harfli yer adları; Kalas = Galați
+- olay | OLAYLAR_2S_0918:1901-09-02:0 | d: Latin harfli adlar
+- olay | OLAYLAR_2S_0918:1881-01-24:0 | d: Latin harfli yer adı
+- olay | OLAYLAR_2S_0918:1889-01-01:0 | d: Türkçe ekli yer adı kalıntısı
+- olay | OLAYLAR_2S_0918:1776-02-14:0 | d: bozuk ifade (別個の体)
+- olay | OLAYLAR_ORTADOGU_0919:1816-01-01:0 | d: Latin harfli kişi adları
+- olay | OLAYLAR_ORTADOGU_0919:1819-08-13:0 | d: Latin harfli kişi adı
+- olay | OLAYLAR_2S_0919:1351-01-01:0 | b: Latin harfli kişi adı
+- olay | OLAYLAR_2S_0919:1351-01-01:0 | d: Latin harfli kişi adları
+- olay | OLAYLAR_2S_0919:1368-01-01:0 | b: Latin harfli hanedan adı
+- olay | OLAYLAR_2S_0919:1368-01-01:0 | d: Latin harfli hanedan adı
+- olay | OLAYLAR_2S_0919:1379-01-01:0 | b: Latin harfli kişi adı
+- olay | OLAYLAR_2S_0919:1379-01-01:0 | d: Latin harfli kişi adları
+- olay | OLAYLAR_2S_0919:1384-01-01:0 | b: Latin harfli kişi adı
+- olay | OLAYLAR_2S_0919:1384-01-01:0 | d: Latin harfli kişi adı
+- olay | OLAYLAR_2S_0919:1410-01-01:0 | d: Latin harfli kişi adları
+- olay | OLAYLAR_2S_0919:1522-01-01:0 | d: Latin harfli kişi adı
+- arayuz | # Temmuz # (ÇELİŞKİ-#: TDV «Timişvar» # Şaban # = # Temmuz #'de garnizonun teslim olduğunu yazar; TDV «Kara Ahmed Paşa» #/# Temmuz der; Losonczy'nin kaleden çıkışı # Temmuz (olaylar_ek# Macar kaynağı) — iki gün de TDV içinde geçer, bağımsız ikinci akademik kaynak okunmadı, gün korundu) | m: yıl yanlış yerde
+- arayuz | # Temmuz # (ÇELİŞKİ-#: TDV «Timişvar» # Şaban # = # Temmuz #'de garnizonun teslim olduğunu yazar; TDV «Kara Ahmed Paşa» #/# Temmuz der; Losonczy'nin kaleden çıkışı # Temmuz (olaylar_ek# Macar kaynağı) — iki gün de TDV içinde geçer, bağımsız ikinci akademik kaynak okunmadı, gün korundu) | m: duzeltme_002'deki sürümün yerine geçer: 9'dan çok sayı olduğundan indeksli ve düz '#' karıştırılamaz, hepsi sıralı
+- olay | OLAYLAR_ARKEOLOJI_D2_AFRIKA_AMERIKA:-0999-01-01:0 | b: ラテン文字のままの地名
+- olay | OLAYLAR_GEZGINLER:1579-06-17:0 | d: 日本語の助詞の誤り
+- olay | OLAYLAR_GEZGINLER:1580-08-01:0 | d: 地名がローマ字のまま未翻訳
+- olay | OLAYLAR_GEZGINLER:1645-01-01:0 | d: トルコ語人名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1648-01-01:0 | b: 地名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1648-01-01:0 | d: 地名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1663-01-01:0 | b: トルコ語人名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1663-01-01:0 | d: トルコ語人名・地名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1664-01-01:0 | d: トルコ語人名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1671-01-01:0 | b: トルコ語人名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1671-01-01:0 | d: トルコ語人名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1720-10-07:0 | b: トルコ語人名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1720-10-07:0 | d: トルコ語人名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1721-03-21:0 | d: 地名がローマ字のまま
+- olay | OLAYLAR_GEZGINLER:1721-10-08:0 | d: 書名がトルコ語のまま
+- olay | OLAYLAR_GEZGINLER:1769-09-19:0 | b: トルコ語表記の地名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1769-09-19:0 | d: トルコ語表記の地名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1770-01-10:0 | b: 地名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1770-01-10:0 | d: 地名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1772-02-01:0 | b: 人名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1774-10-28:0 | b: 人名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1776-07-11:0 | d: 人名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1777-11-02:0 | d: 人名・地名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1779-04-28:0 | d: 人名・地名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1780-10-04:0 | d: 人名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1783-01-01:0 | b: 人名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1803-12-07:0 | b: 人名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1811-11-05:0 | b: 人名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1813-05-11:0 | b: 人名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1814-03-02:0 | b: トルコ語表記の地名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1814-03-02:0 | d: トルコ語表記の地名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1818-05-28:0 | b: 人名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1820-01-01:1 | b: トルコ語表記・未翻訳の地名
+- olay | OLAYLAR_GEZGINLER:1820-01-01:1 | d: トルコ語表記・未翻訳の地名
+- olay | OLAYLAR_GEZGINLER:1820-01-01:2 | b: トルコ語表記・未翻訳の地名
+- olay | OLAYLAR_GEZGINLER:1820-01-01:2 | d: トルコ語表記・未翻訳の地名
+- olay | OLAYLAR_GEZGINLER:1820-01-01:3 | b: 地名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1820-01-01:3 | d: 地名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1820-10-31:0 | b: 地名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1820-10-31:0 | d: 地名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1821-01-01:0 | b: 地名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1821-01-01:0 | d: 地名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1824-10-02:0 | b: 人名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1828-03-23:0 | b: 地名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1828-03-23:0 | d: トルコ語表記の地名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1828-05-04:0 | b: トルコ語表記の地名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1828-05-04:0 | d: トルコ語表記の地名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1828-07-23:0 | b: トルコ語表記の地名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1828-07-23:0 | d: トルコ語表記の地名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1846-01-01:1 | b: 人名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1855-08-11:0 | b: 人名Phayreの音写誤り
+- olay | OLAYLAR_GEZGINLER:1866-06-05:0 | b: 人名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1871-03-09:0 | b: ön gezi=予備旅行
+- olay | OLAYLAR_GEZGINLER:1885-06-30:0 | b: トルコ語表記の地名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1885-06-30:0 | d: トルコ語表記の地名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1885-08-28:0 | b: トルコ語表記の地名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1885-08-28:0 | d: トルコ語表記の地名が未翻訳
+- olay | OLAYLAR_GEZGINLER:1887-05-01:0 | d: istasyon burada駐在所; 鉄道駅ではない
+- olay | OLAYLAR_GEZGINLER:1887-06-28:0 | d: istasyon burada駐在所; 鉄道駅ではない
+- arayuz | # Temmuz # (ÇELİŞKİ-#: TDV «Timişvar» # Şaban # = # Temmuz #'de garnizonun teslim olduğunu yazar; TDV «Kara Ahmed Paşa» #/# Temmuz der; Losonczy'nin kaleden çıkışı # Temmuz (olaylar_ek# Macar kaynağı) — iki gün de TDV içinde geçer, bağımsız ikinci akademik kaynak okunmadı, gün korundu) | m: yıl yanlış yerde
+- arayuz | # Temmuz # (ÇELİŞKİ-#: TDV «Timişvar» # Şaban # = # Temmuz #'de garnizonun teslim olduğunu yazar; TDV «Kara Ahmed Paşa» #/# Temmuz der; Losonczy'nin kaleden çıkışı # Temmuz (olaylar_ek# Macar kaynağı) — iki gün de TDV içinde geçer, bağımsız ikinci akademik kaynak okunmadı, gün korundu) | m: duzeltme_002'deki sürümün yerine geçer: 9'dan çok sayı olduğundan indeksli ve düz '#' karıştırılamaz, hepsi sıralı
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1001-01-01:0 | b: 'Sicilmâse dışındaki Fas' ülke (Fas/Mağrib) demek; Fez şehri değil
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1001-01-01:0 | d: Fas = ülke; Fez şehri değil
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1050-01-01:0 | b: 'yeniden yerleştirdi' yeniden hâkim kıldı; 再入植 (yeniden sömürge/iskân) yanlış
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1050-01-01:0 | d: 'yeniden yerleştirdi' 再入植 yanlış
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1113-06-18:0 | d: Reîsülahdâs şehir milis reisidir, belediye başkanı değil
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1215-01-01:0 | d: 'el değiştirmeyi izledi' bire bir kalk çevirisi, anlamsız
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1253-05-01:0 | d: 'itaat altına alınması' (boyun eğdirme) '服従' ile bozuk anlatım
+- olay | OLAYLAR_ORTACAG_BOZKIR:1252-08-24:0 | d: 'itaat altına alınması' bozuk anlatım
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1275-01-01:0 | d: 'seferber oldular' edilgen '動員された' ile yanlış
+- olay | OLAYLAR_ORTACAG_BOZKIR:1209-01-01:0 | b: Türkçe yazım 'Koço' kalıntısı; yerleşik biçim 高昌
+- olay | OLAYLAR_ORTACAG_CIN:0577-01-17:0 | d: 高延宗 hükümdar 高緯'den yaşça büyük kuzen (従兄)
+- olay | OLAYLAR_ORTACAG_CIN:0605-04-10:0 | d: 'nehirler üzerinde' kıyısında demek; '上に' yanlış
+- olay | OLAYLAR_ORTACAG_CIN:0617-06-23:0 | d: Latin harfli Çince adlar çevrilmemiş (王威, 高君雅)
+- olay | OLAYLAR_ORTACAG_CIN:0617-12-12:0 | d: '都市に抵抗する' şehre karşı direnen anlamı verir, yanlış
+- olay | OLAYLAR_ORTACAG_CIN:0739-01-01:0 | d: Latin harfli 'Dahe' çevrilmemiş (大和)
+- olay | OLAYLAR_ORTACAG_CIN:0842-01-01:0 | d: Unvan iki kez yazılmış (aynı kelimenin gereksiz parantez tekrarı)
+- olay | OLAYLAR_ORTACAG_CIN:0879-01-01:0 | d: '求めた要求' bozuk anlatım
+- olay | OLAYLAR_ORTACAG_CIN:0907-06-01:0 | d: Metin noktalı virgülle yarım bitiyor
+- olay | OLAYLAR_ORTACAG_CIN:0947-02-24:0 | d: Bozuk tarih ifadesi
+- olay | OLAYLAR_ORTACAG_CIN:1038-01-01:0 | d: Geleneksel Çince karakterler karışmış; Japonca yeni biçim
+- olay | OLAYLAR_ORTACAG_CIN:1127-05-13:0 | d: '空にされた' nesneler için anlamsız; tarih ifadesi bozuk
+- olay | OLAYLAR_ORTACAG_CIN:1129-02-23:0 | d: Yangzi Köprüsü Yangzhou yakınındaki yer adı (揚子橋), Yangtze üzerinde köprü değil
+- olay | OLAYLAR_ORTACAG_CIN:1142-01-27:0 | b: Bozuk anlatım
+- olay | OLAYLAR_ORTACAG_CIN:1259-09-27:0 | d: Çift 'を' ile dilbilgisi hatası
+- olay | OLAYLAR_ORTACAG_CIN:1272-03-04:0 | d: Wang Shu, Qi'an Markisi = 斉安侯王淑; 淳安侯/王綧 yanlış
+- olay | OLAYLAR_ORTACAG_DOGU_GUNEYDOGU_ASYA:0825-01-01:0 | b: Fazla boşluk
+- olay | OLAYLAR_ORTACAG_DOGU_GUNEYDOGU_ASYA:0918-07-25:0 | d: Yanlış fiil: yıl adı 'verildi' → belirlendi
+- olay | OLAYLAR_ORTACAG_DOGU_GUNEYDOGU_ASYA:1087-01-01:0 | d: 'merkez yaptı' 本拠とした; '中心とした' anlam bozuk
+- olay | OLAYLAR_ORTACAG_DOGU_GUNEYDOGU_ASYA:1269-10-29:0 | d: Kore eyalet adları Latin harfle kalmış
+- olay | OLAYLAR_ORTACAG_YER_SONRASI:1135-01-01:0 | d: 'Napoli'deki' = Napoli'de bulunan; mevcut ifade yanlış/bozuk
+- olay | OLAYLAR_ANTIK_MISIR_NUBYA:-0199-01-01:0 | d: Bozuk noktalama
+- olay | OLAYLAR_ANTIK_MISIR_NUBYA:-0216-01-01:0 | d: MÖ yılı 紀元前 olmadan MS gibi okunuyor
+- olay | OLAYLAR_ANTIK_MISIR_NUBYA:-0485-01-01:0 | b: '重く統治' Japoncada anlamsız
+- olay | OLAYLAR_ANTIK_MISIR_NUBYA:-0485-01-01:0 | d: '重く統治' anlamsız
+- olay | OLAYLAR_ANTIK_MISIR_NUBYA:-0600-01-01:0 | d: Bozuk cümle
+- olay | OLAYLAR_ANTIK_MISIR_NUBYA:-0604-01-01:0 | d: Cümlede nesne eksik, bozuk yapı
+- olay | OLAYLAR_ANTIK_MISIR_NUBYA:-0700-01-01:0 | b: Özne yok, cümle bozuk
+- olay | OLAYLAR_ANTIK_MISIR_NUBYA:-0749-01-01:0 | d: 'aracı' (araç) '仲介' (arabuluculuk) diye yanlış çevrilmiş
+- olay | OLAYLAR_ANTIK_MISIR_NUBYA:-0924-01-01:0 | d: 列王記 Tora'ya (トーラー) ait değil; Japoncada yanlış
+- olay | OLAYLAR_ANTIK_MISIR_NUBYA:-1347-01-01:0 | d: '治世' eksik, takvim yılı gibi okunuyor
+- olay | OLAYLAR_ANTIK_MISIR_NUBYA:-1456-01-01:0 | d: Cümlede özne eksik
+- olay | OLAYLAR_ANTIK_MISIR_NUBYA:-1498-01-01:0 | d: 'Fırat üzerinde' kıyısında demek; '上で' yanlış
+- olay | OLAYLAR_ANTIK_MISIR_NUBYA:0297-01-01:0 | b: Dilbilgisi: と宣言された
+- olay | OLAYLAR_ANTIK_MISIR_NUBYA:0297-01-01:0 | d: Dilbilgisi: と宣言された
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-0337-01-01:0 | d: 'Anadolu hazırlıkları' seferi hazırlığı; mevcut ifade bozuk
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-0344-01-01:0 | d: '反抗の反乱' bozuk anlatım
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-0537-01-01:0 | d: エズラ記 Tora'nın (トーラー) parçası değil
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-0839-01-01:0 | d: Olay Krallar kitabında; トーラー yanlış
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-0929-01-01:0 | d: Olay Krallar kitabında; トーラー yanlış
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-0647-01-01:0 | d: Şamaş-şuma-ukin Asurbanipal'in ağabeyidir; 弟 yanlış (TR 'kardeşi' belirsiz)
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-1179-01-01:0 | d: Özne eksik, bozuk cümle
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-1224-01-01:0 | d: 'orta çağ' burada Orta Asur dönemi; '中世以前' yanlış anlam
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-1327-01-01:0 | b: Krallığın başına 'kabile reisi' (首長) yanlış
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-1327-01-01:0 | d: 'kral-vekilliği' = 副王領; '王位代行' bozuk
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-2025-01-01:0 | d: 'yönetti' burada hükümdarlık; '解体過程を指導した' yanlış anlam
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-2260-01-01:0 | d: '指導した' yanlış fiil
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:0244-01-01:0 | b: '重い和平' anlamsız
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:0363-01-01:0 | d: 'yarım yüzyıllık 298 kazanımları' yanlış ifade edilmiş
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:0484-01-01:0 | d: 'boyun eğdi' → 'ことに従った' bozuk anlatım
+- arayuz | # Temmuz # (ÇELİŞKİ-#: TDV «Timişvar» # Şaban # = # Temmuz #'de garnizonun teslim olduğunu yazar; TDV «Kara Ahmed Paşa» #/# Temmuz der; Losonczy'nin kaleden çıkışı # Temmuz (olaylar_ek# Macar kaynağı) — iki gün de TDV içinde geçer, bağımsız ikinci akademik kaynak okunmadı, gün korundu) | m: yıl yanlış yerde
+- arayuz | # Temmuz # (ÇELİŞKİ-#: TDV «Timişvar» # Şaban # = # Temmuz #'de garnizonun teslim olduğunu yazar; TDV «Kara Ahmed Paşa» #/# Temmuz der; Losonczy'nin kaleden çıkışı # Temmuz (olaylar_ek# Macar kaynağı) — iki gün de TDV içinde geçer, bağımsız ikinci akademik kaynak okunmadı, gün korundu) | m: duzeltme_002'deki sürümün yerine geçer: 9'dan çok sayı olduğundan indeksli ve düz '#' karıştırılamaz, hepsi sıralı
+- olay | OLAYLAR_EK22:1923-07-24:0 | d: ajanin uzunluk yuzunden yazamadigi duzeltme

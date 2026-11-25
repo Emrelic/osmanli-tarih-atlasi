@@ -1,0 +1,36 @@
+== ilerleme.txt
+Okunan paketler (tam): 1_arayuz_001..009 (9), 2_devlet_001..011 (11), 3_bayrakli_001..002 (2/32), 4_olay_001..006
+Okunmayan: 3_bayrakli_003..015 (sınırdaki 16..032 dahil), 4_olay_007 ve sonrası
+Bakılan kayıt: arayuz tüm 9 paket; devlet tüm 11 paket; olay = 4_olay_001..006 + 3_bayrakli_001..002 içindekiler
+Not: aynı id için birden çok düzeltme varsa numarası büyük dosya geçerlidir.
+
+== ilerleme_a.txt
+Tamamen okunan paketler: 4_olay_007..036 (30 paket)
+Okunmayan: 4_olay_037..040
+Düzeltme dosyaları: duzeltme_a_001..011
+
+== ilerleme_b.txt
+Tamamen okunan paketler: 4_olay_037..059 (23 paket, paket basina yaklasik 8-20 olay kaydi)
+Düzeltme dosyaları: duzeltme_b_001..011
+Okunmayan: 4_olay_060..075 (16 paket) - baglam siniri nedeniyle durduruldu
+
+== ilerleme_c.txt
+okunan: 4_olay_076 - 4_olay_114 (tam, 39/39 paket; aralik bitti)
+
+== ilerleme_d.txt
+Tamamen okunan paketler: 4_olay_115 - 4_olay_135 (21 paket). Bakilan olay kaydi: 628.
+Okunmayan: 4_olay_136 - 4_olay_153 (baglam siniri nedeniyle duruldu).
+
+== ilerleme_e.txt
+tamamen okunan: 4_olay_154 - 4_olay_192 (39/39 paket)
+bakilan kayit: olay yaklasik 39 paket (arayuz/devlet bu turda bakilmadi)
+
+== ilerleme_f.txt
+Tamamen okunan paketler: 4_olay_060..075 (16/16)
+Bakılan olay kaydı: aralıktaki paketlerin tamamı
+Düzeltme dosyaları: duzeltme_f_001..006
+Okunmayan: yok
+
+== ilerleme_g.txt
+Tamamen okunan paketler: 4_olay_136 - 4_olay_153 (aralık tamam, 18/18)
+Düzeltme dosyaları: duzeltme_g_001..004.jsonl
