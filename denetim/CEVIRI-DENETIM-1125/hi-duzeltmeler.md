@@ -598,3 +598,84 @@
 - olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1088-03-27:0 | d: dilbilgisi: 'आना' fiili 'ने' almaz
 - olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1096-11-01:0 | d: yanlış anlam: kimin kimden yardım istediği kayboluyor
 - olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1121-01-01:0 | d: yanlış anlam: 'Benî Ca'fer' cümlesi bozulmuş
+- olay | OLAYLAR_EK5:1716-10-13:0 | d: 'eyaletin devriyle' (devir=el değiştirme) 'dönem' diye çevrilmiş; bozuk cümle; abi merkez anlamsız
+- olay | OLAYLAR_EK7:1387-01-01:0 | d: Cinsiyet uyumu hatası
+- olay | OLAYLAR_EK8:1924-01-01:0 | d: Alıntı Türkçe kalmış
+- olay | OLAYLAR_EK5:1516-09-26:0 | d: 'alınmasıyla' yanlış çevrilmiş
+- olay | OLAYLAR_EK5:1872-04-01:0 | d: 'alınmasıyla' yanlış çevrilmiş
+- olay | OLAYLAR_EK12:1913-08-31:0 | d: 'alınmasından sonra' yanlış çevrilmiş
+- olay | OLAYLAR_EK13:1513-09-03:0 | d: 'alınması' yanlış çevrilmiş
+- olay | OLAYLAR_EK13:1514-01-01:0 | d: 'alınmasının' yanlış çevrilmiş
+- olay | OLAYLAR_EK13:1769-03-11:0 | d: 'alınmasıyla' yanlış; 'en son vali' 'son vali' diye çevrilmiş; dilbilgisi
+- olay | OLAYLAR_ANTIK_AKDENIZ:0435-01-01:0 | d: 'alınmasıyla' yanlış çevrilmiş
+- olay | OLAYLAR_EK5:1516-09-26:0 | d: 'alınmasıyla' yanlış okunuyor; 'तटपट्टी हाथ बदल गई' bozuk
+- olay | OLAYLAR_EK5:1716-10-13:0 | d: 'devir' (devretme) 'dönem' olarak yanlış çevrilmiş; bozuk cümle
+- olay | OLAYLAR_EK5:1872-04-01:0 | d: 'alınmasıyla' bozuk: 'सनआ के लिए जाने से' 'San'a'ya gitmekle' diye okunuyor
+- olay | OLAYLAR_EK7:1387-01-01:0 | d: Çevrilmemiş Türkçe kalıntı: 'TDV İslâm Ansiklopedisi'; cinsiyet uyumu
+- olay | OLAYLAR_EK8:1924-01-01:0 | d: Türkçe kalıntı (çevrilmemiş alıntı)
+- olay | OLAYLAR_EK12:1913-08-31:0 | d: 'alınması' = 'के लिए जाने' yanlış çevirisi
+- olay | OLAYLAR_EK13:1513-09-03:0 | d: 'alınması' = 'के लिए जाने' yanlış çevirisi
+- olay | OLAYLAR_EK13:1514-01-01:0 | d: 'alınması' yanlış çevirisi
+- olay | OLAYLAR_EK13:1769-03-11:0 | d: 'alınması' yanlış çevirisi; dilbilgisi
+- olay | OLAYLAR_ANTIK_AKDENIZ:0435-01-01:0 | d: yanlış anlam: 'Kartaca için gidince' gibi okunuyor
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1174-01-01:0 | d: eksik 'ने' eki
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1196-01-01:0 | b: yanlış özel ad: Erek (Alarcos), 'Irak' gibi okunuyor
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1202-11-15:0 | d: bozuk anlatım: sözcük tekrarı
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1243-04-02:0 | b: anlamsız yineleme
+- olay | OLAYLAR_2S1019:1417-02-18:0 | d: bozuk anlatım ve imla
+- olay | OLAYLAR_2S1019:1459-06-20:0 | d: yanlış anlam: Hisarcık Semendire'nin merkezi gibi okunuyor
+- olay | OLAYLAR_MOGOLISTAN1115:1691-05-29:0 | d: eksik 'ने' ve bozuk anlatım
+- olay | OLAYLAR_CINHINDI1115B:0979-01-01:0 | b: özel ad, 'को' edatı gibi okunuyor
+- olay | OLAYLAR_CINHINDI1115B:1707-01-01:0 | d: dilbilgisi: 'बनना' fiili 'ने' almaz
+- olay | OLAYLAR_MOGOLISTAN1115B:1635-07-11:0 | d: dilbilgisi: 'पहुँचना' fiili 'ने' almaz
+- olay | OLAYLAR_ORTAASYA1115B:1918-07-14:0 | d: yanlış yer adı: Kızıl Arvat 'Krasnıy' diye Rusçaya çevrilmiş
+- olay | OLAYLAR_ORTAASYA1115B:1919-07-15:0 | d: yanlış yer adı: Kızıl Arvat
+- olay | OLAYLAR_LAB19_2S_P1:0855-09-29:0 | b: yanlış özel ad yazımı (Prüm)
+- olay | OLAYLAR_LAB19_2S_P1:0855-09-29:0 | d: yanlış özel ad yazımı (Prüm)
+- olay | OLAYLAR_LAB19_2S_P2:1324-06-19:0 | b: bozuk anlatım
+- olay | OLAYLAR_LAB19_2S_P5:1896-09-01:0 | b: imla
+- olay | OLAYLAR_LAB19_2S_P6:1037-01-01:0 | b: yanlış yer adı: buradaki Fâs şehri, Fas ülkesi değil
+- olay | OLAYLAR_LAB19_2S_P6:1037-01-01:0 | d: yanlış yer adı: Fâs şehri
+- olay | OLAYLAR_UMIT19_ASIRET_1119:1850-07-18:0 | d: anlatım: sözcük tekrarı
+- olay | OLAYLAR_LAB19_DUZELTME_1120:1814-05-01:0 | d: yanlış yer adı: 'लीज़' Liège demek, doğrusu Lys
+- olay | OLAYLAR_DIN_ISA_1120:0030-04-07:0 | d: Hintçe metne Latin yazılı ʿĪsā ve kaynakta olmayan İngilizce (Jesus Christ) karışmış; 'गणित करता है' bozuk
+- olay | OLAYLAR_DIN_MUSA_1120:-0596-01-01:0 | d: cinsiyet uyumu hatası (राजा eril)
+- olay | OLAYLAR_KI117:1684-11-03:0 | d: bozuk cümle yapısı
+- olay | OLAYLAR_AVMAC_B_1029:1540-07-22:0 | d: bozuk cümle, anlam anlaşılmıyor
+- olay | OLAYLAR_AVMAC_B_1029:1809-10-14:0 | d: Varşova Dükalığı 'büyük dükalık' değil
+- olay | OLAYLAR_AVMAC_C_1029:1944-03-19:0 | d: Ok-Haç yanlış çevrilmiş (ऊँख़ = şeker kamışı)
+- olay | OLAYLAR_AVMAC_C_1029:1955-05-15:0 | b: işgal 'अधिकार' ile 'hak' gibi okunuyor
+- olay | OLAYLAR_AVMAC_C_1029:1955-05-15:0 | d: 'अधिकार-टुकड़ियाँ' anlaşılmaz; işgal birlikleri
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1388-09-28:0 | d: 'Fransız işgalleri hariç' 'Fransız hakları hariç' olmuş; 'madde eksikti' = madde yoktu
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1348-06-09:0 | d: 'madde eksikti' = madde yoktu, 'yarım' değil
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1305-01-01:0 | d: cinsiyet uyumu
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1659-11-07:0 | b: Roussillon yanlış yazılmış ('Ruslar' gibi okunuyor)
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1659-11-07:0 | d: Roussillon yanlış yazılmış
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1659-11-07:1 | b: Roussillon yanlış yazılmış
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1659-11-07:1 | d: Roussillon yanlış yazılmış
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1814-05-20:0 | d: 'ने' eki eksik
+- olay | OLAYLAR_P0057B:1574-01-01:0 | d: 'kendisine verilen' anlamı tersine okunuyor; 'हिजड़े' aşağılayıcı ve yanlış (hadım)
+- olay | OLAYLAR_P0057B:1734-01-01:0 | d: cinsiyet uyumu (प्रस्तावना dişil)
+- olay | OLAYLAR_P0057B:1756-12-22:0 | d: anlam bozuk: paşanın sonradan yükselmesi, suçlamanın asılsızlığına delil sayılıyor
+- olay | OLAYLAR_P0063:1724-09-11:0 | d: 'alınmasından sonra' belirsiz; son cümlede özne eksik
+- olay | OLAYLAR_P0063:1735-07-09:0 | d: bozuk dilbilgisi
+- olay | OLAYLAR_P0917KOSU13:1864-02-01:0 | d: bozuk dilbilgisi ve anlaşılmaz 'स्थान को पुनः रखा'
+- olay | OLAYLAR_P0917DUNYA:1921-02-25:0 | d: 'ने' eki eksik
+- olay | OLAYLAR_P0068:1475-01-01:0 | d: 'Aşağıra' adı 'aşağı' diye bozulmuş; cümle anlaşılmaz
+- olay | OLAYLAR_P0068B:1792-05-04:0 | d: 'nizâm-ı devlet' yanlış yazılmış (दावलत)
+- olay | OLAYLAR_P0068B:1791-06-10:0 | d: fazla 'ने'
+- olay | OLAYLAR_P0068B:1790-12-30:0 | d: 'ने' eki eksik
+- olay | OLAYLAR_KRONOEKSIK0921:1603-06-07:0 | d: 'boğdurttu' (boğdurttu) kendi boğmuş gibi çevrilmiş
+- olay | OLAYLAR_DUNYA_BOLGE_1109:1519-06-28:0 | d: özne eksik
+- olay | OLAYLAR_GEZGINLER:1047-08-02:0 | d: 'ने' ile geçişsiz fiil; bozuk cümle
+- olay | OLAYLAR_GEZGINLER:1521-11-08:0 | b: edat eksik
+- olay | OLAYLAR_GEZGINLER:1579-03-01:0 | d: çekim uyumu hatası
+- olay | OLAYLAR_GEZGINLER:1643-01-21:0 | d: 'ने' eki eksik
+- olay | OLAYLAR_GEZGINLER:1641-01-01:0 | d: 'geri alma' 'geri verme' olarak çevrilmiş
+- olay | OLAYLAR_GEZGINLER:1641-01-01:1 | b: zaman kipi tutarsız, bozuk cümle
+- olay | OLAYLAR_GEZGINLER:1645-01-01:0 | b: Türkçe ad 'Girit' kalmış; yerleşik Hintçe क्रीट
+- olay | OLAYLAR_GEZGINLER:1645-01-01:0 | d: Türkçe ad 'Girit' kalmış
+- olay | OLAYLAR_GEZGINLER:1668-12-01:0 | b: Türkçe ad 'Girit' kalmış
+- olay | OLAYLAR_GEZGINLER:1668-12-01:0 | d: Türkçe ad 'Girit' kalmış
+- olay | OLAYLAR_GEZGINLER:1670-01-01:0 | d: Türkçe ad 'Girit' kalmış
+- olay | OLAYLAR_GEZGINLER:1871-03-09:0 | b: 'on gezi' (= ön gezi, ön yolculuk) 'on yolculuk' sanılmış

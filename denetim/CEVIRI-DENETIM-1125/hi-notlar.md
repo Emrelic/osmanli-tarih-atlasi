@@ -44,3 +44,8 @@ Düzeltilmeyen, emin olunmayan ya da zevk sınırındaki noktalar (4_olay_108-14
 - Yazım tutarsızlıkları (düzeltilmedi): बर्कयारुक़/बरकियारुक, रय/रै (1095-02-26), दमिश्क़/दिमश्क़/दमिश्क, हिस्नकैफ़ा/हसनकैफ़, मलिकशाह/मलिक शाह, अल्पअर्सलान/अल्पअर्स्लान.
 - "अबू हुरैरा (अबू हुरैरा)", "ऐन ग़ज़ल (‘ऐन ग़ज़ल)": parantez gereksiz yineleme (TR'de iki farklı yazım).
 - ORTACAG_IRAN_TURAN:1177-01-01:0 "छोटे पुत्र याव्लक़": kimin oğlu olduğu TR'de belirsiz, dokunulmadı.
+
+== notlar_g.md
+- "X के पास गया" ("X'e geçti") kalibi 213-239 araliginda cok yaygin; Hintcede "के हाथ गया/आया" daha dogal. Toplu degistirilmedi, yalniz anlami bozdugu yerlerde duzeltildi.
+- "-ओग़ुल्लारी" (-ogullari) bicimleri devlet adlariyla tutarli oldugu icin birakildi (orn. ग़ानियाओग़ुल्लारी; ayni atlas metninde बनी ग़ानिया da geciyor).
+- TR kaynakli olgu supheleri ceviride aynen birakildi (bkz. tr_hatalari_g.md).

@@ -27,4 +27,9 @@ Okunmayan: yok
 Tamamen okunan paketler: 4_olay_178 - 4_olay_212 (35/35; aralik bitti)
 
 == ilerleme_g.txt
-Tamamen okunan: 4_olay_213 - 4_olay_233
+Tamamen okunan: 4_olay_213 - 4_olay_244 (32/32 paket; aralik tamamlandi)
+
+== ilerleme_h.txt
+Tam okunan: 4_olay_245 - 4_olay_276 (32/32 paket; son paket 276 dahil)
+Bakılan kayıt: yalnız olay türü; paketlerdeki tüm kayıtlar okundu.
+Düzeltme: duzeltme_h_001 (20), _002 (12), _003 (11) = 43 satır

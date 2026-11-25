@@ -129,3 +129,50 @@
 - olay OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1175-01-01:0: bozuk cümle ("... hazîresinde gömülü bulunduğu Dânişmendli merkezlerinden biri Selçuklu eline geçti")
 - olay OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1266-01-01:0: "Sinop'un kendisine mülk olarak verilmesine razı olmaya zorlanınca" öznesi belirsiz
 - olay OLAYLAR_ORTACAG_YER_SONRASI:1088-01-01:0: madde 1088, ama "Guiscardo'nun ölümü üzerine" — Robert Guiscard 1085'te öldü (aynı atlasta 1085-07-17); tarih/atıf kontrol edilmeli
+
+== tr_hatalari_g.md
+- olay OLAYLAR_ANTIK_YAKIN_DOGU:-0330-10-01:0: "sol kanat savunmasıyla yarıp içeri girdiği saldırıda dağıldı" bozuk cümle
+- olay OLAYLAR_ANTIK_YAKIN_DOGU:-0344-01-01:0: "Tennes Perslere ihanet etti" (anlam kontrol edilmeli: Tennes kendi şehrine ihanet etmiş olmalı)
+- olay OLAYLAR_ANTIK_YAKIN_DOGU:-0585-01-01:0: "Şehir sonunda bir barış/vasallık düzeniyle sona erdi" bozuk (sona eren kuşatma)
+- olay OLAYLAR_ANTIK_YAKIN_DOGU:-1224-01-01:0: "Asur, orta çağın en güçlü devleti oldu" (Orta Asur dönemi mi kastediliyor)
+- olay OLAYLAR_ANTIK_YAKIN_DOGU:-1762-01-01:0: güney Mezopotamya (Sümer) "o günden sonra Akad ülkesi (Babylonia)" ifadesi kontrol edilmeli
+- olay OLAYLAR_ANTIK_YAKIN_DOGU:-1799-01-01:0: "kuruluş yılı kaynakta verilmez" iç not tonunda
+- olay OLAYLAR_ANTIK_YAKIN_DOGU:-2152-01-01:0: son cümle ("kaynak çarpıtılmış olsa da ... zayıf bir mirasçılık olarak belgelenir") anlamsız
+- olay OLAYLAR_ANTIK_YAKIN_DOGU:0363-06-26:0: "geri çekilen Roma ordusu Maranga'da Sasani hücumunda yaralanan imparator öldü" bozuk cümle; aynı kayıtta Iulianus/Julianus yazımı karışık
+- olay OLAYLAR_ANTIK_AKDENIZ:-0035-01-01:0 ve -0063-01-01:0: "(bu olay kronolojide ayrı maddedir)" kullanıcıya görünen iç not
+- olay OLAYLAR_ANTIK_AKDENIZ:0106-01-01:0: "bağlandı Savaşın önceki evreleri (101-105) kronolojide ayrı maddelerdedir.." nokta eksik, çift nokta, iç not
+- olay OLAYLAR_ANTIK_AKDENIZ:-0145-01-01:0: "Roma'a" yazım hatası
+- olay OLAYLAR_ANTIK_AKDENIZ:-0166-01-01:1: "Roma'ca" bozuk
+- olay OLAYLAR_ANTIK_AKDENIZ:-0263-01-01:1: "Mamertinlerin Messana'sını ... yardım isteyince" bozuk cümle
+- olay OLAYLAR_ANTIK_AKDENIZ:-0301-01-01:0: "Antigonos Monophthalmos'a yaklaşan Mithridates" anlamı belirsiz
+- olay OLAYLAR_ANTIK_AKDENIZ:-0370-01-01:0: Leuktra'da Epameinondas yığınağı SOL kanattaydı; "derin sağ kanat" olgu hatası görünüyor
+- olay OLAYLAR_ANTIK_AKDENIZ:0260-01-01:0: "Valerianus'un Part'a esir düşmesi" olgu hatası (Sasaniler)
+- olay OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1073-01-01:0: başlık yarım ("ve bağımsızlık...")
+- olay OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1131-01-01:0: "katilir" yazım hatası; "Treccani ayrıca: ..." İtalyanca alıntılı iç kaynak notu kullanıcıya görünüyor
+- olay OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1203-01-01:1: "(kaynaklar ... 1203'ü tam denetim yılı olarak verir)" iç not tonunda
+- olay OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1205-01-01:0: "Dördüncü Haçlı Seferi'nden yirmi yıl sonra" 1205 ile çelişiyor
+- olay OLAYLAR_2S1019:1439-08-27:0, 1458-08-06:0, 1459-06-20:0, 1475-06-06:0: "atlasta abi merkezi ... akıbetini izler" / "atlasta ... gösterilir" iç yöntem notu kullanıcıya görünüyor
+- olay OLAYLAR_ALM1115B:1815-01-01:0: "künyesi bu noktada sona erer" iç not
+- olay OLAYLAR_LAB19_2S_P1:0613-05-12:0 ve 0780-12-02:0: "Atlasın Cobá Krallığı künyesi ..." / "(künye ucu; ...)" iç not
+- olay OLAYLAR_LAB19_2S_P2:1283-06-08:0, P5:1860-06-14:0, P5:1896-09-01:0, P5:1918-02-16:0, P5:1918-10-07:0: "Aynı tarihte elden çıkan diğer yerleşimler: ..." veri/iç not metni
+- olay OLAYLAR_LAB19_2S_P5:1916-05-23:0: "Beringia'da" yer adı kontrol edilmeli (Beringiyye/Burinci)
+- olay OLAYLAR_LAB19_2S_P6:1944-10-20:0: başlıkta "Kızıl Ordu'since" bozuk
+- olay OLAYLAR_LAB19_BOS_1119_SIBIRYA:1630-01-01:0: başlıkta Kiril "ясак" kalmış
+
+== tr_hatalari_h.md
+- olay OLAYLAR_AVMAC_A_1029:1156-09-17:0: d cümlesi bozuk ("II. Heinrich Jasomirgott Bavyera dükalığından Bavyera'yı imparatora geri verdi")
+- olay OLAYLAR_AVMAC_A_1029:1180-01-01:0, 1194-01-01:0: kullanıcıya görünen iç not ("Gün kaynakta yok (künyede ...)", "kuruluş yılı 1194 alındı")
+- olay OLAYLAR_AVMAC_C_1029:1918-11-13:0, 1918-11-16:0, 1919-03-21:0, 1945-04-13:0, 1949-08-20:0, 1956-10-23:0, 1995-01-01:0, 2004-05-01:0: d içinde iç künye kimlikleri (macaristan-naiplik, macaristan-halk, avusturya-ikinci-cumhuriyet ...) ve "haritadaki zincir" notları
+- olay OLAYLAR_AVMAC_C_1029:1945-07-09:0: geliştirici notu "(motor dondurma: yeni BOYALAR anahtarı eklenmedi)"
+- olay OLAYLAR_AVMAC_FINAL_1029:1703-01-01:0: iç not "akademik gün kaynağı bulunamadı (borç)"
+- olay OLAYLAR_FRANSA_KONTROL_1027:1284-01-01:0 "(künye t)"; 1388-09-28:0 ve 1348-06-09:0 "Atlas bu sınırı zaten taşıyordu; madde eksikti"; 1793/1814 Monako "bu kayıtta işlenmedi"; 1481-12-11:3 "abi merkez ... BEYANLI YAKLAŞIKLIK"
+- olay OLAYLAR_FRANSA_KONTROL_1027:1317-01-09:0: "ölümünden 4 gün sonra ölen posthumous oğul I. Jean" ifadesi karışık (kimin ölümünden)
+- olay OLAYLAR_FRANSA_KONTROL_1027:1360-10-24:0: "atlasta ... ingiltere'ye geçer" (küçük harfli kimlik)
+- olay OLAYLAR_NAPOLYON_ITALYA_1028 (1128, 1071, 1059 Brindisi/Lecce/Cosenza/Reggio; 1143; 1318): "abi merkez", "zincir", "(künye f 1143 ...)", "ikincil", "gün okunmadı" iç notları
+- olay OLAYLAR_NAPOLYON_ITALYA_1028:1800-06-04:0, 1849-08-22:0, 1849-07-03:0: "bilgi kutusu", "Vikipedi" iç not
+- olay OLAYLAR_P0067:1788-09-21:0: d içinde dosya kimliği "karsi-karansebes-1788"
+- olay OLAYLAR_DUNYA_BOLGE_1109:1905-01-22:0: "çariçenin muhafızlarınca" (çarın olmalı; çeviride "ज़ार")
+- olay OLAYLAR_DUNYA_BOLGE_1109:1917-03-15:0: d içinde wiki bağlantı imi [[rusya-gecici-hukumet]], [[sovyet-rusya]]
+- olay OLAYLAR_P0068B:1789-09-22:0: d içinde uzun kaynak-doğrulama notu (haritada gösterilmez)
+- olay OLAYLAR_GEZGINLER:1871-03-09:0: "on gezi" -> "ön gezi" olmalı
+- olay OLAYLAR_GEZGINLER:1818-01-01:0, 1844/1861/1891 güzergâhları: Türkçe karakter eksik ("golu", "agzi", "kavsagi", "bati ucu", "gecis")
