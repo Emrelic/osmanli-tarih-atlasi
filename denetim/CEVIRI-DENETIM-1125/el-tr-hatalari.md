@@ -91,3 +91,39 @@
 - olay OLAYLAR_T5_1000A:1231-01-01:1 ve 1256-01-01:0: "atlas ... Emre kararıyla / (Emre kararı)", "(kural 5 sınırı)" — sahibin adı ve iç kural kullanıcıya görünüyor (ağır).
 - olay OLAYLAR_T5_1000B:1171-09-13:0: "(Emre #23 metbû modeli)", "künye günü kaynak değildir" (ağır); 1250-04-30:0 "fark bildirildi"; 1261-06-09:0 "(alt sınır)".
 - olay OLAYLAR_KURULUS_GERI_1021:0745 / 0972 / 1085-05-25: "sahip beyanlı boşluk", "gün künye f'sinden", "kuyruk kronolojide ayrı kayıtlı" iç notlar.
+
+== tr_hatalari_e.md
+- olay OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1115-07-24:0: d alanında kullanıcıya görünen iç veri: `(kesinlik: {"f": "yuzyil", "t": "gun"}) Ayrıca ... URL` (çeviride de aynen duruyor; ÖNCELİKLİ)
+- olay OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1000-01-01:1: d'de "(yıl)" iç hassasiyet notu ve ham Norveççe alıntı
+- olay OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1056-01-01:1: d sonunda "(yıl)" iç notu
+- olay OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1096-01-01:0: d'de "(1096-97 Althing'leri; yıl)" ve ham Norveççe alıntı
+- olay OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1241-01-01:1: d'de "(gün bilinmiyor, yıl esas)" iç notu ve İngilizce alıntı
+- olay OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1000-01-01:0: "arşiv ve piskoposluklar" büyük olasılıkla "başpiskoposluk ve piskoposluklar"
+- olay OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:0980-01-01:0: "öldürtü" yazım hatası (öldürttü)
+- olay OLAYLAR_ORTACAG_IRAN_TURAN:1090-03-06:0: d'de "Melikşah ... Bâtınîlerle mücadeleyi devlet politikası" cümlesi iki kez
+- olay OLAYLAR_ORTACAG_BATI_AVRUPA:0800-12-25:0: "800'de ... gitti; ertesi Noel gününde" ifadesi hatalı/belirsiz
+- olay OLAYLAR_ORTACAG_ORTADOGU:0946-07-04:0: "oğlu Ünûcûr, Kâfûr'un vesayetinde geçti" bozuk cümle ("vesayetinde başa geçti")
+- olay OLAYLAR_ORTACAG_ORTADOGU:1281-01-01:0: "ay belirtilir, gün yok" iç notu; yalnız yıl verilmiş, "ay belirtilir" tutarsız
+- olay OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1095-01-01:0: d sonunda "(ö. 488/1095 [?])" ansiklopedi artığı
+- Atlas iç dili birçok d alanında kullanıcıya görünüyor ("Atlasta ... künyesiz / beyanlı boşluk / BEYANLI YAKLAŞIKLIK", "TDV'de gün yok"): ör. OLAYLAR_ORTACAG_ORTADOGU:1076-08-05:0, OLAYLAR_ORTACAG_ORTADOGU:1102-05-22:0, OLAYLAR_ORTACAG_IRAN_TURAN:1092-11-19:0
+
+== tr_hatalari_g.md
+- olay OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1209-01-01:0 ve 1247-01-01:0: bozuk Türkçe ("vikontluk ... kraliyete el konuldu" / "krala el konuldu").
+- olay OLAYLAR_LAB19_2S_P6:1944-10-20:0 (b): "Kızıl Ordu'since" bozuk.
+- olay OLAYLAR_ALM1115B:1815-01-01:0: kullanıcıya "künyesi" iç terimi görünüyor.
+- olay OLAYLAR_AVMAC_A_1029:1180-01-01:0 ve OLAYLAR_FRANSA_KONTROL_1027:1284-01-01:0: "(künyede ...)", "(künye t)" iç not.
+- olay OLAYLAR_AVMAC_C_1029:1918-11-13:0: "Haritada Macaristan zincirleri ... döner ... hukukî halka" geliştirici dili.
+- olay OLAYLAR_AVMAC_C_1029:1918-11-16:0 ve 1919-03-21:0, 1949-08-20:0, 1995-01-01:0, 2004-05-01:0: iç kimlikler (macaristan-naiplik, macaristan-halk-cumhuriyeti, macaristan-halk, avusturya-ikinci-cumhuriyet) kullanıcıya görünüyor.
+- olay OLAYLAR_AVMAC_C_1029:1945-07-09:0: "motor dondurma: yeni BOYALAR anahtarı eklenmedi" geliştirici notu.
+- olay OLAYLAR_AVMAC_FINAL_1029:1703-01-01:0: "(borç)" iç not; 1866-08-23:0 "bkz. ayrı madde".
+- olay OLAYLAR_AVUSTURYA_MACAR_1027:1523-01-01:0, OLAYLAR_FRANSA_KONTROL_1027:1388-09-28:0 ve 1348-06-09:0: "Atlas bu sınırı zaten taşıyordu; madde eksikti" / "Yerleşim kaydı bu sınırı taşıyordu; madde eksikti" geliştirici notu.
+- olay OLAYLAR_FRANSA_KONTROL_1027:1360-10-24:0: "atlasta ... ingiltere'ye" (küçük harf, kimlik).
+- olay OLAYLAR_NAPOLYON_ITALYA_1028:1800-06-04:0, 1849-08-22:0: "(bilgi kutusu ...)"; 1849-07-03:0: "(Vikipedi 2 Temmuz ...)"; 1143-01-01:0: "(künye f 1143)"; 1532/1540: "gün/ay okunmadı"; 1128-01-01:*: "zincirleriyle", "(ikincil)", "şehre özgü tarihli cümle bulunamadı".
+- olay OLAYLAR_P0068:1789-09-22 (P0068B:1789-09-22:0): araştırma/doğrulama iç notu ("ESBE", "TDV akkirman", "okunan kaynakta doğrulanamadığından").
+- olay OLAYLAR_P0067:1788-09-21:0: "karsi-karansebes-1788" iç dosya kimliği.
+- olay OLAYLAR_P0068:1789-10-13:0: "okunan dört TDV maddesi" iç not.
+- olay OLAYLAR_DUNYA_BOLGE_1109:1917-03-15:0: "[[rusya-gecici-hukumet]], [[sovyet-rusya]]" wiki bağlantısı görünüyor.
+- olay OLAYLAR_DUNYA_BOLGE_1109:1905-01-22:0: "çariçenin muhafızlarınca" yanlış (çarın olmalı; çeviri zaten "çarın").
+- olay OLAYLAR_GEZGINLER:1503-01-06:0: "yerel kaşif Quibían" (kabile reisi/kasik olmalı).
+- olay OLAYLAR_GEZGINLER:1861-11-01:0, 1829-11-03:0 (d), 1871-03-09:0 (b "on gezi"), 1891-06-14:0: ASCII Türkçe ("nehri agzi", "kavsagi", "on gezi", "Golu", "bati ucu", "gecis").
+- olay OLAYLAR_AVMAC_A_1029:1156-09-17:0: "Bavyera dükalığından Bavyera'yı imparatora geri verdi" bozuk.

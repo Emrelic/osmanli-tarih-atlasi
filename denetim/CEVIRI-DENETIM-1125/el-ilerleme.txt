@@ -22,13 +22,14 @@ Tamamen okunan: 4_olay_073-107 (35/35 paket). Tur olay; duzeltme dosyalari duzel
 Okunan paketler (tam): 4_olay_108 - 4_olay_142 (35/35). Kalan yok.
 
 == ilerleme_e.txt
-Tamamen okunan: 4_olay_143 - 160
-Bakılan olay kaydı: ~560
+Tamamen okunan: 4_olay_143 - 4_olay_177 (aralığın tamamı, 35 paket)
+Bakılan olay kaydı: yaklaşık 1000
 
 == ilerleme_f.txt
 Aralik: 4_olay_178 - 4_olay_212
-Tamamen okunan: 4_olay_178 - 4_olay_188
-Bakilan olay kaydi: 178-188 paketlerinin tamami
+Tamamen okunan: 4_olay_178 - 4_olay_201
+Bakilan olay kaydi: 178-201 paketlerinin tamami
 
 == ilerleme_g.txt
-Tamamen okunan: 4_olay_213 - 4_olay_226 (14 paket)
+Tamamen okunan: 4_olay_213 - 4_olay_249 (37/37 paket, tur: yalniz olay). Aralik bitti.
+Bakilan olay kayit sayisi: paketlerdeki tum kayitlar (ayrica sayilmadi).

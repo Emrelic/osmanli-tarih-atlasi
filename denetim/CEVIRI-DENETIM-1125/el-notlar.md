@@ -29,3 +29,15 @@ Mekanik / sistemik, tek tek düzeltilmedi:
 - "η καζά" (dişil) yerine standart "ο καζάς" — sistemik.
 - Aynı hanedan için yazım tutarsızlığı: Ντανισμεντ-/Δανισμενδ-, Ομεϋάδες/Ομαγιάδες, Μαλάτια/Μαλάτεια, Καϊρουάν cinsiyeti.
 - ARKEOLOJI_ZINCIR -0126 vb. bölge "Hamadan" Latin (Χαμαδάν) — ZINCIR kayıtlarında geçiyor.
+
+== notlar_e.md
+- TOPLU İŞ GEREKİYOR: OLAYLAR_ORTACAG_* serilerinde Yunanca metin içinde Latin harfli Arapça/Türkçe/Avrupa adları, ay adları (Rabi al-Awwal, Sha'ban) ve terimler (khutba, atabeg, bey, manshur, malik) yaygın. 143-145 tamamen Yunancaya çevrildi; 146-177'de yalnız anlam/dilbilgisi/yabancı dil biçimi (Ghurides, Zirides, Saltukides, bey, investi, Papato, fetret vb.) hatası olan kayıtlar düzeltildi. Geri kalan Latin transliterasyonlar DÜZELTİLMEDİ: yoğun paketler 146, 147, 149-151, 154-155, 157-158, 167-168, 172-175, 176 başı. Ortak ad sözlüğüyle tek geçiş önerilir (ajanlar arası biçim tutarlılığı için). Sayım: bu aralığı da içeren 4_olay_1[4-7]* dosyalarında Latin sözcüklü CV.d satırı 535 (4_olay_141-179 arası, kaba ölçüm).
+- Paralel biçim farkları (bırakıldı): Δανισμενδίτες/Δανισμενδίδες, Ερζουρούμ/Ερζερούμ, Βελιγράδι tipi dışı bazı Türk yer adları Latin harfli (Çankırı, Kastamonu, Malatya, Sivas).
+- 1061 Mağrib kaydı "περιοχή του Μαρόκου" (TR "Fas bölgesi"): şehir mi ülke mi belirsiz, bırakıldı.
+- 1155-03-07 Ani: TR "Ermeni rahibeler" şüpheli (rahip olabilir); çeviri TR'ye göre kadın bırakıldı.
+
+== notlar_g.md
+- Özel ad yazımı paketler arasında tutarsız: 233-234, 238 ve yer yer 221-229'da Yunanca transkripsiyon yerine Latin/Türkçe harfli adlar (Cafer Paşa, Hekimoğlu Ali Paşa, Köprülüzade Abdullah Paşa, Nadir, Ganja, Erivan, Tabriz; Almanca/Fransızca yer adları). Toplu üslup konusu olduğu için değiştirilmedi.
+- Pers kralı Sais: "στη Σάι" Yunanca olarak geçerli, dokunulmadı.
+- OLAYLAR_P0068:1475: "η Σοχούμι" yerine "το Σουχούμι" tercih edilebilir (dokunulmadı).
+- AVMAC kayıtlarında "Steiermark" (Στυρία yerine) Almanca biçim TR'de de var; yalnız başlıkta zaten Στυρία olan yerler korundu.
