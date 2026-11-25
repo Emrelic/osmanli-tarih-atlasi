@@ -697,7 +697,7 @@ window.CEVIRI_DIZIN = {
   "id": [
    [
     "ceviri_id_arayuz.js",
-    "0c7a3d97"
+    "82e1cbc8"
    ],
    [
     "ceviri_id_devlet.js",
