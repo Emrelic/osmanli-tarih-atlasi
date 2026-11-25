@@ -2033,6 +2033,7 @@ html:has(#yanpanel.dar) #olay-detay { width: var(--panel-dar); }
   width: 62px;
   text-align: center;
 }
+#ob-gorsel.gizli { display: none; }
 #ob-gorsel img {
   width: 62px;
   height: 74px;
