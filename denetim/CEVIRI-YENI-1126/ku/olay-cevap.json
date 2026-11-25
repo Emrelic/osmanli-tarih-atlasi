@@ -15596,7 +15596,7 @@
 },
 "OLAYLAR_ANTIK_YAKIN_DOGU:-1179-01-01:0": {
 "b": "Hattuşa şewitî, hat terikandin; Împeratoriya Hîtîtan hilweşiya",
-"d": "Bajarê Hattuşayê di dema qralê Hîtîtan ê dawî Şuppîluliuma II. de hat şewitandin û terikandin; parçeyek e ji hilweşîna Serdema Birincê ya Dereng a ku di çarçoveya xela, pevçûna navxweyî û Gelên Deryayê de qewimî. Dewleta Hîtîtan cihê xwe da dewlet-bajarên Hîtîta Nû yên wek Karkemîş û Meletiyê."
+"d": "Bajarê Hattuşayê di dema qralê Hîtîtan ê dawî Şuppîluliuma II. de hat şewitandin û terikandin; parçeyek e ji hilweşîna Serdema Bronz a Dereng a ku di çarçoveya xela, pevçûna navxweyî û Gelên Deryayê de qewimî. Dewleta Hîtîtan cihê xwe da dewlet-bajarên Hîtîta Nû yên wek Karkemîş û Meletiyê."
 },
 "OLAYLAR_ANTIK_YAKIN_DOGU:-1224-01-01:0": {
 "b": "Qralê Aşurê Tukulti-Ninurta I. Babîl fetih kir; peykerê Marduk bir Aşurê",
@@ -16933,6 +16933,2018 @@
 "OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1067-01-01:0": {
 "b": "Alparslan Qersa Bîzansê fetih kir; qralê Gurciyan bû bindestê Selçûqiyan",
 "d": "Alparslan di 1067an de dîsa li sînorên Bîzans û Gurcistanê xuya bû; Qersa Bîzansê hat fetihkirin û qralê Gurciyan bû bindestê Selçûqiyan."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1067-01-01:1": {
+"b": "Alparslan Qeyserî girt",
+"d": "Di dema Siltanê Selçûqî Alparslan de Tirkan di 1065an de Anî, di 1067an de Qeyserî zeft kirin; Bîzansê dergehên Kapadokyayê winda kirin."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1071-01-01:0": {
+"b": "Katanya (Catania) ket destê Norman (1071)",
+"d": "Dema dorpêça Bariyê dom dikir, di 1071ê de Catania bi xiyanetekê ya li bajêr ket destê Norman; lê bajar paşê hat windakirin û nêzîkî deh sal paşê bi awayekî mayînde hat girtin."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1072-01-01:0": {
+"b": "Mazara ket destê Norman (1072)",
+"d": "Di 1072an de ku Palermo hat girtin Mazara jî hat fetihkirin; di salên paşê de li wir kelayek hat çêkirin û li hemberî êrişeke ji Afrîkaya Bakur hat berxwedan (1075)."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1072-12-15:0": {
+"b": "Nesrê II. li ser mirina Alparslan Tirmîz girt, paşê meşiya Belxê û ew jî zeft kir",
+"d": "Li ser mirina Alparslan di sefera Mawerayennehrê de Qerexaniyê Rojava Şemsulmulk Nesrê II. di Rebîulaxira 465an de (Kanûna 1072) Tirmîz girt, paşê meşiya Belxê û ew jî zeft kir; têkoşîna Selçûqî–Qerexanî di dema Melîkşah de dom kir."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1073-01-01:0": {
+"b": "Amalfi li dijî zexta Salerno serî li Roberto il Guiscardo dide; Norman bajar dagir dikin û serxwebûn...",
+"d": "Amalfi li dijî zexta Salerno serî li Roberto il Guiscardo dide; Norman bajar dagir dikin û serxwebûn bi dawî dibe."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1075-08-16:0": {
+"b": "Mîrê Melîkşah Savtegîn Arran zeft kir; şaxa Genceyê ya Şedadiyan bi dawî bû",
+"d": "Di dema Fezlê III. yê Şedadî de yek ji mîrên Siltan Melîkşah, Savtegîn, Arran zeft kir (468/1075-76); herêm ket bin rêveberiya Selçûqiyan û şaxa Genceyê ya Şedadiyan bi dawî bû."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1076-01-01:0": {
+"b": "Salerno ket destê Robert Guiscard; Mîrektiya Lombard a Salernoyê bi dawî bû",
+"d": "Piştî berxwedaneke dirêj Salerno di Kanûna 1076an de teslîmî Robert Guiscard bû; Mîr Gisulfê II. vekişiya sirgûnê, koşka papatiyê. Guiscard Salerno kir paytexta dûkatiya xwe."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1077-01-01:0": {
+"b": "Roger bi donanmaya xwe Trapani girt",
+"d": "Rogerê ku donanmayek ava kir di 1077an de çalakiya şer zêde kir, Trapani û paşê Castronovo girtin."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1077-07-25:0": {
+"b": "Yûsuf b. Taşfîn Tanca bi dest xist",
+"d": "Mîrê Murabitan Yûsuf b. Taşfîn Tanca, bajarê girîng ê peravê Mexribê Dûr, di sala 470an (1077-78) de girt."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1081-01-01:0": {
+"b": "Robert Guiscard derket Valonayê û Korfû girt",
+"d": "Di 1081ê de Guiscard bi donanmaya xwe meşiya Valonayê (Avlonya), Korfû girt û di 1082an de Drac bi dest xist; meşa wî ya Stenbolê ji ber ku ji bo alîkariya Gregorius VII. gazî Romayê hat kirin nîvcî ma."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1084-03-24:0": {
+"b": "Roma teslîmî Henryê IV. dibe; Antîpapa Clemensê III. (Guibert) tê danîn ser text, Henry tacê împerator dike serê xwe, Gregorius ji Romayê direve",
+"d": "Romayiyan bajar teslîmî Henry kirin ê ku di 1081ê de daketibû Îtalyayê; serokmetranê Ravennayê Guibert di 24ê Adara 1084an de bi navê Clemensê III. wek papa hat îlankirin, Henry ji aliyê papayê dijber ve wek împerator tac hat danîn. Gregoriusê VII. ê ku sêzdeh kardînalan terikandibû neçar ma ku ji Romayê bireve; baweriya xwe bi piştgiriya Norman anî."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1084-05-10:0": {
+"b": "Murabit li Sebteyê (Ceuta) serdest bûn",
+"d": "Yûsuf b. Taşfîn di sala 477an (1084) de Sebte (Ceuta) xist bin serdestiya xwe; ev bû dergehê derbasbûna Endelusê."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1085-01-01:0": {
+"b": "Mîrê Silêman Şah Buldacî herêma Ceyhanê (Albîstan) fetih kir",
+"d": "Herêma Ceyhanê (Albîstan) ya ku bûbû armanca êrişên xezîyên Tirkmen di 1085an de ji aliyê yek ji mîrên Siltanê Selçûqî yê Anatolyayê Silêman Şah, Buldacî, ve hat fetihkirin."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1086-01-01:0": {
+"b": "Sîrakuza (Syracuse) ket destê Norman",
+"d": "Piştî ketina Agrigentoyê di Tîrmeha 1086an de Sîrakuza di Cotmeha 1086an de ket destê Norman; Castrogiovanni dê di 1087an de, Noto di 1091ê de teslîm bibe."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1086-07-11:0": {
+"b": "Tutuş piştî ku Heleb demekê dorpêç kir bi dest xist.",
+"d": "Tutuş piştî ku Heleb demekê dorpêç kir bi dest xist."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1088-03-27:0": {
+"b": "Melîkşah Buxara û Semerqend zeft kirin, Ehmed Xanê Qerexaniyê Rojava êsîr girt û bir Îsfahanê",
+"d": "Li ser kuştina Qadilqudat Ehmed b. Silêman ji aliyê Ehmed Xan ve, li ser banga alîkariyê ya fiqihzanê Şafiî Ebû Tahir b. Alek Melîkşah di 481an (1088) de Buxara û Semerqend zeft kirin û hat Özkentê; Ehmed Xan êsîr girt û bir Îsfahanê. Ebû Tahir el-Xarizmî wek naîb tayînî Semerqendê hat kirin."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1089-01-01:0": {
+"b": "Dûk Ruggero Amalfi dîsa bi dest dixe.",
+"d": "Dûk Ruggero Amalfi dîsa bi dest dixe."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1090-01-01:0": {
+"b": "Girava Maltayê bi Kontîtiya Norman ve hat girêdan",
+"d": "Roger di 1090an de girava Maltayê jî xist bin serdestiya xwe."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1090-03-06:0": {
+"b": "Melîkşah Semerqend cara duyem zeft kir û Mîr Atsiz wek walî tayîn kir",
+"d": "Li ser serhildana fermandarê Çîgilan Aynudewle û derbasbûna Yaqûb Tegîn a Semerqendê, Melîkşah di dawiya sala 483an (1090) de Semerqend cara duyem zeft kir û Mîr Atsiz kir waliyê wir; paşê Yaqûb Tegîn anî serê Qerexaniyên Rojhilat û wezîfedar kir ku bi Tuğrul b. Yinal re têkoşîn bike."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1090-03-06:1": {
+"b": "Murabitan Xernata zeft kir",
+"d": "Di derbasbûna sêyem a Endelusê de (483/1090) Yûsuf b. Taşfîn Xernata zeft kir û vegeriya Afrîkaya Bakur; mîrektiya Zîrî bi dawî bû."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1091-02-23:0": {
+"b": "Murabitan Sevilla (Îşbîliye) ji Ebadiyan girt",
+"d": "Sevilla di sala 484an (1091) de ket destê Murabitan; mîrektiya Ebadî bi dawî bû."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1092-01-01:0": {
+"b": "Çaka Beg piştî dorpêça sê mehî ya Bîzansê bi şertê derketina sax a leşkerên wî Mîdîllî ji Bîzansê re hişt",
+"d": "Împerator Aleksios Komnenos di bihara 1092an de ji bo rizgarkirina Mîdîlliyê Ioannes Dukas ji bejahiyê, Dalassenos ji deryayê şand; her çend dorpêça sê mehî bi ser neket jî, Çaka Beg fêm kir ku êdî nikare li ber xwe bide û bi şertê ku leşkerên wî girav bi sax û silametî biterikînin Mîdîllî ji Bîzansê re hişt."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1096-11-01:0": {
+"b": "Mîrê Selçûqî Kürboğa Mûsil piştî dorpêçeke dirêj girt; serdestiya Uqeyliyan a li Mûsilê bi dawî bû",
+"d": "Gava Muhammed kurê Muslim b. Qureyş li dijî birayê xwe Elî ji mîrê Selçûqî Kürboğa alîkarî xwest, Kürboğa ew girt, Nisêbîn bi dest xist, piştî dorpêçeke dirêj Mûsil girt; serdestiya Uqeyliyan a li Mûsilê di Zîlqedeya 489an / Mijdara 1096an de bi dawî bû."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1097-01-01:0": {
+"b": "Xaçparêzan Albîstan girt û rêveberiya wê da şovalyeyekî",
+"d": "Albîstan, yek ji bajarên girîng ên serhedên Bîzansê, di 1097an de ket destê Xaçparêzan û rêveberiya wê da şovalyeyekî bi navê Pierre d'Aulps; heta 1103an çend caran dest guherand."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1097-01-01:1": {
+"b": "Tarsus ji aliyê Xaçparêzan ve hat girtin",
+"d": "Tarsusa ku Silêman Şah di 1082an de girtibû di 490/1097an de ket destê Xaçparêzan; paşê di navbera Xaçparêz, Bîzans û Ermeniyên Kîlîkyayê de dest guherand."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1100-01-01:0": {
+"b": "Norman serhildana Marino Sebaste tepeser dikin.",
+"d": "Norman serhildana Marino Sebaste tepeser dikin."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1105-01-01:0": {
+"b": "Qiliç Arslanê I. Albîstan ji nû ve fetih kir û wek îqta da wezîr Ziyaeddîn Muhammed",
+"d": "Qiliç Arslan di 1105an de Albîstan ji nû ve fetih kir û wek îqta da wezîr Ziyaeddîn Muhammed."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1110-01-01:0": {
+"b": "Baudouin I. Sayda bi dorpêçeke çil û heft rojî girt",
+"d": "Saydaya ku berê bi dayîna pereyan xwe rizgar kiribû, piştî dorpêçeke çil û heft rojî bi eman teslîm bû û veguherî kontîtiyeke bindest a Qraliyeta Qudsê."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1110-01-01:1": {
+"b": "Beyrût ket destê Qraliyeta Qudsê ya Xaçparêzan",
+"d": "Di dema seferên Xaçparêzan de Beyrût ket destê Qraliyeta Qudsê (1110)."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1118-04-24:0": {
+"b": "Mîrê Erzenê Togan Arslan êrişî Dvînê kir, Menûçîhrê Şedadî kuşt û bajar tevlî erdê xwe kir",
+"d": "Tevî êrişên Artuqî Îlgazî û Mîrê Erzen-Bedlîsê Qizilarslan ên li ser Dvînê, Şedadiyan bajar heta 1105an girt; peyrewê Qizilarslan Togan Arslan di 512/1118an de êrişî Dvînê kir, Menûçîhr kuşt û bajar tevlî erdê xwe kir."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1121-01-01:0": {
+"b": "David serdestiya Selçûqiyan a li Tîflîsê bi dawî anî û bajar girt; Tîflîs bû paytexta Gurcistanê",
+"d": "Bi dawîanîna serdestiya Selçûqiyan a li Tîflîsê ji aliyê Qralê Gurciyan David ve bi alîkariya Qipçaqan, malbata Benî Cafer ji bajêr hat qewitandin; piştî Şerê Didgoriyê (12ê Tebaxa 1121) Tîflîs û Anî hatin dagirkirin û Tîflîs bû paytexta Gurcistanê."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1123-01-01:0": {
+"b": "Gelê Xirîstiyan ê Anî bajar teslîmî Qralê Gurciyan David kir; bajarê ku Mîrê Saltuqî Elî kirîbû ji dest çû",
+"d": "Gava Şavurê II. yê Şedadî hewl da ku Anî bifiroşe Mîrê Saltuqî Elî ê ku Qers di destê wî de bû, gelê Xirîstiyan ê ku serî hildabû Qralê Gurciyan David, ê ku demeke kurt berê Tîflîs girtibû, gazî kir û bajar teslîmî wî kir; Şavurê II. bi malbata xwe ve hat girtin û şandin Gurcistanê."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1124-06-13:0": {
+"b": "Mîr Gazî piştî dorpêçeke dirêj Meletî teslîm girt",
+"d": "Li ser mirina Belek (1124) Mîr Gazî yê Danişmendî nakokiyên di navbera Melîkê Selçûqî yê Meletiyê Tuğrul Arslan û Mîrê Xarputê Silêman de wek derfet dît, di 13ê Hezîrana 1124an de êrişî Meletiyê kir û piştî dorpêçeke dirêj bajar teslîm girt."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1124-12-10:0": {
+"b": "Jina bî ya Qiliç Arslan Ayşe Xatûn û kurê wê Tuğrul Arslan Meletî teslîmî Danişmendiyan kirin û vekişiyan Kela Minşarê",
+"d": "Piştî mirina Artuqî Belek (518/1124) jina Qiliç Arslan Ayşe Xatûn û kurê wê Tuğrul Arslan Meletî teslîmî Danişmendiyan kirin û vekişiyan Kela Minşarê (1ê Zîlqedeya 518an / 10ê Kanûna 1124)."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1128-08-22:0": {
+"b": "Dûkatiya Apulyayê (Salerno) di destê Rogerê II. de bi Sîcîlyayê re bû yek",
+"d": "Bi investîtûra 22ê Tebaxa 1128an Dûkatiya Apulyayê, ku Salerno jî dihewand, bi fermî derbasî Kontê Sîcîlyayê Rogerê II. bû."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1131-01-01:0": {
+"b": "Amalfi tevlî Qraliyeta Sîcîlyayê ya Rogerê II. bû",
+"d": "Amalfi tevlî dewleta Sîcîlyayê ya Rogerê II. dibe. Treccani herwiha: 'Nel 1131 Ruggero sottomise rapidamente la ribelle Amalfi, imponendole un presidio militare' (Treccani DBI Ruggero II)."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1132-01-01:0": {
+"b": "Mîr Gazî herêma Kastamonuyê ya ku împeratorê Bîzansê Ioannes Komnenos dagir kiribû paşve girt",
+"d": "Împerator Ioannes Komnenos ji nebûna Mîr Gazî yê li sefera Çukurovayê sûd wergirt û herêma Kastamonuyê dagir kir; Mîr Gazî di 1132an de wir paşve girt."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1136-01-01:0": {
+"b": "Dûkatiya Gaetayê tevlî Qraliyeta Sîcîlyayê bû",
+"d": "Dûkatiyê pêşî bi fethê Norman xweseriya xwe winda kiribû (1032) û di 1136an de tevlî Qraliyeta Sîcîlyayê ya Rogerê II. bûbû."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1144-12-24:0": {
+"b": "Hêzên Tirk ketin Rihayê; kela hundirîn du roj paşê teslîm bû û bajar derbasî Zengî bû.",
+"d": "Hêzên Tirk ketin Rihayê; kela hundirîn du roj paşê teslîm bû û bajar derbasî Zengî bû."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1146-04-28:0": {
+"b": "Ebdulmumin piştî dorpêçeke neh mehî Fas zeft kir",
+"d": "Ebdulmuminê ku ji bo dawîanîna Murabitan ji Vehranê meşiya Fasê, bajar neh mehan dorpêç kir û girt (28ê Nîsana 1146)."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1147-01-01:0": {
+"b": "Norman Korînthos talan kir",
+"d": "Normanên Sîcîlyayê di payîza 1147an de ketin Kendava Korîntê, Korînthos, yek ji du navendên pîşesaziya îpekê, dagir kirin û talan birin Palermoyê."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1147-01-01:1": {
+"b": "Qralê Sîcîlyayê Roger Korfû girt",
+"d": "Donanmaya Norman a Rogerê II. di payîza 1147an de êrişî peravên Bîzansê kir; girava Korfûyê zeft kir, Korînthos û Thebai talan kirin. Girav di 1148-1149an de bi alîkariya donanmaya Venedîkê hat paşvegirtin."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1150-01-01:0": {
+"b": "Danişmendî Aynudewle Gerger, Kâhta, Semsûr û Palo ji Xaçparêzan girtin",
+"d": "Melîkê Meletiyê Aynudewle ê ku bi Artuqî Qere Arslan re êrişî erdê Xaçparêzan kir, di 1150an de Gerger, Kâhta, Semsûr û Palo bi dest xistin û gelek êsîr girtin. Di heman salê de Melîkê Sêwas-Amasyayê Yağıbasan Ünye, Samsun û Bafra zeft kirin."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1150-01-01:1": {
+"b": "Melîkê Sêwas-Amasyayê Yağıbasan li peravê Deryaya Reş Ünye, Samsun û Bafra zeft kirin",
+"d": "Danişmendî Yağıbasan di heman salê de ku êrişên Aynudewle li başûr bûn, li herêma Deryaya Reş dest bi fethan kir û Ünye, Samsun û Bafra girtin; Bafra û Ünye paşê (1157) vegerandin Împeratorê Bîzansê Manuel."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1150-04-30:0": {
+"b": "Xûriyan bajarê Xeznê şewitand",
+"d": "Xûriyên ku roj bi roj xurt dibûn bi hinceta tolhildanê bajarê Xeznê şewitandin (545/1150-51); her çend Behram Şah di 547an (1152) de dîsa li bajêr serdest bû, Xeznewî ketin pêvajoya hilweşînê."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1158-11-04:0": {
+"b": "Ebdulmumin Tûnis zeft kir",
+"d": "Ebdulmumin di 4ê Mijdara 1158an de Tûnis girt; paşê serkeftinên xwe yên li Cezayîra Bakurrojhilat xurt kirin."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1168-01-01:0": {
+"b": "Manuel Komnenos Dalmaçya tevlî Bîzansê kir",
+"d": "Manuel Komnenos ê ku şerên bi Macaristan û Rasciayê re didomand, piştî seferên nîvê salên 1160î bi fethkirina Dalmaçyayê cihê xwe xurt kir."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1171-01-01:0": {
+"b": "Donanmaya Venedîkê Dubrovnîk neçar kir ku serî deyne û kont tayîn kir",
+"d": "Wek bersiva li dijî girtina Venedîkiyan ji aliyê Manuel ve, donanmaya Venedîkê ya ku di Îlona 1171ê de derket rê, li rê êrişî Dubrovnîkê (Ragusa) kir; bajar teslîm bû û 'kontek' ji Venedîkê wergirt."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1174-01-01:0": {
+"b": "Gurciyan Anî cara sêyem girt û tevlî welatê xwe kirin",
+"d": "Gurciyan di 1174an de bajarê Anî girtin û tevlî welatê xwe kirin; li ser vê Exlatşah Sökmen û artêşa Selçûqî di havîna 1175an de li Nexçîwanê civiyan û bi sefereke li ser erdê Gurciyan bersiv dan."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1175-07-22:0": {
+"b": "Eyûbiyan Eden fetih kir, serdestiya Zureyî ya li Edenê bi dawî bû.",
+"d": "Eyûbiyan Eden fetih kir, serdestiya Zureyî ya li Edenê bi dawî bû."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1175-07-22:1": {
+"b": "Herat ket destê Xûriyan",
+"d": "Herat di 571an (1175-76) de ket bin serdestiya Xûriyan; Siltanê Xûrî Xiyaseddîn Muhammed li ser vexwendina gelê ku ji rêveberiya Selçûqî Bahaeddîn Tuğrul ne razî bû, berê xwe dabû bajêr."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1183-06-11:0": {
+"b": "Îmadeddîn Zengî Heleb li beramberî bajarên din teslîmî Selahedîn kir; bakurê Sûriyeyê ket bin serdestiya Eyûbiyan.",
+"d": "Îmadeddîn Zengî Heleb li beramberî bajarên din teslîmî Selahedîn kir; bakurê Sûriyeyê ket bin serdestiya Eyûbiyan."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1184-04-14:0": {
+"b": "Benî Xaniye Bicaye, Cezayîr, Milyane û Tûnis dagir kirin",
+"d": "Benî Xaniye (berdewama Murabitan) yên ku piştî girêdana bi Ebbasiyan derbasî Mexribê bûn, ji mirina hukumdarê Muwehîdan sûd wergirtin û Bicaye, Cezayîr, Milyane û Tûnis dagir kirin (580/1184)."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1187-03-13:0": {
+"b": "Ebû Yûsuf el-Mensûr Tûnis ji Benî Xaniye paşve girt",
+"d": "Benî Xaniye di sala 580an (1184) de Bicaye, Cezayîr, Milyane û Tûnis dagir kiribûn; Mensûr di 583an (1187) de Tûnis paşve girt lê nekarî Benî Xaniye bi tevahî ji herêmê derxe."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1196-01-01:0": {
+"b": "Mensûr piştî serkeftina Erekê Wadîlhîcare paşve girt, Tuleytula dorpêç kir",
+"d": "Di berdewama serkeftina Alarcosê de Mensûrê ku ber bi bakur ve meşiya, hin bajar û kelayên wek Wadîlhîcare (Guadalajara) û Salamanca paşve girtin (1196); Tuleytula jî dorpêç kir lê encam negirt."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1202-01-01:0": {
+"b": "Silêman Şahê II. Albîstan kir wîlayeteke ku rasterast bi navendê ve girêdayî ye",
+"d": "Silêman Şahê II. di dema sefera Gurcistanê de Erzîrom ji Saltuqiyan girt û da birayê xwe Tuğrul Şah; li beramberî vê yekê Albîstan kir wîlayeteke ku rasterast bi navendê ve girêdayî ye (1202)."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1202-06-25:0": {
+"b": "Gava serdestiya Saltuqiyan bi dawî bû Bayburt derbasî Dewleta Selçûqî ya Anatolyayê bû",
+"d": "Gava Selçûqiyan di 1202an de dawî li Dewleta Saltuqî anî Bayburt jî bi dest xistin; bajar di dema birayê Silêman Şah, Melîkê Erzîromê Muğîsuddîn Tuğrul Şah û kurê wî Cîhan Şah (1202-1230) de pêşve çû."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1202-06-25:1": {
+"b": "Gava serdestiya Saltuqiyan bi dawî bû herêma Pasînler bi melîktiya Erzîromê ya Dewleta Selçûqî ya Anatolyayê ve hat girêdan",
+"d": "Bi dawîanîna xanedana Saltuqî ji aliyê Silêman Şahê II. ve bajarên Saltuqî yên derdora Erzîromê bi melîktiya Tuğrul Şah ve hatin girêdan."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1202-11-15:0": {
+"b": "Sefera Xaçparêzan a Çaremîn Zadar (Zara) girt û talan kir",
+"d": "Xaçparêzên ku nikarîbûn deynên xwe yên ji Venedîkê re bidin, bi pêşniyara Doge Dandolo, li beramberî paşxistina deyn, lîmana Dalmaçyayê Zadar (Zara) a ku qralê Macar çend sal berê girtibû, girtin; bajarê Xirîstiyan di 15ê Mijdara 1202an de hat talankirin. Ev bûyer xeleka yekem a zincîrê ye ku berê seferê dê bizîvirîne Konstantînopolîsê."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1203-01-01:0": {
+"b": "Fîlîbe ket destê Bulgarên Kaloyan",
+"d": "Fîlîbeya ku di Sefera Xaçparêzan a Sêyemîn de hat talankirin û di 1204an de dîsa rastî êrişên Xaçparêzan hat, nêzîkî 1203an ket destê Bulgaran."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1203-01-01:1": {
+"b": "Benî Xaniye kontrola Tûnisê digirin destê xwe (çavkanî serdestiya de facto ji salên 1180î ve, 1203an jî wek sala kontrola temam didin).",
+"d": "Benî Xaniye kontrola Tûnisê digirin destê xwe (çavkanî serdestiya de facto ji salên 1180î ve, 1203an jî wek sala kontrola temam didin)."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1204-06-24:0": {
+"b": "Rouen piştî berxwedaneke çil rojî teslîmî Philippe Auguste dibe",
+"d": "Bi dorpêça Château-Gaillard a Îlona 1203-Nîsana 1204an qedera Normandiyayê hat diyarkirin; Rouena ku bi bazirganiyê bi Îngilistanê ve girêdayî bû, piştî çil rojan berxwedanê di 24ê Hezîrana 1204an de teslîm bû."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1205-01-01:0": {
+"b": "Selanîk ket destê Xaçparêzan: Qraliyeta Latîn a Selanîkê",
+"d": "Bîst sal piştî Sefera Xaçparêzan a Çaremîn artêşa Xaçparêz Selanîk bi dest xist û bajar kir navenda Qraliyeta Latîn a Selanîkê (1205-1225); dêrên Ortodoks (Aya Dîmîtrios, Ayasofya) veguherandin dêrên Katolîk."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1207-01-01:0": {
+"b": "Korfû teslîmî Venedîkê bû: deh lordtiyên esilzadeyên Venedîkî",
+"d": "Gelê Korfûyê ku li hemberî êrişa filoya Venedîkê di 1205an de li ber xwe da tenê di 1207an de teslîm bû; girav bi navê Komarê ji aliyê dekarkhiya (rêveberiya deh kesî) ya esilzadeyên Venedîkî ve hat birêvebirin."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1208-07-16:0": {
+"b": "Herat piştî dorpêçeke sêzdeh mehî ket destê Xarizmşahan",
+"d": "Herat di 605an (1208-1209) de piştî dorpêçeke sêzdeh mehî ji Xûriyan ket destê Xarizmşahan; di 1221ê de jî Mexolên bi fermandariya Tuluy bajar girtin."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1209-01-01:0": {
+"b": "Xaçparêzên Albîgensî Carcassonne digirin",
+"d": "Vîkontîtiyên Carcassonne û Béziers ji ber rola ku vîkont Raymond Roger li dijî Simon de Montfort lîst di Sefera Xaçparêzan a Albîgensî de di 1209an de ji aliyê Xaçparêzan ve hatin girtin; vîkontîtî di 1247an de ji aliyê qraliyetê ve hat desteserkirin."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1215-01-01:0": {
+"b": "Alaeddîn Muhammed Xezne girt û da kurê xwe Celaleddîn; atabegên Fars û Azerbaycanê îtaet kirin",
+"d": "Alaeddîn Muhammedê ku di heman salê de Xezne girt û da kurê xwe Celaleddîn, bi têkbirina Atabegê Fars Sad b. Zengî û Atabegê Azerbaycanê Özbek îtaeta wan bi dest xist; Xarizmşahan li qadeke fireh a ku ji peravên Sîrderyayê heta Iraqa Ereb dirêj dibû serdestî ava kir."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1215-01-01:1": {
+"b": "Simon de Montfort dikeve Toulouseyê",
+"d": "Fermandarê Sefera Xaçparêzan a Albîgensî Simon de Montfort di 1215an de Toulouse dagir kir; di 1218an de dema bajar dorpêç dikir mir."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1225-01-13:0": {
+"b": "Celaleddîn Xarizmşah sefer li Gurcistanê kir û Dvîn zeft kir",
+"d": "Celaleddîn Xarizmşahê ku ji hewldanên xwe yên dîplomatîk encam negirt di 622/1225an de Dvîn zeft kir; bajarên Kerbî û Zûn jî girtin û vegeriya Azerbaycanê."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1226-01-02:0": {
+"b": "Celaleddîn Xarizmşah Qers û derdora wê ji nû ve fetih kir",
+"d": "Dema herêm di destê Gurciyan de bû, fethkirina nû ya Qers û derdora wê ji aliyê Celaleddîn Xarizmşah ve (623/1226) di cîhana Îslamê de şahî rakir; piştî mirina wî bajar dîsa ket destê Gurciyan."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1227-04-01:0": {
+"b": "Celaleddîn Xarizmşah Tîflîs fetih kir",
+"d": "Sala din Celaleddîn Xarizmşahê ku dîsa derket sefera Gurcistanê di Rebîulaxira 624an / Nîsana 1227an de Tîflîs fetih kir; di heman salê de Anî û Qers dorpêç kirin."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1228-01-01:0": {
+"b": "Birayên Şûr Tallînn girt (ji Danîmarkayê)",
+"d": "Li gorî Treccani Tallînn di 1228an de ji aliyê Tarîqata Birayên Şûr ve hat girtin û di 1237an de vegeriya Danîmarkiyan."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1228-06-29:0": {
+"b": "Ebû Zekeriya Yehya el-Hefsî ket Tûnisê",
+"d": "Birayê waliyê Îfrîqiya yê Muwehîdan Ebû Muhammed Ebdullah, Ebû Zekeriya, di 24ê Receba 625an de (29ê Hezîrana 1228) ket Tûnisê; li ser tevahiya Îfrîqiyayê serdest bû."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1229-11-20:0": {
+"b": "Celaleddîn Xarizmşah li nêzîkî gola Betakê hevpeymaniya Gurcî-Ermenî-Qipçaqan têk bir û ket Tîflîsê",
+"d": "Celaleddîn dema bi dorpêça Exlatê mijûl bû ji wezîrê xwe Şerefulmulk bihîst ku Gurcî amadekariya girtina Tîflîsê dikin, li derdora gola Betakê li hemberî hevalbendên Gurcî, Ermenî û Qipçaqan derket, Qipçaq bi rêyên dîplomatîk ji şer derxistin, artêşa Gurcî têk bir û ket Tîflîsê (627/1229)."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1231-01-01:0": {
+"b": "Mexol ketin Gurcistanê; li Tîflîsê rêveberiya Mexolan ava bû",
+"d": "Mexol di 1231ê de ketin Gurcistanê; Qralîçe Rusudan ji Papa Gregoriusê IX. alîkarî xwest, gava encam negirt neçar ma ku Tîflîs biterikîne. Di 1231ê de li Tîflîsê rêveberiya Mexolan ava bû."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1239-01-01:0": {
+"b": "Danylo Kîev girt û voyvoda Dmytro danî serê wî",
+"d": "Di 1239an de Danylo Kîeva ku berê di qada bandora wî de bû girt û voyvoda Dmytro wek rêveber tayîn kir; salekê paşê Mexol dê bajar hilweşînin."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1240-12-01:0": {
+"b": "Batu Xan Kîev girt û talan kir; dawiya Rûsa Kîevê",
+"d": "Di Kanûna 1240an de artêşa Mexol-Teter a Batu Xan Kîev bi dest xist û nifûsa wê qir kir; Kîev, Volodîmîr û Halych hatin hilweşandin. Rûsyaya Başûr tevlî Împeratoriya Mexolan bû (Ordiya Zêrîn). Ev bûyer wek dawiya de facto ya Rûsa Kîevê tê hesibandin."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1243-04-02:0": {
+"b": "Mursiya (Murcia) teslîmî Kastîlyayiyan bû",
+"d": "Mursiyaya ku di 1241ê de hat dorpêçkirin, gava ji derve alîkarî negirt di çarçoveya peymanekê de di 10ê Şewala 640an de (2ê Nîsana 1243) teslîm bû."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1244-04-19:0": {
+"b": "Kastîlyayiyan Mursiya piştî serhildanê dîsa xistin bin serdestiya xwe",
+"d": "Mursiyayiyan salekê paşê dagirker avêtin û dilsoziya xwe ji Nasriyan re ragihandin; Kastîlyayiyan di 9ê Zîlqedeya 641an de (19ê Nîsana 1244) bajar dîsa girt."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1244-10-20:0": {
+"b": "Piştî şerê li nêzîkî Xezeyê Quds ji Xaçparêzan paşve hat girtin (16ê Cemazîyelewela 642an).",
+"d": "Piştî şerê li nêzîkî Xezeyê Quds ji Xaçparêzan paşve hat girtin (16ê Cemazîyelewela 642an)."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1247-01-01:0": {
+"b": "Vîkontîtiyên Carcassonne û Béziers ji aliyê qraliyetê ve tên desteserkirin",
+"d": "Vîkontîtiya Carcassonneyê (bi Béziers re) di 1247an de ji ber rola ku vîkont Raymond Roger di Sefera Xaçparêzan a Albîgensî de li dijî Simon de Montfort lîst ji aliyê qral ve hat desteserkirin."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1247-01-01:1": {
+"b": "es-Salih Eyûb Teberiye ji Xaçparêzan paşve girt",
+"d": "Di nav cihên ku Îmadeddîn Îsmaîl berî 1244an ji Xaçparêzan re hiştibû de Teberiye jî hebû; Siltan Eyûb di 1247an de Teberiye ji Xaçparêzan paşve girt."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1248-04-26:0": {
+"b": "Fernandoyê III. Sevilla piştî dorpêçeke hijdeh mehî girt",
+"d": "Piştî şerên bi salan û dorpêçeke hijdeh mehî qralê Kastîlyayê Fernandoyê III. Sevilla bi dest xist (646/1248); nêzîkî 400.000 kes neçar man ku herêmê biterikînin, Mizgefta Mezin veguherî dêrê."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1248-04-26:1": {
+"b": "Merîniyan Fas, Sela û Taze girtin",
+"d": "Merîniyan di 646an (1248) de Fas, Sela û Taze ji Muwehîdan girtin; di navbera 1250-1255an de beşeke mezin a Mexriba Dûr ji destê Muwehîdan derket."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1251-03-26:0": {
+"b": "Merîniyan Rabat û Sela girtin",
+"d": "Hukumdarê Merînî Ebû Yehya Ebû Bekir b. Ebdulheq di 649an (1251) de Rabat û Sela bi dest xistin."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1262-01-01:0": {
+"b": "Bîzansê başûrê Moreayê paşve girt: Monemvasia, Mîstra, Maina û Geraki",
+"d": "Villehardouinê ku li Pelagoniayê êsîr ket, ji bo ku azad bibe kelayên Monemvasia, Mîstra, Maina (Mani) û Geraki ji Bîzansê re hiştin; Bîzansê li Moreayê erdê xwe yê mayînde yê yekem paşve girt û Mîstra paşê dê bibe navenda Despotîtiya Moreayê."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1273-07-18:0": {
+"b": "Merîniyan Sebte (Ceuta) ji feqîh el-Azefî girt",
+"d": "Piştî Tancayê Ebû Yûsuf Sebteya di bin rêveberiya feqîh Ebulqasim el-Azefî de zeft kir; derfeta derbasbûna Endelusê bi dest xist (672/1273-74)."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1273-07-18:1": {
+"b": "Merîniyan Tanca girt",
+"d": "Ebû Yûsuf di 672an (1273-74) de pêşî Tanca zeft kir."
+},
+"OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1291-01-01:0": {
+"b": "Memlûkan Beyrût fetih kir",
+"d": "Beyrûta ku heta 1291ê di destê Xaçparêzan de ma, di vê dîrokê de bi navê Siltanê Memlûk el-Melîk el-Eşref Xelîl ji aliyê Waliyê Şamê Mîr Sencer Ebû Şucaî ve hat fetihkirin."
+},
+"OLAYLAR_KUNFUZE_1016:1814-03-01:0": {
+"b": "Hêzên Mehmed Elî Qunfuze ji Wehabiyan girtin",
+"d": "Sefera deryayî ya ku ji Ciddeyê derket Qunfuzeya ku pênc sal di destê şêxê Esîrê Tamî de bû bê rijandina xwînê girt."
+},
+"OLAYLAR_KUNFUZE_1016:1814-05-01:0": {
+"b": "Êrişa ji nişka ve ya Tamî — garnîzona Misirê vekişiya keştiyan",
+"d": "Hêza Wehabî ya bi fermandariya Tamî leşkerên Albanî yên ku bîr digirtin tepeser kirin; hêzên Misirê reviyan keştiyan, top û barên giran ji Wehabiyan re man."
+},
+"OLAYLAR_KUNFUZE_1016:1815-03-01:0": {
+"b": "Mehmed Elî piştî serkeftina Bîselê ket Qunfuzeyê",
+"d": "Artêşa ku piştî Bîselê ber bi başûr ve meşiya gihîşt Qunfuzeyê; Tamîya ku hat girtin anîn vir, artêş ji vir vegeriya Mekkeyê."
+},
+"OLAYLAR_KUNFUZE_1016:1840-05-09:0": {
+"b": "Artêşa Misirê ji Tîhameyê vekişiya",
+"d": "Bi fermana valakirinê artêşa Yemenê ya Misirê ji Tîhameyê veqetiya; bajarên peravê ketin destê şerîfê Ebû Arîş."
+},
+"OLAYLAR_KUNFUZE_1016:1871-03-01:0": {
+"b": "Fîrqeya Redîf Paşa derket Qunfuzeyê",
+"d": "Fîrqeya yedek a ku ji Kanala Sûwêşê derbas bû derket Qunfuzeya ku di destê Muxeydiyan de bû û ji vir meşiya ber bi çiyayên Esîrê."
+},
+"OLAYLAR_KUNFUZE_1016:1916-07-18:0": {
+"b": "Teslîmkirina Qunfuzeyê ji keştiyên Îngilîz re",
+"d": "Li ser bombebarana keştiyên şer ên Îngilîz garnîzona Osmanî teslîm bû; ala Îdrîsî li bajêr hat hildan, çend roj paşê garnîzona Îdrîsî bi cih bû. Di Tebaxê de bi îtîraza Şerîf Huseyîn Îngilistanê Îdrîsî neçar kir ku vekişe."
+},
+"OLAYLAR_KUNFUZE_1016:1919-05-01:0": {
+"b": "Qralê Hîcazê Huseyîn Qunfuze dîsa dagir kir",
+"d": "Karmendên Hîcazê şandin Qunfuzeya ku di tevahiya şer de vala mabû; Îdrîsî îtîraz kir."
+},
+"OLAYLAR_2S1019:1207-03-05:0": {
+"b": "Xiyaseddîn Keyxusrew Antalyayê fetih kir — Selçûqî gihîştin Deryaya Spî",
+"d": "Antalyaya ku piştî girtina Stenbolê ji aliyê Latînan ve ket destê Îtalî Aldobrandinî, bi piştgiriya Rûmên ku ji rêveberiya Latîn ne razî bûn ji aliyê Siltanê Selçûqî yê Anatolyayê Xiyaseddîn Keyxusrewê I. ve hat girtin."
+},
+"OLAYLAR_2S1019:1216-01-22:0": {
+"b": "Îzzeddîn Keykawus Antalya ji Qibrisiyan paşve girt",
+"d": "Antalyaya ku di encama serhildana 1212an a bi piştgiriya qralê Qibrisê de ji dest çûbû, Îzzeddîn Keykawusê I. ji nû ve fetih kir û waliyiya wê dîsa da Mubarizeddîn Ertokuş."
+},
+"OLAYLAR_2S1019:1268-03-08:0": {
+"b": "Baybars Yafa ji Xaçparêzan girt — serdestiya Qraliyeta Qudsê ya li Yafayê bi dawî bû",
+"d": "Siltanê Memlûk Baybarsê I. dawî li serdestiya Xaçparêzan a li Yafayê anî, bajar da xirakirin; dar û mermera kela hundirîn ji bo avakirina mizgefta xwe ya li Qahîreyê şand."
+},
+"OLAYLAR_2S1019:1268-05-18:0": {
+"b": "Baybars Antakya girt — dawiya Prînkepstiya Antakyayê",
+"d": "Artêşa Memlûk bi êrişeke giştî sûrên Antakyayê derbas kirin; prînkepstiya Xaçparêzan a 170 salî bi dawî bû û Îskenderûn jî dîsa tevlî axa Îslamê bû."
+},
+"OLAYLAR_2S1019:1328-11-05:0": {
+"b": "Qeramanoğlûyan Konya ji Îlxaniyan paşve girt",
+"d": "Piştî reva waliyê Îlxanî yê Anatolyayê Demirtaş a Misirê Konya dîsa ket destê Qeramanoğlûyan. Bajar dê di 1350î de derbasî Eretnayê bibe."
+},
+"OLAYLAR_2S1019:1345-01-01:0": {
+"b": "Stefan Duşan Serez ji Bîzansê girt",
+"d": "Qralê Sirbî Stefan Duşan ji şerê navxweyî yê Bîzansê sûd wergirt, Serez bi dest xist û bajar kir paytexta Împeratoriya Sirbî."
+},
+"OLAYLAR_2S1019:1389-07-01:0": {
+"b": "Balçik û peravê Dobrûcayê ket bin rêveberiya Osmanî",
+"d": "Piştî serkeftina Kosovayê Balçika li peravê Dobrûcayê ket bin rêveberiya Osmanî. Voyvodayê Eflaqê Mircea dê tavilê paşê herêmê dagir bike û serdestiya Osmanî dê di 1393an de ji nû ve ava bibe."
+},
+"OLAYLAR_2S1019:1392-10-26:0": {
+"b": "Seyîdên Maraşî li Mahaneserê teslîmî Teymûr bûn — Mazenderan derbasî Tîmûriyan bû",
+"d": "Teymûrê ku di sefera xwe ya pênc salî de ket Mazenderanê, Maraşiyên ku li Karatoganê li pêşiya wî derketin tengand nav kela Mahaneserê û teslîm girt. Li Sarî û Amulê qirkirineke mezin hat kirin; Sarî da kurê Kiya Efrasiyab Îskender Şeyxî."
+},
+"OLAYLAR_2S1019:1412-01-01:0": {
+"b": "Şîbenîk dîsa ket bin rêveberiya Komara Venedîkê",
+"d": "Şîbenîka ku piştî firotina mafên Ladislasê Napolîtanî yên li ser Dalmaçyayê ji Venedîkê re di 1409an de li ber xwe da, di 1412an de dîsa ket bin rêveberiya Venedîkê. Bajar heta hilweşîna Komarê di 1797an de wek milkê Venedîkê yê Dalmaçyayê ma."
+},
+"OLAYLAR_2S1019:1417-02-18:0": {
+"b": "Sefera Çelebî Mehmed a li ser Candaroğlûyan: Çankiri da Qasim Beg ê di bin parastina Osmanî de",
+"d": "Çelebî Mehmedê ku li dijî Candaroğlû Îsfendiyar Beg, ê ku alîkarî da derbasbûna Şêx Bedredîn a Eflaqê, meşiya, ber bi Kastamonuyê ve pêşve çû û Sînopa ku Îsfendiyar vekişiyabûyê dorpêç kir. Îsfendiyar serdestiya Osmanî nas kir; çiyayê Ilgazê wek sînor hat qebûlkirin û Çankiri û derdora wê da kurê wî Qasim Beg ê ku penaber bibû cem Osmanî."
+},
+"OLAYLAR_2S1019:1500-01-01:0": {
+"b": "Moskovayê Bryansk ji Dûkatiya Mezin a Lîtvanyayê girt",
+"d": "Di şerê Moskova-Lîtvanya ya 1500-1503an de artêşa Rûs Bryansk girt û bajar tevlî dewleta Moskovayê bû; agirbesta 1503an ev destkeftî nas kir."
+},
+"OLAYLAR_2S1019:1516-08-24:0": {
+"b": "Bıyıklı Mehmed Paşa Mûsil, Şingal û Amêdiyê ji Sefewiyan girt",
+"d": "Bıyıklı Mehmed Paşayê ku li Koçhisarê Qere Xan têk bir, dema Mêrdîn dorpêç dikir kelayên derdorê ji Sefewiyan girtin: Mûsil, Riha, Bîrecik û Şingal hatin bidestxistin, Amêdî û hakimên Kurd ên din bindestiya Osmanî qebûl kirin. Kela Mêrdînê jî dê piştî vegera Paşa ji Mercidabiqê were teslîmgirtin."
+},
+"OLAYLAR_2S1019:1523-06-06:0": {
+"b": "Gustav Vasa li Strängnäsê wek qral hat hilbijartin — Qraliyeta Swêdê ji Yekîtiya Kalmarê veqetiya",
+"d": "Gustav Eriksson Vasa yê ku piştî Hemama Xwînê ya Stockholmê (1520) li dijî qralê Danîmarkayê Christianê II. serî hilda, di Gulana 1523an de li Riksdaga Swêdê ya ku li Strängnäsê civiyabû di 6ê Hezîrana 1523an de wek qral hat hilbijartin. Bi vî awayî Swêd û Fînlandaya girêdayî wê ji Yekîtiya Kalmarê ya ku ji 1397an ve dom dikir bi teqezî derket û serdema Vasa ya Qraliyeta Swêdê ya serbixwe dest pê kir."
+},
+"OLAYLAR_2S1019:1375-01-01:0": {
+"b": "Kontîtiya Feldkirchê ji Awistiryaya Habsburgan re hat firotin",
+"d": "Kontê dawî yê şaxa Montfort-Feldkirchê Rudolf di 1375an de tevahiya milkê xwe ji dûkên Awistiryayê Habsburgan re firot; dewrkirina de facto bi mirina wî (1390) temam bû. Feldkirch bû parçeya mezin a yekem a Vorarlbergê ku ket destê Habsburgan."
+},
+"OLAYLAR_2S1019:1451-01-01:0": {
+"b": "Nîvê yekem ê kontîtiya Bregenzê ji Awistiryaya Habsburgan re hat firotin",
+"d": "Mîrasgira Montfort-Bregenzê Elisabetha Hochbergê di 1451ê de nîvê kontîtiya Bregenzê ji Habsburgan re firot; nîvê mayî di 1523an de hat girtin. Bi vî awayî Bregenz bû parçeya Vorarlberga Habsburgan."
+},
+"OLAYLAR_2S1019:1526-12-05:0": {
+"b": "Zimreyên Sîlezyayê Ferdinandê I. wek qral nas kirin — Sîlezya derbasî Awistiryaya Habsburgan bû",
+"d": "Zimreyên Sîlezyaya Jorîn û Jêrîn, Ferdinandê Habsburg ê ku di Cotmeha 1526an de ji tacê Bohemyayê yê ku bi mirina Lajosê II. li Mohaçê vala mabû hat hilbijartin, di civîna giştî de bi şertê teyîdkirina îmtiyazên xwe di 5ê Kanûna 1526an de wek qral, jina wî Anna wek qralîçe nas kirin. Bi vî awayî dûkatiyên Sîlezyayê bi tacê Bohemyayê re ketin bin rêveberiya Habsburgan."
+},
+"OLAYLAR_2S1019:1550-06-12:0": {
+"b": "Qralê Swêdê Gustav Vasa Helsînkî ava kir",
+"d": "Qralê Swêdê Gustav Vasa di 1550î de li devê çemê Vantaayê, ji bo ku di bazirganiya Baltîkê de bi Revalê (Tallînn) re reqabet bike, Helsînkî wek bajarekî bazirganiyê yê nû da avakirin. Bajar di 1640an de ber bi deryayê, cihê xwe yê îro, hat veguhastin."
+},
+"OLAYLAR_2S1019:1633-01-01:0": {
+"b": "Îmamê Yarubî yê Umanê Nasir b. Murşid Culfar ji Portûgalan girt",
+"d": "Portûgalên ku piştî ketina Hurmuzê di 1622an de jî li Culfarê man, bi girtina 1633an a îmamê Yarubî yê Umanê Nasir b. Murşid ji herêmê hatin derxistin."
+},
+"OLAYLAR_2S1019:1686-09-30:0": {
+"b": "Windakirina kela Sîn (Sinj) ji Venedîkê re — hundirê Dalmaçyayê",
+"d": "Di dema Şerê Moreayê de hêzên Venedîkê di 1686an de kela Sîn (Sinj) a li hundirê Dalmaçyayê ji Osmaniyan girtin; kelayê li hemberî dorpêça Osmanî ya 1715an jî li ber xwe da û di destê Venedîkê de ma."
+},
+"OLAYLAR_2S1019:1687-09-06:0": {
+"b": "Varadîn û Baç dikevin destê Qraliyeta Macaristanê (Tacê Habsburg) — vekişîna ji Baçkayê piştî Harşanê",
+"d": "Artêşa Sarı Süleyman Paşa ya ku ji têkçûna Harşanê vekişiya, di 1ê Îlona 1687an de ji Varadînê derbas bû û kela ji Cafer Paşa re hişt; demeke kurt paşê Varadîn û Baça li Baçkayê ketin destê hêzên Habsburg ên hevalbend. Gava li Karlofçayê Sava wek sînor hat qebûlkirin Varadîn li aliyê Awistiryayê ma."
+},
+"OLAYLAR_2S1019:1687-09-26:0": {
+"b": "Ösek dikeve destê Qraliyeta Macaristanê (Tacê Habsburg) — windakirina Slavonyayê dest pê kir",
+"d": "Piştî têkçûna Harşanê kela pirê ya Ösekê ya li ser Dravayê di 26ê Îlona 1687an de derbasî hêzên Habsburg bû. Hebûna leşkerî ya Osmanî û nifûsa Tirk a li Slavonyayê di navbera 1686-1688an de gav bi gav vekişiya; herêm ket bin rêveberiya Habsburg."
+},
+"OLAYLAR_2S1019:1687-09-30:0": {
+"b": "Windakirina Herceg Noviyê ji Venedîkê re — devê kendava Kotorê",
+"d": "Di dema Şerê Moreayê de donanmaya Venedîkê û hevalbendên wê di 1687an de kela Herceg Noviyê ya li devê kendava Kotorê dorpêç kirin û girtin; bajar heta hilweşîna Komara Venedîkê di 1797an de di destê Venedîkê de ma."
+},
+"OLAYLAR_2S1019:1794-06-15:0": {
+"b": "Girêdana Korsîkayê bi tacê Îngilîz ve — Qraliyeta Anglo-Korsîkayê",
+"d": "Paoliyê ku li dijî Fransaya Şoreşê serî hilda, bi piştgiriya donanmaya Îngilîz girav ji garnîzonên Fransî paqij kir; konsultaya ku li Corteyê civiya makezagonek pejirand ku Korsîka bi qralê Îngilîz ve girêdide. Girav du salan wek Qraliyeta Anglo-Korsîkayê di bin rêveberiya waliyê giştî yê Îngilîz Gilbert Elliot de ma."
+},
+"OLAYLAR_2S1019:1796-10-01:0": {
+"b": "Valakirina Korsîkayê ya Îngilîzan — girav dîsa dibe ya Fransayê",
+"d": "Bi serkeftinên Bonapart ên li Îtalyayê û derbasbûna Spanyayê ya aliyê Fransayê Îngilistana ku li Deryaya Spî tengav bûbû Korsîka vala kir. Qraliyeta Anglo-Korsîkayê bi dawî bû û girav dîsa bi Fransayê ve hat girêdan."
+},
+"OLAYLAR_2S1019:1906-04-13:0": {
+"b": "Îbn Siûd mîrê Reşîdî têk bir — Qesîm ji Mîrektiya Şemmarê derbasî Siûdiyan bû",
+"d": "Ebdulezîz b. Siûd ê ku Riyad di 1902an de paşve girt, di 13ê Nîsana 1906an de mîrê Reşîdî Ebdulezîz b. Mutib têk bir û kuşt. Piştî vî şerî herêma Qesîmê (Bureyde, Uneyze) bi dest xist; Reşîdî piştî vê tenê li Haîlê û derdora wê hukum kirin."
+},
+"OLAYLAR_2S1019:1903-03-15:0": {
+"b": "Îngilîzan Sokoto dagir kir — Xîlafeta Sokotoyê paytexta xwe winda kir",
+"d": "Waliyê Îngilistanê Lugard, ya ku Nîjeryaya Bakur di 1900î de kolonî îlan kir, piştî ku mîrektî yek bi yek girtin, artêşa Sokotoyê bi giranî têk bir û di 15ê Adara 1903an de paytext dagir kir. Bi kuştina xelîfeyê reviyayî Tahir li Burmiyê di Tîrmehê de serdestiya siyasî ya xîlafetê bi dawî bû."
+},
+"OLAYLAR_2S1019:1915-06-10:0": {
+"b": "Girava Kemeranê ji aliyê Îngilîzan ve hat dagirkirin",
+"d": "Girava Kemeranê ya li peravê Yemenê li Deryaya Sor di dema Şerê Cîhanê yê I. de di 1915an de ji aliyê Îngilîzan ve hat dagirkirin û dest pê kir ku ji Edenê were birêvebirin."
+},
+"OLAYLAR_2S1019:1918-09-21:0": {
+"b": "Dagirkirina Nablûsê ya Îngilîzan — hilweşîna eniya Filistînê",
+"d": "Di Îlona 1918an de êrişa mezin a Allenby li eniya Filistînê artêşên Osmanî yên 7. û 8. belav kir; Nablûs ket destê Îngilîzan û serdestiya Osmanî ya çar sedsalî li bajêr bi dawî bû. Bajar heta 1920î di bin rêveberiya leşkerî ya Îngilîz de ma."
+},
+"OLAYLAR_2S1019:1918-11-08:0": {
+"b": "Ketina Îngilîzan a Mûsilê — dagirkirina wîlayeta Mûsilê li dijî mutarekeyê",
+"d": "Gava Mutarekeya Mondrosê hat îmzekirin Mûsil di destê hêzên Tirk de bû. Îngilîzan li ser bingeha madeya 7. ya mutarekeyê di 8ê (an 10ê) Mijdara 1918an de ketin bajêr û di 15ê Mijdarê de yekîneyên Tirk neçar man ku ji wîlayetê vekişin. Pirsa Mûsilê li Lozanê jî nehat çareserkirin û ma ji bo Peymana Enqerê ya 1926an."
+},
+"OLAYLAR_2S1019:1878-09-18:0": {
+"b": "Artêşa Awistirya-Macaristanê berxwedan şikand û Bîhaç girt",
+"d": "Awistirya-Macaristana ku bi Peymana Berlînê mafê dagirkirina Bosna-Hersekê wergirt, li Bîhaçê rastî berxwedana Misilmanên xwecihî hat. Hêzên bi fermandariya General Wilhelm von Reinländer di 18ê Îlona 1878an de bajar girtin; garnîzona Ostrovîcayê ya li geliya Unayê jî bi heman operasyonê ji destê Osmanî derket."
+},
+"OLAYLAR_2S1019:1439-08-27:0": {
+"b": "Bi girtina Semendîreyê Hisarcık (Grocka) jî derbasî Osmanî bû",
+"d": "Piştî dorpêçeke sê mehî Semendîre hat girtin. Hisarcık (Grocka) a ku 17 km ji Semendîreyê dûr e di atlasê de aqûbeta navenda xwe ya mezin Semendîreyê dişopîne û di heman rojê de ji Despotîtiya Sirbî derbasî Osmanî dibe (dê di 1444an de were vegerandin)."
+},
+"OLAYLAR_2S1019:1458-08-06:0": {
+"b": "Bi teslîmbûna Gördüsê (Korînt) Sîkyon jî derbasî Osmanî bû",
+"d": "Fatih di sefera Moreayê de piştî dorpêçeke sê mehî Gördüs (Korînt) bi aştiyê girt. Sîkyona ku 17 km ji Korîntê dûr e di atlasê de aqûbeta navenda xwe ya mezin Gördüsê dişopîne û di heman rojê de derbasî Osmanî dibe."
+},
+"OLAYLAR_2S1019:1459-06-20:0": {
+"b": "Bi teslîmbûna Semendîreyê Hisarcık (Grocka) jî derbasî Osmanî bû",
+"d": "Jina bî ya Lazar Brankoviç Helena kela Semendîreyê teslîmî Osmaniyan kir; Despotîtiya Sirbî bi dawî bû. Hisarcık (Grocka) a ku navenda wê ya mezin Semendîre ye di heman rojê de derbasî Osmanî dibe."
+},
+"OLAYLAR_2S1019:1475-06-06:0": {
+"b": "Teslîmbûna Kefeyê û bindestiya xanê Qirimê — peravê Çerkezyayê (Soçî, Tuapse, Maykop) wek qada parastina sist bi Xanîtiya Qirimê ve hat girêdan",
+"d": "Piştî dorpêçeke çar rojî Kefe teslîmî Ehmed Paşa bû, Mengli Giray bindestiya siltanê Osmanî qebûl kir. Derdora Soçî, Tuapse û Maykopê ya ku welatê eşîrên Çerkez ên ku xanên Qirimê wek serdest nas dikirin e, di atlasê de ji vê dîrokê ve wek girêdayî Xanîtiya Qirimê bi parastineke sist tê nîşandan."
+},
+"OLAYLAR_2S1019:1344-03-26:0": {
+"b": "Qralê Kastîlyayê Alfonsoyê XI. Cezîretulxedra (Algeciras) girt: piştî dorpêçeke bîst mehî serdestiya Merîniyan bi dawî bû",
+"d": "Piştî dorpêça nêzîkî bîst mehî ya qralê Kastîlyayê Alfonsoyê XI., di encama danûstandinên ku di 21ê Adara 1344an de dest pê kirin de hukumdarê Merînî Ebulhesen ji Misilmanan re ragihand ku bajar biterikînin; di 26ê Adarê de Villa Nueva, roja din Villa Vieja hat valakirin û Kastîlyayiyan bajar wergirt. Alfonso XI di 28ê Adara 1344an de (Yekşema Xurman) bi merasîmê ket bajêr. Cezîretulxedra heta 1369an di destê Kastîlyayê de ma."
+},
+"OLAYLAR_2S1114D5:1923-07-24:0": {
+"b": "Peymana Lozanê — Patmos ji Îtalyayê re hat hiştin, serdestiya Yewnanistanê li giravên Egeyê hat teyîdkirin",
+"d": "Bi madeya 15. ya Lozanê Tirkiyeyê ji hemû maf û sernavên xwe yên li ser Diwanzdeh Giravan (Dodecanese), di nav de Batnoz (Patmos), bi berjewendiya Îtalyayê vekişiya; girav ji 1912an ve di pratîkê de di bin dagirkeriya Îtalyayê de bûn. Madeya 12. jî serdestiya Yewnanistanê li ser Limni, Semadirek, Mîdîllî, Sakız, Sisam û Nîkarya teyîd kir. Bozbaba (Ay Strati) û Fornoz (Fourni) ji 1912an ve di destê Yewnaniyan de bûn û piştî Lozanê jî li Yewnanistanê man; navê van herduyan bi xwe di madeya 12. ya Lozanê de nayên hejmartin."
+},
+"OLAYLAR_2S1114D5:1935-12-25:0": {
+"b": "Qanûna Tuncelîyê — li şûna sencaqa Dersimê wîlayeta Tunceliyê hat avakirin (navend Kalan)",
+"d": "Bi qanûna jimare 2885 hat biryardan ku li herêma Dersimê wîlayeteke nû bi navê Tunceli were avakirin; navenda îdarî ya wîlayetê bû cihê niştecihbûnê Kalan û niştecih paşê navê Tunceli wergirt. Herêm di nav Komara Tirkiyeyê de ma; tiştê ku guherî statuya îdarî û navê wê ye."
+},
+"OLAYLAR_2S1114D5:1956-03-02:0": {
+"b": "Serxwebûna Fasê: parastina Fransayê bi dawî bû, Sela û Rabat ji Qraliyeta Fasê re man",
+"d": "Bi peymana serxwebûnê ya ku di 2ê Adara 1956an de hat îmzekirin parastina Fransayê ya ku ji 1912an ve dom dikir bi dawî bû; Sela û Rabat bûn erdê Qraliyeta Fasê ya serbixwe. Spanyayê serxwebûna Fasê di 5ê Nîsana 1956an de nas kir."
+},
+"OLAYLAR_2S1114D5:1980-07-30:0": {
+"b": "Hebrîdên Nû serbixwe bûn: Komara Vanuatuyê hat avakirin",
+"d": "Kondomînyûma Hebrîdên Nû ya di bin serdestiya hevbeş a Fransa û Qraliyeta Yekbûyî de di 30ê Tîrmeha 1980an de bi navê Vanuatuyê serbixwe bû. Paytexta li girava Efate Port Vila û niştecihê Teoumayê ji rêveberiya kondomînyûmê derbasî Vanuatuyê bûn."
+},
+"OLAYLAR_2S1114D5:1994-03-01:0": {
+"b": "Afrîkaya Başûr Kendava Walvisê (Walvis Bay) dewrî Namîbyayê kir",
+"d": "Komara Afrîkaya Başûr di 1ê Adara 1994an de lîmana Kendava Walvisê û diwanzdeh giravên li vekiriyê dewrî hikûmeta Namîbyayê kir; kontrola Afrîkaya Başûr a heştê û çar salî bi dawî bû."
+},
+"OLAYLAR_MOGOLISTAN1115:1691-05-29:0": {
+"b": "Civîna Dolon Norê: xanên Xalxa bi Kangxî ve hatin girêdan; erdên Yuana Bakur (Xalxa) derbasî Qing bûn",
+"d": "Piştî dagirkirina Galdan a 1688an begên Xalxa vekişiyabûn sînorê Qing; Kangxî li Dolon Norê (Duoluonuoer) xanên Xalxa qebûl kirin. Tusiyetu Xan û Jebtsundamba Khutughtu li konê împerator derketin pêşberî wî û efûbûn wergirtin, sernav û xelat ji begên Xalxa û Mexol re hatin dayîn; Xalxa ket rêveberiya Mexol a Qing (nîzama hoşun/zasak)."
+},
+"OLAYLAR_MOGOLISTAN1115:1688-01-01:0": {
+"b": "Galdan Xan Xalxa dagir kir; li derdora Erdene Zuuyê xanîtiyên Xalxa belav bûn, begên Xalxa vekişiyan sînorê Qing",
+"d": "Hukumdarê Cungaran Galdan êrişî Xalxa kir; welatê Zasaktu Xan li Xangayê hilweşiya, Tusiyetu Xan û Jebtsundamba ji Erdene Zuuyê reviyan, Mexolên Xalxa koç kirin hundirê sînorê Qing."
+},
+"OLAYLAR_MOGOLISTAN1115:1696-06-12:0": {
+"b": "Şerê Zuunmod (Jao Modo): artêşa Qing artêşa Cungar a Galdan têk bir",
+"d": "Artêşa Qing a bi fermandariya Fiyanggu li Jao Modoyê Galdan bi giranî têk bir; jina Galdan Anu mir. Têkçûnê girêdana Xalxa bi Qing ve xurt kir, Galdan di 1697an de mir."
+},
+"OLAYLAR_ALM1115B:1810-12-01:0": {
+"b": "Napoleon Lübeck tevlî Împeratoriya Fransayê kir",
+"d": "Piştî teslîmbûna Blücher li nêzîkî Lübeckê di Mijdara 1806an de bajar ji aliyê Fransiyan ve hatibû talankirin, di Kanûna 1810an de Napoleon bajar tevlî împeratoriya xwe kir. Lübeck heta vê dîrokê ji 1226an ve bajarekî împeratorî yê azad bû."
+},
+"OLAYLAR_ALM1115B:1813-01-01:0": {
+"b": "Lübeck li dijî serdestiya Fransayê serî hilda û statuya xwe ya bajarê azad paşve girt",
+"d": "Lübecka ku di 1813an de li dijî rêveberiya Fransayê serî hilda, di 1815an de ji aliyê Kongreya Viyanayê ve wek bajarekî azad û Hansayî yê Konfederasyona Alman hat naskirin."
+},
+"OLAYLAR_ALM1115B:1937-04-01:0": {
+"b": "Qanûna Hamburgê ya Mezin ket meriyetê — statuya eyaleta serbixwe ya Lübeckê bi dawî bû",
+"d": "Qanûna Hamburgê ya Mezin a ku di 26ê Çileya 1937an de hat derxistin di 1ê Nîsana 1937an de ket meriyetê; Lübeck xweseriya xwe ya zêdetirî 700 salan winda kir û bi eyaleta Schleswig-Holsteinê ya Prûsyayê ve hat girêdan, sînorên Hamburgê fireh bûn."
+},
+"OLAYLAR_ALM1115B:1646-01-01:0": {
+"b": "Ferdinandê III. îmtiyazên bajarê împeratorî yê azad da Bremenê",
+"d": "Împerator Ferdinandê III. di 1646an de îmtiyazên bajarê împeratorî yê azad ji Bremenê re nas kirin; Swêd li dijî vê derket û di 1666an de hewl da ku bi çekan serî li bajêr bide tewandin lê bi ser neket. Hilbijêrê Hannoverê, gava serokmetranî girt (1720), Bremen wek bajarekî azad nas kir."
+},
+"OLAYLAR_ALM1115B:1810-01-01:0": {
+"b": "Bremen tevlî Împeratoriya Fransayê bû — bû navenda departmana Devên Weserê",
+"d": "Bremen di 1806an de ji aliyê Fransiyan ve hat bidestxistin, ji 1810an heta 1813an bû navenda departmana Devên Weserê (Bouches-du-Weser)."
+},
+"OLAYLAR_ALM1115B:1813-01-01:1": {
+"b": "Serdestiya Fransayê bi dawî bû — Bremen statuya xwe ya bajarê azad paşve girt",
+"d": "Mayîna Bremenê di bin rêveberiya Fransayê de wek navenda departmana Devên Weserê di 1813an de bi dawî bû; bajar di 1815an de ji aliyê Kongreya Viyanayê ve serxwebûna xwe wergirt û tevlî Konfederasyona Alman bû."
+},
+"OLAYLAR_ALM1115B:1264-01-01:0": {
+"b": "Landgrafîtiya Hessenê: Heinrichê I. yê Brabantî bû landgrafê Hessenê yê yekem, aştî bi Meißenê re 1264",
+"d": "Dîroka Hessenê wek welatekî serbixwe bi Heinrichê I. ('Zarok') dest pê dike; aştiya bi Meißenê re di 1264an de hat kirin. Heinrich li Kasselê kela da avakirin û ev der di salên paşê de bû cihê rûniştina wî ya asayî; di 1292an de ket nav mîrektiya împeratoriyê (Reichsfürstenstand)."
+},
+"OLAYLAR_ALM1115B:1567-03-31:0": {
+"b": "Landgraf Philipp 'Camêr' li Kasselê mir — Hessen di navbera çar kurên wî de hat parçekirin",
+"d": "Landgrafê Hessenê Philippê I., yek ji serokên siyasî yên Reformasyonê, di 31ê Adara 1567an de li Kasselê mir. Li gorî wesiyeta wî ya 1562an welat di navbera çar kurên wî de hat parvekirin wek Hessen-Kassel (Wilhelmê IV.), Hessen-Marburg (Ludwigê IV.), Hessen-Rheinfels (Philippê II.) û Hessen-Darmstadt (Georg); bi vî awayî Landgrafîtiya Hessenê ya yekbûyî bi dawî bû."
+},
+"OLAYLAR_ALM1115B:1358-12-01:0": {
+"b": "Kontîtiya Schwerinê bi peymanê ket destê Dûkê Mecklenburgê Albrechtê II.",
+"d": "Albrechtê II. bi peymana 1ê Kanûna 1358an bi dayîna 10.000 mark zîv ji Kont Nicolaus re Kontîtiya Schwerinê girt; ji wê dîrokê ve bajar bû erdê dûkatiya Mecklenburgê (lê bicihbûna wî wek paytext di sedsala 16. de mayînde bû)."
+},
+"OLAYLAR_ALM1115B:1815-01-01:0": {
+"b": "Dûkatiya Mecklenburg-Schwerinê sernavê dûkatiya mezin wergirt",
+"d": "Dûkê Mecklenburg-Schwerinê Friedrich Franz I di 1815an de sernavê dûkatiya mezin ('großherzogliche Würde') wergirt; qeyda dûkatiya Mecklenburgê (1348-1815) li vê xalê bi dawî dibe, welat di nav Konfederasyona Alman de wek dûkatiya mezin berdewam dike."
+},
+"OLAYLAR_ALM1115B:1637-03-10:0": {
+"b": "Dûkê Pomeranyayê yê dawî Bogislawê XIV. li Stettinê mir — xanedana Griffin bi dawî bû",
+"d": "Dûkê Pomeranyayê yê dawî Bogislawê XIV. di 10ê Adara 1637an de li Stettinê mir û bi wî re xanedana xwecihî ya Pomeranyayê vemirî. Parvekirina de facto ya dûkatiyê (Brandenburg-Swêd) bi Aştiya Westfaliyayê ya 1648an hat tescîlkirin."
+},
+"OLAYLAR_ALM1115B:1218-01-01:0": {
+"b": "Bi vemirîna nijada Zähringen Bern bû bajarê împeratorî yê azad",
+"d": "Gava xanedana Zähringen di 1218an de vemirî Bern bû bajarekî azad ê ku rasterast bi împeratoriyê ve girêdayî ye; di 1353an de wek endama heştemîn ket Konfederasyona Swîsreyê."
+},
+"OLAYLAR_ALM1115B:1024-09-08:0": {
+"b": "Konradê II. wek qralê Alman hat hilbijartin û li Mainzê tac wergirt — xanedana Salîyan dest pê kir",
+"d": "Piştî mirina Heinrichê II. mîrên Alman di 4ê Îlona 1024an de li Kambaya li peravê rastê yê Rênê civiyan; hilbijartin serokmetranê Mainzê Aribo bi rê ve bir. Konradê Pîr li dijî biraziyê xwe Konradê Ciwan bi ser ket û di cejna Zayîna Meryemê de (8ê Îlonê) li Mainzê ji aliyê Aribo ve wek qral tac lê hat danîn."
+},
+"OLAYLAR_ALM1115B:1039-06-04:0": {
+"b": "Împerator Konradê II. li Utrechtê mir",
+"d": "Împeratorê yekem ê xanedana Salîyan Konradê II. di 4ê Hezîrana 1039an de li Utrechtê piştî nexweşiyeke kurt û bi êş mir."
+},
+"OLAYLAR_ALM1115B:1122-09-23:0": {
+"b": "Konkordata Wormsê — nakokiya veberhênanê (investîtûr) bi dawî bû",
+"d": "Aştiya di navbera Împerator Heinrichê V. û Papa Calixtusê II. de, bi navbeynkariya heyeta papatiyê, di 23ê Îlona 1122an de li Wormsê (li Lobwiesenê, li tenişta bajêr) hat îlankirin. Heinrich dev ji veberhênana bi gustîl û gopalê berda, hilbijartina kanonîk a metran û serkeşîşan qebûl kir."
+},
+"OLAYLAR_ALM1115B:1125-05-23:0": {
+"b": "Împerator Heinrichê V. li Utrechtê mir",
+"d": "Împerator Heinrichê V. di 23ê Gulana 1125an de li Utrechtê mir; wek împeratorê Konkordata Wormsê (1122) tê bîranîn."
+},
+"OLAYLAR_ALM1115B:1152-03-05:0": {
+"b": "Friedrichê I. Barbarossa li Frankfurtê wek qralê Alman hat hilbijartin",
+"d": "Mîran di 5ê Adara 1152an de Friedrich li Frankfurtê bilind kirin qraltiyê; di 9ê Adarê de li Aachenê tac wergirt. Bi vî awayî serdema Barbarossa ya xanedana Hohenstaufenê dest pê kir."
+},
+"OLAYLAR_ALM1115B:1156-09-17:0": {
+"b": "Privilegium Minus — Awistirya bû dûkatî, Bavyera da Heinrichê Şêr",
+"d": "Bi hikmê mîran ê li Regensburgê Awistirya bilind bû dûkatiyê û mafên taybet ji Heinrich Jasomirgott re hatin naskirin; di heman rêkxistinê de Heinrich Bavyera vegerand împerator, împerator jî Bavyera wek lehen da Heinrichê Şêr."
+},
+"OLAYLAR_CINHINDI1115B:0979-01-01:0": {
+"b": "Xanedana Đinh bi dawî bû; Lê Hoàn derket ser textê Đại Cồ Việt (Hall: Đinh 968-79, Lê 979-1009)",
+"d": "Li gorî Hall, qraliyeta serbixwe ya Annam-Tonkinê piştî xanedana Ngô bi xanedana Đinh (968-79) dom kir; Đinh pir temenkurt bû. Xanedana Lê ya Destpêkê (979-1009) bi hêz dest pê kir; qralê wê yê yekem Lê Hoàn di 982an de Champa dagir kir. Paytext Hoa-lu ye."
+},
+"OLAYLAR_CINHINDI1115B:1404-01-01:0": {
+"b": "Artêşa Birmanyayê (Ava) paytexta Arakanê Launggyet girt; Qral Narameikhla reviya Bengalê",
+"d": "Sefera 1404an a Mîr Minrekyawswa bi navê Qralê Avayê Minhkaung ket Arakanê û Launggyet dagir kir; Qralê Arakanê Narameikhla reviya Bengalê (Gaur), Birmaniyan li şûna wî Anawrahtaminsaw hiştin."
+},
+"OLAYLAR_CINHINDI1115B:1430-01-01:0": {
+"b": "Narameikhla bi yekîneya ku siltaniya Gaurê (Bengal) dayê vegeriya ser textê Arakanê; qralan dest bi bikaranîna sernavên Misilman kirin",
+"d": "Narameikhlayê ku li Bengalê salên dirêj di sirgûnê de ma, bi yekîneya ku qralê Gaurê dayê di 1430an de li textê xwe hat vegerandin. Harvey qeyd dike ku piştî vê qralên Bûdîst ên Arakanê li kêleka navên xwe sernavên Misilman û medalyayên bi kelîmeya şehadetê ya bi Farisî bikar anîne."
+},
+"OLAYLAR_CINHINDI1115B:1433-01-01:0": {
+"b": "Narameikhla paytext ji Launggyetê bir Mrohaungê (Mrauk U); ev bajar çar sedsalan paytext ma",
+"d": "Li gorî Harvey, kahînan gotibû ku eger paytext were guhertin qral dê di nav salê de bimire; Narameikhla dîsa jî di 1433an de Mrohaung ava kir û sala din mir. Bajar di navbera 1433-1785an de paytexta Arakanê bû (kronolojiya Harvey: Launggyet 1237-1433, Mrohaung 1433-1785)."
+},
+"OLAYLAR_CINHINDI1115B:1459-01-01:0": {
+"b": "Qralê Arakanê Basawpyu Çîttagong (Chittagong) girt; bajar heta 1666an bi piranî di destê Arakanê de ma",
+"d": "Peyrewê Narameikhla Basawpyu (Kalima Shah, 1459-82) di 1459an de Çîttagong dagir kir. Li gorî Harvey bajar heta 1666an piranî dem di destê Arakanîyan de bû; dema Bengal bihêz bû Arakanê xerac dida Bengalê, dema Arakan bihêz bû ji deltaya Gangesê xerac distand."
+},
+"OLAYLAR_CINHINDI1115B:1471-01-01:0": {
+"b": "Lê Thánh Tông derbeya kujer li Champayê da; Vijaya tevlî Đại Việtê bû",
+"d": "Li gorî Hall, di 1446an de Annamiyên ku ji şerê navxweyî sûd wergirtin demeke kurt Vijaya dagir kiribûn, Chaman paşve girtibû; mezintirînê xanedana Lê, Lê Thánh Tông (1460-97), di 1471ê de derbeya mirinê li qraliyeta Cham da û Champa kir xelekek ji qada serdestiya xwe."
+},
+"OLAYLAR_CINHINDI1115B:1539-01-01:0": {
+"b": "Tabinshwehti bê şer ket Peguyê (Bago); paytexta Mon ket destê qralê Toungooyê",
+"d": "Îdamkirina du fermandarên qraliyeta Talaing (Mon) wek xayîn bû sedema ku artêş moral û fermandarên xwe winda bike; qralê Mon reviya Promeyê û Tabinshwehti di 1539an de bê şer ket Peguyê, koşka xwe li wir ava kir."
+},
+"OLAYLAR_CINHINDI1115B:1591-01-01:0": {
+"b": "Nokéo Koumane li Vientianeyê wek qral hat îlankirin; sala din berxwedana Luang Prabangê şikand û Lan Xang ji nû ve kir yek",
+"d": "Li gorî Hall, dema împeratoriya Bayinnaung belav dibû, Lan Xang (Laos) bi rêberiya Nokéo Koumane serxwebûna xwe paşve girt; Koumane di 1591ê de li Vientianeyê wek qral hat îlankirin, di 1592an de bi tewandina serê Luang Prabangê jî welat kir yek, Tran Ninh dilsoziya xwe jê re nîşan da."
+},
+"OLAYLAR_CINHINDI1115B:1592-01-01:0": {
+"b": "Serdestiya xanedana Mạc a li Tonkinê bi dawî bû; xanedana Lê vegeriya Thăng Longê (Hanoî)",
+"d": "Mạc Đăng Dung di 1527an de text zeft kiribû, di 1533an de bi navbeynkariya malbata Nguyễn xanedana Lê ji nû ve hatibû avakirin (Nguyễn Kim Mạc ji Nghệ An û Thanh Hóayê derxistibû) lê Tonkin di destê Mạc de hiştibû. Li gorî Hall xanedana Mạc Tonkin heta 1592an bi rê ve bir."
+},
+"OLAYLAR_CINHINDI1115B:1593-02-01:0": {
+"b": "Qralê Siyamê Naresuan welîehdê Birmanyayê têk bir; serxwebûna Siyamê teqez bû",
+"d": "Hall dinivîse ku hewldanên Nanda Bayin ên ji nû ve avakirina serdestiya li ser Siyamê di 1593an de bi têkçûneke teqez hatin rawestandin û ji vê kêliyê pê ve serxwebûna Siyamê hat ewlekirin; Pamaree Surakiat jî qeyd dike ku Naresuan di 1593an de li Nong Sarai li dijî welîehdê Birmanyayê serkeftineke mezin bi dest xist, paşê Tavoy û Tenasserim xistin bin kontrola xwe."
+},
+"OLAYLAR_CINHINDI1115B:1594-07-01:0": {
+"b": "Artêşa Siyamê paytexta Kambocyayê Lovek girt; Qral Satha reviya Luang Prabangê",
+"d": "Piştî ku Naresuan Ayutthaya ji zexta Birmanyayê rizgar kir, di 1593an de sê artêşên Siyamê ketin Kambocyayê; li gorî Hall piştî dorpêçeke dirêj û dijwar Lovek di Tîrmeha 1594an de hat girtin. Qraliyet nehat îlhaqkirin, bi hezaran êsîr li parêzgehên bakur ên Siyamê hatin bicihkirin. Hall diyar dike ku tevî ku nivîseke bi dîroka 1587an 'ketina' Lovek bi bîr tîne jî, delîlek tune ye ku Siyamê berî 1594an Lovek girtibe."
+},
+"OLAYLAR_CINHINDI1115B:1707-01-01:0": {
+"b": "Lan Xang bû du parçe: Luang Prabang û Vientiane bûn qraliyetên cuda",
+"d": "Di 1700î de Sai-Ong-Hué bi piştgiriya Vîetnamê Vientiane girt û bû qral; neviyên Souligna-Vongsa King-Kitsarat û Int'a-Som bi hêza 6000 kesî ya ku li Sip-Song-Panasê civandibûn di 1707an de birayê Sai-Ong-Hué T'ao-Nong ji Luang Prabangê derxistin, Kitsarat wek qral hat îlankirin û ragihand ku bakurê Chieng Khaneyê qraliyeteke serbixwe ya cuda ye. Hall: ji 1707an ve Luang Prabang û Vientiane paytextên du dewletên cuda û dijmin in."
+},
+"OLAYLAR_CINHINDI1115B:1713-01-01:0": {
+"b": "Chao Soi-Sisamout li Bassak (Champasak) û parêzgehên başûr qraliyeteke cuda ava kir",
+"d": "Li gorî Hall, Sai-Ong-Hué li Bassak û parêzgehên başûr ên dûr serkeftî nebû; Chao Soi-Sisamout ji 1713an pê ve li wir hukum kir."
+},
+"OLAYLAR_MOGOLISTAN1115B:1691-05-30:0": {
+"b": "Qing heft hoşûnên Xalxa xist heman nîzama 49 alayên Mexol: Xalxa bi xan, vang, beyle û zasakan bi rêveberiya Qing ve hat girêdan",
+"d": "Kangxî di civîna Dolon Norê de ji xan, jinong û noyanên Xalxa re got «min hûn di heman nîzama 49 alayên xwe de ava kirin»; navên kevn ên jinong û noyan hatin rakirin, rutbeyên vang, beyle û taiji û zasak hatin dayîn, sernavên Tuşetu Xan û Çeçen Xan hatin parastin, birayê Zasaktu Xan Tsewang Jab kirin vang. Xalxa bû Mexolîstana Derve ya ku ket nîzama zasak-alayê (hoşûn) ya Qing; Tuşetu Xan, Çeçen Xan û (piştî 1725an) Sain Noyan û aymagên Zasaktu parçeyên vê nîzamê ne."
+},
+"OLAYLAR_MOGOLISTAN1115B:1635-07-11:0": {
+"b": "Xanê dawî yê Xanîtiya Çahar Ejei bi diya xwe re teslîmî Qing bû; xanîtiya Lîgdan bi dawî bû",
+"d": "Piştî mirina Lîgdan Xan di 1634an de Dorgon, Yolo, Hooge û Sahalîyan bi deh hezar siwaran hatin şandin ku kurê Lîgdan Ejei bînin; artêşê li Shira Jurge 1500 malbatên Çahar Nangnang taifei qebûl kirin û gihîşt konê Ejei, diya Ejei ew teslîm kir."
+},
+"OLAYLAR_ORTAASYA1115B:1918-07-14:0": {
+"b": "Li Aşgabatê Komîteya Aşgabatê (hikûmeta Transkaspiyayê) di bin serokatiya Funtikov de hat avakirin; Aşgabat ji destê Sovyeta Taşkentê derket",
+"d": "Du roj piştî ku di 12ê Tîrmeha 1918an de karkerên rêya hesinî li Kizil Arvatê serokê Çekaya Taşkentê Frolov û parêzvanên wî kuştin, li Aşgabatê bi rêberiya karkerê Sosyal Şoreşger Funtikov hikûmetek hat avakirin; serhildanên li Krasnovodsk û Mervê li pey hatin. Hikûmetê navê xwe danî Komîteya Aşgabatê."
+},
+"OLAYLAR_ORTAASYA1115B:1919-07-15:0": {
+"b": "Hikûmet û artêşa Transkaspiyayê Aşgabat vala kirin; Bolşevîk vegeriyan Aşgabatê",
+"d": "Piştî veqetîna yekîneyên Îngilîz di Nîsana 1919an de Bolşevîkan di Gulana 1919an de Merv girt; hêzên Transkaspiyayê vekişiyan Aşgabatê û bajar di 15ê Tîrmeha 1919an de ji aliyê hikûmet û artêşê ve hat valakirin. Enî demekê li nêzîkî Kizil Arvatê hat girtin, paşê vekişiyan Krasnovodskê."
+},
+"OLAYLAR_LAB19_2S_P1:-0228-01-01:0": {
+"b": "Tîranê Argosê Arîstomakhos vekişiya; Argos tevlî Yekîtiya Akhaiayê bû",
+"d": "Tavilê piştî mirina Demetriosê II. û derbasbûna yekem a Romayiyan a Îlîryayê, tîranê Argosê Arîstomakhos bi tîranên Hermione û Phliusê re ji ber zexta Aratos ji text vekişiya û bajar ket Yekîtiya Akhaiayê."
+},
+"OLAYLAR_LAB19_2S_P1:-0188-01-01:0": {
+"b": "Artaksîasê I. li Ermenistana Mezin bû qral: xanedana Artaksîadan, paytext Artaksata",
+"d": "Generalê kevn ê Antiokhosê III. Artaksîas li Ermenistana Mezin qraliyeta xwe ava kir û bû qralê yekem ê xanedana Artaksîadan; li gorî Strabon Artaksata ji bo wî hat avakirin û bû rûniştgeha qral a welêt."
+},
+"OLAYLAR_LAB19_2S_P1:-0188-01-01:1": {
+"b": "Semerqend ket bin hukmê Qraliyeta Greko-Baktrî",
+"d": "Semerqenda ku di bin serdestiya Selewkiyan de bû, li gorî TDV di B.Z. 189an de ket bin hukmê Qraliyeta Greko-Baktrî; Yûnanî li bajêr wek çîneke rêveber a biçûk man."
+},
+"OLAYLAR_LAB19_2S_P1:-0140-01-01:0": {
+"b": "Charax serbixwe bû: Hyspaosînes bû qralê Mesene (Characene)",
+"d": "Piştî dagirkirina Mezopotamyayê ji aliyê Partan ve (B.Z. 141) Charax serbixwe bû; Hyspaosînes navê «Charax Spasînou», bi wateya «kela Hyspaosînes», da bajêr û bû qralê yekem ê dewleta biçûk a bi navê Characene (Maişan, Mesene)."
+},
+"OLAYLAR_LAB19_2S_P1:-0524-01-01:0": {
+"b": "Qralê Persan Kambîses Misir fetih kir: li Saisê Xanedana XXVI. bi dawî bû",
+"d": "Qralê Persan Kambîses Misir dagir kir; rêveberiya Xanedana XXVI. ya ku Psamtîk I. ê Saisî di B.Z. 663an de ava kiribû bi dawî bû û welat heta B.Z. 404an ji aliyê hukumdarên Persan ve hat birêvebirin."
+},
+"OLAYLAR_LAB19_2S_P1:0613-05-12:0": {
+"b": "Stêla Cobá 6: Initial Series 9.9.0.0.0 (Ruler A)",
+"d": "Stêla Cobá 6 bi dîroka Initial Series 9.9.0.0.0, 3 Ajaw 2 Sotz' vedibe; di rêzeya Gronemeyer de bi Ruler A ve tê girêdan. Qeyda Qraliyeta Cobá ya Atlasê ji dîroka vê nivîsê dest pê dike."
+},
+"OLAYLAR_LAB19_2S_P1:0780-12-02:0": {
+"b": "Stêla Cobá 20: Initial Series 9.17.10.0.0 (Ruler C; dawiya k'atun)",
+"d": "Stêla Cobá 20 bi dîroka Initial Series 9.17.10.0.0, 12 Ajaw 8 Pax vedibe; abîdeya Cobá ya herî baş parastî ye û tê texmînkirin ku pîrozbahiya dawiya k'atun vedibêje. Qeyda Qraliyeta Cobá ya Atlasê di dîroka vê nivîsê de bi dawî dibe (dawiya qeydê; hilweşîna qraliyetê di vê çavkaniyê de nayê vegotin)."
+},
+"OLAYLAR_LAB19_2S_P1:0820-02-01:0": {
+"b": "Avakirina Zebîdê: navenda rêveberiyê ya Ziyadiyan li Tîhameyê",
+"d": "Bi fermana Xelîfe Memûn, Muhammed b. Ebdullah b. Ziyad di Şebana 204an de (Sibata 820) bajarê Zebîdê ava kir; koşk da çêkirin û kanal da vekirin. Bajar bû navenda rêveberiyê ya Ziyadiyên ku bi nîvserbixwe bi Ebbasiyan ve girêdayî bûn."
+},
+"OLAYLAR_LAB19_2S_P1:0855-09-29:0": {
+"b": "Parvekirina Prumê: Lyon û erdên Rhône yên Provence-Burgonyayê ketin para kurê biçûk ê Lotharê I. Karl",
+"d": "Lotharê I. di 19ê Îlona 855an de li Schüllerê dev ji text berda û Qraliyeta Navîn parve kir: Îtalya da Ludwigê II., erdên bakur da Lotharê II., welatên Rhône yên Provence-Burgonyayê yên ku Lyon jî dihewand dan kurê xwe yê herî biçûk Karl. Lotharê ku di 23ê Îlonê de li Prumê bû keşîş, di 29ê Îlonê de mir."
+},
+"OLAYLAR_LAB19_2S_P2:1200-05-13:0": {
+"b": "Qetade b. Îdrîs Mekke bi dest xist: mîrektiya Hewaşim bi dawî bû, Yenbu bi Şerîfîtiya Mekkeyê ve hat girêdan",
+"d": "Qetade b. Îdrîs ê ku li geliya Yenbuyê çêbû û derdora Yenbuyê kontrol dikir, bi eşîrên ku piştgirî didanê re Mekke bi dest xist; serdestiya şaxa Hewaşim a Benî Haşim a li Mekkeyê ya ku ji 455an (1063) ve dom dikir bi dawî bû. Qetade paşê li Yenbuyê kela da çêkirin û desthilata wî heta peravê Yenbuyê dirêj bû."
+},
+"OLAYLAR_LAB19_2S_P2:1239-03-03:0": {
+"b": "Êrişa Mexolan Pereyaslavl hilweşand; knezîtî serxwebûna xwe winda kir",
+"d": "Artêşên Mexol ên Batu di 1239an de Pereyaslavl (navenda Knezîtiya Pereyaslavla Başûr) talan kirin û hilweşandin; knezîtî serxwebûna xwe winda kir."
+},
+"OLAYLAR_LAB19_2S_P2:1283-06-08:0": {
+"b": "Şerê Deryayî yê Maltayê: donanmaya Aragon-Sîcîlyayê ya bi fermandariya Ruggero di Lauria donanmaya Anjou têk bir; Malta derbasî rêveberiya Aragonê bû",
+"d": "Donanmaya Aragon-Sîcîlyayê ya bi fermandariya Ruggero di Lauria donanmaya Anjou (Napolî) ya bi fermandariya Guillaume Cornut li vekiriya Maltayê têk bir; girava Maltayê ji rêveberiya Anjou derbasî rêveberiya Aragon-Sîcîlyayê bû. Cihên din ên ku di heman dîrokê de ji dest çûn: Mdina (Città Notabile), Gozo (Cittadella, Rabat)."
+},
+"OLAYLAR_LAB19_2S_P2:1324-06-19:0": {
+"b": "Kela Cagliariyê teslîm bû — aştiya yekem bi Pîsayê re",
+"d": "Kela Cagliariyê ya di bin dorpêçê de teslîm bû û bi Pîsayê re aştî (di pratîkê de mutarekeyek) hat îmzekirin. Pîsayê hemû erdên xwe yên din ên li Sardînyayê ji Aragonê re hişt; tenê Castello di Cagliari û herêmên Gippi û Trexenta wek tîmarê (vasal) qralê Aragonê di destê xwe de girt. Li pêşberî wan Aragoniyan li girê Bonaria bajarokê qerargeha xwe ava kirin."
+},
+"OLAYLAR_LAB19_2S_P2:1355-12-20:0": {
+"b": "Bi mirina Duşan Belgrad dîsa derbasî rêveberiya Macar bû",
+"d": "Bi mirina ji nişka ve ya Stefan Duşan Împeratoriya Sirbî dest pê kir ku perçe bibe; Belgrada ku Duşan di 1354an de zeft kiribû piştî mirina wî dîsa ket bin rêveberiya Macar û bi eyaleta Maçvayê ve hat girêdan."
+},
+"OLAYLAR_LAB19_2S_P2:1402-08-20:0": {
+"b": "Mîr Silêman piştî têkçûna Enqereyê ji Bursayê derbasî Gelîboluyê bû",
+"d": "Piştî Şerê Enqereyê Silêman Çelebî ê ku bihîst nevî Teymûr Muhammed Siltan dixwaze wî bigire, birayê xwe Qasim, xwişka xwe Fatma û çi ji xezîneyê karîbû bigire bi xwe re bir, ji Bursayê veqetiya û derbasî Gelîboluyê bû. Ji ber pêşketinên li Balkanan heta destpêka 1404an nekarî vegere Anatolyayê; erdên Osmanî yên li Rûmelîyê wek para wî man."
+},
+"OLAYLAR_LAB19_2S_P3:1451-06-30:0": {
+"b": "Teslîmkirina Bordeaux ji Fransayê re — Dunois ket paytexta Gaskonyayê",
+"d": "Fermandarê Charlesê VII. Dunois di bihara 1451ê de ket Gaskonyayê; bajarê Bordeaux û esilzadeyên Gaskon di 12ê Hezîranê de peymanek îmze kirin ku teslîmbûnê pêşbînî dikir eger ji Îngilistanê alîkarî neyê. Gava alîkarî nehat hêzên Fransî di 30ê Hezîrana 1451ê de ketin bajêr û Gaskonya Îngilîz a sê sed salî di pratîkê de bi dawî bû; bajar dê di Cotmeha 1452an de dîsa ji Talbot re were vekirin."
+},
+"OLAYLAR_LAB19_2S_P4:1736-09-13:0": {
+"b": "Kela Çelyabinskê hat avakirin — sefera Orenburgê li welatê Başkurtan",
+"d": "Di dema sefera Orenburgê de Albay Aleksey Tevkelev li peravê çemê Miassê li cihê Çelyabiyê kela ava kir; kelayê rêya wêdetirî Uralê li dijî serhildanên Başkurtan parast. Roja avakirinê li gorî salnameya Julî 2ê Îlona 1736an e; ji ber ku di sedsala 18. de cudahiya Julî-Gregorî 11 roj bû, beramberê wê yê Gregorî 13ê Îlona 1736an e."
+},
+"OLAYLAR_LAB19_2S_P4:1795-01-01:0": {
+"b": "Siûdiyan li herêma Lehsa û Qatîfê dawî li serdestiya Benî Xalid anî",
+"d": "Mîrê Siûdî Ebdulezîz piştî 1792an zexta xwe ya li ser Lehsa û Benî Xalid zêde kir û di 1795an de li herêmê serdest bû, li wir yek ji eşîra Necîm a ku bi xwe ve girêdayî bû wek mîr tayîn kir. Herêm paşê rasterast bi Dirîyeyê ve hat girêdan. Qatîf bi vê fethê ji destê Benî Xalid derbasî Dewleta Siûdî ya Yekem bû."
+},
+"OLAYLAR_LAB19_2S_P4:1833-07-28:0": {
+"b": "Ketina Fransiyan a Mostaganemê (Mustaganim)",
+"d": "Nakokiya di navbera beşa Hadarî ya ku ji garnîzona Fransayê ya li Vehranê alîkarî xwest û beşa Kuloğlu (Kergalî) de derîyekî nû li peravê Cezayîra rojava ji Fransiyan re vekir. General Desmichels di 28ê Tîrmeha 1833an de gihîşt dergehê Mustaganimê; begê Tirk ê bajêr Îbrahîm bi wî re li hev kir û li wezîfeya xwe ma û lîmana nêzîkî 3000 nifûsî ket bin dagirkeriya Fransayê. Êrişa Emîr Ebdulqadir a li ser bajêr hat paşvexistin; kontrola temam bi erdê derdorê re di 8ê Kanûna 1834an de hat dabînkirin."
+},
+"OLAYLAR_LAB19_2S_P5:1839-05-13:0": {
+"b": "Dagirkirina Cicelê (Djidjelli/Jijel) ya Fransiyan",
+"d": "Piştî ketina Konstantînê di 1837an de Fransiyan berê xwe dan girtina yek bi yek a lîmanên peravê Cezayîra rojhilat. Sefera deryayî ya bi fermandariya Albay de Salle di 13ê Gulana 1839an de Cicel (Djidjelli, Jijela îro) dagir kir; li bajêr garnîzonek ji Lejyona Biyanî hat bicihkirin. Ev dergehê Kabîliya Biçûk ê li ser deryayê demeke dirêj di bin dorpêça eşîrên derdorê de ma; rêveberiya sivîl tenê di 1858an de hat avakirin."
+},
+"OLAYLAR_LAB19_2S_P5:1860-06-14:0": {
+"b": "Teslîmkirina fermî ya Savoya û Nîceyê ji Fransayê re",
+"d": "Dewrkirina ku Peymana Torînoyê (24ê Adara 1860) bi pejirandina gel ve girêdabû, di plebîsîtên Nîsanê de bi piraniyeke mezin hat qebûlkirin. Di 14ê Hezîrana 1860an de komîserên Sardînya û Fransayê li Chambéryê protokola teslîmkirina eyaleta Savoyayê îmze kirin; li Nîceyê jî di heman rojê de ala Sardînyayê hat daxistin û ala Fransayê hat hildan. Tevahiya Savoyayê, di nav de Annemasse, Thonon û Bourg-Saint-Maurice, bi kontîtiya Nîceyê re tevlî Fransayê bûn. Cihên din ên ku di heman dîrokê de ji dest çûn: Annemasse, Bourg-Saint-Maurice, Thonon, Nice."
+},
+"OLAYLAR_LAB19_2S_P5:1896-09-01:0": {
+"b": "Fransayê Ouagadougou girt: Qraliyeta Mossî ket bin serdestiya Fransayê",
+"d": "Yekîneyên Fransayê yên bi fermandariya Voulet ketin paytexta Mossî Ouagadougouyê; Mogho Naba reviya û qraliyet ket bin parastina Fransayê. Cihên din ên ku di heman dîrokê de ji dest çûn: Tenkodogo."
+},
+"OLAYLAR_LAB19_2S_P5:1916-05-23:0": {
+"b": "Hêzên Îngilîz-Misirî ketin El-Faşirê — paytexta Siltaniya Darfûrê ket",
+"d": "Hêzên Îngilîz-Misirî yên ku li Beringiayê artêşa Siltan Elî Dînar têk birin di 23ê Gulana 1916an de ketin paytext El-Faşirê; Elî Dînar vekişiya ber bi Cebel Merreyê. Gava siltan di 6ê Mijdara 1916an de hat kuştin, erdên Darfûrê bi Sûdana Îngilîz ve hatin girêdan."
+},
+"OLAYLAR_LAB19_2S_P5:1918-02-16:0": {
+"b": "Konseya Lîtvanyayê (Taryba) li Vîlnîûsê senedê serxwebûnê îmze kir",
+"d": "Li Lîtvanyaya ku ji 1915an vir ve di bin dagirkeriya Almanyayê de bû, Konseya Lîtvanyayê ya ku di bin çavdêriya leşkerî ya Alman de dixebitî li Vîlnîûsê senedê serxwebûnê îmze kir. Almanyayê di dema hevdîtinên Brest-Lîtovskê de ev gav teşwîq kiribû; serweriya rastîn heta vekişîna Alman a Mijdara 1918an nehat. Cihên ku di heman dîrokê de tevlî dewleta nû bûn: Kaunas, Šiauliai."
+},
+"OLAYLAR_LAB19_2S_P5:1918-10-07:0": {
+"b": "Derketina hêzên Fransî li Beyrûtê — destpêka rêveberiya Fransî li peravên Lubnanê",
+"d": "Bi vekişîna hêzên Osmanî ji Sûriyeyê re, yekîneyên deryayî û bejahî yên Fransî, li ser bingeha modus vivendi ya Îngilîz-Fransî ya 30ê Îlona 1918an, di 7ê Cotmeha 1918an de Beyrût dagir kirin. Xeta peravê — Beyrût, Sayda, Sûr û di nav meha Cotmehê de Trablûsşam — û Cebel Lubnan (Deyr el-Qemer) di bin navê Herêma Rojava ya Erdên Dijmin ên Dagirkirî (OETA West) ya ku di 23ê Cotmehê de hat avakirin de ji rêveberiya leşkerî ya Fransî re hatin hiştin. Cihên din ên ku di heman dîrokê de ji dest derketin: Sûr, Deyr el-Qemer."
+},
+"OLAYLAR_LAB19_2S_P6:1920-02-02:0": {
+"b": "Peymana Tartuyê: Rûsyaya Sovyetî serxwebûna Estonyayê nas kir, Petserî li Estonyayê ma",
+"d": "Bi peymana ku Şerê Rizgariyê yê Estonyayê qedand, Rûsyaya Sovyetî serxwebûna Estonyayê nas kir. Sînorê ku hat kişandin hinekî li rojhilatê sînorê îroyîn re derbas bû û li başûrê rojhilat Petserî (Pechory) li Estonyayê hişt."
+},
+"OLAYLAR_LAB19_2S_P6:1936-07-18:0": {
+"b": "Serhildan li Sevîlya, Valladolid û Burgosê: bajar ketin destê Neteweperestan",
+"d": "Serhildana leşkerî ya ku Şerê Navxweyî yê Spanyayê dest pê kir di 18ê Tîrmeha 1936an de li Giravên Kanarya, li Sevîlya, Valladolid û Burgosê derket. Gran Enciclopèdia Catalana Sevîlyayê wek 'bingeha serhildanê li Andalucía' bi nav dike. Ev bajar bi serhildanê ketin bin rêveberiya Neteweperest (li dijî Komara Spanyayê)."
+},
+"OLAYLAR_LAB19_2S_P6:1936-07-19:0": {
+"b": "Serhildan li Zaragoza, Pamplona, Oviedo, Salamanca û Palmayê: bajar ketin destê Neteweperestan",
+"d": "Serhildana leşkerî di 19ê Tîrmeha 1936an de li Zaragoza, Pamplona, Vitoria, Oviedo, Salamanca û Palmayê (Mayorka) derket. Gran Enciclopèdia Catalana van bajaran di nav serhildanên 19ê Tîrmehê de dihejmêre. Mayorka (Palma) ji vê dîrokê pê ve dikeve bin rêveberiya Neteweperest."
+},
+"OLAYLAR_LAB19_2S_P6:1938-10-10:0": {
+"b": "Biryara hakemiyê ya Chaco: beşa mezin a Chaco Borealê ji Paraguayê re hat dayîn",
+"d": "Desteya Hakeman a ku ji nûnerên Arjantîn, Brezîlya, Şîlî, DYAyê, Perû û Ûrûguayê pêk dihat, li gorî Peymana Aştiyê ya 21ê Tîrmeha 1938an biryara xwe ya ku sînorê Bolîvya-Paraguayê diyar dikir di 10ê Cotmeha 1938an de eşkere kir. Beşa mezin a Chaco Boreala nakok ji Paraguayê re ma; Bolîvyayê derketineke teng a ber bi Çemê Paraguayê ve wergirt."
+},
+"OLAYLAR_LAB19_2S_P6:1939-03-30:0": {
+"b": "Yekîneyên Neteweperest ketin Valensiyayê",
+"d": "Yekîneyên Neteweperest di 28ê Adara 1939an de ketin Madrîdê, di 30ê Adarê de jî ketin Valensiyayê. Bi vî awayî bajarê mezin ê dawî yê eniya Komarparêz jî ket; şer du roj şûnda, di 1ê Nîsana 1939an de, bi fermî qediya."
+},
+"OLAYLAR_LAB19_2S_P6:1941-08-29:0": {
+"b": "Fermandariya Alman Hikûmeta Rizgariya Neteweyî ya bi serokatiya Nedić ava kir",
+"d": "Li Sirbistana di bin dagirkeriya Alman de, di 29ê Tebaxa 1941an de bi serokatiya Milan Nedić Hikûmeteke Rizgariya Neteweyî (Selameta Neteweyî) hat avakirin. Hikûmet rêveberiyeke hevkar bû ku bi fermandariya leşkerî ya Alman ve girêdayî bû; Belgrad ji vê dîrokê pê ve wek paytexta Sirbistana Nedić tê hesibandin."
+},
+"OLAYLAR_LAB19_2S_P6:1944-10-06:0": {
+"b": "Nedić ji Belgradê derket; hikûmeta hevkar bi kiryar qediya",
+"d": "Milan Nedić di 6ê Cotmeha 1944an de Belgrad û erdên Sirbistanê terk kir; Ivan Petković ê ku ji bo Serokwezîriyê hatibû tayînkirin qet bi kiryar ev peywir negirt ser xwe. Bajar heta ku di 20ê Cotmeha 1944an de ji aliyê Partîzanan ve hat rizgarkirin, di bin kontrola leşkerî ya Alman de ma."
+},
+"OLAYLAR_LAB19_2S_P6:1944-10-20:0": {
+"b": "Belgrad ji aliyê Artêşa Rizgariya Gel a Yûgoslavyayê û Artêşa Sor ve hat rizgarkirin",
+"d": "Yekîneyên Artêşa Rizgariya Gel a Yûgoslavyayê bi piştgiriya Artêşa Sor di 20ê Cotmeha 1944an de Belgrad ji dagirkeriya Alman rizgar kirin. Bajar ket bin rêveberiya Partîzanan; Sirbistana Nedić du hefte berê bi kiryar belav bûbû."
+},
+"OLAYLAR_LAB19_2S_P6:1945-05-09:0": {
+"b": "Partîzanên Slovenyayê Ljubljana rizgar kirin",
+"d": "Tûmena 29. û yekîneyên Kolorduya 7. yên Artêşa Partîzan a Slovenyayê di 9ê Gulana 1945an de ketin Ljubljanayê û bajar rizgar kirin. Bi vî awayî rêveberiya Herêma Operasyonê ya Peravên Adriyatîkê ya Alman (OZAK) qediya."
+},
+"OLAYLAR_LAB19_2S_P6:1919-02-01:0": {
+"b": "Li Asîrê, piştî vekişîna Osmaniyan, serweriya Aîzan ciyê xwe ji Mihemed b. Elî el-Îdrîsî re hişt",
+"d": "Dema ku hêzên Osmanî di navbera Cotmeha 1918an û Sibata 1919an de ji Asîrê vekişiyan, li herêmê valahiyeke desthilatê çêbû; pêşî malbata kevn a Aîzan serwerî girt destê xwe, lê yekser li pey wê Mihemed b. Elî el-Îdrîsî li herêmê bû serdest."
+},
+"OLAYLAR_LAB19_2S_P6:1922-01-01:0": {
+"b": "Siûdiyan li Ebhayê li Asîrê serweriya xwe ragihandin: serweriya Îdrîsî qediya",
+"d": "Mîrê Siûdî Ebdulezîz, kurê xwe Faysal şand herêma Asîrê û li ser Ebhayê serweriya xwe ragihand; bi vî awayî serweriya Mihemed b. Elî el-Îdrîsî li Asîrê qediya."
+},
+"OLAYLAR_LAB19_2S_P6:1244-07-11:0": {
+"b": "Xwarizmiyan ketin Qudsê: Quds ji destê Xaçparêzan derket",
+"d": "Yekîneyên Xwarizmî yên ku derdora Şamê şewitandin û wêran kirin, di 11ê Tîrmeha 1244an de ketin Qudsê; bajar ji destê Xaçparêzan derket. Di Cotmeha heman salê de, di şerê li nêzîkî Xezeyê de, Eyûbiyên Misrê yên ku ji aliyê Xwarizmiyan ve dihatin piştgirîkirin Eyûbiyên Sûriyeyê û hevalbendên wan ên Xaçparêz têk birin û Quds bi teybetî ket bin serweriya Eyûbiyên Misrê."
+},
+"OLAYLAR_LAB19_2S_P6:1169-01-01:0": {
+"b": "Qeyserî û Zamantı ji Danişmendiyan hatin standin û tevlî erdên Selçûqiyan bûn",
+"d": "Qiliçarslanê II. Qeyserî û Zamantı ji destê Zunnûnê Danişmendî stand û tevlî erdên Selçûqiyên Anatolyayê kir."
+},
+"OLAYLAR_LAB19_2S_P6:1175-01-01:0": {
+"b": "Sêwas, Tokat û Nîksar ji Danişmendiyan hatin standin û tevlî erdên Selçûqiyan bûn",
+"d": "Qiliçarslanê II. di havîna 1175an de welatê Danişmendiyan, di nav de Sêwas, Nîksar, Komana û Tokat, zeft kir; şaxa Sêwasê ya Danişmendiyan ji holê rabû."
+},
+"OLAYLAR_LAB19_2S_P6:1178-10-25:0": {
+"b": "Qiliçarslanê II. Meletî girt: şaxa Meletiyê ya Danişmendiyan qediya",
+"d": "Qiliçarslanê II. piştî dorpêçeke çar mehan di 11ê Cemazîyelewela 574an de (25ê Cotmeha 1178an) Meletî bi dest xist û dawî li vê şaxa xanedana Danişmendiyan anî."
+},
+"OLAYLAR_LAB19_2S_P6:1916-06-16:0": {
+"b": "Cidde ket destê hêzên serhildêr ên Şerîf Husên",
+"d": "Di serhildana ku Şerîf Husên di Hezîrana 1916an de li Mekkeyê dest pê kir de, di 16ê Hezîranê de Cidde ket destê serhildêran."
+},
+"OLAYLAR_LAB19_2S_P6:1916-09-17:0": {
+"b": "Taîf ket destê Şerîf Husên",
+"d": "Di dema Şerê Cîhanî yê I. de hêzên Şerîf Husên ên ku li dijî rêveberiya Osmanî serî hilda bûn, di 17ê Îlona 1916an de Taîf bi dest xistin; bajar heta vekişîna Osmaniyan ji Hîcazê di 30ê Cotmeha 1918an de di bin rêveberiya Haşimiyan de ma."
+},
+"OLAYLAR_LAB19_2S_P6:1841-05-30:0": {
+"b": "Artêşa Fransî ket Mascarayê: navenda Ebdulqadir a li Cezayîra hundirîn ket",
+"d": "Artêşa Fransî ya di bin fermandariya Mareşal Bugeaud de, di sefera 1841an de piştî Takdemtê di 30ê Gulanê de ket Mascarayê; Ebdulqadir bi cidî hewl neda ku bajar biparêze."
+},
+"OLAYLAR_LAB19_2S_P6:1037-01-01:0": {
+"b": "Hemame Temîm ji Fasê derxist: Mîrektiya Mexrawayê vegeriya Fasê",
+"d": "Piştî ku Benî Îfrenê di 1033an de Fas ji destê mîrê Mexrawayê Hemame girt, Hemameyê ku vekişiyabû Wecde û Tenesê, çar sal şûnda mîrê Benî Îfrenê Temîm ji Fasê derxist; Fas heta zeftkirina Murabitûnan a di 1070an de di Mîrektiya Mexrawayê de ma."
+},
+"OLAYLAR_LAB19_2S_P6:1844-05-08:0": {
+"b": "Yekîneyên Fransî ketin Dellysê û garnîzonek li wir hiştin",
+"d": "Yekîneyên Fransî yên di bin fermandariya Mareşal Bugeaud de di 1844an de di 8ê Gulanê de ketin Dellysê; li bajêr garnîzonek du sed û pêncî kesî hiştin û di 11ê Gulanê de riya xwe ya ber bi Bordj-Mnaïel ve domandin."
+},
+"OLAYLAR_LAB19_2S_P6:1945-02-14:0": {
+"b": "Mostar ji aliyê Partîzanên Yûgoslavyayê ve hat girtin: kontrola Dewleta Serbixwe ya Xirwatistanê li Herzegovînayê hilweşiya",
+"d": "Yekîneyên Artêşa Rizgariya Gel a Yûgoslavyayê di Sibata 1945an de Mostar girtin; bi girtina Drežnicayê di 16ê Sibatê de operasyona Mostarê temam bû û beşa mezin a Herzegovînayê ket destê Partîzanan."
+},
+"OLAYLAR_LAB19_2S_P6:1650-01-01:0": {
+"b": "Yaribiyan Mesqet ji Portûgaliyan vegirt",
+"d": "Serokê xanedana Yaribiyan a Omanê Nasir b. Murşid di 1650an de Mesqet ji Portûgaliyan vegirt; ev bendera Omanê ya ku Portûgalê ji 1507an vir ve di destê xwe de digirt, derbasî Yaribiyan bû."
+},
+"OLAYLAR_LAB19_2S_P6:1643-01-01:0": {
+"b": "Yaribiyan Suhar ji Portûgaliyan vegirt",
+"d": "Serokê xanedana Yaribiyan a Omanê Nasir b. Murşid di 1643an de Suhar ji Portûgaliyan vegirt."
+},
+"OLAYLAR_LAB19_2S_P6:1829-05-14:0": {
+"b": "Mîsolongî û Anatolîko ji aliyê garnîzonên Osmanî ve hatin valakirin",
+"d": "Piştî teslîmbûna Înebahtiyê di 30ê Nîsana 1829an de, garnîzonên Mîsolongî û Anatolîkoyê di 14ê Gulana 1829an de bajar vala kirin û ji hêzên Yewnanî re hiştin."
+},
+"OLAYLAR_LAB19_2S_P6:1918-10-25:0": {
+"b": "Hêzên Osmanî Kerkûk êvarê terk kirin, kolona Îngilîz a Lewin ketê",
+"d": "Di 25ê Cotmeha 1918an de hêza Osmanî ya li Kerkûkê heta êvarê pozîsyona xwe girt, paşê dest bi vekişîna ber bi Pirdê ve kir; kolona Îngilîz a General Lewin piştî tarîbûnê Kerkûk û xetekê li bakurê wê dagir kir."
+},
+"OLAYLAR_LAB19_2S_P6:1918-10-31:0": {
+"b": "Kolona Îngilîz a Lewin Pirdê bê berxwedan dagir kir",
+"d": "Di sibeha 31ê Cotmeha 1918an de kolona Îngilîz a General Lewin Pirdê bêyî ku rastî berxwedanê bê dagir kir; hêza Osmanî ber bi Mûsilê ve vedikişiya."
+},
+"OLAYLAR_UMIT19_ASIRET_1119:1779-08-29:0": {
+"b": "Şerê Newtownê: sefera Sullivan sengera şervanên Îrokwa, di nav de Cayuga û Seneca jî hebûn, li nêzîkî Chemungê belav kir",
+"d": "Artêşa General Mezin Sullivan di 29ê Tebaxa 1779an de li nêzîkî Chemungê, li gorî nameya Sullivan, rastî sengera ku hêzên bi piranî ji şervanên Hindiyên Amerîkî yên «heft miletan» pêk dihatin (digel yekîneyên bi fermandariya cuda yên Butleran, Brant û McDonald) amade kiribûn hat; bi agirê topxaneyê û zexta ji alî ya General Poor re senger hat berdan."
+},
+"OLAYLAR_UMIT19_ASIRET_1119:1722-04-05:0": {
+"b": "Roggeveen Girava Paskalyayê dît û navê wê kir Paasch Eyland; ku li giravê mirov dijîn roja din ji dûxanê hat fêmkirin",
+"d": "Sefera Jacob Roggeveen, li gorî deftera seferê ya fermî, di 5ê Nîsana 1722an de giraveke nizm û dûz dît û ji ber ku di roja Paskalyayê de li wir bû navê Paasch Eyland lê kir. Di 6ê Nîsanê de dûxana ku ji cihên cuda bilind dibû hat dîtin û encam hat derxistin ku li giravê mirov dijîn; vegotina Behrens keşfê datîne 6ê Nîsanê."
+},
+"OLAYLAR_UMIT19_ASIRET_1119:1830-10-07:0": {
+"b": "Li Van Diemen's Land operasyona Xeta Reş (Black Line) dest pê kir: kolonîst ji bo girtina Aborjînên Tasmanyayê hatin seferberkirin",
+"d": "Daxuyaniya Sekreteriya Koloniyê ya Walî Arthur a 25ê Îlona 1830an ragihand ku gel di 7ê Cotmeha 1830an de bi hev re dê tevbigere û Binbaşî Douglas di heman rojê de dê li seranserê xetê xalên çavdêriyê bigire. Armanc ew bû ku eşîrên Aborjîn bên girtin û ber bi Nîvgirava Tasman ve bên ajotin."
+},
+"OLAYLAR_UMIT19_ASIRET_1119:1830-11-26:0": {
+"b": "Rêza yekem a operasyona Xeta Reş bi fermî qediya: Fermana Hikûmetê No 13",
+"d": "Fermana Hikûmetê No 13 a 26ê Mijdara 1830an ragihand ku rêza yekem a operasyonên ji bo girtina eşîrên xwecihî, bi gihîştina yekîneyên leşkerî û sivîl a East Bay Neck re, qediya."
+},
+"OLAYLAR_UMIT19_ASIRET_1119:1779-09-02:0": {
+"b": "Artêşa Sullivan gundê Catharine's Town û genimê wê yê Misirê hilweşand",
+"d": "Artêşa sefera Sullivan di şeva 1ê Îlona 1779an de gihîşt Catharine's Townê ya li nêzîkî Gola Seneca; di 2ê Îlonê de gund û genimê Misirê yê çandî hilweşand. Gund rûniştgeheke bi sî malan, baxçeyan û gelek genimê Misirê bû."
+},
+"OLAYLAR_UMIT19_ASIRET_1119:1779-08-13:0": {
+"b": "Yekîneyên pêşeng ên sefera Sullivan gundê Chemung (Chemong) şewitandin",
+"d": "Artêşa Sullivan êvara 12ê Tebaxa 1779an ji Tioga derket meşa şevê û sibeha din di berbangê de gihîşt gundê Chemung; gundiyan berê reviyabûn. Yekîneyan nêzîkî bîst avahiyên gund şewitandin û zeviyên genimê Misirê yên derdorê hilweşandin."
+},
+"OLAYLAR_UMIT19_ASIRET_1119:1779-09-15:0": {
+"b": "Artêşa Sullivan Genesee (Chenesee) Town û zeviyên genimê Misirê û fasûlyeyan hilweşandin",
+"d": "Artêşa Sullivan di 14ê Îlona 1779an de ket Genesee (Chenesee) Townê ya bi nêzîkî heftê malan; di 15ê Îlonê de tevahiya artêşê ji bo hilweşandina çandiniyan derket qadê, genimê Misirê û fasûlye hatin şewitandin û dema ku meşa vegerê dest pê dikir gund di nav agir de hatin hiştin."
+},
+"OLAYLAR_UMIT19_ASIRET_1119:1779-09-05:0": {
+"b": "Artêşa Sullivan ket gundê Kendaia; nêzîkî bîst mal bûn xwelî, çandinî û darên fêkiyan hatin hilweşandin",
+"d": "Artêşa Sullivan di 5ê Îlona 1779an de gihîşt gundê Kendaia; li gorî rapora Sullivan gund hatibû terikandin. Rojnivîska Rogers dinivîse ku gund hat hilweşandin, rapora fermî ya Sullivan jî dinivîse ku nêzîkî bîst mal bûn xwelî û artêşê nêzîkî rojekê çandinî û darên fêkiyan hilweşandin."
+},
+"OLAYLAR_UMIT19_ASIRET_1119:1874-05-06:0": {
+"b": "Ernest Giles, bi bîranîna hevalê xwe yê winda Alfred Gibson, navê «Gibson's Desert» li çola li rojavayê Rêzeçiyayên Rawlinson kir",
+"d": "Sefera Rojavayê Awistralyayê ya Ernest Giles (di Tebaxa 1873an de dest pê kiribû) ji Rêzeçiyayên Rawlinson ber bi rojava ve ket çolê; hevalê wî Alfred Gibson di vê çolê de, bi hespê Giles, winda bû. Giles di rojnivîska xwe ya 6ê Gulana 1874an de dinivîse ku wî navê «Gibson's Desert» li vê herêmê kir ku di navbera Rêzeçiyayên Rawlinson û ava mayînde ya din de ye."
+},
+"OLAYLAR_UMIT19_ASIRET_1119:1896-12-04:0": {
+"b": "Sefera devan a David Carnegie gihîşt Halls Creeka li Kimberley; cara yekem ji 21ê Tîrmehê vir ve rastî mirovekî spî hat",
+"d": "Sefera devan a David Carnegie ya ku di 9ê Tîrmeha 1896an de ji Coolgardie derket rê, di 4ê Kanûnê de gihîşt Halls Creekê. Carnegie dinivîse ku kesê yekem ê ku rastî wî hat çawîşê polîsan Brophy bû û ji 21ê Tîrmehê vir ve wan qet rûyekî spî nedîtibû; rêwîtî, bi guherandinên rê ve, 1.413 mîl dom kiribû."
+},
+"OLAYLAR_UMIT19_ASIRET_1119:1850-07-18:0": {
+"b": "Sefera Richardson–Barth–Overweg gihîşt Ghatê (Ghat), rawestgeha duyem a mezin a piştî Murzuqê li ser riya Sahrayê",
+"d": "Di nivîsa rojnivîskî ya Heinrich Barth a 18ê Tîrmeha 1850an de, dema ku bi sefera hikûmeta Brîtanyayê ya di bin serokatiya Richardson de Sahra derbas dikir, nêzîkbûn û gihîştina Ghatê, ku ew wek rawestgeha duyem a mezin a seferê dihesiband, tê vegotin; hin ji gel Richardsonê ku berê jî serdana vî cihî kiribû nas kirin û pêşwaziya wî kirin. Ev ne serdana Ewropî ya yekem a herêmê ye."
+},
+"OLAYLAR_UMIT19_ASIRET_1119:1869-07-13:0": {
+"b": "Gustav Nachtigal gihîşt Taoyê (Täo), yek ji newalên sereke yên Tîbestiyê",
+"d": "Gustav Nachtigal bi karwanê xwe yê ku ji Murzuqê hatibû, li quntarê başûrê rojava yê çiyayên Tîbestî pêş ket; di pirtûka xwe ya bi navê Sahara ve Sudan de, di 13ê Tîrmehê de gihîştina newala Taoyê (beşa pirtûkê «Ankunft in Täo»), ku wek yek ji newalên sereke yên Tîbestî û welatê eslî yê malbatên esîlzade vedibêje, vedibêje. Dinivîse ku di sibeha heman rojê de ketin deşta nivînên çemê Taoyê, paşê jî rastî Galma, xizmê Bü Zeid, hatin."
+},
+"OLAYLAR_UMIT19_ASIRET_1119:1879-08-02:0": {
+"b": "Sefera Gerhard Rohlfs ket Taiserboyê, xala herî bakur a komgiravên waheyên Kufrayê",
+"d": "Sefera Gerhard Rohlfs a ji bo Civaka Afrîkayê ya Alman, ku ji Trablûsê derket, piştî peymana ku di Tîrmeha 1879an de bi Suyayiyan re hat kirin ber bi başûr ve meşiya û di saet 2ê şevê de ket waheya Taiserboyê, girava herî bakur a Kufrayê. Rohlfs vê yekê wek «di dawiyê de gihîştina waheya razdar a Kufrayê» vedibêje; lê gihîştina bîra Djrängediyê tenê sibeha din di saet 11an de pêk hat."
+},
+"OLAYLAR_LAB19_BOS_1119:1446-01-01:0": {
+"b": "Diriye cara yekem ji Manî b. Rebîa re hat dayîn: destpêka rûniştgeha Diriyeyê",
+"d": "Li gorî çavkaniyan avabûna yekem a Diriyeyê di sala 850an (1446-47) de ye: Hecer el-Yemame b. Dir, Esîbe û Muleybîda li derdorê da xizmê xwe Manî b. Rebîa."
+},
+"OLAYLAR_LAB19_BOS_1119:1726-01-01:0": {
+"b": "Mihemed b. Siûd li Diriyeyê wek mîrê serbixwe dest bi hikimdariyê kir",
+"d": "Mihemed b. Siûd, wek mîrê ku ji nifşa Manî b. Rebîa ye û navê xwe da xanedana Siûdî ya îroyîn, di 1726an de li Diriye û derdora wê bi serbixweyî dest bi hikimdariyê kir."
+},
+"OLAYLAR_LAB19_BOS_1119:1744-01-01:0": {
+"b": "Mihemed b. Ebdulwehab ji Uyeyneyê hat derxistin û li Diriyeyê hat cem Mihemed b. Siûd: bingeha hevbendiya Wehabî-Siûdî",
+"d": "Di 1744an de, Mihemed b. Ebdulwehabê ku li Uyeyneyê di bin parastina serokê Temîmiyan Osman b. Ehmed Al-î Muammer de bû, dema ku ji bajêr hat derxistin, hat Diriyeyê cem Mihemed b. Siûd; her duyan hêzeke dînî-siyasî pêk anîn."
+},
+"OLAYLAR_LAB19_BOS_1119:1765-09-16:0": {
+"b": "Mihemed b. Siûd li Diriyeyê mir û li wir hat veşartin",
+"d": "Damezrînerê xanedana Siûdî Mihemed b. Siûd di 30ê Rebîulewela 1179an de (16ê Îlona 1765an) li Diriyeyê mir û li wir hat veşartin."
+},
+"OLAYLAR_LAB19_BOS_1119:1688-01-01:0": {
+"b": "Riyad di bin rêveberiya malbata Ebû Zera ya ji Benî Hanîfe de",
+"d": "Riyad ji 1099an (1688) vir ve di bin rêveberiya malbata Ebû Zera ya ji Benî Hanîfe de bû; mîrektiya Diriyeya cîran derbasî Siûdiyan bû."
+},
+"OLAYLAR_LAB19_BOS_1119:1746-01-01:0": {
+"b": "Di navbera mîrê Riyadê Dehham b. Dewas û hêzên Siûdî de têkoşîna bi sî û pênc pevçûnan dest pê kir",
+"d": "Mîrê Riyadê Dehham b. Dewas û hêzên girêdayî malbata Siûd di navbera 1746-1773an de sî û pênc caran rûbirûyî hev bûn; di dawiya têkoşînê de Riyad ket destê Siûdiyan."
+},
+"OLAYLAR_LAB19_BOS_1119:1470-01-01:0": {
+"b": "Bîngazî dîsa wek navendeke rûniştinê derket holê (texmîn)",
+"d": "Tê texmînkirin ku derketina holê ya dîsa ya Bîngaziyê, ku di dema dawiyê ya Bîzansê de hatibû terikandin, wek navendeke rûniştinê rasthatî salên 1470î ye."
+},
+"OLAYLAR_LAB19_BOS_1119:1551-01-01:0": {
+"b": "Di sefera Trablusgerbê ya 1551an de herêma Berqayê ket bin serweriya Osmanî",
+"d": "Di dema sefera Trablusgerbê ya 1551an de herêma Berqayê ket bin serweriya Osmanî."
+},
+"OLAYLAR_LAB19_BOS_1119:1578-01-01:0": {
+"b": "Bîngazî bi teybetî tevlî rêveberiya Osmanî bû",
+"d": "Piştî ku Berqa di 1551an de ket bin serweriya Osmanî, Bîngazî di 1578an de bi teybetî tevlî rêveberiya Osmanî bû; paşê wek sencaqekî eyaleta Trablusgerbê di sedsala XVII. de di bin rêveberiya dayiyan, di sedsala XVIII. de di bin rêveberiya malbata Qeremanlî de ma."
+},
+"OLAYLAR_LAB19_BOS_1119_SIBIRYA:1709-06-29:0": {
+"b": "Li cihê yekbûna Bî û Katunê ostroga yekem a Bikatunê (paşê Biysk) hat avakirin",
+"d": "Qozaqên Rûs di 1709an de li cihê yekbûna çemên Bî û Katunê ostroga yekem a Bikatunê (pêşiya kela Biyskê ya paşê) ava kirin; ostrog li sînorê başûrê rojava yê uyezda Kuznetskê qonaxa nû ya kolonîkirina Rûsyayê ya ber bi Altayê ve da destpêkirin."
+},
+"OLAYLAR_LAB19_BOS_1119_SIBIRYA:1710-01-01:0": {
+"b": "Yekîneya Zûngar a bi fermandariya zaysan Duhar ostroga yekem a Bikatunê şewitand",
+"d": "Ostroga yekem a Bikatunê, salek piştî avakirinê (1710), ji aliyê yekîneyeke Zûngar a bi fermandariya zaysan Duhar ve hat şewitandin."
+},
+"OLAYLAR_LAB19_BOS_1119_SIBIRYA:1630-01-01:0": {
+"b": "Ostroga Kirenskiyê hat avakirin: ostroga qozaqên Rûs ji bo stendina ясак ji Tungûzan",
+"d": "Qozaqên Rûs di 1630an de li peravê Lenayê ostroga Kirenskiyê ava kirin (heman sala Ilimskiyê, Bratski 1631); ostrog ji bo ku Tungûz bên bindestkirin hat avakirin."
+},
+"OLAYLAR_LAB19_BOS_1119_SIBIRYA:1803-01-01:0": {
+"b": "Guberniya Îrkûtskê hat parçekirin: uyezda Kirenskî çêbû",
+"d": "Di 1803an de guberniya Îrkûtskê li uyezdên Îrkûtsk, Nijneudinsk, Verhneudinsk, Kirenskî, Nerçinsk û Yakutskê hat parçekirin; beşa Kirenskiyê paşê wek okrug heta dawiya sedsala 19. dom kir."
+},
+"OLAYLAR_LAB19_BOS_1119_D:1665-01-01:0": {
+"b": "Atamanê qozaqan Çernigovskî kela Albazinê ava kir",
+"d": "Kela Albazinê di 1665an de ji aliyê atamanê qozaqan N. R. Çernigovskî ve, li ciyê qışlaqên qewîkirî yên ku di 1651an de ji aliyê yekîneya Habarov ve hatibûn hilweşandin, hat avakirin; qışlaq li erdê bajarokê Yaksa yê di nav erdên begê Daur Albazî de bilind bûbûn."
+},
+"OLAYLAR_LAB19_BOS_1119_D:1685-06-01:0": {
+"b": "Kela Albazinê piştî dorpêça yekem a Mançûyan di Hezîrana 1685an de şewitî û wêran bû",
+"d": "Kela Albazinê, piştî dorpêça yekem a hêzên Mançû, di Hezîrana 1685an de şewitî û ji holê rabû; kel di 1685-1686an de li heman cihî ji nû ve hat avakirin."
+},
+"OLAYLAR_LAB19_BOS_1119_D:1739-01-01:0": {
+"b": "Mirovên Demidov li devê Barnaulê dest bi avakirina karxaneya helandina sifir kirin",
+"d": "Mirovên Demidov di payîza 1739an de li devê çemê Barnaulê xuya bûn û dest bi avakirina karxaneya helandina sifir kirin; li tenişta karxaneyê rûniştgeha karxaneyê çêbû."
+},
+"OLAYLAR_LAB19_BOS_1119_E:1718-01-01:0": {
+"b": "Kela Semipalatînskê hat avakirin (xeta Irtîşê)",
+"d": "Li ser xeta qelayên Irtîşê ya Rûsyayê di 1718an de kela Semipalatînskê hat avakirin; di heman salê de li nêzîkî wê kela Dolonskayayê jî hat avakirin."
+},
+"OLAYLAR_LAB19_BOS_1119_E:1720-01-01:0": {
+"b": "Binbaşî Lîharev li cihê ku Ulba dirije Irtîşê kela Ust-Kamenogorskê ava kir",
+"d": "Binbaşî Lîharev di 1720an de li cihê ku çemê Ulbayê dirije Irtîşê kela Ust-Kamenogorskê ava kir; kel bû parçeyek ji xeta qelayên Irtîşê."
+},
+"OLAYLAR_LAB19_BOS_1119_F:1680-08-10:0": {
+"b": "Serhildana Pueblo dest pê kir: Taos, Picuris û gundên din ên Pueblo Spanî û keşîşan kirin armanc",
+"d": "Gundên Pueblo yên li Meksîkaya Nû di 10ê Tebaxa 1680an de bi hev re serî hildan: li Santa Clarayê leşkerên Spanî hatin kuştin, li Jemezê li pey mînaka Taos û Picurisê banga kuştina keşîş û Spaniyan hat kirin; serhildan bû sedema ku Walî Otermín Santa Fe vala bike."
+},
+"OLAYLAR_LAB19_BOS_1119_F:1680-08-21:0": {
+"b": "Walî Otermín Santa Fe terk kir û ber bi Isletayê ve dest bi meşê kir",
+"d": "Piştî dorpêçeke neh rojan, Walî Antonio de Otermín di 21ê Tebaxa 1680an de ferman da ku Santa Fe bê terikandin û di heman sibehê de niştecihên Spanî ber bi Isletayê ve da meşandin; Santa Fe ket destê hêzên Pueblo yên serhildêr."
+},
+"OLAYLAR_LAB19_DUZELTME_1120:1814-05-01:0": {
+"b": "Garnîzona Fransî ya Nieuwpoortê di destpêka Gulana 1814an de vekişiya: rêveberiya Fransî li Flandera Rojava qediya",
+"d": "Piştî mutarekeya 12ê Nîsana 1814an, Ostende, Dîksmuîde, Nieuwpoort û Yper di destê Fransiyan de mabûn; mayîna departmana Lys (Flandera Rojava) ji aliyê Fransiyan ve di destpêka Gulanê de, berî aştiya yekem a Parîsê (30ê Gulana 1814an), hat valakirin. Herêm heta 1ê Tebaxa 1814an bi Walîtiya Giştî ya Belçîkayê ve girêdayî ma."
+},
+"OLAYLAR_LAB19_DUZELTME_1120:1821-03-05:0": {
+"b": "Melîkê eyaleta Berberê teslîmî Îsmaîl Paşa bû",
+"d": "Artêşa Îsmaîl Paşa, kurê Mihemed Elî Paşa, di 3ê Adara 1821an de ket eyaleta Berberê; di 5ê Adarê de melîk Nasiredîn ê ku li navenda eyaletê rûdinişt, şêx û giregir pêşwaziya Îsmaîl Paşa kirin û serî li ber wî tewandin."
+},
+"OLAYLAR_LAB19_DUZELTME_1120:1918-09-23:0": {
+"b": "Maan ji aliyê garnîzona Osmanî ve hat valakirin, Artêşa Ereb bajar dagir kir",
+"d": "Li gorî rapora Allenby, yekîneyên Kolorduya II. ya Artêşa Osmanî yên ku ji Hîcazê vedikişiyan di 23ê Îlona 1918an de Maan vala kirin û Artêşa Ereb bajar dagir kir; Artêşa Ereb paşiya garnîzona vekişiyayî heta Jerdunê şopand."
+},
+"OLAYLAR_LAB19_MOCHE_1120:0850-01-01:0": {
+"b": "Dawiya çanda Moche (texmînî P.Z. 850): dewleta Moche ya bi navenda Huacas de Moche belav bû",
+"d": "Arkeologên peravê bakur dawiya çanda Moche bi giştî datînin texmînî P.Z. 850; dîrokên nû yên radyokarbonê nîşan didin ku rûniştin li Huacas de Mocheyê heta sedsala 9. û piştî wê, bi dîtiyên tekstîlê yên li Huaca del Solê heta sedsala 10. dirêj bûye, lê di vê pêvajoyê de çand bi awayekî girîng guheriye."
+},
+"OLAYLAR_DIN_MUHAMMED_MEKKE_1119:0570-01-01:0": {
+"b": "Hz. Mihemed li Mekkeyê ji dayik bû (sal di navbera 569/570/571an de ji hev cuda dibin; roj: 12ê Rebîulewelê, Duşem)",
+"d": "Li gorî Misilmanan, pêxemberê dawî yê Xwedê Hz. Mihemed, demeke kurt piştî Bûyera Fîlê, li Mekkeyê hat dinyayê. Qeyda dîrokî: TDV rojê wek Duşema 12ê Rebîulewelê dide; salê jî çavkanî wek 569 (Hemîdullah), 570 an 571 (dîrokdanîna Bûyera Fîlê) û 571 (Felekî) ji hev cuda didin; Watt jî dibêje «texmînî P.Z. 570»."
+},
+"OLAYLAR_DIN_MUHAMMED_MEKKE_1119:0605-01-01:0": {
+"b": "Dema ku Kabe ji nû ve dihat avakirin, nakokiya li ser danîna Kevirê Reş li ciyê xwe bi hakemiya Hz. Mihemed hat çareserkirin",
+"d": "Dema ku Qureyşiyan Kabe ji nû ve ava dikir, nakokiya ku li ser danîna Kevirê Reş li ciyê xwe derket heta şer tûj bû; pêşniyara ku li gorî biryara kesê yekem ê ku bikeve Kabeyê tevbigerin hat pejirandin; yê yekem ê ku ket hundir Hz. Mihemed bû, wî hişt ku serokên eşîran bi hev re kevir bi qumaşekî rakin û bi destê xwe danî ciyê wî."
+},
+"OLAYLAR_DIN_MUHAMMED_MEKKE_1119:0610-01-01:0": {
+"b": "Wehiya yekem: li şikefta Hirayê pênc ayetên pêşîn ên sûreya Elaqê (sala 610, deh rojên dawî yên Remezanê)",
+"d": "Li gorî baweriya Îslamê, li şikefta Hirayê bi rêya Cebrayîl wehiya yekem hat Hz. Mihemed û pênc ayetên pêşîn ên sûreya Elaqê hatin ragihandin; ev destpêka pêxembertiyê (bi'set) ye. Qeyda dîrokî: TDV bûyerê datîne şeveke di nav deh rojên dawî yên Remezana sala 610an de, li gorî hin rîwayetan jî li hemberî sibeheke duşemê."
+},
+"OLAYLAR_DIN_MUHAMMED_MEKKE_1119:0616-01-01:0": {
+"b": "Hz. Hemze Misilman bû (sala 6. ya pêxembertiyê)",
+"d": "Hemzeyê ku bihîst Ebû Cehîl heqaret li Hz. Mihemed kiriye, li Kabeyê kevana xwe li serê Ebû Cehîl xist û Misilmantiya xwe ragihand."
+},
+"OLAYLAR_DIN_MUHAMMED_MEKKE_1119:0617-01-01:0": {
+"b": "Boykota Qureyşiyan a li dijî Benî Haşim û Benî Muttalib dest pê kir (Şi'bê Ebî Talib, 617-620)",
+"d": "Ji bilî Ebû Leheb û kurên wî, hemû Benî Haşim û Benî Muttalib nêzîkî sê salan neçar man ku li taxa Ebû Talibê di şert û mercên dijwar de bijîn; TDV rîwayeta ku boykot kurttir dom kiriye jî vediguhêze."
+},
+"OLAYLAR_DIN_MUHAMMED_MEKKE_1119:0620-01-01:0": {
+"b": "Boykot qediya (peymana Mutim b. Adî û Zema b. Esved)",
+"d": "Hin ji giregirên Qureyşê li hev kirin û dawî li boykotê anîn; sî û sê kesên ku hicretî Hebeşistanê kiribûn piştî qedandina boykotê vegeriyan Mekkeyê."
+},
+"OLAYLAR_DIN_MUHAMMED_MEKKE_1119:0620-04-19:0": {
+"b": "Hz. Xedîce wefat kir (10ê Remezanê / 19ê Nîsana 620an); Ebû Talib ~ mehek şûnda — «sala xemgîniyê»",
+"d": "Jina Hz. Mihemed û piştgira wî ya yekem Xedîce di sala 10. ya pêxembertiyê de wefat kir; dema ku nêzîkî mehekî şûnda apê xwe Ebû Talib jî winda kir, Misilmanan ji vê salê re gotin «sala xemgîniyê» (senet el-huzn)."
+},
+"OLAYLAR_DIN_MUHAMMED_MEKKE_1119:0620-01-01:1": {
+"b": "Ebû Talib wefat kir (nêzîkî mehek piştî Xedîceyê, Şewal)",
+"d": "Apê Hz. Mihemed Ebû Talibê ku ew bi salan parast, nêzîkî mehek piştî Xedîceyê (Şewal) mir; ka Misilman mir an muşrik, di TDVyê de «nakok» tê hesibandin."
+},
+"OLAYLAR_DIN_MUHAMMED_MEKKE_1119:0620-01-01:2": {
+"b": "Rêwîtiya Taîfê: Sekîfê vexwendin red kir, Hz. Mihemed hat kevirkirin (Şewala sala 10. ya pêxembertiyê, Gulan-Hezîrana 620an)",
+"d": "Dema ku helwesta muşrikên Mekkeyê tûj bû, Hz. Mihemed bi Zeyd b. Harise re çû Taîfê, Sekîf vexwende Îslamê û xwest ku xwe bispêre parastina wan; Taîfiyan henek pê kir û ew dan kevirkirin. Ji bo ku bikaribe vegere Mekkeyê pêdiviya wî bi parastina Qureyşiyekî çêbû."
+},
+"OLAYLAR_DIN_MUHAMMED_MEKKE_1119:0620-01-01:3": {
+"b": "Di demsala hecê de şeş kes ji eşîra Xezrec a Yesribê Îslam pejirandin (sala 11. ya pêxembertiyê)",
+"d": "Hz. Mihemed di demsala hecê de Îslam ji şeş kesên eşîra Xezrec ên ku ji Yesribê hatibûn re ragihand; wan pejirand. Ji nav wan Esed b. Zurare soz da ku sal şûnda li Aqebeyê dîsa bicivin."
+},
+"OLAYLAR_DIN_MUHAMMED_MEKKE_1119:0621-01-01:0": {
+"b": "Beyata Yekem a Aqebeyê: diwanzdeh Yesribî (deh Xezrecî, du Ewsî) li Aqebeyê bi Hz. Mihemed re hev dîtin; Mus'ab b. Umeyr şandin Medîneyê",
+"d": "Piştî vegera şeş kesên sala berê, diwanzdeh Yesribî li Aqebeyê bi dizî bi Hz. Mihemed re hev dîtin û Beyata Yekem a Aqebeyê kirin; Mus'ab b. Umeyr ji bo hînkirina Îslamê bi wan re şandin Yesribê."
+},
+"OLAYLAR_DIN_MUHAMMED_MEKKE_1119:0622-01-01:0": {
+"b": "Beyata Duyem a Aqebeyê: heftê û pênc Yesribî, du ji wan jin, piştî hecê li Aqebeyê bi Hz. Mihemed re hev dîtin (sala 13. ya pêxembertiyê)",
+"d": "Heftê û pênc Misilmanên Yesribî (du jin) di demsala hecê de hatin Mekkeyê, piştî hecê li Aqebeyê bi dizî bi Hz. Mihemed re hev dîtin; dema ku Yesribiyan ew vexwende bajarê xwe, Resûlê Ekrem şertên Beyata Duyem a Aqebeyê rêz kirin. Ev hevdîtin amadekariya rasterast a Hicretê ye."
+},
+"OLAYLAR_DIN_MUHAMMED_MEKKE_1119:0622-09-13:0": {
+"b": "Hz. Mihemed û Ebû Bekir piştî sê rojan li şikefta Sewrê ber bi Yesribê ve ketin rê (1ê Rebîulewelê / 13ê Îlona 622an)",
+"d": "Dema ku muşrikan biryar da ku Hz. Mihemed bikujin, Hz. Mihemed şevekê bi Ebû Bekir re ji Mekkeyê derket û li şikefta çiyayê Sewrê veşart; sê roj şûnda bi devanên ku rêberê wan anîn ber bi Yesribê ve ketin rê. Qureyşê ji bo kesê ku wan bigire 100 deve xelat soz da lê encam negirt."
+},
+"OLAYLAR_DIN_ISA_1120:0026-01-01:0": {
+"b": "Pontius Pilatus bû prefektê Yahûdayê (26–36)",
+"d": "Di dema împeratorê Romayê Tiberius de Pontius Pilatus bû prefektê (walîyê) Yahûdayê; ciyê Valerius Gratus girt. Josephus dinivîse ku Pilatus deh salan li Yahûdayê ma. Di amentuyên Xiristiyanan de cefaya Îsa bi gotina 'di dema Pontius Pilatus de' tê bibîranîn."
+},
+"OLAYLAR_DIN_ISA_1120:0030-04-07:0": {
+"b": "Xaçkirina Îsa: îdam di dema Pilatus de (dîroka hesabkirî ya TDVyê 7ê Nîsana 30î ye; 27 û 33 alternatîf in)",
+"d": "Li gorî baweriya Xiristiyanan, Îsa Mesîh bi pejirandina Pontius Pilatus li Golgotayê hat xaçkirin û mir, di roja sêyem de jî ji nav miriyan rabû. Li gorî baweriya Îslamê, Îsa nehat kuştin û nehat xaçkirin, yê ku kuştin wek Îsa nîşanî wan hat dayîn; Xwedê ew bilind kir ba xwe (en-Nîsa 4/157-158). Qeyda dîrokî: Tacitus dinivîse ku Christus di dema Tiberius de bi destê prokurator Pontius Pilatus hat îdamkirin; TDV roja mirina Îsayê ku li gorî salnameya Cihûyan roja Înê 14ê Nîsanê mir, bi salnameya mîladî wek 11ê Nîsana 27an, 7ê Nîsana 30î an 3ê Nîsana 33an hesab dike û dibêje ya herî nêzîkî rastiyê sala 30î ye."
+},
+"OLAYLAR_DIN_ISA_1120:0036-01-01:0": {
+"b": "Pilatus bi fermana Vitellius hat bangkirin Romayê; Tiberius miribû (gilîya Samiriyan)",
+"d": "Samiriyan Pilatus li ber walîyê Sûriyeyê Vitellius gilî kirin; Vitellius Pilatus şand Romayê ku li ber împerator hesab bide. Berî ku Pilatus bigihîje Romayê Tiberius miribû."
+},
+"OLAYLAR_DIN_ISA_1120:0070-08-01:0": {
+"b": "Perestgeha Duyem li Qudsê şewitî (Josephus: roja dehem a meha Lous/Ab; Britannica: Tebaxa 70yî)",
+"d": "Titus vekişiya birca Antonia û biryar da ku roja din sibehê êrîşî perestgehê bike; li gorî Josephus, li gorî qederê, di roja dehem a meha Lous (Ab) de, di salvegera roja ku qralê Babîlê perestgeh şewitandibû de, bi agirkirina pencereya zêrîn ji aliyê leşkerekî Romayî ve bi parçeyekî madeya şewitî, Perestgeh şewitî. Britannica dinivîse ku Romayiyan heta Tebaxa 70yî berxwedanên dawî qelaştin û Perestgeha Duyem hilweşandin."
+},
+"OLAYLAR_DIN_MUSA_1120:-1208-01-01:0": {
+"b": "Stêla Merneptah: kevintirîn behsa naskirî ya navê 'Îsraîl' (sala 5. ya firewnê Misrê Merneptah; B.Z. ~1209)",
+"d": "Stêla serkeftinê ya ku di sala 5. ya firewnê Misrê Merneptah de hat çikandin, di nav gelên têkçûyî de 'Îsraîl' jî dihejmêre: «Îsraîl wêran bû, tovê wî nema»; ji Filistîn/Kenanê re tê gotin 'ji bo Misrê bê mêr ma'. Ev kevintirîn behsa nivîskî ya naskirî ya navê 'Îsraîl' e. Stêl Îsraîlê wek geleke li Filistînê bi cih dike; behsa Mûsa û çîroka derketina ji Misrê ya di Tewratê de nake."
+},
+"OLAYLAR_DIN_MUSA_1120:-0596-01-01:0": {
+"b": "Kronîka Babîlê: Nebukadnezar bajarê Yahûdayê (Quds) girt, qral dîl kir (meha Addaru, sala 7.; B.Z. 597)",
+"d": "Kronîka Babîlê (ABC 5) dinivîse ku di sala 7. ya Nebukadnezar de qralê Akkadê meşiya welatê Hattiyê, 'bajarê Yahûdayê' dorpêç kir, di roja duyem a meha Addaru de bajar girt û qral dîl kir, li wir qralekî ku wî bi xwe hilbijartibû tayîn kir û xerceke giran girt. Li gorî baweriya Cihûyan ev bûyer dorpêça yekem a Babîlê ye ku tê de Qral Yehoyakîn hat sirgûnkirin; Tewrat vê bûyerê datîne sala 8. ya Nebukadnezar (2 Qral 24/12), Yeremya jî datîne sala 7. (52/28)."
+},
+"OLAYLAR_DUNYA_AVRUPA_MO:-0504-01-01:0": {
+"b": "Şerê Aricia: Etrûsk ji aliyê Aristodemosê Kymeyî ve têk çûn",
+"d": "Aristodemosê Kymeyî bi Latînan re pêşveçûna Etrûskan da sekinandin; serdestiya Etrûskan li Latiumê qediya."
+},
+"OLAYLAR_DUNYA_AVRUPA_MO:-0505-01-01:0": {
+"b": "Atîna li dijî Khalkis û Boiotiayê bi ser ket, li Khalkisê kleruchia ava kir",
+"d": "Serkeftina Atînayê li dijî hevbendiya Peloponnes–Khalkis–Boiotia; 4000 kleruchos li erdê Khalkisê hatin bicihkirin."
+},
+"OLAYLAR_DUNYA_AVRUPA_MO:-0544-01-01:0": {
+"b": "Fokaîyiyan Elea (Velia) ava kir",
+"d": "Piştî terikandina Alaliayê Fokaîyiyan Elea ava kirin."
+},
+"OLAYLAR_DUNYA_AVRUPA_MO:-0545-01-01:0": {
+"b": "Şerê Pallene: Peisistratos li Atînayê tîraniya mayînde ava kir",
+"d": "Di hewldana sêyem de Peisistratos li Pallene Atîniyan têk bir û tîraniyê bi awayekî mayînde ava kir (546/5); heta 527an dom kir."
+},
+"OLAYLAR_DUNYA_AVRUPA_MO:-0545-01-01:1": {
+"b": "Şerê Thyrea (Champions): Sparta Argos têk bir, Kynouria ji Spartayê re ma",
+"d": "300 şervanên bijartî ji her aliyî pevçûn; Spartayê Thyreatis bi dest xist."
+},
+"OLAYLAR_DUNYA_AVRUPA_MO:-0549-01-01:0": {
+"b": "Miltiades (Pîr) li Khersonesosa Trakyayê serdestî ava kir",
+"d": "Miltiadesê bi eslê xwe Atînî li nîvgirava Gelîbolûyê rêveberiyeke nîvserbixwe ava kir."
+},
+"OLAYLAR_DUNYA_AVRUPA_MO:-0549-01-01:1": {
+"b": "Kartaca li Sardînyayê bi cih bû (Malkhos, Magon)",
+"d": "Kartaca li peravên Sardînyayê serdestî ava kir."
+},
+"OLAYLAR_DUNYA_AVRUPA_MO:-0573-01-01:0": {
+"b": "Emporion (Ampurias) ji aliyê Fokaîyiyan ve hat avakirin",
+"d": "Rûniştgeha Massaliayê li peravê Îberî; hebûna Yewnanî li Hispaniayê."
+},
+"OLAYLAR_DUNYA_AVRUPA_MO:-0593-01-01:0": {
+"b": "Arxontiya Solon û reformên seisakhtheia",
+"d": "Reformên ku koletiya ji ber deynê rakirin; çînên welatiyan ji nû ve hatin rêkxistin."
+},
+"OLAYLAR_DUNYA_AVRUPA_MO:-0594-01-01:0": {
+"b": "Şerê Pîroz ê Yekem: Kirrha hat hilweşandin, Delphi ket bin kontrola Amfiktyoniayê",
+"d": "Ji bo gihîştina Delphiyê Kirrha hat tunekirin."
+},
+"OLAYLAR_DUNYA_AVRUPA_MO:-0597-01-01:0": {
+"b": "Kamarina ji aliyê Sîrakûzayê ve hat avakirin",
+"d": "Sîrakûzayê li başûrê rojhilat kolonî ava kir (135 sal piştî Sîrakûzayê)."
+},
+"OLAYLAR_DUNYA_AVRUPA_MO:-0599-01-01:0": {
+"b": "Poseidonia (Paestum) bi destê Sybarisiyan hat avakirin",
+"d": "Sybaris li peravê Tîrrenê kolonî ava kir."
+},
+"OLAYLAR_DUNYA_AVRUPA_MO:-0631-01-01:0": {
+"b": "Hewldana derbeyê ya Kylon li Atînayê",
+"d": "Kylon hewl da ku Akropolîsê bigire; bi ser neket."
+},
+"OLAYLAR_DUNYA_AVRUPA_MO:-0646-01-01:0": {
+"b": "Olbia/Berezan ji aliyê Miletosê ve hat avakirin",
+"d": "Rûniştgeha Yewnanî ya yekem li bakurê Deryaya Reş."
+},
+"OLAYLAR_DUNYA_AVRUPA_MO:-0656-01-01:0": {
+"b": "Kypselos li Korintê tîranî ava kir, Bakkhiadai hatin xistin",
+"d": "Kypselos olîgarşiya Bakkhiadaiyê xist û tîraniyeke demdirêj ava kir."
+},
+"OLAYLAR_DUNYA_AVRUPA_MO:-0668-01-01:0": {
+"b": "Şerê Hysiai: Argosê di bin rêveberiya Pheidon de Sparta têk bir",
+"d": "Serdestiya Argosê ya serdema Pheidon (dîrok û dîrokîbûn nakok in)."
+},
+"OLAYLAR_DUNYA_AVRUPA_MO:-0672-01-01:0": {
+"b": "Lokroi Epizephyrioi (Başûrê Îtalyayê) hat avakirin",
+"d": "Kolonî li Başûrê Îtalyayê."
+},
+"OLAYLAR_DUNYA_AVRUPA_MO:-0684-01-01:0": {
+"b": "Şerê Messeniayê yê II. dest pê kir",
+"d": "Sparta serhildana Messeniayê tepeser kir û pergala helotan xurt kir."
+},
+"OLAYLAR_DUNYA_AVRUPA_MO:-0687-01-01:0": {
+"b": "Gela hat avakirin",
+"d": "45 sal piştî Sîrakûzayê hat avakirin."
+},
+"OLAYLAR_DUNYA_AVRUPA_MO:-0699-01-01:0": {
+"b": "Şerê Lelantîn: şerê dirêj di navbera Khalkis û Eretriayê de",
+"d": "Şerê di navbera du bajarên mezin ên Euboiayê de ji bo deşta Lelantonê; gelek dewletên Yewnanî alîgir bûn."
+},
+"OLAYLAR_DUNYA_AVRUPA_MO:-0731-01-01:0": {
+"b": "Rhegion hat avakirin",
+"d": "Kolonî li serê başûrê Îtalyayê."
+},
+"OLAYLAR_DUNYA_AVRUPA_MO:-0732-01-01:0": {
+"b": "Korkyra (Kerkyra) ji aliyê Korintiyan ve hat avakirin",
+"d": "Koloniya Korintê li deriyê Adriyatîkê."
+},
+"OLAYLAR_DUNYA_AVRUPA_MO:-0733-01-01:0": {
+"b": "Naksos (Sîcîlya) hat avakirin: koloniya Yewnanî ya yekem a Sîcîlyayê",
+"d": "Khalkisiyan bi serokatiya Thoukles li rojhilatê Sîcîlyayê koloniya Yewnanî ya yekem ava kir."
+},
+"OLAYLAR_DUNYA_AVRUPA_MO:-0799-01-01:0": {
+"b": "Gadîr (Cádiz) ji aliyê Fenîkeyiyan ve hat avakirin",
+"d": "Li gorî kevneşopiyê B.Z. 1100 (Velleius 1.2.3), li gorî arkeolojiyê sedsalên 9.-8. ên B.Z."
+},
+"OLAYLAR_DUNYA_AVRUPA2:-0228-01-01:0": {
+"b": "Sefera yekem a Romayê li ser Îllyriayê: Korkyra teslîmî Romayê bû",
+"d": "Konsulan bi donanma û artêşê ji bo cezakirina Îllyriayê derketin; Korkyra garnîzonê teslîmî Romayiyan kir."
+},
+"OLAYLAR_DUNYA_AVRUPA2:0260-01-01:0": {
+"b": "Alamanan limesa Germanya-Retyayê derbas kirin û heta Tûnayê pêş ketin",
+"d": "Alamanan limesa Germanîk-Retî qelaştin û welatê heta Tûnayê û herêma Maina Jêrîn dagir kirin."
+},
+"OLAYLAR_DUNYA_AVRUPA2:0378-01-01:0": {
+"b": "Şerê Adrianopolîsê: Gotan Valens têk birin, împerator mir",
+"d": "Gotên Fritigern li Trakyayê li nêzîkî Edîrneyê împeratorê Rojhilat Valens têk birin; Valens birîndar bû û mir."
+},
+"OLAYLAR_DUNYA_AVRUPA2:0437-01-01:0": {
+"b": "Aetius qraliyeta Burgûndan têk bir; Qral Gundikar mir",
+"d": "Aetius Burgûndên ku ketibûn Belgica Prîmayê têk birin; Qral Gundikar ket û qraliyeta Burgûnd a yekem a li Rhîn qediya."
+},
+"OLAYLAR_DUNYA_AVRUPA2:0443-01-01:0": {
+"b": "Burgûnd bi destûra Romayê li Sapaudiayê bi cih bûn",
+"d": "Burgûndên mayîn wek federe li Sapaudiayê hatin bicihkirin; navika Qraliyeta Burgûnd a paşê."
+},
+"OLAYLAR_KI117:1684-08-24:0": {
+"b": "Derbasbûna Yazlofçayê bo destê Lehan",
+"d": "Di sefera Boxdanê ya Sobieskî de artêşa Leh, piştî dorpêçeke du rojan, Yazlofçaya ku ji 1672an vir ve di destê Osmaniyan de bû vegirt. Belavbûna sencaqa Kamanîçeyê bi vî awayî dest pê kir."
+},
+"OLAYLAR_KI117:1684-11-03:0": {
+"b": "Vegera Peşteyê bo Osmaniyan",
+"d": "Peşte, ku yekîneyên Habsburgan di Hezîrana 1684an de ketibûnê, piştî binketina dorpêça Budînê di destpêka Mijdara 1684an de dîsa vegeriya bin kontrola Osmanî; Habsburg dê bi teybetî di 1686an de bikevin Peşteyê."
+},
+"OLAYLAR_KI117:1686-01-01:0": {
+"b": "Valakirina Kela Mecibojê ji aliyê Osmaniyan ve",
+"d": "Kela Mecibojê ya li Podolyayê di 1686an de ji aliyê Osmaniyan ve hat valakirin; dema ku vedikişiyan hewl dan ku kelê biteqînin. Serweriya Osmanî ya nêzîkî heşt salan qediya."
+},
+"OLAYLAR_KI117:1686-10-01:0": {
+"b": "Derbasbûna Mohaçê bo kontrola Habsburgan",
+"d": "Piştî ketina Budînê, di pêşveçûna Habsburgan a li başûrê Tûnayê de, Mohaç di payîza 1686an de ket bin kontrola hevalbendan; havîna din artêş dê li Harşanê (1687) hewl bide ku li ser vê xetê li ber xwe bide."
+},
+"OLAYLAR_KI117:1689-09-11:0": {
+"b": "Baden gihîşt Yagodînayê — dalana Moravayê ket xeta Awistiryayê",
+"d": "Piştî têkçûna Batoçînayê (30ê Tebaxê) artêşa Osmanî ber bi başûr ve vekişiya; Baden di 11ê Îlona 1689an de gihîşt Yagodînayê û pireke li ser Moravayê ava kir. Xeta Awistiryayê di ser Yagodîna–Ćuprija–Paraćinê re heta Nîşê dirêj bû; Alacahisar jî li derveyî xetê ma."
+},
+"OLAYLAR_KI117:1690-09-01:0": {
+"b": "Paşayê Rûmelîyê ket Kela Orsovayê",
+"d": "Bi vekişîna artêşa Awistiryayê ji Sirbistanê di dawiya Tebaxa 1690an de, paşayê Rûmelîyê Orsova dîsa girt; peravê Tûnayê yê Banatê vegeriya bin kontrola Osmanî."
+},
+"OLAYLAR_KI117:1686-06-17:0": {
+"b": "Siwariyên Habsburgan ketin Peşteyê — amadekariya pêşîn a dorpêça Budînê",
+"d": "Pêşengê artêşa Habsburgan a ku ji bo dorpêça Budînê amade dibû, siwariyên Bavyerayê, ketin Peşteya ku ji aliyê garnîzona Osmanî ve hatibû terikandin; peravê rojhilatê Tûnayê bi teybetî ket bin kontrola Habsburgan. Budîn bi xwe dê di 2ê Îlonê de bikeve."
+},
+"OLAYLAR_KI117:1687-07-01:0": {
+"b": "Derbasbûna Înebahtiyê (Lepanto) bo Venedîkê",
+"d": "Piştî ketina Patrasê, Înebahtiya li devê Kendava Korintê jî ji aliyê Osmaniyan ve hat terikandin û ket bin kontrola Venedîkê; bi Peymana Karlofçayê ya 1699an dê bê vegerandin."
+},
+"OLAYLAR_KI117:1690-09-17:0": {
+"b": "Kelên Avlonya û Kaninayê ketin destê Venedîkê",
+"d": "Dema ku êrîşa dijber a Osmanî li Sirbistanê didomiya, donanma û hêzên Venedîkê Avlonya û Kanina yên li peravê Albanyayê girtin; di Adara 1691an de her du kel dê bên hilweşandin û berdan."
+},
+"OLAYLAR_KI117:1690-08-29:0": {
+"b": "Dursun Mehmed Paşa ket Vidînê — peravê Tûnayê dîsa di destê Osmaniyan de",
+"d": "Di êrîşa dijber a Fazil Mistefa Paşa de artêşa bejahî ya mutesarifê Qeramanê Dursun Mehmed Paşa û donanmaya Tûnayê ya Mezemorta Husên Paşa Vidîn ji Awistiryayê vegirtin."
+},
+"OLAYLAR_KI117:1691-03-15:0": {
+"b": "Venedîkiyan kelên ku li Albanyayê girtibûn hilweşandin û vekişiyan",
+"d": "Venedîkiyên ku di 17ê Îlona 1690an de Avlonya û Kanina girtibûn, di nîvê Adara 1691an de kel hilweşandin û vekişiyan; Albanyaya Başûr vegeriya bin kontrola Osmanî."
+},
+"OLAYLAR_KI117:1695-01-01:0": {
+"b": "Derbasbûna Qizilkermenê bo destê Rûsan",
+"d": "Di operasyona xeta Dnîperê ya ku bi sefera Azaxê ya Rûsyayê re hevdem bû, Şeremetev û Mazepa Qizilkermen girtin; kel heta Peymana Stenbolê ya 1700an di destê Rûsan de ma."
+},
+"OLAYLAR_KI117:1695-01-12:0": {
+"b": "Teslîmbûna Gyulayê bo Habsburgan",
+"d": "Gyulaya dorpêçkirî di 21ê Kanûna 1694an de kapîtulasyon îmze kir; di 12ê Çileya 1695an de garnîzon derket û yekîneyên Habsburgan ketin hundir. Kel heta Karlofçayê (1699) ne di destê Osmaniyan, di destê Habsburgan de bû."
+},
+"OLAYLAR_KI117:1699-09-22:0": {
+"b": "Teslîmkirina Kamanîçeyê bo Lehistanê",
+"d": "Li gorî pêdiviyên Peymana Karlofçayê ya 26ê Çileya 1699an, valakirina Podolyayê di Îlonê de temam bû; mifteyên Kamanîçeyê di 22ê Îlona 1699an de teslîmî komîsyona Leh hatin kirin. Derbasbûna sencaqê bo Lehistanê, digel kelên girêdayî wê (Bar, Meciboj, Yazlofça), bi kiryar bi vê rojê pêk hat."
+},
+"OLAYLAR_AVMAC_A_1029:0009-01-01:0": {
+"b": "Pannonia wek eyaleteke cuda ya Romayê hat rêxistin",
+"d": "Piştî ku serhildana Pannonia û Dalmaçyayê ya ku di P.Z. 6an de dest pê kir hat tepeserkirin, herêm di P.Z. 9an de wek eyaleteke cuda ya bi sê lejyonan garnîzonkirî hat rêkxistin; di dema Trajan de (texmînî 106) li Pannoniaya Jorîn û Jêrîn hat parçekirin."
+},
+"OLAYLAR_AVMAC_A_1029:0433-01-01:0": {
+"b": "Romaya Rojava Pannonia ji Hûnan re hişt; deşta Macar tevlî qraliyeta Hûnan bû",
+"d": "Di 433an de, dema ku qraliyeta Attîla û Bleda dest pê kir, Romaya Rojava erdên li Pannoniayê ji Hûnan re hişt (dîroka dewrê nakok e: texmînên 425/431/433); EB11 'Attila': qraliyeta taybet a Attîla Macaristan û Transîlvanyaya îroyîn vedihewand."
+},
+"OLAYLAR_AVMAC_A_1029:0567-01-01:0": {
+"b": "Avaran qraliyeta Gepîdan hilweşand; li deşta Macar Xaqanîtiya Avaran dest pê kir",
+"d": "Avarên ku bi Lombardan re hevbendî kirin Gepîd şikandin (567-568), Lombard vekişiyan Îtalyayê; serweriya Avaran ji navbera Tûna-Tisayê belavî hewza Karpatan bû."
+},
+"OLAYLAR_AVMAC_A_1029:0822-01-01:0": {
+"b": "Behsa dawî ya Xaqanîtiya Avaran: xwediyê tenê yê deşta Macar nema (VALAHIYA DAXUYANÎKIRÎ)",
+"d": "Behsa siyasî ya dawî ya dewleta Avaran li dora 822an e (Pohl; Curta); paşê qadên serweriyê yên Bulgar, Frankê Rojhilat û Moravyaya Mezin pêşbaziyê kirin, ji bo navbera Tûna-Tisayê çavkaniya xwediyekî tenê nehat dîtin — atlas vê beşê wek valahiya daxuyanîkirî dihêle."
+},
+"OLAYLAR_AVMAC_A_1029:0895-01-01:0": {
+"b": "Eşîrên Macar li hewza Karpatan bi cih bûn (Honfoglalás): Prensîtiya Macar li deşta Macar dest pê kir",
+"d": "Eşîrên Macar ên bi serokatiya Árpád di 895-896an de Karpat derbas kirin û li hewza Karpatan bi cih bûn; navbera Tûna-Tisayê derbasî Prensîtiya Macar bû."
+},
+"OLAYLAR_AVMAC_A_1029:0976-01-01:0": {
+"b": "Otto II. Leopoldê Babenbergî kir markgrafê Marka Rojhilat: li Melkê serweriya Babenbergan dest pê kir",
+"d": "Di 976an de Otto II. Marka Rojhilat da Leopoldê Babenbergî; mark markeke sînorî ya bi navenda Melkê bû û heta 1156an dom kir."
+},
+"OLAYLAR_AVMAC_A_1029:1129-01-01:0": {
+"b": "Graz cara yekem hat bibîranîn (texmînî 1129): Marka Stîryayê di nav Împeratoriya Pîroz a Romayê de di bin serdestiya bilind a dûkê Bavyerayê de",
+"d": "Graz bi navê xwe texmînî di 1129an de tê bibîranîn; Stîrya di vê demê de erdê markgrafên di bin serdestiya bilind a dûkê Bavyerayê de bû."
+},
+"OLAYLAR_AVMAC_A_1029:1135-01-01:0": {
+"b": "Babenberg texmînî di 1135an de bûn xwediyê bajarê Viyanayê (Viyana, Marka Babenberg)",
+"d": "AEIOU: Babenberg (976-1246) texmînî di 1135an de bûn xwediyê bajarê Viyanayê; bajarê ku navê wî cara yekem di 881an de tê bibîranîn berî vê yekê demek dirêj di bin bandora Macaran de bû (sala dawiyê di çavkaniyê de nehatiye dayîn)."
+},
+"OLAYLAR_AVMAC_A_1029:1156-09-17:0": {
+"b": "Privilegium minus (Regensburg): Marka Awistiryayê bû dûkatî — Melk û Viyana di Dûkatiya Awistiryayê de",
+"d": "Di 17ê Îlona 1156an de li Reichstagê Regensburgê Henrîkê II. Jasomirgott ê Babenbergî Bavyera ji dûkatiya Bavyerayê vegerand împerator, Marka Awistiryayê bi tevahî ji Bavyerayê cuda bû û bû dûkatî; Henrîkê II. texmînî di 1155an de rezîdansa xwe ji Klosterneuburgê veguhastibû Viyanayê."
+},
+"OLAYLAR_AVMAC_A_1029:1180-01-01:0": {
+"b": "Stîrya bû dûkatiyeke cuda (Otakar IV. dûk): Graz di Dûkatiya Stîryayê de",
+"d": "Marka Stîryayê ya di bin serdestiya bilind a dûkê Bavyerayê de di 1180an de bû dûkatiyeke serbixwe; Graz navenda vê dûkatiyê bû. Roj di çavkaniyê de tune ye (di senedê de Dîeta Gelnhausenê tê bibîranîn)."
+},
+"OLAYLAR_AVMAC_A_1029:1192-05-08:0": {
+"b": "Dûkê dawî yê Otakaran Otakar IV. mir: Stîrya (Graz) li gorî Peymana Georgenbergê derbasî Leopoldê V. yê Babenbergî, Dûkatiya Awistiryayê bû",
+"d": "Bi mirina Otakar IV.ê bêzarok di 8ê Gulana 1192an de, li gorî Peymana Georgenbergê ya 17ê Tebaxa 1186an Dûkatiya Stîryayê derbasî Leopoldê V. yê Babenbergî bû; her du dûkatî wek yekîtiya şexsî dom kirin."
+},
+"OLAYLAR_AVMAC_A_1029:1194-01-01:0": {
+"b": "Wiener Neustadt ji aliyê dûkê Babenbergî Leopoldê V. ve li hemberî sînorê Macar hat avakirin",
+"d": "Bajar li dora 1192-94an ji aliyê Leopoldê V. ve li hemberî sînorê Macar hat avakirin; sala avakirinê 1194 hat hesibandin."
+},
+"OLAYLAR_AVMAC_A_1029:1254-04-03:0": {
+"b": "Aştiya pêşîn a Ofenê: Stîrya (Graz) ji Qralê Macar Béla IV. re, Awistirya ji Ottokarê II. re",
+"d": "Dema ku nifşa Babenberg di 1246an de qut bû, ji bo Awistirya û Stîryayê qralê Bohemyayê Ottokarê II. û qralê Macar Béla IV. pêşbaziyê kirin; di aştiya pêşîn a ku di 3ê Nîsana 1254an de li Ofenê hat îmzekirin de Ottokar Awistirya û Stîryaya bakur girt, Béla jî mayîna Stîryayê (Graz) girt."
+},
+"OLAYLAR_AVMAC_A_1029:1260-07-12:0": {
+"b": "Şerê Kressenbrunn (Groißenbrunn): Ottokarê II. Macar têk birin, Béla dev ji Stîryayê (Graz) berda",
+"d": "Di dawiya 1259an de li Stîryayê li dijî rêveberiya Macar serhildan derket; bi piştgiriya Ottokarê II. di 12ê Tîrmeha 1260an de li Kroissenbrunnê li Marchfeldê artêşa Macar têk çû, Béla IV. dev ji Stîryayê berda, Stîrya di destê Ottokar de bi Awistiryayê re yek bû."
+},
+"OLAYLAR_AVMAC_A_1029:1282-12-27:0": {
+"b": "Li Augsburgê Qral Rudolf kurên xwe Albrecht û Rudolf kirin dûkên Awistirya û Stîryayê: Viyana, Graz, Linz, Freistadt, Gmünd, Maribor, Hartberg û Wiener Neustadt wek fiefa Habsburgan",
+"d": "Di 27ê Kanûna 1282an de di civîna qesrê ya Augsburgê de Rudolf I. kurên xwe Albrecht û Rudolf bi dûkatiyên Awistirya û Steiermarkê (digel Krain û Windische Markê) fiefdar kirin. Welatên Awistiryayê yên ku di navbera 1276-1282an de di destê Reichê de bûn ji vê rojê pê ve erdê Habsburgan in; serweriya Habsburgan a nêzîkî 650 salan li Awistiryayê dest pê dike."
+},
+"OLAYLAR_AVMAC_A_1029:1363-01-26:0": {
+"b": "Margarete Maultasch Tîrol da Habsburgan: Innsbruck û Landeck bûn erdê Habsburgan",
+"d": "Kontesa Tîrolê Margarete 'Maultasch' di 26ê Çileya 1363an de li Bozenê mafên xwe yên li ser welêt da dûkê Habsburg Rudolf IV. û birayên wî; Kontîtiya Tîrolê qediya, Innsbruck û Landeck bi dûkatiyên Habsburgan ve hatin girêdan."
+},
+"OLAYLAR_AVMAC_A_1029:1379-01-01:0": {
+"b": "Dewrê kontîtiya Montfort-Feldkirchê bo Habsburgan temam bû: Feldkirch di destê Dûk Leopoldê III. de (firotin Gulana 1375an)",
+"d": "Kont Rudolf von Montfort-Feldkirch di Gulana 1375an de Kontîtiya Feldkirchê û milkên xwe firot Dûk Leopoldê III.; piştî pereyê dayînê di 1379an de dewr hat kirin, kont mafê feydegirtinê (Vogt) yê heta mirinê parast; xeta Montfort-Feldkirchê di 1390an de qut bû."
+},
+"OLAYLAR_AVMAC_A_1029:1500-04-12:0": {
+"b": "Kontê Görzê Leonhard li Lienzê mir: milkên Görzê (Lienz û Tîrola Rojhilat) derbasî Maximilianê I. ê Habsburgî bûn",
+"d": "Dema ku Leonhard, kontê dawî yê xanedana kontên Görzê, di 12ê Nîsana 1500an de li Lienzê mir, li gorî peymana mîratê (Erbvertrag) ya ku demeke kurt berî mirina xwe îmze kiribû, milkên Görzê derbasî Xanedana Habsburg (Qral Maximilianê I.) bûn; Tîrola Rojhilat (Lienz) bi Landa Tîrolê re hat rêvebirin."
+},
+"OLAYLAR_AVMAC_A_1029:1523-01-01:0": {
+"b": "Nîva duyem a Bregenzê firotin Arşîdûk Ferdinandê: Bregenz bi tevahî bû erdê Habsburgan",
+"d": "Nîva kontîtiya Montfort-Bregenzê di 1451an de ji Dûk Sigmundê re hatibû firotin; Hugo XVII von Montfort di 1523an de nîva din firot Arşîdûk Ferdinandê (Ferdinandê I.) û Bregenz bi tevahî bû yê Habsburgan."
+},
+"OLAYLAR_AVMAC_B_1029:1526-10-23:0": {
+"b": "Ferdinandê I. wek qralê Bohemyayê hat hilbijartin — Habsburgan tacê Bohemyayê girt",
+"d": "Piştî mirina Lajosê II. li Mohaçê, Dîeta Bohemyayê li hemberî şertên hilbijartinê (piştrastkirina îmtiyazan) Ferdinand wek qral hilbijart; tackirin di Sibata 1527an de ye. Bi vî awayî Bohemya, Moravya û Sîlezya bi tacê Habsburgan ve hatin girêdan."
+},
+"OLAYLAR_AVMAC_B_1029:1527-11-03:0": {
+"b": "Ferdinandê I. li Székesfehérvárê wek qralê Macar tac li serê xwe kir",
+"d": "Ferdinandê ku di Îlona 1527an de Budîn ji Szapolyai girt, li Székesfehérvárê, bajarê tacê yê qralên Macar, tac li serê xwe kir û serdema du qralan bi hevrikê Szapolyai re xurt bû."
+},
+"OLAYLAR_AVMAC_B_1029:1540-07-22:0": {
+"b": "Mirina Szapolyai János — pirsa Budînê û deriyê parçebûna Macaristanê",
+"d": "Qralê Macaristana Rojhilat ê vasalê Osmanî Szapolyai, kurê xwe yê ku demeke kurt berê ji dayik bûna wî dîtibû wek mîratgir hişt û mir. Ketina Siltan Silêmanê Qanûnî ya Budînê di 1541an de û parçebûna Macaristanê li sê beşan (Macaristana Qraliyetê, Eyaleta Budînê, Erdel) encama vê mirinê ye."
+},
+"OLAYLAR_AVMAC_B_1029:1555-01-01:0": {
+"b": "Ptuj (Pettau) ji Salzburgê hat vegirtin û tevlî Steiermarka Habsburgan bû",
+"d": "Ptuj, ku Maximilianê I. di 1511an de bi mafê rehnkirin/firotinê ji serpîskoposê Salzburgê re hiştibû, ji aliyê Qral Ferdinand ve di 1555an de ji nû ve hat kirîn û bi dûkatiya Steiermarkê ve hat girêdan; senyoriya Salzburgê ya li Dravsko poljeyê qediya."
+},
+"OLAYLAR_AVMAC_B_1029:1606-06-23:0": {
+"b": "Aştiya Viyanayê — serhildana Bocskai qediya, prensê Erdelê hat naskirin",
+"d": "Hikimdarê Habsburg mafê mîrasî yê Bocskai yê li ser Erdelê û rêveberiya çar parêzgehan di Macaristana Qraliyetê de nas kir, îmtiyazên destûrî û mezhebî yên esîlzadeyên Macar piştrast kirin. Peymana Zitvatorokê ya Mijdara heman salê ev aştî temam kir."
+},
+"OLAYLAR_AVMAC_B_1029:1711-04-29:0": {
+"b": "Aştiya Szatmárê — şerê azadiyê yê Rákóczi qediya, Erdel derbasî rêveberiya Habsburgan bû",
+"d": "Lihevhatina di navbera fermandarê artêşa Kuruc Károlyi Sándor û serfermandarê împeratoriyê Pálffy János de serhildana Rákóczi ya ku ji 1703an vir ve didomiya qedand; îmtiyazên esîlzadeyên Macar û hebûna destûrî ya Erdelê hatin parastin lê welat bi kiryar ket bin rêveberiya hikimdarê Habsburg. Bi vî awayî serdema Habsburgan a Prensîtiya Erdelê ya vasalê Osmanî, ku di 1699an de dest pê kir, teybetî bû."
+},
+"OLAYLAR_AVMAC_B_1029:1803-02-25:0": {
+"b": "Reichsdeputationshauptschluss: Brixen û Trient ji Awistiryayê re, Salzburg ji hilbijêriya Dûkê Toskanayê Ferdinand re",
+"d": "Li gorî biryara dawî ya ku begtiyên dêrê yên Împeratoriya Pîroz a Romayê rakir, prens-pîskoposiyên Brixen û Trientê tevlî Awistiryayê bûn; Prens-Serpîskoposiya Salzburgê sekuler hat kirin û wek hilbijêrî ji Dûkê Toskanayê Ferdinand re hat dayîn. Bi vê biryarê Trento (Pîskoposiya Trientê) derbasî Awistiryayê bû."
+},
+"OLAYLAR_AVMAC_B_1029:1804-08-11:0": {
+"b": "Franz II. Împeratoriya Awistiryayê ragihand — împeratoriya mîrasî ya Awistiryayê",
+"d": "Li hemberî ku Napolyon bû împeratorê Fransiyan, Franz II. patentek weşand û ji bo welatên Habsburgan sernavê împeratorê mîrasî yê Awistiryayê girt. Ji ber ku tacê Pîroz ê Romayê hîn jî di destê wî de bû, her du sernavên împeratoriyê heta 1806an bi hev re meşiyan."
+},
+"OLAYLAR_AVMAC_B_1029:1805-12-26:0": {
+"b": "Hûrgiliyên cihan ên Aştiya Pressburgê: Salzburg ji Awistiryayê re; Brixen, Trient, Tîrol û Vorarlberg ji Bavyerayê re",
+"d": "Piştî Austerlitzê, Awistiryayê Kontîtiya Tîrolê (digel prens-pîskoposiyên Brixen û Trientê) û Vorarlberg ji qralê Bavyerayê re hişt. Li hemberî wê serpîskoposiya kevn a Salzburgê û Berchtesgaden tevlî împeratoriya Awistiryayê bûn."
+},
+"OLAYLAR_AVMAC_B_1029:1806-08-06:0": {
+"b": "Franz II. dev ji tacê Pîroz ê Romayê berda — Împeratorî qediya",
+"d": "Piştî avakirina Konfederasyona Rhînê, Franz hilweşandina Împeratoriya Pîroz a Romayê ragihand, ji tacê vekişiya û tenê wek împeratorê Awistiryayê ma."
+},
+"OLAYLAR_AVMAC_B_1029:1809-10-14:0": {
+"b": "Hûrgiliyên cihan ên Aştiya Schönbrunnê: Salzburg û Karîntiyaya Jorîn (Villach, Tarvîs, Lienz) ji Awistiryayê cuda bûn",
+"d": "Piştî têkçûna 1809an Awistiryayê Salzburg, Karîntiyaya Jorîn (di nav de Villach û Lienza li Tîrola Rojhilat) û Kranya digel Trîestê hiştin; parçeyên Karîntiya û Kranyayê Eyaletên Îllyriayê yên Napolyon pêk anîn. Bi vê aştiyê Ljubljana (Kranj), Gradisca (Gorizia) û Karlovac (Xirwatistana başûrê Savayê) derbasî Fransayê; Krakov, Kielce, Radom, Chełm (Galîçyaya Nû) û Zamość derbasî Dûkatiya Varşovayê bûn."
+},
+"OLAYLAR_AVMAC_B_1029:1848-03-15:0": {
+"b": "Li Peştê Şoreşa Adarê dest pê kir — Şoreşa Macar a 1848-49",
+"d": "Xwepêşandanên ku li qehwexaneya Pilvax dest pê kirin, piştî şoreşa li Viyanayê (13ê Adarê), bûn sedema ku walî li Peştê Diwanzdeh Xalan bipejirîne; tevgera neteweyî ya Macar a li dijî monarşiya Habsburgan dest pê kir."
+},
+"OLAYLAR_AVMAC_B_1029:1848-04-11:0": {
+"b": "Qanûnên Nîsanê hatin pejirandin — ji Macaristanê re hikûmeta berpirsiyar û wezaretên serbixwe",
+"d": "Qanûnên ku Dîeta Pozsonyê di Adarê de pejirandibûn ji aliyê qral Ferdinandê V. ve hatin pejirandin: konseya wezîrên berpirsiyar a Macar, rakirina peywirên serfiyê û berfirehkirina mafê hilbijartinê. Ev qanûn wek bingeha destûrî ya ku diçû Ausgleichê (1867) ji nû ve hatin zindîkirin."
+},
+"OLAYLAR_AVMAC_B_1029:1848-09-11:0": {
+"b": "Artêşa Xirwat a Jelačić Drava derbas kir — şerê serxwebûnê yê Macar dest pê kir",
+"d": "Banê Xirwatistanê Jelačić, bi piştgiriya qesra Habsburgan, bi artêşa xwe ya nêzîkî 50.000 kesî Drava, ku sînorê Macar-Xirwat bû, derbas kir; di heman rojê de hikûmeta Batthyány îstîfa kir û pevçûn bû şerê vekirî."
+},
+"OLAYLAR_AVMAC_B_1029:1849-04-14:0": {
+"b": "Daxuyaniya Serxwebûnê ya Debrecenê — xanedana Habsburg ji text hat daxistin, Kossuth serokê dewletê",
+"d": "Dîeta Macar li Dêra Mezin a Reformê ragihand ku xanedana Habsburg-Lothringen ji text hatiye daxistin û Macaristan dewleteke serbixwe ye; Kossuth wek 'walî-serok' hat hilbijartin."
+},
+"OLAYLAR_AVMAC_B_1029:1849-08-13:0": {
+"b": "Li Világosê artêşa Macar teslîmî Rûsan bû — Şoreşa Macar hat tepeserkirin",
+"d": "Görgeiyê ku bi midaxeleya Rûsan ve hatibû dorpêçkirin, piştî ku Kossuth desthilat dewrî wî kir (11ê Tebaxê), li Világosê teslîmî hêzên Rûs bû; ev wek dawiya kiryarî ya şoreşê tê hesibandin. Kossuth û hevalên wî xwe spartin Osmaniyan (binêre 16ê Tebaxa 1849an)."
+},
+"OLAYLAR_AVMAC_B_1029:1849-10-06:0": {
+"b": "Li Aradê 13 generalên Macar hatin îdamkirin, li Peştê Batthyány Lajos hat gulebarankirin",
+"d": "Bi fermana Haynau sêzdeh generalên Macar li Aradê hatin îdamkirin, serokwezîrê Macar ê yekem Batthyány li Peştê hat gulebarankirin. 6ê Cotmehê îro li Macaristanê roja şîna neteweyî ye."
+},
+"OLAYLAR_AVMAC_B_1029:1867-02-17:0": {
+"b": "Hikûmeta destûrî ya Macar ji nû ve hat avakirin — Andrássy Gyula serokwezîr",
+"d": "Franz Joseph, li ser pêşniyara Deák Ferenc, Andrássy Gyula tayînî serokwezîriya Macaristanê kir û pergala destûrî ya Macar a berî 1848an ji nû ve da xebitandin; hikûmet di 20ê Sibatê de sond xwar. Ev gav rêya pejirandina Ausgleichê vekir."
+},
+"OLAYLAR_AVMAC_B_1029:1867-05-29:0": {
+"b": "Ausgleich (Lihevhatin): Dîeta Macar qanûna 1867:XII pejirand — monarşiya duaneya Awistirya-Macaristanê",
+"d": "Dîeta Macar a ji nû ve civiyayî qanûna 1867:XII ya ku karên hevpar (siyaseta derve, artêş, darayiya wan) rêk dixist bi 209 dengan li dijî 89 dengan pejirand. Monarşiya Habsburgan bû avahiyeke duane ya ji du nîvên serwer (Împeratoriya Awistiryayê û Qraliyeta Macaristanê) pêk tê; Macaristan bû hevparê wekhev."
+},
+"OLAYLAR_AVMAC_B_1029:1867-06-08:0": {
+"b": "Franz Joseph û Elisabeth li Budayê wek qral û qralîçeya Macaristanê tac li serê xwe kirin",
+"d": "Tacê Aziz István li Dêra Matthias ji aliyê Prîmas û serokwezîr Andrássy ve danîn serê Franz Joseph; bi vê merasîmê Ausgleich bi desthilata qral a di hiqûqa Macar de ve hat girêdan."
+},
+"OLAYLAR_AVMAC_C_1029:1867-06-08:0": {
+"b": "Franz Josephê I. li Budapeştê wek qralê Macaristanê tac li serê xwe kir — monarşiya duane (Awistirya-Macaristan) temam bû",
+"d": "Lihevhatina 1867an (Ausgleich) ji Macaristanê re di karên navxweyî de hikûmet û parlamentoyek cuda nas kir; siyaseta derve, artêş û darayiya hevpar hevpar man. Franz Joseph di 8ê Hezîrana 1867an de wek qralê Macaristanê tac li serê wî hat danîn."
+},
+"OLAYLAR_AVMAC_C_1029:1918-11-11:0": {
+"b": "Împerator Karlê I. ragihand ku dev ji tevlîbûna karên dewletê berdide (ji bo Awistiryayê)",
+"d": "Karl di 11ê Mijdara 1918an de ragihand ku dev ji tevlîbûna karên dewletê yên li Awistiryayê berdide; bi eşkereyî dev ji text berneda. Roja din Meclisa Neteweyî ya Demkî forma komarê ragihand. Daxuyaniya cuda ya ji bo Macaristanê (Eckartsau) dîroka 13ê Mijdarê heye."
+},
+"OLAYLAR_AVMAC_C_1029:1918-11-13:0": {
+"b": "Daxuyaniya Karl a Eckartsauyê: dev ji tevlîbûna karên dewleta Macaristanê berda, karmendan ji sondên dilsoziyê azad kir",
+"d": "Daxuyaniya ku li Eckartsauyê hat nivîsîn bi dîroka 13ê Mijdara 1918an e; li Budapeştê di 14ê Mijdarê de hat weşandin. Karl tenê dev ji bikaranîna mafên serweriyê berda, peyva 'dev ji text berdan' bi kar neanî. Li nexşeyê zincîrên Macaristanê di 11ê Mijdarê de, ragihandina Komara Gel a di senedê de jî di 16ê Mijdarê de diguhere; 13ê Mijdarê xeleka hiqûqî ya di navbera van her du rojan de ye."
+},
+"OLAYLAR_AVMAC_C_1029:1918-11-16:0": {
+"b": "Konseya Neteweyî ya Macar Komara Gel a Macaristanê ragihand — di bin serokatiya Károlyi de monarşî bi fermî rabû",
+"d": "Károlyi di 31ê Cotmeha 1918an de (Şoreşa Kulîlkên Asterê) ji aliyê Karl ve wek serokwezîr hatibû tayînkirin. Di 16ê Mijdara 1918an de Konseya Neteweyî û hikûmetê Komara Gel ragihandin; di 11ê Çileya 1919an de Károlyi bû serokkomarê demkî. Senedên macaristan-naiplik û macaristan-halk-cumhuriyeti ji vê rojê dest pê dikin. Bi vê bûyerê bajarên Qraliyeta Macaristanê yên li derveyî Xirwatistanê, di nav de Aquincum-Óbuda-Pest, Estergon, Egrî, Segedîn (Szeged), Debrecen, Varad û Macaristana Jorîn, derbasî Komara Gel a Macaristanê bûn."
+},
+"OLAYLAR_AVMAC_C_1029:1919-03-21:0": {
+"b": "Hikûmeta Béla Kun Komara Sovyetî ya Macar ragihand",
+"d": "Dema ku nota Vix a Antantê (20ê Adarê) vekişandina yekîneyên Macar xwest, hikûmeta Károlyi vekişiya; komunîstên ku bi Sosyal Demokratan re bûn yek di 21ê Adara 1919an de Komara Sovyetî ava kirin. Komar 133 roj (TDV: gotina ku dibêje 121 roj jî heye) dom kir; nexşe di vê demê de nasnameya macaristan-naiplik bi kar tîne."
+},
+"OLAYLAR_AVMAC_C_1029:1919-08-04:0": {
+"b": "Artêşa Romanyayê ket Budapeştê — sê roj piştî reva Kun",
+"d": "Kun û derdora wî di 1ê Tebaxa 1919an de reviyan Awistiryayê; artêşa Romanyayê sê roj şûnda Budapeşt dagir kir û heta nîvê Mijdara 1919an li bajêr ma."
+},
+"OLAYLAR_AVMAC_C_1029:1919-11-16:0": {
+"b": "Artêşa Neteweyî ya Horthy ket Budapeştê — piştî vekişîna Romanyayê dij-şoreşê desthilat girt",
+"d": "Yekîneyên Romanyayê di 14ê Mijdara 1919an de ji Budapeştê derketin; Artêşa Neteweyî ya di bin fermandariya Horthy de di 16ê Mijdara 1919an de ket bajêr. Bi vî awayî rêya anîna Horthy ya naîbîtiyê di 1ê Adara 1920an de vebû."
+},
+"OLAYLAR_AVMAC_C_1029:1921-10-13:0": {
+"b": "Protokola Venedîkê — Macaristanê dewrkirina Burgenlandê bo Awistiryayê û li Sopronê plebîsîtê pejirand",
+"d": "Di dawiya hevdîtinên ku bi navbeynkariya Îtalyayê di 11-13ê Cotmeha 1921an de hatin kirin de, Macaristanê pejirand ku yekîneyên xwe vekişîne û Burgenlandê ji Awistiryayê re bihêle; Awistirya jî pejirand ku li Sopronê û heşt gundên derdora wê plebîsîtê bike. Hewldana yekem a Awistiryayê di 28ê Tebaxa 1921an de ji ber çeteyên Macar bi ser neketibû (cendirme di 10ê Îlonê de vegeriya sînorê kevn)."
+},
+"OLAYLAR_AVMAC_C_1029:1921-12-14:0": {
+"b": "Plebîsîta Sopronê dest pê kir — nêzîkî ji sedî 65ê dengan bi aliyê Macaristanê ve derketin",
+"d": "Di 14-15ê Kanûna 1921an de Sopron û Brennbergbánya, di 16ê Kanûnê de jî heşt gundên derdorê deng dan. Li bajêr Macaristan, li piraniya gundan Awistirya li pêş derket; bi tevahî Macaristan nêzîkî ji sedî 65 bû. Komîsyona Generalên Hevalbend herêm di 1ê Çileya 1922an de dewrî Macaristanê kir (zincîra Sopronê ya li nexşeyê Macar dimîne)."
+},
+"OLAYLAR_AVMAC_C_1029:1938-03-12:0": {
+"b": "Yekîneyên Alman ketin Awistiryayê — qanûna Anschluss roja din hat derxistin",
+"d": "Banga plebîsîtê ya Schuschnigg Hîtler ber bi midaxeleyê ve bir; artêşa Alman di 12ê Adara 1938an de ket Awistiryayê, di 13ê Adarê de tevlîbûna Awistiryayê ya Reichê bû qanûn (li nexşeyê zincîr di 13ê Adarê de diguherin)."
+},
+"OLAYLAR_AVMAC_C_1029:1944-03-19:0": {
+"b": "Almanyayê Macaristan dagir kir (Operasyona Margarethe)",
+"d": "Li ser lêgerîna Macaristanê ya aştiya cuda bi Hevalbendan re, yekîneyên Alman di 19ê Adara 1944an de welat dagir kirin; hikûmeta Sztójay hat avakirin û sirgûnkirina Cihûyên Macar dest pê kir. Horthy di 15ê Cotmeha 1944an de bi hewldana ragihandina mutarekeyê hat xistin, Xaça Tîrê desthilat girt."
+},
+"OLAYLAR_AVMAC_C_1029:1945-04-04:0": {
+"b": "Artêşa Sovyetê Macaristan ji kontrola Alman derxist — yekîneyên Alman ên dawî ji welêt hatin avêtin",
+"d": "Artêşa Sovyetê ya ku ket Macaristanê di 4ê Nîsana 1945an de dawî li bandora Alman anî. Macaristan heta 1946an di bin kontrola Komîsyona Kontrolê ya Hevalbendan (Sovyetî) de ma; komar di 1ê Sibata 1946an de hat ragihandin."
+},
+"OLAYLAR_AVMAC_C_1029:1945-04-13:0": {
+"b": "Artêşa Sor Viyana bi dest xist — Şerê Viyanayê qediya",
+"d": "Artêşa Sor di 5ê Nîsana 1945an de gihîşt peravê rojava yê Viyanayê; di 13ê Nîsanê de di saet 14an de fermandariya Sovyetî ragihand ku pevçûn qediyaye. Hikûmeta demkî ya Renner du hefte şûnda, di 27ê Nîsanê de, serxwebûna Awistiryayê ragihand (li nexşeyê zincîra Viyanayê di 27ê Nîsanê de ji Almanyayê vedigere Komara II.)."
+},
+"OLAYLAR_AVMAC_C_1029:1945-07-09:0": {
+"b": "Peymana parçekirina Viyanayê li çar herêman — hevalbendên Rojavayî di 1ê Îlonê de li sektorên xwe bi cih bûn",
+"d": "Peymana derbarê Besatzungszonen û rêveberiya bajarê Viyanayê de bi dîroka 9ê Tîrmeha 1945an e; hêzên DYA, Brîtanya û Fransayê di 1ê Îlona 1945an de hatin sektorên xwe, Konseya Hevalbendan di 11ê Îlonê de civiya. Kontrola çar hêzan heta 1955an dom kir. Li nexşeyê nasnameyeke herêmê ya dagirkeriyê ya cuda tune ye (cemidandina motorê: mifteyeke BOYALAR ya nû nehat zêdekirin)."
+},
+"OLAYLAR_AVMAC_C_1029:1949-08-20:0": {
+"b": "Destûra bingehîn a Komara Gel a Macaristanê ket meriyetê — rejîma yek-partî ya cureyê Sovyetî",
+"d": "Destûra bingehîn a 20ê Tebaxa 1949an Macaristan kir Komara Gel. Senedê macaristan-halk (1946-1989) van her du rejîman wek polîtyayek digire; boyaxa nexşeyê naguhere."
+},
+"OLAYLAR_AVMAC_C_1029:1955-05-15:0": {
+"b": "Peymana Dewletê ya Awistiryayê li Viyanayê hat îmzekirin — dagirkeriya çar hêzan diqede",
+"d": "DYA, YKSS, Brîtanya, Fransa û Awistiryayê di 15ê Gulana 1955an de li Qesra Belvederê Peymana Dewletê îmze kirin; peyman di 27ê Tîrmeha 1955an de ket meriyetê, yekîneyên dawî yên dagirkeriyê di 25ê Cotmeha 1955an de derketin, Meclisa Awistiryayê di 26ê Cotmeha 1955an de qanûna destûrî ya bêalîbûna daîmî derxist."
+},
+"OLAYLAR_AVMAC_C_1029:1956-10-23:0": {
+"b": "Serhildana Macar dest pê kir — midaxeleya Sovyetê di 4ê Mijdarê de serhildan tepeser kir",
+"d": "Zextên zêde di 23ê Cotmeha 1956an de bûn sedema serhildana gel; yekîneyên Sovyetê di 4ê Mijdarê de midaxele kirin. Erd û sînor neguheriye; rejîm di bin rêveberiya Kádár de dom kir (macaristan-halk)."
+},
+"OLAYLAR_AVMAC_C_1029:1995-01-01:0": {
+"b": "Awistirya tevlî Yekîtiya Ewropayê bû",
+"d": "Awistirya, digel Swêd û Fînlandayê, di 1ê Çileya 1995an de bû endamê YEyê. Dewlet û sînor neguheriye; zincîra avusturya-ikinci-cumhuriyet didome."
+},
+"OLAYLAR_AVMAC_C_1029:2004-05-01:0": {
+"b": "Macaristan tevlî Yekîtiya Ewropayê bû",
+"d": "Macaristan, digel neh welatan, di 1ê Gulana 2004an de bû endamê YEyê. Dewlet û sînor neguheriye; zincîra macaristan-cumhuriyeti didome."
+},
+"OLAYLAR_AVMAC_FINAL_1029:1703-01-01:0": {
+"b": "Di bin serokatiya Ferenc Rákóczi II. de serhildana Kuruc a li dijî Habsburgan dest pê kir",
+"d": "Daxuyaniya Brezán a Rákóczi (wek 6ê Gulana 1703an tê bibîranîn) û hevdîtina wî ya Hezîrana 1703an bi yekîneyên Kuruc ên Tamás Esze serhildan da destpêkirin; şer bi Aştiya Szatmárê ya 1711an qediya. Tenê hûrgiliya salê: roja daxuyanî/destpêkê di çavkaniyên duyemîn de wek 6ê Gulanê, 21ê Gulanê, 15ê Hezîranê cuda ye; çavkaniya akademîk a rojê nehat dîtin (deyn)."
+},
+"OLAYLAR_AVMAC_FINAL_1029:1866-07-03:0": {
+"b": "Şerê Königgrätz (Sadowa): Prûsya Awistirya û Saksonya têk birin",
+"d": "Şerê diyarker ê Şerê Heft Hefteyan; serokatiya Awistiryayê ya di Konfederasyona Alman de qediya û rêya Ausgleicha 1867an vebû."
+},
+"OLAYLAR_AVMAC_FINAL_1029:1866-08-23:0": {
+"b": "Aştiya Pragê: Awistiryayê erdên xwe yên li derveyî Venedîkê parast, Prûsyayê Schleswig-Holstein girt",
+"d": "Peymana Pragê ya 23ê Tebaxa 1866an Şerê Heft Hefteyan qedand; Awistirya dagirkerî nedît, sînorê wê neguheriye (Venedîk bi Peymana Viyanayê ya 3ê Cotmeha 1866an ji Îtalyayê re hat hiştin, binêre xala cuda)."
+},
+"OLAYLAR_AVUSTURYA_MACAR_1027:0455-01-01:0": {
+"b": "Qraliyeta Gepîdan hat avakirin: Ardaric Hûn têk birin, Tisa-Transîlvanya ket bin serweriya Gepîdan",
+"d": "Serhildana li Nedaoyê ya di bin serokatiya Ardaricê Gepîdî de yekîtiya Hûnan hilweşand (Britannica 455, Maenchen-Helfen 454); Ardaric li Tûna Navîn Qraliyeta Gepîdan ava kir, navend Sirmium. Qraliyet di 567an de bi hevbendiya Avar+Lombardan hat hilweşandin (hûrgiliya salê)."
+},
+"OLAYLAR_AVUSTURYA_MACAR_1027:1523-01-01:0": {
+"b": "Bregenz derbasî Habsburgan bû: Hugo XVII mayîna milkê Montfort-Bregenzê firot",
+"d": "Nîva Bregenzê di 1451an de ji Dûk Sigmundê re, nîva mayî di 1523an de ji Arşîdûk Ferdinandê I. re hat firotin; nexşe serweriya tam di 1523an de diguherîne, nîvserweriya 1451-1523an daxuyanîkirî ye (roj nehat dîtin)."
+},
+"OLAYLAR_FRANSA_KONTROL_1027:1481-12-11:0": {
+"b": "Bi mirina Charles III. Provence, li gorî wesiyeta wî, derbasî qralê Fransayê Louis XI. bû: Aix-en-Provence",
+"d": "Kontê dawî yê Provence ya xanedana Anjouyê Charles III. di 10ê Kanûna 1481an de li Marsîlyayê wesiyet kir, di 11ê Kanûna 1481an de mir; Kontîtiya Provenceyê ket destê qralê Fransayê. Yekbûn bi hiqûqî di 1486an de teybetî bû (tevlîbûna Eyaletên Provenceyê)."
+},
+"OLAYLAR_FRANSA_KONTROL_1027:1481-12-11:1": {
+"b": "Bi mirina Charles III. Provence, li gorî wesiyeta wî, derbasî qralê Fransayê Louis XI. bû: Marsîlya",
+"d": "Wesiyet li Marsîlyayê hat amadekirin (10ê Kanûna 1481an); bi mirina Charles (11ê Kanûnê) Provence û pê re Marsîlya derbasî tacê Fransayê bûn."
+},
+"OLAYLAR_FRANSA_KONTROL_1027:1481-12-11:2": {
+"b": "Bi mirina Charles III. Provence, li gorî wesiyeta wî, derbasî qralê Fransayê Louis XI. bû: Arles",
+"d": "Arles ji 1251an vir ve di destê kontên Provenceyê (Anjou) de bû; bi derbasbûna kontîtiyê bo tacê Fransayê (11ê Kanûna 1481an) bû Fransî."
+},
+"OLAYLAR_FRANSA_KONTROL_1027:1481-12-11:3": {
+"b": "Bi mirina Charles III. Provence, li gorî wesiyeta wî, derbasî qralê Fransayê Louis XI. bû: Toulon",
+"d": "Bendera Provenceyê Toulon, bi derbasbûna kontîtiyê bo tacê Fransayê (11ê Kanûna 1481an), bû Fransî; çavkaniyeke cuda ya taybet bi Toulonê tune ye, navenda mezin Aix-en-Provence ye (TEXMÎNA DAXUYANÎKIRÎ)."
+},
+"OLAYLAR_FRANSA_KONTROL_1027:1349-07-16:0": {
+"b": "Humbert II. Dauphiné dewrî neviyê qralê Fransayê kir: Grenoble",
+"d": "Di navbera Humbert II. û qralê Fransayê de di 30ê Adara 1349an de peymana Romansê hat kirin; di 16ê Tîrmeha 1349an de li Lyonê bi senedê 'Transport du Dauphiné à la France' erdê Dauphiné û sernavê wê ji Charles (neviyê qralê Fransayê Philippe VI.) re hatin hiştin. Ji vê gavê pê ve 'Dauphin' bû sernavê mîratgirê textê Fransayê."
+},
+"OLAYLAR_FRANSA_KONTROL_1027:1388-09-28:0": {
+"b": "Nîce teslîmî Kontê Savoyayê Amedeo VII. bû ('dédition'a Nîceyê ya bo Savoyayê)",
+"d": "Di dema nakokiya mîratê ya di navbera mîratgirên Anjou yên Provenceyê de, Nîce û derdora wê (Kontîtiya Nîceyê) di 28ê Îlona 1388an de ket bin serweriya Kontê Savoyayê Amedeo VII.; Nîce heta 1860an (ji bilî dagirkeriyên Fransayê) di xanedana Savoya/Sardînyayê de ma. Atlasê ev sînor ji berê ve dihilgirt; xal kêm bû."
+},
+"OLAYLAR_FRANSA_KONTROL_1027:1793-01-03:0": {
+"b": "Monako, bi navê Fort-Hercule, tevlî Komara Fransayê bû",
+"d": "Bi îlhaqa Monakoyê ya ji aliyê Fransaya Şoreşê ve serweriya Grimaldiyan hat birîn; prensîtî heta 1814an bû parçeyek ji Fransayê (Fort-Hercule)."
+},
+"OLAYLAR_FRANSA_KONTROL_1027:1814-05-30:0": {
+"b": "Peymana Parîsê: Monako vegeriya serweriya Grimaldiyan",
+"d": "Bi Peymana Parîsê ya 30ê Gulana 1814an mafên Grimaldiyan hatin vegerandin; Monako ji îlhaqa Fransayê derket (parastina Sardînyayê ya 1815–1861an karekî cuda ye, di vê qeydê de nehatiye nirxandin). Bi vê peymanê Menton (Prensîtiya Monakoyê) vegeriya serweriya Grimaldiyan."
+},
+"OLAYLAR_FRANSA_KONTROL_1027:1552-01-01:0": {
+"b": "Sefera Sê Pîskoposiyan a Henrîkê II.: Toul tevlî Fransayê bû",
+"d": "Toul, ku pîskopos-kontan birêve dibir û bi Împeratoriya Alman ve girêdayî bû, di 1552an de tevlî Fransayê bû (digel Metz û Verdun Sê Pîskoposî); bi hiqûqî di Vestfalyaya 1648an de hat pejirandin. Roja Metzê (18ê Nîsana 1552an) di atlasê de cuda ye; ji bo Toulê roj di çavkaniyê de tune ye."
+},
+"OLAYLAR_FRANSA_KONTROL_1027:1317-01-09:0": {
+"b": "Philippe V. li Reimsê tac li serê xwe kir (piştî mirina Louis X. dema ku naib bû, bi mirina biraziyê xwe Jean I. xwe qral ragihandibû)",
+"d": "Louis X. di 5ê Tîrmeha 1316an de mir; naib Philippe V. piştî kurê posthum Jean I. yê ku 4 roj piştî ji dayikbûnê mir, xwe qral ragihand û di 9ê Çileya 1317an de li Reimsê tac li serê xwe kir. Roja ragihandinê di çavkaniyê de tune ye; atlas roja tackirinê digire."
+},
+"OLAYLAR_FRANSA_KONTROL_1027:1328-05-29:0": {
+"b": "Philippe VI. (Valois) li Reimsê tac li serê xwe kir: xanedana Valois dest pê kir",
+"d": "Dema ku Charles IV. di Sibata 1328an de bê mîratgirê mêr mir, Philippe de Valois bû naib; di 29ê Gulana 1328an de li Reimsê tac li serê xwe kir û xanedana Valois da destpêkirin. Îdiaya mafê qralê Îngilistanê Edward III. ji aliyê dayikê yek ji çirûskên Şerên Sed Salan e."
+},
+"OLAYLAR_FRANSA_KONTROL_1027:1589-08-01:0": {
+"b": "Henrîkê III. li ser doşeka mirinê Henrîkê Navarra (Henrîkê IV.) wek cîgir nas kir: xanedana Bourbon dest pê dike",
+"d": "Henrîkê III. yê ku rastî sûîqestê hat, wek qralê dawî yê nifşa Valois di 1ê Tebaxa 1589an de Henrîkê Navarra bi awayekî merasîmî wek cîgir nas kir; bi mirina wî (2ê Tebaxê) xanedana Bourbon derbasî textê Fransayê bû."
+},
+"OLAYLAR_FRANSA_KONTROL_1027:1610-05-14:0": {
+"b": "Hikimdariya Henrîkê IV. qediya; Louis XIII. bû qral",
+"d": "Henrîkê IV. di 14ê Gulana 1610an de li Parîsê bi sûîqestê mir; kurê wî Louis XIII. bû qral. (Dawiya hikimdariyê di Treccani de «Regnò fino al 14 maggio 1610» e.)"
+},
+"OLAYLAR_FRANSA_KONTROL_1027:1284-01-01:0": {
+"b": "Kontîtiya Champagne, bi zewaca Jeanne I. bi Philippe IV. re bi tacê Fransayê ve hat girêdan: Troyes (digel Meaux)",
+"d": "Bi zewaca kontesa Champagne û qralîçeya Navarra Jeanne I. bi welîehdê Fransayê Philippe (IV.) re (1284), paytexta Champagne Troyes tevlî erdên tacê bû; ji bo Meaux, Treccani heman salê (1284) dibêje 'derbasî qralê Fransayê bû'. Îlhaqa fermî ya kontîtiyê bi derketina Louis X. ser text di 1314an de ye (senedê t)."
+},
+"OLAYLAR_FRANSA_KONTROL_1027:1305-01-01:0": {
+"b": "Kontê Flandrê Flandra Walon (Lille, Douai, Béthune) ji qralê Fransayê Philippe IV. re hişt: Lille",
+"d": "Beşa 'Fransî' (Walon) ya Kontîtiya Flandrê — kastellaniyên Douai, Béthune û Lille — di 1305an de ji qralê Fransayê re hat dayîn (dewrê teybetî 1320); di 1369an de bi rêya zewacê dûkên Burgonyayê girtin."
+},
+"OLAYLAR_FRANSA_KONTROL_1027:1312-01-01:0": {
+"b": "Li Lyonê serdestiya bilind a qralê Fransayê hat avakirin: Philippe IV. (Bedew) bi Peymana Vienneyê fiefa împeratoriyê Lyon bi dest xist",
+"d": "Li Lyonê, ku ji 1032an vir ve fiefa împeratorê Alman bû û hêza wê ya kiryarî di navbera serpîskopos û kontên Forez de hatibû parvekirin, di 1312an de serdestiya bilind a qralê Fransayê Philippe IV. hat avakirin; bajar ji vê dîrokê pê ve yê Fransayê tê hesibandin."
+},
+"OLAYLAR_FRANSA_KONTROL_1027:1360-10-24:0": {
+"b": "Peymana Calaisyê: şertên Brétigny hatin pejirandin, Poitou û Aquitaine dewrî Îngilistanê bûn: Poitiers",
+"d": "Peymana pêşîn a Brétigny ya 8ê Gulana 1360an di 24ê Cotmeha 1360an de li Calaisyê hat pejirandin: Poitou, Saintonge, Aunis, Agenais, Périgord, Limousin, Quercy, Angoumois û Rouergue ji Îngilistanê re hatin hiştin. Limoges, La Rochelle û Poitiers di atlasê de di vê rojê de derbasî Îngilistanê dibin."
+},
+"OLAYLAR_FRANSA_KONTROL_1027:1420-12-01:0": {
+"b": "Henry V ket Parîsê: rejîma Îngilîz-Burgonya dest pê kir",
+"d": "Piştî Peymana Troyesê (21ê Gulana 1420an), di Kanûna 1420an de Parîs ket bin serweriya Îngilîz-Burgonya; bajar heta Nîsana 1436an bi navê Henry VI hat rêvebirin. Cihên din ên ku di heman dîrokê de ji dest derketin: Sèvres, Fontainebleau, Saint-Germain-en-Laye, Versailles, Neuilly-sur-Seine (derdora Parîsê)."
+},
+"OLAYLAR_FRANSA_KONTROL_1027:1436-04-13:0": {
+"b": "Parîs teslîmî qralê Fransayê Charles VII. bû",
+"d": "Piştî Peymana Arrasê (1435), gelê Parîsê di 13ê Nîsana 1436an de deriyan ji fermandarên Charles VII. re vekir; rêveberiya Îngilîz qediya."
+},
+"OLAYLAR_FRANSA_KONTROL_1027:1477-01-01:0": {
+"b": "Louis XI. Artois (Arras) ji mîrata Burgonyayê girt",
+"d": "Bi mirina Charlesê Wêrek li Nancyyê (5ê Çileya 1477an) qralê Fransayê Louis XI. Artois dagir kir; dema ku Arras li ber xwe da bi êrîşê hat girtin û sûrên wê hatin hilweşandin. Peymana Arrasê (23ê Kanûna 1482an) Artois bi cehêza Marguerite li Fransayê hişt; bi Peymana Senlisê ya 1493an vegeriya Habsburgan."
+},
+"OLAYLAR_FRANSA_KONTROL_1027:1493-01-01:0": {
+"b": "Peymana Senlisê: Arras (Artois) vegeriya Maximilianê Habsburgî",
+"d": "Peymana Senlisê (1493) ya di navbera Charles VIII. û Maximilianê I. de Artois û Arras da Habsburgan."
+},
+"OLAYLAR_FRANSA_KONTROL_1027:1349-04-18:0": {
+"b": "Philippe VI. Montpellier ji qralê Mayorkayê kirî",
+"d": "Firotina mafên Qralê Mayorkayê Jaume III. yên li ser Montpellierê ji qralê Fransayê Philippe VI. re di 18ê Nîsana 1349an de hat pejirandin; Montpellier derbasî tacê Fransayê bû."
+},
+"OLAYLAR_FRANSA_KONTROL_1027:1450-04-15:0": {
+"b": "Şerê Formigny: artêşa Fransî artêşa Îngilîz têk bir, vegirtina Normandiyayê lezgîn bû",
+"d": "Di 15ê Nîsana 1450an de li Formigny artêşa Fransî hêza alîkariyê ya Îngilîz têk bir; Caen û Cherbourg ketin, Normandiya vegeriya bin kontrola Fransî."
+},
+"OLAYLAR_FRANSA_KONTROL_1027:1314-11-29:0": {
+"b": "Philippe IV. mir; Louis X. (Hutin) bû qralê Fransayê",
+"d": "Philippe IV. di 29ê Mijdara 1314an de mir; kurê wî Louis X. derket ser textê Fransayê (jixwe ji 1305an ve qralê Navarrayê bû)."
+},
+"OLAYLAR_FRANSA_KONTROL_1027:1322-01-03:0": {
+"b": "Philippe V. mir; Charles IV. bû qralê Fransayê",
+"d": "Philippe V. di şeva 2ê Çileya 1322an de li Longchampê mir; birayê wî Charles IV. derket ser text."
+},
+"OLAYLAR_FRANSA_KONTROL_1027:1350-08-22:0": {
+"b": "Philippe VI. mir; Jean II. (Baş) bû qralê Fransayê",
+"d": "Philippe VI. di 22ê Tebaxa 1350an de li Nogent-le-Roiyê mir; kurê wî Jean II. derket ser text."
+},
+"OLAYLAR_FRANSA_KONTROL_1027:1422-10-21:0": {
+"b": "Charles VI. mir; Charles VII. wek qralê Fransayê hat ragihandin",
+"d": "Charles VI. di 21ê Cotmeha 1422an de mir; tevî Peymana Troyesê Charles VII. xwe qral ragihand (herêma Bourges); Parîs di bin kontrola Îngilîz-Burgonya de ma."
+},
+"OLAYLAR_FRANSA_KONTROL_1027:1498-04-07:0": {
+"b": "Charles VIII. mir; Louis XII. bû qralê Fransayê",
+"d": "Charles VIII. di 7ê Nîsana 1498an de li Amboiseyê mir; pismamê wî, dûkê Orléans Louis XII. derket ser text."
+},
+"OLAYLAR_FRANSA_KONTROL_1027:1559-07-10:0": {
+"b": "Henrîkê II. mir; François II. bû qralê Fransayê",
+"d": "Henrîkê II. di 10ê Tîrmeha 1559an de mir; kurê wî yê 15 salî François II. derket ser text (bandora xanedana Guise)."
+},
+"OLAYLAR_FRANSA_KONTROL_1027:1560-12-05:0": {
+"b": "François II. mir; Charles IX. bû qralê Fransayê",
+"d": "François II. di 5ê Kanûna 1560an de mir; birayê wî Charles IX. (10 salî) derket ser text, dayika wî Catherine de Médicis bû naib."
+},
+"OLAYLAR_FRANSA_KONTROL_1027:1574-05-30:0": {
+"b": "Charles IX. mir; Henrîkê III. bû qralê Fransayê (dema qralê Polonyayê bû)",
+"d": "Charles IX. di 30ê Gulana 1574an de mir; birayê wî Henrîkê Valois ku qralê Polonyayê bû, bû mîratgirê textê Fransayê, di Îlona 1574an de vegeriya Fransayê."
+},
+"OLAYLAR_FRANSA_KONTROL_1027:1918-11-17:0": {
+"b": "Yekîneyên Fransî ketin Mulhouseyê: vegera Alsaceyê dest pê kir",
+"d": "Şeş roj piştî Mutarekeyê (11ê Mijdara 1918an) yekîneyên Fransî ketin Mulhouseyê. Versayê md.51 vegera Alsace-Lorraine ya bo serweriya Fransayê ji 11ê Mijdara 1918an pê ve bi paşdeveger hesab dike; îmze 28ê Hezîrana 1919an, meriyet 10ê Çileya 1920an."
+},
+"OLAYLAR_FRANSA_KONTROL_1027:1918-11-18:0": {
+"b": "Yekîneyên Fransî ketin Colmarê",
+"d": "Colmar di 18ê Mijdara 1918an de pêşwaziya yekîneyên Fransî kir; Alsace vedigeriya bin rêveberiya Fransî (paşdevegera hiqûqî 11ê Mijdara 1918an, Versay md.51)."
+},
+"OLAYLAR_FRANSA_KONTROL_1027:1918-11-19:0": {
+"b": "Tûmena Peyadeyan a 28. a Fransî ket Metzê",
+"d": "Tûmena Peyadeyan a 28. a Fransî di 19ê Mijdara 1918an de ket Metzê; Moselle vegeriya bin rêveberiya Fransî."
+},
+"OLAYLAR_FRANSA_KONTROL_1027:1918-11-21:0": {
+"b": "Yekîneyên Fransî ketin Strazburgê (merasîma fermî 22ê Mijdarê)",
+"d": "Piştî 47 salên rêveberiya Alman, yekîneyên Fransî yên yekem di 21ê Mijdara 1918an de ketin Strazburgê; merasîma ketina fermî roja din hat kirin."
+},
+"OLAYLAR_FRANSA_KONTROL_1027:1940-08-02:0": {
+"b": "Wagner û Bürckel bûn serokên rêveberiya sivîl a Alsace û Lorraine: herêm bi kiryar tevlî Reichê bû",
+"d": "Piştî têkçûna Fransayê, Alsace û Moselle bê peyman, bi kiryar tevlî Almanyayê bûn: Alsace ji rêveberiya sivîl a Gauleiterê Badenê Wagner re, Moselle ji ya Gauleiterê Saar-Pfalzê Bürckel re hat dayîn (Moselle di 30ê Mijdara 1940an de bi Gau Westmarkê ve hat girêdan). Di metnê mutarekeyê de madeyeke îlhaqê tune ye; bi hiqûqî serweriya Fransî didome (Ordonnance ya 9ê Tebaxa 1944an). Bi van tayînan Metz (Moselle), Colmar û Mulhouse (Alsace) bi kiryar derbasî rêveberiya sivîl a Alman bûn."
+},
+"OLAYLAR_FRANSA_KONTROL_1027:1944-11-20:0": {
+"b": "Mulhouse hat rizgarkirin",
+"d": "Artêşa 1. a Fransî (de Lattre) di Mijdara 1944an de Mulhouse rizgar kir."
+},
+"OLAYLAR_FRANSA_KONTROL_1027:1944-11-22:0": {
+"b": "Metz hat rizgarkirin (qelayên wê heta Kanûnê li ber xwe dan)",
+"d": "Artêşa 3. a DYAyê Metz di 22ê Mijdara 1944an de rizgar kir; qelayên derdorê heta meha Kanûnê li ber xwe dan."
+},
+"OLAYLAR_FRANSA_KONTROL_1027:1944-11-23:0": {
+"b": "Tûmena Zirxî ya 2. a Leclerc Strazburg rizgar kir",
+"d": "Tûmena Zirxî ya 2. a di bin fermandariya Leclerc de di 23ê Mijdara 1944an de ket Strazburgê; rêveberiya Alman a li paytexta Alsaceyê (ji 1940an ve îlhaqa kiryarî) qediya."
+},
+"OLAYLAR_FRANSA_KONTROL_1027:1945-02-02:0": {
+"b": "Colmar hat rizgarkirin (Bêrîka Colmarê di 9ê Sibatê de hat paqijkirin)",
+"d": "Colmar di 2ê Sibata 1945an de hat rizgarkirin; Bêrîka Colmarê di 9ê Sibata 1945an de bi tevahî hat paqijkirin."
+},
+"OLAYLAR_FRANSA_KONTROL_1027:1791-09-14:0": {
+"b": "Meclisa Damezrîner yekbûna Avignon û Comtat Venaissin bi Fransayê re pejirand",
+"d": "Piştî derxistina cîgirê legatê Papatiyê ji Avignonê (12ê Hezîrana 1790an), Meclisa Damezrîner daxwaza yekbûnê vekola; yekbûn di 14ê Îlona 1791an de hat pejirandin. Pius VI. di 5ê Mijdara 1791an de îtîraz kir; bi madeya 6. ya Peymana Tolentînoyê (19ê Sibata 1797an) Papatiyê dev ji Avignon û Comtatê berda."
+},
+"OLAYLAR_FRANSA_KONTROL_1027:1681-09-30:0": {
+"b": "Strazburg teslîmî artêşa Louis XIV. bû: tevlî Fransayê bû",
+"d": "Di dema siyaseta Réunion de artêşa Louvois Strazburg dorpêç kir; bajar di 30ê Îlona 1681an de şertên teslîmbûnê îmze kir (senedê kapîtulasyonê li Illkirchê); di 3ê Cotmehê de erêkirin, di 23ê Cotmeha 1681an de ketina merasîmî ya Louis XIV. Bajar tevlî Fransayê bû, xweseriya şaredariyê hat tunekirin."
+},
+"OLAYLAR_FRANSA_KONTROL_1027:1798-03-15:0": {
+"b": "Komara Mulhouseyê tevlî Komara Fransayê bû (Réunion)",
+"d": "Komara Mulhouseyê ya ku ji 1515an ve hevalbenda Konfederasyona Swîsreyê bû, piştî Aştiya Baselê (1795) bi dilê xwe tevlî Fransayê bû; yekbûn di 1798an de pêk hat (Réunion)."
+},
+"OLAYLAR_FRANSA_KONTROL_1027:1348-06-09:0": {
+"b": "Qralîçeya Napolîyê Giovanna, Avignon firot papa Clemens VI.",
+"d": "Qralîçeya Napolîyê Giovanna bi sifeta Kontesa Provenceyê di 9ê Hezîrana 1348an de bajarê Avignonê bi 80.000 florînan firot papa Clemens VI.; bajar heta 1791an enklaveke Papatiyê ma. Qeyda rûniştgehê ev sînor hildigirt; xal kêm bû."
+},
+"OLAYLAR_FRANSA_KONTROL_1027:1643-05-14:0": {
+"b": "Louis XIII. mir; Louis XIV. yê pênc salî bû qral (naîbîtî: Anne d'Autriche, Mazarin)",
+"d": "Louis XIII. di 14ê Gulana 1643an de li Saint-Germain-en-Layeyê mir; kurê wî Louis XIV. di heman rojê de derket ser text."
+},
+"OLAYLAR_FRANSA_KONTROL_1027:1861-02-02:0": {
+"b": "Peymana Fransa-Monako: Monako li hemberî 4 milyon frankan dev ji mafên xwe yên li ser Menton (û Roquebrune) berda; Menton derbasî Fransayê bû",
+"d": "Piştî dewrkirina Piemonte-Sardînyayê ya Nîceyê bo Fransayê di 1860an de, Prensê Monakoyê mafên serweriya xwe yên li Menton û Roquebruneyê dewrî Fransayê kir. Menton ji 1848an vir ve bajarê azad bû, di bin parastina Sardînyayê de."
+},
+"OLAYLAR_FRANSA_KONTROL_1027:1420-05-21:0": {
+"b": "Peymana Troyesê: Henry V. bû naib û mîratgirê Fransayê, Champagne ket bin rêveberiya Îngilîz-Burgonya: Troyes",
+"d": "Peymana ku di 21ê Gulana 1420an de li Troyesê di navbera Charles VI. û qralê Îngilistanê Henry V. de hat îmzekirin, Henry V. kir naib û mîratgirê textê Fransayê; Welîehd Charles (Charles VII.) ji mîratê hat derxistin. Peyman erd dewr nake; Champagne (Troyes, Reims) ji vê dîrokê heta 1429an di bin rêveberiya Îngilîz-Burgonya ('Fransaya Lancaster') de ma û atlas vê rêveberiyê bi nasnameya Îngilistanê boyax dike."
+},
+"OLAYLAR_FRANSA_KONTROL_1027:1420-05-21:1": {
+"b": "Peymana Troyesê: Henry V. bû naib û mîratgirê Fransayê, Champagne ket bin rêveberiya Îngilîz-Burgonya: Reims",
+"d": "Peymana ku di 21ê Gulana 1420an de li Troyesê di navbera Charles VI. û qralê Îngilistanê Henry V. de hat îmzekirin, Henry V. kir naib û mîratgirê textê Fransayê; Welîehd Charles (Charles VII.) ji mîratê hat derxistin. Peyman erd dewr nake; Champagne (Troyes, Reims) ji vê dîrokê heta 1429an di bin rêveberiya Îngilîz-Burgonya ('Fransaya Lancaster') de ma û atlas vê rêveberiyê bi nasnameya Îngilistanê boyax dike."
+},
+"OLAYLAR_FRANSA_KONTROL_1027:1435-09-21:0": {
+"b": "Peymana Arrasê: bajarokên Somme û Mâconnais ji Burgonyayê re hatin hiştin: Amiens",
+"d": "Peymana Arrasê ya ku di 21ê Îlona 1435an de di navbera Charles VII. û Dûkê Burgonyayê Philippeê Baş de hat îmzekirin, Burgonya ji hevbendiya Îngilîzan qut kir. Li hemberî wê bajarokên Somme (di nav de Amiens), Mâcon û Mâconnais û Auxerre û Auxerrois ji dûkatiya Burgonyayê re hatin hiştin (bi şerta ku bajarokên Somme dikarin ji nû ve bên kirîn)."
+},
+"OLAYLAR_FRANSA_KONTROL_1027:1435-09-21:1": {
+"b": "Peymana Arrasê: bajarokên Somme û Mâconnais ji Burgonyayê re hatin hiştin: Mâcon",
+"d": "Peymana Arrasê ya ku di 21ê Îlona 1435an de di navbera Charles VII. û Dûkê Burgonyayê Philippeê Baş de hat îmzekirin, Burgonya ji hevbendiya Îngilîzan qut kir. Li hemberî wê bajarokên Somme (di nav de Amiens), Mâcon û Mâconnais û Auxerre û Auxerrois ji dûkatiya Burgonyayê re hatin hiştin (bi şerta ku bajarokên Somme dikarin ji nû ve bên kirîn)."
+},
+"OLAYLAR_FRANSA_KONTROL_1027:1659-11-07:0": {
+"b": "Peymana Pîreneyan: Roussillon û Artois derbasî Fransayê bûn: Perpignan",
+"d": "Peymana Pîreneyan a ku di 7ê Mijdara 1659an de li Girava Fîsant (île des Faisans) a li Bidasoayê di navbera Fransa û Spanyayê de hat îmzekirin, Roussillon, Cerdagneya Bakur û Artois ji Fransayê re hişt. Perpignan ji 1642an, Arras ji 1640an ve bi kiryar di bin dagirkeriya Fransî de bûn; atlas qutbûna serweriyê li roja peymanê dinivîse."
+},
+"OLAYLAR_FRANSA_KONTROL_1027:1659-11-07:1": {
+"b": "Peymana Pîreneyan: Roussillon û Artois derbasî Fransayê bûn: Arras",
+"d": "Peymana Pîreneyan a ku di 7ê Mijdara 1659an de li Girava Fîsant (île des Faisans) a li Bidasoayê di navbera Fransa û Spanyayê de hat îmzekirin, Roussillon, Cerdagneya Bakur û Artois ji Fransayê re hişt. Perpignan ji 1642an, Arras ji 1640an ve bi kiryar di bin dagirkeriya Fransî de bûn; atlas qutbûna serweriyê li roja peymanê dinivîse."
+},
+"OLAYLAR_FRANSA_KONTROL_1027:1795-07-22:0": {
+"b": "Peymana Baselê: Spanyayê rojhilatê Hispaniolayê (Santo Domingo) ji Fransayê re hişt: Santo Domingo",
+"d": "Aştiya ku di 22ê Tîrmeha 1795an de li Baselê di navbera Spanya û Komara Fransayê de hat îmzekirin, li hemberî rakirina dagirkeriya Fransî ya li Pîreneyan, beşa Spanî ya girava Hispaniola (Santo Domingo, Santiago de los Caballeros, Higüey) ji Fransayê re hişt."
+},
+"OLAYLAR_NAPOLYON_ITALYA_1028:1796-05-15:0": {
+"b": "Napolyon ket Mîlanoyê: rêveberiya Awistiryayê qediya",
+"d": "Bonaparte, piştî serkeftinên yekem ên sefera Îtalyayê, di 15ê Gulana 1796an de ket Mîlanoyê; Lombardiya ji destê Awistiryayê derket."
+},
+"OLAYLAR_NAPOLYON_ITALYA_1028:1796-06-23:0": {
+"b": "Mutarekeya Bolonyayê: Bolonya û Ferrara ketin destê Fransî",
+"d": "Papa Pius VI. li Bolonyayê mutarekeyek îmze kir; legasyonên Bolonya û Ferraryayê ketin bin kontrola Fransî, tezmînateke giran hat dayîn."
+},
+"OLAYLAR_NAPOLYON_ITALYA_1028:1796-12-27:0": {
+"b": "Komara Cispadan hat ragihandin (Modena, Reggio, Bolonya, Ferrara)",
+"d": "Di kongreya Reggio de Modena, Reggio, Bolonya û Ferrara bûn yek û Komara Cispadan ragihandin; dûkatiya Este bi kiryar qediya."
+},
+"OLAYLAR_NAPOLYON_ITALYA_1028:1797-02-02:0": {
+"b": "Wurmser Mantova teslîm kir",
+"d": "Di dawiya dorpêçeke ku bi mehan dom kir de, fermandarê Awistiryayê Wurmser di 2ê Sibata 1797an de Mantova teslîmî Fransiyan kir."
+},
+"OLAYLAR_NAPOLYON_ITALYA_1028:1797-02-19:0": {
+"b": "Peymana Tolentînoyê: Papa Bolonya, Ferrara û Romagna ji Fransayê re hişt",
+"d": "Pius VI. li Tolentînoyê bi Fransayê re aştî kir; Bolonya, Ferrara û Romagna (Ravenna, Rimini) derbasî Komara Cispadan a di bin bandora Fransayê de bûn."
+},
+"OLAYLAR_NAPOLYON_ITALYA_1028:1797-05-12:0": {
+"b": "Komara Venedîkê qediya: Meclisa Mezin xwe hilweşand",
+"d": "Di bin zexta Napolyon de Meclisa Mezin di 12ê Gulana 1797an de xwe hilweşand, Doge Manin îstîfa kir; dagirkeriya Fransî dest pê kir, qedera paşê ya Venetoyê li Campo Formio hat diyarkirin."
+},
+"OLAYLAR_NAPOLYON_ITALYA_1028:1797-07-09:0": {
+"b": "Komara Cisalpîn li Mîlanoyê bi merasîmê hat avakirin: Lombardiya, Mantova, Bergamo, Brescia û erdên Cispadan bûn yek",
+"d": "Lombardiya, Mantova, Bergamo, Brescia ya ku Napolyon fetih kiribû, Komara Cispadan (Modena, Reggio, Bolonya, Ferrara) û Romagna di yek dewletê de bûn yek."
+},
+"OLAYLAR_NAPOLYON_ITALYA_1028:1798-02-15:0": {
+"b": "Komara Romayê hat ragihandin: rêveberiya Papatiyê hat birîn",
+"d": "Di bin dagirkeriya Berthier a Romayê de li Kapîtolê Komara Romayê hat ragihandin; Papa Pius VI. şandin sirgûnê."
+},
+"OLAYLAR_NAPOLYON_ITALYA_1028:1798-12-09:0": {
+"b": "Piemonte ket bin rêveberiya Fransî; Carlo Emanuele IV vekişiya Sardînyayê",
+"d": "Xanedana Savoy di Kanûna 1798an de Piemonte ya parzemînî berda û vekişiya girava Sardînyayê, Torîno ket bin kontrola Fransî (îlhaqa fermî 11ê Îlona 1802an)."
+},
+"OLAYLAR_NAPOLYON_ITALYA_1028:1799-04-27:0": {
+"b": "Piştî Cassanoyê artêşa Awistirya-Rûs Komara Cisalpîn hilweşand",
+"d": "Piştî Şerê Cassanoyê hêzên Awistirya-Rûs ketin Lombardiyayê; Komara Cisalpîn hilweşiya."
+},
+"OLAYLAR_NAPOLYON_ITALYA_1028:1799-09-30:0": {
+"b": "Yekîneyên Napolî ketin Romayê: Komara Romayê qediya, rêveberiya Papatiyê vegeriya",
+"d": "Hêzên Napolî Roma dagir kirin, Komara Romayê qediya; vegera kiryarî ya rêveberiya papatiyê di Tîrmeha 1800an de bi ketina Pius VII. temam bû."
+},
+"OLAYLAR_NAPOLYON_ITALYA_1028:1800-06-04:0": {
+"b": "Piştî Marengoyê Napolyon Komara Cisalpîn ji nû ve ava kir",
+"d": "Piştî serkeftina Marengoyê Napolyon vegeriya Mîlanoyê û Komara Cisalpîn ji nû ve ava kir (qutiya agahiyê 2ê Hezîranê)."
+},
+"OLAYLAR_NAPOLYON_ITALYA_1028:1802-10-09:0": {
+"b": "Dûkê Parmayê Ferdinando I. mir: dûkatî derbasî rêveberiya Fransî bû",
+"d": "Ferdinandoyê ku bi Peymana Aranjuezê (1801) dûkatî dewrî Fransayê kir, di 9ê Cotmeha 1802an de mir; Parma û Piacenza ketin bin rêveberiya Fransî (îlhaqa fermî 1808)."
+},
+"OLAYLAR_NAPOLYON_ITALYA_1028:1805-06-04:0": {
+"b": "Napolyon îlhaqa Lîgûryayê pejirand: Cenova tevlî Împeratoriya Fransî bû",
+"d": "Senatoya Lîgûryayê di 25ê Gulana 1805an de îlhaq pejirand; Napolyon di 4ê Hezîrana 1805an de pejirand, Komara Lîgûryayê qediya."
+},
+"OLAYLAR_NAPOLYON_ITALYA_1028:1532-01-01:0": {
+"b": "Azadiya komunê ya Anconayê qediya: bi Clemens VII. re ket bin serweriya rasterast a Papatiyê",
+"d": "Azadiya komunal a Komara Anconayê di 1532an de di dema Clemens VII. de bi ketina bin serweriya rasterast a Papatiyê qediya (hûrgiliya salê; roj/meh nehat xwendin)."
+},
+"OLAYLAR_NAPOLYON_ITALYA_1028:1540-01-01:0": {
+"b": "Senyoriya Baglioni qediya: Perugia ket bin rêveberiya rasterast a Papatiyê ya Paulus III.",
+"d": "Di dawiya Şerê Xwê de senyoriya Baglioni rabû, Paulus III. dest bi avakirina Rocca Paolinayê kir; serxwebûna kiryarî ya Komuna Perugiayê qediya (hûrgiliya salê; roj nehat xwendin)."
+},
+"OLAYLAR_NAPOLYON_ITALYA_1028:1318-07-25:0": {
+"b": "Jacopo da Carrara I. wek parêzvan û walîyê Padovayê hat hilbijartin: Komuna Padovayê derbasî yek senyorekî bû",
+"d": "Arîstokrasiya Padovayê Jacopo da Carrara I. wek parêzvan/walîyê heta mirinê hilbijart (demeke kurt piştî 25ê Tîrmeha 1318an); komun derbasî yek senyorekî bû. Roj ne teqez e, roja yekem a navberê hat girtin."
+},
+"OLAYLAR_NAPOLYON_ITALYA_1028:1506-11-11:0": {
+"b": "Papa Julius II. ket Bolonyayê: senyoriya Bentivoglio rabû, Papatiyê dest bi rêveberiya rasterast kir",
+"d": "Papa Julius II. bi artêşa xwe ket Bolonyayê û Giovanni II Bentivoglio derxist; bajar bi Dewleta Papatiyê ve hat girêdan."
+},
+"OLAYLAR_NAPOLYON_ITALYA_1028:1739-10-17:0": {
+"b": "Kardînal Alberoni San Marîno dagir kir: rêveberiya Papatiyê hat ferzkirin",
+"d": "Legatê Ravennayê Kardînal Giulio Alberoni bi hêza leşkerî San Marîno dagir kir û hewl da ku wê bi Papatiyê ve girê bide; gel bi bêîtaetiya sivîl li ber xwe da."
+},
+"OLAYLAR_NAPOLYON_ITALYA_1028:1740-02-05:0": {
+"b": "Papa Clemens XII. mafên San Marîno nas kirin: serxwebûn vegeriya",
+"d": "Li ser daxwaznameyên veşartî Papa mafên San Marîno nas kirin; dagirkeriya Alberoni qediya."
+},
+"OLAYLAR_NAPOLYON_ITALYA_1028:1810-02-28:0": {
+"b": "Peymana Parîsê: Bavyerayê Tîrola Başûr (Trento) ji Napolyon re hişt, herêm tevlî Qraliyeta Îtalyayê bû",
+"d": "Qralê Bavyerayê Tîrola Başûr dewrî Napolyon kir; departmana Alto Adige ya bi navenda Trentoyê hat avakirin û bi Qraliyeta Îtalyayê ve hat girêdan (parçekirina 9ê Hezîrana 1810an)."
+},
+"OLAYLAR_NAPOLYON_ITALYA_1028:1813-10-15:0": {
+"b": "Yekîneyên Awistiryayê ketin Trentoyê: departmana Alto Adige ya Qraliyeta Îtalyayê hilweşiya",
+"d": "Yekîneyên Awistiryayê yên di bin fermandariya General Fenner de di 11ê Cotmeha 1813an de ketin Bolzanoyê, di 15ê Cotmehê de jî ketin Trentoyê; di 10ê Kanûna 1813an de rêveberiya demkî ya Awistiryayê hat avakirin."
+},
+"OLAYLAR_NAPOLYON_ITALYA_1028:1848-03-22:0": {
+"b": "Manin Arsenala Venedîkê girt: Komara San Marco hat ragihandin",
+"d": "Di bin serokatiya Daniele Manin de Venedîk li dijî rêveberiya Awistiryayê serî hilda û Komara San Marco ragihand; yekîneyên Awistiryayê di 26ê Adarê de ji bajêr vekişiyan."
+},
+"OLAYLAR_NAPOLYON_ITALYA_1028:1849-02-09:0": {
+"b": "Komara Romayê hat ragihandin: dema ku Papa reviyabû Gaetayê, Meclisa Damezrîner komar ava kir",
+"d": "Triumvîriya ku Mazzini serkêşiya wê dikir li Romayê komar ragihand; rêveberiya Papatiyê hat rawestandin."
+},
+"OLAYLAR_NAPOLYON_ITALYA_1028:1849-07-03:0": {
+"b": "Artêşa Fransî ket Romayê: Komara Romayê qediya, rêveberiya Papatiyê vegeriya",
+"d": "Hêza sefera Fransî ya Oudinot Roma girt; Garibaldi vekişiya, komar ket (Wîkîpediya 2ê Tîrmehê, piraniya çavkaniyan 3ê Tîrmehê)."
+},
+"OLAYLAR_NAPOLYON_ITALYA_1028:1849-08-22:0": {
+"b": "Venedîk teslîmî Awistiryayê bû: Komara San Marco qediya",
+"d": "Di dawiya dorpêç, kolera û birçîbûnê de Manin bajar teslîm kir; rêveberiya Awistiryayê vegeriya (qutiya agahiyê dibêje 27ê Tebaxê)."
+},
+"OLAYLAR_NAPOLYON_ITALYA_1028:1943-09-23:0": {
+"b": "Mussolini Komara Salò ava kir: Îtalyaya bakur di bin parastina Alman de bû Komara Civakî ya Îtalyayê",
+"d": "Mussoliniyê ku Almanan rizgar kir, di bin kontrola leşkerî ya Alman de Komara Civakî ya Îtalyayê (Salò) ya ku Îtalyaya bakur û navîn vedihewand ava kir; Qraliyet û hikûmeta Badoglio li başûr man. Bi avakirina Komara Salò, Venedîk, Torîno, Cenova, Verona, Bolonya û bajarên din ên Îtalyaya bakur derbasî Komara Civakî ya Îtalyayê bûn."
+},
+"OLAYLAR_NAPOLYON_ITALYA_1028:536-12-09:0": {
+"b": "Belisarios ket Romayê: Roma ji rêveberiya Ostrogotan derbasî Bîzansê bû",
+"d": "Di Şerê Gotî de artêşa Belisarios di 9ê Kanûna 536an de ket Romayê; bajar ji Ostrogotan hat standin û bi Bîzansê ve hat girêdan (Totila dê di 546an de vegire)."
+},
+"OLAYLAR_NAPOLYON_ITALYA_1028:1099-01-01:0": {
+"b": "Li Cenovayê Compagna Communis hat avakirin: bajar derbasî rêveberiya komunê bû",
+"d": "Giregirên Cenovayê bi avakirina Compagna Communis rêveberiya bajêr wek komun rêk xistin; destpêka Komara Cenovayê."
+},
+"OLAYLAR_NAPOLYON_ITALYA_1028:1143-01-01:0": {
+"b": "Komuna Romayê hat avakirin: senato hat nûkirin (renovatio senatus), serweriya dinyayî ya Papa hat rawestandin",
+"d": "Gelê Romayê li Capitolê komun û senato ji nû ve ava kirin; bi bandora Arnaldo da Brescia heta 1155an serweriya papatiyê bi kiryar nehat naskirin (senedê f 1143, Treccani 1144)."
+},
+"OLAYLAR_NAPOLYON_ITALYA_1028:1351-05-01:0": {
+"b": "Zürîh bi hevbendiya hertimî tevlî Konfederasyonê bû: bû endamê pêncem ê Luzern, Uri, Schwyz û Unterwaldenê",
+"d": "Zürîh di 1ê Gulana 1351an de bi Luzern, Uri, Schwyz û Unterwalden re hevbendiya hertimî kir û bû endamê Konfederasyona Kevn a Swîsreyê."
+},
+"OLAYLAR_NAPOLYON_ITALYA_1028:1536-05-21:0": {
+"b": "Cenevreyê Reform dengdayîn kir: serweriya pîskopos û Savoyê qediya, Komara Cenevreyê çêbû",
+"d": "Bi dengdayîna meclisa giştî ya 21ê Gulana 1536an Cenevreyê Reformasyon pejirand; bajar wek komara serbixwe li tenişta Bernê ma lê nebû endamê Konfederasyonê."
+},
+"OLAYLAR_NAPOLYON_ITALYA_1028:1798-04-26:0": {
+"b": "Cenevre bi Fransayê ve hat îlhaqkirin: Komara Cenevreyê qediya, departmana Léman hat avakirin",
+"d": "Peymana îlhaqê bi Fransayê re hat îmzekirin; Cenevre û derdora wê wek departmana Léman tevlî Komara Fransayê bûn."
+},
+"OLAYLAR_NAPOLYON_ITALYA_1028:1813-12-31:0": {
+"b": "Garnîzona Fransî ji Cenevreyê vekişiya: Komara Cenevreyê ji nû ve hat avakirin",
+"d": "Bi nêzîkbûna yekîneyên Awistiryayê rêveberiya Fransî hilweşiya; di 31ê Kanûna 1813an de Komara Cenevreyê hat vegerandin, di 1814-1815an de tevlî Konfederasyonê bû."
+},
+"OLAYLAR_NAPOLYON_ITALYA_1028:1799-01-23:0": {
+"b": "Komara Partenopeyê hat ragihandin: artêşa Fransî ket Napolîyê, komareke xwişk ciyê qraliyeta Bourbon girt",
+"d": "Artêşa Championnet Napolî girt; Ferdinando IV.ê Bourbon reviyabû Palermoyê. Kontrola kiryarî ya komarê bi piranî bajarê Napolî û derdora wê bû (gundewar alîgirê Bourbon man)."
+},
+"OLAYLAR_NAPOLYON_ITALYA_1028:1799-06-13:0": {
+"b": "Kardînal Ruffo Napolî vegirt: Komara Partenopeyê qediya, rêveberiya Bourbon vegeriya",
+"d": "Artêşa Sanfedîst a di bin fermandariya Kardînal Ruffo de ket Napolîyê; kelên komarparêz demeke kurt şûnda teslîm bûn, qraliyet vegeriya bin rêveberiya Bourbon."
+},
+"OLAYLAR_NAPOLYON_ITALYA_1028:1808-04-02:0": {
+"b": "Napolyon Marche tevlî Qraliyeta Îtalyayê kir: Ancona bû navenda departmana Metauro",
+"d": "Bi biryarnameya hejmar 158 a ku ji Saint-Cloudê derket Marche ya Papatiyê li Qraliyeta Îtalyayê hat zêdekirin; biryarnameya 20ê Nîsana 1808an departmanên Metauro (Ancona), Musone (Macerata) û Tronto (Fermo) ava kirin."
+},
+"OLAYLAR_NAPOLYON_ITALYA_1028:1805-12-26:0": {
+"b": "Peymana Pressburgê: Veneto, Istria û Dalmaçya derbasî Qraliyeta Îtalyayê bûn",
+"d": "Awistiryayê erdên kevn ên Venedîkê (Veneto, Friuli, Istria, Dalmaçya) ji Qraliyeta Îtalyayê ya Napolyon re hiştin."
+},
+"OLAYLAR_NAPOLYON_ITALYA_1028:1807-12-10:0": {
+"b": "Qraliyeta Etrûryayê qediya: Toskana ket bin dagirkeriya Fransî",
+"d": "Napolyon Qraliyeta Etrûryayê hilweşand; qralîçeya naib ji Floransayê derket, Toskana di 1808an de wek departmanên Arno, Ombrone û Méditerranée tevlî Fransayê bû."
+},
+"OLAYLAR_NAPOLYON_ITALYA_1028:1809-05-17:0": {
+"b": "Napolyon erdên Papatiyê tevlî Împeratoriya Fransî kir",
+"d": "Roma û erdên mayîn ên Dewleta Papatiyê (di nav de Umbria) bi Fransayê ve hatin îlhaqkirin; Pius VII. hat girtin. Bi vê biryarnameyê Perugia (Umbria) tevlî Împeratoriya Fransî bû."
+},
+"OLAYLAR_NAPOLYON_ITALYA_1028:1814-04-11:0": {
+"b": "Fontainebleau: Parma û Piacenza ji Marie-Louise re hatin dayîn",
+"d": "Bi dev ji textberdana Napolyon, Parma, Piacenza û Guastalla ji hevjîna wî Marie-Louise re hatin dayîn (derbasbûna rêveberiya kiryarî 1816)."
+},
+"OLAYLAR_NAPOLYON_ITALYA_1028:1814-04-16:0": {
+"b": "Eugène li Mantovayê mutarekeyek îmze kir: Qraliyeta Îtalyayê hilweşiya, Awistiryayê Mîlano girt",
+"d": "Bi mutarekeya Schiarino-Rizzinoyê Qraliyeta Îtalyayê ya Napolyon bi kiryar qediya; Lombardiya û Veneto ketin bin kontrola Awistiryayê (dewrê fermî Senedê Dawî yê Viyanayê, 9ê Hezîrana 1815an)."
+},
+"OLAYLAR_NAPOLYON_ITALYA_1028:1814-05-20:0": {
+"b": "Vittorio Emanuele I vegeriya Torînoyê: xanedana Savoy hat vegerandin",
+"d": "Rêveberiya Fransî ya Piemonteyê qediya; Vittorio Emanuele I. ji Sardînyayê vegeriya Torînoyê û destûra bingehîn a 1770 ji nû ve xist meriyetê."
+},
+"OLAYLAR_NAPOLYON_ITALYA_1028:1814-05-24:0": {
+"b": "Pius VII. vegeriya Romayê: rêveberiya Papatiyê ji nû ve hat avakirin",
+"d": "Piştî pênc salên dîlbûnê Papa Pius VII. di 24ê Gulana 1814an de bi serkeftinê ket Romayê; Dewleta Papatiyê hat vegerandin (Legasyon di 1815an de hatin vegerandin)."
+},
+"OLAYLAR_NAPOLYON_ITALYA_1028:1814-07-14:0": {
+"b": "Francesco IV. wek Dûkê Modenayê dest bi rêveberiyê kir: dûkatiya Este-Habsburg hat vegerandin",
+"d": "Dema ku Qraliyeta Îtalyayê ya Napolyon belav bû, Dûkatiya Modena û Reggioyê ji xanedana Habsburg-Este (Francesco IV.) re hat vegerandin."
+},
+"OLAYLAR_NAPOLYON_ITALYA_1028:1814-09-01:0": {
+"b": "Dûkê Mezin ê Toskanayê Ferdinando III. hat vegerandin",
+"d": "Dema ku serdema Napolyon qediya, Ferdinando III. ji xanedana Habsburg-Lorraine rêveberiya li Toskanayê dîsa girt (Îlona 1814an)."
+},
+"OLAYLAR_NAPOLYON_ITALYA_1028:0763-01-01:0": {
+"b": "Dûkê Napolîyê Stefanos II. berê xwe ji Konstantînopolîsê da Romayê: dûkatî bi kiryar serbixwe bû",
+"d": "Dûkatiya Napolîyê ya girêdayî Bîzansê, di dema Stefanos II. de di 763an de bi berpêşkirina berbi Papa ve bi kiryar xweser bû (dûkê yekem Basil di 661an de hatibû tayînkirin)."
+},
+"OLAYLAR_NAPOLYON_ITALYA_1028:1128-01-01:0": {
+"b": "Taranto ji Dûkatiya Apulyayê derbasî Qraliyeta Sîcîlyayê bû (Ruggero II.)",
+"d": "Ruggero II. di 1128an de dûkatiya Apulyayê û prensîtiya Taranto/Otranto/Brîndîsî ya Bohemond II bi dest xist (Gulan-Hezîran 1128, duyemîn); heman roj bi zincîrên Bari û Salerno re."
+},
+"OLAYLAR_NAPOLYON_ITALYA_1028:1128-01-01:1": {
+"b": "Brîndîsî ji Dûkatiya Apulyayê derbasî Qraliyeta Sîcîlyayê bû (Ruggero II.)",
+"d": "Ruggero II. di 1128an de Brîndîsî ya di prensîtiya Taranto ya Bohemond II de girt (duyemîn); heman roj bi zincîrên Bari û Salerno re."
+},
+"OLAYLAR_NAPOLYON_ITALYA_1028:1128-01-01:2": {
+"b": "Lecce ji Dûkatiya Apulyayê derbasî Qraliyeta Sîcîlyayê bû (Ruggero II.; navenda mezin Bari)",
+"d": "Lecce, bi tevlîbûna dûkatiya Apulyayê ya Qraliyeta Sîcîlyayê (1128), bi girêdayîbûna zincîra Bari destê xwe guherand; hevoka dîrokî ya taybet bi bajêr nehat dîtin."
+},
+"OLAYLAR_NAPOLYON_ITALYA_1028:1128-01-01:3": {
+"b": "Cosenza ji Dûkatiya Apulya û Calabriayê derbasî Qraliyeta Sîcîlyayê bû (Ruggero II.)",
+"d": "Calabria, bi derbasbûna dûkatiya Apulya û Calabriayê bo Roger II (1128) bû parçeyek ji Qraliyeta Sîcîlyayê; hevoka dîrokî ya taybet bi bajêr nehat dîtin (zincîra navenda mezin Bari/Melfi)."
+},
+"OLAYLAR_NAPOLYON_ITALYA_1028:1128-01-01:4": {
+"b": "Reggio Calabria ji Dûkatiya Apulya û Calabriayê derbasî Qraliyeta Sîcîlyayê bû (Ruggero II.)",
+"d": "Calabria, bi derbasbûna dûkatiya Apulya û Calabriayê bo Roger II (1128) bû parçeyek ji Qraliyeta Sîcîlyayê; hevoka dîrokî ya taybet bi bajêr nehat dîtin (zincîra navenda mezin Bari/Melfi)."
+},
+"OLAYLAR_NAPOLYON_ITALYA_1028:1071-01-01:0": {
+"b": "Brîndîsî ji Bîzansê derbasî Normanan bû: Dûkatiya Apulyayê",
+"d": "Bi fethê Norman ê Bari di 1071an de kela dawî ya Bîzansê li Îtalyayê ket; Brîndîsî bi girêdayîbûna zincîra Bari tevlî dûkatiya Apulyayê bû (hevoka dîrokî ya taybet bi bajêr nehat dîtin)."
+},
+"OLAYLAR_NAPOLYON_ITALYA_1028:1071-01-01:1": {
+"b": "Lecce ji Bîzansê derbasî Normanan bû: Dûkatiya Apulyayê",
+"d": "Bi fethê Norman ê Bari di 1071an de kela dawî ya Bîzansê li Îtalyayê ket; Lecce bi girêdayîbûna zincîra Bari tevlî dûkatiya Apulyayê bû (hevoka dîrokî ya taybet bi bajêr nehat dîtin)."
+},
+"OLAYLAR_NAPOLYON_ITALYA_1028:1059-01-01:0": {
+"b": "Cosenza ji Bîzansê derbasî Normanan bû: Dûkatiya Apulya û Calabriayê",
+"d": "Dûkatiya Robert Guiscard (1059) Calabria vedihewand; Cosenza ji Bîzansê derbasî dûkatiya Norman bû (roja fethê ya taybet bi bajêr nehat xwendin, di asta salê de)."
+},
+"OLAYLAR_NAPOLYON_ITALYA_1028:1059-01-01:1": {
+"b": "Reggio Calabria ji Bîzansê derbasî Normanan bû: Dûkatiya Apulya û Calabriayê",
+"d": "Dûkatiya Robert Guiscard (1059) Calabria vedihewand; Reggio ji Bîzansê derbasî dûkatiya Norman bû (roja fethê ya taybet bi bajêr nehat xwendin, di asta salê de)."
+},
+"OLAYLAR_NAPOLYON_ITALYA_1028:1283-01-01:0": {
+"b": "Reggio Calabria ji Anjou derbasî Aragon-Sîcîlyayê bû (Pedro III. derket Kalabriyayê)",
+"d": "Piştî Êvara Sîcîlyayê (1282) Reggio di destê Anjouyê de ma; di destpêka 1283an de Qralê Aragonê Pedro III. derket Kalabriyayê û Reggio bû bingeha Aragonî ya şerê li dijî Anjouyan (di Tîrmeha 1284an de Carlo d'Angiò bajar dorpêç kir û nikarîbû bigire). Roj di çavkaniyê de tune ye, di asta salê de."
+},
+"OLAYLAR_NAPOLYON_ITALYA_1028:1302-08-31:0": {
+"b": "Aştiya Caltabellottayê: Reggio Calabria ji Aragon-Sîcîlyayê vegeriya Anjouyê (Napolî)",
+"d": "Aştiya Caltabellottayê (31ê Tebaxa 1302an) anî ku Federico III dev ji milkên xwe yên li Kalabriya ya parzemînî berde û girav wek Qraliyeta Trinacriayê di şaxa Aragonê de bimîne; Reggio derbasî Qraliyeta Napolî ya Anjouyî bû."
+},
+"OLAYLAR_NAPOLYON_ITALYA_1028:1399-01-01:0": {
+"b": "Pisa ji Gian Galeazzo Visconti re hat firotin (Gherardo d'Appiano)",
+"d": "Signoriaya Pisayê ya malbata Appiano bi destê Gherardo ji dûkê Mîlanoyê Gian Galeazzo Visconti re hat firotin; Pisa di 1399-1402an de bi Dûkatiya Mîlanoyê ve girêdayî ma. Roj di çavkaniyê de tune ye (di asta salê de 1399)."
+},
+"OLAYLAR_NAPOLYON_ITALYA_1028:1402-09-03:0": {
+"b": "Gian Galeazzo Visconti mir: Pisa ji Mîlanoyê cuda bû û di bin Gabriele Maria Visconti de serbixwe ma",
+"d": "Bi mirina Gian Galeazzo (Îlona 1402an) Pisa bi wesiyetê derbasî kurê wî yê neqanûnî Gabriele Maria Visconti bû; Treccani EI û SNS vê yekê wek serxwebûna demkurt a Pisayê vedibêjin. Gabriele Maria di 27ê Tebaxa 1405an de mafên xwe firotin Floransayê, bajar di Cotmeha 1406an de hat fethkirin."
+},
+"OLAYLAR_NAPOLYON_ITALYA_1028:1813-10-13:0": {
+"b": "Awistirya vegeriya Trîestê: rêveberiya Fransî li Eyaletên Îllyriayê qediya",
+"d": "Yekîneyên Awistiryayê û filoya Îngilîz di Cotmeha 1813an de ketin Trîestê; li gorî Treccani bajar di 13ê Cotmeha 1813an de vegeriya Awistiryayê. Garnîzona Fransî vekişiya kela San Giusto, di 29ê Cotmehê de şertên kapîtulasyonê hatin îmzekirin, di 8ê Mijdarê de ji kelê derket. Nexşe vegera bajêr (13ê Cotmehê) nîşan dide."
+},
+"OLAYLAR_OK104:1393-05-01:0": {
+"b": "Hiştina Leşê (Alessio) ji aliyê Dukagjinan ve ji Venedîkê re",
+"d": "Paul û Lek Dukagjin ên ku ji 1387an ve Leş (Alessio) wek navenda Prensîtiya Dukagjin a Alban di destê xwe de digirtin, dema dîtin ku ew nikarin vê bendera li devê Drînê li hemberî zexta Osmanî biparêzin, kel ji Venedîkê re hiştin û vekişiyan herêma çiyayî ya li rojhilatê bajêr. Bajar ji wê pê ve heta ku di 1478an de di dema sefera Îşkodrayê ya Fatih de ji aliyê Beglerbegê Rûmelîyê Dawûd Paşa ve hat girtin di destê Venedîkê de ma — hem civandina hevbendiya li dijî Osmaniyan (Lidhja e Lezhës) a ji aliyê Îskender Beg ve li vir di 1ê Adara 1444an de, hem jî mirina wî li vir di 17ê Çileya 1468an de li kelayeke Venedîkî pêk hat."
+},
+"OLAYLAR_OK104:1284-01-01:0": {
+"b": "Bîzansê Kruja (Akçahisar), Draç û Avlonya ji Anjouyê vegirt",
+"d": "Draç û Kruja yên ku Charlesê Anjouyî di 1271-1272an de girtibûn, piştî mirina Charles ji aliyê Împeratorê Bîzansê Andronîkosê II. ve dîsa hatin girtin (TDV Kruya: 'Avlonya, Draç û Kruya dîsa girtin'). Tenê sal tê zanîn; roj nepiştrastkirî ye."
 }
 }
 }

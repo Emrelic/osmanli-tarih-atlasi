@@ -87,6 +87,14 @@ yeniçeri=yenîçerî · sipahi=sîpahî · şeyhülislâm=şêxulîslam · kapt
 - Haçlı Seferi=Sefera Xaçparêzan · Karahanlı=Qerexanî · Sâmânî=Samanî · Gazneli=Xeznewî · Saffârî=Seffarî · Büveyhî=Buweyhî · Ağlebî=Axlebî · Tolunoğulları=Tolûnoxlî · Hamdânî=Hemdanî · Dânişmendli=Danişmendî · Artuklu=Artuqî · Zengî=Zengî · Mirdâsî=Mirdasî · Karmatî=Qermetî · Bâtınî=Batinî
 - Alparslan=Alparslan · Tuğrul=Tuxrul · Çağrı=Çaxrî · Melikşah=Melîkşah · Kılıcarslan=Kiliçarslan · Selâhaddin=Selahedîn · Nûreddin=Nûreddîn · Hülâgû=Hulagu · Maveraünnehir=Maweraunnehr · Buhara=Buxara · Semerkant=Semerqend · Kâşgar=Kaşgar · Gazne=Xeznî · Dımaşk=Dîmaşq · Kudüs=Qudis · Ahlat=Ahlat · Meraga=Meraxe
 
+== sozluk_g.md
+# Kurmancî (ku) — ajan g ekleri (olay_075..090); sozluk_a ESASTIR
+- Selçuklu/Orta Çağ: Sencer=Sencer · Muhammed Tapar=Muhammed Tapar · Kılıcarslan=Qilicarslan · Keykubad=Keyqubad · Keykâvus=Keykawus · Keyhusrev=Keyxusrew · Mesud=Mesûd · Celâleddin=Celaleddîn · Tekiş=Tekîş · Dânişmendli=Danişmendî · Artuklu=Artuqî · Saltuklu=Saltûqî · Gurlu=Xûrî · Gazneli=Xeznewî · Karahıtay=Qerexîtay · Karahanlı=Qerexanî · Oğuz=Oxuz · Hârizmşah=Xarizmşah · Atsız=Atsiz
+- Mağrib/Endülüs: Murâbıtlar=Murabit · Muvahhidler=Muwehhid · Endülüs=Endelus · Kurtuba=Qurtuba · İşbîliye=Îşbîliye · Gırnata=Xernata · Tilimsân=Tilimsan
+- Bizans: Basileios II=Basîleîosê II. · Aleksios=Aleksîos · Mikhail=Mîxaîl · Ioannes=Ioannes · Latin İmparatorluğu=Împeratoriya Latîn · Haçlı Seferi=Sefera Xaçparêzan
+- Yerler: Kayseri=Qeyserî · Aksaray=Aksaray · Kırşehir=Kirşehîr · Elbistan=Elbistan · Maraş=Mereş · Harput=Xarpêt · Meyyâfârikīn=Mayafarqîn · Ahlat=Axlat · Dımaşk=Dimaşq · Kars=Qers · Ani=Anî · Tokat=Tokat
+- Dönme (dinden dönen)=yê wergeriyayî (dîn guhertî)
+
 == sozluk_h.md
 # Kurmancî (ku) — ajan h (olay_091..106) ekleri; sozluk_a ile uyumlu
 - Ptolemaios (kişi, "Ptolemaiosê III.") · hanedan: Ptolemayiyan (adj. "yên Ptolemayiyan") · Seleukos (kişi) · hanedan: Selewkî
