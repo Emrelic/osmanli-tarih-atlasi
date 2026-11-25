@@ -54,6 +54,28 @@ Mehmed = მეჰმედ; Murad = მურად; Süleyman = სულე�
 ## ადგილები
 Ardahan = არტაანი; Artvin = ართვინი; Kars = ყარსი; Batum = ბათუმი; İstanbul = სტამბოლი; Edirne = ედირნე; Bursa = ბურსა; Konya = კონია; Kayseri = ქაისერი; Antakya = ანტიოქია; İznik = ნიკეა; Sakız = ქიოსი; Sisam = სამოსი; Muş = მუში; Iğdır = იგდირი; Tebriz = თავრიზი; Erzurum = ერზურუმი; Tiflis = თბილისი; Kırım = ყირიმი; Tunus = ტუნისი; Temeşvar = ტემეშვარი
 
+== sozluk_e.md
+# ka sözlük (ajan e — olay_037..050). sozluk_a esastır.
+- İberya Birliği იბერიული უნია · Braganza ბრაგანსა · IV. João ჟუან IV · II. Felipe ფილიპე II · Sebte სეუტა · Tanca ტანჟერი · Arzila არზილა · Mazagan მაზაგანი · Agadir აგადირი · Sa'dîler საადიანები · Vattâsîler ვატასიანები · Alevî (Fas) ალავიტები · Fas (ülke) მაროკო
+- Nâdir Şah ნადირ-შაჰი · Afşar ავშარები · Zend ზენდები · Kaçar ყაჯარები · Kerim Han ქერიმ ხან ზენდი · Ağa Muhammed Han აღა მაჰმად ხანი
+- Turgut Reis თურგუთ რეისი · Piyâle Paşa პიალე-ფაშა · Cerbe ჯერბა · Pîrî Reis ფირი რეისი
+- külliye ქულიე · medrese მედრესე · kaside ყასიდა · mersiye ელეგია · iltizam ილთიზამი · narh ნარხი · devşirme დევშირმე · Tersâne-i Âmire თერსანე-ი ამირე · ahîlik აჰილიქი
+- Hospitalier/Saint Jean წმინდა იოანეს რაინდები (ჰოსპიტალიერები) · Töton Tarikatı ტევტონთა ორდენი · Livonya Tarikatı ლივონიის ორდენი
+- Karesioğulları ყარესის საბეილიქო · Candaroğulları ჯანდარიდები · Hamîdoğulları ჰამიდიდები · Eretnaoğulları ერეთნაოღულები · Celâyirliler ჯალაირიდები
+- Kargaşalar Dönemi არეულობის ხანა (სმუტა) · Büyük Kuzey Savaşı დიდი ჩრდილოეთის ომი · Kızıl Ordu წითელი არმია · Bagration ოპერაცია „ბაგრატიონი“
+- Trogir ტროგირი · Šibenik შიბენიკი · Szatmár სატმარი · Mehdî მაჰდისტები · Sevâkin სუაქინი
+
+== sozluk_f.md
+# ka sözlük (ajan f — olay_051..064); sozluk_a esastır
+## Terimler / kalıplar
+- sahipsiz aralık = უპატრონო ინტერვალი
+- "X noktalarında sahiplik A'dan B'ye geçer" = X-ის პუნქტებში მფლობელობა A-დან B-ზე გადადის
+- Kaynak geçiş bilgisi = წყაროს გადასვლის ინფორმაცია; Kaynak: = წყარო:; s. = გვ.; vd. = და სხვ.
+- "... dönemi başlar / sona erer" = ... პერიოდი იწყება / სრულდება
+- yy: რომაული ციფრები (XVI საუკუნე); ca./c. = დაახლ.
+## Yer / kişi
+Pers = სპარსული; Ahameniş = აქემენიანები; Kyros II = კიროს II; Yeni Asur = ახალი ასურეთი; Babil = ბაბილონი; Elam = ელამი; Kuş/Kush = ქუში; Kerma = კერმა; Hint = ინდოეთი/ინდური; İndus = ინდი; Harappa = ხარაპა; Shang = შანგი; Zhou = ჯოუ; Qin = ცინი; Han = ჰანი; Chang'an = ჩანგანი; Luoyang = ლუოიანი; Dinyeper = დნეპრი; Dinyester = დნესტრი; Prut = პრუთი; Silistre = სილისტრა; Rusçuk = რუსე; İbrail = ბრაილა; Hotin = ხოტინი; Zaporojye = ზაპოროჟიე; Seç = სეჩი; Lugoş = ლუგოში; Orsova = ორშოვა; Cetin = ცეტინი; Bihaç = ბიჰაჩი; Şehirköy = შეჰირქოი; Alacahisar = ალაჯაჰისარი; Ahıska = ახალციხე; Faş/Poti = ფაში (ფოთი); Şemâhî = შამახა; Luristan = ლურისტანი
+
 == sozluk_g.md
 # ka sözlük (ajan g — olay_065..078). sozluk_a esastır.
 - Neolitik ნეოლითი · Mezolitik მეზოლითი · Epipaleolitik ეპიპალეოლითი · Kalkolitik ქალკოლითი · Tunç Çağı ბრინჯაოს ხანა · Demir Çağı რკინის ხანა · höyük გორანამოსახლარი / (adda) -ჰოიუქი · "başlar/sona erer" = იწყება / სრულდება · MÖ ძვ. წ.; cal BP, cal BCE Latin
@@ -61,4 +83,22 @@ Ardahan = არტაანი; Artvin = ართვინი; Kars = ყა�
 - Trianon ტრიანონის ზავი · Saint-Germain სენ-ჟერმენი · Neuilly ნეი · Versailles ვერსალი · SHS Krallığı სხს სამეფო (სერბთა, ხორვატთა და სლოვენთა სამეფო) · Timișoara ტიმიშოარა (Temeşvar ტემეშვარი) · Pécs პეჩი · Oradea ორადეა · Košice კოშიცე
 - İnebahtı ლეპანტო · Revan ერევანი · Kars ყარსი · Ahıska ახალციხე · Şamahı შამახია · Nâdir Şah ნადირ-შაჰი · Sigetvar სიგეტვარი · Eğri ეგერი
 - Dinyeper დნეპრი · Zaporojye ზაპოროჟიე · Kazak კაზაკი · Yedisan ედისანი
+
+== sozluk_h.md
+# ka sözlük (ajan h — olay_079..092). sozluk_a esastır.
+- Selanik სალონიკი · Dimetoka დიდიმოტიქონი · Yanya იოანინა · Draç დურესი · Tırnova ტირნოვო · Anjou ანჟუ/ანჟუელები (Charles d'Anjou შარლ ანჟუელი) · Latin İmparatorluğu ლათინთა იმპერია · Ahaya Prinkipsliği აქაიის სამთავრო
+- Clovis ხლოდვიგი · Charlemagne კარლოს დიდი · Barbarossa ფრიდრიხ ბარბაროსა · II. Roger როჯერ II · Guiscard რობერ გვისკარი · Gisulf ჯიზულფო · Matilda მატილდა · Kutsal Roma საღვთო რომის იმპერია
+- Rurik რიურიკი · Varegler ვარიაგები · Yaroslav იაროსლავი · Vladimir ვლადიმირი · Peçenek პაჭანიკი · Kıpçak/Kuman ყივჩაღი/კუმანი · Töton Tarikatı ტევტონთა ორდენი · Kılıç Kardeşler მახვილოსანთა ორდენი · Lombard Birliği ლომბარდიის ლიგა
+- Alparslan ალფ-არსლანი · Melikşah მალიქ-შაჰი · Dânişmendli დანიშმენდიდები · Saltuklu სალთუკიდები · Mengücüklü მენგუჯაქიდები · II. David (Agaşenebeli) დავით IV აღმაშენებელი · Rusudan რუსუდანი · Didgori დიდგორი · Ani ანისი · Dvin დვინი · Kartli ქართლი · atabeg ათაბაგი · iktâ იქთა
+- Karahıtay ყარახიტაი · Gürhan გურხანი · Gurlu ღურიდები · Hârizmşah ხვარაზმშაჰი · Delhi Sultanlığı დელის სასულთნო · İlhanlı ილხანები · Hülâgû ჰულაგუ · Mengü Han მანგუ ყაენი · Baycu Noyan ბაიჯუ ნოინი · Cengiz ჩინგიზ ყაენი · Karmatî ყარმატები · Nizârî ნიზარიტები · Alamut ალამუთი
+- Çin: Tang ტანგი · Sui სუი · Song სუნი · Jin ძინი · Chang'an ჩანგანი · Luoyang ლუოიანი · Kaifeng კაიფენი · Goryeo კორიო · Pagan პაგანი · Sriwijaya შრივიჯაია
+- Ptolemaios პტოლემაიოსი · Antiokhos ანტიოქე · Seleukos სელევკოსი · Koile-Suriye კოილე-სირია · Kush ქუში · Thebes/Teb თებე · Memphis მემფისი
+- Yüzyıl: Roma rakamı (XIII საუკუნე) · MÖ ძვ. წ.
+
+== sozluk_i.md
+# ka sözlük (ajan i — olay_093..108). sozluk_a esastır.
+## Antik Mısır
+Yeni/Orta/Eski Krallık ახალი/შუა/ძველი სამეფო · Ara Dönem გარდამავალი პერიოდი · Ramses რამსესი (რამსეს III) · Thutmose თუტმოს · Ahmose იაჰმოსი · Amenhotep ამენჰოტეპ · Akhenaton ეხნატონი · Seti სეთი · Merneptah მერნეპთაჰი · Mentuhotep მენთუჰოტეპ · Sesostris სესოსტრის · Amenemhat ამენემჰეთ · Pepi პეპი · Teb თებე · Memphis მემფისი · Elefantin ელეფანტინე · Nubya ნუბია · Kenan ქანაანი · Kadeş ქადეში · Amurru ამურუ · Hatti ხათი · Hitit ხეთები · Mitanni მითანი · Deniz Kavimleri ზღვის ხალხები · nomark ნომარქი · Şelale (Nil) ჭორომი · Herakleopolis ჰერაკლეოპოლისი · Hiksos ჰიქსოსები · Avaris ავარისი
+## Antik Yakındoğu / Yunan-Roma
+Selevkos (devlet) სელევკიდები / (kişi) სელევკ I · Antiokhos ანტიოქოს · Ptolemaios პტოლემე · Part პართია/პართელები · Mithradates მითრიდატე · Artakserkses არტაქსერქსე · Dareios დარიოს · Kserkses ქსერქსე · Kyros კიროსი · İskender ალექსანდრე · Ahameniş აქემენიდები · satrap სატრაპი · Babil ბაბილონი · Susa სუზა · Sur ტვიროსი · Sayda სიდონი · Antiokheia ანტიოქია · Seleukeia სელევკია · Ktesifon ქტესიფონი · İyonya იონია · Milet მილეტი · Vespasianus ვესპასიანე · Diocletianus დიოკლეტიანე · Trajanus ტრაიანე · Augustus ავგუსტუსი · Palmira პალმირა · Aksum აქსუმი · Kush ქუში · Meroe მეროე
 
