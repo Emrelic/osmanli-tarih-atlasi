@@ -8444,8 +8444,11 @@ function _haritaSakinlesince(is) {
 // İkisinin hangisi büyükse çare oradadır.
 var _CIZIM_MS = 0;
 
-// Telefon + tam ekran: oynatılan maddenin başlığı haritada açık renk yazıyla 3 sn görünür, söner
-// (Emre, 22 Kasım: tam ekranda panel kapalı, hangi maddenin oynadığı okunmuyor).
+// Telefon + tam ekran: oynatılan madde haritanın EN ALTINDA alt yazı gibi, beyaz yazıyla görünür
+// (Emre, 22 Kasım: tam ekranda panel kapalı, hangi maddenin oynadığı okunmuyor · 25 Kasım: başlık +
+// madde metni en altta, satır satır, sığacak şekilde; olay yeri ekranın üst üçte birine — odakOfseti).
+// Sığdırma: yazı alanı haritanın alt %34'ü; taşarsa punto 15 → 11 px küçülür, yine taşarsa metin
+// satır sınırıyla "…" kesilir (alt yazı kaydırılmaz — harita üstünde dokunma yutmasın).
 var _basYaziZaman = null, _basYaziSon = null;
 function haritaBaslikYazisi(o) {
   try {
@@ -8457,15 +8460,34 @@ function haritaBaslikYazisi(o) {
       el = document.createElement("div");
       el.id = "harita-baslik-yazi";
       el.setAttribute("role", "status");
+      el.innerHTML = '<div class="hby-b"></div><div class="hby-d"></div>';
       h.appendChild(el);
     }
-    var t = o.b || "";
-    if (!t || t === _basYaziSon && el.classList.contains("gor")) return;
-    _basYaziSon = t;
-    el.textContent = t;
+    var t = o.b || "", d = o.d || "";
+    if (!t) return;
+    var anahtar = t + "|" + d;
+    if (anahtar === _basYaziSon && el.classList.contains("gor")) return;
+    _basYaziSon = anahtar;
+    var bEl = el.querySelector(".hby-b"), dEl = el.querySelector(".hby-d");
+    bEl.textContent = t;
+    dEl.textContent = d;
+    dEl.style.display = d ? "" : "none";
     el.classList.add("gor");
+    // sığdır: önce punto küçülür, sonra metin satır sınırıyla kesilir
+    var tavan = Math.floor(h.clientHeight * 0.34);
+    el.style.maxHeight = tavan + "px";
+    dEl.style.webkitLineClamp = "";
+    var pt = 15;
+    el.style.fontSize = pt + "px";
+    while (el.scrollHeight > tavan && pt > 11) { pt -= 1; el.style.fontSize = pt + "px"; }
+    if (el.scrollHeight > tavan && d) {
+      var kalan = tavan - bEl.offsetHeight - 40;   // 40 = üst/alt dolgu + başlık altı boşluk
+      dEl.style.webkitLineClamp = String(Math.max(1, Math.floor(kalan / (pt * 1.3))));
+    }
     if (_basYaziZaman) clearTimeout(_basYaziZaman);
-    _basYaziZaman = setTimeout(function () { el.classList.remove("gor"); _basYaziZaman = null; }, 3000);
+    // Okuma süresi: 4 sn + harf başına 55 ms, en çok 20 sn (sonraki madde gelince zaten değişir).
+    var sure = Math.min(20000, 4000 + (t.length + d.length) * 55);
+    _basYaziZaman = setTimeout(function () { el.classList.remove("gor"); _basYaziZaman = null; }, sure);
   } catch (e) { /* yazı şart değil */ }
 }
 
@@ -17072,6 +17094,11 @@ function _ekrandaMi(hedef, kap) {
   try { p = harita.project([hedef.lon, hedef.lat]); } catch (e) { return false; }
   var oran = Math.max(0.02, Math.min(0.45, _ayar("ayar-kenarpay", 18) / 100));
   var payX = kap.width * oran, payY = kap.height * oran;
+  // 📱 Telefonda "ekranda" = üst üçte bir (alt kısım alt yazının) — dışındaysa kamera oraya kayar.
+  if (window.ATLAS_TELEFON) {
+    return p.x >= payX && p.x <= kap.width - payX &&
+           p.y >= kap.height * 0.06 && p.y <= kap.height / 3;
+  }
   return p.x >= payX && p.x <= kap.width - payX &&
          p.y >= payY && p.y <= kap.height - payY;
 }
@@ -17514,6 +17541,9 @@ function _kirpmaAcik() {
 // bitiyor ve kabın ortası görünen alanın ortası. Ayrı bir düzeltme
 // GEREKMİYOR; ölçüldü, uydurulmadı.
 function odakOfseti(hedef, kap) {
+  // 📱 Telefon (Emre, 25 Kasım 2026): olay yeri ekranın ÜST ÜÇTE BİRİNE oturur; alt kısım alt
+  // yazıya (haritaBaslikYazisi) kalır. Yatayda orta, dikeyde yüksekliğin %20'si.
+  if (window.ATLAS_TELEFON) return [0, Math.round(kap.height * 0.2 - kap.height / 2)];
   if (_ayarMetin("ayar-yerlesim", "orta") !== "kenar") return [0, 0];
   var W = kap.width, H = kap.height;
   var p;
