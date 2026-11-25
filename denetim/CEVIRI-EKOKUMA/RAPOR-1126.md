@@ -69,3 +69,19 @@ Biçim sıra numarası taşımaz (kayıt = kart id + alan adı; özet Türkçe k
 - Kısa alan (176): izi en az 2 olup hiç ortak iz taşımayan 4.
 - Bu 17 alan Türkçesiyle yan yana, ilk ~170 karakterinden okundu: **17'si de kendi kaynağının çevirisi; kayma yok.**
 - Sınır: izi 2'den az olan kısa alanlar içerik yönünden otomatik olarak kanıtlanmadı.
+
+## 7. İngilizce TAMAM (26 Kasım)
+- **1.094 / 1.094 kart, 5.112 alan.** p006-p047 tek yürütücü ajanla, aynı anda en çok 2 Sonnet çevirmen.
+- Bütün İngilizce kayıtlar: kimlik/özet uyuşmazlığı 0 · mekanik hata 0 · toplu kayma 0 · uyarı 43
+  (örneklenenler biçim farkı: "93 Harbi" yanında 1877, "3 bin" → "3,000"). `ceviri.py denetim` çıkış 0.
+- Denetçi yanlış alarmı: sayı aralıkları ("200-400.000") düzeltildi; yapay kayma sınaması yine 152/152.
+- Çeviri kalitesine genel bir ikinci okuma YAPILMADI; kabul ölçütü mekanik denetçi. Bilinen hata düzeltildi:
+  Sinop 1853 "galleon" → "ships of the line" (ad sözlüğü de). Aynı sınıftan başka terim hatası taranmadı.
+- Dosya boyu 3,19 MB (CRLF çalışma kopyası); tahmin 3,1 MB idi.
+
+### Maliyet DÜZELTMESİ (§4-5'teki tahmin yanlıştı)
+40 parti + yürütücü: çevirmenler ≈6,69 milyon alt ajan tokenı, yürütücü 0,2 milyon; haftalık sayaç
+**%3 → %8** (aynı sürede öteki oturumlar dahil). ⇒ **Dil başına (≈46 parti) yaklaşık %6** (Latin dışı yazıda
+tahminen %8). §5'te yazılan %25-35, üç partilik kaba ölçümden gelen yaklaşık 4-5 katlık bir ABARTMAYDI.
+Kalan 20 aktif dil ≈ 1,2-1,6 haftalık pay; kalan 30 dil ≈ 2-2,4.
+

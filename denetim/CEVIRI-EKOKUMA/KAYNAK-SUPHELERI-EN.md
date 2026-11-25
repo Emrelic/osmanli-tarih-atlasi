@@ -1,0 +1,224 @@
+# Ek okuma: İngilizce üretim partilerinde (p006-p047) çevirmen ajanların işaretlediği şüpheler
+
+TEK GÖZ, TEYİTSİZ (çevirmen bilgisi ya da metnin iç tutarlılığı). Türkçe metin değiştirilmedi.
+Birkaç satır olgu şüphesi değil çeviri/kimlik notudur. İlk partiler: KAYNAK-SUPHELERI.md.
+
+Okura görünen iç notlar (Türkçe sitede de görünür): makam-kapudan-pasa-donanma-komutani
+("atlasın kronoloji maddesi ... ayrıca incelenmektedir"), tartisma-hezarfen-ahmed-celebi-tarihlendirme (bag: "kesinlik alanı").
+
+# EN çevirisinde bildirilen Türkçe kaynak olgu şüpheleri (çevirmen bilgisi; kaynaktan teyit edilmedi)
+
+- antlasma4-ingiltere-1580: Barton 1598'de öldü; 1601 yenilemesi halefi Lello dönemi olmalı.
+- antlasma4-venedik-1503: 1499 Fransa-Venedik ittifakı Milano'ya karşıydı; savaş ilanı "1498" şüpheli (1499).
+- antlasma4-memluk-1491: Nasrî devleti Ocak 1492'de bitti, yardım çağrıları daha eski; "ertesi yıl" şüpheli.
+- antlasma4-edirne-segedin-1444: Zlatitsa için yaygın tarih Aralık 1443, kartta 24 Kasım.
+- antlasma4-serav-1618: 29 Eylül hem 10 Eylül yenilgisinden hemen sonra hem II. Osman'ın tasdik günü; büyük olasılıkla imza günü.
+- antlasma4-hollanda-1612: "1536 ahidnâmesiyle" ifadesi "tasarı uzun süre imzalanmadı" kaydıyla gerilimli.
+- antlasma4-fransa-1553: "ittifakın temeli 1536 ahidnâmesi" aynı kayıtla gerilimli.
+- antlasma4-ahmed-pasa-1732: 6 Ekim 1733 savaş ilanından sonra III. Abbas'ın 1732 cülusu anlatılıyor; Nâdir'in "Kandehar'dan" dönüşü şüpheli (Herat olabilir).
+- antlasma4-zistovi-1791: "Eski Hırsova (Orsova)": Hırsova ile Orsova ayrı yerler; Eski Orsova olabilir.
+- antlasma4-bukovina-1775: "Hırsova (Orsova)": aynı karışıklık.
+- antlasma4-londra-yunan-1827-1830: başkentin Anabolu'dan Atina'ya taşınması "1833'e kadar"; çevirmene göre 1834.
+- antlasma4-londra-1913: adalar kararı "16 Aralık 1913"; yaygın bilinen tebliğ Şubat 1914.
+- antlasma4-atina-1913: aynı gün ve "ertesi yıl yapılan Londra Konferansı" ifadesiyle gerilim.
+- antlasma6-yergogu-1790: 18 Eylül 1790 Pazar değil Cumartesi.
+- antlasma6-rusya-1739: "Belgrad bu barışla teslim edildi" Avusturya barışının hükmü olmalı; Avusturya barışı 18 Eylül, kartta 28.
+- antlasma7-zuravno-1676: Şâban 1086 (1675) değil 1087 olmalı; antlaşma Ekim 1676.
+- antlasma5-paris-1763: Pondichéry 1760 değil Ocak 1761.
+- antlasma6-sudan-1899: 1945'te Mısır haklarını tanıyan antlaşma bilinmiyor (1936?).
+- antlasma6-akabe-1906: "1882'den itibaren hareket üssü hâline getirdikleri Akabe" ifadesi bozuk (üs Mısır olmalı).
+- antlasma6-bukres-1913: paylaşım Londra Antlaşması'na bağlanmış (metinde yok); ada kararı Şubat 1914, kartta 16 Aralık 1913.
+- antlasma7-erzurum-1823: Bağdat'ın İranlılarca işgali şüpheli; "aldığı yerleri geri verdi" cümlesi bozuk.
+- antlasma8-ferhad-simon-1588: Şah Tahmasb 1576'da öldü, 1578-84 sonrasında Simon'u serbest bırakmış olamaz.
+- antlasma8-georgievsk-1783: I. Pavel Mart 1801'de öldü; 12 Eylül 1801 ilanı I. Aleksandr'ın.
+- antlasma8-yemen-barisin-bozulmasi-1626: Haydar Paşa'nın San'a'dan ayrılışı ile 1629'da şehri bırakışı iç tutarsız.
+- antlasma7-isvec-ittifak-1740: "İlişkileri" fazladan büyük harfli, son cümle kendini tekrarlıyor.
+- avusturya-osmanli-askeri-geri-kalis-1683-1718: 1664 Sent Gothard Osmanlı "zaferi" sayılıyor; meydan savaşını Habsburg tarafı kazandı.
+- bakis-arap: "Şerif Hüseyin Ürdün topraklarında doğup yaşadı" yanlış görünüyor (İstanbul doğumlu); aktarılan incelemenin ifadesi olabilir.
+- antlasma9-hewett-adua-1884: "1879'dan beri Mısır'ın denetimi fiilen İngiltere'de"; işgal 1882, 1879-82 İngiliz-Fransız ortak denetimi.
+- tartisma-bolge0073-hurmuz-bogazi-el-degistirme: Portekiz'in Maskat'tan çıkışı "Nâsır b. Mürşid döneminde (1620)"; Nâsır 1624'te başa geçti, Maskat 1650. Albuquerque'nin alışı genellikle 1515 (metinde 1514).
+- tartisma-bolge0073-1821-osmanli-ordusu-nerede: "Bağdat işgal edildi" şüpheli.
+- sebep-sonuc-bolge0073-misir-sudan-siyaseti: "Türkiye dönemi" 61 yıl (1821-1882) ile 1885'te yıkılış çelişiyor; Obock 1859 (antlaşma 1862?), Somali'den çekiliş 1883 (genellikle 1884-85).
+- bakis-makedon: "kisa" hâkimiyeti 1430'dan başlatıyor, "metin" 14. yüzyılı da sayıyor.
+- camitarz-nusretiye-camii: "köşe tromplarına (pandantif)" iki ayrı öğeyi eşitliyor; yapı 8 Nisan 1826'da bitmiş, ad Haziran 1826 olayına bağlanıyor.
+- menkibe-kuyucu-lakabi: "doksanı aşan yaş", kimdir-kuyucu-murad-pasa'daki ~1522-1611 ile uyuşmuyor.
+- tartisma-bolge0073-cezayir-ordusu-1830: Mora çıkarması 1827 Navarin cümlesine bağlı (1828?); Tâhir Paşa görevi Ağustos 1827 notasına bağlı (1830?); 14 Haziran 1830 karaya çıkış günü.
+- mora-despot-kardesler-1460: Menekşe 1460'ta "Venedik'te kaldı"; Venedik'e yaklaşık 1464'te geçti.
+- savas-kirim-savasi-1853-1856: 4 Ekim 1853 savaş ilanı Rusya'ya yazılmış (ilan eden Osmanlı); taraflar.0.komutan "sayı verilmiyor" diyor.
+- savas-viyana-karlofca-1683-1699: Sobieski'nin 100.000 kişilik ordusu yüksek görünüyor.
+- savas2-atina-1687-parthenon-patlamasi: "MS 438" yerine MÖ olmalı.
+- dunya-otuz-yil-savaslari-vestfalya: İbrahim 8 Ağustos'ta indirildi, boğdurulması 18 Ağustos.
+- dunya2-venedik-osmanli-gidip-gelen-yerler-listesi: Girit "232 yıl" ve Kıbrıs "108 yıl" hesabı yanlış; Korfu 1864'te İngiltere'den Yunanistan'a geçti.
+- dunya2-osmanli-venedik-ele-gecirilemedi-tartisma: "hepsi Osmanlı kazancı" ile "yedide altı" çelişiyor; Nakşa 1566 sayılan savaşlara düşmüyor.
+- dunya3-dalmaciyaya-neden-inilemedi: "Akçahisar (İşkodra)"; Akçahisar Kruje'dir.
+- dunya4-rusyanin-denize-cikisi-sicak-denizler: 1696-1774 "75 yıl" değil 78.
+- dunya3-osmanli-venedik-deniz-savaslari: kisa metinle uyuşmuyor.
+- dunya3-prens-eugen-kimdir: kisa'daki "üç büyük zafer" ve "Türk deyimi" muğlak.
+- cezayir-oruc-reis-olumu-1519: Penon'un alınışı 1530 değil 1529.
+- deniz-ebukir-1798: 13 hat gemisi için dökümün toplamı 15.
+- dunya-hurmuz-bogazi-onemi: fetih 1514 (yaygın 1515); 1552 ve 1555 iki kuşatma şüpheli; kisa'daki Zheng He iddiasını metin desteklemiyor.
+- dunya-cografi-kesifler: "Kalküta (Calicut)"; Kalikut Kalküta değildir (İngilizcede de "Calcutta" kaldı).
+- dunya-iran-topraklari-tartisma: Tebriz için metin 4 alınış sayıyor, kisa "üç kez".
+- dunya-kuzey-karadeniz-halklari-kazak-karisikligi: iki Rusça telaffuz aynı yazılmış.
+- savas-canakkale-bozgunu-1656: Köprülü'nün ataması 15 Eylül 1656 (kartta 26).
+- dunya-donanmanin-talihsiz-anlari: "kronolojik sıra" değil; Seydi Ali Reis kaptan-ı derya değil, Hint kaptanıydı.
+- dunya6-vehhabiler-kimdir-ve-arabistan-sinirlari: Nâsır b. Mürşid "1615-1640" (1624-1649); kisa "güney kıyısı", metin Yemen'in iç kesimi diyor.
+- dunya6-iran-turk-hanedanlari-afsar-zend-ayrimi: kisa "tek istisna Zend"; listede Moğol kökenli İlhanlılar da var.
+- tartisma-dunya-hint-okyanusu-portekiz: Vasco da Gama 1497'de yola çıktı, 1498'de vardı.
+- balta-limani-mehmed-ali-ticaret-acilimi: ihracat %3 / ithalat %5 ters ya da eksik görünüyor.
+- kapitulasyon-diplomatik-araçtan-mali-bagimliliga: "562 yıl" ile "dört asır süren rejim" çelişiyor; 1536 ahidnâmesinin yürürlüğü tartışmalı.
+- teknik-tashih-i-sikke-mecidiye-cift-metal: 1844-1914 arası "altı padişah" değil beş.
+- ihtilal-rusya-etkisi: Austerlitz "20 Kasım 1805" (Jülyen), ihtilal-avusturya-etkisi'de 2 Aralık; "Katerına'nın" yazım hatası.
+- liste-hanedan-ici-katl-1-1374-1562: Şehzade Bayezid 23 Temmuz 1562; yaygın tarih 25 Eylül 1561 (tartisma-ahmed1-kardes-katli-terki de bağlı).
+- ihtilal-prusya-etkisi: Jena'dan (14 Ekim 1806) "dokuz gün sonra" ile Tilsit 9 Temmuz 1807 çelişiyor.
+- ihtilal-italya-etkisi: 1797-1861 "elli dört yıl" yazıyor; 64 olmalı (kisa 64 diyor).
+- kimdir-turhan-hatice-sultan: "Annesi Safiye Sultan'ın yarım bıraktığı Yeni Cami": Safiye, Turhan'ın annesi değil.
+- ihtilal-venedik-paylasimi: Zanta 1799 deniyor; 1798'de alındı.
+- kimdir-safiye-sultan: "mektuplaşan tek vâlide sultan", ama 1593'te Safiye henüz vâlide değildi.
+- tartisma-karadeniz-ukraynalilar-kimdir: "Litvanya'ya (Galiçya-Volinya 1323)" kuşkulu; geçiş 1340 sonrası.
+- karsi-karlofca-1699: "İki tarafın çağdaş tanıkları" sayılanların hepsi müttefik tarafından.
+- kolemen-beyleri-kimdir: İbrâhim Bey'in "1738'de" 24 emîrden biri olması şüpheli (1760'larda bey oldu).
+- antlasma-kasrisirin-1639-sinir: hattın tamamı 2.185 km ile Ağrı-Şattülarap şeridi 1.296 km tutarsız.
+- tosun-pasa-kimdir: 1 Mart 1811'de "Cidde valisi" deniyor, sancak zaferden sonra verildiği de yazıyor.
+- kimdir-naima: kisa "otuz yaşlarında"; metne göre yaklaşık 47.
+- kimdir-nesri: kisa "altı ciltlik", metin "altı bölüm".
+- teknik-osmanli-tabi-statu-listesi: "Dördü de ... haraç" Hicaz'ı da kapsıyor; Erdel'de "babası ölünce" belirsiz.
+- teknik-eflak-bogdan-erdel-haklari: haraç ödeme cümlesi bozuk.
+- teknik-osmanli-egitim-sistemi: 1924 için "Maarif Nezâreti" (Vekâleti olmalı).
+- teknik-osmanli-devlet-kademeleri: Maliye Nezâreti 1841 deniyor; ilk kuruluş 1838.
+- tartisma-korfez-petrol-oncesi-ekonomi: "yağmura bağlı tarıma dayanıyordu" tarıma elverişsiz toprak anlatımıyla uyumsuz.
+- selim3-mahmud2-28-temmuz-1808: "amcası Selim / yeğeni Mahmud"; III. Selim, II. Mahmud'un amca oğlu.
+- murad4-revan-senligi-gecesi: "yirmi beşer yaşlarındaki"; Şehzade Bayezid 1635'te yaklaşık 22-23.
+- mimari-mihrimah-edirnekapi: Üsküdar külliyesinin bitişi 1547; genellikle 1548.
+- makam-kapudan-pasa-donanma-komutani: metinde iç not ("atlasın kronoloji maddesi... ayrıca incelenmektedir") var; yayında görünmemeli olabilir (İngilizceye aynen çevrildi).
+- teknik-osmanli-vergi-sistemi: "Müslümanlar öşür ve haraç öderdi" şüpheli.
+- yirmisekiz-merak-kabul-toreni: XV. Louis 1721 Mart'ında 11 yaşındaydı (kartta 12).
+- yirmisekiz-merak-yolculuk: 1720 Marsilya salgını veba; "kolera" atfı yanlış görünüyor.
+- fatih-gizli-mektup-1451: Mehmed miladî 18 yaşındaydı (kartta 19; hicrî hesap olabilir).
+- nasil-ahmed1: cülusta "on dört", ölümde "yirmi sekiz"; miladî yaklaşık 13 ve 27.
+- nasil-ahmed2: cülusta "kırk dokuz"; miladî yaklaşık 48.
+- nasil-osman2: kisa "19. ve 20. yüzyıl tarihçileri", metin bunu demiyor.
+- nasil-ibrahim: kisa'daki "lakap 20. yüzyıl başında" bilgisi metinde yok.
+- mimari-sehzade-camii: inşaat Haziran 1543; Şehzade Mehmed Kasım 1543'te öldü.
+- mimari-sadabad: Yirmisekiz Mehmed elçiliği 1720-21 (metin 1719-1720); "Paris'e ilk elçi" tartışmalı.
+- mimari-dolmabahce-sarayi: "altı padişah oturdu" ile "II. Abdülhamid kullanmadı" gerilimli.
+- nasil-mustafa4: III. Selim için hem "amcası" hem "amcazadesi"; doğrusu amcazade.
+- nasil-murad5: kisa'daki "ancak yedi gününde kendine hâkim" bilgisi metinde yok.
+- teknik-takvim-i-vekayi-resmi-gazete: savaş "1829'da Yunanistan'ın bağımsızlığıyla biten"; tanınma 1830/1832.
+- teknik-gazetecilik-dogusu-ilk-osmanli-gazeteleri: Naîmâ'ya "1716'da" maaş; Naîmâ o yılın başında öldü.
+- teknik-ilk-nufus-sayimi-1830-31: dinî dağılım toplamı ile genel toplam arasında 50 fark.
+- kimdir-p75b-florence-nightingale: Mary Seacole'un grup başında Üsküdar'a gelişi şüpheli; "bina müze..." cümlesinin öznesi bozuk.
+- teknik-bogaz-ulasimi-sirket-i-hayriyye-oncesi: "dört yandan çarklı vapur" şüpheli.
+- [ÇEVİRİ NOTU, kaynak şüphesi değil] savas-p75b-sinop-1853: "kalyon" sözlük gereği "galleon" çevrildi; 1853 gemileri için "ships of the line" olmalı.
+- abdulhamid-donemi-toprak-kayiplari: kisa "dördü savaşla değil", metin beşi (iç çelişki).
+- seyahat-abdulaziz-1867-onemi: 1867-1875 "on yıl sonra" (8 yıl); Karol'un tanınması 1866.
+- abdulaziz-neye-direndi-hal-1876: ikinci hal' "dört ay sonra"; üç ay.
+- bunv-lubnan-1861: "altmış yıl kesintisiz"; 1861-1915 yaklaşık 54 yıl.
+- seyahat-abdulaziz-1867-guzergah: şehzade yaşları 10/27/25; yaklaşık 9/26/24.
+- bunv-romanya-1859: 5 ve 24 Ocak 1859 Jülyen görünüyor (Gregoryen 17 Ocak, 5 Şubat).
+- bogazlar-kapali-mi-acik-mi-1841: Seddülbahir 1453'e bağlanmış (1650'ler); 1809 kapalılığını kimin kime kabul ettirdiği çelişiyor.
+- fes-resmi-serpus-1829-ve-oncesi: Süleyman Paşa "Osman Gazi'nin oğlu" (Orhan'ın oğlu); 13 Aralık 1934 yayım günü olabilir.
+- savas-p75b-kirim-cepheleri: Kırım çıkartması "TDV 26 Eylül 1854" (yaygın 14 Eylül).
+- tartisma-p75b-donanma-yakilmaya-musait-mi: başlık dört olayda "yaktı" diyor; kart İnebahtı'yı ayırıyor.
+- selanik-etnik-tarihsel-aidiyet-tartismasi: "26 Ekim 1912" Jülyen görünüyor (Gregoryen 8 Kasım).
+- hasta-adam-tabiri: "ikisi de 1918'de sona erdi"; Osmanlı 1922'de.
+- berlin-1878-kotur-irana-verildi: Yunanistan'a toprak devri 1881'de.
+- kimdir-gazi-osman-pasa: kisa "o güne kadar yalnız üç kişiye", metin "o dönemde".
+- kuzey-ege-adalari-averof-hamidiye: İtalya "birliğini yeni kurmuş"; Girit 1908'de bağımsızlık değil Yunanistan'a katılma ilan etti.
+- balkan-bozgununda-ordunun-zaafiyeti: 15 Temmuz 1912'deki konuşma 22 Temmuz'da kurulan hükümete bağlanmış gibi.
+- balkan-savaslarinin-sonuclari: Edirne'de "225.000'den fazla" açlık ölümü çok yüksek.
+- ikinci-balkan-savasi-1913: Batı Trakya Yunanistan'a geçmiş deniyor (Bulgaristan'da kaldı); "33 gün" tarih aralığına uymuyor.
+- bozcaada-imroz-bogazlar-icin-onemi: Semadirek "bütün Ege adalarının en yükseği" yanlış.
+- osmanli-halifesini-taniyan-tanimayan-cografyalar: I. Dünya Savaşı döneminde Abdülhamid'e "padişah".
+- teknik-darulfunun-dort-deneme: Efgānî tepkisi 1863'e bağlanmış (1870); "30 yılda dört kez" aralıkla uyuşmuyor.
+- teknik-bulgar-eksarhligi-1870-kilise-ve-kimlik: 11 gün takvim farkı sayılmış; XIX. yy'da fark 12 gün.
+- p76f-balkan-bozgun: Selânik "23-24 Ekim 1912"; 8-9 Kasım (Rumî 26-27 Ekim).
+- p76f-libya-direnis: işgal günleri yaygın kronolojiyle uyuşmuyor olabilir.
+- p76g-balkan-savasi-bulgar-hafizasi: Romanya I. Balkan Savaşı'nda Bulgaristan'ın yanında savaşmadı; 29 Eylül 1918 mütareke, Ferdinand 3 Ekim'de çekildi.
+- p76f-londra-antlasmasi: antlaşma toprakları müttefikler arasında paylaştırmadı; Silistre Petersburg protokolüyle geçti.
+- p76i-girit-kibris-rum-mu-helen-mi / kiklad-adalari-1566-1830: Krallık 1832; 1827 Londra metni antlaşma, protokol değil.
+- p76i-avrupa-devletler-sistemi-1856: İngiltere Kutsal İttifak'a katılmadı.
+- p76f-arnavut-ihtida: Peç patrikliği kesintisiz sürmedi.
+- sebep-sonuc-alman-osmanli-yakinlasmasi-1898: "300 milyon" sözü Şam'da; Zeytindağı kilisesi, ilk Berlin elçiliği ve 5 Mart 1903 anlaşması şüpheli.
+- sebep-sonuc-alman-imtiyazi-1888: "İstanbul-Bağdat bağlantısı Ekim 1918'de" şüpheli (1940); Hicaz "bağışla" (fonun 1/3'ü).
+- sebep-sonuc-yemen-israri: 1889'da imam Mansûr Muhammed'di (Yahyâ 1904'ten).
+- teknik-istanbul-depremleri: 1509 depremi yaygın 10 Eylül (kartta 14).
+- tartisma-yildiz-suikasti-1905: kisa "bomba geç patladı", metinde geciken padişah.
+- kimdir-ali-suavi-ve-ciragan-baskini: "dili bozmuş" ifadesi kuşkulu.
+- sebep-sonuc-iskenderiye-1882-ingiliz-cikarmasi: Lozan md. 17 feragati 5 Kasım 1914'ten sayar; kart tarih yok diyor.
+- teknik-bulgaristan-sinirinin-cizilisi: kisa "bir darbede", metinde 1885 "emrivaki".
+- p77b-buyuk-romanya-1918: 1 Aralık 1918 üç birleşmenin ortak günü gibi okunuyor.
+- p77b-sirp-hirvat-sloven-kralligi-yugoslavya-1918: 1928'de "üç Hırvat vekili vurdu"; beş vekil.
+- p77b-alsas-loren-tarih-strateji-ekonomi: 13.123 km² küçük görünüyor (~14.500).
+- p77a-kut-1915-isgal-ve-1916-zafer: Kût'a giriş 28-29 Eylül 1915 (metinde 26).
+- p77a-erzincan-1916-oncesi: kurtuluş 13 Şubat 1918 anılır (metinde 26).
+- p77a-18-mart-nusret-seyid: "iki muhrip ve yedi tarama gemisi battı" şüpheli.
+- kimdir-serif-huseyin: İstanbul'a geliş akışı tutarsız (1893?).
+- p77a-dogu-cephesi-basat-faktor: Bitlis "8 Ağustos'ta geri alındı", aynı paragrafta sırtlar 9 Ağustos.
+- p77b-istanbulun-resmi-isgali-1920-sebep-sonuc: Salih Paşa kabinesi "tamamen milliyetçilerden" iddiası şüpheli.
+- p77b-sakarya-meydan-muharebesi-1921: Papoulas 1922 baharında ayrıldı; akis cümlesi bulanık.
+- p77b-avusturya-macaristan-dagilisi-1918: cumhuriyet 30 Ekim'e konmuş (ilan 12 Kasım); Banat'ın tamamı Romanya'ya geçmedi; Bukovina kararı 28 Kasım.
+- tartisma-mustafa-i-davranislari: "On dört ay sonra"; yaklaşık 15,5 ay.
+- supheli-olum-mustafa-i-1639: atıf yanlış karta; anılan kart adı gerçek başlıkla uyuşmuyor.
+- tartisma-suleyman-ii-ahmed-ii-kafes: II. Ahmed yaşları 49/52 (miladî 48/51); kisa'daki alıntı bozuk.
+- tartisma-edirne-vakasi-1703-feyzullah: kisa "üç hafta sonra" metinde desteksiz; "on bir gün" hesabı.
+- tartisma-sehzade-mahmud-tarih-bulgusu: kisa yalnız 7 Haziran'ı öne çıkarıyor (kart farkı çözülmemiş beyan ediyor).
+- sebep-sonuc-prut-1711: Poltava "Ağustos 1709"; Haziran sonu/Temmuz.
+- tartisma-hezarfen-ahmed-celebi-tarihlendirme: kisa iki yıl, metin yalnız 1638; bag'deki iç not dili ("kesinlik alanı") okura görünüyor.
+- tartisma-osmanli-darbeleri-tipoloji: "dokuz kez" şüpheli.
+- tartisma-katerina-baltaci-rivayeti: "Voltaire'in XII. Karl tarihinde olay hiç geçmez" şüpheli.
+- tartisma-bagdat-1623-savas-ilani-mi: "Bekir Subaşı öldü, sonra oğlu teslim etti" sırası şüpheli.
+- sebep-sonuc-istanbul-1700-azak: bag ile metin akın yasağında çelişiyor.
+- sebep-sonuc-doksanuc-harbi-1877-ayastefanos: "1875 Düyûn-ı Umûmiye iflası" (idare 1881).
+- padisah2-ahmed2-sakiz-hattat / padisah2-abdulhamid1-halil-hamid-komplosu: cülus yaşı 49 (miladî 48).
+- magazin-varvar-ali-pasa-isyani-1647: "yaklaşık bir yıl"; ~7 ay.
+- tartisma-macaristan-fetih-kayip-sureleri: "3-4 yıl"; 1683-1688 = 5.
+- sebep-sonuc-bahcesaray-1681: "sekiz yıl" Çehrin 1678-1681 ile uyuşmuyor; TDV atfı kuşkulu.
+- savas-salankamen-1691: "19 Ağustos 1690" şüpheli.
+- sebep-sonuc-trablusgarp-karamanlilar-1711: 1551'in ilk beylerbeyi Murad Ağa olmalı.
+- rusiran-hazar-seferi-1722 / rusiran-nadir-ruslari-cikardi: ölü sayıları uyuşmuyor; Revan zaferi Haziran 1735 (metinde Mayıs 1734).
+- [kimlik notu] tartisma-iii-mustafa-muneccim-merakι: kart kimliğinin sonunda Yunan iota (U+03B9) var.
+- savas-preveze-1538: yaklaşık 140 kalyonluk filoda "128 kalyon kaybetti" olası değil.
+- savas-ankara-1402: "1399'da Bağdat'ı alan Timur" (1393 ve 1401).
+- savas-kosova-1389: 28 Haziran 13 günlük modern fark (14. yy'da 23 Haziran).
+- savas-plevne-1877: temmuz günleri Jülyen, 10 Aralık Gregoryen (karışık takvim).
+- savas-kalafat-yergogu-1790: 18 Eylül 1790 Cumartesi, "Pazar" 19 Eylül; Çettin 20 Temmuz olabilir.
+- savas-ismail-macin-1790: Yaş Antlaşması 10 Ocak 1792; yaygın 9 Ocak.
+- savas-hazar-gilan-1722: TDV "1732" ve Iranica çelişkileri kartta beyanlı.
+- savas-kamanice-1672: 1683'ten Karlofça'ya "on yedi yıl"; 16.
+- savas-belgrad-1440: Novoberda "aynı yıl" 1440; yaygın 1441.
+- savas-alman-seferi-guns-1532: Ferdinand'ın Budin kuşatması 1531; 1530 sonbaharı.
+- savas-ikinci-balkan-1913: 26.000/176.300 km² yaklaşık %14,7; metin %17.
+- savas-riyad-1902: "İbnü'r-Reşîd'in emîrini yenip öldürdü" bozuk.
+- savas-kusseri-rabih-1900: tartisma'daki cümle yarım/bozuk.
+- savas-buyuk-taarruz-1922: İzmir yangını 12 Eylül; yaygın 13 Eylül.
+- savas-kartal-kagul-1770: Larga 27 Temmuz; 7/18 Temmuz.
+- savas-domeke-1897: Termopil'in bir günde aşılması şüpheli.
+- istanbul-rasathanesi-yiktirilmasi-tartisma: kisa "sekiz yıl sonra"; 1577-1580 = 3 yıl.
+- tartisma-kutsal-ittifak-tabi-devletler-1683-1699: Kaçanik püskürtmesi 1688; 1689-90 olabilir.
+- statu-dubrovnik: 1806 "cumhuriyete son verdi"; ilga 1808.
+- teknik-osmanli-spor-gelenekleri: II. Murad'ın "sonra İstanbul'da" tekke kurduğu okunabiliyor.
+- teknik-osmanli-kiyafet-statu: "Kadınlara ferace yasaklanıp fahir/kundura" ifadesi bozuk.
+- savas-lugos-ulas-1695-1696: Friedrich August 1696'da kral değil elektördü; "Caprara Ulaş'ta öldü" şüpheli.
+- savas-eflak-mihai-1594-1595: Mihai yenilip ölmedi, suikastle öldürüldü.
+- savas-katalan-bolugu-1303-1305: Katalan hâkimiyeti 1388'e kadar (kartta 1379).
+- savas-malta-1565: Don Garcia'nın çıkarması 6 Eylül; yaygın 7 Eylül.
+- timar-avrupa-feodalizm-farki: tımarın resmen tasfiyesi 1827 (genellikle 1831).
+- mehter-yeniceriyle-birlikte-lagvi: Muzıka-yi Hümâyun'un ilk şefi Donizetti (öncesinde Manguel).
+- tartisma-lehistan-ikinci-paylasim-1793: Rusya "Ukrayna'nın tamamına" (Galiçya Avusturya'da).
+- darussaade-agasi-harem-hiyerarsisi: öneri alanındaki "otuz sekiz yıl" metinde dayanaksız.
+- feshane-osmanli-sanayilesme-girisimi: öneride "bin insan", metinde 250-450 işçi.
+- sehzade-mehmed-sunnet-dugunu-1582: "tek erkek çocuğu olmayan" ifadesi bozuk.
+- kimdir-sokullu-mehmed-pasa: kisa "on dört yıl sonra"; 1571-1579 = 8.
+- kimdir-ahizade-huseyin-efendi: IV. Murad 1623'te tahta çıktı (not 1632).
+- kimdir-koprulu-fazil-ahmed-pasa: Vasvar 10 Ağustos 1664 (kartta 16); yıllık haraç bağlamadı.
+- kimdir-koprulu-mehmed-pasa: not yarım bitiyor, sayılmayan "bu dört isim"e atıf.
+- savas-hikayesi-parkan-1683: "başını sadrazam kalıntı ordusuna gönderdi" cümlesi bozuk.
+- bektasi-bektasilik-nedir: Kaygusuz Abdal'ın Mısır tekkesi "XV. yy sonları" (yaşadığı dönem XIV sonu-XV başı).
+- bektasi-yeniceri-baglantisi: Konstantin'in bizzat yeniçeri olduğu tartışmalı.
+- yenilesme-uc-kurum-gecikme-kiyasi: London Fire Engine Establishment 1833; "madde 3'teki tartışma" atfı karşılıksız.
+- matbaa-kesintili-tarihi-1747-1826 / matbaa-300-yil-gecikme-tartismasi: Müteferrika'nın ölümü birçok kaynakta 1745.
+- yunan-1821-sebepler: Ali Paşa'nın ölümü Ocak/Şubat 1822 (metinde 14 Şubat); "Etniki Eterya" Filiki Eterya ile karışmış.
+- yunan-1821-destekciler: 6 Temmuz 1827 belgesi "Antlaşma" (metinde "Protokol").
+- yeniceri-vakai-hayriyye-gun-gun: "kazan kalkıyor 13 Haziran akşamı" şüpheli (14-15 Haziran 1826).
+- yeniceri-mahmud-stratejisi: "Lüttrich" yazım hatası (Lüttich = Liège).
