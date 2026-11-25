@@ -35,6 +35,18 @@ window.EKOKUMA_DEVPAPALIK02 = [
     "Tarihçiler bugün ne diyor? Karl'ın yaşam öykücüsü Einhard, kralın olacakları bilseydi o gün kiliseye gitmeyeceğini söylediğini yazar. Treccani maddesi bu anlatıyı sonradan kurulmuş görür; bu kadar özenli bir tören Karl'dan habersiz zor hazırlanırdı. Bir başka Frank yıllığı, unvanın daha önce önerildiğini ve kralın kabul ettiğini aktarır; araştırmacılar bunu esas olarak güvenilir bulur. Aynı maddeye göre Karl'ı rahatsız eden unvanın kendisi değil, belki papanın değiştirdiği tören sırasıydı. Bu ise kesin bir bilgi değil, olası bir açıklamadır.",
   kaynak:"«Leone III, santo», Enciclopedia dei Papi (Istituto della Enciclopedia Italiana, 2000), https://www.treccani.it/enciclopedia/santo-leone-iii_(Enciclopedia-dei-Papi)/",
   kesinlik:"tartismali", teyit:"teyitli",
-  ic_not:"Maddenin yaklaşık 6.000-31.000. karakter aralığı okundu (saldırı, Paderborn, soruşturma, taç giyme ve sonrası)." }
+  ic_not:"Maddenin yaklaşık 6.000-31.000. karakter aralığı okundu (saldırı, Paderborn, soruşturma, taç giyme ve sonrası)." },
+
+{ id:"papalik-vii-pius-napolyon-1809", devlet:"papalik", tur:"sebep-sonuc",
+  baslik:"Taç törenine giden papa beş yıl sonra nasıl tutsak oldu?",
+  olay:["1809-05-17|Napolyon Papalık topraklarını Fransız"],
+  kisa:"VII. Pius 1804'te Napolyon'un taç töreni için Paris'e gitmişti. 1809'da ise Fransız jandarmaları gece sarayına girip onu bilmediği bir yere götürdü. Arada ne oldu?",
+  metin:"VII. Pius ile Napolyon'un ilişkisi bir uzlaşmayla başlamıştı. Fransa ile yapılan konkordato, yani Kilise-devlet anlaşması, Devrim yıllarından sonra yeni bir düzen kurdu. Bu uzlaşma her Katolik'i memnun etmedi. Yine de papa 1804'te Paris'e gitti ve 2 Aralık'taki taç töreninde bulundu.\n\n" +
+    "Kopuş, Napolyon'un İngiltere'ye karşı kurduğu \"kıta ablukası\" yüzünden derinleşti. İmparator Papalık Devleti'nin de buna katılmasını istiyordu. Papa ise herkesle barışı koruması gerektiğini söyleyip tarafsız kalmakta direndi. Napolyon'un ona verdiği mesaj açıktı: Roma papanın olabilirdi, ama imparator kendisiydi ve düşmanları papanın da düşmanı sayılmalıydı. Ancona 1805'te işgal edildi. 1807'de Marche ve Umbria'ya asker girdi. 2 Şubat 1808'de Roma işgal edildi. Din alanında da kavga büyüdü: papa, imparatorun atadığı piskoposlara dinî yetki vermeyi reddetti.\n\n" +
+    "Napolyon 17 Mayıs 1809'da Viyana'da Roma ve Umbria'yı imparatorluğa katan kararnameyi imzaladı. 10 Haziran'da Quirinale'de papalık bayrağı indirildi. Aynı gün çıkan papalık fermanı, bu işe karışanları ve destekleyenleri aforoz etti. İmparatorun adı açıkça geçmiyordu, ama kimin kastedildiği anlaşılıyordu. 5-6 Temmuz gecesi General Radet Quirinale Sarayı'na baskın yaptı. Papa Grenoble'a, ardından Savona'ya götürüldü ve burada Haziran 1812'ye kadar gözetim altında tutuldu.\n\n" +
+    "Tarihçiler bugün ne diyor? Treccani maddesi anlaşmazlığı iki yönlü görür: biri toprak ve siyaset, öteki din yetkisi üzerineydi. Napolyon ablukayla papalığın tarafsızlığını olanaksız sayıyor, bir yandan da Kilise'yi imparatorluğun çıkarlarına bağlamaya çalışıyordu. Maddeye göre tutsak ve haber alamayan papa, güçsüzlüğüne rağmen imparatora karşı canlı bir sitem olarak kaldı.",
+  kaynak:"«Pio VII», Enciclopedia dei Papi (Istituto della Enciclopedia Italiana, 2000), https://www.treccani.it/enciclopedia/pio-vii_(Enciclopedia-dei-Papi)/",
+  kesinlik:"kesin", teyit:"teyitli",
+  ic_not:"Uzun maddenin yalnız yaklaşık 58.000-76.000. karakter aralığı okundu (1801 sonrası konkordato, 1804 taç töreni, 1805-1810). Yazar adı belirlenmedi." }
 
 ];
