@@ -136,3 +136,11 @@ Hitit = hititë · Hattuşa = Hatusha · Babil = Babilonia · Asur = Asiria · U
 Bergama = Pergam · Sirakuza = Sirakuzë · Marsilya = Marsejë · İskenderiye = Aleksandri · Dicle = Tigër · Fırat = Eufrat · Mısır = Egjipt · hanedan = dinasti
 Tunç Çağı = Epoka e Bronzit · Demir Çağı = Epoka e Hekurit · Neolitik = Neolit · kazı = gërmime · evre = fazë · katman = shtresë
 
+== sozluk_g.md
+# sq sozlugu (ETIKET g) — a-f ile uyumlu (Ortacag Iran / Orta Asya / Anadolu Selcuklu)
+Sencer = Sanxhar · Muhammed Tapar = Muhamed Tapari · Tuğrul = Tugrul · Mesud = Mesud · Tekiş = Tekish · Alâeddin = Aladin
+II. Kılıcarslan = Këllëç Arslani II · Hârizm = Horezm · Hârizmşah = horezmshah · Gazneli = gaznevid · Gurlu = gurid
+Karahanlı = karahanid · Karahıtay = karakitaj · Oğuzlar = oguzët · Dânişmendli = danishmend · Salgurlu = salgur
+Gazne = Gazni · Belh = Balh · Serahs = Sarakhs · Nîşâbur = Nishapur · Rey = Reu (Rey) · Hemedan = Hamadan · Kirman = Kerman
+Irâk-ı Acem = Iraku Axham · Horasan = Horasan · Kayseri = Kajseri · Kâşgar = Kashgar · hutbe = hytbe · atabeglik = atabegat
+
