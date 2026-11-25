@@ -20,20 +20,30 @@ window.KISI_VENEDIK = [
     tarihciler: "Giorgio Cracco belgelere dayanarak 1172'de kör edildiği haberini reddeder ve görme kaybını 1178 ile 1183 arasına koyar; nedeni bilinmiyor.",
     kaynak: "G. Cracco, \"Dandolo, Enrico\", Dizionario Biografico degli Italiani c. 32 (1986) · Villehardouin, İng. çev. F. T. Marzials (1908) · J. W. Barker, The Medieval Review 04.08.03 (2004)" },
 
-  { id: "venedik-kisi-caterina-cornaro", devlet: "venedik", tur: "yabanci-hukumdar",
-  ic_not_erisim:"ERİŞİM KURALI İHLALİ (25.11.2026 denetimi): TDV İslâm Ansiklopedisi bu iş sırasında Cloudflare engeli verdi. Karttaki TDV içeriği engelden sonra web aktarım aracıyla ya da tarayıcıyı andıran User-Agent ile (Mozilla/5.0 research-reader) indirildi. Bu yolla alınan metin kullanılamaz: TDV'ye dayanan ifadeler OKUNAMADI sayılır. Önceki 'ham sayfada doğrulandı' notları geçersiz. Yayın adayı değil; kart silinmedi.",
-  teyit:"teyitsiz", yayin_adayi:false, ic_not_teyit:"[TDV ile ilgili okuma beyanı GEÇERSİZ, bkz. ic_not_erisim] DBI okundu; TDV okunamadı sayılır.",
-    ad: "Caterina Cornaro (Corner)",
-    f: "1454", ic_not_f: "ilk biyografı Colbertaldo'ya göre (DBI aktarımı)",
-    t: "1510",
-    donem: "1454–1510 (Kıbrıs kraliçesi 1472–1489)",
-    dogum_yer: "Venedik",
-    olum: "1510-07-10", ic_not_olum: "DBI: 9-10 Temmuz 1510 gecesi",
-    olum_yer: "Venedik",
-    olum_sebep: "günlükçü Sanudo'ya göre mide rahatsızlığı",
-    baba: "Marco Corner",
-    esler: ["II. Jacques (Giacomo) de Lusignan (1468'de vekâletle nikâh; 1472'de Kıbrıs'a gidiş)"],
-    not: "Venedikli bir soylu ailenin kızıydı; Kıbrıs kralıyla evlendi, 1473'te dul kaldı. Taç onda kalsa da yönetim giderek Venedik görevlilerine geçti. 26 Şubat 1489'da adada San Marco sancağı çekildi; kendisine Asolo verildi.",
-    tartisma: "Feragat resmen bir bağış olarak sunuldu. Oysa Venedik amiraline verilen 28 Ekim 1488 tarihli emir, ikna olmazsa kraliçenin zorla gemiye bindirilmesini söylüyordu.",
-    kaynak: "F. Colasanti, \"Caterina Corner, regina di Cipro\", Dizionario Biografico degli Italiani c. 22 (1979) · TDV İslâm Ansiklopedisi, \"Kıbrıs\" (Işın Demirkent)" }
+  {
+  "id": "venedik-kisi-caterina-cornaro",
+  "devlet": "venedik",
+  "tur": "yabanci-hukumdar",
+  "teyit": "teyitli",
+  "yayin_adayi": true,
+  "ic_not_teyit": "Treccani Dizionario di Storia 'Caterina Cornaro' maddesi (doğum yılı) ve Colasanti'nin Dizionario Biografico degli Italiani maddesi (İtalyanca) bu turda tam okundu.",
+  "ad": "Caterina Cornaro (Corner)",
+  "f": "1454",
+  "ic_not_f": "Treccani Dizionario di Storia: 'Venezia 1454-ivi 1510'",
+  "t": "1510",
+  "donem": "1454–1510 (Kıbrıs kraliçesi 1472–1489)",
+  "dogum_yer": "Venedik",
+  "olum": "1510-07-10",
+  "ic_not_olum": "Dizionario Biografico: 9-10 Temmuz 1510 gecesi; alandaki 10 Temmuz bu gecenin ikinci günüdür",
+  "olum_yer": "Venedik",
+  "baba": "Marco Corner",
+  "esler": [
+    "II. Jacques (Giacomo) de Lusignan (1468'de vekâletle nikâh; 1472'de Kıbrıs'a gidiş)"
+  ],
+  "not": "Venedikli bir soylu ailenin kızıydı; Kıbrıs kralıyla evlendi, 1473'te dul kaldı. Taç onda kalsa da yönetim giderek Venedik görevlilerine geçti. 26 Şubat 1489'da adada San Marco sancağı çekildi; aynı yılın haziranında kendisine Asolo verildi.",
+  "tartisma": "Feragat resmen bir bağış olarak sunuldu. Oysa Venedik amiraline verilen 28 Ekim 1488 tarihli emir, ikna olmazsa kraliçenin zorla gemiye bindirilmesini söylüyordu.",
+  "kaynak": "Francomario Colasanti, \"Caterina Corner, regina di Cipro\", Dizionario Biografico degli Italiani c. 22 (1979), treccani.it/enciclopedia/caterina-corner-regina-di-cipro_(Dizionario-Biografico)/ (İtalyanca) · \"Caterina Cornaro\", Treccani Dizionario di Storia, treccani.it/enciclopedia/caterina-cornaro_(Dizionario-di-Storia)/ (İtalyanca)",
+  "ic_not": "Dizionario Biografico doğum yılını ilk biyograf Colbertaldo'ya dayandırır; Treccani Dizionario di Storia 1454'ü kendi verisi olarak yazar.",
+  "ic_not_erisim": "ONARIM (26.11.2026): TDV ya da aktarım dayanağı çıkarıldı; kart, engel aşmayan indirme aracıyla yeniden kaynaklandırıldı."
+}
 ];

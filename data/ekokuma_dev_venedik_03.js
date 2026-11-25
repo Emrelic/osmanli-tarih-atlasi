@@ -90,49 +90,61 @@ window.EKOKUMA_DEVVENEDIK03 = [
   kaynak:"Giovanni Nuti, \"Doria, Lamba\", Dizionario Biografico degli Italiani c. 41 (1992), https://www.treccani.it/enciclopedia/lamba-doria_(Dizionario-Biografico)/",
   ic_not:"UYUŞMAZLIK: kronoloji maddesi 8 Eylül 1298; okunan madde donanmanın 6 Eylül'de göründüğünü, savaşın 7 Eylül sabahı yapıldığını yazar. Başka gün veren kaynak okunmadı. Venedik tarafının anlatısı (Andrea Dandolo'nun biyografisi) okunmadı. Marco Polo'nun esareti bu kaynakta yok, yazılmadı." },
 
-{ id:"venedik-sebep-selanik-1423-1430", tur:"sebep-sonuc",
-  ic_not_erisim:"ERİŞİM KURALI İHLALİ (25.11.2026 denetimi): TDV İslâm Ansiklopedisi bu iş sırasında Cloudflare engeli verdi. Karttaki TDV içeriği engelden sonra web aktarım aracıyla ya da tarayıcıyı andıran User-Agent ile (Mozilla/5.0 research-reader) indirildi. Bu yolla alınan metin kullanılamaz: TDV'ye dayanan ifadeler OKUNAMADI sayılır. Önceki 'ham sayfada doğrulandı' notları geçersiz. Yayın adayı değil; kart silinmedi.",
-  teyit:"teyitsiz", yayin_adayi:false,
-  ic_not_teyit:"[TDV ile ilgili okuma beyanı GEÇERSİZ, bkz. ic_not_erisim] Kiel (TDV, Selânik) ham tam metinden okundu; karta yalnız maddenin kendi anlatısı alındı. Jireček/Bakalopoulos hükmü ile Anagnostos'un fetih anlatımı alınmadı.",
-  baslik:"Venedik'in yedi yıllık Selânik'i: aldığı şehri neden elinde tutamadı?",
-  olay:["1430-03-29|Selânik"],
-  kisa:"Bizans, koruyamadığı Selânik'i Venedik'e bıraktı. Yedi yılın hikâyesinde savaş, açlık ve boşalan evler var.",
-  metin:"1423'te Selânik el değiştirdi. TDV İslâm Ansiklopedisi'ndeki anlatımla, şehri koruyamayan Bizanslılar onu Venedik'e sattı. Osmanlılar buna itiraz etti ve Venedik'e savaş açtı.\n\n" +
-    "■ ARKA PLAN\n" +
-    "Osmanlılar Selânik'i uzun bir ablukanın ardından 1387 baharında almış, fakat şehirde tam bir idarî denetim kurmamıştı. Ankara Savaşı'ndan sonraki dönemde şehir yeniden Bizans'a geçti; 1403'te Emîr Süleyman ile Gelibolu'da yapılan antlaşma uyarınca resmen Bizans yönetimine bırakıldı. I. Mehmed devrinde böyle kaldı. II. Murad tahta çıkınca şehri abluka altına aldı. Satış bu baskının ardından geldi.\n\n" +
-    "■ YEDİ YIL\n" +
-    "Maddeye göre Venedik büyük bir donanma göndermedi, yeterince asker de yollamadı; şehir halkına zorbaca davrandı. Bir zamanların canlı, zengin ve kalabalık tüccar şehrinde açlık ve sefalet hüküm sürdü, halkın çoğu şehri terk etti.\n\n" +
-    "II. Murad, savaşmadan teslim olunursa halka ayrıcalıklı bir statü sağlamayı önerdi. Rum halk bu öneriye olumlu yaklaştı. Venedik yönetimi ise reddetti. Şehirde yaşayanların beklentisi ile şehri yönetenlerin kararı burada ayrışıyordu.\n\n" +
-    "■ 29 MART 1430\n" +
-    "Bir ay süren şiddetli kuşatmanın ardından bizzat II. Murad'ın önderliğindeki Osmanlı birlikleri 29 Mart 1430'da surları aştı. Daha sonra II. Murad ile Sırp Despotu Brankoviç, fidye karşılığında esirleri serbest bıraktı.\n\n" +
-    "■ SONRASI\n" +
-    "II. Murad, Venedik döneminde şehirden ayrılanları geri çağırdı ve eski mallarını iade etti. Yakındaki Osmanlı merkezi Yenice-i Vardar'dan 1000 kadar Türk'ü Selânik'e yerleştirdi. Acheiropoietos Bazilikası, Eskicuma Camii adıyla anılacak bir cuma camisine çevrildi; başka bazı kiliseler mescit yapıldı ya da yapı malzemesi için kullanıldı. 1430'dan kısa süre sonra şehrin Hristiyanlarının elinde en az on beş kilise vardı. Padişah şehir merkezinde büyük bir çifte hamam ile tüccarlar için büyük bir han yaptırdı, 1431'de tepedeki kaleyi de yeniden inşa ettirdi.\n\n" +
-    "■ KAYNAK NE KADARINI SÖYLÜYOR\n" +
-    "Madde Venedik döneminin sıkıntısını az donanma ve asker ile halka kötü davranışla birlikte anlatır. Satışın koşullarını ve Venedik meclislerindeki tartışmaları ise vermez.",
-  kesinlik:"kesin",
-  kaynak:"Machiel Kiel, \"Selânik\", TDV İslâm Ansiklopedisi c. 36 (2009), s. 352-357, https://islamansiklopedisi.org.tr/selanik",
-  ic_not:"29 Mart 1430 kaynakla uyumlu. Devrin 'satış' mı 'devir' mi olduğu için Venedik tarafı kaynağı okunmadı; madde 'sattı' der, bedel vermez. 'Bir ay süren kuşatma' maddenin ifadesidir. Rum halkın teklife olumlu yaklaşımı da maddenin anlatısıdır." },
-
-{ id:"venedik-savas-korfu-1537", ic_not_erisim:"ERİŞİM KURALI İHLALİ (25.11.2026 denetimi): TDV İslâm Ansiklopedisi bu iş sırasında Cloudflare engeli verdi. Karttaki TDV içeriği engelden sonra web aktarım aracıyla ya da tarayıcıyı andıran User-Agent ile (Mozilla/5.0 research-reader) indirildi. Bu yolla alınan metin kullanılamaz: TDV'ye dayanan ifadeler OKUNAMADI sayılır. Önceki 'ham sayfada doğrulandı' notları geçersiz. Yayın adayı değil; kart silinmedi.",
-  teyit:"teyitsiz", yayin_adayi:false,
-  ic_not_teyit:"[TDV ile ilgili okuma beyanı GEÇERSİZ, bkz. ic_not_erisim] TDV Korfu maddesi ham tam metinden okundu; karttaki olgular maddenin kendi anlatısıdır. Maddenin parantez içinde gösterdiği Rûznâme ve Danişmend ayrıca okunmadı; Pîrî Reis ve Evliya Çelebi aktarımları karta alınmadı.",
-  tur:"savas-hikayesi", devlet:"venedik", taraf:["venedik","osmanli"],
-  baslik:"Korfu 1537: kalede gedik açan Osmanlı ordusu neden çekildi?",
-  olay:["1537-08-25|üçüncü savaşın"],
-  kisa:"Karaya asker ve top çıkarılmış, adanın tamamı ele geçirilmiş, surlarda gedikler açılmıştı. Yine de iki hafta dolmadan kuşatma kaldırıldı.",
-  tarih_metin:"25 Ağustos – 6 Eylül 1537",
-  yer:"Korfu Adası, Adriyatik'in girişi",
-  taraflar:[
-    {ad:"Venedik (kaleyi savunan taraf)", komutan:"Okunan kaynakta savunmanın komutanı adıyla anılmıyor"},
-    {ad:"Osmanlı", komutan:"Kanûnî Sultan Süleyman; seferin serdarı üçüncü vezir Lutfi Paşa; donanma kumandanı Barbaros Hayreddin Paşa; ikinci çıkarma Sadrazam Ayas Paşa kumandasında"}
+{
+  "id": "venedik-sebep-selanik-1423-1430",
+  "tur": "sebep-sonuc",
+  "teyit": "teyitli",
+  "yayin_adayi": true,
+  "ic_not_teyit": "Bu turda okunanlar: Melek Delilbaşı'nın Belleten makalesi (Türkçe, tam metin ve dipnotlar); Giuseppe Gullino, 'Le frontiere navali' (İtalyanca) Selânik savaşını anlatan alt bölümü (bölümün tamamı değil). Delilbaşı'nın vakanüvislerden ve kodekslerden aktardığı sayılar, konuşmalar ve belge sözleri karta alınmadı; Senato kararlarının içeriği makalenin kendi anlatısı olarak verildi.",
+  "baslik": "Venedik'in yedi yıllık Selânik'i: aldığı şehri neden elinde tutamadı?",
+  "olay": [
+    "1430-03-29|Selânik"
   ],
-  oncesi:"Korfu 1386'dan beri Venedik'e bağlıydı ve Adriyatik'in girişini denetliyordu.\n\nOsmanlıların adaya yönelik ilk ciddi seferi 1537'de gerçekleşti. Kaynaklarda bu sefer Pulya seferi ve Korfu gazâsı adıyla anılır. Donanma 17 Mayıs 1537'de denize açıldı. Kanûnî'nin başında bulunduğu kara ordusu da İstanbul'dan yola çıktı. İki kuvvet Avlonya'da buluştu.",
-  akis:"■ ÇIKARMA\n25 Ağustos'ta donanma Korfu'ya asker ve top çıkardı. Kanûnî kara ordusuyla adanın karşı kıyısında karargâh kurdu. Ardından Sadrazam Ayas Paşa kumandasında ikinci bir çıkarma yapıldı. Maddenin yazarı İdris Bostan'a göre asker ve mühimmatı taşımak için, adanın kıyıya en yakın yerinde gemiler yan yana bağlanarak muhtemelen bir köprü de kuruldu.\n\n■ KALENİN ÖNÜNDE\nKuşatmaya katılan Osmanlı ordusu 50.000 dolayındaydı ve elli kadar topu vardı. Önce adanın tamamı ele geçirildi, sonra kale kuşatıldı. Surlarda bazı gedikler açıldı, fakat sonuç alınamadı.",
-  sonuc:"Kuşatma 6 Eylül'de kaldırıldı. Osmanlı kuvvetlerinin adadan çekilmesi dokuz gün sürdü.\n\nVenedik, kuşatmanın ardından Korfu Kalesi'ni yeniden güçlendirdi. Ertesi yıl, 1538'de, Preveze'de Osmanlı donanmasının karşısına çıkan müttefik donanma Korfu'yu üs olarak kullandı. Adanın halkı için tablo ağırdı: 1537 kuşatmasından önce 40.000 dolayında olan nüfusun 1588'de 19.000'e düştüğü tespit ediliyor. Kaynak bu iki sayıyı verir; aradaki düşüşün ne kadarının kuşatmadan kaynaklandığını ayrıca söylemez.",
-  tartisma:"■ KAYNAK NE KADARINI SÖYLÜYOR\nGeri çekilme için iki sebep gösteriliyor: elverişsiz hava ve, madde yazarının ifadesiyle belki daha da önemlisi, siyasî nedenler. Bu siyasî nedenlerin neler olduğu maddede açıklanmıyor. Dolayısıyla “kale alınamadığı için çekildiler” demek de “yalnız siyaset yüzünden çekildiler” demek de okunan metnin ötesine geçer.",
-  kesinlik:"tartismali",
-  kaynak:"İdris Bostan, \"Korfu\", TDV İslâm Ansiklopedisi c. 26 (2002), s. 201-202, islamansiklopedisi.org.tr/korfu",
-  ic_not:"Bağlanan maddenin günü (25 Ağustos 1537, çıkarma) TDV ile uyuşuyor. TDV çekilme için 6 Eylül (30 Rebîülevvel) verir. Venedik tarafının anlatısı (savunma komutanı, kayıplar) için ikinci kaynak okunmadı." },
+  "kisa": "Bizans despotu, koruyamadığı Selânik'i Venedik'e bıraktı. Yedi yılın hikâyesinde abluka, açlık, tutulmayan sözler ve reddedilen bir büyük darbe var.",
+  "metin": "1423'te Selânik el değiştirdi. Osmanlı ablukası altındaki şehri savunamayan Despot Andronikos onu Venedik'e bıraktı.\n\n■ ARKA PLAN\nSelânik XIV. yüzyılın sonunda Osmanlıların eline geçmiş, 1403'te Süleyman Çelebi tarafından Bizans'a geri verilmişti. Delilbaşı'na göre Andronikos'un önerisinde şehrin kendi geleneğine göre yönetilmesi, Rum başpiskopos ile din adamlarının görevde kalması ve halkın gitmekte ya da kalmakta serbest olması gibi şartlar vardı. Venedik, Sultan II. Murad'a da bir açıklama yapacaktı: şehri almasalar despot onu başka Hristiyanlara verecekti.\n\nBu bir satış mıydı? Delilbaşı konunun tartışmalı olduğunu belirtir. 1423 tarihli Senato talimatı, temsilcilere despota gelir fazlasından yıllık pay vaat etme yetkisi veriyordu; paranın ödendiğini gösteren bir karar ise bilinmiyor.\n\n■ SAVAŞ\nMurad bu gelişmeyi kendi toprağına tecavüz saydı. Venedik elçisi Nicolò Zorzi tutuklandı ve savaş açıkça ilan edilmeden yedi yıl sürdü. Venedik, Gullino'ya göre, genellikle oyalayıcı bir yol izledi: bir yandan donanmayla Gelibolu'yu baskı altında tuttu, öte yandan haraç önererek barış aradı. 1425'te amiral Fantino Michiel Kassandra, Platamon ve Kavala gibi yerleri ele geçirdi; yine de barış çıkmadı. 1428'de elçi Giacomo Dandolo padişaha gitti; Selânik'in teslimi gündeme gelince tutuklandı ve hapiste öldü.\n\n■ ŞEHRİN İÇİ\nAbluka altındaki şehir aç kaldı; Venedik, Girit ve öteki sömürgelerinden buğday göndermek zorundaydı. Delilbaşı, halkın Venedik yanlıları ile Türk yanlıları diye ikiye ayrıldığını anlatır. Venedikli yöneticiler anlaşmaya uymayınca ve tutumları sertleşince göç arttı, Türk yanlıları güçlendi. 1429'da Venedik'e giden bir heyetin istekleri bu çaresizliği gösterir: halk, isteyenin malını elden çıkarıp gidebilmesini, buğday gönderilmesini, asker takviyesini ve fazla vergilerin önlenmesini istiyordu.\n\n■ 29 MART 1430\nII. Murad 26 Mart'ta ordusuyla şehrin önüne geldi. 28 Mart'ta Venedikliler limandaki gemilerini korumak için surlardaki okçularını geri çekti; halk onların kaçtığını sanınca gece surların çoğu boşaldı. Şehir 29 Mart'ta düştü. Gullino, Venedik'in savunmasının çok zayıf kaldığını, ocak ayında Senato'da önerilen büyük ve pahalı bir darbenin de masrafı yüzünden reddedildiğini yazar. 4 Eylül 1430'da Edirne'de imzalanan barışla Venedik Selânik üzerindeki Osmanlı egemenliğini tanıdı; İnebahtı, İşkodra ve Leş için ise haraç ödeyerek buralardaki tutunuşunu güvenceye aldı.\n\n■ KAYNAK NE KADARINI SÖYLÜYOR\nİki yazar iki farklı pencere açıyor. Gullino Venedik'in temkinli ve masraf hesaplayan savaşını, Delilbaşı ise şehirdeki açlığı ve yönetime duyulan tepkiyi öne çıkarır. Şehrin kaybını tek bir sebebe bağlamak yerine, abluka, iç bölünme ve sınırlı savunmayı birlikte düşünmek gerekir.",
+  "kesinlik": "kesin",
+  "kaynak": "Melek Delilbaşı, \"Selânik'in Venedik İdaresine Geçmesi ve Osmanlı-Venedik Savaşı (1423-1430)\", Belleten 40/160 (1976), s. 573-588, belleten.gov.tr/tam-metin/1431/tur (Türkçe) · Giuseppe Gullino, \"Le frontiere navali\", Storia di Venezia (Treccani, 1996), bölüm 2, treccani.it/enciclopedia/le-frontiere-navali_(Storia-di-Venezia)/ (İtalyanca)",
+  "ic_not": "29.03.1430 iki kaynakla uyumlu. Venediklilerin şehre varışı Delilbaşı'da (Morosini kodeksine göre) 14 Eylül 1423, Gullino'da devralma 24 Eylül 1423; metne yalnız yıl yazıldı. Satış sorunu: Delilbaşı dipnotu bir Bizans kroniğinin bedel kaydını, bunu reddeden ve savunan araştırmacıları sayar; bunlar okunmadı. 1428 elçiliğindeki karşılıklı sözler kronik aktarımı olduğu için alınmadı. Fetih sonrası iskân ve cami dönüşümleri bu iki kaynakta anlatılmadığı için karttan çıkarıldı.",
+  "ic_not_erisim": "ONARIM (26.11.2026): TDV ya da aktarım dayanağı çıkarıldı; kart, engel aşmayan indirme aracıyla yeniden kaynaklandırıldı."
+},
+
+{
+  "id": "venedik-savas-korfu-1537",
+  "teyit": "teyitli",
+  "yayin_adayi": true,
+  "ic_not_teyit": "Bu turda okunanlar: Elvin Otman'ın Bilkent doktora tezinin (2018, İngilizce) özeti ile 3.2.1 ve 3.2.3 alt bölümleri (Korfu'ya giden yol ve kuşatma; tezin tamamı değil); Giuseppe Gullino, 'Le frontiere navali' (İtalyanca) 1537-1538 anlatımı ve ilgili dipnot. Tezin adıyla vakanüvislere atfettiği rakamlar karta alınmadı.",
+  "tur": "savas-hikayesi",
+  "devlet": "venedik",
+  "taraf": [
+    "venedik",
+    "osmanli"
+  ],
+  "baslik": "Korfu 1537: adaya inen büyük Osmanlı kuvveti neden geri döndü?",
+  "olay": [
+    "1537-08-25|üçüncü savaşın"
+  ],
+  "kisa": "Karaya asker ve top çıkarılmış, surların bir kısmı yıkılmıştı. Yine de kısa süre sonra saldırı durduruldu. Üstelik bir araştırmaya göre Korfu seferin ilk hedefi bile değildi.",
+  "tarih_metin": "1537 Ağustos sonu – Eylül (Otman: 25 Ağustos çıkarma, 6 Eylül saldırıların sonu; Gullino: 26 Ağustos varış, 15 Eylül kuşatmanın kaldırılması)",
+  "yer": "Korfu Adası, Adriyatik'in girişi",
+  "taraflar": [
+    {
+      "ad": "Venedik (adayı savunan taraf)",
+      "komutan": "Girolamo Pesaro (denizde başkomutan) · ada savunmasındaki subaylar Luigi da Riva ve Simon Leone"
+    },
+    {
+      "ad": "Osmanlı",
+      "komutan": "Kanûnî Sultan Süleyman; Üçüncü Vezir Lütfi Paşa; Kaptanıderya Barbaros Hayreddin Paşa; Sadrazam Ayas Paşa"
+    }
+  ],
+  "oncesi": "Venedik 1386'dan beri Korfu'ya sahipti. Ada, Dalmaçya'daki Venedik topraklarını ve lagün şehrine gidip gelen deniz yolunu gözetiyordu; bu yüzden iyi tahkim edilmişti.\n\n1537 seferi Fransa ile ortak bir İtalya harekâtı olarak tasarlanmıştı. Donanma mayısta Lütfi Paşa komutasında Avlonya'ya doğru yola çıktı; Barbaros da katıldı. Kanûnî 17 Mayıs'ta kara ordusuyla İstanbul'dan ayrıldı. Ordu ile donanma temmuz ortasında Avlonya'da buluştu ve Lütfi Paşa Habsburg yönetimindeki Apulia'ya saldırmakla görevlendirildi. Fransız ordusu beklenen yerde görünmedi.\n\nBu sırada denizde gerilim yükseldi. Venedik gemileri Osmanlı gemilerine saldırdı; padişahın isteğini ileten Yunus Bey'in gemisi kovalandı ve elçi tutsak düştü. 22 Temmuz'da Andrea Doria bir Osmanlı kadırga grubuna saldırdı. Sultan ve komutanları Venedik'in Habsburglarla gizlice anlaştığı sonucuna vardı. Otman'a göre Korfu 1537 için baştan planlanmış bir hedef değildi; Apulia'daki hayal kırıklığı ile bu saldırılar onu hedefe dönüştürdü.",
+  "akis": "■ ÇIKARMA\n25 Ağustos'ta adaya 25.000 asker ve 30 top geçirildi. Dört gün sonra Ayas Paşa, Mustafa Paşa ve Rumeli beylerbeyi de kuvvetleriyle katıldı. Padişah kara ordusuyla adanın karşısındaki Butrint'e geçti. Gullino ise donanmanın 26 Ağustos'ta Korfu önünde görüldüğünü ve Lütfi Paşa komutasında 25.000 adam çıkardığını yazar.\n\n■ KALENİN ÖNÜNDE\nTeslim çağrısına Korfulular top ateşiyle karşılık verdi. Osmanlı topları surları kısmen yıktı. Köyler, evler ve çarşı yakıldı; halk tahkimli kalelere sığındı, sığınamayanlar akıncıların eline düştü. Savunmadaki Venedik subayları uzun bir direnişe erzak ve cephanenin yetmeyeceğinden kaygılıydı. Venedik Senatosu papadan ve Doria'dan yardım istedi; Doria ise olası bir Fransız saldırısına karşı Cenova'ya yelken açtı. Gullino iki Osmanlı saldırısının püskürtüldüğünü, adanın tahkimatının da kısa süre önce güçlendirildiğini belirtir.",
+  "sonuc": "Otman'a göre padişah, savaş mevsiminin sona erdiğini, şiddetli yağmurların ve salgın hastalıkların askere zarar vermeye başladığını gerekçe göstererek harekâtı bitirdi. Lütfi Paşa ile Barbaros fethin tamamlanmak üzere olduğunu söyleyip onu vazgeçirmeye çalıştı. Saldırılar 6 Eylül'de durdu; adadaki bütün kuvvetler dokuz gün içinde boşaltıldı. Gullino kuşatmanın 15 Eylül'de ansızın kaldırıldığını yazar. Venedik'te haber coşkuyla kutlandı. Ertesi yıl müttefik Hristiyan donanması Korfu'da toplandı.",
+  "tartisma": "■ KAYNAK NE KADARINI SÖYLÜYOR\nÇekilmenin nedenine iki yazar farklı yerden bakıyor. Otman mevsimi, yağmuru ve hastalığı gerekçe olarak aktarıyor. Gullino ise ihtiyat payıyla, Fransızlarla işbirliğinin güçleşmeye başlamasını olası neden olarak anıyor. İki tarih de birbirini dışlamak zorunda değil: saldırıların durması ile adanın tümüyle boşaltılması ayrı günlerdir; Otman'ın dokuz günlük boşaltması Gullino'nun gününe uzanır.",
+  "kesinlik": "tartismali",
+  "kaynak": "Elvin Otman, The Crescent, the Lion and the Eagle: Re-analyzing the Ottoman Apulian Campaign and Attack on Corfu (1537) in the Context of Ottoman-Habsburg Rivalry, doktora tezi, İhsan Doğramacı Bilkent Üniversitesi (2018), s. 103-121, repository.bilkent.edu.tr/items/da153a1c-ddf5-4e47-b388-845b5c609a87 (İngilizce) · Giuseppe Gullino, \"Le frontiere navali\", Storia di Venezia (Treccani, 1996), bölüm 8, treccani.it/enciclopedia/le-frontiere-navali_(Storia-di-Venezia)/ (İtalyanca)",
+  "ic_not": "Kronoloji maddesi 1537-08-25 Otman'ın çıkarma günüyle uyumlu; Gullino 26 Ağustos verir. '6 Eylül + dokuz gün = 15 Eylül' bağlantısı bu kartın hesabıdır, iki yazar birbirine gönderme yapmaz. Otman 25.000 asker/30 top için dipnotta Danişmend ve bir ansiklopedi maddesini, bitiş günü için Feridun Bey münşeatındaki sefer günlüğünü gösterir (bunlar ayrıca okunmadı; tezin kendi anlatısı olarak alındı). Korfu halkının tutsak sayısı vakanüvis aktarımı olduğu için, nüfus düşüşü sayıları Braudel aktarımı olduğu için yazılmadı. Korpás (Tarih Dergisi 76) kuşatmayı 'ağustos sonunda, yaklaşık üç hafta' diye anlatır.",
+  "ic_not_erisim": "ONARIM (26.11.2026): TDV ya da aktarım dayanağı çıkarıldı; kart, engel aşmayan indirme aracıyla yeniden kaynaklandırıldı."
+},
 
 { id:"venedik-mimari-doge-sarayi-1577", teyit:"teyitli", yayin_adayi:true,
   ic_not_teyit:"Üç DBI maddesi (Beltramini, Petrecca, Maggio) tam okundu; karta yalnız maddelerin kendi anlatısı alındı. Temanza-Zorzi tartışması, Da Ponte'nin dilekçesi ve Chatsworth çizimi atfı aktarım olacağı için çıkarıldı.",
