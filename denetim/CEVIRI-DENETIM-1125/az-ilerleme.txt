@@ -18,5 +18,13 @@ Bakilan kayit: yalnız olay turu (paket basi ~12-26 kayit; kayit sayisi ayrica s
 Tamamen okunan: 4_olay_057-091 (35 paket; araligin tamami)
 Bakilan kayit: yalniz olay turu (paket basi ~6-45 kayit; kayit sayisi ayrica sayilmadi)
 
+== ilerleme_c.txt
+Tamamen okunan paketler (ETIKET c): 4_olay_092 - 4_olay_134 (43/43, aralik tamam)
+Bakilan tur: olay (araliktaki butun kayitlar).
+Duzeltme dosyalari: duzeltme_c_001.jsonl - duzeltme_c_018.jsonl
+Kalan paket: yok
+
 == ilerleme_d.txt
-Tamamen okunan: 4_olay_135-159
+Tamamen okunan: 4_olay_135-176 (42 paket; araligin tamami)
+Bakilan kayit: yalniz olay turu (kayit sayisi ayrica sayilmadi)
+Duzeltme dosyalari: duzeltme_d_001 .. duzeltme_d_012

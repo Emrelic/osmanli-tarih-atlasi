@@ -873,11 +873,11 @@ window.CEVIRI_DIZIN = {
    ],
    [
     "ceviri_az_olay_01.js",
-    "521bca2b"
+    "03d20e97"
    ],
    [
     "ceviri_az_olay_02.js",
-    "edbd791b"
+    "1367fb8f"
    ],
    [
     "ceviri_az_olay_03.js",
@@ -885,15 +885,15 @@ window.CEVIRI_DIZIN = {
    ],
    [
     "ceviri_az_olay_04.js",
-    "e46e6883"
+    "a50d673d"
    ],
    [
     "ceviri_az_olay_05.js",
-    "f47f20bf"
+    "2cbe1ec7"
    ],
    [
     "ceviri_az_olay_06.js",
-    "85b8cb8e"
+    "55ee1dd0"
    ]
   ],
   "bg": [

@@ -671,3 +671,151 @@
 - olay | OLAYLAR_AVMAC_C_1029:1919-08-04:0 | b: Türkçe ad kalıntısı
 - olay | OLAYLAR_AVMAC_C_1029:1919-11-16:0 | b: Türkçe ad kalıntısı
 - olay | OLAYLAR_AVMAC_C_1029:1921-10-13:0 | b: yer adı yazımı: Sopron
+- arayuz | " ayarlarını açar/kapatır. | m: 'açar' yanlış zaman/anahtar; açır olmalı
+- arayuz | " ayarlarını açar/kapatır. | m: 'ayarlar' Türkçe kalıntısı (duzeltme_001'deki satırın yerine geçer)
+- olay | OLAYLAR_EK17:1731-01-01:0 | d: İmla (hazire)
+- olay | OLAYLAR_ILIRYA0072:1806-01-01:0 | d: Türkçe yer adı biçimi
+- olay | OLAYLAR_EK10:1595-10-01:0 | d: Türkçe kalıntısı; antlaşma adı
+- olay | OLAYLAR_EK13:1362-03-01:0 | d: 'yaka', 'uc' Türkçe kalıntısı
+- olay | OLAYLAR_EK14:1362-06-01:0 | d: Gereksiz tire
+- olay | OLAYLAR_ILIRYA0072:1806-01-01:0 | d: 'ayrım' (fark) 'ayrılıq' olmuş
+- olay | OLAYLAR_EK10:1595-10-01:0 | d: Ünlü uyumu
+- olay | OLAYLAR_EK13:1362-03-01:0 | d: Türkçe kalıntısı 'yaka'
+- olay | OLAYLAR_EK14:1362-06-01:0 | d: Yazım hatası ve Türkçe ek
+- olay | OLAYLAR_EK17:1731-01-01:0 | d: Türkçe kalıntısı/yazım hatası ('giriştiyi', 'gətirdilən')
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1266-02-26:0 | b: özel ad (Şarl; İngilizce biçim)
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1266-02-26:0 | d: özel ad (Şarl)
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1268-01-01:0 | d: ünlü uyumu (qraflıq)
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1054-11-05:0 | b: özel ad yazımı (Üqeyli)
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1054-11-05:0 | d: özel ad yazımı (Üqeyli)
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1085-06-20:0 | d: özel ad yazımı (Üqeyli)
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1073-01-01:0 | d: yer adı: Malazgirt
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1085-04-29:0 | d: yer adı: Malazgirt
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1076-01-01:0 | b: yanlış hal eki
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1076-01-01:0 | d: yanlış hal eki
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1097-01-01:0 | b: yazım (Danişməndli)
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1097-01-01:0 | d: yazım (Danişməndli)
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1100-07-01:0 | d: yazım (Danişməndli)
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1104-01-01:0 | b: yazım (Danişməndli)
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1104-01-01:0 | d: yazım (Danişməndli)
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1104-05-07:0 | b: hal eki hatası (Boduen dü Burq)
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1104-05-07:0 | d: hal eki hatası (yalın hal)
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1119-01-01:0 | b: ünlü uyumu
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1119-01-01:0 | d: ünlü uyumu
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1124-01-01:0 | b: yazım (Danişməndli)
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1124-01-01:0 | d: yazım (Danişməndli)
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1129-01-01:0 | b: yazım (Danişməndli)
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1129-01-01:0 | d: yazım (Danişməndli)
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1129-01-01:1 | b: yazım (Danişməndli)
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1129-01-01:1 | d: yazım (Danişməndli)
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1142-01-01:0 | b: yazım (Danişməndli)
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1142-01-01:0 | d: yazım (Danişməndli)
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1142-01-01:1 | b: yazım (Danişməndli)
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1142-01-01:2 | b: yazım (Danişməndli)
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1142-01-01:2 | d: yazım (Danişməndli)
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1143-06-17:0 | d: yazım (Danişməndli)
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1143-12-06:0 | b: yazım (Danişməndli)
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1143-12-06:0 | d: yazım (Danişməndli)
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1155-01-01:0 | b: yazım (Danişməndli)
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1155-01-01:0 | d: yazım (Danişməndli)
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1164-08-04:0 | b: yazım (Danişməndli)
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1165-01-01:0 | b: yazım (Danişməndli)
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1172-01-01:0 | b: iyelik eki eksik; yazım (Danişməndli)
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1172-01-01:0 | d: yazım (Danişməndli)
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1175-01-01:0 | b: yazım (Danişməndli)
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1175-01-01:0 | d: yazım (Danişməndli)
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1175-01-01:1 | b: yazım (Danişməndli)
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1175-01-01:1 | d: yazım (Danişməndli)
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1193-05-18:0 | d: özne kaybolmuş (bozuk cümle)
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1199-01-06:0 | b: yanlış fiil
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1204-08-29:0 | b: yer adı yazımı
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1204-08-29:0 | d: yer adı yazımı
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1255-01-01:0 | d: yazım ve eksik dönüşlülük (özünü)
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1269-01-01:0 | d: bozuk cümle yapısı
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1050-01-01:0 | b: ünlü uyumu hatası
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1050-01-01:0 | d: ünlü uyumu hatası
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1076-01-01:0 | b: ünlü uyumu hatası
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1076-01-01:0 | d: ünlü uyumu hatası
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1088-01-01:0 | b: belirtme hali eksik
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1088-01-01:0 | d: belirtme hali eksik
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1215-01-01:0 | b: özel ad yazımı (Məhəmməd)
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1215-01-01:0 | d: özel ad yazımı (Məhəmməd)
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1227-01-01:0 | b: ünlü uyumu hatası
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1227-01-01:0 | d: ünlü uyumu hatası
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1229-01-01:0 | d: yazım hatası
+- olay | OLAYLAR_ORTACAG_BOZKIR:0922-05-12:0 | d: özel ad (Şilkey)
+- olay | OLAYLAR_ORTACAG_BOZKIR:1221-01-01:0 | d: ünlü uyumu
+- olay | OLAYLAR_ORTACAG_BOZKIR:1221-01-01:1 | b: ünlü uyumu
+- olay | OLAYLAR_ORTACAG_BOZKIR:1221-01-01:1 | d: özel ad (Kübra)
+- olay | OLAYLAR_ORTACAG_CIN:0581-03-04:0 | d: ünlü uyumu
+- olay | OLAYLAR_ORTACAG_CIN:0755-12-16:0 | d: bitişik yazım
+- olay | OLAYLAR_ORTACAG_CIN:0756-02-05:0 | b: eksik nesne (özünü)
+- olay | OLAYLAR_ORTACAG_CIN:0763-11-18:0 | b: özel ad yazımı
+- olay | OLAYLAR_ORTACAG_CIN:0907-06-01:1 | d: ünlü uyumu
+- olay | OLAYLAR_ORTACAG_CIN:1129-02-23:0 | b: ünlü uyumu
+- olay | OLAYLAR_ORTACAG_CIN:1129-02-23:0 | d: ünlü uyumu
+- olay | OLAYLAR_ORTACAG_YER_SONRASI:1135-01-01:0 | d: prens = knyaz (şahzadə değil)
+- olay | OLAYLAR_ANTIK_MISIR_NUBYA:-0020-01-01:0 | d: yazım hatası
+- olay | OLAYLAR_ANTIK_MISIR_NUBYA:-0321-01-01:0 | d: geçişsiz fiil hatası
+- olay | OLAYLAR_ANTIK_MISIR_NUBYA:-0608-01-01:0 | d: hatalı devlet adı biçimi
+- olay | OLAYLAR_ANTIK_MISIR_NUBYA:-0663-01-01:0 | d: hatalı devlet adı biçimi
+- olay | OLAYLAR_ANTIK_MISIR_NUBYA:-0663-01-01:1 | d: hatalı devlet adı ve fiil
+- olay | OLAYLAR_ANTIK_MISIR_NUBYA:-0670-01-01:0 | d: hatalı devlet adı biçimi
+- olay | OLAYLAR_ANTIK_MISIR_NUBYA:-0700-01-01:0 | d: hatalı devlet adı biçimi
+- olay | OLAYLAR_ANTIK_MISIR_NUBYA:-0749-01-01:0 | d: bozuk fiil biçimi
+- olay | OLAYLAR_ANTIK_MISIR_NUBYA:-1549-01-01:0 | d: geçişsiz fiil hatası
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0683-08-27:0 | b: ünlü uyumu hatası
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1481-12-11:0 | d: yazım: qraflıq
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1481-12-11:2 | d: yazım: qraflıq
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1481-12-11:3 | d: yazım: qraflıq
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1388-09-28:0 | d: yazım: qraflıq
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1284-01-01:0 | b: yazım: qraflıq
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1284-01-01:0 | d: yazım: qraflıq
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1305-01-01:0 | d: yazım: qraflıq
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1317-01-09:0 | b: bozuk ifade: taç giydi
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1317-01-09:0 | d: anlam ve bozuk cümle
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1328-05-29:0 | b: bozuk ifade: taç giydi
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1328-05-29:0 | d: bozuk cümle: anlam değişmişti
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1420-12-01:0 | d: imla: ay adları küçük harf
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1477-01-01:0 | b: dilbilgisi: belirtme eki eksik
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1805-06-04:0 | d: Türkçe kalıntısı: ilhak → ilhaq
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1318-07-25:0 | d: yazım: ünlü uyumu
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1808-04-02:0 | d: yer adı: Saint-Cloud
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0277-01-01:0 | d: Türkçe alıntı çevrilmemiş
+- olay | OLAYLAR_OK104:1284-01-01:0 | d: Türkçe alıntı çevrilmemiş
+- olay | OLAYLAR_OK104:1344-01-01:0 | d: Türkçe alıntı çevrilmemiş
+- olay | OLAYLAR_P0036:1463-01-01:0 | d: dilbilgisi: Gelibolu ve Bolayır valisi
+- olay | OLAYLAR_P0036:1566-09-01:0 | d: dilbilgisi: belirtme eki
+- olay | OLAYLAR_P0057B:1756-12-22:0 | d: yinelenen sözcük
+- olay | OLAYLAR_P0917KOSU13:1588-09-01:0 | d: anlam: Merend'e kadar genişletti
+- olay | OLAYLAR_P0917DUNYA:1916-04-18:0 | d: yazım: ünlü uyumu (Türkçe ek)
+- olay | OLAYLAR_AVMAC_C_1029:1945-04-13:0 | d: yazım: ünlü uyumu
+- olay | OLAYLAR_P0917DUNYA:1916-07-16:0 | d: yazım: Gümüşxanəni
+- olay | OLAYLAR_P0917DUNYA:1918-04-28:0 | b: dilbilgisi: yönelme eki
+- olay | OLAYLAR_P0917DUNYA:1918-04-28:0 | d: dilbilgisi: yönelme eki
+- olay | OLAYLAR_P0068B:1788-08-01:0 | b: yazım: İlan (yılan)
+- olay | OLAYLAR_P0068B:1788-08-01:0 | d: yazım: İlan
+- olay | OLAYLAR_P0068B:1790-09-06:0 | d: anlam: önünü açtı
+- olay | OLAYLAR_0073_IRAN_YANYA:1822-02-14:0 | d: anlam tersi: yok sayıp (saya salmaq = dikkate almak)
+- olay | OLAYLAR_DUNYA_BOLGE_1109:1907-08-31:0 | d: anlam tersi: hiçe sayıldığı
+- olay | OLAYLAR_KAMERIKA:1851-09-17:0 | d: halk adı yanlış: Karga (Crow)
+- olay | OLAYLAR_DUNYA_BOLGE_1109:1519-06-28:0 | b: ad biçimi: V Karl
+- olay | OLAYLAR_DUNYA_BOLGE_1109:1519-06-28:0 | d: bozuk ek: 'Karl Vi' VI gibi okunuyor
+- olay | OLAYLAR_DUNYA_BOLGE_1109:1556-01-16:0 | b: bozuk ek
+- olay | OLAYLAR_DUNYA_BOLGE_1109:1556-01-16:0 | d: ad biçimi: V Karl
+- olay | OLAYLAR_DUNYA_BOLGE_1109:1709-07-08:0 | d: yazım hatası
+- olay | OLAYLAR_GEZGINLER:0400-01-01:0 | d: yer adı: Karaşahr
+- olay | OLAYLAR_GEZGINLER:0403-01-01:0 | d: nehir adı: İnd
+- olay | OLAYLAR_GEZGINLER:1349-11-13:0 | b: yer adı: Fas ülkesi = Mərakeş, Fez = Fəs
+- olay | OLAYLAR_GEZGINLER:1349-11-13:0 | d: yer adı: Mərakeş, Fəs
+- olay | OLAYLAR_GEZGINLER:1492-08-03:0 | d: anlam: bar (kum seti), körfez değil
+- olay | OLAYLAR_GEZGINLER:1493-03-15:0 | d: anlam: bar (kum seti)
+- olay | OLAYLAR_GEZGINLER:1498-05-20:0 | d: yazım: ünlü uyumu
+- olay | OLAYLAR_GEZGINLER:1500-04-26:0 | d: anlam: Paskalya Pazarı (gün)
+- olay | OLAYLAR_GEZGINLER:1503-07-07:0 | b: anlam: mahsur kalmak (kuşatma değil)
+- olay | OLAYLAR_GEZGINLER:1520-10-21:0 | d: yanlış sayı: Onbir Bin Bakire
+- olay | OLAYLAR_GEZGINLER:1770-04-29:0 | d: yazım: ünlü uyumu
+- olay | OLAYLAR_GEZGINLER:1770-06-11:0 | d: yer adı: Büyük Set Resifi
+- olay | OLAYLAR_GEZGINLER:1775-07-29:0 | d: dilbilgisi: yönelme eki
+- olay | OLAYLAR_GEZGINLER:1828-07-23:0 | b: yer adı: Fez = Fəs
+- olay | OLAYLAR_GEZGINLER:1828-07-23:0 | d: Türkçe biçim kalıntısı: Fas (şehir) = Fəs
