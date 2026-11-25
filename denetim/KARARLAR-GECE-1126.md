@@ -43,7 +43,18 @@ K9. Yeni 10 dilin veri dalları kapıya alınmaz: tamamlanma, bağımsız kayma 
 K10. Kaynaksız hiçbir tarih/olgu değiştirilmez; olası Türkçe olgu hataları borçta kalır.
 K11. İran kartlarının üslubu Emre onaylı (UMIT'e doğrudan); kaynak ölçütü aynen.
 K12. Eksik portre araştırması sonraya.
+K13. TDV ve her kaynakta: 403 ya da engel alınınca User-Agent değiştirilmez, başka araçla denenmez;
+    "okunamadı" yazılır. Alt ajan talimatlarında 'tarih-atlasi/1.0 (akademik kullanim)' gibi, engeli
+    aşmak için konmuş bir User-Agent satırı varsa çıkarılır.
 Bu listede olmayan sorular koordinatöre gelir.
+
+## BORÇ (henüz BORC-DEFTERI.md'ye taşınmadı)
+- #193-196 oturumunun beyanı: 24.11'de TDV 'Mozilla/5.0' User-Agent'lı isteğe 403 verdi; User-Agent
+  değiştirilince 200 alındı ve bu satır alt ajan talimatlarına yazıldı (24-26.11, 25.11 yasağından
+  sonra da; #193, #194 ve 57 maddelik tur). Bu yolla okunan TDV dayanakları main'de. K8 uygulanır:
+  silinmez, "yeniden doğrulanacak". Hangi kayıtlar olduğu ayrıca listelenmedi. Aynı oturumun öteki
+  8 açık borcu kendi raporunda (B-POSTIT-195, B-KAYNAK-1124/1124b/1124c, B-194-GUN, B-194-ZINCIR,
+  B-194-ZAYIF, B-194-B27).
 
 ## Yetkinin dışında, Emre'de kalanlar
 Parola/anahtar/token yenileme · GitHub faturalama ve Pages ayarı (yalnız-site yayını) · Meta Publish,
