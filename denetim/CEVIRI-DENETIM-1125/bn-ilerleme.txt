@@ -1,0 +1,43 @@
+== ilerleme.txt
+Tamamen okunan paketler:
+- 1_arayuz_001-012 (12/12, arayüzün tamamı)
+- 2_devlet_001-015 (15/15, devlet adlarının tamamı)
+- 3_bayrakli_001-005 (5/19; üst sınır 15)
+- 4_olay_001-003 (3/273)
+Bakılan kayıt (yaklaşık; betikle sayılmadı): arayüz ve devlet türlerinde okunan paketlerin tamamı; olay: 3_bayrakli_001-005 ile 4_olay_001-003 içindeki kayıtlar.
+Okunmayan: 3_bayrakli_006-019, 4_olay_004-273.
+
+== ilerleme_a.txt
+Tamamen okunan: 4_olay_004 - 4_olay_033 (30/30 paket)
+Bakilan kayit: olay ~550
+Okunmayan: yok (aralik tamam)
+
+== ilerleme_b.txt
+Tamamen okunan paketler (b turu): 4_olay_034 - 4_olay_063 (30/30)
+Bakılan: yalnız olay türü; kayıt sayısı betikle sayılmadı.
+Düzeltme dosyaları: duzeltme_b_001 - 009
+Okunmayan (aralık içinde): yok
+
+== ilerleme_c.txt
+Okunan paketler: 4_olay_064 - 4_olay_098 (tam, aralik tamamlandi)
+
+== ilerleme_d.txt
+Tamamen okunan paketler (d turu): 4_olay_099 - 4_olay_133 (35/35)
+Okunmayan (aralık içinde): yok
+Düzeltme dosyaları: duzeltme_d_001 - 012
+Bakılan: yalnız olay türü; kayıt sayısı betikle sayılmadı.
+
+== ilerleme_e.txt
+Tamamen okunan: 4_olay_134 - 4_olay_168 (35/35, aralık tamam)
+
+== ilerleme_f.txt
+Okunan (tam): 4_olay_169 - 4_olay_203 (35/35 paket). Aralık bitti.
+Düzeltme dosyaları: duzeltme_f_001 - 006. Sistematik Latin harfli ad sorunu düzeltilmedi: bkz. notlar_f.md.
+
+== ilerleme_g.txt
+Okunan (tam): 4_olay_204 - 4_olay_238 (35/35 paket; yaklaşık 700 olay kaydı)
+
+== ilerleme_h.txt
+Tamamen okunan: 4_olay_239 - 4_olay_273 (35/35 paket; aralık tamam)
+Düzeltme dosyaları: duzeltme_h_001 - 007
+Sistematik Latin harfli ad sorunu düzeltilmedi: bkz. notlar_h.md
