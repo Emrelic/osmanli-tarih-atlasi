@@ -60,3 +60,37 @@
 - olay OLAYLAR_EK20:1768-05-15:0 ve EK16:1315 benzeri: "(TDV Korsika; gün teyitsiz)" iç not
 - olay OLAYLAR_EK22:1923-07-24:0: TBMM onayı metinde 23 Ağustos 1923, sonda "2 Ağustos 1923" (23 Ağustos doğru görünüyor); "madde kanıtı yok", "özetlerinde geçmiyor" gibi iç not
 - olay OLAYLAR_2S_0918:1569-07-01:0: Lublin listesinde Białystok (Ukrayna toprağı değil) şüpheli
+
+== tr_hatalari_c.md
+- olay OLAYLAR_SENUSI_0919:1691-01-01:0: kullanıcıya görünen iç not ("Eski kayıtta ... beyanlı boşluktu; ... artık Habsburg olarak boyanır").
+- olay OLAYLAR_SENUSI_0919:1716-10-18:0: iç not ("Eski kayıt devri yıl tabanı olan 1 Ocak 1716'ya koyuyordu").
+- olay OLAYLAR_SENUSI_0919:1717-01-01:0: iç not (petek boyama anlatımı).
+- olay OLAYLAR_SENUSI_0919:1688-01-01:0: iç not ("yıl tabanı kullanılmıştır").
+- olay OLAYLAR_2S0920:1942-01-01:0: "(bkz. ic_not)" kullanıcıya görünüyor.
+- olay OLAYLAR_2S0920:1941-05-05:0: iç not ("Atlas bu günü ... dönüş sınırı olarak kullanır").
+- olay OLAYLAR_P0048:1592-01-01:0: iç not ("Haritada bu maddeyle sahip değişikliği yoktur ...").
+- olay OLAYLAR_P0049:1724-05-06:0: iç not ("zincir Hoy'dan devralındı ... beyanlı yaklaşıklık").
+- olay OLAYLAR_ARKEOLOJI_D3_ITALYA_AVRUPA:-0751-01-01:0: iç not ("Varro'nun 753'ü bu oturumda KAYNAKTAN okunmadı").
+- olay OLAYLAR_ARKEOLOJI_D2_IRAN_ORTA_ASYA:-3199-01-01:0: iç not ("Brifteki 'MO ~3100' ...").
+- olay OLAYLAR_ARKEOLOJI_D3_*: birçok TR metni Türkçe harfsiz (ASCII) yazılmış ("kulturu", "iskan", "yerlesme"); ayrıca D3_ANADOLU_EGE:-1199 / -1206 metinlerinde İngilizce/büyük harfli not dili ("3. dalga okuma notu", "SONRA", "YOK", 'around or shortly after 1200').
+- olay OLAYLAR_ARKEOLOJI_ZINCIR:* (sahiplik geçişi kayıtları): bozuk ek ("Cumhuriyeti'dan", "aralık'ya", "Krallığı'ya"), ham kaynak dökümü, URL ve Türkçe harfsiz metin kullanıcıya görünüyor.
+- olay OLAYLAR_ARKEOLOJI_ZINCIR:-0026-01-01:0: başlık Cumhuriyet→boşluk (-26) ama kaynak bilgisi 395 / 476 olaylarını anlatıyor; 0395-01-01 kaydında da 476 anlatımı (uyuşmazlık).
+- olay OLAYLAR_ARKEOLOJI_ZINCIR:-0310-01-01:0: TR'de "Livius.org yeni okuma ve dipnotlari" ham not.
+- olay OLAYLAR_ARKEOLOJI_ZINCIR:-0309-01-01:0: iç not ("künye t uzatıldı").
+- olay OLAYLAR_ARKEOLOJI_ZINCIR:-0329-01-01:0: başlıkta iç kod "(ANTIK-ISKENDER-1113-B)"; başlık Ahameniş→İskender, metin Ahameniş→sahipsiz; kaynak MÖ 550 olayını anlatıyor.
+- olay OLAYLAR_ARKEOLOJI_ZINCIR:-1099-01-01:0, -1899, -2003, -2023, -2024, -0910, -1464, -1731, 0036: verilen kaynak geçişi başlıktaki geçişi/tarihi anlatmıyor (ör. 0036 Chengjia sonu için Liu Bei 214 metni).
+- olay OLAYLAR_ARKEOLOJI_ZINCIR:-1209-01-01:0: "KAYNAKLANMADI (bu oturumda kaynak yok)" iç notu.
+- olay OLAYLAR_ARKEOLOJI_ZINCIR:0027-01-01:0, 0263-01-01:0, 0400-01-01:0: iç not ("bu turda okunmadı", "künye t=0027").
+- olay OLAYLAR_ARKEOLOJI_ZINCIR:-2299-01-01:0: İngilizce alıntı yarıda kesik.
+- olay OLAYLAR_ARKEOLOJI_PILOT:-7099-01-01:0: "geriye (daha geç)" çelişkili ifade.
+- olay OLAYLAR_ARKEOLOJI_D2_AFRIKA_AMERIKA:-0374-01-01:0: yanma tarih aralıkları ("100 MO-MS 140", "165 MO-MS 155") başlık yılıyla tutarsız görünüyor.
+- olay OLAYLAR_OK109:1918-12-01:0: "26 Ekim'de Podgorica" meclisi tarihi şüpheli (Podgorica Meclisi 26 Kasım 1918); kaynaktan teyit edilmeli.
+- olay OLAYLAR_T5_1000A:1096-01-01:0, 1233-01-01:1: iç not ("atlas künyeye uyarak ...").
+- olay OLAYLAR_T5_1000A:1199-01-06:0: iç not ("TDV'de BULUNAMADI ... künyeden devralındı").
+- olay OLAYLAR_T5_1000A:1225-01-01:0: "(bölge cümlesi)" iç notu.
+- olay OLAYLAR_T5_1000A:1231-01-01:1, 1256-01-01:0: "Emre kararı", "kural 5 sınırı", "notta" iç notları (kişi adı kullanıcıya görünüyor).
+- olay OLAYLAR_T5_1000B:1171-09-13:0: "Emre #23 metbû modeli" ve künye notu.
+- olay OLAYLAR_T5_1000B:1250-04-30:0, 1261-06-09:0, 1261-07-25:0: iç not ("fark bildirildi", "alt sınır", "Atlas bu noktalarda ...").
+- olay OLAYLAR_KURULUS_GERI_1021:0945-12-19:0, 0661-07-29:0/1, 0750-08-05:0, 0972-10-02:0, 1085-05-25:0: iç not ("gün komşudan alındı", "kayıtta ayrı yazılmadı", "künye f'sinden", "kuyruk kronolojide ...").
+- olay OLAYLAR_ORTACAG_ORTADOGU:0680-01-01:0 ve 0680-10-10:0: başlık alanı açıklamanın tamamı (b = d).
+- olay OLAYLAR_T5_1000A:* "(atlas bu tarihten önceyi boş bırakır)" kalıbı iç not niteliğinde.

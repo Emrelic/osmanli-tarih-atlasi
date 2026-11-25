@@ -24,3 +24,10 @@
 - OLAYLAR_EK14:1864-06-01:0: ihtiyar meclisi "مجلس الشيوخ" (senato ile karışabilir; "هيئة الاختيارية" düşünülebilir).
 - OLAYLAR_EK14:1718-01-01:0: Lale Devri "عصر التوليب" (alternatif "عهد الخزامى"); dokunulmadı.
 - Aynı yer adının farklı yazımları (شورغل/شوريغل, أشكالة/أشقلة, هيكس/هكس) bırakıldı.
+
+== notlar_c.md
+- Ay adları stili karışık (bazı kayıtlar "تموز", bazıları "يوليو", bazıları "تموز/يوليو"); hata sayılmadı, toplu birleştirme istenirse ayrı iş.
+- Bazı kayıtlarda özel adın yanında Latin/Türkçe parantez açıklaması var (Niksar, Niğde, Kemah, Mengücüklüler / Mengücekoğulları, İnaloğulları, Eğri, Ahıska vb.); düzeltilmedi.
+- "طريق/نقاط" kalıbı: ZINCIR kayıtlarında "في نقاط ..." (noktalarında) motor dili; TR'den geliyor.
+- OLAYLAR_ARKEOLOJI_ZINCIR -0120 ve 0439: Zhangye için "غانزهو", diğer kayıtlarda "غانتشو" (tutarsız, küçük).
+- Yinxu için "يينشو" / "ينشيو" iki yazım.

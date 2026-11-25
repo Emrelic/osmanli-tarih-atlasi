@@ -13,8 +13,8 @@ Tamamen okunan: 4_olay_051 - 4_olay_080 (aralik tamam)
 Bakilan olay kaydi: yaklasik 640
 
 == ilerleme_c.txt
-Tamamen okunan: 4_olay_081 - 4_olay_095
-Düzeltme dosyaları: duzeltme_c_001.jsonl
+Tamamen okunan: 4_olay_081 - 4_olay_115 (aralığın tamamı)
+Düzeltme dosyaları: duzeltme_c_001..006.jsonl
 
 == ilerleme_d.txt
-Tamamen okunan: 4_olay_116 - 4_olay_120 (5 paket)
+Tamamen okunan: 4_olay_116 - 4_olay_144 (29 paket)
