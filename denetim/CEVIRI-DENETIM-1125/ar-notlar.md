@@ -37,3 +37,20 @@
 - Hâlâ Farsça harfli olabilecek yazımlar yalnız görülen kayıtlarda düzeltildi (پ, چ). Aralık dışındaki kayıtlarda محمد تاپار / أرپاد geçebilir; toplu tarama önerilir.
 - Bazı kayıtlarda TR'deki iç notlar ("وفي الأطلس تُسجَّل ...", TDV parantezleri, 1115-07-24 JSON) Arapçaya aynen geçmiş; TR düzelince Arapça da güncellenmeli.
 - 1005 / 1212 vb. başlıklarda üslup pürüzleri dışında zevk değişikliği yapılmadı.
+
+== notlar_e.md
+Duzeltilmeyen, emin olunmayan / zevk siniri:
+- Ay adlari paketler arasi karisik (يناير ile كانون الثاني sistemi).
+- OLAYLAR_ORTACAG_DOGU_GUNEYDOGU_ASYA:1009-01-01:0 b: Le ve Ly hanedanlari ikisi de "لي"; ayirt edilemiyor.
+- OLAYLAR_ANTIK_MISIR_NUBYA:-0033-01-01:0 b: "تبرعات الإسكندرية" (yerlesik: "هبات الإسكندرية").
+- "حرب بونيقية ..." belirlilik hatasi yalniz kendi araligimda duzeltildi; baska paketlerde de olabilir, toplu taranmali.
+- OLAYLAR_ORTACAG_DOGU_GUNEYDOGU_ASYA:0929 b: "ماداغ (ميدانغ)".
+
+== notlar_f.md
+Aralık 4_olay_178-204. Düzeltilmeyen, koordinatöre bırakılan sistematik konular:
+- "denetim/kontrol" birçok kayıtta "الرقابة" (gözetim/sansür) diye çevrilmiş; doğrusu "السيطرة". Özellikle OLAYLAR_KI117, AVMAC, FRANSA_KONTROL, NAPOLYON_ITALYA gruplarında. Yalnız başka nedenle düzelttiğim kayıtlarda değiştirdim; toplu, bağlam kontrollü değiştirme önerilir ("لجنة الرقابة الحليفة" gibi doğru kullanımlar korunmalı).
+- "elden çıkan diğer yerleşimler" = "المواقع الأخرى التي خرجت من اليد": birebir çeviri; "التي تغيّرت تبعيتها" daha doğru olurdu.
+- Phokaialılar (Foça) "الفوكيون" diye yazılmış; aynı sözcük Phokisliler için de kullanılıyor. "الفوكايون" önerilir; devlet paketindeki ad (ألاليا) ve 4_olay_168 ile birlikte tek elden değişmeli.
+- OLAYLAR_GEZGINLER güzergâh açıklamalarında küçük yer adlarının çoğu Latin harfiyle bırakılmış (başlık Arapça, liste karışık). TR de özgün yazımları kullandığı için değiştirmedim.
+- Pereyaslavl "بيرياسلاف" (son l düşmüş) ve Gyula "دولا" / "غيولا" / "كولة" farklı yazımlar; emin olmadığım için dokunmadım.
+- Azak bazı gezgin maddelerinde "أزاق", başka yerde "آزاق".

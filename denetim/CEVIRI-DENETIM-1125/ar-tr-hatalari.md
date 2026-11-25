@@ -110,3 +110,38 @@
 - olay OLAYLAR_ORTACAG_CIN:0907-06-01:0: d "...imparator olarak tahta çıktı; " ile yarım bitiyor
 - olay OLAYLAR_ORTACAG_CIN:0640-10-11:0, 0756-07-14:0, 0994-03-01:0, 0842-01-01:0, 1127-05-13:0, 1129-02-23:0: d'de ham Çince karakterler (癸卯, 甲午, 己巳, 丁巳, 戊辰, 將作少監)
 - olay OLAYLAR_ORTACAG_CIN:0821-01-01:0: b "antlaşması Chang'an'da yemin edildi" bozuk Türkçe
+
+== tr_hatalari_e.md
+- olay OLAYLAR_ANTIK_AKDENIZ:0106-01-01:0: d sonunda "bağlandı Savaşın" (nokta eksik) ve ".." (çift nokta).
+- olay OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1073-01-01:0: b yarım ("bağımsızlık..." ile kesik).
+- olay OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1131-01-01:0: d kullanıcıya görünen iç not: İtalyanca alıntı + "(Treccani DBI Ruggero II)", ayrıca "katilir" (Türkçe karaktersiz).
+- olay OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1205-01-01:0: "Dördüncü Haçlı Seferi'nden yirmi yıl sonra" — Dördüncü Sefer 1204, olay 1205; yanlış.
+- olay OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1061-01-01:0: d sonunda "TDV bu yılı ... verir" kaynak notu metinde.
+- olay OLAYLAR_ANTIK_AKDENIZ:-0277-01-01:0: d içinde TDV alıntılı kaynak notu; "278-189 yılları" aralığı şüpheli.
+- olay OLAYLAR_ANTIK_AKDENIZ:-0145-01-01:0: "Roma'a" yazım hatası.
+- olay OLAYLAR_ORTACAG_DOGU_GUNEYDOGU_ASYA:0929-01-01:0 ve :1: aynı madde iki kez, sonlarında yer notu "(Brantas havzası/deltası Doğu Cava.)"; 0936-09-26:0/1/2, 1185-12-21:0..3, 1222-01-01:0/1 de aynı biçimde parantezli yer notlu kopyalar.
+- olay OLAYLAR_ANTIK_MISIR_NUBYA:-2054-01-01:0: "saltanatının 39. yıllarında ... (aşağıdaki madde)" — bozuk ifade ve ekranda anlamsız gönderme.
+
+== tr_hatalari_f.md
+- olay OLAYLAR_LAB19_2S_P6:1944-10-20:0: başlıkta bozuk Türkçe "Kızıl Ordu'since".
+- olay OLAYLAR_LAB19_2S_P1:0780-12-02:0 ve 0613-05-12:0: açıklamada atlas/künye iç notu ("künye ucu", "Atlasın ... künyesi").
+- olay OLAYLAR_LAB19_BOS_1119_SIBIRYA:1630-01-01:0: başlıkta Kiril "ясак".
+- olay OLAYLAR_LAB19_BOS_1119:1446-01-01:0: "Hacer el-Yemâme b. Dir'" kişi adı gibi; büyük olasılıkla "Hacerü'l-Yemâme sahibi İbn Dir'" (teyit edilmedi).
+- olay OLAYLAR_AVMAC_C_1029:1918-11-13:0, 1918-11-16:0, 1919-03-21:0, 1945-07-09:0, 1949-08-20:0, 1956-10-23:0, 1995-01-01:0, 2004-05-01:0: kullanıcıya görünen iç not (zincir, künye, macaristan-naiplik vb. kimlikler, "motor dondurma", BOYALAR).
+- olay OLAYLAR_AVMAC_C_1029:1921-12-14:0, 1938-03-12:0, 1945-04-13:0: "haritadaki ... zinciri" iç dili.
+- olay OLAYLAR_AVMAC_C_1029:1955-05-15:0: "antlasma" yazımı.
+- olay OLAYLAR_AVMAC_FINAL_1029:1703-01-01:0: "akademik gün kaynağı bulunamadı (borç)" iç not.
+- olay OLAYLAR_AVUSTURYA_MACAR_1027:1523-01-01:0: "harita ... çevirir" iç dili.
+- olay OLAYLAR_FRANSA_KONTROL_1027:1481-12-11:3: "abi merkez ... (BEYANLI YAKLAŞIKLIK)" iç not.
+- olay OLAYLAR_FRANSA_KONTROL_1027:1388-09-28:0, 1348-06-09:0: "Atlas bu sınırı zaten taşıyordu; madde eksikti" / "Yerleşim kaydı bu sınırı taşıyordu; madde eksikti" iç not.
+- olay OLAYLAR_FRANSA_KONTROL_1027:1284-01-01:0: "(künye t)" iç not.
+- olay OLAYLAR_FRANSA_KONTROL_1027:1861-02-02:0: açıklama cümlesi bozuk ("Piyemonte-Sardunya'nın 1860'ta Nice ile birlikte Fransa'ya devrinin ardından").
+- olay OLAYLAR_NAPOLYON_ITALYA_1028:1800-06-04:0, 1849-07-03:0, 1849-08-22:0: "bilgi kutusu" / "Vikipedi ..." iç notu.
+- olay OLAYLAR_NAPOLYON_ITALYA_1028:1143-01-01:0: "(künye f 1143, Treccani 1144)" iç not.
+- olay OLAYLAR_NAPOLYON_ITALYA_1028:1128-01-01:0-4, 1071-01-01:*, 1059-01-01:*: "ikincil", "abi merkez", "zinciri", "okunmadı" iç notları.
+- olay OLAYLAR_NAPOLYON_ITALYA_1028:1813-10-13:0 ve P0067/P0068 grubu: "Harita ... gösterir", "okunan ... maddeleri", "karsi-karansebes-1788" gibi iç dil (P0067:1788-09-21:0, P0068:1789-10-13:0, P0068B:1789-09-22:0).
+- olay OLAYLAR_P0917KOSU13:1731-11-15:0: "(TDV hoy; ... beyanlı yaklaşıklık)" iç not.
+- olay OLAYLAR_DUNYA_BOLGE_1109:1917-03-15:0: "(bkz. [[rusya-gecici-hukumet]], [[sovyet-rusya]])" ham iç bağlantı.
+- olay OLAYLAR_DUNYA_BOLGE_1109:1905-01-22:0: Kışlık Saray önünde "çariçenin muhafızları" (çarın/saray muhafızları olmalı; teyit edilmedi).
+- olay OLAYLAR_GEZGINLER:1871-03-09:0: "on gezi" ("ön gezi" olmalı).
+- olay OLAYLAR_GEZGINLER:1253-05-21:0 ve genel: seyahat güzergâhlarında "Golu", "bati ucu", "gecis", "nehri agzi", "kavsagi", "Korfezi" Türkçe karaktersiz (1829-11-03, 1845-11-15, 1861-11-01, 1891-06-14, 1557-07-12).

@@ -484,3 +484,168 @@
 - olay | OLAYLAR_ANTIK_MISIR_NUBYA:-2559-01-01:0 | b: Keops adı kaybolmuş, Hufu tekrar edilmiş
 - olay | OLAYLAR_ANTIK_MISIR_NUBYA:-2559-01-01:0 | d: yanlış/bozuk: 'anlatı' 'hadis' olarak çevrilmiş
 - olay | OLAYLAR_ANTIK_MISIR_NUBYA:-2299-01-01:0 | d: bozuk cümle: ordu 'Güney Mısır'dan ibaret' gibi
+- olay | OLAYLAR_OK109:1919-11-27:0 | d: Cümle bozuk, anlamsız
+- olay | OLAYLAR_OK109:1919-11-27:0 | d: bozuk cümle; TR'de olmayan Latin harfli parantezler
+- olay | OLAYLAR_ANTIK_MISIR_NUBYA:0297-01-01:0 | d: 'سلمت' = kurtuldu; TR 'teslim oldu'
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-0333-01-01:0 | d: 'سلمت' = kurtuldu; TR 'teslim oldu'
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-0599-01-01:0 | d: bozuk cümle, özne-fiil uyumsuz
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-0732-01-01:0 | d: bozuk tamlama 'إسرائيل فقح'
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-1179-01-01:0 | d: yanlış anlam: devlet yerini şehir devletlerine bıraktı
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-1589-01-01:0 | d: anlam ters okunuyor: Mursili kayınını öldürmüş gibi
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-1629-01-01:0 | b: fiil cinsiyet uyumu
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-1629-01-01:0 | d: ad yazım hatası; Hatti yazımı tutarsız
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-1762-01-01:0 | b: cinsiyet uyumu
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-1762-01-01:0 | d: cinsiyet uyumu
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-1344-01-01:0 | b: cinsiyet uyumu
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-2025-01-01:0 | b: bozuk söz dizimi
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-2110-01-01:0 | d: yer bilgisi yanlış öğeye bağlanmış
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0095-01-01:0 | d: fiil cinsiyet uyumu
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0145-01-01:1 | b: dilbilgisi: belirlilik takısı
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0148-01-01:0 | b: dilbilgisi: belirlilik takısı
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0201-01-01:0 | d: dilbilgisi: belirlilik takısı
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0217-01-01:0 | d: dilbilgisi: belirlilik takısı
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0218-01-01:0 | b: dilbilgisi: belirlilik takısı
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0262-01-01:0 | d: dilbilgisi: belirlilik takısı
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0263-01-01:1 | b: dilbilgisi: belirlilik takısı
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0221-01-01:1 | d: eksik 'باسم'
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0225-01-01:0 | b: eksik edat
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0315-01-01:0 | d: fiil uyumu
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0337-01-01:0 | d: ANLAM TERS: TR 'yalnız Sparta katılmadı', CV 'yalnız Sparta katıldı'; hegemon yazım hatası
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0358-01-01:0 | d: 'krallık' burada saltanat
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0453-01-01:0 | d: 'altmışta bir' yanlış çevrilmiş
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0508-01-01:1 | d: anlam yanlış
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0549-01-01:0 | d: bozuk anlatım
+- olay | OLAYLAR_ANTIK_AKDENIZ:0106-01-01:0 | b: aynı başlıkta ad tutarsızlığı (داقيا/داكيا)
+- olay | OLAYLAR_ANTIK_AKDENIZ:0106-01-01:0 | d: çift nokta
+- olay | OLAYLAR_ANTIK_AKDENIZ:0198-01-01:0 | d: anlam eksik/yanlış
+- olay | OLAYLAR_ANTIK_AKDENIZ:0435-01-01:0 | d: anlam: Numidya'nın tamamı değil bir kısmı
+- olay | OLAYLAR_ANTIK_AKDENIZ:0442-01-01:0 | d: anlam yanlış: yalnız Numidya'nın bir kısmı
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0757-12-03:0 | b: Luoyang adı kırpılmış
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0757-12-03:0 | d: Luoyang adı kırpılmış
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0764-01-01:0 | d: anlam yanlış: As-Tarhan hakan değil komutan
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0960-03-03:0 | b: TR 'Fas' burada Fes şehri (فاس), Mağrib ülkesi değil
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0960-03-03:0 | d: TR 'Fas' burada Fes şehri (فاس)
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1028-01-01:0 | d: Øreting bir meclis; kişi gibi okunuyor
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1030-01-01:0 | b: Drengot yazım hatası
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1038-01-01:0 | d: Pandolfo yazım hatası
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1048-06-16:0 | d: sayı yazımı bozuk
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1051-05-15:0 | b: Cibâl bölgesi: 'dağ egemenliği' gibi okunuyor
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1051-05-15:0 | d: Cibâl bölgesi: 'dağ egemenliği' gibi okunuyor
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1073-01-01:0 | b: fiil cinsiyet uyumu
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1073-01-01:0 | d: fiil cinsiyet uyumu
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1110-01-01:0 | d: 'teslim oldu' fiili yanlış biçim
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1184-04-14:0 | b: Milyâne = مليانة; المدية (Médéa) başka şehir
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1184-04-14:0 | d: Milyâne = مليانة
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1187-03-13:0 | d: Milyâne = مليانة
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1202-06-25:0 | b: Bayburt adı bölünmüş
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1202-06-25:0 | d: Bayburt adı bölünmüş
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1203-01-01:1 | b: bozuk ifade
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1203-01-01:1 | d: bozuk ifade
+- olay | OLAYLAR_2S1019:1903-03-15:0 | d: 'İngiltere'nin valisi' 'İngiltere valisi' gibi okunuyor
+- olay | OLAYLAR_2S1114D5:1923-07-24:0 | d: anlam: iki ad maddede anılmıyor
+- olay | OLAYLAR_2S1114D5:1980-07-30:0 | d: 'kondominyum' yanlış çevrilmiş (مشاركة)
+- olay | OLAYLAR_ALM1115B:1122-09-23:0 | b: investitür 'yatırım' diye çevrilmiş
+- olay | OLAYLAR_LAB19_2S_P2:1355-12-20:0 | b: cinsiyet uyumu (açıklamayla tutarlı)
+- olay | OLAYLAR_LAB19_2S_P4:1833-07-28:0 | d: 'tam denetim' yanlış sözcükle çevrilmiş
+- olay | OLAYLAR_LAB19_2S_P6:1945-02-14:0 | b: cinsiyet uyumu
+- olay | OLAYLAR_LAB19_2S_P6:1037-01-01:0 | b: TR 'Fas' burada Fas şehridir; 'Mağrib/Fas ülkesi' diye çevrilmiş
+- olay | OLAYLAR_LAB19_2S_P6:1037-01-01:0 | d: TR 'Fas' Fas şehridir, ülke değil
+- olay | OLAYLAR_UMIT19_ASIRET_1119:1779-09-15:0 | d: cinsiyet uyumu
+- olay | OLAYLAR_UMIT19_ASIRET_1119:1779-09-05:0 | d: cinsiyet uyumu
+- olay | OLAYLAR_DIN_MUHAMMED_MEKKE_1119:0620-01-01:0 | d: söz dizimi 'boykottan sonra Habeşistan'a hicret etmişlerdi' anlamı veriyor
+- olay | OLAYLAR_DIN_MUHAMMED_MEKKE_1119:0617-01-01:0 | b: cinsiyet uyumu
+- olay | OLAYLAR_DIN_MUHAMMED_MEKKE_1119:0570-01-01:0 | d: yineleme (نحو ... تقريبًا)
+- olay | OLAYLAR_DUNYA_AVRUPA_MO:-0504-01-01:0 | b: Kyme'li, 'milliyetçi' diye okunan sözcükle çevrilmiş
+- olay | OLAYLAR_DUNYA_AVRUPA_MO:-0504-01-01:0 | d: Kyme'li, 'milliyetçi' diye okunan sözcükle çevrilmiş
+- olay | OLAYLAR_DUNYA_AVRUPA_MO:-0545-01-01:0 | d: bozuk anlatım
+- olay | OLAYLAR_DUNYA_AVRUPA_MO:-0597-01-01:0 | d: 'Sirakuza'nın kuruluşundan sonra' anlamı eksik, bozuk
+- olay | OLAYLAR_DUNYA_AVRUPA_MO:-0687-01-01:0 | d: 'Sirakuza'nın kuruluşundan sonra' anlamı eksik
+- olay | OLAYLAR_DUNYA_AVRUPA_MO:-0799-01-01:0 | d: 'gelenek' sözcüğü 'taklit' anlamı veriyor
+- olay | OLAYLAR_KI117:1687-07-01:0 | d: bozuk cümle; 'رقابة' yerine 'سيطرة'
+- olay | OLAYLAR_KI117:1690-09-17:0 | d: cinsiyet uyumu
+- olay | OLAYLAR_AVMAC_A_1029:0009-01-01:0 | d: sayı-cinsiyet uyumu ve bozuk fiil
+- olay | OLAYLAR_AVMAC_A_1029:0976-01-01:0 | b: Melk 'melik/kral' sözcüğüyle karışıyor
+- olay | OLAYLAR_AVMAC_A_1029:0976-01-01:0 | d: Melk 'melik/kral' sözcüğüyle karışıyor
+- olay | OLAYLAR_AVMAC_A_1029:1156-09-17:0 | b: Melk 'melik/kral' sözcüğüyle karışıyor
+- olay | OLAYLAR_AVMAC_B_1029:1527-11-03:0 | d: edilgen olmalı; okunuşta 'taç giydirdi' anlaşılıyor
+- olay | OLAYLAR_AVMAC_B_1029:1803-02-25:0 | b: Brixen yanlış yazılmış; komşu maddelerle tutarsız
+- olay | OLAYLAR_AVMAC_B_1029:1803-02-25:0 | d: Brixen yanlış yazılmış; komşu maddelerle tutarsız
+- olay | OLAYLAR_AVMAC_B_1029:1809-10-14:0 | d: İlirya Eyaletleri yanlış yazılmış
+- olay | OLAYLAR_AVMAC_B_1029:1867-06-08:0 | d: Primas (Macaristan başpiskoposu) 'prens-patrik' diye çevrilmiş
+- olay | OLAYLAR_AVMAC_C_1029:1921-10-13:0 | d: cinsiyet uyumu
+- olay | OLAYLAR_AVUSTURYA_MACAR_1027:1523-01-01:0 | d: 'çevirir' (değiştirir) 'tercüme eder' diye çevrilmiş
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1793-01-03:0 | d: bozuk tamlama
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1317-01-09:0 | d: 'posthumous oğul' anlaşılmaz çevrilmiş
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1305-01-01:0 | d: kastellanlık 'kale' diye çevrilmiş
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1312-01-01:0 | d: bozuk söz dizimi/uyum
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1477-01-01:0 | d: 'hücumla alındı' kelimesi kelimesine 'fırtınayla' çevrilmiş
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1918-11-19:0 | b: bozuk sıra sayısı kalıbı
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1918-11-19:0 | d: bozuk sıra sayısı kalıbı
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1944-11-20:0 | d: bozuk sıra sayısı kalıbı
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1944-11-22:0 | d: bozuk sıra sayısı kalıbı
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1944-11-23:0 | b: bozuk sıra sayısı kalıbı
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1944-11-23:0 | d: bozuk sıra sayısı kalıbı
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1420-05-21:0 | d: ad yan yana iki kez yazılmış
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1420-05-21:1 | d: ad yan yana iki kez yazılmış
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1435-09-21:0 | d: bozuk söz dizimi
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1435-09-21:1 | d: bozuk söz dizimi
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1659-11-07:0 | d: Sülün Adası yanlış ('bisikletçiler' diye okunuyor)
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1659-11-07:1 | d: Sülün Adası yanlış ('bisikletçiler' diye okunuyor)
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1797-02-19:0 | b: Romagna, Romanya ülkesi diye okunuyor
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1797-02-19:0 | d: Romagna, Romanya ülkesi diye okunuyor
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1797-07-09:0 | d: Romagna, Romanya ülkesi diye okunuyor
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1798-12-09:0 | d: 'anakara' yanlış sözcükle ('kara/çöl') çevrilmiş; 'رقابة' yerine 'سيطرة'
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1318-07-25:0 | b: bozuk tamlama
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1143-01-01:0 | d: fiil kalıbı hatalı
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1814-05-24:0 | d: TR 'Legasyonlar'; çeviri kaynakta olmayan 'dört il' demiş
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1283-01-01:0 | b: şehir adı komşu maddelerle tutarsız yazılmış
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1283-01-01:0 | d: şehir adı komşu maddelerle tutarsız yazılmış
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1302-08-31:0 | b: şehir adı komşu maddelerle tutarsız yazılmış
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1302-08-31:0 | d: şehir adı komşu maddelerle tutarsız yazılmış
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1399-01-01:0 | d: 'Appiano ailesine satıldı' anlamı veriyor
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1813-10-13:0 | b: İlirya Eyaletleri yanlış yazılmış
+- olay | OLAYLAR_P0036:1463-01-01:0 | d: Türkçe kalıntısı; 'kitâbe' yanlış çevrilmiş
+- olay | OLAYLAR_P0036:1566-07-25:0 | d: beylerbeylik yerine beylerbeyi (kişi) yazılmış
+- olay | OLAYLAR_P0057B:1520-01-01:0 | d: neden-sonuç ilişkisi bozulmuş (eksik parça kalmasının sebebi gibi okunuyor)
+- olay | OLAYLAR_P0063:1735-07-09:0 | d: Arapça metinde Farsça پ/چ harfleri
+- olay | OLAYLAR_P0063:1735-08-12:0 | d: bozuk anlatım; ad yazımı (Teimuraz)
+- olay | OLAYLAR_P0917KOSU13:1735-10-03:0 | d: Arapça metinde Farsça پ/چ harfleri
+- olay | OLAYLAR_P0917KOSU13:1415-01-01:0 | d: 'Fetret Devri' bozuk yineleme olmuş
+- olay | OLAYLAR_P0917KOSU13:1788-10-03:0 | d: cinsiyet uyumu
+- olay | OLAYLAR_P0917KOSU13:1854-01-01:0 | b: özel ad yanlış (Velyaminovski, n düşmüş)
+- olay | OLAYLAR_P0917KOSU13:1854-01-01:0 | d: özel ad yanlış (Velyaminovski, n düşmüş)
+- olay | OLAYLAR_P0917KOSU13:1864-02-01:0 | b: özel ad yanlış (Velyaminovski, n düşmüş)
+- olay | OLAYLAR_P0917KOSU13:1864-02-01:0 | d: özel ad yanlış (Velyaminovski, n düşmüş)
+- olay | OLAYLAR_P0067:1788-09-21:0 | d: cinsiyet uyumu
+- olay | OLAYLAR_P0068B:1788-02-22:0 | b: Koca 'Hoca' diye yazılmış; komşu maddeyle tutarsız
+- olay | OLAYLAR_P0068B:1788-02-22:0 | d: Koca 'Hoca' diye yazılmış
+- olay | OLAYLAR_P0068B:1789-05-01:0 | d: Koca 'Hoca' diye yazılmış
+- olay | OLAYLAR_P0068B:1789-06-07:0 | b: Koca 'Hoca' diye yazılmış
+- olay | OLAYLAR_P0068B:1789-06-07:0 | d: Koca 'Hoca' diye yazılmış
+- olay | OLAYLAR_P0068B:1789-09-22:0 | d: Koca 'Hoca' diye yazılmış
+- olay | OLAYLAR_P0068B:1791-02-27:0 | b: Koca 'Hoca' diye yazılmış
+- olay | OLAYLAR_P0068B:1791-02-27:0 | d: Koca 'Hoca' diye yazılmış
+- olay | OLAYLAR_P0068B:1792-05-03:0 | b: Koca 'Hoca' diye yazılmış
+- olay | OLAYLAR_P0068B:1792-05-03:0 | d: Koca 'Hoca' diye yazılmış
+- olay | OLAYLAR_P0068B:1790-09-19:0 | b: yer adı komşu maddelerle tutarsız
+- olay | OLAYLAR_P0068B:1790-09-19:0 | d: yer adları komşu maddelerle tutarsız
+- olay | OLAYLAR_KAMERIKA:1803-01-01:1 | d: gereksiz yineleme
+- olay | OLAYLAR_DUNYA_BOLGE_1109:1524-05-23:0 | d: saltanat, 'hükümdar' diye çevrilmiş
+- olay | OLAYLAR_DUNYA_BOLGE_1109:1879-10-07:0 | d: Prens Reuss, 'Ruslar' diye okunuyor
+- olay | OLAYLAR_GEZGINLER:1052-10-24:0 | d: mesafe için süre fiili kullanılmış
+- olay | OLAYLAR_GEZGINLER:1493-11-27:0 | b: 'yıkılmış bulunuyor' yanlış/bozuk çevrilmiş
+- olay | OLAYLAR_GEZGINLER:1520-10-21:0 | d: 'Pazar günü bin bakire' diye okunuyor
+- olay | OLAYLAR_GEZGINLER:1521-03-06:0 | d: ada adı yanlış (Samar)
+- olay | OLAYLAR_GEZGINLER:1571-05-01:0 | b: ada adı yanlış (Panay)
+- olay | OLAYLAR_GEZGINLER:1577-11-15:0 | d: 'filonun komutanı Pelican' anlamına gelmiş
+- olay | OLAYLAR_GEZGINLER:1586-01-01:1 | d: yazım hatası (elif maksure)
+- olay | OLAYLAR_GEZGINLER:1855-11-03:0 | b: yazım hatası (elif maksure)
+- olay | OLAYLAR_GEZGINLER:1663-01-01:0 | d: Raab muharebesi 'korku muharebesi' diye çevrilmiş
+- olay | OLAYLAR_GEZGINLER:1720-10-07:0 | d: bozuk anlatım
+- olay | OLAYLAR_GEZGINLER:1797-12-09:0 | b: yer adı yanlış (Swellendam)
+- olay | OLAYLAR_GEZGINLER:1803-12-07:0 | b: yer adı yanlış (Swellendam)
+- olay | OLAYLAR_GEZGINLER:1846-01-01:0 | b: yer adı yanlış (Belyando)
+- olay | OLAYLAR_GEZGINLER:1855-01-01:0 | b: 'muhbir/ajan' anlamı veren bozuk tamlama
+- olay | OLAYLAR_GEZGINLER:1860-10-20:0 | b: yer adı yanlış (Kaeng Khoi)
+- olay | OLAYLAR_GEZGINLER:1861-10-26:0 | b: 'R.' kısaltması anlamsız harf olarak çevrilmiş
+- olay | OLAYLAR_GEZGINLER:1871-03-09:0 | b: TR 'ön gezi' (noktasız yazılmış) 'onuncu gezi' diye çevrilmiş

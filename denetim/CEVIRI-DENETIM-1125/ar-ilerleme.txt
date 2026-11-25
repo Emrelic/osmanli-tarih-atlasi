@@ -20,5 +20,9 @@ Düzeltme dosyaları: duzeltme_c_001..006.jsonl
 Tamamen okunan: 4_olay_116 - 4_olay_150 (35 paket, aralığın tamamı)
 
 == ilerleme_e.txt
-Tamamen okunan: 4_olay_151 - 4_olay_156
-Duzeltme: 16
+Tamamen okunan: 4_olay_151 - 4_olay_177 (27/27, aralik tamam)
+Duzeltme dosyalari: duzeltme_e_001..007 ; 75 satir
+
+== ilerleme_f.txt
+Tamamen okunan paketler: 4_olay_178 - 4_olay_204 (27 paketin 27'si). Aralık tamamlandı.
+Bakılan kayıt: yalnız 'olay' türü (paket başına 7-33 kayıt; tam sayım yapılmadı). Arayüz/devlet bu turda okunmadı.
