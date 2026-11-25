@@ -955,19 +955,19 @@ window.CEVIRI_DIZIN = {
    ],
    [
     "ceviri_en_ekokuma_03.js",
-    "f1b8e012"
+    "acdd0d94"
    ],
    [
     "ceviri_en_ekokuma_04.js",
-    "c3ddafd8"
+    "f0b99e70"
    ],
    [
     "ceviri_en_ekokuma_05.js",
-    "ed52fd7a"
+    "d16d3fd0"
    ],
    [
     "ceviri_en_ekokuma_06.js",
-    "91a0acc3"
+    "2f0f1a55"
    ]
   ]
  }
