@@ -69,3 +69,21 @@
 - olay OLAYLAR_ARKEOLOJI_ZINCIR:-0910-01-01:0: -1364 dolayindaki bagimsizlik -910 Yeni Asur gecisine kaynak gosterilmis.
 - olay OLAYLAR_ARKEOLOJI_GECIS:*: baslikta "sahip donemi sona erer" ic kalibi (ceviride "پایان دورهٔ مالک").
 - olay OLAYLAR_ARKEOLOJI_PILOT:-7099-01-01:0: "200 yil geriye (daha gec)" anlasilmaz.
+
+== tr_hatalari_d.md
+- olay OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1115-07-24:0: d'de ham JSON ve URL kullanıcıya görünüyor ("(kesinlik: {\"f\": ...}) Ayrıca 'Matilde di Canossa' https://www.treccani.it/..."); çeviri de aynen taşıyor. ACİL.
+- olay OLAYLAR_T5_1000A:1231-01-01:1 ve 1256-01-01:0: d'de iç not ("atlas ... Emre kararıyla", "(Emre kararı)", "kural 5 sınırı", "bölge cümlesi"). Kullanıcının adı görünüyor.
+- olay OLAYLAR_T5_1000B:1171-09-13:0: d'de "(Emre #23 metbû modeli)", "künye günü kaynak değildir".
+- olay OLAYLAR_T5_1000A:1199-01-06:0: d'de "TDV'de BULUNAMADI ... künyesinin başlangıcından devralındı".
+- olay OLAYLAR_T5_1000A:1096-01-01:0, 1233-01-01:1; T5_1000B:1250-04-30:0 ("fark bildirildi"), 1261-06-09:0 ("alt sınır"): d'de künye/iç not.
+- olay OLAYLAR_T5_1000A:1119-01-01:0, 1206-01-01:0, 1222-01-01:0, 1225-01-01:0: d'de iç not ("bizans maddesi 1120 der", "selcuklular maddesi", "alanya maddesi", "(bölge cümlesi)").
+- olay OLAYLAR_T5_1000A:1148-01-01:0: d "(katılış yılı yılsız; hânedan başlangıcı)" bozuk.
+- olay OLAYLAR_ORTACAG_ORTADOGU:1102-05-22:0: d'de "(BEYANLI YAKLAŞIKLIK)"; çeviride Türkçe kalmıştı, düzeltildi.
+- olay OLAYLAR_ONCE1000_1019:0990-03-31:0: d'de "∩ kesişiminin ilk günü ... seçildi" iç yöntem notu.
+- olay OLAYLAR_KURULUS_GERI_1021:0945-12-19:0, 0661-07-29:0/1, 0745-01-01:0, 0972-10-02:0 ("gün künye f'sinden"), 1057-01-01:0, 0750-08-05:0, 1085-05-25:0 ("TDV tuleytula", "kuyruk kronolojide"): d'de iç not.
+- olay OLAYLAR_ORTACAG_ORTADOGU:0685-01-01:0: "ilk Emevî halifelerinden bir hükümdar gibi hareket eden" bozuk Türkçe.
+- olay OLAYLAR_ORTACAG_ORTADOGU:0870-08-29:0, 0929-02-14:0, 1076-08-05:0 ve İran-Turan 1219: "Atlasta ... yazılıdır / beyanlı boşluk (künyesiz)" iç not diline yakın.
+- olay OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:0980-01-01:0: b'de "öldürtü" yazım hatası (öldürttü).
+- olay OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1000-01-01:1, 1096-01-01:0, 1085-07-17:0, 1169-03-08:0, 1241-01-01:1: d'de araştırma notu biçiminde çevrilmemiş Norveççe/İtalyanca/İngilizce kaynak alıntıları ("SNL ... de doğrular", "Treccani de doğrular").
+- olay OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1189-01-01:0: Constance, II. William'ın "amcası kızı" değil halasıdır (II. Roger'in kızı); denetlenmeli.
+- olay OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1205-01-01:1: b "ölçülü bir geri çekilme sırasında" anlamsız.

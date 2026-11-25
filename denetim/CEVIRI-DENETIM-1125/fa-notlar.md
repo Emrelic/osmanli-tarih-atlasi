@@ -19,3 +19,8 @@
 - olay OLAYLAR_EK22:1923-07-24:0: "مقرره‌ای مربوط نیست" yerine "مقرره‌ای در این باره نیست" daha dogru; cok uzun alan oldugu icin yeniden yazilmadi (toplu degistirme yapilabilir).
 - ARKEOLOJI_ZINCIR'de Qin devleti "کین", baska kayitlarda "چین": tutarsiz.
 - Ayni id+alan baska etiketlerin dosyalariyla cakismaz (aralik 076-110).
+
+== notlar_d.md
+- Latin harfli özel adlar (Szigetvár, Paşa'lı Türkçe adlar, Harput, Elbistan, Kütahya, Rupenî, Jaume, Pelješac vb.; özellikle OK109, H7_ASAMA, T5_1000A/B, BK_ZINCIR, ONCE1281 setleri, 4_olay_111-116) sistematik. Yalnız gerçek hata düzeltilen kayıtlarda ve bariz Türkçe başlıklarda Farsçaya çevrildi; kalanı toplu geçiş ister.
+- "ادارهٔ" yerine "اداره‌ٔ" (ZWNJ + hemze) birçok kayıtta; toplu değiştirme önerilir.
+- Aynı dizide sayı biçimi yer yer Farsça rakam (۱۰۹۵ vb.), yazım tutarsızlıkları: تاپار/تپر, قلج/قلیچ‌ارسلان.

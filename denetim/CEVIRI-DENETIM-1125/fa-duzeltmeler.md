@@ -825,3 +825,89 @@
 - olay | OLAYLAR_ORTACAG_IRAN_TURAN:1093-01-01:0 | d: söz dizimi 'Melikşah Berkyaruk' diye okunuyordu
 - olay | OLAYLAR_ORTACAG_IRAN_TURAN:1107-01-01:0 | d: bozuk tamlama
 - olay | OLAYLAR_ORTACAG_IRAN_TURAN:1119-09-10:0 | d: bozuk söz dizimi
+- olay | OLAYLAR_EK5:1716-10-13:0 | d: Latin harfli yer adları; 'ابی‌مرکز' anlamsız harf çevirisi
+- olay | OLAYLAR_EK5:1912-10-18:0 | d: Latin harfli yer adları
+- olay | OLAYLAR_EK7:1829-09-14:0 | d: Latin harfli yer adları
+- olay | OLAYLAR_ORTADOGU_0919:1816-01-01:0 | d: Latin harfli yer adları; bozuk söz dizimi
+- olay | OLAYLAR_P0055:1369-01-01:0 | b: Latin harfli yer adları, bozuk tamlama
+- olay | OLAYLAR_P0055:1369-01-01:0 | d: Latin harfli yer adları
+- olay | OLAYLAR_BK_ZINCIR_1024:1346-06-15:0 | b: Latin harfli adlar
+- olay | OLAYLAR_ONCE1281_GERIYE:1147-10-24:0 | b: Latin harfli adlar; 'لیشبونه' yazımı
+- olay | OLAYLAR_ONCE1281_GERIYE:1147-10-24:0 | d: Latin harfli ad
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1102-05-22:0 | d: çevrilmemiş Türkçe iç etiket
+- olay | OLAYLAR_SEHIR_ILK:1472-06-08:0 | b: Latin harfli yer adı
+- olay | OLAYLAR_OK109:1920-06-04:1 | b: Latin harfli yer adı
+- olay | OLAYLAR_OK109:1920-06-04:1 | d: Latin harfli yer adları
+- olay | OLAYLAR_OK106:1703-05-17:0 | d: Latin harfli adlar; 'نامی که خود معنای کلمه است' anlamsız; پیمان adı tutarlılığı
+- olay | OLAYLAR_OK106:1652-01-01:0 | b: Latin harfli adlar
+- olay | OLAYLAR_H7_ASAMA:1618-09-10:0 | d: Latin harfli adlar
+- olay | OLAYLAR_EK5:1716-10-13:0 | d: 'ابی‌مرکز' Türkçe kalıntısı; eyalet devri yanlış
+- olay | OLAYLAR_EK5:1912-10-18:0 | d: Türkçe/Latin yer adları çevrilmemiş
+- olay | OLAYLAR_EK7:1829-09-14:0 | d: çevrilmemiş Latin harfli yer adları
+- olay | OLAYLAR_ORTADOGU_0919:1816-01-01:0 | d: Latin harfli yer adı kalıntısı
+- olay | OLAYLAR_P0055:1369-01-01:0 | b: Latin-Farsça karışık yazım
+- olay | OLAYLAR_P0055:1369-01-01:0 | d: Latin-Farsça karışık yazım
+- olay | OLAYLAR_SEHIR_ILK:1472-06-08:0 | b: Türkçe ekli ad kalıntısı
+- olay | OLAYLAR_OK109:1920-06-04:1 | b: Türkçe ad kalıntısı
+- olay | OLAYLAR_OK109:1920-06-04:1 | d: Türkçe/Latin ad kalıntısı
+- olay | OLAYLAR_OK106:1703-05-17:0 | d: ad açıklaması anlamsızdı; Türkçe kalıntı
+- olay | OLAYLAR_OK106:1652-01-01:0 | b: Türkçe biçimli ad kalıntısı (Ukrayna); bozuk başlık
+- olay | OLAYLAR_H7_ASAMA:1618-09-10:0 | d: bozuk cümle; Türkçe kalıntı (Paşa) ve Farsça yer adlarının Latin yazılması
+- olay | OLAYLAR_BK_ZINCIR_1024:1346-06-15:0 | b: Türkçe ada adı Latin harfle kalmış
+- olay | OLAYLAR_ONCE1281_GERIYE:1147-10-24:0 | b: Türkçe transkripsiyon (Üşbûne) kalıntısı
+- olay | OLAYLAR_ONCE1281_GERIYE:1147-10-24:0 | d: Türkçe transkripsiyon kalıntısı
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1102-05-22:0 | d: çevrilmemiş Türkçe iç etiket
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1218-01-01:0 | b: bozuk cümle ('Muhammed Cengiz'i istedi' gibi okunuyordu)
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1231-01-01:0 | d: bozuk söz dizimi
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1266-01-01:0 | d: 'öldürtmek' (başkasına öldürtmek) yanlış çevrilmiş
+- olay | OLAYLAR_ORTACAG_BIZANS_BALKAN:0971-04-23:0 | d: dilbilgisi hatası (نبرد درگرفت geçişsiz)
+- olay | OLAYLAR_ORTACAG_BIZANS_BALKAN:1185-01-01:0 | d: '200 gemilik donanma ve ordu' yanlış aktarılmış
+- olay | OLAYLAR_ORTACAG_BIZANS_BALKAN:1229-01-01:0 | d: dilbilgisi hatası
+- olay | OLAYLAR_ORTACAG_BATI_AVRUPA:1075-01-01:0 | d: cümle içinde çevrilmemiş İngilizce terim (lay investiture)
+- olay | OLAYLAR_ORTACAG_BATI_AVRUPA:1111-04-13:0 | b: çevrilmemiş İngilizce terim
+- olay | OLAYLAR_ORTACAG_BATI_AVRUPA:1111-04-13:0 | d: çevrilmemiş İngilizce terim; 'koparıldı' yanlış (کنده شد)
+- olay | OLAYLAR_ORTACAG_BATI_AVRUPA:1276-11-21:0 | d: bozuk cümle
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:0872-01-01:0 | b: anlaşılmaz ifade
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:0907-01-01:0 | d: eser adı (Primary Chronicle) 'ilk tarih' diye çevrilmiş
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1043-01-01:0 | d: binbaşı = سرگرد (سرهنگ albaydır)
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1059-01-01:0 | b: bozuk anlatım
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1128-08-22:0 | d: 'investi etti' anlamsız 'اینوستیتور کرد' diye aktarılmış
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1130-12-25:0 | d: anlamsız 'اینوستیتور'
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1139-07-25:0 | d: anlamsız 'اینوستیتور'; alt-feodal = تیول فرعی
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1162-01-01:0 | b: feod (tımar) 'فئودال' (derebeyi) olmuş; bozuk cümle
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1162-01-01:0 | d: anlamsız ödünç sözcük
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1235-04-19:0 | d: anlamsız 'اینوستیتور'
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1226-01-01:0 | d: Treviso yanlış yazılmış
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1237-01-01:0 | d: Treviso yanlış yazılmış
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1250-12-13:0 | d: imla (fazla ezafe işareti)
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1102-01-01:0 | d: bozuk cümle, anlam belirsiz
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1172-01-01:0 | d: bozuk cümle
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1193-05-18:0 | d: yer adı yanlış: TR 'Erzâs', çeviri Erciş yazmış
+- olay | OLAYLAR_2S1019:1526-12-05:0 | d: cümle yapısı bozuk, anlaşılmıyor
+- olay | OLAYLAR_2S1019:1687-09-06:0 | d: Arapça ى harfi; Farsça ی olmalı
+- olay | OLAYLAR_2S1019:1794-06-15:0 | d: özne yanlış: anayasayı Paoli değil konsülta kabul etti
+- olay | OLAYLAR_2S1019:1878-09-18:0 | d: dilbilgisi hatası
+- olay | OLAYLAR_2S1019:1344-03-26:0 | d: bozuk cümle (askıda kalan öğe)
+- olay | OLAYLAR_ALM1115B:1567-03-31:0 | d: yanlış yer adı (Marburg)
+- olay | OLAYLAR_ALM1115B:1122-09-23:0 | d: uydurma çoğul (başrahipler)
+- olay | OLAYLAR_CINHINDI1115B:0979-01-01:0 | b: Latin (Vietnamca) yazı kalıntısı; devlet adlarıyla uyumlu çevriyazı
+- olay | OLAYLAR_CINHINDI1115B:0979-01-01:0 | d: Latin (Vietnamca) yazı kalıntısı
+- olay | OLAYLAR_CINHINDI1115B:1471-01-01:0 | b: Latin (Vietnamca) yazı kalıntısı
+- olay | OLAYLAR_CINHINDI1115B:1471-01-01:0 | d: Latin (Vietnamca) yazı kalıntısı
+- olay | OLAYLAR_CINHINDI1115B:1592-01-01:0 | b: Latin (Vietnamca) yazı kalıntısı
+- olay | OLAYLAR_CINHINDI1115B:1592-01-01:0 | d: Latin (Vietnamca) yazı kalıntısı
+- olay | OLAYLAR_CINHINDI1115B:1707-01-01:0 | d: Chieng Khane 'Çing hanedanı/evi' gibi okunuyor; 'bildirdi' anlamı kaybolmuş
+- olay | OLAYLAR_ORTAASYA1115B:1918-07-14:0 | d: bozuk cümle
+- olay | OLAYLAR_LAB19_2S_P1:0780-12-02:0 | d: 'künye ucu' yanlış çevrilmiş
+- olay | OLAYLAR_LAB19_2S_P5:1839-05-13:0 | d: Küçük Kabiliye (bölge) 'küçük kabileler' diye yanlış çevrilmiş
+- olay | OLAYLAR_LAB19_2S_P6:1037-01-01:0 | b: Fas burada ülke değil Fes şehri
+- olay | OLAYLAR_LAB19_2S_P6:1037-01-01:0 | d: Fas burada ülke değil Fes şehri
+- olay | OLAYLAR_UMIT19_ASIRET_1119:1830-10-07:0 | d: yanlış anlam: Douglas emri veren değil, noktaları tutacak olan
+- olay | OLAYLAR_UMIT19_ASIRET_1119:1779-09-15:0 | b: 'شهرک جنسی' 'cinsel kasaba' diye okunuyor; harekelendi
+- olay | OLAYLAR_UMIT19_ASIRET_1119:1779-09-15:0 | d: 'شهرک جنسی' 'cinsel kasaba' diye okunuyor; harekelendi
+- olay | OLAYLAR_UMIT19_ASIRET_1119:1779-09-05:0 | b: yanlış yer adı (Kendaia)
+- olay | OLAYLAR_UMIT19_ASIRET_1119:1779-09-05:0 | d: yanlış yer adı; 'ekin' mısır diye çevrilmiş
+- olay | OLAYLAR_UMIT19_ASIRET_1119:1869-07-13:0 | d: 'vadi' yerine 'dönem' yazılmış (دوره/دره)
+- olay | OLAYLAR_UMIT19_ASIRET_1119:1879-08-02:0 | d: ilgi cümlesi derneğe bağlanıyor
+- olay | OLAYLAR_LAB19_BOS_1119:1746-01-01:0 | b: bozuk anlatım
+- olay | OLAYLAR_LAB19_BOS_1119_SIBIRYA:1630-01-01:0 | d: parantez içi anlam bozuk

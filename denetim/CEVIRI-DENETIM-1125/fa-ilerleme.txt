@@ -15,3 +15,11 @@ Bakılan kayıt (yaklaşık): olay ~600; arayüz/devlet: bu turda okunmadı (ön
 Tamamen okunan: 4_olay_076 - 4_olay_110 (35/35, aralik bitti)
 Duzeltme dosyalari: duzeltme_c_001 - duzeltme_c_009
 Not: 076-084'te Latin harfli ad kalintisi tam alan yeniden yazilarak duzeltildi; 085'ten itibaren esas olarak gercek hatalar + secili kalintilar (bkz. notlar_c.md).
+
+== ilerleme_d.txt
+Tamamen okunan: 4_olay_111 - 4_olay_145 (35/35, aralık bitti)
+Duzeltme dosyalari: duzeltme_d_001 - duzeltme_d_009
+Notlar: notlar_d.md ; TR hataları: tr_hatalari_d.md
+
+== ilerleme_f.txt
+Tamamen okunan: 4_olay_178 - 4_olay_183
