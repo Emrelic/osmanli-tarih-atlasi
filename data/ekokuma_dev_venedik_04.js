@@ -233,7 +233,7 @@ window.EKOKUMA_DEVVENEDIK04 = [
   teyit:"teyitli", yayin_adayi:true, ic_not_teyit:"Menniti Ippolito'nun Nicolò Del Torso maddesi ile De Donato'nun Filippo Arcelli maddesi ham metinden baştan sona okundu.",
   baslik:"Friuli 1420'ye Udine'den bakmak: şehir neyi kabul etmek istemiyordu?",
   olay:["1420-10-01|Friuli"],
-  kisa:"Venedik'in Friuli'yi alışı çoğu zaman fatihin gözünden anlatılır. Udineli bir elçinin yaşamı, kapının öbür yanındaki hesapları gösteriyor.",
+  kisa:"Venedik Friuli'yi alırken Udine'de neler hesaplanıyordu? Udineli bir elçinin yaşamı, kapının öbür yanını gösteriyor.",
   metin:"Nicolò Del Torso 1360 dolaylarında Udine'de doğdu, şehir meclisinde görev yaptı, defalarca elçi gönderildi. İzlediği yol, Udine'nin yıllarca nasıl bir kıskaçta kaldığını anlatır.\n\n" +
     "■ ŞEHRİN İÇİNDEN BİR RAKİP\n" +
     "Kasım 1411'de, Zara için Venedik'le çekişen Sigismondo Friuli'ye girdi. Udine'nin gündeminde bir de Tristano Savorgnan vardı: Venedik'ten yana olanların başında anılıyordu. 1413'te Del Torso, Sigismondo'dan Udine'nin bu Venedik yanlılarının mallarından serbestçe yararlanmasını istedi.\n\n" +
