@@ -1,3 +1,12 @@
+> **KARARLAR (EMRELİC 21 KASIM, 25.11 — bu oturuma koordinatör iletisiyle geldi).** Aşağıdaki listede ve §5'te
+> bunlarla çelişen «karar bekliyor» ifadeleri için bu blok geçerlidir.
+> 1. Modern dönem YAZILIR; sınır projenin ufku **31.12.2000**. Yakın ve hassas konularda yalnız tam metni okunmuş
+>    hakemli akademik kaynak; iki görüş adıyla.
+> 2. İran-Rusya ortak konuları **TEK kart** (iki dosya da UMIT'te): tartışması hangi devlette ağırlıklıysa onun
+>    dosyasında yazılır, `olay` listesiyle iki tarafın maddelerine bağlanır, öteki listede «ortak, bkz.» notu düşülür.
+>    Konu konu atama ve «ortak, bkz.» notları HENÜZ YAPILMADI (İran listesinde de).
+> 3. Kazan ve 1568 tarih şüpheleri kaynak okunmadan değiştirilmez; listede kalır.
+
 # EKOKUMA-RUSYA — Aşama 1: envanter ve konu listesi (25 Kasım 2026, UMIT)
 
 Şartname: `origin/ekokuma-sartname-1125:denetim/EKOKUMA-DEVLETLER-SARTNAME-1125.md`. Kart YAZILMADI.
