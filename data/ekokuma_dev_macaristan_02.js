@@ -25,6 +25,19 @@ window.EKOKUMA_DEVMACARISTAN02 = [
     "Tarihçiler bugün ne diyor? Varga'ya göre araştırmalar, János'un 16. yüzyıl Macaristan'ının uğradığı darbelerin başlıca nedeni sayılamayacağını göstermiştir. 1970'lerde başlayan Mohaç tartışması kesin bir sonuca bağlanmadı; ama bugün dönemin Macar seçkinlerinin tüm sorumluluğu taşımadığı, büyük güçlerin niyetlerinin belirleyici olduğu görüşü ağır basıyor görünüyor.",
   kesinlik:"tartismali", teyit:"teyitli",
   kaynak:"Szabolcs Varga, \"How the Szapolyai Family Was Remembered from the 16th to the 20th Century\", Pál Fodor - Szabolcs Varga (ed.), A Forgotten Hungarian Royal Dynasty: The Szapolyais, s. 311 vd., https://real.mtak.hu/131581/1/Szapolyai_angol_Varga.pdf",
-  ic_not:"Okunan sayfalar: s.311-320 ve 326-329 (s.321-325, 17-19. yüzyıl ara bölümü okunmadı). Cilt Mohács 1526-2026 projesi yayını. Yayın yılı dosyadan okunamadı, yazılmadı. Szerémi ve Bethlen Varga üzerinden." }
+  ic_not:"Okunan sayfalar: s.311-320 ve 326-329 (s.321-325, 17-19. yüzyıl ara bölümü okunmadı). Cilt Mohács 1526-2026 projesi yayını. Yayın yılı dosyadan okunamadı, yazılmadı. Szerémi ve Bethlen Varga üzerinden." },
+
+{ id:"macaristan-belgrad-1521-yardim-neden-yetismedi", devlet:"macaristan", tur:"savas-hikayesi",
+  baslik:"1521'de Belgrad düşerken Macar ordusu neredeydi?",
+  olay:["1521-08-29|Belgrad'ın fethi"],
+  kisa:"Kalede yetmişten az yaralı savunucu kalmıştı. Kralın büyüyen ordusu ise günlerce uzaktaki Mohaç'taydı.",
+  metin:"Sultan Süleyman 1521 baharında Macaristan üzerine yürüdü. Savaşın gerekçesi, elçisi Behram Çavuş'a Budin'de kesin bir cevap verilmemesi ve elçinin orada alıkonmasıydı. Alıkoymak o dönem diplomasisinde görülmemiş bir şey değildi.\n\n" +
+    "Tarihçi Ferenc Sebők, Türk kaynaklarına dayanarak Sofya'daki savaş meclisinde sultanın doğrudan Budin'e yürümek istediğini, Piri Mehmed Paşa'nın öne çıktığı deneyimli paşaların ise ikmal yolu için önce sınır kalelerini almayı öğütlediğini aktarır. Sultan iki planı birleştirdi. Böğürdelen (Szabács) hızla alındı ve Sava üzerine köprü kuruldu; Belgrad ise temmuz boyunca dayandı. Taşan nehir köprüyü sürükleyince Osmanlı güçleri sonunda Belgrad çevresinde toplandı.\n\n" +
+    "Ardından aralıksız top ateşi, tırmanma girişimleri ve lağım geldi. Savunucular önce şehri bırakmak zorunda kaldı; en güçlü burç havaya uçurulunca bir kuleye çekildiler. Sayıları yetmişin altına inmişti, hepsi yaralıydı; yiyecek, su ve cephane tükenmişti. 29 Ağustos'ta serbestçe çekilme hakkı verilince kaleyi teslim ettiler.\n\n" +
+    "Yardım neden gelmedi? Kale düştüğünde sayısı on binlerle ifade edilen Macar ordusu Mohaç'taki ordugâhtaydı. Sebők'e göre aradaki yol zorlu yürüyüşle en az on, olağan yürüyüşle yirmi gün sürerdi. Savunulacak sınır çok uzundu ve Osmanlıların nereden vuracağı geç anlaşıldı. Hasat öncesinde yiyecek ve yem de pahalıydı. Ordu, Osmanlı ana kuvveti çekilince kaleyi geri almayı bekledi; fakat ordugâhta salgın çıktı ve ordu dağıtıldı.\n\n" +
+    "Tarihçiler bugün ne diyor? Bazıları Macar komutanların meydan savaşından kaçındığını düşünür. Sebők bunun korkaklık sayılması gerekmediğini, tek orduyu neredeyse kesin bir yenilgiye atmamanın gerçekçi bir hesap olabileceğini savunur. Daha da şaşırtıcı bir sav ileri sürer: Osmanlıların daha derine ilerlemek istediği düşünülürse, 1521 Macar tarafı için kısmî bir başarıdır; çünkü Sirem dışında ülke toprağı korunmuştur. Ama aynı yazar, Belgrad ve öteki kalelerle birlikte savunma düzeninin neredeyse çöktüğünü de yazar.",
+  kesinlik:"tartismali", teyit:"teyitli",
+  kaynak:"Ferenc Sebők, \"The Outline of the Turkish-Hungarian War between 1520 and 1526\", Chronica 2 (2002), s. 57-63, https://ojs.bibl.u-szeged.hu/index.php/chronica/article/view/10636",
+  ic_not:"Makalenin tamamı okundu. Sofya meclisi Sebők'ün Thury (Török történetírók) atfıyla. 'Böğürdelen' adı Szabács/Šabac'ın Türkçe karşılığı olarak yazıldı (makalede Sabac)." }
 
 ];
