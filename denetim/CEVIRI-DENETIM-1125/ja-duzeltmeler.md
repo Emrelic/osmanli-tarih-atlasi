@@ -257,3 +257,202 @@
 - olay | OLAYLAR:1413-07-05:0 | d: ルメリア yazımı tutarsız/eksik
 - olay | OLAYLAR:1639-05-17:0 | d: 本文中の地名がトルコ語ラテン表記のまま
 - arayuz | # Temmuz # (ÇELİŞKİ-#: TDV «Timişvar» # Şaban # = # Temmuz #'de garnizonun teslim olduğunu yazar; TDV «Kara Ahmed Paşa» #/# Temmuz der; Losonczy'nin kaleden çıkışı # Temmuz (olaylar_ek# Macar kaynağı) — iki gün de TDV içinde geçer, bağımsız ikinci akademik kaynak okunmadı, gün korundu) | m: duzeltme_002'deki sürümün yerine geçer: 9'dan çok sayı olduğundan indeksli ve düz '#' karıştırılamaz, hepsi sıralı
+- arayuz | # Temmuz # (ÇELİŞKİ-#: TDV «Timişvar» # Şaban # = # Temmuz #'de garnizonun teslim olduğunu yazar; TDV «Kara Ahmed Paşa» #/# Temmuz der; Losonczy'nin kaleden çıkışı # Temmuz (olaylar_ek# Macar kaynağı) — iki gün de TDV içinde geçer, bağımsız ikinci akademik kaynak okunmadı, gün korundu) | m: yıl yanlış yerde
+- arayuz | # Temmuz # (ÇELİŞKİ-#: TDV «Timişvar» # Şaban # = # Temmuz #'de garnizonun teslim olduğunu yazar; TDV «Kara Ahmed Paşa» #/# Temmuz der; Losonczy'nin kaleden çıkışı # Temmuz (olaylar_ek# Macar kaynağı) — iki gün de TDV içinde geçer, bağımsız ikinci akademik kaynak okunmadı, gün korundu) | m: duzeltme_002'deki sürümün yerine geçer: 9'dan çok sayı olduğundan indeksli ve düz '#' karıştırılamaz, hepsi sıralı
+- olay | OLAYLAR_EK:1663-04-13:0 | d: metin içinde Türkçe/Latin yazımlı yer adı kalıntısı
+- olay | OLAYLAR_EK:1663-09-24:0 | d: metin içinde Latin yazımlı yer adı kalıntısı
+- olay | OLAYLAR_EK:1788-12-17:0 | b: başlıkta Türkçe yer adı kalıntısı
+- olay | OLAYLAR_EK:1788-12-17:0 | d: Türkçe yer adı kalıntısı
+- olay | OLAYLAR_EK:1830-10-17:0 | d: Türkçe yer adı kalıntıları
+- olay | OLAYLAR_EK:1898-12-22:0 | d: metin içinde Türkçe yer adı kalıntısı
+- olay | OLAYLAR_EK:1916-04-29:0 | d: bozuk sayı yazımı
+- olay | OLAYLAR_EK:1357-08-01:0 | d: bozuk anlatım (nesnesiz 占めた)
+- olay | OLAYLAR_EK:1394-10-10:0 | d: bozuk anlatım
+- olay | OLAYLAR_EK:1403-06-01:0 | d: metin içinde Türkçe yer adı kalıntısı
+- olay | OLAYLAR_EK:1444-08-15:0 | d: metin içinde Türkçe yer adı kalıntısı
+- olay | OLAYLAR_EK2:1838-08-16:0 | d: bozuk anlatım
+- olay | OLAYLAR_EK2:1585-09-25:0 | d: 崩御 yalnız hükümdar için; paşa için yanlış
+- olay | OLAYLAR_EK2:1603-10-21:0 | d: cümle içinde Türkçe yer adı kalıntısı
+- olay | OLAYLAR_EK3:1403-02-01:0 | d: metin içinde Türkçe yer adı kalıntısı
+- olay | OLAYLAR_EK3:1410-06-15:0 | d: ルメリア/イスタンブル yazım tutarsızlığı; yarım genişlik noktalama
+- olay | OLAYLAR_EK3:1683-01-01:0 | d: YANLIŞ YER: İstolni Belgrad = Székesfehérvár, Belgrad değil
+- olay | OLAYLAR_EK3:1690-09-27:0 | d: cümle içinde Türkçe yer adı kalıntısı
+- olay | OLAYLAR_EK3:1695-02-22:0 | d: Hüseyin adı yanlış biçimde
+- olay | OLAYLAR_EK3:1695-09-22:0 | d: cümle içinde Türkçe yer adı kalıntısı
+- olay | OLAYLAR_EK4:1803-05-01:0 | d: Kölemen = Japonca yerleşik マムルーク
+- olay | OLAYLAR_EK4:1807-03-17:0 | d: Kölemen = マムルーク; 'karşılık' misilleme/intikam değil
+- olay | OLAYLAR_EK4:1811-03-01:0 | b: Kal'a Vakası 'カラ' anlaşılmaz; Kölemen = マムルーク
+- olay | OLAYLAR_EK4:1811-03-01:0 | d: Kölemen = マムルーク
+- olay | OLAYLAR_EK4:1820-07-20:0 | d: Kölemen = マムルーク
+- olay | OLAYLAR_EK4:1815-01-20:0 | d: cümle içinde Türkçe yer adı kalıntısı
+- olay | OLAYLAR_EK4:1818-09-09:0 | d: bozuk cümle yapısı
+- olay | OLAYLAR_EK4:1832-09-13:0 | d: iskele burada liman anlamında; 桟橋 yanlış
+- olay | OLAYLAR_EK4:1833-01-01:1 | d: cümle içinde Türkçe yer adı kalıntısı
+- olay | OLAYLAR_EK4:1832-09-13:1 | d: cümle içinde Türkçe yer adı kalıntısı
+- olay | OLAYLAR_EK4:1833-05-06:0 | b: Kavalalı = Kavalalı ailesi; 'の者' bozuk
+- olay | OLAYLAR_EK5:1671-01-01:0 | d: ağa unvanı yanlış yazılmış
+- olay | OLAYLAR_EK5:1303-01-01:0 | d: yanlış anlam: düşman geri çekildi, sürüklenmedi
+- olay | OLAYLAR_EK5:1333-08-01:0 | d: Türkçe binlik ayırıcı Japoncada 12,000 gibi okunmaz; 金 → 金貨
+- olay | OLAYLAR_EK5:1345-01-01:0 | d: Latin yer adı kalıntısı; 安全保障 yanlış anlam (eman)
+- olay | OLAYLAR_EK5:1400-08-01:0 | d: bozuk anlatım (diri diri gömdürdü)
+- olay | OLAYLAR_EK5:1402-03-13:0 | d: külâh 'karapak/kalpak' değil; yanlış anlam
+- olay | OLAYLAR_EK5:1402-09-15:0 | d: ad tutarsızlığı (イルドゥルム・バヤジト); yer adı yazımı
+- olay | OLAYLAR_EK5:1404-03-01:0 | d: ルメリ → ルメリア; noktalama
+- olay | OLAYLAR_EK5:1406-01-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1408-06-01:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1408-06-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1393-09-01:0 | d: yineleme hatası
+- olay | OLAYLAR_EK5:1398-07-15:0 | d: bozuk/yanlış anlatım
+- olay | OLAYLAR_EK5:1324-01-01:0 | d: Latin ad kalıntısı; bozuk dilbilgisi
+- olay | OLAYLAR_EK5:1393-06-01:0 | d: ad yazımı tutarsız (バヤジット)
+- olay | OLAYLAR_EK5:1415-03-01:0 | d: tarih sırası bozuk / hicrî belirtilmemiş
+- olay | OLAYLAR_EK5:1468-01-17:0 | d: İzlâdi = Zlatitsa; öteki kayıtlarla aynı yerleşik biçim
+- olay | OLAYLAR_EK5:1491-05-01:0 | d: bozuk ad: Osman Hafsî 'Uthman Hafsid hanedanı' gibi olmuş
+- olay | OLAYLAR_EK5:1502-03-01:0 | d: bozuk cümle (nesne eksik)
+- olay | OLAYLAR_EK5:1516-06-20:0 | b: bozuk anlatım
+- olay | OLAYLAR_EK5:1516-06-20:0 | d: bozuk anlatım
+- olay | OLAYLAR_EK5:1517-01-02:0 | d: bozuk anlatım (konak = 行程)
+- olay | OLAYLAR_EK5:1517-08-28:0 | d: kalyata = galiot, kalyon değil; sayı
+- olay | OLAYLAR_EK5:1543-08-10:0 | b: İstolni Belgrad = Székesfehérvár; Belgrad ile karışıyor, öteki kayıtlarla tutarlı biçim
+- olay | OLAYLAR_EK5:1543-08-10:0 | d: yerleşik Japonca yer adı; öteki kayıtlarla tutarlı
+- olay | OLAYLAR_EK5:1567-04-01:0 | d: bozuk anlatım
+- olay | OLAYLAR_EK5:1618-02-26:0 | d: bozuk anlatım
+- olay | OLAYLAR_EK5:1658-08-27:0 | d: bozuk dilbilgisi
+- olay | OLAYLAR_EK5:1664-08-09:0 | d: yer adı tutarsızlığı: Uyvar öteki kayıtlarda ノヴェー・ザームキ
+- olay | OLAYLAR_EK5:1704-01-01:0 | b: Kölemen = マムルーク
+- olay | OLAYLAR_EK5:1704-01-01:0 | d: Kölemen = マムルーク
+- olay | OLAYLAR_EK5:1716-08-20:0 | d: Latin harfli Türkçe ad kalıntısı
+- olay | OLAYLAR_EK5:1552-07-27:0 | b: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK5:1552-07-27:0 | d: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK5:1716-11-16:0 | b: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK5:1716-11-16:0 | d: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK5:1724-06-24:0 | d: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK5:1725-07-28:0 | d: Latin yer adı kalıntısı; 'en ileri sınır' = en çok ilerlemiş, 'en doğuya' değil
+- olay | OLAYLAR_EK5:1732-01-08:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1732-01-08:0 | d: Latin ad kalıntıları
+- olay | OLAYLAR_EK5:1733-05-01:0 | b: Latin kalıntı
+- olay | OLAYLAR_EK5:1733-05-01:0 | d: Latin ad kalıntıları
+- olay | OLAYLAR_EK5:1736-09-01:0 | d: Latin kalıntı
+- olay | OLAYLAR_EK5:1737-08-04:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1739-10-03:0 | d: bozuk cümle
+- olay | OLAYLAR_EK5:1743-10-23:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1746-09-04:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1746-09-04:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1757-10-30:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1770-08-01:0 | d: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK5:1771-07-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1774-06-25:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1774-06-25:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1779-03-21:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1779-03-21:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1788-02-09:0 | d: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK5:1791-08-04:0 | d: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK5:1792-01-10:0 | d: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK5:1795-03-01:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1795-03-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1799-05-20:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1803-04-30:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1803-08-06:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1803-08-06:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1805-06-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1809-01-05:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1813-10-05:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1827-03-14:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1827-03-14:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1830-05-07:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1831-09-14:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1834-07-01:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1834-07-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1839-01-19:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1849-01-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1849-08-16:0 | d: bozuk anlatım
+- olay | OLAYLAR_EK5:1849-05-01:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1849-05-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1851-02-11:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1851-02-11:0 | d: Latin ad kalıntıları
+- olay | OLAYLAR_EK5:1853-11-11:0 | d: Latin ad kalıntısı; bozuk dilbilgisi (損害を出させて)
+- olay | OLAYLAR_EK5:1855-08-16:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1855-08-16:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1856-03-30:0 | d: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK5:1859-09-14:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1859-09-14:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1860-05-30:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1860-10-22:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1860-10-22:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1861-06-09:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1866-08-21:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1868-01-04:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1868-05-10:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1868-05-10:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1870-03-11:0 | b: eksarhlık patrikhane (総主教座) değildir
+- olay | OLAYLAR_EK5:1871-04-20:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1871-09-20:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1871-09-07:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1871-09-07:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1872-04-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1875-10-06:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1875-06-19:0 | d: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK5:1876-08-31:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1877-07-19:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1877-07-19:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1877-12-10:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1881-12-20:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1881-12-20:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1884-05-08:0 | d: Latin kalıntı (Yıldız, şîrpençe)
+- olay | OLAYLAR_EK5:1889-06-02:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1889-06-02:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1897-04-17:0 | d: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK5:1905-07-21:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1905-07-21:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1905-09-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1908-12-17:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1909-04-27:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1910-04-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1912-10-18:0 | d: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK5:1913-06-11:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1913-06-11:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1913-11-14:0 | d: müftü hâkim değil, hukuk âlimi
+- olay | OLAYLAR_EK5:1914-08-02:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1914-11-14:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1919-10-22:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1920-12-03:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1921-04-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1538-08-03:0 | d: Latin ad kalıntısı; 'kaptan kapısı' = kapudan paşa gemisi/huzuru, 艦長の門 anlamsız
+- olay | OLAYLAR_EK5:1543-07-21:0 | b: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK5:1543-07-21:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1544-09-01:0 | b: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK5:1544-09-01:0 | d: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK5:1545-12-26:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1696-01-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1701-01-01:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1701-01-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1914-12-09:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1547-02-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1548-07-27:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1548-08-24:0 | d: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK5:1550-01-01:1 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1550-01-01:1 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1551-09-07:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1551-09-07:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1552-09-04:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1555-01-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1555-09-27:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1500-12-24:0 | d: yer adı tutarsızlığı (öteki kayıtlarda モドン・コロン)
+- olay | OLAYLAR_EK5:1537-10-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1523-01-05:0 | d: Latin yer adı kalıntısı
+- olay | OLAYLAR_EK5:1513-01-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1522-01-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1522-05-29:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1528-01-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1536-01-01:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1536-01-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1543-01-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1566-04-14:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1566-04-15:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1570-07-02:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1578-11-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1578-10-05:0 | b: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1578-10-05:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1583-09-13:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1588-09-01:0 | d: Latin ad kalıntısı
+- olay | OLAYLAR_EK5:1718-07-21:0 | d: Latin ad kalıntıları

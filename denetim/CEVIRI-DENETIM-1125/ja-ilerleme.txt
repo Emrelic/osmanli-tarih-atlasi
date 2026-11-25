@@ -1,4 +1,10 @@
+== ilerleme.txt
 Okunan paketler (tam): 1_arayuz_001..009 (9), 2_devlet_001..011 (11), 3_bayrakli_001..002 (2/32), 4_olay_001..006
 Okunmayan: 3_bayrakli_003..015 (sınırdaki 16..032 dahil), 4_olay_007 ve sonrası
 Bakılan kayıt: arayuz tüm 9 paket; devlet tüm 11 paket; olay = 4_olay_001..006 + 3_bayrakli_001..002 içindekiler
 Not: aynı id için birden çok düzeltme varsa numarası büyük dosya geçerlidir.
+
+== ilerleme_a.txt
+Tamamen okunan paketler: 4_olay_007..036 (30 paket)
+Okunmayan: 4_olay_037..040
+Düzeltme dosyaları: duzeltme_a_001..011
