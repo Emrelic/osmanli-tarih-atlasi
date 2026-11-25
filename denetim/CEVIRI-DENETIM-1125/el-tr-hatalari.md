@@ -26,3 +26,30 @@
 - olay OLAYLAR_EK5:1345-01-01:0, 1385-01-01:0: kaynak çelişkisi/"burada 1385 esas alınmıştır" iç not üslubu.
 - olay OLAYLAR_EK5:1716-10-13:0, 1716-11-16:0, 1791-08-04:0: "atlasta ... yazılıdır", "abi-merkez zinciri", "beyanlı yaklaşıklık", "n. 118".
 - olay OLAYLAR_EK5:1775-05-07:0, 1518-01-01:0: "(gün teyitsiz)" iç not.
+
+== tr_hatalari_c.md
+- olay OLAYLAR_EK10:1420-01-01:0: TR.d'de kullanıcıya görünen iç atıf "(... — TDV silistre)".
+- olay OLAYLAR_EK11:1502-01-01:0: "on kayıt hâlinde" (iç veri sözü) ve "(gün teyitsiz)" kullanıcıya görünüyor.
+- olay OLAYLAR_EK11:1747-06-20:0: "gün teyitsiz" iç notu.
+- olay OLAYLAR_EK11:1796-01-01:0: Meşhed cümlesi bozuk ("Meşhed ... Ağa Muhammed Şah'ın önünde Şâhruh tarafından karşılandı").
+- olay OLAYLAR_EK14:1568-01-01:0: "(tamamlanışı kronolojide zaten kayıtlı)" iç not.
+- olay OLAYLAR_EK16:1335..1905 (EK16:1438-01-01:0): "harita bu sürecin başlangıcını ... esas alıyor" (bilgi amaçlıysa sorun değil, bakılmalı).
+- olay OLAYLAR_EK16:1941-07-09:0: "arama özeti [özet]" geliştirici notu.
+- olay OLAYLAR_EK16:1341-01-01:0: "(künyede Özbek/Canibek)" iç veri sözü.
+- olay OLAYLAR_EK16:1941-07-28:0: son cümle bozuk ("Estonya sivil idaresi 5 Aralık 1941'de, Belarus'un doğusu askerî idarede kaldı").
+- olay OLAYLAR_EK16:1307-01-01:0: "(atlas künye tarihi 1307; ...)" iç not.
+- olay OLAYLAR_EK16:1945-05-08:0: başlıkta İngilizce "Courland Army Group".
+- olay OLAYLAR_EK16:1941-06-23:0, :1, 1944-07-16:0, 1944-07-28:0: Türkçe karakterler eksik ("isgal", "Dogu Cephesi", "Kizil"); açıklamalar yalnız etiket.
+- olay OLAYLAR_EK17:1725-01-01:0: "Gün TDV'de belirtilmiyor, yıl beyan" iç not.
+- olay OLAYLAR_EK20:1768-05-15:0: "Bu yıl (1768)" ifadesi ve "gün teyitsiz" iç notu.
+- olay OLAYLAR_EK22:1923-07-24:0: TBMM onay günü metin içinde çelişiyor (23 Ağustos 1923 / tabloda 2 Ağustos 1923); "özetlerinde geçmiyor", "İzmir özelinde madde kanıtı yok", "TDV'nin madde aralıkları da böyledir" iç notları.
+- olay OLAYLAR_SENKRON_0930:1436-01-01:0: "Atlas ... (beyanlı yaklaşıklık)" iç not.
+- olay OLAYLAR_2S_0918:1901-09-02:0: "Rey Buba (Adamava (Alman payı))" iç veri etiketi.
+- olay OLAYLAR_2S_0918:1889-01-01:0: "Kerene" (kesme işaretsiz/bozuk ek).
+- olay OLAYLAR_2S0920:1955-11-23:0 ve 1958-10-01:0: İngilizce yasa adları ağır; bkz. metin.
+- olay OLAYLAR_2S0920:1941-05-05:0: "Atlas bu günü ... dönüş sınırı olarak kullanır" iç not.
+- olay OLAYLAR_2S0920:1942-01-01:0: "(bkz. ic_not)" kullanıcıya görünen geliştirici metni (çeviride de "βλ. ic_not" duruyor; TR düzelince çeviri de güncellenmeli). ACİL.
+- olay OLAYLAR_2S0920:0224-04-28:0: "Atlas Isfahan'ı ... sayar" iç not.
+- olay OLAYLAR_SENUSI_0919:1691-01-01:0: "Eski kayıtta ... beyanlı boşluktu; ... artık Habsburg olarak boyanır" geliştirici notu.
+- olay OLAYLAR_SENUSI_0919:1716-10-18:0, 1688-01-01:0: "Eski kayıt ... yıl tabanı" geliştirici notu.
+- olay OLAYLAR_SENUSI_0919:1717-01-01:0: "petekleri ... boyanır; kesin gün teyitsizdir" motor/geliştirici notu.
