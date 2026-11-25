@@ -293,7 +293,7 @@ window.CEVIRI_DIZIN = {
   "zh": [
    [
     "ceviri_zh_arayuz.js",
-    "d7428a97"
+    "ded12c9d"
    ],
    [
     "ceviri_zh_devlet.js",
