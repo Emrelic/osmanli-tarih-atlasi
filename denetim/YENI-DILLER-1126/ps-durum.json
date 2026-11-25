@@ -1,0 +1,53 @@
+{
+"hazir": {
+"arayuz": [
+504,
+2034
+],
+"devlet": [
+580,
+2315
+],
+"olay": [
+125,
+5196
+]
+},
+"mekanik_atlanan": [
+[
+"arayuz",
+"# Eylül # (gün: Azmi Süslü, \"Osmanlı-Fransız Diplomatik İlişkileri, #-#\", TTK Belleten XLVII/#, #)",
+"turkce harf kalintisi"
+],
+[
+"arayuz",
+"# Temmuz # (ÇELİŞKİ-#: TDV «Timişvar» # Şaban # = # Temmuz #'de garnizonun teslim olduğunu yazar; TDV «Kara Ahmed Paşa» #/# Temmuz der; Losonczy'nin kaleden çıkışı # Temmuz (olaylar_ek# Macar kaynağı) — iki gün de TDV içinde geçer, bağımsız ikinci akademik kaynak okunmadı, gün korundu)",
+"turkce harf kalintisi"
+],
+[
+"arayuz",
+"# Temmuz # [ÇELİŞKİ-# BALKAN-HALEF: kaynaklar #/#/#/# Temmuz arasında ayrışır — TDV «Edirne» #, TDV «Bulgaristan» #; Çetin, TÜBA «Millî Mücadele Döneminde Edirne» #; TTK «Balkan Harbi» # (# Temmuz Kırklareli); Zamacı, Balkan Araştırma Enst. Dergisi #/# (#) s.#: # (# Kırklareli); Tamat, Atatürk Yolu # (#): Bulgar işgali # Mart-# Temmuz #. Çift teyit yazılamaz; gün TDV «Edirne» ile # korundu]",
+"turkce harf kalintisi"
+],
+[
+"arayuz",
+"# [yalnız yıl teyitli; TDV «Karamanoğulları» Nisan # der, okunan akademik kaynaklarda gün yok; ÇELİŞKİ-#: merkez toprakların ilhakı #, beyliğin siyasi sonu için bkz. karaman künye ic_not_t]",
+"turkce harf kalintisi"
+],
+[
+"arayuz",
+"#devlet-secici-panel summary",
+"hedef yazi yok"
+],
+[
+"arayuz",
+"#ob-detay, #ob-baslik, #ob-ozel, #olay-bilgi",
+"hedef yazi yok"
+],
+[
+"olay",
+"OLAYLAR:1783-04-19:0 d",
+"turkce harf kalintisi"
+]
+]
+}
