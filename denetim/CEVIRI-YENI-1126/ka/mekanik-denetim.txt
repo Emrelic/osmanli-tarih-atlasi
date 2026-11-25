@@ -1,7 +1,7 @@
 taban origin/main 24bca150f
 arayuz 2028/2034
-devlet 1461/2315
-olay 1190/5196
+devlet 1826/2315
+olay 1253/5196
 
 c_arayuz_01.jsonl:28 arayuz ALINMADI (yer tutucu farkli) n=28
 c_arayuz_01.jsonl:68 arayuz ALINMADI (yer tutucu farkli) n=68
@@ -18,3 +18,10 @@ c_arayuz_04.jsonl:91 arayuz uyari: hedef yazi yok n=924
 c_arayuz_05.jsonl:91 arayuz uyari: hedef yazi yok n=1254
 c_arayuz_05.jsonl:209 arayuz uyari: hedef yazi yok n=1372
 c_arayuz_06.jsonl:184 arayuz uyari: hedef yazi yok n=1649
+c_olay_051.jsonl:34 olay ALINMADI (yer tutucu farkli) n=1735
+c_olay_051.jsonl:35 olay ALINMADI (yer tutucu farkli) n=1736
+c_olay_051.jsonl:36 olay ALINMADI (yer tutucu farkli) n=1737
+c_olay_051.jsonl:37 olay ALINMADI (yer tutucu farkli) n=1738
+c_olay_051.jsonl:38 olay ALINMADI (yer tutucu farkli) n=1739
+c_olay_051.jsonl:39 olay ALINMADI (yer tutucu farkli) n=1740
+c_olay_051.jsonl:40 olay ALINMADI (yer tutucu farkli) n=1741
