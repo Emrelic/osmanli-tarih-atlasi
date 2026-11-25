@@ -92,10 +92,27 @@ tersane = brodogradilište · saray = saraj · divan = divan · levend = levend 
 - Sokullu = Mehmed-paša Sokolović; Köprülü = Ćuprilić; Pasarofça = Požarevac; Üsküdar = Uskudar; Rusçuk = Rusčuk (Ruse); İbrail = Braila
 - Tanzimat = Tanzimat; Meşrutiyet = Ustavna monarhija / meşrutiyet; İttihat ve Terakki = Komitet "Jedinstvo i napredak"; Kuvâ-yi Milliye = Nacionalne snage
 
+== sozluk_e.md
+# bs sozluk (ajan e, olay_043..058) — sozluk_a..d esas; ek:
+- Kızıl Ordu = Crvena armija · Alman Ordusu = njemačka vojska · Merkez Ordular Grubu = Grupa armija Centar · cephe = front · TBMM = Velika narodna skupština Turske · Millî Mücadele = Nacionalna borba · Büyük Taarruz = Velika ofanziva
+- TDV'nin X maddesine göre = Prema članku X u TDV · Lozan = Lozana · Sevr = Sèvres / Sèvreski ugovor · Mondros = Mudrosko primirje · Mudanya = Mudanijsko primirje
+- Ahıska = Ahalcihe · Tiflis = Tbilisi · Revan (şehir, modern) = Erivan · Gümrü = Gjumri · Faş (Poti) = Faš (Poti) · Özi = Očakov · Hotin = Hotin · Yaş = Jaši · İbrail = Braila · Silistre = Silistra · Rusçuk = Rusčuk · Pirot (Şehirköy) = Pirot · Alacahisar = Alaca-Hisar (Kruševac) · İşkodra = Skadar · Avlonya = Valona · Manastır = Bitola · Üsküp = Skoplje · Herseknovi = Herceg Novi · Lugoş/Karánsebes = Lugoš/Karanšebeš · Orsova = Oršava
+- Seç = Sič · koşevoy = koševoj · mahlas: Büyük Knez = veliki knez · MÖ ~ = ~... p. n. e.
+
 == sozluk_f.md
 # bs sozluk (ETIKET f) — olay_059..074 (antik); sozluk_a esas
 - sahipsiz aralık = interval bez vlasnika; "X noktalarında sahiplik A'dan B'ya geçer" = "Na lokacijama X pripadnost se mijenja: A → B."
 - Kaynak geçiş bilgisi: = Podaci izvora o promjeni: · Kaynak: = Izvor: · ayni kaynak = isti izvor · KAYNAKLANMADI = BEZ IZVORA
 - MÖ = p. n. e. · MS = n. e. · yazılı gelenek = pisana tradicija · cal BC / BP / MC aynen
 - devlet adları c_devlet ile aynı: Seleukidsko carstvo, Partsko (arsakidsko) carstvo, Ahemenidsko (perzijsko) carstvo, Carstvo Aleksandra Velikog, Novoasirsko carstvo, Medijsko kraljevstvo, Rimska Republika, Rimsko Carstvo
+
+== sozluk_h.md
+# bs sozluk (ETIKET h) — olay_091..106; sozluk_a ve f esas
+## Antik adlar
+Ptolemejevići / ptolemejska država (Ptolemaios) · Ptolemej · Antioh · Seleuk · Seleukidi · Cele-Sirija (Koile-Suriye) · Kleopatra · Antonije · Oktavijan · August · Cezar
+Perdika · Dijadosi · Demetrije · Antigon · Aleksandar · Artakserks · Kserks · Darije · Kambiz · Nektaneb · Psametih · Neho II · Amazis · Aprije · Šošenk · Sanherib · Asarhadon · Asurbanipal · Nabukodonozor
+Memfis · Teba · Aleksandrija · Peluzij · Elefantina · Sijena (Syene) · File (Philae) · Kuš / kušitski · Napata · Meroe · Delta · Gornji/Donji Egipat · Kirenaika
+Josip Flavije · Plutarh · Polibije · Herodot · Strabon · Arijan · Dion Kasije
+## Terimler
+prefekt · satrap · satrapija · posada (garnizon) · izaslanik (elçi) · danak (haraç) · stela · natpis
 
