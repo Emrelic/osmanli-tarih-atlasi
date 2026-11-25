@@ -1,4 +1,2 @@
 yer tutucu farkli, ALINMADI: # Ocak # (imzalar # Ocak-# Mart arası şeyhlik tamamlandı)
 yer tutucu farkli, ALINMADI: # Temmuz # (Jülyen takvimiyle # Haziran)
-EKSIK: # Ocak # (imzalar # Ocak-# Mart arası şeyhlik tamamlandı)
-EKSIK: # Temmuz # (Jülyen takvimiyle # Haziran)

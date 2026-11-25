@@ -40,6 +40,8 @@
   "c. # (yalnız yıl biliniyor)": "c. # (mwaka tu ndio unaojulikana)",
   "rötuş kaydı": "rekodi ya marekebisho madogo",
   "Şubat # (günü bilinmiyor)": "Februari # (siku haijulikani)",
-  "— bu ayar şimdilik bir şey değiştirmez": "— mpangilio huu kwa sasa haubadilishi chochote"
+  "— bu ayar şimdilik bir şey değiştirmez": "— mpangilio huu kwa sasa haubadilishi chochote",
+  "# Ocak # (imzalar # Ocak-# Mart arası şeyhlik tamamlandı)": "# Januari # (sahihi za mashehe zilikamilishwa kati ya # Januari na # Machi)",
+  "# Temmuz # (Jülyen takvimiyle # Haziran)": "# Julai # (# Juni kwa kalenda ya Juliasi)"
  }
 }
