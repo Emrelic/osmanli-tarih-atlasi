@@ -14,7 +14,7 @@ window.HUKUMDAR_PORTEKIZ = [
 { id:"portekiz-manuel1", devlet:"portekiz", ad:"I. Manuel", from:"1495", to:"1521",
   tahta:"1495",
   saltanat_yil:26,
-  ovgu:"Döneminde Portekiz, Hindistan merkezli bir deniz imparatorluğu kurma yolunda ilerledi; Jacqueline Hermann onun saltanatını bu yayılma tasarısının en görünür, başarılı dönemi sayar.",
+  ovgu:"Jacqueline Hermann, Portekiz'in deniz aşırı yayılma tasarısının en görünür anını onun başarılı saltanatında bulur.",
   yergi:"Safevîlerle kurmayı umduğu büyük ittifak somut sonuç vermedi.",
   tartisma:"Joao Teles e Cunha, kralın Şah İsmail gibi kutsal anlamlar yüklenmiş fetih tasarıları olduğunu ve bunun iki tarafı bir süre yakınlaştırdığını anlatır; ardılı III. João bu tasarıları bırakıp daha ihtiyatlı bir siyaset izledi.",
   kaynak:"J. Teles e Cunha, «Portugal i», Encyclopaedia Iranica (2009), https://www.iranicaonline.org/articles/portugal-i/ ; J. Hermann, História: Questões & Debates 45 (2006), s. 13", teyit:"teyitli",

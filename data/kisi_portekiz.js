@@ -1,7 +1,7 @@
 window.KISI_PORTEKIZ = [
 
 { id:"portekiz-infante-henrique", tur:"hanedan", ad:"Prens Henrique (Denizci Henrique)", devlet:"portekiz", t:"1460", donem:"ö. 1460",
-  not:"Kral I. João'nun oğullarından Henrique, Portekiz'in Atlantik'teki ilk açılımıyla anılır. Kronikçi Zurara, onun São Vicente Burnu yakınında gemilere destek olacak surlu bir yerleşim kurmaya giriştiğini aktarır; 1460 tarihli vasiyetnamesinde de benzer bir gerekçe vardır. Sagres'te bir denizcilik okulu ve gözlemevi kurduğu anlatısı sonraki yüzyıllarda büyümüş, özellikle 19. yüzyılda millî bir simgeye dönüşmüştür. Modern araştırma kurumsal bir okul için kanıt bulunmadığını vurgular. «Denizci» lakabının yaygınlaşmasında 19. yüzyılın İngiliz biyografı R. H. Major'ın payı büyüktür.",
+  not:"Kral I. João'nun oğullarından Henrique, Portekiz'in Atlantik'teki ilk açılımıyla anılır. Kronikçi Zurara, onun São Vicente Burnu yakınında gemilere destek olacak surlu bir yerleşim kurmaya giriştiğini aktarır; 1460 tarihli vasiyetnamesinde de benzer bir gerekçe vardır. Sagres'te bir denizcilik okulu ve gözlemevi kurduğu anlatısı sonraki yüzyıllarda büyümüş, özellikle 19. yüzyılda millî bir simgeye dönüşmüştür. Modern araştırma kurumsal bir okul için kanıt bulunmadığını vurgular. Roca-Bruzzo, «Denizci» lakabını 19. yüzyılın İngiliz biyografı R. H. Major'a bağlar.",
   kaynak:"Pere Roca-Bruzzo, «La escuela de Sagres: la construcción de un mito historiográfico», Nuevas de Indias IV (2019), s. 81-111", teyit:"teyitli" },
 
 { id:"portekiz-afonso-de-albuquerque", tur:"yabanci-komutan", ad:"Afonso de Albuquerque", devlet:"portekiz", t:"1515", donem:"ö. 1515",
