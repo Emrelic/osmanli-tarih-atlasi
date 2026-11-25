@@ -1,0 +1,444 @@
+- arayuz | # (Sakız: #-# Haziran) | m: Türkçe yer adı kalıntısı (Sakız = Chios)
+- arayuz | # (Yayça'nın alınmasından sonra; süre 'kısa') | m: yerleşik yer adı Jajce
+- arayuz | # (Germiyan çeyizinden birkaç ay sonra) | m: çeyiz mehir (mas kawin) değil
+- arayuz | # Ağustos # (Magosa'nın teslimi) | m: yerleşik yer adı Famagusta
+- arayuz | # Ağustos # (Ateş: # Ağustos'ta Osmanlı müfrezesi çekildi) | m: Ateş yazar soyadı; 'api' diye çevrilmiş
+- arayuz | # Ocak # (imzalar # Ocak-# Mart arası şeyhlik şeyhlik tamamlandı) | m: ikileme anlamsız çevrilmiş
+- arayuz | # — önemsizleri ele | m: 'ele' = ele/süz, 'tangani' yanlış
+- arayuz | # tüzüğü, #'de yürürlüğe girdi | m: söz dizimi
+- arayuz | # ve üstü | m: 've üstü' = ke atas
+- arayuz | # yılı takvimde yoktur; milada (# Ocak MS #) gidildi | m: söz dizimi
+- arayuz | # Mart MÖ # | m: söz dizimi; diğer tarihlerle aynı biçim
+- arayuz | # (#) ilkbaharı | m: Endonezce söz dizimi
+- arayuz | # başları | m: söz dizimi
+- arayuz | # başları (#) | m: söz dizimi
+- arayuz | # başı | m: söz dizimi
+- arayuz | # sonları | m: söz dizimi
+- arayuz | # sonu | m: söz dizimi
+- arayuz | # sonu – # (# sonu – #) | m: söz dizimi
+- arayuz | # civarı | m: söz dizimi
+- arayuz | # dolayları | m: söz dizimi
+- arayuz | # dolayı | m: söz dizimi
+- arayuz | # dolayı (Bursa fethinden sonra) | m: söz dizimi
+- arayuz | # dolayı (Cebrî hânedanının kuruluşu XV. yüzyıl başına tarihlenir) | m: söz dizimi
+- arayuz | # dolayı (II. Murad'da başlayan süreç Fâtih'in cülûsuyla olgunlaştı) | m: söz dizimi
+- arayuz | # dolayı (ca #) | m: söz dizimi
+- arayuz | # dolayı (dönem başlangıcı) | m: söz dizimi
+- arayuz | # dolayı (farklı rivayetler vardır) | m: söz dizimi
+- arayuz | # dolayı (kesin gün/ay yok) | m: söz dizimi
+- arayuz | # dolayı (kuruluş kademeli bir süreçtir) | m: söz dizimi
+- arayuz | # dolayı (rivayete göre) | m: söz dizimi
+- arayuz | # (#-#) dolayı | m: söz dizimi
+- arayuz | #-# dolayı | m: söz dizimi
+- arayuz | #-# arası | m: söz dizimi
+- arayuz | #-# arası (TDV: Kandıra'dan sonra, Akça Koca'nın #'deki ölümünden önce) — tarih ÜST SINIR | m: söz dizimi
+- arayuz | #-# arası (en geç #) | m: söz dizimi
+- arayuz | #-# arası (Çelebi Mehmed dönemi), II. Murad döneminde kanunlaştı | m: söz dizimi
+- arayuz | #-# arası, en yoğunu # | m: söz dizimi
+- arayuz | #-# kışı | m: söz dizimi
+- arayuz | # kışı | m: söz dizimi
+- arayuz | # yazı | m: söz dizimi
+- arayuz | # sonbaharı | m: söz dizimi
+- arayuz | # yılı | m: söz dizimi
+- arayuz | # yılı içinde | m: söz dizimi
+- arayuz | # yıllarına doğru [tahmin; yalnız yıl; gün teyitsiz] | m: söz dizimi
+- arayuz | # öncesi, gün belirsiz | m: söz dizimi
+- arayuz | #'ya doğru (TDV yaklaşık yıl verir; gün/ay yok) | m: '#'ya doğru' = menjelang
+- arayuz | # Eylül # gecesi | m: söz dizimi
+- arayuz | #-# Kasım # gecesi | m: söz dizimi
+- arayuz | #-# Mayıs # gecesi | m: söz dizimi
+- arayuz | #/# Kasım # gecesi | m: söz dizimi
+- arayuz | # Ağustos # sabahı (# Ağustos «Muş işgalden kurtarılmıştır») | m: söz dizimi
+- arayuz | # Nisan # sonrası | m: söz dizimi
+- arayuz | 'i puansız) | m: Türkçe ek kalıntısı
+- arayuz | (kayıtta yüklenecek) | m: anlam bozuk
+- arayuz | Harekât okları (Harekât okları kutusu) | m: kutu adı arayüzdeki 'Panah operasi' ile tutarsız
+- arayuz | Mayıs # başı (berat; Dük VI. Heinrich'in ölümü Nisan #) — gün kaynakta yok | m: Endonezcede 'berat' = ağır; Osmanlı beratı açıklanmalı
+- arayuz | Ekim # (# günlük kuşatma ve baskının ardından) | m: baskın = serbuan, 'tekanan' (baskı) yanlış
+- arayuz | MS # civarı | m: söz dizimi
+- arayuz | MÖ # civarı | m: söz dizimi
+- arayuz | MÖ #-# arası | m: söz dizimi
+- arayuz | MÖ #. yy ortası | m: söz dizimi
+- arayuz | MÖ #–# arası (orta nokta MÖ #) | m: söz dizimi
+- arayuz | bu resmi nottan çıkar | m: 'resmi' = resim (belirtme hâli), 'resmî' sanılmış
+- arayuz | arşive gitti | m: bozuk anlatım
+- arayuz | km yakınındaki taşma örtüldü). | m: sayı 'km'den önce eklenir; parça sırası bozuk
+- arayuz | km'den kısa | m: sayı 'km'den önce eklenir; parça sırası bozuk
+- arayuz | Çağ bölmeli ölçek — | m: yanlış anlam (çağlara bölünmüş ölçek)
+- arayuz | şu oturumdan alınsın mı: | m: noktalama
+- arayuz | ’i süzgeçle gizli) | m: Türkçe ek kesmesi kalıntısı
+- arayuz | ’ten itibaren (açık uç) | m: Türkçe ek kesmesi kalıntısı, söz dizimi
+- arayuz | ’ten itibaren — bu hat # sınırından | m: Türkçe ek kesmesi kalıntısı, söz dizimi
+- arayuz | 🗣️ Nasıl bilirdiniz | m: 'nasıl bilirdiniz' = nasıl tanırdınız
+- arayuz | ⚠️ Siyasî katman kapalı — tarama şu an görünmüyor. | m: tarama = taralı dolgu (arsiran), scan değil
+- arayuz | 🗺 İsyan taraması (Eflak · Boğdan · Erdel) | m: tarama = taralı dolgu
+- arayuz | 📍 ② Yerleşim | m: uçuş ayarında 'yerleşim' = konumlandırma
+- arayuz | Yerleşim: olay mahalli ekranın ortasına mı gelsin, kenardan mı girsin. | m: uçuş ayarında 'yerleşim' = konumlandırma
+- arayuz | Yaklaşan — # gün içinde değişecek yer (soluk, kesikli) | m: yanlış anlam (yaklaşmakta olan değişim)
+- devlet | turkmen | m: boy adı Göklen
+- devlet | irlanda | m: bozuk anlatım: Gal beylikleri ve krallığı
+- devlet | savoya | m: TR sırası (önce kontluk, sonra dükalık)
+- devlet | lepenski-vir-trapez | m: 'trapez yapılı' = trapez planlı yapılar
+- devlet | cizre-emirligi | m: bey, beylerbeyi değil
+- devlet | sfaks-hammu-emirligi | m: gereksiz tekrar; Sefâkus = Safaqis
+- olay | OLAYLAR:1299-01:0 | b: Beylik, sultanlık değil
+- olay | OLAYLAR:1739-09-18:0 | d: Türkçe jargon/kalıntı (abi-merkez, Bosna Dubiçası)
+- olay | OLAYLAR_EK:1381-01-01:0 | b: çeyiz mehir (mas kawin) değil
+- olay | OLAYLAR_EK:1381-01-01:0 | d: çeyiz mehir (mas kawin) değil
+- olay | OLAYLAR_EK:1829-09-14:0 | d: Türkçe yer adları ve 'Utsmani' tutarsızlığı
+- olay | OLAYLAR_EK3:1683-01-01:0 | d: İstolni Belgrad = Székesfehérvár, Beograd değil (yanlış yer)
+- olay | OLAYLAR_EK3:1688-09-06:0 | d: Türkçe jargon kalıntısı (abi-merkez)
+- olay | OLAYLAR_EK3:1690-10-08:0 | d: Türkçe jargon kalıntısı (abi-merkez)
+- olay | OLAYLAR_EK3:1694-09-21:0 | b: Türkçe yer adı
+- olay | OLAYLAR_EK3:1694-09-21:0 | d: Türkçe yer adı
+- olay | OLAYLAR_EK3:1695-02-22:0 | b: Türkçe yer adı
+- olay | OLAYLAR_EK3:1695-02-22:0 | d: Türkçe yer adı
+- olay | OLAYLAR:1683-09-12:0 | d: yüklemsiz bozuk cümle, 'dalgası indirilen' anlatımı
+- olay | OLAYLAR_EK:1461-06-01:0 | d: 'bu günde' = bu tarihte; 'pada hari ini' 'bugün' anlamına geliyor
+- olay | OLAYLAR_EK:1463-06-01:0 | d: Türkçe kalıntı: 'uç beylik'
+- olay | OLAYLAR_EK:1717-08-18:0 | d: 'bu günde' = bu tarihte; 'pada hari ini' 'bugün' anlamına geliyor
+- olay | OLAYLAR_EK:1829-09-14:0 | d: Türkçe kalıntı: Eflak-Boğdan
+- olay | OLAYLAR_EK:1395-06-03:0 | d: 'bu günden' = bu tarihten itibaren; 'bugün' anlamına geliyordu
+- olay | OLAYLAR_EK:1478-01-15:0 | d: 'bu günden' = bu tarihten itibaren; 'bugün' anlamına geliyordu
+- olay | OLAYLAR_EK:1452-08-31:0 | d: anlatım: 'dört beş ay' = empat hingga lima bulan
+- olay | OLAYLAR_EK2:1740-05-30:0 | d: bozuk/anlamsız anlatım ('padişahla sınırlı olmaktan çıkarılıp')
+- olay | OLAYLAR_EK2:1868-09-01:0 | d: yazım hatası: Lisée
+- olay | OLAYLAR_EK2:1453-06-01:0 | d: 'köklü aile' yanlış çevrilmiş, cümle bozuk
+- olay | OLAYLAR_EK2:1648-08-18:0 | d: Türkçe kalıntı: 'ocak' (Yeniçeri Ocağı)
+- olay | OLAYLAR_EK2:1703-08-22:0 | d: 'dilinci' Endonezce sözcük değil
+- olay | OLAYLAR_EK2:1590-03-21:0 | d: bozuk, anlaşılmaz cümle yapısı
+- olay | OLAYLAR_EK4:1803-05-01:0 | d: Türkçe kalıntı: 'ocak'
+- olay | OLAYLAR_EK4:1815-01-20:0 | b: yanlış özel ad: 'Basel' İsviçre şehri; TR Bisel
+- olay | OLAYLAR_EK4:1820-11-01:0 | d: bozuk anlatım; terim tutarlılığı (tâbi = vasal)
+- olay | OLAYLAR_EK4:1832-09-13:0 | d: 'bu günden itibaren' = bu tarihten; 'hari ini' 'bugün' anlamına geliyor
+- olay | OLAYLAR_EK4:1849-08-02:0 | d: anlam bulanık/yanlış: yara Avrupa müdahalesiyle kapatılabildi
+- olay | OLAYLAR_EK5:1303-01-01:0 | d: yanlış anlam: boğaz burada dağ geçidi, 'selat' deniz boğazıdır
+- olay | OLAYLAR_EK5:1671-01-01:0 | d: Türkçe kalıntı: 'ocak'
+- olay | OLAYLAR_EK5:1415-06-01:0 | d: yanlış anlam: sancak beyliğine atandı, 'sancak beyine gönderildi' değil
+- olay | OLAYLAR_EK5:1517-01-24:0 | d: dilbilgisi hatası: 'memasukinya'
+- olay | OLAYLAR_EK5:1354-03-02:0 | d: bozuk cümle yapısı
+- olay | OLAYLAR_EK5:1357-09-01:0 | d: anlatım: eksik 'karena'
+- olay | OLAYLAR_EK5:1400-01-01:0 | d: yanlış anlam: jembatanlar tıbba ayrılmış gibi okunuyordu
+- olay | OLAYLAR_EK5:1446-05-05:0 | d: Türkçe kalıntı: 'ocak'
+- olay | OLAYLAR_EK5:1476-07-26:0 | d: ağır anlam hatası: Osmanlı ordusu da yenilmiş gibi çevrilmiş
+- olay | OLAYLAR_EK5:1517-01-27:0 | d: dilbilgisi hatası
+- olay | OLAYLAR_EK5:1517-07-06:0 | d: özel ad sırası yanlış; 'Ridaniyya' yazımı atlasın geri kalanıyla uyumsuz
+- olay | OLAYLAR_EK5:1517-07-12:0 | d: 'beratla' (ferman) 'dengan berat' = 'ağır biçimde' diye okunuyor
+- olay | OLAYLAR_EK5:1537-03-12:0 | d: bozuk cümle: Gazi Hüsrev Bey ile mühtedi iki ayrı kişi gibi okunuyordu
+- olay | OLAYLAR_EK5:1596-10-12:0 | d: anlam ters: kayıp moral 'yaratmış' gibi okunuyordu
+- olay | OLAYLAR_EK5:1603-12-20:0 | d: bozuk nedensellik/anlatım
+- olay | OLAYLAR_EK5:1640-02-09:0 | d: anlatım bozukluğu
+- olay | OLAYLAR_EK5:1705-07-12:0 | d: Türkçe kalıntı: 'ocak', 'Garp'
+- olay | OLAYLAR_EK5:1708-04-04:0 | d: Türkçe kalıntı: 'ocak', 'Garp'
+- olay | OLAYLAR_EK5:1711-07-29:0 | d: Türkçe kalıntı: 'ocak'; 'berat' açıklaması
+- olay | OLAYLAR_EK5:1732-07-01:0 | d: Türkçe kalıntı: 'ocak', 'Garp'
+- olay | OLAYLAR_EK5:1733-05-01:0 | b: Türkçe kalıntı: 'ocak' (korps)
+- olay | OLAYLAR_EK5:1733-05-01:0 | d: Türkçe kalıntı: 'ocak'
+- olay | OLAYLAR_EK5:1754-12-13:0 | d: Türkçe kalıntı: 'ocak'
+- olay | OLAYLAR_EK5:1739-07-22:0 | d: yanlış anlam: karadaki dar boğaz 'selat' (deniz boğazı) değil
+- olay | OLAYLAR_EK5:1867-04-18:0 | d: İngilizce kalıntı: 'Suzerainty'
+- olay | OLAYLAR_EK5:1905-07-21:0 | d: yanlış anlam: 'pembunuhan' (öldürme) değil suikast girişimi; Abdülhamid ölmedi
+- olay | OLAYLAR_EK5:1912-10-18:0 | d: bozuk dilbilgisi
+- olay | OLAYLAR_EK5:1913-06-11:0 | d: ters anlam: arabadan ateş edilmedi, arabasına ateş açıldı
+- olay | OLAYLAR_EK5:1555-09-27:0 | d: Türkçe kalıntı: 'ocak'
+- olay | OLAYLAR_EK5:1522-05-29:0 | d: unvan sırası yanlış
+- olay | OLAYLAR_EK5:1718-07-21:0 | d: Türkçe ekli yer adı; 'bu günden' = bu tarihten; dilbilgisi
+- olay | OLAYLAR_EK5:1792-02-12:0 | d: Türkçe kalıntı: 'ocak'
+- olay | OLAYLAR_EK5:1785-04-27:0 | d: bozuk cümle yapısı
+- olay | OLAYLAR_EK5:1926-05-16:0 | d: yanlış anlam: 'tempat ia menyatakan' kongrede bulunmuş gibi
+- olay | OLAYLAR_EK6:1334-01-01:0 | d: anlam yanlış: 'uzun süre kuşatma görmeden' tersine çevrilmişti
+- olay | OLAYLAR_EK6:1535-09-22:0 | b: 'tutum' burada hâkimiyet/tutunuş; 'sikap' (tavır) yanlış anlam
+- olay | OLAYLAR_EK6:1686-07-10:0 | d: bozuk anlatım
+- olay | OLAYLAR_EK6:1684-09-29:0 | d: 'bırakıldı' için 'ditinggalkan kepada' (terk edildi) yanlış
+- olay | OLAYLAR_EK6:1819-05-10:0 | b: 'bırakılması' = teslim/devir; 'ditinggalkan' terk edilme anlamı veriyor
+- olay | OLAYLAR_EK6:1819-05-10:0 | d: 'bırakıldı' için 'ditinggalkan kepada' yanlış
+- olay | OLAYLAR_EK5:1912-10-21:0 | d: 'bırakıldı' için 'ditinggalkan kepada' yanlış
+- olay | OLAYLAR_EK6:1829-04-30:0 | d: 'antik dönemdeki Navpaktos' yanlış/bozuk aktarılmış
+- olay | OLAYLAR_EK6:1831-01-01:0 | d: 'kota lama kosong' 'eski şehir boş' diye okunuyor
+- olay | OLAYLAR_EK6:1912-05-04:0 | d: 'masaya oturtmak' eksik çevrilmiş (perundingan yok)
+- olay | OLAYLAR_EK6:1920-05-27:0 | d: 'bırakıldı' için 'ditinggalkan kepada' yanlış
+- olay | OLAYLAR_EK6:1687-08-01:1 | b: 'bırakılması' = teslim; 'ditinggalkan' yanlış
+- olay | OLAYLAR_EK6:1687-08-01:1 | d: yanlış fiil ve 'barış yoluyla' bozuk
+- olay | OLAYLAR_ILIRYA0072:1806-01-01:0 | d: 'karşılanamaz' (temsil edilemez) yanlış
+- olay | OLAYLAR_EK7:1481-05-22:0 | d: 'yola çıkışını geride bıraktı' (önüne geçti) yanlış; sancak beyi söz dizimi bozuk
+- olay | OLAYLAR_EK7:1511-04-01:0 | d: 'beslenen' kelime kelime çevrilmiş, anlamsız
+- olay | OLAYLAR_EK7:1513-04-24:0 | d: bozuk söz dizimi
+- olay | OLAYLAR_EK7:1523-06-27:0 | d: Türkçe ay adı kalıntısı (Endonezce: Syakban)
+- olay | OLAYLAR_EK7:1545-10-01:0 | d: Türkçe ay adı kalıntısı
+- olay | OLAYLAR_EK7:1553-10-05:0 | d: karma yazımlı bozuk ay adı
+- olay | OLAYLAR_EK7:1572-06-13:0 | d: 'çektiri' (kürekli gemi) 'dayung' (kürek) diye çevrilmiş
+- olay | OLAYLAR_EK7:1579-10-12:0 | d: Türkçe ay adı kalıntısı
+- olay | OLAYLAR_EK7:1583-12-07:0 | d: bozuk anlatım
+- olay | OLAYLAR_EK7:1603-12-23:0 | d: anlamsız ifade
+- olay | OLAYLAR_EK7:1644-01-31:0 | d: 'fazla' (bütçe fazlası) 'kelebihan' diye anlamsız çevrilmiş
+- olay | OLAYLAR_EK7:1652-06-20:0 | d: 'fazla' = surplus
+- olay | OLAYLAR_EK7:1718-05-09:0 | d: 'fazla' = surplus
+- olay | OLAYLAR_EK7:1656-03-04:0 | d: yanlış anlam: 'çınar' (platanus) 'pohon ara' (incir) diye çevrilmiş
+- olay | OLAYLAR_EK7:1676-11-05:0 | d: Türkçe ay adı kalıntısı
+- olay | OLAYLAR_EK7:1695-05-25:0 | d: karma yazımlı bozuk ay adı
+- olay | OLAYLAR_EK7:1736-03-08:0 | d: karma yazımlı bozuk ay adı
+- olay | OLAYLAR_EK7:1808-07-19:0 | d: bozuk anlatım
+- olay | OLAYLAR_EK7:1808-07-28:0 | d: 'diturunkan ke takhta' anlamı bozuyor
+- olay | OLAYLAR_EK7:1826-06-19:0 | d: dilbilgisi: eksik fiil
+- olay | OLAYLAR_EK7:1829-09-14:0 | d: 'terkedildi' = teslim; 'ditinggalkan' yanlış
+- olay | OLAYLAR_EK7:1834-07-08:0 | d: bozuk anlatım
+- olay | OLAYLAR_EK7:1834-01-01:0 | d: İngilizce kalıntı
+- olay | OLAYLAR_EK7:1920-04-23:0 | d: bozuk anlatım
+- olay | OLAYLAR_7A4170:1863-04-03:0 | d: yanlış anlam: 'vilâyetin merkeze bağlılığı' 'vilayet merkezine bağlılık' diye okunuyor
+- olay | OLAYLAR_EK8:1603-03-01:0 | d: bozuk anlatım; 'tatlılıkla' anlamsız çevrilmiş
+- olay | OLAYLAR_EK8:1779-04-01:0 | d: 'postanın Kuveyt'ten çıkarılması' (yola çıkarılma) yanlış
+- olay | OLAYLAR_EK8:1830-02-03:0 | d: Türkçe ada adları (İstendil, Değirmenlik) yerleşik biçimle
+- olay | OLAYLAR_EK8:1793-01-01:0 | d: yanlış anlam: 'valisi üç kardeş' 'valinin üç kardeşi' diye okunuyor
+- olay | OLAYLAR_EK9:1841-01-01:0 | d: bozuk cümle
+- olay | OLAYLAR_EK9:1882-01-01:0 | d: dilbilgisi
+- olay | OLAYLAR_EK9:1883-12-23:0 | d: imla
+- olay | OLAYLAR_EK9:1741-06-12:0 | d: Tabarka zaten Tunus'ta; kastedilen Tunus şehri
+- olay | OLAYLAR_EK10:1912-11-28:0 | d: bozuk cümle
+- olay | OLAYLAR_EK10:1476-02-01:0 | d: yineleme / bozuk anlatım
+- olay | OLAYLAR_EK13:1569-01-01:0 | d: kullanıcıya görünen fazladan ters bölü (kaçış artığı)
+- olay | OLAYLAR_EK13:1861-05-21:0 | d: kullanıcıya görünen fazladan ters bölü
+- olay | OLAYLAR_EK15:1659-01-01:0 | d: kullanıcıya görünen fazladan ters bölü
+- olay | OLAYLAR_EK15:1337-09-09:0 | d: kullanıcıya görünen fazladan ters bölü
+- olay | OLAYLAR_EK14:1543-06-01:0 | d: bozuk söz dizimi
+- olay | OLAYLAR_EK14:1526-01-01:0 | d: bozuk anlatım
+- olay | OLAYLAR_EK14:1675-01-01:0 | b: yanlış anlam: 'cirit oynatması' (oynattırması) 'kendisi oynadı' olmuş
+- olay | OLAYLAR_EK14:1515-01-01:0 | d: 'göz' (tersane bölmesi) 'lubang' (delik) diye çevrilmiş
+- olay | OLAYLAR_EK14:1555-06-01:0 | d: var olmayan sözcük 'keprajinan'
+- olay | OLAYLAR_EK14:1727-06-01:0 | d: var olmayan sözcük 'keprajinan'
+- olay | OLAYLAR_EK17:1644-01-01:0 | d: yanlış özne: siyasete müdahale gücü büyüyen Cinci Hoca, Kösem değil
+- olay | OLAYLAR_EK17:1647-01-01:0 | d: 'samur' (sable) 'musang' diye yanlış hayvan
+- olay | OLAYLAR_EK17:1638-12-24:0 | d: 'üçte bire indirdi' belirsiz/yanlış; Türkçe ay adı
+- olay | OLAYLAR_EK17:1557-01-01:0 | d: Türkçe ay adı kalıntısı
+- olay | OLAYLAR_EK20:1768-05-15:0 | d: bozuk söz dizimi
+- olay | OLAYLAR_EK21:1811-04-01:0 | d: kullanıcıya görünen fazladan ters bölü
+- olay | OLAYLAR_EK21:1811-05-01:0 | d: kullanıcıya görünen fazladan ters bölü
+- olay | OLAYLAR_EK21:1509-01-01:0 | d: kullanıcıya görünen fazladan ters bölü
+- olay | OLAYLAR_EK21:1537-01-01:0 | d: kullanıcıya görünen fazladan ters bölü
+- olay | OLAYLAR_SENKRON_0930:1401-01-01:0 | d: 'bırakıldı' için 'ditinggalkan kepada' yanlış
+- olay | OLAYLAR_EK22:1923-07-24:0 | d: yanlış anlam: 'deniz havacılığı yasak' 'donanma yasak' olmuş
+- olay | OLAYLAR_EK:1829-09-14:0 | d: Türkçe yer adları ve 'Utsmani' tutarsızlığı
+- olay | OLAYLAR_EK:1829-09-14:0 | d: Türkçe kalıntı: Eflak-Boğdan
+- olay | OLAYLAR_EK:1829-09-14:0 | d: Türkçe yer adları ve 'Utsmani' tutarsızlığı
+- olay | OLAYLAR_EK:1829-09-14:0 | d: Türkçe kalıntı: Eflak-Boğdan
+- olay | OLAYLAR_SENKRON_0930:1556-03-12:0 | b: Türkçe kalıntı 'voyvodalık'
+- olay | OLAYLAR_SENKRON_0930:1556-03-12:0 | d: Türkçe kalıntı 'voyvodalık'
+- olay | OLAYLAR_SENKRON_0930:1664-06-14:0 | d: bozuk söz dizimi
+- olay | OLAYLAR_SENKRON_0930:1644-02-01:0 | d: bozuk anlatım
+- olay | OLAYLAR_2S_0918:1895-07-01:0 | d: Türkçe yazım 'Vacir'
+- olay | OLAYLAR_2S_0918:1881-01-24:0 | d: yerleşik ad: Ashgabat
+- olay | OLAYLAR_2S_0918:1902-05-07:0 | d: bozuk cümle, anlam kaybı
+- olay | OLAYLAR_2S_0919:1329-01-01:0 | d: Türkçe ada kalıntısı: Sakız = Chios
+- olay | OLAYLAR_2S_0919:1600-01-01:0 | d: Türkçe 'kazak' -> Kozak
+- olay | OLAYLAR_2S_0919:1861-01-01:0 | d: bozuk anlatım
+- olay | OLAYLAR_2S_0919:1885-02-14:0 | d: bozuk cümle
+- olay | OLAYLAR_2S_0919:1556-01-01:0 | d: unvan Endonezce 'Syah'
+- olay | OLAYLAR_2S_0919:1751-01-01:0 | b: yerleşik ad: Ahmad Syah Durrani
+- olay | OLAYLAR_2S_0919:1751-01-01:0 | d: yerleşik ad: Ahmad Syah Durrani
+- olay | OLAYLAR_AMERIKA0920:1718-05-01:0 | d: 'menzil' = pos/konak, 'jalur' değil
+- olay | OLAYLAR_AMERIKA0920:1821-09-15:0 | b: Genel Kaptanlık kişi değil, yönetim birimi
+- olay | OLAYLAR_AMERIKA0920:1821-09-15:0 | d: Genel Kaptanlık yanlış çevrilmiş
+- olay | OLAYLAR_2S0920:1913-05-14:0 | d: bozuk cümle, özne kayması
+- olay | OLAYLAR_2S0920:1723-11-18:0 | d: 'de' Felemenkçe 'oleh' gibi okunuyor
+- olay | OLAYLAR_SENUSI_0919:1596-05-10:0 | d: Türkçe kalıptan bozuk ifade
+- olay | OLAYLAR_SENUSI_0919:1691-01-01:0 | d: 'dilim' yanlış çevrilmiş
+- olay | OLAYLAR_SENUSI_0919:1738-05-08:0 | d: Türkçe kalıntı: Tuna = Danube, tabya = kubu; 'muhafız' burada garnizon
+- olay | OLAYLAR_SENUSI_0919:1717-01-01:0 | d: Türkçe kalıntı: Tuna = Danube
+- olay | OLAYLAR_SESSIZBORC0919:1349-01-01:0 | b: Türkçe yer adı: Mezistre = Mystras
+- olay | OLAYLAR_SESSIZBORC0919:1349-01-01:0 | d: Türkçe yer adı: Mezistre = Mystras
+- olay | OLAYLAR_P0069:1788-01-01:0 | b: Savaş = perang (muharebe değil)
+- olay | OLAYLAR_EBUKIR0919:1798-08-01:0 | b: yerleşik ad: Aboukir
+- olay | OLAYLAR_EBUKIR0919:1798-08-01:0 | d: yerleşik ad: Aboukir
+- olay | OLAYLAR_EBUKIR0919:1799-07-25:0 | b: yerleşik ad: Aboukir
+- olay | OLAYLAR_EBUKIR0919:1799-07-25:0 | d: yerleşik ad: Aboukir
+- olay | OLAYLAR_P0043B:1514-03-20:0 | d: yerleşik ad: Syah Ismail
+- olay | OLAYLAR_P0048:1592-01-01:0 | b: yerleşik ad: Syah Abbas
+- olay | OLAYLAR_P0048:1592-01-01:0 | d: yerleşik ad: Syah Abbas
+- olay | OLAYLAR_SENUSI_0919:1554-04-07:0 | d: Türkçe ülke adları: Eflak/Boğdan = Wallachia/Moldavia
+- olay | OLAYLAR_SERHAT:1458-01-01:0 | d: 'ditinggalkan kepada' = terk edilmiş anlamı verir; 'bırakıldı' = diserahkan
+- olay | OLAYLAR_P0043A:1456-01-01:0 | d: yanlış fiil: ditinggalkan -> diserahkan
+- olay | OLAYLAR_P0048:1603-01-01:0 | d: yerleşik biçim: Syah Abbas I
+- olay | OLAYLAR_P0049:1578-08-09:0 | b: atabeglik = yönetim, kişi değil
+- olay | OLAYLAR_P0049:1578-08-09:0 | d: yanlış fiil: ditinggalkan
+- olay | OLAYLAR_P0049:1555-05-29:0 | b: yanlış fiil: ditinggalkan
+- olay | OLAYLAR_P0049:1555-05-29:0 | d: yanlış fiil: ditinggalkan
+- olay | OLAYLAR_P0049:1595-01-01:0 | b: Türkçe nehir adı: Tuna = Danube
+- olay | OLAYLAR_P0049:1595-01-01:0 | d: Türkçe adlar: Tuna, Eflak
+- olay | OLAYLAR_P0049:1787-07-27:0 | d: Türkçe 'kölemen' = Mamluk; bozuk 'putus'
+- olay | OLAYLAR_P0049:1921-02-09:0 | b: yanlış fiil: ditinggalkan
+- olay | OLAYLAR_P0049:1921-02-09:0 | d: yanlış fiil: ditinggalkan
+- olay | OLAYLAR_P0049:1921-03-16:0 | d: yanlış fiil: ditinggalkan
+- olay | OLAYLAR_P0049:1603-01-01:0 | b: yerleşik biçim: Syah Abbas
+- olay | OLAYLAR_P0049:1603-01-01:0 | d: yerleşik biçim: Syah Abbas I
+- olay | OLAYLAR_P0049:1587-01-01:0 | d: yerleşik biçim: Syah Abbas
+- olay | OLAYLAR_P0049:1812-12-19:0 | b: Türkçe şehir adı: Bükreş = Bukares
+- olay | OLAYLAR_P0049:1812-12-19:0 | d: Türkçe şehir adı: Bükreş = Bukares
+- olay | OLAYLAR_P0049:1733-08-17:0 | d: Türkçe kalıntı 'Muahedesi'
+- olay | OLAYLAR_P0050:1527-01-01:0 | d: Türkçe sıra sayısı biçimi
+- olay | OLAYLAR_P0051:1570-01-01:0 | b: Kazak = Kazakh; Don kazakları Endonezce 'Kozak'
+- olay | OLAYLAR_P0051:1570-01-01:0 | d: Kazak = Kazakh; Don kazakları 'Kozak'
+- olay | OLAYLAR_P0053:1624-01-01:0 | d: yerleşik biçim: Syah Abbas
+- olay | OLAYLAR_P0053:1630-03-16:0 | d: yanlış fiil (ditinggalkan = terk edildi); Syah
+- olay | OLAYLAR_P0056:1810-06-10:0 | d: anlam tersi: 'kuşatmasına dayanan' = kuşatmaya karşı koyan
+- olay | OLAYLAR_P0056:1806-12-25:0 | b: Türkçe adlar: Bükreş, Eflak
+- olay | OLAYLAR_P0056:1806-12-25:0 | d: Türkçe adlar: Bükreş, Boğdan
+- olay | OLAYLAR_P0056:1806-11-30:0 | d: Türkçe ad: Bükreş; tekrarlı cümle
+- olay | OLAYLAR_P0057:1920-06-22:0 | d: bozuk anlatım
+- olay | OLAYLAR_P0057:1921-07-20:0 | d: 'tertangkap' = esir düştü anlamı verir
+- olay | OLAYLAR_P0057:1508-05-02:0 | b: yerleşik ad: Syah Ismail
+- olay | OLAYLAR_P0057:1508-05-02:0 | d: yerleşik ad: Syah Ismail
+- olay | OLAYLAR_P0058:1514-10-23:0 | d: yerleşik ad: Syah Ismail
+- olay | OLAYLAR_P0057:1917-01-09:0 | d: Türkçe kalıntı 'tabya'; bozuk anlatım
+- olay | OLAYLAR_P0059:1594-11-13:0 | b: Türkçe ülke adları
+- olay | OLAYLAR_P0059:1594-11-13:0 | d: Türkçe kalıntı: voyvodalık, Tuna, Eflak, Boğdan
+- olay | OLAYLAR_SEHIR_ILK:1494-02-06:0 | b: Türkçe sıra sayısı biçimi
+- olay | OLAYLAR_SEHIR_ILK:1494-02-06:0 | d: Türkçe sıra sayısı biçimi
+- olay | OLAYLAR_SEHIR_ILK:1805-01-01:0 | b: Kazak = Kazakh; Don kazakları 'Kozak'
+- olay | OLAYLAR_SEHIR_ILK:1805-01-01:0 | d: Kazak = Kazakh; 'Kozak'
+- olay | OLAYLAR_SEHIR_ILK:1654-01-01:0 | b: 'Kozak'; göçmen = pendatang
+- olay | OLAYLAR_SEHIR_ILK:1654-01-01:0 | d: 'Kozak'; göçmen = pendatang
+- olay | OLAYLAR_SEHIR_ILK:1552-01-01:0 | b: Kazak = Kazakh; 'Kozak'
+- olay | OLAYLAR_SEHIR_ILK:1552-01-01:0 | d: Kazak = Kazakh; 'Kozak'
+- olay | OLAYLAR_SEHIR_ILK:1593-01-01:0 | d: Kozak/Kazakh karışıklığı cümleyi anlamsız kılıyor
+- olay | OLAYLAR_SEHIR_ILK:1652-01-01:0 | d: Kazak = Kazakh; 'Kozak'
+- olay | OLAYLAR_SEHIR_ILK:1711-01-01:0 | b: Kazak = Kazakh; 'Kozak'
+- olay | OLAYLAR_SEHIR_ILK:1711-01-01:0 | d: Kazak = Kazakh; 'Kozak'
+- olay | OLAYLAR_SEHIR_ILK:1728-01-01:0 | d: Kazak = Kazakh; 'Kozak'
+- olay | OLAYLAR_SEHIR_ILK:1420-01-01:0 | d: anlam yanlışı: 'uzun süre' ≠ 'eski şehir'
+- olay | OLAYLAR_ARKEOLOJI_PILOT:-9299-01-01:0 | b: Türkçe yer adı: Eriha = Yerikho
+- olay | OLAYLAR_ARKEOLOJI_D3_AMERIKA_PASIFIK:-0499-01-01:0 | d: anlam yanlışı: 'San Jose Mogote Vadisi' yok; 'Vadi'de' Oaxaca vadisi
+- olay | OLAYLAR_ARKEOLOJI_D3_AMERIKA_PASIFIK:-1624-01-01:0 | d: anlam yanlışı: 'San Jose Mogote Vadisi' yok
+- olay | OLAYLAR_ARKEOLOJI_D3_HINT_CIN:-0482-01-01:0 | d: anlam yanlışı: aralık Aşoka'nın tarihine ekleniyor
+- olay | OLAYLAR_ARKEOLOJI_ZINCIR:-0026-01-01:0 | d: Türkçe kısaltma kalıntısı 'Kil. Tar.' (Kilise Tarihi)
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:0972-01-01:0 | b: 'menerima untuk' Türkçe 'kabul etti' kalkı; bozuk Endonezce
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:0972-01-01:0 | d: bozuk anlatım ('menerima untuk')
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1000-01-01:1 | b: bozuk anlatım ('menerima untuk')
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1000-01-01:1 | d: bozuk anlatım ('menerima untuk')
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1003-01-01:0 | d: sebep cümlesi kırık
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1095-06-25:0 | d: amcazade = kuzeni; 'babasının kuzeni' yanlış
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1107-01-01:0 | d: kişi için 'milik' (mülkiyet) yanlış
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1119-09-10:0 | d: TR 'Selçuk' kişi adı (Selçukşah); 'Seljuk' hanedan gibi okunuyor
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1157-04-13:0 | d: virgül eksikliği anlamı 'Selçuklu Devleti'nin ölümü' yapıyor
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1193-01-01:1 | d: 'çekişme' → 'perebutan Sultan Shah' (Sultan Şah'ın ele geçirilmesi) yanlış anlam
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1243-07-01:0 | b: bozuk anlatım ('menerima untuk')
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:0757-05-25:0 | d: anlam ters: şehir Sufrîler'den alınmadı, Sufrî olan Âsım aldı
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:1102-05-05:0 | d: imla ('janda-nya') ve bozuk anlatım
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:1147-10-25:0 | d: bozuk anlatım ('menerima untuk')
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:1148-01-01:0 | d: tutarsız yazım
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:1246-01-01:0 | b: 'bağlılığı kabul etti' yanlış anlamlı çevrilmiş
+- olay | OLAYLAR_ORTACAG_BIZANS_BALKAN:1210-06-20:0 | d: bozuk anlatım
+- olay | OLAYLAR_ORTACAG_BIZANS_BALKAN:1267-05-24:0 | d: bozuk anlatım
+- olay | OLAYLAR_ORTACAG_BIZANS_BALKAN:1333-01-01:0 | d: 'tuzlalı ikinci şehir' anlamı bozulmuş
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1032-01-01:0 | d: bozuk anlatım
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1042-01-01:0 | b: Türkçe lakap 'Demirkol' çevrilmemiş
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1042-01-01:0 | d: Türkçe lakap 'Demirkol' çevrilmemiş
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1056-01-01:0 | d: bozuk anlatım
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1189-01-01:0 | d: TR 'amcası kızı'; çeviri 'teyzesinin/halasının kızı' demiş (TR bilgisi de şüpheli, tr_hatalari'na yazıldı)
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1237-01-01:1 | d: yazım hatası
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1272-01-01:0 | b: Türkçe yazım (ç) kalıntısı
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1272-01-01:0 | d: Türkçe yazım (ç) kalıntısı
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1086-01-01:0 | d: bozuk anlatım
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1193-05-18:0 | d: anlam ters: öldürülen Begtemür, katil damadı Aksungur Hezâr Dînârî
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1220-01-01:0 | d: bozuk anlatım; hanedan adı kişi yerine geçmiş
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1225-01-13:0 | d: çarkçı = arbalet askeri; 'ketapel' (sapan/mancınık) yanlış
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1237-05-31:0 | d: 'veliaht yerine' bozuk çevrilmiş
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1243-01-01:2 | b: bozuk anlatım ('menerima membayar')
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1243-01-01:2 | d: bozuk anlatım ('menerima tunduk')
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1046-08-01:0 | b: 'hutbe okuttu' = okutturdu; çeviri kendisi okudu diyor
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1046-08-01:0 | d: 'hutbe okuttu' = okutturdu
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1141-01-01:0 | b: bozuk anlatım ('menerima tunduk')
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1141-01-01:0 | d: bozuk anlatım ('menerima membayar')
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1240-04-01:0 | d: söz dizimi bozuk
+- olay | OLAYLAR_ORTACAG_YER_SONRASI:1135-01-01:0 | d: Türkçe ada adı 'İskele' kalıntısı
+- olay | OLAYLAR_ANTIK_MISIR_NUBYA:-1649-01-01:0 | d: bozuk anlatım ('berasal Kanaan', 'dalam Breasted')
+- olay | OLAYLAR_ANTIK_MISIR_NUBYA:-2279-01-01:0 | b: diplomatik-ticari sefer 'kampanye' (askerî harekât) değil
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-0599-01-01:0 | d: 'tarih' (geçmiş) 'tarikh' (takvim tarihi) diye çevrilmiş
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-2016-01-01:0 | d: söz dizimi 'General İbbi-Sin' gibi okunuyor
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:0244-01-01:0 | d: bozuk anlatım
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0277-01-01:0 | d: Alıntı Türkçe bırakılmış; Endonezceye çevrildi
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0334-01-01:0 | d: Sözdizimi Philippos'un sonbaharda öldüğü anlamını veriyordu
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0960-03-03:0 | b: Fas burada Fez şehri; 'Maroko' yanlış
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0960-03-03:0 | d: Fas burada Fez şehri; 'Maroko' yanlış
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1075-08-16:0 | b: 'Emir Malikşah Savtegin' tek kişi adı gibi okunuyor
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1085-01-01:0 | b: Süleyman Şah'ın emîri yerine emir Süleyman Şah'ın kendisi gibi okunuyor
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1121-01-01:0 | d: Bozuk cümle yapısı
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1146-04-28:0 | d: Virgül ve 'kekuasaan' eksik; cümle anlaşılmıyor
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1196-01-01:0 | b: Virgül eksik; 'Alarcos Mansûr' ad gibi okunuyor
+- olay | OLAYLAR_2S1019:1516-08-24:0 | d: Anlam ters/bozuk: Osmanlı tâbiiyetini kabul ettiler
+- olay | OLAYLAR_2S1019:1903-03-15:0 | d: Bozuk cümle yapısı
+- olay | OLAYLAR_2S1019:1439-08-27:0 | d: 'abi merkez' 'kardeş merkezi' diye yanlış çevrilmiş
+- olay | OLAYLAR_2S1019:1458-08-06:0 | d: 'abi merkez' 'kardeş merkezi' diye yanlış çevrilmiş
+- olay | OLAYLAR_LAB19_2S_P4:1795-01-01:0 | d: 'Emir Su'ud' kişi adı gibi; Suudi emiri
+- olay | OLAYLAR_LAB19_2S_P6:1922-01-01:0 | d: 'Emir Su'ud Abdulaziz' tek kişi adı gibi; Suudi emiri
+- olay | OLAYLAR_LAB19_2S_P6:1037-01-01:0 | b: Fas burada Fez şehri, Maroko değil
+- olay | OLAYLAR_LAB19_2S_P6:1037-01-01:0 | d: Fas burada Fez şehri, Maroko değil
+- olay | OLAYLAR_DUNYA_AVRUPA_MO:-0668-01-01:0 | b: Sparta Pheidon yönetimindeymiş gibi okunuyordu
+- olay | OLAYLAR_KI117:1684-08-24:0 | d: Bozuk sözdizimi
+- olay | OLAYLAR_AVMAC_A_1029:1363-01-26:0 | d: Almanca kalıntı 'gräfin'
+- olay | OLAYLAR_AVMAC_B_1029:1527-11-03:0 | b: Türkçe tarihî ad; açıklamadaki yerleşik biçim Székesfehérvár
+- olay | OLAYLAR_AVMAC_C_1029:1919-11-16:0 | d: 'bupati' ilçe/kabupaten yöneticisi demek; naip = regen
+- olay | OLAYLAR_AVMAC_C_1029:1944-03-19:0 | d: 'dengan upaya' devirme aracı gibi okunuyor
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1481-12-11:3 | d: 'abi merkez' 'pusat abang' diye anlamsız çevrilmiş
+- olay | OLAYLAR_FRANSA_KONTROL_1027:1861-02-02:0 | d: Piyemonte-Sardinya'nın kendisi Fransa'ya devredilmiş gibi okunuyor
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1807-12-10:0 | d: 'bupati' ilçe yöneticisi; naip kraliçe
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1128-01-01:2 | b: Türkçe kalıntı 'abi merkez'
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1128-01-01:3 | d: Türkçe kalıntı 'abi merkez'
+- olay | OLAYLAR_NAPOLYON_ITALYA_1028:1128-01-01:4 | d: Türkçe kalıntı 'abi merkez'
+- olay | OLAYLAR_OK104:1304-01-01:0 | b: Aynı ad iki kez
+- olay | OLAYLAR_P0057B:1520-01-01:0 | d: Nedensellik yanlış: eserin kısmen ulaşma sebebi gibi çevrilmiş
+- olay | OLAYLAR_P0917KOSU13:1723-08-06:0 | d: Şehir garnizon olmuş gibi okunuyor
+- olay | OLAYLAR_P0068B:1791-08-31:0 | b: Bozuk sözdizimi
+- olay | OLAYLAR_P0068B:1791-10-16:0 | b: 'başka bir Rus tarafına geçti' anlamı veriyor
+- olay | OLAYLAR_KAMERIKA:1535-04-17:0 | b: 'Genel Valilik' (kurum) 'Wakil Raja' (kişi) diye çevrilmiş
+- olay | OLAYLAR_KAMERIKA:1535-04-17:0 | d: Kurum/kişi karışmış; İngilizce kalıntı parantez
+- olay | OLAYLAR_GEZGINLER:1493-11-03:0 | d: Özel ad yazımı: Puerto Rico
+- olay | OLAYLAR_GEZGINLER:1577-11-15:0 | d: Filo gemi Pelican'ın komutasındaymış gibi çevrilmiş
+- olay | OLAYLAR_GEZGINLER:1828-07-23:0 | d: Fas (Fez) şehir; 'Maroko' yanlış
+- olay | OLAYLAR_GEZGINLER:1855-01-01:0 | b: 'kervan yolu' güzergâhın ortasına girmiş
+- olay | OLAYLAR_GEZGINLER:1871-03-09:0 | b: 'on gezi' = 'ön gezi' (ön keşif); 'onuncu gezi' yanlış
+- olay | OLAYLAR_EK:1829-09-14:0 | d: Türkçe yer adları ve 'Utsmani' tutarsızlığı
+- olay | OLAYLAR_EK:1829-09-14:0 | d: Türkçe kalıntı: Eflak-Boğdan
+- olay | OLAYLAR_2S_0919:1600-01-01:0 | d: Türkçe 'kazak' -> Kozak
+- olay | OLAYLAR_P0051:1570-01-01:0 | b: Kazak = Kazakh; Don kazakları Endonezce 'Kosak'
+- olay | OLAYLAR_P0051:1570-01-01:0 | d: Kazak = Kazakh; Don kazakları 'Kosak'
+- olay | OLAYLAR_SEHIR_ILK:1805-01-01:0 | b: Kazak = Kazakh; Don kazakları 'Kosak'
+- olay | OLAYLAR_SEHIR_ILK:1805-01-01:0 | d: Kazak = Kazakh; 'Kosak'
+- olay | OLAYLAR_SEHIR_ILK:1654-01-01:0 | b: 'Kosak'; göçmen = pendatang
+- olay | OLAYLAR_SEHIR_ILK:1654-01-01:0 | d: 'Kosak'; göçmen = pendatang
+- olay | OLAYLAR_SEHIR_ILK:1552-01-01:0 | b: Kazak = Kazakh; 'Kosak'
+- olay | OLAYLAR_SEHIR_ILK:1552-01-01:0 | d: Kazak = Kazakh; 'Kosak'
+- olay | OLAYLAR_SEHIR_ILK:1593-01-01:0 | d: Kosak/Kazakh karışıklığı cümleyi anlamsız kılıyor
+- olay | OLAYLAR_SEHIR_ILK:1652-01-01:0 | d: Kazak = Kazakh; 'Kosak'
+- olay | OLAYLAR_SEHIR_ILK:1711-01-01:0 | b: Kazak = Kazakh; 'Kosak'
+- olay | OLAYLAR_SEHIR_ILK:1711-01-01:0 | d: Kazak = Kazakh; 'Kosak'
+- olay | OLAYLAR_SEHIR_ILK:1728-01-01:0 | d: Kazak = Kazakh; 'Kosak'
+- olay | OLAYLAR_ARKEOLOJI_LEVANT_ANADOLU:-9699-01-01:0 | d: Türkçe yer adı: Eriha = Yerikho
+- olay | OLAYLAR_OK107:1515-09-19:0 | d: yanlış fiil: ditinggalkan
+- olay | OLAYLAR_OK107:1514-09-15:0 | d: yerleşik ad: Syah Ismail
+- olay | OLAYLAR_OK109:1918-11-03:0 | d: Türkçe alıntı çevrilmemiş
+- olay | OLAYLAR_OK109:1920-06-04:1 | d: aynı şehir iki yazımla (Tımışvar)
+- olay | OLAYLAR_OK109:1919-06-28:0 | d: yerleşik ad: Sèvres
+- olay | OLAYLAR_OK109:1919-11-27:0 | d: Türkçe şehir adı: Bükreş
+- olay | OLAYLAR_P0049:1920-09-28:0 | d: yerleşik ad: Sèvres
+- olay | OLAYLAR_P0057:1920-07-20:0 | d: yerleşik ad: Sèvres; söz dizimi
+- olay | OLAYLAR_P0057:1920-08-29:0 | d: yerleşik ad: Sèvres
+- olay | OLAYLAR_OK109:1921-11-13:0 | b: yanlış fiil: ditinggalkan
+- olay | OLAYLAR_OK109:1921-11-13:0 | d: yanlış fiil: meninggalkan
+- olay | OLAYLAR_OK109:1918-11-19:0 | d: yanlış fiil: meninggalkan
+- olay | OLAYLAR_OK106:1703-05-17:0 | d: anlamsız cümle
+- olay | OLAYLAR_H7_ASAMA:1625-11-13:0 | d: 'boğazları tutma' burada dağ geçitleri; deniz boğazı değil
+- olay | OLAYLAR_T5_1000A:1112-01-01:0 | d: bozuk yazım
+- olay | OLAYLAR_T5_1000A:1258-01-01:0 | d: 'idaresindeki kuvvetler' = komutasındaki
+- olay | OLAYLAR_T5_1000A:1258-01-01:2 | b: yanlış fiil: ditinggalkan
+- olay | OLAYLAR_T5_1000A:1258-01-01:2 | d: bozuk fiil: meninggalkan ... kepada
+- olay | OLAYLAR_BK_ZINCIR_1024:1355-01-01:0 | b: Türkçe ada adı: Midilli = Lesbos
+- olay | OLAYLAR_BK_ZINCIR_1024:1355-01-01:0 | d: Türkçe ada adı: Midilli = Lesbos
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0962-12-01:0 | b: anlam yanlışı: 'kota lama' = eski şehir; 'uzun süre toparlanamadı'
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0962-12-01:0 | d: anlam yanlışı
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1161-01-01:0 | b: 'Prinkepsin' burada kadın hükümdar Konstance; 'pangeran' yanlış
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1161-01-01:0 | d: 'Prinkepsin' burada Konstance; 'pangeran' yanlış
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1202-01-01:0 | b: bozuk, tekrarlı anlatım
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1202-01-01:0 | d: bozuk, tekrarlı anlatım
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1249-11-23:0 | b: bozuk anlatım
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1249-11-23:0 | d: bozuk anlatım
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1285-01-01:0 | b: tekrarlı ifade
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1285-01-01:0 | d: tekrarlı ifade
