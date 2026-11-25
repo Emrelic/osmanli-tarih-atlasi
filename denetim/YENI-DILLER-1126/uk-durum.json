@@ -1,24 +1,19 @@
 {
 "hazir": {
 "arayuz": [
-2011,
+2014,
 2034
 ],
 "devlet": [
-2030,
+2315,
 2315
 ],
 "olay": [
-475,
+575,
 5196
 ]
 },
 "mekanik_atlanan": [
-[
-"arayuz",
-"# (#) sonbaharı — Ağustos #'ten az sonra; gün kaynakta yok, hicrî # yılının ilk günü (# Muharrem = # Eylül #) kullanıldı",
-"yer tutucu"
-],
 [
 "arayuz",
 "# Ağustos # (Ateş: # Ağustos'ta Osmanlı müfrezesi çekildi)",
@@ -38,11 +33,6 @@
 "arayuz",
 "# Mart # (# Zilkade # — Güler; TDV 'Mart #'; Gümüş # Nisan # der, çözülmedi)",
 "turkce harf kalintisi"
-],
-[
-"arayuz",
-"# Ocak # (imzalar # Ocak-# Mart arası şeyhlik şeyhlik tamamlandı)",
-"yer tutucu"
 ],
 [
 "arayuz",
@@ -91,11 +81,6 @@
 ],
 [
 "arayuz",
-"Cemâziyelevvel # / # Nisan #",
-"yer tutucu"
-],
-[
-"arayuz",
 "History of Transylvania",
 "hedef yazi yok"
 ],
@@ -128,16 +113,6 @@
 "arayuz",
 "· Permissions:",
 "hedef yazi yok"
-],
-[
-"olay",
-"OLAYLAR:1783-04-19:0 d",
-"turkce harf kalintisi"
-],
-[
-"olay",
-"OLAYLAR_EK:1395-01-01:0 d",
-"turkce harf kalintisi"
 ],
 [
 "olay",
