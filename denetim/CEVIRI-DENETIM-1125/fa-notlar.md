@@ -24,3 +24,11 @@
 - Latin harfli özel adlar (Szigetvár, Paşa'lı Türkçe adlar, Harput, Elbistan, Kütahya, Rupenî, Jaume, Pelješac vb.; özellikle OK109, H7_ASAMA, T5_1000A/B, BK_ZINCIR, ONCE1281 setleri, 4_olay_111-116) sistematik. Yalnız gerçek hata düzeltilen kayıtlarda ve bariz Türkçe başlıklarda Farsçaya çevrildi; kalanı toplu geçiş ister.
 - "ادارهٔ" yerine "اداره‌ٔ" (ZWNJ + hemze) birçok kayıtta; toplu değiştirme önerilir.
 - Aynı dizide sayı biçimi yer yer Farsça rakam (۱۰۹۵ vb.), yazım tutarsızlıkları: تاپار/تپر, قلج/قلیچ‌ارسلان.
+
+== notlar_e.md
+- SİSTEMİK, DÜZELTİLMEDİ: OLAYLAR_ORTACAG_CIN ve OLAYLAR_ORTACAG_DOGU_GUNEYDOGU_ASYA (151-154) kayıtlarının neredeyse tamamında Çince/Kore/Japon/Vietnam/Kmer özel adları Farsça metinde Latin harfli; OLAYLAR_ANTIK_MISIR_NUBYA (155-159) ve ANTIK_YAKIN_DOGU'nun bir bölümünde (155-163) antik yer/kişi adları da Latin. BEKLEYEN_ACIK ve BOZKIR'da tek tük (Hou Junji, Li Cunxu, Xizhou, Øretinget, Pierre d'Aulps). Ad sözlüğüyle toplu ikinci geçiş gerekir. Bu aralıkta yalnız az adlı kayıtlar, Türkçe harfli kalıntıların bir kısmı ve cins isimler (nomark, tael, Protectorate, decarchy, Annals) düzeltildi.
+- OLAYLAR_ANTIK_MISIR_NUBYA:-2054 ve diğerlerinde yazdığım yeni metinlerde "ادارهٔ" standart biçimi kullanıldı.
+- "دوکنشین" yarım boşluksuz yazımı 174-175'te düzeltildi; başka paketlerde (ve "شاهزادهنشین") taranmalı.
+- "افسوس" (Efes) yazımı yalnız görülen iki kayıtta düzeltildi; arayüz/diğer paketlerde taranmalı.
+- Karahıtay adları: önceki turun (duzeltme_009) "یه‌لو داشی / کویانگ" biçimleri esas alındı. 1130 ve 1142 (IRAN_HINT_MAGRIB) ile -0603, -0647 (YAKIN_DOGU) orada zaten düzeltildiği için yinelenmedi.
+- OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:0876-09-24:0 "ابن‌الصقیه" (İbnü's-Sakıyye) Arapça yazımı doğrulanamadı.

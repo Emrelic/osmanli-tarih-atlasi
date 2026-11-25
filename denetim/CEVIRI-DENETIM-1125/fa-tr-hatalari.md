@@ -87,3 +87,28 @@
 - olay OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1000-01-01:1, 1096-01-01:0, 1085-07-17:0, 1169-03-08:0, 1241-01-01:1: d'de araştırma notu biçiminde çevrilmemiş Norveççe/İtalyanca/İngilizce kaynak alıntıları ("SNL ... de doğrular", "Treccani de doğrular").
 - olay OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1189-01-01:0: Constance, II. William'ın "amcası kızı" değil halasıdır (II. Roger'in kızı); denetlenmeli.
 - olay OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1205-01-01:1: b "ölçülü bir geri çekilme sırasında" anlamsız.
+
+== tr_hatalari_e.md
+- olay OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1260-01-01:1: d'de "Persia'ya" (İran olmalı).
+- olay OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1266-01-01:0: "Sinop'un kendisine mülk olarak verilmesine" cümlesinde "kendisine" kimin olduğu belirsiz (Pervâne olmalı).
+- olay OLAYLAR_ORTACAG_BOZKIR:0895-03-02:0: d'de "Atlasta ... yazılıdır" iç not kullanıcıya görünüyor.
+- olay OLAYLAR_ORTACAG_BOZKIR:1239-10-18:0: "(TDV'de 'Çernikov')" iç not.
+- olay OLAYLAR_ORTACAG_CIN:0907-06-01:0: d ";" ile yarım bitiyor.
+- olay OLAYLAR_ORTACAG_CIN:0640-10-11:0: b'de İngilizce "(Protectorate)"; d'de "9. ay癸卯" bitişik Çince.
+- olay OLAYLAR_ORTACAG_CIN:1100-02-23:0: "ayni anadan" (aynı).
+- olay OLAYLAR_ORTACAG_DOGU_GUNEYDOGU_ASYA:0929-01-01:0 / :1: mükerrer; biri "Brantas havzası", öteki "Brantas deltası"; sondaki parantez iç yer notu.
+- olay OLAYLAR_ORTACAG_DOGU_GUNEYDOGU_ASYA:0936-09-26:0..2, 1185-12-21:0..3, 1222-01-01:0..1: aynı metin tekrar; sondaki parantezler ("... bu yetkiyi koparttığı yer", "(Hubaekje ülkesi.)") iç yer notu.
+- olay OLAYLAR_ORTACAG_YER_SONRASI:1135-01-01:0: "İskele (Ischia) adası" (İskia/Ischia).
+- olay OLAYLAR_ANTIK_MISIR_NUBYA:-2054-01-01:0: "(aşağıdaki madde)" iç not; "saltanatının 39. yıllarında" bozuk.
+- olay OLAYLAR_ANTIK_MISIR_NUBYA:0069-07-01:0: "Yahudi ordusu" büyük olasılıkla "Yahudiye ordusu" olmalı.
+- olay OLAYLAR_ANTIK_YAKIN_DOGU:-0330-10-01:0: "İskender'in sol kanat savunmasıyla yarıp içeri girdiği saldırıda" bozuk cümle (çeviri de bulanık).
+- olay OLAYLAR_ANTIK_YAKIN_DOGU:-0585-01-01:0: "Şehir sonunda bir barış/vasallık düzeniyle sona erdi" bozuk.
+- olay OLAYLAR_ANTIK_YAKIN_DOGU:-0732-01-01:0: "Pekah'ın İsrail'i Dımaşk ile birlikte ... çıkınca" bozuk.
+- olay OLAYLAR_ANTIK_AKDENIZ:-0035-01-01:0 ve -0063, -0073 gibi maddeler: "(bu olay kronolojide ayrı maddedir)" iç not (0106 maddesinde de; orada ayrıca çift nokta ve eksik nokta).
+- olay OLAYLAR_ANTIK_AKDENIZ:-0277-01-01:0: d'de TDV'den tırnaklı alıntı, iç kaynak notu.
+- olay OLAYLAR_ANTIK_AKDENIZ:0260-01-01:0: "Valerianus'un Part'a esir düşmesi" yanlış (Sasani); çeviride "اشکانی/ایران" diye ikircikli, düzeltilmedi.
+- olay OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1073-01-01:0: b "bağımsızlık..." diye kesik.
+- olay OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1131-01-01:0: "katilir" (katılır); İtalyanca alıntılı iç kaynak notu.
+- olay OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1205-01-01:0: "Dördüncü Haçlı Seferi'nden yirmi yıl sonra" ile 1205 çelişiyor (sefer 1202-1204).
+- olay OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1247-01-01:0: "vikontluğu ... krala el konuldu" bozuk Türkçe (1209-01-01:0'da da "kraliyete el konuldu").
+- olay OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1061-01-01:0: "TDV bu yılı ... verir" iç not.
