@@ -1,4 +1,12 @@
+== ilerleme.txt
 Tamamen okunan paketler: 1_arayuz_001-010, 2_devlet_001-012, 3_bayrakli_001-004, 4_olay_001-020
 Okunmayan: 4_olay_021-204
 Bakılan kayıt (yaklaşık, paket tamamı): arayuz paketleri 10/10, devlet paketleri 12/12, bayrakli 4/4, olay paketi 20/204
 Düzeltme dosyaları: duzeltme_001..009.jsonl
+
+== ilerleme_a.txt
+Tamamen okunan paketler: 4_olay_021 - 4_olay_044
+
+== ilerleme_b.txt
+Tamamen okunan: 4_olay_051 - 4_olay_080 (aralik tamam)
+Bakilan olay kaydi: yaklasik 640

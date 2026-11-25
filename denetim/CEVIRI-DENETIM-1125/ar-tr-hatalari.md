@@ -1,3 +1,4 @@
+== tr_hatalari.md
 - arayuz "# Ocak # (imzalar # Ocak-# Mart arası şeyhlik şeyhlik tamamlandı)": "şeyhlik şeyhlik" tekrarı / bozuk cümle.
 - arayuz (tarih dizgeleri, birçok kayıt): kullanıcıya görünen iç notlar — "ÇELİŞKİ-#", "... OKUNMADI", "olaylar_ek#", "kronoloji_safevi.js", "bk. ic_not_t", "karaman künye ic_not_t", "donem-toplami", "yerlesim-suresi", "eski t #-#-# ay başı yer tutucuydu", "t #-#-# gün yer tutucusu", "t ALT SINIR / t ÜST SINIRDIR", "`YYYY-#-#` beyandır", "[ozet; teyit bekler]", "(kaynak özeti teyit bekler)", "(Emre notu ##)".
 - olay OLAYLAR_2S0920:1942-01-01:0: açıklamada kullanıcıya görünen "(bkz. ic_not)".
@@ -10,3 +11,24 @@
 - olay OLAYLAR_EK:1526-09-01:0: "Budin'e yürüyen Osmanlı ordusuna şehrin anahtarları ... sultana takdim edildi" bozuk cümle.
 - olay OLAYLAR_LAB19_BOS_1119:1446-01-01:0: "Hacer el-Yemâme b. Dir'" kişi adı gibi duruyor; "Hacerü'l-Yemâme (hâkimi) İbn Dir'" olabilir, kaynaktan bakılmalı.
 - olay OLAYLAR_EK3:1403-06-15:0 ve :1403-02-01:0 (+ OLAYLAR_EK:1403-06-01:0): aynı 1403 Gelibolu Antlaşması üç ayrı maddede, farklı ay (Şubat/Haziran) — mükerrer olabilir.
+
+== tr_hatalari_b.md
+- olay OLAYLAR_EK7:1406-10-15:0: TR.d kullanıcıya görünen iç not biçimi (TDV `tebriz` — ters tırnaklı slug)
+- olay OLAYLAR_EK7:1408-04-13:0: TR.d noktalı virgülle yarım bitiyor ("...görevlendirdi;")
+- olay OLAYLAR_EK7:1735-03-21:0: TR.d iç not ("haritada Gence günü kullanılır", "beyanlı yaklaşıklık")
+- olay OLAYLAR_EK8:1924-01-01:0: TR.d iç not (`harizm` slug, "yalnız yıl veriyor")
+- olay OLAYLAR_EK8:1920-09-02:0 / 1920-10-08:0: tarih tutarsız (Buhara'ya giriş 2 Eylül / emirlik 28-31 Ağustos; ilan 6 Ekim / 8 Ekim)
+- olay OLAYLAR_EK9:1911-10-08:0: "29 Eylül savaş ilanı, donanma 25-26 Eylülde ablukaya aldı" sırası çelişkili
+- olay OLAYLAR_EK11:1502-01-01:0: TR.d "bölge on kayıt hâlinde" (veri seti iç dili), "(gün teyitsiz)"
+- olay OLAYLAR_EK11:1569-01-01:0 grubu (EK13:1569, EK13:1861, EK15:1659, EK15:1337, EK21:1811/1509): TR.d içinde literal \\\" kaçış kalıntıları
+- olay OLAYLAR_EK11:1796-01-01:0: Meşhed cümlesi bozuk ("Ağa Muhammed Şah'ın önünde ... karşılandı")
+- olay OLAYLAR_EK16:1341-01-01:0 / 1307-01-01:0: "künyede ...", "atlas künye tarihi" iç not
+- olay OLAYLAR_EK16:1941-07-09:0: "arama özeti [özet]" iç not
+- olay OLAYLAR_EK16:1945-05-08:0: TR.b'de İngilizce "Courland Army Group" kalıntısı
+- olay OLAYLAR_EK16:1941-06-23:0/1, 1944-07-16:0, 1944-07-28:0: TR'de Türkçe karakterler eksik ("isgal", "Dogu Cephesi"), d yalnız etiket
+- olay OLAYLAR_EK16:1537-01-01:0: "İskoç-Norveç piskoposu Olav Engelbriktsson" şüpheli (Norveçli başpiskopos)
+- olay OLAYLAR_EK16:1891-01-01:0: Riyad baskını 16 Ocak 1902; EK7:1902-01-15 ile çelişiyor
+- olay OLAYLAR_EK17:1725-01-01:0 ve benzeri: "yıl beyan" iç not
+- olay OLAYLAR_EK20:1768-05-15:0 ve EK16:1315 benzeri: "(TDV Korsika; gün teyitsiz)" iç not
+- olay OLAYLAR_EK22:1923-07-24:0: TBMM onayı metinde 23 Ağustos 1923, sonda "2 Ağustos 1923" (23 Ağustos doğru görünüyor); "madde kanıtı yok", "özetlerinde geçmiyor" gibi iç not
+- olay OLAYLAR_2S_0918:1569-07-01:0: Lublin listesinde Białystok (Ukrayna toprağı değil) şüpheli
