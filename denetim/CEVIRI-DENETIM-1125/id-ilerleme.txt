@@ -11,3 +11,13 @@ Bakılan kayıt: yalnız olay, yaklaşık 750.
 Tamamen okunan: 4_olay_036 - 4_olay_065 (aralığın tamamı, 30 paket)
 Düzeltme dosyaları: duzeltme_b_001..005.jsonl
 Bakılan kayıt: yalnız olay (kayıt sayısı ayrıca sayılmadı)
+
+== ilerleme_c.txt
+Tamamen okunan paketler: 4_olay_066 - 4_olay_090 (25 paket)
+
+== ilerleme_d.txt
+Tam okunan: 4_olay_102 - 4_olay_137 (36/36 paket; aralık tamamlandı)
+Düzeltme dosyaları: duzeltme_d_001..007.jsonl
+
+== ilerleme_e.txt
+Tamamen okunan: 4_olay_138 - 4_olay_173 (36/36 paket; aralık bitti)
