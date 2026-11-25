@@ -18,3 +18,6 @@ Duzeltme dosyalari: duzeltme_c_001 - duzeltme_c_010
 == ilerleme_d.txt
 Tamamen okunan: 4_olay_100 - 4_olay_137 (aralığın tamamı, 38/38 paket)
 Bakılan kayıt: olay (okunan paketlerdeki bütün kayıtlar; kayıt sayısı elle sayılmadı)
+
+== ilerleme_e.txt
+Tam okunan: 4_olay_138 - 4_olay_151

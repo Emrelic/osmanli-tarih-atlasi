@@ -717,3 +717,84 @@
 - olay | OLAYLAR_ANTIK_AKDENIZ:-0263-01-01:1 | d: bozuk anlatım
 - olay | OLAYLAR_ANTIK_AKDENIZ:-0274-01-01:1 | d: bozuk anlatım
 - olay | OLAYLAR_ANTIK_AKDENIZ:-0277-01-01:0 | d: bozuk anlatım; Lehçe metinde çevrilmemiş Türkçe alıntı
+- olay | OLAYLAR_EK:1717-08-18:0 | d: bozuk cümle ve yer adının Lehçe biçimi (Petrowaradyn)
+- olay | OLAYLAR_EK3:1410-06-15:0 | d: anlamsız ad tekrarı
+- olay | OLAYLAR_EK4:1820-07-20:0 | d: dilbilgisi hatası
+- olay | OLAYLAR_EK5:1435-01-01:0 | b: bozuk/uydurma çekim
+- olay | OLAYLAR_EK5:1435-01-01:0 | d: dilbilgisi: çoğul hanedan adı
+- olay | OLAYLAR_EK5:1423-01-01:0 | d: yazım: bejlik; fiil görünüşü
+- olay | OLAYLAR_EK5:1357-09-01:0 | d: bozuk cümle, anlam düşüklüğü
+- olay | OLAYLAR_EK5:1514-09-06:0 | d: AĞIR: anlam tersine çevrilmiş ('Osmanlı'ya itaat ederek')
+- olay | OLAYLAR_EK5:1515-06-13:0 | d: AĞIR: 'iki yıl sonraki sefer' 'iki yıl önceki' diye çevrilmiş
+- olay | OLAYLAR_EK5:1768-10-08:0 | d: dilbilgisi
+- olay | OLAYLAR_EK5:1795-03-01:0 | d: bozuk anlatım
+- olay | OLAYLAR_EK5:1905-07-21:0 | d: yerleşik ad (Dasznakcutiun) ve dilbilgisi
+- olay | OLAYLAR_EK:1717-08-18:0 | d: Bozuk cümle yapısı ve eksik virgül
+- olay | OLAYLAR_EK3:1410-06-15:0 | d: Yinelenen ad; parantezde Türkçe biçim olmalı
+- olay | OLAYLAR_EK4:1820-07-20:0 | d: Dilbilgisi: sıfat uyumu
+- olay | OLAYLAR_EK5:1435-01-01:0 | b: Bozuk başlık: anlamsız 'Dulkadırlım'
+- olay | OLAYLAR_EK5:1435-01-01:0 | d: Dilbilgisi
+- olay | OLAYLAR_EK5:1423-01-01:0 | d: Yanlış sözcük ve imla
+- olay | OLAYLAR_EK5:1357-09-01:0 | d: Bozuk cümle yapısı
+- olay | OLAYLAR_EK5:1514-09-06:0 | d: AĞIR ANLAM HATASI: 'Osmanlı'ya itaat ederek' tam tersine 'itaatten vazgeçerek' çevrilmiş
+- olay | OLAYLAR_EK5:1515-06-13:0 | d: AĞIR ANLAM HATASI: 'iki yıl sonraki Mısır seferi' 'iki yıl önceki' diye çevrilmiş
+- olay | OLAYLAR_EK5:1768-10-08:0 | d: Bozuk cümle
+- olay | OLAYLAR_EK5:1795-03-01:0 | d: Bozuk yapı: 'kazał uciec' = kaçmasını emretti
+- olay | OLAYLAR_EK5:1905-07-21:0 | d: Özel ad; 'w landzie' anlaşılmaz; sayı uyumu
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0279-01-01:0 | b: yer adı yanlış çekim (Herakleja tekil)
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0279-01-01:0 | d: yer adı yanlış çekim
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0301-01-01:0 | d: bozuk anlatım
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0303-01-01:0 | d: bozuk anlatım
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0321-09-05:0 | d: özel ad çekimlenmemiş
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0325-01-01:0 | d: yanlış anlam: krallık İskender'e bırakılmış gibi okunuyordu
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0325-01-01:1 | d: yanlış anlam/bozuk anlatım
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0337-01-01:2 | d: dilbilgisi
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0347-01-01:0 | d: eser adı yerleşik biçimde değil
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0358-01-01:0 | d: yanlış anlam: 'krallık' burada saltanat
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0376-01-01:0 | d: sözdizimi anlamı bozuyordu
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0391-01-01:0 | b: imla
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0403-01-01:0 | d: bozuk anlatım
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0404-01-01:0 | d: yazım hatası
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0412-01-01:0 | d: bozuk anlatım
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0477-01-01:0 | d: bozuk anlatım
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0489-01-01:0 | d: bozuk anlatım
+- olay | OLAYLAR_ANTIK_AKDENIZ:-0732-01-01:0 | d: eksik anlam: Naksos'un kuruluşundan bir yıl sonra
+- olay | OLAYLAR_ANTIK_AKDENIZ:0106-01-01:0 | d: çift nokta
+- olay | OLAYLAR_ANTIK_AKDENIZ:0406-12-31:0 | d: bozuk anlatım
+- olay | OLAYLAR_ANTIK_AKDENIZ:0409-01-01:0 | d: yanlış yer adı: Carthaginensis eyaleti, Kartaca şehri değil
+- olay | OLAYLAR_ANTIK_AKDENIZ:0475-01-01:0 | d: anlam: Auvergne'i ona bırakmak
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0827-04-02:0 | b: bozuk bileşik sıfat
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0843-01-01:0 | b: özel ad büyük harfle
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0886-01-01:0 | d: bozuk anlatım
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0923-11-19:0 | d: bir kişi için 'awangarda' yanlış
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0960-03-03:0 | b: 'Fas' burada Fez şehri (Sicilmâse ile birlikte), Fas ülkesi değil
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0960-03-03:0 | d: 'Fas' burada Fez şehri
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0969-10-28:0 | d: özel ad yanlış hâlde (Burtzes)
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0992-01-01:0 | d: şehir adı yanlış çekim: Buchara tekil, belirtme 'Bucharę'
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0992-05-07:0 | b: şehir adı yanlış çekim
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0992-05-07:0 | d: şehir adı yanlış çekim
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0993-02-26:0 | b: özel ad yazımı (Zîrî)
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0993-02-26:0 | d: özel ad yazımı (Zîrî)
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:0999-10-14:0 | d: şehir adı yanlış çekim
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1018-12-20:0 | d: yer adı başlıkla tutarsız ve yanlış yazılmış
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1088-03-27:0 | b: şehir adı yanlış çekim
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1088-03-27:0 | d: şehir adı yanlış çekim
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1123-01-01:0 | d: aynı şehir adı tutarsız (Tyflis)
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1124-06-13:0 | d: 'maliką' dişil/yanlış biçim
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1150-04-30:0 | d: yanlış deyim
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1202-06-25:1 | b: 'melikliği' = malikat; 'malik' kişi
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1202-06-25:1 | d: 'melikliği' = malikat
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1209-01-01:0 | b: yanlış anlam: Albigenslerin haçlıları gibi okunuyor
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1215-01-01:0 | d: yanlış anlam: 'boylarından' = kıyılarından, kabile değil
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1228-01-01:0 | b: yerleşik tarikat adı ve bozuk anlatım
+- olay | OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1273-07-18:0 | b: dilbilgisi
+- olay | OLAYLAR_2S1019:1268-03-08:0 | b: dilbilgisi
+- olay | OLAYLAR_2S1019:1389-07-01:0 | d: yerleşik ad: Kosowe Pole
+- olay | OLAYLAR_2S1019:1417-02-18:0 | d: askıda kalan ortaç (dilbilgisi)
+- olay | OLAYLAR_2S1019:1516-08-24:0 | d: Lehçe imla (ž yerine ż)
+- olay | OLAYLAR_2S1019:1686-09-30:0 | d: çekim: Moreę
+- olay | OLAYLAR_2S1019:1687-09-30:0 | d: çekim: Moreę
+- olay | OLAYLAR_2S1019:1878-09-18:0 | d: nehir adı yanlış çekim
+- olay | OLAYLAR_2S1019:1458-08-06:0 | d: çekim: na Moreę
+- olay | OLAYLAR_ALM1115B:1358-12-01:0 | d: anlaşılmaz anlatım
+- olay | OLAYLAR_ALM1115B:1024-09-08:0 | d: anlam belirsiz: 'ile birlikte kazandı' gibi okunuyor
