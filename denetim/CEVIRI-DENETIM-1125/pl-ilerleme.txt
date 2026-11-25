@@ -9,3 +9,12 @@ Tamamen okunan paketler: 4_olay_005 - 4_olay_034 (30 paket, aralık tamam)
 == ilerleme_b.txt
 Tamamen okunan: 4_olay_035-064 (aralığın tamamı, 30/30 paket)
 Bakılan kayıt: olay (aralıktaki bütün kayıtlar; kayıt sayısı elle sayılmadı)
+
+== ilerleme_c.txt
+Tamamen okunan paketler: 4_olay_065 - 4_olay_099 (35/35, aralik bitti)
+Bakilan kayit turu: olay
+Duzeltme dosyalari: duzeltme_c_001 - duzeltme_c_010
+
+== ilerleme_d.txt
+Tamamen okunan: 4_olay_100 - 4_olay_137 (aralığın tamamı, 38/38 paket)
+Bakılan kayıt: olay (okunan paketlerdeki bütün kayıtlar; kayıt sayısı elle sayılmadı)

@@ -388,3 +388,285 @@
 - olay | OLAYLAR_EK17:1686-08-30:0 | b: Yanlış ad (Morea; 'Morzę' deniz gibi)
 - olay | OLAYLAR_EK17:1688-01-17:0 | d: 'başvuru eseri' = referans eser; 'kaynak eser' değil
 - olay | OLAYLAR_EK17:1799-01-03:0 | d: Eksik sözcük
+- olay | OLAYLAR_EK:1717-08-18:0 | d: bozuk cümle ve yer adının Lehçe biçimi (Petrowaradyn)
+- olay | OLAYLAR_EK3:1410-06-15:0 | d: anlamsız ad tekrarı
+- olay | OLAYLAR_EK4:1820-07-20:0 | d: dilbilgisi hatası
+- olay | OLAYLAR_EK5:1435-01-01:0 | b: bozuk/uydurma çekim
+- olay | OLAYLAR_EK5:1435-01-01:0 | d: dilbilgisi: çoğul hanedan adı
+- olay | OLAYLAR_EK5:1423-01-01:0 | d: yazım: bejlik; fiil görünüşü
+- olay | OLAYLAR_EK5:1357-09-01:0 | d: bozuk cümle, anlam düşüklüğü
+- olay | OLAYLAR_EK5:1514-09-06:0 | d: AĞIR: anlam tersine çevrilmiş ('Osmanlı'ya itaat ederek')
+- olay | OLAYLAR_EK5:1515-06-13:0 | d: AĞIR: 'iki yıl sonraki sefer' 'iki yıl önceki' diye çevrilmiş
+- olay | OLAYLAR_EK5:1768-10-08:0 | d: dilbilgisi
+- olay | OLAYLAR_EK5:1795-03-01:0 | d: bozuk anlatım
+- olay | OLAYLAR_EK5:1905-07-21:0 | d: yerleşik ad (Dasznakcutiun) ve dilbilgisi
+- olay | OLAYLAR_EK:1717-08-18:0 | d: Bozuk cümle yapısı ve eksik virgül
+- olay | OLAYLAR_EK3:1410-06-15:0 | d: Yinelenen ad; parantezde Türkçe biçim olmalı
+- olay | OLAYLAR_EK4:1820-07-20:0 | d: Dilbilgisi: sıfat uyumu
+- olay | OLAYLAR_EK5:1435-01-01:0 | b: Bozuk başlık: anlamsız 'Dulkadırlım'
+- olay | OLAYLAR_EK5:1435-01-01:0 | d: Dilbilgisi
+- olay | OLAYLAR_EK5:1423-01-01:0 | d: Yanlış sözcük ve imla
+- olay | OLAYLAR_EK5:1357-09-01:0 | d: Bozuk cümle yapısı
+- olay | OLAYLAR_EK5:1514-09-06:0 | d: AĞIR ANLAM HATASI: 'Osmanlı'ya itaat ederek' tam tersine 'itaatten vazgeçerek' çevrilmiş
+- olay | OLAYLAR_EK5:1515-06-13:0 | d: AĞIR ANLAM HATASI: 'iki yıl sonraki Mısır seferi' 'iki yıl önceki' diye çevrilmiş
+- olay | OLAYLAR_EK5:1768-10-08:0 | d: Bozuk cümle
+- olay | OLAYLAR_EK5:1795-03-01:0 | d: Bozuk yapı: 'kazał uciec' = kaçmasını emretti
+- olay | OLAYLAR_EK5:1905-07-21:0 | d: Özel ad; 'w landzie' anlaşılmaz; sayı uyumu
+- olay | OLAYLAR_EK20:1887-01-07:0 | b: Çekçe harf (Č); Lehçe yazımı Cz
+- olay | OLAYLAR_EK20:1887-01-07:0 | d: Çekçe harfler; yanlış çekim 'w południowym Harar'
+- olay | OLAYLAR_EK20:1648-10-24:0 | b: yanlış sözcük (rozwiązała się → rozpadła się)
+- olay | OLAYLAR_EK21:1537-01-01:0 | d: etnik ad imlası ('turkmenów'); 'kilit' yanlış çevrilmiş (zamek → klucz)
+- olay | OLAYLAR_EK19:1789-07-14:0 | d: bozuk anlatım (Türkçeden kalıp çeviri)
+- olay | OLAYLAR_SENKRON_0930:1556-03-12:0 | b: imla hatası (województwem)
+- olay | OLAYLAR_SENKRON_0930:1556-03-12:0 | d: imla hatası (województwem)
+- olay | OLAYLAR_SENKRON_0930:1565-02-01:0 | d: ad çekimi imlası (Báthory'ego)
+- olay | OLAYLAR_SENKRON_0930:1664-06-14:0 | b: yer adı çekimsiz bırakılmış; metinde 'Lévę, Lévą' çekimiyle tutarsız
+- olay | OLAYLAR_SENKRON_0930:1664-06-14:0 | d: yanlış çekim
+- olay | KRONOLOJI_COK_ARABISTAN2:1659-01-01:0 | d: bozuk dilbilgisi ('wysyławszy') ve belirsiz anlatım
+- olay | OLAYLAR_2S_0918:1390-06-01:0 | b: yanlış eşdizim (zwierzchnictwo przejąć)
+- olay | OLAYLAR_2S_0918:1390-06-01:0 | d: yanlış eşdizim
+- olay | OLAYLAR_2S_0918:1357-07-09:0 | d: yanlış görünüş (zacząć + niedokonany)
+- olay | OLAYLAR_ORTADOGU_0919:1819-08-13:0 | d: bozuk, anlaşılmaz cümle yapısı
+- olay | OLAYLAR_2S_0919:1663-01-01:0 | d: yanlış anlam (birleşme yeri 'ujście' değil 'zbieg')
+- olay | OLAYLAR_EK20:1467-01-01:0 | b: yanlış eşdizim ('zakończyć państwo')
+- olay | OLAYLAR_EK20:1467-01-01:0 | d: yanlış eşdizim
+- olay | OLAYLAR_2S_0919:1909-06-02:0 | d: yanlış eşdizim
+- olay | OLAYLAR_SENKRON_0930:1467-01-01:0 | b: Türkçeden kalıp yapı ('zająć od')
+- olay | OLAYLAR_SENKRON_0930:1436-01-01:0 | d: bozuk yapı ('zdobycie od')
+- olay | OLAYLAR_SENKRON_0930:1401-01-01:0 | d: bozuk yapı ('zająć od')
+- olay | OLAYLAR_2S_0919:1329-01-01:0 | b: bozuk yapı ('zająć od')
+- olay | OLAYLAR_2S_0919:1383-01-01:0 | b: bozuk yapı ('zająć od')
+- olay | OLAYLAR_2S_0919:1556-01-01:0 | b: bozuk yapı ('zająć od')
+- olay | OLAYLAR_2S_0919:1700-01-01:0 | d: anlatım: şehre ad verilmesi ('otrzymało imię' kalıbı düzeltildi)
+- olay | OLAYLAR_2S_0919:1716-01-01:0 | d: bozuk sözcük sırası ve büyük harf
+- olay | OLAYLAR_2S_0919:1717-11-30:0 | d: yanlış anlam/bozuk anlatım
+- olay | OLAYLAR_AMERIKA0920:1519-03-25:0 | d: halk adı (Chontal Majaları) şehir adı gibi okunuyordu
+- olay | OLAYLAR_AMERIKA0920:1537-08-01:0 | d: yanlış anlam ('nehirden çıktı')
+- olay | OLAYLAR_AMERIKA0920:1537-08-15:0 | d: imla (ze wspólnotami)
+- olay | OLAYLAR_AMERIKA0920:1539-01-09:0 | b: 'kilit' yanlış çevrilmiş (zamek)
+- olay | OLAYLAR_2S0920:1387-05-08:0 | d: bozuk, yinelemeli cümle
+- olay | OLAYLAR_2S0920:1913-05-14:0 | b: TR tekil (kolordu)
+- olay | OLAYLAR_2S0920:1913-05-14:0 | d: bozuk cümle (özne uyumsuzluğu), TR tekil
+- olay | OLAYLAR_SENUSI_0919:1551-07-01:0 | d: ad çekimi imlası
+- olay | OLAYLAR_SENUSI_0919:1596-05-10:0 | d: yanlış hâl (paszą → pasza), bozuk tamlama
+- olay | OLAYLAR_P0069:1689-01-01:0 | d: 'Karlovac generali' özel ad sanılmış
+- olay | OLAYLAR_P0069:1788-01-01:0 | b: 'Dubica Savaşı' savaş (bitwa değil)
+- olay | OLAYLAR_SERHAT:1443-01-01:0 | b: anlamsız sözcük 'nawiska' (Nişava kolu)
+- olay | OLAYLAR_P0044:1556-07-16:0 | d: cins uyumu hatası
+- olay | OLAYLAR_P0044:1840-01-01:0 | d: yanlış sözcük (celnica) ve edat
+- olay | OLAYLAR_P0049:1711-04-09:0 | b: Lehçede yerleşik ad: kampania prucka
+- olay | OLAYLAR_P0049:1711-04-09:0 | d: Lehçede yerleşik ad
+- olay | OLAYLAR_P0049:1787-07-27:0 | d: TR 'elçi' (kişi)
+- olay | OLAYLAR_P0049:1920-09-28:0 | d: karışık hâl ekleri ve yanlış anlam
+- olay | OLAYLAR_P0051:1570-01-01:0 | d: çoğul özne uyumu
+- olay | OLAYLAR_P0055:1412-01-01:0 | d: iki ad birbirine yapışıp yanlış okunuyordu
+- olay | OLAYLAR_P0056:1739-08-28:0 | d: unvan Lehçe çekimi (seraskier)
+- olay | OLAYLAR_P0056:1788-01-01:0 | d: kelime kelime çeviri ('ayak' = noga)
+- olay | OLAYLAR_P0056:1811-07-04:0 | d: yanlış edat
+- olay | OLAYLAR_P0057:1919-06-28:0 | b: yanlış hâl
+- olay | OLAYLAR_P0057:1921-04-07:0 | d: dilbilgisi hatası
+- olay | OLAYLAR_P0057:1922-09-01:0 | d: çekim hatası
+- olay | OLAYLAR_P0057:1922-09-06:0 | d: çekim hatası
+- olay | OLAYLAR_P0057:1534-01-01:0 | b: bozuk yapı ('zająć od')
+- olay | OLAYLAR_P0057:1534-01-01:0 | d: bozuk yapı
+- olay | OLAYLAR_P0057:1917-01-09:0 | d: atlanmış sözcük (İmparatorluk)
+- olay | OLAYLAR_P0058:1360-01-01:0 | d: bozuk anlatım
+- olay | OLAYLAR_P0058:1424-02-22:0 | b: yanlış anlam
+- olay | OLAYLAR_P0058:1424-02-22:0 | d: bozuk cümle ve deniz adları
+- olay | OLAYLAR_P0059:1594-11-13:0 | d: imla (województwa)
+- olay | OLAYLAR_SEHIR_ILK:1918-04-02:0 | b: yanlış görünüş/çatı
+- olay | OLAYLAR_SEHIR_ILK:1778-01-01:0 | d: 'kaza merkezi' yanlış çevrilmiş (şehir kaza oldu)
+- olay | OLAYLAR_SEHIR_ILK:1784-01-01:2 | b: yazım hatası
+- olay | OLAYLAR_SEHIR_ILK:1711-01-01:0 | b: yanlış hâl eki ('Siczę')
+- olay | OLAYLAR_SEHIR_ILK:1728-01-01:0 | d: yanlış hâl eki
+- olay | OLAYLAR_ARKEOLOJI_D3_AMERIKA_PASIFIK:-14961-01-01:0 | d: Jenisey Lehçede eril: nad Jenisejem
+- olay | OLAYLAR_ARKEOLOJI_D3_AMERIKA_PASIFIK:-0864-01-01:0 | d: edat imlası (ze)
+- olay | OLAYLAR_ARKEOLOJI_D3_HINT_CIN:-2999-01-01:0 | b: yanlış hâl
+- olay | OLAYLAR_ARKEOLOJI_D3_ANADOLU_EGE:-1199-01-01:0 | d: imla (Ż)
+- olay | OLAYLAR_ARKEOLOJI_D3_ANADOLU_EGE:-1583-01-01:0 | b: bozuk sözcük sırası ve çekim
+- olay | OLAYLAR_ARKEOLOJI_D3_ITALYA_AVRUPA:-0751-01-01:0 | d: edat imlası (ze źródła)
+- olay | OLAYLAR_ARKEOLOJI_ZINCIR:-0132-01-01:0 | b: yinelenen ad
+- olay | OLAYLAR_ARKEOLOJI_ZINCIR:-0132-01-01:0 | d: yinelenen ad
+- olay | OLAYLAR_ARKEOLOJI_ZINCIR:0009-01-10:0 | d: yanlış özne ('Han'lar bitti')
+- olay | OLAYLAR_ARKEOLOJI_D2_ITALYA_AVRUPA:-5499-01-01:0 | b: yanlış bölge adı ('Zadunajska' sıfat)
+- olay | OLAYLAR_ARKEOLOJI_D2_ITALYA_AVRUPA:-4648-01-01:0 | b: bozuk dilbilgisi
+- olay | OLAYLAR_ARKEOLOJI_D2_ITALYA_AVRUPA:-5186-01-01:0 | d: edat hatası (na Węgrzech)
+- olay | OLAYLAR_ARKEOLOJI_D2_ITALYA_AVRUPA:-5331-01-01:0 | d: edat hatası (na Węgrzech)
+- olay | OLAYLAR_ARKEOLOJI_D2_HINT_GUNEYDOGU:-1509-01-01:0 | d: eksik ad (rolników)
+- olay | OLAYLAR_ARKEOLOJI_D2_HINT_GUNEYDOGU:-1799-01-01:0 | b: eksik ad (rolnicy)
+- olay | OLAYLAR_ARKEOLOJI_D2_ANADOLU_EGE:-1612-01-01:0 | d: bozuk anlatım
+- olay | OLAYLAR_ARKEOLOJI_D2_ANADOLU_EGE:-7999-01-01:0 | d: cins uyumu (całe tysiąclecie)
+- olay | OLAYLAR_ARKEOLOJI_D2_ANADOLU_EGE:-9599-01-01:0 | d: cins uyumu
+- olay | OLAYLAR_ARKEOLOJI_MEZOPOTAMYA:-1594-01-01:0 | b: başlıkta eksik ad
+- olay | OLAYLAR_ARKEOLOJI_MEZOPOTAMYA:-1791-01-01:0 | b: başlıkta eksik ad
+- olay | OLAYLAR_ARKEOLOJI_AFRIKA_IRAN:-4744-01-01:0 | d: edat (wyspa: na Nowej Gwinei)
+- olay | OLAYLAR_OK109:1918-10-28:0 | d: bozuk kalıp ('stan wyborów')
+- olay | OLAYLAR_OK109:1918-10-31:0 | d: yanlış anlam (aslî cumhurbaşkanı)
+- olay | OLAYLAR_OK109:1918-11-03:0 | d: Türkçe alıntı çevrilmemiş
+- olay | OLAYLAR_OK109:1919-09-10:0 | b: kalıp çeviri ('hukuka geçti')
+- olay | OLAYLAR_OK109:1919-06-28:0 | b: kalıp çeviri
+- olay | OLAYLAR_OK109:1920-06-04:1 | d: kalıp çeviri
+- olay | OLAYLAR_OK109:1920-06-04:0 | d: şehir Bač, bölge Bačka ile karıştırılmış
+- olay | OLAYLAR_OK109:1918-11-19:0 | d: Somogy komitat; bozuk cümle
+- olay | OLAYLAR_OK109:1919-04-20:0 | d: büyük harf (Wielka Sobota)
+- olay | OLAYLAR_OK106:1847-05-31:0 | d: Pasza yazımı (Lehçe biçim)
+- olay | OLAYLAR_OK106:1703-05-17:0 | d: 'kilit' yanlış çevrilmiş (zamek)
+- olay | OLAYLAR_OK106:1638-01-01:0 | d: yer adı yanlış çekim (Izium)
+- olay | OLAYLAR_OK106:1652-01-01:0 | d: anlam kayması
+- olay | OLAYLAR_H7_ASAMA:1529-05-10:0 | d: yanlış çekim ve bozuk anlatım
+- olay | OLAYLAR_H7_ASAMA:1604-06-15:0 | d: yanlış hâl (Karsu)
+- olay | OLAYLAR_H7_ASAMA:1605-11-06:0 | d: cins uyumu hatası
+- olay | OLAYLAR_H7_ASAMA:1744-07-29:0 | b: yanlış hâl
+- olay | OLAYLAR_H7_ASAMA:1744-07-29:0 | d: yanlış hâl
+- olay | OLAYLAR_H7_ASAMA:1745-08-21:0 | d: yanlış hâl
+- olay | OLAYLAR_T5_1000A:1064-01-01:0 | b: yanlış eşdizim
+- olay | OLAYLAR_T5_1000A:1071-01-01:0 | d: cins uyumu (beylik eril)
+- olay | OLAYLAR_T5_1000A:1112-01-01:0 | d: cins uyumu
+- olay | OLAYLAR_T5_1000A:1124-12-10:0 | b: aynı kişi/hanedan adının tutarsız yazımı
+- olay | OLAYLAR_T5_1000A:1124-12-10:0 | d: ad yazımı tutarsızlığı; 'zdobyć od' kalıbı
+- olay | OLAYLAR_T5_1000B:1250-04-30:0 | d: bozuk cümle
+- olay | OLAYLAR_T5_1000B:1271-01-01:0 | b: yanlış harf/çekim
+- olay | OLAYLAR_T5_1000B:1271-01-01:0 | d: yanlış harf/çekim
+- olay | OLAYLAR_T5_1000B:1204-08-12:0 | d: bozuk ifade
+- olay | OLAYLAR_BK_ZINCIR_1024:1085-01-01:0 | b: cins uyumu
+- olay | OLAYLAR_KURULUS_GERI_1021:0638-01-01:0 | d: yanlış anlam ('genellikle')
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0746-09-22:0 | b: yanlış hâl/yapı
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0940-06-24:0 | b: aynı adın tutarsız yazımı
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0940-06-24:0 | d: aynı adın tutarsız yazımı
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0946-07-04:0 | b: Türkçe ay adı kalıntısı
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0946-07-04:0 | d: Türkçe ay adı kalıntısı
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0950-01-01:0 | b: Türkçe yazımlı terim
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0950-01-01:0 | d: Türkçe yazımlı terim
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0962-12-01:0 | b: Türkçe ay adı kalıntısı
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0962-12-01:0 | d: Türkçe ay adı kalıntısı
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0969-01-01:0 | b: Türkçe ay adı kalıntısı
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0969-01-01:0 | d: Türkçe ay adı kalıntısı
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0971-12-24:0 | b: Türkçe ay adı kalıntısı
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0971-12-24:0 | d: Türkçe ay adı kalıntısı
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0973-06-05:0 | b: Türkçe ay adı kalıntısı
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0973-06-05:0 | d: Türkçe ay adı kalıntısı
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0996-10-14:0 | b: Türkçe ay adı kalıntısı
+- olay | OLAYLAR_ORTACAG_ORTADOGU:0996-10-14:0 | d: Türkçe ay adı kalıntısı
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1021-02-13:0 | b: bozuk edilgen ve Türkçe ay adı
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1021-02-13:0 | d: bozuk edilgen ve Türkçe ay adı
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1073-01-01:0 | b: özel adın tamlayan hali bozuk (Ildeniza)
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1073-01-01:0 | d: özel adın tamlayan hali bozuk (Ildeniza)
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1098-06-03:0 | d: Türkçe ad kalıntısı; Lehçe transliterasyon
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1182-01-01:0 | b: ad yazımı öteki kayıtlarla tutarsız (Turanszah)
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1182-01-01:0 | d: ad yazımı öteki kayıtlarla tutarsız (Turanszah)
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1251-02-03:0 | b: yer adı çekimsiz (pod Abbasą)
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1251-02-03:0 | d: yer adı çekimsiz (pod Abbasą)
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1012-01-01:0 | b: Türkçe ad biçimi; öteki kayıtlardaki Baha ad-Dawla / Bujidów ile tutarsız
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1012-01-01:0 | d: Türkçe ad biçimi; öteki kayıtlarla tutarsız
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1021-01-01:0 | b: Türkçe ad biçimi; Lehçe transliterasyon (ad-Dawla)
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1021-01-01:0 | d: Türkçe ad biçimi; Lehçe transliterasyon (ad-Dawla)
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1012-07-23:0 | b: yer adları Türkçe biçimde ve çekimsiz
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1012-07-23:0 | d: yer adları Türkçe biçimde ve çekimsiz
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1019-05-09:0 | d: iki kişi için tekil 'Karachanida' (dilbilgisi hatası)
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1026-01-08:0 | d: unvan Türkçe okunuşla kalmış
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1026-02-22:0 | d: çekim hatası anlamı bozuyor (Bucharą)
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1035-08-01:0 | d: 'menşur' Lehçe sözcük değil, çevrilmemiş
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1044-01-01:0 | b: 'na imię' yanlış kalıp (adına = w imieniu); Bujidów
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1044-01-01:0 | d: 'na imię' yanlış kalıp; Bujidów
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1048-01-01:0 | d: 'anne bir kardeş' = anneden üvey kardeş; 'brat matczyny' yanlış
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1054-01-01:0 | b: 'na imię' yanlış kalıp
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1054-01-01:0 | d: 'na imię' yanlış kalıp; Bujida
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1056-03-21:0 | b: 'Şebânkâre emîri' = Şebankare'nin emiri; çeviri adın parçası gibi
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1056-03-21:0 | d: 'Şebânkâre emîri' yanlış aktarılmış
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1058-01-01:0 | b: unvan Türkçe okunuşla kalmış
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1059-07-23:0 | d: 'anne bir kardeş' yanlış aktarılmış
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1060-01-08:0 | d: 'na imię' yanlış kalıp
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1062-07-01:0 | d: 'na imię' yanlış kalıp; Şebankare emiri; Bujidów
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1062-07-01:0 | b: yerleşik biçim: Bujidzi
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1073-03-20:0 | b: 'na imię' yanlış kalıp; 'Abbasî' atlanmış
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1073-03-20:0 | d: 'na imię' yanlış kalıp; 'mensur' çevrilmemiş
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1089-03-16:0 | b: 'na imię' yanlış kalıp
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1089-03-16:0 | d: 'na imię' yanlış kalıp
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1093-01-01:0 | b: Lehçede hükümdar sıra sayısı addan sonra
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1094-01-21:0 | d: 'na imię' yanlış kalıp
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1101-11-16:0 | b: Lehçede hükümdar sıra sayısı addan sonra
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1101-11-16:0 | d: sıra sayısı yeri; 'Jazd weszło' cinsiyet uyumu
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1107-01-01:0 | d: yanlış anlam: esir düşmemek için suya giren Kılıcarslan, beyler değil
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1116-05-16:0 | d: 'kardeşi' atlanmış; cümle düzeni anlamı bulandırıyor
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1119-09-10:0 | d: 'na imię' yanlış kalıp
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1128-01-01:1 | b: yanlış anlam: Atsız Kutbüddin'in oğlu, Sencer'in değil; 'mensur' çevrilmemiş
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1128-01-01:1 | d: yanlış anlam: Atsız Kutbüddin'in oğlu; 'mensur' çevrilmemiş
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1131-01-01:0 | b: 'oğlu Davud' Mahmud'un oğlu; belirsiz aktarım
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1131-01-01:0 | d: 'na imię' yanlış kalıp; 'jego syna'
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1147-01-01:0 | d: yanlış anlam: Batı Anadolu üzerinden gidiş, 'Batı Anadolu'dan' çıkış değil
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1161-01-01:0 | d: özel ad çekimi bozuk (Ildeniza)
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1204-01-01:1 | b: 'Gurlu' = Ghuryda; sözcük bozuk
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1210-01-01:0 | b: yerleşik Lehçe biçim Andiżan
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1210-01-01:0 | d: yerleşik Lehçe biçim Andiżan
+- olay | OLAYLAR_ORTACAG_IRAN_TURAN:1266-01-01:0 | d: bozuk sözcük 'Pervâneoğułłarów'
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:0757-05-25:0 | d: bozuk anlatım (kalke)
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:0960-11-13:0 | b: yanlış anlam: burada 'Fas' Fez şehri (Cevher 349'da Fez'i aldı)
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:0960-11-13:0 | d: yanlış anlam: burada 'Fas' Fez şehri
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:1086-10-23:0 | b: gün + ay tamlayan hali
+- olay | OLAYLAR_ORTACAG_IBERYA_MAGRIB:1086-10-23:0 | d: gün + ay tamlayan hali
+- olay | OLAYLAR_ORTACAG_BIZANS_BALKAN:1040-01-01:0 | b: dilbilgisi: wiele twierdz
+- olay | OLAYLAR_ORTACAG_BIZANS_BALKAN:1040-01-01:0 | d: dilbilgisi: wiele twierdz
+- olay | OLAYLAR_ORTACAG_BIZANS_BALKAN:1091-01-01:0 | d: yanlış anlam: tek hanedanın iç kavgaları
+- olay | OLAYLAR_ORTACAG_BIZANS_BALKAN:1118-08-16:0 | d: bozuk anlatım; 'wyprawy przeciw Cylicji' hatalı
+- olay | OLAYLAR_ORTACAG_BIZANS_BALKAN:1185-01-01:0 | d: anlam: 200 gemi donanmanın, ordunun değil
+- olay | OLAYLAR_ORTACAG_BIZANS_BALKAN:1185-01-01:1 | d: cümle düzeni: 'Tırnova çevresindeki vergiler' gibi okunuyor
+- olay | OLAYLAR_ORTACAG_BIZANS_BALKAN:1204-01-01:1 | d: 'jesiennej ... z jesieni' yinelemesi
+- olay | OLAYLAR_ORTACAG_BIZANS_BALKAN:1217-04-09:0 | d: özne kayması: Dyrrachium'a giden papa değil Pierre
+- olay | OLAYLAR_ORTACAG_BATI_AVRUPA:0923-06-15:0 | b: dilbilgisi hatası (hal uyumu)
+- olay | OLAYLAR_ORTACAG_BATI_AVRUPA:1068-01-01:0 | d: cinsiyet uyumu: zwolennicy schronili się
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:0988-08-01:0 | d: özne uyumsuzluğu (çoğul özneden sonra tekil fiil)
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1042-01-01:0 | d: dilbilgisi: 'narodziny' çoğul
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1052-06-03:0 | b: başlıkta 'aldı' (geri aldı değil)
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1052-06-03:0 | d: ad biçimi başlıkla tutarsız
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1139-07-25:0 | d: 'alt-feodaller' anlaşılmaz aktarılmış
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1162-01-01:0 | b: bozuk fiil yapısı
+- olay | OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1228-01-01:0 | d: bozuk anlatım
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1054-11-05:0 | b: 'adına hutbe' = onun adına; 'na cześć' yanlış
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1054-11-05:0 | d: yanlış anlam: Şâban ay adı, kişi adının parçası yapılmış
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1076-01-01:0 | b: ad çekimi eksik
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1095-01-01:0 | b: yanlış anlam: 'Kılıcarslan'ın damadı' gibi okunuyor
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1095-01-01:0 | d: yanlış anlam: damat Kılıcarslan'ın kendisi
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1097-01-01:0 | d: Türkçe kalıntı (-liler)
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1104-01-01:0 | d: Türkçe kalıntı (-liler)
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1104-05-07:0 | d: tekil 'Krzyżowiec' üçüncü kişi gibi okunuyor; ay çekimi
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1122-11-19:0 | d: anlam: 'Halep'ten mücadele' ('Halepli haçlılar' gibi okunuyor); Belek ve Süleyman erkek kardeş oğlu (bratanek)
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1129-01-01:1 | d: Türkçe kalıntı (-liler) ve bozuk uyum
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1131-01-01:0 | b: Türkçe sıfat ad gibi kalmış
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1134-01-01:0 | d: 'menşur' çevrilmemiş
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1142-01-01:0 | d: Türkçe kalıntı (-liler)
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1143-12-06:0 | d: Türkçe kalıntı (-liler)
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1165-01-01:0 | b: 'zajął komuś' yanlış fiil yapısı (odebrał)
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1175-01-01:0 | b: yanlış fiil yapısı (odebrał)
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1175-01-01:0 | d: cümle anlaşılmaz hâlde
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1175-01-01:1 | b: bozuk anlatım
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1172-01-01:0 | d: bozuk anlatım
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1180-05-28:0 | b: yanlış anlam: 'Bizans'ı işgal etti' gibi okunuyor
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1201-06-23:0 | b: yanlış fiil yapısı (odebrał)
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1212-01-01:0 | b: eksik 'się' (teslim oldu)
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1275-01-01:0 | b: Türkçe yapı kalmış
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1277-06-04:0 | d: özne uyumsuzluğu (tekil → çoğul)
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1284-03-20:0 | d: Türkçe -oğulları kalıntısı
+- olay | OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1288-11-22:0 | d: Türkçe -oğulları kalıntısı; ay çekimi
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1046-08-01:0 | b: 'adına hutbe' = onun adına
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1046-08-01:0 | d: 'adına hutbe' = onun adına
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1206-01-01:0 | d: dilbilgisi hatası (turecki dowódca)
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1206-01-01:1 | d: bozuk anlatım
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1237-03-05:0 | d: cinsiyet uyumu
+- olay | OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:1254-02-01:0 | d: 'Hint dönmesi' bozuk aktarılmış
+- olay | OLAYLAR_ORTACAG_BOZKIR:1078-01-01:0 | b: edat biçimi (ze zbuntowanymi)
+- olay | OLAYLAR_ORTACAG_BOZKIR:1240-01-01:0 | d: öznesiz cümle
+- olay | OLAYLAR_ORTACAG_CIN:0626-09-25:0 | d: 'mostek' yanlış sözcük
+- olay | OLAYLAR_ORTACAG_CIN:0641-01-01:0 | d: yanlış anlam: karşılayan Songtsen, Li Daozong değil
+- olay | OLAYLAR_ORTACAG_CIN:0756-07-10:0 | d: çekim hatası
+- olay | OLAYLAR_ORTACAG_CIN:0904-09-22:0 | d: yanlış özel ad (Zhu Youqong)
+- olay | OLAYLAR_ORTACAG_DOGU_GUNEYDOGU_ASYA:1113-01-01:0 | b: parantez Diwakara'ya aitmiş gibi okunuyor
+- olay | OLAYLAR_ORTACAG_DOGU_GUNEYDOGU_ASYA:1273-05-16:0 | d: 'poddanych' = tebaa; 'teslim olan' kastediliyor
+- olay | OLAYLAR_ORTACAG_YER_SONRASI:1076-01-01:0 | b: zaman uyumsuzluğu
+- olay | OLAYLAR_ANTIK_MISIR_NUBYA:-0024-01-01:0 | d: çekim hatası
+- olay | OLAYLAR_ANTIK_MISIR_NUBYA:-0028-01-01:0 | d: edat biçimi (ze stanu)
+- olay | OLAYLAR_ANTIK_MISIR_NUBYA:-0167-01-01:0 | d: anlam tersine dönmüş (bağımsızlığını yitirmeden sürdürdü)
+- olay | OLAYLAR_ANTIK_MISIR_NUBYA:-1208-01-01:0 | d: özne-fiil uyumu
+- olay | OLAYLAR_ANTIK_MISIR_NUBYA:0395-01-17:0 | d: bozuk cümle yapısı (özne-fiil)
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-0585-01-01:0 | d: bozuk anlatım: kuşatmayı şehir 'bitirmiş' gibi
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-0630-01-01:0 | b: fiil-özne uyumu
+- olay | OLAYLAR_ANTIK_YAKIN_DOGU:-0700-01-01:1 | d: anlam belirsizliği: 'sefer öncesi', 'sefere karşı' değil

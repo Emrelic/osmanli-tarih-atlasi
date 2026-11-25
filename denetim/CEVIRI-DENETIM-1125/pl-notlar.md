@@ -11,3 +11,19 @@ Düzeltilmeyen, karar isteyen noktalar:
 - Transliterasyon karışıklığı: Crnojevićów/Crnojeviciów, Sarbadarów/Serbedarów, Raszydów/Raszidydów, Cetinje/Cetinji.
 - "wojewodztwo" yazım hatası 4_olay_020, 025, 026, 067, 078, 079, 165 paketlerinde de aranmalı (Grep deseni "[Ww]ojewodztw|beylerbeylijk|haseł TDV" bu dosyalarda eşleşiyor; desenin "haseł" kolu doğru yazım olabilir). 040 ve 044'teki eşleşmeler doğru "haseł" idi; 051'deki düzeltildi. Aralık dışı paketlere bakılmadı.
 - duzeltme_b_002'de ILIRYA0072:1779 ve EK7:1509 aynı id için b ve d ayrı satırlar (alan farklı), çakışma yok.
+
+== notlar_c.md
+- Paket 065-099: "zająć X od Y" kalıbı başka kayıtlarda da geçiyor olabilir; yalnız açık bozuk olanlar düzeltildi.
+- Danişmendyd/Danyszmendyd, ad-Daula/ad-Dawla yazım tutarsızlıkları (yalnız aynı kayıt içindekiler düzeltildi).
+- Kaynak künyesi/iç not metinleri CV'de TR ile birlikte duruyor ("zob. ic_not", "atlas...", "decyzja Emrego"); TR kaynaklı olduğu için çeviride bırakıldı, tr_hatalari_c.md'de.
+
+== notlar_d.md
+Karar isteyen, toplu düzeltilmeyen noktalar (4_olay_100-137):
+- Ortaçağ paketlerinde (özellikle IRAN_TURAN 104-108) kişi/yer adları büyük ölçüde Türkçe yazımla (Tuğrul Bey, Melikşah, Yûsuf Kadır Han, Alparslan, Özkent, Mûsâ Yabgu); aynı dilin komşu kayıtlarında Lehçe biçim (Togrul Beg, Malik Szah, Uzkand, Sandżar/Sencer). Yalnız açık hatalılar düzeltildi; tek elden ad sözlüğü gerekir.
+- Hicrî ay adları kimi pakette Türkçe (Rebîülâhir, Şaban, Zilhicce), kimi pakette Lehçe (szaban, zu al-hidżdża).
+- Hanedan adlarında Türkçe ek kalıntısı: Mengücükoğulları, Çubukoğulları, Dilmaçoğulları, "Saltuklu" (sıfat gibi: beylik/armia Saltuklu), "Beylik" büyük harf. Açık cümle hataları (Danişmendliler, Karamanoğulları dizisi) düzeltildi.
+- "chutbę na imię" (adına) yanlış kalıbı: 105-106'daki kayıtlar ve görülen "na cześć" örnekleri düzeltildi; başka aralıklarda grep ile aranmalı ("na imię", "na cześć").
+- "menşur" > "mensur" (Lehçede sözcük yok): görülenler düzeltildi; başka aralıklarda grep ile aranmalı.
+- 1225-01-13 (ANADOLU_KAFKASYA) "500 çarkçı" > "500 operatorów machin miotających"; "çarhçı" arbaletçi/öncü de olabilir. Dokunulmadı.
+- 1103-01-01 (ANADOLU_KAFKASYA) "yeğeni Yâkūtî" > "siostrzeniec"; akrabalık yönü (bratanek?) doğrulanmadı. 1132-01-01 Saltuk II için de aynı.
+- duzeltme_d_001'de 1182 ve 1251 kayıtlarında b ve d aynı metin olduğu için ikisine ayrı satır verildi.

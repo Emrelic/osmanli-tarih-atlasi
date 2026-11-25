@@ -49,3 +49,46 @@
 - olay OLAYLAR_EK16:1941-06-23:0, 1941-06-23:1, 1944-07-16:0, 1944-07-28:0: TR başlık/açıklamada Türkçe karakter eksik ("isgal", "Dogu Cephesi", "Kizil Ordu"); açıklama "Dogu Cephesi: 1941 Barbarossa ve 1944 Bagration." yer tutucu gibi.
 - olay OLAYLAR_EK17:1725-01-01:0: "Gün TDV'de belirtilmiyor, yıl beyan." iç not.
 - olay OLAYLAR_EK17:1738-08-01:1 ve 1800-04-02:0: "harita Semendire'nin günüyle çalışır" / ISO biçimli "1799-03-05" tarihleri kullanıcıya görünüyor.
+
+== tr_hatalari_c.md
+- olay OLAYLAR_EK20:1768-05-15:0: TR.d kullanıcıya görünen iç not "(TDV Korsika; gün teyitsiz)"
+- olay OLAYLAR_EK22:1923-07-24:0: TBMM onayı metinde "23 Ağustos 1923", tabloda "2 Ağustos 1923" (çelişki; 23 Ağustos doğru görünüyor); ayrıca "özetlerinde geçmiyor", "madde kanıtı yok" gibi iç not dili
+- olay OLAYLAR_2S_0918:1889-01-01:0: TR.d "II. Yohannes" (Habeş imparatoru 1889'da ölen IV. Yohannes; CV 'Jan IV' yazıyor); ayrıca "Kerene" yazımı
+- olay OLAYLAR_SENKRON_0930:1471-01-01:0: TR.d "(TDV besni: ...)" slug biçiminde iç atıf; 1436-01-01 "Atlas ... (beyanlı yaklaşıklık)" iç not dili
+- olay OLAYLAR_2S0920:1942-01-01:0: TR.d "(bkz. ic_not)" kullanıcıya görünüyor (CV'de "zob. ic_not")
+- olay OLAYLAR_2S0920:1941-05-05:0: "Atlas bu günü ... dönüş sınırı olarak kullanır" iç not dili
+- olay OLAYLAR_SENUSI_0919:1691-01-01:0: "Eski kayıtta ... beyanlı boşluktu ... artık Habsburg olarak boyanır" iç not
+- olay OLAYLAR_SENUSI_0919:1716-10-18:0: "Eski kayıt devri yıl tabanı olan 1 Ocak 1716'ya koyuyordu" iç not
+- olay OLAYLAR_SENUSI_0919:1688-01-01:0: "yıl tabanı ... kullanılmıştır" iç not dili
+- olay OLAYLAR_SENUSI_0919:1717-01-01:0: "petekleri ... boyanır" motor iç notu
+- olay OLAYLAR_ARKEOLOJI_D3_AMERIKA_PASIFIK:* (ve AFRIKA_IRAN, LEVANT_ANADOLU, MISIR_AFRIKA, D2_AFRIKA_AMERIKA, ZINCIR): TR metni Türkçe harfsiz ("kulturu, yerlesme, Misir"); başlıklarda yinelenen önek ("Sechín Alto: Sechín Alto: ...")
+- olay OLAYLAR_ARKEOLOJI_D3_ITALYA_AVRUPA:-0751-01-01:0: "Varro'nun 753'ü bu oturumda KAYNAKTAN okunmadı" iç not
+- olay OLAYLAR_ARKEOLOJI_D3_ANADOLU_EGE:-1199-01-01:0: başlıkta "3. dalga okuma notu" iç not
+- olay OLAYLAR_ARKEOLOJI_D2_IRAN_ORTA_ASYA:-3199-01-01:0: "Brifteki 'MÖ ~3100' ..." iç not
+- olay OLAYLAR_ARKEOLOJI_ZINCIR:*: "KAYNAKLANMADI", "bu turda okunmadı", "künye t=...", "ayni kaynak", "Son uç ... okunmadı", ayrıca başlıkta "(ANTIK-ISKENDER-1113-B)" (-0329-01-01) iç notlar kullanıcıya görünüyor
+- olay OLAYLAR_ARKEOLOJI_ZINCIR:-0329-01-01:0 ve -0310-01-01:0: başlık ile açıklamadaki geçiş yönü çelişik (İskender/Seleukos <-> sahipsiz aralık); -0910 Aşşur ve -2003/-2024 Uruk-Ur kayıtlarının kaynak notu geçişle ilgisiz
+- olay OLAYLAR_ARKEOLOJI_D3_AMERIKA/Çatalhöyük -7099-01-01:0: "geriye (daha geç)" çelişkili ifade
+- olay OLAYLAR_OK109:1918-11-03:0: CV'de TDV alıntısı Türkçe kalmıştı (düzeltildi); 1918-10-28 TR haritada tarih notu iç not dili
+- olay OLAYLAR_T5_1000A/B:*: "atlas ... boş bırakır", "künyeye uyarak", "künye günü kaynak değildir", "Emre kararı / Emre #23 metbû modeli", "kural 5 sınırı", "bölge cümlesi", "fark bildirildi", "(alt sınır)" iç notları
+- olay OLAYLAR_T5_1000A:1148-01-01:0: "katılış yılı yılsız" bozuk Türkçe
+- olay OLAYLAR_ORTACAG_ORTADOGU:0820-06-17:0, 0870-08-29:0, 0929-02-14:0: "atlastaki San'a boşluğu", "Atlasta ... yazılıdır" iç not
+- olay OLAYLAR_KURULUS_GERI_1021:*: "komşudan alındı", "gün künye f'sinden", "beyanlı boşluk", "kuyruk kronolojide ayrı kayıtlı", "TDV tuleytula" iç notları
+
+== tr_hatalari_d.md
+- olay OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1115-07-24:0: d alanında kullanıcıya görünen geliştirici metni: (kesinlik: {"f": "yuzyil", "t": "gun"}) ve ham Treccani URL'si; başlıktaki konuyla da uyumsuz kırık anlatım (21 dilde de büyük olasılıkla aynen).
+- olay OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1000-01-01:1 ve 1096-01-01:0, 1056-01-01:1: sonda "(yıl)" iç notu; SNL'den Norveççe ham alıntı.
+- olay OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1241-01-01:1: "(gün bilinmiyor, yıl esas)" iç notu. 1085-07-17:0, 1169-03-08:0: ham İtalyanca/İngilizce alıntı. 1038-01-01:1: "TDV İbnü'l-Havvâs maddesi 1040 verir"; 1150-01-01:0 "(Sefer yılı kaynakta belirtilmiyor.)".
+- olay OLAYLAR_ORTACAG_ORTADOGU:1076-08-05:0, 1102-05-22:0: "Atlasta ... beyanlı boşluktur (Uyûnîler künyesiz)", "(BEYANLI YAKLAŞIKLIK)" iç terimleri.
+- olay OLAYLAR_ORTACAG_ORTADOGU:1236-01-01:0 ve 1281-01-01:0: "(... gün yok)", "(ay belirtilir, gün yok)". OLAYLAR_ORTACAG_IBERYA_MAGRIB:1002-01-01:0, 1013-01-01:0: "kaynak yılı verir, gün yok".
+- olay OLAYLAR_ORTACAG_IRAN_TURAN:0943-04-06:0 ve 1035-06-29:0: "TDV Sâmânîler: ...", "TDV Gazneliler ..." ham atıf; 1092-11-19:0: "gün TDV'de yok".
+- olay OLAYLAR_ORTACAG_IBERYA_MAGRIB:1085-05-08:0, 1094-06-15:0, 1102-05-05:0; OLAYLAR_ORTACAG_IRAN_TURAN:1219-01-01:0: "Atlasta ... künyesinden/kaydına" atlas iç terimi.
+- olay OLAYLAR_ORTACAG_IRAN_TURAN:1090-03-06:0: d içinde "Melikşah Bâtınîlerle mücadeleyi devlet politikası yaptı" cümlesi iki kez yineleniyor.
+- olay OLAYLAR_ORTACAG_IBERYA_MAGRIB:0928-01-17:0: "Son direniş merkezi Hafs'ın teslimi": Hafs İbn Hafsûn'un oğlu (kişi), yer değil; ölçülmedi, kaynakla bakılmalı.
+- olay OLAYLAR_ORTACAG_BATI_AVRUPA ve OLAYLAR_ORTACAG_DOGU_GUNEYDOGU_ASYA:1185-12-21:1..3, 0929-01-01:1, 0936-09-26:1..2, 1222-01-01:1: d sonundaki parantezli yer notları ("(Settsu: ... Kinai.)", "(Hubaekje ülkesi.)") yerleşim eşleme iç notu gibi.
+- olay OLAYLAR_ORTACAG_CIN:0763 ve diğerleri: Çince döngü günü karakterleri (癸卯, 甲午, 丁巳, 戊辰, 壬戌, 戊寅, 癸巳, 己巳, 庚戌, 將作少監) metinde kullanıcıya görünüyor.
+- olay OLAYLAR_ORTACAG_CIN:0842-01-01:0: "Jiu Tang shu ölümün sebebini (suikast) yazmaz" iç değerlendirme gibi.
+- olay OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1189-01-01:0: "amcası kızı Constance": Constance II. William'ın halasıdır (II. Roger'in kızı); ilişki yanlış görünüyor.
+- olay OLAYLAR_ANTIK_MISIR_NUBYA:-2054-01-01:0: "(aşağıdaki madde)" iç gönderme.
+- olay OLAYLAR_ANTIK_YAKIN_DOGU:-1224-01-01:0: "Asur, orta çağın en güçlü devleti oldu": "Orta Asur dönemi" kastedilmiş; çevirilerde "Ortaçağ" (pl: średniowiecza) oluyor.
+- olay OLAYLAR_ANTIK_YAKIN_DOGU:-0585-01-01:0: "Şehir sonunda bir barış/vasallık düzeniyle sona erdi" bozuk cümle.
+- olay OLAYLAR_ORTACAG_ANADOLU_KAFKASYA:1175-01-01:0: "Niksar'da Yağıbasan'ın medresesinin hazîresinde gömülü bulunduğu Dânişmendli merkezlerinden biri" cümlesi bozuk.
