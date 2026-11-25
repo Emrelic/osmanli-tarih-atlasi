@@ -1,0 +1,12 @@
+- arayuz "# Ocak # (imzalar # Ocak-# Mart arası şeyhlik şeyhlik tamamlandı)": "şeyhlik şeyhlik" tekrarı, cümle bozuk.
+- arayuz "# Eylül # [gün teyitsiz — ÇELİŞKİ-#: TDV «Uyvar» ...]" ve benzeri ("ÇELİŞKİ-#", "ic_not_t", "olaylar_ek# ...", "kronoloji_safevi.js", "(Emre notu ##)", "OKUNMADI", "karaman künye ic_not_t"): kullanıcıya görünen iç not metinleri.
+- arayuz "Ocak # (gün Kahire'den — bk. ic_not_t)": kullanıcıya görünen iç not (ic_not_t).
+- olay OLAYLAR:1913-05-30:0: TR.d'de "Girit'te Hanya, Kandiye, Girit (Resmo)" bozuk (herhalde "Resmo").
+- olay OLAYLAR:1739-09-18:0, OLAYLAR_EK:1461-06-01:0, EK:1717-08-18:0, EK3:1688-09-06:0, EK3:1690-10-08:0, EK3:1695-09-22:0: TR'de kullanıcıya görünen iç not dili ("atlasta ... yazılıdır", "abi-merkez zinciri", "beyanlı yaklaşıklık", "bölge günü").
+- olay OLAYLAR_EK11:1796-01-01:0: "Meşhed ... Ağa Muhammed Şah'ın önünde Afşar hükümdarı Şâhruh tarafından karşılandı" cümlesi bozuk.
+- olay OLAYLAR_2S_0918:1462-01-01:0: "Yukarı Dicle'de Hama ile birlikte ... ayakta kalan iki koldan biri olan Hısnıkeyfâ ve Siirt" anlatımı bozuk/yanıltıcı (Hama Yukarı Dicle'de değil).
+- olay OLAYLAR_EK7:1735-03-21:0, OLAYLAR_EK5:1555-01-01:0, 1716-10-13, 1718-07-21: kullanıcıya görünen iç not dili ("haritada Gence günü kullanılır", "beyanlı yaklaşıklık", "haritada ... gösterilir").
+- olay OLAYLAR_2S0920:1942-01-01:0: TR.d'de kullanıcıya görünen iç not "(bkz. ic_not)" (çeviride de duruyor).
+- devlet "sutayogullari": TR'de Türkçe karakter eksik ("Sutayogullari").
+- devlet "cemisgezek-beyligi": TR'de Türkçe karakter eksik ("Cemisgezek Beyligi").
+- devlet "misir-erken-hanedan" ve devamındaki antik/Asya kayıtlarının bir bölümü (misir-*, akad, ur-3, isin, esnunna, *-hanedani, neustria, austrasia, essex, perlak vb.): TR'de Türkçe karakter eksik ("Misir", "Krallik/Kralligi", "Donemi", "Hanedani", "Imparatorlugu", "Guney", "Bati").

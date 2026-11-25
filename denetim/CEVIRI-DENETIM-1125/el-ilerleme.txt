@@ -1,0 +1,7 @@
+Tam okunan paketler: 1_arayuz_001..012, 2_devlet_001..014, 3_bayrakli_001..015, 4_olay_001..003 (44 paket)
+Bakılan kayıt (@@ sayımı): arayüz paketlerinde 2033; devlet paketlerinde 2315; bayraklı paketlerde 252 (karışık: arayüz/devlet tekrarları + olay); olay paketlerinde 43.
+Okunmayan: 3_bayrakli_016..022 (15 parça sınırı), 4_olay_004..249 (bağlam sınırı).
+Düzeltme: duzeltme_001..011, toplam 210 satır.
+Not 1: bazı satırlarda "eski" alanı birebir alt dize değil, düzeltilen parçaların ';' ile özetidir (çoğu olay kaydında "…" de olabilir); uygulama "yeni" (alanın tamamı) üzerinden yapılmalı.
+Not 2 (düzeltilmeyen sistematik sorun): uzun "aynı tarihte katılan/elden çıkan yerleşimler" listelerinde ve bazı olay gövdelerinde Türkçe yer/kişi adları Latin harfle duruyor (ör. İnegöl, Kütahya, Kırşehir, Silistre); yalnız bir bölümü düzeltildi. Toplu bir yer adı sözlüğüyle ayrıca ele alınmalı.
+Not 3 (emin olunmayan): arayüz "için seyrek havuz," -> "για, αραιή δεξαμενή," birleşik cümle parçası, bağlamı görülmeden değiştirilmedi.

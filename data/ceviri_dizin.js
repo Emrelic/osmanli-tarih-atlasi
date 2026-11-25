@@ -643,39 +643,39 @@ window.CEVIRI_DIZIN = {
   "el": [
    [
     "ceviri_el_arayuz.js",
-    "87311bdd"
+    "b79f738f"
    ],
    [
     "ceviri_el_devlet.js",
-    "ae651734"
+    "36390e5d"
    ],
    [
     "ceviri_el_olay_01.js",
-    "d5331396"
+    "8afcba74"
    ],
    [
     "ceviri_el_olay_02.js",
-    "2d7ad3e1"
+    "d108676d"
    ],
    [
     "ceviri_el_olay_03.js",
-    "23727a86"
+    "5f759d08"
    ],
    [
     "ceviri_el_olay_04.js",
-    "d0a8f573"
+    "fbdaecdd"
    ],
    [
     "ceviri_el_olay_05.js",
-    "058b5375"
+    "80343d8a"
    ],
    [
     "ceviri_el_olay_06.js",
-    "e7ef2a33"
+    "2f277985"
    ],
    [
     "ceviri_el_olay_07.js",
-    "7e61d90d"
+    "612b18a8"
    ],
    [
     "ceviri_el_olay_08.js",
@@ -687,11 +687,11 @@ window.CEVIRI_DIZIN = {
    ],
    [
     "ceviri_el_olay_10.js",
-    "60b5b982"
+    "ba4b8034"
    ],
    [
     "ceviri_el_olay_11.js",
-    "4b4092c3"
+    "512cfbb2"
    ]
   ],
   "id": [
