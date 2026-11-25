@@ -63,3 +63,16 @@
 - olay OLAYLAR_P0055:1538-01-01:0, OLAYLAR_P0057:1921-04-07:0 ("ikisi de verildi"), 1921-01-01:0: harita/editör notu
 - olay OLAYLAR_ARKEOLOJI_*: pek çok maddede çalışma notu (tablo sütunu, "aynı sitede", "modelde tutulmuştur", "bu oturumda KAYNAKTAN okunmadı", "3. dalga okuma notu"); D3 maddelerinin bir kısmında TR Türkçe karaktersiz; başlıklarda tekrar ("Sechín Alto: Sechín Alto:")
 - olay OLAYLAR_ARKEOLOJI_ZINCIR:*: bütün gövdeler makine/geliştirici kaydı ("sahipsiz aralık", "Kaynak geçiş bilgisi", URL, "KAYNAKLANMADI (bu oturumda kaynak yok)", "künye t uzatıldı", başlıkta "ANTIK-ISKENDER-1113-B"); ek hatası ("Cumhuriyeti'dan", "aralık'ya"); -0329 Ekbatana (başlık Ahameniş→İskender, gövde Ahameniş→sahipsiz ve MÖ 550 kaynağı), -0910 Aşşur (kaynak MÖ 14. yy), -2003 Larsa→sahipsiz (kaynak Ur III 2110), -1099 ve -1899 Susa (kaynak İbbi-Suen MC 2024), -0026 İskenderiye (kaynak MS 395) başlık/tarih ile uyuşmuyor
+
+== tr_hatalari_e.md
+- olay OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1115-07-24:0: açıklamada kullanıcıya görünen iç veri: `(kesinlik: {"f": "yuzyil", "t": "gun"}) Ayrıca ... https://www.treccani.it/...` (çeviride de aynen var)
+- olay OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1000-01-01:1, :1056-01-01:1, :1096-01-01:0: metinde "(yıl)" / "; yıl)" iç notu
+- olay OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1085-07-17:0: "Treccani da ölüm tarihini doğrular: ..." teyit notu
+- olay OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1241-01-01:1: "(gün bilinmiyor, yıl esas)" iç notu
+- olay OLAYLAR_ORTACAG_ITALYA_DOGU_AVRUPA:1189-01-01:0: "amcası kızı Constance" - Constance II. Roger'in kızı, yani II. William'ın halası (doğrulanmalı)
+- olay OLAYLAR_ORTACAG_CIN:0907-06-01:0: açıklama "tahta çıktı; " ile yarım bitiyor
+- olay OLAYLAR_ORTACAG_DOGU_GUNEYDOGU_ASYA:0929-01-01:0/:1, :0936-09-26:1/:2, :1185-12-21:0-3, :1222-01-01:0/:1: sonda yerleşim notu gibi parantezler ("(Hubaekje ülkesi.)", "(Brantas deltası Doğu Cava.)", "(Kyushu: shugo/jitō'nun uygulandığı bölge.)")
+- olay OLAYLAR_ANTIK_MISIR_NUBYA:-2054-01-01:0: "(aşağıdaki madde)" iç gönderme
+- olay OLAYLAR_ANTIK_AKDENIZ:-0035-01-01:0, :-0063-01-01:0, :0106-01-01:0: "kronolojide ayrı maddedir" iç notu; 0106'da ayrıca "bağlandı Savaşın ... maddelerdedir.." noktalama bozuk
+- olay OLAYLAR_ANTIK_AKDENIZ:-0145-01-01:0: "Roma'a" yazım hatası
+- olay OLAYLAR_ANTIK_AKDENIZ:-0277-01-01:0: açıklamada ham TDV alıntısı notu

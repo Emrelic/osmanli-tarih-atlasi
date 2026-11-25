@@ -50,3 +50,20 @@ Sistematik (tek tek düzeltilmedi):
 
 Uygulama uyarısı: duzeltme_c_* içinde bazı "eski" alanları birden çok parçayı " / " ile birleştiriyor (alt dize araması yapılırsa tutmaz). "yeni" her zaman alanın tamamıdır. OLAYLAR_EK14:1830-12-01:0 gibi kayıtlarda "eski" yalnız asıl hatayı gösterir.
 Emin olunmayan: EK16:1798/1800 Malta başlığında "فرانسیسی قبضے" (TR "Fransız kuşatması"; kuşatılan Fransızlardı) değiştirilmedi.
+
+== notlar_e.md
+# ur / e turu notları (4_olay_138-174)
+
+## 1) Toplu karar gerektiren (tek tek düzeltme verilmedi)
+- Urdu metin içinde Latin harfli özel adlar çok yaygın: 138, 142 (İtalya/İskandinav adları), 161 (Mısır, -1524 öncesi kayıtlar ve MS 69-451), 162-163 (OLAYLAR_ANTIK_YAKIN_DOGU Part/Selevkos/Pers), 166-167 (Hitit/Mezopotamya), 168 baş yarı, 171-173 (OLAYLAR_ANTIK_AKDENIZ).
+- 171-173'te bunların bir kısmı TÜRKÇE biçim (öncelikli toplu düzeltme): Atina=ایتھنز; Korint=کورنتھ; Teb=تھیبس; Sirakuza=سیراکیوز; Ege=ایجیئن; Fenike=فونیقیہ; Bergama=پرگامون; Selanik=تھیسالونیکی; Rodos=روڈس; Trakya=تھریس; Kappadokia=کپادوکیہ. Ek ve cinsiyet uyumu kontrol edilmeli.
+- Harput bazı paketlerde حرپوت (doğrusu خرپوت): yalnız 144/148'de gördüklerim düzeltildi; 149/280-05-03 de düzeltildi.
+- Cenova bu aralıkta çoğu yerde جنیوا (Cenevre) yazılmıştı; 140-144'te gördüklerim جنوا yapıldı. Başka aralıklarda taranmalı.
+- Xerxes için کسرا (Hüsrev) kullanımı: gördüklerim düzeltildi; öteki aralıklarda taranmalı.
+- Yunnan için یونان (Yunanistan): 153, 156, 157 düzeltildi; öteki aralıklarda taranmalı.
+- "داخلہ لیا" (kayıt oldu) "girdi" anlamında kullanılmış: gördüklerim düzeltildi; taranmalı.
+- Darius دارا / Darius, Cyrus کوروش / Cyrus karışık.
+
+## 2) Emin olunmayan
+- 1185-01-01 / 0996 vb. "بیگ نشین" (beylik) alışılmadık; değiştirilmedi.
+- 154'te چھانگ آن / چانگ آن karışık; değiştirilmedi.
