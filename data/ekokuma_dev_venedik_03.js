@@ -110,6 +110,96 @@ window.EKOKUMA_DEVVENEDIK03 = [
     "Madde Venedik döneminin sıkıntısını az donanma ve asker ile halka kötü davranışla birlikte anlatır. Satışın koşullarını ve Venedik meclislerindeki tartışmaları ise vermez.",
   kesinlik:"kesin",
   kaynak:"Machiel Kiel, \"Selânik\", TDV İslâm Ansiklopedisi c. 36 (2009), s. 352-357, https://islamansiklopedisi.org.tr/selanik",
-  ic_not:"29 Mart 1430 kaynakla uyumlu. Devrin 'satış' mı 'devir' mi olduğu için Venedik tarafı kaynağı okunmadı; madde 'sattı' der, bedel vermez. 'Bir ay süren kuşatma' maddenin ifadesidir. Rum halkın teklife olumlu yaklaşımı da maddenin anlatısıdır." }
+  ic_not:"29 Mart 1430 kaynakla uyumlu. Devrin 'satış' mı 'devir' mi olduğu için Venedik tarafı kaynağı okunmadı; madde 'sattı' der, bedel vermez. 'Bir ay süren kuşatma' maddenin ifadesidir. Rum halkın teklife olumlu yaklaşımı da maddenin anlatısıdır." },
+
+{ id:"venedik-savas-korfu-1537", teyit:"teyitli", yayin_adayi:true,
+  ic_not_teyit:"TDV Korfu maddesi ham tam metinden okundu; karttaki olgular maddenin kendi anlatısıdır. Maddenin parantez içinde gösterdiği Rûznâme ve Danişmend ayrıca okunmadı; Pîrî Reis ve Evliya Çelebi aktarımları karta alınmadı.",
+  tur:"savas-hikayesi", devlet:"venedik", taraf:["venedik","osmanli"],
+  baslik:"Korfu 1537: kalede gedik açan Osmanlı ordusu neden çekildi?",
+  olay:["1537-08-25|üçüncü savaşın"],
+  kisa:"Karaya asker ve top çıkarılmış, adanın tamamı ele geçirilmiş, surlarda gedikler açılmıştı. Yine de iki hafta dolmadan kuşatma kaldırıldı.",
+  tarih_metin:"25 Ağustos – 6 Eylül 1537",
+  yer:"Korfu Adası, Adriyatik'in girişi",
+  taraflar:[
+    {ad:"Venedik (kaleyi savunan taraf)", komutan:"Okunan kaynakta savunmanın komutanı adıyla anılmıyor"},
+    {ad:"Osmanlı", komutan:"Kanûnî Sultan Süleyman; seferin serdarı üçüncü vezir Lutfi Paşa; donanma kumandanı Barbaros Hayreddin Paşa; ikinci çıkarma Sadrazam Ayas Paşa kumandasında"}
+  ],
+  oncesi:"Korfu 1386'dan beri Venedik'e bağlıydı ve Adriyatik'in girişini denetliyordu.\n\nOsmanlıların adaya yönelik ilk ciddi seferi 1537'de gerçekleşti. Kaynaklarda bu sefer Pulya seferi ve Korfu gazâsı adıyla anılır. Donanma 17 Mayıs 1537'de denize açıldı. Kanûnî'nin başında bulunduğu kara ordusu da İstanbul'dan yola çıktı. İki kuvvet Avlonya'da buluştu.",
+  akis:"■ ÇIKARMA\n25 Ağustos'ta donanma Korfu'ya asker ve top çıkardı. Kanûnî kara ordusuyla adanın karşı kıyısında karargâh kurdu. Ardından Sadrazam Ayas Paşa kumandasında ikinci bir çıkarma yapıldı. Maddenin yazarı İdris Bostan'a göre asker ve mühimmatı taşımak için, adanın kıyıya en yakın yerinde gemiler yan yana bağlanarak muhtemelen bir köprü de kuruldu.\n\n■ KALENİN ÖNÜNDE\nKuşatmaya katılan Osmanlı ordusu 50.000 dolayındaydı ve elli kadar topu vardı. Önce adanın tamamı ele geçirildi, sonra kale kuşatıldı. Surlarda bazı gedikler açıldı, fakat sonuç alınamadı.",
+  sonuc:"Kuşatma 6 Eylül'de kaldırıldı. Osmanlı kuvvetlerinin adadan çekilmesi dokuz gün sürdü.\n\nVenedik, kuşatmanın ardından Korfu Kalesi'ni yeniden güçlendirdi. Ertesi yıl, 1538'de, Preveze'de Osmanlı donanmasının karşısına çıkan müttefik donanma Korfu'yu üs olarak kullandı. Adanın halkı için tablo ağırdı: 1537 kuşatmasından önce 40.000 dolayında olan nüfusun 1588'de 19.000'e düştüğü tespit ediliyor. Kaynak bu iki sayıyı verir; aradaki düşüşün ne kadarının kuşatmadan kaynaklandığını ayrıca söylemez.",
+  tartisma:"■ KAYNAK NE KADARINI SÖYLÜYOR\nGeri çekilme için iki sebep gösteriliyor: elverişsiz hava ve, madde yazarının ifadesiyle belki daha da önemlisi, siyasî nedenler. Bu siyasî nedenlerin neler olduğu maddede açıklanmıyor. Dolayısıyla “kale alınamadığı için çekildiler” demek de “yalnız siyaset yüzünden çekildiler” demek de okunan metnin ötesine geçer.",
+  kesinlik:"tartismali",
+  kaynak:"İdris Bostan, \"Korfu\", TDV İslâm Ansiklopedisi c. 26 (2002), s. 201-202, islamansiklopedisi.org.tr/korfu",
+  ic_not:"Bağlanan maddenin günü (25 Ağustos 1537, çıkarma) TDV ile uyuşuyor. TDV çekilme için 6 Eylül (30 Rebîülevvel) verir. Venedik tarafının anlatısı (savunma komutanı, kayıplar) için ikinci kaynak okunmadı." },
+
+{ id:"venedik-mimari-doge-sarayi-1577", teyit:"teyitli", yayin_adayi:true,
+  ic_not_teyit:"Üç DBI maddesi (Beltramini, Petrecca, Maggio) tam okundu; karta yalnız maddelerin kendi anlatısı alındı. Temanza-Zorzi tartışması, Da Ponte'nin dilekçesi ve Chatsworth çizimi atfı aktarım olacağı için çıkarıldı.",
+  tur:"mimari",
+  baslik:"Yanan Doge Sarayı için Palladio bambaşka bir bina önerdiğinde ne oldu?",
+  olay:["1577-05-20|yangını"],
+  kisa:"Cumhuriyetin kalbi yandı. Dönemin en ünlü mimarlarından biri, yapıyı antik üsluba göre kökten yenilemeyi önerdi. Venedik'in kararı ise eskisinden yana oldu.",
+  metin:"20 Aralık 1577'de çıkan yangın, Venedik Doge Sarayı'nın bir kanadını harap etti. Büyük Konsey Salonu ile Scrutinio (oylama) Salonu yok olanlar arasındaydı. Rıhtıma ve Piazzetta'ya bakan kanatların üst iki katı gitmişti.\n\n" +
+    "■ İKİNCİ YANGIN\nSaray daha önceki yaralarını bile sarmamıştı. Mayıs 1574'te başka bir yangın, aralarında Senato salonunun da bulunduğu odaları yakmıştı. Onarımda Palladio, Giovanni Antonio Rusconi ve devletin yapı ustabaşılarından Antonio da Ponte görev aldı. Bu işler tam bitmeden ikinci ve daha ağır yangın geldi.\n\n" +
+    "■ ÖNCE KONSEYE YER\nİlk sorun pratikti: Büyük Konsey nerede toplanacaktı? Da Ponte, Palladio ve iki başka ustabaşından görüş istendi; yanıt 27 Aralık'ta verildi. Ardından sıra sarayın kendisine geldi. Da Ponte ile birlikte çok sayıda usta ve mimara danışıldı. Senato 16 Ocak 1578'de üç görevli atadı. Bu görevliler, aralarında Da Ponte ile Palladio'nun da bulunduğu daha dar bir mimar grubundan ayrıntılı yazılı görüş istedi.\n\n" +
+    "■ PALLADIO'NUN ÖNERİSİ\nPalladio yapının antik üsluba uygun biçimde köklü olarak yeniden yapılmasını önerdi. Palladio'yu destekleyenlerin başında, onunla uzun yıllardır çalışan Barbaro ailesinden Marcantonio Barbaro geliyordu.\n\n" +
+    "■ KARŞI SIRALARDAN BİRİ\nTartışmayı izleyenlerden biri, ne zengin ne güçlü bir soylu aileden gelen Francesco Molino'ydu. Yargı kurulu Quarantia'ya seçildiği için Senato'ya girebiliyor, sarayın yeniden yapımıyla ilgili görüşmelerde bulunuyordu. Palladio ile hamisi Barbaro'nun görüşlerine karşı çıktı. Sonunda sarayın eski haliyle onarılmasına karar verilince buna sevindi.\n\n" +
+    "■ KAYNAK NE KADARINI SÖYLÜYOR\nYangının günü, Palladio'nun köklü yenileme önerisi ve eski halin korunması yönündeki sonuç açık. Okunan üç yaşamöyküsü ise Senato'nun karar gününü ve oyların dağılımını vermiyor. Kararda kimin sözünün ağır bastığını da bu metinlere dayanarak söylemiyoruz.",
+  kesinlik:"kesin",
+  kaynak:"Guido Beltramini, \"Palladio, Andrea\", Dizionario Biografico degli Italiani c. 80 (2014), treccani.it/enciclopedia/andrea-palladio_(Dizionario-Biografico)/ · Mauro Petrecca, \"Da Ponte, Antonio\", Dizionario Biografico degli Italiani c. 32 (1986), treccani.it/enciclopedia/antonio-da-ponte_(Dizionario-Biografico)/ · Silvia Maggio, \"Molino, Francesco\", Dizionario Biografico degli Italiani c. 75 (2011), treccani.it/enciclopedia/francesco-molino_(Dizionario-Biografico)/",
+  ic_not:"KRONOLOJİ UYUŞMAZLIĞI: bağlanan madde 1577-05-20 günlü; Beltramini ve Petrecca yangını 20 Aralık 1577 olarak verir (iki madde aynı gün). Mayıs yangını 1574'tedir (Petrecca: 11 Mayıs 1574). Maddenin günü düzeltilmeli. Petrecca 1574 yangınında salonları üçüncü katta, Beltramini ikinci katta gösterir (kata girilmedi). Da Ponte'nin rolü üzerine Temanza-Zorzi ayrılığı karta alınmadı." },
+
+{ id:"venedik-sebep-correzione-1582", teyit:"teyitli", yayin_adayi:true,
+  ic_not_teyit:"Üç DBI maddesi (Trebbi, Maggio, Preto) tam okundu; karttakiler maddelerin kendi anlatısı. Molino'nun Compendio'su ve Diedo'nun Storia'sı okunmadı, bunlardan alıntı yapılmadı.",
+  tur:"sebep-sonuc",
+  baslik:"Soylular üç güçlü adı seçmeyince Venedik'in güç dengesi nasıl değişti?",
+  olay:["1582-01-01|Correzione"],
+  kisa:"Kavga oy sandığında başladı: 1582'de Büyük Konsey, tanınmış adayları seçmeyi reddetti; ertesi yıl güçlü bir kurulun ek üyelik düzeni ortadan kalktı.",
+  metin:"Ekim 1582'de Venedik Büyük Konseyi alışılmadık bir şey yaptı: Onlar Konseyi'nin “zonta” denen ek üyeliği için aday olan üç nüfuzlu soyluyu seçmedi. Bunlardan biri, deneyimli diplomat Paolo Tiepolo'ydu.\n\n" +
+    "■ AYNI İSİMLER, HEP AYNI KOLTUKLAR\nTiepolo 1577'den 1581'e kadar zontaya kesintisiz seçilmişti. Aynı yıllarda başka yüksek görevleri de üstleniyordu. Tepki çeken tam da buydu: Tiepolo, Soranzo kardeşler, Foscarini ve Barbaro gibi dar bir güçlü soylular çevresi en önemli makamlarda sürekli görülüyordu. Daha küçük soylular bu çevreye karşı çıktı ve öfke, güçlü Onlar Konseyi ile onun zontasına yöneldi. Bu kurul, yüzyıllara yayılan bir süreçte Venedik yönetiminin merkezine yerleşmişti.\n\n" +
+    "■ KÜÇÜK BİR SOYLUNUN GÖZÜNDEN\nVarlıklı da güçlü de olmayan bir aileden gelen Francesco Molino'nun hikâyesi bu öfkeyi anlatır. 1580-81'de Pordenone'de yöneticiyken, Onlar Konseyi'nin yetkisinin, güçlü kâtip ailesi Ottobon'u yasaya aykırı biçimde kayırmak için kullanıldığını gördü. 1582'de zontanın yeniden seçilmemesini sevinçle karşıladı.\n\n" +
+    "■ SAVUNMA YETMEDİ\nSert tartışmalar başladı. Tiepolo 18 Kasım 1582'de Senato'da Onlar Konseyi'ni savunan ateşli bir konuşma yaptı. Ne onun çabası ne de yönetici çevrenin öteki üyelerinin uğraşı sonucu değiştirdi.\n\n" +
+    "■ SONUÇ\n1583'te anayasal reformla Onlar Konseyi'nin zontası kaldırıldı ve Senato'nun yetkisi yeniden güçlendirildi.\n\n" +
+    "Bu, eski yöneticilerin tümüyle sahneden silindiği anlamına gelmedi. Tiepolo, Senato'da yönlendirici görevlerde bulunmayı sürdürdü; sık sık Savio di Consiglio, yani hükümetin önde gelen kurul üyelerinden biri seçildi. Değişen şey her şeyden önce yetkinin hangi kurumda toplandığıydı.\n\n" +
+    "Zontayı savunan görüş de kaybolmadı. 1684'te doğan Venedikli tarihçi Giacomo Diedo, 1751'de yayımlanan cumhuriyet tarihinde bu olayı anlatırken açıkça zonta yanlılarından yana tavır aldı.\n\n" +
+    "■ KAYNAK NE KADARINI SÖYLÜYOR\nOkunan yaşamöyküleri krizin çıkışını, iki tarafın bazı yüzlerini ve sonucunu gösteriyor. Oylamaların sayıları ve reformun bütün maddeleri bu metinlerde yok; bu yüzden onlara girmiyoruz.",
+  kesinlik:"kesin",
+  kaynak:"Giuseppe Trebbi, \"Tiepolo, Paolo\", Dizionario Biografico degli Italiani c. 95 (2019), treccani.it/enciclopedia/paolo-tiepolo_(Dizionario-Biografico)/ · Silvia Maggio, \"Molino, Francesco\", Dizionario Biografico degli Italiani c. 75 (2011), treccani.it/enciclopedia/francesco-molino_(Dizionario-Biografico)/ · Paolo Preto, \"Diedo, Giacomo\", Dizionario Biografico degli Italiani, treccani.it/enciclopedia/giacomo-diedo_(Dizionario-Biografico)/",
+  ic_not:"Madde günü 1582-01-01 (yıl hassasiyeti); kaynak krizi Ekim 1582'de başlatır, reformu 1583'e koyar. Madde başlığı 'yetkilerinin kısılması': kaynak zontanın 1583'te kaldırılmasını ve Senato yetkisinin geri verilmesini yazar. OKUNMADI: M.J.C. Lowry, The reform of the Council of Ten, 1582-3, Studi Veneziani 13 (1971); DBI Nicolò Contarini." },
+
+{ id:"venedik-tartisma-rialto-banco-1587", teyit:"teyitsiz", yayin_adayi:false,
+  ic_not_teyit:"Aktarım: iki konuşma metninin içeriği (Contarini'ye atfedilen 'renghe') Benzoni'nin özetinden; metinler okunmadı. Ayrıca ikinci metnin aidiyetine ilişkin Errera itirazı okunmadı.",
+  tur:"tartisma",
+  baslik:"Devlet banka kurmalı mı? Venedik'te aynı ada bağlanan iki zıt konuşma",
+  olay:["1587-04-01|Banco"],
+  kisa:"Bir metin “parayı ancak devlet güvende tutar” diyor, öteki “devlet bu işe bulaşmasın”. İkisi de aynı Venedikli soyluyla ilişkilendiriliyor.",
+  metin:"Büyük bir ticaret şehrinde her ödemede sikke saymak zaman alır. Banka defterine yazılan bir satır ise parayı bir hesaptan ötekine geçirir. Peki o defteri kim tutmalıydı: özel bankerler mi, devlet mi?\n\n" +
+    "28 Aralık 1584'te devlet bankası kurulmasına ve özel bankaların kaldırılmasına karar verildi. Venedik'in ilk kamu bankası olan Rialto Meydanı Bankası (Banco della Piazza di Rialto) ise 11 Nisan 1587'de doğdu. Soylu Tommaso Contarini'nin adı, bu iki tarih arasında yazılmış iki zıt metinle anılır.\n\n" +
+    "■ EVET DİYEN METİN\nİlk metne göre banka kaydı ticaret için büyük kolaylıktır: ağır para taşımak ve saymak yerine deftere bir kalem yazmak yeter. Ama bu hizmet spekülasyonun riskine bırakılmamalıdır. Özel Pisani-Tiepolo bankasının yakın zamandaki iflası ortalığı sarsmıştır. Özel bankerler kendilerine emanet edilen parayı yatırıma yöneltir; işler ters giderse mevduat geri ödenemez. Çözüm, ödeme gücünü devletin güvence altına aldığı bir bankadır. Bu banka parayı yalnız korumalı, ödemeleri yapmalı, onunla spekülasyona girmemelidir.\n\n" +
+    "■ HAYIR DİYEN METİN\nİkinci metin, 1587'de kamu bankasına karşı çıkar. Devletin işi yönetmek ve savaşı yürütmektir; tüccarlık özel kişilerin alanıdır. Para işine yolsuzluk karışmasını önleyecek kesin bir güvence yoktur, çünkü insan en sıkı kuralı bile çiğneyebilir. Özel bir bankanın batması piyasayı sarsar, ama devlet bankasının çöküşü devletin kendisini yıkıma ve utanca sürükler. Öyleyse riskleriyle birlikte eski usul daha iyidir.\n\n" +
+    "■ KİM, NE ZAMAN KONUŞTU\nContarini'nin yaşamöyküsünü yazan Gino Benzoni ikisine de kuşkuyla bakar. Bunların Senato'da gerçekten okunmuş konuşmalar değil, bir kararın artılarını ve eksilerini tartmak için özenle yazılmış denemeler olabileceğini düşünür. İkinci metnin Contarini'ye ait olup olmadığı konusunda da bir kayıt düşer.\n\n" +
+    "■ BANKA NASIL BAŞLADI\nBenzoni'ye göre bankanın ilk yıllarında mevduat ile kasadaki para birbirine eşitti. Kurum o dönemde, karşıtların korktuğu suistimallere düşmeden, salt bir ödeme aracısı olarak kaldı. Sorun sonradan başka yerden gelecekti: niteliği düşük sikkelerin de mevduat olarak kabul edilmesinden.\n\n" +
+    "■ KAYNAK NE KADARINI SÖYLÜYOR\nOkunan metin bir bankanın değil, bir soylunun yaşamöyküsüdür. Tartışmanın bütün tarafları ve bankanın sonraki yılları bu kartın dışında kalıyor.",
+  kesinlik:"tartismali",
+  kaynak:"Gino Benzoni, \"Contarini, Tommaso\", Dizionario Biografico degli Italiani c. 28 (1983), treccani.it/enciclopedia/tommaso-contarini_(Dizionario-Biografico)/",
+  ic_not:"Madde günü 1587-04-01; Benzoni bankanın doğuşunu 11 Nisan 1587 verir (uyuşmazlık: gün 1587-04-11 olabilir). OKUNMADI: konuşma metinleri, Errera 1877, Treccani 'Monete e banche' ve Storia di Venezia maliye bölümü, U. Tucci'nin Banco makalesi." },
+
+{ id:"venedik-kimdir-angelo-querini", teyit:"teyitli", yayin_adayi:true,
+  ic_not_teyit:"DBI Angelo Querini (Trebbi) tam okundu. Venturi'nin yorumu ve Haskell alıntısı aktarım olacağı için karta alınmadı.",
+  tur:"kimdir",
+  baslik:"Gece tutuklanan savcı Venedik'i nasıl ikiye böldü? Angelo Querini",
+  olay:["1755-01-01|Querini"],
+  kisa:"Görevi hukuku gözetmek olan bir soylu, devletin en korkulan kurullarından biriyle çatıştı ve bir gece Verona kalesine götürüldü. Ardından Büyük Konsey'de beklenmedik bir tepki doğdu.",
+  metin:"1761'de bir ağustos gecesi Venedik soylusu Angelo Querini evi olarak kullandığı yerde tutuklandı ve Verona kalesine götürüldü. Tutuklanan sıradan biri değildi: o sırada Avogaria di Comun'da, yani hukuka uygunluğu gözeten savcılık benzeri kurumda görevliydi.\n\n" +
+    "■ KİMDİ\nQuerini 31 Temmuz 1721'de doğdu. Ailesi, güçlü Senato aristokrasisi ile yoksul soylular arasında kalan, yargı görevlerinde bulunan kesimdendi. Genç yaşta Devlet Engizitörleri adlı güvenlik kuruluyla sürtüşmeye başladı.\n\n" +
+    "■ ÇATIŞMA\n1758'de Avogaria'ya seçilince anlaşmazlık kamuya taşındı. Engizitörler onu bir itirazını geri çekmeye zorladı. 1761'de, yeniden aynı görevdeyken, yıllardır süren bir yolsuzluk davasını onun karşı görüşüne rağmen yeniden açmasını emrettiler.\n\n" +
+    "Karşıtları, özellikle de engizitörler, onu halk tribünü gibi bir güç peşinde olmakla suçladı. 12-13 Ağustos 1761 gecesi tutuklandı. Hapiste sıkı gözetim altında tutulduğu için ardından kopan kavgaya katılamadı.\n\n" +
+    "■ KONSEYDEKİ İSYAN\n23 Ağustos'ta Büyük Konsey, Onlar Konseyi'ne tek bir üye bile seçemedi. Yakınlarının çabası ve geniş soylu kesimlerin hoşnutsuzluğu açığa çıkmıştı. 9 Eylül'de, Onlar Konseyi için reform önerecek beş “düzeltici” (correttore) seçilmesine karar verildi.\n\n" +
+    "Taraflar artık Querini yanlıları ve mahkeme yanlıları diye anılıyordu. Querini yanlıları yalnız iki düzeltici seçtirebildi. Querini'nin kendisini seçtirip serbest bırakılmasını sağlama girişimi de birkaç oyla başarısız oldu.\n\n" +
+    "■ KİM KAZANDI\nMart-Nisan 1762'de, özellikle Marco Foscarini'nin istediği bir dizi öneri tartışılıp oylandı. Sonuçta Onlar Konseyi'nin ve engizitörlerin yetkisi özünde onaylandı. Querini hemen salınmadı. Ortalık yatışınca, Ekim 1763'te göreve gelen yeni engizitörler eskilerin korkularını geçmişte kalmış sayıp onu serbest bıraktı.\n\n" +
+    "■ SONRAKİ HAYAT\nQuerini bundan sonra siyasette sınırlı bir rol oynadı. Zamanının çoğunu Padova yakınındaki Altichiero villasında geçirdi; bahçesiyle ve tarım denemeleriyle ilgilendi. 1777'de İsviçre'ye yaptığı gezide Voltaire ile buluştu. Voltaire ve Rousseau hayranıydı, masondu. Buna karşın Fransız Devrimi Jakoben cumhuriyetine dönüşünce ona düşman kesildi. 30 Aralık 1796'da Venedik'te öldü.\n\n" +
+    "■ KAYNAK NE KADARINI SÖYLÜYOR\nYaşamöyküsü Querini'de içten gelen bir özgürlük ve aykırılık eğilimi görür, sonraki yıllarında Aydınlanma çevreleriyle yakınlığını da anlatır. Düzelticilerle ilgili bütün önerileri tek tek aktarmaz; bu yüzden kart yalnız genel sonucu veriyor.",
+  kesinlik:"kesin",
+  kaynak:"Giuseppe Trebbi, \"Querini, Angelo\", Dizionario Biografico degli Italiani c. 86 (2016), treccani.it/enciclopedia/angelo-querini_(Dizionario-Biografico)/",
+  ic_not:"KRONOLOJİ UYUŞMAZLIĞI: bağlanan madde 1755-01-01 günlü; kaynak tutuklamayı 12-13 Ağustos 1761'e, Correzione'yi 1761-62'ye koyar; 1755 yılında Querini'ye ilişkin böyle bir olay yazmaz (1758'de Avogaria'ya ilk seçilişi). Maddenin günü 1761 olmalı." }
 
 ];
