@@ -32,3 +32,14 @@
 - "افسوس" (Efes) yazımı yalnız görülen iki kayıtta düzeltildi; arayüz/diğer paketlerde taranmalı.
 - Karahıtay adları: önceki turun (duzeltme_009) "یه‌لو داشی / کویانگ" biçimleri esas alındı. 1130 ve 1142 (IRAN_HINT_MAGRIB) ile -0603, -0647 (YAKIN_DOGU) orada zaten düzeltildiği için yinelenmedi.
 - OLAYLAR_ORTACAG_IRAN_HINT_MAGRIB:0876-09-24:0 "ابن‌الصقیه" (İbnü's-Sakıyye) Arapça yazımı doğrulanamadı.
+
+== notlar_f.md
+# notlar f (düzeltilmeyen, karar isteyen)
+
+- GEZGINLER güzergâh kayıtları (paket 205-208, bir kısmı 204): b ve d alanlarında yer adlarının büyük bölümü Latin harfli bırakılmış (yaklaşık 100 kayıt). f turunda yalnız 202-204'teki güzergâhlar ile 205-208'de Türkçe yazım/sözcük kalıntısı taşıyan d alanları Farsçaya çevrildi; kalanı toplu çevriyazı kararı ister. Aynı Sibirya kayıtlarının Latin kalan başka örnekleri (Yakutsk, Nijnekolimsk, Ostrog adları) de buna dahil.
+- Güzergâhlarda TR "→", CV "←" kullanıyor; RTL'de Farsça adlar arasında doğru görünür, Latin adlar arka arkaya gelince bidi yüzünden yön ters okunabilir. Sitede gözle bakılmalı.
+- Peşte "پشت", Budin "بوده": Farsçada "arka" ve "olmuş" diye okunuyor (پِشت / بودا düşünülebilir). Tutarlılık için dokunulmadı.
+- Terek "ترک" "Türk" ile aynı yazılıyor; dokunulmadı.
+- Basık Latin kalıntılar (Reichsdeputationshauptschluss, Ausgleich, dédition, Réunion, Fort-Hercule) TR'de de yabancı biçimde; dokunulmadı.
+- "مرکز برادر" (abi merkez) önceki turlarla uyumlu bırakıldı.
+- Aynı paketlerde Batı rakamı / Fars rakamı karışık (LAB19 partileri Fars rakamlı); dokunulmadı.

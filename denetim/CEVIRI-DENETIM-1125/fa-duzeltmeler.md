@@ -1087,3 +1087,72 @@
 - olay | OLAYLAR_GEZGINLER:0629-01-01:0 | d: Latin harfli çevrilmemiş yer adları
 - olay | OLAYLAR_GEZGINLER:0990-01-01:0 | d: Latin harfli çevrilmemiş güzergâh
 - olay | OLAYLAR_GEZGINLER:1052-10-24:0 | d: mesafe için 'sürmüş' fiili yanlış
+- olay | OLAYLAR_EK5:1716-10-13:0 | d: Latin harfli yer adları; 'ابی‌مرکز' anlamsız harf çevirisi
+- olay | OLAYLAR_EK5:1912-10-18:0 | d: Latin harfli yer adları
+- olay | OLAYLAR_EK7:1829-09-14:0 | d: Latin harfli yer adları
+- olay | OLAYLAR_ORTADOGU_0919:1816-01-01:0 | d: Latin harfli yer adları; bozuk söz dizimi
+- olay | OLAYLAR_P0055:1369-01-01:0 | b: Latin harfli yer adları, bozuk tamlama
+- olay | OLAYLAR_P0055:1369-01-01:0 | d: Latin harfli yer adları
+- olay | OLAYLAR_BK_ZINCIR_1024:1346-06-15:0 | b: Latin harfli adlar
+- olay | OLAYLAR_ONCE1281_GERIYE:1147-10-24:0 | b: Latin harfli adlar; 'لیشبونه' yazımı
+- olay | OLAYLAR_ONCE1281_GERIYE:1147-10-24:0 | d: Latin harfli ad
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1102-05-22:0 | d: çevrilmemiş Türkçe iç etiket
+- olay | OLAYLAR_DUNYA_BOLGE_1109:1648-05-16:0 | b: yer adı Türkçeden harf çevirisi yapılmış; yerleşik ad Zhovti Vody
+- olay | OLAYLAR_DUNYA_BOLGE_1109:1648-05-16:0 | d: yanlış yer adı biçimi
+- olay | OLAYLAR_SEHIR_ILK:1472-06-08:0 | b: Latin harfli yer adı
+- olay | OLAYLAR_OK109:1920-06-04:1 | b: Latin harfli yer adı
+- olay | OLAYLAR_OK109:1920-06-04:1 | d: Latin harfli yer adları
+- olay | OLAYLAR_OK106:1703-05-17:0 | d: Latin harfli adlar; 'نامی که خود معنای کلمه است' anlamsız; پیمان adı tutarlılığı
+- olay | OLAYLAR_OK106:1652-01-01:0 | b: Latin harfli adlar
+- olay | OLAYLAR_H7_ASAMA:1618-09-10:0 | d: Latin harfli adlar
+- olay | OLAYLAR_EK5:1716-10-13:0 | d: 'ابی‌مرکز' Türkçe kalıntısı; eyalet devri yanlış
+- olay | OLAYLAR_EK5:1912-10-18:0 | d: Türkçe/Latin yer adları çevrilmemiş
+- olay | OLAYLAR_EK7:1829-09-14:0 | d: çevrilmemiş Latin harfli yer adları
+- olay | OLAYLAR_ORTADOGU_0919:1816-01-01:0 | d: Latin harfli yer adı kalıntısı
+- olay | OLAYLAR_P0055:1369-01-01:0 | b: Latin-Farsça karışık yazım
+- olay | OLAYLAR_P0055:1369-01-01:0 | d: Latin-Farsça karışık yazım
+- olay | OLAYLAR_SEHIR_ILK:1472-06-08:0 | b: Türkçe ekli ad kalıntısı
+- olay | OLAYLAR_OK109:1920-06-04:1 | b: Türkçe ad kalıntısı
+- olay | OLAYLAR_OK109:1920-06-04:1 | d: Türkçe/Latin ad kalıntısı
+- olay | OLAYLAR_OK106:1703-05-17:0 | d: ad açıklaması anlamsızdı; Türkçe kalıntı
+- olay | OLAYLAR_OK106:1652-01-01:0 | b: Türkçe biçimli ad kalıntısı (Ukrayna); bozuk başlık
+- olay | OLAYLAR_H7_ASAMA:1618-09-10:0 | d: bozuk cümle; Türkçe kalıntı (Paşa) ve Farsça yer adlarının Latin yazılması
+- olay | OLAYLAR_BK_ZINCIR_1024:1346-06-15:0 | b: Türkçe ada adı Latin harfle kalmış
+- olay | OLAYLAR_ONCE1281_GERIYE:1147-10-24:0 | b: Türkçe transkripsiyon (Üşbûne) kalıntısı
+- olay | OLAYLAR_ONCE1281_GERIYE:1147-10-24:0 | d: Türkçe transkripsiyon kalıntısı
+- olay | OLAYLAR_ORTACAG_ORTADOGU:1102-05-22:0 | d: çevrilmemiş Türkçe iç etiket
+- olay | OLAYLAR_DUNYA_BOLGE_1109:1648-05-16:0 | b: yer adı Türkçe/Slavca karışık kalıntı
+- olay | OLAYLAR_DUNYA_BOLGE_1109:1648-05-16:0 | d: yer adı Türkçe/Slavca karışık kalıntı
+- olay | OLAYLAR_GEZGINLER:1498-05-20:0 | b: Calicut yerine Kalküta (TR başlığı da hatalı)
+- olay | OLAYLAR_GEZGINLER:1498-05-20:0 | d: çevrilmemiş yer adı
+- olay | OLAYLAR_GEZGINLER:1519-08-16:0 | d: Latin harfli çevrilmemiş güzergâh
+- olay | OLAYLAR_GEZGINLER:1519-08-16:1 | d: Latin harfli çevrilmemiş güzergâh
+- olay | OLAYLAR_GEZGINLER:1521-03-06:0 | d: imla
+- olay | OLAYLAR_GEZGINLER:1524-10-01:0 | d: Latin harfli çevrilmemiş güzergâh
+- olay | OLAYLAR_GEZGINLER:1532-09-24:0 | d: Latin harfli çevrilmemiş güzergâh
+- olay | OLAYLAR_GEZGINLER:1533-01-05:0 | d: Latin harfli çevrilmemiş güzergâh
+- olay | OLAYLAR_GEZGINLER:1557-07-12:0 | d: Türkçe ve Latin harfli çevrilmemiş güzergâh
+- olay | OLAYLAR_GEZGINLER:1558-04-23:0 | d: Latin harfli çevrilmemiş güzergâh
+- olay | OLAYLAR_GEZGINLER:1564-11-21:0 | d: Latin harfli çevrilmemiş güzergâh
+- olay | OLAYLAR_GEZGINLER:1571-05-01:0 | d: Latin harfli çevrilmemiş güzergâh
+- olay | OLAYLAR_GEZGINLER:1577-11-15:0 | d: filoyu komuta eden 'Pelican' gibi okunuyor
+- olay | OLAYLAR_GEZGINLER:1586-01-01:0 | d: Latin harfli çevrilmemiş güzergâh
+- olay | OLAYLAR_GEZGINLER:1586-01-01:1 | d: Latin harfli çevrilmemiş güzergâh
+- olay | OLAYLAR_GEZGINLER:1615-07-04:0 | d: Latin harfli çevrilmemiş güzergâh
+- olay | OLAYLAR_GEZGINLER:1679-01-01:0 | d: Latin harfli çevrilmemiş güzergâh
+- olay | OLAYLAR_GEZGINLER:1691-01-01:0 | d: Latin harfli çevrilmemiş güzergâh
+- olay | OLAYLAR_GEZGINLER:1769-06-03:0 | d: bozuk cümle
+- olay | OLAYLAR_GEZGINLER:1797-07-01:0 | b: AĞIR: Roode Sand 'İndus (Sind) Nehri' diye okunuyor
+- olay | OLAYLAR_GEZGINLER:1855-01-01:0 | b: AĞIR: Yunnan 'Yunanistan' diye yazılmış
+- olay | OLAYLAR_GEZGINLER:1820-01-01:0 | d: Türkçe yazımlı çevrilmemiş güzergâh
+- olay | OLAYLAR_GEZGINLER:1828-05-04:0 | d: Türkçe yazımlı kalıntı
+- olay | OLAYLAR_GEZGINLER:1829-11-03:0 | d: Türkçe sözcük kalıntısı (kavşağı)
+- olay | OLAYLAR_GEZGINLER:1856-06-13:0 | d: Türkçe yazımlı kalıntı
+- olay | OLAYLAR_GEZGINLER:1862-12-18:0 | d: Türkçe yazımlı kalıntı
+- olay | OLAYLAR_GEZGINLER:1871-03-09:0 | d: Türkçe yazımlı kalıntı
+- olay | OLAYLAR_GEZGINLER:1879-05-30:0 | d: Türkçe yazımlı çevrilmemiş güzergâh
+- olay | OLAYLAR_GEZGINLER:1879-07-10:0 | d: Türkçe yazımlı çevrilmemiş güzergâh
+- olay | OLAYLAR_GEZGINLER:1885-06-11:0 | d: Türkçe yazımlı çevrilmemiş güzergâh
+- olay | OLAYLAR_GEZGINLER:1885-08-28:0 | d: Türkçe yazımlı çevrilmemiş güzergâh
+- olay | OLAYLAR_GEZGINLER:1885-09-24:0 | d: Türkçe yazımlı çevrilmemiş güzergâh
+- olay | OLAYLAR_GEZGINLER:1885-10-24:0 | d: Türkçe yazımlı çevrilmemiş güzergâh

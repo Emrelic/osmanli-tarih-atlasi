@@ -112,3 +112,20 @@
 - olay OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1205-01-01:0: "Dördüncü Haçlı Seferi'nden yirmi yıl sonra" ile 1205 çelişiyor (sefer 1202-1204).
 - olay OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1247-01-01:0: "vikontluğu ... krala el konuldu" bozuk Türkçe (1209-01-01:0'da da "kraliyete el konuldu").
 - olay OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1061-01-01:0: "TDV bu yılı ... verir" iç not.
+
+== tr_hatalari_f.md
+- olay OLAYLAR_2S1019:1439-08-27:0, 1458-08-06:0, 1459-06-20:0: "atlasta abi merkez ... akıbetini izler" iç yöntem notu kullanıcıya görünüyor
+- olay OLAYLAR_CINHINDI1115B:0979-01-01:0: başlıkta kaynak notu "(Hall: ...)"; 1594-07-01:0 d: "Avut'ya" (Ayutthaya)
+- olay OLAYLAR_ALM1115B:1815-01-01:0: "künyesi bu noktada sona erer" iç not; 1024-09-08:0: iki Konrad kuzendir, "yeğeni" yanlış olabilir
+- olay OLAYLAR_LAB19_2S_P1:0613-05-12:0, 0780-12-02:0: "Atlasın ... künyesi", "künye ucu ... bu kaynakta anlatılmaz" iç not
+- olay OLAYLAR_LAB19_BOS_1119_SIBIRYA:1630-01-01:0: başlıkta Kiril "ясак"
+- olay OLAYLAR_AVMAC_A_1029:0822-01-01:0 "(BOŞLUK BEYANLI)"; 1180-01-01:0 "(künyede ...)"; 1156-09-17:0 d: "Bavyera dükalığından Bavyera'yı" bozuk cümle
+- olay OLAYLAR_AVMAC_C_1029:1918-11-13:0, 1938-03-12:0, 1945-04-13:0, 1921-12-14:0: "haritada zincirler döner" iç dil; 1918-11-16:0, 1919-03-21:0, 1949-08-20:0, 1956-10-23:0, 1995-01-01:0, 2004-05-01:0: künye kimlikleri (macaristan-naiplik vb.); 1945-07-09:0: "motor dondurma: yeni BOYALAR anahtarı eklenmedi" (geliştirici notu)
+- olay OLAYLAR_AVMAC_FINAL_1029:1703-01-01:0: "(borç)" iç not; 1866-08-23:0: "bkz. ayrı madde"
+- olay OLAYLAR_AVUSTURYA_MACAR_1027:1523-01-01:0: "harita ... çevirir, beyanlı" iç not
+- olay OLAYLAR_FRANSA_KONTROL_1027: 1481-12-11:3 "(BEYANLI YAKLAŞIKLIK)"; 1388-09-28:0, 1348-06-09:0 "madde eksikti"; 1284-01-01:0 "(künye t)"; 1317-01-09:0 "ölümünden 4 gün sonra ölen posthumous oğul" belirsiz/yanlış, "regent", "posthumous"; 1589-08-01:0 "solenn"
+- olay OLAYLAR_NAPOLYON_ITALYA_1028: 1143-01-01:0 "(künye f 1143...)"; 1800-06-04:0, 1849-08-22:0 "bilgi kutusu"; 1849-07-03:0 "Vikipedi"; 1128/1071/1059 kayıtları "gün okunmadı", "ikincil", "zincirleriyle aynı gün", "abi merkez" iç notları; 1128-01-01:3 ve :4 d "Calabria, ..." (Cosenza/Reggio adı geçmiyor)
+- olay OLAYLAR_P0068:1789-10-13:0 "okunan dört TDV maddesi"; OLAYLAR_P0067:1788-09-21:0 "karsi-karansebes-1788" iç kimlik
+- olay OLAYLAR_P0068B:1789-09-22:0, OLAYLAR_P0063:1736-06-19:0, OLAYLAR_P0917KOSU13:1731-11-15:0, 1588-09-01:0, 1415-01-01:0, 1450-01-01:0, 1387-01-01:0: haritada gösterme / tarih seçme iç notları
+- olay OLAYLAR_DUNYA_BOLGE_1109:1917-03-15:0: "[[rusya-gecici-hukumet]], [[sovyet-rusya]]" ham bağlantı imi; 1905-01-22:0: "çariçenin muhafızları" (çar olmalı)
+- olay OLAYLAR_GEZGINLER:1498-05-20:0: başlıkta "Kalküta" (Kalikut olmalı); 1503-01-06:0 "yerel kaşif Quibían" (kasik olmalı); 1522-09-06:0 "(sayı genel bilgi)"; 1577-11-15:0 "Pelican komutasında filoyla"; 1829-11-03:0, 1861-11-01:0, 1891-06-14:0: Türkçe karaktersiz "kavsagi", "agzi", "Golu", "bati ucu", "gecis"; 1871-03-09:0 "on gezi" (ön gezi)
