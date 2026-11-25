@@ -1,0 +1,12 @@
+# Emin olunmayan / dokunulmayan (fr)
+- Alan adı: devlet satırlarında da "alan":"m" kullanıldı (talimat örneğine göre); devlet paketindeki CV alanı.
+- Hicrî ay yazımı: çoğunluk biçimine (Rabî' I, Djumâdâ, Cha'bân, Dhû 'l-qa'da, Radjab) çekildi. İncelenen paketlerde başka sapma kalmış olabilir.
+- "Livius" (MÖ satırları): Livius.org olduğu varsayıldı (aynı kümedeki öteki satırlar "Livius" bırakmış); Tite-Live çevirileri geri alındı.
+- Türk beylik adları karışık: bir kısmı Fransızca (-ides), bir kısmı Türkçe (les Tekeoğulları, Eşrefoğulları, İnançoğulları, Dilmaçoğulları ...). Dokunulmadı.
+- "les Menteşe", "odjaklık", "Eyüplü–Kölemen" (bagdat-memlukleri): bırakıldı.
+- "Odaklanma / Otomatik odaklama" = "Mise au point (automatique)": haritada "recentrage" daha doğal olabilir.
+- "Ekim # (# günlük kuşatma ve baskının ardından)": "pression" (baskı) mı "assaut" (baskın) mı belirsiz.
+- "Ocak # (imzalar ... şeyhlik şeyhlik tamamlandı)": kaynak bozuk, çevirideki "cheikhat achevé" anlamsız.
+- sambyeolcho-rejimi: "Samseongbyeolcho" yerine yerleşik ad Sambyeolcho olmalı gibi; teyit edilmedi, çeviri değiştirilmedi.
+- "Mayıs # başı (berat; ...)": "berat" Fransızcada "bérat" yazılabilir.
+- ". yüzyıl" / ". binyıl" ekleri "e siècle / e millénaire": 1 için "er" üretilemez (kod tarafı).
