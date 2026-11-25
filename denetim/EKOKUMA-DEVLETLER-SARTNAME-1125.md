@@ -52,7 +52,15 @@ sade Türkçe, kısa paragraflar, ilk cümle okuru içeri alır, sonda "tarihçi
 
 ## Teknik
 - Mevcut Osmanlı kartlarının şeması örnek alınır (aynı alan adları). Dosya:
-  `data/ekokuma_dev_<devlet>_<parti>.js` → `window.EKOKUMA_DEV_<DEVLET>_<PARTI>`; ayrı ad alanı.
+  `data/ekokuma_dev_<devlet>_<parti>.js` → `window.EKOKUMA_DEV<DEVLET><PARTI>`; ayrı ad alanı.
+  🔴 DÜZELTME (KASA ölçümü, koddan doğrulandı): `js/app.js` `_ekHavuz` deseni
+  `^EKOKUMA(_[A-Z0-9]+)?$` yalnız TEK alt çizgi kabul eder. `EKOKUMA_DEV_IRAN_01` gibi bir ad
+  hata vermeden görünmez kalır. Doğrusu bitişik yazım: `EKOKUMA_DEVIRAN01`, `EKOKUMA_DEVVENEDIK01`.
+- Hükümdar, kişi ve savaş kayıtlarının her birine `devlet: "<künye id>"` alanı yazılır.
+- Yabancı kişiler `KISILER`e EKLENMEZ (Osmanlı maddelerinde yanlış eşleşir):
+  `window.KISI_<DEVLET>`. Savaş kaydında `devlet` ve `taraf` zorunlu (yoksa sefer oku Osmanlı
+  sayılır). `HUKUMDAR_*` bugün arayüzde hiç okunmuyor; panel altyapı işinde yapılacak.
+  (KASA bunları koddan okudu, tarayıcıda sınanmadı.)
 - Bağlama güne göre yapılır: aynı gün Osmanlı ya da başka devlet maddesi olabilir, bu yüzden
   `olay` her zaman `"YYYY-MM-DD|ayırt edici başlık parçası"` biçiminde yazılır ve yanlış maddede
   görünmediği sınanır (`js/app.js` `ekKartBagliMi`). Kart `id`leri devlet önekli ve benzersiz.
@@ -77,4 +85,5 @@ sade Türkçe, kısa paragraflar, ilk cümle okuru içeri alır, sonda "tarihçi
 ## Bilinen altyapı açığı (ölçülecek)
 Osmanlı dışı devletlerde hükümdar paneli, kişi kartı satırları, savaş künyesi, antlaşma haritası ve
 sefer okunun arayüzde nasıl görüneceği ölçülmedi. İçerik yazımı bunu beklemez; hükümdar kayıtları
-`PADISAHLAR` şemasıyla `data/hukumdar_<devlet>.js` → `window.HUKUMDAR_<DEVLET>` olarak yazılır.
+`PADISAHLAR` şemasıyla `data/hukumdar_<devlet>.js` → `window.HUKUMDAR_<DEVLET>` olarak, her
+kayıtta `devlet` alanıyla yazılır.
