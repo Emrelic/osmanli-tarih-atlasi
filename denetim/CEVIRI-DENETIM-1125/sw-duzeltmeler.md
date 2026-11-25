@@ -1,0 +1,84 @@
+- arayuz | # (hicrî #; yalnız yıl teyitli, gün teyitsiz) | m: yazım hatası
+- arayuz | # [hicrî # ∩ # ilk günü, # Mart #; yalnız yıl teyitli, gün teyitsiz] | m: yazım hatası
+- arayuz | # (gün belirsiz) | m: 'haieleweki' anlaşılmıyor demek; kastedilen belirsiz
+- arayuz | # öncesi, gün belirsiz | m: 'belirsiz' yanlış karşılanmış
+- arayuz | Temmuz # (gün belirsiz) | m: 'belirsiz' yanlış karşılanmış
+- arayuz | # (gün ve ay kaynakta yok; Bilgili # teslimi Aralık #'e koyar) | m: yer tutucu sırası bozulmuş (yazarın yılı tarihe kaymış)
+- arayuz | # Ağustos # (gün: Aktepe # s.#-#, Yörük-Valiyev #; Bilgili # fethi 'Nisan #'ten biraz önce'ye koyar) | m: yazarın yayın yılı 'ushindi wa #' diye yanlış bağlanmış
+- arayuz | # Ağustos # (Ateş: # Ağustos'ta Osmanlı müfrezesi çekildi) | m: Ateş yazar soyadı; 'ateş/moto' diye çevrilmiş
+- arayuz | # Eylül # (gün YALNIZ hakemli makaleden, Enverî'ye dayalı; TDV gün vermiyor, yalnız Ağustos-Eylül # diyor. Avusturya arşivi aynı olayı #/# Eylül gecesi diye kaydeder) | m: dilbilgisi hatası
+- arayuz | # Ocak # (imzalar # Ocak-# Mart arası şeyhlik şeyhlik tamamlandı) | m: anlam kaybı: imzalar şeyhlik şeyhlik tamamlandı
+- arayuz | # yılı takvimde yoktur; milada (# Ocak MS #) gidildi | m: bozuk anlatım
+- arayuz | # yıllarına doğru [tahmin; yalnız yıl; gün teyitsiz] | m: bozuk söz dizimi
+- arayuz | # — kaynak «herhalde # bahar ve yazı» diyor | m: 'herhalde' kesinlik değil olasılık
+- arayuz | # — önemsizleri ele | m: 'ele' = ayıkla; 'ilgilen' diye çevrilmiş
+- arayuz | (Osmanlı tâbi) | m: Türkçe kalıntı
+- arayuz | ) — birleşik tâbi gövdesi kesilmez | m: Türkçe kalıntı
+- arayuz | : gövde yok, kimlik/tâbi kutusu da kurulamadı — harita yerinde kaldı | m: Türkçe kalıntı
+- arayuz | : şeritte birden çok tâbi ( | m: Türkçe kalıntı
+- arayuz | Osmanlı tâbi | m: Türkçe kalıntı
+- arayuz | Osmanlı tâbii | m: Türkçe kalıntı
+- arayuz | Osmanlı tâbiî | m: Türkçe kalıntı
+- arayuz | Osmanlı'ya gevşek tâbi | m: Türkçe kalıntı
+- arayuz | Osmanlı'ya tâbi | m: Türkçe kalıntı
+- arayuz | Osmanlı'ya tâbi devletler (açık kırmızı, kendi sınırlarıyla) | m: Türkçe kalıntı
+- arayuz | yarısı AÇIK KIRMIZI ise: o yandaki devlet o gün Osmanlı’ya tâbi | m: Türkçe kalıntı
+- arayuz | keşif | m: çeviri komşu kayıtla yer değiştirmiş
+- arayuz | kimden boş dizi değil | m: çeviri komşu kayıtla yer değiştirmiş
+- arayuz | C — belgeli ama KABA sınır: tek renk siyah. Koordinatı milimetrik değildir, boya bu hatta OTURTULMAZ | m: 'kaba sınır' yanlış sözcükle çevrilmiş
+- arayuz | ✓ Kaba sınır: iki tarafın rengi bu hatta | m: 'kaba sınır' yanlış sözcükle çevrilmiş
+- arayuz | Bitirdiği savaş: | m: antlaşmaya kişi uyumu kullanılmış
+- arayuz | Ekim # (# günlük kuşatma ve baskının ardından) | m: 'baskın' hücumdur, 'baskı' sanılmış
+- arayuz | Harita işaretleri (lejant) — göster / gizle | m: lejant 'efsane/hikâye' diye çevrilmiş
+- arayuz | Lejantı gizle (yeniden açmak: ☰ Butonlar → 🗺 Harita işaretleri) | m: lejant 'hikâye' diye çevrilmiş
+- arayuz | Kahvehane — tarih forumu | m: 'Kahawa' içecek demek; öteki kayıttaki ad korunur
+- arayuz | Otomatik yakınlaştırma: toprak büyüdükçe uzaklaş | m: 'toprağı küçült' anlamı çıkıyor
+- arayuz | Toprak büyüdükçe haritayı kendiliğinden uzaklaştırır. | m: anlam belirsiz: uzaklaştırma
+- arayuz | çıkar | m: 'çıkar' = kaldır; 'toka' = dışarı çık
+- arayuz | motor tanı hatları AÇIK · | m: 'hatlar' 'seviye' diye çevrilmiş
+- arayuz | motor tanı hatları kapalı · | m: 'hatlar' 'seviye' diye çevrilmiş
+- arayuz | 🗣️ Nasıl bilirdiniz | m: anlamsız çeviri (kişi nasıl bilinirdi)
+- devlet | dervis-devleti | m: 'maderevi' Svahilide şoförler demek; Derviş kastediliyor
+- devlet | khayaravala-japila | m: hanedan adı yanlış (Kharavela ile karışmış)
+- devlet | fipa-nyakyusa | m: yinelemeli bozuk ifade
+- olay | OLAYLAR:1389-06-15:0 | b: Türkçe sıra sayısı biçimi (I.) Svahilide bozuk
+- olay | OLAYLAR:1448-10-17:0 | b: Türkçe sıra sayısı biçimi Svahilide bozuk
+- olay | OLAYLAR:1683-09-12:0 | b: bozuk anlatım ve Türkçe sıra sayısı
+- olay | OLAYLAR:1821-03-06:0 | b: yazım hatası
+- olay | OLAYLAR:1821-03-06:0 | d: İngilizce 'fuse' kalıntısı
+- olay | OLAYLAR:1783-04-19:0 | d: 'Rusya'ya geçti' = 'Rusya'dan geçti' diye çevrilmiş
+- olay | OLAYLAR:1878-07-13:0 | d: 'Romanya'ya geçti' = 'Romanya'dan geçti' diye çevrilmiş
+- olay | OLAYLAR:1914-11-01:0 | b: Türkçe sıra sayısı biçimi
+- olay | OLAYLAR:1921-09-13:0 | d: bozuk anlatım
+- olay | OLAYLAR:1923-07-24:0 | d: Türkçe kalıntı (kapitülasyon)
+- olay | OLAYLAR_EK:1388-01-01:0 | d: uyum hatası
+- olay | OLAYLAR_EK:1456-06-04:0 | d: İngilizce kalıntı; devlet adlarında 'Dukedi'
+- olay | OLAYLAR_EK:1461-06-01:0 | d: 'jisalimisha' dönüşlüdür; şehri teslim etti anlamı bozulmuş
+- olay | OLAYLAR_EK:1830-10-17:0 | b: Türkçe 'knezlik' kalıntısı
+- olay | OLAYLAR_EK:1830-10-17:0 | d: Türkçe 'knezlik' kalıntısı
+- olay | OLAYLAR_EK:1919-05-15:0 | d: İngilizce kalıntı
+- olay | OLAYLAR_EK:1357-08-01:0 | d: uyum hatası
+- olay | OLAYLAR_EK2:1557-10-16:0 | d: yazım hatası ve kopuk cümle
+- olay | OLAYLAR_EK2:1472-01-01:0 | b: 'İstanbul'da' anlamı düşmüş
+- olay | OLAYLAR_EK2:1462-06-01:0 | b: edilgen kullanılmış (kazığa oturtulan değil, oturtan)
+- olay | OLAYLAR_EK2:1390-01-15:0 | d: 'despotluk' krallık diye çevrilmiş
+- olay | OLAYLAR_EK2:1603-10-21:0 | d: uyum hatası
+- olay | OLAYLAR_EK2:1583-05-09:0 | b: uyum hatası ve eksik edat
+- olay | OLAYLAR_EK2:1915-07-11:0 | d: Türkçe sıra sayısı biçimi
+- olay | OLAYLAR:1362-03:0 | d: 'iskelet' kemik olarak çevrilmiş
+- olay | OLAYLAR:1541-08-29:0 | d: 'iskelet' kemik olarak çevrilmiş
+- olay | OLAYLAR:1529-09-27:0 | b: Türkçe sıra sayısı biçimi
+- olay | OLAYLAR:1774-07-21:0 | d: yazım hatası (Ukhani)
+- olay | OLAYLAR:1853-10-04:0 | d: yazım hatası; 'vita vilishindwa' savaş kaybedildi okunuyor, oysa kazanıldı
+- olay | OLAYLAR:1526-08-29:0 | d: 'kazanılan' savaş 'kaybedilen' diye okunuyor
+- olay | OLAYLAR:1596-10-26:0 | d: anlam tersine dönmüş: Osmanlı'nın kazandığı savaş 'Osmanlı'nın yenildiği' okunuyor
+- olay | OLAYLAR:1922-11-01:0 | d: edilgen yerine etken: anlam bozuk (Abdülmecid getirildi)
+- olay | OLAYLAR:1919-05-19:0 | b: 'Samsun'da' anlamı düşmüş
+- olay | OLAYLAR_EK:1400-01-01:0 | b: 'çekilince' = ayrılınca; 'geri dönünce' okunuyor
+- olay | OLAYLAR_EK:1387-04-09:0 | d: 'fethedilecek' = 'yenilecek' diye okunuyor
+- olay | OLAYLAR_EK:1390-01-01:0 | d: İngilizce kalıntı (Knights)
+- olay | OLAYLAR_EK:1425-06-01:0 | d: İngilizce kalıntı (Knights)
+- olay | OLAYLAR_EK:1526-11-10:0 | d: anlam tersine dönmüş: 'taht voyvodayı seçti'
+- olay | OLAYLAR_EK:1480-08-11:0 | d: bozuk anlatım
+- olay | OLAYLAR_EK:1463-06-01:0 | d: İngilizce kalıntı (Dukedom)
+- olay | OLAYLAR_EK:1532-01-01:0 | d: 'imtiyaz' = ayrıcalık, 'kinga' = koruma

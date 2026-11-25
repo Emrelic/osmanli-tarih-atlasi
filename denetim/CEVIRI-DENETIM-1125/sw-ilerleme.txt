@@ -1,0 +1,8 @@
+Tamamen okunan: 1_arayuz_001-009 (yaklaşık 2030 arayüz kaydı), 2_devlet_001-011 (yaklaşık 2300 devlet kaydı), 3_bayrakli_001-007, 4_olay_001-006 (yaklaşık 160 olay kaydı)
+Okunmayan: 3_bayrakli_008-080, 4_olay_007-174
+Notlar (toplu düzeltilmedi, kalıp):
+- Türkçe sıra sayısı biçimi ("I. Murad", "II. Mahmud", "I. Viyana") olay metinlerinde yaygın; Svahilide "Murad wa Kwanza / Mahmud II" olmalı. Yalnız bazı başlıklar düzeltildi.
+- "Dukedom ya ..." (İngilizce) birçok olay paketinde var (Grep: 4_olay_017, 032, 033, 050, 052, 059, 060, 061, 065, 068, 069); devlet adlarında "Dukedi". Okunmayan paketlerde düzeltilmedi.
+- "kapitülasyon/kapitulasyon" Türkçe-karışık biçim birçok olayda.
+- "Hungary" / "Hungaria" tutarsızlığı (devlet adlarında Hungaria).
+- OLAYLAR:1453-05-29 d: "Silivri na Vize zilishindwa" (fethedildi yerine 'yenildi' tınısı) - "zilitekwa" daha doğru.

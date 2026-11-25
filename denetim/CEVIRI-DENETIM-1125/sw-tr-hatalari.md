@@ -1,0 +1,11 @@
+- arayuz "# [yalnız yıl teyitli; TDV «Karamanoğulları» Nisan # der, ...; bkz. karaman künye ic_not_t]": TR metninde kullanıcıya görünen iç alan adı (ic_not_t).
+- arayuz "Ocak # (gün Kahire'den — bk. ic_not_t)": iç alan adı kullanıcıya görünüyor.
+- arayuz "# sefer mevsimi — gün komşudan: kronoloji_safevi.js ..." ve "# (TDV yıl verir) — gün komşudan: Sivas (olaylar_ek# ...)": dosya adları kullanıcıya görünüyor.
+- arayuz "# (kaynak YIL hassasiyetinde; gün bilinmiyor — `YYYY-#-#` beyandır...)": geliştirici biçim notu.
+- arayuz "# — YIL hassasiyeti · TDV `malatya` ... (Emre notu ##)": iç not / kişi adı kullanıcıya görünüyor.
+- arayuz "# Haziran # (GEC)": "GEC" açıklamasız kısaltma.
+- arayuz "(kaç kez önce→sonra — Emre'nin tarifi #)", "Cevabını / kararını bekleyen notlar (son sözü Claude söyledi)": geliştirici / Claude metni (geliştirici kipi değilse görünmemeli).
+- arayuz "Kaheti ↔ Dağıstan ... (yerlesimler_ek#.js beyanı)" ve "Sohum kuzeydoğusu ...": dosya adı kullanıcıya görünüyor.
+- arayuz "⚠️ Bu değerler MapLibre'nin belgelenmiş varsayılanları ... bu oturumda ... GÖZLE ayarlanamadı": oturum notu arayüzde.
+- olay OLAYLAR_EK:1425-06-01 ve OLAYLAR:1699-01-26: açıklamada atlas içi veri notları ("TDV slug", "beyanlı yaklaşıklık", "dönem ucu doğrulanmadı") son kullanıcıya görünüyor.
+- olay OLAYLAR_EK:1919-05-15: "(ayrı madde)" iç not benzeri ifade.
