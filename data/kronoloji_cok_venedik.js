@@ -70,7 +70,7 @@ window.KRONOLOJI_COK_VENEDIK = [
 
 { t:"1715-09-01", b:"Ayamavra (Lefkada) yeniden Osmanlı hâkimiyetine geçti", tur:"toprak-kayip",
   onem:2, dunya:1, kapsam:"dis", etiket:["toprak-kayip","savas","konu-askeri"],
-  yer_id:"", odak_yer:"Ayamavra (Lefkada)", devlet:"venedik", gun:"Eylül 1715 (TDV `ayamavra` ay verir, gün vermez)",
+  yer_id:"", odak_yer:"Ayamavra (Lefkada)", devlet:"venedik", ic_not_ham_gun:"Eylül 1715 (TDV `ayamavra` ay verir, gün vermez)", gun:"Eylül 1715 (günü bilinmiyor)",
   d:"1684'te Venedik donanması Ayamavra'yı topa tutup işgal etmiş, 1699 Karlofça Antlaşması'yla ada tamamen Venedik'e bırakılmıştı. Eylül 1715'te ada yeniden Osmanlı hâkimiyetine geçti ve derhal nüfus ve vergi tespiti yapıldı; 1718'de Pasarofça Antlaşması'yla Venedik'e terk edilerek 1797'ye kadar onların elinde kaldı.",
   kaynak:"TDV `ayamavra`: \"Eylül 1715'te burası yeniden Osmanlı hâkimiyetine geçti ve derhal adanın nüfus ve vergi tesbiti yapıldı. … 1718'de Pasarofça Antlaşması ile ada Venedik'e terkedildi ve 1797'ye kadar onların elinde kaldı.\"" },
 

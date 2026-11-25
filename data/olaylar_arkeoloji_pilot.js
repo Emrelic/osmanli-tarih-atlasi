@@ -70,7 +70,7 @@ window.OLAYLAR_ARKEOLOJI_PILOT = [
    "arkeoloji"
   ],
   "b": "Eriha (Tell es-Sultan): en erken PPN tabakasının (Stage IV/IVA) radyokarbon tarihleri başlar",
-  "gun": "MÖ 9300 (tarihli en erken uç; ALT SINIR)",
+  "ic_not_ham_gun":"MÖ 9300 (tarihli en erken uç; ALT SINIR)", "gun": "MÖ 9300 (en erken olası tarih)",
   "yer": "Eriha / Tell es-Sultan (Filistin)",
   "d": "Natufiyen izleri daha eskidir (aynı sayfada «11170–10980 BC» kalibrasyonu belirsiz); yerleşik PPN tabakası tarihleri MÖ 9300'de başlar.",
   "kaynak": "PPND (Platform for Neolithic Radiocarbon Dates, exoriente.org, Jericho/Tell es-Sultan sayfası): «en erken PPN tarihleri Stage IV/IVA; toplamları 9300–8700 BC»",

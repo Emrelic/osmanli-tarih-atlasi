@@ -292,7 +292,7 @@ window.KRONOLOJI_COK_TUNUS = [
   etiket:["hanedan","konu-hanedan"], yer_id:"Tunus", taraflar:["tunus-ocagi"],
   d:"Oğlu Hammûde için 1781'de İstanbul'dan beylerbeyilik fermanı almış olan Ali Paşa öldü ve yönetim tamamen yirmi üç yaşındaki Hammûde'ye kaldı. Otuz iki yıl süren Hammûde Paşa dönemi, ziraat ve ticaretin geliştiği, Tunus'un en parlak devri olarak anılır.",
   kaynak:"TDV `huseyniler`: \"Ali Paşa 26 Mayıs 1782’de ölünceye kadar yeğenlerini korudu\"",
-  gun:"26 Mayıs 1782 (TDV `hammude-pasa` 31 Mayıs der)",
+  ic_not_ham_gun:"26 Mayıs 1782 (TDV `hammude-pasa` 31 Mayıs der)", gun:"26 Mayıs 1782",
   celiski:"TDV `huseyniler`: \"Ali Paşa 26 Mayıs 1782’de ölünceye kadar yeğenlerini korudu\" ↔ TDV `hammude-pasa`: \"Babası Ali Bey de kendi rızasıyla yönetimden çekildi ve 31 Mayıs 1782’de öldü.\"" },
 
 { t:"1802-03-04", b:"Tunus, Mısır seferi sonrası Fransa ile yeniden barış yaptı", tur:"antlasma", onem:2, dunya:2, kapsam:"dis",
@@ -324,7 +324,7 @@ window.KRONOLOJI_COK_TUNUS = [
   etiket:["hanedan","konu-hanedan"], yer_id:"Tunus", taraflar:["tunus-ocagi"],
   d:"Mahmud Paşa'nın ölümüyle oğlu Hüseyin Paşa Tunus beyi oldu. Onun döneminde Mora'ya gönderilen Tunus donanması Navarin'de yakıldı; Fransa'nın Cezayir'i işgalinde Tunus komşusuna yardım etmedi.",
   kaynak:"TDV `huseyniler`: \"Mahmud Paşa’nın 29 Mart 1824’te vefatından sonra yerine oğlu Hüseyin Paşa geçti.\"",
-  gun:"29 Mart 1824 (TDV `tunus` 30 Mart der)",
+  ic_not_ham_gun:"29 Mart 1824 (TDV `tunus` 30 Mart der)", gun:"29 Mart 1824",
   celiski:"TDV `huseyniler`: \"Mahmud Paşa’nın 29 Mart 1824’te vefatından sonra\" ↔ TDV `tunus`: \"Bu da 30 Mart 1824’te ölünce oğlu Seydi Hüseyin Bey Tunus dayısı oldu.\"" },
 
 { t:"1830-08-17", b:"Tunus Fransa ile antlaşma yapıp korsanlığı ve köleliği kaldırmayı taahhüt etti", tur:"antlasma", onem:4, dunya:2, kapsam:"dis",
@@ -406,20 +406,20 @@ window.KRONOLOJI_COK_TUNUS = [
   etiket:["isyan","konu-siyasi"], yer_id:"Tunus", taraflar:["tunus-ocagi"],
   d:"Şahsî verginin (mecbâ) artırılması üzerine önce güneydeki ve batıdaki yarı göçebe kabileler, yazın da kuzey sahilleri ayaklandı; isyan bütün ülkeye yayıldı. Meclis-i Ekber'in çalışmaları durduruldu ve anayasa askıya alındı. İsyan sırasında bazı şehirler Osmanlı bayrağı çekti; Bâbıâli Ali Haydar Efendi'yi fevkalâde komiser olarak gönderdi.",
   kaynak:"TDV `huseyniler`: \"Aşırı vergilerin Tunus halkı için tahammül edilmez bir noktaya gelmesi halkın İbn Gızâhum’un liderliğinde ayaklanmasına sebep oldu (1864)\"",
-  gun:"1864 (TDV gün vermez; `mehmed-sadik-pasa`: '1864 başında' başladı)" },
+  ic_not_ham_gun:"1864 (TDV gün vermez; `mehmed-sadik-pasa`: '1864 başında' başladı)", gun:"1864 (yalnız yıl biliniyor)" },
 
 { t:"1869-01-01", b:"Milletlerarası Maliye Komisyonu kuruldu, başına Hayreddin Paşa getirildi", tur:"ekonomi", onem:4, dunya:2, kapsam:"dis",
   etiket:["ekonomi","konu-ekonomi","konu-diplomasi"], yer_id:"Tunus", taraflar:["tunus-ocagi"],
   d:"Borç faizlerinin bile ödenemez hale gelmesi üzerine Fransa'nın zorlamasıyla Fransız, İngiliz ve İtalyan üyelerden oluşan uluslararası bir maliye komisyonu kuruldu. Başkanlığa Mehmed Sâdık Paşa'nın ısrarıyla Hayreddin Paşa getirildi; Tunus maliyesi fiilen yabancı denetimine girdi.",
   kaynak:"TDV `hayreddin-pasa-tunuslu`: \"1869’da borçları düzenlemek ve birleştirmek için kurulan Milletlerarası Maliye Komisyonu başkanlığına tayin edildi\"",
-  gun:"1869 (gün kullanılmadı — bkz. ic_not_d)",
+  ic_not_ham_gun:"1869 (gün kullanılmadı — bkz. ic_not_d)", gun:"1869",
   ic_not_d:"TDV `mehmed-sadik-pasa` 'Fransa’nın zorlamasıyla 5 Temmuz 1969 tarihinde bir milletlerarası maliye komisyonu kuruldu' der — yıl açıkça dizgi hatası (1869). Gün (5 Temmuz) bu kusurlu cümleden devralınmadı; koordinatör kabul ederse t:'1869-07-05' yapılabilir." },
 
 { t:"1871-10-24", b:"Ferman ile Tunus valiliği Mehmed Sâdık Paşa ailesine irsî olarak verildi", tur:"diplomasi", onem:5, dunya:2, kapsam:"dis",
   etiket:["diplomasi","konu-diplomasi","konu-siyasi"], yer_id:"Tunus", taraflar:["tunus-ocagi"],
   d:"Fransa'nın Prusya'ya yenilmesini fırsat bilen Mehmed Sâdık Paşa, Hayreddin Paşa'yı ikinci kez İstanbul'a gönderdi. Çıkan fermanla Tunus'un Osmanlı'ya bağlılığı teyit edildi, valilik veraseten Hüseynî ailesine verildi; hutbe ve para padişah adına olacak, iç işler serbest, yabancı devletlerle siyasî antlaşma yasak olacaktı. Fransa fermanı tanımadı.",
   kaynak:"TDV `huseyniler`: \"9 Şâban 1288 (24 Ekim 1871) tarihli fermanla Tunus’un Osmanlı Devleti’ne bağlılığı ve valiliğin veraseten Mehmed Sâdık Paşa ailesine verildiği teyit edildi.\"",
-  gun:"24 Ekim 1871 (9 Şâban 1288); TDV `tunus` 23 Ekim der",
+  ic_not_ham_gun:"24 Ekim 1871 (9 Şâban 1288); TDV `tunus` 23 Ekim der", gun:"24 Ekim 1871 (9 Şâban 1288)",
   celiski:"TDV `huseyniler`: \"9 Şâban 1288 (24 Ekim 1871) tarihli fermanla\" ↔ TDV `tunus`: \"23 Ekim 1871 tarihli fermanla Tunus Emirliği, doğrudan İstanbul’a bağlı kalmak üzere Mehmed Sâdık Paşa ve evlâdına veraset usulüyle verildi.\"",
   ic_not_d:"Harita 1705-1881 tâbi çiziyor; bu ferman tâbiliği hukuken teyit eder, kırılma gerektirmez." },
 
@@ -433,7 +433,7 @@ window.KRONOLOJI_COK_TUNUS = [
   etiket:["kultur","konu-kultur"], yer_id:"Tunus", taraflar:["tunus-ocagi"],
   d:"Hayreddin Paşa, Hazinedar Mustafa Paşa'nın müsadere edilen mallarıyla lise düzeyinde modern öğretim yapan el-Medresetü's-Sâdıkıyye'yi açtırdı. Geleneksel dinî eğitimle Batı tarzı eğitimi birleştiren okul, bağımsızlık mücadelesine öncülük eden Tunuslu kadroları yetiştirdi.",
   kaynak:"TDV `hayreddin-pasa-tunuslu`: \"el-Medresetü’s-Sâdıkıyye’nin açılmasını sağladı (1875)\"",
-  gun:"1875 (TDV gün vermez); TDV `tunus` 1876 der",
+  ic_not_ham_gun:"1875 (TDV gün vermez); TDV `tunus` 1876 der", gun:"1875 (yalnız yıl biliniyor)",
   celiski:"TDV `hayreddin-pasa-tunuslu`: \"el-Medresetü’s-Sâdıkıyye’nin açılmasını sağladı (1875)\" ↔ TDV `tunus`: \"1876’da Sâdıkī Koleji açıldı.\"" },
 
 { t:"1877-07-21", b:"Hayreddin Paşa başvezirlikten istifa etti", tur:"siyaset", onem:3, dunya:1, kapsam:"ic",

@@ -908,7 +908,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "d": "Yarlung hanedanının soyundan gelen Songtsen Gampo (Çin kaynaklarında Qizong Nongzan) 629'da hükümdar oldu; Çin kaynakları onu \"yürekli ve yetenekli\" diye anar ve \"Batı bölgesi devletlerinin ona boyun eğdiğini\" yazar. Devlet onun döneminde Tibet imparatorluğuna dönüştü.",
   "kaynak": "Britannica, «Srong-brtsan-sgam-po»: «was a Tibetan king (crowned 629) who extended his dominion to include Nepal and parts of India and China» — atıf; bu oturumda açılmadı (mevcut data/kronoloji_cok_ms1_1000_asya.js kaydındaki alıntı) | Ouyang Xiu - Song Qi, Xin Tang shu (1060), juan 216 shang «Tubo shang»: «其後有君長曰瘕悉董摩，董摩生佗土度，佗土生揭利失若，揭利生勃弄若，勃弄生詎素若，詎素生論贊索，論贊生棄宗弄贊 … 西域諸國共臣之» — https://zh.wikisource.org/wiki/新唐書/卷216上 (bu oturumda okundu)",
-  "gun": "629 (yıl; gün kaynaktan alınmadı)",
+  "ic_not_ham_gun":"629 (yıl; gün kaynaktan alınmadı)", "gun": "629 (yalnız yıl biliniyor)",
   "kesinlik": "yil",
   "ic_not": "Britannica tarihi (629) mevcut MS1 kaydından devralındı; Xin Tang shu soy kütüğünü verir ama taç giyme yılı yazmaz. TDV «Tibet»: «VII. yüzyılda Srong Btsan Sgam Po adında yetenekli bir kral … başşehir Lhasa kuruldu» (yıl vermez). Çelişki: iskelet 627 / tubo künyesi 618."
  },
@@ -17750,7 +17750,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "d": "Itzamnaaj Bahlam Ekim 681'de tahta çıktı ve sonraki 60 yıl iktidarda kaldı; şehri biçimlendiren lento, yazıtlı basamak ve stellerin çoğu saltanatının son üçte birine aittir.",
   "kaynak": "Simon Martin & Nikolai Grube, Chronicle of the Maya Kings and Queens, 2. bsk., Thames & Hudson, Londra 2008 (archive.org: chronicle-2008-martin-grube-ocr, OCR tam metin okundu; alıntılar OCR metninde birebir sınandı), «Yaxchilan»: \"Itzamnaaj Bahlam the Great acceded in October 681 and was to remain in power for the next 60 years\"",
-  "gun": "Ekim 681 (M&G; gün okunmadı)",
+  "ic_not_ham_gun":"Ekim 681 (M&G; gün okunmadı)", "gun": "Ekim 681 (günü bilinmiyor)",
   "kesinlik": "yil",
   "ic_not": "Kenar yazısı 'October 681'; 9.12.9.8.1 ≈ 18 Ekim 681 (GMT 584283 ile hesapla) ancak M&G günü yazmadığı için yıl hassasiyeti."
  },
@@ -17925,7 +17925,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "d": "Nisan 738'de Copán'ın 13. kralı Waxaklajuun Ub'aah K'awiil, vassalı Quiriguá kralı K'ahk' Tiliw tarafından yakalandı ve başı kesildi; Copán 17 yıllık sessizliğe gömüldü, Quiriguá Motagua ticaret yolunun tam denetimiyle bağımsızlaştı.",
   "kaynak": "Simon Martin & Nikolai Grube, Chronicle of the Maya Kings and Queens, 2. bsk., Thames & Hudson, Londra 2008 (archive.org: chronicle-2008-martin-grube-ocr, OCR tam metin okundu; alıntılar OCR metninde birebir sınandı), «Copan»: \"In April 738 he was seized by his vassal\" | Simon Martin & Nikolai Grube, Chronicle of the Maya Kings and Queens, 2. bsk., Thames & Hudson, Londra 2008 (archive.org: chronicle-2008-martin-grube-ocr, OCR tam metin okundu; alıntılar OCR metninde birebir sınandı), «Quirigua»: \"his lord Waxaklajuun Ub'aah K'awiil and decapitating\" … \"the 17-year silence\"",
-  "gun": "Nisan 738 (M&G; gün okunmadı)",
+  "ic_not_ham_gun":"Nisan 738 (M&G; gün okunmadı)", "gun": "Nisan 738 (günü bilinmiyor)",
   "kesinlik": "yil",
   "ic_not": "Atlasın mevcut Copán kaydı 0738-05-03 (idam günü, Vikipedi/Looper); Vikipedi 'Quiriguá' yakalanma günü 27 Nisan 738 (Looper 2003 s.78; açılmadı). M&G yalnız 'April 738' — yıl hassasiyeti. Quiriguá yerleşiminin sahibi bu olayda DEĞİŞMEZ (zaten kendi kralı vardı; Copán'a tâbi müşteri, bkz. künye ic_not) — haritada toprak devri yok."
  },
@@ -17969,7 +17969,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "d": "Scroll Serpent (579'da tahta çıkan Yılan krallığı kralı) batı Maya bölgesinde 599 ve 611'de Palenque'ye saldırdı; ikincisi belirleyici oldu ve kısa sürede Palenque'nin iki lideri öldü, soy çizgisi kırıldı. Her iki saldırı da Nisan'da gerçekleşti.",
   "kaynak": "Simon Martin & Nikolai Grube, Chronicle of the Maya Kings and Queens, 2. bsk., Thames & Hudson, Londra 2008 (archive.org: chronicle-2008-martin-grube-ocr, OCR tam metin okundu; alıntılar OCR metninde birebir sınandı), «Calakmul»: \"attacks against Palenque in 599\" … \"(pp. 159-61)\"",
-  "gun": "Nisan 611 (M&G; gün okunmadı)",
+  "ic_not_ham_gun":"Nisan 611 (M&G; gün okunmadı)", "gun": "Nisan 611 (günü bilinmiyor)",
   "kesinlik": "yil",
   "ic_not": "OCR'da kenar çizelgesi metne girmiş; '599' ve '611 (pp. 159-61)' ayrı parçalar halinde birebir okundu. Atlas Palenque'nin 0599-04-21 maddesi var (Vikipedi, ikincil); 611 saldırısı atlasta yok."
  },
@@ -18012,7 +18012,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "d": "50 yıllık saltanatından sonra Yuknoom the Great 686 başında öldü; oğlu Yuknoom Yich'aak K'ahk''ın 686'daki resmî tahta çıkışı El Perú ve Dos Pilas'ta kayda geçirildi, kralın bu iki krallıktan bağlılık devraldığını gösterir.",
   "kaynak": "Simon Martin & Nikolai Grube, Chronicle of the Maya Kings and Queens, 2. bsk., Thames & Hudson, Londra 2008 (archive.org: chronicle-2008-martin-grube-ocr, OCR tam metin okundu; alıntılar OCR metninde birebir sınandı), «Calakmul»: \"Yich'aak K'ahk's formal enthronement in 686 was duly recorded by\" … \"probably early in 686\"",
-  "gun": "686 (M&G; gün okunmadı)",
+  "ic_not_ham_gun":"686 (M&G; gün okunmadı)", "gun": "686 (yalnız yıl biliniyor)",
   "kesinlik": "yil",
   "ic_not": "OCR'da 'El Perú' devamı okunamayacak biçimde bozuk; cümlenin 'recorded by both El Perú and Dos Pilas' kısmı birebir okunmadı (yukarıdaki alıntı kesildi)."
  },

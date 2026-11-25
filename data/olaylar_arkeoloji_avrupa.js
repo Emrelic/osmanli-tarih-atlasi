@@ -131,7 +131,7 @@ window.OLAYLAR_ARKEOLOJI_AVRUPA = [
   "t": "-4790-01-01",
   "k": "kurulus",
   "b": "Carnac megalitik kompleksi, Le Plasker bölümü (Plouharnel): başlar",
-  "gun": "MÖ 4791 (ALT SINIR; donem-toplami MÖ 4791–4640)",
+  "ic_not_ham_gun":"MÖ 4791 (ALT SINIR; donem-toplami MÖ 4791–4640)", "gun": "MÖ 4791 (en erken olası tarih)",
   "yer": "Complexe mégalithique de Carnac – Le Plasker (Plouharnel)",
   "d": "Le Plasker'de Geç Mezolitik yerleşme (Faz 1: 5699–5621) üstüne ~300 yıllık boşluktan sonra Orta Neolitik 'ön-megalitik' anıtsal mezar; hemen sonra veya aynı zamanda kuzey-güney dikili taş sıraları (Faz 4: 4668–4368, 95.4) ve pişirme çukurları.",
   "kaynak": "Blanchard A., Guyodo J.-N., Schulz Paulsson B., Montassier F. 2025, 'Le Plasker in Plouharnel (fifth millennium cal BC): a newly discovered section of the megalithic complex of Carnac', Antiquity 99(406):915–934, doi:10.15184/aqy.2025.10123 (açık erişim); Faz 3: mezar höyüğü + sandık + dikili taşlar · https://doi.org/10.15184/aqy.2025.10123",

@@ -89,7 +89,7 @@ window.OLAYLAR_AMERIKA0920 = [
 // ── 1545 · Sotuta ────────────────────────────────────────────────────
 { bolge:1, t:"1545-01-01", k:"fetih", onem:2, dunya:2, kapsam:"dis", yer_id:"Sotuta",
   b:"Sotuta'daki Cocom beyliği İspanyol hâkimiyetine girdi",
-  gun:"1545 (temsilî)", yer:"Sotuta", kisiler:"Nachi Cocom, Francisco de Montejo (oğul)",
+  ic_not_ham_gun:"1545 (temsilî)", gun:"1545", yer:"Sotuta", kisiler:"Nachi Cocom, Francisco de Montejo (oğul)",
   etiket:["askeri","toprak-kayip","konu-askeri"],
   d:"Yucatán'ın içindeki en güçlü Maya beyliklerinden Sotuta, Cocom hanedanı altında İspanyol ilerleyişine uzun süre direndi. Mérida'nın 1542'de kurulmasından sonraki yıllarda beylik İspanyol hâkimiyetini kabul etti; 1546-47'deki büyük doğu isyanı bastırıldıktan sonra bu bağlılık kalıcılaştı.",
   kaynak:"Robert S. Chamberlain, The Conquest and Colonization of Yucatan, 1517-1550 (Carnegie Institution of Washington, 1948) · Ralph L. Roys, The Indian Background of Colonial Yucatan (Carnegie Institution of Washington, 1943) — Sotuta'nın Cocom beyliği üzerine standart çalışmalar · hassasiyet: YIL (temsilî)",
@@ -117,7 +117,7 @@ window.OLAYLAR_AMERIKA0920 = [
 // ── 1774 · Nuevo Santander ───────────────────────────────────────────
 { tur:"kurulus", bolge:1, t:"1774-01-01", k:"kurulus", onem:1, dunya:1, kapsam:"dis", yer_id:"Matamoros (Refugio)",
   b:"Refugio (bugünkü Matamoros) kuruldu — Rio Grande ağzının iskânı",
-  gun:"1774 (temsilî)", yer:"Matamoros (Refugio)",
+  ic_not_ham_gun:"1774 (temsilî)", gun:"1774", yer:"Matamoros (Refugio)",
   kisiler:"José de Escandón'un iskân ettiği Nuevo Santander kolonistleri",
   etiket:["siyasi","toprak-kazanc","konu-idari"],
   d:"José de Escandón'un 1740'lardan itibaren yürüttüğü Nuevo Santander iskân programı, Rio Grande'nin aşağı havzasını çiftlik ve kasabalarla doldurdu. Nuestra Señora del Refugio de los Esteros, ırmağın güney kıyısında bu programın son halkalarından biri olarak kuruldu; 19. yüzyılda Matamoros adını aldı.",
@@ -137,7 +137,7 @@ window.OLAYLAR_AMERIKA0920 = [
 // ── 1839 · Alta California ───────────────────────────────────────────
 { tur:"kurulus", bolge:1, t:"1839-01-01", k:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Sutter's Fort (Sacramento)",
   b:"Nueva Helvetia kuruldu — Meksika, Sacramento vadisini iskâna açtı",
-  gun:"1839 (temsilî)", yer:"Sutter's Fort (Sacramento)", kisiler:"John A. Sutter",
+  ic_not_ham_gun:"1839 (temsilî)", gun:"1839", yer:"Sutter's Fort (Sacramento)", kisiler:"John A. Sutter",
   etiket:["siyasi","toprak-kazanc","konu-idari"],
   d:"İsviçreli göçmen John Sutter, Meksika makamlarından aldığı izin ve toprak imtiyazıyla Sacramento ile American ırmaklarının birleştiği yerde Nueva Helvetia'yı kurdu. Müstahkem çiftlik, Meksika'nın Alta California'nın iç kesimlerindeki en ileri karakolu oldu; 1848'de altının bulunmasıyla California göçünün merkezine dönüşecektir.",
   kaynak:"David J. Weber, The Mexican Frontier, 1821-1846: The American Southwest under Mexico (Albuquerque: University of New Mexico Press, 1982) — Meksika dönemi kuzey serhaddinin standart incelemesi · hassasiyet: YIL (temsilî)",
@@ -268,7 +268,7 @@ window.OLAYLAR_AMERIKA0920 = [
 // ── 1619 · Maynas ────────────────────────────────────────────────────
 { tur:"kurulus", bolge:1, t:"1619-01-01", k:"kurulus", onem:1, dunya:1, kapsam:"dis", yer_id:"Borja (Maynas)",
   b:"San Francisco de Borja kuruldu — Maynas'ta İspanyol hâkimiyeti",
-  gun:"1619 (temsilî)", yer:"Borja (Maynas)", kisiler:"Diego Vaca de Vega",
+  ic_not_ham_gun:"1619 (temsilî)", gun:"1619", yer:"Borja (Maynas)", kisiler:"Diego Vaca de Vega",
   etiket:["askeri","toprak-kazanc","konu-idari"],
   d:"Diego Vaca de Vega, Marañón ırmağının Pongo de Manseriche boğazının aşağısında San Francisco de Borja'yı kurarak Maynas bölgesini İspanyol yönetimine bağladı. Kasaba, yukarı Amazon'da sonraki yüzyıl boyunca sürecek Cizvit misyon ağının çıkış noktası oldu.",
   kaynak:"Handbook of South American Indians, c. III (Washington: Smithsonian Institution, Bureau of American Ethnology, ed. Julian H. Steward, 1948) — Maynas bölgesinin standart etnotarihî başvurusu · hassasiyet: YIL",

@@ -86,7 +86,7 @@ window.OLAYLAR_ARKEOLOJI_HINT = [
   "t": "-3199-01-01",
   "k": "gelisme",
   "b": "Erken Harappa dönemi (Pre-urban / Early Harappan): başlar",
-  "gun": "MÖ 3200 (ALT SINIR; donem-toplami MÖ 3200–2600)",
+  "ic_not_ham_gun":"MÖ 3200 (ALT SINIR; donem-toplami MÖ 3200–2600)", "gun": "MÖ 3200 (en erken olası tarih)",
   "yer": "Early Harappan",
   "d": "Kentleşme öncesi köy-temelli Harappa dönemi; olgun dönemde kentleşmeye geçilir. Kurulu dönemleme: Erken Harappa 3200–2600 MÖ.",
   "kaynak": "Parikh D. & Petrie C.A. 2019, World Archaeology 51(2) (Introduction, dönemleme paragrafı), doi:10.1080/00438243.2019.1601463 · https://pmc.ncbi.nlm.nih.gov/articles/PMC7643715/",

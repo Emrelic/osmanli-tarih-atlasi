@@ -353,7 +353,7 @@ window.KRONOLOJI_IRAN_ARDILLARI = [
   d:"Moğol ordusuyla Memlük kuvvetleri arasında Dımaşk yakınlarında meydana gelen savaş Memlükler'in zaferiyle neticelendi (2 Ramazan 702 / 20 Nisan 1303). Bu yenilgi İlhanlı'nın Suriye üzerindeki elli yıllık iddiasını fiilen sona erdirdi; Gāzân Han üzüntüsünden yeni bir sefere çıkma imkânı bulamadan öldü.", ic_not_d:"⚠️ YER HAKKINDA: Dımaşk (Şam) bu atlasın penceresi içinde ama madde İran ardılları dosyasında olduğu için yer_id boş bırakıldı — savaş alanı şehrin kendisi değildir.",
   kaynak:"gazan-han" },
 
-{ odak_yer:["Tebriz","Bağdat"], taraflar:["ilhanli"], t:"1303-08-01", b:"Gāzân Han'ın toprak tahriri ve iktâ dağıtımı", gun:"Ağustos 1303 — ay hassasiyeti · ay TDV'de var, gün yok (`incu`, `ilhanlilar`, `celayirliler`, `muzafferiler` …)", tur:"reform",
+{ odak_yer:["Tebriz","Bağdat"], taraflar:["ilhanli"], t:"1303-08-01", b:"Gāzân Han'ın toprak tahriri ve iktâ dağıtımı", ic_not_ham_gun:"Ağustos 1303 — ay hassasiyeti · ay TDV'de var, gün yok (`incu`, `ilhanlilar`, `celayirliler`, `muzafferiler` …)", gun:"Ağustos 1303 (günü bilinmiyor)", tur:"reform",
   onem:4, dunya:2, kapsam:"ic", etiket:["reform","idari","toprak","mali","konu-askeri","konu-idari","konu-ekonomi","konu-islahat"],
   yer_id:"", odak_kimlik:["ilhanli"], kapsam_genis:true,
   d:"Gāzân Han önce ülkedeki toprakların genel bir tahririni yaptırdı: vilâyetlere gönderilen yazıcılar köy köy dolaşıp 'defâtîr-i kanûn' adı verilen defterlere bütün özel mülk, incü ve vakıf arazilerini kaydettiler. Ardından 703 yılı başlarında (Ağustos 1303) askerî güzergâhlarla yaylak-kışlak yolları üzerindeki araziler Moğol askerlerine iktâ olarak dağıtıldı. Bu, İran'da toprağın merkezî bir defterle kayda geçirilmesinin ilk büyük örneğidir; ancak uygulama Gāzân'ın ölümünden sonra bütün ülkeye yaygınlaştırılamamıştır.", ic_not_d:"İmparatorluk çapında olduğu için `yer_id` boştur.",
@@ -465,7 +465,7 @@ window.KRONOLOJI_IRAN_ARDILLARI = [
   d:"İlkân Noyan'ın torunu Emîr Hüseyin'in oğlu Hasan, Ebû Said'in kendisinden boşatarak evlendiği eski karısı Bağdat Hatun ile gizlice haberleştiği ve hükümdara suikast hazırladığı iddiasıyla idama mahkûm edildi; hânedana yakınlığı ve Argun Han'ın kızı olan annesinin araya girmesiyle affedilerek Kemah Kalesi'ne gönderildi, bir yıl sonra da Anadolu valiliğine tayin edildi (1333). İki yıl sonra İlhanlı mirasının en güçlü tâlibi bu adam olacaktır.",
   kaynak:"hasan-i-buzurg" },
 
-{ taraflar:["ilhanli"], t:"1335-11-30", b:"Ebû Said Bahadır Han'ın ölümü — İlhanlı Devleti fiilen dağıldı", gun:"13 Rebîülâhir 736 / 30 Kasım 1335 (TDV `ebu-said-bahadir-han`)", tur:"son",
+{ taraflar:["ilhanli"], t:"1335-11-30", b:"Ebû Said Bahadır Han'ın ölümü — İlhanlı Devleti fiilen dağıldı", ic_not_ham_gun:"13 Rebîülâhir 736 / 30 Kasım 1335 (TDV `ebu-said-bahadir-han`)", gun:"13 Rebîülâhir 736 / 30 Kasım 1335", tur:"son",
   onem:5, dunya:2, kapsam:"ic", etiket:["olum","hukumdar","bolunme","kriz","konu-siyasi","konu-kisiler","konu-hanedan"],
   yer_id:"Tebriz",
   d:"İlhanlı hükümdarlarının en büyüklerinden sayılan Ebû Said, 1335 yılında henüz otuz yaşında iken öldü veya zehirlenerek öldürüldü. Vâris bırakmadan ölmesi devletin parçalanmasına ve yerini mahallî hânedanların almasına yol açtı: Celâyirliler, Karakoyunlular, Muzafferîler, Horasan Serbedârîleri ve Eretnaoğulları bu boşluktan doğdu.", ic_not_d:"⚠️ Devletin künyesi 1353'e kadar sürer, çünkü kukla ilhanlar 1353'e kadar tahta çıkarılmaya devam etmiştir; 1335 devletin BİTİŞİ değil, FİİLEN dağılışıdır.",
@@ -836,7 +836,7 @@ window.KRONOLOJI_IRAN_ARDILLARI = [
   d:"Timur'un Kirman'a gelen elçisi İmâdüddin Ahmed tarafından saygıyla karşılandı (787/1385). Muzafferî hânedanının Timur karşısındaki bölünmüş tutumu burada başlar: bir kolu itaat ederken diğeri direnecek ve bu bölünme sekiz yıl sonra hânedanın tamamen tasfiyesine gerekçe olacaktır.",
   kaynak:"muzafferiler" },
 
-{ taraflar:["muzafferi"], t:"1387-11-18", b:"Timur İsfahan'da katliam yaptı", gun:"6 Zilkade 789 / 18 Kasım 1387 (TDV `isfahan`) — ilk geçişte `muzafferiler` yalnız yıl verdiği için yıla indirilmişti; yer maddesi günü veriyor", tur:"isgal",
+{ taraflar:["muzafferi"], t:"1387-11-18", b:"Timur İsfahan'da katliam yaptı", ic_not_ham_gun:"6 Zilkade 789 / 18 Kasım 1387 (TDV `isfahan`) — ilk geçişte `muzafferiler` yalnız yıl verdiği için yıla indirilmişti; yer maddesi günü veriyor", gun:"6 Zilkade 789 / 18 Kasım 1387 (gün kesin değil)", tur:"isgal",
   onem:5, dunya:3, kapsam:"dis", etiket:["askeri","yikim","isgal","konu-askeri"],
   yer_id:"Isfahan",
   d:"Timur'un memurları para toplamak amacıyla İsfahan'a geldiklerinde halk tarafından öldürülünce Timur intikam duygusuyla şehirde yaklaşık 200.000 kişiyi kılıçtan geçirdi ve Semerkant'ta çıkan bir isyanı bastırmak için bölgeden ayrıldı. İran şehir tarihinin en ağır kıyımlarından biridir ve İsfahan'ın toparlanması bir buçuk asır sürmüştür.",
@@ -957,7 +957,7 @@ window.KRONOLOJI_IRAN_ARDILLARI = [
   d:"Mes'ûd, Kertler karşısındaki mağlûbiyetin izlerini silmek için Rüstemdâr ve Mâzenderan bölgelerine başlattığı akın sırasında âni bir hücuma uğrayarak öldürüldü (745/1344). Bu esnada Câm'dan Dâmgan'a, Habişan'dan Türşiz'e uzanan geniş bir saha Serbedârîler'in hâkimiyeti altındaydı — hânedanın en geniş sınırı budur.",
   kaynak:"serbedariler" },
 
-{ taraflar:["serbedariler"], t:"1346-05-01", b:"Muhammed Aytimur dervişlerin tahrikiyle öldürüldü", gun:"Muharrem 747 / Mayıs 1346 — ay hassasiyeti · ay TDV'de var, gün yok (`serbedariler`, `ilhanlilar`, `celayirliler`, `muzafferiler` …)", tur:"hukumdar",
+{ taraflar:["serbedariler"], t:"1346-05-01", b:"Muhammed Aytimur dervişlerin tahrikiyle öldürüldü", ic_not_ham_gun:"Muharrem 747 / Mayıs 1346 — ay hassasiyeti · ay TDV'de var, gün yok (`serbedariler`, `ilhanlilar`, `celayirliler`, `muzafferiler` …)", gun:"Muharrem 747 / Mayıs 1346 (günü bilinmiyor)", tur:"hukumdar",
   onem:3, dunya:1, kapsam:"ic", etiket:["hukumdar","olum","din","ic-savas","taht-kavgasi","konu-askeri","konu-kisiler","konu-isyan","konu-hanedan","konu-din"],
   yer_id:"Sebzevâr",
   d:"Mes'ûd'un ölümünden sonra iktidarı kumandanlardan Muhammed Aytimur ele geçirdi, ancak emirliği uzun sürmedi ve Hasan-ı Cûrî'nin müridlerinden bir derviş grubunun tahrikiyle öldürüldü (Muharrem 747 / Mayıs 1346). Şeyhin ölümünden dört yıl sonra bile tarikat kanadının devlet üzerindeki vetosu işlemektedir.",
@@ -987,7 +987,7 @@ window.KRONOLOJI_IRAN_ARDILLARI = [
   d:"Mes'ûd'un oğlu Lutfullah döneminde Esterâbâd'ın eski valisinin oğlu Emîr Velî, Serbedârî valisini şehirden kovdu, Haydar b. Kassâb'ın gönderdiği kuvvetleri mağlûp etti ve 759'da (1358) Esterâbâd'da kendi adına para bastırdı; Hasan Dâmegānî'nin gönderdiği yardımcı birlikleri de hezimete uğrattı. Gürgân, Toğa Timur'dan alındıktan on altı yıl sonra yeniden kaybedilmiştir.",
   kaynak:"serbedariler" },
 
-{ taraflar:["serbedariler"], t:"1361-05-01", b:"Hasan Dâmegānî, Emîr Lutfullah'ı öldürtüp iktidarı aldı", gun:"Receb 762 / Mayıs 1361 — ay hassasiyeti · ay TDV'de var, gün yok (`serbedariler`, `ilhanlilar`, `celayirliler`, `muzafferiler` …)", tur:"hukumdar",
+{ taraflar:["serbedariler"], t:"1361-05-01", b:"Hasan Dâmegānî, Emîr Lutfullah'ı öldürtüp iktidarı aldı", ic_not_ham_gun:"Receb 762 / Mayıs 1361 — ay hassasiyeti · ay TDV'de var, gün yok (`serbedariler`, `ilhanlilar`, `celayirliler`, `muzafferiler` …)", gun:"Receb 762 / Mayıs 1361 (günü bilinmiyor)", tur:"hukumdar",
   onem:3, dunya:1, kapsam:"ic", etiket:["hukumdar","olum","ic-savas","konu-askeri","konu-kisiler","konu-isyan","konu-hanedan"],
   yer_id:"Sebzevâr",
   d:"Emîr Lutfullah ile Hasan Dâmegānî arasında çıkan anlaşmazlık üzerine Hasan, Lutfullah'ı hapse atıp öldürttükten (Receb 762 / Mayıs 1361) sonra kendi adına hüküm sürmeye başladı. Kurucunun torunu, hânedanın on birinci cinayetiyle tasfiye edilmiştir.",

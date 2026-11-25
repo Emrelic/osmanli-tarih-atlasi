@@ -6580,7 +6580,7 @@ window.KRONOLOJI_COK_1923_1945 = [
   kapsam:"ic",
   etiket:["kurtulus", "hukumet", "konu-siyasi"],
   taraflar:["yunanistan"],
-  gun:"18 Ekim 1944 (EKT fotoğraf künyesi)",
+  ic_not_ham_gun:"18 Ekim 1944 (EKT fotoğraf künyesi)", gun:"18 Ekim 1944",
   yer:"Atina", yer_id:"Atina",
   yer_kon:[37.97, 23.73],
   d:"Sürgündeki Yunan hükümeti Başbakan Georgios Papandreu ile Atina'ya döndü; kurtuluş kutlamalarında Akropolis'e Yunan bayrağı çekildi. Yasal hükümetin başkente dönüşü işgal döneminin idarî sonudur.",

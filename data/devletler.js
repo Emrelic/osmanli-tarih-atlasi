@@ -28189,7 +28189,7 @@ window.DEVLETLER = [
       ],
       d: "Son bilinen kral 'Jade Sky'a atfedilen Akropolis'in güney yapısı 1B-1, Quiriguá'daki son tarihi (9.19.0.0.0, Haziran 810) taşır; ardından site bırakılır.",
       kaynak: "Simon Martin & Nikolai Grube, Chronicle of the Maya Kings and Queens, 2. bsk., Thames & Hudson, Londra 2008 (archive.org: chronicle-2008-martin-grube-ocr, OCR tam metin okundu; alıntılar OCR metninde birebir sınandı), «Quirigua»: \"last known king\" … \"June 810\"",
-      gun: "Haziran 810 (M&G; gün okunmadı)",
+      ic_not_ham_gun:"Haziran 810 (M&G; gün okunmadı)", gun: "Haziran 810 (günü bilinmiyor)",
       kesinlik: "yil",
       ic_not: "OCR'da cümle bozuk; 'June 810' ve 'Quirigua's last known king' birebir okundu; 9.19.0.0.0 ≈ 22 Haziran 810 (GMT 584283 ile hesapla, Jülyen) ama gün kaynakta okunmadı."
     }
@@ -28252,7 +28252,7 @@ window.DEVLETLER = [
       ],
       d: "Naranjo hükümdarı K'uxaj, Mayıs/Ağustos 626'da Caracol kralı K'an II'nin elinde iki 'indirildi' (jubuy) yenilgisi aldı; Naranjo bu sırada eski hamisi Yılan krallığından kopmuştu.",
       kaynak: "Simon Martin & Nikolai Grube, Chronicle of the Maya Kings and Queens, 2. bsk., Thames & Hudson, Londra 2008 (archive.org: chronicle-2008-martin-grube-ocr, OCR tam metin okundu; alıntılar OCR metninde birebir sınandı), «Naranjo»: \"twice suffering defeats of the jubuy\" … \"at the hands of the Caracol ruler K'an II\"",
-      gun: "Mayıs ve Ağustos 626 (M&G; gün okunmadı)",
+      ic_not_ham_gun:"Mayıs ve Ağustos 626 (M&G; gün okunmadı)", gun: "Mayıs ve Ağustos 626 (günü bilinmiyor)",
       kesinlik: "yil",
       ic_not: "OCR '… in May antec[edent] August 626' bozuk; aylar M&G'den okunamayacak kadar karışık, yıl 626 sağlam ('the year it lost two battles to Caracol' Calakmul bölümü de 626)."
     },
@@ -28274,7 +28274,7 @@ window.DEVLETLER = [
       ],
       d: "Naranjo'nun asıl fethi Aralık 631'de gerçekleşti ve Caracol'un değil Calakmul'un (Yılan krallığı) kralı Yuknoom Head'in kuvvetleri tarafından yapıldı; Naranjo-Calakmul ilişkilerindeki bu dramatik dönüş, Aj Wosal'ın siyasi bağlarının halefi tarafından reddedildiğine işaret eder.",
       kaynak: "Simon Martin & Nikolai Grube, Chronicle of the Maya Kings and Queens, 2. bsk., Thames & Hudson, Londra 2008 (archive.org: chronicle-2008-martin-grube-ocr, OCR tam metin okundu; alıntılar OCR metninde birebir sınandı), «Naranjo»: \"came in December 631 and was\" … \"delivered not by Caracol's forces, but by those of Calakmul\"",
-      gun: "Aralık 631 (M&G; gün okunmadı)",
+      ic_not_ham_gun:"Aralık 631 (M&G; gün okunmadı)", gun: "Aralık 631 (günü bilinmiyor)",
       kesinlik: "yil",
       ic_not: "ÇELİŞKİ (atlas mevcut kaydıyla): data/devletler.js caracol-maya kronolojisinde 0631-01-01 'K'an II komutasındaki Caracol Naranjo'yu yıldız savaşı ile yendi' yazıyor; M&G Naranjo bölümü Caracol'un 626'daki iki yenilgi verdiğini, 631 Aralık 'yıldız savaşı' fethini ise Calakmul'un yaptığını söyler ('delivered not by Caracol's forces'). M&G esas alındı; atlas Caracol 0631 maddesi düzeltilmeli."
     },
@@ -28426,7 +28426,7 @@ window.DEVLETLER = [
       ],
       d: "Ağustos 735'te Dos Pilas kuvvetleri bölgenin en büyük ve en eski başkenti Seibal'a saldırdı; kral Yich'aak Bahlam yakalanıp tâbi lord olarak hayatta bırakıldı. Fethi anan iki stel Dos Pilas ve Aguateca'da dikildi.",
       kaynak: "Simon Martin & Nikolai Grube, Chronicle of the Maya Kings and Queens, 2. bsk., Thames & Hudson, Londra 2008 (archive.org: chronicle-2008-martin-grube-ocr, OCR tam metin okundu; alıntılar OCR metninde birebir sınandı), «Dos Pilas»: \"In August 735 his forces attacked the city of Seibal\" … \"the largest and most ancient capital in the region\"",
-      gun: "Ağustos 735 (M&G; gün okunmadı)",
+      ic_not_ham_gun:"Ağustos 735 (M&G; gün okunmadı)", gun: "Ağustos 735 (günü bilinmiyor)",
       kesinlik: "yil",
       ic_not: "Seibal fethedildi ama kendi hanedanı vasal olarak sürdü (M&G: 'formerly ruled by its own dynasty under the overlordship of Dos Pilas') → haritada yerleşimin sahibi ceibal bırakıldı, BEYANLI YAKLAŞIKLIK."
     },

@@ -50,7 +50,7 @@ window.KRONOLOJI_COK_OKYANUSYA = [
   etiket:["savas","isgal","toprak-kazanc","konu-askeri","konu-siyasi","yeni-zelanda"], yer_id:"", taraflar:["yeni-zelanda"],
   d:"Vali George Grey'in emriyle Korgeneral Cameron komutasındaki İngiliz ve koloni birlikleri Temmuz 1863'te Mangatawhiri Deresi'ni geçerek Maori Kīngitanga (Kral Hareketi) toprağı olan Waikato havzasını işgal etti. Sonraki aylarda savaş kuzeyden Waikato boyunca ilerledi, Aralık 1863'te çıkan Yeni Zelanda Yerleşim Yasası ile isyan eden kabilelerin toprakları müsadereye açıldı. Bu savaş, Kuzey Ada'nın iç kesimlerinin Yeni Zelanda hükümetinin denetimine girmesinin başlangıcıdır.",
   kaynak:"James Belich, The New Zealand Wars and the Victorian Interpretation of Racial Conflict (Auckland UP, 1986) · Te Ara, «Waikato War». Sayfa verilmedi (açılmadı).",
-  gun:"12 Temmuz 1863 (Belich/Te Ara'da bilinen işgal başlangıcı; sayfa doğrulanmadı — hafızadan yazıldı, web'de ayrıca sınanmadı)",
+  ic_not_ham_gun:"12 Temmuz 1863 (Belich/Te Ara'da bilinen işgal başlangıcı; sayfa doğrulanmadı — hafızadan yazıldı, web'de ayrıca sınanmadı)", gun:"12 Temmuz 1863 (gün kesin değil)",
   ic_not_d:"Kīngitanga/Waikato Maori devleti için künye YOK (KUNYE.md). Haritadaki Hamilton 1864-08-24 kırılması bu savaşın SONUCU olan bir askerî yerleşimdir (sonraki madde); Taupō 1868 · Gisborne 1870 · Rotorua 1881 yerleşim kuruluşlarıdır, ayrı savaş olayları (Te Kooti 1868-72) bu oturumda araştırılmadı — ölçülemedi." },
 
 { t:"1864-08-24", b:"Waikato'da askerî yerleşim: Hamilton kuruldu", tur:"kurulus", onem:2, dunya:1, kapsam:"ic",
@@ -168,7 +168,7 @@ window.KRONOLOJI_COK_OKYANUSYA = [
   etiket:["savas","konu-askeri","isyan","yeni-zelanda"], yer_id:"", odak_yer:["Waitangi (Bay of Islands)"], taraflar:["yeni-zelanda"],
   d:"Waitangi'den beş yıl sonra Ngāpuhi şefi Hōne Heke, 11 Mart 1845'te Kororāreka'daki (Russell) bayrak direğini dördüncü kez devirdi; aynı sabah Heke ve Kawiti önderliğinde birkaç yüz Ngāpuhi savaşçısı kasabaya saldırdı ve kasaba boşaltıldı; çatışmalar 1846 başına dek sürdü ve Yeni Zelanda Savaşları dizisinin ilk büyük savaşı sayıldı.",
   kaynak:"Te Papa Tongarewa, «Letter, Kororareka Evacuees» koleksiyon kaydı (collections.tepapa.govt.nz/object/1351537) — sayfa AÇILDI: «morning of 11 March 1845, several hundred Ngāpuhi fighters under Heke and Kawiti attacked Kororāreka ... Heke cut down the flagstaff a fourth time».",
-  gun:"11 Mart 1845 (Te Papa kaydı)",
+  ic_not_ham_gun:"11 Mart 1845 (Te Papa kaydı)", gun:"11 Mart 1845",
   ic_not_d:"Doğrulama 28 Ekim 2026: gün Te Papa kaydıyla doğrulandı. Te Ara ve NZHistory sayfaları 403 verdi (açılamadı), kaynak alanından çıkarıldı. Savaşın 1846 başına dek sürmesi bu kayıtta okunmadı (yardımcı cümle)." },
 
 { t:"1851-07-01", b:"Viktorya Kolonisi Yeni Güney Galler'den ayrıldı", tur:"kurulus", onem:3, dunya:2, kapsam:"ic",
@@ -210,7 +210,7 @@ window.KRONOLOJI_COK_OKYANUSYA = [
   etiket:["konu-siyasi","toprak-kazanc","rapa-nui"], yer_id:"", odak_yer:["Rapa Nui (Paskalya Adası)"], taraflar:["rapa-nui"],
   d:"Şili Donanması'ndan Policarpo Toro, 9 Eylül 1888'de Rapa Nui ile Şili arasında 'ilhak anlaşması' imzaladı; adanın yerli yönetimi sona erdi, ada sonradan koyun çiftliği olarak kiralandı.",
   kaynak:"Memoria Chilena (Şili Ulusal Kütüphanesi), «Incorporándola al territorio chileno» (memoriachilena.gob.cl/602/w3-article-94620.html) — sayfa AÇILDI: Policarpo Toro, Angamos korvetiyle adayı «9 de septiembre de 1888» devraldı; cesion actasını kral Atamu Tekena ve Şefler Konseyi imzaladı.",
-  gun:"9 Eylül 1888 (Memoria Chilena; ayrıca atlasın `rapa-nui` künyesiyle uyumlu)",
+  ic_not_ham_gun:"9 Eylül 1888 (Memoria Chilena; ayrıca atlasın `rapa-nui` künyesiyle uyumlu)", gun:"9 Eylül 1888",
   ic_not_d:"Doğrulama 28 Ekim 2026: gün doğrulandı. Hukukî tartışma: Revista de Marina makalesi (arama özeti, sayfa 403) imzacıların aile reisleri olduğunu, Atamu Tekena'nın kral sayılmasının yanlış olduğunu; başka çalışmalar sözleşmenin Şili tarafından onaylanmadığını öne sürer — bu iddialar açılmadığı için d'ye eklenmedi." },
 
 { t:"1899-12-02", b:"Üçlü Sözleşme Samoa'yı böldü: Almanya Upolu–Savaii'yi, ABD Tutuila ve doğu adaları aldı; Britanya Samoa iddialarından vazgeçti", tur:"antlasma", onem:3, dunya:2, kapsam:"ic",
@@ -260,7 +260,7 @@ window.KRONOLOJI_COK_OKYANUSYA = [
   etiket:["konu-siyasi","idari","toprak-kazanc","ingiltere"], yer_id:"Albany (Batı Avustralya)", taraflar:["yeni-guney-galler","bati-avustralya"],
   d:"Aralık 1826'da Yeni Güney Galler'in askerî karakolu olarak kurulan King George Sound yerleşimi, 7 Mart 1831'de Swan River Kolonisi'nin parçası ilan edildi; kasaba sonraki yıl Albany adını aldı.",
   kaynak:"Heritage Council of Western Australia, inHerit envanter kaydı (inherit.dplh.wa.gov.au, kayıt 3da3aae5-5d88-4f80-bf52-a6880445b5f4) — sayfa AÇILDI: «until on 7 March 1831 it was proclaimed as part of the Swan River Colony».",
-  gun:"7 Mart 1831 (WA Heritage Council inHerit kaydı)",
+  ic_not_ham_gun:"7 Mart 1831 (WA Heritage Council inHerit kaydı)", gun:"7 Mart 1831",
   ic_not_d:"Doğrulama 29 Ekim 2026: gün inHerit kaydıyla doğrulandı. «Albany adını sonraki yıl aldı» cümlesi bu kayıtta okunmadı (arama özetinde 1832 geçti; bu oturumda sınanmadı)." },
 
 { t:"1863-07-06", b:"Kuzey Bölgesi Yeni Güney Galler'den Güney Avustralya'ya bağlandı", tur:"toprak-kazanc", onem:3, dunya:1, kapsam:"ic",
@@ -296,14 +296,14 @@ window.KRONOLOJI_COK_OKYANUSYA = [
   etiket:["konu-siyasi","toprak-kazanc","abd"], yer_id:"Pago Pago", taraflar:["samoa-kralligi","amerikan-samoasi"],
   d:"Tutuila ve Aunu'u devir senedi Pago Pago'da 17 Nisan 1900'de, ABD bayrağı çekilmeden hemen önce imzalandı; Manuʻa adaları daha sonra, 1904'te katıldı.",
   kaynak:"Library of Congress kaydı, «Historical sketch of the naval administration of the Government of American Samoa, April 17, 1900–July 1, 1951»; Tutuila ve Aunu'u devir senedi «on the 17th day of April, 1900, immediately prior to the raising of the United States Flag» (Pago Pago yerleşim kaydındaki alıntı). U.S. Department of the Interior OIA (doi.gov/oia/islands/american-samoa).",
-  gun:"17 Nisan 1900 (LOC kaydı)",
+  ic_not_ham_gun:"17 Nisan 1900 (LOC kaydı)", gun:"17 Nisan 1900",
   ic_not_d:"Doğrulama 29 Ekim 2026: LOC kaydı bu oturumda yeniden açılmadı, alıntı yerleşim kaydından devralındı. Manuʻa 1904 cümlesi `amerikan-samoasi` künyesinden." },
 
 { t:"1840-02-06", b:"Waitangi Antlaşması: Birleşik Kabileler Konfederasyonu dönemi sona erdi, Kuzey Maori İngiliz egemenliğini tanıdı", tur:"antlasma", onem:4, dunya:2, kapsam:"ic",
   etiket:["konu-siyasi","antlasma","toprak-kayip","yeni-zelanda"], yer_id:"Waitangi (Bay of Islands)", taraflar:["yeni-zelanda-birlesik-kabileler","yeni-zelanda","ingiltere"],
   d:"1835'te Waitangi'de bağımsızlık bildirisini imzalayan Kuzey Maori rangatira, 6 Şubat 1840'ta Waitangi Antlaşması ile İngiliz Tacı'nın egemenliğini tanıdı; 1835 konfederasyonu bu tarihte yerini Yeni Zelanda kolonisine bıraktı.",
   kaynak:"Atlasın mevcut kronoloji_ingiltere maddesi (6 Şubat 1840 Waitangi Antlaşması); DigitalNZ 32375930 (He Whakaputanga 28 Ekim 1835, Waitangi) — sayfa AÇILDI. Archives New Zealand antlaşma zaman çizelgesi sayfası boş döndü (açılamadı).",
-  gun:"6 Şubat 1840 (mevcut atlas maddesi; Archives NZ sayfası açılamadı)",
+  ic_not_ham_gun:"6 Şubat 1840 (mevcut atlas maddesi; Archives NZ sayfası açılamadı)", gun:"6 Şubat 1840",
   ic_not_d:"Doğrulama 29 Ekim 2026: bu madde yer/taraf bağlı kayıttır (kronoloji_ingiltere'deki aynı günlü genel madde yer_id/taraflar taşımıyor). 1835 konfederasyonu ile 1840 antlaşması arasındaki hukuki devir ayrıntısı (tartışmalı: İngilizce/Maori metin farkı) bu maddeye alınmadı." },
 
 { t:"1980-07-30", b:"Yeni Hebridler Kondominyumu sona erdi, Vanuatu bağımsız oldu", tur:"kurulus", onem:3, dunya:2, kapsam:"ic",

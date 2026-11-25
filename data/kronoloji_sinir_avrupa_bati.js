@@ -858,7 +858,7 @@ window.KRONOLOJI_SINIR_AVRUPA_BATI = [
 { t:"1914-03-31", devlet:"yunanistan", devletler:["yunanistan","arnavutluk-bagimsiz"], sinir_id:"",
   b:"Yunan kuvvetleri Korçë'den çekildi", tur:"isgal", onem:2, dunya:1, kapsam:"dis", yer_id:"Görice (Korçë)",
   etiket:["isgal","konu-askeri"],
-  gun:"Mart 1914 sonu (gün: atlas isg: dilimi bitişi; kaynak yalnız «March 1914» der — beyanlı yaklaşıklık)",
+  ic_not_ham_gun:"Mart 1914 sonu (gün: atlas isg: dilimi bitişi; kaynak yalnız «March 1914» der — beyanlı yaklaşıklık)", gun:"Mart 1914 sonu (yaklaşık)",
   d:"Büyük devletlerin Floransa Protokolü ile Korçë'yi Arnavutluk'a vermesinin ardından Yunan ordusu Mart 1914'te şehirden çekildi; Korçë yeniden Arnavutluk idaresine geçti.",
   kaynak:"Orjon Ago – Metin Venxha, «The June 1924 movement in Albania and the neutrality of Korça», Academic Journal of Business, Administration, Law and Social Sciences 11(3), Kasım 2025, DOI 10.2478/ajbals-2025-0032: «...Greek troops, who remained there until March 1914»." },
 

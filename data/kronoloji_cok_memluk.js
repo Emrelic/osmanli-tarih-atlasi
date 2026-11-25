@@ -16,13 +16,13 @@
 // =====================================================================
 window.KRONOLOJI_COK_MEMLUK = [
 
-{ t:"1516-06-20", b:"Memlük-Osmanlı ortak kuvvetleri Zebîd'i Tâhirîlerden aldı — Yemen'de Memlük idaresi", gun:"19 Cemâziyelevvel 922 / 20 Haziran 1516 (TDV `zebid`)",
+{ t:"1516-06-20", b:"Memlük-Osmanlı ortak kuvvetleri Zebîd'i Tâhirîlerden aldı — Yemen'de Memlük idaresi", ic_not_ham_gun:"19 Cemâziyelevvel 922 / 20 Haziran 1516 (TDV `zebid`)", gun:"19 Cemâziyelevvel 922 / 20 Haziran 1516",
   devlet:"memluk", devletler:["memluk","tahiri"], tur:"toprak-kazanc", onem:3, dunya:1, kapsam:"dis",
   etiket:["savas","toprak-kazanc","deniz","konu-askeri"], yer_id:"Zebîd",
   d:"Portekiz tehlikesine karşı yardımı kesen Yemen Tâhirîlerine savaş açan Sultan Kansu Gavri'nin kuvvetleri, Selman Reis'in Süveyş'te hazırlanan donanmasıyla birlikte Yemen kıyılarında harekâta girişti. Ortak Osmanlı-Memlük ordusu Zebîd'i ele geçirdi ve şehrin idaresi Memlük emîrlerinden Barsbay'a verildi. Bu, Memlük Sultanlığı'nın Kızıldeniz'in güney ucundaki son kalıcı kazancıdır; iki ay sonra Mercidâbık'ta çöküş başlayacaktı.",
   kaynak:"TDV `zebid` (\"Müttefik Osmanlı-Memlük ordusu 19 Cemâziyelevvel 922'de (20 Haziran 1516) Zebîd'i ele geçirdi\"; idarenin Barsbay'a verildiği)" },
 
-{ t:"1517-01-01", b:"Yemen'de Memlük idaresi sona erdi — Zebîd'e Osmanlı desteğiyle Emîr İskender hâkim oldu", gun:"923 / 1517 — yıl hassasiyeti · TDV `zebid` \"ertesi yıl\" diyor, gün/ay vermiyor",
+{ t:"1517-01-01", b:"Yemen'de Memlük idaresi sona erdi — Zebîd'e Osmanlı desteğiyle Emîr İskender hâkim oldu", ic_not_ham_gun:"923 / 1517 — yıl hassasiyeti · TDV `zebid` \"ertesi yıl\" diyor, gün/ay vermiyor", gun:"923 / 1517 (yalnız yıl biliniyor)",
   devlet:"memluk", devletler:["memluk"], tur:"son", onem:2, dunya:1, kapsam:"dis",
   etiket:["son","siyaset","konu-siyasi"], yer_id:"Zebîd",
   d:"Zebîd'in Memlük valisi Barsbay'ın bir saldırıda ölmesi üzerine Osmanlıların desteğiyle Emîr İskender şehre hâkim oldu. Mısır'da Memlük Sultanlığı'nın yıkılmasıyla Yemen'deki Memlük idaresi de fiilen ortadan kalktı ve İskender bölgenin ilk Osmanlı yöneticisi durumuna geldi. Yemen'deki eski Memlük beyleri bundan sonra hutbede Osmanlı sultanının adını okutarak fiilî hâkimiyetlerini sürdürdü.",

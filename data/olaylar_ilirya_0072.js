@@ -49,7 +49,7 @@ window.OLAYLAR_ILIRYA0072 = [
 // ── 1806 Şubat · Dalmaçya Fransız idaresine geçti ────────────────────
 { tur:"antlasma", bolge:3, t:"1806-02-01", k:"antlasma", onem:3, dunya:3, kapsam:"dis", yer_id:"Zadar (Zara)", odak_yer:["Zadar (Zara)","Nadin"],
   b:"Dalmaçya'nın Fransız idaresine geçişi — Pojun (Bratislava) Antlaşması'nın uygulanması",
-  gun:"Şubat 1806 (kaynak AY hassasiyetinde; gün vermiyor)",
+  ic_not_ham_gun:"Şubat 1806 (kaynak AY hassasiyetinde; gün vermiyor)", gun:"Şubat 1806 (günü bilinmiyor)",
   yer:"Zadar (Zara), Split (Spalato), Şibenik (Sebenico), Knin, Nadin, Vrana (Urana), Sin (Sinj), Klis, Pag (Pago), Uzunada (Dugi Otok), Brakya (Brač), Hvar (Lesina), Vis (Lissa), Korçula (Kurzola), Mliyet (Mljet), Trogir (Traù), Dalmaçya",
   kisiler:"Napolyon Bonapart, Vicenzo Dandolo",
   etiket:["siyaset","toprak-kayip","konu-siyasi"],
@@ -60,7 +60,7 @@ window.OLAYLAR_ILIRYA0072 = [
 // ── 1806 · Kvarner adaları İtalya Krallığı'na, Boka Rus idaresine ────
 { tur:"antlasma", bolge:2, t:"1806-01-01", k:"antlasma", onem:2, dunya:2, kapsam:"dis", yer_id:"Krk (Veglia)",
   b:"Kvarner adalarının Napolyon İtalya Krallığı'na, Boka Kotorska'nın Rus idaresine geçişi",
-  gun:"1806 (kaynak YIL hassasiyetinde; gün bilinmiyor — `YYYY-01-01` beyandır, uydurma değil)",
+  ic_not_ham_gun:"1806 (kaynak YIL hassasiyetinde; gün bilinmiyor — `YYYY-01-01` beyandır, uydurma değil)", gun:"1806 (yalnız yıl biliniyor)",
   yer:"Krk (Veglia), Cres (Cherso), Rab (Arbe), Herseknovi (Herceg Novi), Kotor (Cattaro), Boka Kotorska, Kvarner",
   kisiler:"Napolyon Bonapart, Dmitri Senyavin",
   etiket:["siyaset","toprak-kayip","konu-siyasi"],
@@ -71,7 +71,7 @@ window.OLAYLAR_ILIRYA0072 = [
 // ── 1813 · Avusturya İlirya'yı ve Dalmaçya'yı geri aldı ──────────────
 { tur:"savas", bolge:2, t:"1813-01-01", k:"savas", onem:3, dunya:3, kapsam:"dis", yer_id:"Zadar (Zara)", odak_yer:["Zadar (Zara)","Nadin","Sisak"],
   b:"Avusturya'nın İlirya Eyaletleri'ni ve Dalmaçya'yı geri alması — Napolyon idaresinin sonu",
-  gun:"1813 (kaynaklar YIL hassasiyetinde; \"potkraj 1813\" = 1813 sonu)",
+  ic_not_ham_gun:"1813 (kaynaklar YIL hassasiyetinde; \"potkraj 1813\" = 1813 sonu)", gun:"1813",
   yer:"Zadar (Zara), Split (Spalato), Şibenik (Sebenico), Knin, Nadin, Vrana (Urana), Sin (Sinj), Klis, Pag (Pago), Uzunada (Dugi Otok), Brakya (Brač), Hvar (Lesina), Vis (Lissa), Korçula (Kurzola), Mliyet (Mljet), Krk (Veglia), Cres (Cherso), Rab (Arbe), Karlovac, Sisak, Gospić, Udbina, Drežnik (Drežnik Grad), Cetin (Cetingrad), Kostayniçe (Kostajnica), Ljubljana, İlirya Eyaletleri, Dalmaçya",
   kisiler:"Napolyon Bonapart",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
@@ -82,7 +82,7 @@ window.OLAYLAR_ILIRYA0072 = [
 // ── 1779 · Hâil'de İbn Ali emirliği ──────────────────────────────────
 { bolge:2, t:"1779-01-01", k:"fetih", onem:2, dunya:1, kapsam:"dis", yer_id:"Hâil",
   b:"Suûdî-Vehhâbî güçlerinin Hâil emirliğini ele geçirmesi — yönetim Abde aşiretinden İbn Ali ailesindeydi",
-  gun:"1779 (kaynak YIL hassasiyetinde; gün bilinmiyor — `YYYY-01-01` beyandır)",
+  ic_not_ham_gun:"1779 (kaynak YIL hassasiyetinde; gün bilinmiyor — `YYYY-01-01` beyandır)", gun:"1779 (yalnız yıl biliniyor)",
   yer:"Hâil, Cebelişemmer",
   kisiler:"İbn Ali ailesi (Abde aşireti), Abdullah b. Reşîd",
   etiket:["askeri","toprak-kazanc","konu-askeri"],

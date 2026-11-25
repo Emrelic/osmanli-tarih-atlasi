@@ -15,7 +15,7 @@ window.KRONOLOJI_COK_INCE_GD_ASYA = [
 
 // ── EDO (TOKUGAWA) ŞOGUNLUĞU ───────────────────────────────────────
 { onem:5, dunya:2, bolge_onem:3, puan_s:"v2", t:"1615-01-01", k:"askeri",tur:"askeri", b:"Osaka Kalesi düştü — Toyotomi hanedanı sona erdi, Tokugawa'nın karşısında rakip kalmadı",
-  gun:"Haziran 1615 (Japon ay takvimi; Gregoryen çevrim kaynakta ayrıca sınanmadı)", yer:"Osaka", yer_id:"Osaka",
+  ic_not_ham_gun:"Haziran 1615 (Japon ay takvimi; Gregoryen çevrim kaynakta ayrıca sınanmadı)", gun:"Haziran 1615", yer:"Osaka", yer_id:"Osaka",
   kisiler:"Tokugawa Ieyasu, Toyotomi Hideyori",
   d:"Ieyasu, Sekigahara'dan (1600) sonra bile Osaka Kalesi'nde oturan Toyotomi Hideyori'yi 1614 kış ve 1615 yaz seferleriyle kuşattı. Kale 1615 yazında düştü, Hideyori ve annesi intihar etti. Bu, şogunluğa karşı örgütlü tek ciddi rakibin ortadan kalkması ve iki buçuk yüzyıllık «Tokugawa barışı»nın başlangıcıdır.",
   kaynak:"Marius B. Jansen, The Making of Modern Japan (Harvard UP, 2000) · John Whitney Hall (ed.), The Cambridge History of Japan, cilt 4: Early Modern Japan (Cambridge UP, 1991). Sayfa verilmedi.",
@@ -29,7 +29,7 @@ window.KRONOLOJI_COK_INCE_GD_ASYA = [
   taraflar:["edo-bakufu"], etiket:["konu-siyasi","konu-idari"] },
 
 { onem:4, dunya:2, bolge_onem:2, puan_s:"v2", odak_yer:["Kyoto"], t:"1638-01-01", k:"askeri",tur:"askeri", b:"Shimabara İsyanı bastırıldı — Hıristiyanlık yasağı ve ülkenin kapanması pekişti",
-  gun:"Nisan 1638 (Japon ay takvimi; isyan 1637 sonunda başlamıştı, Gregoryen çevrim sınanmadı)", yer:"Shimabara",
+  ic_not_ham_gun:"Nisan 1638 (Japon ay takvimi; isyan 1637 sonunda başlamıştı, Gregoryen çevrim sınanmadı)", gun:"Nisan 1638", yer:"Shimabara",
   kisiler:"Amakusa Shirō, Matsukura Katsuie",
   d:"Kyushu'da Shimabara ve Amakusa'da ağır vergi ve Hıristiyan baskısına karşı köylüler ve rōnin 1637 sonunda ayaklandı, Hara Kalesi'ne kapandı. Şogunluk, Hollanda gemilerinin desteğini de alarak kaleyi 1638 baharında aldı ve isyancıları topluca öldürdü. Portekizlilerin ülkeden çıkarılması ve dış ticaretin Hollanda ile Çin'e sınırlanması bu olayın ardından geldi.",
   kaynak:"Marius B. Jansen, The Making of Modern Japan (Harvard UP, 2000) · Cambridge History of Japan, cilt 4 (Cambridge UP, 1991). Sayfa verilmedi.",
@@ -49,7 +49,7 @@ window.KRONOLOJI_COK_INCE_GD_ASYA = [
   taraflar:["edo-bakufu"], etiket:["konu-diplomasi","konu-siyasi"] },
 
 { onem:5, dunya:2, bolge_onem:3, puan_s:"v2", t:"1867-01-01", k:"siyasi",tur:"siyasi", b:"Tokugawa Yoshinobu yönetimi imparatora geri verdi (Taisei Hōkan)",
-  gun:"Kasım 1867 (Japon ay takvimi; Gregoryen çevrim sınanmadı)", yer:"Kyoto", yer_id:"Kyoto", kisiler:"Tokugawa Yoshinobu",
+  ic_not_ham_gun:"Kasım 1867 (Japon ay takvimi; Gregoryen çevrim sınanmadı)", gun:"Kasım 1867", yer:"Kyoto", yer_id:"Kyoto", kisiler:"Tokugawa Yoshinobu",
   d:"Son şogun Yoshinobu, Satsuma ve Chōshū'nun darbe hazırlığı karşısında 1867 sonbaharında yönetimi imparatora iade etti ve şogunluk devlet işlerinden fiilen çekildi. Bu, ocak 1868'deki Meiji Restorasyonu ilanından (künyenin bitiş günü) önceki son adımdır; Boshin Savaşı yine de çıkmıştır.",
   kaynak:"William G. Beasley, The Meiji Restoration (Stanford UP, 1972) · Marius B. Jansen, The Making of Modern Japan (Harvard UP, 2000). Sayfa verilmedi.",
   taraflar:["edo-bakufu"], etiket:["konu-siyasi"],
