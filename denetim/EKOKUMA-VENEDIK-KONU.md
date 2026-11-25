@@ -256,6 +256,16 @@ Bu turda denenmeyen yedekler: Treviso 1339, 1409 Dalmaçya'nın satın alınmas�
 | 1211-09-10 Girit fermanı | kaynaklar yalnız Eylül; 10 Eylül ve "Carta" adı geçmiyor |
 | 1656-06-26 Çanakkale | biyografiler gün konusunda ayrışıyor (23 / 26 Haziran) |
 
+## 6. Erişim kuralı denetimi (25 Kasım 2026, gece)
+
+Kural (koordinatör): engel veren sayfa User-Agent taklidi, tarayıcı, ayna, önbellek ya da aktarım aracıyla çekilmez; "okunamadı" yazılır.
+
+**Bulgu:** Yazar talimatındaki indirme komutu tarayıcıyı andıran `Mozilla/5.0 research-reader` başlığını taşıyordu (talimatı bu işi yöneten oturum yazdı). TDV İslâm Ansiklopedisi iş sırasında Cloudflare engeli verdi; sonrasında bir ajan web aktarım aracını, yöneten oturum ve sonraki ajanlar aynı başlığı kullandı. TDV'ye dayanan **17 kayıt** (16 ek okuma kartı + 1 kişi kaydı) `teyitsiz` ve yayın adayı değil; 14'ü yeni düştü, 3'ü zaten `teyitsiz`di. Kartlar silinmedi; metinleri değiştirilmedi.
+
+Öteki alan adları için başlık eklenmeden birer istek yapıldı (treccani.it, dergipark.org.tr, archive.org, Fordham, Royal Holloway, Maryland, AMU Pressto, Ignatianum): hepsi 200, engel izi yok (AMU dosyası boyut sınırında kesildi). Korfu makalesinin PDF sitesi sınanmadı. Fordham ilk denemede bakım sayfası döndürmüş, ardından aktarım aracı kullanılmıştı (3 kayıt, zaten `teyitsiz`). Denetim diskteki betik ve dosyalara dayanır; ajan oturum dökümleri okunmadı.
+
+**Güncel toplam: 63 ek okuma kartı = 39 `teyitli` + 24 `teyitsiz`.** Yukarıdaki bölümlerdeki parti sayıları bu denetimden öncesine aittir. 05. parti ajanları durduruldu; yarım çıktıları depoya alınmadı.
+
 ## Ek: kronoloji envanteri (283 satır)
 
 Süzgeç: dosya ya da kayıt Venedik’e ait olanlar ile başlığında Venedik veya bir Venedik soyadı geçenler. Süzgeç başlığa baktığı için başlıkta adı geçmeyen ortak maddeler listede olmayabilir; listeye yalnız anılan maddeler de girmiştir.

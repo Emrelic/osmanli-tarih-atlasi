@@ -252,7 +252,8 @@ window.EKOKUMA_DEVVENEDIK04 = [
   ic_not:"Çevrimiçi metinde Udine'nin ilk barış teklifinin yılı bozuk basılmış ('febbraio 109'), bu yüzden o ay/yıl yazılmadı; 3 Nisan'ın yılı da maddede ayrıca yazılmıyor. Bağlama günü 1420-10-01 sitedeki maddenindir; okunan metin yalnız Udine'ye girişi (6 Haziran 1420) veriyor, Friuli fethinin tamamlandığı günü vermiyor. 'Storia di Venezia, La conquista della terraferma' bölümü uzun olduğu için baştan sona okunmadı, kullanılmadı. Dizionario biografico dei friulani'nin Savorgnan sayfası indirilemedi (HTTP 400)." },
 
 { id:"venedik-sebep-akkoyunlu-toplar-1473", tur:"sebep-sonuc",
-  teyit:"teyitli", yayin_adayi:true, ic_not_teyit:"TDV Uzun Hasan (F. Sümer), Almagià'nın Giosafat Barbaro ve Mazzon'un Caterino Zeno maddeleri ham metinden baştan sona okundu.",
+  ic_not_erisim:"ERİŞİM KURALI İHLALİ (25.11.2026 denetimi): TDV İslâm Ansiklopedisi bu iş sırasında Cloudflare engeli verdi. Karttaki TDV içeriği engelden sonra web aktarım aracıyla ya da tarayıcıyı andıran User-Agent ile (Mozilla/5.0 research-reader) indirildi. Bu yolla alınan metin kullanılamaz: TDV'ye dayanan ifadeler OKUNAMADI sayılır. Önceki 'ham sayfada doğrulandı' notları geçersiz. Yayın adayı değil; kart silinmedi.",
+  teyit:"teyitsiz", yayin_adayi:false, ic_not_teyit:"[TDV ile ilgili okuma beyanı GEÇERSİZ, bkz. ic_not_erisim] TDV Uzun Hasan (F. Sümer), Almagià'nın Giosafat Barbaro ve Mazzon'un Caterino Zeno maddeleri ham metinden baştan sona okundu.",
   baslik:"Venedik'in Uzun Hasan'a yolladığı toplar neden savaşa yetişmedi?",
   olay:["1473-02-01|top"],
   kisa:"Akkoyunlu hükümdarı ateşli silâhın önemini görmüş, Venedik de göndermişti. Silâhlar yola çıktı, ama alıcısının eline geçmedi.",
@@ -293,7 +294,8 @@ window.EKOKUMA_DEVVENEDIK04 = [
   ic_not:"Rodolfo Gonzaga maddesi savaşı '5-6 luglio 1495' diye verir; Fortebracci maddesi ve sitedeki bağlama günü 6 Temmuz. Francesco II Gonzaga maddesi indirildi ama uzun olduğu için okunmadı, kullanılmadı. Luzio-Renier 1890 okunmadı. Yarma girişiminin başındaki 'G. de Foix' adı kimliği belirsiz olduğu için karta alınmadı. 'lance spezzate colleonesche' kartta 'seçme süvariler' diye sadeleştirildi (yorum payı var)." },
 
 { id:"venedik-sebep-modon-koron-1500", tur:"sebep-sonuc",
-  teyit:"teyitli", yayin_adayi:true, ic_not_teyit:"TDV Koron (Machiel Kiel) ve Gullino'nun Melchiorre Trevisan maddeleri ham metinden baştan sona okundu.",
+  ic_not_erisim:"ERİŞİM KURALI İHLALİ (25.11.2026 denetimi): TDV İslâm Ansiklopedisi bu iş sırasında Cloudflare engeli verdi. Karttaki TDV içeriği engelden sonra web aktarım aracıyla ya da tarayıcıyı andıran User-Agent ile (Mozilla/5.0 research-reader) indirildi. Bu yolla alınan metin kullanılamaz: TDV'ye dayanan ifadeler OKUNAMADI sayılır. Önceki 'ham sayfada doğrulandı' notları geçersiz. Yayın adayı değil; kart silinmedi.",
+  teyit:"teyitsiz", yayin_adayi:false, ic_not_teyit:"[TDV ile ilgili okuma beyanı GEÇERSİZ, bkz. ic_not_erisim] TDV Koron (Machiel Kiel) ve Gullino'nun Melchiorre Trevisan maddeleri ham metinden baştan sona okundu.",
   baslik:"Modon ve Koron 1500: Venedik donanması yardım beklerken ne oldu?",
   olay:["1500-08-10|Modon"],
   kisa:"İki liman Venedik'le Doğu Akdeniz arasındaki yolun duraklarıydı. Üç yüzyıla yaklaşan Venedik yönetimi bir yaz içinde sona erdi.",
@@ -335,9 +337,10 @@ window.EKOKUMA_DEVVENEDIK04 = [
 {
     "id": "venedik-savas-hanya-1645",
     "tur": "savas-hikayesi",
-    "teyit": "teyitli",
-    "yayin_adayi": true,
-    "ic_not_teyit": "TDV 'İbrahim' maddesi ve Marcello maddesi tam okundu. Elçi Czernin'in ve Osmanlı kroniklerinin aktarıldığı yorumlar karta alınmadı.",
+    ic_not_erisim:"ERİŞİM KURALI İHLALİ (25.11.2026 denetimi): TDV İslâm Ansiklopedisi bu iş sırasında Cloudflare engeli verdi. Karttaki TDV içeriği engelden sonra web aktarım aracıyla ya da tarayıcıyı andıran User-Agent ile (Mozilla/5.0 research-reader) indirildi. Bu yolla alınan metin kullanılamaz: TDV'ye dayanan ifadeler OKUNAMADI sayılır. Önceki 'ham sayfada doğrulandı' notları geçersiz. Yayın adayı değil; kart silinmedi.",
+  teyit:"teyitsiz",
+    yayin_adayi:false,
+    "ic_not_teyit": "[TDV ile ilgili okuma beyanı GEÇERSİZ, bkz. ic_not_erisim] TDV 'İbrahim' maddesi ve Marcello maddesi tam okundu. Elçi Czernin'in ve Osmanlı kroniklerinin aktarıldığı yorumlar karta alınmadı.",
     "devlet": "venedik",
     "taraf": [
       "venedik",

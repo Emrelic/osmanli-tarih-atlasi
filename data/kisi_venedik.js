@@ -8,6 +8,7 @@
 // ============================================================================
 window.KISI_VENEDIK = [
   { id: "venedik-kisi-enrico-dandolo", devlet: "venedik", tur: "yabanci-hukumdar",
+  ic_not_erisim:"ERİŞİM NOTU (25.11.2026): Villehardouin sayfası ilk denemede 'bakımdayız' sayfası döndürdü; ardından web aktarım aracıyla okundu, sonra tarayıcıyı andıran User-Agent ile indirildi. Denetimde başlıksız tek istek 200 döndü. Kart zaten teyitsiz; yayından önce sayfa yeniden, kurala uygun okunmalı.",
   teyit:"teyitsiz", yayin_adayi:false, ic_not_teyit:"Kartıyla aynı: Novgorod ve Andrea Dandolo rivayeti aktarım.",
     ad: "Enrico Dandolo",
     f: "1107", ic_not_f: "dolayı (DBI 'intorno al 1107'; Barker 'around 1107')",
@@ -20,7 +21,8 @@ window.KISI_VENEDIK = [
     kaynak: "G. Cracco, \"Dandolo, Enrico\", Dizionario Biografico degli Italiani c. 32 (1986) · Villehardouin, İng. çev. F. T. Marzials (1908) · J. W. Barker, The Medieval Review 04.08.03 (2004)" },
 
   { id: "venedik-kisi-caterina-cornaro", devlet: "venedik", tur: "yabanci-hukumdar",
-  teyit:"teyitli", yayin_adayi:true, ic_not_teyit:"DBI ve TDV ham tam metin.",
+  ic_not_erisim:"ERİŞİM KURALI İHLALİ (25.11.2026 denetimi): TDV İslâm Ansiklopedisi bu iş sırasında Cloudflare engeli verdi. Karttaki TDV içeriği engelden sonra web aktarım aracıyla ya da tarayıcıyı andıran User-Agent ile (Mozilla/5.0 research-reader) indirildi. Bu yolla alınan metin kullanılamaz: TDV'ye dayanan ifadeler OKUNAMADI sayılır. Önceki 'ham sayfada doğrulandı' notları geçersiz. Yayın adayı değil; kart silinmedi.",
+  teyit:"teyitsiz", yayin_adayi:false, ic_not_teyit:"[TDV ile ilgili okuma beyanı GEÇERSİZ, bkz. ic_not_erisim] DBI okundu; TDV okunamadı sayılır.",
     ad: "Caterina Cornaro (Corner)",
     f: "1454", ic_not_f: "ilk biyografı Colbertaldo'ya göre (DBI aktarımı)",
     t: "1510",

@@ -186,7 +186,8 @@ window.EKOKUMA_DEVVENEDIK02 = [
 
 // 9
 { id:"venedik-savas-gelibolu-1416", tur:"savas-hikayesi",
-  teyit:"teyitsiz", yayin_adayi:false, ic_not_teyit:"TDV'nin verdiği 12 gemi / 4000 ölü rakamı 'Venedik kaynakları'ndan aktarımdır (o kaynaklar okunmadı). Öteki olgular iki ansiklopedi maddesinin kendi anlatısı; ikisi de tam okundu.",
+  ic_not_erisim:"ERİŞİM KURALI İHLALİ (25.11.2026 denetimi): TDV İslâm Ansiklopedisi bu iş sırasında Cloudflare engeli verdi. Karttaki TDV içeriği engelden sonra web aktarım aracıyla ya da tarayıcıyı andıran User-Agent ile (Mozilla/5.0 research-reader) indirildi. Bu yolla alınan metin kullanılamaz: TDV'ye dayanan ifadeler OKUNAMADI sayılır. Önceki 'ham sayfada doğrulandı' notları geçersiz. Yayın adayı değil; kart silinmedi.",
+  teyit:"teyitsiz", yayin_adayi:false, ic_not_teyit:"[TDV ile ilgili okuma beyanı GEÇERSİZ, bkz. ic_not_erisim] TDV'nin verdiği 12 gemi / 4000 ölü rakamı 'Venedik kaynakları'ndan aktarımdır (o kaynaklar okunmadı). Öteki olgular iki ansiklopedi maddesinin kendi anlatısı; ikisi de tam okundu.",
   baslik:"Osmanlı'nın genç donanması Gelibolu'da Venedik'le karşılaşınca",
   olay:["1416-05-29|Gelibolu deniz savaşı"],
   kisa:"Venedik amiralinin elindeki talimat saldırı emri vermiyordu. 29 Mayıs 1416'da Gelibolu önünde yaşananlar ise Osmanlı donanması için bir felaket oldu.",
@@ -203,7 +204,8 @@ window.EKOKUMA_DEVVENEDIK02 = [
 
 // 10
 { id:"venedik-magazin-gentile-bellini", tur:"magazin",
-  teyit:"teyitli", yayin_adayi:true, ic_not_teyit:"Schmitt (Bellini) ve Pedani (TDV Venedik) maddeleri bu turda tam okundu. Angiolello, Vasari ve Babinger'e dayanan anlatılar karta alınmadı.",
+  ic_not_erisim:"ERİŞİM KURALI İHLALİ (25.11.2026 denetimi): TDV İslâm Ansiklopedisi bu iş sırasında Cloudflare engeli verdi. Karttaki TDV içeriği engelden sonra web aktarım aracıyla ya da tarayıcıyı andıran User-Agent ile (Mozilla/5.0 research-reader) indirildi. Bu yolla alınan metin kullanılamaz: TDV'ye dayanan ifadeler OKUNAMADI sayılır. Önceki 'ham sayfada doğrulandı' notları geçersiz. Yayın adayı değil; kart silinmedi.",
+  teyit:"teyitsiz", yayin_adayi:false, ic_not_teyit:"[TDV ile ilgili okuma beyanı GEÇERSİZ, bkz. ic_not_erisim] Schmitt (Bellini) ve Pedani (TDV Venedik) maddeleri bu turda tam okundu. Angiolello, Vasari ve Babinger'e dayanan anlatılar karta alınmadı.",
   baslik:"Savaş bitince Venedik, Fatih'e ressamını gönderdi",
   olay:["1479-01-25|İstanbul Antlaşması — birinci"],
   kisa:"1479'da sultan portre yapabilen iyi bir ressam istedi. Venedik, resmî işlerini yürüten Gentile Bellini'yi yolladı. Geriye en tanınmış Fatih portrelerinden biri kaldı.",
@@ -224,7 +226,8 @@ window.EKOKUMA_DEVVENEDIK02 = [
 
 // 1 Preveze
 { id:"venedik-tartisma-preveze-1538", tur:"tartisma",
-  teyit:"teyitli", yayin_adayi:true, ic_not_teyit:"TDV (Bostan) ve DBI Marco Grimani (Gullino), Vincenzo Cappello (Olivieri), Andrea Doria (Grendi) maddeleri ham tam metinden okundu.",
+  ic_not_erisim:"ERİŞİM KURALI İHLALİ (25.11.2026 denetimi): TDV İslâm Ansiklopedisi bu iş sırasında Cloudflare engeli verdi. Karttaki TDV içeriği engelden sonra web aktarım aracıyla ya da tarayıcıyı andıran User-Agent ile (Mozilla/5.0 research-reader) indirildi. Bu yolla alınan metin kullanılamaz: TDV'ye dayanan ifadeler OKUNAMADI sayılır. Önceki 'ham sayfada doğrulandı' notları geçersiz. Yayın adayı değil; kart silinmedi.",
+  teyit:"teyitsiz", yayin_adayi:false, ic_not_teyit:"[TDV ile ilgili okuma beyanı GEÇERSİZ, bkz. ic_not_erisim] TDV (Bostan) ve DBI Marco Grimani (Gullino), Vincenzo Cappello (Olivieri), Andrea Doria (Grendi) maddeleri ham tam metinden okundu.",
   baslik:"Preveze 1538: kalabalık müttefik donanmanın içinde neler oluyordu?",
   olay:["1538-09-28|Preveze"],
   kisa:"Müttefikler sayıca üstündü. Ama karşılarına çıkan donanmanın tek bir iradesi yoktu: ayrı komutanlar, ayrı kaygılar ve yenilgiden sonra başlayan bir suçlama.",
@@ -379,7 +382,8 @@ window.EKOKUMA_DEVVENEDIK02 = [
 
 // 8 Korfu 1716
 { id:"venedik-savas-korfu-1716", tur:"savas-hikayesi",
-  teyit:"teyitli", yayin_adayi:true, ic_not_teyit:"Hatzopoulos makalesi (NAM, açık erişim PDF, s. 301-340) tam metin; Almagià (Enciclopedia Italiana 1935) ve TDV Korfu (Bostan) ham tam metin. Olgular bu metinlerin kendi anlatısı.",
+  ic_not_erisim:"ERİŞİM KURALI İHLALİ (25.11.2026 denetimi): TDV İslâm Ansiklopedisi bu iş sırasında Cloudflare engeli verdi. Karttaki TDV içeriği engelden sonra web aktarım aracıyla ya da tarayıcıyı andıran User-Agent ile (Mozilla/5.0 research-reader) indirildi. Bu yolla alınan metin kullanılamaz: TDV'ye dayanan ifadeler OKUNAMADI sayılır. Önceki 'ham sayfada doğrulandı' notları geçersiz. Yayın adayı değil; kart silinmedi.",
+  teyit:"teyitsiz", yayin_adayi:false, ic_not_teyit:"[TDV ile ilgili okuma beyanı GEÇERSİZ, bkz. ic_not_erisim] Hatzopoulos makalesi (NAM, açık erişim PDF, s. 301-340) tam metin; Almagià (Enciclopedia Italiana 1935) ve TDV Korfu (Bostan) ham tam metin. Olgular bu metinlerin kendi anlatısı.",
   devlet:"venedik", taraf:["venedik","osmanli"],
   baslik:"Korfu 1716: Mora'yı bir yazda kaybeden Venedik bu kez nasıl tutundu?",
   olay:["1716-08-20|Korfu"],

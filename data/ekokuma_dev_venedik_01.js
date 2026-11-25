@@ -12,6 +12,7 @@ window.EKOKUMA_DEVVENEDIK01 = [
 
 // ── 1 · Enrico Dandolo ─────────────────────────────────────────────────
 { id:"venedik-kimdir-enrico-dandolo", tur:"kimdir",
+  ic_not_erisim:"ERİŞİM NOTU (25.11.2026): Villehardouin sayfası ilk denemede 'bakımdayız' sayfası döndürdü; ardından web aktarım aracıyla okundu, sonra tarayıcıyı andıran User-Agent ile indirildi. Denetimde başlıksız tek istek 200 döndü. Kart zaten teyitsiz; yayından önce sayfa yeniden, kurala uygun okunmalı.",
   teyit:"teyitsiz", yayin_adayi:false, ic_not_teyit:"Aktarım: Madden (Barker eleştirisi üzerinden); Choniates ve Andrea Dandolo (DBI üzerinden); Novgorod anlatısı (Brzozowska çevirisi, yalnız ilgili bölümler).",
   baslik:"Enrico Dandolo'yu gerçekten Bizanslılar mı kör etti?",
   olay:["1192-06-21|Enrico Dandolo","1205-01-01|Enrico Dandolo"],
@@ -38,7 +39,8 @@ window.EKOKUMA_DEVVENEDIK01 = [
 
 // ── 2 · Caterina Cornaro ───────────────────────────────────────────────
 { id:"venedik-kimdir-caterina-cornaro", tur:"kimdir",
-  teyit:"teyitli", yayin_adayi:true, ic_not_teyit:"DBI ve TDV Kıbrıs ham tam metinden okundu; emir ve Latince ifade ham metinde doğrulandı. DBI içindeki belge alıntıları maddenin aktarımıdır; 1979 sonrası literatür aranmadı.",
+  ic_not_erisim:"ERİŞİM KURALI İHLALİ (25.11.2026 denetimi): TDV İslâm Ansiklopedisi bu iş sırasında Cloudflare engeli verdi. Karttaki TDV içeriği engelden sonra web aktarım aracıyla ya da tarayıcıyı andıran User-Agent ile (Mozilla/5.0 research-reader) indirildi. Bu yolla alınan metin kullanılamaz: TDV'ye dayanan ifadeler OKUNAMADI sayılır. Önceki 'ham sayfada doğrulandı' notları geçersiz. Yayın adayı değil; kart silinmedi.",
+  teyit:"teyitsiz", yayin_adayi:false, ic_not_teyit:"[TDV ile ilgili okuma beyanı GEÇERSİZ, bkz. ic_not_erisim] DBI okundu; emir ve Latince ifade DBI metninde doğrulandı. TDV Kıbrıs okunamadı sayılır. DBI içindeki belge alıntıları maddenin aktarımıdır; 1979 sonrası literatür aranmadı.",
   baslik:"Caterina Cornaro Kıbrıs'ı kendi isteğiyle mi bıraktı?",
   olay:["1489-02-26|Cornaro","1489-02-26|Kıbrıs'ın devralınması"],
   kisa:"Törenlerde Venedik'in \"öz kızı\" olan kraliçenin adayı cumhuriyete bağışladığı anlatılır. Törenin arkasında ise reddederse zorla gemiye bindirilmesini söyleyen bir emir vardı.",
@@ -58,11 +60,12 @@ window.EKOKUMA_DEVVENEDIK01 = [
     "İtalyan biyografi ansiklopedisindeki yaşamöyküsünün aktardığı belgeler, feragatin serbest bir seçim olmadığını gösteriyor: ikna yolu açık tutulmuş, zor kullanma yolu da hazırlanmıştı. Feragat için sunulan gerekçeler arasında Osmanlı tehdidi de vardı; TDV İslâm Ansiklopedisi 1488'de Mağusa önünde görünen Osmanlı filosunu ve savunma kaygısını öne çıkarır. XVII. yüzyıldan sonra edebiyat ve opera Caterina'yı devlet çıkarının kurbanı olarak işledi. Bu imgeyi değerlendirirken onun ne istediğini, çoğu kez ancak başkalarının yazdığı belgelerden ve kendisinden kalan sınırlı tanıklıktan izleyebildiğimizi hatırlamak gerekir.",
   kesinlik:"kesin",
   kaynak:"F. Colasanti, \"Caterina Corner, regina di Cipro\", Dizionario Biografico degli Italiani c. 22 (1979), treccani.it/enciclopedia/caterina-corner-regina-di-cipro_(Dizionario-Biografico)/ · TDV İslâm Ansiklopedisi, \"Kıbrıs\" (tarih bölümü, Işın Demirkent), islamansiklopedisi.org.tr/kibris",
-  ic_not:"26 Şubat 1489 iki bağımsız akademik kaynakta (DBI + TDV): çift teyit. Vekâlet nikâhının günü DBI'nın aktardığı iki vakanüviste farklı (10 / 30 Temmuz 1468), yalnız yıl yazıldı. DBI 1979 tarihli; yeni hakemli literatür (ör. B. Arbel) ARANMADI/OKUNMADI, feragat yorumu onunla sınanmalı. kesinlik 'kesin' yalnız emrin ve devrin belgeli olmasına dayanır." },
+  ic_not:"26 Şubat 1489 DBI metninde; TDV teyidi geçersiz, çift teyit SAYILMAZ. Vekâlet nikâhının günü DBI'nın aktardığı iki vakanüviste farklı (10 / 30 Temmuz 1468), yalnız yıl yazıldı. DBI 1979 tarihli; yeni hakemli literatür (ör. B. Arbel) ARANMADI/OKUNMADI, feragat yorumu onunla sınanmalı. kesinlik 'kesin' yalnız emrin ve devrin belgeli olmasına dayanır." },
 
 // ── 3 · Dördüncü Haçlı Seferi ──────────────────────────────────────────
 { id:"venedik-tartisma-dorduncu-hacli", tur:"tartisma",
-  teyit:"teyitsiz", yayin_adayi:false, ic_not_teyit:"Aktarım: tarihçi görüşlerinin çoğu Harris ve Barker üzerinden; eserlerin kendisi okunmadı.",
+  ic_not_erisim:"ERİŞİM KURALI İHLALİ (25.11.2026 denetimi): TDV İslâm Ansiklopedisi bu iş sırasında Cloudflare engeli verdi. Karttaki TDV içeriği engelden sonra web aktarım aracıyla ya da tarayıcıyı andıran User-Agent ile (Mozilla/5.0 research-reader) indirildi. Bu yolla alınan metin kullanılamaz: TDV'ye dayanan ifadeler OKUNAMADI sayılır. Önceki 'ham sayfada doğrulandı' notları geçersiz. Yayın adayı değil; kart silinmedi. ERİŞİM NOTU (25.11.2026): Villehardouin sayfası ilk denemede 'bakımdayız' sayfası döndürdü; ardından web aktarım aracıyla okundu, sonra tarayıcıyı andıran User-Agent ile indirildi. Denetimde başlıksız tek istek 200 döndü. Kart zaten teyitsiz; yayından önce sayfa yeniden, kurala uygun okunmalı.",
+  teyit:"teyitsiz", yayin_adayi:false, ic_not_teyit:"[TDV ile ilgili okuma beyanı GEÇERSİZ, bkz. ic_not_erisim] Aktarım: tarihçi görüşlerinin çoğu Harris ve Barker üzerinden; eserlerin kendisi okunmadı.",
   baslik:"Haçlılar Mısır'a gidecekti, İstanbul'u aldı: Venedik bunu planladı mı?",
   olay:["1204-04-13|IV. Haçlı Seferi'nde","1204-04-13|Konstantinopolis'i ele geçirdi"],
   kisa:"Müslümanlara karşı yola çıkan bir ordu, Hristiyan bir imparatorluğun başkentini yağmaladı. Sekiz yüz yıldır sorulan soru aynı: kaza mı, tertip mi?",
@@ -133,7 +136,8 @@ window.EKOKUMA_DEVVENEDIK01 = [
 
 // ── 6 · Magosa 1571 ────────────────────────────────────────────────────
 { id:"venedik-savas-magosa-bragadin-1571", tur:"savas-hikayesi",
-  teyit:"teyitli", yayin_adayi:true, ic_not_teyit:"DBI ve Strauss ham tam metinden; TDV Kıbrıs önce web aracının aktarımıyla okunmuştu, 25.11.2026'da ham sayfa indirildi ve '50 esir, Bragadin ile on bir bey' cümlesi doğrulandı. Strauss'un andığı eski tarihçiler kartta Strauss'a atfedilir.",
+  ic_not_erisim:"ERİŞİM KURALI İHLALİ (25.11.2026 denetimi): TDV İslâm Ansiklopedisi bu iş sırasında Cloudflare engeli verdi. Karttaki TDV içeriği engelden sonra web aktarım aracıyla ya da tarayıcıyı andıran User-Agent ile (Mozilla/5.0 research-reader) indirildi. Bu yolla alınan metin kullanılamaz: TDV'ye dayanan ifadeler OKUNAMADI sayılır. Önceki 'ham sayfada doğrulandı' notları geçersiz. Yayın adayı değil; kart silinmedi.",
+  teyit:"teyitsiz", yayin_adayi:false, ic_not_teyit:"[TDV ile ilgili okuma beyanı GEÇERSİZ, bkz. ic_not_erisim] DBI ve Strauss ham tam metinden; TDV okunamadı sayılır (bkz. ic_not_erisim). Strauss'un andığı eski tarihçiler kartta Strauss'a atfedilir.",
   devlet:"venedik", taraf:["venedik","osmanli"],
   baslik:"Magosa 1571: şartlı teslimden sonra Bragadin niçin öldürüldü?",
   olay:["1571-08-01|Magosa'nın düşüşü","1571-08-01|Magosa teslim oldu"],
@@ -159,11 +163,12 @@ window.EKOKUMA_DEVVENEDIK01 = [
     "Şartlı teslim ve sonrasındaki öldürmeler konusunda anlatılar buluşuyor. Ayrılık nedendedir: esirlerin öldürüldüğü haberi doğru muydu, yoksa bir gerekçe miydi? Okunan kaynaklar bunu kesin biçimde çözmüyor. Doğru olsa bile bu soru, yapılan işkenceyi açıklamakla haklı çıkarmayı birbirine karıştırmadan sorulmalı.",
   kesinlik:"tartismali",
   kaynak:"Angelo Ventura, \"Bragadin, Marcantonio\", Dizionario Biografico degli Italiani c. 13 (1971), treccani.it/enciclopedia/marcantonio-bragadin_(Dizionario-Biografico)/ · TDV İslâm Ansiklopedisi: \"Kıbrıs\" Osmanlı dönemi (Kemal Çiçek), \"Lala Mustafa Paşa\" (Bekir Kütükoğlu), \"Magosa\" · Johann Strauss, \"Kıbrıs Türk İdaresine Nasıl Girdi: Bir Fetih ve Tarihçiler\", çev. M. A. Erdoğru, OTAM 44 (2018), s. 341-349, dergipark.org.tr/tr/download/issue-file/54827",
-  ic_not:"TDV Kıbrıs cümlesi 25.11.2026 ham sayfada doğrulandı. OKUNMADI: Peçevî, Selânikî, Âlî, Kâtip Çelebi; G. Hill, A History of Cyprus III; Setton; Venedik tanık raporları (yalnız DBI aktarımı). 'yanındakiler öldürüldü': DBI'ya göre Tiepolo ve bir Arnavut subayı ertesi gün asıldı. Kuşatma süresi 'yaklaşık on bir ay' 17.09.1570-01.08.1571 hesabıdır. savas-hikayesi'nde devlet/taraf alanlarının sefer oku davranışı sınanmadı." },
+  ic_not:"TDV doğrulaması geçersiz (bkz. ic_not_erisim). OKUNMADI: Peçevî, Selânikî, Âlî, Kâtip Çelebi; G. Hill, A History of Cyprus III; Setton; Venedik tanık raporları (yalnız DBI aktarımı). 'yanındakiler öldürüldü': DBI'ya göre Tiepolo ve bir Arnavut subayı ertesi gün asıldı. Kuşatma süresi 'yaklaşık on bir ay' 17.09.1570-01.08.1571 hesabıdır. savas-hikayesi'nde devlet/taraf alanlarının sefer oku davranışı sınanmadı." },
 
 // ── 7 · Parthenon 1687 ─────────────────────────────────────────────────
 { id:"venedik-karsi-parthenon-1687", tur:"karsi-anlati",
-  teyit:"teyitsiz", yayin_adayi:false, ic_not_teyit:"Aktarım: Foscarini, subay anlatıları ve Alman teğmen günlüğü Laborde (1854, bozuk OCR) üzerinden; Mommsen ve Paton okunmadı. TDV Atina cümlesi ham sayfada doğrulandı.",
+  ic_not_erisim:"ERİŞİM KURALI İHLALİ (25.11.2026 denetimi): TDV İslâm Ansiklopedisi bu iş sırasında Cloudflare engeli verdi. Karttaki TDV içeriği engelden sonra web aktarım aracıyla ya da tarayıcıyı andıran User-Agent ile (Mozilla/5.0 research-reader) indirildi. Bu yolla alınan metin kullanılamaz: TDV'ye dayanan ifadeler OKUNAMADI sayılır. Önceki 'ham sayfada doğrulandı' notları geçersiz. Yayın adayı değil; kart silinmedi.",
+  teyit:"teyitsiz", yayin_adayi:false, ic_not_teyit:"[TDV ile ilgili okuma beyanı GEÇERSİZ, bkz. ic_not_erisim] Aktarım: Foscarini, subay anlatıları ve Alman teğmen günlüğü Laborde (1854, bozuk OCR) üzerinden; Mommsen ve Paton okunmadı. TDV doğrulaması geçersiz (bkz. ic_not_erisim).",
   baslik:"Parthenon'u kim havaya uçurdu? \"Türkler\", \"kaza\" ve belgelerin söylediği",
   olay:["1687-09-26|Parthenon","1688-04-08|Atina'nın geri alınışı"],
   kisa:"Antik çağdan kalan yapı bir akşam parçalandı. Ateşi Venedik tarafı açtı, patlayan ise Osmanlıların içeride tuttuğu mühimmattı. Asıl tartışma, isabetin kasıtlı olup olmadığı.",
