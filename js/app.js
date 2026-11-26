@@ -8479,10 +8479,8 @@ function _haritaSakinlesince(is) {
 var _CIZIM_MS = 0;
 
 // Telefon + tam ekran: oynatılan madde haritanın EN ALTINDA alt yazı gibi, beyaz yazıyla görünür
-// (Emre, 22 Kasım: tam ekranda panel kapalı, hangi maddenin oynadığı okunmuyor · 25 Kasım: başlık +
-// madde metni en altta, satır satır, sığacak şekilde; olay yeri ekranın üst üçte birine — odakOfseti).
-// Sığdırma: yazı alanı haritanın alt %34'ü; taşarsa punto 15 → 11 px küçülür, yine taşarsa metin
-// satır sınırıyla "…" kesilir (alt yazı kaydırılmaz — harita üstünde dokunma yutmasın).
+// (Emre, 22 Kasım: tam ekranda panel kapalı, hangi maddenin oynadığı okunmuyor · 25 Kasım: en altta,
+// olay yeri ekranın üst üçte birine — odakOfseti · 26 Kasım: YALNIZ başlık satırı, açıklama yok).
 var _basYaziZaman = null, _basYaziSon = null;
 function haritaBaslikYazisi(o) {
   try {
@@ -8494,44 +8492,29 @@ function haritaBaslikYazisi(o) {
       el = document.createElement("div");
       el.id = "harita-baslik-yazi";
       el.setAttribute("role", "status");
-      el.innerHTML = '<div class="hby-b"></div><div class="hby-d"></div>';
+      el.innerHTML = '<div class="hby-b"></div>';
       h.appendChild(el);
     }
-    var t = o.b || "", d = o.d || "";
+    // 🔴 Emre, 26 Kasım 2026: YALNIZ BAŞLIK satırı — madde açıklaması (o.d) basılmaz,
+    // "kocaman bir paragraf ile ekran dolsun istemiyorum". Başlık en çok 2 satır (CSS).
+    var t = o.b || "";
     if (!t) return;
-    var anahtar = t + "|" + d;
-    if (anahtar === _basYaziSon && el.classList.contains("gor")) return;
-    _basYaziSon = anahtar;
-    var bEl = el.querySelector(".hby-b"), dEl = el.querySelector(".hby-d");
+    if (t === _basYaziSon && el.classList.contains("gor")) return;
+    _basYaziSon = t;
+    var bEl = el.querySelector(".hby-b");
     bEl.textContent = t;
-    dEl.textContent = d;
-    dEl.style.display = d ? "" : "none";
     el.classList.add("gor");
-    // sığdır: önce punto küçülür, sonra metin satır sınırıyla kesilir
-    // Kısa harita (yatay telefon + kronoloji açık: 406×291 ölçüldü, 26 Kasım): %34 tavanda metnin
-    // 142/260'ı tek satıra düşüyordu. Olay yeri zaten üst %20'de (odakOfseti) ⇒ harita 480 px'ten
-    // kısaysa alt yazı haritanın alt %60'ını kullanır, üstteki %40 olay yerine kalır. Uzun harita
-    // (dikey) %34'te kalır. Başlık en çok 2 satır (CSS .hby-b); dolgu da kısa haritada daralır.
-    var hH = h.clientHeight, kisa = hH < 480;
-    el.classList.toggle("kisa", kisa);
-    var tavan = Math.floor(hH * (kisa ? 0.6 : 0.34));
-    el.style.maxHeight = tavan + "px";
-    dEl.style.webkitLineClamp = "";
-    if (d) dEl.style.display = "";
-    var pt = 15;
+    // Başlık KESİLMESİN: 2 satıra sığana kadar punto 16 → 12 px iner; yine sığmazsa 4 satıra
+    // kadar izin verilir (dar harita: telefon + kronoloji açık, 188 px), ancak o da aşılırsa "…".
+    var pt = 16;
+    bEl.style.webkitLineClamp = "unset";
     el.style.fontSize = pt + "px";
-    while (el.scrollHeight > tavan && pt > 11) { pt -= 1; el.style.fontSize = pt + "px"; }
-    if (el.scrollHeight > tavan && d) {
-      var cs = getComputedStyle(el), bs = getComputedStyle(bEl);
-      var kalan = tavan - bEl.offsetHeight - parseFloat(bs.marginBottom || 0)
-                  - parseFloat(cs.paddingTop || 0) - parseFloat(cs.paddingBottom || 0);
-      var satir = Math.floor(kalan / (parseFloat(getComputedStyle(dEl).lineHeight) || pt * 1.3));
-      if (satir >= 1) dEl.style.webkitLineClamp = String(satir);
-      else dEl.style.display = "none";            // başlığa bile yer yetmiyorsa metin hiç basılmaz
-    }
+    var satirSay = function () { return Math.round(bEl.scrollHeight / (pt * 1.3)); };
+    while (satirSay() > 2 && pt > 12) { pt -= 1; el.style.fontSize = pt + "px"; }
+    bEl.style.webkitLineClamp = String(Math.min(4, Math.max(2, satirSay())));
     if (_basYaziZaman) clearTimeout(_basYaziZaman);
-    // Okuma süresi: 4 sn + harf başına 55 ms, en çok 20 sn (sonraki madde gelince zaten değişir).
-    var sure = Math.min(20000, 4000 + (t.length + d.length) * 55);
+    // Okuma süresi: 3 sn + harf başına 60 ms, en çok 8 sn (sonraki madde gelince zaten değişir).
+    var sure = Math.min(8000, 3000 + t.length * 60);
     _basYaziZaman = setTimeout(function () { el.classList.remove("gor"); _basYaziZaman = null; }, sure);
   } catch (e) { /* yazı şart değil */ }
 }
