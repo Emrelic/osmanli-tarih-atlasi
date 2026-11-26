@@ -1785,7 +1785,6 @@ Ceviri.ekle("bg","arayuz",{
 "yüklenemedi — bölgeler çizilemedi, metin duruyor":["не се зареди — областите не можаха да се изчертаят, текстът остава", "b9872108"],
 "yükleniyor…":["зарежда се…", "91b0563c"],
 "yıl":["година", "8252e04d"],
-"yıl kaynakta yok (# yer tutucu)":["годината липсва в източниците (# е временен заместител)", "c1d97e14"],
 "{sonuc, olcum} yok":["{sonuc, olcum} липсва", "b16f2562"],
 "~# Kasım #":["~# ноември #", "93926cba"],
 "± # yıl":["± # години", "bda5b78f"],

@@ -1793,7 +1793,6 @@ Ceviri.ekle("sw","arayuz",{
 "yüklenemedi — bölgeler çizilemedi, metin duruyor":["haikuweza kupakiwa — kanda hazikuweza kuchorwa, maandishi yamebaki", "b9872108"],
 "yükleniyor…":["inapakia…", "91b0563c"],
 "yıl":["mwaka", "8252e04d"],
-"yıl kaynakta yok (# yer tutucu)":["mwaka haupo katika vyanzo (# ni kishikilia nafasi)", "c1d97e14"],
 "{sonuc, olcum} yok":["{sonuc, olcum} haipo", "b16f2562"],
 "~# Kasım #":["~# Novemba #", "93926cba"],
 "± # yıl":["± # miaka", "bda5b78f"],

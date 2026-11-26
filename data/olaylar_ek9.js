@@ -120,11 +120,11 @@ window.OLAYLAR_EK9 = [
 // çünkü 1741 devralması için madde yoktu. Gerçekte ada 1544'ten beri Cenevizli
 // Lomellini ailesinin elindeydi ve hiç Osmanlı idaresine girmemişti.
 
-{ onem:3, dunya:1, bolge_onem:2, puan_s:"v2", kapsam:"ic", t:"1741-06-20", k:"fetih", etiket:["toprak-kazanc","savas","konu-askeri"],
+{ onem:3, dunya:1, bolge_onem:2, puan_s:"v2", kapsam:"ic", t:"1741-06-12", k:"fetih", etiket:["toprak-kazanc","savas","konu-askeri"],
   b:"Tabarka'nın Cenevizlilerden alınması — Lomellini mercan imtiyazının sonu",
-  gun:"20 Haziran 1741", yer:"Tabarka adası, Tunus", kisiler:"Ali Paşa (Hüseynî), Lomellini ailesi",
-  d:"Cenevizli Lomellini ailesinin elindeki Tabarka adası, mercan avcılığı yapılan bir hıristiyan yerleşmesiydi. Hüseynî hânedanından Ali Paşa, ailenin adayı elden çıkarma girişimini haber alınca kuvvet gönderdi ve 20 Haziran 1741'de adayı ele geçirdi; yüzlerce kişi esir alındı. Tabarka bu tarihten sonra Tunus ocaklığının idaresine girdi.",
-  ic_not_kaynak:"post-it #194 (26 Kasım 2026): 1741-06-12 → 1741-06-20. Hollanda konsolosu Hudson'ın 26.06.1741 tarihli mektubu (Bitossi s. 235) adanın ayın 20'sinde alındığını yazar; Lomellino 18-20 Haziran verir (aralık, tam bağımsız gün teyidi sayılmaz); geç bir anonim anlatı 11 Haziran'ı anar. TDV yalnız yıl. 1544 antlaşması ve «1500 kişi» dayanaksızdı, silindi.", kaynak:"huseyniler · C. Bitossi, «Per una storia dell'insediamento genovese di Tabarca. Fonti inedite (1540-1770)», Atti della Società Ligure di Storia Patria n.s. XXXVII/2 (1997), belge 7-9, s. 235 vd. (okuma 26.11.2026)", duygu:["🎉"], yer_id:"Tabarka" },
+  gun:"12 Haziran 1741", yer:"Tabarka adası, Tunus", kisiler:"Ali Paşa (Hüseynî), Lomellini ailesi",
+  d:"Şarlken'in 1544'te Tunus beyiyle yaptığı antlaşmadan sonra Cenevizli Lomellini ailesi Tabarka adasına yerleşmiş ve iki yüz yıl boyunca mercan imtiyazını elinde tutmuştu; ada, Osmanlı Tunus'unun ortasında hıristiyan bir ticaret karakolu olarak kaldı. Hüseynî hânedanından Ali Paşa, ailenin adayı elden çıkarma girişimini haber alınca kuvvet gönderdi ve 12 Haziran 1741'de adayı ele geçirdi; bin beş yüz kadar hıristiyan Tunus'a nakledildi. Tabarka bu tarihten sonra Tunus ocaklığının idaresine girdi.",
+  kaynak:"huseyniler", duygu:["🎉"], yer_id:"Tabarka" },
 
 // ---------------------------------------------------------------------------
 // D) BOGOS (KERENE) — Mısır'ın Habeşistan içine tek kalıcı ilerleyişi
@@ -160,10 +160,10 @@ window.OLAYLAR_EK9 = [
 // gereksiz kılar; yerleşim kaydı 1840-01-01'e çekildi.
 
 { onem:3, dunya:1, bolge_onem:2, puan_s:"v2", kapsam:"ic", t:"1840-01-01", k:"fetih", etiket:["toprak-kazanc","konu-askeri"],
-  b:"Taka seferi ve Kesela merkezinin kuruluşu",
+  b:"Taka bölgesinin fethi ve Kesela'nın kurulması",
   gun:"1840", yer:"Kesela, Taka, Atbara-Gaş havzası", kisiler:"Ahmed Paşa Ebû Vidân, Kavalalı Mehmed Ali Paşa",
-  d:"Sudan hükümdarı Ahmed Paşa Ebû Vidân'ın 1840'taki Taka seferi sırasında askerî-idarî bir merkez kuruldu; Kesela şehri bu merkezin çevresinde büyüdü. Sefer bölgedeki Hadendova'yı tam itaate alamadı.", ic_not_d:"Günü doğrulanamadığı için yıl hassasiyetinde yazılmıştır.",
-  ic_not_kaynak:"post-it #194 (26 Kasım 2026): Eski dayanak TDV «Kavalalı Mehmed Ali Paşa» Kesela'yı anmıyor. Holt'a göre sefer Hadendova'yı itaate alamadı; «Taka'nın fethi» aşırıydı. Kervan yolu, Habeş sınırı ve mudîriyet iddialarına dayanak bulunamadı, silindi.", kaynak:"kesela · P. M. Holt, «Egypt and the Nile valley», J. E. Flint (ed.), The Cambridge History of Africa, c. 5, 1976, s. 32 (okuma 26.11.2026)", duygu:["🎉"], yer_id:"Kesela" },
+  d:"Sudan hükümdarı Ahmed Paşa Ebû Vidân, 1840'ta Atbara ile Gaş nehirleri arasındaki Taka bölgesini Mısır idaresine bağladı ve Kesela şehrini askerî karargâh olarak kurdu. Şehir, Sennâr ile Sevâkin arasındaki kervan yolunu ve Habeş sınır kuşağını denetleyen bir mudîriyet merkezi oldu.", ic_not_d:"Günü doğrulanamadığı için yıl hassasiyetinde yazılmıştır.",
+  kaynak:"kavalali-mehmed-ali-pasa", duygu:["🎉"], yer_id:"Kesela" },
 
 // ===========================================================================
 // İKİNCİ PARTİ (hatalar 11 · md.18/41/42/43/44/51/56)

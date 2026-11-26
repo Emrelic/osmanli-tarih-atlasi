@@ -1,0 +1,135 @@
+diff --git a/arac/uret_petek.py b/arac/uret_petek.py
+index e0d9d3a..4366750 100644
+--- a/arac/uret_petek.py
++++ b/arac/uret_petek.py
+@@ -3569,6 +3569,108 @@ _ag = linemerge(unary_union(_dis_halkalar))
+ _kenarlar = list(_ag.geoms) if _ag.geom_type == "MultiLineString" else [_ag]
+ print(f"  {len(_kenarlar)} kenar")
+ 
++# ═══ 〰 ZİKZAK DÜZLEŞTİRME — MOTOR3-1016 (#11 Rodoplar/Kırcaali · Emre geliştirici notu) ═══
++# `MOTOR_ZIKZAK_DUZ=1` (tolerans `MOTOR_ZIKZAK_TOL`, derece, varsayılan 0,05 = 1
++# ızgara hücresi). Bayrak yoksa HİÇBİR şey çalışmaz ⇒ çıktı bit bit aynı.
++# Ölçülen kusur (Emre notu #11): Bizans–Bulgar ortak sınırı kıvrım oranı 2,5,
++# 60°'den sert 11 dönüş; köşeler 0,05° ızgarada. Yaslanacak doğal hat (nehir
++# 0,30° · sırt 0,35°) yoksa kenar, yürüyüş ızgarasının merdivenini taşır;
++# `coverage_simplify` (0,05 + 0,012) merdiveni topolojiyi koruyarak atamaz.
++# YÖNTEM — ORTAK KENAR AĞINDA, kenar başına TEK kopya (örtü bütünlüğü yapısal):
++#   yaslamanın KIPIRDATMADIĞI köşe dizileri Douglas-Peucker (tolerans) ile
++#   sadeleşir; yaslanmış köşe, düğüm ve çerçeve köşesi SABİTTİR (nehre/sırta
++#   yaslanmış kesim hiç değişmez). Kabul şartları (biri tutmazsa kenar ESKİ
++#   hâlinde kalır, sayılır): ① yeni kenar kendini kesmez ② başka hiçbir kenarı
++#   düğüm dışında kesmez (önceden de kesiyorsa o çift yaslamanın kusurudur,
++#   sayılmaz) ③ eski ile yeni arasındaki süpürülen alanda TOHUM yok (petek
++#   noktasını kaybetmez). Sıra sabit (kenar sırası) ⇒ belirlenimci.
++ZIKZAK_DUZ = os.environ.get("MOTOR_ZIKZAK_DUZ") == "1"
++ZIKZAK_TOL = float(os.environ.get("MOTOR_ZIKZAK_TOL", "0.05") or "0.05")
++_ZZ_CS = {}
++_ZZ_SAYAC = {"aday": 0, "dizi": 0, "duzlesen": 0, "red_basit": 0, "red_kesisme": 0,
++             "red_tohum": 0, "kose_once": 0, "kose_sonra": 0}
++
++
++def _zz_tohum_supur(a, b, tohumlar, agac):
++    """a ile b (uçları ortak) arasında kalan alan bir tohum içeriyor mu?"""
++    hl = list(a) + list(b)[::-1]
++    if len(hl) < 4:
++        return False
++    try:
++        pg = shapely.make_valid(Polygon(hl))
++    except Exception:
++        return True
++    if pg.is_empty:
++        return False
++    return any(pg.contains(tohumlar[int(q)]) for q in agac.query(pg))
++
++
++def _zz_yalniz_uc(x, uc):
++    """Kesişim boş mu, ya da yalnız iki uç düğümden mi ibaret?"""
++    for p in shapely.get_parts(x):
++        if p.is_empty:
++            continue
++        if p.geom_type != "Point" or min(p.distance(uc[0]), p.distance(uc[1])) > 1e-12:
++            return False
++    return True
++
++
++def _zikzak_ag_duzle(puruzsuz, kayit, tol, tohumlar, tohum_agac, say=None):
++    """kayit {kenar sırası: (ham_cs, yaslanmış_cs)} · puruzsuz: son (Chaikin'li)
++    kenarlar. Döner YENİ liste; `puruzsuz` değişmez."""
++    say = _ZZ_SAYAC if say is None else say
++    out = list(puruzsuz)
++    zarf = STRtree([LineString(kayit[k][1]) if k in kayit else out[k]
++                    for k in range(len(out))])
++    for k in sorted(kayit):
++        ham, cs = kayit[k]
++        n = len(cs)
++        sabit = sorted({0, n - 1} | {i for i in range(1, n - 1)
++                                     if cs[i] != ham[i] or _kutuda(*cs[i])})
++        yeni = [cs[0]]
++        degisti = False
++        for a, b in zip(sabit, sabit[1:]):
++            run = cs[a:b + 1]
++            if len(run) > 2:
++                sad = list(LineString(run).simplify(tol, preserve_topology=False).coords)
++                if len(sad) < len(run) and not _zz_tohum_supur(run, sad, tohumlar, tohum_agac):
++                    yeni += sad[1:]
++                    degisti = True
++                    say["dizi"] += 1
++                    continue
++            yeni += run[1:]
++        if not degisti:
++            continue
++        say["aday"] += 1
++        Ln = LineString(chaikin_acik(yeni, 2))
++        Lo = out[k]
++        if not Ln.is_simple:
++            say["red_basit"] += 1
++            continue
++        uc = (Point(cs[0]), Point(cs[-1]))
++        temiz_ = True
++        for q in zarf.query(Ln).tolist():
++            if q == k:
++                continue
++            if _zz_yalniz_uc(Ln.intersection(out[q]), uc):
++                continue
++            if not _zz_yalniz_uc(Lo.intersection(out[q]), uc):
++                continue                     # önceden de kesişiyordu — yaslamanın kusuru
++            temiz_ = False
++            break
++        if not temiz_:
++            say["red_kesisme"] += 1
++            continue
++        if _zz_tohum_supur(list(Lo.coords), list(Ln.coords), tohumlar, tohum_agac):
++            say["red_tohum"] += 1
++            continue
++        say["kose_once"] += len(Lo.coords)
++        say["kose_sonra"] += len(Ln.coords)
++        out[k] = Ln
++        say["duzlesen"] += 1
++    return out
++
++
+ asama("Kenarlar doğal hatlara yaslanıp yumuşatılıyor")
+ _puruzsuz = []
+ for _kn_i, ln in enumerate(_kenarlar, 1):
+@@ -3579,8 +3681,21 @@ for _kn_i, ln in enumerate(_kenarlar, 1):
+     bas, son = cs[0], cs[-1]
+     cs = dogal_hatta_yasla(sikla(cs))
+     cs[0], cs[-1] = bas, son                     # düğümler sabit: komşu kenarlar aynı noktada buluşur
++    if ZIKZAK_DUZ:
++        _ZZ_CS[_kn_i - 1] = (sikla(list(ln.coords)), list(cs))
+     _puruzsuz.append(LineString(chaikin_acik(cs, 2)))
+ 
++if ZIKZAK_DUZ:
++    asama("Kenar zikzak düzleştirme (MOTOR_ZIKZAK_DUZ)")
++    _zz_t = time.time()
++    _puruzsuz = _zikzak_ag_duzle(_puruzsuz, _ZZ_CS, ZIKZAK_TOL, noktalar, _SEED_AGACI)
++    print(f"  〰 zikzak (tolerans {ZIKZAK_TOL:g}°): düzleşen kenar {_ZZ_SAYAC['duzlesen']:,} / "
++          f"aday {_ZZ_SAYAC['aday']:,} · köşe {_ZZ_SAYAC['kose_once']:,} → "
++          f"{_ZZ_SAYAC['kose_sonra']:,} · RED kendini kesen {_ZZ_SAYAC['red_basit']:,} · "
++          f"kenar kesen {_ZZ_SAYAC['red_kesisme']:,} · tohum süpüren {_ZZ_SAYAC['red_tohum']:,} · "
++          f"{time.time() - _zz_t:.1f} sn")
++    del _ZZ_CS
++
+ asama("Hücreler geri kuruluyor (polygonize)")
+ # ⚠️ ULP kuralı: bütün yüzler TEK bir polygonize'dan çıkmalı ve hücreler
+ # coverage_union_all ile (yeniden düğümleme YAPMADAN) birleştirilmeli. Yüz yüz

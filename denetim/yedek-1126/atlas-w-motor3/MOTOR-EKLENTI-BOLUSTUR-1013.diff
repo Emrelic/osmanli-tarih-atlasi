@@ -1,0 +1,125 @@
+diff --git a/arac/uret_petek.py b/arac/uret_petek.py
+index 37e4aec..048aab8 100644
+--- a/arac/uret_petek.py
++++ b/arac/uret_petek.py
+@@ -6723,6 +6723,10 @@ _ONB_GOVDE_TUZ = _hlo.sha256(shapely.to_wkb(KARA, output_dimension=2)).digest()
+ #    sıfıra İNMEZ (zaman kesiti + Osmanlı/tâbi/himaye gövdeleri bu yamada yok).
+ _SAHIP_EZBER = {}
+ _KOMSU_CIKAR_SAYAC = {"govde": 0, "kesilen_birim2": 0.0, "bosaldi": 0}
++# EKLENTI-BOLUSTUR-1013 (işlev `_komsu_toprak_cikar`ın hemen altında)
++EKLENTI_BOLUSTUR = os.environ.get("MOTOR_EKLENTI_BOLUSTUR_KAPALI") != "1"
++EKLENTI_PAY_DERECE = 3.0
++_EKLENTI_SAYAC = {"govde": 0, "kesilen_birim2": 0.0, "bosaldi": 0, "hata": 0}
+ 
+ 
+ def _gun_sahipleri(a):
+@@ -6771,14 +6775,91 @@ def _komsu_toprak_cikar(did, aktif, a, g):
+         if h is None or h.is_empty or not h.intersects(g):
+             continue
+         diger.append(h)
+-    if not diger:
++    if diger:
++        once = g.area
++        g2 = poligonal(temiz(g.difference(unary_union(diger))))
++        _KOMSU_CIKAR_SAYAC["govde"] += 1
++        _KOMSU_CIKAR_SAYAC["kesilen_birim2"] += max(0.0, once - g2.area)
++        if g2.is_empty:
++            _KOMSU_CIKAR_SAYAC["bosaldi"] += 1
++    else:
++        g2 = g
++    # 🆕 EKLENTI-BOLUSTUR-1013 — petek çıkarma bittikten sonra, kalan EKLENTİ
++    # (kendi peteklerinin dışında kalan kapama/B2/B3/dolgu toprağı) en yakın
++    # sahibe bölüştürülür (aşağıdaki işlev). Kapalıyken g2 == eski dönüş.
++    if EKLENTI_BOLUSTUR and g2 is not None and not g2.is_empty:
++        g2 = _eklenti_bolustur(did, aktif, a, g2)
++    return g2
++
++
++# ═══ 🆕 EKLENTI-BOLUSTUR-1013 — "KAPAMA-DIŞI" ÇAKIŞMA SINIFI (Emre onayı 13 Eki) ═══
++# KUSUR (ölçüldü, KUTU-HUKUM-SIRADA-B-1012: 0072/H-0005 · 0074/H-0008 · 0075/
++# H-0011,H-0024 · 0076/H-0069,H-0072 · 0077/H-0013): GOVDE-CAKISMA-0079 gövdeden
++# komşunun PETEĞİNİ çıkarıyor; ama çakışmanın kalan kısmı HİÇBİR devletin
++# peteğinde değil — iki devletin kendi ekleme adımlarının (kapat · B2 · B3 ·
++# dolgu) ürettiği, nokta ya da petek bulunmayan toprakta: Hadramut kesiri ×
++# Kuaytî (%2,76 · 249 hücre) · Karadağ × Osmanlı 1830/1850 (%1,48 · 577/611
++# hücre) · Bulgaristan × Sırbistan/vassal (361 hücre) · Silistre-Eflak
++# macaristan × vassal (97) · kuzey Amerika küçük devletler (dene × ingiliz-
++# kuzey-amerika 626 …). Çıkaracak "komşu peteği" olmadığından
++# `_komsu_toprak_cikar` bu sınıfa kördür.
++# ÇARE: eklenti E = gövde − kendi `aktif` petek birleşimi. E, o gün SAHİBİ olan
++# yerleşim noktalarının Voronoi'sinde YALNIZ kendi noktalarının hücrelerine
++# düşen kısmı kadar korunur (en yakın sahipli nokta kimindir, o alır).
++# ⇒ iki devletin eklentisi birbirinin hücresine giremez: çakışma YAPISAL olarak
++#   sıfır (hücreler ayrık), petek içi (gövde ∩ ∪aktif) hiç değişmez.
++# ⚠️ BİLİNEN BEDELLER (ölçülmeden yazıldı — koşuda sayaç basılır):
++#   ① eklentinin kimseye ait olmayan kenarı geri çekilebilir: komşu o parçayı
++#      kendi eklentisiyle doldurmuyorsa orası BOYASIZ kalır (yanlış iddianın geri
++#      çekilmesi, ama "beyaz alan" sayısı artabilir — `_EKLENTI_SAYAC`).
++#   ② Voronoi derece uzayında (enlem düzeltmesiz) — petek motoruyla aynı uzay.
++#   ③ yalnız bu işlevin 3 çağrı yeri (yabancı gövde önbellek-okuma · sıralı yol ·
++#      Osmanlı g/gt) kapsanır; `himaye_govdeleri` kapsam dışı.
++#   ④ tek sahipli çevrede (kutuda 2'den az farklı sahip) hiçbir şey yapılmaz.
++# Kapatma anahtarı: MOTOR_EKLENTI_BOLUSTUR_KAPALI=1 ⇒ eski davranış bit-bit.
++# 📌 ÖNBELLEK: çıkarma okumadan SONRA uygulanır (anahtar değişmez); zaten motor
++#    dosyası değiştiği için tuz tam yeniden inşayı gerektirir.
++def _eklenti_bolustur(did, aktif, a, g):
++    pe = petek_epok(a)
++    own = [pe[j] for j in aktif if pe[j] is not None and not pe[j].is_empty]
++    if not own:
++        return g
++    ic = unary_union(own)
++    ek = poligonal(temiz(g.difference(ic)))
++    if ek.is_empty or ek.area <= 1e-9:
++        return g
++    kim = _gun_sahipleri(a)
++    x0, y0, x1, y1 = ek.bounds
++    m = EKLENTI_PAY_DERECE
++    aks = aktif if isinstance(aktif, (set, frozenset)) else set(aktif)
++    nokta, sahip = [], []
++    for q in _TUM_AGAC.query(box(x0 - m, y0 - m, x1 + m, y1 + m)):
++        j = int(q)
++        k = did if j in aks else kim.get(j)
++        if k is None:
++            continue
++        nokta.append(noktalar[j])
++        sahip.append(k)
++    if len(nokta) < 3 or len(set(sahip)) < 2 or did not in sahip:
+         return g
+-    once = g.area
+-    g2 = poligonal(temiz(g.difference(unary_union(diger))))
+-    _KOMSU_CIKAR_SAYAC["govde"] += 1
+-    _KOMSU_CIKAR_SAYAC["kesilen_birim2"] += max(0.0, once - g2.area)
++    try:
++        hucre = shapely.voronoi_polygons(MultiPoint(nokta),
++                                         extend_to=box(x0 - 2 * m, y0 - 2 * m,
++                                                       x1 + 2 * m, y1 + 2 * m))
++        agac = STRtree(nokta)
++        benim = [h for h in hucre.geoms
++                 if sahip[int(agac.nearest(h.representative_point()))] == did]
++    except Exception:
++        _EKLENTI_SAYAC["hata"] += 1
++        return g
++    bolge = unary_union(benim) if benim else Polygon()
++    ek2 = poligonal(temiz(ek.intersection(bolge))) if not bolge.is_empty else Polygon()
++    g2 = poligonal(temiz(unary_union([g.intersection(ic), ek2])))
++    _EKLENTI_SAYAC["govde"] += 1
++    _EKLENTI_SAYAC["kesilen_birim2"] += max(0.0, g.area - g2.area)
+     if g2.is_empty:
+-        _KOMSU_CIKAR_SAYAC["bosaldi"] += 1
++        _EKLENTI_SAYAC["bosaldi"] += 1
++        return g
+     return g2
+ 
+ 
+@@ -7322,6 +7403,11 @@ else:
+ print(f"  🧱 GOVDE-CAKISMA-0079 komşu toprağı çıkarıldı: {_KOMSU_CIKAR_SAYAC['govde']} gövde-dönem · "
+       f"{_KOMSU_CIKAR_SAYAC['kesilen_birim2']:,.2f} birim² · tamamen boşalan {_KOMSU_CIKAR_SAYAC['bosaldi']}"
+       "  (süreç yolunda yalnız ANA sürecin payı sayılır)")
++print(f"  🧱 EKLENTI-BOLUSTUR-1013: "
++      f"{'KAPALI (MOTOR_EKLENTI_BOLUSTUR_KAPALI=1) ' if not EKLENTI_BOLUSTUR else ''}"
++      f"{_EKLENTI_SAYAC['govde']} gövde-dönem · "
++      f"{_EKLENTI_SAYAC['kesilen_birim2']:,.2f} birim² geri çekildi · boşalan {_EKLENTI_SAYAC['bosaldi']} · "
++      f"voronoi hatası {_EKLENTI_SAYAC['hata']}  (öngörü: hata 0; süreç yolunda yalnız ANA sürecin payı)")
+ # 🔴 `devletler_harita.js` YAZIMI ERTELENDİ — B (seyreltme) yüzünden.
+ # Seyreltmenin dondurma kümesi OSMANLI sınırını da içermeli, ama Osmanlı
+ # gövdeleri aşağıdaki "Dönemler" döngüsünde kuruluyor. Dosya burada

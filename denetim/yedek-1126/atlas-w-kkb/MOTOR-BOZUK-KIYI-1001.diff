@@ -1,0 +1,38 @@
+# MOTOR-BOZUK-KIYI-1001 — BOZUK_KIYI_TABAN 58 -> 22
+#
+# Tam insa kosusunda, oteki motor yamalariyla TEK SEFERDE uygulanir
+# (CLAUDE.md §9.1 madde 2). Kosular arasi UYGULANMAZ: uret_petek.py
+# onbellek tuzundadir, dokunmak butun anahtarlari gecersiz kilar.
+#
+# 🔴 1 Ekim 2026 — YENIDEN URETILDI. Iki kusuru vardi, ikisi de olculdu:
+#
+# ① SIFIR BAGLAM (KOSU-UMIT olctu). Eski hali `@@ -4083 +4083 @@`:
+#      ciplak `git apply --check`   -> 1 REDDEDILDI
+#      `--check --unidiff-zero`     -> 0 TEMIZ
+#    Icerik kusuru YOKTU, BICIM kusuru vardi. Ve sifir baglamli yama satir
+#    NUMARASINA baglidir: 4083 kayarsa yanlis satira iner, --check gormez.
+#    Artik 3 baglam satiri var; oteki 17 yamayla AYNI kapidan gecer.
+#
+# ② WORKTREE'DEN URETILMISTI. Bu makinede core.autocrlf yuzunden
+#    `arac/uret_petek.py` worktree'de CRLF, indekste LF. Yama artik
+#    INDEKSten uretiliyor (git show :<yol>) ⇒ LF, kanonik.
+#    ⚠️ Ve bunu bulan sey bir SIGORTAYDI, dikkat degil: `cat -A` bu dosya
+#      icin ^M GOSTERMEDI (MSYS araci CR'i yutuyor), Python ikili okuyup
+#      CR buldu. `D246`: git/kabuk araclari satir sonu konusunda YANILTIR;
+#      hukum ikili okumadan verilir.
+#
+# SINAV (bu yama icin kosuldu, iki yonde):
+#   git apply --cached --check      -> 0  (uygulanabilir)
+#   git apply --cached --check -R   -> 1  (henuz uygulanmamis)
+
+--- a/arac/uret_petek.py
++++ b/arac/uret_petek.py
+@@ -4080,7 +4080,7 @@
+ # 📌 ONCELIK.md K4'un yeni bir yuzu: OLCMEDEN VERILEN ONERI DE UC TUR DEMEK.
+ #   Uygulansaydi ek17/ek18 gibi `bolge` dolgusu bol ama kiyisi sifir
+ #   partiler yanlislikla ceza alirdi.
+-BOZUK_KIYI_TABAN = 58
++BOZUK_KIYI_TABAN = 22
+ 
+ # 🔴 NÖBETÇİ BURADA — ÇÖL TAVANINDAN ÖNCE. Bu çağrı, taban 32'yi üreten r217
+ # koşusuyla AYNI ölçümdür (kıyı kesimi + ada kuralı + kara-kısıtlı sahiplik

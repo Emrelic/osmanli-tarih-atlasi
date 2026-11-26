@@ -1,0 +1,72 @@
+diff --git a/arac/uret_petek.py b/arac/uret_petek.py
+index 048aab8..d80549d 100644
+--- a/arac/uret_petek.py
++++ b/arac/uret_petek.py
+@@ -6727,6 +6727,45 @@ _KOMSU_CIKAR_SAYAC = {"govde": 0, "kesilen_birim2": 0.0, "bosaldi": 0}
+ EKLENTI_BOLUSTUR = os.environ.get("MOTOR_EKLENTI_BOLUSTUR_KAPALI") != "1"
+ EKLENTI_PAY_DERECE = 3.0
+ _EKLENTI_SAYAC = {"govde": 0, "kesilen_birim2": 0.0, "bosaldi": 0, "hata": 0}
++# ═══ 🆕 COL-GIRINTI-1013 — ÇÖL DOLGUSU GİRİNTİ YUMUŞATMA (0034/H-0028 · 0035/H-0047) ═══
++# EMRE (13 Eki 2026): çöl boş-arazi dolgusu VE 200 km tavan KALIR ("tavan/dolgu
++# yapısını iptal" kararı verilmedi); yalnız tavan dairelerinin komşu noktalar
++# arasında bıraktığı GİRİNTİ (tarak/yuvarlak çentik) yumuşatılır.
++# Ölçü (KUTU-HUKUM-ESKI2-1012): 1611-03-25 Osmanlı Libya kutusu 1.275.338 km2,
++# 200 km üstü 27.896 km2 (%2,2) · 1821-01-04 Dongola tâbi 37.305 km2.
++# YÖNTEM: gövdeye morfolojik kapama (`kapat`, yarıçap COL_GIRINTI_DERECE) uygulanır;
++# eklenen kısım YALNIZ çöl poligonu (`COL`) ∩ kara içinde tutulur — çöl dışı kıyı
++# ve vadi kenarı hiç oynamaz (yapısal: ekleme `COL` ile kesişimden türer).
++# Eklenen toprak komşu peteğini/eklentisini ÇIKARMA aşamasında (altta) tekrar
++# kesilir ⇒ yeni çakışma doğmaz. Dolgu/tavan sayıları DEĞİŞMEZ.
++# 🟡 ÖLÇÜLMEDEN YAZILDI: yarıçap 0,5° (~55 km ⇒ ≤~110 km genişlikteki girinti
++#    kapanır). Koşuda `_COL_GIRINTI_SAYAC` basılır; eklenen alan gövde alanının
++#    %COL_GIRINTI_TAVAN_ORAN'ını aşarsa o gövde DEĞİŞTİRİLMEZ (sigorta).
++# Kapatma anahtarı: MOTOR_COL_GIRINTI_KAPALI=1 ⇒ eski davranış bit-bit.
++COL_GIRINTI_YUMUSAT = os.environ.get("MOTOR_COL_GIRINTI_KAPALI") != "1"
++COL_GIRINTI_DERECE = 0.5
++COL_GIRINTI_TAVAN_ORAN = 0.20
++_COL_GIRINTI_SAYAC = {"govde": 0, "eklenen_birim2": 0.0, "sigorta": 0, "hata": 0}
++
++
++def _col_girinti_yumusat(g):
++    if COL is None or g is None or g.is_empty:
++        return g
++    try:
++        k = kapat(g, yaricap=COL_GIRINTI_DERECE)
++        ek = poligonal(temiz(k.difference(g).intersection(COL).intersection(KARA)))
++        if ek.is_empty or ek.area <= 1e-9:
++            return g
++        if ek.area > COL_GIRINTI_TAVAN_ORAN * g.area:
++            _COL_GIRINTI_SAYAC["sigorta"] += 1
++            return g
++        g2 = poligonal(temiz(unary_union([g, ek])))
++    except Exception:
++        _COL_GIRINTI_SAYAC["hata"] += 1
++        return g
++    _COL_GIRINTI_SAYAC["govde"] += 1
++    _COL_GIRINTI_SAYAC["eklenen_birim2"] += max(0.0, g2.area - g.area)
++    return g2
+ 
+ 
+ def _gun_sahipleri(a):
+@@ -6759,6 +6798,10 @@ def _komsu_toprak_cikar(did, aktif, a, g):
+     """`g`den, `a` gününde başka sahibi olan yerleşimlerin peteğini çıkarır."""
+     if g is None or g.is_empty:
+         return g
++    # 🆕 COL-GIRINTI-1013 — komşu çıkarmadan ÖNCE: ekleme çöl dolgusu girintisi
++    # yumuşatılır, sonra komşu peteği/eklenti bölüşümü yeni kenarı da keser.
++    if COL_GIRINTI_YUMUSAT:
++        g = _col_girinti_yumusat(g)
+     kim = _gun_sahipleri(a)
+     pe = petek_epok(a)
+     x0, y0, x1, y1 = g.bounds
+@@ -7408,6 +7451,10 @@ print(f"  🧱 EKLENTI-BOLUSTUR-1013: "
+       f"{_EKLENTI_SAYAC['govde']} gövde-dönem · "
+       f"{_EKLENTI_SAYAC['kesilen_birim2']:,.2f} birim² geri çekildi · boşalan {_EKLENTI_SAYAC['bosaldi']} · "
+       f"voronoi hatası {_EKLENTI_SAYAC['hata']}  (öngörü: hata 0; süreç yolunda yalnız ANA sürecin payı)")
++print(f"  🏜 COL-GIRINTI-1013: "
++      f"{'KAPALI (MOTOR_COL_GIRINTI_KAPALI=1) ' if not COL_GIRINTI_YUMUSAT else ''}"
++      f"{_COL_GIRINTI_SAYAC['govde']} gövde-dönem · +{_COL_GIRINTI_SAYAC['eklenen_birim2']:,.2f} birim² · "
++      f"sigorta {_COL_GIRINTI_SAYAC['sigorta']} · hata {_COL_GIRINTI_SAYAC['hata']}  (öngörü: hata 0)")
+ # 🔴 `devletler_harita.js` YAZIMI ERTELENDİ — B (seyreltme) yüzünden.
+ # Seyreltmenin dondurma kümesi OSMANLI sınırını da içermeli, ama Osmanlı
+ # gövdeleri aşağıdaki "Dönemler" döngüsünde kuruluyor. Dosya burada

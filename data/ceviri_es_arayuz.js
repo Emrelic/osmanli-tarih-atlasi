@@ -1923,7 +1923,6 @@ Ceviri.ekle("es","arayuz",{
 "yüklenemedi — bölgeler çizilemedi, metin duruyor":["no se pudo cargar — no se dibujaron las regiones, el texto permanece", "b9872108"],
 "yükleniyor…":["cargando…", "91b0563c"],
 "yıl":["año", "8252e04d"],
-"yıl kaynakta yok (# yer tutucu)":["año ausente en las fuentes (# es un marcador provisional)", "c1d97e14"],
 "zafer":["victoria", "dd948d11"],
 "{sonuc, olcum} yok":["faltan {sonuc, olcum}", "b16f2562"],
 "~# Kasım #":["~# de noviembre de #", "93926cba"],

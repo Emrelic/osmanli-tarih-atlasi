@@ -1,6 +1,8 @@
 /* ÇEVİRİ es · olay — arac/ceviri.py ile YAZILDI, elle düzenleme: py arac/ceviri.py uygula.
    Kayıt: id → [metin, kaynak_ozet] (olayda alan başına). Tasarım: denetim/CEVIRI-1103/TASARIM.md */
 Ceviri.ekle("es","olay",{
+"OLAYLAR_T5_1000A:1175-01-01:0":{"b": ["Kılıçarslan II tomó Sivas y Niksar a los danishmendíes", "584575bb"], "d": ["Tras la muerte de Nur al-Din Zengi, Kılıçarslan II conquistó en el verano de 1175 Sivas, Niksar, Tokat y los demás territorios danishmendíes; la rama de Sivas llegó a su fin.", "c8092aea"]},
+"OLAYLAR_T5_1000A:1178-10-25:0":{"b": ["Kılıçarslan II tomó Malatya; terminó la rama danishmendí", "3bdbb060"], "d": ["Tras un asedio de cuatro meses, Malatya pasó a los selyúcidas y la rama danishmendí de Malatya llegó a su fin.", "b92d6ebb"]},
 "OLAYLAR_T5_1000A:1183-04-29:0":{"b": ["Saladino tomó Amid y la entregó al artúquida Nur al-Din Muhammad", "8c3cc7bb"], "d": ["Saladino (Salah al-Din al-Ayyubi) sitió y tomó Amid, y se la entregó al emir artúquida de Hasankeyf, Nur al-Din Muhammad; los Inaloğulları llegaron a su fin.", "b16cdda4"]},
 "OLAYLAR_T5_1000A:1184-01-01:0":{"b": ["Rubén III recuperó Adana de manos de los cruzados", "e9876f85"], "d": ["El rupénida Rubén III recuperó en 1184 Misis, Adana y Tel Hamdun, que tras Mleh habían pasado durante un tiempo a los cruzados.", "177b5432"]},
 "OLAYLAR_T5_1000A:1190-01-01:0":{"b": ["Tikrit pasó a los abasíes", "e8f5aeac"], "d": ["Tras el dominio begteginí, la ciudad pasó a la administración del califato abasí.", "f91cfb0d"]},

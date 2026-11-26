@@ -1,0 +1,37 @@
+diff --git a/arac/renkler.py b/arac/renkler.py
+index d171904..a782701 100644
+--- a/arac/renkler.py
++++ b/arac/renkler.py
+@@ -534,7 +534,9 @@ BOYALAR = {
+     "surakarta":               ("Surakarta Sunanlığı",                "#183ccc"),
+     "sarawak-brooke":          ("Sarawak (Brooke) Racalığı",          "#78e090"),
+     # karakoyunlu  #305d30 → #75bdf6  (toplu tur)
+-    "karakoyunlu": ("Karakoyunlular", "#e018e0"),
++    # TAM-INSA-PAKETI-1013: gürcistan #e020b0 ile dE76 25,7 / dE94 6,3 (Emre'nin
++    # gözü: "neredeyse aynı"); eski #e018e0 → #a000e0 (mor yönü; dE76 21,3 · dE94 12,5; renk_olc --dogrula: eşik altı komşu YOK).
++    "karakoyunlu": ("Karakoyunlular", "#a000e0"),
+     "akkoyunlu":  ("Akkoyunlular",           "#48ae48"),
+     # Irak'ın 1335-1411 penceresi `iran` battaniyesinin altındaydı: İlhanlı
+     # ile Karakoyunlu arasındaki 76 yılın sahibi yazılı değildi. Duvarlar
+@@ -3355,6 +3357,21 @@ BOYALAR = {
+     "nayman":               ("Naymanlar", "#d824b4"),
+     "koco-uygur":           ("Koço (Turfan) Uygur Devleti — İdikutlar", "#66d824"),
+ 
++    # ═══ TAM-INSA-PAKETI-1013 · D4 — künyesi OLAN, rengi OLMAYAN 5 kimlik ═══
++    # (YAMA-BOZKIR-KAZAK-0915 renk kısmı: kalmuk/kazak ·  Klaipėda/Riga: teuton +
++    #  livonya · Kartli boyası.) Kimlikler devletler.js `id:` ile BİREBİR
++    #  (öneri dosyasındaki `kalmuk`/`kazak-hetmanligi` adı `kalmuk-hanligi` olarak
++    #  düzeltildi). Bugün hiçbir yerleşim bu kimlikle `s:` yazmıyor ⇒ komşuluk
++    #  ölçülemiyor; kalmuk/kazak hex'i YAMA-BOZKIR'ın bozkır komşu kümesiyle
++    #  ölçülmüş değerdir (renk_olc --dogrula 0 eşik-altı), teuton/livonya/kartli
++    #  `renk_olc --oner` önerisidir (13 Eki 2026, ΔE ≥ 13,9). s: verisi inince
++    #  `py arac/renk_olc.py --dogrula` YENİDEN koşulmalı.
++    "kalmuk-hanligi":       ("Kalmuk Hanlığı (Volga)", "#a4eb3b"),
++    "kazak-hetmanligi":     ("Kazak Hetmanlığı (Hetmanat)", "#c73beb"),
++    "teuton-devleti":       ("Töton Şövalyeleri Devleti (Prusya)", "#6c24d8"),
++    "livonya-tarikati":     ("Kılıç Kardeşleri / Livonya Tarikatı", "#6cd824"),
++    "kartli-kralligi":      ("Kartli Krallığı", "#7224d8"),
++
+ }
+ 
+ 
