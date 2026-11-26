@@ -144,15 +144,20 @@
   /* 24 Kasım (Emre): dikeyde tarih/şehir kutusu daha kısa (en çok 8,5 em); artan yer boşluk kalır. */
   #zamanbar #git-grup { flex: 0 1 8.5em; }
   #zamanbar #ucus-grup { margin-left: auto; }
-  #govde { flex-direction: column; }
-  /* 22 Kasım: oynatma şeridi tek satıra indi (−39 px); kazanılan yer haritaya değil kronolojiye. */
-  #sol-govde { flex: 0 0 41dvh; min-height: 0; }
+  /* 25 Kasım (Emre): dikeyde de kronoloji SAĞDA (önceden haritanın altındaydı); ▾ Kronoloji
+     kapatınca harita tam ekran. Solda harita %50 · sağda kronoloji + detay %50. */
+  #govde { flex-direction: row; }
+  #sol-govde { flex: 0 0 50%; min-width: 0; min-height: 0; }
   #yanpanel, #yanpanel.dar {
-    flex: 1 1 0; min-height: 0; width: auto;
-    border-left: none; border-top: var(--ayirac) solid var(--altin);
+    flex: 1 1 0; min-width: 0; min-height: 0; width: auto;
+    border-top: none; border-left: var(--ayirac) solid var(--altin);
   }
-  #yanpanel.katli { flex: 0 0 0; border-top: none; }
+  #yanpanel.katli { flex: 0 0 0; border-left: none; }
   #zamanbar { border-top-width: 3px; }
+  /* Harita sütunu ~190 px: üst çubuk ve oynatma şeridi tek satıra sığmıyor (yıl panele taşıyordu,
+     tarih kutusu 0 px'e eziliyordu) — iki satıra sarar. Kronoloji kapalıyken tek satıra döner. */
+  #ustbar, #zamanbar { flex-wrap: wrap; row-gap: 3px; }
+  #zamanbar #git-grup { flex: 1 1 0; min-width: 64px; }
 }
 
 /* Ön kamera deliği dikeyde üst çubuğun TAM ORTASINDA: sola ☰ Butonlar + ▾ Kronoloji (≈160 px),

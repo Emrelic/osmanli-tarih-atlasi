@@ -15509,6 +15509,10 @@ function panelKademeUygula(kademe, tuvaliTazele) {
     k = (localStorage.getItem("panelDar") === "1") ? "dar" : "genis";
     localStorage.setItem("panelKademe", k);
   }
+  // 25 Kasım 2026 — Emre: "mobil görünümde site açılınca kronoloji maddeleri sağda görünecek şekilde
+  // varsayılan olarak başlasın; kronoloji düğmesine basınca kapansın, tam ekran harita olsun."
+  // Telefonda açılış HER ZAMAN açık kronolojiyle; düğmeyle kapatmak yalnız o ziyaret içindir.
+  if (PANEL_DOKUNMATIK) k = "genis";
   panelKademeUygula(k, k !== "genis");
 })();
 
@@ -15519,7 +15523,7 @@ btnPanel.addEventListener("click", function () {
   var sonraki = PANEL_KADEMELER[(PANEL_KADEMELER.indexOf(simdiki) + 1) % 3];
   if (PANEL_DOKUNMATIK) sonraki = (simdiki === "kapali") ? "genis" : "kapali";
   panelKademeUygula(sonraki);
-  localStorage.setItem("panelKademe", sonraki);
+  if (!PANEL_DOKUNMATIK) localStorage.setItem("panelKademe", sonraki);
 });
 
 // Otomatik yakınlaştırma düğmesi
