@@ -14704,22 +14704,16 @@ function _ekKategoriUstYazi(tur, ad) {
 var _ekAkordeonAcik = -1;              // -1 = ana açıklama açık
 function ekAkordeonKur(kutu, satirlar) {
   var detay = document.getElementById("ob-detay");
-  var anaBaslik = document.getElementById("ob-detay-baslik");
-  if (!anaBaslik && detay && detay.parentNode) {
-    anaBaslik = document.createElement("button");
-    anaBaslik.id = "ob-detay-baslik";
-    anaBaslik.type = "button";
-    anaBaslik.className = "ek-ak-baslik ek-ak-ana";
-    anaBaslik.innerHTML = '<span class="ek-ak-etiket">📄 Açıklama</span>';
-    detay.parentNode.insertBefore(anaBaslik, detay);
-    anaBaslik.addEventListener("click", function () { _ekAkordeonAc(-1); });
-    // Küçülmüş açıklamaya tıklamak da onu geri açar ("diğer kısım küçülecek").
+  // "📄 Açıklama" başlık satırı KALDIRILDI (Emre, 26 Kasım 2026: "gerek yok,
+  // kaldıralım yer açılsın"). Küçülmüş açıklama kendisine tıklanınca, açık
+  // ek okuma satırı yeniden tıklanınca geri açılır.
+  if (detay && !detay.getAttribute("data-ak-bagli")) {
+    detay.setAttribute("data-ak-bagli", "1");
     detay.addEventListener("click", function () {
       if (detay.classList.contains("ek-ak-kucuk")) _ekAkordeonAc(-1);
     });
   }
   kutu.classList.toggle("ek-akordeon", satirlar.length > 0);
-  if (anaBaslik) anaBaslik.hidden = !satirlar.length;
   satirlar.forEach(function (s, i) {
     var bas = s.baslik || _ekSatirBasligi(s.tur, s.kart);   // PAKET-UI4: kartvizit satırı başlığını hazır getirir
     var sat = document.createElement("div");
