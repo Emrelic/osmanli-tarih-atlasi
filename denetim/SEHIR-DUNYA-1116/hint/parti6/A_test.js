@@ -1,0 +1,222 @@
+// ŞEHİR TARİHÇESİ — HINT6A_TEST · üretici: arac/sehir_tarihce.py · şema: VERI-YAPISI.md
+// Motor/denetle/site OKUMAZ — araştırma birikimi. Elle düzenleme: JSON'u düzelt, yeniden üret.
+window.SEHIR_TARIHCE_HINT6A_TEST = [
+ {
+  "id": "bikaner-p6",
+  "ad": "Bikaner",
+  "atlas_ad": "Bikaner",
+  "lat": 28.022,
+  "lon": 73.312,
+  "kat1900": 3,
+  "adlar": [
+   "Bikaner"
+  ],
+  "ilk": {
+   "t": "1488-01-01",
+   "gun": "1488",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Bikaner', https://www.britannica.com/place/Bikaner (17 Kasım 2026'da okundu; tarayıcı): Bika 1488'de şehri inşa etmeye başladı",
+   "tanik": "In 1488 he began building the city of Bikaner"
+  },
+  "kur": {
+   "t": "1488-01-01",
+   "gun": "1488",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Bikaner' (aynı madde; tarayıcı)",
+   "tanik": "In 1488 he began building the city of Bikaner"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [],
+  "ic_not": "Tek kaynak (Britannica); çift teyit aranmadı/bulunamadı: Britannica 'Bikaner' maddesi şehir inşasına 1488'de başlandığını söyler ('he' = Rao Bika, madde 'the settlement of Bika' diye adlandırır); TDV'de Bikaner maddesi yok (arama: 'bikaner' yalnız PENCAP maddesini döndürdü, şehri anlatmaz), Majumdar VI ve Sewell metinlerinde yıllı cümle bulunamadı. 'Inşasına başladı' = kuruluş başlangıcı; tamamlanma günü verilmez. Atlas noktası 1488-01-01'de racput ile başlar: kaynaklı kuruluş yılı atlas başlangıcıyla ÖRTÜŞÜR (sahip zinciri yok, uyarı beklenen); sahip (Rathore Racput) künye eşleşmesi Britannica'nın 'chieftain of Bikaner' anlatımıyla uyumlu ama sahip tanığı alınmadı."
+ },
+ {
+  "id": "broac-p6",
+  "ad": "Broaç (Bharuch)",
+  "atlas_ad": "Broaç (Bharuch)",
+  "lat": 21.7153,
+  "lon": 72.995,
+  "kat1900": 3,
+  "adlar": [
+   "Broach",
+   "Bharuch",
+   "Bhrigukaccha"
+  ],
+  "ilk": {
+   "t": "0756-01-01",
+   "gun": "756",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. IV: The Age of Imperial Kanauj (Bharatiya Vidya Bhavan), 'Rise and Fall of the Pratihara Empire' bölümü, https://archive.org/stream/ageofimperialkan04bhar/ageofimperialkan04bhar_djvu.txt (17 Kasım 2026'da okundu; tarayıcı): Broach'un Çahamana hükümdarı Bhartrivaddha 756'da üstün hükümdarı tanıyor",
+   "tanik": "Bhartrivaddha, the Chahamana ruler of Broach, in A.D. 756"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0756-01-01",
+    "t": "1281-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Majumdar (ed.), HCIP Vol. IV (Age of Imperial Kanauj), archive.org metni: 'Bhartrivaddha, the Chahamana ruler of Broach, in A.D. 756' (yalnız 756 tanığı); 756-1281 arası Broach'a özgü sahip zinciri bulunamadı",
+    "ic_not": "756'da Broach'un Çahamana (Lâta/Bharukaccha kolu) hükümdarı Bhartrivaddha'dır; bu kol devletler.js'teki 'cahamana' (Şâkambharî/Ecmîr, 682-1192) künyesiyle AYNI olduğu kaynakta söylenmediği için künye bağlanmadı. 756'dan 1281'e (525 yıl) kadar Broach'u hangi hanedanın tuttuğu (Gurjara-Pratihara, Râştrakûta, Çaulukya/Gucerât) bu oturumda kaynakla bağlanamadı; uzun aralık olduğu için BOSLUK (zorlanmış zincir yazılmadı). Boşluk doldurma merdiveni: Majumdar IV okundu (Kutch'ta 833-842 Arap çekilmesi bağlamı Broach'a özgü değil); TDV 'GUCERÂT' maddesi tam gövde tarandı, şehri yıllı cümlede anmadı; ⑤ abi merkez adayı Anhilvâda/Patan (Çaulukya) — kaynakla bağlanmadı."
+   }
+  ],
+  "olay": [],
+  "dikis_beyan": "Atlas Broaç'ı 1281-01-01'de racput ile başlatır; 756-1281 arası kaynaklı zincir bulunamadı (BOSLUK), 1281 için tanık bulunamadı, yer tutucu olay yazılmadı.",
+  "ic_not": "Tek kaynak (Majumdar IV): çift teyit bulunamadı (Britannica 'Bharuch' maddesi yalnız Gujarat Sultanlığı'na katılma, 1572 Babür ilhakı, 1685 Marathalar, 1782/1803 İngilizler tarihlerini verir: şehir anılışı daha geç; TDV'de şehir maddesi yok). Daha eski anılışlar (örn. Periplus'un Barygaza'sı, MS I. yy) bu oturumda okunamadı, yazılmadı — 756 'bulunan en erken YAZILI tanık' olarak alındı, şehrin gerçek ilk anılışı değildir; Periplus metni ayrıca aranmalı. Majumdar IV cümlesi bir Rashtrakuta-Pratihara bağlamında geçer; şehir olgusu 'Broach'un yöneticisi' anılışıdır."
+ },
+ {
+  "id": "gorakhpur-p6",
+  "ad": "Gorakhpûr",
+  "atlas_ad": "Gorakhpûr",
+  "lat": 26.76,
+  "lon": 83.373,
+  "kat1900": 3,
+  "adlar": [
+   "Gorakhpur"
+  ],
+  "ilk": {
+   "t": "1400-01-01",
+   "gun": "1400",
+   "nicelik": "kurulus",
+   "kesinlik": "onyil",
+   "kaynak": "Encyclopaedia Britannica, 'Gorakhpur', https://www.britannica.com/place/Gorakhpur (17 Kasım 2026'da okundu; tarayıcı): şehir yaklaşık 1400'de kuruldu, bir Hindu azizin adını aldı",
+   "tanik": "Gorakhpur was founded about 1400 and named for a Hindu saint"
+  },
+  "kur": {
+   "t": "1400-01-01",
+   "gun": "1400",
+   "kesinlik": "onyil",
+   "kaynak": "Encyclopaedia Britannica, 'Gorakhpur' (aynı madde; tarayıcı)",
+   "tanik": "Gorakhpur was founded about 1400 and named for a Hindu saint"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [],
+  "ic_not": "Tek kaynak (Britannica) ve 'about 1400' yaklaşıklığı (onyil kesinliği, YYYY-01-01 yer tutucu değil beyanlı yaklaşık yıl). ÇELİŞKİ UYARISI: atlas Gorakhpûr'u 1281-01-01'de delhi-sultanligi ile başlatır; bu kaynak kuruluşu ~1400 verir (atlas referans değil). Gorakhnath geleneğiyle ilişkili bir mevki daha eski olabilir; bu oturumda daha eski yazılı tanık bulunamadı (TDV'de madde yok, Majumdar IV/VI'da yıllı cümle yok). Çift teyit YOK; atlas başlangıcının 1400 civarına çekilmesi ancak ikinci bağımsız kaynakla önerilmelidir. Sahip zinciri yazılmadı (ilk.t atlas başlangıcından sonra)."
+ },
+ {
+  "id": "indor-p6",
+  "ad": "İndor (Indore)",
+  "atlas_ad": "İndor (Indore)",
+  "lat": 22.72,
+  "lon": 75.858,
+  "kat1900": 3,
+  "adlar": [
+   "Indore"
+  ],
+  "ilk": {
+   "t": "1715-01-01",
+   "gun": "1715",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Indore', https://www.britannica.com/place/Indore (17 Kasım 2026'da okundu; tarayıcı): şehir 1715'te ticaret pazarı olarak kuruldu",
+   "tanik": "Indore was founded in 1715 as a trade market on the Narmada River"
+  },
+  "kur": {
+   "t": "1715-01-01",
+   "gun": "1715",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Indore' (aynı madde; tarayıcı)",
+   "tanik": "Indore was founded in 1715 as a trade market on the Narmada River"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [],
+  "ic_not": "Tek kaynak (Britannica): çift teyit aranmadı/bulunamadı (TDV'de İndor şehri maddesi yok; arama 'indor' yalnız cebir/Hârizmî/hesap maddelerini döndürdü; Majumdar VI ve Sewell'de yıllı cümle yok). Britannica kurucuları 'yerel toprak sahipleri (local landowners)' diye verir; Indreshwar Tapınağı 1741 ve Holkar Marathaları'nın başkent yapması sonraki gelişmedir (yazılmadı: atlas dönemi sonrası/şehir olgusu). Atlas noktası 1715-01-01'de babur-imparatorlugu ile başlar: kaynaklı kuruluş yılı atlas başlangıç yılıyla ÖRTÜŞÜR (zincir yok, uyarı beklenen). Sahip öneri: bu kaynak kuruluşu yerel yapıya bağlar, Babür sahipliğini DOĞRULAMAZ; atlasın 1715 Babür sahipliği için kaynak aranmalı (ayrı iş)."
+ },
+ {
+  "id": "mirat-p6",
+  "ad": "Mîrat (Meerut)",
+  "atlas_ad": "Mîrat (Meerut)",
+  "lat": 28.984,
+  "lon": 77.706,
+  "kat1900": 3,
+  "adlar": [
+   "Meerut",
+   "Mîrat"
+  ],
+  "ilk": {
+   "t": "1203-01-01",
+   "gun": "1203",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'AYBEG, Kutbüddin', https://islamansiklopedisi.org.tr/aybeg-kutbuddin (17 Kasım 2026'da okundu; tarayıcı tam gövde): Aybeg 1192-1203 arasında Meerut'u iktâları arasına kattı",
+   "tanik": "1192-1203 yılları arasında ise Meerut, Ecmîr, Delhi, Kol, Thankir"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1203-01-01",
+    "t": "1206-06-25",
+    "d": "gurlu",
+    "kesinlik": {
+     "f": "yil",
+     "t": "gun"
+    },
+    "kaynak": "TDV 'AYBEG, Kutbüddin' (tarayıcı tam gövde): 'Gazne’de Gurlular’dan Muizzüddin Muhammed’in sarayına intisap etti' ve '1192-1203 yılları arasında ise Meerut, Ecmîr, Delhi, Kol, Thankir'",
+    "ic_not": "f güvenli uç: iktâ edinme aralığı 1192-1203, aralığın SON ucu (1203) alındı. Aybeg bu dönemde Gurlu hükümdarı Muizzüddin Muhammed'in mîrâhur/komutanıdır; iktâ'nın Gurlu adına tutulduğu TDV'nin anlatımından çıkarımdır (beyan). t = Aybeg'in sultan olduğu gün (olay)."
+   },
+   {
+    "f": "1206-06-25",
+    "t": "1281-01-01",
+    "d": "delhi-memluk",
+    "kesinlik": {
+     "f": "gun",
+     "t": "yil"
+    },
+    "kaynak": "TDV 'AYBEG, Kutbüddin': 'Kutbüddin” unvanıyla 25 Haziran 1206’da Lahor’da tahta çıktı'; Meerut'un Aybeg iktâları arasında sayılması (1192-1203)",
+    "ic_not": "1206-06-25 Delhi Sultanlığı'nın kuruluşu (künye delhi-memluk 1206-01-01; harita anahtarı delhi-sultanligi). Meerut Aybeg'in iktâlarından biri olduğundan Sultanlığa geçişi künye geçişi sayıldı. 1206-1281 arası Meerut'a özgü kaynak BULUNAMADI (Majumdar VI Meerut'u yalnız Timur anlatısında yıl vermeden anar: 'Tarmashirin ... assailed Meerut'; yazılmadı) — süreklilik Delhi Sultanlığı'nın 1281'deki atlas durumuyla örtüşür; Meerut'a özgü bir sahip değişikliği kanıtlanmadı, ara dönem kaynaksız sürekliliktir (beyan). Boşluk merdiveni: TDV okundu, Majumdar VI okundu."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1206-06-25",
+    "gun": "25 Haziran 1206",
+    "k": "diger",
+    "b": "künye geçişi: Kutbüddin Aybeg Lahor'da tahta çıkıp Delhi Sultanlığı'nı kurdu (Gurlu komutanlığından bağımsız sultanlığa)",
+    "kaynak": "TDV 'AYBEG, Kutbüddin', https://islamansiklopedisi.org.tr/aybeg-kutbuddin (tarayıcı tam gövde): 'Sultan Muizzüddin’in ölümü üzerine “Kutbüddin” unvanıyla 25 Haziran 1206’da Lahor’da tahta çıktı'"
+   }
+  ],
+  "ic_not": "Tek kaynak (TDV Aybeg maddesi): çift teyit bulunamadı. TDV 'Meerut' şehir maddesi yok (arama 'meerut' Aybeg/Cüzcânî/Bâre Seyyidleri vb. maddeleri döndürdü; Cüzcânî ve Bâre Seyyidleri'nde Meerut yalnız bibliyografya basım yeri). 'Meerut' burada iktâ (idarî birim) olarak anılır; şehir mi bölge mi olduğu TDV'de ayrılmaz — yer-ad eşleşmesi beyanlıdır (Meerut ≈ Mîrat). Firûz Şah Tuğluk'un Asoka sütununu Mîrat'tan Delhi'ye taşıması (Majumdar VI, yıl bu cümlede yok) yazılmadı. Atlas Mîrat'ı 1281'de delhi-sultanligi ile başlatır; bu zincir 1203'e kadar geriye uzanır: atlas başlangıcının 1203'e çekilmesi önerisi (Meerut Sultanlık/Gurlu iktâsı olarak 1203'te var)."
+ },
+ {
+  "id": "sikarpur-p6",
+  "ad": "Şikârpûr",
+  "atlas_ad": "Şikârpûr",
+  "lat": 27.955,
+  "lon": 68.638,
+  "kat1900": 3,
+  "adlar": [
+   "Shikarpur"
+  ],
+  "ilk": {
+   "t": "1617-01-01",
+   "gun": "1617",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Shikārpur', https://www.britannica.com/place/Shikarpur (17 Kasım 2026'da okundu; tarayıcı; madde başlığı şehrin kendisi): kervan yolunda 1617'de kurulan ticaret merkezi",
+   "tanik": "It is a historical trade centre, founded in 1617 on a caravan route"
+  },
+  "kur": {
+   "t": "1617-01-01",
+   "gun": "1617",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Shikārpur' (aynı madde; tarayıcı)",
+   "tanik": "It is a historical trade centre, founded in 1617 on a caravan route"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [],
+  "ic_not": "Tek kaynak (Britannica; cümlenin öznesi 'It' maddenin başlığı Shikārpur'dur): çift teyit aranmadı/bulunamadı (TDV 'sikarpur' araması yalnız üç kişi maddesi döndürdü: Kandehârî/Akhisârî/Habîbî, şehri anlatmaz; Majumdar VI'da yok). Britannica kuruluşun yerini 'Bolān Geçidi üzerinden Afganistan'a giden kervan yolu' diye verir. Atlas noktası 1617-01-01'de babur-imparatorlugu ile başlar: kaynaklı kuruluş yılı atlas başlangıcıyla ÖRTÜŞÜR (zincir yok, uyarı beklenen). Kuruluşu yapan hanedan/sahip bu kaynakta yoktur; atlasın Babür sahipliği için ayrı kaynak aranmalı."
+ }
+];

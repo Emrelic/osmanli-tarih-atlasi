@@ -1,0 +1,447 @@
+// ŞEHİR TARİHÇESİ — ORTA_ASYA_TEST · üretici: arac/sehir_tarihce.py · şema: VERI-YAPISI.md
+// Motor/denetle/site OKUMAZ — araştırma birikimi. Elle düzenleme: JSON'u düzelt, yeniden üret.
+window.SEHIR_TARIHCE_ORTA_ASYA_TEST = [
+ {
+  "id": "almati-kz",
+  "ad": "Almatı",
+  "atlas_ad": "Almatı (Vernıy)",
+  "lat": 43.238,
+  "lon": 76.889,
+  "kat1900": null,
+  "adlar": [
+   "Almatı (eski Kazak yerleşimi)",
+   "Verniy",
+   "Alma Ata (1927)",
+   "Almatı"
+  ],
+  "ilk": {
+   "t": "1854-01-01",
+   "gun": "1854",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Alma Ata» md. (Mustafa L. Bilge), c. 2, 1989, s. 505-506, https://islamansiklopedisi.org.tr/alma-ata (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+   "tanik": "1854’te Verniy adıyla bir Rus askerî kalesi olarak inşa edildi"
+  },
+  "kur": {
+   "t": "1854-01-01",
+   "gun": "1854",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Alma Ata» md. (Mustafa L. Bilge), c. 2, 1989, s. 505-506, https://islamansiklopedisi.org.tr/alma-ata (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+   "tanik": "1854’te Verniy adıyla bir Rus askerî kalesi olarak inşa edildi"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1854-01-01",
+    "gun": "1854",
+    "k": "kurulus",
+    "b": "Verniy adıyla Rus askerî kalesi olarak inşa edildi",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Alma Ata» md. (Mustafa L. Bilge), c. 2, 1989, s. 505-506, https://islamansiklopedisi.org.tr/alma-ata (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "1854’te Verniy adıyla bir Rus askerî kalesi olarak inşa edildi"
+   },
+   {
+    "t": "1867-01-01",
+    "gun": "1867",
+    "k": "idari",
+    "b": "Yeniden teşekkül eden Semireh askerî bölgesinin idare merkezi oldu",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Alma Ata» md. (Mustafa L. Bilge), c. 2, 1989, s. 505-506, https://islamansiklopedisi.org.tr/alma-ata (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "1867’de bölgede yeniden teşekkül eden Semireh askerî bölgesinin idare merkezi oldu"
+   },
+   {
+    "t": "1927-01-01",
+    "gun": "1927",
+    "k": "diger",
+    "b": "Şehir resmen Alma Ata adını aldı",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Alma Ata» md. (Mustafa L. Bilge), c. 2, 1989, s. 505-506, https://islamansiklopedisi.org.tr/alma-ata (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "1927’de resmen Alma Ata adını alan şehir"
+   },
+   {
+    "t": "1929-05-01",
+    "gun": "Mayıs 1929",
+    "k": "idari",
+    "b": "Alma Ata Kazakistan'ın başşehri oldu",
+    "kesinlik": "ay",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Alma Ata» md. (Mustafa L. Bilge), c. 2, 1989, s. 505-506, https://islamansiklopedisi.org.tr/alma-ata (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "Mayıs 1929’da Kazakistan’ın başşehri oldu"
+   }
+  ],
+  "ic_not": "Kaynak: TDV 'Alma Ata' TAM METİN (Mustafa L. Bilge). Çift teyit YOK. TDV: 'Şimdiki yerleşim merkezi, Almatı denilen eski Kazak yerleşim yeri üzerinde bulunmaktadır' — bu eski yerleşimin tarihi TDV'de YOK; ilk.t kuruluş (Verniy kalesi 1854). Atlas 'Almatı (Vernıy)'ı 1281 cagatay ile başlatır; şehir 1854 → sahip:[], 'atlas başlangıcı düzeltilmeli'. TDV: 1887 ve 1911 depremleri (günsüz), 1930 Türkistan-Sibirya demiryolu istasyonu, 1934/1945 kurumlar zincire bağlanmadı."
+ },
+ {
+  "id": "andican-uz",
+  "ad": "Andican",
+  "atlas_ad": "Andican",
+  "lat": 40.783,
+  "lon": 72.35,
+  "kat1900": null,
+  "adlar": [
+   "Endigân (İbn Havkal)",
+   "Endügân (Yâkūt)",
+   "Andugân (Ebü’l-Fidâ)",
+   "Endican"
+  ],
+  "ilk": {
+   "t": "0999-01-01",
+   "gun": "10. yüzyıl sonu",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yuzyil",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Endican» md. (Enver Konukçu), c. 11, 1995, s. 190-192, https://islamansiklopedisi.org.tr/endican (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+   "tanik": "X. yüzyılın sonlarına doğru Endican’a Karahanlılar sahip oldular"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "0999-01-01",
+    "gun": "10. yüzyıl sonu",
+    "k": "fetih",
+    "b": "Karahanlılar Endican'a sahip oldu ve onu Özkent'e bağladı",
+    "kesinlik": "yuzyil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Endican» md. (Enver Konukçu), c. 11, 1995, s. 190-192, https://islamansiklopedisi.org.tr/endican (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "X. yüzyılın sonlarına doğru Endican’a Karahanlılar sahip oldular"
+   },
+   {
+    "t": "1090-01-01",
+    "gun": "1090",
+    "k": "fetih",
+    "b": "Melikşah Endican'ı Selçuklu hâkimiyeti altına aldı",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Endican» md. (Enver Konukçu), c. 11, 1995, s. 190-192, https://islamansiklopedisi.org.tr/endican (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "1090 yılında Melikşah tarafından Selçuklu hâkimiyeti altına alınan şehir"
+   },
+   {
+    "t": "1141-01-01",
+    "gun": "1141",
+    "k": "fetih",
+    "b": "Endican Mâverâünnehir'in diğer bölgeleriyle birlikte Karahıtayların eline geçti",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Endican» md. (Enver Konukçu), c. 11, 1995, s. 190-192, https://islamansiklopedisi.org.tr/endican (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "1141’de Mâverâünnehir’in diğer bölgeleriyle birlikte Karahıtaylar’ın eline geçti"
+   },
+   {
+    "t": "1210-01-01",
+    "gun": "1210",
+    "k": "fetih",
+    "b": "Hârizmşahlar İlâmış sahrasında Karahıtayları yenip Endican ve çevresine hâkim oldu; kısa süre sonra Moğol işgali (tarihsiz)",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Endican» md. (Enver Konukçu), c. 11, 1995, s. 190-192, https://islamansiklopedisi.org.tr/endican (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "1210 yılında Hârizmşahlar İlâmış sahrasında Karahıtaylar’ı yenilgiye uğratarak Endican ve çevresine hâkim oldular"
+   },
+   {
+    "t": "1503-01-01",
+    "gun": "1503",
+    "k": "fetih",
+    "b": "Bâbür'ün Şeybânî Han'a yenilip Taşkent'e çekilmesinden sonra Özbekler Endican'ı ele geçirdi",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Endican» md. (Enver Konukçu), c. 11, 1995, s. 190-192, https://islamansiklopedisi.org.tr/endican (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "şehri Özbekler ele geçirdiler (1503)"
+   },
+   {
+    "t": "1876-01-01",
+    "gun": "1876",
+    "k": "fetih",
+    "b": "Rusya Endican'ı ele geçirdi (nüfus yaklaşık 30.000)",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Endican» md. (Enver Konukçu), c. 11, 1995, s. 190-192, https://islamansiklopedisi.org.tr/endican (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "1876 yılında Rusya Endican’ı ele geçirdiğinde nüfusu 30.000 civarında idi"
+   }
+  ],
+  "ic_not": "Kaynak: TDV 'Endican' TAM METİN. Çift teyit YOK (İSAM/Barthold/Bosworth açılamadı). TDV: 'Tarihi IX. yüzyıla kadar giden bölgenin ismini İbn Havkal Endigân ... yazmış' — yüzyıl-düzeyi ve eser tarihi TDV'de verilmediğinden ilk.t olarak yalnız tarihlendirilebilen X. yy sonu Karahanlı sahipliği alındı (güvenli uç: 10. yüzyılın son yılı, t=0999). Atlas Endican'ı 0500'de fergana-dayuan ile başlatır; şehir tanığı X. yy sonudur → sahip:[] ve 'atlas başlangıcı düzeltilmeli' uyarısı beklenir. 1090, 1141, 1210, 1503, 1876 olayları atlas zincirinin kontrol tanığıdır (atlas zinciri esastır, burada zincir yok). TDV: 1375-76 Timur-Kamerüddin savaşında yağmalandı (hicrî 777), Kaydu Han'ın yeniden inşası (tarihsiz, ö. 1301) yazılmadı."
+ },
+ {
+  "id": "askabat-tm",
+  "ad": "Aşkabat",
+  "atlas_ad": "Aşkabad",
+  "lat": 37.95,
+  "lon": 58.38,
+  "kat1900": null,
+  "adlar": [
+   "Aşkābâd",
+   "Poltoratsk (1919-1927)",
+   "Aşkābâd",
+   "Aşkabat"
+  ],
+  "ilk": {
+   "t": "1881-01-01",
+   "gun": "1881",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Aşkābâd» md. (Sargon Erdem), c. 4, 1991, s. 21-22, https://islamansiklopedisi.org.tr/askabad (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+   "tanik": "bölgenin 1881’de Ruslar tarafından ele geçirilmesinden sonra şehir haline getirilmiştir"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1881-01-01",
+    "t": "1881-01-30",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Aşkābâd» md. (Sargon Erdem), c. 4, 1991, s. 21-22, https://islamansiklopedisi.org.tr/askabad (TDV tam metin (tarayıcı), 16 Kasım 2026) — Rus ele geçirmesinden önceki sahip kaynakta yok",
+    "ic_not": "TDV Aşkābâd'ı 1881'e kadar Ahal Teke Türkmenlerinin '500 çadırlık en önemli obası (avul)' olarak anlatır; hâkim devlet künyesi/sahip tanığı yoktur (Teke Türkmen topluluğunun devletleşmiş künyesi atlasta bulunamadı). Dilim, TDV'nin yıl hassasiyeti (1881) ile atlasın gün hassasiyeti (1881-01-30 Rusya) arasındaki 29 günü kapatır; sahibi uydurulmadı."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1881-01-01",
+    "gun": "1881",
+    "k": "fetih",
+    "b": "Ahal vahası bölgesi Ruslar tarafından ele geçirildi; sonra Ruslar kale inşa edip yeni Zakarpiskaya (Transkaspia) eyaletinin başşehri yaptı",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Aşkābâd» md. (Sargon Erdem), c. 4, 1991, s. 21-22, https://islamansiklopedisi.org.tr/askabad (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "bölgenin 1881’de Ruslar tarafından ele geçirilmesinden sonra şehir haline getirilmiştir"
+   },
+   {
+    "t": "1924-01-01",
+    "gun": "1924",
+    "k": "idari",
+    "b": "Şehir yeni kurulan Türkmen Sovyet Sosyalist Cumhuriyeti'nin başşehri yapıldı",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Aşkābâd» md. (Sargon Erdem), c. 4, 1991, s. 21-22, https://islamansiklopedisi.org.tr/askabad (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "Şehir 1924 yılında, Sovyetler’in yapılaşma hareketi sırasında yeni kurulan"
+   },
+   {
+    "t": "1948-01-01",
+    "gun": "1948",
+    "k": "yikim",
+    "b": "Büyük deprem şehri tamamen yıktı; daha geniş alanda yeniden inşa edildi",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Aşkābâd» md. (Sargon Erdem), c. 4, 1991, s. 21-22, https://islamansiklopedisi.org.tr/askabad (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "Aşkābâd, 1948’de geçirdiği çok büyük bir deprem sonucu tamamen yıkılmış"
+   }
+  ],
+  "ic_not": "Kaynak: TDV 'Aşkābâd' TAM METİN (Sargon Erdem). Çift teyit YOK. ilk.t: TDV obanın daha eski varlığını belirtir ama tarih vermez; ilk TARİHLİ olgu 1881 (Rus ele geçirmesi ve şehirleştirme). Atlas Aşkabad'ı 1881-01-30 rusya ile başlatır; TDV yalnız yıl der → dilim BOŞLUK ve 1881 olayı ±30 gün içinde. Atlas Nesâ (17 km batı) ile ayrı kayıttır. TDV: Aralık 1917 Bolşevik yönetim, Temmuz 1918 karşı-devrimcilerin eline geçiş (Beyaz Rus-Türkmen), Kızıl Ordu'nun geri alışı (tarihsiz), 1919 Poltoratsk adı (TDV 'Poltoratsk'ın adıyla değiştirildi', yıl yazılmaz; 1927'de ad geri döndü) zincire bağlanmadı."
+ },
+ {
+  "id": "cimkent-kz",
+  "ad": "Çimkent",
+  "atlas_ad": "Çimkent",
+  "lat": 42.317,
+  "lon": 69.596,
+  "kat1900": null,
+  "adlar": [
+   "Çîkend (Şâmî)",
+   "Çimkent"
+  ],
+  "ilk": {
+   "t": "1699-01-01",
+   "gun": "16-17. yüzyıl",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yuzyil",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Çimkent» md. (Mehmet Saray), c. 8, 1993, s. 318, https://islamansiklopedisi.org.tr/cimkent (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+   "tanik": "XVI ve XVII. yüzyıllarda kaynaklarda yine büyük bir köy ve kale olarak geçen Çimkent"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1864-07-07",
+    "gun": "7 Temmuz 1864",
+    "k": "savas",
+    "b": "Ruslar Çimkent'e hücum etti; bir hafta süren mücadeleden sonra geri püskürtüldü (Âlim Kul'un tahkimli Hokand garnizonu)",
+    "kesinlik": "gun",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Çimkent» md. (Mehmet Saray), c. 8, 1993, s. 318, https://islamansiklopedisi.org.tr/cimkent (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "7 Temmuz 1864’te Ruslar buraya karşı hücuma geçtilerse de bir hafta süren mücadeleden"
+   }
+  ],
+  "ic_not": "Kaynak: TDV 'Çimkent' TAM METİN (Mehmet Saray). Çift teyit YOK. ilk.t: TDV 'ne zaman kurulduğu bilinmemektedir' der; Nizâmüddin Şâmî'nin Zafernâme'sinde adı Çîkend, Sayram yakınında küçük köy (s. 57) — Zafernâme'nin yılı TDV'de verilmediğinden YAZILMADI. 'XVI ve XVII. yüzyıllarda büyük köy ve kale' → yüzyıl aralığının SON ucu (17. yy sonu, t=1699). TDV: 1700'lerde Hokand Hanlığı'nın kurulmasıyla gelişti (yüzyıl düzeyi), sonra Buhara emîrinin Hokand'a saldırısı üzerine 'şehri teslim etmek zorunda kaldılar' — Rus işgal yılı/günü TDV metninde YAZILMIYOR (7 Temmuz 1864 hücum günüdür; teslim günü uydurulmadı). Atlas 1281 cagatay ile başlar → sahip:[], 'atlas başlangıcı düzeltilmeli' uyarısı beklenir."
+ },
+ {
+  "id": "hucend-tj",
+  "ad": "Hucend",
+  "atlas_ad": "Hucend",
+  "lat": 40.284,
+  "lon": 69.622,
+  "kat1900": null,
+  "adlar": [
+   "Hucende",
+   "Hu-ch’an / Hu-jan (Çin kaynakları)",
+   "Hucend",
+   "Leninâbâd (1936-1991)",
+   "Hucend"
+  ],
+  "ilk": {
+   "t": "0683-01-01",
+   "gun": "680-683",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Hucend» md. (Rıza Kurtuluş), c. 18, 1998, s. 272-273, https://islamansiklopedisi.org.tr/hucend (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+   "tanik": "Hucend üzerine müslümanların ilk seferi Emevîler zamanında Yezîd b. Muâviye’nin halifeliği sırasında (680-683) vuku buldu"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0683-01-01",
+    "t": "1024-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Hucend» md. (Rıza Kurtuluş), c. 18, 1998, s. 272-273, https://islamansiklopedisi.org.tr/hucend (TDV tam metin (tarayıcı), 16 Kasım 2026) — dilim için kaynaklı sahip zinciri bulunamadı",
+    "ic_not": "683'ten Karahanlı fethine (en geç 1024) kadar TDV Hucend'in sahip zincirini tarihli vermez: 680-683 sefer yenilgiyle biter (şehir Emevî'ye geçmedi), 722 'kesin fetih' Horasan valisi Saîd b. Amr el-Haraşî'nindir ama TDV maddede hâkim devlet adı yazmaz; Mühelleb'in hâkimiyeti ('99/717-18') hicrî-milâdî çeviri TDV'de kendi içinde tuhaftır (Mühelleb 702'de ölmüştür) — YAZILMADI. Emevî→Abbâsî→Sâmânî dizisi çıkarımdır, atlas kaydı dayanak olamaz; beyansız yaklaşıklık yazılmadı. Boşluk merdiveni: TDV okundu; Bosworth EI² 'Khudjand' (TDV bibliyografyasında) açılamadı."
+   },
+   {
+    "f": "1024-01-01",
+    "t": "1137-01-01",
+    "d": "karahanli",
+    "kesinlik": "onyil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Hucend» md. (Rıza Kurtuluş), c. 18, 1998, s. 272-273, https://islamansiklopedisi.org.tr/hucend (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "Hucend, Karahanlı Hükümdarı Arslan İlig (1015-1024) tarafından ele geçirildiğinde önemli bir şehirdi",
+    "ic_not": "f 'en geç' tanıktan: Arslan İlig'in hükümdarlık aralığı 1015-1024, ele geçirme günü/yılı TDV'de yok; güvenli uç 1024 alındı (daha erken olabilir; o zaman önceki BOŞLUK kısalır). t: TDV 1137'de Karahanlı Mahmûd b. Muhammed'i Hucend yakınında Karahıtayların yendiğini söyler; Karahıtay hâkimiyetinin şehre ne zaman geldiği YAZILMAZ. Karahanlı künyesi 1041'de biter (devletler.js); Batı Karahanlı (XI. yy ortası ayrılma, TDV: Hucend Doğu-Batı Karahanlı arasında sınırdır) aynı polity sürer → künye GENİŞLETME önerisi, hayalet uyarısı beklenen davranıştır."
+   },
+   {
+    "f": "1137-01-01",
+    "t": "1219-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Hucend» md. (Rıza Kurtuluş), c. 18, 1998, s. 272-273, https://islamansiklopedisi.org.tr/hucend (TDV tam metin (tarayıcı), 16 Kasım 2026) — dilim için kaynaklı sahip bulunamadı",
+    "ic_not": "1137 Karahıtay zaferinden 1219 Moğol fethine kadar TDV şehrin hâkimini tarihli vermez ('Hucend Emîri Timur Melik' 1219'da anılır, hangi devletin emîri olduğu TDV'de yazılmaz: Hârizmşahlı olduğu çıkarımdır, yazılmadı)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0683-01-01",
+    "gun": "680-683",
+    "k": "sefer",
+    "b": "Müslümanların Hucend'e ilk seferi: Horasan valisi Selm b. Ziyâd'ın ordusu kalenin önünde yenildi (Yezîd b. Muâviye dönemi, güvenli uç 683)",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Hucend» md. (Rıza Kurtuluş), c. 18, 1998, s. 272-273, https://islamansiklopedisi.org.tr/hucend (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "Selm b. Ziyâd buraya bir ordu gönderdiyse de bu ordu kalenin önünde yapılan savaşta yenildi"
+   },
+   {
+    "t": "0722-01-01",
+    "gun": "722",
+    "k": "fetih",
+    "b": "Horasan Valisi Saîd b. Amr el-Haraşî Hucend'i muhasara ile kesin olarak fethetti; asker ve asilzadeler kılıçtan geçirildi",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Hucend» md. (Rıza Kurtuluş), c. 18, 1998, s. 272-273, https://islamansiklopedisi.org.tr/hucend (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "Hucend’in kesin fethi ise Horasan Valisi Saîd b. Amr el-Haraşî tarafından muhasara sonucu gerçekleştirildi"
+   },
+   {
+    "t": "1024-01-01",
+    "gun": "1015-1024",
+    "k": "fetih",
+    "b": "Karahanlı Hükümdarı Arslan İlig Hucend'i ele geçirdi (en geç 1024; aralık hükümdarlık yılları)",
+    "kesinlik": "onyil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Hucend» md. (Rıza Kurtuluş), c. 18, 1998, s. 272-273, https://islamansiklopedisi.org.tr/hucend (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "Hucend, Karahanlı Hükümdarı Arslan İlig (1015-1024) tarafından ele geçirildiğinde önemli bir şehirdi"
+   },
+   {
+    "t": "1137-01-01",
+    "gun": "531 (1137)",
+    "k": "savas",
+    "b": "Karahıtaylar Karahanlı Mahmûd b. Muhammed'i Hucend yakınında yendi",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Hucend» md. (Rıza Kurtuluş), c. 18, 1998, s. 272-273, https://islamansiklopedisi.org.tr/hucend (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "Karahıtaylar, Karahanlı Mahmûd b. Muhammed’i Hucend yakınında mağlûp ettiler (531/1137)"
+   },
+   {
+    "t": "1219-01-01",
+    "gun": "1219",
+    "k": "fetih",
+    "b": "Cengiz Han'ın 75.000 kişilik ordusu karşısında Hucend Emîri Timur Melik kaçtı; şehir Moğolların eline geçti",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Hucend» md. (Rıza Kurtuluş), c. 18, 1998, s. 272-273, https://islamansiklopedisi.org.tr/hucend (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "Hucend Emîri Timur Melik’in kaçması üzerine şehir Moğollar’ın eline geçti (1219)"
+   },
+   {
+    "t": "1376-01-01",
+    "gun": "1376",
+    "k": "diger",
+    "b": "Celâyirliler bir isyan sebebiyle Timur tarafından Hucend'den çıkarıldı (şehir o sırada Çağatay ulusunun idaresindeydi)",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Hucend» md. (Rıza Kurtuluş), c. 18, 1998, s. 272-273, https://islamansiklopedisi.org.tr/hucend (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "Celâyirliler bir isyan sebebiyle Timur tarafından şehirden çıkarıldılar (1376)"
+   },
+   {
+    "t": "1497-01-01",
+    "gun": "1497",
+    "k": "diger",
+    "b": "Bâbür Hucend'i, otoritesini tehdit eden akrabalarına karşı üs olarak kullandı",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Hucend» md. (Rıza Kurtuluş), c. 18, 1998, s. 272-273, https://islamansiklopedisi.org.tr/hucend (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "1497’de Bâbür şehri otoritesini tehdit eden akrabalarına karşı bir üs olarak kullandı"
+   },
+   {
+    "t": "1842-01-01",
+    "gun": "1842",
+    "k": "fetih",
+    "b": "Mangıt hanedanından Buhara Hanı Nasrullah Han Hucend'i ele geçirdi (Hokand Hanlığı sınırlarındayken)",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Hucend» md. (Rıza Kurtuluş), c. 18, 1998, s. 272-273, https://islamansiklopedisi.org.tr/hucend (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "1842 yılında Mangıtlar’dan Buhara Hanı Nasrullah Han"
+   },
+   {
+    "t": "1866-01-01",
+    "gun": "1866",
+    "k": "fetih",
+    "b": "Ruslar kanlı çarpışmalar sonucunda Hucend'i ele geçirdi",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Hucend» md. (Rıza Kurtuluş), c. 18, 1998, s. 272-273, https://islamansiklopedisi.org.tr/hucend (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "1866’da da kanlı çarpışmalar sonucunda Ruslar tarafından ele geçirildi"
+   }
+  ],
+  "ic_not": "Kaynak: TDV 'Hucend' TAM METİN (maddenin gövdesi okundu; 4.800 karakter). Çift teyit YOK: bibliyografyadaki Bosworth EI² 'Khudjand' ve Belâzürî/İbn Hurdâzbih/İstahrî açılamadı. ilk.t: 680-683 aralığı Yezîd b. Muâviye'nin halifelik yılları (TDV parantezi); ilk anılış için aralığın SON ucu 683 alındı. Hâkim zincirinin 1024 öncesi, 1137-1219 arası dilimleri kaynaksız → __BOSLUK__ (beyanlı). Atlas Hucend'i 1219-01-01'de mogol-imparatorlugu ile başlatır; 1219 olayı dikişi karşılar. TDV: 'Mühelleb b. Ebû Sufre ... (99/717-18)' ve 1875 Hokand direnişçilerinin kuşatması, 1886 Semerkant oblastı, 1929 Tacik SSC, 1936 Leninâbâd, 1991 adın geri alınması tarihli olgulardır, zincire bağlanmadı (1866 sonrası Rusya sahipliği atlasın zinciridir)."
+ },
+ {
+  "id": "termez-uz",
+  "ad": "Termez",
+  "atlas_ad": "Termez",
+  "lat": 37.224,
+  "lon": 67.278,
+  "kat1900": null,
+  "adlar": [
+   "Toprakkorgan (Rus sınır kalesi)",
+   "Tirmiz / Termez"
+  ],
+  "ilk": {
+   "t": "1894-01-01",
+   "gun": "1894",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tirmiz» md. (Abdullah Muhammedcanov), c. 41, 2012, s. 200-202, https://islamansiklopedisi.org.tr/tirmiz (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+   "tanik": "Rus askerleri 1894 yılında eski Tirmiz harabelerinden 8 km. uzaklıkta bir sınır kalesi (Toprakkorgan) kurdular"
+  },
+  "kur": {
+   "t": "1894-01-01",
+   "gun": "1894",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tirmiz» md. (Abdullah Muhammedcanov), c. 41, 2012, s. 200-202, https://islamansiklopedisi.org.tr/tirmiz (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+   "tanik": "Rus askerleri 1894 yılında eski Tirmiz harabelerinden 8 km. uzaklıkta bir sınır kalesi (Toprakkorgan) kurdular"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1894-01-01",
+    "gun": "1894",
+    "k": "kurulus",
+    "b": "Çarlık Rusyası eski Tirmiz harabelerinden 8 km uzakta Toprakkorgan sınır kalesini kurdu; şimdiki Tirmiz bu kale çevresinde gelişti",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Tirmiz» md. (Abdullah Muhammedcanov), c. 41, 2012, s. 200-202, https://islamansiklopedisi.org.tr/tirmiz (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "Rus askerleri 1894 yılında eski Tirmiz harabelerinden 8 km. uzaklıkta bir sınır kalesi (Toprakkorgan) kurdular"
+   },
+   {
+    "t": "1916-01-01",
+    "gun": "1916",
+    "k": "diger",
+    "b": "Buhara-Tirmiz demiryolunun yapılmasıyla şehir gelişti ve nüfusu arttı",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Tirmiz» md. (Abdullah Muhammedcanov), c. 41, 2012, s. 200-202, https://islamansiklopedisi.org.tr/tirmiz (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "1916’da Buhara-Tirmiz demiryolunun yapılmasıyla şehir gelişti ve nüfusu arttı"
+   }
+  ],
+  "ic_not": "Kaynak: TDV 'Tirmiz' TAM METİN (Abdullah Muhammedcanov). ANTİK/ESKİ YER KURALI: TDV eski Tirmiz'i (Emevî fethi 56/676, 704, Tirmizşahlar, 1220 Moğol tahribi, 1407 Halil Sultan tahkimi, XVI. yy Şeybânîler, 1646 Bâbürlüler, 1758 Mangıt) 'harabeler' olarak yeni şehirden 8 km uzakta anlatır; modern Termez Toprakkorgan çevresinde 1894'te doğdu. 8 km > 3 km → eski olgular BURADA YAZILMADI; ayrı kayıt (Eski Termez / Tirmiz harabeleri) önerilir (koordinatı ÖLÇÜLMEDİ). Atlas noktası (37.224, 67.278) modern şehirdir; TDV 8 km tarifini koordinatla ÖLÇMEDİM. Atlas Termez'i 1000-01-01'de __BOSLUK__ ile başlatır; modern şehir 1894'te kurulduğundan atlas başlangıcı düzeltilmeli/eski-yer kaydına devredilmeli (KASA'ya). Çift teyit YOK."
+ }
+];

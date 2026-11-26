@@ -1,0 +1,515 @@
+// ŞEHİR TARİHÇESİ — HINT6B_TEST · üretici: arac/sehir_tarihce.py · şema: VERI-YAPISI.md
+// Motor/denetle/site OKUMAZ — araştırma birikimi. Elle düzenleme: JSON'u düzelt, yeniden üret.
+window.SEHIR_TARIHCE_HINT6B_TEST = [
+ {
+  "id": "bangalor-in-p6",
+  "ad": "Bangalor (Bengaluru)",
+  "atlas_ad": "Bangalor",
+  "lat": 12.972,
+  "lon": 77.594,
+  "kat1900": 3,
+  "adlar": [
+   "Bangalore",
+   "Bengaluru"
+  ],
+  "ilk": {
+   "t": "1537-01-01",
+   "gun": "1537",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Bengaluru' (slug Bangalore-India), https://www.britannica.com/place/Bangalore-India (17 Kasım 2026'da tarayıcıda okundu; madde başlığı şehir)",
+   "tanik": "The city’s nucleus started as a settlement around a mud fort built in 1537."
+  },
+  "kur": {
+   "t": "1537-01-01",
+   "gun": "1537",
+   "kesinlik": "yil",
+   "kaynak": "Britannica 'Bengaluru': şehrin çekirdeği 1537'de yapılan çamur kale çevresinde bir yerleşim olarak başladı",
+   "tanik": "The city’s nucleus started as a settlement around a mud fort built in 1537."
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1831-01-01",
+    "gun": "1831",
+    "k": "diger",
+    "b": "Bangalor 1831-1881 arası İngiliz idaresinin merkezi oldu",
+    "kesinlik": "yil",
+    "kaynak": "Britannica 'Bengaluru': From 1831 to 1881, it was the headquarters of the British administration (tarayıcıda okundu)"
+   }
+  ],
+  "ic_not": "TEK KAYNAK (Britannica). 1537 yılı kaleyi yapanı (Kempe Gowda) ve o günkü bağlı olduğu devleti söylemez; atlas 1537'de Bangalor'u Vijayanagara ile başlatır (atlas = ilk tanıkla aynı gün, sahip:[]), ama Vijayanagara'ya bağlayan kaynak bu oturumda bulunamadı (Sewell'de Bangalor/Bengalur geçmez; TDV 'Meysûr' maddesi yalnız Karnataka'nın merkezi olarak anar). Britannica ayrıca 'capital of Karnataka state since 1830' der; Mysore Krallığı ile ilişkisi açık olmadığı için olay yazılmadı. Atlas zinciri Vijayanagara→Bicapur→Meysûr kaynaksız: kaynak arayışı borç."
+ },
+ {
+  "id": "charaideo-in-p6",
+  "ad": "Charaideo",
+  "atlas_ad": "Charaideo",
+  "lat": 26.94194,
+  "lon": 94.87611,
+  "kat1900": 3,
+  "adlar": [
+   "Charaideo",
+   "Sorai-deo"
+  ],
+  "ilk": {
+   "t": "1268-01-01",
+   "gun": "1268",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Charaideo', https://www.britannica.com/place/Charaideo (17 Kasım 2026'da tarayıcıda okundu; metin 15 kelimeyi aştığı için […] ile kısaltıldı)",
+   "tanik": "In 1268 ce Chau-lung Siu-ka-pha […] was buried in Charaideo"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1268-01-01",
+    "t": "1281-01-01",
+    "d": "ahom",
+    "kesinlik": "yil",
+    "kaynak": "Britannica 'Charaideo': ilk Ahom kralı Sukapha 1268'de Charaideo'da gömüldü; Britannica 'Ahom': tribe that ruled much of Assam from the 13th century",
+    "ic_not": "Charaideo Ahom krallarının kutsal/merkez mezarlık yeridir; Ahom künyesi (devletler.js ahom f=1281-01-01) 1268'i kapsamaz — künye GENİŞLET önerisi: f ≤ 1268 (aynı polity sürüyor, sınıflandırma: künyeyi genişlet). Aşım uyarısı beklenen."
+   }
+  ],
+  "olay": [],
+  "ic_not": "TEK KAYNAK (Britannica). 1268 tanığı bir MEZAR/gömme olayıdır (şehrin kuruluşu değil); Britannica 'Charaideo' maddesi ayrıca ilk Ahom kralı Sukapha'nın adının 'Chau-lung Siu-ka-pha' olduğunu söyler. Atlasın kendi kaydı 'Ahomlar 1253'te Charaideo'ya yerleşti (Majumdar)' der ve KAYNAK OKUNMADI işaretlidir; bu oturumda Majumdar VI'da 'Charaideo/Cheraideo' aranıp bulunamadı (Majumdar bu cildi Delhi Sultanlığı'na ayırır): 1253 teyitsiz. Britannica'nın 1268 tarihi gömme tarihidir; Sukapha'nın ölümü genelde 1268 olarak anılır (aynı olgu). Atlas başlangıcı (1281) ilk tanıktan (1268) SONRA: sahip 1268→1281 'ahom'. Charaideo'nun 20 mil/30 km Sivasagar'a uzaklığı Britannica'da yazar; atlasın 'ABİ MERKEZ: Sibsâgar' beyanı bununla tutarlıdır."
+ },
+ {
+  "id": "daman-in-p6",
+  "ad": "Daman",
+  "atlas_ad": "Daman",
+  "lat": 20.415,
+  "lon": 72.833,
+  "kat1900": 3,
+  "adlar": [
+   "Daman",
+   "Damão"
+  ],
+  "ilk": {
+   "t": "1531-01-01",
+   "gun": "1531",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Daman', https://www.britannica.com/place/Daman (17 Kasım 2026'da tarayıcıda okundu; madde başlığı şehir; metin site tarafından 1559 cümlesinde kesiliyor)",
+   "tanik": "The town was sacked and burned by the Portuguese in 1531."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1531-01-01",
+    "t": "1559-02-02",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "bulunamadı (1531-1559 arasında Daman'ın sahibi okunan kaynakta verilmiyor)",
+    "ic_not": "Britannica yalnız 1531'de Portekizlilerin şehri yağmalayıp yaktığını ve ardından yeniden inşa edildiğini söyler (devamı abonelik kesintisi nedeniyle okunamadı). Portekiz'in kalıcı hâkimiyeti atlasın 1559-02-02 tarihinden (atlasın kendi IGI atfı) başlar; sahibi bulunamayan dilim beyanlı boşluk."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1531-01-01",
+    "gun": "1531",
+    "k": "diger",
+    "b": "Daman Portekizlilerce yağmalanıp yakıldı",
+    "kesinlik": "yil",
+    "kaynak": "Britannica 'Daman': The town was sacked and burned by the Portuguese in 1531"
+   }
+  ],
+  "dikis_beyan": "Atlas Daman'ı 1559-02-02'de portekiz-hindistani-goa ile başlatır (kur:1559-02-02, IGI atfı atlasın kendi kaydı); Britannica 1559 cümlesi site tarafından kesik olduğu için okunamadı; yer tutucu olay yazılmadı.",
+  "ic_not": "TEK KAYNAK (Britannica, kesik metin). 1531 olgusu şehrin yağmalanmasıdır (yerleşimin 1531'den önce var olduğunu ima eder: 'sacked and burned … subsequently rebuilt'). Atlas künye önerisi: Daman 1531 yağmasından önceki sahip (Gücerat Sultanlığı, künye gucerat-sultanligi 1407-1573 mevcut) bu kaynakta açıkça yazılmadı; Sewell'de Daman geçmez. Boşluk doldurma merdiveni: Britannica ve Majumdar okundu; TDV 'Diû' ve IGI XI 'Daman' (atlasın kaynağı) bu oturumda okunmadı: borç."
+ },
+ {
+  "id": "kannur-in-p6",
+  "ad": "Kannûr (Cannanore)",
+  "atlas_ad": "Kannûr (Cannanore)",
+  "lat": 11.868,
+  "lon": 75.355,
+  "kat1900": 3,
+  "adlar": [
+   "Cannanore",
+   "Kannur"
+  ],
+  "ilk": {
+   "t": "1505-01-01",
+   "gun": "1505",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Kannur', https://www.britannica.com/place/Kannur (17 Kasım 2026'da tarayıcıda okundu)",
+   "tanik": "a Portuguese fort was built at Kannur in 1505"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1505-01-01",
+    "gun": "1505",
+    "k": "kurulus",
+    "b": "Portekizliler Kannûr'da kale yaptı",
+    "kesinlik": "yil",
+    "kaynak": "Britannica 'Kannur': a Portuguese fort was built at Kannur in 1505; Sewell, A Forgotten Empire (1900) s.119: Cannanore'da 1506'da Portekiz vâli oğlu Lourenço (aynı olgunun dolaylı teyidi, yıl 1506)"
+   },
+   {
+    "t": "1663-01-01",
+    "gun": "1663",
+    "k": "fetih",
+    "b": "Portekiz kalesi Hollandalılarca ele geçirildi",
+    "kesinlik": "yil",
+    "kaynak": "Britannica 'Kannur': The fort was captured by the Dutch in 1663"
+   },
+   {
+    "t": "1772-01-01",
+    "gun": "1772",
+    "k": "diger",
+    "b": "Kale Kannûr hükümdarına satıldı (Britannica 1772)",
+    "kesinlik": "yil",
+    "kaynak": "Britannica 'Kannur': sold to the ruler of Kannur in 1772"
+   },
+   {
+    "t": "1790-01-01",
+    "gun": "1790",
+    "k": "fetih",
+    "b": "İngilizler Kannûr'u ele geçirdi, kaleyi yeniden inşa etti",
+    "kesinlik": "yil",
+    "kaynak": "Britannica 'Kannur': The British captured Kannur in 1790 and rebuilt the fort"
+   }
+  ],
+  "ic_not": "KISMÎ ÇİFT TEYİT (Britannica + Sewell, A Forgotten Empire, 1900, archive.org forgottenempire00robe, s.119 ve 'Cannanore' dizini): Sewell 'At Cannanore the viceroy's son, Lourenço, in 1506, received further information' ve 'In the next year [1507] an outrage ... led to a siege of their factory at Cannanore' yazar — Portekiz'in Kannûr'da 1505-1507 arasında bulunduğunu doğrular, ama 1505 kale yılını doğrudan vermez; kale yılı TEK KAYNAK (Britannica). Britannica aynı maddede 12.-13. yy'da Persler/Araplarla ticareti anar (yüzyıl düzeyi, şehre bağlı) ve 'Kolattiri rajasının başkenti 18. yy'a kadar' der (yıl yok); 'Kannur British military HQ from 1709' ifadesi 1790'da İngiliz fethiyle çeliştiği için KULLANILMADI (Britannica hatası olabilir). Britannica 1772 satışı der; atlas devri 1771-01-01 yazar (bir yıl fark: atlas düzeltme adayı, 1772 tek kaynak). Atlas başlangıcı 1281 (Kalikut) ilk tanıktan öncedir: sahip:[]."
+ },
+ {
+  "id": "kurnool-in-p6",
+  "ad": "Kurnool",
+  "atlas_ad": "Kurnûl (Kurnool)",
+  "lat": 15.828,
+  "lon": 78.037,
+  "kat1900": 3,
+  "adlar": [
+   "Kurnool"
+  ],
+  "ilk": {
+   "t": "1866-01-01",
+   "gun": "1866",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Kurnool', https://www.britannica.com/place/Kurnool (17 Kasım 2026'da tarayıcıda okundu)",
+   "tanik": "Kurnool was made a municipality in 1866"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1866-01-01",
+    "gun": "1866",
+    "k": "diger",
+    "b": "Kurnool belediye (municipality) yapıldı",
+    "kesinlik": "yil",
+    "kaynak": "Britannica 'Kurnool': Kurnool was made a municipality in 1866 (tarayıcıda okundu)"
+   }
+  ],
+  "ic_not": "TEK KAYNAK (Britannica). 1866 şehrin kuruluşu/ilk anılışı DEĞİL, bu oturumda ulaşılabilen EN ERKEN yıl-tarihli tanıktır; şehir çok daha eskidir. Sewell, A Forgotten Empire (1900, archive.org forgottenempire00robe) Kurnool'u iki yerde anar: Golkonda'dan Muhammed Kulî (1580 sonrası, 1589'da Haydarâbâd'ı kurdu) 'Kurnool, Nandial, Dole ve Gandikota'yı aldı' (yıl cümlede Kurnool'a bağlı değil) ve Şivaci 1673'ten 'dört yıl sonra' (≈1677) Kurnool, Gingi, Vellore'de son Vijayanagara otoritesini yıktı (göreli yıl) — ikisi de ilk/olay kuralını (yıl+yer aynı cümle) karşılamadığı için yazılmadı; aday olay olarak okunabilir. Britannica: Vijayanagar döneminden kale kalıntıları (yıl yok). Atlas başlangıcı 1281 (Kakatiya) ilk tanıktan ÖNCEDİR: sahip:[] bırakıldı (uyarı beklenen). TDV'de 'Kurnûl' araması sonuçsuz."
+ },
+ {
+  "id": "mahe-in-p6",
+  "ad": "Mahé",
+  "atlas_ad": "Mahé",
+  "lat": 11.701,
+  "lon": 75.536,
+  "kat1900": 3,
+  "adlar": [
+   "Mahé",
+   "Mahe"
+  ],
+  "ilk": {
+   "t": "1726-01-01",
+   "gun": "1726",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Mahe', https://www.britannica.com/place/Mahe-India (17 Kasım 2026'da tarayıcıda okundu)",
+   "tanik": "The town was captured by the French in 1726"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1726-01-01",
+    "t": "1817-02-22",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "bulunamadı (Britannica: 18.-19. yy'da Fransız-İngiliz çatışması, birkaç kez Madras Presidency'ye katıldı; dönem sınırları verilmiyor)",
+    "ic_not": "Britannica: 'incorporated several times into the Madras Presidency ... and finally restored to the French in 1817' — Fransız/İngiliz dönem aralıkları kaynakta yok; tek bir sahip yazmak yaklaşıklık olur, bu yüzden beyanlı boşluk."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1726-01-01",
+    "gun": "1726",
+    "k": "fetih",
+    "b": "Fransızlar Mahé'yi ele geçirdi",
+    "kesinlik": "yil",
+    "kaynak": "Britannica 'Mahe': The town was captured by the French in 1726"
+   }
+  ],
+  "dikis_beyan": "Atlas Mahé'yi 1817-02-22'de fransiz-hindistani ile başlatır (atlasın kendi IGI atfı); Britannica yalnız 'finally restored to the French in 1817' yılını verir (gün yok), yer tutucu olay yazılmadı.",
+  "ic_not": "TEK KAYNAK (Britannica). Britannica Mahé'nin Fransız ele geçirişini 1726'ya, kesin iadeyi 1817'ye, Hindistan Birliği'ne katılışı 1954'e tarihler (atlas 1954-11-01 ile uyumlu görünür). 1726 öncesi sahip bilinmiyor (Kalikut/Kolattiri çevresi olabilir, kaynak bulunamadı)."
+ },
+ {
+  "id": "masulipatnam-in-p6",
+  "ad": "Masulipatnam (Machilipatnam)",
+  "atlas_ad": "Masulipatnam",
+  "lat": 16.19,
+  "lon": 81.13,
+  "kat1900": 3,
+  "adlar": [
+   "Masulipatam",
+   "Masulipatnam",
+   "Machilipatnam"
+  ],
+  "ilk": {
+   "t": "1611-01-01",
+   "gun": "1611",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Machilipatnam', https://www.britannica.com/place/Machilipatnam (17 Kasım 2026'da tarayıcıda okundu)",
+   "tanik": "Masulipatam was the first British trading settlement (1611) on the Bay of Bengal."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1611-01-01",
+    "gun": "1611",
+    "k": "diger",
+    "b": "Masulipatam Bengal Körfezi'ndeki ilk İngiliz ticaret yerleşimi oldu",
+    "kesinlik": "yil",
+    "kaynak": "Britannica 'Machilipatnam': Masulipatam was the first British trading settlement (1611) on the Bay of Bengal"
+   },
+   {
+    "t": "1759-01-01",
+    "gun": "1759",
+    "k": "fetih",
+    "b": "İngilizler şehri ve kaleyi Fransızlardan aldı (1686-1759 Fransız/Hollanda elinde)",
+    "kesinlik": "yil",
+    "kaynak": "Britannica 'Machilipatnam': From 1686 to 1759 the city was held by the French and Dutch ... the British captured the city and fort from the French in 1759"
+   }
+  ],
+  "ic_not": "TEK KAYNAK (Britannica). 1611 şehrin ilk anılışı değil, en erken yıl-tarihli şehre-atıflı tanıktır. Sewell, A Forgotten Empire (1900): Bahmenî Sultanı III. Muhammed'in 13 Mart 1481'deki Kondapalle/Ganji harekâtından sonra 'the Sultan went to Masulipatam, which he reduced' demesi (yıl önceki cümlede, aynı cümlede değil) ADAY daha erken tanıktır — ilk-kuralı (yıl+yer aynı cümle) karşılamadığı için ilk'e yazılmadı; Firişte/Burhân-ı Me'âsir ile doğrulanabilir (borç). Atlas başlangıcı 1281 (Kakatiya) ilk tanıktan öncedir: sahip:[] (uyarı beklenen). Britannica 1686-1759 Fransız/Hollanda elinde der; atlasın 1512-1687 Golkonda dönemi sonrası zinciriyle karşılaştırılması borç (burada ölçülmedi)."
+ },
+ {
+  "id": "meysur-in-p6",
+  "ad": "Meysûr (Mysuru)",
+  "atlas_ad": "Meysûr (Mysore)",
+  "lat": 12.295,
+  "lon": 76.639,
+  "kat1900": 3,
+  "adlar": [
+   "Mysore",
+   "Mysuru",
+   "Meysûr"
+  ],
+  "ilk": {
+   "t": "1799-01-01",
+   "gun": "1799",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Mysuru' (slug Mysore), https://www.britannica.com/place/Mysore (17 Kasım 2026'da tarayıcıda okundu; madde başlığı şehir)",
+   "tanik": "It was the administrative capital of the princely state of Mysore from 1799 to 1831."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1799-01-01",
+    "gun": "1799",
+    "k": "diger",
+    "b": "Meysûr şehri Mysore prenslik devletinin idarî başkenti oldu (1799-1831)",
+    "kesinlik": "yil",
+    "kaynak": "Britannica 'Mysuru': It was the administrative capital of the princely state of Mysore from 1799 to 1831"
+   }
+  ],
+  "ic_not": "TEK KAYNAK (Britannica). 1799 şehrin ilk anılışı DEĞİL; ulaşılabilen en erken şehre-atıflı yıl tarihli tanık. Britannica Vodeyar hanedanının bölgeyi 1399'dan beri yönettiğini söyler (bölge/hanedan anılışı; şehrin kendi olgusu sayılmadı). TDV 'Meysûr' (Azmi Özcan, https://islamansiklopedisi.org.tr/meysur) maddesinin başlığı eyalet/sultanlıktır (şehir değil): şehri 'Bengalur'dan sonra Karnataka'nın ikinci büyük şehri' diye anar, Tîpû Sultan'ın Seringapatam'da Mayıs 1799'da öldüğünü yazar — bölge/başka şehir olgusu, bu kayda alınmadı. Atlas başlangıcı 1281 (Hoysala) ilk tanıktan öncedir: sahip:[]. Atlas künyesi 'meysur' 1610-1799 için IGI atfı atlasın kendi kaydıdır; burada doğrulanmadı."
+ },
+ {
+  "id": "rajahmundry-in-p6",
+  "ad": "Râcahmundry (Rajahmundry)",
+  "atlas_ad": "Râcahmundry",
+  "lat": 17.005,
+  "lon": 81.777,
+  "kat1900": 3,
+  "adlar": [
+   "Rajahmundry",
+   "Rajamahendravaram"
+  ],
+  "ilk": {
+   "t": "1449-01-01",
+   "gun": "1449",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Rajamahendravaram' (slug Rajahmundry), https://www.britannica.com/place/Rajahmundry (17 Kasım 2026'da tarayıcıda okundu)",
+   "tanik": "In 1449 Rajahmundry was captured by Kapileshvara, the Orissa (now Odisha) ruler."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1449-01-01",
+    "gun": "1449",
+    "k": "fetih",
+    "b": "Orissa hükümdarı Kapileşvara Râcahmundry'yi ele geçirdi",
+    "kesinlik": "yil",
+    "kaynak": "Britannica 'Rajamahendravaram': In 1449 Rajahmundry was captured by Kapileshvara, the Orissa ruler"
+   },
+   {
+    "t": "1516-01-01",
+    "gun": "1516",
+    "k": "fetih",
+    "b": "Vijayanagara kralı Krişnadevaraya'nın Râcahmundry'yi fethi (EN GEÇ tarih: 1515-16 yazıtı)",
+    "kesinlik": "yil",
+    "kaynak": "Sewell, A Forgotten Empire (1900), 'Corrections' bölümü: yazıtlar 'dated in A.D. 1515-16, mention the King's conquest of Udayagiri, Kondavid, Kondapalle, and Rajahmundry'"
+   },
+   {
+    "t": "1757-01-01",
+    "gun": "1757",
+    "k": "antlasma",
+    "b": "Râcahmundry İngilizlere bırakıldı (ceded)",
+    "kesinlik": "yil",
+    "kaynak": "Britannica 'Rajamahendravaram': In 1757 it was ceded to the British"
+   }
+  ],
+  "ic_not": "1449 olgusu TEK KAYNAK (Britannica); 1515-16 Vijayanagara fethi ayrı bir olgudur ve Sewell'den gelir (yazıt tarihi = fethin EN GEÇ tarihi; gerçek fetih yılı daha erken olabilir, 'f en geç tanıktan' beyanı). Sewell ayrıca Bahmenî III. Muhammed'in Râcahmundry'de Narasimha Raya'yı bulduğunu anlatır (yıl cümlede yok, c. 1481: yazılmadı). Britannica 'Orissa ruler Kapileshvara' der; atlasın 1347-1512 'behmeni' ve sonra 'golkonda' zinciriyle çelişir (1449'da Orissa'nın şehri aldığı atlasta yok) — atlas düzeltme adayı: Kapileşvara (Gajapati) künyesi atlasta açık değil, kunye_yok önerisi 'gajapati-orissa'. Atlas başlangıcı 1281 ilk tanıktan öncedir: sahip:[]."
+ },
+ {
+  "id": "serampore-in-p6",
+  "ad": "Serampore",
+  "atlas_ad": "Serampore",
+  "lat": 22.75,
+  "lon": 88.34,
+  "kat1900": 3,
+  "adlar": [
+   "Frederiksnagar",
+   "Serampore"
+  ],
+  "ilk": {
+   "t": "1793-01-01",
+   "gun": "1793",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Serampore', https://www.britannica.com/place/Serampore (17 Kasım 2026'da tarayıcıda okundu)",
+   "tanik": "A Baptist mission was begun there in 1793."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1845-01-01",
+    "gun": "1845",
+    "k": "diger",
+    "b": "Serampore İngilizlere geçti (Danimarka'dan devralındı)",
+    "kesinlik": "yil",
+    "kaynak": "Britannica 'Serampore': the town was acquired by the British in 1845"
+   },
+   {
+    "t": "1865-01-01",
+    "gun": "1865",
+    "k": "diger",
+    "b": "Serampore belediye (municipality) yapıldı",
+    "kesinlik": "yil",
+    "kaynak": "Britannica 'Serampore': It was constituted a municipality in 1865"
+   }
+  ],
+  "ic_not": "TEK KAYNAK (Britannica). Britannica şehri 'originally a Danish settlement founded in the 18th century and called Frederiksnagar' diye tanımlar (yüzyıl düzeyi; atlas kur 1755-01-01 Nationalmuseet atfıyla yazılmış — Britannica ile uyumlu, burada ayrıca doğrulanmadı). 1793 tanığı (Baptist misyonu) şehre atıflı en erken yıl-tarihli ifadedir; kuruluş tanığı DEĞİL. 1845 İngiliz devri Britannica'da yıl düzeyinde; atlas 1845-02-22 günü taşır (tutarlı). Atlas başlangıcı 1755 ilk tanıktan (1793) ÖNCEDİR: sahip:[]."
+ },
+ {
+  "id": "yafna-lk-p6",
+  "ad": "Yafna (Jaffna)",
+  "atlas_ad": "Yafna (Jaffna)",
+  "lat": 9.661,
+  "lon": 80.026,
+  "kat1900": 3,
+  "adlar": [
+   "Jaffna",
+   "Yafna"
+  ],
+  "ilk": {
+   "t": "1619-01-01",
+   "gun": "1619",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Jaffna', https://www.britannica.com/place/Jaffna-Sri-Lanka (17 Kasım 2026'da tarayıcıda okundu)",
+   "tanik": "Jaffna fell under Portuguese rule in 1619"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1619-01-01",
+    "gun": "1619",
+    "k": "fetih",
+    "b": "Jaffna Portekiz hâkimiyetine girdi",
+    "kesinlik": "yil",
+    "kaynak": "Britannica 'Jaffna': Jaffna fell under Portuguese rule in 1619"
+   },
+   {
+    "t": "1658-01-01",
+    "gun": "1658",
+    "k": "fetih",
+    "b": "Hollandalılar Jaffna'yı Portekizlilerden aldı (Seylan'daki son Portekiz mevzii)",
+    "kesinlik": "yil",
+    "kaynak": "Britannica 'Jaffna': ... their last possession in Ceylon (Sri Lanka) before its capture by the Dutch in 1658"
+   }
+  ],
+  "ic_not": "TEK KAYNAK (Britannica). Britannica Jaffna'nın 'yüzyıllarca bir Tamil krallığının başkenti' olduğunu söyler (yıl yok → ilk'e yazılmadı). 1619 Portekiz hâkimiyeti atlasın yafna→portekiz devrini 1619-02-01 ile tutar (tutarlı, gün Britannica'da yok). Hollanda'nın 1658'i atlas 1658-06-21'de tutar (tutarlı). Britannica 'British held Jaffna after 1795' der; atlas 1796-02-16 (Hollanda Seylanı sonu, Colombo'nun teslimi): 'after 1795' ile uyumsuzluk kesin değil, olay yazılmadı. Atlas başlangıcı 1281 (yafna) ilk tanıktan öncedir: sahip:[]; Yafna Krallığı'nın ilk anılışı (Majumdar/Sewell'de Jaffna geçmez) bulunamadı: borç."
+ },
+ {
+  "id": "yanam-in-p6",
+  "ad": "Yanam",
+  "atlas_ad": "Yanam",
+  "lat": 16.7333,
+  "lon": 82.2167,
+  "kat1900": 3,
+  "adlar": [
+   "Yanam"
+  ],
+  "ilk": {
+   "t": "1765-01-01",
+   "gun": "1765",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Britannica, 'Yanam', https://www.britannica.com/place/Yanam-India (17 Kasım 2026'da tarayıcıda okundu)",
+   "tanik": "(British colonial administrative unit) in 1765, Yanam remained a French enclave"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1765-01-01",
+    "t": "1817-04-12",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "bulunamadı (Britannica 1765'te Fransız enklavı kaldığını söyler; 17.-18. yy savaşları ve 1817'ye dek sahiplik aralıkları yok)",
+    "ic_not": "Britannica: 17.-18. yy'larda Müslüman, İngiliz ve Fransız birlikleri arasında sürekli savaş; 1765'te kıyı ovasının çoğu Madras Presidency'ye katılırken Yanam Fransız enklavı olarak kaldı. Fransız tutumunun 1817'ye kadar kesintisiz sürdüğü yazılmaz (atlas ve IGI başka bir ilk-edinim/iade günleri taşıyabilir); beyanlı boşluk."
+   }
+  ],
+  "olay": [],
+  "dikis_beyan": "Atlas Yanam'ı 1817-04-12'de fransiz-hindistani ile başlatır (atlasın kendi IGI atfı); Britannica yalnız 1765 enklav durumunu verir; 1817 iadesi için gün/yıl tanığı bu oturumda yok, yer tutucu olay yazılmadı.",
+  "ic_not": "TEK KAYNAK (Britannica). Britannica Yanam'ın Chola imparatorluğunun parçası olduğunu (tarihsiz) ve 16. yy'da Müslüman işgaline girdiğini (yüzyıl düzeyi) söyler; bunlar ilk/olay kuralını (yıl+yer) karşılamadığı için yazılmadı. Atlas künye önerisi: 1765'ten önceki Fransız ilk-edinim tarihi (IGI yaklaşık 1708 verir, atlasın beyanı) kaynak okunarak sınanmalı."
+ }
+];

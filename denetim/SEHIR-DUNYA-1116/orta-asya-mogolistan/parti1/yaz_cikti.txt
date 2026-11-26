@@ -1,0 +1,15 @@
+  UYARI almalik-cn: atlas noktası 1227-01-01'da başlıyor, şehir 1227-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI belh-af: dikiş beyanlı borç __BOSLUK__ → greko-baktria (atlas) (-0249-01-01): Atlas Belh'i -0249-01-01'de greko-baktria ile başlatır; TDV 'Belh' Selevkos→Bakt
+  UYARI buhara-uz: atlas noktası 0500-01-01'da başlıyor, şehir 0630-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI gazne-af: atlas noktası 0500-01-01'da başlıyor, şehir 0701-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI herat-af: atlas noktası 0500-01-01'da başlıyor, şehir 0661-05-07 — atlas başlangıcı düzeltilmeli
+  UYARI hive-uz: dikiş beyanlı borç __BOSLUK__ → cagatay (atlas) (1281-01-01): Atlas Hîve'yi 1281-01-01'de cagatay ile başlatır; 1281 için kaynaklı el değiştir
+  UYARI hokand-uz: atlas noktası 0500-01-01'da başlıyor, şehir 0999-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI kabil-af: atlas noktası 0500-01-01'da başlıyor, şehir 0795-03-27 — atlas başlangıcı düzeltilmeli
+  UYARI karakurum-mn: atlas noktası 0500-01-01'da başlıyor, şehir 1220-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI kasgar-cn: atlas noktası 0500-01-01'da başlıyor, şehir 0715-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI semerkant-uz: dikiş beyanlı borç __BOSLUK__ → eftalit (atlas) (0500-01-01): Atlas Semerkant'ı 0500-01-01'de eftalit ile başlatır; MÖ 329-MS 500 arası sahip 
+  UYARI serahs-tm: atlas noktası 0500-01-01'da başlıyor, şehir 0652-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI taskent-uz: atlas noktası 0500-01-01'da başlıyor, şehir 0713-01-01 — atlas başlangıcı düzeltilmeli
+13 şehir · 3 sahiplik dönemi · 90 olay · ihlal 0 · uyarı 13
+yazıldı → denetim/SEHIR-DUNYA-1116/orta-asya-mogolistan/parti1/parti1_dogrulu_test.js

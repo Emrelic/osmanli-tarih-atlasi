@@ -1,0 +1,14 @@
+  UYARI bangalor-in-p6: atlas noktası 1537-01-01'da başlıyor, şehir 1537-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI charaideo-in-p6.sahip[0]: 'ahom' 1268-01-01'de, künye 1281-01-01'de başlıyor (hayalet)
+  UYARI daman-in-p6: dikiş beyanlı borç __BOSLUK__ → portekiz-hindistani-goa (atlas) (1559-02-02): Atlas Daman'ı 1559-02-02'de portekiz-hindistani-goa ile başlatır (kur:1559-02-02
+  UYARI kannur-in-p6: atlas noktası 1281-01-01'da başlıyor, şehir 1505-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI kurnool-in-p6: atlas noktası 1281-01-01'da başlıyor, şehir 1866-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI mahe-in-p6: dikiş beyanlı borç __BOSLUK__ → fransiz-hindistani (atlas) (1817-02-22): Atlas Mahé'yi 1817-02-22'de fransiz-hindistani ile başlatır (atlasın kendi IGI a
+  UYARI masulipatnam-in-p6: atlas noktası 1281-01-01'da başlıyor, şehir 1611-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI meysur-in-p6: atlas noktası 1281-01-01'da başlıyor, şehir 1799-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI rajahmundry-in-p6: atlas noktası 1281-01-01'da başlıyor, şehir 1449-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI serampore-in-p6: atlas noktası 1755-01-01'da başlıyor, şehir 1793-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI yafna-lk-p6: atlas noktası 1281-01-01'da başlıyor, şehir 1619-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI yanam-in-p6: dikiş beyanlı borç __BOSLUK__ → fransiz-hindistani (atlas) (1817-04-12): Atlas Yanam'ı 1817-04-12'de fransiz-hindistani ile başlatır (atlasın kendi IGI a
+12 şehir · 4 sahiplik dönemi · 18 olay · ihlal 0 · uyarı 12
+yazıldı → denetim/SEHIR-DUNYA-1116/hint/parti6/B_test.js

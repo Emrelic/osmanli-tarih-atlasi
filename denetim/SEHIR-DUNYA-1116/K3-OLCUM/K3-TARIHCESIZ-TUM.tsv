@@ -149,7 +149,7 @@ yerlesimler.js:332	Voronej	51.672	39.184	sibirya-bozkir	altinorda	yok	var(1)	3
 yerlesimler.js:337	Palermo	38.116	13.361	italya	sicilya-kralligi	var	var(37)	3	sehir_tarihce_k3_g2:3km yer_kat:3km
 yerlesimler.js:347	Addis	9.03	38.74	dogu-afrika	habesistan	var	var(14)	3	yer_kat:3km
 yerlesimler.js:348	Ndjamena	12.107	15.045	bati-avrupa	fransa-cumhuriyet	yok	var(1)	3	
-yerlesimler.js:349	Agadez	16.973	7.991	bati-afrika	agadez-sultanligi	yok	var(5)	3	
+yerlesimler.js:349	Agadez	16.973	7.991	bati-afrika	agadez-sultanligi	var	var(5)	3	sehir_tarihce_afrika_gb:3km
 yerlesimler.js:356	Lyon	45.76	4.836	italya	roma-cumhuriyeti	yok	var(8)	3	
 yerlesimler.js:357	Marsilya	43.297	5.37	bati-avrupa	massalia	yok	var(11)	3	
 yerlesimler.js:358	Bordo	44.838	-0.579	bati-avrupa	ingiltere	var	var(10)	3	sehir_tarihce_k3:3km
@@ -637,13 +637,13 @@ yerlesimler_avrupa.js:280	Foggia	41.462	15.544	italya	sicilya-kralligi	var	var(1
 yerlesimler_avrupa.js:281	Cosenza	39.298	16.253	italya	sicilya-kralligi	var	var(2)	3	sehir_tarihce_k3:3km yer_kat:3km
 yerlesimler_avrupa.js:282	Reggio Calabria	38.111	15.647	italya	sicilya-kralligi	var	var(5)	3	yer_kat:3km
 yerlesimler_avrupa.js:283	Katanya (Catania)	37.502	15.087	italya	sicilya-kralligi	var	var(2)	3	yer_kat:3km
-yerlesimler_asya.js:2	Mathura	27.492	77.673	guney-asya	babur-imparatorlugu	yok	var(1)	3	
-yerlesimler_asya.js:3	Mîrat (Meerut)	28.984	77.706	guney-asya	babur-imparatorlugu	yok	var(1)	3	
+yerlesimler_asya.js:2	Mathura	27.492	77.673	guney-asya	babur-imparatorlugu	var	var(1)	3	sehir_tarihce_hint:3km
+yerlesimler_asya.js:3	Mîrat (Meerut)	28.984	77.706	guney-asya	babur-imparatorlugu	var	var(1)	3	sehir_tarihce_hint:3km
 yerlesimler_asya.js:4	Pânipat	29.39	76.977	guney-asya	babur-imparatorlugu	yok	var(4)	3	
 yerlesimler_asya.js:7	Etâve (Etawah)	26.776	79.015	guney-asya	babur-imparatorlugu	var	var(1)	3	sehir_tarihce_hint:3km
 yerlesimler_asya.js:8	Kannauc	27.055	79.916	guney-asya	delhi-sultanligi	var	var(13)	3	sehir_tarihce_hint:3km
 yerlesimler_asya.js:9	Kanpûr	26.45	80.332	guney-asya	delhi-sultanligi	var	yok	3	yer_kat:3km
-yerlesimler_asya.js:15	Gorakhpûr	26.76	83.373	guney-asya	delhi-sultanligi	yok	yok	3	
+yerlesimler_asya.js:15	Gorakhpûr	26.76	83.373	guney-asya	delhi-sultanligi	var	yok	3	sehir_tarihce_hint:3km
 yerlesimler_asya.js:19	Amritsar	31.634	74.873	guney-asya	babur-imparatorlugu	var	var(2)	3	sehir_tarihce_hint:3km yer_kat:3km
 yerlesimler_asya.js:21	Câlandhar (Jalandhar)	31.326	75.576	guney-asya	babur-imparatorlugu	yok	yok	3	
 yerlesimler_asya.js:22	Ludhiyana	30.901	75.857	guney-asya	babur-imparatorlugu	yok	yok	3	
@@ -651,21 +651,21 @@ yerlesimler_asya.js:23	Siyâlkot	32.494	74.531	guney-asya	delhi-sultanligi	yok	v
 yerlesimler_asya.js:25	Râvalpindi	33.598	73.048	guney-asya	babur-imparatorlugu	yok	yok	3	
 yerlesimler_asya.js:26	Peşâver	34.008	71.578	orta-asya	kusan	var	var(6)	3	yer_kat:3km
 yerlesimler_asya.js:38	Karaçi	24.861	67.01	guney-asya	sind	var	var(2)	3	sehir_tarihce_hint:3km
-yerlesimler_asya.js:39	Şikârpûr	27.955	68.638	guney-asya	babur-imparatorlugu	yok	var(2)	3	
+yerlesimler_asya.js:39	Şikârpûr	27.955	68.638	guney-asya	babur-imparatorlugu	var	var(2)	3	sehir_tarihce_hint:3km
 yerlesimler_asya.js:41	Ecmîr (Ajmer)	26.45	74.639	guney-asya	cahamana	var	var(7)	3	sehir_tarihce_hint:3km
-yerlesimler_asya.js:47	Bikaner	28.022	73.312	guney-asya	racput	yok	var(2)	3	
+yerlesimler_asya.js:47	Bikaner	28.022	73.312	guney-asya	racput	var	var(2)	3	sehir_tarihce_hint:3km
 yerlesimler_asya.js:50	Sûrat	21.17	72.831	guney-asya	racput	var	var(1)	3	yer_kat:3km
-yerlesimler_asya.js:51	Kanbâyet (Khambhat)	22.317	72.62	guney-asya	racput	yok	yok	3	
+yerlesimler_asya.js:51	Kanbâyet (Khambhat)	22.317	72.62	guney-asya	racput	var	yok	3	sehir_tarihce_hint:3km
 yerlesimler_asya.js:54	Bhuc (Kutch)	23.242	69.667	guney-asya	racput	yok	yok	3	
 yerlesimler_asya.js:55	Patan (Anhilvâda)	23.85	72.126	guney-asya	caulukya	yok	var(3)	3	
-yerlesimler_asya.js:57	Broaç (Bharuch)	21.7153	72.995	guney-asya	racput	yok	yok	3	
-yerlesimler_asya.js:59	Uccayn (Ujjain)	23.179	75.785	guney-asya	sakalar-bati-satraplar	yok	var(4)	3	
-yerlesimler_asya.js:60	İndor (Indore)	22.72	75.858	guney-asya	babur-imparatorlugu	yok	var(2)	3	
+yerlesimler_asya.js:57	Broaç (Bharuch)	21.7153	72.995	guney-asya	racput	var	yok	3	sehir_tarihce_hint:3km
+yerlesimler_asya.js:59	Uccayn (Ujjain)	23.179	75.785	guney-asya	sakalar-bati-satraplar	var	var(4)	3	sehir_tarihce_hint:3km
+yerlesimler_asya.js:60	İndor (Indore)	22.72	75.858	guney-asya	babur-imparatorlugu	var	var(2)	3	sehir_tarihce_hint:3km
 yerlesimler_asya.js:63	Nagpûr	21.146	79.088	guney-asya	gond-kralliklari	var	yok	3	yer_kat:3km
 yerlesimler_asya.js:64	Cabalpûr (Jabalpur)	23.181	79.987	guney-asya	gond-kralliklari	yok	yok	3	
 yerlesimler_asya.js:66	Gayâ	24.796	85.001	guney-asya	bengal-sultanligi	yok	yok	3	
 yerlesimler_asya.js:68	Bhâgalpûr	25.244	86.982	guney-asya	bengal-sultanligi	yok	yok	3	
-yerlesimler_asya.js:71	Râcmahal	25.052	87.836	guney-asya	babur-imparatorlugu	yok	yok	3	
+yerlesimler_asya.js:71	Râcmahal	25.052	87.836	guney-asya	babur-imparatorlugu	var	yok	3	sehir_tarihce_hint:3km
 yerlesimler_asya.js:74	Sonârgâon	23.646	90.599	guney-asya	bengal-sultanligi	yok	var(1)	3	
 yerlesimler_asya.js:75	Çatgam (Chittagong)	22.335	91.834	guney-asya	delhi-sultanligi	var	var(1)	3	sehir_tarihce_hint:3km
 yerlesimler_asya.js:77	Hûglî (Hooghly)	22.897	88.39	guney-asya	bengal-sultanligi	yok	yok	3	
@@ -679,20 +679,20 @@ yerlesimler_asya.js:98	Kolhapûr	16.705	74.243	guney-asya	yadava	yok	var(3)	3
 yerlesimler_asya.js:99	Nâsik	19.998	73.79	guney-asya	yadava	yok	yok	3	
 yerlesimler_asya.js:101	Çaul (Chaul)	18.56	72.92	guney-asya	yadava	var	var(1)	3	sehir_tarihce_hint:3km
 yerlesimler_asya.js:102	Goa	15.503	73.912	guney-asya	yadava	var	var(4)	3	sehir_tarihce_hint:3km
-yerlesimler_asya.js:103	Mangalor	12.914	74.856	guney-asya	hoysala	yok	yok	3	
-yerlesimler_asya.js:106	Kurnûl (Kurnool)	15.828	78.037	guney-asya	kakatiya	yok	yok	3	
-yerlesimler_asya.js:107	Bangalor	12.972	77.594	guney-asya	vijayanagara	yok	var(1)	3	
-yerlesimler_asya.js:109	Meysûr (Mysore)	12.295	76.639	guney-asya	vijayanagara	yok	var(1)	3	
+yerlesimler_asya.js:103	Mangalor	12.914	74.856	guney-asya	hoysala	var	yok	3	sehir_tarihce_hint:3km
+yerlesimler_asya.js:106	Kurnûl (Kurnool)	15.828	78.037	guney-asya	kakatiya	var	yok	3	sehir_tarihce_hint:3km
+yerlesimler_asya.js:107	Bangalor	12.972	77.594	guney-asya	vijayanagara	var	var(1)	3	sehir_tarihce_hint:3km
+yerlesimler_asya.js:109	Meysûr (Mysore)	12.295	76.639	guney-asya	vijayanagara	var	var(1)	3	sehir_tarihce_hint:3km
 yerlesimler_asya.js:111	Pondişeri	11.934	79.83	bati-avrupa	fransa	yok	var(2)	3	
 yerlesimler_asya.js:112	Nagapatnam	10.766	79.843	guney-asya	pandya	yok	yok	3	
 yerlesimler_asya.js:113	Tranquebar (Tharangambadi)	11.029	79.851	guney-asya	pandya	yok	yok	3	
-yerlesimler_asya.js:122	Kannûr (Cannanore)	11.868	75.355	guney-asya	kalikut	yok	yok	3	
-yerlesimler_asya.js:123	Kolam (Quilon)	8.893	76.614	guney-asya	travankur	yok	var(5)	3	
-yerlesimler_asya.js:125	Masulipatnam	16.19	81.13	guney-asya	kakatiya	yok	yok	3	
-yerlesimler_asya.js:126	Râcahmundry	17.005	81.777	guney-asya	kakatiya	yok	yok	3	
+yerlesimler_asya.js:122	Kannûr (Cannanore)	11.868	75.355	guney-asya	kalikut	var	yok	3	sehir_tarihce_hint:3km
+yerlesimler_asya.js:123	Kolam (Quilon)	8.893	76.614	guney-asya	travankur	var	var(5)	3	sehir_tarihce_hint:3km
+yerlesimler_asya.js:125	Masulipatnam	16.19	81.13	guney-asya	kakatiya	var	yok	3	sehir_tarihce_hint:3km
+yerlesimler_asya.js:126	Râcahmundry	17.005	81.777	guney-asya	kakatiya	var	yok	3	sehir_tarihce_hint:3km
 yerlesimler_asya.js:127	Vişâkapatnam	17.687	83.219	guney-asya	kakatiya	var	yok	3	yer_kat:3km
 yerlesimler_asya.js:128	Kolombo	6.927	79.861	guney-asya	seylan-sinhala	var	var(1)	3	yer_kat:3km
-yerlesimler_asya.js:130	Yafna (Jaffna)	9.661	80.026	guney-asya	yafna	yok	yok	3	
+yerlesimler_asya.js:130	Yafna (Jaffna)	9.661	80.026	guney-asya	yafna	var	yok	3	sehir_tarihce_hint:3km
 yerlesimler_asya.js:132	Tiencin (Tianjin)	39.084	117.201	dogu-asya	ming-hanedani	yok	var(1)	3	
 yerlesimler_asya.js:133	Baoding	38.874	115.464	dogu-asya	yuan-hanedani	var	yok	3	sehir_tarihce_k3:3km yer_kat:3km
 yerlesimler_asya.js:134	Zhengding	38.144	114.573	dogu-asya	yuan-hanedani	var	var(4)	3	sehir_tarihce_k3:3km yer_kat:3km
@@ -1329,11 +1329,11 @@ yerlesimler_ek_macaristan.js:3	Szatmár (Satu Mare)	47.7892	22.8726	orta-avrupa	
 yerlesimler_ek_macaristan.js:8	Zilah (Zalău)	47.1994	23.0572	orta-avrupa	macaristan-habsburg	yok	yok	3	
 yerlesimler_ek_bosluk.js:0	Birecik	37.025	37.977	misir-sudan	memluk	yok	yok	3	
 yerlesimler_ek_bosluk.js:2	Dimitrofça (Sremska Mitrovica)	44.976	19.612	italya	roma-imp	yok	yok	3	
-yerlesimler_hindistan.js:2	Daman	20.415	72.833	guney-asya	portekiz-hindistani-goa	yok	var(1)	3	
+yerlesimler_hindistan.js:2	Daman	20.415	72.833	guney-asya	portekiz-hindistani-goa	var	var(1)	3	sehir_tarihce_hint:3km
 yerlesimler_hindistan.js:3	Karaikal (Karikal)	10.92	79.838	guney-asya	fransiz-hindistani	yok	var(1)	3	
-yerlesimler_hindistan.js:4	Mahé	11.701	75.536	guney-asya	fransiz-hindistani	yok	var(1)	3	
-yerlesimler_hindistan.js:5	Yanam	16.7333	82.2167	guney-asya	fransiz-hindistani	yok	var(1)	3	
-yerlesimler_hindistan.js:6	Serampore	22.75	88.34	guney-asya	danimarka-hindistani	yok	var(2)	3	
+yerlesimler_hindistan.js:4	Mahé	11.701	75.536	guney-asya	fransiz-hindistani	var	var(1)	3	sehir_tarihce_hint:3km
+yerlesimler_hindistan.js:5	Yanam	16.7333	82.2167	guney-asya	fransiz-hindistani	var	var(1)	3	sehir_tarihce_hint:3km
+yerlesimler_hindistan.js:6	Serampore	22.75	88.34	guney-asya	danimarka-hindistani	var	var(2)	3	sehir_tarihce_hint:3km
 yerlesimler_ok104.js:1	Leş (Alessio)	41.783	19.644	italya	roma-imp	var	var(2)	3	sehir_tarihce_k3:3km kaynakli_halka_kronoloji:ad(koordinatsiz)
 yerlesimler_ok104.js:2	Debre (Dibra)	41.524	20.531		suleyman-celebi	var	var(3)	3	sehir_tarihce_osm:3km yer_kat:3km
 yerlesimler_ok104.js:3	Sa'de	16.94	43.764	arabistan	yemen-zeydi	yok	var(9)	3	
@@ -1491,7 +1491,7 @@ yerlesimler_sahne1108.js:24	Hysiai (Argolis)	37.5200016	22.5862423			yok	var(1)	
 yerlesimler_sahne1108.js:25	Hawikuh (Hawikku, Zuni)	34.93222	-108.98456	kuzey-amerika	zuni	yok	var(1)	3	
 yerlesimler_sahne1108.js:26	Chocontá	5.14667	-73.6825	iberya	ispanya	yok	var(1)	3	
 yerlesimler_sahne1108.js:27	Haldighati	24.8921711	73.6978065	guney-asya	racput	yok	var(1)	3	
-yerlesimler_sahne1108.js:28	Charaideo	26.94194	94.87611	guney-asya	ahom	yok	var(1)	3	
+yerlesimler_sahne1108.js:28	Charaideo	26.94194	94.87611	guney-asya	ahom	var	var(1)	3	sehir_tarihce_hint:3km
 yerlesimler_sahne1108.js:29	Chapultepec	19.41306	-99.19778	orta-amerika-karayip	nahua-sehir-devletleri	yok	var(1)	3	
 yerlesimler_sahne1108.js:30	Kolaçel (Colachel)	8.1786	77.2561	guney-asya	travankur	yok	yok	3	
 yerlesimler_sahne1108.js:31	Göktepe (Gökdepe / Geok Tepe)	38.15778	57.96639	iran	ilhanli	yok	yok	3	

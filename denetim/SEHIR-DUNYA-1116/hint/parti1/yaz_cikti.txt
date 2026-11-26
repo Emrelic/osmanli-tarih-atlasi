@@ -1,0 +1,11 @@
+  UYARI agra-in: dikiş beyanlı borç __BOSLUK__ → delhi-sultanligi (atlas) (1504-01-01): Atlas Âgra'yı 1504-01-01'de delhi-sultanligi ile başlatır; TDV Sikender Lûdî'nin
+  UYARI amritsar-in: atlas noktası 1577-01-01'da başlıyor, şehir 1577-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI bahavelpur-pk: atlas noktası 1748-01-01'da başlıyor, şehir 1748-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI dakka-bd: atlas noktası 1026-01-01'da başlıyor, şehir 1456-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI delhi-in: atlas noktası 0736-01-01'da başlıyor, şehir 0736-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI ecmir-in: atlas noktası 0682-01-01'da başlıyor, şehir 0682-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI kalkuta-in: atlas noktası 1690-08-24'da başlıyor, şehir 1690-08-24 — atlas başlangıcı düzeltilmeli
+  UYARI lahor-pk: atlas noktası 0982-06-26'da başlıyor, şehir 0982-06-26 — atlas başlangıcı düzeltilmeli
+  UYARI multan-pk: dikiş beyanlı borç __BOSLUK__ → multan-emirligi (atlas) (0903-01-01): Atlas Mültan'ı 0903-01-01'de multan-emirligi ile başlatır; 903 TDV'de değil (atl
+12 şehir · 5 sahiplik dönemi · 47 olay · ihlal 0 · uyarı 9
+yazıldı → denetim/SEHIR-DUNYA-1116/hint/parti1/parti1_dogrulu_test.js

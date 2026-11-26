@@ -1,0 +1,633 @@
+// ŞEHİR TARİHÇESİ — HINT_TEST · üretici: arac/sehir_tarihce.py · şema: VERI-YAPISI.md
+// Motor/denetle/site OKUMAZ — araştırma birikimi. Elle düzenleme: JSON'u düzelt, yeniden üret.
+window.SEHIR_TARIHCE_HINT_TEST = [
+ {
+  "id": "bhopal-in",
+  "ad": "Bhopâl",
+  "atlas_ad": "Bhopâl",
+  "lat": 23.259,
+  "lon": 77.413,
+  "kat1900": null,
+  "adlar": [
+   "Bopal",
+   "Bhopal"
+  ],
+  "ilk": {
+   "t": "1728-01-01",
+   "gun": "1728",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Bopal (şehir)» md. (Enver Konukçu), c. 6, 1992, s. 283-284, https://islamansiklopedisi.org.tr/bopal--sehir (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+   "tanik": "Bopal şehri 1728’de, devletin de bânisi olan Dost Muhammed Han tarafından kurulmuştur"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1728-01-01",
+    "gun": "1728",
+    "k": "kurulus",
+    "b": "Bopal şehri devletin de bânisi olan Dost Muhammed Han tarafından kuruldu",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Bopal (şehir)» md. (Enver Konukçu), c. 6, 1992, s. 283-284, https://islamansiklopedisi.org.tr/bopal--sehir (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "Bopal şehri 1728’de, devletin de bânisi olan Dost Muhammed Han tarafından kurulmuştur"
+   }
+  ],
+  "ic_not": "Kaynak: TDV 'Bopal (şehir)' TAM METİN (Enver Konukçu; 'Bopal (devlet)' maddesi ayrı, okunup bu kayda bağlanmadı). Çift teyit YOK. Atlas Bhopâl noktasını 1707'de 'bhopal' ile başlatır (künye 1708-1949); şehir 1728'de kurulduğundan atlas başlangıcı şehir için 21 yıl erkendir (KASA: bhopal devleti 1708 künyesi ile şehir kuruluşu ayrı tutulmalı). TDV: 1816-1820 Nezir Muhammed Han imarı (Pindârî yıkımından sonra), 1956 Medya Pradeş merkezi, 3 Aralık 1984 gaz kazası zincire bağlanmadı."
+ },
+ {
+  "id": "bicapur-in",
+  "ad": "Bîcâpûr",
+  "atlas_ad": "Bîcâpur (Bijapur)",
+  "lat": 16.827,
+  "lon": 75.71,
+  "kat1900": null,
+  "adlar": [
+   "Vicayapura",
+   "Bîcâpûr",
+   "Bijapur"
+  ],
+  "ilk": {
+   "t": "1489-01-01",
+   "gun": "1489",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Âdilşâhîler» md. (Erdoğan Merçil), c. 1, 1988, s. 384-386, https://islamansiklopedisi.org.tr/adilsahiler (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+   "tanik": "Yûsuf Âdil, 1489’da adına hutbe okutarak Bîcâpûr’da bağımsızlığını ilân etti"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1489-01-01",
+    "gun": "1489",
+    "k": "kurulus",
+    "b": "Behmenî valisi Yûsuf Âdil Bîcâpûr'da adına hutbe okutarak bağımsızlığını ilân etti; Âdilşâhîler Devleti'ni kurdu, Bîcâpûr'a kale yaptırıp başşehri yaptı",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Âdilşâhîler» md. (Erdoğan Merçil), c. 1, 1988, s. 384-386, https://islamansiklopedisi.org.tr/adilsahiler (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "Yûsuf Âdil, 1489’da adına hutbe okutarak Bîcâpûr’da bağımsızlığını ilân etti"
+   },
+   {
+    "t": "1636-01-01",
+    "gun": "1636",
+    "k": "vassal",
+    "b": "Âdilşâhîler Bâbürlü hâkimiyetini tanıyan bir barışa zorlandı (1631'den beri Bâbürlü istilâsı)",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Âdilşâhîler» md. (Erdoğan Merçil), c. 1, 1988, s. 384-386, https://islamansiklopedisi.org.tr/adilsahiler (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "1636’da Âdilşâhîler Bâbürlü hâkimiyetini tanıyan bir barışa zorlandılar"
+   },
+   {
+    "t": "1686-09-22",
+    "gun": "4 Zilkade 1097 / 22 Eylül 1686",
+    "k": "fetih",
+    "b": "Bir yıldan fazla süren kuşatmadan sonra Bîcâpûr Bâbürlülere teslim oldu; Sikender Âdilşah esir düştü",
+    "kesinlik": "gun",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Âdilşâhîler» md. (Erdoğan Merçil), c. 1, 1988, s. 384-386, https://islamansiklopedisi.org.tr/adilsahiler (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "şehir Bâbürlüler’e teslim oldu; bu arada hükümdar da esir düştü (4 Zilkade 1097/22 Eylül 1686)"
+   },
+   {
+    "t": "1724-01-01",
+    "gun": "1724",
+    "k": "ilhak",
+    "b": "Bîcâpûr Haydarâbâd Nizamı'nın hâkimiyet bölgesine katıldı",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Bîcâpûr» md. (Arif Naim), c. 6, 1992, s. 127-128, https://islamansiklopedisi.org.tr/bicapur (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "1724’te Haydarâbâd nizamının hâkimiyet bölgesine katılan Bîcâpûr"
+   },
+   {
+    "t": "1760-01-01",
+    "gun": "1760",
+    "k": "diger",
+    "b": "Bîcâpûr 6 milyon rupi karşılığında Maratalara bırakıldı (sonra İngilizlere geçti)",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Bîcâpûr» md. (Arif Naim), c. 6, 1992, s. 127-128, https://islamansiklopedisi.org.tr/bicapur (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "1760’ta 6 milyon rupi karşılığında Maratalar’a bırakıldı"
+   }
+  ],
+  "ic_not": "Kaynak: TDV 'Bîcâpûr' + 'Âdilşâhîler' TAM METİN (1489, 1636 ve 22 Eylül 1686 Âdilşâhîler maddesinden; 1724 ve 1760 Bîcâpûr maddesinden; Bîcâpûr maddesi 1489 ve 1686 yıllarını da verir, iki madde ve iki yazar tutarlı; ikisi de TDV olduğundan bağımsız çift teyit sayılmadı). Çift teyit YOK. Bîcâpûr maddesi: '1190 yılından itibaren bir asır Yadava Krallığı yönetimi altında kalan BÖLGE, 1294'te Alâeddin Halacî tarafından Delhi sultanı amcası adına fethedildi' — BÖLGE düzeyi; şehir/kale tarihlenmediği için ilk.t olarak alınmadı, atlasın 1281 yadava başlangıcıyla TDV bölge düzeyinde yaklaşık uyumludur (Yadava künyesi 1187-1318) → atlas başlangıcı şehir için TDV'de dayanaksız ('düzeltilmeli' uyarısı beklenir). ilk.t: şehre özgü ilk TARİHLİ olgu (1489). 1656-57 Evrengzîb muhasarası (1067), 1537 barış, 1514 savaş, 1688 veba, 1864 zincire bağlanmadı."
+ },
+ {
+  "id": "bidar-in",
+  "ad": "Bîdar",
+  "atlas_ad": "Bîdar",
+  "lat": 17.913,
+  "lon": 77.52,
+  "kat1900": null,
+  "adlar": [
+   "Bîder",
+   "Muhammedâbâd (1424-)",
+   "Bîdar"
+  ],
+  "ilk": {
+   "t": "1322-01-01",
+   "gun": "722 (1322)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Muhammedâbâd (= Bîder)» md. (Azmi Özcan), c. 30, 2020, s. 582-583, https://islamansiklopedisi.org.tr/muhammedabad (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+   "tanik": "Bîder 722’de (1322) Muhammed b. Tuğluk tarafından fethedildi"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1322-01-01",
+    "gun": "722 (1322)",
+    "k": "fetih",
+    "b": "Bîder Muhammed b. Tuğluk tarafından fethedildi",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Muhammedâbâd (= Bîder)» md. (Azmi Özcan), c. 30, 2020, s. 582-583, https://islamansiklopedisi.org.tr/muhammedabad (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "Bîder 722’de (1322) Muhammed b. Tuğluk tarafından fethedildi"
+   },
+   {
+    "t": "1424-01-01",
+    "gun": "827 (1424)",
+    "k": "idari",
+    "b": "Behmenî Sultanı I. Ahmed yönetim merkezini Ahsenâbâd'dan (Gülberge) Bîder'e taşıdı ve adını Muhammedâbâd yaptı",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Muhammedâbâd (= Bîder)» md. (Azmi Özcan), c. 30, 2020, s. 582-583, https://islamansiklopedisi.org.tr/muhammedabad (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "827 (1424) yılında Behmenî Sultanı I. Ahmed yönetim merkezini Ahsenâbâd’dan (Gülberge) buraya taşıdı"
+   },
+   {
+    "t": "1492-01-01",
+    "gun": "897 (1492)",
+    "k": "fetih",
+    "b": "Şehir Berîdşâhîler'in eline geçti",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Muhammedâbâd (= Bîder)» md. (Azmi Özcan), c. 30, 2020, s. 582-583, https://islamansiklopedisi.org.tr/muhammedabad (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "897’de (1492) Berîdşâhîler’in"
+   },
+   {
+    "t": "1619-01-01",
+    "gun": "1028 (1619)",
+    "k": "fetih",
+    "b": "Şehir Âdilşâhîler'in eline geçti",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Muhammedâbâd (= Bîder)» md. (Azmi Özcan), c. 30, 2020, s. 582-583, https://islamansiklopedisi.org.tr/muhammedabad (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "1028’de (1619) Âdilşâhîler’in"
+   },
+   {
+    "t": "1657-01-01",
+    "gun": "1067 (1657)",
+    "k": "fetih",
+    "b": "Şehir Bâbürlüler'in eline geçti; XVIII. yy başında Haydarâbâd Nizamlığı'na bağlandı (yıl yok)",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Muhammedâbâd (= Bîder)» md. (Azmi Özcan), c. 30, 2020, s. 582-583, https://islamansiklopedisi.org.tr/muhammedabad (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "1067’de (1657) Bâbürlüler’in eline geçen şehir"
+   }
+  ],
+  "ic_not": "Kaynak: TDV 'Muhammedâbâd' TAM METİN (madde 'Bîder bk. Muhammedâbâd' ALIAS'ıdır; maddenin Dekken/Karnataka bölümü Bîder'i anlatır). Çift teyit YOK. Hicrî-milâdî eşlemeleri TDV'nin kendi parantezleridir (722=1322, 827=1424, 897=1492, 1028=1619, 1067=1657) — çeviri yapılmadı. ilk.t: şehre özgü EN ESKİ TARİHLİ olgu 1322 (fetih); önceki varlığı TDV'de yok. Atlas Bîdar'ı 1281'de kakatiya (künye 1163-1323) ile başlatır; 1322 fethi Muhammed b. Tuğluk (Delhi) tarafından, Kakatiya künyesinin 1323 bitişiyle uyumlu görünür ama TDV Bîder'in Kakatiya'ya ait olduğunu söylemez → atlas başlangıcı TDV'de dayanaksız ('düzeltilmeli' uyarısı beklenir). TDV: 1429 kale, 1472 Mahmûd-ı Gâvân medresesi, 1699 yıldırım, 1956 Meysûr eyaletine katılım zincire bağlanmadı."
+ },
+ {
+  "id": "gaur-bd",
+  "ad": "Gaur",
+  "atlas_ad": "Gaur (Lakhnautî)",
+  "lat": 24.868,
+  "lon": 88.133,
+  "kat1900": null,
+  "adlar": [
+   "Gavr (Gur)",
+   "Cennetâbâd",
+   "Leknevtî (Lakhnautî)"
+  ],
+  "ilk": {
+   "t": "1119-01-01",
+   "gun": "1108-1119",
+   "nicelik": "kurulus",
+   "kesinlik": "onyil",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Leknevtî» md. (Azmi Özcan), EK-2. c., 2019, s. 154-155, https://islamansiklopedisi.org.tr/leknevti (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+   "tanik": "Senâ hânedanına mensup Ballâl Sen (1108-1119) tarafından kurulan şehre Gavr (Gur) ve Cennetâbâd da denilir"
+  },
+  "kur": {
+   "t": "1119-01-01",
+   "gun": "1108-1119",
+   "kesinlik": "onyil",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Leknevtî» md. (Azmi Özcan), EK-2. c., 2019, s. 154-155, https://islamansiklopedisi.org.tr/leknevti (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+   "tanik": "Senâ hânedanına mensup Ballâl Sen (1108-1119) tarafından kurulan şehre Gavr (Gur) ve Cennetâbâd da denilir"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1119-01-01",
+    "t": "1150-01-01",
+    "d": "sena",
+    "kesinlik": "onyil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Leknevtî» md. (Azmi Özcan), EK-2. c., 2019, s. 154-155, https://islamansiklopedisi.org.tr/leknevti (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "Senâ hânedanına mensup Ballâl Sen (1108-1119) tarafından kurulan şehre Gavr (Gur) ve Cennetâbâd da denilir",
+    "ic_not": "Şehir Senâ hânedanından Ballâl Sen (1108-1119) tarafından kuruldu → sahip sena; f = kuruluş güvenli ucu (1119). TDV bu dilim için başka hâkim tanığı vermez; atlas 1150'de de sena ile başlar (aynı sahip, dikiş olay gerektirmez)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1198-01-01",
+    "gun": "594 (1198)",
+    "k": "fetih",
+    "b": "Gurlu kumandanı Muhammed Bahtiyâr Halacî Bengal bölgesini fethetti; Leknevtî adı tarihte ilk defa anılmaya başlandı",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Leknevtî» md. (Azmi Özcan), EK-2. c., 2019, s. 154-155, https://islamansiklopedisi.org.tr/leknevti (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "Bengal bölgesini fethetmesiyle (594/1198) tarihte ilk defa anılmaya başlandı"
+   },
+   {
+    "t": "1202-01-01",
+    "gun": "598 (1202)",
+    "k": "diger",
+    "b": "Muhammed Bahtiyâr Halacî, Senâ hânedanının başşehri ve o dönemde küçük bir yerleşim yeri olan Gavr'ı kendisine merkez seçti",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Leknevtî» md. (Azmi Özcan), EK-2. c., 2019, s. 154-155, https://islamansiklopedisi.org.tr/leknevti (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "Gavr’ı kendisine merkez olarak seçti (598/1202)"
+   },
+   {
+    "t": "1227-01-01",
+    "gun": "1227",
+    "k": "fetih",
+    "b": "İltutmış döneminde Şehzade Muhammed ve Melik İzzeddin şehri ele geçirdi; Leknevtî Halacîleri sona erdi, şehir Delhi Sultanlığı'na bağlandı",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Leknevtî» md. (Azmi Özcan), EK-2. c., 2019, s. 154-155, https://islamansiklopedisi.org.tr/leknevti (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "Leknevtî Delhi Sultanlığı’nın hâkimiyetine girdi (1227"
+   },
+   {
+    "t": "1538-01-01",
+    "gun": "1538",
+    "k": "fetih",
+    "b": "Bâbürlü Hümâyun Afgan Şîr Şah'ı yenip Leknevtî'yi ele geçirdi ve adını Cennetâbâd koydu",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Leknevtî» md. (Azmi Özcan), EK-2. c., 2019, s. 154-155, https://islamansiklopedisi.org.tr/leknevti (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "Hümâyun 1538’de Afgan Şîr Şah’ı mağlûp ederek Leknevtî’yi ele geçirdi"
+   },
+   {
+    "t": "1575-01-01",
+    "gun": "1575",
+    "k": "idari",
+    "b": "Bâbürlüler şehri tekrar eyalet merkezi yaptı (aynı yıl sel ve salgınla büyük tahribat)",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Leknevtî» md. (Azmi Özcan), EK-2. c., 2019, s. 154-155, https://islamansiklopedisi.org.tr/leknevti (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "1575’te Bâbürlüler tarafından tekrar eyalet merkezi haline getirilen şehir"
+   }
+  ],
+  "ic_not": "Kaynak: TDV 'Leknevtî' TAM METİN (madde başlığı Leknevtî; 'Gavr (Gur) ve Cennetâbâd da denilir' — Gaur ile aynı şehir, TDV eşitlemesi açık). Çift teyit YOK (Eaton, Banglapedia açılmadı). kur/ilk: Ballâl Sen'in hükümdarlık aralığı 1108-1119 (TDV parantezi) — kuruluş günü/yılı TDV'de yok; 'güvenli uç' 1119 alındı (daha erken olabilir). ÇELİŞKİ-benzeri: TDV ayrıca 'Leknevtî 594/1198 Bahtiyâr fethiyle tarihte ilk defa anılmaya başladı' der; bu AD (Leknevtî) için ilk anılıştır, Gavr kuruluşu (1108-1119) kuruluş olarak esas alındı; Gavr 1202'de 'küçük bir yerleşim yeri'. Atlas Gaur'u 1150'de sena ile başlatır; ilk.t 1119 < 1150 → atlas başlangıcı 1119'a çekilebilir (KASA). Sena künyesi 1095-1260. TDV: İlyasşâhîler (1345-1487) hâkimiyeti, merkezin Pandua'ya taşınması, 1704 Mürşidâbâd'a eyalet merkezi taşıması tarihleri zincire bağlanmadı (atlas zinciri esastır)."
+ },
+ {
+  "id": "golkonda-in",
+  "ad": "Golkonda",
+  "atlas_ad": "Golkonda",
+  "lat": 17.383,
+  "lon": 78.401,
+  "kat1900": null,
+  "adlar": [
+   "Gûlkünde",
+   "Golkonda"
+  ],
+  "ilk": {
+   "t": "1363-01-01",
+   "gun": "1363",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Gûlkünde (Golkonda)» md. (Seyyid Athar Abbas Rizvî), c. 14, 1996, s. 190, https://islamansiklopedisi.org.tr/gulkunde (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+   "tanik": "1363 yılında Behmenî Sultanı I. Muhammed Şah’ın önünden kaçan raca Kanhayya tarafından müslümanlara bırakıldı"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1363-01-01",
+    "gun": "1363",
+    "k": "fetih",
+    "b": "Varangal Racalığı'nın merkezi olan Hindu kalesi Gûlkünde, Behmenî Sultanı I. Muhammed Şah'ın önünden kaçan raca Kanhayya tarafından müslümanlara bırakıldı",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Gûlkünde (Golkonda)» md. (Seyyid Athar Abbas Rizvî), c. 14, 1996, s. 190, https://islamansiklopedisi.org.tr/gulkunde (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "1363 yılında Behmenî Sultanı I. Muhammed Şah’ın önünden kaçan raca Kanhayya tarafından müslümanlara bırakıldı"
+   },
+   {
+    "t": "1496-01-01",
+    "gun": "1496",
+    "k": "idari",
+    "b": "Sultan Kulı (Kutbülmülk) Gûlkünde'ye (Golkonda) sahip oldu; Batı Tilangāna valiliğine tayin edildi",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Kutubşâhîler» md. (Enver Konukçu), c. 26, 2002, s. 500, https://islamansiklopedisi.org.tr/kutubsahiler (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "Hindistan’ın en meşhur şehirlerinden olan Gûlkünde’ye (Golkonda) sahip oldu (1496)"
+   },
+   {
+    "t": "1512-01-01",
+    "gun": "1512",
+    "k": "kurulus",
+    "b": "Kulı Kutbülmülk bağımsızlığını ilân etti; Gûlkünde Kutubşâhîler'in başşehri oldu",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Gûlkünde (Golkonda)» md. (Seyyid Athar Abbas Rizvî), c. 14, 1996, s. 190, https://islamansiklopedisi.org.tr/gulkunde (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "Kulı Kutbülmülk’ün 1512’de bağımsızlığını ilân etmesinden sonra da Kutubşâhîler’in başşehri oldu"
+   },
+   {
+    "t": "1591-01-01",
+    "gun": "1590-1591",
+    "k": "idari",
+    "b": "Muhammed Kulı Kutubşah Haydarâbâd'ı kurup devletin merkezini 8 km uzağa taşıdı (Gûlkünde başşehirlikten çıktı)",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Gûlkünde (Golkonda)» md. (Seyyid Athar Abbas Rizvî), c. 14, 1996, s. 190, https://islamansiklopedisi.org.tr/gulkunde (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "Haydarâbâd’ı kurup devletin merkezini buraya taşımasına (1590-1591)"
+   },
+   {
+    "t": "1687-09-21",
+    "gun": "14 Zilkade 1098 / 21 Eylül 1687",
+    "k": "fetih",
+    "b": "Bâbürlü Hükümdarı Evrengzîb sekiz ay süren kuşatmanın sonunda Gûlkünde'yi ele geçirdi",
+    "kesinlik": "gun",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Gûlkünde (Golkonda)» md. (Seyyid Athar Abbas Rizvî), c. 14, 1996, s. 190, https://islamansiklopedisi.org.tr/gulkunde (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "14 Zilkade 1098’de (21 Eylül 1687) Bâbürlü Hükümdarı Evrengzîb tarafından"
+   }
+  ],
+  "ic_not": "Kaynak: TDV 'Gûlkünde' (Golkonda md. 'bk. Gûlkünde' yönlendirmesidir; ALIAS çözüldü) + 'Kutubşâhîler' TAM METİN. 1687-09-21 iki TDV maddesinde aynıdır (Gûlkünde ve Kutubşâhîler: 14 Zilkade 1098/21 Eylül 1687) — aynı yayının iç tutarlılığı, bağımsız çift teyit sayılmadı. Çift teyit YOK. ilk.t: TDV 'eski bir Hindu kalesi ... Varangal Racalığı'nın merkezi iken' der (tarihsiz); kaleye özgü EN ESKİ TARİHLİ olgu 1363. TDV 'Kutubşâhîler' 1496'da Sultan Kulı'nın Golkonda'ya sahip olduğunu, 'Gûlkünde' ise 1512 bağımsızlığını anlatır — iki ayrı olgu (valilik ve bağımsızlık), çelişki sayılmadı. Atlas Golkonda'yı 1281'de kakatiya (künye 1163-1323) ile başlatır: TDV Varangal=Kakatiya merkezini tarihsiz verir; 1363 öncesi için dayanak yok → atlas başlangıcı ('düzeltilmeli' uyarısı beklenir, KASA). Kutubşâhî tanıkları (Talikota 5 Ocak 1565 vb.) bölge olayıdır, yazılmadı."
+ },
+ {
+  "id": "gvalyar-in",
+  "ad": "Gvalyar",
+  "atlas_ad": "Gvalyar (Gwalior)",
+  "lat": 26.218,
+  "lon": 78.183,
+  "kat1900": null,
+  "adlar": [
+   "Gevâliyâr",
+   "Gwalior"
+  ],
+  "ilk": {
+   "t": "1022-01-01",
+   "gun": "1022",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Gevâliyâr» md. (Khaliq Ahmad Nizami), c. 14, 1996, s. 38-39, https://islamansiklopedisi.org.tr/gevaliyar (TDV tam metin (tarayıcı), 16 Kasım 2026) — aynı cümle: «...önce ona bağlı olan Gevâliyâr (Gwalior) Kalesi’ni kuşattı»",
+   "tanik": "1022 yılında Gazneli Mahmud XV. Hint Seferi’ne çıkıp"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1022-01-01",
+    "gun": "1022",
+    "k": "kusatma",
+    "b": "Gazneli Mahmud Kālincâr Racası Ganda'ya bağlı Gevâliyâr (Gwalior) Kalesi'ni kuşattı",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Gevâliyâr» md. (Khaliq Ahmad Nizami), c. 14, 1996, s. 38-39, https://islamansiklopedisi.org.tr/gevaliyar (TDV tam metin (tarayıcı), 16 Kasım 2026) — aynı cümle: «...önce ona bağlı olan Gevâliyâr (Gwalior) Kalesi’ni kuşattı»",
+    "tanik": "1022 yılında Gazneli Mahmud XV. Hint Seferi’ne çıkıp"
+   },
+   {
+    "t": "1196-01-01",
+    "gun": "1196",
+    "k": "fetih",
+    "b": "Delhi Sultanı Kutbüddin Aybeg Gevâliyâr Kalesi'ni fethetti",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Gevâliyâr» md. (Khaliq Ahmad Nizami), c. 14, 1996, s. 38-39, https://islamansiklopedisi.org.tr/gevaliyar (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "Kalenin fethi, Delhi Sultanı Kutbüddin Aybeg tarafından 1196 yılında gerçekleştirildi"
+   },
+   {
+    "t": "1231-01-01",
+    "gun": "629 (1231)",
+    "k": "fetih",
+    "b": "İltutmış Gevâliyâr'ı yeniden fethedip kadı, kûtvâl ve emîr-i dâd tayin etti (Türkler önce burayı kaybetmişti)",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Gevâliyâr» md. (Khaliq Ahmad Nizami), c. 14, 1996, s. 38-39, https://islamansiklopedisi.org.tr/gevaliyar (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "629’da (1231) İltutmış tekrar fethettiği Gevâliyâr’a kadı, kûtvâl ve emîr-i dâd tayin etmiştir"
+   },
+   {
+    "t": "1398-01-01",
+    "gun": "1398",
+    "k": "fetih",
+    "b": "Timur'un istilâsı sırasındaki karışıklıkta Tûnvâr (Tonwar) Racpûtları Gevâliyâr'ı ele geçirdi",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Gevâliyâr» md. (Khaliq Ahmad Nizami), c. 14, 1996, s. 38-39, https://islamansiklopedisi.org.tr/gevaliyar (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "Timur’un istilâsı sırasında (1398) bölgede çıkan karışıklıklardan faydalanan Tûnvâr (Tonwar) Racpûtları Gevâliyâr’ı ele geçirdiler"
+   },
+   {
+    "t": "1488-01-01",
+    "gun": "1488",
+    "k": "diger",
+    "b": "Sultan Behlûl-i Lûdî kaleye yürüyüp Raca Mân Singh'i teslim olmaya zorladı (TDV: Tûnvâr Racpûtları kaleyi yine de 1518'e kadar elinde tuttu)",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Gevâliyâr» md. (Khaliq Ahmad Nizami), c. 14, 1996, s. 38-39, https://islamansiklopedisi.org.tr/gevaliyar (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "1488 yılında Sultan Behlûl-i Lûdî kaleye yürüdü ve Raca Mân Singh’i teslim olmaya zorladı"
+   },
+   {
+    "t": "1542-01-01",
+    "gun": "1542",
+    "k": "fetih",
+    "b": "Gevâliyâr Şîr Şah Sûr'un idaresine girdi",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Gevâliyâr» md. (Khaliq Ahmad Nizami), c. 14, 1996, s. 38-39, https://islamansiklopedisi.org.tr/gevaliyar (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "1542’de Gevâliyâr’ın Şîr Şah Sûr’un idaresine girdiği"
+   },
+   {
+    "t": "1558-01-01",
+    "gun": "1558",
+    "k": "fetih",
+    "b": "Gevâliyâr Ekber Şah'ın idaresine geçti",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Gevâliyâr» md. (Khaliq Ahmad Nizami), c. 14, 1996, s. 38-39, https://islamansiklopedisi.org.tr/gevaliyar (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "1558 yılında Gevâliyâr Ekber Şah’ın idaresine geçti"
+   },
+   {
+    "t": "1777-01-01",
+    "gun": "1777",
+    "k": "fetih",
+    "b": "Gevâliyâr Marata Sindhia hânedanından Mihrace Mahadaji'nin eline geçti",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Gevâliyâr» md. (Khaliq Ahmad Nizami), c. 14, 1996, s. 38-39, https://islamansiklopedisi.org.tr/gevaliyar (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "Maratalar’ın Sindhia hânedanından Mihrace Mahadaji’nin eline geçti (1777)"
+   },
+   {
+    "t": "1886-01-01",
+    "gun": "1886",
+    "k": "idari",
+    "b": "Gevâliyâr Sindhia Mihraceliği'nin başşehri oldu",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Gevâliyâr» md. (Khaliq Ahmad Nizami), c. 14, 1996, s. 38-39, https://islamansiklopedisi.org.tr/gevaliyar (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "1886 yılından itibaren Gevâliyâr Sindhia Mihraceliği’nin başşehri oldu"
+   }
+  ],
+  "ic_not": "Kaynak: TDV 'Gevâliyâr' TAM METİN. Çift teyit YOK (Nizami'nin atıfları, Cambridge History of India vb. açılamadı). ilk.t: TDV 'bölgenin ilk hâkimleri VI. yüzyılda Toramana ve oğlu Mihirkula' der (BÖLGE düzeyi, yüzyıl; kale/şehre bağlanmadı) — maddenin şehre/kaleye özgü EN ESKİ TARİHLİ olgusu 1022 kuşatmasıdır; Gevâliyâr'ın daha eski varlığı TDV'de tarihsiz (Gupta sonrası). Atlas Gvalyar'ı 0500'de alkhon ile başlatır; Toramana/Mihirkula (Alkhon) atlas iddiasıyla uyumludur ama TDV bunu şehre bağlamaz → sahip:[], 'atlas başlangıcı düzeltilmeli' uyarısı beklenir. TDV 1236-1240 Radıyye Begüm'ün gönderdiği ordu üzerine kalenin Cehâr Devâ'ya 'terkedilmesi' (yılı yazılmaz, aralık) ve 1251 Balaban hücumu, 'en az 1259'a kadar zaman zaman bağımsız' (sikkelerden) yazılmadı. 1518 Lûdî kuşatması ve Mân Singh'in elinden çıkışı kaynakta belirsiz anlatılır — zincire bağlanmadı."
+ },
+ {
+  "id": "leknev-in",
+  "ad": "Leknev",
+  "atlas_ad": "Leknev (Lucknow)",
+  "lat": 26.847,
+  "lon": 80.947,
+  "kat1900": null,
+  "adlar": [
+   "Lakhnau",
+   "Lucknow",
+   "Leknev"
+  ],
+  "ilk": {
+   "t": "1233-01-01",
+   "gun": "13. yüzyıl başı",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yuzyil",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Leknev» md. (Azmi Özcan), c. 27, 2003, s. 133, https://islamansiklopedisi.org.tr/leknev (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+   "tanik": "Leknev’in (Lucknow, Lakhnau) bilinen tarihi XIII. yüzyılın başlarına kadar gider"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1233-01-01",
+    "t": "1281-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yuzyil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Leknev» md. (Azmi Özcan), c. 27, 2003, s. 133, https://islamansiklopedisi.org.tr/leknev (TDV tam metin (tarayıcı), 16 Kasım 2026) — dilim için sahip tanığı yok",
+    "ic_not": "TDV 1233 (XIII. yy başı) ile 1281 arası Leknev'in sahibini vermez; Delhi Sultanlığı'nın eline geçişi yalnız 1394-1478 Şarkî hâkimiyetinden SONRA anlatılır (tarihsiz)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1394-01-01",
+    "gun": "1394",
+    "k": "fetih",
+    "b": "Leknev Şarkî Sultanlığı'nın hâkimiyetine girdi (1394-1478)",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Leknev» md. (Azmi Özcan), c. 27, 2003, s. 133, https://islamansiklopedisi.org.tr/leknev (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "1394-1478 yılları arasında Şarkî Sultanlığı’nın hâkimiyetinde kalan şehir"
+   },
+   {
+    "t": "1478-01-01",
+    "gun": "1478",
+    "k": "kayip",
+    "b": "Şarkî hâkimiyeti sona erdi; şehir daha sonra Delhi Sultanlığı'nın, Hümâyun Şah zamanında Bâbürlüler'in eline geçti (Ekber Şah Ayodha eyaletine bağladı; bu geçişlerin yılı TDV'de yok)",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Leknev» md. (Azmi Özcan), c. 27, 2003, s. 133, https://islamansiklopedisi.org.tr/leknev (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "1394-1478 yılları arasında Şarkî Sultanlığı’nın hâkimiyetinde kalan şehir"
+   },
+   {
+    "t": "1775-01-01",
+    "gun": "1775",
+    "k": "idari",
+    "b": "Eved Nevvâb hânedanının kurucusu Âsafüddevle Leknev'i kendisine merkez yaptı",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Leknev» md. (Azmi Özcan), c. 27, 2003, s. 133, https://islamansiklopedisi.org.tr/leknev (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "Âsafüddevle Leknev’i kendisine merkez yaptı (1775)"
+   },
+   {
+    "t": "1819-01-01",
+    "gun": "1819",
+    "k": "idari",
+    "b": "İngilizler son Eved Nevvâbı Gāzîüddin Haydar'ı kral ilân edince Leknev kraliyet başşehri oldu",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Leknev» md. (Azmi Özcan), c. 27, 2003, s. 133, https://islamansiklopedisi.org.tr/leknev (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "İngilizler 1819’da son Eved Nevvâbı Gāzîüddin Haydar’ı kral ilân edince"
+   },
+   {
+    "t": "1856-01-01",
+    "gun": "1856",
+    "k": "ilhak",
+    "b": "Bölge İngiliz idaresine girdi (1857 ayaklanmasında Leknev'de şiddetli çarpışmalar, İngilizlerin muhasarası)",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Leknev» md. (Azmi Özcan), c. 27, 2003, s. 133, https://islamansiklopedisi.org.tr/leknev (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "Bölgenin 1856’da İngiliz idaresine girmesi üzerine"
+   },
+   {
+    "t": "1916-12-01",
+    "gun": "Aralık 1916",
+    "k": "antlasma",
+    "b": "Hindistan Kongre Partisi ile Hindistan Müslümanları Birliği arasındaki ittifak (Leknev Paktı) Leknev'de imzalandı",
+    "kesinlik": "ay",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Leknev» md. (Azmi Özcan), c. 27, 2003, s. 133, https://islamansiklopedisi.org.tr/leknev (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "Aralık 1916’da burada imzalandı"
+   }
+  ],
+  "ic_not": "Kaynak: TDV 'Leknev' TAM METİN. Çift teyit YOK. ilk.t: 'bilinen tarihi XIII. yüzyılın başlarına kadar gider' — 'başlarına' için yüzyıl hassasiyeti, aralığın güvenli ucu (1233) alındı (1201-1233). Atlas Leknev'i 1281'de delhi-sultanligi ile başlatır; TDV Delhi Sultanlığı hâkimiyetini yalnız Şarkî döneminden (1394-1478) SONRA anlatır → atlasın 1281 iddiası TDV'de dayanaksızdır (dikis_beyan). TDV: 1784 Bârâ İmambârâ, 1479 tarihli Şeyh Muhammed Türbesi mimari tanıktır, zincire bağlanmadı.",
+  "dikis_beyan": "Atlas Leknev'i 1281-01-01'de delhi-sultanligi ile başlatır; TDV 'Leknev' maddesi 1233-1281 arasını ve Delhi Sultanlığı'nın XIII. yy hâkimiyetini tarihli vermez (Delhi Sultanlığı'na geçiş Şarkî dönemi 1394-1478'den 'sonra'); kaynak bulunamadı, yer tutucu olay yazılmadı."
+ },
+ {
+  "id": "patna-in",
+  "ad": "Patna",
+  "atlas_ad": "Patna (Azîmâbâd)",
+  "lat": 25.594,
+  "lon": 85.138,
+  "kat1900": null,
+  "adlar": [
+   "Pataliputra",
+   "Palibothra",
+   "Kusumpur",
+   "Pushpapura",
+   "Azîmâbâd",
+   "Patna"
+  ],
+  "ilk": {
+   "t": "-0400-01-01",
+   "gun": "MÖ 5. yüzyıl",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yuzyil",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Patna» md. (Azmi Özcan), c. 34, 2007, s. 187-188, https://islamansiklopedisi.org.tr/patna (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+   "tanik": "şehrin tarihi milâttan önce V. yüzyıla kadar gitmektedir"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "-0400-01-01",
+    "t": "-0363-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yuzyil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Patna» md. (Azmi Özcan), c. 34, 2007, s. 187-188, https://islamansiklopedisi.org.tr/patna (TDV tam metin (tarayıcı), 16 Kasım 2026) — dilim için sahip tanığı yok",
+    "ic_not": "TDV Pataliputra'nın MÖ V. yy'a giden tarihini söyler ama hâkim hânedanı (Haryanka/Şişunaga) adını vermez; Nanda künyesi atlas başlangıcı -0363'te başlar."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1541-01-01",
+    "gun": "1541",
+    "k": "idari",
+    "b": "Afgan Şîr Şah Sûr Patna'yı Bihâr eyaletinin merkezi yaptı, kale ile tahkim etti",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Patna» md. (Azmi Özcan), c. 34, 2007, s. 187-188, https://islamansiklopedisi.org.tr/patna (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "Afgan Şîr Şah Sûr, 1541’de burayı Bihâr eyaletinin merkezi haline getirerek"
+   },
+   {
+    "t": "1574-01-01",
+    "gun": "1574",
+    "k": "ilhak",
+    "b": "Patna Ekber Şah tarafından Bâbürlü topraklarına katıldı",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Patna» md. (Azmi Özcan), c. 34, 2007, s. 187-188, https://islamansiklopedisi.org.tr/patna (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "1574’te Ekber Şah tarafından Bâbürlü topraklarına katılan Patna daha da gelişti"
+   },
+   {
+    "t": "1620-01-01",
+    "gun": "1620",
+    "k": "diger",
+    "b": "İngilizler Patna'da temsilcilik açtı",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Patna» md. (Azmi Özcan), c. 34, 2007, s. 187-188, https://islamansiklopedisi.org.tr/patna (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "İngilizler 1620’de burada bir temsilcilik açtı"
+   },
+   {
+    "t": "1704-01-01",
+    "gun": "1704",
+    "k": "diger",
+    "b": "Bihâr Valisi Azîmüşşân şehrin adını Azîmâbâd yaptı",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Patna» md. (Azmi Özcan), c. 34, 2007, s. 187-188, https://islamansiklopedisi.org.tr/patna (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "Azîmüşşân şehrin adını 1704 yılında Azîmâbâd olarak değiştirdi"
+   },
+   {
+    "t": "1921-01-01",
+    "gun": "1921",
+    "k": "diger",
+    "b": "İngilizler şehrin adını yeniden Patna'ya çevirdi",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Patna» md. (Azmi Özcan), c. 34, 2007, s. 187-188, https://islamansiklopedisi.org.tr/patna (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "1921’de İngilizler tarafından şehrin adı tekrar Patna’ya çevrildi"
+   }
+  ],
+  "ic_not": "Kaynak: TDV 'Patna' TAM METİN. Çift teyit YOK. ilk.t: TDV 'şehrin tarihi milâttan önce V. yüzyıla kadar gitmektedir' (ilk adı Pataliputra) — yüzyıl düzeyinde ikincil TDV beyanı, birincil tanık (Megasthenes vb.) yazılmadı; MÖ 5. yy için güvenli uç MÖ 401 (-0400). Eşitleme (Pataliputra = Patna) TDV'de açık. Antik Pataliputra kalıntılarının (Kumrahar) modern noktadan uzaklığı ÖLÇÜLMEDİ (>3 km ise antik kayıt ayrılmalı). Atlas başlangıcı -0363 nanda: TDV'de dayanak yok (dikis_beyan). TDV: Buddha'nın MÖ IV. yy ziyareti, MS IV. yy Gupta dönemi önemi (yüzyıl, tarihsiz sahiplik), 1739 Nâdir Şah sonrası göç, 1857 ayaklanma zincire bağlanmadı.",
+  "dikis_beyan": "Atlas Patna'yı -0363-01-01'de nanda ile başlatır; TDV 'Patna' maddesi MÖ V. yy'dan sonra Gupta (MS IV. yy) dönemine atlar, Nanda hâkimiyetini tarihlemez; kaynak bulunamadı, yer tutucu olay yazılmadı."
+ }
+];

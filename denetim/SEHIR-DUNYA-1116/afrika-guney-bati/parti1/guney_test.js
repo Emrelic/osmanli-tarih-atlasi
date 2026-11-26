@@ -1,0 +1,305 @@
+// ŞEHİR TARİHÇESİ — GUNEY_TEST · üretici: arac/sehir_tarihce.py · şema: VERI-YAPISI.md
+// Motor/denetle/site OKUMAZ — araştırma birikimi. Elle düzenleme: JSON'u düzelt, yeniden üret.
+window.SEHIR_TARIHCE_GUNEY_TEST = [
+ {
+  "id": "bloemfontein-za",
+  "ad": "Bloemfontein",
+  "atlas_ad": "Oranj (Bur cumhuriyeti)",
+  "lat": -29.1211,
+  "lon": 26.214,
+  "kat1900": 1,
+  "adlar": [
+   "Bloemfontein"
+  ],
+  "ilk": {
+   "t": "1846-03-26",
+   "gun": "26 Mart 1846",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "gun",
+   "kaynak": "SAHO, 'Bloemfontein Timeline 1824-2010', https://sahistory.org.za/article/bloemfontein-timeline-1824-2010",
+   "tanik": "Warden's troops, known as the Cape Riflemen, arrive in Bloemfontein",
+   "ic_not": "SAHO zaman çizelgesi 1846'da Binbaşı H. D. Warden'in İngiliz residency kurmakla görevlendirildiğini ve 26 Mart'ta birliklerinin 'Bloemfontein'e' vardığını yazar. Zaman çizelgesi 'kuruluş' kelimesini kullanmaz; bu yüzden nicelik ilk_anilis (kuruluş = 1846 de yaygın söylenir, gün teyitsiz). Atlas noktası 'Oranj (Bur cumhuriyeti)' tur:bolge ve 1830-01-01'de başlıyor (Büyük Göç başlangıcı) — şehrin varlığından ÖNCE; atlas başlangıcı kaynaksız/yanlış, düzeltilmeli. Bu yüzden sahip zinciri yazılmadı."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1846-03-26",
+    "gun": "26 Mart 1846",
+    "k": "kurulus",
+    "b": "Warden'in birlikleri Bloemfontein'e geldi; İngiliz residency kuruldu",
+    "kaynak": "SAHO, Bloemfontein Timeline 1824-2010"
+   },
+   {
+    "t": "1854-02-23",
+    "gun": "23 Şubat 1854",
+    "k": "antlasma",
+    "b": "Bloemfontein Sözleşmesi imzalandı; Orange River Sovereignty özyönetim statüsü aldı",
+    "kaynak": "SAHO, Bloemfontein Timeline 1824-2010"
+   },
+   {
+    "t": "1900-03-13",
+    "gun": "13 Mart 1900",
+    "k": "fetih",
+    "b": "Lord Roberts komutasındaki İngiliz kuvvetleri Orange Free State başkenti Bloemfontein'i işgal etti",
+    "kaynak": "Fransjohan Pretorius, 'Concentration camps in the South African War? Here are the real facts', The Conversation, 18 Şubat 2019 (SAHO arşivi: https://sahistory.org.za/archive/concentration-camps-south-african-war-here-are-real-facts-fransjohan-pretorius-conversation)"
+   },
+   {
+    "t": "1902-05-31",
+    "gun": "31 Mayıs 1902",
+    "k": "antlasma",
+    "b": "Vereeniging Barışı: Boer cumhuriyetleri İngiliz kolonisi oldu",
+    "kaynak": "SAHO, 'Pretoria Timeline 1800-2009', https://sahistory.org.za/article/pretoria-timeline-1800-2009"
+   }
+  ],
+  "ic_not": "Yalnız SAHO ve akademisyen (Pretorius) kaynaklarıyla yazıldı. 1848 (Sir Harry Smith ilhakı, 3 Şubat 1848) ve 1854 Nisan (Orange Free State kuruluşu) için bu oturumda doğrulanabilir kaynak çekilemedi; olay olarak yazılmadı. 1854-02-23 olayı SAHO'ya göre 'özyönetim' veren sözleşmedir; Britannica 403 verdi."
+ },
+ {
+  "id": "cape-town-za",
+  "ad": "Cape Town",
+  "atlas_ad": "Kap (Cape Town)",
+  "lat": -33.9258,
+  "lon": 18.4232,
+  "kat1900": 2,
+  "adlar": [
+   "Kaap / Kaapstad (VOC dönemi Felemenkçe)",
+   "Cape Town"
+  ],
+  "ilk": {
+   "t": "1652-04-06",
+   "gun": "6 Nisan 1652",
+   "nicelik": "kurulus",
+   "kesinlik": "gun",
+   "kaynak": "South African History Online, 'The Dutch Settlement', https://sahistory.org.za/article/dutch-settlement ; SAHO, 'Cape Town Timeline 1300-1997', https://sahistory.org.za/article/cape-town-timeline-1300-1997",
+   "tanik": "arriving at the Cape on 6 April 1652",
+   "ic_not": "Harita başlangıcı = Van Riebeeck'in Table Bay'e varışı ve ertesi gün (7 Nisan 1652) ikmal istasyonunun kurulması (SAHO Cape Town Timeline). Daha eski yazılı tanık VAR ama yerleşim değil: 1503'te Saldanha filosu 'by navigational error' Table Bay'e girdi (SAHO Timeline) ve 1488'de Dias Ümit Burnu'nu dönüştü; bunlar şehir/yerleşim tanığı sayılmadı (kalıcı yerleşim yok, koy ziyareti). Atlas noktası 'Kap (Cape Town)' 1652-01-01'de başlıyor — varıştan ~96 gün ÖNCE; atlas başlangıcı 1652-04-06'ya düzeltilmeli (atlas referans değildir). Bu yüzden sahip zinciri yazılmadı (ilk.t atlas başlangıcından sonra). SAHO makaleleri kurumsal (University/Dept. destekli) derlemedir, birincil kaynak değildir; Elphick & Giliomee (eds.), The Shaping of South African Society (1989) ile çift teyit YAPILMADI."
+  },
+  "kur": {
+   "t": "1652-04-07",
+   "gun": "7 Nisan 1652",
+   "kesinlik": "gun",
+   "kaynak": "SAHO, 'Cape Town Timeline 1300-1997', https://sahistory.org.za/article/cape-town-timeline-1300-1997",
+   "tanik": "On 7 April he establishes a refreshment station"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1652-04-06",
+    "gun": "6 Nisan 1652",
+    "k": "kurulus",
+    "b": "Jan van Riebeeck VOC adına Table Bay'e vardı; ertesi gün ikmal istasyonu kuruldu",
+    "kaynak": "SAHO, 'The Dutch Settlement', https://sahistory.org.za/article/dutch-settlement ; SAHO, Cape Town Timeline 1300-1997"
+   },
+   {
+    "t": "1795-01-01",
+    "gun": "1795",
+    "k": "fetih",
+    "b": "İngiliz kara kuvvetleri Kap'a çıktı (birinci İngiliz işgali)",
+    "kaynak": "SAHO, Cape Town Timeline 1300-1997 (yalnız yıl okundu; gün teyitsiz)"
+   },
+   {
+    "t": "1803-01-01",
+    "gun": "1803",
+    "k": "diger",
+    "b": "Batavya Cumhuriyeti idaresi: Korg. J. Janssens vali atandı",
+    "kaynak": "SAHO, Cape Town Timeline 1300-1997 (yalnız yıl okundu; devir günü teyitsiz — Amiens/1802-1803 tarih farkı kaynaklarda var)"
+   },
+   {
+    "t": "1806-01-01",
+    "gun": "1806",
+    "k": "fetih",
+    "b": "İngilizler Kap'ı ikinci kez işgal etti; Blaauwberg çatışmasından sonra Hollandalılar teslim oldu (resmî devir 1814)",
+    "kaynak": "SAHO, Cape Town Timeline 1300-1997 (yalnız yıl okundu; gün teyitsiz)"
+   },
+   {
+    "t": "1910-05-31",
+    "gun": "31 Mayıs 1910",
+    "k": "kurulus",
+    "b": "Güney Afrika Birliği kuruldu; Cape Town yasama başkenti",
+    "kaynak": "SAHO, 'Pretoria Timeline 1800-2009', https://sahistory.org.za/article/pretoria-timeline-1800-2009 ; SAHO, Cape Town Timeline 1300-1997"
+   }
+  ],
+  "ic_not": "20 şehir listesinden kaynaklı yazılabilenler: bu kayıt yalnız SAHO'ya dayanır (Britannica 403 verdi; TDV'de Cape Town maddesi sorgulanmadı). Zincir (cape-hollanda 1652 → cape-ingiliz 1795/1806 ...) atlasta zaten var; atlas başlangıcı düzeltilince bu dosyada zincir açılabilir. 1795/1803/1806 günleri teyitsiz (yalnız yıl)."
+ },
+ {
+  "id": "pretoria-za",
+  "ad": "Pretoria",
+  "atlas_ad": "Transvaal (Bur cumhuriyeti)",
+  "lat": -25.7449,
+  "lon": 28.1878,
+  "kat1900": 1,
+  "adlar": [
+   "Pretoria"
+  ],
+  "ilk": {
+   "t": "1855-01-01",
+   "gun": "1855",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "SAHO, 'Pretoria: The Founding of the City', https://sahistory.org.za/article/pretoria-founding-city ; SAHO, 'Pretoria Timeline 1800-2009', https://sahistory.org.za/article/pretoria-timeline-1800-2009",
+   "tanik": "officially declared as a town",
+   "ic_not": "İKİ SAHO METNİ ÇELİŞİR (beyan): 'Founding of the City' M. W. Pretorius'un 1854-1855'te Elandspoort ve Koedoespoort çiftliklerini satın aldığını, 1855 sonuna kadar kasaba ilan edildiğini yazar; 'Timeline 1800-2009' ise çiftliklerin 1853 Kasım'ında kasaba ilan edildiğini, Pretoria'nın 1855'te kurulup ZAR başkenti yapıldığını yazar. Kuruluş yılı olarak her iki metinde ortak geçen 1855 alındı (güvenli uç = geç tarih); 16 Kasım 1855 günü bu oturumda kaynakla doğrulanamadı. Atlas noktası 'Transvaal (Bur cumhuriyeti)' tur:bolge, 1830-01-01'de başlıyor (şehirden önce) — başlangıç düzeltilmeli; sahip zinciri bu yüzden yazılmadı."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1860-05-01",
+    "gun": "1 Mayıs 1860",
+    "k": "diger",
+    "b": "Pretoria ZAR'ın (Transvaal) hükûmet merkezi oldu",
+    "kaynak": "SAHO, Pretoria Timeline 1800-2009"
+   },
+   {
+    "t": "1877-01-01",
+    "gun": "1877",
+    "k": "fetih",
+    "b": "Transvaal cumhuriyeti İngiliz toprağı ilan edildi",
+    "kaynak": "SAHO, Pretoria Timeline 1800-2009 (yalnız yıl okundu; gün teyitsiz)"
+   },
+   {
+    "t": "1881-01-01",
+    "gun": "1881",
+    "k": "antlasma",
+    "b": "Majuba muharebesi sonrası Pretoria Sözleşmesi ile Transvaal Cumhuriyeti restore edildi",
+    "kaynak": "SAHO, Pretoria Timeline 1800-2009 (yalnız yıl okundu; gün teyitsiz)"
+   },
+   {
+    "t": "1900-06-05",
+    "gun": "5 Haziran 1900",
+    "k": "fetih",
+    "b": "Transvaal başkenti Pretoria İngiliz işgaline uğradı",
+    "kaynak": "Fransjohan Pretorius, The Conversation, 18 Şubat 2019 (SAHO arşivi: https://sahistory.org.za/archive/concentration-camps-south-african-war-here-are-real-facts-fransjohan-pretorius-conversation)"
+   },
+   {
+    "t": "1902-05-31",
+    "gun": "31 Mayıs 1902",
+    "k": "antlasma",
+    "b": "Vereeniging Barışı: Transvaal İngiliz kolonisi oldu",
+    "kaynak": "SAHO, Pretoria Timeline 1800-2009"
+   },
+   {
+    "t": "1910-05-31",
+    "gun": "31 Mayıs 1910",
+    "k": "kurulus",
+    "b": "Güney Afrika Birliği kuruldu; Pretoria idari başkent",
+    "kaynak": "SAHO, Pretoria Timeline 1800-2009"
+   }
+  ],
+  "ic_not": "Yalnız SAHO ve akademisyen (Pretorius) kaynaklarıyla yazıldı. 1900 Eylül'ünde bazı kaynaklar 'Pretoria ve Johannesburg işgali' der (muhtemelen resmî ilhak); 5 Haziran işgal günü Pretorius'a göredir, Eylül tarihi doğrulanmadı. Britannica 403 verdi."
+ },
+ {
+  "id": "windhoek-na",
+  "ad": "Windhoek",
+  "atlas_ad": "Vindhuk (Windhoek)",
+  "lat": -22.5594,
+  "lon": 17.0832,
+  "kat1900": 2,
+  "adlar": [
+   "Queen Adelaide's Bath (1836/37 anılışı)",
+   "ǀAi-ǁGams (Nama)",
+   "Otjomuise (Herero)",
+   "Windhoek"
+  ],
+  "ilk": {
+   "t": "1837-01-01",
+   "gun": "1837",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Klaus Dierks, Chronology of Namibian History, 1836-1838 sayfası, https://www.klausdierks.com/Chronology/10.htm",
+   "tanik": "Queen Adelaide's Bath",
+   "ic_not": "Dierks kronolojisi 'Queen Adelaide's Bath' (bugünkü Windhoek) anılışını '1836/37' diye verir, kaynağını sayfada göstermez; aralığın son ucu (1837) alındı. ZAYIF HALKA: Dierks (K. Dierks, mühendis/yazar) hakemli akademisyen değildir; birincil gezgin/misyoner kaynağı bulunamadı — doğrulama için J. Alexander/Schmelen yolculuk kayıtları ve Lau, 'Jan Jonker Afrikaner' önerilir. Aynı sayfa Windhoek adının ilk kez 12.08.1844 tarihli yazıda doğrulandığını söyler (adlar sırası bu yüzden)."
+  },
+  "kur": {
+   "t": "1838-01-01",
+   "gun": "1838",
+   "kesinlik": "yil",
+   "kaynak": "Klaus Dierks, Chronology of Namibian History, 1836-1838, https://www.klausdierks.com/Chronology/10.htm",
+   "tanik": "chosen by the Orlam Afrikaners ... as their permanent settlement"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1837-01-01",
+    "t": "1890-10-18",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Klaus Dierks, Chronology of Namibian History, 1836-1838 (https://www.klausdierks.com/Chronology/10.htm) ve 1890 (https://www.klausdierks.com/Chronology/45.htm)",
+    "tanik": "Von Francois uses Windhoek as his headquarters",
+    "ic_not": "BEYANLI BOŞLUK: 1838'den itibaren Orlam Afrikaner topluluğu (Jonker Afrikaner; Dierks) yerleşmiş, Ovaherero (Otjomuise) ve Nama iddiaları olmuştur; ancak bu oturumda 1838-1890 arası dilim dilim sahip (Jonker 1861'e dek, sonra Herero/Nama) kaynaklanamadı ve devletler.js'te Orlam/Herero/Nama künyesi aranmadı. 'Kimsenin değil' değil 'künyesi/dilimi kaynaklanmadı'. Doldurma önerisi: Orlam Afrikaner (kunye_yok) 1838→Jonker'in ölümü (1861), sonrası Herero-Nama çekişmesi (Lau 1987, Jan Jonker Afrikaner; Vigne). t = atlas ilk günü (1890-10-18)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1838-01-01",
+    "gun": "1838",
+    "k": "kurulus",
+    "b": "Orlam Afrikaner topluluğu ǀAi-ǁGams'ı kalıcı yerleşim yeri seçti (Dierks)",
+    "kaynak": "Klaus Dierks, Chronology of Namibian History, 1836-1838, https://www.klausdierks.com/Chronology/10.htm (yalnız yıl; kaynak sayfada gösterilmiyor)"
+   },
+   {
+    "t": "1890-10-18",
+    "gun": "18 Ekim 1890",
+    "k": "diger",
+    "b": "Curt von François Windhoek'i karargâh yaptı (garnizon: 32 Alman asker, 150 Dama, 50 Nama); Alte Feste 1892'de tamamlandı",
+    "kaynak": "Klaus Dierks, Chronology of Namibian History, 1890, https://www.klausdierks.com/Chronology/45.htm"
+   }
+  ],
+  "ic_not": "ZAYIF KAYNAK ZİNCİRİ: yalnız Dierks kronolojisi (hakemli değil, ikincil derleme) okunabildi; Britannica 403 verdi, SAHO Windhoek sayfası okunmadı. Öneri: çift teyit için Lau (1987), 'Jan Jonker Afrikaner' / Dierks'in kaynakçası. Windhoek 'kuruluş' tarihi 18 Ekim 1890 (von François, yaygın anlatı) Dierks'e göre 'permanent settlement ~50 yıl önce' olduğundan kuruluş değil, Alman karargâh/kale tarihi alındı. Ad kaynakları: Dierks (1838: Otjomuise 'place of smoke'; Windhoek adı 12.08.1844'te ilk doğrulanır; Winterhoek (Tulbagh) kökeni tartışmalı)."
+ },
+ {
+  "id": "yola-ng",
+  "ad": "Yola",
+  "atlas_ad": "Yola",
+  "lat": 9.2,
+  "lon": 12.48,
+  "kat1900": 2,
+  "adlar": [
+   "Yola"
+  ],
+  "ilk": {
+   "t": "1841-01-01",
+   "gun": "1841",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Adamava', https://islamansiklopedisi.org.tr/adamava",
+   "tanik": "1841'de Yola şehrini merkez yaparak",
+   "ic_not": "TDV: Adama (Modibbo Adama) '1841’de Yola şehrini merkez yaparak Garoua ve Ngaoundere gibi yeni şehirler kurmuştur' (≈ H.1256-1257). Maddenin 'Yola'nın kuruluşu' cümlesi YOK: Yola o tarihte merkez yapılmış, kuruluş günü/yılı belirtilmemiş; bu yüzden nicelik ilk_anilis. Atlas noktası Yola 1841-01-01'de başlıyor (sokoto) ve bu tarih TDV yılıyla çakışır; hicrî/miladî kesişim günü TDV'de verilmediği için 1841-01-01 yıl-hassasiyetiyle alındı. Zincir (atlas) esastır; sahip yazılmadı."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1841-01-01",
+    "gun": "1841",
+    "k": "kurulus",
+    "b": "Modibbo Adama Yola'yı Adamawa (Fombina) emirliğinin merkezi yaptı",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Adamava', https://islamansiklopedisi.org.tr/adamava"
+   },
+   {
+    "t": "1901-01-01",
+    "gun": "1901",
+    "k": "antlasma",
+    "b": "Adamava İngiliz Kuzey Nijerya'sı ile Alman Kamerun'u arasında paylaşıldı; Yola İngiliz bölgesinde kaldı (Bobbo Ahmedü Yola emiri)",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Adamava', https://islamansiklopedisi.org.tr/adamava (yalnız yıl; gün teyitsiz)"
+   },
+   {
+    "t": "1926-01-01",
+    "gun": "1926",
+    "k": "diger",
+    "b": "Yola ve Muri birleştirilerek Nijerya'nın Adamawa eyaleti oluşturuldu",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Adamava', https://islamansiklopedisi.org.tr/adamava (yalnız yıl)"
+   }
+  ],
+  "ic_not": "Yalnız TDV 'Adamava' maddesi okundu; akademik ikinci kaynak (örn. Cambridge History of Africa c.5 / Burnham-Kirk-Smith Adamawa çalışmaları) ile çift teyit yapılmadı. Not: atlasın Yola için 'sokoto → ingiltere 1901' zinciri TDV'nin 1901 paylaşımıyla uyumlu; ancak Alman sınırı ötesinde kalan Adamawa kısmı Yola'yı etkilemedi (TDV: Yola emiri İngiliz bölgesinde)."
+ }
+];

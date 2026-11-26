@@ -1,0 +1,19 @@
+  UYARI banavasi-in-p7: dikiş beyanlı borç __BOSLUK__ → kadamba-banavasi (atlas) (0500-01-01): Ptolemaios (MS 2. yy) ile atlasın kadamba-banavasi başlangıcı (500) arasında Gaz
+  UYARI bhagalpur-in-p7: atlas noktası 1281-01-01'da başlıyor, şehir 1573-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI calandhar-in-p7: dikiş beyanlı borç __BOSLUK__ → delhi-sultanligi (atlas) (1281-01-01): 1088 (Jullundur düşüşü) ile atlas başlangıcı arasındaki sahip zinciri bu oturumd
+  UYARI dholka-in-p7: atlas noktası 1178-01-01'da başlıyor, şehir 1300-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI gauhati-in-p7: atlas noktası 1281-01-01'da başlıyor, şehir 1600-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI hugli-in-p7: atlas noktası 1281-01-01'da başlıyor, şehir 1537-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI karaikal-in-p7: dikiş beyanlı borç __BOSLUK__ → fransiz-hindistani (atlas) (1817-01-14): 1739 (Fransızlara edinim) ile atlasın fransiz-hindistani başlangıcı (1817-01-14)
+  UYARI ludhiyana-in-p7: atlas noktası 1480-01-01'da başlıyor, şehir 1481-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI nagapatnam-in-p7: atlas noktası 1281-01-01'da başlıyor, şehir 1660-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI panipat-in-p7: atlas noktası 1281-01-01'da başlıyor, şehir 1390-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI patan-anhilvada-in-p7: dikiş beyanlı borç __BOSLUK__ → caulukya (atlas) (0942-01-01): 765 (Vanaraja/Chavada kuruluşu) ile atlasın caulukya başlangıcı (942) arasında: 
+  UYARI ravalpindi-in-p7: atlas noktası 1281-01-01'da başlıyor, şehir 1400-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI satara-in-p7: atlas noktası 1281-01-01'da başlıyor, şehir 1673-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI siyalkot-in-p7: atlas noktası 0500-01-01'da başlıyor, şehir 0790-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI sonargaon-in-p7: atlas noktası 1026-01-01'da başlıyor, şehir 1296-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI thane-in-p7: atlas noktası 0850-01-01'da başlıyor, şehir 1318-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI tranquebar-in-p7: atlas noktası 1281-01-01'da başlıyor, şehir 1620-01-01 — atlas başlangıcı düzeltilmeli
+18 şehir · 5 sahiplik dönemi · 27 olay · ihlal 0 · uyarı 17
+yazıldı → denetim/SEHIR-DUNYA-1116/hint/parti7/C_test.js

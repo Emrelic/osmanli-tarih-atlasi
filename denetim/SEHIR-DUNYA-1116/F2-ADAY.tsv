@@ -1,12 +1,10 @@
 blok	oncelik	ad_modern	ad_1900	modern_ulke	lat	lon	giris	kat	kronoloji_madde	not_
 afrika-guney-bati	P1	Boma	Boma	Kongo DC	-5.8510	13.0536	1900-liste	1	2	KAT GEREKÇESİ: Leopold'un şahsî mülkü olsa da Berlin Senedi (1885) ile ayrı egemen devlet olarak tan
-afrika-guney-bati	P3	Benguela	Benguella	Angola	-12.5767	13.4027	1900-liste	2		
 afrika-guney-bati	P3	Cabinda	Cabinda	Angola	-5.5620	12.1948	1900-liste	2		distrito merkezi bilgi
 afrika-guney-bati	P3	Malanje	Malanje	Angola	-9.5402	16.3410	1900-liste	2		Lunda distrito merkezi bilgi
 afrika-guney-bati	P3	Moçâmedes (Namibe)	Mossamedes	Angola	-15.1961	12.1522	1900-liste	2		
 afrika-guney-bati	P3	Porto-Novo	Porto-Novo	Benin	6.4965	2.6036	1900-liste	2		
 afrika-guney-bati	P3	Kanye	Kanye	Botsvana	-24.9668	25.3327	1900-liste	2		kabile kaynaklı, merkez bilgi — doğrulanmadı
-afrika-guney-bati	P3	Mochudi	Mochudi	Botsvana	-24.4167	26.1500	1900-liste	2		kabile kaynaklı, merkez bilgi — doğrulanmadı
 afrika-guney-bati	P3	Molepolole	Molepolole	Botsvana	-24.4066	25.4951	1900-liste	2		kabile kaynaklı, merkez bilgi — doğrulanmadı
 afrika-guney-bati	P3	Palapye	Palachwe	Botsvana	-22.5461	27.1251	1900-liste	2		Khama'nın başkenti
 afrika-guney-bati	P3	Ramotswa	Ramotswa	Botsvana	-24.8716	25.8699	1900-liste	2		kabile kaynaklı, merkez bilgi — doğrulanmadı
@@ -60,7 +58,6 @@ afrika-guney-bati	P3	Ficksburg	Ficksburg	Güney Afrika	-28.8720	27.8751	1900-lis
 afrika-guney-bati	P3	Fort Beaufort	Fort Beaufort	Güney Afrika	-32.7748	26.6338	1900-liste	2		
 afrika-guney-bati	P3	Fraserburg	Fraserburg	Güney Afrika	-31.9157	21.5133	1900-liste	2		
 afrika-guney-bati	P3	Gatyana	Willowvale	Güney Afrika	-32.2659	28.5073	1900-liste	2		Transkei bölgesi bağımlılık district'i (Native Territories)
-afrika-guney-bati	P3	George	George	Güney Afrika	-33.9630	22.4617	1900-liste	2		
 afrika-guney-bati	P3	Gqeberha	Port Elizabeth	Güney Afrika	-33.9611	25.6149	1900-liste	2		
 afrika-guney-bati	P3	Graaff-Reinet	Graaff-Reinet	Güney Afrika	-32.2522	24.5308	1900-liste	2		
 afrika-guney-bati	P3	Greytown	Greytown	Güney Afrika	-29.0642	30.5928	1900-liste	2		county merkezi kavramı zayıf; asıl idarî birim 38 magisterial district (kat 3 listesinde değil)
@@ -76,14 +73,11 @@ afrika-guney-bati	P3	Hopetown	Hope Town	Güney Afrika	-29.6246	24.0852	1900-list
 afrika-guney-bati	P3	Humansdorp	Humansdorp	Güney Afrika	-34.0290	24.7691	1900-liste	2		
 afrika-guney-bati	P3	Jacobsdal	Jacobsdal	Güney Afrika	-29.1279	24.7738	1900-liste	2		nlwiki: 1892'de 19 district; SYB1899 18 der (fark çözülmedi); COL1902 ORC'de Resident Magistrate mer
 afrika-guney-bati	P3	Jansenville	Jansenville	Güney Afrika	-32.9431	24.6722	1900-liste	2		
-afrika-guney-bati	P3	Kariega	Uitenhage	Güney Afrika	-33.7556	25.4007	1900-liste	2		
 afrika-guney-bati	P3	Kenhardt	Kenhardt	Güney Afrika	-29.3457	21.1579	1900-liste	2		COL'da 'District of Kenhardt' (C.C. var); SYB'nin 77 division'ına girip girmediği belirsiz
-afrika-guney-bati	P3	Kimberley	Kimberley	Güney Afrika	-28.7323	24.7623	1900-liste	2		Griqualand West'in 4 division'ından
 afrika-guney-bati	P3	Knysna	Knysna	Güney Afrika	-34.0363	23.0471	1900-liste	2		
 afrika-guney-bati	P3	Kokstad	Kokstad	Güney Afrika	-30.5472	29.4241	1900-liste	2		Transkei bölgesi bağımlılık district'i (Native Territories); chief magistrate merkezi
 afrika-guney-bati	P3	Komani	Queenstown	Güney Afrika	-31.8976	26.8753	1900-liste	2		
 afrika-guney-bati	P3	Komga	Komgha	Güney Afrika	-32.5770	27.8920	1900-liste	2		
-afrika-guney-bati	P3	Kroonstad	Kroonstad	Güney Afrika	-27.6504	27.2349	1900-liste	2		nlwiki: 1892'de 19 district; SYB1899 18 der (fark çözülmedi)
 afrika-guney-bati	P3	Krugersdorp	Krugersdorp	Güney Afrika	-26.0858	27.7752	1900-liste	2		nlwiki: 1899'da Svaziland hariç 19 district (+Svaziland = SYB'nin 20'si)
 afrika-guney-bati	P3	Kuruman	Kuruman	Güney Afrika	-27.4635	23.4355	1900-liste	2		eski British Bechuanaland (1895 ilhak)
 afrika-guney-bati	P3	KwaBhaca	Mount Frere	Güney Afrika	-30.9017	28.9924	1900-liste	2		Transkei bölgesi bağımlılık district'i (Native Territories)
@@ -101,46 +95,30 @@ afrika-guney-bati	P3	Malmesbury	Malmesbury	Güney Afrika	-33.4608	18.7271	1900-l
 afrika-guney-bati	P3	Matatiele	Matatiele	Güney Afrika	-30.3436	28.8116	1900-liste	2		Transkei bölgesi bağımlılık district'i (Native Territories)
 afrika-guney-bati	P3	Maxesibeni	Mount Ayliff	Güney Afrika	-30.8082	29.3664	1900-liste	2		Transkei bölgesi bağımlılık district'i (Native Territories)
 afrika-guney-bati	P3	Mbizana	Bizana	Güney Afrika	-30.8591	29.8538	1900-liste	2		Transkei bölgesi bağımlılık district'i (Native Territories)
-afrika-guney-bati	P3	Middelburg	Middelburg	Güney Afrika	-25.7751	29.4648	1900-liste	2		nlwiki: 1899'da Svaziland hariç 19 district (+Svaziland = SYB'nin 20'si)
-afrika-guney-bati	P3	Middelburg (Cape)	Middelburg	Güney Afrika	-25.7751	29.4648	1900-liste	2		
+afrika-guney-bati	P3	Middelburg (Transvaal)	Middelburg	Güney Afrika	-25.7751	29.4648	1900-liste	2		nlwiki: 1899'da Svaziland hariç 19 district (+Svaziland = SYB'nin 20'si) | 17 Kasım: LISTE'de aynı k
 afrika-guney-bati	P3	Modimolle	Nylstroom	Güney Afrika	-24.7000	28.4000	1900-liste	2		nlwiki: 1899'da Svaziland hariç 19 district (+Svaziland = SYB'nin 20'si); merkez tahmin
-afrika-guney-bati	P3	Mossel Bay	Mossel Bay	Güney Afrika	-34.1831	22.1460	1900-liste	2		
 afrika-guney-bati	P3	Mount Fletcher	Mount Fletcher	Güney Afrika	-30.6927	28.5061	1900-liste	2		Transkei bölgesi bağımlılık district'i (Native Territories)
 afrika-guney-bati	P3	Mqanduli	Mqanduli	Güney Afrika	-31.8192	28.7617	1900-liste	2		Transkei bölgesi bağımlılık district'i (Native Territories)
 afrika-guney-bati	P3	Mthatha	Umtata	Güney Afrika	-31.5889	28.7844	1900-liste	2		Transkei bölgesi bağımlılık district'i (Native Territories); chief magistrate merkezi
 afrika-guney-bati	P3	Murraysburg	Murraysburg	Güney Afrika	-31.9605	23.7620	1900-liste	2		
 afrika-guney-bati	P3	Ngcobo	Engcobo	Güney Afrika	-31.6754	27.9966	1900-liste	2		Transkei bölgesi bağımlılık district'i (Native Territories)
 afrika-guney-bati	P3	Ngqeleni	Ngqeleni	Güney Afrika	-31.6731	29.0333	1900-liste	2		Transkei bölgesi bağımlılık district'i (Native Territories)
-afrika-guney-bati	P3	Oudtshoorn	Oudtshoorn	Güney Afrika	-33.6005	22.1995	1900-liste	2		
-afrika-guney-bati	P3	Paarl	Paarl	Güney Afrika	-33.7338	18.9752	1900-liste	2		
 afrika-guney-bati	P3	Peddie	Peddie	Güney Afrika	-33.2006	27.1138	1900-liste	2		
 afrika-guney-bati	P3	Philippolis	Philippolis	Güney Afrika	-30.2656	25.2743	1900-liste	2		nlwiki: 1892'de 19 district; SYB1899 18 der (fark çözülmedi); COL1902 ORC'de Resident Magistrate mer
 afrika-guney-bati	P3	Philipstown	Philipstown	Güney Afrika	-30.4373	24.4726	1900-liste	2		
-afrika-guney-bati	P3	Pietermaritzburg	Pietermaritzburg	Güney Afrika	-29.6168	30.3928	1900-liste	2		Pietermaritzburg county merkezi de
-afrika-guney-bati	P3	Piketberg	Piquetberg	Güney Afrika	-32.9032	18.7570	1900-liste	2		
-afrika-guney-bati	P3	Polokwane	Pietersburg	Güney Afrika	-23.9045	29.4688	1900-liste	2		nlwiki: 1899'da Svaziland hariç 19 district (+Svaziland = SYB'nin 20'si); merkez tahmin
 afrika-guney-bati	P3	Port St Johns	Port St. John's	Güney Afrika	-31.6229	29.5448	1900-liste	2		Transkei bölgesi bağımlılık district'i (Native Territories)
-afrika-guney-bati	P3	Potchefstroom	Potchefstroom	Güney Afrika	-26.7167	27.1000	1900-liste	2		nlwiki: 1899'da Svaziland hariç 19 district (+Svaziland = SYB'nin 20'si)
 afrika-guney-bati	P3	Prieska	Prieska	Güney Afrika	-29.6680	22.7425	1900-liste	2		
-afrika-guney-bati	P3	Prince Albert	Prince Albert	Güney Afrika	-33.2248	22.0267	1900-liste	2		
-afrika-guney-bati	P3	Qonce	King William's Town	Güney Afrika	-32.8808	27.3938	1900-liste	2		
 afrika-guney-bati	P3	Qumbu	Qumbu	Güney Afrika	-31.1630	28.8706	1900-liste	2		Transkei bölgesi bağımlılık district'i (Native Territories)
 afrika-guney-bati	P3	Richmond (Cape)	Richmond	Güney Afrika	-29.8720	30.2723	1900-liste	2		
 afrika-guney-bati	P3	Riversdale	Riversdale	Güney Afrika	-34.0934	21.2572	1900-liste	2		
-afrika-guney-bati	P3	Robertson	Robertson	Güney Afrika	-33.8034	19.8854	1900-liste	2		
 afrika-guney-bati	P3	Rouxville	Rouxville	Güney Afrika	-30.4183	26.8366	1900-liste	2		nlwiki: 1892'de 19 district; SYB1899 18 der (fark çözülmedi); COL1902 ORC'de Resident Magistrate mer
-afrika-guney-bati	P3	Rustenburg	Rustenburg	Güney Afrika	-25.6676	27.2421	1900-liste	2		nlwiki: 1899'da Svaziland hariç 19 district (+Svaziland = SYB'nin 20'si)
 afrika-guney-bati	P3	Seymour	Seymour	Güney Afrika	-32.5557	26.7653	1900-liste	2		division adı kasaba adından farklı; merkez kasaba bilgi — COL division adını verir, merkezi vermez
 afrika-guney-bati	P3	Siphaqeni	Flagstaff	Güney Afrika	-31.0804	29.4952	1900-liste	2		Transkei bölgesi bağımlılık district'i (Native Territories)
 afrika-guney-bati	P3	Smithfield	Smithfield	Güney Afrika	-30.2137	26.5307	1900-liste	2		nlwiki: 1892'de 19 district; SYB1899 18 der (fark çözülmedi); COL1902 ORC'de Resident Magistrate mer
 afrika-guney-bati	P3	Somerset East	Somerset East	Güney Afrika	-32.7217	25.5880	1900-liste	2		
 afrika-guney-bati	P3	Springbok	Springbokfontein	Güney Afrika	-29.6643	17.8865	1900-liste	2		division adı kasaba adından farklı; merkez kasaba bilgi — COL division adını verir, merkezi vermez
 afrika-guney-bati	P3	Standerton	Standerton	Güney Afrika	-26.9337	29.2415	1900-liste	2		nlwiki: 1899'da Svaziland hariç 19 district (+Svaziland = SYB'nin 20'si)
-afrika-guney-bati	P3	Stellenbosch	Stellenbosch	Güney Afrika	-33.9346	18.8668	1900-liste	2		
-afrika-guney-bati	P3	Steynsburg	Steynsburg	Güney Afrika	-31.2956	25.8234	1900-liste	2		
-afrika-guney-bati	P3	Stutterheim	Stutterheim	Güney Afrika	-32.5708	27.4240	1900-liste	2		
 afrika-guney-bati	P3	Sutherland	Sutherland	Güney Afrika			1900-liste	2		
-afrika-guney-bati	P3	Swellendam	Swellendam	Güney Afrika	-34.0226	20.4417	1900-liste	2		
 afrika-guney-bati	P3	Tabankulu	Tabankulu	Güney Afrika	-30.9590	29.3030	1900-liste	2		Transkei bölgesi bağımlılık district'i (Native Territories)
 afrika-guney-bati	P3	Tarkastad	Tarkastad	Güney Afrika	-32.0089	26.2594	1900-liste	2		division adı kasaba adından farklı; merkez kasaba bilgi — COL division adını verir, merkezi vermez
 afrika-guney-bati	P3	Thaba Nchu	Thaba Nchu	Güney Afrika	-29.2093	26.8390	1900-liste	2		nlwiki: 1892'de 19 district; SYB1899 18 der (fark çözülmedi); COL1902 ORC'de Resident Magistrate mer
@@ -150,20 +128,14 @@ afrika-guney-bati	P3	Tulbagh	Tulbagh	Güney Afrika	-33.2860	19.1412	1900-liste	2
 afrika-guney-bati	P3	Umzimkulu	Umzimkulu	Güney Afrika	-30.26081	29.94022	1900-liste	2		Transkei bölgesi bağımlılık district'i (Native Territories)
 afrika-guney-bati	P3	Umzinto	Umzinto	Güney Afrika	-30.3100	30.6627	1900-liste	2		county merkezi kavramı zayıf; asıl idarî birim 38 magisterial district (kat 3 listesinde değil)
 afrika-guney-bati	P3	Uniondale	Uniondale	Güney Afrika	-33.6589	23.1232	1900-liste	2		
-afrika-guney-bati	P3	Upington	Upington	Güney Afrika	-28.4478	21.2561	1900-liste	2		division adı kasaba adından farklı; merkez kasaba bilgi — COL division adını verir, merkezi vermez; 
-afrika-guney-bati	P3	Utrecht	Utrecht	Güney Afrika	-27.6586	30.3217	1900-liste	2		nlwiki: 1899'da Svaziland hariç 19 district (+Svaziland = SYB'nin 20'si); 1903'te Natal'a
 afrika-guney-bati	P3	Vanrhynsdorp	Van Rhynsdorp	Güney Afrika	-31.6089	18.7397	1900-liste	2		
 afrika-guney-bati	P3	Verulam	Verulam	Güney Afrika	-29.6434	31.04709	1900-liste	2		county merkezi kavramı zayıf; asıl idarî birim 38 magisterial district (kat 3 listesinde değil)
 afrika-guney-bati	P3	Victoria West	Victoria West	Güney Afrika	-31.4036	23.1146	1900-liste	2		
 afrika-guney-bati	P3	Vrede	Vrede	Güney Afrika	-27.4257	29.1658	1900-liste	2		nlwiki: 1892'de 19 district; SYB1899 18 der (fark çözülmedi)
 afrika-guney-bati	P3	Vryburg	Vryburg	Güney Afrika	-26.9566	24.7284	1900-liste	2		eski British Bechuanaland (1895 ilhak)
-afrika-guney-bati	P3	Vryheid	Vryheid	Güney Afrika	-27.7695	30.7917	1900-liste	2		nlwiki: 1899'da Svaziland hariç 19 district (+Svaziland = SYB'nin 20'si); eski Nieuwe Republiek; 190
-afrika-guney-bati	P3	Wakkerstroom	Wakkerstroom	Güney Afrika	-27.3549	30.1438	1900-liste	2		nlwiki: 1899'da Svaziland hariç 19 district (+Svaziland = SYB'nin 20'si)
 afrika-guney-bati	P3	Weenen	Weenen	Güney Afrika	-28.8492	30.0772	1900-liste	2		county merkezi kavramı zayıf; asıl idarî birim 38 magisterial district (kat 3 listesinde değil)
 afrika-guney-bati	P3	Wepener	Wepener	Güney Afrika	-29.7287	27.0380	1900-liste	2		nlwiki: 1892'de 19 district; SYB1899 18 der (fark çözülmedi); COL1902 ORC'de Resident Magistrate mer
 afrika-guney-bati	P3	Willowmore	Willowmore	Güney Afrika	-33.2927	23.4895	1900-liste	2		
-afrika-guney-bati	P3	Winburg	Winburg	Güney Afrika	-28.5180	27.0093	1900-liste	2		nlwiki: 1892'de 19 district; SYB1899 18 der (fark çözülmedi); COL1902 ORC'de Resident Magistrate mer
-afrika-guney-bati	P3	Worcester	Worcester	Güney Afrika	-33.6465	19.4485	1900-liste	2		
 afrika-guney-bati	P3	Zeerust	Zeerust	Güney Afrika	-25.5370	26.0751	1900-liste	2		nlwiki: 1899'da Svaziland hariç 19 district (+Svaziland = SYB'nin 20'si); merkez tahmin
 afrika-guney-bati	P3	eMkhondo (Piet Retief)	Piet Retief	Güney Afrika	-27.0071	30.8132	1900-liste	2		nlwiki: 1899'da Svaziland hariç 19 district (+Svaziland = SYB'nin 20'si)
 afrika-guney-bati	P3	 (atlas)	bulunamadı	Kongo DC			1900-liste	2		1890'da Kwango olarak kuruldu
@@ -171,9 +143,7 @@ afrika-guney-bati	P3	 (atlas)	bulunamadı	Kongo DC			1900-liste	2
 afrika-guney-bati	P3	 (atlas)	bulunamadı	Kongo DC			1900-liste	2		
 afrika-guney-bati	P3	Banana	Banana	Kongo DC			1900-liste	2		
 afrika-guney-bati	P3	Basoko	Basoko	Kongo DC	1.2391	23.6160	1900-liste	2		
-afrika-guney-bati	P3	Kananga	Luluabourg	Kongo DC	-5.8962	22.4166	1900-liste	2		merkez 1888 kararnamesinden; 1895 sonrası doğrulanmadı
 afrika-guney-bati	P3	Kinşasa	Léopoldville	Kongo DC	-4.3276	15.3136	1900-liste	2		merkez 1888 kararnamesinden
-afrika-guney-bati	P3	Kisangani	Stanleyville	Kongo DC	0.5153	25.1910	1900-liste	2		1898-07-15 Province Orientale oldu (merkez Stanleyville)
 afrika-guney-bati	P3	Lukungu	Lukungu	Kongo DC			1900-liste	2		merkez 1888 kararnamesinden
 afrika-guney-bati	P3	Lusambo	Lusambo	Kongo DC	-4.9750	23.4439	1900-liste	2		merkez 1888 kararnamesinden
 afrika-guney-bati	P3	Makanza	Nouvelle-Anvers	Kongo DC			1900-liste	2		1888 Ubangi-Uele merkezi Nouvelle-Anvers idi; Bangala'ya geçtiği çıkarım
@@ -185,13 +155,11 @@ afrika-guney-bati	P3	Mafeteng	Mafeteng	Lesotho	-29.8230	27.2374	1900-liste	2
 afrika-guney-bati	P3	Mohale's Hoek	Mohale's Hoek	Lesotho	-30.1514	27.4769	1900-liste	2		district adı kaynaklı; merkez kasaba bilgi
 afrika-guney-bati	P3	Qacha's Nek	Qacha's Nek	Lesotho	-30.1154	28.6894	1900-liste	2		
 afrika-guney-bati	P3	Quthing (Moyeni)	Quthing	Lesotho	-30.4000	27.7003	1900-liste	2		
-afrika-guney-bati	P3	Teyateyaneng	Berea	Lesotho	-29.1472	27.7490	1900-liste	2		
 afrika-guney-bati	P3	Buchanan	Buchanan	Liberya	5.8769	-10.0496	1900-liste	2		
 afrika-guney-bati	P3	Greenville	Greenville	Liberya	5.0113	-9.0388	1900-liste	2		
 afrika-guney-bati	P3	Harper	Harper	Liberya	4.3782	-7.7108	1900-liste	2		
 afrika-guney-bati	P3	Robertsport	Robertsport	Liberya	6.7533	-11.3671	1900-liste	2		fiilî county statüsü 1900'de belirsiz; iskelet 4 county sayar
 afrika-guney-bati	P3	Bandawe	Bandawe	Malavi			1900-liste	2		SYB yerleşim diye sayar; district merkezi olduğu çıkarım
-afrika-guney-bati	P3	Blantyre	Blantyre	Malavi	-15.7850	35.0085	1900-liste	2		SYB yerleşim diye sayar; district merkezi olduğu çıkarım
 afrika-guney-bati	P3	Chiromo	Chiromo	Malavi	-16.54675	35.15566	1900-liste	2		SYB yerleşim diye sayar; district merkezi olduğu çıkarım
 afrika-guney-bati	P3	Karonga	Karonga	Malavi	-9.9333	33.9333	1900-liste	2		SYB yerleşim diye sayar; district merkezi olduğu çıkarım
 afrika-guney-bati	P3	Mangochi	Fort Johnston	Malavi	-14.4781	35.2645	1900-liste	2		SYB yerleşim diye sayar; district merkezi olduğu çıkarım
@@ -201,26 +169,21 @@ afrika-guney-bati	P3	Kayes	Kayes	Mali	14.4478	-11.4439	1900-liste	2		Kayes cercl
 afrika-guney-bati	P3	 (atlas)	bulunamadı	Mozambik			1900-liste	2		distrito adı kaynaklı
 afrika-guney-bati	P3	Beira	Beira	Mozambik	-19.8436	34.8389	1900-liste	2		şirket bölgesi
 afrika-guney-bati	P3	Ibo	Ibo	Mozambik	-12.3426	40.5859	1900-liste	2		şirket bölgesi
-afrika-guney-bati	P3	Ilha de Moçambique	Moçambique	Mozambik	-15.0347	40.7345	1900-liste	2		
 afrika-guney-bati	P3	Inhambane	Inhambane	Mozambik	-23.8650	35.3833	1900-liste	2		
 afrika-guney-bati	P3	Maputo	Lourenço Marques	Mozambik	-25.9655	32.5832	1900-liste	2		1898'den başkent; L.M. distrito merkezi de
-afrika-guney-bati	P3	Quelimane	Quelimane	Mozambik	-17.8786	36.8883	1900-liste	2		merkez bilgi
 afrika-guney-bati	P3	Gobabis	Gobabis	Namibya	-22.4534	18.9716	1900-liste	2		SYB istasyon der; Bezirk merkezi olduğu çıkarım (STAT 1903: Gibeon, Keetmanshoop, Omaruru, Outjo, Sw
 afrika-guney-bati	P3	Keetmanshoop	Keetmanshoop	Namibya	-26.5765	18.1336	1900-liste	2		SYB istasyon der; Bezirk merkezi olduğu çıkarım (STAT 1903: Gibeon, Keetmanshoop, Omaruru, Outjo, Sw
 afrika-guney-bati	P3	Otjimbingwe	Otjimbingwe	Namibya	-22.3554	16.1288	1900-liste	2		SYB istasyon der; Bezirk merkezi olduğu çıkarım (STAT 1903: Gibeon, Keetmanshoop, Omaruru, Outjo, Sw
-afrika-guney-bati	P3	Swakopmund	Swakopmund	Namibya	-22.6784	14.5266	1900-liste	2		SYB istasyon der; Bezirk merkezi olduğu çıkarım (STAT 1903: Gibeon, Keetmanshoop, Omaruru, Outjo, Sw
 afrika-guney-bati	P3	Walvis Bay	Walfish Bay	Namibya	-22.9575	14.5053	1900-liste	2		Cape eksklavı; iskeletin 106'sına dahil değil
 afrika-guney-bati	P3	Calabar	Old Calabar	Nijerya	4.9589	8.3270	1900-liste	2		1900-01-01 kuruldu; 11 district adları bulunamadı
 afrika-guney-bati	P3	Jebba	Jebba	Nijerya	9.1197	4.8236	1900-liste	2		1900-01-01 kuruldu; SYB RNC merkezi Asaba der; Lugard 1902'de Zungeru
 afrika-guney-bati	P3	Lagos	Lagos	Nijerya	6.4541	3.3947	1900-liste	2		
-afrika-guney-bati	P3	Saint-Louis	Saint-Louis	Senegal	16.0179	-16.4896	1900-liste	2		AOF genel vali merkezi
 afrika-guney-bati	P3	Bandajuma	Bandajuma	Sierra Leone			1900-liste	2		~1901 merkezler taşındı
 afrika-guney-bati	P3	Falaba	Falaba	Sierra Leone			1900-liste	2		~1901 merkezler taşındı
 afrika-guney-bati	P1	Freetown	Freetown	Sierra Leone	8.4871	-13.2356	1900-liste	2	1	
 afrika-guney-bati	P3	Karene	Karene	Sierra Leone			1900-liste	2		~1901 merkezler taşındı
 afrika-guney-bati	P3	Kwelu	Kwelu	Sierra Leone			1900-liste	2		~1901 merkezler taşındı
 afrika-guney-bati	P3	Panguma	Panguma	Sierra Leone	8.1851	-11.1329	1900-liste	2		~1901 merkezler taşındı
-afrika-guney-bati	P3	Jamestown	Jamestown	St Helena (BK)	-15.9249	-5.7182	1900-liste	2		
 afrika-guney-bati	P3	São Tomé	São Thomé	São Tomé ve Príncipe	0.3376	6.7299	1900-liste	2		
 afrika-guney-bati	P3	Atakpamé	Atakpame	Togo	7.5333	1.1333	1900-liste	2		istasyon = fiilî idarî merkez
 afrika-guney-bati	P3	Bassar	Bassari	Togo	9.2502	0.7821	1900-liste	2		istasyon = fiilî idarî merkez
@@ -373,7 +336,6 @@ afrika-guney-bati	P3	Ilorin		NG	8.49664	4.54214	modern-merkez	2		modern birinci 
 afrika-guney-bati	P3	Ikeja		NG	6.59651	3.34205	modern-merkez	2		modern birinci kademe (eyalet/il/bölge) merkezi: GeoNames Administrative Division sayfası + arama sa
 afrika-guney-bati	P3	Lafia		NG	8.4939	8.51532	modern-merkez	2		modern birinci kademe (eyalet/il/bölge) merkezi: GeoNames Administrative Division sayfası + arama sa
 afrika-guney-bati	P3	Minna		NG	9.61524	6.54776	modern-merkez	2		modern birinci kademe (eyalet/il/bölge) merkezi: GeoNames Administrative Division sayfası + arama sa
-afrika-guney-bati	P3	Abeokuta		NG	7.15571	3.34509	modern-merkez	2		modern birinci kademe (eyalet/il/bölge) merkezi: GeoNames Administrative Division sayfası + arama sa
 afrika-guney-bati	P3	Akure		NG	7.25256	5.19312	modern-merkez	2		modern birinci kademe (eyalet/il/bölge) merkezi: GeoNames Administrative Division sayfası + arama sa
 afrika-guney-bati	P3	Osogbo		NG	7.77104	4.55698	modern-merkez	2		modern birinci kademe (eyalet/il/bölge) merkezi: GeoNames Administrative Division sayfası + arama sa
 afrika-guney-bati	P3	Jos		NG	9.92849	8.89212	modern-merkez	2		modern birinci kademe (eyalet/il/bölge) merkezi: GeoNames Administrative Division sayfası + arama sa
@@ -449,7 +411,6 @@ afrika-guney-bati	P3	River Cess		LR	5.45683	-9.58167	modern-merkez	2		modern bir
 afrika-guney-bati	P3	Abengourou		CI	6.72972	-3.49639	modern-merkez	2		modern birinci kademe (eyalet/il/bölge) merkezi: GeoNames Administrative Division sayfası + arama sa
 afrika-guney-bati	P3	Gagnoa		CI	6.13193	-5.9506	modern-merkez	2		modern birinci kademe (eyalet/il/bölge) merkezi: GeoNames Administrative Division sayfası + arama sa
 afrika-guney-bati	P3	Yamoussoukro		CI	6.82055	-5.27674	modern-merkez	2		modern birinci kademe (eyalet/il/bölge) merkezi: GeoNames Administrative Division sayfası + arama sa
-afrika-guney-bati	P3	Abidjan		CI	5.35444	-4.00167	modern-merkez	2		modern birinci kademe (eyalet/il/bölge) merkezi: GeoNames Administrative Division sayfası + arama sa
 afrika-guney-bati	P3	Man		CI	7.41251	-7.55383	modern-merkez	2		modern birinci kademe (eyalet/il/bölge) merkezi: GeoNames Administrative Division sayfası + arama sa
 afrika-guney-bati	P3	Daloa		CI	6.87735	-6.45022	modern-merkez	2		modern birinci kademe (eyalet/il/bölge) merkezi: GeoNames Administrative Division sayfası + arama sa
 afrika-guney-bati	P3	Korhogo		CI	9.45803	-5.62961	modern-merkez	2		modern birinci kademe (eyalet/il/bölge) merkezi: GeoNames Administrative Division sayfası + arama sa
@@ -612,12 +573,10 @@ afrika-guney-bati	P2	Tsévié		Togo	6.42611	1.21333	britannica-eksik	3		Britanni
 afrika-guney-bati	P2	Aného (Anécho)		Togo	6.22798	1.5919	britannica-eksik	3		Britannica ülke maddesinde anılan bölge/büyük şehir: Aného (Anécho), another coastal town, was once 
 afrika-guney-bati	P2	Mindelo		Yeşil Burun	16.89014	-24.98042	britannica-eksik	3		Britannica ülke maddesinde anılan bölge/büyük şehir: Why did Mindelo’s port activity decline after t
 afrika-guney-bati	P2	Cidade Velha		Yeşil Burun	14.91531	-23.60527	britannica-eksik	3		Britannica ülke maddesinde anılan bölge/büyük şehir: Why is Cidade Velha important in the history of
-afrika-guney-bati	P2	Kikwit		Kongo DC	-5.04098	18.81619	britannica-eksik	3		Britannica ülke maddesinde anılan bölge/büyük şehir: Kikwit, the former capital of Bandundu province
 afrika-guney-bati	P2	Bandundu		Kongo DC	-3.31687	17.38063	britannica-eksik	3		Britannica ülke maddesinde anılan bölge/büyük şehir: Kikwit, the former capital of Bandundu province
 afrika-guney-bati	P2	Nkayi		Kongo Cum.	-4.18396	13.2859	britannica-eksik	3		Britannica ülke maddesinde anılan bölge/büyük şehir: The major cities are Brazzaville, Pointe-Noire 
 afrika-guney-bati	P2	Moanda		Gabon	-1.56652	13.1987	britannica-eksik	3		Britannica ülke maddesinde anılan bölge/büyük şehir: Other major cities include Port-Gentil, Francev
 afrika-guney-bati	P2	Witbank (Emalahleni)		Güney Afrika	-25.87133	29.23323	britannica-eksik	3		Britannica ülke maddesinde anılan bölge/büyük şehir: newer industrial centers such as Witbank in Mpu
-afrika-guney-bati	P2	Hwange (Wankie)		Zimbabve	-18.36446	26.49877	britannica-eksik	3		Britannica ülke maddesinde anılan bölge/büyük şehir: from Hwange (formerly Wankie) southward to Bula
 afrika-guney-bati	P2	Nacala		Mozambik	-14.56257	40.68538	britannica-eksik	3		Britannica ülke maddesinde anılan bölge/büyük şehir: Other major cities and towns, most of which lie
 afrika-guney-bati	P2	Selebi-Phikwe		Botsvana	-21.97895	27.84296	britannica-eksik	3		Britannica ülke maddesinde anılan bölge/büyük şehir: Additional mineral resources include nickel and
 afrika-guney-bati	P2	Lobatse		Botsvana	-25.22435	25.67728	britannica-eksik	3		Britannica ülke maddesinde anılan bölge/büyük şehir: The high court meets in Lobatse.
@@ -862,9 +821,6 @@ orta-asya-mogolistan	P3	Khovd	Kobdo	Moğolistan	48.0056	91.6419	1900-liste	2
 orta-asya-mogolistan	P3	Uliastai	Uliassutai	Moğolistan	47.7417	96.8444	1900-liste	2		
 orta-asya-mogolistan	P3	Oral	Uralsk	Kazakistan	51.2460	51.4256	1900-liste	2		Ural obl.; kiril: Уральск
 orta-asya-mogolistan	P3	Semey	Semipalatinsk	Kazakistan	50.4206	80.2502	1900-liste	2		kiril: Семипалатинск
-orta-asya-mogolistan	P3	Fergana	Novyy Margelan	Özbekistan	40.3842	71.7843	1900-liste	2		"Fergana obl.; statoids ""Skobelev"" (1907 adı); 1897 sayımında ""Новый Маргелан""; aynı zamanda Mar
-orta-asya-mogolistan	P3	Aktobe	Aktyubinsk	Kazakistan	50.2797	57.2072	1900-liste	3		kiril: Актюбинск
-orta-asya-mogolistan	P3	Atbasar	Atbasar	Kazakistan	51.8085	68.3582	1900-liste	3		kiril: Атбасар
 orta-asya-mogolistan	P3	Atyrau	Gurev	Kazakistan	47.1048	51.8843	1900-liste	3		kiril: Гурьев
 orta-asya-mogolistan	P3	Fort-Shevchenko	Aleksandrovskiy fort	Kazakistan	44.5065	50.2639	1900-liste	3		merkez adı birim adından farklı; kiril: Александровский форт
 orta-asya-mogolistan	P3	Kapal	Kopal	Kazakistan			1900-liste	3		kiril: Копал
@@ -912,7 +868,6 @@ orta-asya-mogolistan	P3	Navoiy		Özbekistan	40.08444	65.37917	modern-merkez	2		m
 orta-asya-mogolistan	P3	Qarshi		Özbekistan	38.86056	65.78905	modern-merkez	2		modern birinci kademe (eyalet/il/bölge) merkezi: GeoNames Administrative Division sayfası + arama sa
 orta-asya-mogolistan	P3	Nukus		Özbekistan	42.45861	59.60576	modern-merkez	2		modern birinci kademe (eyalet/il/bölge) merkezi: GeoNames Administrative Division sayfası + arama sa
 orta-asya-mogolistan	P3	Guliston		Özbekistan	40.49536	68.77542	modern-merkez	2		modern birinci kademe (eyalet/il/bölge) merkezi: GeoNames Administrative Division sayfası + arama sa
-orta-asya-mogolistan	P3	Termiz		Özbekistan	37.22417	67.27833	modern-merkez	2		modern birinci kademe (eyalet/il/bölge) merkezi: GeoNames Administrative Division sayfası + arama sa
 orta-asya-mogolistan	P3	Amir Timur		Özbekistan	41.01944	68.94083	modern-merkez	2		modern birinci kademe (eyalet/il/bölge) merkezi: GeoNames Administrative Division sayfası + arama sa
 orta-asya-mogolistan	P3	Urganch		Özbekistan	41.55177	60.63143	modern-merkez	2		modern birinci kademe (eyalet/il/bölge) merkezi: GeoNames Administrative Division sayfası + arama sa
 orta-asya-mogolistan	P3	Erdenet		Moğolistan	49.03333	104.08333	modern-merkez	2		modern birinci kademe (eyalet/il/bölge) merkezi: GeoNames Administrative Division sayfası + arama sa
@@ -944,7 +899,6 @@ orta-asya-mogolistan	P1	Karkaralinsk (Karkaralı)			49.41	75.48	atlas-k3	3		atla
 orta-asya-mogolistan	P1	Ayagöz (Sergiopol)			47.96	80.43	atlas-k3	3		atlas k:3 yerleşimi, tarihçesiz (K3-OLCUM); atlas bölgesi sibirya-bozkir, çoğunluk sahip altinorda
 orta-asya-mogolistan	P1	Suzak (Sozak)			44.13	68.47	atlas-k3	3		atlas k:3 yerleşimi, tarihçesiz (K3-OLCUM); atlas bölgesi sibirya-bozkir, çoğunluk sahip altinorda
 orta-asya-mogolistan	P2	Ekibastuz		Kazakistan	51.72371	75.32287	britannica-eksik	3		Britannica ülke maddesinde anılan bölge/büyük şehir: coal from the Qarağandy, Torğai (Turgay), Ekıba
-orta-asya-mogolistan	P2	Angren		Özbekistan	41.01667	70.14361	britannica-eksik	3		Britannica ülke maddesinde anılan bölge/büyük şehir: Soviet-era architects purposely laid out some n
 orta-asya-mogolistan	P2	Bekobod		Özbekistan	40.22083	69.26972	britannica-eksik	3		Britannica ülke maddesinde anılan bölge/büyük şehir: Soviet-era architects purposely laid out some n
 orta-asya-mogolistan	P2	Tursunzoda		Tacikistan	38.51271	68.23163	britannica-eksik	3		Britannica ülke maddesinde anılan bölge/büyük şehir: Smaller towns include the old settlements of Kŭ
 orta-asya-mogolistan	P2	Norak		Tacikistan	38.38917	69.32272	britannica-eksik	3		Britannica ülke maddesinde anılan bölge/büyük şehir: Smaller towns include the old settlements of Kŭ

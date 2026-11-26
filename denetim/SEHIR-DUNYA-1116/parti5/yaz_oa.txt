@@ -1,0 +1,35 @@
+  UYARI akmescid-ua: atlas noktası 1281-01-01'da başlıyor, şehir 1500-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI almalik-cn: atlas noktası 1227-01-01'da başlıyor, şehir 1227-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI almati-kz: atlas noktası 1281-01-01'da başlıyor, şehir 1854-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI anapa-ru: atlas noktası 1281-01-01'da başlıyor, şehir 1400-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI andican-uz: atlas noktası 0500-01-01'da başlıyor, şehir 0999-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI babadagi-ro: atlas noktası 1281-01-01'da başlıyor, şehir 1416-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI belh-af: dikiş beyanlı borç __BOSLUK__ → greko-baktria (atlas) (-0249-01-01): Atlas Belh'i -0249-01-01'de greko-baktria ile başlatır; TDV 'Belh' Selevkos→Bakt
+  UYARI buhara-uz: atlas noktası 0500-01-01'da başlıyor, şehir 0630-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI cimkent-kz: atlas noktası 1281-01-01'da başlıyor, şehir 1699-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI eski-kirim-solhat-ua: atlas noktası 1281-01-01'da başlıyor, şehir 1340-12-31 — atlas başlangıcı düzeltilmeli
+  UYARI gazne-af: atlas noktası 0500-01-01'da başlıyor, şehir 0701-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI hami-kumul-cn: atlas noktası 1281-01-01'da başlıyor, şehir 1868-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI herat-af: atlas noktası 0500-01-01'da başlıyor, şehir 0661-05-07 — atlas başlangıcı düzeltilmeli
+  UYARI hive-uz: dikiş beyanlı borç __BOSLUK__ → cagatay (atlas) (1281-01-01): Atlas Hîve'yi 1281-01-01'de cagatay ile başlatır; 1281 için kaynaklı el değiştir
+  UYARI hokand-uz: atlas noktası 0500-01-01'da başlıyor, şehir 0999-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI hotan-cn: atlas noktası 0500-01-01'da başlıyor, şehir 1100-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI hucend-tj.sahip[1]: 'karahanli' 1137-01-01'ye kadar, künye 1041-01-01'de bitiyor (hayalet)
+  UYARI kabil-af: atlas noktası 0500-01-01'da başlıyor, şehir 0795-03-27 — atlas başlangıcı düzeltilmeli
+  UYARI karakurum-mn: atlas noktası 0500-01-01'da başlıyor, şehir 1220-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI karasubazar-ua: atlas noktası 1281-01-01'da başlıyor, şehir 1300-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI kasgar-cn: atlas noktası 0500-01-01'da başlıyor, şehir 0715-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI kuca-cn: atlas noktası 0500-01-01'da başlıyor, şehir 1100-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI mankup-ua: atlas noktası 1281-01-01'da başlıyor, şehir 1629-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI sehrisebz-kes-uz: atlas noktası 1281-01-01'da başlıyor, şehir 1380-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI semerkant-uz: dikiş beyanlı borç __BOSLUK__ → eftalit (atlas) (0500-01-01): Atlas Semerkant'ı 0500-01-01'de eftalit ile başlatır; MÖ 329-MS 500 arası sahip 
+  UYARI serahs-tm: atlas noktası 0500-01-01'da başlıyor, şehir 0652-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI sucava-ro: atlas noktası 1281-01-01'da başlıyor, şehir 1538-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI sudak-ua: atlas noktası 1000-01-01'da başlıyor, şehir 1237-12-31 — atlas başlangıcı düzeltilmeli
+  UYARI taskent-uz: atlas noktası 0500-01-01'da başlıyor, şehir 0713-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI termez-uz: atlas noktası 1000-01-01'da başlıyor, şehir 1894-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI turkistan-yesi-kz: atlas noktası 1281-01-01'da başlıyor, şehir 1396-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI uc-turfan-cn: atlas noktası 1281-01-01'da başlıyor, şehir 1756-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI urumci-cn: atlas noktası 1763-01-01'da başlıyor, şehir 1870-01-01 — atlas başlangıcı düzeltilmeli
+34 şehir · 7 sahiplik dönemi · 157 olay · ihlal 0 · uyarı 33
+yazıldı → denetim/SEHIR-DUNYA-1116/parti5/oa_test.js

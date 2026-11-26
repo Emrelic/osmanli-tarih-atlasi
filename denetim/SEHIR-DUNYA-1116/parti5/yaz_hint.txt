@@ -1,0 +1,32 @@
+  UYARI agra-in: dikiş beyanlı borç __BOSLUK__ → delhi-sultanligi (atlas) (1504-01-01): Atlas Âgra'yı 1504-01-01'de delhi-sultanligi ile başlatır; TDV Sikender Lûdî'nin
+  UYARI amritsar-in: atlas noktası 1577-01-01'da başlıyor, şehir 1577-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI bahavelpur-pk: atlas noktası 1748-01-01'da başlıyor, şehir 1748-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI bhopal-in: atlas noktası 1707-01-01'da başlıyor, şehir 1728-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI bicapur-in: atlas noktası 1281-01-01'da başlıyor, şehir 1489-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI bidar-in: atlas noktası 1281-01-01'da başlıyor, şehir 1322-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI caul-in-a3: dikiş beyanlı borç __BOSLUK__ → yadava (atlas) (1281-01-01): Atlas Çaul'u 1281-01-01'de yadava ile başlatır; TDV'de 915-1281 arası sahip ve 1
+  UYARI citagong-bd-a3: atlas noktası 1281-01-01'da başlıyor, şehir 1340-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI dakka-bd: atlas noktası 1026-01-01'da başlıyor, şehir 1456-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI delhi-in: atlas noktası 0736-01-01'da başlıyor, şehir 0736-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI ecmir-in: atlas noktası 0682-01-01'da başlıyor, şehir 0682-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI etave-in-a3: atlas noktası 1281-01-01'da başlıyor, şehir 1377-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI evrengabad-in-a3: atlas noktası 1610-01-01'da başlıyor, şehir 1678-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI goa-in-a3: atlas noktası 1281-01-01'da başlıyor, şehir 1510-05-20 — atlas başlangıcı düzeltilmeli
+  UYARI golkonda-in: atlas noktası 1281-01-01'da başlıyor, şehir 1363-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI gvalyar-in: atlas noktası 0500-01-01'da başlıyor, şehir 1022-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI kalkuta-in: atlas noktası 1690-08-24'da başlıyor, şehir 1690-08-24 — atlas başlangıcı düzeltilmeli
+  UYARI kalyani-in-a3: atlas noktası 1028-01-01'da başlıyor, şehir 1657-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI kanbayet-in: atlas noktası 1281-01-01'da başlıyor, şehir 1293-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI kannauc-in-a3: atlas noktası 0500-01-01'da başlıyor, şehir 1018-12-20 — atlas başlangıcı düzeltilmeli
+  UYARI karaci-pk-a3: atlas noktası 1729-01-01'da başlıyor, şehir 1795-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI kolam-in: atlas noktası 1281-01-01'da başlıyor, şehir 1300-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI lahor-pk: atlas noktası 0982-06-26'da başlıyor, şehir 0982-06-26 — atlas başlangıcı düzeltilmeli
+  UYARI leknev-in: dikiş beyanlı borç __BOSLUK__ → delhi-sultanligi (atlas) (1281-01-01): Atlas Leknev'i 1281-01-01'de delhi-sultanligi ile başlatır; TDV 'Leknev' maddesi
+  UYARI mangalor-in: atlas noktası 1281-01-01'da başlıyor, şehir 1400-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI mathura-in: dikiş beyanlı borç __BOSLUK__ → delhi-sultanligi (atlas) (1281-01-01): Atlas Mathura'yı 1281-01-01'de delhi-sultanligi ile başlatır; 1018→1281 arası sa
+  UYARI multan-pk: dikiş beyanlı borç __BOSLUK__ → multan-emirligi (atlas) (0903-01-01): Atlas Mültan'ı 0903-01-01'de multan-emirligi ile başlatır; 903 TDV'de değil (atl
+  UYARI patna-in: dikiş beyanlı borç __BOSLUK__ → nanda (atlas) (-0363-01-01): Atlas Patna'yı -0363-01-01'de nanda ile başlatır; TDV 'Patna' maddesi MÖ V. yy'd
+  UYARI racmahal-in: atlas noktası 1592-01-01'da başlıyor, şehir 1596-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI uccayn-in: atlas noktası 0140-01-01'da başlıyor, şehir 0200-01-01 — atlas başlangıcı düzeltilmeli
+34 şehir · 10 sahiplik dönemi · 122 olay · ihlal 0 · uyarı 30
+yazıldı → denetim/SEHIR-DUNYA-1116/parti5/hint_test.js

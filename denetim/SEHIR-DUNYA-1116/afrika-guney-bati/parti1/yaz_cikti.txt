@@ -1,0 +1,9 @@
+  UYARI bloemfontein-za: atlas noktası 1830-01-01'da başlıyor, şehir 1846-03-26 — atlas başlangıcı düzeltilmeli
+  UYARI cape-town-za: atlas noktası 1652-01-01'da başlıyor, şehir 1652-04-06 — atlas başlangıcı düzeltilmeli
+  UYARI hamdullahi-ml.sahip[0]: 'massina' 1815-01-01'de, künye 1818-01-01'de başlıyor (hayalet)
+  UYARI kano-ng: atlas noktası 1000-01-01'da başlıyor, şehir 1200-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI pretoria-za: atlas noktası 1830-01-01'da başlıyor, şehir 1855-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI tombouctou-ml: dikiş beyanlı borç __BOSLUK__ → mali-imparatorlugu (atlas) (1281-01-01): Atlas Timbuktu'yu 1281-01-01'den Mali'ye bağlıyor; TDV Tinbüktü'nün Mali'ye geçi
+  UYARI yola-ng: atlas noktası 1841-01-01'da başlıyor, şehir 1841-01-01 — atlas başlangıcı düzeltilmeli
+11 şehir · 6 sahiplik dönemi · 40 olay · ihlal 0 · uyarı 7
+yazıldı → denetim/SEHIR-DUNYA-1116/afrika-guney-bati/parti1/parti1_dogrulu_test.js

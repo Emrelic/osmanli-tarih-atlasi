@@ -1,0 +1,4 @@
+  UYARI agadez-ne: atlas noktası 1405-01-01'da başlıyor, şehir 1500-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI maseru-ls: atlas noktası 1822-01-01'da başlıyor, şehir 1869-01-01 — atlas başlangıcı düzeltilmeli
+2 şehir · 0 sahiplik dönemi · 2 olay · ihlal 0 · uyarı 2
+yazıldı → denetim/SEHIR-DUNYA-1116/afrika-guney-bati/parti4/B_test.js

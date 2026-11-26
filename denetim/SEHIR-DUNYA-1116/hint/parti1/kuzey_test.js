@@ -1,0 +1,639 @@
+// ŞEHİR TARİHÇESİ — KUZEY_TEST · üretici: arac/sehir_tarihce.py · şema: VERI-YAPISI.md
+// Motor/denetle/site OKUMAZ — araştırma birikimi. Elle düzenleme: JSON'u düzelt, yeniden üret.
+window.SEHIR_TARIHCE_KUZEY_TEST = [
+ {
+  "id": "agra-in",
+  "ad": "Agra",
+  "atlas_ad": "Agra",
+  "lat": 27.177,
+  "lon": 78.008,
+  "kat1900": 3,
+  "adlar": [
+   "Âgra"
+  ],
+  "ilk": {
+   "t": "1081-01-01",
+   "gun": "1081",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Âgra', https://islamansiklopedisi.org.tr/agra (16 Kasım 2026'da okundu; özet okuma): Gazneli Seyfüddevle Mahmud Âgra'yı 1081'de aldı",
+   "tanik": "(özet) Gazneli hükümdarı Seyfüddevle Mahmud 1081'de Âgra'yı aldı"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1081-01-01",
+    "t": "1504-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "bulunamadı (1081-1504 arası Âgra'ya özgü sahip zinciri bu oturumda okunamadı)",
+    "ic_not": "TDV 'Âgra' Gazneli ele geçirmeyi (1081) ve Âgra'nın önceden 'Sûrisana devleti'nin parçası olduğunu söyler (tarihsiz); 1081 geçici ele geçirme/akın düzeyinde olabilir ve bitiş yılı verilmez — Gazneli dönemi açılmadı (süresi bilinmeyen ele geçirme kuralı). 1081-1495/1504 arası (Tomara, Çahamana, Gurlu, Delhi Sultanlığı, Lûdî) Âgra'ya bağlanan kaynak bulunamadı. Boşluk doldurma merdiveni: TDV okundu; Majumdar V/VI, Eaton/Habib/Chandra, DergiPark basamakları bu oturumda erişilemedi."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1081-01-01",
+    "gun": "1081",
+    "k": "fetih",
+    "b": "Gazneli Seyfüddevle Mahmud Âgra'yı aldı",
+    "kesinlik": "yil",
+    "kaynak": "TDV 'Âgra' (özet okuma)"
+   },
+   {
+    "t": "1495-01-01",
+    "gun": "1495",
+    "k": "diger",
+    "b": "Sikender Lûdî Âgra'yı yeniden inşa edip hükümet merkezi yaptı (TDV)",
+    "kesinlik": "yil",
+    "kaynak": "TDV 'Âgra' (özet okuma): Sikender Lûdî'nin 1495'te şehri yeniden kurup hükümet merkezi yapması"
+   },
+   {
+    "t": "1526-01-01",
+    "gun": "1526",
+    "k": "diger",
+    "b": "İbrâhim Lûdî'yi Pânîpet'te yenen Bâbür Âgra'yı başkent yaptı",
+    "kesinlik": "yil",
+    "kaynak": "TDV 'Âgra' (özet okuma)"
+   },
+   {
+    "t": "1803-01-01",
+    "gun": "1803",
+    "k": "fetih",
+    "b": "İngilizler Âgra'yı aldı (XVIII. yy'da Cat ve Maratha hâkimiyetinden sonra)",
+    "kesinlik": "yil",
+    "kaynak": "TDV 'Âgra' (özet okuma)"
+   }
+  ],
+  "dikis_beyan": "Atlas Âgra'yı 1504-01-01'de delhi-sultanligi ile başlatır; TDV Sikender Lûdî'nin Âgra'yı 1495'te yeniden kurup hükümet merkezi yaptığını söyler (1504 ≠ 1495); 1504 için tanık bulunamadı, yer tutucu olay yazılmadı.",
+  "ic_not": "TDV 'Âgra' özet okuma: Sikender Lûdî 1495, Bâbür 1526 (başkent), 1803 İngiliz; XVIII. yy'da Cat ve Marathalar. Atlas 1504'ü 'kur' olarak taşır (atlas referans değil); TDV'de 1495 vardır — çelişki atlas düzeltmesi önerisidir. 1081 olayı gün verilmeyen yıl; 'Seyfüddevle Mahmud' Gazneli şehzâde/vali olabilir (Sultan Mahmud değil, 1030'da ölmüştür). Gazneli künyesinin 1081'de sürdüğü (devletler.js gazneli 0963-1186) doğrulandı. 'Sûrisana' adı TDV'de yazım olarak geçer (Şûrasena)."
+ },
+ {
+  "id": "amritsar-in",
+  "ad": "Amritsar",
+  "atlas_ad": "Amritsar",
+  "lat": 31.634,
+  "lon": 74.873,
+  "kat1900": 3,
+  "adlar": [
+   "Ramdaspur",
+   "Amritsar"
+  ],
+  "ilk": {
+   "t": "1577-01-01",
+   "gun": "1577",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Amritsar', https://islamansiklopedisi.org.tr/amritsar (16 Kasım 2026'da okundu; özet okuma): Guru Ram Das 1577'de Ekber'in bağışladığı arazide Amrita-saras havuzunu başlattı; yerleşim önce Ramdaspur diye anıldı",
+   "tanik": "(özet) 1577'de Guru Ram Das, Ekber'in verdiği arazide Amrita-saras havuzunu başlattı"
+  },
+  "kur": {
+   "t": "1577-01-01",
+   "gun": "1577",
+   "kesinlik": "yil",
+   "kaynak": "TDV 'Amritsar' (özet okuma): şehir Amrita-saras havuzunun çevresinde 1577'de gelişmeye başladı"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1764-01-01",
+    "gun": "1764",
+    "k": "diger",
+    "b": "Bağımsız Sih devleti kuruldu; Dürrânî'nin yıktığı Altın Tapınak yaklaşık iki yıl sonra yeniden yapıldı",
+    "kesinlik": "yil",
+    "kaynak": "TDV 'Amritsar': «bağımsız Sih devletinin kurulmasından (1764)» (özet okumada 1764 doğrulandı)"
+   },
+   {
+    "t": "1919-01-01",
+    "gun": "1919",
+    "k": "diger",
+    "b": "İngiliz birlikleri silâhsız göstericilere ateş açtı (379 ölü bildirilir): Amritsar katliamı",
+    "kesinlik": "yil",
+    "kaynak": "TDV 'Amritsar' (özet okuma; gün bu oturumda kaynaklanmadı)"
+   }
+  ],
+  "ic_not": "Atlas Amritsar'ı 1577-01-01'de başlatır; ilk.t aynı yıldır, zincir atlasındır (sahip:[]). Kuruluş TDV'de 'havuz 1577'de başlatıldı' olarak geçer; şehrin kuruluş günü yok (yalnız yıl). Altın Tapınak'ın tamamlanışı (Guru Arjan) ve Ranjit Singh'in altın kaplaması TDV özetinde yıl vermez, yazılmadı. Atlasın 1752/1765/1801/1849 günleri TDV'de olmadığından olay yazılmadı. TDV özetinden 1947 Bölünme şiddetinden de söz edilir; gün/yıl olay olarak yazılmadı."
+ },
+ {
+  "id": "bahavelpur-pk",
+  "ad": "Bahâvelpûr",
+  "atlas_ad": "Bahâvelpûr",
+  "lat": 29.395,
+  "lon": 71.684,
+  "kat1900": null,
+  "adlar": [
+   "Bahâvelpûr",
+   "Bağdâdulcedîd (TDV: Bağdat'a benzediği için)"
+  ],
+  "ilk": {
+   "t": "1748-01-01",
+   "gun": "1748",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Bahâvelpûr' (M. Naeem Qureshi), 1991, https://islamansiklopedisi.org.tr/bahavelpur (16 Kasım 2026'da okundu)",
+   "tanik": "Sutlej ırmağı kıyısında Emîr Muhammed Bahâvel tarafından 1748'de kurulmuştur"
+  },
+  "kur": {
+   "t": "1748-01-01",
+   "gun": "1748",
+   "kesinlik": "yil",
+   "kaynak": "TDV 'Bahâvelpûr' (M. Naeem Qureshi): kuruluş 1748, Emîr Muhammed Bahâvel"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1748-01-01",
+    "gun": "1748",
+    "k": "kurulus",
+    "b": "Emîr Muhammed Bahâvel şehri kurdu (Bahâvelpûr nevvâblığının başlangıcı)",
+    "kesinlik": "yil",
+    "kaynak": "TDV 'Bahâvelpûr' (M. Naeem Qureshi, 1991)"
+   },
+   {
+    "t": "1833-01-01",
+    "gun": "1833",
+    "k": "antlasma",
+    "b": "Nevvâblık İngilizlerle İndus nehrinin geçişine ilişkin antlaşma imzaladı",
+    "kesinlik": "yil",
+    "kaynak": "TDV 'Bahâvelpûr' (özet okuma; cümle kelimesi kelimesine alınamadı)"
+   },
+   {
+    "t": "1838-01-01",
+    "gun": "1838",
+    "k": "antlasma",
+    "b": "Nevvâblık İngilizlerle himaye antlaşması yaptı",
+    "kesinlik": "yil",
+    "kaynak": "TDV 'Bahâvelpûr' (özet okuma)"
+   },
+   {
+    "t": "1947-01-01",
+    "gun": "1947",
+    "k": "diger",
+    "b": "Himaye antlaşmasının geçerli kaldığı son yıl; devlet Pakistan'la birleşti",
+    "kesinlik": "yil",
+    "kaynak": "TDV 'Bahâvelpûr' (özet okuma)"
+   },
+   {
+    "t": "1955-01-01",
+    "gun": "1955",
+    "k": "diger",
+    "b": "Bahâvelpûr, Bahâvelnagar ve Rahîm Yâr Han bölgeleriyle birleşerek Pencap eyaletine katıldı; nevvâblık sona erdi",
+    "kesinlik": "yil",
+    "kaynak": "TDV 'Bahâvelpûr' (M. Naeem Qureshi, 1991, özet okuma)"
+   }
+  ],
+  "ic_not": "Atlas Bahâvelpûr'u 1748-01-01'de başlatır; ilk.t aynıdır, zincir atlasındır (sahip:[]). TDV 'Bahâvelpûr' şehir ve devleti aynı madde içinde anlatır; 1748 şehrin kuruluşu olarak verilir (tarih TDV'de yalnız yıl). Atlasın 1955-10-14 günü TDV'de yok (yalnız 1955). 1900 listesinde yok (kat1900 null). TDV özetinden 1833/1838/1947/1955 yılları okundu; cümleler kelimesi kelimesine alınmadı. Nevvâblığın Babürlü/Dürrânî vasallığı (1748-1833) TDV özetinde yok: sahip yazılmadı."
+ },
+ {
+  "id": "dakka-bd",
+  "ad": "Dakka (Dhaka)",
+  "atlas_ad": "Dakka (Dhaka)",
+  "lat": 23.811,
+  "lon": 90.413,
+  "kat1900": 3,
+  "adlar": [
+   "Dakka (Dhaka)",
+   "Cihangirnagar (1608/1610'dan başlayarak resmî ad; halk Dakka demeyi sürdürdü)"
+  ],
+  "ilk": {
+   "t": "1456-01-01",
+   "gun": "1456",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Banglapedia, 'Dhaka' (Abdul Karim, 'Dhaka to 1800 AD' bölümü), https://en.banglapedia.org/index.php/Dhaka (16 Kasım 2026'da okundu; cümle doğrulandı)",
+   "tanik": "the earliest one is dated from 1456 AD (Mughal öncesi camiler)"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1608-01-01",
+    "gun": "1608",
+    "k": "diger",
+    "b": "İslâm Han Dakka'yı Bengal eyaletinin başkenti yaptı ve Cihangirnagar adını verdi",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Dakka', https://islamansiklopedisi.org.tr/dakka (16 Kasım 2026'da okundu; özet okuma). ÇELİŞKİ: Banglapedia 'Dhaka': «Islam Khan Chishti transferred the capital of Subah Bangalah from Rajmahal to Dhaka in 1610» — TDV esas, ic_not'ta"
+   },
+   {
+    "t": "1706-01-01",
+    "gun": "1706",
+    "k": "diger",
+    "b": "Bengal eyaletinin başkenti Mürşidâbâd'a taşındı (TDV)",
+    "kesinlik": "yil",
+    "kaynak": "TDV 'Dakka' (özet okuma). ÇELİŞKİ: Banglapedia 'Dhaka': «Dhaka's period of glory came to an end with the shifting of the provincial capital to Murshidabad in 1717.»"
+   },
+   {
+    "t": "1971-12-16",
+    "gun": "16 Aralık 1971",
+    "k": "diger",
+    "b": "Dakka bağımsız Bangladeş'in başkenti oldu (Doğu Pakistan bağımsız devlet oldu)",
+    "kaynak": "Banglapedia 'Dhaka': East Pakistan became an independent state and came to be known as Bangladesh on 16 December 1971; TDV 'Dakka': Aralık 1971'de Bangladeş başkenti"
+   }
+  ],
+  "ic_not": "Atlas Dakka'yı 1026-01-01'de başlatır (varman-vanga, yüzyıl hassasiyeti); bu çalışmada Dakka'ya özgü en eski tanık 1456 tarihli cami olduğundan ilk.t atlas başlangıcından SONRA — atlas başlangıcı kaynaksız olabilir, düzeltilmeli (sahip:[]). Banglapedia 'Dhaka' Mughal öncesi varlığı için 'Its existence in the pre-Muslim period cannot be ascertained with certainty' der; Vikramapura'nın 10-13. yy'da öne çıktığını belirtir (Vikramapura Dakka'dan ayrı, ≈30 km). Ad kökeni (dhak ağacı, Durga, davul) tartışmalıdır, yazılmadı. ÇELİŞKİLER (TDV esas): başkent oluş 1608 (TDV) / 1610 (Banglapedia); Mürşidâbâd'a taşınma 1706 (TDV) / 1717 (Banglapedia — 'officially'; Murşidâbâd'da diwani 1702'de taşınmıştı). Atlasın kd penceresi (1608-1706) TDV ile uyumludur; atlas sahip zinciri bengal-nevabligi'ni 1717'den başlatır."
+ },
+ {
+  "id": "delhi-in",
+  "ad": "Delhi",
+  "atlas_ad": "Delhi",
+  "lat": 28.644,
+  "lon": 77.216,
+  "kat1900": 3,
+  "adlar": [
+   "Delhi"
+  ],
+  "ilk": {
+   "t": "0736-01-01",
+   "gun": "736",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. IV: The Age of Imperial Kanauj, Bharatiya Vidya Bhavan, Bombay 1955, s. 111 («The Tomaras»; archive.org: ageofimperialkan04bhar, tam metin bu oturumda okundu)",
+   "tanik": "the Tuars, a contraction of Tomaras, founded Delhi in A.D. 736"
+  },
+  "kur": {
+   "t": "0736-01-01",
+   "gun": "736",
+   "kesinlik": "yil",
+   "kaynak": "Majumdar, History and Culture of the Indian People IV, s. 111: «The tradition runs that the Tuars ... founded Delhi in A.D. 736.» (rivayet)"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1150-01-01",
+    "gun": "12. yüzyıl ortası",
+    "k": "fetih",
+    "b": "Tomarlar (Hariyana ülkesinde hüküm sürenler) Çahamana III. Vigraharaca Visaladeva tarafından yıkıldı; Delhi Çahamanalara geçti",
+    "kesinlik": "onyil",
+    "kaynak": "Majumdar, History and Culture of the Indian People IV, s. 111-112 («The Tomaras»): «continued to rule the Hariyana country till the middle of the twelfth century ... overthrown by the Chahamana Vigraharaja III Visaladeva»; yalnız 'yüzyıl ortası' verir, yıl yok"
+   },
+   {
+    "t": "1192-01-01",
+    "gun": "1192",
+    "k": "fetih",
+    "b": "Gurlu komutanı Kutbüddin Aybeg Delhi'yi ele geçirdi ve Kuvvetü'l-İslâm Mescidi'ni yaptırdı; TDV, modern Delhi'nin yedi tarihî şehrinin ilkini Lalkot (1192) sayar",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Delhi' maddesi, https://islamansiklopedisi.org.tr/delhi (1994 baskısı; 16 Kasım 2026'da okundu; gün yok, yalnız yıl)"
+   },
+   {
+    "t": "1858-01-01",
+    "gun": "1858",
+    "k": "kayip",
+    "b": "İngilizler son Babürlü hükümdar Bahâdır Şah'tan Delhi'nin yönetimini devraldı",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Delhi' maddesi, https://islamansiklopedisi.org.tr/delhi (16 Kasım 2026'da okundu; yalnız yıl)"
+   },
+   {
+    "t": "1911-01-01",
+    "gun": "1911",
+    "k": "diger",
+    "b": "Hindistan idaresinin merkezi Kalküta'dan Delhi'ye taşındı",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Delhi' maddesi (1911); ÇELİŞKİ: TDV 'Kalküta' maddesi aynı geçişi 1912'de Yeni Delhi'nin merkez oluşu diye verir — iki TDV maddesi birbiriyle uyumsuz, ic_not'ta beyan"
+   },
+   {
+    "t": "1947-01-01",
+    "gun": "1947",
+    "k": "diger",
+    "b": "Delhi bağımsız Hindistan'ın başkenti oldu",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Delhi' maddesi, https://islamansiklopedisi.org.tr/delhi (16 Kasım 2026'da okundu; yalnız yıl)"
+   }
+  ],
+  "ic_not": "Atlas Delhi'yi 0736-01-01'de başlatır; ilk.t o güne eşittir, zincir atlasındır (sahip:[]). 736 Majumdar'ın aktardığı RİVAYETtir (Tuar/Tomara), arkeolojik/kitabeli tanık değildir; Delhi'nin 736 öncesi sahibi/varlığı bu oturumda kaynaklanmadı. TDV 'Delhi' maddesi (1994) şehrin 'yedi tarihî şehir'inin Lalkot (1192)'ten Şâhcihânâbâd (1638)'e dizildiğini söyler; Şâhcihânâbâd 1638 ayrı bir kent çekirdeği olduğundan ad olarak yazılmadı. ÇELİŞKİ (iki TDV maddesi): 'Delhi' idarenin Kalküta'dan Delhi'ye taşınışını 1911 yazar; 'Kalküta' maddesi Yeni Delhi'nin merkez oluşunu 1912 yazar — olayda 'Delhi' maddesinin yılı alındı. Delhi'nin Halacî (1290), Tuğluk (1320), Seyyid (1414), Lûdî (1451) ve Babür (1526) geçişlerinin TDV günleri bu oturumda doğrulanamadı; atlas zincirindedirler, buraya yazılmadılar. Timur'un Delhi'si TDV'de yalnız 'XIV. yüzyıl sonu' diye geçtiğinden olay yazılmadı."
+ },
+ {
+  "id": "ecmir-in",
+  "ad": "Ecmîr (Ajmer)",
+  "atlas_ad": "Ecmîr (Ajmer)",
+  "lat": 26.45,
+  "lon": 74.639,
+  "kat1900": 2,
+  "adlar": [
+   "Ecmîr",
+   "Ajmer"
+  ],
+  "ilk": {
+   "t": "0682-01-01",
+   "gun": "682",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Ecmîr' (Rıza Kurtuluş), 1994, https://islamansiklopedisi.org.tr/ecmir (16 Kasım 2026'da okundu; özet okuma): Târîh-i Firişte'de yönetici prensin 682'de Lahor racasıyla akrabalık kurduğu",
+   "tanik": "(özet) yönetici prensin 682 yılında Lahor racasıyla akrabalık tesis ettiği"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1024-01-01",
+    "gun": "1024",
+    "k": "kayip",
+    "b": "Gazneli Mahmud Ecmîr'i yağmaladı",
+    "kesinlik": "yil",
+    "kaynak": "TDV 'Ecmîr' (Rıza Kurtuluş, 1994), özet okuma"
+   },
+   {
+    "t": "1192-01-01",
+    "gun": "1192",
+    "k": "fetih",
+    "b": "Gurlu Muhammed Gûrî Ecmîr'i fethetti; İslâm hâkimiyeti başladı",
+    "kesinlik": "yil",
+    "kaynak": "TDV 'Ecmîr': «Şehir 1192'de Muhammed Gûrî tarafından fethedilerek İslâm hâkimiyeti altına alındı.» (özet okumada 1192 doğrulandı)"
+   },
+   {
+    "t": "1556-01-01",
+    "gun": "1556",
+    "k": "fetih",
+    "b": "Ekber Ecmîr'i aldı; şehir Babürlüler'e geçti",
+    "kesinlik": "yil",
+    "kaynak": "TDV 'Ecmîr' (Rıza Kurtuluş, 1994), özet okuma"
+   },
+   {
+    "t": "1818-01-01",
+    "gun": "1818",
+    "k": "antlasma",
+    "b": "İngilizler Maratha'larla anlaşarak Ecmîr'e hâkim oldu",
+    "kesinlik": "yil",
+    "kaynak": "TDV 'Ecmîr' (Rıza Kurtuluş, 1994), özet okuma"
+   }
+  ],
+  "ic_not": "Atlas Ecmîr'i 0682-01-01'de başlatır; ilk.t aynı yıldır, zincir atlasındır (sahip:[]). TDV 682'yi 'Târîh-i Firişte' kaydı olarak verir; takvim türünü (hicrî/milâdî) belirtmediği, hicrî 682 (=1283) ise Çahamana/Lahor racası bağlamına uymadığı için milâdî okundu — beyan. TDV şehrin 'II. yüzyılda Racpûtların Cauhan kabilesinin dinî ve siyasî merkezi olarak kurulduğunu' söyler; bu bir kuruluş TANIKLIĞI değil gelenektir (yazılı tanık yok), kur yazılmadı. TDV 987 ve 1008'de prensin Hindu birliklerine yardımını da anar (özet okumada doğrulanamadı, yazılmadı). Delhi Sultanlığı'na geçiş (Aybeg, 1206-1210) ve Racput/Mevar dönemi (1365-1559) tarihleri TDV özetinde yıl düzeyinde bile okunamadı, olay yazılmadı. 1818 'anlaşma' İngiliz-Maratha anlaşmasıdır; gün yok."
+ },
+ {
+  "id": "kalkuta-in",
+  "ad": "Kalküta",
+  "atlas_ad": "Kalküta",
+  "lat": 22.572,
+  "lon": 88.364,
+  "kat1900": 2,
+  "adlar": [
+   "Kalikâtâ (Kalikata)",
+   "Sutanuti",
+   "Fort William",
+   "Alinagar (1756'da Sirâcüddevle'nin verdiği ad)",
+   "Kalküta"
+  ],
+  "ilk": {
+   "t": "1690-08-24",
+   "gun": "24 Ağustos 1690",
+   "nicelik": "kurulus",
+   "kesinlik": "gun",
+   "kaynak": "Banglapedia (Asiatic Society of Bangladesh), 'Charnock, Job' (Sirajul Islam), https://en.banglapedia.org/index.php/Charnock,_Job (16 Kasım 2026'da okundu); yıl için TDV İslâm Ansiklopedisi, 'Kalküta' maddesi (1690)",
+   "tanik": "Charnock 24 August 1690'da Sutanuti'de İngiliz bayrağını çekti (özet okuma)"
+  },
+  "kur": {
+   "t": "1690-08-24",
+   "gun": "24 Ağustos 1690",
+   "kesinlik": "gun",
+   "kaynak": "Banglapedia 'Charnock, Job': yerleşimin temelini atan eylem 24 Ağustos 1690; TDV 'Kalküta': Job Charnock'ın Kalikâtâ köyü yanında acente açmasıyla teşekkül etti (yalnız 1690)"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1690-08-24",
+    "gun": "24 Ağustos 1690",
+    "k": "kurulus",
+    "b": "Job Charnock Sutanuti'de İngiliz Doğu Hindistan Şirketi yerleşimini kurdu",
+    "kaynak": "Banglapedia 'Charnock, Job' (Sirajul Islam); TDV 'Kalküta' (yıl 1690)"
+   },
+   {
+    "t": "1756-01-01",
+    "gun": "1756",
+    "k": "fetih",
+    "b": "Bengal Nevvâbı Sirâcüddevle Fort William'ı zaptedip adını Alinagar'a çevirdi",
+    "kesinlik": "yil",
+    "kaynak": "TDV 'Kalküta': «1756 yılında Bengal Nevvâbı Sirâcüddevle, Fort William'ı zaptederek adını Alinagar'a çevirdi.» (gün yok)"
+   },
+   {
+    "t": "1773-01-01",
+    "gun": "1773",
+    "k": "diger",
+    "b": "Bengal'in diwani ve hazinesi (khalsa) Kalküta'ya nakledildi; Kalküta fiilî başkent oldu",
+    "kesinlik": "yil",
+    "kaynak": "Banglapedia 'Murshidabad' (KM Mohsin): «The transfer of the diwani and the khalsa to Calcutta in 1773»; TDV 'Mürşidâbâd' da 1773 verir"
+   },
+   {
+    "t": "1912-01-01",
+    "gun": "1912",
+    "k": "diger",
+    "b": "Yeni Delhi merkez oldu; Kalküta'nın merkezlik statüsü sona erdi",
+    "kesinlik": "yil",
+    "kaynak": "TDV 'Kalküta': «1912'de Yeni Delhi merkez oluncaya kadar bu durumunu korudu.» (ÇELİŞKİ: TDV 'Delhi' 1911 verir, ic_not)"
+   }
+  ],
+  "ic_not": "Atlas Kalküta'yı 1690-08-24'te başlatır; ilk.t aynı gündür (zincir atlasındır, sahip:[]). 'Kuruluş' İngiliz Doğu Hindistan Şirketi YERLEŞİMİNİN kuruluşudur: üç köy (Sutanuti, Kalikata, Gobindapur) öncesinde vardı ve Kalküta Yüksek Mahkemesi 2003'te Charnock'ın 'kurucu' sayılmaması gerektiğine hükmetti (bu oturumda yalnız arama özetinde görüldü, birincil kaynağı okunmadı); köylerin daha eski yazılı anılışı (ör. Ain-i Ekberî) bu oturumda doğrulanamadı — varsa ilk ve nicelik değişir. Gün (24 Ağustos) yalnız Banglapedia'dan; TDV yıl verir (tarih çelişkisi yok). ÇELİŞKİ (iki TDV maddesi): 'Kalküta' başkentliğin sonunu 1912'de, 'Delhi' idarenin Delhi'ye taşınışını 1911'de verir. 1772 (TDV Kalküta: Warren Hastings'in yönetim merkezini Mürşidâbâd'dan Kalküta'ya taşıması) ile 1773 (Banglapedia/TDV Mürşidâbâd) farkı: 1773 yazıldı. Plassey (1757) ve Kalküta'nın Ocak 1757'de geri alınışı TDV 'Kalküta'da yok; günler bu oturumda kaynaklanamadı. kat1900: 1900 listesindeki 'Calcutta' (kat 2)."
+ },
+ {
+  "id": "lahor-pk",
+  "ad": "Lahor",
+  "atlas_ad": "Lahor",
+  "lat": 31.549,
+  "lon": 74.343,
+  "kat1900": 2,
+  "adlar": [
+   "Lahor"
+  ],
+  "ilk": {
+   "t": "0982-06-26",
+   "gun": "372 (982)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Lahor' (Seyyid Athar Abbas Rizvî), c. 27, İstanbul 2003, s. 57-58, https://islamansiklopedisi.org.tr/lahor (16 Kasım 2026'da okundu; cümle kelimesi kelimesine doğrulandı)",
+   "tanik": "372'de (982) yazılan Hudûdü'l-âlem'de de Lahor'un Mültan emîrinin hâkimiyetinde bulunduğu kaydedilir"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1013-01-01",
+    "gun": "1013-1014",
+    "k": "fetih",
+    "b": "Gazneli Mahmud Lahor'u Hindûşâhîler'den aldı",
+    "kesinlik": "yil",
+    "kaynak": "TDV 'Lahor': «Şehir 991'den sonra Hindûşâhîler'in, 1013-1014'te Gazneli Mahmud'un eline geçti.» (aralık verir; başı yazıldı)"
+   },
+   {
+    "t": "1186-01-01",
+    "gun": "582 (1186)",
+    "k": "fetih",
+    "b": "Gur Sultanı Muizzüddin Muhammed Lahor'a hâkim oldu",
+    "kesinlik": "yil",
+    "kaynak": "TDV 'Lahor': «582'de (1186) Gur Sultanı Muizzüddin Muhammed Lahor'a hâkim oldu.»"
+   },
+   {
+    "t": "1241-01-01",
+    "gun": "1241",
+    "k": "diger",
+    "b": "Moğol tahribatı ve katliamı",
+    "kesinlik": "yil",
+    "kaynak": "TDV 'Lahor': «1241'de Moğol tahribat ve katliamını da geçirdikten sonra ...»"
+   },
+   {
+    "t": "1566-01-01",
+    "gun": "1566",
+    "k": "diger",
+    "b": "Ekber Şah Lahor Kalesi'nin yeniden inşasını başlattı (şehir on üç kapılı surla çevrildi)",
+    "kesinlik": "yil",
+    "kaynak": "TDV 'Lahor': «1566'da Ekber Şah Lahor Kalesi'nin yeniden inşasını başlattı;» ve «Ekber ayrıca şehrin etrafını on üç kapılı bir surla çevirtmiştir.»"
+   }
+  ],
+  "ic_not": "Atlas Lahor'u 0982-06-26'da başlatır; hicrî 372 (982-83) ∩ milâdî 982'nin ilk günü (aritmetik sivil takvim, Jülyen, ±2 gün) aynı güne düşer, ilk.t bu yüzden o gündür (kesinlik yıl; tanıklık yılı alt sınırdır, yazım günü değil). Zincir atlasındır (sahip:[]). TDV 'Hâkimiyet' diyor; vasallık düzeyinde olabilir. 'Lahor' adının kökeni TDV'ye göre bilinmiyor (Hindu tarihçiler Ramacandra'nın oğlu Lava/Loh'a bağlar) — ad olarak yazılmadı. 991 sonrası Hindûşâhî dönemi TDV'de 'sonra' ifadesiyle geçer, yıl yok: olay yazılmadı. Sihler: TDV 'XVIII. yüzyılın sonlarından 1850'lere kadar' der (yıl yok, atlasın 1765/1799 günleri TDV'de değil) — olay yazılmadı; 1947 sonrası Pakistan'a katılış TDV'de yalnız '1947'den sonra'."
+ },
+ {
+  "id": "multan-pk",
+  "ad": "Multan",
+  "atlas_ad": "Multan",
+  "lat": 30.198,
+  "lon": 71.475,
+  "kat1900": 3,
+  "adlar": [
+   "Mültan"
+  ],
+  "ilk": {
+   "t": "0712-10-07",
+   "gun": "94 (712)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Mültan' (Azmi Özcan), c. 31, 2020, https://islamansiklopedisi.org.tr/multan (16 Kasım 2026'da okundu; özet okuma): Muhammed b. Kâsım 712'de (94) Mültan'ı fethetti",
+   "tanik": "(özet) Muhammed b. Kâsım es-Sekafî 94/712'de Mültan'ı fethetti"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0712-10-07",
+    "t": "0903-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "bulunamadı (Mültan'a özgü dönem/hâkim zinciri kaynağı bu oturumda okunamadı)",
+    "ic_not": "712 Arap (Emevî) fethinden atlasın başlangıcı olan 903'e kadar Mültan'a özgü sahip zinciri kaynakta bulunamadı. TDV 'Mültan' yalnız c. 968-69 (İbn Havkal) ve 985 (Makdisî) tanıklıklarında Abbâsî otoritesi ve İsmâilî nüfuzundan söz eder (tarih/hâkim kesin değil). Emevî→Abbâsî (750) ve Saffârî/Habbârî dönemleri Mültan'a bağlanmadı: beyansız yaklaşıklık yazılmaz. Boşluk doldurma merdiveni: TDV okundu; İSAM/TTK/DergiPark/Majumdar VI basamakları bu oturumda erişilemedi."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0712-10-07",
+    "gun": "94 (712)",
+    "k": "fetih",
+    "b": "Muhammed b. Kâsım Mültan'ı Hindu Rai hânedanından aldı",
+    "kesinlik": "yil",
+    "kaynak": "TDV 'Mültan' (Azmi Özcan, 2020): 712 (94) fethi; hicrî 94 (712-10-07 … 713-09-25) ∩ milâdî 712 kesişiminin ilk günü, aritmetik sivil takvim ±2 gün"
+   },
+   {
+    "t": "1006-01-01",
+    "gun": "396 (1006)",
+    "k": "fetih",
+    "b": "Gazneli Mahmud Mültan'ı yedi günlük muhasaradan sonra zaptetti (Karmatî hâkimden); 1010'da isyan sonrası yeniden aldı",
+    "kesinlik": "yil",
+    "kaynak": "TDV 'Mültan' (özet okuma): 1006 ve 1010 fetihleri; ayrıntı cümle (396/1006, 400/1010) bu oturumda yalnız özet olarak doğrulandı; ÇELİŞKİ: Majumdar VI 1010 verir, TDV esas"
+   },
+   {
+    "t": "1175-01-01",
+    "gun": "571 (1175-1176)",
+    "k": "fetih",
+    "b": "Gurlu Muizzüddin Muhammed b. Sâm Mültan'da kesin Sünnî hâkimiyeti kurdu",
+    "kesinlik": "yil",
+    "kaynak": "TDV 'Mültan': 571 (1175-76) — aralığın başı yazıldı"
+   },
+   {
+    "t": "1228-01-01",
+    "gun": "1228",
+    "k": "diger",
+    "b": "İltutmuş Mültan'ı Delhi Sultanlığı'nın eyalet merkezi yaptı",
+    "kesinlik": "yil",
+    "kaynak": "TDV 'Mültan' (Azmi Özcan, 2020)"
+   },
+   {
+    "t": "1818-01-01",
+    "gun": "1818",
+    "k": "fetih",
+    "b": "Sihler Mültan'a hâkim oldu",
+    "kesinlik": "yil",
+    "kaynak": "TDV 'Mültan' (Azmi Özcan, 2020)"
+   },
+   {
+    "t": "1848-01-01",
+    "gun": "1848",
+    "k": "fetih",
+    "b": "İngilizler Mültan'ı Sihler'den aldı (kuşatma 1848-49)",
+    "kesinlik": "yil",
+    "kaynak": "TDV 'Mültan' (Azmi Özcan, 2020): 'İngilizler 1848'den itibaren'; özet okuma"
+   }
+  ],
+  "dikis_beyan": "Atlas Mültan'ı 0903-01-01'de multan-emirligi ile başlatır; 903 TDV'de değil (atlas kaynağı Majumdar VI 'Sind: The Sumras', Saffârî sonu 903 — bu oturumda okunmadı). 903 için ±30 gün olay bulunamadı; yer tutucu olay yazılmadı.",
+  "ic_not": "TDV 'Mültan' en eski olay olarak İskender'in M.Ö. 326 seferini anar ama bu seferin Mültan'a (Malli/Mallî) eşitlendiğini söylemez: yeri kesin olmayan ad eşitlemesi başlangıç sayılmadı. İlk güvenli tanık 712 (94). Hicrî 94: aritmetik sivil takvimde 712-10-07…713-09-25; milâdî 712 ile kesişimin ilk günü 712-10-07 (Jülyen, ±2 gün). Sahip dilimi 712-903 __BOSLUK__ (kaynaksız). TDV 'Mültan' tam gövdesi bu oturumda özet olarak okundu (doğrudan alıntı çıkmadı); 1006/1010/1175/1228/1818/1848 tarihleri o özetteki yıllardır — 1848 için 'itibaren' ifadesi, 1849 ilhakı ayrıca yazılmadı. 1750 Dürrânî ve Langah (1451-1527) TDV'de yıl düzeyinde geçer ('c. 1451-1527', 1750); atlasın 1752/1451 uçlarıyla uyumu ölçülmedi."
+ },
+ {
+  "id": "mursidabad-in",
+  "ad": "Murşidâbâd",
+  "atlas_ad": "Murşidâbâd",
+  "lat": 24.18,
+  "lon": 88.27,
+  "kat1900": null,
+  "adlar": [
+   "Maksûdâbâd (Mahsûsâbâd, Makhsudabad)",
+   "Murşidâbâd"
+  ],
+  "ilk": {
+   "t": "1621-01-01",
+   "gun": "1621",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Banglapedia, 'Murshidabad' (KM Mohsin), https://en.banglapedia.org/index.php/Murshidabad (16 Kasım 2026'da okundu; cümle doğrulandı)",
+   "tanik": "English agents reported that huge quantities of silk could be obtained there"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1621-01-01",
+    "t": "1704-01-01",
+    "d": "babur-imparatorlugu",
+    "kesinlik": "yil",
+    "kaynak": "Banglapedia 'Dhaka' (Abdul Karim): «Islam Khan Chishti transferred the capital of Subah Bangalah from Rajmahal to Dhaka in 1610» (Bengal Mughal subesi); Banglapedia 'Murshidabad' (KM Mohsin): Murshid Quli Khan, Bengal Diwanı, 1702'de diwani merkezini Dhaka'dan Murşidâbâd'a aldı (Babürlü memuru)"
+   }
+  ],
+  "olay": [
+   {
+    "t": "1702-01-01",
+    "gun": "1702",
+    "k": "diger",
+    "b": "Bengal Divanı Mürşid Kulî Han diwani merkezini Dakka'dan Murşidâbâd'a taşıdı",
+    "kesinlik": "yil",
+    "kaynak": "Banglapedia 'Murshidabad' (KM Mohsin): «Murshid Quli Khan, the Diwan of Bengal removed the seat of diwani administration from Dhaka to Murshidabad in 1702.»"
+   },
+   {
+    "t": "1717-01-01",
+    "gun": "1717",
+    "k": "diger",
+    "b": "Mürşid Kulî Han nizamat merkezini (nevvâblık) Murşidâbâd'a taşıdı (nevvâb olma: 1716)",
+    "kesinlik": "yil",
+    "kaynak": "Banglapedia 'Murshidabad' (KM Mohsin): «He became nawab of Bengal in 1716 and shifted the seat of the nizamat to the city in 1717»"
+   },
+   {
+    "t": "1773-01-01",
+    "gun": "1773",
+    "k": "diger",
+    "b": "Diwani ve khalsa Kalküta'ya nakledildi; Murşidâbâd'ın başkentliği sona erdi",
+    "kesinlik": "yil",
+    "kaynak": "Banglapedia 'Murshidabad': «The transfer of the diwani and the khalsa to Calcutta in 1773»; TDV 'Mürşidâbâd': 1773'te idare merkezi Kalküta'ya taşındı"
+   }
+  ],
+  "ic_not": "Atlas Murşidâbâd'ı 1704-01-01'de başlatır (kur); bu kaynak ilk anılışı 1621'e çeker (İngiliz acentelerinin 'orada' ipek raporu; cümlede 'there' Makhsudabad olacak yeri gösterir, ad geçmez — ÇOK GÜVENLİ DEĞİL; ad eşitlemesi Banglapedia makalesinin çerçevesine dayanır). Bhavisya Purana'daki 'Morasudabad' (geç XVI. yy, tarihsiz) ve Valentyn haritası (1658-64, 'Moxudabath') tarihsiz/geç tanık olarak yazılmadı. TDV 'Mürşidâbâd': şehir XVI. yy sonlarında Ekber zamanında Bhagirathi'nin doğu yakasında kuruldu, ilk adı Maksûdâbâd (Riyâzü's-selâtîn'e göre tüccar Maksûd Han); Mürşid Kulî Han 1705'te Bengal nevvâbı oldu ve ad bu dönemde Mürşidâbâd'a çevrildi. ÇELİŞKİ: TDV nevvâb olmayı 1705, Banglapedia 1716 verir (ve 1702'de Divan olarak taşıma); TDV esas olduğu için adın değişme yılı 1705 civarı, ama olay yazılmadı (TDV'de gün yok, yalnız 'bu döneme rastlar'). Sahip dilimi 1621-1704 Babür, 1704'te atlas aynı sahiple devralır (dikiş yok). Plassey (1757) TDV'de 'ertesi yıl' bağlamında geçer, tarihi bu oturumda yazılmadı. kat1900: 1900 listesinde yok (Baharampur kat 3 yakın — ayrı yer)."
+ }
+];
