@@ -8508,15 +8508,26 @@ function haritaBaslikYazisi(o) {
     dEl.style.display = d ? "" : "none";
     el.classList.add("gor");
     // sığdır: önce punto küçülür, sonra metin satır sınırıyla kesilir
-    var tavan = Math.floor(h.clientHeight * 0.34);
+    // Kısa harita (yatay telefon + kronoloji açık: 406×291 ölçüldü, 26 Kasım): %34 tavanda metnin
+    // 142/260'ı tek satıra düşüyordu. Olay yeri zaten üst %20'de (odakOfseti) ⇒ harita 480 px'ten
+    // kısaysa alt yazı haritanın alt %60'ını kullanır, üstteki %40 olay yerine kalır. Uzun harita
+    // (dikey) %34'te kalır. Başlık en çok 2 satır (CSS .hby-b); dolgu da kısa haritada daralır.
+    var hH = h.clientHeight, kisa = hH < 480;
+    el.classList.toggle("kisa", kisa);
+    var tavan = Math.floor(hH * (kisa ? 0.6 : 0.34));
     el.style.maxHeight = tavan + "px";
     dEl.style.webkitLineClamp = "";
+    if (d) dEl.style.display = "";
     var pt = 15;
     el.style.fontSize = pt + "px";
     while (el.scrollHeight > tavan && pt > 11) { pt -= 1; el.style.fontSize = pt + "px"; }
     if (el.scrollHeight > tavan && d) {
-      var kalan = tavan - bEl.offsetHeight - 40;   // 40 = üst/alt dolgu + başlık altı boşluk
-      dEl.style.webkitLineClamp = String(Math.max(1, Math.floor(kalan / (pt * 1.3))));
+      var cs = getComputedStyle(el), bs = getComputedStyle(bEl);
+      var kalan = tavan - bEl.offsetHeight - parseFloat(bs.marginBottom || 0)
+                  - parseFloat(cs.paddingTop || 0) - parseFloat(cs.paddingBottom || 0);
+      var satir = Math.floor(kalan / (parseFloat(getComputedStyle(dEl).lineHeight) || pt * 1.3));
+      if (satir >= 1) dEl.style.webkitLineClamp = String(satir);
+      else dEl.style.display = "none";            // başlığa bile yer yetmiyorsa metin hiç basılmaz
     }
     if (_basYaziZaman) clearTimeout(_basYaziZaman);
     // Okuma süresi: 4 sn + harf başına 55 ms, en çok 20 sn (sonraki madde gelince zaten değişir).
