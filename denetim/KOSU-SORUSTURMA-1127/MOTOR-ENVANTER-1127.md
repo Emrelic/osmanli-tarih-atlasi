@@ -194,6 +194,38 @@ Ayrıca: "A B yapısı meselesini kaldıralım ve tek bir yapı ortaya koyalım.
 | 27 | Antlaşma hattı Ⓑ için de duvar | 13 ile birleşir | |
 | 28 | (27'de EKSİKTİ) Kabile/devletsiz nokta kaynak yılı −25…+50 penceresinde geçerlidir | Kalsın | 18 Kasım karar 6 |
 
+## 4c. Emre'nin madde madde cevabı (27.11.2026 gece)
+
+- **Karar 1'in açıklaması (Emre):** "çölde iki devlet düşün, ikisinin de 5 günlük sürtünmeli yürüyüş 200 km
+  çapında bir çemberi var, aralarındaki bölge 15 günlük. Bu iki yuvarlağın ortasındaki bölgeyi silindir gibi
+  birleştireceksin: iki dairenin teğet noktalarından iki doğru geçecek ve aradaki bölge birleşecek, eğer
+  başka ülkenin toprağı yok ise." ⇒ tam şerit okuması doğru.
+- 1: sahnede olmayan yer haritada işaretlenmez, bölgesi hesaplanmaz, çevredeki var olan yerleşimlerce
+  bölüşülür — **teyit**.
+- 2: "1281 öncesinde sahiplik kaydı bulunan şehirlerin dönemlerini geriye doğru uzatmalıyız" — kural teyit;
+  iş veri işidir.
+- 3: veri kuralı **onay** (abi merkez).
+- 4, 5, 8, 22: "kuralın mantığını anlamadım / hatırlamıyorum" — açıklama Emre'ye yazıldı; 4 için önerim
+  değişti (aşağıda), 22 "sen karar ver".
+- 6, 13, 18, 20, 21, 27: öneri **onay**. 11, 16, 23: erir — **teyit**. 12: kalksın — **teyit**.
+- 7: teyit + uyarı: yayılım doğrusal düşünülmemeli, "su yayılımı gibi" karadan dolaşır (Aden, Saros
+  körfezi, İzmit körfezi örnekleri).
+- 9: "geçit listesini araştırıp doldurmalıyız" — öneri açıklaması istendi.
+- 10: tohum yakası **onay**.
+- 14: sürtünme sınırı zaten nehre/dağa yaslar görüşünde; dilek: bütün nehirlerin iki yakası için geçit,
+  sığlık, genişlik, akıntı, kıyı niteliği verisi.
+- 15, 17, 19, 25, 26: yeni mantıkta kendiliğinden olacağı görüşünde.
+- 24: "evet bu önemli, tüm boş alanlar sürtünmeli uzaklığa göre bölüşülecek".
+- Üç açık soru: ① `k:4` veri kuralı **evet** ② denize dil için en az iki komşu yerleşim şartı **evet**
+  ③ yerleşimsiz ada: geçit listesinde geçişi varsa en yakın kıyı yerleşiminin — **kabul**.
+
+Önerimde değişen tek madde — **4 (kuşatılmışlık):** yeni yapıda ayrı kural gerekmez. Sahibi o gün
+bilinmeyen (`veri-yok`) yer kaynak sayılmaz; toprağını 5 gün içindeki sahipli komşuları alır, kimse
+yetişemiyorsa boş kalır. Eski %90 sınamasının yaptığı ayrımı (çevrili olan dolar, açıkta olan dolmaz)
+5 günlük sınır kendiliğinden yapar. Her böyle yer veri borcu listesine yazılır.
+
+Toplanmış kural seti: `YENI-MOTOR-KURALLARI-TASLAK-1127.md`.
+
 ## 5. Bu envanterin göremedikleri
 
 - Dört dilim ajan okumasıdır; §4'te `[DOĞRULANDI]` yazmayan her iddia doğrulanmayı bekler.
