@@ -1,0 +1,880 @@
+{
+ "anadolu-balkan|1300-06-15": {
+  "kutu": "Anadolu–Balkanlar",
+  "gun": "1300-06-15",
+  "egim": "etopo2022_30s_dunya.tif",
+  "kara_km2": 2602122.7642804016,
+  "boyali_eski_km2": 2554477.073227352,
+  "boyali_yeni_km2": 2590388.802989778,
+  "katman_km2": {
+   "1": 2576124.0890747565,
+   "2": 14144.271266419582,
+   "3": 74.719348686708,
+   "4": 45.723299931794486,
+   "5": 9444.001783801967,
+   "6": 504.47898827664403
+  },
+  "en_cok_degisen": [
+   {
+    "devlet": "bosna",
+    "ad": "Bosna Krallığı",
+    "eski_km2": 39165.639334169005,
+    "yeni_km2": 0.0,
+    "fark_km2": -39165.639334169005
+   },
+   {
+    "devlet": "bosna-kralligi",
+    "ad": "Bosna Krallığı",
+    "eski_km2": 7957.275755149364,
+    "yeni_km2": 41492.87936662275,
+    "fark_km2": 33535.60361147339
+   },
+   {
+    "devlet": "memluk",
+    "ad": "Memlûk",
+    "eski_km2": 197053.60484251875,
+    "yeni_km2": 210576.44275505823,
+    "fark_km2": 13522.837912539486
+   },
+   {
+    "devlet": "ilhanli",
+    "ad": "İlhanlı Devleti",
+    "eski_km2": 481340.9976767365,
+    "yeni_km2": 493874.18595172995,
+    "fark_km2": 12533.188274993445
+   },
+   {
+    "devlet": "altinorda",
+    "ad": "Altın Orda ve ardılları",
+    "eski_km2": 484111.851671794,
+    "yeni_km2": 493034.44985026907,
+    "fark_km2": 8922.598178475047
+   },
+   {
+    "devlet": "macaristan",
+    "ad": "Macaristan",
+    "eski_km2": 344314.1668177914,
+    "yeni_km2": 352313.10652500234,
+    "fark_km2": 7998.939707210928
+   },
+   {
+    "devlet": "gurcistan",
+    "ad": "Gürcistan",
+    "eski_km2": 76497.21121291297,
+    "yeni_km2": 73052.30478180618,
+    "fark_km2": -3444.9064311067923
+   },
+   {
+    "devlet": "sirbistan-nemanjic",
+    "ad": "Sırbistan Krallığı",
+    "eski_km2": 78338.14401067792,
+    "yeni_km2": 75095.57312495958,
+    "fark_km2": -3242.5708857183345
+   },
+   {
+    "devlet": "trabzon-rum",
+    "ad": "Trabzon Rum İmparatorluğu",
+    "eski_km2": 18079.06463677335,
+    "yeni_km2": 20396.431092756426,
+    "fark_km2": 2317.366455983076
+   },
+   {
+    "devlet": "ahaya-prinkepsligi",
+    "ad": "Ahaya",
+    "eski_km2": 5644.9937403552985,
+    "yeni_km2": 3517.7054747075986,
+    "fark_km2": -2127.2882656477
+   }
+  ],
+  "kaynak_sayim_pencere": {
+   "boyar k:4": 492,
+   "boyar": 746,
+   "boyamaz": 17,
+   "sahne dışı": 571,
+   "boyamaz k:4": 11
+  },
+  "kaynak_kutu_ici": 763,
+  "boyamayan_kutu_ici": 8,
+  "tarihsiz_kabile_devletsiz_kutu_ici": 1,
+  "veri_borcu": [],
+  "renksiz_kimlik": [],
+  "tohum": {
+   "tohum yakası": 32,
+   "kara hücresine kaydırıldı": 83,
+   "kıstak köprüsü": 11,
+   "aynı hücre, farklı sahip (komşu hücreye)": 1,
+   "aynı hücre, aynı sahip (birleşti)": 4
+  },
+  "hat": {},
+  "hesap": {
+   "duvar_kenar": 0,
+   "dijkstra_sn": 0.28085180000198307,
+   "komsu_cift": 3048,
+   "komsu_cift_20gun_ici": 3046,
+   "komsu_cift_20gun_ustu": 2,
+   "serit_cifti": 3031,
+   "deniz_10gun_ici_kaynak": 452,
+   "deniz_serit_kaynak": 376,
+   "deniz_tek_kaynak_dil_yok": 76,
+   "serit_sn": 10.003929400001653,
+   "delik_dolan": 4,
+   "kiyi_cebi": 47,
+   "bos_bilesen": 254,
+   "hesap_sn": 10.42903340000339
+  },
+  "sinir_kenari": {
+   "eski_toplam": 10444,
+   "eski_nehirde": 1225,
+   "yeni_toplam": 10146,
+   "yeni_nehirde": 1270
+  },
+  "senaryo_sn": 17.9916022000034,
+  "tepe_bellek_mb": 384.9765625,
+  "statik": {
+   "gol": 27,
+   "baraj_atlandi": 15,
+   "ic_deniz_sayilan_gol": 0,
+   "egim_medyan_m_hucre": 18.901058197021484,
+   "surtunme_medyan": 1.0945053100585938,
+   "surtunme_maks": 7.823600769042969,
+   "nehir_parca": 118,
+   "nehir_kesen_adim": 38522,
+   "nehir_sinif1_adim": 24892,
+   "gecit": 89,
+   "gecit_indirimli_adim": 2472,
+   "statik_sn": 23.379689399997005
+  }
+ },
+ "anadolu-balkan|1550-06-15": {
+  "kutu": "Anadolu–Balkanlar",
+  "gun": "1550-06-15",
+  "egim": "etopo2022_30s_dunya.tif",
+  "kara_km2": 2602122.7642804016,
+  "boyali_eski_km2": 2537335.859462293,
+  "boyali_yeni_km2": 2577684.903431833,
+  "katman_km2": {
+   "1": 2563420.189516957,
+   "2": 14144.271266419582,
+   "3": 74.719348686708,
+   "4": 45.723299931794486,
+   "5": 22147.901341600933,
+   "6": 642.5066892275725
+  },
+  "en_cok_degisen": [
+   {
+    "devlet": "OSMANLI",
+    "ad": "Osmanlı",
+    "eski_km2": 1662787.531152909,
+    "yeni_km2": 1692223.5651402036,
+    "fark_km2": 29436.03398729465
+   },
+   {
+    "devlet": "OSMANLI-TABI",
+    "ad": "Osmanlı (tâbi)",
+    "eski_km2": 507806.98514058307,
+    "yeni_km2": 498452.44316644827,
+    "fark_km2": -9354.541974134801
+   },
+   {
+    "devlet": "kabartay",
+    "ad": "Kabartay",
+    "eski_km2": 26835.16055285819,
+    "yeni_km2": 35771.28603744128,
+    "fark_km2": 8936.125484583088
+   },
+   {
+    "devlet": "kartli-kralligi",
+    "ad": "Kartli Krallığı",
+    "eski_km2": 14338.34609580362,
+    "yeni_km2": 18004.86644788078,
+    "fark_km2": 3666.520352077161
+   },
+   {
+    "devlet": "gurcistan",
+    "ad": "Gürcistan",
+    "eski_km2": 31476.562770726265,
+    "yeni_km2": 33590.65732450911,
+    "fark_km2": 2114.0945537828484
+   },
+   {
+    "devlet": "nogay",
+    "ad": "Nogay Ordası",
+    "eski_km2": 23009.54000855782,
+    "yeni_km2": 24146.799649189594,
+    "fark_km2": 1137.2596406317753
+   },
+   {
+    "devlet": "erdel",
+    "ad": "Erdel Prensliği",
+    "eski_km2": 57377.32509512434,
+    "yeni_km2": 58507.62714306028,
+    "fark_km2": 1130.3020479359402
+   },
+   {
+    "devlet": "safevi",
+    "ad": "Safevî İran",
+    "eski_km2": 34392.815414218974,
+    "yeni_km2": 35377.78633111053,
+    "fark_km2": 984.9709168915579
+   },
+   {
+    "devlet": "macaristan-habsburg",
+    "ad": "Macaristan Krallığı",
+    "eski_km2": 55018.063207953375,
+    "yeni_km2": 55840.23308615499,
+    "fark_km2": 822.1698782016174
+   },
+   {
+    "devlet": "venedik",
+    "ad": "Venedik",
+    "eski_km2": 25176.276129956324,
+    "yeni_km2": 25932.715509585236,
+    "fark_km2": 756.4393796289114
+   }
+  ],
+  "kaynak_sayim_pencere": {
+   "boyar k:4": 518,
+   "boyar": 804,
+   "sahne dışı": 497,
+   "boyamaz": 10,
+   "boyamaz k:4": 8
+  },
+  "kaynak_kutu_ici": 816,
+  "boyamayan_kutu_ici": 1,
+  "tarihsiz_kabile_devletsiz_kutu_ici": 1,
+  "veri_borcu": [],
+  "renksiz_kimlik": [],
+  "tohum": {
+   "tohum yakası": 35,
+   "kara hücresine kaydırıldı": 86,
+   "kıstak köprüsü": 11,
+   "aynı hücre, aynı sahip (birleşti)": 7,
+   "aynı hücre, farklı sahip (komşu hücreye)": 1
+  },
+  "hat": {},
+  "hesap": {
+   "duvar_kenar": 0,
+   "dijkstra_sn": 0.28463039999769535,
+   "komsu_cift": 3240,
+   "komsu_cift_20gun_ici": 3238,
+   "komsu_cift_20gun_ustu": 2,
+   "serit_cifti": 3215,
+   "deniz_10gun_ici_kaynak": 479,
+   "deniz_serit_kaynak": 398,
+   "deniz_tek_kaynak_dil_yok": 81,
+   "serit_sn": 10.984494100004667,
+   "delik_dolan": 5,
+   "kiyi_cebi": 50,
+   "bos_bilesen": 237,
+   "hesap_sn": 11.43132859999605
+  },
+  "sinir_kenari": {
+   "eski_toplam": 6193,
+   "eski_nehirde": 796,
+   "yeni_toplam": 6355,
+   "yeni_nehirde": 868
+  },
+  "senaryo_sn": 17.47517190000508,
+  "tepe_bellek_mb": 445.66015625,
+  "statik": {
+   "gol": 27,
+   "baraj_atlandi": 15,
+   "ic_deniz_sayilan_gol": 0,
+   "egim_medyan_m_hucre": 18.901058197021484,
+   "surtunme_medyan": 1.0945053100585938,
+   "surtunme_maks": 7.823600769042969,
+   "nehir_parca": 118,
+   "nehir_kesen_adim": 38522,
+   "nehir_sinif1_adim": 24892,
+   "gecit": 89,
+   "gecit_indirimli_adim": 2472,
+   "statik_sn": 23.379689399997005
+  }
+ },
+ "anadolu-balkan|1760-03-11": {
+  "kutu": "Anadolu–Balkanlar",
+  "gun": "1760-03-11",
+  "egim": "etopo2022_30s_dunya.tif",
+  "kara_km2": 2602122.7642804016,
+  "boyali_eski_km2": 2569329.718314967,
+  "boyali_yeni_km2": 2599832.804773456,
+  "katman_km2": {
+   "1": 2586449.252515083,
+   "2": 13263.109609894265,
+   "3": 74.719348686708,
+   "4": 45.723299931794486,
+   "5": 0.0,
+   "6": 642.5066892275725
+  },
+  "en_cok_degisen": [
+   {
+    "devlet": "OSMANLI",
+    "ad": "Osmanlı",
+    "eski_km2": 1636340.240535905,
+    "yeni_km2": 1657046.3921385484,
+    "fark_km2": 20706.151602643542
+   },
+   {
+    "devlet": "kartli-kralligi",
+    "ad": "Kartli Krallığı",
+    "eski_km2": 14338.34609580362,
+    "yeni_km2": 18004.86644788078,
+    "fark_km2": 3666.520352077161
+   },
+   {
+    "devlet": "rusya",
+    "ad": "Rusya",
+    "eski_km2": 116802.64971032135,
+    "yeni_km2": 118525.02427640498,
+    "fark_km2": 1722.3745660836285
+   },
+   {
+    "devlet": "zaporojye",
+    "ad": "Zaporojye Kazak Hetmanlığı",
+    "eski_km2": 15199.369806703906,
+    "yeni_km2": 13540.472310242134,
+    "fark_km2": -1658.8974964617719
+   },
+   {
+    "devlet": "megrelya-prensligi",
+    "ad": "Megrelya",
+    "eski_km2": 6679.2250163095005,
+    "yeni_km2": 8247.25278537122,
+    "fark_km2": 1568.0277690617195
+   },
+   {
+    "devlet": "macaristan-habsburg",
+    "ad": "Macaristan Krallığı",
+    "eski_km2": 189862.2785498956,
+    "yeni_km2": 190900.10668978805,
+    "fark_km2": 1037.8281398924591
+   },
+   {
+    "devlet": "afsar",
+    "ad": "Afşâr Devleti",
+    "eski_km2": 14090.008828475811,
+    "yeni_km2": 15119.050284156147,
+    "fark_km2": 1029.0414556803353
+   },
+   {
+    "devlet": "OSMANLI-TABI",
+    "ad": "Osmanlı (tâbi)",
+    "eski_km2": 379476.68139065756,
+    "yeni_km2": 380480.62269257184,
+    "fark_km2": 1003.9413019142812
+   },
+   {
+    "devlet": "revan-hanligi",
+    "ad": "Revan",
+    "eski_km2": 16047.387351646079,
+    "yeni_km2": 16737.08807650808,
+    "fark_km2": 689.7007248620012
+   },
+   {
+    "devlet": "napoli",
+    "ad": "Napoli / İki Sicilya",
+    "eski_km2": 49279.941506528405,
+    "yeni_km2": 49770.645752363365,
+    "fark_km2": 490.7042458349606
+   }
+  ],
+  "kaynak_sayim_pencere": {
+   "boyar k:4": 541,
+   "boyar": 845,
+   "sahne dışı": 447,
+   "boyamaz": 4
+  },
+  "kaynak_kutu_ici": 825,
+  "boyamayan_kutu_ici": 0,
+  "tarihsiz_kabile_devletsiz_kutu_ici": 1,
+  "veri_borcu": [],
+  "renksiz_kimlik": [],
+  "tohum": {
+   "tohum yakası": 37,
+   "kara hücresine kaydırıldı": 87,
+   "kıstak köprüsü": 11,
+   "aynı hücre, aynı sahip (birleşti)": 7,
+   "aynı hücre, farklı sahip (komşu hücreye)": 1
+  },
+  "hat": {
+   "hat": 1
+  },
+  "hesap": {
+   "duvar_kenar": 528,
+   "dijkstra_sn": 0.3116202000019257,
+   "komsu_cift": 3372,
+   "komsu_cift_20gun_ici": 3370,
+   "komsu_cift_20gun_ustu": 2,
+   "serit_cifti": 3369,
+   "deniz_10gun_ici_kaynak": 494,
+   "deniz_serit_kaynak": 412,
+   "deniz_tek_kaynak_dil_yok": 82,
+   "serit_sn": 11.288230099999055,
+   "delik_dolan": 4,
+   "kiyi_cebi": 50,
+   "bos_bilesen": 236,
+   "hesap_sn": 11.747523300000466
+  },
+  "sinir_kenari": {
+   "eski_toplam": 6460,
+   "eski_nehirde": 944,
+   "yeni_toplam": 6354,
+   "yeni_nehirde": 1080
+  },
+  "senaryo_sn": 17.70514529999491,
+  "tepe_bellek_mb": 476.36328125,
+  "statik": {
+   "gol": 27,
+   "baraj_atlandi": 15,
+   "ic_deniz_sayilan_gol": 0,
+   "egim_medyan_m_hucre": 18.901058197021484,
+   "surtunme_medyan": 1.0945053100585938,
+   "surtunme_maks": 7.823600769042969,
+   "nehir_parca": 118,
+   "nehir_kesen_adim": 38522,
+   "nehir_sinif1_adim": 24892,
+   "gecit": 89,
+   "gecit_indirimli_adim": 2472,
+   "statik_sn": 23.379689399997005
+  }
+ },
+ "misir-arabistan|1300-06-15": {
+  "kutu": "Mısır–Arabistan",
+  "gun": "1300-06-15",
+  "egim": "etopo2022_30s_dunya.tif",
+  "kara_km2": 7631235.694715295,
+  "boyali_eski_km2": 4996439.651227719,
+  "boyali_yeni_km2": 6348836.215574037,
+  "katman_km2": {
+   "1": 4943953.624156587,
+   "2": 1363856.250794511,
+   "3": 32951.141069237565,
+   "4": 8075.199553777007,
+   "5": 452279.6938655258,
+   "6": 1838.7927607720092
+  },
+  "en_cok_degisen": [
+   {
+    "devlet": "memluk",
+    "ad": "Memlûk",
+    "eski_km2": 1480535.983782247,
+    "yeni_km2": 1865228.6250290887,
+    "fark_km2": 384692.64124684175
+   },
+   {
+    "devlet": "nebhani",
+    "ad": "Nebhânîler",
+    "eski_km2": 375235.01136337273,
+    "yeni_km2": 592307.1410455008,
+    "fark_km2": 217072.12968212803
+   },
+   {
+    "devlet": "nube",
+    "ad": "Nûbe krallıkları",
+    "eski_km2": 953428.8409320723,
+    "yeni_km2": 1153290.2716686467,
+    "fark_km2": 199861.43073657446
+   },
+   {
+    "devlet": "ilhanli",
+    "ad": "İlhanlı Devleti",
+    "eski_km2": 1181145.5798285191,
+    "yeni_km2": 1370426.4259385401,
+    "fark_km2": 189280.846110021
+   },
+   {
+    "devlet": "yemen-zeydi",
+    "ad": "Yemen Zeydî İmamlığı",
+    "eski_km2": 289251.36532734265,
+    "yeni_km2": 406519.8983415378,
+    "fark_km2": 117268.53301419516
+   },
+   {
+    "devlet": "resuli",
+    "ad": "Resûlîler",
+    "eski_km2": 56094.89650545489,
+    "yeni_km2": 145276.45971304356,
+    "fark_km2": 89181.56320758867
+   },
+   {
+    "devlet": "usfuri",
+    "ad": "Usfûrîler",
+    "eski_km2": 110603.87474624274,
+    "yeni_km2": 185596.37429298213,
+    "fark_km2": 74992.49954673939
+   },
+   {
+    "devlet": "dacu",
+    "ad": "Dâcû",
+    "eski_km2": 124515.73097880308,
+    "yeni_km2": 173594.84832602824,
+    "fark_km2": 49079.117347225154
+   },
+   {
+    "devlet": "habesistan",
+    "ad": "Habeşistan",
+    "eski_km2": 372851.31143691007,
+    "yeni_km2": 393893.15743647265,
+    "fark_km2": 21041.84599956259
+   },
+   {
+    "devlet": "kutlughanli",
+    "ad": "Kutluğhanlılar",
+    "eski_km2": 28124.257653581848,
+    "yeni_km2": 38449.27035701799,
+    "fark_km2": 10325.01270343614
+   }
+  ],
+  "kaynak_sayim_pencere": {
+   "boyar k:4": 425,
+   "boyar": 506,
+   "boyamaz": 67,
+   "sahne dışı": 498,
+   "boyamaz k:4": 11
+  },
+  "kaynak_kutu_ici": 312,
+  "boyamayan_kutu_ici": 23,
+  "tarihsiz_kabile_devletsiz_kutu_ici": 20,
+  "veri_borcu": [],
+  "renksiz_kimlik": [],
+  "tohum": {
+   "tohum yakası": 20,
+   "kara hücresine kaydırıldı": 66,
+   "kıstak köprüsü": 9,
+   "aynı hücre, farklı sahip (komşu hücreye)": 1,
+   "aynı hücre, aynı sahip (birleşti)": 3
+  },
+  "hat": {},
+  "hesap": {
+   "duvar_kenar": 0,
+   "dijkstra_sn": 0.38586580000264803,
+   "komsu_cift": 2428,
+   "komsu_cift_20gun_ici": 2396,
+   "komsu_cift_20gun_ustu": 32,
+   "serit_cifti": 2259,
+   "deniz_10gun_ici_kaynak": 349,
+   "deniz_serit_kaynak": 287,
+   "deniz_tek_kaynak_dil_yok": 62,
+   "serit_sn": 10.3994096000024,
+   "delik_dolan": 12,
+   "kiyi_cebi": 41,
+   "bos_bilesen": 211,
+   "hesap_sn": 10.963175100005174
+  },
+  "sinir_kenari": {
+   "eski_toplam": 2533,
+   "eski_nehirde": 0,
+   "yeni_toplam": 4608,
+   "yeni_nehirde": 24
+  },
+  "senaryo_sn": 20.37608249999903,
+  "tepe_bellek_mb": 562.74609375,
+  "statik": {
+   "gol": 23,
+   "baraj_atlandi": 9,
+   "ic_deniz_sayilan_gol": 0,
+   "egim_medyan_m_hucre": 22.147233963012695,
+   "surtunme_medyan": 1.1107361316680908,
+   "surtunme_maks": 7.823600769042969,
+   "nehir_parca": 82,
+   "nehir_kesen_adim": 24250,
+   "nehir_sinif1_adim": 19548,
+   "gecit": 89,
+   "gecit_indirimli_adim": 1328,
+   "statik_sn": 70.6716962999999
+  }
+ },
+ "misir-arabistan|1550-06-15": {
+  "kutu": "Mısır–Arabistan",
+  "gun": "1550-06-15",
+  "egim": "etopo2022_30s_dunya.tif",
+  "kara_km2": 7631235.694715295,
+  "boyali_eski_km2": 4951759.349397378,
+  "boyali_yeni_km2": 6184603.916921327,
+  "katman_km2": {
+   "1": 4932338.848755528,
+   "2": 1202873.912763726,
+   "3": 40209.28632727181,
+   "4": 9181.869074600834,
+   "5": 466618.19747532107,
+   "6": 1720.2609952863436
+  },
+  "en_cok_degisen": [
+   {
+    "devlet": "OSMANLI",
+    "ad": "Osmanlı",
+    "eski_km2": 1567163.2424376956,
+    "yeni_km2": 2042676.493353292,
+    "fark_km2": 475513.2509155965
+   },
+   {
+    "devlet": "funj",
+    "ad": "Func",
+    "eski_km2": 953428.8409320723,
+    "yeni_km2": 1153290.2716686467,
+    "fark_km2": 199861.43073657446
+   },
+   {
+    "devlet": "OSMANLI-TABI",
+    "ad": "Osmanlı (tâbi)",
+    "eski_km2": 309042.3435499998,
+    "yeni_km2": 489350.0065235924,
+    "fark_km2": 180307.66297359258
+   },
+   {
+    "devlet": "kesiri-sultanligi",
+    "ad": "Kesîrî Sultanlığı",
+    "eski_km2": 0.0,
+    "yeni_km2": 82456.2763391316,
+    "fark_km2": 82456.2763391316
+   },
+   {
+    "devlet": "nebhani",
+    "ad": "Nebhânîler",
+    "eski_km2": 91010.54146989735,
+    "yeni_km2": 168538.39495397938,
+    "fark_km2": 77527.85348408204
+   },
+   {
+    "devlet": "habesistan",
+    "ad": "Habeşistan",
+    "eski_km2": 549466.6643021264,
+    "yeni_km2": 605047.9345156027,
+    "fark_km2": 55581.270213476266
+   },
+   {
+    "devlet": "yemen-zeydi",
+    "ad": "Yemen Zeydî İmamlığı",
+    "eski_km2": 144439.646696016,
+    "yeni_km2": 196933.10191866907,
+    "fark_km2": 52493.45522265308
+   },
+   {
+    "devlet": "safevi",
+    "ad": "Safevî İran",
+    "eski_km2": 948612.6686628328,
+    "yeni_km2": 1000688.3795688384,
+    "fark_km2": 52075.71090600558
+   },
+   {
+    "devlet": "tunciler",
+    "ad": "Tunciler",
+    "eski_km2": 124515.73097880308,
+    "yeni_km2": 173594.84832602824,
+    "fark_km2": 49079.117347225154
+   },
+   {
+    "devlet": "adal",
+    "ad": "Adal / Harar",
+    "eski_km2": 198921.27794678044,
+    "yeni_km2": 206252.34866693095,
+    "fark_km2": 7331.070720150514
+   }
+  ],
+  "kaynak_sayim_pencere": {
+   "boyar k:4": 443,
+   "boyar": 577,
+   "sahne dışı": 462,
+   "boyamaz": 18,
+   "boyamaz k:4": 7
+  },
+  "kaynak_kutu_ici": 318,
+  "boyamayan_kutu_ici": 18,
+  "tarihsiz_kabile_devletsiz_kutu_ici": 20,
+  "veri_borcu": [],
+  "renksiz_kimlik": [],
+  "tohum": {
+   "tohum yakası": 21,
+   "kara hücresine kaydırıldı": 69,
+   "kıstak köprüsü": 9,
+   "aynı hücre, aynı sahip (birleşti)": 6,
+   "aynı hücre, farklı sahip (komşu hücreye)": 1
+  },
+  "hat": {},
+  "hesap": {
+   "duvar_kenar": 0,
+   "dijkstra_sn": 0.6642979999960517,
+   "komsu_cift": 2506,
+   "komsu_cift_20gun_ici": 2475,
+   "komsu_cift_20gun_ustu": 31,
+   "serit_cifti": 2440,
+   "deniz_10gun_ici_kaynak": 380,
+   "deniz_serit_kaynak": 313,
+   "deniz_tek_kaynak_dil_yok": 67,
+   "serit_sn": 9.429778099998657,
+   "delik_dolan": 14,
+   "kiyi_cebi": 42,
+   "bos_bilesen": 197,
+   "hesap_sn": 10.271052099997178
+  },
+  "sinir_kenari": {
+   "eski_toplam": 3809,
+   "eski_nehirde": 130,
+   "yeni_toplam": 5565,
+   "yeni_nehirde": 132
+  },
+  "senaryo_sn": 19.584515200003807,
+  "tepe_bellek_mb": 582.4140625,
+  "statik": {
+   "gol": 23,
+   "baraj_atlandi": 9,
+   "ic_deniz_sayilan_gol": 0,
+   "egim_medyan_m_hucre": 22.147233963012695,
+   "surtunme_medyan": 1.1107361316680908,
+   "surtunme_maks": 7.823600769042969,
+   "nehir_parca": 82,
+   "nehir_kesen_adim": 24250,
+   "nehir_sinif1_adim": 19548,
+   "gecit": 89,
+   "gecit_indirimli_adim": 1328,
+   "statik_sn": 70.6716962999999
+  }
+ },
+ "misir-arabistan|1760-03-11": {
+  "kutu": "Mısır–Arabistan",
+  "gun": "1760-03-11",
+  "egim": "etopo2022_30s_dunya.tif",
+  "kara_km2": 7631235.694715295,
+  "boyali_eski_km2": 5433396.585570154,
+  "boyali_yeni_km2": 6910310.52517246,
+  "katman_km2": {
+   "1": 5386084.825595557,
+   "2": 1470433.8473452597,
+   "3": 39798.81787517201,
+   "4": 13993.034356418413,
+   "5": 130311.00960094001,
+   "6": 1139.5492196670687
+  },
+  "en_cok_degisen": [
+   {
+    "devlet": "OSMANLI",
+    "ad": "Osmanlı",
+    "eski_km2": 1550268.7020507003,
+    "yeni_km2": 1926250.174114077,
+    "fark_km2": 375981.47206337657
+   },
+   {
+    "devlet": "umman",
+    "ad": "Umman",
+    "eski_km2": 371575.30137528654,
+    "yeni_km2": 577688.4228003623,
+    "fark_km2": 206113.1214250758
+   },
+   {
+    "devlet": "funj",
+    "ad": "Func",
+    "eski_km2": 953428.8409320723,
+    "yeni_km2": 1153290.2716686467,
+    "fark_km2": 199861.43073657446
+   },
+   {
+    "devlet": "kesiri-sultanligi",
+    "ad": "Kesîrî Sultanlığı",
+    "eski_km2": 95004.34711170384,
+    "yeni_km2": 241316.81486570867,
+    "fark_km2": 146312.4677540048
+   },
+   {
+    "devlet": "OSMANLI-TABI",
+    "ad": "Osmanlı (tâbi)",
+    "eski_km2": 213475.34226534737,
+    "yeni_km2": 343790.2484991594,
+    "fark_km2": 130314.90623381204
+   },
+   {
+    "devlet": "suud-birinci",
+    "ad": "I. Suûdî Devleti",
+    "eski_km2": 208045.52435220932,
+    "yeni_km2": 332950.84757000784,
+    "fark_km2": 124905.32321779852
+   },
+   {
+    "devlet": "benihalid",
+    "ad": "Benî Hâlid Emirliği",
+    "eski_km2": 147675.7980211497,
+    "yeni_km2": 244607.0335256503,
+    "fark_km2": 96931.2355045006
+   },
+   {
+    "devlet": "yemen-zeydi",
+    "ad": "Yemen Zeydî İmamlığı",
+    "eski_km2": 239897.9696480999,
+    "yeni_km2": 297665.87912555365,
+    "fark_km2": 57767.90947745374
+   },
+   {
+    "devlet": "zend",
+    "ad": "Zend Hanedanı",
+    "eski_km2": 926239.9016277314,
+    "yeni_km2": 979890.2081709916,
+    "fark_km2": 53650.30654326023
+   },
+   {
+    "devlet": "darfur",
+    "ad": "Dârfûr Sultanlığı",
+    "eski_km2": 124515.73097880308,
+    "yeni_km2": 173594.84832602824,
+    "fark_km2": 49079.117347225154
+   }
+  ],
+  "kaynak_sayim_pencere": {
+   "boyar k:4": 454,
+   "boyar": 617,
+   "sahne dışı": 432,
+   "boyamaz": 4
+  },
+  "kaynak_kutu_ici": 329,
+  "boyamayan_kutu_ici": 2,
+  "tarihsiz_kabile_devletsiz_kutu_ici": 20,
+  "veri_borcu": [],
+  "renksiz_kimlik": [],
+  "tohum": {
+   "tohum yakası": 22,
+   "kara hücresine kaydırıldı": 71,
+   "kıstak köprüsü": 9,
+   "aynı hücre, aynı sahip (birleşti)": 6,
+   "aynı hücre, farklı sahip (komşu hücreye)": 1
+  },
+  "hat": {
+   "hat": 1
+  },
+  "hesap": {
+   "duvar_kenar": 528,
+   "dijkstra_sn": 0.6820012000025599,
+   "komsu_cift": 2582,
+   "komsu_cift_20gun_ici": 2552,
+   "komsu_cift_20gun_ustu": 30,
+   "serit_cifti": 2551,
+   "deniz_10gun_ici_kaynak": 406,
+   "deniz_serit_kaynak": 339,
+   "deniz_tek_kaynak_dil_yok": 67,
+   "serit_sn": 12.360425099999702,
+   "delik_dolan": 16,
+   "kiyi_cebi": 44,
+   "bos_bilesen": 206,
+   "hesap_sn": 13.369312900002114
+  },
+  "sinir_kenari": {
+   "eski_toplam": 4394,
+   "eski_nehirde": 65,
+   "yeni_toplam": 7041,
+   "yeni_nehirde": 71
+  },
+  "senaryo_sn": 23.719370400001935,
+  "tepe_bellek_mb": 650.84375,
+  "statik": {
+   "gol": 23,
+   "baraj_atlandi": 9,
+   "ic_deniz_sayilan_gol": 0,
+   "egim_medyan_m_hucre": 22.147233963012695,
+   "surtunme_medyan": 1.1107361316680908,
+   "surtunme_maks": 7.823600769042969,
+   "nehir_parca": 82,
+   "nehir_kesen_adim": 24250,
+   "nehir_sinif1_adim": 19548,
+   "gecit": 89,
+   "gecit_indirimli_adim": 1328,
+   "statik_sn": 70.6716962999999
+  }
+ }
+}
