@@ -150,6 +150,50 @@ bayraklarla ÖLÜDÜR (§4). Canlı olanlar, düz cümleyle:
 11. **`petek_govde.js` zamansızdır:** `kur:/bit:` devirlerini taşımaz, eski tarihlerde yanlış cevap
     verir ve uyarmaz (kodda bilinen kusur olarak yazılı).
 
+## 4b. Emre'nin kararları (27.11.2026 akşam, istişare) ve 27 kural için önerim
+
+Emre'nin kendi sözleri:
+1. "İki yalnız şehir arası bölge şöyle olmalı. Bu iki şehrin 5 günlük sürtünmeli bölgesi zaten olacak.
+   Aradaki bölgeleri de bu gövdeye birleştiririz." (Benim okumam: daralan köprü değil, iki şehrin kendi
+   genişliğinde TAM şerit; koşul önceki mesajındaki gibi iki şehir arası ≤20 gün.)
+2. Devlet içi delik kuralı: "Kalsın."
+3. "Kuşatılmış tek düşman şehri herkes gibi 5 gün." (⇒ enklav kırpma, kural 6, kalkar.)
+4. Su geçişleri: "Liste yapalım."
+Ayrıca: "A B yapısı meselesini kaldıralım ve tek bir yapı ortaya koyalım."
+
+27 kural için önerim (Emre'nin teyidi BEKLENİYOR):
+
+| # | Kural | Öneri | Gerekçe |
+|---|---|---|---|
+| 1 | `kur:`/`bit:` dışında sahnede değil | Kalsın | |
+| 2 | `kur:`suz yer ilk sahiplik kaydından önce sahnede değil | Kalsın | Kural doğru; 2.038 zincir 1281-01-01'de başlıyor, bu veri borcu |
+| 3 | `k:4` kendi bölgesini almaz | Motor kuralı kalksın, yerine veri kuralı | Her yerleşim kaynak olur; `k:4` sahibini abi merkezinden veride alır. Abi-merkez işi bitmeden geçilmez |
+| 4 | Kuşatılmışlık (%90 çevrili sahipsiz yer devredilir) | Kalsın, emniyet ağı olarak | Her tetiklenen yer veri borcu diye listelensin; 159 adlık liste gözden geçsin |
+| 5 | Kasıtlı boşluk dolmaz | Kalsın | |
+| 6 | Enklav kale 10 km | Kalksın | Karar 3 |
+| 7 | Sürtünmeli en yakın yerleşim, ızgarada, kara üzerinden | Kalsın | Çekirdek kural |
+| 8 | En çok 5 gün | Kalsın | |
+| 9 | Boğaz yasağı + kıstak köprüsü | Değişsin: elle geçit listesi | Karar 4 |
+| 10 | Tohum yakası + yaka kilidi | Tohum yakası kalsın; yaka kilidi erir | Yaslama kalkarsa kilide gerek kalmaz |
+| 11 | Ada kuralı, kıyıda kopan parça devri | Erir | Izgara zaten kara üzerinden hesaplar |
+| 12 | Çöl tavanı 300 km | Kalksın | 18 Kasım karar 9: çöle özel kural yok; 5 gün zaten altında |
+| 13 | Antlaşma hattı C–F kısıttır | Kalsın, tek uygulama, Osmanlı hatları dahil | A/Ⓑ tutarsızlığı biter |
+| 14 | Sınır nehre/sırta yaslanır | Prototipte yan yana bakılıp karar | Sürtünme zaten nehri ve eğimi cezalandırıyor |
+| 15 | Gövde = peteklerin birleşimi | Kalsın | Tanım |
+| 16 | 33 km'den dar aralık kapanır | Erir | Karar 1'in şeridi kapsar |
+| 17 | Çevrelenmiş boşluk dolar (B1) | Kalsın, 26 ile tek kural | Karar 2 |
+| 18 | Enklav köprüsü 400 km (B2) | Değişsin: karar 1 (≤20 gün, şerit) | km değil gün |
+| 19 | Koridor derinliği ≤ genişliği (B3) | Kalksın | Şerit kuralı koridor üretmez |
+| 20 | Komşuya binen ek geri çıkarılır | Erir | Her hücrenin tek sahibi olur |
+| 21 | Osmanlı doğrudan/tâbi, himaye | Kalsın | Renk ve kayıt işi |
+| 22 | Ⓑ kapanış 201,6 km + deniz ≥100.000 km² | Değişsin: karar 1'in ölçüsüyle, gün olarak; deniz eşiği kalsın | |
+| 23 | Başka devlet toprağına denk gelen dolmaz | Erir; "engellendi" raporu kalsın | |
+| 24 | Çekişmeli alan sürtünmeli bölüşülür | Kalsın | Çekirdek kuralın kendisi |
+| 25 | Koridor biçimli dolgu kırpılır | Kalksın | 19 ile aynı |
+| 26 | Devlet içi delik boyuta bakılmadan dolar | Kalsın | Karar 2 |
+| 27 | Antlaşma hattı Ⓑ için de duvar | 13 ile birleşir | |
+| 28 | (27'de EKSİKTİ) Kabile/devletsiz nokta kaynak yılı −25…+50 penceresinde geçerlidir | Kalsın | 18 Kasım karar 6 |
+
 ## 5. Bu envanterin göremedikleri
 
 - Dört dilim ajan okumasıdır; §4'te `[DOĞRULANDI]` yazmayan her iddia doğrulanmayı bekler.
