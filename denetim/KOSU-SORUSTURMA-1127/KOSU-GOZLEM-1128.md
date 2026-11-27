@@ -95,4 +95,12 @@ değilse not et ve sonra düzelt; karar oturumda. Her satır bir nöbet anıdır
     uyarıları (Mısır, Eski Kahire, Masvingo, Kaminaljuyú, Remle…): aynı yerde iki nokta olabilir, veri
     tarafında bakılacak. 6.512 yetim yüz komşulara katıldı.
   - Karar: sürdür.
+- **02:38** Emre istatistik istedi ⇒ `kosu_istatistik.py` yazıldı (`bellek.csv`den aşama aşama duvar /
+  işlemci / ortalama çekirdek / bellek; her nöbette ve koşu sonunda koşturulacak). İlk 34 dakika
+  [ÖLÇÜLDÜ]: 26 aşama geçildi, şu an "Varlık epokları — kuşatılmışlık ön geçişi". İşlemci 33 dk 12 sn /
+  duvar 33 dk 46 sn = **0,98 çekirdek** (tek iş parçacığı, makinenin %12'si). Özel bellek en çok 2,9 GB,
+  çalışma kümesi en çok 2,4 GB, boş RAM en az 9,8 GB. En uzun aşamalar: ada kuralı 9 dk 25 sn · kıyı
+  kesimi + tavan 4 dk 51 sn · petekler ızgaradan 2 dk 14 sn · iki A/B ölçüm Dijkstra'sı toplam 3 dk 52 sn
+  (üretime katkısız). Koşu 40'ta aynı ön aşamalar ~2 sa 06 dk sürmüştü (iki süreç, 4'er iş parçacığı,
+  mesai içi düşük öncelik); bu koşuda petek aşamalarının sonuna 30 dakikada gelindi.
 
