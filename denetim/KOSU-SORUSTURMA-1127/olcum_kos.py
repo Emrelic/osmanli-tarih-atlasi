@@ -104,6 +104,8 @@ def main():
     ap.add_argument("--b-dk", type=float, default=60.0)
     ap.add_argument("--adim", type=float, default=60.0, help="nöbet adımı, saniye")
     ap.add_argument("--kuru-motor", default="", help="sınama: gerçek motor yerine bu betik koşturulur")
+    ap.add_argument("--ortam", action="append", default=[],
+                    help="ek ortam değişkeni AD=DEĞER (MOTOR_ ile BAŞLAMAMALI: tuzu değiştirir); yinelenebilir")
     ap.add_argument("--duman", action="store_true",
                     help="duman sınaması: mesai ön denetimini atlar (kısa --son ile; süreç IDLE öncelikte kalır)")
     a = ap.parse_args()
@@ -135,8 +137,14 @@ def main():
     env.update(BAYRAK)
     env["MOTOR_ONBELLEK_DIZIN"] = a.onbellek
     env["PYTHONIOENCODING"] = "utf-8"
+    for kv in a.ortam:
+        k, _, v = kv.partition("=")
+        if k.upper().startswith("MOTOR_"):
+            yaz(log, f"ÖN DENETİM: --ortam {k} MOTOR_ ile başlıyor (tuzu değiştirir) — BAŞLATILMADI")
+            return 4
+        env[k] = v
     with open(os.path.join(cikti, "bayraklar.log"), "w", encoding="utf-8") as f:
-        for k in sorted(k for k in env if k.startswith("MOTOR_")):
+        for k in sorted(k for k in env if k.startswith("MOTOR_") or k.startswith("DOLGU_")):
             f.write(f"{k}={env[k]}\n")
     so = open(os.path.join(cikti, "motor.out"), "w", encoding="utf-8", errors="replace")
     se = open(os.path.join(cikti, "motor.err"), "w", encoding="utf-8", errors="replace")

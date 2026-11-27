@@ -1,0 +1,393 @@
+başladı · boş RAM 12.2 GB · r_km 201.6 · tarih 1760-03-11
+A okundu 16 sn · RSS 4.1 GB · halka 157374 parça 142019
+gövde 346 (aralık evreni 11384) · çözüm 24 sn · RSS 0.1 GB
+toplam köşe 198589 · en büyük 12 gövde (köşe · parça · kim · kutu genişliği° × yüksekliği°):
+      14756 ·   163 · qing-hanedani              67 × 37
+      14276 ·   433 · isvec                      22 × 17
+      10433 ·   276 · danimarka                  136 × 63
+      10173 ·   438 · inuit                      111 × 19
+       9879 ·   207 · fransa                     176 × 79
+       7401 ·   170 · rusya                      146 × 31
+       7394 ·   259 · ingiltere                  206 × 77
+       6812 ·   143 · ispanya                    234 × 88
+       4713 ·    51 · yeni-ispanya               28 × 22
+       2635 ·   163 · guney-konu-kanal-halklari  12 × 18
+       2293 ·    69 · portekiz                   183 × 77
+       2274 ·   141 · edo-bakufu                 14 × 13
+kutu genişliği: medyan 3.4° · p90 11.0° · >90° olan gövde 8 · >180° olan 3
+kara 57 sn · RSS 0.1 GB
+      [yavas] almanya                      4.7 sn (kapanis)
+      [yavas] avusturya                    4.4 sn (kapanis)
+      [yavas] ayutthaya                    4.2 sn (kapanis)
+      [yavas] brunei-sultanligi            4.3 sn (kapanis)
+      [yavas] danimarka                    39.8 sn (kapanis)
+      [yavas] dene                         7.0 sn (kapanis)
+      [yavas] edo-bakufu                   6.9 sn (kapanis)
+      [yavas] fransa                       28.1 sn (kapanis)
+      [yavas] guney-konu-kanal-halklari    11.2 sn (kapanis)
+      [yavas] hollanda                     15.9 sn (kapanis)
+      [yavas] hollanda-dogu-hint           6.9 sn (kapanis)
+      [yavas] ingiltere                    42.9 sn (kapanis)
+      [yavas] inuit                        30.2 sn (kapanis)
+      [yavas] ispanya                      28.8 sn (kapanis)
+      [yavas] ispanyol-filipinler          7.3 sn (kapanis)
+      [yavas] isvec                        35.2 sn (kapanis)
+      [yavas] joseon                       6.2 sn (kapanis)
+      [yavas] konbaung                     4.1 sn (kapanis)
+      [yavas] lehistan                     4.9 sn (kapanis)
+      [yavas] palembang-sultanligi         4.0 sn (kapanis)
+      [yavas] portekiz                     18.8 sn (kapanis)
+      [yavas] portekiz-brezilyasi          5.1 sn (kapanis)
+      [yavas] prusya                       4.3 sn (kapanis)
+      [yavas] qing-hanedani                11.2 sn (kapanis)
+      [yavas] rusya                        12.5 sn (kapanis)
+      [yavas] umman                        4.1 sn (kapanis)
+      [yavas] venedik                      4.1 sn (kapanis)
+      [yavas] yeni-ispanya                 6.8 sn (kapanis)
+      [yavas] zend                         4.2 sn (kapanis)
+      [devlet] ace-sultanligi                    5.3 sn · komşu gövde   8 talep  11 · RSS 0.4 GB
+      [devlet] adal                              4.1 sn · komşu gövde  10 talep  11 · RSS 0.4 GB
+      [devlet] adar                              3.8 sn · komşu gövde  11 talep  10 · RSS 0.4 GB
+      [devlet] afgan-durrani                     9.8 sn · komşu gövde  17 talep  17 · RSS 0.4 GB
+      [devlet] afsar                             8.6 sn · komşu gövde  23 talep  25 · RSS 0.4 GB
+      [devlet] agadez-sultanligi                 3.8 sn · komşu gövde  10 talep   9 · RSS 0.4 GB
+      [devlet] ahom                              6.0 sn · komşu gövde  11 talep  11 · RSS 0.4 GB
+      [devlet] almanya                          25.5 sn · komşu gövde  42 talep  43 · RSS 0.4 GB
+      [devlet] alutiiq                           6.0 sn · komşu gövde   3 talep   3 · RSS 0.4 GB
+      [devlet] andorra                           3.6 sn · komşu gövde   6 talep   7 · RSS 0.4 GB
+      [devlet] antandroy                         3.2 sn · komşu gövde   8 talep  10 · RSS 0.4 GB
+      [devlet] antemoro                          3.8 sn · komşu gövde   9 talep  10 · RSS 0.4 GB
+      [devlet] arakan                            3.6 sn · komşu gövde   8 talep   9 · RSS 0.4 GB
+      [devlet] aro-konfederasyonu                2.9 sn · komşu gövde   8 talep  12 · RSS 0.4 GB
+      [devlet] asanti                            4.6 sn · komşu gövde  11 talep  14 · RSS 0.4 GB
+      [devlet] avad                              5.3 sn · komşu gövde  14 talep  14 · RSS 0.4 GB
+      [devlet] avusturya                        13.1 sn · komşu gövde  43 talep  43 · RSS 0.4 GB
+      [devlet] avusturya-hollandasi              4.7 sn · komşu gövde  10 talep  15 · RSS 0.4 GB
+      [devlet] ayutthaya                         9.9 sn · komşu gövde  17 talep  18 · RSS 0.4 GB
+      [devlet] babur-imparatorlugu               6.4 sn · komşu gövde  23 talep  24 · RSS 0.4 GB
+      [devlet] baden                             3.2 sn · komşu gövde   6 talep   6 · RSS 0.4 GB
+      [devlet] bagirmi                           4.4 sn · komşu gövde   9 talep   9 · RSS 0.4 GB
+      [devlet] bahama-ingiliz                    3.1 sn · komşu gövde   3 talep   3 · RSS 0.4 GB
+      [devlet] bahavelpur                        3.6 sn · komşu gövde  10 talep  10 · RSS 0.4 GB
+      [devlet] baku-hanligi                      3.6 sn · komşu gövde  13 talep  20 · RSS 0.4 GB
+      [devlet] bali-kralliklari                  1.8 sn · komşu gövde   5 talep   5 · RSS 0.4 GB
+      [devlet] bambara                           8.9 sn · komşu gövde  15 talep  13 · RSS 0.2 GB
+      [devlet] bamum                             3.4 sn · komşu gövde   9 talep  11 · RSS 0.2 GB
+      [devlet] banda-gbaya                       4.2 sn · komşu gövde   6 talep   7 · RSS 0.2 GB
+      [devlet] banjar-sultanligi                 2.0 sn · komşu gövde   5 talep   7 · RSS 0.2 GB
+      [devlet] banten-sultanligi                 5.5 sn · komşu gövde   8 talep  11 · RSS 0.2 GB
+      [devlet] baroda                            4.3 sn · komşu gövde  12 talep  14 · RSS 0.2 GB
+      [devlet] bate                              4.8 sn · komşu gövde  11 talep  12 · RSS 0.2 GB
+      [devlet] bati-col-aborijin                 2.5 sn · komşu gövde   6 talep   6 · RSS 0.2 GB
+      [devlet] bavyera                           3.0 sn · komşu gövde   7 talep   7 · RSS 0.2 GB
+      [devlet] bemba                             5.7 sn · komşu gövde  11 talep  11 · RSS 0.2 GB
+      [devlet] benihalid                         6.4 sn · komşu gövde   9 talep   9 · RSS 0.2 GB
+      [devlet] benin-kralligi                    3.0 sn · komşu gövde  12 talep  16 · RSS 0.2 GB
+      [devlet] beothuk                          10.6 sn · komşu gövde   4 talep   5 · RSS 0.2 GB
+      [devlet] berabis                           3.5 sn · komşu gövde   7 talep   7 · RSS 0.2 GB
+      [devlet] betsileo                          3.6 sn · komşu gövde   9 talep  10 · RSS 0.2 GB
+      [devlet] betsimisaraka                     4.4 sn · komşu gövde   9 talep  11 · RSS 0.2 GB
+      [devlet] bharatpur-cat                     4.5 sn · komşu gövde  11 talep  11 · RSS 0.2 GB
+      [devlet] bhopal                            4.3 sn · komşu gövde  16 talep  14 · RSS 0.2 GB
+      [devlet] bhutan                            2.4 sn · komşu gövde   7 talep   8 · RSS 0.2 GB
+      [devlet] birom-plato                       3.8 sn · komşu gövde  10 talep   9 · RSS 0.2 GB
+      [devlet] borgu                             5.3 sn · komşu gövde  13 talep  18 · RSS 0.2 GB
+      [devlet] bremen-sehri                     12.2 sn · komşu gövde  13 talep  16 · RSS 0.2 GB
+      [devlet] brunei-sultanligi                 2.7 sn · komşu gövde   8 talep  10 · RSS 0.2 GB
+      [devlet] buganda                           2.2 sn · komşu gövde   7 talep   7 · RSS 0.2 GB
+      [devlet] bugis-kralliklari                 1.0 sn · komşu gövde   3 talep   6 · RSS 0.2 GB
+      [devlet] buhara                            7.5 sn · komşu gövde  10 talep  12 · RSS 0.2 GB
+      [devlet] buna                              3.2 sn · komşu gövde   9 talep  10 · RSS 0.2 GB
+      [devlet] bundela-orcha                     4.1 sn · komşu gövde  16 talep  13 · RSS 0.2 GB
+      [devlet] bundu                             5.4 sn · komşu gövde  15 talep  16 · RSS 0.2 GB
+      [devlet] bunyoro                           2.0 sn · komşu gövde   7 talep   7 · RSS 0.2 GB
+      [devlet] burundi                           2.0 sn · komşu gövde   7 talep   6 · RSS 0.2 GB
+      [devlet] campa                             0.6 sn · komşu gövde   5 talep   6 · RSS 0.2 GB
+      [devlet] cape-york-aborijin                0.5 sn · komşu gövde   1 talep   1 · RSS 0.2 GB
+      [devlet] cenevre-cumhuriyeti               5.6 sn · komşu gövde  14 talep  19 · RSS 0.2 GB
+      [devlet] cenova                            5.2 sn · komşu gövde  13 talep  23 · RSS 0.2 GB
+      [devlet] chamba                            4.0 sn · komşu gövde   8 talep   8 · RSS 0.2 GB
+      [devlet] charrua                           1.6 sn · komşu gövde   3 talep   4 · RSS 0.2 GB
+      [devlet] cherokee                          2.2 sn · komşu gövde   4 talep   3 · RSS 0.2 GB
+      [devlet] choctaw                           4.5 sn · komşu gövde   5 talep   6 · RSS 0.2 GB
+      [devlet] cikasav                           3.3 sn · komşu gövde   4 talep   5 · RSS 0.2 GB
+      [devlet] cohor-sultanligi                  3.1 sn · komşu gövde   7 talep  10 · RSS 0.2 GB
+      [devlet] colof                             4.1 sn · komşu gövde  13 talep  15 · RSS 0.2 GB
+      [devlet] creek-konfederasyonu              6.7 sn · komşu gövde   6 talep   6 · RSS 0.2 GB
+      [devlet] cunagadh                          3.4 sn · komşu gövde   9 talep  11 · RSS 0.2 GB
+      [devlet] dagbon                            3.2 sn · komşu gövde  11 talep  10 · RSS 0.2 GB
+      [devlet] dahomey                           3.1 sn · komşu gövde  12 talep  14 · RSS 0.2 GB
+      [devlet] damagaram                         3.2 sn · komşu gövde  10 talep  10 · RSS 0.2 GB
+      [devlet] dan-guro                          5.8 sn · komşu gövde  13 talep  15 · RSS 0.2 GB
+      [devlet] danimarka                       280.8 sn · komşu gövde 165 talep 168 · RSS 0.2 GB
+      [devlet] danimarka-bati-hint               2.0 sn · komşu gövde   4 talep   4 · RSS 0.2 GB
+      [devlet] danimarka-hindistani              2.7 sn · komşu gövde   8 talep  10 · RSS 0.2 GB
+      [devlet] darfur                            4.1 sn · komşu gövde   7 talep   7 · RSS 0.2 GB
+      [devlet] dene                             22.1 sn · komşu gövde   9 talep   9 · RSS 0.2 GB
+      [devlet] dogu-sumatra-sultanliklari        6.0 sn · komşu gövde  10 talep  11 · RSS 0.2 GB
+      [devlet] edo-bakufu                        6.1 sn · komşu gövde   4 talep   4 · RSS 0.2 GB
+      [devlet] eve-notse                         3.0 sn · komşu gövde  10 talep  14 · RSS 0.2 GB
+      [devlet] fas                               4.1 sn · komşu gövde   6 talep   6 · RSS 0.2 GB
+      [devlet] fipa-nyakyusa                     2.7 sn · komşu gövde   7 talep   7 · RSS 0.2 GB
+      [devlet] fransa                          347.2 sn · komşu gövde 254 talep 252 · RSS 0.2 GB
+      [devlet] funj                              5.2 sn · komşu gövde   7 talep   7 · RSS 0.2 GB
+      [devlet] futa-callon                       5.6 sn · komşu gövde  11 talep  17 · RSS 0.2 GB
+      [devlet] gambiya-mandinka                  3.5 sn · komşu gövde  11 talep  13 · RSS 0.2 GB
+      [devlet] ge-kayapo-halklari                3.0 sn · komşu gövde   7 talep   7 · RSS 0.2 GB
+      [devlet] gence-hanligi                     3.9 sn · komşu gövde  18 talep  21 · RSS 0.2 GB
+      [devlet] gond-kralliklari                  4.4 sn · komşu gövde  14 talep  13 · RSS 0.2 GB
+      [devlet] gonja                             4.3 sn · komşu gövde  14 talep  17 · RSS 0.2 GB
+      [devlet] graubunden                        5.7 sn · komşu gövde  23 talep  25 · RSS 0.2 GB
+      [devlet] guadeloupe                        2.0 sn · komşu gövde   4 talep   4 · RSS 0.2 GB
+      [devlet] guatemala-kaptanligi              8.3 sn · komşu gövde   4 talep   5 · RSS 0.2 GB
+      [devlet] guney-avustralya-aborijin         1.1 sn · komşu gövde   3 talep   4 · RSS 0.2 GB
+      [devlet] guney-konu-kanal-halklari         9.4 sn · komşu gövde   5 talep   5 · RSS 0.2 GB
+      [devlet] gurma                             3.4 sn · komşu gövde   9 talep   9 · RSS 0.2 GB
+      [devlet] gyaaman                           4.2 sn · komşu gövde   9 talep  10 · RSS 0.2 GB
+      [devlet] habesistan                        7.9 sn · komşu gövde  14 talep  13 · RSS 0.2 GB
+      [devlet] habsburg                          7.6 sn · komşu gövde   8 talep  11 · RSS 0.2 GB
+      [devlet] hannover                         12.0 sn · komşu gövde  13 talep  16 · RSS 0.2 GB
+      [devlet] haudenosaunee                     9.2 sn · komşu gövde   4 talep   7 · RSS 0.2 GB
+      [devlet] hausa-sehir-devletleri            4.5 sn · komşu gövde  10 talep  10 · RSS 0.2 GB
+      [devlet] hawaii-seflikleri                 0.0 sn · komşu gövde   0 talep   0 · RSS 0.2 GB
+      [devlet] hayda                             2.2 sn · komşu gövde   2 talep   2 · RSS 0.2 GB
+      [devlet] haydarabad-nizam                 16.2 sn · komşu gövde  23 talep  22 · RSS 0.2 GB
+      [devlet] herero                            1.8 sn · komşu gövde   5 talep   6 · RSS 0.2 GB
+      [devlet] hidatsa                           1.2 sn · komşu gövde   4 talep   4 · RSS 0.2 GB
+      [devlet] hive                              6.4 sn · komşu gövde  11 talep  11 · RSS 0.2 GB
+      [devlet] hokand                            5.1 sn · komşu gövde   8 talep   9 · RSS 0.2 GB
+      [devlet] hollanda                         25.0 sn · komşu gövde 238 talep 238 · RSS 0.2 GB
+      [devlet] hollanda-dogu-hint               14.5 sn · komşu gövde  19 talep  21 · RSS 0.2 GB
+      [devlet] hollanda-guyanasi                 2.4 sn · komşu gövde   6 talep   7 · RSS 0.2 GB
+      [devlet] hollanda-malaka                   2.4 sn · komşu gövde   7 talep   9 · RSS 0.2 GB
+      [devlet] hollanda-seylani                  4.0 sn · komşu gövde   7 talep  12 · RSS 0.2 GB
+      [devlet] indor                             1.1 sn · komşu gövde  11 talep  11 · RSS 0.2 GB
+      [devlet] ingiliz-hindistani               19.3 sn · komşu gövde  33 talep  35 · RSS 0.2 GB
+      [devlet] ingiltere                       457.6 sn · komşu gövde 273 talep 272 · RSS 0.2 GB
+      [devlet] inuit                            68.8 sn · komşu gövde  16 talep  17 · RSS 0.2 GB
+      [devlet] ispanya                         168.3 sn · komşu gövde 277 talep 286 · RSS 0.2 GB
+      [devlet] ispanyol-filipinler               3.6 sn · komşu gövde   6 talep   6 · RSS 0.2 GB
+      [devlet] ispanyol-peru                    17.3 sn · komşu gövde  11 talep  11 · RSS 0.2 GB
+      [devlet] isvec                            98.5 sn · komşu gövde  12 talep  18 · RSS 0.2 GB
+      [devlet] isvicre                           7.9 sn · komşu gövde  21 talep  24 · RSS 0.2 GB
+      [devlet] izlanda-norvec-danimarka          2.4 sn · komşu gövde   1 talep   1 · RSS 0.2 GB
+      [devlet] joseon                            6.5 sn · komşu gövde   4 talep   5 · RSS 0.2 GB
+      [devlet] jukun-kvararafa                   7.1 sn · komşu gövde  15 talep  17 · RSS 0.2 GB
+      [devlet] kabartay                          7.2 sn · komşu gövde  13 talep  17 · RSS 0.2 GB
+      [devlet] kaffa                             3.8 sn · komşu gövde   7 talep   7 · RSS 0.2 GB
+      [devlet] kaheti-kralligi                   4.9 sn · komşu gövde  20 talep  21 · RSS 0.2 GB
+      [devlet] kalacuri-tripuri                  5.8 sn · komşu gövde  13 talep  13 · RSS 0.2 GB
+      [devlet] kalat-hanligi                     5.8 sn · komşu gövde   8 talep   9 · RSS 0.2 GB
+      [devlet] kalikut                           9.6 sn · komşu gövde  12 talep  16 · RSS 0.2 GB
+      [devlet] kalusa                            7.2 sn · komşu gövde   4 talep   4 · RSS 0.2 GB
+      [devlet] kamba                             3.4 sn · komşu gövde   8 talep   9 · RSS 0.2 GB
+      [devlet] kamboc-kralligi                   7.2 sn · komşu gövde  10 talep  11 · RSS 0.2 GB
+      [devlet] kanal-adalari                     3.5 sn · komşu gövde   4 talep   4 · RSS 0.2 GB
+      [devlet] kandy                             4.4 sn · komşu gövde   7 talep  12 · RSS 0.2 GB
+      [devlet] kanem-bornu                       6.7 sn · komşu gövde  13 talep  13 · RSS 0.2 GB
+      [devlet] kanem-tubu                        7.9 sn · komşu gövde  12 talep  10 · RSS 0.2 GB
+      [devlet] kaonde-ila                        2.7 sn · komşu gövde   7 talep   7 · RSS 0.2 GB
+      [devlet] karabag-hanligi                   4.2 sn · komşu gövde  18 talep  21 · RSS 0.2 GB
+      [devlet] karagve                           2.8 sn · komşu gövde   8 talep   6 · RSS 0.2 GB
+      [devlet] karga                             0.0 sn · komşu gövde   0 talep   0 · RSS 0.2 GB
+      [devlet] karnatik                         10.2 sn · komşu gövde  14 talep  18 · RSS 0.3 GB
+      [devlet] kartli-kralligi                   8.2 sn · komşu gövde  21 talep  22 · RSS 0.3 GB
+      [devlet] kasance                           2.8 sn · komşu gövde   7 talep   7 · RSS 0.3 GB
+      [devlet] kayor                             4.2 sn · komşu gövde  11 talep  13 · RSS 0.3 GB
+      [devlet] kazak-hanligi                    32.5 sn · komşu gövde  15 talep  24 · RSS 0.2 GB
+      [devlet] kazak-hetmanligi                  6.4 sn · komşu gövde   7 talep   9 · RSS 0.2 GB
+      [devlet] kazembe                           3.6 sn · komşu gövde   7 talep   7 · RSS 0.2 GB
+      [devlet] kenedugu                          4.2 sn · komşu gövde   9 talep   9 · RSS 0.2 GB
+      [devlet] kenya-kuzey-halklari              3.3 sn · komşu gövde   8 talep   8 · RSS 0.2 GB
+      [devlet] kesiri-sultanligi                 5.0 sn · komşu gövde   8 talep  10 · RSS 0.2 GB
+      [devlet] kimberley-aborijin                0.7 sn · komşu gövde   2 talep   3 · RSS 0.2 GB
+      [devlet] klamath                           0.2 sn · komşu gövde   1 talep   4 · RSS 0.2 GB
+      [devlet] koch-bihar                        2.8 sn · komşu gövde   8 talep   9 · RSS 0.2 GB
+      [devlet] kolhapur                          5.1 sn · komşu gövde  12 talep  15 · RSS 0.2 GB
+      [devlet] komanci                           1.2 sn · komşu gövde   3 talep   3 · RSS 0.2 GB
+      [devlet] konbaung                         13.2 sn · komşu gövde  15 talep  16 · RSS 0.2 GB
+      [devlet] kong-vattara                      3.6 sn · komşu gövde  10 talep  12 · RSS 0.2 GB
+      [devlet] kongo-kralligi                    3.9 sn · komşu gövde   8 talep   8 · RSS 0.2 GB
+      [devlet] kri                              17.2 sn · komşu gövde   8 talep  13 · RSS 0.2 GB
+      [devlet] kru-grebo                         2.6 sn · komşu gövde   6 talep   8 · RSS 0.2 GB
+      [devlet] kuba                              2.6 sn · komşu gövde   6 talep   6 · RSS 0.2 GB
+      [devlet] kuba-hanligi                      4.5 sn · komşu gövde  17 talep  21 · RSS 0.2 GB
+      [devlet] kurland-dukaligi                  5.4 sn · komşu gövde   6 talep   7 · RSS 0.2 GB
+      [devlet] kutai                             1.1 sn · komşu gövde   5 talep   6 · RSS 0.2 GB
+      [devlet] ladak                             6.9 sn · komşu gövde   8 talep   8 · RSS 0.2 GB
+      [devlet] lahic-sultanligi                  4.1 sn · komşu gövde   9 talep  10 · RSS 0.2 GB
+      [devlet] lakota                            2.5 sn · komşu gövde   4 talep   5 · RSS 0.2 GB
+      [devlet] laos-kralliklari                  8.2 sn · komşu gövde  12 talep  13 · RSS 0.2 GB
+      [devlet] le-hanedani                       5.0 sn · komşu gövde   6 talep   8 · RSS 0.2 GB
+      [devlet] lehistan                         11.7 sn · komşu gövde  20 talep  28 · RSS 0.2 GB
+      [devlet] liechtenstein                     6.3 sn · komşu gövde  18 talep  23 · RSS 0.2 GB
+      [devlet] liege-piskoposlugu                4.8 sn · komşu gövde   8 talep  14 · RSS 0.2 GB
+      [devlet] loango                            3.3 sn · komşu gövde   6 talep   7 · RSS 0.2 GB
+      [devlet] lorraine-dukaligi                 3.6 sn · komşu gövde   5 talep   6 · RSS 0.2 GB
+      [devlet] lozi                              3.5 sn · komşu gövde   9 talep   9 · RSS 0.2 GB
+      [devlet] luba                              2.6 sn · komşu gövde   6 talep   6 · RSS 0.2 GB
+      [devlet] lubeck-sehri                     13.1 sn · komşu gövde  10 talep  16 · RSS 0.2 GB
+      [devlet] lucca-cumhuriyeti                 4.0 sn · komşu gövde  15 talep  23 · RSS 0.2 GB
+      [devlet] lunda-imparatorlugu               4.0 sn · komşu gövde  10 talep   9 · RSS 0.2 GB
+      [devlet] macaristan-habsburg              10.8 sn · komşu gövde  14 talep  16 · RSS 0.2 GB
+      [devlet] macushi-wapishana-halklari        6.1 sn · komşu gövde  11 talep  12 · RSS 0.2 GB
+      [devlet] magindanao-sultanligi             1.3 sn · komşu gövde   4 talep   4 · RSS 0.2 GB
+      [devlet] malay-sultanliklari               5.3 sn · komşu gövde  11 talep  13 · RSS 0.2 GB
+      [devlet] maldivler-sultanligi              2.7 sn · komşu gövde   5 talep   5 · RSS 0.2 GB
+      [devlet] maliseet                         14.2 sn · komşu gövde   7 talep   8 · RSS 0.2 GB
+      [devlet] mandan                            1.1 sn · komşu gövde   4 talep   4 · RSS 0.2 GB
+      [devlet] manica                            1.6 sn · komşu gövde   7 talep   7 · RSS 0.2 GB
+      [devlet] manipur                           3.3 sn · komşu gövde   8 talep   9 · RSS 0.2 GB
+      [devlet] maori-iwi                         0.1 sn · komşu gövde   0 talep   0 · RSS 0.2 GB
+      [devlet] mapuche-araukanya                 9.5 sn · komşu gövde   8 talep   8 · RSS 0.2 GB
+      [devlet] maratha                          12.6 sn · komşu gövde  33 talep  36 · RSS 0.2 GB
+      [devlet] maravi                            2.5 sn · komşu gövde   6 talep   6 · RSS 0.2 GB
+      [devlet] marshall-irojlari                 0.0 sn · komşu gövde   0 talep   0 · RSS 0.2 GB
+      [devlet] martinik                          2.3 sn · komşu gövde   4 talep   4 · RSS 0.2 GB
+      [devlet] mato-grosso-rondonia-halklari     4.4 sn · komşu gövde   9 talep   9 · RSS 0.2 GB
+      [devlet] mecklenburg-dukaligi             13.5 sn · komşu gövde  11 talep  16 · RSS 0.2 GB
+      [devlet] megrelya-prensligi                4.9 sn · komşu gövde   7 talep   8 · RSS 0.2 GB
+      [devlet] merina-oncesi                     4.6 sn · komşu gövde  11 talep  11 · RSS 0.2 GB
+      [devlet] meskalero-apaci                   0.1 sn · komşu gövde   1 talep   1 · RSS 0.2 GB
+      [devlet] meysur                           10.7 sn · komşu gövde  14 talep  18 · RSS 0.2 GB
+      [devlet] miami                             4.9 sn · komşu gövde   5 talep   6 · RSS 0.2 GB
+      [devlet] mikmak                           12.5 sn · komşu gövde   6 talep   7 · RSS 0.2 GB
+      [devlet] milano-dukaligi                   7.1 sn · komşu gövde  15 talep  24 · RSS 0.2 GB
+      [devlet] modena                            4.1 sn · komşu gövde  16 talep  24 · RSS 0.2 GB
+      [devlet] mohave                            0.4 sn · komşu gövde   3 talep   4 · RSS 0.2 GB
+      [devlet] monako                            6.4 sn · komşu gövde   9 talep  18 · RSS 0.2 GB
+      [devlet] moritanya-emirlikleri             7.2 sn · komşu gövde  13 talep  14 · RSS 0.2 GB
+      [devlet] mossi-vagadugu                    5.3 sn · komşu gövde  15 talep  14 · RSS 0.2 GB
+      [devlet] nagpur-bhonsle                    5.3 sn · komşu gövde  11 talep  11 · RSS 0.2 GB
+      [devlet] nahcivan-hanligi                  4.7 sn · komşu gövde  21 talep  22 · RSS 0.2 GB
+      [devlet] nama-orlam                        2.0 sn · komşu gövde   6 talep   7 · RSS 0.2 GB
+      [devlet] napoli                            8.4 sn · komşu gövde  19 talep  26 · RSS 0.2 GB
+      [devlet] navaho                            0.2 sn · komşu gövde   5 talep   4 · RSS 0.2 GB
+      [devlet] nayak-devletleri                  4.2 sn · komşu gövde  13 talep  16 · RSS 0.2 GB
+      [devlet] nepal                             2.6 sn · komşu gövde   6 talep   6 · RSS 0.2 GB
+      [devlet] nez-perce                         0.0 sn · komşu gövde   1 talep   1 · RSS 0.2 GB
+      [devlet] ngonde                            2.5 sn · komşu gövde   7 talep   8 · RSS 0.2 GB
+      [devlet] nguyen-beyligi                    5.5 sn · komşu gövde   9 talep  10 · RSS 0.2 GB
+      [devlet] nijer-deltasi                     3.5 sn · komşu gövde  10 talep  13 · RSS 0.2 GB
+      [devlet] nkore                             3.5 sn · komşu gövde   9 talep   8 · RSS 0.2 GB
+      [devlet] nri                               3.0 sn · komşu gövde  10 talep  13 · RSS 0.2 GB
+      [devlet] nuu-cah-nulth                     3.0 sn · komşu gövde   2 talep   5 · RSS 0.2 GB
+      [devlet] nuxalk                            6.7 sn · komşu gövde   3 talep   3 · RSS 0.2 GB
+      [devlet] nyamvezi                          4.4 sn · komşu gövde   6 talep   7 · RSS 0.2 GB
+      [devlet] ojibwe                            8.6 sn · komşu gövde   6 talep   7 · RSS 0.2 GB
+      [devlet] orta-avustralya-aborijin          1.1 sn · komşu gövde   3 talep   3 · RSS 0.2 GB
+      [devlet] ovambo                            3.2 sn · komşu gövde   9 talep   9 · RSS 0.2 GB
+      [devlet] ovimbundu                         7.2 sn · komşu gövde  12 talep  12 · RSS 0.1 GB
+      [devlet] oyana-trio-halklari               7.7 sn · komşu gövde   9 talep   9 · RSS 0.2 GB
+      [devlet] oyo-imparatorlugu                 4.2 sn · komşu gövde  11 talep  17 · RSS 0.2 GB
+      [devlet] palembang-sultanligi              6.4 sn · komşu gövde   8 talep  11 · RSS 0.2 GB
+      [devlet] pampa-patagonya-halklari          7.4 sn · komşu gövde   3 talep   3 · RSS 0.2 GB
+      [devlet] papalik                           8.0 sn · komşu gövde  22 talep  29 · RSS 0.2 GB
+      [devlet] parma                             4.2 sn · komşu gövde  17 talep  25 · RSS 0.2 GB
+      [devlet] pavni                             1.9 sn · komşu gövde   3 talep   3 · RSS 0.2 GB
+      [devlet] payut                             0.3 sn · komşu gövde   2 talep   4 · RSS 0.2 GB
+      [devlet] pedi                              2.2 sn · komşu gövde   7 talep   6 · RSS 0.2 GB
+      [devlet] pilbara-murchison-aborijin        1.4 sn · komşu gövde   3 talep   3 · RSS 0.2 GB
+      [devlet] piombino                          4.1 sn · komşu gövde  11 talep  17 · RSS 0.2 GB
+      [devlet] ponka                             2.1 sn · komşu gövde   4 talep   4 · RSS 0.2 GB
+      [devlet] portekiz                         17.9 sn · komşu gövde 240 talep 250 · RSS 0.2 GB
+      [devlet] portekiz-angola                   3.2 sn · komşu gövde   9 talep   9 · RSS 0.2 GB
+      [devlet] portekiz-brezilyasi              15.3 sn · komşu gövde  16 talep  15 · RSS 0.1 GB
+      [devlet] portekiz-hindistani-goa           5.6 sn · komşu gövde  16 talep  19 · RSS 0.1 GB
+      [devlet] portekiz-mozambik                 6.8 sn · komşu gövde  15 talep  15 · RSS 0.2 GB
+      [devlet] prusya                           15.0 sn · komşu gövde  16 talep  18 · RSS 0.2 GB
+      [devlet] purus-madeira-halklari            3.6 sn · komşu gövde   7 talep   8 · RSS 0.2 GB
+      [devlet] qing-hanedani                    80.5 sn · komşu gövde  46 talep  48 · RSS 0.1 GB
+      [devlet] racput                           11.1 sn · komşu gövde  21 talep  21 · RSS 0.2 GB
+      [devlet] ranquel                           0.4 sn · komşu gövde   3 talep   4 · RSS 0.2 GB
+      [devlet] rapa-nui                          0.0 sn · komşu gövde   0 talep   0 · RSS 0.2 GB
+      [devlet] rarotonga                         0.0 sn · komşu gövde   0 talep   0 · RSS 0.2 GB
+      [devlet] revan-hanligi                     5.0 sn · komşu gövde  11 talep  11 · RSS 0.2 GB
+      [devlet] rodos-sovalyeleri                 3.9 sn · komşu gövde   6 talep   6 · RSS 0.2 GB
+      [devlet] rozvi                             2.4 sn · komşu gövde   8 talep   8 · RSS 0.2 GB
+      [devlet] ruanda                            2.7 sn · komşu gövde   7 talep   6 · RSS 0.2 GB
+      [devlet] rusya                            76.0 sn · komşu gövde  40 talep  41 · RSS 0.1 GB
+      [devlet] ryukyu                            1.3 sn · komşu gövde   2 talep   2 · RSS 0.1 GB
+      [devlet] sahaptin                          0.2 sn · komşu gövde   2 talep   4 · RSS 0.1 GB
+      [devlet] saint-domingue                    5.8 sn · komşu gövde   4 talep   4 · RSS 0.2 GB
+      [devlet] sakalava-boina                    4.5 sn · komşu gövde  10 talep  11 · RSS 0.2 GB
+      [devlet] sakalava-menabe                   5.3 sn · komşu gövde  12 talep  12 · RSS 0.2 GB
+      [devlet] saksonya                          7.3 sn · komşu gövde  14 talep  16 · RSS 0.2 GB
+      [devlet] salzburg-baspiskoposlugu          3.7 sn · komşu gövde   7 talep   8 · RSS 0.2 GB
+      [devlet] san-devletleri                    6.7 sn · komşu gövde  12 talep  13 · RSS 0.2 GB
+      [devlet] san-marino                        4.4 sn · komşu gövde  16 talep  21 · RSS 0.2 GB
+      [devlet] sardinya                          8.9 sn · komşu gövde  19 talep  23 · RSS 0.2 GB
+      [devlet] sardinya-piyemonte                6.8 sn · komşu gövde  16 talep  22 · RSS 0.2 GB
+      [devlet] sauk                              2.3 sn · komşu gövde   3 talep   4 · RSS 0.2 GB
+      [devlet] savni                             5.7 sn · komşu gövde   5 talep   6 · RSS 0.2 GB
+      [devlet] schleswig-holstein                9.0 sn · komşu gövde   9 talep  14 · RSS 0.2 GB
+      [devlet] secwepemc                         1.5 sn · komşu gövde   1 talep   2 · RSS 0.2 GB
+      [devlet] seki-hanligi                      4.5 sn · komşu gövde  17 talep  21 · RSS 0.2 GB
+      [devlet] sicilya-aragon                    4.0 sn · komşu gövde   7 talep   9 · RSS 0.2 GB
+      [devlet] sidamo                            2.5 sn · komşu gövde   7 talep   6 · RSS 0.2 GB
+      [devlet] sikkim-krallik                    2.3 sn · komşu gövde   7 talep   7 · RSS 0.2 GB
+      [devlet] sind                              6.7 sn · komşu gövde  10 talep  14 · RSS 0.2 GB
+      [devlet] sine-salum                        5.2 sn · komşu gövde  11 talep  14 · RSS 0.2 GB
+      [devlet] sipsong-panna                     2.4 sn · komşu gövde   7 talep   7 · RSS 0.2 GB
+      [devlet] sirvan-hanligi                    4.0 sn · komşu gövde  14 talep  20 · RSS 0.2 GB
+      [devlet] solima-yalunka                    5.4 sn · komşu gövde   8 talep  13 · RSS 0.2 GB
+      [devlet] somali                            5.7 sn · komşu gövde  11 talep  11 · RSS 0.2 GB
+      [devlet] sosoni                            0.3 sn · komşu gövde  11 talep   9 · RSS 0.2 GB
+      [devlet] sulu-sultanligi                   1.3 sn · komşu gövde   3 talep   4 · RSS 0.2 GB
+      [devlet] surakarta                         1.4 sn · komşu gövde   5 talep   7 · RSS 0.2 GB
+      [devlet] suud-birinci                      7.6 sn · komşu gövde   8 talep   9 · RSS 0.2 GB
+      [devlet] tahiti                            0.0 sn · komşu gövde   0 talep   0 · RSS 0.2 GB
+      [devlet] talis-hanligi                     4.1 sn · komşu gövde  14 talep  20 · RSS 0.2 GB
+      [devlet] tancur-maratha                    9.9 sn · komşu gövde  12 talep  16 · RSS 0.2 GB
+      [devlet] tazmanya-aborijinleri             0.6 sn · komşu gövde   1 talep   1 · RSS 0.2 GB
+      [devlet] tibet-ganden-phodrang             3.3 sn · komşu gövde   6 talep   5 · RSS 0.2 GB
+      [devlet] tidore-sultanligi                 1.1 sn · komşu gövde   2 talep   3 · RSS 0.2 GB
+      [devlet] timor-beylikleri                  1.0 sn · komşu gövde   3 talep   3 · RSS 0.2 GB
+      [devlet] tio                               3.4 sn · komşu gövde   5 talep   5 · RSS 0.2 GB
+      [devlet] tiv                               4.1 sn · komşu gövde  13 talep  14 · RSS 0.2 GB
+      [devlet] tlingit                           2.7 sn · komşu gövde   2 talep   2 · RSS 0.2 GB
+      [devlet] toskana                           4.2 sn · komşu gövde  16 talep  23 · RSS 0.2 GB
+      [devlet] travankur                         9.1 sn · komşu gövde  10 talep  14 · RSS 0.2 GB
+      [devlet] tripura-manikya                   2.8 sn · komşu gövde   8 talep  11 · RSS 0.2 GB
+      [devlet] tsvana                            2.6 sn · komşu gövde  10 talep   9 · RSS 0.2 GB
+      [devlet] tuareg-accer                      4.7 sn · komşu gövde   7 talep   7 · RSS 0.2 GB
+      [devlet] tuareg-adag                       3.9 sn · komşu gövde   7 talep   7 · RSS 0.2 GB
+      [devlet] tuareg-ahaggar                    4.9 sn · komşu gövde   8 talep   7 · RSS 0.2 GB
+      [devlet] tuareg-air                        6.1 sn · komşu gövde  11 talep  11 · RSS 0.2 GB
+      [devlet] tuareg-ivellemmedan               6.8 sn · komşu gövde  12 talep  12 · RSS 0.2 GB
+      [devlet] tubu-tibesti                      3.7 sn · komşu gövde   7 talep   6 · RSS 0.2 GB
+      [devlet] tui-tonga-imparatorlugu           0.0 sn · komşu gövde   0 talep   0 · RSS 0.2 GB
+      [devlet] tunus-ocagi                       5.0 sn · komşu gövde   6 talep   7 · RSS 0.2 GB
+      [devlet] turkmen                           6.2 sn · komşu gövde  11 talep  21 · RSS 0.2 GB
+      [devlet] umman                             5.5 sn · komşu gövde   8 talep  10 · RSS 0.2 GB
+      [devlet] umman-zengibar                    3.6 sn · komşu gövde  10 talep  10 · RSS 0.2 GB
+      [devlet] ute                               0.1 sn · komşu gövde   2 talep   2 · RSS 0.2 GB
+      [devlet] vaday                             6.1 sn · komşu gövde   9 talep   9 · RSS 0.2 GB
+      [devlet] valo                              4.2 sn · komşu gövde  11 talep  13 · RSS 0.2 GB
+      [devlet] vanuatu-topluluklari              0.0 sn · komşu gövde   0 talep   0 · RSS 0.2 GB
+      [devlet] venda                             1.6 sn · komşu gövde   8 talep   9 · RSS 0.2 GB
+      [devlet] venedik                          18.6 sn · komşu gövde  28 talep  31 · RSS 0.2 GB
+      [devlet] waiwai-halki                      4.1 sn · komşu gövde   8 talep   8 · RSS 0.2 GB
+      [devlet] wicita                            2.7 sn · komşu gövde   6 talep   6 · RSS 0.2 GB
+      [devlet] wurttemberg                       3.5 sn · komşu gövde   7 talep   6 · RSS 0.2 GB
+      [devlet] xhosa                             0.5 sn · komşu gövde   3 talep   3 · RSS 0.2 GB
+      [devlet] xingu-halklari                    3.5 sn · komşu gövde   7 talep   7 · RSS 0.2 GB
+      [devlet] yanomami-halklari                 4.4 sn · komşu gövde   7 talep   7 · RSS 0.2 GB
+      [devlet] yatenga                           6.5 sn · komşu gövde   9 talep   9 · RSS 0.2 GB
+      [devlet] yavapai                           0.2 sn · komşu gövde   3 talep   3 · RSS 0.2 GB
+      [devlet] yemen-zeydi                       6.6 sn · komşu gövde  10 talep  10 · RSS 0.2 GB
+      [devlet] yeni-granada-valiligi            10.0 sn · komşu gövde  11 talep  11 · RSS 0.2 GB
+      [devlet] yeni-ispanya                     16.0 sn · komşu gövde  17 talep  17 · RSS 0.2 GB
+      [devlet] yogyakarta                        1.4 sn · komşu gövde   6 talep   7 · RSS 0.2 GB
+      [devlet] yolngu-aborijin                   1.3 sn · komşu gövde   2 talep   2 · RSS 0.2 GB
+      [devlet] yupik                             6.0 sn · komşu gövde   2 talep   3 · RSS 0.2 GB
+      [devlet] zahir-el-omer-seyhligi            4.7 sn · komşu gövde   6 talep   6 · RSS 0.2 GB
+      [devlet] zaporojye                         5.7 sn · komşu gövde   7 talep   8 · RSS 0.2 GB
+      [devlet] zend                             12.4 sn · komşu gövde  28 talep  28 · RSS 0.2 GB
+      [devlet] zende                             4.0 sn · komşu gövde   6 talep   6 · RSS 0.2 GB
+      [devlet] zerma                             6.2 sn · komşu gövde  11 talep  10 · RSS 0.2 GB
+      [devlet] zuni                              0.1 sn · komşu gövde   3 talep   3 · RSS 0.2 GB
+KESİT BİTTİ: 4110 sn · parça 1641 · kapanış 823 sn · çekişme 2234 sn · cins 280 sn · RSS 0.2 GB · tepe RSS 4.8 GB
+YUTMA: {}
+SAYAC: {'duvar_kesilen_km2': 0.0, 'duvar_gecen_n': 0, 'duvar_gecen_km2': 0.0, 'delik_km2': 396584.8181962956, 'delik_n': 130, 'delik_engelli_n': 4, 'surtunme': 0, 'voronoi': 0}
+toplam 4191 sn

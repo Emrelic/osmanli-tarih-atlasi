@@ -196,23 +196,28 @@ _SINA_KAYDIR = os.environ.get("MOTOR_DOLGU_SINA_KAYDIR", "")
 #    eklenince indeksler kayar) `difference` zincirinin kayan nokta sonucu
 #    değişebilirdi ⇒ önbellekten okunan ile yeniden hesaplanan AYRIŞIRDI.
 #    Sıralama bunu yapısal olarak kapatıyor.
-KURAL_SURUM = "dolgu-kural-3"      # 1118: sürtünmeli paylaşım · hat duvarı · devlet-içi delik
+KURAL_SURUM = "dolgu-kural-4"      # 1118: sürtünmeli paylaşım · hat duvarı · devlet-içi delik
+#                                    1127 (DOLGU-YEREL): komşuluk kutuyla değil gerçek yakınlıkla;
+#                                    engel anahtarda yerel; devlet parçaları kanonik sırada. KURAL
+#                                    değişmedi (aynı dolgu), anahtarın KAPSAMI ve parça SIRASI değişti.
+_KURAL = {"yaricap_km": YARICAP_KM, "esik_km2": ESIK_KM2,
+          "ufuk_gun": UFUK_GUN, "deniz": DENIZ_KURALI,
+          "deniz_esik_km2": DENIZ_ESIK_KM2, "koridor": KORIDOR_KURALI,
+          "kaba_tol": KABA_TOL, "sade_tol": SADE_TOL, "temas": TEMAS,
+          "paylasim_adim_km": PAYLASIM_ADIM_KM,
+          "paylasim_nokta_tavan": PAYLASIM_NOKTA_TAVAN,
+          "surtunme": SURTUNME, "delik": DELIK_KURALI}
 _ONB_TUZ = json.dumps({
     "surum": KURAL_SURUM,
     "modul": _hlo.sha256(io.open(os.path.abspath(__file__), "rb").read()).hexdigest(),
-    "kural": {"yaricap_km": YARICAP_KM, "esik_km2": ESIK_KM2,
-              "ufuk_gun": UFUK_GUN, "deniz": DENIZ_KURALI,
-              "deniz_esik_km2": DENIZ_ESIK_KM2, "koridor": KORIDOR_KURALI,
-              "kaba_tol": KABA_TOL, "sade_tol": SADE_TOL, "temas": TEMAS,
-              "paylasim_adim_km": PAYLASIM_ADIM_KM,
-              "paylasim_nokta_tavan": PAYLASIM_NOKTA_TAVAN,
-              "surtunme": SURTUNME, "delik": DELIK_KURALI},
+    "kural": _KURAL,
 }, sort_keys=True, ensure_ascii=False)
-_ONB = _mob.Onbellek(
-    os.path.join(os.environ.get("MOTOR_ONBELLEK_DIZIN")
-                 or os.path.join(KOK, "_motor_onbellek"),
-                 "motor_onbellek.sqlite"),
-    _ONB_TUZ, acik=os.environ.get("MOTOR_ONBELLEK_KAPALI") != "1")
+_ONB_YOL = os.path.join(os.environ.get("MOTOR_ONBELLEK_DIZIN")
+                        or os.path.join(KOK, "_motor_onbellek"),
+                        "motor_onbellek.sqlite")
+_ONB_ACIK = os.environ.get("MOTOR_ONBELLEK_KAPALI") != "1"
+_ONB = _mob.Onbellek(_ONB_YOL, _ONB_TUZ, acik=_ONB_ACIK)
+# `_ONB_TALEP` (kapanış katmanının KENDİ tuzu) ve `_ONB_MIRAS` aşağıda, `_talep`ten sonra kurulur.
 
 _OZ_ONB = {}
 
@@ -409,6 +414,61 @@ def _talep(g, kara_hazir, kara, r_km):
     elif kara is not None:
         t = _temiz(t.intersection(kara))
     return t
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+# DOLGU-YEREL-1127 — KAPANIŞ KATMANININ KENDİ TUZU ("tuzun kapsamı, işin okuduğu kadar")
+# ═══════════════════════════════════════════════════════════════════════════
+# Kapanış (`dolgu2_talep`) koşunun en pahalı YENİDEN KULLANILABİLİR ürünüdür (Koşu 40: 6.659 kapanış,
+# yalnız 4 sn'yi aşanları 3,9 saat). Eskiden tuzu BÜTÜN DOSYANIN özetiydi: dosyaya tek yorum satırı
+# eklemek bütün kapanışları çöpe atıyordu. Kapanışın okuduğu kod yalnız aşağıdaki işlevlerdir; tuzu da
+# yalnız onların KAYNAK METNİ ve okuduğu dört sabittir. Paylaşım/cins/anahtar kodundaki bir değişiklik
+# artık kapanışlara dokunmaz. (Kaynak metni dosyadan `ast` ile, evrensel satır sonuyla alınır ⇒ satır
+# sonu biçiminden ve modülün nasıl yüklendiğinden bağımsız.)
+_TALEP_ADLAR = ("_km_derece", "_derece", "_km2", "_parcalar", "_temiz", "KaraIndeks",
+                "_deniz_kapanisi", "_talep")
+
+
+def _kaynak_ozeti(yol, adlar):
+    """`yol`daki Python dosyasının üst düzey `adlar` tanımlarının kaynak metni özeti (sha256)."""
+    import ast as _ast
+    with io.open(yol, "r", encoding="utf-8", newline=None) as f:
+        src = f.read()
+    parca = {}
+    for dugum in _ast.parse(src).body:
+        ad = getattr(dugum, "name", None)
+        if ad in adlar:
+            parca[ad] = _ast.get_source_segment(src, dugum)
+    eksik = [a for a in adlar if a not in parca]
+    if eksik:
+        raise RuntimeError("kaynak özeti: tanım bulunamadı: %r" % eksik)
+    return _hlo.sha256("\n".join(parca[a] for a in adlar).encode("utf-8")).hexdigest()
+
+
+_TALEP_KAYNAK = _kaynak_ozeti(os.path.abspath(__file__), _TALEP_ADLAR)
+_TALEP_TUZ = json.dumps({
+    "surum": "talep-1", "kaynak": _TALEP_KAYNAK,
+    "kural": {"deniz": DENIZ_KURALI, "deniz_esik_km2": DENIZ_ESIK_KM2,
+              "kaba_tol": KABA_TOL, "temas": TEMAS},
+}, sort_keys=True, ensure_ascii=False)
+_ONB_TALEP = _mob.Onbellek(_ONB_YOL, _TALEP_TUZ, acik=_ONB_ACIK)
+# MİRAS: eski tuzla (bütün dosyanın özeti) yazılmış kapanışlar, kapanış kodu AYNI kaldıysa geçerlidir.
+# İki ayar birlikte verilirse eski kayıtlar da aranır (bulunan, yeni tuzla yeniden yazılır):
+#   DOLGU_MIRAS_MODUL        = o kayıtları yazan `dolgu.py` dosyasının sha256'sı (eski tuzun "modul"ü)
+#   DOLGU_MIRAS_TALEP_KAYNAK = o dosyanın kapanış işlevlerinin `_TALEP_KAYNAK` özeti
+# İkincisi bugünkü `_TALEP_KAYNAK` ile AYNI değilse miras KAPALI kalır ve söylenir — kapanış kodu
+# değişmişse eski kapanış bayattır.
+_ONB_MIRAS = None
+_mm, _mk = os.environ.get("DOLGU_MIRAS_MODUL", ""), os.environ.get("DOLGU_MIRAS_TALEP_KAYNAK", "")
+if _mm and _ONB_ACIK:
+    if _mk == _TALEP_KAYNAK:
+        _ONB_MIRAS = _mob.Onbellek(_ONB_YOL, json.dumps({
+            "surum": os.environ.get("DOLGU_MIRAS_SURUM", "dolgu-kural-3"), "modul": _mm, "kural": _KURAL,
+        }, sort_keys=True, ensure_ascii=False), acik=True)
+        print("  Ⓑ dolgu: kapanış MİRASI açık (eski modül %s…)" % _mm[:12], flush=True)
+    else:
+        print("  ⚠️ Ⓑ dolgu: kapanış mirası KAPALI — kapanış kodu değişmiş (%s… ≠ %s…)" % (
+            _mk[:12], _TALEP_KAYNAK[:12]), flush=True)
 
 
 # ═══════════════════════════════════════════════════════════════════════════
@@ -663,10 +723,67 @@ def _cins(parca, govde, a_tampon):
 #    ⚠️ Bu denklikler yazılı duruyor ki biri kodu değiştirince neyin
 #      bozulduğunu bilsin: ①/② kırılırsa anahtar EKSİK girdi taşır ve
 #      önbellek SESSİZCE bayat sonuç verir.
-def _ctx_oz(kim, adlar):
+def _delikler(g):
+    """`g`nin iç halkaları poligon olarak (`_delik_talebi` ile AYNI kuruluş: `_temiz(Polygon(r))`)."""
+    out = []
+    for p in _parcalar(g):
+        for r in p.interiors:
+            try:
+                h = _temiz(Polygon(r))
+            except Exception:
+                continue
+            if not h.is_empty:
+                out.append(h)
+    return out
+
+
+def _engel_yerel_oz(g):
+    """DOLGU-YEREL-1127: delik engelinin YALNIZ bu gövdeyi ilgilendiren payının özeti.
+
+    🔴 ÖLÇÜLEN KUSUR (Koşu 40, `denetim/KOSU-SORUSTURMA-1127.md` §2.4-N2): engel (o gün sahnedeki
+       BÜTÜN dünyanın kabile/devletsiz noktaları) her devletin anahtarına BÜTÜN OLARAK giriyordu;
+       dünyanın herhangi bir yerinde tek nokta değişince bütün devletler ıskalıyordu.
+    ⇒ Engeli okuyan TEK yer `_delik_talebi`dir ve yalnız `h.intersects(engel)` sorar (h = g'nin
+       deliği). Sonuç, deliklere DÜŞEN noktaların kümesiyle belirlenir — anahtar da yalnız onu taşır.
+       Deliği olmayan gövde engeli hiç okumaz ("-")."""
+    en = _CTX.get("engel")
+    if en is None or en.is_empty:
+        return "-"
+    try:
+        import numpy as _np
+        oz_g = _oz(g)
+        du = _DELIK_ONB.get(oz_g, 0)
+        if du == 0:                     # gövdenin delik birleşimi BİR KEZ kurulur ve hazırlanır
+            dl = _delikler(g)
+            du = unary_union(dl) if dl else None
+            if du is not None:
+                shapely.prepare(du)
+            if len(_DELIK_ONB) > 20000:
+                _DELIK_ONB.clear()
+            _DELIK_ONB[oz_g] = du
+        if du is None:
+            return "-"
+        if _ENGEL_NOKTA[0] is not en:   # kesitin engel noktaları BİR KEZ diziye açılır
+            _ENGEL_NOKTA[0] = en
+            _ENGEL_NOKTA[1] = shapely.get_parts(en)
+            _ENGEL_NOKTA[2] = shapely.get_coordinates(en)
+        m = shapely.intersects(du, _ENGEL_NOKTA[1])
+        if not m.any():
+            return "bos"
+        xy = _ENGEL_NOKTA[2][m]
+        xy = xy[_np.lexsort((xy[:, 1], xy[:, 0]))]
+        return _hlo.sha256(_np.ascontiguousarray(xy).tobytes()).hexdigest()
+    except Exception:
+        _yut("engel_yerel:kesisim (küresel özete düştü)")
+        return _oz(en)                  # ölçemedik ⇒ ESKİ (küresel) özet: güvenli taraf
+
+
+def _ctx_oz(kim, adlar, g=None):
     """MOTOR-YAMA-5GUN-B-1118: devlet düzeyi önbellek anahtarının KESİT-BAĞLAMI payı. Sonuç; ızgara
     (paylaşımın sahipleri: bu devlet + 1 sıçrama komşunun o günkü yerleşim kümesi), kendi hat
-    duvarı ve delik engelleri (sahnedeki kabile/devletsiz noktalar) ile değişir — üçü de anahtarda."""
+    duvarı ve delik engelleri (sahnedeki kabile/devletsiz noktalar) ile değişir — üçü de anahtarda.
+    `g` verilirse (devlet anahtarı) engel YEREL özetle girer (`_engel_yerel_oz`); verilmezse (kesit
+    anahtarı) küresel özetle — kesit bütün dünyayı kapsar."""
     izg, dv, en = _CTX.get("izgara"), _CTX.get("duvar"), _CTX.get("engel")
     iz = ""
     if izg is not None:
@@ -674,8 +791,38 @@ def _ctx_oz(kim, adlar):
         iz = izg.get("grid_oz", "") + ":" + ",".join(
             "%s=%s" % (d, d_oz.get(d, "-")) for d in sorted(set(adlar) | {kim}))
     du = _oz(dv.get(kim)) if dv and dv.get(kim) is not None else "-"
-    eo = _oz(en) if en is not None else "-"
+    if g is not None:
+        eo = _engel_yerel_oz(g)
+    else:
+        eo = _oz(en) if en is not None else "-"
     return "ctx|%s|%s|%s" % (iz, du, eo)
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+# DOLGU-YEREL-1127 — süreç içi devlet ezberi (LRU)
+# ═══════════════════════════════════════════════════════════════════════════
+# Devlet sonucu isabet etse bile her kesitte SQLite'tan okunup `pickle.loads` ediliyordu
+# (kesit başına ~350 okuma). Anahtar içerik adresli olduğu için aynı anahtarın sonucu aynıdır;
+# bellekte tutulan son `_DEVLET_TAVAN` sonuç diske hiç gitmeden döner. Yalnız hız; sonucu etkilemez.
+from collections import OrderedDict as _OD      # noqa: E402
+_DEVLET_ONB = _OD()
+# ⚠️ Ayar adları BİLEREK `MOTOR_` ile başlamıyor: `uret_petek.py` işletim listesinde olmayan her
+#    `MOTOR_*` değişkenini önbellek tuzuna katar (:655) ⇒ bu düğmelerden biri verilseydi A'nın
+#    bütün önbelleği ıskalardı. Bunlar yalnız hız/görünürlük düğmesidir, sonucu etkilemez.
+_DEVLET_TAVAN = int(os.environ.get("DOLGU_DEVLET_ONB", "6000"))
+ILERLEME = {"devlet_hesap": 0, "devlet_bellek": 0, "devlet_disk": 0,
+            "kapanis_hesap": 0, "kapanis_miras": 0, "kapanis_disk": 0}
+# Gövde başına bir kez kurulan yardımcılar ve ÇİFT bazlı komşuluk ezberi (içerik özetiyle anahtarlı):
+# bir gövdenin ham talebi yalnız o gövdenin fonksiyonudur ⇒ (gövde_i, gövde_j) çiftinin yakınlık ve
+# kesişim cevabı ikisi de değişmedikçe aynıdır. Kesitten kesite çiftlerin çoğu değişmez; gerçek
+# geometri sorgusu yalnız YENİ çift için yapılır.
+_DELIK_ONB = {}                 # gövde özeti → deliklerin (hazırlanmış) birleşimi | None
+_ENGEL_NOKTA = [None, None, None]
+_BOLGE_ONB = _OD()              # gövde özeti → bölge (ham ∪ delikler), hazırlanmış
+_BOLGE_TAVAN = 3000
+_CIFT_G = {}                    # (özet_i, özet_j) → gövde_j bölge_i'ye TEMAS içinde mi
+_CIFT_T = {}                    # (özet_a, özet_b) sıralı → ham_a ∩ ham_b ≠ ∅ mi
+_CIFT_TAVAN = 3000000
 
 
 def _yol_devlet(govdeler, ham, rapor, kara_oz, r_km, g_agac, g_liste):
@@ -687,22 +834,91 @@ def _yol_devlet(govdeler, ham, rapor, kara_oz, r_km, g_agac, g_liste):
     h_liste = [ham[i] for i in ham_var]
     h_agac = STRtree(h_liste)
 
+    # 🔴 DOLGU-YEREL-1127 — KOMŞULUK SINIR KUTUSUYLA DEĞİL, GERÇEK YAKINLIKLA.
+    #    ÖLÇÜLEN KUSUR (Koşu 40, `denetim/KOSU-SORUSTURMA-1127.md` §2.4-N1): yüklemsiz
+    #    `STRtree.query` kutu kesişimi verir; dünyaya yayılmış gövdelerin (1760: ispanya 234°×88°,
+    #    ingiltere 206°×77°) kutusuna dünyanın çoğu girer. Sonuç: kesit başına ortalama 2,7 gövde
+    #    değişirken 50,7 devlet yeniden hesaplandı; tek hesabı ingiltere 458 sn, fransa 347 sn.
+    #    Ⓑ 183 saatte yarıya gelebildi.
+    # ⇒ B_i = bölge_i'ye `TEMAS` kadar yakın gövdeler; bölge_i = ham_i ∪ g_i'nin delikleri.
+    #    NİÇİN YETER — `_devlet_hesap`ın gövde okuyan DÖRT yeri de bu kümenin içinde kalır:
+    #      ① engel = t ∩ B · t − B       → yalnız ham_i'ye DEĞEN gövde bir şey katar (t ⊆ ham_i)
+    #      ② `_delik_talebi(g, B)`        → yalnız g_i'nin bir deliğine değen gövde (delik ⊆ bölge_i)
+    #      ③ `yakin(p)` → `_cins` ağzı    → p ⊆ bölge_i; ağız = p.sınırı − tampon(TEMAS) ⇒ p'ye TEMAS'tan
+    #      ④ `_koridor_kirp(p2, yakin)`     uzak gövdenin tamponu p'nin sınırına HİÇ değmez
+    #    Kutuya değip bölgeye TEMAS'tan uzak kalan gövde bu dördünün hiçbirine bir şey katamaz.
+    #    Talep komşuluğu da aynı: `_devlet_hesap` yalnız t_i ∩ ham_j ≠ ∅ olanı kullanır (t_i ⊆ ham_i).
+    # ⚠️ Sorgu düşerse ESKİ davranışa (kutu) dönülür ve sayılır — eksik komşu sessizce yanlış
+    #    dolgu üretir, fazla komşu yalnız yavaşlatır.
+    ozl = [_oz(g) for _k, g in govdeler]
+
+    def _bolge(i):
+        z = _BOLGE_ONB.get(ozl[i])
+        if z is not None:
+            _BOLGE_ONB.move_to_end(ozl[i])
+            return z
+        dl = _delikler(govdeler[i][1])
+        z = ham[i] if not dl else _temiz(unary_union([ham[i]] + dl))
+        shapely.prepare(z)
+        _BOLGE_ONB[ozl[i]] = z
+        while len(_BOLGE_ONB) > _BOLGE_TAVAN:
+            _BOLGE_ONB.popitem(last=False)
+        return z
+
     def komsu_govde(i):
-        """`ham_i`nin kutusuna değen gövdeler (kendisi hariç) — B_i'nin
-        indeksleri. `_yakin`ın sorduğu soruyla BİREBİR aynı soru."""
+        """bölge_i'ye `TEMAS` kadar yakın gövdeler (kendisi hariç) — B_i'nin indeksleri.
+        Aday = kutusu (TEMAS payıyla) değenler; gerçek yakınlık çift ezberinden ya da bir kez ölçülerek."""
         try:
-            ix = [int(q) for q in g_agac.query(ham[i])]
+            z = _bolge(i)
+            x0, y0, x1, y1 = z.bounds
+            out = []
+            for q in g_agac.query(box(x0 - TEMAS, y0 - TEMAS, x1 + TEMAS, y1 + TEMAS)):
+                q = int(q)
+                if q == i:
+                    continue
+                ck = (ozl[i], ozl[q])
+                v = _CIFT_G.get(ck)
+                if v is None:
+                    v = bool(shapely.dwithin(z, g_liste[q], TEMAS))
+                    if len(_CIFT_G) > _CIFT_TAVAN:
+                        _CIFT_G.clear()
+                    _CIFT_G[ck] = v
+                if v:
+                    out.append(q)
+            return sorted(out)
         except Exception:
-            ix = list(range(n))
-        return sorted(q for q in ix if q != i)
+            _yut("yerel:govde_sorgu (kutu komşuluğuna düştü)")
+            try:
+                ix = [int(q) for q in g_agac.query(ham[i])]
+            except Exception:
+                ix = list(range(n))
+            return sorted(q for q in ix if q != i)
 
     def komsu_talep(i):
-        """`ham_i`nin kutusuna değen ÖTEKİ ham talepler."""
+        """`ham_i` ile GERÇEKTEN kesişen öteki ham talepler (çift ezberli)."""
         try:
-            ix = [int(q) for q in h_agac.query(ham[i])]
+            out = []
+            for q in h_agac.query(ham[i]):
+                j = ham_var[int(q)]
+                if j == i:
+                    continue
+                ck = (ozl[i], ozl[j]) if ozl[i] <= ozl[j] else (ozl[j], ozl[i])
+                v = _CIFT_T.get(ck)
+                if v is None:
+                    v = bool(shapely.intersects(ham[i], ham[j]))
+                    if len(_CIFT_T) > _CIFT_TAVAN:
+                        _CIFT_T.clear()
+                    _CIFT_T[ck] = v
+                if v:
+                    out.append(j)
+            return sorted(out)
         except Exception:
-            ix = list(range(len(ham_var)))
-        return sorted(ham_var[int(q)] for q in ix if ham_var[int(q)] != i)
+            _yut("yerel:talep_sorgu (kutu komşuluğuna düştü)")
+            try:
+                ix = [int(q) for q in h_agac.query(ham[i])]
+            except Exception:
+                ix = list(range(len(ham_var)))
+            return sorted(ham_var[int(q)] for q in ix if ham_var[int(q)] != i)
 
     parcalar = []
     for i in ham_var:
@@ -718,9 +934,20 @@ def _yol_devlet(govdeler, ham, rapor, kara_oz, r_km, g_agac, g_liste):
             "%s=%s" % (kim, _oz(g)),
             "|".join("%s=%s" % (govdeler[j][0], _oz(govdeler[j][1]))
                      for j in _cevre),
-            _ctx_oz(kim, [govdeler[j][0] for j in _cevre]))
-        var, deger = _ONB.oku("dolgu2_devlet", an)
+            _ctx_oz(kim, [govdeler[j][0] for j in _cevre], g))
+        deger = _DEVLET_ONB.get(an)
+        if deger is not None:
+            _DEVLET_ONB.move_to_end(an)
+            ILERLEME["devlet_bellek"] += 1
+            var = True
+        else:
+            var, deger = _ONB.oku("dolgu2_devlet", an)
+            if var:
+                ILERLEME["devlet_disk"] += 1
         if var:
+            _DEVLET_ONB[an] = deger
+            while len(_DEVLET_ONB) > _DEVLET_TAVAN:
+                _DEVLET_ONB.popitem(last=False)
             ps, eng, km2t, kes = deger
             parcalar.extend(ps)
             rapor["engellendi"].extend(eng)
@@ -729,8 +956,15 @@ def _yol_devlet(govdeler, ham, rapor, kara_oz, r_km, g_agac, g_liste):
             continue
 
         _t0 = time.time()
+        ILERLEME["devlet_hesap"] += 1
         ps, eng, km2t, kes = _devlet_hesap(i, kim, g, ham, govdeler, kb, kt,
                                            g_liste, rapor)
+        # KANONİK SIRA: çıkarılan komşu kümesi daraldığı için GEOS'un parça sırası değişebilir;
+        # çıktı sırası (dolayısıyla havuz indeksleri) komşu kümesine değil İÇERİĞE bağlı olsun.
+        ps.sort(key=lambda d: (d["cins"], d["g"].bounds, shapely.to_wkb(d["g"], output_dimension=2)))
+        _DEVLET_ONB[an] = (ps, eng, km2t, kes)
+        while len(_DEVLET_ONB) > _DEVLET_TAVAN:
+            _DEVLET_ONB.popitem(last=False)
         SAYAC["duvar_kesilen_km2"] += kes
         if os.environ.get("MOTOR_DOLGU_IZ") == "1":
             import psutil
@@ -860,7 +1094,11 @@ def _devlet_hesap(i, kim, g, ham, govdeler, kb, kt, g_liste, rapor):
         for p in _parcalar(alan):
             if _km2(p) < ESIK_KM2:
                 continue
-            p2 = _temiz(p.simplify(SADE_TOL, preserve_topology=True))
+            # DOLGU-YEREL-1127: sadeleştirme halkanın BAŞLANGIÇ KÖŞESİNE duyarlıdır (Douglas-Peucker
+            # oradan demirler) ve o köşe, çıkarılan komşu kümesinin bileşimine göre değişir — aynı
+            # geometri, farklı köşe sırası, ~1 km'lik farklı kırıntı (ölçüldü: 0800 kesiti, silla).
+            # Önce KANONİK biçime getirilir ki sonuç yalnız geometriye bağlı olsun.
+            p2 = _temiz(shapely.normalize(p).simplify(SADE_TOL, preserve_topology=True))
             if p2.is_empty:
                 continue
             c = zorla or _cins(p, g, yakin(p))
@@ -1033,19 +1271,29 @@ def kesit_dolgu(govdeler, kara=None, kara_hazir=None, r_km=None, izgara=None, du
             # gövdesi değişirse yalnız onun kapanışı ıskalar; ötekiler
             # bütün koşular boyunca isabet eder. Emre'nin lego ilkesinin
             # süreyi taşıyan yarısı budur.
-            _tan = _ONB.anahtar("dolgu2_talep", _kara_oz, "%.4f" % r_km, _oz(g))
-            _v, _t = _ONB.oku("dolgu2_talep", _tan)
+            _tan = _ONB_TALEP.anahtar("dolgu2_talep", _kara_oz, "%.4f" % r_km, _oz(g))
+            _v, _t = _ONB_TALEP.oku("dolgu2_talep", _tan)
             if _v:
                 t = _t
+                ILERLEME["kapanis_disk"] += 1
             else:
-                _tb = time.time()
-                t = _talep(g, kara_hazir, kara, r_km)
-                _gec = time.time() - _tb
-                rapor["sn_kapanis"] += _gec
-                if _gec > 4.0:
-                    print("      [yavas] %-28s %.1f sn (kapanis)" % (kim, _gec),
-                          flush=True)
-                _ONB.yaz("dolgu2_talep", _tan, t)
+                _mv = False
+                if _ONB_MIRAS is not None:
+                    _mv, _mt = _ONB_MIRAS.oku("dolgu2_talep", _ONB_MIRAS.anahtar(
+                        "dolgu2_talep", _kara_oz, "%.4f" % r_km, _oz(g)))
+                if _mv:
+                    t = _mt
+                    ILERLEME["kapanis_miras"] += 1
+                else:
+                    _tb = time.time()
+                    t = _talep(g, kara_hazir, kara, r_km)
+                    _gec = time.time() - _tb
+                    rapor["sn_kapanis"] += _gec
+                    ILERLEME["kapanis_hesap"] += 1
+                    if _gec > 4.0:
+                        print("      [yavas] %-28s %.1f sn (kapanis)" % (kim, _gec),
+                              flush=True)
+                _ONB_TALEP.yaz("dolgu2_talep", _tan, t)
             if _an is not None:
                 _TALEP_ONB[_an] = t
                 _TALEP_SIRA.append(_an)
@@ -1298,7 +1546,28 @@ def kosudan(araliklar, kara, cikti, ilerleme=None, kesit_sinir=0, ufuk_gun=None,
     havuz, kayitlar = Havuz(), []
     cins_sayac = {c: 0 for c in CINSLER}
     acik = {}
+    # DOLGU-YEREL-1127 — SAYAÇSIZ AŞAMA OLMAZ. Koşu 40'ta Ⓑ 183 saat koştu ve kaçıncı kesitte olduğu,
+    # ne kadar kaldığı HİÇBİR YERDE yazmıyordu; "takıldı mı, yavaş mı" 6 gün ölçülemedi. Artık en geç
+    # `MOTOR_DOLGU_ILERLEME_SN` (300) saniyede bir satır basılır: kesit n/N, tarih, geçen süre, son
+    # dilimin hızıyla tahminî kalan ve devlet hesabının nereden geldiği (hesap / bellek / disk).
+    _il_sn = float(os.environ.get("DOLGU_ILERLEME_SN", "300") or "300")
+    _il_son, _il_n, _il_h = time.time(), 0, 0
+    print("  Ⓑ dolgu: %d kesit (%s … %s) · yarıçap %.1f km" % (
+        len(tarihler), tarihler[0] if tarihler else "-", tarihler[-1] if tarihler else "-", _r_km),
+        flush=True)
     for n, a in enumerate(tarihler, 1):
+        if time.time() - _il_son >= _il_sn:
+            _simdi = time.time()
+            _hiz = (_simdi - _il_son) / max(1, n - 1 - _il_n)          # sn/kesit, son dilim
+            print("    Ⓑ kesit %d/%d (%s) · geçen %.1f sa · son dilim %.1f sn/kesit · tahminî kalan "
+                  "%.1f sa · devlet: hesap %d (son dilimde %d) / bellekten %d / diskten %d · "
+                  "kapanış: hesap %d / miras %d / diskten %d" % (
+                      n - 1, len(tarihler), a, (_simdi - t0) / 3600.0, _hiz,
+                      _hiz * (len(tarihler) - n + 1) / 3600.0, ILERLEME["devlet_hesap"],
+                      ILERLEME["devlet_hesap"] - _il_h, ILERLEME["devlet_bellek"],
+                      ILERLEME["devlet_disk"], ILERLEME["kapanis_hesap"],
+                      ILERLEME["kapanis_miras"], ILERLEME["kapanis_disk"]), flush=True)
+            _il_son, _il_n, _il_h = _simdi, n - 1, ILERLEME["devlet_hesap"]
         # Önbellek anahtarı = aralık indeksi (bkz. `_TALEP_ONB` başlığı).
         govdeler = [(kim, g, _ai) for _ai, (f, t, kim, g)
                     in enumerate(araliklar) if _gk(f) <= _gk(a) < _gk(t)]
