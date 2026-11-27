@@ -504,7 +504,7 @@ def aktif_hatlar(ham, tabi, g, pen):
 
     def tabi_mi(p):
         return any(gn(f) <= n < gn(t) for f, t in tabi.get(p, ()))
-    out, say = [], collections.Counter()
+    out, say, kim = [], collections.Counter(), set()
     for r in ham:
         sn = r.get("sinif") or r.get("kategori") or "?"
         if sn not in SINIR_SINIF:
@@ -531,7 +531,10 @@ def aktif_hatlar(ham, tabi, g, pen):
             for l2 in hatlar_ayir([ln.intersection(P)]):
                 out.append(l2)
             say["hat"] += 1
-    return out, dict(say)
+            kim.add(r["id"])
+    say = dict(say)
+    say["kimlikler"] = sorted(kim)
+    return out, say
 
 
 def kaynak_listesi(Y, HA, g, pen):
@@ -1013,11 +1016,16 @@ def _dizi(m, ad):
     return json.loads(m[i:m.index("];", i) + 1])
 
 
-def eski_cikar(onb, taze=False):
-    """data/devletler_harita.js + data/donemler.js → {gün: {anahtar: [WKB…]}} (iki kutunun birleşimi)."""
+def eski_cikar(onb, gunler, taze=False):
+    """data/devletler_harita.js + data/donemler.js → {gün: {anahtar: [WKB…]}} (iki kutunun birleşimi).
+    Önbellekte olmayan gün istenirse yalnız o günler okunur ve önbelleğe eklenir."""
     yol = os.path.join(onb, "eski-%s.pkl" % SURUM)
+    out, izb = {}, {}
     if os.path.exists(yol) and not taze:
-        return pickle.load(open(yol, "rb"))
+        out, izb = pickle.load(open(yol, "rb"))
+    eksik = [g for g in gunler if g not in out]
+    if not eksik:
+        return out, izb
     yd = os.path.join(KOK, "data", "devletler_harita.js")
     yo = os.path.join(KOK, "data", "donemler.js")
     if not (os.path.exists(yd) and os.path.exists(yo)):
@@ -1038,8 +1046,8 @@ def eski_cikar(onb, taze=False):
             p = p.buffer(0)
         return None if p.is_empty else p
 
-    out = {g: {} for g in GUNLER}
-    soyle("eski harita okunuyor (devletler_harita.js)…")
+    out.update({g: {} for g in eksik})
+    soyle("eski harita okunuyor (devletler_harita.js) · günler:", eksik)
     m = open(yd, encoding="utf-8").read()
     DH = _dizi(m, "DEVLET_HARITA"); PH = _dizi(m, "DEVLET_PARCA_HALKA")
     havuz = _havuz_parcala(m, "DEVLET_PARCALAR")
@@ -1047,7 +1055,7 @@ def eski_cikar(onb, taze=False):
     del m
     for kayit in DH:
         for d in kayit.get("dnm") or []:
-            for g in GUNLER:
+            for g in eksik:
                 if d.get("f") and d.get("t") and gn(d["f"]) <= gn(g) < gn(d["t"]):
                     for i in d.get("g") or []:
                         p = poligon(havuz, PH[i])
@@ -1059,7 +1067,7 @@ def eski_cikar(onb, taze=False):
     D = _dizi(m, "DONEMLER"); PH = _dizi(m, "PARCA_HALKA")
     havuz = _havuz_parcala(m, "PARCALAR")
     del m
-    for g in GUNLER:
+    for g in eksik:
         sec = [d for d in D if gn(d["f"]) <= gn(g) < gn(d["t"])]
         if not sec:
             continue
@@ -1407,7 +1415,7 @@ def main():
     soyle("veri: %d yerleşim · %d künyede harita: · %d tâbi pencereli künye" % (len(Y), len(HA), len(tabi)))
     ham, ndos = hatlari_oku(a.onbellek, a.taze)
     soyle("antlaşma hattı: %d kayıt (%d dosya)" % (len(ham), ndos))
-    eski, eski_iz = eski_cikar(a.onbellek, a.taze)
+    eski, eski_iz = eski_cikar(a.onbellek, gunler, a.taze)
     olcum_yol = os.path.join(a.cikti, "olcum.json")
     olcum = json.load(open(olcum_yol, encoding="utf-8")) if os.path.exists(olcum_yol) else {}
     for kod in kutular:
@@ -1457,6 +1465,24 @@ def main():
                 return int(m.sum()), int((m & st["e_nehir"]).sum())
             ne_t, ne_n = nehir_orani(eski_k)
             ny_t, ny_n = nehir_orani(yeni_k)
+            # antlaşma hattını kesen komşu hücre çiftleri: iki yanda kim var? (K10 ölçümü, kutu içi)
+            dv = np.unique(kesen_adimlar(st["izg"], st["kara"], hatlar)[0]) if hatlar else np.zeros(0, np.int64)
+            dm = np.isin(st["e_a"], dv) & (st["e_u"] < st["e_v"])
+            def duvar_sinifi(L2):
+                Lp = np.full((ny, nx), -2, np.int64)          # -2 kutu dışı · -1 boyasız
+                Lp[j0:j1, i0:i1] = L2
+                lf = Lp.ravel()
+                a_, b_ = lf[st["e_u"][dm]], lf[st["e_v"][dm]]
+                ic = (a_ > -2) & (b_ > -2)
+                ayni = ic & (a_ >= 0) & (a_ == b_)
+                farkli = ic & (a_ >= 0) & (b_ >= 0) & (a_ != b_)
+                adlar = collections.Counter(anah_ad(anahlar[i]) for i in a_[ayni].tolist())
+                return {"cift": int(ic.sum()), "iki_yan_farkli_devlet": int(farkli.sum()),
+                        "iki_yan_ayni_devlet": int(ayni.sum()),
+                        "en_az_bir_yan_boyasiz": int((ic & ~ayni & ~farkli).sum()),
+                        "ayni_devlet_dokumu": dict(adlar.most_common(8))}
+            dv_e, dv_y = duvar_sinifi(eski_k), duvar_sinifi(yeni_k)
+            soyle("  duvar çiftleri · eski:", dv_e, "· yeni:", dv_y)
             # çizim
             senaryo = {"gun": g, "kay": kay, "hatlar": hatlar,
                        "tarihsiz_xy": [(Y[i]["lon"], Y[i]["lat"]) for i in tarihsiz
@@ -1482,6 +1508,7 @@ def main():
                 "hesap": son["olc"],
                 "sinir_kenari": {"eski_toplam": ne_t, "eski_nehirde": ne_n,
                                  "yeni_toplam": ny_t, "yeni_nehirde": ny_n},
+                "duvar_cifti": {"eski": dv_e, "yeni": dv_y},
                 "senaryo_sn": sure, "tepe_bellek_mb": tepe_bellek_mb(),
                 "statik": st["olcum"],
             }

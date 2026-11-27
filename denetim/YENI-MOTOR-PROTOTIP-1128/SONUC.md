@@ -182,8 +182,9 @@ ekliyor. Yani abi-merkez verisi gelince çöl haritası bu resimlerden farklı �
 
 ## ② Ne bulamadım / ne ölçmedim
 
-- Duvar kuralı tek hatta sınandı (Kerden 1751). Osmanlı'nın taraf olduğu yoğun hat bölgesi (1699 sonrası
-  Macaristan, 1878 sonrası Balkanlar) bu üç günde yok; yorum 1 orada görülmeli.
+- Duvar kuralı ilk turda tek hatta sınandı (Kerden 1751). İkinci turda 1700 ve 1900 de koşturuldu — sonuç
+  en alttaki EK'te. "Yoğun hat bölgesi (1699 sonrası Macaristan, 1878 sonrası Balkanlar)" varsayımım YANLIŞ
+  çıktı: o hatlar veride yok.
 - `denetle.py` değişmezleri (1, 2, 3, 8) koşturulmadı: prototip motorun çıktı dosyalarını üretmiyor.
 - Dağ sırtına oturma için sayı yok; yalnız göz.
 - Aşiret penceresinin (yorum 6) etkisi ölçülmedi; veri yok.
@@ -194,5 +195,70 @@ ekliyor. Yani abi-merkez verisi gelince çöl haritası bu resimlerden farklı �
 1. Resimlere bakıp karar: kural seti genel olarak "evet bu" mu? Özellikle çöl kutusu.
 2. Yukarıdaki dört soruya cevap: yorum 1 (duvarın iki yanı), yorum 2 (boyamayan kaynakla şerit),
    yorum 4 (kıyı cebi dolsun mu), yorum 6 (tarihsiz aşiret).
-3. Önerim: bir sonraki adımda aynı betikle 1700 ve 1900 günlerini Balkan kutusunda koşturmak (duvar kuralını
-   yoğun hat bölgesinde görmek) ve 16 komşulu yürüyüşü denemek. İkisi de bu betikte küçük değişiklik.
+3. ~~1700 ve 1900 günlerini Balkan kutusunda koşturmak~~ — YAPILDI (Emre: "Evet, koştur"), EK'e bak.
+   Kalan önerim: 16 komşulu yürüyüşü denemek (bu betikte küçük değişiklik).
+
+---
+
+## EK (28 Kasım 2026, ikinci tur) — 1700 ve 1900, Balkan kutusu: duvar kuralı
+
+Komut: `py denetim/YENI-MOTOR-PROTOTIP-1128/prototip.py --kutu anadolu-balkan --gun 1700-06-15 --gun 1900-06-15`
+(iki senaryo 51 sn; tepe bellek 2.111 MB, eski haritayı bu iki gün için yeniden okuduğu için).
+Betikte iki ekleme: eski harita artık istenen her gün için okunur (önceden yalnız üç gün); hattı kesen komşu
+hücre çiftlerinin iki yanında kim olduğu sayılır (`olcum.json` → `duvar_cifti`).
+
+Yeni dosyalar: `anadolu-balkan-1700-06-15-*.png`, `anadolu-balkan-1900-06-15-*.png` (eski-yeni + katman),
+yakın kırpımlar `duvar-yakin-1700.png`, `duvar-yakin-1900.png` (İran sınırı), `duvar-yakin-1900-tuna.png`
+(Prut–Tuna). Kırpımlarda sol = eski, sağ = yeni, siyah kesik çizgi = antlaşma hattı.
+
+### 1) Beklediğim hatlar veride yok
+
+Balkan kutusuna değen 99 hat kaydı var (64 E, 25 C, 9 D, 1 sınıfsız). Osmanlı'nın taraf olduğu 17'si:
+İran sınırı 10 (1639, 1736, 1746, 1751, 1794, 1847, 1913 ×4), Rusya 1829 ×2, Bulgaristan 1908–1915 ×5.
+**Osmanlı–Habsburg (Karlofça 1699, Pasarofça 1718, Belgrad 1739), Osmanlı–Venedik, Osmanlı–Sırbistan,
+–Karadağ, –Yunanistan hattı hiç yok** (`data/d_sinirlar*.js` kimliklerinde de arandı, çıkmadı).
+
+| Gün | Kutuda o gün geçerli hat |
+|---|---|
+| 1700-06-15 | 1 — Osmanlı–Safevî, Kasr-ı Şîrin 1639 |
+| 1900-06-15 | 4 — Osmanlı–Kaçar (Erzurum 1847), Rusya–Romanya Prut ve Tuna (1878), Rusya–Kaçar Aras (1893). Bulgaristan–Romanya'nın iki hattı sayılmadı: Bulgaristan o gün Osmanlı'ya tâbi |
+
+Yani Balkanlarda duvar kuralının sınanacağı hat yok; kural yine yalnız doğu sınırında ve Prut'ta görülebildi.
+Bu bir **veri borcu**: Balkan antlaşma hatları çizilmeden K10 orada hiçbir şey yapmaz.
+
+### 2) Hat olan yerde kural çalışıyor
+
+Hattı kesen komşu hücre çiftlerinde iki yanda kim var (kutu içi):
+
+| Gün | Çift | Eski: iki yanda FARKLI devlet | Yeni: iki yanda FARKLI devlet |
+|---|---|---|---|
+| 1700 | 264 | 27 (%10) | 172 (%65) |
+| 1900 | 601 | 352 (%59) | 522 (%87) |
+
+"İki yanda farklı devlet" = sınır tam hattın üstünde. Eski haritada 1700'de hattın %90'ı bir devletin
+içinden geçiyor (Osmanlı 142 çift, Safevî 95); yenide sınır hatta oturuyor (`duvar-yakin-1700.png`).
+Boyalı alan: 1700 eski 2.567.672 → yeni 2.599.833 km²; 1900 eski 2.573.373 → yeni 2.599.833 km².
+
+### 3) Yenide de hattın iki yanında aynı devlet kalan yerler — sebep veri
+
+Yenide 1700'de 92, 1900'de 79 çiftte iki yan aynı devlet. Hepsi 5 günlük çekirdek hücresi; dökümü:
+
+- **Bacirge (Esendere), Osmanlı — 55 çift (iki günde de).** Yerleşim noktası hatta **0,3 km** uzakta ve
+  hattın DOĞU (İran) yanında. Hat geçilmez olunca Bacirge İran yakasında kapalı kalıyor ve orada hat boyunca
+  ince bir Osmanlı şeridi boyuyor. Hat bütün İran sınırı için 153 noktayla çizilmiş; 300 metre bu çizimin
+  hassasiyetinin altında. Güneyde Gōrabī–Balıklı arasında 7 çift daha aynı türden.
+- **Mâkû–Beri, Safevî — 27 çift (yalnız 1700).** 1639 hattı 1847 hattıyla aynı çizgi (153 nokta, yerleşimlere
+  uzaklıkları aynı). 1700'de veride Beri (hattın 30 km batısında) Safevî; yani çizgi kuzey ucunda o günün
+  sahipliğiyle uyuşmuyor. 1900'de Beri Rusya'nın, çelişki yok.
+- **Prut–Tuna uçları, 14 çift (yalnız 1900).** Hattın bittiği yer ve delta. Sebebini ayrıca doğrulamadım.
+
+Sonuç: kural taslağında değişiklik gerektiren bir şey görmedim; ama üretim motorunda **"kaynak hatta bir
+hücreden (5 km) yakınsa hangi yanda sayılır"** sorusu çıkacak. Önerim kural eklemek değil, veriyi düzeltmek
+(Bacirge noktası ya da hat) ve denetime "hatta 5 km'den yakın kaynak" listesi koymak.
+
+### 4) Bulamadıklarım (bu tur)
+
+- Balkan hatları olmadığı için yorum 1 (duvarın iki yanındaki kaynaklar komşu sayılsın mı) yine yalnız
+  İran sınırında görüldü.
+- Prut–Tuna ucundaki 14 çiftin sebebi ölçülmedi.
+- 1639 hattının kuzey ucu için kaynak araştırması yapmadım (hat mı yanlış, Beri'nin 1700 sahibi mi).
