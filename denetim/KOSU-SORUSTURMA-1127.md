@@ -481,7 +481,10 @@ geometriyi vermeli; komşuluk daraltmasının kanıtı budur.
 | 0800-01-01 | 80 | AYNI · 448/448 ayrık parça · simetrik fark 2,3e-15 derece² | aynı |
 | 1300-06-15 | 339 | **bit bit AYNI** · 1.127/1.127 ayrık parça · simetrik fark 0 | aynı |
 | 1550-06-15 | 320 | **bit bit AYNI** · 1.041/1.041 ayrık parça · simetrik fark 0 | aynı |
-| 1760-03-11 | 346 | sürüyor (27.11 20:16) | |
+| 1760-03-11 | 346 | AYNI · 1.538/1.538 ayrık parça bit bit · simetrik fark 1,3e-15 | aynı |
+
+Sınav 27.11 22:58'de bitti: **SONUÇ: HEPSİ AYNI** (dört kesit). 1760'ta sadeleştirme kapalıyken soğuk
+süre: ESKİ 2.514 sn (kapanış ezberden; çekişme 1.923) ↔ YENİ 1.490 sn (kapanış 660 dahil; çekişme 617).
 
 **Bilinen ve beyan edilen fark:** üretim ayarında (sadeleştirme 0,01° açık) YENİ çıktı ESKİ çıktıyla bit
 düzeyinde aynı DEĞİLDİR: 0800 kesitinde toplam 602,8 derece² dolguda simetrik fark 6,5e-3 derece²
@@ -497,6 +500,9 @@ ezber boşaltılıp sıfırdan hesaplananla karşılaştırıldı: 0800 ve 1300'
 |---|---|---|---|
 | 1300 | manica (orta boy gövde, 100 m) | 3 / 334 | 1 sn |
 | 1300 | altinorda (en büyük gövde, 100 m) | 22 / 334 | 53 sn |
+| 1550 | rusya (en büyük gövde) | 12 / 316 | 60 sn |
+| 1760 | yatenga (orta boy gövde) | 4 / 342 | <1 sn |
+| 1760 | rusya (en büyük gövde) | 29 / 342 | 143 sn |
 | 1760 (ESKİ kod, Ek A) | ayutthaya | 19 / 342 | 740 sn |
 
 **C.3 Hız (soğuk kesit, üretim ayarı).** 1760-03-11: YENİ **1.787 sn** (kapanış 827 · çekişme 714 · cins

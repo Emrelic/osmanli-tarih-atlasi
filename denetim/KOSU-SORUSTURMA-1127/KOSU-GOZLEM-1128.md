@@ -54,6 +54,9 @@ değilse not et ve sonra düzelt; karar oturumda. Her satır bir nöbet anıdır
   **PID 8588**: başla 28.11 02:05 · motor için son 30.11 08:00 · Ⓑ için son 02.12 08:00 · `--b-dk 100000`
   · ortam: `DOLGU_AYRI_SUREC=1`, `DOLGU_MIRAS_MODUL=da2eb150…`, `DOLGU_MIRAS_TALEP_KAYNAK=cb995dd6…`,
   `DOLGU_IZ_SN=20`.
+- **22:58** Sıkı eşitlik sınavı bitti: 0800, 1300, 1550, 1760 — **HEPSİ AYNI**. 1760'ta en büyük gövde
+  (rusya) oynatılınca 29/342 devlet yeniden hesaplandı, 143 sn; orta boy gövde (yatenga) 4/342, <1 sn.
+  Beklenti: Ⓑ'de kesit süresi, o kesitte hangi gövdenin değiştiğine göre 1 sn ile birkaç dakika arasında.
 - **Bu koşuda İLK KEZ denenen şeyler** (anayasa ilke 5'e aykırı; motor 02:05'ten önce koşturulamadığı için
   başka yolu yoktu, her biri ilk nöbette gözle doğrulanacak): ① motorun `bellek_olc2.py` sarmalı içinde
   koşması ② tek süreç + tek iş parçacığı (`MOTOR_SUREC_ISCI=1`, `MOTOR_PARALEL_ISCI=1`) ③ kopyalanmış
