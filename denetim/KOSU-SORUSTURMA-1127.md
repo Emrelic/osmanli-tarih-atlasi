@@ -480,8 +480,8 @@ geometriyi vermeli; komşuluk daraltmasının kanıtı budur.
 |---|---|---|---|
 | 0800-01-01 | 80 | AYNI · 448/448 ayrık parça · simetrik fark 2,3e-15 derece² | aynı |
 | 1300-06-15 | 339 | **bit bit AYNI** · 1.127/1.127 ayrık parça · simetrik fark 0 | aynı |
-| 1550-06-15 | 320 | sürüyor (27.11 20:00) | |
-| 1760-03-11 | 346 | sürüyor | |
+| 1550-06-15 | 320 | **bit bit AYNI** · 1.041/1.041 ayrık parça · simetrik fark 0 | aynı |
+| 1760-03-11 | 346 | sürüyor (27.11 20:16) | |
 
 **Bilinen ve beyan edilen fark:** üretim ayarında (sadeleştirme 0,01° açık) YENİ çıktı ESKİ çıktıyla bit
 düzeyinde aynı DEĞİLDİR: 0800 kesitinde toplam 602,8 derece² dolguda simetrik fark 6,5e-3 derece²
@@ -502,10 +502,12 @@ ezber boşaltılıp sıfırdan hesaplananla karşılaştırıldı: 0800 ve 1300'
 **C.3 Hız (soğuk kesit, üretim ayarı).** 1760-03-11: YENİ **1.787 sn** (kapanış 827 · çekişme 714 · cins
 56), ESKİ 3.652–4.110 sn (Ek A). Kapanış payı koşuda Koşu 40'ın kayıtlarından (miras) gelir.
 
-**C.4 Sınavın KÖR kaldığı yer.** "Deliğe düşen engel noktası sonucu değiştirmeli" denetimi üç kesitte
-de fark üretmedi (12 aday delik denendi): bu kesitlerde delik kuralına kalan dolu delik yok, küçük
-delikleri kapanış zaten dolduruyor. Yerel engel anahtarının doğruluğu kodla gerekçeli
-(`_engel_yerel_oz` başlığı), ölçümle GÖSTERİLMEDİ.
+**C.4 Ters yön (sınav kör mü).** "Deliğe düşen engel noktası sonucu değiştirmeli" denetimi 0800, 1300
+ve 1760'ta fark üretmedi (o kesitlerde delik kuralına kalan dolu delik yok; küçük delikleri kapanış
+zaten dolduruyor) — o üçünde sınav KÖR. **1550'de GÖRDÜ:** mogulistan'ın deliğine konan engel noktası
+dolguyu 1e-4 derece² değiştirdi ve ezber sıcakken hesaplanan sonuç sıfırdan hesaplananla aynı çıktı.
+Yerel engel anahtarı böylece bir kesitte ölçümle doğrulandı. `anlik_esitlik.py`de de delik kuralı
+çalıştı (78 devlet-kesit, 39 engelli delik) ve üç yol aynı dosyayı verdi.
 
 **C.5 Ayrı süreç yolu.** `denetim/KOSU-SORUSTURMA-1127/anlik_esitlik.py`: aynı 7 kesit üç yoldan
 (süreç içi · anlık görüntüden ayrı süreç, devlet kayıtları silinmiş · ayrı süreç, sıcak) hesaplanır,
