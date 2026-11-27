@@ -66,6 +66,13 @@ değilse not et ve sonra düzelt; karar oturumda. Her satır bir nöbet anıdır
   görüntü (`C:\atlas-olcum-1128\_dolgu_anlik\`) → çıktı yazımı (`petek_govde.js`, `donemler.js`; kod Koşu
   39 ile aynı, o koşuda çalıştı) → motor biter → nöbetçi Ⓑ'yi ayrı süreçte başlatır (`olcum\dolgu.out`).
 
+- **28.11 01:43 ÖN UÇUŞ** [ÖLÇÜLDÜ, HAVVA]: ① eşitlik sınavları geçti (sıkı sınav dört kesit HEPSİ AYNI
+  22:58; ayrı süreç sınavı bayt bayt aynı 20:14) ② ölçüm ağacındaki `arac\dolgu.py` düzeltilmiş sürüm
+  (sha256 `1af93447…`), `uret_petek.py` Koşu 40 ile aynı (sha256 `a60af734…`) ③ bekleyen süreç canlı: PID
+  8588 (üst süreç 19128), komut satırında `DOLGU_AYRI_SUREC=1`, miras ayarları ve `DOLGU_IZ_SN=20` var
+  ④ başka motor süreci yok (çalışan öteki Python'lar eczane uygulamaları) ⑤ boş RAM 12,1 / 23,7 GB, boş
+  commit 39,2 GB, boş disk 137,5 GB ⑥ `_petek_devam` 1.927 dosya. Eksik yok; hiçbir şeye dokunulmadı.
+
 ## Bilinen, bu koşuda DÜZELTİLMEYECEK kusurlar (not: sonraki tam inşaya)
 
 - Çıktı yazımı Ⓑ'den sonra (`uret_petek.py:10312` ↔ `:10353/:10595`).
@@ -74,4 +81,18 @@ değilse not et ve sonra düzelt; karar oturumda. Her satır bir nöbet anıdır
 - A/B ölçüm Dijkstra'ları her koşuda (2,5 dk).
 
 ## Koşu (28.11 02:05 →)
+
+- **02:19 BAŞLANGIÇ DENETİMİ** [ÖLÇÜLDÜ: `olcum\nobet.log`, `uretim_canli.log`, `olcum\bellek.csv`]
+  - 02:05:00 başladı (ölçer PID 2340). Sarmal (`bellek_olc2.py`) gerçek motorla ilk kez koştu: çalışıyor,
+    `motor.err` boş, `bellek-hata.txt` yok.
+  - 02:06 tuz `d7de80374c5d` doğrulandı; iki tuz da "geçen koşuyla AYNI ⇒ isabet bekleniyor". Düzeltilmiş
+    `dolgu.py` motor tuzunu değiştirmedi (beklenen, şimdi ölçüldü).
+  - 14 dakikada: girdi → ızgara → DEM → Dijkstra (2 dk) → iki A/B ölçüm Dijkstra'sı (1 dk 50 sn + 2 dk;
+    üretime katkısız, bilinen israf) → petekler → yaslama → polygonize (1 dk 52 sn) → örtü sadeleştirme.
+  - Bellek: özel 2,3 GB · çalışma 1,8 GB · boş RAM 10,9 GB. İşçi süreç yok (tek süreç).
+  - Uyarılar (koşuyu etkilemez, not): ızgarada yer bulunamayan 5 ada tohumu (Tarawa, Banaba, Funafuti,
+    Cocos, Kavaratti); DEM 84°'de bitiyor, kuzey 20 satır deniz seviyesiyle doldu; "hücresiz kaldı"
+    uyarıları (Mısır, Eski Kahire, Masvingo, Kaminaljuyú, Remle…): aynı yerde iki nokta olabilir, veri
+    tarafında bakılacak. 6.512 yetim yüz komşulara katıldı.
+  - Karar: sürdür.
 
